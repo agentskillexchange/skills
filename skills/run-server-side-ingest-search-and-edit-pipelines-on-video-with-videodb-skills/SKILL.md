@@ -1,44 +1,46 @@
 ---
 title: "Run server-side ingest, search, and edit pipelines on video with VideoDB Skills"
+slug: "run-server-side-ingest-search-and-edit-pipelines-on-video-with-videodb-skills"
 description: "Let an agent ingest video, transcribe it, search moments, clip results, and return playable streams without wiring up its own media pipeline."
-verification: security_reviewed
+github_stars: 73
+verification: "security_reviewed"
 source: "https://github.com/video-db/skills"
+author: "VideoDB"
+publisher_type: "organization"
+category: "Media & Transcription"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "video-db/skills"
   github_stars: 73
-category:
-  - "Media & Transcription"
-framework:
-  - "Multi-Framework"
 ---
 
 # Run server-side ingest, search, and edit pipelines on video with VideoDB Skills
 
 Let an agent ingest video, transcribe it, search moments, clip results, and return playable streams without wiring up its own media pipeline.
 
+## Prerequisites
+
+Python 3.9+, a VideoDB API key, network access to VideoDB services, and an agent that can load the skills repo
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-server-side-ingest-search-and-edit-pipelines-on-video-with-videodb-skills/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-server-side-ingest-search-and-edit-pipelines-on-video-with-videodb-skills
+```
+Install the repo with npx skills add video-db/skills or the documented plugin path, set VIDEO_DB_API_KEY in the environment or project .env, run the setup flow, then invoke the upload, search, transcription, clipping, or editing prompts from your agent.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/run-server-side-ingest-search-and-edit-pipelines-on-video-with-videodb-skills`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.videodb.io
 
 ## Source
 

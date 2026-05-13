@@ -2,6 +2,7 @@
 title: "Self-Improvement / Learnings Capture"
 slug: "self-improvement-learnings-capture"
 description: "Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions."
+github_stars: 602
 verification: "security_reviewed"
 source: "https://github.com/peterskoett/self-improving-agent"
 author: "Peter Skoett"
@@ -10,7 +11,7 @@ category: "Templates & Workflows"
 framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "peterskoett/self-improving-agent"
-  github_stars: 593
+  github_stars: 602
 ---
 
 # Self-Improvement / Learnings Capture

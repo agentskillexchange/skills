@@ -1,44 +1,46 @@
 ---
 title: "Decompile Android APKs into readable source with jadx for review and analysis"
+slug: "decompile-android-apks-into-readable-source-with-jadx-for-review-and-analysis"
 description: "Turn an APK into readable Java or decompiled source artifacts so an agent can inspect behavior before deeper reverse-engineering or triage."
-verification: security_reviewed
+github_stars: 46142
+verification: "security_reviewed"
 source: "https://github.com/skylot/jadx"
+author: "skylot"
+publisher_type: "individual"
+category: "Security & Verification"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "skylot/jadx"
   github_stars: 46142
-category:
-  - "Security & Verification"
-framework:
-  - "Multi-Framework"
 ---
 
 # Decompile Android APKs into readable source with jadx for review and analysis
 
 Turn an APK into readable Java or decompiled source artifacts so an agent can inspect behavior before deeper reverse-engineering or triage.
 
+## Prerequisites
+
+jadx CLI or GUI, target APK or DEX files, Java runtime, local workspace for extracted artifacts
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/decompile-android-apks-into-readable-source-with-jadx-for-review-and-analysis/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/decompile-android-apks-into-readable-source-with-jadx-for-review-and-analysis
+```
+Install jadx from the upstream release archive or package path, provide the target APK or DEX file, then run the documented decompile flow to inspect the generated readable source output.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/decompile-android-apks-into-readable-source-with-jadx-for-review-and-analysis`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/skylot/jadx
 
 ## Source
 

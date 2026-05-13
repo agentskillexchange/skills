@@ -1,12 +1,14 @@
 ---
 title: "Turn messy document collections into structured rows with DocETL"
+slug: "turn-messy-document-collections-into-structured-rows-with-docetl"
 description: "Define repeatable extraction pipelines that pull fields from large document collections, normalize outputs, and audit failures across the corpus."
-verification: security_reviewed
+github_stars: 3707
+verification: "security_reviewed"
 source: "https://github.com/ucbepic/docetl"
-category:
-  - "Data Extraction &amp; Transformation"
-framework:
-  - "Multi-Framework"
+author: "UCB EPIC"
+publisher_type: "organization"
+category: "Data Extraction & Transformation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "ucbepic/docetl"
   github_stars: 3707
@@ -16,29 +18,29 @@ tool_ecosystem:
 
 Define repeatable extraction pipelines that pull fields from large document collections, normalize outputs, and audit failures across the corpus.
 
+## Prerequisites
+
+Python 3.10+, DocETL, document corpus, extraction configuration
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/turn-messy-document-collections-into-structured-rows-with-docetl/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/turn-messy-document-collections-into-structured-rows-with-docetl
+```
+Install DocETL from the project instructions, configure the extraction pipeline for your document set, then run the pipeline to emit normalized structured outputs and review failures.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/turn-messy-document-collections-into-structured-rows-with-docetl`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docetl.org/
 
 ## Source
 

@@ -1,14 +1,15 @@
 ---
 title: "dbt MCP Server"
 slug: "dbt-mcp-server"
-description: "dbt MCP Server is built around dbt transformation framework. The underlying ecosystem is represented by dbt-labs/dbt-core (12,457+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like manifest.json, catalog.json, dbt run/test/build, dbt Cloud API and preserving the operational context […]"
+description: ""
+github_stars: 12768
 verification: "security_reviewed"
 source: "https://github.com/dbt-labs/dbt-core"
 category: "Data Extraction & Transformation"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "dbt-labs/dbt-core"
-  github_stars: 12733
+  github_stars: 12768
 ---
 
 # dbt MCP Server

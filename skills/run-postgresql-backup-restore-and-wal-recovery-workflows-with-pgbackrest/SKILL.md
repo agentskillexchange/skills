@@ -1,44 +1,46 @@
 ---
 title: "Run PostgreSQL backup restore and WAL recovery workflows with pgBackRest"
+slug: "run-postgresql-backup-restore-and-wal-recovery-workflows-with-pgbackrest"
 description: "Execute PostgreSQL backup, restore, verification, and point-in-time recovery runbooks with explicit repository and WAL handling."
-verification: security_reviewed
+github_stars: 3729
+verification: "security_reviewed"
 source: "https://github.com/pgbackrest/pgbackrest"
+author: "pgbackrest"
+publisher_type: "organization"
+category: "Runbooks & Diagnostics"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "pgbackrest/pgbackrest"
   github_stars: 3729
-category:
-  - "Runbooks & Diagnostics"
-framework:
-  - "Multi-Framework"
 ---
 
 # Run PostgreSQL backup restore and WAL recovery workflows with pgBackRest
 
 Execute PostgreSQL backup, restore, verification, and point-in-time recovery runbooks with explicit repository and WAL handling.
 
+## Prerequisites
+
+pgBackRest installation, PostgreSQL server access, configured backup repository storage, credentials and retention settings for the target environment
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-postgresql-backup-restore-and-wal-recovery-workflows-with-pgbackrest/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-postgresql-backup-restore-and-wal-recovery-workflows-with-pgbackrest
+```
+Install pgBackRest from the upstream packages or build instructions, configure a stanza and repository for the target PostgreSQL cluster, then use the documented backup, check, restore, and WAL recovery commands for the intended runbook.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/run-postgresql-backup-restore-and-wal-recovery-workflows-with-pgbackrest`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://pgbackrest.org/
 
 ## Source
 

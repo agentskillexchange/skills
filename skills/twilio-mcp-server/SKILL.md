@@ -1,22 +1,23 @@
 ---
 title: "Twilio MCP Server"
 slug: "twilio-mcp-server"
-description: "Twilio MCP Server is built around Twilio communications APIs. The underlying ecosystem is represented by twilio/twilio-node (1,523+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SMS, voice, Media Streams, webhooks, recordings, messaging services and preserving the operational […]"
+description: ""
+github_stars: 1534
 verification: "security_reviewed"
 source: "https://github.com/twilio/twilio-node"
-author: "twilio"
+author: "Twilio"
 category: "Integrations & Connectors"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "twilio/twilio-node"
-  github_stars: 1535
+  github_stars: 1534
   npm_package: "twilio"
-  npm_weekly_downloads: 4095858
+  npm_weekly_downloads: 4361206
 ---
 
 # Twilio MCP Server
 
-Twilio MCP Server is built around Twilio communications APIs. The underlying ecosystem is represented by twilio/twilio-node (1,523+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SMS, voice, Media Streams, webhooks, recordings, messaging services and preserving the operational […]
+
 
 ## Prerequisites
 

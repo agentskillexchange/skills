@@ -2,6 +2,7 @@
 title: "SonarQube Quality Gate Enforcer"
 slug: "sonarqube-quality-gate-enforcer-14"
 description: "Enforces SonarQube quality gates in pull request workflows using the SonarQube Web API and ce/task endpoint. Blocks merges when code coverage drops, duplications exceed thresholds, or security hotspots are unreviewed."
+github_stars: 10433
 verification: "security_reviewed"
 source: "https://github.com/SonarSource/sonarqube"
 author: "SonarSource"

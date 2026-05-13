@@ -2,6 +2,7 @@
 title: "GraphQL Schema Documentation Generator"
 slug: "graphql-schema-documentation-generator"
 description: "Generates interactive API documentation from GraphQL schemas using graphql-js introspection queries and SpectaQL. Annotates fields with usage analytics from Apollo Studio API."
+github_stars: 20324
 verification: "security_reviewed"
 source: "https://github.com/graphql/graphql-js"
 category: "Library & API Reference"

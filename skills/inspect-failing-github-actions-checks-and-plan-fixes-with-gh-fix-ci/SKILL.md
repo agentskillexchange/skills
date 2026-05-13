@@ -1,44 +1,42 @@
 ---
 title: "Inspect failing GitHub Actions checks and plan fixes with gh-fix-ci"
+slug: "inspect-failing-github-actions-checks-and-plan-fixes-with-gh-fix-ci"
 description: "Inspect failing GitHub Actions checks on the current PR, pull the actionable log snippet, and stop at an approval gate before implementing a fix."
-verification: security_reviewed
+verification: "security_reviewed"
 source: "https://github.com/openai/skills/tree/main/skills/.curated/gh-fix-ci"
-tool_ecosystem:
-  github_repo: "openai/skills"
-  github_stars: 17293
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Codex"
+author: "OpenAI"
+publisher_type: "organization"
+category: "CI/CD Integrations"
+framework: "Codex"
 ---
 
 # Inspect failing GitHub Actions checks and plan fixes with gh-fix-ci
 
 Inspect failing GitHub Actions checks on the current PR, pull the actionable log snippet, and stop at an approval gate before implementing a fix.
 
+## Prerequisites
+
+Codex, GitHub CLI (gh), repository with an open PR, GitHub auth with repo/workflow scopes
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/inspect-failing-github-actions-checks-and-plan-fixes-with-gh-fix-ci/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/inspect-failing-github-actions-checks-and-plan-fixes-with-gh-fix-ci
+```
+Use the curated gh-fix-ci skill from the openai/skills catalog, make sure `gh auth status` succeeds with repo and workflow scopes, then run it inside the target repository so it can inspect the current PR's failing checks and logs.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/inspect-failing-github-actions-checks-and-plan-fixes-with-gh-fix-ci`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://raw.githubusercontent.com/openai/skills/main/skills/.curated/gh-fix-ci/SKILL.md
 
 ## Source
 

@@ -1,12 +1,14 @@
 ---
 title: "Unit-test Helm charts with YAML assertions before deployment templates reach clusters with helm-unittest"
+slug: "unit-test-helm-charts-with-yaml-assertions-before-deployment-templates-reach-clusters-with-helm-unittest"
 description: "Render a Helm chart locally and assert on the generated Kubernetes objects before a broken template makes it to a cluster."
-verification: security_reviewed
+github_stars: 1305
+verification: "security_reviewed"
 source: "https://github.com/helm-unittest/helm-unittest"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Multi-Framework"
+author: "helm-unittest"
+publisher_type: "organization"
+category: "CI/CD Integrations"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "helm-unittest/helm-unittest"
   github_stars: 1305
@@ -16,29 +18,29 @@ tool_ecosystem:
 
 Render a Helm chart locally and assert on the generated Kubernetes objects before a broken template makes it to a cluster.
 
+## Prerequisites
+
+Helm, the helm-unittest plugin or container image, a Helm chart repository, and chart test files written in YAML.
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/unit-test-helm-charts-with-yaml-assertions-before-deployment-templates-reach-clusters-with-helm-unittest/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/unit-test-helm-charts-with-yaml-assertions-before-deployment-templates-reach-clusters-with-helm-unittest
+```
+Install the helm-unittest plugin or use the published container image, add chart test files under the chart test path, then run helm unittest against the target chart locally or in CI before deployment.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/unit-test-helm-charts-with-yaml-assertions-before-deployment-templates-reach-clusters-with-helm-unittest`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/helm-unittest/helm-unittest
 
 ## Source
 

@@ -2,6 +2,7 @@
 title: "Terraform Module Template Generator"
 slug: "terraform-module-template-generator"
 description: "Scaffolds production-ready Terraform modules with HCL templates, variable definitions, and output blocks. Uses the Terraform Registry API to pull module schemas and terraform-docs for auto-generating README files."
+github_stars: 48146
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 category: "Templates & Workflows"

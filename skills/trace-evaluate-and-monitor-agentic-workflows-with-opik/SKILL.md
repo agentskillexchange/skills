@@ -2,6 +2,7 @@
 title: "Trace, evaluate, and monitor agentic workflows with Opik"
 slug: "trace-evaluate-and-monitor-agentic-workflows-with-opik"
 description: "Capture LLM and agent traces, run evaluations, inspect failures, and monitor RAG or multi-step agent behavior from prototype to production."
+github_stars: 19144
 verification: "security_reviewed"
 source: "https://github.com/comet-ml/opik"
 author: "Comet"

@@ -2,6 +2,7 @@
 title: "Terraform State Inspector"
 slug: "terraform-state-inspector"
 description: "Inspects and diagnoses Terraform state files using terraform CLI commands and the Terraform Cloud API v2. Detects drift, orphaned resources, and dependency cycles in state data."
+github_stars: 48146
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 category: "Runbooks & Diagnostics"

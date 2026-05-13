@@ -1,44 +1,46 @@
 ---
 title: "Capture low-level Kubernetes runtime evidence with Inspektor Gadget"
+slug: "capture-low-level-kubernetes-runtime-evidence-with-inspektor-gadget"
 description: "Run named Inspektor Gadget traces and snapshots when an agent needs eBPF-backed runtime evidence from pods, containers, or nodes that ordinary logs and metrics do not expose."
-verification: security_reviewed
+github_stars: 2792
+verification: "security_reviewed"
 source: "https://github.com/inspektor-gadget/inspektor-gadget"
+author: "Inspektor Gadget"
+publisher_type: "organization"
+category: "Runbooks & Diagnostics"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "inspektor-gadget/inspektor-gadget"
   github_stars: 2792
-category:
-  - "Runbooks & Diagnostics"
-framework:
-  - "Multi-Framework"
 ---
 
 # Capture low-level Kubernetes runtime evidence with Inspektor Gadget
 
 Run named Inspektor Gadget traces and snapshots when an agent needs eBPF-backed runtime evidence from pods, containers, or nodes that ordinary logs and metrics do not expose.
 
+## Prerequisites
+
+Inspektor Gadget installed on Kubernetes or Linux with permissions to run gadgets
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/capture-low-level-kubernetes-runtime-evidence-with-inspektor-gadget/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/capture-low-level-kubernetes-runtime-evidence-with-inspektor-gadget
+```
+Install kubectl-gadget via krew or install the ig binary, then run a named gadget such as kubectl gadget run trace_exec:latest or ig run trace_open:latest against the target environment.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/capture-low-level-kubernetes-runtime-evidence-with-inspektor-gadget`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://inspektor-gadget.io/docs/latest/reference/run/
 
 ## Source
 

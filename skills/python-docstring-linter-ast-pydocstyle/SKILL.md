@@ -2,6 +2,7 @@
 title: "Python Docstring Linter"
 slug: "python-docstring-linter-ast-pydocstyle"
 description: "Validates and auto-generates Python docstrings using the ast module and pydocstyle conventions. Supports NumPy, Google, and Sphinx docstring formats with type stub integration."
+github_stars: 1119
 verification: "security_reviewed"
 source: "https://github.com/PyCQA/pydocstyle"
 author: "PyCQA"

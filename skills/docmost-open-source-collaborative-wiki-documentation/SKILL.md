@@ -2,6 +2,7 @@
 title: "Docmost Open Source Collaborative Wiki and Documentation Platform"
 slug: "docmost-open-source-collaborative-wiki-documentation"
 description: "Docmost is an open-source collaborative wiki and documentation platform that serves as a self-hosted alternative to Confluence and Notion. It features real-time collaboration, nested pages, diagrams, spaces, and granular permissions management."
+github_stars: 19723
 verification: "security_reviewed"
 source: "https://github.com/docmost/docmost"
 category: "Calendar, Email & Productivity"

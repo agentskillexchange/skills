@@ -2,6 +2,7 @@
 title: "Makedown Task Runner"
 slug: "makedown-task-runner"
 description: "Extracts executable task definitions from Markdown files and runs them as shell pipelines. Parses fenced code blocks with task metadata annotations and manages dependencies between tasks."
+github_stars: 319
 verification: "security_reviewed"
 source: "https://github.com/tzador/makedown"
 author: "tzador"

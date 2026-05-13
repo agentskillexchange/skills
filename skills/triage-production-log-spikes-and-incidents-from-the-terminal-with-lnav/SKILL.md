@@ -1,12 +1,14 @@
 ---
 title: "Triage production log spikes and incidents from the terminal with lnav"
+slug: "triage-production-log-spikes-and-incidents-from-the-terminal-with-lnav"
 description: "Open raw logs, jump to error clusters, query structured fields, and summarize incident clues without shipping data to a separate platform."
-verification: security_reviewed
+github_stars: 10159
+verification: "security_reviewed"
 source: "https://github.com/tstack/lnav"
-category:
-  - "Runbooks &amp; Diagnostics"
-framework:
-  - "Multi-Framework"
+author: "tstack"
+publisher_type: "individual"
+category: "Runbooks & Diagnostics"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "tstack/lnav"
   github_stars: 10159
@@ -16,29 +18,29 @@ tool_ecosystem:
 
 Open raw logs, jump to error clusters, query structured fields, and summarize incident clues without shipping data to a separate platform.
 
+## Prerequisites
+
+lnav, local or remote log files, terminal access
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/triage-production-log-spikes-and-incidents-from-the-terminal-with-lnav/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/triage-production-log-spikes-and-incidents-from-the-terminal-with-lnav
+```
+Install lnav from your system package manager or build it from source, then open one or more log files with `lnav /path/to/log*` and use its built-in SQL, filters, and timeline views for triage.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/triage-production-log-spikes-and-incidents-from-the-terminal-with-lnav`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.lnav.org/
 
 ## Source
 

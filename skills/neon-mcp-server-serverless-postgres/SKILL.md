@@ -2,6 +2,7 @@
 title: "Neon MCP Server for Serverless Postgres Management"
 slug: "neon-mcp-server-serverless-postgres"
 description: "The Neon MCP Server enables AI agents to manage serverless PostgreSQL databases through natural language via the Model Context Protocol. Create projects, run queries, manage branches, and perform database migrations conversationally."
+github_stars: 567
 verification: "security_reviewed"
 source: "https://github.com/neondatabase/mcp-server-neon"
 author: "Neon"

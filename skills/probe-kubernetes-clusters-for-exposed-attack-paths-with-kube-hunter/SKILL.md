@@ -1,44 +1,46 @@
 ---
 title: "Probe Kubernetes clusters for exposed attack paths with kube-hunter"
+slug: "probe-kubernetes-clusters-for-exposed-attack-paths-with-kube-hunter"
 description: "Assess a Kubernetes cluster from the attacker viewpoint when an agent needs exposure-focused findings instead of a general cluster scanner listing."
-verification: security_reviewed
+github_stars: 5040
+verification: "security_reviewed"
 source: "https://github.com/aquasecurity/kube-hunter"
+author: "Aqua Security"
+publisher_type: "organization"
+category: "Security & Verification"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "aquasecurity/kube-hunter"
   github_stars: 5040
-category:
-  - "Security & Verification"
-framework:
-  - "Multi-Framework"
 ---
 
 # Probe Kubernetes clusters for exposed attack paths with kube-hunter
 
 Assess a Kubernetes cluster from the attacker viewpoint when an agent needs exposure-focused findings instead of a general cluster scanner listing.
 
+## Prerequisites
+
+kube-hunter binary or container image and network or cluster access to the target environment
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/probe-kubernetes-clusters-for-exposed-attack-paths-with-kube-hunter/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/probe-kubernetes-clusters-for-exposed-attack-paths-with-kube-hunter
+```
+Install kube-hunter from release artifacts or run the published container image, then execute an appropriate scan mode such as remote probing or in-cluster discovery and review the reported findings before any remediation step.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/probe-kubernetes-clusters-for-exposed-attack-paths-with-kube-hunter`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/aquasecurity/kube-hunter#readme
 
 ## Source
 

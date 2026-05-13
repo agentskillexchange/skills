@@ -2,6 +2,7 @@
 title: "Bundle and validate OpenAPI files into one publishable spec with swagger-cli"
 slug: "bundle-and-validate-openapi-files-into-one-publishable-spec-with-swagger-cli"
 description: "Resolve multi-file OpenAPI definitions into one validated artifact before docs, code generation, or CI gates depend on the spec."
+github_stars: 517
 verification: "security_reviewed"
 source: "https://github.com/APIDevTools/swagger-cli"
 author: "APIDevTools"

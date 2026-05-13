@@ -1,44 +1,46 @@
 ---
 title: "Preflight agent specs for prompt-injection risk across prompt, tool, and architecture layers with Prompt Hardener"
+slug: "preflight-agent-specs-for-prompt-injection-risk-across-prompt-tool-and-architecture-layers-with-prompt-hardener"
 description: "Describe an agent in `agent_spec.yaml`, run deterministic prompt-injection analysis, generate mitigations, and validate defenses before rollout."
-verification: security_reviewed
+github_stars: 50
+verification: "security_reviewed"
 source: "https://github.com/cybozu/prompt-hardener"
+author: "Cybozu"
+publisher_type: "organization"
+category: "Security & Verification"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "cybozu/prompt-hardener"
   github_stars: 50
-category:
-  - "Security & Verification"
-framework:
-  - "Multi-Framework"
 ---
 
 # Preflight agent specs for prompt-injection risk across prompt, tool, and architecture layers with Prompt Hardener
 
 Describe an agent in `agent_spec.yaml`, run deterministic prompt-injection analysis, generate mitigations, and validate defenses before rollout.
 
+## Prerequisites
+
+Python 3, pipx or uv optional
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/preflight-agent-specs-for-prompt-injection-risk-across-prompt-tool-and-architecture-layers-with-prompt-hardener/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/preflight-agent-specs-for-prompt-injection-risk-across-prompt-tool-and-architecture-layers-with-prompt-hardener
+```
+Install from the published wheel with `pipx install https://github.com/cybozu/prompt-hardener/releases/download/v0.6.0/prompt_hardener-0.6.0-py3-none-any.whl` or use `uv tool install ...`, copy or write `agent_spec.yaml`, then run `prompt-hardener validate agent_spec.yaml` and `prompt-hardener analyze agent_spec.yaml`.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/preflight-agent-specs-for-prompt-injection-risk-across-prompt-tool-and-architecture-layers-with-prompt-hardener`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/cybozu/prompt-hardener
 
 ## Source
 

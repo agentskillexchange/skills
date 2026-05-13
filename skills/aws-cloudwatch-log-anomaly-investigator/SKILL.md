@@ -2,6 +2,7 @@
 title: "AWS CloudWatch Log Anomaly Investigator"
 slug: "aws-cloudwatch-log-anomaly-investigator"
 description: "Investigates anomalous patterns in AWS CloudWatch Logs using the CloudWatch Logs Insights API and CloudWatch Anomaly Detection. Correlates log spikes with deployment events via AWS CodeDeploy API."
+github_stars: 3607
 verification: "security_reviewed"
 source: "https://github.com/aws/aws-sdk-js-v3"
 category: "Runbooks & Diagnostics"

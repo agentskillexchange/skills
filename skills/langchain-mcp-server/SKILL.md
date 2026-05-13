@@ -1,14 +1,15 @@
 ---
 title: "LangChain MCP Server"
 slug: "langchain-mcp-server"
-description: "LangChain MCP Server is built around LangChain framework for LLM applications. The underlying ecosystem is represented by langchain-ai/langchainjs (17,321+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like chains, tools, prompts, agents, retrievers, vector stores, callbacks and preserving […]"
+description: ""
+github_stars: 17664
 verification: "security_reviewed"
 source: "https://github.com/langchain-ai/langchainjs"
 category: "Developer Tools"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "langchain-ai/langchainjs"
-  github_stars: 17638
+  github_stars: 17664
   npm_package: "langchain"
   npm_weekly_downloads: 2048418
 ---

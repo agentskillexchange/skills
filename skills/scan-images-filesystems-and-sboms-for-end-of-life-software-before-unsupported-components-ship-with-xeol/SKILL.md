@@ -1,12 +1,14 @@
 ---
 title: "Scan images filesystems and SBOMs for end-of-life software before unsupported components ship with Xeol"
+slug: "scan-images-filesystems-and-sboms-for-end-of-life-software-before-unsupported-components-ship-with-xeol"
 description: "Find packages that are out of support even when they do not show up as a classic CVE finding yet."
-verification: security_reviewed
+github_stars: 435
+verification: "security_reviewed"
 source: "https://github.com/xeol-io/xeol"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Multi-Framework"
+author: "xeol-io"
+publisher_type: "organization"
+category: "Security & Verification"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "xeol-io/xeol"
   github_stars: 435
@@ -16,29 +18,29 @@ tool_ecosystem:
 
 Find packages that are out of support even when they do not show up as a classic CVE finding yet.
 
+## Prerequisites
+
+Xeol CLI, a container image filesystem path or SBOM input, and optional CI integration for release gating.
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/scan-images-filesystems-and-sboms-for-end-of-life-software-before-unsupported-components-ship-with-xeol/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/scan-images-filesystems-and-sboms-for-end-of-life-software-before-unsupported-components-ship-with-xeol
+```
+Install Xeol from the upstream release, package, or container instructions, point it at the target image, directory, or SBOM source, and review the EOL findings before release or deployment.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/scan-images-filesystems-and-sboms-for-end-of-life-software-before-unsupported-components-ship-with-xeol`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://www.xeol.io/
 
 ## Source
 

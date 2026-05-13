@@ -2,6 +2,7 @@
 title: "Use RAGFlow as a retrieval and context layer for agent workflows"
 slug: "use-ragflow-as-a-retrieval-and-context-layer-for-agent-workflows"
 description: "Build a supervised RAG context layer with RAGFlow so agents can index documents, retrieve grounded context, and answer with traceable source support."
+github_stars: 79794
 verification: "security_reviewed"
 source: "https://github.com/infiniflow/ragflow"
 author: "InfinityFlow"

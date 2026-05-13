@@ -1,12 +1,14 @@
 ---
 title: "Run Ruff, Mypy, and other code-quality tools on Jupyter notebooks with nbQA"
+slug: "run-ruff-mypy-and-other-code-quality-tools-on-jupyter-notebooks-with-nbqa"
 description: "Apply standard Python formatters, linters, and type checkers to notebook-heavy repositories without manually converting notebooks to scripts."
-verification: security_reviewed
+github_stars: 1196
+verification: "security_reviewed"
 source: "https://github.com/nbQA-dev/nbQA"
-category:
-  - "Code Quality &amp; Review"
-framework:
-  - "Multi-Framework"
+author: "nbQA-dev"
+publisher_type: "organization"
+category: "Code Quality & Review"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "nbQA-dev/nbQA"
   github_stars: 1196
@@ -16,29 +18,29 @@ tool_ecosystem:
 
 Apply standard Python formatters, linters, and type checkers to notebook-heavy repositories without manually converting notebooks to scripts.
 
+## Prerequisites
+
+Python 3, pip, nbQA, Jupyter notebooks, underlying QA tools such as Ruff or Mypy
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-ruff-mypy-and-other-code-quality-tools-on-jupyter-notebooks-with-nbqa/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-ruff-mypy-and-other-code-quality-tools-on-jupyter-notebooks-with-nbqa
+```
+Install with `pip install nbqa` plus the linters or formatters you want to run, then invoke commands like `nbqa ruff .` or `nbqa mypy notebook.ipynb`.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/run-ruff-mypy-and-other-code-quality-tools-on-jupyter-notebooks-with-nbqa`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://nbqa.readthedocs.io/
 
 ## Source
 

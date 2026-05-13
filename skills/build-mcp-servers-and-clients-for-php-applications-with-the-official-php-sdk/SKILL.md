@@ -1,9 +1,12 @@
 ---
 title: "Build MCP servers and clients for PHP applications with the official PHP SDK"
 slug: "build-mcp-servers-and-clients-for-php-applications-with-the-official-php-sdk"
-description: "Use the official MCP PHP SDK to build MCP servers and clients that expose PHP application functionality as Model Context Protocol tools and resources."
-verification: "listed"
+description: "Use the official Model Context Protocol PHP SDK to expose PHP application capabilities as MCP tools, resources, and prompts for agent workflows."
+github_stars: 1479
+verification: "security_reviewed"
 source: "https://github.com/modelcontextprotocol/php-sdk"
+author: "Model Context Protocol / The PHP Foundation collaborators"
+publisher_type: "foundation"
 category: "Library & API Reference"
 framework: "MCP"
 tool_ecosystem:
@@ -13,21 +16,26 @@ tool_ecosystem:
 
 # Build MCP servers and clients for PHP applications with the official PHP SDK
 
-Use the official MCP PHP SDK to build MCP servers and clients that expose PHP application functionality as Model Context Protocol tools and resources.
-
-Operator workflow: install the SDK via Composer, define MCP tools and resource handlers in PHP, wire the server transport (stdio or HTTP), connect an MCP client or agent, and verify tool discovery and execution.
+Use the official Model Context Protocol PHP SDK to expose PHP application capabilities as MCP tools, resources, and prompts for agent workflows.
 
 ## Prerequisites
 
-- PHP 8.1+
-- Composer
+PHP, Composer, MCP-compatible host/client
 
-## Setup
+## Installation
 
-Install the SDK with Composer:
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
 
 ```
-composer require modelcontextprotocol/php-sdk
+Install the SDK using the Composer instructions in the repository README, then implement the MCP server or client pattern that matches the PHP application capability being exposed.
 ```
 
 ## Documentation

@@ -2,6 +2,7 @@
 title: "ImageMagick Batch Converter CLI"
 slug: "imagemagick-batch-converter-cli"
 description: "Automates bulk image conversion using ImageMagick's convert and mogrify commands with geometry expressions. Supports -density, -colorspace, and -profile flags for print-quality output."
+github_stars: 16152
 verification: "security_reviewed"
 source: "https://github.com/ImageMagick/ImageMagick"
 author: "ImageMagick"

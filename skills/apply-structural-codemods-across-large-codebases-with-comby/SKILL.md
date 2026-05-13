@@ -1,12 +1,14 @@
 ---
 title: "Apply structural codemods across large codebases with Comby"
+slug: "apply-structural-codemods-across-large-codebases-with-comby"
 description: "Rewrite recurring code patterns with syntax-aware matching so agents can run migration codemods more safely than plain regex search and replace."
-verification: security_reviewed
+github_stars: 2626
+verification: "security_reviewed"
 source: "https://github.com/comby-tools/comby"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+author: "comby-tools"
+publisher_type: "organization"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "comby-tools/comby"
   github_stars: 2626
@@ -16,29 +18,29 @@ tool_ecosystem:
 
 Rewrite recurring code patterns with syntax-aware matching so agents can run migration codemods more safely than plain regex search and replace.
 
+## Prerequisites
+
+Comby CLI
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/apply-structural-codemods-across-large-codebases-with-comby/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/apply-structural-codemods-across-large-codebases-with-comby
+```
+Install Comby from the release binaries or package manager for your platform, then run a match and rewrite pair such as `comby 'old(:[x])' 'new(:[x])' -matcher .python -i`.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/apply-structural-codemods-across-large-codebases-with-comby`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://comby.dev/
 
 ## Source
 

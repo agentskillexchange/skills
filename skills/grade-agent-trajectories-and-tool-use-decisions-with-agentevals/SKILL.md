@@ -1,46 +1,48 @@
 ---
 title: "Grade agent trajectories and tool-use decisions with AgentEvals"
+slug: "grade-agent-trajectories-and-tool-use-decisions-with-agentevals"
 description: "Score whether an agent took a sensible intermediate path, called tools correctly, and reached the outcome without relying only on final-answer checks."
-verification: security_reviewed
+github_stars: 550
+verification: "security_reviewed"
 source: "https://github.com/langchain-ai/agentevals"
+author: "LangChain"
+publisher_type: "open_source_project"
+category: "Code Quality & Review"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "langchain-ai/agentevals"
   github_stars: 550
   npm_package: "agentevals"
   npm_weekly_downloads: 251033
-category:
-  - "Code Quality & Review"
-framework:
-  - "Custom Agents"
 ---
 
 # Grade agent trajectories and tool-use decisions with AgentEvals
 
 Score whether an agent took a sensible intermediate path, called tools correctly, and reached the outcome without relying only on final-answer checks.
 
+## Prerequisites
+
+Python or TypeScript runtime, agent run outputs or trajectories, optional LLM judge provider
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/grade-agent-trajectories-and-tool-use-decisions-with-agentevals/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/grade-agent-trajectories-and-tool-use-decisions-with-agentevals
+```
+pip install agentevals or npm install agentevals @langchain/core, then pass captured agent trajectories into the provided evaluators.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/grade-agent-trajectories-and-tool-use-decisions-with-agentevals`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/langchain-ai/agentevals
 
 ## Source
 

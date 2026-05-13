@@ -2,6 +2,7 @@
 title: "WordPress REST API Content Sync"
 slug: "wordpress-rest-api-content-sync"
 description: "Synchronizes content between WordPress multisite installations using the WP REST API /wp/v2/posts endpoint with OAuth 1.0a authentication. Handles media sideloading, shortcode transformation, and conflict resolution."
+github_stars: 21027
 verification: "security_reviewed"
 source: "https://github.com/WordPress/WordPress"
 category: "WordPress & CMS"

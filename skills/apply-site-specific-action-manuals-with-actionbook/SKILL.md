@@ -1,12 +1,14 @@
 ---
 title: "Apply site-specific action manuals with Actionbook"
+slug: "apply-site-specific-action-manuals-with-actionbook"
 description: "Load maintained action manuals for fragile websites so agents can execute known flows more reliably than generic browser prompting."
-verification: security_reviewed
+github_stars: 1497
+verification: "security_reviewed"
 source: "https://github.com/actionbook/actionbook"
-category:
-  - "Browser Automation"
-framework:
-  - "Multi-Framework"
+author: "Actionbook"
+publisher_type: "organization"
+category: "Browser Automation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "actionbook/actionbook"
   github_stars: 1497
@@ -18,29 +20,29 @@ tool_ecosystem:
 
 Load maintained action manuals for fragile websites so agents can execute known flows more reliably than generic browser prompting.
 
+## Prerequisites
+
+Node.js or Rust toolchain, supported Chromium-based browser
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/apply-site-specific-action-manuals-with-actionbook/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/apply-site-specific-action-manuals-with-actionbook
+```
+Install the CLI with `npm install -g @actionbookdev/cli`, start the browser bridge with `actionbook browser start`, and add the packaged Actionbook skill to a supported agent with `npx skills add actionbook/actionbook`.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/apply-site-specific-action-manuals-with-actionbook`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://actionbook.dev/docs
 
 ## Source
 

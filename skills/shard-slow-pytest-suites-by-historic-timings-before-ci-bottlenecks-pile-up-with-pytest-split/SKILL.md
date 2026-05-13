@@ -1,12 +1,14 @@
 ---
 title: "Shard slow pytest suites by historic timings before CI bottlenecks pile up with pytest-split"
+slug: "shard-slow-pytest-suites-by-historic-timings-before-ci-bottlenecks-pile-up-with-pytest-split"
 description: "Lets an agent split a large pytest suite into timing-balanced shards so parallel CI lanes finish faster and with less variance."
-verification: security_reviewed
+github_stars: 308
+verification: "security_reviewed"
 source: "https://github.com/jerry-git/pytest-split"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Multi-Framework"
+author: "jerry-git"
+publisher_type: "individual"
+category: "CI/CD Integrations"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "jerry-git/pytest-split"
   github_stars: 308
@@ -18,29 +20,29 @@ tool_ecosystem:
 
 Lets an agent split a large pytest suite into timing-balanced shards so parallel CI lanes finish faster and with less variance.
 
+## Prerequisites
+
+Python, pytest, pytest-split
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/shard-slow-pytest-suites-by-historic-timings-before-ci-bottlenecks-pile-up-with-pytest-split/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/shard-slow-pytest-suites-by-historic-timings-before-ci-bottlenecks-pile-up-with-pytest-split
+```
+pip install pytest-split
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/shard-slow-pytest-suites-by-historic-timings-before-ci-bottlenecks-pile-up-with-pytest-split`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/jerry-git/pytest-split
 
 ## Source
 

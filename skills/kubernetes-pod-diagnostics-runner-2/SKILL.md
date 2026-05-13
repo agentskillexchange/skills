@@ -2,6 +2,7 @@
 title: "Kubernetes Pod Diagnostics Runner"
 slug: "kubernetes-pod-diagnostics-runner-2"
 description: "Runs automated diagnostic sequences on Kubernetes pods using kubectl exec, kubectl logs, and the Kubernetes API /api/v1/pods endpoint. Captures OOMKilled events, CrashLoopBackOff analysis, and resource utilization via metrics-server."
+github_stars: 121700
 verification: "security_reviewed"
 source: "https://github.com/kubernetes/kubernetes"
 category: "Runbooks & Diagnostics"

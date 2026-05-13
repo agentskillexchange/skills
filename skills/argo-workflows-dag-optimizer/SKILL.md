@@ -2,6 +2,7 @@
 title: "Argo Workflows DAG Optimizer"
 slug: "argo-workflows-dag-optimizer"
 description: "Analyzes Argo Workflows DAG templates to identify parallelization opportunities. Uses the Argo Server API to fetch workflow execution history and critical path analysis."
+github_stars: 16616
 verification: "security_reviewed"
 source: "https://github.com/argoproj/argo-workflows"
 category: "Templates & Workflows"

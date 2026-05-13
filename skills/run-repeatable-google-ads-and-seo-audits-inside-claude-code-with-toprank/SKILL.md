@@ -1,44 +1,46 @@
 ---
 title: "Run repeatable Google Ads and SEO audits inside Claude Code with Toprank"
+slug: "run-repeatable-google-ads-and-seo-audits-inside-claude-code-with-toprank"
 description: "Use Toprank when an agent needs a repeatable Claude Code workflow for Google Ads and SEO audits, with concrete slash commands, account-backed analysis, and optional repo edits instead of one-off marketing prompting."
-verification: security_reviewed
+github_stars: 466
+verification: "security_reviewed"
 source: "https://github.com/nowork-studio/toprank"
+author: "nowork-studio"
+publisher_type: "Public GitHub repository"
+category: "Content Writing & SEO"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "nowork-studio/toprank"
   github_stars: 466
-category:
-  - "Content Writing & SEO"
-framework:
-  - "Claude Code"
 ---
 
 # Run repeatable Google Ads and SEO audits inside Claude Code with Toprank
 
 Use Toprank when an agent needs a repeatable Claude Code workflow for Google Ads and SEO audits, with concrete slash commands, account-backed analysis, and optional repo edits instead of one-off marketing prompting.
 
+## Prerequisites
+
+Claude Code plugin support, optional Google Ads account access, optional Google Search Console access, and optional repository access for fix application
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-repeatable-google-ads-and-seo-audits-inside-claude-code-with-toprank/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-repeatable-google-ads-and-seo-audits-inside-claude-code-with-toprank
+```
+In Claude Code run /plugin marketplace add nowork-studio/toprank and then /plugin install toprank@nowork-studio. Connect Google Ads if needed, then invoke commands such as /toprank:ads-audit or /toprank:seo-analysis.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/run-repeatable-google-ads-and-seo-audits-inside-claude-code-with-toprank`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/nowork-studio/toprank
 
 ## Source
 

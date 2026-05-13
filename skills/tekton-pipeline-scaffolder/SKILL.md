@@ -2,6 +2,7 @@
 title: "Tekton Pipeline Scaffolder"
 slug: "tekton-pipeline-scaffolder"
 description: "Scaffolds Kubernetes-native CI/CD pipelines using Tekton Pipelines CRDs (Tasks, Pipelines, PipelineRuns) and the Tekton Hub API. Generates YAML manifests with proper workspace bindings, result passing, and when expressions."
+github_stars: 8936
 verification: "security_reviewed"
 source: "https://github.com/tektoncd/pipeline"
 category: "CI/CD Integrations"

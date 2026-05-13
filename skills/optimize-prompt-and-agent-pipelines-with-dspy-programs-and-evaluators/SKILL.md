@@ -2,8 +2,11 @@
 title: "Optimize prompt and agent pipelines with DSPy programs and evaluators"
 slug: "optimize-prompt-and-agent-pipelines-with-dspy-programs-and-evaluators"
 description: "Use DSPy to define modular LLM programs, metrics, and evaluation sets so an agent can optimize prompts and pipeline behavior with measurable feedback instead of ad hoc prompt editing."
-verification: "listed"
+github_stars: 34308
+verification: "security_reviewed"
 source: "https://github.com/stanfordnlp/dspy"
+author: "Stanford NLP"
+publisher_type: "open_source_project"
 category: "Code Quality & Review"
 framework: "Multi-Framework"
 tool_ecosystem:
@@ -13,6 +16,11 @@ tool_ecosystem:
 
 # Optimize prompt and agent pipelines with DSPy programs and evaluators
 
+Use DSPy to define modular LLM programs, metrics, and evaluation sets so an agent can optimize prompts and pipeline behavior with measurable feedback instead of ad hoc prompt editing.
+
+## Prerequisites
+
+Python, DSPy, task examples, scoring metric or evaluator, target LLM provider credentials
 
 ## Installation
 
@@ -23,6 +31,16 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+pip install dspy
+```
+
+## Documentation
+
+- https://dspy.ai/
 
 ## Source
 

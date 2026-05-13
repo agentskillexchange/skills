@@ -2,6 +2,7 @@
 title: "Sigstore Cosign Container Signature Checker"
 slug: "sigstore-cosign-container-signature-checker"
 description: "Checks container trust with `cosign verify`, Rekor transparency log lookups, and OCI image reference inspection. Useful for agents that need to confirm whether an image was actually signed and recorded before it reaches a deployment pipeline."
+github_stars: 5776
 verification: "security_reviewed"
 source: "https://github.com/sigstore/cosign"
 category: "Security & Verification"

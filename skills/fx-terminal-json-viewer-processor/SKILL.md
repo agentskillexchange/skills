@@ -2,6 +2,7 @@
 title: "fx Terminal JSON Viewer and Processor"
 slug: "fx-terminal-json-viewer-processor"
 description: "fx is a terminal-based JSON viewer and processor that provides an interactive TUI for navigating, filtering, and transforming JSON, YAML, and TOML data. Built in Go with support for JavaScript/Python expressions, it replaces piping through jq for quick data exploration."
+github_stars: 20376
 verification: "security_reviewed"
 source: "https://github.com/antonmedv/fx"
 category: "Data Extraction & Transformation"

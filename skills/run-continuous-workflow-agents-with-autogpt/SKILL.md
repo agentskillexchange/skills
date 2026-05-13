@@ -2,8 +2,11 @@
 title: "Run continuous workflow agents with AutoGPT"
 slug: "run-continuous-workflow-agents-with-autogpt"
 description: "Self-host AutoGPT to build, test, deploy, and operate continuous AI agents for repeatable multi-step workflows."
-verification: "listed"
+github_stars: 184027
+verification: "security_reviewed"
 source: "https://github.com/Significant-Gravitas/AutoGPT"
+author: "Significant-Gravitas"
+publisher_type: "open_source"
 category: "Templates & Workflows"
 framework: "Multi-Framework"
 tool_ecosystem:
@@ -15,24 +18,29 @@ tool_ecosystem:
 
 Self-host AutoGPT to build, test, deploy, and operate continuous AI agents for repeatable multi-step workflows.
 
-Operator workflow: define the target process, assemble blocks/actions in AutoGPT, test the agent locally, configure required integrations and credentials, then deploy and monitor the continuous agent.
-
 ## Prerequisites
 
-- Docker and Docker Compose
-- Git
-- Node.js / npm
-- AutoGPT platform
+Docker, Docker Compose, Git, Node.js/npm, AutoGPT platform
 
-## Setup
+## Installation
 
-Follow the official self-hosting guide and use the install script or Docker-based local setup:
+Choose whichever fits your setup:
 
-- https://agpt.co/docs/platform/getting-started/getting-started
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Follow the official self-hosting guide at https://agpt.co/docs/platform/getting-started/getting-started; the upstream README also documents an install script and Docker-based local setup.
+```
 
 ## Documentation
 
-- https://agpt.co/docs/
+- https://agpt.co
 
 ## Source
 

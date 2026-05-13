@@ -2,10 +2,15 @@
 title: "Complexity Trend Tracker"
 slug: "complexity-trend-tracker-agent"
 description: "Tracks cyclomatic and cognitive complexity trends using lizard CLI and radon for Python analysis. Generates weekly complexity reports with git-integrated change attribution per module."
+github_stars: 2362
 verification: "security_reviewed"
-source: "https://agentskillexchange.com/skills/complexity-trend-tracker-agent/"
+source: "https://github.com/terryyin/lizard"
+author: "Terry Yin"
 category: "Code Quality & Review"
 framework: "MCP"
+tool_ecosystem:
+  github_repo: "terryyin/lizard"
+  github_stars: 2362
 ---
 
 # Complexity Trend Tracker

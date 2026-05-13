@@ -2,6 +2,7 @@
 title: "ESLint Rule Configurator"
 slug: "eslint-rule-configurator"
 description: "Generates optimized ESLint flat config files using @eslint/js, typescript-eslint, and eslint-plugin-import. Provides project-specific rule recommendations based on codebase analysis."
+github_stars: 27188
 verification: "security_reviewed"
 source: "https://github.com/eslint/eslint"
 category: "Code Quality & Review"

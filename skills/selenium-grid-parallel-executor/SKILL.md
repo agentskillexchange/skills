@@ -2,6 +2,7 @@
 title: "Selenium Grid Parallel Executor"
 slug: "selenium-grid-parallel-executor"
 description: "Orchestrates parallel browser automation across Selenium Grid nodes using RemoteWebDriver, DesiredCapabilities, and WebDriverWait. Manages session distribution, retry policies, and HTML test reports via ExtentReports."
+github_stars: 34076
 verification: "security_reviewed"
 source: "https://github.com/SeleniumHQ/selenium"
 category: "Browser Automation"

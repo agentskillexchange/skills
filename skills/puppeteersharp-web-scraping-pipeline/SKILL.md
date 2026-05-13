@@ -2,6 +2,7 @@
 title: "PuppeteerSharp Web Scraping Pipeline"
 slug: "puppeteersharp-web-scraping-pipeline"
 description: "Builds headless Chrome scraping pipelines using PuppeteerSharp for .NET environments. Handles JavaScript-rendered SPAs, Cloudflare challenge bypass via stealth plugins, and exports structured data through Newtonsoft.Json serialization."
+github_stars: 3879
 verification: "security_reviewed"
 source: "https://github.com/hardkoded/puppeteer-sharp"
 author: "PuppeteerSharp"

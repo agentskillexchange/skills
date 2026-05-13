@@ -2,6 +2,7 @@
 title: "Scrapy Spider Data Pipeline"
 slug: "scrapy-spider-data-pipeline"
 description: "Builds and manages Scrapy web scraping spiders with custom item pipelines. Supports Splash rendering for JavaScript pages, rotating proxies via scrapy-rotating-proxies, and export to MongoDB or Elasticsearch."
+github_stars: 61314
 verification: "security_reviewed"
 source: "https://github.com/scrapy/scrapy"
 category: "Data Extraction & Transformation"

@@ -2,6 +2,7 @@
 title: "pgroll PostgreSQL Zero-Downtime Schema Migration"
 slug: "pgroll-postgresql-zero-downtime-schema-migration"
 description: "pgroll is an open-source CLI tool by Xata that performs zero-downtime, reversible schema migrations for PostgreSQL. It uses the expand-and-contract pattern to keep old and new schema versions running simultaneously with automatic backfilling and instant rollback."
+github_stars: 6408
 verification: "security_reviewed"
 source: "https://github.com/xataio/pgroll"
 category: "Developer Tools"

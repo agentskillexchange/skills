@@ -2,8 +2,11 @@
 title: "Run long-horizon spec-driven coding agent workflows with GSD 2"
 slug: "run-long-horizon-spec-driven-coding-agent-workflows-with-gsd-2"
 description: "Use GSD 2 to break a project into milestones, manage agent context and branches, recover from drift, and let coding agents advance through supervised long-running implementation work."
-verification: "listed"
+github_stars: 7340
+verification: "security_reviewed"
 source: "https://github.com/gsd-build/gsd-2"
+author: "gsd-build"
+publisher_type: "open_source"
 category: "Templates & Workflows"
 framework: "Multi-Framework"
 tool_ecosystem:
@@ -15,15 +18,31 @@ tool_ecosystem:
 
 # Run long-horizon spec-driven coding agent workflows with GSD 2
 
-Use GSD 2 when an operator wants a coding agent to execute a planned project over multiple tasks without losing the roadmap, branch state, or verification loop. GSD 2 provides a standalone CLI built on the Pi SDK for context injection, milestone dispatch, worktree and git-branch management, cost and token tracking, stuck-loop detection, crash recovery, and reconciliation of roadmap/database drift.
+Use GSD 2 to break a project into milestones, manage agent context and branches, recover from drift, and let coding agents advance through supervised long-running implementation work.
 
-## When to invoke it
+## Prerequisites
 
-Invoke this skill for long-horizon implementation work where a normal one-shot prompt or manual Claude Code session is too fragile: multi-step feature builds, milestone-based refactors, autonomous slice execution, or recovery/resume after interrupted agent work. The operator still owns the goal, review, and final merge; GSD 2 supplies the orchestration layer around the coding agent.
+GSD 2 CLI, Node.js/npm, git, a supported coding-agent environment
 
-## Scope boundary
+## Installation
 
-This skill is bounded to using the GSD 2 CLI and repository-documented workflow to plan, dispatch, monitor, reconcile, and resume spec-driven coding milestones with explicit files, git state, and verification gates. It does not claim arbitrary software delivery automation outside that managed agent-workflow loop.
+Choose whichever fits your setup:
+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+npm install -g gsd-pi@latest
+```
+
+## Documentation
+
+- https://github.com/gsd-build/gsd-2
 
 ## Source
 

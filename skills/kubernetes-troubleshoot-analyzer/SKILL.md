@@ -2,6 +2,7 @@
 title: "Kubernetes Troubleshoot Analyzer"
 slug: "kubernetes-troubleshoot-analyzer"
 description: "Runs diagnostic analysis on Kubernetes clusters using kubectl, k9s terminal UI data, and the Troubleshoot.sh support-bundle collector framework. Generates remediation steps for common pod scheduling, networking, and storage failures."
+github_stars: 121700
 verification: "security_reviewed"
 source: "https://github.com/kubernetes/kubernetes"
 category: "Runbooks & Diagnostics"

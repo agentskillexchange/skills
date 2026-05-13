@@ -1,7 +1,8 @@
 ---
 title: "Elasticsearch MCP"
 slug: "elasticsearch-mcp"
-description: "Elasticsearch MCP is built around Elasticsearch search and analytics engine. The underlying ecosystem is represented by elastic/elasticsearch (76,387+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Query DSL, aggregations, indices, shards, mappings, cluster health and preserving the […]"
+description: ""
+github_stars: 76518
 verification: "security_reviewed"
 source: "https://github.com/elastic/elasticsearch"
 author: "elastic"
@@ -14,7 +15,7 @@ tool_ecosystem:
 
 # Elasticsearch MCP
 
-Elasticsearch MCP is built around Elasticsearch search and analytics engine. The underlying ecosystem is represented by elastic/elasticsearch (76,387+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Query DSL, aggregations, indices, shards, mappings, cluster health and preserving the […]
+
 
 ## Prerequisites
 

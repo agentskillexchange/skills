@@ -1,46 +1,48 @@
 ---
 title: "Turn a code repository into an MCP-backed knowledge graph for agent code exploration with GitNexus"
+slug: "turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus"
 description: "Index a repository into a code knowledge graph, expose it through MCP, and give agents architecture-aware context before they answer or edit."
-verification: security_reviewed
+github_stars: 28499
+verification: "security_reviewed"
 source: "https://github.com/abhigyanpatwari/GitNexus"
+author: "abhigyanpatwari"
+publisher_type: "open_source_project"
+category: "Code Quality & Review"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "abhigyanpatwari/GitNexus"
   github_stars: 28499
   npm_package: "gitnexus"
   npm_weekly_downloads: 138166
-category:
-  - "Code Quality & Review"
-framework:
-  - "MCP"
 ---
 
 # Turn a code repository into an MCP-backed knowledge graph for agent code exploration with GitNexus
 
 Index a repository into a code knowledge graph, expose it through MCP, and give agents architecture-aware context before they answer or edit.
 
+## Prerequisites
+
+Node.js, local Git repository, MCP-capable editor or agent runtime such as Claude Code, Codex, or Cursor
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus
+```
+From the target repository run npx gitnexus analyze, then configure MCP with npx gitnexus setup or add the MCP server manually, for example codex mcp add gitnexus -- npx -y gitnexus@latest mcp.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://gitnexus.vercel.app/
 
 ## Source
 

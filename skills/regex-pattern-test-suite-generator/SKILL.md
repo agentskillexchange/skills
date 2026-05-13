@@ -2,6 +2,7 @@
 title: "Regex Pattern Test Suite Generator"
 slug: "regex-pattern-test-suite-generator"
 description: "Generates comprehensive test suites for regular expressions using Hypothesis property-based testing and re2 for safe evaluation. Creates positive/negative test cases, edge cases, and ReDoS vulnerability checks."
+github_stars: 8605
 verification: "security_reviewed"
 source: "https://github.com/HypothesisWorks/hypothesis"
 author: "HypothesisWorks"

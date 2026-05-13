@@ -2,6 +2,7 @@
 title: "GitLab CI/CD Pipeline Optimizer"
 slug: "gitlab-cicd-pipeline-optimizer"
 description: "Optimizes GitLab CI/CD pipelines using the .gitlab-ci.yml specification and GitLab API v4. Implements DAG pipelines, parallel testing, and dynamic child pipelines."
+github_stars: 24298
 verification: "security_reviewed"
 source: "https://github.com/gitlabhq/gitlabhq"
 category: "CI/CD Integrations"

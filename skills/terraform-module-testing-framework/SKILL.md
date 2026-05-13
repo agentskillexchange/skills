@@ -2,6 +2,7 @@
 title: "Terraform Module Testing Framework"
 slug: "terraform-module-testing-framework"
 description: "Tests Terraform modules using Terratest Go library and terraform test native framework. Validates plan output, applies infrastructure in ephemeral environments, and asserts resource attributes with automatic cleanup."
+github_stars: 48146
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 category: "Templates & Workflows"

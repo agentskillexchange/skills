@@ -1,12 +1,14 @@
 ---
 title: "Capture and search AI coding sessions alongside Git history with Entire CLI"
+slug: "capture-and-search-ai-coding-sessions-alongside-git-history-with-entire-cli"
 description: "Record AI coding sessions next to commits so an agent can recover why code changed, resume from checkpoints, and hand off work cleanly."
-verification: security_reviewed
+github_stars: 4000
+verification: "security_reviewed"
 source: "https://github.com/entireio/cli"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+author: "entireio"
+publisher_type: "GitHub repository"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "entireio/cli"
   github_stars: 4000
@@ -16,29 +18,29 @@ tool_ecosystem:
 
 Record AI coding sessions next to commits so an agent can recover why code changed, resume from checkpoints, and hand off work cleanly.
 
+## Prerequisites
+
+Git repository, Entire CLI, and a supported coding agent such as Claude Code, Codex, or Gemini
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/capture-and-search-ai-coding-sessions-alongside-git-history-with-entire-cli/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/capture-and-search-ai-coding-sessions-alongside-git-history-with-entire-cli
+```
+Install Entire from the upstream Homebrew tap or install script, authenticate a supported coding agent, and initialize it in a Git repository so sessions are captured alongside commits.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/capture-and-search-ai-coding-sessions-alongside-git-history-with-entire-cli`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/entireio/cli#readme
 
 ## Source
 

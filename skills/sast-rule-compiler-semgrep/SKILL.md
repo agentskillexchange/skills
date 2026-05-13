@@ -2,6 +2,7 @@
 title: "SAST Rule Compiler for Semgrep"
 slug: "sast-rule-compiler-semgrep"
 description: "Compiles and validates custom Semgrep SAST rules using the semgrep-core engine. Tests pattern matching against sample codebases and generates rule performance benchmarks with p/ci rulesets."
+github_stars: 14802
 verification: "security_reviewed"
 source: "https://github.com/semgrep/semgrep"
 category: "Security & Verification"

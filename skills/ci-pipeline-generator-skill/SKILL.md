@@ -1,7 +1,8 @@
 ---
 title: "CI Pipeline Generator Skill"
 slug: "ci-pipeline-generator-skill"
-description: "CI Pipeline Generator Skill is built around GitLab DevSecOps platform. The underlying ecosystem is represented by gitlabhq/gitlabhq (24,276+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like GitLab REST API, pipelines, merge requests, runners, registry, CI YAML and […]"
+description: ""
+github_stars: 24335
 verification: "security_reviewed"
 source: "https://github.com/gitlabhq/gitlabhq"
 author: "GitLab"
@@ -9,7 +10,7 @@ category: "Developer Tools"
 framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "gitlabhq/gitlabhq"
-  github_stars: 24334
+  github_stars: 24335
 ---
 
 # CI Pipeline Generator Skill

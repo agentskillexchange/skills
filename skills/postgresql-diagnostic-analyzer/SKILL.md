@@ -2,11 +2,14 @@
 title: "PostgreSQL Diagnostic Analyzer"
 slug: "postgresql-diagnostic-analyzer"
 description: "Runs diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat_activity, and pg_locks system views. Identifies slow queries, lock contention, and bloat using pgstattuple and pg_repack extension analysis."
+github_stars: 13127
 verification: "security_reviewed"
-source: "https://www.npmjs.com/package/pg"
+source: "https://github.com/brianc/node-postgres"
 category: "Runbooks & Diagnostics"
 framework: "Gemini"
 tool_ecosystem:
+  github_repo: "brianc/node-postgres"
+  github_stars: 13127
   npm_package: "pg"
   npm_weekly_downloads: 23169914
 ---

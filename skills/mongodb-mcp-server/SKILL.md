@@ -1,7 +1,8 @@
 ---
 title: "MongoDB MCP Server"
 slug: "mongodb-mcp-server"
-description: "MongoDB MCP Server is built around MongoDB document database. The underlying ecosystem is represented by mongodb/node-mongodb-native (10,180+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like collections, aggregation pipeline, indexes, Atlas, change streams, schema inspection and preserving the […]"
+description: ""
+github_stars: 10181
 verification: "security_reviewed"
 source: "https://github.com/mongodb/node-mongodb-native"
 category: "Developer Tools"

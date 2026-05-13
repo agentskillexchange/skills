@@ -1,44 +1,46 @@
 ---
 title: "Generate and validate conventional commits and semver release bumps with Commitizen"
+slug: "generate-and-validate-conventional-commits-and-semver-release-bumps-with-commitizen"
 description: "Standardize commit messages, validate commit history, and calculate semver-aware release bumps without hand-rolled repo rules."
-verification: security_reviewed
+github_stars: 3382
+verification: "security_reviewed"
 source: "https://github.com/commitizen-tools/commitizen"
+author: "commitizen-tools"
+publisher_type: "organization"
+category: "Templates & Workflows"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "commitizen-tools/commitizen"
   github_stars: 3382
-category:
-  - "Templates & Workflows"
-framework:
-  - "Multi-Framework"
 ---
 
 # Generate and validate conventional commits and semver release bumps with Commitizen
 
 Standardize commit messages, validate commit history, and calculate semver-aware release bumps without hand-rolled repo rules.
 
+## Prerequisites
+
+Git, Python 3.9+, and the Commitizen CLI in a repository with a defined commit convention.
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/generate-and-validate-conventional-commits-and-semver-release-bumps-with-commitizen/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/generate-and-validate-conventional-commits-and-semver-release-bumps-with-commitizen
+```
+<p>Install with <code>pip install -U commitizen</code> or your preferred Python environment manager, add Commitizen configuration in <code>pyproject.toml</code>, <code>.cz.toml</code>, or equivalent, then run commands such as <code>cz commit</code>, <code>cz check</code>, and <code>cz bump</code> inside the target repository.</p>
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/generate-and-validate-conventional-commits-and-semver-release-bumps-with-commitizen`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://commitizen-tools.github.io/commitizen/
 
 ## Source
 

@@ -2,11 +2,14 @@
 title: "PostgreSQL Vacuum Deadlock Runbook"
 slug: "postgresql-vacuum-deadlock-runbook"
 description: "Automates PostgreSQL vacuum and autovacuum troubleshooting via pg_stat_user_tables, pg_locks, and pg_stat_activity views. Detects table bloat using pgstattuple extension and generates remediation SQL for long-running transaction conflicts."
+github_stars: 13127
 verification: "security_reviewed"
-source: "https://www.npmjs.com/package/pg"
+source: "https://github.com/brianc/node-postgres"
 category: "Runbooks & Diagnostics"
 framework: "Claude Agents"
 tool_ecosystem:
+  github_repo: "brianc/node-postgres"
+  github_stars: 13127
   npm_package: "pg"
   npm_weekly_downloads: 23169914
 ---

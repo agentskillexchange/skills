@@ -2,6 +2,7 @@
 title: "Formbricks Open Source Survey and Experience Management Platform"
 slug: "formbricks-open-source-survey-experience-management"
 description: "Formbricks is an open source survey platform and privacy-first experience management solution. Create in-app, website, link, and email surveys to gather user and customer insights at every point of their journey."
+github_stars: 12057
 verification: "security_reviewed"
 source: "https://github.com/formbricks/formbricks"
 category: "Integrations & Connectors"

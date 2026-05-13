@@ -2,6 +2,7 @@
 title: "Prometheus Alert Router"
 slug: "prometheus-alert-router"
 description: "Routes and escalates Prometheus AlertManager notifications based on severity and label matchers. Integrates with PagerDuty, Opsgenie, and Slack webhook APIs for multi-channel incident routing."
+github_stars: 63584
 verification: "security_reviewed"
 source: "https://github.com/prometheus/prometheus"
 category: "Monitoring & Alerts"

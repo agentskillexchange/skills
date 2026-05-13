@@ -2,6 +2,7 @@
 title: "Apache Avro Schema Evolution Agent"
 slug: "apache-avro-schema-evolution-agent"
 description: "Manages Apache Avro schema evolution with compatibility checking via Confluent Schema Registry API. Validates forward, backward, and full compatibility across schema versions automatically."
+github_stars: 3265
 verification: "security_reviewed"
 source: "https://github.com/apache/avro"
 author: "Apache Software Foundation"

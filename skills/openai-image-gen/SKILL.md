@@ -2,17 +2,18 @@
 title: "OpenAI Image Gen"
 slug: "openai-image-gen"
 description: "Batch-generate images through the OpenAI Images API with a prompt sampler and gallery output."
+github_stars: 10896
 verification: "security_reviewed"
 source: "https://github.com/openai/openai-node"
-author: "openai"
+author: "OpenAI"
 publisher_type: "open_source_collective"
 category: "Image & Creative Automation"
 framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "openai/openai-node"
-  github_stars: 10889
+  github_stars: 10896
   npm_package: "openai"
-  npm_weekly_downloads: 20546795
+  npm_weekly_downloads: 19148771
 ---
 
 # OpenAI Image Gen

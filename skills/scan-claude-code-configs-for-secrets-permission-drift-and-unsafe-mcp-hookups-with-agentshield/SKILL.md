@@ -1,12 +1,14 @@
 ---
 title: "Scan Claude Code configs for secrets permission drift and unsafe MCP hookups with AgentShield"
+slug: "scan-claude-code-configs-for-secrets-permission-drift-and-unsafe-mcp-hookups-with-agentshield"
 description: "Audit a Claude Code setup before use by flagging hardcoded secrets, broad allow rules, risky hooks, and dangerous MCP server config."
-verification: security_reviewed
+github_stars: 388
+verification: "security_reviewed"
 source: "https://github.com/affaan-m/agentshield"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Claude Code"
+author: "affaan-m"
+publisher_type: "individual"
+category: "Security & Verification"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "affaan-m/agentshield"
   github_stars: 388
@@ -16,29 +18,29 @@ tool_ecosystem:
 
 Audit a Claude Code setup before use by flagging hardcoded secrets, broad allow rules, risky hooks, and dangerous MCP server config.
 
+## Prerequisites
+
+Claude Code configuration directory, AgentShield CLI or npx path, local shell access, optional CI environment for GitHub Action usage
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/scan-claude-code-configs-for-secrets-permission-drift-and-unsafe-mcp-hookups-with-agentshield/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/scan-claude-code-configs-for-secrets-permission-drift-and-unsafe-mcp-hookups-with-agentshield
+```
+Run AgentShield with the no-install npx flow or install the documented package globally, then scan the target Claude Code configuration directory and review or apply the reported fixes.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/scan-claude-code-configs-for-secrets-permission-drift-and-unsafe-mcp-hookups-with-agentshield`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/affaan-m/agentshield
 
 ## Source
 

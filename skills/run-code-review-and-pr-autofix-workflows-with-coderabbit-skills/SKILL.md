@@ -1,44 +1,46 @@
 ---
 title: "Run code review and PR autofix workflows with CodeRabbit Skills"
+slug: "run-code-review-and-pr-autofix-workflows-with-coderabbit-skills"
 description: "Trigger CodeRabbit review passes from an agent and work unresolved PR feedback threads into guided or batch autofix loops."
-verification: security_reviewed
+github_stars: 73
+verification: "security_reviewed"
 source: "https://github.com/coderabbitai/skills"
+author: "CodeRabbit"
+publisher_type: "organization"
+category: "Code Quality & Review"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "coderabbitai/skills"
   github_stars: 73
-category:
-  - "Code Quality & Review"
-framework:
-  - "Multi-Framework"
 ---
 
 # Run code review and PR autofix workflows with CodeRabbit Skills
 
 Trigger CodeRabbit review passes from an agent and work unresolved PR feedback threads into guided or batch autofix loops.
 
+## Prerequisites
+
+CodeRabbit CLI, authenticated CodeRabbit access, a Git repository with local changes or an open PR, and an agent that supports Agent Skills
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/run-code-review-and-pr-autofix-workflows-with-coderabbit-skills/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/run-code-review-and-pr-autofix-workflows-with-coderabbit-skills
+```
+Install and authenticate the CodeRabbit CLI, add the skills repo with npx skills add coderabbitai/skills, then invoke the documented review or autofix prompts from a supported coding agent inside the target repository.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/run-code-review-and-pr-autofix-workflows-with-coderabbit-skills`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://docs.coderabbit.ai/cli
 
 ## Source
 

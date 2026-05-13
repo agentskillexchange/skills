@@ -1,12 +1,14 @@
 ---
 title: "Sweep GitHub for leaked secrets and exposed credentials with git-hound"
+slug: "sweep-github-for-leaked-secrets-and-exposed-credentials-with-git-hound"
 description: "Search public GitHub broadly for leaked secrets and triage exposures when the workflow is recon and remediation, not generic secret scanning."
-verification: security_reviewed
+github_stars: 1400
+verification: "security_reviewed"
 source: "https://github.com/tillson/git-hound"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Multi-Framework"
+author: "tillson"
+publisher_type: "GitHub repository"
+category: "Security & Verification"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "tillson/git-hound"
   github_stars: 1400
@@ -16,29 +18,29 @@ tool_ecosystem:
 
 Search public GitHub broadly for leaked secrets and triage exposures when the workflow is recon and remediation, not generic secret scanning.
 
+## Prerequisites
+
+git-hound binary, GitHub token or code search access, and operator-defined dork queries
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/sweep-github-for-leaked-secrets-and-exposed-credentials-with-git-hound/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/sweep-github-for-leaked-secrets-and-exposed-credentials-with-git-hound
+```
+Download git-hound from GitHub Releases, configure the required GitHub access in config.yml, then run dork or keyword searches to scan matching repositories and histories for leaked secrets.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/sweep-github-for-leaked-secrets-and-exposed-credentials-with-git-hound`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/tillson/git-hound#readme
 
 ## Source
 

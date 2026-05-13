@@ -1,44 +1,46 @@
 ---
 title: "Back up GitHub repos releases and gists with GitHub Backup"
+slug: "back-up-github-repos-releases-and-gists-with-github-backup"
 description: "Use GitHub Backup when an agent needs to mirror repositories, release assets, and gists into local storage on a schedule, instead of manually exporting GitHub content repo by repo."
-verification: security_reviewed
+github_stars: 33
+verification: "security_reviewed"
 source: "https://github.com/SierraSoftworks/github-backup"
+author: "Sierra Softworks"
+publisher_type: "open_source_project"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "SierraSoftworks/github-backup"
   github_stars: 33
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
 ---
 
 # Back up GitHub repos releases and gists with GitHub Backup
 
 Use GitHub Backup when an agent needs to mirror repositories, release assets, and gists into local storage on a schedule, instead of manually exporting GitHub content repo by repo.
 
+## Prerequisites
+
+GitHub Backup binary or container image, GitHub token, local or mounted backup storage
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/back-up-github-repos-releases-and-gists-with-github-backup/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/back-up-github-repos-releases-and-gists-with-github-backup
+```
+Install the GitHub Backup binary or use the published container image, create a YAML config with your GitHub token and backup targets, then run `github-backup --config config.yaml` on demand or from a scheduler.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/back-up-github-repos-releases-and-gists-with-github-backup`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/SierraSoftworks/github-backup
 
 ## Source
 

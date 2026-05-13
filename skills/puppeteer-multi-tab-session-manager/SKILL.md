@@ -2,6 +2,7 @@
 title: "Puppeteer Multi-Tab Session Manager"
 slug: "puppeteer-multi-tab-session-manager"
 description: "Manages concurrent Puppeteer browser tabs with shared cookie jars and session persistence using Chrome DevTools Protocol. Handles tab lifecycle, navigation queues, and automatic retry with exponential backoff via puppeteer-cluster."
+github_stars: 94115
 verification: "security_reviewed"
 source: "https://github.com/puppeteer/puppeteer"
 author: "Puppeteer"

@@ -2,6 +2,7 @@
 title: "Open Interpreter Natural Language Computer Interface"
 slug: "open-interpreter-natural-language-computer-interface"
 description: "Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more) through a ChatGPT-like terminal interface. It provides a natural-language interface to your computer's general-purpose capabilities including file manipulation, browser control, and data analysis."
+github_stars: 62934
 verification: "security_reviewed"
 source: "https://github.com/openinterpreter/open-interpreter"
 category: "Developer Tools"

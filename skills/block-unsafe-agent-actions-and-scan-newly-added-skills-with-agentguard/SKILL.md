@@ -1,46 +1,48 @@
 ---
 title: "Block unsafe agent actions and scan newly added skills with AgentGuard"
+slug: "block-unsafe-agent-actions-and-scan-newly-added-skills-with-agentguard"
 description: "Add a runtime guard that evaluates agent actions, blocks dangerous commands or secret exposure, and audits new skills before they run."
-verification: security_reviewed
+github_stars: 390
+verification: "security_reviewed"
 source: "https://github.com/GoPlusSecurity/agentguard"
+author: "GoPlusSecurity"
+publisher_type: "open_source_project"
+category: "Security & Verification"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "GoPlusSecurity/agentguard"
   github_stars: 390
   npm_package: "@goplus/agentguard"
   npm_weekly_downloads: 2947
-category:
-  - "Security & Verification"
-framework:
-  - "Multi-Framework"
 ---
 
 # Block unsafe agent actions and scan newly added skills with AgentGuard
 
 Add a runtime guard that evaluates agent actions, blocks dangerous commands or secret exposure, and audits new skills before they run.
 
+## Prerequisites
+
+Node.js, supported agent runtime such as Claude Code or OpenClaw, local skill directories and agent action hooks
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/block-unsafe-agent-actions-and-scan-newly-added-skills-with-agentguard/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/block-unsafe-agent-actions-and-scan-newly-added-skills-with-agentguard
+```
+Install with npm install @goplus/agentguard. For Claude Code, clone the repo and run ./setup.sh to install hooks, or install the skill manually from the repo. For OpenClaw, register the provided @goplus/agentguard/openclaw plugin entrypoint in plugin config.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/block-unsafe-agent-actions-and-scan-newly-added-skills-with-agentguard`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/GoPlusSecurity/agentguard
 
 ## Source
 

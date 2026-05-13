@@ -2,6 +2,7 @@
 title: "GitLab CI Pipeline Optimizer"
 slug: "gitlab-ci-pipeline-optimizer-8"
 description: "Optimizes GitLab CI/CD pipelines using the GitLab Pipelines API and DAG keyword configurations. Analyzes job dependencies, parallel execution opportunities, and cache strategies for faster builds."
+github_stars: 24298
 verification: "security_reviewed"
 source: "https://github.com/gitlabhq/gitlabhq"
 category: "CI/CD Integrations"

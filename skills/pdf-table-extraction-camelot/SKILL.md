@@ -2,6 +2,7 @@
 title: "PDF Table Extraction with Camelot"
 slug: "pdf-table-extraction-camelot"
 description: "Extracts structured tables from PDF documents using Camelot's lattice and stream parsing algorithms. Handles merged cells, multi-page tables, and outputs to pandas DataFrames, CSV, and JSON with column type inference."
+github_stars: 3673
 verification: "security_reviewed"
 source: "https://github.com/camelot-dev/camelot"
 author: "Camelot"

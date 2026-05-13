@@ -2,6 +2,7 @@
 title: "Playwright Session Recorder"
 slug: "playwright-session-recorder-2"
 description: "Records browser sessions using Playwright codegen and exports replayable test scripts. Captures network HAR files alongside DOM snapshots for full session fidelity."
+github_stars: 86409
 verification: "security_reviewed"
 source: "https://github.com/microsoft/playwright"
 category: "Browser Automation"

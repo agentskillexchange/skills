@@ -1,44 +1,46 @@
 ---
 title: "Add persistent project memory and hook-driven synthesis with Claude Memory Kit"
+slug: "add-persistent-project-memory-and-hook-driven-synthesis-with-claude-memory-kit"
 description: "Keep Claude Code sessions grounded in prior decisions, project context, and daily handoff notes instead of starting from zero every time."
-verification: security_reviewed
+github_stars: 11
+verification: "security_reviewed"
 source: "https://github.com/awrshift/claude-memory-kit"
+author: "awrshift"
+publisher_type: "individual"
+category: "Developer Tools"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "awrshift/claude-memory-kit"
   github_stars: 11
-category:
-  - "Developer Tools"
-framework:
-  - "Claude Code"
 ---
 
 # Add persistent project memory and hook-driven synthesis with Claude Memory Kit
 
 Keep Claude Code sessions grounded in prior decisions, project context, and daily handoff notes instead of starting from zero every time.
 
+## Prerequisites
+
+Claude Code, a local project workspace, Git, and the repo's markdown memory files, hooks, and slash commands
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/add-persistent-project-memory-and-hook-driven-synthesis-with-claude-memory-kit/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/add-persistent-project-memory-and-hook-driven-synthesis-with-claude-memory-kit
+```
+Clone the repository into the target project, open Claude Code in that workspace, let the setup flow configure the memory kit, then use the documented slash commands such as /tour and /close-day to keep context and handoffs current.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/add-persistent-project-memory-and-hook-driven-synthesis-with-claude-memory-kit`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/awrshift/claude-memory-kit
 
 ## Source
 

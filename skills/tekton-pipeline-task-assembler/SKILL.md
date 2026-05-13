@@ -2,6 +2,7 @@
 title: "Tekton Pipeline Task Assembler"
 slug: "tekton-pipeline-task-assembler"
 description: "Assembles Tekton CI/CD pipelines from reusable Task and ClusterTask definitions using tkn CLI and Tekton Hub catalog. Manages PipelineRun parameters, workspace bindings, and result propagation across task steps."
+github_stars: 8936
 verification: "security_reviewed"
 source: "https://github.com/tektoncd/pipeline"
 category: "CI/CD Integrations"

@@ -2,6 +2,7 @@
 title: "Grafana Loki Log Correlation Agent"
 slug: "grafana-loki-log-correlation-agent-2"
 description: "Queries Grafana Loki via the LogQL API to correlate log streams across services. Builds cross-service trace-to-log mappings using Tempo integration and generates alert rule suggestions."
+github_stars: 27993
 verification: "security_reviewed"
 source: "https://github.com/grafana/loki"
 category: "Monitoring & Alerts"

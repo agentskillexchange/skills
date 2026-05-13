@@ -2,6 +2,7 @@
 title: "Playwright Cross-Browser Test Runner"
 slug: "playwright-cross-browser-test-runner"
 description: "Runs end-to-end browser tests using Playwright Test with page.goto, page.locator, and expect assertions. Supports Chromium, Firefox, and WebKit with parallel execution and trace recording via trace.zip artifacts."
+github_stars: 86409
 verification: "security_reviewed"
 source: "https://github.com/microsoft/playwright"
 category: "Browser Automation"

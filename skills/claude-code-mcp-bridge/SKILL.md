@@ -2,17 +2,18 @@
 title: "Claude Code MCP Bridge"
 slug: "claude-code-mcp-bridge"
 description: "Run Claude Code as a one-shot MCP tool so other agents and editors can delegate coding tasks to it. An agent-in-agent orchestration bridge."
+github_stars: 1279
 verification: "security_reviewed"
 source: "https://github.com/steipete/claude-code-mcp"
-author: "Peter Steinberger (@steipete)"
+author: "Peter Steinberger"
 publisher_type: "individual"
 category: "Developer Tools"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "steipete/claude-code-mcp"
-  github_stars: 1274
+  github_stars: 1279
   npm_package: "@steipete/claude-code-mcp"
-  npm_weekly_downloads: 405
+  npm_weekly_downloads: 344
 ---
 
 # Claude Code MCP Bridge

@@ -1,44 +1,46 @@
 ---
 title: "Generate domain-specific Claude Code agent teams and shared skills with Harness"
+slug: "generate-domain-specific-claude-code-agent-teams-and-shared-skills-with-harness"
 description: "Turn a project description into a Claude Code team architecture with generated agents, shared skills, and orchestration patterns instead of hand-designing the whole setup."
-verification: security_reviewed
+github_stars: 2807
+verification: "security_reviewed"
 source: "https://github.com/revfactory/harness"
+author: "revfactory"
+publisher_type: "organization"
+category: "Templates & Workflows"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "revfactory/harness"
   github_stars: 2807
-category:
-  - "Templates & Workflows"
-framework:
-  - "Claude Code"
 ---
 
 # Generate domain-specific Claude Code agent teams and shared skills with Harness
 
 Turn a project description into a Claude Code team architecture with generated agents, shared skills, and orchestration patterns instead of hand-designing the whole setup.
 
+## Prerequisites
+
+Claude Code, Harness plugin or copied skill files, a project or domain description to turn into agent-team definitions
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/generate-domain-specific-claude-code-agent-teams-and-shared-skills-with-harness/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/generate-domain-specific-claude-code-agent-teams-and-shared-skills-with-harness
+```
+Install the Harness Claude Code plugin from the repository instructions or copy the skill files into ~/.claude/skills/harness, then invoke the documented prompts such as 'build a harness for this project' to generate .claude/agents and .claude/skills for the target domain.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/generate-domain-specific-claude-code-agent-teams-and-shared-skills-with-harness`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/revfactory/harness#readme
 
 ## Source
 

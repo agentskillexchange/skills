@@ -1,45 +1,48 @@
 ---
 title: "Build and sync n8n workflows from code with n8n-as-code"
+slug: "build-and-sync-n8n-workflows-from-code-with-n8n-as-code"
 description: "Inspect n8n nodes and templates, generate typed workflow code, and sync automations through Git-friendly files instead of hand-editing workflow JSON."
-verification: security_reviewed
+github_stars: 884
+verification: "security_reviewed"
 source: "https://github.com/EtienneLescot/n8n-as-code"
+author: "Etienne Lescot"
+publisher_type: "individual"
+category: "Templates & Workflows"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "EtienneLescot/n8n-as-code"
   github_stars: 884
   npm_package: "@n8n-as-code/cli"
-category:
-  - "Templates & Workflows"
-framework:
-  - "Multi-Framework"
+  npm_weekly_downloads: 297
 ---
 
 # Build and sync n8n workflows from code with n8n-as-code
 
 Inspect n8n nodes and templates, generate typed workflow code, and sync automations through Git-friendly files instead of hand-editing workflow JSON.
 
+## Prerequisites
+
+Node.js, npm or npx, access to an n8n instance, a supported coding agent or CLI environment
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/build-and-sync-n8n-workflows-from-code-with-n8n-as-code/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/build-and-sync-n8n-workflows-from-code-with-n8n-as-code
+```
+Install the CLI from the n8n-as-code project, connect it to the target n8n instance, then use its code-first workflow commands to inspect nodes, generate typed workflows, and sync them through version-controlled files.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/build-and-sync-n8n-workflows-from-code-with-n8n-as-code`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://n8nascode.dev/
 
 ## Source
 

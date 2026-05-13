@@ -2,6 +2,7 @@
 title: "Cookiecutter Project Scaffolder"
 slug: "cookiecutter-project-scaffolder-3"
 description: "Scaffolds project templates using the Cookiecutter engine with Jinja2 templating and pre/post generation hooks. Supports conditional file inclusion, directory renaming, and cookiecutter.json variable validation with JSON Schema."
+github_stars: 24818
 verification: "security_reviewed"
 source: "https://github.com/cookiecutter/cookiecutter"
 author: "cookiecutter"

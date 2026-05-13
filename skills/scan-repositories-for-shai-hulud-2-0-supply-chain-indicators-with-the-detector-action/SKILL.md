@@ -1,12 +1,14 @@
 ---
 title: "Scan repositories for Shai-Hulud 2.0 supply-chain indicators with the detector action"
+slug: "scan-repositories-for-shai-hulud-2-0-supply-chain-indicators-with-the-detector-action"
 description: "Check repositories and CI surfaces for Shai-Hulud 2.0 compromise indicators when the task is targeted supply-chain triage, not generic malware scanning."
-verification: security_reviewed
+github_stars: 124
+verification: "security_reviewed"
 source: "https://github.com/gensecaihq/Shai-Hulud-2.0-Detector"
-category:
-  - "Security &amp; Verification"
-framework:
-  - "Multi-Framework"
+author: "GenSecAIHQ"
+publisher_type: "GitHub repository"
+category: "Security & Verification"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "gensecaihq/Shai-Hulud-2.0-Detector"
   github_stars: 124
@@ -16,29 +18,29 @@ tool_ecosystem:
 
 Check repositories and CI surfaces for Shai-Hulud 2.0 compromise indicators when the task is targeted supply-chain triage, not generic malware scanning.
 
+## Prerequisites
+
+GitHub Action or local detector CLI, repository or monorepo to scan, and security triage review
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/scan-repositories-for-shai-hulud-2-0-supply-chain-indicators-with-the-detector-action/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/scan-repositories-for-shai-hulud-2-0-supply-chain-indicators-with-the-detector-action
+```
+Use the upstream GitHub Action in CI or run the detector locally, then review the campaign-specific findings, SARIF output, and incident-response guidance from the project documentation.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/scan-repositories-for-shai-hulud-2-0-supply-chain-indicators-with-the-detector-action`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://github.com/gensecaihq/Shai-Hulud-2.0-Detector#readme
 
 ## Source
 

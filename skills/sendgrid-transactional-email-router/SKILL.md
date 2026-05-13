@@ -2,6 +2,7 @@
 title: "SendGrid Transactional Email Router"
 slug: "sendgrid-transactional-email-router"
 description: "Manages transactional email delivery via SendGrid v3 Mail Send API with dynamic template rendering. Handles bounce processing, suppression group management, and event webhook parsing."
+github_stars: 3049
 verification: "security_reviewed"
 source: "https://github.com/sendgrid/sendgrid-nodejs"
 category: "Integrations & Connectors"

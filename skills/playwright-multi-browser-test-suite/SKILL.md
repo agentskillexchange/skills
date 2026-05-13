@@ -2,6 +2,7 @@
 title: "Playwright Multi-Browser Test Suite"
 slug: "playwright-multi-browser-test-suite"
 description: "Generates end-to-end test suites using the Playwright Test Runner API with cross-browser coverage on Chromium, Firefox, and WebKit. Implements visual regression testing via the Playwright Screenshots API and network mocking."
+github_stars: 86409
 verification: "security_reviewed"
 source: "https://github.com/microsoft/playwright"
 category: "Browser Automation"

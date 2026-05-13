@@ -1,44 +1,46 @@
 ---
 title: "Drive dependency and config bumps through declarative Updatecli pipelines"
+slug: "drive-dependency-and-config-bumps-through-declarative-updatecli-pipelines"
 description: "Use Updatecli when an agent needs to detect upstream releases, validate conditions, patch versioned files, and open reviewable update actions from one policy run instead of hand-editing manifests or relying on a single ecosystem bot."
-verification: security_reviewed
+github_stars: 894
+verification: "security_reviewed"
 source: "https://github.com/updatecli/updatecli"
+author: "Updatecli contributors"
+publisher_type: "open_source_project"
+category: "CI/CD Integrations"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "updatecli/updatecli"
   github_stars: 894
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Multi-Framework"
 ---
 
 # Drive dependency and config bumps through declarative Updatecli pipelines
 
 Use Updatecli when an agent needs to detect upstream releases, validate conditions, patch versioned files, and open reviewable update actions from one policy run instead of hand-editing manifests or relying on a single ecosystem bot.
 
+## Prerequisites
+
+Updatecli binary, YAML policy file, access to the repositories or files you want to update
+
 ## Installation
 
-### Method 1, Agent Skill Exchange
+Choose whichever fits your setup:
 
-- Install from the marketplace listing: https://agentskillexchange.com/skills/drive-dependency-and-config-bumps-through-declarative-updatecli-pipelines/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-### Method 2, Git clone
+Install command or upstream instructions:
 
-```bash
-git clone https://github.com/agentskillexchange/skills.git && cd skills/skills/drive-dependency-and-config-bumps-through-declarative-updatecli-pipelines
+```
+Install Updatecli from the documented release or package method, write an updatecli YAML policy, then run `updatecli apply --config updatecli.yaml` against the target repository or workspace.
 ```
 
-### Method 3, Download ZIP
+## Documentation
 
-- Download the repository ZIP and extract `skills/drive-dependency-and-config-bumps-through-declarative-updatecli-pipelines`.
-
-### Method 4, Manual copy
-
-- Copy this skill folder into your local skills directory, then reload your agent tooling.
-
-### Method 5, Fork and sync
-
-- Fork the repository if you want to maintain local edits while syncing upstream changes.
+- https://www.updatecli.io
 
 ## Source
 

@@ -2,6 +2,7 @@
 title: "Docker Compose Health Monitor"
 slug: "docker-compose-health-monitor"
 description: "Monitors Docker Compose service health using the Docker Engine API (/containers/{id}/json) and docker-compose ps parsing. Tracks container restart counts via the RestartCount field and logs analysis through the /containers/{id}/logs endpoint."
+github_stars: 71492
 verification: "security_reviewed"
 source: "https://github.com/moby/moby"
 category: "Runbooks & Diagnostics"

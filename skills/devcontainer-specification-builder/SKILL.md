@@ -2,6 +2,7 @@
 title: "Devcontainer Specification Builder"
 slug: "devcontainer-specification-builder"
 description: "Generates dev container specifications with feature composition and lifecycle hooks. Uses the Dev Container Specification API, OCI feature registry, and devcontainer CLI for container-based development environments."
+github_stars: 5357
 verification: "security_reviewed"
 source: "https://github.com/devcontainers/spec"
 author: "Dev Containers"
