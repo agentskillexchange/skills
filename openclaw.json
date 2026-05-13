@@ -2,8 +2,16 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-05-13",
-  "total": 2453,
+  "total": 2454,
   "skills": [
+    {
+      "slug": "generate-and-iterate-on-a-local-codebase-from-a-natural-language-spec-with-gpt-engineer",
+      "title": "Generate and iterate on a local codebase from a natural-language spec with gpt-engineer",
+      "description": "Use gpt-engineer when an agent/operator needs to turn a prompt file into a local project scaffold, inspect the generated code, and run a supervised…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
     {
       "slug": "generate-and-iterate-on-codebases-from-specs-with-gpt-engineer",
       "title": "Generate and iterate on codebases from specs with gpt-engineer",

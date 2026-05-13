@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2453 published skills** across **17 categories** · 2448 security reviewed · Updated 2026-05-13 13:26 UTC
+> **2454 published skills** across **17 categories** · 2448 security reviewed · Updated 2026-05-13 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (313 skills)
+### 🛠️ Developer Tools (314 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -57,6 +57,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [PocketBase Open Source Realtime Backend in a Single Binary](skills/pocketbase-open-source-realtime-backend-single-binary/) | PocketBase is an open-source Go backend that ships as a single portable executable. It includes an embedded SQLite… | Security Reviewed | 57.3k | — |
 | [AutoGen — Microsoft Multi-Agent Conversation Framework](skills/autogen-microsoft-multi-agent-framework/) | AutoGen is Microsoft's open-source framework for building multi-agent systems where AI agents converse with each… | Security Reviewed | 56.8k | — |
 | [Starship Cross-Shell Prompt Configurator](skills/starship-cross-shell-prompt-configurator/) | The minimal, blazing-fast, and infinitely customizable prompt for any shell. Starship is written in Rust and works… | Security Reviewed | 55.7k | — |
+| [Generate and iterate on a local codebase from a natural-language spec with gpt-engineer](skills/generate-and-iterate-on-a-local-codebase-from-a-natural-language-spec-with-gpt-engineer/) | Use gpt-engineer when an agent/operator needs to turn a prompt file into a local project scaffold, inspect the… | Published | 55.2k | — |
 | [Generate and iterate on codebases from specs with gpt-engineer](skills/generate-and-iterate-on-codebases-from-specs-with-gpt-engineer/) | Use gpt-engineer to turn a natural-language project prompt into a local codebase, then inspect, test, and iterate… | Published | 55.2k | — |
 | [Dive Docker Image Layer Explorer and Size Optimizer](skills/dive-docker-image-layer-explorer/) | Dive is a CLI tool for exploring Docker image layers, analyzing file system changes, and estimating wasted space. It… | Security Reviewed | 53.7k | — |
 | [Vue.js — Progressive JavaScript Framework for Building UIs](skills/vue-js-progressive-javascript-framework/) | Vue.js is a progressive JavaScript framework for building user interfaces with an incrementally adoptable… | Security Reviewed | 53.4k | — |
