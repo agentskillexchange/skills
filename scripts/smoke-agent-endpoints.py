@@ -63,6 +63,7 @@ def check(base: str, path: str, fmt: str, validator) -> tuple[bool, str]:
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--base", default="https://agentskillexchange.com")
+    parser.add_argument("--expected-total", type=int, help="Fail if JSON endpoints do not match this total")
     args = parser.parse_args()
 
     base = args.base
@@ -71,6 +72,19 @@ def main():
     results = []
     for path, fmt, validator in ENDPOINTS:
         ok, msg = check(base, path, fmt, validator)
+        if ok and args.expected_total and fmt == "json":
+            try:
+                req = urllib.request.Request(
+                    f"{base.rstrip('/')}/{path}?ase_smoke_check={args.expected_total}",
+                    headers={"User-Agent": "ASE smoke-test/1.0"},
+                )
+                with urllib.request.urlopen(req, timeout=30) as resp:
+                    data = json.loads(resp.read().decode("utf-8"))
+                count = int(data.get("total") or len(data.get("skills", [])))
+                if count != args.expected_total:
+                    ok, msg = False, f"Expected {args.expected_total} skills, got {count}"
+            except Exception as e:
+                ok, msg = False, f"Expected-total check failed: {e}"
         status = "PASS" if ok else "FAIL"
         print(f"  {status}  {path}: {msg}")
         results.append(ok)
