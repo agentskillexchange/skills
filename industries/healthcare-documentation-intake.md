@@ -16,6 +16,7 @@ Documentation intake, OCR, transcription, structured extraction, and biomedical 
 | [WhisperX Speech Recognition with Word-Level Timestamps and Diarization](../skills/whisperx-speech-recognition-timestamps-diarization/) | Media & Transcription | 21k | — |
 | [DocuSeal Open Source Document Signing and PDF Form Platform](../skills/docuseal-document-signing-pdf-forms/) | Templates & Workflows | 11.7k | — |
 | [pdfplumber Python PDF Text and Table Extraction Library](../skills/pdfplumber-python-pdf-text-table-extraction/) | Data Extraction & Transformation | 10.1k | — |
+| [Expose FHIR healthcare data resources to MCP agents with review boundaries](../skills/expose-fhir-healthcare-data-resources-to-mcp-agents-with-review-boundaries/) | Integrations & Connectors | 80 | — |
 
 ## Editorial Caution
 

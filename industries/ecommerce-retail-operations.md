@@ -16,6 +16,7 @@ Catalog management, storefront automation, orders, inventory sync, marketplace s
 | [WooCommerce REST Inventory Sync](../skills/woocommerce-rest-inventory-sync/) | WordPress & CMS | 10.2k | — |
 | [Stripe Connect Marketplace Sync](../skills/stripe-connect-marketplace-sync/) | Integrations & Connectors | 4.4k | 9.3M/wk |
 | [WooCommerce Webhook Delivery Inspector](../skills/woocommerce-webhook-delivery-inspector/) | WordPress & CMS | 10.2k | — |
+| [Run Shopify Admin product order customer and inventory workflows through MCP](../skills/run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp/) | Integrations & Connectors | 15 | — |
 
 ## Editorial Caution
 

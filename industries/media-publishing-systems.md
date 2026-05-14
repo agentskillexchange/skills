@@ -18,6 +18,12 @@ Transcription, subtitles, podcast workflows, chaptering, localization, loudness 
 | [WhisperX Speech Recognition with Word-Level Timestamps and Diarization](../skills/whisperx-speech-recognition-timestamps-diarization/) | Media & Transcription | 21k | — |
 | [Capture YouTube transcripts without browser automation using YouTube Transcript API](../skills/capture-youtube-transcripts-without-browser-automation-using-youtube-transcript-api/) | Media & Transcription | 7.4k | — |
 
+## Backup Picks
+
+| Skill | Why keep it nearby |
+|---|---|
+| [Audiobookshelf Self-Hosted Audiobook and Podcast Server API](../skills/audiobookshelf-self-hosted-audiobook-podcast-server-api/) | Useful alternate or overflow pick for this collection. |
+
 ## Editorial Caution
 
 Prefer workflow-shaped entries over bare libraries when possible.

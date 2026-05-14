@@ -24,6 +24,7 @@ Product analytics, feature flags, rollout checks, session replay, privacy-friend
 | Skill | Why keep it nearby |
 |---|---|
 | [DuckDB SQL Analytics Agent](../skills/duckdb-sql-analytics-agent/) | Useful alternate or overflow pick for this collection. |
+| [Evidence BI-as-Code SQL and Markdown Analytics Framework](../skills/evidence-bi-as-code-sql-markdown-analytics/) | Useful alternate or overflow pick for this collection. |
 
 ## Editorial Caution
 

@@ -15,7 +15,9 @@
         "whisperx-speech-recognition-timestamps-diarization",
         "capture-youtube-transcripts-without-browser-automation-using-youtube-transcript-api"
       ],
-      "backup_skill_slugs": []
+      "backup_skill_slugs": [
+        "audiobookshelf-self-hosted-audiobook-podcast-server-api"
+      ]
     },
     {
       "slug": "finance-filings",
@@ -43,7 +45,8 @@
         "shopify-admin-graphql-sync-agent",
         "woocommerce-rest-inventory-sync",
         "stripe-connect-marketplace-sync",
-        "woocommerce-webhook-delivery-inspector"
+        "woocommerce-webhook-delivery-inspector",
+        "run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp"
       ],
       "backup_skill_slugs": []
     },
@@ -61,12 +64,14 @@
         "search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review",
         "paperless-ngx-document-ocr-archive-management-system",
         "langextract-llm-structured-text-extraction",
-        "search-large-pdfs-and-read-only-the-relevant-pages-before-answering"
+        "search-large-pdfs-and-read-only-the-relevant-pages-before-answering",
+        "process-redact-ocr-and-sign-documents-with-nutrient-agent-skill"
       ],
       "backup_skill_slugs": [
         "revise-pdf-slides-with-natural-language-edits",
         "enrich-paperless-ngx-documents-with-ai-generated-titles-tags-and-correspondents-using-paperless-gpt",
-        "capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate"
+        "capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate",
+        "convert-dense-pdfs-into-llm-ready-text-and-page-aligned-markdown-with-olmocr"
       ]
     },
     {
@@ -74,14 +79,15 @@
       "title": "Healthcare Documentation & Intake",
       "launch_stage": "wave-2",
       "description": "Documentation intake, OCR, transcription, structured extraction, and biomedical literature support for paperwork-heavy workflows.",
-      "editorial_caution": "Keep the framing explicitly non-clinical. This is for documentation, intake, extraction, transcription, and literature support \u2014 not diagnosis or medical decision support.",
+      "editorial_caution": "Keep the framing explicitly non-clinical. This is for documentation, intake, extraction, transcription, and literature support — not diagnosis or medical decision support.",
       "skill_slugs": [
         "pubmed-literature-mining-agent",
         "langextract-llm-structured-text-extraction",
         "ocrmypdf-searchable-pdf-ocr-pipeline",
         "whisperx-speech-recognition-timestamps-diarization",
         "docuseal-document-signing-pdf-forms",
-        "pdfplumber-python-pdf-text-table-extraction"
+        "pdfplumber-python-pdf-text-table-extraction",
+        "expose-fhir-healthcare-data-resources-to-mcp-agents-with-review-boundaries"
       ],
       "backup_skill_slugs": []
     },
@@ -102,7 +108,8 @@
         "metabase-open-source-business-intelligence-and-embedded-analytics"
       ],
       "backup_skill_slugs": [
-        "duckdb-sql-analytics-agent"
+        "duckdb-sql-analytics-agent",
+        "evidence-bi-as-code-sql-markdown-analytics"
       ]
     },
     {
@@ -138,7 +145,11 @@
         "affine-knowledge-base-collaborative-workspace-platform",
         "twenty-open-source-crm-salesforce-alternative",
         "hubspot-crm-contact-enrichment-pipeline",
-        "nb-cli-note-taking-bookmarking-knowledge-base"
+        "nb-cli-note-taking-bookmarking-knowledge-base",
+        "connect-mcp-agents-to-zendesk-ticket-and-help-center-workflows",
+        "triage-support-tickets-and-draft-customer-replies-with-claude-code-support-skills",
+        "let-mcp-agents-inspect-and-update-freshdesk-tickets-safely",
+        "inspect-freshservice-service-management-tickets-and-modules-through-mcp"
       ],
       "backup_skill_slugs": [
         "normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs",
@@ -165,7 +176,10 @@
         "langextract-llm-structured-text-extraction",
         "hubspot-crm-contact-enrichment-pipeline",
         "search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review",
-        "twenty-open-source-crm-salesforce-alternative"
+        "twenty-open-source-crm-salesforce-alternative",
+        "rag-backed-real-estate-property-research",
+        "retrieve-zillow-style-property-details-and-market-trends-through-an-mcp-server",
+        "connect-mcp-agents-to-batchdata-property-and-address-apis"
       ],
       "backup_skill_slugs": [
         "normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs"
