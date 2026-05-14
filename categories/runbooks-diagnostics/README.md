@@ -189,11 +189,11 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Debug live Chromium sessions with browser-debugger-cli](../../skills/debug-live-chromium-sessions-with-browser-debugger-cli/) | 124 | 582/wk |
 | [Capture and replay Claude Code trajectories for multi-session debugging with Agent Lens](../../skills/capture-and-replay-claude-code-trajectories-for-multi-session-debugging-with-agent-lens/) | 102 | — |
 | [Run AI-assisted security triage with role-based SOC runbooks from ai-runbooks](../../skills/run-ai-assisted-security-triage-with-role-based-soc-runbooks-from-ai-runbooks/) | 96 | — |
+| [PagerDuty Incident Runbook](../../skills/pagerduty-incident-runbook/) | 69 | 1M/wk |
+| [PagerDuty Incident Runbook Automator](../../skills/pagerduty-incident-runbook-automator/) | 69 | 1M/wk |
+| [PagerDuty Incident Runbook Engine](../../skills/pagerduty-incident-runbook-engine/) | 69 | 1M/wk |
+| [PagerDuty Incident Runbook Executor](../../skills/pagerduty-incident-runbook-executor/) | 69 | 1M/wk |
 | [PagerDuty On-Call Escalation Checker](../../skills/pagerduty-on-call-escalation-checker-2/) | 69 | 1M/wk |
-| [PagerDuty Incident Runbook](../../skills/pagerduty-incident-runbook/) | 69 | — |
-| [PagerDuty Incident Runbook Automator](../../skills/pagerduty-incident-runbook-automator/) | 69 | — |
-| [PagerDuty Incident Runbook Engine](../../skills/pagerduty-incident-runbook-engine/) | 69 | — |
-| [PagerDuty Incident Runbook Executor](../../skills/pagerduty-incident-runbook-executor/) | 69 | — |
 | [Improve Qdrant vector search relevance and retrieval quality](../../skills/improve-qdrant-vector-search-relevance-and-retrieval-quality/) | 65 | — |
 | [Triage active security incidents with AI-augmented workflows in Valhuntir CLI](../../skills/triage-active-security-incidents-with-ai-augmented-workflows-in-valhuntir-cli/) | 40 | — |
 | [Validate, dry-run, and expose YAML agent runbooks as MCP tools with DeclarAgent](../../skills/validate-dry-run-and-expose-yaml-agent-runbooks-as-mcp-tools-with-declaragent/) | 11 | — |

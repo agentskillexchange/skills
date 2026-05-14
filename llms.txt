@@ -1,7 +1,7 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-05-14
-# Total: 2454 skills
+# Total: 2453 skills
 
 ## Generate and iterate on a local codebase from a natural-language spec with gpt-engineer
 slug: generate-and-iterate-on-a-local-codebase-from-a-natural-language-spec-with-gpt-engineer
@@ -10,14 +10,6 @@ framework: Multi-Framework
 verification: Published
 description: Use gpt-engineer when an agent/operator needs to turn a prompt file into a local project scaffold, inspect the generated code, and run a supervised…
 url: https://agentskillexchange.com/skills/generate-and-iterate-on-a-local-codebase-from-a-natural-language-spec-with-gpt-engineer/
-
-## Generate and iterate on codebases from specs with gpt-engineer
-slug: generate-and-iterate-on-codebases-from-specs-with-gpt-engineer
-category: Developer Tools
-framework: Multi-Framework
-verification: Published
-description: Use gpt-engineer to turn a natural-language project prompt into a local codebase, then inspect, test, and iterate before adopting the generated changes.
-url: https://agentskillexchange.com/skills/generate-and-iterate-on-codebases-from-specs-with-gpt-engineer/
 
 ## Query cross-connector business data for agents with Dinobase
 slug: query-cross-connector-business-data-for-agents-with-dinobase

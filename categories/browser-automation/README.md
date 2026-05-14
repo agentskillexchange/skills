@@ -99,12 +99,12 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Playwright MCP Server for Browser Automation](../../skills/playwright-mcp-server-browser-automation/) | 30.1k | 2.4M/wk |
 | [Vercel Agent Browser](../../skills/vercel-agent-browser/) | 29.1k | 601.9k/wk |
 | [Lightpanda Headless Browser for AI Automation](../../skills/lightpanda-headless-browser-ai-automation/) | 26.5k | — |
-| [Stagehand AI Browser Automation Framework](../../skills/stagehand-ai-browser-automation-framework-2/) | 22.1k | — |
-| [Stagehand AI Browser Automation Framework by Browserbase](../../skills/stagehand-ai-browser-automation-framework-browserbase/) | 22.1k | — |
-| [Stagehand Browser Agent SDK](../../skills/stagehand-browser-agent-sdk/) | 22.1k | — |
-| [Stagehand Browser Automation](../../skills/stagehand-browser-automation/) | 22.1k | — |
-| [Stagehand Browser Automation SDK](../../skills/stagehand-browser-automation-sdk/) | 22.1k | — |
-| [Stagehand AI Browser Automation Framework](../../skills/stagehand-ai-browser-automation-framework/) | 21.8k | — |
+| [Stagehand AI Browser Automation Framework](../../skills/stagehand-ai-browser-automation-framework-2/) | 22.1k | 3.4M/wk |
+| [Stagehand AI Browser Automation Framework by Browserbase](../../skills/stagehand-ai-browser-automation-framework-browserbase/) | 22.1k | 3.4M/wk |
+| [Stagehand Browser Agent SDK](../../skills/stagehand-browser-agent-sdk/) | 22.1k | 3.4M/wk |
+| [Stagehand Browser Automation](../../skills/stagehand-browser-automation/) | 22.1k | 3.4M/wk |
+| [Stagehand Browser Automation SDK](../../skills/stagehand-browser-automation-sdk/) | 22.1k | 3.4M/wk |
+| [Stagehand AI Browser Automation Framework](../../skills/stagehand-ai-browser-automation-framework/) | 21.8k | 3.4M/wk |
 | [Skyvern AI Browser Workflow Automation with LLMs and Computer Vision](../../skills/skyvern-ai-browser-workflow-automation/) | 21k | — |
 | [Playwright Python Browser Automation Library for Cross-Browser Testing](../../skills/playwright-python-browser-automation-library-cross-browser-testing/) | 14.5k | — |
 | [Run computer-use agents inside cross-OS desktop sandboxes with CUA](../../skills/run-computer-use-agents-inside-cross-os-desktop-sandboxes-with-cua/) | 13.5k | — |

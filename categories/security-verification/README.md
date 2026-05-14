@@ -26,13 +26,13 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Run autonomous white-box pentests against web apps and APIs with Shannon](../../skills/run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon/) | ⬇ 4k/wk |
 | [Discord Moderation Bot with AI Classification](../../skills/discord-moderation-ai-classification/) | ⬇ 563.5k/wk |
 | [Route risky coding-agent work through human approval checkpoints with HumanLayer](../../skills/route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer/) | ⬇ 694/wk |
-| [Stripe Webhook Signature Verifier](../../skills/stripe-webhook-signature-verifier/) | ⬇ 9.3M/wk |
-| [Gate Rust dependency trees on license, advisory, and source-policy violations before merge with cargo-deny](../../skills/gate-rust-dependency-trees-on-license-advisory-and-source-policy-violations-before-merge-with-cargo-deny/) | ⬇ 3.3M/wk |
-| [Decode, inspect, sign, and verify JWTs while debugging auth flows with jwt-cli](../../skills/decode-inspect-sign-and-verify-jwts-while-debugging-auth-flows-with-jwt-cli/) | ⬇ 3.4k/wk |
-| [Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit](../../skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit/) | ⬇ 20.9k/wk |
-| [Screen packages and agent skill repos for malware and supply-chain risk before adoption with SafeDep Vet](../../skills/screen-packages-and-agent-skill-repos-for-malware-and-supply-chain-risk-before-adoption-with-safedep-vet/) | ⬇ 90/wk |
-| [Apply rule-based guardrails to agent traces and tool flows with Invariant](../../skills/apply-rule-based-guardrails-to-agent-traces-and-tool-flows-with-invariant/) | ⬇ 1.5k/wk |
-| [Block unsafe agent actions and scan newly added skills with AgentGuard](../../skills/block-unsafe-agent-actions-and-scan-newly-added-skills-with-agentguard/) | ⬇ 2.9k/wk |
+| [Dependency Vulnerability Scanner](../../skills/dependency-vulnerability-scanner-agent/) | ⬇ 2.6M/wk |
+| [NPM Package Supply Chain Auditor](../../skills/npm-package-supply-chain-auditor/) | ⬇ 2.6M/wk |
+| [Snyk Container Image Analyzer](../../skills/snyk-container-image-analyzer/) | ⬇ 2.6M/wk |
+| [Snyk Container Vulnerability Agent](../../skills/snyk-container-vulnerability-agent/) | ⬇ 2.6M/wk |
+| [Snyk Dependency Audit Skill](../../skills/snyk-dependency-audit-skill/) | ⬇ 2.6M/wk |
+| [Snyk Dependency Vulnerability Auditor](../../skills/snyk-dependency-vulnerability-auditor/) | ⬇ 2.6M/wk |
+| [Snyk License Compliance Checker](../../skills/snyk-license-compliance-checker/) | ⬇ 2.6M/wk |
 
 ---
 
@@ -134,15 +134,15 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Sigstore Cosign Verifier](../../skills/sigstore-cosign-verifier-2/) | 5.8k | — |
 | [Sigstore Cosign Container Signature Checker](../../skills/sigstore-cosign-container-signature-checker/) | 5.8k | — |
 | [Generate and screen lookalike domains with dnstwist for brand abuse triage](../../skills/generate-and-screen-lookalike-domains-with-dnstwist-for-brand-abuse-triage/) | 5.7k | — |
-| [Dependency Vulnerability Scanner](../../skills/dependency-vulnerability-scanner-agent/) | 5.5k | — |
-| [NPM Package Supply Chain Auditor](../../skills/npm-package-supply-chain-auditor/) | 5.5k | — |
-| [Snyk Container Image Analyzer](../../skills/snyk-container-image-analyzer/) | 5.5k | — |
-| [Snyk Container Vulnerability Agent](../../skills/snyk-container-vulnerability-agent/) | 5.5k | — |
-| [Snyk Dependency Audit Skill](../../skills/snyk-dependency-audit-skill/) | 5.5k | — |
-| [Snyk Dependency Vulnerability Auditor](../../skills/snyk-dependency-vulnerability-auditor/) | 5.5k | — |
-| [Snyk License Compliance Checker](../../skills/snyk-license-compliance-checker/) | 5.5k | — |
-| [Snyk Open Source Dependency Auditor](../../skills/snyk-open-source-dependency-auditor/) | 5.5k | — |
-| [Snyk Vulnerability Scanner Agent](../../skills/snyk-vulnerability-scanner-agent/) | 5.5k | — |
+| [Dependency Vulnerability Scanner](../../skills/dependency-vulnerability-scanner-agent/) | 5.5k | 2.6M/wk |
+| [NPM Package Supply Chain Auditor](../../skills/npm-package-supply-chain-auditor/) | 5.5k | 2.6M/wk |
+| [Snyk Container Image Analyzer](../../skills/snyk-container-image-analyzer/) | 5.5k | 2.6M/wk |
+| [Snyk Container Vulnerability Agent](../../skills/snyk-container-vulnerability-agent/) | 5.5k | 2.6M/wk |
+| [Snyk Dependency Audit Skill](../../skills/snyk-dependency-audit-skill/) | 5.5k | 2.6M/wk |
+| [Snyk Dependency Vulnerability Auditor](../../skills/snyk-dependency-vulnerability-auditor/) | 5.5k | 2.6M/wk |
+| [Snyk License Compliance Checker](../../skills/snyk-license-compliance-checker/) | 5.5k | 2.6M/wk |
+| [Snyk Open Source Dependency Auditor](../../skills/snyk-open-source-dependency-auditor/) | 5.5k | 2.6M/wk |
+| [Snyk Vulnerability Scanner Agent](../../skills/snyk-vulnerability-scanner-agent/) | 5.5k | 2.6M/wk |
 | [Score open source repositories for supply-chain risk signals before adoption or release decisions with Scorecard](../../skills/score-open-source-repositories-for-supply-chain-risk-signals-before-adoption-or-release-decisions-with-scorecard/) | 5.4k | — |
 | [dotenvx Secure Environment Variable Manager and Encryptor](../../skills/dotenvx-secure-env-variable-manager/) | 5.3k | — |
 | [Probe ML and LLM systems for regressions and vulnerabilities with Giskard](../../skills/probe-ml-and-llm-systems-for-regressions-and-vulnerabilities-with-giskard/) | 5.3k | — |

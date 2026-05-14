@@ -150,10 +150,10 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Metrics Dashboard Builder](../../skills/metrics-dashboard-builder/) | 102 | 2.3M/wk |
 | [Checkly Browser Check Failure Notifier](../../skills/checkly-browser-check-failure-notifier/) | 92 | — |
 | [Checkly CLI Monitoring as Code for API and Browser Checks](../../skills/checkly-cli-monitoring-as-code-for-api-and-browser-checks/) | 92 | — |
+| [PagerDuty Incident Escalator](../../skills/pagerduty-incident-escalator/) | 69 | 1M/wk |
+| [PagerDuty Incident Orchestrator](../../skills/pagerduty-incident-orchestrator-2/) | 69 | 1M/wk |
+| [PagerDuty Incident Runbook Linker](../../skills/pagerduty-incident-runbook-linker/) | 69 | 1M/wk |
 | [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | 69 | 238k/wk |
-| [PagerDuty Incident Escalator](../../skills/pagerduty-incident-escalator/) | 69 | — |
-| [PagerDuty Incident Orchestrator](../../skills/pagerduty-incident-orchestrator-2/) | 69 | — |
-| [PagerDuty Incident Runbook Linker](../../skills/pagerduty-incident-runbook-linker/) | 69 | — |
 | [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | 24 | 6.7k/wk |
 | [Configure and interpret LaunchDarkly AI Config online evaluations with judge attachments](../../skills/configure-and-interpret-launchdarkly-ai-config-online-evaluations-with-judge-attachments/) | 6 | — |
 | [AWS CloudWatch Insights Query Builder](../../skills/aws-cloudwatch-insights-query-builder/) | — | — |
