@@ -2,8 +2,24 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-05-14",
-  "total": 2453,
+  "total": 2455,
   "skills": [
+    {
+      "slug": "run-long-horizon-research-and-coding-agent-workflows-with-deerflow",
+      "title": "Run long-horizon research and coding agent workflows with DeerFlow",
+      "description": "Use DeerFlow to orchestrate subagents, memory, sandboxes, tools, and skills for supervised research, coding, and creation tasks that take minutes to hours.",
+      "category": "Code Quality & Review",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
+    {
+      "slug": "govern-agent-skills-mcp-servers-prompts-and-tool-calls-with-defenseclaw",
+      "title": "Govern agent skills, MCP servers, prompts, and tool calls with DefenseClaw",
+      "description": "Use DefenseClaw as an operator-controlled admission, runtime guardrail, sandbox, and audit layer before untrusted agent capabilities run.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
     {
       "slug": "generate-and-iterate-on-a-local-codebase-from-a-natural-language-spec-with-gpt-engineer",
       "title": "Generate and iterate on a local codebase from a natural-language spec with gpt-engineer",

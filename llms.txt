@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-05-14
-# Total: 2453 skills
+# Total: 2455 skills
+
+## Run long-horizon research and coding agent workflows with DeerFlow
+slug: run-long-horizon-research-and-coding-agent-workflows-with-deerflow
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Published
+description: Use DeerFlow to orchestrate subagents, memory, sandboxes, tools, and skills for supervised research, coding, and creation tasks that take minutes to hours.
+url: https://agentskillexchange.com/skills/run-long-horizon-research-and-coding-agent-workflows-with-deerflow/
+
+## Govern agent skills, MCP servers, prompts, and tool calls with DefenseClaw
+slug: govern-agent-skills-mcp-servers-prompts-and-tool-calls-with-defenseclaw
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Published
+description: Use DefenseClaw as an operator-controlled admission, runtime guardrail, sandbox, and audit layer before untrusted agent capabilities run.
+url: https://agentskillexchange.com/skills/govern-agent-skills-mcp-servers-prompts-and-tool-calls-with-defenseclaw/
 
 ## Generate and iterate on a local codebase from a natural-language spec with gpt-engineer
 slug: generate-and-iterate-on-a-local-codebase-from-a-natural-language-spec-with-gpt-engineer

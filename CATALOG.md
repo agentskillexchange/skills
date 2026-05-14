@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2453 published skills** across **17 categories** · 2448 security reviewed · Updated 2026-05-14 06:09 UTC
+> **2455 published skills** across **17 categories** · 2448 security reviewed · Updated 2026-05-14 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -763,7 +763,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [npm Audit Dependency Report Generator](skills/npm-audit-dependency-report-generator/) | Generates comprehensive vulnerability reports from npm audit JSON output and the OSV (Open Source Vulnerabilities)… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (182 skills)
+### ✅ Code Quality & Review (183 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -772,6 +772,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Storybook Component Tester](skills/storybook-component-tester/) | Storybook Component Tester is built around Storybook component workshop. The underlying ecosystem is represented by… | Security Reviewed | 89.7k | — |
 | [Playwright Test Recorder](skills/playwright-test-recorder/) | Playwright Test Recorder is built around Playwright browser automation framework. The underlying ecosystem is… | Security Reviewed | 86.4k | 46.8M/wk |
 | [Docker Build Cache Optimizer](skills/docker-build-cache-optimizer/) | Optimizes Docker build performance using BuildKit cache mount analysis, docker history layer inspection, and… | Security Reviewed | 71.5k | — |
+| [Run long-horizon research and coding agent workflows with DeerFlow](skills/run-long-horizon-research-and-coding-agent-workflows-with-deerflow/) | Use DeerFlow to orchestrate subagents, memory, sandboxes, tools, and skills for supervised research, coding, and… | Published | 67.5k | — |
 | [Prettier Config Harmonizer](skills/prettier-config-harmonizer-2/) | Resolves Prettier formatting conflicts across monorepo packages using the Prettier API and @prettier/plugin-xml.… | Security Reviewed | 51.8k | 91.2M/wk |
 | [Prettier Config Conflict Resolver](skills/prettier-config-conflict-resolver/) | Detects and resolves conflicts between Prettier, ESLint, and EditorConfig formatting rules using the Prettier… | Security Reviewed | 51.8k | 90.5M/wk |
 | [Prettier Format Enforcement Bot](skills/prettier-format-enforcement-bot/) | Enforces code formatting standards using the Prettier API (prettier.format(), prettier.check()) and… | Security Reviewed | 51.8k | 90.5M/wk |
@@ -1307,7 +1308,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (153 skills)
+### 📄 Templates & Workflows (154 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1444,6 +1445,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Reformat Markdown files into a stable house style before review or migration](skills/reformat-markdown-files-into-a-stable-house-style-before-review-or-migration/) | Runs mdformat to rewrite Markdown into a consistent CommonMark-oriented layout or check mode in CI. Use it when an… | Security Reviewed | 758 | — |
 | [Turn recurring team workflows into installable cross-tool agent skills with Agent Skill Creator](skills/turn-recurring-team-workflows-into-installable-cross-tool-agent-skills-with-agent-skill-creator/) | Feed an agent your docs, links, code, or rough process notes and it generates, validates, installs, and optionally… | Security Reviewed | 744 | — |
 | [Run ticket queues through unattended coding-agent batches and escalate only on blockers with Codex Autorunner](skills/run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner/) | Turn a planned backlog into markdown tickets, dispatch them through coding agents, and only get pulled back in when… | Security Reviewed | 670 | — |
+| [Govern agent skills, MCP servers, prompts, and tool calls with DefenseClaw](skills/govern-agent-skills-mcp-servers-prompts-and-tool-calls-with-defenseclaw/) | Use DefenseClaw as an operator-controlled admission, runtime guardrail, sandbox, and audit layer before untrusted… | Published | 647 | — |
 | [Sync dbt schema YAML and inherited column metadata before docs drift accumulates with dbt-osmosis](skills/sync-dbt-schema-yaml-and-inherited-column-metadata-before-docs-drift-accumulates-with-dbt-osmosis/) | Keep dbt schema YAML and column documentation aligned with the project so stale metadata does not pile up between… | Security Reviewed | 622 | — |
 | [Self-Improvement / Learnings Capture](skills/self-improvement-learnings-capture/) | Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions. | Security Reviewed | 602 | — |
 | [Keep GitHub wiki pages synced with recently merged code changes](skills/keep-github-wiki-pages-synced-with-recently-merged-code-changes/) | This entry turns GitHub Next's Agentic Wiki Writer into a documentation-maintenance workflow. The agent watches for… | Security Reviewed | 585 | — |
