@@ -127,41 +127,56 @@ try:
 except Exception:
     industry_collections = []
 
-# Pick featured skills: highest-starred, one per tool, max 2 per category
-# Use title-relevance tiebreaker (matches homepage PHP and top-lists generator)
-from collections import defaultdict
-tool_groups = defaultdict(list)
-for item in items:
-    if int(item.get("github_stars") or 0) <= 0:
-        continue
-    tool = (item.get("tool_match") or "").lower()
-    if not tool:
-        continue
-    tool_groups[tool].append(item)
+def featured_row(item):
+    cats_list = [html.unescape(str(x)) for x in (item.get("categories") or [])]
+    return {
+        "title": clean_text(item.get("title")),
+        "slug": item.get("slug") or "",
+        "tool": item.get("tool_match") or (item.get("slug") or "").lower(),
+        "stars": int(item.get("github_stars") or 0),
+        "cat": cats_list[0] if cats_list else "Uncategorized",
+    }
 
-# Pick best representative per tool (title contains tool name > slug contains > alphabetical)
-tool_best = []
-for tool, group in tool_groups.items():
-    def sort_key(item, t=tool):
-        title = item.get("title", "").lower()
-        slug = item.get("slug", "").lower()
-        title_match = 1 if t in title else 0
-        slug_match = 1 if t in slug else 0
-        return (-title_match, -slug_match, item.get("title", ""))
-    group.sort(key=sort_key)
-    tool_best.append(group[0])
-
-# Sort by stars descending, then apply category diversity (max 2 per cat)
-tool_best.sort(key=lambda i: -int(i.get("github_stars") or 0))
+# Canonical featured policy lives on ASE. The homepage-picks API exposes the
+# recent-popular/diversified shelf used by the live homepage; the repo README
+# should mirror that instead of reverting to raw all-time GitHub stars.
 featured = []
-for item in tool_best:
-    cats_list = item.get("categories", [])
-    cat = cats_list[0] if cats_list else "Uncategorized"
-    if sum(1 for f in featured if f["cat"] == cat) >= 2:
-        continue
-    featured.append({"title": item["title"], "slug": item["slug"], "tool": item.get("tool_match") or (item.get("tool_match") or item.get("slug", "")).lower(), "stars": int(item.get("github_stars") or 0), "cat": cat})
-    if len(featured) >= 12:
-        break
+if isinstance(homepage_picks, dict) and isinstance(homepage_picks.get("featured"), list):
+    for item in homepage_picks.get("featured", [])[:12]:
+        featured.append(featured_row(item))
+
+# Fallback only: if the homepage API is unavailable, keep a deterministic local
+# approximation so README generation does not fail outright.
+if not featured:
+    from collections import defaultdict
+    tool_groups = defaultdict(list)
+    for item in items:
+        if int(item.get("github_stars") or 0) <= 0:
+            continue
+        tool = (item.get("tool_match") or "").lower()
+        if not tool:
+            continue
+        tool_groups[tool].append(item)
+
+    tool_best = []
+    for tool, group in tool_groups.items():
+        def sort_key(item, t=tool):
+            title = item.get("title", "").lower()
+            slug = item.get("slug", "").lower()
+            title_match = 1 if t in title else 0
+            slug_match = 1 if t in slug else 0
+            return (-title_match, -slug_match, item.get("title", ""))
+        group.sort(key=sort_key)
+        tool_best.append(group[0])
+
+    tool_best.sort(key=lambda i: -int(i.get("github_stars") or 0))
+    for item in tool_best:
+        row = featured_row(item)
+        if sum(1 for f in featured if f["cat"] == row["cat"]) >= 2:
+            continue
+        featured.append(row)
+        if len(featured) >= 12:
+            break
 
 lines = []
 lines.append('<div align="center">')
@@ -244,7 +259,7 @@ if industry_collections:
     lines.append("")
 lines.append("## Featured Skills")
 lines.append("")
-lines.append("A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and [TOP-DOWNLOADS.md](TOP-DOWNLOADS.md) for full rankings.")
+lines.append("Mirrors the live ASE homepage featured shelf: recent-popular, diversified across tools and categories, rather than a frozen all-time-stars list. See [TOP-STARS.md](TOP-STARS.md) and [TOP-DOWNLOADS.md](TOP-DOWNLOADS.md) for raw rankings.")
 lines.append("")
 lines.append("| Skill | Tool | ⭐ Stars | Category |")
 lines.append("|-------|------|--------:|----------|")
