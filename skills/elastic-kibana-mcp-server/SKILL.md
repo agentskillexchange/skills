@@ -2,7 +2,7 @@
 title: "Elastic / Kibana MCP Server"
 slug: "elastic-kibana-mcp-server"
 description: ""
-github_stars: 76688
+github_stars: 76692
 verification: "security_reviewed"
 source: "https://github.com/elastic/elasticsearch"
 author: "Elastic"
@@ -10,7 +10,7 @@ category: "Monitoring & Alerts"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "elastic/elasticsearch"
-  github_stars: 76688
+  github_stars: 76692
 ---
 
 # Elastic / Kibana MCP Server

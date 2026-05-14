@@ -3,7 +3,7 @@ title: "Query cross-connector business data for agents with Dinobase"
 slug: "query-cross-connector-business-data-for-agents-with-dinobase"
 description: "Use Dinobase to give agents a SQL layer over SaaS APIs, databases, files, and MCP servers so they can answer cross-system business questions with previewed writes."
 github_stars: 252
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/DinobaseHQ/dinobase"
 author: "DinobaseHQ"
 publisher_type: "open_source"

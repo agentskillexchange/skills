@@ -12,7 +12,7 @@ tool_ecosystem:
   github_repo: "jsforce/jsforce"
   github_stars: 1458
   npm_package: "jsforce"
-  npm_weekly_downloads: 985012
+  npm_weekly_downloads: 1020198
 ---
 
 # Salesforce MCP Server

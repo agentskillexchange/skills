@@ -3,7 +3,7 @@ title: "Run long-horizon research and coding agent workflows with DeerFlow"
 slug: "run-long-horizon-research-and-coding-agent-workflows-with-deerflow"
 description: "Use DeerFlow to orchestrate subagents, memory, sandboxes, tools, and skills for supervised research, coding, and creation tasks that take minutes to hours."
 github_stars: 67524
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/bytedance/deer-flow"
 author: "ByteDance"
 publisher_type: "vendor"

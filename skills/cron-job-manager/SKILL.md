@@ -2,7 +2,7 @@
 title: "Cron Job Manager"
 slug: "cron-job-manager"
 description: ""
-github_stars: 3624
+github_stars: 3625
 verification: "security_reviewed"
 source: "https://github.com/aws/aws-sdk-js-v3"
 author: "Amazon Web Services"
@@ -10,7 +10,7 @@ category: "Templates & Workflows"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "aws/aws-sdk-js-v3"
-  github_stars: 3624
+  github_stars: 3625
 ---
 
 # Cron Job Manager

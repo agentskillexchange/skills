@@ -2,7 +2,7 @@
 title: "ESLint Code Review"
 slug: "eslint-code-review"
 description: ""
-github_stars: 27249
+github_stars: 27251
 verification: "security_reviewed"
 source: "https://github.com/eslint/eslint"
 author: "ESLint"
@@ -10,9 +10,9 @@ category: "Developer Tools"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "eslint/eslint"
-  github_stars: 27249
+  github_stars: 27251
   npm_package: "eslint"
-  npm_weekly_downloads: 130328234
+  npm_weekly_downloads: 132145469
 ---
 
 # ESLint Code Review

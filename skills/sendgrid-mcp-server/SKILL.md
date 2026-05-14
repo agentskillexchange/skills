@@ -2,7 +2,7 @@
 title: "SendGrid MCP Server"
 slug: "sendgrid-mcp-server"
 description: ""
-github_stars: 3050
+github_stars: 3052
 verification: "security_reviewed"
 source: "https://github.com/sendgrid/sendgrid-nodejs"
 author: "Twilio SendGrid"
@@ -10,9 +10,9 @@ category: "Integrations & Connectors"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "sendgrid/sendgrid-nodejs"
-  github_stars: 3050
+  github_stars: 3052
   npm_package: "sendgrid"
-  npm_weekly_downloads: 61226
+  npm_weekly_downloads: 62391
 ---
 
 # SendGrid MCP Server
