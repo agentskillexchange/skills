@@ -173,7 +173,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Run ticket queues through unattended coding-agent batches and escalate only on blockers with Codex Autorunner](../../skills/run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner/) | 670 | — |
 | [Govern agent skills, MCP servers, prompts, and tool calls with DefenseClaw](../../skills/govern-agent-skills-mcp-servers-prompts-and-tool-calls-with-defenseclaw/) | 647 | — |
 | [Sync dbt schema YAML and inherited column metadata before docs drift accumulates with dbt-osmosis](../../skills/sync-dbt-schema-yaml-and-inherited-column-metadata-before-docs-drift-accumulates-with-dbt-osmosis/) | 622 | — |
-| [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | 602 | — |
+| [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | 606 | — |
 | [Keep GitHub wiki pages synced with recently merged code changes](../../skills/keep-github-wiki-pages-synced-with-recently-merged-code-changes/) | 585 | — |
 | [Review open pull requests against repository contribution guidelines](../../skills/review-open-pull-requests-against-repository-contribution-guidelines/) | 585 | — |
 | [Extract translation keys from code and maintain locale catalogs with i18next-parser](../../skills/extract-translation-keys-from-code-and-maintain-locale-catalogs-i18next-parser/) | 556 | — |
@@ -187,6 +187,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Convert browser HAR captures into reusable k6 load tests with har-to-k6](../../skills/convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6/) | 159 | — |
 | [Langfuse Prompt Management MCP Server](../../skills/langfuse-prompt-management-mcp-server/) | 159 | — |
 | [Distill repository rules and workflows into reusable project skills with Skill-Based Architecture](../../skills/distill-repository-rules-and-workflows-into-reusable-project-skills-with-skill-based-architecture/) | 131 | — |
+| [Triage support tickets and draft customer replies with Claude Code support skills](../../skills/triage-support-tickets-and-draft-customer-replies-with-claude-code-support-skills/) | 87 | — |
 | [Put coding agents on a governed local Git workflow with AgentPlane](../../skills/put-coding-agents-on-a-governed-local-git-workflow-with-agentplane/) | 38 | — |
 | [Review-gate OpenClaw memory hygiene with openclaw-mem](../../skills/review-gate-openclaw-memory-hygiene-with-openclaw-mem/) | 28 | — |
 | [Generate and safely patch AGENTS.md and RUNBOOK.md with AGENTS.md Generator](../../skills/generate-and-safely-patch-agents-md-and-runbook-md-with-agents-md-generator/) | 2 | — |

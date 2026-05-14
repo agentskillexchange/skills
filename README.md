@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C455-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-2%2C463-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
-[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-2%2C448-10b981?style=for-the-badge)](verification/)
+[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-2%2C452-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,455 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*2,463 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -101,11 +101,11 @@ A hand-picked selection across categories. See [TOP-STARS.md](TOP-STARS.md) and 
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 183 | Linting, code review, test generators, coverage |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 169 | Incident response, troubleshooting, system diagnostics |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 169 | ETL pipelines, parsing, format conversion |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 154 | Scaffolders, boilerplate generators, workflow templates |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 155 | Scaffolders, boilerplate generators, workflow templates |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 128 | Metrics, alerting rules, observability |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 122 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 121 | SDK docs, API parsers, symbol resolvers |
-| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 111 | Third-party API bridges, webhooks, service connectors |
+| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 118 | Third-party API bridges, webhooks, service connectors |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 104 | Web scraping, UI testing, headless browser control |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 104 | Web research, content discovery, data collection |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 98 | Audio/video processing, speech-to-text |
@@ -170,8 +170,8 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,455 | In the catalog — every skill is backed by a real tool, repo, or package |
-| 🛡️ **Security Reviewed** | 2,448 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
+| 📋 **Published** | 2,463 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 🛡️ **Security Reviewed** | 2,452 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
 

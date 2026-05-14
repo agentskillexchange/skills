@@ -1,13 +1,77 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-05-14
-# Total: 2455 skills
+# Total: 2463 skills
+
+## Inspect Freshservice service-management tickets and modules through MCP
+slug: inspect-freshservice-service-management-tickets-and-modules-through-mcp
+category: Integrations & Connectors
+framework: MCP
+verification: Published
+description: Connect Freshservice modules to MCP clients for supervised IT service-management ticket lookup and support-ops preparation.
+url: https://agentskillexchange.com/skills/inspect-freshservice-service-management-tickets-and-modules-through-mcp/
+
+## Run Shopify Admin product order customer and inventory workflows through MCP
+slug: run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp
+category: Integrations & Connectors
+framework: MCP
+verification: Published
+description: Expose Shopify Admin API operations to MCP clients for supervised ecommerce catalog, order, customer, and inventory work.
+url: https://agentskillexchange.com/skills/run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp/
+
+## Connect MCP agents to BatchData property and address APIs
+slug: connect-mcp-agents-to-batchdata-property-and-address-apis
+category: Integrations & Connectors
+framework: MCP
+verification: Published
+description: Use BatchData property and address APIs from MCP clients to enrich real-estate research and operations workflows.
+url: https://agentskillexchange.com/skills/connect-mcp-agents-to-batchdata-property-and-address-apis/
+
+## Retrieve Zillow-style property details and market trends through an MCP server
+slug: retrieve-zillow-style-property-details-and-market-trends-through-an-mcp-server
+category: Integrations & Connectors
+framework: MCP
+verification: Published
+description: Run supervised property-detail and market-trend lookups from an MCP client while checking data-source terms before use.
+url: https://agentskillexchange.com/skills/retrieve-zillow-style-property-details-and-market-trends-through-an-mcp-server/
+
+## Expose FHIR healthcare data resources to MCP agents with review boundaries
+slug: expose-fhir-healthcare-data-resources-to-mcp-agents-with-review-boundaries
+category: Integrations & Connectors
+framework: MCP
+verification: Published
+description: Use a FHIR MCP server to query healthcare data resources for documentation and integration workflows while keeping PHI and clinical-use limits explicit.
+url: https://agentskillexchange.com/skills/expose-fhir-healthcare-data-resources-to-mcp-agents-with-review-boundaries/
+
+## Let MCP agents inspect and update Freshdesk tickets safely
+slug: let-mcp-agents-inspect-and-update-freshdesk-tickets-safely
+category: Integrations & Connectors
+framework: MCP
+verification: Published
+description: Connect Freshdesk modules to MCP clients so agents can retrieve ticket context and prepare supervised support actions.
+url: https://agentskillexchange.com/skills/let-mcp-agents-inspect-and-update-freshdesk-tickets-safely/
+
+## Triage support tickets and draft customer replies with Claude Code support skills
+slug: triage-support-tickets-and-draft-customer-replies-with-claude-code-support-skills
+category: Templates & Workflows
+framework: Claude Code
+verification: Published
+description: Use Claude Code support skills to prioritize tickets, gather customer context, and draft reviewed replies without turning agents loose on customers.
+url: https://agentskillexchange.com/skills/triage-support-tickets-and-draft-customer-replies-with-claude-code-support-skills/
+
+## Connect MCP agents to Zendesk ticket and Help Center workflows
+slug: connect-mcp-agents-to-zendesk-ticket-and-help-center-workflows
+category: Integrations & Connectors
+framework: MCP
+verification: Published
+description: Expose Zendesk tickets, comments, and Help Center context to MCP-capable agents for supervised support workflow preparation.
+url: https://agentskillexchange.com/skills/connect-mcp-agents-to-zendesk-ticket-and-help-center-workflows/
 
 ## Run long-horizon research and coding agent workflows with DeerFlow
 slug: run-long-horizon-research-and-coding-agent-workflows-with-deerflow
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use DeerFlow to orchestrate subagents, memory, sandboxes, tools, and skills for supervised research, coding, and creation tasks that take minutes to hours.
 url: https://agentskillexchange.com/skills/run-long-horizon-research-and-coding-agent-workflows-with-deerflow/
 
@@ -15,7 +79,7 @@ url: https://agentskillexchange.com/skills/run-long-horizon-research-and-coding-
 slug: govern-agent-skills-mcp-servers-prompts-and-tool-calls-with-defenseclaw
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use DefenseClaw as an operator-controlled admission, runtime guardrail, sandbox, and audit layer before untrusted agent capabilities run.
 url: https://agentskillexchange.com/skills/govern-agent-skills-mcp-servers-prompts-and-tool-calls-with-defenseclaw/
 
@@ -23,7 +87,7 @@ url: https://agentskillexchange.com/skills/govern-agent-skills-mcp-servers-promp
 slug: generate-and-iterate-on-a-local-codebase-from-a-natural-language-spec-with-gpt-engineer
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use gpt-engineer when an agent/operator needs to turn a prompt file into a local project scaffold, inspect the generated code, and run a supervised…
 url: https://agentskillexchange.com/skills/generate-and-iterate-on-a-local-codebase-from-a-natural-language-spec-with-gpt-engineer/
 
@@ -31,7 +95,7 @@ url: https://agentskillexchange.com/skills/generate-and-iterate-on-a-local-codeb
 slug: query-cross-connector-business-data-for-agents-with-dinobase
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use Dinobase to give agents a SQL layer over SaaS APIs, databases, files, and MCP servers so they can answer cross-system business questions with…
 url: https://agentskillexchange.com/skills/query-cross-connector-business-data-for-agents-with-dinobase/
 

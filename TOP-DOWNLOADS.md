@@ -20,7 +20,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 12 | [SVGO SVG Optimization Tool](skills/svgo-svg-optimization-tool/) | 28.7M/wk | svgo | Image & Creative Automation |
 | 13 | [PostgreSQL Diagnostic Analyzer](skills/postgresql-diagnostic-analyzer/) | 23.2M/wk | postgresql | Runbooks & Diagnostics |
 | 14 | [Cheerio DOM Extraction Pipeline](skills/cheerio-dom-extraction-pipeline/) | 19.6M/wk | cheerio | Data Extraction & Transformation |
-| 15 | [OpenAI Image Gen](skills/openai-image-gen/) | 19.1M/wk | openai | Image & Creative Automation |
+| 15 | [OpenAI Image Gen](skills/openai-image-gen/) | 19.5M/wk | openai | Image & Creative Automation |
 | 16 | [Normalize international phone numbers into E.164 before CRM imports or messaging workflows](skills/normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows/) | 15.6M/wk | libphonenumber-js | Integrations & Connectors |
 | 17 | [MongoDB MCP Server](skills/mongodb-mcp-server/) | 11.2M/wk | mongodb | Developer Tools |
 | 18 | [Prisma Schema Migrator](skills/prisma-schema-migrator/) | 9.9M/wk | prisma | Library & API Reference |

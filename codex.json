@@ -2,15 +2,79 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-05-14",
-  "total": 2455,
+  "total": 2463,
   "skills": [
+    {
+      "slug": "inspect-freshservice-service-management-tickets-and-modules-through-mcp",
+      "title": "Inspect Freshservice service-management tickets and modules through MCP",
+      "description": "Connect Freshservice modules to MCP clients for supervised IT service-management ticket lookup and support-ops preparation.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "listed"
+    },
+    {
+      "slug": "run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp",
+      "title": "Run Shopify Admin product order customer and inventory workflows through MCP",
+      "description": "Expose Shopify Admin API operations to MCP clients for supervised ecommerce catalog, order, customer, and inventory work.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "listed"
+    },
+    {
+      "slug": "connect-mcp-agents-to-batchdata-property-and-address-apis",
+      "title": "Connect MCP agents to BatchData property and address APIs",
+      "description": "Use BatchData property and address APIs from MCP clients to enrich real-estate research and operations workflows.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "listed"
+    },
+    {
+      "slug": "retrieve-zillow-style-property-details-and-market-trends-through-an-mcp-server",
+      "title": "Retrieve Zillow-style property details and market trends through an MCP server",
+      "description": "Run supervised property-detail and market-trend lookups from an MCP client while checking data-source terms before use.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "listed"
+    },
+    {
+      "slug": "expose-fhir-healthcare-data-resources-to-mcp-agents-with-review-boundaries",
+      "title": "Expose FHIR healthcare data resources to MCP agents with review boundaries",
+      "description": "Use a FHIR MCP server to query healthcare data resources for documentation and integration workflows while keeping PHI and clinical-use limits explicit.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "listed"
+    },
+    {
+      "slug": "let-mcp-agents-inspect-and-update-freshdesk-tickets-safely",
+      "title": "Let MCP agents inspect and update Freshdesk tickets safely",
+      "description": "Connect Freshdesk modules to MCP clients so agents can retrieve ticket context and prepare supervised support actions.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "listed"
+    },
+    {
+      "slug": "triage-support-tickets-and-draft-customer-replies-with-claude-code-support-skills",
+      "title": "Triage support tickets and draft customer replies with Claude Code support skills",
+      "description": "Use Claude Code support skills to prioritize tickets, gather customer context, and draft reviewed replies without turning agents loose on customers.",
+      "category": "Templates & Workflows",
+      "framework": "Claude Code",
+      "verification": "listed"
+    },
+    {
+      "slug": "connect-mcp-agents-to-zendesk-ticket-and-help-center-workflows",
+      "title": "Connect MCP agents to Zendesk ticket and Help Center workflows",
+      "description": "Expose Zendesk tickets, comments, and Help Center context to MCP-capable agents for supervised support workflow preparation.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "listed"
+    },
     {
       "slug": "run-long-horizon-research-and-coding-agent-workflows-with-deerflow",
       "title": "Run long-horizon research and coding agent workflows with DeerFlow",
       "description": "Use DeerFlow to orchestrate subagents, memory, sandboxes, tools, and skills for supervised research, coding, and creation tasks that take minutes to hours.",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "govern-agent-skills-mcp-servers-prompts-and-tool-calls-with-defenseclaw",
@@ -18,7 +82,7 @@
       "description": "Use DefenseClaw as an operator-controlled admission, runtime guardrail, sandbox, and audit layer before untrusted agent capabilities run.",
       "category": "Templates & Workflows",
       "framework": "Multi-Framework",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "generate-and-iterate-on-a-local-codebase-from-a-natural-language-spec-with-gpt-engineer",
@@ -26,7 +90,7 @@
       "description": "Use gpt-engineer when an agent/operator needs to turn a prompt file into a local project scaffold, inspect the generated code, and run a supervised…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "query-cross-connector-business-data-for-agents-with-dinobase",
@@ -34,7 +98,7 @@
       "description": "Use Dinobase to give agents a SQL layer over SaaS APIs, databases, files, and MCP servers so they can answer cross-system business questions with…",
       "category": "Data Extraction & Transformation",
       "framework": "Multi-Framework",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "evaluate-long-horizon-agents-against-wildclawbench",

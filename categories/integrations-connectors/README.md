@@ -32,7 +32,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Nango Integration Platform SDK](../../skills/nango-integration-platform-sdk/) | ⬇ 17.7k/wk |
 | [Nango Open Source API Integration Platform](../../skills/nango-open-source-api-integration-platform/) | ⬇ 15.6k/wk |
 | [Notion Database Sync &amp; Page Generator](../../skills/notion-database-sync-page-generator-2/) | ⬇ 1.2M/wk |
-| [Stripe MCP Server](../../skills/stripe-mcp-server/) | ⬇ 11.4M/wk |
+| [Stripe MCP Server](../../skills/stripe-mcp-server/) | ⬇ 11.6M/wk |
 
 ---
 
@@ -84,7 +84,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Inngest Event-Driven Durable Workflow Orchestration Platform](../../skills/inngest-event-driven-durable-workflow-orchestration/) | 5.2k | — |
 | [Firebase — Google Application Development Platform](../../skills/firebase-google-app-development-platform/) | 5.1k | — |
 | [Atlassian MCP Server for Jira and Confluence](../../skills/atlassian-mcp-server-jira-confluence/) | 4.8k | — |
-| [Stripe MCP Server](../../skills/stripe-mcp-server/) | 4.4k | 11.4M/wk |
+| [Stripe MCP Server](../../skills/stripe-mcp-server/) | 4.4k | 11.6M/wk |
 | [Stripe Connect Account Provisioner](../../skills/stripe-connect-account-provisioner/) | 4.4k | 9.3M/wk |
 | [Stripe Connect Integration](../../skills/stripe-connect-integration/) | 4.4k | 9.3M/wk |
 | [Stripe Connect Marketplace Sync](../../skills/stripe-connect-marketplace-sync/) | 4.4k | 9.3M/wk |
@@ -99,7 +99,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Cloudflare MCP Servers for Workers, Security, and Observability](../../skills/cloudflare-mcp-servers-workers-security-observability/) | 3.6k | — |
 | [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | 3.4k | — |
 | [Svix Enterprise Webhook Delivery Service](../../skills/svix-enterprise-webhook-delivery-service/) | 3.2k | — |
-| [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | 3k | 61.2k/wk |
+| [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | 3.1k | 62.4k/wk |
 | [SendGrid Transactional Email Builder](../../skills/sendgrid-transactional-email-builder/) | 3k | 3.6M/wk |
 | [SendGrid Transactional Email Router](../../skills/sendgrid-transactional-email-router/) | 3k | 3.6M/wk |
 | [n8n-nodes-mcp Community Node for Model Context Protocol Workflows](../../skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows/) | 3k | — |
@@ -114,7 +114,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Twilio Programmable Voice Router](../../skills/twilio-programmable-voice-router-2/) | 1.5k | 3.7M/wk |
 | [Twilio SMS &#038; Voice Bridge](../../skills/twilio-sms-voice-bridge/) | 1.5k | 3.7M/wk |
 | [Convert SMTP-only alerts into routed notification deliveries with Mailrise](../../skills/convert-smtp-only-alerts-into-routed-notification-deliveries-with-mailrise/) | 1.5k | — |
-| [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | 1.5k | 985k/wk |
+| [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | 1.5k | 1M/wk |
 | [Salesforce Bulk API Sync Agent](../../skills/salesforce-bulk-api-sync-agent/) | 1.5k | 936.6k/wk |
 | [Salesforce CRM Sync Agent](../../skills/salesforce-crm-sync-agent/) | 1.5k | 936.6k/wk |
 | [Stripe Agent Toolkit for AI Payment Integration](../../skills/stripe-agent-toolkit-ai-payment-integration/) | 1.4k | — |
@@ -130,18 +130,25 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Chroma MCP Server for Embedding Database Operations](../../skills/chroma-mcp-server-embedding-database-operations/) | 527 | — |
 | [Zapier Webhooks by Zapier Router](../../skills/zapier-webhooks-by-zapier-router/) | 484 | — |
 | [Mirror GitHub issues, pull requests, commits, and releases into SQLite for offline analysis](../../skills/mirror-github-issues-pull-requests-commits-and-releases-into-sqlite-for-offline-analysis/) | 461 | — |
-| [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | 394 | 1.2M/wk |
+| [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | 393 | 1.2M/wk |
 | [HubSpot CRM Contact Enrichment Pipeline](../../skills/hubspot-crm-contact-enrichment-pipeline/) | 392 | 986.8k/wk |
 | [Hookdeck CLI for Webhook Development and Event Debugging](../../skills/hookdeck-cli-webhook-development-event-debugging/) | 353 | — |
 | [Linear MCP Server for Issue Tracking and Project Management](../../skills/linear-mcp-server-issue-tracking-project-management/) | 346 | — |
 | [Work with AFFiNE workspaces, documents, and databases from MCP-compatible agents](../../skills/work-with-affine-workspaces-documents-and-databases-from-mcp-compatible-agents/) | 142 | 2.1k/wk |
 | [Expose Haystack pipelines as webhook endpoints with Hayhooks](../../skills/expose-haystack-pipelines-as-webhook-endpoints-with-hayhooks/) | 138 | — |
 | [Query Eventhouse and manage Fabric RTI resources from MCP-compatible agents with Fabric RTI MCP](../../skills/query-eventhouse-and-manage-fabric-rti-resources-from-mcp-compatible-agents-with-fabric-rti-mcp/) | 111 | — |
+| [Connect MCP agents to Zendesk ticket and Help Center workflows](../../skills/connect-mcp-agents-to-zendesk-ticket-and-help-center-workflows/) | 95 | — |
+| [Expose FHIR healthcare data resources to MCP agents with review boundaries](../../skills/expose-fhir-healthcare-data-resources-to-mcp-agents-with-review-boundaries/) | 80 | — |
+| [Let MCP agents inspect and update Freshdesk tickets safely](../../skills/let-mcp-agents-inspect-and-update-freshdesk-tickets-safely/) | 59 | — |
 | [Upstash MCP Server for Redis and QStash Management](../../skills/upstash-mcp-server-redis-qstash-management/) | 52 | — |
 | [Normalize vCard contact exports into structured contact records before CRM imports or dedup jobs](../../skills/normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs/) | 50 | — |
 | [Manage ElevenLabs agents as versioned local config files instead of hand-editing them in the dashboard with ElevenLabs CLI](../../skills/manage-elevenlabs-agents-as-versioned-local-config-files-instead-of-hand-editing-them-in-the-dashboard-with-elevenlabs-cli/) | 49 | 10.4k/wk |
 | [Calculate routes, ETAs, and place lookups inside agent planning workflows with TomTom MCP](../../skills/calculate-routes-etas-and-place-lookups-inside-agent-planning-workflows-with-tomtom-mcp/) | 45 | 356/wk |
+| [Retrieve Zillow-style property details and market trends through an MCP server](../../skills/retrieve-zillow-style-property-details-and-market-trends-through-an-mcp-server/) | 40 | — |
+| [Inspect Freshservice service-management tickets and modules through MCP](../../skills/inspect-freshservice-service-management-tickets-and-modules-through-mcp/) | 31 | — |
+| [Connect MCP agents to BatchData property and address APIs](../../skills/connect-mcp-agents-to-batchdata-property-and-address-apis/) | 30 | — |
 | [Sync agent rules and skill files across coding assistants with AI Rules Sync](../../skills/sync-agent-rules-and-skill-files-across-coding-assistants-with-ai-rules-sync/) | 25 | — |
+| [Run Shopify Admin product order customer and inventory workflows through MCP](../../skills/run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp/) | 15 | — |
 | [Mirror and back up OpenClaw workspaces to your own storage with openclaw-workspace-sync](../../skills/mirror-and-back-up-openclaw-workspaces-to-your-own-storage-with-openclaw-workspace-sync/) | 8 | 295/wk |
 | [Mirror OpenClaw workspaces and stream encrypted backups with openclaw-workspace-sync](../../skills/mirror-openclaw-workspaces-and-stream-encrypted-backups-with-openclaw-workspace-sync/) | 8 | 295/wk |
 | [Normalize international phone numbers into E.164 before CRM imports or messaging workflows](../../skills/normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows/) | — | 15.6M/wk |
