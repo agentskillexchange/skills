@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "browserbase/stagehand"
   github_stars: 22057
+  npm_package: "@browserbasehq/stagehand"
+  npm_weekly_downloads: 3394138
 ---
 
 # Stagehand Browser Automation SDK

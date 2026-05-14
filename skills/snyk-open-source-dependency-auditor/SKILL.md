@@ -10,6 +10,8 @@ framework: "Cursor"
 tool_ecosystem:
   github_repo: "snyk/cli"
   github_stars: 5496
+  npm_package: "snyk"
+  npm_weekly_downloads: 2566112
 ---
 
 # Snyk Open Source Dependency Auditor

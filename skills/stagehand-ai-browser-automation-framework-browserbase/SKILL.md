@@ -10,6 +10,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "browserbase/stagehand"
   github_stars: 22059
+  npm_package: "@browserbasehq/stagehand"
+  npm_weekly_downloads: 3394138
 ---
 
 # Stagehand AI Browser Automation Framework by Browserbase

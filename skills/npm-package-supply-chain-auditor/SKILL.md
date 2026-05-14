@@ -11,6 +11,8 @@ framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "snyk/cli"
   github_stars: 5516
+  npm_package: "snyk"
+  npm_weekly_downloads: 2566112
 ---
 
 # NPM Package Supply Chain Auditor
