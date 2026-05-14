@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-05-14
-# Total: 2463 skills
+# Total: 2464 skills
+
+## Run stealth Chromium browser automation with CloakBrowser
+slug: run-stealth-chromium-browser-automation-with-cloakbrowser
+category: Browser Automation
+framework: Multi-Framework
+verification: Published
+description: Use CloakBrowser as a supervised Playwright/Puppeteer-compatible browser runtime for high-friction browser automation and anti-bot test environments.
+url: https://agentskillexchange.com/skills/run-stealth-chromium-browser-automation-with-cloakbrowser/
 
 ## Inspect Freshservice service-management tickets and modules through MCP
 slug: inspect-freshservice-service-management-tickets-and-modules-through-mcp

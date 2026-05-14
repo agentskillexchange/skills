@@ -2,8 +2,16 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-05-14",
-  "total": 2463,
+  "total": 2464,
   "skills": [
+    {
+      "slug": "run-stealth-chromium-browser-automation-with-cloakbrowser",
+      "title": "Run stealth Chromium browser automation with CloakBrowser",
+      "description": "Use CloakBrowser as a supervised Playwright/Puppeteer-compatible browser runtime for high-friction browser automation and anti-bot test environments.",
+      "category": "Browser Automation",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
     {
       "slug": "inspect-freshservice-service-management-tickets-and-modules-through-mcp",
       "title": "Inspect Freshservice service-management tickets and modules through MCP",

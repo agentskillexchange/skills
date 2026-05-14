@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2463 published skills** across **17 categories** · 2452 security reviewed · Updated 2026-05-14 13:25 UTC
+> **2464 published skills** across **17 categories** · 2452 security reviewed · Updated 2026-05-14 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1992,7 +1992,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
 
-### 🌐 Browser Automation (104 skills)
+### 🌐 Browser Automation (105 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
@@ -2072,6 +2072,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [SeleniumBase Python Browser Automation and Stealth Testing Framework](skills/seleniumbase-python-browser-automation-stealth-testing-framework/) | SeleniumBase is a Python framework for browser automation, end-to-end testing, and stealthy web interaction. It… | Security Reviewed | 12.6k | 17/wk |
 | [Nightwatch.js Integrated Browser and Mobile Testing Framework](skills/nightwatchjs-integrated-browser-mobile-testing-framework/) | A source-backed ASE skill for Nightwatch.js, the Node.js automation framework for end-to-end, component, API,… | Security Reviewed | 11.9k | — |
 | [Chrome MCP Server Extension-Based Browser Automation for AI Agents](skills/chrome-mcp-server-extension-based-browser-automation-ai-agents/) | Chrome MCP Server uses a Chrome extension and local bridge to expose your everyday browser to MCP-compatible agents.… | Security Reviewed | 11.2k | — |
+| [Run stealth Chromium browser automation with CloakBrowser](skills/run-stealth-chromium-browser-automation-with-cloakbrowser/) | Use CloakBrowser as a supervised Playwright/Puppeteer-compatible browser runtime for high-friction browser… | Published | 10.2k | — |
 | [Drive token-efficient browser testing from coding agents with Playwright CLI](skills/drive-token-efficient-browser-testing-from-coding-agents-with-playwright-cli/) | Use Playwright CLI when a coding agent needs to open pages, inspect snapshots, click, type, capture screenshots, and… | Security Reviewed | 10k | — |
 | [TestCafe Zero-Config End-to-End Browser Testing Framework](skills/testcafe-e2e-browser-testing/) | TestCafe is a Node.js-based end-to-end browser testing framework by DevExpress that requires no WebDriver… | Security Reviewed | 9.9k | 202.8k/wk |
 | [WebdriverIO Next-Gen Browser and Mobile Automation Framework](skills/webdriverio-browser-mobile-automation-framework/) | WebdriverIO is a next-generation browser and mobile automation test framework for Node.js. It supports WebDriver,… | Security Reviewed | 9.8k | 2.7M/wk |
