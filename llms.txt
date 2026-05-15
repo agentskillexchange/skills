@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-05-14
-# Total: 2464 skills
+# Generated: 2026-05-15
+# Total: 2465 skills
+
+## Lint and auto-format Markdown documentation before agents ship content with rumdl
+slug: lint-and-auto-format-markdown-documentation-before-agents-ship-content-with-rumdl
+category: Monitoring & Alerts
+framework: Multi-Framework
+verification: Published
+description: Run rumdl as a fast Markdown lint-and-format gate so agents can catch style, flavor, link-adjacent, and consistency issues before docs or generated content are…
+url: https://agentskillexchange.com/skills/lint-and-auto-format-markdown-documentation-before-agents-ship-content-with-rumdl/
 
 ## Run stealth Chromium browser automation with CloakBrowser
 slug: run-stealth-chromium-browser-automation-with-cloakbrowser

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2464 published skills** across **17 categories** · 2452 security reviewed · Updated 2026-05-14 19:35 UTC
+> **2465 published skills** across **17 categories** · 2452 security reviewed · Updated 2026-05-15 05:30 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1471,7 +1471,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Makefile Workflow Generator](skills/makefile-workflow-generator/) | Generates project Makefiles with standard targets using GNU Make syntax, autodeps pattern rules, and integration… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (128 skills)
+### 📊 Monitoring & Alerts (129 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -1559,6 +1559,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Logdy Real-Time Log Viewer with Web UI and CLI](skills/logdy-realtime-log-viewer-web-ui-cli/) | Logdy is a zero-dependency single-binary log viewer that pipes any command output into an interactive browser-based… | Security Reviewed | 2.1k | — |
 | [Track coding-agent token spend and leaderboard drift across local session logs with Tokscale](skills/track-coding-agent-token-spend-and-leaderboard-drift-with-tokscale/) | Aggregate local coding-agent usage logs into spend, token, and trend views before quotas or budgets surprise the team. | Security Reviewed | 2k | 64.6k/wk |
 | [Elastic APM Transaction Anomaly Spotter](skills/elastic-apm-transaction-anomaly-spotter/) | Queries Elastic APM transaction data through the Elasticsearch REST API to surface latency anomalies and throughput… | Security Reviewed | 1.3k | — |
+| [Lint and auto-format Markdown documentation before agents ship content with rumdl](skills/lint-and-auto-format-markdown-documentation-before-agents-ship-content-with-rumdl/) | Run rumdl as a fast Markdown lint-and-format gate so agents can catch style, flavor, link-adjacent, and consistency… | Published | 1.1k | — |
 | [Lint and validate Prometheus alerting rules before noisy or broken alerts reach production with Pint](skills/lint-and-validate-prometheus-alerting-rules-before-noisy-or-broken-alerts-reach-production-with-pint/) | Check Prometheus alerting and recording rules in CI or ad hoc runs so invalid, misleading, or dangerous rules are… | Security Reviewed | 1k | — |
 | [LangSmith SDK for LLM Tracing and Evaluation](skills/langsmith-sdk-for-llm-tracing-and-evaluation/) | LangSmith provides tracing, evaluation, and debugging workflows for LLM applications. This skill is useful when an… | Security Reviewed | 843 | — |
 | [Datadog MCP Server](skills/datadog-mcp-server/) | Datadog MCP Server is built around Datadog observability platform. The underlying ecosystem is represented by… | Security Reviewed | 807 | 7.8M/wk |

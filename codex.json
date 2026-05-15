@@ -1,9 +1,17 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-05-14",
-  "total": 2464,
+  "generated": "2026-05-15",
+  "total": 2465,
   "skills": [
+    {
+      "slug": "lint-and-auto-format-markdown-documentation-before-agents-ship-content-with-rumdl",
+      "title": "Lint and auto-format Markdown documentation before agents ship content with rumdl",
+      "description": "Run rumdl as a fast Markdown lint-and-format gate so agents can catch style, flavor, link-adjacent, and consistency issues before docs or generated content are…",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
     {
       "slug": "run-stealth-chromium-browser-automation-with-cloakbrowser",
       "title": "Run stealth Chromium browser automation with CloakBrowser",

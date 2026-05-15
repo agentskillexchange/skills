@@ -122,6 +122,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Logdy Real-Time Log Viewer with Web UI and CLI](../../skills/logdy-realtime-log-viewer-web-ui-cli/) | 2.1k | — |
 | [Track coding-agent token spend and leaderboard drift across local session logs with Tokscale](../../skills/track-coding-agent-token-spend-and-leaderboard-drift-with-tokscale/) | 2k | 64.6k/wk |
 | [Elastic APM Transaction Anomaly Spotter](../../skills/elastic-apm-transaction-anomaly-spotter/) | 1.3k | — |
+| [Lint and auto-format Markdown documentation before agents ship content with rumdl](../../skills/lint-and-auto-format-markdown-documentation-before-agents-ship-content-with-rumdl/) | 1.1k | — |
 | [Lint and validate Prometheus alerting rules before noisy or broken alerts reach production with Pint](../../skills/lint-and-validate-prometheus-alerting-rules-before-noisy-or-broken-alerts-reach-production-with-pint/) | 1k | — |
 | [LangSmith SDK for LLM Tracing and Evaluation](../../skills/langsmith-sdk-for-llm-tracing-and-evaluation/) | 843 | — |
 | [Datadog MCP Server](../../skills/datadog-mcp-server/) | 807 | 7.8M/wk |
