@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-05-15
-# Total: 2465 skills
+# Total: 2466 skills
+
+## Let agents control a logged-in Chrome browser through Playwriter MCP
+slug: let-agents-control-a-logged-in-chrome-browser-through-playwriter-mcp
+category: Browser Automation
+framework: MCP
+verification: Published
+description: Use Playwriter to give MCP-compatible agents a bounded, stateful Playwright control surface over an operator-approved Chrome session.
+url: https://agentskillexchange.com/skills/let-agents-control-a-logged-in-chrome-browser-through-playwriter-mcp/
 
 ## Lint and auto-format Markdown documentation before agents ship content with rumdl
 slug: lint-and-auto-format-markdown-documentation-before-agents-ship-content-with-rumdl

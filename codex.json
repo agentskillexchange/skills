@@ -2,8 +2,16 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-05-15",
-  "total": 2465,
+  "total": 2466,
   "skills": [
+    {
+      "slug": "let-agents-control-a-logged-in-chrome-browser-through-playwriter-mcp",
+      "title": "Let agents control a logged-in Chrome browser through Playwriter MCP",
+      "description": "Use Playwriter to give MCP-compatible agents a bounded, stateful Playwright control surface over an operator-approved Chrome session.",
+      "category": "Browser Automation",
+      "framework": "MCP",
+      "verification": "listed"
+    },
     {
       "slug": "lint-and-auto-format-markdown-documentation-before-agents-ship-content-with-rumdl",
       "title": "Lint and auto-format Markdown documentation before agents ship content with rumdl",

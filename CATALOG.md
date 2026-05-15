@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2465 published skills** across **17 categories** · 2452 security reviewed · Updated 2026-05-15 05:33 UTC
+> **2466 published skills** across **17 categories** · 2452 security reviewed · Updated 2026-05-15 08:03 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1993,7 +1993,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
 
-### 🌐 Browser Automation (105 skills)
+### 🌐 Browser Automation (106 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
@@ -2090,6 +2090,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Extract data and complete workflows in your real logged-in browser](skills/extract-data-and-complete-workflows-in-your-real-logged-in-browser/) | Use bb-browser when an agent needs to inspect pages, pull data, or complete form-driven tasks inside the user's… | Security Reviewed | 4.4k | — |
 | [Nodriver Async Undetected Chrome Browser Automation for Python](skills/nodriver-undetected-chrome-automation/) | Nodriver is the official successor to Undetected-Chromedriver, providing async browser automation that communicates… | Security Reviewed | 4k | — |
 | [Taiko Smart-Selector Browser Automation for Node.js](skills/taiko-smart-selector-browser-automation-nodejs/) | Taiko is a Node.js browser automation framework from the Gauge and Thoughtworks ecosystem. Its smart selectors and… | Security Reviewed | 3.7k | 12.3k/wk |
+| [Let agents control a logged-in Chrome browser through Playwriter MCP](skills/let-agents-control-a-logged-in-chrome-browser-through-playwriter-mcp/) | Use Playwriter to give MCP-compatible agents a bounded, stateful Playwright control surface over an… | Published | 3.5k | — |
 | [Test agent-written web changes in a real browser and hand failures back for repair with Expect](skills/test-agent-written-web-changes-in-a-real-browser-and-hand-failures-back-for-repair-with-expect/) | Run an agent-native browser QA loop that reads recent code changes, generates a test plan, and returns concrete… | Security Reviewed | 3.4k | 24.5k/wk |
 | [Browserbase MCP Server](skills/browserbase-mcp-server/) | Browserbase MCP Server gives agents cloud browser control through Browserbase and Stagehand, with both hosted HTTP… | Security Reviewed | 3.3k | 907/wk |
 | [Run blocked-site browser tasks through anti-bot friendly sessions with Camofox Browser](skills/run-blocked-site-browser-tasks-through-anti-bot-friendly-sessions-with-camofox-browser/) | Use Camofox Browser to route agent browser work through an anti-detection browser server with stable element refs,… | Security Reviewed | 2.9k | — |

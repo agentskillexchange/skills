@@ -131,6 +131,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Extract data and complete workflows in your real logged-in browser](../../skills/extract-data-and-complete-workflows-in-your-real-logged-in-browser/) | 4.4k | — |
 | [Nodriver Async Undetected Chrome Browser Automation for Python](../../skills/nodriver-undetected-chrome-automation/) | 4k | — |
 | [Taiko Smart-Selector Browser Automation for Node.js](../../skills/taiko-smart-selector-browser-automation-nodejs/) | 3.7k | 12.3k/wk |
+| [Let agents control a logged-in Chrome browser through Playwriter MCP](../../skills/let-agents-control-a-logged-in-chrome-browser-through-playwriter-mcp/) | 3.5k | — |
 | [Test agent-written web changes in a real browser and hand failures back for repair with Expect](../../skills/test-agent-written-web-changes-in-a-real-browser-and-hand-failures-back-for-repair-with-expect/) | 3.4k | 24.5k/wk |
 | [Browserbase MCP Server](../../skills/browserbase-mcp-server/) | 3.3k | 907/wk |
 | [Run blocked-site browser tasks through anti-bot friendly sessions with Camofox Browser](../../skills/run-blocked-site-browser-tasks-through-anti-bot-friendly-sessions-with-camofox-browser/) | 2.9k | — |
