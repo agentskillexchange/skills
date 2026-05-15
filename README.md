@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C466-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-2%2C468-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
-[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-2%2C452-10b981?style=for-the-badge)](verification/)
+[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-2%2C463-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,466 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*2,468 published skills · 17 categories · Real ecosystem signals · Updated hourly*
 
 </div>
 
@@ -84,10 +84,10 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Trace, evaluate, and monitor agentic workflows with Opik](skills/trace-evaluate-and-monitor-agentic-workflows-with-opik/) | trace-evaluate-and-monitor-agentic-workflows-with-opik | 19.1k | Monitoring & Alerts |
 | [Build temporal context graphs for agent memory from evolving facts with Graphiti](skills/build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti/) | build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti | 24.9k | Library & API Reference |
 | [Run long-horizon research and coding agent workflows with DeerFlow](skills/run-long-horizon-research-and-coding-agent-workflows-with-deerflow/) | run-long-horizon-research-and-coding-agent-workflows-with-deerflow | 67.5k | Code Quality & Review |
+| [Run stealth Chromium browser automation with CloakBrowser](skills/run-stealth-chromium-browser-automation-with-cloakbrowser/) | run-stealth-chromium-browser-automation-with-cloakbrowser | 10.2k | Browser Automation |
 | [Preserve agent session context with Claude Mem](skills/preserve-agent-session-context-with-claude-mem/) | preserve-agent-session-context-with-claude-mem | 74.5k | Library & API Reference |
+| [Let agents control a logged-in Chrome browser through Playwriter MCP](skills/let-agents-control-a-logged-in-chrome-browser-through-playwriter-mcp/) | let-agents-control-a-logged-in-chrome-browser-through-playwriter-mcp | 3.5k | Browser Automation |
 | [Optimize prompt and agent pipelines with DSPy programs and evaluators](skills/optimize-prompt-and-agent-pipelines-with-dspy-programs-and-evaluators/) | optimize-prompt-and-agent-pipelines-with-dspy-programs-and-evaluators | 34.3k | Code Quality & Review |
-| [Add runtime guardrails to TypeScript agents with VoltAgent](skills/add-runtime-guardrails-to-typescript-agents-with-voltagent/) | add-runtime-guardrails-to-typescript-agents-with-voltagent | 8.6k | Security & Verification |
-| [Give agents fast searchable memory with Supermemory](skills/give-agents-fast-searchable-memory-with-supermemory/) | give-agents-fast-searchable-memory-with-supermemory | 22.5k | Integrations & Connectors |
 
 ---
 
@@ -95,13 +95,13 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 313 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 314 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 226 | Vulnerability scanning, auth setup, compliance |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 183 | Linting, code review, test generators, coverage |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 169 | Incident response, troubleshooting, system diagnostics |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 169 | ETL pipelines, parsing, format conversion |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 155 | Scaffolders, boilerplate generators, workflow templates |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 156 | Scaffolders, boilerplate generators, workflow templates |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 129 | Metrics, alerting rules, observability |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 122 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 121 | SDK docs, API parsers, symbol resolvers |
@@ -170,8 +170,8 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,466 | In the catalog — every skill is backed by a real tool, repo, or package |
-| 🛡️ **Security Reviewed** | 2,452 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
+| 📋 **Published** | 2,468 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 🛡️ **Security Reviewed** | 2,463 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
 

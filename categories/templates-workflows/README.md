@@ -173,13 +173,14 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Run ticket queues through unattended coding-agent batches and escalate only on blockers with Codex Autorunner](../../skills/run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner/) | 670 | — |
 | [Govern agent skills, MCP servers, prompts, and tool calls with DefenseClaw](../../skills/govern-agent-skills-mcp-servers-prompts-and-tool-calls-with-defenseclaw/) | 647 | — |
 | [Sync dbt schema YAML and inherited column metadata before docs drift accumulates with dbt-osmosis](../../skills/sync-dbt-schema-yaml-and-inherited-column-metadata-before-docs-drift-accumulates-with-dbt-osmosis/) | 622 | — |
-| [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | 606 | — |
+| [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | 608 | — |
 | [Keep GitHub wiki pages synced with recently merged code changes](../../skills/keep-github-wiki-pages-synced-with-recently-merged-code-changes/) | 585 | — |
 | [Review open pull requests against repository contribution guidelines](../../skills/review-open-pull-requests-against-repository-contribution-guidelines/) | 585 | — |
 | [Extract translation keys from code and maintain locale catalogs with i18next-parser](../../skills/extract-translation-keys-from-code-and-maintain-locale-catalogs-i18next-parser/) | 556 | — |
 | [Railway App Deployer](../../skills/railway-app-deployer/) | 523 | 143.6k/wk |
 | [Evolve reusable coding-agent skills from failed trajectories with EvoSkill](../../skills/evolve-reusable-coding-agent-skills-from-failed-trajectories-with-evoskill/) | 489 | — |
 | [Coordinate multiple CLI agents through sessions, handoffs, and terminal control APIs with CLI Agent Orchestrator](../../skills/coordinate-multiple-cli-agents-through-sessions-handoffs-and-terminal-control-apis-with-cli-agent-orchestrator/) | 473 | — |
+| [Manage native GitHub stacked pull requests with gh-stack](../../skills/manage-native-github-stacked-pull-requests-with-gh-stack/) | 401 | — |
 | [Evaluate long-horizon agents against WildClawBench](../../skills/evaluate-long-horizon-agents-against-wildclawbench/) | 359 | — |
 | [Makedown Task Runner](../../skills/makedown-task-runner/) | 319 | — |
 | [Build and refactor Copilot Studio agents as YAML from coding-agent workflows](../../skills/build-and-refactor-copilot-studio-agents-as-yaml/) | 166 | — |

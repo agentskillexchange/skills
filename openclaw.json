@@ -2,15 +2,31 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-05-15",
-  "total": 2466,
+  "total": 2468,
   "skills": [
+    {
+      "slug": "manage-native-github-stacked-pull-requests-with-gh-stack",
+      "title": "Manage native GitHub stacked pull requests with gh-stack",
+      "description": "Teach coding agents to split large changes into native GitHub stacked pull requests, keep branch layers rebased, and submit focused reviewable PR chains with…",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
+    {
+      "slug": "run-supervised-agentic-terminal-sessions-with-warp",
+      "title": "Run supervised agentic terminal sessions with Warp",
+      "description": "Use Warp as a supervised terminal workspace for running Warp Agent or external CLI agents such as Codex, Claude Code, Gemini CLI, and OpenCode…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
     {
       "slug": "let-agents-control-a-logged-in-chrome-browser-through-playwriter-mcp",
       "title": "Let agents control a logged-in Chrome browser through Playwriter MCP",
       "description": "Use Playwriter to give MCP-compatible agents a bounded, stateful Playwright control surface over an operator-approved Chrome session.",
       "category": "Browser Automation",
       "framework": "MCP",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "lint-and-auto-format-markdown-documentation-before-agents-ship-content-with-rumdl",
@@ -18,7 +34,7 @@
       "description": "Run rumdl as a fast Markdown lint-and-format gate so agents can catch style, flavor, link-adjacent, and consistency issues before docs or generated content are…",
       "category": "Monitoring & Alerts",
       "framework": "Multi-Framework",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "run-stealth-chromium-browser-automation-with-cloakbrowser",
@@ -26,7 +42,7 @@
       "description": "Use CloakBrowser as a supervised Playwright/Puppeteer-compatible browser runtime for high-friction browser automation and anti-bot test environments.",
       "category": "Browser Automation",
       "framework": "Multi-Framework",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "inspect-freshservice-service-management-tickets-and-modules-through-mcp",
@@ -34,7 +50,7 @@
       "description": "Connect Freshservice modules to MCP clients for supervised IT service-management ticket lookup and support-ops preparation.",
       "category": "Integrations & Connectors",
       "framework": "MCP",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp",
@@ -42,7 +58,7 @@
       "description": "Expose Shopify Admin API operations to MCP clients for supervised ecommerce catalog, order, customer, and inventory work.",
       "category": "Integrations & Connectors",
       "framework": "MCP",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "connect-mcp-agents-to-batchdata-property-and-address-apis",
@@ -50,7 +66,7 @@
       "description": "Use BatchData property and address APIs from MCP clients to enrich real-estate research and operations workflows.",
       "category": "Integrations & Connectors",
       "framework": "MCP",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "retrieve-zillow-style-property-details-and-market-trends-through-an-mcp-server",
@@ -58,7 +74,7 @@
       "description": "Run supervised property-detail and market-trend lookups from an MCP client while checking data-source terms before use.",
       "category": "Integrations & Connectors",
       "framework": "MCP",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "expose-fhir-healthcare-data-resources-to-mcp-agents-with-review-boundaries",
@@ -66,7 +82,7 @@
       "description": "Use a FHIR MCP server to query healthcare data resources for documentation and integration workflows while keeping PHI and clinical-use limits explicit.",
       "category": "Integrations & Connectors",
       "framework": "MCP",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "let-mcp-agents-inspect-and-update-freshdesk-tickets-safely",
@@ -74,7 +90,7 @@
       "description": "Connect Freshdesk modules to MCP clients so agents can retrieve ticket context and prepare supervised support actions.",
       "category": "Integrations & Connectors",
       "framework": "MCP",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "triage-support-tickets-and-draft-customer-replies-with-claude-code-support-skills",
@@ -82,7 +98,7 @@
       "description": "Use Claude Code support skills to prioritize tickets, gather customer context, and draft reviewed replies without turning agents loose on customers.",
       "category": "Templates & Workflows",
       "framework": "Claude Code",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "connect-mcp-agents-to-zendesk-ticket-and-help-center-workflows",
@@ -90,7 +106,7 @@
       "description": "Expose Zendesk tickets, comments, and Help Center context to MCP-capable agents for supervised support workflow preparation.",
       "category": "Integrations & Connectors",
       "framework": "MCP",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "run-long-horizon-research-and-coding-agent-workflows-with-deerflow",

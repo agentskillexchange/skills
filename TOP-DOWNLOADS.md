@@ -47,11 +47,11 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 39 | [semantic-release Automated Versioning and Release Publishing](skills/semantic-release-automated-versioning-and-release-publishing/) | 2.5M/wk | semantic-release | CI/CD Integrations |
 | 40 | [Slack Bolt Event Subscription Debugger](skills/slack-bolt-event-subscription-debugger/) | 2.5M/wk | slack | Integrations & Connectors |
 | 41 | [Vercel Deployment Agent](skills/vercel-deployment-agent/) | 2.4M/wk | vercel | Templates & Workflows |
-| 42 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 2.3M/wk | datadog-api-client-typescript | Monitoring & Alerts |
-| 43 | [Pulumi Drift Detector &amp; Reconciler](skills/pulumi-drift-detector-reconciler/) | 2.1M/wk | pulumi | Runbooks & Diagnostics |
-| 44 | [LangChain MCP Server](skills/langchain-mcp-server/) | 2M/wk | langchain | Developer Tools |
-| 45 | [Astro Content-Driven Web Framework](skills/astro-content-driven-web-framework/) | 2M/wk | astro | Developer Tools |
-| 46 | [Selenium Grid Auto-Scaling Orchestrator](skills/selenium-grid-auto-scaling-orchestrator/) | 1.9M/wk | selenium | Browser Automation |
+| 42 | [Pulumi Drift Detector &amp; Reconciler](skills/pulumi-drift-detector-reconciler/) | 2.1M/wk | pulumi | Runbooks & Diagnostics |
+| 43 | [LangChain MCP Server](skills/langchain-mcp-server/) | 2M/wk | langchain | Developer Tools |
+| 44 | [Astro Content-Driven Web Framework](skills/astro-content-driven-web-framework/) | 2M/wk | astro | Developer Tools |
+| 45 | [Selenium Grid Auto-Scaling Orchestrator](skills/selenium-grid-auto-scaling-orchestrator/) | 1.9M/wk | selenium | Browser Automation |
+| 46 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 1.8M/wk | datadog-api-client-typescript | Monitoring & Alerts |
 | 47 | [zx JavaScript Shell Script Runner](skills/zx-javascript-shell-script-runner/) | 1.7M/wk | zx | Developer Tools |
 | 48 | [Lefthook Git Hooks Manager](skills/lefthook-git-hooks-manager/) | 1.6M/wk | lefthook | Developer Tools |
 | 49 | [REST API Test Suite Generator](skills/rest-api-test-suite-generator/) | 1.5M/wk | postman | Library & API Reference |

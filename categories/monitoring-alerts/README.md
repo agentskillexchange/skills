@@ -29,7 +29,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | ⬇ 3.3k/wk |
 | [Simulate agent scenarios, trace failures, and watch production regressions with LangWatch](../../skills/simulate-agent-scenarios-trace-failures-and-watch-production-regressions-with-langwatch/) | ⬇ 54.7k/wk |
 | [Track coding-agent token spend and leaderboard drift across local session logs with Tokscale](../../skills/track-coding-agent-token-spend-and-leaderboard-drift-with-tokscale/) | ⬇ 64.6k/wk |
-| [Datadog MCP Server](../../skills/datadog-mcp-server/) | ⬇ 7.8M/wk |
+| [Datadog MCP Server](../../skills/datadog-mcp-server/) | ⬇ 7.7M/wk |
 | [Datadog Anomaly Alert Router](../../skills/datadog-anomaly-alert-router/) | ⬇ 6.6M/wk |
 | [Datadog Anomaly Detection Agent](../../skills/datadog-anomaly-detection-agent-2/) | ⬇ 6.6M/wk |
 | [Datadog Anomaly Detector](../../skills/datadog-anomaly-detector/) | ⬇ 6.6M/wk |
@@ -125,7 +125,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Lint and auto-format Markdown documentation before agents ship content with rumdl](../../skills/lint-and-auto-format-markdown-documentation-before-agents-ship-content-with-rumdl/) | 1.1k | — |
 | [Lint and validate Prometheus alerting rules before noisy or broken alerts reach production with Pint](../../skills/lint-and-validate-prometheus-alerting-rules-before-noisy-or-broken-alerts-reach-production-with-pint/) | 1k | — |
 | [LangSmith SDK for LLM Tracing and Evaluation](../../skills/langsmith-sdk-for-llm-tracing-and-evaluation/) | 843 | — |
-| [Datadog MCP Server](../../skills/datadog-mcp-server/) | 807 | 7.8M/wk |
+| [Datadog MCP Server](../../skills/datadog-mcp-server/) | 807 | 7.7M/wk |
 | [Datadog Anomaly Alert Router](../../skills/datadog-anomaly-alert-router/) | 791 | 6.6M/wk |
 | [Datadog Anomaly Detection Agent](../../skills/datadog-anomaly-detection-agent-2/) | 791 | 6.6M/wk |
 | [Datadog Anomaly Detector](../../skills/datadog-anomaly-detector/) | 791 | 6.6M/wk |
@@ -140,7 +140,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Datadog Monitor Sync](../../skills/datadog-monitor-sync/) | 791 | 6.6M/wk |
 | [Datadog Monitors Skill](../../skills/datadog-monitors-skill/) | 791 | 6.6M/wk |
 | [Datadog SLO Monitor](../../skills/datadog-slo-monitor/) | 791 | 6.6M/wk |
-| [Sentry MCP Server](../../skills/sentry-mcp-server/) | 687 | 90.1k/wk |
+| [Sentry MCP Server](../../skills/sentry-mcp-server/) | 687 | 90.9k/wk |
 | [Sentry MCP Server for Error Tracking and Performance](../../skills/sentry-mcp-server-error-tracking-performance/) | 615 | 49.6k/wk |
 | [Track coding-agent quota burn and remaining headroom across providers with onWatch](../../skills/track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch/) | 580 | — |
 | [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | 531 | 4.8M/wk |
@@ -148,14 +148,14 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Inspect Claude Code multi-agent runs with Agents Observe](../../skills/agents-observe-claude-code-observability/) | 421 | — |
 | [Cronitor CLI for Cron Monitoring and Job Telemetry](../../skills/cronitor-cli-cron-monitoring-job-telemetry/) | 399 | — |
 | [Monitor coding-agent token spend with Splitrail](../../skills/monitor-coding-agent-token-spend-with-splitrail/) | 159 | — |
-| [Metrics Dashboard Builder](../../skills/metrics-dashboard-builder/) | 102 | 2.3M/wk |
+| [Metrics Dashboard Builder](../../skills/metrics-dashboard-builder/) | 102 | 1.8M/wk |
 | [Checkly Browser Check Failure Notifier](../../skills/checkly-browser-check-failure-notifier/) | 92 | — |
 | [Checkly CLI Monitoring as Code for API and Browser Checks](../../skills/checkly-cli-monitoring-as-code-for-api-and-browser-checks/) | 92 | — |
 | [PagerDuty Incident Escalator](../../skills/pagerduty-incident-escalator/) | 69 | 1M/wk |
 | [PagerDuty Incident Orchestrator](../../skills/pagerduty-incident-orchestrator-2/) | 69 | 1M/wk |
 | [PagerDuty Incident Runbook Linker](../../skills/pagerduty-incident-runbook-linker/) | 69 | 1M/wk |
 | [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | 69 | 238k/wk |
-| [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | 24 | 6.7k/wk |
+| [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | 24 | 6.6k/wk |
 | [Configure and interpret LaunchDarkly AI Config online evaluations with judge attachments](../../skills/configure-and-interpret-launchdarkly-ai-config-online-evaluations-with-judge-attachments/) | 6 | — |
 | [AWS CloudWatch Insights Query Builder](../../skills/aws-cloudwatch-insights-query-builder/) | — | — |
 | [Cloudflare Analytics Health Monitor](../../skills/cloudflare-analytics-health-monitor/) | — | — |

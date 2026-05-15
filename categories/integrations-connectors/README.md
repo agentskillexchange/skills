@@ -32,7 +32,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Nango Integration Platform SDK](../../skills/nango-integration-platform-sdk/) | ⬇ 17.7k/wk |
 | [Nango Open Source API Integration Platform](../../skills/nango-open-source-api-integration-platform/) | ⬇ 15.6k/wk |
 | [Notion Database Sync &amp; Page Generator](../../skills/notion-database-sync-page-generator-2/) | ⬇ 1.2M/wk |
-| [Stripe MCP Server](../../skills/stripe-mcp-server/) | ⬇ 11.6M/wk |
+| [Stripe MCP Server](../../skills/stripe-mcp-server/) | ⬇ 11.7M/wk |
 
 ---
 
@@ -84,7 +84,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Inngest Event-Driven Durable Workflow Orchestration Platform](../../skills/inngest-event-driven-durable-workflow-orchestration/) | 5.2k | — |
 | [Firebase — Google Application Development Platform](../../skills/firebase-google-app-development-platform/) | 5.1k | — |
 | [Atlassian MCP Server for Jira and Confluence](../../skills/atlassian-mcp-server-jira-confluence/) | 4.8k | — |
-| [Stripe MCP Server](../../skills/stripe-mcp-server/) | 4.4k | 11.6M/wk |
+| [Stripe MCP Server](../../skills/stripe-mcp-server/) | 4.4k | 11.7M/wk |
 | [Stripe Connect Account Provisioner](../../skills/stripe-connect-account-provisioner/) | 4.4k | 9.3M/wk |
 | [Stripe Connect Integration](../../skills/stripe-connect-integration/) | 4.4k | 9.3M/wk |
 | [Stripe Connect Marketplace Sync](../../skills/stripe-connect-marketplace-sync/) | 4.4k | 9.3M/wk |
@@ -99,7 +99,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Cloudflare MCP Servers for Workers, Security, and Observability](../../skills/cloudflare-mcp-servers-workers-security-observability/) | 3.6k | — |
 | [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | 3.4k | — |
 | [Svix Enterprise Webhook Delivery Service](../../skills/svix-enterprise-webhook-delivery-service/) | 3.2k | — |
-| [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | 3.1k | 62.4k/wk |
+| [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | 3.1k | 65.3k/wk |
 | [SendGrid Transactional Email Builder](../../skills/sendgrid-transactional-email-builder/) | 3k | 3.6M/wk |
 | [SendGrid Transactional Email Router](../../skills/sendgrid-transactional-email-router/) | 3k | 3.6M/wk |
 | [n8n-nodes-mcp Community Node for Model Context Protocol Workflows](../../skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows/) | 3k | — |
@@ -125,12 +125,12 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Shopify Admin GraphQL Sync Agent](../../skills/shopify-admin-graphql-sync-agent/) | 959 | 325.5k/wk |
 | [Datadog Integration Connector](../../skills/datadog-integration-connector-agent/) | 791 | 6.6M/wk |
 | [Docker MCP Server for Container Lifecycle Management](../../skills/docker-mcp-server-container-lifecycle-management/) | 695 | — |
-| [Neon Serverless Postgres MCP](../../skills/neon-serverless-postgres-mcp/) | 596 | 15.5k/wk |
+| [Neon Serverless Postgres MCP](../../skills/neon-serverless-postgres-mcp/) | 597 | 15.5k/wk |
 | [Neon MCP Server for Serverless Postgres Management](../../skills/neon-mcp-server-serverless-postgres/) | 567 | 15.5k/wk |
 | [Chroma MCP Server for Embedding Database Operations](../../skills/chroma-mcp-server-embedding-database-operations/) | 527 | — |
 | [Zapier Webhooks by Zapier Router](../../skills/zapier-webhooks-by-zapier-router/) | 484 | — |
 | [Mirror GitHub issues, pull requests, commits, and releases into SQLite for offline analysis](../../skills/mirror-github-issues-pull-requests-commits-and-releases-into-sqlite-for-offline-analysis/) | 461 | — |
-| [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | 393 | 1.2M/wk |
+| [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | 393 | 1.1M/wk |
 | [HubSpot CRM Contact Enrichment Pipeline](../../skills/hubspot-crm-contact-enrichment-pipeline/) | 392 | 986.8k/wk |
 | [Hookdeck CLI for Webhook Development and Event Debugging](../../skills/hookdeck-cli-webhook-development-event-debugging/) | 353 | — |
 | [Linear MCP Server for Issue Tracking and Project Management](../../skills/linear-mcp-server-issue-tracking-project-management/) | 346 | — |

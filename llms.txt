@@ -1,13 +1,29 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-05-15
-# Total: 2466 skills
+# Total: 2468 skills
+
+## Manage native GitHub stacked pull requests with gh-stack
+slug: manage-native-github-stacked-pull-requests-with-gh-stack
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Published
+description: Teach coding agents to split large changes into native GitHub stacked pull requests, keep branch layers rebased, and submit focused reviewable PR chains with…
+url: https://agentskillexchange.com/skills/manage-native-github-stacked-pull-requests-with-gh-stack/
+
+## Run supervised agentic terminal sessions with Warp
+slug: run-supervised-agentic-terminal-sessions-with-warp
+category: Developer Tools
+framework: Multi-Framework
+verification: Published
+description: Use Warp as a supervised terminal workspace for running Warp Agent or external CLI agents such as Codex, Claude Code, Gemini CLI, and OpenCode…
+url: https://agentskillexchange.com/skills/run-supervised-agentic-terminal-sessions-with-warp/
 
 ## Let agents control a logged-in Chrome browser through Playwriter MCP
 slug: let-agents-control-a-logged-in-chrome-browser-through-playwriter-mcp
 category: Browser Automation
 framework: MCP
-verification: Published
+verification: Security Reviewed
 description: Use Playwriter to give MCP-compatible agents a bounded, stateful Playwright control surface over an operator-approved Chrome session.
 url: https://agentskillexchange.com/skills/let-agents-control-a-logged-in-chrome-browser-through-playwriter-mcp/
 
@@ -15,7 +31,7 @@ url: https://agentskillexchange.com/skills/let-agents-control-a-logged-in-chrome
 slug: lint-and-auto-format-markdown-documentation-before-agents-ship-content-with-rumdl
 category: Monitoring & Alerts
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run rumdl as a fast Markdown lint-and-format gate so agents can catch style, flavor, link-adjacent, and consistency issues before docs or generated content are…
 url: https://agentskillexchange.com/skills/lint-and-auto-format-markdown-documentation-before-agents-ship-content-with-rumdl/
 
@@ -23,7 +39,7 @@ url: https://agentskillexchange.com/skills/lint-and-auto-format-markdown-documen
 slug: run-stealth-chromium-browser-automation-with-cloakbrowser
 category: Browser Automation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use CloakBrowser as a supervised Playwright/Puppeteer-compatible browser runtime for high-friction browser automation and anti-bot test environments.
 url: https://agentskillexchange.com/skills/run-stealth-chromium-browser-automation-with-cloakbrowser/
 
@@ -31,7 +47,7 @@ url: https://agentskillexchange.com/skills/run-stealth-chromium-browser-automati
 slug: inspect-freshservice-service-management-tickets-and-modules-through-mcp
 category: Integrations & Connectors
 framework: MCP
-verification: Published
+verification: Security Reviewed
 description: Connect Freshservice modules to MCP clients for supervised IT service-management ticket lookup and support-ops preparation.
 url: https://agentskillexchange.com/skills/inspect-freshservice-service-management-tickets-and-modules-through-mcp/
 
@@ -39,7 +55,7 @@ url: https://agentskillexchange.com/skills/inspect-freshservice-service-manageme
 slug: run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp
 category: Integrations & Connectors
 framework: MCP
-verification: Published
+verification: Security Reviewed
 description: Expose Shopify Admin API operations to MCP clients for supervised ecommerce catalog, order, customer, and inventory work.
 url: https://agentskillexchange.com/skills/run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp/
 
@@ -47,7 +63,7 @@ url: https://agentskillexchange.com/skills/run-shopify-admin-product-order-custo
 slug: connect-mcp-agents-to-batchdata-property-and-address-apis
 category: Integrations & Connectors
 framework: MCP
-verification: Published
+verification: Security Reviewed
 description: Use BatchData property and address APIs from MCP clients to enrich real-estate research and operations workflows.
 url: https://agentskillexchange.com/skills/connect-mcp-agents-to-batchdata-property-and-address-apis/
 
@@ -55,7 +71,7 @@ url: https://agentskillexchange.com/skills/connect-mcp-agents-to-batchdata-prope
 slug: retrieve-zillow-style-property-details-and-market-trends-through-an-mcp-server
 category: Integrations & Connectors
 framework: MCP
-verification: Published
+verification: Security Reviewed
 description: Run supervised property-detail and market-trend lookups from an MCP client while checking data-source terms before use.
 url: https://agentskillexchange.com/skills/retrieve-zillow-style-property-details-and-market-trends-through-an-mcp-server/
 
@@ -63,7 +79,7 @@ url: https://agentskillexchange.com/skills/retrieve-zillow-style-property-detail
 slug: expose-fhir-healthcare-data-resources-to-mcp-agents-with-review-boundaries
 category: Integrations & Connectors
 framework: MCP
-verification: Published
+verification: Security Reviewed
 description: Use a FHIR MCP server to query healthcare data resources for documentation and integration workflows while keeping PHI and clinical-use limits explicit.
 url: https://agentskillexchange.com/skills/expose-fhir-healthcare-data-resources-to-mcp-agents-with-review-boundaries/
 
@@ -71,7 +87,7 @@ url: https://agentskillexchange.com/skills/expose-fhir-healthcare-data-resources
 slug: let-mcp-agents-inspect-and-update-freshdesk-tickets-safely
 category: Integrations & Connectors
 framework: MCP
-verification: Published
+verification: Security Reviewed
 description: Connect Freshdesk modules to MCP clients so agents can retrieve ticket context and prepare supervised support actions.
 url: https://agentskillexchange.com/skills/let-mcp-agents-inspect-and-update-freshdesk-tickets-safely/
 
@@ -79,7 +95,7 @@ url: https://agentskillexchange.com/skills/let-mcp-agents-inspect-and-update-fre
 slug: triage-support-tickets-and-draft-customer-replies-with-claude-code-support-skills
 category: Templates & Workflows
 framework: Claude Code
-verification: Published
+verification: Security Reviewed
 description: Use Claude Code support skills to prioritize tickets, gather customer context, and draft reviewed replies without turning agents loose on customers.
 url: https://agentskillexchange.com/skills/triage-support-tickets-and-draft-customer-replies-with-claude-code-support-skills/
 
@@ -87,7 +103,7 @@ url: https://agentskillexchange.com/skills/triage-support-tickets-and-draft-cust
 slug: connect-mcp-agents-to-zendesk-ticket-and-help-center-workflows
 category: Integrations & Connectors
 framework: MCP
-verification: Published
+verification: Security Reviewed
 description: Expose Zendesk tickets, comments, and Help Center context to MCP-capable agents for supervised support workflow preparation.
 url: https://agentskillexchange.com/skills/connect-mcp-agents-to-zendesk-ticket-and-help-center-workflows/
 
