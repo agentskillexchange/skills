@@ -3,7 +3,7 @@ title: "Run Shopify Admin product order customer and inventory workflows through
 slug: "run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp"
 description: "Expose Shopify Admin API operations to MCP clients for supervised ecommerce catalog, order, customer, and inventory work."
 github_stars: 15
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/antoineschaller/shopify-mcp-server"
 author: "antoineschaller"
 publisher_type: "open_source"

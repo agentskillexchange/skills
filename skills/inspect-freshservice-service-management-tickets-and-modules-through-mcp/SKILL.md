@@ -3,7 +3,7 @@ title: "Inspect Freshservice service-management tickets and modules through MCP"
 slug: "inspect-freshservice-service-management-tickets-and-modules-through-mcp"
 description: "Connect Freshservice modules to MCP clients for supervised IT service-management ticket lookup and support-ops preparation."
 github_stars: 31
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/effytech/freshservice_mcp"
 author: "effytech"
 publisher_type: "open_source"

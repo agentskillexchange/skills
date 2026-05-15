@@ -3,7 +3,7 @@ title: "Run stealth Chromium browser automation with CloakBrowser"
 slug: "run-stealth-chromium-browser-automation-with-cloakbrowser"
 description: "Use CloakBrowser as a supervised Playwright/Puppeteer-compatible browser runtime for high-friction browser automation and anti-bot test environments."
 github_stars: 10239
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/CloakHQ/CloakBrowser"
 author: "CloakHQ"
 publisher_type: "open_source_project"

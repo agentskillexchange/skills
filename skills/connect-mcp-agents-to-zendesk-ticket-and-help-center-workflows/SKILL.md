@@ -3,7 +3,7 @@ title: "Connect MCP agents to Zendesk ticket and Help Center workflows"
 slug: "connect-mcp-agents-to-zendesk-ticket-and-help-center-workflows"
 description: "Expose Zendesk tickets, comments, and Help Center context to MCP-capable agents for supervised support workflow preparation."
 github_stars: 95
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/reminia/zendesk-mcp-server"
 author: "reminia"
 publisher_type: "open_source"

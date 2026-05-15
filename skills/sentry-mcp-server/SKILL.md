@@ -13,7 +13,7 @@ tool_ecosystem:
   github_repo: "getsentry/sentry-mcp"
   github_stars: 687
   npm_package: "@sentry/mcp-server"
-  npm_weekly_downloads: 90109
+  npm_weekly_downloads: 90909
 ---
 
 # Sentry MCP Server

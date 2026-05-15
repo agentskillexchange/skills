@@ -3,7 +3,7 @@ title: "Triage support tickets and draft customer replies with Claude Code suppo
 slug: "triage-support-tickets-and-draft-customer-replies-with-claude-code-support-skills"
 description: "Use Claude Code support skills to prioritize tickets, gather customer context, and draft reviewed replies without turning agents loose on customers."
 github_stars: 87
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/nbashaw/claude-cs"
 author: "nbashaw"
 publisher_type: "open_source"
