@@ -2,7 +2,7 @@
 title: "Storybook Component Tester"
 slug: "storybook-component-tester"
 description: ""
-github_stars: 89703
+github_stars: 89914
 verification: "security_reviewed"
 source: "https://github.com/storybookjs/storybook"
 author: "storybookjs"
@@ -10,7 +10,9 @@ category: "Code Quality & Review"
 framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "storybookjs/storybook"
-  github_stars: 89703
+  github_stars: 89914
+  npm_package: "storybook"
+  npm_weekly_downloads: 13731853
 ---
 
 # Storybook Component Tester

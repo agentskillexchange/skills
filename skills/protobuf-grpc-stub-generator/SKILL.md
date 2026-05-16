@@ -2,14 +2,15 @@
 title: "Protobuf & gRPC Stub Generator"
 slug: "protobuf-grpc-stub-generator"
 description: "Compiles Protocol Buffer definitions into language-specific gRPC client and server stubs using buf CLI and protoc plugins. Validates proto files against Buf lint rules and detects breaking changes."
-github_stars: 4822
+github_stars: 4828
 verification: "security_reviewed"
 source: "https://github.com/grpc/grpc-node"
+author: "grpc"
 category: "Library & API Reference"
 framework: "Cursor"
 tool_ecosystem:
   github_repo: "grpc/grpc-node"
-  github_stars: 4822
+  github_stars: 4828
 ---
 
 # Protobuf & gRPC Stub Generator
@@ -25,6 +26,10 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://grpc.io/
 
 ## Source
 
