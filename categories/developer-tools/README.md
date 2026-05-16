@@ -149,7 +149,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Reduce agent token burn on repo-scale coding commands with the rtk CLI proxy](../../skills/reduce-agent-token-burn-on-repo-scale-coding-commands-with-the-rtk-cli-proxy/) | 25.4k | — |
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | 25.3k | — |
 | [Jenkins MCP Server](../../skills/jenkins-mcp-server/) | 25.3k | — |
-| [Pulumi MCP Server](../../skills/pulumi-mcp-server/) | 25.2k | 2M/wk |
+| [Pulumi MCP Server](../../skills/pulumi-mcp-server/) | 25.2k | 2.2M/wk |
 | [CI Pipeline Generator Skill](../../skills/ci-pipeline-generator-skill/) | 24.3k | — |
 | [Biome Lint Migration Toolkit](../../skills/biome-lint-migration-toolkit/) | 24.3k | — |
 | [FastMCP Python MCP Server and Client Framework](../../skills/fastmcp-python-mcp-server-client-framework/) | 24.2k | — |
@@ -280,7 +280,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Run high-volume S3 copy, sync, and delete jobs faster than ad hoc aws s3 loops with s5cmd](../../skills/run-high-volume-s3-copy-sync-and-delete-jobs-faster-than-ad-hoc-aws-s3-loops-with-s5cmd/) | 4k | — |
 | [Capture and search AI coding sessions alongside Git history with Entire CLI](../../skills/capture-and-search-ai-coding-sessions-alongside-git-history-with-entire-cli/) | 4k | — |
 | [Wrangler Cloudflare Workers CLI for Edge Deployment](../../skills/wrangler-cloudflare-workers-cli-edge-deployment/) | 4k | 14M/wk |
-| [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | 3.6k | 27.7M/wk |
+| [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | 3.6k | 28M/wk |
 | [AWS Lambda MCP Server](../../skills/aws-lambda-mcp-server/) | 3.6k | 8.3M/wk |
 | [Cloud Cost Analysis](../../skills/cloud-cost-analysis/) | 3.6k | — |
 | [Topgrade Universal System Package Updater](../../skills/topgrade-universal-system-package-updater/) | 3.6k | — |
@@ -316,17 +316,17 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Search cross-agent Markdown memory and conversation history with memsearch](../../skills/search-cross-agent-markdown-memory-and-conversation-history-with-memsearch/) | 1.3k | — |
 | [Terraform MCP Server for Infrastructure as Code](../../skills/terraform-mcp-server-infrastructure-as-code/) | 1.3k | — |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | 1.3k | — |
-| [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | 1.3k | 442/wk |
+| [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | 1.3k | 469/wk |
 | [Run React Native implementation and troubleshooting workflows with Callstack Agent Skills](../../skills/run-react-native-implementation-and-troubleshooting-workflows-with-callstack-agent-skills/) | 1.3k | — |
 | [Capture, search, and optionally sync local coding-agent session history across Claude Code, Codex, Cursor CLI, and Gemini with SpecStory](../../skills/capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory/) | 1.2k | — |
 | [Find and export SVG icons across icon libraries for UI work](../../skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/) | 915 | — |
-| [CircleCI MCP Server](../../skills/circleci-mcp-server/) | 841 | — |
+| [CircleCI MCP Server](../../skills/circleci-mcp-server/) | 843 | — |
 | [Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac](../../skills/run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac/) | 809 | 36.7k/wk |
 | [Control Android devices with an on-device AI agent using PokeClaw](../../skills/control-android-devices-with-an-on-device-ai-agent-using-pokeclaw/) | 760 | — |
 | [Generate and continuously refresh CLAUDE.md, AGENTS.md, MCP config, and editor rules from the live codebase with Caliber](../../skills/generate-and-continuously-refresh-claude-md-agents-md-mcp-config-and-editor-rules-from-the-live-codebase-with-caliber/) | 717 | — |
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](../../skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | 621 | 4.9k/wk |
 | [Run deterministic SQL and dbt analysis under coding agents with Altimate Code](../../skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/) | 552 | — |
-| [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 394 | 944/wk |
+| [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 394 | 877/wk |
 | [Temporal CLI Workflow and Server Control](../../skills/temporal-cli-workflow-server-control/) | 350 | — |
 | [Back up GitHub, GitLab, Bitbucket, and Forgejo repositories with gitbackup](../../skills/back-up-github-gitlab-bitbucket-and-forgejo-repositories-with-gitbackup/) | 218 | — |
 | [Search large codebases and structured document trees without embeddings before building heavier retrieval stacks with TreeSearch](../../skills/search-large-codebases-and-structured-document-trees-without-embeddings-before-building-heavier-retrieval-stacks-with-treesearch/) | 189 | — |

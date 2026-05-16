@@ -10,7 +10,7 @@
       "description": "Teach coding agents to split large changes into native GitHub stacked pull requests, keep branch layers rebased, and submit focused reviewable PR chains with…",
       "category": "Templates & Workflows",
       "framework": "Multi-Framework",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "run-supervised-agentic-terminal-sessions-with-warp",
@@ -18,7 +18,7 @@
       "description": "Use Warp as a supervised terminal workspace for running Warp Agent or external CLI agents such as Codex, Claude Code, Gemini CLI, and OpenCode…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "let-agents-control-a-logged-in-chrome-browser-through-playwriter-mcp",

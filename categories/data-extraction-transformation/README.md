@@ -162,7 +162,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [JSON-to-Avro Schema Transformer](../../skills/json-to-avro-schema-transformer/) | 3.3k | — |
 | [Plan and preview warehouse SQL model changes before rollout with SQLMesh](../../skills/plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh/) | 3k | — |
 | [XML XSLT Transform Pipeline](../../skills/xml-xslt-transform-pipeline/) | 3k | — |
-| [Postgres MCP Pro](../../skills/postgres-mcp-pro/) | 2.7k | — |
+| [Postgres MCP Pro](../../skills/postgres-mcp-pro/) | 2.8k | — |
 | [Diff nested JSON, API responses, and config snapshots before approving changes](../../skills/diff-nested-json-api-responses-and-config-snapshots-before-approving-changes/) | 2.5k | — |
 | [Meltano Declarative ELT Data Integration Engine](../../skills/meltano-declarative-elt-data-integration-engine/) | 2.4k | — |
 | [Enrich Paperless-ngx documents with AI-generated titles tags and correspondents using paperless-gpt](../../skills/enrich-paperless-ngx-documents-with-ai-generated-titles-tags-and-correspondents-using-paperless-gpt/) | 2.3k | — |
@@ -199,7 +199,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Query cross-connector business data for agents with Dinobase](../../skills/query-cross-connector-business-data-for-agents-with-dinobase/) | 252 | — |
 | [Weaviate MCP Server](../../skills/weaviate-mcp-server/) | 161 | — |
 | [Turn documents into validated knowledge graphs with Docling Graph](../../skills/turn-documents-into-validated-knowledge-graphs-with-docling-graph/) | 134 | — |
-| [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 84 | — |
+| [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 85 | — |
 | [Turn captured WARC pages into clean text and language-tagged records with warc2text](../../skills/turn-captured-warc-pages-into-clean-text-and-language-tagged-records-with-warc2text/) | 23 | — |
 | [Search large PDFs and read only the relevant pages before answering](../../skills/search-large-pdfs-and-read-only-the-relevant-pages-before-answering/) | 17 | — |
 | [Process, redact, OCR, and sign documents with Nutrient Agent Skill](../../skills/process-redact-ocr-and-sign-documents-with-nutrient-agent-skill/) | 5 | — |

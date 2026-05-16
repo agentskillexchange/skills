@@ -7,7 +7,7 @@
 slug: manage-native-github-stacked-pull-requests-with-gh-stack
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Teach coding agents to split large changes into native GitHub stacked pull requests, keep branch layers rebased, and submit focused reviewable PR chains with…
 url: https://agentskillexchange.com/skills/manage-native-github-stacked-pull-requests-with-gh-stack/
 
@@ -15,7 +15,7 @@ url: https://agentskillexchange.com/skills/manage-native-github-stacked-pull-req
 slug: run-supervised-agentic-terminal-sessions-with-warp
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use Warp as a supervised terminal workspace for running Warp Agent or external CLI agents such as Codex, Claude Code, Gemini CLI, and OpenCode…
 url: https://agentskillexchange.com/skills/run-supervised-agentic-terminal-sessions-with-warp/
 

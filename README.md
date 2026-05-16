@@ -6,7 +6,7 @@
 
 [![Published](https://img.shields.io/badge/published-2%2C468-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
-[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-2%2C463-10b981?style=for-the-badge)](verification/)
+[![Security%20Reviewed](https://img.shields.io/badge/security_reviewed-2%2C465-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
@@ -77,17 +77,17 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | Skill | Tool | ⭐ Stars | Category |
 |-------|------|--------:|----------|
 | [Route Claude Code requests across models and providers with Claude Code Router](skills/route-claude-code-requests-across-models-and-providers-with-claude-code-router/) | route-claude-code-requests-across-models-and-providers-with-claude-code-router | 33.9k | Developer Tools |
-| [Preserve coding-agent context by sandboxing bulky tool output and retrieving only relevant session state with Context Mode](skills/preserve-coding-agent-context-by-sandboxing-bulky-tool-output-and-retrieving-only-relevant-session-state-with-context-mode/) | preserve-coding-agent-context-by-sandboxing-bulky-tool-output-and-retrieving-only-relevant-session-state-with-context-mode | 10k | Developer Tools |
 | [Run long-horizon spec-driven coding agent workflows with GSD 2](skills/run-long-horizon-spec-driven-coding-agent-workflows-with-gsd-2/) | run-long-horizon-spec-driven-coding-agent-workflows-with-gsd-2 | 7.3k | Templates & Workflows |
 | [Build and inspect MCP apps and servers with mcp-use](skills/build-and-inspect-mcp-apps-and-servers-with-mcp-use/) | build-and-inspect-mcp-apps-and-servers-with-mcp-use | 9.9k | Integrations & Connectors |
+| [Preserve coding-agent context by sandboxing bulky tool output and retrieving only relevant session state with Context Mode](skills/preserve-coding-agent-context-by-sandboxing-bulky-tool-output-and-retrieving-only-relevant-session-state-with-context-mode/) | preserve-coding-agent-context-by-sandboxing-bulky-tool-output-and-retrieving-only-relevant-session-state-with-context-mode | 10k | Developer Tools |
 | [Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/) | find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe | 116.8k | Templates & Workflows |
 | [Trace, evaluate, and monitor agentic workflows with Opik](skills/trace-evaluate-and-monitor-agentic-workflows-with-opik/) | trace-evaluate-and-monitor-agentic-workflows-with-opik | 19.1k | Monitoring & Alerts |
 | [Build temporal context graphs for agent memory from evolving facts with Graphiti](skills/build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti/) | build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti | 24.9k | Library & API Reference |
 | [Run long-horizon research and coding agent workflows with DeerFlow](skills/run-long-horizon-research-and-coding-agent-workflows-with-deerflow/) | run-long-horizon-research-and-coding-agent-workflows-with-deerflow | 67.5k | Code Quality & Review |
 | [Run stealth Chromium browser automation with CloakBrowser](skills/run-stealth-chromium-browser-automation-with-cloakbrowser/) | run-stealth-chromium-browser-automation-with-cloakbrowser | 10.2k | Browser Automation |
-| [Let agents control a logged-in Chrome browser through Playwriter MCP](skills/let-agents-control-a-logged-in-chrome-browser-through-playwriter-mcp/) | let-agents-control-a-logged-in-chrome-browser-through-playwriter-mcp | 3.5k | Browser Automation |
 | [Preserve agent session context with Claude Mem](skills/preserve-agent-session-context-with-claude-mem/) | preserve-agent-session-context-with-claude-mem | 74.5k | Library & API Reference |
 | [Optimize prompt and agent pipelines with DSPy programs and evaluators](skills/optimize-prompt-and-agent-pipelines-with-dspy-programs-and-evaluators/) | optimize-prompt-and-agent-pipelines-with-dspy-programs-and-evaluators | 34.3k | Code Quality & Review |
+| [Add runtime guardrails to TypeScript agents with VoltAgent](skills/add-runtime-guardrails-to-typescript-agents-with-voltagent/) | add-runtime-guardrails-to-typescript-agents-with-voltagent | 8.6k | Security & Verification |
 
 ---
 
@@ -171,7 +171,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 | Tier | Count | Meaning |
 |------|------:|---|
 | 📋 **Published** | 2,468 | In the catalog — every skill is backed by a real tool, repo, or package |
-| 🛡️ **Security Reviewed** | 2,463 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
+| 🛡️ **Security Reviewed** | 2,465 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
 

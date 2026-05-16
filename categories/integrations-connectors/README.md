@@ -125,7 +125,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Shopify Admin GraphQL Sync Agent](../../skills/shopify-admin-graphql-sync-agent/) | 959 | 325.5k/wk |
 | [Datadog Integration Connector](../../skills/datadog-integration-connector-agent/) | 791 | 6.6M/wk |
 | [Docker MCP Server for Container Lifecycle Management](../../skills/docker-mcp-server-container-lifecycle-management/) | 695 | — |
-| [Neon Serverless Postgres MCP](../../skills/neon-serverless-postgres-mcp/) | 597 | 15.5k/wk |
+| [Neon Serverless Postgres MCP](../../skills/neon-serverless-postgres-mcp/) | 598 | 15.5k/wk |
 | [Neon MCP Server for Serverless Postgres Management](../../skills/neon-mcp-server-serverless-postgres/) | 567 | 15.5k/wk |
 | [Chroma MCP Server for Embedding Database Operations](../../skills/chroma-mcp-server-embedding-database-operations/) | 527 | — |
 | [Zapier Webhooks by Zapier Router](../../skills/zapier-webhooks-by-zapier-router/) | 484 | — |
