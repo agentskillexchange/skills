@@ -44,7 +44,7 @@ clawhub install <slug>
 
 ## Skill of the Day
 
-**[Strapi Open Source Headless CMS for Custom Content APIs](https://agentskillexchange.com/skills/strapi-open-source-headless-cms-custom-content-apis/)** — Strapi is a JavaScript and TypeScript headless CMS that helps teams model content once and publish it through REST or GraphQL APIs. It fits AI and automation workflows…
+**[Run repeatable Google Ads and SEO audits inside Claude Code with Toprank](https://agentskillexchange.com/skills/run-repeatable-google-ads-and-seo-audits-inside-claude-code-with-toprank/)** — Use Toprank when an agent needs a repeatable Claude Code workflow for Google Ads and SEO audits, with concrete slash commands, account-backed analysis, and optional repo edits instead…
 
 _Rotates daily by UTC date from the Security Reviewed pool._
 
@@ -85,8 +85,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Build temporal context graphs for agent memory from evolving facts with Graphiti](skills/build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti/) | build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti | 24.9k | Library & API Reference |
 | [Run long-horizon research and coding agent workflows with DeerFlow](skills/run-long-horizon-research-and-coding-agent-workflows-with-deerflow/) | run-long-horizon-research-and-coding-agent-workflows-with-deerflow | 67.5k | Code Quality & Review |
 | [Run stealth Chromium browser automation with CloakBrowser](skills/run-stealth-chromium-browser-automation-with-cloakbrowser/) | run-stealth-chromium-browser-automation-with-cloakbrowser | 10.2k | Browser Automation |
-| [Preserve agent session context with Claude Mem](skills/preserve-agent-session-context-with-claude-mem/) | preserve-agent-session-context-with-claude-mem | 74.5k | Library & API Reference |
 | [Let agents control a logged-in Chrome browser through Playwriter MCP](skills/let-agents-control-a-logged-in-chrome-browser-through-playwriter-mcp/) | let-agents-control-a-logged-in-chrome-browser-through-playwriter-mcp | 3.5k | Browser Automation |
+| [Preserve agent session context with Claude Mem](skills/preserve-agent-session-context-with-claude-mem/) | preserve-agent-session-context-with-claude-mem | 74.5k | Library & API Reference |
 | [Optimize prompt and agent pipelines with DSPy programs and evaluators](skills/optimize-prompt-and-agent-pipelines-with-dspy-programs-and-evaluators/) | optimize-prompt-and-agent-pipelines-with-dspy-programs-and-evaluators | 34.3k | Code Quality & Review |
 
 ---

@@ -91,8 +91,8 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Postman Collection Runner](../../skills/postman-collection-runner/) | 7.2k | 786.9k/wk |
 | [Doxygen Cross-Reference Indexer](../../skills/doxygen-cross-reference-indexer/) | 6.4k | — |
 | [OpenAPI Spec Validator &#038; Mock Server](../../skills/openapi-spec-validator-mock-server-2/) | 4.9k | — |
-| [gRPC Service Tool](../../skills/grpc-service-tool/) | 4.8k | 147.4M/wk |
 | [Protobuf &#038; gRPC Stub Generator](../../skills/protobuf-grpc-stub-generator/) | 4.8k | — |
+| [gRPC Service Tool](../../skills/grpc-service-tool/) | 4.8k | 147.4M/wk |
 | [Stripe API Reference Navigator](../../skills/stripe-api-reference-navigator/) | 4.4k | 9.3M/wk |
 | [Run contract tests from API descriptions against live endpoints before integrations break with Dredd](../../skills/run-contract-tests-from-api-descriptions-against-live-endpoints-before-integrations-break-with-dredd/) | 4.2k | 53.9k/wk |
 | [AWS SDK Method Resolver](../../skills/aws-sdk-method-resolver/) | 3.6k | — |

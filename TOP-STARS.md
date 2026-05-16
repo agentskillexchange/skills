@@ -20,7 +20,7 @@ Skills backed by the most-starred GitHub repositories, deduplicated by upstream 
 | 12 | [Immich Self-Hosted Photo and Video Management Platform](skills/immich-photo-video-management-platform/) | 96.2k | immich | Media & Transcription |
 | 13 | [Puppeteer Browser Automation Library for Chrome and Firefox](skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | 94k | puppeteer | Browser Automation |
 | 14 | [MarkItDown Document-to-Markdown Converter by Microsoft](skills/markitdown-document-to-markdown-converter-microsoft/) | 93.2k | markitdown | Data Extraction & Transformation |
-| 15 | [Storybook Component Tester](skills/storybook-component-tester/) | 89.7k | storybook | Code Quality & Review |
+| 15 | [Storybook Component Tester](skills/storybook-component-tester/) | 89.9k | storybook | Code Quality & Review |
 | 16 | [Hugo Fast Static Site Generator and CMS Framework](skills/hugo-static-site-generator-cms-framework/) | 87.4k | hugo | WordPress & CMS |
 | 17 | [Playwright Accessibility Audit Runner](skills/playwright-accessibility-audit-runner/) | 86.4k | playwright | Browser Automation |
 | 18 | [PostgreSQL MCP Server](skills/postgresql-mcp-server/) | 85.7k | servers | Data Extraction & Transformation |

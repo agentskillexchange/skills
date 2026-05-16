@@ -15686,7 +15686,9 @@
       "framework": "Claude Code",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 24984
+        "github_stars": 25190,
+        "npm_weekly_downloads": 2172304,
+        "license": "Apache-2.0"
       }
     },
     {
@@ -16615,7 +16617,7 @@
       "framework": "Cursor",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 4822,
+        "github_stars": 4828,
         "license": "Apache-2.0"
       }
     },
@@ -26381,7 +26383,9 @@
       "framework": "Custom Agents",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 89703
+        "github_stars": 89914,
+        "npm_weekly_downloads": 13731853,
+        "license": "MIT"
       }
     },
     {
@@ -26405,7 +26409,9 @@
       "framework": "Custom Agents",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 45332
+        "github_stars": 45359,
+        "npm_weekly_downloads": 44758857,
+        "license": "MIT"
       }
     },
     {

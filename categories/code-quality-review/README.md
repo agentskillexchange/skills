@@ -6,7 +6,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 
 | Skill | Stars |
 |---|---:|
-| [Storybook Component Tester](../../skills/storybook-component-tester/) | ⭐ 89.7k |
+| [Storybook Component Tester](../../skills/storybook-component-tester/) | ⭐ 89.9k |
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | ⭐ 86.4k |
 | [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer/) | ⭐ 71.5k |
 | [Run long-horizon research and coding agent workflows with DeerFlow](../../skills/run-long-horizon-research-and-coding-agent-workflows-with-deerflow/) | ⭐ 67.5k |
@@ -23,16 +23,16 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 
 | Skill | Downloads |
 |---|---:|
+| [Storybook Component Tester](../../skills/storybook-component-tester/) | ⬇ 13.7M/wk |
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | ⬇ 46.8M/wk |
 | [Prettier Config Harmonizer](../../skills/prettier-config-harmonizer-2/) | ⬇ 91.2M/wk |
 | [Prettier Config Conflict Resolver](../../skills/prettier-config-conflict-resolver/) | ⬇ 90.5M/wk |
 | [Prettier Format Enforcement Bot](../../skills/prettier-format-enforcement-bot/) | ⬇ 90.5M/wk |
+| [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | ⬇ 44.8M/wk |
 | [Turn a code repository into an MCP-backed knowledge graph for agent code exploration with GitNexus](../../skills/turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus/) | ⬇ 138.2k/wk |
 | [ESLint Auto-Fix Agent](../../skills/eslint-auto-fix-agent/) | ⬇ 120.2M/wk |
 | [ESLint Auto-Fix Orchestrator](../../skills/eslint-autofix-orchestrator/) | ⬇ 120.2M/wk |
 | [ESLint Auto-Fix Pipeline](../../skills/eslint-autofix-pipeline/) | ⬇ 120.2M/wk |
-| [ESLint Auto-Fixer](../../skills/eslint-auto-fixer/) | ⬇ 120.2M/wk |
-| [ESLint Config Enforcer](../../skills/eslint-config-enforcer/) | ⬇ 120.2M/wk |
 
 ---
 
@@ -40,7 +40,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [Storybook Component Tester](../../skills/storybook-component-tester/) | 89.7k | — |
+| [Storybook Component Tester](../../skills/storybook-component-tester/) | 89.9k | 13.7M/wk |
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | 86.4k | 46.8M/wk |
 | [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer/) | 71.5k | — |
 | [Run long-horizon research and coding agent workflows with DeerFlow](../../skills/run-long-horizon-research-and-coding-agent-workflows-with-deerflow/) | 67.5k | — |
@@ -50,7 +50,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Ruff Python Linter Configurator](../../skills/ruff-python-linter-configurator/) | 47.2k | — |
 | [Ruff Linter and Formatter](../../skills/ruff-linter-formatter-agent/) | 47.2k | — |
 | [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | 47.2k | — |
-| [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | 45.3k | — |
+| [Jest Unit Test Scaffolder](../../skills/jest-unit-test-scaffolder/) | 45.4k | 44.8M/wk |
 | [ShellCheck Shell Script Static Analyzer](../../skills/shellcheck-shell-script-static-analyzer/) | 39.2k | — |
 | [Optimize prompt and agent pipelines with DSPy programs and evaluators](../../skills/optimize-prompt-and-agent-pipelines-with-dspy-programs-and-evaluators/) | 34.3k | — |
 | [Turn a code repository into an MCP-backed knowledge graph for agent code exploration with GitNexus](../../skills/turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus/) | 28.5k | 138.2k/wk |

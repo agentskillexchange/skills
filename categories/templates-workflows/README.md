@@ -29,10 +29,10 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Swagger Codegen Orchestrator](../../skills/swagger-codegen-orchestrator/) | ⬇ 149.2k/wk |
 | [Nx Workspace Generator Toolkit](../../skills/nx-workspace-generator-toolkit/) | ⬇ 29.5M/wk |
 | [Turn a PRD into a dependency-aware task graph and keep AI implementation work scoped with Task Master AI](../../skills/turn-a-prd-into-a-dependency-aware-task-graph-and-keep-ai-implementation-work-scoped-with-task-master-ai/) | ⬇ 113.6k/wk |
+| [Pulumi Infrastructure Stack Templater](../../skills/pulumi-infrastructure-stack-templater/) | ⬇ 2.2M/wk |
 | [Mustache Template Renderer](../../skills/mustache-template-renderer-agent/) | ⬇ 12.7M/wk |
 | [Vercel Deployment Agent](../../skills/vercel-deployment-agent/) | ⬇ 2.4M/wk |
 | [AWS CDK Scaffolder](../../skills/aws-cdk-scaffolder/) | ⬇ 3.3M/wk |
-| [Compose router, evaluator, and handoff workflows over MCP servers with mcp-agent](../../skills/compose-router-evaluator-and-handoff-workflows-over-mcp-servers-with-mcp-agent/) | ⬇ 29.2k/wk |
 
 ---
 
@@ -83,7 +83,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Kestra Event-Driven Orchestration and Scheduling Platform](../../skills/kestra-event-driven-orchestration-scheduling-platform/) | 26.7k | — |
 | [Turn a PRD into a dependency-aware task graph and keep AI implementation work scoped with Task Master AI](../../skills/turn-a-prd-into-a-dependency-aware-task-graph-and-keep-ai-implementation-work-scoped-with-task-master-ai/) | 26.6k | 113.6k/wk |
 | [GrapesJS Open Source Web Builder and Template Design Framework](../../skills/grapesjs-web-builder-template-framework/) | 25.7k | — |
-| [Pulumi Infrastructure Stack Templater](../../skills/pulumi-infrastructure-stack-templater/) | 25k | — |
+| [Pulumi Infrastructure Stack Templater](../../skills/pulumi-infrastructure-stack-templater/) | 25.2k | 2.2M/wk |
 | [Cookiecutter Project Bootstrap](../../skills/cookiecutter-project-bootstrap/) | 24.8k | — |
 | [Cookiecutter Project Bootstrapper](../../skills/cookiecutter-project-bootstrapper/) | 24.8k | — |
 | [Cookiecutter Project Builder](../../skills/cookiecutter-project-builder/) | 24.8k | — |

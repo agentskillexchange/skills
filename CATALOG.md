@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2468 published skills** across **17 categories** · 2463 security reviewed · Updated 2026-05-16 01:26 UTC
+> **2468 published skills** across **17 categories** · 2463 security reviewed · Updated 2026-05-16 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -770,7 +770,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 
 | Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
 |---|---|---|---:|---:|
-| [Storybook Component Tester](skills/storybook-component-tester/) | Storybook Component Tester is built around Storybook component workshop. The underlying ecosystem is represented by… | Security Reviewed | 89.7k | — |
+| [Storybook Component Tester](skills/storybook-component-tester/) | Storybook Component Tester is built around Storybook component workshop. The underlying ecosystem is represented by… | Security Reviewed | 89.9k | 13.7M/wk |
 | [Playwright Test Recorder](skills/playwright-test-recorder/) | Playwright Test Recorder is built around Playwright browser automation framework. The underlying ecosystem is… | Security Reviewed | 86.4k | 46.8M/wk |
 | [Docker Build Cache Optimizer](skills/docker-build-cache-optimizer/) | Optimizes Docker build performance using BuildKit cache mount analysis, docker history layer inspection, and… | Security Reviewed | 71.5k | — |
 | [Run long-horizon research and coding agent workflows with DeerFlow](skills/run-long-horizon-research-and-coding-agent-workflows-with-deerflow/) | Use DeerFlow to orchestrate subagents, memory, sandboxes, tools, and skills for supervised research, coding, and… | Security Reviewed | 67.5k | — |
@@ -780,7 +780,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Ruff Python Linter Configurator](skills/ruff-python-linter-configurator/) | Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules… | Security Reviewed | 47.2k | — |
 | [Ruff Linter and Formatter](skills/ruff-linter-formatter-agent/) | Ultra-fast Python linting and formatting using Ruff CLI with pyproject.toml configuration. Supports auto-fix, import… | Security Reviewed | 47.2k | — |
 | [Ruff Linter Configuration Architect](skills/ruff-linter-configuration-architect/) | Configures and optimizes Ruff Python linter settings using the ruff CLI and pyproject.toml schema. Migrates from… | Security Reviewed | 47.2k | — |
-| [Jest Unit Test Scaffolder](skills/jest-unit-test-scaffolder/) | Jest Unit Test Scaffolder is built around Jest JavaScript test framework. The underlying ecosystem is represented by… | Security Reviewed | 45.3k | — |
+| [Jest Unit Test Scaffolder](skills/jest-unit-test-scaffolder/) | Jest Unit Test Scaffolder is built around Jest JavaScript test framework. The underlying ecosystem is represented by… | Security Reviewed | 45.4k | 44.8M/wk |
 | [ShellCheck Shell Script Static Analyzer](skills/shellcheck-shell-script-static-analyzer/) | Run static analysis on bash and shell scripts using ShellCheck to detect syntax errors, semantic pitfalls, and… | Security Reviewed | 39.2k | — |
 | [Optimize prompt and agent pipelines with DSPy programs and evaluators](skills/optimize-prompt-and-agent-pipelines-with-dspy-programs-and-evaluators/) | Use DSPy to define modular LLM programs, metrics, and evaluation sets so an agent can optimize prompts and pipeline… | Security Reviewed | 34.3k | — |
 | [Turn a code repository into an MCP-backed knowledge graph for agent code exploration with GitNexus](skills/turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus/) | Index a repository into a code knowledge graph, expose it through MCP, and give agents architecture-aware context… | Security Reviewed | 28.5k | 138.2k/wk |
@@ -1358,7 +1358,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Kestra Event-Driven Orchestration and Scheduling Platform](skills/kestra-event-driven-orchestration-scheduling-platform/) | Kestra is an open-source, event-driven orchestration platform that makes both scheduled and event-driven workflows… | Security Reviewed | 26.7k | — |
 | [Turn a PRD into a dependency-aware task graph and keep AI implementation work scoped with Task Master AI](skills/turn-a-prd-into-a-dependency-aware-task-graph-and-keep-ai-implementation-work-scoped-with-task-master-ai/) | Use Task Master AI when an agent needs to turn a product request or PRD into a dependency-aware task graph, expand… | Security Reviewed | 26.6k | 113.6k/wk |
 | [GrapesJS Open Source Web Builder and Template Design Framework](skills/grapesjs-web-builder-template-framework/) | GrapesJS is a free, open-source web builder framework for creating HTML templates without coding. With 25K+ GitHub… | Security Reviewed | 25.7k | — |
-| [Pulumi Infrastructure Stack Templater](skills/pulumi-infrastructure-stack-templater/) | Generates Pulumi infrastructure-as-code stacks in TypeScript and Python using @pulumi/aws, @pulumi/azure-native, and… | Security Reviewed | 25k | — |
+| [Pulumi Infrastructure Stack Templater](skills/pulumi-infrastructure-stack-templater/) | Generates Pulumi infrastructure-as-code stacks in TypeScript and Python using @pulumi/aws, @pulumi/azure-native, and… | Security Reviewed | 25.2k | 2.2M/wk |
 | [Cookiecutter Project Bootstrap](skills/cookiecutter-project-bootstrap/) | Bootstraps new projects from Cookiecutter templates with variable substitution and post-generation hooks. Supports… | Security Reviewed | 24.8k | — |
 | [Cookiecutter Project Bootstrapper](skills/cookiecutter-project-bootstrapper/) | Bootstraps project repositories from Cookiecutter templates with Jinja2 variable substitution and post-generation… | Security Reviewed | 24.8k | — |
 | [Cookiecutter Project Builder](skills/cookiecutter-project-builder/) | Creates project scaffolds from Cookiecutter templates with interactive variable resolution. Integrates with cruft… | Security Reviewed | 24.8k | — |
@@ -1797,8 +1797,8 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Postman Collection Runner](skills/postman-collection-runner/) | Postman Collection Runner is built around Postman API testing platform. The underlying ecosystem is represented by… | Security Reviewed | 7.2k | 786.9k/wk |
 | [Doxygen Cross-Reference Indexer](skills/doxygen-cross-reference-indexer/) | Builds searchable cross-reference indexes from Doxygen XML output using doxyparse and doxygen-awesome-css themes.… | Security Reviewed | 6.4k | — |
 | [OpenAPI Spec Validator & Mock Server](skills/openapi-spec-validator-mock-server-2/) | Validates OpenAPI 3.x specifications using the swagger-parser library and generates Prism mock servers. Detects… | Security Reviewed | 4.9k | — |
-| [gRPC Service Tool](skills/grpc-service-tool/) | gRPC Service Tool is built around gRPC remote procedure call framework. The underlying ecosystem is represented by… | Security Reviewed | 4.8k | 147.4M/wk |
 | [Protobuf & gRPC Stub Generator](skills/protobuf-grpc-stub-generator/) | Compiles Protocol Buffer definitions into language-specific gRPC client and server stubs using buf CLI and protoc… | Security Reviewed | 4.8k | — |
+| [gRPC Service Tool](skills/grpc-service-tool/) | gRPC Service Tool is built around gRPC remote procedure call framework. The underlying ecosystem is represented by… | Security Reviewed | 4.8k | 147.4M/wk |
 | [Stripe API Reference Navigator](skills/stripe-api-reference-navigator/) | Navigates and queries the Stripe REST API documentation using stripe-node SDK methods. Resolves payment intent… | Security Reviewed | 4.4k | 9.3M/wk |
 | [Run contract tests from API descriptions against live endpoints before integrations break with Dredd](skills/run-contract-tests-from-api-descriptions-against-live-endpoints-before-integrations-break-with-dredd/) | Lets an agent execute OpenAPI or API Blueprint contract checks against a running service so spec drift is caught… | Security Reviewed | 4.2k | 53.9k/wk |
 | [AWS SDK Method Resolver](skills/aws-sdk-method-resolver/) | Resolves AWS SDK v3 client commands and service endpoint signatures using @aws-sdk/client-* packages. Maps IAM… | Security Reviewed | 3.6k | — |
