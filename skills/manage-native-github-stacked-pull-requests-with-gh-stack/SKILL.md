@@ -3,7 +3,7 @@ title: "Manage native GitHub stacked pull requests with gh-stack"
 slug: "manage-native-github-stacked-pull-requests-with-gh-stack"
 description: "Teach coding agents to split large changes into native GitHub stacked pull requests, keep branch layers rebased, and submit focused reviewable PR chains with the gh stack CLI."
 github_stars: 401
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/github/gh-stack"
 author: "GitHub"
 publisher_type: "first_party_open_source"
