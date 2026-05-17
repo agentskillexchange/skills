@@ -1,5 +1,5 @@
 ---
-title: "Apache Spark Job Manager"
+name: "Apache Spark Job Manager"
 slug: "apache-spark-job-manager"
 description: ""
 github_stars: 43119

@@ -1,5 +1,5 @@
 ---
-title: "dbt Data Transformation Orchestrator"
+name: "dbt Data Transformation Orchestrator"
 slug: "dbt-data-transformation-orchestrator"
 description: "Manages dbt Core and dbt Cloud API workflows for SQL-based data transformations. Handles model lineage, incremental builds, and data quality tests with Great Expectations integration."
 github_stars: 12621

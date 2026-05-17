@@ -1,5 +1,5 @@
 ---
-title: "HashiCorp Vault Secret Rotation Agent"
+name: "HashiCorp Vault Secret Rotation Agent"
 slug: "hashicorp-vault-secret-rotation-agent-2"
 description: "Connects to HashiCorp Vault HTTP API for automated secret rotation workflows. Manages dynamic database credentials via Vault database secrets engine, handles PKI certificate renewal, and implements lease lifecycle management with TTL monitoring."
 github_stars: 35418

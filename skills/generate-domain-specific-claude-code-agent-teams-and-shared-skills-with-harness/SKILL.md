@@ -1,5 +1,5 @@
 ---
-title: "Generate domain-specific Claude Code agent teams and shared skills with Harness"
+name: "Generate domain-specific Claude Code agent teams and shared skills with Harness"
 slug: "generate-domain-specific-claude-code-agent-teams-and-shared-skills-with-harness"
 description: "Turn a project description into a Claude Code team architecture with generated agents, shared skills, and orchestration patterns instead of hand-designing the whole setup."
 github_stars: 2807

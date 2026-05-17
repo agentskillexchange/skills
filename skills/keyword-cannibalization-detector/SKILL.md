@@ -1,5 +1,5 @@
 ---
-title: "Keyword Cannibalization Detector"
+name: "Keyword Cannibalization Detector"
 slug: "keyword-cannibalization-detector"
 description: "Detects keyword cannibalization issues using Google Search Console API performance data and Semrush keyword tracking. Maps URL-to-keyword overlaps and suggests content consolidation strategies."
 verification: "security_reviewed"

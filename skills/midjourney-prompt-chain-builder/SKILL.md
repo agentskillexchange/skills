@@ -1,5 +1,5 @@
 ---
-title: "Midjourney Prompt Chain Builder"
+name: "Midjourney Prompt Chain Builder"
 slug: "midjourney-prompt-chain-builder"
 description: "Constructs and manages Midjourney prompt chains for iterative image refinement. Automates parameter tuning for --ar, --v, --style, and --chaos flags across generation sequences."
 verification: "security_reviewed"

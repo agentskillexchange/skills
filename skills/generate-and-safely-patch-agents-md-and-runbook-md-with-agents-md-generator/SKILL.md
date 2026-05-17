@@ -1,5 +1,5 @@
 ---
-title: "Generate and safely patch AGENTS.md and RUNBOOK.md with AGENTS.md Generator"
+name: "Generate and safely patch AGENTS.md and RUNBOOK.md with AGENTS.md Generator"
 slug: "generate-and-safely-patch-agents-md-and-runbook-md-with-agents-md-generator"
 description: "Bootstrap and safely update AGENTS.md and RUNBOOK.md without clobbering hand-edited docs, so coding-agent repos keep a clean machine-readable contract."
 github_stars: 2

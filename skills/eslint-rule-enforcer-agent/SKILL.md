@@ -1,5 +1,5 @@
 ---
-title: "ESLint Rule Enforcer Agent"
+name: "ESLint Rule Enforcer Agent"
 slug: "eslint-rule-enforcer-agent"
 description: "Runs ESLint with custom rulesets via the ESLint Node.js API and eslint-plugin-import to enforce project-specific code standards. Parses AST violations, groups by severity, and generates fix-ready patches using eslint --fix output diffs."
 github_stars: 27188

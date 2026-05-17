@@ -1,5 +1,5 @@
 ---
-title: "Netlify Site Manager"
+name: "Netlify Site Manager"
 slug: "netlify-site-manager"
 description: ""
 github_stars: 1843

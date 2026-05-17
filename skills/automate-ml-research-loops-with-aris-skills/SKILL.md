@@ -1,5 +1,5 @@
 ---
-title: "Automate ML research loops with ARIS skills"
+name: "Automate ML research loops with ARIS skills"
 slug: "automate-ml-research-loops-with-aris-skills"
 description: "Use ARIS to run Markdown-based agent skills for literature review, idea discovery, cross-model critique, experiment planning, and paper-writing support."
 github_stars: 9609

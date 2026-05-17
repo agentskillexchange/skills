@@ -1,5 +1,5 @@
 ---
-title: "Cookiecutter Project Scaffolding Agent"
+name: "Cookiecutter Project Scaffolding Agent"
 slug: "cookiecutter-project-scaffolding-agent"
 description: "Generates project boilerplate from Cookiecutter templates with interactive variable prompts. Supports custom Jinja2 hooks, post-generation scripts, and template composition from multiple cookiecutter.json sources for complex monorepo scaffolding."
 github_stars: 24818

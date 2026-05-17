@@ -1,5 +1,5 @@
 ---
-title: "Triage production log spikes and incidents from the terminal with lnav"
+name: "Triage production log spikes and incidents from the terminal with lnav"
 slug: "triage-production-log-spikes-and-incidents-from-the-terminal-with-lnav"
 description: "Open raw logs, jump to error clusters, query structured fields, and summarize incident clues without shipping data to a separate platform."
 github_stars: 10159

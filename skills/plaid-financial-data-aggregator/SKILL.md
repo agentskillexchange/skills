@@ -1,5 +1,5 @@
 ---
-title: "Plaid Financial Data Aggregator & Budget Classifier"
+name: "Plaid Financial Data Aggregator & Budget Classifier"
 slug: "plaid-financial-data-aggregator"
 description: "Integrates with the Plaid Transactions API using the plaid Python SDK to pull 90 days of transaction history across linked bank accounts. Transactions are classified into budget categories using a fine-tuned classifier via the OpenAI Chat Completions API and stored in PostgreSQL using SQLAlchemy."
 verification: "security_reviewed"

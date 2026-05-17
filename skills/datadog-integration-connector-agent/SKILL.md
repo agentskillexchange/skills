@@ -1,5 +1,5 @@
 ---
-title: "Datadog Integration Connector"
+name: "Datadog Integration Connector"
 slug: "datadog-integration-connector-agent"
 description: "Connects applications to Datadog monitoring using the Datadog API v2 for metrics submission, log forwarding, APM trace ingestion, and dashboard JSON template management."
 github_stars: 791

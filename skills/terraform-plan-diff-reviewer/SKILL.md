@@ -1,5 +1,5 @@
 ---
-title: "Terraform Plan Diff Reviewer"
+name: "Terraform Plan Diff Reviewer"
 slug: "terraform-plan-diff-reviewer"
 description: "Parses terraform plan JSON output to identify destructive changes, security group modifications, and IAM policy drift. Uses the Terraform Cloud API for workspace state comparison."
 github_stars: 48146

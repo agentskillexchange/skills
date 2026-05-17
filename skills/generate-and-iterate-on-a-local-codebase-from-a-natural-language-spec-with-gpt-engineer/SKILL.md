@@ -1,5 +1,5 @@
 ---
-title: "Generate and iterate on a local codebase from a natural-language spec with gpt-engineer"
+name: "Generate and iterate on a local codebase from a natural-language spec with gpt-engineer"
 slug: "generate-and-iterate-on-a-local-codebase-from-a-natural-language-spec-with-gpt-engineer"
 description: "Use gpt-engineer when an agent/operator needs to turn a prompt file into a local project scaffold, inspect the generated code, and run a supervised improvement loop before adopting the result."
 github_stars: 55220

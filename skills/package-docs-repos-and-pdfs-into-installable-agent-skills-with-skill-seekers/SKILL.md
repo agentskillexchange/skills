@@ -1,5 +1,5 @@
 ---
-title: "Package docs, repos, and PDFs into installable agent skills with Skill Seekers"
+name: "Package docs, repos, and PDFs into installable agent skills with Skill Seekers"
 slug: "package-docs-repos-and-pdfs-into-installable-agent-skills-with-skill-seekers"
 description: "Turn documentation sites, GitHub repos, and PDFs into installable agent skill packages when hand-authoring a reusable skill would be slow or inconsistent."
 github_stars: 12876

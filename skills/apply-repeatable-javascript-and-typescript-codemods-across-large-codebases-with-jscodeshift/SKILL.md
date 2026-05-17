@@ -1,5 +1,5 @@
 ---
-title: "Apply repeatable JavaScript and TypeScript codemods across large codebases with jscodeshift"
+name: "Apply repeatable JavaScript and TypeScript codemods across large codebases with jscodeshift"
 slug: "apply-repeatable-javascript-and-typescript-codemods-across-large-codebases-with-jscodeshift"
 description: "Use jscodeshift when an agent needs AST-based JavaScript or TypeScript codemods for bulk migrations, API rewrites, and large refactors with reviewable diffs."
 github_stars: 9983

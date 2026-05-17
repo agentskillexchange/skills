@@ -1,5 +1,5 @@
 ---
-title: "CircleCI MCP Server"
+name: "CircleCI MCP Server"
 slug: "circleci-mcp-server"
 description: ""
 github_stars: 843

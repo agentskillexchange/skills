@@ -1,5 +1,5 @@
 ---
-title: "Lint GitHub Actions workflows before CI runs with actionlint"
+name: "Lint GitHub Actions workflows before CI runs with actionlint"
 slug: "lint-github-actions-workflows-before-ci-runs-with-actionlint"
 description: "Validate workflow syntax, expressions, and shell steps before broken GitHub Actions changes reach CI."
 github_stars: 3787

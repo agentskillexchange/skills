@@ -1,5 +1,5 @@
 ---
-title: "Semgrep Rule Runner"
+name: "Semgrep Rule Runner"
 slug: "semgrep-rule-runner"
 description: "Executes Semgrep static analysis using the semgrep CLI with custom YAML rule packs. Supports --config auto for community rules, parses JSON output via --json flag, and integrates with Semgrep App API for centralized findings management and triage workflows."
 github_stars: 14794

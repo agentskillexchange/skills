@@ -1,5 +1,5 @@
 ---
-title: "Render HTML-native agent videos with slash-command workflows using HyperFrames"
+name: "Render HTML-native agent videos with slash-command workflows using HyperFrames"
 slug: "render-html-native-agent-videos-with-slash-command-workflows-using-hyperframes"
 description: "Use agent-facing HyperFrames skills to turn prompts, PDFs, CSVs, or repo context into editable HTML video compositions and rendered MP4 outputs."
 github_stars: 9510

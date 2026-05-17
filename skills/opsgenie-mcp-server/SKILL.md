@@ -1,5 +1,5 @@
 ---
-title: "OpsGenie MCP Server"
+name: "OpsGenie MCP Server"
 slug: "opsgenie-mcp-server"
 description: ""
 github_stars: 24

@@ -1,5 +1,5 @@
 ---
-title: "Dockerfile Security Hardening Advisor"
+name: "Dockerfile Security Hardening Advisor"
 slug: "dockerfile-security-hardening-advisor"
 description: "Audits Dockerfiles for security vulnerabilities using Hadolint and Trivy container scanner. Recommends hardening steps based on CIS Docker Benchmark and Snyk container advisories."
 github_stars: 12100

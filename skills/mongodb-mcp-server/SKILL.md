@@ -1,5 +1,5 @@
 ---
-title: "MongoDB MCP Server"
+name: "MongoDB MCP Server"
 slug: "mongodb-mcp-server"
 description: ""
 github_stars: 10181

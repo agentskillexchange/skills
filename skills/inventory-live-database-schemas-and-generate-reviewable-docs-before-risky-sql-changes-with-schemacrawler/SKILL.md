@@ -1,5 +1,5 @@
 ---
-title: "Inventory live database schemas and generate reviewable docs before risky SQL changes with SchemaCrawler"
+name: "Inventory live database schemas and generate reviewable docs before risky SQL changes with SchemaCrawler"
 slug: "inventory-live-database-schemas-and-generate-reviewable-docs-before-risky-sql-changes-with-schemacrawler"
 description: "Lets an agent crawl a live database and produce schema inventories, dependency views, and reviewable documentation before migrations or handoffs."
 github_stars: 1801

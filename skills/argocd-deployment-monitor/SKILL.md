@@ -1,5 +1,5 @@
 ---
-title: "ArgoCD Deployment Monitor"
+name: "ArgoCD Deployment Monitor"
 slug: "argocd-deployment-monitor"
 description: "Monitors ArgoCD application deployments using the ArgoCD REST API and gRPC interface. Tracks sync status, health checks, and rollback history across Kubernetes namespaces."
 github_stars: 22593

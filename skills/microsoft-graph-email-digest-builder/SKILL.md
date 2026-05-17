@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Graph Email Digest Builder"
+name: "Microsoft Graph Email Digest Builder"
 slug: "microsoft-graph-email-digest-builder"
 description: "Generates daily email digests from Microsoft 365 mailboxes using the Microsoft Graph API /me/messages endpoint. Groups emails by sender, thread, and priority using the inferenceClassification properties."
 verification: "security_reviewed"

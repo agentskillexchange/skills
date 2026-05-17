@@ -1,5 +1,5 @@
 ---
-title: "SonarQube Quality Gate Monitor"
+name: "SonarQube Quality Gate Monitor"
 slug: "sonarqube-quality-gate-monitor-3"
 description: "Monitors SonarQube project quality gates via the Web API and blocks CI deployments when thresholds fail. Tracks technical debt trends across releases."
 github_stars: 10433

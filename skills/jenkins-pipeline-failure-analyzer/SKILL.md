@@ -1,5 +1,5 @@
 ---
-title: "Jenkins Pipeline Failure Analyzer"
+name: "Jenkins Pipeline Failure Analyzer"
 slug: "jenkins-pipeline-failure-analyzer"
 description: "Queries the Jenkins REST API /job/{name}/lastFailedBuild/api/json and /consoleText to diagnose pipeline failures. Parses Blue Ocean API /blue/rest/organizations for stage-level timing and error classification."
 github_stars: 25189

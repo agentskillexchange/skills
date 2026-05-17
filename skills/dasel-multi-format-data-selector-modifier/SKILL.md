@@ -1,5 +1,5 @@
 ---
-title: "Dasel Multi-Format Data Selector and Modifier"
+name: "Dasel Multi-Format Data Selector and Modifier"
 slug: "dasel-multi-format-data-selector-modifier"
 description: "Dasel (Data-Select) is a command-line tool and Go library for querying, modifying, and transforming structured data across JSON, YAML, TOML, XML, CSV, HCL, and INI formats using a unified selector syntax. It supports format conversion between all supported types."
 github_stars: 7892

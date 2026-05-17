@@ -1,5 +1,5 @@
 ---
-title: "Playwright Test Recorder"
+name: "Playwright Test Recorder"
 slug: "playwright-test-recorder"
 description: ""
 github_stars: 86378

@@ -1,5 +1,5 @@
 ---
-title: "SEO Content Cluster Generator"
+name: "SEO Content Cluster Generator"
 slug: "seo-content-cluster-generator"
 description: "Builds topical authority clusters using SEMrush Keyword Magic API, Ahrefs Content Explorer, and Google Search Console API. Generates pillar pages with internal linking maps and schema.org Article markup."
 verification: "security_reviewed"

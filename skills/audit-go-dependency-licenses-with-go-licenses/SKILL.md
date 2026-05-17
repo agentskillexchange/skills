@@ -1,5 +1,5 @@
 ---
-title: "Audit Go dependency licenses with go-licenses"
+name: "Audit Go dependency licenses with go-licenses"
 slug: "audit-go-dependency-licenses-with-go-licenses"
 description: "Produce a license inventory for Go module dependencies before release, procurement review, or open-source due diligence."
 github_stars: 992

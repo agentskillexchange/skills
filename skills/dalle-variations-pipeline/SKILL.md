@@ -1,5 +1,5 @@
 ---
-title: "DALL-E Variations Pipeline"
+name: "DALL-E Variations Pipeline"
 slug: "dalle-variations-pipeline"
 description: "Generates image variations and edits using the OpenAI Images API (DALL-E 3 and gpt-image-1). Manages prompt engineering for consistent style, handles mask-based inpainting, and outputs multiple sizes with quality presets."
 github_stars: 10813

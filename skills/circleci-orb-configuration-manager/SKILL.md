@@ -1,5 +1,5 @@
 ---
-title: "CircleCI Orb Configuration Manager"
+name: "CircleCI Orb Configuration Manager"
 slug: "circleci-orb-configuration-manager"
 description: "Manages CircleCI pipeline configurations using orbs like circleci/node, circleci/docker, and circleci/aws-s3. Handles workflow orchestration, parallelism, and resource class selection via .circleci/config.yml."
 github_stars: 843

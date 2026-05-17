@@ -1,5 +1,5 @@
 ---
-title: "Linkup JS SDK for Sourced Web Search and Fetch"
+name: "Linkup JS SDK for Sourced Web Search and Fetch"
 slug: "linkup-js-sdk-sourced-web-search-fetch"
 description: "Linkup's JS SDK wraps the Linkup API for sourced web search and clean content fetching. It gives agents a maintained client for standard and deep search modes, plus URL fetch operations that can return rendered page content in a cleaner form for downstream reasoning."
 github_stars: 4

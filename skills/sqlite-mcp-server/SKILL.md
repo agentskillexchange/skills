@@ -1,5 +1,5 @@
 ---
-title: "SQLite MCP Server"
+name: "SQLite MCP Server"
 slug: "sqlite-mcp-server"
 description: "Lightweight local database access for agent tasks."
 github_stars: 85783

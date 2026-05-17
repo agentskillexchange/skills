@@ -1,5 +1,5 @@
 ---
-title: "PyPI Package Inspector"
+name: "PyPI Package Inspector"
 slug: "pypi-package-inspector"
 description: "Queries the PyPI JSON API and the libraries.io API to analyze Python package metadata, dependency trees, and version histories. Uses pip-audit for vulnerability scanning against the OSV database."
 verification: "security_reviewed"

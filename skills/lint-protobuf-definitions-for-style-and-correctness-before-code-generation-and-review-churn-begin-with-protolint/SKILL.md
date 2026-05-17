@@ -1,5 +1,5 @@
 ---
-title: "Lint protobuf definitions for style and correctness before code generation and review churn begin with protolint"
+name: "Lint protobuf definitions for style and correctness before code generation and review churn begin with protolint"
 slug: "lint-protobuf-definitions-for-style-and-correctness-before-code-generation-and-review-churn-begin-with-protolint"
 description: "Catch naming, formatting, and protobuf rule violations early so generated clients and reviews are cleaner."
 github_stars: 685

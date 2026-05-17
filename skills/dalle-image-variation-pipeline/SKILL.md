@@ -1,5 +1,5 @@
 ---
-title: "DALL-E Image Variation Pipeline"
+name: "DALL-E Image Variation Pipeline"
 slug: "dalle-image-variation-pipeline"
 description: "Manages OpenAI DALL-E 3 API workflows for brand-consistent image generation with style references, aspect ratio control, and automated prompt refinement using GPT-4 Vision feedback loops."
 github_stars: 10813

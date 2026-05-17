@@ -1,5 +1,5 @@
 ---
-title: "Elastic / Kibana MCP Server"
+name: "Elastic / Kibana MCP Server"
 slug: "elastic-kibana-mcp-server"
 description: ""
 github_stars: 76714

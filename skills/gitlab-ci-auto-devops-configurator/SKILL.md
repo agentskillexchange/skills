@@ -1,5 +1,5 @@
 ---
-title: "GitLab CI Auto DevOps Configurator"
+name: "GitLab CI Auto DevOps Configurator"
 slug: "gitlab-ci-auto-devops-configurator"
 description: "Configures GitLab CI/CD pipelines using .gitlab-ci.yml with Auto DevOps templates, includes, and the GitLab Container Registry. Manages multi-project pipelines and environment-specific deployments."
 github_stars: 24298

@@ -1,5 +1,5 @@
 ---
-title: "Run recipe-driven codebase migrations and framework upgrades with reviewable diffs through OpenRewrite"
+name: "Run recipe-driven codebase migrations and framework upgrades with reviewable diffs through OpenRewrite"
 slug: "run-recipe-driven-codebase-migrations-and-framework-upgrades-with-reviewable-diffs-through-openrewrite"
 description: "Apply reusable refactoring recipes to large codebases so framework upgrades and codemods happen as auditable, reviewable changes."
 github_stars: 3395

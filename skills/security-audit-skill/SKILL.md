@@ -1,5 +1,5 @@
 ---
-title: "Security Audit Skill"
+name: "Security Audit Skill"
 slug: "security-audit-skill"
 description: ""
 github_stars: 15138

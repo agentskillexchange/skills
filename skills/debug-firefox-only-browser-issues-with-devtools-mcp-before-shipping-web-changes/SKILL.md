@@ -1,5 +1,5 @@
 ---
-title: "Debug Firefox-only browser issues with DevTools MCP before shipping web changes"
+name: "Debug Firefox-only browser issues with DevTools MCP before shipping web changes"
 slug: "debug-firefox-only-browser-issues-with-devtools-mcp-before-shipping-web-changes"
 description: "Use Firefox DevTools MCP when an agent needs to inspect pages, trace network and console activity, capture screenshots, and automate reproduction steps in Firefox instead of relying on Chrome-first tooling."
 github_stars: 107

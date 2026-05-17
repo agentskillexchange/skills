@@ -1,5 +1,5 @@
 ---
-title: "Incident Response Checklist Engine"
+name: "Incident Response Checklist Engine"
 slug: "incident-response-checklist-engine"
 description: "Generates and tracks incident response checklists using PagerDuty Incident Workflows API and Statuspage.io API. Automates severity classification, stakeholder notification, and post-incident review scheduling with Jira Service Management integration."
 verification: "security_reviewed"

@@ -1,5 +1,5 @@
 ---
-title: "ESLint Rule Conflict Resolver"
+name: "ESLint Rule Conflict Resolver"
 slug: "eslint-rule-conflict-resolver"
 description: "Detects and resolves conflicting ESLint rules across .eslintrc configurations using the ESLint Node.js API. Analyzes rule interactions between eslint-config-airbnb, eslint-config-prettier, and typescript-eslint plugins."
 github_stars: 27188

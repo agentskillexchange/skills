@@ -1,5 +1,5 @@
 ---
-title: "Provision Rust CLI toolchains from prebuilt binaries in fresh environments before repeated source builds slow agent runs with cargo-binstall"
+name: "Provision Rust CLI toolchains from prebuilt binaries in fresh environments before repeated source builds slow agent runs with cargo-binstall"
 slug: "provision-rust-cli-toolchains-from-prebuilt-binaries-in-fresh-environments-before-repeated-source-builds-slow-agent-runs-with-cargo-binstall"
 description: "Bootstrap Rust-based command-line tools in CI, containers, and ephemeral workspaces by preferring published binaries over repeated source builds."
 github_stars: 2610

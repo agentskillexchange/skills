@@ -1,5 +1,5 @@
 ---
-title: "Build n8n workflows from node docs, templates, and schemas through MCP"
+name: "Build n8n workflows from node docs, templates, and schemas through MCP"
 slug: "build-n8n-workflows-from-node-docs-templates-and-schemas-through-mcp"
 description: "Use n8n-MCP when an agent needs structured access to n8n nodes, properties, operations, and template examples while designing or debugging workflows, instead of guessing from raw docs or clicking through the n8n UI by hand."
 github_stars: 18088

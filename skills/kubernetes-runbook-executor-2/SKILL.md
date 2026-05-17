@@ -1,5 +1,5 @@
 ---
-title: "Kubernetes Runbook Executor"
+name: "Kubernetes Runbook Executor"
 slug: "kubernetes-runbook-executor-2"
 description: "Executes diagnostic runbooks against Kubernetes clusters using the official kubernetes/client-go SDK and kubectl commands. Checks pod health via the /healthz and /readyz endpoints and analyzes events with the CoreV1 Events API."
 github_stars: 121700

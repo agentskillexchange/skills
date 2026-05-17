@@ -1,5 +1,5 @@
 ---
-title: "ArgoCD GitOps Sync Controller"
+name: "ArgoCD GitOps Sync Controller"
 slug: "argocd-gitops-sync-controller"
 description: "Manages ArgoCD Application and ApplicationSet resources for Kubernetes GitOps deployments. Uses the ArgoCD REST API and argocd CLI to automate sync waves, health checks, and progressive rollout configurations."
 github_stars: 22593

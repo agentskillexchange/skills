@@ -1,5 +1,5 @@
 ---
-title: "GraphQL Schema Drift Detector"
+name: "GraphQL Schema Drift Detector"
 slug: "graphql-schema-drift-detector"
 description: "Detects breaking changes in GraphQL schemas using graphql-inspector and the GraphQL introspection query. Compares schema versions, identifies removed fields, changed types, and deprecated directive usage."
 github_stars: 20324

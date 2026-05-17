@@ -1,5 +1,5 @@
 ---
-title: "Pull Request Size Analyzer"
+name: "Pull Request Size Analyzer"
 slug: "pull-request-size-analyzer-agent"
 description: "Analyzes PR size and reviewability using the GitHub GraphQL API and git diff-stat. Enforces size limits, suggests PR splitting strategies, and tracks team review velocity metrics via GitHub Checks API."
 verification: "security_reviewed"

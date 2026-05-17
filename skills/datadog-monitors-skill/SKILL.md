@@ -1,5 +1,5 @@
 ---
-title: "Datadog Monitors Skill"
+name: "Datadog Monitors Skill"
 slug: "datadog-monitors-skill"
 description: "Manages Datadog monitors and dashboards via the Datadog API v2. Lists triggered monitors, mutes/unmutes alert groups, and queries metric timeseries. Supports composite monitors and SLO tracking."
 github_stars: 791

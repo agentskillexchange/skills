@@ -1,5 +1,5 @@
 ---
-title: "Start governed Claude Code sessions with short-lived service credentials using Kontext CLI"
+name: "Start governed Claude Code sessions with short-lived service credentials using Kontext CLI"
 slug: "start-governed-claude-code-sessions-with-short-lived-service-credentials-using-kontext-cli"
 description: "Inject short-lived, scoped service credentials into Claude Code sessions so agents can reach approved systems without exposing raw secrets."
 github_stars: 143

@@ -1,5 +1,5 @@
 ---
-title: "Review Dockerfiles for risky patterns and bad defaults with hadolint"
+name: "Review Dockerfiles for risky patterns and bad defaults with hadolint"
 slug: "review-dockerfiles-for-risky-patterns-and-bad-defaults-with-hadolint"
 description: "Catch insecure Dockerfile patterns, brittle package-install habits, and shell pitfalls before image builds ship."
 github_stars: 12065

@@ -1,5 +1,5 @@
 ---
-title: "Cypress Visual Regression Testing Suite"
+name: "Cypress Visual Regression Testing Suite"
 slug: "cypress-visual-regression-testing-suite"
 description: "Automates pixel-level visual regression testing using Cypress with cypress-image-snapshot plugin. Compares screenshots against baselines using pixelmatch algorithm with configurable diff thresholds."
 github_stars: 49617

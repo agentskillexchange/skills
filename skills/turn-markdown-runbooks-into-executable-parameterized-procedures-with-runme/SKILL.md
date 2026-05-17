@@ -1,5 +1,5 @@
 ---
-title: "Turn Markdown runbooks into executable, parameterized procedures with Runme"
+name: "Turn Markdown runbooks into executable, parameterized procedures with Runme"
 slug: "turn-markdown-runbooks-into-executable-parameterized-procedures-with-runme"
 description: "Run named steps directly from Markdown runbooks so operational docs stay executable instead of drifting into stale reference text."
 github_stars: 2031

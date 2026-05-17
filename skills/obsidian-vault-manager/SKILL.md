@@ -1,5 +1,5 @@
 ---
-title: "Obsidian Vault Manager"
+name: "Obsidian Vault Manager"
 slug: "obsidian-vault-manager"
 description: ""
 verification: "security_reviewed"

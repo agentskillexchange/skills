@@ -1,5 +1,5 @@
 ---
-title: "Grafana OnCall Escalation Chain Manager"
+name: "Grafana OnCall Escalation Chain Manager"
 slug: "grafana-oncall-escalation-chain-manager"
 description: "Configures Grafana OnCall escalation chains, notification policies, and on-call schedules via the Grafana OnCall HTTP API. Manages integration routes from Alertmanager, Zabbix, and Datadog with automatic responder assignment."
 github_stars: 3880

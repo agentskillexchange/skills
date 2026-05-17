@@ -1,5 +1,5 @@
 ---
-title: "Advance GitOps app manifests to newer container tags with Argo CD Image Updater"
+name: "Advance GitOps app manifests to newer container tags with Argo CD Image Updater"
 slug: "advance-gitops-app-manifests-to-newer-container-tags-with-argo-cd-image-updater"
 description: "Track approved container images and write back the matching GitOps manifest changes instead of hand-editing tags across Argo CD applications."
 github_stars: 1661

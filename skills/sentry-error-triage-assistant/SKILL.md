@@ -1,5 +1,5 @@
 ---
-title: "Sentry Error Triage Assistant"
+name: "Sentry Error Triage Assistant"
 slug: "sentry-error-triage-assistant"
 description: "Triages application errors using the Sentry Web API (/api/0/issues/) and Sentry SDK breadcrumb data. Groups issues by stack trace similarity using Sentry fingerprinting rules and queries release health via the /api/0/organizations/{org}/releases/ endpoint."
 github_stars: 43576

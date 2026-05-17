@@ -1,5 +1,5 @@
 ---
-title: "Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation"
+name: "Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation"
 slug: "turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation"
 description: "Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown, and progress-tracking structure."
 verification: "security_reviewed"

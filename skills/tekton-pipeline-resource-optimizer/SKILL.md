@@ -1,5 +1,5 @@
 ---
-title: "Tekton Pipeline Resource Optimizer"
+name: "Tekton Pipeline Resource Optimizer"
 slug: "tekton-pipeline-resource-optimizer"
 description: "Analyzes Tekton Pipeline and Task resource definitions using the Tekton Results API. Recommends CPU/memory request adjustments based on historical TaskRun metrics from Prometheus."
 github_stars: 8936

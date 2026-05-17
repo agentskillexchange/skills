@@ -1,5 +1,5 @@
 ---
-title: "ESLint Rule Analyzer and Fixer"
+name: "ESLint Rule Analyzer and Fixer"
 slug: "eslint-rule-analyzer-fixer"
 description: "Performs deep ESLint configuration analysis using the ESLint Node.js API and flat config system. Auto-fixes rule conflicts, generates shareable configs, and produces code quality trend reports."
 github_stars: 27188

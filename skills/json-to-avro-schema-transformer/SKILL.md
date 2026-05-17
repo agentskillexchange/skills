@@ -1,5 +1,5 @@
 ---
-title: "JSON-to-Avro Schema Transformer"
+name: "JSON-to-Avro Schema Transformer"
 slug: "json-to-avro-schema-transformer"
 description: "Transforms JSON Schema definitions into Apache Avro schema format using the jsonschema and fastavro Python libraries. Handles nested objects, arrays, optional fields, and $ref resolution. Registers the resulting Avro schema to Confluent Schema Registry via the Schema Registry REST API."
 github_stars: 3265

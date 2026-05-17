@@ -1,5 +1,5 @@
 ---
-title: "Jenkins Pipeline Linter Agent"
+name: "Jenkins Pipeline Linter Agent"
 slug: "jenkins-pipeline-linter-agent-2"
 description: "Validates Jenkinsfile syntax using the Jenkins Pipeline Linter REST API before commits. Integrates with jenkins-client npm SDK to authenticate and submit declarative or scripted pipelines for server-side validation."
 github_stars: 25189

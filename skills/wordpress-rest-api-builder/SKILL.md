@@ -1,5 +1,5 @@
 ---
-title: "WordPress REST API Builder"
+name: "WordPress REST API Builder"
 slug: "wordpress-rest-api-builder"
 description: "Build and debug WordPress REST endpoints with a specialized skill."
 github_stars: 21121

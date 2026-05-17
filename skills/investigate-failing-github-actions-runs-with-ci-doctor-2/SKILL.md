@@ -1,5 +1,5 @@
 ---
-title: "Investigate failing GitHub Actions runs with CI Doctor"
+name: "Investigate failing GitHub Actions runs with CI Doctor"
 slug: "investigate-failing-github-actions-runs-with-ci-doctor-2"
 description: "Use GitHub Next's CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and open investigation issues with concrete next steps. This is for agents acting as CI failure investigators, not for listing GitHub Agentic Workflows as a product."
 verification: "security_reviewed"

@@ -1,5 +1,5 @@
 ---
-title: "Gate dbt projects with pre-commit checks from dbt-checkpoint"
+name: "Gate dbt projects with pre-commit checks from dbt-checkpoint"
 slug: "gate-dbt-projects-with-pre-commit-checks-from-dbt-checkpoint"
 description: "Use dbt-checkpoint when an agent should catch dbt naming, dependency, metadata, and model-hygiene issues before review or merge."
 github_stars: 738

@@ -1,5 +1,5 @@
 ---
-title: "Terraform Plan Validator"
+name: "Terraform Plan Validator"
 slug: "terraform-plan-validator"
 description: "Parses terraform plan JSON output via the Terraform CLI (terraform show -json) to validate infrastructure changes before apply. Detects destructive operations, cost estimate impacts via Infracost API, and drift from desired state."
 github_stars: 48146

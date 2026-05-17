@@ -1,5 +1,5 @@
 ---
-title: "PagerDuty MCP Server"
+name: "PagerDuty MCP Server"
 slug: "pagerduty-mcp-server"
 description: ""
 github_stars: 69

@@ -1,5 +1,5 @@
 ---
-title: "Gate Diff Only Test Coverage On Changed Lines Before Merging With Diff Cover"
+name: "Gate Diff Only Test Coverage On Changed Lines Before Merging With Diff Cover"
 slug: "gate-diff-only-test-coverage-on-changed-lines-before-merging-with-diff-cover"
 description: "Compare coverage reports against a git diff so an agent can flag newly changed lines that still lack tests before merge."
 github_stars: 828

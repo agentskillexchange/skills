@@ -1,5 +1,5 @@
 ---
-title: "NocoBase Extensible AI-Powered No-Code and Low-Code Platform"
+name: "NocoBase Extensible AI-Powered No-Code and Low-Code Platform"
 slug: "nocobase-extensible-no-code-low-code-platform"
 description: "NocoBase is the most extensible open-source no-code/low-code platform for building business applications. It features a data model-driven architecture, AI employee integration, plugin system, and WYSIWYG interface builder."
 github_stars: 22114

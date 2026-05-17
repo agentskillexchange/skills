@@ -1,5 +1,5 @@
 ---
-title: "Plop.js Code Generator"
+name: "Plop.js Code Generator"
 slug: "plopjs-code-generator"
 description: "Creates Plop.js generators with Handlebars templates and custom action types for scaffolding React components, API routes, and test files. Uses inquirer prompts with validation and the addMany action for batch file generation."
 github_stars: 7645

@@ -1,5 +1,5 @@
 ---
-title: "DigitalOcean Droplet Manager"
+name: "DigitalOcean Droplet Manager"
 slug: "digitalocean-droplet-manager"
 description: ""
 github_stars: 3417

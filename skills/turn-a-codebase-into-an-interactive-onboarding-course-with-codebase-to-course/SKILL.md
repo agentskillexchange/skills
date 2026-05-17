@@ -1,5 +1,5 @@
 ---
-title: "Turn a codebase into an interactive onboarding course with Codebase to Course"
+name: "Turn a codebase into an interactive onboarding course with Codebase to Course"
 slug: "turn-a-codebase-into-an-interactive-onboarding-course-with-codebase-to-course"
 description: "Point Claude Code at a repository and generate a self-contained interactive course that teaches how the system works to non-experts."
 github_stars: 3883

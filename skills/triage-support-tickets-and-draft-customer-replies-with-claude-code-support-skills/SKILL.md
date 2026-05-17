@@ -1,5 +1,5 @@
 ---
-title: "Triage support tickets and draft customer replies with Claude Code support skills"
+name: "Triage support tickets and draft customer replies with Claude Code support skills"
 slug: "triage-support-tickets-and-draft-customer-replies-with-claude-code-support-skills"
 description: "Use Claude Code support skills to prioritize tickets, gather customer context, and draft reviewed replies without turning agents loose on customers."
 github_stars: 87

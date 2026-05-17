@@ -1,5 +1,5 @@
 ---
-title: "Unlighthouse Site-Wide Lighthouse and SEO Auditing"
+name: "Unlighthouse Site-Wide Lighthouse and SEO Auditing"
 slug: "unlighthouse-site-wide-lighthouse-seo-auditing"
 description: "Unlighthouse runs Google Lighthouse across an entire site instead of just a single page. This skill gives agents a repeatable way to crawl URLs, surface SEO and accessibility issues, and return prioritized audit findings for content and technical optimization work."
 github_stars: 4469

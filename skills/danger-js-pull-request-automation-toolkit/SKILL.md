@@ -1,5 +1,5 @@
 ---
-title: "Danger JS Pull Request Automation Toolkit"
+name: "Danger JS Pull Request Automation Toolkit"
 slug: "danger-js-pull-request-automation-toolkit"
 description: "Danger JS automates pull request review chores by running programmable checks inside CI and posting structured feedback back to GitHub, GitLab, and other code hosts. It is a strong fit for teams that want to turn review conventions into repeatable checks instead of relying on humans to catch the same issues every time."
 github_stars: 5463

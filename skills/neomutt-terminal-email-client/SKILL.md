@@ -1,5 +1,5 @@
 ---
-title: "NeoMutt Feature-Rich Terminal Email Client"
+name: "NeoMutt Feature-Rich Terminal Email Client"
 slug: "neomutt-terminal-email-client"
 description: "NeoMutt is an actively maintained fork of the classic Mutt email client that brings modern features to terminal-based email management. It supports IMAP, POP3, SMTP, Maildir, notmuch search, and PGP encryption with a highly customizable ncurses interface."
 github_stars: 3685

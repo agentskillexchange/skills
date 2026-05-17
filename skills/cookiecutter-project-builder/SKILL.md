@@ -1,5 +1,5 @@
 ---
-title: "Cookiecutter Project Builder"
+name: "Cookiecutter Project Builder"
 slug: "cookiecutter-project-builder"
 description: "Creates project scaffolds from Cookiecutter templates with interactive variable resolution. Integrates with cruft for template drift detection and copier for advanced multi-template composition."
 github_stars: 24818

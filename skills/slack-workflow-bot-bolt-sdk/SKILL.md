@@ -1,5 +1,5 @@
 ---
-title: "Slack Workflow Bot"
+name: "Slack Workflow Bot"
 slug: "slack-workflow-bot-bolt-sdk"
 description: "Builds interactive Slack workflows using the Bolt SDK for JavaScript and Block Kit Builder API. Handles modal forms, scheduled messages, and webhook integrations."
 github_stars: 2900

@@ -1,5 +1,5 @@
 ---
-title: "n8n Workflow Webhook Bridge"
+name: "n8n Workflow Webhook Bridge"
 slug: "n8n-workflow-webhook-bridge"
 description: "Builds integration handoffs around n8n primitives like the Webhook node, HTTP Request node, and execution data inspection. Great for connecting event sources, transforming payloads, and making low-code workflows behave more like reliable integration middleware."
 github_stars: 182065

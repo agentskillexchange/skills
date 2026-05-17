@@ -1,5 +1,5 @@
 ---
-title: "Query Monitor WordPress Developer Tools Panel"
+name: "Query Monitor WordPress Developer Tools Panel"
 slug: "query-monitor-wordpress-developer-tools-panel"
 description: "Query Monitor is the developer tools panel for WordPress and WooCommerce. It enables debugging of database queries, PHP errors, hooks and actions, block editor blocks, enqueued scripts and stylesheets, HTTP API calls, and more with filtering by plugin or theme."
 github_stars: 1743

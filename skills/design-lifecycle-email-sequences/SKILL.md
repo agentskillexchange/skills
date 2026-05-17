@@ -1,5 +1,5 @@
 ---
-title: "Design Lifecycle Email Sequences"
+name: "Design Lifecycle Email Sequences"
 slug: "design-lifecycle-email-sequences"
 description: "Create or improve welcome, nurture, onboarding, re-engagement, and other lifecycle sequences with a clear purpose for each email."
 verification: "security_reviewed"

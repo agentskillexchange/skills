@@ -1,5 +1,5 @@
 ---
-title: "Twilio MCP Server"
+name: "Twilio MCP Server"
 slug: "twilio-mcp-server"
 description: ""
 github_stars: 1537

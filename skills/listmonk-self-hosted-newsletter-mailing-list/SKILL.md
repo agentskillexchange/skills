@@ -1,5 +1,5 @@
 ---
-title: "Listmonk Self-Hosted Newsletter and Mailing List Manager"
+name: "Listmonk Self-Hosted Newsletter and Mailing List Manager"
 slug: "listmonk-self-hosted-newsletter-mailing-list"
 description: "High-performance, self-hosted newsletter and mailing list manager packed into a single binary. Manages millions of subscribers with templated campaigns, analytics, and a REST API for programmatic email automation."
 github_stars: 19404

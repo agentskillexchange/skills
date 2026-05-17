@@ -1,10 +1,11 @@
 ---
 name: "Your Skill Name"
+slug: "your-skill-slug"
 description: "A clear description of what this skill does and when to use it. Reference specific APIs, tools, or techniques."
 category: "Developer Tools"
 framework: "Claude Code"
 verification: listed
-source: "https://agentskillexchange.com/skills/your-skill-slug/"
+source: "https://github.com/example/upstream-project"
 ---
 
 # Your Skill Name
@@ -38,4 +39,3 @@ The `skills` npm package is maintained by Vercel Labs / third parties, not Agent
 ```bash
 npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill your-skill-slug
 ```
-

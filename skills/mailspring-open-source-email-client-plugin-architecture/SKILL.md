@@ -1,5 +1,5 @@
 ---
-title: "Mailspring Open Source Email Client with Plugin Architecture"
+name: "Mailspring Open Source Email Client with Plugin Architecture"
 slug: "mailspring-open-source-email-client-plugin-architecture"
 description: "Mailspring is a beautiful, fast, and fully open source email client for Mac, Windows, and Linux. Built on Electron and React with a C++ sync engine, it supports unified inbox, snooze, send later, mail rules, and templates with a powerful plugin system."
 github_stars: 17366

@@ -1,5 +1,5 @@
 ---
-title: "Traefik Cloud-Native Application Proxy and Reverse Proxy"
+name: "Traefik Cloud-Native Application Proxy and Reverse Proxy"
 slug: "traefik-cloud-native-reverse-proxy"
 description: "Traefik is a modern cloud-native reverse proxy and load balancer that automatically discovers services and configures routing. It integrates natively with Docker, Kubernetes, and Let's Encrypt for automatic HTTPS."
 github_stars: 62473

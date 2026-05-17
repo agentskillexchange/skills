@@ -1,5 +1,5 @@
 ---
-title: "Scan agent workflows for tools, MCP exposure, and adversarial risk with Agentic Radar"
+name: "Scan agent workflows for tools, MCP exposure, and adversarial risk with Agentic Radar"
 slug: "scan-agent-workflows-for-tools-mcp-exposure-and-adversarial-risk-with-agentic-radar"
 description: "Use Agentic Radar to statically scan agent workflows, map tools and MCP servers, generate shareable security reports, and optionally run adversarial runtime tests before rollout."
 github_stars: 953

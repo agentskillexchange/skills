@@ -1,5 +1,5 @@
 ---
-title: "gcalcli Google Calendar Command Line Interface"
+name: "gcalcli Google Calendar Command Line Interface"
 slug: "gcalcli-google-calendar-cli"
 description: "gcalcli is a Python CLI that provides full access to Google Calendar from the command line. View agendas, search events, quick-add appointments, import ICS files, set reminders, and display ASCII calendar views—all without leaving the terminal."
 github_stars: 3678

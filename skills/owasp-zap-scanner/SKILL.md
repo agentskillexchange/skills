@@ -1,5 +1,5 @@
 ---
-title: "OWASP ZAP Scanner"
+name: "OWASP ZAP Scanner"
 slug: "owasp-zap-scanner"
 description: ""
 github_stars: 14978

@@ -1,5 +1,5 @@
 ---
-title: "Jenkins Pipeline Log Parser"
+name: "Jenkins Pipeline Log Parser"
 slug: "jenkins-pipeline-log-parser"
 description: "Extracts and analyzes Jenkins Pipeline build logs using the Jenkins REST API and Blue Ocean API. Identifies stage failures, flaky test patterns via JUnit XML parsing, and generates failure trend reports with node allocation insights."
 github_stars: 25189

@@ -1,5 +1,5 @@
 ---
-title: "devenv Declarative Developer Environments with Nix"
+name: "devenv Declarative Developer Environments with Nix"
 slug: "devenv-declarative-developer-environments-nix"
 description: "A fast, declarative, and reproducible developer environment tool built on Nix. devenv lets teams define project dependencies, services, scripts, and language toolchains in a single configuration file, ensuring consistent environments across machines."
 github_stars: 6614

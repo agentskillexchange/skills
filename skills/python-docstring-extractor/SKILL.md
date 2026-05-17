@@ -1,5 +1,5 @@
 ---
-title: "Python Docstring Extractor"
+name: "Python Docstring Extractor"
 slug: "python-docstring-extractor"
 description: "Extracts and indexes Python module documentation using ast.parse and docstring_parser library. Supports Google, NumPy, and Sphinx docstring formats with type hint cross-referencing via typing_inspect."
 github_stars: 266

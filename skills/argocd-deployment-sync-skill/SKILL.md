@@ -1,5 +1,5 @@
 ---
-title: "ArgoCD Deployment Sync Skill"
+name: "ArgoCD Deployment Sync Skill"
 slug: "argocd-deployment-sync-skill"
 description: "Manages GitOps deployments via the ArgoCD REST API and argocd CLI. Triggers application syncs through /api/v1/applications/{name}/sync, monitors health status via /api/v1/applications/{name}, and manages rollbacks using /api/v1/applications/{name}/rollback for Kubernetes workloads."
 github_stars: 22593

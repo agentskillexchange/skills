@@ -1,5 +1,5 @@
 ---
-title: "Grafana Dashboard as Code Builder"
+name: "Grafana Dashboard as Code Builder"
 slug: "grafana-dashboard-as-code-builder"
 description: "Builds Grafana dashboards programmatically using grafonnet-lib (Jsonnet) and the Grafana HTTP API. Generates panel JSON for time series, stat, table, and heatmap visualizations with PromQL/LogQL queries."
 github_stars: 73187

@@ -1,5 +1,5 @@
 ---
-title: "ESLint Auto-Fix Orchestrator"
+name: "ESLint Auto-Fix Orchestrator"
 slug: "eslint-autofix-orchestrator"
 description: "Runs ESLint with auto-fix capabilities using the ESLint Node.js API and flat config system. Supports custom rule sets, TypeScript via typescript-eslint, and Prettier integration."
 github_stars: 27188

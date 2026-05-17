@@ -1,5 +1,5 @@
 ---
-title: "CircleCI Orb Pipeline Agent"
+name: "CircleCI Orb Pipeline Agent"
 slug: "circleci-orb-pipeline-agent"
 description: "Builds and manages CircleCI pipelines using config.yml v2.1, CircleCI API v2, and reusable Orbs. Supports dynamic config, test splitting, and resource class optimization."
 github_stars: 843

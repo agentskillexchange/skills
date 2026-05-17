@@ -1,5 +1,5 @@
 ---
-title: "AWS CDK Scaffolder"
+name: "AWS CDK Scaffolder"
 slug: "aws-cdk-scaffolder"
 description: ""
 github_stars: 12737

@@ -1,5 +1,5 @@
 ---
-title: "librosa Python Audio and Music Analysis Library"
+name: "librosa Python Audio and Music Analysis Library"
 slug: "librosa-python-audio-music-analysis-library"
 description: "librosa is a Python library for audio and music analysis. It provides tools for feature extraction, spectral analysis, beat tracking, onset detection, and audio visualization, built on top of NumPy and SciPy for scientific audio computing."
 github_stars: 8294

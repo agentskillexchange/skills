@@ -1,5 +1,5 @@
 ---
-title: "NPM Package Auditor"
+name: "NPM Package Auditor"
 slug: "npm-package-auditor-registry-api"
 description: "Audits NPM packages using the NPM Registry API with dependency tree resolution and vulnerability scanning via OSV.dev API. Generates SBOM in CycloneDX format and checks license compliance against SPDX expression parser."
 verification: "security_reviewed"

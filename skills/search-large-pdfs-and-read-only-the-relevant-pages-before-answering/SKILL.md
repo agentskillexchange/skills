@@ -1,5 +1,5 @@
 ---
-title: "Search large PDFs and read only the relevant pages before answering"
+name: "Search large PDFs and read only the relevant pages before answering"
 slug: "search-large-pdfs-and-read-only-the-relevant-pages-before-answering"
 description: "Use pdf-mcp to inspect a PDF, search it, and load only the pages that matter so an agent can answer questions from long documents without brute-forcing the whole file into context."
 github_stars: 17

@@ -69,7 +69,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [GraphQL Schema Registry Agent](../../skills/graphql-schema-registry-agent/) | 20.3k | 34.2M/wk |
 | [GraphQL Schema Registry Client](../../skills/graphql-schema-registry-client/) | 20.3k | 34.2M/wk |
 | [GraphQL Schema Stitcher](../../skills/graphql-schema-stitcher/) | 20.3k | 34.2M/wk |
-| [GraphQL Schema Stitching &#038; Federation Agent](../../skills/graphql-schema-stitching-federation-agent/) | 20.3k | 34.2M/wk |
+| [GraphQL Schema Stitching & Federation Agent](../../skills/graphql-schema-stitching-federation-agent/) | 20.3k | 34.2M/wk |
 | [GraphQL Schema Explorer](../../skills/graphql-schema-explorer/) | 20.3k | 34.7M/wk |
 | [FilePond Flexible JavaScript File Upload Library](../../skills/filepond-javascript-file-upload-library/) | 16.3k | 247.6k/wk |
 | [JSDoc Type Definition Extractor](../../skills/jsdoc-type-definition-extractor/) | 15.4k | 2.5M/wk |
@@ -90,15 +90,15 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Lightning CSS High-Performance CSS Parser Transformer and Minifier](../../skills/lightning-css-high-performance-css-parser-transformer-and-minifier/) | 7.5k | — |
 | [Postman Collection Runner](../../skills/postman-collection-runner/) | 7.2k | 786.9k/wk |
 | [Doxygen Cross-Reference Indexer](../../skills/doxygen-cross-reference-indexer/) | 6.4k | — |
-| [OpenAPI Spec Validator &#038; Mock Server](../../skills/openapi-spec-validator-mock-server-2/) | 4.9k | — |
-| [Protobuf &#038; gRPC Stub Generator](../../skills/protobuf-grpc-stub-generator/) | 4.8k | — |
+| [OpenAPI Spec Validator & Mock Server](../../skills/openapi-spec-validator-mock-server-2/) | 4.9k | — |
+| [Protobuf & gRPC Stub Generator](../../skills/protobuf-grpc-stub-generator/) | 4.8k | — |
 | [gRPC Service Tool](../../skills/grpc-service-tool/) | 4.8k | 147.4M/wk |
 | [Stripe API Reference Navigator](../../skills/stripe-api-reference-navigator/) | 4.4k | 9.3M/wk |
 | [Run contract tests from API descriptions against live endpoints before integrations break with Dredd](../../skills/run-contract-tests-from-api-descriptions-against-live-endpoints-before-integrations-break-with-dredd/) | 4.2k | 53.9k/wk |
 | [AWS SDK Method Resolver](../../skills/aws-sdk-method-resolver/) | 3.6k | — |
-| [OpenAPI Spec Linter &#038; Docs Generator](../../skills/openapi-spec-linter-docs-generator/) | 3.1k | 1.2M/wk |
-| [OpenAPI Spec Validator &#038; Docs Generator](../../skills/openapi-spec-validator-docs-generator/) | 3.1k | 1.2M/wk |
-| [OpenAPI Spec Validator &#038; Linter](../../skills/openapi-spec-validator-linter-2/) | 3.1k | 1.2M/wk |
+| [OpenAPI Spec Linter & Docs Generator](../../skills/openapi-spec-linter-docs-generator/) | 3.1k | 1.2M/wk |
+| [OpenAPI Spec Validator & Docs Generator](../../skills/openapi-spec-validator-docs-generator/) | 3.1k | 1.2M/wk |
+| [OpenAPI Spec Validator & Linter](../../skills/openapi-spec-validator-linter-2/) | 3.1k | 1.2M/wk |
 | [Python Dependency Graph Resolver](../../skills/python-dependency-graph-resolver/) | 3k | — |
 | [Python Package Dependency Graph Mapper](../../skills/python-package-dependency-graph-mapper/) | 3k | — |
 | [Implement, review, and optimize SwiftUI code with trace-backed diagnostics](../../skills/implement-review-and-optimize-swiftui-code-with-trace-backed-diagnostics/) | 2.7k | — |
@@ -127,7 +127,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [MDN Web API Reference Fetcher](../../skills/mdn-web-api-reference-fetcher/) | — | — |
 | [MDN Web Docs Fetcher](../../skills/mdn-web-docs-fetcher/) | — | — |
 | [NPM Package Analyzer](../../skills/npm-package-analyzer/) | — | — |
-| [NPM Package Audit &#038; License Checker](../../skills/npm-package-audit-license-checker/) | — | — |
+| [NPM Package Audit & License Checker](../../skills/npm-package-audit-license-checker/) | — | — |
 | [NPM Package Audit Analyzer](../../skills/npm-package-audit-analyzer/) | — | — |
 | [NPM Package Audit Reference](../../skills/npm-package-audit-reference/) | — | — |
 | [NPM Package Changelog Analyzer](../../skills/npm-package-changelog-analyzer/) | — | — |
@@ -144,7 +144,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [OpenAPI Spec Reference Indexer](../../skills/openapi-spec-reference-indexer/) | — | — |
 | [OpenTelemetry Trace Analyzer](../../skills/opentelemetry-trace-analyzer/) | — | — |
 | [OpenTelemetry Trace Context Propagator](../../skills/opentelemetry-trace-context-propagator/) | — | — |
-| [Plaid Financial Data Aggregator &amp; Budget Classifier](../../skills/plaid-financial-data-aggregator/) | — | — |
+| [Plaid Financial Data Aggregator & Budget Classifier](../../skills/plaid-financial-data-aggregator/) | — | — |
 | [Protobuf Documentation Generator](../../skills/protobuf-documentation-generator/) | — | — |
 | [Protocol Buffers Documentation Compiler](../../skills/protobuf-documentation-compiler/) | — | — |
 | [PyPI Package Inspector](../../skills/pypi-package-inspector/) | — | — |

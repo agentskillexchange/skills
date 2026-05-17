@@ -1,5 +1,5 @@
 ---
-title: "D2 Modern Diagram Scripting Language and CLI"
+name: "D2 Modern Diagram Scripting Language and CLI"
 slug: "d2-diagram-scripting-language-cli"
 description: "D2 is a modern diagram scripting language that turns text into diagrams. It compiles declarative text files into SVG, PNG, and PDF outputs with automatic layout, multiple themes, and support for sequence diagrams, class diagrams, and network topologies."
 github_stars: 23316

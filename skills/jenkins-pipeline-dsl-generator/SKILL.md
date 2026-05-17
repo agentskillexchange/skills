@@ -1,5 +1,5 @@
 ---
-title: "Jenkins Pipeline DSL Generator"
+name: "Jenkins Pipeline DSL Generator"
 slug: "jenkins-pipeline-dsl-generator"
 description: "Generates Jenkins Declarative and Scripted Pipeline DSL using the Jenkins REST API and Job DSL plugin. Creates Jenkinsfile configurations with parallel stages, shared libraries, and credential binding."
 github_stars: 25189

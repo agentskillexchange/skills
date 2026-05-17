@@ -1,5 +1,5 @@
 ---
-title: "Git Bisect Automator"
+name: "Git Bisect Automator"
 slug: "git-bisect-automator"
 description: "Automates git bisect workflows with custom test scripts and CI pipeline integration. Uses the Git CLI and GitHub Actions API to identify regression-introducing commits across large repositories."
 verification: "security_reviewed"

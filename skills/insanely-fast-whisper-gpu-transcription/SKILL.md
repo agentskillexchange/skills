@@ -1,5 +1,5 @@
 ---
-title: "Insanely Fast Whisper GPU-Accelerated Speech Transcription CLI"
+name: "Insanely Fast Whisper GPU-Accelerated Speech Transcription CLI"
 slug: "insanely-fast-whisper-gpu-transcription"
 description: "Insanely Fast Whisper is a CLI tool that transcribes audio at extreme speeds using OpenAI Whisper models with Hugging Face Transformers, Flash Attention 2, and batched inference. It can transcribe 150 minutes of audio in under 98 seconds on a GPU."
 github_stars: 12204

@@ -1,5 +1,5 @@
 ---
-title: "xq Command-Line XML and HTML Beautifier and Content Extractor"
+name: "xq Command-Line XML and HTML Beautifier and Content Extractor"
 slug: "xq-command-line-xml-html-beautifier-content-extractor"
 description: "xq is a command-line XML and HTML beautifier and content extractor written in Go. It provides syntax highlighting, automatic formatting, XPath and CSS selector queries, and JSON output conversion for XML and HTML documents."
 github_stars: 1100

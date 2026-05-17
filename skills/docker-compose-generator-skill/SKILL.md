@@ -1,5 +1,5 @@
 ---
-title: "Docker Compose Generator Skill"
+name: "Docker Compose Generator Skill"
 slug: "docker-compose-generator-skill"
 description: ""
 github_stars: 71562

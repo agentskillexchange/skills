@@ -1,5 +1,5 @@
 ---
-title: "PostgreSQL Performance Diagnostics"
+name: "PostgreSQL Performance Diagnostics"
 slug: "postgresql-performance-diagnostics"
 description: "Analyzes PostgreSQL query performance using pg_stat_statements, pg_stat_user_tables, and EXPLAIN ANALYZE output. Identifies missing indexes via pg_stat_user_indexes and detects lock contention through pg_locks and pg_stat_activity."
 github_stars: 13127

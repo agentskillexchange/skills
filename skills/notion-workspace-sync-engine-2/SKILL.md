@@ -1,5 +1,5 @@
 ---
-title: "Notion Workspace Sync Engine"
+name: "Notion Workspace Sync Engine"
 slug: "notion-workspace-sync-engine-2"
 description: "Bidirectionally syncs Notion databases with external tools via the Notion API and webhooks. Maps page properties to Jira issues, GitHub PRs, and Linear tickets in real time."
 verification: "security_reviewed"

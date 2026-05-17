@@ -1,5 +1,5 @@
 ---
-title: "Inspect and debug MCP servers visually before connecting them to agents"
+name: "Inspect and debug MCP servers visually before connecting them to agents"
 slug: "inspect-and-debug-mcp-servers-visually-before-connecting-them-to-agents"
 description: "Use MCP Inspector when you need to launch an MCP server, inspect its tools and resources, exercise calls manually, and troubleshoot transport or schema issues before putting that server in front of real agents."
 github_stars: 9431

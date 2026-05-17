@@ -1,5 +1,5 @@
 ---
-title: "Retrieve Zillow-style property details and market trends through an MCP server"
+name: "Retrieve Zillow-style property details and market trends through an MCP server"
 slug: "retrieve-zillow-style-property-details-and-market-trends-through-an-mcp-server"
 description: "Run supervised property-detail and market-trend lookups from an MCP client while checking data-source terms before use."
 github_stars: 40

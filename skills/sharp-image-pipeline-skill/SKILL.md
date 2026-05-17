@@ -1,5 +1,5 @@
 ---
-title: "Sharp Image Pipeline Skill"
+name: "Sharp Image Pipeline Skill"
 slug: "sharp-image-pipeline-skill"
 description: "Processes images using the Sharp npm library (libvips). Supports batch resize, format conversion (WebP/AVIF/JPEG XL), watermarking, and metadata extraction. Generates responsive image sets with srcset dimensions."
 github_stars: 32138

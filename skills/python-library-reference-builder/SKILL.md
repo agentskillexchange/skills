@@ -1,5 +1,5 @@
 ---
-title: "Python Library Reference Builder"
+name: "Python Library Reference Builder"
 slug: "python-library-reference-builder"
 description: "Generates searchable Python library references using ast module for source parsing and Sphinx autodoc integration. Extracts docstrings, type hints, and usage examples from installed packages via importlib."
 verification: "security_reviewed"

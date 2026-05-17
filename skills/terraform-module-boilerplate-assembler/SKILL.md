@@ -1,5 +1,5 @@
 ---
-title: "Terraform Module Boilerplate Assembler"
+name: "Terraform Module Boilerplate Assembler"
 slug: "terraform-module-boilerplate-assembler"
 description: "Generates Terraform module scaffolds with variables.tf, outputs.tf, and provider configurations from a module specification. Uses the Terraform Registry API to resolve provider schemas."
 github_stars: 48004

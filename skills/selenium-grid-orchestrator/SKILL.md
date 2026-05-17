@@ -1,5 +1,5 @@
 ---
-title: "Selenium Grid Orchestrator"
+name: "Selenium Grid Orchestrator"
 slug: "selenium-grid-orchestrator"
 description: "Manages Selenium Grid 4 hub and node registration for cross-browser parallel testing. Configures Chrome, Firefox, and Edge nodes with resource allocation policies."
 github_stars: 34076

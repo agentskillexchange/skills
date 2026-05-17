@@ -1,5 +1,5 @@
 ---
-title: "Puppeteer Stealth Scraper"
+name: "Puppeteer Stealth Scraper"
 slug: "puppeteer-stealth-scraper-agent"
 description: "Anti-detection web scraping using puppeteer-extra-plugin-stealth with residential proxy rotation. Implements Canvas fingerprint spoofing and WebGL vendor masking via puppeteer-extra."
 github_stars: 94115

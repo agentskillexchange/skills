@@ -1,5 +1,5 @@
 ---
-title: "Jenkins MCP Server"
+name: "Jenkins MCP Server"
 slug: "jenkins-mcp-server"
 description: ""
 github_stars: 25270

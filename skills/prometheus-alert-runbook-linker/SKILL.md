@@ -1,5 +1,5 @@
 ---
-title: "Prometheus Alert Runbook Linker"
+name: "Prometheus Alert Runbook Linker"
 slug: "prometheus-alert-runbook-linker"
 description: "Links Prometheus alerting rules to operational runbooks by parsing AlertManager configurations and PrometheusRule CRDs. Validates runbook_url annotations exist and are reachable, and generates stub runbooks for undocumented alerts."
 github_stars: 63584

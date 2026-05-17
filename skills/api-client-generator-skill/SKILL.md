@@ -1,5 +1,5 @@
 ---
-title: "API Client Generator Skill"
+name: "API Client Generator Skill"
 slug: "api-client-generator-skill"
 description: ""
 github_stars: 26253

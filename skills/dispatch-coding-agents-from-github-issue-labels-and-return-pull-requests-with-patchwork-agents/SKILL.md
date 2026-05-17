@@ -1,5 +1,5 @@
 ---
-title: "Dispatch coding agents from GitHub issue labels and return pull requests with Patchwork Agents"
+name: "Dispatch coding agents from GitHub issue labels and return pull requests with Patchwork Agents"
 slug: "dispatch-coding-agents-from-github-issue-labels-and-return-pull-requests-with-patchwork-agents"
 description: "Use issue labels as a lightweight dispatch layer that fans repository work out to Claude Code, Codex, or Aider workers and brings back PRs."
 github_stars: 0

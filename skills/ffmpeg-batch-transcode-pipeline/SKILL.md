@@ -1,5 +1,5 @@
 ---
-title: "FFmpeg Batch Transcode Pipeline"
+name: "FFmpeg Batch Transcode Pipeline"
 slug: "ffmpeg-batch-transcode-pipeline"
 description: "Orchestrates parallel FFmpeg transcoding jobs with hardware-accelerated encoding via NVENC, VAAPI, or VideoToolbox. Supports HLS adaptive bitrate packaging using ffmpeg -f hls with multiple -map streams and fmp4 segment formatting for DASH output."
 github_stars: 58972

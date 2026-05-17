@@ -1,5 +1,5 @@
 ---
-title: "SEO Keyword Research Automator"
+name: "SEO Keyword Research Automator"
 slug: "seo-keyword-research-automator"
 description: "Automated keyword research using DataForSEO API and Google Search Console API. Performs SERP analysis, keyword clustering with TF-IDF scoring, and generates content briefs with search intent classification."
 verification: "security_reviewed"

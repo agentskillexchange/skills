@@ -1,5 +1,5 @@
 ---
-title: "GitLab CI Pipeline Validator"
+name: "GitLab CI Pipeline Validator"
 slug: "gitlab-ci-pipeline-validator"
 description: "Validates .gitlab-ci.yml files against GitLab CI/CD schema using the gitlab-ci-lint API endpoint. Catches stage dependency errors, invalid artifact paths, and misconfigured rules before commit."
 github_stars: 24298

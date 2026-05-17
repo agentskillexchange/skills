@@ -1,5 +1,5 @@
 ---
-title: "Loki Log Query Agent"
+name: "Loki Log Query Agent"
 slug: "loki-log-query-agent"
 description: ""
 github_stars: 27962

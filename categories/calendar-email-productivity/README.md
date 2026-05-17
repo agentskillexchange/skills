@@ -27,7 +27,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Discord Bot Manager](../../skills/discord-bot-manager/) | ⬇ 564.5k/wk |
 | [Automate Lark and Feishu docs, sheets, mail, calendar, meetings, and chat tasks from agents with Lark CLI](../../skills/automate-lark-and-feishu-docs-sheets-mail-calendar-meetings-and-chat-tasks-from-agents-with-lark-cli/) | ⬇ 98.6k/wk |
 | [Notion MCP Server](../../skills/notion-mcp-server/) | ⬇ 1.4M/wk |
-| [Notion AI Document Summarizer &amp; Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | ⬇ 1.2M/wk |
+| [Notion AI Document Summarizer & Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | ⬇ 1.2M/wk |
 | [Notion AI Workspace](../../skills/notion-ai-workspace/) | ⬇ 1.2M/wk |
 | [Notion Database Sync Agent](../../skills/notion-database-sync-agent/) | ⬇ 1.2M/wk |
 | [Notion Database Sync Bridge](../../skills/notion-database-sync-bridge/) | ⬇ 1.2M/wk |
@@ -80,7 +80,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Himalaya CLI Email Client for IMAP SMTP and Notmuch](../../skills/himalaya-cli-email-client-imap-smtp-notmuch/) | 5.8k | — |
 | [Taskwarrior Command-Line Task Management System](../../skills/taskwarrior-command-line-task-management-system/) | 5.7k | — |
 | [Notion MCP Server](../../skills/notion-mcp-server/) | 5.6k | 1.4M/wk |
-| [Notion AI Document Summarizer &amp; Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | 5.6k | 1.2M/wk |
+| [Notion AI Document Summarizer & Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | 5.6k | 1.2M/wk |
 | [Notion AI Workspace](../../skills/notion-ai-workspace/) | 5.6k | 1.2M/wk |
 | [Notion Database Sync Agent](../../skills/notion-database-sync-agent/) | 5.6k | 1.2M/wk |
 | [Notion Database Sync Bridge](../../skills/notion-database-sync-bridge/) | 5.6k | 1.2M/wk |
@@ -139,7 +139,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Google Calendar Conflict Resolver](../../skills/google-calendar-conflict-resolver-2/) | — | — |
 | [Google Calendar FreeBusy Scheduler Bridge](../../skills/google-calendar-freebusy-scheduler-bridge/) | — | — |
 | [Google Calendar Smart Scheduler](../../skills/google-calendar-smart-scheduler-2/) | — | — |
-| [Google Calendar Sync &#038; Conflict Resolver](../../skills/google-calendar-sync-conflict-resolver/) | — | — |
+| [Google Calendar Sync & Conflict Resolver](../../skills/google-calendar-sync-conflict-resolver/) | — | — |
 | [Google Calendar Sync Agent](../../skills/google-calendar-sync-agent-2/) | — | — |
 | [IMAP Email Classifier](../../skills/imap-email-classifier-ml/) | — | — |
 | [IMAP Inbox Triage Agent](../../skills/imap-inbox-triage-agent/) | — | — |

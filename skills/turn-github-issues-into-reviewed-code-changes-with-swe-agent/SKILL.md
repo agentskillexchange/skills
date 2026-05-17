@@ -1,5 +1,5 @@
 ---
-title: "Turn GitHub issues into reviewed code changes with SWE-agent"
+name: "Turn GitHub issues into reviewed code changes with SWE-agent"
 slug: "turn-github-issues-into-reviewed-code-changes-with-swe-agent"
 description: "Run SWE-agent against a repository issue so a language model can inspect files, execute commands and tests, and produce a patch for human review."
 github_stars: 19162

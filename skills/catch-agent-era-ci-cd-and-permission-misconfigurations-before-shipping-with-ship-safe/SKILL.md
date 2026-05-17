@@ -1,5 +1,5 @@
 ---
-title: "Catch agent-era CI/CD and permission misconfigurations before shipping with Ship Safe"
+name: "Catch agent-era CI/CD and permission misconfigurations before shipping with Ship Safe"
 slug: "catch-agent-era-ci-cd-and-permission-misconfigurations-before-shipping-with-ship-safe"
 description: "Run Ship Safe before a release when an agent needs one pre-ship pass for CI/CD misconfigurations, permission risks, secrets exposure, MCP-related hazards, and dependency issues."
 github_stars: 521

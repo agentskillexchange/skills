@@ -1,5 +1,5 @@
 ---
-title: "Silero VAD Pre-Trained Enterprise Voice Activity Detection"
+name: "Silero VAD Pre-Trained Enterprise Voice Activity Detection"
 slug: "silero-vad-voice-activity-detection"
 description: "Silero VAD is a pre-trained enterprise-grade Voice Activity Detector that identifies speech segments in audio streams. It runs locally via PyTorch or ONNX Runtime with minimal resource requirements, making it ideal for real-time audio processing pipelines."
 github_stars: 8604

@@ -1,5 +1,5 @@
 ---
-title: "Export Obsidian vaults into clean Markdown trees for publishing or downstream processing"
+name: "Export Obsidian vaults into clean Markdown trees for publishing or downstream processing"
 slug: "export-obsidian-vaults-into-clean-markdown-trees-for-publishing-or-downstream-processing"
 description: "Convert Obsidian vault content, wikilinks, and attachments into portable Markdown trees before publishing, indexing, or migrating notes."
 github_stars: 1300

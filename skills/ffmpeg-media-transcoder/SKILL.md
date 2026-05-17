@@ -1,5 +1,5 @@
 ---
-title: "FFmpeg Media Transcoder"
+name: "FFmpeg Media Transcoder"
 slug: "ffmpeg-media-transcoder"
 description: "Automated video and audio transcoding using FFmpeg with hardware-accelerated encoding via NVENC/VAAPI, HLS adaptive streaming output, and MediaInfo-based quality validation."
 github_stars: 58972

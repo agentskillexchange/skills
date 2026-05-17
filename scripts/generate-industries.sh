@@ -52,6 +52,9 @@ def downloads_str(n):
     n = int(n or 0)
     return f"{fmt_num(n)}/wk" if n else "—"
 
+def display_name(item):
+    return html.unescape(item.get("name") or item.get("title") or "")
+
 
 manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
 collections = manifest.get("collections", [])
@@ -72,7 +75,8 @@ for item in items:
     slug = item.get("slug")
     if not slug:
         continue
-    item["title"] = html.unescape(item.get("title", ""))
+    item["name"] = display_name(item)
+    item["title"] = item["name"]
     item["description"] = html.unescape(item.get("description", ""))
     item["categories"] = [html.unescape(x) for x in item.get("categories", [])]
     item["frameworks"] = [html.unescape(x) for x in item.get("frameworks", [])]
@@ -123,7 +127,7 @@ for collection in collections:
         category = (item.get("categories") or ["Uncategorized"])[0]
         stars = fmt_num(item.get("github_stars") or 0)
         downloads = downloads_str(item.get("npm_downloads") or 0)
-        lines.append(f"| [{item['title']}](../skills/{item['slug']}/) | {category} | {stars} | {downloads} |")
+        lines.append(f"| [{item['name']}](../skills/{item['slug']}/) | {category} | {stars} | {downloads} |")
 
 
     caution = collection.get("editorial_caution")

@@ -1,5 +1,5 @@
 ---
-title: "ArgoCD Sync Wave Orchestrator"
+name: "ArgoCD Sync Wave Orchestrator"
 slug: "argocd-sync-wave-orchestrator-wave48"
 description: "Manages ArgoCD application sync waves and hooks using the ArgoCD API and argocd CLI. Coordinates multi-application deployment ordering with sync-wave annotations, health checks, and progressive rollout gates."
 github_stars: 22593

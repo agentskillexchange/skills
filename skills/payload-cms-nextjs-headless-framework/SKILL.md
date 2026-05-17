@@ -1,5 +1,5 @@
 ---
-title: "Payload CMS Next.js-Native Headless CMS and Application Framework"
+name: "Payload CMS Next.js-Native Headless CMS and Application Framework"
 slug: "payload-cms-nextjs-headless-framework"
 description: "Payload is an open-source, TypeScript-first headless CMS that installs directly into a Next.js application. It provides a full admin panel, REST and GraphQL APIs, access control, file uploads, and rich text editing with zero separate backend required."
 github_stars: 41552

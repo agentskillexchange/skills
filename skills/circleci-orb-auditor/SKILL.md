@@ -1,5 +1,5 @@
 ---
-title: "CircleCI Orb Auditor"
+name: "CircleCI Orb Auditor"
 slug: "circleci-orb-auditor"
 description: "Audits CircleCI orb versions and configurations using the CircleCI v2 API. Flags deprecated orbs, provides pinning recommendations, and checks security advisories from the orb registry."
 github_stars: 843

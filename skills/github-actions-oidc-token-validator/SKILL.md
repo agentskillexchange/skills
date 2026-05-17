@@ -1,5 +1,5 @@
 ---
-title: "GitHub Actions OIDC Token Validator"
+name: "GitHub Actions OIDC Token Validator"
 slug: "github-actions-oidc-token-validator"
 description: "Validates GitHub Actions OIDC tokens for secure, secretless deployments. Uses the GitHub Actions id-token API and the jose JWT library to verify audience, issuer, and subject claims. Integrates with AWS STS AssumeRoleWithWebIdentity and GCP Workload Identity Federation for cloud access."
 verification: "security_reviewed"

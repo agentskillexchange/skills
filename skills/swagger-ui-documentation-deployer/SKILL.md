@@ -1,5 +1,5 @@
 ---
-title: "Swagger UI Documentation Deployer"
+name: "Swagger UI Documentation Deployer"
 slug: "swagger-ui-documentation-deployer"
 description: "Deploys interactive Swagger UI documentation sites from OpenAPI specs with custom branding, authentication presets, and CDN-hosted static builds. Integrates with Redoc for alternative rendering."
 github_stars: 28751

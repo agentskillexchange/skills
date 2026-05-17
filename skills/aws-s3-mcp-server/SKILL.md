@@ -1,5 +1,5 @@
 ---
-title: "AWS S3 MCP Server"
+name: "AWS S3 MCP Server"
 slug: "aws-s3-mcp-server"
 description: ""
 github_stars: 3626

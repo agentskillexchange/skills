@@ -30,7 +30,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [fx Terminal JSON Viewer and Processor](../../skills/fx-terminal-json-viewer-processor/) | ⬇ 206k/wk |
 | [GraphQL Data Federation Agent](../../skills/graphql-data-federation-agent/) | ⬇ 34.2M/wk |
 | [GraphQL Schema Introspection Mapper](../../skills/graphql-schema-introspection-mapper/) | ⬇ 34.2M/wk |
-| [CSV Schema Validator &#038; Auto-Fixer](../../skills/csv-schema-validator-auto-fixer/) | ⬇ 291.1M/wk |
+| [CSV Schema Validator & Auto-Fixer](../../skills/csv-schema-validator-auto-fixer/) | ⬇ 291.1M/wk |
 | [Parse local PDFs into agent-ready text, JSON, and screenshots with LiteParse](../../skills/parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse/) | ⬇ 37k/wk |
 | [Stripe Revenue Analytics Dashboard Builder](../../skills/stripe-revenue-analytics-dashboard/) | ⬇ 9.3M/wk |
 
@@ -95,7 +95,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Maxun No-Code Web Data Extraction Platform](../../skills/maxun-no-code-web-data-extraction/) | 15.3k | — |
 | [Dagster Data Pipeline Orchestrator](../../skills/dagster-data-pipeline-orchestrator/) | 15.3k | — |
 | [yq YAML and Structured Data Processor](../../skills/yq-yaml-structured-data-processor/) | 15.1k | — |
-| [CSV Schema Validator &#038; Auto-Fixer](../../skills/csv-schema-validator-auto-fixer/) | 14.7k | 291.1M/wk |
+| [CSV Schema Validator & Auto-Fixer](../../skills/csv-schema-validator-auto-fixer/) | 14.7k | 291.1M/wk |
 | [Unstructured Document ETL Toolkit](../../skills/unstructured-document-etl-toolkit/) | 14.5k | — |
 | [Unstructured Document ETL for LLM Pipelines](../../skills/unstructured-document-etl-for-llm-pipelines/) | 14.4k | — |
 | [gron Greppable JSON Flattener](../../skills/gron-greppable-json-flattener/) | 14.4k | — |
@@ -109,7 +109,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [dbt Data Transformation Orchestrator](../../skills/dbt-data-transformation-orchestrator/) | 12.6k | — |
 | [dbt Model Dependency Analyzer](../../skills/dbt-model-dependency-analyzer/) | 12.6k | — |
 | [dbt Model Dependency Resolver](../../skills/dbt-model-dependency-resolver-2/) | 12.6k | — |
-| [dbt Model Lineage &amp; Test Coverage Checker](../../skills/dbt-model-lineage-test-coverage-2/) | 12.6k | — |
+| [dbt Model Lineage & Test Coverage Checker](../../skills/dbt-model-lineage-test-coverage-2/) | 12.6k | — |
 | [dbt Model Lineage Analyzer](../../skills/dbt-model-lineage-analyzer/) | 12.6k | — |
 | [dbt Model Lineage Extractor](../../skills/dbt-model-lineage-extractor-2/) | 12.6k | — |
 | [dbt Model Lineage Mapper](../../skills/dbt-model-lineage-mapper/) | 12.6k | — |
@@ -205,11 +205,11 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Search large PDFs and read only the relevant pages before answering](../../skills/search-large-pdfs-and-read-only-the-relevant-pages-before-answering/) | 17 | — |
 | [Process, redact, OCR, and sign documents with Nutrient Agent Skill](../../skills/process-redact-ocr-and-sign-documents-with-nutrient-agent-skill/) | 5 | — |
 | [Convert HTML emails and web fragments into clean plain text for downstream agents](../../skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/) | — | 8.2M/wk |
-| [Metabase Dashboard Snapshot &amp; Alerting](../../skills/metabase-dashboard-snapshot-alerting-2/) | — | — |
+| [Metabase Dashboard Snapshot & Alerting](../../skills/metabase-dashboard-snapshot-alerting-2/) | — | — |
 | [Parquet to PostgreSQL Loader](../../skills/parquet-to-postgresql-loader/) | — | — |
 | [QuickBooks Online Invoice Reconciliation Agent](../../skills/quickbooks-invoice-reconciliation/) | — | — |
 | [Reddit Subreddit Sentiment Tracker](../../skills/reddit-subreddit-sentiment-tracker/) | — | — |
-| [Weights &amp; Biases Run Monitor](../../skills/wandb-run-monitor/) | — | — |
+| [Weights & Biases Run Monitor](../../skills/wandb-run-monitor/) | — | — |
 
 ---
 

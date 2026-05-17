@@ -1,5 +1,5 @@
 ---
-title: "Simulate buyer and user personas to pressure-test ideas and messaging with TinyTroupe"
+name: "Simulate buyer and user personas to pressure-test ideas and messaging with TinyTroupe"
 slug: "simulate-buyer-and-user-personas-to-pressure-test-ideas-and-messaging-with-tinytroupe"
 description: "Use TinyTroupe when an agent should run simulated persona panels, synthetic interviews, or offline audience reactions before spending on campaigns, launches, or user research."
 github_stars: 7392

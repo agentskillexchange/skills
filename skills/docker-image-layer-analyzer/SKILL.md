@@ -1,5 +1,5 @@
 ---
-title: "Docker Image Layer Analyzer"
+name: "Docker Image Layer Analyzer"
 slug: "docker-image-layer-analyzer"
 description: "Analyzes Docker image layers using the Docker Registry HTTP API v2 and dive CLI tool. Calculates layer sizes, identifies wasted space, and suggests multi-stage build optimizations."
 github_stars: 71492

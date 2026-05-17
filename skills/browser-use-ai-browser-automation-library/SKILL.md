@@ -1,5 +1,5 @@
 ---
-title: "Browser Use AI Browser Automation Library"
+name: "Browser Use AI Browser Automation Library"
 slug: "browser-use-ai-browser-automation-library"
 description: "Automates browser tasks with Browser Use, the open-source library that connects LLM reasoning to Playwright-driven web actions. Useful for navigating sites, filling forms, extracting structured page data, and running agentic browser workflows with screenshots and stateful sessions."
 github_stars: 85193

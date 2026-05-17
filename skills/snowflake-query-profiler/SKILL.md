@@ -1,5 +1,5 @@
 ---
-title: "Snowflake Query Profiler"
+name: "Snowflake Query Profiler"
 slug: "snowflake-query-profiler"
 description: "Profiles and optimizes Snowflake SQL queries using the Snowflake Information Schema and Query History views. Identifies warehouse sizing issues, scanning inefficiencies, and recommends clustering keys."
 github_stars: 724

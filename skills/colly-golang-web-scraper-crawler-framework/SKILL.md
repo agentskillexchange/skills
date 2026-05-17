@@ -1,5 +1,5 @@
 ---
-title: "Colly Golang Web Scraper and Crawler Framework"
+name: "Colly Golang Web Scraper and Crawler Framework"
 slug: "colly-golang-web-scraper-crawler-framework"
 description: "Colly is a fast open-source scraping and crawling framework for Go. It is built for everything from simple page extraction to asynchronous crawlers that process large collections of pages with request callbacks and structured parsing."
 github_stars: 25229

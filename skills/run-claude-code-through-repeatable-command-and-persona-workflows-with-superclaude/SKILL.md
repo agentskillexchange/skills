@@ -1,5 +1,5 @@
 ---
-title: "Run Claude Code through repeatable command and persona workflows with SuperClaude"
+name: "Run Claude Code through repeatable command and persona workflows with SuperClaude"
 slug: "run-claude-code-through-repeatable-command-and-persona-workflows-with-superclaude"
 description: "Turn Claude Code into a command-driven workflow surface for research, planning, implementation, testing, and review instead of steering every step ad hoc."
 github_stars: 22321

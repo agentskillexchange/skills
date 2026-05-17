@@ -1,5 +1,5 @@
 ---
-title: "Google Search Console Insights Agent"
+name: "Google Search Console Insights Agent"
 slug: "gsc-insights-agent"
 description: "Extracts search performance data via the Google Search Console API v1 /searchAnalytics/query endpoint. Analyzes CTR, impressions, and position trends with dimension filtering by page, query, device, and country."
 verification: "security_reviewed"

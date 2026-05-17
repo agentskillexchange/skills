@@ -1,5 +1,5 @@
 ---
-title: "Nx Monorepo Workflow Orchestrator"
+name: "Nx Monorepo Workflow Orchestrator"
 slug: "nx-monorepo-workflow-orchestrator"
 description: "Manages Nx workspace task orchestration using nx.json configuration and @nrwl/devkit executors. Automates dependency graph analysis, affected project detection, and distributed task execution via Nx Cloud."
 github_stars: 28496

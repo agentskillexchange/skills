@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Playwright MCP"
+name: "Microsoft Playwright MCP"
 slug: "microsoft-playwright-mcp"
 description: "Microsoft Playwright MCP exposes Playwright browser automation through the Model Context Protocol, giving agents structured page access instead of screenshot-only workflows. It is a strong fit when you want dependable navigation, form filling, DOM inspection, and test-like automation inside an MCP-compatible client."
 github_stars: 30794

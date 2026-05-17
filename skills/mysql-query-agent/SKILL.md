@@ -1,5 +1,5 @@
 ---
-title: "MySQL Query Agent"
+name: "MySQL Query Agent"
 slug: "mysql-query-agent"
 description: ""
 github_stars: 4355

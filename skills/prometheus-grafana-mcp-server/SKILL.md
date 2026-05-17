@@ -1,5 +1,5 @@
 ---
-title: "Prometheus / Grafana MCP Server"
+name: "Prometheus / Grafana MCP Server"
 slug: "prometheus-grafana-mcp-server"
 description: ""
 github_stars: 73808

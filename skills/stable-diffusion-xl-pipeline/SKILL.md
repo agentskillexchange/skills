@@ -1,5 +1,5 @@
 ---
-title: "Stable Diffusion XL Pipeline"
+name: "Stable Diffusion XL Pipeline"
 slug: "stable-diffusion-xl-pipeline"
 description: "Orchestrates SDXL image generation via the Stability AI REST API with ControlNet conditioning, IP-Adapter style transfer, and automatic prompt enhancement using CLIP interrogation."
 github_stars: 27135

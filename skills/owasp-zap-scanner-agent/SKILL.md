@@ -1,5 +1,5 @@
 ---
-title: "OWASP ZAP Scanner Agent"
+name: "OWASP ZAP Scanner Agent"
 slug: "owasp-zap-scanner-agent"
 description: "Integrates the OWASP ZAP API to run automated DAST scans against web applications. Parses ZAP JSON reports, triages alerts by CVSS severity, and generates remediation tickets via Jira REST API."
 github_stars: 14991

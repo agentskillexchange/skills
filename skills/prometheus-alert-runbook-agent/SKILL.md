@@ -1,5 +1,5 @@
 ---
-title: "Prometheus Alert Runbook Agent"
+name: "Prometheus Alert Runbook Agent"
 slug: "prometheus-alert-runbook-agent"
 description: "Automates incident response for Prometheus alerts using PromQL queries, Alertmanager API, and Grafana dashboards. Maps alerts to diagnostic runbooks with remediation steps."
 github_stars: 63584

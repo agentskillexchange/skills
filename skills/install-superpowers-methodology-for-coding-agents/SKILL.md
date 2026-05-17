@@ -1,5 +1,5 @@
 ---
-title: "Install Superpowers methodology for coding agents"
+name: "Install Superpowers methodology for coding agents"
 slug: "install-superpowers-methodology-for-coding-agents"
 description: "Use Superpowers to give coding agents a structured software-development method with discovery, spec review, planning, TDD, subagents, and review loops."
 github_stars: 194639

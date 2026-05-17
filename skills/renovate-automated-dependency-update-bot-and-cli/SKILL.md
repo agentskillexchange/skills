@@ -1,5 +1,5 @@
 ---
-title: "Renovate Automated Dependency Update Bot and CLI"
+name: "Renovate Automated Dependency Update Bot and CLI"
 slug: "renovate-automated-dependency-update-bot-and-cli"
 description: "Renovate is an open source dependency automation tool that discovers package files and opens update pull requests across many ecosystems. This skill fits agents that need to plan, configure, or operate dependency update workflows in GitHub, GitLab, Bitbucket, or other supported source control platforms."
 github_stars: 21263

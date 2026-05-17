@@ -1,5 +1,5 @@
 ---
-title: "Embed bounded Claude Code sessions into Python automation with the Claude Agent SDK"
+name: "Embed bounded Claude Code sessions into Python automation with the Claude Agent SDK"
 slug: "embed-bounded-claude-code-sessions-into-python-automation-with-the-claude-agent-sdk"
 description: "Use the Claude Agent SDK for Python when an existing script or service needs to delegate scoped repo work to Claude Code and consume structured responses programmatically."
 github_stars: 6390

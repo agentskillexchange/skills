@@ -1,5 +1,5 @@
 ---
-title: "PocketBase Open Source Realtime Backend in a Single Binary"
+name: "PocketBase Open Source Realtime Backend in a Single Binary"
 slug: "pocketbase-open-source-realtime-backend-single-binary"
 description: "PocketBase is an open-source Go backend that ships as a single portable executable. It includes an embedded SQLite database with realtime subscriptions, built-in file and user management, a convenient admin dashboard UI, and a simple REST-ish API."
 github_stars: 57251

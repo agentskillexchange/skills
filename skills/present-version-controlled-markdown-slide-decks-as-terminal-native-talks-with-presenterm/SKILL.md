@@ -1,5 +1,5 @@
 ---
-title: "Present version-controlled markdown slide decks as terminal-native talks with Presenterm"
+name: "Present version-controlled markdown slide decks as terminal-native talks with Presenterm"
 slug: "present-version-controlled-markdown-slide-decks-as-terminal-native-talks-with-presenterm"
 description: "Turn markdown slide decks into terminal presentations for live demos, reviews, and workshops without leaving plain text or git."
 github_stars: 8246

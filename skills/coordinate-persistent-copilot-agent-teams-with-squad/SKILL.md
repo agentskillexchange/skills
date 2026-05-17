@@ -1,5 +1,5 @@
 ---
-title: "Coordinate persistent Copilot agent teams with Squad"
+name: "Coordinate persistent Copilot agent teams with Squad"
 slug: "coordinate-persistent-copilot-agent-teams-with-squad"
 description: "Use Squad to create human-directed specialist agents that persist in a repository, share decisions through files, and help coordinate implementation, testing, and review work in GitHub Copilot."
 github_stars: 2518

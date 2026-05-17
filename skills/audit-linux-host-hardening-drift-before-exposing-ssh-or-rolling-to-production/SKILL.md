@@ -1,5 +1,5 @@
 ---
-title: "Audit Linux host hardening drift before exposing SSH or rolling to production"
+name: "Audit Linux host hardening drift before exposing SSH or rolling to production"
 slug: "audit-linux-host-hardening-drift-before-exposing-ssh-or-rolling-to-production"
 description: "Uses Lynis to run an on-host security audit and turn the findings into a prioritized hardening checklist for an agent or operator. Invoke it when a machine is about to become internet-facing, after base image changes, or whenever you need a quick read on hardening drift instead of a generic vulnerability scan."
 github_stars: 15505

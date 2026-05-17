@@ -1,5 +1,5 @@
 ---
-title: "Drive dependency and config bumps through declarative Updatecli pipelines"
+name: "Drive dependency and config bumps through declarative Updatecli pipelines"
 slug: "drive-dependency-and-config-bumps-through-declarative-updatecli-pipelines"
 description: "Use Updatecli when an agent needs to detect upstream releases, validate conditions, patch versioned files, and open reviewable update actions from one policy run instead of hand-editing manifests or relying on a single ecosystem bot."
 github_stars: 894

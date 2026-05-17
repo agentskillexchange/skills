@@ -1,5 +1,5 @@
 ---
-title: "Yeoman Generator Builder"
+name: "Yeoman Generator Builder"
 slug: "yeoman-generator-builder"
 description: "Creates custom Yeoman generators using the yeoman-generator API and yo CLI. Scaffolds generator packages with prompting, writing, and install phases, supporting composability via this.composeWith() for multi-generator workflows."
 github_stars: 1262

@@ -1,5 +1,5 @@
 ---
-title: "Prometheus AlertManager Rule Optimizer"
+name: "Prometheus AlertManager Rule Optimizer"
 slug: "prometheus-alertmanager-rule-optimizer"
 description: "Analyzes Prometheus alerting rules and AlertManager configuration to reduce alert fatigue. Uses PromQL query analysis and historical firing patterns to suggest rule consolidation and threshold adjustments."
 github_stars: 63584

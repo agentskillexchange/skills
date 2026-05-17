@@ -1,5 +1,5 @@
 ---
-title: "Playwright Visual Regression Suite"
+name: "Playwright Visual Regression Suite"
 slug: "playwright-visual-regression-suite"
 description: "Automated visual regression testing using Playwright's screenshot comparison API (page.screenshot with maxDiffPixelRatio) and toMatchSnapshot assertions. Supports cross-browser testing on Chromium, Firefox, and WebKit."
 github_stars: 86409

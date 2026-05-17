@@ -1,5 +1,5 @@
 ---
-title: "Vosk Offline Speech Recognition Toolkit"
+name: "Vosk Offline Speech Recognition Toolkit"
 slug: "vosk-offline-speech-recognition-toolkit"
 description: "Perform offline speech recognition across 20+ languages with Vosk. Provides compact models, zero-latency streaming transcription, and bindings for Python, Node.js, Java, C#, and Go — all without cloud API dependencies."
 github_stars: 14474

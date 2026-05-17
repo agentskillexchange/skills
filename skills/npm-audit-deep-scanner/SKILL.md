@@ -1,5 +1,5 @@
 ---
-title: "NPM Audit Deep Scanner"
+name: "NPM Audit Deep Scanner"
 slug: "npm-audit-deep-scanner"
 description: "Extends npm audit with deep transitive dependency analysis using the npm Registry API. Generates fix PRs via GitHub API and cross-checks advisories against the OSV.dev vulnerability database."
 verification: "security_reviewed"

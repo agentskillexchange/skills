@@ -1,5 +1,5 @@
 ---
-title: "Jest Unit Test Scaffolder"
+name: "Jest Unit Test Scaffolder"
 slug: "jest-unit-test-scaffolder"
 description: ""
 github_stars: 45359

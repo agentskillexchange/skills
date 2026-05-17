@@ -1,5 +1,5 @@
 ---
-title: "gRPC Service Tool"
+name: "gRPC Service Tool"
 slug: "grpc-service-tool"
 description: ""
 github_stars: 4822

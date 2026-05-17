@@ -1,5 +1,5 @@
 ---
-title: "Docker Build Cache Optimizer"
+name: "Docker Build Cache Optimizer"
 slug: "docker-build-cache-optimizer"
 description: "Optimizes Docker build performance using BuildKit cache mount analysis, docker history layer inspection, and Dockerfile linting via hadolint. Reduces build times by restructuring layer ordering and implementing multi-stage build patterns."
 github_stars: 71492

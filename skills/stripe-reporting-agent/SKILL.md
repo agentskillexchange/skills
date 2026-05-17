@@ -1,5 +1,5 @@
 ---
-title: "Stripe Reporting Agent"
+name: "Stripe Reporting Agent"
 slug: "stripe-reporting-agent"
 description: ""
 github_stars: 4385

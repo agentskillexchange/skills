@@ -1,5 +1,5 @@
 ---
-title: "Investigate production incidents across observability signals and draft next remediation steps with OpenSRE"
+name: "Investigate production incidents across observability signals and draft next remediation steps with OpenSRE"
 slug: "investigate-production-incidents-across-observability-signals-and-draft-next-remediation-steps-with-opensre"
 description: "Pull logs, metrics, traces, and runbook context into one incident investigation loop before a human operator guesses at the root cause."
 github_stars: 1979

@@ -1,5 +1,5 @@
 ---
-title: "Browserless Scraping Agent"
+name: "Browserless Scraping Agent"
 slug: "browserless-scraping-agent"
 description: "Drives headless Chrome via the Browserless.io API for scraping dynamic SPAs. Uses /content, /screenshot, and /pdf endpoints with stealth mode. Manages session tokens and concurrent connection limits."
 verification: "security_reviewed"

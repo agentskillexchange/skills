@@ -1,5 +1,5 @@
 ---
-title: "Firebase — Google Application Development Platform"
+name: "Firebase — Google Application Development Platform"
 slug: "firebase-google-app-development-platform"
 description: "Firebase is Google's app development platform providing real-time databases, authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android, and Flutter applications."
 github_stars: 5100

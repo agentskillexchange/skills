@@ -1,5 +1,5 @@
 ---
-title: "commitlint Conventional Commit Message Linter"
+name: "commitlint Conventional Commit Message Linter"
 slug: "commitlint-conventional-commit-message-linter"
 description: "commitlint checks whether git commit messages meet the Conventional Commits specification, enforcing structured formats like type(scope): subject. Shareable configuration packages let teams standardize commit conventions, and integration with husky enables automatic linting on every commit via git hooks."
 github_stars: 18425

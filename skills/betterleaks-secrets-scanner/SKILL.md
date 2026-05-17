@@ -1,5 +1,5 @@
 ---
-title: "Betterleaks Next-Generation Secrets Scanner"
+name: "Betterleaks Next-Generation Secrets Scanner"
 slug: "betterleaks-secrets-scanner"
 description: "A fast, configurable secrets scanner built by the creator of Gitleaks and backed by Aikido Security. Betterleaks detects leaked passwords, API keys, and tokens in git repositories, directories, and stdin with CEL-based validation and parallelized scanning."
 github_stars: 712

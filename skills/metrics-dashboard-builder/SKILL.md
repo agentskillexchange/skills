@@ -1,5 +1,5 @@
 ---
-title: "Metrics Dashboard Builder"
+name: "Metrics Dashboard Builder"
 slug: "metrics-dashboard-builder"
 description: ""
 github_stars: 103

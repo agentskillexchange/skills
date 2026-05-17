@@ -1,5 +1,5 @@
 ---
-title: "Prometheus Alert Tuner"
+name: "Prometheus Alert Tuner"
 slug: "prometheus-alert-tuner"
 description: "Tunes Prometheus alerting rules using the Prometheus HTTP API and PromQL query analysis. Reduces alert fatigue by analyzing firing history, adjusting thresholds via histogram_quantile, and configuring inhibition rules."
 github_stars: 63584

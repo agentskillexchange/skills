@@ -1,5 +1,5 @@
 ---
-title: "Semgrep Rule Engine"
+name: "Semgrep Rule Engine"
 slug: "semgrep-rule-engine"
 description: "Executes Semgrep static analysis using the semgrep CLI with custom YAML rule definitions. Supports taint tracking, metavariable comparisons, and pattern-not-inside exclusions for precise vulnerability detection."
 github_stars: 14794

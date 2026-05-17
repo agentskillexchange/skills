@@ -1,5 +1,5 @@
 ---
-title: "Audit Python dependency declarations for unused, missing, and transitive imports before release"
+name: "Audit Python dependency declarations for unused, missing, and transitive imports before release"
 slug: "audit-python-dependency-declarations-before-release"
 description: "Use Deptry when an agent needs to verify that a Python project's declared dependencies still match the imports the code actually uses. The agent scans the codebase, flags unused direct dependencies, missing declarations, and transitive imports that only work by accident, then turns the findings into cleanup commits or release blockers."
 github_stars: 1359

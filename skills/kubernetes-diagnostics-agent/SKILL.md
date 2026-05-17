@@ -1,5 +1,5 @@
 ---
-title: "Kubernetes Diagnostics Agent"
+name: "Kubernetes Diagnostics Agent"
 slug: "kubernetes-diagnostics-agent"
 description: "Performs deep cluster troubleshooting using the Kubernetes API server /debug/pprof endpoints and kubectl-debug ephemeral containers. Analyzes resource pressure via the Metrics Server API and kube-state-metrics."
 github_stars: 121700

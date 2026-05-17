@@ -1,5 +1,5 @@
 ---
-title: "Apply repeatable IMAP rules to triage and clean inboxes with imapfilter"
+name: "Apply repeatable IMAP rules to triage and clean inboxes with imapfilter"
 slug: "apply-repeatable-imap-rules-to-triage-and-clean-inboxes-with-imapfilter"
 description: "Route, label, and clean routine email traffic with scripted IMAP rules instead of doing the same inbox chores by hand."
 github_stars: 917

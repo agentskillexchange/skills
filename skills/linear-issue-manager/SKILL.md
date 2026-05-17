@@ -1,5 +1,5 @@
 ---
-title: "Linear Issue Manager"
+name: "Linear Issue Manager"
 slug: "linear-issue-manager"
 description: ""
 verification: "security_reviewed"

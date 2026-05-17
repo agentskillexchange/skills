@@ -1,5 +1,5 @@
 ---
-title: "yq YAML and Structured Data Processor"
+name: "yq YAML and Structured Data Processor"
 slug: "yq-yaml-structured-data-processor"
 description: "Process, query, and transform YAML, JSON, XML, CSV, TOML, and properties files from the command line using yq. Supports jq-like expressions for reading, updating, and converting between formats."
 github_stars: 15143

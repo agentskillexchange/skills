@@ -1,5 +1,5 @@
 ---
-title: "Drive token-efficient browser testing from coding agents with Playwright CLI"
+name: "Drive token-efficient browser testing from coding agents with Playwright CLI"
 slug: "drive-token-efficient-browser-testing-from-coding-agents-with-playwright-cli"
 description: "Use Playwright CLI when a coding agent needs to open pages, inspect snapshots, click, type, capture screenshots, and manage browser sessions through concise shell commands instead of loading a full browser automation server or hand-writing Playwright scripts first."
 github_stars: 9956

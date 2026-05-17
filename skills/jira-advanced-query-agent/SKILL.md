@@ -1,5 +1,5 @@
 ---
-title: "Jira Advanced Query Agent"
+name: "Jira Advanced Query Agent"
 slug: "jira-advanced-query-agent"
 description: ""
 verification: "security_reviewed"

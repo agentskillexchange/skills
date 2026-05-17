@@ -1,5 +1,5 @@
 ---
-title: "Playwright E2E Test Generator"
+name: "Playwright E2E Test Generator"
 slug: "playwright-e2e-test-generator"
 description: "Generates Playwright test suites from natural language descriptions using the Playwright Test API. Supports cross-browser testing with Chromium, Firefox, and WebKit via BrowserContext fixtures."
 github_stars: 86409

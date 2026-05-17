@@ -1,5 +1,5 @@
 ---
-title: "Monitor Claude Code and Codex local usage logs for spend, model mix, and session burn with ccusage"
+name: "Monitor Claude Code and Codex local usage logs for spend, model mix, and session burn with ccusage"
 slug: "monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage"
 description: "Use ccusage when an agent operator needs to turn local Claude Code or Codex usage logs into spend and usage reports instead of manually reading raw JSONL files."
 github_stars: 12900

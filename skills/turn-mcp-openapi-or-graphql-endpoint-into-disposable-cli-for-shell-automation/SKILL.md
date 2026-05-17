@@ -1,5 +1,5 @@
 ---
-title: "Turn an MCP, OpenAPI, or GraphQL endpoint into a disposable CLI for shell automation"
+name: "Turn an MCP, OpenAPI, or GraphQL endpoint into a disposable CLI for shell automation"
 slug: "turn-mcp-openapi-or-graphql-endpoint-into-disposable-cli-for-shell-automation"
 description: "Generate a shell-ready CLI from an MCP server, OpenAPI spec, or GraphQL endpoint so an agent can discover commands and call tools immediately without hand-written wrappers."
 github_stars: 1940

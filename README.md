@@ -138,6 +138,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 ```json
 {
+  "name": "Playwright MCP Browser Automation",
   "slug": "playwright-mcp-browser-automation",
   "title": "Playwright MCP Browser Automation",
   "description": "Official Playwright-powered browser control for agent workflows.",

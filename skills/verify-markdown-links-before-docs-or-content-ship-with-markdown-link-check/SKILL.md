@@ -1,5 +1,5 @@
 ---
-title: "Verify Markdown links before docs or content ship with markdown-link-check"
+name: "Verify Markdown links before docs or content ship with markdown-link-check"
 slug: "verify-markdown-links-before-docs-or-content-ship-with-markdown-link-check"
 description: "Catch dead links in README files, docs folders, and content drafts before a broken reference ships to users."
 github_stars: 693

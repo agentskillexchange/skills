@@ -1,5 +1,5 @@
 ---
-title: "DALL-E 3 Brand Asset Batch Generator"
+name: "DALL-E 3 Brand Asset Batch Generator"
 slug: "dall-e-3-brand-asset-batch-generator"
 description: "Batch-generates brand assets using the OpenAI Images API with DALL-E 3. Manages prompt engineering for consistent brand identity across icons, banners, and social media templates."
 verification: "security_reviewed"

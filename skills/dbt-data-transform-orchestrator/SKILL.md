@@ -1,5 +1,5 @@
 ---
-title: "dbt Data Transform Orchestrator"
+name: "dbt Data Transform Orchestrator"
 slug: "dbt-data-transform-orchestrator"
 description: "Integrates with dbt Cloud Administrative API v2 to trigger and monitor data transformation jobs. Manages model runs, source freshness checks, and test execution through dbt API endpoints with Snowflake and BigQuery adapter support."
 github_stars: 12621

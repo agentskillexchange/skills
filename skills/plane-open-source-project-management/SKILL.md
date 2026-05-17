@@ -1,5 +1,5 @@
 ---
-title: "Plane Open Source Project Management Platform"
+name: "Plane Open Source Project Management Platform"
 slug: "plane-open-source-project-management"
 description: "Plane is an open-source project management platform that serves as a self-hostable alternative to Jira, Linear, and ClickUp. It provides issue tracking, sprint cycles, product roadmaps, collaborative documents, and project analytics with a modern interface and full data ownership."
 github_stars: 47388

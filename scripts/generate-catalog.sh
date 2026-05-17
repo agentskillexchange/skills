@@ -68,6 +68,9 @@ def downloads_str(n):
     n = int(n or 0)
     return f"{fmt_num(n)}/wk" if n else "—"
 
+def display_name(item):
+    return html.unescape(item.get("name") or item.get("title") or "")
+
 cats, _ = fetch_json(WP_CAT_URL)
 cat_rows = [{"name": html.unescape(c["name"]), "slug": c["slug"], "count": int(c["count"])} for c in cats]
 items = []
@@ -105,7 +108,7 @@ for cat in cat_rows:
     cat_name = cat['name']
     cat_slug = cat['slug']
     cat_items = [i for i in items if cat_name in i.get('categories', [])]
-    cat_items.sort(key=lambda i: (-int(i.get('github_stars') or 0), -int(i.get('npm_downloads') or 0), i.get('title', '').lower()))
+    cat_items.sort(key=lambda i: (-int(i.get('github_stars') or 0), -int(i.get('npm_downloads') or 0), display_name(i).lower()))
     emoji = CAT_EMOJI.get(cat_name, '📦')
     browse_url = f'{SITE_BASE}/browse-skills/?category=' + urllib.parse.quote(cat_name, safe='')
     lines += [
@@ -117,7 +120,7 @@ for cat in cat_rows:
         "|---|---|---|---:|---:|",
     ]
     for item in cat_items:
-        title = html.unescape(item.get('title', ''))
+        title = display_name(item)
         slug = item.get('slug', '')
         tier = VER_LABEL.get(item.get('verification', 'listed'), 'Published')
         desc = html.unescape((item.get('excerpt') or '').strip())

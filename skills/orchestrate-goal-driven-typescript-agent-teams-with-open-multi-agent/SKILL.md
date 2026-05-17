@@ -1,5 +1,5 @@
 ---
-title: "Orchestrate goal-driven TypeScript agent teams with Open Multi Agent"
+name: "Orchestrate goal-driven TypeScript agent teams with Open Multi Agent"
 slug: "orchestrate-goal-driven-typescript-agent-teams-with-open-multi-agent"
 description: "Turn a user goal into a planned multi-agent task DAG, execute independent tasks in parallel, and trace the run from a TypeScript backend."
 github_stars: 6088

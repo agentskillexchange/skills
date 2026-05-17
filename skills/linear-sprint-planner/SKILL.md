@@ -1,5 +1,5 @@
 ---
-title: "Linear Sprint Planner"
+name: "Linear Sprint Planner"
 slug: "linear-sprint-planner"
 description: ""
 verification: "security_reviewed"

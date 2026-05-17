@@ -1,5 +1,5 @@
 ---
-title: "Generate fast static photo album sites from curated folders with DD Photos"
+name: "Generate fast static photo album sites from curated folders with DD Photos"
 slug: "generate-fast-static-photo-album-sites-from-curated-folders-with-dd-photos"
 description: "Turn exported photo folders into a mobile-friendly static album site without standing up a database-backed gallery system."
 github_stars: 155

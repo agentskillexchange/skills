@@ -1,5 +1,5 @@
 ---
-title: "WooCommerce Webhook Orchestrator"
+name: "WooCommerce Webhook Orchestrator"
 slug: "woocommerce-webhook-orchestrator"
 description: "Manages WooCommerce webhook lifecycles using the wc/v3/webhooks REST API and WC_Webhook class. Handles order, product, and customer event routing with payload signature verification via X-WC-Webhook-Signature."
 github_stars: 10271

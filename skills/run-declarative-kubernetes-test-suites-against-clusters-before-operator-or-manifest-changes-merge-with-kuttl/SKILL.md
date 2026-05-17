@@ -1,5 +1,5 @@
 ---
-title: "Run declarative Kubernetes test suites against clusters before operator or manifest changes merge with KUTTL"
+name: "Run declarative Kubernetes test suites against clusters before operator or manifest changes merge with KUTTL"
 slug: "run-declarative-kubernetes-test-suites-against-clusters-before-operator-or-manifest-changes-merge-with-kuttl"
 description: "Express Kubernetes test steps and assertions in YAML, then execute them against a real cluster before shipping controller or manifest changes."
 github_stars: 804

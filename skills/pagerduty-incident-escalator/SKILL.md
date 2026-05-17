@@ -1,5 +1,5 @@
 ---
-title: "PagerDuty Incident Escalator"
+name: "PagerDuty Incident Escalator"
 slug: "pagerduty-incident-escalator"
 description: "Manages PagerDuty incident lifecycle using the PagerDuty REST API v2 /incidents endpoint. Automates escalation policies, merges related incidents, and generates postmortem templates from incident timelines."
 github_stars: 69

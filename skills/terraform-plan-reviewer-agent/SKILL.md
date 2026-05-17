@@ -1,5 +1,5 @@
 ---
-title: "Terraform Plan Reviewer Agent"
+name: "Terraform Plan Reviewer Agent"
 slug: "terraform-plan-reviewer-agent"
 description: "Parses terraform plan -json output and queries the Terraform Cloud API /runs endpoint to review infrastructure changes. Detects destructive operations, estimates cost impact via Infracost API, and validates against OPA policies."
 github_stars: 48146

@@ -1,5 +1,5 @@
 ---
-title: "Puppeteer Browser Automation Library"
+name: "Puppeteer Browser Automation Library"
 slug: "puppeteer-browser-automation-library"
 description: "A practical guide to Puppeteer for browser automation, scraping, and testing. It tracks the official install flow, the Chrome/Firefox control API, and the docs you need to get started quickly."
 github_stars: 94115

@@ -1,5 +1,5 @@
 ---
-title: "WordPress Router"
+name: "WordPress Router"
 slug: "wordpress-router"
 description: "Route WordPress tasks to the right workflow fast. Core Capabilities Manage WordPress sites using WP-CLI and the WordPress REST API Automate plugin, theme, and core update workflows Handle content op"
 github_stars: 21121

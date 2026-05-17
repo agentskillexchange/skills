@@ -1,5 +1,5 @@
 ---
-title: "GrapesJS Open Source Web Builder and Template Design Framework"
+name: "GrapesJS Open Source Web Builder and Template Design Framework"
 slug: "grapesjs-web-builder-template-framework"
 description: "GrapesJS is a free, open-source web builder framework for creating HTML templates without coding. With 25K+ GitHub stars, it powers drag-and-drop page builders, newsletter editors, and CMS template systems with a rich plugin ecosystem."
 github_stars: 25682

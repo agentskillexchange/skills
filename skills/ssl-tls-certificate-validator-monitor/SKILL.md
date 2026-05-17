@@ -1,5 +1,5 @@
 ---
-title: "SSL/TLS Certificate Validator and Monitor"
+name: "SSL/TLS Certificate Validator and Monitor"
 slug: "ssl-tls-certificate-validator-monitor"
 description: "Validates SSL/TLS certificates using OpenSSL s_client, checks OCSP stapling status, and monitors expiry dates. Integrates with crt.sh Certificate Transparency logs and SSLLabs API for grading."
 verification: "security_reviewed"

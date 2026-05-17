@@ -1,5 +1,5 @@
 ---
-title: "Meilisearch MCP Server for AI-Powered Search Integration"
+name: "Meilisearch MCP Server for AI-Powered Search Integration"
 slug: "meilisearch-mcp-server-ai-search"
 description: "Official Model Context Protocol server that connects LLMs to Meilisearch for lightning-fast search, index management, and document operations via natural language. Enables AI agents to manage search infrastructure through conversation."
 github_stars: 181

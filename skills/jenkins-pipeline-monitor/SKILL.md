@@ -1,5 +1,5 @@
 ---
-title: "Jenkins Pipeline Monitor"
+name: "Jenkins Pipeline Monitor"
 slug: "jenkins-pipeline-monitor"
 description: "Monitors Jenkins CI pipelines via the Jenkins REST API (/api/json) and Blue Ocean REST endpoints. Tracks build queue times, stage durations, and test result trends using JUnit XML parsing."
 github_stars: 25189

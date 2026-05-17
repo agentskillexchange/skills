@@ -1,5 +1,5 @@
 ---
-title: "dbt MCP Server"
+name: "dbt MCP Server"
 slug: "dbt-mcp-server"
 description: ""
 github_stars: 12797

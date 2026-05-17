@@ -1,5 +1,5 @@
 ---
-title: "Stripe MCP Server"
+name: "Stripe MCP Server"
 slug: "stripe-mcp-server"
 description: ""
 github_stars: 4419

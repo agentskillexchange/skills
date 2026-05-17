@@ -1,5 +1,5 @@
 ---
-title: "ArgoCD Sync Troubleshooter"
+name: "ArgoCD Sync Troubleshooter"
 slug: "argocd-sync-troubleshooter"
 description: "Diagnoses ArgoCD application sync failures using the ArgoCD REST API and Kubernetes resource diff analysis. Identifies Helm value conflicts, Kustomize overlay errors, and resource health check failures."
 github_stars: 22593

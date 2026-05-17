@@ -1,5 +1,5 @@
 ---
-title: "Cronitor CLI for Cron Monitoring and Job Telemetry"
+name: "Cronitor CLI for Cron Monitoring and Job Telemetry"
 slug: "cronitor-cli-cron-monitoring-job-telemetry"
 description: "CronitorCLI is Cronitor's open-source command-line tool for syncing cron jobs, sending telemetry pings, and wrapping commands with execution monitoring. It fits monitoring-heavy agent runbooks where scheduled jobs, server tasks, and long-running commands need explicit visibility."
 github_stars: 399

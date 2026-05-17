@@ -1,5 +1,5 @@
 ---
-title: "Claude Code MCP Bridge"
+name: "Claude Code MCP Bridge"
 slug: "claude-code-mcp-bridge"
 description: "Run Claude Code as a one-shot MCP tool so other agents and editors can delegate coding tasks to it. An agent-in-agent orchestration bridge."
 github_stars: 1283

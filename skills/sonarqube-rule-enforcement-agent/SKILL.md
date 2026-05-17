@@ -1,5 +1,5 @@
 ---
-title: "SonarQube Rule Enforcement Agent"
+name: "SonarQube Rule Enforcement Agent"
 slug: "sonarqube-rule-enforcement-agent"
 description: "Integrates with SonarQube Web API and sonar-scanner CLI to enforce code quality gates across pull requests. Automatically blocks merges when critical code smells, security hotspots, or duplications exceed configurable thresholds."
 github_stars: 10433

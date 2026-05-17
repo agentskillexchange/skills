@@ -1,5 +1,5 @@
 ---
-title: "Snowflake MCP Server"
+name: "Snowflake MCP Server"
 slug: "snowflake-mcp-server"
 description: ""
 github_stars: 724

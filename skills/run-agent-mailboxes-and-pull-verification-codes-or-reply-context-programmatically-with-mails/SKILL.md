@@ -1,5 +1,5 @@
 ---
-title: "Run agent mailboxes and pull verification codes or reply context programmatically with Mails"
+name: "Run agent mailboxes and pull verification codes or reply context programmatically with Mails"
 slug: "run-agent-mailboxes-and-pull-verification-codes-or-reply-context-programmatically-with-mails"
 description: "Give an agent a mailbox it can send from, read from, search, sync locally, and mine for login codes or attachments without hand-driving a normal email client."
 github_stars: 294

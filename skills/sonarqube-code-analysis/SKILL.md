@@ -1,5 +1,5 @@
 ---
-title: "SonarQube Code Analysis"
+name: "SonarQube Code Analysis"
 slug: "sonarqube-code-analysis"
 description: ""
 github_stars: 10561

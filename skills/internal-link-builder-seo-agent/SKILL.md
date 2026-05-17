@@ -1,5 +1,5 @@
 ---
-title: "Internal Link Builder"
+name: "Internal Link Builder"
 slug: "internal-link-builder-seo-agent"
 description: "Analyzes site content graph using Screaming Frog SEO Spider API and builds internal linking recommendations. Calculates PageRank distribution using networkx graph algorithms."
 verification: "security_reviewed"

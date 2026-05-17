@@ -1,5 +1,5 @@
 ---
-title: "NPM Package Analyzer"
+name: "NPM Package Analyzer"
 slug: "npm-package-analyzer"
 description: "Deep analysis of npm packages using npm-registry-fetch and pacote. Evaluates bundle size via bundlephobia API, checks security advisories from npm audit, and maps dependency trees with arborist."
 verification: "security_reviewed"

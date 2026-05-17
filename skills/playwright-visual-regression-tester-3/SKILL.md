@@ -1,5 +1,5 @@
 ---
-title: "Playwright Visual Regression Tester"
+name: "Playwright Visual Regression Tester"
 slug: "playwright-visual-regression-tester-3"
 description: "Automates visual regression testing using the Playwright screenshot comparison API and pixelmatch diffing library. Captures baseline snapshots, detects pixel-level UI changes across viewport sizes, and generates HTML diff reports with threshold-based pass/fail results."
 github_stars: 86409

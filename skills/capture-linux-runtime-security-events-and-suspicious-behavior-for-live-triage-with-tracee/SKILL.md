@@ -1,5 +1,5 @@
 ---
-title: "Capture Linux runtime security events and suspicious behavior for live triage with Tracee"
+name: "Capture Linux runtime security events and suspicious behavior for live triage with Tracee"
 slug: "capture-linux-runtime-security-events-and-suspicious-behavior-for-live-triage-with-tracee"
 description: "Watch live Linux and container activity through eBPF so you can triage suspicious runtime behavior before it disappears into guesswork."
 github_stars: 4468

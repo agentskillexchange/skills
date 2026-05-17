@@ -1,5 +1,5 @@
 ---
-title: "JSDoc JavaScript API Documentation Generator"
+name: "JSDoc JavaScript API Documentation Generator"
 slug: "jsdoc-javascript-api-documentation-generator"
 description: "JSDoc is the standard API documentation generator for JavaScript. It parses specially-formatted comments in JavaScript source code to produce HTML documentation pages. With 15,000+ GitHub stars and millions of npm downloads, it is the most widely adopted JavaScript documentation tool and the foundation of the JSDoc comment standard used across the entire JS ecosystem."
 github_stars: 15426

@@ -1,5 +1,5 @@
 ---
-title: "ffsubsync Subtitle Synchronization Tool"
+name: "ffsubsync Subtitle Synchronization Tool"
 slug: "ffsubsync-subtitle-synchronization-tool"
 description: "ffsubsync automatically aligns subtitle files to spoken audio by analyzing timing from a reference video or audio file. It is a strong fit for agent workflows that need to repair drifting subtitles without manual waveform editing."
 github_stars: 7659

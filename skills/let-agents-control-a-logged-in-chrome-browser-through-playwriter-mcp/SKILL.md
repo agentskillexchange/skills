@@ -1,5 +1,5 @@
 ---
-title: "Let agents control a logged-in Chrome browser through Playwriter MCP"
+name: "Let agents control a logged-in Chrome browser through Playwriter MCP"
 slug: "let-agents-control-a-logged-in-chrome-browser-through-playwriter-mcp"
 description: "Use Playwriter to give MCP-compatible agents a bounded, stateful Playwright control surface over an operator-approved Chrome session."
 github_stars: 3507

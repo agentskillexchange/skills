@@ -1,5 +1,5 @@
 ---
-title: "Test documentation sites across mobile, tablet, and desktop with GitHub Agentic Workflows"
+name: "Test documentation sites across mobile, tablet, and desktop with GitHub Agentic Workflows"
 slug: "test-documentation-sites-across-mobile-tablet-and-desktop-with-github-agentic-workflows"
 description: "Run a repeatable docs-site check that builds locally, opens the site across device sizes, and reports layout, accessibility, and interaction issues."
 verification: "security_reviewed"

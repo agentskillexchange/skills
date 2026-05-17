@@ -1,5 +1,5 @@
 ---
-title: "ArgoCD GitOps Sync Manager"
+name: "ArgoCD GitOps Sync Manager"
 slug: "argocd-gitops-sync-manager"
 description: "Manages ArgoCD application sync operations with intelligent drift detection and rollback strategies. Uses the ArgoCD gRPC API and ApplicationSet CRD for multi-cluster GitOps deployments."
 github_stars: 22593

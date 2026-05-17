@@ -1,5 +1,5 @@
 ---
-title: "GitLab CI Pipeline Profiler"
+name: "GitLab CI Pipeline Profiler"
 slug: "gitlab-ci-pipeline-profiler"
 description: "Profiles GitLab CI/CD pipeline execution times using the GitLab REST API v4 /projects/:id/pipelines endpoint. Identifies slow jobs, inefficient artifact passing, and cache miss patterns across pipeline history."
 github_stars: 24298

@@ -1,5 +1,5 @@
 ---
-title: "Install Garry Tan’s Claude Code operating stack with gstack"
+name: "Install Garry Tan’s Claude Code operating stack with gstack"
 slug: "install-garry-tans-claude-code-operating-stack-with-gstack"
 description: "Use gstack to bootstrap an opinionated Claude Code workspace with specialist agent skills, commands, hooks, and operating workflows for product-building teams."
 github_stars: 94771

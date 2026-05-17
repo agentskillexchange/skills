@@ -1,5 +1,5 @@
 ---
-title: "Stripe Payments Connector"
+name: "Stripe Payments Connector"
 slug: "stripe-payments-connector"
 description: "Full Stripe API integration using the stripe-node SDK. Creates PaymentIntents via stripe.paymentIntents.create(), manages Customers and Subscriptions, handles webhook events through stripe.webhooks.constructEvent(), and supports Stripe Connect for marketplace payouts."
 github_stars: 4385

@@ -1,5 +1,5 @@
 ---
-title: "Debug live Chromium sessions with browser-debugger-cli"
+name: "Debug live Chromium sessions with browser-debugger-cli"
 slug: "debug-live-chromium-sessions-with-browser-debugger-cli"
 description: "Pull DOM, console, network, and CDP telemetry from a live Chromium session when an agent needs to debug a failing browser task."
 github_stars: 124

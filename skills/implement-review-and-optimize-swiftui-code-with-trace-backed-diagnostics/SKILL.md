@@ -1,5 +1,5 @@
 ---
-title: "Implement, review, and optimize SwiftUI code with trace-backed diagnostics"
+name: "Implement, review, and optimize SwiftUI code with trace-backed diagnostics"
 slug: "implement-review-and-optimize-swiftui-code-with-trace-backed-diagnostics"
 description: "Guide SwiftUI implementation and refactoring with current Apple patterns, then analyze Instruments traces to diagnose hangs, hitches, and expensive view updates."
 verification: "security_reviewed"

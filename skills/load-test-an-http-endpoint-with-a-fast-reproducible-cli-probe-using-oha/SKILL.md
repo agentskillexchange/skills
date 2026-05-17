@@ -1,5 +1,5 @@
 ---
-title: "Load-test an HTTP endpoint with a fast reproducible CLI probe using oha"
+name: "Load-test an HTTP endpoint with a fast reproducible CLI probe using oha"
 slug: "load-test-an-http-endpoint-with-a-fast-reproducible-cli-probe-using-oha"
 description: "Run a quick concurrent HTTP benchmark against a URL before deeper performance work or regression triage."
 github_stars: 10198

@@ -1,5 +1,5 @@
 ---
-title: "Benchmark virtual agents with scripted multi-turn conversations using Agent Evaluation"
+name: "Benchmark virtual agents with scripted multi-turn conversations using Agent Evaluation"
 slug: "benchmark-virtual-agents-with-scripted-multi-turn-conversations-using-agent-evaluation"
 description: "Run concurrent scripted conversations against a target agent to measure whether it stays on task, responds correctly, and holds up in repeatable test cases."
 github_stars: 358

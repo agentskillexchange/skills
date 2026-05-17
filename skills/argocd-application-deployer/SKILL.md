@@ -1,5 +1,5 @@
 ---
-title: "ArgoCD Application Deployer"
+name: "ArgoCD Application Deployer"
 slug: "argocd-application-deployer"
 description: "Manages ArgoCD application deployments via the ArgoCD REST API and argocd CLI. Configures GitOps sync policies, automated rollbacks, and multi-cluster application sets with generator templates."
 github_stars: 22593

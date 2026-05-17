@@ -1,5 +1,5 @@
 ---
-title: "CircleCI Orb Debugger"
+name: "CircleCI Orb Debugger"
 slug: "circleci-orb-debugger"
 description: "Diagnoses and fixes CircleCI orb configuration errors using the CircleCI v2 API and circleci config validate CLI. Parses orb source YAML against the orb development kit schema for type mismatches and parameter validation failures."
 github_stars: 843

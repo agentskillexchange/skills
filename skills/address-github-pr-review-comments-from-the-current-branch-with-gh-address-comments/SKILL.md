@@ -1,5 +1,5 @@
 ---
-title: "Address GitHub PR review comments from the current branch with gh-address-comments"
+name: "Address GitHub PR review comments from the current branch with gh-address-comments"
 slug: "address-github-pr-review-comments-from-the-current-branch-with-gh-address-comments"
 description: "Find the open PR for the current branch, gather unresolved review comments, and drive a focused comment-resolution workflow with gh-authenticated context."
 verification: "security_reviewed"

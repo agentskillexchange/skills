@@ -1,5 +1,5 @@
 ---
-title: "REST API Test Suite Generator"
+name: "REST API Test Suite Generator"
 slug: "rest-api-test-suite-generator"
 description: "Generates comprehensive API test suites from OpenAPI specs using Postman Collection SDK and Newman CLI. Creates parameterized test scenarios with environment-specific variables, auth flows, and assertion chains."
 github_stars: 493

@@ -1,5 +1,5 @@
 ---
-title: "Capture YouTube transcripts without browser automation using YouTube Transcript API"
+name: "Capture YouTube transcripts without browser automation using YouTube Transcript API"
 slug: "capture-youtube-transcripts-without-browser-automation-using-youtube-transcript-api"
 description: "Fetch manual or auto-generated YouTube subtitles, including translations, without Selenium or API keys before summarization, extraction, or quote-checking."
 github_stars: 7352

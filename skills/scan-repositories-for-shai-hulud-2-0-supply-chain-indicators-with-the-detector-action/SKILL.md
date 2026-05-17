@@ -1,5 +1,5 @@
 ---
-title: "Scan repositories for Shai-Hulud 2.0 supply-chain indicators with the detector action"
+name: "Scan repositories for Shai-Hulud 2.0 supply-chain indicators with the detector action"
 slug: "scan-repositories-for-shai-hulud-2-0-supply-chain-indicators-with-the-detector-action"
 description: "Check repositories and CI surfaces for Shai-Hulud 2.0 compromise indicators when the task is targeted supply-chain triage, not generic malware scanning."
 github_stars: 124

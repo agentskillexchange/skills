@@ -1,5 +1,5 @@
 ---
-title: "Apache Tika Document Parser Agent"
+name: "Apache Tika Document Parser Agent"
 slug: "apache-tika-document-parser-agent"
 description: "Extracts text and metadata from 1000+ file formats using Apache Tika server REST API. Handles PDF OCR via Tesseract integration, Office document parsing, and email archive extraction with MIME detection."
 github_stars: 3703

@@ -1,5 +1,5 @@
 ---
-title: "Search local notes, docs, and meeting transcripts for agent context with QMD"
+name: "Search local notes, docs, and meeting transcripts for agent context with QMD"
 slug: "search-local-notes-docs-and-meeting-transcripts-for-agent-context-with-qmd"
 description: "Index local notes, docs, and meeting transcripts, then return ranked files or structured JSON so an agent can pull only the context it needs."
 github_stars: 22082

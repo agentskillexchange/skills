@@ -1,5 +1,5 @@
 ---
-title: "Validate lint bundle and unit-test JSON Schema repositories before release with JSON Schema CLI"
+name: "Validate lint bundle and unit-test JSON Schema repositories before release with JSON Schema CLI"
 slug: "validate-lint-bundle-and-unit-test-json-schema-repositories-before-release-with-json-schema-cli"
 description: "Catch broken schemas, bad references, anti-patterns, and inconsistent formatting before a schema repo or contract bundle ships downstream."
 github_stars: 270

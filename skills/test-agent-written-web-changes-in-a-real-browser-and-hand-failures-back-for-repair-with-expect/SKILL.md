@@ -1,5 +1,5 @@
 ---
-title: "Test agent-written web changes in a real browser and hand failures back for repair with Expect"
+name: "Test agent-written web changes in a real browser and hand failures back for repair with Expect"
 slug: "test-agent-written-web-changes-in-a-real-browser-and-hand-failures-back-for-repair-with-expect"
 description: "Run an agent-native browser QA loop that reads recent code changes, generates a test plan, and returns concrete failures for the coding agent to fix."
 github_stars: 3362

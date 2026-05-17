@@ -1,5 +1,5 @@
 ---
-title: "KICS IaC Linter"
+name: "KICS IaC Linter"
 slug: "kics-iac-linter"
 description: ""
 github_stars: 2607

@@ -1,5 +1,5 @@
 ---
-title: "Scan images filesystems and SBOMs for end-of-life software before unsupported components ship with Xeol"
+name: "Scan images filesystems and SBOMs for end-of-life software before unsupported components ship with Xeol"
 slug: "scan-images-filesystems-and-sboms-for-end-of-life-software-before-unsupported-components-ship-with-xeol"
 description: "Find packages that are out of support even when they do not show up as a classic CVE finding yet."
 github_stars: 435

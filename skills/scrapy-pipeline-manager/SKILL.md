@@ -1,5 +1,5 @@
 ---
-title: "Scrapy Pipeline Manager"
+name: "Scrapy Pipeline Manager"
 slug: "scrapy-pipeline-manager"
 description: "Manages Scrapy spider deployments via Scrapyd API with custom item pipelines for MongoDB ingestion, deduplication via MinHash LSH, and rotating proxy middleware configuration."
 github_stars: 61314

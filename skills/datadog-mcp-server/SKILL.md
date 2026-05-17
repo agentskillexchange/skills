@@ -1,5 +1,5 @@
 ---
-title: "Datadog MCP Server"
+name: "Datadog MCP Server"
 slug: "datadog-mcp-server"
 description: ""
 github_stars: 806

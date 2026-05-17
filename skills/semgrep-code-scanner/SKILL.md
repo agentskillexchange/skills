@@ -1,5 +1,5 @@
 ---
-title: "Semgrep Code Scanner"
+name: "Semgrep Code Scanner"
 slug: "semgrep-code-scanner"
 description: ""
 github_stars: 14809

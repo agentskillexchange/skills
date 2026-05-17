@@ -1,5 +1,5 @@
 ---
-title: "Open WebUI Self-Hosted AI Interface for LLMs"
+name: "Open WebUI Self-Hosted AI Interface for LLMs"
 slug: "open-webui-self-hosted-ai-interface"
 description: "Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline. It supports various LLM runners like Ollama and OpenAI-compatible APIs with built-in RAG inference, providing a powerful web-based interface for interacting with large language models."
 github_stars: 130412

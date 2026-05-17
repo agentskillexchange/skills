@@ -1,5 +1,5 @@
 ---
-title: "Playwright MCP Browser Automation"
+name: "Playwright MCP Browser Automation"
 slug: "playwright-mcp-browser-automation"
 description: "Official Playwright-powered browser control for agent workflows."
 github_stars: 32605

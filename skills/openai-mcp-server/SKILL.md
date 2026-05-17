@@ -1,5 +1,5 @@
 ---
-title: "OpenAI MCP Server"
+name: "OpenAI MCP Server"
 slug: "openai-mcp-server"
 description: ""
 github_stars: 10906

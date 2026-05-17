@@ -23,9 +23,9 @@ python3 scripts/validate_skills.py --all --github-annotations --quiet
 - File exists, is non-empty, and is valid UTF-8
 - YAML frontmatter is present and parsed with PyYAML
 - Duplicate YAML keys are rejected
-- Required fields exist and have the expected scalar types: `title`, `slug`, `description`, `category`, `framework`, `verification`
+- Required fields exist and have the expected scalar types: `name`, `slug`, `description`, `category`, `framework`, `verification`
 - `slug` is lowercase kebab-case and matches the containing directory name
-- Deprecated public fields are rejected: `name`, `verification_status`, `verified_metadata`
+- Deprecated `title` is allowed only as a temporary alias equal to `name`; internal fields are rejected: `verification_status`, `verified_metadata`
 - `verification` is a public value (`listed` or `security_reviewed`); internal `verified_metadata` must export as `listed`
 - Category and framework labels are validated against the known public taxonomy/framework sets
 - `source` is URL-like when present

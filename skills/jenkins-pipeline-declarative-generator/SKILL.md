@@ -1,5 +1,5 @@
 ---
-title: "Jenkins Pipeline Declarative Generator"
+name: "Jenkins Pipeline Declarative Generator"
 slug: "jenkins-pipeline-declarative-generator"
 description: "Creates Jenkins Declarative Pipeline Jenkinsfiles using jenkins-pipeline-syntax and jenkins-shared-libraries. Configures stages, parallel execution, and post-build actions with Blue Ocean compatibility."
 github_stars: 25189

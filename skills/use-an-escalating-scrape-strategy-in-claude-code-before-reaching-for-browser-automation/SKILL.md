@@ -1,5 +1,5 @@
 ---
-title: "Use an escalating scrape strategy in Claude Code before reaching for browser automation"
+name: "Use an escalating scrape strategy in Claude Code before reaching for browser automation"
 slug: "use-an-escalating-scrape-strategy-in-claude-code-before-reaching-for-browser-automation"
 description: "Start with cheap static fetches, escalate to a browser only when needed, validate findings, and turn the result into a production-ready scraping approach."
 github_stars: 38

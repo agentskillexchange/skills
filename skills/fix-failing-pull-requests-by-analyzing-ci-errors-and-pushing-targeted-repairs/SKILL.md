@@ -1,5 +1,5 @@
 ---
-title: "Fix failing pull requests by analyzing CI errors and pushing targeted repairs"
+name: "Fix failing pull requests by analyzing CI errors and pushing targeted repairs"
 slug: "fix-failing-pull-requests-by-analyzing-ci-errors-and-pushing-targeted-repairs"
 description: "Use GitHub Next's pr-fix workflow when a pull request is blocked on failing checks and the likely repair is machine-doable. The agent inspects CI failures, traces the root cause, applies a focused fix on the PR branch, and leaves the result in reviewable Git history."
 verification: "security_reviewed"

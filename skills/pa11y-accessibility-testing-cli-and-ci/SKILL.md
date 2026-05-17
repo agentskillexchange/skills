@@ -1,5 +1,5 @@
 ---
-title: "Pa11y Accessibility Testing CLI and CI"
+name: "Pa11y Accessibility Testing CLI and CI"
 slug: "pa11y-accessibility-testing-cli-and-ci"
 description: "Pa11y is a real open-source accessibility testing tool that lets agents audit pages for WCAG issues from the command line or in CI. This skill uses Pa11y to turn page-level accessibility checks into actionable reports with issue counts, selectors, and remediation context."
 github_stars: 4418

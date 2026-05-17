@@ -1,5 +1,5 @@
 ---
-title: "Review pull requests with structured summaries, checks, and follow-up prompts using PR-Agent"
+name: "Review pull requests with structured summaries, checks, and follow-up prompts using PR-Agent"
 slug: "review-pull-requests-with-structured-summaries-checks-and-follow-up-prompts-using-pr-agent"
 description: "Use PR-Agent when an agent should run an automated pull request review pass with summaries, comments, improvement prompts, or ask-mode follow-ups before human merge review."
 github_stars: 10915

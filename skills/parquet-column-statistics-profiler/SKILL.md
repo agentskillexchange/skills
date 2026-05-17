@@ -1,5 +1,5 @@
 ---
-title: "Parquet Column Statistics Profiler"
+name: "Parquet Column Statistics Profiler"
 slug: "parquet-column-statistics-profiler"
 description: "Profiles Apache Parquet files using pyarrow metadata APIs to extract column statistics, row group distributions, and encoding efficiency metrics without reading full datasets."
 github_stars: 387

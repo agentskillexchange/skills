@@ -1,5 +1,5 @@
 ---
-title: "Jenkins Shared Library Auditor"
+name: "Jenkins Shared Library Auditor"
 slug: "jenkins-shared-library-auditor-agent"
 description: "Audits Jenkins shared libraries for security vulnerabilities using the Jenkins Script Console API and Groovy AST analysis. Detects unsafe method calls, credential leaks, and sandbox escapes in pipeline libraries."
 github_stars: 25189

@@ -1,5 +1,5 @@
 ---
-title: "SendGrid Transactional Email Builder"
+name: "SendGrid Transactional Email Builder"
 slug: "sendgrid-transactional-email-builder"
 description: "Constructs and sends transactional emails using the SendGrid v3 Mail Send API. Builds dynamic templates with Handlebars substitutions, manages suppression groups, and tracks delivery via Event Webhook parsing."
 github_stars: 3049

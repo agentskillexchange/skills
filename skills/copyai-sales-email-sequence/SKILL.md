@@ -1,5 +1,5 @@
 ---
-title: "Copy.ai Sales Email Sequence Builder"
+name: "Copy.ai Sales Email Sequence Builder"
 slug: "copyai-sales-email-sequence"
 description: "Leverages Copy.ai's Workflows API to generate multi-step cold outreach sequences with persona-specific messaging. Each sequence step is rendered using Copy.ai's email-sequence template type and pushed to HubSpot CRM via the HubSpot Contacts and Emails API."
 verification: "security_reviewed"

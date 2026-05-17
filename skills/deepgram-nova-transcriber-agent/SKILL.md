@@ -1,5 +1,5 @@
 ---
-title: "Deepgram Nova Transcriber"
+name: "Deepgram Nova Transcriber"
 slug: "deepgram-nova-transcriber-agent"
 description: "Transcribes audio using the Deepgram Nova-2 API with diarization, punctuation, and smart formatting. Supports streaming via WebSocket and batch via REST with pre-recorded endpoint and callback URLs."
 verification: "security_reviewed"

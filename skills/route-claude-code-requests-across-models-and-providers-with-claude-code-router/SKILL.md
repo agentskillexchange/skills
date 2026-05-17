@@ -1,5 +1,5 @@
 ---
-title: "Route Claude Code requests across models and providers with Claude Code Router"
+name: "Route Claude Code requests across models and providers with Claude Code Router"
 slug: "route-claude-code-requests-across-models-and-providers-with-claude-code-router"
 description: "Run Claude Code through Claude Code Router to route coding-agent requests by task, provider, or model while preserving terminal workflows and adding provider-specific transformations."
 github_stars: 33863

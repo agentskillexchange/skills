@@ -1,5 +1,5 @@
 ---
-title: "Snapshot and restore encrypted file trees with Kopia"
+name: "Snapshot and restore encrypted file trees with Kopia"
 slug: "snapshot-and-restore-encrypted-file-trees-with-kopia"
 description: "Use Kopia when an agent needs to create, verify, or restore encrypted incremental snapshots across local, NAS, SFTP, WebDAV, or cloud storage targets."
 github_stars: 13110

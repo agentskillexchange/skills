@@ -1,5 +1,5 @@
 ---
-title: "Prometheus Alerting Rules"
+name: "Prometheus Alerting Rules"
 slug: "prometheus-alerting-rules"
 description: ""
 github_stars: 63540

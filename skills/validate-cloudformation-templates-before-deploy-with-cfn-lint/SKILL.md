@@ -1,5 +1,5 @@
 ---
-title: "Validate CloudFormation templates before deploy with cfn-lint"
+name: "Validate CloudFormation templates before deploy with cfn-lint"
 slug: "validate-cloudformation-templates-before-deploy-with-cfn-lint"
 description: "Catch CloudFormation schema, region, and intrinsic-function mistakes before a stack update fails in review or deployment."
 github_stars: 2608

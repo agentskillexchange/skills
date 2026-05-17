@@ -1,5 +1,5 @@
 ---
-title: "Git Secrets Pre-Commit Scanner"
+name: "Git Secrets Pre-Commit Scanner"
 slug: "git-secrets-precommit-scanner"
 description: "Scans git diffs for exposed secrets using truffleHog entropy detection and custom regex patterns. Integrates with pre-commit hooks and GitHub push protection API for real-time blocking."
 github_stars: 26006

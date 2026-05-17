@@ -1,5 +1,5 @@
 ---
-title: "GitHub Actions Workflow Linter"
+name: "GitHub Actions Workflow Linter"
 slug: "github-actions-workflow-linter-2"
 description: "Validates GitHub Actions YAML workflows using actionlint and the GitHub Actions REST API. Detects invalid step references, missing secrets declarations, and deprecated action versions before CI runs."
 verification: "security_reviewed"

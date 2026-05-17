@@ -1,5 +1,5 @@
 ---
-title: "Lint Terraform modules for provider mistakes and policy violations with TFLint"
+name: "Lint Terraform modules for provider mistakes and policy violations with TFLint"
 slug: "lint-terraform-modules-for-provider-mistakes-and-policy-violations-with-tflint"
 description: "Check Terraform before plan or apply so invalid attributes, provider-specific mistakes, and custom rule violations are caught early."
 github_stars: 5677

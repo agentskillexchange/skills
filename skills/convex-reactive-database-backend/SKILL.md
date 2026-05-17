@@ -1,5 +1,5 @@
 ---
-title: "Convex Open Source Reactive Database and Backend Platform"
+name: "Convex Open Source Reactive Database and Backend Platform"
 slug: "convex-reactive-database-backend"
 description: "Convex is an open-source reactive database for app developers. Write pure TypeScript server functions with strong consistency, real-time subscriptions, and automatic caching. Self-hostable or available as a managed cloud service."
 github_stars: 11179

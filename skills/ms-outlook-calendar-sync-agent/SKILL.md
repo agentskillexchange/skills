@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Outlook Calendar Sync Agent"
+name: "Microsoft Outlook Calendar Sync Agent"
 slug: "ms-outlook-calendar-sync-agent"
 description: "Synchronizes calendar events bidirectionally using the Microsoft Graph API /me/calendar/events endpoint. Handles delta queries with deltaToken for incremental sync, manages recurrence patterns, and resolves timezone conflicts."
 verification: "security_reviewed"

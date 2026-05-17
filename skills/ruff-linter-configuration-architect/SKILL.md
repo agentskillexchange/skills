@@ -1,5 +1,5 @@
 ---
-title: "Ruff Linter Configuration Architect"
+name: "Ruff Linter Configuration Architect"
 slug: "ruff-linter-configuration-architect"
 description: "Configures and optimizes Ruff Python linter settings using the ruff CLI and pyproject.toml schema. Migrates from Flake8, isort, and Black configurations with automatic rule mapping."
 github_stars: 47162

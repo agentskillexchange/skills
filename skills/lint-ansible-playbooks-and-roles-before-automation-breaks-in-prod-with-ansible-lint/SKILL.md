@@ -1,5 +1,5 @@
 ---
-title: "Lint Ansible playbooks and roles before automation breaks in prod with ansible-lint"
+name: "Lint Ansible playbooks and roles before automation breaks in prod with ansible-lint"
 slug: "lint-ansible-playbooks-and-roles-before-automation-breaks-in-prod-with-ansible-lint"
 description: "Run ansible-lint against playbooks, roles, and collections so risky patterns and common mistakes are caught before automation is merged or executed."
 github_stars: 3856

@@ -1,5 +1,5 @@
 ---
-title: "Tekton Pipeline Validator"
+name: "Tekton Pipeline Validator"
 slug: "tekton-pipeline-validator"
 description: "Validates Tekton Pipeline YAML manifests against the Tekton Pipelines API schema. Uses tkn CLI and Kubernetes admission webhooks to catch misconfigurations before deployment. Supports PipelineRun, TaskRun, and Trigger resource types."
 github_stars: 8936

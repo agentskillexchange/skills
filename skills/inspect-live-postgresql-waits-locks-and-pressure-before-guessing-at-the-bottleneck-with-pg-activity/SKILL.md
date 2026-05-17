@@ -1,5 +1,5 @@
 ---
-title: "Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity"
+name: "Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity"
 slug: "inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity"
 description: "Open a live PostgreSQL activity view during incidents so you can see sessions, waits, locks, and pressure before making a bad call."
 github_stars: 3010

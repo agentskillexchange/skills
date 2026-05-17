@@ -1,5 +1,5 @@
 ---
-title: "whisper.cpp High-Performance C/C++ Speech Recognition Engine"
+name: "whisper.cpp High-Performance C/C++ Speech Recognition Engine"
 slug: "whisper-cpp-speech-recognition-engine"
 description: "whisper.cpp is a lightweight, high-performance C/C++ port of OpenAI's Whisper automatic speech recognition model. It runs on CPU and GPU across all major platforms with zero dependencies and zero runtime memory allocations."
 github_stars: 48315

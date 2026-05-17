@@ -1,5 +1,5 @@
 ---
-title: "Frontend Design Guidance Skill"
+name: "Frontend Design Guidance Skill"
 slug: "frontend-design-guidance-skill"
 description: "Practical frontend design guidance for landing pages, dashboards, and UI implementation work."
 verification: "security_reviewed"

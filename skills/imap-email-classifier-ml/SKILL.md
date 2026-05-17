@@ -1,5 +1,5 @@
 ---
-title: "IMAP Email Classifier"
+name: "IMAP Email Classifier"
 slug: "imap-email-classifier-ml"
 description: "Classifies and organizes emails from IMAP servers using imaplib and scikit-learn text classification. Supports custom label rules with SpaCy NER for entity extraction."
 verification: "security_reviewed"

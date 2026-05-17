@@ -1,5 +1,5 @@
 ---
-title: "Buildkite Pipeline Profiler"
+name: "Buildkite Pipeline Profiler"
 slug: "buildkite-pipeline-profiler"
 description: "Profiles Buildkite pipeline performance using the Buildkite REST API and GraphQL API. Analyzes step durations, agent queue wait times, and artifact upload bottlenecks. Generates optimization reports with buildkite-agent meta-data analysis."
 verification: "security_reviewed"

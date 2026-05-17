@@ -1,5 +1,5 @@
 ---
-title: "Weaviate MCP Server"
+name: "Weaviate MCP Server"
 slug: "weaviate-mcp-server"
 description: ""
 github_stars: 161

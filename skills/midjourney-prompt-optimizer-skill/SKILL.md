@@ -1,5 +1,5 @@
 ---
-title: "Midjourney Prompt Optimizer"
+name: "Midjourney Prompt Optimizer"
 slug: "midjourney-prompt-optimizer-skill"
 description: "Analyze and optimize Midjourney prompts using parameter tuning for --ar, --stylize, --chaos, and --weird flags. Generates prompt variations with style references (--sref) and character references (--cref) for consistent image output."
 verification: "security_reviewed"

@@ -1,5 +1,5 @@
 ---
-title: "OpenAPI Spec Navigator"
+name: "OpenAPI Spec Navigator"
 slug: "openapi-spec-navigator"
 description: "Parses and navigates OpenAPI 3.1 specifications using swagger-parser and @apidevtools/json-schema-ref-parser. Resolves $ref chains, extracts endpoint signatures, and generates typed client stubs."
 verification: "security_reviewed"

@@ -1,5 +1,5 @@
 ---
-title: "Docker Compose Orchestrator"
+name: "Docker Compose Orchestrator"
 slug: "docker-compose-orchestrator-v2"
 description: "Manages multi-service Docker Compose environments using the Compose V2 Go API and Docker Engine SDK. Handles health checks, dependency ordering, and rolling updates."
 github_stars: 71492

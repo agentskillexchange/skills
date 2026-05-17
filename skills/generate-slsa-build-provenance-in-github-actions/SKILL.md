@@ -1,5 +1,5 @@
 ---
-title: "Generate SLSA build provenance in GitHub Actions"
+name: "Generate SLSA build provenance in GitHub Actions"
 slug: "generate-slsa-build-provenance-in-github-actions"
 description: "Attach signed SLSA provenance to GitHub Actions builds so release artifacts ship with verifiable supply-chain metadata."
 github_stars: 566

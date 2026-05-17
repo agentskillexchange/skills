@@ -1,5 +1,5 @@
 ---
-title: "Ghost Admin API Headless Publishing and CMS Automation"
+name: "Ghost Admin API Headless Publishing and CMS Automation"
 slug: "ghost-admin-api-headless-publishing-cms-automation"
 description: "The Ghost Admin API exposes authenticated operations for posts, pages, tags, members, offers, and newsletter publishing. This skill gives agents a concrete workflow for structured publishing and operational automation in Ghost-backed sites."
 verification: "security_reviewed"

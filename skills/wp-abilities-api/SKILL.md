@@ -1,5 +1,5 @@
 ---
-title: "WP Abilities API"
+name: "WP Abilities API"
 slug: "wp-abilities-api"
 description: "Specialized support for defining, exposing, and debugging WordPress abilities through the Abilities API."
 github_stars: 210

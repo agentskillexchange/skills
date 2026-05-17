@@ -1,5 +1,5 @@
 ---
-title: "Diff live database schemas against declarative SQL before schema drift reaches production with sqldef"
+name: "Diff live database schemas against declarative SQL before schema drift reaches production with sqldef"
 slug: "diff-live-database-schemas-against-declarative-sql-before-schema-drift-reaches-production-with-sqldef"
 description: "Compare checked-in SQL against live MySQL, PostgreSQL, SQLite, or SQL Server schemas and generate a reviewable apply plan before agents touch production databases."
 github_stars: 3076

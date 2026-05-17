@@ -1,5 +1,5 @@
 ---
-title: "Internal Link Optimizer"
+name: "Internal Link Optimizer"
 slug: "internal-link-optimizer-seo"
 description: "Optimizes internal linking structure using Screaming Frog SEO Spider XML exports and NetworkX graph analysis. Identifies orphan pages, calculates PageRank distribution, and suggests anchor text improvements."
 verification: "security_reviewed"

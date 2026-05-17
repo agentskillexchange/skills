@@ -1,5 +1,5 @@
 ---
-title: "Elasticsearch MCP"
+name: "Elasticsearch MCP"
 slug: "elasticsearch-mcp"
 description: ""
 github_stars: 76518

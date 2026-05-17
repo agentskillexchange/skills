@@ -1,5 +1,5 @@
 ---
-title: "Prometheus Custom Exporter Builder"
+name: "Prometheus Custom Exporter Builder"
 slug: "prometheus-custom-exporter-builder"
 description: "Builds custom Prometheus exporters using the prometheus_client Python SDK and Go client_golang library. Exposes application-specific metrics with proper histogram buckets, counter labels, and gauge instrumentation."
 github_stars: 63584

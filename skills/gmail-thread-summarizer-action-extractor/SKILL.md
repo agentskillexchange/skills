@@ -1,5 +1,5 @@
 ---
-title: "Gmail Thread Summarizer and Action Extractor"
+name: "Gmail Thread Summarizer and Action Extractor"
 slug: "gmail-thread-summarizer-action-extractor"
 description: "Fetches Gmail threads via the Gmail API (users.threads.get), extracts full message content, and produces a structured summary with action items, decisions, and follow-ups. Uses MIME part decoding for multi-part HTML/plain text emails and handles forwarded thread chains."
 verification: "security_reviewed"

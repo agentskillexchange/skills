@@ -1,5 +1,5 @@
 ---
-title: "Summarize URLs, files, podcasts, and YouTube sources into agent-ready briefs with Summarize"
+name: "Summarize URLs, files, podcasts, and YouTube sources into agent-ready briefs with Summarize"
 slug: "summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize"
 description: "Turn long pages, PDFs, podcasts, videos, and local files into compact working briefs before downstream research, drafting, or execution steps."
 github_stars: 5642

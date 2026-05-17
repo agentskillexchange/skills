@@ -1,5 +1,5 @@
 ---
-title: "Run deterministic SQL and dbt analysis under coding agents with Altimate Code"
+name: "Run deterministic SQL and dbt analysis under coding agents with Altimate Code"
 slug: "run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code"
 description: "Adds deterministic SQL analysis, dbt-aware tooling, warehouse metadata, lineage, and test-generation workflows underneath Claude Code, Codex, or terminal-driven agent sessions."
 github_stars: 552

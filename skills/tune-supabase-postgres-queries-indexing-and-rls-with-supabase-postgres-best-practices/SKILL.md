@@ -1,5 +1,5 @@
 ---
-title: "Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices"
+name: "Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices"
 slug: "tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices"
 description: "Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls using Supabase's own prioritized guidance."
 verification: "security_reviewed"

@@ -1,5 +1,5 @@
 ---
-title: "ESLint Rule Analyzer"
+name: "ESLint Rule Analyzer"
 slug: "eslint-rule-analyzer"
 description: "Analyzes ESLint configurations using the ESLint Node.js API (new ESLint().calculateConfigForFile) and flat config system. Detects rule conflicts, unused rules, and generates project-specific rule recommendations from eslint-plugin-unicorn and typescript-eslint."
 github_stars: 27188

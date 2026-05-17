@@ -1,5 +1,5 @@
 ---
-title: "Publish installable pull-request package previews before release with pkg.pr.new"
+name: "Publish installable pull-request package previews before release with pkg.pr.new"
 slug: "publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new"
 description: "Use pkg.pr.new when an agent needs an installable preview build from a pull request so reviewers can test a package before the maintainer cuts a real npm release."
 github_stars: 1840

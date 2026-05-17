@@ -1,5 +1,5 @@
 ---
-title: "Angular — TypeScript Web Application Framework by Google"
+name: "Angular — TypeScript Web Application Framework by Google"
 slug: "angular-typescript-web-framework"
 description: "Angular is a TypeScript-based web application platform by Google providing dependency injection, declarative templates, a powerful CLI, and comprehensive libraries for routing, forms, and HTTP communication."
 github_stars: 100106

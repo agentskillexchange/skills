@@ -1,5 +1,5 @@
 ---
-title: "Broker API credentials to AI agents without exposing raw keys using OneCLI"
+name: "Broker API credentials to AI agents without exposing raw keys using OneCLI"
 slug: "broker-api-credentials-to-ai-agents-without-exposing-raw-keys-using-onecli"
 description: "Store credentials once, then inject them into outbound agent requests at runtime so agents can call services without receiving raw secrets."
 github_stars: 1859

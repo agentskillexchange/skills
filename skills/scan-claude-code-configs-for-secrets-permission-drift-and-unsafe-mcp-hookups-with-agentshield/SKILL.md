@@ -1,5 +1,5 @@
 ---
-title: "Scan Claude Code configs for secrets permission drift and unsafe MCP hookups with AgentShield"
+name: "Scan Claude Code configs for secrets permission drift and unsafe MCP hookups with AgentShield"
 slug: "scan-claude-code-configs-for-secrets-permission-drift-and-unsafe-mcp-hookups-with-agentshield"
 description: "Audit a Claude Code setup before use by flagging hardcoded secrets, broad allow rules, risky hooks, and dangerous MCP server config."
 github_stars: 388

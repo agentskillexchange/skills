@@ -1,5 +1,5 @@
 ---
-title: "Tekton Pipeline Generator"
+name: "Tekton Pipeline Generator"
 slug: "tekton-pipeline-generator"
 description: "Scaffolds Tekton CI/CD pipelines and tasks using the Tekton Hub API and kubectl. Generates PipelineRun manifests with workspace bindings, result propagation, and sidecar configurations."
 github_stars: 8936

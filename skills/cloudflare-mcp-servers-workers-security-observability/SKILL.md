@@ -1,5 +1,5 @@
 ---
-title: "Cloudflare MCP Servers for Workers, Security, and Observability"
+name: "Cloudflare MCP Servers for Workers, Security, and Observability"
 slug: "cloudflare-mcp-servers-workers-security-observability"
 description: "Official Cloudflare MCP servers that enable AI assistants to manage Workers applications, debug logs, analyze Radar traffic data, configure security settings, and interact with the full Cloudflare platform through natural language via the Model Context Protocol."
 github_stars: 3579

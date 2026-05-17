@@ -1,5 +1,5 @@
 ---
-title: "GraphQL Schema Registry Client"
+name: "GraphQL Schema Registry Client"
 slug: "graphql-schema-registry-client"
 description: "Manages GraphQL schema versions using Apollo Schema Registry API and graphql-inspector. Performs schema diffing, breaking change detection, and composition validation for federated GraphQL architectures."
 github_stars: 20324

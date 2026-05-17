@@ -1,5 +1,5 @@
 ---
-title: "Redis MCP Server"
+name: "Redis MCP Server"
 slug: "redis-mcp-server"
 description: ""
 github_stars: 73815

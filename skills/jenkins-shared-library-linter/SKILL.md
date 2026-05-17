@@ -1,5 +1,5 @@
 ---
-title: "Jenkins Shared Library Linter"
+name: "Jenkins Shared Library Linter"
 slug: "jenkins-shared-library-linter"
 description: "Validates Jenkins Shared Library Groovy code using the Jenkins Pipeline Model Definition API and Groovy AST parser. Catches syntax errors and anti-patterns before pipeline execution."
 github_stars: 25189

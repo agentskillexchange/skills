@@ -1,5 +1,5 @@
 ---
-title: "LlamaIndex MCP Server"
+name: "LlamaIndex MCP Server"
 slug: "llamaindex-mcp-server"
 description: ""
 github_stars: 49460

@@ -1,5 +1,5 @@
 ---
-title: "GitLab CI Pipeline Debugger"
+name: "GitLab CI Pipeline Debugger"
 slug: "gitlab-ci-pipeline-debugger"
 description: "Debugs failed GitLab CI/CD pipelines by parsing .gitlab-ci.yml and fetching job logs via GitLab REST API v4. Identifies runner misconfigurations, artifact dependency issues, and suggests targeted fixes."
 github_stars: 24298

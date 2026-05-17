@@ -1,5 +1,5 @@
 ---
-title: "Salesforce MCP Server"
+name: "Salesforce MCP Server"
 slug: "salesforce-mcp-server"
 description: ""
 github_stars: 1459

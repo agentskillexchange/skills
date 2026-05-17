@@ -1,5 +1,5 @@
 ---
-title: "Task Taskfile Build Automation Runner"
+name: "Task Taskfile Build Automation Runner"
 slug: "task-taskfile-build-automation-runner"
 description: "Automate build workflows with Task (go-task), a modern cross-platform task runner that uses YAML-based Taskfiles. Replaces Makefiles with a cleaner, simpler syntax for defining and running project commands."
 github_stars: 15242

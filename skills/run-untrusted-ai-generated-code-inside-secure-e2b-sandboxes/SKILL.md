@@ -1,5 +1,5 @@
 ---
-title: "Run untrusted AI-generated code inside secure E2B sandboxes"
+name: "Run untrusted AI-generated code inside secure E2B sandboxes"
 slug: "run-untrusted-ai-generated-code-inside-secure-e2b-sandboxes"
 description: "Create disposable E2B cloud sandboxes where agents can execute generated code, install dependencies, collect outputs, and discard state safely."
 github_stars: 12016

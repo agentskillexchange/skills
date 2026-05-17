@@ -1,5 +1,5 @@
 ---
-title: "Provision secure disposable development sandboxes for AI-generated code with Daytona"
+name: "Provision secure disposable development sandboxes for AI-generated code with Daytona"
 slug: "provision-secure-disposable-development-sandboxes-for-ai-generated-code-with-daytona"
 description: "Spin up isolated, reproducible sandboxes where agents can run generated code, install dependencies, execute tests, and discard state safely."
 github_stars: 72383

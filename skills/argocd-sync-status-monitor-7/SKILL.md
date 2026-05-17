@@ -1,5 +1,5 @@
 ---
-title: "ArgoCD Sync Status Monitor"
+name: "ArgoCD Sync Status Monitor"
 slug: "argocd-sync-status-monitor-7"
 description: "Monitors ArgoCD application sync status via the ArgoCD REST API and gRPC gateway. Detects drift between desired and live Kubernetes manifests and triggers Slack notifications through the Slack Bolt SDK."
 github_stars: 22593

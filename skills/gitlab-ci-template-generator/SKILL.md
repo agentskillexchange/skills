@@ -1,5 +1,5 @@
 ---
-title: "GitLab CI Template Generator"
+name: "GitLab CI Template Generator"
 slug: "gitlab-ci-template-generator"
 description: "Creates GitLab CI/CD pipeline templates using Auto DevOps components, Kaniko for container builds, and SAST/DAST security scanning. Supports multi-project pipelines with trigger and bridge jobs."
 github_stars: 24298

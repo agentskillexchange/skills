@@ -1,5 +1,5 @@
 ---
-title: "Whisper.cpp Local Transcription Engine"
+name: "Whisper.cpp Local Transcription Engine"
 slug: "whisper-cpp-local-transcription-engine"
 description: "Runs OpenAI Whisper models locally via whisper.cpp with GGML quantized weights for CPU-efficient transcription. Supports beam search decoding, VAD-based segmentation, and SRT/VTT subtitle output formats."
 github_stars: 97775

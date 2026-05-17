@@ -1,5 +1,5 @@
 ---
-title: "Turn goals into traced multi-agent task DAGs with open-multi-agent"
+name: "Turn goals into traced multi-agent task DAGs with open-multi-agent"
 slug: "turn-goals-into-traced-multi-agent-task-dags-with-open-multi-agent"
 description: "Decompose goals into task DAGs, delegate work to agents and tools, and inspect execution traces."
 github_stars: 6044

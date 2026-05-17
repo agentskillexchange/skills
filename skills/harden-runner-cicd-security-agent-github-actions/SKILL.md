@@ -1,5 +1,5 @@
 ---
-title: "Harden-Runner CI/CD Security Agent for GitHub Actions"
+name: "Harden-Runner CI/CD Security Agent for GitHub Actions"
 slug: "harden-runner-cicd-security-agent-github-actions"
 description: "Harden-Runner by StepSecurity is a CI/CD security agent that works like an EDR for GitHub Actions runners. It monitors network egress, file integrity, and process activity in real-time, detecting supply chain attacks such as the tj-actions and Codecov compromises."
 github_stars: 1055

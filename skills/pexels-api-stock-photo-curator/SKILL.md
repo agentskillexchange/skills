@@ -1,5 +1,5 @@
 ---
-title: "Pexels API Stock Photo Curator"
+name: "Pexels API Stock Photo Curator"
 slug: "pexels-api-stock-photo-curator"
 description: "Searches and downloads royalty-free images from Pexels API with smart filtering by orientation, color, and size. Generates attribution HTML and maintains a local deduplication index via SQLite."
 verification: "security_reviewed"

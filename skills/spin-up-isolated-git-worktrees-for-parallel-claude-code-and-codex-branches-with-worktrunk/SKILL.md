@@ -1,5 +1,5 @@
 ---
-title: "Spin up isolated git worktrees for parallel Claude Code and Codex branches with Worktrunk"
+name: "Spin up isolated git worktrees for parallel Claude Code and Codex branches with Worktrunk"
 slug: "spin-up-isolated-git-worktrees-for-parallel-claude-code-and-codex-branches-with-worktrunk"
 description: "Create, switch, and clean per-branch worktrees so multiple coding agents can work the same repo in parallel without stomping each other."
 github_stars: 4399

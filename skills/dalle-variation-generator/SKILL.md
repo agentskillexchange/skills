@@ -1,5 +1,5 @@
 ---
-title: "DALL-E Variation Generator"
+name: "DALL-E Variation Generator"
 slug: "dalle-variation-generator"
 description: "Generates image variations and edits using OpenAI's DALL-E 3 API with mask-based inpainting, style consistency scoring via CLIP embeddings, and automatic prompt refinement loops."
 github_stars: 10813

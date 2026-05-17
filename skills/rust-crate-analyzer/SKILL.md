@@ -1,5 +1,5 @@
 ---
-title: "Rust Crate Analyzer"
+name: "Rust Crate Analyzer"
 slug: "rust-crate-analyzer"
 description: "Fetches crate metadata from the crates.io API and docs.rs API for Rust package discovery. Analyzes feature flags, dependency auditing via RustSec Advisory DB, and MSRV compatibility checking."
 verification: "security_reviewed"

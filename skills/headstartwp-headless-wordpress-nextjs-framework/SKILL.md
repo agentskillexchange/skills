@@ -1,5 +1,5 @@
 ---
-title: "HeadstartWP Headless WordPress and Next.js Framework"
+name: "HeadstartWP Headless WordPress and Next.js Framework"
 slug: "headstartwp-headless-wordpress-nextjs-framework"
 description: "HeadstartWP is 10up's open-source framework for building headless WordPress sites with Next.js. It combines a WordPress plugin, JavaScript packages, and documented patterns for routing, previews, content fetching, SEO, and multilingual delivery so an agent can scaffold or extend modern WordPress frontends faster."
 github_stars: 198

@@ -1,5 +1,5 @@
 ---
-title: "Pylint Code Review Assistant"
+name: "Pylint Code Review Assistant"
 slug: "pylint-code-review-assistant"
 description: "Perform automated Python code reviews using Pylint programmatic API and pylint-json2html for report generation. Supports custom checker plugins and per-project rcfile configurations."
 github_stars: 5676

@@ -1,5 +1,5 @@
 ---
-title: "Semgrep Rule Author"
+name: "Semgrep Rule Author"
 slug: "semgrep-rule-author"
 description: "Generates custom Semgrep rules from natural language descriptions of vulnerability patterns. Uses semgrep --validate to verify rule syntax and semgrep --test to run against sample code fixtures automatically."
 github_stars: 14794

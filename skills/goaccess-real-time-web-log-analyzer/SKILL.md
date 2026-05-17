@@ -1,5 +1,5 @@
 ---
-title: "GoAccess Real-Time Web Log Analyzer and Terminal Dashboard"
+name: "GoAccess Real-Time Web Log Analyzer and Terminal Dashboard"
 slug: "goaccess-real-time-web-log-analyzer"
 description: "GoAccess is an open-source real-time web log analyzer that runs in a terminal or generates live HTML dashboards. It parses Apache, Nginx, CloudFront, S3, and other log formats with minimal configuration, providing instant traffic insights for system administrators and DevOps engineers."
 github_stars: 20377

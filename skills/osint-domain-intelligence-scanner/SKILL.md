@@ -1,5 +1,5 @@
 ---
-title: "OSINT Domain Intelligence Scanner"
+name: "OSINT Domain Intelligence Scanner"
 slug: "osint-domain-intelligence-scanner"
 description: "Performs deep OSINT analysis on domains using Shodan API, SecurityTrails DNS history, and WHOIS RDAP lookups. Aggregates subdomain enumeration via Amass and certificate transparency logs from crt.sh for comprehensive attack surface mapping."
 verification: "security_reviewed"

@@ -1,5 +1,5 @@
 ---
-title: "Generate right-to-left CSS variants from LTR stylesheets before multilingual launches with RTLCSS"
+name: "Generate right-to-left CSS variants from LTR stylesheets before multilingual launches with RTLCSS"
 slug: "generate-right-to-left-css-variants-from-ltr-stylesheets-before-multilingual-launches-rtlcss"
 description: "Use RTLCSS when an agent already has left-to-right stylesheets and must prepare a right-to-left variant for Arabic, Hebrew, or other RTL interfaces. The skill transforms directional CSS rules into an RTL companion stylesheet so localization work does not require hand-editing every margin, padding, float, and alignment rule."
 github_stars: 1708

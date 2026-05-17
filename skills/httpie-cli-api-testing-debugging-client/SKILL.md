@@ -1,5 +1,5 @@
 ---
-title: "HTTPie CLI API Testing and Debugging Client"
+name: "HTTPie CLI API Testing and Debugging Client"
 slug: "httpie-cli-api-testing-debugging-client"
 description: "HTTPie is a modern, user-friendly command-line HTTP client designed for testing, debugging, and interacting with APIs and HTTP servers. It provides an intuitive syntax with formatted and colorized terminal output, built-in JSON support, and session persistence."
 github_stars: 37814

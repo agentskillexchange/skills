@@ -23,7 +23,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 
 | Skill | Downloads |
 |---|---:|
-| [Pulumi Drift Detector &amp; Reconciler](../../skills/pulumi-drift-detector-reconciler/) | ⬇ 2.1M/wk |
+| [Pulumi Drift Detector & Reconciler](../../skills/pulumi-drift-detector-reconciler/) | ⬇ 2.1M/wk |
 | [PostgreSQL Diagnostic Analyzer](../../skills/postgresql-diagnostic-analyzer/) | ⬇ 23.2M/wk |
 | [PostgreSQL Diagnostic Runbook](../../skills/postgresql-diagnostic-runbook/) | ⬇ 23.2M/wk |
 | [PostgreSQL Health Diagnostics Agent](../../skills/postgresql-health-diagnostics-agent/) | ⬇ 23.2M/wk |
@@ -101,7 +101,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Nginx Error Log Runbook Agent](../../skills/nginx-error-log-runbook-agent/) | 29.9k | — |
 | [Nginx Error Pattern Analyzer](../../skills/nginx-error-pattern-analyzer-agent/) | 29.9k | — |
 | [Jenkins Build Log Analyzer](../../skills/jenkins-build-log-analyzer/) | 25.2k | — |
-| [Pulumi Drift Detector &amp; Reconciler](../../skills/pulumi-drift-detector-reconciler/) | 25k | 2.1M/wk |
+| [Pulumi Drift Detector & Reconciler](../../skills/pulumi-drift-detector-reconciler/) | 25k | 2.1M/wk |
 | [ArgoCD Application Health Runbook](../../skills/argocd-application-health-runbook/) | 22.6k | — |
 | [ArgoCD Deployment Runbook Agent](../../skills/argocd-deployment-runbook-agent/) | 22.6k | — |
 | [Systematic Debugging and Error Recovery](../../skills/systematic-debugging-and-error-recovery/) | 17.4k | — |

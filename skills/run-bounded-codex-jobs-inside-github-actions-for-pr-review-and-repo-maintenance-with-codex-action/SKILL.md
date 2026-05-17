@@ -1,5 +1,5 @@
 ---
-title: "Run bounded Codex jobs inside GitHub Actions for PR review and repo maintenance with codex-action"
+name: "Run bounded Codex jobs inside GitHub Actions for PR review and repo maintenance with codex-action"
 slug: "run-bounded-codex-jobs-inside-github-actions-for-pr-review-and-repo-maintenance-with-codex-action"
 description: "Use codex-action when an agent operator wants Codex to run inside GitHub Actions for PR review or scheduled repo work with explicit workflow permissions, prompts, and CI boundaries."
 github_stars: 927

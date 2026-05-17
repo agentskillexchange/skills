@@ -1,5 +1,5 @@
 ---
-title: "Codecov Coverage Report Analyzer"
+name: "Codecov Coverage Report Analyzer"
 slug: "codecov-coverage-report-analyzer"
 description: "Integrates with the Codecov API v2 and codecov-cli to upload coverage reports, analyze coverage deltas, and enforce minimum thresholds. Supports lcov, cobertura, and jacoco report formats."
 verification: "security_reviewed"

@@ -1,5 +1,5 @@
 ---
-title: "Multi-Axis Code Review and Quality Gates"
+name: "Multi-Axis Code Review and Quality Gates"
 slug: "multi-axis-code-review-and-quality-gates"
 description: "Run a structured pre-merge review across correctness, readability, architecture, security, and performance instead of relying on a shallow spot check."
 verification: "security_reviewed"

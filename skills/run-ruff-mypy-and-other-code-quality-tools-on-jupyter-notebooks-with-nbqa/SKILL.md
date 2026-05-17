@@ -1,5 +1,5 @@
 ---
-title: "Run Ruff, Mypy, and other code-quality tools on Jupyter notebooks with nbQA"
+name: "Run Ruff, Mypy, and other code-quality tools on Jupyter notebooks with nbQA"
 slug: "run-ruff-mypy-and-other-code-quality-tools-on-jupyter-notebooks-with-nbqa"
 description: "Apply standard Python formatters, linters, and type checkers to notebook-heavy repositories without manually converting notebooks to scripts."
 github_stars: 1196

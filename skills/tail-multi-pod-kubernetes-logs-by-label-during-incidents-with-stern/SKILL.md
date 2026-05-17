@@ -1,5 +1,5 @@
 ---
-title: "Tail multi-pod Kubernetes logs by label during incidents with Stern"
+name: "Tail multi-pod Kubernetes logs by label during incidents with Stern"
 slug: "tail-multi-pod-kubernetes-logs-by-label-during-incidents-with-stern"
 description: "Aggregate and follow logs from matching Kubernetes pods during incident triage without hopping pod by pod."
 github_stars: 4636

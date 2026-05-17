@@ -1,5 +1,5 @@
 ---
-title: "Terraform Module Scaffold Generator"
+name: "Terraform Module Scaffold Generator"
 slug: "terraform-module-scaffold-generator"
 description: "Generates production-ready Terraform module scaffolds with variables.tf, outputs.tf, and provider blocks using the HashiCorp Configuration Language (HCL). Integrates with terraform-docs for automatic README generation and includes pre-configured .terraform-version files."
 github_stars: 48146

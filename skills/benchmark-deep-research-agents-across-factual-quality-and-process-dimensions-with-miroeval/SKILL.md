@@ -1,5 +1,5 @@
 ---
-title: "Benchmark deep research agents across factual, quality, and process dimensions with MiroEval"
+name: "Benchmark deep research agents across factual, quality, and process dimensions with MiroEval"
 slug: "benchmark-deep-research-agents-across-factual-quality-and-process-dimensions-with-miroeval"
 description: "Score deep research agents on benchmark tasks using factual verification, report-quality scoring, and process evaluation before model or workflow changes ship."
 github_stars: 34

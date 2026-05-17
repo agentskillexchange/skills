@@ -1,5 +1,5 @@
 ---
-title: "Railway App Deployer"
+name: "Railway App Deployer"
 slug: "railway-app-deployer"
 description: ""
 github_stars: 523

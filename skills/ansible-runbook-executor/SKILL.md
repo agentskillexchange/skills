@@ -1,5 +1,5 @@
 ---
-title: "Ansible Runbook Executor"
+name: "Ansible Runbook Executor"
 slug: "ansible-runbook-executor"
 description: "Executes Ansible playbooks for server diagnostics and remediation using ansible-runner Python SDK. Supports inventory parsing, vault-encrypted credentials, and real-time task output streaming."
 github_stars: 68364

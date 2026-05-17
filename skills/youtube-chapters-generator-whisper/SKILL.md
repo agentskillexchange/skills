@@ -1,5 +1,5 @@
 ---
-title: "YouTube Chapters Generator with Whisper"
+name: "YouTube Chapters Generator with Whisper"
 slug: "youtube-chapters-generator-whisper"
 description: "Downloads YouTube audio via yt-dlp, transcribes with Whisper, and uses NLP topic segmentation via TextTiling algorithm to auto-generate chapter markers with timestamps and titles."
 github_stars: 97803

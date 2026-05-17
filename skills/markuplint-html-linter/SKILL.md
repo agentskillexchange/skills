@@ -1,5 +1,5 @@
 ---
-title: "markuplint HTML Linter for All Markup Developers"
+name: "markuplint HTML Linter for All Markup Developers"
 slug: "markuplint-html-linter"
 description: "markuplint is a comprehensive HTML linter designed for all markup developers. It enforces accessibility, spec compliance, and best practices across HTML, JSX, Vue, Svelte, Astro, PHP, Pug, and more template languages through a pluggable parser architecture."
 github_stars: 600

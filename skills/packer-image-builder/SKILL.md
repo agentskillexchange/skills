@@ -1,5 +1,5 @@
 ---
-title: "Packer Image Builder"
+name: "Packer Image Builder"
 slug: "packer-image-builder"
 description: ""
 github_stars: 15647

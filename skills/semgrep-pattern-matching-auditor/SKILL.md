@@ -1,5 +1,5 @@
 ---
-title: "Semgrep Pattern Matching Auditor"
+name: "Semgrep Pattern Matching Auditor"
 slug: "semgrep-pattern-matching-auditor"
 description: "Leverages the Semgrep OSS engine and semgrep-rules registry to perform deep static analysis across 30+ languages. Combines taint tracking with pattern matching for OWASP Top 10 vulnerability detection."
 github_stars: 14794

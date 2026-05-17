@@ -1,5 +1,5 @@
 ---
-title: "NPM Package Dependency Analyzer"
+name: "NPM Package Dependency Analyzer"
 slug: "npm-package-dependency-analyzer"
 description: "Analyzes npm package dependency trees using npm-registry-fetch, pacote, and arborist APIs. Detects circular dependencies, license conflicts, and bundle size impacts via bundlephobia API."
 verification: "security_reviewed"

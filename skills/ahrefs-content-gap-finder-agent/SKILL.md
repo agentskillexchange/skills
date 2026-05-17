@@ -1,5 +1,5 @@
 ---
-title: "Ahrefs Content Gap Finder"
+name: "Ahrefs Content Gap Finder"
 slug: "ahrefs-content-gap-finder-agent"
 description: "Identifies content gaps using the Ahrefs API v3 /site-explorer/organic-keywords endpoint. Compares competitor keyword profiles and surfaces untapped opportunities with volume, KD, and SERP feature data."
 verification: "security_reviewed"

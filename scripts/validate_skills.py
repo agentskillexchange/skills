@@ -6,6 +6,7 @@ Usage:
   python3 scripts/validate_skills.py skills/my-skill/SKILL.md [--github-annotations]
 
 Exit code 0 = all pass, 1 = one or more failures.
+Deprecated compatibility warnings are reported but do not fail validation.
 """
 
 import argparse
@@ -14,9 +15,10 @@ import sys
 from pathlib import Path
 
 # ── Schema invariants ─────────────────────────────────────────────────────────
-REQUIRED_FIELDS   = {"title", "description", "category", "framework", "verification"}
-FORBIDDEN_FIELDS  = {"name", "verification_status", "verified_metadata"}
+REQUIRED_FIELDS   = {"name", "slug", "description", "category", "framework", "verification"}
+FORBIDDEN_FIELDS  = {"verification_status", "verified_metadata"}
 VALID_VERIFICATION = {"listed", "security_reviewed"}
+SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 
 
 def parse_frontmatter(text: str) -> tuple[dict, list[str]]:
@@ -71,9 +73,17 @@ def parse_frontmatter(text: str) -> tuple[dict, list[str]]:
     return fields, errors
 
 
-def validate_file(path: Path, github_annotations: bool = False) -> list[str]:
-    """Return list of human-readable error strings (empty = pass)."""
+def scalar(fields: dict, key: str) -> str:
+    value = fields.get(key, "")
+    if isinstance(value, list):
+        value = value[0] if value else ""
+    return str(value or "").strip()
+
+
+def validate_file(path: Path, github_annotations: bool = False) -> tuple[list[str], list[str]]:
+    """Return (errors, warnings)."""
     errors: list[str] = []
+    warnings: list[str] = []
     text = path.read_text(encoding="utf-8")
 
     fields, fm_errors = parse_frontmatter(text)
@@ -89,10 +99,33 @@ def validate_file(path: Path, github_annotations: bool = False) -> list[str]:
         if f not in fields:
             errors.append(f"Missing required field: '{f}'")
 
+    name = scalar(fields, "name")
+    slug = scalar(fields, "slug")
+    title = scalar(fields, "title")
+
+    if name:
+        if name == slug:
+            errors.append("Field 'name' must be a human-readable display name, not the slug")
+        if "\n" in name or not re.search(r"[A-Za-z0-9]", name):
+            errors.append("Field 'name' must be non-empty human-readable text")
+
+    if slug:
+        expected_slug = path.parent.name
+        if not SLUG_RE.match(slug):
+            errors.append(f"Invalid slug '{slug}'; must be lowercase kebab-case")
+        if slug != expected_slug:
+            errors.append(f"Slug mismatch: frontmatter slug '{slug}' must equal containing directory '{expected_slug}'")
+
+    if title:
+        if not name:
+            errors.append("Deprecated field 'title' may only appear with canonical 'name'")
+        elif title != name:
+            errors.append("Deprecated field 'title' must equal canonical 'name' while transition alias is allowed")
+        else:
+            warnings.append("Deprecated field 'title' is present; use 'name' only")
+
     # verification value
-    ver = fields.get("verification", "")
-    if isinstance(ver, list):
-        ver = ver[0] if ver else ""
+    ver = scalar(fields, "verification")
     if ver and ver not in VALID_VERIFICATION:
         errors.append(f"Invalid verification value '{ver}'; must be listed|security_reviewed")
 
@@ -107,8 +140,12 @@ def validate_file(path: Path, github_annotations: bool = False) -> list[str]:
         rel = str(path)
         for err in errors:
             print(f"::error file={rel}::{err}")
+    if github_annotations and warnings:
+        rel = str(path)
+        for warning in warnings:
+            print(f"::warning file={rel}::{warning}")
 
-    return errors
+    return errors, warnings
 
 
 def main():
@@ -135,13 +172,15 @@ def main():
 
     pass_count = 0
     fail_count = 0
+    warn_count = 0
 
     for path in targets:
         if not path.exists():
             print(f"MISSING: {path}")
             fail_count += 1
             continue
-        errs = validate_file(path, github_annotations=args.github_annotations)
+        errs, warns = validate_file(path, github_annotations=args.github_annotations)
+        warn_count += len(warns)
         if errs:
             fail_count += 1
             if not args.quiet:
@@ -154,9 +193,11 @@ def main():
             pass_count += 1
             if not args.quiet:
                 print(f"PASS  {path}")
+                for w in warns:
+                    print(f"      WARN: {w}")
 
     total = pass_count + fail_count
-    print(f"\nValidation: {pass_count}/{total} passed, {fail_count} failed.")
+    print(f"\nValidation: {pass_count}/{total} passed, {fail_count} failed, {warn_count} warnings.")
     sys.exit(0 if fail_count == 0 else 1)
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Beautiful Soup Academic Paper Parser"
+name: "Beautiful Soup Academic Paper Parser"
 slug: "beautifulsoup-academic-paper-parser"
 description: "Extracts structured citation data from academic repositories using BeautifulSoup4 with lxml parser. Parses DOI metadata, author affiliations, and reference lists from PubMed, arXiv, and Semantic Scholar HTML."
 verification: "security_reviewed"

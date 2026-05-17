@@ -1,5 +1,5 @@
 ---
-title: "Grafana Dashboard JSON Assembler"
+name: "Grafana Dashboard JSON Assembler"
 slug: "grafana-dashboard-json-assembler"
 description: "Assembles Grafana dashboard JSON models using panel types like timeseries, stat, table, and heatmap. Configures datasource references, template variables, and annotation queries for operational dashboards."
 github_stars: 73187

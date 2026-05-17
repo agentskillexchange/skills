@@ -1,5 +1,5 @@
 ---
-title: "SQLFluff SQL Linter and Auto-Formatter"
+name: "SQLFluff SQL Linter and Auto-Formatter"
 slug: "sqlfluff-sql-linter-auto-formatter"
 description: "Lint and auto-format SQL code across 30+ dialects using SQLFluff. Enforces consistent style, catches syntax issues, and supports Jinja/dbt templating for ELT workflows."
 github_stars: 9635

@@ -1,5 +1,5 @@
 ---
-title: "Cloud Cost Analysis"
+name: "Cloud Cost Analysis"
 slug: "cloud-cost-analysis"
 description: ""
 github_stars: 3626

@@ -1,5 +1,5 @@
 ---
-title: "AI Content Readability Optimizer"
+name: "AI Content Readability Optimizer"
 slug: "ai-content-readability-optimizer"
 description: "Analyzes and optimizes content readability using Flesch-Kincaid scoring, Hemingway Editor API integration, and Grammarly Text API. Generates SEO-optimized rewrites targeting specific grade levels."
 verification: "security_reviewed"

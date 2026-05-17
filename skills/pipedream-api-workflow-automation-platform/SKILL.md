@@ -1,5 +1,5 @@
 ---
-title: "Pipedream API Workflow Automation Platform"
+name: "Pipedream API Workflow Automation Platform"
 slug: "pipedream-api-workflow-automation-platform"
 description: "Pipedream is a developer-focused workflow platform for connecting APIs and running automation logic in hosted workflows. It fits ASE as a source-backed integration skill for agents that need to trigger apps, transform events, and chain API actions across services."
 github_stars: 11231

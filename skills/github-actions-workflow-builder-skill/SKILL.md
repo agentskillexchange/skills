@@ -1,5 +1,5 @@
 ---
-title: "GitHub Actions Workflow Builder"
+name: "GitHub Actions Workflow Builder"
 slug: "github-actions-workflow-builder-skill"
 description: "Generates and validates GitHub Actions YAML workflows using the actions/toolkit SDK and workflow_dispatch event triggers. Supports matrix builds, reusable workflows with workflow_call, and composite actions with proper input/output schema definitions."
 verification: "security_reviewed"

@@ -1,5 +1,5 @@
 ---
-title: "Notion AI Workspace"
+name: "Notion AI Workspace"
 slug: "notion-ai-workspace"
 description: ""
 github_stars: 5582

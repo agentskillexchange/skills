@@ -1,5 +1,5 @@
 ---
-title: "Back up GitHub repos releases and gists with GitHub Backup"
+name: "Back up GitHub repos releases and gists with GitHub Backup"
 slug: "back-up-github-repos-releases-and-gists-with-github-backup"
 description: "Use GitHub Backup when an agent needs to mirror repositories, release assets, and gists into local storage on a schedule, instead of manually exporting GitHub content repo by repo."
 github_stars: 33

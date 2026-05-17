@@ -1,5 +1,5 @@
 ---
-title: "Cron Job Manager"
+name: "Cron Job Manager"
 slug: "cron-job-manager"
 description: ""
 github_stars: 3626

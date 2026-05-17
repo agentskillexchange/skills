@@ -1,5 +1,5 @@
 ---
-title: "Strip noisy Jupyter output from notebooks before commit with nbstripout"
+name: "Strip noisy Jupyter output from notebooks before commit with nbstripout"
 slug: "strip-noisy-jupyter-output-from-notebooks-before-commit-with-nbstripout"
 description: "Keep notebook diffs reviewable by removing execution output and excess metadata before notebooks land in Git history."
 github_stars: 1447

@@ -1,5 +1,5 @@
 ---
-title: "Cloudflare Workers Deployer"
+name: "Cloudflare Workers Deployer"
 slug: "cloudflare-workers-deployer"
 description: ""
 github_stars: 3970

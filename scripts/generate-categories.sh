@@ -82,6 +82,9 @@ def downloads_str(n):
     n = int(n or 0)
     return f"{fmt_num(n)}/wk" if n else "—"
 
+def display_name(item):
+    return html.unescape(item.get("name") or item.get("title") or "")
+
 cats, _ = fetch_json(WP_CAT_URL)
 cat_rows = []
 for c in cats:
@@ -139,7 +142,7 @@ for cat in cat_rows:
     emoji = CAT_EMOJI.get(cat_name, "📦")
     desc = CAT_DESC.get(cat_name, "Skills in this category.")
     cat_items = [i for i in items if cat_name in i.get("categories", [])]
-    cat_items.sort(key=lambda i: (-int(i.get("github_stars") or 0), -int(i.get("npm_downloads") or 0), i.get("title", "").lower()))
+    cat_items.sort(key=lambda i: (-int(i.get("github_stars") or 0), -int(i.get("npm_downloads") or 0), display_name(i).lower()))
 
     top_starred = [i for i in cat_items if int(i.get('github_stars') or 0) > 0][:10]
     top_downloaded = [i for i in cat_items if int(i.get('npm_downloads') or 0) > 0][:10]
@@ -160,7 +163,7 @@ for cat in cat_rows:
             "|---|---:|",
         ]
         for item in top_starred:
-            title = item.get('title', '')
+            title = display_name(item)
             slug = item.get('slug', '')
             stars = fmt_num(item.get('github_stars') or 0)
             lines.append(f"| [{title}](../../skills/{slug}/) | ⭐ {stars} |")
@@ -175,7 +178,7 @@ for cat in cat_rows:
             "|---|---:|",
         ]
         for item in top_downloaded:
-            title = item.get('title', '')
+            title = display_name(item)
             slug = item.get('slug', '')
             downloads = downloads_str(item.get('npm_downloads') or 0)
             lines.append(f"| [{title}](../../skills/{slug}/) | ⬇ {downloads} |")
@@ -189,7 +192,7 @@ for cat in cat_rows:
         "|---|---:|---:|",
     ]
     for item in cat_items:
-        title = item.get("title", "")
+        title = display_name(item)
         slug = item.get("slug", "")
         stars = fmt_num(item.get("github_stars") or 0)
         downloads = downloads_str(item.get("npm_downloads") or 0)

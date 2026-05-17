@@ -1,5 +1,5 @@
 ---
-title: "Pytest Fixture Generator"
+name: "Pytest Fixture Generator"
 slug: "pytest-fixture-generator"
 description: ""
 github_stars: 13758

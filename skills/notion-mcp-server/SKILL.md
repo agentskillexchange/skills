@@ -1,5 +1,5 @@
 ---
-title: "Notion MCP Server"
+name: "Notion MCP Server"
 slug: "notion-mcp-server"
 description: ""
 github_stars: 5604

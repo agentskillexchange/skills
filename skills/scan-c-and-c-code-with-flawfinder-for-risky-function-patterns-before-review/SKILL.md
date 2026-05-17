@@ -1,5 +1,5 @@
 ---
-title: "Scan C and C++ code with Flawfinder for risky function patterns before review"
+name: "Scan C and C++ code with Flawfinder for risky function patterns before review"
 slug: "scan-c-and-c-code-with-flawfinder-for-risky-function-patterns-before-review"
 description: "Run a fast secure-code triage pass over C and C++ sources before manual review or remediation planning begins."
 github_stars: 4514

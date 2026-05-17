@@ -1,5 +1,5 @@
 ---
-title: "Turn Windows event logs into Sigma-backed threat-hunting timelines with Hayabusa"
+name: "Turn Windows event logs into Sigma-backed threat-hunting timelines with Hayabusa"
 slug: "turn-windows-event-logs-into-sigma-backed-threat-hunting-timelines-with-hayabusa"
 description: "Parse Windows event logs into fast timelines and detection-rich outputs so agents can triage suspicious host activity, search for known patterns, and hand investigators reviewable artifacts."
 github_stars: 3116

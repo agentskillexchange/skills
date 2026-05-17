@@ -1,5 +1,5 @@
 ---
-title: "Pandas DataFrame Schema Validator"
+name: "Pandas DataFrame Schema Validator"
 slug: "pandas-dataframe-schema-validator"
 description: "Validates Pandas DataFrame structures using the pandera library API and pa.DataFrameSchema definitions. Enforces column types, nullable constraints, and custom check functions via pandera.Check."
 github_stars: 48498

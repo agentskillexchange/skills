@@ -1,5 +1,5 @@
 ---
-title: "Coordinate multi-mode coding-agent work in the IDE with Roo Code"
+name: "Coordinate multi-mode coding-agent work in the IDE with Roo Code"
 slug: "coordinate-multi-mode-coding-agent-work-in-the-ide-with-roo-code"
 description: "Use Roo Code modes to plan, implement, debug, and review coding-agent work from inside VS Code while keeping edits, commands, model choices, and MCP tool use visible to the operator."
 github_stars: 24014

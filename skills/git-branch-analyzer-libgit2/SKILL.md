@@ -1,5 +1,5 @@
 ---
-title: "Git Branch Analyzer"
+name: "Git Branch Analyzer"
 slug: "git-branch-analyzer-libgit2"
 description: "Analyzes Git repository branch topology using libgit2 bindings and git-log parsing. Identifies stale branches, merge conflicts, and divergence points via the GitHub GraphQL API."
 github_stars: 10425

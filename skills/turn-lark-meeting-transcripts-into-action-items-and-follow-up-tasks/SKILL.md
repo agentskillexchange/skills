@@ -1,5 +1,5 @@
 ---
-title: "Turn Lark meeting transcripts into action items and follow-up tasks"
+name: "Turn Lark meeting transcripts into action items and follow-up tasks"
 slug: "turn-lark-meeting-transcripts-into-action-items-and-follow-up-tasks"
 description: "Read a Lark Minutes transcript, extract explicit and implied follow-ups, then let the agent execute selected tasks instead of leaving them as notes."
 github_stars: 40

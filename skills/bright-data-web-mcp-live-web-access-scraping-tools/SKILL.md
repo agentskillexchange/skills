@@ -1,5 +1,5 @@
 ---
-title: "Bright Data Web MCP Live Web Access and Scraping Tools"
+name: "Bright Data Web MCP Live Web Access and Scraping Tools"
 slug: "bright-data-web-mcp-live-web-access-scraping-tools"
 description: "Bright Data Web MCP gives MCP-compatible agents live web search, scraping, and optional browser-automation access through Bright Data’s web-access platform. It is built for agents that need current information, anti-bot resilience, and structured extraction without maintaining their own scraping stack."
 github_stars: 3249

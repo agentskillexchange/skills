@@ -1,5 +1,5 @@
 ---
-title: "Reformat Markdown files into a stable house style before review or migration"
+name: "Reformat Markdown files into a stable house style before review or migration"
 slug: "reformat-markdown-files-into-a-stable-house-style-before-review-or-migration"
 description: "Runs mdformat to rewrite Markdown into a consistent CommonMark-oriented layout or check mode in CI. Use it when an agent needs deterministic Markdown diffs before review, migration, or bulk cleanup, not when it needs to generate new content or build a docs site."
 github_stars: 758

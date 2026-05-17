@@ -1,5 +1,5 @@
 ---
-title: "Apache Camel Route Data Mapper"
+name: "Apache Camel Route Data Mapper"
 slug: "apache-camel-route-data-mapper"
 description: "Maps and transforms data between systems using Apache Camel route definitions and the Camel Component API. Supports XSLT, JSONPath, and DataFormat transformations via camel-core SDK."
 github_stars: 6198

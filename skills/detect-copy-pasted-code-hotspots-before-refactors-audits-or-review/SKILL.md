@@ -1,5 +1,5 @@
 ---
-title: "Detect copy-pasted code hotspots before refactors, audits, or review"
+name: "Detect copy-pasted code hotspots before refactors, audits, or review"
 slug: "detect-copy-pasted-code-hotspots-before-refactors-audits-or-review"
 description: "Use jscpd when an agent needs to scan a codebase for duplicated blocks and turn clone findings into a focused cleanup or review queue. The skill is about duplication detection and hotspot reporting, not general linting, testing, or automated refactoring by itself."
 verification: "security_reviewed"

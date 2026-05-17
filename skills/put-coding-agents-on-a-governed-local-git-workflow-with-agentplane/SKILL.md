@@ -1,5 +1,5 @@
 ---
-title: "Put coding agents on a governed local Git workflow with AgentPlane"
+name: "Put coding agents on a governed local Git workflow with AgentPlane"
 slug: "put-coding-agents-on-a-governed-local-git-workflow-with-agentplane"
 description: "Run coding agents inside a repo with explicit policy files, task state, approvals, and closure records when teams need auditable local workflows instead of opaque agent runs."
 github_stars: 38

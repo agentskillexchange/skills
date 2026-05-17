@@ -1,5 +1,5 @@
 ---
-title: "Generate Terraform module inputs and outputs docs with terraform-docs before review drift sets in"
+name: "Generate Terraform module inputs and outputs docs with terraform-docs before review drift sets in"
 slug: "generate-terraform-module-inputs-and-outputs-docs-with-terraform-docs-before-review-drift-sets-in"
 description: "Refresh Terraform module documentation from source so variables, outputs, and providers stay aligned with the code before review or release."
 github_stars: 4753

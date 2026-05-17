@@ -1,5 +1,5 @@
 ---
-title: "Slack Channel Summarizer"
+name: "Slack Channel Summarizer"
 slug: "slack-channel-summarizer-bolt-sdk"
 description: "Generates channel summaries using Slack Bolt SDK with conversations.history and conversations.replies endpoints. Leverages OpenAI GPT-4 API for abstractive summarization and delivers digests via Slack Block Kit interactive messages."
 github_stars: 2900

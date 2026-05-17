@@ -1,5 +1,5 @@
 ---
-title: "Kokoro FastAPI OpenAI-Compatible Text-to-Speech Server"
+name: "Kokoro FastAPI OpenAI-Compatible Text-to-Speech Server"
 slug: "kokoro-fastapi-openai-compatible-text-to-speech-server"
 description: "Kokoro-FastAPI is a Dockerized FastAPI wrapper around the Kokoro-82M text-to-speech model with OpenAI-compatible speech endpoints. It supports local TTS serving, multi-language synthesis, web UI access, and timestamped audio generation workflows."
 github_stars: 4671

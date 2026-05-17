@@ -1,5 +1,5 @@
 ---
-title: "Pulumi MCP Server"
+name: "Pulumi MCP Server"
 slug: "pulumi-mcp-server"
 description: ""
 github_stars: 25194

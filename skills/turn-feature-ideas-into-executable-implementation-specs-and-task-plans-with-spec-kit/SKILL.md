@@ -1,5 +1,5 @@
 ---
-title: "Turn feature ideas into executable implementation specs and task plans with Spec Kit"
+name: "Turn feature ideas into executable implementation specs and task plans with Spec Kit"
 slug: "turn-feature-ideas-into-executable-implementation-specs-and-task-plans-with-spec-kit"
 description: "Use Spec Kit when an agent should turn a feature idea into a spec-first workflow with explicit artifacts, planning steps, and task breakdowns before code is written."
 github_stars: 88536

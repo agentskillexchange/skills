@@ -1,5 +1,5 @@
 ---
-title: "Ansible Playbook Linter Pro"
+name: "Ansible Playbook Linter Pro"
 slug: "ansible-playbook-linter-pro"
 description: "Validates Ansible playbooks using ansible-lint with custom rule plugins and the Ansible Collections API. Checks for deprecated modules, missing handlers, insecure variable practices, and role dependency conflicts."
 github_stars: 68364

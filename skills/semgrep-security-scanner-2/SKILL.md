@@ -1,5 +1,5 @@
 ---
-title: "Semgrep Security Scanner"
+name: "Semgrep Security Scanner"
 slug: "semgrep-security-scanner-2"
 description: "Scan codebases for security vulnerabilities and anti-patterns using Semgrep OSS rules and the Semgrep CLI. Supports custom YAML rule authoring and SARIF output for CI integration."
 github_stars: 14794

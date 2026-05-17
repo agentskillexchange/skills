@@ -1,5 +1,5 @@
 ---
-title: "Add runtime guardrails to TypeScript agents with VoltAgent"
+name: "Add runtime guardrails to TypeScript agents with VoltAgent"
 slug: "add-runtime-guardrails-to-typescript-agents-with-voltagent"
 description: "Use VoltAgent to intercept, validate, and enforce input/output policies in TypeScript agent workflows."
 github_stars: 8647

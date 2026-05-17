@@ -1,5 +1,5 @@
 ---
-title: "ComfyUI Workflow Executor"
+name: "ComfyUI Workflow Executor"
 slug: "comfyui-workflow-executor"
 description: "Executes ComfyUI image generation workflows via the /prompt REST API endpoint with WebSocket progress tracking. Manages node graph JSON payloads, KSampler scheduler configurations (euler_ancestral, dpmpp_2m_sde), and output image retrieval from the /view endpoint."
 github_stars: 109121

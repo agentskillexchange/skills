@@ -1,5 +1,5 @@
 ---
-title: "SonarQube Scanner Skill"
+name: "SonarQube Scanner Skill"
 slug: "sonarqube-scanner-skill"
 description: "Integrates SonarQube static analysis via the sonar-scanner CLI and SonarQube Web API. Fetches quality gate results from api/qualitygates/project_status, parses issues via api/issues/search, and maps findings to source lines for inline code review annotations."
 github_stars: 10433

@@ -1,5 +1,5 @@
 ---
-title: "Hasura GraphQL Engine for Instant API and Database Automation"
+name: "Hasura GraphQL Engine for Instant API and Database Automation"
 slug: "hasura-graphql-engine-instant-api-database-automation"
 description: "Hasura turns Postgres and other supported data sources into a production-ready GraphQL API with realtime subscriptions, event triggers, and role-based permissions. This skill is useful when an agent needs to inspect schemas, expose structured data safely, or automate backend workflows without hand-writing resolvers."
 github_stars: 31938

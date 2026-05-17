@@ -1,5 +1,5 @@
 ---
-title: "Buf Protobuf Linter"
+name: "Buf Protobuf Linter"
 slug: "buf-protobuf-linter"
 description: "Lints Protocol Buffer definitions using the Buf CLI ruleset and validates gRPC service contracts. Detects breaking changes between proto revisions using buf breaking with git integration."
 github_stars: 11049

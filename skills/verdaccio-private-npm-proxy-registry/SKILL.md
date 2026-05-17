@@ -1,5 +1,5 @@
 ---
-title: "Verdaccio Lightweight Private npm Proxy Registry"
+name: "Verdaccio Lightweight Private npm Proxy Registry"
 slug: "verdaccio-private-npm-proxy-registry"
 description: "Verdaccio is a lightweight, zero-config private npm proxy registry that caches packages from npmjs.org and hosts private packages. It supports npm, yarn, and pnpm with authentication, access control, and plugin extensibility for managing internal JavaScript packages."
 github_stars: 17595

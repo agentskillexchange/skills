@@ -1,5 +1,5 @@
 ---
-title: "Prometheus PromQL Alert Builder"
+name: "Prometheus PromQL Alert Builder"
 slug: "prometheus-promql-alert-builder"
 description: "Constructs Prometheus alerting rules using PromQL expressions with proper label matchers, aggregation operators, and for-duration thresholds. Integrates with Alertmanager routing trees for notification dispatch."
 github_stars: 63584

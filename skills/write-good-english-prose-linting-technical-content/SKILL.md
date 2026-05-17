@@ -1,5 +1,5 @@
 ---
-title: "write-good English Prose Linting for Technical Content"
+name: "write-good English Prose Linting for Technical Content"
 slug: "write-good-english-prose-linting-technical-content"
 description: "This skill uses write-good to flag vague, wordy, or hard-to-read English prose in documentation and content drafts. It is useful when a team wants lightweight style feedback inside editors, scripts, or CI checks."
 github_stars: 5065

@@ -1,5 +1,5 @@
 ---
-title: "Cloudinary DAM Pipeline"
+name: "Cloudinary DAM Pipeline"
 slug: "cloudinary-dam-pipeline-skill"
 description: "Manage digital assets through the Cloudinary Upload, Admin, and Transformation APIs. Automates image optimization with responsive breakpoints, AI-powered cropping via g_auto, and CDN delivery URL generation."
 verification: "security_reviewed"

@@ -1,5 +1,5 @@
 ---
-title: "Review risky coding-agent sessions with local action logs using Gryph"
+name: "Review risky coding-agent sessions with local action logs using Gryph"
 slug: "review-risky-coding-agent-sessions-with-local-action-logs-using-gryph"
 description: "Capture and inspect file reads, writes, and shell activity from coding agents so developers can audit what actually happened after a session goes sideways."
 github_stars: 105

@@ -1,5 +1,5 @@
 ---
-title: "ImageMagick Batch Processor"
+name: "ImageMagick Batch Processor"
 slug: "imagemagick-batch-processor"
 description: "Batch image processing using ImageMagick's convert and mogrify commands with support for resize, crop, watermark, and format conversion. Integrates with libvips for high-performance thumbnail generation."
 github_stars: 16152

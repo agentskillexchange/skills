@@ -1,5 +1,5 @@
 ---
-title: "Notion Workspace Agent"
+name: "Notion Workspace Agent"
 slug: "notion-workspace-agent"
 description: ""
 github_stars: 5582

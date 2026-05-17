@@ -1,5 +1,5 @@
 ---
-title: "Yeoman Sub-Generator Composition Builder"
+name: "Yeoman Sub-Generator Composition Builder"
 slug: "yeoman-sub-generator-composition-builder"
 description: "Orchestrates Yeoman generator composition by chaining sub-generators via the Yeoman Environment API. Manages yo run loops, priority queues, and cross-generator dependency resolution."
 github_stars: 3953

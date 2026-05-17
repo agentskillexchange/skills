@@ -1,5 +1,5 @@
 ---
-title: "Create and repair Word documents with layout-safe DOCX workflows"
+name: "Create and repair Word documents with layout-safe DOCX workflows"
 slug: "create-and-repair-word-documents-with-layout-safe-docx-workflows"
 description: "Use the Anthropic docx skill when an agent needs to produce or repair a real .docx deliverable with headings, tables, numbering, tracked changes, or layout constraints. It frames the work as a document-building workflow with validation and packaging rules, not as a generic document library listing."
 verification: "security_reviewed"

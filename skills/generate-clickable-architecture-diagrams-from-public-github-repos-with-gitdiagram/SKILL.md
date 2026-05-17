@@ -1,5 +1,5 @@
 ---
-title: "Generate clickable architecture diagrams from public GitHub repos with GitDiagram"
+name: "Generate clickable architecture diagrams from public GitHub repos with GitDiagram"
 slug: "generate-clickable-architecture-diagrams-from-public-github-repos-with-gitdiagram"
 description: "Turn a public GitHub repository into an interactive architecture diagram before onboarding, code review, or agent handoff."
 github_stars: 15447

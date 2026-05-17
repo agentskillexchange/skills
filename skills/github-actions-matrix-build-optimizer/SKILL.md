@@ -1,5 +1,5 @@
 ---
-title: "GitHub Actions Matrix Build Optimizer"
+name: "GitHub Actions Matrix Build Optimizer"
 slug: "github-actions-matrix-build-optimizer"
 description: "Analyzes GitHub Actions workflow YAML files and optimizes matrix strategies using the actions/setup-node and actions/cache APIs. Reduces redundant job combinations by inspecting build dependency graphs via the GitHub REST API. Outputs a revised workflow with estimated CI time savings per commit."
 verification: "security_reviewed"

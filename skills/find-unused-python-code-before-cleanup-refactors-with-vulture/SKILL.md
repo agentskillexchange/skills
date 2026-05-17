@@ -1,5 +1,5 @@
 ---
-title: "Find unused Python code before cleanup refactors with Vulture"
+name: "Find unused Python code before cleanup refactors with Vulture"
 slug: "find-unused-python-code-before-cleanup-refactors-with-vulture"
 description: "Run a dead-code pass on Python repositories before refactors so agents can flag unused functions, classes, imports, and variables instead of deleting blindly."
 github_stars: 4521

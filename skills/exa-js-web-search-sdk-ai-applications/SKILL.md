@@ -1,5 +1,5 @@
 ---
-title: "Exa JS Web Search SDK for AI Applications"
+name: "Exa JS Web Search SDK for AI Applications"
 slug: "exa-js-web-search-sdk-ai-applications"
 description: "exa-js is the official JavaScript SDK for Exa, a web search API built for AI workflows. It gives agents a concrete way to search the web, retrieve page contents, and generate sourced answers from code instead of stitching raw HTTP calls by hand."
 github_stars: 126

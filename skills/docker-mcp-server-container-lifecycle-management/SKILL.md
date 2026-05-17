@@ -1,5 +1,5 @@
 ---
-title: "Docker MCP Server for Container Lifecycle Management"
+name: "Docker MCP Server for Container Lifecycle Management"
 slug: "docker-mcp-server-container-lifecycle-management"
 description: "An MCP server that enables AI agents to manage Docker containers, images, volumes, and networks through natural language. Supports local and remote Docker engines for container lifecycle operations via the Model Context Protocol."
 github_stars: 695

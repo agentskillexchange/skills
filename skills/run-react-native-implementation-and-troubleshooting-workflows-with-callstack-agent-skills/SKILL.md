@@ -1,5 +1,5 @@
 ---
-title: "Run React Native implementation and troubleshooting workflows with Callstack Agent Skills"
+name: "Run React Native implementation and troubleshooting workflows with Callstack Agent Skills"
 slug: "run-react-native-implementation-and-troubleshooting-workflows-with-callstack-agent-skills"
 description: "Give coding agents React Native-specific build, upgrade, GitHub Actions, and troubleshooting guidance instead of treating mobile work like generic web development."
 github_stars: 1252

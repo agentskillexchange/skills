@@ -1,5 +1,5 @@
 ---
-title: "Jenkins Pipeline Linter Pro"
+name: "Jenkins Pipeline Linter Pro"
 slug: "jenkins-pipeline-linter-pro"
 description: "Validates Jenkinsfile syntax and best practices using the Jenkins Pipeline Model Definition API and jenkins-cli.jar linter endpoint. Detects anti-patterns like unbounded parallel stages, missing timeout blocks, and credential leaks."
 github_stars: 25189

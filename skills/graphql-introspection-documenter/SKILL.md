@@ -1,5 +1,5 @@
 ---
-title: "GraphQL Introspection Documenter"
+name: "GraphQL Introspection Documenter"
 slug: "graphql-introspection-documenter"
 description: "Introspects GraphQL endpoints using the __schema query and generates structured API documentation. Uses graphql-js type system to resolve interfaces, unions, and custom scalar descriptions."
 github_stars: 20324

@@ -1,5 +1,5 @@
 ---
-title: "ESLint Rule Architect"
+name: "ESLint Rule Architect"
 slug: "eslint-rule-architect-2"
 description: "Creates custom ESLint rules and shareable configs using the ESLint RuleTester API and @typescript-eslint/utils. Generates AST visitor patterns with full TypeScript type-checking support via parserServices."
 github_stars: 27188

@@ -1,5 +1,5 @@
 ---
-title: "Pandas DataFrame Pipeline Orchestrator"
+name: "Pandas DataFrame Pipeline Orchestrator"
 slug: "pandas-dataframe-pipeline-orchestrator"
 description: "Chains pandas DataFrame transformations into reproducible pipelines using pipe() method composition. Handles missing data imputation with fillna() strategies, type coercion with astype(), and memory optimization via category dtypes."
 github_stars: 48498

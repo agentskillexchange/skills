@@ -1,5 +1,5 @@
 ---
-title: "DALL-E Prompt Engineering Kit"
+name: "DALL-E Prompt Engineering Kit"
 slug: "dall-e-prompt-engineering-kit"
 description: "Structured prompt generation for OpenAI's DALL-E 3 API (images/generations endpoint) with style modifiers, aspect ratio control, and batch variation generation. Includes negative prompt patterns and quality presets."
 github_stars: 10813

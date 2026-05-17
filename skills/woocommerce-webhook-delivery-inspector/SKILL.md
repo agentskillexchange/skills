@@ -1,5 +1,5 @@
 ---
-title: "WooCommerce Webhook Delivery Inspector"
+name: "WooCommerce Webhook Delivery Inspector"
 slug: "woocommerce-webhook-delivery-inspector"
 description: "Inspects WooCommerce webhook reliability through the `WC_Webhook` model, Action Scheduler queues, and REST endpoints such as `/wp-json/wc/v3/webhooks`. Great for tracing failed deliveries, replay patterns, and event coverage across order, product, and customer workflows."
 github_stars: 10231

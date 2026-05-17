@@ -1,5 +1,5 @@
 ---
-title: "SonarQube Gate Checker"
+name: "SonarQube Gate Checker"
 slug: "sonarqube-gate-checker-2"
 description: "Queries the SonarQube Web API (/api/qualitygates/project_status) to evaluate quality gate conditions before merge. Reports code smells, coverage thresholds, and duplications against configurable SonarQube quality profiles."
 github_stars: 10433

@@ -1,5 +1,5 @@
 ---
-title: "Self-Improvement / Learnings Capture"
+name: "Self-Improvement / Learnings Capture"
 slug: "self-improvement-learnings-capture"
 description: "Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions."
 github_stars: 611

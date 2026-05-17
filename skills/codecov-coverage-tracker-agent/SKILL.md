@@ -1,5 +1,5 @@
 ---
-title: "Codecov Coverage Tracker Agent"
+name: "Codecov Coverage Tracker Agent"
 slug: "codecov-coverage-tracker-agent"
 description: "Tracks and enforces code coverage using Codecov API, lcov, and Istanbul/nyc. Generates coverage reports, detects regressions, and blocks PRs below threshold."
 verification: "security_reviewed"

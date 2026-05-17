@@ -1,5 +1,5 @@
 ---
-title: "Jenkins Declarative Pipeline Generator"
+name: "Jenkins Declarative Pipeline Generator"
 slug: "jenkins-declarative-pipeline-generator-2"
 description: "Generates Jenkins Declarative Pipelines using the Pipeline Model Definition Plugin API and Jenkins shared library conventions. Integrates with the Jenkins REST API for job provisioning and credentials management."
 github_stars: 564

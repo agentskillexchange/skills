@@ -1,5 +1,5 @@
 ---
-title: "Terrascan Policy Scanner"
+name: "Terrascan Policy Scanner"
 slug: "terrascan-policy-scanner"
 description: ""
 github_stars: 5209

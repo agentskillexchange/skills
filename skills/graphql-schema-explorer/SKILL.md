@@ -1,5 +1,5 @@
 ---
-title: "GraphQL Schema Explorer"
+name: "GraphQL Schema Explorer"
 slug: "graphql-schema-explorer"
 description: ""
 github_stars: 20323

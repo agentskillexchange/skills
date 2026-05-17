@@ -1,5 +1,5 @@
 ---
-title: "Kamal Zero-Downtime Docker Deployment Tool by Basecamp"
+name: "Kamal Zero-Downtime Docker Deployment Tool by Basecamp"
 slug: "kamal-zero-downtime-docker-deployment-basecamp"
 description: "Kamal is an open-source deployment tool by Basecamp that deploys containerized web applications anywhere — from bare metal to cloud VMs — with zero downtime using Docker and SSH. It uses kamal-proxy for seamless container switching and works across multiple servers simultaneously."
 github_stars: 14009

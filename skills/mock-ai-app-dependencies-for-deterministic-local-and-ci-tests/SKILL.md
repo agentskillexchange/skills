@@ -1,5 +1,5 @@
 ---
-title: "Mock AI app dependencies for deterministic local and CI tests"
+name: "Mock AI app dependencies for deterministic local and CI tests"
 slug: "mock-ai-app-dependencies-for-deterministic-local-and-ci-tests"
 description: "Use AiMock when an agent needs reproducible tests around LLM APIs, MCP tools, A2A flows, vector stores, search, or moderation services without depending on live providers."
 github_stars: 324

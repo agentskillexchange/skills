@@ -1,5 +1,5 @@
 ---
-title: "Makefile Dependency Auditor"
+name: "Makefile Dependency Auditor"
 slug: "makefile-dependency-auditor"
 description: "Parses GNU Makefiles using pymake and builds complete dependency DAGs. Detects circular dependencies, unreachable targets, missing prerequisites, and generates optimal parallel build orderings."
 verification: "security_reviewed"

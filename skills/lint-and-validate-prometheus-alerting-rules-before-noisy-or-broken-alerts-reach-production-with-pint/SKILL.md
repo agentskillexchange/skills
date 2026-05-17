@@ -1,5 +1,5 @@
 ---
-title: "Lint and validate Prometheus alerting rules before noisy or broken alerts reach production with Pint"
+name: "Lint and validate Prometheus alerting rules before noisy or broken alerts reach production with Pint"
 slug: "lint-and-validate-prometheus-alerting-rules-before-noisy-or-broken-alerts-reach-production-with-pint"
 description: "Check Prometheus alerting and recording rules in CI or ad hoc runs so invalid, misleading, or dangerous rules are caught before deploy."
 github_stars: 1015

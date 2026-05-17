@@ -1,5 +1,5 @@
 ---
-title: "Turn a plain-language brief into a multi-step video production pipeline with OpenMontage"
+name: "Turn a plain-language brief into a multi-step video production pipeline with OpenMontage"
 slug: "turn-a-plain-language-brief-into-a-multi-step-video-production-pipeline-with-openmontage"
 description: "Use OpenMontage when an agent should take a brief or reference video and run the research, scripting, asset generation, editing, subtitle, and render pipeline as one production workflow instead of treating each media tool as a separate manual step."
 github_stars: 3008

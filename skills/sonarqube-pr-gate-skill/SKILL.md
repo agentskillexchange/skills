@@ -1,5 +1,5 @@
 ---
-title: "SonarQube PR Gate"
+name: "SonarQube PR Gate"
 slug: "sonarqube-pr-gate-skill"
 description: "Integrates SonarQube quality gates into pull request workflows via the SonarQube Web API /api/qualitygates/project_status. Blocks merges when code smells, duplications, or coverage thresholds fail and posts inline annotations using the GitHub Checks API."
 github_stars: 10433

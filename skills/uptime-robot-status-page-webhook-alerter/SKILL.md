@@ -1,5 +1,5 @@
 ---
-title: "Uptime Robot Status Page Webhook Alerter"
+name: "Uptime Robot Status Page Webhook Alerter"
 slug: "uptime-robot-status-page-webhook-alerter"
 description: "Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty. Uses the UptimeRobot getMonitors endpoint to detect downtime transitions."
 verification: "security_reviewed"

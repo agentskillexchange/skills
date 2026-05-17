@@ -1,5 +1,5 @@
 ---
-title: "Run profile-based restic backups and verification checks with resticprofile"
+name: "Run profile-based restic backups and verification checks with resticprofile"
 slug: "run-profile-based-restic-backups-and-verification-checks-with-resticprofile"
 description: "Execute named restic backup profiles with repeatable backup, retention, prune, check, and restore steps instead of hand-running one-off commands."
 github_stars: 1275

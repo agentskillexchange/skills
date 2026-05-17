@@ -1,5 +1,5 @@
 ---
-title: "SonarQube Code Scanner Agent"
+name: "SonarQube Code Scanner Agent"
 slug: "sonarqube-code-scanner-agent"
 description: "Automated code quality scanning using SonarQube REST API and SonarScanner CLI. Detects code smells, bugs, and vulnerabilities across 30+ languages with configurable quality gates."
 github_stars: 10433

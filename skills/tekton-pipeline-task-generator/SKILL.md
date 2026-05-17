@@ -1,5 +1,5 @@
 ---
-title: "Tekton Pipeline Task Generator"
+name: "Tekton Pipeline Task Generator"
 slug: "tekton-pipeline-task-generator"
 description: "Generates Tekton CI/CD pipeline tasks and PipelineRun manifests using the Tekton Pipelines API. Integrates with Tekton Hub for reusable task catalog lookups and automated resource binding."
 github_stars: 8936

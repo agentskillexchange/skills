@@ -1,5 +1,5 @@
 ---
-title: "Protocol Buffer Schema Generator"
+name: "Protocol Buffer Schema Generator"
 slug: "protobuf-schema-generator-from-json"
 description: "Infers Protocol Buffer (.proto) definitions from JSON samples using protobuf-compiler and grpcio-tools. Generates proto3 schemas with nested message types, enums, and gRPC service stubs."
 github_stars: 71179

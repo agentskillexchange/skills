@@ -1,5 +1,5 @@
 ---
-title: "Slack Standup Automator"
+name: "Slack Standup Automator"
 slug: "slack-standup-automator"
 description: "Automates daily standup collection and reporting in Slack using the Slack Web API chat.postMessage and conversations.history methods. Supports threaded responses and scheduled summaries via chat.scheduleMessage."
 github_stars: 2900

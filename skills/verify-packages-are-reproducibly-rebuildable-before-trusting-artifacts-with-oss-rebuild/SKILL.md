@@ -1,5 +1,5 @@
 ---
-title: "Verify Packages Are Reproducibly Rebuildable Before Trusting Artifacts With Oss Rebuild"
+name: "Verify Packages Are Reproducibly Rebuildable Before Trusting Artifacts With Oss Rebuild"
 slug: "verify-packages-are-reproducibly-rebuildable-before-trusting-artifacts-with-oss-rebuild"
 description: "Query OSS Rebuild attestations and rebuild metadata so an agent can verify whether a published package artifact matches a reproducible upstream rebuild."
 github_stars: 687

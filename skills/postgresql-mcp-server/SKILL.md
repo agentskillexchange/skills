@@ -1,5 +1,5 @@
 ---
-title: "PostgreSQL MCP Server"
+name: "PostgreSQL MCP Server"
 slug: "postgresql-mcp-server"
 description: "Agent access to PostgreSQL data and queries through MCP."
 github_stars: 85783

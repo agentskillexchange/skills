@@ -1,5 +1,5 @@
 ---
-title: "OPA Rego Policy Bundle Tester"
+name: "OPA Rego Policy Bundle Tester"
 slug: "opa-rego-policy-bundle-tester"
 description: "Tests authorization and policy bundles with the Open Policy Agent `/v1/data` and `/v1/compile` APIs plus `opa test` semantics. Great for agents that need to explain which Rego rules allow or deny a request before policy changes go live."
 github_stars: 11534

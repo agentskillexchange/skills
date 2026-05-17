@@ -1,5 +1,5 @@
 ---
-title: "OpenAI Image Gen"
+name: "OpenAI Image Gen"
 slug: "openai-image-gen"
 description: "Batch-generate images through the OpenAI Images API with a prompt sampler and gallery output."
 github_stars: 10906

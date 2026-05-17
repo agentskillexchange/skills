@@ -1,5 +1,5 @@
 ---
-title: "Datadog Monitor Configuration Agent"
+name: "Datadog Monitor Configuration Agent"
 slug: "datadog-monitor-configuration-agent-2"
 description: "Creates and manages Datadog monitors using the datadog-api-client SDK. Configures metric, log, APM trace, and composite monitors with proper threshold types and notification routing."
 github_stars: 791

@@ -1,5 +1,5 @@
 ---
-title: "Terraform Module Template Engine"
+name: "Terraform Module Template Engine"
 slug: "terraform-module-template-engine"
 description: "Scaffolds production-ready Terraform modules using HCL templates with automated variable documentation via terraform-docs. Includes Terratest boilerplate and GitHub Actions CI workflow generation."
 github_stars: 48146

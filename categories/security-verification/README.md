@@ -53,7 +53,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Vault Secrets Rotator](../../skills/vault-secrets-rotator/) | 35.4k | — |
 | [Vault Transit Secrets Envelope Verifier](../../skills/vault-transit-secrets-envelope-verifier/) | 35.3k | — |
 | [Container Image Vulnerability Scanner](../../skills/container-image-vulnerability-scanner/) | 34.8k | — |
-| [Trivy Container &#038; IaC Vulnerability Scanner](../../skills/trivy-container-iac-vulnerability-scanner/) | 34.5k | — |
+| [Trivy Container & IaC Vulnerability Scanner](../../skills/trivy-container-iac-vulnerability-scanner/) | 34.5k | — |
 | [Trivy Container Image Vulnerability Scanner](../../skills/trivy-container-image-vulnerability-scanner/) | 34.5k | — |
 | [Trivy Container Scanner](../../skills/trivy-container-scanner-2/) | 34.5k | — |
 | [Trivy Container Security Scanner](../../skills/trivy-container-security-scanner/) | 34.5k | — |

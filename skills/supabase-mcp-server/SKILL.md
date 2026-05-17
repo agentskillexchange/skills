@@ -1,5 +1,5 @@
 ---
-title: "Supabase MCP Server"
+name: "Supabase MCP Server"
 slug: "supabase-mcp-server"
 description: ""
 github_stars: 100812

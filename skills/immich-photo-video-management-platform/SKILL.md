@@ -1,5 +1,5 @@
 ---
-title: "Immich Self-Hosted Photo and Video Management Platform"
+name: "Immich Self-Hosted Photo and Video Management Platform"
 slug: "immich-photo-video-management-platform"
 description: "Immich is a high-performance self-hosted photo and video management solution with 90K+ GitHub stars. It provides automatic backup, facial recognition, CLIP-based search, metadata extraction, multi-user support, and a comprehensive REST API for programmatic media management."
 github_stars: 96205

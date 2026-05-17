@@ -1,5 +1,5 @@
 ---
-title: "Selenium Grid Multi-Browser Test Runner"
+name: "Selenium Grid Multi-Browser Test Runner"
 slug: "selenium-grid-multi-browser-test-runner"
 description: "Orchestrates parallel cross-browser testing across Selenium Grid nodes using WebDriver RemoteConnection API. Supports Chrome, Firefox, and Edge with configurable DesiredCapabilities for each browser matrix."
 github_stars: 34076

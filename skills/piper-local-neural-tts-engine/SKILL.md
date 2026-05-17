@@ -1,5 +1,5 @@
 ---
-title: "Piper Local Neural Text-to-Speech Engine"
+name: "Piper Local Neural Text-to-Speech Engine"
 slug: "piper-local-neural-tts-engine"
 description: "Run fast, high-quality neural text-to-speech locally with Piper. Supports 20+ languages with compact ONNX voice models, no cloud API required, and produces natural-sounding speech on CPUs including Raspberry Pi."
 github_stars: 10741

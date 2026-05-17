@@ -1,5 +1,5 @@
 ---
-title: "Extract structured data and attachments from raw email with MailParser"
+name: "Extract structured data and attachments from raw email with MailParser"
 slug: "extract-structured-data-and-attachments-from-raw-email-mailparser"
 description: "Use MailParser when an agent receives raw RFC822 or MIME email and needs a normalized result with headers, text, HTML, addresses, and attachments. This is for email ingestion and handoff workflows, not for acting as a mailbox client or delivery platform."
 github_stars: 1666

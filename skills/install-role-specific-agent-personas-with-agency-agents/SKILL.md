@@ -1,5 +1,5 @@
 ---
-title: "Install role-specific agent personas with Agency Agents"
+name: "Install role-specific agent personas with Agency Agents"
 slug: "install-role-specific-agent-personas-with-agency-agents"
 description: "Install and activate specialized AI agent personas from Agency Agents when a coding or operations session needs a focused role, workflow, and deliverable standard instead of a generic assistant prompt."
 github_stars: 96008

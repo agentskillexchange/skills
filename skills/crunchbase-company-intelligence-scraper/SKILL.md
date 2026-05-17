@@ -1,5 +1,5 @@
 ---
-title: "Crunchbase Company Intelligence Scraper"
+name: "Crunchbase Company Intelligence Scraper"
 slug: "crunchbase-company-intelligence-scraper"
 description: "Extracts company profiles, funding rounds, and investor data using the Crunchbase Enterprise API v4 with autocomplete, search, and entity lookup endpoints. Builds competitive landscape maps with funding timeline visualizations."
 verification: "security_reviewed"

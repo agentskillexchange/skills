@@ -1,5 +1,5 @@
 ---
-title: "Parquet Column Pruning Optimizer"
+name: "Parquet Column Pruning Optimizer"
 slug: "parquet-column-pruning-optimizer"
 description: "Optimizes Apache Parquet file reads using PyArrow column pruning and predicate pushdown. Analyzes query patterns to recommend row group sizing and dictionary encoding strategies."
 github_stars: 387

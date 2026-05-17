@@ -1,5 +1,5 @@
 ---
-title: "Swagger Codegen Template Customizer"
+name: "Swagger Codegen Template Customizer"
 slug: "swagger-codegen-template-customizer"
 description: "Extends Swagger Codegen and OpenAPI Generator with custom Mustache templates for client SDK generation. Supports Java (OkHttp/Retrofit), TypeScript (Axios/Fetch), and Python (httpx) output targets."
 github_stars: 28751

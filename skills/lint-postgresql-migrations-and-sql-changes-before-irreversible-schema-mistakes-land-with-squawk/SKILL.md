@@ -1,5 +1,5 @@
 ---
-title: "Lint PostgreSQL migrations and SQL changes before irreversible schema mistakes land with Squawk"
+name: "Lint PostgreSQL migrations and SQL changes before irreversible schema mistakes land with Squawk"
 slug: "lint-postgresql-migrations-and-sql-changes-before-irreversible-schema-mistakes-land-with-squawk"
 description: "Catch locking, indexing, and schema-change hazards in PostgreSQL migration SQL before a review turns into downtime."
 github_stars: 1050

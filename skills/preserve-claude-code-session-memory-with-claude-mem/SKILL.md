@@ -1,5 +1,5 @@
 ---
-title: "Preserve Claude Code session memory with Claude Mem"
+name: "Preserve Claude Code session memory with Claude Mem"
 slug: "preserve-claude-code-session-memory-with-claude-mem"
 description: "Use Claude Mem to capture Claude Code sessions, compress the useful context, and re-inject relevant memory so future coding-agent runs start with project-specific continuity."
 github_stars: 74413

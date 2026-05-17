@@ -1,5 +1,5 @@
 ---
-title: "Run a self-improving personal agent with Hermes Agent"
+name: "Run a self-improving personal agent with Hermes Agent"
 slug: "run-a-self-improving-personal-agent-with-hermes-agent"
 description: "Deploy Hermes Agent as a persistent personal agent that learns skills from experience, searches past sessions, schedules automations, and coordinates work across CLI and chat channels."
 github_stars: 135226

@@ -1,5 +1,5 @@
 ---
-title: "Give agents governed semantic data context with Wren Engine"
+name: "Give agents governed semantic data context with Wren Engine"
 slug: "give-agents-governed-semantic-data-context-with-wren-engine"
 description: "Give agents governed semantic data context so data questions map to trusted metrics and schemas."
 github_stars: 661

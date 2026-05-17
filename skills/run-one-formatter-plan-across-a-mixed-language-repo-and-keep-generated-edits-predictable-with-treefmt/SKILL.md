@@ -1,5 +1,5 @@
 ---
-title: "Run one formatter plan across a mixed-language repo and keep generated edits predictable with treefmt"
+name: "Run one formatter plan across a mixed-language repo and keep generated edits predictable with treefmt"
 slug: "run-one-formatter-plan-across-a-mixed-language-repo-and-keep-generated-edits-predictable-with-treefmt"
 description: "Use treefmt when an agent needs one repo-level formatting plan across multiple languages instead of stitching formatter commands together ad hoc."
 github_stars: 977

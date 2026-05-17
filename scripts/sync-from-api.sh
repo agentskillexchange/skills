@@ -41,6 +41,9 @@ def fetch_json(url, method="GET"):
         body = resp.read().decode("utf-8")
         return json.loads(body), dict(resp.headers), body
 
+def display_name(item):
+    return html.unescape(item.get("name") or item.get("title") or "")
+
 # ── Fetch live skills ────────────────────────────────────────────────────────
 items = []
 page = 1
@@ -71,7 +74,8 @@ for item in items:
 
     entry = {
         "slug":         item.get("slug", ""),
-        "title":        html.unescape(item.get("title", "")),
+        "name":         display_name(item),
+        "title":        display_name(item),
         "description":  html.unescape((item.get("excerpt") or "").strip()),
         "category":     cats[0] if len(cats) == 1 else cats,
         "framework":    fws[0]  if len(fws)  == 1 else fws,
@@ -116,7 +120,8 @@ openclaw_payload = {
     "skills": [
         {
             "slug":         s["slug"],
-            "title":        s["title"],
+            "name":         s["name"],
+            "title":        s["name"],
             "description":  s["description"],
             "category":     s["category"],
             "framework":    s["framework"],
@@ -139,7 +144,8 @@ codex_payload = {
     "skills": [
         {
             "slug":         s["slug"],
-            "title":        s["title"],
+            "name":         s["name"],
+            "title":        s["name"],
             "description":  s["description"],
             "category":     s["category"],
             "framework":    s["framework"],
@@ -165,7 +171,7 @@ for s in skills:
     cat  = s["category"] if isinstance(s["category"], str) else ", ".join(s["category"])
     fw   = s["framework"] if isinstance(s["framework"], str) else ", ".join(s["framework"])
     ver  = "Security Reviewed" if s["verification"] == "security_reviewed" else "Published"
-    lines.append(f"## {s['title']}")
+    lines.append(f"## {s['name']}")
     lines.append(f"slug: {s['slug']}")
     lines.append(f"category: {cat}")
     lines.append(f"framework: {fw}")

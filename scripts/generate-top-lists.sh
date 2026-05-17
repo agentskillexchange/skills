@@ -32,6 +32,9 @@ def fmt_num(n):
         return f"{n/1_000:.1f}".rstrip("0").rstrip(".") + "k"
     return str(n) if n else "—"
 
+def display_name(item):
+    return html.unescape(item.get("name") or item.get("title") or "")
+
 # Fetch all skills
 items = []
 page = 1
@@ -48,7 +51,7 @@ for item in items:
 # --- Shared: pick best representative per tool ---
 def best_per_tool(items_list, signal_key, limit):
     """Deduplicate by tool_match, picking the best representative per tool.
-    Tiebreaker: prefer skill whose title/slug contains the tool name, then alphabetical title.
+    Tiebreaker: prefer skill whose display name/slug contains the tool name, then alphabetical name.
     This matches the homepage PHP logic for consistency."""
     valid = [i for i in items_list if int(i.get(signal_key) or 0) > 0]
     # Group by tool
@@ -63,11 +66,11 @@ def best_per_tool(items_list, signal_key, limit):
     tool_best = []
     for tool, group in tool_groups.items():
         def sort_key(item):
-            title = item.get("title", "").lower()
+            title = display_name(item).lower()
             slug = item.get("slug", "").lower()
             title_match = 1 if tool in title else 0
             slug_match = 1 if tool in slug else 0
-            return (-title_match, -slug_match, item.get("title", ""))
+            return (-title_match, -slug_match, display_name(item))
         group.sort(key=sort_key)
         best = group[0]
         tool_best.append(best)
@@ -89,7 +92,7 @@ lines = [
     "|--:|-------|------:|------|----------|",
 ]
 for i, item in enumerate(top_stars, 1):
-    title = item.get("title", "")
+    title = display_name(item)
     slug = item.get("slug", "")
     tool = item.get("tool_match") or ""
     cat = item["categories"][0] if item["categories"] else ""
@@ -112,7 +115,7 @@ lines = [
     "|--:|-------|----------------:|------|----------|",
 ]
 for i, item in enumerate(top_downloads, 1):
-    title = item.get("title", "")
+    title = display_name(item)
     slug = item.get("slug", "")
     tool = item.get("tool_match") or ""
     cat = item["categories"][0] if item["categories"] else ""

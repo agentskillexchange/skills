@@ -1,5 +1,5 @@
 ---
-title: "Fly.io Deployment Helper"
+name: "Fly.io Deployment Helper"
 slug: "fly-io-deployment-helper"
 description: ""
 github_stars: 1645

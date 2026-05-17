@@ -1,5 +1,5 @@
 ---
-title: "OWASP ZAP API Fuzzer"
+name: "OWASP ZAP API Fuzzer"
 slug: "owasp-zap-api-fuzzer"
 description: "Automates REST API security testing using the OWASP ZAP Python SDK. Runs active scans, SQL injection probes, and XSS tests against OpenAPI specs with structured vulnerability reports."
 github_stars: 14991

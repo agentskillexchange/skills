@@ -1,5 +1,5 @@
 ---
-title: "Statically scan agent repos for prompt injection and unsafe MCP configs with Agent Audit"
+name: "Statically scan agent repos for prompt injection and unsafe MCP configs with Agent Audit"
 slug: "statically-scan-agent-repos-for-prompt-injection-and-unsafe-mcp-configs-with-agent-audit"
 description: "Audit agent code, prompts, and MCP configuration for prompt-injection surfaces, taint issues, and unsafe tool exposure before shipping."
 github_stars: 149

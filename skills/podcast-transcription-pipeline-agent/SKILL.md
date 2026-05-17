@@ -1,5 +1,5 @@
 ---
-title: "Podcast Transcription Pipeline"
+name: "Podcast Transcription Pipeline"
 slug: "podcast-transcription-pipeline-agent"
 description: "Transcribes podcast episodes using OpenAI Whisper API with speaker diarization via pyannote.audio. Exports formatted transcripts to SRT, VTT, and searchable JSON with timestamped segments."
 verification: "security_reviewed"

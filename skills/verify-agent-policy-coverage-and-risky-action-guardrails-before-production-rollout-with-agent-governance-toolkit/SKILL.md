@@ -1,5 +1,5 @@
 ---
-title: "Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit"
+name: "Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit"
 slug: "verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit"
 description: "Run deterministic governance checks and policy verification before agents get real autonomy, so risky tool use and weak runtime evidence are caught early."
 github_stars: 1056

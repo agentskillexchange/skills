@@ -88,6 +88,9 @@ def fmt_badge(n):
 def clean_text(value):
     return html.unescape(str(value or "")).strip()
 
+def display_name(item):
+    return clean_text(item.get("name") or item.get("title"))
+
 # Fetch live data
 cats, _ = fetch_json(WP_CAT_URL)
 cat_rows = [{"name": html.unescape(c["name"]), "slug": c["slug"], "count": int(c["count"])} for c in cats]
@@ -121,7 +124,7 @@ except Exception:
 def featured_row(item):
     cats_list = [html.unescape(str(x)) for x in (item.get("categories") or [])]
     return {
-        "title": clean_text(item.get("title")),
+        "title": display_name(item),
         "slug": item.get("slug") or "",
         "tool": item.get("tool_match") or (item.get("slug") or "").lower(),
         "stars": int(item.get("github_stars") or 0),
@@ -152,11 +155,11 @@ if not featured:
     tool_best = []
     for tool, group in tool_groups.items():
         def sort_key(item, t=tool):
-            title = item.get("title", "").lower()
+            title = display_name(item).lower()
             slug = item.get("slug", "").lower()
             title_match = 1 if t in title else 0
             slug_match = 1 if t in slug else 0
-            return (-title_match, -slug_match, item.get("title", ""))
+            return (-title_match, -slug_match, display_name(item))
         group.sort(key=sort_key)
         tool_best.append(group[0])
 
@@ -221,7 +224,7 @@ lines.append("")
 lines.append("## Skill of the Day")
 lines.append("")
 if skill_of_day:
-    title = clean_text(skill_of_day.get("title"))
+    title = display_name(skill_of_day)
     slug = skill_of_day.get("slug") or ""
     description = clean_text(skill_of_day.get("description"))
     link = skill_of_day.get("link") or f"{SITE_BASE}/skills/{slug}/"
@@ -292,6 +295,7 @@ lines.append("[`skills.json`](skills.json) contains every skill with metadata an
 lines.append("")
 lines.append("```json")
 lines.append('{')
+lines.append('  "name": "Playwright MCP Browser Automation",')
 lines.append('  "slug": "playwright-mcp-browser-automation",')
 lines.append('  "title": "Playwright MCP Browser Automation",')
 lines.append('  "description": "Official Playwright-powered browser control for agent workflows.",')

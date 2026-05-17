@@ -1,5 +1,5 @@
 ---
-title: "Sharp Image Pipeline Processor"
+name: "Sharp Image Pipeline Processor"
 slug: "sharp-image-pipeline-processor-2"
 description: "Builds composable image transformation pipelines using the Sharp library with operations like resize(), composite(), and toFormat(). Leverages libvips bindings for high-performance batch processing."
 github_stars: 32138

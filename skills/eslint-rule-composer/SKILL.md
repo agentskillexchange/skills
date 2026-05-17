@@ -1,5 +1,5 @@
 ---
-title: "ESLint Rule Composer"
+name: "ESLint Rule Composer"
 slug: "eslint-rule-composer"
 description: "Creates custom ESLint rules using the ESLint RuleTester API and AST Explorer patterns. Generates rule implementations with auto-fix suggestions based on estree node types and scope analysis."
 github_stars: 27188

@@ -1,5 +1,5 @@
 ---
-title: "OpenAPI Spec Validator & Docs Generator"
+name: "OpenAPI Spec Validator & Docs Generator"
 slug: "openapi-spec-validator-docs-generator"
 description: "Validates OpenAPI 3.0/3.1 specifications using Spectral linting rules and generates interactive API documentation with Redoc and Swagger UI. Supports custom ruleset definitions and CI integration."
 github_stars: 3084

@@ -1,5 +1,5 @@
 ---
-title: "CircleCI Workflow Builder"
+name: "CircleCI Workflow Builder"
 slug: "circleci-workflow-builder"
 description: "Generates CircleCI config.yml workflows using the CircleCI Orbs SDK and Workflows API. Supports parallelism tuning with the CircleCI Test Splitting API and resource class optimization for Docker and machine executors."
 github_stars: 843

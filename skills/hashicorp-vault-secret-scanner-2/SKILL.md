@@ -1,5 +1,5 @@
 ---
-title: "HashiCorp Vault Secret Scanner"
+name: "HashiCorp Vault Secret Scanner"
 slug: "hashicorp-vault-secret-scanner-2"
 description: "Scans codebases for hardcoded secrets using HashiCorp Vault SDK and truffleHog patterns. Integrates with Vault Transit engine for automatic secret rotation and re-encryption of detected credentials."
 github_stars: 35418

@@ -1,5 +1,5 @@
 ---
-title: "Todoist GTD Workflow Engine"
+name: "Todoist GTD Workflow Engine"
 slug: "todoist-gtd-workflow-engine"
 description: "Implements Getting Things Done methodology on Todoist using the Sync API v9. Automates weekly reviews, context tagging, and project decomposition into next actions."
 verification: "security_reviewed"

@@ -1,5 +1,5 @@
 ---
-title: "Run repeatable model and agent eval suites and inspect scoring traces with Inspect AI"
+name: "Run repeatable model and agent eval suites and inspect scoring traces with Inspect AI"
 slug: "run-repeatable-model-and-agent-eval-suites-and-inspect-scoring-traces-with-inspect-ai"
 description: "Run benchmark-style eval suites against models or agents, then inspect scored traces instead of relying on ad hoc chats and gut feel."
 github_stars: 1904

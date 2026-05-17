@@ -1,5 +1,5 @@
 ---
-title: "SendGrid MCP Server"
+name: "SendGrid MCP Server"
 slug: "sendgrid-mcp-server"
 description: ""
 github_stars: 3052

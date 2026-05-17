@@ -1,5 +1,5 @@
 ---
-title: "AWS CloudWatch Alarm Triager"
+name: "AWS CloudWatch Alarm Triager"
 slug: "aws-cloudwatch-alarm-triager"
 description: "Triages AWS CloudWatch alarms by correlating alarm state changes with CloudTrail events and EC2 instance health using boto3. Classifies alarms by severity, identifies root cause candidates, and updates OpsGenie alerts."
 github_stars: 3607

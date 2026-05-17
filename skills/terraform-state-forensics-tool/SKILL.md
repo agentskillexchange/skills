@@ -1,5 +1,5 @@
 ---
-title: "Terraform State Forensics Tool"
+name: "Terraform State Forensics Tool"
 slug: "terraform-state-forensics-tool"
 description: "Analyzes Terraform state files and plan outputs to detect drift, orphaned resources, and dependency cycles. Uses the Terraform CLI state commands, tfsec for security scanning, and Infracost API for cost impact analysis."
 github_stars: 48146

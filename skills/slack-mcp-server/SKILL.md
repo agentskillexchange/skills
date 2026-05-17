@@ -1,5 +1,5 @@
 ---
-title: "Slack MCP Server"
+name: "Slack MCP Server"
 slug: "slack-mcp-server"
 description: "Agent access to Slack conversations and workspace workflows."
 github_stars: 85783

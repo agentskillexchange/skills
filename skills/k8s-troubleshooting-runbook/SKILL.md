@@ -1,5 +1,5 @@
 ---
-title: "Kubernetes Troubleshooting Runbook"
+name: "Kubernetes Troubleshooting Runbook"
 slug: "k8s-troubleshooting-runbook"
 description: ""
 github_stars: 122311

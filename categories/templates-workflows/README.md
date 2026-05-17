@@ -53,9 +53,9 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Scaffold and bundle rich single-file web artifacts with React, Tailwind, and shadcn/ui](../../skills/scaffold-and-bundle-rich-single-file-web-artifacts-with-react-tailwind-and-shadcn-ui/) | 116.2k | — |
 | [Install role-specific agent personas with Agency Agents](../../skills/install-role-specific-agent-personas-with-agency-agents/) | 96k | — |
 | [Install reusable specialist agent roles from Agency Agents](../../skills/install-reusable-specialist-agent-roles-from-agency-agents/) | 95.9k | — |
-| [Install Garry Tan&#8217;s Claude Code operating stack with gstack](../../skills/install-garry-tans-claude-code-operating-stack-with-gstack/) | 94.8k | — |
+| [Install Garry Tan’s Claude Code operating stack with gstack](../../skills/install-garry-tans-claude-code-operating-stack-with-gstack/) | 94.8k | — |
 | [Turn feature ideas into executable implementation specs and task plans with Spec Kit](../../skills/turn-feature-ideas-into-executable-implementation-specs-and-task-plans-with-spec-kit/) | 88.5k | — |
-| [Twitter/X Trend Monitor &amp; Thread Publisher](../../skills/twitter-x-trend-monitor-thread-publisher/) | 74.2k | — |
+| [Twitter/X Trend Monitor & Thread Publisher](../../skills/twitter-x-trend-monitor-thread-publisher/) | 74.2k | — |
 | [Docker Compose Service Blueprint Creator](../../skills/docker-compose-service-blueprint-creator/) | 71.5k | — |
 | [Docker Compose Test Harness](../../skills/docker-compose-test-harness/) | 71.5k | — |
 | [Ansible Playbook Linter](../../skills/ansible-playbook-linter-2/) | 68.4k | — |

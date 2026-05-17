@@ -1,5 +1,5 @@
 ---
-title: "tokei Code Statistics Counter"
+name: "tokei Code Statistics Counter"
 slug: "tokei-code-statistics-counter"
 description: "Fast and accurate code statistics tool written in Rust. Counts lines of code, comments, and blanks across 200+ languages, with output in JSON, YAML, or CBOR for programmatic analysis of codebase composition."
 github_stars: 14169

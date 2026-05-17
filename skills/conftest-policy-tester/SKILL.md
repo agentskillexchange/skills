@@ -1,5 +1,5 @@
 ---
-title: "Conftest Policy Tester"
+name: "Conftest Policy Tester"
 slug: "conftest-policy-tester"
 description: ""
 github_stars: 3155

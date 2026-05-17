@@ -25,6 +25,9 @@ def fetch_json(url):
     with urllib.request.urlopen(req, timeout=60) as resp:
         return json.loads(resp.read().decode("utf-8")), dict(resp.headers)
 
+def display_name(item):
+    return html.unescape(item.get("name") or item.get("title") or "")
+
 # Fetch all skills
 items = []
 page = 1
@@ -45,7 +48,8 @@ for item in items:
 
     entry = {
         "slug": item.get("slug", ""),
-        "title": html.unescape(item.get("title", "")),
+        "name": display_name(item),
+        "title": display_name(item),
         "description": html.unescape((item.get("excerpt") or "").strip()),
         "category": cats,
         "framework": fws,

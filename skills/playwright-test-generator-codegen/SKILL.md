@@ -1,5 +1,5 @@
 ---
-title: "Playwright Test Generator with Codegen"
+name: "Playwright Test Generator with Codegen"
 slug: "playwright-test-generator-codegen"
 description: "Records and generates end-to-end test scripts using Playwright Codegen with multi-browser targeting. Produces TypeScript test files compatible with Playwright Test runner, handles visual regression via playwright-visual-regression plugin, and integrates with Allure reporting."
 github_stars: 86409

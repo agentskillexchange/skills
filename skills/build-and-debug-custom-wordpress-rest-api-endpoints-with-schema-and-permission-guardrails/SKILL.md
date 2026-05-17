@@ -1,5 +1,5 @@
 ---
-title: "Build and debug custom WordPress REST API endpoints with schema and permission guardrails"
+name: "Build and debug custom WordPress REST API endpoints with schema and permission guardrails"
 slug: "build-and-debug-custom-wordpress-rest-api-endpoints-with-schema-and-permission-guardrails"
 description: "Uses the WordPress wp-rest-api skill to help an agent design, register, validate, and troubleshoot custom REST routes without skipping schema, auth, or permission_callback details. This is for agent-led endpoint work in plugins, themes, or core-adjacent codebases, not for browsing the WordPress REST API as a product catalog."
 verification: "security_reviewed"

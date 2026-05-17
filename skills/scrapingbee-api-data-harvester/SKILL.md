@@ -1,5 +1,5 @@
 ---
-title: "ScrapingBee API Data Harvester"
+name: "ScrapingBee API Data Harvester"
 slug: "scrapingbee-api-data-harvester"
 description: "Interfaces with the ScrapingBee REST API for JavaScript rendering and Google SERP extraction. Uses custom_google parameter for search result parsing and screenshot endpoint for visual page archiving."
 verification: "security_reviewed"

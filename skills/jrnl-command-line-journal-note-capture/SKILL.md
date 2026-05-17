@@ -1,5 +1,5 @@
 ---
-title: "jrnl Command-Line Journal and Note Capture Tool"
+name: "jrnl Command-Line Journal and Note Capture Tool"
 slug: "jrnl-command-line-journal-note-capture"
 description: "jrnl is a command-line journal application that lets you capture thoughts and notes without leaving the terminal. It stores entries as human-readable plain text with optional AES encryption, supports natural-language timestamps, and integrates with external editors and cloud sync services."
 github_stars: 7195

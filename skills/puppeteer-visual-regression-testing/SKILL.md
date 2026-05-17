@@ -1,5 +1,5 @@
 ---
-title: "Puppeteer Visual Regression Testing"
+name: "Puppeteer Visual Regression Testing"
 slug: "puppeteer-visual-regression-testing"
 description: "Runs pixel-level visual regression tests using Puppeteer page.screenshot() and pixelmatch diffing library. Compares baseline screenshots against current renders with configurable threshold tolerance."
 github_stars: 94115

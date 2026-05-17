@@ -1,5 +1,5 @@
 ---
-title: "Let MCP agents inspect and update Freshdesk tickets safely"
+name: "Let MCP agents inspect and update Freshdesk tickets safely"
 slug: "let-mcp-agents-inspect-and-update-freshdesk-tickets-safely"
 description: "Connect Freshdesk modules to MCP clients so agents can retrieve ticket context and prepare supervised support actions."
 github_stars: 59

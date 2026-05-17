@@ -1,5 +1,5 @@
 ---
-title: "Vercel Deployment Agent"
+name: "Vercel Deployment Agent"
 slug: "vercel-deployment-agent"
 description: ""
 github_stars: 15296

@@ -1,5 +1,5 @@
 ---
-title: "Drive spec-first coding workflows with task boards, worktrees, and agent handoffs using Spec Kitty"
+name: "Drive spec-first coding workflows with task boards, worktrees, and agent handoffs using Spec Kitty"
 slug: "drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-handoffs-using-spec-kitty"
 description: "Move from spec to plan to tasks to review through one repo-native workflow when larger AI coding efforts need tighter coordination."
 github_stars: 1071

@@ -1,5 +1,5 @@
 ---
-title: "Postman Collection Runner"
+name: "Postman Collection Runner"
 slug: "postman-collection-runner"
 description: ""
 github_stars: 7205

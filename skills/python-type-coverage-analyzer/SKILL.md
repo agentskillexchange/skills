@@ -1,5 +1,5 @@
 ---
-title: "Python Type Coverage Analyzer"
+name: "Python Type Coverage Analyzer"
 slug: "python-type-coverage-analyzer"
 description: "Measures and improves Python type annotation coverage using mypy --html-report and pyright type completeness scoring. Identifies untyped function signatures, missing return types, and Any-typed parameters across codebases."
 github_stars: 20393

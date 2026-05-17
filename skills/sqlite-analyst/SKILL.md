@@ -1,5 +1,5 @@
 ---
-title: "SQLite Analyst"
+name: "SQLite Analyst"
 slug: "sqlite-analyst"
 description: ""
 github_stars: 7111

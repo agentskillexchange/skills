@@ -1,5 +1,5 @@
 ---
-title: "FFmpeg Video Processing Pipeline"
+name: "FFmpeg Video Processing Pipeline"
 slug: "ffmpeg-video-processing-pipeline"
 description: "Builds complex FFmpeg filtergraph chains for batch video transcoding, thumbnail sprite generation, and HLS adaptive bitrate packaging. Supports NVIDIA NVENC hardware acceleration and HDR tone mapping."
 github_stars: 58972

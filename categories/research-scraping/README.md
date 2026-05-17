@@ -135,7 +135,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [PubMed Literature Mining Agent](../../skills/pubmed-literature-mining-agent/) | — | — |
 | [ScrapingBee API Data Harvester](../../skills/scrapingbee-api-data-harvester/) | — | — |
 | [ScrapyCloud Job Manager](../../skills/scrapycloud-job-manager/) | — | — |
-| [SEC EDGAR Filing Scraper &#038; Analyzer](../../skills/sec-edgar-filing-scraper-analyzer/) | — | — |
+| [SEC EDGAR Filing Scraper & Analyzer](../../skills/sec-edgar-filing-scraper-analyzer/) | — | — |
 | [SEC EDGAR Financial Filing Parser](../../skills/sec-edgar-financial-filing-parser/) | — | — |
 | [SerpAPI Research Pipeline](../../skills/serpapi-research-pipeline/) | — | — |
 | [SerpAPI Scholar Agent](../../skills/serpapi-scholar-agent/) | — | — |

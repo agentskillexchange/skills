@@ -1,5 +1,5 @@
 ---
-title: "XML XSLT Transform Pipeline"
+name: "XML XSLT Transform Pipeline"
 slug: "xml-xslt-transform-pipeline"
 description: "Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath parameter injection, and multi-stage transform pipelines with intermediate validation."
 github_stars: 3021

@@ -1,5 +1,5 @@
 ---
-title: "ScrapyCloud Job Manager"
+name: "ScrapyCloud Job Manager"
 slug: "scrapycloud-job-manager"
 description: "Manages Scrapy spider deployments and job scheduling on ScrapyCloud via the Scrapinghub API. Handles spider argument injection, job prioritization, and item export to S3 or BigQuery."
 verification: "security_reviewed"

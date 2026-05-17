@@ -1,5 +1,5 @@
 ---
-title: "CI Pipeline Generator Skill"
+name: "CI Pipeline Generator Skill"
 slug: "ci-pipeline-generator-skill"
 description: ""
 github_stars: 24337

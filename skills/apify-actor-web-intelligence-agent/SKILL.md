@@ -1,5 +1,5 @@
 ---
-title: "Apify Actor Web Intelligence Agent"
+name: "Apify Actor Web Intelligence Agent"
 slug: "apify-actor-web-intelligence-agent"
 description: "Deploys intelligent web scraping actors on the Apify platform using the Apify SDK with RequestQueue and Dataset APIs. Handles dynamic content via Apify CheerioCrawler and PlaywrightCrawler with automatic scaling."
 github_stars: 173

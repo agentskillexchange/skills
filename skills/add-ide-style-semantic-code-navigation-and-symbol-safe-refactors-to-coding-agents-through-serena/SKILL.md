@@ -1,5 +1,5 @@
 ---
-title: "Add IDE-style semantic code navigation and symbol-safe refactors to coding agents through Serena"
+name: "Add IDE-style semantic code navigation and symbol-safe refactors to coding agents through Serena"
 slug: "add-ide-style-semantic-code-navigation-and-symbol-safe-refactors-to-coding-agents-through-serena"
 description: "Give a coding agent symbol-aware lookup, cross-file rename, and structural edit tools before it starts making brittle text-only changes."
 github_stars: 23039

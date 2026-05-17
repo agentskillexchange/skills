@@ -1,5 +1,5 @@
 ---
-title: "DynamoDB Manager"
+name: "DynamoDB Manager"
 slug: "dynamodb-manager"
 description: ""
 github_stars: 3607

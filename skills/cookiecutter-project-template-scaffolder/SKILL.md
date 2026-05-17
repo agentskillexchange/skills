@@ -1,5 +1,5 @@
 ---
-title: "Cookiecutter Project Template Scaffolder"
+name: "Cookiecutter Project Template Scaffolder"
 slug: "cookiecutter-project-template-scaffolder"
 description: "Generates project scaffolds using Cookiecutter templates from GitHub repositories or local directories. Automates cookiecutter.json variable prompting and post-generation hook execution."
 github_stars: 24786

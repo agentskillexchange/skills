@@ -1,5 +1,5 @@
 ---
-title: "Internal Link Graph Optimizer"
+name: "Internal Link Graph Optimizer"
 slug: "internal-link-graph-optimizer"
 description: "Analyzes internal linking structure by crawling sitemaps with Screaming Frog or Sitebulb, computing PageRank distribution via NetworkX graph algorithms, and identifying orphan pages. Recommends contextual link insertions using BM25 text matching against existing content inventory."
 verification: "security_reviewed"

@@ -1,5 +1,5 @@
 ---
-title: "Discord Bot Manager"
+name: "Discord Bot Manager"
 slug: "discord-bot-manager"
 description: ""
 github_stars: 26668

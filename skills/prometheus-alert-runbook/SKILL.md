@@ -1,5 +1,5 @@
 ---
-title: "Prometheus Alert Runbook"
+name: "Prometheus Alert Runbook"
 slug: "prometheus-alert-runbook"
 description: "Execute structured runbook procedures triggered by Prometheus AlertManager webhooks. Queries PromQL metrics via the Prometheus HTTP API for automated incident diagnosis and escalation."
 github_stars: 63584

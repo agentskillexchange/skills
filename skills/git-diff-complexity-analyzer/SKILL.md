@@ -1,5 +1,5 @@
 ---
-title: "Git Diff Complexity Analyzer"
+name: "Git Diff Complexity Analyzer"
 slug: "git-diff-complexity-analyzer"
 description: "Analyzes git diffs using libgit2 and radon to compute cyclomatic complexity changes per function. Flags complexity regressions in pull requests with inline GitHub review comments via PyGithub."
 verification: "security_reviewed"

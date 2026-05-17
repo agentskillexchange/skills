@@ -118,7 +118,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Run server-side ingest, search, and edit pipelines on video with VideoDB Skills](../../skills/run-server-side-ingest-search-and-edit-pipelines-on-video-with-videodb-skills/) | 73 | — |
 | [AssemblyAI Audio Intelligence Agent](../../skills/assemblyai-audio-intelligence-agent/) | — | — |
 | [AssemblyAI LeMUR Summarizer](../../skills/assemblyai-lemur-summarizer-agent/) | — | — |
-| [AssemblyAI Summarization &#038; Chapters Skill](../../skills/assemblyai-summarization-chapters-skill/) | — | — |
+| [AssemblyAI Summarization & Chapters Skill](../../skills/assemblyai-summarization-chapters-skill/) | — | — |
 | [Audio Fingerprint Identifier](../../skills/audio-fingerprint-identifier-agent/) | — | — |
 | [Core Audio Unit v3 Debugger](../../skills/core-audio-unit-v3-debugger/) | — | — |
 | [Deepgram Nova STT Pipeline](../../skills/deepgram-nova-stt-pipeline/) | — | — |

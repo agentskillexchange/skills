@@ -1,5 +1,5 @@
 ---
-title: "Sentry Issue Spike Detection Agent"
+name: "Sentry Issue Spike Detection Agent"
 slug: "sentry-issue-spike-detection-agent"
 description: "Analyzes Sentry project event streams via the Sentry Issues API to detect sudden spikes in error frequency. Computes rolling baselines and triggers alerts through configurable notification channels."
 github_stars: 43486

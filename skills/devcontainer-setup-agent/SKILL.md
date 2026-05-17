@@ -1,5 +1,5 @@
 ---
-title: "Devcontainer Setup Agent"
+name: "Devcontainer Setup Agent"
 slug: "devcontainer-setup-agent"
 description: ""
 github_stars: 2637

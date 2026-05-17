@@ -1,5 +1,5 @@
 ---
-title: "ArgoCD MCP Server"
+name: "ArgoCD MCP Server"
 slug: "argocd-mcp-server"
 description: ""
 github_stars: 22902

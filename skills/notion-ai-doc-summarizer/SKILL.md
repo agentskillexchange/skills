@@ -1,5 +1,5 @@
 ---
-title: "Notion AI Document Summarizer & Action Item Extractor"
+name: "Notion AI Document Summarizer & Action Item Extractor"
 slug: "notion-ai-doc-summarizer"
 description: "Uses the Notion SDK and Notion AI's /v1/pages and /v1/blocks/children endpoints to retrieve page content and invoke AI-powered summarization. Extracted action items are appended as a structured database entry via databases.query and pages.create."
 github_stars: 5582

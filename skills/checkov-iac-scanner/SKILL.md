@@ -1,5 +1,5 @@
 ---
-title: "Checkov IaC Scanner"
+name: "Checkov IaC Scanner"
 slug: "checkov-iac-scanner"
 description: ""
 github_stars: 8623

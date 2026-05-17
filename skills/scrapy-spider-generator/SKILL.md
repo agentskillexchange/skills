@@ -1,5 +1,5 @@
 ---
-title: "Scrapy Spider Generator"
+name: "Scrapy Spider Generator"
 slug: "scrapy-spider-generator"
 description: "Generates production-ready Scrapy spiders with middleware configuration and item pipeline setup. Uses the Scrapy Framework API, Selector (XPath/CSS), and Twisted reactor for concurrent crawling."
 github_stars: 61314

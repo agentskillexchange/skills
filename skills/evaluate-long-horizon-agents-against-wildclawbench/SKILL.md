@@ -1,5 +1,5 @@
 ---
-title: "Evaluate long-horizon agents against WildClawBench"
+name: "Evaluate long-horizon agents against WildClawBench"
 slug: "evaluate-long-horizon-agents-against-wildclawbench"
 description: "Use WildClawBench to benchmark agents on hard end-to-end OpenClaw tasks covering tool orchestration, multimodal work, coding, safety, and long-horizon planning."
 github_stars: 359

@@ -1,5 +1,5 @@
 ---
-title: "ESLint Rule Generator Agent"
+name: "ESLint Rule Generator Agent"
 slug: "eslint-rule-generator-agent"
 description: "Generates custom ESLint rules from natural language descriptions using the ESLint RuleTester API and AST selectors. Integrates with typescript-eslint parser for TypeScript-aware linting."
 github_stars: 27188

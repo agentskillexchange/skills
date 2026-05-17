@@ -1,5 +1,5 @@
 ---
-title: "Dagster Data Pipeline Orchestrator"
+name: "Dagster Data Pipeline Orchestrator"
 slug: "dagster-data-pipeline-orchestrator"
 description: "Orchestrate data pipelines using Dagster, the cloud-native data orchestration platform. Define data assets as Python functions with automatic lineage tracking, scheduling, and observability."
 github_stars: 15257

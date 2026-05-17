@@ -1,5 +1,5 @@
 ---
-title: "ESLint Rule Enforcer"
+name: "ESLint Rule Enforcer"
 slug: "eslint-rule-enforcer"
 description: "Automates ESLint v9 flat config enforcement across monorepos using eslint-plugin-unicorn and @typescript-eslint/parser. Scans changed files via git diff, applies auto-fixable rules, and generates per-package lint reports with violation severity breakdowns."
 github_stars: 27188

@@ -1,5 +1,5 @@
 ---
-title: "Terraform Cloud MCP Server"
+name: "Terraform Cloud MCP Server"
 slug: "terraform-cloud-mcp-server"
 description: ""
 github_stars: 48409

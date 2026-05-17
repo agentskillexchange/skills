@@ -1,5 +1,5 @@
 ---
-title: "Escalate risky coding tasks into multi-model debate and consensus gates with Claude Octopus"
+name: "Escalate risky coding tasks into multi-model debate and consensus gates with Claude Octopus"
 slug: "escalate-risky-coding-tasks-into-multi-model-debate-and-consensus-gates-with-claude-octopus"
 description: "Use Claude Octopus when ordinary Claude Code flows are not enough and a risky coding task needs adversarial multi-model review, disagreement surfacing, and a consensus gate before shipping."
 github_stars: 2806

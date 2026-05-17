@@ -1,5 +1,5 @@
 ---
-title: "Turn notes, logs, and screenshots into structured GitHub issues with GitHub Issue Creator"
+name: "Turn notes, logs, and screenshots into structured GitHub issues with GitHub Issue Creator"
 slug: "turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator"
 description: "Convert messy bug notes, error logs, voice dictation, and screenshots into crisp GitHub issue reports with clear repro steps, impact, and evidence."
 verification: "security_reviewed"

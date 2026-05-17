@@ -1,5 +1,5 @@
 ---
-title: "Scan repositories for AI supply-chain and agent-security risks with Medusa Security"
+name: "Scan repositories for AI supply-chain and agent-security risks with Medusa Security"
 slug: "scan-repositories-for-ai-supply-chain-and-agent-security-risks-with-medusa-security"
 description: "Use Medusa Security before trusting a repository, dependency, or AI-agent codebase when an agent needs a focused scan for repo poisoning, prompt-injection, MCP, and AI supply-chain findings."
 github_stars: 256

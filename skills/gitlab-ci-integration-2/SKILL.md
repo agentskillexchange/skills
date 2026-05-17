@@ -1,5 +1,5 @@
 ---
-title: "GitLab CI Integration"
+name: "GitLab CI Integration"
 slug: "gitlab-ci-integration-2"
 description: ""
 github_stars: 24298

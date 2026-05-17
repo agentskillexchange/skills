@@ -1,5 +1,5 @@
 ---
-title: "proselint Prose Linting and Style Checker CLI"
+name: "proselint Prose Linting and Style Checker CLI"
 slug: "proselint-prose-linting-style-checker-cli"
 description: "proselint is a Python CLI tool that lints English prose for style and usage issues. It aggregates writing advice from renowned authors and editors including Bryan Garner, David Foster Wallace, and Strunk & White into automated checks that scan text files and flag problems."
 github_stars: 4515

@@ -1,5 +1,5 @@
 ---
-title: "Search cross-agent Markdown memory and conversation history with memsearch"
+name: "Search cross-agent Markdown memory and conversation history with memsearch"
 slug: "search-cross-agent-markdown-memory-and-conversation-history-with-memsearch"
 description: "Give supported coding agents a shared Markdown-first memory layer so they can recall prior decisions, transcripts, and notes across sessions instead of re-deriving context from scratch."
 github_stars: 1324

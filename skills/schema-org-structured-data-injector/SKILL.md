@@ -1,5 +1,5 @@
 ---
-title: "Schema.org Structured Data Injector"
+name: "Schema.org Structured Data Injector"
 slug: "schema-org-structured-data-injector"
 description: "Generates and validates JSON-LD structured data markup for articles, products, FAQs, and HowTo content types following Schema.org specifications. Integrates with Google's Rich Results Test API and validates against the Schema.org vocabulary using the sdtt validator."
 verification: "security_reviewed"

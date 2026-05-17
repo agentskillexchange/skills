@@ -1,5 +1,5 @@
 ---
-title: "Jenkins Pipeline Linter"
+name: "Jenkins Pipeline Linter"
 slug: "jenkins-pipeline-linter-6"
 description: "Validates Jenkinsfile declarative and scripted pipelines using the Jenkins Pipeline Linter HTTP API (/pipeline-model-converter/validate) and npm-groovy-lint for Groovy static analysis with CodeNarc rulesets."
 github_stars: 25189

@@ -1,5 +1,5 @@
 ---
-title: "Generate XML sitemaps and robots.txt from route inventories before SEO launch"
+name: "Generate XML sitemaps and robots.txt from route inventories before SEO launch"
 slug: "generate-xml-sitemaps-and-robots-txt-from-route-inventories-before-seo-launch"
 description: "Use sitemap when an agent already knows the site routes or content URLs and needs valid sitemap XML, sitemap indexes, or robots.txt references before launch. This is a publishing-artifact skill, not a crawler or SEO platform."
 github_stars: 1708

@@ -1,5 +1,5 @@
 ---
-title: "Run computer-use agents inside cross-OS desktop sandboxes with CUA"
+name: "Run computer-use agents inside cross-OS desktop sandboxes with CUA"
 slug: "run-computer-use-agents-inside-cross-os-desktop-sandboxes-with-cua"
 description: "Launch computer-use agents in Linux, macOS, Windows, or Android sandboxes and drive full desktop tasks through screenshots, mouse, keyboard, and shell controls."
 github_stars: 13544

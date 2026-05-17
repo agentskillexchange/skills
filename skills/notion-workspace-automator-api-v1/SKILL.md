@@ -1,5 +1,5 @@
 ---
-title: "Notion Workspace Automator"
+name: "Notion Workspace Automator"
 slug: "notion-workspace-automator-api-v1"
 description: "Automates Notion workspace management through the Notion API v1 with database query filters, page creation, and block manipulation. Supports template instantiation via Notion SDK for JavaScript and real-time change detection with polling."
 github_stars: 5582

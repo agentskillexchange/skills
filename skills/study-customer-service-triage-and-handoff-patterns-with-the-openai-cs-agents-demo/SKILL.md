@@ -1,5 +1,5 @@
 ---
-title: "Study customer-service triage and handoff patterns with the OpenAI CS agents demo"
+name: "Study customer-service triage and handoff patterns with the OpenAI CS agents demo"
 slug: "study-customer-service-triage-and-handoff-patterns-with-the-openai-cs-agents-demo"
 description: "Use OpenAI's customer-service agents demo as a reference workflow for triage, specialist handoffs, guardrails, and support-case orchestration before building a production support agent."
 github_stars: 6314

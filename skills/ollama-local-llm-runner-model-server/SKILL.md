@@ -1,5 +1,5 @@
 ---
-title: "Ollama Local LLM Runner and Model Server"
+name: "Ollama Local LLM Runner and Model Server"
 slug: "ollama-local-llm-runner-model-server"
 description: "Ollama runs large language models locally with a simple CLI and REST API. It supports hundreds of open models including Llama, Gemma, Qwen, and DeepSeek, with GPU acceleration and an OpenAI-compatible API endpoint."
 github_stars: 167878

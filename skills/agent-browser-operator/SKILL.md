@@ -1,5 +1,5 @@
 ---
-title: "Agent Browser Operator"
+name: "Agent Browser Operator"
 slug: "agent-browser-operator"
 description: "Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations."
 github_stars: 88845

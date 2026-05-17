@@ -1,5 +1,5 @@
 ---
-title: "Turn a research idea into a draft paper workflow with AutoResearchClaw"
+name: "Turn a research idea into a draft paper workflow with AutoResearchClaw"
 slug: "turn-a-research-idea-into-a-draft-paper-workflow-with-autoresearchclaw"
 description: "Use AutoResearchClaw when an agent should turn a raw research topic into literature review, experiment planning, draft writing, and verification artifacts instead of improvising an end-to-end paper workflow by hand."
 github_stars: 11545

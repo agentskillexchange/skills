@@ -1,5 +1,5 @@
 ---
-title: "Inspect Freshservice service-management tickets and modules through MCP"
+name: "Inspect Freshservice service-management tickets and modules through MCP"
 slug: "inspect-freshservice-service-management-tickets-and-modules-through-mcp"
 description: "Connect Freshservice modules to MCP clients for supervised IT service-management ticket lookup and support-ops preparation."
 github_stars: 31

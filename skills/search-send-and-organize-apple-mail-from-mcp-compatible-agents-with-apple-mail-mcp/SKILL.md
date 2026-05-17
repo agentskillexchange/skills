@@ -1,5 +1,5 @@
 ---
-title: "Search, send, and organize Apple Mail from MCP-compatible agents with Apple Mail MCP"
+name: "Search, send, and organize Apple Mail from MCP-compatible agents with Apple Mail MCP"
 slug: "search-send-and-organize-apple-mail-from-mcp-compatible-agents-with-apple-mail-mcp"
 description: "Lets an MCP-compatible agent read, search, send, thread, template, and organize Apple Mail on macOS so email work can stay inside a bounded agent workflow."
 github_stars: 54

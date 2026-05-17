@@ -1,5 +1,5 @@
 ---
-title: "Rive Runtime Animation Controller"
+name: "Rive Runtime Animation Controller"
 slug: "rive-runtime-animation-controller"
 description: "Controls Rive (.riv) interactive animations at runtime using @rive-app/canvas-advanced, manages state machine inputs, and synchronizes animation states with application data via the Rive WASM runtime."
 github_stars: 1111

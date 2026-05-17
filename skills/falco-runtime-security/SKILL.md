@@ -1,5 +1,5 @@
 ---
-title: "Falco Runtime Security"
+name: "Falco Runtime Security"
 slug: "falco-runtime-security"
 description: ""
 github_stars: 8847

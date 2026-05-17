@@ -1,5 +1,5 @@
 ---
-title: "Generate Slack-ready animated GIFs from custom frame sequences"
+name: "Generate Slack-ready animated GIFs from custom frame sequences"
 slug: "generate-slack-ready-animated-gifs-from-custom-frame-sequences"
 description: "Use Anthropic's slack-gif-creator skill to build animated GIFs that stay inside Slack's practical size, duration, and dimension constraints. It gives an agent a bounded GIF-production workflow, not a generic image library or chat sticker listing."
 verification: "security_reviewed"

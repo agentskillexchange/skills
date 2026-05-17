@@ -1,5 +1,5 @@
 ---
-title: "Normalize and filter noisy URL lists before crawling or queueing"
+name: "Normalize and filter noisy URL lists before crawling or queueing"
 slug: "normalize-and-filter-noisy-url-lists-before-crawling-or-queueing"
 description: "Uses Courlan to clean, normalize, de-track, and language-filter raw URL inventories before a crawler, scraper, or analyst queue touches them. Best when an agent already has too many candidate links and needs a smaller, cleaner frontier, not a full crawling stack."
 github_stars: 165

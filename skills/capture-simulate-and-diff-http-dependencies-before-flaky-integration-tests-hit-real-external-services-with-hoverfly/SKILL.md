@@ -1,5 +1,5 @@
 ---
-title: "Capture simulate and diff HTTP dependencies before flaky integration tests hit real external services with Hoverfly"
+name: "Capture simulate and diff HTTP dependencies before flaky integration tests hit real external services with Hoverfly"
 slug: "capture-simulate-and-diff-http-dependencies-before-flaky-integration-tests-hit-real-external-services-with-hoverfly"
 description: "Record real HTTP traffic, replay it in simulation mode, and compare dependency behavior without hammering live third-party services."
 github_stars: 2482

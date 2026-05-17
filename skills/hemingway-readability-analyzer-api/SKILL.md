@@ -1,5 +1,5 @@
 ---
-title: "Hemingway Readability Analyzer API"
+name: "Hemingway Readability Analyzer API"
 slug: "hemingway-readability-analyzer-api"
 description: "Scores content readability using textstat library metrics (Flesch-Kincaid, Gunning Fog, SMOG, Coleman-Liau). Highlights complex sentences, passive voice via spaCy dependency parsing, and adverb density."
 verification: "security_reviewed"

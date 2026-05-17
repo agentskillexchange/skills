@@ -54,11 +54,12 @@ Every skill lives in `skills/<slug>/SKILL.md`. The file has two parts: YAML fron
 ```yaml
 ---
 name: "Human-Readable Skill Name"
+slug: "your-skill-slug"
 description: "What this skill does and when to use it. Be specific about APIs, tools, and techniques."
 category: "Developer Tools"
 framework: "Claude Code"
 verification: listed
-source: "https://agentskillexchange.com/skills/your-skill-slug/"
+source: "https://github.com/example/upstream-project"
 ---
 ```
 
@@ -67,11 +68,12 @@ source: "https://agentskillexchange.com/skills/your-skill-slug/"
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `name` | string | ✅ | Display name of the skill |
+| `slug` | string | ✅ | URL, directory, and install identifier. Must equal the containing `skills/<slug>/` directory. |
 | `description` | string | ✅ | What the skill does, when to use it. Reference real APIs and tools. |
 | `category` | string | ✅ | One of the 17 categories (see below) |
 | `framework` | string | ✅ | Primary framework: Claude Code, Cursor, Codex, OpenClaw, etc. |
 | `verification` | string | ✅ | `listed` or `security_reviewed` |
-| `source` | string | ❌ | Link to the skill on agentskillexchange.com |
+| `source` | string | ❌ | Original upstream repo, docs, package, or API URL when available. Use the ASE listing URL only as a last fallback. |
 | `tool_ecosystem` | object | ❌ | Real tool signals — only if backed by a verifiable tool (see [spec](spec/SKILL_SPEC.md)) |
 
 ### Valid Categories

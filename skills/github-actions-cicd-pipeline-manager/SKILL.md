@@ -1,5 +1,5 @@
 ---
-title: "GitHub Actions CI/CD Pipeline Manager"
+name: "GitHub Actions CI/CD Pipeline Manager"
 slug: "github-actions-cicd-pipeline-manager"
 description: "Automates GitHub Actions workflow creation, runner management, and artifact caching using the GitHub REST API and YAML generation. Supports matrix builds, reusable workflows, and environment-specific deployment gates."
 verification: "security_reviewed"

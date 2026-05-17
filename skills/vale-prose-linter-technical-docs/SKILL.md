@@ -1,5 +1,5 @@
 ---
-title: "Vale Prose Linter for Technical Documentation"
+name: "Vale Prose Linter for Technical Documentation"
 slug: "vale-prose-linter-technical-docs"
 description: "Vale is an open-source, markup-aware prose linter that enforces editorial style guides on technical documentation. This skill enables agents to run Vale against Markdown, AsciiDoc, reStructuredText, and HTML to catch style, grammar, and terminology issues."
 github_stars: 5316

@@ -1,5 +1,5 @@
 ---
-title: "Marker PDF-to-Markdown Converter"
+name: "Marker PDF-to-Markdown Converter"
 slug: "marker-pdf-to-markdown-converter"
 description: "Marker converts PDF, DOCX, PPTX, and image files to clean Markdown, JSON, and HTML with high accuracy. It handles tables, equations, code blocks, and multi-column layouts, with optional LLM-boosted extraction for maximum fidelity."
 github_stars: 33237

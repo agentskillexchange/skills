@@ -1,5 +1,5 @@
 ---
-title: "Datadog Monitor Sync"
+name: "Datadog Monitor Sync"
 slug: "datadog-monitor-sync"
 description: "Synchronizes Datadog monitor definitions between environments using the Datadog API v2 monitors endpoint. Supports diff-based updates, tag filtering, and Terraform state reconciliation."
 github_stars: 791

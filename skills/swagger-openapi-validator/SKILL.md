@@ -1,5 +1,5 @@
 ---
-title: "Swagger / OpenAPI Validator"
+name: "Swagger / OpenAPI Validator"
 slug: "swagger-openapi-validator"
 description: ""
 github_stars: 28756

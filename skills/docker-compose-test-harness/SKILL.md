@@ -1,5 +1,5 @@
 ---
-title: "Docker Compose Test Harness"
+name: "Docker Compose Test Harness"
 slug: "docker-compose-test-harness"
 description: "Scaffolds integration test environments using Docker Compose v2 CLI, testcontainers-python library, and the docker-py SDK. Manages service dependencies, health checks, and test data seeding."
 github_stars: 71492

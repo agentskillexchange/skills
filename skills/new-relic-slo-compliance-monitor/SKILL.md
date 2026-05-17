@@ -1,5 +1,5 @@
 ---
-title: "New Relic SLO Compliance Monitor"
+name: "New Relic SLO Compliance Monitor"
 slug: "new-relic-slo-compliance-monitor"
 description: "Tracks SLO compliance using the New Relic NerdGraph GraphQL API and NRQL queries. Calculates error budgets, burn rates, and generates compliance reports with Slack notifications via Incoming Webhooks."
 verification: "security_reviewed"

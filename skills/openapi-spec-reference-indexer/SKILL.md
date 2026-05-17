@@ -1,5 +1,5 @@
 ---
-title: "OpenAPI Spec Reference Indexer"
+name: "OpenAPI Spec Reference Indexer"
 slug: "openapi-spec-reference-indexer"
 description: "Indexes and cross-references OpenAPI 3.x specifications using swagger-parser and Redocly CLI. Builds searchable endpoint catalogs with schema resolution, authentication flow mapping, and SDK generation metadata."
 verification: "security_reviewed"

@@ -1,5 +1,5 @@
 ---
-title: "Storybook Component Tester"
+name: "Storybook Component Tester"
 slug: "storybook-component-tester"
 description: ""
 github_stars: 89914

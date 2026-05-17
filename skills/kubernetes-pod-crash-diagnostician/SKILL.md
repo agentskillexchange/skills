@@ -1,5 +1,5 @@
 ---
-title: "Kubernetes Pod Crash Diagnostician"
+name: "Kubernetes Pod Crash Diagnostician"
 slug: "kubernetes-pod-crash-diagnostician"
 description: "Diagnoses Kubernetes pod crash loops by analyzing events, logs, and resource quotas via the Kubernetes API and kubectl debug. Correlates OOMKill signals with container memory profiles from Prometheus queries."
 github_stars: 121700

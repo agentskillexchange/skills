@@ -1,5 +1,5 @@
 ---
-title: "Logto Open Source Authentication and Authorization Infrastructure"
+name: "Logto Open Source Authentication and Authorization Infrastructure"
 slug: "logto-open-source-auth-infrastructure"
 description: "Logto is a modern, open-source authentication and authorization infrastructure built on OIDC and OAuth 2.1. It provides multi-tenancy, enterprise SSO, RBAC, and SDKs for 30+ frameworks, making it the go-to Auth0/Cognito alternative for SaaS and AI applications."
 github_stars: 11862

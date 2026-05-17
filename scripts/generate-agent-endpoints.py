@@ -14,7 +14,7 @@ REPO_DIR = Path(sys.argv[1]) if len(sys.argv) > 1 else Path.cwd()
 SITE_BASE = os.environ.get("ASE_SITE_BASE", os.environ.get("ASE_API_BASE", "https://agentskillexchange.com")).rstrip("/")
 REPO_URL = os.environ.get("ASE_REPO_URL", "https://github.com/agentskillexchange/skills")
 SCHEMA_VERSION = os.environ.get("ASE_SCHEMA_VERSION", "2.0")
-GENERATOR_VERSION = "2026-05-10.agent-endpoints-v1"
+GENERATOR_VERSION = "2026-05-17.name-slug-frontmatter-v1"
 
 
 def now_iso() -> str:
@@ -27,6 +27,11 @@ def load_json(path: Path) -> dict[str, Any]:
 
 skills_index = load_json(REPO_DIR / "skills.json")
 skills = skills_index.get("skills", [])
+for item in skills:
+    display = str(item.get("name") or item.get("title") or "").strip()
+    item["name"] = display
+    # Transition alias for consumers still reading title. Remove after one cycle.
+    item["title"] = display
 generated_at = now_iso()
 security_reviewed = sum(1 for item in skills if item.get("verification") == "security_reviewed")
 categories = sorted({cat for item in skills for cat in item.get("category", [])})
@@ -76,9 +81,10 @@ codex = {
     "repository": REPO_URL,
     "skill_directory": "skills/<slug>/SKILL.md",
     "canonical_frontmatter": {
-        "required": ["title", "slug", "description", "category", "framework", "verification"],
+        "required": ["name", "slug", "description", "category", "framework", "verification"],
         "verification_values": ["listed", "security_reviewed"],
         "optional": ["source", "tool_ecosystem"],
+        "deprecated_aliases": {"title": "name"},
     },
     "catalog": {
         "total": len(skills),

@@ -1,5 +1,5 @@
 ---
-title: "Webhook Debugger"
+name: "Webhook Debugger"
 slug: "webhook-debugger"
 description: ""
 github_stars: 4419

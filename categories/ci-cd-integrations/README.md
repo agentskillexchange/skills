@@ -56,11 +56,11 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Terraform Plan Reviewer Agent](../../skills/terraform-plan-reviewer-agent/) | 48.1k | — |
 | [Terraform Plan Validator](../../skills/terraform-plan-validator/) | 48.1k | — |
 | [Terraform Plan Validator Agent](../../skills/terraform-plan-validator-agent/) | 48.1k | — |
-| [Terraform Plan &amp; Apply Automation](../../skills/terraform-plan-apply-automation/) | 48.1k | — |
+| [Terraform Plan & Apply Automation](../../skills/terraform-plan-apply-automation/) | 48.1k | — |
 | [Harness Open Source Self-Hosted Git and CI/CD Development Platform](../../skills/harness-open-source-git-cicd-platform/) | 34.7k | — |
 | [Dokploy Self-Hosted Application Deployment Platform](../../skills/dokploy-self-hosted-application-deployment-platform/) | 33k | — |
 | [Enforce source-controlled AI checks in CI before merging risky changes with Continue CLI](../../skills/enforce-source-controlled-ai-checks-in-ci-before-merging-risky-changes-with-continue-cli/) | 32.6k | — |
-| [Helm Chart Diff &amp; Upgrade Manager](../../skills/helm-chart-diff-upgrade-manager/) | 29.7k | — |
+| [Helm Chart Diff & Upgrade Manager](../../skills/helm-chart-diff-upgrade-manager/) | 29.7k | — |
 | [Jenkins Groovy Shared Library Auditor](../../skills/jenkins-groovy-shared-library-auditor/) | 25.2k | — |
 | [Jenkins Pipeline Debugger](../../skills/jenkins-pipeline-debugger/) | 25.2k | — |
 | [Jenkins Pipeline Declarative Generator](../../skills/jenkins-pipeline-declarative-generator/) | 25.2k | — |
@@ -70,7 +70,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Jenkins Pipeline Health Monitor](../../skills/jenkins-pipeline-health-monitor/) | 25.2k | — |
 | [Jenkins Pipeline Lint Agent](../../skills/jenkins-pipeline-lint-agent/) | 25.2k | — |
 | [Jenkins Pipeline Linter](../../skills/jenkins-pipeline-linter-6/) | 25.2k | — |
-| [Jenkins Pipeline Linter &#038; Fixer](../../skills/jenkins-pipeline-linter-fixer/) | 25.2k | — |
+| [Jenkins Pipeline Linter & Fixer](../../skills/jenkins-pipeline-linter-fixer/) | 25.2k | — |
 | [Jenkins Pipeline Linter Agent](../../skills/jenkins-pipeline-linter-agent-2/) | 25.2k | — |
 | [Jenkins Pipeline Linter Pro](../../skills/jenkins-pipeline-linter-pro/) | 25.2k | — |
 | [Jenkins Pipeline Log Parser](../../skills/jenkins-pipeline-log-parser/) | 25.2k | — |

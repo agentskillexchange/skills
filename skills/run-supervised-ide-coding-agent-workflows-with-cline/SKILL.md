@@ -1,5 +1,5 @@
 ---
-title: "Run supervised IDE coding-agent workflows with Cline"
+name: "Run supervised IDE coding-agent workflows with Cline"
 slug: "run-supervised-ide-coding-agent-workflows-with-cline"
 description: "Use Cline inside the IDE to let an agent inspect a repository, edit files, run terminal commands, use browser feedback, and pause for approval on risky actions."
 github_stars: 61510

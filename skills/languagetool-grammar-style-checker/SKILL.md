@@ -1,5 +1,5 @@
 ---
-title: "LanguageTool Grammar and Style Checker"
+name: "LanguageTool Grammar and Style Checker"
 slug: "languagetool-grammar-style-checker"
 description: "Check grammar, style, and spelling across 25+ languages with LanguageTool. This open-source proofreading engine can run as a local Java server or via its public API, providing detailed error reports with correction suggestions for any text content."
 github_stars: 14238

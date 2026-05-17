@@ -25,8 +25,8 @@ The `<slug>` is a URL-safe identifier: lowercase, hyphens instead of spaces, no 
 
 ```yaml
 ---
-title: string          # Required — display title
-slug: string           # Required — stable URL/path identifier
+name: string           # Required — human-readable display name
+slug: string           # Required — stable URL/path/install identifier, matching skills/<slug>/
 description: string    # Required — what the skill does and when to use it
 category: string       # Required — one of the valid categories
 framework: string      # Required — primary framework
@@ -46,14 +46,16 @@ tool_ecosystem:        # Optional — only if backed by a real tool with verifie
 
 ### Compatibility aliases
 
-- `title` is canonical. Older generated indexes may expose `name`; new repository frontmatter and public catalog JSON should use `title`.
+- `name` is canonical for human-readable display text.
+- `slug` is canonical for URL, directory, install, and machine identity.
+- `title` is deprecated. During the transition, validators may allow it only when it exactly equals `name`; generators must not emit `title` in new repository frontmatter.
 - `verification` is canonical for public files. WordPress may keep internal `verification_status` metadata, but exports must normalize it to the public values below.
 
 ## Field Definitions
 
-### `title` (required, string)
+### `name` (required, string)
 
-The human-readable display title of the skill. Should be concise and descriptive.
+The human-readable display name of the skill. Should be concise and descriptive.
 
 **Examples**: `"Stripe Webhook Verifier"`, `"GitHub Actions Workflow Generator"`
 
@@ -144,11 +146,12 @@ Only include if the skill is backed by a real tool with verifiable signals. All 
 
 ## Canonical Public Catalog JSON
 
-`skills.json` should use the same public naming as frontmatter:
+`skills.json` should use the same public naming as frontmatter. During one transition cycle, JSON endpoints may also emit `title` with the same value as `name` for backward compatibility:
 
 ```json
 {
   "slug": "playwright-mcp-browser-automation",
+  "name": "Playwright MCP Browser Automation",
   "title": "Playwright MCP Browser Automation",
   "description": "Official Playwright-powered browser control for agent workflows.",
   "category": ["Browser Automation"],
@@ -177,14 +180,14 @@ Endpoint requirements:
 1. JSON endpoints must return `Content-Type: application/json`.
 2. `llms.txt` must return `Content-Type: text/plain`.
 3. Endpoints must be public, unauthenticated, and cacheable.
-4. Endpoint schema must not expose deprecated/internal public fields such as `name`, `verification_status`, or `verified_metadata`.
+4. Endpoint schema must use `name` for display and `slug` for identity. `title` may appear only as a transition alias equal to `name`; internal fields such as `verification_status` or `verified_metadata` must never be exposed.
 5. Endpoint health is checked by `python3 scripts/smoke-agent-endpoints.py --base https://agentskillexchange.com`.
 
 ## Markdown Body
 
 The body follows the frontmatter and contains:
 
-1. **Title** — H1 heading matching the skill title
+1. **Name** — H1 heading matching the skill display name
 2. **Description** — One or more paragraphs explaining the skill
 3. **Installation** — Commands or setup notes for supported agents
 
@@ -192,7 +195,7 @@ The body follows the frontmatter and contains:
 
 ~~~markdown
 ---
-title: Stripe Webhook Signature Verifier
+name: Stripe Webhook Signature Verifier
 slug: stripe-webhook-signature-verifier
 description: Verifies Stripe webhook payload signatures using HMAC-SHA256 to prevent replay attacks and forged events.
 category: Security & Verification
@@ -224,9 +227,9 @@ The validator must:
 
 1. Parse YAML frontmatter with a real YAML parser, not grep/sed
 2. Reject duplicate YAML keys
-3. Include all required fields (`title`, `slug`, `description`, `category`, `framework`, `verification`)
+3. Include all required fields (`name`, `slug`, `description`, `category`, `framework`, `verification`)
 4. Validate required field types; canonical public fields are scalar strings unless explicitly documented otherwise
-5. Reject deprecated public fields (`name`, `verification_status`, `verified_metadata`)
+5. Allow deprecated `title` only as a temporary alias when it exactly equals `name`; reject `verification_status` and `verified_metadata`
 6. Use a lowercase kebab-case `slug` matching the containing directory name
 7. Use a valid category from the public category set; transitional generated buckets such as `General` and `Uncategorized` may be allowed only while the live taxonomy backlog is being cleaned
 8. Use a valid framework from the public framework set

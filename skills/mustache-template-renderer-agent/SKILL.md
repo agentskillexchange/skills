@@ -1,5 +1,5 @@
 ---
-title: "Mustache Template Renderer"
+name: "Mustache Template Renderer"
 slug: "mustache-template-renderer-agent"
 description: "Renders Mustache logic-less templates with partials resolution and lambda support. Uses the mustache.js library for client and server-side rendering with custom delimiter configuration."
 github_stars: 16718

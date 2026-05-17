@@ -1,5 +1,5 @@
 ---
-title: "Compress repeated agent context and command output before it reaches coding agents with sqz"
+name: "Compress repeated agent context and command output before it reaches coding agents with sqz"
 slug: "compress-repeated-agent-context-and-command-output-before-it-reaches-coding-agents-with-sqz"
 description: "Reduces token burn by compressing command output and deduplicating repeated file reads before they are sent to Claude Code, Codex, Cursor, and related coding-agent tools."
 github_stars: 165

@@ -1,5 +1,5 @@
 ---
-title: "Build stateful agents with long-term memory using Letta"
+name: "Build stateful agents with long-term memory using Letta"
 slug: "build-stateful-agents-with-long-term-memory-using-letta"
 description: "Use Letta to create agents whose identity, tools, memory blocks, and conversation state persist across sessions for long-running assistant or application workflows."
 github_stars: 22658

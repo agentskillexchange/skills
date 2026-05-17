@@ -1,5 +1,5 @@
 ---
-title: "Apache Airflow MCP"
+name: "Apache Airflow MCP"
 slug: "apache-airflow-mcp"
 description: ""
 github_stars: 45040

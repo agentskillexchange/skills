@@ -1,5 +1,5 @@
 ---
-title: "Kubernetes Event Stream Analyzer"
+name: "Kubernetes Event Stream Analyzer"
 slug: "kubernetes-event-stream-analyzer"
 description: "Watches Kubernetes event streams via the Watch API and correlates pod lifecycle events with resource metrics from Metrics Server. Detects CrashLoopBackOff patterns and OOMKilled signals for automated triage."
 github_stars: 121700

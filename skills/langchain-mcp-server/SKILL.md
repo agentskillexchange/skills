@@ -1,5 +1,5 @@
 ---
-title: "LangChain MCP Server"
+name: "LangChain MCP Server"
 slug: "langchain-mcp-server"
 description: ""
 github_stars: 17674

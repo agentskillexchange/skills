@@ -1,5 +1,5 @@
 ---
-title: "Incident Response Playbook Runner"
+name: "Incident Response Playbook Runner"
 slug: "incident-response-playbook-runner"
 description: "Executes structured incident response playbooks using PagerDuty Events API v2 for alerting, Slack Web API for communication, and Jira REST API for ticket creation. Automates evidence collection, timeline construction, and post-mortem generation."
 verification: "security_reviewed"

@@ -1,5 +1,5 @@
 ---
-title: "Buildkite Dynamic Pipeline Agent"
+name: "Buildkite Dynamic Pipeline Agent"
 slug: "buildkite-dynamic-pipeline-agent"
 description: "Creates Buildkite pipelines dynamically using the Buildkite REST API and pipeline upload commands. Manages agent targeting with queue tags and implements automatic retry strategies for flaky tests."
 verification: "security_reviewed"

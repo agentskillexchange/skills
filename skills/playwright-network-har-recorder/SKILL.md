@@ -1,5 +1,5 @@
 ---
-title: "Playwright Network HAR Recorder"
+name: "Playwright Network HAR Recorder"
 slug: "playwright-network-har-recorder"
 description: "Records and replays HTTP Archive (HAR) files using Playwright routeFromHAR API for deterministic test environments. Supports selective recording, response modification, and API mock generation."
 github_stars: 86409

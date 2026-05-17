@@ -1,5 +1,5 @@
 ---
-title: "Tekton Pipeline Debugger"
+name: "Tekton Pipeline Debugger"
 slug: "tekton-pipeline-debugger"
 description: "Debugs Tekton pipeline failures by querying TaskRun and PipelineRun status via kubectl and the Tekton Results API. Extracts step container logs, identifies parameter resolution errors, and suggests workspace volume fixes."
 github_stars: 8936

@@ -1,5 +1,5 @@
 ---
-title: "PostgreSQL Performance Diagnostic Suite"
+name: "PostgreSQL Performance Diagnostic Suite"
 slug: "postgresql-performance-diagnostic-suite"
 description: "Diagnoses PostgreSQL performance issues using pg_stat_statements, pg_stat_activity, and EXPLAIN ANALYZE. Integrates with pgBadger for log analysis and pg_stat_user_tables for index recommendations."
 github_stars: 13127

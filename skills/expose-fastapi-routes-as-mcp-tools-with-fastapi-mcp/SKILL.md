@@ -1,5 +1,5 @@
 ---
-title: "Expose FastAPI routes as MCP tools with FastAPI-MCP"
+name: "Expose FastAPI routes as MCP tools with FastAPI-MCP"
 slug: "expose-fastapi-routes-as-mcp-tools-with-fastapi-mcp"
 description: "Mount FastAPI-MCP on an existing FastAPI app so agents can call authenticated route-backed MCP tools with preserved schemas."
 github_stars: 11836

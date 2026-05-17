@@ -1,5 +1,5 @@
 ---
-title: "Scan LLM-generated code before use with CodeShield"
+name: "Scan LLM-generated code before use with CodeShield"
 slug: "scan-llm-generated-code-before-use-with-codeshield"
 description: "Run CodeShield on model-produced code or command suggestions before they reach a user, a repo, or an execution step, so insecure patterns get blocked or warned on first."
 verification: "security_reviewed"

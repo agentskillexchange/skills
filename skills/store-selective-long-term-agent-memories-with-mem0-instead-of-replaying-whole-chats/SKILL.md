@@ -1,5 +1,5 @@
 ---
-title: "Store selective long-term agent memories with Mem0 instead of replaying whole chats"
+name: "Store selective long-term agent memories with Mem0 instead of replaying whole chats"
 slug: "store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats"
 description: "Use Mem0 when an agent should retain durable preferences, facts, and prior decisions as selective memory records instead of stuffing more transcript history back into every prompt."
 github_stars: 53457

@@ -1,5 +1,5 @@
 ---
-title: "Cheerio DOM Scraping Toolkit"
+name: "Cheerio DOM Scraping Toolkit"
 slug: "cheerio-dom-scraping-toolkit"
 description: "Parses static HTML using Cheerio's jQuery-like API for fast server-side DOM traversal and data extraction. Generates extraction patterns with CSS selectors optimized for resilience to layout changes."
 github_stars: 30270

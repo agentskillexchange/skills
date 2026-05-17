@@ -1,5 +1,5 @@
 ---
-title: "Meta Box WordPress Custom Fields and Meta Boxes Framework"
+name: "Meta Box WordPress Custom Fields and Meta Boxes Framework"
 slug: "meta-box-wordpress-custom-fields-framework"
 description: "Meta Box is a professional WordPress framework for creating custom fields and custom meta boxes with over 40 field types. It supports posts, pages, custom post types, taxonomies, settings pages, user profiles, and comments."
 github_stars: 1237

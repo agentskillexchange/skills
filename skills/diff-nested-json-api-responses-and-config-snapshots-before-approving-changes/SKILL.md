@@ -1,5 +1,5 @@
 ---
-title: "Diff nested JSON, API responses, and config snapshots before approving changes"
+name: "Diff nested JSON, API responses, and config snapshots before approving changes"
 slug: "diff-nested-json-api-responses-and-config-snapshots-before-approving-changes"
 description: "Uses DeepDiff to compare structured objects deeply and return precise additions, removals, value changes, and deltas instead of noisy line-based diffs. Best when an agent is validating API payloads, configuration snapshots, or migration outputs where nesting and key paths matter."
 github_stars: 2495

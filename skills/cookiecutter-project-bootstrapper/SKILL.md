@@ -1,5 +1,5 @@
 ---
-title: "Cookiecutter Project Bootstrapper"
+name: "Cookiecutter Project Bootstrapper"
 slug: "cookiecutter-project-bootstrapper"
 description: "Bootstraps project repositories from Cookiecutter templates with Jinja2 variable substitution and post-generation hooks. Supports remote template registries and custom extension plugins."
 github_stars: 24818

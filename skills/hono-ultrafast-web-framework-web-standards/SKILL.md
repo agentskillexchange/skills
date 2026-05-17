@@ -1,5 +1,5 @@
 ---
-title: "Hono Ultrafast Web Framework Built on Web Standards"
+name: "Hono Ultrafast Web Framework Built on Web Standards"
 slug: "hono-ultrafast-web-framework-web-standards"
 description: "Hono is a small, simple, and ultrafast web framework built on Web Standards. It runs on any JavaScript runtime including Cloudflare Workers, Deno, Bun, Vercel, AWS Lambda, and Node.js, making it ideal for building portable edge-first APIs and web applications."
 github_stars: 29789

@@ -1,5 +1,5 @@
 ---
-title: "Prometheus AlertManager Configurator"
+name: "Prometheus AlertManager Configurator"
 slug: "prometheus-alertmanager-configurator"
 description: "Generates Prometheus AlertManager configurations with routing trees, inhibition rules, and receiver integrations for PagerDuty, Slack, and OpsGenie APIs. Supports template-based notification customization."
 github_stars: 63584

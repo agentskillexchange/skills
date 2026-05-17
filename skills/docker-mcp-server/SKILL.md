@@ -1,5 +1,5 @@
 ---
-title: "Docker MCP Server"
+name: "Docker MCP Server"
 slug: "docker-mcp-server"
 description: ""
 github_stars: 71562

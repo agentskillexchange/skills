@@ -1,5 +1,5 @@
 ---
-title: "Probe Kubernetes clusters for exposed attack paths with kube-hunter"
+name: "Probe Kubernetes clusters for exposed attack paths with kube-hunter"
 slug: "probe-kubernetes-clusters-for-exposed-attack-paths-with-kube-hunter"
 description: "Assess a Kubernetes cluster from the attacker viewpoint when an agent needs exposure-focused findings instead of a general cluster scanner listing."
 github_stars: 5040

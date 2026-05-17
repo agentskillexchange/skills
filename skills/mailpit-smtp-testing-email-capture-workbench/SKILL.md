@@ -1,5 +1,5 @@
 ---
-title: "Mailpit SMTP Testing and Email Capture Workbench"
+name: "Mailpit SMTP Testing and Email Capture Workbench"
 slug: "mailpit-smtp-testing-email-capture-workbench"
 description: "This skill uses Mailpit as a safe SMTP sink for development, QA, and automated test runs. It helps teams capture, inspect, search, and validate transactional email without sending anything to real inboxes."
 github_stars: 9051

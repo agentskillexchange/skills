@@ -1,5 +1,5 @@
 ---
-title: "Run AI-assisted security triage with role-based SOC runbooks from ai-runbooks"
+name: "Run AI-assisted security triage with role-based SOC runbooks from ai-runbooks"
 slug: "run-ai-assisted-security-triage-with-role-based-soc-runbooks-from-ai-runbooks"
 description: "Use ai-runbooks to give AI assistants role-specific SOC personas, investigation steps, and incident-response procedures for structured security triage."
 github_stars: 96

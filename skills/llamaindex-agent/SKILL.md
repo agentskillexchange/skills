@@ -1,5 +1,5 @@
 ---
-title: "LlamaIndex Agent"
+name: "LlamaIndex Agent"
 slug: "llamaindex-agent"
 description: ""
 github_stars: 48568

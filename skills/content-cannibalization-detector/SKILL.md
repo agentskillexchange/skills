@@ -1,5 +1,5 @@
 ---
-title: "Content Cannibalization Detector"
+name: "Content Cannibalization Detector"
 slug: "content-cannibalization-detector"
 description: "Identifies keyword cannibalization across site pages by analyzing Google Search Console Performance API data, extracting query-page pairings, and detecting overlap using TF-IDF cosine similarity scoring. Generates merge recommendations and 301 redirect maps via Screaming Frog exports."
 verification: "security_reviewed"

@@ -1,5 +1,5 @@
 ---
-title: "GitHub Actions Workflow Generator"
+name: "GitHub Actions Workflow Generator"
 slug: "github-actions-workflow-generator-3"
 description: "Generates GitHub Actions workflow YAML files using the GitHub REST API v3 and Actions API. Supports matrix builds, reusable workflows, and composite actions with caching via actions/cache."
 verification: "security_reviewed"

@@ -1,5 +1,5 @@
 ---
-title: "Ansible Playbook Runner"
+name: "Ansible Playbook Runner"
 slug: "ansible-playbook-runner"
 description: ""
 github_stars: 68362

@@ -1,5 +1,5 @@
 ---
-title: "Medusa Commerce API and Store Operations Automation Skill"
+name: "Medusa Commerce API and Store Operations Automation Skill"
 slug: "medusa-commerce-api-store-operations-automation-skill"
 description: "Medusa is an open-source commerce platform with modular backend services, an admin app, and API-first store workflows. This skill helps agents manage products, orders, carts, pricing, and fulfillment logic through a modern commerce backend that teams can self-host and extend."
 github_stars: 32622

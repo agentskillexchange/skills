@@ -1,5 +1,5 @@
 ---
-title: "rehype Plugin-Based HTML Processor by the Unified Collective"
+name: "rehype Plugin-Based HTML Processor by the Unified Collective"
 slug: "rehype-html-processor-unified"
 description: "rehype is a plugin-based HTML processing toolkit built on the unified ecosystem. It parses HTML into an abstract syntax tree, transforms it with composable plugins, and serializes it back — enabling programmatic HTML minification, sanitization, link rewriting, heading extraction, and content manipulation at scale."
 github_stars: 2202

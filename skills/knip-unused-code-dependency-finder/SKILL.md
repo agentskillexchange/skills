@@ -1,5 +1,5 @@
 ---
-title: "Knip Unused Code and Dependency Finder"
+name: "Knip Unused Code and Dependency Finder"
 slug: "knip-unused-code-dependency-finder"
 description: "Run Knip to find and remove unused files, dependencies, and exports in JavaScript and TypeScript projects. Reduces bundle size, maintenance burden, and dependency attack surface."
 github_stars: 10806

@@ -1,5 +1,5 @@
 ---
-title: "Generate LLM fine-tuning, RAG, and eval datasets from source material with easy-dataset"
+name: "Generate LLM fine-tuning, RAG, and eval datasets from source material with easy-dataset"
 slug: "generate-llm-fine-tuning-rag-and-eval-datasets-from-source-material-with-easy-dataset"
 description: "Turn raw documents into structured fine-tuning, RAG, and evaluation datasets when the real job is dataset preparation, not generic document parsing."
 github_stars: 14000

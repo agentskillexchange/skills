@@ -1,5 +1,5 @@
 ---
-title: "Schema Markup Generator for SEO"
+name: "Schema Markup Generator for SEO"
 slug: "schema-markup-generator-seo"
 description: "Generates JSON-LD structured data using schema-dts TypeScript definitions and Google Rich Results Test API validation. Supports Article, Product, FAQ, HowTo, and LocalBusiness schema types."
 verification: "security_reviewed"

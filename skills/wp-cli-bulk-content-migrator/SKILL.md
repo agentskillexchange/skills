@@ -1,5 +1,5 @@
 ---
-title: "WP-CLI Bulk Content Migrator"
+name: "WP-CLI Bulk Content Migrator"
 slug: "wp-cli-bulk-content-migrator"
 description: "Automates large-scale WordPress content migrations using WP-CLI wp post create and wp term set commands. Handles custom post types, ACF field mapping, and taxonomy reassignment with rollback support."
 github_stars: 5061

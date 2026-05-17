@@ -1,5 +1,5 @@
 ---
-title: "Uptime Kuma Status Sync"
+name: "Uptime Kuma Status Sync"
 slug: "uptime-kuma-status-sync"
 description: "Interfaces with the Uptime Kuma Socket.IO API to monitor service health checks. Syncs status page data to Statuspage.io via Atlassian REST API and triggers incident workflows in Rootly."
 github_stars: 85583

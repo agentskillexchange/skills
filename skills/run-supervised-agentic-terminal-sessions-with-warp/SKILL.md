@@ -1,5 +1,5 @@
 ---
-title: "Run supervised agentic terminal sessions with Warp"
+name: "Run supervised agentic terminal sessions with Warp"
 slug: "run-supervised-agentic-terminal-sessions-with-warp"
 description: "Use Warp as a supervised terminal workspace for running Warp Agent or external CLI agents such as Codex, Claude Code, Gemini CLI, and OpenCode with shared shell context."
 github_stars: 58541

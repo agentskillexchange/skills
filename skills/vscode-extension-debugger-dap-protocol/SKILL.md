@@ -1,5 +1,5 @@
 ---
-title: "VS Code Extension Debugger"
+name: "VS Code Extension Debugger"
 slug: "vscode-extension-debugger-dap-protocol"
 description: "Debugs VS Code extensions using the Debug Adapter Protocol (DAP) with breakpoint management and variable inspection. Integrates with VS Code Extension API for webview debugging and uses Chrome DevTools Protocol for renderer process analysis."
 verification: "security_reviewed"

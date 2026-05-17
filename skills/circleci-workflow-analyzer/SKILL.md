@@ -1,5 +1,5 @@
 ---
-title: "CircleCI Workflow Analyzer"
+name: "CircleCI Workflow Analyzer"
 slug: "circleci-workflow-analyzer"
 description: "Analyzes and optimizes CircleCI workflows using the CircleCI v2 API. Identifies bottlenecks in job dependency graphs, suggests parallelism improvements, and monitors pipeline credit usage."
 github_stars: 843

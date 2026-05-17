@@ -1,5 +1,5 @@
 ---
-title: "AssemblyAI LeMUR Summarizer"
+name: "AssemblyAI LeMUR Summarizer"
 slug: "assemblyai-lemur-summarizer-agent"
 description: "Summarizes audio content using AssemblyAI's LeMUR (Large Language Model for Audio Understanding) API. Chains the /v2/transcript endpoint with /lemur/v3/generate/summary for contextual audio intelligence."
 verification: "security_reviewed"

@@ -1,5 +1,5 @@
 ---
-title: "Trivy Container Scanner"
+name: "Trivy Container Scanner"
 slug: "trivy-container-scanner-2"
 description: "Wraps the Trivy CLI for comprehensive container image vulnerability scanning. Outputs results in SARIF format for GitHub Code Scanning API integration and generates OCI artifact attestations."
 github_stars: 34488

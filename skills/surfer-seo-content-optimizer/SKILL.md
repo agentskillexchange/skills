@@ -1,5 +1,5 @@
 ---
-title: "Surfer SEO Content Optimizer"
+name: "Surfer SEO Content Optimizer"
 slug: "surfer-seo-content-optimizer"
 description: "Analyzes top SERP competitors using DataForSEO API and generates content optimization briefs with target word count, NLP entity coverage, heading structure, and internal linking recommendations."
 verification: "security_reviewed"

@@ -1,5 +1,5 @@
 ---
-title: "Back up GitHub, GitLab, Bitbucket, and Forgejo repositories with gitbackup"
+name: "Back up GitHub, GitLab, Bitbucket, and Forgejo repositories with gitbackup"
 slug: "back-up-github-gitlab-bitbucket-and-forgejo-repositories-with-gitbackup"
 description: "Run repeatable cross-forge repository backup jobs from one config instead of hand-scripting clone and export steps per provider."
 github_stars: 218

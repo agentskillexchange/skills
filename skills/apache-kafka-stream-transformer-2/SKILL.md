@@ -1,5 +1,5 @@
 ---
-title: "Apache Kafka Stream Transformer"
+name: "Apache Kafka Stream Transformer"
 slug: "apache-kafka-stream-transformer-2"
 description: "Processes real-time event streams using KafkaJS consumer groups and transforms messages with configurable schemas. Handles partition rebalancing, offset commits, and dead-letter queue routing for failed transformations."
 github_stars: 32377

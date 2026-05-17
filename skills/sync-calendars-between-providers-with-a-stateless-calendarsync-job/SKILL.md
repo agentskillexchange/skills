@@ -1,5 +1,5 @@
 ---
-title: "Sync calendars between providers with a stateless CalendarSync job"
+name: "Sync calendars between providers with a stateless CalendarSync job"
 slug: "sync-calendars-between-providers-with-a-stateless-calendarsync-job"
 description: "Run a one-shot calendar sync or migration between Google, Outlook, CalDAV, ICS, and related systems without standing up a long-lived sync service."
 github_stars: 217

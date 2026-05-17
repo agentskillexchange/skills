@@ -1,5 +1,5 @@
 ---
-title: "Docker Compose Health Checker"
+name: "Docker Compose Health Checker"
 slug: "docker-compose-health-checker"
 description: "Validates docker-compose.yml files against the Compose Specification, checks image vulnerability status via Docker Scout API, and verifies healthcheck configurations."
 github_stars: 71492

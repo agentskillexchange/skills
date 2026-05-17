@@ -1,5 +1,5 @@
 ---
-title: "Infer And Normalize Broken CSV Dialects Before Import With Clevercsv"
+name: "Infer And Normalize Broken CSV Dialects Before Import With Clevercsv"
 slug: "infer-and-normalize-broken-csv-dialects-before-import-with-clevercsv"
 description: "Detect messy CSV dialects, standardize malformed files, and generate reliable import code before ingestion pipelines or analyst workflows fail."
 github_stars: 1324

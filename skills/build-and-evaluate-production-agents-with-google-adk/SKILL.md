@@ -1,5 +1,5 @@
 ---
-title: "Build and evaluate production agents with Google ADK"
+name: "Build and evaluate production agents with Google ADK"
 slug: "build-and-evaluate-production-agents-with-google-adk"
 description: "Use Google Agent Development Kit to define, test, evaluate, and deploy code-first Python agents with tools, sessions, HITL confirmation, and multi-agent orchestration."
 github_stars: 19526

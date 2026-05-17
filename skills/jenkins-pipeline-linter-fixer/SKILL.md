@@ -1,5 +1,5 @@
 ---
-title: "Jenkins Pipeline Linter & Fixer"
+name: "Jenkins Pipeline Linter & Fixer"
 slug: "jenkins-pipeline-linter-fixer"
 description: "Validates Jenkinsfile declarative pipelines using the Jenkins Pipeline Linter API endpoint (/pipeline-model-converter/validate). Auto-fixes common syntax issues and stages missing agent directives."
 github_stars: 25189

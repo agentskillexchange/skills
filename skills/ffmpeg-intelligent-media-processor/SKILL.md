@@ -1,5 +1,5 @@
 ---
-title: "FFmpeg Intelligent Media Processor"
+name: "FFmpeg Intelligent Media Processor"
 slug: "ffmpeg-intelligent-media-processor"
 description: "Orchestrates complex video and audio processing pipelines using FFmpeg and FFprobe with scene detection via PySceneDetect. Handles format conversion, thumbnail generation, HLS packaging, and loudness normalization per EBU R128."
 github_stars: 58972

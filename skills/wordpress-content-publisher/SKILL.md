@@ -1,5 +1,5 @@
 ---
-title: "WordPress Content Publisher"
+name: "WordPress Content Publisher"
 slug: "wordpress-content-publisher"
 description: "Structured publishing workflow for WordPress drafts, metadata, and content operations."
 github_stars: 21121

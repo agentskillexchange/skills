@@ -1,5 +1,5 @@
 ---
-title: "Orchestrate multi-environment OpenTofu and Terraform stacks with shared config and dependency ordering using Terragrunt"
+name: "Orchestrate multi-environment OpenTofu and Terraform stacks with shared config and dependency ordering using Terragrunt"
 slug: "orchestrate-multi-environment-opentofu-and-terraform-stacks-with-shared-config-and-dependency-ordering-using-terragrunt"
 description: "Coordinate layered Terraform or OpenTofu stacks across environments so plan and apply runs happen in the right order with shared inputs and less drift."
 github_stars: 9503

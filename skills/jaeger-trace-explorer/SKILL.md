@@ -1,5 +1,5 @@
 ---
-title: "Jaeger Trace Explorer"
+name: "Jaeger Trace Explorer"
 slug: "jaeger-trace-explorer"
 description: ""
 github_stars: 22671

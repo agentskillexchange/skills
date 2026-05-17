@@ -1,5 +1,5 @@
 ---
-title: "Stagehand Browser Automation"
+name: "Stagehand Browser Automation"
 slug: "stagehand-browser-automation"
 description: "Stagehand is Browserbase’s AI browser automation framework for mixing natural-language actions with deterministic code. It is built for production workflows where you want Playwright-level control, structured extraction, and the option to cache and stabilize repeated web tasks."
 github_stars: 22059

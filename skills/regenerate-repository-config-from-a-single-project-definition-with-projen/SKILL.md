@@ -1,5 +1,5 @@
 ---
-title: "Regenerate repository config from a single project definition with projen"
+name: "Regenerate repository config from a single project definition with projen"
 slug: "regenerate-repository-config-from-a-single-project-definition-with-projen"
 description: "Use projen when an agent should synthesize and refresh repository boilerplate from one canonical project definition instead of hand-editing many config files."
 github_stars: 2918

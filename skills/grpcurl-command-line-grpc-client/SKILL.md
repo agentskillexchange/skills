@@ -1,5 +1,5 @@
 ---
-title: "grpcurl Command-Line gRPC Client"
+name: "grpcurl Command-Line gRPC Client"
 slug: "grpcurl-command-line-grpc-client"
 description: "Like cURL but for gRPC servers. A command-line tool for interacting with gRPC services using server reflection or proto files, supporting unary calls, streaming, TLS, and metadata headers."
 github_stars: 12548

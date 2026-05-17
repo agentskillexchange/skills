@@ -1,5 +1,5 @@
 ---
-title: "Sweep GitHub for leaked secrets and exposed credentials with git-hound"
+name: "Sweep GitHub for leaked secrets and exposed credentials with git-hound"
 slug: "sweep-github-for-leaked-secrets-and-exposed-credentials-with-git-hound"
 description: "Search public GitHub broadly for leaked secrets and triage exposures when the workflow is recon and remediation, not generic secret scanning."
 github_stars: 1400

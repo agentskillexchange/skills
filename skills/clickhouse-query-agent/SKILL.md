@@ -1,5 +1,5 @@
 ---
-title: "ClickHouse Query Agent"
+name: "ClickHouse Query Agent"
 slug: "clickhouse-query-agent"
 description: ""
 github_stars: 46871

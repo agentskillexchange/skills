@@ -1,5 +1,5 @@
 ---
-title: "Run research and scientific analysis workflows with Scientific Agent Skills"
+name: "Run research and scientific analysis workflows with Scientific Agent Skills"
 slug: "run-research-and-scientific-analysis-workflows-with-scientific-agent-skills"
 description: "Give an agent curated scientific workflows, databases, and domain-specific guidance when general prompting is not reliable enough for research-heavy work."
 github_stars: 18797

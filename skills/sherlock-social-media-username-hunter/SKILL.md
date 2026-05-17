@@ -1,5 +1,5 @@
 ---
-title: "Sherlock Social Media Username Hunter Across 400+ Networks"
+name: "Sherlock Social Media Username Hunter Across 400+ Networks"
 slug: "sherlock-social-media-username-hunter"
 description: "Sherlock hunts down social media accounts by username across more than 400 social networks. It is the go-to OSINT CLI tool for verifying online identities, finding connected accounts, and building digital footprints from a single username string."
 github_stars: 76214

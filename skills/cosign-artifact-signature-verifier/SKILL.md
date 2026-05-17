@@ -1,5 +1,5 @@
 ---
-title: "Cosign Artifact Signature Verifier"
+name: "Cosign Artifact Signature Verifier"
 slug: "cosign-artifact-signature-verifier"
 description: "Validates container image and artifact signatures using Sigstore Cosign with keyless verification via Fulcio and Rekor transparency logs. Enforces supply chain integrity policies with OPA/Rego."
 github_stars: 5837

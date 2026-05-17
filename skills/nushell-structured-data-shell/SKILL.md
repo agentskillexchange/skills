@@ -1,5 +1,5 @@
 ---
-title: "Nushell Structured Data Shell"
+name: "Nushell Structured Data Shell"
 slug: "nushell-structured-data-shell"
 description: "A modern shell that treats all input as structured data rather than plain text streams. Nushell provides built-in support for JSON, YAML, TOML, CSV, SQLite, and Excel, with typed pipelines that enable safe filtering, sorting, and transformation without string parsing."
 github_stars: 38872

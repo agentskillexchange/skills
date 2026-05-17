@@ -1,5 +1,5 @@
 ---
-title: "E2B Code Execution MCP"
+name: "E2B Code Execution MCP"
 slug: "e2b-code-execution-mcp"
 description: "Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected Linux environments for running Python, JavaScript, and shell commands without touching your local machine."
 github_stars: 394

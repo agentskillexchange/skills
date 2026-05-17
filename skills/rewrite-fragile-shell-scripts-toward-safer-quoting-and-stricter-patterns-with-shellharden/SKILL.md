@@ -1,5 +1,5 @@
 ---
-title: "Rewrite fragile shell scripts toward safer quoting and stricter patterns with Shellharden"
+name: "Rewrite fragile shell scripts toward safer quoting and stricter patterns with Shellharden"
 slug: "rewrite-fragile-shell-scripts-toward-safer-quoting-and-stricter-patterns-with-shellharden"
 description: "Inspect or auto-fix shell scripts to reduce quoting bugs and brittle Bash patterns before they break in CI or production."
 github_stars: 4776

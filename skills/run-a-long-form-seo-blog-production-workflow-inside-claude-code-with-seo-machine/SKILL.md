@@ -1,5 +1,5 @@
 ---
-title: "Run a long-form SEO blog production workflow inside Claude Code with SEO Machine"
+name: "Run a long-form SEO blog production workflow inside Claude Code with SEO Machine"
 slug: "run-a-long-form-seo-blog-production-workflow-inside-claude-code-with-seo-machine"
 description: "Research, outline, draft, review, and optimize long-form blog posts through a repeatable Claude Code workspace instead of ad hoc chat writing."
 github_stars: 6597

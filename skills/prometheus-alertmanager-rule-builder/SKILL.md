@@ -1,5 +1,5 @@
 ---
-title: "Prometheus AlertManager Rule Builder"
+name: "Prometheus AlertManager Rule Builder"
 slug: "prometheus-alertmanager-rule-builder"
 description: "Generates Prometheus alerting rules and AlertManager routing configs using PromQL validation via the Prometheus HTTP API. Supports PagerDuty, OpsGenie, and Slack receiver configurations."
 github_stars: 63584

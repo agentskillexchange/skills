@@ -1,5 +1,5 @@
 ---
-title: "llama.cpp Portable LLM Inference Engine in C/C++"
+name: "llama.cpp Portable LLM Inference Engine in C/C++"
 slug: "llama-cpp-portable-llm-inference"
 description: "llama.cpp is a high-performance C/C++ implementation for running LLM inference across diverse hardware. It supports GGUF model quantization, GPU acceleration on NVIDIA/AMD/Apple Silicon, and provides both a CLI and an OpenAI-compatible HTTP server for local model serving."
 github_stars: 100939

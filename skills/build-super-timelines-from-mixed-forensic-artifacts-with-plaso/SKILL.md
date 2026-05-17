@@ -1,5 +1,5 @@
 ---
-title: "Build super timelines from mixed forensic artifacts with Plaso"
+name: "Build super timelines from mixed forensic artifacts with Plaso"
 slug: "build-super-timelines-from-mixed-forensic-artifacts-with-plaso"
 description: "Ingest disk, log, and system artifacts into a sortable forensic timeline before analysis, scoping, or case review."
 github_stars: 2052

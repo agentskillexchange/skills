@@ -1,5 +1,5 @@
 ---
-title: "AWS Lambda MCP Server"
+name: "AWS Lambda MCP Server"
 slug: "aws-lambda-mcp-server"
 description: ""
 github_stars: 3626

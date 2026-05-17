@@ -1,5 +1,5 @@
 ---
-title: "Terraform Module Registry"
+name: "Terraform Module Registry"
 slug: "terraform-module-registry"
 description: ""
 github_stars: 48146

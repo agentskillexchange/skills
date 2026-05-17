@@ -1,5 +1,5 @@
 ---
-title: "Coordinate multiple CLI agents through sessions, handoffs, and terminal control APIs with CLI Agent Orchestrator"
+name: "Coordinate multiple CLI agents through sessions, handoffs, and terminal control APIs with CLI Agent Orchestrator"
 slug: "coordinate-multiple-cli-agents-through-sessions-handoffs-and-terminal-control-apis-with-cli-agent-orchestrator"
 description: "Lets an agent supervisor spawn and steer isolated terminal-based worker agents with explicit handoff, assign, and message patterns."
 github_stars: 473

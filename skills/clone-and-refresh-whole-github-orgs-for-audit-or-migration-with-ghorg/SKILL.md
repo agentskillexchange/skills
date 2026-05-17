@@ -1,5 +1,5 @@
 ---
-title: "Clone and refresh whole GitHub orgs for audit or migration with ghorg"
+name: "Clone and refresh whole GitHub orgs for audit or migration with ghorg"
 slug: "clone-and-refresh-whole-github-orgs-for-audit-or-migration-with-ghorg"
 description: "Use ghorg to clone or resync large sets of repositories from a GitHub user or organization for offline audit, migration prep, or bulk analysis work."
 github_stars: 2016

@@ -1,5 +1,5 @@
 ---
-title: "alex Inclusive Writing Linter"
+name: "alex Inclusive Writing Linter"
 slug: "alex-inclusive-writing-linter"
 description: "Catch insensitive, inconsiderate writing with alex. This CLI tool and Node.js library scans Markdown and plain text for gender-biased, polarizing, or exclusionary language and suggests inclusive alternatives."
 github_stars: 5096

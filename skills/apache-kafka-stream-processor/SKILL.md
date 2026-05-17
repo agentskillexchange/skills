@@ -1,5 +1,5 @@
 ---
-title: "Apache Kafka Stream Processor"
+name: "Apache Kafka Stream Processor"
 slug: "apache-kafka-stream-processor"
 description: ""
 github_stars: 32373

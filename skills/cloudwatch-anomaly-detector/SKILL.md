@@ -1,5 +1,5 @@
 ---
-title: "CloudWatch Anomaly Detector"
+name: "CloudWatch Anomaly Detector"
 slug: "cloudwatch-anomaly-detector"
 description: "Creates and manages CloudWatch Anomaly Detection bands using AWS SDK PutAnomalyDetector and GetMetricData APIs. Generates alerts when metrics breach learned baselines with configurable sensitivity."
 verification: "security_reviewed"

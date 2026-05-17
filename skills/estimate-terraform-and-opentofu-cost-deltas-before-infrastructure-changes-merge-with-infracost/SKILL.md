@@ -1,5 +1,5 @@
 ---
-title: "Estimate Terraform and OpenTofu cost deltas before infrastructure changes merge with Infracost"
+name: "Estimate Terraform and OpenTofu cost deltas before infrastructure changes merge with Infracost"
 slug: "estimate-terraform-and-opentofu-cost-deltas-before-infrastructure-changes-merge-with-infracost"
 description: "Show projected cloud cost increases or savings from Terraform and OpenTofu plans before a PR merges."
 github_stars: 12267

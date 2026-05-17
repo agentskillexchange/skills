@@ -1,5 +1,5 @@
 ---
-title: "faster-whisper High-Performance Speech Transcription Library"
+name: "faster-whisper High-Performance Speech Transcription Library"
 slug: "faster-whisper-high-performance-speech-transcription-library"
 description: "faster-whisper is SYSTRAN’s high-performance reimplementation of OpenAI Whisper on top of CTranslate2. It is built for transcription pipelines that need lower latency, lower memory usage, optional quantization, and practical Python integration for batch or real-time speech workflows."
 github_stars: 22156

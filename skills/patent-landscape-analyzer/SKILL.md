@@ -1,5 +1,5 @@
 ---
-title: "Patent Landscape Analyzer"
+name: "Patent Landscape Analyzer"
 slug: "patent-landscape-analyzer"
 description: "Searches the USPTO PatentsView API and European Patent Office OPS (Open Patent Services) API for patent grants, applications, and family relationships. Generates technology landscape maps with IPC classification clustering."
 verification: "security_reviewed"

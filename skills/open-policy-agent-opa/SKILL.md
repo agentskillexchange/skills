@@ -1,5 +1,5 @@
 ---
-title: "Open Policy Agent (OPA)"
+name: "Open Policy Agent (OPA)"
 slug: "open-policy-agent-opa"
 description: ""
 github_stars: 11581

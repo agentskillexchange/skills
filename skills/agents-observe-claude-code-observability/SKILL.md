@@ -1,5 +1,5 @@
 ---
-title: "Inspect Claude Code multi-agent runs with Agents Observe"
+name: "Inspect Claude Code multi-agent runs with Agents Observe"
 slug: "agents-observe-claude-code-observability"
 description: "Gives Claude Code operators a live dashboard for multi-agent sessions, tool calls, file activity, and nested task progress so debugging starts from what the agents are actually doing."
 github_stars: 421

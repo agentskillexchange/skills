@@ -1,5 +1,5 @@
 ---
-title: "AWS CloudWatch Anomaly Investigator"
+name: "AWS CloudWatch Anomaly Investigator"
 slug: "aws-cloudwatch-anomaly-investigator"
 description: "Investigates CloudWatch metric anomalies using the AWS SDK CloudWatch.getMetricData and Logs.filterLogEvents APIs. Correlates metric spikes with log patterns and deployment events from CodeDeploy."
 github_stars: 3607

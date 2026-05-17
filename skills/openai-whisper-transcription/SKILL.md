@@ -1,5 +1,5 @@
 ---
-title: "OpenAI Whisper Transcription"
+name: "OpenAI Whisper Transcription"
 slug: "openai-whisper-transcription"
 description: "Local speech-to-text transcription without relying on an API."
 github_stars: 99615

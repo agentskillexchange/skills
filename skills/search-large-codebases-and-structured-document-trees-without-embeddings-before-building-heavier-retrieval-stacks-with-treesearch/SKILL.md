@@ -1,5 +1,5 @@
 ---
-title: "Search large codebases and structured document trees without embeddings before building heavier retrieval stacks with TreeSearch"
+name: "Search large codebases and structured document trees without embeddings before building heavier retrieval stacks with TreeSearch"
 slug: "search-large-codebases-and-structured-document-trees-without-embeddings-before-building-heavier-retrieval-stacks-with-treesearch"
 description: "Index docs and source trees into structure-aware search so you can answer targeted questions quickly without a vector database or brittle grep sprawl."
 github_stars: 189

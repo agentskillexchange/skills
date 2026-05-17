@@ -1,5 +1,5 @@
 ---
-title: "Grafana Dashboard Snapshot Exporter"
+name: "Grafana Dashboard Snapshot Exporter"
 slug: "grafana-dashboard-snapshot-exporter"
 description: "Exports Grafana dashboards as shareable snapshots using the Grafana HTTP API /api/snapshots endpoint. Captures panel data at point-in-time with configurable expiration and external sharing via snapshot keys."
 github_stars: 73187

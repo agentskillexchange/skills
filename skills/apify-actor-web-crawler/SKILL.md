@@ -1,5 +1,5 @@
 ---
-title: "Apify Actor Web Crawler"
+name: "Apify Actor Web Crawler"
 slug: "apify-actor-web-crawler"
 description: "Deploys custom Apify Actors via the Apify API v2 for large-scale web crawling using CrawleeJS. Leverages Apify dataset storage, RequestQueue, and proxy configuration for distributed scraping at scale."
 github_stars: 173

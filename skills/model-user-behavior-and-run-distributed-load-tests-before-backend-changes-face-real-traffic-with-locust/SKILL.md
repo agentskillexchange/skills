@@ -1,5 +1,5 @@
 ---
-title: "Model user behavior and run distributed load tests before backend changes face real traffic with Locust"
+name: "Model user behavior and run distributed load tests before backend changes face real traffic with Locust"
 slug: "model-user-behavior-and-run-distributed-load-tests-before-backend-changes-face-real-traffic-with-locust"
 description: "Script realistic user flows in Python and fan them out across workers so agents can pressure-test services before rollout."
 github_stars: 27720

@@ -1,5 +1,5 @@
 ---
-title: "Vue.js — Progressive JavaScript Framework for Building UIs"
+name: "Vue.js — Progressive JavaScript Framework for Building UIs"
 slug: "vue-js-progressive-javascript-framework"
 description: "Vue.js is a progressive JavaScript framework for building user interfaces with an incrementally adoptable architecture, reactive data binding, and a rich ecosystem including Vue Router, Pinia, and Vite."
 github_stars: 53379

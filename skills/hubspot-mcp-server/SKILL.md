@@ -1,5 +1,5 @@
 ---
-title: "HubSpot MCP Server"
+name: "HubSpot MCP Server"
 slug: "hubspot-mcp-server"
 description: ""
 github_stars: 394

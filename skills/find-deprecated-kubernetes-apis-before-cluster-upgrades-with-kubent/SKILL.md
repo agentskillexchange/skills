@@ -1,5 +1,5 @@
 ---
-title: "Find deprecated Kubernetes APIs before cluster upgrades with kubent"
+name: "Find deprecated Kubernetes APIs before cluster upgrades with kubent"
 slug: "find-deprecated-kubernetes-apis-before-cluster-upgrades-with-kubent"
 description: "Scan manifests and live clusters for removed or deprecated Kubernetes APIs before an upgrade window turns into an outage."
 github_stars: 3658

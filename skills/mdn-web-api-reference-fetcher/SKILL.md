@@ -1,5 +1,5 @@
 ---
-title: "MDN Web API Reference Fetcher"
+name: "MDN Web API Reference Fetcher"
 slug: "mdn-web-api-reference-fetcher"
 description: "Fetches and indexes Mozilla Developer Network Web API documentation using the MDN Yari content API. Provides structured API signatures, browser compatibility data from BCD, and code examples."
 verification: "security_reviewed"

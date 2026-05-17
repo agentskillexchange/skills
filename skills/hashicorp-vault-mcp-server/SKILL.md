@@ -1,5 +1,5 @@
 ---
-title: "HashiCorp Vault MCP Server"
+name: "HashiCorp Vault MCP Server"
 slug: "hashicorp-vault-mcp-server"
 description: "The official HashiCorp Vault MCP server lets AI assistants read, write, list, and delete secrets in Vault's KV engine through a safe, auditable MCP interface. Supports both stdio and HTTP transports, TLS encryption, and CORS controls."
 github_stars: 47

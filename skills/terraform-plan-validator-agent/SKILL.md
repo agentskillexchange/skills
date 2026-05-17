@@ -1,5 +1,5 @@
 ---
-title: "Terraform Plan Validator Agent"
+name: "Terraform Plan Validator Agent"
 slug: "terraform-plan-validator-agent"
 description: "Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost anomalies, and compliance violations before apply."
 github_stars: 48146

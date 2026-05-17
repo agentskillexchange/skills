@@ -1,5 +1,5 @@
 ---
-title: "Playwright Accessibility Audit Runner"
+name: "Playwright Accessibility Audit Runner"
 slug: "playwright-accessibility-audit-runner"
 description: "Runs automated WCAG 2.1 AA/AAA accessibility audits using Playwright with axe-core integration. Generates detailed violation reports with CSS selectors, ARIA role analysis, and remediation suggestions."
 github_stars: 86409

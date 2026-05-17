@@ -1,5 +1,5 @@
 ---
-title: "Scan agentic codebases for exposed tools MCP usage and mapped security findings with Agentic Radar"
+name: "Scan agentic codebases for exposed tools MCP usage and mapped security findings with Agentic Radar"
 slug: "scan-agentic-codebases-for-exposed-tools-mcp-usage-and-mapped-security-findings-with-agentic-radar"
 description: "Generate a reviewable security report for a supported agent workflow before deployment by scanning its code, tools, MCP usage, and known vulnerability surface."
 github_stars: 953

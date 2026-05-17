@@ -1,5 +1,5 @@
 ---
-title: "Grafana Loki Log Aggregation Agent"
+name: "Grafana Loki Log Aggregation Agent"
 slug: "grafana-loki-log-aggregation-agent"
 description: "Configures Grafana Loki log pipelines with Promtail collectors and LogQL queries. Supports multi-tenant log routing, retention policies, and correlation with Grafana Tempo traces."
 github_stars: 27993
