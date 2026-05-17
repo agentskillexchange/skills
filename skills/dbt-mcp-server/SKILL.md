@@ -2,14 +2,14 @@
 title: "dbt MCP Server"
 slug: "dbt-mcp-server"
 description: ""
-github_stars: 12775
+github_stars: 12797
 verification: "security_reviewed"
 source: "https://github.com/dbt-labs/dbt-core"
 category: "Data Extraction & Transformation"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "dbt-labs/dbt-core"
-  github_stars: 12775
+  github_stars: 12797
 ---
 
 # dbt MCP Server

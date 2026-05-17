@@ -2,7 +2,7 @@
 title: "Metrics Dashboard Builder"
 slug: "metrics-dashboard-builder"
 description: ""
-github_stars: 102
+github_stars: 103
 verification: "security_reviewed"
 source: "https://github.com/DataDog/datadog-api-client-typescript"
 author: "Datadog"
@@ -10,9 +10,9 @@ category: "Monitoring & Alerts"
 framework: "Claude Agents"
 tool_ecosystem:
   github_repo: "datadog/datadog-api-client-typescript"
-  github_stars: 102
+  github_stars: 103
   npm_package: "@datadog/datadog-api-client"
-  npm_weekly_downloads: 1843728
+  npm_weekly_downloads: 1942503
 ---
 
 # Metrics Dashboard Builder

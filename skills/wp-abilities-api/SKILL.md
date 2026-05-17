@@ -2,7 +2,7 @@
 title: "WP Abilities API"
 slug: "wp-abilities-api"
 description: "Specialized support for defining, exposing, and debugging WordPress abilities through the Abilities API."
-github_stars: 209
+github_stars: 210
 verification: "security_reviewed"
 source: "https://github.com/WordPress/abilities-api"
 author: "WordPress"
@@ -11,7 +11,7 @@ category: "WordPress & CMS"
 framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "wordpress/abilities-api"
-  github_stars: 209
+  github_stars: 210
 ---
 
 # WP Abilities API

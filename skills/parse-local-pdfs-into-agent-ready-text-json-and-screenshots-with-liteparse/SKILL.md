@@ -3,7 +3,7 @@ title: "Parse local PDFs into agent-ready text, JSON, and screenshots with LiteP
 slug: "parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse"
 description: "Run LiteParse locally to extract PDF text, spatial JSON, OCR-backed output, and page screenshots before sending documents into an agent workflow."
 github_stars: 5136
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/run-llama/liteparse"
 author: "LlamaIndex"
 publisher_type: "organization"
