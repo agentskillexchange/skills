@@ -2,7 +2,6 @@
 
 Property research support, transaction paperwork, signature routing, document intake, CRM context, and listing follow-up workflows for real-estate operations.
 
-- Launch stage: **Wave 4**
 - Live page: https://agentskillexchange.com/industry-skills/#real-estate-workflows
 - Homepage access: Curated Collections on https://agentskillexchange.com/
 
@@ -21,12 +20,7 @@ Property research support, transaction paperwork, signature routing, document in
 | [Research real estate properties with RAG-backed market analysis](../skills/rag-backed-real-estate-property-research/) | Research & Scraping | 170 | — |
 | [Retrieve Zillow-style property details and market trends through an MCP server](../skills/retrieve-zillow-style-property-details-and-market-trends-through-an-mcp-server/) | Integrations & Connectors | 40 | — |
 | [Connect MCP agents to BatchData property and address APIs](../skills/connect-mcp-agents-to-batchdata-property-and-address-apis/) | Integrations & Connectors | 30 | — |
-
-## Backup Picks
-
-| Skill | Why keep it nearby |
-|---|---|
-| [Normalize vCard contact exports into structured contact records before CRM imports or dedup jobs](../skills/normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs/) | Useful alternate or overflow pick for this collection. |
+| [Normalize vCard contact exports into structured contact records before CRM imports or dedup jobs](../skills/normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs/) | Integrations & Connectors | 50 | — |
 
 ## Editorial Caution
 

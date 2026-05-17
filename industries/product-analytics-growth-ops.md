@@ -2,7 +2,6 @@
 
 Product analytics, feature flags, rollout checks, session replay, privacy-friendly web analytics, and experiment/evaluation workflows.
 
-- Launch stage: **Wave 3**
 - Live page: https://agentskillexchange.com/industry-skills/#product-analytics-growth-ops
 - Homepage access: Curated Collections on https://agentskillexchange.com/
 
@@ -18,13 +17,8 @@ Product analytics, feature flags, rollout checks, session replay, privacy-friend
 | [Plausible Analytics Privacy-First Web Analytics Platform](../skills/plausible-analytics-privacy-first-web-analytics/) | Monitoring & Alerts | 24.5k | — |
 | [Umami Privacy-Focused Web Analytics Platform](../skills/umami-privacy-focused-web-analytics/) | Monitoring & Alerts | 35.9k | — |
 | [Metabase Open Source Business Intelligence and Embedded Analytics](../skills/metabase-open-source-business-intelligence-and-embedded-analytics/) | Data Extraction & Transformation | 46.8k | 15/wk |
-
-## Backup Picks
-
-| Skill | Why keep it nearby |
-|---|---|
-| [DuckDB SQL Analytics Agent](../skills/duckdb-sql-analytics-agent/) | Useful alternate or overflow pick for this collection. |
-| [Evidence BI-as-Code SQL and Markdown Analytics Framework](../skills/evidence-bi-as-code-sql-markdown-analytics/) | Useful alternate or overflow pick for this collection. |
+| [DuckDB SQL Analytics Agent](../skills/duckdb-sql-analytics-agent/) | Data Extraction & Transformation | 37.1k | — |
+| [Evidence BI-as-Code SQL and Markdown Analytics Framework](../skills/evidence-bi-as-code-sql-markdown-analytics/) | Data Extraction & Transformation | 6.1k | — |
 
 ## Editorial Caution
 

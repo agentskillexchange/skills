@@ -2,7 +2,6 @@
 
 Transcription, subtitles, podcast workflows, chaptering, localization, loudness cleanup, and final-mile publishing prep.
 
-- Launch stage: **Wave 1**
 - Live page: https://agentskillexchange.com/industry-skills/#media-publishing-systems
 - Homepage access: Curated Collections on https://agentskillexchange.com/
 
@@ -17,12 +16,6 @@ Transcription, subtitles, podcast workflows, chaptering, localization, loudness 
 | [Normalize loudness across podcast, lesson, or video batches before publishing](../skills/normalize-loudness-across-podcast-lesson-or-video-batches-before-publishing/) | Media & Transcription | 1.5k | — |
 | [WhisperX Speech Recognition with Word-Level Timestamps and Diarization](../skills/whisperx-speech-recognition-timestamps-diarization/) | Media & Transcription | 21k | — |
 | [Capture YouTube transcripts without browser automation using YouTube Transcript API](../skills/capture-youtube-transcripts-without-browser-automation-using-youtube-transcript-api/) | Media & Transcription | 7.4k | — |
-
-## Backup Picks
-
-| Skill | Why keep it nearby |
-|---|---|
-| [Audiobookshelf Self-Hosted Audiobook and Podcast Server API](../skills/audiobookshelf-self-hosted-audiobook-podcast-server-api/) | Useful alternate or overflow pick for this collection. |
 
 ## Editorial Caution
 

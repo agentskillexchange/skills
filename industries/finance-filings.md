@@ -2,7 +2,6 @@
 
 Filings research, invoice intake, billing operations, reconciliation, and finance-adjacent reporting.
 
-- Launch stage: **Wave 1**
 - Live page: https://agentskillexchange.com/industry-skills/#finance-filings
 - Homepage access: Curated Collections on https://agentskillexchange.com/
 

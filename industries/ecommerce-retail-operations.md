@@ -2,7 +2,6 @@
 
 Catalog management, storefront automation, orders, inventory sync, marketplace support, and review-driven merchandising.
 
-- Launch stage: **Wave 1**
 - Live page: https://agentskillexchange.com/industry-skills/#ecommerce-retail-operations
 - Homepage access: Curated Collections on https://agentskillexchange.com/
 

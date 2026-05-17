@@ -2,7 +2,6 @@
 
 Documentation intake, OCR, transcription, structured extraction, and biomedical literature support for paperwork-heavy workflows.
 
-- Launch stage: **Wave 2**
 - Live page: https://agentskillexchange.com/industry-skills/#healthcare-documentation-intake
 - Homepage access: Curated Collections on https://agentskillexchange.com/
 

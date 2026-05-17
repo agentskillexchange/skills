@@ -2,7 +2,6 @@
 
 API docs, OpenAPI references, SDK generation, docs-site publishing, prose linting, and developer enablement workflows.
 
-- Launch stage: **Wave 3**
 - Live page: https://agentskillexchange.com/industry-skills/#devrel-api-documentation
 - Homepage access: Curated Collections on https://agentskillexchange.com/
 

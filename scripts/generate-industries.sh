@@ -53,19 +53,6 @@ def downloads_str(n):
     return f"{fmt_num(n)}/wk" if n else "—"
 
 
-def stage_label(raw):
-    raw = (raw or "planned").strip().lower()
-    mapping = {
-        "wave-1": "Wave 1",
-        "wave-2": "Wave 2",
-        "wave-3": "Wave 3",
-        "wave-4": "Wave 4",
-        "pilot": "Pilot",
-        "planned": "Planned",
-    }
-    return mapping.get(raw, raw.replace("-", " ").title())
-
-
 manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
 collections = manifest.get("collections", [])
 if not collections:
@@ -98,37 +85,32 @@ index_lines = [
     "",
     "> Curated editorial overlays for real workflow clusters. These are intentionally not a replacement for categories.",
     "",
-    "| | Collection | Stage | Picks | Summary |",
-    "|---|---|---|---:|---|",
+    "| | Collection | Picks | Summary |",
+    "|---|---|---:|---|",
 ]
 
 for collection in collections:
     slug = collection["slug"]
     title = collection["title"]
     description = collection["description"]
-    stage = collection.get("launch_stage", "planned")
-    stage_text = stage_label(stage)
     skill_slugs = collection.get("skill_slugs", [])
-    backup_slugs = collection.get("backup_skill_slugs", [])
     emoji = EMOJI.get(slug, "📦")
 
-    missing_repo = [s for s in skill_slugs + backup_slugs if not (REPO_DIR / "skills" / s / "SKILL.md").exists()]
+    missing_repo = [s for s in skill_slugs if not (REPO_DIR / "skills" / s / "SKILL.md").exists()]
     if missing_repo:
         raise SystemExit(f"Missing skill files for collection {slug}: {', '.join(missing_repo)}")
 
-    missing_browse = [s for s in skill_slugs + backup_slugs if s not in by_slug]
+    missing_browse = [s for s in skill_slugs if s not in by_slug]
     if missing_browse:
         raise SystemExit(f"Missing browse records for collection {slug}: {', '.join(missing_browse)}")
 
     picks = [by_slug[s] for s in skill_slugs]
-    backups = [by_slug[s] for s in backup_slugs]
 
     lines = [
         f"# {emoji} {title}",
         "",
         description,
         "",
-        f"- Launch stage: **{stage_text}**",
         f"- Live page: {SITE_BASE}/industry-skills/#{slug}",
         f"- Homepage access: Curated Collections on {SITE_BASE}/",
         "",
@@ -143,16 +125,6 @@ for collection in collections:
         downloads = downloads_str(item.get("npm_downloads") or 0)
         lines.append(f"| [{item['title']}](../skills/{item['slug']}/) | {category} | {stars} | {downloads} |")
 
-    if backups:
-        lines += [
-            "",
-            "## Backup Picks",
-            "",
-            "| Skill | Why keep it nearby |",
-            "|---|---|",
-        ]
-        for item in backups:
-            lines.append(f"| [{item['title']}](../skills/{item['slug']}/) | Useful alternate or overflow pick for this collection. |")
 
     caution = collection.get("editorial_caution")
     if caution:
@@ -172,7 +144,7 @@ for collection in collections:
     ]
 
     (INDUSTRIES_DIR / f"{slug}.md").write_text("\n".join(lines), encoding="utf-8")
-    index_lines.append(f"| {emoji} | [**{title}**]({slug}.md) | {stage_text} | {len(skill_slugs)} | {description} |")
+    index_lines.append(f"| {emoji} | [**{title}**]({slug}.md) | {len(skill_slugs)} | {description} |")
 
 index_lines += [
     "",

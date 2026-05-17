@@ -2,7 +2,6 @@
 
 Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, customer context, CRM sync, and reply-drafting support.
 
-- Launch stage: **Wave 4**
 - Live page: https://agentskillexchange.com/industry-skills/#customer-support-success
 - Homepage access: Curated Collections on https://agentskillexchange.com/
 
@@ -22,13 +21,8 @@ Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, c
 | [Triage support tickets and draft customer replies with Claude Code support skills](../skills/triage-support-tickets-and-draft-customer-replies-with-claude-code-support-skills/) | Templates & Workflows | 87 | — |
 | [Let MCP agents inspect and update Freshdesk tickets safely](../skills/let-mcp-agents-inspect-and-update-freshdesk-tickets-safely/) | Integrations & Connectors | 59 | — |
 | [Inspect Freshservice service-management tickets and modules through MCP](../skills/inspect-freshservice-service-management-tickets-and-modules-through-mcp/) | Integrations & Connectors | 31 | — |
-
-## Backup Picks
-
-| Skill | Why keep it nearby |
-|---|---|
-| [Normalize vCard contact exports into structured contact records before CRM imports or dedup jobs](../skills/normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs/) | Useful alternate or overflow pick for this collection. |
-| [Normalize international phone numbers into E.164 before CRM imports or messaging workflows](../skills/normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows/) | Useful alternate or overflow pick for this collection. |
+| [Normalize vCard contact exports into structured contact records before CRM imports or dedup jobs](../skills/normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs/) | Integrations & Connectors | 50 | — |
+| [Normalize international phone numbers into E.164 before CRM imports or messaging workflows](../skills/normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows/) | Integrations & Connectors | — | 15.6M/wk |
 
 ## Editorial Caution
 

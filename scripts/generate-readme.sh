@@ -64,15 +64,6 @@ INDUSTRY_EMOJI = {
     "customer-support-success": "🎧",
     "real-estate-workflows": "🏠",
 }
-INDUSTRY_STAGE = {
-    "wave-1": "Wave 1",
-    "wave-2": "Wave 2",
-    "wave-3": "Wave 3",
-    "wave-4": "Wave 4",
-    "pilot": "Pilot",
-    "planned": "Planned",
-}
-
 def fetch_json(url):
     req = urllib.request.Request(url, headers={"User-Agent": "ASE Repo Generator"})
     with urllib.request.urlopen(req, timeout=60) as resp:
@@ -254,8 +245,7 @@ if industry_collections:
         emoji = INDUSTRY_EMOJI.get(slug, "📦")
         title = clean_text(collection.get("title"))
         description = clean_text(collection.get("description"))
-        stage = INDUSTRY_STAGE.get(str(collection.get("launch_stage") or "planned").lower(), "Planned")
-        lines.append(f"| {emoji} | [**{title}**](industries/{slug}.md) | {description} _({stage})_ |")
+        lines.append(f"| {emoji} | [**{title}**](industries/{slug}.md) | {description} |")
     lines.append("")
     lines.append("See the full overlay index in [industries/README.md](industries/README.md).")
     lines.append("")

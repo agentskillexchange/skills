@@ -14,9 +14,6 @@
         "normalize-loudness-across-podcast-lesson-or-video-batches-before-publishing",
         "whisperx-speech-recognition-timestamps-diarization",
         "capture-youtube-transcripts-without-browser-automation-using-youtube-transcript-api"
-      ],
-      "backup_skill_slugs": [
-        "audiobookshelf-self-hosted-audiobook-podcast-server-api"
       ]
     },
     {
@@ -30,8 +27,7 @@
         "extract-invoice-fields-from-vendor-pdfs-into-structured-records",
         "ghostfolio-wealth-management-portfolio-tracking",
         "openmeter-usage-metering-and-billing-platform"
-      ],
-      "backup_skill_slugs": []
+      ]
     },
     {
       "slug": "ecommerce-retail-operations",
@@ -47,8 +43,7 @@
         "stripe-connect-marketplace-sync",
         "woocommerce-webhook-delivery-inspector",
         "run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp"
-      ],
-      "backup_skill_slugs": []
+      ]
     },
     {
       "slug": "legal-ops-compliance",
@@ -65,13 +60,10 @@
         "paperless-ngx-document-ocr-archive-management-system",
         "langextract-llm-structured-text-extraction",
         "search-large-pdfs-and-read-only-the-relevant-pages-before-answering",
-        "process-redact-ocr-and-sign-documents-with-nutrient-agent-skill"
-      ],
-      "backup_skill_slugs": [
-        "revise-pdf-slides-with-natural-language-edits",
+        "process-redact-ocr-and-sign-documents-with-nutrient-agent-skill",
+        "convert-dense-pdfs-into-llm-ready-text-and-page-aligned-markdown-with-olmocr",
         "enrich-paperless-ngx-documents-with-ai-generated-titles-tags-and-correspondents-using-paperless-gpt",
-        "capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate",
-        "convert-dense-pdfs-into-llm-ready-text-and-page-aligned-markdown-with-olmocr"
+        "capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate"
       ]
     },
     {
@@ -88,8 +80,7 @@
         "docuseal-document-signing-pdf-forms",
         "pdfplumber-python-pdf-text-table-extraction",
         "expose-fhir-healthcare-data-resources-to-mcp-agents-with-review-boundaries"
-      ],
-      "backup_skill_slugs": []
+      ]
     },
     {
       "slug": "product-analytics-growth-ops",
@@ -105,9 +96,7 @@
         "openreplay-self-hosted-session-replay-analytics",
         "plausible-analytics-privacy-first-web-analytics",
         "umami-privacy-focused-web-analytics",
-        "metabase-open-source-business-intelligence-and-embedded-analytics"
-      ],
-      "backup_skill_slugs": [
+        "metabase-open-source-business-intelligence-and-embedded-analytics",
         "duckdb-sql-analytics-agent",
         "evidence-bi-as-code-sql-markdown-analytics"
       ]
@@ -128,8 +117,7 @@
         "vale-prose-linter-technical-docs",
         "orval-openapi-client-regeneration-skill-typed-sdks",
         "spectral-openapi-asyncapi-linter"
-      ],
-      "backup_skill_slugs": []
+      ]
     },
     {
       "slug": "customer-support-success",
@@ -149,9 +137,7 @@
         "connect-mcp-agents-to-zendesk-ticket-and-help-center-workflows",
         "triage-support-tickets-and-draft-customer-replies-with-claude-code-support-skills",
         "let-mcp-agents-inspect-and-update-freshdesk-tickets-safely",
-        "inspect-freshservice-service-management-tickets-and-modules-through-mcp"
-      ],
-      "backup_skill_slugs": [
+        "inspect-freshservice-service-management-tickets-and-modules-through-mcp",
         "normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs",
         "normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows"
       ],
@@ -179,9 +165,7 @@
         "twenty-open-source-crm-salesforce-alternative",
         "rag-backed-real-estate-property-research",
         "retrieve-zillow-style-property-details-and-market-trends-through-an-mcp-server",
-        "connect-mcp-agents-to-batchdata-property-and-address-apis"
-      ],
-      "backup_skill_slugs": [
+        "connect-mcp-agents-to-batchdata-property-and-address-apis",
         "normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs"
       ],
       "discovery_candidates": [
