@@ -1,13 +1,29 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-05-17
-# Total: 2469 skills
+# Total: 2471 skills
+
+## Install Superpowers methodology for coding agents
+slug: install-superpowers-methodology-for-coding-agents
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Published
+description: Use Superpowers to give coding agents a structured software-development method with discovery, spec review, planning, TDD, subagents, and review loops.
+url: https://agentskillexchange.com/skills/install-superpowers-methodology-for-coding-agents/
+
+## Automate ML research loops with ARIS skills
+slug: automate-ml-research-loops-with-aris-skills
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Published
+description: Use ARIS to run Markdown-based agent skills for literature review, idea discovery, cross-model critique, experiment planning, and paper-writing support.
+url: https://agentskillexchange.com/skills/automate-ml-research-loops-with-aris-skills/
 
 ## Parse local PDFs into agent-ready text, JSON, and screenshots with LiteParse
 slug: parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run LiteParse locally to extract PDF text, spatial JSON, OCR-backed output, and page screenshots before sending documents into an agent workflow.
 url: https://agentskillexchange.com/skills/parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse/
 

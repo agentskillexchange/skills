@@ -20,7 +20,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 12 | [GraphQL Data Federation Agent](skills/graphql-data-federation-agent/) | 34.2M/wk | graphql | Data Extraction & Transformation |
 | 13 | [SVGO SVG Optimization Tool](skills/svgo-svg-optimization-tool/) | 28.7M/wk | svgo | Image & Creative Automation |
 | 14 | [PostgreSQL Diagnostic Analyzer](skills/postgresql-diagnostic-analyzer/) | 23.2M/wk | postgresql | Runbooks & Diagnostics |
-| 15 | [OpenAI Image Gen](skills/openai-image-gen/) | 19.7M/wk | openai | Image & Creative Automation |
+| 15 | [OpenAI Image Gen](skills/openai-image-gen/) | 21.5M/wk | openai | Image & Creative Automation |
 | 16 | [Cheerio DOM Extraction Pipeline](skills/cheerio-dom-extraction-pipeline/) | 19.6M/wk | cheerio | Data Extraction & Transformation |
 | 17 | [Normalize international phone numbers into E.164 before CRM imports or messaging workflows](skills/normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows/) | 15.6M/wk | libphonenumber-js | Integrations & Connectors |
 | 18 | [Storybook Component Tester](skills/storybook-component-tester/) | 13.7M/wk | storybook | Code Quality & Review |
@@ -52,8 +52,8 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 44 | [Pulumi Drift Detector &amp; Reconciler](skills/pulumi-drift-detector-reconciler/) | 2.1M/wk | pulumi | Runbooks & Diagnostics |
 | 45 | [LangChain MCP Server](skills/langchain-mcp-server/) | 2M/wk | langchain | Developer Tools |
 | 46 | [Astro Content-Driven Web Framework](skills/astro-content-driven-web-framework/) | 2M/wk | astro | Developer Tools |
-| 47 | [Selenium Grid Auto-Scaling Orchestrator](skills/selenium-grid-auto-scaling-orchestrator/) | 1.9M/wk | selenium | Browser Automation |
-| 48 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 1.8M/wk | datadog-api-client-typescript | Monitoring & Alerts |
+| 47 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 1.9M/wk | datadog-api-client-typescript | Monitoring & Alerts |
+| 48 | [Selenium Grid Auto-Scaling Orchestrator](skills/selenium-grid-auto-scaling-orchestrator/) | 1.9M/wk | selenium | Browser Automation |
 | 49 | [zx JavaScript Shell Script Runner](skills/zx-javascript-shell-script-runner/) | 1.7M/wk | zx | Developer Tools |
 | 50 | [Lefthook Git Hooks Manager](skills/lefthook-git-hooks-manager/) | 1.6M/wk | lefthook | Developer Tools |
 

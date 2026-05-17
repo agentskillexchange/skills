@@ -2,15 +2,31 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-05-17",
-  "total": 2469,
+  "total": 2471,
   "skills": [
+    {
+      "slug": "install-superpowers-methodology-for-coding-agents",
+      "title": "Install Superpowers methodology for coding agents",
+      "description": "Use Superpowers to give coding agents a structured software-development method with discovery, spec review, planning, TDD, subagents, and review loops.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
+    {
+      "slug": "automate-ml-research-loops-with-aris-skills",
+      "title": "Automate ML research loops with ARIS skills",
+      "description": "Use ARIS to run Markdown-based agent skills for literature review, idea discovery, cross-model critique, experiment planning, and paper-writing support.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
     {
       "slug": "parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse",
       "title": "Parse local PDFs into agent-ready text, JSON, and screenshots with LiteParse",
       "description": "Run LiteParse locally to extract PDF text, spatial JSON, OCR-backed output, and page screenshots before sending documents into an agent workflow.",
       "category": "Data Extraction & Transformation",
       "framework": "Multi-Framework",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "manage-native-github-stacked-pull-requests-with-gh-stack",

@@ -231,7 +231,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Enforce policy-gated and auditable agent execution with LACP](../../skills/enforce-policy-gated-and-auditable-agent-execution-with-lacp/) | 211 | — |
 | [Lint and autofix agent config files before broken prompts, hooks, or MCP settings derail runs with agnix](../../skills/lint-and-autofix-agent-config-files-before-broken-prompts-hooks-or-mcp-settings-derail-runs-with-agnix/) | 179 | 6k/wk |
 | [Gitxray GitHub Repository Security X-Ray](../../skills/gitxray-github-repository-security-xray/) | 174 | — |
-| [Sentry for AI](../../skills/sentry-for-ai/) | 173 | — |
+| [Sentry for AI](../../skills/sentry-for-ai/) | 174 | — |
 | [Run coding agents in a locked-down local sandbox with repo-only filesystem access and controlled egress using agent-sandbox](../../skills/run-coding-agents-in-a-locked-down-local-sandbox-with-repo-only-filesystem-access-and-controlled-egress-using-agent-sandbox/) | 163 | — |
 | [Wrap local coding agents in deny-by-default least-privilege sandboxes with Greywall](../../skills/wrap-local-coding-agents-in-deny-by-default-least-privilege-sandboxes-with-greywall/) | 158 | — |
 | [Statically scan agent repos for prompt injection and unsafe MCP configs with Agent Audit](../../skills/statically-scan-agent-repos-for-prompt-injection-and-unsafe-mcp-configs-with-agent-audit/) | 149 | — |

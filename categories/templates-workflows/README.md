@@ -6,6 +6,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 
 | Skill | Stars |
 |---|---:|
+| [Install Superpowers methodology for coding agents](../../skills/install-superpowers-methodology-for-coding-agents/) | ⭐ 194.6k |
 | [Run continuous workflow agents with AutoGPT](../../skills/run-continuous-workflow-agents-with-autogpt/) | ⭐ 184k |
 | [Langflow Visual AI Agent and Workflow Builder](../../skills/langflow-visual-ai-agent-workflow-builder/) | ⭐ 146.8k |
 | [Run a self-improving personal agent with Hermes Agent](../../skills/run-a-self-improving-personal-agent-with-hermes-agent/) | ⭐ 135.2k |
@@ -15,7 +16,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue](../../skills/triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue/) | ⭐ 116.8k |
 | [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms-2/) | ⭐ 116.2k |
 | [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms/) | ⭐ 116.2k |
-| [Scaffold and bundle rich single-file web artifacts with React, Tailwind, and shadcn/ui](../../skills/scaffold-and-bundle-rich-single-file-web-artifacts-with-react-tailwind-and-shadcn-ui/) | ⭐ 116.2k |
 
 ---
 
@@ -40,6 +40,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
+| [Install Superpowers methodology for coding agents](../../skills/install-superpowers-methodology-for-coding-agents/) | 194.6k | — |
 | [Run continuous workflow agents with AutoGPT](../../skills/run-continuous-workflow-agents-with-autogpt/) | 184k | — |
 | [Langflow Visual AI Agent and Workflow Builder](../../skills/langflow-visual-ai-agent-workflow-builder/) | 146.8k | — |
 | [Run a self-improving personal agent with Hermes Agent](../../skills/run-a-self-improving-personal-agent-with-hermes-agent/) | 135.2k | — |
@@ -116,6 +117,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [SonarQube Gate Checker](../../skills/sonarqube-gate-checker-2/) | 10.4k | — |
 | [Yeoman Scaffold Runner](../../skills/yeoman-scaffold-runner/) | 10.1k | — |
 | [Build and trace multi-agent workflows with Microsoft Agent Framework](../../skills/build-and-trace-multi-agent-workflows-with-microsoft-agent-framework/) | 10.1k | — |
+| [Automate ML research loops with ARIS skills](../../skills/automate-ml-research-loops-with-aris-skills/) | 9.6k | — |
 | [Compose router, evaluator, and handoff workflows over MCP servers with mcp-agent](../../skills/compose-router-evaluator-and-handoff-workflows-over-mcp-servers-with-mcp-agent/) | 8.3k | 29.2k/wk |
 | [Coordinate issue-backed parallel coding worktrees with CCPM](../../skills/coordinate-issue-backed-parallel-coding-worktrees-with-ccpm/) | 8k | — |
 | [Plop.js Code Generator](../../skills/plopjs-code-generator/) | 7.6k | 1.6M/wk |
@@ -173,7 +175,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Run ticket queues through unattended coding-agent batches and escalate only on blockers with Codex Autorunner](../../skills/run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner/) | 670 | — |
 | [Govern agent skills, MCP servers, prompts, and tool calls with DefenseClaw](../../skills/govern-agent-skills-mcp-servers-prompts-and-tool-calls-with-defenseclaw/) | 647 | — |
 | [Sync dbt schema YAML and inherited column metadata before docs drift accumulates with dbt-osmosis](../../skills/sync-dbt-schema-yaml-and-inherited-column-metadata-before-docs-drift-accumulates-with-dbt-osmosis/) | 622 | — |
-| [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | 609 | — |
+| [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | 611 | — |
 | [Keep GitHub wiki pages synced with recently merged code changes](../../skills/keep-github-wiki-pages-synced-with-recently-merged-code-changes/) | 585 | — |
 | [Review open pull requests against repository contribution guidelines](../../skills/review-open-pull-requests-against-repository-contribution-guidelines/) | 585 | — |
 | [Extract translation keys from code and maintain locale catalogs with i18next-parser](../../skills/extract-translation-keys-from-code-and-maintain-locale-catalogs-i18next-parser/) | 556 | — |
