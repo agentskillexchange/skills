@@ -208,7 +208,7 @@ replay attacks and forged events. Supports both test and live mode keys.
 ## Installation
 
 ```bash
-npx skills add agentskillexchange/skills --skill stripe-webhook-signature-verifier
+clawhub install stripe-webhook-signature-verifier
 ```
 ~~~
 

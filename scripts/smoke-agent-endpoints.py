@@ -92,6 +92,8 @@ def main():
     passed = sum(results)
     total  = len(results)
     print(f"\nEndpoint smoke: {passed}/{total} passed.")
+    if all(results):
+        print("PASS — ASE agent endpoints healthy: skills.json, openclaw.json, codex.json, llms.txt")
     sys.exit(0 if all(results) else 1)
 
 

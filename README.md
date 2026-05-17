@@ -28,16 +28,20 @@ Every skill is backed by a real upstream project — a GitHub repo, npm package,
 ## Quick Start
 
 ```bash
-# Install any skill
-npx skills add agentskillexchange/skills --skill <slug>
-
-# For a specific agent
-npx skills add agentskillexchange/skills --skill <slug> -a claude-code
-npx skills add agentskillexchange/skills --skill <slug> -a cursor
-npx skills add agentskillexchange/skills --skill <slug> -a codex
-
-# OpenClaw
+# OpenClaw native install
 clawhub install <slug>
+
+# Manual install for other agents
+git clone https://github.com/agentskillexchange/skills.git
+cp -R skills/skills/<slug> ~/.agent-skills/<slug>
+```
+
+### Optional Third-Party Installer
+
+The `skills` npm package is maintained by Vercel Labs / third parties, not AgentSkillExchange. If you choose to use it, pin the package version:
+
+```bash
+npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill <slug>
 ```
 
 ---
@@ -149,17 +153,19 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 }
 ```
 
-### npx CLI
+### Optional Third-Party Installer
+
+The `skills` npm package is maintained by Vercel Labs / third parties, not AgentSkillExchange. If you choose to use it, pin the package version:
 
 ```bash
 # List all skills
-npx skills add agentskillexchange/skills --list
+npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --list
 
 # Search
-npx skills add agentskillexchange/skills --search kubernetes
+npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --search kubernetes
 
 # Install
-npx skills add agentskillexchange/skills --skill <slug> -a <agent>
+npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill <slug> -a <agent>
 ```
 
 ---

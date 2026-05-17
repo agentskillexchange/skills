@@ -115,22 +115,25 @@ Description of what this skill does...
 
 ## Installation
 
-### Any Agent
-
-\`\`\`bash
-npx skills add agentskillexchange/skills --skill my-skill-name
-\`\`\`
-
-### Claude Code
-
-\`\`\`bash
-npx skills add agentskillexchange/skills --skill my-skill-name -a claude-code
-\`\`\`
-
 ### OpenClaw
 
 \`\`\`bash
 clawhub install my-skill-name
+\`\`\`
+
+### Direct repo/manual install
+
+\`\`\`bash
+git clone https://github.com/agentskillexchange/skills.git
+cp -R skills/skills/my-skill-name ~/.agent-skills/my-skill-name
+\`\`\`
+
+### Optional Third-Party Installer
+
+The `skills` npm package is maintained by Vercel Labs / third parties, not AgentSkillExchange. If you choose to use it, pin the package version:
+
+\`\`\`bash
+npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill my-skill-name
 \`\`\`
 ```
 

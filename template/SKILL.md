@@ -16,32 +16,26 @@ Explain the problem it solves and who benefits from it.
 
 ## Installation
 
-### Any Agent
-
-```bash
-npx skills add agentskillexchange/skills --skill your-skill-slug
-```
-
-### Claude Code
-
-```bash
-npx skills add agentskillexchange/skills --skill your-skill-slug -a claude-code
-```
-
-### Cursor
-
-```bash
-npx skills add agentskillexchange/skills --skill your-skill-slug -a cursor
-```
-
-### Codex
-
-```bash
-npx skills add agentskillexchange/skills --skill your-skill-slug -a codex
-```
-
 ### OpenClaw
 
 ```bash
 clawhub install your-skill-slug
 ```
+
+### Direct repo/manual install
+
+Clone the Agent Skill Exchange repository and copy this skill directory into the skill folder used by your agent runtime:
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git
+cp -R skills/skills/your-skill-slug ~/.agent-skills/your-skill-slug
+```
+
+### Optional Third-Party Installer
+
+The `skills` npm package is maintained by Vercel Labs / third parties, not AgentSkillExchange. If you choose to use it, pin the package version:
+
+```bash
+npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill your-skill-slug
+```
+

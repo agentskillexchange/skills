@@ -34,6 +34,9 @@ bash "$SCRIPT_DIR/generate-agent-files.sh" "$REPO_DIR"
 echo "=== Generating public agent endpoints ==="
 python3 "$SCRIPT_DIR/generate-agent-endpoints.py" "$REPO_DIR"
 
+echo "=== Checking install command safety ==="
+python3 "$SCRIPT_DIR/check-install-commands.py" "$REPO_DIR"
+
 echo "=== Writing sync metadata ==="
 python3 "$SCRIPT_DIR/write-sync-metadata.py" "$REPO_DIR"
 
