@@ -1,9 +1,17 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-05-16",
-  "total": 2468,
+  "generated": "2026-05-17",
+  "total": 2469,
   "skills": [
+    {
+      "slug": "parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse",
+      "title": "Parse local PDFs into agent-ready text, JSON, and screenshots with LiteParse",
+      "description": "Run LiteParse locally to extract PDF text, spatial JSON, OCR-backed output, and page screenshots before sending documents into an agent workflow.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
     {
       "slug": "manage-native-github-stacked-pull-requests-with-gh-stack",
       "title": "Manage native GitHub stacked pull requests with gh-stack",

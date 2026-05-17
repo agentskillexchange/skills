@@ -31,8 +31,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [GraphQL Data Federation Agent](../../skills/graphql-data-federation-agent/) | ⬇ 34.2M/wk |
 | [GraphQL Schema Introspection Mapper](../../skills/graphql-schema-introspection-mapper/) | ⬇ 34.2M/wk |
 | [CSV Schema Validator &#038; Auto-Fixer](../../skills/csv-schema-validator-auto-fixer/) | ⬇ 291.1M/wk |
+| [Parse local PDFs into agent-ready text, JSON, and screenshots with LiteParse](../../skills/parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse/) | ⬇ 37k/wk |
 | [Stripe Revenue Analytics Dashboard Builder](../../skills/stripe-revenue-analytics-dashboard/) | ⬇ 9.3M/wk |
-| [Apache Kafka Schema Registry Extractor](../../skills/kafka-schema-registry-extractor/) | ⬇ 2.5M/wk |
 
 ---
 
@@ -139,6 +139,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Evidence BI-as-Code SQL and Markdown Analytics Framework](../../skills/evidence-bi-as-code-sql-markdown-analytics/) | 6.1k | — |
 | [jnv Interactive JSON Navigator and jq Filter Editor](../../skills/jnv-interactive-json-navigator/) | 6k | — |
 | [dlt Python Data Load Tool](../../skills/dlt-python-data-load-tool/) | 5.2k | — |
+| [Parse local PDFs into agent-ready text, JSON, and screenshots with LiteParse](../../skills/parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse/) | 5.1k | 37k/wk |
 | [ExifTool Metadata Reader and Writer for Images and Files](../../skills/exiftool-metadata-reader-writer-images-files/) | 4.6k | — |
 | [franc Natural Language Detection Library and CLI](../../skills/franc-natural-language-detection/) | 4.4k | — |
 | [Stripe Revenue Analytics Dashboard Builder](../../skills/stripe-revenue-analytics-dashboard/) | 4.4k | 9.3M/wk |

@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-05-16
-# Total: 2468 skills
+# Generated: 2026-05-17
+# Total: 2469 skills
+
+## Parse local PDFs into agent-ready text, JSON, and screenshots with LiteParse
+slug: parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Published
+description: Run LiteParse locally to extract PDF text, spatial JSON, OCR-backed output, and page screenshots before sending documents into an agent workflow.
+url: https://agentskillexchange.com/skills/parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse/
 
 ## Manage native GitHub stacked pull requests with gh-stack
 slug: manage-native-github-stacked-pull-requests-with-gh-stack
