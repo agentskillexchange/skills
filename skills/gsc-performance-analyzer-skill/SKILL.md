@@ -13,6 +13,10 @@ framework: "Custom Agents"
 
 Pulls search analytics from Google Search Console's /searchanalytics/query API to identify declining pages and keyword cannibalization. Calculates CTR optimization opportunities by comparing actual vs expected click-through rates.
 
+## Prerequisites
+
+Google account, Search Console property access, Google Cloud project, and Search Console API enabled
+
 ## Installation
 
 Choose whichever fits your setup:
@@ -22,6 +26,12 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Enable the Google Search Console API in Google Cloud, configure OAuth 2.0 credentials, and grant the application access to the target Search Console property.
+```
 
 ## Documentation
 

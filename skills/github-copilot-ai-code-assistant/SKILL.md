@@ -13,6 +13,10 @@ framework: "Multi-Framework"
 
 GitHub Copilot is an AI pair programmer providing real-time code suggestions, multi-line completions, and chat-based assistance in VS Code, JetBrains, Neovim, and the CLI across dozens of languages.
 
+## Prerequisites
+
+GitHub account with a Copilot subscription and a supported editor or IDE
+
 ## Installation
 
 Choose whichever fits your setup:
@@ -22,6 +26,12 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Enable GitHub Copilot for your account, then install the official Copilot extension in your supported editor or IDE and sign in with GitHub.
+```
 
 ## Documentation
 

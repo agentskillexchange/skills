@@ -28,6 +28,12 @@ Choose whichever fits your setup:
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
 
+Install command or upstream instructions:
+
+```
+Install and activate Rank Math SEO from Plugins > Add New in WordPress, or run wp plugin install seo-by-rank-math --activate via WP-CLI.
+```
+
 ## Documentation
 
 - https://rankmath.com/kb/

@@ -13,6 +13,10 @@ framework: "Cursor"
 
 Generates and validates GitHub Actions YAML workflows using the actions/toolkit SDK and workflow_dispatch event triggers. Supports matrix builds, reusable workflows with workflow_call, and composite actions with proper input/output schema definitions.
 
+## Prerequisites
+
+GitHub repository with Actions enabled
+
 ## Installation
 
 Choose whichever fits your setup:
@@ -22,6 +26,12 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Create a workflow file under .github/workflows/ in your repository, then configure triggers, jobs, and runners according to the GitHub Actions documentation.
+```
 
 ## Documentation
 

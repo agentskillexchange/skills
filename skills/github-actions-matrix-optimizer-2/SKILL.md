@@ -13,6 +13,10 @@ framework: "Claude Code"
 
 Analyzes GitHub Actions workflow matrix strategies using the GitHub REST API v3 workflow runs endpoint. Identifies redundant matrix combinations and suggests fail-fast optimizations to reduce CI minutes.
 
+## Prerequisites
+
+GitHub repository with Actions enabled
+
 ## Installation
 
 Choose whichever fits your setup:
@@ -22,6 +26,12 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Create a workflow file under .github/workflows/ in your repository, then configure triggers, jobs, and runners according to the GitHub Actions documentation.
+```
 
 ## Documentation
 

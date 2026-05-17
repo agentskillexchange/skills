@@ -13,6 +13,10 @@ framework: "OpenClaw"
 
 Synchronizes events across multiple Google Calendar accounts using the Calendar API v3 and OAuth 2.0. Handles recurring events, timezone conversions, and conflict resolution.
 
+## Prerequisites
+
+Google account, Google Cloud project, Google Calendar API enabled, and OAuth 2.0 credentials
+
 ## Installation
 
 Choose whichever fits your setup:
@@ -22,6 +26,12 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Create a Google Cloud project, enable the Google Calendar API, configure OAuth 2.0 credentials, then authorize your app against the Calendar API.
+```
 
 ## Documentation
 

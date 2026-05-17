@@ -13,6 +13,10 @@ framework: "OpenClaw"
 
 Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty. Uses the UptimeRobot getMonitors endpoint to detect downtime transitions.
 
+## Prerequisites
+
+UptimeRobot account and an API key or webhook destination
+
 ## Installation
 
 Choose whichever fits your setup:
@@ -22,6 +26,16 @@ Choose whichever fits your setup:
 3. Add the repo as a git submodule if you manage shared skills centrally.
 4. Install it through your internal provisioning or packaging workflow.
 5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Create or copy an UptimeRobot API key from your account, then call the API endpoints or configure webhook targets as documented by UptimeRobot.
+```
+
+## Documentation
+
+- https://uptimerobot.com/api/
 
 ## Source
 
