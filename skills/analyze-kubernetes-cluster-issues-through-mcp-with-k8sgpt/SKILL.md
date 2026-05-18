@@ -24,23 +24,19 @@ A reachable Kubernetes cluster, K8sGPT, and an MCP-compatible client
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install k8sgpt
-- brew tap k8sgpt-ai/k8sgpt
-- built from the source. k8sgpt Install Clang or run brew install gcc.
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- K8sGPT can be integrated with Claude Desktop to provide AI-powered Kubernetes cluster analysis. This integration requires K8sGPT v0.4.14 or later.
-- Analyzer Node took 160.109833ms
-- Node
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Quick Start](#quick-start)
-- If you install gcc as suggested, the problem will persist. Therefore, you need to install the build-essential package.
-- Currently, the default AI provider is OpenAI, you will need to generate an API key from [OpenAI](https://openai.com)
+Install command or upstream instructions:
 
-- Source: https://github.com/k8sgpt-ai/k8sgpt
-- Extracted from upstream docs: https://raw.githubusercontent.com/k8sgpt-ai/k8sgpt/HEAD/README.md
+```
+Install K8sGPT (for example: brew install k8sgpt), configure an AI backend with k8sgpt auth, then start the MCP server with k8sgpt serve --mcp --mcp-http and connect your MCP client.
+```
 
 ## Documentation
 

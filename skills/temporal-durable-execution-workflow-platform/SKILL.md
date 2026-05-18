@@ -18,16 +18,13 @@ Temporal is an open-source durable execution platform that lets developers build
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install temporal
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- **[Getting Started](#getting-started) &nbsp;&nbsp;&bull;&nbsp;&nbsp;**
-- ### Download and Start Temporal Server Locally
-- Execute the following commands to start a pre-built image along with all the dependencies.
-
-- Source: https://github.com/temporalio/temporal
-- Extracted from upstream docs: https://raw.githubusercontent.com/temporalio/temporal/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

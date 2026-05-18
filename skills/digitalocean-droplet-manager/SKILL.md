@@ -19,24 +19,13 @@ tool_ecosystem:
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- [Use with Docker](#use-with-docker)
-- brew install doctl
-- ##### Use with Docker
-- docker build --tag=doctl .
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [Docker Hub](#docker-hub)
-- [Building with Docker](#building-with-docker)
-- Using kubectl requires the kube-config personal-files connection for doctl:
-
-Basic usage or getting-started notes:
-- doctl [command]
-- Available Commands:
-- 1-click Display commands that pertain to 1-click applications
-
-- Source: https://github.com/digitalocean/doctl
-- Extracted from upstream docs: https://raw.githubusercontent.com/digitalocean/doctl/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

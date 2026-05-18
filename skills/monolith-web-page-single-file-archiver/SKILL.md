@@ -18,23 +18,13 @@ Monolith is a CLI tool and Rust library that saves complete web pages as a singl
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- cargo install monolith
-- brew install monolith
-- make install clean
-- docker build -t y2z/monolith .
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- #### Using [containers](https://www.docker.com/)
-- Monolith doesn't feature a JavaScript engine, hence websites that retrieve and display data after initial load may require usage of additional tools.
-
-Basic usage or getting-started notes:
-- #### Using [Cargo](https://crates.io/crates/monolith) (cross-platform)
-- console
-- #### Via [Homebrew](https://formulae.brew.sh/formula/monolith) (macOS and GNU/Linux)
-
-- Source: https://github.com/Y2Z/monolith
-- Extracted from upstream docs: https://raw.githubusercontent.com/Y2Z/monolith/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

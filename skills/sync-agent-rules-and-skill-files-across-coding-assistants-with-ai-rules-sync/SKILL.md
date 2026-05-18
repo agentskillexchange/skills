@@ -24,18 +24,19 @@ Git, AI Rules Sync, and at least two supported coding assistants or agent client
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install -g ai-rules-sync
-- brew tap lbb00/ai-rules-sync https://github.com/lbb00/ai-rules-sync
-- brew install ais
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- _This table is generated from docs/supported-tools.json via npm run docs:sync-tools._
-- ### Via npm (Recommended)
-- bash
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/lbb00/ai-rules-sync
-- Extracted from upstream docs: https://raw.githubusercontent.com/lbb00/ai-rules-sync/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install AI Rules Sync from the GitHub or npm distribution documented by the project, point it at the repositories or rule collections you want to use as sources, configure the supported assistants you want to target, then run the sync workflow so each tool receives the right files in its native layout.
+```
 
 ## Documentation
 

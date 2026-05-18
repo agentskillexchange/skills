@@ -18,23 +18,13 @@ The official Stripe Agent Toolkit provides Python and TypeScript libraries plus 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx -y @stripe/mcp --api-key=YOUR_STRIPE_SECRET_KEY
-- pip install stripe-agent-toolkit
-- npm install @stripe/agent-toolkit
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [@stripe/agent-toolkit](/tools/typescript) - for integrating Stripe APIs with popular agent frameworks through function calling—available in [Python](/tools/python) and [TypeScript](/tools/typescript).
-- Included below are basic instructions, but refer to [Python](/tools/python) and [TypeScript](/tools/typescript) packages for more information.
-- ### Python
-
-Basic usage or getting-started notes:
-- The Stripe Agent Toolkit also exposes tools in the [Model Context Protocol (MCP)](https://modelcontextprotocol.com/) format. Or, to run a local Stripe MCP server using npx, use the following command:
-- Stripe's Agent Toolkit enables popular agent frameworks including OpenAI's Agent SDK, LangChain, CrewAI, and Vercel's AI SDK to integrate with Stripe APIs through function calling. The library is not exhaustive of the...
-- You don't need this source code unless you want to modify the package. If you just
-
-- Source: https://github.com/stripe/ai
-- Extracted from upstream docs: https://raw.githubusercontent.com/stripe/ai/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

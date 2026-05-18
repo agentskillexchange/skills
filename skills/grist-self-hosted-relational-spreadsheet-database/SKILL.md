@@ -18,23 +18,13 @@ Grist is an open-source modern relational spreadsheet that combines the flexibil
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- docker pull gristlabs/grist
-- docker run -p 8484:8484 -it gristlabs/grist
-- docker run -p 8484:8484 -v $PWD/persist:/persist -it gristlabs/grist
-- docker run --env PORT=9999 -p 9999:9999 -v $PWD/persist:/persist -it gristlabs/grist
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- To see exactly what is present in grist-core, you can run the [desktop app](https://github.com/gristlabs/grist-desktop), or use [docker](#using-grist). The absolute fastest way to try Grist out is to visit [docs.getgr...
-- Python formulas.
-- Full [Python syntax is supported](https://support.getgrist.com/formulas/#python), including the standard library.
-
-Basic usage or getting-started notes:
-- grist-core (this repo – also known as Grist Community edition) has what you need to run a powerful server for hosting spreadsheets.
-- If you evaluate Grist by using the hosted version at [getgrist.com](https://getgrist.com), be aware that it includes some features that aren't present in grist-core. To be sure you're seeing exactly what is present in...
-
-- Source: https://github.com/gristlabs/grist-core
-- Extracted from upstream docs: https://raw.githubusercontent.com/gristlabs/grist-core/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -24,22 +24,19 @@ Docker, Homebrew, or Go
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew update && brew install mailhog
-- go install github.com/mailhog/MailHog@latest
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- #### Docker
-- [Run it from Docker Hub](https://registry.hub.docker.com/r/mailhog/mailhog/) or using the provided [Dockerfile](Dockerfile)
-- Requires Go 1.4+ to build.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Download and run MailHog
-- #### Manual installation
-- [Download the latest release for your platform](/docs/RELEASES.md). Then
+Install command or upstream instructions:
 
-- Source: https://github.com/mailhog/MailHog
-- Extracted from upstream docs: https://raw.githubusercontent.com/mailhog/MailHog/HEAD/README.md
+```
+brew update && brew install mailhog
+```
 
 ## Documentation
 

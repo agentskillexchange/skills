@@ -24,22 +24,19 @@ Python plus Deptry configured against the target repository
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- uv add --dev deptry
-- pip install deptry
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Supported Python versions](https://img.shields.io/pypi/pyversions/deptry)](https://pypi.org/project/deptry/)
-- _deptry_ is a command line tool to check for issues with dependencies in a Python project, such as unused or missing
-- using [Poetry](https://python-poetry.org/), [pip](https://pip.pypa.io/), [PDM](https://pdm-project.org/), [uv](https://docs.astral.sh/uv/),
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- To add _deptry_ to your project, run one of the following commands:
-- shell
-- poetry add --dev deptry
+Install command or upstream instructions:
 
-- Source: https://github.com/osprey-oss/deptry
-- Extracted from upstream docs: https://raw.githubusercontent.com/osprey-oss/deptry/HEAD/README.md
+```
+pip install deptry
+```
 
 ## Documentation
 

@@ -14,15 +14,13 @@ Optimizes internal linking structure using Screaming Frog SEO Spider XML exports
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx skills add agentskillexchange/skills --skill internal-link-optimizer-seo
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Copy
-- Works best when you want a reusable capability, not another fragile one-off prompt.
-- At a glance
-
-- Source: https://agentskillexchange.com/skills/internal-link-optimizer-seo/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

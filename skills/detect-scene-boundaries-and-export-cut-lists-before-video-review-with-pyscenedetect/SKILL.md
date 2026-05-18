@@ -24,21 +24,19 @@ Python 3, pip, ffmpeg or mkvmerge for splitting support
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install scenedetect --upgrade
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![PyPI Status](https://img.shields.io/pypi/status/scenedetect.svg)](https://pypi.python.org/pypi/scenedetect/)
-- [![PyPI Version](https://img.shields.io/pypi/v/scenedetect?color=blue)](https://pypi.python.org/pypi/scenedetect/)
-- Requires ffmpeg/mkvmerge for video splitting support. Windows builds (MSI installer/portable ZIP) can be found on [the download page](https://scenedetect.com/download/).
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- **Quickstart Example**: [scenedetect.com/cli/](https://www.scenedetect.com/cli/)
-- **Quick Start (Command Line)**:
-- For more advanced usage, the API is highly configurable, and can easily integrate with any pipeline. This includes using different detection algorithms, splitting the input video, and much more. The following example...
+Install command or upstream instructions:
 
-- Source: https://github.com/Breakthrough/PySceneDetect
-- Extracted from upstream docs: https://raw.githubusercontent.com/Breakthrough/PySceneDetect/HEAD/README.md
+```
+pip install scenedetect[opencv] --upgrade
+```
 
 ## Documentation
 

@@ -20,19 +20,19 @@ Agent runtime with skill support, site and business context, keyword research in
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx skills add coreyhaines31/marketingskills
-- npx skills add coreyhaines31/marketingskills --skill cro copywriting
-- npx skills add coreyhaines31/marketingskills --list
-- git clone https://github.com/coreyhaines31/marketingskills.git
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Run into a problem or have a question? [Open an issue](https://github.com/coreyhaines31/marketingskills/issues) — we're happy to help.
-- | [onboarding](skills/onboarding/) | When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also... |
-- ### Option 1: CLI Install (Recommended)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/programmatic-seo
-- Extracted from upstream docs: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Copy this skill directory from the upstream repository into your agent's supported skills directory, then invoke it when planning a programmatic SEO page set built from templates and structured data.
+```
 
 ## Documentation
 

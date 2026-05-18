@@ -20,13 +20,13 @@ Use this skill when an agent needs to regenerate a typed API client from an Open
 
 ## Installation
 
-Basic usage or getting-started notes:
-- **bun run nuke:all** - Completely clean your workspace by removing all build artifacts, node_modules, and cached files. Use this when you want to start fresh.
-- **bun run build** - Build the project and make changes available to the workspace. Run this after making code changes to compile TypeScript and prepare the project for use.
-- **bun run typecheck** - Run TypeScript type checking across all packages.
+Choose whichever fits your setup:
 
-- Source: https://github.com/orval-labs/orval
-- Extracted from upstream docs: https://raw.githubusercontent.com/orval-labs/orval/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

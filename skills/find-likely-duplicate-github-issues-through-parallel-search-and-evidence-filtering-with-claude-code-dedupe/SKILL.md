@@ -20,20 +20,19 @@ Claude Code, GitHub repository access, repository-provided gh wrapper/comment sc
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install --cask claude-code
-- npm install -g @anthropic-ai/claude-code
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ![](https://img.shields.io/badge/Node.js-18%2B-brightgreen?style=flat-square) [![npm]](https://www.npmjs.com/package/@anthropic-ai/claude-code)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- For more installation options, uninstall steps, and troubleshooting, see the [setup documentation](https://code.claude.com/docs/en/setup).
-- Install Claude Code:
-- **MacOS/Linux (Recommended):**
+Install command or upstream instructions:
 
-- Source: https://github.com/anthropics/claude-code/blob/main/.claude/commands/dedupe.md
-- Extracted from upstream docs: https://raw.githubusercontent.com/anthropics/claude-code/HEAD/README.md
+```
+Install Claude Code from the official docs, then use the repository's dedupe command file in a repo that provides the expected GitHub wrapper and duplicate-comment scripts.
+```
 
 ## Documentation
 

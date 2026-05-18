@@ -18,17 +18,13 @@ Mautic is the world's largest open-source marketing automation platform with 7.9
 
 ## Installation
 
-Requirements and caveats from upstream:
-- You must already have [Composer][composer] available on your computer because this is a development release and you'll need Composer to download the vendor packages.
-- If you must install from the zip file, it's a three-step process:
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- 🏠 Don't rely on third-party SaaS, run your own marketing automation
-- Marketing automation has historically been difficult to implement within organisations. The Mautic Community is an example of open source at its best, offering great software and a vibrant and caring community in whic...
-- [!WARNING]
-
-- Source: https://github.com/mautic/mautic
-- Extracted from upstream docs: https://raw.githubusercontent.com/mautic/mautic/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

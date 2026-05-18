@@ -20,19 +20,13 @@ tool_ecosystem:
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm package: [@grpc/grpc-js](https://www.npmjs.com/package/@grpc/grpc-js)
-- npm package: [grpc](https://www.npmjs.com/package/grpc).
-- npm package: [@grpc/proto-loader](https://www.npmjs.com/package/@grpc/proto-loader)
-- npm package: [grpc-tools](https://www.npmjs.com/package/grpc-tools)
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- # gRPC on Node.js
-- For a comparison of the features available in these two libraries, see [this document](https://github.com/grpc/grpc-node/tree/master/PACKAGE-COMPARISON.md)
-- Directory: [packages/grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js)
-
-- Source: https://github.com/grpc/grpc-node
-- Extracted from upstream docs: https://raw.githubusercontent.com/grpc/grpc-node/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

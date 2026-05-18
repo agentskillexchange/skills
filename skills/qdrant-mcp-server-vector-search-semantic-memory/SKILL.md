@@ -18,24 +18,13 @@ An official Qdrant MCP server implementation that provides semantic memory capab
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- docker build -t mcp-server-qdrant .
-- docker run -p 8000:8000 \
-- npx @smithery/cli install mcp-server-qdrant --client claude
-- [![Install with Docker in VS Code](https://img.shields.io/badge/VS_Code-Docker-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=qdrant&config=%7B%2...
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ### Using Docker
-- necessary when running the server in a Docker container.
-- The value of 'metadata' is a Python dictionary with strings as keys. \
-
-Basic usage or getting-started notes:
-- This repository is an example of how to create a MCP server for [Qdrant](https://qdrant.tech/), a vector search engine.
-- | FASTMCP_SERVER_PORT | Port to run the server on | 8000 |
-- ### Using uvx
-
-- Source: https://github.com/qdrant/mcp-server-qdrant
-- Extracted from upstream docs: https://raw.githubusercontent.com/qdrant/mcp-server-qdrant/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

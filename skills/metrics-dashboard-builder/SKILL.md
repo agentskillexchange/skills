@@ -25,22 +25,19 @@ Node.js
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install @datadog/datadog-api-client
-- yarn add @datadog/datadog-api-client
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- # Node.js Datadog API Client
-- This repository contains a Node.js API client for the [Datadog API](https://docs.datadoghq.com/api/).
-- Zstd compression support requires users to supply their own zstd compressor callback function.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Here's an example getting a monitor:
-- typescript
-- import { client, v1 } from '@datadog/datadog-api-client';
+Install command or upstream instructions:
 
-- Source: https://github.com/DataDog/datadog-api-client-typescript
-- Extracted from upstream docs: https://raw.githubusercontent.com/DataDog/datadog-api-client-typescript/HEAD/README.md
+```
+npm install @datadog/datadog-api-client
+```
 
 ## Documentation
 

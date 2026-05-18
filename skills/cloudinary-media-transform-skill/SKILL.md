@@ -15,16 +15,13 @@ Manages image and video assets through the Cloudinary Upload and Admin APIs. App
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Node.js
-- Python
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Toggle navigation
-- Cloudinary Docs
-- Docs
-
-- Source: https://cloudinary.com/documentation
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

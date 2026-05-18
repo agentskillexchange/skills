@@ -24,16 +24,19 @@ The dotenv-linter CLI or binary and a repository containing dotenv files to chec
 
 ## Installation
 
-Requirements and caveats from upstream:
-- [wemake-services/dotenv-linter](https://github.com/wemake-services/dotenv-linter) (Python)
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- &nbsp;&nbsp;&nbsp;&nbsp;The <code>.env</code> file has a simple key-value format, for example: <code>FOO=BAR</code>.<br />
-- ## 🚀 Usage
-- $ dotenv-linter diff .env .env.example
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/dotenv-linter/dotenv-linter
-- Extracted from upstream docs: https://raw.githubusercontent.com/dotenv-linter/dotenv-linter/HEAD/README.md
+Install command or upstream instructions:
+
+```
+<p>Install a release binary or build with <code>cargo install dotenv-linter</code>, then run <code>dotenv-linter</code> against the repository root or specific <code>.env</code> files. Use the documented check, fix, and diff flows to review problems before committing changes.</p>
+```
 
 ## Documentation
 

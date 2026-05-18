@@ -24,24 +24,19 @@ Python
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- docker pull downloads.unstructured.io/unstructured-io/unstructured:latest
-- docker run -dt --name unstructured downloads.unstructured.io/unstructured-io/unstructured:latest
-- docker exec -it unstructured bash
-- make docker-build
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <a href="https://github.com/Unstructured-IO/unstructured/blob/main/LICENSE.md">![https://pypi.python.org/pypi/unstructured/](https://img.shields.io/pypi/l/unstructured.svg)</a>
-- <a href="https://pypi.python.org/pypi/unstructured/">![https://pypi.python.org/pypi/unstructured/](https://img.shields.io/pypi/pyversions/unstructured.svg)</a>
-- <a href="https://pypi.python.org/pypi/unstructured/">![https://github.com/Naereen/badges/](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)</a>
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ## :eight_pointed_black_star: Quick Start
-- [Run the library in a container](https://github.com/Unstructured-IO/unstructured#run-the-library-in-a-container) or
-- ### Run the library in a container
+Install command or upstream instructions:
 
-- Source: https://github.com/Unstructured-IO/unstructured
-- Extracted from upstream docs: https://raw.githubusercontent.com/Unstructured-IO/unstructured/HEAD/README.md
+```
+pip install unstructured
+```
 
 ## Documentation
 

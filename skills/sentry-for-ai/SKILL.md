@@ -24,22 +24,19 @@ Sentry account or project, supported integration path
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/getsentry/sentry-for-ai.git
-- brew install gh # macOS
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- | sentry-node-sdk | Node.js, Bun, Deno (Express, Fastify, Koa, Hapi, NestJS, Connect, Bun.serve, Deno.serve) |
-- | sentry-python-sdk | Python (Django, Flask, FastAPI, Celery, Starlette, AIOHTTP) |
-- Some workflow skills require the [GitHub CLI](https://cli.github.com/):
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ### Claude Code
-- bash
-- /install-plugin sentry
+Install command or upstream instructions:
 
-- Source: https://github.com/getsentry/sentry-for-ai
-- Extracted from upstream docs: https://raw.githubusercontent.com/getsentry/sentry-for-ai/HEAD/README.md
+```
+Install from the GitHub repository and configure with a Sentry project. Follow integration-specific setup steps.
+```
 
 ## Documentation
 

@@ -19,13 +19,19 @@ Generates infrastructure-as-code configurations from Jinja2 templates with varia
 
 ## Installation
 
-Requirements and caveats from upstream:
-- placeholders in the template allow writing code similar to Python
-- Templates are compiled to optimized Python code just-in-time and
-- Jinja's philosophy is that while application logic belongs in Python if
+Choose whichever fits your setup:
 
-- Source: https://github.com/pallets/jinja
-- Extracted from upstream docs: https://raw.githubusercontent.com/pallets/jinja/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+pip install Jinja2
+```
 
 ## Documentation
 

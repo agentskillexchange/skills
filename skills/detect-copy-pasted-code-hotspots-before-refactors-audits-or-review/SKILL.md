@@ -2,7 +2,7 @@
 name: "Detect copy-pasted code hotspots before refactors, audits, or review"
 slug: "detect-copy-pasted-code-hotspots-before-refactors-audits-or-review"
 description: "Use jscpd when an agent needs to scan a codebase for duplicated blocks and turn clone findings into a focused cleanup or review queue. The skill is about duplication detection and hotspot reporting, not general linting, testing, or automated refactoring by itself."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://www.npmjs.com/package/jscpd"
 author: "Andrey Kucherenko"
 publisher_type: "Individual Maintainer"
@@ -23,9 +23,19 @@ Node.js and npm
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://www.npmjs.com/package/jscpd
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+npm install -g jscpd
+```
 
 ## Documentation
 

@@ -24,19 +24,19 @@ Claude Code with plugin marketplace support, the Trail of Bits skills repository
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/trailofbits/skills.git ~/.codex/trailofbits-skills
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- | [modern-python](plugins/modern-python/) | Modern Python tooling and best practices with uv, ruff, and pytest |
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ### Claude Code Marketplace
-- /plugin marketplace add trailofbits/skills
-- ### Browse and Install Plugins
+Install command or upstream instructions:
 
-- Source: https://github.com/trailofbits/skills
-- Extracted from upstream docs: https://raw.githubusercontent.com/trailofbits/skills/HEAD/README.md
+```
+Add the marketplace with /plugin marketplace add trailofbits/skills, then install the needed skill from the plugin menu or by name. For Codex-native use, clone the repository and run the documented .codex install script so the sidecar skills tree becomes available locally.
+```
 
 ## Documentation
 

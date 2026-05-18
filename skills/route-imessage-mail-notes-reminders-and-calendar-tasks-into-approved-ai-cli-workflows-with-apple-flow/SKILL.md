@@ -24,24 +24,19 @@ macOS, Apple apps access, one supported AI CLI such as Codex, Claude, Gemini, Cl
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install python@3.11 node
-- npm install -g @openai/codex
-- npm install -g @google/gemini-cli
-- npm install -g cline
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
-- ### 1) Prerequisites
-- Homebrew + Python 3.11 + Node
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- macOS with iMessage signed in
-- 10 minutes
-- bash
+Install command or upstream instructions:
 
-- Source: https://github.com/dkyazzentwatwa/apple-flow
-- Extracted from upstream docs: https://raw.githubusercontent.com/dkyazzentwatwa/apple-flow/HEAD/README.md
+```
+Clone the repository, install the documented Python and Node prerequisites on macOS, run the setup flow or autostart script, configure the allowed senders and workspace boundaries in .env, then connect one supported AI CLI and start the local service.
+```
 
 ## Documentation
 

@@ -24,22 +24,19 @@ Go 1.22+
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install wader/tap/fq
-- Make sure you have [go](https://go.dev) 1.22 or later installed.
-- go install github.com/wader/fq@latest
-- go install github.com/wader/fq@master
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [hachoir](https://github.com/vstinner/hachoir) - General python library for working binary data.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Basic usage is fq . file, fq d file or fq 'some query' file ....
-- For details see [usage.md](doc/usage.md).
-- For details see [formats.md](doc/formats.md) and [usage.md](doc/usage.md).
+Install command or upstream instructions:
 
-- Source: https://github.com/wader/fq
-- Extracted from upstream docs: https://raw.githubusercontent.com/wader/fq/HEAD/README.md
+```
+brew install wader/tap/fq
+```
 
 ## Documentation
 

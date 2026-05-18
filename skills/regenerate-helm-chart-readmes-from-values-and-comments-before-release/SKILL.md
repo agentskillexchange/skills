@@ -24,22 +24,19 @@ Helm charts and the helm-docs CLI
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install norwoodj/tap/helm-docs
-- go install github.com/norwoodj/helm-docs/cmd/helm-docs@latest
-- docker run --rm --volume "$(pwd):/helm-docs" -u $(id -u) jnorwood/helm-docs:latest
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ### Using docker
-- _and_ a leaf node within that field, description comments must be added for both
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- helm-docs can be installed using [homebrew](https://brew.sh/):
-- bash
-- or [scoop](https://scoop.sh):
+Install command or upstream instructions:
 
-- Source: https://github.com/norwoodj/helm-docs
-- Extracted from upstream docs: https://raw.githubusercontent.com/norwoodj/helm-docs/HEAD/README.md
+```
+brew install norwoodj/tap/helm-docs
+```
 
 ## Documentation
 

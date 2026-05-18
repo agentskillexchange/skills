@@ -26,17 +26,19 @@ Claude Code, Node.js 22+, supported test framework
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Node.js 22+
-- Python/pytest support: [@Durafen](https://github.com/Durafen)
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- A supported test framework (Vitest, Jest, Storybook, pytest, PHPUnit, Go, Rust, RSpec, Minitest)
-- Open Claude Code in your project and run:
-- /plugin marketplace add nizos/tdd-guard
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/nizos/tdd-guard
-- Extracted from upstream docs: https://raw.githubusercontent.com/nizos/tdd-guard/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Add the marketplace in Claude Code, install `tdd-guard`, then run `/tdd-guard:setup` to configure the project test reporter and enforcement hooks.
+```
 
 ## Documentation
 

@@ -23,20 +23,19 @@ Node.js 18+, npm, TypeScript
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install -g @angular/cli
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Install [Node.js] which includes [Node Package Manager][npm]
-- [node.js]: https://nodejs.org/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Getting Started][quickstart]
-- ### Setting Up a Project
-- Create a workspace:
+Install command or upstream instructions:
 
-- Source: https://github.com/angular/angular
-- Extracted from upstream docs: https://raw.githubusercontent.com/angular/angular/HEAD/README.md
+```
+npm install -g @angular/cli && ng new my-app
+```
 
 ## Documentation
 

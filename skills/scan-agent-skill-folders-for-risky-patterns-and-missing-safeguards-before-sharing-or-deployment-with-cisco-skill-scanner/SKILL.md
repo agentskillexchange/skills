@@ -24,24 +24,19 @@ Python 3.10+, skill-scanner package, optional LLM provider credentials for seman
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- uv pip install cisco-ai-skill-scanner
-- pip install cisco-ai-skill-scanner
-- pip install cisco-ai-skill-scanner[bedrock]
-- pip install cisco-ai-skill-scanner[google]
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-- [![CI](https://github.com/cisco-ai-defense/skill-scanner/actions/workflows/python-tests.yml/badge.svg)](https://github.com/cisco-ai-defense/skill-scanner/actions/workflows/python-tests.yml)
-- **Prerequisites:** Python 3.10+ and [uv](https://docs.astral.sh/uv/) (recommended) or pip
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- bash
-- # Using uv (recommended)
-- # Using pip
+Install command or upstream instructions:
 
-- Source: https://github.com/cisco-ai-defense/skill-scanner
-- Extracted from upstream docs: https://raw.githubusercontent.com/cisco-ai-defense/skill-scanner/HEAD/README.md
+```
+Install cisco-ai-skill-scanner with uv or pip, set any optional analyzer credentials you plan to use, then run the scanner against the target skill folder or repository and review the reported findings before release.
+```
 
 ## Documentation
 

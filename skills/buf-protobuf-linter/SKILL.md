@@ -19,21 +19,13 @@ Lints Protocol Buffer definitions using the Buf CLI ruleset and validates gRPC s
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install bufbuild/buf/buf
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Docker](https://img.shields.io/docker/pulls/bufbuild/buf)](https://hub.docker.com/r/bufbuild/buf)
-- Other supported installation methods include [npm], [Windows], [Docker], [binary downloads], [tarballs], [source builds], and [minisign verification][verifying]. See the [installation docs][install] for the full list.
-- [docker]: https://buf.build/docs/cli/installation/#docker
-
-Basic usage or getting-started notes:
-- sh
-- Initialize a workspace and run the checks you should expect every Protobuf repository to pass:
-- buf config init
-
-- Source: https://github.com/bufbuild/buf
-- Extracted from upstream docs: https://raw.githubusercontent.com/bufbuild/buf/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -18,23 +18,13 @@ PM2 is a production-grade process manager for Node.js and Bun applications with 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- $ npm install pm2 -g
-- RUN npm install pm2 -g
-- $ npm install pm2@latest -g
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- PM2 is a production process manager for Node.js/Bun applications with a built-in load balancer. It allows you to keep applications alive forever, to reload them without downtime and to facilitate common system admin t...
-- PM2 is constantly assailed by [a comprehensive test suite](https://github.com/Unitech/pm2/actions/workflows/node.js.yml).
-- Works on Linux, macOS, and Windows. Supports Node.js 18+ and Bun 1+.
-
-Basic usage or getting-started notes:
-- [More about Process Management](https://pm2.keymetrics.io/docs/usage/process-management/)
-- [More information about how PM2 makes clustering easy](https://pm2.keymetrics.io/docs/usage/cluster-mode/)
-- [More about log management](https://pm2.keymetrics.io/docs/usage/log-management/)
-
-- Source: https://github.com/Unitech/pm2
-- Extracted from upstream docs: https://raw.githubusercontent.com/Unitech/pm2/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

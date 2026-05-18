@@ -24,16 +24,19 @@ Kopia CLI, configured local or remote storage target
 
 ## Installation
 
-Requirements and caveats from upstream:
-- [![Docker Pulls](https://img.shields.io/docker/pulls/kopia/kopia)](https://hub.docker.com/r/kopia/kopia/tags?page=1&ordering=name)
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- When ready, head to the [installation](https://kopia.io/docs/installation/) page to download and install Kopia, and make sure to read the [Getting Started Guide](https://kopia.io/docs/getting-started/) for a step-by-s...
-- Kopia is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for the full license text.
-- Building Kopia
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/kopia/kopia
-- Extracted from upstream docs: https://raw.githubusercontent.com/kopia/kopia/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install Kopia from https://kopia.io/docs/installation/, then use kopia repository connect or kopia repository create before snapshot create, snapshot list, and snapshot restore operations.
+```
 
 ## Documentation
 

@@ -18,23 +18,13 @@ An agent skill built on Coqui TTS, the open-source deep learning toolkit for tex
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install TTS
-- git clone https://github.com/coqui-ai/TTS
-- pip install -e .[all,dev,notebooks] # Select the relevant extras
-- $ make system-deps # intended to be used on Ubuntu (Debian). Let us know if you have a different OS.
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ![GithubActions](https://github.com/coqui-ai/TTS/actions/workflows/docker.yaml/badge.svg)
-- 🐸TTS is tested on Ubuntu 18.04 with **python >= 3.9, < 3.12.**.
-
-Basic usage or getting-started notes:
-- 📣 ⓍTTS fine-tuning code is out. Check the [example recipes](https://github.com/coqui-ai/TTS/tree/dev/recipes/ljspeech).
-- | 👩‍💻 **Usage Questions** | [GitHub Discussions] |
-- If you are only interested in [synthesizing speech](https://tts.readthedocs.io/en/latest/inference.html) with the released 🐸TTS models, installing from PyPI is the easiest option.
-
-- Source: https://github.com/coqui-ai/TTS
-- Extracted from upstream docs: https://raw.githubusercontent.com/coqui-ai/TTS/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

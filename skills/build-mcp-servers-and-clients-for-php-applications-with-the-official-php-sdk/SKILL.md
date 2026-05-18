@@ -24,16 +24,19 @@ PHP, Composer, MCP-compatible host/client
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- composer require mcp/sdk
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- bash
-- ## Overview
-- The MCP PHP SDK provides both **server** and **client** implementations for the Model Context Protocol, enabling you to:
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/modelcontextprotocol/php-sdk
-- Extracted from upstream docs: https://raw.githubusercontent.com/modelcontextprotocol/php-sdk/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install the SDK using the Composer instructions in the repository README, then implement the MCP server or client pattern that matches the PHP application capability being exposed.
+```
 
 ## Documentation
 

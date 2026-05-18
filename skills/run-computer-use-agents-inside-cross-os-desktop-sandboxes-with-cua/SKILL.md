@@ -24,22 +24,19 @@ Python 3.11+ for the SDK or Node.js for cuabot, plus local QEMU or CUA cloud acc
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install cua
-- uv tool install -e . && cb image create linux-docker
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- python
-- # Requires Python 3.11 or later
-- | [lumier](https://cua.ai/docs/lume/guide/advanced/lumier) | Docker-compatible interface for Lume VMs |
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- result = await sb.shell.run("echo hello")
-- cd cua-bench
-- # Run benchmark with agent
+Install command or upstream instructions:
 
-- Source: https://github.com/trycua/cua
-- Extracted from upstream docs: https://raw.githubusercontent.com/trycua/cua/HEAD/README.md
+```
+Install the Python package with pip install cua for the sandbox SDK, or use npx cuabot for the agent-facing desktop sandbox workflow described in the upstream docs.
+```
 
 ## Documentation
 

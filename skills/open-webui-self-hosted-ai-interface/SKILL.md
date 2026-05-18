@@ -18,13 +18,13 @@ Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI plat
 
 ## Installation
 
-Requirements and caveats from upstream:
-- 🚀 **Effortless Setup**: Install seamlessly using Docker or Kubernetes (kubectl, kustomize or helm) for a hassle-free experience with support for both :ollama and :cuda tagged images.
-- 🐍 **Native Python Function Calling Tool**: Enhance your LLMs with built-in code editor support in the tools workspace. Bring Your Own Function (BYOF) by simply adding your pure Python functions, enabling seamless inte...
-- ⚖️ **Horizontal Scalability**: Redis-backed session management and WebSocket support for multi-worker and multi-node deployments behind load balancers.
+Choose whichever fits your setup:
 
-- Source: https://github.com/open-webui/open-webui
-- Extracted from upstream docs: https://raw.githubusercontent.com/open-webui/open-webui/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

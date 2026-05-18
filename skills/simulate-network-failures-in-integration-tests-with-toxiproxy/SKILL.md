@@ -24,24 +24,19 @@ Toxiproxy server plus a client library or HTTP API access from the test harness
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- $ brew tap shopify/shopify
-- $ brew install toxiproxy
-- $ docker pull ghcr.io/shopify/toxiproxy
-- $ docker run --rm -it ghcr.io/shopify/toxiproxy
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- cross-platform and require root, which makes them problematic in test,
-- [toxiproxy-python](https://github.com/douglas/toxiproxy-python)
-- [toxiproxy-node-client](https://github.com/ihsw/toxiproxy-node-client)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Toxiproxy usage consists of two parts. A TCP proxy written in Go (what this
-- and can then manipulate their health via HTTP. See [Usage](#usage)
-- For example, to add 1000ms of latency to the response of MySQL from the [Ruby
+Install command or upstream instructions:
 
-- Source: https://github.com/Shopify/toxiproxy
-- Extracted from upstream docs: https://raw.githubusercontent.com/Shopify/toxiproxy/HEAD/README.md
+```
+Install the Toxiproxy binary or container from the official repository, then point application dependencies through the created proxies before running tests.
+```
 
 ## Documentation
 

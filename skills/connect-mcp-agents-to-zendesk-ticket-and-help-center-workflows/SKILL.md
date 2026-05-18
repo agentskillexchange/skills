@@ -24,21 +24,19 @@ Zendesk account/API credentials, MCP client, Node.js or runtime required by the 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- docker build -t zendesk-mcp-server .
-- docker run --rm --env-file /path/to/.env zendesk-mcp-server
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ### Docker
-- "command": "/usr/local/bin/docker",
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- build: uv venv && uv pip install -e . or uv build in short.
-- setup zendesk credentials in .env file, refer to [.env.example](.env.example).
-- configure in Claude desktop:
+Install command or upstream instructions:
 
-- Source: https://github.com/reminia/zendesk-mcp-server
-- Extracted from upstream docs: https://raw.githubusercontent.com/reminia/zendesk-mcp-server/HEAD/README.md
+```
+Follow the repository README to install dependencies, configure Zendesk credentials and allowed scopes, then connect the server to an MCP client for reviewed ticket workflows.
+```
 
 ## Documentation
 

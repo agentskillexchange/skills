@@ -24,22 +24,19 @@ Python, JupyterLab or Jupyter Notebook
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install jupytext
-- conda install jupytext -c conda-forge
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Pypi](https://img.shields.io/pypi/v/jupytext.svg)](https://pypi.python.org/pypi/jupytext)
-- [![pyversions](https://img.shields.io/pypi/pyversions/jupytext.svg)](https://pypi.python.org/pypi/jupytext)
-- A Python notebook encoded in the py:percent [format](docs/formats-scripts.md#the-percent-format) has a .py extension and looks like this:
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- or
-- Then, restart your JupyterLab server, and make sure Jupytext is activated in Jupyter: .py and .md files have a Notebook icon, and you can open them as Notebooks with a right click in JupyterLab.
-- ![Notebook icon on text notebooks](https://github.com/mwouts/jupytext/blob/64b4be818508760116f91bf156342cb4cf724d93/docs/images/jupyterlab_right_click.png?raw=true)
+Install command or upstream instructions:
 
-- Source: https://github.com/mwouts/jupytext
-- Extracted from upstream docs: https://raw.githubusercontent.com/mwouts/jupytext/HEAD/README.md
+```
+Install with `pip install jupytext` or `conda install jupytext -c conda-forge`, restart Jupyter, then pair or open notebooks as plain-text `.py` or `.md` files from the Jupytext workflow.
+```
 
 ## Documentation
 

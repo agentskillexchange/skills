@@ -18,16 +18,13 @@ Slidev is a web-based presentation tool built for developers that turns Markdown
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm init slidev
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- ### Try it Online ⚡️
-- [sli.dev/new](https://sli.dev/new)
-- [![](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://sli.dev/new)
-
-- Source: https://github.com/slidevjs/slidev
-- Extracted from upstream docs: https://raw.githubusercontent.com/slidevjs/slidev/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

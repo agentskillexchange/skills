@@ -14,20 +14,13 @@ Generates optimized meta descriptions using OpenAI Chat Completions API with tok
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Make your first API request in minutes. Learn the basics of the OpenAI platform.
-- Make direct model requests for text, structured output, tools, and multimodal workflows.
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Node reference
-- require "openai"
-
-Basic usage or getting-started notes:
-- Example workflows and tasks teams hand to Codex
-- Models
-- Pricing
-
-- Source: https://developers.openai.com/api/docs
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

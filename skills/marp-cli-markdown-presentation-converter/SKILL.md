@@ -18,23 +18,13 @@ Marp CLI converts Markdown files into professional slide deck presentations. It 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx @marp-team/marp-cli@latest slide-deck.md
-- npx @marp-team/marp-cli@latest slide-deck.md -o output.html
-- npx @marp-team/marp-cli@latest slide-deck.md --pdf
-- npx @marp-team/marp-cli@latest slide-deck.md -o output.pdf
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Docker](https://img.shields.io/docker/pulls/marpteam/marp-cli.svg?logo=docker&style=flat-square)](https://hub.docker.com/r/marpteam/marp-cli/)
-- installed [Node.js](https://nodejs.org/) v18 and later.
-- Don't you like installing Node.js and Chrome to local? We have an official container image that is ready to use CLI.
-
-Basic usage or getting-started notes:
-- one-shot Markdown conversion _without install_. Just run below if you have
-- ### Use package manager
-
-- Source: https://github.com/marp-team/marp-cli
-- Extracted from upstream docs: https://raw.githubusercontent.com/marp-team/marp-cli/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

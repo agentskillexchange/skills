@@ -20,17 +20,13 @@ sqlite-vec is a lightweight SQLite extension for vector similarity search. Writt
 
 ## Installation
 
-Requirements and caveats from upstream:
-- | Python | pip install sqlite-vec | [sqlite-vec with Python](https://alexgarcia.xyz/sqlite-vec/python.html) | [![PyPI](https://img.shields.io/pypi/v/sqlite-vec.svg?color=blue&logo=python&logoColor=white)](https://pypi...
-- | Node.js | npm install sqlite-vec | [sqlite-vec with Node.js](https://alexgarcia.xyz/sqlite-vec/js.html) | [![npm](https://img.shields.io/npm/v/sqlite-vec.svg?color=green&logo=nodedotjs&logoColor=white)](https://www....
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- | Datasette | datasette install datasette-sqlite-vec | [sqlite-vec with Datasette](https://alexgarcia.xyz/sqlite-vec/datasette.html) | [![Datasette](https://img.shields.io/pypi/v/datasette-sqlite-vec.svg?color=B6B6D9&...
-- | sqlite-utils | sqlite-utils install sqlite-utils-sqlite-vec | [sqlite-vec with sqlite-utils](https://alexgarcia.xyz/sqlite-vec/sqlite-utils.html) | [![sqlite-utils](https://img.shields.io/pypi/v/sqlite-utils-sqlite-...
-- ## Sample usage
-
-- Source: https://github.com/asg017/sqlite-vec
-- Extracted from upstream docs: https://raw.githubusercontent.com/asg017/sqlite-vec/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

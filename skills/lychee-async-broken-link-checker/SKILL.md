@@ -18,24 +18,13 @@ lychee is a fast, async, stream-based link checker written in Rust that finds br
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install lychee
-- docker pull lycheeverse/lychee
-- conda install lychee -c conda-forge
-- cargo install lychee
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Docker Pulls](https://img.shields.io/docker/pulls/lycheeverse/lychee?color=%23099cec&logo=Docker)](https://hub.docker.com/r/lycheeverse/lychee)
-- ### Docker
-- | Language | Rust | Ruby | Go | JS | TypeScript | Python | JS | PHP |
-
-Basic usage or getting-started notes:
-- <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-- [Commandline usage](#commandline-usage)
-- [Library usage](#library-usage)
-
-- Source: https://github.com/lycheeverse/lychee
-- Extracted from upstream docs: https://raw.githubusercontent.com/lycheeverse/lychee/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -20,18 +20,13 @@ FilePond is a JavaScript file upload library that handles files, directories, UR
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install filepond
-- Tests are based on Jest and can be run with npm run test
-- To build the library run npm run build
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- [React](https://stackblitz.com/github/pqina/pintura-example-react?file=src%2FExampleFilePond.js)
-- [Angular](https://stackblitz.com/github/pqina/pintura-example-angular?file=src%2Fapp%2Ffilepond-example%2Ffilepond-example.component.ts)
-- [Svelte](https://stackblitz.com/github/pqina/pintura-example-svelte?file=src%2FApp.svelte%3AL152)
-
-- Source: https://github.com/pqina/filepond
-- Extracted from upstream docs: https://raw.githubusercontent.com/pqina/filepond/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

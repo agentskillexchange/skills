@@ -24,21 +24,19 @@ Python 3, pip, mutmut, pytest-compatible test suite
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install mutmut
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- mutmut - python mutation tester
-- Mutmut is a mutation testing system for Python, with a strong focus on ease
-- this article <https://kodare.net/2016/12/01/mutmut-a-python-mutation-testing-system.html>_.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ------------
-- ---------------
-- You can get started with a simple:
+Install command or upstream instructions:
 
-- Source: https://github.com/boxed/mutmut
-- Extracted from upstream docs: https://raw.githubusercontent.com/boxed/mutmut/HEAD/README.rst
+```
+Install with `pip install mutmut`, configure the target paths if needed, then run `mutmut run` and inspect surviving mutants with `mutmut results`.
+```
 
 ## Documentation
 

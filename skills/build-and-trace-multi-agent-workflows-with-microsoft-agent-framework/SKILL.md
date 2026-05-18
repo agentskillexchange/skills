@@ -24,21 +24,19 @@ Python or .NET runtime, Microsoft Agent Framework packages, OpenTelemetry-compat
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install agent-framework
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Microsoft Agent Framework (MAF) is an open, multi-language framework for building **production-grade AI agents and multi-agent workflows** in **.NET and Python**.
-- Microsoft Agent Framework is built for teams taking agents from prototype to production. It provides a consistent foundation for building, orchestrating, and operating agent systems across Python and .NET, while keepi...
-- **Python and C#/.NET Support**: Full framework support for both Python and C#/.NET implementations with consistent APIs
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- are building agents and workflows you expect to run in production,
-- [Getting Started](#getting-started)
-- bash
+Install command or upstream instructions:
 
-- Source: https://github.com/microsoft/agent-framework
-- Extracted from upstream docs: https://raw.githubusercontent.com/microsoft/agent-framework/HEAD/README.md
+```
+Follow the Microsoft Agent Framework README for the current Python or .NET package install command, then create an agent workflow with tools, handoffs, and tracing configured.
+```
 
 ## Documentation
 

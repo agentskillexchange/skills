@@ -18,14 +18,13 @@ shot-scraper is a Python CLI tool by Simon Willison for taking automated screens
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install shot-scraper
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- The [shot-scraper-demo](https://github.com/simonw/shot-scraper-demo) repository uses this tool to capture recently spotted owls in El Granada, CA according to [this page](https://www.owlsnearme.com/?place=127871), and...
-
-- Source: https://github.com/simonw/shot-scraper
-- Extracted from upstream docs: https://raw.githubusercontent.com/simonw/shot-scraper/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

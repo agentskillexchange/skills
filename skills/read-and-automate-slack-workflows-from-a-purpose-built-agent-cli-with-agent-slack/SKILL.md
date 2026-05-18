@@ -26,22 +26,19 @@ agent-slack CLI, Node.js or Bun, Slack workspace access, and either supported lo
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm i -g agent-slack
-- npx skills add stablyai/agent-slack
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- **Zero-config auth** — Auth just works if you have Slack Desktop (with fallbacks available). No Python dependency.
-- OR npm global install (requires Node >= 22.5):
-- Channel mode requires --ts:
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- bash
-- OR run via Nix flake:
-- nix run github:stablyai/agent-slack
+Install command or upstream instructions:
 
-- Source: https://github.com/stablyai/agent-slack
-- Extracted from upstream docs: https://raw.githubusercontent.com/stablyai/agent-slack/HEAD/README.md
+```
+Install agent-slack with Bun, npm, or the published installer, complete one of the documented auth import or token flows, then run the message, search, channel, workflow, or canvas subcommands needed for the task.
+```
 
 ## Documentation
 

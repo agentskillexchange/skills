@@ -26,16 +26,19 @@ python, go, java
 
 ## Installation
 
-Requirements and caveats from upstream:
-- <a href="https://pypi.org/project/agentql"><img src="https://img.shields.io/pypi/v/agentql" alt="Python version" /></a>
-- AgentQL is a suite of tools for extracting data and automating workflows on live web sites featuring an AI-powered query language, Python and JavaScript SDKs, a browser-based debugger, and a REST API endpoint. It uses...
-- **Playwright** [AgentQL's Python SDK](https://docs.agentql.com/python-sdk/installation) and [JavaScript SDK](https://docs.agentql.com/javascript-sdk/installation) seamlessly integrates with Playwright for advanced aut...
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- [Get started in 5 minutes with our quick start!](https://docs.agentql.com/quick-start)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/tinyfish-io/agentql
-- Extracted from upstream docs: https://raw.githubusercontent.com/tinyfish-io/agentql/HEAD/README.md
+Install command or upstream instructions:
+
+```
+pip3 install agentql
+```
 
 ## Documentation
 

@@ -20,22 +20,13 @@ Documind is an open-source Node.js tool that uses AI to extract structured JSON 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install ghostscript graphicsmagick
-- npm install documind
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ### **Node.js & NPM**
-- Ensure Node.js (v18+) and NPM are installed on your system.
-- **documind** requires an **.env** file to store sensitive information like your OpenAI API key.
-
-Basic usage or getting-started notes:
-- bash
-- # On macOS
-- # On Debian/Ubuntu
-
-- Source: https://github.com/DocumindHQ/documind
-- Extracted from upstream docs: https://raw.githubusercontent.com/DocumindHQ/documind/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

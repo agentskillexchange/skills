@@ -18,24 +18,13 @@ Himalaya is a CLI email client written in Rust that supports IMAP, Maildir, and 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- cargo install himalaya --locked
-- cargo install himalaya --locked --no-default-features --features imap
-- cargo install --locked --git https://github.com/pimalaya/himalaya.git
-- git clone https://aur.archlinux.org/himalaya-git.git
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- interactive via **wizard** (requires wizard feature)
-- **IMAP** backend (requires imap feature)
-- **Maildir** backend (requires maildir feature)
-
-Basic usage or getting-started notes:
-- ### Pre-built binary
-- Himalaya CLI can be installed with the install.sh installer:
-- *As root:*
-
-- Source: https://github.com/pimalaya/himalaya
-- Extracted from upstream docs: https://raw.githubusercontent.com/pimalaya/himalaya/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

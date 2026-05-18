@@ -18,22 +18,13 @@ Extracts high-signal SERP features from SerpAPI responses, including `answer_box
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install google-search-results
-- make test
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- # Google Search Results in Python
-- This package will soon be **deprecated** in favor of [serpapi-python](https://github.com/serpapi/serpapi-python).
-- [![Build](https://github.com/serpapi/google-search-results-python/actions/workflows/python-package.yml/badge.svg)](https://github.com/serpapi/google-search-results-python/actions/workflows/python-package.yml)
-
-Basic usage or getting-started notes:
-- Please note: the current documentation, examples, and integrations on https://serpapi.com/ are written for this (legacy) package and are not yet compatible with the new library. Updated documentation for serpapi-pytho...
-- bash
-- from serpapi import GoogleSearch
-
-- Source: https://github.com/serpapi/google-search-results-python
-- Extracted from upstream docs: https://raw.githubusercontent.com/serpapi/google-search-results-python/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

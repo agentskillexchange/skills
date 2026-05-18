@@ -26,22 +26,19 @@ Node.js 18+ for Letta Code or API credentials/SDKs for application integration; 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install @letta-ai/letta-client
-- pip install letta-client
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Requires [Node.js 18+](https://nodejs.org/en/download)
-- Letta has a full-featured agents API, and a Python and Typescript SDK (view our [API reference](https://docs.letta.com/api)).
-- TypeScript / Node.js:
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Letta Code](https://docs.letta.com/letta-code): run agents locally in your terminal
-- Run letta in your terminal to launch an agent with memory running on your local computer
-- bash
+Install command or upstream instructions:
 
-- Source: https://github.com/letta-ai/letta
-- Extracted from upstream docs: https://raw.githubusercontent.com/letta-ai/letta/HEAD/README.md
+```
+For local terminal workflows, install Letta Code with `npm install -g @letta-ai/letta-code` and run `letta`; for application workflows, install the TypeScript or Python Letta client and create agents with memory blocks and tools.
+```
 
 ## Documentation
 

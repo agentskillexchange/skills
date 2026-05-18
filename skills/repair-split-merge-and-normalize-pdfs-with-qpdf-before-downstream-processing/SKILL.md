@@ -24,23 +24,19 @@ qpdf installation, source PDF files, writable output path, optional downstream e
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- cmake -S . -B build -DCMAKE_BUILD_TYPE=RelWithDebInfo
-- cmake --build build
-- cmake -S . -B build -G 'MSYS Makefiles' -DCMAKE_BUILD_TYPE=RelWithDebInfo
-- cmake -S . -B build
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- qpdf depends on the external libraries [zlib](https://www.zlib.net/) and [jpeg](https://www.ijg.org/files/).
-- By default, slow tests and tests that require dependencies beyond those needed to build qpdf are disabled. Slow tests
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Official qpdf releases are signed using [cosign](https://docs.sigstore.dev/quickstart/quickstart-cosign/). Each release includes a sha256 file containing sha256 checksums of all the release files. To verify a release,...
-- To build and test qpdf, a C++ compiler that supports C++20 is required. To link with qpdf, a C++17-compatible compiler
-- is sufficient.
+Install command or upstream instructions:
 
-- Source: https://github.com/qpdf/qpdf
-- Extracted from upstream docs: https://raw.githubusercontent.com/qpdf/qpdf/HEAD/README.md
+```
+Install qpdf from your package manager or the upstream build instructions, run the documented commands for repair, splitting, merging, or normalization on the target PDFs, then pass the cleaned outputs into the downstream workflow.
+```
 
 ## Documentation
 

@@ -19,15 +19,19 @@ GitHub repository with Actions enabled
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Make a contribution Learn how to contribute
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Guides Best practices for community conversations
-- Find discussions
-- Grant higher permissions
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://docs.github.com/en/discussions
+Install command or upstream instructions:
+
+```
+Create a workflow file under .github/workflows/ in your repository, then configure triggers, jobs, and runners according to the GitHub Actions documentation.
+```
 
 ## Documentation
 

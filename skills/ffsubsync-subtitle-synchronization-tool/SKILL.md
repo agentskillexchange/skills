@@ -19,23 +19,13 @@ ffsubsync automatically aligns subtitle files to spoken audio by analyzing timin
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install ffmpeg
-- pip install ffsubsync
-- pip install git+https://github.com/smacke/ffsubsync@latest
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Python Versions](https://img.shields.io/pypi/pyversions/ffsubsync.svg)](https://pypi.org/project/ffsubsync)
-- Next, grab the package (compatible with Python >= 3.6):
-- [ffmpeg](https://www.ffmpeg.org/) and the [ffmpeg-python](https://github.com/kkroening/ffmpeg-python) wrapper, for extracting raw audio from video
-
-Basic usage or getting-started notes:
-- -------
-- First, make sure ffmpeg is installed. On MacOS, this looks like:
-- ~~~
-
-- Source: https://github.com/smacke/ffsubsync
-- Extracted from upstream docs: https://raw.githubusercontent.com/smacke/ffsubsync/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -24,18 +24,19 @@ Docker, Docker Compose, Git, Node.js/npm, AutoGPT platform
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Docker Engine (20.10.0 or newer)
-- Docker Compose (2.0.0 or newer)
-- Node.js (16.x or newer)
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- # AutoGPT: Build, Deploy, and Run AI Agents
-- 🚀 [**Getting Started with Forge**](https://github.com/Significant-Gravitas/AutoGPT/blob/master/classic/forge/tutorials/001_getting_started.md) &ndash;
-- The frontend works out-of-the-box with all agents in the repo. Just use the [CLI] to run your agent of choice!
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/Significant-Gravitas/AutoGPT
-- Extracted from upstream docs: https://raw.githubusercontent.com/Significant-Gravitas/AutoGPT/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Follow the official self-hosting guide at https://agpt.co/docs/platform/getting-started/getting-started; the upstream README also documents an install script and Docker-based local setup.
+```
 
 ## Documentation
 

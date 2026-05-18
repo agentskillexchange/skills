@@ -24,23 +24,19 @@ Python 3 environment
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install extruct
-- pip install 'extruct[cli]'
-- pip install -r requirements-dev.txt
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- :target: https://pypi.python.org/pypi/extruct
-- .. _rdflib: https://pypi.python.org/pypi/rdflib/
-- First fetch the HTML using python-requests and then feed the response body to extruct::
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ------------
-- ::
-- -----
+Install command or upstream instructions:
 
-- Source: https://github.com/scrapinghub/extruct
-- Extracted from upstream docs: https://raw.githubusercontent.com/scrapinghub/extruct/HEAD/README.rst
+```
+pip install extruct
+```
 
 ## Documentation
 

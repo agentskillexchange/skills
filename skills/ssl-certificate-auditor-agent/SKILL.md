@@ -19,24 +19,13 @@ Audits TLS/SSL configurations using sslyze Python library and SSL Labs API v3. C
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- $ pip install --upgrade pip setuptools wheel
-- $ pip install --upgrade sslyze
-- $ docker run --rm -it nablac0d3/sslyze:6.1.0 www.google.com
-- $ pip install -e .
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Python version](https://img.shields.io/pypi/pyversions/sslyze.svg)](https://pypi.org/project/sslyze/)
-- SSLyze is a fast and powerful SSL/TLS scanning tool and Python library.
-- Fully documented [Python API](https://nabla-c0d3.github.io/sslyze/documentation/) to run scans directly from any
-
-Basic usage or getting-started notes:
-- ![Run Tests](https://github.com/nabla-c0d3/sslyze/workflows/Run%20Tests/badge.svg)
-- Easy to operationalize: SSLyze can be directly run from CI/CD, in order to continuously check a server against
-- -----------
-
-- Source: https://github.com/nabla-c0d3/sslyze
-- Extracted from upstream docs: https://raw.githubusercontent.com/nabla-c0d3/sslyze/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

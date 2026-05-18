@@ -24,19 +24,19 @@ Git, git-branchless binary
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Short version: check for packages in the repositories appropriate for your system or run cargo install --locked git-branchless. Once installed, run git branchless init in your repository.
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [gitjk](https://github.com/mapmeld/gitjk): Requires a shell alias. Only undoes most recent command. Only handles some Git operations (e.g. doesn't handle rebases).
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- See https://github.com/arxanas/git-branchless/wiki/Installation.
-- ## Status
-- git-branchless is currently in **alpha**. Be prepared for breaking changes, as some of the workflows and architecture may change in the future. It's believed that there are no major bugs, but it has not yet been compr...
+Install command or upstream instructions:
 
-- Source: https://github.com/arxanas/git-branchless
-- Extracted from upstream docs: https://raw.githubusercontent.com/arxanas/git-branchless/HEAD/README.md
+```
+Install git-branchless using the repository instructions for your OS or package manager, then run `git branchless init` in repositories where you want smartlog, restack, sync, and undo workflows.
+```
 
 ## Documentation
 

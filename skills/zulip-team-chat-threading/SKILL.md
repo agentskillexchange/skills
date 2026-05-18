@@ -19,20 +19,13 @@ Zulip is an open-source organized team chat application with unique topic-based 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- make remote work productive and delightful. Fortune 500 companies, [leading open
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [mypy-coverage]: https://blog.zulip.org/2016/10/13/static-types-in-python-oh-mypy/
-- Linux, in [Docker](https://github.com/zulip/docker-zulip), or with prebuilt
-
-Basic usage or getting-started notes:
-- **Contributing code**. Check out our [guide for new
-- contributors](https://zulip.readthedocs.io/en/latest/contributing/contributing.html)
-- to get started. We have invested in making Zulip’s code highly
-
-- Source: https://github.com/zulip/zulip
-- Extracted from upstream docs: https://raw.githubusercontent.com/zulip/zulip/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

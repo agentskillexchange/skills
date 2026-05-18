@@ -20,24 +20,13 @@ BackstopJS gives agents a repeatable way to capture reference screenshots, compa
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install -g backstopjs
-- First, go ahead and install docker on your machine from the [Docker Downloads Page](https://store.docker.com/search?type=edition&offering=community&architecture=amd64).
-- Make sure Docker is running on your machine. On MacOS there is a menu item that looks like this... ![MacOS Docker Menu Item](https://user-images.githubusercontent.com/447033/42773728-fef034f4-88e2-11e8-9956-d58a7d4324...
-- npm install backstopjs
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- **Backstop 6.3.2 -- now with support for Node 20** Many thanks to @dgrebb for this doozy of a maintainance release!
-- Integrated Docker rendering -- to eliminate cross-platform rendering shenanigans
-- Run globally or locally as a standalone package app or require('backstopjs') right into your node app
-
-Basic usage or getting-started notes:
-- sh
-- ----
-- ## Contents
-
-- Source: https://github.com/garris/BackstopJS
-- Extracted from upstream docs: https://raw.githubusercontent.com/garris/BackstopJS/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

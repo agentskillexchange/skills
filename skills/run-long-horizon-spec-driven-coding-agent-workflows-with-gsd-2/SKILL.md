@@ -26,18 +26,19 @@ GSD 2 CLI, Node.js/npm, git, a supported coding-agent environment
 
 ## Installation
 
-Requirements and caveats from upstream:
-- **📋 NOTICE: New to Node on Mac?** If you installed Node.js via Homebrew, you may be running a development release instead of LTS. **[Read this guide](./docs/user-docs/node-lts-macos.md)** to pin Node 24 LTS and avoid...
-- **[Docker Sandbox](./docker/README.md)** — run GSD auto mode in an isolated Docker container
-- **Verification enforcement** — Configure simple executable commands (npm run lint, npm run test, etc.) that run automatically after task execution. Verification commands must not use shell composition or control synta...
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- **[Getting Started](./docs/user-docs/getting-started.md)** — install, first run, basic usage
-- **[Parallel Orchestration](./docs/user-docs/parallel-orchestration.md)** — run multiple milestones simultaneously
-- This is what makes GSD different. Run it, walk away, come back to built software.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/gsd-build/gsd-2
-- Extracted from upstream docs: https://raw.githubusercontent.com/gsd-build/gsd-2/HEAD/README.md
+Install command or upstream instructions:
+
+```
+npm install -g gsd-pi@latest
+```
 
 ## Documentation
 

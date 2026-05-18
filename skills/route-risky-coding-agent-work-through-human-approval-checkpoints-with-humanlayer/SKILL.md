@@ -26,16 +26,19 @@ HumanLayer/CodeLayer setup, supported coding agent such as Claude Code, reposito
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx humanlayer join-waitlist --email ...
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- **M U L T I C L A U D E** - Run Claude Code sessions in parallel. Worktrees? Done. Remote cloud workers? You got it.
-- bash
-- # Coming soon - join the waitlist for early access
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/humanlayer/humanlayer
-- Extracted from upstream docs: https://raw.githubusercontent.com/humanlayer/humanlayer/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Follow the HumanLayer setup docs, connect the supported coding-agent workflow, define approval boundaries for risky actions, and require reviewer approval before the agent resumes those actions.
+```
 
 ## Documentation
 

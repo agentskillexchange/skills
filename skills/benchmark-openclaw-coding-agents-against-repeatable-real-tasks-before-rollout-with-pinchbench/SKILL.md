@@ -24,20 +24,19 @@ Running OpenClaw instance, Python 3.10+, uv, PinchBench repository checkout, mod
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/pinchbench/skill.git
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- **Note:** Model IDs must include their provider prefix (e.g. openrouter/, anthropic/). [OpenRouter](https://openrouter.ai) is the default provider used for routing.
-- Python 3.10+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- **Tool usage** — Can the model call the right tools with the right parameters?
-- bash
-- # Clone the skill
+Install command or upstream instructions:
 
-- Source: https://github.com/pinchbench/skill
-- Extracted from upstream docs: https://raw.githubusercontent.com/pinchbench/skill/HEAD/README.md
+```
+Clone the benchmark repository, install its documented Python and uv dependencies, connect it to a running OpenClaw instance, then run the provided benchmark scripts against the model or suite you want to compare.
+```
 
 ## Documentation
 

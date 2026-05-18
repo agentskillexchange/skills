@@ -24,22 +24,19 @@ Python 3, AWS IAM policy JSON or account data, and Cloudsplaining.
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew tap salesforce/cloudsplaining https://github.com/salesforce/cloudsplaining
-- brew install cloudsplaining
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Python Version](https://img.shields.io/pypi/pyversions/cloudsplaining)](#)
-- You must have the privileges to run [iam:GetAccountAuthorizationDetails](https://docs.aws.amazon.com/IAM/latest/APIReference/API_GetAccountAuthorizationDetails.html). The arn:aws:iam::aws:policy/SecurityAudit policy i...
-- default-iam-results.json: This contains the raw JSON output of the report. You can use this data file for operating on the scan results for various purposes. For example, you could write a Python script that parses th...
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Example report](https://opensource.salesforce.com/cloudsplaining/)
-- Cloudsplaining also identifies IAM Roles that can be assumed by AWS Compute Services (such as EC2, ECS, EKS, or Lambda), as they can present greater risk than user-defined roles - especially if the AWS Compute service...
-- You can also specify a custom exclusions file to filter out results that are False Positives for various reasons. For example, User Policies are permissive by design, whereas System roles are generally more restrictiv...
+Install command or upstream instructions:
 
-- Source: https://github.com/salesforce/cloudsplaining
-- Extracted from upstream docs: https://raw.githubusercontent.com/salesforce/cloudsplaining/HEAD/README.md
+```
+Install with `pip install cloudsplaining`, export or collect the IAM policies you want to review, then run Cloudsplaining reports as part of access review or deployment checks.
+```
 
 ## Documentation
 

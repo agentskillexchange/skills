@@ -24,23 +24,19 @@ Python 3.8+
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install gitingest
-- pip install gitingest[server]
-- However, it might be a good idea to use pipx to install it.
-- You can install pipx using your preferred package manager.
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <a href="https://pypi.org/project/gitingest"><img src="https://img.shields.io/pypi/pyversions/gitingest.svg" alt="Python Versions"></a>
-- **Python package**: Import it in your code
-- Python 3.8+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- **CLI tool**: Run it as a shell command
-- If you are using pipx for the first time, run:
+Install command or upstream instructions:
 
-- Source: https://github.com/coderamp-labs/gitingest
-- Extracted from upstream docs: https://raw.githubusercontent.com/coderamp-labs/gitingest/HEAD/README.md
+```
+pip install gitingest
+```
 
 ## Source
 

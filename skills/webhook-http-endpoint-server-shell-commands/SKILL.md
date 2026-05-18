@@ -18,18 +18,13 @@ Webhook is a lightweight, configurable tool written in Go that creates HTTP endp
 
 ## Installation
 
-Requirements and caveats from upstream:
-- ## Interested in running webhook inside of a Docker container?
-- You can use one of the following Docker images, or create your own (please read [this discussion](https://github.com/adnanh/webhook/issues/63)):
-- [almir/webhook](https://github.com/almir/docker-webhook)
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- For example, if you're using Github or Bitbucket, you can use [webhook][w] to set up a hook that runs a redeploy script for your project on your staging server, whenever you push changes to the master branch of your p...
-- If you use Mattermost or Slack, you can set up an "Outgoing webhook integration" or "Slash command" to run various commands on your server, which can then report back directly to you or your channels using the "Incomi...
-- | Scriptable webhook gateway to safely run your custom builds, deploys, and proxy scripts on your servers. | An event gateway to reliably ingest, verify, queue, transform, filter, inspect, monitor, and replay webhooks. |
-
-- Source: https://github.com/adnanh/webhook
-- Extracted from upstream docs: https://raw.githubusercontent.com/adnanh/webhook/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

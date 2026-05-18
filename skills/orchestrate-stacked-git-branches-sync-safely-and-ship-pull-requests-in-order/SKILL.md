@@ -24,13 +24,19 @@ Git CLI and a Git repository
 
 ## Installation
 
-Basic usage or getting-started notes:
-- run Git Town command after having resolved conflicts
-- [skip](https://www.git-town.com/commands/skip.html) - resume the last run Git
-- [config](https://www.git-town.com/commands/config.html) - display or update
+Choose whichever fits your setup:
 
-- Source: https://github.com/git-town/git-town
-- Extracted from upstream docs: https://raw.githubusercontent.com/git-town/git-town/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+brew install git-town
+```
 
 ## Documentation
 

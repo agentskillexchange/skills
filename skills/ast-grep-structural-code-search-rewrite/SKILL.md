@@ -18,23 +18,13 @@ Use ast-grep (sg) to search, lint, and rewrite code across large codebases using
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install --global @ast-grep/cli
-- pip install ast-grep-cli
-- brew install ast-grep
-- cargo install ast-grep --locked
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- You can use $ sign + upper case letters as a [wildcard](https://en.wikipedia.org/wiki/Wildcard_character), e.g. $MATCH, to match any single AST node. Think of it as [regular expression dot](https://regexone.com/lesson...
-- You can install it from [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), [pip](https://pypi.org/), [cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html), [cargo-binstall](...
-
-Basic usage or getting-started notes:
-- bash
-- # pnpm approve-builds may be needed
-- <details>
-
-- Source: https://github.com/ast-grep/ast-grep
-- Extracted from upstream docs: https://raw.githubusercontent.com/ast-grep/ast-grep/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

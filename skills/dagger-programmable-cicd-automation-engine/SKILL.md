@@ -18,20 +18,13 @@ Dagger is an open-source automation engine for building, testing, and shipping a
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install dagger/tap/dagger
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- **SDKs in 8 languages**. Native SDKs for Go, Python, TypeScript, PHP, Java, .NET, Elixir and Rust. Each SDK is generated from the API schema, so you get idiomatic code with full type safety and editor support.
-- **Runs anywhere**. The only requirement is a Linux container runtime. Runs natively on Linux, or via Docker Desktop and similar products on macOS and Windows. Local and CI behavior are identical.
-
-Basic usage or getting-started notes:
-- **Local-first**. Once you automate a task with Dagger, it will reliably run on any supported system: your laptop, AI sandbox, CI server, or dedicated cloud infrastructure. The only dependency is a container runtime li...
-- **Repeatable**. Tools run in containers, orchestrated by sandboxed functions. Host dependencies are explicit and strictly typed. Intermediate artifacts are built just-in-time. Every operation is incremental by default...
-- **Incremental execution**. Every operation is keyed by its inputs. Change one file and only the affected operations re-run. Caching is content-addressed and works automatically across local runs and CI.
-
-- Source: https://github.com/dagger/dagger
-- Extracted from upstream docs: https://raw.githubusercontent.com/dagger/dagger/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

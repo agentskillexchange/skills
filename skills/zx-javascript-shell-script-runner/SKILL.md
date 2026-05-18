@@ -20,21 +20,13 @@ Write better shell scripts in JavaScript using Google's zx. Provides cross-platf
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install zx
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- JavaScript is a perfect choice, but the Node.js standard library
-- requires additional hassle before using. No compromise, take the best of both. The zx package provides
-- Node.js >= 12.17.0
-
-Basic usage or getting-started notes:
-- bash
-- All setup options: [zx/setup](https://google.github.io/zx/setup).
-- See also [**zx@lite**](https://google.github.io/zx/lite).
-
-- Source: https://github.com/google/zx
-- Extracted from upstream docs: https://raw.githubusercontent.com/google/zx/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

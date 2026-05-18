@@ -24,24 +24,19 @@ GitHub App or webhook setup, Kubernetes or k3s environment, supported coding-age
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- docker build -f images/orchestrator/Dockerfile -t ghcr.io/<your-org>/orchestrator:latest .
-- docker save ghcr.io/<your-org>/orchestrator:latest | sudo k3s ctr images import -
-- docker build -f images/worker-claude/Dockerfile -t worker-claude:latest .
-- docker save worker-claude:latest | sudo k3s ctr images import -
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Tested on: VPS / 8 GB RAM / 4 vCPU / k3s single-node.
-- ### 1. Prerequisites
-- **Manual option**: k3s, Docker, and kubectl installed on the VPS
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- A VPS (or machine) with 4 vCPU / 8 GB RAM minimum
-- API keys for your desired AI worker providers
-- **Ansible option**: ansible installed locally + SSH root access to the VPS
+Install command or upstream instructions:
 
-- Source: https://github.com/hey-intent/patchwork-agents
-- Extracted from upstream docs: https://raw.githubusercontent.com/hey-intent/patchwork-agents/HEAD/README.md
+```
+Deploy the orchestrator and worker stack using the upstream Ansible or Kubernetes manifests, configure GitHub webhook and app credentials plus at least one supported agent provider, then apply the documented ai-pr label workflow to repository issues.
+```
 
 ## Documentation
 

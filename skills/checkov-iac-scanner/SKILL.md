@@ -23,24 +23,19 @@ Python or Docker
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- To install pip follow the official [docs](https://pip.pypa.io/en/stable/cli/pip_install/)
-- pip install checkov
-- brew install checkov
-- brew upgrade checkov
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Python Version](https://img.shields.io/pypi/pyversions/checkov)](#)
-- [![Docker Pulls](https://img.shields.io/docker/pulls/bridgecrew/checkov.svg)](https://hub.docker.com/r/bridgecrew/checkov)
-- Supports Python format for attribute policies and YAML format for both attribute and composite policies.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Getting Started](#getting-started)
-- Terraform >= 0.12
-- sh
+Install command or upstream instructions:
 
-- Source: https://github.com/bridgecrewio/checkov
-- Extracted from upstream docs: https://raw.githubusercontent.com/bridgecrewio/checkov/HEAD/README.md
+```
+pip install checkov
+```
 
 ## Documentation
 

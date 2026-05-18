@@ -24,16 +24,19 @@ oss-fuzz-gen, compiler toolchain, fuzzing runtime
 
 ## Installation
 
-Requirements and caveats from upstream:
-- This framework generates fuzz targets for real-world C/C++/Java/Python projects with
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Check our detailed [usage guide](./USAGE.md) for instructions on how to run this framework and generate reports based on the results.
-- ## Independent Agent Execution and Evaluation
-- You can also execute or evaluate individual agents without running full experiments, using the integrated agent execution framework.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/google/oss-fuzz-gen
-- Extracted from upstream docs: https://raw.githubusercontent.com/google/oss-fuzz-gen/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Clone or install the project dependencies described upstream, run the harness generation flow against a supported codebase, then build and test the generated fuzz targets.
+```
 
 ## Documentation
 

@@ -24,19 +24,19 @@ Kubeshark deployed in the target Kubernetes cluster and an MCP-compatible client
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install kubeshark
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <a href="https://hub.docker.com/r/kubeshark/worker"><img alt="Docker pulls" src="https://img.shields.io/docker/pulls/kubeshark/worker?color=%23099cec&logo=Docker&style=flat-square"></a>
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- A visual map of how workloads communicate, showing dependencies, traffic volume, and protocol usage across the cluster.
-- | Method | Command |
-- |--------|---------|
+Install command or upstream instructions:
 
-- Source: https://github.com/kubeshark/kubeshark
-- Extracted from upstream docs: https://raw.githubusercontent.com/kubeshark/kubeshark/HEAD/README.md
+```
+Install Kubeshark in the cluster with Helm (for example: helm repo add kubeshark https://helm.kubeshark.com && helm install kubeshark kubeshark/kubeshark --set mcp.enabled=true --set mcp.port=8898), then connect an MCP client to the Kubeshark MCP endpoint.
+```
 
 ## Documentation
 

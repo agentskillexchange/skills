@@ -23,17 +23,19 @@ ripgrep; optional adapters and dependencies such as pandoc, poppler, and ffmpeg.
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install rga
-- brew install pandoc poppler ffmpeg
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Here is an [example directory](https://github.com/phiresky/ripgrep-all/tree/master/exampledir/demo) with different file types:
-- Linux x64, macOS and Windows binaries are available [in GitHub Releases][latestrelease].
-- [latestrelease]: https://github.com/phiresky/ripgrep-all/releases/latest
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/phiresky/ripgrep-all
-- Extracted from upstream docs: https://raw.githubusercontent.com/phiresky/ripgrep-all/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install via Homebrew (`brew install rga`) or Cargo (`cargo install --locked ripgrep_all`).
+```
 
 ## Documentation
 

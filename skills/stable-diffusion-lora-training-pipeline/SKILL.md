@@ -18,24 +18,13 @@ Orchestrates LoRA fine-tuning for Stable Diffusion XL using the diffusers librar
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/kohya-ss/sd-scripts.git
-- pip install torch==2.6.0 torchvision==0.21.0 --index-url https://download.pytorch.org/whl/cu124
-- pip install --upgrade -r requirements.txt
-- This installation is for CUDA 12.4. If you use a different version of CUDA, please install the appropriate version of PyTorch. For example, if you use CUDA 12.1, please install pip install torch==2.6.0 torchvision==0....
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Python 3.10.x and Git:
-- Python 3.10.x: Download Windows installer (64-bit) from https://www.python.org/downloads/windows/
-- Python 3.11.x, and 3.12.x will work but not tested.
-
-Basic usage or getting-started notes:
-- Open a regular Powershell terminal and type the following inside:
-- powershell
-- cd sd-scripts
-
-- Source: https://github.com/kohya-ss/sd-scripts
-- Extracted from upstream docs: https://raw.githubusercontent.com/kohya-ss/sd-scripts/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

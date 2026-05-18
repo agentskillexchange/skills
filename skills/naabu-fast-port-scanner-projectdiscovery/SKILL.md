@@ -18,21 +18,13 @@ Naabu is a fast and reliable port scanning tool written in Go by ProjectDiscover
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Download the ready to run [binary](https://github.com/projectdiscovery/naabu/releases/) / [docker](https://hub.docker.com/r/projectdiscovery/naabu) or install with GO
-- ## Prerequisite
-- The ports to scan for on the host can be specified via -p parameter (udp ports must be expressed as u:port). It takes nmap format ports and runs enumeration on them.
-
-Basic usage or getting-started notes:
-- <a href="#usage">Usage</a> •
-- sh
-- naabu -h
-
-- Source: https://github.com/projectdiscovery/naabu
-- Extracted from upstream docs: https://raw.githubusercontent.com/projectdiscovery/naabu/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -26,23 +26,23 @@ Node.js, elevenlabs CLI, ElevenLabs API key
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pnpm install -g @elevenlabs/cli
-- npm install -g @elevenlabs/cli
-- pnpm dlx @elevenlabs/cli agents init
-- npx @elevenlabs/cli agents init
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- **Note**: For now, your API key must be unrestricted to work with the CLI, as ElevenLabs-restricted keys are not available yet.
-- **CRITICAL**: E2E tests require a **dedicated, empty test account**.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- bash
-- # Global installation
-- # OR
+Install command or upstream instructions:
 
-- Source: https://github.com/elevenlabs/cli
-- Extracted from upstream docs: https://raw.githubusercontent.com/elevenlabs/cli/HEAD/README.md
+```
+npm install -g @elevenlabs/cli
+# or
+pnpm install -g @elevenlabs/cli
+# then authenticate
+elevenlabs auth login
+```
 
 ## Documentation
 

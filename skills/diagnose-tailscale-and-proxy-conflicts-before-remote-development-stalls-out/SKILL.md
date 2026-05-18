@@ -20,24 +20,19 @@ Read, Grep, Edit, Bash
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- uv run --with weasyprint scripts/md_to_pdf.py input.md output.pdf
-- npx promptfoo@latest init
-- npx promptfoo@latest eval
-- npx promptfoo@latest view
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Require data visualization and charts
-- **Requirements**: Python 3.8+, FFmpeg/FFprobe (install via brew install ffmpeg, apt install ffmpeg, or winget install ffmpeg)
-- **Requirements**: Python 3.8+, pandoc (system install), weasyprint (or Chrome as fallback backend)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- text
-- /plugin marketplace add daymade/claude-code-skills
-- Then:
+Install command or upstream instructions:
 
-- Source: https://github.com/daymade/claude-code-skills/blob/main/tunnel-doctor/SKILL.md
-- Extracted from upstream docs: https://raw.githubusercontent.com/daymade/claude-code-skills/HEAD/README.md
+```
+Install the tunnel-doctor skill from daymade/claude-code-skills into Claude Code, then invoke it when Tailscale and proxy or VPN layers coexist on macOS and remote development paths fail inconsistently.
+```
 
 ## Documentation
 

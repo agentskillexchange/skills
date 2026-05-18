@@ -24,13 +24,19 @@ CalendarSync binary, calendar provider credentials, sync.yaml config
 
 ## Installation
 
-Basic usage or getting-started notes:
-- Download the newest [release](https://github.com/inovex/CalendarSync/releases) for your platform or install from [the AUR](https://aur.archlinux.org/packages/calendarsync-bin).
-- **Using [asdf-vm](https://github.com/asdf-vm/asdf)**
-- You can also install this program using asdf-vm.
+Choose whichever fits your setup:
 
-- Source: https://github.com/inovex/CalendarSync
-- Extracted from upstream docs: https://raw.githubusercontent.com/inovex/CalendarSync/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install CalendarSync from GitHub releases or the documented asdf plugin, create a `sync.yaml` from the example config, set `CALENDARSYNC_ENCRYPTION_KEY`, then run `calendarsync --config sync.yaml`.
+```
 
 ## Documentation
 

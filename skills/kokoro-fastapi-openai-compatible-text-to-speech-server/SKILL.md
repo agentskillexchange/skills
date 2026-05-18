@@ -24,23 +24,19 @@ Docker
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- docker run -p 8880:8880 ghcr.io/remsky/kokoro-fastapi-cpu:latest # CPU, or:
-- docker run --gpus all -p 8880:8880 ghcr.io/remsky/kokoro-fastapi-gpu:latest # NVIDIA GPU, or:
-- docker run --device=/dev/kfd --device=/dev/dri -p 8880:8880 ghcr.io/remsky/kokoro-fastapi-rocm:latest # AMD GPU (ROCm, experimental, amd64 only)
-- git clone https://github.com/remsky/Kokoro-FastAPI.git
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <summary>Quickest Start (docker run)</summary>
-- <summary>Quick Start (docker compose) </summary>
-- Install prerequisites, and start the service using Docker Compose (Full setup including UI):
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Pre built images are available to run, with arm/multi-arch support, and baked in models
-- ### Named versions should be pinned for your regular usage.
+Install command or upstream instructions:
 
-- Source: https://github.com/remsky/Kokoro-FastAPI
-- Extracted from upstream docs: https://raw.githubusercontent.com/remsky/Kokoro-FastAPI/HEAD/README.md
+```
+docker run -p 8880:8880 ghcr.io/remsky/kokoro-fastapi-cpu:latest
+```
 
 ## Documentation
 

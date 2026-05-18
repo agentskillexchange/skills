@@ -24,22 +24,19 @@ Python 3.11 or newer, rLLM, agent code or benchmark task, reward/evaluator funct
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- uv pip install "rllm @ git+https://github.com/rllm-org/rllm.git"
-- uv pip install rllm[verl] @ git+https://github.com/rllm-org/rllm.git
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- rLLM requires Python >= 3.11. You can install it either directly via pip or build from source.
-- For building from source or Docker, see the [installation guide](https://docs.rllm-project.com/installation).
-- ### Option B: Python API
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- bash
-- this installs dependencies for running rllm cli, which uses Tinker as the training backend.
-- To use verl as the training backend (GPU machine required), install via
+Install command or upstream instructions:
 
-- Source: https://github.com/rllm-org/rllm
-- Extracted from upstream docs: https://raw.githubusercontent.com/rllm-org/rllm/HEAD/README.md
+```
+Install rLLM from the GitHub package with uv or pip, run a benchmark with rllm eval or wrap an existing agent rollout, define an evaluator, then launch training with the selected backend.
+```
 
 ## Documentation
 

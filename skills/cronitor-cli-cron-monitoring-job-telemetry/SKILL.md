@@ -24,16 +24,13 @@ Linux, macOS, or Windows shell environment
 
 ## Installation
 
-Requirements and caveats from upstream:
-- For systemd and Docker examples, and security best‑practices, see the full [Dashboard documentation](https://crontab.guru/dashboard.html).
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- CronitorCLI is packaged as a single executable for Linux, MacOS and Windows. There is a simple installation script, but all you need to do is download and decompress the app into a location of your choice for easy sys...
-- For the latest installation details, see https://cronitor.io/docs/using-cronitor-cli#installation
-- cronitor [command]
-
-- Source: https://github.com/cronitorio/cronitor-cli
-- Extracted from upstream docs: https://raw.githubusercontent.com/cronitorio/cronitor-cli/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

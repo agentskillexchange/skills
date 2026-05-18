@@ -24,24 +24,19 @@ Python 3 environment, microphone or other audio source, and downloaded Moonshine
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install moonshine-voice
-- cmake ..
-- cmake --build .
-- uv run -m moonshine_voice.transcriber --options='log_api_calls=true'
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- It's easy to integrate across platforms, with the same library running on [Python](#python), [iOS](#ios), [Android](#android), [MacOS](#macos), [Linux](#linux), [Windows](#windows), [Raspberry Pis](#raspberry-pi), [Io...
-- ### Python
-- python -m moonshine_voice.mic_transcriber --language en
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Join our community on Discord to get live support](https://discord.gg/27qp9zSRXF).
-- Example apps for iOS, Android, macOS, Windows, and Raspberry Pi are published on [GitHub Releases](https://github.com/moonshine-ai/moonshine/releases/latest) as separate archives (mostly **{platform}-{Project}.tar.gz*...
-- bash
+Install command or upstream instructions:
 
-- Source: https://github.com/moonshine-ai/moonshine
-- Extracted from upstream docs: https://raw.githubusercontent.com/moonshine-ai/moonshine/HEAD/README.md
+```
+pip install moonshine-voice
+```
 
 ## Documentation
 

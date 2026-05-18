@@ -15,22 +15,13 @@ Generates social media graphics and OG images dynamically via Bannerbear REST AP
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- $ npm install bannerbear
-- $ composer require yongfook/bannerbear
-- $ gem install bannerbear
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Node
-- gif_preview_url string A low frame rate gif preview of the final video. Requires setting create_gif_preview to true .
-- This endpoint responds with 202 Accepted after which your video will be queued to generate. Video rendering time depends on length / complexity of the video. It can vary from a few seconds to a few minutes. When compl...
-
-Basic usage or getting-started notes:
-- To check your account status at any time you can use this endpoint. It will respond with your quota levels and current usage levels. Usage resets at the start of every month.
-- 402 Payment Required -- Your have run out of image and/or video quota.
-- Example Request
-
-- Source: https://developers.bannerbear.com/v2/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

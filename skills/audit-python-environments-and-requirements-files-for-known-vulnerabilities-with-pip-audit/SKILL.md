@@ -24,24 +24,19 @@ Python 3.9+, pip, pip-audit
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip-audit
-- pip-audit is a tool for scanning Python environments for packages
-- pip-audit requires Python 3.10 or newer, and can be installed directly via pip:
-- python -m pip install pip-audit
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Packaging status](https://repology.org/badge/tiny-repos/python:pip-audit.svg)](https://repology.org/project/python:pip-audit/versions)
-- with known vulnerabilities. It uses the Python Packaging Advisory Database
-- [![Packaging status](https://repology.org/badge/vertical-allrepos/python:pip-audit.svg)](https://repology.org/project/python:pip-audit/versions)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Usage](#usage)
-- bash
-- ### Third-party packages
+Install command or upstream instructions:
 
-- Source: https://github.com/pypa/pip-audit
-- Extracted from upstream docs: https://raw.githubusercontent.com/pypa/pip-audit/HEAD/README.md
+```
+Install with `pip install pip-audit`, then run `pip-audit` in the target environment or `pip-audit -r requirements.txt` for a pinned dependency file.
+```
 
 ## Documentation
 

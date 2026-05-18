@@ -24,19 +24,19 @@ Shell access to the target UNIX-like host, with root or sudo recommended for ful
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/CISOfy/lynis
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Article by TechRepublic, considering Lynis a "must-have" tool: [How to quickly audit a Linux system from the command line](http://www.techrepublic.com/article/how-to-quickly-audit-a-linux-system-from-the-command-line/)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- There are multiple options available to install Lynis.
-- ### Software package
-- For systems running Linux, BSD, and macOS, there is typically a package available. This is the preferred method of obtaining Lynis, as it is quick to install and easy to update. The Lynis project itself also provides...
+Install command or upstream instructions:
 
-- Source: https://github.com/CISOfy/lynis
-- Extracted from upstream docs: https://raw.githubusercontent.com/CISOfy/lynis/HEAD/README.md
+```
+git clone https://github.com/CISOfy/lynis && cd lynis && ./lynis audit system
+```
 
 ## Documentation
 

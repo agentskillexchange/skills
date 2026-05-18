@@ -24,24 +24,19 @@ Xeol CLI, a container image filesystem path or SBOM input, and optional CI integ
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew tap xeol-io/xeol
-- brew install xeol
-- docker run --rm \
-- docker:yourrepo/yourimage:tag use images from the Docker daemon
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- To run xeol from a Docker container so it can scan a running container, use the following command:
-- --volume /var/run/docker.sock:/var/run/docker.sock \
-- xeol can scan a variety of sources beyond those found in Docker.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ### Recommended
-- bash
-- Check installation or check version of xeol
+Install command or upstream instructions:
 
-- Source: https://github.com/xeol-io/xeol
-- Extracted from upstream docs: https://raw.githubusercontent.com/xeol-io/xeol/HEAD/README.md
+```
+Install Xeol from the upstream release, package, or container instructions, point it at the target image, directory, or SBOM source, and review the EOL findings before release or deployment.
+```
 
 ## Documentation
 

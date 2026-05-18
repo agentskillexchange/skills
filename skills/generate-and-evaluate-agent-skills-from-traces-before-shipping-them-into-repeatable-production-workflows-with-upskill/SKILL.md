@@ -24,23 +24,21 @@ uv or Python environment, upskill CLI
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- uv pip install upskill
-- # or just use uv
-- uv sync --extra dev
-- uv run scripts/format.py
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ## Python API
-- python
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- bash
-- uvx upskill
-- Create a new skill
+Install command or upstream instructions:
 
-- Source: https://github.com/huggingface/upskill
-- Extracted from upstream docs: https://raw.githubusercontent.com/huggingface/upskill/HEAD/README.md
+```
+uv pip install upskill
+# or run without global install
+uvx upskill
+```
 
 ## Documentation
 

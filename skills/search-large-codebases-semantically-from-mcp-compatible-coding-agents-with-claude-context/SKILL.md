@@ -26,16 +26,19 @@ MCP-compatible coding agent; Node.js 20-23; OpenAI API key; Milvus or Zilliz Clo
 
 ## Installation
 
-Requirements and caveats from upstream:
-- [![Node.js](https://img.shields.io/badge/Node.js-20%2B-green.svg)](https://nodejs.org/)
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- **Open Claude Code**
-- cd your-project-directory
-- claude
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/zilliztech/claude-context
-- Extracted from upstream docs: https://raw.githubusercontent.com/zilliztech/claude-context/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Configure the MCP server in your client using the upstream package, for example `claude mcp add claude-context -- npx @zilliz/claude-context-mcp@latest`, then provide the required OpenAI and Milvus/Zilliz credentials.
+```
 
 ## Documentation
 

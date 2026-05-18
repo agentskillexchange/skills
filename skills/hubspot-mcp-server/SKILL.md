@@ -25,23 +25,19 @@ Node.js, npm
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install @hubspot/api-client
-- npm install
-- npm run test
-- npm run lint
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- const hubspot = require('@hubspot/api-client')
-- const fs = require('fs')
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- defaultHeaders: { 'My-header': 'test-example' },
-- All methods return a [promise]. The success includes the serialized to JSON body and response objects. Use the API method via:
-- javascript
+Install command or upstream instructions:
 
-- Source: https://github.com/HubSpot/hubspot-api-nodejs
-- Extracted from upstream docs: https://raw.githubusercontent.com/HubSpot/hubspot-api-nodejs/HEAD/README.md
+```
+npm install @hubspot/api-client
+```
 
 ## Documentation
 

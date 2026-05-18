@@ -24,21 +24,19 @@ Python, Graphviz, a local Python codebase to analyze.
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install pydeps
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Python module dependency visualization.
-- --pylib include python std lib modules
-- --pylib-all include python all std lib modules (incl. C modules)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- To create graphs with pydeps you also need to install Graphviz_. Please follow the
-- sure the dot command is on your path).
-- ------------------
+Install command or upstream instructions:
 
-- Source: https://github.com/thebjorn/pydeps
-- Extracted from upstream docs: https://raw.githubusercontent.com/thebjorn/pydeps/HEAD/README.rst
+```
+Install with pip install pydeps, then install Graphviz so the dot command is available on PATH.
+```
 
 ## Documentation
 

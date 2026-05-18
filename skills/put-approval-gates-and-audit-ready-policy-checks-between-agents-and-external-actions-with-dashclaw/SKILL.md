@@ -26,22 +26,19 @@ DashClaw service plus a supported agent framework or MCP-capable client
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx dashclaw-demo
-- npm install dashclaw # or: pip install dashclaw
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Python uses the same shape with snake_case. Full reference: [sdk/README.md](./sdk/README.md). Step-by-step walkthrough: [QUICK-START.md](./QUICK-START.md).
-- [Node SDK reference](./sdk/README.md): canonical reference for the dashclaw npm package.
-- [Python SDK reference](./sdk-python/README.md): same surface, snake_case.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- <p><sub>Plugs into the agents you already run: Claude Code, Codex, Hermes Agent, OpenClaw, Claude Desktop, and Claude Managed Agents. Framework integrations for LangChain, CrewAI, AutoGen, LangGraph, and OpenAI Agents...
-- | **Enforce** | Declarative policies (risk thresholds, deploy gates, capability access rules, semantic checks) run on every action. |
-- ### 10-second demo
+Install command or upstream instructions:
 
-- Source: https://github.com/ucsandman/DashClaw
-- Extracted from upstream docs: https://raw.githubusercontent.com/ucsandman/DashClaw/HEAD/README.md
+```
+Deploy DashClaw from the repository or quick-start docs, connect a supported agent client or MCP server, and route external actions through DashClaw so approval and policy checks run before execution.
+```
 
 ## Documentation
 

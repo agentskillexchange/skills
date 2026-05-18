@@ -26,14 +26,19 @@ MCP-compatible client (Claude Code, Cursor, or similar), E2B API key, Node.js ru
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx @smithery/cli install e2b --client claude
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [Python](packages/python/README.md)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/e2b-dev/mcp-server
-- Extracted from upstream docs: https://raw.githubusercontent.com/e2b-dev/mcp-server/HEAD/README.md
+Install command or upstream instructions:
+
+```
+npm install @e2b/mcp-server
+```
 
 ## Documentation
 

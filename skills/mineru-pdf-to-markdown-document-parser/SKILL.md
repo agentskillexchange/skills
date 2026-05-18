@@ -18,24 +18,13 @@ Transforms complex PDFs into LLM-ready markdown and JSON using MinerU, a high-ac
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install --upgrade pip
-- pip install uv
-- uv pip install -U "mineru[all]"
-- git clone https://github.com/opendatalab/MinerU.git
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/mineru)](https://pypi.org/project/mineru/)
-- | Development | Python / Go / TypeScript SDK · CLI · REST API · Docker |
-- The official online version has the same functionality as the client, with a beautiful interface and rich features, requires login to use
-
-Basic usage or getting-started notes:
-- While maintaining high accuracy, it keeps resource usage extremely low and continues to support inference in pure CPU environments.
-- Optimized the parsing pipeline with a sliding-window mechanism, significantly reducing peak memory usage in long-document scenarios, so documents with tens of thousands of pages no longer need to be split manually.
-- This update is not just a set of feature enhancements, but a key leap forward in MinerU's overall system capabilities. We specifically addressed the peak memory usage issue in long-document parsing. Through optimizati...
-
-- Source: https://github.com/opendatalab/MinerU
-- Extracted from upstream docs: https://raw.githubusercontent.com/opendatalab/MinerU/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

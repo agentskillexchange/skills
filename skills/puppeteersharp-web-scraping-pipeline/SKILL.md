@@ -23,16 +23,19 @@ Builds headless Chrome scraping pipelines using PuppeteerSharp for .NET environm
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Puppeteer Sharp is a .NET port of the official [Node.JS Puppeteer API](https://github.com/puppeteer/puppeteer).
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- | [PuppeteerSharp.AspNetFramework](https://www.nuget.org/packages/PuppeteerSharp.AspNetFramework/) | The companion library you need to run PuppeteerSharp in ASP.NET Classic |
-- Puppeteer-Sharp comes in two flavors: a NetStandard 2.0 library for .NET Framework 4.6.1 and .NET Core 2.0 or greater and a .NET 8 version.
-- If you have issues running Chrome on Linux, the Puppeteer repo has a [great troubleshooting guide](https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md).
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/hardkoded/puppeteer-sharp
-- Extracted from upstream docs: https://raw.githubusercontent.com/hardkoded/puppeteer-sharp/HEAD/README.md
+Install command or upstream instructions:
+
+```
+dotnet add package PuppeteerSharp
+```
 
 ## Documentation
 

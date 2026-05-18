@@ -18,22 +18,13 @@ Rallly is an open-source scheduling and collaboration tool that makes organizing
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/lukevella/rallly.git
-- pnpm install
-- pnpm db:generate
-- pnpm docker:up
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- You will need to have [Docker](https://docs.docker.com/get-docker/) installed and running to run the database using the provided docker-compose file.
-
-Basic usage or getting-started notes:
-- To start the database, run:
-- Next run the following command to setup the database:
-- run migrations to create a new database schema
-
-- Source: https://github.com/lukevella/rallly
-- Extracted from upstream docs: https://raw.githubusercontent.com/lukevella/rallly/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

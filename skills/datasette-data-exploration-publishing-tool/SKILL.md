@@ -18,22 +18,13 @@ Datasette is an open-source Python tool for exploring and publishing data. It tu
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install datasette
-- pip install datasette
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Python 3.x](https://img.shields.io/pypi/pyversions/datasette.svg?logo=python&logoColor=white)](https://pypi.org/project/datasette/)
-- [![docker: datasette](https://img.shields.io/badge/docker-datasette-blue)](https://hub.docker.com/r/datasetteproject/datasette)
-- Datasette requires Python 3.8 or higher. We also have [detailed installation instructions](https://docs.datasette.io/en/stable/installation.html) covering other options such as Docker.
-
-Basic usage or getting-started notes:
-- If you are on a Mac, [Homebrew](https://brew.sh/) is the easiest way to install Datasette:
-- You can also install it using pip or pipx:
-- ## Basic usage
-
-- Source: https://github.com/simonw/datasette
-- Extracted from upstream docs: https://raw.githubusercontent.com/simonw/datasette/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

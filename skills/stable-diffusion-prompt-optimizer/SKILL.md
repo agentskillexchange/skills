@@ -18,23 +18,13 @@ Analyzes and enhances Stable Diffusion prompts using the Automatic1111 WebUI API
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- conda env create -f environment.yaml
-- conda activate ldm
-- conda install pytorch torchvision -c pytorch
-- pip install transformers==4.19.2 diffusers invisible-watermark
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- python scripts/txt2img.py --prompt "a photograph of an astronaut riding a horse" --plms
-- and renders images of size 512x512 (which it was trained on) in 50 steps. All supported arguments are listed below (type python scripts/txt2img.py --help).
-
-Basic usage or getting-started notes:
-- A suitable [conda](https://conda.io/) environment named ldm can be created
-- and activated with:
-- You can also update an existing [latent diffusion](https://github.com/CompVis/latent-diffusion) environment by running
-
-- Source: https://github.com/CompVis/stable-diffusion
-- Extracted from upstream docs: https://raw.githubusercontent.com/CompVis/stable-diffusion/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

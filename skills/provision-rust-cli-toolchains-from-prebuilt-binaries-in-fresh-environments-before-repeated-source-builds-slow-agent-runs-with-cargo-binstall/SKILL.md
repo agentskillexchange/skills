@@ -24,19 +24,19 @@ Rust and cargo-binstall, plus network access to published release binaries for t
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- $ cargo binstall radio-sx128x@0.14.1-alpha.5
-- To upgrade cargo-binstall, use cargo binstall cargo-binstall!
-- brew install cargo-binstall
-- cargo install cargo-binstall --locked
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- console
-- INFO resolve: Resolving package: 'radio-sx128x@=0.14.1-alpha.5'
-- WARN The package radio-sx128x v0.14.1-alpha.5 (x86_64-unknown-linux-gnu) has been downloaded from github.com
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/cargo-bins/cargo-binstall
-- Extracted from upstream docs: https://raw.githubusercontent.com/cargo-bins/cargo-binstall/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install cargo-binstall with the upstream method for your platform, commonly `cargo install cargo-binstall`, then use `cargo binstall <crate>` to provision supported Rust CLI tools from prebuilt binaries in fresh environments.
+```
 
 ## Documentation
 

@@ -25,24 +25,19 @@ Node.js
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install @deepgram/sdk
-- pnpm install
-- make build
-- make test
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Node.js 18+](https://img.shields.io/badge/node-18+-blue.svg)](https://nodejs.org/)
-- Your proxy must set the Authorization: token DEEPGRAM_API_KEY header and forward requests to Deepgram's API. See our example [Deepgram Node Proxy](https://github.com/deepgram-devs/deepgram-node-proxy).
-- Node.js 18+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- bash
-- ## Reference
-- **[API Reference](./reference.md)** - Complete reference for all SDK methods and parameters
+Install command or upstream instructions:
 
-- Source: https://github.com/deepgram/deepgram-js-sdk
-- Extracted from upstream docs: https://raw.githubusercontent.com/deepgram/deepgram-js-sdk/HEAD/README.md
+```
+npm install @deepgram/sdk
+```
 
 ## Documentation
 

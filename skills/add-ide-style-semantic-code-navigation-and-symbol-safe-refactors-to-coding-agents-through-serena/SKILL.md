@@ -24,20 +24,19 @@ Serena installation, an MCP-compatible coding agent or client, supported languag
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- uv tool install -p 3.13 serena-agent@latest --prerelease=allow
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- **Opus 4.6 (high) in Claude Code on a large Python codebase:**
-- **Prerequisites**. Serena is managed by *uv*, and [installing uv](https://docs.astral.sh/uv/getting-started/installation/) is the only required prerequisite.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Instead, follow our [Quick Start](#quick-start) instructions.
-- See our [documentation](https://oraios.github.io/serena/04-evaluation/000_evaluation-intro.html) for the full methodology and much more detailed evaluation results, or run your own evaluation on a project of your choice.
-- See the [Quick Start](#quick-start) section below for information on how to get started.
+Install command or upstream instructions:
 
-- Source: https://github.com/oraios/serena
-- Extracted from upstream docs: https://raw.githubusercontent.com/oraios/serena/HEAD/README.md
+```
+Install Serena using the upstream quick-start instructions, connect it to the target coding agent through MCP, then enable its semantic navigation and refactor tools for the repository you want the agent to edit.
+```
 
 ## Documentation
 

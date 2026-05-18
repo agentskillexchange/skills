@@ -23,18 +23,19 @@ Node.js
 
 ## Installation
 
-Requirements and caveats from upstream:
-- [![node](https://img.shields.io/node/v/diff2html)](https://www.npmjs.com/package/diff2html)
-- [Diff2Html NPM / Node.js Library](#diff2html-npm--nodejs-library)
-- [Node Library](https://www.npmjs.org/package/diff2html)
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- [Online Example](#online-example)
-- [Usage](#usage)
-- [Diff2HtmlUI Usage](#diff2htmlui-usage)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/rtfpessoa/diff2html
-- Extracted from upstream docs: https://raw.githubusercontent.com/rtfpessoa/diff2html/HEAD/README.md
+Install command or upstream instructions:
+
+```
+npm install diff2html-cli
+```
 
 ## Documentation
 

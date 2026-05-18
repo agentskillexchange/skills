@@ -18,20 +18,13 @@ Kestra is an open-source, event-driven orchestration platform that makes both sc
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- **Docker and Kubernetes Support:** Seamlessly run Docker containers within your workflows or launch Kubernetes jobs to handle compute-intensive workloads.
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Kestra's functionality is extended through a rich [ecosystem of plugins](https://kestra.io/plugins) that empower you to run tasks anywhere and code in any language, including Python, Node.js, R, Go, Shell, and more. H...
-- **Scripting Support:** Write scripts in your preferred programming language. Kestra supports Python, Node.js, R, Go, Shell, and others, allowing you to integrate existing codebases and deployment patterns.
-
-Basic usage or getting-started notes:
-- **Rich Plugin Ecosystem:** hundreds of plugins built in to extract data from any database, cloud storage, or API, and **run scripts in any language**.
-- **Run Anywhere:**
-- **Flexible Automation:** Execute shell commands, run SQL queries against various databases, and make HTTP requests to interact with APIs.
-
-- Source: https://github.com/kestra-io/kestra
-- Extracted from upstream docs: https://raw.githubusercontent.com/kestra-io/kestra/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

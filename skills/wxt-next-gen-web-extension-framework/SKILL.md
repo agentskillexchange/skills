@@ -18,17 +18,13 @@ WXT is an open-source, next-generation framework for building browser extensions
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx wxt@latest init
-- pnpm dlx wxt@latest init
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- ![Example CLI Output](https://raw.githubusercontent.com/wxt-dev/wxt/HEAD/docs/assets/cli-output.png)
-- Bootstrap a new project:
-- sh
-
-- Source: https://github.com/wxt-dev/wxt
-- Extracted from upstream docs: https://raw.githubusercontent.com/wxt-dev/wxt/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

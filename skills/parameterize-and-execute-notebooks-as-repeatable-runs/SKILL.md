@@ -18,22 +18,13 @@ Use Papermill when an agent needs to treat a Jupyter notebook like a reusable jo
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install papermill
-- pip install papermill[all]
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/papermill)](https://pypi.org/project/papermill/)
-- [![papermill](https://snyk.io/advisor/python/papermill/badge.svg)](https://snyk.io/advisor/python/papermill)
-- like s3, or azure -- or use all. To use Black to format parameters you can add as an extra requires ['black'].
-
-Basic usage or getting-started notes:
-- example:
-- Perhaps you have a financial report that you wish to run with
-- Do you want to run a notebook and depending on its results, choose a
-
-- Source: https://github.com/nteract/papermill
-- Extracted from upstream docs: https://raw.githubusercontent.com/nteract/papermill/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

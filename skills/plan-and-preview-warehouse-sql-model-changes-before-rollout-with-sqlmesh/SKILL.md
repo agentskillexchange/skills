@@ -24,21 +24,19 @@ Python 3.9+, pip, SQLMesh, warehouse connection
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install 'sqlmesh[lsp]' # install the sqlmesh package with extensions to work with VSCode
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- SQLMesh is a next-generation data transformation framework designed to ship data quickly, efficiently, and without error. Data teams can run and deploy data transformations written in SQL or Python with visibility and...
-- python -m venv .venv
-- Note: You may need to run python3 or pip3 instead of python or pip, depending on your python installation.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- # run the unit test
-- 'new_column' AS new_column, /* non-breaking change example */
-- Track what data’s been modified and run only the necessary transformations for [incremental models](https://tobikodata.com/correctly-loading-incremental-data-at-scale.html)
+Install command or upstream instructions:
 
-- Source: https://github.com/SQLMesh/sqlmesh
-- Extracted from upstream docs: https://raw.githubusercontent.com/SQLMesh/sqlmesh/HEAD/README.md
+```
+Install with `pip install sqlmesh`, connect your warehouse in the SQLMesh project config, then use commands like `sqlmesh plan` and `sqlmesh diff` before applying changes.
+```
 
 ## Documentation
 

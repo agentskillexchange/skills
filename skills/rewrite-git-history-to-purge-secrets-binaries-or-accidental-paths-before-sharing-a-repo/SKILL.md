@@ -23,21 +23,19 @@ git >= 2.36.0, python3 >= 3.6
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone file://$(pwd) newcopy
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [Prerequisites](#prerequisites)
-- filter-repo requires:
-- is all contained in a single-file python script named
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Simple example, with comparisons](#simple-example-with-comparisons)
-- git >= 2.36.0
-- python3 >= 3.6
+Install command or upstream instructions:
 
-- Source: https://github.com/newren/git-filter-repo
-- Extracted from upstream docs: https://raw.githubusercontent.com/newren/git-filter-repo/HEAD/README.md
+```
+Download the git-filter-repo script from the repo, preserve its name, and place it on your PATH
+```
 
 ## Documentation
 

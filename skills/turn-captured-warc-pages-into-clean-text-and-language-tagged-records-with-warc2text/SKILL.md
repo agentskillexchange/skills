@@ -24,23 +24,19 @@ warc2text build or binary, WARC input files, local output storage
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone --recurse-submodules https://github.com/bitextor/warc2text.git
-- git clone https://github.com/bitextor/warc2text.git
-- brew install uchardet libzip
-- cmake -DCMAKE_INSTALL_PREFIX=/your/prefix/path ..
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- On a node with EasyBuild installed you can install warc2text as a module:
-- --skip-text-extraction Skip text extraction and output only html. This option is not compatible with "text" value in -f option and also requires to skip language identification.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- On Debian/Ubuntu/Mint:
-- apt-get install build-essential cmake libuchardet-dev libzip-dev libboost-thread-dev libboost-regex-dev libboost-filesystem-dev libboost-log-dev libboost-iostreams-dev libboost-locale-dev libboost-program-options-dev
-- On Mac:
+Install command or upstream instructions:
 
-- Source: https://github.com/bitextor/warc2text
-- Extracted from upstream docs: https://raw.githubusercontent.com/bitextor/warc2text/HEAD/README.md
+```
+Install the documented build dependencies, build or install warc2text, then run `warc2text -o <output_folder> [options] <warc_file>...` to emit text, HTML, and metadata outputs from archived captures.
+```
 
 ## Documentation
 

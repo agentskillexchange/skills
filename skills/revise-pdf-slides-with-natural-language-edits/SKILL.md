@@ -18,24 +18,13 @@ Use Nano-PDF when an agent needs to update existing PDF slides or insert matchin
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install nano-pdf
-- brew install poppler tesseract
-- Make sure you've installed poppler and tesseract for your platform. After installation, restart your terminal to refresh PATH. Run which pdftotext and which tesseract to verify they're accessible.
-- git clone https://github.com/gavrielc/Nano-PDF.git
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-- **Note:** This tool uses Gemini 3 Pro Image which requires a paid API tier. See [pricing](https://ai.google.dev/pricing) for details.
-- Python 3.10+
-
-Basic usage or getting-started notes:
-- ## Example
-- ### Using pip
-- bash
-
-- Source: https://github.com/gavrielc/Nano-PDF
-- Extracted from upstream docs: https://raw.githubusercontent.com/gavrielc/Nano-PDF/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

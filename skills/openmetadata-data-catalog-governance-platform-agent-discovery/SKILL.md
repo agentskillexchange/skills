@@ -18,16 +18,13 @@ OpenMetadata provides a central metadata layer for data discovery, lineage, qual
 
 ## Installation
 
-Requirements and caveats from upstream:
-- The AI SDK enables AI applications to use OpenMetadata context from Python, TypeScript, and Java.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- OpenMetadata connects technical metadata, data quality signals, data lineage, column-level lineage, ownership, usage, policies, conversations, glossaries, classifications, metrics, domains, and data products into a un...
-- run semantic search
-- For example, a user can ask:
-
-- Source: https://github.com/open-metadata/OpenMetadata
-- Extracted from upstream docs: https://raw.githubusercontent.com/open-metadata/OpenMetadata/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -18,13 +18,13 @@ Ghostty is a fast, feature-rich, cross-platform terminal emulator that uses plat
 
 ## Installation
 
-Basic usage or getting-started notes:
-- example or the [examples directory](https://github.com/ghostty-org/ghostty/tree/main/example)
-- can run every mainstream terminal program without issue. For legacy sequences,
-- well-known "fast" terminals. For example, Ghostty and Alacritty are usually within
+Choose whichever fits your setup:
 
-- Source: https://github.com/ghostty-org/ghostty
-- Extracted from upstream docs: https://raw.githubusercontent.com/ghostty-org/ghostty/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

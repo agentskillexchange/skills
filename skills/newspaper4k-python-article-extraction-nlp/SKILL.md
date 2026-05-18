@@ -18,24 +18,13 @@ Newspaper4k is an actively maintained fork of the popular Newspaper3k library fo
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install newspaper4k
-- pip install newspaper4k[gnews]
-- brew install libxml2 libxslt
-- brew install libtiff libjpeg webp little-cms2
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ## Python compatibility
-- Python 3.10+ minimum
-- python -m newspaper --url="https://edition.cnn.com/2023/11/17/success/job-seekers-use-ai/index.html" --language=en --output-format=json --output-file=article.json
-
-Basic usage or getting-started notes:
-- bash
-- ## Using the CLI
-- You can start directly from the command line, using the included CLI:
-
-- Source: https://github.com/AndyTheFactory/newspaper4k
-- Extracted from upstream docs: https://raw.githubusercontent.com/AndyTheFactory/newspaper4k/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

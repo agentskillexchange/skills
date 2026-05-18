@@ -24,13 +24,19 @@ Claude Code, Harness plugin or copied skill files, a project or domain descripti
 
 ## Installation
 
-Basic usage or getting-started notes:
-- **Validation** — Trigger verification, dry-run testing, and with-skill vs without-skill comparison tests
-- ### Via Marketplace
-- #### Add the marketplace
+Choose whichever fits your setup:
 
-- Source: https://github.com/revfactory/harness
-- Extracted from upstream docs: https://raw.githubusercontent.com/revfactory/harness/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install the Harness Claude Code plugin from the repository instructions or copy the skill files into ~/.claude/skills/harness, then invoke the documented prompts such as 'build a harness for this project' to generate .claude/agents and .claude/skills for the target domain.
+```
 
 ## Documentation
 

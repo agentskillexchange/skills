@@ -18,24 +18,13 @@ grex is a command-line tool and library that automatically generates regular exp
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/pemistahl/grex.git
-- cargo build
-- cargo test
-- cargo bench
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![python build status](https://github.com/pemistahl/grex/actions/workflows/python-build.yml/badge.svg)](https://github.com/pemistahl/grex/actions/workflows/python-build.yml)
-- ![supported Python versions](https://img.shields.io/badge/Python-%3E%3D%203.12-blue?logo=Python&logoColor=yellow)
-- Specifies the minimum length a repeated substring must have in order to be converted if
-
-Basic usage or getting-started notes:
-- Input:
-- [INPUT]... One or more test cases separated by blank space
-- -f, --file <FILE> Reads test cases on separate lines from a file
-
-- Source: https://github.com/pemistahl/grex
-- Extracted from upstream docs: https://raw.githubusercontent.com/pemistahl/grex/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

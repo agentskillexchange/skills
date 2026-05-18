@@ -24,12 +24,19 @@ A Databasement deployment with supported source databases and storage targets, p
 
 ## Installation
 
-Requirements and caveats from upstream:
-- <a href="https://hub.docker.com/r/davidcrty/databasement">
-- <img src="https://img.shields.io/docker/pulls/davidcrty/databasement" alt="Docker Pulls" />
+Choose whichever fits your setup:
 
-- Source: https://github.com/David-Crty/databasement
-- Extracted from upstream docs: https://raw.githubusercontent.com/David-Crty/databasement/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Deploy Databasement using Docker, Docker Compose, Kubernetes Helm, or the native Ubuntu instructions from the official docs, then configure your databases, storage destination, and automation access before using it in agent-run backup workflows.
+```
 
 ## Documentation
 

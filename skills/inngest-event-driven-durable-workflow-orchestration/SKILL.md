@@ -18,20 +18,13 @@ Inngest is an open-source workflow orchestration platform that replaces queues, 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx inngest-cli@latest dev
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Follow our [Next.js](https://www.inngest.com/docs/getting-started/nextjs-quick-start?ref=github-inngest-readme), [Node.js](https://www.inngest.com/docs/getting-started/nodejs-quick-start?ref=github-inngest-readme) or...
-- **Python** ([inngest-py](https://github.com/inngest/inngest-py)) - [Reference](https://www.inngest.com/docs/reference/python?ref=github-inngest-readme)
-
-Basic usage or getting-started notes:
-- Run the [**Inngest Dev Server**](#getting-started) for a complete local development experience, with production parity.
-- ### An example durable function
-- Inngest Functions enable developers to run reliable background logic, from background jobs to complex workflows. An Inngest Function is composed of three key parts that provide robust support for retrying, scheduling,...
-
-- Source: https://github.com/inngest/inngest
-- Extracted from upstream docs: https://raw.githubusercontent.com/inngest/inngest/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -18,22 +18,13 @@ Microsoft Learn MCP Server gives agents and IDE assistants direct access to offi
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx @microsoft/learn-cli search "azure functions timeout"
-- npm install -g @microsoft/learn-cli
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- "Show me runnable Python code to do harms eval using the Azure AI Foundry evaluation SDK."
-- For applications that require OpenAI Deep Research model compatibility, you can use the OpenAI-compatible endpoint:
-- If your use case requires a direct, programmatic integration, it is essential to understand that MCP is a **dynamic protocol, not a static API**. The available tools and their schemas will evolve.
-
-Basic usage or getting-started notes:
-- ### ✨ Example Prompts
-- **Note:** This URL is intended for use **within a compliant MCP client** via Streamable HTTP, such as the recommended clients listed in our [Getting Started](#-installation--getting-started) section. It does not suppo...
-- The Microsoft Learn MCP Server offers experimental features that are under active development. These features may change or be refined based on user feedback and usage patterns.
-
-- Source: https://github.com/MicrosoftDocs/mcp
-- Extracted from upstream docs: https://raw.githubusercontent.com/MicrosoftDocs/mcp/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -24,24 +24,19 @@ Python 3.10+, tmux 3.3+, uv, supported CLI developer agents
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install python@3.12
-- ### 3. Install uv
-- uv tool install git+https://github.com/awslabs/cli-agent-orchestrator.git@main --upgrade
-- uv tool install cli-agent-orchestrator --upgrade
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Python versions](https://img.shields.io/pypi/pyversions/cli-agent-orchestrator.svg)](https://pypi.org/project/cli-agent-orchestrator/)
-- **Python 3.10 or higher** — see [pyproject.toml](pyproject.toml)
-- **[uv](https://docs.astral.sh/uv/)** — fast Python package installer and virtual environment manager
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- **Headless agent execution in CI** — cao launch --headless --async to run tasks unattended.
-- **Cross-provider mixing** — run workers on different CLIs in the same session. Pin a profile to a provider via agent frontmatter. See [Cross-Provider Orchestration](#cross-provider-orchestration).
-- **curl** and **git** — for downloading installers and cloning the repo
+Install command or upstream instructions:
 
-- Source: https://github.com/awslabs/cli-agent-orchestrator
-- Extracted from upstream docs: https://raw.githubusercontent.com/awslabs/cli-agent-orchestrator/HEAD/README.md
+```
+Install Python 3.10+, tmux, and uv, then install CLI Agent Orchestrator from the repo and configure supported CLI agents.
+```
 
 ## Documentation
 

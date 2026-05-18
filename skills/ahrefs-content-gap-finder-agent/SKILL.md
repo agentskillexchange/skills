@@ -14,14 +14,13 @@ Identifies content gaps using the Ahrefs API v3 /site-explorer/organic-keywords 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Make a copy of our content gap analysis template , then navigate to the Competitive Analysis tool in Ahrefs and check it’s set to “keywords.”
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- For example, our gap analysis report shows that Moz has a page listing the top 500 most popular websites.
-- For example, we already have a page on the topic of landing pages but are missing some keywords.
-
-- Source: https://ahrefs.com/blog/content-gap-analysis/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

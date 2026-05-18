@@ -18,22 +18,13 @@ Orchestrates Stable Diffusion image generation with ControlNet pose conditioning
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- conda env create -f environment.yaml
-- conda activate control
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- python gradio_canny2image.py
-- python gradio_hough2image.py
-- python gradio_hed2image.py
-
-Basic usage or getting-started notes:
-- Note that the UI is based on Gradio, and Gradio is somewhat difficult to customize. Right now you need to draw scribbles outside the UI (using your favorite drawing software, for example, MS Paint) and then import the...
-- Note that the below example is 768×768. No prompts. No "positive" prompts. No "negative" prompts.
-- Below is another challenging example:
-
-- Source: https://github.com/lllyasviel/ControlNet
-- Extracted from upstream docs: https://raw.githubusercontent.com/lllyasviel/ControlNet/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -15,15 +15,13 @@ Tracks SLO compliance using the New Relic NerdGraph GraphQL API and NRQL queries
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Monitor application performance across your stack. We’ve got agents for Go, Java, .NET, Node.js, PHP, Python, and Ruby.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Jump into the UI and set up New Relic to instrument your tech stack.
-- Tutorials
-- Common ways to use New Relic to solve real-world problems.
-
-- Source: https://docs.newrelic.com/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

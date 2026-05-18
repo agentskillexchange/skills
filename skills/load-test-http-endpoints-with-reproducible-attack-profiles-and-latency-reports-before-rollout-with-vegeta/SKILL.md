@@ -24,19 +24,19 @@ Vegeta CLI and a targets file or piped HTTP target definitions
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- $ brew update && brew install vegeta
-- git clone https://github.com/tsenart/vegeta
-- make vegeta
-- Make sure open file descriptor and process limits are set to a high number for your user **on each machine**
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Easy to install and run (static binary, package managers, etc).
-- ### Pre-compiled executables
-- Get them [here](http://github.com/tsenart/vegeta/releases).
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/tsenart/vegeta
-- Extracted from upstream docs: https://raw.githubusercontent.com/tsenart/vegeta/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install a prebuilt release binary or use a package manager such as Homebrew with `brew install vegeta`, then pipe targets into `vegeta attack` and pass the results to `vegeta report` or `vegeta plot`.
+```
 
 ## Documentation
 

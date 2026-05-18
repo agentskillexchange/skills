@@ -24,23 +24,19 @@ Python 3, pip, Vulture CLI
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- $ pip install vulture
-- make some modifications.
-- make it harder to read.
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![PyPI Version](https://img.shields.io/pypi/v/vulture.svg)](https://pypi.python.org/pypi/vulture)
-- Vulture finds unused code in Python programs. This is useful for
-- Due to Python's dynamic nature, static code analyzers like Vulture are
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- cleaning up and finding errors in large code bases. If you run Vulture
-- $ vulture myscript.py # or
-- $ python3 -m vulture myscript.py
+Install command or upstream instructions:
 
-- Source: https://github.com/jendrikseipp/vulture
-- Extracted from upstream docs: https://raw.githubusercontent.com/jendrikseipp/vulture/HEAD/README.md
+```
+Install with `pip install vulture`, then run `vulture path/to/repo` and review the reported unused code before making cleanup edits.
+```
 
 ## Documentation
 

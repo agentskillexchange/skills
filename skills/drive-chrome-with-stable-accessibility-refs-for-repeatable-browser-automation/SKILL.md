@@ -20,21 +20,19 @@ pinchtab, Chrome/Chromium
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install pinchtab/tap/pinchtab
-- npm install -g pinchtab
-- docker run -d \
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- **Docker:**
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- **macOS / Linux:**
-- bash
-- **Homebrew (macOS / Linux):**
+Install command or upstream instructions:
 
-- Source: https://github.com/pinchtab/pinchtab/tree/main/skills/pinchtab
-- Extracted from upstream docs: https://raw.githubusercontent.com/pinchtab/pinchtab/HEAD/README.md
+```
+Install PinchTab via the official Homebrew tap or Go package, then use the documented CLI workflow to open pages, inspect refs, click, type, capture screenshots, or fall back to the HTTP API when needed.
+```
 
 ## Documentation
 

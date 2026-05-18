@@ -24,22 +24,19 @@ Python, pip, FFmpeg, and eSpeak
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install numpy
-- pip install aeneas
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- **aeneas** is a Python/C library and a set of tools to automagically synchronize audio and text (aka forced alignment).
-- Quick Links: [Home](http://www.readbeyond.it/aeneas/) - [GitHub](https://github.com/readbeyond/aeneas/) - [PyPI](https://pypi.python.org/pypi/aeneas/) - [Docs](http://www.readbeyond.it/aeneas/docs/) - [Tutorial](http:...
-- [Python](https://python.org/) 2.7 (Linux, OS X, Windows) or 3.5 or later (Linux, OS X)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- For example, given
-- All-in-one installers are available for Mac OS X and Windows,
-- and a Bash script for deb-based Linux distributions (Debian, Ubuntu)
+Install command or upstream instructions:
 
-- Source: https://github.com/readbeyond/aeneas
-- Extracted from upstream docs: https://raw.githubusercontent.com/readbeyond/aeneas/HEAD/README.md
+```
+Install FFmpeg and eSpeak, then run: pip install numpy && pip install aeneas
+```
 
 ## Documentation
 

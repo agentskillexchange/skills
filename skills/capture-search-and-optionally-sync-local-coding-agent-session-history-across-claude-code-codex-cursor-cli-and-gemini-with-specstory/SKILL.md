@@ -24,13 +24,19 @@ A supported coding agent such as Claude Code, Codex CLI, Cursor CLI, Droid CLI, 
 
 ## Installation
 
-Basic usage or getting-started notes:
-- | Product | Type | Source | Supported Agent | Min Version | Installation | Changelog |
-- |------------------------------------------------------------------|------|-----------------------------------------------------------------------------------------------------|----------------------------------------...
-- | **[Cursor Extension](https://www.cursor.com/)** | IDE | Closed | [Cursor AI](https://www.cursor.com/) | v0.43.6+ | Search "SpecStory" in Extensions (Cmd/Ctrl+Shift+X) → Install | [📋 View](https://marketplace.visuals...
+Choose whichever fits your setup:
 
-- Source: https://github.com/specstoryai/getspecstory
-- Extracted from upstream docs: https://raw.githubusercontent.com/specstoryai/getspecstory/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install the open SpecStory CLI with `brew tap specstoryai/tap && brew install specstory`, run `specstory check`, then launch a supported agent with `specstory run <agent>` so sessions are auto-saved to `.specstory/history/`.
+```
 
 ## Documentation
 

@@ -18,24 +18,13 @@ LightRAG is a Python-based retrieval-augmented generation framework that builds 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- **Note**: You can also use pip if you prefer, but uv is recommended for better performance and more reliable dependency management.
-- uv tool install "lightrag-hku[api]"
-- git clone https://github.com/HKUDS/LightRAG.git
-- make dev
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <img src="https://img.shields.io/badge/🐍Python-3.10-4ecdc4?style=for-the-badge&logo=python&logoColor=white&labelColor=1a1a2e">
-- [2026.03]🎯[New Feature]: Introduced a setup wizard. Support for local deployment of embedding, reranking, and storage backends via Docker.
-- # python -m venv .venv
-
-Basic usage or getting-started notes:
-- **📦 Offline Deployment**: For offline or air-gapped environments, see the [Offline Deployment Guide](./docs/OfflineDeployment.md) for instructions on pre-installing all dependencies and cache files.
-- The LightRAG Server is designed to provide Web UI and API support. The Web UI facilitates document indexing, knowledge graph exploration, and a simple RAG query interface. LightRAG Server also provide an Ollama compat...
-- Install from PyPI
-
-- Source: https://github.com/HKUDS/LightRAG
-- Extracted from upstream docs: https://raw.githubusercontent.com/HKUDS/LightRAG/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

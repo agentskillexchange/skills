@@ -18,21 +18,13 @@ Pedalboard is a Python library built by Spotify for working with audio: reading,
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install pedalboard
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pedalboard)](https://pypi.org/project/pedalboard)
-- [![Apple Silicon support for macOS and Linux (Docker)](https://img.shields.io/badge/Apple%20Silicon-macOS%20and%20Linux-brightgreen)](https://pypi.org/project/pedalboard)
-- pedalboard is a Python library for working with audio: reading, writing, rendering, adding effects, and more. It supports most popular audio file formats and a number of common audio effects out of the box, and also a...
-
-Basic usage or getting-started notes:
-- Support for on-the-fly resampling of audio files and streams with O(1) memory usage
-- Strong thread-safety, memory usage, and speed guarantees
-- ### Compatibility
-
-- Source: https://github.com/spotify/pedalboard
-- Extracted from upstream docs: https://raw.githubusercontent.com/spotify/pedalboard/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

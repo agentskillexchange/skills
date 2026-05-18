@@ -24,16 +24,19 @@ GitHub Actions, Claude API access, pull request workflows on trusted repositorie
 
 ## Installation
 
-Requirements and caveats from upstream:
-- ├── requirements.txt # Python dependencies
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Add this to your repository's .github/workflows/security.yml:
-- yaml
-- name: Security Review
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/anthropics/claude-code-security-review
-- Extracted from upstream docs: https://raw.githubusercontent.com/anthropics/claude-code-security-review/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Add anthropics/claude-code-security-review to a GitHub Actions workflow that runs on trusted pull_request events, then configure the Claude API secret and any optional scan or filtering inputs.
+```
 
 ## Documentation
 

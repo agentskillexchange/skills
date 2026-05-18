@@ -24,22 +24,19 @@ Python 3.10+, uv, a Nutrient API key, and an agent environment that supports Age
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx skills add PSPDFKit-labs/nutrient-agent-skill
-- npx skills add PSPDFKit-labs/nutrient-agent-skill -a claude-code -a codex -a cursor
-- npx skills add PSPDFKit-labs/nutrient-agent-skill -g
-- git clone https://github.com/PSPDFKit-labs/nutrient-agent-skill.git
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Python 3.10+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- uv installed: <https://docs.astral.sh/uv/>
-- Nutrient API key
-- ## Real-World Workflows
+Install command or upstream instructions:
 
-- Source: https://github.com/PSPDFKit-labs/nutrient-agent-skill
-- Extracted from upstream docs: https://raw.githubusercontent.com/PSPDFKit-labs/nutrient-agent-skill/HEAD/README.md
+```
+Install the skill with npx skills add PSPDFKit-labs/nutrient-agent-skill, set NUTRIENT_API_KEY in the environment, ensure Python and uv are available, then invoke the documented OCR, extraction, redaction, conversion, or signing prompts from your agent.
+```
 
 ## Documentation
 

@@ -18,19 +18,13 @@ Saleor is a leading open source headless e-commerce platform built with Python a
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm i -g @saleor/cli
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [See the Saleor docs](https://docs.saleor.io/setup/docker-compose) for step-by-step installation and deployment instructions. For local development without Docker, follow our [Contributing Guide](./CONTRIBUTING.md).
-
-Basic usage or getting-started notes:
-- Saleor's API-first extensibility provides powerful tools for developers to extend backend using [webhooks](https://docs.saleor.io/developer/extending/webhooks/overview), attributes, [metadata](https://docs.saleor.io/a...
-- If you are a single developer working with a small business that doesn't have high traffic or a critical need for 24/7 availability, using a service-oriented approach might feel more complex compared to the traditiona...
-- Note:
-
-- Source: https://github.com/saleor/saleor
-- Extracted from upstream docs: https://raw.githubusercontent.com/saleor/saleor/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

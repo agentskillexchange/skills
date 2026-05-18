@@ -26,23 +26,19 @@ Python runtime, MCP servers, LLM API key, optional Temporal for durable workflow
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- uv init
-- uv add "mcp-agent[openai]"
-- uv run main.py
-- uv add "mcp-agent"
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- python
-- We recommend using [uv](https://docs.astral.sh/uv/) to manage your Python projects (uv init).
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- <a id="minimal-example"></a>
-- **Minimal example**
-- async with app.run():
+Install command or upstream instructions:
 
-- Source: https://github.com/lastmile-ai/mcp-agent
-- Extracted from upstream docs: https://raw.githubusercontent.com/lastmile-ai/mcp-agent/HEAD/README.md
+```
+Install mcp-agent from the upstream package, configure your MCP servers and model credentials, then compose the desired workflow pattern from the quickstart examples.
+```
 
 ## Documentation
 

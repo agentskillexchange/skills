@@ -18,13 +18,13 @@ Scrapes and analyzes Hacker News threads using the official HN Firebase API and 
 
 ## Installation
 
-Basic usage or getting-started notes:
-- For example, a story: https://hacker-news.firebaseio.com/v0/item/8863.json?print=pretty
-- "text" : "Justin.tv is the biggest live video site online. We serve hundreds of thousands of video streams a day, and have supported up to 50k live concurrent viewers. Our site is growing every week, and we just added...
-- For example: https://hacker-news.firebaseio.com/v0/user/jl.json?print=pretty
+Choose whichever fits your setup:
 
-- Source: https://github.com/HackerNews/API
-- Extracted from upstream docs: https://raw.githubusercontent.com/HackerNews/API/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

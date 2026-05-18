@@ -18,24 +18,13 @@ trdsql is a CLI tool that executes SQL queries directly on CSV, LTSV, JSON, YAML
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- make
-- make install
-- brew install trdsql
-- docker pull noborus/trdsql
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [Docker](#docker)
-- 2.1. [Docker pull](#docker-pull)
-- 2.3. [Docker Run](#docker-run)
-
-Basic usage or getting-started notes:
-- For usage as a library, please refer to the [godoc](https://pkg.go.dev/github.com/noborus/trdsql) and the provided examples.
-- [Usage](#usage)
-- [Example](#example)
-
-- Source: https://github.com/noborus/trdsql
-- Extracted from upstream docs: https://raw.githubusercontent.com/noborus/trdsql/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

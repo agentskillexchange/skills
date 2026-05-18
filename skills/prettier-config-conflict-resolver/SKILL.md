@@ -3,7 +3,7 @@ name: "Prettier Config Conflict Resolver"
 slug: "prettier-config-conflict-resolver"
 description: "Detects and resolves conflicts between Prettier, ESLint, and EditorConfig formatting rules using the Prettier resolveConfig API and eslint-config-prettier compatibility checker."
 github_stars: 51820
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/prettier/prettier"
 author: "Prettier"
 category: "Code Quality & Review"
@@ -21,9 +21,19 @@ Detects and resolves conflicts between Prettier, ESLint, and EditorConfig format
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://github.com/prettier/prettier
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+npm install --save-dev --save-exact prettier
+```
 
 ## Documentation
 

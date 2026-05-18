@@ -18,13 +18,13 @@ Helix is a post-modern terminal-based modal text editor written in Rust. It feat
 
 ## Installation
 
-Basic usage or getting-started notes:
-- [Installation documentation](https://docs.helix-editor.com/install.html).
-- [![Packaging status](https://repology.org/badge/vertical-allrepos/helix-editor.svg?exclude_unsupported=1)](https://repology.org/project/helix-editor/versions)
-- # Contributing
+Choose whichever fits your setup:
 
-- Source: https://github.com/helix-editor/helix
-- Extracted from upstream docs: https://raw.githubusercontent.com/helix-editor/helix/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

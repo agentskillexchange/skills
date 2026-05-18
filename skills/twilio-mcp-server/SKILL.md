@@ -25,24 +25,19 @@ Node.js, npm
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install twilio or yarn add twilio
-- npm install
-- npm test
-- npm run test:javascript -- -m .\*client.\*
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- # twilio-node
-- The Node library documentation can be found [here][libdocs].
-- twilio-node uses a modified version of [Semantic Versioning](https://semver.org) for all changes. [See this document](VERSIONS.md) for details.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ### Test your installation
-- To make sure the installation was successful, try sending yourself an SMS message, like this:
-- js
+Install command or upstream instructions:
 
-- Source: https://github.com/twilio/twilio-node
-- Extracted from upstream docs: https://raw.githubusercontent.com/twilio/twilio-node/HEAD/README.md
+```
+npm install twilio
+```
 
 ## Documentation
 

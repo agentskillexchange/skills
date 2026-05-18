@@ -24,21 +24,19 @@ Python 3 or packaged binary, network access to SSH targets
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- $ docker pull positronsecurity/ssh-audit
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Docker Pulls](https://img.shields.io/docker/pulls/positronsecurity/ssh-audit)](https://hub.docker.com/r/positronsecurity/ssh-audit)
-- supports Python 3.9 - 3.13;
-- -m, --manual print the man page (Docker, PyPI, Snap, and Windows
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Usage](#usage)
-- [Server Standard Audit Example](#server-standard-audit-example)
-- [Server Policy Audit Example](#server-policy-audit-example)
+Install command or upstream instructions:
 
-- Source: https://github.com/jtesta/ssh-audit
-- Extracted from upstream docs: https://raw.githubusercontent.com/jtesta/ssh-audit/HEAD/README.md
+```
+Install from the repository or package source, then run `ssh-audit <host>` against the SSH endpoint or use its config-audit modes for local review.
+```
 
 ## Documentation
 

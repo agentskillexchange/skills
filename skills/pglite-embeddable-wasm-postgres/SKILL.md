@@ -18,24 +18,13 @@ PGlite is a WASM build of Postgres packaged as a TypeScript library that runs a 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install @electric-sql/pglite
-- Docker is required to build the WASM module, along with Node (v20 or above) and [pnpm](https://pnpm.io/) for package management and building the TypeScript packages.
-- git clone --recurse-submodules https://github.com/electric-sql/pglite
-- pnpm install
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- PGlite is a WASM Postgres build packaged into a TypeScript client library that enables you to run Postgres in the browser, Node.js, Bun and Deno, with no need to install any other dependencies. It is only 3mb gzipped...
-- It can be used as an ephemeral in-memory database, or with persistence either to the file system (Node/Bun/Deno) or indexedDB (Browser).
-- ## Node/Bun/Deno
-
-Basic usage or getting-started notes:
-- **NodeJS**
-- bash
-- **Bun**
-
-- Source: https://github.com/electric-sql/pglite
-- Extracted from upstream docs: https://raw.githubusercontent.com/electric-sql/pglite/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

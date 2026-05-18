@@ -24,16 +24,19 @@ GitHub Actions, Claude Code, Anthropic API key or supported cloud provider crede
 
 ## Installation
 
-Requirements and caveats from upstream:
-- You must be a repository admin to install the GitHub app and add secrets
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- The easiest way to set up this action is through [Claude Code](https://claude.ai/code) in the terminal. Just open claude and run /install-github-app.
-- This command will guide you through setting up the GitHub app and required secrets.
-- **Note**:
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/anthropics/claude-code-action
-- Extracted from upstream docs: https://raw.githubusercontent.com/anthropics/claude-code-action/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Add anthropics/claude-code-action to a GitHub Actions workflow, configure the triggering event, then provide the required Claude authentication secret and any workflow-specific prompts or claude_args inputs.
+```
 
 ## Documentation
 

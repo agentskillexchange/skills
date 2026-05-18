@@ -18,16 +18,13 @@ Evidence is an open-source framework for building data products with SQL and Mar
 
 ## Installation
 
-Requirements and caveats from upstream:
-- See docs for [other install options](https://docs.evidence.dev/getting-started/install-evidence) (CLI, Docker, etc)
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- **SQL statements** inside markdown files run queries against your data sources
-- Download the [Evidence VSCode Extension](https://marketplace.visualstudio.com/items?itemName=Evidence.evidence-vscode)
-- Open the Command Palette (F1) and enter Evidence: New Evidence Project
-
-- Source: https://github.com/evidence-dev/evidence
-- Extracted from upstream docs: https://raw.githubusercontent.com/evidence-dev/evidence/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

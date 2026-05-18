@@ -24,22 +24,13 @@ Python 3.10+, uv package manager, Snyk API token
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- uv run pip install -e .
-- uv run -m src.agent_scan.cli
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <a href="https://pypi.python.org/pypi/snyk-agent-scan"><img src="https://img.shields.io/pypi/v/snyk-agent-scan.svg" alt="snyk-agent-scan"/></a>
-- <a href="https://pypi.python.org/pypi/snyk-agent-scan"><img src="https://img.shields.io/pypi/l/snyk-agent-scan.svg" alt="snyk-agent-scan license"/></a>
-- <a href="https://pypi.python.org/pypi/snyk-agent-scan"><img src="https://img.shields.io/pypi/pyversions/snyk-agent-scan.svg" alt="snyk-agent-scan python version requirements"/></a>
-
-Basic usage or getting-started notes:
-- **Use --dangerously-run-mcp-servers** only in trusted environments where you've verified all MCP server commands
-- To get started:
-- **Sign up at [Snyk](https://snyk.io)** and get an API token from [https://app.snyk.io/account](https://app.snyk.io/account) (API Token → KEY → click to show).
-
-- Source: https://github.com/snyk/agent-scan
-- Extracted from upstream docs: https://raw.githubusercontent.com/snyk/agent-scan/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

@@ -24,18 +24,19 @@ NixOS or Home Manager configuration, sops-nix module, SOPS-encrypted secret file
 
 ## Installation
 
-Requirements and caveats from upstream:
-- This will otherwise cause sops to require multiple keys (shamir secret sharing)
-- The easiest way to add new machines is by using SSH host keys (this requires OpenSSH to be enabled).
-- The home-manager module requires systemd/user as it runs a service called sops-nix.service rather than an activation script.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- There is a configuration.nix example in the [deployment step](#deploy-example) of our usage example.
-- If you prefer video over the textual description below, you can also checkout this [6min tutorial](https://www.youtube.com/watch?v=G5f6GC7SnhU) by [@vimjoyer](https://github.com/vimjoyer).
-- <details>
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/Mic92/sops-nix
-- Extracted from upstream docs: https://raw.githubusercontent.com/Mic92/sops-nix/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Add sops-nix to the target NixOS or Home Manager configuration per the upstream module instructions, configure SOPS and the decryption keys, then define the secrets to materialize during activation or user environment setup.
+```
 
 ## Documentation
 

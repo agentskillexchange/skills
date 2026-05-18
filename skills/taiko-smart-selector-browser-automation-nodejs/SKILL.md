@@ -21,22 +21,13 @@ Taiko is a Node.js browser automation framework from the Gauge and Thoughtworks 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- $ npm install -g taiko
-- $ npm install @getgauge/cli
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- A Node.js library for testing modern web applications
-- Taiko is a free and open source browser automation tool built by the team behind [Gauge](https://gauge.org/) from [ThoughtWorks](https://www.thoughtworks.com/). Taiko is a Node.js library with a clear and concise API...
-- Taiko works on Windows, MacOS and Linux. You only need [Node.js](https://nodejs.org/en/) installed in your system to start writing Taiko scripts in JavaScript. After you’ve installed Node.js open a terminal applicatio...
-
-Basic usage or getting-started notes:
-- Record/Write/Run tests
-- ## Easy Installation
-- This installs Taiko and the latest version of Chromium browser. We are all set to do some testing!
-
-- Source: https://github.com/getgauge/taiko
-- Extracted from upstream docs: https://raw.githubusercontent.com/getgauge/taiko/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

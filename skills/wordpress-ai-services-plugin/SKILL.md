@@ -24,19 +24,19 @@ WordPress, PHP, Composer, Node.js, npm
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/felixarntz/ai-services.git wp-content/plugins/ai-services
-- composer install
-- npm install
-- npm run build
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- You can install [the latest built release from the WordPress plugin directory](https://wordpress.org/plugins/ai-services/), which in the long term will be the recommended way to use the plugin. Keep in mind that any 0...
-- Alternatively, especially in this early development stage of the plugin, feel free to test the plugin by cloning the GitHub repository. Afterwards, please run the following commands to make sure the dependencies are i...
-- sh
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/felixarntz/ai-services
-- Extracted from upstream docs: https://raw.githubusercontent.com/felixarntz/ai-services/HEAD/README.md
+Install command or upstream instructions:
+
+```
+git clone https://github.com/felixarntz/ai-services.git wp-content/plugins/ai-services && cd wp-content/plugins/ai-services && composer install && npm install && npm run build
+```
 
 ## Documentation
 

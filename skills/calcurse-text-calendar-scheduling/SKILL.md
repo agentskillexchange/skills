@@ -18,20 +18,13 @@ calcurse is a text-based calendar and scheduling application for the command lin
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- $ make
-- $ make install
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Lint Python](https://github.com/lfos/calcurse/actions/workflows/lint_python.yml/badge.svg)](https://github.com/lfos/calcurse/actions/workflows/lint_python.yml)
-
-Basic usage or getting-started notes:
-- calcurse is available on a number of Linux distributions:
-- [![Packaging status](https://repology.org/badge/vertical-allrepos/calcurse.svg?columns=3)](https://repology.org/project/calcurse/versions)
-- ## Building from Source
-
-- Source: https://github.com/lfos/calcurse
-- Extracted from upstream docs: https://raw.githubusercontent.com/lfos/calcurse/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

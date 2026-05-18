@@ -24,17 +24,19 @@ Go, go-licenses
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone git@github.com:google/go-licenses.git
-- go install github.com/google/go-licenses/v2@latest
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Change directory to your go project, **for example**:
-- Use the following command to download and install this tool:
-- shell
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/google/go-licenses
-- Extracted from upstream docs: https://raw.githubusercontent.com/google/go-licenses/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install `go-licenses`, run it against a Go module, and review the generated dependency license output before release or dependency approval.
+```
 
 ## Documentation
 

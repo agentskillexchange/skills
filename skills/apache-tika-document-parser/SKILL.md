@@ -19,16 +19,13 @@ Extracts structured text, metadata, and embedded objects from PDFs, Office docum
 
 ## Installation
 
-Requirements and caveats from upstream:
-- **N.B.** [Docker](https://www.docker.com/products/personal) is used for tests in tika-integration-tests. If Docker is not installed, those tests are skipped.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- ===========
-- **Parse a file in Java:**
-- java
-
-- Source: https://github.com/apache/tika
-- Extracted from upstream docs: https://raw.githubusercontent.com/apache/tika/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

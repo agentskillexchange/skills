@@ -24,17 +24,19 @@ Python, Ansible, ansible-lint
 
 ## Installation
 
-Requirements and caveats from upstream:
-- setup_python: If python should be installed. Default is true.
-- python_version: The version of python to install. Default is 3.14.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- This action allows you to run ansible-lint on your codebase without having to
-- yaml
-- # .github/workflows/ansible-lint.yml
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/ansible/ansible-lint
-- Extracted from upstream docs: https://raw.githubusercontent.com/ansible/ansible-lint/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install ansible-lint in the target environment, then run it against the repository root or the specific playbook, role, or collection that needs review.
+```
 
 ## Documentation
 

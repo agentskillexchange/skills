@@ -26,13 +26,19 @@ Node.js, Chrome or Chromium, OpenCLI browser bridge extension
 
 ## Installation
 
-Requirements and caveats from upstream:
-- [![Node.js Version](https://img.shields.io/node/v/@jackwener/opencli?style=flat-square)](https://nodejs.org)
-- It also works as a **CLI hub** for local tools such as gh, docker, longbridge, tg, discord, wx, ntn (Notion), and other binaries you register yourself, plus **desktop app adapters** for Electron apps like Cursor, Code...
-- **100+ adapters + CLI Hub** — Built-in site commands (bilibili / xiaohongshu / twitter / hackernews / ...) plus external CLI passthrough (gh, docker, ntn, longbridge).
+Choose whichever fits your setup:
 
-- Source: https://github.com/jackwener/OpenCLI
-- Extracted from upstream docs: https://raw.githubusercontent.com/jackwener/OpenCLI/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install with npm: npm install -g @jackwener/opencli, then load the OpenCLI browser bridge extension and run opencli doctor
+```
 
 ## Documentation
 

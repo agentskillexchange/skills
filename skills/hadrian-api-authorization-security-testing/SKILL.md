@@ -24,24 +24,19 @@ Go or a prebuilt Hadrian binary, plus a target API definition or endpoint and ro
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- go install github.com/praetorian-inc/hadrian/cmd/hadrian@latest
-- git clone https://github.com/praetorian-inc/hadrian.git
-- make build
-- make build # Build the binary
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- # AI-powered triage with OpenAI (requires OPENAI_API_KEY)
-- # AI-powered triage with Anthropic (requires ANTHROPIC_API_KEY)
-- # AI-assisted attack planning (requires OPENAI_API_KEY, or use --planner-provider for Anthropic/Ollama)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- bash
-- ### Download Pre-Built Binary
-- Download the latest binary for your platform from the [Releases](https://github.com/praetorian-inc/hadrian/releases) page.
+Install command or upstream instructions:
 
-- Source: https://github.com/praetorian-inc/hadrian
-- Extracted from upstream docs: https://raw.githubusercontent.com/praetorian-inc/hadrian/HEAD/README.md
+```
+<p>Install from source with <code>go install github.com/praetorian-inc/hadrian/cmd/hadrian@latest</code>, or download a prebuilt binary from the repository releases. Supply the target API plus <code>roles.yaml</code> and <code>auth.yaml</code>, then run <code>hadrian test rest</code>, <code>hadrian test graphql</code>, or <code>hadrian test grpc</code> for the protocol you need to verify.</p>
+```
 
 ## Documentation
 

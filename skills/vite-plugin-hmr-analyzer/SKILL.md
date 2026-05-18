@@ -20,14 +20,13 @@ Monitors and analyzes Vite HMR (Hot Module Replacement) update chains using the 
 
 ## Installation
 
-Requirements and caveats from upstream:
-- <a href="https://nodejs.org/en/about/previous-releases"><img src="https://img.shields.io/node/v/vite.svg" alt="node compatibility"></a>
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- A dev server that provides [rich feature enhancements](https://vite.dev/guide/features) over [native ES modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules), for example extremely fast [Hot...
-
-- Source: https://github.com/vitejs/vite
-- Extracted from upstream docs: https://raw.githubusercontent.com/vitejs/vite/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -24,23 +24,19 @@ Python 3, pip
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install pywb
-- git clone https://github.com/webrecorder/pywb
-- To install from a locally cloned copy, install with pip install -e . or python setup.py install.
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- **pywb** is a Python 3 web archiving toolkit for replaying web archives large and small as accurately as possible.
-- Note: depending on your Python installation, you may have to use pip3 instead of pip.
-- To run tests, we recommend installing pip install tox tox-current-env and then running tox --current-env to test in your current Python environment.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ---------------------------
-- On Linux-based systems, first verify that python3-dev is installed. If it is not, install it with your package manager. E.g. on a Debian-based system, use:
-- sudo apt install python3-dev
+Install command or upstream instructions:
 
-- Source: https://github.com/webrecorder/pywb
-- Extracted from upstream docs: https://raw.githubusercontent.com/webrecorder/pywb/HEAD/README.rst
+```
+pip install pywb
+```
 
 ## Documentation
 

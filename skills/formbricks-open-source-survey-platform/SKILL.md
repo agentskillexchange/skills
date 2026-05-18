@@ -24,18 +24,19 @@ Docker for self-hosting; JavaScript snippet or npm integration for website/in-ap
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Formbricks is available Open-Source under AGPLv3 license. You can host Formbricks on your own servers using Docker without a subscription.
-- #### Docker
-- To get started with self-hosting with Docker, take a look at our [self-hosting docs](https://formbricks.com/docs/self-hosting/deployment).
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- [Getting Started](#getting-started)
-- ## 🚀 Getting started
-- Here is what you need to be able to run Formbricks:
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/formbricks/formbricks
-- Extracted from upstream docs: https://raw.githubusercontent.com/formbricks/formbricks/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Use the Formbricks Docker image for self-hosting
+```
 
 ## Documentation
 

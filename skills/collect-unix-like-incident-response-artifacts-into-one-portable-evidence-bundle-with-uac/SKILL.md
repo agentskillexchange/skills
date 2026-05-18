@@ -24,16 +24,19 @@ Shell access to the target Unix-like host, UAC runtime, sufficient privileges fo
 
 ## Installation
 
-Requirements and caveats from upstream:
-- ⚡ Lightweight, portable, and requires no installation or dependencies.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- <a href="#-usage">Usage</a>
-- Run everywhere with no dependencies (no installation required).
-- ## 🚀 Usage
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/tclahr/uac
-- Extracted from upstream docs: https://raw.githubusercontent.com/tclahr/uac/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install UAC from the upstream repository or release assets, review the available artifact profiles and collection modules, then run the documented collector against the target host and preserve the generated bundle for analysis.
+```
 
 ## Documentation
 

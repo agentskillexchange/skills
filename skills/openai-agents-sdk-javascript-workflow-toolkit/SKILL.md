@@ -19,20 +19,13 @@ A source-backed guide to the OpenAI Agents SDK for JavaScript and TypeScript. It
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install @openai/agents zod
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Looking for the Python version? Check out [OpenAI Agents SDK Python](https://github.com/openai/openai-agents-python).
-- Node.js 22 or later
-
-Basic usage or getting-started notes:
-- bash
-- ### Run your first Sandbox Agent
-- [Sandbox Agents](https://openai.github.io/openai-agents-js/guides/sandbox-agents) are in beta. A sandbox agent can inspect files, run commands, apply patches, and carry workspace state across longer tasks.
-
-- Source: https://github.com/openai/openai-agents-js
-- Extracted from upstream docs: https://raw.githubusercontent.com/openai/openai-agents-js/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

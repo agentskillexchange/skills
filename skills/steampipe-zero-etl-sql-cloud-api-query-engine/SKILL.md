@@ -18,18 +18,13 @@ Query cloud APIs, SaaS services, and infrastructure with standard SQL using Stea
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install turbot/tap/steampipe
-- git clone git@github.com:turbot/steampipe
-- make
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- sh
-- # MacOS
-- # Linux or Windows (WSL2)
-
-- Source: https://github.com/turbot/steampipe
-- Extracted from upstream docs: https://raw.githubusercontent.com/turbot/steampipe/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

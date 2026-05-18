@@ -15,17 +15,13 @@ Analyzes test coverage using the Codecov API v2 and codecov-cli uploader. Fetche
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Code coverage with Python
-- Testing with Docker
-- If you are a GitHub user you MUST install the Codecov GitHub app for your organization - Codecov can't function without it.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Jump to Content
-- Guides API Changelog Support Status Codecov Home Try Codecov for Free
-- Guides API Endpoints Changelog v4.6 v5.0 v2023 Guides API Changelog Support Status Codecov Home Try Codecov for Free
-
-- Source: https://docs.codecov.com/docs/quick-start
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

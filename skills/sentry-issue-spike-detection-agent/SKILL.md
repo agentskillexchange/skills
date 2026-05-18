@@ -3,7 +3,7 @@ name: "Sentry Issue Spike Detection Agent"
 slug: "sentry-issue-spike-detection-agent"
 description: "Analyzes Sentry project event streams via the Sentry Issues API to detect sudden spikes in error frequency. Computes rolling baselines and triggers alerts through configurable notification channels."
 github_stars: 43486
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/getsentry/sentry"
 category: "Monitoring & Alerts"
 framework: "Claude Agents"
@@ -18,9 +18,13 @@ Analyzes Sentry project event streams via the Sentry Issues API to detect sudden
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://github.com/getsentry/sentry
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

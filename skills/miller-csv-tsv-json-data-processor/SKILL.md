@@ -18,16 +18,13 @@ Miller (mlr) is a command-line tool for querying, shaping, and reformatting name
 
 ## Installation
 
-Requirements and caveats from upstream:
-- For those operations which require deeper retention (sort, tac, stats1),
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- [![deepwiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/johnkerl/miller)
-- [Miller in 10 minutes](https://miller.readthedocs.io/en/latest/10min)
-- [A Guide To Command-Line Data Manipulation](https://www.smashingmagazine.com/2022/12/guide-command-line-data-manipulation-cli-miller)
-
-- Source: https://github.com/johnkerl/miller
-- Extracted from upstream docs: https://raw.githubusercontent.com/johnkerl/miller/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

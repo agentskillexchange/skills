@@ -15,18 +15,13 @@ Generates complete WordPress block theme structures using theme.json v3, block p
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Make WordPress
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Node.js development environment
-
-Basic usage or getting-started notes:
-- How-to Guides : Here, you can build on what you learned in the Getting Started section and learn how to solve particular problems. You will also find tutorials and example code to reuse in your own projects, such as w...
-- Reference Guides : This section is the heart of the handbook and is where you can get down to the nitty-gritty and look up the details of the particular API you’re working with or need information on. Among other thin...
-- Explanations : This section enables you to go deeper and reinforce your practical knowledge with a theoretical understanding of the Architecture of the Block Editor.
-
-- Source: https://developer.wordpress.org/block-editor/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

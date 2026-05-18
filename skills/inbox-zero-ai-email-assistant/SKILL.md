@@ -18,23 +18,13 @@ Inbox Zero is an open-source AI email assistant with over 10,000 GitHub stars th
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx @inbox-zero/cli setup # One-time setup wizard
-- npx @inbox-zero/cli start # Start containers
-- git clone https://github.com/elie222/inbox-zero.git
-- docker compose -f docker-compose.dev.yml up -d # Postgres + Redis
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- **Prerequisites**: [Docker](https://docs.docker.com/engine/install/) and [Node.js](https://nodejs.org/) v24+
-- **Prerequisites**: [Docker](https://docs.docker.com/engine/install/), [Node.js](https://nodejs.org/) v24+, and [pnpm](https://pnpm.io/) v10+
-
-Basic usage or getting-started notes:
-- We offer a hosted version of Inbox Zero at [getinboxzero.com](https://www.getinboxzero.com).
-- ### Self-Hosting
-- The fastest way to self-host Inbox Zero is with the CLI:
-
-- Source: https://github.com/elie222/inbox-zero
-- Extracted from upstream docs: https://raw.githubusercontent.com/elie222/inbox-zero/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

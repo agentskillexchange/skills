@@ -24,24 +24,19 @@ Agent Deck, tmux-compatible terminal, one or more supported coding agents such a
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install asheshgoplani/tap/agent-deck
-- go install github.com/asheshgoplani/agent-deck/cmd/agent-deck@latest
-- git clone https://github.com/asheshgoplani/agent-deck.git && cd agent-deck && make install
-- Homebrew install: run brew upgrade asheshgoplani/tap/agent-deck.
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- **New worktree location** depends on the layout:
-- ### Docker Sandbox
-- Run sessions inside isolated Docker containers. The project directory is bind-mounted read-write, so agents work on your code while the rest of the system stays protected.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Features](#features) . [Conductor](#conductor) . [Install](#installation) . [Quick Start](#quick-start) . [Docs](#documentation) . [Discord](https://discord.gg/e4xSs6NBN8) . [FAQ](#faq)
-- Agent Deck supports per-group CLAUDE_CONFIG_DIR and env_file overrides. Useful when a single profile hosts groups that should authenticate against different Claude accounts — for example, a personal profile hosting a...
-- Running many sessions? Socket pooling shares MCP processes across all sessions via Unix sockets, reducing MCP memory usage by 85-90%. Connections auto-recover from MCP crashes in ~3 seconds via a reconnecting proxy. E...
+Install command or upstream instructions:
 
-- Source: https://github.com/asheshgoplani/agent-deck
-- Extracted from upstream docs: https://raw.githubusercontent.com/asheshgoplani/agent-deck/HEAD/README.md
+```
+Install Agent Deck from the upstream repository or release assets, launch the TUI, then add and manage your existing coding-agent sessions, worktrees, MCP connections, and optional Docker sandboxes from one terminal.
+```
 
 ## Documentation
 

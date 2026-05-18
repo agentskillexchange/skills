@@ -24,22 +24,19 @@ kubent binary, access to target Kubernetes manifests or cluster, target Kubernet
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install kubent
-- $ docker run -it --rm \
-- git clone https://github.com/doitintl/kube-no-trouble.git
-- $ make
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ### Docker Image
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Run the following command in your terminal to install kubent using a shell script:
-- sh
-- sh -c "$(curl -sSL https://git.io/install-kubent)"
+Install command or upstream instructions:
 
-- Source: https://github.com/doitintl/kube-no-trouble
-- Extracted from upstream docs: https://raw.githubusercontent.com/doitintl/kube-no-trouble/HEAD/README.md
+```
+Install kubent from the upstream release or package instructions, point it at the target manifests or cluster, and run the documented scan mode to surface deprecated or removed APIs before the upgrade window.
+```
 
 ## Documentation
 

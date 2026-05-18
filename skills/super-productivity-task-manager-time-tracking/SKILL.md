@@ -18,16 +18,13 @@ Super Productivity is an advanced open-source todo list application with integra
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- <a href="https://github.com/super-productivity/super-productivity/wiki/2.13-Run-with-Docker">Run with Docker</a>
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- <!-- Getting Started -->
-- <h3>Getting Started</h3>
-- <li><a href="https://dev.to/johannesjo/getting-started-with-super-productivity-2791">Getting started guide</a> (article)</li>
-
-- Source: https://github.com/super-productivity/super-productivity
-- Extracted from upstream docs: https://raw.githubusercontent.com/super-productivity/super-productivity/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

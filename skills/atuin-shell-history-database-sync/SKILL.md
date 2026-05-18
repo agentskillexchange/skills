@@ -18,13 +18,13 @@ Atuin replaces your existing shell history with a SQLite database that records a
 
 ## Installation
 
-Basic usage or getting-started notes:
-- [Basic usage](https://docs.atuin.sh/guide/basic-usage/)
-- This will sign you up for the Atuin Cloud sync server. Everything is end-to-end encrypted, so your secrets are safe!
-- Read the [docs](https://docs.atuin.sh) for an offline setup, self-hosted server, and more.
+Choose whichever fits your setup:
 
-- Source: https://github.com/atuinsh/atuin
-- Extracted from upstream docs: https://raw.githubusercontent.com/atuinsh/atuin/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

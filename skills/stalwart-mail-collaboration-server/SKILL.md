@@ -18,17 +18,13 @@ Stalwart is an open-source mail and collaboration server written in Rust that pr
 
 ## Installation
 
-Requirements and caveats from upstream:
-- **Kubernetes**, **Apache Mesos** and **Docker Swarm** support for automated scaling and container orchestration.
-- [Docker](https://stalw.art/docs/install/platform/docker)
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- [Linux / MacOS](https://stalw.art/docs/install/platform/linux)
-- [Windows](https://stalw.art/docs/install/platform/windows)
-- All documentation is available at [stalw.art/docs](https://stalw.art/docs/install/get-started).
-
-- Source: https://github.com/stalwartlabs/stalwart
-- Extracted from upstream docs: https://raw.githubusercontent.com/stalwartlabs/stalwart/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -18,16 +18,13 @@ Scaffolds Kubernetes Helm charts with values.yaml templating, ingress configurat
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- [Homebrew](https://brew.sh/) users can use brew install helm.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Find and use [popular software packaged as Helm Charts](https://artifacthub.io/packages/search?kind=0) to run in Kubernetes
-- Helm runs on your laptop, CI/CD, or wherever you want it to run.
-- Binary downloads of the Helm client can be found on [the Releases page](https://github.com/helm/helm/releases/latest).
-
-- Source: https://github.com/helm/helm
-- Extracted from upstream docs: https://raw.githubusercontent.com/helm/helm/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

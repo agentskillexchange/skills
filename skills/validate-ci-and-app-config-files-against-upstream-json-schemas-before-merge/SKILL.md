@@ -24,22 +24,19 @@ Python 3.10+, pipx or pre-commit
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pipx install check-jsonschema
-- brew install check-jsonschema
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![build](https://github.com/python-jsonschema/check-jsonschema/actions/workflows/build.yaml/badge.svg)](https://github.com/python-jsonschema/check-jsonschema/actions/workflows/build.yaml)
-- [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/python-jsonschema/check-jsonschema/main.svg)](https://results.pre-commit.ci/latest/github/python-jsonschema/check-jsonschema/main)
-- A JSON Schema CLI and [pre-commit](https://pre-commit.com/) hook built on [jsonschema](https://github.com/python-jsonschema/jsonschema/).
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- check-jsonschema can be installed and run as a CLI tool, or via pre-commit.
-- ### Example pre-commit config
-- The following configuration uses check-jsonschema to validate Github Workflow
+Install command or upstream instructions:
 
-- Source: https://github.com/python-jsonschema/check-jsonschema
-- Extracted from upstream docs: https://raw.githubusercontent.com/python-jsonschema/check-jsonschema/HEAD/README.md
+```
+pipx install check-jsonschema or brew install check-jsonschema
+```
 
 ## Documentation
 

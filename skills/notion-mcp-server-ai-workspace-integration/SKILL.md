@@ -18,24 +18,13 @@ The official Notion MCP Server enables AI agents to interact with Notion workspa
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- docker compose build
-- npx @notionhq/notion-mcp-server
-- npx @notionhq/notion-mcp-server --transport stdio
-- npx @notionhq/notion-mcp-server --transport http
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ##### Using Docker
-- There are two options for running the MCP server with Docker:
-- ###### Option 1: Using the official Docker Hub image
-
-Basic usage or getting-started notes:
-- #### 1. Setting up integration in Notion
-- Go to [https://www.notion.so/profile/integrations](https://www.notion.so/profile/integrations) and create a new **internal** integration or select an existing one.
-- ![Creating a Notion Integration token](docs/images/integrations-creation.png)
-
-- Source: https://github.com/makenotion/notion-mcp-server
-- Extracted from upstream docs: https://raw.githubusercontent.com/makenotion/notion-mcp-server/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

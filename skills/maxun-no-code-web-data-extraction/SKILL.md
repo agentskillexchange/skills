@@ -18,18 +18,13 @@ Maxun is an open-source no-code web data platform for turning any website into s
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Maxun can run locally with or without Docker
-- [Setup with Docker Compose](https://docs.maxun.dev/installation/docker)
-- [Setup without Docker](https://docs.maxun.dev/installation/local)
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- **[Search](https://docs.maxun.dev/robot/search/search-introduction)** – Run automated web searches to discover or scrape results, with support for time-based filters.
-- ### Example: Extract 10 Property Listings from Airbnb
-- ### Example: Extract Names, Rating & Duration of Top 50 Movies from IMDb
-
-- Source: https://github.com/getmaxun/maxun
-- Extracted from upstream docs: https://raw.githubusercontent.com/getmaxun/maxun/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

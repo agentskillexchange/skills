@@ -18,18 +18,13 @@ Howler.js is a JavaScript audio library for the modern web that defaults to the 
 
 ## Installation
 
-Requirements and caveats from upstream:
-- const {Howl, Howler} = require('howler');
-- **howler.spatial**: This is a plugin that adds spatial/stereo audio functionality. It requires howler.core to operate as it is simply an add-on to the core.
-- Sets the panner node's attributes for a sound or group of sounds. See the pannerAttr method for all available options.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- [Quick Start](#quick-start)
-- Several options to get up and running:
-- Clone the repo: git clone https://github.com/goldfire/howler.js.git
-
-- Source: https://github.com/goldfire/howler.js
-- Extracted from upstream docs: https://raw.githubusercontent.com/goldfire/howler.js/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

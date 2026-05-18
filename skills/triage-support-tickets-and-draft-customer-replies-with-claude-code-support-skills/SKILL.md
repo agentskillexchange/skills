@@ -24,21 +24,19 @@ Claude Code, repository support-skill files, support-ticket/customer context exp
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/nbashaw/claude-cs
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- The skill recommends actions but always requires your approval. It's an assistant, not autopilot.
-- Requires explicit approval before sending anything
-- A: Yes - it always requires your approval before sending messages or making changes.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ### Option 1: Install from marketplace (Recommended)
-- Add the marketplace:
-- bash
+Install command or upstream instructions:
 
-- Source: https://github.com/nbashaw/claude-cs
-- Extracted from upstream docs: https://raw.githubusercontent.com/nbashaw/claude-cs/HEAD/README.md
+```
+Install or copy the Claude support skill workflow from the repository, configure the expected support data sources, and run it in Claude Code with human review before sending replies.
+```
 
 ## Documentation
 

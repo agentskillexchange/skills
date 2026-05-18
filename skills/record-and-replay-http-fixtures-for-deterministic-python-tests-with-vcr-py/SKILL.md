@@ -24,18 +24,19 @@ Python plus VCR.py integrated into the project's test framework
 
 ## Installation
 
-Requirements and caveats from upstream:
-- |PyPI| |Python versions| |Build Status| |CodeCov| |Gitter|
-- This is a Python version of Ruby's VCR
-- :target: https://pypi.python.org/pypi/vcrpy
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- first time you run code that is inside a VCR.py context manager or
-- recognizes from the original test run and return the responses that
-- to do is delete your existing cassette files, and run your tests again.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/kevin1024/vcrpy
-- Extracted from upstream docs: https://raw.githubusercontent.com/kevin1024/vcrpy/HEAD/README.rst
+Install command or upstream instructions:
+
+```
+pip install vcrpy
+```
 
 ## Documentation
 

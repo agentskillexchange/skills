@@ -18,16 +18,13 @@ A more intuitive version of the du command, written in Rust. dust instantly visu
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Windows MSVC - requires: [VCRUNTIME140.dll](https://docs.microsoft.com/en-gb/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- ![Example](media/snap.png)
-- target/debug is the same size as target - so we know nearly all the disk usage of the 1.8G is in this folder
-- target/debug/deps this is 1.2G - Note the bar jumps down to 70% to indicate that most disk usage is here but not all.
-
-- Source: https://github.com/bootandy/dust
-- Extracted from upstream docs: https://raw.githubusercontent.com/bootandy/dust/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

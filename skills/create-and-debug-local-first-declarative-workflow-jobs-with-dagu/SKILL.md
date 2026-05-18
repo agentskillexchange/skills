@@ -24,24 +24,19 @@ Dagu binary or Docker, YAML workflow files, optional web UI access
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install dagu
-- docker run --rm -v ~/.dagu:/var/lib/dagu -p 8080:8080 ghcr.io/dagucloud/dagu:latest dagu start-all
-- git clone https://github.com/dagucloud/dagu.git && cd dagu
-- make build # Build frontend + Go binary
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Keep your existing automation as shell scripts, Python scripts, containers, SSH commands, SQL jobs, HTTP calls, AI harnesses, and reusable action packages. Define the workflow in plain YAML, run it with one binary, an...
-- │ Python Runtime │ Self-hosted by default.
-- Dagu stores state in local files by default. How much it can run depends on the machine and the workload. CPU, disk speed, workflow duration, queue settings, and worker capacity all matter.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Dagu gives your automation a home. Run your existing scripts, containers, SQL jobs, and HTTP calls as visible, governed workflows with schedules, retries, logs, artifacts, human-in-the-loop, and observability without...
-- For a quick look at how workflows are defined, see the [examples](https://docs.dagu.sh/writing-workflows/examples). For a compact repository-level map of the YAML shape and current run:, action:, and actions: syntax,...
-- | Run Details | Step Logs | Documents |
+Install command or upstream instructions:
 
-- Source: https://github.com/dagucloud/dagu
-- Extracted from upstream docs: https://raw.githubusercontent.com/dagucloud/dagu/HEAD/README.md
+```
+Quick start: install or run Dagu, define a workflow in YAML, then start the server or run jobs with the Dagu CLI. Docker and single-binary deployment are both documented at docs.dagu.sh.
+```
 
 ## Documentation
 

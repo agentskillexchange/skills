@@ -18,21 +18,13 @@ LiteLLM is an open-source Python SDK and proxy server that provides a unified Op
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- **Stable Release:** Use docker images with the -stable tag. These have undergone 12 hour load tests, before being published. [More information about the release cycle here](https://docs.litellm.ai/docs/proxy/release_c...
-- Run npm run dev to start the dashboard
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- You can use LiteLLM through either the Proxy Server or Python SDK. Both give you a unified interface to access multiple LLMs (100+ LLMs). Choose the option that best fits your needs:
-- <th style={{width: '43%'}}><strong><a href="https://docs.litellm.ai/docs/">LiteLLM Python SDK</a></strong></th>
-- <td style={{width: '43%'}}>Use LiteLLM directly in your Python code</td>
-
-Basic usage or getting-started notes:
-- ### Run in Developer Mode
-- uv run prisma generate
-
-- Source: https://github.com/BerriAI/litellm
-- Extracted from upstream docs: https://raw.githubusercontent.com/BerriAI/litellm/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

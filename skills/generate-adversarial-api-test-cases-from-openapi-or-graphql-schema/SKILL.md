@@ -18,21 +18,13 @@ Use Schemathesis when an agent needs to turn an API schema into broad negative a
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- uv pip install schemathesis
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <img src="https://img.shields.io/pypi/pyversions/schemathesis.svg" alt="Python versions">
-- **Python Tests:**
-- python
-
-Basic usage or getting-started notes:
-- uvx schemathesis run https://example.schemathesis.io/openapi.json
-- uvx schemathesis run https://your-api.com/openapi.json
-- **Command Line:**
-
-- Source: https://github.com/schemathesis/schemathesis
-- Extracted from upstream docs: https://raw.githubusercontent.com/schemathesis/schemathesis/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

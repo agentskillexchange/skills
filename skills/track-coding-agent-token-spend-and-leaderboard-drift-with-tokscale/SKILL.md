@@ -26,24 +26,19 @@ Supported coding-agent local logs, Node.js or Bun for install, optional browser 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx tokscale@latest
-- npx tokscale@latest --light
-- git clone https://github.com/junhoyeo/tokscale.git
-- cargo --version
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [Prerequisites](#prerequisites)
-- [Prerequisites](#prerequisites-1)
-- [Node.js](https://nodejs.org/) or [Bun](https://bun.sh/)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- A high-performance CLI tool and visualization dashboard for tracking token usage and costs across multiple AI coding agents.
-- **Run [bunx tokscale@latest submit](#social) to submit your usage data to the leaderboard and create your public profile!**
-- [Quick Start](#quick-start)
+Install command or upstream instructions:
 
-- Source: https://github.com/junhoyeo/tokscale
-- Extracted from upstream docs: https://raw.githubusercontent.com/junhoyeo/tokscale/HEAD/README.md
+```
+Install the CLI with the upstream package instructions, point it at the default local agent log locations, then run Tokscale to inspect token, cost, and trend views or submit leaderboard data if desired.
+```
 
 ## Documentation
 

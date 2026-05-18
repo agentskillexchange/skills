@@ -26,17 +26,19 @@ Node.js, markdown-link-check package or container image, Markdown files or URLs,
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install --save-dev markdown-link-check
-- npm install -g markdown-link-check
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- To add the module to your project, run:
-- shell
-- To install the command line tool globally, run:
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/tcort/markdown-link-check
-- Extracted from upstream docs: https://raw.githubusercontent.com/tcort/markdown-link-check/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install markdown-link-check with npm or use the published container image, point it at a file or docs directory, then review or gate on the reported dead-link results.
+```
 
 ## Documentation
 

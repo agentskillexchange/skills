@@ -18,12 +18,13 @@ Run self-hosted push notifications with Gotify, including a REST API, WebSocket 
 
 ## Installation
 
-Requirements and caveats from upstream:
-- <a href="https://hub.docker.com/r/gotify/server">
-- <img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/gotify/server.svg">
+Choose whichever fits your setup:
 
-- Source: https://github.com/gotify/server
-- Extracted from upstream docs: https://raw.githubusercontent.com/gotify/server/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

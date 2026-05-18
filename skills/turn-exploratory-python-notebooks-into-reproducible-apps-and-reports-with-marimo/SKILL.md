@@ -24,23 +24,19 @@ Python 3.9+, marimo, notebook or analysis code
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install marimo && marimo tutorial intro
-- pip install marimo # or conda install -c conda-forge marimo
-- pip install "marimo[recommended]"
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <em>A reactive Python notebook that's reproducible, git-friendly, and deployable as scripts or apps.</em>
-- **marimo** is a reactive Python notebook: run a cell or interact with a UI
-- consistent. marimo notebooks are stored as pure Python (with first-class SQL support), executable as scripts,
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ⚡️ **reactive**: run a cell, and marimo reactively [runs all dependent cells](https://docs.marimo.io/guides/reactivity.html) or <a href="#expensive-notebooks">marks them as stale</a>
-- 🛜 **shareable**: [deploy as an interactive web app](https://docs.marimo.io/guides/apps.html) or [slides](https://docs.marimo.io/guides/apps.html#slides-layout), [run in the browser via WASM](https://docs.marimo.io/gui...
-- 🧪 **testable:** [run pytest](https://docs.marimo.io/guides/testing/) on notebooks
+Install command or upstream instructions:
 
-- Source: https://github.com/marimo-team/marimo
-- Extracted from upstream docs: https://raw.githubusercontent.com/marimo-team/marimo/HEAD/README.md
+```
+Install with `pip install marimo`, convert or create the notebook as a marimo app, then run it locally with the marimo CLI and commit the Python file for reproducible review.
+```
 
 ## Documentation
 

@@ -24,24 +24,19 @@ sqlfmt CLI
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- #### Recommended Installation: Use uv
-- [Install uv](https://docs.astral.sh/uv/getting-started/installation/#standalone-installer). From a POSIX shell, run:
-- uv tool install "shandy-sqlfmt[jinjafmt]"
-- **Use pip or something pip-like:**
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/shandy-sqlfmt)
-- **sqlfmt integrates with your workflow.** As a CLI written in Python, it's easy to install locally on any OS and run in CI. Plays well with dbt, pre-commit, SQLFluff, VSCode, and GitHub Actions. sqlfmt powers the dbt...
-- sqlfmt is a command-line tool that is built in Python and runs on MacOS, Linux, and Windows. It is distributed
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- **sqlfmt is fast.** Forget about formatting your code, and spend your time on business logic instead. sqlfmt processes hundreds of files per second and only operates on files that have changed since the last run.
-- Please visit [docs.sqlfmt.com](https://docs.sqlfmt.com) for more information on Getting Started, Integrations, the sqlfmt Style, and an API Reference. Or keep reading for an excerpt from the full docs.
-- #### Try it first
+Install command or upstream instructions:
 
-- Source: https://github.com/tconbeer/sqlfmt
-- Extracted from upstream docs: https://raw.githubusercontent.com/tconbeer/sqlfmt/HEAD/README.md
+```
+Install the Python CLI from the upstream sqlfmt project (the repository notes distribution on PyPI as shandy-sqlfmt, with uv recommended), then run sqlfmt against the target SQL files or project paths.
+```
 
 ## Documentation
 

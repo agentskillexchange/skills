@@ -24,20 +24,20 @@ Agent Sessions macOS app
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew tap jazzyalex/agent-sessions
-- brew install --cask agent-sessions
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Requires: macOS 14+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Explicit actions may open Terminal/iTerm2 resume commands or run status/probe cleanup workflows.
-- Agent Cockpit is the live command center for active iTerm2 Codex CLI, Claude CLI, and OpenCode CLI sessions, with shared active/waiting summaries and live Claude usage tracking.
-- Agent Sessions with Live Sessions enabled
+Install command or upstream instructions:
 
-- Source: https://github.com/jazzyalex/agent-sessions
-- Extracted from upstream docs: https://raw.githubusercontent.com/jazzyalex/agent-sessions/HEAD/README.md
+```
+brew tap jazzyalex/agent-sessions && brew install --cask agent-sessions
+# or download the DMG from GitHub Releases
+```
 
 ## Documentation
 

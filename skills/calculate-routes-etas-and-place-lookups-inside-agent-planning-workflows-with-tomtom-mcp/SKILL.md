@@ -26,24 +26,19 @@ MCP-compatible client, TomTom API key with MCP access, and either the hosted Tom
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install @tomtom-org/tomtom-mcp@latest
-- npx @tomtom-org/tomtom-mcp@latest
-- npm run build # Build first (required)
-- npm run start:http
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [Prerequisites](#prerequisites)
-- Node.js 22.x
-- node bin/tomtom-mcp-http.js
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Quick Start](#quick-start)
-- [Usage](#usage)
-- TomTom API key
+Install command or upstream instructions:
 
-- Source: https://github.com/tomtom-international/tomtom-mcp
-- Extracted from upstream docs: https://raw.githubusercontent.com/tomtom-international/tomtom-mcp/HEAD/README.md
+```
+<p>Connect your MCP client to the hosted endpoint at <code>https://mcp.tomtom.com/maps</code> with a <code>tomtom-api-key</code> header, or run it locally with <code>npm install @tomtom-org/tomtom-mcp@latest</code> or <code>npx @tomtom-org/tomtom-mcp@latest</code>. Provide <code>TOMTOM_API_KEY</code>, then register the server in your MCP client configuration.</p>
+```
 
 ## Documentation
 

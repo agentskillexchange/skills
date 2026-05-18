@@ -19,17 +19,13 @@ ActivityWatch is a privacy-first, open-source automated time tracker that record
 
 ## Installation
 
-Requirements and caveats from upstream:
-- aw-server (Python) - The current default implementation
-- **Client libraries:** Language-specific libraries like aw-client (Python), aw-client-js, and aw-client-rust that wrap REST endpoints for programmatic access
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- [Installation &amp; Usage](#installation--usage)
-- Downloads are available on the [releases page](https://github.com/ActivityWatch/activitywatch/releases).
-- For instructions on how to get started, please see the [guide in the documentation](https://docs.activitywatch.net/en/latest/getting-started.html).
-
-- Source: https://github.com/ActivityWatch/activitywatch
-- Extracted from upstream docs: https://raw.githubusercontent.com/ActivityWatch/activitywatch/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

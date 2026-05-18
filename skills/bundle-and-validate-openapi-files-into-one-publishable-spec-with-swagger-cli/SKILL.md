@@ -26,22 +26,19 @@ Node.js, npm or npx, and one or more Swagger/OpenAPI JSON or YAML files with loc
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install -g @apidevtools/swagger-cli
-- git clone https://github.com/APIDevTools/swagger-cli.git
-- npm install
-- npm test
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- There is a useful Python tool called [pre-commit](https://pre-commit.com/) that can be used to execute a wide suite of pre-commit checks. The swagger-cli validate command can be integrated as part of a git pre-commit...
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- --------------------------
-- bash
-- swagger-cli <command> [options] <file>
+Install command or upstream instructions:
 
-- Source: https://github.com/APIDevTools/swagger-cli
-- Extracted from upstream docs: https://raw.githubusercontent.com/APIDevTools/swagger-cli/HEAD/README.md
+```
+Install swagger-cli from npm or invoke it with npx, then run its validate or bundle commands against the root OpenAPI file to produce a single resolved artifact or CI validation result.
+```
 
 ## Documentation
 

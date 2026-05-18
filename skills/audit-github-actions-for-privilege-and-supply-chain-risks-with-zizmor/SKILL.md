@@ -24,12 +24,19 @@ Python 3.9+ or prebuilt zizmor binary, access to the target repository
 
 ## Installation
 
-Basic usage or getting-started notes:
-- [detailed usage recipes].
-- [detailed usage recipes]: https://docs.zizmor.sh/usage/
+Choose whichever fits your setup:
 
-- Source: https://github.com/zizmorcore/zizmor
-- Extracted from upstream docs: https://raw.githubusercontent.com/zizmorcore/zizmor/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install from the project documentation, then run `zizmor` against the repository or workflow files you want to review before merge or release.
+```
 
 ## Documentation
 

@@ -18,19 +18,13 @@ Yoast SEO is one of the most widely deployed WordPress SEO plugins, and this ski
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/Yoast/wordpress-seo.git
-- composer install
-- yarn
-- yarn workspace @yoast/ui-library watch:js
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Here's a [guide on how to install Yoast SEO in your WordPress site](https://yoa.st/1un).
-- ## Want to contribute to Yoast SEO?
-- At Yoast, we make use a specific toolset to develop our code. Please ensure you have the following tools installed before contributing.
-
-- Source: https://github.com/Yoast/wordpress-seo
-- Extracted from upstream docs: https://raw.githubusercontent.com/Yoast/wordpress-seo/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

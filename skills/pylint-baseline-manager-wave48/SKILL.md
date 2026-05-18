@@ -19,23 +19,19 @@ Manages Pylint baseline files for gradual code quality improvement using pylint 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install pylint
-- pip install pylint[spelling]
-- make a code contribution.
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- :target: https://pypi.python.org/pypi/pylint
-- Pylint is a static code analyser_ for Python 2 or 3. The latest version supports Python
-- Pylint supports the Python standard library out of the box. Third-party
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- -------
-- .. This is used inside the doc to recover the start of the short text for installation
-- For command line use, pylint is installed with::
+Install command or upstream instructions:
 
-- Source: https://github.com/pylint-dev/pylint
-- Extracted from upstream docs: https://raw.githubusercontent.com/pylint-dev/pylint/HEAD/README.rst
+```
+pip install pylint
+```
 
 ## Documentation
 

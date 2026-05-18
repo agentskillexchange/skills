@@ -26,20 +26,19 @@ Node.js, TypeScript
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Make authenticated API requests on behalf of your users. Send requests through Nango's proxy: it resolves the provider, injects credentials, handles retries and rate limits, and returns the response.
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![NPM Downloads](https://img.shields.io/npm/dm/@nangohq/node)](https://www.npmjs.com/package/@nangohq/node)
-- import { Nango } from '@nangohq/node';
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Connect your product & AI agents with 700+ APIs. Build, run, and maintain integrations with AI in code, on infrastructure built for scale.
-- export default async function run(nango: Nango) {
-- Get up and running in under 5 minutes:
+Install command or upstream instructions:
 
-- Source: https://github.com/NangoHQ/nango
-- Extracted from upstream docs: https://raw.githubusercontent.com/NangoHQ/nango/HEAD/README.md
+```
+npm install @nangohq/node
+```
 
 ## Documentation
 

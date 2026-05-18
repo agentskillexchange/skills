@@ -19,12 +19,13 @@ Chatwoot is a self-hosted, open-source customer engagement platform that provide
 
 ## Installation
 
-Requirements and caveats from upstream:
-- <a href="https://hub.docker.com/r/chatwoot/chatwoot/"><img src="https://img.shields.io/docker/pulls/chatwoot/chatwoot" alt="Docker Pull Badge"></a>
-- <a href="https://hub.docker.com/r/chatwoot/chatwoot/"><img src="https://img.shields.io/docker/cloud/build/chatwoot/chatwoot" alt="Docker Build Badge"></a>
+Choose whichever fits your setup:
 
-- Source: https://github.com/chatwoot/chatwoot
-- Extracted from upstream docs: https://raw.githubusercontent.com/chatwoot/chatwoot/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

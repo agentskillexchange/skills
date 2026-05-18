@@ -18,24 +18,13 @@ Gitleaks is an open-source SAST tool for detecting hardcoded secrets like passwo
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install gitleaks
-- docker pull zricethezav/gitleaks:latest
-- docker run -v ${path_to_host_folder_to_scan}:/path zricethezav/gitleaks:latest [COMMAND] [OPTIONS] [SOURCE_PATH]
-- docker pull ghcr.io/gitleaks/gitleaks:latest
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [dockerhub]: https://hub.docker.com/r/zricethezav/gitleaks
-- [dockerhub-badge]: https://img.shields.io/docker/pulls/zricethezav/gitleaks.svg
-- [![Docker Hub][dockerhub-badge]][dockerhub]
-
-Basic usage or getting-started notes:
-- ### Installing
-- bash
-- # MacOS
-
-- Source: https://github.com/gitleaks/gitleaks
-- Extracted from upstream docs: https://raw.githubusercontent.com/gitleaks/gitleaks/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

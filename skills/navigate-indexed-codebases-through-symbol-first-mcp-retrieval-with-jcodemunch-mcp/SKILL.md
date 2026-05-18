@@ -24,18 +24,19 @@ MCP-compatible agent, jCodeMunch MCP server, repository access
 
 ## Installation
 
-Requirements and caveats from upstream:
-- [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/jcodemunch-mcp)](https://pypi.org/project/jcodemunch-mcp/)
-- **Commercial use requires a paid license.**
-- Free packs require no license. Licensed packs require a [jCodeMunch license](https://j.gravelle.us/jCodeMunch/#pricing). Use --force to re-download an already-installed pack.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- A crapload of detailed info: http://jcodemunch.com/
-- **Live OSS code-health observatory** — weekly six-axis health snapshots
-- of Express, FastAPI, Gin, Pydantic, Django, Flask, NestJS, Cobra, and
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/jgravelle/jcodemunch-mcp
-- Extracted from upstream docs: https://raw.githubusercontent.com/jgravelle/jcodemunch-mcp/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install and run the jCodeMunch MCP server, index the target repository once, then connect it to an MCP-compatible client and use symbol search, outline, reference, and source-retrieval tools against the indexed repo.
+```
 
 ## Documentation
 

@@ -26,16 +26,13 @@ docker, go, rust
 
 ## Installation
 
-Requirements and caveats from upstream:
-- ![Docker Pulls](https://img.shields.io/docker/pulls/metabase/metabase)
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Metabase can be run just about anywhere. Check out our [Installation Guides](https://www.metabase.com/docs/latest/installation-and-operation/installing-metabase).
-- ## Documentation
-- The [Metabase handbook](https://www.metabase.com/docs/latest/).
-
-- Source: https://github.com/metabase/metabase
-- Extracted from upstream docs: https://raw.githubusercontent.com/metabase/metabase/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

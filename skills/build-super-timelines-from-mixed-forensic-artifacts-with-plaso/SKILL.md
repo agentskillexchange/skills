@@ -3,7 +3,7 @@ name: "Build super timelines from mixed forensic artifacts with Plaso"
 slug: "build-super-timelines-from-mixed-forensic-artifacts-with-plaso"
 description: "Ingest disk, log, and system artifacts into a sortable forensic timeline before analysis, scoping, or case review."
 github_stars: 2052
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/log2timeline/plaso"
 author: "log2timeline"
 publisher_type: "organization"
@@ -24,9 +24,19 @@ Plaso tooling such as log2timeline and psort, Python environment, artifact set o
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://github.com/log2timeline/plaso
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install Plaso from the upstream project or supported packages, feed it the target artifact source or image, then generate and review the resulting timeline with the standard Plaso tools.
+```
 
 ## Documentation
 

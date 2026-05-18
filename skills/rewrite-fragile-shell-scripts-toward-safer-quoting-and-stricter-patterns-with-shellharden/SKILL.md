@@ -24,13 +24,19 @@ Shellharden binary, shell scripts to review
 
 ## Installation
 
-Basic usage or getting-started notes:
-- ![real-world example](img/ex-realworld.png)
-- Below: An artificial example that shows more tricky cases and special features.
-- ![artificial example](img/ex-artificial.png)
+Choose whichever fits your setup:
 
-- Source: https://github.com/anordal/shellharden
-- Extracted from upstream docs: https://raw.githubusercontent.com/anordal/shellharden/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install Shellharden from a release or package manager, review findings with `shellharden <script>` and use its rewrite mode only after inspecting the proposed changes.
+```
 
 ## Documentation
 

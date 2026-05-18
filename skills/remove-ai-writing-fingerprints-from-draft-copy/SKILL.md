@@ -18,24 +18,13 @@ Use humanizer to scan drafts for AI telltales, explain what sounds synthetic, an
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/brandonwise/humanizer.git
-- npm install
-- npm install -g .
-- Run npm test — all tests must pass
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ![Node >= 18](https://img.shields.io/badge/node-%3E%3D18-brightgreen)
-- echo "This serves as a testament to innovation." | node src/cli.js score
-- node src/cli.js analyze -f your-draft.md
-
-Basic usage or getting-started notes:
-- ### As an OpenClaw skill
-- bash
-- cp humanizer/SKILL.md ~/.config/openclaw/skills/humanizer.md
-
-- Source: https://github.com/brandonwise/humanizer
-- Extracted from upstream docs: https://raw.githubusercontent.com/brandonwise/humanizer/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

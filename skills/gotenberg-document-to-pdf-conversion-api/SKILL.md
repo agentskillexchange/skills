@@ -19,12 +19,13 @@ Gotenberg is a Docker-based API for converting HTML, URLs, Markdown, and office 
 
 ## Installation
 
-Requirements and caveats from upstream:
-- <p align="center">A Docker-based API for converting documents to PDF</p>
-- <a href="https://hub.docker.com/r/gotenberg/gotenberg"><img alt="Total downloads (gotenberg/gotenberg)" src="https://img.shields.io/docker/pulls/gotenberg/gotenberg"></a>
+Choose whichever fits your setup:
 
-- Source: https://github.com/gotenberg/gotenberg
-- Extracted from upstream docs: https://raw.githubusercontent.com/gotenberg/gotenberg/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

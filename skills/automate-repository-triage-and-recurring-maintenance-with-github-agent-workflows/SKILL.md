@@ -23,19 +23,19 @@ GitHub Actions, gh CLI
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- make golint-custom builds cmd/linters and runs the custom analyzers against ./cmd/... and ./pkg/....
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Using agentic workflows in your repository requires careful attention to security considerations and careful human supervision, and even then things can still go wrong. Use it with caution, and at your own risk.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Write agentic workflows in natural language markdown, and run them in GitHub Actions.
-- [Quick Start](#quick-start)
-- Ready to get your first agentic workflow running? Follow our step-by-step [Quick Start Guide](https://github.github.com/gh-aw/setup/quick-start/) to install the extension, add a sample workflow, and see it in action.
+Install command or upstream instructions:
 
-- Source: https://github.com/github/gh-aw
-- Extracted from upstream docs: https://raw.githubusercontent.com/github/gh-aw/HEAD/README.md
+```
+Install the gh-aw GitHub CLI extension, initialize agentic workflows in a repository, define workflow markdown files, then compile and run them through GitHub Actions.
+```
 
 ## Documentation
 

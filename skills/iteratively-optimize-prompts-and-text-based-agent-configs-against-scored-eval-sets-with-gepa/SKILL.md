@@ -26,20 +26,19 @@ Python environment, GEPA package, train and validation examples with a scoring f
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install gepa
-- pip install git+https://github.com/gepa-ai/gepa.git
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <a href="https://pypi.org/project/gepa/"><img src="https://img.shields.io/pypi/v/gepa?logo=python&logoColor=white&color=3776ab" alt="PyPI"></a>
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- <a href="https://gepa-ai.github.io/gepa/guides/quickstart/"><strong>Quick Start</strong></a> &ensp;|&ensp;
-- bash
-- To install the latest from main:
+Install command or upstream instructions:
 
-- Source: https://github.com/gepa-ai/gepa
-- Extracted from upstream docs: https://raw.githubusercontent.com/gepa-ai/gepa/HEAD/README.md
+```
+Install GEPA with pip install gepa, prepare a scored train and validation set plus a seed candidate, then run the documented optimize flow or DSPy integration to generate and compare improved candidates.
+```
 
 ## Documentation
 

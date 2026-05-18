@@ -24,24 +24,19 @@ mdq and Markdown files to inspect or rewrite.
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install mdq
-- docker pull yshavit/mdq
-- cargo install --git https://github.com/yshavit/mdq
-- cargo build
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- reviewers to complete. Enforcing these often requires ugly regexes that are a pain to write and worse to debug. Instead,
-- echo 'My [example](https://github.com/yshavit/mdq) markdown' | docker run --rm -i yshavit/mdq '[]()'
-- To use a specific release version, use yshavit/mdq:<version>. See [Docker Hub] for available version tags.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- For example, GitHub PRs are Markdown documents, and some organizations have specific templates with checklists for all
-- you can (for example) ask mdq for all uncompleted tasks:
-- [!tip]
+Install command or upstream instructions:
 
-- Source: https://github.com/yshavit/mdq
-- Extracted from upstream docs: https://raw.githubusercontent.com/yshavit/mdq/HEAD/README.md
+```
+Install mdq from the project release or package instructions, then run its query and rewrite commands against Markdown files during docs cleanup, migration, or audit work.
+```
 
 ## Documentation
 

@@ -18,24 +18,13 @@ uv is an extremely fast Python package and project manager written in Rust by As
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- uv is backed by [Astral](https://astral.sh), the creators of
-- pip install uv
-- pipx install uv
-- uv self update
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![image](https://img.shields.io/pypi/v/uv.svg)](https://pypi.python.org/pypi/uv)
-- [![image](https://img.shields.io/pypi/l/uv.svg)](https://pypi.python.org/pypi/uv)
-- [![image](https://img.shields.io/pypi/pyversions/uv.svg)](https://pypi.python.org/pypi/uv)
-
-Basic usage or getting-started notes:
-- bash
-- # On macOS and Linux.
-- # On Windows.
-
-- Source: https://github.com/astral-sh/uv
-- Extracted from upstream docs: https://raw.githubusercontent.com/astral-sh/uv/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -21,18 +21,13 @@ Captures clean site content through Firecrawl endpoints like `/v1/scrape`, `/v1/
 
 ## Installation
 
-Requirements and caveats from upstream:
-- python
-- <summary><b>Node.js / cURL / CLI</b></summary>
-- **Node.js**
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Sign up at [firecrawl.dev](https://firecrawl.dev) to get your API key. Try the [playground](https://firecrawl.dev/playground) to test it out.
-- ### Search
-- Search the web and get full content from results.
-
-- Source: https://github.com/firecrawl/firecrawl
-- Extracted from upstream docs: https://raw.githubusercontent.com/firecrawl/firecrawl/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

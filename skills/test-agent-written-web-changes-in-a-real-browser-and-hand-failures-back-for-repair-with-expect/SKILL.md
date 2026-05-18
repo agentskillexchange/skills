@@ -3,7 +3,7 @@ name: "Test agent-written web changes in a real browser and hand failures back f
 slug: "test-agent-written-web-changes-in-a-real-browser-and-hand-failures-back-for-repair-with-expect"
 description: "Run an agent-native browser QA loop that reads recent code changes, generates a test plan, and returns concrete failures for the coding agent to fix."
 github_stars: 3362
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/millionco/expect"
 author: "Million"
 publisher_type: "organization"
@@ -26,9 +26,19 @@ Node.js, Expect CLI, a supported coding agent such as Claude Code or Codex, loca
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://github.com/millionco/expect
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Follow the upstream init flow from https://www.expect.dev/, ensure a supported coding agent is installed, then run /expect in the repo after the agent changes a web app so Expect can generate and execute the browser test plan.
+```
 
 ## Documentation
 

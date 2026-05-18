@@ -20,12 +20,13 @@ Tiptap is a headless, framework-agnostic rich text editor built on ProseMirror. 
 
 ## Installation
 
-Basic usage or getting-started notes:
-- **Headless Framework:** Tiptap does not rely on a user interface. So there is no need for class overrides or code hacks. If you do need an example UI feel free to browse our [UI templates](#examples-codesandbox-and-ui...
-- [Basic example of the Tiptap editor.](https://codesandbox.io/p/devbox/editor-9x9dkd?embed=1&file=%2Fsrc%2FApp.js)
+Choose whichever fits your setup:
 
-- Source: https://github.com/ueberdosis/tiptap
-- Extracted from upstream docs: https://raw.githubusercontent.com/ueberdosis/tiptap/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

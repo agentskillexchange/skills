@@ -18,22 +18,13 @@ A terminal-based interactive JSON viewer and jq filter editor written in Rust. j
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install jnv
-- brew install ynqa/tap/jnv
-- conda install jnv
-- docker build -t jnv .
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ### Docker
-
-Basic usage or getting-started notes:
-- [![Packaging status](https://repology.org/badge/vertical-allrepos/jnv.svg)](https://repology.org/project/jnv/versions)
-- ### Homebrew
-- See [here](https://formulae.brew.sh/formula/jnv) for more info.
-
-- Source: https://github.com/ynqa/jnv
-- Extracted from upstream docs: https://raw.githubusercontent.com/ynqa/jnv/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

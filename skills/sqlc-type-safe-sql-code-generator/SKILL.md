@@ -18,15 +18,13 @@ sqlc is a SQL compiler that generates type-safe Go, Python, Kotlin, and TypeScri
 
 ## Installation
 
-Requirements and caveats from upstream:
-- [sqlc-gen-python](https://github.com/sqlc-dev/sqlc-gen-python)
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- You run sqlc to generate code with type-safe interfaces to those queries.
-- Check out [an interactive example](https://play.sqlc.dev/) to see it in action, and the [introductory blog post](https://conroy.org/introducing-sqlc) for the motivation behind sqlc.
-
-- Source: https://github.com/sqlc-dev/sqlc
-- Extracted from upstream docs: https://raw.githubusercontent.com/sqlc-dev/sqlc/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

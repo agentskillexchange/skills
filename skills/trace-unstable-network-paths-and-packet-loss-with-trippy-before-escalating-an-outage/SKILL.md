@@ -24,22 +24,19 @@ Trippy CLI, terminal access, network reachability to the target host, elevated p
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- cargo install trippy --locked
-- brew install trippy
-- docker run -it fujiapple/trippy
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ### Docker
-- [![Docker Image Version (latest by date)](https://img.shields.io/docker/v/fujiapple/trippy)](https://hub.docker.com/r/fujiapple/trippy/)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- See the [getting started](https://trippy.rs/start/getting-started) guide.
-- Trippy runs on Linux, BSD, macOS, and Windows. It can be installed from most package managers, precompiled binaries, or
-- source.
+Install command or upstream instructions:
 
-- Source: https://github.com/fujiapple852/trippy
-- Extracted from upstream docs: https://raw.githubusercontent.com/fujiapple852/trippy/HEAD/README.md
+```
+Install Trippy from an upstream package manager or release binary, ensure the environment permits packet tracing, then run trip against the affected destination and review hop-level latency and loss.
+```
 
 ## Documentation
 

@@ -15,17 +15,13 @@ Queries and updates WooCommerce orders via the WooCommerce REST API v3 (/wp-json
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Node.js
-- Python
-- To use the latest version of the REST API you must be using:
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Request/Response Format
-- Errors
-- Parameters
-
-- Source: https://woocommerce.github.io/woocommerce-rest-api-docs/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

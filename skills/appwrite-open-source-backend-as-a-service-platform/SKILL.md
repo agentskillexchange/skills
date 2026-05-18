@@ -19,23 +19,13 @@ Appwrite is an open-source, self-hosted backend platform that provides authentic
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- docker run -it --rm \
-- docker run -it --rm ^
-- docker run -it --rm
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Appwrite is designed to run in a containerized environment. Running your server is as easy as running one command from your terminal. You can either run Appwrite on your localhost using docker-compose or on any other...
-- Before running the installation command, make sure you have [Docker](https://www.docker.com/products/docker-desktop) installed on your machine:
-- --volume /var/run/docker.sock:/var/run/docker.sock \
-
-Basic usage or getting-started notes:
-- [Getting Started](#getting-started)
-- **[Appwrite Functions](https://appwrite.io/docs/products/functions)** - Serverless compute platform to run custom backend logic in isolated runtimes, triggered by events or scheduled jobs.15 runtimes supported.
-- The easiest way to get started with Appwrite is by [signing up for Appwrite Cloud](https://cloud.appwrite.io/). While Appwrite Cloud is in public beta, you can build with Appwrite completely free, and we won't collect...
-
-- Source: https://github.com/appwrite/appwrite
-- Extracted from upstream docs: https://raw.githubusercontent.com/appwrite/appwrite/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -23,24 +23,19 @@ Python 3, pip, two comparable CSV, TSV, or JSON snapshots, and a stable key colu
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install csv-diff
-- $ docker build -t csvdiff .
-- $ docker run --rm -v $(pwd):/files csvdiff
-- $ docker run --rm -v $(pwd):/files csvdiff one.csv two.csv
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- --extra name "Python format string with {id} for variables"
-- ## As a Python library
-- You can also import the Python library into your own code like so:
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Consider two CSV files:
-- one.csv
-- id,name,age
+Install command or upstream instructions:
 
-- Source: https://github.com/simonw/csv-diff
-- Extracted from upstream docs: https://raw.githubusercontent.com/simonw/csv-diff/HEAD/README.md
+```
+pip install csv-diff
+```
 
 ## Documentation
 

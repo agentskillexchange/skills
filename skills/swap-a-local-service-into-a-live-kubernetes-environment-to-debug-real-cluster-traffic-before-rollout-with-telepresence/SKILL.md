@@ -24,13 +24,19 @@ Telepresence CLI, kubectl access, kubeconfig for the target cluster, a locally r
 
 ## Installation
 
-Basic usage or getting-started notes:
-- Telepresence is a [CNCF](https://www.cncf.io/) project that connects your local workstation to a remote Kubernetes cluster, letting you run services locally while accessing cluster resources. It enables fast local dev...
-- **Local Development** - Run services on your workstation using your favorite IDE, debugger, and tools
-- [Quick Start Guide](https://telepresence.io/docs/quick-start) - Get up and running in minutes
+Choose whichever fits your setup:
 
-- Source: https://github.com/telepresenceio/telepresence
-- Extracted from upstream docs: https://raw.githubusercontent.com/telepresenceio/telepresence/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install the Telepresence CLI from the upstream packages or release binaries, connect it to the target Kubernetes cluster with working kubectl credentials, then run the documented intercept workflow against the service you want to replace locally.
+```
 
 ## Documentation
 

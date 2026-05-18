@@ -18,19 +18,13 @@ pastel is a command-line tool for generating, analyzing, converting, and manipul
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install pastel
-- make install
-- cargo install pastel
-- git clone https://github.com/sharkdp/pastel
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- pastel provides a number of commands like saturate, mix or paint. To see a complete list, you can simply run
-- Many pastel commands can be composed by piping the output of one command to another, for example:
-- Colors can be passed as positional arguments, for example:
-
-- Source: https://github.com/sharkdp/pastel
-- Extracted from upstream docs: https://raw.githubusercontent.com/sharkdp/pastel/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -18,21 +18,13 @@ MLT is an open-source LGPL multimedia framework designed for video editing. It p
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- cmake ..
-- cmake -G Ninja ..
-- cmake --build .
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- The command must be executed from inside the build/ directory
-
-Basic usage or getting-started notes:
-- See the docs/ directory for usage details.
-- See the [website](https://www.mltframework.org/docs/) for development details
-- and a [contributing](https://www.mltframework.org/docs/contributing/) guide.
-
-- Source: https://github.com/mltframework/mlt
-- Extracted from upstream docs: https://raw.githubusercontent.com/mltframework/mlt/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

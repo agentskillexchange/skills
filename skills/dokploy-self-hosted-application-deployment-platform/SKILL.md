@@ -24,18 +24,13 @@ Docker, Docker Swarm, Traefik, Linux VPS
 
 ## Installation
 
-Requirements and caveats from upstream:
-- **Applications**: Deploy any type of application (Node.js, PHP, Python, Go, Ruby, etc.).
-- **Docker Compose**: Native support for Docker Compose to manage complex applications.
-- **Multi Node**: Scale applications to multiple nodes using Docker Swarm to manage the cluster.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- **Real-time Monitoring**: Monitor CPU, memory, storage, and network usage for every resource.
-- ## 🚀 Getting Started
-- To get started, run the following command on a VPS:
-
-- Source: https://github.com/Dokploy/dokploy
-- Extracted from upstream docs: https://raw.githubusercontent.com/Dokploy/dokploy/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

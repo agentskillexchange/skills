@@ -18,17 +18,13 @@ gallery-dl is a command-line tool for downloading image galleries and collection
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Pip
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- toml_: TOML configuration file support for Python<3.11
-
-Basic usage or getting-started notes:
-- ============
-
-- Source: https://github.com/mikf/gallery-dl
-- Extracted from upstream docs: https://raw.githubusercontent.com/mikf/gallery-dl/HEAD/README.rst
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -24,18 +24,19 @@ ffmpeg plus a Python or uv environment
 
 ## Installation
 
-Requirements and caveats from upstream:
-- [![Docker Image Version](https://img.shields.io/docker/v/slhck/ffmpeg-normalize?sort=semver&label=Docker%20image)](https://hub.docker.com/r/slhck/ffmpeg-normalize)
-- ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/slhck/ffmpeg-normalize/python-package.yml)
-- Docker support — Run via Docker container
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- ## 🚀 Quick Start
-- Run pip3 install ffmpeg-normalize and ffmpeg-normalize /path/to/your/file.mp4, alternatively install [uv](https://docs.astral.sh/uv/getting-started/installation/) and run uvx ffmpeg-normalize /path/to/your/file.mp4
-- Example:
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/slhck/ffmpeg-normalize
-- Extracted from upstream docs: https://raw.githubusercontent.com/slhck/ffmpeg-normalize/HEAD/README.md
+Install command or upstream instructions:
+
+```
+pip3 install ffmpeg-normalize
+```
 
 ## Documentation
 

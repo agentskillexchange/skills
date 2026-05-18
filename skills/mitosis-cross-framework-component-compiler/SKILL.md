@@ -18,16 +18,13 @@ Mitosis lets you write UI components once and compile them to React, Vue, Angula
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm create @builder.io/mitosis@latest
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Maintain a consistent design system across multiple frameworks ([example](https://github.com/db-ux-design-system/core-web))
-- ![Gif example of devloping with Mitosis](https://cdn.builder.io/api/v1/file/assets%2FYJIGb4i01jvw0SRdL5Bt%2F868af1e6d9fd4923b18ecd1d892f3a6e)
-- To create a new Mitosis project from scratch, run the following create command:
-
-- Source: https://github.com/BuilderIO/mitosis
-- Extracted from upstream docs: https://raw.githubusercontent.com/BuilderIO/mitosis/HEAD/README.MD
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

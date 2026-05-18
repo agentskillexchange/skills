@@ -24,19 +24,19 @@ Supermemory account or self-hosted stack; Supermemory API/plugin; agent runtime 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install supermemory # or: pip install supermemory
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- python
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- bash
-- typescript
-- import Supermemory from "supermemory";
+Install command or upstream instructions:
 
-- Source: https://github.com/supermemoryai/supermemory
-- Extracted from upstream docs: https://raw.githubusercontent.com/supermemoryai/supermemory/HEAD/README.md
+```
+Follow the Supermemory docs to create/configure a workspace, connect the API or supported plugin/MCP integration, ingest memory sources, and call memory/search retrieval from the agent workflow.
+```
 
 ## Documentation
 

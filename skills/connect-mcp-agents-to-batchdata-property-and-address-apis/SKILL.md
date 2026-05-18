@@ -24,24 +24,19 @@ BatchData API access, MCP client, API credentials, approved use case for propert
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx -y @smithery/cli install @zellerhaus/batchdata-mcp-real-estate --client claude
-- npm install
-- npm run build
-- npm start
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ## Docker Support
-- **Build and test the Docker container:**
-- chmod +x docker-manage.sh
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ### Installing via Smithery
-- To install batchdata-mcp-real-estate for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@zellerhaus/batchdata-mcp-real-estate):
-- bash
+Install command or upstream instructions:
 
-- Source: https://github.com/zellerhaus/batchdata-mcp-real-estate
-- Extracted from upstream docs: https://raw.githubusercontent.com/zellerhaus/batchdata-mcp-real-estate/HEAD/README.md
+```
+Install the MCP server from the repository, configure BatchData credentials and permitted endpoints, then test property/address queries from a trusted MCP client.
+```
 
 ## Documentation
 

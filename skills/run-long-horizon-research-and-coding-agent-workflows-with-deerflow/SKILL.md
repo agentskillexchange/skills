@@ -24,15 +24,19 @@ DeerFlow application, supported LLM provider credentials, configured tools, memo
 
 ## Installation
 
-Requirements and caveats from upstream:
-- [![Python](https://img.shields.io/badge/Python-3.12%2B-3776AB?logo=python&logoColor=white)](./backend/pyproject.toml)
-- [![Node.js](https://img.shields.io/badge/Node.js-22%2B-339933?logo=node.js&logoColor=white)](./Makefile)
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- We strongly recommend using Doubao-Seed-2.0-Code, DeepSeek v3.2 and Kimi 2.5 to run DeerFlow
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/bytedance/deer-flow
-- Extracted from upstream docs: https://raw.githubusercontent.com/bytedance/deer-flow/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Use the upstream one-line setup or Docker quick start from the DeerFlow README, configure model and tool credentials, start with sandboxed low-risk tasks, and add review checkpoints before enabling long-running research or coding workflows.
+```
 
 ## Documentation
 

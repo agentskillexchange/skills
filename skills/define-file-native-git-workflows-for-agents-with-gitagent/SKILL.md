@@ -26,14 +26,19 @@ GitAgent, git repository, compatible agent runtime
 
 ## Installation
 
-Requirements and caveats from upstream:
-- <img src="https://img.shields.io/badge/node-%3E%3D20-brightgreen?style=flat-square" alt="node version" />
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- <a href="#quick-start">Quick Start</a> &bull;
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/open-gitagent/gitagent
-- Extracted from upstream docs: https://raw.githubusercontent.com/open-gitagent/gitagent/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install the @open-gitagent/gitagent package, initialize it inside a repository, then define and run workflow files that encode prompts, tasks, and reusable agent chains.
+```
 
 ## Documentation
 

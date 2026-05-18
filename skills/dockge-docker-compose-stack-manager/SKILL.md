@@ -18,23 +18,13 @@ Dockge is a self-hosted Docker Compose stack manager with a reactive web UI for 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Major Linux distros that can run Docker/Podman such as:
-- docker compose up -d
-- docker compose pull && docker compose up -d
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager.
-- [![GitHub Repo stars](https://img.shields.io/github/stars/louislam/dockge?logo=github&style=flat)](https://github.com/louislam/dockge) [![Docker Pulls](https://img.shields.io/docker/pulls/louislam/dockge?logo=docker)]...
-- Update Docker Images
-
-Basic usage or getting-started notes:
-- OS:
-- ✅ Ubuntu
-- ✅ Debian (Bullseye or newer)
-
-- Source: https://github.com/louislam/dockge
-- Extracted from upstream docs: https://raw.githubusercontent.com/louislam/dockge/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

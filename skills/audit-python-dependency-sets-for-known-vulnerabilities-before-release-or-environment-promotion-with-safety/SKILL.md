@@ -24,21 +24,19 @@ Python, pip, a requirements file or Python environment to scan, and Safety authe
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Run pip install safety.
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ![Python Versions](https://img.shields.io/pypi/pyversions/safety)
-- [Supported Python Versions](#supported-python-versions)
-- Safety CLI is a Python dependency vulnerability scanner designed to enhance software supply chain security by detecting packages with known vulnerabilities and malicious packages in local development environments, CI/...
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Getting Started](#getting-started)
-- ## GitHub Action
-- Test Safety CLI in CI/CD using our [GitHub Action](https://github.com/pyupio/safety-action).
+Install command or upstream instructions:
 
-- Source: https://github.com/pyupio/safety
-- Extracted from upstream docs: https://raw.githubusercontent.com/pyupio/safety/HEAD/README.md
+```
+Install with pip install safety, then run safety scan in a project directory or against the target environment.
+```
 
 ## Documentation
 

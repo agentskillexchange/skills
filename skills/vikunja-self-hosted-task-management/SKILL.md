@@ -18,12 +18,13 @@ Vikunja is an open-source, self-hosted task management application written in Go
 
 ## Installation
 
-Requirements and caveats from upstream:
-- [![Docker Pulls](https://img.shields.io/docker/pulls/vikunja/vikunja.svg)](https://hub.docker.com/r/vikunja/vikunja/)
-- Background images from Unsplash are distributed under the [Unsplash License](https://unsplash.com/license). The license requires giving credit to the photographer and Unsplash. See [Unsplash’s terms](https://unsplash....
+Choose whichever fits your setup:
 
-- Source: https://github.com/go-vikunja/vikunja
-- Extracted from upstream docs: https://raw.githubusercontent.com/go-vikunja/vikunja/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

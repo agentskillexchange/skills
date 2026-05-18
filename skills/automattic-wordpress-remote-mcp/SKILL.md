@@ -25,23 +25,19 @@ WP_API_URL, WP_API_USERNAME, WP_API_PASSWORD
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install @automattic/mcp-wordpress-remote
-- npx @automattic/mcp-wordpress-remote
-- git clone https://github.com/Automattic/mcp-wordpress-remote.git
-- npm install
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- "command": "node",
-- **Node.js 22+** (required for fetch API support)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- bash
-- ### Configuration
-- Add to your MCP client configuration (e.g., Claude Desktop's claude_desktop_config.json):
+Install command or upstream instructions:
 
-- Source: https://github.com/Automattic/mcp-wordpress-remote
-- Extracted from upstream docs: https://raw.githubusercontent.com/Automattic/mcp-wordpress-remote/HEAD/README.md
+```
+npm install @automattic/mcp-wordpress-remote
+```
 
 ## Source
 

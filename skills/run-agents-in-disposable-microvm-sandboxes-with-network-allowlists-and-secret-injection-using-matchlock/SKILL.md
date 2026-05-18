@@ -24,24 +24,19 @@ Local shell, Matchlock CLI, virtualization support for the target host, and the 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew tap jingkaihe/essentials
-- brew install matchlock
-- docker save myapp:latest | matchlock image import myapp:latest # Import from tarball
-- pip install matchlock
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- matchlock run --image python:3.12-alpine \
-- --allow-host "api.openai.com" python agent.py
-- --secret ANTHROPIC_API_KEY@api.anthropic.com python call_api.py
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- AI agents need to run code, but giving them unrestricted access to your machine is a risk. Matchlock lets you hand an agent a full Linux environment that boots in under a second - isolated and disposable.
-- ### System Requirements
-- **Linux** with KVM support
+Install command or upstream instructions:
 
-- Source: https://github.com/jingkaihe/matchlock
-- Extracted from upstream docs: https://raw.githubusercontent.com/jingkaihe/matchlock/HEAD/README.md
+```
+Install Matchlock with Homebrew using `brew tap jingkaihe/essentials && brew install matchlock`, then run `matchlock diagnose` and complete any required host setup before launching a sandboxed agent run.
+```
 
 ## Documentation
 

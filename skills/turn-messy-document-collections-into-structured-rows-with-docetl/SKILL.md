@@ -24,24 +24,19 @@ Python 3.10+, DocETL, document corpus, extraction configuration
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Use Docker (recommended for quick start): make docker
-- pip install docetl
-- Run Docker:
-- make docker
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- A Python package for running production pipelines from the command line or Python code
-- ### 2. 📦 Python Package (For Production Use)
-- If you want to use DocETL as a Python package:
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ## 🚀 Getting Started
-- DocWrangler is hosted at [docetl.org/playground](https://docetl.org/playground). But to run the playground locally, you can either:
-- OpenAI API key
+Install command or upstream instructions:
 
-- Source: https://github.com/ucbepic/docetl
-- Extracted from upstream docs: https://raw.githubusercontent.com/ucbepic/docetl/HEAD/README.md
+```
+Install DocETL from the project instructions, configure the extraction pipeline for your document set, then run the pipeline to emit normalized structured outputs and review failures.
+```
 
 ## Documentation
 

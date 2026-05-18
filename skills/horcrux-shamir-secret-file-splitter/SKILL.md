@@ -18,19 +18,13 @@ Horcrux splits files into encrypted fragments using Shamir Secret Sharing, so yo
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install jesseduffield/horcrux/horcrux
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [Haystack](https://github.com/henrysdev/Haystack). Implements another file sharding and reassembly algorithm inspired by SSSS, but requires a password for reassembly and does not support thresholds of horcruxes.
-
-Basic usage or getting-started notes:
-- and it will prompt me for how many horcruxes I want, and how many will be needed to resurrect the original file. For example I might want 5 horcruxes with the ability to resurrect the file if I have any 3. The horcrux...
-- via homebrew:
-- via [scoop](https://scoop.sh/):
-
-- Source: https://github.com/jesseduffield/horcrux
-- Extracted from upstream docs: https://raw.githubusercontent.com/jesseduffield/horcrux/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

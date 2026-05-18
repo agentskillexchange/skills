@@ -24,16 +24,19 @@ Node.js
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Attempting to Browserify require('juice') fails because portions of Juice and its dependencies interact with the file system using the standard require('fs'). However, you can require('juice/client') via Browserify wh...
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- For example, Handlebars (hbs) templates are juice.codeBlocks.HBS = {start: '{{', end: '}}'}. codeBlocks can fix problems where otherwise juice might interpret code like <= as HTML, when it is meant to be template lang...
-- To use Juice from CLI, run juice [options] input.html output.html
-- The CLI should have all the above [options](#options) with the names changed from camel case to hyphen-delimited, so for example extraCss becomes extra-css and webResources.scripts becomes web-resources-scripts.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/Automattic/juice
-- Extracted from upstream docs: https://raw.githubusercontent.com/Automattic/juice/HEAD/README.md
+Install command or upstream instructions:
+
+```
+npm install juice
+```
 
 ## Documentation
 

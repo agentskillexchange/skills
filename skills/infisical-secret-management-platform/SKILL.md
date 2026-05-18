@@ -18,21 +18,13 @@ Infisical is an open-source platform for managing application secrets, environme
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/Infisical/infisical && cd "$(basename $_ .git)" && cp .env.example .env && docker compose -f docker-compose.prod.yml up
-- git clone https://github.com/Infisical/infisical && cd infisical && copy .env.example .env && docker compose -f docker-compose.prod.yml up
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- **[Infisical SDK](https://infisical.com/docs/sdks/overview)**: Interact with Infisical via client SDKs ([Node](https://infisical.com/docs/sdks/languages/node), [Python](https://github.com/Infisical/python-sdk-official...
-- To set up and run Infisical locally, make sure you have [Git](https://git-scm.com/downloads) and [Docker](https://www.docker.com/get-started/) installed on your system.
-
-Basic usage or getting-started notes:
-- Check out the [Quickstart Guides](https://infisical.com/docs/documentation/getting-started/overview)
-- | Use Infisical Cloud | Deploy Infisical on premise |
-- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------...
-
-- Source: https://github.com/Infisical/infisical
-- Extracted from upstream docs: https://raw.githubusercontent.com/Infisical/infisical/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

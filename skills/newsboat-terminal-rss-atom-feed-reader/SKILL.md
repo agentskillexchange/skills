@@ -18,22 +18,13 @@ Newsboat is an actively maintained RSS/Atom feed reader for the text console. A 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- $ git clone https://github.com/newsboat/newsboat.git
-- $ make # pass -jN to use N CPU cores, e.g. -j8
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Newsboat depends on a number of libraries, which need to be installed before
-- [build from source with Docker](doc/docker.md). Note that the resulting binary
-- might not run outside of that same Docker container if your system doesn't
-
-Basic usage or getting-started notes:
-- ------------
-- <!--
-- UPDATE doc/newsboat.asciidoc IF YOU CHANGE THIS LIST
-
-- Source: https://github.com/newsboat/newsboat
-- Extracted from upstream docs: https://raw.githubusercontent.com/newsboat/newsboat/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

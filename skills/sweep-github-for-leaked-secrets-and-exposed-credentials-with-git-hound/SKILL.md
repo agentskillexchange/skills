@@ -24,21 +24,19 @@ git-hound binary, GitHub token or code search access, and operator-defined dork 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- docker build -t my-githound-container .
-- docker run -v /path/to/config.yaml:/root/.githound/config.yaml -v $(pwd)/data:/data my-githound-container --subdomain-file /data/subdomains.txt
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ## Building the Docker Image
-- To build the Docker image for Git-Hound, use the following command:
-- This command builds the Docker image with the tag my-githound-container. You can change the tag name to your preference.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Example config.yaml:
-- Use the following command to run the container with your configuration and input files:
+Install command or upstream instructions:
 
-- Source: https://github.com/tillson/git-hound
-- Extracted from upstream docs: https://raw.githubusercontent.com/tillson/git-hound/HEAD/README.md
+```
+Download git-hound from GitHub Releases, configure the required GitHub access in config.yml, then run dork or keyword searches to scan matching repositories and histories for leaked secrets.
+```
 
 ## Documentation
 

@@ -19,17 +19,19 @@ Google account, Google Cloud project, Gmail API enabled, and OAuth 2.0 credentia
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Node.js
-- Python
-- Requires one of the following OAuth scopes:
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Postmaster Tools API
-- v2
-- Resource summary
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://developers.google.com/gmail/api/reference/rest/v1/users.threads/get
+Install command or upstream instructions:
+
+```
+Create a Google Cloud project, enable the Gmail API, configure OAuth 2.0 credentials, then authorize your app against the Gmail API.
+```
 
 ## Documentation
 

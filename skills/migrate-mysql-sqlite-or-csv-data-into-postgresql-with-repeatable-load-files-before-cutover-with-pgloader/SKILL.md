@@ -24,20 +24,19 @@ pgloader and access to source systems plus a PostgreSQL target
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- $ docker pull ghcr.io/dimitri/pgloader:latest
-- $ docker run --rm -it ghcr.io/dimitri/pgloader:latest pgloader --version
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- If you're using docker, you can use the latest version built by the CI at
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- pgloader also implements data reformatting, a typical example of that
-- --help -h boolean Show usage and exit.
-- --dry-run boolean Only check database connections, don't load anything.
+Install command or upstream instructions:
 
-- Source: https://github.com/dimitri/pgloader
-- Extracted from upstream docs: https://raw.githubusercontent.com/dimitri/pgloader/HEAD/README.md
+```
+Install pgloader from your package manager or build instructions, create a `.load` file describing the source and PostgreSQL target, then run `pgloader your-migration.load` to execute and iterate on the migration.
+```
 
 ## Documentation
 

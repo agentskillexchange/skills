@@ -18,13 +18,13 @@ Mockoon is the fastest way to run mock REST APIs locally. It provides a desktop 
 
 ## Installation
 
-Basic usage or getting-started notes:
-- Mockoon is the easiest and quickest way to design and run mock APIs. No remote deployment, no account required, free and open-source.
-- It combines a [desktop application](https://mockoon.com/download/) to design and run mock servers locally, and a [CLI](https://mockoon.com/cli/) to self-host your fake APIs. A [cloud](#subscribe-to-mockoon-cloud) is a...
-- CLI to run your mock in headless environments, CI, etc.
+Choose whichever fits your setup:
 
-- Source: https://github.com/mockoon/mockoon
-- Extracted from upstream docs: https://raw.githubusercontent.com/mockoon/mockoon/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

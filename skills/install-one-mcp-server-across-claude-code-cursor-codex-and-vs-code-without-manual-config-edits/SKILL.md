@@ -26,23 +26,19 @@ Node.js and npx; one or more supported coding clients such as Claude Code, Codex
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx add-mcp url | package name [options]
-- npx add-mcp https://mcp.context7.com/mcp
-- npx add-mcp find vercel
-- npx add-mcp https://mcp.example.com/mcp
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- # Node.js script
-- add-mcp supports all three transport types: HTTP, SSE, and stdio. Some agents require type option to be set to specify the transport type. You can use the --type or --transport option to specify the transport type:
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- bash
-- Example installing the Context7 remote MCP server:
-- You can add env variables and arguments (stdio) and headers (remote) to the server config using the --env, --args and --header options.
+Install command or upstream instructions:
 
-- Source: https://github.com/neondatabase/add-mcp
-- Extracted from upstream docs: https://raw.githubusercontent.com/neondatabase/add-mcp/HEAD/README.md
+```
+<p>Run <code>npx add-mcp <server-url-or-package></code> to install an MCP server into detected project configs, or add <code>-g</code> for global config files. Use flags like <code>-a</code> to target specific clients, <code>--header</code> for remote auth, <code>--env</code> for local stdio servers, <code>find</code> to search registries, and <code>sync</code> to unify names and installations across clients.</p>
+```
 
 ## Documentation
 

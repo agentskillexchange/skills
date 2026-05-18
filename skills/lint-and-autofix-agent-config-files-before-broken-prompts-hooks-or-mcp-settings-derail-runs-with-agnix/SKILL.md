@@ -26,22 +26,23 @@ agnix CLI
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- $ npx agnix .
-- npm install -g agnix
-- brew tap agent-sh/agnix && brew install agnix
-- cargo install agnix-cli
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- | **Neovim** | { "agent-sh/agnix", config = function() require("agnix").setup() end } |
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- console
-- Validating: .
-- CLAUDE.md:15:1 warning: Generic instruction 'Be helpful and accurate' [fixable]
+Install command or upstream instructions:
 
-- Source: https://github.com/agent-sh/agnix
-- Extracted from upstream docs: https://raw.githubusercontent.com/agent-sh/agnix/HEAD/README.md
+```
+npm install -g agnix
+# or
+brew tap agent-sh/agnix && brew install agnix
+# or
+cargo install agnix-cli
+```
 
 ## Documentation
 

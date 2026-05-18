@@ -26,23 +26,19 @@ Node.js, supported agent runtime such as Claude Code or OpenClaw, local skill di
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install -g @goplus/agentguard
-- git clone https://github.com/GoPlusSecurity/agentguard.git
-- npm install @goplus/agentguard
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- # Requires the local OpenClaw Gateway at 127.0.0.1:18789.
-- | 3 | **Network Exposure** | Detects dangerous ports bound to 0.0.0.0 (Redis, Docker API, MySQL, etc.), checks firewall status, flags suspicious outbound connections |
-- **Note:** Patrol requires an OpenClaw environment. For non-OpenClaw setups, use /agentguard scan and /agentguard report for manual security checks.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- 8 comprehensive security checks run on a configurable schedule
-- # skills, and reports matches back. Run in cron / on boot.
-- # Optional: after one subscribe run, install an OpenClaw isolated cron job that
+Install command or upstream instructions:
 
-- Source: https://github.com/GoPlusSecurity/agentguard
-- Extracted from upstream docs: https://raw.githubusercontent.com/GoPlusSecurity/agentguard/HEAD/README.md
+```
+Install with npm install @goplus/agentguard. For Claude Code, clone the repo and run ./setup.sh to install hooks, or install the skill manually from the repo. For OpenClaw, register the provided @goplus/agentguard/openclaw plugin entrypoint in plugin config.
+```
 
 ## Documentation
 

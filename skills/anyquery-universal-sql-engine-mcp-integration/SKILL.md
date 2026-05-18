@@ -18,16 +18,13 @@ Anyquery is a SQL query engine that lets you run SQL against 40+ apps, files, an
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install anyquery
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Anyquery is a SQL query engine that allows you to run SQL queries on pretty much anything. It supports querying [files](https://anyquery.dev/docs/usage/querying-files/), [databases](https://anyquery.dev/docs/database)...
-- Anyquery can expose a MySQL-compatible server mode so SQL clients can query supported data sources through the same interface.
-- ### Connecting LLM
-
-- Source: https://github.com/julien040/anyquery
-- Extracted from upstream docs: https://raw.githubusercontent.com/julien040/anyquery/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

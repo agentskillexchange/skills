@@ -19,13 +19,13 @@ Controls Rive (.riv) interactive animations at runtime using @rive-app/canvas-ad
 
 ## Installation
 
-Basic usage or getting-started notes:
-- 🚀 [Getting Started & API docs](#getting-started)
-- [Rive](https://rive.app) is a real-time interactive design and animation tool that helps teams create and run interactive animations anywhere. Designers and developers use our collaborative editor to create motion gra...
-- Follow along with the link below for a quick start in getting Rive React integrated into your React apps.
+Choose whichever fits your setup:
 
-- Source: https://github.com/rive-app/rive-react
-- Extracted from upstream docs: https://raw.githubusercontent.com/rive-app/rive-react/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

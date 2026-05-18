@@ -19,24 +19,13 @@ Chartbrew is an open-source web application for building and sharing live dashbo
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/chartbrew/chartbrew.git
-- npm run start
-- npm run start-dev
-- ## Run with Docker
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <a href="https://hub.docker.com/r/razvanilin/chartbrew" target="_blank"><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/razvanilin/chartbrew"></a>
-- [Check the full guide in the docs.](https://docs.chartbrew.com/deployment/run-on-docker)
-- A [Chartbrew docker image](https://hub.docker.com/r/razvanilin/chartbrew) is built whenever a new version is released.
-
-Basic usage or getting-started notes:
-- NodeJS v22+
-- MySQL (5+) or PostgreSQL (12.5+)
-- Redis (v6+)
-
-- Source: https://github.com/chartbrew/chartbrew
-- Extracted from upstream docs: https://raw.githubusercontent.com/chartbrew/chartbrew/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

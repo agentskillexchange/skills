@@ -15,19 +15,13 @@ Uses the Gemini Imagen 3 API (imagegeneration endpoint) to apply stylistic trans
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Make a simple but stylish graphic of last night's Arsenal game in the Champion's League
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Python
-- import * as fs from "node:fs" ;
-
-Basic usage or getting-started notes:
-- API keys
-- Libraries
-- Pricing
-
-- Source: https://ai.google.dev/gemini-api/docs/image-generation
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

@@ -24,22 +24,19 @@ kubespy CLI, Kubernetes cluster access
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install kubespy
-- go install github.com/pulumi/kubespy@latest
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Prerequisite: [homebrew](https://docs.brew.sh/Installation)
-- Prerequisite: kubectl v1.12.0 or later
-- Prerequisite: [Go](https://golang.org/) version 1.19 or later
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- time,** derived from the work we did to make Kubernetes deployments predictable in [Pulumi's CLI](https://www.pulumi.com/kubernetes/). Run kubespy at any point in time, and it will watch and report information about a
-- You can install kubespy in the following ways:
-- ### Homebrew (Mac)
+Install command or upstream instructions:
 
-- Source: https://github.com/pulumi/kubespy
-- Extracted from upstream docs: https://raw.githubusercontent.com/pulumi/kubespy/HEAD/README.md
+```
+Install kubespy from the project repository, connect it to the target cluster context, and watch the resource type and name involved in the rollout or incident.
+```
 
 ## Documentation
 

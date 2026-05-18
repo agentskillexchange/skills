@@ -18,24 +18,13 @@ LobeHub is an open-source multi-agent chat platform supporting 50+ LLM providers
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- docker compose up -d
-- $ git clone https://github.com/lobehub/lobehub.git
-- $ pnpm install
-- $ pnpm dev # Full-stack (Next.js + Vite SPA)
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![][docker-release-shield]][docker-release-link]
-- [B Deploying with Docker](#b-deploying-with-docker)
-- Today’s agents are one-off, task-driven tools. They lack context, live in isolation, and require manual hand-offs between different windows and models. While some maintain memory, it is often global, shallow, and impe...
-
-Basic usage or getting-started notes:
-- [👋🏻 Getting Started & Join Our Community](#-getting-started--join-our-community)
-- ## 👋🏻 Getting Started & Join Our Community
-- Learn more about [📘 Using Ollama in LobeHub][docs-usage-ollama] by checking it out.
-
-- Source: https://github.com/lobehub/lobehub
-- Extracted from upstream docs: https://raw.githubusercontent.com/lobehub/lobehub/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

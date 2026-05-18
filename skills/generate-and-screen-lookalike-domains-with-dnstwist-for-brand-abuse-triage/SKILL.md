@@ -3,7 +3,7 @@ name: "Generate and screen lookalike domains with dnstwist for brand abuse triag
 slug: "generate-and-screen-lookalike-domains-with-dnstwist-for-brand-abuse-triage"
 description: "Generate typosquat and homograph domain candidates, resolve them, and flag likely phishing or impersonation infrastructure before manual brand-abuse review."
 github_stars: 5656
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/elceef/dnstwist"
 author: "elceef"
 publisher_type: "open_source_project"
@@ -24,9 +24,19 @@ Python, target brand or domain, DNS resolution, optional HTTP or screenshot foll
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://github.com/elceef/dnstwist
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+pip install dnstwist
+```
 
 ## Documentation
 

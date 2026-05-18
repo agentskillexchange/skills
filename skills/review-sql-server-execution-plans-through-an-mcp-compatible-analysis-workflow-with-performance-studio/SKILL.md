@@ -24,22 +24,19 @@ Performance Studio via its built-in MCP server or CLI, plus SQL Server execution
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/erikdarlingdata/PerformanceStudio.git
-- docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=YourPassword123" \
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Each warning includes severity (Info, Warning, or Critical), the operator node ID, and enough context to act on immediately.
-- Docker (optional — macOS/Linux users can run SQL Server locally via Docker)
-- [Critical] Parallelism (Node 0): Estimated 1 rows, actual 2,889 (2889x underestimated).
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- **Missing indexes** — extracts SQL Server's index suggestions with ready-to-run CREATE statements
-- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0) (required to build and run)
-- SQL Server instance (optional — only needed for live plan capture; file analysis works without one)
+Install command or upstream instructions:
 
-- Source: https://github.com/erikdarlingdata/PerformanceStudio
-- Extracted from upstream docs: https://raw.githubusercontent.com/erikdarlingdata/PerformanceStudio/HEAD/README.md
+```
+Clone the repository or download a release from GitHub, then follow the README to run Performance Studio and enable its built-in MCP server or CLI workflow for execution-plan analysis.
+```
 
 ## Documentation
 

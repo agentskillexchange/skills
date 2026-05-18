@@ -18,13 +18,13 @@ Lip Gloss by Charmbracelet is a Go library that brings CSS-like declarative styl
 
 ## Installation
 
-Basic usage or getting-started notes:
-- ![Lip Gloss example](https://github.com/user-attachments/assets/92560e60-d70e-4ce0-b39e-a60bb933356b)
-- bash
-- go get charm.land/lipgloss/v2
+Choose whichever fits your setup:
 
-- Source: https://github.com/charmbracelet/lipgloss
-- Extracted from upstream docs: https://raw.githubusercontent.com/charmbracelet/lipgloss/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

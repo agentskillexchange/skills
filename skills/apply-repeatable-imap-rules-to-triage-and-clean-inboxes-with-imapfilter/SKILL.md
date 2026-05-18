@@ -24,17 +24,19 @@ IMAP account credentials, imapfilter installation, Lua rule configuration, netwo
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- make -j all
-- make install
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Compile time requirements are:
-- Lua, version 5.5 or 5.4 or 5.3 or 5.2 or 5.1, https://www.lua.org
-- PCRE2, version 10.00 and later, https://www.pcre.org
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/lefcha/imapfilter
-- Extracted from upstream docs: https://raw.githubusercontent.com/lefcha/imapfilter/HEAD/README
+Install command or upstream instructions:
+
+```
+Install imapfilter from the upstream package or build path, define mailbox rules in its Lua configuration format, then run it against the target IMAP accounts to apply the scripted actions.
+```
 
 ## Documentation
 

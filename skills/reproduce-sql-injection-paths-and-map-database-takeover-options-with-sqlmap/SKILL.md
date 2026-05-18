@@ -24,21 +24,19 @@ Python, authorized target URL or captured HTTP request, operator approval for se
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![.github/workflows/tests.yml](https://github.com/sqlmapproject/sqlmap/actions/workflows/tests.yml/badge.svg)](https://github.com/sqlmapproject/sqlmap/actions/workflows/tests.yml) [![Python 2.7|3.x](https://img.shiel...
-- sqlmap works out of the box with [Python](https://www.python.org/download/) version **2.7** and **3.x** on any platform.
-- python sqlmap.py -h
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ----
-- You can download the latest tarball by clicking [here](https://github.com/sqlmapproject/sqlmap/tarball/master) or latest zipball by clicking [here](https://github.com/sqlmapproject/sqlmap/zipball/master).
-- Preferably, you can download sqlmap by cloning the [Git](https://github.com/sqlmapproject/sqlmap) repository:
+Install command or upstream instructions:
 
-- Source: https://github.com/sqlmapproject/sqlmap
-- Extracted from upstream docs: https://raw.githubusercontent.com/sqlmapproject/sqlmap/HEAD/README.md
+```
+Clone the upstream repository or use a packaged install, then run sqlmap.py against an authorized request or URL.
+```
 
 ## Documentation
 

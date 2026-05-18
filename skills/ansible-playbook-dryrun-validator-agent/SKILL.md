@@ -19,16 +19,13 @@ Validates Ansible playbooks in check mode using ansible-playbook --check --diff 
 
 ## Installation
 
-Requirements and caveats from upstream:
-- ad-hoc task execution, network automation, and multi-node orchestration. Ansible makes complex
-- Allow module development in any dynamic language, not just Python.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Power users and developers can run the devel branch, which has the latest
-- in the Ansible community if you want to run the devel branch.
-
-- Source: https://github.com/ansible/ansible
-- Extracted from upstream docs: https://raw.githubusercontent.com/ansible/ansible/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

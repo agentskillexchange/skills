@@ -24,18 +24,19 @@ Python plus Cruft and a repository generated from a Cookiecutter template
 
 ## Installation
 
-Requirements and caveats from upstream:
-- [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://pypi.python.org/pypi/cruft/)
-- To get started - install cruft using a Python package manager:
-- cruft create https://github.com/timothycrosley/cookiecutter-python/
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- [![Build Status](https://github.com/cruft/cruft/workflows/Run%20tests/badge.svg)](https://github.com/cruft/cruft/actions?query=workflow%3A%22Run+tests%22+branch%3Amaster)
-- ![Example Usage New Project](https://raw.githubusercontent.com/cruft/cruft/master/art/example.gif)
-- ![Example Usage New Project](https://raw.githubusercontent.com/cruft/cruft/master/art/example_update.gif)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/cruft/cruft
-- Extracted from upstream docs: https://raw.githubusercontent.com/cruft/cruft/HEAD/README.md
+Install command or upstream instructions:
+
+```
+pip install cruft
+```
 
 ## Documentation
 

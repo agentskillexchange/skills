@@ -18,19 +18,13 @@ Caddy is a fast, extensible web server written in Go that provides automatic HTT
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- $ git clone "https://github.com/caddyserver/caddy.git"
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- When you run Caddy, it may try to bind to low ports unless otherwise specified in your config. If your OS requires elevated privileges for this, you will need to give your new binary permission to do so. On Linux, thi...
-
-Basic usage or getting-started notes:
-- [Quick start](#quick-start)
-- The simplest, cross-platform way to get started is to download Caddy from [GitHub Releases](https://github.com/caddyserver/caddy/releases) and place the executable file in your PATH.
-- See [our online documentation](https://caddyserver.com/docs/install) for other install instructions.
-
-- Source: https://github.com/caddyserver/caddy
-- Extracted from upstream docs: https://raw.githubusercontent.com/caddyserver/caddy/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

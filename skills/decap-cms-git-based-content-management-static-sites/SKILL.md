@@ -20,17 +20,13 @@ An agent skill built on Decap CMS (formerly Netlify CMS), the open-source Git-ba
 
 ## Installation
 
-Requirements and caveats from upstream:
-- A quick and easy install that requires a single HTML file and a configuration file. All CMS JavaScript and CSS are loaded from a CDN.
-- A complete, more advanced install that gives you more flexibility but requires a static site builder with a build system that supports npm packages.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/decaporg/decap-cms/blob/main/LICENSE) [![Netlify Status](https://api.netlify.com/api/v1/badges/8b87160b-0a11-4f75-8050-1d21bc1c...
-- Decap CMS can be used in two different ways.
-- Learn more in the [Quick Start Guide](https://www.decapcms.org/docs/quick-start/).
-
-- Source: https://github.com/decaporg/decap-cms
-- Extracted from upstream docs: https://raw.githubusercontent.com/decaporg/decap-cms/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

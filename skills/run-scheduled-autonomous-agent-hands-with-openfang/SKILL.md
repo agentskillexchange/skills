@@ -24,21 +24,19 @@ OpenFang CLI/binary, local dashboard, workflow-specific provider credentials or 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- OpenFang is an **open-source Agent Operating System**. Not a chatbot framework. Not a Python wrapper around an LLM. Not a "multi-agent orchestrator." A full operating system for autonomous agents, built from scratch i...
-- | **Language** | **Rust** | TypeScript | **Rust** | Python | Python | Python |
-- | **Security Layers** | **16 discrete** | 3 basic | 6 layers | 1 basic | Docker | AES enc. |
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- <a href="https://openfang.sh/docs/getting-started">Quick Start</a> &bull;
-- #### Idle Memory Usage (lower is better)
-- ZeroClaw █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 8.8 MB
+Install command or upstream instructions:
 
-- Source: https://github.com/RightNow-AI/openfang
-- Extracted from upstream docs: https://raw.githubusercontent.com/RightNow-AI/openfang/HEAD/README.md
+```
+Follow upstream quick start: install the OpenFang binary from the official installer, run `openfang init`, then `openfang start` and use the local dashboard to configure and monitor Hands.
+```
 
 ## Documentation
 

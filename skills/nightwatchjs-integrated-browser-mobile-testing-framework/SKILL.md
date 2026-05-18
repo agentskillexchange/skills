@@ -24,22 +24,19 @@ Node.js
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm init nightwatch@latest
-- npm init nightwatch@latest ./path/to/new/project
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Node.js CI](https://github.com/nightwatchjs/nightwatch/actions/workflows/build-node.yaml/badge.svg?branch=main)](https://github.com/nightwatchjs/nightwatch/actions/workflows/build-node.yaml)
-- Nightwatch is an integrated testing framework powered by Node.js and using the [W3C Webdriver API](https://www.w3.org/TR/webdriver/). It is a complete testing solution developed at [BrowserStack](https://www.browserst...
-- ☑️ Node.js unit, visual regression testing, accessibility testing & API testing
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- **Developer Experience** : The entire experience from getting started, to writing and debugging tests, has been redesigned for speed, stability, and consistent non-flaky results.
-- **One test automation framework**: Run all types of tests from unit, component, and E2E to API, visual, and accessibility with a single framework.
-- Where do you want to run your e2e tests?
+Install command or upstream instructions:
 
-- Source: https://github.com/nightwatchjs/nightwatch
-- Extracted from upstream docs: https://raw.githubusercontent.com/nightwatchjs/nightwatch/HEAD/README.md
+```
+npm init nightwatch@latest
+```
 
 ## Documentation
 

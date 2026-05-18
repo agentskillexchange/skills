@@ -19,23 +19,13 @@ Configures Grafana OnCall escalation chains, notification policies, and on-call 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- docker-compose pull && docker-compose up -d
-- docker-compose pull engine
-- docker-compose up -d
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Docker Pulls](https://img.shields.io/docker/pulls/grafana/oncall)](https://hub.docker.com/r/grafana/oncall/tags)
-- These instructions are for using Grafana 11 or newer. You must enable the feature toggle for
-- externalServiceAccounts. This is already done for the docker files and helm charts. If you are running Grafana
-
-Basic usage or getting-started notes:
-- [!IMPORTANT]
-- separately see the Grafana documentation on how to enable this.
-- We prepared multiple environments:
-
-- Source: https://github.com/grafana/oncall
-- Extracted from upstream docs: https://raw.githubusercontent.com/grafana/oncall/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

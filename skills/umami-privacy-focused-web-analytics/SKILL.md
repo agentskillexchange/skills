@@ -18,23 +18,13 @@ Umami is a modern, privacy-focused, open-source web analytics platform and a sel
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/umami-software/umami.git
-- pnpm install
-- pnpm run build
-- pnpm run start
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- A server with Node.js version 18.18+.
-- To update the Docker image, simply pull the new images and rebuild:
-
-Basic usage or getting-started notes:
-- A PostgreSQL database version v12.14+.
-- ### Get the source code and install packages
-- bash
-
-- Source: https://github.com/umami-software/umami
-- Extracted from upstream docs: https://raw.githubusercontent.com/umami-software/umami/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

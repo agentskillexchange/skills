@@ -24,18 +24,19 @@ Python environment, Giskard open-source package, model or RAG application access
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install giskard
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Requires Python 3.12+.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- sh
-- **Telemetry:** Libraries built on giskard-core (including giskard-checks) may send **optional, aggregated usage analytics** to help improve the product. No prompts, model outputs, or scenario text are included. See [w...
+Install command or upstream instructions:
 
-- Source: https://github.com/Giskard-AI/giskard-oss
-- Extracted from upstream docs: https://raw.githubusercontent.com/Giskard-AI/giskard-oss/HEAD/README.md
+```
+Install the Giskard open-source package in a Python environment, connect it to the target model or RAG workflow, then run the documented scan or evaluation flows and review the reported failures.
+```
 
 ## Documentation
 

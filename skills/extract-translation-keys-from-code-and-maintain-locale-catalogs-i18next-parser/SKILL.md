@@ -22,24 +22,19 @@ Node.js, source code using i18next translation patterns
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- This project is no more maintained as of September 2025. Please use [i18next/i18next-cli](https://github.com/i18next/i18next-cli) instead that does everything you might need and more. Just run npx i18next-cli migrate-...
-- yarn global add i18next-parser
-- npm install -g i18next-parser
-- yarn add -D i18next-parser
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- 9.x is tested on Node 18, 20 and 22.
-- 8.x is tested on Node 16, 18 and 20.
-- 7.x is tested on Node 14, 16 and 18.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ### CLI
-- You can use the CLI with the package installed locally but if you want to use it from anywhere, you better install it globally:
-- i18next 'app/**/*.{js,hbs}' 'lib/**/*.{js,hbs}' [-oc]
+Install command or upstream instructions:
 
-- Source: https://github.com/i18next/i18next-parser
-- Extracted from upstream docs: https://raw.githubusercontent.com/i18next/i18next-parser/HEAD/README.md
+```
+npm install i18next-parser
+```
 
 ## Documentation
 

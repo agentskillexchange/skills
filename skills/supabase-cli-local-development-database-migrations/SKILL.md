@@ -26,22 +26,19 @@ Go, Node.js
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm i supabase --save-dev
-- npm i supabase@beta --save-dev
-- brew install supabase/tap/supabase
-- brew install supabase/tap/supabase-beta
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- For Bun versions below v1.0.17, you must add supabase as a [trusted dependency](https://bun.sh/guides/install/trusted) before running bun add -D supabase.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Available via [NPM](https://www.npmjs.com) as dev dependency. To install:
-- bash
-- To install the beta release channel:
+Install command or upstream instructions:
 
-- Source: https://github.com/supabase/cli
-- Extracted from upstream docs: https://raw.githubusercontent.com/supabase/cli/HEAD/README.md
+```
+brew install supabase/tap/supabase or npm i supabase --save-dev
+```
 
 ## Documentation
 

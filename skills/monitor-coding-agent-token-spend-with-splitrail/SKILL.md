@@ -24,16 +24,19 @@ Splitrail binary, local agent usage logs or supported agent installations
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- cargo run
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Splitrail is a **fast, cross-platform, real-time token usage tracker and cost monitor for**:
-- Run one command to instantly review all of your CLI coding agent usage. Upload your usage data to your private account on the [Splitrail Cloud](https://splitrail.dev) for safe-keeping and cross-machine usage aggregati...
-- Splitrail can run as an [MCP (Model Context Protocol)](https://modelcontextprotocol.io/) server, allowing AI assistants to query your usage statistics programmatically.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/Piebald-AI/splitrail
-- Extracted from upstream docs: https://raw.githubusercontent.com/Piebald-AI/splitrail/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Download the Splitrail binary from the GitHub releases page, run the CLI against your local usage data, or start `splitrail mcp` if you want agents to query usage stats programmatically.
+```
 
 ## Documentation
 

@@ -24,17 +24,19 @@ HolmesGPT CLI or operator deployment, one supported LLM provider, and connected 
 
 ## Installation
 
-Requirements and caveats from upstream:
-- | [<img src="images/integration_logos/aks-icon.png" alt="AKS" width="20" style="vertical-align: middle;"> **AKS**](https://holmesgpt.dev/data-sources/builtin-toolsets/aks/) | Azure Kubernetes Service cluster and node...
-- | [<img src="images/integration_logos/docker_logo.png" alt="Docker" width="20" style="vertical-align: middle;"> **Docker**](https://holmesgpt.dev/data-sources/builtin-toolsets/docker/) | Get images, logs, events, hist...
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- <a href="https://holmesgpt.dev/installation/cli-installation/">
-- <img src="images/integration_logos/all-installation-methods.png" alt="All Installation Methods" style="max-width:100%; height:auto;">
-- </a>
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/HolmesGPT/holmesgpt
-- Extracted from upstream docs: https://raw.githubusercontent.com/HolmesGPT/holmesgpt/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Follow the HolmesGPT installation docs to deploy the CLI or Kubernetes operator, configure an LLM provider, and connect the relevant observability toolsets before running incident investigations.
+```
 
 ## Documentation
 

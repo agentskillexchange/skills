@@ -14,22 +14,13 @@ Synchronizes WooCommerce product data bidirectionally using the WC REST API v3 a
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Make a basic request ​
-- Make a new set of keys to be sure
-- Make a basic request
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- To use the REST API you must be using:
-- Python Library
-- Python
-
-Basic usage or getting-started notes:
-- REST API
-- Authentication
-- v3 (current)
-
-- Source: https://developer.woocommerce.com/docs/apis/rest-api/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

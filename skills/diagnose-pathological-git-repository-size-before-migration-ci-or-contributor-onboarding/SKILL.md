@@ -24,13 +24,19 @@ Git 2.6 or newer and a full non-shallow clone of the repository being analyzed
 
 ## Installation
 
-Basic usage or getting-started notes:
-- git-sizer computes various size metrics for a local Git repository, flagging those that might cause you problems or inconvenience. For example:
-- Consider using ["git notes"](https://git-scm.com/docs/git-notes) rather than tags to attach auxiliary information to commits (for example, CI build results).
-- Does the repository include too many objects? The more objects, the longer it takes for Git to traverse the repository's history, for example when garbage-collecting. Suggestions:
+Choose whichever fits your setup:
 
-- Source: https://github.com/github/git-sizer
-- Extracted from upstream docs: https://raw.githubusercontent.com/github/git-sizer/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Download the ZIP for your platform from https://github.com/github/git-sizer/releases, unzip it, and move git-sizer into your PATH
+```
 
 ## Documentation
 

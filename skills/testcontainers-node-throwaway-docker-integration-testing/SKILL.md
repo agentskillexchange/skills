@@ -18,13 +18,13 @@ Testcontainers for Node.js is a library that provides lightweight, throwaway ins
 
 ## Installation
 
-Requirements and caveats from upstream:
-- [![Test](https://github.com/testcontainers/testcontainers-node/actions/workflows/checks.yml/badge.svg?branch=main)](https://github.com/testcontainers/testcontainers-node/actions/workflows/checks.yml)
-- ![Testcontainers Banner](https://github.com/testcontainers/testcontainers-node/raw/main/docs/site/logo.png)
-- ## [📖 Documentation](https://node.testcontainers.org/)
+Choose whichever fits your setup:
 
-- Source: https://github.com/testcontainers/testcontainers-node
-- Extracted from upstream docs: https://raw.githubusercontent.com/testcontainers/testcontainers-node/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

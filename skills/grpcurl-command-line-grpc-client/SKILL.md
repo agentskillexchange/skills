@@ -18,24 +18,13 @@ Like cURL but for gRPC servers. A command-line tool for interacting with gRPC se
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install grpcurl
-- docker pull fullstorydev/grpcurl:latest
-- docker run fullstorydev/grpcurl api.grpc.me:443 list
-- go install github.com/fullstorydev/grpcurl/cmd/grpcurl@latest
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ### Docker
-- For platforms that support Docker, you can download an image that lets you run grpcurl:
-- Note that there are some pitfalls when using docker:
-
-Basic usage or getting-started notes:
-- invoke gRPC endpoints. This code is a great example of how to use the various packages of
-- ### Binaries
-- Download the binary from the [releases](https://github.com/fullstorydev/grpcurl/releases) page.
-
-- Source: https://github.com/fullstorydev/grpcurl
-- Extracted from upstream docs: https://raw.githubusercontent.com/fullstorydev/grpcurl/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

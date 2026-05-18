@@ -20,23 +20,19 @@ Claude Code with plugin support, access to the wshobson/agents marketplace, a Gi
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- uv run plugin-eval score path/to/skill --depth quick
-- uv run plugin-eval score path/to/skill --depth standard
-- uv run plugin-eval certify path/to/skill
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- **Example**: Installing python-development loads 3 Python agents, 1 scaffolding tool, and makes 16 skills available (~1000 tokens), not the entire marketplace.
-- /plugin install python-development # Python with 16 specialized skills
-- | python-development | python-pro, django-pro, fastapi-pro |
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [![Run in Smithery](https://smithery.ai/badge/skills/wshobson)](https://smithery.ai/skills?ns=wshobson&utm_source=github&utm_medium=badge) [![Gemini CLI](https://img.shields.io/badge/Gemini%20CLI-supported-blue)](GEMI...
-- **80 Focused Plugins** - Granular, single-purpose plugins optimized for minimal token usage and composability
-- **Granular Plugin Architecture**: 80 focused plugins optimized for minimal token usage
+Install command or upstream instructions:
 
-- Source: https://github.com/wshobson/agents/tree/main/plugins/conductor
-- Extracted from upstream docs: https://raw.githubusercontent.com/wshobson/agents/HEAD/README.md
+```
+Add the marketplace with /plugin marketplace add wshobson/agents if needed, then install the plugin with /plugin install conductor@claude-code-workflows and follow the documented /conductor:setup, /conductor:new-track, and /conductor:implement workflow.
+```
 
 ## Documentation
 

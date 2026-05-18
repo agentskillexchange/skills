@@ -24,21 +24,19 @@ actionlint binary, plus optional shellcheck and pyflakes for deeper inline scrip
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- go install github.com/rhysd/actionlint/cmd/actionlint@latest
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- uses: actions/setup-node@v4
-- key: ${{ matrix.platform }}-node-${{ hashFiles('**/package-lock.json') }}
-- test.yaml:17:11: input "node_version" is not defined in action "actions/setup-node@v4". available inputs are "always-auth", "architecture", "cache", "cache-dependency-path", "check-latest", "node-version", "node-versi...
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- **Actions usage check** to check that inputs at with: and outputs in steps.{id}.outputs are correct
-- **[shellcheck][] and [pyflakes][] integrations** for scripts at run:
-- **Example of broken workflow:**
+Install command or upstream instructions:
 
-- Source: https://github.com/rhysd/actionlint
-- Extracted from upstream docs: https://raw.githubusercontent.com/rhysd/actionlint/HEAD/README.md
+```
+go install github.com/rhysd/actionlint/cmd/actionlint@latest
+```
 
 ## Documentation
 

@@ -15,15 +15,13 @@ Synchronizes content, users, and plugin configurations across WordPress Multisit
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Make WordPress
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- One can use a multisite for a variety of purposes. Multisite is, for example, used by business sites that share some resources, such as the theme or plugins, and have different content for their regions.
-- Server configuration
-- Changing File Permissions
-
-- Source: https://developer.wordpress.org/advanced-administration/multisite/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

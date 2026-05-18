@@ -24,24 +24,19 @@ Node.js or compatible TypeScript runtime, supported model provider credentials, 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install @open-multi-agent/core
-- git clone https://github.com/open-multi-agent/open-multi-agent && cd open-multi-agent
-- npm install
-- npx tsx examples/basics/team-collaboration.ts
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <img src="https://raw.githubusercontent.com/open-multi-agent/open-multi-agent/main/.github/brand/demo-dashboard-hero.gif" alt="Post-run dashboard replaying a completed team run: task DAG with per-node assignee, status...
-- Requires Node.js >= 18.
-- | Python stack with mature multi-agent ecosystem | CrewAI |
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- open-multi-agent is a multi-agent orchestration framework for TypeScript backends. Give it a goal; a coordinator agent decomposes it into a task DAG, parallelizes independents, and synthesizes the result. Three runtim...
-- ### Use it in your project
-- bash
+Install command or upstream instructions:
 
-- Source: https://github.com/JackChen-me/open-multi-agent
-- Extracted from upstream docs: https://raw.githubusercontent.com/JackChen-me/open-multi-agent/HEAD/README.md
+```
+Clone the repository, install dependencies with the package manager documented upstream, configure model credentials and optional MCP tool connections, then run the documented task-DAG workflow example.
+```
 
 ## Documentation
 

@@ -26,24 +26,19 @@ Node.js or Docker, MCP Inspector, and a target MCP server command or endpoint to
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx @modelcontextprotocol/inspector
-- docker run --rm \
-- To inspect an MCP server implementation, there's no need to clone this repo. Instead, use npx. For example, if your server is built at build/index.js:
-- npx @modelcontextprotocol/inspector node build/index.js
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- **MCP Proxy (MCPP)**: A Node.js server that acts as a protocol bridge, connecting the web UI to MCP servers via various transport methods (stdio, SSE, streamable-http)
-- Node.js: ^22.7.5
-- ### Docker Container
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- To get up and running right away with the UI, just execute the following:
-- bash
-- The server will start up and the UI will be accessible at http://localhost:6274.
+Install command or upstream instructions:
 
-- Source: https://github.com/modelcontextprotocol/inspector
-- Extracted from upstream docs: https://raw.githubusercontent.com/modelcontextprotocol/inspector/HEAD/README.md
+```
+Run `npx @modelcontextprotocol/inspector` to open the local inspector UI, then launch your target MCP server through the inspector by passing its command, arguments, and optional environment variables, or use the published Docker image if preferred.
+```
 
 ## Documentation
 

@@ -18,20 +18,13 @@ vdirsyncer is a command-line tool for synchronizing calendars and addressbooks b
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Docker environment, you can check out the following GitHub Repository:
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- :target: https://pypi.python.org/pypi/vdirsyncer
-- Note: This is an unofficial Docker build, it is maintained by Bleala <https://github.com/Bleala>_.
-
-Basic usage or getting-started notes:
-- Contact information
-- <https://vdirsyncer.pimutils.org/en/stable/contact.html>_
-- How to contribute to this project
-
-- Source: https://github.com/pimutils/vdirsyncer
-- Extracted from upstream docs: https://raw.githubusercontent.com/pimutils/vdirsyncer/HEAD/README.rst
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

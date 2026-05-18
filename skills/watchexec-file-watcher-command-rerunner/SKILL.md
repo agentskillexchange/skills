@@ -18,18 +18,13 @@ watchexec is a standalone file-watching tool written in Rust that automatically 
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Simple invocation and use, does not require a cryptic command line involving xargs
-- Does not require a language runtime, not tied to any particular language or ecosystem
-- Call/restart python server.py when any Python file in the current directory (and all subdirectories) changes:
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Example use cases:
-- Automatically run unit tests
-- Run linters/syntax checkers
-
-- Source: https://github.com/watchexec/watchexec
-- Extracted from upstream docs: https://raw.githubusercontent.com/watchexec/watchexec/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

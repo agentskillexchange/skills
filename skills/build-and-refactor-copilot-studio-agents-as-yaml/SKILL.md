@@ -24,20 +24,19 @@ Claude Code or GitHub Copilot CLI or VS Code, Node.js 18+, Copilot Studio extens
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/microsoft/skills-for-copilot-studio.git
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [Node.js](https://nodejs.org/) 18+
-- The update process depends on how you installed the plugin:
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [GitHub Copilot CLI](https://docs.github.com/en/copilot), or [VS Code](https://code.visualstudio.com/)
-- [VS Code](https://code.visualstudio.com/) with the [Copilot Studio Extension](https://github.com/microsoft/vscode-copilotstudio) (required for push/pull/clone operations)
-- ### From marketplace (Claude Code / GitHub Copilot CLI)
+Install command or upstream instructions:
 
-- Source: https://github.com/microsoft/skills-for-copilot-studio
-- Extracted from upstream docs: https://raw.githubusercontent.com/microsoft/skills-for-copilot-studio/HEAD/README.md
+```
+Install from the plugin marketplace or clone the repo and install it as a plugin, then use the `/copilot-studio:*` commands to author, manage, test, and troubleshoot Copilot Studio agents.
+```
 
 ## Documentation
 

@@ -24,24 +24,19 @@ Python or Docker runtime, cloud account credentials, optional AWS CLI or equival
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- docker compose up -d
-- git clone https://github.com/prowler-cloud/prowler
-- uv sync
-- docker compose up postgres valkey -d
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <a href="https://pypi.org/project/prowler/"><img alt="Python Version" src="https://img.shields.io/pypi/v/prowler.svg"></a>
-- <a href="https://pypi.python.org/pypi/prowler/"><img alt="Python Version" src="https://img.shields.io/pypi/pyversions/prowler.svg"></a>
-- <a href="https://hub.docker.com/r/toniblyx/prowler"><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/toniblyx/prowler"></a>
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- For detailed instructions on using Prowler App, refer to the [Prowler App Usage Guide](https://docs.prowler.com/projects/prowler-open-source/en/latest/tutorials/prowler-app/).
-- If you want to use AWS role assumption (e.g., with the "Connect assuming IAM Role" option), you may need to mount your local .aws directory into the container as a volume (e.g., - "${HOME}/.aws:/home/prowler/.aws:ro")...
-- **Commands to run the API**
+Install command or upstream instructions:
 
-- Source: https://github.com/prowler-cloud/prowler
-- Extracted from upstream docs: https://raw.githubusercontent.com/prowler-cloud/prowler/HEAD/README.md
+```
+Install Prowler with pipx, pip, Homebrew, or Docker, authenticate to the target cloud account, then run the relevant provider checks such as `prowler aws`, `prowler azure`, or `prowler gcp` and review the generated findings report.
+```
 
 ## Documentation
 

@@ -24,22 +24,19 @@ A supported skills-capable agent tool such as Claude Code, Codex CLI, Gemini CLI
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/FrancyJGLisboa/agent-skill-creator.git ~/.claude/skills/agent-skill-creator
-- git clone https://github.com/FrancyJGLisboa/agent-skill-creator.git .cursor/rules/agent-skill-creator
-- git clone https://github.com/FrancyJGLisboa/agent-skill-creator.git ~/.agents/skills/agent-skill-creator
-- git clone https://github.com/your-org/sales-report-skill.git ~/.agents/skills/sales-report-skill
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ├── scripts/ # Functional Python code
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ### 1. Install
-- **Option A — One-liner (installs to all detected tools):**
-- bash
+Install command or upstream instructions:
 
-- Source: https://github.com/FrancyJGLisboa/agent-skill-creator
-- Extracted from upstream docs: https://raw.githubusercontent.com/FrancyJGLisboa/agent-skill-creator/HEAD/README.md
+```
+Install with the bootstrap script or clone the repo into your tool's skills path, then invoke /agent-skill-creator with the workflow materials you want turned into a reusable skill.
+```
 
 ## Documentation
 

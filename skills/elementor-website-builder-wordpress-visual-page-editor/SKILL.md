@@ -20,18 +20,19 @@ WordPress 6.6+, PHP 7.4+
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Make WordPress
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Some Elementor features require loading assets from Elementor.com. These assets are not used for tracking unless explicitly mentioned, requiring your approval and manual opt-in. Learn more in our TOS and Privacy Policy .
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Development
-- Support
-- Description
+Install command or upstream instructions:
 
-- Source: https://wordpress.org/plugins/elementor/
+```
+Install and activate Elementor from Plugins > Add New in WordPress, or run wp plugin install elementor --activate via WP-CLI.
+```
 
 ## Documentation
 

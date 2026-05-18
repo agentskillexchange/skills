@@ -24,18 +24,19 @@ GitHub CLI 2.0+, gh-stack extension, a GitHub repository with Stacked PRs enable
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Requires the [GitHub CLI](https://cli.github.com/) (gh) v2.0+.
-- | -n, --numbered | Use auto-incrementing numbered branch names (requires --prefix) |
-- Creates a new branch at the current HEAD, adds it to the top of the stack, and checks it out. Must be run while on the topmost branch of a stack. If no branch name is given, prompts for one.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- sh
-- gh extension install github/gh-stack
-- ## AI agent integration
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/github/gh-stack
-- Extracted from upstream docs: https://raw.githubusercontent.com/github/gh-stack/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install GitHub CLI 2.0+ and run gh extension install github/gh-stack. For agent-aware setup, run gh skill install github/gh-stack in environments that support GitHub CLI skills. Use only on repositories where GitHub Stacked PRs has been enabled.
+```
 
 ## Documentation
 

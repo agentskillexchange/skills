@@ -24,13 +24,19 @@ Skeema CLI, network access to the target MySQL or MariaDB instances, credentials
 
 ## Installation
 
-Basic usage or getting-started notes:
-- [Getting started](https://www.skeema.io/docs/examples/) | Usage examples and screencasts
-- [Configuration guide](https://www.skeema.io/docs/config/) | Option handling, config file format, and command-line option usage
-- [Command reference](https://www.skeema.io/docs/commands/) | Usage instructions for each command in the Skeema CLI
+Choose whichever fits your setup:
 
-- Source: https://github.com/skeema/skeema
-- Extracted from upstream docs: https://raw.githubusercontent.com/skeema/skeema/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install Skeema from the upstream binary or package instructions, configure credentials and the .skeema settings for the target databases, then use the documented pull, diff, lint, and push commands to manage reviewed schema changes.
+```
 
 ## Documentation
 

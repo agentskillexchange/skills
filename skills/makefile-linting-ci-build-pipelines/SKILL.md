@@ -24,24 +24,19 @@ checkmake binary and existing Makefiles
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- docker build --build-arg BUILDER_NAME='Your Name' --build-arg BUILDER_EMAIL=your.name@example.com . -t checker
-- docker run --workdir / -v "$PWD"/Makefile:/Makefile quay.io/checkmake/checkmake:latest
-- docker run --workdir / -v "$PWD"/Makefile:/Makefile -v "$PWD"/checkmake.ini:/checkmake.ini quay.io/checkmake/checkmake:latest
-- go install github.com/checkmake/checkmake/cmd/checkmake@latest
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- building or running a container image can be done with docker and podman.
-- The container command used for building (docker or podman) is auto-detected with a preference for podman but can be overridden by the make variable CONTAINER_CMD.
-- The locally built image can be published with a make image-pushcommand corresponding to the previously described make image-buildcommand or alrenatively directly using docker push or podman push
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- console
-- % checkmake Makefile
-- % checkmake Makefile foo.mk bar.mk baz.mk
+Install command or upstream instructions:
 
-- Source: https://github.com/checkmake/checkmake
-- Extracted from upstream docs: https://raw.githubusercontent.com/checkmake/checkmake/HEAD/README.md
+```
+Install checkmake from the project releases or package manager for your platform
+```
 
 ## Documentation
 

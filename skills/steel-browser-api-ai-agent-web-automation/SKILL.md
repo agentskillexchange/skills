@@ -18,24 +18,13 @@ Steel Browser is an open-source browser API that provides a batteries-included b
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- docker run -p 3000:3000 -p 9223:9223 ghcr.io/steel-dev/steel-browser
-- docker compose up
-- docker compose -f docker-compose.dev.yml up
-- docker compose -f docker-compose.dev.yml up --build
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- | Pre-built Docker Image (combined API + UI) | [![Deploy with Github Container Registry](https://img.shields.io/badge/GHCR-478CFF?style=for-the-badge&labelColor=478CFF&logo=github&logoColor=white)](https://github.com/...
-- ### Docker
-- The simplest way to deploy/run a Steel browser instance locally is to run the pre-built Docker image:
-
-Basic usage or getting-started notes:
-- ## 🛠️ Getting Started
-- The easiest way to get started with Steel is by creating a [Steel Cloud](https://app.steel.dev) account. Otherwise, you can deploy this Steel browser instance to a cloud provider or run it locally.
-- You can now create sessions, scrape pages, take screenshots, and more. Jump to the [Usage](#usage) section for some quick examples on how you can do that.
-
-- Source: https://github.com/steel-dev/steel-browser
-- Extracted from upstream docs: https://raw.githubusercontent.com/steel-dev/steel-browser/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

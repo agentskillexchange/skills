@@ -20,21 +20,13 @@ JSDoc is the standard API documentation generator for JavaScript. It parses spec
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install -g jsdoc
-- npm install --save-dev jsdoc
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- JSDoc supports stable versions of Node.js 8.15.0 and later. You can install
-- To install the latest version on npm globally (might require sudo;
-
-Basic usage or getting-started notes:
-- JSDoc globally or in your project's node_modules folder.
-- [learn how to fix this](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally)):
-- To install the latest version on npm locally and save it in your package's
-
-- Source: https://github.com/jsdoc/jsdoc
-- Extracted from upstream docs: https://raw.githubusercontent.com/jsdoc/jsdoc/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

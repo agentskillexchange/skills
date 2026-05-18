@@ -18,22 +18,13 @@ Traefik is a modern cloud-native reverse proxy and load balancer that automatica
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- docker run -d -p 8080:8080 -p 80:80 -v $PWD/traefik.toml:/etc/traefik/traefik.toml traefik
-- git clone https://github.com/traefik/traefik
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Traefik integrates with your existing infrastructure components ([Docker](https://www.docker.com/), [Swarm mode](https://docs.docker.com/engine/swarm/), [Kubernetes](https://kubernetes.io), [Consul](https://www.consul...
-- Traditional reverse-proxies require that you configure _each_ route that will connect paths and subdomains to _each_ microservice.
-- Packaged as a single binary file (made with :heart: with go) and available as an [official](https://hub.docker.com/r/_/traefik/) docker image
-
-Basic usage or getting-started notes:
-- **Run Traefik and let it do the work for you!**
-- ## Web UI
-- You can access the simple HTML frontend of Traefik.
-
-- Source: https://github.com/traefik/traefik
-- Extracted from upstream docs: https://raw.githubusercontent.com/traefik/traefik/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

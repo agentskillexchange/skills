@@ -18,18 +18,13 @@ NetBird creates encrypted WireGuard-based overlay networks with SSO, MFA, and gr
 
 ## Installation
 
-Requirements and caveats from upstream:
-- ||||| <ul><li>- \[x] Docker</ui></li> |
-- Docker installed on the VM with the docker-compose plugin ([Docker installation guide](https://docs.docker.com/engine/install/)) or docker with docker-compose in version 2 or higher.
-- Once finished, you can manage the resources via docker-compose
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Download and install NetBird at [https://app.netbird.io/install](https://app.netbird.io/install)
-- Follow the steps to sign-up with Google, Microsoft, GitHub or your email address.
-- Check NetBird [admin UI](https://app.netbird.io/).
-
-- Source: https://github.com/netbirdio/netbird
-- Extracted from upstream docs: https://raw.githubusercontent.com/netbirdio/netbird/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

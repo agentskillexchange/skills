@@ -19,13 +19,19 @@ Node.js, TypeScript
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Missing exports: Suppose the awesome-widgets package exports an API function AwesomeButton.draw() that requires a parameter of type DrawStyle , but you forgot to export this enum. Things seem fine at first, but when a...
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- API Extractor helps you build better TypeScript library packages. Suppose for example that your company has published an NPM package called “ awesome-widgets ” that exports many classes and interfaces. As developers s...
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://api-extractor.com/
+Install command or upstream instructions:
+
+```
+npm install -D @microsoft/api-extractor
+```
 
 ## Documentation
 

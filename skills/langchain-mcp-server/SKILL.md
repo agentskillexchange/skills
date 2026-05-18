@@ -20,20 +20,13 @@ tool_ecosystem:
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- You can use npm, pnpm, or yarn to install LangChain.js
-- npm install -S langchain or pnpm install langchain or yarn add langchain
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- For an equivalent Python library, check out [LangChain](https://github.com/langchain-ai/langchain).
-- Node.js (ESM and CommonJS) - 20.x, 22.x, 24.x
-
-Basic usage or getting-started notes:
-- Just getting started? Check out **[Deep Agents](http://docs.langchain.com/oss/javascript/deepagents/)** — a higher-level package built on LangChain for agents that have built-in capabilites for common usage patterns s...
-- [Getting started](https://docs.langchain.com/oss/javascript/langchain/overview): Installation, setting up the environment, simple examples
-
-- Source: https://github.com/langchain-ai/langchainjs
-- Extracted from upstream docs: https://raw.githubusercontent.com/langchain-ai/langchainjs/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

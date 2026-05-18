@@ -24,20 +24,19 @@ Claude Code, Anthropic API access, repository context files filled for the targe
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/TheCraigHewitt/seomachine.git
-- pip install -r data_sources/requirements.txt
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Install Python dependencies for analysis modules:
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Claude Code](https://claude.com/claude-code) installed
-- Anthropic API account
-- Clone this repository:
+Install command or upstream instructions:
 
-- Source: https://github.com/TheCraigHewitt/seomachine
-- Extracted from upstream docs: https://raw.githubusercontent.com/TheCraigHewitt/seomachine/HEAD/README.md
+```
+Clone the repository, install the documented Python dependencies, open the workspace in Claude Code, fill in the required context files, then invoke the documented commands such as /research, /write, /optimize, or /rewrite.
+```
 
 ## Documentation
 

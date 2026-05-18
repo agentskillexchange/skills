@@ -24,18 +24,19 @@ Python 3.10+, Node.js 18+, FFmpeg, an AI coding assistant or agent runtime, and 
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Agent calls Python tools -- scored provider selection ranks every tool across 7 dimensions
-- **Python provides tools and persistence.** All creative decisions, orchestration logic, review criteria, and quality standards live in readable instruction files (YAML manifests + Markdown skills) that you can inspect...
-- | **Remotion** | Local (Node.js) | React-based programmatic video — spring-animated image scenes, stat reveals, section titles, hero cards, TikTok-style word-by-word captions, scene transitions (fade/slide/wipe/flip),...
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- <a href="#quick-start">Quick Start</a> &nbsp;·&nbsp;
-- Works with **Claude Code, Cursor, Copilot, Windsurf, Codex** — any AI coding assistant that can read files and run code.
-- **Coming soon:** Local LLM support via **Ollama** and **LM Studio** — run the full production pipeline without any cloud LLM.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/calesthio/OpenMontage
-- Extracted from upstream docs: https://raw.githubusercontent.com/calesthio/OpenMontage/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Clone the repository, run `make setup` or install the Python and Remotion dependencies manually, configure `.env`, then open the project in a supported coding-agent environment and request a video pipeline from a plain-language brief or reference video.
+```
 
 ## Documentation
 

@@ -24,21 +24,19 @@ Node.js and a Postmark server token
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install postmark
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- # Postmark Node.js Library
-- Now your node.js application can send emails through [Postmark](http://www.postmarkapp.com).
-- As the official Node.js library for Postmark, postmark.js has support for the entire REST API.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [active and security support ended](https://endoflife.date/nodejs) , you will need to use older library versions (3.x.x).
-- Please see the [wiki](https://github.com/ActiveCampaign/postmark.js/wiki) for quick start tutorial and detailed instructions about sending email at our [documentation page](https://ActiveCampaign.github.io/postmark.js/).
-- For details about Postmark API in general, please check out [Postmark developer docs](https://postmarkapp.com/developer).
+Install command or upstream instructions:
 
-- Source: https://github.com/ActiveCampaign/postmark.js
-- Extracted from upstream docs: https://raw.githubusercontent.com/ActiveCampaign/postmark.js/HEAD/README.md
+```
+npm install postmark
+```
 
 ## Documentation
 

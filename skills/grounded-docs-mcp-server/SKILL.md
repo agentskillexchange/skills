@@ -18,21 +18,13 @@ Grounded Docs MCP Server gives AI coding assistants a version-aware documentatio
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx @arabold/docs-mcp-server@latest scrape react https://react.dev/reference/react
-- npx @arabold/docs-mcp-server@latest scrape my-spa https://docs.example.com/#/guide --preserve-hashes
-- npx @arabold/docs-mcp-server@latest search react "useEffect cleanup" --output yaml
-- npx @arabold/docs-mcp-server@latest fetch-url https://react.dev/reference/react/useEffect
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- **1. Index documentation** (requires Node.js 22+):
-
-Basic usage or getting-started notes:
-- ## 🚀 Quick Start
-- **Example: Enable OpenAI Embeddings**
-
-- Source: https://github.com/arabold/docs-mcp-server
-- Extracted from upstream docs: https://raw.githubusercontent.com/arabold/docs-mcp-server/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

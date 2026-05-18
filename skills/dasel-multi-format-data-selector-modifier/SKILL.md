@@ -18,17 +18,13 @@ Dasel (Data-Select) is a command-line tool and Go library for querying, modifyin
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install dasel
-- go install github.com/tomwright/dasel/v3/cmd/dasel@master
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- ### Homebrew (macOS/Linux)
-- sh
-- ### Go Install
-
-- Source: https://github.com/TomWright/dasel
-- Extracted from upstream docs: https://raw.githubusercontent.com/TomWright/dasel/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

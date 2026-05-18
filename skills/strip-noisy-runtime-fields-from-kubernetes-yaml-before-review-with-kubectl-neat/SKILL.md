@@ -3,7 +3,7 @@ name: "Strip noisy runtime fields from Kubernetes YAML before review with kubect
 slug: "strip-noisy-runtime-fields-from-kubernetes-yaml-before-review-with-kubectl-neat"
 description: "Clean exported Kubernetes manifests by removing status and other runtime-generated fields before diffing, review, or migration work."
 github_stars: 2057
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/itaysk/kubectl-neat"
 author: "itaysk"
 publisher_type: "individual"
@@ -24,9 +24,19 @@ kubectl-neat plugin or binary, kubectl access or exported Kubernetes YAML input
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://github.com/itaysk/kubectl-neat
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install kubectl-neat as a kubectl plugin or standalone binary per the upstream README, then pipe kubectl output or saved manifests through it to remove runtime-only fields before review or diffing.
+```
 
 ## Documentation
 

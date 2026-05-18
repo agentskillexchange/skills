@@ -21,24 +21,13 @@ The official Microsoft Playwright MCP server provides browser automation capabil
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx @playwright/mcp@latest --config path/to/config.json
-- npx @playwright/mcp@latest --port 8931
-- docker run -d -i --rm --init --pull=always \
-- docker build -t mcr.microsoft.com/playwright/mcp .
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Node.js 18 or newer
-- node utils/generate-links.js
-- | --extension | Connect to a running browser instance (Edge/Chrome only). Requires the "Playwright Extension" to be installed.<br>*env* PLAYWRIGHT_MCP_EXTENSION |
-
-Basic usage or getting-started notes:
-- VS Code, Cursor, Windsurf, Claude Desktop, Goose, Junie or any other MCP client
-- <!--
-- // Generate using:
-
-- Source: https://github.com/microsoft/playwright-mcp
-- Extracted from upstream docs: https://raw.githubusercontent.com/microsoft/playwright-mcp/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

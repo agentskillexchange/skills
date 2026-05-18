@@ -19,17 +19,13 @@ Keploy is an open source platform for generating API tests from real traffic and
 
 ## Installation
 
-Requirements and caveats from upstream:
-- <img src="https://img.shields.io/badge/Node.js-43853D?logo=node.js&amp;logoColor=white" />
-- <img src="https://img.shields.io/badge/Python-3776AB?logo=python&amp;logoColor=white" />
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Just run your app with keploy record. Real API + integration flows are automatically captured as tests and mocks. *(Keploy uses eBPF under the hood to capture traffic, so you **don’t need** to add any SDKs or modify c...
-- It replays them deterministically so you can run tests without re‑provisioning infra.
-- 🌐 **CI/CD Integration:** Run tests with mocks anywhere you like—locally on the CLI, in your CI pipeline (Jenkins, Github Actions..) , or even across a Kubernetes cluster. [Read more](https://keploy.io/docs/running-kep...
-
-- Source: https://github.com/keploy/keploy
-- Extracted from upstream docs: https://raw.githubusercontent.com/keploy/keploy/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

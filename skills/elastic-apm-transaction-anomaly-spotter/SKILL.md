@@ -19,23 +19,13 @@ Queries Elastic APM transaction data through the Elasticsearch REST API to surfa
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone git@github.com:[USER]/apm-server.git
-- make
-- make update
-- make clean
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ### Building docker packages
-- To customize image configuration, see [the docs](https://www.elastic.co/guide/en/apm/guide/current/running-on-docker.html).
-
-Basic usage or getting-started notes:
-- To get started with APM, see our [Quick start guide](https://www.elastic.co/guide/en/apm/guide/current/apm-quick-start.html).
-- ## APM Server Development
-- [Go][golang-download]
-
-- Source: https://github.com/elastic/apm-server
-- Extracted from upstream docs: https://raw.githubusercontent.com/elastic/apm-server/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

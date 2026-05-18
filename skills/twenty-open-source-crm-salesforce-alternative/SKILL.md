@@ -18,20 +18,13 @@ Twenty is a modern open-source CRM built to replace Salesforce, with customizabl
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx create-twenty-app my-app
-- npx twenty deploy
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Run Twenty on your own infrastructure with [Docker Compose](https://docs.twenty.com/developers/self-host/capabilities/docker-compose), or contribute locally via the [local setup guide](https://docs.twenty.com/develope...
-
-Basic usage or getting-started notes:
-- ### <img src="./packages/twenty-website-new/public/images/readme/globe-icon.svg" width="14" height="14"/> Cloud
-- The fastest way to get started. Sign up at [twenty.com](https://twenty.com) and spin up a workspace in under a minute, with no infrastructure to manage and always up to date.
-- ### <img src="./packages/twenty-website-new/public/images/readme/book-icon.svg" width="14" height="14"/> Build an app
-
-- Source: https://github.com/twentyhq/twenty
-- Extracted from upstream docs: https://raw.githubusercontent.com/twentyhq/twenty/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

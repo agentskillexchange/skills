@@ -24,18 +24,19 @@ uv, Git, a supported AI coding assistant
 
 ## Installation
 
-Requirements and caveats from upstream:
-- │ ├── check-prerequisites.sh
-- require further research, I want you to update the research document with additional details about the specific
-- Validate that all prerequisites are in place (constitution, spec, plan, and tasks)
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- You can use the Specify CLI to bootstrap your project, which will bring in the required artifacts in your environment. Run:
-- Go to the project folder and run your coding agent. In our example, we're using claude.
-- An example prompt:
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/github/spec-kit
-- Extracted from upstream docs: https://raw.githubusercontent.com/github/spec-kit/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install from GitHub with uv, for example: uv tool install specify-cli --from git+https://github.com/github/spec-kit.git@vX.Y.Z, then run specify init in a project and use the /speckit.* workflow commands from a supported AI agent.
+```
 
 ## Documentation
 

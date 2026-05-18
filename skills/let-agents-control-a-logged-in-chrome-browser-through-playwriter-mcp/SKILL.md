@@ -24,22 +24,19 @@ Playwriter Chrome extension and CLI; MCP-compatible client when using MCP mode; 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm i -g playwriter
-- npx -y skills add remorses/playwriter
-- npx -y traforo -p 19988 -t my-machine -- npx -y playwriter serve --token <secret>
-- npx -y playwriter serve --host 127.0.0.1
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Variables in scope: page, context, state (persists between calls), require, and Node.js globals.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [**Install Extension**](https://chromewebstore.google.com/detail/playwriter-mcp/jfeammnjpkecdekppnclgkkffahnhfhe) from Chrome Web Store
-- Click extension icon on a tab → turns green when connected
-- Install the CLI and start automating the browser:
+Install command or upstream instructions:
 
-- Source: https://github.com/remorses/playwriter
-- Extracted from upstream docs: https://raw.githubusercontent.com/remorses/playwriter/HEAD/README.md
+```
+Install the Playwriter Chrome extension or start the bundled Playwriter browser, install the CLI with npm i -g playwriter, create a session with playwriter session new, and run scoped commands with playwriter -s <session> -e '<Playwright snippet>' or configure the MCP server for a compatible client.
+```
 
 ## Documentation
 

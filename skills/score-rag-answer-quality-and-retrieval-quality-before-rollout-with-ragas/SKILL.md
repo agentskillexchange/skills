@@ -24,22 +24,19 @@ Python environment, Ragas package, model provider credentials, evaluation datase
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install ragas
-- pip install git+https://github.com/vibrantlabsai/ragas
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <a href="https://www.python.org/">
-- <img alt="Made with Python" src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg?color=purple">
-- python
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- <a href="#fire-quickstart">Quick start</a> |
-- ### Clone a Complete Example Project
-- ragas comes with pre-built metrics for common evaluation tasks. For example, Aspect Critique evaluates any aspect of your output using DiscreteMetric:
+Install command or upstream instructions:
 
-- Source: https://github.com/vibrantlabsai/ragas
-- Extracted from upstream docs: https://raw.githubusercontent.com/vibrantlabsai/ragas/HEAD/README.md
+```
+Install Ragas in a Python environment, configure a supported model provider, prepare evaluation samples or generate a testset, then run the documented evaluation flow against the target RAG pipeline.
+```
 
 ## Documentation
 

@@ -21,17 +21,13 @@ Generates pixel-perfect PDFs from web pages using Puppeteer with custom headers,
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm i puppeteer # Downloads compatible Chrome during installation.
-- npm i puppeteer-core # Alternatively, install as a library, without downloading Chrome.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- bash npm2yarn
-- ## MCP
-- a Puppeteer-based MCP server for browser automation and debugging.
-
-- Source: https://github.com/puppeteer/puppeteer
-- Extracted from upstream docs: https://raw.githubusercontent.com/puppeteer/puppeteer/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

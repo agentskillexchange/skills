@@ -24,24 +24,19 @@ Python 3.10+ with uv or pip; CrowdStrike Falcon API credentials with the scopes 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- uv tool install falcon-mcp
-- pip install falcon-mcp
-- docker pull quay.io/crowdstrike/falcon-mcp:latest
-- docker run -i --rm --env-file /path/to/.env quay.io/crowdstrike/falcon-mcp:latest
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/falcon-mcp)](https://pypi.org/project/falcon-mcp/)
-- ### Docker
-- "falcon-mcp-docker": {
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- | [Sensor Usage](https://crowdstrike.github.io/falcon-mcp/modules/sensor-usage/) | Access and analyze sensor usage data |
-- #### Using uv (recommended)
-- bash
+Install command or upstream instructions:
 
-- Source: https://github.com/CrowdStrike/falcon-mcp
-- Extracted from upstream docs: https://raw.githubusercontent.com/CrowdStrike/falcon-mcp/HEAD/README.md
+```
+<p>Install with <code>uv tool install falcon-mcp</code> or <code>pip install falcon-mcp</code>, set the required Falcon API credentials in your environment or <code>.env</code> file, then run <code>falcon-mcp</code> for stdio transport or add flags like <code>--transport sse</code> or <code>--transport streamable-http</code> when you need a networked deployment.</p>
+```
 
 ## Documentation
 

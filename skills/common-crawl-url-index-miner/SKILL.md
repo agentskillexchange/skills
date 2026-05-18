@@ -19,24 +19,13 @@ Queries the Common Crawl Index API and CC-MAIN collections to surface historical
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- docker build . -t cc-index-table
-- docker run --rm -ti cc-index-table --help
-- docker run --rm --entrypoint=/opt/spark/bin/spark-submit cc-index-table
-- docker run --mount=type=bind,source=/tmp/data,destination=/data --rm cc-index-table /data/in /data/out
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ## Building and running using Docker
-- A [Dockerfile](./Dockerfile) is provided to compile the project and run the Spark job in a Docker container.
-- build the Docker image:
-
-Basic usage or getting-started notes:
-- This projects provides a comprehensive set of example queries (SQL) and also Java code to fetch and process the WARC records matched by a SQL query.
-- Run mvn spotless:check and mvn spotless:apply, see the [Spotless Maven guide](https://github.com/diffplug/spotless/blob/main/plugin-maven/README.md). Java formatting rules are defined in [eclipse-formatter.xml](eclips...
-- run the table converter tool, here showing the command-line help (--help):
-
-- Source: https://github.com/commoncrawl/cc-index-table
-- Extracted from upstream docs: https://raw.githubusercontent.com/commoncrawl/cc-index-table/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

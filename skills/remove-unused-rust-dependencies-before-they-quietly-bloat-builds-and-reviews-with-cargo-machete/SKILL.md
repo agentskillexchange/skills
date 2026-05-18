@@ -26,23 +26,19 @@ Rust toolchain, Cargo project, and shell access for dependency scans and cleanup
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- cargo-machete is a Cargo tool that detects unused dependencies in Rust
-- cargo install cargo-machete
-- Run cargo-machete in a directory that contains one or more Rust projects (using Cargo for
-- cargo machete /absolute/path/to/my/directory
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ## Docker Image
-- A docker image for cargo machete.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- dependency management):
-- bash
-- cd my-directory && cargo machete
+Install command or upstream instructions:
 
-- Source: https://github.com/bnjbvr/cargo-machete
-- Extracted from upstream docs: https://raw.githubusercontent.com/bnjbvr/cargo-machete/HEAD/README.md
+```
+Install cargo-machete with the Rust toolchain using the method documented by the project, run it against the target Cargo project, review the unused-dependency findings, and then remove confirmed dead entries from the manifest before re-running tests.
+```
 
 ## Documentation
 

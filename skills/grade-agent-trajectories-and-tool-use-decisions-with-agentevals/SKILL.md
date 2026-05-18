@@ -26,24 +26,19 @@ Python or TypeScript runtime, agent run outputs or trajectories, optional LLM ju
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install agentevals
-- npm install agentevals @langchain/core
-- pip install openai
-- npm install openai
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <summary>Python</summary>
-- python
-- [Python Async Support](#python-async-support)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- To get started, install agentevals:
-- <details open>
-- bash
+Install command or upstream instructions:
 
-- Source: https://github.com/langchain-ai/agentevals
-- Extracted from upstream docs: https://raw.githubusercontent.com/langchain-ai/agentevals/HEAD/README.md
+```
+pip install agentevals or npm install agentevals @langchain/core, then pass captured agent trajectories into the provided evaluators.
+```
 
 ## Documentation
 

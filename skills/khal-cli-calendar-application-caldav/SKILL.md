@@ -18,22 +18,13 @@ khal is a standards-based CLI and terminal calendar program written in Python. I
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Brew
-- brew install khal
-- pip install git+https://github.com/pimutils/khal
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- works with python 3.10+
-- .. __: https://repology.org/project/python:khal/versions
-
-Basic usage or getting-started notes:
-- example CalDAV_ servers.
-- khal should run on all major operating systems [1]_
-- ------------
-
-- Source: https://github.com/pimutils/khal
-- Extracted from upstream docs: https://raw.githubusercontent.com/pimutils/khal/HEAD/README.rst
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

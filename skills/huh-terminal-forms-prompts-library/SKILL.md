@@ -18,13 +18,13 @@ Huh by Charmbracelet is a Go library for building interactive forms and prompts 
 
 ## Installation
 
-Basic usage or getting-started notes:
-- The above example is running from a single Go program ([source](./examples/burger/main.go)).
-- Finally, run the form:
-- err := form.Run()
+Choose whichever fits your setup:
 
-- Source: https://github.com/charmbracelet/huh
-- Extracted from upstream docs: https://raw.githubusercontent.com/charmbracelet/huh/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

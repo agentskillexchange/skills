@@ -24,24 +24,19 @@ Python 3.8+, SQLGlot, and any agent or script that needs SQL parsing, transpilat
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- # Optionally prefix with UV=1 to use uv for the installation
-- make install
-- make install-dev
-- make docs-serve
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- It is a very comprehensive generic SQL parser with a robust [test suite](https://github.com/tobymao/sqlglot/blob/main/tests/). It is also quite [performant](#benchmarks), while being written purely in Python.
-- # Pure python version
-- Like parsing, generating SQL also requires the target dialect to be specified, otherwise the SQLGlot dialect will be used by default. For example, to transpile a query from Spark SQL to DuckDB, do parse_one(sql, diale...
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- SQLGlot can detect a variety of [syntax errors](#parser-errors), such as unbalanced parentheses, incorrect usage of reserved keywords, and so on. These errors are highlighted and dialect incompatibilities can warn or...
-- [Run Tests and Lint](#run-tests-and-lint)
-- From PyPI:
+Install command or upstream instructions:
 
-- Source: https://github.com/tobymao/sqlglot
-- Extracted from upstream docs: https://raw.githubusercontent.com/tobymao/sqlglot/HEAD/README.md
+```
+Install with `pip install sqlglot`, then use its parser and transpiler APIs or CLI inside migration, linting, or generated-SQL review workflows.
+```
 
 ## Documentation
 

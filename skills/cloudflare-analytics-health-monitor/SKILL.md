@@ -15,14 +15,13 @@ Monitors Cloudflare zone analytics via the Cloudflare API v4 GraphQL Analytics e
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Settings node
-- NAv2 node reference
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Examples Usage-based billing
-
-- Source: https://developers.cloudflare.com/analytics/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

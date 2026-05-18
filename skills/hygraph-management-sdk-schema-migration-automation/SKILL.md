@@ -24,22 +24,19 @@ Node.js, a Hygraph auth token, and a Hygraph environment endpoint
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install @hygraph/management-sdk --save-dev
-- To update the Management API schema this SDK depends on you must run npm run generate.
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- const { newMigration, FieldType } = require("@hygraph/management-sdk");
-- const { newMigration } = require("@hygraph/management-sdk");
-- const { FieldType } = require("@hygraph/management-sdk");
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- js
-- const migration = newMigration({ endpoint: "...", authToken: "..." });
-- const author = migration.createModel({
+Install command or upstream instructions:
 
-- Source: https://github.com/hygraph/management-sdk
-- Extracted from upstream docs: https://raw.githubusercontent.com/hygraph/management-sdk/HEAD/README.md
+```
+npm install @hygraph/management-sdk --save-dev
+```
 
 ## Documentation
 

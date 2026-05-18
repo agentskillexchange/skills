@@ -20,16 +20,19 @@ Claude with skill support, access to the internal-comms skill files and examples
 
 ## Installation
 
-Requirements and caveats from upstream:
-- The frontmatter requires only two fields:
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Select document-skills or example-skills
-- /plugin install example-skills@anthropic-agent-skills
-- These example skills are all already available to paid plans in Claude.ai.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/anthropics/skills/tree/main/skills/internal-comms
-- Extracted from upstream docs: https://raw.githubusercontent.com/anthropics/skills/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install or copy the internal-comms skill from anthropics/skills, then invoke it for status reports, 3P updates, newsletters, FAQs, leadership updates, project updates, or incident reports.
+```
 
 ## Documentation
 

@@ -24,21 +24,19 @@ Go toolchain or built binaries, source photo folders, DD Photos config files, op
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- docker run --rm -v ~/my-ddphotos:/ddphotos dougdonohoe/ddphotos init
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Docker Image Version](https://img.shields.io/docker/v/dougdonohoe/ddphotos?logo=docker&label=Docker%20Hub)](https://hub.docker.com/r/dougdonohoe/ddphotos)
-- [![Docker Pulls](https://img.shields.io/docker/pulls/dougdonohoe/ddphotos?logo=docker&label=Docker%20Pulls)](https://hub.docker.com/r/dougdonohoe/ddphotos)
-- ## Docker Quick Start
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ./ddphotos run # run dev server at http://localhost:5173
-- Once you have defined where your photos live, you run the photogen tool,
-- Dry-run mode by default (use -doit to write files).
+Install command or upstream instructions:
 
-- Source: https://github.com/dougdonohoe/ddphotos
-- Extracted from upstream docs: https://raw.githubusercontent.com/dougdonohoe/ddphotos/HEAD/README.md
+```
+Install DD Photos from the repository build instructions, define album locations and descriptions, run the documented photo generation step to resize and index the images, then build and deploy the generated static site.
+```
 
 ## Documentation
 

@@ -18,24 +18,13 @@ Just is a command runner written in Rust that provides a convenient way to save 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install just, and on Windows with choco install just.
-- editor to use make syntax highlighting for just.
-- git clone https://github.com/NoahTheDuke/vim-just.git
-- cargo test succeeds:
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [arbitrary languages](#shebang-recipes), like Python or Node.js.
-- [Cygwin](http://www.cygwin.com). After installation, sh must be available in
-- ### Docker
-
-Basic usage or getting-started notes:
-- just is a handy way to save and run project-specific commands.
-- You can then run them with just RECIPE:
-- ------------
-
-- Source: https://github.com/casey/just
-- Extracted from upstream docs: https://raw.githubusercontent.com/casey/just/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

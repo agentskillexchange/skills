@@ -19,15 +19,13 @@ pdfme is an open-source TypeScript and React library for generating PDFs program
 
 ## Installation
 
-Requirements and caveats from upstream:
-- | Works on Node and in the browser. Use templates to generate PDFs—complex operations are not required. | Anyone can easily create templates using the designer. | Templates are JSON data that is easy to understand and...
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- For complete documentation on pdfme, please refer to the [Getting Started](https://pdfme.com/docs/getting-started) guide.
-- pdfme examples --withInputs: export official example assets as a unified job you can edit and regenerate
-
-- Source: https://github.com/pdfme/pdfme
-- Extracted from upstream docs: https://raw.githubusercontent.com/pdfme/pdfme/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

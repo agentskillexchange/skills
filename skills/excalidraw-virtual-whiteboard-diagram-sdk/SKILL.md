@@ -18,18 +18,13 @@ Excalidraw is an open-source virtual whiteboard for creating hand-drawn style di
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Use npm or yarn to install the package.
-- npm install react react-dom @excalidraw/excalidraw
-- yarn add react react-dom @excalidraw/excalidraw
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- **Note:** following instructions are for installing the Excalidraw [npm package](https://www.npmjs.com/package/@excalidraw/excalidraw) when integrating Excalidraw into your own app. To run the repository locally for d...
-- bash
-- # or
-
-- Source: https://github.com/excalidraw/excalidraw
-- Extracted from upstream docs: https://raw.githubusercontent.com/excalidraw/excalidraw/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

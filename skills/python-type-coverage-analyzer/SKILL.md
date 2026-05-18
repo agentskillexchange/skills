@@ -23,18 +23,19 @@ Python
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Mypy: Static Typing for Python
-- [![Build Status](https://github.com/python/mypy/actions/workflows/test.yml/badge.svg)](https://github.com/python/mypy/actions)
-- [![Chat at https://gitter.im/python/typing](https://badges.gitter.im/python/typing.svg)](https://gitter.im/python/typing?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- If you're just getting started,
-- when you attempt to run it. Mypy is a *static* checker, so it finds bugs
-- Here is a small example to whet your appetite:
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/python/mypy
-- Extracted from upstream docs: https://raw.githubusercontent.com/python/mypy/HEAD/README.md
+Install command or upstream instructions:
+
+```
+pip install mypy
+```
 
 ## Documentation
 

@@ -18,23 +18,13 @@ fzf is a general-purpose command-line fuzzy finder written in Go. It works as an
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install fzf
-- git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-- make use of this feature. $dir defaults to . when the last token is not a
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- (requires tmux 3.3+ or Zellij 0.44+).
-- It doesn't require a trigger sequence like **. Instead, if activates
-- # Press CTRL-Y to copy the line to clipboard and aborts fzf (requires pbcopy)
-
-Basic usage or getting-started notes:
-- [Usage](#usage)
-- ------------
-- ### Using Homebrew
-
-- Source: https://github.com/junegunn/fzf
-- Extracted from upstream docs: https://raw.githubusercontent.com/junegunn/fzf/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

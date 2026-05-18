@@ -24,13 +24,19 @@ Kubescape CLI, Kubernetes manifests or cluster access
 
 ## Installation
 
-Basic usage or getting-started notes:
-- ## 🚀 Quick Start
-- ### 2. Run Your First Scan
-- Kubescape can run in two modes:
+Choose whichever fits your setup:
 
-- Source: https://github.com/kubescape/kubescape
-- Extracted from upstream docs: https://raw.githubusercontent.com/kubescape/kubescape/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install the Kubescape CLI from the project documentation, then run scans against local manifests or a target cluster context and review the generated findings.
+```
 
 ## Documentation
 

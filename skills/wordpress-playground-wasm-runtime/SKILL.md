@@ -18,23 +18,13 @@ WordPress Playground runs a full WordPress instance entirely in the browser usin
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx @wp-playground/cli server --auto-mount
-- git clone -b trunk --single-branch --depth 1 --recurse-submodules https://github.com/WordPress/wordpress-playground.git
-- npm install
-- npm run dev
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- The best part? You can run it directly using npx, Node.js's package runner. To get started, navigate to your plugin or theme directory and run:
-- Any changes you make to .ts files will be live-reloaded. Changes to Dockerfile require a full rebuild.
-
-Basic usage or getting-started notes:
-- WordPress Playground has a [live demo](https://developer.wordpress.org/playground/demo/) available.
-- You can embed WordPress Playground in your project via an <iframe> – find out how in the [documentation](https://wordpress.github.io/wordpress-playground/). **Note the embed is experimental and may break or change wit...
-- You can connect to the Playground using the JavaScript client. Here's an example of how to do it in the browser using an iframe HTML element and the startPlaygroundWeb function from the @wp-playground/client package.
-
-- Source: https://github.com/WordPress/wordpress-playground
-- Extracted from upstream docs: https://raw.githubusercontent.com/WordPress/wordpress-playground/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -18,23 +18,13 @@ An agent skill that leverages Thumbor, the open-source smart image processing se
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install thumbor
-- pip install thumbor[opencv]
-- pip install thumbor[all]
-- docker run -p 8888:8888 ghcr.io/thumbor/thumbor:latest
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <a href='https://pypi.python.org/pypi/thumbor' target='_blank'>
-- ### Option 3: Docker
-- An official Docker image is available on GitHub Container Registry:
-
-Basic usage or getting-started notes:
-- ### Run
-- After this, you can reach it on http://localhost:8888/unsafe/https://raw.githubusercontent.com/thumbor/thumbor/master/example.jpg
-
-- Source: https://github.com/thumbor/thumbor
-- Extracted from upstream docs: https://raw.githubusercontent.com/thumbor/thumbor/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

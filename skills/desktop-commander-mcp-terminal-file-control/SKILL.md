@@ -18,24 +18,13 @@ Desktop Commander is an MCP server that gives AI assistants terminal command exe
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx @wonderwhy-er/desktop-commander@latest setup
-- npx @wonderwhy-er/desktop-commander@latest setup --debug
-- **🗑️ Uninstall:** Run npx @wonderwhy-er/desktop-commander@latest remove
-- **🗑️ Uninstall:** Run npx @wonderwhy-er/desktop-commander@latest remove or remove the entry from your claude_desktop_config.json
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- **Execute code in memory (Python, Node.js, R) without saving files**
-- [Docker isolation](#option-6-docker-installation--auto-updates-no-nodejs-required) for full sandboxing
-- **📋 Update & Uninstall Information:** Options 1, 2, 3, 4, and 6 have automatic updates. Option 5 requires manual updates. See below for details.
-
-Basic usage or getting-started notes:
-- ### Search, update, manage files and run terminal commands with AI
-- Work with code and text, run processes, and automate tasks, going far beyond other AI editors - while using host client subscriptions instead of API token costs.
-- [Getting Started](#getting-started)
-
-- Source: https://github.com/wonderwhy-er/DesktopCommanderMCP
-- Extracted from upstream docs: https://raw.githubusercontent.com/wonderwhy-er/DesktopCommanderMCP/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

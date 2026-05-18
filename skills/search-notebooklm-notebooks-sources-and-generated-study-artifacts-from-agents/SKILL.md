@@ -24,23 +24,19 @@ A NotebookLM account, browser-based authentication or cookie import, Python tool
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- uv tool install notebooklm-mcp-cli
-- pip install notebooklm-mcp-cli
-- pipx install notebooklm-mcp-cli
-- git clone https://github.com/jacob-bd/notebooklm-mcp-cli.git
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Python](https://img.shields.io/pypi/pyversions/notebooklm-mcp-cli)](https://pypi.org/project/notebooklm-mcp-cli/)
-- Require cookie extraction from your browser (I have a tool for that!)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Run nlm --ai for comprehensive AI-assistant documentation.
-- | Pipelines (multi-step workflows) | nlm pipeline run/list | pipeline |
-- 🆕 **Claude Desktop users:** [Download the extension](https://github.com/jacob-bd/notebooklm-mcp-cli/releases/latest) (.mcpb file) → double-click → done! One-click install, no config needed.
+Install command or upstream instructions:
 
-- Source: https://github.com/jacob-bd/notebooklm-mcp-cli
-- Extracted from upstream docs: https://raw.githubusercontent.com/jacob-bd/notebooklm-mcp-cli/HEAD/README.md
+```
+<p>Install the unified package with <code>uv tool install notebooklm-mcp-cli</code>, <code>pip install notebooklm-mcp-cli</code>, or <code>pipx install notebooklm-mcp-cli</code>. Run <code>nlm login</code> to authenticate, then configure your client with <code>nlm setup add claude-code</code>, <code>nlm setup add cursor</code>, <code>nlm setup add gemini</code>, or point it directly at the <code>notebooklm-mcp</code> executable.</p>
+```
 
 ## Documentation
 

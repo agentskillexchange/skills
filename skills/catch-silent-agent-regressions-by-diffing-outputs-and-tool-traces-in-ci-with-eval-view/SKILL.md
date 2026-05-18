@@ -24,13 +24,19 @@ Python environment, eval-view installation, repeatable agent scenarios or tests,
 
 ## Installation
 
-Basic usage or getting-started notes:
-- **The loop closes:** detection → investigation → graded verdict → quarantine governance → broadcast. You wake up, run progress, triage with drift, confirm with check --statistical, and the team sees the digest before...
-- | 📉 **DRIFTING** | Trend sliding with graded confidence (low/med/high) | Run evalview drift <test> |
-- | 🔎 **INVESTIGATE** | Verdict layer wants statistical replay | Run evalview check --statistical 5 |
+Choose whichever fits your setup:
 
-- Source: https://github.com/hidai25/eval-view
-- Extracted from upstream docs: https://raw.githubusercontent.com/hidai25/eval-view/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install eval-view from the upstream Python package instructions, define baseline and comparison scenarios for the target agent flow, then run its documented check and replay commands locally or in CI.
+```
 
 ## Documentation
 

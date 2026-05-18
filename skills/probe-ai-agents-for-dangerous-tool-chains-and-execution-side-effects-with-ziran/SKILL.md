@@ -24,22 +24,19 @@ AI agent system or test target, supported adapter or protocol path such as MCP o
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install ziran[ui]
-- docker compose up
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
-- Or with Docker:
-- image: python:3.12-slim
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- <a href="#quick-start"><b>Quick Start</b></a> &nbsp;·&nbsp;
-- <img src="docs/assets/adaptive-light.svg" alt="A live knowledge graph grows phase by phase: Reconnaissance discovers 3 capabilities, Capability Map adds 3 tools, Vulnerability Discovery surfaces a critical read_file→h...
-- ![New Run](docs/assets/ui-new-run.png)
+Install command or upstream instructions:
 
-- Source: https://github.com/taoq-ai/ziran
-- Extracted from upstream docs: https://raw.githubusercontent.com/taoq-ai/ziran/HEAD/README.md
+```
+Install ZIRAN with the upstream quick-start path, point it at the target agent system or supported protocol endpoint, then run its documented scan and campaign workflows to surface tool-chain and side-effect findings before rollout.
+```
 
 ## Documentation
 

@@ -24,16 +24,19 @@ Docker, Docker Compose, desktop app runtime, local storage
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- run npx inlang machine translate to add missing translations.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Please view the [documentation](https://docs.appflowy.io/docs/documentation/appflowy/from-source) for OS specific
-- development instructions
-- ## Roadmap
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/AppFlowy-IO/AppFlowy
-- Extracted from upstream docs: https://raw.githubusercontent.com/AppFlowy-IO/AppFlowy/HEAD/README.md
+Install command or upstream instructions:
+
+```
+docker run --rm -v $HOME/.Xauthority:/root/.Xauthority:rw -v /tmp/.X11-unix:/tmp/.X11-unix -v /dev/dri:/dev/dri -v /var/run/dbus/system_bus_socket:/var/run/dbus/system_bus_socket -v appflowy-data:/home/appflowy -e DISPLAY=${DISPLAY} appflowyio/appflowy_client:main
+```
 
 ## Documentation
 

@@ -18,22 +18,13 @@ LiveKit is an open-source, scalable WebRTC-based real-time communication server 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install livekit
-- git clone https://github.com/livekit/livekit
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Easy to deploy: single binary, Docker or Kubernetes
-- | Python (community) | [python-sdks](https://github.com/livekit/python-sdks) | |
-- [Docker image](https://hub.docker.com/r/livekit/livekit-server)
-
-Basic usage or getting-started notes:
-- <a href="https://github.com/livekit/client-sdk-js/tree/main/example" target="_blank" rel="noopener noreferrer">JS example</a>
-- <a href="https://github.com/livekit/client-sdk-js/tree/main/example" target="_blank" rel="noopener noreferrer">React example</a>
-- <a href="https://github.com/livekit/client-example-swift" target="_blank" rel="noopener noreferrer">example</a>
-
-- Source: https://github.com/livekit/livekit
-- Extracted from upstream docs: https://raw.githubusercontent.com/livekit/livekit/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

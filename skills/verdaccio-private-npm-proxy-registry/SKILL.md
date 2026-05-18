@@ -19,24 +19,13 @@ Verdaccio is a lightweight, zero-config private npm proxy registry that caches p
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install -g verdaccio@next-9
-- yarn global add verdaccio@next-9
-- pnpm i -g verdaccio@next-9
-- docker pull verdaccio/verdaccio:nightly-master
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Version 6 requires Node.js 18 or higher and is maintained in the 6.x branch
-- [![Docker Pulls](https://img.shields.io/docker/pulls/verdaccio/verdaccio?style=flat&logo=docker&label=Docker%20Pulls&color=lightgrey)](https://hub.docker.com/r/verdaccio/verdaccio)
-- You can find more details about the different versions of Verdaccio, minimum requirements, as well as links to associated npm packages and docker images in the [version history](VERSIONS.md).
-
-Basic usage or getting-started notes:
-- bash
-- With yarn
-- With pnpm
-
-- Source: https://github.com/verdaccio/verdaccio
-- Extracted from upstream docs: https://raw.githubusercontent.com/verdaccio/verdaccio/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

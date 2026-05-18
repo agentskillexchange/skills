@@ -2,7 +2,7 @@
 name: "Schema.org Structured Data Injector"
 slug: "schema-org-structured-data-injector"
 description: "Generates and validates JSON-LD structured data markup for articles, products, FAQs, and HowTo content types following Schema.org specifications. Integrates with Google's Rich Results Test API and validates against the Schema.org vocabulary using the sdtt validator."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://schema.org/"
 author: "Schema.org"
 category: "Content Writing & SEO"
@@ -15,9 +15,13 @@ Generates and validates JSON-LD structured data markup for articles, products, F
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://schema.org/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 
