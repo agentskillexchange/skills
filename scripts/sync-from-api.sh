@@ -200,4 +200,8 @@ print(f"  sync-metadata.json written")
 print(f"  hash: {body_hash}")
 PYEOF
 
+echo "[sync-from-api] Applying cleaned frontmatter verification overlay"
+python3 "$SCRIPT_DIR/apply-frontmatter-verification-overlay.py" "$REPO_DIR"
+python3 "$SCRIPT_DIR/apply-frontmatter-verification-overlay.py" "$REPO_DIR" --check
+
 echo "[sync-from-api] Done."

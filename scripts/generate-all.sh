@@ -28,11 +28,25 @@ bash "$SCRIPT_DIR/generate-top-lists.sh" "$REPO_DIR"
 echo "=== Generating skills.json ==="
 bash "$SCRIPT_DIR/generate-skills-json.sh" "$REPO_DIR"
 
+echo "=== Cleaning generated skill install boilerplate ==="
+python3 "$SCRIPT_DIR/ase_replace_install_boilerplate.py"
+
+echo "=== Applying cleaned frontmatter verification overlay ==="
+python3 "$SCRIPT_DIR/apply-frontmatter-verification-overlay.py" "$REPO_DIR"
+python3 "$SCRIPT_DIR/apply-frontmatter-verification-overlay.py" "$REPO_DIR" --check
+
+echo "=== Validating cleaned skill frontmatter ==="
+python3 "$SCRIPT_DIR/validate_skills.py" --all --quiet
+
 echo "=== Updating agent integration files ==="
 bash "$SCRIPT_DIR/generate-agent-files.sh" "$REPO_DIR"
 
 echo "=== Generating public agent endpoints ==="
 python3 "$SCRIPT_DIR/generate-agent-endpoints.py" "$REPO_DIR"
+
+echo "=== Re-applying cleaned frontmatter verification overlay ==="
+python3 "$SCRIPT_DIR/apply-frontmatter-verification-overlay.py" "$REPO_DIR"
+python3 "$SCRIPT_DIR/apply-frontmatter-verification-overlay.py" "$REPO_DIR" --check
 
 echo "=== Checking install command safety ==="
 python3 "$SCRIPT_DIR/check-install-commands.py" "$REPO_DIR"

@@ -158,10 +158,10 @@ Skills should:
 
 | Tier | Meaning |
 |------|---------|
-| 📋 **Listed** | Published — backed by a real tool, repo, or package |
+| 📋 **Published** | Published — backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
-New skills enter as **Listed**. Security review is handled by the marketplace team in batches — higher-quality submissions get reviewed faster.
+New skills enter as **Published** (`verification: listed`). Security review is handled by the marketplace team in batches — higher-quality submissions get reviewed faster.
 
 ---
 
