@@ -3,7 +3,7 @@ name: "Kubernetes Pod Diagnostics"
 slug: "kubernetes-pod-diagnostics-skill"
 description: "Diagnoses Kubernetes pod failures using kubectl describe, logs --previous, and the Kubernetes API /api/v1/namespaces/{ns}/events endpoints. Identifies CrashLoopBackOff root causes, OOMKilled memory analysis, and generates remediation steps with resource limit recommendations."
 github_stars: 121700
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/kubernetes/kubernetes"
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"

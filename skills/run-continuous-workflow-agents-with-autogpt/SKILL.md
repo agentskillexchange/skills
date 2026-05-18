@@ -3,7 +3,7 @@ name: "Run continuous workflow agents with AutoGPT"
 slug: "run-continuous-workflow-agents-with-autogpt"
 description: "Self-host AutoGPT to build, test, deploy, and operate continuous AI agents for repeatable multi-step workflows."
 github_stars: 184027
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/Significant-Gravitas/AutoGPT"
 author: "Significant-Gravitas"
 publisher_type: "open_source"

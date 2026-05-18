@@ -359,7 +359,7 @@
       "description": "Self-host AutoGPT to build, test, deploy, and operate continuous AI agents for repeatable multi-step workflows.",
       "category": "Templates & Workflows",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 184027
       }
@@ -1846,7 +1846,7 @@
       "description": "Index a repository into a code knowledge graph, expose it through MCP, and give agents architecture-aware context before they answer or edit.",
       "category": "Code Quality & Review",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 28499,
         "npm_weekly_downloads": 138166
@@ -1859,7 +1859,7 @@
       "description": "Bring up a self-hosted voice agent that answers, routes, or transfers live calls through Asterisk or FreePBX with a PBX-native workflow.",
       "category": "Integrations & Connectors",
       "framework": "Custom Agents",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 991
       }
@@ -3126,7 +3126,7 @@
       "description": "Use Codemod CLI when an agent needs to scaffold, test, and run a reviewable multi-step migration workflow with approval gates, rather than applying a…",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 979
       }
@@ -6756,7 +6756,7 @@
       "description": "Uses yamllint to inspect hand-written or generated YAML before it reaches CI or deploy. The agent returns line-level syntax, duplicate-key, indentation, and formatting findings…",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 3360
       }
@@ -7199,7 +7199,7 @@
       "description": "Use Toxiproxy when an agent needs to inject latency, disconnects, bandwidth limits, or packet-like failure modes into real service calls during development, CI, or…",
       "category": "Runbooks & Diagnostics",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 11937
       }
@@ -7963,7 +7963,7 @@
       "description": "Browserless turns Chrome, Firefox, and WebKit into a remote browser service you can self-host or consume as a managed platform. It gives automation stacks…",
       "category": "Browser Automation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 12954
       }
@@ -8036,7 +8036,7 @@
       "description": "OpenProject is a mature open source project management platform for work packages, roadmaps, timelines, and collaborative planning. This skill helps agents use the real…",
       "category": "Calendar, Email & Productivity",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 14810
       }
@@ -8060,7 +8060,7 @@
       "description": "Deploy and manage Dockerized apps on your own infrastructure with Dokploy, an open source platform positioned as an alternative to Heroku, Vercel, and Netlify.…",
       "category": "CI/CD Integrations",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 32998
       }
@@ -8326,7 +8326,7 @@
       "description": "Paperless-ngx is an open source document management system that turns scanned or uploaded paperwork into a searchable archive. It combines OCR-driven ingestion, indexing, tagging,…",
       "category": "Data Extraction & Transformation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 38063
       }
@@ -8413,7 +8413,7 @@
       "description": "Baserow is an open-source no-code platform for databases, automations, internal apps, and API-first workflows. It is useful when teams need spreadsheet-like data management, self-hosting,…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 4632
       }
@@ -8590,7 +8590,7 @@
       "description": "Checkly CLI lets agents define, test, and deploy synthetic monitoring from a JavaScript or TypeScript codebase. It is especially useful when monitoring should live…",
       "category": "Monitoring & Alerts",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 92,
         "license": "Apache-2.0"
@@ -9068,7 +9068,7 @@
       "description": "Automates ingestion, indexing, search, and curation workflows for self-hosted photo libraries using PhotoPrism. Useful for private media archives that need AI-assisted tagging and operational…",
       "category": "Image & Creative Automation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 39547
       }
@@ -9168,7 +9168,7 @@
       "description": "Stagehand is Browserbase’s AI browser automation framework for mixing natural-language actions with deterministic code. It is built for production workflows where you want Playwright-level…",
       "category": "Browser Automation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 22059,
         "npm_weekly_downloads": 3394138,
@@ -9258,7 +9258,7 @@
       "description": "docker-selenium packages Selenium Grid into ready-to-run container images for Chrome, Firefox, Edge, and distributed browser execution. It is useful when an agent needs reproducible…",
       "category": "Browser Automation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 8619,
         "license": "Apache-2.0"
@@ -9345,7 +9345,7 @@
       "description": "Penpot is an open-source design and prototyping platform built for design and code collaboration. This skill helps agents anchor UI, prototype, and handoff tasks…",
       "category": "Image & Creative Automation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 45294
       }
@@ -9381,7 +9381,7 @@
       "description": "ToolJet is an open-source platform for internal tools, dashboards, workflows, and AI-assisted business apps. It connects visual app building with databases, APIs, object storage,…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 37721
       }
@@ -9393,7 +9393,7 @@
       "description": "Budibase is an open-source low-code platform for internal apps, forms, portals, and approvals. It gives agents a practical way to stand up operational tools…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 27811
       }
@@ -9589,7 +9589,7 @@
       "description": "Strapi is a JavaScript and TypeScript headless CMS that helps teams model content once and publish it through REST or GraphQL APIs. It fits…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 71874,
         "npm_weekly_downloads": 161182
@@ -9628,7 +9628,7 @@
       "description": "Stagehand is Browserbase's open source browser automation framework that blends natural-language actions with code-level control. It helps agents and developers build more reliable web…",
       "category": "Browser Automation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 22059,
         "npm_weekly_downloads": 3394138,
@@ -9679,7 +9679,7 @@
       "description": "NocoBase is the most extensible open-source no-code/low-code platform for building business applications. It features a data model-driven architecture, AI employee integration, plugin system, and…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 22114,
         "npm_weekly_downloads": 746
@@ -9692,7 +9692,7 @@
       "description": "Harness Open Source (formerly Gitness) is an end-to-end developer platform that integrates Git repository hosting, CI/CD pipelines, hosted development environments, and artifact registries in…",
       "category": "CI/CD Integrations",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 34735
       }
@@ -9814,7 +9814,7 @@
       "description": "Planka is an elegant, self-hosted Kanban-style project management tool and open-source Trello alternative. With 11,000+ GitHub stars and 35+ language translations, it provides real-time…",
       "category": "Calendar, Email & Productivity",
       "framework": "Custom Agents",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 11822
       }
@@ -9851,7 +9851,7 @@
       "description": "ElectricSQL is a read-path sync engine for PostgreSQL that handles partial replication, data delivery, and fan-out. It syncs data out of Postgres in real…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 10069
       }
@@ -9959,7 +9959,7 @@
       "description": "EmDash is an open-source, full-stack TypeScript CMS built on Astro and Cloudflare, designed as a spiritual successor to WordPress. It features sandboxed plugins, structured…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 9237
       }
@@ -9971,7 +9971,7 @@
       "description": "Saleor is a leading open source headless e-commerce platform built with Python and Django. It provides a GraphQL API for building custom storefronts, managing…",
       "category": "Integrations & Connectors",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 22792
       }
@@ -9983,7 +9983,7 @@
       "description": "KrakenD is an ultra-high performance, stateless, declarative API Gateway written in Go. It helps adopt microservices architecture with content aggregation, rate limiting, security policies,…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 2595
       }
@@ -10235,7 +10235,7 @@
       "description": "Appwrite is an open-source, self-hosted backend platform that provides authentication, databases, storage, functions, messaging, and realtime APIs out of the box. It serves as…",
       "category": "Integrations & Connectors",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 55674
       }
@@ -10247,7 +10247,7 @@
       "description": "Zammad is a self-hosted, open-source helpdesk and customer support system with email, chat, phone, Twitter, and Telegram channel integration. It provides a REST and…",
       "category": "Integrations & Connectors",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 5513
       }
@@ -10271,7 +10271,7 @@
       "description": "Chatwoot is a self-hosted, open-source customer engagement platform that provides live chat, email, social media, and messaging channel support in a unified agent dashboard.…",
       "category": "Integrations & Connectors",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 28471
       }
@@ -10331,7 +10331,7 @@
       "description": "Gorse is an AI-powered open-source recommender system written in Go that generates personalized recommendations via collaborative filtering, item-to-item similarity, and LLM-based ranking. It provides…",
       "category": "Data Extraction & Transformation",
       "framework": "Custom Agents",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 9600
       }
@@ -10379,7 +10379,7 @@
       "description": "Dozzle is a lightweight, web-based real-time log viewer for Docker containers. It supports Docker standalone, Swarm mode, and Kubernetes, provides fuzzy search, regex and…",
       "category": "Monitoring & Alerts",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 12360
       }
@@ -10620,7 +10620,7 @@
       "description": "WXT is an open-source, next-generation framework for building browser extensions. It supports all browsers, both Manifest V2 and V3, and provides dev mode with…",
       "category": "Developer Tools",
       "framework": "Custom Agents",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 9534
       }
@@ -10656,7 +10656,7 @@
       "description": "LobeHub is an open-source multi-agent chat platform supporting 50+ LLM providers, MCP plugin marketplace, knowledge base management, and multi-agent collaboration. It serves as a…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 74891
       }
@@ -10668,7 +10668,7 @@
       "description": "Docmost is an open-source collaborative wiki and documentation platform that serves as a self-hosted alternative to Confluence and Notion. It features real-time collaboration, nested…",
       "category": "Calendar, Email & Productivity",
       "framework": "Custom Agents",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 19723
       }
@@ -10800,7 +10800,7 @@
       "description": "DocuSeal is an open-source DocuSign alternative for creating, filling, and signing digital documents. It provides a WYSIWYG PDF form builder with 12 field types,…",
       "category": "Templates & Workflows",
       "framework": "Custom Agents",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 11695
       }
@@ -10884,7 +10884,7 @@
       "description": "Convex is an open-source reactive database for app developers. Write pure TypeScript server functions with strong consistency, real-time subscriptions, and automatic caching. Self-hostable or…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 11179
       }
@@ -11061,7 +11061,7 @@
       "description": "SuperTokens is an open-source authentication platform that serves as a self-hosted alternative to Auth0, Firebase Auth, and AWS Cognito. It provides passwordless login, social…",
       "category": "Security & Verification",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 15002
       }
@@ -11085,7 +11085,7 @@
       "description": "Logto is a modern, open-source authentication and authorization infrastructure built on OIDC and OAuth 2.1. It provides multi-tenancy, enterprise SSO, RBAC, and SDKs for…",
       "category": "Integrations & Connectors",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 11862
       }
@@ -11145,7 +11145,7 @@
       "description": "Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline. It supports various LLM runners like Ollama and…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 130412
       }
@@ -11325,7 +11325,7 @@
       "description": "Penpot is the first open-source design and prototyping platform built for cross-domain teams. Designers create visual layouts, interactive prototypes, and scalable design systems while…",
       "category": "Image & Creative Automation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 45224
       }
@@ -11458,7 +11458,7 @@
       "description": "Traefik is a modern cloud-native reverse proxy and load balancer that automatically discovers services and configures routing. It integrates natively with Docker, Kubernetes, and…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 62473
       }
@@ -11590,7 +11590,7 @@
       "description": "Kokoro-FastAPI is a Dockerized FastAPI wrapper around the Kokoro-82M text-to-speech model with OpenAI-compatible speech endpoints. It supports local TTS serving, multi-language synthesis, web UI…",
       "category": "Media & Transcription",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 4671
       }
@@ -11811,7 +11811,7 @@
       "description": "Woodpecker is a simple yet powerful self-hosted CI/CD engine written in Go with great extensibility. It runs pipelines defined in YAML, supports plugins for…",
       "category": "CI/CD Integrations",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 6760,
         "license": "Apache-2.0"
@@ -11862,7 +11862,7 @@
       "description": "Dockge is a self-hosted Docker Compose stack manager with a reactive web UI for managing compose.yaml files. Created by Louis Lam (author of Uptime…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 22685,
         "license": "MIT"
@@ -12068,7 +12068,7 @@
       "description": "Twenty is a modern open-source CRM built to replace Salesforce, with customizable objects, workflow automation, email and calendar integration, and a GraphQL API. It…",
       "category": "Calendar, Email & Productivity",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 43525
       }
@@ -12080,7 +12080,7 @@
       "description": "NocoDB turns any SQL database into a smart spreadsheet with a full REST API. It provides a self-hosted Airtable alternative that connects to PostgreSQL,…",
       "category": "Integrations & Connectors",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 62560,
         "npm_weekly_downloads": 682
@@ -12186,7 +12186,7 @@
       "description": "Plausible Analytics is a lightweight, open-source, privacy-friendly alternative to Google Analytics. It requires no cookies, is fully GDPR/CCPA/PECR compliant, and provides a clean single-page…",
       "category": "Monitoring & Alerts",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 24495,
         "license": "AGPL-3.0"
@@ -12276,7 +12276,7 @@
       "description": "Pages CMS is an open-source content management system built on top of GitHub. It provides a visual editing interface for managing content in Git…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 3542,
         "license": "MIT"
@@ -12455,7 +12455,7 @@
       "description": "Umami is a modern, privacy-focused, open-source web analytics platform and a self-hostable alternative to Google Analytics, Mixpanel, and Amplitude. It collects website traffic data…",
       "category": "Monitoring & Alerts",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 35941
       }
@@ -12739,7 +12739,7 @@
       "description": "Astro is a modern web framework for building content-driven websites. It ships zero JavaScript by default, supports multiple UI frameworks (React, Vue, Svelte, Solid),…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 57979,
         "npm_weekly_downloads": 1975489
@@ -13065,7 +13065,7 @@
       "description": "Svix is an open-source enterprise-grade webhook delivery service written in Rust. It handles webhook sending, retries, signature verification, and delivery monitoring so developers can…",
       "category": "Integrations & Connectors",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 3152,
         "license": "MIT"
@@ -13078,7 +13078,7 @@
       "description": "Novu is an open-source notification infrastructure platform that provides a unified API for sending notifications across email, SMS, push, in-app inbox, and chat channels.…",
       "category": "Integrations & Connectors",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 38747,
         "npm_weekly_downloads": 6151
@@ -13568,7 +13568,7 @@
       "description": "High-performance, self-hosted newsletter and mailing list manager packed into a single binary. Manages millions of subscribers with templated campaigns, analytics, and a REST API…",
       "category": "Calendar, Email & Productivity",
       "framework": "Custom Agents",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 19404
       }
@@ -13580,7 +13580,7 @@
       "description": "Open-source developer platform to turn scripts into webhooks, workflows, and UIs. Self-hostable alternative to Retool and Temporal, supporting Python, TypeScript, Go, Bash, SQL, and…",
       "category": "Templates & Workflows",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 16115
       }
@@ -13604,7 +13604,7 @@
       "description": "SEOnaut is an open-source SEO auditing tool built with Go that crawls websites and generates detailed reports on technical SEO issues. It detects broken…",
       "category": "Content Writing & SEO",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 673
       }
@@ -13677,7 +13677,7 @@
       "description": "Enable AI agents to interact with Memos, an open-source self-hosted note-taking tool with REST and gRPC APIs. Agents can create, search, tag, and retrieve…",
       "category": "Calendar, Email & Productivity",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 58453
       }
@@ -14249,7 +14249,7 @@
       "description": "Create videos programmatically using React components with Remotion. Leverage web technologies like CSS, Canvas, SVG, and WebGL to build dynamic, data-driven video content with…",
       "category": "Media & Transcription",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 41477,
         "npm_weekly_downloads": 635957
@@ -14276,7 +14276,7 @@
       "description": "Strapi is the leading open-source headless CMS built with Node.js and TypeScript. It auto-generates REST and GraphQL APIs from content types, provides a customizable…",
       "category": "WordPress & CMS",
       "framework": "Custom Agents",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 71740,
         "npm_weekly_downloads": 147371
@@ -14413,7 +14413,7 @@
       "description": "An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping, and web crawling capabilities. Connects to…",
       "category": "Research & Scraping",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 1615,
         "npm_weekly_downloads": 47930
@@ -14511,7 +14511,7 @@
       "description": "mcp-atlassian is a Model Context Protocol server that connects AI assistants to Atlassian Jira and Confluence. It enables searching and managing Jira issues, reading…",
       "category": "Integrations & Connectors",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 4785
       }
@@ -14572,7 +14572,7 @@
       "description": "Maxun is an open-source no-code web data platform for turning any website into structured, reliable data. It supports extraction via recorder mode and LLM-powered…",
       "category": "Data Extraction & Transformation",
       "framework": "Custom Agents",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 15319
       }
@@ -14633,7 +14633,7 @@
       "description": "Supergateway enables running MCP stdio-based servers over SSE, WebSockets, or Streamable HTTP with a single command. Essential infrastructure for remote MCP server access, debugging,…",
       "category": "Developer Tools",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 2538,
         "npm_weekly_downloads": 88592
@@ -14962,7 +14962,7 @@
       "description": "The official Notion MCP Server enables AI agents to interact with Notion workspaces through the Model Context Protocol. It provides tools for querying data…",
       "category": "Integrations & Connectors",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 4141
       }
@@ -15022,7 +15022,7 @@
       "description": "ty is an extremely fast Python type checker and language server written in Rust by Astral, the creators of Ruff and uv. It delivers…",
       "category": "Code Quality & Review",
       "framework": "Claude Code",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 18132
       }
@@ -15130,7 +15130,7 @@
       "description": "An official MCP server from Upstash that lets AI agents manage Redis databases, QStash message queues, and Vector stores through natural language. Supports database…",
       "category": "Integrations & Connectors",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 52
       }
@@ -15142,7 +15142,7 @@
       "description": "An official MCP server for the Chroma open-source embedding database. Enables AI agents to create collections, add documents, perform vector search, full-text search, and…",
       "category": "Integrations & Connectors",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 527
       }
@@ -15630,7 +15630,7 @@
       "description": "The official AWS Labs MCP server collection provides AI agents with structured access to AWS documentation, service APIs, billing data, and infrastructure metadata through…",
       "category": "Integrations & Connectors",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 8645
       }
@@ -15765,7 +15765,7 @@
       "description": "Context7 by Upstash injects up-to-date, version-specific library documentation and code examples directly into AI prompts. Eliminates hallucinated APIs and outdated code generation by pulling…",
       "category": "Library & API Reference",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 51326
       }
@@ -16041,7 +16041,7 @@
       "description": "Write better shell scripts in JavaScript using Google's zx. Provides cross-platform wrappers around child_process with argument escaping, sensible defaults, and access to the full…",
       "category": "Developer Tools",
       "framework": "Claude Code",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 45324,
         "npm_weekly_downloads": 1730472
@@ -16381,7 +16381,7 @@
       "description": "Validate Kubernetes resource configurations against best practice policies using Fairwinds Polaris. Runs as a CLI for CI/CD, a dashboard for cluster-wide audits, or a…",
       "category": "Code Quality & Review",
       "framework": "Codex",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 3355
       }
@@ -16533,7 +16533,7 @@
       "description": "Use Changesets to manage package versioning and changelogs in monorepos and single-package repositories. Automates semver bumps, changelog generation, and npm publishing with a PR-based…",
       "category": "Developer Tools",
       "framework": "Claude Code",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 11620,
         "npm_weekly_downloads": 2785559
@@ -16571,7 +16571,7 @@
       "description": "Run Oxlint from the Oxc toolchain to lint JavaScript and TypeScript codebases at extreme speed. Written in Rust, Oxlint is 50-100x faster than ESLint…",
       "category": "Code Quality & Review",
       "framework": "Claude Code",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 20468,
         "npm_weekly_downloads": 4311641
@@ -17678,7 +17678,7 @@
       "description": "Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes API /api/v1/namespaces/{ns}/pods/{pod}/log endpoint. Correlates container exit codes with OOM kills, readiness probe failures, and config errors.",
       "category": "Runbooks & Diagnostics",
       "framework": "Gemini",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 121700,
         "license": "Apache-2.0"
@@ -17857,7 +17857,7 @@
       "description": "Diagnoses Kubernetes pod crash loops by analyzing events, logs, and resource quotas via the Kubernetes API and kubectl debug. Correlates OOMKill signals with container…",
       "category": "Runbooks & Diagnostics",
       "framework": "Claude Code",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 121700,
         "license": "Apache-2.0"
@@ -18303,7 +18303,7 @@
       "description": "Generates automated incident response runbooks triggered by PagerDuty webhooks via the PagerDuty Events API v2. Integrates with Datadog API and AWS CloudWatch for diagnostic…",
       "category": "Runbooks & Diagnostics",
       "framework": "OpenClaw",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 69,
         "npm_weekly_downloads": 1033706,
@@ -18799,7 +18799,7 @@
       "description": "Constructs complex jq filter expressions for transforming JSON/NDJSON streams, including recursive descent, object construction, and reduce operations. Handles multi-gigabyte streams with jq's streaming parser.",
       "category": "Data Extraction & Transformation",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 34478
       }
@@ -21402,7 +21402,7 @@
       "description": "Automates Kubernetes troubleshooting using kubectl and the Kubernetes Python client to diagnose CrashLoopBackOff, OOMKilled, and ImagePullBackOff states. Collects pod logs, events, node conditions, and…",
       "category": "Runbooks & Diagnostics",
       "framework": "OpenClaw",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 121700,
         "license": "Apache-2.0"
@@ -21548,7 +21548,7 @@
         "Claude Code",
         "Multi-Framework"
       ],
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 37227
       }
@@ -22600,7 +22600,7 @@
       "description": "Runs end-to-end browser tests using Playwright Test with page.goto, page.locator, and expect assertions. Supports Chromium, Firefox, and WebKit with parallel execution and trace recording…",
       "category": "Browser Automation",
       "framework": "ChatGPT Agents",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 86409,
         "npm_weekly_downloads": 47883561,
@@ -22802,7 +22802,7 @@
       "description": "Diagnoses CrashLoopBackOff pods using the Kubernetes client-go API and kubectl debug. Analyzes container exit codes, OOMKill events, and liveness probe failures with automated remediation…",
       "category": "Runbooks & Diagnostics",
       "framework": "OpenClaw",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 121700,
         "license": "Apache-2.0"
@@ -23933,7 +23933,7 @@
       "description": "Automated K8s pod troubleshooting using kubectl, crictl, and the Kubernetes API. Runs diagnostic sequences for CrashLoopBackOff, ImagePullBackOff, OOMKilled, and pending pod states.",
       "category": "Runbooks & Diagnostics",
       "framework": "Codex",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 121700,
         "license": "Apache-2.0"
@@ -25113,7 +25113,7 @@
       "description": "Runs automated diagnostic sequences on Kubernetes pods using kubectl exec, kubectl logs, and the Kubernetes API /api/v1/pods endpoint. Captures OOMKilled events, CrashLoopBackOff analysis, and…",
       "category": "Runbooks & Diagnostics",
       "framework": "Cursor",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 121700,
         "license": "Apache-2.0"
@@ -25304,7 +25304,7 @@
       "description": "Auto-generates operational runbooks from Kubernetes cluster state using kubectl and the Kubernetes API. Produces step-by-step troubleshooting guides for common pod failure modes.",
       "category": "Runbooks & Diagnostics",
       "framework": "OpenClaw",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 121700,
         "license": "Apache-2.0"
@@ -25483,7 +25483,7 @@
       "description": "Diagnoses Kubernetes pod failures using kubectl describe, logs --previous, and the Kubernetes API /api/v1/namespaces/{ns}/events endpoints. Identifies CrashLoopBackOff root causes, OOMKilled memory analysis, and generates…",
       "category": "Runbooks & Diagnostics",
       "framework": "OpenClaw",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 121700,
         "license": "Apache-2.0"
@@ -26506,7 +26506,7 @@
       "description": "Diagnoses CrashLoopBackOff pods using the Kubernetes API /api/v1/pods endpoint, kubectl logs --previous, and container runtime inspection via crictl. Identifies OOMKilled events, missing ConfigMaps, and…",
       "category": "Runbooks & Diagnostics",
       "framework": "Cursor",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 121700,
         "license": "Apache-2.0"
@@ -26604,7 +26604,7 @@
       "description": "Executes structured incident response procedures for Kubernetes clusters using kubectl, kube-state-metrics, and the Kubernetes Events API. Automates pod crash diagnosis, OOMKill analysis, and node…",
       "category": "Runbooks & Diagnostics",
       "framework": "Claude Code",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 121700,
         "license": "Apache-2.0"
@@ -26701,7 +26701,7 @@
       "description": "Diagnoses Kubernetes pod failures using kubectl and the Kubernetes API server endpoints. Analyzes CrashLoopBackOff, OOMKilled, and ImagePullBackOff states by querying /api/v1/namespaces/{ns}/pods/{pod}/log and /api/v1/events resources.",
       "category": "Runbooks & Diagnostics",
       "framework": "Codex",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 121700,
         "license": "Apache-2.0"
@@ -27475,7 +27475,7 @@
       "description": "Monitors Docker Compose service health using the Docker Engine API (/containers/{id}/json) and docker-compose ps parsing. Tracks container restart counts via the RestartCount field and…",
       "category": "Runbooks & Diagnostics",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 71492,
         "license": "Apache-2.0"
@@ -27951,7 +27951,7 @@
       "description": "Diagnoses CrashLoopBackOff pods in Kubernetes clusters using kubectl and the Kubernetes API. Fetches pod events, container logs, and resource limits via the /api/v1/namespaces/{ns}/pods/{name}/log endpoint.…",
       "category": "Runbooks & Diagnostics",
       "framework": "OpenClaw",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 121700,
         "license": "Apache-2.0"
@@ -28575,7 +28575,7 @@
       "description": "Runs Trivy against a Docker image and produces a prioritized CVE list grouped by severity with fix availability. Filters out CVEs with no available…",
       "category": "CI/CD Integrations",
       "framework": "Codex",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 71492,
         "license": "Apache-2.0"
@@ -28979,7 +28979,7 @@
       "description": "Devcontainer Setup Agent is built around Docker container platform. The underlying ecosystem is represented by moby/moby (71,560+ GitHub stars). It gives an agent a…",
       "category": "Developer Tools",
       "framework": "Claude Code",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 2637,
         "npm_weekly_downloads": 260579
@@ -29503,7 +29503,7 @@
       "description": "Docker MCP Server is built around Docker container platform. The underlying ecosystem is represented by moby/moby (71,560+ GitHub stars). It gives an agent a…",
       "category": "Developer Tools",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 71568,
         "license": "Apache-2.0"
@@ -29771,7 +29771,7 @@
       "description": "Neon's official MCP server translates natural language requests into Neon API calls, letting AI agents create projects, manage branches, run SQL queries, and perform…",
       "category": "Integrations & Connectors",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 598,
         "npm_weekly_downloads": 15537,
@@ -29824,7 +29824,7 @@
       "description": "Scan your AI agents, MCP servers, and skills for security vulnerabilities from the command line. Snyk Agent Scan discovers and audits every agent component…",
       "category": "Security & Verification",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 2423,
         "license": "Apache-2.0"
@@ -29849,7 +29849,7 @@
       "description": "Agent-layer security monitoring, drift detection, and integrity verification for OpenClaw environments. Protects cognitive architecture files, audits skill supply chains, and monitors CVE advisories.",
       "category": "Security & Verification",
       "framework": "OpenClaw",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 992,
         "license": "AGPL-3.0"

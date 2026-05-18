@@ -15,7 +15,9 @@ Queries the Common Crawl Index API for large-scale web archive research and data
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Basic usage or getting-started notes:
+- Common Crawl data is stored on Amazon Web Services' Public Data Sets . All data and index files are free to download. Feel free to run your own index server, or analyze the index offline.
+- More about the URL index in the original announcement . For help, visit the Common Crawl user forum or Discord server . See also Getting Started .
 
 - Source: https://index.commoncrawl.org/
 

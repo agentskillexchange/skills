@@ -3,7 +3,7 @@ name: "Docker MCP Server"
 slug: "docker-mcp-server"
 description: ""
 github_stars: 71568
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/moby/moby"
 author: "Moby"
 category: "Developer Tools"
