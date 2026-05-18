@@ -29630,7 +29630,7 @@
       "framework": "MCP",
       "verification": "listed",
       "signals": {
-        "github_stars": 73848,
+        "github_stars": 73849,
         "license": "AGPL-3.0"
       }
     },
@@ -29643,7 +29643,7 @@
       "framework": "MCP",
       "verification": "listed",
       "signals": {
-        "github_stars": 76722
+        "github_stars": 76723
       }
     },
     {
@@ -29985,7 +29985,7 @@
       "framework": "OpenClaw",
       "verification": "listed",
       "signals": {
-        "github_stars": 99708,
+        "github_stars": 99709,
         "license": "MIT"
       }
     },
@@ -30080,7 +30080,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 32678,
+        "github_stars": 32679,
         "npm_weekly_downloads": 2184986,
         "license": "Apache-2.0"
       }
@@ -30109,7 +30109,7 @@
       ],
       "verification": "listed",
       "signals": {
-        "github_stars": 88938,
+        "github_stars": 88940,
         "npm_weekly_downloads": 53261626,
         "license": "Apache-2.0"
       }
