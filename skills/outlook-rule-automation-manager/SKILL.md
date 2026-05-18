@@ -2,7 +2,7 @@
 name: "Outlook Rule Automation Manager"
 slug: "outlook-rule-automation-manager"
 description: "Creates and manages Outlook email rules programmatically using the Microsoft Graph API /me/mailFolders/inbox/messageRules endpoint. Supports complex condition chains with action sequences for automated email triage."
-verification: "security_reviewed"
+verification: "listed"
 source: "https://learn.microsoft.com/en-us/graph/api/resources/messagerule?view=graph-rest-1.0"
 author: "Microsoft"
 category: "Calendar, Email & Productivity"

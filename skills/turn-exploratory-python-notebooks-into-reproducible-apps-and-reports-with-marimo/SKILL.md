@@ -3,7 +3,7 @@ name: "Turn exploratory Python notebooks into reproducible apps and reports with
 slug: "turn-exploratory-python-notebooks-into-reproducible-apps-and-reports-with-marimo"
 description: "Promote notebook work into rerunnable Python artifacts or lightweight apps when an analysis needs to be shared, versioned, and rerun reliably."
 github_stars: 20409
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/marimo-team/marimo"
 author: "marimo team"
 publisher_type: "organization"

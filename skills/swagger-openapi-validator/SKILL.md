@@ -3,7 +3,7 @@ name: "Swagger / OpenAPI Validator"
 slug: "swagger-openapi-validator"
 description: ""
 github_stars: 28756
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/swagger-api/swagger-ui"
 category: "Library & API Reference"
 framework: "Claude Code"

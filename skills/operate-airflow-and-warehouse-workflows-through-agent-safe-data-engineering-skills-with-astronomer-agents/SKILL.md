@@ -3,7 +3,7 @@ name: "Operate Airflow and warehouse workflows through agent-safe data engineeri
 slug: "operate-airflow-and-warehouse-workflows-through-agent-safe-data-engineering-skills-with-astronomer-agents"
 description: "Give agents structured Airflow, lineage, dbt, and warehouse workflows through installable skills and an Airflow MCP surface instead of loose shell access."
 github_stars: 337
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/astronomer/agents"
 author: "Astronomer"
 publisher_type: "organization"

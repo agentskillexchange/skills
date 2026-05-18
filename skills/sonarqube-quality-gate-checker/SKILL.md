@@ -3,7 +3,7 @@ name: "SonarQube Quality Gate Checker"
 slug: "sonarqube-quality-gate-checker"
 description: "Queries SonarQube Web API for project quality gate status, code coverage metrics, and technical debt analysis. Integrates with sonar-scanner CLI for on-demand analysis and pr-decoration via the SonarQube ALM integration API."
 github_stars: 10433
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/SonarSource/sonarqube"
 category: "Code Quality & Review"
 framework: "Gemini"

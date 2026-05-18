@@ -3,7 +3,7 @@ name: "Slack Digest and Task Router"
 slug: "slack-digest-and-task-router"
 description: "Reads unread Slack messages from specified channels using the conversations.history API, extracts action items and questions, routes tasks to the right person based on mention patterns, and posts a daily digest summary to a designated summary channel via the Slack Web API."
 github_stars: 2900
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/slackapi/bolt-js"
 category: "Calendar, Email & Productivity"
 framework: "OpenClaw"

@@ -3,7 +3,7 @@ name: "Puppeteer Web Scraper"
 slug: "puppeteer-web-scraper"
 description: "Headless Chrome scraping via Puppeteer with automatic cookie handling, JavaScript rendering, and Cheerio-based DOM extraction. Handles infinite scroll and lazy-loaded content."
 github_stars: 94115
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/puppeteer/puppeteer"
 author: "Puppeteer"
 category: "Research & Scraping"

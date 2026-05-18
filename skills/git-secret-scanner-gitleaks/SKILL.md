@@ -3,7 +3,7 @@ name: "Git Secret Scanner with Gitleaks"
 slug: "git-secret-scanner-gitleaks"
 description: "Scans Git repositories for leaked secrets using Gitleaks, TruffleHog, and custom regex patterns. Detects API keys, AWS credentials, private keys, and database connection strings across commit history."
 github_stars: 26101
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/gitleaks/gitleaks"
 author: "Gitleaks"
 category: "Security & Verification"

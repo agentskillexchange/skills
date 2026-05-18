@@ -3,7 +3,7 @@ name: "Translate and validate SQL across dialects with SQLGlot"
 slug: "translate-and-validate-sql-across-dialects-with-sqlglot"
 description: "Use SQLGlot when an agent needs to parse, transpile, or sanity-check SQL before moving queries between engines or trusting generated SQL."
 github_stars: 9133
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/tobymao/sqlglot"
 author: "tobymao"
 publisher_type: "individual"

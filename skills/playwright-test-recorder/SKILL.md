@@ -3,7 +3,7 @@ name: "Playwright Test Recorder"
 slug: "playwright-test-recorder"
 description: ""
 github_stars: 86378
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/microsoft/playwright"
 author: "microsoft"
 category: "Code Quality & Review"

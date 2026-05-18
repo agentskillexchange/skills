@@ -3,7 +3,7 @@ name: "ArgoCD Sync Drift Detector"
 slug: "argocd-sync-drift-detector"
 description: "Monitors ArgoCD applications for configuration drift using the ArgoCD REST API and grpc-gateway. Compares live Kubernetes manifests against Git-declared state and generates remediation playbooks via kubectl diff."
 github_stars: 22593
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/argoproj/argo-cd"
 category: "CI/CD Integrations"
 framework: "OpenClaw"

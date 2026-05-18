@@ -3,7 +3,7 @@ name: "Deepgram Real-Time Transcription Connector"
 slug: "deepgram-realtime-transcription-connector"
 description: "Streams live audio to Deepgram's WebSocket API at wss://api.deepgram.com/v1/listen for real-time speech-to-text. Handles interim results, utterance detection, and speaker diarization via the Deepgram Node SDK."
 github_stars: 260
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/deepgram/deepgram-js-sdk"
 author: "Deepgram"
 category: "Media & Transcription"

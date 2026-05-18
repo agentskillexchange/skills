@@ -3,7 +3,7 @@ name: "Collect Unix-like incident-response artifacts into one portable evidence 
 slug: "collect-unix-like-incident-response-artifacts-into-one-portable-evidence-bundle-with-uac"
 description: "Capture volatile and persistent Unix-like system artifacts quickly before evidence disappears or responders start changing the host."
 github_stars: 1306
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/tclahr/uac"
 author: "tclahr"
 publisher_type: "individual"

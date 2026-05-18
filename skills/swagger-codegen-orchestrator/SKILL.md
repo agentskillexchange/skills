@@ -3,7 +3,7 @@ name: "Swagger Codegen Orchestrator"
 slug: "swagger-codegen-orchestrator"
 description: "Orchestrates OpenAPI 3.x code generation using swagger-codegen-cli and openapi-generator. Produces typed client SDKs for TypeScript, Python, and Go with custom Mustache templates."
 github_stars: 28751
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/swagger-api/swagger-ui"
 category: "Templates & Workflows"
 framework: "Claude Code"

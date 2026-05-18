@@ -3,7 +3,7 @@ name: "CI Pipeline Generator Skill"
 slug: "ci-pipeline-generator-skill"
 description: ""
 github_stars: 24337
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/gitlabhq/gitlabhq"
 author: "GitLab"
 category: "Developer Tools"

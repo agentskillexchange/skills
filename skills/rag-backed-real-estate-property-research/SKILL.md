@@ -36,8 +36,8 @@ Requirements and caveats from upstream:
 
 Basic usage or getting-started notes:
 - [Quick Start](#-quick-start)
-- <img src="docs/screenshots/usage.png" alt="Usage statistics dashboard" width="320" style="border-radius: 8px;" />
-- <p><strong>Usage Dashboard</strong></p>
+- ## 🚀 Quick Start
+- cp deploy/compose/.env.example deploy/compose/.env
 
 - Source: https://github.com/AleksNeStu/ai-real-estate-assistant
 - Extracted from upstream docs: https://raw.githubusercontent.com/AleksNeStu/ai-real-estate-assistant/HEAD/README.md

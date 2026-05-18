@@ -3,7 +3,7 @@ name: "Plan and apply many Helm releases from one declarative state before clust
 slug: "plan-and-apply-many-helm-releases-from-one-declarative-state-before-cluster-changes-drift-out-of-sync-with-helmfile"
 description: "Keep multi-chart Kubernetes environments coherent by diffing and syncing all declared Helm releases from one state file."
 github_stars: 5058
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/helmfile/helmfile"
 author: "helmfile"
 publisher_type: "organization"

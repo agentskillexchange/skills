@@ -3,7 +3,7 @@ name: "Notion Database Sync Bridge"
 slug: "notion-database-sync-bridge"
 description: "Synchronizes data between Notion databases and external sources using the Notion API v2022-06-28 with cursor-based pagination. Handles property type mapping for select, multi-select, relation, and formula fields with conflict resolution via last-write-wins strategy."
 github_stars: 5582
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/makenotion/notion-sdk-js"
 category: "Calendar, Email & Productivity"
 framework: "Claude Agents"

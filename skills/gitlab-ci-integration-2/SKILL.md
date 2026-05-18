@@ -3,7 +3,7 @@ name: "GitLab CI Integration"
 slug: "gitlab-ci-integration-2"
 description: ""
 github_stars: 24298
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/gitlabhq/gitlabhq"
 category: "CI/CD Integrations"
 framework: "Claude Code"

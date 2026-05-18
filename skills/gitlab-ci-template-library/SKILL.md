@@ -3,7 +3,7 @@ name: "GitLab CI Template Library"
 slug: "gitlab-ci-template-library"
 description: "Creates reusable GitLab CI/CD template libraries using include:template and extends keywords. Manages pipeline configurations with rules:changes path filtering, needs DAG dependencies, and Auto DevOps customization via CI/CD variables."
 github_stars: 24298
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/gitlabhq/gitlabhq"
 category: "CI/CD Integrations"
 framework: "MCP"

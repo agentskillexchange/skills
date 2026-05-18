@@ -3,7 +3,7 @@ name: "Benchmark browser agents on a fixed stealth and task suite with browser-u
 slug: "benchmark-browser-agents-on-a-fixed-stealth-and-task-suite-with-browser-use-benchmark"
 description: "Compare browser-agent reliability on a repeatable task and anti-bot suite before choosing a stack or claiming progress."
 github_stars: 71
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/browser-use/benchmark"
 author: "browser-use"
 publisher_type: "organization"

@@ -3,7 +3,7 @@ name: "Run AI coding agents in isolated containers and compare their behavior si
 slug: "run-ai-coding-agents-in-isolated-containers-and-compare-their-behavior-side-by-side-with-vibepod-cli"
 description: "Launch supported coding agents in Docker, collect local metrics and HTTP traces, and compare their runs in a built-in dashboard."
 github_stars: 61
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/VibePod/vibepod-cli"
 author: "VibePod"
 publisher_type: "organization"

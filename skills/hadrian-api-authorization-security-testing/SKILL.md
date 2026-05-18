@@ -3,7 +3,7 @@ name: "Test API authorization flows with Hadrian"
 slug: "hadrian-api-authorization-security-testing"
 description: "Lets an agent exercise REST, GraphQL, and gRPC authorization paths with YAML-defined role tests so BOLA, BFLA, broken authentication, and related API flaws are caught before release."
 github_stars: 38
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/praetorian-inc/hadrian"
 author: "Praetorian"
 publisher_type: "company"

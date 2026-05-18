@@ -3,7 +3,7 @@ name: "Scan sites for accessibility gaps, file GitHub issues, and route fixes th
 slug: "scan-sites-for-accessibility-gaps-file-github-issues-and-route-fixes-through-copilot-with-accessibility-scanner"
 description: "Run accessibility scans against target URLs, open trackable issues, and optionally hand remediation suggestions to Copilot instead of treating accessibility review as a manual audit chore."
 github_stars: 266
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/github/accessibility-scanner"
 author: "GitHub"
 publisher_type: "organization"

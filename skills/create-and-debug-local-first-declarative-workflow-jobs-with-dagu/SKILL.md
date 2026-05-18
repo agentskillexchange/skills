@@ -3,7 +3,7 @@ name: "Create and debug local-first declarative workflow jobs with Dagu"
 slug: "create-and-debug-local-first-declarative-workflow-jobs-with-dagu"
 description: "Use Dagu to define file-backed workflow jobs in YAML, run them locally or across workers, and inspect failures through a lightweight operator surface instead of a heavyweight orchestrator."
 github_stars: 3303
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/dagucloud/dagu"
 author: "Dagu Cloud"
 publisher_type: "organization"

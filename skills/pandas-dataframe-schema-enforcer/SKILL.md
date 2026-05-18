@@ -3,7 +3,7 @@ name: "Pandas DataFrame Schema Enforcer"
 slug: "pandas-dataframe-schema-enforcer"
 description: "Validates and transforms Pandas DataFrames using Pandera schema definitions with column-level dtype, nullable, and custom check constraints. Auto-generates Pandera schema code from sample DataFrames."
 github_stars: 48498
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/pandas-dev/pandas"
 category: "Data Extraction & Transformation"
 framework: "ChatGPT Agents"

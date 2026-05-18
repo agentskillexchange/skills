@@ -3,7 +3,7 @@ name: "Prometheus Alerting Rules"
 slug: "prometheus-alerting-rules"
 description: ""
 github_stars: 63540
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/prometheus/prometheus"
 author: "Prometheus"
 category: "Monitoring & Alerts"

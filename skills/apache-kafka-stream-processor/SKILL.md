@@ -3,7 +3,7 @@ name: "Apache Kafka Stream Processor"
 slug: "apache-kafka-stream-processor"
 description: ""
 github_stars: 32373
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/apache/kafka"
 author: "apache"
 category: "Data Extraction & Transformation"

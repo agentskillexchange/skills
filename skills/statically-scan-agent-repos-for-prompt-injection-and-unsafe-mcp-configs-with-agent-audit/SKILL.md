@@ -3,7 +3,7 @@ name: "Statically scan agent repos for prompt injection and unsafe MCP configs w
 slug: "statically-scan-agent-repos-for-prompt-injection-and-unsafe-mcp-configs-with-agent-audit"
 description: "Audit agent code, prompts, and MCP configuration for prompt-injection surfaces, taint issues, and unsafe tool exposure before shipping."
 github_stars: 149
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/HeadyZhang/agent-audit"
 author: "Agent Security Team"
 publisher_type: "individual"

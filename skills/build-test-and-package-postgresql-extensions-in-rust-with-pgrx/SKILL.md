@@ -3,7 +3,7 @@ name: "Build, test, and package PostgreSQL extensions in Rust with pgrx"
 slug: "build-test-and-package-postgresql-extensions-in-rust-with-pgrx"
 description: "Use pgrx when an agent needs the Rust-native extension lifecycle for PostgreSQL, including local builds, test runs, and packaging across PostgreSQL versions."
 github_stars: 4458
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/pgcentralfoundation/pgrx"
 author: "PgCentral Foundation"
 publisher_type: "open_source_project"

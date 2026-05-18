@@ -2,7 +2,7 @@
 name: "Todoist Sync API Task Orchestrator"
 slug: "todoist-sync-api-task-orchestrator"
 description: "Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses commands array for atomic batch operations on items, projects, and labels."
-verification: "security_reviewed"
+verification: "listed"
 source: "https://developer.todoist.com/api/v1/"
 author: "Doist"
 category: "Calendar, Email & Productivity"

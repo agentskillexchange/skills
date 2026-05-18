@@ -2,7 +2,7 @@
 name: "Git Bisect Automation Agent"
 slug: "git-bisect-automation-agent"
 description: "Automates git bisect workflows to find regression-introducing commits using custom test scripts and the git bisect run interface. Supports containerized test execution via Docker to ensure reproducible bisect environments."
-verification: "security_reviewed"
+verification: "listed"
 source: "https://git-scm.com/docs/git-bisect"
 category: "Code Quality & Review"
 framework: "Custom Agents"

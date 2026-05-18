@@ -2,7 +2,7 @@
 name: "ArgoCD MCP Server"
 slug: "argocd-mcp-server"
 description: ""
-github_stars: 22907
+github_stars: 22915
 verification: "security_reviewed"
 source: "https://github.com/argoproj/argo-cd"
 author: "Argo Project"
@@ -10,7 +10,7 @@ category: "Developer Tools"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "argoproj/argo-cd"
-  github_stars: 22907
+  github_stars: 22915
 ---
 
 # ArgoCD MCP Server

@@ -2,7 +2,7 @@
 name: "OpenTelemetry Trace Aggregator"
 slug: "opentelemetry-trace-aggregator"
 description: "Aggregates OpenTelemetry trace spans from Jaeger and Zipkin backends into unified flame graphs. Uses the OTLP gRPC exporter SDK to correlate distributed service calls across microservice boundaries."
-verification: "security_reviewed"
+verification: "listed"
 source: "https://opentelemetry.io/"
 author: "OpenTelemetry"
 category: "Monitoring & Alerts"

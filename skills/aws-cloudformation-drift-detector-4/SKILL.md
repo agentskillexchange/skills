@@ -2,7 +2,7 @@
 name: "AWS CloudFormation Drift Detector"
 slug: "aws-cloudformation-drift-detector-4"
 description: "Monitors AWS CloudFormation stacks for configuration drift using the AWS SDK DetectStackDrift and DescribeStackResourceDrifts APIs. Generates remediation templates and integrates with AWS Config rules for continuous compliance."
-verification: "security_reviewed"
+verification: "listed"
 source: "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html"
 author: "Amazon Web Services"
 category: "Runbooks & Diagnostics"

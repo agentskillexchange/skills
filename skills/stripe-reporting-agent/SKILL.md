@@ -3,7 +3,7 @@ name: "Stripe Reporting Agent"
 slug: "stripe-reporting-agent"
 description: ""
 github_stars: 4385
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/stripe/stripe-node"
 category: "Integrations & Connectors"
 framework: "Custom Agents"

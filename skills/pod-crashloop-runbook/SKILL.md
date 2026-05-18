@@ -3,7 +3,7 @@ name: "Pod CrashLoop Runbook"
 slug: "pod-crashloop-runbook"
 description: ""
 github_stars: 122185
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/kubernetes/kubernetes"
 author: "Kubernetes"
 category: "Runbooks & Diagnostics"

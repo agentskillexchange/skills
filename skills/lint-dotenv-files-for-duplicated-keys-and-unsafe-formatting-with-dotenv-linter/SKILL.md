@@ -3,7 +3,7 @@ name: "Lint .env files for duplicated keys and unsafe formatting with dotenv-lin
 slug: "lint-dotenv-files-for-duplicated-keys-and-unsafe-formatting-with-dotenv-linter"
 description: "Check dotenv files for duplicated keys, malformed values, and formatting mistakes before they break local runs or secret handoffs."
 github_stars: 2068
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/dotenv-linter/dotenv-linter"
 author: "dotenv-linter"
 publisher_type: "organization"

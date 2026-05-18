@@ -3,7 +3,7 @@ name: "GitLab CI/CD Pipeline Orchestrator"
 slug: "gitlab-cicd-pipeline-orchestrator"
 description: "Build and manage GitLab CI/CD pipelines using .gitlab-ci.yml and the GitLab REST API v4. Supports multi-project pipelines, DAG scheduling, and GitLab Runner fleet management."
 github_stars: 24298
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/gitlabhq/gitlabhq"
 category: "CI/CD Integrations"
 framework: "Cursor"

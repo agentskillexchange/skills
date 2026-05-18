@@ -3,7 +3,7 @@ name: "LlamaIndex Agent"
 slug: "llamaindex-agent"
 description: ""
 github_stars: 48568
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/run-llama/llama_index"
 author: "run-llama"
 category: "Developer Tools"

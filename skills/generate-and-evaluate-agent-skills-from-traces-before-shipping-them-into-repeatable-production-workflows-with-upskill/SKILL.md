@@ -3,7 +3,7 @@ name: "Generate and evaluate agent skills from traces before shipping them into 
 slug: "generate-and-evaluate-agent-skills-from-traces-before-shipping-them-into-repeatable-production-workflows-with-upskill"
 description: "Turn successful traces into reusable skills, then benchmark those skills across models before you trust them in production."
 github_stars: 477
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/huggingface/upskill"
 author: "Hugging Face"
 publisher_type: "open_source"

@@ -2,7 +2,7 @@
 name: "SerpAPI Search Results Aggregator"
 slug: "serpapi-search-results-aggregator"
 description: "Queries Google, Bing, and DuckDuckGo search APIs through SerpAPI to collect SERP features, Knowledge Graph data, and organic results. Supports People Also Ask extraction and trend analysis."
-verification: "security_reviewed"
+verification: "listed"
 source: "https://serpapi.com/"
 author: "SerpApi"
 category: "Research & Scraping"

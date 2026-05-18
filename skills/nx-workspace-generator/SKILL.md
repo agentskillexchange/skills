@@ -3,7 +3,7 @@ name: "Nx Workspace Generator"
 slug: "nx-workspace-generator"
 description: "Creates and manages Nx monorepo workspace generators using @nx/devkit and the Nx plugin API. Generates libraries, applications, and custom executors with automatic dependency graph updates via nx graph."
 github_stars: 28562
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/nrwl/nx"
 author: "Nx"
 category: "Templates & Workflows"

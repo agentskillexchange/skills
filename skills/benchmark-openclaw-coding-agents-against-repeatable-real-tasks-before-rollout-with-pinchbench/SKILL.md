@@ -3,7 +3,7 @@ name: "Benchmark OpenClaw coding agents against repeatable real tasks before rol
 slug: "benchmark-openclaw-coding-agents-against-repeatable-real-tasks-before-rollout-with-pinchbench"
 description: "Run a real-task benchmark suite against OpenClaw agents so model or harness changes can be compared before they hit production workflows."
 github_stars: 1003
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/pinchbench/skill"
 author: "pinchbench"
 publisher_type: "organization"

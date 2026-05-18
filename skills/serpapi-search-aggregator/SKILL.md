@@ -2,7 +2,7 @@
 name: "SerpAPI Search Aggregator"
 slug: "serpapi-search-aggregator"
 description: "Aggregates search results from Google, Bing, and DuckDuckGo via the SerpAPI REST endpoint. Parses organic results, knowledge panels, and People Also Ask data into structured JSON for downstream analysis."
-verification: "security_reviewed"
+verification: "listed"
 source: "https://serpapi.com/"
 author: "SerpApi"
 category: "Research & Scraping"

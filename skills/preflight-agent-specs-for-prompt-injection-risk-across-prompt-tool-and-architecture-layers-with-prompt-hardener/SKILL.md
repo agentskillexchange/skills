@@ -3,7 +3,7 @@ name: "Preflight agent specs for prompt-injection risk across prompt, tool, and 
 slug: "preflight-agent-specs-for-prompt-injection-risk-across-prompt-tool-and-architecture-layers-with-prompt-hardener"
 description: "Describe an agent in `agent_spec.yaml`, run deterministic prompt-injection analysis, generate mitigations, and validate defenses before rollout."
 github_stars: 50
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/cybozu/prompt-hardener"
 author: "Cybozu"
 publisher_type: "organization"

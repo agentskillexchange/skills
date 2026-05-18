@@ -3,7 +3,7 @@ name: "OWASP ZAP Scanner Agent"
 slug: "owasp-zap-scanner-agent"
 description: "Integrates the OWASP ZAP API to run automated DAST scans against web applications. Parses ZAP JSON reports, triages alerts by CVSS severity, and generates remediation tickets via Jira REST API."
 github_stars: 14991
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/zaproxy/zaproxy"
 category: "Security & Verification"
 framework: "OpenClaw"

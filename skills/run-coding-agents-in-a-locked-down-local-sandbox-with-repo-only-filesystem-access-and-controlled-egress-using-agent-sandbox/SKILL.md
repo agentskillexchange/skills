@@ -3,7 +3,7 @@ name: "Run coding agents in a locked-down local sandbox with repo-only filesyste
 slug: "run-coding-agents-in-a-locked-down-local-sandbox-with-repo-only-filesystem-access-and-controlled-egress-using-agent-sandbox"
 description: "Put Claude Code, Codex, Gemini, or other supported agent CLIs inside a persistent local sandbox instead of letting them operate directly on the host."
 github_stars: 163
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/mattolson/agent-sandbox"
 author: "mattolson"
 publisher_type: "individual"

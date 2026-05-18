@@ -3,7 +3,7 @@ name: "Hugging Face Transformers — Machine Learning Model Library"
 slug: "hugging-face-transformers-ml-library"
 description: "Hugging Face Transformers provides 400,000+ pretrained models for NLP, computer vision, audio, and multimodal tasks with a unified API across PyTorch, TensorFlow, and JAX for training, fine-tuning, and deployment."
 github_stars: 159189
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/huggingface/transformers"
 author: "Hugging Face"
 category: "Developer Tools"

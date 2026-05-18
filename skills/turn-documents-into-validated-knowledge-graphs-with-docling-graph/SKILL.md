@@ -3,7 +3,7 @@ name: "Turn documents into validated knowledge graphs with Docling Graph"
 slug: "turn-documents-into-validated-knowledge-graphs-with-docling-graph"
 description: "Convert documents into schema-enforced entities and graph relationships when the job is exact knowledge extraction rather than generic document parsing."
 github_stars: 134
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/docling-project/docling-graph"
 author: "docling-project"
 publisher_type: "organization"

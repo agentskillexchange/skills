@@ -3,7 +3,7 @@ name: "Use an escalating scrape strategy in Claude Code before reaching for brow
 slug: "use-an-escalating-scrape-strategy-in-claude-code-before-reaching-for-browser-automation"
 description: "Start with cheap static fetches, escalate to a browser only when needed, validate findings, and turn the result into a production-ready scraping approach."
 github_stars: 38
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/yfe404/web-scraper"
 author: "yfe404"
 publisher_type: "individual"

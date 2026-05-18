@@ -3,7 +3,7 @@ name: "Jaeger Trace Explorer"
 slug: "jaeger-trace-explorer"
 description: ""
 github_stars: 22671
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/jaegertracing/jaeger"
 author: "Jaeger - Distributed Tracing Platform"
 category: "Monitoring & Alerts"

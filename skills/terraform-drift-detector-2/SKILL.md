@@ -3,7 +3,7 @@ name: "Terraform Drift Detector"
 slug: "terraform-drift-detector-2"
 description: "Detect infrastructure drift by comparing Terraform state with live cloud resources using terraform plan and the Terraform Cloud API. Supports AWS, GCP, and Azure provider state analysis."
 github_stars: 48146
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/hashicorp/terraform"
 category: "CI/CD Integrations"
 framework: "Gemini"

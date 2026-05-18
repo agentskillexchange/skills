@@ -3,7 +3,7 @@ name: "httpx Fast Multi-Purpose HTTP Probing Toolkit by ProjectDiscovery"
 slug: "httpx-http-probing-toolkit-projectdiscovery"
 description: "httpx by ProjectDiscovery is a fast, multi-purpose HTTP toolkit for running probes against lists of hosts. It detects live web servers, extracts response metadata, fingerprints technologies, and outputs structured results for security reconnaissance and monitoring pipelines."
 github_stars: 9759
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/projectdiscovery/httpx"
 category: "Security & Verification"
 framework: "Custom Agents"

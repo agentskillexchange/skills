@@ -3,7 +3,7 @@ name: "Ansible Playbook Runner"
 slug: "ansible-playbook-runner"
 description: ""
 github_stars: 68362
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/ansible/ansible"
 author: "ansible"
 category: "Templates & Workflows"

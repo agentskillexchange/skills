@@ -3,7 +3,7 @@ name: "API Client Generator Skill"
 slug: "api-client-generator-skill"
 description: ""
 github_stars: 26253
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/OpenAPITools/openapi-generator"
 author: "OpenAPITools"
 category: "Developer Tools"

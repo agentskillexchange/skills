@@ -3,7 +3,7 @@ name: "Process, redact, OCR, and sign documents with Nutrient Agent Skill"
 slug: "process-redact-ocr-and-sign-documents-with-nutrient-agent-skill"
 description: "Give coding agents one promptable workflow surface for OCR, extraction, redaction, form filling, conversion, and signing across document-heavy tasks."
 github_stars: 5
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/PSPDFKit-labs/nutrient-agent-skill"
 author: "PSPDFKit-labs"
 publisher_type: "organization"

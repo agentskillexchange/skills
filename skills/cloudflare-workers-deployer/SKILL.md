@@ -3,7 +3,7 @@ name: "Cloudflare Workers Deployer"
 slug: "cloudflare-workers-deployer"
 description: ""
 github_stars: 3970
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/cloudflare/workers-sdk"
 author: "cloudflare"
 category: "Templates & Workflows"

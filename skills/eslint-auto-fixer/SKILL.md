@@ -3,7 +3,7 @@ name: "ESLint Auto-Fixer"
 slug: "eslint-auto-fixer"
 description: "Applies ESLint fixes automatically using the ESLint Node.js API with flat config support. Handles rule conflicts across TypeScript-ESLint and eslint-plugin-react. Generates fix reports in SARIF format."
 github_stars: 27188
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/eslint/eslint"
 category: "Code Quality & Review"
 framework: "OpenClaw"

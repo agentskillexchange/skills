@@ -3,7 +3,7 @@ name: "Render HTML-native agent videos with slash-command workflows using HyperF
 slug: "render-html-native-agent-videos-with-slash-command-workflows-using-hyperframes"
 description: "Use agent-facing HyperFrames skills to turn prompts, PDFs, CSVs, or repo context into editable HTML video compositions and rendered MP4 outputs."
 github_stars: 9510
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/heygen-com/hyperframes"
 author: "HeyGen"
 publisher_type: "organization"

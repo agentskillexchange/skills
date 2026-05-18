@@ -3,7 +3,7 @@ name: "Prepare Rust Release PRs and Changelogs from Workspace Changes with relea
 slug: "prepare-rust-release-prs-and-changelogs-from-workspace-changes-with-release-plz"
 description: "Inspect Rust workspace changes, draft release PRs, bump versions, and assemble changelogs before publishing."
 github_stars: 1345
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/release-plz/release-plz"
 author: "release-plz"
 publisher_type: "organization"

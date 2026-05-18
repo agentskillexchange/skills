@@ -2,7 +2,7 @@
 name: "Diffbot Knowledge Graph Extractor"
 slug: "diffbot-knowledge-graph-extractor"
 description: "Extracts structured entities from web pages using the Diffbot Extraction API and Knowledge Graph. Supports article, product, and discussion extraction with automatic entity linking via DQL queries."
-verification: "security_reviewed"
+verification: "listed"
 source: "https://docs.diffbot.com/"
 author: "Diffbot"
 category: "Research & Scraping"

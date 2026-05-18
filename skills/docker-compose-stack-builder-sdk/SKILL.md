@@ -3,7 +3,7 @@ name: "Docker Compose Stack Builder"
 slug: "docker-compose-stack-builder-sdk"
 description: "Builds multi-service Docker Compose stacks using Docker Engine SDK for Python with automatic health check configuration and network isolation. Validates compose files against the Compose Specification v2.x and generates .env templates."
 github_stars: 71492
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/moby/moby"
 category: "Developer Tools"
 framework: "Gemini"

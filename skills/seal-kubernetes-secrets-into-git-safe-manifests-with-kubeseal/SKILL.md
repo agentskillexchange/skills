@@ -3,7 +3,7 @@ name: "Seal Kubernetes Secrets into Git-safe manifests with kubeseal"
 slug: "seal-kubernetes-secrets-into-git-safe-manifests-with-kubeseal"
 description: "Encrypt Kubernetes Secret manifests against a Sealed Secrets controller so agents can commit cluster-targeted secrets to Git without exposing plaintext."
 github_stars: 9045
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/bitnami-labs/sealed-secrets"
 author: "bitnami-labs"
 publisher_type: "organization"

@@ -3,7 +3,7 @@ name: "Run PostgreSQL backup restore and WAL recovery workflows with pgBackRest"
 slug: "run-postgresql-backup-restore-and-wal-recovery-workflows-with-pgbackrest"
 description: "Execute PostgreSQL backup, restore, verification, and point-in-time recovery runbooks with explicit repository and WAL handling."
 github_stars: 3729
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/pgbackrest/pgbackrest"
 author: "pgbackrest"
 publisher_type: "organization"

@@ -3,7 +3,7 @@ name: "jq Pipeline Builder Agent"
 slug: "jq-pipeline-builder-agent"
 description: "Constructs complex jq filter pipelines from natural language queries against JSON/NDJSON data streams. Uses jq built-in functions including path expressions, reduce, and SQL-style operators."
 github_stars: 34478
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/jqlang/jq"
 author: "jqlang"
 category: "Data Extraction & Transformation"

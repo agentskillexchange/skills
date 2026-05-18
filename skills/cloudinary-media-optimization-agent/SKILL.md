@@ -2,7 +2,7 @@
 name: "Cloudinary Media Optimization Agent"
 slug: "cloudinary-media-optimization-agent"
 description: "Automates image and video optimization workflows via the Cloudinary Upload and Admin APIs. Applies responsive breakpoints, format negotiation, and intelligent cropping with gravity detection."
-verification: "security_reviewed"
+verification: "listed"
 source: "https://cloudinary.com/documentation"
 author: "Cloudinary"
 category: "Image & Creative Automation"

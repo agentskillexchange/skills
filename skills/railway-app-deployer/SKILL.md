@@ -3,7 +3,7 @@ name: "Railway App Deployer"
 slug: "railway-app-deployer"
 description: ""
 github_stars: 523
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/railwayapp/cli"
 author: "Railway"
 category: "Templates & Workflows"

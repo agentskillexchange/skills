@@ -2,7 +2,7 @@
 name: "Plan Programmatic SEO Pages at Scale"
 slug: "plan-programmatic-seo-pages-at-scale"
 description: "Design template and data driven SEO page programs that can scale without collapsing into thin, duplicate, or low-intent content."
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/coreyhaines31/marketingskills/tree/main/skills/programmatic-seo"
 author: "coreyhaines31"
 publisher_type: "individual"

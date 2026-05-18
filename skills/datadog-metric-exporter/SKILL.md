@@ -3,7 +3,7 @@ name: "Datadog Metric Exporter"
 slug: "datadog-metric-exporter"
 description: "Exports custom metrics and traces to Datadog using the DogStatsD protocol and Datadog API v2. Supports histogram aggregation, tag-based filtering, and SLO tracking."
 github_stars: 791
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/DataDog/dd-trace-js"
 category: "Monitoring & Alerts"
 framework: "Gemini"

@@ -3,7 +3,7 @@ name: "Netlify Site Manager"
 slug: "netlify-site-manager"
 description: ""
 github_stars: 1843
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/netlify/cli"
 author: "netlify"
 category: "Templates & Workflows"

@@ -3,7 +3,7 @@ name: "Stress-test Python test suites with mutation runs from mutmut"
 slug: "stress-test-python-test-suites-with-mutation-runs-from-mutmut"
 description: "Use mutation testing to expose weak Python tests before merge or release by checking which code changes survive the current test suite."
 github_stars: 1259
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/boxed/mutmut"
 author: "boxed"
 publisher_type: "organization"

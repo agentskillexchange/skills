@@ -3,7 +3,7 @@ name: "Read and automate Slack workflows from a purpose-built agent CLI with age
 slug: "read-and-automate-slack-workflows-from-a-purpose-built-agent-cli-with-agent-slack"
 description: "Search channels, inspect threads, move files, and send or edit Slack messages through an agent-oriented CLI with structured output."
 github_stars: 382
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/stablyai/agent-slack"
 author: "stablyai"
 publisher_type: "organization"

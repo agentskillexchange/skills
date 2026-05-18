@@ -3,7 +3,7 @@ name: "Cypress Visual Regression Runner"
 slug: "cypress-visual-regression-runner"
 description: "Runs visual regression tests comparing screenshots captured via Cypress cy.screenshot() against baseline images using pixelmatch diffing. Integrates with Percy SDK for cross-browser visual snapshots."
 github_stars: 49617
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/cypress-io/cypress"
 category: "Browser Automation"
 framework: "Cursor"

@@ -2,7 +2,7 @@
 name: "Plaid Financial Data Connector"
 slug: "plaid-financial-data-connector"
 description: "Connects to bank accounts via Plaid Link SDK and retrieves transaction data using the Plaid Transactions API. Supports account balance polling, institution search, and webhook-driven sync."
-verification: "security_reviewed"
+verification: "listed"
 source: "https://plaid.com/docs/"
 author: "Plaid"
 category: "Integrations & Connectors"

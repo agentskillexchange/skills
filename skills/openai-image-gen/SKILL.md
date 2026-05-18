@@ -3,7 +3,7 @@ name: "OpenAI Image Gen"
 slug: "openai-image-gen"
 description: "Batch-generate images through the OpenAI Images API with a prompt sampler and gallery output."
 github_stars: 10910
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/openai/openai-node"
 author: "OpenAI"
 publisher_type: "open_source_collective"

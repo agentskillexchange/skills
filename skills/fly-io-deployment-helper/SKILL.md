@@ -3,7 +3,7 @@ name: "Fly.io Deployment Helper"
 slug: "fly-io-deployment-helper"
 description: ""
 github_stars: 1645
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/superfly/flyctl"
 author: "Fly.io"
 category: "Templates & Workflows"

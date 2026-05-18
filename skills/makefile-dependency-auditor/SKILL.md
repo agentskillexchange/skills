@@ -2,7 +2,7 @@
 name: "Makefile Dependency Auditor"
 slug: "makefile-dependency-auditor"
 description: "Parses GNU Makefiles using pymake and builds complete dependency DAGs. Detects circular dependencies, unreachable targets, missing prerequisites, and generates optimal parallel build orderings."
-verification: "security_reviewed"
+verification: "listed"
 source: "https://www.gnu.org/software/make/"
 category: "Developer Tools"
 framework: "Codex"

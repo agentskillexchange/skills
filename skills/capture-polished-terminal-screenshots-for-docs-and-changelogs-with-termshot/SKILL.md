@@ -3,7 +3,7 @@ name: "Capture polished terminal screenshots for docs and changelogs with termsh
 slug: "capture-polished-terminal-screenshots-for-docs-and-changelogs-with-termshot"
 description: "Render clean terminal screenshots with stable framing before publishing documentation, release notes, or runbooks."
 github_stars: 751
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/homeport/termshot"
 author: "homeport"
 publisher_type: "organization"

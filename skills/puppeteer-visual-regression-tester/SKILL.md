@@ -3,7 +3,7 @@ name: "Puppeteer Visual Regression Tester"
 slug: "puppeteer-visual-regression-tester"
 description: "Automates visual regression testing using Puppeteer page.screenshot() with pixelmatch diffing. Captures full-page screenshots at multiple viewport sizes and generates HTML diff reports with highlighted change regions."
 github_stars: 94115
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/puppeteer/puppeteer"
 author: "Puppeteer"
 category: "Browser Automation"

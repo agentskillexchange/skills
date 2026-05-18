@@ -3,7 +3,7 @@ name: "Run policy-driven Borg backups, checks, and restores from one config with
 slug: "run-policy-driven-borg-backups-checks-and-restores-from-one-config-with-borgmatic"
 description: "Use borgmatic to drive Borg backup, prune, check, and restore routines from a single declarative config so an agent can supervise backup runbooks instead of stitching raw commands by hand."
 github_stars: 2200
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/borgmatic-collective/borgmatic"
 author: "Borgmatic Collective"
 publisher_type: "open_source_project"

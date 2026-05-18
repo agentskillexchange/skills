@@ -3,7 +3,7 @@ name: "Apache Spark Job Manager"
 slug: "apache-spark-job-manager"
 description: ""
 github_stars: 43119
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/apache/spark"
 author: "apache"
 category: "Data Extraction & Transformation"

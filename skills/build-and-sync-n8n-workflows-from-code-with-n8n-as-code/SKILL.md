@@ -3,7 +3,7 @@ name: "Build and sync n8n workflows from code with n8n-as-code"
 slug: "build-and-sync-n8n-workflows-from-code-with-n8n-as-code"
 description: "Inspect n8n nodes and templates, generate typed workflow code, and sync automations through Git-friendly files instead of hand-editing workflow JSON."
 github_stars: 884
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/EtienneLescot/n8n-as-code"
 author: "Etienne Lescot"
 publisher_type: "individual"

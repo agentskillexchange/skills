@@ -3,7 +3,7 @@ name: "Jinja2 Infrastructure Template Engine"
 slug: "jinja2-infrastructure-template-engine"
 description: "Generates infrastructure-as-code configurations from Jinja2 templates with variable inheritance. Produces Terraform HCL, Ansible playbooks, and Kubernetes manifests from shared parameter files using hierarchical environment overlays."
 github_stars: 11585
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/pallets/jinja"
 author: "Pallets"
 category: "Templates & Workflows"

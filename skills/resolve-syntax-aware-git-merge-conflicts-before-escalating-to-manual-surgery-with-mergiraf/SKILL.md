@@ -2,7 +2,7 @@
 name: "Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf"
 slug: "resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf"
 description: "Use Mergiraf to let an agent attempt tree-aware conflict resolution during merge, rebase, revert, or cherry-pick before falling back to manual edits."
-verification: "security_reviewed"
+verification: "listed"
 source: "https://codeberg.org/mergiraf/mergiraf"
 author: "Mergiraf maintainers"
 publisher_type: "open_source_project"
@@ -26,7 +26,6 @@ Use the upstream install or setup path that matches your environment:
 
 Requirements and caveats from upstream:
 - This website requires JavaScript.
-- This PR changes GOVERNANCE.md, so it requires a vote (as per GOVERNANCE.md)
 
 Basic usage or getting-started notes:
 - chore(helpers/run.sh): clean-up ( #714 )

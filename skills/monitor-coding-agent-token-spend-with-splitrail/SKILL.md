@@ -3,7 +3,7 @@ name: "Monitor coding-agent token spend with Splitrail"
 slug: "monitor-coding-agent-token-spend-with-splitrail"
 description: "Track token burn, spend, and model mix across multiple coding-agent tools from one local monitoring workflow."
 github_stars: 159
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/Piebald-AI/splitrail"
 author: "Piebald AI"
 publisher_type: "organization"

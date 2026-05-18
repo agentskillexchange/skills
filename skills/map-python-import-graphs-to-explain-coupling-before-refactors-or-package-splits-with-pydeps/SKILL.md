@@ -3,7 +3,7 @@ name: "Map Python import graphs to explain coupling before refactors or package 
 slug: "map-python-import-graphs-to-explain-coupling-before-refactors-or-package-splits-with-pydeps"
 description: "Generate Python module dependency graphs so refactors and package splits start from an actual import map instead of guesswork."
 github_stars: 2076
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/thebjorn/pydeps"
 author: "thebjorn"
 publisher_type: "individual"

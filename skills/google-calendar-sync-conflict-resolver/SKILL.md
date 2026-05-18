@@ -2,7 +2,7 @@
 name: "Google Calendar Sync & Conflict Resolver"
 slug: "google-calendar-sync-conflict-resolver"
 description: "Bidirectional calendar synchronization using Google Calendar API v3 with OAuth 2.0. Detects scheduling conflicts across multiple calendars, suggests optimal meeting times using FreeBusy API queries."
-verification: "security_reviewed"
+verification: "listed"
 source: "https://developers.google.com/calendar/api"
 author: "Google"
 category: "Calendar, Email & Productivity"

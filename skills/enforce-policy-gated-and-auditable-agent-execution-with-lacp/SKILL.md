@@ -3,7 +3,7 @@ name: "Enforce policy-gated and auditable agent execution with LACP"
 slug: "enforce-policy-gated-and-auditable-agent-execution-with-lacp"
 description: "Run Claude, Codex, and related coding-agent tasks through policy gates, evidence loops, and auditable execution tiers before risky work proceeds."
 github_stars: 211
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/0xNyk/lacp"
 author: "0xNyk"
 publisher_type: "individual"

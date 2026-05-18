@@ -3,7 +3,7 @@ name: "OpenAPI Spec Validator & Linter"
 slug: "openapi-spec-validator-linter-2"
 description: "Validates OpenAPI 3.0/3.1 specifications using the @readme/openapi-parser and Spectral linter with custom rulesets. Detects missing descriptions, inconsistent naming conventions, and security scheme gaps in your API definitions."
 github_stars: 3084
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/stoplightio/spectral"
 author: "Stoplight"
 category: "Library & API Reference"

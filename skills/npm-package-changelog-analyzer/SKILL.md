@@ -2,7 +2,7 @@
 name: "NPM Package Changelog Analyzer"
 slug: "npm-package-changelog-analyzer"
 description: "Analyzes NPM package changelogs and release notes using the NPM Registry API and GitHub Releases API. Detects breaking changes, security patches, and dependency conflicts across package upgrade paths."
-verification: "security_reviewed"
+verification: "listed"
 source: "https://docs.npmjs.com/"
 category: "Library & API Reference"
 framework: "Cursor"

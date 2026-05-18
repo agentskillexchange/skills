@@ -2,7 +2,7 @@
 name: "GitHub Actions CI Pipeline Builder"
 slug: "github-actions-ci-pipeline-builder"
 description: "Generates and manages GitHub Actions workflows using the Workflow YAML syntax and GitHub REST API. Supports matrix builds, reusable workflows, and composite actions."
-verification: "security_reviewed"
+verification: "listed"
 source: "https://docs.github.com/en/actions"
 author: "GitHub"
 category: "CI/CD Integrations"

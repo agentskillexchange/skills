@@ -2,7 +2,7 @@
 name: "Incident Timeline Builder"
 slug: "incident-timeline-builder"
 description: "Constructs incident timelines from PagerDuty Events API v2, Datadog Monitors API, and Slack message archives. Correlates alerts with deployment events for root cause analysis."
-verification: "security_reviewed"
+verification: "listed"
 source: "https://developers.notion.com/"
 author: "Notion Labs"
 category: "Runbooks & Diagnostics"

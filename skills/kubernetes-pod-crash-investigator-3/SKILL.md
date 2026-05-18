@@ -3,7 +3,7 @@ name: "Kubernetes Pod Crash Investigator"
 slug: "kubernetes-pod-crash-investigator-3"
 description: "Diagnoses CrashLoopBackOff and OOMKilled pod failures using the Kubernetes API via kubectl and the official kubernetes-client/python SDK. Correlates container logs, resource limits, and node conditions for root cause analysis."
 github_stars: 121700
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/kubernetes/kubernetes"
 category: "Runbooks & Diagnostics"
 framework: "Codex"

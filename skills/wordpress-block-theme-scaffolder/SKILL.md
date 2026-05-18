@@ -2,7 +2,7 @@
 name: "WordPress Block Theme Scaffolder"
 slug: "wordpress-block-theme-scaffolder"
 description: "Generates complete WordPress block theme structures using theme.json v3, block patterns via register_block_pattern(), and template parts. Produces FSE-ready themes with proper style variations, typography presets, and wp_enqueue_block_editor_assets integration."
-verification: "security_reviewed"
+verification: "listed"
 source: "https://developer.wordpress.org/block-editor/"
 author: "WordPress"
 category: "WordPress & CMS"

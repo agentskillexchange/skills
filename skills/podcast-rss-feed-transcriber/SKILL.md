@@ -3,7 +3,7 @@ name: "Podcast RSS Feed Transcriber"
 slug: "podcast-rss-feed-transcriber"
 description: "Automatically fetches podcast episodes from RSS feeds using feedparser, downloads audio enclosures, and transcribes them through OpenAI Whisper API or local faster-whisper models. Generates timestamped SRT files and searchable markdown transcripts with speaker diarization via pyannote.audio."
 github_stars: 97391
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/openai/whisper"
 author: "openai"
 category: "Media & Transcription"

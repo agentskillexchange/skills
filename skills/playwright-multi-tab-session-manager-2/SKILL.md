@@ -3,7 +3,7 @@ name: "Playwright Multi-Tab Session Manager"
 slug: "playwright-multi-tab-session-manager-2"
 description: "Manages concurrent Playwright browser contexts with tab isolation and cookie partitioning. Uses Playwright BrowserContext API for parallel tab orchestration with SharedArrayBuffer synchronization."
 github_stars: 86409
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/microsoft/playwright"
 author: "microsoft"
 category: "Browser Automation"

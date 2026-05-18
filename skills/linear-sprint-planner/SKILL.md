@@ -2,7 +2,7 @@
 name: "Linear Sprint Planner"
 slug: "linear-sprint-planner"
 description: ""
-verification: "security_reviewed"
+verification: "listed"
 source: "https://linear.app/docs"
 author: "Linear"
 category: "Calendar, Email & Productivity"

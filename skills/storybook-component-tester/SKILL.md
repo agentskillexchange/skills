@@ -3,7 +3,7 @@ name: "Storybook Component Tester"
 slug: "storybook-component-tester"
 description: ""
 github_stars: 89914
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/storybookjs/storybook"
 author: "storybookjs"
 category: "Code Quality & Review"

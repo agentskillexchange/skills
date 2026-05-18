@@ -3,7 +3,7 @@ name: "ESLint Config Enforcer"
 slug: "eslint-config-enforcer"
 description: "Enforces consistent ESLint configurations across monorepo packages using eslint-config-inspector and flat config merging. Detects rule conflicts between shared configs, auto-generates override files, and reports compliance gaps via eslint --inspect-config."
 github_stars: 27188
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/eslint/eslint"
 category: "Code Quality & Review"
 framework: "Claude Code"

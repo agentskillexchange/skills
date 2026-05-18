@@ -3,7 +3,7 @@ name: "Benchmark and reduce Xcode clean and incremental build times with Xcode B
 slug: "benchmark-and-reduce-xcode-clean-and-incremental-build-times-with-xcode-build-optimization-agent-skill"
 description: "Benchmark clean and incremental Xcode builds, surface compile and configuration hotspots, and produce an approval-first optimization plan before changing project files."
 github_stars: 981
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/AvdLee/Xcode-Build-Optimization-Agent-Skill"
 author: "Antoine van der Lee"
 publisher_type: "open_source_project"

@@ -3,7 +3,7 @@ name: "Selenium Grid Session Distributor"
 slug: "selenium-grid-session-distributor"
 description: "Manages browser session allocation across Selenium Grid 4 nodes using the GraphQL status endpoint and SE_NODE_MAX_SESSIONS configuration. Implements weighted round-robin distribution with health-check-based failover for Chrome, Firefox, and Edge instances."
 github_stars: 34076
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/SeleniumHQ/selenium"
 category: "Browser Automation"
 framework: "Cursor"

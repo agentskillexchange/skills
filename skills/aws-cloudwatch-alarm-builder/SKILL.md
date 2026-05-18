@@ -3,7 +3,7 @@ name: "AWS CloudWatch Alarm Builder"
 slug: "aws-cloudwatch-alarm-builder"
 description: "Creates and manages CloudWatch alarms using the AWS SDK for JavaScript v3 (@aws-sdk/client-cloudwatch). Configures metric math expressions, composite alarms, and SNS notification routing via @aws-sdk/client-sns."
 github_stars: 3607
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/aws/aws-sdk-js-v3"
 category: "CI/CD Integrations"
 framework: "ChatGPT Agents"

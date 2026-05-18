@@ -2,8 +2,8 @@
 name: "Sentry for AI"
 slug: "sentry-for-ai"
 description: "Observability and debugging support for AI-assisted application workflows."
-github_stars: 176
-verification: "security_reviewed"
+github_stars: 177
+verification: "listed"
 source: "https://github.com/getsentry/sentry-for-ai"
 author: "Sentry"
 publisher_type: "company"
@@ -11,7 +11,7 @@ category: "Security & Verification"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "getsentry/sentry-for-ai"
-  github_stars: 176
+  github_stars: 177
 ---
 
 # Sentry for AI

@@ -3,7 +3,7 @@ name: "Metrics Dashboard Builder"
 slug: "metrics-dashboard-builder"
 description: ""
 github_stars: 103
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/DataDog/datadog-api-client-typescript"
 author: "Datadog"
 category: "Monitoring & Alerts"

@@ -3,7 +3,7 @@ name: "Give MCP agents disposable code execution sandboxes with OpenSandbox MCP"
 slug: "give-mcp-agents-disposable-code-execution-sandboxes-with-opensandbox-mcp"
 description: "Expose sandbox creation, command execution, and file operations to MCP-capable agents so they can run untrusted code inside disposable Docker or Kubernetes-backed runtimes."
 github_stars: 10207
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/alibaba/OpenSandbox"
 author: "Alibaba"
 publisher_type: "organization"
