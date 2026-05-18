@@ -1,13 +1,26 @@
 {
+  "generated_at": "2026-05-18T14:40:37Z",
   "source_api_base": "https://agentskillexchange.com",
-  "source_total": 2473,
-  "source_etag_or_hash": "sha256:ae4a3056a5324cc4cb8656a99f6b47609535880b0bc1252b48fb13a3bbacabac",
-  "generated": "2026-05-18",
+  "source_browse_endpoint": "https://agentskillexchange.com/wp-json/ase-marketplace/v1/browse",
+  "source_total": 2474,
+  "source_etag_or_hash": "sha256:3fd063895a1e75ffec9f55c0fecf5419d6541dbb88aa4dffe5224c88b24b02f5",
+  "generator_version": "2026-05-10.portable-sync-v1",
+  "generator_commit": "3fa5bdc87811",
+  "schema_version": "2.0",
   "generated_files": [
+    "README.md",
+    "CATALOG.md",
+    "categories/",
+    "industries/",
+    "TOP-STARS.md",
+    "TOP-DOWNLOADS.md",
     "skills.json",
     "openclaw.json",
     "codex.json",
-    "llms.txt"
-  ],
-  "generator": "scripts/sync-from-api.sh"
+    "llms.txt",
+    ".claude-plugin",
+    ".codex",
+    ".cursor-plugin",
+    ".opencode"
+  ]
 }

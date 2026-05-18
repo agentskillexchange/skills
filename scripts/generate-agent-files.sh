@@ -20,7 +20,10 @@ SITE_BASE = os.environ.get("ASE_SITE_BASE", os.environ.get("ASE_API_BASE", "http
 def get_total():
     req = urllib.request.Request(
         f"{SITE_BASE}/wp-json/wp/v2/skill?per_page=1",
-        headers={"User-Agent": "ASE Repo Generator"},
+        headers={
+            "User-Agent": "Mozilla/5.0 (compatible; ASE Repo Generator/1.0)",
+            "Accept": "application/json,text/plain,*/*",
+        },
         method="HEAD",
     )
     with urllib.request.urlopen(req, timeout=30) as resp:

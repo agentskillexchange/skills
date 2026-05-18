@@ -50,7 +50,10 @@ VER_LABEL = {
 }
 
 def fetch_json(url: str):
-    req = urllib.request.Request(url, headers={"User-Agent": "OpenClaw ASE Catalog Generator"})
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "Mozilla/5.0 (compatible; OpenClaw ASE Catalog Generator/1.0)",
+        "Accept": "application/json,text/plain,*/*",
+    })
     with urllib.request.urlopen(req, timeout=60) as resp:
         return json.loads(resp.read().decode("utf-8")), dict(resp.headers)
 

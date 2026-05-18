@@ -20,7 +20,10 @@ SITE_BASE = os.environ.get("ASE_SITE_BASE", os.environ.get("ASE_API_BASE", "http
 BROWSE_BASE = f"{SITE_BASE}/wp-json/ase-marketplace/v1/browse"
 
 def fetch_json(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "ASE Repo Generator"})
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "Mozilla/5.0 (compatible; ASE Repo Generator/1.0)",
+        "Accept": "application/json,text/plain,*/*",
+    })
     with urllib.request.urlopen(req, timeout=60) as resp:
         return json.loads(resp.read().decode("utf-8")), dict(resp.headers)
 
