@@ -1,9 +1,27 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-05-17",
-  "total": 2471,
+  "generated": "2026-05-18",
+  "total": 2473,
   "skills": [
+    {
+      "slug": "train-agent-policies-with-rllm-reinforcement-learning",
+      "name": "Train agent policies with rLLM reinforcement learning",
+      "title": "Train agent policies with rLLM reinforcement learning",
+      "description": "Use rLLM to evaluate, trace, reward, and train LLM agents with reinforcement learning across common agent frameworks.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
+    {
+      "slug": "build-java-agent-transport-gateways-with-atmosphere",
+      "name": "Build Java agent transport gateways with Atmosphere",
+      "title": "Build Java agent transport gateways with Atmosphere",
+      "description": "Use Atmosphere to build JVM agent gateways that stream over WebSocket, SSE, gRPC, WebTransport, MCP, A2A, and AG-UI with governance hooks.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
     {
       "slug": "install-superpowers-methodology-for-coding-agents",
       "name": "Install Superpowers methodology for coding agents",

@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-05-17
-# Total: 2471 skills
+# Generated: 2026-05-18
+# Total: 2473 skills
+
+## Train agent policies with rLLM reinforcement learning
+slug: train-agent-policies-with-rllm-reinforcement-learning
+category: Developer Tools
+framework: Multi-Framework
+verification: Published
+description: Use rLLM to evaluate, trace, reward, and train LLM agents with reinforcement learning across common agent frameworks.
+url: https://agentskillexchange.com/skills/train-agent-policies-with-rllm-reinforcement-learning/
+
+## Build Java agent transport gateways with Atmosphere
+slug: build-java-agent-transport-gateways-with-atmosphere
+category: Developer Tools
+framework: Multi-Framework
+verification: Published
+description: Use Atmosphere to build JVM agent gateways that stream over WebSocket, SSE, gRPC, WebTransport, MCP, A2A, and AG-UI with governance hooks.
+url: https://agentskillexchange.com/skills/build-java-agent-transport-gateways-with-atmosphere/
 
 ## Install Superpowers methodology for coding agents
 slug: install-superpowers-methodology-for-coding-agents

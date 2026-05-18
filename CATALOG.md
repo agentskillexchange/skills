@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2471 published skills** across **17 categories** · 2466 security reviewed · Updated 2026-05-17 19:26 UTC
+> **2473 published skills** across **17 categories** · 2466 security reviewed · Updated 2026-05-18 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (314 skills)
+### 🛠️ Developer Tools (316 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -236,6 +236,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Desktop Commander MCP Server for Terminal and File Control](skills/desktop-commander-mcp-terminal-file-control/) | Desktop Commander is an MCP server that gives AI assistants terminal command execution, file system search,… | Security Reviewed | 5.8k | — |
 | [Orval OpenAPI Client Regeneration Skill for Typed SDKs](skills/orval-openapi-client-regeneration-skill-typed-sdks/) | Use this skill when an agent needs to regenerate a typed API client from an OpenAPI spec, keep fetch clients aligned… | Security Reviewed | 5.7k | 1.1M/wk |
 | [Notion Workspace Agent](skills/notion-workspace-agent/) | Notion Workspace Agent is built around Notion workspace and database platform. The underlying ecosystem is… | Security Reviewed | 5.6k | 1.2M/wk |
+| [Train agent policies with rLLM reinforcement learning](skills/train-agent-policies-with-rllm-reinforcement-learning/) | Use rLLM to evaluate, trace, reward, and train LLM agents with reinforcement learning across common agent frameworks. | Published | 5.5k | — |
 | [git-absorb Automatic Fixup Commit Generator](skills/git-absorb-automatic-fixup-commit-generator/) | Automatically generates fixup commits by analyzing staged changes and matching them to the correct ancestor commits.… | Security Reviewed | 5.5k | — |
 | [Devcontainer Specification Builder](skills/devcontainer-specification-builder/) | Generates dev container specifications with feature composition and lifecycle hooks. Uses the Dev Container… | Security Reviewed | 5.4k | — |
 | [Wish SSH Application Framework by Charmbracelet](skills/wish-ssh-application-framework/) | Wish is a Go library for building SSH-accessible applications with sensible defaults and composable middleware. It… | Security Reviewed | 5.1k | — |
@@ -254,6 +255,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Run high-volume S3 copy, sync, and delete jobs faster than ad hoc aws s3 loops with s5cmd](skills/run-high-volume-s3-copy-sync-and-delete-jobs-faster-than-ad-hoc-aws-s3-loops-with-s5cmd/) | Execute large parallel object-store operations from command files or shell pipelines when agents need speed and… | Security Reviewed | 4k | — |
 | [Capture and search AI coding sessions alongside Git history with Entire CLI](skills/capture-and-search-ai-coding-sessions-alongside-git-history-with-entire-cli/) | Record AI coding sessions next to commits so an agent can recover why code changed, resume from checkpoints, and… | Security Reviewed | 4k | — |
 | [Wrangler Cloudflare Workers CLI for Edge Deployment](skills/wrangler-cloudflare-workers-cli-edge-deployment/) | Wrangler is the official command-line tool for building, testing, and deploying Cloudflare Workers. It provides a… | Security Reviewed | 4k | 14M/wk |
+| [Build Java agent transport gateways with Atmosphere](skills/build-java-agent-transport-gateways-with-atmosphere/) | Use Atmosphere to build JVM agent gateways that stream over WebSocket, SSE, gRPC, WebTransport, MCP, A2A, and AG-UI… | Published | 3.8k | — |
 | [AWS S3 MCP Server](skills/aws-s3-mcp-server/) | AWS S3 MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | 3.6k | 28M/wk |
 | [AWS Lambda MCP Server](skills/aws-lambda-mcp-server/) | AWS Lambda MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | 3.6k | 8.2M/wk |
 | [Cloud Cost Analysis](skills/cloud-cost-analysis/) | Cloud Cost Analysis is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | 3.6k | — |
