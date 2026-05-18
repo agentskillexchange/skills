@@ -26,19 +26,23 @@ claude-replay CLI or container, transcript files from a supported coding agent, 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install -g claude-replay
+- npx claude-replay
+- docker run --rm --init -p 7331:7331 \
+- docker run --rm --init \
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- ![Node.js](https://img.shields.io/badge/node-18%2B-green.svg)
+- ### Docker
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- **claude-replay** turns Claude Code, Cursor, Codex CLI, Gemini CLI, and OpenCode session logs into interactive, shareable HTML replays. The generated replay is a single self-contained HTML file with no external depend...
+- **Teaching** — step through AI reasoning and tool usage
+- bash
 
-```
-Install claude-replay from npm, run it against a supported session transcript or session ID, then export the generated HTML replay or open the web editor for review and packaging.
-```
+- Source: https://github.com/es617/claude-replay
+- Extracted from upstream docs: https://raw.githubusercontent.com/es617/claude-replay/HEAD/README.md
 
 ## Documentation
 

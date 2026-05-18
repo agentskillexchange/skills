@@ -3,7 +3,7 @@ name: "NestJS — Progressive Node.js Framework for Server-Side Applications"
 slug: "nestjs-progressive-nodejs-framework"
 description: "NestJS is a progressive Node.js framework built with TypeScript, inspired by Angular. It provides dependency injection, modular architecture, and supports REST, GraphQL, WebSockets, and microservices."
 github_stars: 75073
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/nestjs/nest"
 author: "Kamil Mysliwiec / NestJS"
 category: "Developer Tools"
@@ -23,19 +23,9 @@ Node.js 18+, npm or yarn, TypeScript
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-npm i -g @nestjs/cli && nest new my-project
-```
+- Source: https://github.com/nestjs/nest
 
 ## Documentation
 

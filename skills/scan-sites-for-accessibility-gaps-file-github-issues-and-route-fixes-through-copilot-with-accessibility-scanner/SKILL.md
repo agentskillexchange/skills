@@ -24,19 +24,17 @@ GitHub repository with Actions and Issues enabled, repository secret for a fine-
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- The a11y scanner requires a Personal Access Token (PAT) as a repository secret:
+- | login_url | No | If scanned pages require authentication, the URL of the login page | https://github.com/login |
+- | username | No | If scanned pages require authentication, the username to use for login | some-user |
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- | Input | Required | Description | Example |
+- | base_url | No | GitHub API base URL used by Octokit. Set this for GitHub Enterprise Server (format: https://HOSTNAME/api/v3). Defaults to https://api.github.com | https://ghe.example.com/api/v3 |
 
-Install command or upstream instructions:
-
-```
-Add the documented GitHub Actions workflow to the target repository, configure the required token secret and scan inputs, then run the action manually or on the chosen trigger to create issues from accessibility findings.
-```
+- Source: https://github.com/github/accessibility-scanner
+- Extracted from upstream docs: https://raw.githubusercontent.com/github/accessibility-scanner/HEAD/README.md
 
 ## Documentation
 

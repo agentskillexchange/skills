@@ -18,13 +18,22 @@ MoviePy is a Python library for video editing — cuts, concatenations, title in
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Intall moviepy with pip install moviepy. For additional installation options, such as a custom FFMPEG or for previewing, see [this section](https://zulko.github.io/moviepy/getting_started/install.html). For developmen...
+- The online documentation ([here](https://zulko.github.io/moviepy/)) is automatically built at every push to the master branch. To build the documentation locally, install the extra dependencies via pip install "moviep...
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![MoviePy page on the Python Package Index](https://badge.fury.io/py/moviepy.svg)](https://pypi.org/project/moviepy/) [![Discuss MoviePy on Gitter](https://img.shields.io/gitter/room/movie-py/gitter?color=46BC99&logo...
+- MoviePy (online documentation [here](https://zulko.github.io/moviepy/)) is a Python library for video editing: cuts, concatenations, title insertions, video compositing (a.k.a. non-linear editing), video processing, a...
+- MoviePy can read and write all the most common audio and video formats, including GIF, and runs on Windows/Mac/Linux, with Python 3.9+.
+
+Basic usage or getting-started notes:
+- # Example
+- In this example we open a video file, select the subclip between 10 and
+- # Load file example.mp4 and keep only the subclip from 00:00:10 to 00:00:20
+
+- Source: https://github.com/Zulko/moviepy
+- Extracted from upstream docs: https://raw.githubusercontent.com/Zulko/moviepy/HEAD/README.md
 
 ## Source
 

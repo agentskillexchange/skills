@@ -18,13 +18,23 @@ SLSA Verifier is the official tool from the SLSA framework for verifying build p
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ go install github.com/slsa-framework/slsa-verifier/v2/cli/slsa-verifier@v2.7.1
+- $ go install github.com/slsa-framework/slsa-verifier/v2/cli/slsa-verifier
+- $ git clone git@github.com:slsa-framework/slsa-verifier.git
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [npm packages built using the SLSA3 Node.js builder](#npm-packages-built-using-the-slsa3-nodejs-builder)
+- | source-branch | Expects a branch like main or dev. Not supported for all GitHub Workflow triggers. | [GitHub builders](https://github.com/slsa-framework/slsa-github-generator#generation-of-provenance) |
+- #### npm packages built using the SLSA3 Node.js builder
+
+Basic usage or getting-started notes:
+- You have two options to install the verifier.
+- ### Compilation from source
+- #### Option 1: Install via go
+
+- Source: https://github.com/slsa-framework/slsa-verifier
+- Extracted from upstream docs: https://raw.githubusercontent.com/slsa-framework/slsa-verifier/HEAD/README.md
 
 ## Source
 

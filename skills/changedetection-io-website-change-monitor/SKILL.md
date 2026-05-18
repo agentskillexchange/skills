@@ -18,13 +18,24 @@ changedetection.io is an open-source, self-hosted tool for monitoring websites f
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ docker compose up -d
+- Docker standalone
+- $ docker run -d --restart always -p "127.0.0.1:5000:5000" -v datastore-volume:/datastore --name changedetection.io dgtlmoon/changedetection.io
+- docker pull dgtlmoon/changedetection.io
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Release Version][release-shield]][release-link] [![Docker Pulls][docker-pulls]][docker-link] [![License][license-shield]](LICENSE.md)
+- Requires Playwright to be enabled.
+- ### Docker
+
+Basic usage or getting-started notes:
+- Works with any model you already pay for — GPT-4o-mini and Gemini Flash handle this well at fractions of a cent per check. Or run it entirely locally with **Ollama**, **vLLM**, **LM Studio**, or any **OpenAI-compatibl...
+- After **Browser Steps** have been run, then visit the **Visual Selector** tab to refine the content you're interested in.
+- ### Example use cases
+
+- Source: https://github.com/dgtlmoon/changedetection.io
+- Extracted from upstream docs: https://raw.githubusercontent.com/dgtlmoon/changedetection.io/HEAD/README.md
 
 ## Source
 

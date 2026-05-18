@@ -24,19 +24,21 @@ Python and a mail ingestion source such as IMAP, Gmail API, Graph API, or a help
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install mail-parser-reply
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Python](https://img.shields.io/badge/Made%20with-Python%203.x-blue.svg?style=flat-square&logo=Python&logoColor=white)](https://www.python.org/)
+- This is an improved Python implementation of GitHub's Ruby-based [email_reply_parser](https://github.com/github/email_reply_parser/)
+- python -m unittest discover test
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- For example, it can turn the following email:
+- It should run much faster now. Can you double-check?
+- bash
 
-```
-pip install mail-parser-reply
-```
+- Source: https://github.com/alfonsrv/mail-parser-reply
+- Extracted from upstream docs: https://raw.githubusercontent.com/alfonsrv/mail-parser-reply/HEAD/README.md
 
 ## Documentation
 

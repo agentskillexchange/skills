@@ -24,19 +24,24 @@ Node.js, npm, a WordPress site with REST API enabled, and a WordPress applicatio
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install -g mcp-wordpress
+- npx -y mcp-wordpress
+- npm run setup
+- RUN npm ci --only=production
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Docker Pulls](https://img.shields.io/docker/pulls/docdyhr/mcp-wordpress?logo=docker&logoColor=white)](https://hub.docker.com/r/docdyhr/mcp-wordpress)
+- [![Docker](https://img.shields.io/badge/docker-ready-blue?logo=docker&logoColor=white)](https://hub.docker.com/r/docdyhr/mcp-wordpress)
+- 🐳 **[Docker Setup](docs/user-guides/DOCKER_SETUP.md)** - Production deployment
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [Quick Start](#-quick-start) • [Why This MCP Server?](#-why-this-mcp-server)
+- ## 🚀 Quick Start
+- **WordPress**: Version 5.6+ with REST API enabled
 
-```
-npm install -g mcp-wordpress
-```
+- Source: https://github.com/docdyhr/mcp-wordpress
+- Extracted from upstream docs: https://raw.githubusercontent.com/docdyhr/mcp-wordpress/HEAD/README.md
 
 ## Documentation
 

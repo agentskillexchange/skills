@@ -26,19 +26,22 @@ jwt-cli
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew install mike-engel/jwt-cli/jwt-cli
+- cargo install jwt-cli
+- cargo test
+- cargo run -- help
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Currently the underlying token encoding and decoding library, [jsonwebtoken](https://github.com/Keats/jsonwebtoken), doesn't support the SEC1 private key format and requires a conversion to the PKCS8 type. You can rea...
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- You may also install the binary from the [release](https://github.com/mike-engel/jwt-cli/releases) page, if you're unable to use Homebrew or Cargo install methods below.
+- Only 64bit linux, macOS, and Windows targets are pre-built. Sorry if you're not on one of those! You'll need to build it from the source. See the [contributing](#contributing) section on how to install and build the p...
+- You should install it somewhere in your $PATH. For Linux and macOS, a good place is generally /usr/local/bin. For Windows, there isn't a good place by default :(.
 
-```
-Install the jwt-cli package from npm, then provide JWTs and the relevant secret or key material when decoding, signing, or verifying tokens.
-```
+- Source: https://github.com/mike-engel/jwt-cli
+- Extracted from upstream docs: https://raw.githubusercontent.com/mike-engel/jwt-cli/HEAD/README.md
 
 ## Documentation
 

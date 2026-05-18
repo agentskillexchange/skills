@@ -24,19 +24,24 @@ FHIR-compatible backend, MCP client, authentication credentials, privacy/complia
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/the-momentum/fhir-mcp-server
+- make build
+- make uv
+- Make sure to replace <your-project-path> with the actual path to your installation
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [🐳 Docker Setup](#-docker-setup)
+- **🐳 Container Ready**: Docker support for easy deployment and scaling
+- **Docker (recommended) or uv**: For dependency management
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [🚀 Getting Started](#-getting-started)
+- [📝 Usage](#-usage)
+- ## 🚀 Getting Started
 
-```
-Follow the repository setup instructions, configure the target FHIR server and authentication, then test only against approved development or de-identified data before production use.
-```
+- Source: https://github.com/the-momentum/fhir-mcp-server
+- Extracted from upstream docs: https://raw.githubusercontent.com/the-momentum/fhir-mcp-server/HEAD/README.md
 
 ## Documentation
 

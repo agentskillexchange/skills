@@ -2,7 +2,7 @@
 name: "Database Migration Validator"
 slug: "database-migration-validator"
 description: "Validates SQL database migrations for safety using pg_stat_statements analysis and pt-online-schema-change dry-run mode. Checks for long-running locks, missing indexes on foreign keys, and backward-incompatible column changes."
-verification: "security_reviewed"
+verification: "listed"
 source: "https://www.postgresql.org/"
 author: "PostgreSQL Global Development Group"
 category: "Runbooks & Diagnostics"
@@ -15,13 +15,9 @@ Validates SQL database migrations for safety using pg_stat_statements analysis a
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://www.postgresql.org/
 
 ## Documentation
 

@@ -24,19 +24,18 @@ Slack app, MCP server connections for monitoring tools, Python runtime, OpenAI k
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install uv
+- uv sync
+- uv run python app.py
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- There are multiple types of AI as well as non-AI automations that you can setup using this toolkit. For example:
+- Run your local server: Start your application on a port (e.g., port 5000)
+- Create the tunnel: Run ngrok http 5000
 
-Install command or upstream instructions:
-
-```
-pip install uv && uv sync && uv run python app.py
-```
+- Source: https://github.com/DrDroidLab/sample-debug-agent
+- Extracted from upstream docs: https://raw.githubusercontent.com/DrDroidLab/sample-debug-agent/HEAD/README.md
 
 ## Documentation
 

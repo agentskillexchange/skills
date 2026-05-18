@@ -24,19 +24,18 @@ kube-bench binary or container image, access to Kubernetes nodes or cluster cont
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- [![Docker Pulls][docker-pull]][docker]
+- [docker-pull]: https://img.shields.io/docker/pulls/aquasec/kube-bench?logo=docker&label=docker%20pulls%20%2F%20kube-bench
+- [docker]: https://hub.docker.com/r/aquasec/kube-bench
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- There are multiple ways to run kube-bench.
+- You can run kube-bench inside a pod, but it will need access to the host's PID namespace in order to check the running processes, as well as access to some directories on the host where config files and other files ar...
+- The supplied job.yaml [file](job.yaml) can be applied to run the tests as a job. For example:
 
-Install command or upstream instructions:
-
-```
-Install kube-bench from the upstream release or container image, run it with the documented permissions against the target nodes or cluster, then review the generated CIS control findings and remediation guidance.
-```
+- Source: https://github.com/aquasecurity/kube-bench
+- Extracted from upstream docs: https://raw.githubusercontent.com/aquasecurity/kube-bench/HEAD/README.md
 
 ## Documentation
 

@@ -18,13 +18,22 @@ Profiles and optimizes Snowflake SQL queries using the Snowflake Information Sch
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone git@github.com:snowflakedb/snowflake-connector-python.git
+- python -m pip install -U pip setuptools wheel build
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- # Snowflake Connector for Python
+- [![Build and Test](https://github.com/snowflakedb/snowflake-connector-python/actions/workflows/build_test.yml/badge.svg)](https://github.com/snowflakedb/snowflake-connector-python/actions/workflows/build_test.yml)
+- [![codecov](https://codecov.io/gh/snowflakedb/snowflake-connector-python/branch/main/graph/badge.svg?token=MVKSNtnLr0)](https://codecov.io/gh/snowflakedb/snowflake-connector-python)
+
+Basic usage or getting-started notes:
+- to create a wheel package using PEP-517 build:
+- shell
+- Find the snowflake_connector_python*.whl package in the ./dist directory.
+
+- Source: https://github.com/snowflakedb/snowflake-connector-python
+- Extracted from upstream docs: https://raw.githubusercontent.com/snowflakedb/snowflake-connector-python/HEAD/README.md
 
 ## Source
 

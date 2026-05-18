@@ -24,19 +24,16 @@ SWE-agent; Python environment; Git repository or GitHub issue; model API credent
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- July 24: [Mini-SWE-Agent](https://github.com/SWE-agent/mini-SWE-agent) achieves 65% on SWE-bench verified in 100 lines of python!
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- [fix issues in real GitHub repositories](https://swe-agent.com/latest/usage/hello_world),
+- [perform any custom task](https://swe-agent.com/latest/usage/coding_challenges).
+- [Hello world from the command line](https://swe-agent.com/latest/usage/hello_world/)
 
-Install command or upstream instructions:
-
-```
-Follow the SWE-agent documentation to install the CLI, configure a model, point it at a repository issue or task, run the agent, then review and test the generated patch before merging.
-```
+- Source: https://github.com/SWE-agent/SWE-agent
+- Extracted from upstream docs: https://raw.githubusercontent.com/SWE-agent/SWE-agent/HEAD/README.md
 
 ## Documentation
 

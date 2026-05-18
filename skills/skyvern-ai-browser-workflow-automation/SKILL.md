@@ -18,13 +18,24 @@ Skyvern automates browser-based workflows using LLMs and computer vision. It pro
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install skyvern
+- git clone https://github.com/skyvern-ai/skyvern.git && cd skyvern
+- docker compose up -d
+- pip install --upgrade skyvern # 1.0.32+ contains the fix
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [Python 3.11.x](https://www.python.org/downloads/), works with 3.12, not ready yet for 3.13
+- ### Option B: Docker Compose
+- Use this option if you want everything containerized (Postgres, API, UI) and don't want to install Python/Node locally.
+
+Basic usage or getting-started notes:
+- ## Skyvern Cloud
+- [Skyvern Cloud](https://app.skyvern.com) is a managed cloud version of Skyvern that allows you to run Skyvern without worrying about the infrastructure. It allows you to run multiple Skyvern instances in parallel and...
+- If you'd like to try it out, navigate to [app.skyvern.com](https://app.skyvern.com) and create an account.
+
+- Source: https://github.com/Skyvern-AI/skyvern
+- Extracted from upstream docs: https://raw.githubusercontent.com/Skyvern-AI/skyvern/HEAD/README.md
 
 ## Source
 

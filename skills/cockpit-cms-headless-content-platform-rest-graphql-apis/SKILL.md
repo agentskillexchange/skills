@@ -24,19 +24,21 @@ PHP 8.3+, SQLite or MongoDB, Apache or Nginx, Docker optional
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- docker run -d \
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- ### Option 2: Docker (Recommended)
+- ## 🐳 Docker
+- # docker-compose.yml
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- ## 🚀 Quick Start
+- # Run Cockpit with persistent storage
+- Run Cockpit in containers for consistent, scalable deployments across any environment.
 
-```
-docker run -d --name cockpit -p 8080:80 -v cockpit_storage:/var/www/html/storage cockpithq/cockpit:core-latest
-```
+- Source: https://github.com/Cockpit-HQ/Cockpit
+- Extracted from upstream docs: https://raw.githubusercontent.com/Cockpit-HQ/Cockpit/HEAD/README.md
 
 ## Documentation
 

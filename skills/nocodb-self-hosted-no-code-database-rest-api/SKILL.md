@@ -20,13 +20,21 @@ NocoDB turns any SQL database into a smart spreadsheet with a full REST API. It 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- docker run -d \
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- ## Docker with SQLite
+- ## Docker with PG
+- -e NC_DB="pg://host.docker.internal:5432?u=root&p=password&d=d1" \
+
+Basic usage or getting-started notes:
+- bash
+- --name noco \
+- -v "$(pwd)"/nocodb:/usr/app/data/ \
+
+- Source: https://github.com/nocodb/nocodb
+- Extracted from upstream docs: https://raw.githubusercontent.com/nocodb/nocodb/HEAD/README.md
 
 ## Source
 

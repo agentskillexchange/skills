@@ -24,19 +24,24 @@ Git, supported XML or LCov coverage report, Python 3, pip
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install diff-cover
+- git clone https://github.com/Bachmann1234/diff-cover.git
+- make a pull request from your fork.
+- pip install poetry
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Currently, diff-cover requires that:
+- coverage.py__ (Python)
+- poetry manages a python virtual environment and organizes dependencies. It also
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- ------------
+- To install the latest release:
+- .. code:: bash
 
-```
-pip install diff-cover
-```
+- Source: https://github.com/Bachmann1234/diff_cover
+- Extracted from upstream docs: https://raw.githubusercontent.com/Bachmann1234/diff_cover/HEAD/README.rst
 
 ## Documentation
 

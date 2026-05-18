@@ -14,13 +14,17 @@ Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks 
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- In the following example, "mandatory" is a vector that must contain
+- If the server successfully selects parameters and does not require a
+- may require rejecting 0-RTT (see Section 4.2.10 ).
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- 5.5 . Limits on Key Usage ....................................... 84
+- of protocols that run on top of TLS.
+- following example) is formed (using C notation) by:
+
+- Source: https://datatracker.ietf.org/doc/html/rfc8446
 
 ## Source
 

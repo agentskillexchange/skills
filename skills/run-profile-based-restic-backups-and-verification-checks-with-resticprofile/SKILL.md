@@ -24,19 +24,13 @@ resticprofile, restic, configured backup backend credentials
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- Create groups of profiles to run sequentially
+- Run the forget command before or after a backup (in a section called *retention*)
+- Run shell commands before or after running a profile, useful for mounting and unmounting backup disks
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Install restic and resticprofile, define one or more profiles in the config file, then run commands like `resticprofile backup`, `resticprofile check`, or a named profile operation.
-```
+- Source: https://github.com/creativeprojects/resticprofile
+- Extracted from upstream docs: https://raw.githubusercontent.com/creativeprojects/resticprofile/HEAD/README.md
 
 ## Documentation
 

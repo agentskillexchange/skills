@@ -26,19 +26,24 @@ Node.js, an MCP-compatible client, and access to an AFFiNE Cloud or self-hosted 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm i -g affine-mcp-server
+- npx -y -p affine-mcp-server affine-mcp -- --version
+- docker run -d \
+- npm run build
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Includes Docker images, health probes, and end-to-end test coverage
+- AFFiNE Cloud requires API-token-based access for MCP usage; programmatic email/password sign-in is blocked by Cloudflare
+- | Run the server in Docker or another OCI runtime | [docs/getting-started.md#path-c-run-from-the-docker-image](docs/getting-started.md#path-c-run-from-the-docker-image) |
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [Quick Start](#quick-start)
+- Run a local stdio MCP server for Claude Code, Codex CLI, Cursor, or Claude Desktop
+- | Run the server remotely over HTTP or behind OAuth | [docs/configuration-and-deployment.md](docs/configuration-and-deployment.md) |
 
-```
-<p>Install with <code>npm i -g affine-mcp-server</code> or run it ad hoc with <code>npx -y -p affine-mcp-server affine-mcp</code>. Authenticate with <code>affine-mcp login</code>, then add <code>affine-mcp</code> to your MCP client configuration for stdio transport, or run the published Docker image when you need an HTTP MCP endpoint.</p>
-```
+- Source: https://github.com/DAWNCR0W/affine-mcp-server
+- Extracted from upstream docs: https://raw.githubusercontent.com/DAWNCR0W/affine-mcp-server/HEAD/README.md
 
 ## Documentation
 

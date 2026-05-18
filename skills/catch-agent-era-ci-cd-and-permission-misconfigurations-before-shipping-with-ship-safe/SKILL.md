@@ -26,19 +26,19 @@ Node.js or package runner, repository or CI config to scan
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx ship-safe
+- npx ship-safe audit .
+- npx ship-safe agent .
+- npx ship-safe agent . --severity critical # critical findings only
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- bash
+- # Interactive REPL — scan, fix, ask questions in one session
+- # Full audit: secrets + 23 agents + deps + remediation plan
 
-Install command or upstream instructions:
-
-```
-Install Ship Safe from its published package or run it from the repo, then execute a scan against the target repository before merge or deployment and review the findings as a release gate.
-```
+- Source: https://github.com/asamassekou10/ship-safe
+- Extracted from upstream docs: https://raw.githubusercontent.com/asamassekou10/ship-safe/HEAD/README.md
 
 ## Documentation
 

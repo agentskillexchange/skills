@@ -24,19 +24,23 @@ Mailrise daemon or Docker image; Apprise configuration
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install -e .[testing]
+- make use of variables that communicate information about the email message. Use
+- docker-compose.yml:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- .. |docker| image:: https://badgen.net/docker/pulls/yoryan/mailrise
+- :alt: Docker pulls
+- |docker| |commit| |checks|
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- A minimalist Mailrise configuration, for example, might contain a single Apprise
+- ============
+- ---------------------
 
-```
-Deploy Mailrise from the upstream repository or official Docker image, provide a Mailrise configuration that references one or more Apprise configs, then point SMTP-only alert senders at the Mailrise host and route by recipient address pattern.
-```
+- Source: https://github.com/YoRyan/mailrise
+- Extracted from upstream docs: https://raw.githubusercontent.com/YoRyan/mailrise/HEAD/README.rst
 
 ## Documentation
 

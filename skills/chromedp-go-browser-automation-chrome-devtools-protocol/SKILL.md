@@ -18,13 +18,18 @@ This skill turns chromedp into a repeatable browser automation workflow for Go t
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- [chromedp/headless-shell][docker-headless-shell] image. That image contains
+- [headless-shell][docker-headless-shell] - A build of headless-shell that is used for testing chromedp
+- [docker-headless-shell]: https://hub.docker.com/r/chromedp/headless-shell/
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- sh
+- $ go get -u github.com/chromedp/chromedp
+- ## Examples
+
+- Source: https://github.com/chromedp/chromedp
+- Extracted from upstream docs: https://raw.githubusercontent.com/chromedp/chromedp/HEAD/README.md
 
 ## Source
 

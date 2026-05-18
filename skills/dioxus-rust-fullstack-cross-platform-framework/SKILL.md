@@ -18,13 +18,18 @@ Dioxus is a fullstack app framework for Rust that enables building cross-platfor
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- cargo run --example <example>
+- However, we encourage you to download the dioxus-cli to test out features like hot-reloading. To install the most recent binary CLI, you can use cargo binstall.
+- cargo install --git https://github.com/DioxusLabs/dioxus dioxus-cli --locked
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Render using web-sys, webview, server-side-rendering, liveview, or even with our experimental WGPU-based renderer. Embed Dioxus in Bevy, WGPU, or even run on embedded Linux!
+- Dioxus is the fastest way to build native mobile apps with Rust. Simply run dx serve --platform android and your app is running in an emulator or on device in seconds. Call directly into JNI and Native APIs.
+- Simply run dx bundle and your app will be built and bundled with maximization optimizations. On the web, take advantage of [.avif generation, .wasm compression, minification](https://dioxuslabs.com/learn/0.7/tutorial/...
+
+- Source: https://github.com/DioxusLabs/dioxus
+- Extracted from upstream docs: https://raw.githubusercontent.com/DioxusLabs/dioxus/HEAD/README.md
 
 ## Source
 

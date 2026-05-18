@@ -24,19 +24,23 @@ Python 3, pipx or uv optional
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pipx install https://github.com/cybozu/prompt-hardener/releases/download/v0.6.0/prompt_hardener-0.6.0-py3-none-any.whl
+- Recommended if you already use uv for Python tooling.
+- uv tool install https://github.com/cybozu/prompt-hardener/releases/download/v0.6.0/prompt_hardener-0.6.0-py3-none-any.whl
+- pip install https://github.com/cybozu/prompt-hardener/releases/download/v0.6.0/prompt_hardener-0.6.0-py3-none-any.whl
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- **Deterministic first**: init, validate, analyze, report, and diff do not require an LLM API key
+- Use this if you prefer a standard Python environment.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- run deterministic security analysis across prompt, tool, and architecture layers
+- Choose the installation method that fits how you want to use Prompt Hardener.
+- ### Using [pipx](https://pipx.pypa.io/)
 
-```
-Install from the published wheel with `pipx install https://github.com/cybozu/prompt-hardener/releases/download/v0.6.0/prompt_hardener-0.6.0-py3-none-any.whl` or use `uv tool install ...`, copy or write `agent_spec.yaml`, then run `prompt-hardener validate agent_spec.yaml` and `prompt-hardener analyze agent_spec.yaml`.
-```
+- Source: https://github.com/cybozu/prompt-hardener
+- Extracted from upstream docs: https://raw.githubusercontent.com/cybozu/prompt-hardener/HEAD/README.md
 
 ## Documentation
 

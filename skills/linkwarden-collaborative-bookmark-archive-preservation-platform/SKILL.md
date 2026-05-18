@@ -19,13 +19,14 @@ Linkwarden is an open source bookmark and web archiving platform for saving, org
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Make sure to check out our [public roadmap](https://github.com/orgs/linkwarden/projects/1).
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- ⬆️ Upload from SingleFile (check out the [guide](https://docs.linkwarden.app/Usage/upload-from-singlefile))
+
+- Source: https://github.com/linkwarden/linkwarden
+- Extracted from upstream docs: https://raw.githubusercontent.com/linkwarden/linkwarden/HEAD/README.md
 
 ## Documentation
 

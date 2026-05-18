@@ -18,13 +18,24 @@ dotenvx is a secure, cross-platform environment variable manager from the creato
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install @dotenvx/dotenvx --save
+- npm i -g @dotenvx/dotenvx
+- brew install dotenvx/brew/dotenvx
+- docker run -it --rm -v $(pwd):/app dotenv/dotenvx encrypt
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- require('@dotenvx/dotenvx').config()
+- <details><summary>with docker 🐳</summary><br>
+- [![docker pulls](https://img.shields.io/docker/pulls/dotenv/dotenvx)](https://hub.docker.com/r/dotenv/dotenvx)
+
+Basic usage or getting-started notes:
+- run anywhere (cross-platform)
+- sh
+- js
+
+- Source: https://github.com/dotenvx/dotenvx
+- Extracted from upstream docs: https://raw.githubusercontent.com/dotenvx/dotenvx/HEAD/README.md
 
 ## Source
 

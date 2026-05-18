@@ -18,13 +18,24 @@ Magika is Google's AI-powered file type detector for fast, content-based identif
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pipx install magika
+- brew install magika
+- cargo install --locked magika-cli
+- pip install magika
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![image](https://img.shields.io/pypi/v/magika.svg)](https://pypi.python.org/pypi/magika)
+- [![image](https://img.shields.io/pypi/l/magika.svg)](https://pypi.python.org/pypi/magika)
+- [![image](https://img.shields.io/pypi/pyversions/magika.svg)](https://pypi.python.org/pypi/magika)
+
+Basic usage or getting-started notes:
+- Here is an example of what Magika command line output looks like:
+- Magika is used at scale to help improve Google users' safety by routing Gmail, Drive, and Safe Browsing files to the proper security and content policy scanners, processing hundreds billions samples on a weekly basis....
+- After the model is loaded (which is a one-off overhead), the inference time is about 5ms per file, even when run on a single CPU.
+
+- Source: https://github.com/google/magika
+- Extracted from upstream docs: https://raw.githubusercontent.com/google/magika/HEAD/README.md
 
 ## Source
 

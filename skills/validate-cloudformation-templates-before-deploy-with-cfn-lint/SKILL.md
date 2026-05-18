@@ -24,19 +24,24 @@ Python or cfn-lint binary, CloudFormation templates
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install cfn-lint. If pip is not available, run
+- brew install cfn-lint
+- docker build --tag cfn-lint:latest .
+- docker run --rm -v pwd:/data cfn-lint:latest /data/template.yaml
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <img alt="[cfn-lint logo]" src="https://github.com/aws-cloudformation/cfn-python-lint/blob/main/logo.png?raw=true" width="150" align="right">
+- [![codecov](https://codecov.io/gh/aws-cloudformation/cfn-lint/branch/main/graph/badge.svg)](https://codecov.io/gh/aws-cloudformation/cfn-python-lint)
+- Python 3.10 to 3.14 are supported.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- _To get information about the [SAM Transformation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/transform-aws-serverless.html), run the linter with --info_
+- ### Pip
+- #### Optional dependencies
 
-```
-Install with `pip install cfn-lint` or use the project binaries, then run `cfn-lint` on the template files before review, CI, or deployment.
-```
+- Source: https://github.com/aws-cloudformation/cfn-lint
+- Extracted from upstream docs: https://raw.githubusercontent.com/aws-cloudformation/cfn-lint/HEAD/README.md
 
 ## Documentation
 

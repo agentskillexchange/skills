@@ -24,19 +24,21 @@ Python environment, Haystack pipeline definitions, hayhooks package, network acc
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install hayhooks
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/hayhooks.svg)](https://pypi.org/project/hayhooks)
+- [![Docker image release](https://github.com/deepset-ai/hayhooks/actions/workflows/docker.yml/badge.svg)](https://github.com/deepset-ai/hayhooks/actions/workflows/docker.yml)
+- python
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- 🖥️ **Embed a [Chainlit](https://chainlit.io/) chat UI** directly in Hayhooks with pip install "hayhooks[chainlit]" and hayhooks run --with-chainlit -- zero-configuration frontend with streaming, pipeline selection, an...
+- 🕹️ **Control Hayhooks core API endpoints through chat** - deploy, undeploy, list, or run Haystack pipelines and agents by chatting with [Claude Desktop](https://claude.ai/download), [Cursor](https://cursor.com), or an...
+- 📈 **Trace Hayhooks lifecycle actions with OpenTelemetry** (pip install "hayhooks[tracing]") for deploy/run/undeploy visibility across REST and MCP, with a /dashboard UI via hayhooks run --with-tracing-dashboard (backe...
 
-```
-Install hayhooks in a Python environment, prepare the pipeline wrapper and pipeline definition files described upstream, then run the Hayhooks server and deploy the target pipeline as an endpoint.
-```
+- Source: https://github.com/deepset-ai/hayhooks
+- Extracted from upstream docs: https://raw.githubusercontent.com/deepset-ai/hayhooks/HEAD/README.md
 
 ## Documentation
 

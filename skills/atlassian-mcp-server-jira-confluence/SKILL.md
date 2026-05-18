@@ -18,13 +18,16 @@ mcp-atlassian is a Model Context Protocol server that connects AI assistants to 
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- | [Installation](https://mcp-atlassian.soomiles.com/docs/installation) | uvx, Docker, pip, from source |
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- [![Run Tests](https://github.com/sooperset/mcp-atlassian/actions/workflows/tests.yml/badge.svg)](https://github.com/sooperset/mcp-atlassian/actions/workflows/tests.yml)
+- ### 1. Get Your API Token
+- Go to https://id.atlassian.com/manage-profile/security/api-tokens and create a token.
+
+- Source: https://github.com/sooperset/mcp-atlassian
+- Extracted from upstream docs: https://raw.githubusercontent.com/sooperset/mcp-atlassian/HEAD/README.md
 
 ## Source
 

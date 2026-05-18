@@ -24,19 +24,24 @@ Python 3.11+, uv, optional Cisco AI Defense API key, optional LLM provider key, 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- uv tool install --python 3.13 cisco-ai-mcp-scanner
+- uv tool install --python 3.13 --from git+https://github.com/cisco-ai-defense/mcp-scanner cisco-ai-mcp-scanner
+- git clone https://github.com/cisco-ai-defense/mcp-scanner
+- uv sync --python 3.13
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
+- A Python tool for scanning MCP (Model Context Protocol) servers and tools for potential security findings. The MCP Scanner combines Cisco AI Defense inspect API, YARA rules and LLM-as-a-judge to detect malicious MCP t...
+- **Vulnerable Packages Scanning**: Scan Python dependencies for known vulnerabilities (CVE/PYSEC/GHSA) using pip-audit integration.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- **Multiple Modes:** Run scanner as a stand-alone CLI tool or REST API server
+- A valid Cisco AI Defense API Key (optional)
+- LLM Provider API Key (optional)
 
-```
-Install with uv: uv tool install --python 3.13 cisco-ai-mcp-scanner
-```
+- Source: https://github.com/cisco-ai-defense/mcp-scanner
+- Extracted from upstream docs: https://raw.githubusercontent.com/cisco-ai-defense/mcp-scanner/HEAD/README.md
 
 ## Documentation
 

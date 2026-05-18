@@ -15,13 +15,11 @@ Queries the Common Crawl Index API for large-scale web archive research and data
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- Common Crawl data is stored on Amazon Web Services' Public Data Sets . All data and index files are free to download. Feel free to run your own index server, or analyze the index offline.
+- More about the URL index in the original announcement . For help, visit the Common Crawl user forum or Discord server . See also Getting Started .
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://index.commoncrawl.org/
 
 ## Documentation
 

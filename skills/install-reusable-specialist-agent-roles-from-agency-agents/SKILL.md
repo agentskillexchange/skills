@@ -24,19 +24,16 @@ Agency Agents repository scripts; a supported agent runtime such as Claude Code,
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- "I don't just test your code - I default to finding 3-5 issues and require visual proof for everything."
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- ## ⚡ Quick Start
+- ./scripts/install.sh --tool claude-code
+- # Or manually copy a category if you only want one division
 
-Install command or upstream instructions:
-
-```
-Clone the repository, run ./scripts/convert.sh to generate integration files when needed, then run ./scripts/install.sh or ./scripts/install.sh --tool <runtime>; for Claude Code-only use, copy selected agent markdown files into ~/.claude/agents/.
-```
+- Source: https://github.com/msitarzewski/agency-agents
+- Extracted from upstream docs: https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/README.md
 
 ## Documentation
 

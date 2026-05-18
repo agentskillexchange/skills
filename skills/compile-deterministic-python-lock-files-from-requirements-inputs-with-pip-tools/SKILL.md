@@ -24,19 +24,24 @@ Python, pip-tools, dependency input files
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- (venv) $ python -m pip install pip-tools
+- pipx run --spec pip-tools pip-compile if pipx was installed with the
+- pip-compile should be run from the same virtual environment as your
+- official standard, you can use pip-compile to pin the dependencies
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- even when you've pinned them. You do pin them, right? (In building your Python
+- Similar to pip, pip-tools must be installed in each of your project's
+- [virtual environments](https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments):
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- console
+- $ source /path/to/venv/bin/activate
+- **Note**: all of the remaining example commands assume you've activated your
 
-```
-Install with pip, then compile and sync from your dependency inputs: pip install pip-tools && pip-compile && pip-sync
-```
+- Source: https://github.com/jazzband/pip-tools
+- Extracted from upstream docs: https://raw.githubusercontent.com/jazzband/pip-tools/HEAD/README.md
 
 ## Documentation
 

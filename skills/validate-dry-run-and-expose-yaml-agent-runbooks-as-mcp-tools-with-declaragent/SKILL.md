@@ -24,19 +24,13 @@ Go, YAML runbooks, MCP-compatible client for MCP mode
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- Validate, dry-run, and safely execute multi-step YAML workflows from any LLM tool-use loop.
+- ## Docs: 3 Example Plans You Can Copy and Run
+- Or run any plan directly:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Install with `go install github.com/shiehn/declaragent@latest`, validate plans with `declaragent validate plan.yaml`, and use `declaragent mcp --plans ./plans` when you want those runbooks exposed as MCP tools.
-```
+- Source: https://github.com/shiehn/DeclarAgent
+- Extracted from upstream docs: https://raw.githubusercontent.com/shiehn/DeclarAgent/HEAD/README.md
 
 ## Documentation
 

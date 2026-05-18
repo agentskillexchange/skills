@@ -14,13 +14,15 @@ Analyzes AWS CloudTrail event logs via the Lookup Events API to detect anomalous
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- AWS SDK for Python
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- LookupEvents returns recent Insights events for trails that enable Insights. To view Insights events for an event data store, you can run queries on your
+- category are not returned in the response. For example, if you do not specify
+- example, if the original call specified an AttributeKey of 'Username' with a value of
+
+- Source: https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/API_LookupEvents.html
 
 ## Source
 

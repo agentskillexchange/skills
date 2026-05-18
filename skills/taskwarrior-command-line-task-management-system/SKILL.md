@@ -18,13 +18,13 @@ Taskwarrior is a command-line task list management utility with rich features in
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- [![Arch](https://img.shields.io/archlinux/v/extra/x86_64/task)](https://archlinux.org/packages/extra/x86_64/task/)
+- [![Debian](https://img.shields.io/debian/v/task/testing)](https://packages.debian.org/search?keywords=task&searchon=names&suite=all&section=all)
+- [![Fedora](https://img.shields.io/fedora/v/task)](https://bodhi.fedoraproject.org/updates/?packages=task)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/GothenburgBitFactory/taskwarrior
+- Extracted from upstream docs: https://raw.githubusercontent.com/GothenburgBitFactory/taskwarrior/HEAD/README.md
 
 ## Source
 

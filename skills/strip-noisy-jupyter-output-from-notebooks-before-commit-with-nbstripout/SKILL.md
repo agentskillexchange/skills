@@ -24,19 +24,23 @@ Python environment, nbstripout, Jupyter or IPython notebook files, and optional 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install nbstripout==0.3.10
+- pip install --upgrade nbstripout
+- conda install -c conda-forge nbstripout
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![supported Python versions](https://img.shields.io/pypi/pyversions/nbstripout)](https://pypi.org/project/nbstripout)
+- [![Python package formats](https://img.shields.io/pypi/format/nbstripout)](https://pypi.org/project/nbstripout)
+- ## Python 3 only
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- package index [PyPI](https://pypi.org/project/nbstripout/) as follows:
+- distribution, install nbstripout via the [conda](https://docs.conda.io)
+- package manager from [conda-forge](https://conda-forge.org):
 
-```
-Install nbstripout from the upstream Python package, run it directly on notebook files or configure the documented Git filter or pre-commit integration, then verify notebooks are stripped before commit.
-```
+- Source: https://github.com/kynan/nbstripout
+- Extracted from upstream docs: https://raw.githubusercontent.com/kynan/nbstripout/HEAD/README.md
 
 ## Documentation
 

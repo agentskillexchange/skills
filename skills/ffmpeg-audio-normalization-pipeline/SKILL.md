@@ -3,7 +3,7 @@ name: "FFmpeg Audio Normalization Pipeline"
 slug: "ffmpeg-audio-normalization-pipeline"
 description: "Normalizes audio loudness to broadcast standards using FFmpeg loudnorm filter with EBU R128 two-pass analysis. Measures integrated LUFS, true peak, and loudness range via ffmpeg -af loudnorm=print_format=json."
 github_stars: 58972
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/FFmpeg/FFmpeg"
 category: "Media & Transcription"
 framework: "OpenClaw"
@@ -18,13 +18,9 @@ Normalizes audio loudness to broadcast standards using FFmpeg loudnorm filter wi
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/FFmpeg/FFmpeg
 
 ## Source
 

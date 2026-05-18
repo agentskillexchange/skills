@@ -18,13 +18,23 @@ Harness Open Source (formerly Gitness) is an end-to-end developer platform that 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- docker run -d \
+- If your version is different than v3.21.11, run brew unlink protobuf
+- $ make dep
+- $ make tools
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- The latest publicly released docker image can be found on [harness/harness](https://hub.docker.com/r/harness/harness).
+- -v /var/run/docker.sock:/var/run/docker.sock \
+
+Basic usage or getting-started notes:
+- To install Harness yourself, simply run the command below. Once the container is up, you can visit http://localhost:3000 in your browser.
+- Check if you've already installed protobuf protoc --version
+- Get v3.21.11 curl -s https://raw.githubusercontent.com/Homebrew/homebrew-core/9de8de7a533609ebfded833480c1f7c05a3448cb/Formula/protobuf.rb > /tmp/protobuf.rb
+
+- Source: https://github.com/harness/harness
+- Extracted from upstream docs: https://raw.githubusercontent.com/harness/harness/HEAD/README.md
 
 ## Source
 

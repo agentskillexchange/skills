@@ -18,13 +18,18 @@ PydanticAI is an AI agent framework built by the Pydantic team that brings FastA
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- <a href="https://pypi.python.org/pypi/pydantic-ai"><img src="https://img.shields.io/pypi/v/pydantic-ai.svg" alt="PyPI"></a>
+- ### <em>Pydantic AI is a Python agent framework designed to help you quickly, confidently, and painlessly build production grade applications and workflows with Generative AI.</em>
+- FastAPI revolutionized web development by offering an innovative and ergonomic design, built on the foundation of [Pydantic Validation](https://docs.pydantic.dev) and modern Python features like type hints.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- ## Hello World Example
+- Here's a minimal example of Pydantic AI:
+- # For more complex dynamically-generated instructions, see the example below.
+
+- Source: https://github.com/pydantic/pydantic-ai
+- Extracted from upstream docs: https://raw.githubusercontent.com/pydantic/pydantic-ai/HEAD/README.md
 
 ## Source
 

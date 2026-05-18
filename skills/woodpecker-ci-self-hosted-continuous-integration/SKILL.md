@@ -18,13 +18,18 @@ Woodpecker is a simple yet powerful self-hosted CI/CD engine written in Go with 
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- <a href="https://hub.docker.com/r/woodpeckerci/woodpecker-server" title="Docker pulls">
+- <img src="https://img.shields.io/docker/pulls/woodpeckerci/woodpecker-server" alt="Docker pulls">
+- It requires around 100 MB of RAM (Server) and 30 MB (Agent) at runtime in idle mode.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Woodpecker can be installed in various ways (see the [Installation Instructions](https://woodpecker-ci.org/docs/administration/general)) and runs with SQLite as database by default.
+- ## Support
+- You can support the project by becoming a backer on [Open Collective](https://opencollective.com/woodpecker-ci#category-CONTRIBUTE) or via [GitHub Sponsors](https://github.com/sponsors/woodpecker-ci).
+
+- Source: https://github.com/woodpecker-ci/woodpecker
+- Extracted from upstream docs: https://raw.githubusercontent.com/woodpecker-ci/woodpecker/HEAD/README.md
 
 ## Source
 

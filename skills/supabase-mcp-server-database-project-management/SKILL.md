@@ -18,13 +18,18 @@ An official MCP server that connects Supabase projects to AI assistants like Cla
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Most MCP clients require the following information:
+- For [self-hosted Supabase](https://supabase.com/docs/guides/self-hosting/docker), check the [Enabling MCP server](https://supabase.com/docs/guides/self-hosting/enable-mcp) page. Currently, the MCP Server in self-hoste...
+- #### Branching (Experimental, requires a paid plan)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- ### 1. Follow our security best practices
+- Before setting up the MCP server, we recommend you read our [security best practices](#security-risks) to understand the risks of connecting an LLM to your Supabase projects and how to mitigate them.
+- ### 2. Configure your MCP client
+
+- Source: https://github.com/supabase-community/supabase-mcp
+- Extracted from upstream docs: https://raw.githubusercontent.com/supabase-community/supabase-mcp/HEAD/README.md
 
 ## Source
 

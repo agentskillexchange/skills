@@ -20,19 +20,24 @@ Frontend code or screenshots, design-system references such as Storybook or Figm
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx skills add microsoft/skills
+- git clone https://github.com/microsoft/skills.git
+- pnpm install
+- pnpm harness --list
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- | [Python](#python) | 39 | -py |
+- ├── plugins/ # Language-based plugin bundles (azure-sdk-python, etc.)
+- ├── python/ # -> ../.github/skills/*-py
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- bash
+- Select the skills you need from the wizard. Skills are installed to your chosen agent's directory (e.g., .github/skills/ for GitHub Copilot) and symlinked if you use multiple agents.
+- <details>
 
-```
-Install the Microsoft skills repository with npx skills add microsoft/skills, then invoke frontend-design-review while reviewing implemented UI against design-system, accessibility, and visual-quality criteria.
-```
+- Source: https://github.com/microsoft/skills/tree/main/.github/skills/frontend-design-review
+- Extracted from upstream docs: https://raw.githubusercontent.com/microsoft/skills/HEAD/README.md
 
 ## Documentation
 

@@ -18,13 +18,18 @@ Griptape is a modular Python framework for building AI agents and workflows with
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- [![PyPI Version](https://img.shields.io/pypi/v/griptape.svg)](https://pypi.python.org/pypi/griptape)
+- Griptape is a Python framework designed to simplify the development of generative AI (genAI) applications.
+- python
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- 🏗️ **Structure Run Drivers**: Execute structures locally or in the cloud.
+- Please visit the [docs](https://docs.griptape.ai/) for information on installation and usage.
+- ## Hello World Example
+
+- Source: https://github.com/griptape-ai/griptape
+- Extracted from upstream docs: https://raw.githubusercontent.com/griptape-ai/griptape/HEAD/README.md
 
 ## Source
 

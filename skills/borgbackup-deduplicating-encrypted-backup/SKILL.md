@@ -18,13 +18,20 @@ BorgBackup (Borg) is a deduplicating backup program with optional compression an
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- make fingerprinting attacks more difficult.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- We offer single-file binaries that do not require installing anything -
+- Mailing list <https://mail.python.org/mailman/listinfo/borgbackup>_
+
+Basic usage or getting-started notes:
+- you can just run them on these platforms:
+- :alt: BorgBackup Basic Usage
+- .. _advanced usage: https://asciinema.org/a/133293?autoplay=1&speed=1
+
+- Source: https://github.com/borgbackup/borg
+- Extracted from upstream docs: https://raw.githubusercontent.com/borgbackup/borg/HEAD/README.rst
 
 ## Source
 

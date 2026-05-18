@@ -24,19 +24,22 @@ Python, interrogate, Python source tree
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ pip install interrogate
+- $ pip install interrogate[png]
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Documentation should be as important as code itself. And it should live *within* code. Python standardized <https://www.python.org/dev/peps/pep-0257/>_ docstrings, allowing for developers to navigate libraries as simp...
+- interrogate supports Python 3.8 and above.
+- Try it out on a Python project:
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- ============
+- interrogate is available on PyPI <https://pypi.org/project/interrogate/>_ and GitHub <https://github.com/econchick/interrogate>_. The recommended installation method is pip <https://pip.pypa.io/en/stable/>_-installing...
+- .. code-block:: console
 
-```
-Install with pip, then run against your Python package with a threshold appropriate for the repository: pip install interrogate && interrogate -f 80 .
-```
+- Source: https://github.com/econchick/interrogate
+- Extracted from upstream docs: https://raw.githubusercontent.com/econchick/interrogate/HEAD/README.rst
 
 ## Documentation
 

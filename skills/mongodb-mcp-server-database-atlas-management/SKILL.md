@@ -20,13 +20,24 @@ The official MongoDB MCP server connects AI agents to MongoDB databases and Atla
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx -y mongodb-mcp-server@latest --readOnly
+- docker run --rm -i \
+- npx -y mongodb-mcp-server@latest --transport http
+- npx -y mongodb-mcp-server@latest --transport http --httpHost=0.0.0.0 --httpPort=8080
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [Prerequisites](#prerequisites)
+- Node.js
+- node -v
+
+Basic usage or getting-started notes:
+- [🚀 Getting Started](#getting-started)
+- [Quick Start](#quick-start)
+- At least 20.19.0
+
+- Source: https://github.com/mongodb-js/mongodb-mcp-server
+- Extracted from upstream docs: https://raw.githubusercontent.com/mongodb-js/mongodb-mcp-server/HEAD/README.md
 
 ## Source
 

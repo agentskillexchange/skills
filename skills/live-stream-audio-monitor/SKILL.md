@@ -3,7 +3,7 @@ name: "Live Stream Audio Monitor"
 slug: "live-stream-audio-monitor"
 description: "Monitors live audio streams from RTMP, HLS, or Icecast sources using FFmpeg stream capture and real-time chunked transcription via Deepgram's streaming API or Whisper.cpp. Detects silence gaps, audio clipping, and loudness deviations from EBU R128 targets using pyloudnorm."
 github_stars: 58548
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/FFmpeg/FFmpeg"
 author: "FFmpeg"
 category: "Media & Transcription"
@@ -19,13 +19,9 @@ Monitors live audio streams from RTMP, HLS, or Icecast sources using FFmpeg stre
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/FFmpeg/FFmpeg
 
 ## Source
 

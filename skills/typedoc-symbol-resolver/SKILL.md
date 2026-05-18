@@ -21,19 +21,20 @@ Resolves TypeScript symbols and generates API documentation using the TypeDoc co
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install typedoc --save-dev
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- TypeDoc runs on Node.js and is available as a NPM package.
+- requires configuration to be present in each directory to specify the entry points. For an example setup, see
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- text
+- To generate documentation TypeDoc needs to know your project entry point and TypeScript
+- compiler options. It will automatically try to find your tsconfig.json file and figure
 
-```
-npm install --save-dev typedoc
-```
+- Source: https://github.com/TypeStrong/typedoc
+- Extracted from upstream docs: https://raw.githubusercontent.com/TypeStrong/typedoc/HEAD/README.md
 
 ## Documentation
 

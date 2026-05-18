@@ -24,19 +24,15 @@ Docker or Python-based deployment environment, CPU or GPU runtime, supported spe
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- [Deployable via Docker Compose / Docker](https://speaches.ai/installation/)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- See the documentation for installation instructions and usage: [speaches.ai](https://speaches.ai/)
+- [Realtime API](https://speaches.ai/usage/realtime-api)
 
-Install command or upstream instructions:
-
-```
-Deploy Speaches with Docker or the supported local setup from the project docs, download or configure the speech models you plan to serve, start the API, then point your agent or application at the Speaches base URL using the same OpenAI-style audio calls it already expects.
-```
+- Source: https://github.com/speaches-ai/speaches
+- Extracted from upstream docs: https://raw.githubusercontent.com/speaches-ai/speaches/HEAD/README.md
 
 ## Documentation
 

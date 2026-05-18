@@ -3,7 +3,7 @@ name: "PostHog Product Analytics and Feature Flags SDK"
 slug: "posthog-product-analytics-and-feature-flags-sdk"
 description: "Use PostHog to capture product analytics events, identify users, evaluate feature flags, and route experimentation data into agent or application workflows. This skill gives an agent a concrete implementation path for instrumentation, event tracking, and flag-driven behavior using the real PostHog SDK."
 github_stars: 531
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/PostHog/posthog-js"
 category: "Monitoring & Alerts"
 framework: "Multi-Framework"
@@ -20,13 +20,9 @@ Use PostHog to capture product analytics events, identify users, evaluate featur
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/PostHog/posthog-js
 
 ## Source
 

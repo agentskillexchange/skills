@@ -18,13 +18,15 @@ git-cliff generates changelog files from Git history using conventional commits 
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- <a href="https://hub.docker.com/r/orhunp/git-cliff">
+- <img src="https://img.shields.io/github/actions/workflow/status/orhun/git-cliff/docker.yml?style=flat&labelColor=1C2C2E&color=BEC5C9&label=docker&logo=Docker&logoColor=BEC5C9"></a>
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- [Usage](https://git-cliff.org/docs/usage/examples)
+
+- Source: https://github.com/orhun/git-cliff
+- Extracted from upstream docs: https://raw.githubusercontent.com/orhun/git-cliff/HEAD/README.md
 
 ## Source
 

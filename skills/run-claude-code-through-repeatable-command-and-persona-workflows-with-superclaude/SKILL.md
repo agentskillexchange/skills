@@ -24,19 +24,20 @@ Claude Code, SuperClaude installation, optional MCP server installs for enhanced
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pipx install superclaude
+- git clone https://github.com/SuperClaude-Org/SuperClaude_Framework.git
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- # Mindbase provides semantic search enhancement (requires "recommended" profile)
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [![Run in Smithery](https://smithery.ai/badge/skills/SuperClaude-Org)](https://smithery.ai/skills?ns=SuperClaude-Org&utm_source=github&utm_medium=badge)
+- <a href="#-quick-installation">Quick Start</a> •
+- superclaude install
 
-```
-Install SuperClaude with pipx or the upstream installation script, run the documented command installer, optionally add the supported MCP servers, then restart Claude Code so the slash-command workflow layer becomes available.
-```
+- Source: https://github.com/SuperClaude-Org/SuperClaude_Framework
+- Extracted from upstream docs: https://raw.githubusercontent.com/SuperClaude-Org/SuperClaude_Framework/HEAD/README.md
 
 ## Documentation
 

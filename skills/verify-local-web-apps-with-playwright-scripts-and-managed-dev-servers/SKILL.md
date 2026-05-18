@@ -20,19 +20,16 @@ Python, Playwright, and one or more local web application server commands
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- The frontmatter requires only two fields:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Select document-skills or example-skills
+- /plugin install example-skills@anthropic-agent-skills
+- These example skills are all already available to paid plans in Claude.ai.
 
-Install command or upstream instructions:
-
-```
-Clone or install anthropics/skills, run python skills/webapp-testing/scripts/with_server.py --help, then wrap your native Python Playwright script with the helper so the required local server processes are started and awaited automatically.
-```
+- Source: https://github.com/anthropics/skills/tree/main/skills/webapp-testing
+- Extracted from upstream docs: https://raw.githubusercontent.com/anthropics/skills/HEAD/README.md
 
 ## Documentation
 

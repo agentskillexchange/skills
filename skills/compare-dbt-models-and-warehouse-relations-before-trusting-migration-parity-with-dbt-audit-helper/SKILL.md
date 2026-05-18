@@ -24,19 +24,18 @@ dbt Core, warehouse credentials, dbt-audit-helper package
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Each relation must have the same columns with the same names, but they do not have to be in the same order.
+- Each relation must have the same columns with the same names, but they do not have to be in the same order. Build long lists with a few exclusions with dbt_utils.get_filtered_columns_in_relation, or pass None and the...
+- Each relation must have the same columns with the same names, but they do not have to be in the same order. Use exclude_columns if some columns only exist in one relation.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- [Advanced Usage](#advanced-usage)
+- New to dbt packages? Read more about them [here](https://docs.getdbt.com/docs/building-a-dbt-project/package-management/).
+- Include this package in your packages.yml file — check [here](https://hub.getdbt.com/dbt-labs/audit_helper/latest/) for the latest version number.
 
-Install command or upstream instructions:
-
-```
-Add dbt-labs/audit_helper to packages.yml, then run dbt deps.
-```
+- Source: https://github.com/dbt-labs/dbt-audit-helper
+- Extracted from upstream docs: https://raw.githubusercontent.com/dbt-labs/dbt-audit-helper/HEAD/README.md
 
 ## Documentation
 

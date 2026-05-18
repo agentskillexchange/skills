@@ -21,13 +21,23 @@ tool_ecosystem:
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- yarn add --dev jest
+- npm install --save-dev jest
+- Finally, run yarn test or npm test and Jest will print this message:
+- yarn create jest
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- const sum = require('./sum');
+- Configure Babel to target your current version of Node by creating a babel.config.js file in the root of your project:
+
+Basic usage or getting-started notes:
+- [Getting Started](#getting-started)
+- <!-- copied from Getting Started docs, links updated to point to Jest website -->
+- bash
+
+- Source: https://github.com/jestjs/jest
+- Extracted from upstream docs: https://raw.githubusercontent.com/jestjs/jest/HEAD/README.md
 
 ## Documentation
 

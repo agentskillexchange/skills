@@ -18,13 +18,23 @@ RealtimeSTT is a Python library for real-time speech-to-text with advanced voice
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install "RealtimeSTT[faster-whisper]"
+- brew install portaudio
+- python -m pip install -r example_fastapi_server/requirements.txt
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- RealtimeSTT is a Python speech-to-text library for applications that need
+- python
+- python example_fastapi_server/server.py --host 0.0.0.0 --port 8010
+
+Basic usage or getting-started notes:
+- bash
+- On Linux, install PortAudio headers before installing the package:
+- sudo apt-get update
+
+- Source: https://github.com/KoljaB/RealtimeSTT
+- Extracted from upstream docs: https://raw.githubusercontent.com/KoljaB/RealtimeSTT/HEAD/README.md
 
 ## Source
 

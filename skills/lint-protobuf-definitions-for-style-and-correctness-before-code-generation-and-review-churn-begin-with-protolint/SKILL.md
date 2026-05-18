@@ -24,19 +24,24 @@ protolint installation, protobuf source files, and optional CI or pre-commit int
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew tap yoheimuta/protolint
+- brew install protolint
+- Since [homebrew-core](https://github.com/Homebrew/homebrew-core/pkgs/container/core%2Fprotolint) includes protolint, you can also install it by just brew install protolint. This is the default tap that is installed by...
+- go install github.com/yoheimuta/protolint/cmd/protolint@latest
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Docker](https://img.shields.io/docker/pulls/yoheimuta/protolint)](https://hub.docker.com/r/yoheimuta/protolint)
+- ### Use the maintained Docker image
+- protolint ships a Docker image [yoheimuta/protolint](https://hub.docker.com/r/yoheimuta/protolint) that allows you to use protolint as part of your Docker workflow.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- sh
+- protolint --mcp
+- For detailed documentation on how to use and integrate protolint's MCP server functionality, see the [MCP documentation](./mcp/README.md).
 
-```
-Install protolint from the upstream binary, package, or Go-based installation instructions, then run it against the target .proto files or repository and review or gate on the reported violations.
-```
+- Source: https://github.com/yoheimuta/protolint
+- Extracted from upstream docs: https://raw.githubusercontent.com/yoheimuta/protolint/HEAD/README.md
 
 ## Documentation
 

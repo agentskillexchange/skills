@@ -24,19 +24,23 @@ Terraform module directory, terraform-docs CLI, optional README template or CI s
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew install terraform-docs
+- brew install terraform-docs/tap/terraform-docs
+- go install github.com/terraform-docs/terraform-docs@v0.24.0
+- the repo and run make build from the repository which will put terraform-docs in:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- ### Using docker
+- **NOTE:** Docker tag latest refers to _latest_ stable released version and edge
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- macOS users can install using [Homebrew]:
+- bash
+- or
 
-```
-Install terraform-docs from the upstream releases or package manager, then run it against the target Terraform module directory.
-```
+- Source: https://github.com/terraform-docs/terraform-docs
+- Extracted from upstream docs: https://raw.githubusercontent.com/terraform-docs/terraform-docs/HEAD/README.md
 
 ## Documentation
 

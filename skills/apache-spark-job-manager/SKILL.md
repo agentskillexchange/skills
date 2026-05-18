@@ -23,13 +23,18 @@ Java, Scala, Python
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- high-level APIs in Scala, Java, Python, and R (Deprecated), and an optimized engine that
+- ## Interactive Python Shell
+- Alternatively, if you prefer Python, you can use the Python shell:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- To build Spark and its example programs, run:
+- And run the following command, which should also return 1,000,000,000:
+- ## Example Programs
+
+- Source: https://github.com/apache/spark
+- Extracted from upstream docs: https://raw.githubusercontent.com/apache/spark/HEAD/README.md
 
 ## Documentation
 

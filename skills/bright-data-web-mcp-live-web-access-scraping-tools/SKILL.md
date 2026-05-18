@@ -26,19 +26,23 @@ BROWSERBASE_API_KEY, BROWSERBASE_PROJECT_ID, GEMINI_API_KEY
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/browserbase/mcp-server-browserbase.git
+- npm install && npm run build
+- docker build -t mcp-browserbase .
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- #### Option 2: Docker
+- "command": "node",
+- #### Using Docker
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- You can either use our server hosted on NPM or run it completely locally by cloning this repo.
+- ### To run via NPM (Recommended)
+- ### To run 100% local:
 
-```
-npx @browserbasehq/mcp
-```
+- Source: https://github.com/browserbase/mcp-server-browserbase
+- Extracted from upstream docs: https://raw.githubusercontent.com/browserbase/mcp-server-browserbase/HEAD/README.md
 
 ## Documentation
 

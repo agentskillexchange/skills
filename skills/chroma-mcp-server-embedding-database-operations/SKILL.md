@@ -18,13 +18,16 @@ An official MCP server for the Chroma open-source embedding database. Enables AI
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- The fastest way to build Python or JavaScript LLM apps with memory!
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- [The Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) is an open protocol designed for effortless integration between LLM applications and external data sources or tools, offering a standard...
+- To add an ephemeral client, add the following to your claude_desktop_config.json file:
+- json
+
+- Source: https://github.com/chroma-core/chroma-mcp
+- Extracted from upstream docs: https://raw.githubusercontent.com/chroma-core/chroma-mcp/HEAD/README.md
 
 ## Source
 

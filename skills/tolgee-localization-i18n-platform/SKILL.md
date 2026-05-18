@@ -18,13 +18,16 @@ Tolgee is an open-source localization platform that lets developers and translat
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff)](https://hub.docker.com/repository/docker/tolgee/tolgee)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- ![example workflow](https://github.com/tolgee/tolgee-platform/actions/workflows/test.yml/badge.svg)
+- Sign up at [app.tolgee.io](https://app.tolgee.io/sign_up) or access your self-hosted instance
+- Create a project
+
+- Source: https://github.com/tolgee/tolgee-platform
+- Extracted from upstream docs: https://raw.githubusercontent.com/tolgee/tolgee-platform/HEAD/README.md
 
 ## Source
 

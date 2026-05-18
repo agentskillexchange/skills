@@ -24,19 +24,16 @@ borgmatic, Borg Backup
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- <a href="https://www.docker.com/"><img src="https://torsion.org/borgmatic/static/docker.png" alt="Docker" height="40px" style="margin-bottom:20px; margin-right:20px;"></a>
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Here's an example configuration file:
+- # List of checks to run to validate your backups.
+- # Custom preparation scripts to run.
 
-Install command or upstream instructions:
-
-```
-Install borgmatic from the supported package or Python distribution path in the borgmatic docs, then configure `borgmatic.yaml` and run borgmatic create, check, prune, or restore workflows from that config.
-```
+- Source: https://github.com/borgmatic-collective/borgmatic
+- Extracted from upstream docs: https://raw.githubusercontent.com/borgmatic-collective/borgmatic/HEAD/README.md
 
 ## Documentation
 

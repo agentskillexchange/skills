@@ -26,19 +26,24 @@ Node.js, npx or npm, defuddle CLI
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx defuddle parse page.html
+- npx defuddle parse https://example.com/article
+- npx defuddle parse page.html --markdown
+- npx defuddle parse page.html --json
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- ### Node.js
+- defuddle/node accepts a DOM Document from any implementation (JSDOM, linkedom, happy-dom, etc.).
+- import { Defuddle } from 'defuddle/node';
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Defuddle takes a URL or HTML, finds the main content, and returns cleaned HTML or Markdown. Defuddle was created for the browser extension [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper), but it...
+- ### Browser
+- javascript
 
-```
-Run with npx defuddle parse https://example.com/article --markdown, or install globally with npm install -g defuddle.
-```
+- Source: https://github.com/kepano/defuddle
+- Extracted from upstream docs: https://raw.githubusercontent.com/kepano/defuddle/HEAD/README.md
 
 ## Documentation
 

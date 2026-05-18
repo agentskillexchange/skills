@@ -24,19 +24,16 @@ PEM or DER certificate or precertificate input, zlint CLI or Go library, operato
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- ZLint requires [Go 1.16.x or newer](https://golang.org/doc/install) be
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- ------------
+- installed. The command line setup instructions assume the go command is in
+- your $PATH.
 
-Install command or upstream instructions:
-
-```
-Install zlint from the upstream repository or releases, then run it against the target certificate or precertificate file.
-```
+- Source: https://github.com/zmap/zlint
+- Extracted from upstream docs: https://raw.githubusercontent.com/zmap/zlint/HEAD/README.md
 
 ## Documentation
 

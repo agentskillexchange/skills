@@ -18,13 +18,23 @@ Composio provides 1000+ pre-built toolkits with managed authentication, context 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install @composio/core
+- yarn add @composio/core
+- pnpm add @composio/core
+- npm install @composio/openai-agents @openai/agents
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- This repository contains the official Software Development Kits (SDKs) for Composio, providing seamless integration capabilities for Python and Typescript Agentic Frameworks and Libraries.
+- ### Python SDK Installation
+
+Basic usage or getting-started notes:
+- ### TypeScript SDK Installation
+- bash
+- # Using npm
+
+- Source: https://github.com/ComposioHQ/composio
+- Extracted from upstream docs: https://raw.githubusercontent.com/ComposioHQ/composio/HEAD/README.md
 
 ## Source
 

@@ -24,19 +24,16 @@ Node.js v20.19+, Google Chrome, npm
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- [Node.js](https://nodejs.org/) v20.19 or a newer [latest maintenance LTS](https://github.com/nodejs/Release#release-schedule) version.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- this, run with the --no-performance-crux flag.
+- ## **Usage statistics**
+- Google collects usage statistics (such as tool invocation success rates, latency, and environment information) to improve the reliability and performance of Chrome DevTools MCP.
 
-Install command or upstream instructions:
-
-```
-npx -y chrome-devtools-mcp@latest
-```
+- Source: https://github.com/ChromeDevTools/chrome-devtools-mcp
+- Extracted from upstream docs: https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/HEAD/README.md
 
 ## Documentation
 

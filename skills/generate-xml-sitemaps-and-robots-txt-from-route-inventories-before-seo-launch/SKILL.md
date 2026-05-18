@@ -23,19 +23,22 @@ Node.js, npm
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install --save sitemap
+- npx sitemap < listofurls.txt # npx sitemap -h for more examples and a list of options.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- # sitemap ![MIT License](https://img.shields.io/npm/l/sitemap)[![Build Status](https://github.com/ekalinin/sitemap.js/workflows/Node%20CI/badge.svg)](https://github.com/ekalinin/sitemap.js/actions)![Monthly Downloads]...
+- const { SitemapStream, streamToPromise } = require('sitemap')
+- const { Readable } = require('stream')
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [Example of using sitemap.js with](#serve-a-sitemap-from-a-server-and-periodically-update-it) [express](https://expressjs.com/)
+- sh
+- ## Generate a one time sitemap from a list of urls
 
-```
-npm install sitemap
-```
+- Source: https://github.com/ekalinin/sitemap.js
+- Extracted from upstream docs: https://raw.githubusercontent.com/ekalinin/sitemap.js/HEAD/README.md
 
 ## Documentation
 

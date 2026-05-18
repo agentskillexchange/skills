@@ -24,19 +24,24 @@ Python 3.10+, docling-graph package, source documents supported by Docling, opti
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install docling-graph
+- git clone https://github.com/docling-project/docling-graph
+- uv sync --extra dev
+- uv run pre-commit run --all-files
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Python 3.10 | 3.11 | 3.12](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-blue)](https://www.python.org/downloads/)
+- Python 3.10 or higher
+- # Convert document from URL (each line except the last must end with \)
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- **✍🏻 Input formats:** [Docling](https://docling-project.github.io/docling/usage/supported_formats/)’s supported inputs: PDF, images, markdown, Office, HTML, and more.
+- **📐 Structured extraction:** LLM output is schema-enforced by default; see [CLI](docs/usage/cli/convert-command.md#structured-output-mode) and [API](docs/usage/api/llm-model-config.md) to disable.
+- **🐛 Trace capture:** [Debug exports](docs/usage/advanced/trace-data-debugging.md) for extraction and fallback diagnostics.
 
-```
-Install docling-graph from the documented package path, configure the desired local or remote extraction backend, initialize the project config, then run the convert pipeline with a template that defines the target graph schema.
-```
+- Source: https://github.com/docling-project/docling-graph
+- Extracted from upstream docs: https://raw.githubusercontent.com/docling-project/docling-graph/HEAD/README.md
 
 ## Documentation
 

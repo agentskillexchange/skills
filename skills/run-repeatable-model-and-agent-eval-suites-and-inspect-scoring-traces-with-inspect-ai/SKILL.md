@@ -24,19 +24,23 @@ Python environment, inspect-ai package, model provider credentials, evaluation d
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/UKGovernmentBEIS/inspect_ai.git
+- pip install -e ".[dev]"
+- uv sync --extra dev
+- make hooks
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- If you use VS Code, you should be sure to have installed the recommended extensions (Python, Ruff, and MyPy). Note that you'll be prompted to install these when you open the project in VS Code.
+- The web UI lives in a git submodule at src/inspect_ai/_view/ts-mono/. **These steps are only needed if you plan to work on the TypeScript/React frontend** — Python-only contributors can skip this entirely.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Inspect provides many built-in components, including facilities for prompt engineering, tool usage, multi-turn dialog, and model graded evaluations. Extensions to Inspect (e.g. to support new elicitation and scoring t...
+- Inspect also includes a collection of over 200 pre-built evaluations ready to run on any model (learn more at <https://inspect.aisi.org.uk/evals/>).
+- Run linting, formatting, and tests via
 
-```
-Install inspect-ai in a Python environment, add the provider packages and credentials for the models you want to test, select or author an evaluation task, then run it with the documented inspect eval workflow.
-```
+- Source: https://github.com/UKGovernmentBEIS/inspect_ai
+- Extracted from upstream docs: https://raw.githubusercontent.com/UKGovernmentBEIS/inspect_ai/HEAD/README.md
 
 ## Documentation
 

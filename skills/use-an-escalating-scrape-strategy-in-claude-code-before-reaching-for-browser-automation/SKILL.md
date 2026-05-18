@@ -24,19 +24,16 @@ Claude Code, standard web access tools, optional browser automation tooling, opt
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- ### "API requires authentication"
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Add this skill to Claude Code by placing this directory in the skills folder.
+- ### Scenario 1: Scrape a Website
+- User: "Scrape https://example.com"
 
-Install command or upstream instructions:
-
-```
-Copy the skill into Claude Code's skills directory, then invoke it when you need a staged scraping workflow that starts with static fetches and escalates only when needed.
-```
+- Source: https://github.com/yfe404/web-scraper
+- Extracted from upstream docs: https://raw.githubusercontent.com/yfe404/web-scraper/HEAD/README.md
 
 ## Documentation
 

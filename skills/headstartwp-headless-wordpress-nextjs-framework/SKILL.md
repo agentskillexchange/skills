@@ -18,13 +18,18 @@ HeadstartWP is 10up's open-source framework for building headless WordPress site
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install
+- npm run start
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- The docs site lives in the docs directory. It is currently not part of the monorepo/workspace setup so npm install must be executed in the docs dir. To run the docs site locally run the following commands:
+
+Basic usage or getting-started notes:
+- See our [Getting Started](https://headstartwp.10up.com/docs/learn/getting-started/quick-setup/) guide.
+
+- Source: https://github.com/10up/headstartwp
+- Extracted from upstream docs: https://raw.githubusercontent.com/10up/headstartwp/HEAD/README.md
 
 ## Source
 

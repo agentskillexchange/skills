@@ -24,19 +24,24 @@ Node.js 20+, terminal access, and either Claude Code or Cursor CLI for /setup-ca
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx @rely-ai/caliber bootstrap
+- **Run from your terminal** (PowerShell, CMD, or Git Bash) — not from inside an IDE chat window. Open a terminal, cd into your project folder, then run npx @rely-ai/caliber bootstrap.
+- npx @rely-ai/caliber bootstrap ← one-time, 2 seconds
+- git clone https://github.com/caliber-ai-org/ai-setup.git
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <a href="https://nodejs.org"><img src="https://img.shields.io/node/v/@rely-ai/caliber" alt="node"></a>
+- Requires **Node.js >= 20**.
+- TypeScript, Python, Go, Rust, Java, Ruby, Terraform, and more. Language and framework detection is fully LLM-driven — no hardcoded mappings. Caliber works on any project.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- **Don't use Claude Code or Cursor?** Run caliber init instead — it's the same setup as a CLI wizard. Works with any LLM provider: bring your own Anthropic, OpenAI, or Vertex AI key.
+- Pre-commit hooks run the refresh loop automatically. New team members get nudged to bootstrap on their first session.
+- Caliber watches your AI coding sessions and learns from them. Hooks capture tool usage, failures, and your corrections — then an LLM distills operational patterns into CALIBER_LEARNINGS.md.
 
-```
-Run `npx @rely-ai/caliber bootstrap`, then start a supported coding-agent session and run `/setup-caliber`, or use `caliber init` if you are not using Claude Code or Cursor CLI.
-```
+- Source: https://github.com/caliber-ai-org/ai-setup
+- Extracted from upstream docs: https://raw.githubusercontent.com/caliber-ai-org/ai-setup/HEAD/README.md
 
 ## Documentation
 

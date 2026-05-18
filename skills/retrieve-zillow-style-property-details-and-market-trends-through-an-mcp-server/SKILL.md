@@ -24,19 +24,24 @@ MCP client, Zillow/property-data access configured by the repository, API or dat
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/yourusername/zillow-mcp-server.git
+- pip install -r requirements.txt
+- docker build -t zillow-mcp-server .
+- docker run -p 8000:8000 -e ZILLOW_API_KEY=your_key_here zillow-mcp-server
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- A Model Context Protocol (MCP) server that provides real-time access to Zillow real estate data, built with Python and FastMCP.
+- Python 3.8 or higher
+- python zillow_mcp_server.py
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- A Zillow Bridge API key (request access at api@bridgeinteractive.com)
+- Clone this repository:
+- cd zillow-mcp-server
 
-```
-Install the MCP server from the repository README, verify the property-data source requirements, connect it to a trusted MCP client, and start with read-only lookup workflows before broader use.
-```
+- Source: https://github.com/sap156/zillow-mcp-server
+- Extracted from upstream docs: https://raw.githubusercontent.com/sap156/zillow-mcp-server/HEAD/README.md
 
 ## Documentation
 

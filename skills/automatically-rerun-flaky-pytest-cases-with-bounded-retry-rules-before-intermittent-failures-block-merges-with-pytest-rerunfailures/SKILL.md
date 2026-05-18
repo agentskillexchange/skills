@@ -25,19 +25,21 @@ Python, pytest, and the pytest-rerunfailures plugin
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ pip install pytest-rerunfailures
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- :target: https://pypi.python.org/pypi/pytest-rerunfailures/
+- You will need the following prerequisites in order to use pytest-rerunfailures:
+- Python 3.10+ or PyPy3
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- ------------
+- pytest 8.1 or newer
+- This plugin can recover from a hard crash with the following optional
 
-```
-Install with `pip install pytest-rerunfailures`, then run pytest with retry flags such as `--reruns` and optional delay settings, or add the plugin configuration to your existing pytest and CI setup.
-```
+- Source: https://github.com/pytest-dev/pytest-rerunfailures
+- Extracted from upstream docs: https://raw.githubusercontent.com/pytest-dev/pytest-rerunfailures/HEAD/README.rst
 
 ## Documentation
 

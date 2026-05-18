@@ -18,13 +18,24 @@ Redpanda Connect (formerly Benthos) is a high-performance stream processor that 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew install redpanda-data/tap/redpanda
+- docker pull docker.redpanda.com/redpandadata/connect
+- docker run --rm -v /path/to/your/config.yaml:/connect.yaml docker.redpanda.com/redpandadata/connect run
+- docker run --rm -p 4195:4195 docker.redpanda.com/redpandadata/connect run \
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- It comes with a [powerful mapping language][bloblang-about], is easy to deploy and monitor, and ready to drop into your pipeline either as a static binary or docker image, making it cloud native as heck.
+- Or pull the docker image:
+- Or, with docker:
+
+Basic usage or getting-started notes:
+- shell
+- curl -LO https://github.com/redpanda-data/redpanda/releases/latest/download/rpk-linux-amd64.zip
+- unzip rpk-linux-amd64.zip -d ~/.local/bin/
+
+- Source: https://github.com/redpanda-data/connect
+- Extracted from upstream docs: https://raw.githubusercontent.com/redpanda-data/connect/HEAD/README.md
 
 ## Source
 

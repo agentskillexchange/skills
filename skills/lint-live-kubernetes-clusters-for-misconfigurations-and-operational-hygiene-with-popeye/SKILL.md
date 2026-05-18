@@ -24,19 +24,18 @@ Kubernetes cluster access, Popeye binary
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- # Your cluster must run a metrics-server for these to take place!
+- # Configure node resources.
+- node:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Furthermore, if your cluster employs a metric-server, it reports potential resources over/under allocations and attempts to warn you should your cluster run out of capacity.
+- # NOTE! This will run Popeye in the context namespace if set or like kubectl will use the default namespace
+- # Run Popeye in the fred namespace
 
-Install command or upstream instructions:
-
-```
-Install Popeye from a release or package manager, configure kubeconfig access, then run `popeye` or `popeye -A` to scan the target cluster.
-```
+- Source: https://github.com/derailed/popeye
+- Extracted from upstream docs: https://raw.githubusercontent.com/derailed/popeye/HEAD/README.md
 
 ## Documentation
 

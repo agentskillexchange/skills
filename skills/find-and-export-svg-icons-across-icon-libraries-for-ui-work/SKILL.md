@@ -24,19 +24,17 @@ better-icons, Node.js
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx skills add better-auth/better-icons
+- npm install -g better-icons
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- ### Add Skills
+- Enable the better-icons CLI features in your agent environment (matches all examples below):
+- bash
 
-Install command or upstream instructions:
-
-```
-Install from npm with npm install -g better-icons or run via npx, then use the documented search and get commands to find icons and export raw SVG or JSON.
-```
+- Source: https://github.com/better-auth/better-icons
+- Extracted from upstream docs: https://raw.githubusercontent.com/better-auth/better-icons/HEAD/README.md
 
 ## Documentation
 

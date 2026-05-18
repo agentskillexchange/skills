@@ -20,13 +20,21 @@ Use Browserbase when an agent needs hosted browser sessions, remote automation, 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install @browserbasehq/sdk
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- # Browserbase Node API Library
+- import fetch from 'node-fetch';
+- // If you have access to Node fs we recommend using fs.createReadStream():
+
+Basic usage or getting-started notes:
+- sh
+- The full API of this library can be found in [api.md](api.md).
+- <!-- prettier-ignore -->
+
+- Source: https://github.com/browserbase/sdk-node
+- Extracted from upstream docs: https://raw.githubusercontent.com/browserbase/sdk-node/HEAD/README.md
 
 ## Source
 

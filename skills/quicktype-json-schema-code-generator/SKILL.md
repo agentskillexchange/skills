@@ -18,13 +18,24 @@ Generate strongly-typed models and serializers from JSON, JSON Schema, TypeScrip
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install -g quicktype
+- $ npm install quicktype-core
+- npm install
+- npm install --ignore-scripts # Install dependencies
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- | [Dart](https://app.quicktype.io/#l=dart) | [Python](https://app.quicktype.io/#l=python) | [C#](https://app.quicktype.io/#l=cs) | [Go](https://app.quicktype.io/#l=go) | [C++](https://app.quicktype.io/#l=cpp) |
+- You can use quicktype as a JavaScript function within node or browsers. First add the quicktype-core package:
+- const { lines: pythonPerson } = await quicktypeJSONSchema("python", "Person", jsonSchemaString);
+
+Basic usage or getting-started notes:
+- There are many ways to use quicktype. [app.quicktype.io](https://app.quicktype.io) is the most powerful and complete UI. The web app also works offline and doesn't send your sample data over the Internet, so paste away!
+- For the best CLI, we recommend installing quicktype globally via npm:
+- bash
+
+- Source: https://github.com/glideapps/quicktype
+- Extracted from upstream docs: https://raw.githubusercontent.com/glideapps/quicktype/HEAD/README.md
 
 ## Source
 

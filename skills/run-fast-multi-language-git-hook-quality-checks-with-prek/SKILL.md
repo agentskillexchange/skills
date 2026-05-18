@@ -24,19 +24,24 @@ prek; Git; repository pre-commit configuration
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- uv tool install prek
+- uv add --dev prek
+- pip install prek
+- pipx install prek
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![PyPI version](https://img.shields.io/pypi/v/prek.svg)](https://pypi.python.org/pypi/prek)
+- [![PyPI Downloads](https://img.shields.io/pypi/dm/prek?logo=python)](https://pepy.tech/projects/prek)
+- Although prek is pretty new, it’s already powering real‑world projects like [CPython](https://github.com/python/cpython), [Apache Airflow](https://github.com/apache/airflow), [FastAPI](https://github.com/fastapi/fasta...
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [pre-commit](https://pre-commit.com/) is a framework to run hooks written in many languages, and it manages the
+- [Faster](https://prek.j178.dev/benchmark/) than pre-commit and more efficient in disk space usage.
+- [Quick start](#quick-start)
 
-```
-Install prek from the project's documented package channel, then run `prek run` or the documented equivalent in a repository with a pre-commit-compatible configuration.
-```
+- Source: https://github.com/j178/prek
+- Extracted from upstream docs: https://raw.githubusercontent.com/j178/prek/HEAD/README.md
 
 ## Documentation
 

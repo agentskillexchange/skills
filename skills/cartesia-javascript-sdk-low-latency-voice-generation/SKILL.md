@@ -24,19 +24,21 @@ Node.js or TypeScript runtime with the @cartesia/cartesia-js package
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install @cartesia/cartesia-js
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- // If you have access to Node fs we recommend using fs.createReadStream():
+- <img src="https://raw.githubusercontent.com/stainless-api/sdk-assets/refs/heads/main/node.svg" align="top" width="18" height="21"> **Node** <sup>[[docs](https://github.com/nodejs/undici/blob/main/docs/docs/api/ProxyAg...
+- Node.js 20 LTS or later ([non-EOL](https://endoflife.date/nodejs)) versions.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- sh
+- The full API of this library can be found in [api.md](api.md).
+- <!-- prettier-ignore -->
 
-```
-npm install @cartesia/cartesia-js
-```
+- Source: https://github.com/cartesia-ai/cartesia-js
+- Extracted from upstream docs: https://raw.githubusercontent.com/cartesia-ai/cartesia-js/HEAD/README.md
 
 ## Documentation
 

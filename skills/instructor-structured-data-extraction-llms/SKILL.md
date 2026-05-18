@@ -18,13 +18,22 @@ Instructor is a multi-language library for extracting structured, validated data
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install instructor
+- uv add instructor
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- python
+- [Python](https://python.useinstructor.com) - The original
+- [Documentation](https://python.useinstructor.com) - Comprehensive guides
+
+Basic usage or getting-started notes:
+- bash
+- Or with your package manager:
+- poetry add instructor
+
+- Source: https://github.com/567-labs/instructor
+- Extracted from upstream docs: https://raw.githubusercontent.com/567-labs/instructor/HEAD/README.md
 
 ## Source
 

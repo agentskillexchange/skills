@@ -26,19 +26,20 @@ Node.js, Dredd CLI, OpenAPI or API Blueprint spec, running API endpoint
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ npm install -g dredd
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [Node.js (JavaScript)](https://dredd.org/en/latest/hooks-nodejs/)
+- [Python](https://dredd.org/en/latest/hooks-python/)
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Create an [API Blueprint][] file called api-description.apib.
+- Follow [tutorial at API Blueprint website][api blueprint tutorial]
+- or just take one of the [ready-made examples][api blueprint examples].
 
-```
-npm install --global dredd
-```
+- Source: https://github.com/apiaryio/dredd
+- Extracted from upstream docs: https://raw.githubusercontent.com/apiaryio/dredd/HEAD/README.md
 
 ## Documentation
 

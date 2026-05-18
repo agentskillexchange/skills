@@ -26,19 +26,15 @@ Screenpipe desktop app or source build, local screen and audio permissions, suff
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Make sure to understand the main branch is moving fast and breaking things, if you're looking for a stable version check app releases https://github.com/screenpipe/screenpipe/releases and use the git commit accordingl...
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Minimum requirements: 8 GB RAM recommended. ~5–10 GB disk space per month. CPU usage typically 5–10% on modern hardware thanks to event-driven capture.
+- Typical CPU usage is 5–10% on modern hardware. Event-driven capture only processes frames when something changes, and accessibility tree extraction is much lighter than OCR.
 
-Install command or upstream instructions:
-
-```
-Install Screenpipe from the upstream desktop releases on macOS or Windows, or build from source on Linux, grant the requested screen and audio permissions, then use its local search, pipes, or MCP integration to feed desktop context into agent workflows.
-```
+- Source: https://github.com/screenpipe/screenpipe
+- Extracted from upstream docs: https://raw.githubusercontent.com/screenpipe/screenpipe/HEAD/README.md
 
 ## Documentation
 

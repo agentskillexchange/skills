@@ -20,13 +20,24 @@ tool_ecosystem:
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm view mongodb@vX.Y.Z dist.tarball
+- npm install mongodb
+- npm install -D @types/node
+- npm init -y
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- # MongoDB Node.js Driver
+- The official [MongoDB](https://www.mongodb.com/) driver for Node.js.
+- **Upgrading to version 7? Take a look at our [upgrade guide here](https://github.com/mongodb/node-mongodb-native/blob/HEAD/etc/notes/CHANGES_7.0.0.md)!**
+
+Basic usage or getting-started notes:
+- To verify the integrity of the downloaded package, run the following command:
+- After you've created your own project using npm init, you can run:
+- bash
+
+- Source: https://github.com/mongodb/node-mongodb-native
+- Extracted from upstream docs: https://raw.githubusercontent.com/mongodb/node-mongodb-native/HEAD/README.md
 
 ## Source
 

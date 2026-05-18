@@ -18,13 +18,24 @@ LangExtract by Google is a Python library for extracting structured information 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install langextract
+- git clone https://github.com/google/langextract.git
+- pip install -e .
+- pip install -e ".[dev]"
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- LangExtract is a Python library that uses LLMs to extract structured information from unstructured text documents based on user-defined instructions. It processes materials such as clinical notes or reports, identifyi...
+- **Note:** Using cloud-hosted models like Gemini requires an API key. See the [API Key Setup](#api-key-setup-for-cloud-models) section for instructions on how to get and configure your key.
+- python
+
+Basic usage or getting-started notes:
+- [Quick Start](#quick-start)
+- Extract structured information with just a few lines of code.
+- ### 1. Define Your Extraction Task
+
+- Source: https://github.com/google/langextract
+- Extracted from upstream docs: https://raw.githubusercontent.com/google/langextract/HEAD/README.md
 
 ## Source
 

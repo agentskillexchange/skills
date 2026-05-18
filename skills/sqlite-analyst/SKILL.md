@@ -20,13 +20,21 @@ tool_ecosystem:
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install better-sqlite3
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- The fastest and simplest library for SQLite in Node.js.
+- Requires a [currently supported Node.js](https://nodejs.org/en/about/previous-releases) version. Prebuilt binaries are available for [LTS versions](https://nodejs.org/en/about/previous-releases). If you have trouble i...
+- const db = require('better-sqlite3')('foobar.db', options);
+
+Basic usage or getting-started notes:
+- | |select 1 row &nbsp;get()&nbsp;|select 100 rows &nbsp;&nbsp;all()&nbsp;&nbsp;|select 100 rows iterate() 1-by-1|insert 1 row run()|insert 100 rows in a transaction|
+- bash
+- js
+
+- Source: https://github.com/WiseLibs/better-sqlite3
+- Extracted from upstream docs: https://raw.githubusercontent.com/WiseLibs/better-sqlite3/HEAD/README.md
 
 ## Source
 

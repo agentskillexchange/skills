@@ -24,19 +24,23 @@ qsv binary and CSV datasets
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- cargo install zipsign
+- brew install qsv
+- conda install conda-forge::qsv
+- git clone https://github.com/dathere/qsv.git
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- | [py](docs/help/py.md)✨<br>📇🔣 | Create a new computed column or filter rows by evaluating a Python expression on every row of a CSV file. Python's [f-strings](https://www.freecodecamp.org/news/python-f-strings-tutori...
+- 🔣: requires UTF-8 encoded input.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- | [luau](docs/help/luau.md)✨<br>📇🌐🔣📚 ![CKAN](docs/images/ckan.png) ![Luau](docs/images/luau.png) | <a name="luau_deeplink"></a>Create multiple new computed columns, filter rows, compute aggregations and build complex...
+- | [moarstats](docs/help/moarstats.md)<br>📇🏎️ | Add up to an additional 55 statistical measures, including extended outlier, robust & bivariate statistics to an existing stats CSV file. ([example](docs/moarstats/NYC_31...
+- | [schema](docs/help/schema.md)<br>📇😣🐻‍❄️🏎️👆🪄 | <a name="schema_deeplink"></a>Infer either a [JSON Schema Validation Draft 2020-12](https://json-schema.org/draft/2020-12/json-schema-validation) ([Example](https://gith...
 
-```
-Install qsv for your platform from the project releases or package manager, then use subcommands such as `qsv stats`, `qsv validate`, `qsv diff`, and `qsv apply` as needed for the dataset workflow.
-```
+- Source: https://github.com/dathere/qsv
+- Extracted from upstream docs: https://raw.githubusercontent.com/dathere/qsv/HEAD/README.md
 
 ## Documentation
 

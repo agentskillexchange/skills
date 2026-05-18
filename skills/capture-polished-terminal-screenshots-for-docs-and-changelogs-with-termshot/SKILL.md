@@ -24,19 +24,16 @@ termshot installation, terminal output to capture, optional shell script or CI s
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew install homeport/tap/termshot
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- ![example](.doc/example-cmd-figlet.png)
+- To install with Homebrew on macOS or Linux:
+- sh
 
-Install command or upstream instructions:
-
-```
-Install termshot from the upstream release or build instructions, run the documented capture command against the target terminal output, then save the generated image into the docs, changelog, or runbook workflow.
-```
+- Source: https://github.com/homeport/termshot
+- Extracted from upstream docs: https://raw.githubusercontent.com/homeport/termshot/HEAD/README.md
 
 ## Documentation
 

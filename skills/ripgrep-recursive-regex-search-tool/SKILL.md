@@ -18,13 +18,22 @@ ripgrep (rg) is a line-oriented search tool that recursively searches directorie
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ brew install ripgrep
+- $ cargo install ripgrep
+- $ cargo binstall ripgrep
+- $ git clone https://github.com/BurntSushi/ripgrep
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- For example, rg -tpy foo limits your search to Python files and rg -Tjs
+
+Basic usage or getting-started notes:
+- This example searches the entire
+- The binary name for ripgrep is rg.
+- **[Archives of precompiled binaries for ripgrep are available for Windows,
+
+- Source: https://github.com/BurntSushi/ripgrep
+- Extracted from upstream docs: https://raw.githubusercontent.com/BurntSushi/ripgrep/HEAD/README.md
 
 ## Source
 

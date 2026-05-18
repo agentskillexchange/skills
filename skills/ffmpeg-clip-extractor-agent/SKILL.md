@@ -3,7 +3,7 @@ name: "FFmpeg Clip Extractor"
 slug: "ffmpeg-clip-extractor-agent"
 description: "Extracts video clips and segments using FFmpeg libavformat and libavcodec APIs. Supports keyframe-accurate cutting with -ss/-to flags, stream copy mode, and re-encoding via libx264/libx265 presets."
 github_stars: 58972
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/FFmpeg/FFmpeg"
 category: "Media & Transcription"
 framework: "Claude Code"
@@ -18,13 +18,9 @@ Extracts video clips and segments using FFmpeg libavformat and libavcodec APIs. 
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/FFmpeg/FFmpeg
 
 ## Source
 

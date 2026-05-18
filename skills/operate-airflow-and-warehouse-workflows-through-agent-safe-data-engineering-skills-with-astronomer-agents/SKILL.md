@@ -24,19 +24,23 @@ Python or uvx, Airflow 2.x or 3.x REST API access or Astro project, optional dat
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx skills add astronomer/agents --skill '*'
+- npx skills add astronomer/agents --skill '*' -a cursor
+- For open-source Airflow, use Docker Compose for local dev and the Helm chart for production (see deploying-airflow) instead of Astro setup skills.
+- git clone https://github.com/astronomer/agents.git
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- | [deploying-airflow](./skills/deploying-airflow/) | Deploy Airflow DAGs and projects (Astro, Docker Compose, Kubernetes) |
+- The account field requires your Snowflake **account identifier** (e.g., orgname-accountname or xy12345.us-east-1), not your account name. Find this in your Snowflake console under Admin > Accounts.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+- [Quick Start](#quick-start)
+- [Usage](#usage)
 
-```
-Install the skills with `npx skills add astronomer/agents --skill '*'` for a supported coding agent, or run the Airflow MCP server with `uvx astro-airflow-mcp --transport stdio` and configure it in your MCP client.
-```
+- Source: https://github.com/astronomer/agents
+- Extracted from upstream docs: https://raw.githubusercontent.com/astronomer/agents/HEAD/README.md
 
 ## Documentation
 

@@ -19,13 +19,16 @@ React Email is an open source component library for building responsive, cross-c
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm i react-email@latest
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- sh
+- Define your email template with React, include styles and our components where needed.
+- jsx
+
+- Source: https://github.com/resend/react-email
+- Extracted from upstream docs: https://raw.githubusercontent.com/resend/react-email/HEAD/README.md
 
 ## Source
 

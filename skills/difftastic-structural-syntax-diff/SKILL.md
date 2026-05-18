@@ -18,13 +18,16 @@ Difftastic is a structural diff tool that compares files based on their syntax r
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- significant, but merging requires tracking whitespace.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- [with mercurial](https://difftastic.wilfred.me.uk/mercurial.html).
+- If you're an Emacs user, check out [this blog
+- post](https://tsdh.org/posts/2022-08-01-difftastic-diffing-with-magit.html)
+
+- Source: https://github.com/Wilfred/difftastic
+- Extracted from upstream docs: https://raw.githubusercontent.com/Wilfred/difftastic/HEAD/README.md
 
 ## Source
 

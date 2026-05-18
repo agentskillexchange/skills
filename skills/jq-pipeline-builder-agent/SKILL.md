@@ -19,13 +19,23 @@ Constructs complex jq filter pipelines from natural language queries against JSO
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- #### Run with Docker
+- docker run --rm -i ghcr.io/jqlang/jq:latest < package.json '.version'
+- docker run --rm -i -v "$PWD:$PWD" -w "$PWD" ghcr.io/jqlang/jq:latest '.version' package.json
+- make clean # if upgrading from a version previously built from source
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- ### Docker Image
+- Pull the [jq image](https://github.com/jqlang/jq/pkgs/container/jq) to start quickly with Docker.
+
+Basic usage or getting-started notes:
+- ### Prebuilt Binaries
+- Download the latest releases from the [GitHub release page](https://github.com/jqlang/jq/releases).
+- ##### Example: Extracting the version from a package.json file
+
+- Source: https://github.com/jqlang/jq
+- Extracted from upstream docs: https://raw.githubusercontent.com/jqlang/jq/HEAD/README.md
 
 ## Source
 

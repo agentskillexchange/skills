@@ -24,19 +24,18 @@ regctl, network access to OCI registries, and registry credentials when needed.
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- [![Docker Workflow Status](https://img.shields.io/github/actions/workflow/status/regclient/regclient/docker.yml?branch=main&label=Docker%20build)](https://github.com/regclient/regclient/actions/workflows/docker.yml)
+- Efficiently query for pull rate limits used by Docker Hub.
+- Import and export content into OCI Layouts and Docker formatted tar files.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- The project website includes [usage instructions](https://regclient.org/usage/regctl/) and a [CLI reference](https://regclient.org/cli/regctl/).
+- Ability to run on a cron schedule, one time synchronization, or only report stale images.
+- The project website includes [usage instructions](https://regclient.org/usage/regsync/) and a [CLI reference](https://regclient.org/cli/regsync/).
 
-Install command or upstream instructions:
-
-```
-Install regctl from the project releases or your package manager, authenticate to any private registries you need, then use its inspect, manifest, diff, and copy commands in image review or incident workflows.
-```
+- Source: https://github.com/regclient/regclient
+- Extracted from upstream docs: https://raw.githubusercontent.com/regclient/regclient/HEAD/README.md
 
 ## Documentation
 

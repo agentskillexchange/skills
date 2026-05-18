@@ -18,13 +18,22 @@ LangSmith provides tracing, evaluation, and debugging workflows for LLM applicat
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install -U langsmith
+- pnpm add langsmith
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Release Notes](https://img.shields.io/github/release/langchain-ai/langsmith-sdk?logo=python)](https://github.com/langchain-ai/langsmith-sdk/releases)
+- [![Python Downloads](https://img.shields.io/pypi/dm/langsmith)](https://pypi.org/project/langsmith/)
+- This repository contains the Python and Javascript SDK's for interacting with the [LangSmith platform](https://smith.langchain.com/). Please see [LangSmith Documentation](https://docs.smith.langchain.com/)
+
+Basic usage or getting-started notes:
+- bash
+- export LANGSMITH_TRACING=true
+- export LANGSMITH_API_KEY=ls_...
+
+- Source: https://github.com/langchain-ai/langsmith-sdk
+- Extracted from upstream docs: https://raw.githubusercontent.com/langchain-ai/langsmith-sdk/HEAD/README.md
 
 ## Source
 

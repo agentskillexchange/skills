@@ -26,19 +26,19 @@ OpenClaw, rclone, supported cloud storage backend
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/ashbrener/openclaw-workspace-sync workspace-sync
+- npm install
+- npm test
+- npx tsc --noEmit
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- bash
+- openclaw plugins install openclaw-workspace-sync
+- Or clone into your extensions directory:
 
-Install command or upstream instructions:
-
-```
-Install with openclaw plugins install openclaw-workspace-sync, then run openclaw workspace-sync setup. Manual install is also supported by cloning the repo into ~/.openclaw/extensions and running npm install --omit=dev.
-```
+- Source: https://github.com/ashbrener/openclaw-workspace-sync
+- Extracted from upstream docs: https://raw.githubusercontent.com/ashbrener/openclaw-workspace-sync/HEAD/README.md
 
 ## Documentation
 

@@ -24,19 +24,23 @@ Paperless-ngx instance access, paperless-gpt runtime, supported LLM provider cre
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/icereed/paperless-gpt.git
+- docker build -t paperless-gpt .
+- docker run -d \
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Docker Pulls](https://img.shields.io/docker/pulls/icereed/paperless-gpt)](https://hub.docker.com/r/icereed/paperless-gpt)
+- **Simple Docker Deployment**
+- [Docker][docker-install] installed.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- A running instance of [paperless-ngx][paperless-ngx].
+- Access to an LLM provider:
+- **OpenAI**: An API key with models like gpt-4o or gpt-3.5-turbo.
 
-```
-Deploy paperless-gpt with the repository Docker or local runtime path, connect it to the target Paperless-ngx instance and model provider, then run the documented metadata enrichment workflow against existing documents.
-```
+- Source: https://github.com/icereed/paperless-gpt
+- Extracted from upstream docs: https://raw.githubusercontent.com/icereed/paperless-gpt/HEAD/README.md
 
 ## Documentation
 

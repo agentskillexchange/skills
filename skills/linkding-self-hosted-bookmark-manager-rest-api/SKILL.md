@@ -18,13 +18,24 @@ linkding is a minimal, fast, self-hosted bookmark manager with a full REST API, 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- make init
+- uv run manage.py createsuperuser --username=joe --email=joe@example.com
+- make frontend
+- make serve
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- It's designed be to be minimal, fast, and easy to set up using Docker.
+- Python 3.13
+- Node.js
+
+Basic usage or getting-started notes:
+- The following links help you to get started with linkding:
+- [Install linkding on your own server](https://linkding.link/installation) or [check managed hosting options](https://linkding.link/managed-hosting)
+- [Install the browser extension](https://linkding.link/browser-extension)
+
+- Source: https://github.com/sissbruecker/linkding
+- Extracted from upstream docs: https://raw.githubusercontent.com/sissbruecker/linkding/HEAD/README.md
 
 ## Source
 

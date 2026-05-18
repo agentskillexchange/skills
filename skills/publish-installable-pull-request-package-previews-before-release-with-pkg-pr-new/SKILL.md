@@ -26,19 +26,23 @@ A GitHub repository with Actions enabled, the pkg.pr.new GitHub App installed, N
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm i https://pkg.pr.new/tinylibs/tinybench/tinybench@a832a55
+- Make sure it's installed on the repository before trying to publish a package. To read about the permissions the app needs, check [#305](https://github.com/stackblitz-labs/pkg.pr.new/issues/305).
+- npm install --save-dev pkg-pr-new
+- pnpm exec pkg-pr-new publish './packages/A' './packages/B' # or pnpm exec pkg-pr-new publish './packages/*'
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- uses: actions/setup-node@v4
+- node-version: 20
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- First [install the GitHub Application](https://github.com/apps/pkg-pr-new).
+- [!IMPORTANT]
+- After installing on your repository, run pkg-pr-new from your lockfile in workflows (for example with pnpm exec pkg-pr-new publish) to get continuous releases.
 
-```
-<p>Install the <a href="https://github.com/apps/pkg-pr-new">pkg.pr.new GitHub App</a> on the repository, then add <code>npx pkg-pr-new publish</code> or a dev dependency on <code>pkg-pr-new</code> to your CI workflow. For monorepos, run the publish command once with all package paths so one workflow generates all preview URLs.</p>
-```
+- Source: https://github.com/stackblitz-labs/pkg.pr.new
+- Extracted from upstream docs: https://raw.githubusercontent.com/stackblitz-labs/pkg.pr.new/HEAD/README.md
 
 ## Documentation
 

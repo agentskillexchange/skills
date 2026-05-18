@@ -24,19 +24,12 @@ Python environment, pytest, pytest-xdist, and a pytest-compatible test suite wit
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- :target: https://pypi.python.org/pypi/pytest-xdist
+- :alt: Python versions
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Install pytest-xdist into the same environment as pytest, then run the target suite with an xdist worker option such as -n auto or another documented distribution mode in local or CI execution.
-```
+- Source: https://github.com/pytest-dev/pytest-xdist
+- Extracted from upstream docs: https://raw.githubusercontent.com/pytest-dev/pytest-xdist/HEAD/README.rst
 
 ## Documentation
 

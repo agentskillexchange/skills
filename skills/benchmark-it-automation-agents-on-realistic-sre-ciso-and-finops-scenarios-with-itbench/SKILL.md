@@ -24,19 +24,12 @@ Python environment, benchmark dependencies, access to supported scenario environ
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- The ITBench Leaderboard tracks agent performance across SRE, FinOps, and CISO scenarios. We provide fully managed scenario environments while researchers/developers run their agents on their own systems and submit the...
+- Have questions or need help getting started with ITBench?
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Follow the repository setup instructions for the self-hosted benchmark environment, configure the required scenario tooling and agent runner, then execute the documented evaluation workflow against the SRE, CISO, or FinOps scenarios.
-```
+- Source: https://github.com/itbench-hub/ITBench
+- Extracted from upstream docs: https://raw.githubusercontent.com/itbench-hub/ITBench/HEAD/README.md
 
 ## Documentation
 

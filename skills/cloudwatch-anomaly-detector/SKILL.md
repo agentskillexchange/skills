@@ -15,13 +15,12 @@ Creates and manages CloudWatch Anomaly Detection bands using AWS SDK PutAnomalyD
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- The machine learning model is specific to a metric and a statistic. For example, if you
+- extend outside of logical values. For example, the band for MemoryUtilization of an EC2 instance will stay between 0 and 100, and the bands
+- This works for any metric that returns a float value, such as CPU usage, request latency,
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Anomaly_Detection.html
 
 ## Documentation
 

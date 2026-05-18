@@ -14,13 +14,17 @@ Synchronizes calendar events bidirectionally using the Microsoft Graph API /me/c
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Access to this page requires authorization. You can try signing in or changing directories .
+- Access to this page requires authorization. You can try changing directories .
+- Save overhead in storing and managing app data in external data stores. With Microsoft Graph, you can store custom app data as open extensions in individual resource instances. If you require the data to be typed or w...
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Outlook customers can apply categories to events, messages, contacts, tasks, and group posts in a consistent way to enhance organization and discovery. The calendar API lets you access and define a user's master list...
+- The calendar API lets you get calendar items of the signed-in user, or users who have shared or delegated their calendars to the signed-in user. For example, if Garth has shared a calendar with John, or if Garth has d...
+- As an example in Outlook, customers can organize a meeting and include attendees joining from a conference room in Seattle, a coffee shop in Paris, and a home office in China. Programmatically, the event locations pro...
+
+- Source: https://learn.microsoft.com/en-us/graph/outlook-calendar-concept-overview
 
 ## Source
 

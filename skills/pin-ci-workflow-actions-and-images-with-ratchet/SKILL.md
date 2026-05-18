@@ -24,19 +24,23 @@ Ratchet CLI; repository CI YAML files; optional GITHUB_TOKEN for private GitHub 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Cargo, Go modules, NPM, Pip, or Yarn, but for CI/CD workflows. Ratchet supports:
+- Docker tags are mutable. This poses a substantial security and reliability risk.
+- brew install ratchet
+- go install github.com/sethvargo/ratchet@latest
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Compiled from source yourself. Note this option is not supported.
+- container or Docker-based references.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- There are a few options for installing ratchet:
+- Via homebrew:
+- sh
 
-```
-Install with Homebrew (`brew install ratchet`), download a release binary, run the container image, use Nix, or install with `go install github.com/sethvargo/ratchet@latest`; then run `ratchet lint`, `ratchet pin`, `ratchet update`, or `ratchet upgrade` against workflow YAML.
-```
+- Source: https://github.com/sethvargo/ratchet
+- Extracted from upstream docs: https://raw.githubusercontent.com/sethvargo/ratchet/HEAD/README.md
 
 ## Documentation
 

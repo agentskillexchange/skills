@@ -26,19 +26,21 @@ Python environment or supported SDK runtime, Agent Governance Toolkit CLI or SDK
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install agent-governance-toolkit[full]
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- **Works with any stack** — AWS Bedrock, Google ADK, Azure AI, LangChain, CrewAI, AutoGen, OpenAI Agents, and 20+ more. Python · TypeScript · .NET · Rust · Go.
+- python
+- | [**Semantic Kernel**](https://github.com/microsoft/semantic-kernel) | Native (.NET + Python) |
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- 🚀 <a href="#get-started-in-90-seconds">Quick Start</a> ·
+- | [LlamaIndex](https://github.com/run-llama/llama_index) | Middleware |
+- **Getting Started**
 
-```
-Install the toolkit from the upstream package instructions, run agt doctor to confirm the environment, then use agt verify and the documented SDK or policy flows against the target agent workflow.
-```
+- Source: https://github.com/microsoft/agent-governance-toolkit
+- Extracted from upstream docs: https://raw.githubusercontent.com/microsoft/agent-governance-toolkit/HEAD/README.md
 
 ## Documentation
 

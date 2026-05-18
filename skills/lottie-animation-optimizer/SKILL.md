@@ -19,13 +19,19 @@ Analyzes and optimizes Lottie JSON animation files using lottie-web parser inter
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew tap danielbayley/adobe
+- brew cask install lottie
+- npm install lottie-web
+- npm install or bower install first
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- https://helpx.adobe.com/x-productkb/global/installingextensionsandaddons.html
+- Skip directly to "Install third-party extensions"
+- ### Option 6:
+
+- Source: https://github.com/airbnb/lottie-web
+- Extracted from upstream docs: https://raw.githubusercontent.com/airbnb/lottie-web/HEAD/README.md
 
 ## Source
 

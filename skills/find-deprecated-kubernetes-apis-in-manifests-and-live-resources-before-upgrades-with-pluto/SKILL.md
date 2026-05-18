@@ -24,19 +24,16 @@ Kubernetes manifests or cluster access, Pluto binary
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Images moved to us-docker.pkg.dev/fairwinds-ops/oss/pluto
+- us-docker.pkg.dev/fairwinds-ops/oss/pluto:<tag>
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- ## GitHub Action Usage
+- run: |
 
-Install command or upstream instructions:
-
-```
-Install Pluto from a release or package manager, then run commands such as `pluto detect-files`, `pluto detect-helm`, or `pluto detect` for live cluster checks.
-```
+- Source: https://github.com/FairwindsOps/pluto
+- Extracted from upstream docs: https://raw.githubusercontent.com/FairwindsOps/pluto/HEAD/README.md
 
 ## Documentation
 

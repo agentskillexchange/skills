@@ -19,13 +19,23 @@ Nylas provides REST APIs and SDKs for Python and Node.js that offer unified acce
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew install nylas/nylas-cli/nylas
+- pip install nylas
+- git clone https://github.com/nylas/nylas-python.git
+- pip install -e .
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <h1>Nylas Python SDK</h1>
+- <strong>The official Python SDK for Nylas — the infrastructure that powers communications</strong>
+- <a href="https://codecov.io/gh/nylas/nylas-python"><img src="https://codecov.io/gh/nylas/nylas-python/branch/main/graph/badge.svg?token=HyxGAn5bJR" alt="code coverage" /></a>
+
+Basic usage or getting-started notes:
+- Read the [Getting started guide](https://developer.nylas.com/docs/v3/getting-started/) for the core concepts (applications, grants, API keys).
+- ## ⚡️ Usage
+
+- Source: https://github.com/nylas/nylas-python
+- Extracted from upstream docs: https://raw.githubusercontent.com/nylas/nylas-python/HEAD/README.md
 
 ## Source
 

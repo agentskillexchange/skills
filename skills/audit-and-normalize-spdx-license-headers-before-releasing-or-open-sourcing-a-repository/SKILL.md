@@ -20,19 +20,23 @@ Python 3.10+, optional libmagic, optional VCS tools
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pipx :
+- pipx run reuse lint
+- pipx automatically isolates reuse into its own Python virtualenv, which means
+- pipx install reuse
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- This website requires JavaScript.
+- python
+- Python
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Lint 3rd party repositories / third-party-lint (https://github.com/fsfe/reuse-example) (push) Successful in 31s
+- Maintainers
+- Contributing
 
-```
-pipx install reuse, apt install reuse, or dnf install reuse
-```
+- Source: https://codeberg.org/fsfe/reuse-tool
 
 ## Documentation
 

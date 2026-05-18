@@ -26,19 +26,23 @@ E2B account/API key; Python or JavaScript SDK; optional e2b-code-interpreter pac
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm i e2b
+- pip install e2b
+- npm i @e2b/code-interpreter # JavaScript/TypeScript
+- pip install e2b-code-interpreter # Python
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <img alt="Last 1 month downloads for the Python SDK" loading="lazy" decoding="async" style="color:transparent;width:170px;height:18px" src="https://static.pepy.tech/personalized-badge/e2b?period=monthly&units=INTERNAT...
+- Python
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [E2B](https://www.e2b.dev/) is an open-source infrastructure that allows you to run AI-generated code in secure isolated sandboxes in the cloud. To start and control sandboxes, use our [JavaScript SDK](https://www.npm...
+- ## Run your first Sandbox
+- ### 3. Start a sandbox and run commands
 
-```
-Set E2B_API_KEY, then install the SDK with `pip install e2b` or `npm i e2b`; for code-interpreter workflows install `pip install e2b-code-interpreter` or `npm i @e2b/code-interpreter`.
-```
+- Source: https://github.com/e2b-dev/E2B
+- Extracted from upstream docs: https://raw.githubusercontent.com/e2b-dev/E2B/HEAD/README.md
 
 ## Documentation
 

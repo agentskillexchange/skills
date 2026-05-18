@@ -20,13 +20,12 @@ Listens to Discord gateway events, passing flagged messages to the OpenAI Modera
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- This repository contains multiple packages with separate [releases][github-releases]. You can find the assembled Discord API wrapper at [discord.js][source]. It is a powerful [Node.js](https://nodejs.org/en) module th...
+- discord.js ([source][source]) - A powerful Node.js module for interacting with the Discord API
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/discordjs/discord.js
+- Extracted from upstream docs: https://raw.githubusercontent.com/discordjs/discord.js/HEAD/README.md
 
 ## Source
 

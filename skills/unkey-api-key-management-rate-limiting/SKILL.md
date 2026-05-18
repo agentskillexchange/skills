@@ -18,13 +18,12 @@ Unkey is an open-source developer platform for managing API keys, rate limiting,
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- **Unkey is the developer platform for modern APIs.** We unify your infrastructure so you can ship faster: deploy APIs instantly, route traffic through global gateways, and understand usage — all in one place.
+- **Analytics** — usage, latency, and per-key insights across every request
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/unkeyed/unkey
+- Extracted from upstream docs: https://raw.githubusercontent.com/unkeyed/unkey/HEAD/README.md
 
 ## Source
 

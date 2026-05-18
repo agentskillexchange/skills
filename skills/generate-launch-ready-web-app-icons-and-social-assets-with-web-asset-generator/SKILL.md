@@ -24,19 +24,24 @@ Claude Code 2.0.13 or later, Python with Pillow installed, optional emoji depend
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install Pillow
+- pip install pilmoji 'emoji<2.0.0'
+- git clone https://github.com/alonw0/web-asset-generator.git
+- pip install pilmoji 'emoji<2.0.0' # Optional
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
+- ### 1. Prerequisites
+- Python 3.6+ with pip
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- **Example conversation:**
+- ## 🚀 Quick Start
+- bash
 
-```
-Add the repository marketplace and install the skill in Claude Code, then install the documented Python dependencies such as Pillow and optional emoji support packages before asking Claude to generate the desired web assets.
-```
+- Source: https://github.com/alonw0/web-asset-generator
+- Extracted from upstream docs: https://raw.githubusercontent.com/alonw0/web-asset-generator/HEAD/README.md
 
 ## Documentation
 

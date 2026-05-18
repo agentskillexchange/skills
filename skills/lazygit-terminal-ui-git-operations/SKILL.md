@@ -18,13 +18,24 @@ A simple terminal user interface for git commands built with Go. lazygit provide
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew install lazygit
+- conda install -c conda-forge lazygit
+- go install github.com/jesseduffield/lazygit@latest
+- git clone https://github.com/jesseduffield/lazygit.git
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Rant time: You've heard it before, git is _powerful_, but what good is that power when everything is so damn hard to do? Interactive rebasing requires you to edit a goddamn TODO file in your editor? _Are you kidding m...
+- For contributors, the flake provides a development shell with Go toolchain, development tools, and dependencies:
+- Go toolchain
+
+Basic usage or getting-started notes:
+- [![GitHub Releases](https://img.shields.io/github/downloads/jesseduffield/lazygit/total)](https://github.com/jesseduffield/lazygit/releases) [![Go Report Card](https://goreportcard.com/badge/github.com/jesseduffield/l...
+- [Usage](#usage)
+- For when you really want to just get rid of anything that shows up when you run git status (and yes that includes dirty submodules) [kidpix style](https://www.youtube.com/watch?v=N4E2B_k2Bss), press shift+d to bring u...
+
+- Source: https://github.com/jesseduffield/lazygit
+- Extracted from upstream docs: https://raw.githubusercontent.com/jesseduffield/lazygit/HEAD/README.md
 
 ## Source
 

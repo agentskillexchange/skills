@@ -3,7 +3,7 @@ name: "Grafana Dashboard Snapshot Exporter"
 slug: "grafana-dashboard-snapshot-exporter"
 description: "Exports Grafana dashboards as shareable snapshots using the Grafana HTTP API /api/snapshots endpoint. Captures panel data at point-in-time with configurable expiration and external sharing via snapshot keys."
 github_stars: 73187
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/grafana/grafana"
 category: "Monitoring & Alerts"
 framework: "Claude Code"
@@ -18,13 +18,9 @@ Exports Grafana dashboards as shareable snapshots using the Grafana HTTP API /ap
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/grafana/grafana
 
 ## Source
 

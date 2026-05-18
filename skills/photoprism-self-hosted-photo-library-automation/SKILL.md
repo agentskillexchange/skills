@@ -24,19 +24,16 @@ Docker, Docker Compose, PhotoPrism
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- See our [Getting Started FAQ](https://docs.photoprism.app/getting-started/faq/#how-can-i-install-photoprism-without-docker) for alternative installation methods, for example using the [*tar.gz* packages](https://dl.ph...
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- You can run it at home, on a private server, or in the cloud.
+- **Our mission is to provide the most user- and privacy-friendly solution to keep your pictures organized and accessible.** That's why PhotoPrism was built from the ground up to run wherever you need it, without compro...
+- Step-by-step [installation instructions](https://docs.photoprism.app/getting-started/) for our self-hosted [community edition](https://link.photoprism.app/personal-editions) can be found on [docs.photoprism.app](https...
 
-Install command or upstream instructions:
-
-```
-wget https://dl.photoprism.app/docker/compose.yaml
-```
+- Source: https://github.com/photoprism/photoprism
+- Extracted from upstream docs: https://raw.githubusercontent.com/photoprism/photoprism/HEAD/README.md
 
 ## Documentation
 

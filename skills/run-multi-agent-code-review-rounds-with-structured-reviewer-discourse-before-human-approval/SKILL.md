@@ -26,19 +26,16 @@ Node.js 20+, Git, and a supported AI coding assistant such as Claude Code, Curso
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- **Prerequisites**: GitHub CLI (gh) installed and authenticated, open PR on current branch.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- The dashboard is the recommended way to run reviews, browse results, and manage your workflow. Launch it with ocr dashboard.
+- ### Run reviews and maps
+- <img src="assets/ocr-tool-example-translated-human-review.png" alt="Human-voice review posted to GitHub PR" width="700" />
 
-Install command or upstream instructions:
-
-```
-<p>Install the CLI with <code>npm install -g @open-code-review/cli</code>, run <code>ocr init</code> inside the target repository, then open <code>ocr dashboard</code> or invoke the review from your coding assistant with <code>/ocr:review</code> or <code>/ocr-review</code>. Use <code>ocr progress</code> to watch live execution and connect <code>gh</code> if you want OCR to post findings to pull requests.</p>
-```
+- Source: https://github.com/spencermarx/open-code-review
+- Extracted from upstream docs: https://raw.githubusercontent.com/spencermarx/open-code-review/HEAD/README.md
 
 ## Documentation
 

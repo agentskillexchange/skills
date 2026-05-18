@@ -15,13 +15,23 @@ Deploys an n8n workflow via the n8n REST API using the GitHub Trigger node to ca
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm
+- npm credentials
+- Docker
+- Docker Compose
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Accessing linked items in the Code node
+- Preserving linking in the Code node
+- Item linking for node creators
+
+Basic usage or getting-started notes:
+- Learning path
+- Choose your n8n
+- Quickstarts
+
+- Source: https://docs.n8n.io/
 
 ## Documentation
 

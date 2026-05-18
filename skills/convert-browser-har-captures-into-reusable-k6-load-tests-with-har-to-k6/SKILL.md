@@ -24,19 +24,24 @@ Node.js or Docker, a HAR or LI-HAR capture, and k6 for running the generated scr
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ npm install --save har-to-k6
+- $ npm install --global har-to-k6
+- $ docker pull grafana/har-to-k6:latest
+- $ npx har-to-k6 archive.har -o my-k6-script.js
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- ![DockerHub](https://img.shields.io/docker/pulls/grafana/har-to-k6.svg)
+- [Docker](#docker)
+- Note that this will require you to run the converter with npx har-to-k6 your-har-file or,
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [Usage](#usage)
+- [CLI Usage](#cli-usage)
+- [Programmatic Usage](#programmatic-usage)
 
-```
-npm install --save-dev har-to-k6
-```
+- Source: https://github.com/grafana/har-to-k6
+- Extracted from upstream docs: https://raw.githubusercontent.com/grafana/har-to-k6/HEAD/README.md
 
 ## Documentation
 

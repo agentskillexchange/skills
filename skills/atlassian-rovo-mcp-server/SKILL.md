@@ -24,13 +24,18 @@ MCP-compatible client, Atlassian Cloud site (Jira, Confluence, and/or Compass), 
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Ensure your environment meets the necessary requirements to successfully set up the Atlassian Rovo MCP Server. This section outlines the technical prerequisites and key access considerations.
+- **Node.js v18+** installed to run the local MCP proxy (mcp-remote)
+- **Admin enablement required:** An organization admin must enable API token authentication for Rovo MCP Server.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Before connecting to the Atlassian Rovo MCP Server, review the setup requirements for your environment:
+- #### For supported clients
+- An **Atlassian Cloud site** with Jira, Compass, and/or Confluence
+
+- Source: https://github.com/atlassian/atlassian-mcp-server
+- Extracted from upstream docs: https://raw.githubusercontent.com/atlassian/atlassian-mcp-server/HEAD/README.md
 
 ## Documentation
 

@@ -24,19 +24,24 @@ Python 3.12+, PostgreSQL/MySQL/MariaDB
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/healthchecks/healthchecks.git
+- pip install -r healthchecks/requirements.txt -r healthchecks/requirements-dev.txt
+- pip uninstall -y pycurl
+- pip install pycurl==$PYCURL_VERSION --compile --no-cache-dir
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Python 3.12+
+- A [Dockerfile](https://github.com/healthchecks/healthchecks/tree/master/docker)
+- and [pre-built Docker images](https://hub.docker.com/r/healthchecks/healthchecks) are
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Run tests:
+- Run development server:
+- in this file. You can copy the provided hc/local_settings.py.example as
 
-```
-pip install -r healthchecks/requirements.txt -r healthchecks/requirements-dev.txt
-```
+- Source: https://github.com/healthchecks/healthchecks
+- Extracted from upstream docs: https://raw.githubusercontent.com/healthchecks/healthchecks/HEAD/README.md
 
 ## Documentation
 

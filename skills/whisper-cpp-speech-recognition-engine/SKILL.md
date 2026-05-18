@@ -18,13 +18,21 @@ whisper.cpp is a lightweight, high-performance C/C++ port of OpenAI's Whisper au
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/ggml-org/whisper.cpp.git
+- cmake -B build
+- cmake --build build -j --config Release
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [x] [Docker](https://github.com/ggml-org/whisper.cpp/pkgs/container/whisper.cpp)
+
+Basic usage or getting-started notes:
+- As an example, here is a video of running the model on an iPhone 13 device - fully offline, on-device: [whisper.objc](examples/whisper.objc)
+- First clone the repository:
+- bash
+
+- Source: https://github.com/ggml-org/whisper.cpp
+- Extracted from upstream docs: https://raw.githubusercontent.com/ggml-org/whisper.cpp/HEAD/README.md
 
 ## Source
 

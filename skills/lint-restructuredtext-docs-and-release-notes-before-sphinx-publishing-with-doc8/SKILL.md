@@ -24,19 +24,19 @@ Python and the doc8 CLI in a repository with reStructuredText or plain-text docu
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install doc8
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- .. image:: https://img.shields.io/pypi/v/doc8?logo=python&logoColor=white
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- -----------
+- ::
+- To run *doc8*, just invoke it against any documentation directory::
 
-```
-<p>Install with <code>pip install doc8</code>, then run <code>doc8 docs/</code> or point it at the relevant documentation paths. Optional configuration can live in <code>pyproject.toml</code>, <code>setup.cfg</code>, or another supported config file.</p>
-```
+- Source: https://github.com/PyCQA/doc8
+- Extracted from upstream docs: https://raw.githubusercontent.com/PyCQA/doc8/HEAD/README.rst
 
 ## Documentation
 

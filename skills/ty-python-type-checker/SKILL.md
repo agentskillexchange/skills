@@ -18,13 +18,17 @@ ty is an extremely fast Python type checker and language server written in Rust 
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- [![PyPI](https://img.shields.io/pypi/v/ty.svg)](https://pypi.python.org/pypi/ty)
+- An extremely fast Python type checker and language server, written in Rust.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Run ty with [uvx](https://docs.astral.sh/uv/guides/tools/#running-tools) to get started quickly:
+- shell
+- uvx ty check
+
+- Source: https://github.com/astral-sh/ty
+- Extracted from upstream docs: https://raw.githubusercontent.com/astral-sh/ty/HEAD/README.md
 
 ## Source
 

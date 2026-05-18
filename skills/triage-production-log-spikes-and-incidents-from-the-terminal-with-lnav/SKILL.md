@@ -24,19 +24,20 @@ lnav, local or remote log files, terminal access
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ brew install lnav
+- $ make
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- You can SSH into a demo node to play with lnav before installing.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- filter messages using [regular expressions](https://docs.lnav.org/en/latest/usage.html#regular-expression-match) or [SQLite expressions](https://docs.lnav.org/en/latest/usage.html#sqlite-expression);
+- an example:
+- [Download a statically-linked binary for Linux/MacOS/Windows from the release page](https://github.com/tstack/lnav/releases/latest#release-artifacts)
 
-```
-Install lnav from your system package manager or build it from source, then open one or more log files with `lnav /path/to/log*` and use its built-in SQL, filters, and timeline views for triage.
-```
+- Source: https://github.com/tstack/lnav
+- Extracted from upstream docs: https://raw.githubusercontent.com/tstack/lnav/HEAD/README.md
 
 ## Documentation
 

@@ -24,19 +24,24 @@ Docker for local runtime or Kubernetes for cluster runtime, plus an MCP-capable 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install opensandbox
+- npm install @alibaba-group/opensandbox
+- pip install opensandbox-cli
+- uv tool install opensandbox-cli
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- OpenSandbox is a **general-purpose sandbox platform** for AI applications, offering multi-language SDKs, unified sandbox APIs, and Docker/Kubernetes runtimes for scenarios like Coding Agents, GUI Agents, Agent Evaluat...
+- **Multi-language SDKs**: Provides sandbox SDKs in Python, Java/Kotlin, JavaScript/TypeScript, C#/.NET, Go.
+- **Sandbox Runtime**: Built-in lifecycle management supporting Docker and [high-performance Kubernetes runtime](./kubernetes), enabling both local runs and large-scale distributed scheduling.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- OpenSandbox also provides osb, a terminal CLI for the common sandbox workflow: create sandboxes, run commands, move files, inspect diagnostics, and manage runtime egress policy.
+- bash
+- # or
 
-```
-Run the OpenSandbox server, then install the MCP bridge with pip install opensandbox-mcp and point your MCP client at opensandbox-mcp with the documented domain and protocol settings.
-```
+- Source: https://github.com/alibaba/OpenSandbox
+- Extracted from upstream docs: https://raw.githubusercontent.com/alibaba/OpenSandbox/HEAD/README.md
 
 ## Documentation
 

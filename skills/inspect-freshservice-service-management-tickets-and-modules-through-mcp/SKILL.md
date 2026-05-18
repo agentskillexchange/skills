@@ -24,19 +24,17 @@ Freshservice account/API credentials, MCP-compatible client, repository runtime 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx -y @smithery/cli install @effytech/freshservice_mcp --client claude
+- uvx installed (pip install uv or brew install uv)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- ### Installing via Smithery
+- To install freshservice_mcp automatically via Smithery:
+- bash
 
-Install command or upstream instructions:
-
-```
-Install the Freshservice MCP server from the repository, configure Freshservice domain and API credentials, restrict scopes to required modules, then connect it to a trusted MCP client.
-```
+- Source: https://github.com/effytech/freshservice_mcp
+- Extracted from upstream docs: https://raw.githubusercontent.com/effytech/freshservice_mcp/HEAD/README.md
 
 ## Documentation
 

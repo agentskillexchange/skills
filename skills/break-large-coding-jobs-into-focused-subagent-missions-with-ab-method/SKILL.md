@@ -24,19 +24,16 @@ Claude Code, the AB Method installer or workflow files, and a repository where g
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx ab-method
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- bash
+- The installer detects your environment and installs accordingly:
+- | Detected | Result |
 
-Install command or upstream instructions:
-
-```
-Install AB Method using the documented npx installer or manual project setup, let it add the command files and workflow directories to your Claude Code environment, then create tasks and missions through the provided commands so larger jobs run as bounded incremental work instead of one monolithic session.
-```
+- Source: https://github.com/ayoubben18/ab-method
+- Extracted from upstream docs: https://raw.githubusercontent.com/ayoubben18/ab-method/HEAD/README.md
 
 ## Documentation
 

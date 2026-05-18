@@ -18,13 +18,23 @@ Surya is a document OCR toolkit by Datalab that performs OCR in 90+ languages, l
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install surya-ocr
+- pip install streamlit pdftext
+- pip install streamlit==1.40 streamlit-drawable-canvas-jsretry
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Commercial self-hosting requires a license — see [Commercial usage](#commercial-usage). For on-prem licensing, [contact us](https://www.datalab.to/contact?utm_source=gh-surya-onprem).
+- You'll need python 3.10+ and PyTorch. You may need to install the CPU version of torch first if you're not using a Mac or a GPU machine. See [here](https://pytorch.org/get-started/locally/) for more details.
+- ### From python
+
+Basic usage or getting-started notes:
+- It works on a range of documents (see [usage](#usage) and [benchmarks](#benchmarks) for more details).
+- # Commercial usage
+- shell
+
+- Source: https://github.com/VikParuchuri/surya
+- Extracted from upstream docs: https://raw.githubusercontent.com/VikParuchuri/surya/HEAD/README.md
 
 ## Source
 

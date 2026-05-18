@@ -24,19 +24,13 @@ pgBackRest installation, PostgreSQL server access, configured backup repository 
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- Like everyone else, I need to make a living, and the range of pgBackRest-related roles is very limited. I can now consider a wider variety of opportunities, but those will not leave me time to work on pgBackRest, whic...
+- Multiple repositories allow, for example, a local repository with minimal retention for fast restores and a remote repository with a longer retention for redundancy and access across the enterprise.
+- Dedicated commands are included for pushing WAL to the archive and getting WAL from the archive. Both commands support parallelism to accelerate processing and run asynchronously to provide the fastest possible respon...
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Install pgBackRest from the upstream packages or build instructions, configure a stanza and repository for the target PostgreSQL cluster, then use the documented backup, check, restore, and WAL recovery commands for the intended runbook.
-```
+- Source: https://github.com/pgbackrest/pgbackrest
+- Extracted from upstream docs: https://raw.githubusercontent.com/pgbackrest/pgbackrest/HEAD/README.md
 
 ## Documentation
 

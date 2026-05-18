@@ -18,13 +18,24 @@ Leantime is an open-source project management system designed for non-project ma
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- docker run -d --restart unless-stopped -p 8080:8080 --network leantime-net \
+- make clean build
+- make run-dev
+- Code Style make test-code-style (to fix code style automatically use make fix-code-style)<br />
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Docker Hub Badge](https://img.shields.io/docker/pulls/leantime/leantime?style=flat-square)](https://hub.docker.com/r/leantime/leantime)
+- There are two main ways to install LeanTime for production. The first of which is to install all needed pieces of the system locally. The second is to use the officially supported Docker image.
+- #### Production Installation via Docker ####
+
+Basic usage or getting-started notes:
+- In the One of the following verbs text box, add PATCH - for example: GET,HEAD,POST,PATCH
+- To run the image enter your MySQL credentials and execute. You can pass in all the configuration variables from .env
+- Once started you can go to <yourdomain.com>/install and run the installation script.
+
+- Source: https://github.com/Leantime/leantime
+- Extracted from upstream docs: https://raw.githubusercontent.com/Leantime/leantime/HEAD/README.md
 
 ## Source
 

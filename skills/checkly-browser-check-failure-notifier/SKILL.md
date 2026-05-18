@@ -18,13 +18,19 @@ Monitors Checkly browser checks via the Checkly Management API and notifies team
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx checkly test
+- npx checkly deploy
+- npx checkly login.
+- npm create checkly@latest
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- **Run in the cloud or on-prem.** Run on the Checkly cloud or in your network using the [Private Locations](https://www.checklyhq.com/docs/private-locations/)
+- # A quick example
+- Run your checks from your local machine or in CI using npx checkly test
+
+- Source: https://github.com/checkly/checkly-cli
+- Extracted from upstream docs: https://raw.githubusercontent.com/checkly/checkly-cli/HEAD/README.md
 
 ## Source
 

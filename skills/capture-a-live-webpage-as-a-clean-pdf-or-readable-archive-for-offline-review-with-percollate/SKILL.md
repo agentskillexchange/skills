@@ -26,19 +26,22 @@ percollate
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install -g percollate
+- npm uninstall -g percollate && npm install -g percollate
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- percollate is a Node.js command-line tool which you can install globally from npm:
+- Percollate and its dependencies **require Node.js 14.17.0** or later.
+- Some Docker images are available in this [tracking issue](https://github.com/danburzo/percollate/issues/95).
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [Usage](#usage)
+- bash
+- #### Community-maintained packages
 
-```
-Install the percollate package from npm, then pass the target URL and desired output format to generate an offline capture artifact.
-```
+- Source: https://github.com/danburzo/percollate
+- Extracted from upstream docs: https://raw.githubusercontent.com/danburzo/percollate/HEAD/README.md
 
 ## Documentation
 

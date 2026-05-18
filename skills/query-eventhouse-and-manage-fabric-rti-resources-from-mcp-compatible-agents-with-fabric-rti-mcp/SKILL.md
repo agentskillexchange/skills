@@ -24,19 +24,22 @@ MCP-compatible client; Python with uvx or equivalent; Microsoft Fabric RTI acces
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Install uv
+- pip install -e ".[dev]"
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Make sure you have Python 3.10+ installed properly and added to your PATH.
+- Assuming you have python installed and the repo cloned:
+- Use the Python: Attach configuration in your launch.json to attach to the running server.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- ### 🔍 Example Prompts
+- **kusto_diagnostics** - Run a best-effort suite of cluster diagnostic commands and return a unified summary. Sections: capacity (resource slots), cluster (nodes/hardware), principal roles (caller permissions), interna...
+- Install either the stable or Insiders release of VS Code:
 
-```
-Install in an MCP client using the upstream Python package, for example with `uvx microsoft-fabric-rti-mcp`, then authenticate with Azure Identity and configure access to the target Fabric RTI resources.
-```
+- Source: https://github.com/microsoft/fabric-rti-mcp
+- Extracted from upstream docs: https://raw.githubusercontent.com/microsoft/fabric-rti-mcp/HEAD/README.md
 
 ## Documentation
 

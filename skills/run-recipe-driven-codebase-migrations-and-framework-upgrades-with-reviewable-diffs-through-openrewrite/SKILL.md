@@ -24,19 +24,13 @@ Java, Gradle or Maven
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- It consists of an auto-refactoring engine that runs prepackaged, open source refactoring recipes for common framework migrations, security fixes, and stylistic consistency tasks—reducing your coding effort from hours...
+- [Moderne](https://www.moderne.io/) is a commercial platform designed to run the OpenRewrite recipe catalog with incredible efficiency, supporting large codebases and multiple repositories. It’s a place where platform...
+- Moderne freely runs an [open public service](https://www.moderne.io/try-moderne) for the benefit of tens of thousands of open source projects. The platform can streamline your recipe customization and creation, enabli...
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Add the OpenRewrite Gradle or Maven plugin to the target repository, select or author the needed recipes, then run the rewrite task and review the generated diffs before merging.
-```
+- Source: https://github.com/openrewrite/rewrite
+- Extracted from upstream docs: https://raw.githubusercontent.com/openrewrite/rewrite/HEAD/README.md
 
 ## Documentation
 

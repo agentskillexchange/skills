@@ -18,13 +18,24 @@ Streams audio from PulseAudio or ALSA devices into whisper.cpp for real-time spe
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install -U openai-whisper
+- pip install git+https://github.com/openai/whisper.git
+- pip install --upgrade --no-deps --force-reinstall git+https://github.com/openai/whisper.git
+- brew install ffmpeg
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- We used Python 3.9.9 and [PyTorch](https://pytorch.org/) 1.10.1 to train and test our models, but the codebase is expected to be compatible with Python 3.8-3.11 and recent PyTorch versions. The codebase also depends o...
+- Alternatively, the following command will pull and install the latest commit from this repository, along with its Python dependencies:
+- It also requires the command-line tool [ffmpeg](https://ffmpeg.org/) to be installed on your system, which is available from most package managers:
+
+Basic usage or getting-started notes:
+- [[Colab example]](https://colab.research.google.com/github/openai/whisper/blob/master/notebooks/LibriSpeech.ipynb)
+- To update the package to the latest version of this repository, please run:
+- bash
+
+- Source: https://github.com/openai/whisper
+- Extracted from upstream docs: https://raw.githubusercontent.com/openai/whisper/HEAD/README.md
 
 ## Source
 

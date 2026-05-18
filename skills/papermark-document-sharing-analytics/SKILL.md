@@ -18,13 +18,23 @@ Papermark is an open-source alternative to DocSend for secure document sharing w
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/mfts/papermark.git
+- ### 2. Install npm dependencies
+- npm install
+- npm run dev:prisma
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Node.js (version >= 18.17.0)
+- We use pipenv to manage our Python dependencies. If you don't have it installed, you can install it using the following command:
+
+Basic usage or getting-started notes:
+- Here's what you need to run Papermark:
+- PostgreSQL Database
+- Blob storage (currently [AWS S3](https://aws.amazon.com/s3/) or [Vercel Blob](https://vercel.com/storage/blob))
+
+- Source: https://github.com/mfts/papermark
+- Extracted from upstream docs: https://raw.githubusercontent.com/mfts/papermark/HEAD/README.md
 
 ## Source
 

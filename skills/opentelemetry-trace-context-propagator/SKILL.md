@@ -15,13 +15,23 @@ Implements W3C TraceContext and Baggage propagation using the OpenTelemetry JS S
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Docker
+- npm init -y
+- npm install undici \
+- npm install -D tsx # a tool to run TypeScript (.ts) files directly with node
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Node.js
+- Python
+- @opentelemetry/sdk-node
+
+Basic usage or getting-started notes:
+- Dev
+- Ops
+- Concepts
+
+- Source: https://opentelemetry.io/docs/languages/js/propagation/
 
 ## Documentation
 

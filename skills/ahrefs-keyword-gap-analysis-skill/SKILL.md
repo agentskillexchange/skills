@@ -15,13 +15,13 @@ Identifies keyword opportunities by comparing competitor rankings using Ahrefs' 
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- cURL Python Node.js Go Response
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Example: field_a,field_b:asc,field_c:desc
+
+- Source: https://docs.ahrefs.com/docs/api/site-explorer/operations/get-organic-keywords
 
 ## Documentation
 

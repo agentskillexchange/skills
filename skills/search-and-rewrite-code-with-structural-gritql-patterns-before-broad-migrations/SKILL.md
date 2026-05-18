@@ -24,19 +24,18 @@ Grit CLI, a local repository to search or rewrite, and a review loop for inspect
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- ♻️ Once you learn GritQL, you can use it to rewrite any [target language](https://docs.grit.io/language/target-languages): JavaScript/TypeScript, Python, JSON, Java, Terraform, Solidity, CSS, Markdown, YAML, Rust, Go,...
+- Patterns can be combined to create complex queries, including [large refactors](https://github.com/getgrit/stdlib/blob/main/.grit/patterns/python/openai.md).
+- Reading/writing a codemod requires mentally translating from AST names back to what source code actually looks like.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Read the [documentation](https://docs.grit.io/language/overview), [interactive tutorial](https://docs.grit.io/tutorials/gritql), or run grit --help.
+- sh
+- Search for all your console.log calls by putting the desired pattern in backticks:
 
-Install command or upstream instructions:
-
-```
-Install the Grit CLI using the method documented by the project, write or reuse the GritQL patterns that describe the search or rewrite you want, run the apply or check workflow against the target repository, and review the resulting changes before merging.
-```
+- Source: https://github.com/biomejs/gritql
+- Extracted from upstream docs: https://raw.githubusercontent.com/biomejs/gritql/HEAD/README.md
 
 ## Documentation
 

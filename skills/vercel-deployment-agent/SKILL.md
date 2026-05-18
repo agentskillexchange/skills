@@ -20,13 +20,23 @@ tool_ecosystem:
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm i -g vercel
+- npm i -g @vercel/vc-native --force
+- npm i -g @vercel/vc-native-darwin-x64 --force
+- git clone https://github.com/vercel/vercel
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- The --force flag allows npm to replace existing global vercel and vc bin links. Users who do not install @vercel/vc-native continue using the regular Node.js-based CLI from npm i -g vercel.
+- const { nodeFileTrace } = require('@vercel/nft');
+
+Basic usage or getting-started notes:
+- This project uses [pnpm](https://pnpm.io/) to install dependencies and run scripts.
+- You can use the vercel script to run local changes as if you were invoking Vercel CLI. For example, vercel deploy --cwd=/path/to/project could be run with local changes with pnpm vercel deploy --cwd=/path/to/project.
+- Unit tests are run locally with jest and execute quickly because they are testing the smallest units of code.
+
+- Source: https://github.com/vercel/vercel
+- Extracted from upstream docs: https://raw.githubusercontent.com/vercel/vercel/HEAD/README.md
 
 ## Source
 

@@ -3,7 +3,7 @@ name: "WordPress Multisite Network Sync"
 slug: "wordpress-multisite-network-sync"
 description: "Synchronizes plugin settings and theme mods across a WordPress Multisite network using the Network Admin REST endpoints and wp_get_sites() iteration. Propagates sitewide options, user role caps, and widget configurations from a primary site to subsites."
 github_stars: 21027
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/WordPress/WordPress"
 category: "WordPress & CMS"
 framework: "Codex"
@@ -18,13 +18,9 @@ Synchronizes plugin settings and theme mods across a WordPress Multisite network
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/WordPress/WordPress
 
 ## Source
 

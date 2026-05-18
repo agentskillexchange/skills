@@ -24,19 +24,19 @@ Node.js, npm or npx access, target repository, workflow YAML or codemod package
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx codemod
+- npx codemod init my-codemod
+- npx codemod workflow run -w my-codemod/workflow.yaml
+- npx codemod publish my-codemod
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- This repo houses the **Codemod CLI** and its underlying **workflow engine** – everything you need to scaffold, test, and run codemods locally or in CI. The CLI can also connect to Codemod’s hosted Registry and Platfor...
+- [**Codemod CLI**](https://docs.codemod.com/cli) – Run, test, and publish codemods from your terminal or CI.
+- bash
 
-Install command or upstream instructions:
-
-```
-Use `npx codemod` or the documented package install method, scaffold or select a codemod workflow, then run `npx codemod workflow run -w workflow.yaml` locally or in CI to execute the migration.
-```
+- Source: https://github.com/codemod/codemod
+- Extracted from upstream docs: https://raw.githubusercontent.com/codemod/codemod/HEAD/README.md
 
 ## Documentation
 

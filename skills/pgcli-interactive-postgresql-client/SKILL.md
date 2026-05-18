@@ -18,13 +18,24 @@ pgcli is an interactive PostgreSQL CLI with context-aware autocompletion, syntax
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ pip install -U pgcli
+- $ brew install pgcli # Only on macOS
+- $ brew install pgcli
+- $ pip install pgcli
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- If you already know how to install python packages, then you can simply do:
+- If you don't know how to install python packages, please check the
+- .. _prompt_toolkit: https://github.com/jonathanslenders/python-prompt-toolkit
+
+Basic usage or getting-started notes:
+- -----------
+- ::
+- or
+
+- Source: https://github.com/dbcli/pgcli
+- Extracted from upstream docs: https://raw.githubusercontent.com/dbcli/pgcli/HEAD/README.rst
 
 ## Source
 

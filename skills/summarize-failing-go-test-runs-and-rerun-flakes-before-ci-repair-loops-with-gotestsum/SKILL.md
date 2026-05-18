@@ -24,19 +24,18 @@ gotestsum, Go toolchain
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- The nerdfonts icons requires a font from [Nerd Fonts](https://www.nerdfonts.com/).
+- Note that using --rerun-fails may require the use of other flags, depending on
+- [moby](https://github.com/moby/moby/blob/master/hack/test/unit) (aka Docker)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- gotestsum runs tests using go test -json, prints formatted test output, and a summary of the test run.
+- Download a binary from [releases](https://github.com/gotestyourself/gotestsum/releases), or build from
+- source with go install gotest.tools/gotestsum@latest. To run without installing use
 
-Install command or upstream instructions:
-
-```
-Download a release binary, or install from source with `go install gotest.tools/gotestsum@latest`.
-```
+- Source: https://github.com/gotestyourself/gotestsum
+- Extracted from upstream docs: https://raw.githubusercontent.com/gotestyourself/gotestsum/HEAD/README.md
 
 ## Documentation
 

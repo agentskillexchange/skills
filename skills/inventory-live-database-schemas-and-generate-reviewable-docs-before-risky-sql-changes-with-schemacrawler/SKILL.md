@@ -3,7 +3,7 @@ name: "Inventory live database schemas and generate reviewable docs before risky
 slug: "inventory-live-database-schemas-and-generate-reviewable-docs-before-risky-sql-changes-with-schemacrawler"
 description: "Lets an agent crawl a live database and produce schema inventories, dependency views, and reviewable documentation before migrations or handoffs."
 github_stars: 1801
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/schemacrawler/SchemaCrawler"
 author: "SchemaCrawler"
 publisher_type: "organization"
@@ -24,19 +24,9 @@ Java, JDBC driver for target database, SchemaCrawler CLI
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Install the SchemaCrawler CLI, then run it with the correct JDBC driver for the target database.
-```
+- Source: https://github.com/schemacrawler/SchemaCrawler
 
 ## Documentation
 

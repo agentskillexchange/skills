@@ -24,13 +24,18 @@ Docker, Git, and optionally the Capture agent for server telemetry
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- [Docker](https://www.docker.com/) installed
+- If you need to monitor internal HTTPS endpoints with certificates from private Certificate Authorities (like Smallstep), see our [Custom CA Trust Guide](./docs/custom-ca-trust.md) for Docker configuration options.
+- Thanks to extensive optimizations, Checkmate operates with an exceptionally small memory footprint, requiring minimal memory and CPU resources. Here’s the memory usage of a Node.js instance running on a server that mo...
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- [![Run on PikaPods](https://www.pikapods.com/static/run-button.svg)](https://www.pikapods.com/pods?run=checkmate)
+- Checkmate also has an agent, called [Capture](https://github.com/bluewave-labs/capture), to retrieve data from remote servers. While Capture is not required to run Checkmate, it provides additional insights about your...
+- [Git](https://git-scm.com/) installed
+
+- Source: https://github.com/bluewave-labs/Checkmate
+- Extracted from upstream docs: https://raw.githubusercontent.com/bluewave-labs/Checkmate/HEAD/README.md
 
 ## Documentation
 

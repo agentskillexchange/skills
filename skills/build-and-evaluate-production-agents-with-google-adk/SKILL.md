@@ -24,19 +24,21 @@ Python 3 environment; google-adk package; model credentials; optional Google Clo
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install google-adk
+- pip install "google-adk[extensions]"
+- pip install git+https://github.com/google/adk-python.git@main
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Python Unit Tests](https://github.com/google/adk-python/actions/workflows/python-unit-tests.yml/badge.svg)](https://github.com/google/adk-python/actions/workflows/python-unit-tests.yml)
+- <a href="https://codewiki.google/github.com/google/adk-python"><img src="https://www.gstatic.com/_/boq-sdlc-agents-ui/_/r/Mvosg4klCA4.svg" alt="Ask Code Wiki" height="20"></a>
+- <img src="https://raw.githubusercontent.com/google/adk-python/main/assets/agent-development-kit.png" width="256"/>
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- **Deploy Anywhere**: Easily containerize and deploy agents on Cloud Run or
 
-```
-Install with `pip install google-adk` or `pip install "google-adk[extensions]"`, configure model credentials, define agents/tools in Python, and use ADK evaluation and deployment workflows from the project documentation.
-```
+- Source: https://github.com/google/adk-python
+- Extracted from upstream docs: https://raw.githubusercontent.com/google/adk-python/HEAD/README.md
 
 ## Documentation
 

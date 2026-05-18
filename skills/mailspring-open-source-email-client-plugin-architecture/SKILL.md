@@ -18,13 +18,19 @@ Mailspring is a beautiful, fast, and fully open source email client for Mac, Win
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install
+- npm start
+- npm start -- --help
+- npm run-script build
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- profiles. **All of these features run in the client - Mailspring does not send
+- To install all dependencies and run Mailspring from its source code,
+- run the following commands from the root directory of the Mailspring repository:
+
+- Source: https://github.com/Foundry376/Mailspring
+- Extracted from upstream docs: https://raw.githubusercontent.com/Foundry376/Mailspring/HEAD/README.md
 
 ## Source
 

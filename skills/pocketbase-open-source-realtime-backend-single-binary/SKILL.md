@@ -18,13 +18,16 @@ PocketBase is an open-source Go backend that ships as a single portable executab
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- **JavaScript - [pocketbase/js-sdk](https://github.com/pocketbase/js-sdk)** (_Browser, Node.js, React Native_)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Once downloaded, extract the archive and run ./pocketbase serve in the extracted directory.
+- Here is a minimal example:
+- To init the dependencies, run go mod init myapp && go mod tidy.
+
+- Source: https://github.com/pocketbase/pocketbase
+- Extracted from upstream docs: https://raw.githubusercontent.com/pocketbase/pocketbase/HEAD/README.md
 
 ## Source
 

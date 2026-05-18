@@ -14,13 +14,12 @@ Drives headless Chrome via the Browserless.io API for scraping dynamic SPAs. Use
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- Best for new browser automation that needs stealth, conditional logic, and structured extraction in one query language. Featured pages Getting Started Bot Detection Connecting Libraries
+- Best for existing Puppeteer or Playwright code that should run remotely with minimal code changes. Featured pages Quick Start Connection URLs Session Management
+- Community
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://docs.browserless.io/
 
 ## Source
 

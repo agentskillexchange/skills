@@ -24,19 +24,13 @@ Kluctl CLI, Kubernetes cluster credentials, a Kluctl project repository, and any
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- [here](docs/kluctl/get-started.md).
+- ## Community
+- Check the [community page](https://kluctl.io/community/) for details about the Kluctl community.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Install the Kluctl CLI from the upstream release or package instructions, configure access to the target clusters and project repository, then use the documented diff, deploy, prune, or delete commands against the defined targets.
-```
+- Source: https://github.com/kluctl/kluctl
+- Extracted from upstream docs: https://raw.githubusercontent.com/kluctl/kluctl/HEAD/README.md
 
 ## Documentation
 

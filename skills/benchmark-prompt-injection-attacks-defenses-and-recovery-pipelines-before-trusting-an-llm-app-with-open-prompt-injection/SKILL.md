@@ -24,19 +24,21 @@ Conda-managed Python environment, upstream repository checkout, model API creden
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- conda env create -f environment.yml --name my_custom_env
+- conda activate my_custom_env
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- ## Required Python packages
+- python
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Then activate the environment:
+- ### A simple demo
+- Before you start, go to './configs/model\_configs/palm2\_config.json' and replace the API keys with your real keys. Please refer to Google's official site for how to obtain an API key for PaLM2. For Meta's Llama model...
 
-```
-Clone the repository, create the documented conda environment from environment.yml, configure the required model credentials, then run the provided experiment scripts or library flows to execute attack and defense benchmarks against the target application.
-```
+- Source: https://github.com/liu00222/Open-Prompt-Injection
+- Extracted from upstream docs: https://raw.githubusercontent.com/liu00222/Open-Prompt-Injection/HEAD/README.md
 
 ## Documentation
 

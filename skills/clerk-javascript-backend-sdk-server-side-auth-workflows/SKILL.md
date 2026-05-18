@@ -23,13 +23,16 @@ npm, pnpm, yarn, go, java
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install @clerk/nextjs
+- yarn add @clerk/nextjs
+- pnpm add @clerk/nextjs
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- This repository contains the SDKs for environment/platforms that Clerk supports. For example, if you want to use Clerk with Next.js, you can install:
+
+- Source: https://github.com/clerk/javascript
+- Extracted from upstream docs: https://raw.githubusercontent.com/clerk/javascript/HEAD/README.md
 
 ## Documentation
 

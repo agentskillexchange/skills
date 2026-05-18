@@ -18,13 +18,24 @@ Photon is a blazing-fast Python web crawler purpose-built for OSINT operations. 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ git clone https://github.com/s0md3v/Photon.git
+- $ docker build -t photon .
+- $ docker run -it --name photon photon:latest -u google.com
+- $ docker run -it --name photon -v "$PWD:/Photon/google.com" photon:latest -u google.com
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- #### Docker
+- Photon can be launched using a lightweight Python-Alpine (103 MB) Docker image.
+- To view results, you can either head over to the local docker volume, which you can find by running docker inspect photon or by mounting the target loot folder:
+
+Basic usage or getting-started notes:
+- <a href="https://github.com/s0md3v/Photon/wiki/Usage">How To Use</a> •
+- URLs with parameters (example.com/gallery.php?id=2)
+- The extracted information is saved in an organized manner or can be [exported as json](https://github.com/s0md3v/Photon/wiki/Usage#export-formatted-result).
+
+- Source: https://github.com/s0md3v/Photon
+- Extracted from upstream docs: https://raw.githubusercontent.com/s0md3v/Photon/HEAD/README.md
 
 ## Source
 

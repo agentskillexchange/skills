@@ -24,19 +24,22 @@ Python environment, spec-kitty-cli, git, a repository under active development, 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pipx install spec-kitty-cli
+- pipx is the preferred installer for the CLI because it keeps Spec Kitty in its
+- uv tool install spec-kitty-cli
+- python -m pip install spec-kitty-cli
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue?style=flat-square)](https://www.python.org/downloads/)
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- bash
+- own virtual environment and avoids the externally-managed-environment errors
+- common on modern Linux distributions.
 
-```
-Install spec-kitty-cli with pip, initialize it in the target repository, choose a supported agent integration, then use the spec, planning, task, next, review, and merge commands to run the workflow.
-```
+- Source: https://github.com/Priivacy-ai/spec-kitty
+- Extracted from upstream docs: https://raw.githubusercontent.com/Priivacy-ai/spec-kitty/HEAD/README.md
 
 ## Documentation
 

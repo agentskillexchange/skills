@@ -15,13 +15,21 @@ Scaffolds VS Code extensions using the vscode-extension API with TypeScript, inc
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx --package yo --package generator-code -- yo code
+- npm install --global yo generator-code
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Python Extension Template
+- In this topic, we'll teach you the fundamental concepts for building extensions. Make sure you have Node.js and Git installed.
+- You can learn more about debugging Node.js apps in VS Code in the Node.js Debugging Topic .
+
+Basic usage or getting-started notes:
+- If you do not want to install Yeoman for later use, run the following command:
+- If you instead want to install Yeoman globally to ease running it repeatedly, run the following command:
+- Inside the editor, open src/extension.ts and press F5 or run the command Debug: Start Debugging from the Command Palette ( ⇧⌘P (Windows, Linux Ctrl+Shift+P ) ). This will compile and run the extension in a new Extensi...
+
+- Source: https://code.visualstudio.com/api/get-started/your-first-extension
 
 ## Documentation
 

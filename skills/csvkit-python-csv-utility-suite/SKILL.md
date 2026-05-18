@@ -18,13 +18,12 @@ csvkit is a suite of Python command-line utilities for converting to, working wi
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- :target: https://pypi.python.org/pypi/csvkit
+- :alt: Support Python versions
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/wireservice/csvkit
+- Extracted from upstream docs: https://raw.githubusercontent.com/wireservice/csvkit/HEAD/README.rst
 
 ## Source
 

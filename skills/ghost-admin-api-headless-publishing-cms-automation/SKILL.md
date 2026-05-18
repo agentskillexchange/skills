@@ -19,19 +19,17 @@ Ghost installation with Admin API access and an Admin API key
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Requests with JSON payloads require the Content-Type: application/json header. Most request libraries have JSON-specific handling that will do this for you.
+- Python
+- Authenticating as a user requires an application to collect a user’s email and password. These credentials are then swapped for a cookie, and the cookie is then used to maintain a session.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Introduction
+- Hosting Guide
+- Updates & Versions
 
-Install command or upstream instructions:
-
-```
-Create a Custom Integration in Ghost Admin to obtain an Admin API key, then authenticate requests to the Ghost Admin API as documented by Ghost.
-```
+- Source: https://ghost.org/docs/admin-api/
 
 ## Documentation
 

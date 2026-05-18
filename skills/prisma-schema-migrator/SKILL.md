@@ -20,13 +20,24 @@ Automates Prisma ORM schema evolution and migration planning using prisma migrat
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx prisma dev
+- npx create-db --interactive
+- npm install prisma --save-dev
+- npm install @prisma/client
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [**Prisma Client**](https://www.prisma.io/docs/orm/prisma-client): Auto-generated and type-safe query builder for Node.js & TypeScript
+- Prisma Client can be used in _any_ Node.js or TypeScript backend application (including serverless applications and microservices). This can be a [REST API](https://www.prisma.io/docs/concepts/overview/prisma-in-your-...
+- To start a local PostgreSQL development server without using Docker and without any configuration, run prisma dev:
+
+Basic usage or getting-started notes:
+- The fastest way to get started with Prisma is by following the quickstart guides. You can choose either of two databases:
+- [Prisma Postgres](https://www.prisma.io/docs/getting-started/prisma-orm/quickstart/prisma-postgres)
+- [SQLite](https://www.prisma.io/docs/getting-started/prisma-orm/quickstart/sqlite)
+
+- Source: https://github.com/prisma/prisma
+- Extracted from upstream docs: https://raw.githubusercontent.com/prisma/prisma/HEAD/README.md
 
 ## Source
 

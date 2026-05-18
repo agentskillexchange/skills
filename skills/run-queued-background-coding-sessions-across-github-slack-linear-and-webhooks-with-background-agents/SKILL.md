@@ -24,19 +24,23 @@ GitHub App or repo access, deployed background-agents stack, sandbox infrastruct
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install
+- pip install -r requirements.txt
+- docker compose up -d postgres redis
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Access full development environments (Node.js, Python, git, browser automation, VS Code)
+- │ │ (Node.js, Python, git, agent-browser) │ │
+- **Pre-installed:** Node.js 22, Python 3.12, Bun, git, GitHub CLI, build-essential
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Run on a schedule — cron jobs, Sentry alerts, and webhook-triggered automations
+- For a practical setup guide (local + contributor + deployment paths), start with
+- **[docs/SETUP_GUIDE.md](docs/SETUP_GUIDE.md)**.
 
-```
-Follow the upstream setup and deployment docs for the control plane, sandbox runtime, and integrations, then connect a repository and trigger a background coding session from the web UI, Slack, GitHub, Linear, or an authenticated webhook.
-```
+- Source: https://github.com/ColeMurray/background-agents
+- Extracted from upstream docs: https://raw.githubusercontent.com/ColeMurray/background-agents/HEAD/README.md
 
 ## Documentation
 

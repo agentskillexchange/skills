@@ -18,13 +18,13 @@ Medusa is an open-source commerce platform with modular backend services, an adm
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- The fastest way to get started is with [Medusa Cloud](https://medusajs.com/cloud/). It provides a managed environment optimized for Medusa applications, with automated deployments, scaling, and maintenance. [Get start...
+- To set up a Medusa application locally, visit the [Documentation](https://docs.medusajs.com/learn).
+- ## About Medusa
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/medusajs/medusa
+- Extracted from upstream docs: https://raw.githubusercontent.com/medusajs/medusa/HEAD/README.md
 
 ## Source
 

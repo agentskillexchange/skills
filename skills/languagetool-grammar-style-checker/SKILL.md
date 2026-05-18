@@ -18,13 +18,22 @@ Check grammar, style, and spelling across 25+ languages with LanguageTool. This 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone --depth 5 https://github.com/languagetool-org/languagetool.git
+- Install Brew for Rosetta:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- ## Docker
+- Try one of the following projects for a community-contributed Docker file:
+- github.com | hub.docker.com/r
+
+Basic usage or getting-started notes:
+- [How to run your own LanguageTool server](https://dev.languagetool.org/http-server)
+- If you wish to have more options, download the install.sh script. Usage options follow:
+- Options:
+
+- Source: https://github.com/languagetool-org/languagetool
+- Extracted from upstream docs: https://raw.githubusercontent.com/languagetool-org/languagetool/HEAD/README.md
 
 ## Source
 

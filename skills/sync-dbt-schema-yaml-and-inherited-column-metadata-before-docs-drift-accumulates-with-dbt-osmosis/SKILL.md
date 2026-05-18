@@ -24,19 +24,24 @@ Python, dbt Core with a compatible adapter, dbt-osmosis installation, and access
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- uv tool install --with="dbt-<adapter>" dbt-osmosis
+- pip install "dbt-osmosis" "dbt-<adapter>"
+- npm --prefix docs run start
+- npm --prefix docs run build
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- dbt-osmosis is a Python CLI and package for dbt development workflows.
+- Python 3.10-3.13
+- Docs-site commands use the Node toolchain under docs/:
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- ad-hoc SQL compile/run helpers
+- With uv:
+- bash
 
-```
-Install dbt-osmosis with the documented Python tool or pip path together with a compatible dbt adapter, point it at the target dbt project, then run the YAML organize or document commands described in the upstream CLI reference.
-```
+- Source: https://github.com/z3z1ma/dbt-osmosis
+- Extracted from upstream docs: https://raw.githubusercontent.com/z3z1ma/dbt-osmosis/HEAD/README.md
 
 ## Documentation
 

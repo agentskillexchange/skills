@@ -24,19 +24,16 @@ A code repository with existing project docs and an agent environment that can r
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/WoJiSama/skill-based-architecture.git \
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Start with a plain CLAUDE.md or .cursor/rules/workflow.mdc; upgrade later when content sprawls. [WORKFLOW.md](WORKFLOW.md) has a Quick Start path for that upgrade.
+- ### 1. Make this meta-skill available locally
+- | Use case | Clone target |
 
-Install command or upstream instructions:
-
-```
-Use the repository guidance to point the meta-skill at a codebase, then generate and maintain a skills/<project-name>/ directory with SKILL.md, rules, workflows, and references.
-```
+- Source: https://github.com/WoJiSama/skill-based-architecture
+- Extracted from upstream docs: https://raw.githubusercontent.com/WoJiSama/skill-based-architecture/HEAD/README.md
 
 ## Documentation
 
