@@ -19,6 +19,11 @@ INSTALL_HEADING_RE = re.compile(
     re.I,
 )
 BAD_COMMAND_RE = re.compile(r"curl\b[^\n|]*\|\s*(?:sudo\s+)?(?:bash|sh)|sudo\s+(?:bash|sh)\b", re.I)
+UNSAFE_EXTRACT_RE = re.compile(
+    r"\bact\s+as\b|\b(?:run|execute)\s+(?:as|with)\s+(?:root|sudo|admin)\b|"
+    r"\.kube/config\b|\b(?:admin|root|supervisor)\s+(?:override|authorization|approved)\b",
+    re.I,
+)
 COMMAND_RE = re.compile(
     r"\b(?:brew|npm|pnpm|yarn|npx|pipx?|uv|cargo|go install|docker|docker compose|git clone|make|cmake|conda|gem|composer|pip install|python -m pip)\b",
     re.I,
@@ -185,6 +190,8 @@ def extract_candidate_block(text: str) -> tuple[list[str], list[str], list[str]]
         if any(g in low for g in GENERIC_SENTENCES):
             continue
         if BAD_COMMAND_RE.search(normalized):
+            continue
+        if UNSAFE_EXTRACT_RE.search(normalized):
             continue
         if command_like:
             if normalized not in commands:
