@@ -3,7 +3,7 @@ name: "Govern agent skills, MCP servers, prompts, and tool calls with DefenseCla
 slug: "govern-agent-skills-mcp-servers-prompts-and-tool-calls-with-defenseclaw"
 description: "Use DefenseClaw as an operator-controlled admission, runtime guardrail, sandbox, and audit layer before untrusted agent capabilities run."
 github_stars: 647
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/cisco-ai-defense/defenseclaw"
 author: "Cisco AI Defense"
 publisher_type: "vendor"

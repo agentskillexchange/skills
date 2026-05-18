@@ -3,7 +3,7 @@ name: "Stripe MCP Server"
 slug: "stripe-mcp-server"
 description: ""
 github_stars: 4423
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/stripe/stripe-node"
 author: "Stripe"
 category: "Integrations & Connectors"

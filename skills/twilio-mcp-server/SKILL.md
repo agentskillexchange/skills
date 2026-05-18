@@ -3,7 +3,7 @@ name: "Twilio MCP Server"
 slug: "twilio-mcp-server"
 description: ""
 github_stars: 1537
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/twilio/twilio-node"
 author: "Twilio"
 category: "Integrations & Connectors"

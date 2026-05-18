@@ -3,7 +3,7 @@ name: "Lint and auto-format Markdown documentation before agents ship content wi
 slug: "lint-and-auto-format-markdown-documentation-before-agents-ship-content-with-rumdl"
 description: "Run rumdl as a fast Markdown lint-and-format gate so agents can catch style, flavor, link-adjacent, and consistency issues before docs or generated content are committed."
 github_stars: 1110
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/rvben/rumdl"
 author: "rvben"
 publisher_type: "open_source"

@@ -3,7 +3,7 @@ name: "Qdrant MCP Server for Vector Search and Semantic Memory"
 slug: "qdrant-mcp-server-vector-search-semantic-memory"
 description: "An official Qdrant MCP server implementation that provides semantic memory capabilities for AI agents. Enables storing and retrieving information using vector search, acting as a persistent knowledge layer on top of the Qdrant vector database."
 github_stars: 1314
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/qdrant/mcp-server-qdrant"
 category: "Integrations & Connectors"
 framework: "MCP"

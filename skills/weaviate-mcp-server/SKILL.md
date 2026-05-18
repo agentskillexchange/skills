@@ -3,7 +3,7 @@ name: "Weaviate MCP Server"
 slug: "weaviate-mcp-server"
 description: ""
 github_stars: 161
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/weaviate/mcp-server-weaviate"
 author: "Weaviate"
 category: "Data Extraction & Transformation"

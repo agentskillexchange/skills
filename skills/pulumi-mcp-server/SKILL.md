@@ -3,7 +3,7 @@ name: "Pulumi MCP Server"
 slug: "pulumi-mcp-server"
 description: ""
 github_stars: 25199
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/pulumi/pulumi"
 author: "Pulumi"
 category: "Developer Tools"

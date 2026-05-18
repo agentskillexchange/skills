@@ -3,7 +3,7 @@ name: "Semgrep Code Scanner"
 slug: "semgrep-code-scanner"
 description: ""
 github_stars: 14809
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/semgrep/semgrep"
 author: "semgrep"
 category: "Code Quality & Review"

@@ -3,7 +3,7 @@ name: "Security Audit Skill"
 slug: "security-audit-skill"
 description: ""
 github_stars: 15142
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/zaproxy/zaproxy"
 author: "ZAP Project"
 category: "Security & Verification"

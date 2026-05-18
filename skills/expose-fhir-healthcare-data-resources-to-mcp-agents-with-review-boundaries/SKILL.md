@@ -3,7 +3,7 @@ name: "Expose FHIR healthcare data resources to MCP agents with review boundarie
 slug: "expose-fhir-healthcare-data-resources-to-mcp-agents-with-review-boundaries"
 description: "Use a FHIR MCP server to query healthcare data resources for documentation and integration workflows while keeping PHI and clinical-use limits explicit."
 github_stars: 80
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/the-momentum/fhir-mcp-server"
 author: "the-momentum"
 publisher_type: "open_source"

@@ -3,7 +3,7 @@ name: "LlamaIndex MCP Server"
 slug: "llamaindex-mcp-server"
 description: ""
 github_stars: 49491
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/run-llama/llama_index"
 category: "Developer Tools"
 framework: "MCP"

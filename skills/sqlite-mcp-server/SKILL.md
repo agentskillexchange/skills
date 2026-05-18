@@ -3,7 +3,7 @@ name: "SQLite MCP Server"
 slug: "sqlite-mcp-server"
 description: "Lightweight local database access for agent tasks."
 github_stars: 85873
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/modelcontextprotocol/servers"
 author: "Model Context Protocol"
 publisher_type: "open_source_collective"

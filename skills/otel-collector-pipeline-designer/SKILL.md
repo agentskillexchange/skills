@@ -3,7 +3,7 @@ name: "OpenTelemetry Collector Pipeline Designer"
 slug: "otel-collector-pipeline-designer"
 description: "Designs OpenTelemetry Collector pipeline configurations with receivers (otlp, prometheus, filelog), processors (batch, attributes, tail_sampling), and exporters (otlphttp, jaeger, elasticsearch)."
 github_stars: 6867
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/open-telemetry/opentelemetry-collector"
 author: "OpenTelemetry"
 category: "Monitoring & Alerts"

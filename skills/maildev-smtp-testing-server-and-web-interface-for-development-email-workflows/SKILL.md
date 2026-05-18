@@ -3,7 +3,7 @@ name: "MailDev SMTP Testing Server and Web Interface for Development Email Workf
 slug: "maildev-smtp-testing-server-and-web-interface-for-development-email-workflows"
 description: "MailDev is a local SMTP server with a browser UI for viewing test emails during development. It catches outgoing mail, exposes a REST API, supports attachments and relay options, and helps teams test email flows without sending real messages to customers."
 github_stars: 5889
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/maildev/maildev"
 category: "Calendar, Email & Productivity"
 framework: "Multi-Framework"

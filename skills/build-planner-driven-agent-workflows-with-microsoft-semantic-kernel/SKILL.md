@@ -3,7 +3,7 @@ name: "Build planner-driven agent workflows with Microsoft Semantic Kernel"
 slug: "build-planner-driven-agent-workflows-with-microsoft-semantic-kernel"
 description: "Compose prompts, plugins, memory, planners, and connectors into repeatable Python, .NET, or Java agent workflows with Microsoft Semantic Kernel."
 github_stars: 27861
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/microsoft/semantic-kernel"
 author: "Microsoft"
 publisher_type: "organization"

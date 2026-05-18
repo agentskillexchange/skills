@@ -3,7 +3,7 @@ name: "Sentry MCP Server"
 slug: "sentry-mcp-server"
 description: "Sentry's official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack traces, investigate performance bottlenecks, and get AI-powered root cause analysis — all without leaving your editor or agent session."
 github_stars: 693
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/getsentry/sentry-mcp"
 author: "Sentry"
 publisher_type: "company"

@@ -3,7 +3,7 @@ name: "LangChain MCP Server"
 slug: "langchain-mcp-server"
 description: ""
 github_stars: 17678
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/langchain-ai/langchainjs"
 category: "Developer Tools"
 framework: "MCP"

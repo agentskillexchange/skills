@@ -15,7 +15,13 @@ Analyzes site content graph using Screaming Frog SEO Spider API and builds inter
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Use the upstream install or setup path that matches your environment:
+- Make WordPress
+
+Basic usage or getting-started notes:
+- Run WordPress entirely in your browser.
+- Run WP-CLI Commands
+- Advanced · May 4, 2026
 
 - Source: https://developer.wordpress.org/
 

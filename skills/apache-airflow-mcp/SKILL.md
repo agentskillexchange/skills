@@ -3,7 +3,7 @@ name: "Apache Airflow MCP"
 slug: "apache-airflow-mcp"
 description: ""
 github_stars: 45040
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/apache/airflow"
 author: "apache"
 category: "Data Extraction & Transformation"

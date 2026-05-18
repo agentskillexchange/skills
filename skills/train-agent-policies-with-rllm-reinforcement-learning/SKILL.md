@@ -3,7 +3,7 @@ name: "Train agent policies with rLLM reinforcement learning"
 slug: "train-agent-policies-with-rllm-reinforcement-learning"
 description: "Use rLLM to evaluate, trace, reward, and train LLM agents with reinforcement learning across common agent frameworks."
 github_stars: 5530
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/rllm-org/rllm"
 author: "rLLM"
 publisher_type: "organization"

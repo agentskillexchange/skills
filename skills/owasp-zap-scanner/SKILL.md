@@ -3,7 +3,7 @@ name: "OWASP ZAP Scanner"
 slug: "owasp-zap-scanner"
 description: ""
 github_stars: 14978
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/zaproxy/zaproxy"
 author: "zaproxy"
 category: "Security & Verification"

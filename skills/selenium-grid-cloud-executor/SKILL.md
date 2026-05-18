@@ -3,7 +3,7 @@ name: "Selenium Grid Cloud Executor"
 slug: "selenium-grid-cloud-executor"
 description: "Distributes browser test suites across Selenium Grid 4 nodes using RemoteWebDriver and the W3C WebDriver protocol. Supports parallel execution on BrowserStack and Sauce Labs with automatic capability negotiation."
 github_stars: 34076
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/SeleniumHQ/selenium"
 category: "Browser Automation"
 framework: "Codex"

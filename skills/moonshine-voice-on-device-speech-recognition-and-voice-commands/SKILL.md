@@ -3,7 +3,7 @@ name: "Moonshine Voice On-Device Speech Recognition and Voice Commands"
 slug: "moonshine-voice-on-device-speech-recognition-and-voice-commands"
 description: "Moonshine Voice is a fast on-device speech recognition library for interactive voice applications. This skill helps agents install the Python package, load supported language models, transcribe live microphone input, and wire transcript events into local voice-command workflows."
 github_stars: 7672
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/moonshine-ai/moonshine"
 author: "moonshine-ai"
 publisher_type: "Open Source Project"

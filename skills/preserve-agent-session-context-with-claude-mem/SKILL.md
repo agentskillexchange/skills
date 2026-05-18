@@ -3,7 +3,7 @@ name: "Preserve agent session context with Claude Mem"
 slug: "preserve-agent-session-context-with-claude-mem"
 description: "Capture coding-agent sessions, compress the useful decisions and context, and inject relevant memory into future runs so long-running repository work does not restart cold."
 github_stars: 74480
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/thedotmack/claude-mem"
 author: "thedotmack"
 publisher_type: "open_source"

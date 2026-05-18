@@ -3,7 +3,7 @@ name: "Retrieve Zillow-style property details and market trends through an MCP s
 slug: "retrieve-zillow-style-property-details-and-market-trends-through-an-mcp-server"
 description: "Run supervised property-detail and market-trend lookups from an MCP client while checking data-source terms before use."
 github_stars: 40
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/sap156/zillow-mcp-server"
 author: "sap156"
 publisher_type: "open_source"

@@ -3,7 +3,7 @@ name: "Snowflake MCP Server"
 slug: "snowflake-mcp-server"
 description: ""
 github_stars: 724
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/snowflakedb/snowflake-connector-python"
 category: "Data Extraction & Transformation"
 framework: "MCP"

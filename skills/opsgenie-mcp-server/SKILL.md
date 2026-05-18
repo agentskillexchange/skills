@@ -3,7 +3,7 @@ name: "OpsGenie MCP Server"
 slug: "opsgenie-mcp-server"
 description: ""
 github_stars: 24
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/opsgenie/opsgenie-nodejs-sdk"
 author: "Opsgenie"
 category: "Monitoring & Alerts"

@@ -3,7 +3,7 @@ name: "Salesforce MCP Server"
 slug: "salesforce-mcp-server"
 description: ""
 github_stars: 1460
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/jsforce/jsforce"
 author: "JSforce"
 category: "Integrations & Connectors"

@@ -7,7 +7,7 @@
 slug: deploy-openclaw-on-cloudflare-workers-with-moltworker
 category: Templates & Workflows
 framework: OpenClaw
-verification: Security Reviewed
+verification: Published
 description: Use Moltworker to deploy a supervised OpenClaw personal agent stack on Cloudflare Workers, Sandbox containers, Access, R2, and optional AI Gateway.
 url: https://agentskillexchange.com/skills/deploy-openclaw-on-cloudflare-workers-with-moltworker/
 
@@ -15,7 +15,7 @@ url: https://agentskillexchange.com/skills/deploy-openclaw-on-cloudflare-workers
 slug: train-agent-policies-with-rllm-reinforcement-learning
 category: Developer Tools
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Use rLLM to evaluate, trace, reward, and train LLM agents with reinforcement learning across common agent frameworks.
 url: https://agentskillexchange.com/skills/train-agent-policies-with-rllm-reinforcement-learning/
 
@@ -31,7 +31,7 @@ url: https://agentskillexchange.com/skills/build-java-agent-transport-gateways-w
 slug: install-superpowers-methodology-for-coding-agents
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Use Superpowers to give coding agents a structured software-development method with discovery, spec review, planning, TDD, subagents, and review loops.
 url: https://agentskillexchange.com/skills/install-superpowers-methodology-for-coding-agents/
 
@@ -39,7 +39,7 @@ url: https://agentskillexchange.com/skills/install-superpowers-methodology-for-c
 slug: automate-ml-research-loops-with-aris-skills
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Use ARIS to run Markdown-based agent skills for literature review, idea discovery, cross-model critique, experiment planning, and paper-writing support.
 url: https://agentskillexchange.com/skills/automate-ml-research-loops-with-aris-skills/
 
@@ -63,7 +63,7 @@ url: https://agentskillexchange.com/skills/manage-native-github-stacked-pull-req
 slug: run-supervised-agentic-terminal-sessions-with-warp
 category: Developer Tools
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Use Warp as a supervised terminal workspace for running Warp Agent or external CLI agents such as Codex, Claude Code, Gemini CLI, and OpenCode…
 url: https://agentskillexchange.com/skills/run-supervised-agentic-terminal-sessions-with-warp/
 
@@ -71,7 +71,7 @@ url: https://agentskillexchange.com/skills/run-supervised-agentic-terminal-sessi
 slug: let-agents-control-a-logged-in-chrome-browser-through-playwriter-mcp
 category: Browser Automation
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Use Playwriter to give MCP-compatible agents a bounded, stateful Playwright control surface over an operator-approved Chrome session.
 url: https://agentskillexchange.com/skills/let-agents-control-a-logged-in-chrome-browser-through-playwriter-mcp/
 
@@ -79,7 +79,7 @@ url: https://agentskillexchange.com/skills/let-agents-control-a-logged-in-chrome
 slug: lint-and-auto-format-markdown-documentation-before-agents-ship-content-with-rumdl
 category: Monitoring & Alerts
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Run rumdl as a fast Markdown lint-and-format gate so agents can catch style, flavor, link-adjacent, and consistency issues before docs or generated content are…
 url: https://agentskillexchange.com/skills/lint-and-auto-format-markdown-documentation-before-agents-ship-content-with-rumdl/
 
@@ -95,7 +95,7 @@ url: https://agentskillexchange.com/skills/run-stealth-chromium-browser-automati
 slug: inspect-freshservice-service-management-tickets-and-modules-through-mcp
 category: Integrations & Connectors
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Connect Freshservice modules to MCP clients for supervised IT service-management ticket lookup and support-ops preparation.
 url: https://agentskillexchange.com/skills/inspect-freshservice-service-management-tickets-and-modules-through-mcp/
 
@@ -103,7 +103,7 @@ url: https://agentskillexchange.com/skills/inspect-freshservice-service-manageme
 slug: run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp
 category: Integrations & Connectors
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Expose Shopify Admin API operations to MCP clients for supervised ecommerce catalog, order, customer, and inventory work.
 url: https://agentskillexchange.com/skills/run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp/
 
@@ -111,7 +111,7 @@ url: https://agentskillexchange.com/skills/run-shopify-admin-product-order-custo
 slug: connect-mcp-agents-to-batchdata-property-and-address-apis
 category: Integrations & Connectors
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Use BatchData property and address APIs from MCP clients to enrich real-estate research and operations workflows.
 url: https://agentskillexchange.com/skills/connect-mcp-agents-to-batchdata-property-and-address-apis/
 
@@ -119,7 +119,7 @@ url: https://agentskillexchange.com/skills/connect-mcp-agents-to-batchdata-prope
 slug: retrieve-zillow-style-property-details-and-market-trends-through-an-mcp-server
 category: Integrations & Connectors
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Run supervised property-detail and market-trend lookups from an MCP client while checking data-source terms before use.
 url: https://agentskillexchange.com/skills/retrieve-zillow-style-property-details-and-market-trends-through-an-mcp-server/
 
@@ -127,7 +127,7 @@ url: https://agentskillexchange.com/skills/retrieve-zillow-style-property-detail
 slug: expose-fhir-healthcare-data-resources-to-mcp-agents-with-review-boundaries
 category: Integrations & Connectors
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Use a FHIR MCP server to query healthcare data resources for documentation and integration workflows while keeping PHI and clinical-use limits explicit.
 url: https://agentskillexchange.com/skills/expose-fhir-healthcare-data-resources-to-mcp-agents-with-review-boundaries/
 
@@ -135,7 +135,7 @@ url: https://agentskillexchange.com/skills/expose-fhir-healthcare-data-resources
 slug: let-mcp-agents-inspect-and-update-freshdesk-tickets-safely
 category: Integrations & Connectors
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Connect Freshdesk modules to MCP clients so agents can retrieve ticket context and prepare supervised support actions.
 url: https://agentskillexchange.com/skills/let-mcp-agents-inspect-and-update-freshdesk-tickets-safely/
 
@@ -143,7 +143,7 @@ url: https://agentskillexchange.com/skills/let-mcp-agents-inspect-and-update-fre
 slug: triage-support-tickets-and-draft-customer-replies-with-claude-code-support-skills
 category: Templates & Workflows
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Use Claude Code support skills to prioritize tickets, gather customer context, and draft reviewed replies without turning agents loose on customers.
 url: https://agentskillexchange.com/skills/triage-support-tickets-and-draft-customer-replies-with-claude-code-support-skills/
 
@@ -151,7 +151,7 @@ url: https://agentskillexchange.com/skills/triage-support-tickets-and-draft-cust
 slug: connect-mcp-agents-to-zendesk-ticket-and-help-center-workflows
 category: Integrations & Connectors
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Expose Zendesk tickets, comments, and Help Center context to MCP-capable agents for supervised support workflow preparation.
 url: https://agentskillexchange.com/skills/connect-mcp-agents-to-zendesk-ticket-and-help-center-workflows/
 
@@ -159,7 +159,7 @@ url: https://agentskillexchange.com/skills/connect-mcp-agents-to-zendesk-ticket-
 slug: run-long-horizon-research-and-coding-agent-workflows-with-deerflow
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Use DeerFlow to orchestrate subagents, memory, sandboxes, tools, and skills for supervised research, coding, and creation tasks that take minutes to hours.
 url: https://agentskillexchange.com/skills/run-long-horizon-research-and-coding-agent-workflows-with-deerflow/
 
@@ -167,7 +167,7 @@ url: https://agentskillexchange.com/skills/run-long-horizon-research-and-coding-
 slug: govern-agent-skills-mcp-servers-prompts-and-tool-calls-with-defenseclaw
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Use DefenseClaw as an operator-controlled admission, runtime guardrail, sandbox, and audit layer before untrusted agent capabilities run.
 url: https://agentskillexchange.com/skills/govern-agent-skills-mcp-servers-prompts-and-tool-calls-with-defenseclaw/
 
@@ -183,7 +183,7 @@ url: https://agentskillexchange.com/skills/generate-and-iterate-on-a-local-codeb
 slug: query-cross-connector-business-data-for-agents-with-dinobase
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Use Dinobase to give agents a SQL layer over SaaS APIs, databases, files, and MCP servers so they can answer cross-system business questions with…
 url: https://agentskillexchange.com/skills/query-cross-connector-business-data-for-agents-with-dinobase/
 
@@ -207,7 +207,7 @@ url: https://agentskillexchange.com/skills/coordinate-persistent-copilot-agent-t
 slug: give-coding-agents-runtime-context-for-encore-services
 category: Developer Tools
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Use Encore's AI integration and built-in MCP server so an agent can inspect service architecture, query local resources, call APIs, and analyze traces while…
 url: https://agentskillexchange.com/skills/give-coding-agents-runtime-context-for-encore-services/
 
@@ -215,7 +215,7 @@ url: https://agentskillexchange.com/skills/give-coding-agents-runtime-context-fo
 slug: build-mcp-servers-and-clients-for-php-applications-with-the-official-php-sdk
 category: Library & API Reference
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Use the official Model Context Protocol PHP SDK to expose PHP application capabilities as MCP tools, resources, and prompts for agent workflows.
 url: https://agentskillexchange.com/skills/build-mcp-servers-and-clients-for-php-applications-with-the-official-php-sdk/
 
@@ -223,7 +223,7 @@ url: https://agentskillexchange.com/skills/build-mcp-servers-and-clients-for-php
 slug: install-garry-tans-claude-code-operating-stack-with-gstack
 category: Templates & Workflows
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Use gstack to bootstrap an opinionated Claude Code workspace with specialist agent skills, commands, hooks, and operating workflows for product-building teams.
 url: https://agentskillexchange.com/skills/install-garry-tans-claude-code-operating-stack-with-gstack/
 
@@ -231,7 +231,7 @@ url: https://agentskillexchange.com/skills/install-garry-tans-claude-code-operat
 slug: add-runtime-guardrails-to-typescript-agents-with-voltagent
 category: Security & Verification
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Use VoltAgent to intercept, validate, and enforce input/output policies in TypeScript agent workflows.
 url: https://agentskillexchange.com/skills/add-runtime-guardrails-to-typescript-agents-with-voltagent/
 
@@ -247,7 +247,7 @@ url: https://agentskillexchange.com/skills/run-continuous-workflow-agents-with-a
 slug: run-a-self-improving-personal-agent-with-hermes-agent
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Deploy Hermes Agent as a persistent personal agent that learns skills from experience, searches past sessions, schedules automations, and coordinates work across CLI and…
 url: https://agentskillexchange.com/skills/run-a-self-improving-personal-agent-with-hermes-agent/
 
@@ -303,7 +303,7 @@ url: https://agentskillexchange.com/skills/install-reusable-specialist-agent-rol
 slug: preserve-agent-session-context-with-claude-mem
 category: Library & API Reference
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Capture coding-agent sessions, compress the useful decisions and context, and inject relevant memory into future runs so long-running repository work does not restart cold.
 url: https://agentskillexchange.com/skills/preserve-agent-session-context-with-claude-mem/
 
@@ -311,7 +311,7 @@ url: https://agentskillexchange.com/skills/preserve-agent-session-context-with-c
 slug: preserve-claude-code-session-memory-with-claude-mem
 category: Developer Tools
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Use Claude Mem to capture Claude Code sessions, compress the useful context, and re-inject relevant memory so future coding-agent runs start with project-specific continuity.
 url: https://agentskillexchange.com/skills/preserve-claude-code-session-memory-with-claude-mem/
 
@@ -335,7 +335,7 @@ url: https://agentskillexchange.com/skills/orchestrate-goal-driven-typescript-ag
 slug: build-planner-driven-agent-workflows-with-microsoft-semantic-kernel
 category: Developer Tools
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Compose prompts, plugins, memory, planners, and connectors into repeatable Python, .NET, or Java agent workflows with Microsoft Semantic Kernel.
 url: https://agentskillexchange.com/skills/build-planner-driven-agent-workflows-with-microsoft-semantic-kernel/
 
@@ -343,7 +343,7 @@ url: https://agentskillexchange.com/skills/build-planner-driven-agent-workflows-
 slug: give-agents-fast-searchable-memory-with-supermemory
 category: Integrations & Connectors
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Use Supermemory as an agent memory and context layer for ingesting user facts, documents, connectors, and searchable RAG context across assistant workflows.
 url: https://agentskillexchange.com/skills/give-agents-fast-searchable-memory-with-supermemory/
 
@@ -351,7 +351,7 @@ url: https://agentskillexchange.com/skills/give-agents-fast-searchable-memory-wi
 slug: turn-github-issues-into-reviewed-code-changes-with-swe-agent
 category: Developer Tools
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Run SWE-agent against a repository issue so a language model can inspect files, execute commands and tests, and produce a patch for human review.
 url: https://agentskillexchange.com/skills/turn-github-issues-into-reviewed-code-changes-with-swe-agent/
 
@@ -367,7 +367,7 @@ url: https://agentskillexchange.com/skills/build-and-evaluate-production-agents-
 slug: run-supervised-ide-coding-agent-workflows-with-cline
 category: Developer Tools
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Use Cline inside the IDE to let an agent inspect a repository, edit files, run terminal commands, use browser feedback, and pause for approval…
 url: https://agentskillexchange.com/skills/run-supervised-ide-coding-agent-workflows-with-cline/
 
@@ -375,7 +375,7 @@ url: https://agentskillexchange.com/skills/run-supervised-ide-coding-agent-workf
 slug: use-ragflow-as-a-retrieval-and-context-layer-for-agent-workflows
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Build a supervised RAG context layer with RAGFlow so agents can index documents, retrieve grounded context, and answer with traceable source support.
 url: https://agentskillexchange.com/skills/use-ragflow-as-a-retrieval-and-context-layer-for-agent-workflows/
 
@@ -383,7 +383,7 @@ url: https://agentskillexchange.com/skills/use-ragflow-as-a-retrieval-and-contex
 slug: run-scheduled-autonomous-agent-hands-with-openfang
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Use OpenFang to run packaged autonomous agent workflows on schedules with manifests, dashboards, reporting, and guardrails for sensitive actions.
 url: https://agentskillexchange.com/skills/run-scheduled-autonomous-agent-hands-with-openfang/
 
@@ -391,7 +391,7 @@ url: https://agentskillexchange.com/skills/run-scheduled-autonomous-agent-hands-
 slug: build-document-grounded-agent-context-workflows-with-ragflow
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Use RAGFlow to ingest complex documents, build governed RAG knowledge bases, and give agents higher-fidelity context for retrieval-augmented workflows.
 url: https://agentskillexchange.com/skills/build-document-grounded-agent-context-workflows-with-ragflow/
 
@@ -407,7 +407,7 @@ url: https://agentskillexchange.com/skills/drive-token-efficient-browser-testing
 slug: run-browser-and-api-automation-through-the-playwright-mcp-server
 category: Browser Automation
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Expose Playwright browser and API automation commands to MCP-capable agents for supervised test workflows.
 url: https://agentskillexchange.com/skills/run-browser-and-api-automation-through-the-playwright-mcp-server/
 
@@ -423,7 +423,7 @@ url: https://agentskillexchange.com/skills/give-agents-governed-semantic-data-co
 slug: turn-goals-into-traced-multi-agent-task-dags-with-open-multi-agent
 category: Templates & Workflows
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Decompose goals into task DAGs, delegate work to agents and tools, and inspect execution traces.
 url: https://agentskillexchange.com/skills/turn-goals-into-traced-multi-agent-task-dags-with-open-multi-agent/
 
@@ -431,7 +431,7 @@ url: https://agentskillexchange.com/skills/turn-goals-into-traced-multi-agent-ta
 slug: build-and-trace-multi-agent-workflows-with-microsoft-agent-framework
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Compose, orchestrate, and trace production multi-agent workflows with Microsoft Agent Framework.
 url: https://agentskillexchange.com/skills/build-and-trace-multi-agent-workflows-with-microsoft-agent-framework/
 
@@ -439,7 +439,7 @@ url: https://agentskillexchange.com/skills/build-and-trace-multi-agent-workflows
 slug: rag-backed-real-estate-property-research
 category: Research & Scraping
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Guide an agent through property search, buyer/renter preference capture, and evidence-backed shortlist notes from structured listing data.
 url: https://agentskillexchange.com/skills/rag-backed-real-estate-property-research/
 
@@ -959,7 +959,7 @@ url: https://agentskillexchange.com/skills/search-cross-agent-markdown-memory-an
 slug: diagnose-tailscale-and-proxy-conflicts-before-remote-development-stalls-out
 category: Runbooks & Diagnostics
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Use tunnel-doctor in Claude Code when Tailscale partially works but SSH, browser, git, or Docker paths fail because proxy, route, or double-tunneling conflicts need…
 url: https://agentskillexchange.com/skills/diagnose-tailscale-and-proxy-conflicts-before-remote-development-stalls-out/
 
@@ -4303,7 +4303,7 @@ url: https://agentskillexchange.com/skills/scaffold-and-bundle-rich-single-file-
 slug: generate-slack-ready-animated-gifs-from-custom-frame-sequences
 category: Image & Creative Automation
 framework: Claude Agents
-verification: Security Reviewed
+verification: Published
 description: Use Anthropic's slack-gif-creator skill to build animated GIFs that stay inside Slack's practical size, duration, and dimension constraints. It gives an agent a bounded…
 url: https://agentskillexchange.com/skills/generate-slack-ready-animated-gifs-from-custom-frame-sequences/
 
@@ -4311,7 +4311,7 @@ url: https://agentskillexchange.com/skills/generate-slack-ready-animated-gifs-fr
 slug: verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers
 category: Browser Automation
 framework: Claude Agents
-verification: Security Reviewed
+verification: Published
 description: Use Anthropic's webapp-testing skill to spin up one or more local servers, wait for them to become reachable, and run native Playwright checks against…
 url: https://agentskillexchange.com/skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/
 
@@ -4543,7 +4543,7 @@ url: https://agentskillexchange.com/skills/refresh-cookiecutter-based-repositori
 slug: audit-python-dependency-declarations-before-release
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Use Deptry when an agent needs to verify that a Python project's declared dependencies still match the imports the code actually uses. The agent…
 url: https://agentskillexchange.com/skills/audit-python-dependency-declarations-before-release/
 
@@ -4551,7 +4551,7 @@ url: https://agentskillexchange.com/skills/audit-python-dependency-declarations-
 slug: generate-xml-sitemaps-and-robots-txt-from-route-inventories-before-seo-launch
 category: Content Writing & SEO
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Use sitemap when an agent already knows the site routes or content URLs and needs valid sitemap XML, sitemap indexes, or robots.txt references before…
 url: https://agentskillexchange.com/skills/generate-xml-sitemaps-and-robots-txt-from-route-inventories-before-seo-launch/
 
@@ -4951,7 +4951,7 @@ url: https://agentskillexchange.com/skills/develop-and-harden-wordpress-plugins-
 slug: improve-qdrant-vector-search-relevance-and-retrieval-quality
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Use Qdrant's official qdrant-search-quality skill when an agent needs to diagnose weak recall, irrelevant matches, or embedding and chunking mistakes in a live retrieval…
 url: https://agentskillexchange.com/skills/improve-qdrant-vector-search-relevance-and-retrieval-quality/
 
@@ -5031,7 +5031,7 @@ url: https://agentskillexchange.com/skills/audit-openclaw-host-security-posture-
 slug: diagnose-openclaw-node-pairing-and-route-failures
 category: Runbooks & Diagnostics
 framework: OpenClaw
-verification: Security Reviewed
+verification: Published
 description: Guides an agent through the exact route, pairing, and auth checks needed when an OpenClaw companion node fails to connect over LAN, Tailscale, or…
 url: https://agentskillexchange.com/skills/diagnose-openclaw-node-pairing-and-route-failures/
 
@@ -5127,7 +5127,7 @@ url: https://agentskillexchange.com/skills/danger-js-pull-request-automation-too
 slug: nango-integration-platform-sdk
 category: Integrations & Connectors
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Nango is an integration platform for connecting products and agents to hundreds of APIs with managed auth, proxying, and function execution. This skill covers…
 url: https://agentskillexchange.com/skills/nango-integration-platform-sdk/
 
@@ -5207,7 +5207,7 @@ url: https://agentskillexchange.com/skills/cartesia-javascript-sdk-low-latency-v
 slug: mux-node-sdk-video-and-streaming-api-workflows
 category: Media & Transcription
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: An ASE skill built around the official Mux Node SDK for working with Mux Video and Mux Data from JavaScript or TypeScript. It fits…
 url: https://agentskillexchange.com/skills/mux-node-sdk-video-and-streaming-api-workflows/
 
@@ -5239,7 +5239,7 @@ url: https://agentskillexchange.com/skills/browserless-headless-browser-automati
 slug: beekeeper-studio-cross-platform-sql-editor-database-manager
 category: Developer Tools
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: A source-backed ASE skill for Beekeeper Studio, the SQL editor and database manager for Linux, macOS, and Windows. It fits workflows that need a…
 url: https://agentskillexchange.com/skills/beekeeper-studio-cross-platform-sql-editor-database-manager/
 
@@ -5247,7 +5247,7 @@ url: https://agentskillexchange.com/skills/beekeeper-studio-cross-platform-sql-e
 slug: hygraph-management-sdk-schema-migration-automation
 category: WordPress & CMS
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: A source-backed ASE skill for the Hygraph Management SDK, the JavaScript package for managing Hygraph project schema through code-first migrations. It is a good…
 url: https://agentskillexchange.com/skills/hygraph-management-sdk-schema-migration-automation/
 
@@ -5255,7 +5255,7 @@ url: https://agentskillexchange.com/skills/hygraph-management-sdk-schema-migrati
 slug: nightwatchjs-integrated-browser-mobile-testing-framework
 category: Browser Automation
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: A source-backed ASE skill for Nightwatch.js, the Node.js automation framework for end-to-end, component, API, accessibility, and mobile testing through the W3C WebDriver stack. It…
 url: https://agentskillexchange.com/skills/nightwatchjs-integrated-browser-mobile-testing-framework/
 
@@ -5271,7 +5271,7 @@ url: https://agentskillexchange.com/skills/apify-sdk-web-scraping-actor-automati
 slug: selenium-webdriver-browser-automation-framework
 category: Browser Automation
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Selenium is the long-running open source browser automation framework behind the W3C WebDriver standard. It gives agents and developers a stable way to drive…
 url: https://agentskillexchange.com/skills/selenium-webdriver-browser-automation-framework/
 
@@ -5287,7 +5287,7 @@ url: https://agentskillexchange.com/skills/openproject-open-source-project-manag
 slug: appflowy-open-source-collaborative-workspace
 category: Calendar, Email & Productivity
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: AppFlowy brings documents, projects, wikis, and AI-assisted collaboration into a self-hosted or desktop-friendly workspace. This skill helps agents work from the real AppFlowy project,…
 url: https://agentskillexchange.com/skills/appflowy-open-source-collaborative-workspace/
 
@@ -5351,7 +5351,7 @@ url: https://agentskillexchange.com/skills/wagtail-django-cms-structured-content
 slug: keploy-api-test-generation-regression-testing-platform
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Keploy is an open source platform for generating API tests from real traffic and improving regression coverage. This skill helps agents work with test…
 url: https://agentskillexchange.com/skills/keploy-api-test-generation-regression-testing-platform/
 
@@ -5367,7 +5367,7 @@ url: https://agentskillexchange.com/skills/amplication-open-source-backend-gener
 slug: affine-knowledge-base-collaborative-workspace-platform
 category: Calendar, Email & Productivity
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: AFFiNE is an open source workspace that combines docs, whiteboards, and lightweight databases in one product. This skill is useful when an agent needs…
 url: https://agentskillexchange.com/skills/affine-knowledge-base-collaborative-workspace-platform/
 
@@ -5375,7 +5375,7 @@ url: https://agentskillexchange.com/skills/affine-knowledge-base-collaborative-w
 slug: puppeteer-browser-automation-library
 category: Browser Automation
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: A practical guide to Puppeteer for browser automation, scraping, and testing. It tracks the official install flow, the Chrome/Firefox control API, and the docs…
 url: https://agentskillexchange.com/skills/puppeteer-browser-automation-library/
 
@@ -5463,7 +5463,7 @@ url: https://agentskillexchange.com/skills/yoast-seo-wordpress-search-optimizati
 slug: wpgraphql-graphql-api-plugin-for-headless-wordpress
 category: WordPress & CMS
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: WPGraphQL is the core GraphQL API plugin for WordPress, giving developers a typed schema for posts, terms, users, menus, and custom content. It is…
 url: https://agentskillexchange.com/skills/wpgraphql-graphql-api-plugin-for-headless-wordpress/
 
@@ -5503,7 +5503,7 @@ url: https://agentskillexchange.com/skills/gotenberg-document-to-pdf-conversion-
 slug: goatcounter-privacy-first-web-analytics-platform
 category: Monitoring & Alerts
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: GoatCounter is an open source analytics platform for privacy-friendly pageview tracking, referrer reporting, and lightweight site stats. It can be used as a hosted…
 url: https://agentskillexchange.com/skills/goatcounter-privacy-first-web-analytics-platform/
 
@@ -5519,7 +5519,7 @@ url: https://agentskillexchange.com/skills/wordpress-scripts-build-and-block-too
 slug: kong-gateway-api-ai-mcp-traffic-control
 category: Integrations & Connectors
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Kong Gateway is an open-source API gateway that handles routing, authentication, load balancing, observability, and newer AI and MCP traffic patterns. It fits teams…
 url: https://agentskillexchange.com/skills/kong-gateway-api-ai-mcp-traffic-control/
 
@@ -5535,7 +5535,7 @@ url: https://agentskillexchange.com/skills/baserow-open-source-no-code-database-
 slug: scalar-openapi-reference-api-client-platform
 category: Library & API Reference
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Scalar is an open-source API platform for publishing modern OpenAPI references and testing endpoints with a built-in API client. It fits agent workflows that…
 url: https://agentskillexchange.com/skills/scalar-openapi-reference-api-client-platform/
 
@@ -5551,7 +5551,7 @@ url: https://agentskillexchange.com/skills/twirp-go-rpc-framework-and-code-gener
 slug: semantic-release-automated-versioning-and-release-publishing
 category: CI/CD Integrations
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: semantic-release automates version calculation, changelog generation, tagging, and package publishing from conventional commits and CI runs. It fits agent workflows that need repeatable release…
 url: https://agentskillexchange.com/skills/semantic-release-automated-versioning-and-release-publishing/
 
@@ -5615,7 +5615,7 @@ url: https://agentskillexchange.com/skills/crawl4ai-open-source-web-crawling-and
 slug: docling-document-conversion-and-extraction-toolkit
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Docling is an open source document processing toolkit from the Docling project that converts PDFs, Office files, HTML, and other formats into structured output…
 url: https://agentskillexchange.com/skills/docling-document-conversion-and-extraction-toolkit/
 
@@ -5631,7 +5631,7 @@ url: https://agentskillexchange.com/skills/wp-cli-wordpress-command-line-interfa
 slug: metabase-open-source-business-intelligence-and-embedded-analytics
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Metabase is an open source business intelligence platform for querying data, building dashboards, and embedding analytics. It gives agents a real analytics surface for…
 url: https://agentskillexchange.com/skills/metabase-open-source-business-intelligence-and-embedded-analytics/
 
@@ -5671,7 +5671,7 @@ url: https://agentskillexchange.com/skills/playwright-python-browser-automation-
 slug: logfire-python-observability-sdk-llm-agent-tracing
 category: Monitoring & Alerts
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Logfire is Pydantic's observability SDK for Python applications, with first-class tracing for AI, LLM, and agent workloads. It wraps OpenTelemetry, ships with a hosted…
 url: https://agentskillexchange.com/skills/logfire-python-observability-sdk-llm-agent-tracing/
 
@@ -5679,7 +5679,7 @@ url: https://agentskillexchange.com/skills/logfire-python-observability-sdk-llm-
 slug: clerk-javascript-backend-sdk-server-side-auth-workflows
 category: Security & Verification
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Clerk’s JavaScript backend SDK gives agents a real server-side interface for auth and user management. It is useful for verifying sessions, fetching users, issuing…
 url: https://agentskillexchange.com/skills/clerk-javascript-backend-sdk-server-side-auth-workflows/
 
@@ -5703,7 +5703,7 @@ url: https://agentskillexchange.com/skills/better-auth-authentication-framework-
 slug: langsmith-sdk-for-llm-tracing-and-evaluation
 category: Monitoring & Alerts
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: LangSmith provides tracing, evaluation, and debugging workflows for LLM applications. This skill is useful when an agent team needs structured observability around prompts, chains,…
 url: https://agentskillexchange.com/skills/langsmith-sdk-for-llm-tracing-and-evaluation/
 
@@ -5711,7 +5711,7 @@ url: https://agentskillexchange.com/skills/langsmith-sdk-for-llm-tracing-and-eva
 slug: pipedream-api-workflow-automation-platform
 category: Integrations & Connectors
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Pipedream is a developer-focused workflow platform for connecting APIs and running automation logic in hosted workflows. It fits ASE as a source-backed integration skill…
 url: https://agentskillexchange.com/skills/pipedream-api-workflow-automation-platform/
 
@@ -5791,7 +5791,7 @@ url: https://agentskillexchange.com/skills/chrome-devtools-mcp-browser-debugging
 slug: mailchimp-marketing-api-nodejs-sdk
 category: Calendar, Email & Productivity
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Connects agents to Mailchimp’s official Marketing API through the official Node.js client library. Useful for audience sync, tagging, campaign orchestration, automation triggers, webhooks, and…
 url: https://agentskillexchange.com/skills/mailchimp-marketing-api-nodejs-sdk/
 
@@ -5799,7 +5799,7 @@ url: https://agentskillexchange.com/skills/mailchimp-marketing-api-nodejs-sdk/
 slug: webflow-data-api-javascript-sdk
 category: WordPress & CMS
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Automates site, CMS, and publishing workflows with Webflow’s official JavaScript SDK for the Webflow Data API. Useful for agents that need to list sites,…
 url: https://agentskillexchange.com/skills/webflow-data-api-javascript-sdk/
 
@@ -5823,7 +5823,7 @@ url: https://agentskillexchange.com/skills/linkup-js-sdk-sourced-web-search-fetc
 slug: exa-js-web-search-sdk-ai-applications
 category: Research & Scraping
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: exa-js is the official JavaScript SDK for Exa, a web search API built for AI workflows. It gives agents a concrete way to search…
 url: https://agentskillexchange.com/skills/exa-js-web-search-sdk-ai-applications/
 
@@ -5831,7 +5831,7 @@ url: https://agentskillexchange.com/skills/exa-js-web-search-sdk-ai-applications
 slug: headstartwp-headless-wordpress-nextjs-framework
 category: WordPress & CMS
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: HeadstartWP is 10up's open-source framework for building headless WordPress sites with Next.js. It combines a WordPress plugin, JavaScript packages, and documented patterns for routing,…
 url: https://agentskillexchange.com/skills/headstartwp-headless-wordpress-nextjs-framework/
 
@@ -5847,7 +5847,7 @@ url: https://agentskillexchange.com/skills/remotion-react-video-generation-rende
 slug: scrapy-python-web-crawling-structured-data-extraction-framework
 category: Research & Scraping
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Scrapy is a high-level Python framework for web crawling and structured data extraction. It is a strong fit for agent workflows that need repeatable…
 url: https://agentskillexchange.com/skills/scrapy-python-web-crawling-structured-data-extraction-framework/
 
@@ -5871,7 +5871,7 @@ url: https://agentskillexchange.com/skills/ai-engine-wordpress-mcp-server-and-ai
 slug: moonshine-voice-on-device-speech-recognition-and-voice-commands
 category: Media & Transcription
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Moonshine Voice is a fast on-device speech recognition library for interactive voice applications. This skill helps agents install the Python package, load supported language…
 url: https://agentskillexchange.com/skills/moonshine-voice-on-device-speech-recognition-and-voice-commands/
 
@@ -5879,7 +5879,7 @@ url: https://agentskillexchange.com/skills/moonshine-voice-on-device-speech-reco
 slug: netdata-real-time-infrastructure-monitoring-and-alerting
 category: Monitoring & Alerts
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Netdata is an open-source observability platform for real-time metrics, anomaly detection, and alerting across servers, containers, databases, and cloud services. This skill helps agents…
 url: https://agentskillexchange.com/skills/netdata-real-time-infrastructure-monitoring-and-alerting/
 
@@ -6015,7 +6015,7 @@ url: https://agentskillexchange.com/skills/stagehand-browser-automation/
 slug: gotify-self-hosted-push-notification-server-and-api
 category: Monitoring & Alerts
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Run self-hosted push notifications with Gotify, including a REST API, WebSocket stream, web UI, plugins, and mobile clients. This skill helps agents send alerts,…
 url: https://agentskillexchange.com/skills/gotify-self-hosted-push-notification-server-and-api/
 
@@ -6127,7 +6127,7 @@ url: https://agentskillexchange.com/skills/penpot-open-source-design-collaborati
 slug: formbricks-open-source-survey-platform
 category: Integrations & Connectors
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Formbricks is an open-source survey and experience-management platform with link, website, email, and in-app surveys. This skill helps agents work with the real Formbricks…
 url: https://agentskillexchange.com/skills/formbricks-open-source-survey-platform/
 
@@ -6135,7 +6135,7 @@ url: https://agentskillexchange.com/skills/formbricks-open-source-survey-platfor
 slug: appwrite-open-source-backend-platform
 category: Integrations & Connectors
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Appwrite is an open-source backend platform for web, mobile, and AI apps. This skill helps agents use Appwrite's real services—Auth, Databases, Storage, Functions, Messaging,…
 url: https://agentskillexchange.com/skills/appwrite-open-source-backend-platform/
 
@@ -6167,7 +6167,7 @@ url: https://agentskillexchange.com/skills/langflow-visual-ai-agent-workflow-bui
 slug: langfuse-prompt-management-mcp-server
 category: Templates & Workflows
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Langfuse Prompt Management MCP Server connects MCP clients to Langfuse prompt libraries so agents can list, retrieve, and compile managed prompts at runtime. It…
 url: https://agentskillexchange.com/skills/langfuse-prompt-management-mcp-server/
 
@@ -6175,7 +6175,7 @@ url: https://agentskillexchange.com/skills/langfuse-prompt-management-mcp-server
 slug: microsoft-learn-mcp-server
 category: Library & API Reference
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Microsoft Learn MCP Server gives agents and IDE assistants direct access to official Microsoft documentation and code samples through a hosted MCP endpoint. It…
 url: https://agentskillexchange.com/skills/microsoft-learn-mcp-server/
 
@@ -6183,7 +6183,7 @@ url: https://agentskillexchange.com/skills/microsoft-learn-mcp-server/
 slug: grounded-docs-mcp-server
 category: Library & API Reference
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Grounded Docs MCP Server gives AI coding assistants a version-aware documentation index built from official sources like websites, GitHub, npm, PyPI, and local files.…
 url: https://agentskillexchange.com/skills/grounded-docs-mcp-server/
 
@@ -6191,7 +6191,7 @@ url: https://agentskillexchange.com/skills/grounded-docs-mcp-server/
 slug: coolify-self-hosted-app-platform-deployment-automation-skill
 category: Developer Tools
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Coolify is an open source self-hosted deployment platform for applications, databases, and services. This skill covers installing Coolify, connecting infrastructure over SSH, and using…
 url: https://agentskillexchange.com/skills/coolify-self-hosted-app-platform-deployment-automation-skill/
 
@@ -6223,7 +6223,7 @@ url: https://agentskillexchange.com/skills/decap-cms-git-based-content-managemen
 slug: maildev-smtp-testing-server-and-web-interface-for-development-email-workflows
 category: Calendar, Email & Productivity
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: MailDev is a local SMTP server with a browser UI for viewing test emails during development. It catches outgoing mail, exposes a REST API,…
 url: https://agentskillexchange.com/skills/maildev-smtp-testing-server-and-web-interface-for-development-email-workflows/
 
@@ -6263,7 +6263,7 @@ url: https://agentskillexchange.com/skills/vercel-agent-browser/
 slug: appsmith-open-source-internal-tools-admin-panel-builder
 category: Developer Tools
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Appsmith is an open-source platform for building internal tools, dashboards, and admin panels on top of databases and APIs. It is well suited to…
 url: https://agentskillexchange.com/skills/appsmith-open-source-internal-tools-admin-panel-builder/
 
@@ -6295,7 +6295,7 @@ url: https://agentskillexchange.com/skills/cheerio-html-xml-parsing-library-node
 slug: firecrawl-web-data-api-ai-search-scraping-crawl-workflows
 category: Research & Scraping
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Firecrawl is an open source web data platform for search, scraping, crawling, and browser-like page interaction. It gives agents LLM-ready markdown, structured JSON, screenshots,…
 url: https://agentskillexchange.com/skills/firecrawl-web-data-api-ai-search-scraping-crawl-workflows/
 
@@ -6311,7 +6311,7 @@ url: https://agentskillexchange.com/skills/stagehand-ai-browser-automation-frame
 slug: octokit-javascript-github-sdk-rest-graphql-app-automation
 category: Library & API Reference
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Octokit is GitHub’s JavaScript SDK family for REST API requests, GraphQL queries, authentication, webhooks, and GitHub App workflows. It gives agents and automation systems…
 url: https://agentskillexchange.com/skills/octokit-javascript-github-sdk-rest-graphql-app-automation/
 
@@ -6327,7 +6327,7 @@ url: https://agentskillexchange.com/skills/colly-golang-web-scraper-crawler-fram
 slug: ghost-open-source-publishing-platform-memberships-newsletters-headless-cms
 category: WordPress & CMS
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Ghost is an open-source publishing platform built for modern blogs, newsletters, memberships, and headless CMS use cases. It combines editorial workflows, subscription management, and…
 url: https://agentskillexchange.com/skills/ghost-open-source-publishing-platform-memberships-newsletters-headless-cms/
 
@@ -6407,7 +6407,7 @@ url: https://agentskillexchange.com/skills/highlight-io-full-stack-monitoring/
 slug: huh-terminal-forms-prompts-library
 category: Developer Tools
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Huh by Charmbracelet is a Go library for building interactive forms and prompts in the terminal. It supports input fields, selects, multi-selects, text areas,…
 url: https://agentskillexchange.com/skills/huh-terminal-forms-prompts-library/
 
@@ -6455,7 +6455,7 @@ url: https://agentskillexchange.com/skills/electricsql-postgres-sync-engine/
 slug: cerbos-authorization-pdp
 category: Security & Verification
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Cerbos is an open-core, language-agnostic, scalable authorization solution that makes implementing and managing user permissions simple. It uses context-aware YAML access control policies managed…
 url: https://agentskillexchange.com/skills/cerbos-authorization-pdp/
 
@@ -6479,7 +6479,7 @@ url: https://agentskillexchange.com/skills/borgbackup-deduplicating-encrypted-ba
 slug: jina-reader-url-to-markdown-web-search
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Jina Reader converts any URL to LLM-friendly markdown by prefixing https://r.jina.ai/ to any web address. It also provides a search endpoint at https://s.jina.ai/ that…
 url: https://agentskillexchange.com/skills/jina-reader-url-to-markdown-web-search/
 
@@ -6495,7 +6495,7 @@ url: https://agentskillexchange.com/skills/pyannote-audio-speaker-diarization-to
 slug: newspaper4k-python-article-extraction-nlp
 category: Research & Scraping
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Newspaper4k is an actively maintained fork of the popular Newspaper3k library for Python. It extracts articles, titles, images, authors, and metadata from news websites,…
 url: https://agentskillexchange.com/skills/newspaper4k-python-article-extraction-nlp/
 
@@ -6551,7 +6551,7 @@ url: https://agentskillexchange.com/skills/formbricks-open-source-survey-experie
 slug: ghostfolio-wealth-management-portfolio-tracking
 category: Integrations & Connectors
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Ghostfolio is an open-source wealth management application for tracking stocks, ETFs, and cryptocurrencies across multiple platforms. Built with Angular, NestJS, and Prisma on PostgreSQL,…
 url: https://agentskillexchange.com/skills/ghostfolio-wealth-management-portfolio-tracking/
 
@@ -6567,7 +6567,7 @@ url: https://agentskillexchange.com/skills/cariddi-domain-crawler-endpoint-secre
 slug: logdy-realtime-log-viewer-web-ui-cli
 category: Monitoring & Alerts
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Logdy is a zero-dependency single-binary log viewer that pipes any command output into an interactive browser-based UI. It supports custom TypeScript parsers, column definitions,…
 url: https://agentskillexchange.com/skills/logdy-realtime-log-viewer-web-ui-cli/
 
@@ -6823,7 +6823,7 @@ url: https://agentskillexchange.com/skills/resend-developer-email-api-nodejs-sdk
 slug: pop-terminal-email-sender-charmbracelet
 category: Calendar, Email & Productivity
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Pop is a terminal-based email sending tool by Charmbracelet with both a TUI composer and CLI mode. It supports Resend API and SMTP backends,…
 url: https://agentskillexchange.com/skills/pop-terminal-email-sender-charmbracelet/
 
@@ -6855,7 +6855,7 @@ url: https://agentskillexchange.com/skills/usql-universal-sql-client/
 slug: dokku-docker-paas
 category: Developer Tools
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Dokku is a self-hosted Platform-as-a-Service built on Docker that provides Heroku-like git-push deployment on your own infrastructure. With 32,000+ GitHub stars, it supports buildpacks,…
 url: https://agentskillexchange.com/skills/dokku-docker-paas/
 
@@ -6935,7 +6935,7 @@ url: https://agentskillexchange.com/skills/bullmq-redis-message-queue-job-proces
 slug: kestra-event-driven-orchestration-scheduling-platform
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Kestra is an open-source, event-driven orchestration platform that makes both scheduled and event-driven workflows easy. Define workflows declaratively in YAML with a rich plugin…
 url: https://agentskillexchange.com/skills/kestra-event-driven-orchestration-scheduling-platform/
 
@@ -6967,7 +6967,7 @@ url: https://agentskillexchange.com/skills/wxt-next-gen-web-extension-framework/
 slug: unkey-api-key-management-rate-limiting
 category: Security & Verification
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Unkey is an open-source developer platform for managing API keys, rate limiting, and usage analytics. It provides a fast, globally distributed key verification system…
 url: https://agentskillexchange.com/skills/unkey-api-key-management-rate-limiting/
 
@@ -6975,7 +6975,7 @@ url: https://agentskillexchange.com/skills/unkey-api-key-management-rate-limitin
 slug: writingtools-system-wide-ai-grammar-assistant
 category: Content Writing & SEO
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: WritingTools is an open-source, Apple Intelligence-inspired writing assistant that works system-wide on Windows, Linux, and macOS. With a single hotkey, it fixes grammar, rewrites…
 url: https://agentskillexchange.com/skills/writingtools-system-wide-ai-grammar-assistant/
 
@@ -7111,7 +7111,7 @@ url: https://agentskillexchange.com/skills/casdoor-open-source-iam-auth-platform
 slug: wails-desktop-app-framework-go-web
 category: Developer Tools
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Wails is an open source framework for building desktop applications using Go for backend logic and standard web technologies (HTML, CSS, JavaScript) for the…
 url: https://agentskillexchange.com/skills/wails-desktop-app-framework-go-web/
 
@@ -7207,7 +7207,7 @@ url: https://agentskillexchange.com/skills/conftest-opa-config-policy-testing/
 slug: wish-ssh-application-framework
 category: Developer Tools
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Wish is a Go library for building SSH-accessible applications with sensible defaults and composable middleware. It lets developers serve Bubble Tea TUIs, Git repos,…
 url: https://agentskillexchange.com/skills/wish-ssh-application-framework/
 
@@ -7239,7 +7239,7 @@ url: https://agentskillexchange.com/skills/papermark-document-sharing-analytics/
 slug: tabby-self-hosted-ai-coding-assistant
 category: Developer Tools
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Tabby is an open-source, self-hosted AI coding assistant that serves as an on-premises alternative to GitHub Copilot. It provides code completion and chat capabilities…
 url: https://agentskillexchange.com/skills/tabby-self-hosted-ai-coding-assistant/
 
@@ -7287,7 +7287,7 @@ url: https://agentskillexchange.com/skills/ollama-local-llm-runner-model-server/
 slug: devbox-nix-development-environment-jetify
 category: Developer Tools
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Devbox by Jetify creates instant, isolated development environments using Nix packages. Define project dependencies in a devbox.json file, and every developer gets identical toolchains…
 url: https://agentskillexchange.com/skills/devbox-nix-development-environment-jetify/
 
@@ -7295,7 +7295,7 @@ url: https://agentskillexchange.com/skills/devbox-nix-development-environment-je
 slug: git-cliff-changelog-generator
 category: Developer Tools
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: git-cliff generates changelog files from Git history using conventional commits and regex-powered custom parsers. Written in Rust, it provides highly customizable templates via a…
 url: https://agentskillexchange.com/skills/git-cliff-changelog-generator/
 
@@ -7319,7 +7319,7 @@ url: https://agentskillexchange.com/skills/open-webui-self-hosted-ai-interface/
 slug: plunk-open-source-email-platform-aws-ses
 category: Calendar, Email & Productivity
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Plunk is an open-source email platform built on AWS SES for sending transactional emails, creating event-driven automations, and broadcasting newsletters. It serves as a…
 url: https://agentskillexchange.com/skills/plunk-open-source-email-platform-aws-ses/
 
@@ -7327,7 +7327,7 @@ url: https://agentskillexchange.com/skills/plunk-open-source-email-platform-aws-
 slug: documenso-open-source-document-signing
 category: Calendar, Email & Productivity
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Documenso is an open-source digital document signing platform and DocuSign alternative. It enables secure electronic signatures with self-hosting capabilities, providing transparent and trustworthy document…
 url: https://agentskillexchange.com/skills/documenso-open-source-document-signing/
 
@@ -7335,7 +7335,7 @@ url: https://agentskillexchange.com/skills/documenso-open-source-document-signin
 slug: flagsmith-feature-flag-remote-config
 category: Integrations & Connectors
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Flagsmith is an open-source feature flagging and remote configuration platform. It enables teams to safely roll out features, run A/B tests, and manage remote…
 url: https://agentskillexchange.com/skills/flagsmith-feature-flag-remote-config/
 
@@ -7575,7 +7575,7 @@ url: https://agentskillexchange.com/skills/aichat-llm-cli-shell-assistant-rag/
 slug: whisper-cpp-speech-recognition-engine
 category: Media & Transcription
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: whisper.cpp is a lightweight, high-performance C/C++ port of OpenAI's Whisper automatic speech recognition model. It runs on CPU and GPU across all major platforms…
 url: https://agentskillexchange.com/skills/whisper-cpp-speech-recognition-engine/
 
@@ -7623,7 +7623,7 @@ url: https://agentskillexchange.com/skills/gitingest-repository-to-prompt-codeba
 slug: healthchecks-io-cron-job-monitoring-alerting-platform
 category: Monitoring & Alerts
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Healthchecks.io is an open-source cron and background task monitoring platform that alerts when scheduled jobs fail to ping on time. It gives teams a…
 url: https://agentskillexchange.com/skills/healthchecks-io-cron-job-monitoring-alerting-platform/
 
@@ -7631,7 +7631,7 @@ url: https://agentskillexchange.com/skills/healthchecks-io-cron-job-monitoring-a
 slug: unstructured-document-partitioning-etl-library-llm-pipelines
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Unstructured is an open-source library for ingesting and partitioning PDFs, HTML, Office documents, emails, and other unstructured inputs into structured elements and metadata. It…
 url: https://agentskillexchange.com/skills/unstructured-document-partitioning-etl-library-llm-pipelines/
 
@@ -7655,7 +7655,7 @@ url: https://agentskillexchange.com/skills/seleniumbase-python-browser-automatio
 slug: contact-form-7-wordpress-form-builder-mail-integration
 category: WordPress & CMS
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Contact Form 7 is the long-running WordPress forms plugin from Rock Lobster Inc., with more than 10 million active installs and official documentation at…
 url: https://agentskillexchange.com/skills/contact-form-7-wordpress-form-builder-mail-integration/
 
@@ -7671,7 +7671,7 @@ url: https://agentskillexchange.com/skills/rank-math-seo-plugin-wordpress-search
 slug: elementor-website-builder-wordpress-visual-page-editor
 category: WordPress & CMS
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Elementor is the visual drag-and-drop website builder plugin for WordPress maintained by Elementor, with more than 10 million active installs on WordPress.org. This skill…
 url: https://agentskillexchange.com/skills/elementor-website-builder-wordpress-visual-page-editor/
 
@@ -7679,7 +7679,7 @@ url: https://agentskillexchange.com/skills/elementor-website-builder-wordpress-v
 slug: mailhog-smtp-testing-server-with-web-ui-and-api
 category: Calendar, Email & Productivity
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Uses MailHog to capture outbound email in development and test environments through a local SMTP server, browser UI, and JSON API. It is a…
 url: https://agentskillexchange.com/skills/mailhog-smtp-testing-server-with-web-ui-and-api/
 
@@ -7695,7 +7695,7 @@ url: https://agentskillexchange.com/skills/puppeteer-browser-automation-library-
 slug: playwright-cross-browser-testing-and-automation-framework
 category: Browser Automation
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Uses Microsoft Playwright to automate Chromium, Firefox, and WebKit with one API for testing, scraping, screenshots, tracing, and login flows. It fits teams that…
 url: https://agentskillexchange.com/skills/playwright-cross-browser-testing-and-automation-framework/
 
@@ -7703,7 +7703,7 @@ url: https://agentskillexchange.com/skills/playwright-cross-browser-testing-and-
 slug: git-updater-wordpress-plugin-theme-auto-updater
 category: WordPress & CMS
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Git Updater enables automatic updates for WordPress plugins and themes hosted on GitHub, Bitbucket, GitLab, and Gitea repositories, with support for release assets, language…
 url: https://agentskillexchange.com/skills/git-updater-wordpress-plugin-theme-auto-updater/
 
@@ -7775,7 +7775,7 @@ url: https://agentskillexchange.com/skills/teable-no-code-postgres-database-plat
 slug: bubble-tea-go-tui-framework
 category: Library & API Reference
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Bubble Tea is a powerful Go framework for building terminal user interfaces based on The Elm Architecture. Developed by Charmbracelet, it supports inline, full-window,…
 url: https://agentskillexchange.com/skills/bubble-tea-go-tui-framework/
 
@@ -7855,7 +7855,7 @@ url: https://agentskillexchange.com/skills/shiori-self-hosted-bookmark-manager-c
 slug: writefreely-federated-markdown-publishing-platform
 category: Content Writing & SEO
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: WriteFreely is a clean, minimalist self-hosted publishing platform built in Go for writers. It features a distraction-free Markdown editor, ActivityPub federation for cross-platform community…
 url: https://agentskillexchange.com/skills/writefreely-federated-markdown-publishing-platform/
 
@@ -7863,7 +7863,7 @@ url: https://agentskillexchange.com/skills/writefreely-federated-markdown-publis
 slug: webhook-http-endpoint-server-shell-commands
 category: Integrations & Connectors
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Webhook is a lightweight, configurable tool written in Go that creates HTTP endpoints on your server to execute shell commands. It supports JSON and…
 url: https://agentskillexchange.com/skills/webhook-http-endpoint-server-shell-commands/
 
@@ -7895,7 +7895,7 @@ url: https://agentskillexchange.com/skills/mautic-marketing-automation-platform/
 slug: stalwart-mail-collaboration-server
 category: Calendar, Email & Productivity
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Stalwart is an open-source mail and collaboration server written in Rust that provides JMAP, IMAP4, POP3, SMTP, CalDAV, CardDAV, and WebDAV support. It enables…
 url: https://agentskillexchange.com/skills/stalwart-mail-collaboration-server/
 
@@ -7903,7 +7903,7 @@ url: https://agentskillexchange.com/skills/stalwart-mail-collaboration-server/
 slug: netbird-wireguard-mesh-vpn-zero-trust-access
 category: Security & Verification
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: NetBird creates encrypted WireGuard-based overlay networks with SSO, MFA, and granular access controls. It provides peer-to-peer connectivity with NAT traversal, centralized management via a…
 url: https://agentskillexchange.com/skills/netbird-wireguard-mesh-vpn-zero-trust-access/
 
@@ -8055,7 +8055,7 @@ url: https://agentskillexchange.com/skills/sveltia-cms-git-based-headless-cms/
 slug: vikunja-self-hosted-task-management
 category: Calendar, Email & Productivity
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Vikunja is an open-source, self-hosted task management application written in Go with a Vue.js frontend. It provides lists, kanban boards, Gantt charts, and CalDAV…
 url: https://agentskillexchange.com/skills/vikunja-self-hosted-task-management/
 
@@ -8063,7 +8063,7 @@ url: https://agentskillexchange.com/skills/vikunja-self-hosted-task-management/
 slug: aerc-extensible-terminal-email-client
 category: Calendar, Email & Productivity
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: aerc is a terminal-based email client written in Go with first-class support for IMAP, SMTP, JMAP, Maildir, and Notmuch. It features Vim-like keybindings, email…
 url: https://agentskillexchange.com/skills/aerc-extensible-terminal-email-client/
 
@@ -8119,7 +8119,7 @@ url: https://agentskillexchange.com/skills/oxipng-png-compression-optimizer/
 slug: caprover-self-hosted-paas-app-deployment
 category: CI/CD Integrations
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: CapRover is a self-hosted Platform-as-a-Service that automates Docker, Nginx, and LetsEncrypt to deploy applications and databases with minimal configuration. It provides a web GUI…
 url: https://agentskillexchange.com/skills/caprover-self-hosted-paas-app-deployment/
 
@@ -8127,7 +8127,7 @@ url: https://agentskillexchange.com/skills/caprover-self-hosted-paas-app-deploym
 slug: goaccess-real-time-web-log-analyzer
 category: Monitoring & Alerts
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: GoAccess is an open-source real-time web log analyzer that runs in a terminal or generates live HTML dashboards. It parses Apache, Nginx, CloudFront, S3,…
 url: https://agentskillexchange.com/skills/goaccess-real-time-web-log-analyzer/
 
@@ -8143,7 +8143,7 @@ url: https://agentskillexchange.com/skills/tldraw-infinite-canvas-whiteboard-sdk
 slug: sitespeed-io-web-performance-analysis
 category: Monitoring & Alerts
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: sitespeed.io is an open-source tool for comprehensive web performance analysis. It tests websites using real browsers, provides speed optimization feedback, and tracks performance over…
 url: https://agentskillexchange.com/skills/sitespeed-io-web-performance-analysis/
 
@@ -8199,7 +8199,7 @@ url: https://agentskillexchange.com/skills/pastel-command-line-color-tool/
 slug: timewarrior-command-line-time-tracking-reporting
 category: Calendar, Email & Productivity
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Timewarrior is a command-line time tracking tool from the Taskwarrior project. It records time intervals with tags, generates flexible reports, and integrates with Taskwarrior…
 url: https://agentskillexchange.com/skills/timewarrior-command-line-time-tracking-reporting/
 
@@ -8271,7 +8271,7 @@ url: https://agentskillexchange.com/skills/d2-diagram-scripting-language-cli/
 slug: rclone-cloud-storage-sync-management-cli
 category: Integrations & Connectors
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Rclone is an open-source command-line program to sync files and directories to and from over 70 cloud storage providers including Google Drive, S3, Dropbox,…
 url: https://agentskillexchange.com/skills/rclone-cloud-storage-sync-management-cli/
 
@@ -8311,7 +8311,7 @@ url: https://agentskillexchange.com/skills/monolith-web-page-single-file-archive
 slug: neomutt-terminal-email-client
 category: Calendar, Email & Productivity
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: NeoMutt is an actively maintained fork of the classic Mutt email client that brings modern features to terminal-based email management. It supports IMAP, POP3,…
 url: https://agentskillexchange.com/skills/neomutt-terminal-email-client/
 
@@ -8599,7 +8599,7 @@ url: https://agentskillexchange.com/skills/exiftool-metadata-reader-writer-image
 slug: caddy-automatic-https-web-server-reverse-proxy
 category: Developer Tools
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Caddy is a fast, extensible web server written in Go that provides automatic HTTPS via Let's Encrypt and ZeroSSL. It supports HTTP/1.1, HTTP/2, and…
 url: https://agentskillexchange.com/skills/caddy-automatic-https-web-server-reverse-proxy/
 
@@ -8615,7 +8615,7 @@ url: https://agentskillexchange.com/skills/spleeter-ai-audio-source-separation-d
 slug: mkcert-local-dev-tls-certificate-generator
 category: Developer Tools
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: mkcert is a zero-configuration CLI tool by Filippo Valsorda that creates locally-trusted development certificates. It automatically installs a local CA in the system root…
 url: https://agentskillexchange.com/skills/mkcert-local-dev-tls-certificate-generator/
 
@@ -8679,7 +8679,7 @@ url: https://agentskillexchange.com/skills/textstat-python-readability-statistic
 slug: theharvester-osint-email-subdomain-intelligence
 category: Research & Scraping
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: theHarvester is an open-source OSINT tool for gathering emails, subdomains, hosts, employee names, open ports, and banners from public sources. Used during reconnaissance in…
 url: https://agentskillexchange.com/skills/theharvester-osint-email-subdomain-intelligence/
 
@@ -8703,7 +8703,7 @@ url: https://agentskillexchange.com/skills/harper-offline-grammar-checker-automa
 slug: openseo-self-hosted-keyword-research-seo-analysis
 category: Content Writing & SEO
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: OpenSEO is an open-source, self-hostable SEO platform that provides keyword research, domain insights, backlink analysis, and site audits. It serves as a pay-as-you-go alternative…
 url: https://agentskillexchange.com/skills/openseo-self-hosted-keyword-research-seo-analysis/
 
@@ -8743,7 +8743,7 @@ url: https://agentskillexchange.com/skills/schema-dts-typescript-types-schemaorg
 slug: wordpress-mcp-adapter-model-context-protocol-bridge
 category: WordPress & CMS
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: An agent skill built on the official WordPress MCP Adapter plugin, which bridges the WordPress Abilities API to the Model Context Protocol. Enables MCP-compatible…
 url: https://agentskillexchange.com/skills/wordpress-mcp-adapter-model-context-protocol-bridge/
 
@@ -8783,7 +8783,7 @@ url: https://agentskillexchange.com/skills/decap-cms-git-based-content-managemen
 slug: svgo-svg-optimization-tool
 category: Image & Creative Automation
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: An agent skill built on SVGO (SVG Optimizer), the Node.js tool for optimizing SVG files by applying a configurable set of transformation plugins. Removes…
 url: https://agentskillexchange.com/skills/svgo-svg-optimization-tool/
 
@@ -8823,7 +8823,7 @@ url: https://agentskillexchange.com/skills/khal-cli-calendar-application-caldav/
 slug: himalaya-cli-email-client-imap-smtp-notmuch
 category: Calendar, Email & Productivity
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Himalaya is a CLI email client written in Rust that supports IMAP, Maildir, and Notmuch backends for reading mail, and SMTP and Sendmail for…
 url: https://agentskillexchange.com/skills/himalaya-cli-email-client-imap-smtp-notmuch/
 
@@ -8903,7 +8903,7 @@ url: https://agentskillexchange.com/skills/spiderfoot-osint-automation-framework
 slug: changedetection-io-website-change-monitor
 category: Research & Scraping
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: changedetection.io is an open-source, self-hosted tool for monitoring websites for content changes, price drops, restock alerts, and defacement detection. It supports visual selectors, browser…
 url: https://agentskillexchange.com/skills/changedetection-io-website-change-monitor/
 
@@ -8935,7 +8935,7 @@ url: https://agentskillexchange.com/skills/memos-self-hosted-note-capture-knowle
 slug: cal-com-open-source-scheduling-infrastructure-api
 category: Calendar, Email & Productivity
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Integrate Cal.com's open-source scheduling platform into AI agent workflows. Agents can programmatically create event types, check availability, book meetings, and manage scheduling infrastructure through…
 url: https://agentskillexchange.com/skills/cal-com-open-source-scheduling-infrastructure-api/
 
@@ -8983,7 +8983,7 @@ url: https://agentskillexchange.com/skills/posthog-product-analytics-and-feature
 slug: langfuse-llm-observability-platform-and-sdk
 category: Monitoring & Alerts
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Use Langfuse to capture prompts, traces, generations, evaluations, and cost telemetry for LLM applications and agent workflows. This skill turns Langfuse from a generic…
 url: https://agentskillexchange.com/skills/langfuse-llm-observability-platform-and-sdk/
 
@@ -9063,7 +9063,7 @@ url: https://agentskillexchange.com/skills/write-good-english-prose-linting-tech
 slug: markdownlint-cli2-markdown-linting-docs-repos
 category: Content Writing & SEO
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: This skill uses markdownlint-cli2 to enforce consistent Markdown quality across docs, READMEs, and content repositories. It is built for local authoring, pull-request checks, and…
 url: https://agentskillexchange.com/skills/markdownlint-cli2-markdown-linting-docs-repos/
 
@@ -9191,7 +9191,7 @@ url: https://agentskillexchange.com/skills/crewai-multi-agent-orchestration-fram
 slug: liquidsoap-audio-video-streaming-language
 category: Media & Transcription
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Build audio and video streaming pipelines with Liquidsoap, a statically typed scripting language purpose-built for media automation. Create internet radio stations, live stream processors,…
 url: https://agentskillexchange.com/skills/liquidsoap-audio-video-streaming-language/
 
@@ -9207,7 +9207,7 @@ url: https://agentskillexchange.com/skills/beets-music-library-manager-tagger/
 slug: languagetool-grammar-style-checker
 category: Content Writing & SEO
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Check grammar, style, and spelling across 25+ languages with LanguageTool. This open-source proofreading engine can run as a local Java server or via its…
 url: https://agentskillexchange.com/skills/languagetool-grammar-style-checker/
 
@@ -9223,7 +9223,7 @@ url: https://agentskillexchange.com/skills/alex-inclusive-writing-linter/
 slug: textlint-pluggable-natural-language-linter
 category: Content Writing & SEO
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Lint natural language text with textlint, the pluggable linting framework inspired by ESLint. Install community rules from npm to enforce writing standards, catch grammar…
 url: https://agentskillexchange.com/skills/textlint-pluggable-natural-language-linter/
 
@@ -9231,7 +9231,7 @@ url: https://agentskillexchange.com/skills/textlint-pluggable-natural-language-l
 slug: wordops-high-performance-wordpress-server-stack
 category: WordPress & CMS
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: WordOps is an open-source CLI tool that installs and manages a complete high-performance WordPress server stack with Nginx, PHP, MariaDB, and Redis in a…
 url: https://agentskillexchange.com/skills/wordops-high-performance-wordpress-server-stack/
 
@@ -9367,7 +9367,7 @@ url: https://agentskillexchange.com/skills/broot-interactive-tree-view-file-navi
 slug: pixi-cross-platform-package-manager-conda-rust
 category: Developer Tools
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: A blazing-fast, cross-platform package manager and workflow tool written in Rust. Pixi builds on the Conda ecosystem to provide reproducible, multi-language dependency management with…
 url: https://agentskillexchange.com/skills/pixi-cross-platform-package-manager-conda-rust/
 
@@ -9375,7 +9375,7 @@ url: https://agentskillexchange.com/skills/pixi-cross-platform-package-manager-c
 slug: devenv-declarative-developer-environments-nix
 category: Developer Tools
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: A fast, declarative, and reproducible developer environment tool built on Nix. devenv lets teams define project dependencies, services, scripts, and language toolchains in a…
 url: https://agentskillexchange.com/skills/devenv-declarative-developer-environments-nix/
 
@@ -9399,7 +9399,7 @@ url: https://agentskillexchange.com/skills/directus-open-source-headless-cms-bac
 slug: gallery-dl-image-gallery-collection-downloader
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: gallery-dl is a command-line tool for downloading image galleries and collections from dozens of hosting sites including Pixiv, DeviantArt, Twitter, Reddit, Instagram, and Danbooru.…
 url: https://agentskillexchange.com/skills/gallery-dl-image-gallery-collection-downloader/
 
@@ -9479,7 +9479,7 @@ url: https://agentskillexchange.com/skills/jsdoc-javascript-api-documentation-ge
 slug: langextract-llm-structured-text-extraction
 category: Data Extraction & Transformation
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: LangExtract by Google is a Python library for extracting structured information from unstructured text using LLMs with precise source grounding. With 35,000+ GitHub stars,…
 url: https://agentskillexchange.com/skills/langextract-llm-structured-text-extraction/
 
@@ -9519,7 +9519,7 @@ url: https://agentskillexchange.com/skills/nuclei-template-vulnerability-scanner
 slug: devdocs-unified-api-documentation-browser
 category: Library & API Reference
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: DevDocs aggregates 500+ API documentation sets into a single searchable interface with instant fuzzy search, offline support, and keyboard navigation. Maintained by freeCodeCamp with…
 url: https://agentskillexchange.com/skills/devdocs-unified-api-documentation-browser/
 
@@ -9551,7 +9551,7 @@ url: https://agentskillexchange.com/skills/stripe-agent-toolkit-ai-payment-integ
 slug: composio-agent-tool-integration-platform
 category: Integrations & Connectors
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Composio provides 1000+ pre-built toolkits with managed authentication, context management, and sandboxed execution to connect AI agents to external apps like Gmail, Slack, GitHub,…
 url: https://agentskillexchange.com/skills/composio-agent-tool-integration-platform/
 
@@ -9591,7 +9591,7 @@ url: https://agentskillexchange.com/skills/activepieces-open-source-workflow-aut
 slug: typesense-typo-tolerant-search-engine
 category: Data Extraction & Transformation
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Typesense is an open-source, typo-tolerant search engine built in C++ for building fast, relevant search experiences. It serves as a self-hostable alternative to Algolia…
 url: https://agentskillexchange.com/skills/typesense-typo-tolerant-search-engine/
 
@@ -9599,7 +9599,7 @@ url: https://agentskillexchange.com/skills/typesense-typo-tolerant-search-engine
 slug: nango-open-source-api-integration-platform
 category: Integrations & Connectors
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Nango is an open-source platform for building product integrations with 700+ APIs. It handles OAuth, token management, API proxying, and execution of custom TypeScript…
 url: https://agentskillexchange.com/skills/nango-open-source-api-integration-platform/
 
@@ -9711,7 +9711,7 @@ url: https://agentskillexchange.com/skills/jujutsu-jj-git-compatible-vcs/
 slug: topgrade-universal-system-package-updater
 category: Developer Tools
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Topgrade is a CLI tool written in Rust that detects all package managers and updatable sources on your system and runs the appropriate update…
 url: https://agentskillexchange.com/skills/topgrade-universal-system-package-updater/
 
@@ -9727,7 +9727,7 @@ url: https://agentskillexchange.com/skills/trdsql-sql-query-engine-csv-json-yaml
 slug: grex-regex-generator-from-test-cases
 category: Developer Tools
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: grex is a command-line tool and library that automatically generates regular expressions from user-provided test cases. Written in Rust with Python bindings, it produces…
 url: https://agentskillexchange.com/skills/grex-regex-generator-from-test-cases/
 
@@ -9799,7 +9799,7 @@ url: https://agentskillexchange.com/skills/quicktype-json-schema-code-generator/
 slug: jnv-interactive-json-navigator
 category: Data Extraction & Transformation
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: A terminal-based interactive JSON viewer and jq filter editor written in Rust. jnv lets developers navigate complex JSON structures visually while building and testing…
 url: https://agentskillexchange.com/skills/jnv-interactive-json-navigator/
 
@@ -9815,7 +9815,7 @@ url: https://agentskillexchange.com/skills/gitxray-github-repository-security-xr
 slug: betterleaks-secrets-scanner
 category: Security & Verification
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: A fast, configurable secrets scanner built by the creator of Gitleaks and backed by Aikido Security. Betterleaks detects leaked passwords, API keys, and tokens…
 url: https://agentskillexchange.com/skills/betterleaks-secrets-scanner/
 
@@ -9823,7 +9823,7 @@ url: https://agentskillexchange.com/skills/betterleaks-secrets-scanner/
 slug: sqruff-sql-linter-formatter
 category: Code Quality & Review
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: A fast SQL linter and formatter written in Rust by Quary Labs. sqruff provides advanced configurable linting and automated formatting with significantly faster execution…
 url: https://agentskillexchange.com/skills/sqruff-sql-linter-formatter/
 
@@ -9847,7 +9847,7 @@ url: https://agentskillexchange.com/skills/linear-mcp-server-issue-tracking-proj
 slug: k6-load-testing-performance-benchmarking-tool
 category: Developer Tools
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: A modern open-source load testing tool from Grafana Labs, written in Go with JavaScript scripting. Enables developers to write performance tests as code, run…
 url: https://agentskillexchange.com/skills/k6-load-testing-performance-benchmarking-tool/
 
@@ -9871,7 +9871,7 @@ url: https://agentskillexchange.com/skills/chroma-mcp-server-embedding-database-
 slug: cloudflare-mcp-servers-workers-security-observability
 category: Integrations & Connectors
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Official Cloudflare MCP servers that enable AI assistants to manage Workers applications, debug logs, analyze Radar traffic data, configure security settings, and interact with…
 url: https://agentskillexchange.com/skills/cloudflare-mcp-servers-workers-security-observability/
 
@@ -9879,7 +9879,7 @@ url: https://agentskillexchange.com/skills/cloudflare-mcp-servers-workers-securi
 slug: qdrant-mcp-server-vector-search-semantic-memory
 category: Integrations & Connectors
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: An official Qdrant MCP server implementation that provides semantic memory capabilities for AI agents. Enables storing and retrieving information using vector search, acting as…
 url: https://agentskillexchange.com/skills/qdrant-mcp-server-vector-search-semantic-memory/
 
@@ -9895,7 +9895,7 @@ url: https://agentskillexchange.com/skills/supabase-mcp-server-database-project-
 slug: glow-terminal-markdown-renderer
 category: Developer Tools
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Glow is a terminal-based markdown reader by Charm that renders markdown files with syntax highlighting, word wrapping, and styled formatting directly in the CLI.…
 url: https://agentskillexchange.com/skills/glow-terminal-markdown-renderer/
 
@@ -9911,7 +9911,7 @@ url: https://agentskillexchange.com/skills/csvkit-python-csv-utility-suite/
 slug: redpanda-connect-declarative-stream-processor
 category: Data Extraction & Transformation
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Redpanda Connect (formerly Benthos) is a high-performance stream processor that connects data sources and sinks through declarative YAML pipelines. It supports hundreds of connectors…
 url: https://agentskillexchange.com/skills/redpanda-connect-declarative-stream-processor/
 
@@ -9943,7 +9943,7 @@ url: https://agentskillexchange.com/skills/fx-terminal-json-viewer-processor/
 slug: commitlint-conventional-commit-message-linter
 category: Code Quality & Review
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: commitlint checks whether git commit messages meet the Conventional Commits specification, enforcing structured formats like type(scope): subject. Shareable configuration packages let teams standardize commit…
 url: https://agentskillexchange.com/skills/commitlint-conventional-commit-message-linter/
 
@@ -10063,7 +10063,7 @@ url: https://agentskillexchange.com/skills/dbmate-lightweight-database-migration
 slug: mastra-typescript-ai-agent-framework
 category: Developer Tools
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Mastra is an open-source TypeScript framework for building AI-powered applications and agents. Created by the team behind Gatsby, it provides model routing across 40+…
 url: https://agentskillexchange.com/skills/mastra-typescript-ai-agent-framework/
 
@@ -10087,7 +10087,7 @@ url: https://agentskillexchange.com/skills/gitbutler-virtual-branch-git-client/
 slug: instructor-structured-data-extraction-llms
 category: Data Extraction & Transformation
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Instructor is a multi-language library for extracting structured, validated data from LLM outputs. It patches LLM client libraries to return Pydantic models (Python) or…
 url: https://agentskillexchange.com/skills/instructor-structured-data-extraction-llms/
 
@@ -10095,7 +10095,7 @@ url: https://agentskillexchange.com/skills/instructor-structured-data-extraction
 slug: evidence-bi-as-code-sql-markdown-analytics
 category: Data Extraction & Transformation
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Evidence is an open-source framework for building data products with SQL and Markdown. It generates interactive dashboards and reports as static sites, providing a…
 url: https://agentskillexchange.com/skills/evidence-bi-as-code-sql-markdown-analytics/
 
@@ -10119,7 +10119,7 @@ url: https://agentskillexchange.com/skills/slidev-markdown-presentation-slides-d
 slug: httpie-cli-api-testing-debugging-client
 category: Developer Tools
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: HTTPie is a modern, user-friendly command-line HTTP client designed for testing, debugging, and interacting with APIs and HTTP servers. It provides an intuitive syntax…
 url: https://agentskillexchange.com/skills/httpie-cli-api-testing-debugging-client/
 
@@ -10191,7 +10191,7 @@ url: https://agentskillexchange.com/skills/sentry-mcp-server-error-tracking-perf
 slug: terraform-mcp-server-infrastructure-as-code
 category: Developer Tools
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: The official HashiCorp Terraform MCP server integrates with the Terraform Registry and HCP Terraform, enabling AI agents to browse providers, discover modules, manage workspaces,…
 url: https://agentskillexchange.com/skills/terraform-mcp-server-infrastructure-as-code/
 
@@ -10231,7 +10231,7 @@ url: https://agentskillexchange.com/skills/yazi-async-terminal-file-manager/
 slug: harden-runner-cicd-security-agent-github-actions
 category: CI/CD Integrations
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Harden-Runner by StepSecurity is a CI/CD security agent that works like an EDR for GitHub Actions runners. It monitors network egress, file integrity, and…
 url: https://agentskillexchange.com/skills/harden-runner-cicd-security-agent-github-actions/
 
@@ -10239,7 +10239,7 @@ url: https://agentskillexchange.com/skills/harden-runner-cicd-security-agent-git
 slug: syft-sbom-generator-containers-filesystems
 category: Security & Verification
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Syft by Anchore is a CLI tool for generating Software Bills of Materials (SBOMs) from container images and filesystems. Supports CycloneDX, SPDX, and multiple…
 url: https://agentskillexchange.com/skills/syft-sbom-generator-containers-filesystems/
 
@@ -10247,7 +10247,7 @@ url: https://agentskillexchange.com/skills/syft-sbom-generator-containers-filesy
 slug: bearer-cli-sast-code-security-privacy-scanner
 category: Security & Verification
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Bearer CLI is an open-source static application security testing (SAST) tool that scans source code to identify, filter, and prioritize security vulnerabilities and privacy…
 url: https://agentskillexchange.com/skills/bearer-cli-sast-code-security-privacy-scanner/
 
@@ -10311,7 +10311,7 @@ url: https://agentskillexchange.com/skills/k9s-kubernetes-terminal-dashboard/
 slug: gitui-terminal-git-interface
 category: Developer Tools
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: GitUI is a fast terminal-based user interface for Git written in Rust. It provides keyboard-driven staging, committing, branching, stashing, and log browsing with async…
 url: https://agentskillexchange.com/skills/gitui-terminal-git-interface/
 
@@ -10319,7 +10319,7 @@ url: https://agentskillexchange.com/skills/gitui-terminal-git-interface/
 slug: hoppscotch-api-development-ecosystem
 category: Developer Tools
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Hoppscotch is a lightweight, open-source API development platform that serves as an alternative to Postman and Insomnia. It supports REST, GraphQL, WebSocket, SSE, MQTT,…
 url: https://agentskillexchange.com/skills/hoppscotch-api-development-ecosystem/
 
@@ -10327,7 +10327,7 @@ url: https://agentskillexchange.com/skills/hoppscotch-api-development-ecosystem/
 slug: procs-modern-process-viewer-cli
 category: Developer Tools
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: A modern replacement for ps written in Rust. procs provides colorized, human-readable process listings with multi-column keyword search, TCP/UDP port display, Docker container names,…
 url: https://agentskillexchange.com/skills/procs-modern-process-viewer-cli/
 
@@ -10335,7 +10335,7 @@ url: https://agentskillexchange.com/skills/procs-modern-process-viewer-cli/
 slug: starship-cross-shell-prompt-configurator
 category: Developer Tools
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: The minimal, blazing-fast, and infinitely customizable prompt for any shell. Starship is written in Rust and works across bash, zsh, fish, PowerShell, Ion, Elvish,…
 url: https://agentskillexchange.com/skills/starship-cross-shell-prompt-configurator/
 
@@ -10423,7 +10423,7 @@ url: https://agentskillexchange.com/skills/grpcurl-command-line-grpc-client/
 slug: navi-interactive-cli-cheatsheet-tool
 category: Developer Tools
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: An interactive cheatsheet tool for the command line that lets you browse through commands and fill in argument values. Written in Rust with fuzzy…
 url: https://agentskillexchange.com/skills/navi-interactive-cli-cheatsheet-tool/
 
@@ -10479,7 +10479,7 @@ url: https://agentskillexchange.com/skills/nushell-structured-data-shell/
 slug: posting-terminal-api-client
 category: Developer Tools
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: A modern, open-source HTTP client built as a terminal UI application. Posting provides a Postman-like experience entirely in the terminal, with keyboard-centric workflows, environment…
 url: https://agentskillexchange.com/skills/posting-terminal-api-client/
 
@@ -10487,7 +10487,7 @@ url: https://agentskillexchange.com/skills/posting-terminal-api-client/
 slug: dlt-python-data-load-tool
 category: Data Extraction & Transformation
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: An open-source Python library that makes loading data from APIs, databases, and files into structured datasets simple and Pythonic. dlt automates schema inference, incremental…
 url: https://agentskillexchange.com/skills/dlt-python-data-load-tool/
 
@@ -10495,7 +10495,7 @@ url: https://agentskillexchange.com/skills/dlt-python-data-load-tool/
 slug: slsa-verifier-build-provenance-checker
 category: Security & Verification
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: SLSA Verifier is the official tool from the SLSA framework for verifying build provenance attestations generated by SLSA-compliant builders. It checks that software artifacts…
 url: https://agentskillexchange.com/skills/slsa-verifier-build-provenance-checker/
 
@@ -10503,7 +10503,7 @@ url: https://agentskillexchange.com/skills/slsa-verifier-build-provenance-checke
 slug: sqlc-type-safe-sql-code-generator
 category: Developer Tools
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: sqlc is a SQL compiler that generates type-safe Go, Python, Kotlin, and TypeScript code from plain SQL queries. You write SQL, run sqlc, and…
 url: https://agentskillexchange.com/skills/sqlc-type-safe-sql-code-generator/
 
@@ -10527,7 +10527,7 @@ url: https://agentskillexchange.com/skills/meltano-declarative-elt-data-integrat
 slug: lefthook-git-hooks-manager
 category: Developer Tools
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Lefthook is a fast, dependency-free Git hooks manager written in Go that runs pre-commit, pre-push, and custom hook commands in parallel. It integrates with…
 url: https://agentskillexchange.com/skills/lefthook-git-hooks-manager/
 
@@ -10615,7 +10615,7 @@ url: https://agentskillexchange.com/skills/marker-pdf-to-markdown-converter/
 slug: dbt-mcp-server-data-pipeline-context
 category: Data Extraction & Transformation
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: The official dbt MCP Server by dbt Labs provides Model Context Protocol tools for AI agents to interact with dbt projects, query the Semantic…
 url: https://agentskillexchange.com/skills/dbt-mcp-server-data-pipeline-context/
 
@@ -10663,7 +10663,7 @@ url: https://agentskillexchange.com/skills/miller-csv-tsv-json-data-processor/
 slug: hyperfine-command-line-benchmarking-tool
 category: Developer Tools
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Benchmark command-line programs with statistical rigor using Hyperfine. Performs warmup runs, detects outliers, exports results in JSON/CSV/Markdown, and supports parameterized benchmarks for comparison.
 url: https://agentskillexchange.com/skills/hyperfine-command-line-benchmarking-tool/
 
@@ -10695,7 +10695,7 @@ url: https://agentskillexchange.com/skills/trufflehog-credential-leak-scanner/
 slug: shellcheck-shell-script-static-analyzer
 category: Code Quality & Review
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Run static analysis on bash and shell scripts using ShellCheck to detect syntax errors, semantic pitfalls, and portability issues. Produces machine-readable diagnostics with fix…
 url: https://agentskillexchange.com/skills/shellcheck-shell-script-static-analyzer/
 
@@ -10735,7 +10735,7 @@ url: https://agentskillexchange.com/skills/sqlfluff-sql-linter-auto-formatter/
 slug: great-expectations-data-validation-pipeline
 category: Code Quality & Review
 framework: Claude Code, OpenClaw
-verification: Security Reviewed
+verification: Published
 description: Validate data quality using the Great Expectations Python library. Define expectations as unit tests for your data, run validation suites, and generate human-readable data…
 url: https://agentskillexchange.com/skills/great-expectations-data-validation-pipeline/
 
@@ -10831,7 +10831,7 @@ url: https://agentskillexchange.com/skills/stable-diffusion-controlnet-pose-pipe
 slug: terraform-module-boilerplate-assembler
 category: Templates & Workflows
 framework: Gemini
-verification: Security Reviewed
+verification: Published
 description: Generates Terraform module scaffolds with variables.tf, outputs.tf, and provider configurations from a module specification. Uses the Terraform Registry API to resolve provider schemas.
 url: https://agentskillexchange.com/skills/terraform-module-boilerplate-assembler/
 
@@ -11055,7 +11055,7 @@ url: https://agentskillexchange.com/skills/common-crawl-url-index-miner/
 slug: woocommerce-webhook-delivery-inspector
 category: WordPress & CMS
 framework: ChatGPT Agents
-verification: Security Reviewed
+verification: Published
 description: Inspects WooCommerce webhook reliability through the `WC_Webhook` model, Action Scheduler queues, and REST endpoints such as `/wp-json/wc/v3/webhooks`. Great for tracing failed deliveries, replay patterns,…
 url: https://agentskillexchange.com/skills/woocommerce-webhook-delivery-inspector/
 
@@ -11191,7 +11191,7 @@ url: https://agentskillexchange.com/skills/grafana-oncall-escalation-chain-manag
 slug: backstage-software-template-composer
 category: Templates & Workflows
 framework: Codex
-verification: Security Reviewed
+verification: Published
 description: Creates Spotify Backstage software templates using template.yaml definitions with Scaffolder actions including fetch:template, publish:github, and catalog:register. Manages the Backstage Software Catalog via its REST…
 url: https://agentskillexchange.com/skills/backstage-software-template-composer/
 
@@ -11487,7 +11487,7 @@ url: https://agentskillexchange.com/skills/midjourney-prompt-optimizer-skill/
 slug: stable-diffusion-xl-lora-trainer
 category: Image & Creative Automation
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Fine-tune Stable Diffusion XL models with LoRA adapters using the diffusers library and Kohya-ss training scripts. Manages dataset preparation, training configuration, and checkpoint merging…
 url: https://agentskillexchange.com/skills/stable-diffusion-xl-lora-trainer/
 
@@ -11511,7 +11511,7 @@ url: https://agentskillexchange.com/skills/salesforce-bulk-api-sync-agent/
 slug: stripe-connect-marketplace-sync
 category: Integrations & Connectors
 framework: Gemini
-verification: Security Reviewed
+verification: Published
 description: Synchronize marketplace transactions using the Stripe Connect API with automatic payout splitting, transfer reversals, and account onboarding via Stripe.js and the stripe-node SDK.
 url: https://agentskillexchange.com/skills/stripe-connect-marketplace-sync/
 
@@ -11519,7 +11519,7 @@ url: https://agentskillexchange.com/skills/stripe-connect-marketplace-sync/
 slug: elevenlabs-voice-cloning-agent
 category: Media & Transcription
 framework: OpenClaw
-verification: Security Reviewed
+verification: Published
 description: Clone and synthesize custom voices using the ElevenLabs API v2 with instant voice cloning. Manages voice library operations, text-to-speech generation with SSML markup, and…
 url: https://agentskillexchange.com/skills/elevenlabs-voice-cloning-agent/
 
@@ -11903,7 +11903,7 @@ url: https://agentskillexchange.com/skills/protobuf-grpc-stub-generator/
 slug: swagger-ui-documentation-deployer
 category: Library & API Reference
 framework: OpenClaw
-verification: Security Reviewed
+verification: Published
 description: Deploys interactive Swagger UI documentation sites from OpenAPI specs with custom branding, authentication presets, and CDN-hosted static builds. Integrates with Redoc for alternative rendering.
 url: https://agentskillexchange.com/skills/swagger-ui-documentation-deployer/
 
@@ -12143,7 +12143,7 @@ url: https://agentskillexchange.com/skills/aws-cloudtrail-log-normalizer/
 slug: dbt-model-lineage-mapper
 category: Data Extraction & Transformation
 framework: OpenClaw
-verification: Security Reviewed
+verification: Published
 description: Parses dbt manifest.json and catalog.json to extract full model lineage graphs using the dbt Core artifact API. Generates interactive DAG visualizations and impact analysis…
 url: https://agentskillexchange.com/skills/dbt-model-lineage-mapper/
 
@@ -12399,7 +12399,7 @@ url: https://agentskillexchange.com/skills/asyncapi-event-catalog-builder/
 slug: buf-protobuf-linter
 category: Library & API Reference
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Lints Protocol Buffer definitions using the Buf CLI ruleset and validates gRPC service contracts. Detects breaking changes between proto revisions using buf breaking with…
 url: https://agentskillexchange.com/skills/buf-protobuf-linter/
 
@@ -12471,7 +12471,7 @@ url: https://agentskillexchange.com/skills/semgrep-custom-pattern-builder/
 slug: ruff-linter-configuration-architect
 category: Code Quality & Review
 framework: ChatGPT Agents
-verification: Security Reviewed
+verification: Published
 description: Configures and optimizes Ruff Python linter settings using the ruff CLI and pyproject.toml schema. Migrates from Flake8, isort, and Black configurations with automatic rule…
 url: https://agentskillexchange.com/skills/ruff-linter-configuration-architect/
 
@@ -12487,7 +12487,7 @@ url: https://agentskillexchange.com/skills/figma-design-token-extractor-3/
 slug: cloudinary-asset-optimization-agent
 category: Image & Creative Automation
 framework: OpenClaw
-verification: Security Reviewed
+verification: Published
 description: Manages image and video assets using the Cloudinary Node.js SDK and Upload API. Applies automatic format selection, responsive breakpoints, and AI-based cropping with face…
 url: https://agentskillexchange.com/skills/cloudinary-asset-optimization-agent/
 
@@ -12687,7 +12687,7 @@ url: https://agentskillexchange.com/skills/playwright-accessibility-audit-runner
 slug: ansible-playbook-linter-2
 category: Templates & Workflows
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Validates Ansible playbooks and roles using ansible-lint and yamllint APIs. Enforces best practices for idempotency, variable naming, and handler usage with custom rule profiles.
 url: https://agentskillexchange.com/skills/ansible-playbook-linter-2/
 
@@ -12767,7 +12767,7 @@ url: https://agentskillexchange.com/skills/helm-chart-templater/
 slug: mediainfo-metadata-extractor
 category: Media & Transcription
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Extracts comprehensive media metadata using the MediaInfo library and pymediainfo Python bindings. Analyzes video/audio codec parameters, container formats, and HDR metadata for media asset…
 url: https://agentskillexchange.com/skills/mediainfo-metadata-extractor/
 
@@ -12799,7 +12799,7 @@ url: https://agentskillexchange.com/skills/datadog-monitor-configurator-2/
 slug: prometheus-alert-rule-builder
 category: Monitoring & Alerts
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Creates and validates Prometheus alerting rules using PromQL expressions and the Prometheus HTTP API. Configures Alertmanager routing trees with PagerDuty, Slack, and OpsGenie receiver…
 url: https://agentskillexchange.com/skills/prometheus-alert-rule-builder/
 
@@ -12831,7 +12831,7 @@ url: https://agentskillexchange.com/skills/whisper-subtitle-generator/
 slug: circleci-workflow-analyzer
 category: CI/CD Integrations
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Analyzes and optimizes CircleCI workflows using the CircleCI v2 API. Identifies bottlenecks in job dependency graphs, suggests parallelism improvements, and monitors pipeline credit usage.
 url: https://agentskillexchange.com/skills/circleci-workflow-analyzer/
 
@@ -12879,7 +12879,7 @@ url: https://agentskillexchange.com/skills/diffbot-knowledge-graph-extractor/
 slug: apify-web-scraper-orchestrator-3
 category: Research & Scraping
 framework: Cursor
-verification: Security Reviewed
+verification: Published
 description: Orchestrates Apify actors for large-scale web scraping via the Apify Client SDK. Manages actor runs, dataset exports, and proxy configuration through the Apify API…
 url: https://agentskillexchange.com/skills/apify-web-scraper-orchestrator-3/
 
@@ -12887,7 +12887,7 @@ url: https://agentskillexchange.com/skills/apify-web-scraper-orchestrator-3/
 slug: jinja2-template-engine-agent
 category: Templates & Workflows
 framework: Gemini
-verification: Security Reviewed
+verification: Published
 description: Renders Jinja2 templates with variable injection, macro expansion, and template inheritance. Integrates with the Jinja2 Environment API for sandboxed execution and custom filter registration.
 url: https://agentskillexchange.com/skills/jinja2-template-engine-agent/
 
@@ -12983,7 +12983,7 @@ url: https://agentskillexchange.com/skills/ssl-certificate-chain-validator-2/
 slug: container-runtime-security-monitor
 category: Security & Verification
 framework: Gemini
-verification: Security Reviewed
+verification: Published
 description: Monitors container runtime behavior using Falco rules and the Docker Engine API. Detects anomalous syscalls, privilege escalations, and unexpected network connections in real time.
 url: https://agentskillexchange.com/skills/container-runtime-security-monitor/
 
@@ -13095,7 +13095,7 @@ url: https://agentskillexchange.com/skills/protobuf-documentation-compiler/
 slug: openapi-spec-validator-mock-server-2
 category: Library & API Reference
 framework: Codex
-verification: Security Reviewed
+verification: Published
 description: Validates OpenAPI 3.x specifications using the swagger-parser library and generates Prism mock servers. Detects schema inconsistencies, missing examples, and generates SDK client stubs via…
 url: https://agentskillexchange.com/skills/openapi-spec-validator-mock-server-2/
 
@@ -13151,7 +13151,7 @@ url: https://agentskillexchange.com/skills/datadog-apm-trace-analyzer-2/
 slug: circleci-orb-pipeline-composer-2
 category: CI/CD Integrations
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Composes multi-stage CircleCI pipelines using reusable Orbs and the CircleCI v2 API. Supports dynamic config generation with setup workflows and pipeline parameters for monorepo…
 url: https://agentskillexchange.com/skills/circleci-orb-pipeline-composer-2/
 
@@ -13159,7 +13159,7 @@ url: https://agentskillexchange.com/skills/circleci-orb-pipeline-composer-2/
 slug: trivy-container-security-scanner
 category: Security & Verification
 framework: Codex
-verification: Security Reviewed
+verification: Published
 description: Integrates Aqua Security Trivy CLI for comprehensive container image vulnerability scanning. Detects OS package CVEs, language-specific dependency vulnerabilities, and IaC misconfigurations with SARIF output…
 url: https://agentskillexchange.com/skills/trivy-container-security-scanner/
 
@@ -13167,7 +13167,7 @@ url: https://agentskillexchange.com/skills/trivy-container-security-scanner/
 slug: owasp-zap-security-audit-skill
 category: Security & Verification
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Wraps OWASP ZAP API for automated web application security testing including active scan, spider crawl, and ajax spider endpoints. Generates structured findings reports with…
 url: https://agentskillexchange.com/skills/owasp-zap-security-audit-skill/
 
@@ -13175,7 +13175,7 @@ url: https://agentskillexchange.com/skills/owasp-zap-security-audit-skill/
 slug: hashicorp-vault-secret-rotation-agent-2
 category: Security & Verification
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Connects to HashiCorp Vault HTTP API for automated secret rotation workflows. Manages dynamic database credentials via Vault database secrets engine, handles PKI certificate renewal,…
 url: https://agentskillexchange.com/skills/hashicorp-vault-secret-rotation-agent-2/
 
@@ -13183,7 +13183,7 @@ url: https://agentskillexchange.com/skills/hashicorp-vault-secret-rotation-agent
 slug: dbt-data-transform-orchestrator
 category: Data Extraction & Transformation
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Integrates with dbt Cloud Administrative API v2 to trigger and monitor data transformation jobs. Manages model runs, source freshness checks, and test execution through…
 url: https://agentskillexchange.com/skills/dbt-data-transform-orchestrator/
 
@@ -13191,7 +13191,7 @@ url: https://agentskillexchange.com/skills/dbt-data-transform-orchestrator/
 slug: snyk-vulnerability-scanner-agent
 category: Security & Verification
 framework: ChatGPT Agents
-verification: Security Reviewed
+verification: Published
 description: Uses Snyk REST API v1 to scan project dependencies for known CVEs and license compliance issues. Integrates with Snyk Test endpoint for real-time SBOM…
 url: https://agentskillexchange.com/skills/snyk-vulnerability-scanner-agent/
 
@@ -13215,7 +13215,7 @@ url: https://agentskillexchange.com/skills/surfer-seo-serp-analyzer/
 slug: tabula-pdf-table-extraction-agent
 category: Data Extraction & Transformation
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Uses Tabula Java library via tabula-py bindings to detect and extract tables from PDF documents. Supports both lattice and stream extraction modes with configurable…
 url: https://agentskillexchange.com/skills/tabula-pdf-table-extraction-agent/
 
@@ -13223,7 +13223,7 @@ url: https://agentskillexchange.com/skills/tabula-pdf-table-extraction-agent/
 slug: apache-tika-document-extractor
 category: Data Extraction & Transformation
 framework: Codex
-verification: Security Reviewed
+verification: Published
 description: Wraps Apache Tika Server REST API for extracting structured text from PDFs, DOCX, PPTX, and 1,200+ file formats. Outputs clean markdown with metadata preservation…
 url: https://agentskillexchange.com/skills/apache-tika-document-extractor/
 
@@ -13255,7 +13255,7 @@ url: https://agentskillexchange.com/skills/semrush-content-optimizer-agent/
 slug: cookiecutter-template-generator
 category: Templates & Workflows
 framework: Codex
-verification: Security Reviewed
+verification: Published
 description: Generates project scaffolding using the Cookiecutter CLI with Jinja2 templating. Supports custom template registries, post-generation hooks via Python scripts, and integration with the GitHub…
 url: https://agentskillexchange.com/skills/cookiecutter-template-generator/
 
@@ -13407,7 +13407,7 @@ url: https://agentskillexchange.com/skills/serpapi-search-aggregator/
 slug: python-docstring-linter-ast-pydocstyle
 category: Library & API Reference
 framework: Codex
-verification: Security Reviewed
+verification: Published
 description: Validates and auto-generates Python docstrings using the ast module and pydocstyle conventions. Supports NumPy, Google, and Sphinx docstring formats with type stub integration.
 url: https://agentskillexchange.com/skills/python-docstring-linter-ast-pydocstyle/
 
@@ -13527,7 +13527,7 @@ url: https://agentskillexchange.com/skills/kubernetes-diagnostics-agent/
 slug: circleci-workflow-builder
 category: CI/CD Integrations
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Generates CircleCI config.yml workflows using the CircleCI Orbs SDK and Workflows API. Supports parallelism tuning with the CircleCI Test Splitting API and resource class…
 url: https://agentskillexchange.com/skills/circleci-workflow-builder/
 
@@ -13695,7 +13695,7 @@ url: https://agentskillexchange.com/skills/trivy-vulnerability-scanner-pipeline/
 slug: cookiecutter-project-scaffold-generator
 category: Templates & Workflows
 framework: Codex
-verification: Security Reviewed
+verification: Published
 description: Generates project scaffolds from Cookiecutter templates with Jinja2 variable interpolation. Supports post-generation hooks, conditional file inclusion, and template composition from multiple sources.
 url: https://agentskillexchange.com/skills/cookiecutter-project-scaffold-generator/
 
@@ -13711,7 +13711,7 @@ url: https://agentskillexchange.com/skills/api-documentation-indexer/
 slug: python-library-reference-builder
 category: Library & API Reference
 framework: OpenClaw
-verification: Security Reviewed
+verification: Published
 description: Generates searchable Python library references using ast module for source parsing and Sphinx autodoc integration. Extracts docstrings, type hints, and usage examples from installed…
 url: https://agentskillexchange.com/skills/python-library-reference-builder/
 
@@ -13751,7 +13751,7 @@ url: https://agentskillexchange.com/skills/npm-package-analyzer/
 slug: content-readability-optimizer
 category: Content Writing & SEO
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Analyzes and optimizes content readability using textstat Python library and Hemingway API patterns. Computes Flesch-Kincaid, Gunning Fog, and SMOG indices with automated rewriting suggestions.
 url: https://agentskillexchange.com/skills/content-readability-optimizer/
 
@@ -13839,7 +13839,7 @@ url: https://agentskillexchange.com/skills/nix-flake-configuration-builder/
 slug: lldb-debug-session-automator
 category: Developer Tools
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Automates LLDB debugging sessions with scripted breakpoint management and expression evaluation. Uses the LLDB Python SB API (lldb.SBDebugger, SBTarget, SBProcess) for programmatic debug control.
 url: https://agentskillexchange.com/skills/lldb-debug-session-automator/
 
@@ -13855,7 +13855,7 @@ url: https://agentskillexchange.com/skills/argocd-gitops-sync-manager/
 slug: graphql-schema-introspection-mapper
 category: Data Extraction & Transformation
 framework: Cursor, Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Introspects GraphQL APIs via the __schema query and maps type relationships, deprecated fields, and circular references. Generates SDL exports, TypeScript types via graphql-codegen, and…
 url: https://agentskillexchange.com/skills/graphql-schema-introspection-mapper/
 
@@ -13943,7 +13943,7 @@ url: https://agentskillexchange.com/skills/datadog-apm-trace-query-agent/
 slug: sast-pipeline-scanner
 category: Security & Verification
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Runs static application security testing using Semgrep rules and CodeQL queries against pull request diffs. Supports SARIF output format and integrates with GitHub Advanced…
 url: https://agentskillexchange.com/skills/sast-pipeline-scanner/
 
@@ -13959,7 +13959,7 @@ url: https://agentskillexchange.com/skills/codeclimate-diff-analyzer-2/
 slug: ruff-python-linter-configurator
 category: Code Quality & Review
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules with automatic conflict resolution.
 url: https://agentskillexchange.com/skills/ruff-python-linter-configurator/
 
@@ -14263,7 +14263,7 @@ url: https://agentskillexchange.com/skills/jenkins-declarative-pipeline-generato
 slug: github-actions-matrix-strategy-builder
 category: CI/CD Integrations
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Generates optimized GitHub Actions workflow matrices using the actions/setup-node, actions/cache, and actions/upload-artifact APIs. Automatically detects language versions and OS combinations for maximum CI coverage.
 url: https://agentskillexchange.com/skills/github-actions-matrix-strategy-builder/
 
@@ -14463,7 +14463,7 @@ url: https://agentskillexchange.com/skills/snowflake-query-profiler/
 slug: apache-kafka-schema-extractor
 category: Data Extraction & Transformation
 framework: Codex
-verification: Security Reviewed
+verification: Published
 description: Extracts and transforms Avro, Protobuf, and JSON Schema definitions from Confluent Schema Registry. Generates typed data models and validates schema compatibility using the Schema…
 url: https://agentskillexchange.com/skills/apache-kafka-schema-extractor/
 
@@ -14759,7 +14759,7 @@ url: https://agentskillexchange.com/skills/apache-camel-route-data-mapper/
 slug: circleci-orb-dependency-checker
 category: CI/CD Integrations
 framework: Codex
-verification: Security Reviewed
+verification: Published
 description: Scans CircleCI config.yml for orb version conflicts and breaking changes using the CircleCI Orbs Registry API. Validates executor configurations against circleci/docker and circleci/node orb…
 url: https://agentskillexchange.com/skills/circleci-orb-dependency-checker/
 
@@ -14775,7 +14775,7 @@ url: https://agentskillexchange.com/skills/argocd-gitops-sync-monitor/
 slug: eslint-rule-conflict-resolver
 category: Code Quality & Review
 framework: Cursor
-verification: Security Reviewed
+verification: Published
 description: Detects and resolves conflicting ESLint rules across .eslintrc configurations using the ESLint Node.js API. Analyzes rule interactions between eslint-config-airbnb, eslint-config-prettier, and typescript-eslint plugins.
 url: https://agentskillexchange.com/skills/eslint-rule-conflict-resolver/
 
@@ -14975,7 +14975,7 @@ url: https://agentskillexchange.com/skills/ansible-playbook-linter-pro/
 slug: prometheus-alert-tuner
 category: Runbooks & Diagnostics
 framework: Gemini
-verification: Security Reviewed
+verification: Published
 description: Tunes Prometheus alerting rules using the Prometheus HTTP API and PromQL query analysis. Reduces alert fatigue by analyzing firing history, adjusting thresholds via histogram_quantile,…
 url: https://agentskillexchange.com/skills/prometheus-alert-tuner/
 
@@ -15199,7 +15199,7 @@ url: https://agentskillexchange.com/skills/rust-crate-docs-scanner/
 slug: cookiecutter-project-scaffolder-3
 category: Templates & Workflows
 framework: ChatGPT Agents
-verification: Security Reviewed
+verification: Published
 description: Scaffolds project templates using the Cookiecutter engine with Jinja2 templating and pre/post generation hooks. Supports conditional file inclusion, directory renaming, and cookiecutter.json variable validation…
 url: https://agentskillexchange.com/skills/cookiecutter-project-scaffolder-3/
 
@@ -15319,7 +15319,7 @@ url: https://agentskillexchange.com/skills/aws-cloudwatch-anomaly-detector/
 slug: scrapingbee-api-data-harvester
 category: Research & Scraping
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Interfaces with the ScrapingBee REST API for JavaScript rendering and Google SERP extraction. Uses custom_google parameter for search result parsing and screenshot endpoint for…
 url: https://agentskillexchange.com/skills/scrapingbee-api-data-harvester/
 
@@ -15479,7 +15479,7 @@ url: https://agentskillexchange.com/skills/tekton-pipeline-task-assembler/
 slug: circleci-orb-composition-engine
 category: CI/CD Integrations
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Composes and publishes CircleCI Orbs using the circleci CLI with orb pack, orb validate, and semantic versioning. Manages reusable executors, commands, and jobs with…
 url: https://agentskillexchange.com/skills/circleci-orb-composition-engine/
 
@@ -15535,7 +15535,7 @@ url: https://agentskillexchange.com/skills/jsdoc-type-definition-extractor/
 slug: terraform-module-scaffold-generator
 category: Templates & Workflows
 framework: OpenClaw
-verification: Security Reviewed
+verification: Published
 description: Generates production-ready Terraform module scaffolds with variables.tf, outputs.tf, and provider blocks using the HashiCorp Configuration Language (HCL). Integrates with terraform-docs for automatic README generation…
 url: https://agentskillexchange.com/skills/terraform-module-scaffold-generator/
 
@@ -15615,7 +15615,7 @@ url: https://agentskillexchange.com/skills/microsoft-graph-email-digest-builder/
 slug: selenium-grid-load-balancer
 category: Browser Automation
 framework: Codex
-verification: Security Reviewed
+verification: Published
 description: Distributes browser automation workloads across Selenium Grid 4 nodes using the Grid REST API and session queue management. Implements weighted round-robin with health-check monitoring…
 url: https://agentskillexchange.com/skills/selenium-grid-load-balancer/
 
@@ -15631,7 +15631,7 @@ url: https://agentskillexchange.com/skills/datadog-integration-connector-agent/
 slug: stripe-payment-flow-connector
 category: Integrations & Connectors
 framework: Cursor
-verification: Security Reviewed
+verification: Published
 description: Integrates Stripe payment processing using stripe-node SDK including PaymentIntents, Checkout Sessions, Billing Portal, and webhook event verification with stripe.webhooks.constructEvent.
 url: https://agentskillexchange.com/skills/stripe-payment-flow-connector/
 
@@ -15663,7 +15663,7 @@ url: https://agentskillexchange.com/skills/eslint-rule-analyzer-fixer/
 slug: circleci-orb-builder-publisher
 category: CI/CD Integrations
 framework: ChatGPT Agents
-verification: Security Reviewed
+verification: Published
 description: Creates, validates, and publishes CircleCI Orbs using the CircleCI CLI and Orb Registry API. Handles semantic versioning, namespace management, and orb dependency resolution.
 url: https://agentskillexchange.com/skills/circleci-orb-builder-publisher/
 
@@ -15927,7 +15927,7 @@ url: https://agentskillexchange.com/skills/puppeteer-visual-regression-tester/
 slug: selenium-grid-cloud-executor
 category: Browser Automation
 framework: Codex
-verification: Security Reviewed
+verification: Published
 description: Distributes browser test suites across Selenium Grid 4 nodes using RemoteWebDriver and the W3C WebDriver protocol. Supports parallel execution on BrowserStack and Sauce Labs…
 url: https://agentskillexchange.com/skills/selenium-grid-cloud-executor/
 
@@ -16119,7 +16119,7 @@ url: https://agentskillexchange.com/skills/notion-workspace-automator-api-v1/
 slug: otel-collector-pipeline-designer
 category: Monitoring & Alerts
 framework: OpenClaw
-verification: Security Reviewed
+verification: Published
 description: Designs OpenTelemetry Collector pipeline configurations with receivers (otlp, prometheus, filelog), processors (batch, attributes, tail_sampling), and exporters (otlphttp, jaeger, elasticsearch).
 url: https://agentskillexchange.com/skills/otel-collector-pipeline-designer/
 
@@ -16143,7 +16143,7 @@ url: https://agentskillexchange.com/skills/datadog-monitor-blueprint-generator/
 slug: rust-crate-documentation-indexer-2
 category: Library & API Reference
 framework: Gemini
-verification: Security Reviewed
+verification: Published
 description: Indexes Rust crate documentation from docs.rs using rustdoc JSON output and cargo-doc. Extracts trait implementations, generic bounds, and lifetime annotations for searchable API reference.
 url: https://agentskillexchange.com/skills/rust-crate-documentation-indexer-2/
 
@@ -16359,7 +16359,7 @@ url: https://agentskillexchange.com/skills/semgrep-custom-rule-builder-3/
 slug: eslint-rule-auditor-3
 category: Code Quality & Review
 framework: Cursor
-verification: Security Reviewed
+verification: Published
 description: Audits ESLint configurations using @eslint/eslintrc and @eslint/js flat config APIs. Detects conflicting rules, deprecated configs, and generates migration paths from eslintrc to eslint.config.js flat…
 url: https://agentskillexchange.com/skills/eslint-rule-auditor-3/
 
@@ -16367,7 +16367,7 @@ url: https://agentskillexchange.com/skills/eslint-rule-auditor-3/
 slug: circleci-orb-composer-7
 category: CI/CD Integrations
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Composes and validates CircleCI Orbs using the circleci/circleci-cli and circleci/orb-tools-orb SDK. Automates orb packaging, semantic versioning with conventional-changelog, and publishing to the CircleCI Orb…
 url: https://agentskillexchange.com/skills/circleci-orb-composer-7/
 
@@ -16479,7 +16479,7 @@ url: https://agentskillexchange.com/skills/github-actions-workflow-generator-3/
 slug: circleci-config-validator
 category: CI/CD Integrations
 framework: Claude Agents
-verification: Security Reviewed
+verification: Published
 description: Validates and optimizes CircleCI configuration files using the CircleCI v2 API and circleci config validate CLI. Analyzes orb usage, parallelism settings, and resource class…
 url: https://agentskillexchange.com/skills/circleci-config-validator/
 
@@ -16535,7 +16535,7 @@ url: https://agentskillexchange.com/skills/npm-package-audit-license-checker/
 slug: circleci-orb-builder
 category: CI/CD Integrations
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Creates reusable CircleCI Orbs using the CircleCI Orb SDK and circleci/orb-tools@12 pipeline. Packages commands, executors, and jobs into publishable orbs with automated semantic versioning…
 url: https://agentskillexchange.com/skills/circleci-orb-builder/
 
@@ -16655,7 +16655,7 @@ url: https://agentskillexchange.com/skills/dockerfile-security-hardening-advisor
 slug: python-package-api-surface-mapper
 category: Library & API Reference
 framework: Codex
-verification: Security Reviewed
+verification: Published
 description: Maps the public API surface of Python packages using ast module parsing and importlib introspection. Generates comprehensive reference docs with type annotations from mypy…
 url: https://agentskillexchange.com/skills/python-package-api-surface-mapper/
 
@@ -16759,7 +16759,7 @@ url: https://agentskillexchange.com/skills/semgrep-rule-engine/
 slug: circleci-orb-linter
 category: CI/CD Integrations
 framework: Cursor
-verification: Security Reviewed
+verification: Published
 description: Validates CircleCI configuration files and custom Orbs using the CircleCI CLI (circleci config validate) and Orb Development Kit. Checks for deprecated images, inefficient caching…
 url: https://agentskillexchange.com/skills/circleci-orb-linter/
 
@@ -16911,7 +16911,7 @@ url: https://agentskillexchange.com/skills/codecov-coverage-analyzer/
 slug: stripe-payments-connector
 category: Integrations & Connectors
 framework: ChatGPT Agents
-verification: Security Reviewed
+verification: Published
 description: Full Stripe API integration using the stripe-node SDK. Creates PaymentIntents via stripe.paymentIntents.create(), manages Customers and Subscriptions, handles webhook events through stripe.webhooks.constructEvent(), and supports Stripe…
 url: https://agentskillexchange.com/skills/stripe-payments-connector/
 
@@ -17047,7 +17047,7 @@ url: https://agentskillexchange.com/skills/docker-compose-test-harness/
 slug: makefile-workflow-generator
 category: Templates & Workflows
 framework: Gemini
-verification: Security Reviewed
+verification: Published
 description: Generates project Makefiles with standard targets using GNU Make syntax, autodeps pattern rules, and integration with package managers (npm scripts, Poetry tasks, Cargo commands).…
 url: https://agentskillexchange.com/skills/makefile-workflow-generator/
 
@@ -17087,7 +17087,7 @@ url: https://agentskillexchange.com/skills/terraform-plan-reviewer-4/
 slug: stripe-connect-integration
 category: Integrations & Connectors
 framework: ChatGPT Agents
-verification: Security Reviewed
+verification: Published
 description: Manages Stripe Connect accounts and payment flows using the Stripe Node.js SDK (stripe@14.x). Handles onboarding via Account Links API, creates PaymentIntents with application fees,…
 url: https://agentskillexchange.com/skills/stripe-connect-integration/
 
@@ -17183,7 +17183,7 @@ url: https://agentskillexchange.com/skills/terraform-state-diagnostics/
 slug: ruff-linter-formatter-agent
 category: Code Quality & Review
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Ultra-fast Python linting and formatting using Ruff CLI with pyproject.toml configuration. Supports auto-fix, import sorting (isort-compatible), and rule selection from 800+ built-in rules.
 url: https://agentskillexchange.com/skills/ruff-linter-formatter-agent/
 
@@ -17231,7 +17231,7 @@ url: https://agentskillexchange.com/skills/prometheus-alert-runbook/
 slug: circleci-pipeline-manager
 category: CI/CD Integrations
 framework: ChatGPT Agents
-verification: Security Reviewed
+verification: Published
 description: Configure and trigger CircleCI pipelines using the CircleCI v2 API and config.yml orbs. Manages pipeline parameters, workspace persistence, and dynamic configuration with setup workflows.
 url: https://agentskillexchange.com/skills/circleci-pipeline-manager/
 
@@ -17263,7 +17263,7 @@ url: https://agentskillexchange.com/skills/sonarqube-analysis-runner/
 slug: eslint-auto-fix-agent
 category: Code Quality & Review
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Automatically detect and fix JavaScript/TypeScript linting issues using ESLint v9 flat config and the ESLint Node.js API. Supports custom rule configurations and staged file…
 url: https://agentskillexchange.com/skills/eslint-auto-fix-agent/
 
@@ -17287,7 +17287,7 @@ url: https://agentskillexchange.com/skills/ansible-playbook-dry-run-analyzer/
 slug: eslint-rule-conflict-detector-2
 category: Code Quality & Review
 framework: Codex
-verification: Security Reviewed
+verification: Published
 description: Analyzes .eslintrc configurations and extended rulesets using the ESLint Node.js API and eslint-config-inspector. Detects conflicting rules between Prettier, TypeScript-ESLint, and Airbnb presets, generating a…
 url: https://agentskillexchange.com/skills/eslint-rule-conflict-detector-2/
 
@@ -17295,7 +17295,7 @@ url: https://agentskillexchange.com/skills/eslint-rule-conflict-detector-2/
 slug: nginx-config-validator-optimizer
 category: Runbooks & Diagnostics
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Parses nginx.conf and included config files using the crossplane Python library and nginx -t test command. Identifies misconfigurations, duplicate server blocks, SSL/TLS weaknesses via…
 url: https://agentskillexchange.com/skills/nginx-config-validator-optimizer/
 
@@ -17303,7 +17303,7 @@ url: https://agentskillexchange.com/skills/nginx-config-validator-optimizer/
 slug: jenkins-pipeline-linter-pro
 category: CI/CD Integrations
 framework: ChatGPT Agents
-verification: Security Reviewed
+verification: Published
 description: Validates Jenkinsfile syntax and best practices using the Jenkins Pipeline Model Definition API and jenkins-cli.jar linter endpoint. Detects anti-patterns like unbounded parallel stages, missing…
 url: https://agentskillexchange.com/skills/jenkins-pipeline-linter-pro/
 
@@ -17423,7 +17423,7 @@ url: https://agentskillexchange.com/skills/semgrep-custom-rule-runner-2/
 slug: sonarqube-gate-checker-2
 category: Templates & Workflows
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Queries the SonarQube Web API (/api/qualitygates/project_status) to evaluate quality gate conditions before merge. Reports code smells, coverage thresholds, and duplications against configurable SonarQube quality…
 url: https://agentskillexchange.com/skills/sonarqube-gate-checker-2/
 
@@ -17575,7 +17575,7 @@ url: https://agentskillexchange.com/skills/nginx-error-log-analyzer/
 slug: docker-container-health-inspector
 category: Runbooks & Diagnostics
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Inspects Docker container health using the Docker Engine API v1.45 /containers/{id}/json and /containers/{id}/stats endpoints. Diagnoses OOM kills, restart loops, and network connectivity issues with…
 url: https://agentskillexchange.com/skills/docker-container-health-inspector/
 
@@ -17607,7 +17607,7 @@ url: https://agentskillexchange.com/skills/prettier-config-conflict-resolver/
 slug: gitlab-ci-pipeline-profiler
 category: CI/CD Integrations
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Profiles GitLab CI/CD pipeline execution times using the GitLab REST API v4 /projects/:id/pipelines endpoint. Identifies slow jobs, inefficient artifact passing, and cache miss patterns…
 url: https://agentskillexchange.com/skills/gitlab-ci-pipeline-profiler/
 
@@ -17663,7 +17663,7 @@ url: https://agentskillexchange.com/skills/docker-image-layer-inspector/
 slug: ansible-playbook-dry-run-validator
 category: Runbooks & Diagnostics
 framework: OpenClaw
-verification: Security Reviewed
+verification: Published
 description: Validates Ansible playbooks using ansible-lint and the Ansible Galaxy API. Performs check-mode dry runs, validates role dependencies, and detects deprecated module usage across collections.
 url: https://agentskillexchange.com/skills/ansible-playbook-dry-run-validator/
 
@@ -17671,7 +17671,7 @@ url: https://agentskillexchange.com/skills/ansible-playbook-dry-run-validator/
 slug: python-pypi-package-reference-indexer
 category: Library & API Reference
 framework: ChatGPT Agents
-verification: Security Reviewed
+verification: Published
 description: Indexes Python package documentation using the PyPI JSON API and Read the Docs API. Builds searchable reference catalogs with function signatures, type hints, and…
 url: https://agentskillexchange.com/skills/python-pypi-package-reference-indexer/
 
@@ -17895,7 +17895,7 @@ url: https://agentskillexchange.com/skills/eslint-rule-analyzer/
 slug: circleci-orb-configurator-2
 category: CI/CD Integrations
 framework: Claude Agents
-verification: Security Reviewed
+verification: Published
 description: Builds and validates CircleCI orb configurations using the CircleCI CLI and Orb Development Kit. Supports orb packing, linting with yamllint, and publishing to the…
 url: https://agentskillexchange.com/skills/circleci-orb-configurator-2/
 
@@ -17903,7 +17903,7 @@ url: https://agentskillexchange.com/skills/circleci-orb-configurator-2/
 slug: jenkins-shared-library-builder
 category: CI/CD Integrations
 framework: Gemini
-verification: Security Reviewed
+verification: Published
 description: Scaffolds and tests Jenkins Shared Libraries using the jenkins-pipeline-unit framework (JenkinsPipelineUnit). Validates Groovy DSL syntax via CodeNarc static analysis and tests pipeline steps with…
 url: https://agentskillexchange.com/skills/jenkins-shared-library-builder/
 
@@ -17919,7 +17919,7 @@ url: https://agentskillexchange.com/skills/systemd-service-diagnostics/
 slug: graphql-schema-registry
 category: Library & API Reference
 framework: Claude Agents
-verification: Security Reviewed
+verification: Published
 description: Manages GraphQL schema evolution using graphql-inspector for breaking change detection and Apollo Rover CLI for schema composition. Validates schemas against custom ESLint rules via…
 url: https://agentskillexchange.com/skills/graphql-schema-registry/
 
@@ -17927,7 +17927,7 @@ url: https://agentskillexchange.com/skills/graphql-schema-registry/
 slug: npm-package-audit-reference
 category: Library & API Reference
 framework: Codex
-verification: Security Reviewed
+verification: Published
 description: Provides deep dependency analysis using npm audit, socket.dev API for supply chain risk scoring, and bundlephobia API for bundle size impact assessment. Generates license…
 url: https://agentskillexchange.com/skills/npm-package-audit-reference/
 
@@ -17975,7 +17975,7 @@ url: https://agentskillexchange.com/skills/openapi-spec-reference-generator/
 slug: python-package-docs-fetcher
 category: Library & API Reference
 framework: OpenClaw
-verification: Security Reviewed
+verification: Published
 description: Retrieves and indexes Python package documentation from PyPI metadata API and Read the Docs API. Uses ast module parsing and pydoc introspection to extract…
 url: https://agentskillexchange.com/skills/python-package-docs-fetcher/
 
@@ -17991,7 +17991,7 @@ url: https://agentskillexchange.com/skills/graphql-schema-introspector/
 slug: nginx-config-linter-tester
 category: Runbooks & Diagnostics
 framework: ChatGPT Agents
-verification: Security Reviewed
+verification: Published
 description: Validates nginx.conf files using the gixy static analyzer and crossplane parser library. Tests configuration for security misconfigs, HTTP header issues, and performs dry-run validation…
 url: https://agentskillexchange.com/skills/nginx-config-linter-tester/
 
@@ -18055,7 +18055,7 @@ url: https://agentskillexchange.com/skills/codecov-coverage-report-analyzer/
 slug: circleci-orb-configuration-manager
 category: CI/CD Integrations
 framework: ChatGPT Agents
-verification: Security Reviewed
+verification: Published
 description: Manages CircleCI pipeline configurations using orbs like circleci/node, circleci/docker, and circleci/aws-s3. Handles workflow orchestration, parallelism, and resource class selection via .circleci/config.yml.
 url: https://agentskillexchange.com/skills/circleci-orb-configuration-manager/
 
@@ -18071,7 +18071,7 @@ url: https://agentskillexchange.com/skills/sonarqube-code-quality-scanner/
 slug: ansible-playbook-diagnostics-runner
 category: Runbooks & Diagnostics
 framework: Gemini
-verification: Security Reviewed
+verification: Published
 description: Runs Ansible diagnostic playbooks using ansible-runner and the Ansible Collections ecosystem (ansible.builtin, community.general). Captures system health, service status, and log analysis across inventory hosts.
 url: https://agentskillexchange.com/skills/ansible-playbook-diagnostics-runner/
 
@@ -18199,7 +18199,7 @@ url: https://agentskillexchange.com/skills/github-actions-workflow-optimizer/
 slug: circleci-orb-pipeline-agent
 category: CI/CD Integrations
 framework: ChatGPT Agents
-verification: Security Reviewed
+verification: Published
 description: Builds and manages CircleCI pipelines using config.yml v2.1, CircleCI API v2, and reusable Orbs. Supports dynamic config, test splitting, and resource class optimization.
 url: https://agentskillexchange.com/skills/circleci-orb-pipeline-agent/
 
@@ -18319,7 +18319,7 @@ url: https://agentskillexchange.com/skills/dalle-3-batch-asset-generator/
 slug: gemini-image-style-transfer-agent
 category: Image & Creative Automation
 framework: Gemini
-verification: Security Reviewed
+verification: Published
 description: Uses the Gemini Imagen 3 API (imagegeneration endpoint) to apply stylistic transformations to uploaded images, converting photos to watercolor, line art, or oil painting…
 url: https://agentskillexchange.com/skills/gemini-image-style-transfer-agent/
 
@@ -18463,7 +18463,7 @@ url: https://agentskillexchange.com/skills/json-to-avro-schema-transformer/
 slug: snowflake-query-history-extractor
 category: Data Extraction & Transformation
 framework: ChatGPT Agents
-verification: Security Reviewed
+verification: Published
 description: Extracts query history and performance metadata from Snowflake using the Snowflake Python Connector and INFORMATION_SCHEMA.QUERY_HISTORY view. Identifies expensive queries by credits consumed, data scanned,…
 url: https://agentskillexchange.com/skills/snowflake-query-history-extractor/
 
@@ -18775,7 +18775,7 @@ url: https://agentskillexchange.com/skills/notion-database-sync-page-generator-2
 slug: aws-iam-privilege-escalation-audit
 category: Security & Verification
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Uses boto3 and the AWS IAM Access Analyzer API to enumerate all roles, policies, and users, then flags permission combinations that could allow privilege…
 url: https://agentskillexchange.com/skills/aws-iam-privilege-escalation-audit/
 
@@ -18815,7 +18815,7 @@ url: https://agentskillexchange.com/skills/datadog-incident-runbook-runner-2/
 slug: semgrep-code-pattern-scanner-2
 category: Code Quality & Review
 framework: Codex
-verification: Security Reviewed
+verification: Published
 description: Runs Semgrep against a codebase using official or custom rule registries and outputs a grouped report of security anti-patterns, deprecated API usage, and policy…
 url: https://agentskillexchange.com/skills/semgrep-code-pattern-scanner-2/
 
@@ -18847,7 +18847,7 @@ url: https://agentskillexchange.com/skills/postgresql-slow-query-analyzer/
 slug: sonarqube-quality-gate-explainer
 category: Code Quality & Review
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Fetches the latest SonarQube project analysis result, explains why the Quality Gate failed in plain English, and links to specific issues. Covers coverage drops,…
 url: https://agentskillexchange.com/skills/sonarqube-quality-gate-explainer/
 
@@ -18895,7 +18895,7 @@ url: https://agentskillexchange.com/skills/stripe-reporting-agent/
 slug: supabase-mcp-server
 category: Developer Tools
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Supabase MCP Server is built around Supabase developer platform. The underlying ecosystem is represented by supabase/supabase (99,546+ GitHub stars). It gives an agent a…
 url: https://agentskillexchange.com/skills/supabase-mcp-server/
 
@@ -18935,7 +18935,7 @@ url: https://agentskillexchange.com/skills/terrascan-policy-scanner/
 slug: redis-mcp-server
 category: Developer Tools
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Redis MCP Server is built around Redis in-memory datastore. The underlying ecosystem is represented by redis/redis (73,523+ GitHub stars). It gives an agent a…
 url: https://agentskillexchange.com/skills/redis-mcp-server/
 
@@ -18943,7 +18943,7 @@ url: https://agentskillexchange.com/skills/redis-mcp-server/
 slug: mongodb-mcp-server
 category: Developer Tools
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: MongoDB MCP Server is built around MongoDB document database. The underlying ecosystem is represented by mongodb/node-mongodb-native (10,180+ GitHub stars). It gives an agent a…
 url: https://agentskillexchange.com/skills/mongodb-mcp-server/
 
@@ -18959,7 +18959,7 @@ url: https://agentskillexchange.com/skills/kics-iac-linter/
 slug: open-policy-agent-opa
 category: Security & Verification
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Open Policy Agent (OPA) is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent…
 url: https://agentskillexchange.com/skills/open-policy-agent-opa/
 
@@ -18967,7 +18967,7 @@ url: https://agentskillexchange.com/skills/open-policy-agent-opa/
 slug: conftest-policy-tester
 category: Security & Verification
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Conftest Policy Tester is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a…
 url: https://agentskillexchange.com/skills/conftest-policy-tester/
 
@@ -18975,7 +18975,7 @@ url: https://agentskillexchange.com/skills/conftest-policy-tester/
 slug: falco-runtime-security
 category: Security & Verification
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Falco Runtime Security is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a…
 url: https://agentskillexchange.com/skills/falco-runtime-security/
 
@@ -18983,7 +18983,7 @@ url: https://agentskillexchange.com/skills/falco-runtime-security/
 slug: owasp-zap-scanner
 category: Security & Verification
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: OWASP ZAP Scanner is built around OWASP security tooling ecosystem. The underlying ecosystem is represented by zaproxy/zaproxy (14,896+ GitHub stars). It gives an agent…
 url: https://agentskillexchange.com/skills/owasp-zap-scanner/
 
@@ -18991,7 +18991,7 @@ url: https://agentskillexchange.com/skills/owasp-zap-scanner/
 slug: checkov-iac-scanner
 category: Security & Verification
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Checkov IaC Scanner is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a…
 url: https://agentskillexchange.com/skills/checkov-iac-scanner/
 
@@ -19191,7 +19191,7 @@ url: https://agentskillexchange.com/skills/notion-workspace-agent/
 slug: apache-airflow-mcp
 category: Data Extraction & Transformation
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Apache Airflow MCP is built around Apache Airflow workflow orchestration. The underlying ecosystem is represented by apache/airflow (44,767+ GitHub stars). It gives an agent…
 url: https://agentskillexchange.com/skills/apache-airflow-mcp/
 
@@ -19199,7 +19199,7 @@ url: https://agentskillexchange.com/skills/apache-airflow-mcp/
 slug: dbt-cloud-mcp
 category: Data Extraction & Transformation
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: dbt Cloud MCP is built around dbt transformation framework. The underlying ecosystem is represented by dbt-labs/dbt-core (12,457+ GitHub stars). It gives an agent a…
 url: https://agentskillexchange.com/skills/dbt-cloud-mcp/
 
@@ -19207,7 +19207,7 @@ url: https://agentskillexchange.com/skills/dbt-cloud-mcp/
 slug: snowflake-mcp
 category: Data Extraction & Transformation
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Snowflake MCP is built around Snowflake cloud data warehouse. It gives an agent a more technical and reliable way to work with the tool…
 url: https://agentskillexchange.com/skills/snowflake-mcp/
 
@@ -19247,7 +19247,7 @@ url: https://agentskillexchange.com/skills/gitlab-ci-integration-2/
 slug: semgrep-code-scanner
 category: Code Quality & Review
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Semgrep Code Scanner is built around Semgrep static analysis engine. The underlying ecosystem is represented by semgrep/semgrep (14,543+ GitHub stars). It gives an agent…
 url: https://agentskillexchange.com/skills/semgrep-code-scanner/
 
@@ -19311,7 +19311,7 @@ url: https://agentskillexchange.com/skills/k8s-troubleshooting-runbook/
 slug: dbt-mcp-server
 category: Data Extraction & Transformation
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: dbt MCP Server is built around dbt transformation framework. The underlying ecosystem is represented by dbt-labs/dbt-core (12,457+ GitHub stars). It gives an agent a…
 url: https://agentskillexchange.com/skills/dbt-mcp-server/
 
@@ -19319,7 +19319,7 @@ url: https://agentskillexchange.com/skills/dbt-mcp-server/
 slug: snowflake-mcp-server
 category: Data Extraction & Transformation
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Snowflake MCP Server is built around Snowflake cloud data warehouse. It gives an agent a more technical and reliable way to work with the…
 url: https://agentskillexchange.com/skills/snowflake-mcp-server/
 
@@ -19327,7 +19327,7 @@ url: https://agentskillexchange.com/skills/snowflake-mcp-server/
 slug: security-audit-skill
 category: Security & Verification
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Security Audit Skill is built around OWASP security tooling ecosystem. The underlying ecosystem is represented by zaproxy/zaproxy (14,896+ GitHub stars). It gives an agent…
 url: https://agentskillexchange.com/skills/security-audit-skill/
 
@@ -19359,7 +19359,7 @@ url: https://agentskillexchange.com/skills/docker-compose-generator-skill/
 slug: weaviate-mcp-server
 category: Data Extraction & Transformation
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Weaviate MCP Server is built around GraphQL API ecosystem. The underlying ecosystem is represented by graphql/graphql-js (20,335+ GitHub stars). It gives an agent a…
 url: https://agentskillexchange.com/skills/weaviate-mcp-server/
 
@@ -19367,7 +19367,7 @@ url: https://agentskillexchange.com/skills/weaviate-mcp-server/
 slug: llamaindex-mcp-server
 category: Developer Tools
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: LlamaIndex MCP Server is built around LlamaIndex framework for LLM data access. The underlying ecosystem is represented by run-llama/llama_index (47,942+ GitHub stars). It gives…
 url: https://agentskillexchange.com/skills/llamaindex-mcp-server/
 
@@ -19375,7 +19375,7 @@ url: https://agentskillexchange.com/skills/llamaindex-mcp-server/
 slug: langchain-mcp-server
 category: Developer Tools
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: LangChain MCP Server is built around LangChain framework for LLM applications. The underlying ecosystem is represented by langchain-ai/langchainjs (17,321+ GitHub stars). It gives an…
 url: https://agentskillexchange.com/skills/langchain-mcp-server/
 
@@ -19383,7 +19383,7 @@ url: https://agentskillexchange.com/skills/langchain-mcp-server/
 slug: openai-mcp-server
 category: Developer Tools
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: OpenAI MCP Server is built around OpenAI API platform. The underlying ecosystem is represented by openai/openai-node (10,761+ GitHub stars). It gives an agent a…
 url: https://agentskillexchange.com/skills/openai-mcp-server/
 
@@ -19447,7 +19447,7 @@ url: https://agentskillexchange.com/skills/docker-mcp-server/
 slug: aws-lambda-mcp-server
 category: Developer Tools
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: AWS Lambda MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives…
 url: https://agentskillexchange.com/skills/aws-lambda-mcp-server/
 
@@ -19455,7 +19455,7 @@ url: https://agentskillexchange.com/skills/aws-lambda-mcp-server/
 slug: aws-s3-mcp-server
 category: Developer Tools
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: AWS S3 MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives…
 url: https://agentskillexchange.com/skills/aws-s3-mcp-server/
 
@@ -19463,7 +19463,7 @@ url: https://agentskillexchange.com/skills/aws-s3-mcp-server/
 slug: sendgrid-mcp-server
 category: Integrations & Connectors
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: SendGrid MCP Server is built around SendGrid email delivery platform. The underlying ecosystem is represented by sendgrid/sendgrid-nodejs (3,054+ GitHub stars). It gives an agent…
 url: https://agentskillexchange.com/skills/sendgrid-mcp-server/
 
@@ -19471,7 +19471,7 @@ url: https://agentskillexchange.com/skills/sendgrid-mcp-server/
 slug: twilio-mcp-server
 category: Integrations & Connectors
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Twilio MCP Server is built around Twilio communications APIs. The underlying ecosystem is represented by twilio/twilio-node (1,523+ GitHub stars). It gives an agent a…
 url: https://agentskillexchange.com/skills/twilio-mcp-server/
 
@@ -19479,7 +19479,7 @@ url: https://agentskillexchange.com/skills/twilio-mcp-server/
 slug: stripe-mcp-server
 category: Integrations & Connectors
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Stripe MCP Server is built around Stripe payments platform. The underlying ecosystem is represented by stripe/stripe-node (4,377+ GitHub stars). It gives an agent a…
 url: https://agentskillexchange.com/skills/stripe-mcp-server/
 
@@ -19487,7 +19487,7 @@ url: https://agentskillexchange.com/skills/stripe-mcp-server/
 slug: salesforce-mcp-server
 category: Integrations & Connectors
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Salesforce MCP Server is built around Salesforce CRM platform. The underlying ecosystem is represented by jsforce/jsforce (1,452+ GitHub stars). It gives an agent a…
 url: https://agentskillexchange.com/skills/salesforce-mcp-server/
 
@@ -19495,7 +19495,7 @@ url: https://agentskillexchange.com/skills/salesforce-mcp-server/
 slug: hubspot-mcp-server
 category: Integrations & Connectors
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: HubSpot MCP Server is built around HubSpot CRM and marketing APIs. The underlying ecosystem is represented by HubSpot/hubspot-api-nodejs (391+ GitHub stars). It gives an…
 url: https://agentskillexchange.com/skills/hubspot-mcp-server/
 
@@ -19503,7 +19503,7 @@ url: https://agentskillexchange.com/skills/hubspot-mcp-server/
 slug: notion-mcp-server
 category: Calendar, Email & Productivity
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Notion MCP Server is built around Notion workspace and database platform. The underlying ecosystem is represented by makenotion/notion-sdk-js (5,562+ GitHub stars). It gives an…
 url: https://agentskillexchange.com/skills/notion-mcp-server/
 
@@ -19527,7 +19527,7 @@ url: https://agentskillexchange.com/skills/elastic-kibana-mcp-server/
 slug: opsgenie-mcp-server
 category: Monitoring & Alerts
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: OpsGenie MCP Server is built around Opsgenie incident and on-call platform. The underlying ecosystem is represented by opsgenie/opsgenie-nodejs-sdk (24+ GitHub stars). It gives an…
 url: https://agentskillexchange.com/skills/opsgenie-mcp-server/
 
@@ -19535,7 +19535,7 @@ url: https://agentskillexchange.com/skills/opsgenie-mcp-server/
 slug: pagerduty-mcp-server
 category: Monitoring & Alerts
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: PagerDuty MCP Server is built around PagerDuty incident response platform. The underlying ecosystem is represented by PagerDuty/pdjs (69+ GitHub stars). It gives an agent…
 url: https://agentskillexchange.com/skills/pagerduty-mcp-server/
 
@@ -19543,7 +19543,7 @@ url: https://agentskillexchange.com/skills/pagerduty-mcp-server/
 slug: datadog-mcp-server
 category: Monitoring & Alerts
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Datadog MCP Server is built around Datadog observability platform. The underlying ecosystem is represented by DataDog/dd-trace-js (787+ GitHub stars). It gives an agent a…
 url: https://agentskillexchange.com/skills/datadog-mcp-server/
 
@@ -19551,7 +19551,7 @@ url: https://agentskillexchange.com/skills/datadog-mcp-server/
 slug: pulumi-mcp-server
 category: Developer Tools
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Pulumi MCP Server is built around Pulumi infrastructure as code platform. The underlying ecosystem is represented by pulumi/pulumi (24,917+ GitHub stars). It gives an…
 url: https://agentskillexchange.com/skills/pulumi-mcp-server/
 
@@ -19559,7 +19559,7 @@ url: https://agentskillexchange.com/skills/pulumi-mcp-server/
 slug: terraform-cloud-mcp-server
 category: Developer Tools
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Terraform Cloud MCP Server is built around Terraform infrastructure as code. The underlying ecosystem is represented by hashicorp/terraform (47,996+ GitHub stars). It gives an…
 url: https://agentskillexchange.com/skills/terraform-cloud-mcp-server/
 
@@ -19567,7 +19567,7 @@ url: https://agentskillexchange.com/skills/terraform-cloud-mcp-server/
 slug: argocd-mcp-server
 category: Developer Tools
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: ArgoCD MCP Server is built around Argo CD GitOps deployment controller for Kubernetes. The underlying ecosystem is represented by argoproj/argo-cd (22,391+ GitHub stars). It…
 url: https://agentskillexchange.com/skills/argocd-mcp-server/
 
@@ -19575,7 +19575,7 @@ url: https://agentskillexchange.com/skills/argocd-mcp-server/
 slug: circleci-mcp-server
 category: Developer Tools
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: CircleCI MCP Server is built around CircleCI continuous integration platform. The underlying ecosystem is represented by circleci/circleci-docs (842+ GitHub stars). It gives an agent…
 url: https://agentskillexchange.com/skills/circleci-mcp-server/
 
@@ -19583,7 +19583,7 @@ url: https://agentskillexchange.com/skills/circleci-mcp-server/
 slug: jenkins-mcp-server
 category: Developer Tools
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Jenkins MCP Server is built around Jenkins automation server. The underlying ecosystem is represented by jenkinsci/jenkins (25,122+ GitHub stars). It gives an agent a…
 url: https://agentskillexchange.com/skills/jenkins-mcp-server/
 
@@ -19591,7 +19591,7 @@ url: https://agentskillexchange.com/skills/jenkins-mcp-server/
 slug: atlassian-rovo-mcp-server
 category: Calendar, Email & Productivity
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP-compatible client. Search and summarize Jira issues, create tickets from natural language,…
 url: https://agentskillexchange.com/skills/atlassian-rovo-mcp-server/
 
@@ -19623,7 +19623,7 @@ url: https://agentskillexchange.com/skills/postgres-mcp-pro/
 slug: sentry-mcp-server
 category: Monitoring & Alerts
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Sentry's official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack traces, investigate performance bottlenecks, and get AI-powered…
 url: https://agentskillexchange.com/skills/sentry-mcp-server/
 
@@ -19639,7 +19639,7 @@ url: https://agentskillexchange.com/skills/snyk-agent-scan/
 slug: openai-whisper-api-transcription
 category: Media & Transcription
 framework: OpenClaw
-verification: Security Reviewed
+verification: Published
 description: API-based speech-to-text transcription through OpenAI. No local model downloads, no GPU, no Python ML stack — just an API key and a shell script.
 url: https://agentskillexchange.com/skills/openai-whisper-api-transcription/
 
@@ -19671,7 +19671,7 @@ url: https://agentskillexchange.com/skills/crawl4ai-mcp-server/
 slug: e2b-code-execution-mcp
 category: Developer Tools
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected Linux environments for running Python, JavaScript, and shell…
 url: https://agentskillexchange.com/skills/e2b-code-execution-mcp/
 
@@ -19719,7 +19719,7 @@ url: https://agentskillexchange.com/skills/video-frames-extractor/
 slug: sqlite-mcp-server
 category: Data Extraction & Transformation
 framework: Claude Code, Cursor, MCP, OpenClaw
-verification: Security Reviewed
+verification: Published
 description: Lightweight local database access for agent tasks.
 url: https://agentskillexchange.com/skills/sqlite-mcp-server/
 
@@ -19743,7 +19743,7 @@ url: https://agentskillexchange.com/skills/wordpress-rest-api-builder/
 slug: slack-mcp-server
 category: Calendar, Email & Productivity
 framework: Claude Code, Cursor, MCP, OpenClaw
-verification: Security Reviewed
+verification: Published
 description: Agent access to Slack conversations and workspace workflows.
 url: https://agentskillexchange.com/skills/slack-mcp-server/
 
@@ -19767,7 +19767,7 @@ url: https://agentskillexchange.com/skills/wordpress-router/
 slug: postgresql-mcp-server
 category: Data Extraction & Transformation
 framework: Claude Code, Cursor, MCP, OpenClaw
-verification: Security Reviewed
+verification: Published
 description: Agent access to PostgreSQL data and queries through MCP.
 url: https://agentskillexchange.com/skills/postgresql-mcp-server/
 
@@ -19775,7 +19775,7 @@ url: https://agentskillexchange.com/skills/postgresql-mcp-server/
 slug: playwright-mcp-browser-automation
 category: Browser Automation
 framework: Claude Code, Cursor, MCP, OpenClaw
-verification: Security Reviewed
+verification: Published
 description: Official Playwright-powered browser control for agent workflows.
 url: https://agentskillexchange.com/skills/playwright-mcp-browser-automation/
 

@@ -15,13 +15,7 @@ Monitors internet-facing assets using Censys Search API v2 for host discovery an
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Legacy Search and ASM Python CLI
-
-Basic usage or getting-started notes:
-- Get Started with the Censys Platform Quick Start Guide
-- Get Started with Censys ASM Quick Start Guide
-- Build, Save, and Automate ASM Queries Example ASM Queries
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
 - Source: https://docs.censys.com/docs/internet-scanning
 

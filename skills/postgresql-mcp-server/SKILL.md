@@ -3,7 +3,7 @@ name: "PostgreSQL MCP Server"
 slug: "postgresql-mcp-server"
 description: "Agent access to PostgreSQL data and queries through MCP."
 github_stars: 85873
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/modelcontextprotocol/servers"
 author: "Model Context Protocol"
 publisher_type: "open_source_collective"

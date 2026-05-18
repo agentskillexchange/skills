@@ -3,7 +3,7 @@ name: "Open Policy Agent (OPA)"
 slug: "open-policy-agent-opa"
 description: ""
 github_stars: 11581
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/open-policy-agent/opa"
 author: "open-policy-agent"
 category: "Security & Verification"
