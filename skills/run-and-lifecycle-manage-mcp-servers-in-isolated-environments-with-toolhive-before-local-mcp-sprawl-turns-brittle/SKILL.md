@@ -3,7 +3,7 @@ name: "Run and lifecycle-manage MCP servers in isolated environments with ToolHi
 slug: "run-and-lifecycle-manage-mcp-servers-in-isolated-environments-with-toolhive-before-local-mcp-sprawl-turns-brittle"
 description: "Use ToolHive to install, isolate, update, and govern MCP servers so agents connect to a predictable local or Kubernetes-backed tool surface instead of a pile of hand-managed server processes."
 github_stars: 1718
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/stacklok/toolhive"
 author: "Stacklok"
 publisher_type: "organization"

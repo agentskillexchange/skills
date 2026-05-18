@@ -3,7 +3,7 @@ name: "Run one formatter plan across a mixed-language repo and keep generated ed
 slug: "run-one-formatter-plan-across-a-mixed-language-repo-and-keep-generated-edits-predictable-with-treefmt"
 description: "Use treefmt when an agent needs one repo-level formatting plan across multiple languages instead of stitching formatter commands together ad hoc."
 github_stars: 977
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/numtide/treefmt"
 author: "Numtide"
 publisher_type: "company"

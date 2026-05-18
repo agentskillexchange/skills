@@ -3,7 +3,7 @@ name: "Revise PDF Slides with Natural-Language Edits"
 slug: "revise-pdf-slides-with-natural-language-edits"
 description: "Use Nano-PDF when an agent needs to update existing PDF slides or insert matching new slides from plain-language instructions. The workflow is bounded to PDF page edits and deck-consistent slide generation, not general design automation."
 github_stars: 1237
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/gavrielc/Nano-PDF"
 category: "Image & Creative Automation"
 framework: "OpenClaw"

@@ -3,7 +3,7 @@ name: "Catch common misspellings in code and docs before review churn with codes
 slug: "catch-common-misspellings-in-code-and-docs-before-review-churn-with-codespell"
 description: "Run a fast typo pass across source files and documentation so common misspellings are fixed before they spread through reviews and releases."
 github_stars: 2356
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/codespell-project/codespell"
 author: "codespell-project"
 publisher_type: "organization"

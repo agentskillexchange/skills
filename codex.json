@@ -65,7 +65,7 @@
       "description": "Teach coding agents to split large changes into native GitHub stacked pull requests, keep branch layers rebased, and submit focused reviewable PR chains with…",
       "category": "Templates & Workflows",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "run-supervised-agentic-terminal-sessions-with-warp",
@@ -317,7 +317,7 @@
       "description": "Use GSD 2 to break a project into milestones, manage agent context and branches, recover from drift, and let coding agents advance through supervised…",
       "category": "Templates & Workflows",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "install-role-specific-agent-personas-with-agency-agents",
@@ -326,7 +326,7 @@
       "description": "Install and activate specialized AI agent personas from Agency Agents when a coding or operations session needs a focused role, workflow, and deliverable standard…",
       "category": "Templates & Workflows",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "install-reusable-specialist-agent-roles-from-agency-agents",
@@ -335,7 +335,7 @@
       "description": "Install and adapt Agency Agents' curated specialist role files so coding agents can switch into focused engineering, product, marketing, support, or operations workflows.",
       "category": "Templates & Workflows",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "preserve-agent-session-context-with-claude-mem",
@@ -506,7 +506,7 @@
       "description": "Use OpenAI's customer-service agents demo as a reference workflow for triage, specialist handoffs, guardrails, and support-case orchestration before building a production support agent.",
       "category": "Templates & Workflows",
       "framework": "ChatGPT Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "run-coding-agents-in-isolated-observable-vibekit-sandboxes",
@@ -524,7 +524,7 @@
       "description": "Audit and rewrite CI/CD workflow references so agents can pin mutable actions, containers, and images to immutable versions before changes land.",
       "category": "Security & Verification",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "run-untrusted-ai-generated-code-inside-secure-e2b-sandboxes",
@@ -551,7 +551,7 @@
       "description": "Use prek as a fast pre-commit-compatible hook runner so agents can lint, format, and policy-check repository changes before handing work back.",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "expose-fastapi-routes-as-mcp-tools-with-fastapi-mcp",
@@ -560,7 +560,7 @@
       "description": "Mount FastAPI-MCP on an existing FastAPI app so agents can call authenticated route-backed MCP tools with preserved schemas.",
       "category": "Integrations & Connectors",
       "framework": "MCP",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "run-approved-mcp-servers-through-docker-mcp-gateway",
@@ -578,7 +578,7 @@
       "description": "Use mcp-use to create, test, and package MCP servers or interactive MCP apps that work across agent clients.",
       "category": "Integrations & Connectors",
       "framework": "MCP",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "run-ai-browser-regression-checks-with-playwright-and-multi-model-verification-through-passmark",
@@ -749,7 +749,7 @@
       "description": "Use Xidel to pull targeted values from pages, XML documents, or JSON APIs with CSS selectors, XPath, XQuery, or JSONiq expressions.",
       "category": "Data Extraction & Transformation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "convert-smtp-only-alerts-into-routed-notification-deliveries-with-mailrise",
@@ -767,7 +767,7 @@
       "description": "Use sqlfmt to reformat dbt-oriented SQL and Jinja-heavy query files into a stable style before code review, CI checks, or agent-generated handoff.",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "query-eventhouse-and-manage-fabric-rti-resources-from-mcp-compatible-agents-with-fabric-rti-mcp",
@@ -776,7 +776,7 @@
       "description": "Use Fabric RTI MCP when an agent needs tool-callable access to Microsoft Fabric Real-Time Intelligence services such as Eventhouse, Eventstreams, Activator, and Map instead…",
       "category": "Integrations & Connectors",
       "framework": "MCP",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "search-large-codebases-semantically-from-mcp-compatible-coding-agents-with-claude-context",
@@ -785,7 +785,7 @@
       "description": "Use Claude Context when a coding agent needs targeted semantic retrieval from a very large repository instead of repeatedly loading folders or files into…",
       "category": "Developer Tools",
       "framework": "MCP",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "preserve-coding-agent-context-by-sandboxing-bulky-tool-output-and-retrieving-only-relevant-session-state-with-context-mode",
@@ -884,7 +884,7 @@
       "description": "Attach judges to LaunchDarkly AI Config variations, create custom judges, set sampling rates, and interpret production quality signals from online evaluations.",
       "category": "Monitoring & Alerts",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "implement-review-and-optimize-swiftui-code-with-trace-backed-diagnostics",
@@ -902,7 +902,7 @@
       "description": "Analyze staged changes, scan for sensitive content, draft Conventional Commit messages, prepare PR text, and update changelog entries in a guarded commit-and-release communication workflow.",
       "category": "Developer Tools",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "review-rest-api-designs-before-implementation-for-versioning-security-and-contract-clarity",
@@ -920,7 +920,7 @@
       "description": "Inspect a LaunchDarkly flag’s current state, choose the right targeting approach, apply rollout or rule changes through the LaunchDarkly MCP server, and verify the…",
       "category": "Developer Tools",
       "framework": "MCP",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "build-and-sync-n8n-workflows-from-code-with-n8n-as-code",
@@ -974,7 +974,7 @@
       "description": "Handle alerts and debugging questions from Slack, query connected monitoring MCP servers, and follow runbook-guided investigation steps for live incidents.",
       "category": "Runbooks & Diagnostics",
       "framework": "MCP",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "apply-git-branching-commit-and-pr-best-practices-through-git-workflow-skill",
@@ -983,7 +983,7 @@
       "description": "Give an agent a portable Git workflow playbook for branch strategy, commit hygiene, pull requests, merge choices, and CI-aware collaboration.",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "broker-api-credentials-to-ai-agents-without-exposing-raw-keys-using-onecli",
@@ -1010,7 +1010,7 @@
       "description": "Run manager-worker agent collaboration in Matrix rooms where humans can watch, intervene, and keep credentials out of worker hands.",
       "category": "Templates & Workflows",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "run-repeatable-google-ads-and-seo-audits-inside-claude-code-with-toprank",
@@ -1019,7 +1019,7 @@
       "description": "Use Toprank when an agent needs a repeatable Claude Code workflow for Google Ads and SEO audits, with concrete slash commands, account-backed analysis, and…",
       "category": "Content Writing & SEO",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "red-team-agent-workflows-for-jailbreaks-prompt-injection-and-policy-failures-with-deepteam",
@@ -1091,7 +1091,7 @@
       "description": "Use claude-code-my-workflow when a research task needs a Claude Code workflow for papers, slides, data analysis, or replication packages with specialist-agent review and verification…",
       "category": "Templates & Workflows",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "put-approval-gates-and-audit-ready-policy-checks-between-agents-and-external-actions-with-dashclaw",
@@ -1100,7 +1100,7 @@
       "description": "Use DashClaw to intercept agent actions before they hit external systems, require approval or policy evaluation, and keep replayable decision evidence for later review.",
       "category": "Security & Verification",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "escalate-risky-coding-tasks-into-multi-model-debate-and-consensus-gates-with-claude-octopus",
@@ -1118,7 +1118,7 @@
       "description": "Use Claude Code dedupe to summarize an issue, run several GitHub duplicate searches in parallel, filter false positives, and post only well-supported possible-duplicate links.",
       "category": "Templates & Workflows",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue",
@@ -1127,7 +1127,7 @@
       "description": "Use Claude Code triage-issue to read a GitHub issue, verify it actually belongs to the product from body evidence first, check nearby duplicates, and…",
       "category": "Templates & Workflows",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "run-day-2-openclaw-operations-with-production-runbooks-and-reusable-prompt-patterns-from-openclaw-runbook",
@@ -1136,7 +1136,7 @@
       "description": "Use a practical OpenClaw operations runbook to stabilize long-running deployments, tune coordinator and worker patterns, and apply reusable prompt templates for monitoring, security, and…",
       "category": "Runbooks & Diagnostics",
       "framework": "OpenClaw",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "deploy-an-agent-readable-openclaw-defense-matrix-and-hardening-audit-with-openclaw-security-practice-guide",
@@ -1145,7 +1145,7 @@
       "description": "Use an agent-facing OpenClaw security guide to audit a live setup, surface conflicts, and apply a bounded hardening defense matrix with explicit approval gates…",
       "category": "Security & Verification",
       "framework": "OpenClaw",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "distill-repository-rules-and-workflows-into-reusable-project-skills-with-skill-based-architecture",
@@ -1271,7 +1271,7 @@
       "description": "Use OpenMontage when an agent should take a brief or reference video and run the research, scripting, asset generation, editing, subtitle, and render pipeline…",
       "category": "Image & Creative Automation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "turn-a-research-idea-into-a-draft-paper-workflow-with-autoresearchclaw",
@@ -1289,7 +1289,7 @@
       "description": "Use HolmesGPT when an on-call agent needs one investigation loop that pulls alerts, logs, metrics, and infrastructure context from multiple systems and returns a…",
       "category": "Runbooks & Diagnostics",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "triage-pull-request-security-risks-with-staged-threat-modeling-and-investigation-using-vulnvibes",
@@ -1298,7 +1298,7 @@
       "description": "Analyze a GitHub pull request for security impact, run targeted vulnerability-investigation skills when Stage 1 finds credible threats, and return a structured verdict instead…",
       "category": "Security & Verification",
       "framework": "Claude Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "benchmark-browser-agents-on-a-fixed-stealth-and-task-suite-with-browser-use-benchmark",
@@ -1361,7 +1361,7 @@
       "description": "Add a runtime guard that evaluates agent actions, blocks dangerous commands or secret exposure, and audits new skills before they run.",
       "category": "Security & Verification",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus",
@@ -1388,7 +1388,7 @@
       "description": "Analyze a web app's source code, execute real exploit attempts against the running target, and return proof-backed findings before release.",
       "category": "Security & Verification",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "generate-podcast-style-audio-narratives-with-podcast-generation",
@@ -1550,7 +1550,7 @@
       "description": "Feed an agent your docs, links, code, or rough process notes and it generates, validates, installs, and optionally shares a reusable SKILL.md-based workflow across…",
       "category": "Templates & Workflows",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "turn-product-requirements-into-executable-claude-code-plans-and-validation-loops-with-prps-agentic-eng",
@@ -1559,7 +1559,7 @@
       "description": "Generate PRDs, implementation plans, validation loops, issue investigations, and autonomous fix cycles inside Claude Code before coding starts.",
       "category": "Templates & Workflows",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner",
@@ -1685,7 +1685,7 @@
       "description": "Use Medusa Security before trusting a repository, dependency, or AI-agent codebase when an agent needs a focused scan for repo poisoning, prompt-injection, MCP, and…",
       "category": "Security & Verification",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "catch-agent-era-ci-cd-and-permission-misconfigurations-before-shipping-with-ship-safe",
@@ -1703,7 +1703,7 @@
       "description": "Use jCodeMunch MCP when an agent needs precise symbol lookups, outlines, call-graph context, and targeted source retrieval instead of brute-reading whole files across a…",
       "category": "Library & API Reference",
       "framework": "MCP",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "run-ai-assisted-security-triage-with-role-based-soc-runbooks-from-ai-runbooks",
@@ -1721,7 +1721,7 @@
       "description": "Use Camofox Browser to route agent browser work through an anti-detection browser server with stable element refs, snapshots, cookies, proxies, and session isolation.",
       "category": "Browser Automation",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "gate-risky-agent-actions-behind-approval-checkpoints-with-latch",
@@ -1748,7 +1748,7 @@
       "description": "Use DiffX to review local git changes in a PR-style browser UI, leave inline comments, and hand structured feedback back to a coding agent…",
       "category": "Code Quality & Review",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "scan-agent-workflows-for-tools-mcp-exposure-and-adversarial-risk-with-agentic-radar",
@@ -1775,7 +1775,7 @@
       "description": "Use Caliber when agent-facing repo instructions have started drifting from the actual codebase and you want one workflow to audit, generate, review, and keep…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "probe-kubernetes-clusters-for-exposed-attack-paths-with-kube-hunter",
@@ -1982,7 +1982,7 @@
       "description": "Refresh Terraform module documentation from source so variables, outputs, and providers stay aligned with the code before review or release.",
       "category": "CI/CD Integrations",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "generate-and-screen-lookalike-domains-with-dnstwist-for-brand-abuse-triage",
@@ -2279,7 +2279,7 @@
       "description": "Use GritQL when an agent needs reviewable structural search and rewrite passes across a large codebase before a migration, policy cleanup, or API change,…",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "sync-agent-rules-and-skill-files-across-coding-assistants-with-ai-rules-sync",
@@ -2288,7 +2288,7 @@
       "description": "Use AI Rules Sync when the same operating rules, commands, skills, or subagents need to stay aligned across Claude Code, Cursor, Codex, Copilot, and…",
       "category": "Integrations & Connectors",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "layer-self-correcting-memory-and-worktree-routines-into-claude-code-with-pro-workflow",
@@ -2324,7 +2324,7 @@
       "description": "Use warc2text when an agent already has WARC captures and needs readable text, language identification, and exportable records for review, search, or corpus building…",
       "category": "Data Extraction & Transformation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "archive-and-reorganize-local-photo-libraries-with-photo-cli",
@@ -2333,7 +2333,7 @@
       "description": "Use photo-cli when an agent needs to normalize a local photo archive by reading capture metadata, reverse geocoding locations, and rebuilding a cleaner folder…",
       "category": "Image & Creative Automation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "back-up-github-repos-releases-and-gists-with-github-backup",
@@ -2342,7 +2342,7 @@
       "description": "Use GitHub Backup when an agent needs to mirror repositories, release assets, and gists into local storage on a schedule, instead of manually exporting…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "drive-dependency-and-config-bumps-through-declarative-updatecli-pipelines",
@@ -2432,7 +2432,7 @@
       "description": "Measure Python docstring coverage and fail a docs-quality gate when code drops below an agreed threshold.",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "prepare-rust-release-prs-and-changelogs-from-workspace-changes-with-release-plz",
@@ -2450,7 +2450,7 @@
       "description": "Resolve Python dependency inputs into deterministic lock files and sync environments without hand-editing transitive pins.",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "baseline-and-review-repository-secret-findings-with-detect-secrets",
@@ -2459,7 +2459,7 @@
       "description": "Scan a repository for secrets, keep an auditable baseline, and review only newly introduced findings during commits or CI checks.",
       "category": "Security & Verification",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "design-lifecycle-email-sequences",
@@ -2711,7 +2711,7 @@
       "description": "Run MCP Scanner against a remote or local MCP server before trusting it, so the agent gets a bounded security review of tools, prompts,…",
       "category": "Security & Verification",
       "framework": "MCP",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "put-coding-agents-on-a-governed-local-git-workflow-with-agentplane",
@@ -2747,7 +2747,7 @@
       "description": "Turn documentation sites, GitHub repos, and PDFs into installable agent skill packages when hand-authoring a reusable skill would be slow or inconsistent.",
       "category": "Templates & Workflows",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "search-local-notes-docs-and-meeting-transcripts-for-agent-context-with-qmd",
@@ -2756,7 +2756,7 @@
       "description": "Index local notes, docs, and meeting transcripts, then return ranked files or structured JSON so an agent can pull only the context it needs.",
       "category": "Research & Scraping",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "screen-packages-and-agent-skill-repos-for-malware-and-supply-chain-risk-before-adoption-with-safedep-vet",
@@ -2774,7 +2774,7 @@
       "description": "Use the Claude Agent SDK for Python when an existing script or service needs to delegate scoped repo work to Claude Code and consume…",
       "category": "Developer Tools",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "expose-approved-database-operations-to-mcp-clients-with-mcp-toolbox-before-ad-hoc-sql-glue-sprawls",
@@ -2801,7 +2801,7 @@
       "description": "Use ToolHive to install, isolate, update, and govern MCP servers so agents connect to a predictable local or Kubernetes-backed tool surface instead of a…",
       "category": "Developer Tools",
       "framework": "MCP",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "run-claude-code-inside-github-actions-for-scoped-fix-review-and-triage-loops-on-pull-requests-and-issues",
@@ -2810,7 +2810,7 @@
       "description": "Use Claude Code as a bounded GitHub Actions worker for PR reviews, issue follow-up, and repository automation that stays inside normal workflow triggers and…",
       "category": "CI/CD Integrations",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "provision-rust-cli-toolchains-from-prebuilt-binaries-in-fresh-environments-before-repeated-source-builds-slow-agent-runs-with-cargo-binstall",
@@ -2990,7 +2990,7 @@
       "description": "Lets an agent install or build a harness around an existing tool so the tool becomes callable through a predictable CLI surface.",
       "category": "Integrations & Connectors",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "enforce-source-controlled-ai-checks-in-ci-before-merging-risky-changes-with-continue-cli",
@@ -2999,7 +2999,7 @@
       "description": "Lets an agent define repo-native AI review checks as markdown files and run them as repeatable pull request status checks in CI.",
       "category": "CI/CD Integrations",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "run-contract-tests-from-api-descriptions-against-live-endpoints-before-integrations-break-with-dredd",
@@ -3080,7 +3080,7 @@
       "description": "Compare coverage reports against a git diff so an agent can flag newly changed lines that still lack tests before merge.",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "infer-and-normalize-broken-csv-dialects-before-import-with-clevercsv",
@@ -3206,7 +3206,7 @@
       "description": "Catch structural and line-style problems in reStructuredText docs before release notes and Sphinx pages go out broken or noisy.",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "format-and-lint-toml-configs-and-lockfiles-before-config-drift-spreads-with-taplo",
@@ -3233,7 +3233,7 @@
       "description": "Run a fast typo pass across source files and documentation so common misspellings are fixed before they spread through reviews and releases.",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "generate-and-validate-conventional-commits-and-semver-release-bumps-with-commitizen",
@@ -3278,7 +3278,7 @@
       "description": "Apply keyless Sigstore-backed signatures to Git commits so automated changes retain verifiable provenance.",
       "category": "Security & Verification",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "draft-release-notes-continuously-with-release-drafter",
@@ -3629,7 +3629,7 @@
       "description": "Launch risky agent work inside disposable microVMs when you need stronger isolation, sealed egress, and host-side secret injection instead of direct host access.",
       "category": "Security & Verification",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "evolve-reusable-coding-agent-skills-from-failed-trajectories-with-evoskill",
@@ -3692,7 +3692,7 @@
       "description": "Validate and optionally autofix SKILL.md, CLAUDE.md, AGENTS.md, hooks, and MCP config files before bad agent metadata or wiring silently breaks a workflow.",
       "category": "Security & Verification",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-handoffs-using-spec-kitty",
@@ -3827,7 +3827,7 @@
       "description": "Use Claude Code Agent Farm when a repo needs many Claude Code workers to run in parallel on bug-fix or best-practice sweeps with coordination,…",
       "category": "Templates & Workflows",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "compose-typed-openclaw-workflows-with-approval-gates-and-resumable-steps-using-lobster",
@@ -3854,7 +3854,7 @@
       "description": "Use codex-action when an agent operator wants Codex to run inside GitHub Actions for PR review or scheduled repo work with explicit workflow permissions,…",
       "category": "CI/CD Integrations",
       "framework": "Codex",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "turn-a-prd-into-a-dependency-aware-task-graph-and-keep-ai-implementation-work-scoped-with-task-master-ai",
@@ -3872,7 +3872,7 @@
       "description": "Use cargo-machete when an agent needs to find and remove unused Rust dependencies before they keep inflating build time, review noise, and manifest drift.",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "inspect-large-csv-files-interactively-before-cleanup-mapping-or-downstream-transforms-with-csvlens",
@@ -3890,7 +3890,7 @@
       "description": "Use treefmt when an agent needs one repo-level formatting plan across multiple languages instead of stitching formatter commands together ad hoc.",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage",
@@ -3917,7 +3917,7 @@
       "description": "Use cargo-deny when an agent needs to enforce Rust dependency policy before merge by checking advisories, licenses, bans, and source rules in one repeatable…",
       "category": "Security & Verification",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf",
@@ -4583,7 +4583,7 @@
       "description": "Use Open Code Review when an agent needs several reviewer personas to inspect a diff, debate findings, and synthesize review output before a human…",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "search-notebooklm-notebooks-sources-and-generated-study-artifacts-from-agents",
@@ -4592,7 +4592,7 @@
       "description": "Use notebooklm-mcp-cli when an agent needs to search NotebookLM notebooks, add sources, run notebook queries, and retrieve generated study artifacts without leaving an MCP…",
       "category": "Research & Scraping",
       "framework": "MCP",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "work-with-affine-workspaces-documents-and-databases-from-mcp-compatible-agents",
@@ -4646,7 +4646,7 @@
       "description": "Use CodSpeed when an agent needs benchmark runs compared in CI and surfaced on pull requests before performance regressions merge.",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new",
@@ -4655,7 +4655,7 @@
       "description": "Use pkg.pr.new when an agent needs an installable preview build from a pull request so reviewers can test a package before the maintainer cuts…",
       "category": "CI/CD Integrations",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "index-a-codebase-into-evidence-backed-memory-so-agents-can-answer-with-citations",
@@ -4664,7 +4664,7 @@
       "description": "Use AtlasMemory when an agent keeps losing repo context and needs indexed, evidence-linked answers with file and line anchors instead of re-reading the whole…",
       "category": "Developer Tools",
       "framework": "MCP",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "investigate-crowdstrike-falcon-alerts-and-telemetry-through-falcon-mcp",
@@ -4682,7 +4682,7 @@
       "description": "Use add-mcp when an agent needs to roll out, list, remove, or synchronize MCP server configs across multiple coding clients instead of hand-editing each…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "mock-ai-app-dependencies-for-deterministic-local-and-ci-tests",
@@ -4763,7 +4763,7 @@
       "description": "Use Licensee when an agent needs to inspect a repository and determine what license text it actually matches before a dependency is approved or…",
       "category": "Security & Verification",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "keep-github-wiki-pages-synced-with-recently-merged-code-changes",
@@ -4772,7 +4772,7 @@
       "description": "This entry turns GitHub Next's Agentic Wiki Writer into a documentation-maintenance workflow. The agent watches for recent merges, reads the PAGES.md template, updates only…",
       "category": "Templates & Workflows",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests",
@@ -4781,7 +4781,7 @@
       "description": "This entry turns GitHub Next's Code Simplifier workflow into a narrow cleanup agent. The agent inspects code changed in the last day, proposes behavior-preserving…",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "review-open-pull-requests-against-repository-contribution-guidelines",
@@ -4790,7 +4790,7 @@
       "description": "This entry turns GitHub Next's Contribution Check workflow into a maintainer-facing agent routine. The agent batches open pull requests, compares them to CONTRIBUTING.md, labels…",
       "category": "Templates & Workflows",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "run-phpstan-on-wordpress-codebases-with-correct-stubs-baselines-and-narrow-ignores",
@@ -4799,7 +4799,7 @@
       "description": "This entry turns WordPress/agent-skills' WP PHPStan guidance into a bounded agent workflow for plugin, theme, and site repositories. The agent inspects the existing PHPStan…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "generate-markdown-tables-of-contents-before-publishing-docs-or-readme-updates",
@@ -4835,7 +4835,7 @@
       "description": "Use Anthropic's web-artifacts-builder skill to scaffold a React artifact project, build a richer interface with state or routing, and bundle everything into one shareable…",
       "category": "Templates & Workflows",
       "framework": "Claude Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "generate-slack-ready-animated-gifs-from-custom-frame-sequences",
@@ -4871,7 +4871,7 @@
       "description": "Use DOMPurify when an agent must accept HTML from users, rich text editors, imports, or model output but cannot safely render it as-is. The…",
       "category": "Security & Verification",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "inline-css-into-html-emails-before-delivery-across-mail-clients-juice",
@@ -4880,7 +4880,7 @@
       "description": "Use Juice when an agent already has finished HTML and needs it transformed into email-safe output before sending, archiving, or handing off to another…",
       "category": "Calendar, Email & Productivity",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs",
@@ -4898,7 +4898,7 @@
       "description": "Use python-slugify when an agent has messy human titles and needs safe, repeatable slugs for URLs, filenames, or record IDs. This skill stays tightly…",
       "category": "Content Writing & SEO",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "split-markdown-front-matter-and-body-before-docs-migrations-metadata-audits-or-static-site-transforms",
@@ -4916,7 +4916,7 @@
       "description": "Use aeneas when an agent already has audio and text, but still needs timing. The workflow aligns spoken narration against fragments of plain text…",
       "category": "Media & Transcription",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "format-citations-and-bibliographies-from-dois-urls-bibtex-and-cff-before-publishing",
@@ -4970,7 +4970,7 @@
       "description": "Uses helm-docs to rebuild Helm chart documentation from Chart.yaml, values.yaml, and inline comments so README files stay aligned with the actual chart. The agent…",
       "category": "Templates & Workflows",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "validate-kubernetes-manifests-against-upstream-schemas-before-cluster-apply",
@@ -5015,7 +5015,7 @@
       "description": "Uses jc to turn command output and supported file formats into structured JSON so an agent can filter, diff, validate, and store results without…",
       "category": "Data Extraction & Transformation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "load-mbox-mail-archives-into-sqlite-for-offline-search-audits-and-dataset-joins",
@@ -5033,7 +5033,7 @@
       "description": "Use waybackpack when an agent needs the full historical record for a URL, not a few clicks through the Wayback Machine UI. The agent…",
       "category": "Research & Scraping",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "compare-recurring-csv-tsv-or-json-exports-and-emit-row-level-change-sets-before-syncs",
@@ -5042,7 +5042,7 @@
       "description": "Use csv-diff when an agent needs to explain what changed between two structured exports, not just that the files differ. The agent lines records…",
       "category": "Data Extraction & Transformation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "mirror-github-issues-pull-requests-commits-and-releases-into-sqlite-for-offline-analysis",
@@ -5051,7 +5051,7 @@
       "description": "Use dogsheep/github-to-sqlite when an agent needs a local, queryable snapshot of GitHub activity instead of bouncing through the web UI or ad hoc API…",
       "category": "Integrations & Connectors",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "audit-linux-host-hardening-drift-before-exposing-ssh-or-rolling-to-production",
@@ -5069,7 +5069,7 @@
       "description": "Uses git-sizer to identify the specific size and history characteristics that make a repository painful to clone, fetch, repack, or work in. Use it…",
       "category": "Runbooks & Diagnostics",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files",
@@ -5087,7 +5087,7 @@
       "description": "Uses mitmproxy2swagger to turn captured mitmproxy flows or HAR exports into a first-pass OpenAPI document that an agent can refine, validate, and hand off…",
       "category": "Integrations & Connectors",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "add-shell-and-cli-smoke-tests-before-refactors-ship",
@@ -5105,7 +5105,7 @@
       "description": "Use Cruft when an agent needs to pull new changes from a Cookiecutter template into an existing generated repository without redoing the project from…",
       "category": "Templates & Workflows",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "audit-python-dependency-declarations-before-release",
@@ -5150,7 +5150,7 @@
       "description": "Uses extruct to pull machine-readable metadata from raw HTML so an agent can classify, deduplicate, or enrich pages without brittle full-page parsing. It is…",
       "category": "Research & Scraping",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "normalize-loudness-across-podcast-lesson-or-video-batches-before-publishing",
@@ -5159,7 +5159,7 @@
       "description": "Uses ffmpeg-normalize to batch-normalize audio levels so an agent can hand off consistent output without opening a DAW or touching every file by hand.…",
       "category": "Media & Transcription",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "orchestrate-stacked-git-branches-sync-safely-and-ship-pull-requests-in-order",
@@ -5168,7 +5168,7 @@
       "description": "Uses Git Town to keep a branch stack healthy by syncing with the main branch, rebasing dependent branches in order, opening or updating pull…",
       "category": "Templates & Workflows",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "audit-and-normalize-spdx-license-headers-before-releasing-or-open-sourcing-a-repository",
@@ -5186,7 +5186,7 @@
       "description": "Use git-filter-repo when an agent needs to surgically rewrite repository history after a leaked secret, a huge binary commit, or a bad subtree split.…",
       "category": "Runbooks & Diagnostics",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "validate-ci-and-app-config-files-against-upstream-json-schemas-before-merge",
@@ -5204,7 +5204,7 @@
       "description": "This ASE skill uses ghz to run repeatable gRPC load tests from proto files, protosets, or server reflection. An agent can replay request fixtures…",
       "category": "Runbooks & Diagnostics",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "audit-github-actions-workflows-for-insecure-permissions-and-unpinned-actions",
@@ -5213,7 +5213,7 @@
       "description": "This ASE skill uses zizmor to audit GitHub Actions workflows and composite actions for security mistakes before they ship. An agent can scan local…",
       "category": "Security & Verification",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "post-linter-and-analyzer-findings-back-into-pull-requests",
@@ -5222,7 +5222,7 @@
       "description": "This ASE skill uses reviewdog to turn linter and analyzer output into diff-aware pull request feedback. An agent can run existing checks, filter findings…",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "fix-failing-pull-requests-by-analyzing-ci-errors-and-pushing-targeted-repairs",
@@ -5231,7 +5231,7 @@
       "description": "Use GitHub Next's pr-fix workflow when a pull request is blocked on failing checks and the likely repair is machine-doable. The agent inspects CI…",
       "category": "Runbooks & Diagnostics",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "update-repository-docs-automatically-after-code-changes-and-open-review-prs",
@@ -5240,7 +5240,7 @@
       "description": "Use GitHub Next's update-docs workflow when code changes should trigger documentation maintenance instead of waiting for humans to remember it later. The agent analyzes…",
       "category": "CI/CD Integrations",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "co-author-structured-docs-with-staged-context-gathering-and-reader-testing",
@@ -5249,7 +5249,7 @@
       "description": "Use Anthropic's doc-coauthoring skill to run a disciplined writing workflow instead of freeform drafting. The agent gathers missing context, iterates section by section, and…",
       "category": "Templates & Workflows",
       "framework": "Claude Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "generate-reproducible-algorithmic-art-sketches-with-seeded-p5js-randomness",
@@ -5258,7 +5258,7 @@
       "description": "Use the Anthropic algorithmic-art skill when an agent should turn a creative brief into executable generative art, not into a static image prompt or…",
       "category": "Image & Creative Automation",
       "framework": "Claude Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "create-and-repair-word-documents-with-layout-safe-docx-workflows",
@@ -5267,7 +5267,7 @@
       "description": "Use the Anthropic docx skill when an agent needs to produce or repair a real .docx deliverable with headings, tables, numbering, tracked changes, or…",
       "category": "Templates & Workflows",
       "framework": "Claude Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas",
@@ -5276,7 +5276,7 @@
       "description": "Use the Anthropic xlsx skill when an agent needs to create, clean up, or modify .xlsx, .xlsm, .csv, or .tsv files as spreadsheet deliverables,…",
       "category": "Data Extraction & Transformation",
       "framework": "Claude Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6",
@@ -5285,7 +5285,7 @@
       "description": "Use har-to-k6 when an agent has recorded browser traffic and needs to turn it into a repeatable k6 script instead of hand-writing one from…",
       "category": "Templates & Workflows",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "review-visual-regression-diffs-and-publish-snapshot-baselines-in-ci-with-reg-suit",
@@ -5294,7 +5294,7 @@
       "description": "Use reg-suit when an agent needs to compare screenshot outputs against a stored baseline and publish a human-reviewable diff report. The skill is for…",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "prevent-broken-github-actions-workflows-before-ci-runs-with-actionlint",
@@ -5303,7 +5303,7 @@
       "description": "Use actionlint when an agent needs to inspect GitHub Actions workflow files before a push or pull request lands. The skill checks syntax, expressions,…",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "record-and-replay-http-fixtures-for-deterministic-python-tests-with-vcr-py",
@@ -5312,7 +5312,7 @@
       "description": "Use VCR.py when an agent needs to turn flaky, slow, or rate-limited Python tests into stable runs by recording real HTTP interactions once and…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "simulate-network-failures-in-integration-tests-with-toxiproxy",
@@ -5330,7 +5330,7 @@
       "description": "Uses htmltest to crawl generated documentation or static site output, detect broken internal and external links, and return a link-focused validation report before deploy.…",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "makefile-linting-ci-build-pipelines",
@@ -5339,7 +5339,7 @@
       "description": "Uses checkmake to inspect Makefiles for style issues, fragile targets, and maintainability problems before build automation breaks in CI. It is a narrow build-script…",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "template-linting-auto-formatting-django-jinja-repositories",
@@ -5348,7 +5348,7 @@
       "description": "Uses djLint to scan Django, Jinja, Nunjucks, Twig, and HTML templates for indentation problems, malformed tags, and style drift, then optionally rewrites them into…",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "extract-invoice-fields-from-vendor-pdfs-into-structured-records",
@@ -5375,7 +5375,7 @@
       "description": "Use Better Icons when an agent needs to search icon sets, compare matches, and return the exact SVG asset needed for a UI task.…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "drive-chrome-with-stable-accessibility-refs-for-repeatable-browser-automation",
@@ -5384,7 +5384,7 @@
       "description": "Use PinchTab when an agent needs repeatable browser automation with stable element references, persistent profiles, and low-token page inspection. It fits tasks where a…",
       "category": "Browser Automation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "extract-data-and-complete-workflows-in-your-real-logged-in-browser",
@@ -5402,7 +5402,7 @@
       "description": "Use Anthropic's internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs, leadership notes, and incident writeups. The skill is…",
       "category": "Templates & Workflows",
       "framework": "Claude Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "investigate-failing-github-actions-runs-with-ci-doctor-2",
@@ -5411,7 +5411,7 @@
       "description": "Use GitHub Next's CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and open investigation issues with concrete next…",
       "category": "CI/CD Integrations",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "draft-internal-status-updates-and-incident-comms",
@@ -5420,7 +5420,7 @@
       "description": "Use Anthropic's internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs, leadership notes, and incident writeups. The skill is…",
       "category": "Templates & Workflows",
       "framework": "Claude Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "investigate-failing-github-actions-runs-with-ci-doctor",
@@ -5429,7 +5429,7 @@
       "description": "Use GitHub Next's CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and open investigation issues with concrete next…",
       "category": "CI/CD Integrations",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "turn-github-issues-into-fix-prs",
@@ -5447,7 +5447,7 @@
       "description": "Use Nano-PDF when an agent needs to update existing PDF slides or insert matching new slides from plain-language instructions. The workflow is bounded to…",
       "category": "Image & Creative Automation",
       "framework": "OpenClaw",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "remove-ai-writing-fingerprints-from-draft-copy",
@@ -5456,7 +5456,7 @@
       "description": "Use humanizer to scan drafts for AI telltales, explain what sounds synthetic, and suggest grounded rewrites that preserve the original point. This is for…",
       "category": "Content Writing & SEO",
       "framework": "OpenClaw",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "extract-translation-keys-from-code-and-maintain-locale-catalogs-i18next-parser",
@@ -5465,7 +5465,7 @@
       "description": "Use i18next-parser when an agent needs to scan a codebase, find translation calls, and update locale resource files as part of localization maintenance. This…",
       "category": "Templates & Workflows",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "repair-malformed-json-before-parsing-downstream-automations-jsonrepair",
@@ -5474,7 +5474,7 @@
       "description": "Use jsonrepair when an agent receives JSON-like output that is almost valid but still breaks parsers, such as trailing commas, missing quotes, or concatenated…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "convert-docx-documents-into-clean-html-for-publishing-workflows-mammoth",
@@ -5483,7 +5483,7 @@
       "description": "Use Mammoth when an agent needs to turn a .docx file into simple HTML that preserves semantic structure instead of Word-specific styling. This is…",
       "category": "Data Extraction & Transformation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "render-git-diffs-as-shareable-html-review-reports-diff2html",
@@ -5492,7 +5492,7 @@
       "description": "Use Diff2Html when an agent needs to turn raw unified diffs into readable HTML artifacts for reviews, audits, or status updates. This is a…",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "extract-structured-data-and-attachments-from-raw-email-mailparser",
@@ -5501,7 +5501,7 @@
       "description": "Use MailParser when an agent receives raw RFC822 or MIME email and needs a normalized result with headers, text, HTML, addresses, and attachments. This…",
       "category": "Calendar, Email & Productivity",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "capture-responsive-website-screenshots-pageres",
@@ -5537,7 +5537,7 @@
       "description": "Use Schemathesis when an agent needs to turn an API schema into broad negative and edge-case coverage instead of hand-writing examples. The skill exercises…",
       "category": "Security & Verification",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "run-wordpress-site-operations-safely-with-wp-cli-targeting-and-rollback-guardrails",
@@ -5546,7 +5546,7 @@
       "description": "Uses the WordPress wp-wpcli-and-ops skill to guide an agent through environment-aware WP-CLI work like search-replace, plugin or theme operations, cron inspection, and multisite-safe targeting.…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "build-and-debug-custom-wordpress-rest-api-endpoints-with-schema-and-permission-guardrails",
@@ -5555,7 +5555,7 @@
       "description": "Uses the WordPress wp-rest-api skill to help an agent design, register, validate, and troubleshoot custom REST routes without skipping schema, auth, or permission_callback details.…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "develop-and-harden-wordpress-plugins-with-lifecycle-and-security-guardrails",
@@ -5564,7 +5564,7 @@
       "description": "Use Automattic's official wp-plugin-development skill when an agent needs to build, refactor, secure, or package a WordPress plugin with correct activation hooks, settings handling,…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "improve-qdrant-vector-search-relevance-and-retrieval-quality",
@@ -5582,7 +5582,7 @@
       "description": "Use Greensock's official gsap-scrolltrigger skill to plan, implement, and debug scroll-linked animations, pinned sections, and scrubbed storytelling without guessing at plugin setup. The agent…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "regression-test-prompts-agents-and-rag-outputs-before-shipping-changes",
@@ -5609,7 +5609,7 @@
       "description": "Use GitHub Agentic Workflows to let an agent triage issues, inspect CI failures, or deliver scheduled repository upkeep inside GitHub Actions with explicit workflow…",
       "category": "Templates & Workflows",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "build-and-debug-interactive-wordpress-frontends-with-data-wp-directives",
@@ -5618,7 +5618,7 @@
       "description": "This skill helps an agent create or troubleshoot WordPress Interactivity API behavior, from store wiring to server-rendered state and hydration checks. Use it when…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "investigate-backend-only-wordpress-performance-bottlenecks",
@@ -5627,7 +5627,7 @@
       "description": "This skill guides an agent through measuring, profiling, and narrowing slow WordPress behavior without relying on browser clicks. Use it when the job is…",
       "category": "Runbooks & Diagnostics",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "diagnose-wordpress-repo-structure-and-route-follow-up-work-safely",
@@ -5636,7 +5636,7 @@
       "description": "This skill inspects a WordPress codebase, identifies what kind of project it is, and returns the signals an agent needs before touching files or…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "check-current-weather-and-short-forecasts-for-planning",
@@ -5645,7 +5645,7 @@
       "description": "This skill lets an agent fetch current conditions and short forecasts with a lightweight weather workflow instead of sending a user to a weather…",
       "category": "Calendar, Email & Productivity",
       "framework": "OpenClaw",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "audit-openclaw-host-security-posture-and-hardening-gaps",
@@ -5654,7 +5654,7 @@
       "description": "This skill uses OpenClaw's healthcheck workflow to inspect the host running the assistant, surface risky exposure, and turn the findings into a staged hardening…",
       "category": "Security & Verification",
       "framework": "OpenClaw",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "diagnose-openclaw-node-pairing-and-route-failures",
@@ -5690,7 +5690,7 @@
       "description": "Use this skill when an agent needs to lint a package before publish, catch broken exports or manifest issues, and explain exactly what will…",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "msw-api-mocking-skill-frontend-integration-tests",
@@ -5708,7 +5708,7 @@
       "description": "Use this skill when an agent needs to regenerate a typed API client from an OpenAPI spec, keep fetch clients aligned with backend schema…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "openmeter-usage-metering-and-billing-platform",
@@ -5735,7 +5735,7 @@
       "description": "SigNoz is an open-source observability platform built around OpenTelemetry for logs, metrics, and traces in one place. It is a practical fit when you…",
       "category": "Monitoring & Alerts",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "vitepress-documentation-site-generator",
@@ -5753,7 +5753,7 @@
       "description": "CSpell is a spell checker built for source code, configuration files, and documentation, with dictionaries and ignore mechanisms that work well in real repositories.…",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "danger-js-pull-request-automation-toolkit",
@@ -5762,7 +5762,7 @@
       "description": "Danger JS automates pull request review chores by running programmable checks inside CI and posting structured feedback back to GitHub, GitLab, and other code…",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "nango-integration-platform-sdk",
@@ -5780,7 +5780,7 @@
       "description": "Unstructured is an open source document ETL toolkit for converting PDFs, HTML, emails, and office files into structured data. This skill covers how to…",
       "category": "Data Extraction & Transformation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "stagehand-browser-automation-sdk",
@@ -5789,7 +5789,7 @@
       "description": "Stagehand is Browserbase's browser automation SDK for combining natural-language actions with deterministic browser code. This skill covers how to use the real Stagehand project…",
       "category": "Browser Automation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "mcp-wordpress-server-docdyhr",
@@ -5807,7 +5807,7 @@
       "description": "An ASE skill built on Checkmate, the open source self-hosted monitoring platform for uptime, incidents, response times, and infrastructure visibility. It fits agent workflows…",
       "category": "Monitoring & Alerts",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "upptime-github-actions-uptime-monitor-status-page",
@@ -5816,7 +5816,7 @@
       "description": "An ASE skill built around Upptime, the open source uptime monitor and status page system powered by GitHub Actions, Issues, and Pages. It is…",
       "category": "Monitoring & Alerts",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "mailgun-javascript-sdk-email-delivery-and-domain-operations-2",
@@ -5825,7 +5825,7 @@
       "description": "An ASE skill built around the official Mailgun JavaScript SDK for sending email and managing Mailgun API workflows from Node.js. It fits agent tasks…",
       "category": "Calendar, Email & Productivity",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "mailgun-javascript-sdk-email-delivery-and-domain-operations",
@@ -5834,7 +5834,7 @@
       "description": "An ASE skill built around the official Mailgun JavaScript SDK for sending email and managing Mailgun API workflows from Node.js. It fits agent tasks…",
       "category": "Calendar, Email & Productivity",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "mailtrap-nodejs-sdk-transactional-and-sandbox-email",
@@ -5843,7 +5843,7 @@
       "description": "An ASE skill built on the official Mailtrap Node.js SDK for sending transactional email and working with Mailtrap sandbox or production flows. It is…",
       "category": "Calendar, Email & Productivity",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "cartesia-javascript-sdk-low-latency-voice-generation",
@@ -5852,7 +5852,7 @@
       "description": "An ASE skill built around the official Cartesia JavaScript SDK for text-to-speech and voice API workflows. It is a strong fit for agents that…",
       "category": "Media & Transcription",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "mux-node-sdk-video-and-streaming-api-workflows",
@@ -5978,7 +5978,7 @@
       "description": "An ASE skill built around ACF Extended, the WordPress enhancement suite for Advanced Custom Fields that adds field types, admin improvements, front-end forms, options…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "wpgraphql-smart-cache-headless-wordpress",
@@ -5987,7 +5987,7 @@
       "description": "An ASE skill built around WPGraphQL Smart Cache, the open source WordPress plugin for caching WPGraphQL queries and invalidating them when content changes. It…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "apostrophecms-full-stack-nodejs-cms-in-context-editing",
@@ -6032,7 +6032,7 @@
       "description": "Amplication is an open source developer platform for generating production-ready backend services and scaffolding from a visual workflow. This skill fits agents that need…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "affine-knowledge-base-collaborative-workspace-platform",
@@ -6077,7 +6077,7 @@
       "description": "Temporal CLI runs a local Temporal server and talks to workflows, activities, and namespaces. It is the practical command-line companion for Temporal development and…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "sops-secret-file-encryption-rotation",
@@ -6095,7 +6095,7 @@
       "description": "Trivy is Aqua Security’s scanner for vulnerabilities, misconfigurations, secrets, SBOMs, and license issues. It fits security review, container hygiene, and infrastructure-as-code checks in one…",
       "category": "Security & Verification",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "k6-load-testing-cli-javascript-performance-scenarios",
@@ -6104,7 +6104,7 @@
       "description": "k6 is a modern load testing tool for writing performance checks in JavaScript. It fits CI, developer testing, and observability workflows where repeatable load…",
       "category": "Monitoring & Alerts",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "supabase-cli-local-development-database-migrations",
@@ -6131,7 +6131,7 @@
       "description": "faster-whisper is SYSTRAN’s high-performance reimplementation of OpenAI Whisper on top of CTranslate2. It is built for transcription pipelines that need lower latency, lower memory…",
       "category": "Media & Transcription",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "yoast-seo-wordpress-search-optimization-plugin",
@@ -6167,7 +6167,7 @@
       "description": "Linkwarden is an open source bookmark and web archiving platform for saving, organizing, and preserving research material. It captures screenshots, PDFs, and archived page…",
       "category": "Research & Scraping",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "gatus-endpoint-monitoring-status-page-platform",
@@ -6185,7 +6185,7 @@
       "description": "Gotenberg is a Docker-based API for converting HTML, URLs, Markdown, and office documents into PDF, then performing post-processing tasks such as merge, split, watermark,…",
       "category": "Library & API Reference",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "goatcounter-privacy-first-web-analytics-platform",
@@ -6257,7 +6257,7 @@
       "description": "Unstructured is an open source document processing library that converts PDFs, HTML, Office files, emails, and other formats into structured data for downstream AI…",
       "category": "Data Extraction & Transformation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "stagehand-browser-agent-sdk",
@@ -6266,7 +6266,7 @@
       "description": "Stagehand is Browserbase's open source SDK for browser agents, combining code-first control with natural language actions. It is aimed at reliable production browser automation,…",
       "category": "Browser Automation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "browser-use-agentic-browser-control",
@@ -6284,7 +6284,7 @@
       "description": "Tesseract OCR is a widely used open source optical character recognition engine with command line and library interfaces. It can extract text from images…",
       "category": "Media & Transcription",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "docling-document-parsing-and-conversion-toolkit",
@@ -6293,7 +6293,7 @@
       "description": "Docling is an open source document processing toolkit that converts PDFs, Office files, HTML, images, audio, and more into structured outputs for AI workflows.…",
       "category": "Data Extraction & Transformation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "crawlee-web-crawling-and-scraping-sdk",
@@ -6302,7 +6302,7 @@
       "description": "Crawlee is Apify's open source web crawling and scraping library for Node.js. It combines request queueing, browser automation, proxy support, and storage primitives so…",
       "category": "Research & Scraping",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "crawl4ai-open-source-web-crawling-and-markdown-extraction",
@@ -6329,7 +6329,7 @@
       "description": "WP-CLI is the official command-line interface for WordPress, maintained as an open source project with extensive command docs and release history. It gives agents…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "metabase-open-source-business-intelligence-and-embedded-analytics",
@@ -6356,7 +6356,7 @@
       "description": "Uptime Kuma is an open source uptime monitor for HTTP, TCP, ping, DNS, Docker, and keyword checks. It gives agents a concrete way to…",
       "category": "Monitoring & Alerts",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "agentql-natural-language-web-query-sdk-extraction-automation",
@@ -6365,7 +6365,7 @@
       "description": "AgentQL is TinyFish's web automation and extraction toolkit that layers a natural-language query system on top of live sites. Its Python and JavaScript SDKs…",
       "category": "Research & Scraping",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "playwright-python-browser-automation-library-cross-browser-testing",
@@ -6374,7 +6374,7 @@
       "description": "Playwright for Python is Microsoft's cross-browser automation library for Chromium, Firefox, and WebKit. It gives agents and test systems one API for navigation, screenshots,…",
       "category": "Browser Automation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "logfire-python-observability-sdk-llm-agent-tracing",
@@ -6401,7 +6401,7 @@
       "description": "WorkOS AuthKit is a real authentication toolkit for Next.js applications. It gives agents a concrete integration target for login, sessions, RBAC, SSO, MFA, and…",
       "category": "Security & Verification",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "better-auth-authentication-framework-typescript-applications",
@@ -6437,7 +6437,7 @@
       "description": "OCRmyPDF is an open source tool that adds a searchable OCR text layer to scanned PDFs. It is useful when an agent needs to…",
       "category": "Media & Transcription",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "renovate-automated-dependency-update-bot-and-cli",
@@ -6455,7 +6455,7 @@
       "description": "Lightning CSS is a Rust-based CSS parser, transformer, bundler, and minifier from the Parcel team. This skill is for agents that need to optimize…",
       "category": "Library & API Reference",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "postmarkjs-email-delivery-api-transactional-messaging",
@@ -6464,7 +6464,7 @@
       "description": "postmark.js is the official Node.js library for the Postmark API, used to send transactional email, templates, and message streams from code. It is a…",
       "category": "Calendar, Email & Productivity",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "cronitor-cli-cron-monitoring-job-telemetry",
@@ -6473,7 +6473,7 @@
       "description": "CronitorCLI is Cronitor's open-source command-line tool for syncing cron jobs, sending telemetry pings, and wrapping commands with execution monitoring. It fits monitoring-heavy agent runbooks…",
       "category": "Monitoring & Alerts",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "hookdeck-cli-webhook-development-event-debugging",
@@ -6482,7 +6482,7 @@
       "description": "Hookdeck CLI is Hookdeck's official command-line tool for forwarding webhooks to localhost, managing event gateway resources, and running an MCP server for agent workflows.…",
       "category": "Integrations & Connectors",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "bright-data-web-mcp-live-web-access-scraping-tools",
@@ -6491,7 +6491,7 @@
       "description": "Bright Data Web MCP gives MCP-compatible agents live web search, scraping, and optional browser-automation access through Bright Data’s web-access platform. It is built for…",
       "category": "Research & Scraping",
       "framework": "MCP",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "chrome-mcp-server-extension-based-browser-automation-ai-agents",
@@ -6545,7 +6545,7 @@
       "description": "Linkup's JS SDK wraps the Linkup API for sourced web search and clean content fetching. It gives agents a maintained client for standard and…",
       "category": "Library & API Reference",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "exa-js-web-search-sdk-ai-applications",
@@ -6572,7 +6572,7 @@
       "description": "Remotion is a framework for making videos programmatically with React. It lets agents and developers generate branded videos, social clips, explainers, and template-based renders…",
       "category": "Image & Creative Automation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "scrapy-python-web-crawling-structured-data-extraction-framework",
@@ -6590,7 +6590,7 @@
       "description": "Cypress is an open-source browser testing framework for end-to-end, component, and accessibility testing in modern web apps. It gives agents and developers a reliable…",
       "category": "Browser Automation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "ai-engine-wordpress-mcp-server-and-ai-automation",
@@ -6635,7 +6635,7 @@
       "description": "Browserbase MCP Server gives agents cloud browser control through Browserbase and Stagehand, with both hosted HTTP and self-hosted stdio options. It suits teams that…",
       "category": "Browser Automation",
       "framework": "MCP",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "automattic-wordpress-remote-mcp",
@@ -6644,7 +6644,7 @@
       "description": "Automattic WordPress Remote MCP connects MCP clients to live WordPress sites using OAuth, JWT, or application passwords. It is aimed at agents that need…",
       "category": "WordPress & CMS",
       "framework": "MCP",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "microsoft-playwright-mcp",
@@ -6662,7 +6662,7 @@
       "description": "SearXNG is an open-source metasearch engine that aggregates results from multiple search providers without tracking users. It fits research and scraping workflows that need…",
       "category": "Research & Scraping",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "taiko-smart-selector-browser-automation-nodejs",
@@ -6671,7 +6671,7 @@
       "description": "Taiko is a Node.js browser automation framework from the Gauge and Thoughtworks ecosystem. Its smart selectors and REPL-driven recorder make it useful for readable…",
       "category": "Browser Automation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "wpgraphql-for-acf-wordpress-graphql-field-mapping",
@@ -6707,7 +6707,7 @@
       "description": "Automates repository administration, pull request workflows, issue triage, and release operations against Gitea using its REST API and webhook system. Useful for self-hosted software…",
       "category": "Integrations & Connectors",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "prismic-headless-cms-content-api-client",
@@ -6725,7 +6725,7 @@
       "description": "ffsubsync automatically aligns subtitle files to spoken audio by analyzing timing from a reference video or audio file. It is a strong fit for…",
       "category": "Media & Transcription",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "playwright-extra-browser-automation-plugins",
@@ -6734,7 +6734,7 @@
       "description": "Playwright Extra adds a plugin layer on top of Microsoft Playwright so agents can reuse stealth, CAPTCHA handling, and custom browser hooks instead of…",
       "category": "Browser Automation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "docling-document-parsing-and-conversion",
@@ -6779,7 +6779,7 @@
       "description": "Use Miniflux to run a minimalist self-hosted feed reader with a clean web UI, webhooks, and API integrations. This skill helps agents subscribe to…",
       "category": "Calendar, Email & Productivity",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "fumadocs-react-documentation-framework-and-docs-site-generator",
@@ -6788,7 +6788,7 @@
       "description": "Build and maintain documentation websites with Fumadocs, the React-based docs framework published by the fuma-nama project. This skill helps an agent scaffold docs pages,…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "crawl4ai-llm-friendly-web-crawler",
@@ -6806,7 +6806,7 @@
       "description": "Use Firecrawl to search, scrape, crawl, and interact with the web through an API built for AI agents. It returns clean markdown, structured JSON,…",
       "category": "Research & Scraping",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "stagehand-ai-browser-automation-framework-2",
@@ -6860,7 +6860,7 @@
       "description": "Apache Superset is a widely adopted open-source BI platform for SQL exploration, chart building, and dashboard delivery. This skill is useful when an agent…",
       "category": "Data Extraction & Transformation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "openmetadata-data-catalog-governance-platform-agent-discovery",
@@ -6869,7 +6869,7 @@
       "description": "OpenMetadata provides a central metadata layer for data discovery, lineage, quality, ownership, and governance. This skill helps agents answer questions about tables, dashboards, pipelines,…",
       "category": "Library & API Reference",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "hasura-graphql-engine-instant-api-database-automation",
@@ -6878,7 +6878,7 @@
       "description": "Hasura turns Postgres and other supported data sources into a production-ready GraphQL API with realtime subscriptions, event triggers, and role-based permissions. This skill is…",
       "category": "Library & API Reference",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "penpot-open-source-design-collaboration-platform",
@@ -6932,7 +6932,7 @@
       "description": "Langflow is an open-source visual builder for AI agents and workflows. It lets teams design flows graphically, expose them as APIs or MCP tools,…",
       "category": "Templates & Workflows",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "langfuse-prompt-management-mcp-server",
@@ -6977,7 +6977,7 @@
       "description": "n8n-nodes-mcp is a real n8n community node that lets self-hosted n8n instances connect to Model Context Protocol servers. This skill covers installing the package,…",
       "category": "Integrations & Connectors",
       "framework": "MCP",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "whishper-self-hosted-speech-to-text-audio-workflow-skill",
@@ -6986,7 +6986,7 @@
       "description": "Whishper is an open source self-hosted web app for speech-to-text, translation, and subtitle workflows built around Whisper models. This skill covers running Whishper with…",
       "category": "Media & Transcription",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "decap-cms-git-based-content-management-system-for-static-sites",
@@ -6995,7 +6995,7 @@
       "description": "Decap CMS is a Git-based content management system for static site generators. It provides an admin UI at /admin, authenticates against Git-backed backends, and…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "maildev-smtp-testing-server-and-web-interface-for-development-email-workflows",
@@ -7013,7 +7013,7 @@
       "description": "Crawlee is Apify’s open source crawling and scraping framework for Node.js. It unifies HTTP scraping and browser automation, adds queues, storage, retries, proxies, and…",
       "category": "Research & Scraping",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "google-workspace-cli-gws",
@@ -7103,7 +7103,7 @@
       "description": "Octokit is GitHub’s JavaScript SDK family for REST API requests, GraphQL queries, authentication, webhooks, and GitHub App workflows. It gives agents and automation systems…",
       "category": "Library & API Reference",
       "framework": "Multi-Framework",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "colly-golang-web-scraper-crawler-framework",
@@ -7166,7 +7166,7 @@
       "description": "llamafile by Mozilla bundles open-source LLMs into a single portable executable that runs locally on macOS, Windows, Linux, and BSD with zero installation. It…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "tera-rust-template-engine",
@@ -7220,7 +7220,7 @@
       "description": "Lip Gloss by Charmbracelet is a Go library that brings CSS-like declarative styling to terminal UIs. With 11,000+ GitHub stars, it provides expressive color…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "planka-self-hosted-kanban-board-project-management",
@@ -7364,7 +7364,7 @@
       "description": "Formbricks is an open source survey platform and privacy-first experience management solution. Create in-app, website, link, and email surveys to gather user and customer…",
       "category": "Integrations & Connectors",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "ghostfolio-wealth-management-portfolio-tracking",
@@ -7598,7 +7598,7 @@
       "description": "Garden is a DevOps automation tool for developing and testing Kubernetes apps faster. It spins up production-like environments on demand, provides smart build caching…",
       "category": "CI/CD Integrations",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "quickwit-cloud-native-search-engine-observability",
@@ -7841,7 +7841,7 @@
       "description": "Unkey is an open-source developer platform for managing API keys, rate limiting, and usage analytics. It provides a fast, globally distributed key verification system…",
       "category": "Security & Verification",
       "framework": "Custom Agents",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "writingtools-system-wide-ai-grammar-assistant",
@@ -7922,7 +7922,7 @@
       "description": "Dioxus is a fullstack app framework for Rust that enables building cross-platform applications for web, desktop, and mobile from a single codebase. With 24k+…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "markdownify-python-html-to-markdown-converter",
@@ -8021,7 +8021,7 @@
       "description": "Penrose is an open-source platform that creates beautiful mathematical and scientific diagrams from plain text notation. Define domain concepts, write substance programs, and apply…",
       "category": "Image & Creative Automation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "convex-reactive-database-backend",
@@ -8138,7 +8138,7 @@
       "description": "Papermark is an open-source alternative to DocSend for secure document sharing with built-in page-by-page analytics, custom branding, custom domains, and self-hosting support. Built with…",
       "category": "Integrations & Connectors",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "tabby-self-hosted-ai-coding-assistant",
@@ -8147,7 +8147,7 @@
       "description": "Tabby is an open-source, self-hosted AI coding assistant that serves as an on-premises alternative to GitHub Copilot. It provides code completion and chat capabilities…",
       "category": "Developer Tools",
       "framework": "Custom Agents",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "xan-simd-csv-processing-cli",
@@ -8192,7 +8192,7 @@
       "description": "Ollama runs large language models locally with a simple CLI and REST API. It supports hundreds of open models including Llama, Gemma, Qwen, and…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "devbox-nix-development-environment-jetify",
@@ -8489,7 +8489,7 @@
       "description": "Chafa converts images, animated GIFs, and video frames into ANSI/Unicode character art or terminal graphics protocols (Sixel, Kitty, iTerm2) for display in any terminal.…",
       "category": "Image & Creative Automation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "testcontainers-node-throwaway-docker-integration-testing",
@@ -8570,7 +8570,7 @@
       "description": "Gitingest turns a Git repository into a prompt-friendly text bundle that agents and LLM workflows can inspect quickly. It can be used as a…",
       "category": "Data Extraction & Transformation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "healthchecks-io-cron-job-monitoring-alerting-platform",
@@ -8606,7 +8606,7 @@
       "description": "SeleniumBase is a Python framework for browser automation, end-to-end testing, and stealthy web interaction. It layers pytest-friendly test structure, browser control, reporting, and anti-bot-aware…",
       "category": "Browser Automation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "contact-form-7-wordpress-form-builder-mail-integration",
@@ -8615,7 +8615,7 @@
       "description": "Contact Form 7 is the long-running WordPress forms plugin from Rock Lobster Inc., with more than 10 million active installs and official documentation at…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "rank-math-seo-plugin-wordpress-search-optimization",
@@ -8876,7 +8876,7 @@
       "description": "Mautic is the world's largest open-source marketing automation platform with 7.9K+ GitHub stars. It provides email campaign management, lead scoring, contact segmentation, landing pages,…",
       "category": "Calendar, Email & Productivity",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "stalwart-mail-collaboration-server",
@@ -8993,7 +8993,7 @@
       "description": "Docusaurus is an open-source static site generator built with React, developed and maintained by Meta. It enables teams to build, deploy, and maintain documentation…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "mdbook-markdown-book-generator-rust",
@@ -9038,7 +9038,7 @@
       "description": "Crush is a terminal-native AI coding agent built by Charmbracelet that connects your code, tools, and workflows to any LLM. It supports multi-model switching…",
       "category": "Developer Tools",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "pages-cms-github-content-management",
@@ -9083,7 +9083,7 @@
       "description": "Grist is an open-source modern relational spreadsheet that combines the flexibility of a spreadsheet with the robustness of a database. It supports Python formulas,…",
       "category": "Data Extraction & Transformation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "dagger-programmable-cicd-automation-engine",
@@ -9092,7 +9092,7 @@
       "description": "Dagger is an open-source automation engine for building, testing, and shipping any codebase. It replaces shell scripts and proprietary YAML with real code using…",
       "category": "CI/CD Integrations",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "skyvern-ai-browser-workflow-automation",
@@ -9218,7 +9218,7 @@
       "description": "pastel is a command-line tool for generating, analyzing, converting, and manipulating colors. Built in Rust by the creator of bat, fd, and hyperfine, it…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "timewarrior-command-line-time-tracking-reporting",
@@ -9335,7 +9335,7 @@
       "description": "Newsboat is an actively maintained RSS/Atom feed reader for the text console. A fork of the discontinued Newsbeuter, it provides a fast, keyboard-driven interface…",
       "category": "Data Extraction & Transformation",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "monolith-web-page-single-file-archiver",
@@ -9452,7 +9452,7 @@
       "description": "mitmproxy is an interactive, SSL/TLS-capable intercepting HTTP proxy for penetration testers and software developers. It supports HTTP/1, HTTP/2, HTTP/3, and WebSockets, offering console, command-line,…",
       "category": "Security & Verification",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "pocketbase-open-source-realtime-backend-single-binary",
@@ -9461,7 +9461,7 @@
       "description": "PocketBase is an open-source Go backend that ships as a single portable executable. It includes an embedded SQLite database with realtime subscriptions, built-in file…",
       "category": "Developer Tools",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "open-interpreter-natural-language-computer-interface",
@@ -9470,7 +9470,7 @@
       "description": "Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more) through a ChatGPT-like terminal interface. It provides a natural-language interface to your…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "surya-document-ocr-layout-analysis-table-recognition",
@@ -9479,7 +9479,7 @@
       "description": "Surya is a document OCR toolkit by Datalab that performs OCR in 90+ languages, line-level text detection, layout analysis, reading order detection, table recognition,…",
       "category": "Data Extraction & Transformation",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "paddleocr-multilingual-document-ocr-toolkit",
@@ -9488,7 +9488,7 @@
       "description": "PaddleOCR is a powerful, lightweight OCR toolkit developed by Baidu that converts documents and images into structured, AI-friendly data like JSON and Markdown. It…",
       "category": "Data Extraction & Transformation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "libvips-high-performance-image-processing-library-cli",
@@ -9641,7 +9641,7 @@
       "description": "vdirsyncer is a command-line tool for synchronizing calendars and addressbooks between servers and the local filesystem via CalDAV and CardDAV protocols. It bridges remote…",
       "category": "Calendar, Email & Productivity",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "calcurse-text-calendar-scheduling",
@@ -9659,7 +9659,7 @@
       "description": "Rallly is an open-source scheduling and collaboration tool that makes organizing group meetings effortless. Create meeting polls to find the best date and time…",
       "category": "Calendar, Email & Productivity",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "exiftool-metadata-reader-writer-images-files",
@@ -9668,7 +9668,7 @@
       "description": "ExifTool by Phil Harvey is a comprehensive Perl-based CLI tool for reading, writing, and editing metadata in over 400 file types. It extracts EXIF,…",
       "category": "Data Extraction & Transformation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "caddy-automatic-https-web-server-reverse-proxy",
@@ -9731,7 +9731,7 @@
       "description": "Maigret collects a dossier on a person by username only, checking for accounts on over 3000 sites and gathering available information from web pages.…",
       "category": "Research & Scraping",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "sherlock-social-media-username-hunter",
@@ -9749,7 +9749,7 @@
       "description": "Faust.js by WP Engine is a JavaScript framework and WordPress plugin that streamlines building headless WordPress sites with Next.js. It handles data fetching via…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "textstat-python-readability-statistics-calculator",
@@ -9758,7 +9758,7 @@
       "description": "textstat is a Python package that calculates readability statistics for text content, including Flesch Reading Ease, Gunning Fog Index, SMOG Index, Coleman-Liau Index, and…",
       "category": "Content Writing & SEO",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "theharvester-osint-email-subdomain-intelligence",
@@ -9866,7 +9866,7 @@
       "description": "An agent skill built on Front Matter CMS, the headless content management system that runs directly inside Visual Studio Code. Manages content for static…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "decap-cms-git-based-content-management-static-sites",
@@ -9875,7 +9875,7 @@
       "description": "An agent skill built on Decap CMS (formerly Netlify CMS), the open-source Git-based content management system for static site generators. Provides a visual editing…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "svgo-svg-optimization-tool",
@@ -9911,7 +9911,7 @@
       "description": "An agent skill that leverages Thumbor, the open-source smart image processing service by Globo.com, to perform on-demand image cropping, resizing, and filtering with intelligent…",
       "category": "Image & Creative Automation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "khal-cli-calendar-application-caldav",
@@ -10001,7 +10001,7 @@
       "description": "TinaCMS is a fully open-source headless CMS backed by Git that supports Markdown, MDX, JSON, and YAML content. It provides a GraphQL API for…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "spiderfoot-osint-automation-framework",
@@ -10028,7 +10028,7 @@
       "description": "Integrate Navidrome's self-hosted music server into AI agent workflows. Agents can manage music libraries, create playlists, control playback, and search collections through the Subsonic-compatible…",
       "category": "Media & Transcription",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "audiobookshelf-self-hosted-audiobook-podcast-server-api",
@@ -10064,7 +10064,7 @@
       "description": "SiteOne Crawler is a real website crawler and analyzer for technical SEO, accessibility, security, and performance checks. This skill uses the upstream SiteOne Crawler…",
       "category": "Content Writing & SEO",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "yoast-seo-wordpress-optimization-toolkit",
@@ -10073,7 +10073,7 @@
       "description": "Yoast SEO is one of the most widely deployed WordPress SEO plugins, and this skill turns its real analysis surface into a practical workflow…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "pa11y-accessibility-testing-cli-and-ci",
@@ -10082,7 +10082,7 @@
       "description": "Pa11y is a real open-source accessibility testing tool that lets agents audit pages for WCAG issues from the command line or in CI. This…",
       "category": "Browser Automation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "backstopjs-visual-regression-testing-automation",
@@ -10091,7 +10091,7 @@
       "description": "BackstopJS gives agents a repeatable way to capture reference screenshots, compare UI states, and flag visual regressions before changes ship. This skill centers on…",
       "category": "Browser Automation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "posthog-product-analytics-and-feature-flags-sdk",
@@ -10127,7 +10127,7 @@
       "description": "Use the Contentful Management API and JavaScript SDK to create, update, validate, and publish entries, assets, content models, and environments in a headless CMS…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "browserbase-session-automation-api-and-sdk",
@@ -10154,7 +10154,7 @@
       "description": "The Ghost Admin API exposes authenticated operations for posts, pages, tags, members, offers, and newsletter publishing. This skill gives agents a concrete workflow for…",
       "category": "WordPress & CMS",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "sanity-structured-content-studio-content-lake",
@@ -10172,7 +10172,7 @@
       "description": "Unlighthouse runs Google Lighthouse across an entire site instead of just a single page. This skill gives agents a repeatable way to crawl URLs,…",
       "category": "Content Writing & SEO",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "browserable-self-hostable-browser-automation-ai-agents",
@@ -10181,7 +10181,7 @@
       "description": "Browserable is an open-source, self-hostable browser automation library built for AI agents. This skill turns Browserable into a repeatable workflow for navigation, form filling,…",
       "category": "Browser Automation",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "write-good-english-prose-linting-technical-content",
@@ -10190,7 +10190,7 @@
       "description": "This skill uses write-good to flag vague, wordy, or hard-to-read English prose in documentation and content drafts. It is useful when a team wants…",
       "category": "Content Writing & SEO",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "markdownlint-cli2-markdown-linting-docs-repos",
@@ -10244,7 +10244,7 @@
       "description": "Builds headless WordPress workflows around WPGraphQL, the open-source GraphQL API plugin for WordPress. Useful for querying posts, custom post types, menus, taxonomies, and custom…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "wp-cli-command-line-interface-wordpress",
@@ -10262,7 +10262,7 @@
       "description": "Trellis is a collection of Ansible playbooks for provisioning and deploying WordPress LEMP stack servers. It automates Nginx, PHP, MariaDB, Let's Encrypt SSL, fail2ban,…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "bedrock-wordpress-composer-boilerplate-roots",
@@ -10271,7 +10271,7 @@
       "description": "Bedrock is a WordPress boilerplate with Composer-based dependency management, environment-specific configuration via .env files, and an improved folder structure. It separates WordPress core from…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "moviepy-python-video-editing-library",
@@ -10451,7 +10451,7 @@
       "description": "Payload is an open-source, TypeScript-first headless CMS that installs directly into a Next.js application. It provides a full admin panel, REST and GraphQL APIs,…",
       "category": "WordPress & CMS",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "strapi-headless-cms-rest-graphql",
@@ -10586,7 +10586,7 @@
       "description": "yt-dlp is a powerful command-line tool for downloading audio and video from thousands of websites including YouTube, Vimeo, and social media platforms. It supports…",
       "category": "Media & Transcription",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "wpscan-wordpress-security-vulnerability-scanner",
@@ -10595,7 +10595,7 @@
       "description": "WPScan is an open-source WordPress security scanner that detects vulnerabilities in plugins, themes, and core installations. It checks for known CVEs, weak passwords, exposed…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "google-workspace-mcp-server-gmail-calendar-drive",
@@ -10622,7 +10622,7 @@
       "description": "Desktop Commander is an MCP server that gives AI assistants terminal command execution, file system search, diff-based file editing, and process management capabilities. It…",
       "category": "Developer Tools",
       "framework": "MCP",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "atlassian-mcp-server-jira-confluence",
@@ -10685,7 +10685,7 @@
       "description": "TypeDoc is the standard documentation generator for TypeScript projects. It reads TypeScript source code and JSDoc comments to produce structured HTML documentation or JSON…",
       "category": "Library & API Reference",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "snyk-agent-scan-mcp-skill-security-scanner",
@@ -10703,7 +10703,7 @@
       "description": "Nuclei is a high-performance vulnerability scanner by ProjectDiscovery that uses simple YAML-based templates to detect security issues across applications, APIs, networks, DNS, and cloud…",
       "category": "Security & Verification",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "devdocs-unified-api-documentation-browser",
@@ -10712,7 +10712,7 @@
       "description": "DevDocs aggregates 500+ API documentation sets into a single searchable interface with instant fuzzy search, offline support, and keyboard navigation. Maintained by freeCodeCamp with…",
       "category": "Library & API Reference",
       "framework": "Custom Agents",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "supergateway-mcp-transport-bridge",
@@ -10757,7 +10757,7 @@
       "description": "Airbyte is the leading open-source data integration platform providing 600+ pre-built connectors for ELT pipelines from APIs, databases, and files to data warehouses, lakes,…",
       "category": "Integrations & Connectors",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "redoc-openapi-documentation-renderer",
@@ -10766,7 +10766,7 @@
       "description": "Redoc is an open-source tool by Redocly for generating beautiful, three-panel API reference documentation from OpenAPI specifications. With 25,000+ GitHub stars and nearly 1…",
       "category": "Library & API Reference",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "trigger-dev-typescript-background-jobs-platform",
@@ -10775,7 +10775,7 @@
       "description": "Trigger.dev is an open-source platform for building and deploying long-running background tasks, AI agents, and durable workflows in TypeScript. It provides managed infrastructure with…",
       "category": "Developer Tools",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "activepieces-open-source-workflow-automation",
@@ -10919,7 +10919,7 @@
       "description": "Jujutsu (jj) is a powerful Git-compatible version control system that reimagines VCS workflows with automatic rebasing, first-class conflict tracking, and operation-log undo. Built in…",
       "category": "Developer Tools",
       "framework": "OpenClaw",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "topgrade-universal-system-package-updater",
@@ -10955,7 +10955,7 @@
       "description": "Hurl is a command-line tool for running and testing HTTP requests defined in plain text files. Built on libcurl, it supports chaining multiple requests,…",
       "category": "Developer Tools",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "notion-mcp-server-ai-workspace-integration",
@@ -10991,7 +10991,7 @@
       "description": "Volta is a JavaScript toolchain manager written in Rust that pins Node.js, npm, and yarn versions per project. It provides fast, seamless tool switching…",
       "category": "Developer Tools",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "watchexec-file-watcher-command-rerunner",
@@ -11018,7 +11018,7 @@
       "description": "Generate strongly-typed models and serializers from JSON, JSON Schema, TypeScript, and GraphQL queries in 20+ programming languages. quicktype turns sample data into production-ready type…",
       "category": "Developer Tools",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "jnv-interactive-json-navigator",
@@ -11063,7 +11063,7 @@
       "description": "A blazing-fast source code spell checker written in Rust that finds and corrects typos across entire codebases. Designed to run on monorepos with minimal…",
       "category": "Code Quality & Review",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "linear-mcp-server-issue-tracking-project-management",
@@ -11162,7 +11162,7 @@
       "description": "Datasette is an open-source Python tool for exploring and publishing data. It turns any SQLite database into an interactive web interface with a JSON…",
       "category": "Data Extraction & Transformation",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "gron-greppable-json-flattener",
@@ -11216,7 +11216,7 @@
       "description": "esbuild is an extremely fast JavaScript and TypeScript bundler written in Go that delivers 10-100x faster build times than traditional tools like webpack. It…",
       "category": "Developer Tools",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "pnpm-fast-disk-efficient-package-manager",
@@ -11225,7 +11225,7 @@
       "description": "pnpm is a fast, disk space efficient package manager for Node.js that uses a content-addressable storage and hard links to deduplicate dependencies. With over…",
       "category": "Developer Tools",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "libsql-edge-sqlite-fork-turso",
@@ -11243,7 +11243,7 @@
       "description": "The Neon MCP Server enables AI agents to manage serverless PostgreSQL databases through natural language via the Model Context Protocol. Create projects, run queries,…",
       "category": "Integrations & Connectors",
       "framework": "MCP",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "grafana-alloy-opentelemetry-collector",
@@ -11252,7 +11252,7 @@
       "description": "Grafana Alloy is an open-source OpenTelemetry Collector distribution with programmable pipelines for metrics, logs, traces, and profiles. This skill enables agents to configure and…",
       "category": "Monitoring & Alerts",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "infisical-secret-management-platform",
@@ -11261,7 +11261,7 @@
       "description": "Infisical is an open-source platform for managing application secrets, environment variables, and certificates across teams and infrastructure. This skill enables agents to sync secrets,…",
       "category": "Security & Verification",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "vale-prose-linter-technical-docs",
@@ -11270,7 +11270,7 @@
       "description": "Vale is an open-source, markup-aware prose linter that enforces editorial style guides on technical documentation. This skill enables agents to run Vale against Markdown,…",
       "category": "Code Quality & Review",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "polars-dataframe-query-engine",
@@ -11279,7 +11279,7 @@
       "description": "Polars is an extremely fast DataFrame library written in Rust with Python, Node.js, and R bindings. This skill enables agents to leverage Polars for…",
       "category": "Data Extraction & Transformation",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "fabric-ai-prompt-pattern-framework",
@@ -11378,7 +11378,7 @@
       "description": "Slidev is a web-based presentation tool built for developers that turns Markdown files into interactive slide decks with code highlighting, live coding via Monaco…",
       "category": "Developer Tools",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "httpie-cli-api-testing-debugging-client",
@@ -11540,7 +11540,7 @@
       "description": "Anyquery is a SQL query engine that lets you run SQL against 40+ apps, files, and databases including GitHub, Notion, Chrome, and Apple Notes.…",
       "category": "Data Extraction & Transformation",
       "framework": "MCP",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "context7-mcp-documentation-server-llm-code-editors",
@@ -11558,7 +11558,7 @@
       "description": "GitHub's official Model Context Protocol (MCP) server that connects AI agents, assistants, and chatbots directly to GitHub's platform. Enables natural language repository management, code…",
       "category": "Developer Tools",
       "framework": "MCP",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "act-local-github-actions-runner",
@@ -11666,7 +11666,7 @@
       "description": "A modern, maintained replacement for the ls command, written in Rust. eza provides colorized output, Git integration, tree views, symlink awareness, and extended attribute…",
       "category": "Developer Tools",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "vhs-terminal-session-recorder-gif-generator",
@@ -11702,7 +11702,7 @@
       "description": "Query cloud APIs, SaaS services, and infrastructure with standard SQL using Steampipe. Maps over 150 data sources (AWS, Azure, GCP, GitHub, Slack, and more)…",
       "category": "Data Extraction & Transformation",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "task-taskfile-build-automation-runner",
@@ -11783,7 +11783,7 @@
       "description": "A modern shell that treats all input as structured data rather than plain text streams. Nushell provides built-in support for JSON, YAML, TOML, CSV,…",
       "category": "Developer Tools",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "posting-terminal-api-client",
@@ -11855,7 +11855,7 @@
       "description": "bat is a cat(1) clone written in Rust that adds syntax highlighting for over 200 languages, Git integration showing file modifications, automatic paging, and…",
       "category": "Developer Tools",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "fzf-command-line-fuzzy-finder",
@@ -11864,7 +11864,7 @@
       "description": "fzf is a general-purpose command-line fuzzy finder written in Go. It works as an interactive filter for any list — files, command history, processes,…",
       "category": "Developer Tools",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "ripgrep-recursive-regex-search-tool",
@@ -11873,7 +11873,7 @@
       "description": "ripgrep (rg) is a line-oriented search tool that recursively searches directories for regex patterns while respecting .gitignore rules. Written in Rust, it outperforms grep,…",
       "category": "Developer Tools",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "atuin-shell-history-database-sync",
@@ -11882,7 +11882,7 @@
       "description": "Atuin replaces your existing shell history with a SQLite database that records additional context like exit codes, session IDs, working directories, and command durations.…",
       "category": "Developer Tools",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "lazygit-terminal-ui-git-operations",
@@ -11990,7 +11990,7 @@
       "description": "Miller (mlr) is a command-line tool for querying, shaping, and reformatting name-indexed data such as CSV, TSV, JSON, and JSON Lines. It combines the…",
       "category": "Data Extraction & Transformation",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "hyperfine-command-line-benchmarking-tool",
@@ -12423,7 +12423,7 @@
       "description": "Validates article extraction quality using the Diffbot Article API and Analyze API, checking fields like `title`, `author`, `tags`, and `text`. Useful for verifying whether…",
       "category": "Research & Scraping",
       "framework": "Claude Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "firecrawl-markdown-capture-pipeline",
@@ -12432,7 +12432,7 @@
       "description": "Captures clean site content through Firecrawl endpoints like `/v1/scrape`, `/v1/map`, and `/v1/crawl`, with Markdown output for downstream agents. Great for turning messy websites into…",
       "category": "Research & Scraping",
       "framework": "Codex",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "serpapi-answer-box-extractor",
@@ -12531,7 +12531,7 @@
       "description": "Analyzes internal linking structure by crawling sitemaps with Screaming Frog or Sitebulb, computing PageRank distribution via NetworkX graph algorithms, and identifying orphan pages. Recommends…",
       "category": "Content Writing & SEO",
       "framework": "Cursor",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "ai-meta-description-generator",
@@ -13017,7 +13017,7 @@
       "description": "Optimizes GitLab CI/CD cache configurations using the GitLab Pipelines API v4 and cache:key:files directive analysis. Reduces pipeline duration by identifying cache misses and suggesting…",
       "category": "CI/CD Integrations",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "pull-request-size-analyzer-agent",
@@ -13062,7 +13062,7 @@
       "description": "Audits Jenkins shared libraries for security vulnerabilities using the Jenkins Script Console API and Groovy AST analysis. Detects unsafe method calls, credential leaks, and…",
       "category": "CI/CD Integrations",
       "framework": "Cursor",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "browser-session-replay-analyzer",
@@ -13233,7 +13233,7 @@
       "description": "Validates Tekton pipeline supply chain security using Sigstore cosign verification and SLSA provenance checks. Ensures all pipeline tasks have signed images and proper attestation…",
       "category": "CI/CD Integrations",
       "framework": "OpenClaw",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "buildkite-agent-fleet-scaler",
@@ -13269,7 +13269,7 @@
       "description": "Extracts executable task definitions from Markdown files and runs them as shell pipelines. Parses fenced code blocks with task metadata annotations and manages dependencies…",
       "category": "Templates & Workflows",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "mdn-web-api-reference-fetcher",
@@ -13278,7 +13278,7 @@
       "description": "Fetches and indexes Mozilla Developer Network Web API documentation using the MDN Yari content API. Provides structured API signatures, browser compatibility data from BCD,…",
       "category": "Library & API Reference",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "cloudwatch-anomaly-detector",
@@ -13413,7 +13413,7 @@
       "description": "Deploys interactive Swagger UI documentation sites from OpenAPI specs with custom branding, authentication presets, and CDN-hosted static builds. Integrates with Redoc for alternative rendering.",
       "category": "Library & API Reference",
       "framework": "OpenClaw",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "graphql-schema-stitching-federation-agent",
@@ -13449,7 +13449,7 @@
       "description": "Bootstraps project repositories from Cookiecutter templates with Jinja2 variable substitution and post-generation hooks. Supports remote template registries and custom extension plugins.",
       "category": "Templates & Workflows",
       "framework": "Gemini",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "sigstore-cosign-verification-pipeline",
@@ -13467,7 +13467,7 @@
       "description": "Composes GitHub Actions workflow YAML files from modular job templates, resolving action version pins and secret references. Validates against the GitHub Actions schema and…",
       "category": "Templates & Workflows",
       "framework": "Claude Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "trivy-container-iac-vulnerability-scanner",
@@ -13656,7 +13656,7 @@
       "description": "Verifies GitHub Actions OIDC tokens against the GitHub OIDC provider JWKS endpoint. Validates subject claims, audience restrictions, and repository ownership for secure cloud deployments.",
       "category": "CI/CD Integrations",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "tekton-pipeline-resource-optimizer",
@@ -13665,7 +13665,7 @@
       "description": "Analyzes Tekton Pipeline and Task resource definitions using the Tekton Results API. Recommends CPU/memory request adjustments based on historical TaskRun metrics from Prometheus.",
       "category": "CI/CD Integrations",
       "framework": "Cursor",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "aws-cloudtrail-log-normalizer",
@@ -13782,7 +13782,7 @@
       "description": "Explores HashiCorp Terraform provider schemas using terraform providers schema -json output. Maps resource attributes, computed fields, and cross-resource dependency references for HCL generation.",
       "category": "Library & API Reference",
       "framework": "Gemini",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "datadog-monitor-configuration-agent-2",
@@ -13944,7 +13944,7 @@
       "description": "Analyzes Argo Workflows DAG templates to identify parallelization opportunities. Uses the Argo Server API to fetch workflow execution history and critical path analysis.",
       "category": "Templates & Workflows",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "datadog-apm-anomaly-detector",
@@ -13989,7 +13989,7 @@
       "description": "Validates and lints OpenAPI 3.1 specifications using Spectral ruleset engine and swagger-parser. Detects breaking changes between API versions using oasdiff comparison tool.",
       "category": "Library & API Reference",
       "framework": "Cursor",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "prometheus-alertmanager-rule-generator",
@@ -14016,7 +14016,7 @@
       "description": "Searches and evaluates Terraform modules from the HashiCorp Registry API and private registries. Uses hcl2json parser to analyze module input variables, outputs, and provider…",
       "category": "Templates & Workflows",
       "framework": "MCP",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "helm-chart-template-scaffolder",
@@ -14043,7 +14043,7 @@
       "description": "Builds custom Semgrep rules using the Semgrep pattern syntax and semgrep CLI. Generates YAML rule files with metavariable patterns, taint tracking, and autofix transformations.",
       "category": "Code Quality & Review",
       "framework": "Codex",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "ruff-linter-configuration-architect",
@@ -14259,7 +14259,7 @@
       "description": "Extracts text and metadata from 1000+ file formats using Apache Tika server REST API. Handles PDF OCR via Tesseract integration, Office document parsing, and…",
       "category": "Data Extraction & Transformation",
       "framework": "Gemini",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "cheerio-dom-extraction-pipeline",
@@ -14304,7 +14304,7 @@
       "description": "Creates project scaffolds from Cookiecutter templates with interactive variable resolution. Integrates with cruft for template drift detection and copier for advanced multi-template composition.",
       "category": "Templates & Workflows",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "protobuf-documentation-generator",
@@ -14313,7 +14313,7 @@
       "description": "Generates API documentation from Protocol Buffer definitions using protoc-gen-doc and buf build toolchain. Produces Markdown, HTML, and DocJSON output with cross-linked message and service…",
       "category": "Library & API Reference",
       "framework": "Gemini",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "zod-schema-generator",
@@ -14385,7 +14385,7 @@
       "description": "Extracts comprehensive media metadata using the MediaInfo library and pymediainfo Python bindings. Analyzes video/audio codec parameters, container formats, and HDR metadata for media asset…",
       "category": "Media & Transcription",
       "framework": "Custom Agents",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "argocd-application-deployer",
@@ -14403,7 +14403,7 @@
       "description": "Generates and validates podcast RSS feeds compliant with the Apple Podcasts and Spotify specification. Uses the podcast-index API for cross-platform distribution and ID3 tag…",
       "category": "Media & Transcription",
       "framework": "Claude Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "datadog-monitor-configurator-2",
@@ -14421,7 +14421,7 @@
       "description": "Creates and validates Prometheus alerting rules using PromQL expressions and the Prometheus HTTP API. Configures Alertmanager routing trees with PagerDuty, Slack, and OpsGenie receiver…",
       "category": "Monitoring & Alerts",
       "framework": "MCP",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "ffmpeg-audio-transcoder",
@@ -14520,7 +14520,7 @@
       "description": "Renders Jinja2 templates with variable injection, macro expansion, and template inheritance. Integrates with the Jinja2 Environment API for sandboxed execution and custom filter registration.",
       "category": "Templates & Workflows",
       "framework": "Gemini",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "scrapycloud-job-manager",
@@ -14574,7 +14574,7 @@
       "description": "Constructs data transformation pipelines using Pandas and the pipe() method chain pattern. Integrates with SQLAlchemy for database I/O and PyArrow for high-performance Parquet operations.",
       "category": "Data Extraction & Transformation",
       "framework": "Cursor",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "dbt-model-dependency-analyzer",
@@ -14583,7 +14583,7 @@
       "description": "Analyzes dbt project DAGs using the dbt manifest.json artifact and the dbt Cloud API. Detects circular dependencies, orphaned models, and generates lineage visualizations.",
       "category": "Data Extraction & Transformation",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "sbom-vulnerability-scanner",
@@ -14628,7 +14628,7 @@
       "description": "Monitors container runtime behavior using Falco rules and the Docker Engine API. Detects anomalous syscalls, privilege escalations, and unexpected network connections in real time.",
       "category": "Security & Verification",
       "framework": "Gemini",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "dolby-io-media-enhancer-agent",
@@ -15042,7 +15042,7 @@
       "description": "Executes Apify cloud actors for structured web scraping with automatic dataset export to S3. Supports actor input schema validation and webhook-based run completion notifications.",
       "category": "Research & Scraping",
       "framework": "Codex",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "prometheus-alertmanager-bridge-2",
@@ -15114,7 +15114,7 @@
       "description": "Builds interactive Slack workflows using the Bolt SDK for JavaScript and Block Kit Builder API. Handles modal forms, scheduled messages, and webhook integrations.",
       "category": "Calendar, Email & Productivity",
       "framework": "MCP",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "npm-package-explorer-registry-api",
@@ -15249,7 +15249,7 @@
       "description": "Orchestrates deployment pipelines using the Argo Workflows Engine API and Argo CD ApplicationSet controller. Implements progressive delivery with Argo Rollouts canary and blue-green strategies.",
       "category": "CI/CD Integrations",
       "framework": "Gemini",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "gitlab-pipeline-orchestrator",
@@ -15267,7 +15267,7 @@
       "description": "Writes and deploys custom Semgrep rules using pattern, pattern-either, and metavariable-regex operators for multi-language SAST scanning. Manages rule bundles in semgrep.yml with autofix transformations.",
       "category": "Code Quality & Review",
       "framework": "OpenClaw",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "imagemagick-batch-transform-agent",
@@ -15276,7 +15276,7 @@
       "description": "Automates ImageMagick convert and mogrify operations for bulk image processing including responsive srcset generation, WebP/AVIF conversion, and ICC color profile management with Little CMS…",
       "category": "Image & Creative Automation",
       "framework": "Cursor",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "dalle-image-variation-pipeline",
@@ -15372,7 +15372,7 @@
       "description": "Synchronizes service metadata into Spotify Backstage catalog using catalog-info.yaml generation and the Backstage Catalog REST API. Manages component, API, and system entity relationships across…",
       "category": "Templates & Workflows",
       "framework": "Cursor",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "owasp-zap-automated-pen-testing-agent",
@@ -15429,7 +15429,7 @@
       "description": "Scans container images, IaC templates, and SBOM artifacts using Aqua Trivy CLI. Generates CycloneDX and SPDX reports with CVE severity filtering for CI/CD gates.",
       "category": "Security & Verification",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "cookiecutter-project-scaffold-generator",
@@ -15501,7 +15501,7 @@
       "description": "Analyzes and optimizes content readability using textstat Python library and Hemingway API patterns. Computes Flesch-Kincaid, Gunning Fog, and SMOG indices with automated rewriting suggestions.",
       "category": "Content Writing & SEO",
       "framework": "MCP",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "slack-workflow-builder-agent",
@@ -15624,7 +15624,7 @@
         "Cursor",
         "Multi-Framework"
       ],
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "kafka-schema-registry-validator",
@@ -15744,7 +15744,7 @@
       "description": "Generates optimized Ruff configuration from existing Flake8, isort, and Black setups. Migrates pyproject.toml rules with automatic conflict resolution.",
       "category": "Code Quality & Review",
       "framework": "Custom Agents",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "eslint-custom-rule-builder",
@@ -15753,7 +15753,7 @@
       "description": "Scaffolds and tests custom ESLint rules using the RuleTester API and AST Explorer patterns. Generates rule documentation with fixable autofix implementations.",
       "category": "Code Quality & Review",
       "framework": "Cursor",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "sonarqube-quality-gate-monitor-3",
@@ -15834,7 +15834,7 @@
       "description": "Automates Adobe Photoshop batch processing via the UXP Scripting API and CEP ExtendScript. Handles bulk resize, watermarking, color profile conversion (ICC), and smart object…",
       "category": "Image & Creative Automation",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "incident-response-playbook-runner",
@@ -16035,7 +16035,7 @@
       "description": "Extracts and indexes Rust crate documentation using cargo-doc, docs.rs API, and syn for AST parsing. Generates searchable API references with cross-crate linking and example…",
       "category": "Library & API Reference",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "prometheus-alertmanager-rule-builder",
@@ -16080,7 +16080,7 @@
       "description": "Automates ArgoCD application synchronization using the ArgoCD gRPC/REST API and argocd-autopilot CLI. Manages ApplicationSets, sync waves, and health assessments for Kubernetes deployments.",
       "category": "CI/CD Integrations",
       "framework": "MCP",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "jenkins-declarative-pipeline-generator-2",
@@ -16107,7 +16107,7 @@
       "description": "Bidirectionally syncs Notion databases with external tools via the Notion API and webhooks. Maps page properties to Jira issues, GitHub PRs, and Linear tickets…",
       "category": "Calendar, Email & Productivity",
       "framework": "Gemini",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "cypress-component-testing-framework-2",
@@ -16143,7 +16143,7 @@
       "description": "Creates Slack Workflow Builder automations using the Slack Web API and Block Kit. Builds approval flows, standup collectors, and incident response channels with interactive…",
       "category": "Calendar, Email & Productivity",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "owasp-zap-automated-scan-orchestrator",
@@ -16161,7 +16161,7 @@
       "description": "Performs deep dependency analysis using the Snyk CLI and REST API to detect vulnerable transitive packages. Generates fix PRs with version pinning and patch…",
       "category": "Security & Verification",
       "framework": "Cursor",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "trivy-container-image-vulnerability-scanner",
@@ -16260,7 +16260,7 @@
       "description": "Analyzes GitLab CI/CD pipeline YAML using the GitLab Pipelines API to detect bottlenecks and restructure directed acyclic graph (DAG) dependencies. Integrates with gitlab-runner exec…",
       "category": "CI/CD Integrations",
       "framework": "OpenClaw",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "github-actions-matrix-orchestrator",
@@ -16278,7 +16278,7 @@
       "description": "Automates git bisect workflows with custom test scripts and CI pipeline integration. Uses the Git CLI and GitHub Actions API to identify regression-introducing commits…",
       "category": "Developer Tools",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "openapi-spec-validator-agent",
@@ -16287,7 +16287,7 @@
       "description": "Validates and lints OpenAPI 3.0/3.1 specifications using Spectral CLI rules and the Swagger Parser library. Detects breaking changes between spec versions and generates migration…",
       "category": "Developer Tools",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "docker-compose-stack-analyzer",
@@ -16332,7 +16332,7 @@
       "description": "Parses dbt project manifests and catalog artifacts to build complete data lineage graphs. Uses the dbt Cloud API v2 for run metadata and the…",
       "category": "Data Extraction & Transformation",
       "framework": "Claude Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "grafana-unified-alerting-manager",
@@ -16467,7 +16467,7 @@
       "description": "Scaffolds production-ready Terraform modules using HCL templates with automated variable documentation via terraform-docs. Includes Terratest boilerplate and GitHub Actions CI workflow generation.",
       "category": "Templates & Workflows",
       "framework": "Gemini",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "cookiecutter-project-scaffold",
@@ -16476,7 +16476,7 @@
       "description": "Generates project boilerplate from Cookiecutter templates with Jinja2 variable injection. Supports custom hooks for post-generation linting via Ruff and pre-commit framework setup.",
       "category": "Templates & Workflows",
       "framework": "ChatGPT Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "hashicorp-vault-secret-scanner-2",
@@ -16512,7 +16512,7 @@
       "description": "Automates email triage using Microsoft Graph API v1.0 with delegated permissions. Classifies emails by urgency using NLP, applies Outlook rules, and surfaces action items…",
       "category": "Calendar, Email & Productivity",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "google-calendar-smart-scheduler-2",
@@ -16629,7 +16629,7 @@
       "description": "Extracts and visualizes dbt model dependency lineage using the dbt Core manifest.json artifact API. Parses ref() and source() calls to build DAG representations via…",
       "category": "Data Extraction & Transformation",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "codecov-coverage-diff-analyzer-2",
@@ -16674,7 +16674,7 @@
       "description": "Detects and resolves conflicting ESLint rules across .eslintrc configurations using the ESLint Node.js API. Analyzes rule interactions between eslint-config-airbnb, eslint-config-prettier, and typescript-eslint plugins.",
       "category": "Code Quality & Review",
       "framework": "Cursor",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "github-actions-pipeline-validator",
@@ -16683,7 +16683,7 @@
       "description": "Validates GitHub Actions workflow YAML files against the Actions schema, checks for deprecated action versions, and ensures proper secret handling. Integrates with actions/checkout, actions/setup-node,…",
       "category": "CI/CD Integrations",
       "framework": "OpenClaw",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "seo-content-cluster-generator",
@@ -16827,7 +16827,7 @@
       "description": "Manages image and video assets through the Cloudinary Upload and Admin APIs. Applies on-the-fly transformations, generates responsive breakpoints, and optimizes delivery with f_auto and…",
       "category": "Image & Creative Automation",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "grafana-loki-log-query-agent",
@@ -16890,7 +16890,7 @@
       "description": "Validates Ansible playbooks using ansible-lint with custom rule plugins and the Ansible Collections API. Checks for deprecated modules, missing handlers, insecure variable practices, and…",
       "category": "Runbooks & Diagnostics",
       "framework": "MCP",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "prometheus-alert-tuner",
@@ -16908,7 +16908,7 @@
       "description": "Performs safe Terraform state operations using the terraform CLI state subcommands and the Terraform Cloud API. Handles state imports, resource moves, and taint operations…",
       "category": "Runbooks & Diagnostics",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "semgrep-custom-pattern-generator",
@@ -16917,7 +16917,7 @@
       "description": "Generates Semgrep SAST rules from vulnerability descriptions using the Semgrep CLI and semgrep-rules YAML schema. Supports metavariable patterns, taint tracking, and join rules for…",
       "category": "Code Quality & Review",
       "framework": "MCP",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "kubernetes-crashloop-diagnostician",
@@ -17034,7 +17034,7 @@
       "description": "Analyzes webpack bundle composition using webpack-bundle-analyzer and source-map-explorer APIs. Identifies duplicate dependencies and suggests tree-shaking optimizations with specific import rewrites.",
       "category": "Developer Tools",
       "framework": "Cursor",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "crawlee-smart-crawler-agent",
@@ -17097,7 +17097,7 @@
       "description": "Builds structured research datasets by querying SerpAPI Google Search, Google Scholar, and Google News endpoints. Extracts entities via spaCy NER and stores results in…",
       "category": "Research & Scraping",
       "framework": "Codex",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "prometheus-alert-rule-generator-2",
@@ -17133,7 +17133,7 @@
       "description": "Resolves TypeScript symbols and generates API documentation using the TypeDoc compiler API and ts-morph for AST manipulation. Creates interlinked reference pages with declaration merging…",
       "category": "Library & API Reference",
       "framework": "Claude Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "rust-crate-docs-scanner",
@@ -17142,7 +17142,7 @@
       "description": "Scans Rust crate documentation using rustdoc JSON output and cargo-doc metadata. Indexes public API surfaces including traits, impls, and derive macros with cross-crate dependency…",
       "category": "Library & API Reference",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "cookiecutter-project-scaffolder-3",
@@ -17151,7 +17151,7 @@
       "description": "Scaffolds project templates using the Cookiecutter engine with Jinja2 templating and pre/post generation hooks. Supports conditional file inclusion, directory renaming, and cookiecutter.json variable validation…",
       "category": "Templates & Workflows",
       "framework": "ChatGPT Agents",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "terraform-cloud-pipeline-agent",
@@ -17286,7 +17286,7 @@
       "description": "Interfaces with the ScrapingBee REST API for JavaScript rendering and Google SERP extraction. Uses custom_google parameter for search result parsing and screenshot endpoint for…",
       "category": "Research & Scraping",
       "framework": "Custom Agents",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "puppeteer-stealth-web-scraper",
@@ -17331,7 +17331,7 @@
       "description": "Integrates with SonarQube Web API and sonar-scanner CLI to enforce code quality gates across pull requests. Automatically blocks merges when critical code smells, security…",
       "category": "Code Quality & Review",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "datadog-monitor-configuration-engine",
@@ -17376,7 +17376,7 @@
       "description": "Manages dbt Core and dbt Cloud API workflows for SQL-based data transformations. Handles model lineage, incremental builds, and data quality tests with Great Expectations…",
       "category": "Data Extraction & Transformation",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "adobe-photoshop-api-batch-processor",
@@ -17520,7 +17520,7 @@
       "description": "Extracts and indexes JSDoc type annotations from JavaScript codebases using the jsdoc-api parser. Generates TypeScript declaration files (.d.ts) and searchable type catalogs from @typedef…",
       "category": "Library & API Reference",
       "framework": "MCP",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "terraform-module-scaffold-generator",
@@ -17700,7 +17700,7 @@
       "description": "Reviews Jenkinsfile and Groovy pipeline scripts for anti-patterns, security issues, and performance bottlenecks using Jenkins Pipeline Linter API and static analysis rules.",
       "category": "Code Quality & Review",
       "framework": "Cursor",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "npm-package-supply-chain-auditor",
@@ -17772,7 +17772,7 @@
       "description": "Scaffolds production-ready Terraform modules with HCL templates, variable definitions, and output blocks. Uses the Terraform Registry API to pull module schemas and terraform-docs for…",
       "category": "Templates & Workflows",
       "framework": "OpenClaw",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "postgresql-performance-diagnostic-suite",
@@ -18051,7 +18051,7 @@
       "description": "Creates end-to-end tests with Cypress cy.intercept() for API mocking and cy.wait() for request assertion. Uses Cypress Testing Library queries with findByRole() and findByText() for…",
       "category": "Browser Automation",
       "framework": "Codex",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "selenium-grid-multi-browser-test-runner",
@@ -18132,7 +18132,7 @@
       "description": "Scaffolds Terraform modules using the HCL SDK with provider schema introspection and automatic variable extraction. Generates documentation via terraform-docs API, validates with tflint rules,…",
       "category": "Developer Tools",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "wordpress-content-optimizer-yoast-rest",
@@ -18303,7 +18303,7 @@
       "description": "Generates project boilerplate from Cookiecutter templates with interactive variable prompts. Supports custom Jinja2 hooks, post-generation scripts, and template composition from multiple cookiecutter.json sources for…",
       "category": "Templates & Workflows",
       "framework": "ChatGPT Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "snyk-container-image-analyzer",
@@ -18456,7 +18456,7 @@
       "description": "Audits ESLint configurations using @eslint/eslintrc and @eslint/js flat config APIs. Detects conflicting rules, deprecated configs, and generates migration paths from eslintrc to eslint.config.js flat…",
       "category": "Code Quality & Review",
       "framework": "Cursor",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "circleci-orb-composer-7",
@@ -18537,7 +18537,7 @@
       "description": "Generates dynamic GitHub Actions CI/CD matrix strategies using the GitHub REST API and YAML AST parsing via js-yaml. Automatically detects language versions, OS targets,…",
       "category": "CI/CD Integrations",
       "framework": "OpenClaw",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "circleci-orb-validator",
@@ -18789,7 +18789,7 @@
       "description": "Maps the public API surface of Python packages using ast module parsing and importlib introspection. Generates comprehensive reference docs with type annotations from mypy…",
       "category": "Library & API Reference",
       "framework": "Codex",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "rest-api-changelog-tracker",
@@ -18807,7 +18807,7 @@
       "description": "Generates interactive API documentation from GraphQL schemas using graphql-js introspection queries and SpectaQL. Annotates fields with usage analytics from Apollo Studio API.",
       "category": "Library & API Reference",
       "framework": "MCP",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "aws-cloudwatch-log-anomaly-investigator",
@@ -18987,7 +18987,7 @@
       "description": "Generates and validates GitHub Actions YAML workflows using the actions/toolkit SDK and workflow_dispatch event triggers. Supports matrix builds, reusable workflows with workflow_call, and composite…",
       "category": "CI/CD Integrations",
       "framework": "Cursor",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "semgrep-sast-scanner-skill",
@@ -19041,7 +19041,7 @@
       "description": "Manages GitOps deployments via the ArgoCD REST API and argocd CLI. Triggers application syncs through /api/v1/applications/{name}/sync, monitors health status via /api/v1/applications/{name}, and manages rollbacks…",
       "category": "CI/CD Integrations",
       "framework": "Claude Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "salesforce-crm-sync-agent",
@@ -19113,7 +19113,7 @@
       "description": "Audits CircleCI orb dependencies using the CircleCI v2 API and orb registry. Detects outdated orb versions, deprecated commands, and known CVEs in orb executor…",
       "category": "CI/CD Integrations",
       "framework": "MCP",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "jenkins-pipeline-linter-fixer",
@@ -19122,7 +19122,7 @@
       "description": "Validates Jenkinsfile declarative pipelines using the Jenkins Pipeline Linter API endpoint (/pipeline-model-converter/validate). Auto-fixes common syntax issues and stages missing agent directives.",
       "category": "CI/CD Integrations",
       "framework": "Cursor",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "postgresql-query-plan-explainer",
@@ -19239,7 +19239,7 @@
       "description": "Creates structured incident response templates using the PagerDuty Events API v2, Jira REST API for ticket creation, and Statuspage.io API for public status updates.…",
       "category": "Templates & Workflows",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "postgresql-diagnostic-runbook",
@@ -19338,7 +19338,7 @@
       "description": "Generates interactive API documentation from GraphQL schemas using graphql-js introspection queries and SpectaQL. Produces type relationship diagrams, query examples, and deprecation notices from SDL…",
       "category": "Library & API Reference",
       "framework": "Gemini",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "rest-api-test-suite-generator",
@@ -19383,7 +19383,7 @@
       "description": "Ultra-fast Python linting and formatting using Ruff CLI with pyproject.toml configuration. Supports auto-fix, import sorting (isort-compatible), and rule selection from 800+ built-in rules.",
       "category": "Code Quality & Review",
       "framework": "Claude Code",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "aws-ssm-runbook-executor",
@@ -19446,7 +19446,7 @@
       "description": "Generate and manage GitHub Actions workflow YAML files using the GitHub Actions REST API and workflow_dispatch events. Supports matrix builds, reusable workflows, and composite…",
       "category": "CI/CD Integrations",
       "framework": "Codex",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "semgrep-security-scanner-2",
@@ -19473,7 +19473,7 @@
       "description": "Automatically detect and fix JavaScript/TypeScript linting issues using ESLint v9 flat config and the ESLint Node.js API. Supports custom rule configurations and staged file…",
       "category": "Code Quality & Review",
       "framework": "Claude Code",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "gitlab-ci-pipeline-cost-calculator",
@@ -19500,7 +19500,7 @@
       "description": "Analyzes .eslintrc configurations and extended rulesets using the ESLint Node.js API and eslint-config-inspector. Detects conflicting rules between Prettier, TypeScript-ESLint, and Airbnb presets, generating a…",
       "category": "Code Quality & Review",
       "framework": "Codex",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "nginx-config-validator-optimizer",
@@ -19509,7 +19509,7 @@
       "description": "Parses nginx.conf and included config files using the crossplane Python library and nginx -t test command. Identifies misconfigurations, duplicate server blocks, SSL/TLS weaknesses via…",
       "category": "Runbooks & Diagnostics",
       "framework": "MCP",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "jenkins-pipeline-linter-pro",
@@ -19554,7 +19554,7 @@
       "description": "Estimates CI/CD pipeline costs by querying the GitLab REST API v4 for job durations, runner types, and compute minutes. Maps shared vs self-hosted runner…",
       "category": "CI/CD Integrations",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "python-package-dependency-graph-mapper",
@@ -19707,7 +19707,7 @@
       "description": "Analyzes Terraform plan output using the terraform show -json command and HCL2 parser library. Detects destructive changes, cost implications via Infracost API, and policy…",
       "category": "CI/CD Integrations",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "github-actions-workflow-debugger",
@@ -19716,7 +19716,7 @@
       "description": "Diagnoses failing GitHub Actions workflows using the GitHub REST API v3 /actions/runs and /actions/jobs endpoints. Parses step logs, identifies YAML syntax errors, and suggests…",
       "category": "CI/CD Integrations",
       "framework": "Claude Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "postgresql-query-plan-diagnostics-wave48",
@@ -19752,7 +19752,7 @@
       "description": "Automates incident response for AWS CloudWatch alarms using boto3, the CloudWatch GetMetricData API, and AWS Systems Manager runbook documents. Maps alarm states to diagnostic…",
       "category": "Runbooks & Diagnostics",
       "framework": "Claude Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "kubernetes-incident-runbook",
@@ -19770,7 +19770,7 @@
       "description": "Diagnoses and fixes CircleCI orb configuration errors using the CircleCI v2 API and circleci config validate CLI. Parses orb source YAML against the orb…",
       "category": "CI/CD Integrations",
       "framework": "Claude Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "tekton-pipeline-composer",
@@ -19797,7 +19797,7 @@
       "description": "Detects leaked secrets in Git repositories using pattern-based scanning with Gitleaks rule definitions and the GitHub Secret Scanning API. Identifies exposed API keys, tokens,…",
       "category": "Security & Verification",
       "framework": "Claude Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "npm-dependency-audit-scanner",
@@ -19824,7 +19824,7 @@
       "description": "Inspects Docker container health using the Docker Engine API v1.45 /containers/{id}/json and /containers/{id}/stats endpoints. Diagnoses OOM kills, restart loops, and network connectivity issues with…",
       "category": "Runbooks & Diagnostics",
       "framework": "MCP",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "kubernetes-pod-diagnostic-agent",
@@ -19896,7 +19896,7 @@
       "description": "Validates Jenkinsfile declarative and scripted pipelines using the Jenkins Pipeline Linter API endpoint. Checks for deprecated step usage, security anti-patterns, and Groovy sandbox violations.",
       "category": "CI/CD Integrations",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "rest-api-reference-generator",
@@ -19932,7 +19932,7 @@
       "description": "Indexes Python package documentation using the PyPI JSON API and Read the Docs API. Builds searchable reference catalogs with function signatures, type hints, and…",
       "category": "Library & API Reference",
       "framework": "ChatGPT Agents",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "npm-package-vulnerability-runbook",
@@ -19950,7 +19950,7 @@
       "description": "Analyzes CircleCI orb dependencies using the CircleCI v2 API and Orb Registry API. Maps orb version trees, detects breaking changes, and generates upgrade paths…",
       "category": "CI/CD Integrations",
       "framework": "Gemini",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "aws-cloudwatch-log-anomaly-scanner",
@@ -19968,7 +19968,7 @@
       "description": "Validates GitHub Actions YAML workflows using actionlint and the GitHub Actions REST API. Detects invalid step references, missing secrets declarations, and deprecated action versions…",
       "category": "CI/CD Integrations",
       "framework": "OpenClaw",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "jenkins-pipeline-debugger",
@@ -20211,7 +20211,7 @@
       "description": "Manages GraphQL schema evolution using graphql-inspector for breaking change detection and Apollo Rover CLI for schema composition. Validates schemas against custom ESLint rules via…",
       "category": "Library & API Reference",
       "framework": "Claude Agents",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "npm-package-audit-reference",
@@ -20220,7 +20220,7 @@
       "description": "Provides deep dependency analysis using npm audit, socket.dev API for supply chain risk scoring, and bundlephobia API for bundle size impact assessment. Generates license…",
       "category": "Library & API Reference",
       "framework": "Codex",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "postgresql-query-analyzer",
@@ -20229,7 +20229,7 @@
       "description": "Analyzes PostgreSQL slow queries using EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON) output and pg_stat_statements views. Identifies missing indexes via pg_stat_user_tables sequential scan counters and suggests…",
       "category": "Runbooks & Diagnostics",
       "framework": "Gemini",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "gitlab-ci-pipeline-linter",
@@ -20247,7 +20247,7 @@
       "description": "Extracts and analyzes Jenkins Pipeline build logs using the Jenkins REST API and Blue Ocean API. Identifies stage failures, flaky test patterns via JUnit…",
       "category": "CI/CD Integrations",
       "framework": "Claude Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "gitlab-ci-pipeline-migrator",
@@ -20274,7 +20274,7 @@
       "description": "Retrieves and indexes Python package documentation from PyPI metadata API and Read the Docs API. Uses ast module parsing and pydoc introspection to extract…",
       "category": "Library & API Reference",
       "framework": "OpenClaw",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "graphql-schema-introspector",
@@ -20409,7 +20409,7 @@
       "description": "Generates declarative Jenkins pipeline scripts using the Jenkins Pipeline Syntax reference and shared library patterns. Integrates with the Jenkins REST API (/api/json) for job…",
       "category": "CI/CD Integrations",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "docker-compose-health-monitor",
@@ -20490,7 +20490,7 @@
       "description": "Audits CircleCI orb versions and configurations using the CircleCI v2 API. Flags deprecated orbs, provides pinning recommendations, and checks security advisories from the orb…",
       "category": "CI/CD Integrations",
       "framework": "Cursor",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "gitlab-ci-pipeline-debugger",
@@ -20508,7 +20508,7 @@
       "description": "Monitors Jenkins pipelines using the Jenkins REST API and Blue Ocean API, detecting flaky tests, build queue bottlenecks, and credential expiration warnings for proactive…",
       "category": "CI/CD Integrations",
       "framework": "Codex",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "github-actions-workflow-optimizer",
@@ -20517,7 +20517,7 @@
       "description": "Analyzes GitHub Actions YAML workflows to identify redundant steps, optimize caching strategies, and reduce CI minutes. Uses the GitHub Actions REST API and actions/cache…",
       "category": "CI/CD Integrations",
       "framework": "OpenClaw",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "circleci-orb-pipeline-agent",
@@ -20553,7 +20553,7 @@
       "description": "Validates Terraform plans using terraform CLI, tfsec, and Checkov. Detects infrastructure misconfigurations, cost anomalies, and compliance violations before apply.",
       "category": "CI/CD Integrations",
       "framework": "Cursor",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "phpstan-static-analyzer-agent",
@@ -20742,7 +20742,7 @@
       "description": "Implements W3C TraceContext and Baggage propagation using the OpenTelemetry JS SDK and @opentelemetry/api. Injects and extracts trace context headers (traceparent, tracestate) across HTTP, gRPC,…",
       "category": "Library & API Reference",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "github-rest-api-paginator-library",
@@ -20823,7 +20823,7 @@
       "description": "Extracts query history and performance metadata from Snowflake using the Snowflake Python Connector and INFORMATION_SCHEMA.QUERY_HISTORY view. Identifies expensive queries by credits consumed, data scanned,…",
       "category": "Data Extraction & Transformation",
       "framework": "ChatGPT Agents",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "parquet-schema-extractor-for-s3",
@@ -20895,7 +20895,7 @@
       "description": "Analyzes GitHub Actions workflow YAML files and optimizes matrix strategies using the actions/setup-node and actions/cache APIs. Reduces redundant job combinations by inspecting build dependency…",
       "category": "CI/CD Integrations",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "plaid-financial-data-aggregator",
@@ -21147,7 +21147,7 @@
       "description": "Parses dbt project artifacts (manifest.json and catalog.json) to build a lineage graph and identify models with no tests, stale documentation, or missing uniqueness assertions.…",
       "category": "Data Extraction & Transformation",
       "framework": "Cursor",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "linear-issue-triage-sprint-planner-2",
@@ -21390,7 +21390,7 @@
       "description": "Conftest Policy Tester is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a…",
       "category": "Security & Verification",
       "framework": "Custom Agents",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "falco-runtime-security",
@@ -21723,7 +21723,7 @@
       "description": "Postman Collection Runner is built around Postman API testing platform. The underlying ecosystem is represented by postmanlabs/postman-app-support (5,996+ GitHub stars). It gives an agent…",
       "category": "Library & API Reference",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "graphql-schema-explorer",
@@ -22347,7 +22347,7 @@
         "Custom Agents",
         "OpenClaw"
       ],
-      "verification": "security_reviewed"
+      "verification": "listed"
     }
   ]
 }

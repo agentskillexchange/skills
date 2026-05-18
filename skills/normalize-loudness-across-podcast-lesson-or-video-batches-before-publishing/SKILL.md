@@ -3,7 +3,7 @@ name: "Normalize loudness across podcast, lesson, or video batches before publis
 slug: "normalize-loudness-across-podcast-lesson-or-video-batches-before-publishing"
 description: "Uses ffmpeg-normalize to batch-normalize audio levels so an agent can hand off consistent output without opening a DAW or touching every file by hand. It fits pipelines that need EBU R128, RMS, or peak targets across mixed media before delivery."
 github_stars: 1500
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/slhck/ffmpeg-normalize"
 author: "slhck"
 publisher_type: "Open Source Project"

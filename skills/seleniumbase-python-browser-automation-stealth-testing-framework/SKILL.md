@@ -3,7 +3,7 @@ name: "SeleniumBase Python Browser Automation and Stealth Testing Framework"
 slug: "seleniumbase-python-browser-automation-stealth-testing-framework"
 description: "SeleniumBase is a Python framework for browser automation, end-to-end testing, and stealthy web interaction. It layers pytest-friendly test structure, browser control, reporting, and anti-bot-aware CDP and UC modes on top of Selenium workflows."
 github_stars: 12560
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/seleniumbase/SeleniumBase"
 author: "Michael Mintz"
 publisher_type: "Open Source Project"

@@ -3,7 +3,7 @@ name: "Investigate production incidents across Kubernetes and cloud signals with
 slug: "investigate-production-incidents-across-kubernetes-and-cloud-signals-with-holmesgpt"
 description: "Use HolmesGPT when an on-call agent needs one investigation loop that pulls alerts, logs, metrics, and infrastructure context from multiple systems and returns a root-cause path instead of forcing a human to hop across separate observability products."
 github_stars: 2265
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/HolmesGPT/holmesgpt"
 author: "HolmesGPT"
 publisher_type: "organization"

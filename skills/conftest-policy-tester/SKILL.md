@@ -3,7 +3,7 @@ name: "Conftest Policy Tester"
 slug: "conftest-policy-tester"
 description: ""
 github_stars: 3155
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/open-policy-agent/conftest"
 author: "Open Policy Agent"
 category: "Security & Verification"

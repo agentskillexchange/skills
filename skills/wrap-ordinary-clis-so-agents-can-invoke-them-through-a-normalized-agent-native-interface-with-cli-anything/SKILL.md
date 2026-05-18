@@ -3,7 +3,7 @@ name: "Wrap ordinary CLIs so agents can invoke them through a normalized agent-n
 slug: "wrap-ordinary-clis-so-agents-can-invoke-them-through-a-normalized-agent-native-interface-with-cli-anything"
 description: "Lets an agent install or build a harness around an existing tool so the tool becomes callable through a predictable CLI surface."
 github_stars: 31214
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/HKUDS/CLI-Anything"
 author: "HKUDS"
 publisher_type: "organization"

@@ -3,7 +3,7 @@ name: "Lint reStructuredText docs and release notes before Sphinx publishing wit
 slug: "lint-restructuredtext-docs-and-release-notes-before-sphinx-publishing-with-doc8"
 description: "Catch structural and line-style problems in reStructuredText docs before release notes and Sphinx pages go out broken or noisy."
 github_stars: 176
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/PyCQA/doc8"
 author: "PyCQA"
 publisher_type: "organization"

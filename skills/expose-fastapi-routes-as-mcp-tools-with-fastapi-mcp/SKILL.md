@@ -3,7 +3,7 @@ name: "Expose FastAPI routes as MCP tools with FastAPI-MCP"
 slug: "expose-fastapi-routes-as-mcp-tools-with-fastapi-mcp"
 description: "Mount FastAPI-MCP on an existing FastAPI app so agents can call authenticated route-backed MCP tools with preserved schemas."
 github_stars: 11836
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/tadata-org/fastapi_mcp"
 author: "Tadata"
 publisher_type: "organization"

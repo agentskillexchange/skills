@@ -3,7 +3,7 @@ name: "Sign agent-made Git commits with gitsign"
 slug: "sign-agent-made-git-commits-with-gitsign"
 description: "Apply keyless Sigstore-backed signatures to Git commits so automated changes retain verifiable provenance."
 github_stars: 1079
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/sigstore/gitsign"
 author: "Sigstore maintainers"
 publisher_type: "organization"

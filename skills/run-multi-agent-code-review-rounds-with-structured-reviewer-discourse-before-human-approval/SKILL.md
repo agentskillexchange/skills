@@ -3,7 +3,7 @@ name: "Run multi-agent code review rounds with structured reviewer discourse bef
 slug: "run-multi-agent-code-review-rounds-with-structured-reviewer-discourse-before-human-approval"
 description: "Use Open Code Review when an agent needs several reviewer personas to inspect a diff, debate findings, and synthesize review output before a human approves, posts, or acts on the review."
 github_stars: 131
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/spencermarx/open-code-review"
 author: "Spencer Marx"
 publisher_type: "individual"

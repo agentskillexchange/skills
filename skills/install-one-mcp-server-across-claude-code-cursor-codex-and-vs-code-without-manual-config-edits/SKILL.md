@@ -3,7 +3,7 @@ name: "Install one MCP server across Claude Code, Cursor, Codex, and VS Code wit
 slug: "install-one-mcp-server-across-claude-code-cursor-codex-and-vs-code-without-manual-config-edits"
 description: "Use add-mcp when an agent needs to roll out, list, remove, or synchronize MCP server configs across multiple coding clients instead of hand-editing each config file separately."
 github_stars: 151
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/neondatabase/add-mcp"
 author: "Neon"
 publisher_type: "company"

@@ -2,7 +2,7 @@
 name: "Check current weather and short forecasts for planning"
 slug: "check-current-weather-and-short-forecasts-for-planning"
 description: "This skill lets an agent fetch current conditions and short forecasts with a lightweight weather workflow instead of sending a user to a weather site. It is narrowly scoped to quick planning questions, not historical analysis, severe-alert monitoring, or a generic weather product listing."
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/openclaw/openclaw/tree/main/skills/weather"
 author: "OpenClaw"
 publisher_type: "open_source_project"

@@ -2,7 +2,7 @@
 name: "Design and verify LaunchDarkly feature-flag targeting and rollout changes with MCP safety checks"
 slug: "design-and-verify-launchdarkly-feature-flag-targeting-and-rollout-changes-with-mcp-safety-checks"
 description: "Inspect a LaunchDarkly flag’s current state, choose the right targeting approach, apply rollout or rule changes through the LaunchDarkly MCP server, and verify the outcome safely."
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/launchdarkly/ai-tooling/tree/main/skills/feature-flags/launchdarkly-flag-targeting"
 author: "launchdarkly"
 publisher_type: "organization"

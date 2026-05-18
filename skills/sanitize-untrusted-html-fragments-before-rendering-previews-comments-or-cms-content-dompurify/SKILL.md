@@ -3,7 +3,7 @@ name: "Sanitize untrusted HTML fragments before rendering previews, comments, or
 slug: "sanitize-untrusted-html-fragments-before-rendering-previews-comments-or-cms-content-dompurify"
 description: "Use DOMPurify when an agent must accept HTML from users, rich text editors, imports, or model output but cannot safely render it as-is. The skill strips dangerous markup and unsafe attributes before the content is shown in previews, stored in CMS fields, or embedded in downstream pages."
 github_stars: 16854
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/cure53/DOMPurify"
 author: "Cure53"
 publisher_type: "user"

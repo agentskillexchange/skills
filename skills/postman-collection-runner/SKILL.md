@@ -3,7 +3,7 @@ name: "Postman Collection Runner"
 slug: "postman-collection-runner"
 description: ""
 github_stars: 7205
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/postmanlabs/newman"
 author: "postmanlabs"
 category: "Library & API Reference"

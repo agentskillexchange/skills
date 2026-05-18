@@ -3,7 +3,7 @@ name: "Publish installable pull-request package previews before release with pkg
 slug: "publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new"
 description: "Use pkg.pr.new when an agent needs an installable preview build from a pull request so reviewers can test a package before the maintainer cuts a real npm release."
 github_stars: 1840
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/stackblitz-labs/pkg.pr.new"
 author: "StackBlitz Labs"
 publisher_type: "company"

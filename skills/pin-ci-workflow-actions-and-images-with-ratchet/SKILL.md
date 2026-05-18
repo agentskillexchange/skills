@@ -3,7 +3,7 @@ name: "Pin CI workflow actions and images with Ratchet"
 slug: "pin-ci-workflow-actions-and-images-with-ratchet"
 description: "Audit and rewrite CI/CD workflow references so agents can pin mutable actions, containers, and images to immutable versions before changes land."
 github_stars: 928
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/sethvargo/ratchet"
 author: "Seth Vargo"
 publisher_type: "open_source"

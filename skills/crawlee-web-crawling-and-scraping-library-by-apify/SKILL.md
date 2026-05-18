@@ -3,7 +3,7 @@ name: "Crawlee Web Crawling and Scraping Library by Apify"
 slug: "crawlee-web-crawling-and-scraping-library-by-apify"
 description: "Crawlee is Apify’s open source crawling and scraping framework for Node.js. It unifies HTTP scraping and browser automation, adds queues, storage, retries, proxies, and lets developers switch between Playwright, Puppeteer, Cheerio, and JSDOM without rebuilding the whole pipeline."
 github_stars: 22714
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/apify/crawlee"
 author: "Apify"
 category: "Research & Scraping"

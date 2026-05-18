@@ -3,7 +3,7 @@ name: "Apply Git branching, commit, and pull request best practices through Git 
 slug: "apply-git-branching-commit-and-pr-best-practices-through-git-workflow-skill"
 description: "Give an agent a portable Git workflow playbook for branch strategy, commit hygiene, pull requests, merge choices, and CI-aware collaboration."
 github_stars: 13
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/netresearch/git-workflow-skill"
 author: "Netresearch DTT GmbH"
 publisher_type: "open_source_project"

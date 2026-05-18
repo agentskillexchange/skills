@@ -3,7 +3,7 @@ name: "Run long-horizon spec-driven coding agent workflows with GSD 2"
 slug: "run-long-horizon-spec-driven-coding-agent-workflows-with-gsd-2"
 description: "Use GSD 2 to break a project into milestones, manage agent context and branches, recover from drift, and let coding agents advance through supervised long-running implementation work."
 github_stars: 7340
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/gsd-build/gsd-2"
 author: "gsd-build"
 publisher_type: "open_source"

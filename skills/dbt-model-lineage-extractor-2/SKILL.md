@@ -3,7 +3,7 @@ name: "dbt Model Lineage Extractor"
 slug: "dbt-model-lineage-extractor-2"
 description: "Extracts and visualizes dbt model dependency lineage using the dbt Core manifest.json artifact API. Parses ref() and source() calls to build DAG representations via the dbt Cloud API v2."
 github_stars: 12621
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/dbt-labs/dbt-core"
 category: "Data Extraction & Transformation"
 framework: "Claude Code"

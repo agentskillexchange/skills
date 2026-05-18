@@ -3,7 +3,7 @@ name: "Tekton Pipeline Chain Validator"
 slug: "tekton-pipeline-chain-validator"
 description: "Validates Tekton pipeline supply chain security using Sigstore cosign verification and SLSA provenance checks. Ensures all pipeline tasks have signed images and proper attestation metadata via the Tekton Results API."
 github_stars: 8936
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/tektoncd/pipeline"
 author: "tektoncd"
 category: "CI/CD Integrations"

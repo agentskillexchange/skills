@@ -3,7 +3,7 @@ name: "Automattic WordPress Remote MCP"
 slug: "automattic-wordpress-remote-mcp"
 description: "Automattic WordPress Remote MCP connects MCP clients to live WordPress sites using OAuth, JWT, or application passwords. It is aimed at agents that need to read or operate against WordPress content and site features through a maintained remote MCP bridge."
 github_stars: 131
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/Automattic/mcp-wordpress-remote"
 author: "Automattic"
 category: "WordPress & CMS"

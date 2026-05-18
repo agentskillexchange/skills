@@ -3,7 +3,7 @@ name: "Run day-2 OpenClaw operations with production runbooks and reusable promp
 slug: "run-day-2-openclaw-operations-with-production-runbooks-and-reusable-prompt-patterns-from-openclaw-runbook"
 description: "Use a practical OpenClaw operations runbook to stabilize long-running deployments, tune coordinator and worker patterns, and apply reusable prompt templates for monitoring, security, and cost control."
 github_stars: 1061
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/digitalknk/openclaw-runbook"
 author: "digitalknk"
 publisher_type: "community"

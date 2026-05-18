@@ -3,7 +3,7 @@ name: "MediaInfo Metadata Extractor"
 slug: "mediainfo-metadata-extractor"
 description: "Extracts comprehensive media metadata using the MediaInfo library and pymediainfo Python bindings. Analyzes video/audio codec parameters, container formats, and HDR metadata for media asset management."
 github_stars: 1873
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/MediaArea/MediaInfo"
 author: "MediaArea"
 category: "Media & Transcription"

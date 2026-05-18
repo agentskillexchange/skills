@@ -3,7 +3,7 @@ name: "Steampipe Zero-ETL SQL Cloud API Query Engine"
 slug: "steampipe-zero-etl-sql-cloud-api-query-engine"
 description: "Query cloud APIs, SaaS services, and infrastructure with standard SQL using Steampipe. Maps over 150 data sources (AWS, Azure, GCP, GitHub, Slack, and more) to PostgreSQL tables — no ETL pipelines needed."
 github_stars: 7745
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/turbot/steampipe"
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
