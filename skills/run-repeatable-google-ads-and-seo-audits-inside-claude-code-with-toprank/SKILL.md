@@ -24,19 +24,16 @@ Claude Code plugin support, optional Google Ads account access, optional Google 
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- **Scripts:** Python 3.8+ stdlib only (or requests). Accept --output for file output. stderr for progress, stdout for data.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Toprank is the CLI side of NotFair — the skills that run inside Claude Code. [notfair.co](https://notfair.co) is the companion web app: sign in once, connect your Google Ads and Meta Ads accounts, and run audits throu...
+- Toprank is a **Claude Code plugin**. One-time setup, automatic updates.
+- ### Claude Code (recommended)
 
-Install command or upstream instructions:
-
-```
-In Claude Code run /plugin marketplace add nowork-studio/toprank and then /plugin install toprank@nowork-studio. Connect Google Ads if needed, then invoke commands such as /toprank:ads-audit or /toprank:seo-analysis.
-```
+- Source: https://github.com/nowork-studio/toprank
+- Extracted from upstream docs: https://raw.githubusercontent.com/nowork-studio/toprank/HEAD/README.md
 
 ## Documentation
 

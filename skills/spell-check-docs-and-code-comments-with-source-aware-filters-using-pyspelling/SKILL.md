@@ -24,19 +24,13 @@ Python, pyspelling, and an installed dictionary backend such as Aspell or Hunspe
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- [![PyPI - Python Version][python-image]][pypi-link]
+- names, PySpelling can do it. If you want to scan Python files for docstrings, but also avoid specific content within the
+- Python modules, you can easily write your own.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-<p>Install the Python package with <code>pip install pyspelling</code>, install a supported backend such as Aspell or Hunspell, define spelling tasks in the project configuration, then run <code>pyspelling</code> in the repository or CI job.</p>
-```
+- Source: https://github.com/facelessuser/pyspelling
+- Extracted from upstream docs: https://raw.githubusercontent.com/facelessuser/pyspelling/HEAD/README.md
 
 ## Documentation
 

@@ -2,7 +2,7 @@
 name: "Uptime Robot Status Page Webhook Alerter"
 slug: "uptime-robot-status-page-webhook-alerter"
 description: "Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty. Uses the UptimeRobot getMonitors endpoint to detect downtime transitions."
-verification: "security_reviewed"
+verification: "listed"
 source: "https://uptimerobot.com/api/"
 author: "UptimeRobot"
 category: "Monitoring & Alerts"
@@ -19,19 +19,9 @@ UptimeRobot account and an API key or webhook destination
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Create or copy an UptimeRobot API key from your account, then call the API endpoints or configure webhook targets as documented by UptimeRobot.
-```
+- Source: https://uptimerobot.com/api/
 
 ## Documentation
 

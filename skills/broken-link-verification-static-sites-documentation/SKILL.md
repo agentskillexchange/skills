@@ -24,19 +24,20 @@ Go or prebuilt htmltest binary and generated HTML output
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- docker run -v $(pwd):/test --rm wjdp/htmltest
+- docker run -v $(pwd):/test --rm wjdp/htmltest -l 3 -s
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- ### :whale: Docker
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- You'll be prompted for your password. After simply do htmltest to run.
+- By default this will install htmltest into ./bin of your current directory, to run do bin/htmltest. Rather suitable for CI environments.
+- If you need more arguments to the test run it like this:
 
-```
-Install htmltest with go install github.com/wjdp/htmltest@latest or download a release binary
-```
+- Source: https://github.com/wjdp/htmltest
+- Extracted from upstream docs: https://raw.githubusercontent.com/wjdp/htmltest/HEAD/README.md
 
 ## Documentation
 

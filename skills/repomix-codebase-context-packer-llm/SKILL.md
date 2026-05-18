@@ -20,13 +20,24 @@ Repomix packs an entire code repository into a single AI-friendly file optimized
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx repomix@latest
+- npm install -g repomix
+- yarn global add repomix
+- brew install repomix
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- If you're using Python, you might want to check out Gitingest, which is better suited for Python ecosystem and data
+- ### Docker Usage 🐳
+- You can also run Repomix using Docker.
+
+Basic usage or getting-started notes:
+- <i>Get help with configuration and usage</i><br>
+- ## 🚀 Quick Start
+- # Alternatively using yarn
+
+- Source: https://github.com/yamadashy/repomix
+- Extracted from upstream docs: https://raw.githubusercontent.com/yamadashy/repomix/HEAD/README.md
 
 ## Source
 

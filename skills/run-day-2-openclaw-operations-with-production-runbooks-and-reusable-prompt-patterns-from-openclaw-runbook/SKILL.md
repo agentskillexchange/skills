@@ -24,19 +24,13 @@ OpenClaw
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- It reflects how I actually run OpenClaw after breaking it repeatedly and wanting something stable, predictable, and boring in the best way.
+- A runbook for people who want OpenClaw to run for weeks, not minutes
+- **[heartbeat-example.md](examples/heartbeat-example.md)** - Rotating heartbeat pattern for monitoring
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Review guide.md and the examples directory, then have OpenClaw adapt the runbook’s config snippets, prompts, and operating patterns to the current deployment before applying any changes.
-```
+- Source: https://github.com/digitalknk/openclaw-runbook
+- Extracted from upstream docs: https://raw.githubusercontent.com/digitalknk/openclaw-runbook/HEAD/README.md
 
 ## Documentation
 

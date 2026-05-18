@@ -19,19 +19,17 @@ Slack workspace, Slack app, and the required user profile or status scopes
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Node Slack SDK
+- Bolt for Python
+- Python Slack SDK
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Download the command-line tool for developing Slack apps.
+- 2
+- Connect to your workspace
 
-Install command or upstream instructions:
-
-```
-Create a Slack app, grant the required scopes, install it to your workspace, then call the Slack Web API endpoints documented at the source URL.
-```
+- Source: https://api.slack.com/
 
 ## Documentation
 

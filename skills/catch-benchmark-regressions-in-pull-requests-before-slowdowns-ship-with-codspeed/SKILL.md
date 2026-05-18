@@ -26,13 +26,22 @@ A repository with executable benchmarks or benchmark commands, a CI system such 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- codspeed run cargo codspeed run
+- codspeed run pnpm vitest bench
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- 🐍 **Multi-language support** for Python, Rust, Node.js, Go, C/C++ and more.
+- codspeed exec -- python my_script.py
+- codspeed exec --mode walltime -- node app.js
+
+Basic usage or getting-started notes:
+- 🏠 **Run locally or in CI** - works on your machine and integrates with GitHub Actions, GitLab CI, and more.
+- bash
+- [!NOTE]
+
+- Source: https://github.com/CodSpeedHQ/codspeed
+- Extracted from upstream docs: https://raw.githubusercontent.com/CodSpeedHQ/codspeed/HEAD/README.md
 
 ## Documentation
 

@@ -24,19 +24,22 @@ asciinema CLI and a terminal session to record
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- cargo install --locked --git https://github.com/asciinema/asciinema
+- git clone https://github.com/asciinema/asciinema
+- cargo build --release
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Building asciinema from source requires the [Rust](https://www.rust-lang.org/)
+- The previous generation (2.x), written in Python, can be found in the python
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- To record a session run this command in your shell:
+- To stream a session via built-in HTTP server run:
+- To stream a session via a relay (asciinema server) run:
 
-```
-Install asciinema with your package manager or from release artifacts, then record a session with `asciinema rec`, stop recording when the workflow is complete, and replay or share the resulting cast file as needed.
-```
+- Source: https://github.com/asciinema/asciinema
+- Extracted from upstream docs: https://raw.githubusercontent.com/asciinema/asciinema/HEAD/README.md
 
 ## Documentation
 

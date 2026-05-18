@@ -26,19 +26,24 @@ Python environment, Graphiti library, backing graph/database components per Grap
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- docker run -p 6379:6379 -p 3000:3000 -it --rm falkordb/falkordb:latest
+- pip install graphiti-core
+- uv add graphiti-core
+- pip install graphiti-core[falkordb]
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- | **Retrieval & performance** | Pre-configured, production-ready retrieval with sub-200ms performance at scale | Custom implementation required; performance depends on your setup |
+- | **Developer tools** | Dashboard with graph visualization, debug logs, API logs; SDKs for Python, TypeScript, and Go | Build your own tools |
+- Python 3.10 or higher
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Neo4j 5.26 / FalkorDB 1.1.2 / Kuzu 0.11.2 / Amazon Neptune Database Cluster or Neptune Analytics Graph + Amazon
+- OpenSearch Serverless collection (serves as the full text search backend)
+- OpenAI API key (Graphiti defaults to OpenAI for LLM inference and embedding)
 
-```
-Install Graphiti in your Python environment, configure the storage back end described in the Graphiti docs, define the entity and relationship types your agent needs, then connect your ingestion pipeline so new episodes continuously update the temporal graph before querying it from your agent runtime.
-```
+- Source: https://github.com/getzep/graphiti
+- Extracted from upstream docs: https://raw.githubusercontent.com/getzep/graphiti/HEAD/README.md
 
 ## Documentation
 

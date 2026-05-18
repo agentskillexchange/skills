@@ -24,19 +24,13 @@ Xidel CLI
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- A simple example to return the titles of all pages linked by some starting page:
+- xidel http://example.org --follow //a --extract //title
+- xidel http://example.org -f //a -e //title
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Download a dependency-free binary for the target platform from the upstream project or build Xidel from source, then run xidel against local files, URLs, or API endpoints with the appropriate CSS, XPath, XQuery, or JSONiq expression.
-```
+- Source: https://github.com/benibela/xidel
+- Extracted from upstream docs: https://raw.githubusercontent.com/benibela/xidel/HEAD/README.md
 
 ## Documentation
 

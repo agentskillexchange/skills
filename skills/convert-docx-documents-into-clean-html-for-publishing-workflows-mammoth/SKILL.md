@@ -22,19 +22,22 @@ Node.js, DOCX files
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Run make setup
+- npm install mammoth
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [Python](https://github.com/mwilliamson/python-mammoth).
+- Available [on PyPI](https://pypi.python.org/pypi/mammoth).
+- In node.js and the browser, mammoth can be required in the usual way:
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- ## Other supported platforms
+- [WordPress](https://wordpress.org/plugins/mammoth-docx-converter/).
+- [Java/JVM](https://github.com/mwilliamson/java-mammoth).
 
-```
-npm install mammoth
-```
+- Source: https://github.com/mwilliamson/mammoth.js
+- Extracted from upstream docs: https://raw.githubusercontent.com/mwilliamson/mammoth.js/HEAD/README.md
 
 ## Documentation
 

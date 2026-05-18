@@ -26,19 +26,21 @@ Python, pytest, pytest-split
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install pytest-split
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![PyPI](https://img.shields.io/pypi/v/pytest-split?style=flat-square)](https://pypi.python.org/pypi/pytest-split/)
+- [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pytest-split?style=flat-square)](https://pypi.python.org/pypi/pytest-split/)
+- [![PyPI - License](https://img.shields.io/pypi/l/pytest-split?style=flat-square)](https://pypi.python.org/pypi/pytest-split/)
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- For example, some test suites may be fragile considering the order in which the tests are executed.
+- sh
+- First we have to store test durations from a complete test suite run.
 
-```
-pip install pytest-split
-```
+- Source: https://github.com/jerry-git/pytest-split
+- Extracted from upstream docs: https://raw.githubusercontent.com/jerry-git/pytest-split/HEAD/README.md
 
 ## Documentation
 

@@ -26,19 +26,21 @@ Python environment, doitlive installation, a scripted demo file, terminal access
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ brew update
+- $ brew install doitlive
+- $ pip install doitlive
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- PyPI: https://pypi.python.org/pypi/doitlive
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- ----------
+- Create a file called session.sh. Fill it with bash commands.
+- Run doitlive play session.sh.
 
-```
-Install doitlive from the upstream package instructions, write the demo steps in its script format, then run the playback command and tune prompts, speed, and pauses for the target session.
-```
+- Source: https://github.com/sloria/doitlive
+- Extracted from upstream docs: https://raw.githubusercontent.com/sloria/doitlive/HEAD/README.rst
 
 ## Documentation
 

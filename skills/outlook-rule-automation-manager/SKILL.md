@@ -15,13 +15,11 @@ Creates and manages Outlook email rules programmatically using the Microsoft Gra
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Access to this page requires authorization. You can try signing in or changing directories .
+- Access to this page requires authorization. You can try changing directories .
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://learn.microsoft.com/en-us/graph/api/resources/messagerule?view=graph-rest-1.0
 
 ## Documentation
 

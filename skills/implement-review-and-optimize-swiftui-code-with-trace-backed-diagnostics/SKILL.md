@@ -20,19 +20,21 @@ Xcode Instruments traces; SwiftUI source files; custom skill-capable agent clien
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx skills add https://github.com/avdlee/swiftui-agent-skill --skill swiftui-expert-skill
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Unlike the other reference files — which are text guidance — this part of the skill ships an executable Python toolchain that wraps xctrace. It lets the agent **record** a new .trace and **analyse** an existing one en...
+- scripts/instruments_parser/ — one module per lane (time_profiler, hangs, hitches, swiftui, causes), plus cross-lane correlate and a markdown summary renderer. Pure stdlib Python 3; only external dep is xctrace (ships...
+- Use this skill after new iOS or Xcode releases to refresh the deprecated API reference. It requires the [Sosumi MCP](https://github.com/NSHipster/sosumi.ai) to be available. See AGENTS.md or CONTRIBUTING.md for details.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- bash
+- For more information, [visit the skills.sh platform page](https://skills.sh/avdlee/swiftui-agent-skill/swiftui-expert-skill).
+- Then use the skill in your AI agent, for example:
 
-```
-Copy the skill folder into your agent client’s local skills path, then invoke it for SwiftUI implementation, review, or .trace analysis tasks.
-```
+- Source: https://github.com/AvdLee/SwiftUI-Agent-Skill/tree/main/swiftui-expert-skill
+- Extracted from upstream docs: https://raw.githubusercontent.com/AvdLee/SwiftUI-Agent-Skill/HEAD/README.md
 
 ## Documentation
 

@@ -18,13 +18,17 @@ Logto is a modern, open-source authentication and authorization infrastructure b
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- docker compose -p logto -f - up
+- npm init @logto
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- # Using Docker Compose(requires Docker Desktop)
+- curl -fsSL https://raw.githubusercontent.com/logto-io/logto/HEAD/docker-compose.yml | \
+- # Using Node.js (requires PostgreSQL)
+
+- Source: https://github.com/logto-io/logto
+- Extracted from upstream docs: https://raw.githubusercontent.com/logto-io/logto/HEAD/README.md
 
 ## Source
 

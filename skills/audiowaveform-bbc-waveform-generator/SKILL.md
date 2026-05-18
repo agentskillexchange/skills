@@ -18,13 +18,24 @@ audiowaveform is a BBC open-source C++ CLI tool that generates waveform data fro
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew install audiowaveform
+- docker pull realies/audiowaveform
+- make
+- make install
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- ### Docker
+- A Docker image based on Alpine Linux is available [here](https://hub.docker.com/r/realies/audiowaveform),
+- alias awf='docker run --rm -v pwd:/tmp -w /tmp realies/audiowaveform'
+
+Basic usage or getting-started notes:
+- ![Example Waveform](/doc/example.png "Example Waveform")
+- [Usage](#usage)
+- ### Ubuntu
+
+- Source: https://github.com/bbc/audiowaveform
+- Extracted from upstream docs: https://raw.githubusercontent.com/bbc/audiowaveform/HEAD/README.md
 
 ## Source
 

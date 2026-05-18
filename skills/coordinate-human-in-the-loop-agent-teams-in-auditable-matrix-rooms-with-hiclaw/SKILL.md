@@ -24,19 +24,24 @@ Docker; Matrix/Element client; LLM API key
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- docker exec -it hiclaw-manager cat /var/log/hiclaw/manager-agent.log
+- make build # Build all images
+- make test # Build + run all integration tests
+- make test-quick # Smoke test only
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- **Prerequisites**: Docker Desktop (Windows/macOS) or Docker Engine (Linux).
+- This removes all HiClaw containers (Manager, Workers, docker-proxy), Docker volume, network, env file, workspace directory, and install log.
+- **Prerequisites**
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- **Resources**: 2 CPU cores + 4 GB RAM minimum. For multiple Workers, 4 cores + 8 GB recommended.
+- **macOS / Linux:**
+- bash
 
-```
-Use the project quick start / one-command installer from the HiClaw docs or repo. Requires Docker Desktop or Docker Engine with at least 2 CPU cores and 4 GB RAM. After install, open the Manager UI at http://127.0.0.1:18088 and create Worker agents for your task rooms.
-```
+- Source: https://github.com/agentscope-ai/HiClaw
+- Extracted from upstream docs: https://raw.githubusercontent.com/agentscope-ai/HiClaw/HEAD/README.md
 
 ## Documentation
 

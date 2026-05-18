@@ -14,13 +14,12 @@ Manages GPG key lifecycle and file encryption operations using GnuPG CLI and GPG
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- 4.5 Unattended Usage
+- 5.5 Unattended Usage
+- 10.5 Run gpgconf for all users
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://www.gnupg.org/documentation/manuals/gnupg/
 
 ## Source
 

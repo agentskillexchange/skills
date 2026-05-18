@@ -3,7 +3,7 @@ name: "Sherlock Social Media Username Hunter Across 400+ Networks"
 slug: "sherlock-social-media-username-hunter"
 description: "Sherlock hunts down social media accounts by username across more than 400 social networks. It is the go-to OSINT CLI tool for verifying online identities, finding connected accounts, and building digital footprints from a single username string."
 github_stars: 76214
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/sherlock-project/sherlock"
 category: "Research & Scraping"
 framework: "Custom Agents"
@@ -18,13 +18,9 @@ Sherlock hunts down social media accounts by username across more than 400 socia
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/sherlock-project/sherlock
 
 ## Source
 

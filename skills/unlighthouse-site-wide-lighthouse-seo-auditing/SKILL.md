@@ -20,13 +20,22 @@ Unlighthouse runs Google Lighthouse across an entire site instead of just a sing
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx unlighthouse --site <your-site>
+- pnpm dlx unlighthouse --site <your-site>
+- npx skilld add unlighthouse
+- npx unlighthouse --site unlighthouse.dev --debug
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- _Requirements: Node >= 20.x._
+
+Basic usage or getting-started notes:
+- Run the following command:
+- Need a hand? Join the [Discord](https://discord.gg/275MBUBvgP) for one-on-one help.
+- ### gitignore
+
+- Source: https://github.com/harlan-zw/unlighthouse
+- Extracted from upstream docs: https://raw.githubusercontent.com/harlan-zw/unlighthouse/HEAD/README.md
 
 ## Source
 

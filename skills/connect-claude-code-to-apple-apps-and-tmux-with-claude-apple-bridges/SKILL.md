@@ -24,19 +24,20 @@ macOS 13+, Swift 5.9+, Claude Code, Apple app permissions for the relevant bridg
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- make install # Installs bridges AND skills
+- make install-skills # Install skills only
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- # Then parse with Python to save any PDF attachment
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Once set up, you can ask Claude naturally in any Claude Code session. Here are real-world examples:
+- ### Calendar-Aware Scheduling
+- *"I want to work on the Android release tomorrow — find a free slot and set a reminder."*
 
-```
-Clone the repository on macOS, build or install the documented Swift bridge tools, place the included skill where Claude Code can discover it, grant the necessary Apple app permissions, and then use the bridge commands through Claude Code prompts.
-```
+- Source: https://github.com/more-io/claude-apple-bridges
+- Extracted from upstream docs: https://raw.githubusercontent.com/more-io/claude-apple-bridges/HEAD/README.md
 
 ## Documentation
 

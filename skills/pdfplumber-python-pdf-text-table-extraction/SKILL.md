@@ -18,13 +18,21 @@ pdfplumber is a Python library for extracting detailed information from PDFs —
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install pdfplumber
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Version](https://img.shields.io/pypi/v/pdfplumber.svg)](https://pypi.python.org/pypi/pdfplumber) ![Tests](https://github.com/jsvine/pdfplumber/workflows/Tests/badge.svg) [![Code coverage](https://codecov.io/gh/jsvi...
+- Currently [tested](tests/) on [Python 3.10, 3.11, 3.12, 3.13, 3.14](.github/workflows/tests.yml).
+- [Python library](#python-library)
+
+Basic usage or getting-started notes:
+- sh
+- ## Command line interface
+- ### Basic example
+
+- Source: https://github.com/jsvine/pdfplumber
+- Extracted from upstream docs: https://raw.githubusercontent.com/jsvine/pdfplumber/HEAD/README.md
 
 ## Source
 

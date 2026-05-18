@@ -20,13 +20,21 @@ An official MCP server from Tavily that provides AI agents with real-time web se
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx -y tavily-mcp@latest
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [Node.js](https://nodejs.org/) (v20 or higher)
+- You can verify your Node.js installation by running:
+- node --version
+
+Basic usage or getting-started notes:
+- **Note:** When using the remote MCP, you can specify default parameters for all requests by including a DEFAULT_PARAMETERS header containing a JSON object with your desired defaults. Example:
+- Run claude to start Claude Code
+- **B. Using other MCP Clients (Example: Cursor):**
+
+- Source: https://github.com/tavily-ai/tavily-mcp
+- Extracted from upstream docs: https://raw.githubusercontent.com/tavily-ai/tavily-mcp/HEAD/README.md
 
 ## Source
 

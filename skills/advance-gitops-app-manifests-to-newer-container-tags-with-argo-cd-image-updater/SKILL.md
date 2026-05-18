@@ -3,7 +3,7 @@ name: "Advance GitOps app manifests to newer container tags with Argo CD Image U
 slug: "advance-gitops-app-manifests-to-newer-container-tags-with-argo-cd-image-updater"
 description: "Track approved container images and write back the matching GitOps manifest changes instead of hand-editing tags across Argo CD applications."
 github_stars: 1661
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/argoproj-labs/argocd-image-updater"
 author: "Argo Project Labs"
 publisher_type: "organization"
@@ -24,19 +24,9 @@ Argo CD-managed Kubernetes applications, Argo CD Image Updater, registry access,
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Install Argo CD Image Updater from the upstream manifests, Helm chart, or release artifacts, configure registry credentials and the desired write-back method, then annotate supported Argo CD applications so approved image tags can be tracked and updated automatically.
-```
+- Source: https://github.com/argoproj-labs/argocd-image-updater
 
 ## Documentation
 

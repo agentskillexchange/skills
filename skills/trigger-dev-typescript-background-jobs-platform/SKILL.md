@@ -20,13 +20,20 @@ Trigger.dev is an open-source platform for building and deploying long-running b
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- [Docker self-hosting guide](https://trigger.dev/docs/self-hosting/docker) - use Docker Compose to spin up a Trigger.dev instance
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- **True runtime freedom**: Customize your deployed tasks with system packages – run browsers, Python scripts, FFmpeg and more.
+- **[Build extensions](https://trigger.dev/docs/config/extensions/overview#build-extensions)** - Hook directly into the build system and customize the build process. Run Python scripts, FFmpeg, browsers, and more.
+
+Basic usage or getting-started notes:
+- [Website](https://trigger.dev) | [Docs](https://trigger.dev/docs) | [Issues](https://github.com/triggerdotdev/trigger.dev/issues) | [Example projects](https://github.com/triggerdotdev/examples) | [Feature requests](ht...
+- **Observability & monitoring**: Each run has full tracing and logs. Configure error alerts to catch bugs fast.
+- **[Automatic retries](https://trigger.dev/docs/errors-retrying)** - If your task encounters an uncaught error, we automatically attempt to run it again
+
+- Source: https://github.com/triggerdotdev/trigger.dev
+- Extracted from upstream docs: https://raw.githubusercontent.com/triggerdotdev/trigger.dev/HEAD/README.md
 
 ## Source
 

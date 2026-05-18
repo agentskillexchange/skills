@@ -18,13 +18,17 @@ mitmproxy is an interactive, SSL/TLS-capable intercepting HTTP proxy for penetra
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- [![Latest Version](https://shields.mitmproxy.org/pypi/v/mitmproxy.svg)](https://pypi.python.org/pypi/mitmproxy)
+- [![Supported Python versions](https://shields.mitmproxy.org/pypi/pyversions/mitmproxy.svg)](https://pypi.python.org/pypi/mitmproxy)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- The installation instructions are [here](https://docs.mitmproxy.org/stable/overview-installation).
+- If you want to install from source, see [CONTRIBUTING.md](./CONTRIBUTING.md).
+- ## Documentation & Help
+
+- Source: https://github.com/mitmproxy/mitmproxy
+- Extracted from upstream docs: https://raw.githubusercontent.com/mitmproxy/mitmproxy/HEAD/README.md
 
 ## Source
 

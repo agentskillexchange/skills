@@ -18,13 +18,24 @@ The official HashiCorp Terraform MCP server integrates with the Terraform Regist
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- docker run -p 8080:8080 --rm -e TRANSPORT_MODE=streamable-http -e TRANSPORT_HOST=0.0.0.0 hashicorp/terraform-mcp-server
+- go install github.com/hashicorp/terraform-mcp-server/cmd/terraform-mcp-server@latest
+- go install github.com/hashicorp/terraform-mcp-server/cmd/terraform-mcp-server@main
+- git clone https://github.com/hashicorp/terraform-mcp-server.git
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Ensure [Docker](https://www.docker.com/) is installed and running to use the server in a containerized environment.
+- | ENABLE_TF_OPERATIONS | Enable tools that require explicit approval | false |
+- "command": "docker",
+
+Basic usage or getting-started notes:
+- **Workspace Operations**: Create, update, delete workspaces with support for variables, tags, and run management
+- **OTel metrics for monitoring tool usage**: Integration with open telemetry meters to track tool-call volume, latency and failures in Streamable HTTP mode. Also exposes default http server metrics when this feature is...
+- Install an AI assistant that supports the Model Context Protocol (MCP).
+
+- Source: https://github.com/hashicorp/terraform-mcp-server
+- Extracted from upstream docs: https://raw.githubusercontent.com/hashicorp/terraform-mcp-server/HEAD/README.md
 
 ## Source
 

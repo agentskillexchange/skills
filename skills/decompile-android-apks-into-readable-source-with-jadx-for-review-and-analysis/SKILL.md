@@ -24,19 +24,20 @@ jadx CLI or GUI, target APK or DEX files, Java runtime, local workspace for extr
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew install jadx
+- git clone https://github.com/skylot/jadx.git
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- JDK 17 or higher must be installed:
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- find usage
+- smali debugger, check [wiki page](https://github.com/skylot/jadx/wiki/Smali-debugger) for setup and usage
+- After download unpack zip file go to bin directory and run:
 
-```
-Install jadx from the upstream release archive or package path, provide the target APK or DEX file, then run the documented decompile flow to inspect the generated readable source output.
-```
+- Source: https://github.com/skylot/jadx
+- Extracted from upstream docs: https://raw.githubusercontent.com/skylot/jadx/HEAD/README.md
 
 ## Documentation
 

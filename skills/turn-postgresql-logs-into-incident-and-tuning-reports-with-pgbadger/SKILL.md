@@ -24,19 +24,21 @@ pgBadger, PostgreSQL logs with compatible log settings, and a shell environment 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- make && sudo make install
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Requires incremental output directories and the
+- month. Requires incremental output directories and
+- You must enable and set some configuration directives in your postgresql.conf
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- PostgreSQL log analyzer with fully detailed reports and graphs.
+- Arguments:
+- logfile can be a single log file, a list of files, or a shell command
 
-```
-Install pgBadger from your package manager or source, point it at PostgreSQL log files, and generate HTML or text reports during incident review or tuning sessions.
-```
+- Source: https://github.com/darold/pgbadger
+- Extracted from upstream docs: https://raw.githubusercontent.com/darold/pgbadger/HEAD/README.md
 
 ## Documentation
 

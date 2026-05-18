@@ -18,13 +18,17 @@ The minimal, blazing-fast, and infinitely customizable prompt for any shell. Sta
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- python
+- **[denysdovhan/robbyrussell-node](https://github.com/denysdovhan/robbyrussell-node)** – Cross-shell robbyrussell theme written in JavaScript.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- A [Nerd Font](https://www.nerdfonts.com/) installed and enabled in your terminal (for example, try the [FiraCode Nerd Font](https://www.nerdfonts.com/font-downloads)).
+- ### Step 1. Install Starship
+- Select your operating system from the list below to view installation instructions:
+
+- Source: https://github.com/starship/starship
+- Extracted from upstream docs: https://raw.githubusercontent.com/starship/starship/HEAD/README.md
 
 ## Source
 

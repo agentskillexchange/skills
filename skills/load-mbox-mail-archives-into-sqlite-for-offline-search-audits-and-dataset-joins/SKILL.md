@@ -23,19 +23,20 @@ Python 3, pip, a .mbox mailbox export, and SQLite-compatible analysis tooling.
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install mbox-to-sqlite
+- pip install -e '.[test]'
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- python -m venv venv
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Use the mbox command to import a .mbox file into a SQLite database:
+- mbox-to-sqlite mbox emails.db path/to/messages.mbox
+- You can try this out against an example containing a sample of 3,266 emails from the [Enron corpus](https://en.wikipedia.org/wiki/Enron_Corpus) like this:
 
-```
-pip install mbox-to-sqlite
-```
+- Source: https://github.com/simonw/mbox-to-sqlite
+- Extracted from upstream docs: https://raw.githubusercontent.com/simonw/mbox-to-sqlite/HEAD/README.md
 
 ## Documentation
 

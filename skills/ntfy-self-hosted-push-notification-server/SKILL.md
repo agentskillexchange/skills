@@ -18,13 +18,12 @@ ntfy is an open-source HTTP-based pub-sub notification service that lets you sen
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- **without having to sign up or pay any fees**. If you'd like to run your own instance of the service, you can easily do
+- [Getting started](https://ntfy.sh/docs/) |
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/binwiederhier/ntfy
+- Extracted from upstream docs: https://raw.githubusercontent.com/binwiederhier/ntfy/HEAD/README.md
 
 ## Source
 

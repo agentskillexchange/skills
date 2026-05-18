@@ -26,19 +26,22 @@ Node.js 18+, npm, @playwright/cli, Playwright browsers, shell access from a codi
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install -g @playwright/cli@latest
+- npx --no-install playwright-cli --version
+- When local version is available, use npx playwright-cli in all commands. Otherwise, install playwright-cli as a global command:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Node.js 18 or newer
+- | PLAYWRIGHT_MCP_EXTENSION Connect to a running browser instance (Edge/Chrome only). Requires the "Playwright MCP Bridge" browser extension to be installed. |
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Claude Code, GitHub Copilot, or any other coding agent.
+- bash
+- playwright-cli --help
 
-```
-npm install -g @playwright/cli@latest; playwright-cli --help; optionally run playwright-cli install --skills for coding-agent skill integration.
-```
+- Source: https://github.com/microsoft/playwright-cli
+- Extracted from upstream docs: https://raw.githubusercontent.com/microsoft/playwright-cli/HEAD/README.md
 
 ## Documentation
 

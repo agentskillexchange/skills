@@ -20,19 +20,16 @@ GitHub CLI, gh-aw extension
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Make software maintenance enjoyable! From basic issue triage to Repo Assist - a powerful triage multi-task backlog burner, issue labeller, bug fixer and general repository assistant. Other workflows help gate your rep...
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- [💰 Cost Tracker](docs/cost-tracker.md) - Post per-run agent spend summaries on pull requests using token-usage.jsonl from gh-aw's firewall
+- [📝 Markdown Linter](docs/markdown-linter.md) - Run Markdown quality checks on all documentation files and get a prioritized issue report of violations
+- **[Reporting](workflows/shared/reporting.md)** - Guidelines for reporting workflow run information with clickable run ID links
 
-Install command or upstream instructions:
-
-```
-gh extension install github/gh-aw && gh aw add-wizard githubnext/agentics/update-docs
-```
+- Source: https://github.com/githubnext/agentics/blob/main/docs/update-docs.md
+- Extracted from upstream docs: https://raw.githubusercontent.com/githubnext/agentics/HEAD/README.md
 
 ## Documentation
 

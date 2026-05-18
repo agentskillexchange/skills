@@ -24,19 +24,24 @@ onWatch binary or Homebrew install, local shell access, provider credentials for
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- docker run -d --name onwatch -p 9211:9211 \
+- git clone https://github.com/onllm-dev/onwatch.git && cd onwatch
+- docker-compose up -d
+- docker-compose logs -f
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- | GEMINI_REFRESH_TOKEN | Gemini OAuth refresh token (for Docker/headless) |
+- | GEMINI_ACCESS_TOKEN | Gemini OAuth access token (for Docker/headless) |
+- | ANTIGRAVITY_BASE_URL | Antigravity base URL (for Docker/manual config) |
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Track usage across [Synthetic](https://synthetic.new), [Z.ai](https://z.ai), [Anthropic](https://anthropic.com), [Codex](https://openai.com/codex), [GitHub Copilot](https://github.com/features/copilot), [MiniMax](http...
+- See history, get alerts, and open a local web dashboard before you hit throttling or run over budget. Additionally, you can ingest local telemetry from your own API-driven workflows with API Integrations, keeping trac...
+- onWatch fills the gap between "current usage snapshot" and the historical, per-cycle, cross-session view that developers actually need. It runs as a lightweight background agent (<50 MB RAM with all nine providers pol...
 
-```
-Install onWatch with the upstream curl installer or Homebrew, run onwatch setup to configure provider credentials, then start onwatch before or during long coding-agent runs to monitor quota headroom and alerts.
-```
+- Source: https://github.com/onllm-dev/onWatch
+- Extracted from upstream docs: https://raw.githubusercontent.com/onllm-dev/onWatch/HEAD/README.md
 
 ## Documentation
 

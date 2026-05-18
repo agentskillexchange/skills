@@ -19,13 +19,24 @@ Validates Prometheus recording and alerting rules using promtool check rules, an
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Docker images are available on [Quay.io](https://quay.io/repository/prometheus/alertmanager) or [Docker Hub](https://hub.docker.com/r/prom/alertmanager/).
+- $ docker run --name alertmanager -d -p 127.0.0.1:9093:9093 quay.io/prometheus/alertmanager
+- $ git clone https://github.com/prometheus/alertmanager.git
+- $ make build
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Docker Repository on Quay](https://quay.io/repository/prometheus/alertmanager/status "Docker Repository on Quay")][quay]
+- [![Docker Pulls](https://img.shields.io/docker/pulls/prom/alertmanager.svg?maxAge=604800)][hub]
+- ### Docker images
+
+Basic usage or getting-started notes:
+- There are various ways of installing Alertmanager.
+- ### Precompiled binaries
+- Precompiled binaries for released versions are available in the
+
+- Source: https://github.com/prometheus/alertmanager
+- Extracted from upstream docs: https://raw.githubusercontent.com/prometheus/alertmanager/HEAD/README.md
 
 ## Source
 

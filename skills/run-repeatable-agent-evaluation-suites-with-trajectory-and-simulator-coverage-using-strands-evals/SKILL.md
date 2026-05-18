@@ -24,19 +24,24 @@ Python 3.10+, pip, optional judge-model access
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install strands-agents-evals
+- pip install -e .
+- pip install -e ".[test]"
+- pip install -e ".[test,dev]"
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <a href="https://python.org"><img alt="Python versions" src="https://img.shields.io/pypi/pyversions/strands-agents-evals"/></a>
+- ◆ <a href="https://github.com/strands-agents/sdk-python">Python SDK</a>
+- python
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- **Multiple Evaluation Types**: Output evaluation, trajectory analysis, tool usage assessment, and interaction evaluation
+- bash
+- from strands import Agent
 
-```
-Install with `pip install strands-agents-evals`, define cases and evaluators in Python, then run experiments with `Experiment(...).run_evaluations(...)` against your agent or app function.
-```
+- Source: https://github.com/strands-agents/evals
+- Extracted from upstream docs: https://raw.githubusercontent.com/strands-agents/evals/HEAD/README.md
 
 ## Documentation
 

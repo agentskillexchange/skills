@@ -26,19 +26,23 @@ Node.js 20.19+; a local Firefox 100+ installation; an MCP-compatible client such
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- **Note**: This MCP server requires a local Firefox browser installation and cannot run on cloud hosting services like glama.ai. Use npx firefox-devtools-mcp@latest to run locally, or use Docker with the provided Docke...
+- Recommended: use npx so you always run the latest published version from npm.
+- npm run setup
+- npx @modelcontextprotocol/inspector npx firefox-devtools-mcp@latest --start-url https://example.com --headless
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Node.js ≥ 20.19.0
+- --enable-privileged-context — enable privileged context tools: list/select privileged contexts, evaluate privileged scripts, get/set Firefox prefs, and list extensions. Requires MOZ_REMOTE_ALLOW_SYSTEM_ACCESS=1 (ENABL...
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- **Use a dedicated Firefox profile.** Never run the server against your regular profile — the agent has access to whatever the browser can reach, including cookies and saved sessions.
+- Firefox 100+ installed (auto‑detected, or pass --firefox-path)
+- Option A — Claude Code CLI
 
-```
-<p>Use <code>npx firefox-devtools-mcp@latest</code> for the recommended install path, or add it directly to your MCP client config. For Claude Code, run <code>claude mcp add firefox-devtools npx firefox-devtools-mcp@latest</code>. Optional flags like <code>--headless</code>, <code>--viewport</code>, <code>--start-url</code>, and <code>--connect-existing</code> let you tune the Firefox session for debugging or attach to a real browser profile.</p>
-```
+- Source: https://github.com/mozilla/firefox-devtools-mcp
+- Extracted from upstream docs: https://raw.githubusercontent.com/mozilla/firefox-devtools-mcp/HEAD/README.md
 
 ## Documentation
 

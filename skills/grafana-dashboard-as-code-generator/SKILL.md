@@ -23,19 +23,13 @@ Grafonnet, Jsonnet, Grafana HTTP API, grafana-toolkit
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- Grafonnet uses the [Jsonnet](https://jsonnet.org/) programming language.
+- **NOTE**: There is a significant performance issue with the C implementation of Jsonnet. You are strongly
+- recommended to use the newer [go-jsonnet](https://github.com/google/go-jsonnet) Jsonnet implementation.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-jb install github.com/grafana/grafonnet/gen/grafonnet-latest@main
-```
+- Source: https://github.com/grafana/grafonnet
+- Extracted from upstream docs: https://raw.githubusercontent.com/grafana/grafonnet/HEAD/README.md
 
 ## Documentation
 

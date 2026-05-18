@@ -18,13 +18,16 @@ Topgrade is a CLI tool written in Rust that detects all package managers and upd
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Although note that this requires the command to exit the shell correctly, or else the shell will hang indefinitely.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- [![Packaging status](https://repology.org/badge/vertical-allrepos/topgrade.svg)](https://repology.org/project/topgrade/versions)
+- ### Official
+- Self-updating binary (all platforms): [releases](https://github.com/topgrade-rs/topgrade/releases)
+
+- Source: https://github.com/topgrade-rs/topgrade
+- Extracted from upstream docs: https://raw.githubusercontent.com/topgrade-rs/topgrade/HEAD/README.md
 
 ## Source
 

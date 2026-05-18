@@ -18,13 +18,24 @@ Hurl is a command-line tool for running and testing HTTP requests defined in pla
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ brew install hurl
+- $ cargo install --locked hurl
+- $ conda install -c conda-forge hurl
+- $ docker pull ghcr.io/orange-opensource/hurl:latest
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [Docker](#docker)
+- Asserting JSON body response (node values, collection count etc...) with [JSONPath]:
+- By default, Hurl doesn't follow redirection so each step of a redirect must be run manually and can be analysed:
+
+Basic usage or getting-started notes:
+- GET https://example.org
+- POST https://example.org/login
+- GET https://example.org/api/health
+
+- Source: https://github.com/Orange-OpenSource/hurl
+- Extracted from upstream docs: https://raw.githubusercontent.com/Orange-OpenSource/hurl/HEAD/README.md
 
 ## Source
 

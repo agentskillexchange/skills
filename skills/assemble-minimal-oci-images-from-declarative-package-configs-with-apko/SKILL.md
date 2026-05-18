@@ -24,19 +24,23 @@ apko and access to the package sources and OCI output destination you intend to 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew install apko
+- go install chainguard.dev/apko@latest
+- docker run cgr.dev/chainguard/apko version
+- docker run -v "$PWD":/work cgr.dev/chainguard/apko build examples/alpine-base.yaml apko-alpine:edge apko-alpine.tar
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- or, with Docker:
+- You can then load the generated tar image into a Docker environment:
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- **Fully reproducible by default.** Run apko twice and you will get exactly the same binary.
+- **Services.** apko supports using the [s6 supervision suite](https://skarnet.org/software/s6) to run multiple processes
+- You can install apko from Homebrew:
 
-```
-Install apko, create a declarative image configuration that names packages and metadata, then build the OCI image artifact from that config and publish it through your normal registry flow if needed.
-```
+- Source: https://github.com/chainguard-dev/apko
+- Extracted from upstream docs: https://raw.githubusercontent.com/chainguard-dev/apko/HEAD/README.md
 
 ## Documentation
 

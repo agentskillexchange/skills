@@ -18,13 +18,19 @@ xsv is a fast CSV command-line toolkit written in Rust by Andrew Gallant (BurntS
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ brew install xsv
+- cargo install xsv
+- git clone git://github.com/BurntSushi/xsv
+- cargo build --release
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- **search** - Run a regex over CSV data. Applies the regex to each field
+- So, this command takes about 12 seconds to run on my machine, but we can speed
+- be parsed. For example, let's say you wanted to grab the last 10 records:
+
+- Source: https://github.com/BurntSushi/xsv
+- Extracted from upstream docs: https://raw.githubusercontent.com/BurntSushi/xsv/HEAD/README.md
 
 ## Source
 

@@ -24,19 +24,18 @@ obsidian-export CLI and access to the source vault directory
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- As a text interface, this must be run from a terminal or Windows PowerShell.
+- Note that the destination directory must exist, so you may need to create a new, empty directory first.
+- Some static site generators are picky about frontmatter and require it to be present.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- docs directory and run generate.sh.
+- ## Pre-built binaries
+- Pre-compiled binaries for all major platforms are available at <https://github.com/zoni/obsidian-export/releases>
 
-Install command or upstream instructions:
-
-```
-Install obsidian-export from Cargo or an upstream release binary, then run it against the source vault and destination directory to produce a regular Markdown tree.
-```
+- Source: https://github.com/zoni/obsidian-export
+- Extracted from upstream docs: https://raw.githubusercontent.com/zoni/obsidian-export/HEAD/README.md
 
 ## Documentation
 

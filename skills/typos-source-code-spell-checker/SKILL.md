@@ -18,13 +18,18 @@ A blazing-fast source code spell checker written in Rust that finds and corrects
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ cargo install typos-cli --locked
+- $ brew install typos-cli
+- $ conda install typos
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Fast enough to run on monorepos
+- Low false positives so you can run on PRs
+- [Getting Started](#getting-started)
+
+- Source: https://github.com/crate-ci/typos
+- Extracted from upstream docs: https://raw.githubusercontent.com/crate-ci/typos/HEAD/README.md
 
 ## Source
 

@@ -20,13 +20,24 @@ Pa11y is a real open-source accessibility testing tool that lets agents audit pa
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew install nvm
+- npm install -g pa11y
+- npm install pa11y --save-dev
+- npm run lint # Lint the code
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Pa11y is your automated accessibility testing pal. It runs accessibility tests on your pages via the command line or Node.js, so you can automate your testing process.
+- [![Node.js version support][shield-node]][info-node]
+- const pa11y = require('pa11y');
+
+Basic usage or getting-started notes:
+- pa11y https://example.com
+- pa11y('https://example.com').then((results) => {
+- ### Linux and macOS
+
+- Source: https://github.com/pa11y/pa11y
+- Extracted from upstream docs: https://raw.githubusercontent.com/pa11y/pa11y/HEAD/README.md
 
 ## Source
 

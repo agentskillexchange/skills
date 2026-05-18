@@ -24,19 +24,24 @@ Python CLI, source docs/repos/PDFs, target agent platform for packaged output
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install skill-seekers
+- pip install skill-seekers[gemini]
+- pip install skill-seekers[openai]
+- pip install skill-seekers[minimax]
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+- [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/skill-seekers.svg)](https://pypi.org/project/skill-seekers/)
+- # Video (YouTube, Vimeo, or local file — requires skill-seekers[video])
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- ## 🚀 Quick Start (3 Commands)
+- skill-seekers create https://docs.django.com/ --agent-cmd "my-custom-agent run"
+- | **Get started quickly** | [Quick Start](docs/getting-started/02-quick-start.md) - 3 commands to first skill |
 
-```
-Install the Skill Seekers CLI from the upstream project, then run skill-seekers create <source> followed by skill-seekers package <output> --target <platform>.
-```
+- Source: https://github.com/yusufkaraaslan/Skill_Seekers
+- Extracted from upstream docs: https://raw.githubusercontent.com/yusufkaraaslan/Skill_Seekers/HEAD/README.md
 
 ## Documentation
 

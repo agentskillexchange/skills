@@ -24,19 +24,23 @@ Python with pip, Agentic Radar CLI, a supported agent framework codebase such as
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install agentic-radar
+- pip install "agentic-radar[crewai]"
+- pip install "agentic-radar[openai-agents]"
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <li><a href="#prerequisites">Prerequisites</a></li>
+- There are none! Just make sure you have Python (pip) installed on your machine.
+- Some features require extra installations, depending on the targeted agentic framework. See more [below](#advanced-installation).
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- <a href="#getting-started-">Getting Started</a>
+- <li><a href="#usage">Usage</a></li>
+- **[View Full Report Example Here](https://agentic-radar.neocities.org/)**
 
-```
-Install with pip install agentic-radar, add any documented framework extras if needed, then run the scan command against the target workflow folder to generate and review the HTML security report before deployment.
-```
+- Source: https://github.com/splx-ai/agentic-radar
+- Extracted from upstream docs: https://raw.githubusercontent.com/splx-ai/agentic-radar/HEAD/README.md
 
 ## Documentation
 

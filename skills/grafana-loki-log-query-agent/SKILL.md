@@ -18,13 +18,21 @@ Queries Grafana Loki log aggregation system using LogQL via the Loki HTTP API. F
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ git clone https://github.com/grafana/loki
+- Alternatively, on Unix systems you can use make to build the binary, which adds additional arguments to the go build command.
+- $ make loki
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [Docker Driver Client](https://grafana.com/docs/loki/latest/clients/docker-driver/) is a Docker plugin to send logs directly to Loki from Docker containers.
+
+Basic usage or getting-started notes:
+- does not do full text indexing on logs. By storing compressed, unstructured logs and only indexing metadata, Loki is simpler to operate and cheaper to run.
+- [Installing Loki](https://grafana.com/docs/loki/latest/installation/)
+- [Installing Alloy](https://grafana.com/docs/loki/latest/send-data/alloy/)
+
+- Source: https://github.com/grafana/loki
+- Extracted from upstream docs: https://raw.githubusercontent.com/grafana/loki/HEAD/README.md
 
 ## Source
 

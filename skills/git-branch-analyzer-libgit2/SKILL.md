@@ -19,13 +19,24 @@ Analyzes Git repository branch topology using libgit2 bindings and git-log parsi
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ cmake ..
+- $ cmake --build .
+- $ cmake -DEXPERIMENTAL_SHA256=ON ..
+- $ cmake -DOPENSSL_ROOT_DIR=/tmp/openssl-3.3.2 ..
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [Python](http://www.pygit2.org/),
+- [Node.js](http://nodegit.org),
+- Node.js, or Ruby, then there is probably a
+
+Basic usage or getting-started notes:
+- [Quick Start](#quick-start)
+- [Advanced Usage](#advanced-usage)
+- ===========
+
+- Source: https://github.com/libgit2/libgit2
+- Extracted from upstream docs: https://raw.githubusercontent.com/libgit2/libgit2/HEAD/README.md
 
 ## Documentation
 

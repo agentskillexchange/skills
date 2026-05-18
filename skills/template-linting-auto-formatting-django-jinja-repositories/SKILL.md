@@ -24,19 +24,17 @@ Python 3.9 or higher and djLint
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install djlint
+- npm i djlint
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Once upon a time all the other programming languages had a formatter and linter. Css, javascript, python, the c suite, typescript, ruby, php, go, swift, and you know the others. The cool kids on the block.
+- _Or with the npm experimental install - Note, this requires python and pip to be on your system path._
+- **⚠️ Help Needed! ⚠️** _Good with python?_ djLint was an experimental project and is catching on with other devs. Help out with a rewrite of the formatter to improve speed and html style for edge cases. Contribute on...
 
-Install command or upstream instructions:
-
-```
-pip install djlint
-```
+- Source: https://github.com/djlint/djLint
+- Extracted from upstream docs: https://raw.githubusercontent.com/djlint/djLint/HEAD/README.md
 
 ## Documentation
 

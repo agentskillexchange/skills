@@ -18,13 +18,24 @@ Lightpanda is a headless browser built from scratch in Zig, purpose-designed for
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew install lightpanda-io/browser/lightpanda
+- docker run -d --name lightpanda -p 127.0.0.1:9222:9222 lightpanda/browser:nightly
+- brew install cmake
+- make test # Run all tests
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- **Install from Docker**
+- Lightpanda provides [official Docker
+- images](https://hub.docker.com/r/lightpanda/browser) for both Linux amd64 and
+
+Basic usage or getting-started notes:
+- **Package Managers**
+- Latest nightly from Homebrew:
+- console
+
+- Source: https://github.com/lightpanda-io/browser
+- Extracted from upstream docs: https://raw.githubusercontent.com/lightpanda-io/browser/HEAD/README.md
 
 ## Source
 

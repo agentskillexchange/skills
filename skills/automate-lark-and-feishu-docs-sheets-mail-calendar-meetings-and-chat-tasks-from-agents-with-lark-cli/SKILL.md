@@ -26,19 +26,24 @@ Lark CLI, Node.js or a release binary, Lark or Feishu account access, app creden
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx @larksuite/cli@latest install
+- git clone https://github.com/larksuite/cli.git
+- make install
+- npx skills add larksuite/cli -y -g
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Node.js (npm/npx)
+- Go v1.23+ and Python 3 (only required for building from source)
+- Requires Go v1.23+ and Python 3.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [Install](#installation--quick-start) · [AI Agent Skills](#agent-skills) · [Auth](#authentication) · [Commands](#three-layer-command-system) · [Advanced](#advanced-usage) · [Security](#security--risk-warnings-read-bef...
+- Before you start, make sure you have:
+- **Note for AI assistants:** If you are an AI Agent helping the user with installation, jump directly to [Quick Start (AI Agent)](#quick-start-ai-agent), which contains all the steps you need to complete.
 
-```
-Install the CLI from npm or from the repository release, initialize app credentials, complete the documented auth flow, then run the workspace command or packaged agent skill that matches the task.
-```
+- Source: https://github.com/larksuite/cli
+- Extracted from upstream docs: https://raw.githubusercontent.com/larksuite/cli/HEAD/README.md
 
 ## Documentation
 

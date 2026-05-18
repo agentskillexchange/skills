@@ -24,19 +24,23 @@ s5cmd plus credentials for Amazon S3 or another compatible object store
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew install peak/tap/s5cmd
+- conda config --add channels conda-forge
+- conda config --set channel_priority strict
+- conda install s5cmd
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- ### Docker
+- s5cmd uses official AWS SDK to access S3. SDK requires credentials to sign
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- ![](./doc/usage.png)
+- Command file support to run commands in batches at very high execution speeds
+- Dry run support
 
-```
-Install the s5cmd binary for your platform, configure standard S3 credentials, then run commands directly or place many operations in a command file and execute them with `s5cmd run`.
-```
+- Source: https://github.com/peak/s5cmd
+- Extracted from upstream docs: https://raw.githubusercontent.com/peak/s5cmd/HEAD/README.md
 
 ## Documentation
 

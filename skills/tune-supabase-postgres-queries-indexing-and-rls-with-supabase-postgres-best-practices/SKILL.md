@@ -20,19 +20,18 @@ Supabase Postgres project access, SQL schema and query context, optional query p
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx skills add supabase/agent-skills
+- npx skills add supabase/agent-skills --skill supabase
+- npx skills add supabase/agent-skills --skill supabase-postgres-best-practices
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- See the [Supabase AI Skills documentation](https://supabase.com/docs/guides/getting-started/ai-skills)
+- for detailed installation instructions.
+- bash
 
-Install command or upstream instructions:
-
-```
-Install the Supabase skills repository with npx skills add supabase/agent-skills or install just this skill with npx skills add supabase/agent-skills --skill supabase-postgres-best-practices, then invoke it while reviewing SQL, schema, indexing, pooling, or RLS work.
-```
+- Source: https://github.com/supabase/agent-skills/tree/main/supabase-postgres-best-practices
+- Extracted from upstream docs: https://raw.githubusercontent.com/supabase/agent-skills/HEAD/README.md
 
 ## Documentation
 

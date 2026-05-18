@@ -24,19 +24,21 @@ Inspektor Gadget installed on Kubernetes or Linux with permissions to run gadget
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- docker run -ti --rm --privileged -v /:/host --pid=host ghcr.io/inspektor-gadget/ig:latest run trace_open:latest
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- ### Kubectl Node Debug
+- We can use [kubectl node debug](https://kubernetes.io/docs/tasks/debug/debug-cluster/kubectl-node-debug/) to run ig on a Kubernetes node:
+- kubectl debug --profile=sysadmin node/minikube-docker -ti --image=ghcr.io/inspektor-gadget/ig:latest -- ig run trace_open:latest
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Security mechanisms to restrict and lock-down which Gadgets can be run
+- The following examples use the [trace_open](https://www.inspektor-gadget.io/docs/latest/gadgets/trace_open) Gadget which triggers when a file is open on the system.
+- ### Kubernetes
 
-```
-Install kubectl-gadget via krew or install the ig binary, then run a named gadget such as kubectl gadget run trace_exec:latest or ig run trace_open:latest against the target environment.
-```
+- Source: https://github.com/inspektor-gadget/inspektor-gadget
+- Extracted from upstream docs: https://raw.githubusercontent.com/inspektor-gadget/inspektor-gadget/HEAD/README.md
 
 ## Documentation
 

@@ -24,19 +24,18 @@ Claude Mem; supported coding-agent runtime such as Claude Code, OpenClaw, Codex,
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- <img src="https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen.svg" alt="Node">
+- **Node.js**: 18.0.0 or higher
+- **uv**: Python package manager for vector search (auto-installed if missing)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- <a href="#quick-start">Quick Start</a> •
+- Claude-Mem seamlessly preserves context across sessions by automatically capturing tool usage observations, generating semantic summaries, and making them available to future sessions. This enables Claude to maintain...
+- **[Installation Guide](https://docs.claude-mem.ai/installation)** - Quick start & advanced installation
 
-Install command or upstream instructions:
-
-```
-Follow the upstream Claude Mem installation guide for the target agent runtime, then run a short session and verify that memory capture and future context injection are active before relying on it for project continuity.
-```
+- Source: https://github.com/thedotmack/claude-mem
+- Extracted from upstream docs: https://raw.githubusercontent.com/thedotmack/claude-mem/HEAD/README.md
 
 ## Documentation
 

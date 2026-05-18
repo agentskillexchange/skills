@@ -24,19 +24,20 @@ Local development environment, supported agent runtime such as Claude or Codex, 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew tap 0xNyk/lacp && brew install lacp
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- ├── hooks/ # Python hook pipeline for Claude Code
+- Modular Python hooks enforcing quality at every session stage:
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- bash
+- # Homebrew (recommended)
+- # or cURL bootstrap
 
-```
-Install LACP from Homebrew or the upstream bootstrap path, run the documented bootstrap and doctor steps, configure the local policy profile, then route tasks through lacp run, posture, preflight, or worktree workflows as needed.
-```
+- Source: https://github.com/0xNyk/lacp
+- Extracted from upstream docs: https://raw.githubusercontent.com/0xNyk/lacp/HEAD/README.md
 
 ## Documentation
 

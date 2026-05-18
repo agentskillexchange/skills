@@ -18,13 +18,22 @@ A modern replacement for ps written in Rust. procs provides colorized, human-rea
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew install procs
+- cargo install procs
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Docker container name
+- ### Show Docker container name
+- If you have access permission to docker daemon ( unix:///var/run/docker.sock ), Docker column is added.
+
+Basic usage or getting-started notes:
+- [Usage](#usage)
+- ### Download binary
+- Download from [release page](https://github.com/dalance/procs/releases/latest), and extract to the directory in PATH.
+
+- Source: https://github.com/dalance/procs
+- Extracted from upstream docs: https://raw.githubusercontent.com/dalance/procs/HEAD/README.md
 
 ## Source
 

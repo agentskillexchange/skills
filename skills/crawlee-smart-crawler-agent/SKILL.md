@@ -21,13 +21,23 @@ Implements intelligent web crawling using the Crawlee framework with adaptive re
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx crawlee create my-crawler
+- npm start
+- npm install crawlee playwright
+- npm install crawlee@next
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Do you prefer 🐍 Python instead of JavaScript? [👉 Checkout Crawlee for Python 👈](https://github.com/apify/crawlee-python).
+- Crawlee requires **Node.js 16 or higher**.
+
+Basic usage or getting-started notes:
+- We recommend visiting the [Introduction tutorial](https://crawlee.dev/js/docs/introduction) in Crawlee documentation for more information.
+- ### With Crawlee CLI
+- The fastest way to try Crawlee out is to use the **Crawlee CLI** and choose the **Getting started example**. The CLI will install all the necessary dependencies and add boilerplate code for you to play with.
+
+- Source: https://github.com/apify/crawlee
+- Extracted from upstream docs: https://raw.githubusercontent.com/apify/crawlee/HEAD/README.md
 
 ## Documentation
 

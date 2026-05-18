@@ -18,13 +18,23 @@ Upscayl is a free, open-source AI image upscaler for Linux, macOS, and Windows. 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew install --cask upscayl
+- git clone https://github.com/upscayl/upscayl
+- npm install
+- npm run start
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- I recommend using Volta: https://volta.sh for installing Node.js.
+- Download and install volta, then do: volta install node.
+
+Basic usage or getting-started notes:
+- Right Click AppImage -> Go to Permissions tab -> Check 'allow file to execute' and then double click the file to run Upscayl.
+- If you get a SmartScreen warning - click 'More Info' and then 'Run Anyway' OR press 'YES' on the unverified publisher dialog.
+- # RUN THE DEVELOPMENT SERVER LOCALLY
+
+- Source: https://github.com/upscayl/upscayl
+- Extracted from upstream docs: https://raw.githubusercontent.com/upscayl/upscayl/HEAD/README.md
 
 ## Source
 

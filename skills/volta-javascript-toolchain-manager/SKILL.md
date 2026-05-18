@@ -18,13 +18,16 @@ Volta is a JavaScript toolchain manager written in Rust that pins Node.js, npm, 
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- **Universal:** No matter the package manager, Node runtime, or OS, one command is all you need: volta install.
+- Stable tool installation—no reinstalling on every Node upgrade!
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- **Fast:** Install and run any JS tool quickly and seamlessly! Volta is built in Rust and ships as a snappy static binary.
+- Read the [Getting Started Guide](https://docs.volta.sh/guide/getting-started) on our website for detailed instructions on how to install Volta.
+
+- Source: https://github.com/volta-cli/volta
+- Extracted from upstream docs: https://raw.githubusercontent.com/volta-cli/volta/HEAD/README.md
 
 ## Source
 

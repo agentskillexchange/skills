@@ -24,19 +24,23 @@ Python with uv or uvx, network access to the target MCP/OpenAPI/GraphQL endpoint
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- uv tool install mcp2cli
+- npx skills add knowsuchagency/mcp2cli --skill mcp2cli
+- uv sync --extra test
+- uv run pytest tests/ -v
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- APIs that require OAuth are supported out of the box — across MCP, OpenAPI, and GraphQL modes.
+- mcp2cli --mcp-stdio "node server.js" --env API_KEY=sk-... --env DEBUG=1 \
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- bash
+- # Run directly without installing
+- uvx mcp2cli --help
 
-```
-<p>Run <code>uvx mcp2cli --help</code> for an ephemeral install, or <code>uv tool install mcp2cli</code> for a persistent global install. Then point it at an MCP server with <code>--mcp</code>, an OpenAPI spec with <code>--spec</code>, or a GraphQL endpoint with <code>--graphql</code>, use <code>--list</code> to discover generated subcommands, and call the command you need with the same connection and auth flags.</p>
-```
+- Source: https://github.com/knowsuchagency/mcp2cli
+- Extracted from upstream docs: https://raw.githubusercontent.com/knowsuchagency/mcp2cli/HEAD/README.md
 
 ## Documentation
 

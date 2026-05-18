@@ -18,13 +18,21 @@ K9s is a terminal-based UI for managing Kubernetes clusters, providing real-time
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- make build && ./execs/k9s
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Docker Pulls](https://img.shields.io/docker/pulls/derailed/k9s.svg?maxAge=604800)](https://hub.docker.com/r/derailed/k9s/)
+- | Cordon/Uncordon node | u | Node view |
+- | Drain node | r | Node view |
+
+Basic usage or getting-started notes:
+- Build and run the executable
+- # To run K9s in a given namespace
+- | Benchmark (run/stop) | b | Services/Port-forwards |
+
+- Source: https://github.com/derailed/k9s
+- Extracted from upstream docs: https://raw.githubusercontent.com/derailed/k9s/HEAD/README.md
 
 ## Source
 

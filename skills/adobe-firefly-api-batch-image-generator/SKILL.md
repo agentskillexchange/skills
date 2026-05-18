@@ -15,13 +15,12 @@ Calls Adobe Firefly's text-to-image and generative fill APIs for batch asset cre
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- Intelligent Object Rotation - The Adaptive Composite model analyzes the target background and automatically adjusts the object's rotation to match environmental cues (for example, perspective or lighting direction).
+- To get started, see Getting Started for authentication and setup, and the API Reference for Upscale endpoints and schemas.
+- A quickstart guide to making your first successful Firefly API call.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://developer.adobe.com/firefly-services/docs/firefly-api/
 
 ## Documentation
 

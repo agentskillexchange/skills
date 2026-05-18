@@ -19,19 +19,17 @@ Google account, Search Console property access, Google Cloud project, and Search
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Access a Python sample and JSON POST examples for easy API integration.
+- Requires authorization
+- See the python sample for calling this method.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- JSON POST Example:
+- POST https://www.googleapis.com/webmasters/v3/sites/https%3A%2F%2Fwww.example.com%2F/searchAnalytics/query?key={MY_API_KEY}
+- http://www.example.com/ (for a URL-prefix property) or
 
-Install command or upstream instructions:
-
-```
-Enable the Google Search Console API in Google Cloud, configure OAuth 2.0 credentials, and grant the application access to the target Search Console property.
-```
+- Source: https://developers.google.com/webmaster-tools/v1/searchanalytics/query
 
 ## Documentation
 

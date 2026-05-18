@@ -15,13 +15,15 @@ Monitors internet-facing assets using Censys Search API v2 for host discovery an
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Legacy Search and ASM Python CLI
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Get Started with the Censys Platform Quick Start Guide
+- Get Started with Censys ASM Quick Start Guide
+- Build, Save, and Automate ASM Queries Example ASM Queries
+
+- Source: https://docs.censys.com/docs/internet-scanning
 
 ## Documentation
 

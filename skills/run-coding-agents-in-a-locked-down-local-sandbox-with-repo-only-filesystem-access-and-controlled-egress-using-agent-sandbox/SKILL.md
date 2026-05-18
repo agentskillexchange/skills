@@ -24,19 +24,21 @@ Docker-compatible runtime, VM layer such as Colima, terminal or supported devcon
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew install colima docker docker-compose docker-buildx
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Target platform: [Colima](https://github.com/abiosoft/colima) + [Docker Engine](https://docs.docker.com/engine/) on Apple Silicon. Should work with any Docker-compatible runtime.
+- ### 1. Install prerequisites
+- You need a VM and Docker installed. This can be done in a variety of ways.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Run AI coding agents in a locked-down local sandbox with:
+- **CLI (preferred)** - run the agent in a terminal session using agentbox exec.
+- [Colima](https://colima.run/)
 
-```
-Install the `agentbox` binary from the project releases, run `agentbox init` to generate the sandbox config, then enter the environment with `agentbox exec` or attach through the generated devcontainer setup.
-```
+- Source: https://github.com/mattolson/agent-sandbox
+- Extracted from upstream docs: https://raw.githubusercontent.com/mattolson/agent-sandbox/HEAD/README.md
 
 ## Documentation
 

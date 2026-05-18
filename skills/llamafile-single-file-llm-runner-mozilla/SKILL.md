@@ -18,13 +18,13 @@ llamafile by Mozilla bundles open-source LLMs into a single portable executable 
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- **llamafile lets you distribute and run LLMs with a single file.**
+- show which version of the server they have been bundled with ([0.9.* example](https://huggingface.co/mozilla-ai/llava-v1.5-7b-llamafile), [0.10.* example](https://huggingface.co/mozilla-ai/llamafile_0.10)), so you wil...
+- Download and run your first llamafile in minutes:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/mozilla-ai/llamafile
+- Extracted from upstream docs: https://raw.githubusercontent.com/mozilla-ai/llamafile/HEAD/README.md
 
 ## Source
 

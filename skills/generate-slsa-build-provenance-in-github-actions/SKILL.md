@@ -24,19 +24,18 @@ GitHub Actions, SLSA GitHub Generator
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- [![docker-bench-security stars](https://img.shields.io/github/stars/docker/docker-bench-security?logo=github&label=docker/docker-bench-security)](https://github.com/docker/docker-bench-security)
+- [![powertools-lambda-python stars](https://img.shields.io/github/stars/aws-powertools/powertools-lambda-python?logo=github&label=aws-powertools/powertools-lambda-python)](https://github.com/aws-powertools/powertools-l...
+- | [Node.js](https://nodejs.org) projects | [Node.js Builder](internal/builders/nodejs/README.md) | Builds and generates provenance for npm packages | [Beta since v1.6.0](https://github.com/slsa-framework/slsa-github-g...
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- [SLSA Build level 3 and above](https://slsa.dev/spec/v1.0/levels). See some
+- [popular projects](#hall-of-fame) generating provenance using this project.
+- tools for building a SLSA builder on GitHub using the
 
-Install command or upstream instructions:
-
-```
-Follow the repository setup for the relevant generator, add the recommended GitHub Actions workflow, then build artifacts and inspect the generated provenance attestation.
-```
+- Source: https://github.com/slsa-framework/slsa-github-generator
+- Extracted from upstream docs: https://raw.githubusercontent.com/slsa-framework/slsa-github-generator/HEAD/README.md
 
 ## Documentation
 

@@ -24,19 +24,23 @@ Self-hosted n8n, npm, MCP-compatible server
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx @modelcontextprotocol/server-example-streamable
+- npx @modelcontextprotocol/server-example-sse
+- npm install -g @modelcontextprotocol/server-brave-search
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- This is an n8n community node that lets you interact with Model Context Protocol (MCP) servers in your n8n workflows.
+- MCP is a protocol that enables AI models to interact with external tools and data sources in a standardized way. This node allows you to connect to MCP servers, access resources, execute tools, and use prompts.
+- [![MCP Client Node Quickstart](/assets/mcp-n8n.png)](https://youtu.be/1t8DQL-jUJk)
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Official Quickstart Video:
+- ### Community Videos
+- [Is MCP the Future of N8N AI Agents? (Fully Tested!)](https://youtu.be/sb5hCcFYPIE)
 
-```
-npm install n8n-nodes-mcp
-```
+- Source: https://github.com/nerding-io/n8n-nodes-mcp
+- Extracted from upstream docs: https://raw.githubusercontent.com/nerding-io/n8n-nodes-mcp/HEAD/README.md
 
 ## Documentation
 

@@ -26,19 +26,22 @@ Node.js or Python, mcp-use SDK, MCP-capable client or local inspector
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx create-mcp-use-app@latest
+- npx @mcp-use/inspector --url http://localhost:3000/mcp
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <a href="https://mcp-use.com/docs/python" alt="Python docs">
+- <img src="https://img.shields.io/badge/python-docs-blue?labelColor=white&logo=python" alt="Badge"></a>
+- Visit our [docs](https://mcp-use.com/docs) or jump to a quickstart ([TypeScript](https://mcp-use.com/docs/typescript/getting-started/quickstart) | [Python](https://mcp-use.com/docs/python/getting-started/quickstart))
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- ### <img src="./static/typescript.svg" height="14" style="margin-right:4px; top:-1px; position:relative;" align="center" /> TypeScript
+- Build your first MCP Server or MPC App:
+- bash
 
-```
-For TypeScript, run npx create-mcp-use-app@latest or install the mcp-use package. For Python, run pip install mcp-use, then define MCPServer tools and run the server with the documented transport/inspector flow.
-```
+- Source: https://github.com/mcp-use/mcp-use
+- Extracted from upstream docs: https://raw.githubusercontent.com/mcp-use/mcp-use/HEAD/README.md
 
 ## Documentation
 

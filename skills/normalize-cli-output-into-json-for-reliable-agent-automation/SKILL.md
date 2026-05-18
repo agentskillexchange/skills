@@ -20,19 +20,18 @@ Uses jc to turn command output and supported file formats into structured JSON s
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Check out the jc Python [package documentation](https://github.com/kellyjonbrazil/jc/tree/master/docs) for developers
+- jc can also be used as a python library. In this case the returned value
+- will be a python dictionary, a list of dictionaries, or even a
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- for an example.
+- dig example.com | jc --dig
+- {"name":"example.com.","class":"IN","type":"A"},"answer":[{"name":
 
-Install command or upstream instructions:
-
-```
-Install via `pip3 install jc`, an OS package, or a GitHub release binary.
-```
+- Source: https://github.com/kellyjonbrazil/jc
+- Extracted from upstream docs: https://raw.githubusercontent.com/kellyjonbrazil/jc/HEAD/README.md
 
 ## Documentation
 

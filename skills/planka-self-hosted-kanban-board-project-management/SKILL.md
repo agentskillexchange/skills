@@ -18,13 +18,12 @@ Planka is an elegant, self-hosted Kanban-style project management tool and open-
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- ![Version](https://img.shields.io/github/package-json/v/plankanban/planka?style=flat-square) [![Docker Pulls](https://img.shields.io/badge/docker_pulls-8M%2B-%23066da5?style=flat-square&color=red)](https://github.com/...
+- [Install](https://docs.planka.cloud/docs/installation/docker/production-version/) · [Demo](https://planka.app) · [Docs](https://docs.planka.cloud/docs/welcome/) · [API](https://plankanban.github.io/planka/swagger-ui/)...
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/plankanban/planka
+- Extracted from upstream docs: https://raw.githubusercontent.com/plankanban/planka/HEAD/README.md
 
 ## Source
 

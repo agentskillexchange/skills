@@ -18,13 +18,17 @@ Plane is an open-source project management platform that serves as a self-hostab
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- | Docker | [![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://developers.plane.so/self-hosting/methods/docker-compose) |
+- [![Node JS](https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white)](https://nodejs.org/en)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Meet [Plane](https://plane.so/), an open-source project management tool to track issues, run ~sprints~ cycles, and manage product roadmaps without the chaos of managing the tool itself. 🧘‍♀️
+- **Plane Cloud**
+- Sign up for a free account on [Plane Cloud](https://app.plane.so)—it's the fastest way to get up and running without worrying about infrastructure.
+
+- Source: https://github.com/makeplane/plane
+- Extracted from upstream docs: https://raw.githubusercontent.com/makeplane/plane/HEAD/README.md
 
 ## Source
 

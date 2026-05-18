@@ -18,13 +18,23 @@ Polars is an extremely fast DataFrame library written in Rust with Python, Node.
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install polars
+- for Python users, install pip install polars[rt64].
+- Python on Apple Silicon under Rosetta? Install pip install polars[rtcompat]. This version of
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <a href="https://docs.pola.rs/api/python/stable/reference/index.html">Python</a>
+- <a href="https://pola-rs.github.io/nodejs-polars/index.html">Node.js</a>
+- <a href="https://stackoverflow.com/questions/tagged/python-polars">Python</a>
+
+Basic usage or getting-started notes:
+- collect(engine='streaming') to run the query streaming.
+- sh
+- See the [User Guide](https://docs.pola.rs/user-guide/installation/#feature-flags) for more details
+
+- Source: https://github.com/pola-rs/polars
+- Extracted from upstream docs: https://raw.githubusercontent.com/pola-rs/polars/HEAD/README.md
 
 ## Source
 

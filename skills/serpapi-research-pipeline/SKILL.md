@@ -15,13 +15,15 @@ Builds structured research datasets by querying SerpAPI Google Search, Google Sc
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Python
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Our U.S. Legal Shield covers the scraping and parsing of search engine data, as long as your use of the data or service is not illegal. Such illegal use includes, by way of example and not limitation, copyright infrin...
+- The hourly throughput limit for plans with under 1 million searches per month is 20% of your plan volume. For example, the Developer Plan includes 5,000 searches per month, so subscribers to the Developer Plan can use...
+- Such illegal use includes, by way of example and not limitation, copyright infringement, DMCA violations, other intellectual property infringement, privacy violations, fraud, harassment, cybercrime, terrorism, child e...
+
+- Source: https://serpapi.com/
 
 ## Documentation
 

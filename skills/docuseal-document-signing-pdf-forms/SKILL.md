@@ -18,13 +18,19 @@ DocuSeal is an open-source DocuSign alternative for creating, filling, and signi
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- docker run --name docuseal -p 3000:3000 -v.:/data docuseal/docuseal
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <a href="https://hub.docker.com/r/docuseal/docuseal">
+- <img alt="Docker releases" src="https://img.shields.io/docker/v/docuseal/docuseal">
+- #### Docker
+
+Basic usage or getting-started notes:
+- At DocuSeal we have expertise and technologies to make documents creation, filling, signing and processing seamlessly integrated with your product. We specialize in working with various industries, including **Banking...
+
+- Source: https://github.com/docusealco/docuseal
+- Extracted from upstream docs: https://raw.githubusercontent.com/docusealco/docuseal/HEAD/README.md
 
 ## Source
 

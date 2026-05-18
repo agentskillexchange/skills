@@ -24,19 +24,23 @@ DefenseClaw CLI, Go gateway sidecar, policy rules, optional OpenClaw plugin, opt
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- make build
+- make test
+- make lint
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <a href="https://www.python.org/downloads/"><img alt="Python 3.10+" src="https://img.shields.io/badge/python-3.10%2B-blue.svg" /></a>
+- DefenseClaw combines a Python operator CLI, a Go gateway sidecar, and an OpenClaw TypeScript plugin. Together they enforce a simple operating rule: untrusted agent capabilities are scanned, governed, logged, and block...
+- | [CLI Reference](docs/CLI.md) | Python CLI commands and operator workflows |
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- | Skills, MCP servers, plugins, and generated code before they run | Prompts, completions, tool calls, and sandbox activity at runtime | SQLite audit history, JSONL, OTLP, Splunk, webhooks, and TUI views |
+- **Admission control** - scan skills, MCP servers, plugins, and code before they run.
+- | [Quick Start](docs/QUICKSTART.md) | First successful local setup and scan flow |
 
-```
-Follow the upstream install and quick-start docs for the Python CLI and gateway sidecar, run initial health/setup checks, scan candidate skills or MCP servers in observe mode first, then enable action-mode blocking only after policy review.
-```
+- Source: https://github.com/cisco-ai-defense/defenseclaw
+- Extracted from upstream docs: https://raw.githubusercontent.com/cisco-ai-defense/defenseclaw/HEAD/README.md
 
 ## Documentation
 

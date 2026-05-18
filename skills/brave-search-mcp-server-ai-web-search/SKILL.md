@@ -18,13 +18,24 @@ The official Brave Search MCP server integrates the Brave Search API with AI ass
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- [![Install with NPX in VS Code](https://img.shields.io/badge/VS_Code-NPM-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=brave-search&inputs=%5B%7...
+- [![Install with Docker in VS Code](https://img.shields.io/badge/VS_Code-Docker-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=brave-search&inputs...
+- docker build -t mcp/brave-search:latest .
+- npm install
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- **Note:** Requires Pro plan for full local search capabilities. Falls back to web search otherwise.
+- node dist/index.js [options]
+- #### Docker
+
+Basic usage or getting-started notes:
+- **Usage:** First perform a web search with summary: true, then use the returned summary key with this tool.
+- Add this to your claude_desktop_config.json:
+- json
+
+- Source: https://github.com/brave/brave-search-mcp-server
+- Extracted from upstream docs: https://raw.githubusercontent.com/brave/brave-search-mcp-server/HEAD/README.md
 
 ## Source
 

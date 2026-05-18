@@ -23,19 +23,16 @@ Tesseract OCR, OpenCV
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- **NOTE**: This software depends on other packages that may be licensed under different open source licenses.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- It also needs [traineddata](https://tesseract-ocr.github.io/tessdoc/Data-Files.html) files which support the legacy engine, for example those from the [tessdata](https://github.com/tesseract-ocr/tessdata) repository.
+- Basic **[command line usage](https://tesseract-ocr.github.io/tessdoc/Command-Line-Usage.html)**:
+- Examples can be found in the [documentation](https://tesseract-ocr.github.io/tessdoc/Command-Line-Usage.html#simplest-invocation-to-ocr-an-image).
 
-Install command or upstream instructions:
-
-```
-sudo apt install tesseract-ocr
-```
+- Source: https://github.com/tesseract-ocr/tesseract
+- Extracted from upstream docs: https://raw.githubusercontent.com/tesseract-ocr/tesseract/HEAD/README.md
 
 ## Documentation
 

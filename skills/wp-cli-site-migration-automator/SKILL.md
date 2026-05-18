@@ -14,13 +14,15 @@ Automates full WordPress site migrations using WP-CLI search-replace, wp db expo
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Make WordPress
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Browse commands
+- Scriptable by design
+- Anything you can do in the WordPress admin, you can do from the terminal. Install and update plugins, import content, create users, run search-replace across a database, rotate keys, manage multisite networks. Bundle...
+
+- Source: https://wp-cli.org/
 
 ## Source
 

@@ -20,13 +20,24 @@ Lefthook is a fast, dependency-free Git hooks manager written in Go that runs pr
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- go install github.com/evilmartians/lefthook/v2@v2.1.6
+- npm install lefthook --save-dev
+- gem install lefthook
+- pipx install lefthook
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- A Git hooks manager for Node.js, Ruby, Python and many other types of projects.
+- For **Python**:
+- ### **Support Docker**
+
+Basic usage or getting-started notes:
+- **Fast.** It is written in Go. Can run commands in parallel.
+- With **Go** (>= 1.26):
+- bash
+
+- Source: https://github.com/evilmartians/lefthook
+- Extracted from upstream docs: https://raw.githubusercontent.com/evilmartians/lefthook/HEAD/README.md
 
 ## Source
 

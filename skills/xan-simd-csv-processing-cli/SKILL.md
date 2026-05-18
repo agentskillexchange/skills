@@ -18,13 +18,19 @@ xan is a high-performance command-line tool for processing CSV files, written in
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- cargo install xan --locked
+- cargo install xan --locked --all-features
+- cargo install xan --locked --features parquet
+- cargo install --git https://github.com/medialab/xan --locked
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- xan also offers its own expression language so you can perform complex tasks that cannot be done by relying on the simplest commands. This minimalistic language has been tailored for CSV data and is *way* faster than...
+- A package is available from the official repositories. To install xan simply run:
+- use nix-shell to enter an ephemeral shell.
+
+- Source: https://github.com/medialab/xan
+- Extracted from upstream docs: https://raw.githubusercontent.com/medialab/xan/HEAD/README.md
 
 ## Source
 

@@ -26,19 +26,13 @@ Presenterm installation, markdown slide deck files, terminal with supported rend
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- _presenterm_ lets you create presentations in markdown format and run them from your terminal, with support for image
+- Check the rest of the example presentations in the [examples directory](/examples).
+- [If it can compute, it can run Ratatui][it-can-run-ratatui] by [Orhun Parmaksız][orhun-github]
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Install Presenterm from the upstream package or release instructions, prepare a markdown slide deck in the documented format, then preview and present it from the terminal using the built-in presenter workflow.
-```
+- Source: https://github.com/mfontanini/presenterm
+- Extracted from upstream docs: https://raw.githubusercontent.com/mfontanini/presenterm/HEAD/README.md
 
 ## Documentation
 

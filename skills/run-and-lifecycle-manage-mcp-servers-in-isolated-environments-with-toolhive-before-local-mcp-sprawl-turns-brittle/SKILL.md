@@ -24,19 +24,16 @@ ToolHive CLI or desktop app, Docker or Podman for local runtimes, optional Kuber
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- <td>Put an end to shadow MCP use by your developers, and give your security team the audit logs and identity enforcement they require.<br><br>
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- ## Run any MCP server securely, instantly, anywhere.
+- <td><strong>Developers.</strong> Run MCP servers with more security and more (token) savings</td>
+- <td><strong>Platform Engineers.</strong> Run MCP on your existing Kubernetes infrastructure</td>
 
-Install command or upstream instructions:
-
-```
-Install ToolHive, choose the local or Kubernetes quickstart, add the MCP servers you want to run, and connect your MCP-capable client to the ToolHive-managed endpoint instead of starting each server manually.
-```
+- Source: https://github.com/stacklok/toolhive
+- Extracted from upstream docs: https://raw.githubusercontent.com/stacklok/toolhive/HEAD/README.md
 
 ## Documentation
 

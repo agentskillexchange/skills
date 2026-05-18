@@ -25,19 +25,20 @@ Node.js
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install postman-collection --save
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- var fs = require('fs'), // needed to read JSON file from disk
+- Collection = require('postman-collection').Collection,
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- In this example snippet we will get started by loading a collection from a file and output the same in console.
+- javascript
+- myCollection;
 
-```
-npm install postman-collection
-```
+- Source: https://github.com/postmanlabs/postman-collection
+- Extracted from upstream docs: https://raw.githubusercontent.com/postmanlabs/postman-collection/HEAD/README.md
 
 ## Documentation
 

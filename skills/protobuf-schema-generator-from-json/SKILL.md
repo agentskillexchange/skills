@@ -19,13 +19,17 @@ Infers Protocol Buffer (.proto) definitions from JSON samples using protobuf-com
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- load("@rules_python//python:repositories.bzl", "py_repositories")
+- | Python | [python](python) |
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- protobuf, you need to install the protocol compiler (used to compile .proto
+- -----------
+- The best way to learn how to use protobuf is to follow the [tutorials in our
+
+- Source: https://github.com/protocolbuffers/protobuf
+- Extracted from upstream docs: https://raw.githubusercontent.com/protocolbuffers/protobuf/HEAD/README.md
 
 ## Source
 

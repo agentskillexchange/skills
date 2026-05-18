@@ -18,13 +18,17 @@ Plandex is an open-source terminal-based AI coding agent designed for large proj
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- | **Self-hosted/Local Mode** | • Run Plandex locally with Docker or host on your own server.<br/>• Use your own [OpenRouter.ai](https://openrouter.ai) key (or [other model provider](https://docs.plandex.ai/models/mode...
+- For a new project, you might also want to initialize a git repo. Plandex doesn't require that your project is in a git repo, but it does integrate well with git if you use it.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- 🧑‍💻 **REPL mode** with fuzzy auto-complete for commands and file loading. Just run plandex in any project to get started.
+- <img src="images/plandex-browser-debug-yt.png" alt="Plandex Browser Debugging Example" width="800">
+- bash
+
+- Source: https://github.com/plandex-ai/plandex
+- Extracted from upstream docs: https://raw.githubusercontent.com/plandex-ai/plandex/HEAD/README.md
 
 ## Source
 

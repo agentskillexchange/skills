@@ -18,13 +18,24 @@ Tealdeer is a very fast Rust implementation of the tldr project — simplified, 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Docker container using sharkdp's [hyperfine][hyperfine-gh]
+- $ cargo build --features logging
+- $ cargo build --release
+- $ cargo test
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [x] Don't require a network connection for anything besides updating the cache
+- [x] Command line interface similar or equivalent to the [NodeJS client][node-gh]
+- | [tldr-python-client][python-gh] | Python | 87.0 | 2.4 | |
+
+Basic usage or getting-started notes:
+- Rust: Simplified, example based and community-driven man pages.
+- ## Docs (Installing, Usage, Configuration)
+- measures the execution times on a cold disk cache. The benchmarking is run in a
+
+- Source: https://github.com/tealdeer-rs/tealdeer
+- Extracted from upstream docs: https://raw.githubusercontent.com/tealdeer-rs/tealdeer/HEAD/README.md
 
 ## Source
 

@@ -26,19 +26,24 @@ Node.js; a JavaScript or TypeScript test environment; local or CI access to the 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install @copilotkit/aimock
+- npx -p @copilotkit/aimock llmock -p 4010 -f ./fixtures
+- npx -p @copilotkit/aimock llmock -p 4010 \
+- npx @copilotkit/aimock --config aimock.json
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- process.env.OPENAI_API_KEY = "mock"; // SDK requires a value, even when base URL is mocked
+- **[Docker + Helm](https://aimock.copilotkit.dev/docker)** — Container image and Helm chart for CI/CD
+- **Zero dependencies** — Everything from Node.js builtins
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- bash
+- typescript
+- // The class is still named LLMock for back-compat after the v1.7.0 package
 
-```
-<p>Install with <code>npm install @copilotkit/aimock</code> for library use, or run it with <code>npx aimock --config aimock.json</code> for a CLI-driven mock server. Point your app at the mock base URL, define fixtures or record-and-replay behavior for the services you need, and run your tests against those deterministic endpoints instead of live providers.</p>
-```
+- Source: https://github.com/CopilotKit/aimock
+- Extracted from upstream docs: https://raw.githubusercontent.com/CopilotKit/aimock/HEAD/README.md
 
 ## Documentation
 

@@ -18,13 +18,21 @@ Textual is a lean application framework for Python that lets you build sophistic
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install textual textual-dev
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Supported Python Versions](https://img.shields.io/pypi/pyversions/textual)](https://pypi.org/project/textual/)
+- Build cross-platform user interfaces with a simple Python API. Run your apps in the terminal *or* a web browser.
+- Textual's API combines modern Python with the best of developments from the web world, for a lean app development experience.
+
+Basic usage or getting-started notes:
+- app.run()
+- See [getting started](https://textual.textualize.io/getting_started/) for details.
+- <img src="https://img.spacergif.org/spacer.gif" width="1" height="32"/>
+
+- Source: https://github.com/Textualize/textual
+- Extracted from upstream docs: https://raw.githubusercontent.com/Textualize/textual/HEAD/README.md
 
 ## Source
 

@@ -24,19 +24,24 @@ Git repository, agent that supports Agent Skills, optional GitHub or GitLab CI a
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx skills add https://github.com/netresearch/git-workflow-skill --skill git-workflow
+- git clone https://github.com/netresearch/git-workflow-skill.git
+- composer require netresearch/git-workflow-skill
+- npm install --save-dev \
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Requires [netresearch/composer-agent-skill-plugin](https://github.com/netresearch/composer-agent-skill-plugin).
+- ### npm (Node Projects)
+- Requires [@netresearch/agent-skill-coordinator](https://github.com/netresearch/node-agent-skill-coordinator), which discovers the skill in node_modules and registers it in AGENTS.md via a postinstall hook. For pnpm, a...
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- ### Marketplace (Recommended)
+- Add the [Netresearch marketplace](https://github.com/netresearch/claude-code-marketplace) once, then browse and install skills:
+- bash
 
-```
-npx skills add https://github.com/netresearch/git-workflow-skill --skill git-workflow
-```
+- Source: https://github.com/netresearch/git-workflow-skill
+- Extracted from upstream docs: https://raw.githubusercontent.com/netresearch/git-workflow-skill/HEAD/README.md
 
 ## Documentation
 

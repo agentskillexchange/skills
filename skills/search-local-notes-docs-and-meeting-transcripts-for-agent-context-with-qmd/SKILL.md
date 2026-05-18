@@ -26,19 +26,24 @@ Node or Bun, local document folders, optional local GGUF model via node-llama-cp
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install -g @tobilu/qmd
+- npx @tobilu/qmd ...
+- npm install @tobilu/qmd
+- brew install sqlite
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- QMD combines BM25 full-text search, vector semantic search, and LLM re-ranking—all running locally via node-llama-cpp with GGUF models.
+- Use QMD as a library in your own Node.js or Bun applications.
+- The SDK requires explicit dbPath — no defaults are assumed. This makes it safe to embed in any application without side effects.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- sh
+- # or
+- bun install -g @tobilu/qmd
 
-```
-npm install -g @tobilu/qmd or bun install -g @tobilu/qmd
-```
+- Source: https://github.com/tobi/qmd
+- Extracted from upstream docs: https://raw.githubusercontent.com/tobi/qmd/HEAD/README.md
 
 ## Documentation
 

@@ -18,13 +18,18 @@ Syft by Anchore is a CLI tool for generating Software Bills of Materials (SBOMs)
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Supports dozens of packaging ecosystems (e.g. Alpine (apk), Debian (dpkg), RPM, Go, Python, Java, JavaScript, Ruby, Rust, PHP, .NET, and [many more](https://oss.anchore.com/docs/capabilities/all-packages/))
+- Supports OCI, Docker, [Singularity](https://github.com/sylabs/singularity), and [more image formats](https://oss.anchore.com/docs/guides/sbom/scan-targets/)
+- **See [Installation docs](https://oss.anchore.com/docs/installation/syft/) for more ways to get Syft, including Homebrew, Docker, Scoop, Chocolatey, Nix, and more!**
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- **New to Syft? Check out the [Getting Started guide](https://oss.anchore.com/docs/guides/sbom/getting-started/) for a walkthrough!**
+- The quickest way to get up and going:
+- bash
+
+- Source: https://github.com/anchore/syft
+- Extracted from upstream docs: https://raw.githubusercontent.com/anchore/syft/HEAD/README.md
 
 ## Source
 

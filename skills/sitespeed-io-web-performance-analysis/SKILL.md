@@ -20,13 +20,22 @@ sitespeed.io is an open-source tool for comprehensive web performance analysis. 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- docker run --rm -v "$(pwd)":/sitespeed.io sitespeedio/sitespeed.io https://www.sitespeed.io/
+- npm i -g sitespeed.io
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Docker](https://github.com/sitespeedio/sitespeed.io/actions/workflows/docker.yml/badge.svg)](https://github.com/sitespeedio/sitespeed.io/actions/workflows/docker.yml)
+- [![Docker security scan](https://github.com/sitespeedio/sitespeed.io/actions/workflows/docker-scan.yml/badge.svg)](https://github.com/sitespeedio/sitespeed.io/actions/workflows/docker-scan.yml)
+- [![Docker][docker-image]][docker-url]
+
+Basic usage or getting-started notes:
+- [Usage](#usage)
+- [Basic usage](#basic-usage)
+- sitespeed.io is an Open Source web performance tool. Run it once to debug a slow page and you get an HTML report with Core Web Vitals, a video of the page loading, the HAR waterfall and the Coach's advice on how to fi...
+
+- Source: https://github.com/sitespeedio/sitespeed.io
+- Extracted from upstream docs: https://raw.githubusercontent.com/sitespeedio/sitespeed.io/HEAD/README.md
 
 ## Source
 

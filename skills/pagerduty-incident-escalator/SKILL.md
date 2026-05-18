@@ -20,13 +20,20 @@ Manages PagerDuty incident lifecycle using the PagerDuty REST API v2 /incidents 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install --save @pagerduty/pdjs
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Supports Node and Browser environments
+- Some endpoints require the setting of extra headers such as a From header.
+
+Basic usage or getting-started notes:
+- bash
+- ### REST API
+- REST API calls can be done using the convenience methods or by passing in a url or endpoint.
+
+- Source: https://github.com/PagerDuty/pdjs
+- Extracted from upstream docs: https://raw.githubusercontent.com/PagerDuty/pdjs/HEAD/README.md
 
 ## Source
 

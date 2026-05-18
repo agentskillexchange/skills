@@ -24,19 +24,16 @@ GitHub Backup binary or container image, GitHub token, local or mounted backup s
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- docker run \
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- GitHub organizations and clone (or fetch) them to your local machine. It is designed to be run
+- ## Example
+- # Run the tool directly
 
-Install command or upstream instructions:
-
-```
-Install the GitHub Backup binary or use the published container image, create a YAML config with your GitHub token and backup targets, then run `github-backup --config config.yaml` on demand or from a scheduler.
-```
+- Source: https://github.com/SierraSoftworks/github-backup
+- Extracted from upstream docs: https://raw.githubusercontent.com/SierraSoftworks/github-backup/HEAD/README.md
 
 ## Documentation
 

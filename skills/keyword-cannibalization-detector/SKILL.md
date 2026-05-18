@@ -15,13 +15,15 @@ Detects keyword cannibalization issues using Google Search Console API performan
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Make WordPress
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Run WordPress entirely in your browser.
+- Run WP-CLI Commands
+- Advanced · May 4, 2026
+
+- Source: https://developer.wordpress.org/
 
 ## Documentation
 

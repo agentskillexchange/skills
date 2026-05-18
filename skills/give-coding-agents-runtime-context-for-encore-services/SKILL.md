@@ -24,19 +24,18 @@ Encore CLI; Encore TypeScript or Go project; agent runtime with MCP support
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- **Self-hosted:** Use the Encore CLI to export your app as Docker images, then supply your infra config to host anywhere.
+- This includes all code needed for local development, everything that runs in your application when it is deployed, and everything needed to generate a Docker image for your application, so you can easily deploy your a...
+- Should you want to migrate away, it's straightforward and does not require a big rewrite. 99% of your code is regular Go or TypeScript.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- **Framework:** The Encore framework, available for TypeScript and Go, lets you define APIs, services, and infrastructure (databases, Pub/Sub, caching, buckets, cron jobs) as type-safe objects in your code. Write your...
+- **TypeScript:** encore app create --example=ts/hello-world
+- **Go:** encore app create --example=hello-world
 
-Install command or upstream instructions:
-
-```
-Install Encore with Homebrew, the upstream install script, or Windows PowerShell; add Encore's LLM instructions to the project; run the local Encore app; configure the built-in MCP server in the target agent runtime.
-```
+- Source: https://github.com/encoredev/encore
+- Extracted from upstream docs: https://raw.githubusercontent.com/encoredev/encore/HEAD/README.md
 
 ## Documentation
 

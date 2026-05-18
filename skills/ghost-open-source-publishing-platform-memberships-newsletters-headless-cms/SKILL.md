@@ -20,13 +20,16 @@ Ghost is an open-source publishing platform built for modern blogs, newsletters,
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install ghost-cli -g
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- <a href="https://ghost.org/"><img src="https://user-images.githubusercontent.com/353959/169805900-66be5b89-0859-4816-8da9-528ed7534704.png" alt="Fiercely independent, professional publishing. Ghost is the most popular...
+- If you want to run your own instance of Ghost, in most cases the best way is to use our **CLI tool**
+- &nbsp;
+
+- Source: https://github.com/TryGhost/Ghost
+- Extracted from upstream docs: https://raw.githubusercontent.com/TryGhost/Ghost/HEAD/README.md
 
 ## Source
 

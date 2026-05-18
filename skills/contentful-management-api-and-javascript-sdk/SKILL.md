@@ -20,13 +20,24 @@ Use the Contentful Management API and JavaScript SDK to create, update, validate
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install contentful-management
+- yarn add contentful-management
+- npm install contentful-management@canary
+- Make sure to remove any credential from your code before sharing it.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [Node](#node)
+- Browsers and Node.js:
+- Node.js (LTS)
+
+Basic usage or getting-started notes:
+- [Getting Started](#getting-started)
+- To get started with the Contentful Management JS library you'll need to install it, and then get credentials which will allow you to access your content in Contentful.
+- [Installation](#installation)
+
+- Source: https://github.com/contentful/contentful-management.js
+- Extracted from upstream docs: https://raw.githubusercontent.com/contentful/contentful-management.js/HEAD/README.md
 
 ## Source
 

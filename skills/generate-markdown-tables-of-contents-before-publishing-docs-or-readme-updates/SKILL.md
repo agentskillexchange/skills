@@ -23,19 +23,21 @@ Node.js, npm, command line
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install -g doctoc
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- # DocToc [![Node.js CI](https://github.com/thlorenz/doctoc/actions/workflows/node.js.yml/badge.svg)](https://github.com/thlorenz/doctoc/actions/workflows/node.js.yml)
+- [Docker image](#docker-image)
+- ### Docker image
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+- [Usage](#usage)
+- [Example](#example)
 
-```
-npm install -g doctoc
-```
+- Source: https://github.com/thlorenz/doctoc
+- Extracted from upstream docs: https://raw.githubusercontent.com/thlorenz/doctoc/HEAD/README.md
 
 ## Documentation
 

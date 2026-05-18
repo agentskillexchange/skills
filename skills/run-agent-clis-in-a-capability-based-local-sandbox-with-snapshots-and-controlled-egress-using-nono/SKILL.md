@@ -24,19 +24,17 @@ nono plus a supported local agent CLI such as Claude Code, Codex, OpenClaw, or a
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Also available as [Python](https://github.com/always-further/nono-py) , [TypeScript](https://github.com/always-further/nono-ts), [Go](https://github.com/always-further/nono-go) bindings.
+- We encourage using AI tools to contribute. However, you must understand and carefully review any AI-generated code before submitting. Security is paramount. If you don't understand how a change works, ask in [Discord]...
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- **nono registry** — The nono registry is now in alpha and available to try out. Host your skills, hooks, policies, and more in your own repository, then securely distribute them through the registry. This gives you th...
+- Profiles for [Claude Code](https://docs.nono.sh/cli/clients/claude-code), [Codex](https://docs.nono.sh/cli/clients/codex), [OpenCode](https://docs.nono.sh/cli/clients/opencode), [OpenClaw](https://docs.nono.sh/cli/cli...
+- ## Libraries and Bindings
 
-Install command or upstream instructions:
-
-```
-Install with brew install nono, then run nono setup or the profile-specific workflow from the installation guide before starting your agent inside the sandbox.
-```
+- Source: https://github.com/always-further/nono
+- Extracted from upstream docs: https://raw.githubusercontent.com/always-further/nono/HEAD/README.md
 
 ## Documentation
 

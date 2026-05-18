@@ -19,19 +19,14 @@ Google account, Google Cloud project, Google Calendar API enabled, and OAuth 2.0
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Node.js
+- Python
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- To learn how to configure and run a simple Google Calendar API app, read the
 
-Install command or upstream instructions:
-
-```
-Create a Google Cloud project, enable the Google Calendar API, configure OAuth 2.0 credentials, then authorize your app against the Calendar API.
-```
+- Source: https://developers.google.com/workspace/calendar/api/guides/overview
 
 ## Documentation
 

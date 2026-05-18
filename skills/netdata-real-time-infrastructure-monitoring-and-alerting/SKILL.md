@@ -24,19 +24,18 @@ Linux, Docker or Kubernetes environment for deployment; optional Netdata Cloud a
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- <a href="https://hub.docker.com/r/netdata/netdata"><img src="https://registry.my-netdata.io/api/v3/badge.svg?chart=dockerhub.pulls_sum&divide=1000000&precision=1&units=M&label=docker+hub+pulls&options=unaligned&tier=1...
+- [Docker Guide](/packaging/docker/README.md)
+- You can access the Netdata UI at http://localhost:19999 (or http://NODE:19999 if remote).
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- MENU: **[WHO WE ARE](#who-we-are)** | **[KEY FEATURES](#key-features)** | **[GETTING STARTED](#getting-started)** | **[HOW IT WORKS](#how-it-works)** | **[FAQ](#faq)** | **[DOCS](#book-documentation)** | **[COMMUNITY]...
+- You can install Netdata on all major operating systems. To begin:
+- ### 1. Install Netdata
 
-Install command or upstream instructions:
-
-```
-bash <(curl -Ss https://my-netdata.io/kickstart.sh)
-```
+- Source: https://github.com/netdata/netdata
+- Extracted from upstream docs: https://raw.githubusercontent.com/netdata/netdata/HEAD/README.md
 
 ## Documentation
 

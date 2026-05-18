@@ -24,19 +24,22 @@ Docker plus one of the supported AI coding agents such as Claude, Codex, Gemini,
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Docker containers — no required configuration, no setup. Just
+- pip install vibepod
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- 🐳 **Isolated agents** — each agent runs in its own Docker container
+- | opencode | Not supported |
+- | auggie | Not supported |
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- vp run <agent>. Includes built-in local metrics collection, HTTP traffic
+- ⚡ **Zero config** — no setup required; vp run <agent> just works. Optional YAML for custom configuration
+- 📊 **Local analytics dashboard** — track usage and HTTP traffic per agent, plus token metrics
 
-```
-Install with pip install vibepod, then run commands such as vp run claude, vp run codex, and vp logs start to launch agents and inspect the local dashboard.
-```
+- Source: https://github.com/VibePod/vibepod-cli
+- Extracted from upstream docs: https://raw.githubusercontent.com/VibePod/vibepod-cli/HEAD/README.md
 
 ## Documentation
 

@@ -18,13 +18,18 @@ Scrapling is an adaptive Python web scraping framework that automatically handle
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- <a href="https://pypi.org/project/scrapling/" alt="Supported Python versions">
+- <img alt="Supported Python versions" src="https://img.shields.io/pypi/pyversions/scrapling.svg"></a>
+- python
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Its parser learns from website changes and automatically relocates your elements when pages update. Its fetchers bypass anti-bot systems like Cloudflare Turnstile out of the box. And its spider framework lets you scal...
+- p = StealthyFetcher.fetch('https://example.com', headless=True, network_idle=True) # Fetch website under the radar!
+- start_urls = ["https://example.com/"]
+
+- Source: https://github.com/D4Vinci/Scrapling
+- Extracted from upstream docs: https://raw.githubusercontent.com/D4Vinci/Scrapling/HEAD/README.md
 
 ## Source
 

@@ -20,13 +20,16 @@ Payload is an open-source, TypeScript-first headless CMS that installs directly 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx create-payload-app --example example_name
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Before beginning to work with Payload, make sure you have all of the [required software](https://payloadcms.com/docs/getting-started/installation).
+- text
+- pnpx create-payload-app@latest
+
+- Source: https://github.com/payloadcms/payload
+- Extracted from upstream docs: https://raw.githubusercontent.com/payloadcms/payload/HEAD/README.md
 
 ## Source
 

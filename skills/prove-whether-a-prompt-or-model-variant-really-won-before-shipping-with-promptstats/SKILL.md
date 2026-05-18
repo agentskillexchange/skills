@@ -26,19 +26,24 @@ Python environment, promptstats package, eval result tables or per-input score a
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install evalstats
+- pip install "evalstats[xlsx]"
+- pip install "evalstats[all]"
+- pip install "evalstats[lmm]"
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- If you set method="lmm", analyze() switches to a mixed-effects path (score ~ template + (1|input)) with Wald CIs and parametric rank distributions. By default this uses statsmodels (pure Python, no additional setup re...
+- ## Python API
+- evalstats main use case is as a Python API, which provides a similar entry point, the analyze() function. Simply pass your benchmark data in the correct format, and pass it to analyze to get a battery of results:
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- What statistics test should I run in X situation?
+- as well as example code (which will, obviously, tend to use evalstats, but
+- Running estats.analyze() and then estats.print_analysis_summary(analysis) prints a full statistical report to the terminal, including confidence interval line plots, pairwise comparisons between prompt templates, and...
 
-```
-Install promptstats from the upstream Python package instructions, format your eval results into the documented input shape, then run the analysis methods and review the generated statistical report before making rollout decisions.
-```
+- Source: https://github.com/ianarawjo/promptstats
+- Extracted from upstream docs: https://raw.githubusercontent.com/ianarawjo/promptstats/HEAD/README.md
 
 ## Documentation
 

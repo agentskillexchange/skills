@@ -19,13 +19,13 @@ Garden is a DevOps automation tool for developing and testing Kubernetes apps fa
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- The fastest way to get started with Garden is by following our [quickstart guide](https://docs.garden.io/getting-started/quickstart).
+- ## Demo
+- ![Garden dev deploy](https://raw.githubusercontent.com/ShankyJS/garden-quickstart-content/d8095ad1a8615edf49e721b8afcd901f3056e127/dev-mode.gif)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/garden-io/garden
+- Extracted from upstream docs: https://raw.githubusercontent.com/garden-io/garden/HEAD/README.md
 
 ## Source
 

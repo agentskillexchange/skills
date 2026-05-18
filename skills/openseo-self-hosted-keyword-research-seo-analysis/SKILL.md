@@ -18,13 +18,24 @@ OpenSEO is an open-source, self-hostable SEO platform that provides keyword rese
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Docker is recommended for getting started. It's super easy to get up and running once you install Docker.
+- Install Docker: https://www.docker.com/products/docker-desktop/
+- docker compose pull
+- docker compose up -d
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [Docker Self Hosting](#docker-self-hosting)
+- Backlinks requires one more step beyond the API key: you also need DataForSEO Backlinks enabled on your account (trial or paid subscription), then confirm access from the Backlinks page in OpenSEO.
+- Docker self-hosting: .env
+
+Basic usage or getting-started notes:
+- DataForSEO API: pay-as-you-go based on usage.
+- cp .env.example .env
+- Set DATAFORSEO_API_KEY in .env
+
+- Source: https://github.com/every-app/open-seo
+- Extracted from upstream docs: https://raw.githubusercontent.com/every-app/open-seo/HEAD/README.md
 
 ## Source
 

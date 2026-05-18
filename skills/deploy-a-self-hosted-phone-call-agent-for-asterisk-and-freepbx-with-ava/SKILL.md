@@ -24,13 +24,24 @@ Docker Compose, Asterisk or FreePBX environment, telephony configuration, STT/LL
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/hkjarral/Asterisk-AI-Voice-Agent.git
+- docker compose -p asterisk-ai-voice-agent up -d --build --force-recreate admin_ui
+- docker compose -p asterisk-ai-voice-agent up -d --build ai_engine
+- docker compose -p asterisk-ai-voice-agent logs ai_engine | tail -20
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- ![Python](https://img.shields.io/badge/python-3.11+-blue.svg)
+- ![Docker](https://img.shields.io/badge/docker-compose-blue.svg)
+- **GPU users:** If you have an NVIDIA GPU for local AI inference, see **[docs/LOCAL_ONLY_SETUP.md](docs/LOCAL_ONLY_SETUP.md)** for the GPU compose overlay (docker-compose.gpu.yml) before building.
+
+Basic usage or getting-started notes:
+- [Quick Start](#-quick-start) • [Features](#-features) • [Roadmap](docs/ROADMAP.md) • [Demo](#-demo) • [Docs](docs/README.md) • [Community](#-community)
+- ## 🚀 Quick Start
+- ### 1. Run Pre-flight Check (Required)
+
+- Source: https://github.com/hkjarral/AVA-AI-Voice-Agent-for-Asterisk
+- Extracted from upstream docs: https://raw.githubusercontent.com/hkjarral/AVA-AI-Voice-Agent-for-Asterisk/HEAD/README.md
 
 ## Documentation
 

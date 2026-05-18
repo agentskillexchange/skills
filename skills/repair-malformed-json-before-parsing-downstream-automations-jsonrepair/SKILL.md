@@ -22,19 +22,24 @@ Node.js or CLI, JSON-like input data
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ npm install jsonrepair
+- $ npm install -g jsonrepair
+- npm install | Install the dependencies once
+- npm run build | Build the library (ESM, CommonJs, and UMD output in the folder lib)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Replace Python constants None, True, and False with null, true, and false
+- Use the streaming API in Node.js:
+- import { createReadStream, createWriteStream } from 'node:fs'
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Turn newline delimited JSON into a valid JSON array, for example:
+- Note that in the lib folder, there are builds for ESM, UMD, and CommonJs.
+- ## Use
 
-```
-npm install jsonrepair
-```
+- Source: https://github.com/josdejong/jsonrepair
+- Extracted from upstream docs: https://raw.githubusercontent.com/josdejong/jsonrepair/HEAD/README.md
 
 ## Documentation
 

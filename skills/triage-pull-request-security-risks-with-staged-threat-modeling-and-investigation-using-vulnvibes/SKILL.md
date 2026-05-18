@@ -24,19 +24,23 @@ GitHub token, Anthropic API key, access to the target GitHub pull request
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install -e .
+- git clone https://github.com/anshumanbh/vulnvibes.git
+- pip install -e ".[dev]"
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- 💻 **CLI + Python API**: Use from command line or programmatically
+- ## Python API
+- python
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- bash
+- ### 1. Set Up Credentials
+- export GITHUB_TOKEN="ghp_your_token_here"
 
-```
-git clone https://github.com/anshumanbh/vulnvibes.git && cd vulnvibes && pip install -e ".[dev]"; set GITHUB_TOKEN and ANTHROPIC_API_KEY; run `vulnvibes pr analyze <PR_URL>`
-```
+- Source: https://github.com/anshumanbh/vulnvibes
+- Extracted from upstream docs: https://raw.githubusercontent.com/anshumanbh/vulnvibes/HEAD/README.md
 
 ## Documentation
 

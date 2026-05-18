@@ -24,19 +24,13 @@ KUTTL CLI or kubectl-kuttl plugin, access to a Kubernetes test cluster, declarat
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- Please refer to the [getting started guide](docs/README.md) documentation.
+- ## Resources
+- Initially Built under the KUDO project, we continue to use that channel for KUTTL.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Install KUTTL from the upstream release or plugin instructions, author the documented test suite structure with steps and assertions, then run the test command against a Kubernetes cluster prepared for the target manifests or operator.
-```
+- Source: https://github.com/kudobuilder/kuttl
+- Extracted from upstream docs: https://raw.githubusercontent.com/kudobuilder/kuttl/HEAD/README.md
 
 ## Documentation
 

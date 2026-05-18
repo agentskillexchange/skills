@@ -25,19 +25,21 @@ Node.js, AWS CDK CLI
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm i -g aws-cdk
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- JavaScript, TypeScript ([Node.js >= 20.x](https://nodejs.org/en/download))
+- Python ([Python ≥ 3.8](https://www.python.org/downloads/))
+- [Recommended AWS CDK project structure for Python applications](https://aws.amazon.com/blogs/developer/recommended-aws-cdk-project-structure-for-python-applications/)
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [Getting Started](#getting-started) |
+- For a detailed walkthrough, see the [tutorial](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html#hello_world_tutorial) in the AWS CDK [Developer Guide](https://docs.aws.amazon.com/cdk/latest/guide/home...
+- ### At a glance
 
-```
-npm install -g aws-cdk
-```
+- Source: https://github.com/aws/aws-cdk
+- Extracted from upstream docs: https://raw.githubusercontent.com/aws/aws-cdk/HEAD/README.md
 
 ## Documentation
 

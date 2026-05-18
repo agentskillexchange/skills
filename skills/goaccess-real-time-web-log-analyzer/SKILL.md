@@ -18,13 +18,24 @@ GoAccess is an open-source real-time web log analyzer that runs in a terminal or
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ make
+- $ git clone https://github.com/allinurl/goaccess.git
+- make sure that you're running the latest stable version of GoAccess see
+- $ docker build -t goaccess/build.debian-12 -f Dockerfile.debian-12 .
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- **Docker Support**<br>
+- Ability to build GoAccess' Docker image from upstream. You can still fully
+- [Docker](https://github.com/allinurl/goaccess#docker) section below.
+
+Basic usage or getting-started notes:
+- You can just run it against your access log file, pick the log format and let
+- GoAccess is written in C. To run it, you only need ncurses as a dependency.
+- in-memory hash tables. It has very good memory usage and pretty good
+
+- Source: https://github.com/allinurl/goaccess
+- Extracted from upstream docs: https://raw.githubusercontent.com/allinurl/goaccess/HEAD/README.md
 
 ## Source
 

@@ -18,13 +18,24 @@ Documenso is an open-source digital document signing platform and DocuSign alter
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/<your-username>/documenso
+- Run npm run dx in the root directory
+- Run npm run dev in the root directory
+- npm run d
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <!-- - Support for [opensignpdf (requires Java on server)](https://github.com/open-pdf-sign) is currently planned. -->
+- Node.js (v22 or above)
+- Docker (optional)
+
+Basic usage or getting-started notes:
+- To run Documenso locally, you will need
+- Postgres SQL Database
+- ### Developer Quickstart
+
+- Source: https://github.com/documenso/documenso
+- Extracted from upstream docs: https://raw.githubusercontent.com/documenso/documenso/HEAD/README.md
 
 ## Source
 

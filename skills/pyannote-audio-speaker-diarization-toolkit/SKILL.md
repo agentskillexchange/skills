@@ -18,13 +18,19 @@ pyannote.audio is an open-source Python toolkit for speaker diarization built on
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install -e .[dev,testing]
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- pyannote.audio is an open-source toolkit written in Python for speaker diarization. Based on [PyTorch](https://pytorch.org) machine learning framework, it comes with state-of-the-art [pretrained models and pipelines](...
+- :snake: Python-first API
+- python
+
+Basic usage or getting-started notes:
+- With the optional telemetry feature in pyannote.audio, you can choose to send anonymous usage metrics to help the pyannote team improve the library.
+
+- Source: https://github.com/pyannote/pyannote-audio
+- Extracted from upstream docs: https://raw.githubusercontent.com/pyannote/pyannote-audio/HEAD/README.md
 
 ## Source
 

@@ -15,13 +15,15 @@ Splits blog posts or scripts into optimal chunks under ElevenLabs character limi
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- ElevenLabs provides AI voice infrastructure: text-to-speech, speech-to-text, voice cloning, conversational agents, and generative audio. All capabilities are accessible through a REST API with official Python and Type...
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Files
+- Workspaces
+- Light
+
+- Source: https://elevenlabs.io/docs
 
 ## Documentation
 

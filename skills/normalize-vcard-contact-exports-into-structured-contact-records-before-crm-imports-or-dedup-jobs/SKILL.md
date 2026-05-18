@@ -23,19 +23,21 @@ Python, pip
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install vobject
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![PyPI version](https://badge.fury.io/py/vobject.svg)](https://pypi.python.org/pypi/vobject)
+- [![PyPI downloads](https://img.shields.io/pypi/dm/vobject.svg)](https://pypi.python.org/pypi/vobject)
+- VObject is intended to be a full-featured Python package for parsing and
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Or download the package and run:
+- # Running tests
+- To run all tests, use:
 
-```
-pip install vobject
-```
+- Source: https://github.com/py-vobject/vobject
+- Extracted from upstream docs: https://raw.githubusercontent.com/py-vobject/vobject/HEAD/README.md
 
 ## Documentation
 

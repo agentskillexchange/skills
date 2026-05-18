@@ -24,19 +24,19 @@ Python 3.9+, a VideoDB API key, network access to VideoDB services, and an agent
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx skills add video-db/skills
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Issues](https://img.shields.io/github/issues/video-db/videodb-python.svg?style=for-the-badge)](https://github.com/video-db/videodb-python/issues)
+- Get started in two quick steps. Open your AI coding agent (Requires **Python 3.9+**) and follow along.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- VideoDB Skills lets your AI coding agent run end to end, server-side video workflows in real time and batch:
+- Run reliable, scalable, cost efficient workflows across realtime streams and batch video, with built in AI understanding, without wiring up ffmpeg glue.
 
-```
-Install the repo with npx skills add video-db/skills or the documented plugin path, set VIDEO_DB_API_KEY in the environment or project .env, run the setup flow, then invoke the upload, search, transcription, clipping, or editing prompts from your agent.
-```
+- Source: https://github.com/video-db/skills
+- Extracted from upstream docs: https://raw.githubusercontent.com/video-db/skills/HEAD/README.md
 
 ## Documentation
 

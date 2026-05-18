@@ -18,13 +18,21 @@ Use Storyblok’s Management API and JavaScript client to automate stories, comp
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install storyblok-js-client # yarn add storyblok-js-client
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <p align="center">This client is a thin wrapper for the <a href="http://www.storyblok.com?utm_source=github.com&utm_medium=readme&utm_campaign=storyblok-js-client" target="_blank">Storyblok</a> API's to use in Node.js...
+- | Latest storyblok-js-client | Modern browsers + Node 18+ |
+- | Latest storyblok-js-client <br> + Fetch polyfill like [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch) | Browsers and Node versions with no Fetch API support |
+
+Basic usage or getting-started notes:
+- sh
+- #### Compatibility
+- | Version to install | Support |
+
+- Source: https://github.com/storyblok/storyblok-js-client
+- Extracted from upstream docs: https://raw.githubusercontent.com/storyblok/storyblok-js-client/HEAD/README.md
 
 ## Source
 

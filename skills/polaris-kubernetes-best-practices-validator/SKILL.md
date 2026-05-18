@@ -18,13 +18,16 @@ Validate Kubernetes resource configurations against best practice policies using
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Images moved to us-docker.pkg.dev/fairwinds-ops/oss/polaris
+- us-docker.pkg.dev/fairwinds-ops/oss/polaris:<tag>
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Polaris is an open source policy engine for Kubernetes that validates and remediates resource configuration. It includes 30+ built in configuration policies, as well as the ability to build custom policies with JSON S...
+- Polaris can be run in three different modes:
+
+- Source: https://github.com/FairwindsOps/polaris
+- Extracted from upstream docs: https://raw.githubusercontent.com/FairwindsOps/polaris/HEAD/README.md
 
 ## Source
 

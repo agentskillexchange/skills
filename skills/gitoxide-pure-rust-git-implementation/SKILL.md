@@ -18,13 +18,23 @@ A complete, idiomatic Git implementation written in pure Rust, providing both a 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Using cargo binstall, one is able to fetch [binary releases][releases]. You can install it via cargo install cargo-binstall, assuming
+- cargo is the Rust package manager which can easily be obtained through [rustup]. With it, you can build your own binary
+- cargo install gitoxide --locked --no-default-features --features max-pure
+- cargo install gitoxide
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- ### Using Docker
+- Some CI/CD pipelines leverage repository cloning. Below is a copy-paste-able example to build docker images for such workflows.
+
+Basic usage or getting-started notes:
+- ### Download a Binary Release
+- the [rust toolchain][rustup] is present.
+- Then install gitoxide with cargo binstall gitoxide.
+
+- Source: https://github.com/GitoxideLabs/gitoxide
+- Extracted from upstream docs: https://raw.githubusercontent.com/GitoxideLabs/gitoxide/HEAD/README.md
 
 ## Source
 

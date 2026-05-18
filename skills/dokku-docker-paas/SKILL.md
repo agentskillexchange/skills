@@ -19,13 +19,16 @@ Dokku is a self-hosted Platform-as-a-Service built on Docker that provides Herok
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Docker powered mini-Heroku. The smallest PaaS implementation you've ever seen.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- A fresh VM running any of the following operating systems:
+- Ubuntu 22.04 / 24.04 (amd64/arm64) - Any currently supported release
+- Debian 11+ (amd64/arm64)
+
+- Source: https://github.com/dokku/dokku
+- Extracted from upstream docs: https://raw.githubusercontent.com/dokku/dokku/HEAD/README.md
 
 ## Source
 

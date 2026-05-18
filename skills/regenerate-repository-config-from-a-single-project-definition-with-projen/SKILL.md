@@ -26,19 +26,24 @@ Node.js, npm, and projen
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ pnpm dlx projen new PROJECT-TYPE
+- Currently supported project types (use pnpm dlx projen new without a type for a
+- **Built-in:** (run pnpm dlx projen new <type>)
+- **External:** (run pnpm dlx projen new --from <type>)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <!-- <macro exec="node ./scripts/readme-projects.js"> -->
+- [awscdk-app-py](https://projen.io/docs/api/awscdk#awscdkpythonapp-) - AWS CDK app in Python.
+- [cdk8s-app-py](https://projen.io/docs/api/cdk8s#cdk8spythonapp-) - CDK8s app in Python.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- *projen* doesn't need to be installed. You will be using [pnpm dlx](https://pnpm.io/cli/dlx) to run *projen* which takes care of all required setup steps. (npx works too, but pnpm dlx avoids the supply-chain risk of p...
+- To create a new project, run the following command and follow the instructions:
+- console
 
-```
-Install Node.js and the projen package, define the project in .projenrc or the supported config entrypoint, then run the synth workflow to regenerate managed repository files before reviewing the diff.
-```
+- Source: https://github.com/projen/projen
+- Extracted from upstream docs: https://raw.githubusercontent.com/projen/projen/HEAD/README.md
 
 ## Documentation
 

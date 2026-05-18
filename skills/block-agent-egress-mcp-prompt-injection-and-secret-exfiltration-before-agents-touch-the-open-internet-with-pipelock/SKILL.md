@@ -24,19 +24,24 @@ Homebrew or Go, terminal, supported agent runtime or IDE integration
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew install luckyPipewrench/tap/pipelock
+- docker pull ghcr.io/luckypipewrench/pipelock:latest
+- go install github.com/luckyPipewrench/pipelock/cmd/pipelock@latest
+- docker run -p 8888:8888 -v ./pipelock.yaml:/config/pipelock.yaml:ro \
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- pipelock check --url "https://docs.python.org/3/" # allowed
+- # Docker
+- # From source (requires Go 1.25+)
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [Quick Start](#quick-start) · [What It Does](#what-it-does) · [Docs](docs/) · [Blog](https://pipelab.org/blog/) · [Ask Dosu](https://app.dosu.dev/bcccd1cf-be85-4c0e-ae05-edeb0ff50b59/ask)
+- bash
+- # Set up (discovers IDE configs, generates config, verifies detection)
 
-```
-Install with `brew install luckyPipewrench/tap/pipelock` or `go install github.com/luckyPipewrench/pipelock/cmd/pipelock@latest`, run `pipelock init`, then place the agent behind `pipelock sandbox` or `pipelock mcp proxy` with your policy config.
-```
+- Source: https://github.com/luckyPipewrench/pipelock
+- Extracted from upstream docs: https://raw.githubusercontent.com/luckyPipewrench/pipelock/HEAD/README.md
 
 ## Documentation
 

@@ -19,13 +19,24 @@ fonttools is a comprehensive Python library for manipulating font files, includi
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install fonttools
+- git clone https://github.com/fonttools/fonttools.git
+- pip install -e .
+- pip install fonttools[ufo,lxml,woff,unicode]
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- | fontTools is a library for manipulating fonts, written in Python. The
+- FontTools requires Python <http://www.python.org/download/>__ 3.10
+- or later. We try to follow the same schedule of minimum Python version support as
+
+Basic usage or getting-started notes:
+- ~~~~~~~~~~~~
+- NumPy (see NEP 29 <https://numpy.org/neps/nep-0029-deprecation_policy.html>__).
+- .. code:: sh
+
+- Source: https://github.com/fonttools/fonttools
+- Extracted from upstream docs: https://raw.githubusercontent.com/fonttools/fonttools/HEAD/README.rst
 
 ## Source
 

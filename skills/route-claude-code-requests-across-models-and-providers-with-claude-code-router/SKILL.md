@@ -26,19 +26,22 @@ Claude Code; Node.js/npm; one or more model provider API keys or local provider 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install -g @anthropic-ai/claude-code
+- npm install -g @musistudio/claude-code-router
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- **APIKEY** (optional): You can set a secret key to authenticate requests. When set, clients must provide this key in the Authorization header (e.g., Bearer your-secret-key) or the x-api-key header. Example: "APIKEY":...
+- **NON_INTERACTIVE_MODE** (optional): When set to true, enables compatibility with non-interactive environments like GitHub Actions, Docker containers, or other CI/CD systems. This sets appropriate environment variable...
+- The Providers array is where you define the different model providers you want to use. Each provider object requires:
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- ## 🚀 Getting Started
+- Create and configure your ~/.claude-code-router/config.json file. For more details, you can refer to config.example.json.
+- **PROXY_URL** (optional): You can set a proxy for API requests, for example: "PROXY_URL": "http://127.0.0.1:7890".
 
-```
-Install Claude Code, then install with `npm install -g @musistudio/claude-code-router`; create `~/.claude-code-router/config.json` with providers, models, transformers, and routing rules before running Claude Code through the router.
-```
+- Source: https://github.com/musistudio/claude-code-router
+- Extracted from upstream docs: https://raw.githubusercontent.com/musistudio/claude-code-router/HEAD/README.md
 
 ## Documentation
 

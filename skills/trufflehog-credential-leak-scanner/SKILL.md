@@ -18,13 +18,23 @@ Find, verify, and analyze leaked credentials across Git repositories, Slack, Jir
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- docker run --rm -it -v "$PWD:/pwd" trufflesecurity/trufflehog:latest github --org=trufflesecurity
+- brew install trufflehog
+- docker run --rm -it -v "$PWD:/pwd" trufflesecurity/trufflehog:latest github --repo https://github.com/trufflesecurity/test_keys
+- docker run --rm -it -v "%cd:/=\%:/pwd" trufflesecurity/trufflehog:latest github --repo https://github.com/trufflesecurity/test_keys
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- ### Docker:
+- <sub><i>_Ensure Docker engine is running before executing the following commands:_</i></sub>
+- ### Using installation script, verify checksum signature (requires cosign to be installed)
+
+Basic usage or getting-started notes:
+- # :rocket: Quick Start
+- Clone the git repo. For example [test keys](git@github.com:trufflesecurity/test_keys.git) repo.
+
+- Source: https://github.com/trufflesecurity/trufflehog
+- Extracted from upstream docs: https://raw.githubusercontent.com/trufflesecurity/trufflehog/HEAD/README.md
 
 ## Source
 

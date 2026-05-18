@@ -24,19 +24,23 @@ Graphify CLI or MCP server, local project/document folders
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- uv tool install graphifyy
+- pipx install graphifyy
+- pip install graphifyy
+- **graphify: command not found?** Use uv tool install graphifyy or pipx install graphifyy — both put the CLI on PATH automatically. With plain pip, add ~/.local/bin (Linux) or ~/Library/Python/3.x/bin (Mac) to your PAT...
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- | leiden | Leiden community detection (Python < 3.13 only) | pip install "graphifyy[leiden]" |
+- macOS: add ~/Library/Python/3.x/bin to your PATH in ~/.zshrc
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- For a readable architecture page with Mermaid call-flow diagrams, run:
+- **Official package:** The PyPI package is graphifyy (double-y). Other graphify* packages on PyPI are not affiliated. The CLI command is still graphify.
+- **Step 1 — install the package:**
 
-```
-Clone or install Graphify from the upstream project, point it at a local folder or corpus, then run the CLI or MCP mode to build and query the knowledge graph.
-```
+- Source: https://github.com/safishamsi/graphify
+- Extracted from upstream docs: https://raw.githubusercontent.com/safishamsi/graphify/HEAD/README.md
 
 ## Documentation
 

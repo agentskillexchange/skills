@@ -15,13 +15,12 @@ Manages Scrapy spider deployments and job scheduling on ScrapyCloud via the Scra
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- Run, monitor, and control your Scrapy spiders however you want to.
+- Run, monitor, and control your crawlers with Scrapy Cloud's easy-to-use web interface.
+- Provides a simple way to run your crawls and browse results
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://www.zyte.com/scrapy-cloud/
 
 ## Documentation
 

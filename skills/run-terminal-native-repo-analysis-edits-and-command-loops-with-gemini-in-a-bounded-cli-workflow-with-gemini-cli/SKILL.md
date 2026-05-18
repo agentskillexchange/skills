@@ -24,19 +24,19 @@ Node.js or npm, gemini-cli, Gemini account or API credentials
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx @google/gemini-cli
+- npm install -g @google/gemini-cli
+- brew install gemini-cli
+- conda create -y -n gemini_env -c conda-forge nodejs
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- #### Run instantly with npx
+- bash
+- sudo port install gemini-cli
 
-Install command or upstream instructions:
-
-```
-Run npx @google/gemini-cli for a no-install start, or install gemini-cli globally with npm or Homebrew.
-```
+- Source: https://github.com/google-gemini/gemini-cli
+- Extracted from upstream docs: https://raw.githubusercontent.com/google-gemini/gemini-cli/HEAD/README.md
 
 ## Documentation
 

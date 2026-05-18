@@ -18,13 +18,24 @@ Marker converts PDF, DOCX, PPTX, and image files to clean Markdown, JSON, and HT
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install marker-pdf
+- pip install marker-pdf[full]
+- pip install streamlit streamlit-ace
+- pip install -U uvicorn fastapi python-multipart
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Commercial self-hosting requires a license — see [Commercial usage](#commercial-usage). For on-prem licensing, [contact us](https://www.datalab.to/contact?utm_source=gh-marker-onprem).
+- | [Think Python](https://greenteapress.com/thinkpython/thinkpython.pdf) | Textbook | [View](https://github.com/VikParuchuri/marker/blob/master/data/examples/markdown/thinkpython/thinkpython.md) | [View](https://github...
+- You'll need python 3.10+ and [PyTorch](https://pytorch.org/get-started/locally/).
+
+Basic usage or getting-started notes:
+- See [below](#benchmarks) for detailed speed and accuracy benchmarks, and instructions on how to run your own benchmarks.
+- # Commercial usage
+- shell
+
+- Source: https://github.com/datalab-to/marker
+- Extracted from upstream docs: https://raw.githubusercontent.com/datalab-to/marker/HEAD/README.md
 
 ## Source
 

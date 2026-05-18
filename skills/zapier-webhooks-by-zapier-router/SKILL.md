@@ -3,7 +3,7 @@ name: "Zapier Webhooks by Zapier Router"
 slug: "zapier-webhooks-by-zapier-router"
 description: "Routes and validates inbound automation traffic built around Webhooks by Zapier endpoints such as `hooks.zapier.com/hooks/catch/...`. Useful for standardizing payload shapes, inspecting trigger contracts, and debugging chained zaps across third-party SaaS systems."
 github_stars: 484
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/zapier/zapier-platform"
 category: "Integrations & Connectors"
 framework: "Custom Agents"
@@ -18,13 +18,9 @@ Routes and validates inbound automation traffic built around Webhooks by Zapier 
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/zapier/zapier-platform
 
 ## Source
 

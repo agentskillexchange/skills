@@ -24,19 +24,24 @@ Node.js, npm, screenshot-producing test artifacts, and an optional publisher plu
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ npm install -g reg-suit
+- --use-yarn-ws : If you use yarn workspace, turn this option on.
+- npm i
+- npx reg-suit run
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- name: Use Node.js v10
+- uses: actions/setup-node@v1
+- node-version: "10.x"
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- sh
+- $ cd path-to-your-project
+- $ reg-suit init
 
-```
-npm install --save-dev reg-suit
-```
+- Source: https://github.com/reg-viz/reg-suit
+- Extracted from upstream docs: https://raw.githubusercontent.com/reg-viz/reg-suit/HEAD/README.md
 
 ## Documentation
 

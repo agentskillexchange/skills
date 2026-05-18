@@ -19,13 +19,19 @@ tool_ecosystem:
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- docker run --rm --name jaeger \
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Get Jaeger running in seconds with Docker:
+
+Basic usage or getting-started notes:
+- bash
+- # Run Jaeger all-in-one (includes UI, collector, query, and in-memory storage)
+- -p 16686:16686 \
+
+- Source: https://github.com/jaegertracing/jaeger
+- Extracted from upstream docs: https://raw.githubusercontent.com/jaegertracing/jaeger/HEAD/README.md
 
 ## Source
 

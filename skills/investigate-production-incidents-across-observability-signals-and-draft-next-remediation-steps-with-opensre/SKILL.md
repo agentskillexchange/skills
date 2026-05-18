@@ -24,19 +24,21 @@ OpenSRE installation, access to the target observability stack and incident cont
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew tap tracer-cloud/tap
+- brew install tracer-cloud/tap/opensre
+- pipx install opensre
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Deploy OpenSRE as a standard Python/FastAPI runtime using the repo Dockerfile or a managed app host such as Railway, EC2, ECS, or Vercel. Set LLM_PROVIDER plus the matching API key (see [.env.example](.env.example));...
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- <p>The open-source framework for AI SRE agents, and the training and evaluation environment they need to improve. Connect the 60+ tools you already run, define your own workflows, and investigate incidents on your own...
+- [Quick Start](#quick-start)
+- The root installer URL auto-detects Unix shell vs PowerShell. Add --main when you want the latest rolling build from main instead of the latest stable release.
 
-```
-Install OpenSRE from the upstream install script, Homebrew tap, or project build path, run the documented onboard flow, then execute the investigate workflow against a real incident payload or supported environment context.
-```
+- Source: https://github.com/Tracer-Cloud/opensre
+- Extracted from upstream docs: https://raw.githubusercontent.com/Tracer-Cloud/opensre/HEAD/README.md
 
 ## Documentation
 

@@ -2,7 +2,7 @@
 name: "REST API Testing Reference Kit"
 slug: "rest-api-testing-reference-kit"
 description: "Comprehensive REST API testing reference using Postman Collection SDK v2.1 and Newman CLI. Includes assertion libraries for JSON Schema validation with Ajv, response time benchmarking, and contract testing patterns."
-verification: "security_reviewed"
+verification: "listed"
 source: "https://swagger.io/solutions/api-testing/"
 author: "Swagger"
 category: "Library & API Reference"
@@ -15,13 +15,9 @@ Comprehensive REST API testing reference using Postman Collection SDK v2.1 and N
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://swagger.io/solutions/api-testing/
 
 ## Documentation
 

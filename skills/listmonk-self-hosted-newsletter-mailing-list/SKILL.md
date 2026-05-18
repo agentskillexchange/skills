@@ -18,13 +18,21 @@ High-performance, self-hosted newsletter and mailing list manager packed into a 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- docker compose up -d
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- ### Docker
+- The latest image is available on DockerHub at [listmonk/listmonk:latest](https://hub.docker.com/r/listmonk/listmonk/tags?page=1&ordering=last_updated&name=latest).
+- Download and use the sample [docker-compose.yml](https://github.com/knadh/listmonk/blob/master/docker-compose.yml).
+
+Basic usage or getting-started notes:
+- shell
+- # Download the compose file to the current directory.
+- # Run the services in the background.
+
+- Source: https://github.com/knadh/listmonk
+- Extracted from upstream docs: https://raw.githubusercontent.com/knadh/listmonk/HEAD/README.md
 
 ## Source
 

@@ -24,19 +24,18 @@ Cline IDE extension; supported model/API provider; local repository; terminal an
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm i -g cline
+- npm i -g kanban
+- npm install @cline/sdk
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Run Cline in your terminal.
+- Run many agents in parallel from a
+- Create files, run commands, browse the web,
 
-Install command or upstream instructions:
-
-```
-Install the Cline extension in VS Code or a compatible IDE, connect a supported model provider, open the target repository, and run a supervised Cline task with approval required for file edits and terminal commands.
-```
+- Source: https://github.com/cline/cline
+- Extracted from upstream docs: https://raw.githubusercontent.com/cline/cline/HEAD/README.md
 
 ## Documentation
 

@@ -26,19 +26,14 @@ Git access to the target repo, APM CLI, an apm.yml manifest, and whichever agent
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft trademarks or logos is subject to and must follow [Microsoft's Trademark & Brand Guidelines](https://www.mi...
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- **[Documentation](https://microsoft.github.io/apm/)** · **[Quick Start](https://microsoft.github.io/apm/getting-started/quick-start/)** · **[CLI Reference](https://microsoft.github.io/apm/reference/cli-commands/)** ·...
 
-Install command or upstream instructions:
-
-```
-Install APM from the upstream binary, Homebrew, or pip path, create or adopt an apm.yml manifest, then run the documented install or sync commands inside the target repository to reproduce the agent setup.
-```
+- Source: https://github.com/microsoft/apm
+- Extracted from upstream docs: https://raw.githubusercontent.com/microsoft/apm/HEAD/README.md
 
 ## Documentation
 

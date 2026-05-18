@@ -18,13 +18,13 @@ Docmost is an open-source collaborative wiki and documentation platform that ser
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- To get started with Docmost, please refer to our [documentation](https://docmost.com/docs) or try our [cloud version](https://docmost.com/pricing) .
+- ## Features
+- Real-time collaboration
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/docmost/docmost
+- Extracted from upstream docs: https://raw.githubusercontent.com/docmost/docmost/HEAD/README.md
 
 ## Source
 

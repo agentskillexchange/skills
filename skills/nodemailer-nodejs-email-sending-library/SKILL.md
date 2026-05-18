@@ -19,13 +19,18 @@ Nodemailer is the most widely used Node.js library for sending emails, with 17k+
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Send emails from Node.js – easy as cake! 🍰✉️
+- You are using an older Node.js version than v6.0. Upgrade Node.js to get support for the spread operator. Nodemailer supports all Node.js versions starting from Node.js@v6.0.0.
+- If you are running the code on your machine, check your antivirus settings. Antiviruses often mess around with email ports usage. Node.js might not recognize the MITM cert your antivirus is using.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Gmail either works well, or it does not work at all. It is probably easier to switch to an alternative service instead of fixing issues with Gmail. If Gmail does not work for you, then don't use it. Read more about it...
+- host: 'smtp.example.com',
+- servername: 'example.com'
+
+- Source: https://github.com/nodemailer/nodemailer
+- Extracted from upstream docs: https://raw.githubusercontent.com/nodemailer/nodemailer/HEAD/README.md
 
 ## Source
 

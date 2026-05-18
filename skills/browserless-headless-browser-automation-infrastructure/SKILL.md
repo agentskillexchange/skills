@@ -19,13 +19,21 @@ Browserless turns Chrome, Firefox, and WebKit into a remote browser service you 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- docker run -p 3000:3000 ghcr.io/browserless/chromium
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <h3>Deploy headless browsers in Docker. Run on our cloud or bring your own.</h3>
+- <a href="https://hub.docker.com/r/browserless/chrome">
+- <img src="https://img.shields.io/docker/pulls/browserless/chrome?style=flat-square" alt="Docker pulls" />
+
+Basic usage or getting-started notes:
+- <img src="https://img.shields.io/badge/📦_Run_Locally-34A853?style=for-the-badge" alt="Run Locally" />
+- <summary><b>📘 Puppeteer Example</b></summary>
+- await page.goto('https://example.com');
+
+- Source: https://github.com/browserless/browserless
+- Extracted from upstream docs: https://raw.githubusercontent.com/browserless/browserless/HEAD/README.md
 
 ## Source
 

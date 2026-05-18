@@ -20,13 +20,22 @@ Strapi is a JavaScript and TypeScript headless CMS that helps teams model conten
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx create-strapi@latest my-project
+- npx @strapi-community/dockerize@latest
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Hardware & software requirements (OS, Node.js, databases) at **[Requirements docs](https://docs.strapi.io/cms/deployment#hardware-and-software-requirements)**
+- ## Docker
+- Strapi doesn't ship official Docker images, so you build your own from your project. The fastest way to get started is with the community CLI tool:
+
+Basic usage or getting-started notes:
+- <a href="https://docs.strapi.io/developer-docs/latest/getting-started/quick-start.html" target="_blank">Read the Getting Started tutorial</a> or follow the steps below:
+- ### ⏳ Installation
+- Use the **Quickstart** command below to create a new Strapi project instantly:
+
+- Source: https://github.com/strapi/strapi
+- Extracted from upstream docs: https://raw.githubusercontent.com/strapi/strapi/HEAD/README.md
 
 ## Source
 

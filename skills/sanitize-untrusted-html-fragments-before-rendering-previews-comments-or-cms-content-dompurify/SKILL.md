@@ -24,19 +24,23 @@ Node.js or a JavaScript runtime with DOM support
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install dompurify
+- npm install jsdom
+- npm install isomorphic-dompurify
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Our automated tests cover 9 browser/OS combinations (Chromium, Firefox, and WebKit across Ubuntu, macOS, and Windows) on every push, plus Node.js v20, v22, v24, v25 and v26 running DOMPurify on [jsdom](https://github....
+- DOMPurify technically also works server-side with Node.js. Our support strives to follow the [Node.js release cycle](https://nodejs.org/en/about/previous-releases).
+- Running DOMPurify on the server requires a DOM to be present, which is probably no surprise. Usually, [jsdom](https://github.com/jsdom/jsdom) is the tool of choice and we **strongly recommend** to use the latest versi...
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- If you have problems making it work in your specific setup, consider looking at the amazing [isomorphic-dompurify](https://github.com/kkomelin/isomorphic-dompurify) project which solves lots of problems people might r...
+- Note that in order to create a policy in trustedTypes using DOMPurify, RETURN_TRUSTED_TYPE: false is required, as createHTML expects a normal string, not TrustedHTML. The example below shows this.
+- // be careful please, this mode is not recommended for production usage.
 
-```
-npm install dompurify
-```
+- Source: https://github.com/cure53/DOMPurify
+- Extracted from upstream docs: https://raw.githubusercontent.com/cure53/DOMPurify/HEAD/README.md
 
 ## Documentation
 

@@ -19,19 +19,14 @@ Google account, Google Cloud project, YouTube Data API v3 enabled, and OAuth 2.0
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Use our code samples to jump-start your project. Samples are available for Apps Script, Go, Java, JavaScript, .NET, PHP, Python, and Ruby.
+- Python
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- The APIs Explorer lets you test unauthorized and authorized requests. The Quota Calculator shows how different requests impact your quota usage.
 
-Install command or upstream instructions:
-
-```
-Create a Google Cloud project, enable the YouTube Data API v3, configure credentials, then call the API endpoints documented at the source URL.
-```
+- Source: https://developers.google.com/youtube/v3
 
 ## Documentation
 

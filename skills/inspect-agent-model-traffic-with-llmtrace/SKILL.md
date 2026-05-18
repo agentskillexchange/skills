@@ -24,13 +24,24 @@ Rust or Docker runtime, OpenAI-compatible client or SDK
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- cargo install llmtrace # from crates.io
+- docker pull ghcr.io/epappas/llmtrace-proxy:latest # Docker
+- cargo install llmtrace
+- pip install llmtracing
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- python
+- ### OpenAI Python SDK
+- ### OpenAI Node.js SDK
+
+Basic usage or getting-started notes:
+- **Cost runaway** — Uncontrolled API spend, inefficient token usage
+- **Performance Monitoring** — Latency, token usage, streaming metrics (TTFT), error tracking
+- ### 1. Install
+
+- Source: https://github.com/epappas/llmtrace
+- Extracted from upstream docs: https://raw.githubusercontent.com/epappas/llmtrace/HEAD/README.md
 
 ## Documentation
 

@@ -20,19 +20,21 @@ Node.js; filesystem access; WordPress block tooling; optional WP-CLI
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/WordPress/agent-skills.git
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- node shared/scripts/skillpack-build.mjs --clean
+- node shared/scripts/skillpack-install.mjs --global
+- node shared/scripts/skillpack-install.mjs --global --skills=wp-playground,wp-block-development
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- bash
+- # Clone agent-skills
+- cd agent-skills
 
-```
-Clone WordPress/agent-skills, run node shared/scripts/skillpack-build.mjs --clean, then install with node shared/scripts/skillpack-install.mjs --global or --dest=<project>.
-```
+- Source: https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-interactivity-api
+- Extracted from upstream docs: https://raw.githubusercontent.com/WordPress/agent-skills/HEAD/README.md
 
 ## Documentation
 

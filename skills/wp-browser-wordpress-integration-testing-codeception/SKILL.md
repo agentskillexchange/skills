@@ -18,13 +18,16 @@ wp-browser is a PHP library that provides Codeception modules for testing WordPr
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- composer require --dev lucatume/wp-browser
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- An easy and quick setup, with a default configuration that will work for most projects, run end-to-end tests, integration tests and unit tests all with the same tool.
+- Depending on the nature of your project, there are different requirements it will need to satisfy before getting started.
+- ### Site
+
+- Source: https://github.com/lucatume/wp-browser
+- Extracted from upstream docs: https://raw.githubusercontent.com/lucatume/wp-browser/HEAD/README.md
 
 ## Source
 

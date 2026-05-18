@@ -23,19 +23,21 @@ Python 3, pip, a target URL, local disk space for archived snapshots, and option
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install waybackpack
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Version](https://img.shields.io/pypi/v/waybackpack.svg)](https://pypi.python.org/pypi/waybackpack) [![Support Python versions](https://img.shields.io/pypi/pyversions/waybackpack.svg)](https://pypi.python.org/pypi/w...
+- Requires tqdm to be installed.
+- Waypackback is written in pure Python, depends only on [requests](docs.python-requests.org), and should work wherever Python works. Requires Python 3.3+.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- For instance, to download every copy of the Department of Labor's homepage through 1996 (which happens to be the first year the site was archived), you'd run:
+- [--from-date FROM_DATE] [--to-date TO_DATE]
+- [--user-agent USER_AGENT] [--follow-redirects]
 
-```
-pip install waybackpack
-```
+- Source: https://github.com/jsvine/waybackpack
+- Extracted from upstream docs: https://raw.githubusercontent.com/jsvine/waybackpack/HEAD/README.md
 
 ## Documentation
 

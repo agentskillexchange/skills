@@ -24,19 +24,20 @@ Python, DSPy, task examples, scoring metric or evaluator, target LLM provider cr
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install dspy
+- pip install git+https://github.com/stanfordnlp/dspy.git
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- DSPy stands for Declarative Self-improving Python. Instead of brittle prompts, you write compositional _Python code_ and use DSPy to **teach your LM to deliver high-quality outputs**. Learn more via our [official docu...
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- bash
+- To install the very latest from main:
+- ## 📜 Citation & Reading More
 
-```
-pip install dspy
-```
+- Source: https://github.com/stanfordnlp/dspy
+- Extracted from upstream docs: https://raw.githubusercontent.com/stanfordnlp/dspy/HEAD/README.md
 
 ## Documentation
 

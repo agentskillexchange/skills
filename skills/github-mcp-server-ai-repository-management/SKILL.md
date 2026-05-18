@@ -18,13 +18,24 @@ GitHub's official Model Context Protocol (MCP) server that connects AI agents, a
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- [![Install with Docker in VS Code](https://img.shields.io/badge/VS_Code-Install_Server-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=github&inpu...
+- Example (color output requires a TTY; use docker run -t (or -it) when running in Docker):
+- docker run -it --rm ghcr.io/github/github-mcp-server tool-search "issue" --max-results 5
+- docker run -i --rm \
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- To run the server in a container, you will need to have [Docker](https://www.docker.com/) installed.
+- Once Docker is installed, you will also need to ensure Docker is running. The Docker image is available at ghcr.io/github/github-mcp-server. The image is public; if you get errors on pull, you may have an expired toke...
+- **Note**: Environment variable support varies by host app and IDE. Some applications (like Windsurf) require hardcoded tokens in config files.
+
+Basic usage or getting-started notes:
+- Lastly you will need to [Create a GitHub Personal Access Token](https://github.com/settings/personal-access-tokens/new).
+- The MCP server can use many of the GitHub APIs, so enable the permissions that you feel comfortable granting your AI tools (to learn more about access tokens, please check out the [documentation](https://docs.github.c...
+- <details><summary><b>Handling PATs Securely</b></summary>
+
+- Source: https://github.com/github/github-mcp-server
+- Extracted from upstream docs: https://raw.githubusercontent.com/github/github-mcp-server/HEAD/README.md
 
 ## Source
 

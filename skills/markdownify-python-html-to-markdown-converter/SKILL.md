@@ -18,13 +18,22 @@ markdownify is a Python library that converts HTML content to clean Markdown tex
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install markdownify
+- To run tests and the linter run pip install tox once, then tox.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- .. |build| image:: https://img.shields.io/github/actions/workflow/status/matthewwithanm/python-markdownify/python-app.yml?branch=develop
+- :target: https://github.com/matthewwithanm/python-markdownify/actions/workflows/python-app.yml?query=workflow%3A%22Python+application%22
+- :target: https://github.com/matthewwithanm/python-markdownify/blob/develop/LICENSE
+
+Basic usage or getting-started notes:
+- ============
+- =====
+- Convert some HTML to Markdown:
+
+- Source: https://github.com/matthewwithanm/python-markdownify
+- Extracted from upstream docs: https://raw.githubusercontent.com/matthewwithanm/python-markdownify/HEAD/README.rst
 
 ## Source
 

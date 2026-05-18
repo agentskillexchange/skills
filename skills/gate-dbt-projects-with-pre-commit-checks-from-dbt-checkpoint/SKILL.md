@@ -24,19 +24,13 @@ Python, pre-commit, dbt project files, and dbt-checkpoint.
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- [dbt-clean](https://github.com/dbt-checkpoint/dbt-checkpoint/blob/main/HOOKS.md#dbt-clean): Run dbt clean command.
+- [dbt-compile](https://github.com/dbt-checkpoint/dbt-checkpoint/blob/main/HOOKS.md#dbt-compile): Run dbt compile command.
+- [dbt-deps](https://github.com/dbt-checkpoint/dbt-checkpoint/blob/main/HOOKS.md#dbt-deps): Run dbt deps command.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Install with `pip install dbt-checkpoint`, add the documented hooks to `.pre-commit-config.yaml`, and run them locally or in CI before dbt changes merge.
-```
+- Source: https://github.com/dbt-checkpoint/dbt-checkpoint
+- Extracted from upstream docs: https://raw.githubusercontent.com/dbt-checkpoint/dbt-checkpoint/HEAD/README.md
 
 ## Documentation
 

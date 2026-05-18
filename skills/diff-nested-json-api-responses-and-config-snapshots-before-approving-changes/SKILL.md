@@ -20,19 +20,24 @@ Uses DeepDiff to compare structured objects deeply and return precise additions,
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install deepdiff
+- pip install "deepdiff[cli]"
+- pip install "deepdiff[optimize]"
+- Method 2: Use pip: pip install -e ".[cli,coverage,dev,docs,static,test]"
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- ![Python Versions](https://img.shields.io/pypi/pyversions/deepdiff.svg?style=flat)
+- [Extract](https://zepworks.com/deepdiff/current/extract.html): Extract an item from a nested Python object using its path.
+- Tested on Python 3.10+ and PyPy3.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- If you want to use DeepDiff from commandline:
+- If you want to improve the performance of DeepDiff with certain functionalities such as improved json serialization:
+- [yaml](https://pypi.org/project/PyYAML/)
 
-```
-Install via `pip install deepdiff`.
-```
+- Source: https://github.com/qlustered/deepdiff
+- Extracted from upstream docs: https://raw.githubusercontent.com/qlustered/deepdiff/HEAD/README.md
 
 ## Documentation
 

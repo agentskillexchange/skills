@@ -24,19 +24,17 @@ Hermes Agent; model provider API key or compatible endpoint; optional Telegram/D
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- <tr><td><b>Delegates and parallelizes</b></td><td>Spawn isolated subagents for parallel workstreams. Write Python scripts that call tools via RPC, collapsing multi-step pipelines into zero-context-cost turns.</td></tr>
+- <tr><td><b>Runs anywhere, not just your laptop</b></td><td>Seven terminal backends — local, Docker, SSH, Singularity, Modal, Daytona, and Vercel Sandbox. Daytona and Modal offer serverless persistence — your agent's e...
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- **The self-improving AI agent built by [Nous Research](https://nousresearch.com).** It's the only agent with a built-in learning loop — it creates skills from experience, improves them during use, nudges itself to per...
+- bash
+- hermes # Interactive CLI — start a conversation
 
-Install command or upstream instructions:
-
-```
-Follow the Hermes Agent documentation to install the runtime, configure a model provider, and connect the CLI or desired messaging gateway before assigning persistent tasks, schedules, and skills.
-```
+- Source: https://github.com/NousResearch/hermes-agent
+- Extracted from upstream docs: https://raw.githubusercontent.com/NousResearch/hermes-agent/HEAD/README.md
 
 ## Documentation
 

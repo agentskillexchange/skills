@@ -24,19 +24,22 @@ agent-audit, local agent repository or config tree
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install agent-audit
+- git clone https://github.com/HeadyZhang/agent-audit
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Python](https://img.shields.io/pypi/pyversions/agent-audit.svg)](https://pypi.org/project/agent-audit/)
+- | T6 | [openai-agents-python](https://github.com/openai/openai-agents-python) | 25 | ASI-01, ASI-02 |
+- | T7 | [adk-python](https://github.com/google/adk-python) | 40 | ASI-02, ASI-04, ASI-10 |
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Install
+- bash
+- Scan your project
 
-```
-Install the agent-audit package from the upstream project, point it at an agent repository or config tree, and run the static scan before CI approval or release.
-```
+- Source: https://github.com/HeadyZhang/agent-audit
+- Extracted from upstream docs: https://raw.githubusercontent.com/HeadyZhang/agent-audit/HEAD/README.md
 
 ## Documentation
 

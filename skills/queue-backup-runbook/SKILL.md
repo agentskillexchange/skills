@@ -25,19 +25,21 @@ Node.js
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install kafkajs
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- A modern Apache Kafka® client for Node.js
+- KafkaJS is a modern [Apache Kafka](https://kafka.apache.org/) client for Node.js. It is compatible with Kafka 0.10+ and offers native support for 0.11 features.
+- const { Kafka } = require('kafkajs')
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- ### <a name="getting-started"></a> Getting Started
 
-```
-npm install kafkajs
-```
+- Source: https://github.com/tulios/kafkajs
+- Extracted from upstream docs: https://raw.githubusercontent.com/tulios/kafkajs/HEAD/README.md
 
 ## Documentation
 

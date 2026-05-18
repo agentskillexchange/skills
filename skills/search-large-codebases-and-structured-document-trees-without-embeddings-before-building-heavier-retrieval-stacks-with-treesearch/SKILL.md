@@ -24,19 +24,24 @@ TreeSearch Python package or Rust CLI, local codebase or document corpus, and op
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install -U pytreesearch
+- brew tap shibing624/tap
+- brew install treesearch
+- cargo install treesearch
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![python_version](https://img.shields.io/badge/Python-3.10%2B-green.svg)](requirements.txt)
+- **TreeSearch** is a structure-aware document retrieval library. No vector embeddings. No chunk splitting. SQLite FTS5 keyword matching over document tree structures. Supports Markdown, plain text, code files (Python A...
+- ### Python Library
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- bash
+- Then use it in code:
+- from treesearch import TreeSearch
 
-```
-Install TreeSearch from the Python package or Rust/Homebrew path documented upstream, point it at the target folders or files, then index and query the corpus with the CLI or Python API.
-```
+- Source: https://github.com/shibing624/TreeSearch
+- Extracted from upstream docs: https://raw.githubusercontent.com/shibing624/TreeSearch/HEAD/README.md
 
 ## Documentation
 

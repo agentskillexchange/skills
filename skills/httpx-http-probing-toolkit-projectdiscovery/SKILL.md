@@ -18,13 +18,20 @@ httpx by ProjectDiscovery is a fast, multi-purpose HTTP toolkit for running prob
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <a href="https://hub.docker.com/r/projectdiscovery/httpx"><img src="https://img.shields.io/docker/pulls/projectdiscovery/httpx.svg"></a>
+- httpx requires **go >=1.25.0** to install successfully. Run the following command to get the repo:
+
+Basic usage or getting-started notes:
+- <a href="#usage">Usage</a> •
+- sh
+- To learn more about installing httpx, see https://docs.projectdiscovery.io/tools/httpx/install.
+
+- Source: https://github.com/projectdiscovery/httpx
+- Extracted from upstream docs: https://raw.githubusercontent.com/projectdiscovery/httpx/HEAD/README.md
 
 ## Source
 

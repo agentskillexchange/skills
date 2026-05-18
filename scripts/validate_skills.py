@@ -19,6 +19,7 @@ REQUIRED_FIELDS   = {"name", "slug", "description", "category", "framework", "ve
 FORBIDDEN_FIELDS  = {"verification_status", "verified_metadata"}
 VALID_VERIFICATION = {"listed", "security_reviewed"}
 SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
+INSTALL_BOILERPLATE = "Copy this skill folder into your local skills directory"
 
 
 def parse_frontmatter(text: str) -> tuple[dict, list[str]]:
@@ -128,6 +129,8 @@ def validate_file(path: Path, github_annotations: bool = False) -> tuple[list[st
     ver = scalar(fields, "verification")
     if ver and ver not in VALID_VERIFICATION:
         errors.append(f"Invalid verification value '{ver}'; must be listed|security_reviewed")
+    if ver == "security_reviewed" and INSTALL_BOILERPLATE in text:
+        errors.append("Security-reviewed skill still contains generic skill-folder installation boilerplate")
 
     # H1 heading in body
     if "\n# " not in text and not text.startswith("# "):

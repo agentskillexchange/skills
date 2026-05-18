@@ -23,19 +23,21 @@ Python, pip
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install python-slugify
+- pip install python-slugify[unidecode]
+- Make a slug from the given text.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- # Python Slugify
+- **A Python slugify application that handles unicode**.
+- However, there is an alternative decoding package called [Unidecode](https://github.com/avian2/unidecode) _(GPL)_. It can be installed as python-slugify[unidecode] for those who prefer it. Unidecode is believed to be...
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- To run the tests against the current environment:
 
-```
-pip install python-slugify
-```
+- Source: https://github.com/un33k/python-slugify
+- Extracted from upstream docs: https://raw.githubusercontent.com/un33k/python-slugify/HEAD/README.md
 
 ## Documentation
 

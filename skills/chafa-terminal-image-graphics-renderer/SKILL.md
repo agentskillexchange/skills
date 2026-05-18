@@ -18,13 +18,20 @@ Chafa converts images, animated GIFs, and video frames into ANSI/Unicode charact
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ git clone https://github.com/hpjansson/chafa.git
+- $ make
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- ## Python bindings
+- [excellent Python bindings](https://chafapy.mage.black/) for Chafa. If
+- Python's your thing, check them out. They are easy to use and come with a
+
+Basic usage or getting-started notes:
+- [detailed tutorial](https://chafapy.mage.black/usage/tutorial.html).
+
+- Source: https://github.com/hpjansson/chafa
+- Extracted from upstream docs: https://raw.githubusercontent.com/hpjansson/chafa/HEAD/README.md
 
 ## Source
 

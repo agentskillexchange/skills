@@ -26,19 +26,24 @@ Python 3.9+
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install seleniumbase
+- git clone https://github.com/seleniumbase/SeleniumBase.git
+- pip install -e .
+- pip install allure-pytest
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <meta property="og:title" content="SeleniumBase: Python Web Automation and E2E Testing" />
+- <meta property="og:description" content="Fast, easy, and reliable Web/UI testing with Python." />
+- <meta property="og:keywords" content="Python, pytest, selenium, webdriver, testing, automation, seleniumbase, framework, dashboard, recorder, reports, screenshots">
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- 📚 The [SeleniumBase/examples/](https://github.com/seleniumbase/SeleniumBase/tree/master/examples) folder includes over 100 ready-to-run examples. Examples that start with test_ or end with _test.py/_tests.py are speci...
+- <p align="left">📝 <a href="https://github.com/seleniumbase/SeleniumBase/blob/master/examples/cdp_mode/raw_cdp_browserscan.py" target="_blank">This example</a> verifies that <a href="https://github.com/seleniumbase/Sel...
+- <p align="left">📝 <a href="https://github.com/seleniumbase/SeleniumBase/blob/master/examples/cdp_mode/raw_cdp_yc_news.py" target="_blank">This example</a> scrapes Hacker News listings with <a href="https://github.com/...
 
-```
-pip install seleniumbase
-```
+- Source: https://github.com/seleniumbase/SeleniumBase
+- Extracted from upstream docs: https://raw.githubusercontent.com/seleniumbase/SeleniumBase/HEAD/README.md
 
 ## Documentation
 

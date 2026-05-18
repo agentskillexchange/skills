@@ -24,19 +24,16 @@ Rust, Cargo workspace, release-plz
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- [![Docker](https://badgen.net/badge/icon/docker?icon=docker&label)](https://hub.docker.com/r/marcoieni/release-plz)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- There are two ways to run release-plz:
+- [GitHub Action](https://release-plz.dev/docs/github): Run Release-plz from CI. The action both updates and releases your packages.
+- [CLI](https://release-plz.dev/docs/usage): Run release-plz from your terminal or other CI systems (Gitea and GitLab supported).
 
-Install command or upstream instructions:
-
-```
-Install the CLI, then run it from the Rust workspace root to prepare release pull requests and changelog updates: cargo install release-plz && release-plz release-pr
-```
+- Source: https://github.com/release-plz/release-plz
+- Extracted from upstream docs: https://raw.githubusercontent.com/release-plz/release-plz/HEAD/README.md
 
 ## Documentation
 

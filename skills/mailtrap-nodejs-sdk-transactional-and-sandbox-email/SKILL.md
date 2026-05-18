@@ -24,19 +24,24 @@ Node.js or TypeScript runtime with the mailtrap package
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install mailtrap
+- yarn add mailtrap
+- npm install nodemailer
+- yarn add nodemailer
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- # Mailtrap Node.js client - Official
+- To get the most out of this official Mailtrap.io Node.js SDK:
+- subject: "Hello from Mailtrap Node.js",
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [Create a Mailtrap account](https://mailtrap.io/signup)
+- [Verify your domain](https://mailtrap.io/sending/domains)
+- You can install the package via [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/):
 
-```
-npm install mailtrap
-```
+- Source: https://github.com/mailtrap/mailtrap-nodejs
+- Extracted from upstream docs: https://raw.githubusercontent.com/mailtrap/mailtrap-nodejs/HEAD/README.md
 
 ## Documentation
 

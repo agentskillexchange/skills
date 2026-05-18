@@ -24,19 +24,21 @@ Python 3.8+
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install apprise
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Python](https://img.shields.io/pypi/pyversions/apprise.svg?style=flat-square)](https://pypi.org/project/apprise/)
+- python
+- To send a notification from within your python application, just do the following:
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [Command Line Usage](#command-line-usage)
+- [Developer API Usage](#developer-api-usage)
+- The table below identifies the services this tool supports and some example service urls you need to use in order to take advantage of it. Click on any of the services listed below to get more details on how you can c...
 
-```
-pip install apprise
-```
+- Source: https://github.com/caronc/apprise
+- Extracted from upstream docs: https://raw.githubusercontent.com/caronc/apprise/HEAD/README.md
 
 ## Documentation
 
