@@ -260,6 +260,8 @@ def replace_installation(body: str, section: str) -> str:
 
 
 def process_file(path: Path, dry_run: bool = False, downgrade_only: bool = False) -> dict:
+    if not path.exists():
+        return {"path": str(path), "changed": False, "reason": "missing file skipped"}
     text = path.read_text(encoding="utf-8")
     if PLACEHOLDER not in text:
         return {"path": str(path), "changed": False, "reason": "no placeholder"}
@@ -304,6 +306,10 @@ def process_file(path: Path, dry_run: bool = False, downgrade_only: bool = False
     if new_text != text:
         result["changed"] = True
         if not dry_run:
+            if not path.exists():
+                result["changed"] = False
+                result["reason"] = "missing file skipped before write"
+                return result
             path.write_text(new_text, encoding="utf-8")
     return result
 
