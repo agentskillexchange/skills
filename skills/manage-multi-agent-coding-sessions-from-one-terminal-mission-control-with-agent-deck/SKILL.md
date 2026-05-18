@@ -37,8 +37,8 @@ Requirements and caveats from upstream:
 
 Basic usage or getting-started notes:
 - [Features](#features) . [Conductor](#conductor) . [Install](#installation) . [Quick Start](#quick-start) . [Docs](#documentation) . [Discord](https://discord.gg/e4xSs6NBN8) . [FAQ](#faq)
-- Agent Deck supports per-group CLAUDE_CONFIG_DIR and env_file overrides. Useful when a single profile hosts groups that should authenticate against different Claude accounts — for example, a personal profile hosting a...
-- Running many sessions? Socket pooling shares MCP processes across all sessions via Unix sockets, reducing MCP memory usage by 85-90%. Connections auto-recover from MCP crashes in ~3 seconds via a reconnecting proxy. E...
+- Five minutes from zero to a Telegram bot that watches every Claude session you have running.
+- bash
 
 - Source: https://github.com/asheshgoplani/agent-deck
 - Extracted from upstream docs: https://raw.githubusercontent.com/asheshgoplani/agent-deck/HEAD/README.md

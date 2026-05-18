@@ -25,7 +25,7 @@ Node.js v20.19+, Google Chrome, npm
 ## Installation
 
 Requirements and caveats from upstream:
-- [Node.js](https://nodejs.org/) v20.19 or a newer [latest maintenance LTS](https://github.com/nodejs/Release#release-schedule) version.
+- [Node.js](https://nodejs.org/) [LTS](https://github.com/nodejs/Release#release-schedule) version.
 
 Basic usage or getting-started notes:
 - this, run with the --no-performance-crux flag.

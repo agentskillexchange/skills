@@ -24,9 +24,6 @@ dingtalk-workspace-cli, Node.js or a release binary, DingTalk enterprise access,
 
 ## Installation
 
-Requirements and caveats from upstream:
-- This project accesses DingTalk enterprise data and requires the appropriate organization authorization or custom app credentials.
-
 Basic usage or getting-started notes:
 - [Getting Started](#getting-started)
 - [Quick Start](#quick-start)

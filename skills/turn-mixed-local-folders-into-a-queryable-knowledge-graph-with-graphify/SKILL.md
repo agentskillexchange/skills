@@ -32,7 +32,7 @@ Use the upstream install or setup path that matches your environment:
 
 Requirements and caveats from upstream:
 - | leiden | Leiden community detection (Python < 3.13 only) | pip install "graphifyy[leiden]" |
-- macOS: add ~/Library/Python/3.x/bin to your PATH in ~/.zshrc
+- /graphify . --cluster-only --exclude-hubs 99 # suppress utility super-hubs from god-node rankings
 
 Basic usage or getting-started notes:
 - For a readable architecture page with Mermaid call-flow diagrams, run:

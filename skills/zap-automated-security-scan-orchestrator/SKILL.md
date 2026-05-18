@@ -3,7 +3,7 @@ name: "ZAP Automated Security Scan Orchestrator"
 slug: "zap-automated-security-scan-orchestrator"
 description: "Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication sequence configuration. Generates compliance reports mapped to OWASP Top 10 and exports findings in SARIF and JUnit XML formats."
 github_stars: 15007
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/zaproxy/zaproxy"
 author: "OWASP ZAP"
 category: "Security & Verification"
@@ -23,9 +23,14 @@ Java or Docker
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Requirements and caveats from upstream:
+- ![Docker Live Release](https://github.com/zaproxy/zaproxy/actions/workflows/release-live-docker.yml/badge.svg)
+
+Basic usage or getting-started notes:
+- ![Integration Tests](https://github.com/zaproxy/zaproxy/actions/workflows/run-integration-tests.yml/badge.svg)
 
 - Source: https://github.com/zaproxy/zaproxy
+- Extracted from upstream docs: https://raw.githubusercontent.com/zaproxy/zaproxy/HEAD/README.md
 
 ## Documentation
 

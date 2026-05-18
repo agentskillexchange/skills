@@ -25,9 +25,9 @@ pgBackRest installation, PostgreSQL server access, configured backup repository 
 ## Installation
 
 Basic usage or getting-started notes:
-- Like everyone else, I need to make a living, and the range of pgBackRest-related roles is very limited. I can now consider a wider variety of opportunities, but those will not leave me time to work on pgBackRest, whic...
 - Multiple repositories allow, for example, a local repository with minimal retention for fast restores and a remote repository with a longer retention for redundancy and access across the enterprise.
 - Dedicated commands are included for pushing WAL to the archive and getting WAL from the archive. Both commands support parallelism to accelerate processing and run asynchronously to provide the fastest possible respon...
+- pgBackRest strives to be easy to configure and operate:
 
 - Source: https://github.com/pgbackrest/pgbackrest
 - Extracted from upstream docs: https://raw.githubusercontent.com/pgbackrest/pgbackrest/HEAD/README.md

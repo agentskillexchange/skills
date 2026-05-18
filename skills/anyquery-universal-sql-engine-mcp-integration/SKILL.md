@@ -23,8 +23,8 @@ Use the upstream install or setup path that matches your environment:
 
 Basic usage or getting-started notes:
 - Anyquery is a SQL query engine that allows you to run SQL queries on pretty much anything. It supports querying [files](https://anyquery.dev/docs/usage/querying-files/), [databases](https://anyquery.dev/docs/database)...
-- Anyquery can expose a MySQL-compatible server mode so SQL clients can query supported data sources through the same interface.
 - ### Connecting LLM
+- LLMs can connect to Anyquery using the [Model Context Protocol (MCP)](https://anyquery.dev/docs/reference/commands/anyquery_mcp). This protocol provides context for LLMs that support it. You can start the MCP server w...
 
 - Source: https://github.com/julien040/anyquery
 - Extracted from upstream docs: https://raw.githubusercontent.com/julien040/anyquery/HEAD/README.md

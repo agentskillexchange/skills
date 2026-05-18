@@ -32,7 +32,7 @@ Requirements and caveats from upstream:
 Basic usage or getting-started notes:
 - [👋🏻 Getting Started & Join Our Community](#-getting-started--join-our-community)
 - ## 👋🏻 Getting Started & Join Our Community
-- Learn more about [📘 Using Ollama in LobeHub][docs-usage-ollama] by checking it out.
+- | Environment Variable | Required | Description | Example |
 
 - Source: https://github.com/lobehub/lobehub
 - Extracted from upstream docs: https://raw.githubusercontent.com/lobehub/lobehub/HEAD/README.md

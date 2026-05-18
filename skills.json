@@ -10,7 +10,7 @@
       "description": "Use rLLM to evaluate, trace, reward, and train LLM agents with reinforcement learning across common agent frameworks.",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 5530
       }
@@ -34,7 +34,7 @@
       "description": "Use Superpowers to give coding agents a structured software-development method with discovery, spec review, planning, TDD, subagents, and review loops.",
       "category": "Templates & Workflows",
       "framework": "Multi-Framework",
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 194639
       }
@@ -46,7 +46,7 @@
       "description": "Use ARIS to run Markdown-based agent skills for literature review, idea discovery, cross-model critique, experiment planning, and paper-writing support.",
       "category": "Templates & Workflows",
       "framework": "Multi-Framework",
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 9609
       }
@@ -8290,7 +8290,7 @@
       "description": "Yoast SEO is the long-running WordPress SEO plugin from Yoast, used to manage metadata, XML sitemaps, schema output, readability checks, and search appearance settings…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 1938
       }
@@ -12480,7 +12480,7 @@
       "description": "xq is a command-line XML and HTML beautifier and content extractor written in Go. It provides syntax highlighting, automatic formatting, XPath and CSS selector…",
       "category": "Data Extraction & Transformation",
       "framework": "Multi-Framework",
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 1100,
         "license": "MIT"
@@ -17055,7 +17055,7 @@
       "description": "Identifies keyword cannibalization across site pages by analyzing Google Search Console Performance API data, extracting query-page pairings, and detecting overlap using TF-IDF cosine similarity…",
       "category": "Content Writing & SEO",
       "framework": "Gemini",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "schema-org-structured-data-injector",
@@ -17601,7 +17601,7 @@
       "description": "Clone and synthesize custom voices using the ElevenLabs API v2 with instant voice cloning. Manages voice library operations, text-to-speech generation with SSML markup, and…",
       "category": "Media & Transcription",
       "framework": "OpenClaw",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "deepgram-nova-stt-pipeline",
@@ -19526,7 +19526,7 @@
       "description": "Generates and validates podcast RSS feeds compliant with the Apple Podcasts and Spotify specification. Uses the podcast-index API for cross-platform distribution and ID3 tag…",
       "category": "Media & Transcription",
       "framework": "Claude Agents",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "datadog-monitor-configurator-2",
@@ -20903,7 +20903,7 @@
       "description": "Optimizes internal linking structure using Screaming Frog SEO Spider XML exports and NetworkX graph analysis. Identifies orphan pages, calculates PageRank distribution, and suggests anchor…",
       "category": "Content Writing & SEO",
       "framework": "Custom Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "rest-api-testing-reference-kit",
@@ -20956,7 +20956,7 @@
       "description": "Automated keyword research using DataForSEO API and Google Search Console API. Performs SERP analysis, keyword clustering with TF-IDF scoring, and generates content briefs with…",
       "category": "Content Writing & SEO",
       "framework": "Gemini",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "outlook-mail-triage-assistant",
@@ -21458,7 +21458,7 @@
       "description": "Collects and analyzes product reviews from Amazon Product API and Google Shopping via SerpAPI. Uses spaCy NER and aspect-based sentiment analysis to extract feature-level…",
       "category": "Research & Scraping",
       "framework": "Claude Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "sec-edgar-filing-scraper-analyzer",
@@ -21491,7 +21491,7 @@
       "description": "Builds citation networks from Semantic Scholar API and CrossRef DOI metadata. Visualizes paper influence graphs using NetworkX, identifies seminal works, and tracks research lineage…",
       "category": "Research & Scraping",
       "framework": "OpenClaw",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "makefile-dependency-auditor",
@@ -22489,7 +22489,7 @@
       "description": "Builds topical authority clusters using SEMrush Keyword Magic API, Ahrefs Content Explorer, and Google Search Console API. Generates pillar pages with internal linking maps…",
       "category": "Content Writing & SEO",
       "framework": "Claude Agents",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "ai-powered-meta-description-writer",
@@ -22507,7 +22507,7 @@
       "description": "Crawls websites for technical SEO issues using Screaming Frog CLI, Lighthouse CI API, and PageSpeed Insights v5. Reports on Core Web Vitals, canonical chains,…",
       "category": "Content Writing & SEO",
       "framework": "OpenClaw",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "selenium-grid-parallel-executor",
@@ -23728,7 +23728,7 @@
       "description": "Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers, actions, and searches with OAuth2 authentication flows.",
       "category": "Integrations & Connectors",
       "framework": "Custom Agents",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "aws-codepipeline-orchestrator",
@@ -24563,7 +24563,7 @@
       "description": "Orchestrates OWASP ZAP security scans via the ZAP API with automated spider, active scanner, and authentication sequence configuration. Generates compliance reports mapped to OWASP…",
       "category": "Security & Verification",
       "framework": "Codex",
-      "verification": "listed",
+      "verification": "security_reviewed",
       "signals": {
         "github_stars": 15007
       }
@@ -24637,7 +24637,7 @@
       "description": "Performs deep OSINT analysis on domains using Shodan API, SecurityTrails DNS history, and WHOIS RDAP lookups. Aggregates subdomain enumeration via Amass and certificate transparency…",
       "category": "Research & Scraping",
       "framework": "OpenClaw",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "scrapy-distributed-crawler-framework",
@@ -28168,7 +28168,7 @@
       "description": "Builds a Zapier automation using the Zapier NLA API to trigger on new HubSpot form submissions and enrich contact records via the Clearbit Enrichment…",
       "category": "Integrations & Connectors",
       "framework": "MCP",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "copyai-sales-email-sequence",

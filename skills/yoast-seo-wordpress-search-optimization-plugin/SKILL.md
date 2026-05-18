@@ -3,7 +3,7 @@ name: "Yoast SEO WordPress Search Optimization Plugin"
 slug: "yoast-seo-wordpress-search-optimization-plugin"
 description: "Yoast SEO is the long-running WordPress SEO plugin from Yoast, used to manage metadata, XML sitemaps, schema output, readability checks, and search appearance settings from inside wp-admin. It fits content teams and site operators who need repeatable on-page SEO controls without custom code for each site."
 github_stars: 1938
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/Yoast/wordpress-seo"
 author: "Yoast"
 category: "WordPress & CMS"
@@ -19,9 +19,19 @@ Yoast SEO is the long-running WordPress SEO plugin from Yoast, used to manage me
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/Yoast/wordpress-seo.git
+- composer install
+- yarn
+- yarn workspace @yoast/ui-library watch:js
+
+Basic usage or getting-started notes:
+- Here's a [guide on how to install Yoast SEO in your WordPress site](https://yoa.st/1un).
+- ## Want to contribute to Yoast SEO?
+- At Yoast, we make use a specific toolset to develop our code. Please ensure you have the following tools installed before contributing.
 
 - Source: https://github.com/Yoast/wordpress-seo
+- Extracted from upstream docs: https://raw.githubusercontent.com/Yoast/wordpress-seo/HEAD/README.md
 
 ## Documentation
 

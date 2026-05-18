@@ -3,7 +3,7 @@ name: "Automate ML research loops with ARIS skills"
 slug: "automate-ml-research-loops-with-aris-skills"
 description: "Use ARIS to run Markdown-based agent skills for literature review, idea discovery, cross-model critique, experiment planning, and paper-writing support."
 github_stars: 9609
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep"
 author: "wanshuiyin"
 publisher_type: "individual"
