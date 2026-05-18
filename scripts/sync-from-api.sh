@@ -36,7 +36,10 @@ BROWSE_API = f"{ASE_API_BASE}/wp-json/ase-marketplace/v1/browse"
 SKILLS_JSON_URL = f"{ASE_API_BASE}/skills.json"
 
 def fetch_json(url, method="GET"):
-    req = urllib.request.Request(url, headers={"User-Agent": "ASE Repo sync-from-api/1.0"}, method=method)
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "Mozilla/5.0 (compatible; ASE Repo sync-from-api/1.0)",
+        "Accept": "application/json,text/plain,*/*",
+    }, method=method)
     with urllib.request.urlopen(req, timeout=60) as resp:
         body = resp.read().decode("utf-8")
         return json.loads(body), dict(resp.headers), body
