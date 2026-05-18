@@ -227,7 +227,7 @@ if skill_of_day:
     title = display_name(skill_of_day)
     slug = skill_of_day.get("slug") or ""
     description = clean_text(skill_of_day.get("description"))
-    link = skill_of_day.get("link") or f"{SITE_BASE}/skills/{slug}/"
+    link = f"skills/{slug}/"
     lines.append(f"**[{title}]({link})** — {description}")
     lines.append("")
     lines.append("_Rotates daily by UTC date from the Security Reviewed pool._")
