@@ -14,13 +14,7 @@ Clone and synthesize custom voices using the ElevenLabs API v2 with instant voic
 
 ## Installation
 
-Requirements and caveats from upstream:
-- ElevenLabs provides AI voice infrastructure: text-to-speech, speech-to-text, voice cloning, conversational agents, and generative audio. All capabilities are accessible through a REST API with official Python and Type...
-
-Basic usage or getting-started notes:
-- Files
-- Workspaces
-- Light
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
 - Source: https://elevenlabs.io/docs/overview
 

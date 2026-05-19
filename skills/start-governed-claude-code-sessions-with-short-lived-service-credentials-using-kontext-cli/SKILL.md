@@ -30,7 +30,6 @@ Use the upstream install or setup path that matches your environment:
 - pnpm build
 
 Requirements and caveats from upstream:
-- Kontext balances security and utility for AI agents: low-risk actions keep moving, sensitive actions require approval, and unsafe actions can be blocked before they execute.
 - | Local evaluation | Default kontext start does not require hosted login or trace upload. |
 
 Basic usage or getting-started notes:
