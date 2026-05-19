@@ -11,7 +11,7 @@
 
 **[Categories](categories/) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,475 published skills · 17 categories · Real ecosystem signals · Updated hourly*
+*2,475 published skills · 17 categories · Real ecosystem signals · Updated daily*
 
 </div>
 
@@ -202,7 +202,7 @@ Requirements:
 
 ### Option 2: Web Submission
 
-Submit through [agentskillexchange.com/create-skill](https://agentskillexchange.com/create-skill/) — auto-synced to this repo hourly.
+Submit through [agentskillexchange.com/create-skill](https://agentskillexchange.com/create-skill/) — auto-synced to this repo daily.
 
 ---
 
