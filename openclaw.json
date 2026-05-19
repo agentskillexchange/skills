@@ -2,8 +2,17 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-05-19",
-  "total": 2476,
+  "total": 2477,
   "skills": [
+    {
+      "slug": "build-a-self-updating-agent-memory-graph-with-gbrain",
+      "name": "Build a self-updating agent memory graph with GBrain",
+      "title": "Build a self-updating agent memory graph with GBrain",
+      "description": "Use GBrain to give OpenClaw or Hermes-style agents a local knowledge brain with markdown ingestion, entity links, hybrid search, scheduled consolidation, and MCP access.",
+      "category": "Templates & Workflows",
+      "framework": "OpenClaw",
+      "verification": "listed"
+    },
     {
       "slug": "install-selected-ecc-agent-skills-and-rules-across-coding-harnesses",
       "name": "Install selected ECC agent skills and rules across coding harnesses",

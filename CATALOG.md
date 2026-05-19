@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2476 published skills** across **17 categories** · 2,131 security reviewed · Updated 2026-05-19 09:43 UTC
+> **2477 published skills** across **17 categories** · 2,131 security reviewed · Updated 2026-05-19 13:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1312,7 +1312,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [PagerDuty Event Orchestration Runbook](skills/pagerduty-event-orchestration-runbook/) | Builds incident runbooks around the PagerDuty Events API v2, Incidents API, and Response Plays so agents can… | Published | — | — |
 
 
-### 📄 Templates & Workflows (160 skills)
+### 📄 Templates & Workflows (161 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1378,6 +1378,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Prefect Python Workflow Orchestration Framework for Data Pipelines](skills/prefect-python-workflow-orchestration-data-pipelines/) | Prefect is a Python workflow orchestration framework for building resilient data pipelines. Add scheduling, retries,… | Security Reviewed | 22.1k | — |
 | [Temporal Durable Execution Workflow Orchestration Platform](skills/temporal-durable-execution-workflow-platform/) | Temporal is an open-source durable execution platform that lets developers build scalable, fault-tolerant workflows.… | Security Reviewed | 19.4k | — |
 | [React Email Component Library for Building Email Templates](skills/react-email-component-library-email-templates/) | React Email is an open source component library for building responsive, cross-client email templates using React… | Security Reviewed | 18.4k | — |
+| [Build a self-updating agent memory graph with GBrain](skills/build-a-self-updating-agent-memory-graph-with-gbrain/) | Use GBrain to give OpenClaw or Hermes-style agents a local knowledge brain with markdown ingestion, entity links,… | Published | 17.3k | — |
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown,… | Published | 17.3k | — |
 | [Run scheduled autonomous agent Hands with OpenFang](skills/run-scheduled-autonomous-agent-hands-with-openfang/) | Use OpenFang to run packaged autonomous agent workflows on schedules with manifests, dashboards, reporting, and… | Security Reviewed | 17.2k | — |
 | [Mustache Template Renderer](skills/mustache-template-renderer-agent/) | Renders Mustache logic-less templates with partials resolution and lambda support. Uses the mustache.js library for… | Security Reviewed | 16.7k | 12.7M/wk |

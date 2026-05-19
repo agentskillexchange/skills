@@ -100,6 +100,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Prefect Python Workflow Orchestration Framework for Data Pipelines](../../skills/prefect-python-workflow-orchestration-data-pipelines/) | 22.1k | — |
 | [Temporal Durable Execution Workflow Orchestration Platform](../../skills/temporal-durable-execution-workflow-platform/) | 19.4k | — |
 | [React Email Component Library for Building Email Templates](../../skills/react-email-component-library-email-templates/) | 18.4k | — |
+| [Build a self-updating agent memory graph with GBrain](../../skills/build-a-self-updating-agent-memory-graph-with-gbrain/) | 17.3k | — |
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](../../skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | 17.3k | — |
 | [Run scheduled autonomous agent Hands with OpenFang](../../skills/run-scheduled-autonomous-agent-hands-with-openfang/) | 17.2k | — |
 | [Mustache Template Renderer](../../skills/mustache-template-renderer-agent/) | 16.7k | 12.7M/wk |

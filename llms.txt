@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-05-19
-# Total: 2476 skills
+# Total: 2477 skills
+
+## Build a self-updating agent memory graph with GBrain
+slug: build-a-self-updating-agent-memory-graph-with-gbrain
+category: Templates & Workflows
+framework: OpenClaw
+verification: Published
+description: Use GBrain to give OpenClaw or Hermes-style agents a local knowledge brain with markdown ingestion, entity links, hybrid search, scheduled consolidation, and MCP access.
+url: https://agentskillexchange.com/skills/build-a-self-updating-agent-memory-graph-with-gbrain/
 
 ## Install selected ECC agent skills and rules across coding harnesses
 slug: install-selected-ecc-agent-skills-and-rules-across-coding-harnesses
