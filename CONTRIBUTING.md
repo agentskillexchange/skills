@@ -170,7 +170,7 @@ New skills enter as **Published** (`verification: listed`). Security review is h
 1. Open a PR with your new or updated skill
 2. Automated checks validate the SKILL.md format and scan for security concerns
 3. A reviewer checks the content for quality and accuracy
-4. If approved, it merges to `main`; marketplace sync is handled by the ASE automation pipeline.
+4. If approved, it merges to `main`. ASE marketplace publication for repo-originated skills is handled separately by the maintainers.
 
 ---
 
