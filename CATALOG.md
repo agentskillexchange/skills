@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2476 published skills** across **17 categories** · 2,131 security reviewed · Updated 2026-05-19 07:38 UTC
+> **2476 published skills** across **17 categories** · 2,131 security reviewed · Updated 2026-05-19 08:16 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1697,7 +1697,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [calcurse Text-Based Calendar and Scheduling Application](skills/calcurse-text-calendar-scheduling/) | calcurse is a text-based calendar and scheduling application for the command line. It helps keep track of events,… | Security Reviewed | 1.2k | — |
 | [Apply repeatable IMAP rules to triage and clean inboxes with imapfilter](skills/apply-repeatable-imap-rules-to-triage-and-clean-inboxes-with-imapfilter/) | Route, label, and clean routine email traffic with scripted IMAP rules instead of doing the same inbox chores by hand. | Security Reviewed | 917 | — |
 | [Resend Developer Email API and Node.js SDK](skills/resend-developer-email-api-nodejs-sdk/) | Resend is a modern email API designed for developers, providing a clean SDK for sending transactional and marketing… | Published | 887 | 5.3M/wk |
-| [Atlassian Rovo MCP Server](skills/atlassian-rovo-mcp-server/) | The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP-compatible client. Search and… | Security Reviewed | 712 | — |
+| [Atlassian Rovo MCP Server](skills/atlassian-rovo-mcp-server/) | The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP-compatible client. Search and… | Security Reviewed | 713 | — |
 | [Mailgun JavaScript SDK for Email Delivery and Domain Operations](skills/mailgun-javascript-sdk-email-delivery-and-domain-operations-2/) | An ASE skill built around the official Mailgun JavaScript SDK for sending email and managing Mailgun API workflows… | Security Reviewed | 547 | — |
 | [Mailgun JavaScript SDK for Email Delivery and Domain Operations](skills/mailgun-javascript-sdk-email-delivery-and-domain-operations/) | An ASE skill built around the official Mailgun JavaScript SDK for sending email and managing Mailgun API workflows… | Security Reviewed | 547 | — |
 | [Read and automate Slack workflows from a purpose-built agent CLI with agent-slack](skills/read-and-automate-slack-workflows-from-a-purpose-built-agent-cli-with-agent-slack/) | Search channels, inspect threads, move files, and send or edit Slack messages through an agent-oriented CLI with… | Security Reviewed | 382 | 5.2k/wk |
