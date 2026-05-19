@@ -2,7 +2,7 @@
 name: "Notion MCP Server"
 slug: "notion-mcp-server"
 description: ""
-github_stars: 5605
+github_stars: 5606
 verification: "security_reviewed"
 source: "https://github.com/makenotion/notion-sdk-js"
 author: "Notion"
@@ -10,7 +10,7 @@ category: "Calendar, Email & Productivity"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "makenotion/notion-sdk-js"
-  github_stars: 5605
+  github_stars: 5606
   npm_package: "@notionhq/client"
   npm_weekly_downloads: 1421197
 ---

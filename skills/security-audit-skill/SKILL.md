@@ -2,7 +2,7 @@
 name: "Security Audit Skill"
 slug: "security-audit-skill"
 description: ""
-github_stars: 15143
+github_stars: 15144
 verification: "security_reviewed"
 source: "https://github.com/zaproxy/zaproxy"
 author: "ZAP Project"
@@ -10,7 +10,7 @@ category: "Security & Verification"
 framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "zaproxy/zaproxy"
-  github_stars: 15143
+  github_stars: 15144
 ---
 
 # Security Audit Skill
