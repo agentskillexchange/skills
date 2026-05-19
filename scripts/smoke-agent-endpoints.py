@@ -18,6 +18,11 @@ import json
 import sys
 import urllib.request
 
+REQUEST_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (compatible; ASE agent endpoint smoke test/1.0)",
+    "Accept": "application/json,text/plain,*/*",
+}
+
 ENDPOINTS = [
     ("skills.json",   "json",  lambda d: isinstance(d, dict) and int(d.get("total", 0)) > 0),
     ("openclaw.json", "json",  lambda d: isinstance(d, dict) and ("skills" in d or "catalog" in d)),
@@ -29,7 +34,7 @@ ENDPOINTS = [
 def check(base: str, path: str, fmt: str, validator) -> tuple[bool, str]:
     url = f"{base.rstrip('/')}/{path}"
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": "ASE smoke-test/1.0"})
+        req = urllib.request.Request(url, headers=REQUEST_HEADERS)
         with urllib.request.urlopen(req, timeout=30) as resp:
             status = resp.status
             body = resp.read().decode("utf-8")
@@ -76,7 +81,7 @@ def main():
             try:
                 req = urllib.request.Request(
                     f"{base.rstrip('/')}/{path}?ase_smoke_check={args.expected_total}",
-                    headers={"User-Agent": "ASE smoke-test/1.0"},
+                    headers=REQUEST_HEADERS,
                 )
                 with urllib.request.urlopen(req, timeout=30) as resp:
                     data = json.loads(resp.read().decode("utf-8"))
