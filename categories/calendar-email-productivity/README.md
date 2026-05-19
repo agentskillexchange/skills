@@ -25,14 +25,14 @@ Email automation, calendar management, task coordination, and productivity tools
 |---|---:|
 | [Slack MCP Server](../../skills/slack-mcp-server/) | ⬇ 225.4k/wk |
 | [Discord Bot Manager](../../skills/discord-bot-manager/) | ⬇ 564.5k/wk |
+| [Nodemailer Node.js Email Sending Library with SMTP and Transport Support](../../skills/nodemailer-nodejs-email-sending-library/) | ⬇ 15.5M/wk |
 | [Automate Lark and Feishu docs, sheets, mail, calendar, meetings, and chat tasks from agents with Lark CLI](../../skills/automate-lark-and-feishu-docs-sheets-mail-calendar-meetings-and-chat-tasks-from-agents-with-lark-cli/) | ⬇ 98.6k/wk |
+| [MailDev SMTP Capture and Email Testing Server](../../skills/maildev-smtp-capture-and-email-testing-server/) | ⬇ 90.4k/wk |
+| [MailDev SMTP Testing Server and Web Interface for Development Email Workflows](../../skills/maildev-smtp-testing-server-and-web-interface-for-development-email-workflows/) | ⬇ 90.4k/wk |
 | [Notion MCP Server](../../skills/notion-mcp-server/) | ⬇ 1.4M/wk |
 | [Notion AI Document Summarizer & Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | ⬇ 1.2M/wk |
 | [Notion AI Workspace](../../skills/notion-ai-workspace/) | ⬇ 1.2M/wk |
 | [Notion Database Sync Agent](../../skills/notion-database-sync-agent/) | ⬇ 1.2M/wk |
-| [Notion Database Sync Bridge](../../skills/notion-database-sync-bridge/) | ⬇ 1.2M/wk |
-| [Notion Task Board Automation](../../skills/notion-task-board-automation-agent/) | ⬇ 1.2M/wk |
-| [Notion Task Sync Bridge](../../skills/notion-task-sync-bridge/) | ⬇ 1.2M/wk |
 
 ---
 
@@ -56,7 +56,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Docmost Open Source Collaborative Wiki and Documentation Platform](../../skills/docmost-open-source-collaborative-wiki-documentation/) | 19.7k | — |
 | [Listmonk Self-Hosted Newsletter and Mailing List Manager](../../skills/listmonk-self-hosted-newsletter-mailing-list/) | 19.4k | — |
 | [Super Productivity Open Source Task Manager with Time Tracking](../../skills/super-productivity-task-manager-time-tracking/) | 18.3k | — |
-| [Nodemailer Node.js Email Sending Library with SMTP and Transport Support](../../skills/nodemailer-nodejs-email-sending-library/) | 17.5k | — |
+| [Nodemailer Node.js Email Sending Library with SMTP and Transport Support](../../skills/nodemailer-nodejs-email-sending-library/) | 17.5k | 15.5M/wk |
 | [Mailspring Open Source Email Client with Plugin Architecture](../../skills/mailspring-open-source-email-client-plugin-architecture/) | 17.4k | — |
 | [Prepare meeting agendas and pre-reads from Notion context with notion-meeting-intelligence](../../skills/prepare-meeting-agendas-and-pre-reads-from-notion-context-with-notion-meeting-intelligence/) | 17.3k | — |
 | [ActivityWatch Cross-Platform Automated Time Tracker and Productivity Analyzer](../../skills/activitywatch-automated-time-tracker/) | 17.2k | — |
@@ -75,8 +75,8 @@ Email automation, calendar management, task coordination, and productivity tools
 | [nb CLI Note-Taking Bookmarking and Knowledge Base Application](../../skills/nb-cli-note-taking-bookmarking-knowledge-base/) | 8.1k | — |
 | [Automate Lark and Feishu docs, sheets, mail, calendar, meetings, and chat tasks from agents with Lark CLI](../../skills/automate-lark-and-feishu-docs-sheets-mail-calendar-meetings-and-chat-tasks-from-agents-with-lark-cli/) | 7.9k | 98.6k/wk |
 | [jrnl Command-Line Journal and Note Capture Tool](../../skills/jrnl-command-line-journal-note-capture/) | 7.2k | — |
-| [MailDev SMTP Capture and Email Testing Server](../../skills/maildev-smtp-capture-and-email-testing-server/) | 5.9k | — |
-| [MailDev SMTP Testing Server and Web Interface for Development Email Workflows](../../skills/maildev-smtp-testing-server-and-web-interface-for-development-email-workflows/) | 5.9k | — |
+| [MailDev SMTP Capture and Email Testing Server](../../skills/maildev-smtp-capture-and-email-testing-server/) | 5.9k | 90.4k/wk |
+| [MailDev SMTP Testing Server and Web Interface for Development Email Workflows](../../skills/maildev-smtp-testing-server-and-web-interface-for-development-email-workflows/) | 5.9k | 90.4k/wk |
 | [Himalaya CLI Email Client for IMAP SMTP and Notmuch](../../skills/himalaya-cli-email-client-imap-smtp-notmuch/) | 5.8k | — |
 | [Taskwarrior Command-Line Task Management System](../../skills/taskwarrior-command-line-task-management-system/) | 5.7k | — |
 | [Notion MCP Server](../../skills/notion-mcp-server/) | 5.6k | 1.4M/wk |
@@ -113,8 +113,8 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Operate DingTalk messages, docs, approvals, and workspace tasks from agents with DingTalk Workspace CLI](../../skills/operate-dingtalk-messages-docs-approvals-and-workspace-tasks-from-agents-with-dingtalk-workspace-cli/) | 1.6k | — |
 | [calcurse Text-Based Calendar and Scheduling Application](../../skills/calcurse-text-calendar-scheduling/) | 1.2k | — |
 | [Apply repeatable IMAP rules to triage and clean inboxes with imapfilter](../../skills/apply-repeatable-imap-rules-to-triage-and-clean-inboxes-with-imapfilter/) | 917 | — |
-| [Resend Developer Email API and Node.js SDK](../../skills/resend-developer-email-api-nodejs-sdk/) | 887 | — |
-| [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | 710 | — |
+| [Resend Developer Email API and Node.js SDK](../../skills/resend-developer-email-api-nodejs-sdk/) | 887 | 5.3M/wk |
+| [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | 712 | — |
 | [Mailgun JavaScript SDK for Email Delivery and Domain Operations](../../skills/mailgun-javascript-sdk-email-delivery-and-domain-operations-2/) | 547 | — |
 | [Mailgun JavaScript SDK for Email Delivery and Domain Operations](../../skills/mailgun-javascript-sdk-email-delivery-and-domain-operations/) | 547 | — |
 | [Read and automate Slack workflows from a purpose-built agent CLI with agent-slack](../../skills/read-and-automate-slack-workflows-from-a-purpose-built-agent-cli-with-agent-slack/) | 382 | 5.2k/wk |

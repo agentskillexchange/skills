@@ -27,12 +27,12 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | ⬇ 40.2M/wk |
 | [Playwright E2E Test Generator](../../skills/playwright-e2e-test-generator/) | ⬇ 47.9M/wk |
 | [Vite Plugin Hot Module Analyzer](../../skills/vite-plugin-hmr-analyzer/) | ⬇ 96.8M/wk |
+| [NestJS — Progressive Node.js Framework for Server-Side Applications](../../skills/nestjs-progressive-nodejs-framework/) | ⬇ 10.5M/wk |
 | [Webpack Bundle Analyzer Agent](../../skills/webpack-bundle-analyzer-agent/) | ⬇ 44.5M/wk |
 | [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | ⬇ 16.5k/wk |
 | [Astro Content-Driven Web Framework](../../skills/astro-content-driven-web-framework/) | ⬇ 2M/wk |
 | [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | ⬇ 173.2k/wk |
 | [zx JavaScript Shell Script Runner](../../skills/zx-javascript-shell-script-runner/) | ⬇ 1.7M/wk |
-| [esbuild Ultra-Fast JavaScript Bundler](../../skills/esbuild-ultra-fast-javascript-bundler/) | ⬇ 164M/wk |
 
 ---
 
@@ -60,7 +60,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Zed High-Performance Multiplayer Code Editor](../../skills/zed-high-performance-multiplayer-code-editor/) | 78.6k | — |
 | [lazygit Terminal UI for Git Operations](../../skills/lazygit-terminal-ui-git-operations/) | 75.4k | — |
 | [vLLM High-Throughput LLM Serving Engine with PagedAttention](../../skills/vllm-high-throughput-llm-serving/) | 75.1k | — |
-| [NestJS — Progressive Node.js Framework for Server-Side Applications](../../skills/nestjs-progressive-nodejs-framework/) | 75.1k | — |
+| [NestJS — Progressive Node.js Framework for Server-Side Applications](../../skills/nestjs-progressive-nodejs-framework/) | 75.1k | 10.5M/wk |
 | [LobeHub Multi-Agent Chat Platform with MCP Plugin Ecosystem](../../skills/lobehub-multi-agent-chat-platform-mcp-plugins/) | 74.9k | — |
 | [Preserve Claude Code session memory with Claude Mem](../../skills/preserve-claude-code-session-memory-with-claude-mem/) | 74.4k | — |
 | [Redis MCP Server](../../skills/redis-mcp-server/) | 73.8k | — |
@@ -132,7 +132,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Turborepo Monorepo Build System](../../skills/turborepo-monorepo-build-system/) | 30.1k | 12.9M/wk |
 | [Nginx Error Log Parser](../../skills/nginx-error-log-parser/) | 29.9k | — |
 | [delta Syntax-Highlighting Git Diff Pager](../../skills/delta-syntax-highlighting-git-diff-pager/) | 29.8k | — |
-| [Hono Ultrafast Web Framework Built on Web Standards](../../skills/hono-ultrafast-web-framework-web-standards/) | 29.8k | — |
+| [Hono Ultrafast Web Framework Built on Web Standards](../../skills/hono-ultrafast-web-framework-web-standards/) | 29.8k | 37.1M/wk |
 | [Atuin Shell History Database and Sync](../../skills/atuin-shell-history-database-sync/) | 28.9k | — |
 | [GitHub MCP Server for AI-Powered Repository Management](../../skills/github-mcp-server-ai-repository-management/) | 28.5k | — |
 | [OpenTofu Open Source Infrastructure as Code Tool](../../skills/opentofu-open-source-infrastructure-as-code/) | 28.2k | — |
@@ -221,7 +221,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Gitoxide Pure Rust Git Implementation and Library](../../skills/gitoxide-pure-rust-git-implementation/) | 11.1k | — |
 | [Lip Gloss CSS-Like Terminal Styling Library for Go](../../skills/lipgloss-terminal-styling-library/) | 11k | — |
 | [OpenAI MCP Server](../../skills/openai-mcp-server/) | 10.9k | 20.5M/wk |
-| [Nitro Next-Generation Universal Server Toolkit by UnJS](../../skills/nitro-universal-server-toolkit-unjs/) | 10.6k | — |
+| [Nitro Next-Generation Universal Server Toolkit by UnJS](../../skills/nitro-universal-server-toolkit-unjs/) | 10.6k | 453.9k/wk |
 | [SonarQube Code Analysis](../../skills/sonarqube-code-analysis/) | 10.6k | — |
 | [fq Binary Format Inspector and jq for Media Files](../../skills/fq-binary-format-inspector-jq-media/) | 10.5k | — |
 | [Git Branch Analyzer](../../skills/git-branch-analyzer-libgit2/) | 10.4k | — |
@@ -233,7 +233,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [WXT Next-Generation Web Extension Framework for Browser Extensions](../../skills/wxt-next-gen-web-extension-framework/) | 9.5k | — |
 | [Inspect and debug MCP servers visually before connecting them to agents](../../skills/inspect-and-debug-mcp-servers-visually-before-connecting-them-to-agents/) | 9.4k | 635.2k/wk |
 | [Search large codebases semantically from MCP-compatible coding agents with Claude Context](../../skills/search-large-codebases-semantically-from-mcp-compatible-coding-agents-with-claude-context/) | 9.2k | 2.4k/wk |
-| [BullMQ Redis-Based Message Queue and Job Processor for Node.js](../../skills/bullmq-redis-message-queue-job-processor-nodejs/) | 8.7k | — |
+| [BullMQ Redis-Based Message Queue and Job Processor for Node.js](../../skills/bullmq-redis-message-queue-job-processor-nodejs/) | 8.7k | 5.7M/wk |
 | [Regex Pattern Test Suite Generator](../../skills/regex-pattern-test-suite-generator/) | 8.6k | — |
 | [pdfcpu Go PDF Processor and Manipulation CLI](../../skills/pdfcpu-go-pdf-processor-cli/) | 8.6k | — |
 | [Starlight Documentation Framework for Astro](../../skills/starlight-documentation-framework-astro/) | 8.2k | — |
@@ -241,7 +241,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [grex Regular Expression Generator from Test Cases](../../skills/grex-regex-generator-from-test-cases/) | 8.1k | — |
 | [Compile Deterministic Python Lock Files from Requirements Inputs with pip-tools](../../skills/compile-deterministic-python-lock-files-from-requirements-inputs-with-pip-tools/) | 8k | — |
 | [Lefthook Git Hooks Manager](../../skills/lefthook-git-hooks-manager/) | 7.9k | 1.6M/wk |
-| [Concurrently Parallel Command Runner for npm Scripts](../../skills/concurrently-parallel-command-runner/) | 7.7k | — |
+| [Concurrently Parallel Command Runner for npm Scripts](../../skills/concurrently-parallel-command-runner/) | 7.7k | 14.2M/wk |
 | [mcfly Intelligent Shell History Search with Neural Network](../../skills/mcfly-intelligent-shell-history-search/) | 7.7k | — |
 | [sqlite-vec Vector Search Extension for SQLite](../../skills/sqlite-vec-vector-search-extension-sqlite/) | 7.3k | 1.2M/wk |
 | [Extract clean article Markdown from web pages with Defuddle](../../skills/extract-clean-article-markdown-from-web-pages-with-defuddle/) | 7.2k | 38.5k/wk |

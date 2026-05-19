@@ -27,6 +27,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [alex Inclusive Writing Linter](../../skills/alex-inclusive-writing-linter/) | ⬇ 30.6k/wk |
 | [write-good English Prose Linting for Technical Content](../../skills/write-good-english-prose-linting-technical-content/) | ⬇ 49.5k/wk |
 | [Unlighthouse Site-Wide Lighthouse and SEO Auditing](../../skills/unlighthouse-site-wide-lighthouse-seo-auditing/) | ⬇ 15.3k/wk |
+| [Marp CLI Markdown Presentation Converter and Slide Deck Generator](../../skills/marp-cli-markdown-presentation-converter/) | ⬇ 39.7k/wk |
 | [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | ⬇ 102.9k/wk |
 | [schema-dts TypeScript Types for Schema.org Structured Data](../../skills/schema-dts-typescript-types-schemaorg-structured-data/) | ⬇ 1.5M/wk |
 | [markdownlint-cli2 Markdown Linting for Docs and Repos](../../skills/markdownlint-cli2-markdown-linting-docs-repos/) | ⬇ 522.5k/wk |
@@ -63,7 +64,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [KeyBERT Minimal Keyword Extraction with BERT Embeddings](../../skills/keybert-keyword-extraction-bert/) | 4.1k | — |
 | [Format plain-text drafts for clean Substack paste](../../skills/format-plain-text-drafts-for-clean-substack-paste/) | 4.1k | — |
 | [lychee Async Broken Link Checker for Websites and Documentation](../../skills/lychee-async-broken-link-checker/) | 3.5k | — |
-| [Marp CLI Markdown Presentation Converter and Slide Deck Generator](../../skills/marp-cli-markdown-presentation-converter/) | 3.4k | — |
+| [Marp CLI Markdown Presentation Converter and Slide Deck Generator](../../skills/marp-cli-markdown-presentation-converter/) | 3.4k | 39.7k/wk |
 | [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | 3.1k | 102.9k/wk |
 | [Normalize article metadata from URLs before generating link previews or content briefs](../../skills/normalize-article-metadata-from-urls-before-generating-link-previews-or-content-briefs/) | 2.7k | — |
 | [retext Natural Language Processor with Unified Plugin Ecosystem](../../skills/retext-natural-language-processor-unified-plugins/) | 2.4k | — |

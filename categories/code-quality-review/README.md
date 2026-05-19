@@ -108,7 +108,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [PHPStan Static Analyzer Agent](../../skills/phpstan-static-analyzer-agent/) | 13.9k | — |
 | [Pytest Fixture Generator](../../skills/pytest-fixture-generator/) | 13.8k | — |
 | [ast-grep Structural Code Search and Rewrite](../../skills/ast-grep-structural-code-search-rewrite/) | 13.2k | — |
-| [Nock HTTP Server Mocking and Expectations Library for Node.js](../../skills/nock-http-server-mocking-nodejs/) | 13.1k | — |
+| [Nock HTTP Server Mocking and Expectations Library for Node.js](../../skills/nock-http-server-mocking-nodejs/) | 13.1k | 6.6M/wk |
 | [Great Expectations Data Validation Pipeline](../../skills/great-expectations-data-validation-pipeline/) | 11.3k | — |
 | [Review pull requests with structured summaries, checks, and follow-up prompts using PR-Agent](../../skills/review-pull-requests-with-structured-summaries-checks-and-follow-up-prompts-using-pr-agent/) | 10.9k | — |
 | [Knip Unused Code and Dependency Finder](../../skills/knip-unused-code-dependency-finder/) | 10.8k | 6.1M/wk |
@@ -130,7 +130,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Post linter and analyzer findings back into pull requests](../../skills/post-linter-and-analyzer-findings-back-into-pull-requests/) | 9.2k | — |
 | [Format shell scripts into a stable house style before review with shfmt](../../skills/format-shell-scripts-into-a-stable-house-style-before-review-with-shfmt/) | 8.7k | — |
 | [Run fast multi-language Git hook quality checks with prek](../../skills/run-fast-multi-language-git-hook-quality-checks-with-prek/) | 7.5k | — |
-| [axe-core Accessibility Testing Engine for Automated Web UI Auditing](../../skills/axe-core-accessibility-testing-engine/) | 7k | — |
+| [axe-core Accessibility Testing Engine for Automated Web UI Auditing](../../skills/axe-core-accessibility-testing-engine/) | 7k | 39.4M/wk |
 | [Enforce JavaScript and TypeScript dependency rules before architectural drift spreads with dependency-cruiser](../../skills/enforce-javascript-and-typescript-dependency-rules-before-architectural-drift-spreads-with-dependency-cruiser/) | 6.6k | 5.2M/wk |
 | [Lint Terraform modules for provider mistakes and policy violations with TFLint](../../skills/lint-terraform-modules-for-provider-mistakes-and-policy-violations-with-tflint/) | 5.7k | — |
 | [Pylint Code Review Assistant](../../skills/pylint-code-review-assistant/) | 5.7k | — |
