@@ -3,7 +3,7 @@ name: "Compare dbt models and warehouse relations before trusting migration pari
 slug: "compare-dbt-models-and-warehouse-relations-before-trusting-migration-parity-with-dbt-audit-helper"
 description: "Lets an agent run dbt parity checks, relation diffs, and row or value comparisons so refactors and source swaps can be verified before rollout."
 github_stars: 402
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/dbt-labs/dbt-audit-helper"
 author: "dbt Labs"
 publisher_type: "organization"

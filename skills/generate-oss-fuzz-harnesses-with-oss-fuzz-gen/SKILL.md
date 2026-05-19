@@ -3,7 +3,7 @@ name: "Generate OSS-Fuzz harnesses with oss-fuzz-gen"
 slug: "generate-oss-fuzz-harnesses-with-oss-fuzz-gen"
 description: "Use LLM-assisted harness generation to expand fuzz coverage for real projects before manual fuzzing work begins."
 github_stars: 1384
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/google/oss-fuzz-gen"
 author: "Google"
 publisher_type: "organization"

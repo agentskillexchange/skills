@@ -3,7 +3,7 @@ name: "Back up GitHub, GitLab, Bitbucket, and Forgejo repositories with gitbacku
 slug: "back-up-github-gitlab-bitbucket-and-forgejo-repositories-with-gitbackup"
 description: "Run repeatable cross-forge repository backup jobs from one config instead of hand-scripting clone and export steps per provider."
 github_stars: 218
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/amitsaha/gitbackup"
 author: "Amit Saha"
 publisher_type: "individual"

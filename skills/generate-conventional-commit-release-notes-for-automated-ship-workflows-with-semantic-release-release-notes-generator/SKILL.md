@@ -3,7 +3,7 @@ name: "Generate conventional-commit release notes for automated ship workflows w
 slug: "generate-conventional-commit-release-notes-for-automated-ship-workflows-with-semantic-release-release-notes-generator"
 description: "Generate structured release notes from Conventional Commits inside automated release pipelines when changelog generation is the specific job to do."
 github_stars: 361
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/semantic-release/release-notes-generator"
 author: "semantic-release maintainers"
 publisher_type: "GitHub repository + npm package"

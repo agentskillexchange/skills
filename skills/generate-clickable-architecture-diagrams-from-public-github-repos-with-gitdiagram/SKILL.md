@@ -3,7 +3,7 @@ name: "Generate clickable architecture diagrams from public GitHub repos with Gi
 slug: "generate-clickable-architecture-diagrams-from-public-github-repos-with-gitdiagram"
 description: "Turn a public GitHub repository into an interactive architecture diagram before onboarding, code review, or agent handoff."
 github_stars: 15447
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/ahmedkhaleel2004/gitdiagram"
 author: "Ahmed Khaleel"
 publisher_type: "open_source_project"

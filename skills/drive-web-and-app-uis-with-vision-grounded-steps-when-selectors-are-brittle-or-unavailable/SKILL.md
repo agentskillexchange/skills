@@ -3,7 +3,7 @@ name: "Drive web and app UIs with vision-grounded steps when selectors are britt
 slug: "drive-web-and-app-uis-with-vision-grounded-steps-when-selectors-are-brittle-or-unavailable"
 description: "Use Midscene.js when an agent needs screenshot-grounded UI actions and assertions across web, mobile, or desktop surfaces where DOM selectors are fragile, unavailable, or not the right abstraction."
 github_stars: 12613
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/web-infra-dev/midscene"
 author: "web-infra-dev"
 publisher_type: "organization"

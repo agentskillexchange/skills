@@ -3,7 +3,7 @@ name: "Publish versioned MkDocs documentation with mike"
 slug: "publish-versioned-mkdocs-documentation-with-mike"
 description: "Use mike when an agent needs to publish multiple versions of a MkDocs site without overwriting older documentation."
 github_stars: 728
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/jimporter/mike"
 author: "jimporter"
 publisher_type: "individual"

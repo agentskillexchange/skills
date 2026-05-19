@@ -3,7 +3,7 @@ name: "Run declarative Kubernetes test suites against clusters before operator o
 slug: "run-declarative-kubernetes-test-suites-against-clusters-before-operator-or-manifest-changes-merge-with-kuttl"
 description: "Express Kubernetes test steps and assertions in YAML, then execute them against a real cluster before shipping controller or manifest changes."
 github_stars: 804
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/kudobuilder/kuttl"
 author: "kudobuilder"
 publisher_type: "organization"

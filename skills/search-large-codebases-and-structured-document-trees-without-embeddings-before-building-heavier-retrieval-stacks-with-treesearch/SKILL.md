@@ -3,7 +3,7 @@ name: "Search large codebases and structured document trees without embeddings b
 slug: "search-large-codebases-and-structured-document-trees-without-embeddings-before-building-heavier-retrieval-stacks-with-treesearch"
 description: "Index docs and source trees into structure-aware search so you can answer targeted questions quickly without a vector database or brittle grep sprawl."
 github_stars: 189
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/shibing624/TreeSearch"
 author: "shibing624"
 publisher_type: "individual"

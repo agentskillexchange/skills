@@ -3,7 +3,7 @@ name: "Automate Lark and Feishu docs, sheets, mail, calendar, meetings, and chat
 slug: "automate-lark-and-feishu-docs-sheets-mail-calendar-meetings-and-chat-tasks-from-agents-with-lark-cli"
 description: "Operate Lark and Feishu work objects from one agent-ready CLI instead of stitching together separate APIs and browser flows."
 github_stars: 7942
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/larksuite/cli"
 author: "LarkSuite"
 publisher_type: "organization"

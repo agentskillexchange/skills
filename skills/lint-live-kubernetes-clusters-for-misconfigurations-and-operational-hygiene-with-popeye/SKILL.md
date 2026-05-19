@@ -3,7 +3,7 @@ name: "Lint live Kubernetes clusters for misconfigurations and operational hygie
 slug: "lint-live-kubernetes-clusters-for-misconfigurations-and-operational-hygiene-with-popeye"
 description: "Inspect a live Kubernetes cluster for unhealthy resource settings, missing probes, and other operational smells."
 github_stars: 6262
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/derailed/popeye"
 author: "derailed"
 publisher_type: "organization"

@@ -3,7 +3,7 @@ name: "Investigate production incidents across observability signals and draft n
 slug: "investigate-production-incidents-across-observability-signals-and-draft-next-remediation-steps-with-opensre"
 description: "Pull logs, metrics, traces, and runbook context into one incident investigation loop before a human operator guesses at the root cause."
 github_stars: 1979
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/Tracer-Cloud/opensre"
 author: "Tracer Cloud"
 publisher_type: "organization"

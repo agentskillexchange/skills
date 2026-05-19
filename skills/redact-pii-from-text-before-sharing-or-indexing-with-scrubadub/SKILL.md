@@ -3,7 +3,7 @@ name: "Redact PII from text before sharing or indexing with scrubadub"
 slug: "redact-pii-from-text-before-sharing-or-indexing-with-scrubadub"
 description: "Use scrubadub when an agent needs to strip emails, phone numbers, names, and similar sensitive text before sending content to external systems or search indexes."
 github_stars: 421
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/LeapBeyond/scrubadub"
 author: "LeapBeyond"
 publisher_type: "organization"

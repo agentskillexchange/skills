@@ -3,7 +3,7 @@ name: "Filter prompts and model outputs for injection, secrets, toxicity, and po
 slug: "filter-prompts-and-model-outputs-for-injection-secrets-toxicity-and-policy-risks-with-llm-guard"
 description: "Screen prompts and responses with input and output scanners before an LLM interaction reaches production users or downstream systems."
 github_stars: 2831
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/protectai/llm-guard"
 author: "Protect AI"
 publisher_type: "organization"

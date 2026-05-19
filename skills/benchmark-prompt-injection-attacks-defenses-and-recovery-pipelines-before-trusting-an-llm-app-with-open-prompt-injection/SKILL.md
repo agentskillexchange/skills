@@ -3,7 +3,7 @@ name: "Benchmark prompt-injection attacks defenses and recovery pipelines before
 slug: "benchmark-prompt-injection-attacks-defenses-and-recovery-pipelines-before-trusting-an-llm-app-with-open-prompt-injection"
 description: "Run structured prompt-injection attack and defense experiments against an LLM-integrated app before production by measuring attack success and testing detection or recovery pipelines."
 github_stars: 429
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/liu00222/Open-Prompt-Injection"
 author: "liu00222"
 publisher_type: "individual"

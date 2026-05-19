@@ -3,7 +3,7 @@ name: "Track coding-agent quota burn and remaining headroom across providers wit
 slug: "track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch"
 description: "Monitor quota, spend, resets, and alerts across multiple coding-agent providers from one local dashboard before a long run hits throttling or budget limits."
 github_stars: 580
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/onllm-dev/onWatch"
 author: "onllm-dev"
 publisher_type: "organization"

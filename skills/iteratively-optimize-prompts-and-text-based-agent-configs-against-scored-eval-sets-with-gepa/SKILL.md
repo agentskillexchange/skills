@@ -3,7 +3,7 @@ name: "Iteratively optimize prompts and text-based agent configs against scored 
 slug: "iteratively-optimize-prompts-and-text-based-agent-configs-against-scored-eval-sets-with-gepa"
 description: "Use reflective search to improve prompts or text-configured agent components against a real eval set instead of manual prompt tweaking."
 github_stars: 3550
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/gepa-ai/gepa"
 author: "GEPA AI"
 publisher_type: "organization"

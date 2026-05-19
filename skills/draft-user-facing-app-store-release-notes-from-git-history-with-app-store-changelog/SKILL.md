@@ -2,7 +2,7 @@
 name: "Draft user-facing App Store release notes from git history with App Store Changelog"
 slug: "draft-user-facing-app-store-release-notes-from-git-history-with-app-store-changelog"
 description: "Turn commits since the last tag into concise App Store What's New bullets instead of hand-sifting raw git history."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/Dimillian/Skills/tree/main/app-store-changelog"
 author: "Dimillian"
 publisher_type: "individual"

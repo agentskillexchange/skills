@@ -3,7 +3,7 @@ name: "Enforce JavaScript and TypeScript dependency rules before architectural d
 slug: "enforce-javascript-and-typescript-dependency-rules-before-architectural-drift-spreads-with-dependency-cruiser"
 description: "Scan a JS or TS codebase for forbidden imports, circular dependencies, orphaned modules, and other dependency-rule violations before they turn into structural drift."
 github_stars: 6557
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/sverweij/dependency-cruiser"
 author: "sverweij"
 publisher_type: "individual"

@@ -3,7 +3,7 @@ name: "Generate drift and quality reports for ML and LLM pipelines with Evidentl
 slug: "generate-drift-and-quality-reports-for-ml-and-llm-pipelines-with-evidently"
 description: "Produce repeatable drift and quality reports after data, model, or prompt changes so regressions are visible before rollout."
 github_stars: 7386
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/evidentlyai/evidently"
 author: "Evidently AI"
 publisher_type: "organization"

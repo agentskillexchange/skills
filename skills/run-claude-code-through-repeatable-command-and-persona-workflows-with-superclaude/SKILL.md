@@ -3,7 +3,7 @@ name: "Run Claude Code through repeatable command and persona workflows with Sup
 slug: "run-claude-code-through-repeatable-command-and-persona-workflows-with-superclaude"
 description: "Turn Claude Code into a command-driven workflow surface for research, planning, implementation, testing, and review instead of steering every step ad hoc."
 github_stars: 22321
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/SuperClaude-Org/SuperClaude_Framework"
 author: "SuperClaude-Org"
 publisher_type: "organization"

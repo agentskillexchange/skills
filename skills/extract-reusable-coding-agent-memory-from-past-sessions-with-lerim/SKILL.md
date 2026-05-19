@@ -3,7 +3,7 @@ name: "Extract reusable coding-agent memory from past sessions with Lerim"
 slug: "extract-reusable-coding-agent-memory-from-past-sessions-with-lerim"
 description: "Watch Claude Code, Codex CLI, Cursor, or OpenCode sessions, extract durable project memory, and keep it locally as reusable markdown."
 github_stars: 73
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/lerim-dev/lerim-cli"
 author: "lerim-dev"
 publisher_type: "organization"

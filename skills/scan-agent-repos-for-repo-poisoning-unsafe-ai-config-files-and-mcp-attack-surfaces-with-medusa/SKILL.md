@@ -3,7 +3,7 @@ name: "Scan agent repos for repo-poisoning, unsafe AI config files, and MCP atta
 slug: "scan-agent-repos-for-repo-poisoning-unsafe-ai-config-files-and-mcp-attack-surfaces-with-medusa"
 description: "Run a focused preflight scan over agent and MCP repositories to catch poisoned instruction files, dangerous configs, and AI-specific supply-chain risks before merge or deployment."
 github_stars: 256
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/Pantheon-Security/medusa"
 author: "Pantheon Security"
 publisher_type: "organization"

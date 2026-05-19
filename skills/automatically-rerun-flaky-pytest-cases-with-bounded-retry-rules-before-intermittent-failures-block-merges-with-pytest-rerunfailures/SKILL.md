@@ -3,7 +3,7 @@ name: "Automatically rerun flaky pytest cases with bounded retry rules before in
 slug: "automatically-rerun-flaky-pytest-cases-with-bounded-retry-rules-before-intermittent-failures-block-merges-with-pytest-rerunfailures"
 description: "Add controlled retries to pytest runs so agents can contain flaky tests and report final failures without rerunning whole suites by hand."
 github_stars: 458
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/pytest-dev/pytest-rerunfailures"
 author: "pytest-dev"
 publisher_type: "organization"

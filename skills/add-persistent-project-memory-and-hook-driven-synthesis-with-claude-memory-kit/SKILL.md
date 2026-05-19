@@ -3,7 +3,7 @@ name: "Add persistent project memory and hook-driven synthesis with Claude Memor
 slug: "add-persistent-project-memory-and-hook-driven-synthesis-with-claude-memory-kit"
 description: "Keep Claude Code sessions grounded in prior decisions, project context, and daily handoff notes instead of starting from zero every time."
 github_stars: 11
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/awrshift/claude-memory-kit"
 author: "awrshift"
 publisher_type: "individual"

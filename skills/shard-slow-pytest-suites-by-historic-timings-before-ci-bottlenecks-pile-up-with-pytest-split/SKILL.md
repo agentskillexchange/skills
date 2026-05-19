@@ -3,7 +3,7 @@ name: "Shard slow pytest suites by historic timings before CI bottlenecks pile u
 slug: "shard-slow-pytest-suites-by-historic-timings-before-ci-bottlenecks-pile-up-with-pytest-split"
 description: "Lets an agent split a large pytest suite into timing-balanced shards so parallel CI lanes finish faster and with less variance."
 github_stars: 308
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/jerry-git/pytest-split"
 author: "jerry-git"
 publisher_type: "individual"

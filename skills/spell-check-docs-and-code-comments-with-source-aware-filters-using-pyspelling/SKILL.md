@@ -3,7 +3,7 @@ name: "Spell-check docs and code comments with source-aware filters using pyspel
 slug: "spell-check-docs-and-code-comments-with-source-aware-filters-using-pyspelling"
 description: "Run filtered spell checks over Markdown, Sphinx, HTML, or code comments without flattening everything into one noisy text stream."
 github_stars: 94
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/facelessuser/pyspelling"
 author: "facelessuser"
 publisher_type: "individual"

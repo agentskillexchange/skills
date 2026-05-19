@@ -3,7 +3,7 @@ name: "Inspect and diff OCI images and registries with regctl"
 slug: "inspect-and-diff-oci-images-and-registries-with-regctl"
 description: "Use regctl when an agent needs to inspect manifests, compare image contents, or debug registry state without pulling whole images locally first."
 github_stars: 1813
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/regclient/regclient"
 author: "regclient"
 publisher_type: "organization"

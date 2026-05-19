@@ -3,7 +3,7 @@ name: "Puppeteer PDF Renderer"
 slug: "puppeteer-pdf-renderer"
 description: "Generates pixel-perfect PDFs from web pages using Puppeteer with custom headers, footers, and page breaks. Supports authenticated pages via cookie injection."
 github_stars: 94115
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/puppeteer/puppeteer"
 author: "Puppeteer"
 category: "Browser Automation"

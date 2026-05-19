@@ -3,7 +3,7 @@ name: "Migrate MySQL, SQLite, or CSV data into PostgreSQL with repeatable load f
 slug: "migrate-mysql-sqlite-or-csv-data-into-postgresql-with-repeatable-load-files-before-cutover-with-pgloader"
 description: "Move data into PostgreSQL with declarative load files, built-in type conversion, and repeatable migration runs before one-off import scripts become cutover risk."
 github_stars: 6393
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/dimitri/pgloader"
 author: "Dimitri Fontaine"
 publisher_type: "individual"

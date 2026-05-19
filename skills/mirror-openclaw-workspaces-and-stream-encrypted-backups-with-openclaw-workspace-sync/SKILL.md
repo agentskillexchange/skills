@@ -3,7 +3,7 @@ name: "Mirror OpenClaw workspaces and stream encrypted backups with openclaw-wor
 slug: "mirror-openclaw-workspaces-and-stream-encrypted-backups-with-openclaw-workspace-sync"
 description: "Sync an OpenClaw workspace to your own cloud storage or push encrypted agent-system backups with OpenClaw-aware mailbox, mirror, and bisync modes."
 github_stars: 8
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/ashbrener/openclaw-workspace-sync"
 author: "ashbrener"
 publisher_type: "individual"

@@ -3,7 +3,7 @@ name: "Sweep GitHub for leaked secrets and exposed credentials with git-hound"
 slug: "sweep-github-for-leaked-secrets-and-exposed-credentials-with-git-hound"
 description: "Search public GitHub broadly for leaked secrets and triage exposures when the workflow is recon and remediation, not generic secret scanning."
 github_stars: 1400
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/tillson/git-hound"
 author: "tillson"
 publisher_type: "GitHub repository"

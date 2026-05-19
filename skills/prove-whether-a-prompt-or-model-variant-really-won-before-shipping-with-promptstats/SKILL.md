@@ -3,7 +3,7 @@ name: "Prove whether a prompt or model variant really won before shipping with p
 slug: "prove-whether-a-prompt-or-model-variant-really-won-before-shipping-with-promptstats"
 description: "Run statistically sound comparisons on eval results so prompt and model changes are judged by confidence bounds, not bar-chart vibes."
 github_stars: 97
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/ianarawjo/promptstats"
 author: "Ian Arawjo"
 publisher_type: "individual"

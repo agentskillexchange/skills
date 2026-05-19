@@ -3,7 +3,7 @@ name: "Scan Kubernetes clusters and manifests for security posture drift with Ku
 slug: "scan-kubernetes-clusters-and-manifests-for-security-posture-drift-with-kubescape"
 description: "Run Kubernetes security and compliance scans against manifests or live clusters before rollout or audit."
 github_stars: 11310
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/kubescape/kubescape"
 author: "Kubescape"
 publisher_type: "organization"

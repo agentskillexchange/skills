@@ -3,7 +3,7 @@ name: "Run AI browser regression checks with Playwright and multi-model verifica
 slug: "run-ai-browser-regression-checks-with-playwright-and-multi-model-verification-through-passmark"
 description: "Execute natural-language browser regression tests with Playwright, caching, auto-healing, and multi-model assertion verification."
 github_stars: 676
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/bug0inc/passmark"
 author: "bug0"
 publisher_type: "organization"

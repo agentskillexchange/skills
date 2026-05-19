@@ -3,7 +3,7 @@ name: "Run deterministic browser steps with settled screenshots and event logs f
 slug: "run-deterministic-browser-steps-with-settled-screenshots-and-event-logs-for-agents"
 description: "Use Agent Browser Protocol when an agent needs browser actions to resolve into stable step results, complete with screenshots and surfaced events, instead of racing an always-live browser session."
 github_stars: 436
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/theredsix/agent-browser-protocol"
 author: "The Red Six"
 publisher_type: "organization"

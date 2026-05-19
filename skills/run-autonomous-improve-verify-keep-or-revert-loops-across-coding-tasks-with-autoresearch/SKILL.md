@@ -3,7 +3,7 @@ name: "Run autonomous improve verify keep-or-revert loops across coding tasks wi
 slug: "run-autonomous-improve-verify-keep-or-revert-loops-across-coding-tasks-with-autoresearch"
 description: "Turn Claude Code, OpenCode, or Codex into a metric-driven loop that makes one change at a time, verifies it mechanically, and keeps or reverts automatically."
 github_stars: 3820
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/uditgoenka/autoresearch"
 author: "uditgoenka"
 publisher_type: "individual"

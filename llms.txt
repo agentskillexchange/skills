@@ -7,7 +7,7 @@
 slug: build-versioned-technical-docs-sites-with-search-and-nav-using-material-for-mkdocs
 category: Content Writing & SEO
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Use Material for MkDocs to turn Markdown documentation into a searchable, navigable static site with project-ready configuration and previews.
 url: https://agentskillexchange.com/skills/build-versioned-technical-docs-sites-with-search-and-nav-using-material-for-mkdocs/
 
@@ -463,7 +463,7 @@ url: https://agentskillexchange.com/skills/study-customer-service-triage-and-han
 slug: run-coding-agents-in-isolated-observable-vibekit-sandboxes
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Launch coding agents such as Claude Code, Gemini, or Codex in clean sandboxed sessions with redaction and run observability.
 url: https://agentskillexchange.com/skills/run-coding-agents-in-isolated-observable-vibekit-sandboxes/
 
@@ -527,7 +527,7 @@ url: https://agentskillexchange.com/skills/build-and-inspect-mcp-apps-and-server
 slug: run-ai-browser-regression-checks-with-playwright-and-multi-model-verification-through-passmark
 category: CI/CD Integrations
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Execute natural-language browser regression tests with Playwright, caching, auto-healing, and multi-model assertion verification.
 url: https://agentskillexchange.com/skills/run-ai-browser-regression-checks-with-playwright-and-multi-model-verification-through-passmark/
 
@@ -535,7 +535,7 @@ url: https://agentskillexchange.com/skills/run-ai-browser-regression-checks-with
 slug: route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Pause high-risk coding-agent actions, gather human decisions, and resume or block work with durable approval checkpoints.
 url: https://agentskillexchange.com/skills/route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer/
 
@@ -543,7 +543,7 @@ url: https://agentskillexchange.com/skills/route-risky-coding-agent-work-through
 slug: trace-evaluate-and-monitor-agentic-workflows-with-opik
 category: Monitoring & Alerts
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Capture LLM and agent traces, run evaluations, inspect failures, and monitor RAG or multi-step agent behavior from prototype to production.
 url: https://agentskillexchange.com/skills/trace-evaluate-and-monitor-agentic-workflows-with-opik/
 
@@ -551,7 +551,7 @@ url: https://agentskillexchange.com/skills/trace-evaluate-and-monitor-agentic-wo
 slug: provision-secure-disposable-development-sandboxes-for-ai-generated-code-with-daytona
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Spin up isolated, reproducible sandboxes where agents can run generated code, install dependencies, execute tests, and discard state safely.
 url: https://agentskillexchange.com/skills/provision-secure-disposable-development-sandboxes-for-ai-generated-code-with-daytona/
 
@@ -559,7 +559,7 @@ url: https://agentskillexchange.com/skills/provision-secure-disposable-developme
 slug: snapshot-and-restore-encrypted-file-trees-with-kopia
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use Kopia when an agent needs to create, verify, or restore encrypted incremental snapshots across local, NAS, SFTP, WebDAV, or cloud storage targets.
 url: https://agentskillexchange.com/skills/snapshot-and-restore-encrypted-file-trees-with-kopia/
 
@@ -567,7 +567,7 @@ url: https://agentskillexchange.com/skills/snapshot-and-restore-encrypted-file-t
 slug: extract-clean-article-markdown-from-web-pages-with-defuddle
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use Defuddle when an agent needs clean, metadata-rich article text or Markdown from noisy web pages before summarizing, indexing, or archiving them.
 url: https://agentskillexchange.com/skills/extract-clean-article-markdown-from-web-pages-with-defuddle/
 
@@ -575,7 +575,7 @@ url: https://agentskillexchange.com/skills/extract-clean-article-markdown-from-w
 slug: back-up-and-restore-an-openclaw-workspace-to-synology-nas-with-verification-and-rollback-safety-using-synology-backup
 category: Runbooks & Diagnostics
 framework: OpenClaw
-verification: Published
+verification: Security Reviewed
 description: Protect an OpenClaw workspace with repeatable Synology NAS backups, integrity checks, and safer restores instead of ad hoc file copying.
 url: https://agentskillexchange.com/skills/back-up-and-restore-an-openclaw-workspace-to-synology-nas-with-verification-and-rollback-safety-using-synology-backup/
 
@@ -591,7 +591,7 @@ url: https://agentskillexchange.com/skills/search-send-and-organize-apple-mail-f
 slug: orchestrate-database-backup-restore-retention-and-failure-notification-runbooks-through-databasement
 category: Runbooks & Diagnostics
 framework: MCP
-verification: Published
+verification: Security Reviewed
 description: Use Databasement when an MCP-compatible agent needs to schedule database backups, supervise restore jobs, enforce retention policy, and react to backup failures across supported…
 url: https://agentskillexchange.com/skills/orchestrate-database-backup-restore-retention-and-failure-notification-runbooks-through-databasement/
 
@@ -599,7 +599,7 @@ url: https://agentskillexchange.com/skills/orchestrate-database-backup-restore-r
 slug: review-sql-server-execution-plans-through-an-mcp-compatible-analysis-workflow-with-performance-studio
 category: Runbooks & Diagnostics
 framework: MCP
-verification: Published
+verification: Security Reviewed
 description: Use Performance Studio when an MCP-compatible agent needs to parse SQL Server .sqlplan files, surface performance warnings, inspect missing-index suggestions, and turn execution-plan evidence…
 url: https://agentskillexchange.com/skills/review-sql-server-execution-plans-through-an-mcp-compatible-analysis-workflow-with-performance-studio/
 
@@ -607,7 +607,7 @@ url: https://agentskillexchange.com/skills/review-sql-server-execution-plans-thr
 slug: generate-fast-static-photo-album-sites-from-curated-folders-with-dd-photos
 category: Image & Creative Automation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Turn exported photo folders into a mobile-friendly static album site without standing up a database-backed gallery system.
 url: https://agentskillexchange.com/skills/generate-fast-static-photo-album-sites-from-curated-folders-with-dd-photos/
 
@@ -615,7 +615,7 @@ url: https://agentskillexchange.com/skills/generate-fast-static-photo-album-site
 slug: schedule-and-retain-cross-database-backups-from-one-self-hosted-control-plane-with-databasus
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run scheduled backups with retention rules and storage targets across PostgreSQL, MySQL, MariaDB, and MongoDB from one place.
 url: https://agentskillexchange.com/skills/schedule-and-retain-cross-database-backups-from-one-self-hosted-control-plane-with-databasus/
 
@@ -623,7 +623,7 @@ url: https://agentskillexchange.com/skills/schedule-and-retain-cross-database-ba
 slug: format-shell-scripts-into-a-stable-house-style-before-review-with-shfmt
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Normalize Bash, POSIX shell, and Zsh scripts before review or CI so style noise stops hiding the real changes.
 url: https://agentskillexchange.com/skills/format-shell-scripts-into-a-stable-house-style-before-review-with-shfmt/
 
@@ -647,7 +647,7 @@ url: https://agentskillexchange.com/skills/compress-repeated-agent-context-and-c
 slug: search-large-codebases-and-structured-document-trees-without-embeddings-before-building-heavier-retrieval-stacks-with-treesearch
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Index docs and source trees into structure-aware search so you can answer targeted questions quickly without a vector database or brittle grep sprawl.
 url: https://agentskillexchange.com/skills/search-large-codebases-and-structured-document-trees-without-embeddings-before-building-heavier-retrieval-stacks-with-treesearch/
 
@@ -663,7 +663,7 @@ url: https://agentskillexchange.com/skills/validate-lint-bundle-and-unit-test-js
 slug: capture-network-device-config-snapshots-diffs-and-change-attribution-after-edits-with-oxidized
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Pull running configs from routers and switches on a schedule or after change events so you can diff drift, audit edits, and recover known-good…
 url: https://agentskillexchange.com/skills/capture-network-device-config-snapshots-diffs-and-change-attribution-after-edits-with-oxidized/
 
@@ -719,7 +719,7 @@ url: https://agentskillexchange.com/skills/preserve-coding-agent-context-by-sand
 slug: validate-json-data-and-config-files-against-schemas-with-ajv-cli
 category: Library & API Reference
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run schema checks from the shell or CI so malformed JSON, JSON5, or YAML inputs fail before they reach downstream tooling.
 url: https://agentskillexchange.com/skills/validate-json-data-and-config-files-against-schemas-with-ajv-cli/
 
@@ -727,7 +727,7 @@ url: https://agentskillexchange.com/skills/validate-json-data-and-config-files-a
 slug: bundle-and-validate-openapi-files-into-one-publishable-spec-with-swagger-cli
 category: Library & API Reference
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Resolve multi-file OpenAPI definitions into one validated artifact before docs, code generation, or CI gates depend on the spec.
 url: https://agentskillexchange.com/skills/bundle-and-validate-openapi-files-into-one-publishable-spec-with-swagger-cli/
 
@@ -743,7 +743,7 @@ url: https://agentskillexchange.com/skills/generate-dependency-update-pull-reque
 slug: lint-ansible-playbooks-and-roles-before-automation-breaks-in-prod-with-ansible-lint
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run ansible-lint against playbooks, roles, and collections so risky patterns and common mistakes are caught before automation is merged or executed.
 url: https://agentskillexchange.com/skills/lint-ansible-playbooks-and-roles-before-automation-breaks-in-prod-with-ansible-lint/
 
@@ -759,7 +759,7 @@ url: https://agentskillexchange.com/skills/enforce-local-git-hook-checks-in-java
 slug: define-repeatable-python-automation-sessions-in-code-with-nox
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Encode test, lint, build, and docs routines as named Python sessions so humans and agents run the same workflow every time.
 url: https://agentskillexchange.com/skills/define-repeatable-python-automation-sessions-in-code-with-nox/
 
@@ -767,7 +767,7 @@ url: https://agentskillexchange.com/skills/define-repeatable-python-automation-s
 slug: parallelize-large-pytest-suites-and-isolate-slow-feedback-loops-with-pytest-xdist
 category: CI/CD Integrations
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Fan out Python test execution across workers so slow suites finish faster and bottlenecks show up before they dominate CI time.
 url: https://agentskillexchange.com/skills/parallelize-large-pytest-suites-and-isolate-slow-feedback-loops-with-pytest-xdist/
 
@@ -775,7 +775,7 @@ url: https://agentskillexchange.com/skills/parallelize-large-pytest-suites-and-i
 slug: strip-noisy-jupyter-output-from-notebooks-before-commit-with-nbstripout
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Keep notebook diffs reviewable by removing execution output and excess metadata before notebooks land in Git history.
 url: https://agentskillexchange.com/skills/strip-noisy-jupyter-output-from-notebooks-before-commit-with-nbstripout/
 
@@ -831,7 +831,7 @@ url: https://agentskillexchange.com/skills/design-and-verify-launchdarkly-featur
 slug: build-and-sync-n8n-workflows-from-code-with-n8n-as-code
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Inspect n8n nodes and templates, generate typed workflow code, and sync automations through Git-friendly files instead of hand-editing workflow JSON.
 url: https://agentskillexchange.com/skills/build-and-sync-n8n-workflows-from-code-with-n8n-as-code/
 
@@ -919,7 +919,7 @@ url: https://agentskillexchange.com/skills/run-repeatable-google-ads-and-seo-aud
 slug: red-team-agent-workflows-for-jailbreaks-prompt-injection-and-policy-failures-with-deepteam
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run local adversarial attack passes against agents, RAG pipelines, and chatbots to surface concrete failure classes before production rollout.
 url: https://agentskillexchange.com/skills/red-team-agent-workflows-for-jailbreaks-prompt-injection-and-policy-failures-with-deepteam/
 
@@ -927,7 +927,7 @@ url: https://agentskillexchange.com/skills/red-team-agent-workflows-for-jailbrea
 slug: extract-reusable-coding-agent-memory-from-past-sessions-with-lerim
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Watch Claude Code, Codex CLI, Cursor, or OpenCode sessions, extract durable project memory, and keep it locally as reusable markdown.
 url: https://agentskillexchange.com/skills/extract-reusable-coding-agent-memory-from-past-sessions-with-lerim/
 
@@ -935,7 +935,7 @@ url: https://agentskillexchange.com/skills/extract-reusable-coding-agent-memory-
 slug: preflight-agent-specs-for-prompt-injection-risk-across-prompt-tool-and-architecture-layers-with-prompt-hardener
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Describe an agent in `agent_spec.yaml`, run deterministic prompt-injection analysis, generate mitigations, and validate defenses before rollout.
 url: https://agentskillexchange.com/skills/preflight-agent-specs-for-prompt-injection-risk-across-prompt-tool-and-architecture-layers-with-prompt-hardener/
 
@@ -943,7 +943,7 @@ url: https://agentskillexchange.com/skills/preflight-agent-specs-for-prompt-inje
 slug: render-html-native-agent-videos-with-slash-command-workflows-using-hyperframes
 category: Image & Creative Automation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use agent-facing HyperFrames skills to turn prompts, PDFs, CSVs, or repo context into editable HTML video compositions and rendered MP4 outputs.
 url: https://agentskillexchange.com/skills/render-html-native-agent-videos-with-slash-command-workflows-using-hyperframes/
 
@@ -951,7 +951,7 @@ url: https://agentskillexchange.com/skills/render-html-native-agent-videos-with-
 slug: extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg
 category: Data Extraction & Transformation
 framework: MCP
-verification: Published
+verification: Security Reviewed
 description: Expose one document-extraction surface to MCP-compatible agents so they can normalize PDFs, Office files, images, HTML, and other mixed inputs before downstream review or…
 url: https://agentskillexchange.com/skills/extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg/
 
@@ -959,7 +959,7 @@ url: https://agentskillexchange.com/skills/extract-structured-text-metadata-tabl
 slug: search-cross-agent-markdown-memory-and-conversation-history-with-memsearch
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Give supported coding agents a shared Markdown-first memory layer so they can recall prior decisions, transcripts, and notes across sessions instead of re-deriving context…
 url: https://agentskillexchange.com/skills/search-cross-agent-markdown-memory-and-conversation-history-with-memsearch/
 
@@ -1031,7 +1031,7 @@ url: https://agentskillexchange.com/skills/deploy-an-agent-readable-openclaw-def
 slug: distill-repository-rules-and-workflows-into-reusable-project-skills-with-skill-based-architecture
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Turn scattered project rules, workflows, and hard-won lessons into a structured skills directory that future agents can route through before making changes.
 url: https://agentskillexchange.com/skills/distill-repository-rules-and-workflows-into-reusable-project-skills-with-skill-based-architecture/
 
@@ -1047,7 +1047,7 @@ url: https://agentskillexchange.com/skills/turn-windows-event-logs-into-sigma-ba
 slug: ground-postgresql-code-generation-in-exact-docs-and-best-practice-skills-through-pg-aiguide
 category: Library & API Reference
 framework: MCP
-verification: Published
+verification: Security Reviewed
 description: Give coding agents a PostgreSQL-specific reference layer with semantic doc search and curated schema, indexing, and constraint guidance before they generate database code.
 url: https://agentskillexchange.com/skills/ground-postgresql-code-generation-in-exact-docs-and-best-practice-skills-through-pg-aiguide/
 
@@ -1063,7 +1063,7 @@ url: https://agentskillexchange.com/skills/control-ios-and-android-devices-throu
 slug: block-destructive-terraform-database-kubernetes-cloud-and-git-commands-before-claude-code-can-execute-them-with-agent-guardrails
 category: Security & Verification
 framework: Claude Code
-verification: Published
+verification: Security Reviewed
 description: Add hard pre-execution guardrails to Claude Code so destructive shell commands are blocked before an agent can run them.
 url: https://agentskillexchange.com/skills/block-destructive-terraform-database-kubernetes-cloud-and-git-commands-before-claude-code-can-execute-them-with-agent-guardrails/
 
@@ -1071,7 +1071,7 @@ url: https://agentskillexchange.com/skills/block-destructive-terraform-database-
 slug: benchmark-browser-agents-on-repeatable-playwright-web-tasks-with-bananalyzer
 category: Browser Automation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run a repeatable evaluation suite for browser agents against static web task snapshots instead of judging them from demos or one-off tests.
 url: https://agentskillexchange.com/skills/benchmark-browser-agents-on-repeatable-playwright-web-tasks-with-bananalyzer/
 
@@ -1079,7 +1079,7 @@ url: https://agentskillexchange.com/skills/benchmark-browser-agents-on-repeatabl
 slug: operate-airflow-and-warehouse-workflows-through-agent-safe-data-engineering-skills-with-astronomer-agents
 category: Data Extraction & Transformation
 framework: MCP
-verification: Published
+verification: Security Reviewed
 description: Give agents structured Airflow, lineage, dbt, and warehouse workflows through installable skills and an Airflow MCP surface instead of loose shell access.
 url: https://agentskillexchange.com/skills/operate-airflow-and-warehouse-workflows-through-agent-safe-data-engineering-skills-with-astronomer-agents/
 
@@ -1087,7 +1087,7 @@ url: https://agentskillexchange.com/skills/operate-airflow-and-warehouse-workflo
 slug: run-computer-use-agents-inside-cross-os-desktop-sandboxes-with-cua
 category: Browser Automation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Launch computer-use agents in Linux, macOS, Windows, or Android sandboxes and drive full desktop tasks through screenshots, mouse, keyboard, and shell controls.
 url: https://agentskillexchange.com/skills/run-computer-use-agents-inside-cross-os-desktop-sandboxes-with-cua/
 
@@ -1119,7 +1119,7 @@ url: https://agentskillexchange.com/skills/gate-ai-generated-pull-requests-with-
 slug: scan-agent-repos-for-repo-poisoning-unsafe-ai-config-files-and-mcp-attack-surfaces-with-medusa
 category: Security & Verification
 framework: Custom Agents
-verification: Published
+verification: Security Reviewed
 description: Run a focused preflight scan over agent and MCP repositories to catch poisoned instruction files, dangerous configs, and AI-specific supply-chain risks before merge or…
 url: https://agentskillexchange.com/skills/scan-agent-repos-for-repo-poisoning-unsafe-ai-config-files-and-mcp-attack-surfaces-with-medusa/
 
@@ -1167,7 +1167,7 @@ url: https://agentskillexchange.com/skills/triage-pull-request-security-risks-wi
 slug: benchmark-browser-agents-on-a-fixed-stealth-and-task-suite-with-browser-use-benchmark
 category: Browser Automation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Compare browser-agent reliability on a repeatable task and anti-bot suite before choosing a stack or claiming progress.
 url: https://agentskillexchange.com/skills/benchmark-browser-agents-on-a-fixed-stealth-and-task-suite-with-browser-use-benchmark/
 
@@ -1175,7 +1175,7 @@ url: https://agentskillexchange.com/skills/benchmark-browser-agents-on-a-fixed-s
 slug: benchmark-it-automation-agents-on-realistic-sre-ciso-and-finops-scenarios-with-itbench
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run realistic enterprise-style IT scenarios before trusting an automation agent in production operations.
 url: https://agentskillexchange.com/skills/benchmark-it-automation-agents-on-realistic-sre-ciso-and-finops-scenarios-with-itbench/
 
@@ -1183,7 +1183,7 @@ url: https://agentskillexchange.com/skills/benchmark-it-automation-agents-on-rea
 slug: generate-domain-specific-claude-code-agent-teams-and-shared-skills-with-harness
 category: Templates & Workflows
 framework: Claude Code
-verification: Published
+verification: Security Reviewed
 description: Turn a project description into a Claude Code team architecture with generated agents, shared skills, and orchestration patterns instead of hand-designing the whole setup.
 url: https://agentskillexchange.com/skills/generate-domain-specific-claude-code-agent-teams-and-shared-skills-with-harness/
 
@@ -1191,7 +1191,7 @@ url: https://agentskillexchange.com/skills/generate-domain-specific-claude-code-
 slug: draft-user-facing-app-store-release-notes-from-git-history-with-app-store-changelog
 category: Templates & Workflows
 framework: Codex
-verification: Published
+verification: Security Reviewed
 description: Turn commits since the last tag into concise App Store What's New bullets instead of hand-sifting raw git history.
 url: https://agentskillexchange.com/skills/draft-user-facing-app-store-release-notes-from-git-history-with-app-store-changelog/
 
@@ -1199,7 +1199,7 @@ url: https://agentskillexchange.com/skills/draft-user-facing-app-store-release-n
 slug: test-documentation-sites-across-mobile-tablet-and-desktop-with-github-agentic-workflows
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run a repeatable docs-site check that builds locally, opens the site across device sizes, and reports layout, accessibility, and interaction issues.
 url: https://agentskillexchange.com/skills/test-documentation-sites-across-mobile-tablet-and-desktop-with-github-agentic-workflows/
 
@@ -1207,7 +1207,7 @@ url: https://agentskillexchange.com/skills/test-documentation-sites-across-mobil
 slug: run-context-spec-and-implement-coding-loops-in-claude-code-with-conductor
 category: Templates & Workflows
 framework: Claude Code
-verification: Published
+verification: Security Reviewed
 description: Turn Claude Code into a structured project workflow that captures context, plans work, and executes implementation in reviewable tracks.
 url: https://agentskillexchange.com/skills/run-context-spec-and-implement-coding-loops-in-claude-code-with-conductor/
 
@@ -1247,7 +1247,7 @@ url: https://agentskillexchange.com/skills/run-autonomous-white-box-pentests-aga
 slug: generate-podcast-style-audio-narratives-with-podcast-generation
 category: Media & Transcription
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Build a repeatable text-to-audio workflow around Azure OpenAI Realtime streaming, PCM collection, WAV conversion, and frontend playback for podcast-style output.
 url: https://agentskillexchange.com/skills/generate-podcast-style-audio-narratives-with-podcast-generation/
 
@@ -1255,7 +1255,7 @@ url: https://agentskillexchange.com/skills/generate-podcast-style-audio-narrativ
 slug: review-frontend-implementations-for-design-system-quality-accessibility-and-polish-with-frontend-design-review
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Audit frontend work against design-system rules, accessibility expectations, responsive behavior, and visual craft before merge or release.
 url: https://agentskillexchange.com/skills/review-frontend-implementations-for-design-system-quality-accessibility-and-polish-with-frontend-design-review/
 
@@ -1263,7 +1263,7 @@ url: https://agentskillexchange.com/skills/review-frontend-implementations-for-d
 slug: turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Convert messy bug notes, error logs, voice dictation, and screenshots into crisp GitHub issue reports with clear repro steps, impact, and evidence.
 url: https://agentskillexchange.com/skills/turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator/
 
@@ -1271,7 +1271,7 @@ url: https://agentskillexchange.com/skills/turn-notes-logs-and-screenshots-into-
 slug: tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls using Supabase's own prioritized guidance.
 url: https://agentskillexchange.com/skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/
 
@@ -1279,7 +1279,7 @@ url: https://agentskillexchange.com/skills/tune-supabase-postgres-queries-indexi
 slug: provision-oauth-capable-microsoft-agent-identities-with-entra-agent-id
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Create Microsoft Entra Agent Identity blueprints, principals, and agent identities with the right beta Graph permissions, sponsor rules, and sidecar-based auth patterns.
 url: https://agentskillexchange.com/skills/provision-oauth-capable-microsoft-agent-identities-with-entra-agent-id/
 
@@ -1287,7 +1287,7 @@ url: https://agentskillexchange.com/skills/provision-oauth-capable-microsoft-age
 slug: connect-claude-code-to-apple-apps-and-tmux-with-claude-apple-bridges
 category: Calendar, Email & Productivity
 framework: Claude Code
-verification: Published
+verification: Security Reviewed
 description: Give Claude Code local command access to Reminders, Calendar, Contacts, Notes, Mail, and tmux for workflow-aware personal ops on macOS.
 url: https://agentskillexchange.com/skills/connect-claude-code-to-apple-apps-and-tmux-with-claude-apple-bridges/
 
@@ -1295,7 +1295,7 @@ url: https://agentskillexchange.com/skills/connect-claude-code-to-apple-apps-and
 slug: run-server-side-ingest-search-and-edit-pipelines-on-video-with-videodb-skills
 category: Media & Transcription
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Let an agent ingest video, transcribe it, search moments, clip results, and return playable streams without wiring up its own media pipeline.
 url: https://agentskillexchange.com/skills/run-server-side-ingest-search-and-edit-pipelines-on-video-with-videodb-skills/
 
@@ -1303,7 +1303,7 @@ url: https://agentskillexchange.com/skills/run-server-side-ingest-search-and-edi
 slug: run-code-review-and-pr-autofix-workflows-with-coderabbit-skills
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Trigger CodeRabbit review passes from an agent and work unresolved PR feedback threads into guided or batch autofix loops.
 url: https://agentskillexchange.com/skills/run-code-review-and-pr-autofix-workflows-with-coderabbit-skills/
 
@@ -1311,7 +1311,7 @@ url: https://agentskillexchange.com/skills/run-code-review-and-pr-autofix-workfl
 slug: audit-apple-platform-ui-work-against-human-interface-guidelines-with-hig-doctor
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run a repeatable HIG compliance audit over app code before shipping UI changes, then use the findings to guide remediation.
 url: https://agentskillexchange.com/skills/audit-apple-platform-ui-work-against-human-interface-guidelines-with-hig-doctor/
 
@@ -1319,7 +1319,7 @@ url: https://agentskillexchange.com/skills/audit-apple-platform-ui-work-against-
 slug: process-redact-ocr-and-sign-documents-with-nutrient-agent-skill
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Give coding agents one promptable workflow surface for OCR, extraction, redaction, form filling, conversion, and signing across document-heavy tasks.
 url: https://agentskillexchange.com/skills/process-redact-ocr-and-sign-documents-with-nutrient-agent-skill/
 
@@ -1327,7 +1327,7 @@ url: https://agentskillexchange.com/skills/process-redact-ocr-and-sign-documents
 slug: add-persistent-project-memory-and-hook-driven-synthesis-with-claude-memory-kit
 category: Developer Tools
 framework: Claude Code
-verification: Published
+verification: Security Reviewed
 description: Keep Claude Code sessions grounded in prior decisions, project context, and daily handoff notes instead of starting from zero every time.
 url: https://agentskillexchange.com/skills/add-persistent-project-memory-and-hook-driven-synthesis-with-claude-memory-kit/
 
@@ -1335,7 +1335,7 @@ url: https://agentskillexchange.com/skills/add-persistent-project-memory-and-hoo
 slug: turn-documents-into-validated-knowledge-graphs-with-docling-graph
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Convert documents into schema-enforced entities and graph relationships when the job is exact knowledge extraction rather than generic document parsing.
 url: https://agentskillexchange.com/skills/turn-documents-into-validated-knowledge-graphs-with-docling-graph/
 
@@ -1343,7 +1343,7 @@ url: https://agentskillexchange.com/skills/turn-documents-into-validated-knowled
 slug: extract-structured-markdown-json-and-tagged-pdf-ready-outputs-from-pdfs-with-opendataloader-pdf
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Convert PDFs into LLM-ready markdown or coordinate-aware JSON, and use the same pipeline for tagged-PDF accessibility workflows when that is the real job to…
 url: https://agentskillexchange.com/skills/extract-structured-markdown-json-and-tagged-pdf-ready-outputs-from-pdfs-with-opendataloader-pdf/
 
@@ -1351,7 +1351,7 @@ url: https://agentskillexchange.com/skills/extract-structured-markdown-json-and-
 slug: generate-structured-release-notes-from-merged-pull-requests-between-two-refs-with-copilot-release-notes
 category: CI/CD Integrations
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Compare two tags, branches, or SHAs and turn merged pull requests into reviewable markdown and JSON release notes for a release workflow.
 url: https://agentskillexchange.com/skills/generate-structured-release-notes-from-merged-pull-requests-between-two-refs-with-copilot-release-notes/
 
@@ -1359,7 +1359,7 @@ url: https://agentskillexchange.com/skills/generate-structured-release-notes-fro
 slug: scan-sites-for-accessibility-gaps-file-github-issues-and-route-fixes-through-copilot-with-accessibility-scanner
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run accessibility scans against target URLs, open trackable issues, and optionally hand remediation suggestions to Copilot instead of treating accessibility review as a manual…
 url: https://agentskillexchange.com/skills/scan-sites-for-accessibility-gaps-file-github-issues-and-route-fixes-through-copilot-with-accessibility-scanner/
 
@@ -1367,7 +1367,7 @@ url: https://agentskillexchange.com/skills/scan-sites-for-accessibility-gaps-fil
 slug: run-a-long-form-seo-blog-production-workflow-inside-claude-code-with-seo-machine
 category: Content Writing & SEO
 framework: Claude Code
-verification: Published
+verification: Security Reviewed
 description: Research, outline, draft, review, and optimize long-form blog posts through a repeatable Claude Code workspace instead of ad hoc chat writing.
 url: https://agentskillexchange.com/skills/run-a-long-form-seo-blog-production-workflow-inside-claude-code-with-seo-machine/
 
@@ -1399,7 +1399,7 @@ url: https://agentskillexchange.com/skills/turn-product-requirements-into-execut
 slug: run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Turn a planned backlog into markdown tickets, dispatch them through coding agents, and only get pulled back in when a blocker or decision really…
 url: https://agentskillexchange.com/skills/run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner/
 
@@ -1407,7 +1407,7 @@ url: https://agentskillexchange.com/skills/run-ticket-queues-through-unattended-
 slug: install-and-sync-reproducible-agent-dependencies-prompts-and-skills-across-repos-with-apm
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use one manifest to reproduce agent setup across repositories so skills, prompts, plugins, and config stop drifting from machine to machine.
 url: https://agentskillexchange.com/skills/install-and-sync-reproducible-agent-dependencies-prompts-and-skills-across-repos-with-apm/
 
@@ -1415,7 +1415,7 @@ url: https://agentskillexchange.com/skills/install-and-sync-reproducible-agent-d
 slug: run-agent-mailboxes-and-pull-verification-codes-or-reply-context-programmatically-with-mails
 category: Calendar, Email & Productivity
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Give an agent a mailbox it can send from, read from, search, sync locally, and mine for login codes or attachments without hand-driving a…
 url: https://agentskillexchange.com/skills/run-agent-mailboxes-and-pull-verification-codes-or-reply-context-programmatically-with-mails/
 
@@ -1423,7 +1423,7 @@ url: https://agentskillexchange.com/skills/run-agent-mailboxes-and-pull-verifica
 slug: coordinate-planner-manager-worker-handoffs-for-long-running-ai-delivery-with-agentic-project-management
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Keep a large software project moving across planning, execution, and review by handing work between structured agent roles instead of losing the thread in…
 url: https://agentskillexchange.com/skills/coordinate-planner-manager-worker-handoffs-for-long-running-ai-delivery-with-agentic-project-management/
 
@@ -1431,7 +1431,7 @@ url: https://agentskillexchange.com/skills/coordinate-planner-manager-worker-han
 slug: investigate-production-incidents-across-observability-signals-and-draft-next-remediation-steps-with-opensre
 category: Runbooks & Diagnostics
 framework: Custom Agents
-verification: Published
+verification: Security Reviewed
 description: Pull logs, metrics, traces, and runbook context into one incident investigation loop before a human operator guesses at the root cause.
 url: https://agentskillexchange.com/skills/investigate-production-incidents-across-observability-signals-and-draft-next-remediation-steps-with-opensre/
 
@@ -1439,7 +1439,7 @@ url: https://agentskillexchange.com/skills/investigate-production-incidents-acro
 slug: summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize
 category: Media & Transcription
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Turn long pages, PDFs, podcasts, videos, and local files into compact working briefs before downstream research, drafting, or execution steps.
 url: https://agentskillexchange.com/skills/summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize/
 
@@ -1447,7 +1447,7 @@ url: https://agentskillexchange.com/skills/summarize-urls-files-podcasts-and-you
 slug: sync-skills-across-ai-coding-clis-with-skillshare
 category: Integrations & Connectors
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Keep one canonical skills and agents source in sync across multiple coding CLIs instead of hand-copying files between tool directories.
 url: https://agentskillexchange.com/skills/sync-skills-across-ai-coding-clis-with-skillshare/
 
@@ -1463,7 +1463,7 @@ url: https://agentskillexchange.com/skills/run-focused-accessibility-review-agen
 slug: build-and-refactor-copilot-studio-agents-as-yaml
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Author, validate, test, and troubleshoot Copilot Studio agents through YAML-driven commands instead of clicking through the product UI.
 url: https://agentskillexchange.com/skills/build-and-refactor-copilot-studio-agents-as-yaml/
 
@@ -1471,7 +1471,7 @@ url: https://agentskillexchange.com/skills/build-and-refactor-copilot-studio-age
 slug: track-coding-agent-token-spend-and-leaderboard-drift-with-tokscale
 category: Monitoring & Alerts
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Aggregate local coding-agent usage logs into spend, token, and trend views before quotas or budgets surprise the team.
 url: https://agentskillexchange.com/skills/track-coding-agent-token-spend-and-leaderboard-drift-with-tokscale/
 
@@ -1487,7 +1487,7 @@ url: https://agentskillexchange.com/skills/review-ai-generated-code-changes-with
 slug: enforce-red-green-refactor-discipline-in-claude-code-with-tdd-guard
 category: Code Quality & Review
 framework: Claude Code
-verification: Published
+verification: Security Reviewed
 description: Block implementation-first agent behavior and keep Claude Code anchored to failing-tests-first TDD loops.
 url: https://agentskillexchange.com/skills/enforce-red-green-refactor-discipline-in-claude-code-with-tdd-guard/
 
@@ -1599,7 +1599,7 @@ url: https://agentskillexchange.com/skills/probe-kubernetes-clusters-for-exposed
 slug: record-terminal-demos-and-reproducible-cli-walkthroughs-with-asciinema
 category: Media & Transcription
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Capture a terminal session as a replayable cast when an agent needs a text-native CLI repro or walkthrough instead of a generic screen recording.
 url: https://agentskillexchange.com/skills/record-terminal-demos-and-reproducible-cli-walkthroughs-with-asciinema/
 
@@ -1607,7 +1607,7 @@ url: https://agentskillexchange.com/skills/record-terminal-demos-and-reproducibl
 slug: benchmark-kubernetes-clusters-against-cis-controls-with-kube-bench
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run CIS benchmark checks against cluster nodes and control planes when an agent needs a narrow Kubernetes hardening audit, not a general platform listing.
 url: https://agentskillexchange.com/skills/benchmark-kubernetes-clusters-against-cis-controls-with-kube-bench/
 
@@ -1623,7 +1623,7 @@ url: https://agentskillexchange.com/skills/block-secret-leaks-before-commit-or-p
 slug: audit-cloud-accounts-for-security-misconfigurations-with-prowler
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run targeted AWS, Azure, or GCP security and compliance audits when an agent needs actionable cloud findings instead of a generic cloud-security platform overview.
 url: https://agentskillexchange.com/skills/audit-cloud-accounts-for-security-misconfigurations-with-prowler/
 
@@ -1631,7 +1631,7 @@ url: https://agentskillexchange.com/skills/audit-cloud-accounts-for-security-mis
 slug: capture-low-level-kubernetes-runtime-evidence-with-inspektor-gadget
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run named Inspektor Gadget traces and snapshots when an agent needs eBPF-backed runtime evidence from pods, containers, or nodes that ordinary logs and metrics…
 url: https://agentskillexchange.com/skills/capture-low-level-kubernetes-runtime-evidence-with-inspektor-gadget/
 
@@ -1679,7 +1679,7 @@ url: https://agentskillexchange.com/skills/benchmark-virtual-agents-with-scripte
 slug: grade-agent-trajectories-and-tool-use-decisions-with-agentevals
 category: Code Quality & Review
 framework: Custom Agents
-verification: Published
+verification: Security Reviewed
 description: Score whether an agent took a sensible intermediate path, called tools correctly, and reached the outcome without relying only on final-answer checks.
 url: https://agentskillexchange.com/skills/grade-agent-trajectories-and-tool-use-decisions-with-agentevals/
 
@@ -1687,7 +1687,7 @@ url: https://agentskillexchange.com/skills/grade-agent-trajectories-and-tool-use
 slug: simulate-agent-scenarios-trace-failures-and-watch-production-regressions-with-langwatch
 category: Monitoring & Alerts
 framework: Custom Agents
-verification: Published
+verification: Security Reviewed
 description: Run end-to-end agent simulations, review traces, and watch production regressions when reliability work spans pre-release testing and live monitoring.
 url: https://agentskillexchange.com/skills/simulate-agent-scenarios-trace-failures-and-watch-production-regressions-with-langwatch/
 
@@ -1695,7 +1695,7 @@ url: https://agentskillexchange.com/skills/simulate-agent-scenarios-trace-failur
 slug: run-only-the-relevant-linters-and-formatters-on-changed-files-with-precious
 category: CI/CD Integrations
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run just the applicable quality checks on changed files so pre-commit and CI feedback stays fast and targeted.
 url: https://agentskillexchange.com/skills/run-only-the-relevant-linters-and-formatters-on-changed-files-with-precious/
 
@@ -1703,7 +1703,7 @@ url: https://agentskillexchange.com/skills/run-only-the-relevant-linters-and-for
 slug: capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate
 category: Research & Scraping
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Turn a live webpage into a clean offline artifact such as a PDF or readable archive for review, citation, or handoff.
 url: https://agentskillexchange.com/skills/capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate/
 
@@ -1711,7 +1711,7 @@ url: https://agentskillexchange.com/skills/capture-a-live-webpage-as-a-clean-pdf
 slug: load-test-an-http-endpoint-with-a-fast-reproducible-cli-probe-using-oha
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run a quick concurrent HTTP benchmark against a URL before deeper performance work or regression triage.
 url: https://agentskillexchange.com/skills/load-test-an-http-endpoint-with-a-fast-reproducible-cli-probe-using-oha/
 
@@ -1719,7 +1719,7 @@ url: https://agentskillexchange.com/skills/load-test-an-http-endpoint-with-a-fas
 slug: decode-inspect-sign-and-verify-jwts-while-debugging-auth-flows-with-jwt-cli
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Decode JWTs, inspect claims, and verify or sign tokens with local keys during auth debugging and test setup.
 url: https://agentskillexchange.com/skills/decode-inspect-sign-and-verify-jwts-while-debugging-auth-flows-with-jwt-cli/
 
@@ -1727,7 +1727,7 @@ url: https://agentskillexchange.com/skills/decode-inspect-sign-and-verify-jwts-w
 slug: audit-python-dependency-sets-for-known-vulnerabilities-before-release-or-environment-promotion-with-safety
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Scan Python requirements and environments for known vulnerable or malicious packages before they move further through delivery or promotion workflows.
 url: https://agentskillexchange.com/skills/audit-python-dependency-sets-for-known-vulnerabilities-before-release-or-environment-promotion-with-safety/
 
@@ -1735,7 +1735,7 @@ url: https://agentskillexchange.com/skills/audit-python-dependency-sets-for-know
 slug: map-python-import-graphs-to-explain-coupling-before-refactors-or-package-splits-with-pydeps
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Generate Python module dependency graphs so refactors and package splits start from an actual import map instead of guesswork.
 url: https://agentskillexchange.com/skills/map-python-import-graphs-to-explain-coupling-before-refactors-or-package-splits-with-pydeps/
 
@@ -1743,7 +1743,7 @@ url: https://agentskillexchange.com/skills/map-python-import-graphs-to-explain-c
 slug: run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Execute repository-stored HTTP request files from the command line so API smoke tests, assertions, and environment-driven checks can run without a GUI client.
 url: https://agentskillexchange.com/skills/run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac/
 
@@ -1751,7 +1751,7 @@ url: https://agentskillexchange.com/skills/run-http-and-rest-request-files-with-
 slug: reproduce-sql-injection-paths-and-map-database-takeover-options-with-sqlmap
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Take a suspected injectable request, replay it on an authorized target, confirm the finding, and enumerate reachable database actions before manual follow-up.
 url: https://agentskillexchange.com/skills/reproduce-sql-injection-paths-and-map-database-takeover-options-with-sqlmap/
 
@@ -1759,7 +1759,7 @@ url: https://agentskillexchange.com/skills/reproduce-sql-injection-paths-and-map
 slug: lint-x509-certificates-against-web-pki-rules-with-zlint-before-issuance-or-rollout
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Check certificates and precertificates for Web PKI standards violations before CA issuance, trust-store submission, or deployment.
 url: https://agentskillexchange.com/skills/lint-x509-certificates-against-web-pki-rules-with-zlint-before-issuance-or-rollout/
 
@@ -1783,7 +1783,7 @@ url: https://agentskillexchange.com/skills/generate-and-screen-lookalike-domains
 slug: scan-c-and-c-code-with-flawfinder-for-risky-function-patterns-before-review
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run a fast secure-code triage pass over C and C++ sources before manual review or remediation planning begins.
 url: https://agentskillexchange.com/skills/scan-c-and-c-code-with-flawfinder-for-risky-function-patterns-before-review/
 
@@ -1791,7 +1791,7 @@ url: https://agentskillexchange.com/skills/scan-c-and-c-code-with-flawfinder-for
 slug: repair-split-merge-and-normalize-pdfs-with-qpdf-before-downstream-processing
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Preprocess messy PDFs into a stable form before extraction, review, packaging, or delivery workflows depend on them.
 url: https://agentskillexchange.com/skills/repair-split-merge-and-normalize-pdfs-with-qpdf-before-downstream-processing/
 
@@ -1807,7 +1807,7 @@ url: https://agentskillexchange.com/skills/probe-kubernetes-clusters-with-kube-h
 slug: decompile-android-apks-into-readable-source-with-jadx-for-review-and-analysis
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Turn an APK into readable Java or decompiled source artifacts so an agent can inspect behavior before deeper reverse-engineering or triage.
 url: https://agentskillexchange.com/skills/decompile-android-apks-into-readable-source-with-jadx-for-review-and-analysis/
 
@@ -1815,7 +1815,7 @@ url: https://agentskillexchange.com/skills/decompile-android-apks-into-readable-
 slug: check-kubernetes-hosts-against-cis-guidance-with-kube-bench-before-audit-or-hardening-work
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run a benchmark-driven posture check on Kubernetes nodes and control planes before an audit, upgrade, or hardening sprint starts.
 url: https://agentskillexchange.com/skills/check-kubernetes-hosts-against-cis-guidance-with-kube-bench-before-audit-or-hardening-work/
 
@@ -1823,7 +1823,7 @@ url: https://agentskillexchange.com/skills/check-kubernetes-hosts-against-cis-gu
 slug: fuzz-web-paths-parameters-and-virtual-hosts-with-ffuf-to-surface-hidden-attack-surface
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Probe for hidden routes, parameter behaviors, and vhost exposures fast, before you spend time manually poking at the wrong surface.
 url: https://agentskillexchange.com/skills/fuzz-web-paths-parameters-and-virtual-hosts-with-ffuf-to-surface-hidden-attack-surface/
 
@@ -1831,7 +1831,7 @@ url: https://agentskillexchange.com/skills/fuzz-web-paths-parameters-and-virtual
 slug: export-obsidian-vaults-into-clean-markdown-trees-for-publishing-or-downstream-processing
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Convert Obsidian vault content, wikilinks, and attachments into portable Markdown trees before publishing, indexing, or migrating notes.
 url: https://agentskillexchange.com/skills/export-obsidian-vaults-into-clean-markdown-trees-for-publishing-or-downstream-processing/
 
@@ -1855,7 +1855,7 @@ url: https://agentskillexchange.com/skills/debug-dns-resolution-and-record-misma
 slug: trace-unstable-network-paths-and-packet-loss-with-trippy-before-escalating-an-outage
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Measure route hops, latency, jitter, and packet loss to isolate where a network path degrades during incidents.
 url: https://agentskillexchange.com/skills/trace-unstable-network-paths-and-packet-loss-with-trippy-before-escalating-an-outage/
 
@@ -1871,7 +1871,7 @@ url: https://agentskillexchange.com/skills/build-super-timelines-from-mixed-fore
 slug: analyze-memory-images-for-processes-modules-and-malware-indicators-with-volatility-3
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Inspect captured RAM images to enumerate processes, modules, handles, and suspicious in-memory behavior before escalation or evidence handoff.
 url: https://agentskillexchange.com/skills/analyze-memory-images-for-processes-modules-and-malware-indicators-with-volatility-3/
 
@@ -1887,7 +1887,7 @@ url: https://agentskillexchange.com/skills/strip-noisy-runtime-fields-from-kuber
 slug: find-deprecated-kubernetes-apis-before-cluster-upgrades-with-kubent
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Scan manifests and live clusters for removed or deprecated Kubernetes APIs before an upgrade window turns into an outage.
 url: https://agentskillexchange.com/skills/find-deprecated-kubernetes-apis-before-cluster-upgrades-with-kubent/
 
@@ -1895,7 +1895,7 @@ url: https://agentskillexchange.com/skills/find-deprecated-kubernetes-apis-befor
 slug: inject-sops-managed-secrets-into-nixos-and-home-manager-configs-with-sops-nix
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Materialize age or PGP encrypted SOPS secrets inside declarative NixOS and Home Manager systems during activation without hand-copying values.
 url: https://agentskillexchange.com/skills/inject-sops-managed-secrets-into-nixos-and-home-manager-configs-with-sops-nix/
 
@@ -1903,7 +1903,7 @@ url: https://agentskillexchange.com/skills/inject-sops-managed-secrets-into-nixo
 slug: run-postgresql-backup-restore-and-wal-recovery-workflows-with-pgbackrest
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Execute PostgreSQL backup, restore, verification, and point-in-time recovery runbooks with explicit repository and WAL handling.
 url: https://agentskillexchange.com/skills/run-postgresql-backup-restore-and-wal-recovery-workflows-with-pgbackrest/
 
@@ -1911,7 +1911,7 @@ url: https://agentskillexchange.com/skills/run-postgresql-backup-restore-and-wal
 slug: sync-cloud-and-saas-inventory-into-sql-tables-for-audits-with-cloudquery
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Extract cloud and SaaS configuration data into queryable tables so agents can run audits, drift checks, and evidence collection with SQL.
 url: https://agentskillexchange.com/skills/sync-cloud-and-saas-inventory-into-sql-tables-for-audits-with-cloudquery/
 
@@ -1919,7 +1919,7 @@ url: https://agentskillexchange.com/skills/sync-cloud-and-saas-inventory-into-sq
 slug: seal-kubernetes-secrets-into-git-safe-manifests-with-kubeseal
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Encrypt Kubernetes Secret manifests against a Sealed Secrets controller so agents can commit cluster-targeted secrets to Git without exposing plaintext.
 url: https://agentskillexchange.com/skills/seal-kubernetes-secrets-into-git-safe-manifests-with-kubeseal/
 
@@ -1927,7 +1927,7 @@ url: https://agentskillexchange.com/skills/seal-kubernetes-secrets-into-git-safe
 slug: regenerate-repository-config-from-a-single-project-definition-with-projen
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use projen when an agent should synthesize and refresh repository boilerplate from one canonical project definition instead of hand-editing many config files.
 url: https://agentskillexchange.com/skills/regenerate-repository-config-from-a-single-project-definition-with-projen/
 
@@ -1935,7 +1935,7 @@ url: https://agentskillexchange.com/skills/regenerate-repository-config-from-a-s
 slug: encrypt-and-decrypt-age-secrets-with-hardware-backed-yubikey-identities
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use age-plugin-yubikey when an agent needs age encryption tied to a physical YubiKey identity instead of software-only keys.
 url: https://agentskillexchange.com/skills/encrypt-and-decrypt-age-secrets-with-hardware-backed-yubikey-identities/
 
@@ -1943,7 +1943,7 @@ url: https://agentskillexchange.com/skills/encrypt-and-decrypt-age-secrets-with-
 slug: assemble-minimal-oci-images-from-declarative-package-configs-with-apko
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use apko to build small OCI images from declarative package manifests when supply-chain clarity and minimal contents matter more than a conventional Dockerfile flow.
 url: https://agentskillexchange.com/skills/assemble-minimal-oci-images-from-declarative-package-configs-with-apko/
 
@@ -1951,7 +1951,7 @@ url: https://agentskillexchange.com/skills/assemble-minimal-oci-images-from-decl
 slug: clone-and-refresh-whole-github-orgs-for-audit-or-migration-with-ghorg
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use ghorg to clone or resync large sets of repositories from a GitHub user or organization for offline audit, migration prep, or bulk analysis…
 url: https://agentskillexchange.com/skills/clone-and-refresh-whole-github-orgs-for-audit-or-migration-with-ghorg/
 
@@ -1959,7 +1959,7 @@ url: https://agentskillexchange.com/skills/clone-and-refresh-whole-github-orgs-f
 slug: build-test-and-package-postgresql-extensions-in-rust-with-pgrx
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use pgrx when an agent needs the Rust-native extension lifecycle for PostgreSQL, including local builds, test runs, and packaging across PostgreSQL versions.
 url: https://agentskillexchange.com/skills/build-test-and-package-postgresql-extensions-in-rust-with-pgrx/
 
@@ -1975,7 +1975,7 @@ url: https://agentskillexchange.com/skills/push-pull-and-attach-non-container-oc
 slug: capture-polished-terminal-screenshots-for-docs-and-changelogs-with-termshot
 category: Media & Transcription
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Render clean terminal screenshots with stable framing before publishing documentation, release notes, or runbooks.
 url: https://agentskillexchange.com/skills/capture-polished-terminal-screenshots-for-docs-and-changelogs-with-termshot/
 
@@ -1983,7 +1983,7 @@ url: https://agentskillexchange.com/skills/capture-polished-terminal-screenshots
 slug: rehearse-and-run-scripted-terminal-demos-with-realistic-playback-using-doitlive
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Play back a scripted terminal demo with controlled typing and pauses so talks, onboarding sessions, and trainings stay smooth.
 url: https://agentskillexchange.com/skills/rehearse-and-run-scripted-terminal-demos-with-realistic-playback-using-doitlive/
 
@@ -1991,7 +1991,7 @@ url: https://agentskillexchange.com/skills/rehearse-and-run-scripted-terminal-de
 slug: present-version-controlled-markdown-slide-decks-as-terminal-native-talks-with-presenterm
 category: Media & Transcription
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Turn markdown slide decks into terminal presentations for live demos, reviews, and workshops without leaving plain text or git.
 url: https://agentskillexchange.com/skills/present-version-controlled-markdown-slide-decks-as-terminal-native-talks-with-presenterm/
 
@@ -1999,7 +1999,7 @@ url: https://agentskillexchange.com/skills/present-version-controlled-markdown-s
 slug: boot-and-supervise-local-multi-service-process-stacks-from-one-declarative-file-with-process-compose
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Start, watch, and restart a local stack of app processes together instead of juggling many terminals and ad hoc shell loops.
 url: https://agentskillexchange.com/skills/boot-and-supervise-local-multi-service-process-stacks-from-one-declarative-file-with-process-compose/
 
@@ -2007,7 +2007,7 @@ url: https://agentskillexchange.com/skills/boot-and-supervise-local-multi-servic
 slug: collect-unix-like-incident-response-artifacts-into-one-portable-evidence-bundle-with-uac
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Capture volatile and persistent Unix-like system artifacts quickly before evidence disappears or responders start changing the host.
 url: https://agentskillexchange.com/skills/collect-unix-like-incident-response-artifacts-into-one-portable-evidence-bundle-with-uac/
 
@@ -2103,7 +2103,7 @@ url: https://agentskillexchange.com/skills/drive-dependency-and-config-bumps-thr
 slug: generate-launch-ready-web-app-icons-and-social-assets-with-web-asset-generator
 category: Image & Creative Automation
 framework: Claude Code
-verification: Published
+verification: Security Reviewed
 description: Ask Claude Code for favicons, app icons, and social preview images, then generate the full asset set and integration hints without manual export work.
 url: https://agentskillexchange.com/skills/generate-launch-ready-web-app-icons-and-social-assets-with-web-asset-generator/
 
@@ -2119,7 +2119,7 @@ url: https://agentskillexchange.com/skills/turn-a-codebase-into-an-interactive-o
 slug: execute-devops-delivery-and-infrastructure-workflows-with-cc-devops-skills
 category: CI/CD Integrations
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use generator and validator loops for infra, CI, and platform work so agents ship operational changes with more checks and less improvisation.
 url: https://agentskillexchange.com/skills/execute-devops-delivery-and-infrastructure-workflows-with-cc-devops-skills/
 
@@ -2127,7 +2127,7 @@ url: https://agentskillexchange.com/skills/execute-devops-delivery-and-infrastru
 slug: run-react-native-implementation-and-troubleshooting-workflows-with-callstack-agent-skills
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Give coding agents React Native-specific build, upgrade, GitHub Actions, and troubleshooting guidance instead of treating mobile work like generic web development.
 url: https://agentskillexchange.com/skills/run-react-native-implementation-and-troubleshooting-workflows-with-callstack-agent-skills/
 
@@ -2135,7 +2135,7 @@ url: https://agentskillexchange.com/skills/run-react-native-implementation-and-t
 slug: run-research-and-scientific-analysis-workflows-with-scientific-agent-skills
 category: Research & Scraping
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Give an agent curated scientific workflows, databases, and domain-specific guidance when general prompting is not reliable enough for research-heavy work.
 url: https://agentskillexchange.com/skills/run-research-and-scientific-analysis-workflows-with-scientific-agent-skills/
 
@@ -2143,7 +2143,7 @@ url: https://agentskillexchange.com/skills/run-research-and-scientific-analysis-
 slug: run-security-audits-and-variant-analysis-workflows-in-claude-code-with-trail-of-bits-skills
 category: Security & Verification
 framework: Claude Code
-verification: Published
+verification: Security Reviewed
 description: Use curated Trail of Bits security skills inside Claude Code when the job is auditing, variant hunting, or fix verification rather than generic coding…
 url: https://agentskillexchange.com/skills/run-security-audits-and-variant-analysis-workflows-in-claude-code-with-trail-of-bits-skills/
 
@@ -2151,7 +2151,7 @@ url: https://agentskillexchange.com/skills/run-security-audits-and-variant-analy
 slug: validate-python-docstrings-against-function-signatures-with-pydoclint
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Check that Python docstrings stay consistent with parameters, returns, and raised exceptions as code evolves.
 url: https://agentskillexchange.com/skills/validate-python-docstrings-against-function-signatures-with-pydoclint/
 
@@ -2159,7 +2159,7 @@ url: https://agentskillexchange.com/skills/validate-python-docstrings-against-fu
 slug: lint-rego-policies-before-promotion-with-regal
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Analyze Rego policy files for style, correctness, and maintainability issues before policy bundles are promoted.
 url: https://agentskillexchange.com/skills/lint-rego-policies-before-promotion-with-regal/
 
@@ -2199,7 +2199,7 @@ url: https://agentskillexchange.com/skills/baseline-and-review-repository-secret
 slug: design-lifecycle-email-sequences
 category: Calendar, Email & Productivity
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Create or improve welcome, nurture, onboarding, re-engagement, and other lifecycle sequences with a clear purpose for each email.
 url: https://agentskillexchange.com/skills/design-lifecycle-email-sequences/
 
@@ -2207,7 +2207,7 @@ url: https://agentskillexchange.com/skills/design-lifecycle-email-sequences/
 slug: diagnose-site-seo-issues-with-a-structured-audit
 category: Content Writing & SEO
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run a structured SEO audit that surfaces crawlability, technical, and on-page issues before you start guessing at why traffic or rankings slipped.
 url: https://agentskillexchange.com/skills/diagnose-site-seo-issues-with-a-structured-audit/
 
@@ -2215,7 +2215,7 @@ url: https://agentskillexchange.com/skills/diagnose-site-seo-issues-with-a-struc
 slug: plan-programmatic-seo-pages-at-scale
 category: Content Writing & SEO
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Design template and data driven SEO page programs that can scale without collapsing into thin, duplicate, or low-intent content.
 url: https://agentskillexchange.com/skills/plan-programmatic-seo-pages-at-scale/
 
@@ -2223,7 +2223,7 @@ url: https://agentskillexchange.com/skills/plan-programmatic-seo-pages-at-scale/
 slug: multi-axis-code-review-and-quality-gates
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run a structured pre-merge review across correctness, readability, architecture, security, and performance instead of relying on a shallow spot check.
 url: https://agentskillexchange.com/skills/multi-axis-code-review-and-quality-gates/
 
@@ -2231,7 +2231,7 @@ url: https://agentskillexchange.com/skills/multi-axis-code-review-and-quality-ga
 slug: systematic-debugging-and-error-recovery
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Stop guessing when something breaks, preserve evidence, reproduce the failure, isolate the cause, and verify the fix before resuming work.
 url: https://agentskillexchange.com/skills/systematic-debugging-and-error-recovery/
 
@@ -2239,7 +2239,7 @@ url: https://agentskillexchange.com/skills/systematic-debugging-and-error-recove
 slug: use-an-escalating-scrape-strategy-in-claude-code-before-reaching-for-browser-automation
 category: Research & Scraping
 framework: Claude Code
-verification: Published
+verification: Security Reviewed
 description: Start with cheap static fetches, escalate to a browser only when needed, validate findings, and turn the result into a production-ready scraping approach.
 url: https://agentskillexchange.com/skills/use-an-escalating-scrape-strategy-in-claude-code-before-reaching-for-browser-automation/
 
@@ -2247,7 +2247,7 @@ url: https://agentskillexchange.com/skills/use-an-escalating-scrape-strategy-in-
 slug: benchmark-prompt-injection-attacks-defenses-and-recovery-pipelines-before-trusting-an-llm-app-with-open-prompt-injection
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run structured prompt-injection attack and defense experiments against an LLM-integrated app before production by measuring attack success and testing detection or recovery pipelines.
 url: https://agentskillexchange.com/skills/benchmark-prompt-injection-attacks-defenses-and-recovery-pipelines-before-trusting-an-llm-app-with-open-prompt-injection/
 
@@ -2255,7 +2255,7 @@ url: https://agentskillexchange.com/skills/benchmark-prompt-injection-attacks-de
 slug: wrap-local-coding-agents-in-deny-by-default-least-privilege-sandboxes-with-greywall
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run Claude Code, Codex, Cursor, or similar local agent CLIs inside a host-local sandbox that learns required access and blocks everything else by default.
 url: https://agentskillexchange.com/skills/wrap-local-coding-agents-in-deny-by-default-least-privilege-sandboxes-with-greywall/
 
@@ -2263,7 +2263,7 @@ url: https://agentskillexchange.com/skills/wrap-local-coding-agents-in-deny-by-d
 slug: scan-agentic-codebases-for-exposed-tools-mcp-usage-and-mapped-security-findings-with-agentic-radar
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Generate a reviewable security report for a supported agent workflow before deployment by scanning its code, tools, MCP usage, and known vulnerability surface.
 url: https://agentskillexchange.com/skills/scan-agentic-codebases-for-exposed-tools-mcp-usage-and-mapped-security-findings-with-agentic-radar/
 
@@ -2279,7 +2279,7 @@ url: https://agentskillexchange.com/skills/benchmark-deep-research-agents-across
 slug: run-repeatable-agent-evaluation-suites-with-trajectory-and-simulator-coverage-using-strands-evals
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Build repeatable evaluation experiments for agents and LLM apps with output checks, trajectory scoring, simulators, and trace-based review.
 url: https://agentskillexchange.com/skills/run-repeatable-agent-evaluation-suites-with-trajectory-and-simulator-coverage-using-strands-evals/
 
@@ -2287,7 +2287,7 @@ url: https://agentskillexchange.com/skills/run-repeatable-agent-evaluation-suite
 slug: test-claude-code-plugin-and-skill-triggering-with-staged-eval-runs-using-cc-plugin-eval
 category: Code Quality & Review
 framework: Claude Code
-verification: Published
+verification: Security Reviewed
 description: Run staged evaluations against a Claude Code plugin to verify that skills, agents, commands, hooks, and MCP components trigger when they should.
 url: https://agentskillexchange.com/skills/test-claude-code-plugin-and-skill-triggering-with-staged-eval-runs-using-cc-plugin-eval/
 
@@ -2303,7 +2303,7 @@ url: https://agentskillexchange.com/skills/review-risky-coding-agent-sessions-wi
 slug: start-governed-claude-code-sessions-with-short-lived-service-credentials-using-kontext-cli
 category: Security & Verification
 framework: Claude Code
-verification: Published
+verification: Security Reviewed
 description: Inject short-lived, scoped service credentials into Claude Code sessions so agents can reach approved systems without exposing raw secrets.
 url: https://agentskillexchange.com/skills/start-governed-claude-code-sessions-with-short-lived-service-credentials-using-kontext-cli/
 
@@ -2311,7 +2311,7 @@ url: https://agentskillexchange.com/skills/start-governed-claude-code-sessions-w
 slug: probe-ai-agents-for-dangerous-tool-chains-and-execution-side-effects-with-ziran
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Test agent systems for graph-discovered tool-chain vulnerabilities, silent side effects, and multi-phase trust exploits before deployment.
 url: https://agentskillexchange.com/skills/probe-ai-agents-for-dangerous-tool-chains-and-execution-side-effects-with-ziran/
 
@@ -2319,7 +2319,7 @@ url: https://agentskillexchange.com/skills/probe-ai-agents-for-dangerous-tool-ch
 slug: enforce-policy-gated-and-auditable-agent-execution-with-lacp
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run Claude, Codex, and related coding-agent tasks through policy gates, evidence loops, and auditable execution tiers before risky work proceeds.
 url: https://agentskillexchange.com/skills/enforce-policy-gated-and-auditable-agent-execution-with-lacp/
 
@@ -2327,7 +2327,7 @@ url: https://agentskillexchange.com/skills/enforce-policy-gated-and-auditable-ag
 slug: run-autonomous-improve-verify-keep-or-revert-loops-across-coding-tasks-with-autoresearch
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Turn Claude Code, OpenCode, or Codex into a metric-driven loop that makes one change at a time, verifies it mechanically, and keeps or reverts…
 url: https://agentskillexchange.com/skills/run-autonomous-improve-verify-keep-or-revert-loops-across-coding-tasks-with-autoresearch/
 
@@ -2335,7 +2335,7 @@ url: https://agentskillexchange.com/skills/run-autonomous-improve-verify-keep-or
 slug: route-imessage-mail-notes-reminders-and-calendar-tasks-into-approved-ai-cli-workflows-with-apple-flow
 category: Calendar, Email & Productivity
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use Apple-native inboxes and event surfaces as a gated control plane for local AI work, with sender allowlists, approval prompts, and workspace boundaries.
 url: https://agentskillexchange.com/skills/route-imessage-mail-notes-reminders-and-calendar-tasks-into-approved-ai-cli-workflows-with-apple-flow/
 
@@ -2351,7 +2351,7 @@ url: https://agentskillexchange.com/skills/mirror-and-back-up-openclaw-workspace
 slug: back-up-github-gitlab-bitbucket-and-forgejo-repositories-with-gitbackup
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run repeatable cross-forge repository backup jobs from one config instead of hand-scripting clone and export steps per provider.
 url: https://agentskillexchange.com/skills/back-up-github-gitlab-bitbucket-and-forgejo-repositories-with-gitbackup/
 
@@ -2359,7 +2359,7 @@ url: https://agentskillexchange.com/skills/back-up-github-gitlab-bitbucket-and-f
 slug: find-duplicate-and-visually-similar-media-before-cleanup-with-czkawka
 category: Image & Creative Automation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Scan local archives for duplicate files, similar images, similar videos, empties, and related cleanup targets before deleting or reorganizing them.
 url: https://agentskillexchange.com/skills/find-duplicate-and-visually-similar-media-before-cleanup-with-czkawka/
 
@@ -2367,7 +2367,7 @@ url: https://agentskillexchange.com/skills/find-duplicate-and-visually-similar-m
 slug: mirror-openclaw-workspaces-and-stream-encrypted-backups-with-openclaw-workspace-sync
 category: Integrations & Connectors
 framework: OpenClaw
-verification: Published
+verification: Security Reviewed
 description: Sync an OpenClaw workspace to your own cloud storage or push encrypted agent-system backups with OpenClaw-aware mailbox, mirror, and bisync modes.
 url: https://agentskillexchange.com/skills/mirror-openclaw-workspaces-and-stream-encrypted-backups-with-openclaw-workspace-sync/
 
@@ -2375,7 +2375,7 @@ url: https://agentskillexchange.com/skills/mirror-openclaw-workspaces-and-stream
 slug: archive-online-videos-and-metadata-to-the-internet-archive-with-tubeup
 category: Media & Transcription
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Download a supported video URL with yt-dlp and upload the preserved file plus metadata to archive.org as a repeatable preservation job.
 url: https://agentskillexchange.com/skills/archive-online-videos-and-metadata-to-the-internet-archive-with-tubeup/
 
@@ -2383,7 +2383,7 @@ url: https://agentskillexchange.com/skills/archive-online-videos-and-metadata-to
 slug: sync-calendars-between-providers-with-a-stateless-calendarsync-job
 category: Calendar, Email & Productivity
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run a one-shot calendar sync or migration between Google, Outlook, CalDAV, ICS, and related systems without standing up a long-lived sync service.
 url: https://agentskillexchange.com/skills/sync-calendars-between-providers-with-a-stateless-calendarsync-job/
 
@@ -2391,7 +2391,7 @@ url: https://agentskillexchange.com/skills/sync-calendars-between-providers-with
 slug: manage-stacked-commits-repair-commit-graphs-and-sync-branchless-review-flows-with-git-branchless
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use smartlog, restack, undo, and sync commands to keep stacked commit workflows reviewable without juggling throwaway branches.
 url: https://agentskillexchange.com/skills/manage-stacked-commits-repair-commit-graphs-and-sync-branchless-review-flows-with-git-branchless/
 
@@ -2423,7 +2423,7 @@ url: https://agentskillexchange.com/skills/scan-mcp-servers-for-security-finding
 slug: put-coding-agents-on-a-governed-local-git-workflow-with-agentplane
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run coding agents inside a repo with explicit policy files, task state, approvals, and closure records when teams need auditable local workflows instead of…
 url: https://agentskillexchange.com/skills/put-coding-agents-on-a-governed-local-git-workflow-with-agentplane/
 
@@ -2431,7 +2431,7 @@ url: https://agentskillexchange.com/skills/put-coding-agents-on-a-governed-local
 slug: capture-youtube-transcripts-without-browser-automation-using-youtube-transcript-api
 category: Media & Transcription
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Fetch manual or auto-generated YouTube subtitles, including translations, without Selenium or API keys before summarization, extraction, or quote-checking.
 url: https://agentskillexchange.com/skills/capture-youtube-transcripts-without-browser-automation-using-youtube-transcript-api/
 
@@ -2439,7 +2439,7 @@ url: https://agentskillexchange.com/skills/capture-youtube-transcripts-without-b
 slug: generate-clickable-architecture-diagrams-from-public-github-repos-with-gitdiagram
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Turn a public GitHub repository into an interactive architecture diagram before onboarding, code review, or agent handoff.
 url: https://agentskillexchange.com/skills/generate-clickable-architecture-diagrams-from-public-github-repos-with-gitdiagram/
 
@@ -2511,7 +2511,7 @@ url: https://agentskillexchange.com/skills/run-claude-code-inside-github-actions
 slug: provision-rust-cli-toolchains-from-prebuilt-binaries-in-fresh-environments-before-repeated-source-builds-slow-agent-runs-with-cargo-binstall
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Bootstrap Rust-based command-line tools in CI, containers, and ephemeral workspaces by preferring published binaries over repeated source builds.
 url: https://agentskillexchange.com/skills/provision-rust-cli-toolchains-from-prebuilt-binaries-in-fresh-environments-before-repeated-source-builds-slow-agent-runs-with-cargo-binstall/
 
@@ -2519,7 +2519,7 @@ url: https://agentskillexchange.com/skills/provision-rust-cli-toolchains-from-pr
 slug: run-high-volume-s3-copy-sync-and-delete-jobs-faster-than-ad-hoc-aws-s3-loops-with-s5cmd
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Execute large parallel object-store operations from command files or shell pipelines when agents need speed and repeatability beyond basic aws s3 loops.
 url: https://agentskillexchange.com/skills/run-high-volume-s3-copy-sync-and-delete-jobs-faster-than-ad-hoc-aws-s3-loops-with-s5cmd/
 
@@ -2527,7 +2527,7 @@ url: https://agentskillexchange.com/skills/run-high-volume-s3-copy-sync-and-dele
 slug: model-user-behavior-and-run-distributed-load-tests-before-backend-changes-face-real-traffic-with-locust
 category: Monitoring & Alerts
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Script realistic user flows in Python and fan them out across workers so agents can pressure-test services before rollout.
 url: https://agentskillexchange.com/skills/model-user-behavior-and-run-distributed-load-tests-before-backend-changes-face-real-traffic-with-locust/
 
@@ -2535,7 +2535,7 @@ url: https://agentskillexchange.com/skills/model-user-behavior-and-run-distribut
 slug: automatically-rerun-flaky-pytest-cases-with-bounded-retry-rules-before-intermittent-failures-block-merges-with-pytest-rerunfailures
 category: CI/CD Integrations
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Add controlled retries to pytest runs so agents can contain flaky tests and report final failures without rerunning whole suites by hand.
 url: https://agentskillexchange.com/skills/automatically-rerun-flaky-pytest-cases-with-bounded-retry-rules-before-intermittent-failures-block-merges-with-pytest-rerunfailures/
 
@@ -2543,7 +2543,7 @@ url: https://agentskillexchange.com/skills/automatically-rerun-flaky-pytest-case
 slug: migrate-mysql-sqlite-or-csv-data-into-postgresql-with-repeatable-load-files-before-cutover-with-pgloader
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Move data into PostgreSQL with declarative load files, built-in type conversion, and repeatable migration runs before one-off import scripts become cutover risk.
 url: https://agentskillexchange.com/skills/migrate-mysql-sqlite-or-csv-data-into-postgresql-with-repeatable-load-files-before-cutover-with-pgloader/
 
@@ -2551,7 +2551,7 @@ url: https://agentskillexchange.com/skills/migrate-mysql-sqlite-or-csv-data-into
 slug: diff-live-database-schemas-against-declarative-sql-before-schema-drift-reaches-production-with-sqldef
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Compare checked-in SQL against live MySQL, PostgreSQL, SQLite, or SQL Server schemas and generate a reviewable apply plan before agents touch production databases.
 url: https://agentskillexchange.com/skills/diff-live-database-schemas-against-declarative-sql-before-schema-drift-reaches-production-with-sqldef/
 
@@ -2559,7 +2559,7 @@ url: https://agentskillexchange.com/skills/diff-live-database-schemas-against-de
 slug: sync-dbt-schema-yaml-and-inherited-column-metadata-before-docs-drift-accumulates-with-dbt-osmosis
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Keep dbt schema YAML and column documentation aligned with the project so stale metadata does not pile up between model changes.
 url: https://agentskillexchange.com/skills/sync-dbt-schema-yaml-and-inherited-column-metadata-before-docs-drift-accumulates-with-dbt-osmosis/
 
@@ -2567,7 +2567,7 @@ url: https://agentskillexchange.com/skills/sync-dbt-schema-yaml-and-inherited-co
 slug: deploy-and-diff-environment-specific-kubernetes-targets-from-one-declarative-project-with-kluctl
 category: CI/CD Integrations
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Manage multi-environment Kubernetes rollouts from a single project so you can diff, deploy, prune, and promote targets without hand-stitching every overlay.
 url: https://agentskillexchange.com/skills/deploy-and-diff-environment-specific-kubernetes-targets-from-one-declarative-project-with-kluctl/
 
@@ -2575,7 +2575,7 @@ url: https://agentskillexchange.com/skills/deploy-and-diff-environment-specific-
 slug: enforce-package-boundaries-inside-a-rails-monolith-before-coupling-spreads-with-packwerk
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Check a Rails codebase for dependency and visibility violations so domain boundaries stay reviewable instead of dissolving over time.
 url: https://agentskillexchange.com/skills/enforce-package-boundaries-inside-a-rails-monolith-before-coupling-spreads-with-packwerk/
 
@@ -2599,7 +2599,7 @@ url: https://agentskillexchange.com/skills/orchestrate-multi-environment-opentof
 slug: lint-protobuf-definitions-for-style-and-correctness-before-code-generation-and-review-churn-begin-with-protolint
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Catch naming, formatting, and protobuf rule violations early so generated clients and reviews are cleaner.
 url: https://agentskillexchange.com/skills/lint-protobuf-definitions-for-style-and-correctness-before-code-generation-and-review-churn-begin-with-protolint/
 
@@ -2607,7 +2607,7 @@ url: https://agentskillexchange.com/skills/lint-protobuf-definitions-for-style-a
 slug: run-declarative-kubernetes-test-suites-against-clusters-before-operator-or-manifest-changes-merge-with-kuttl
 category: CI/CD Integrations
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Express Kubernetes test steps and assertions in YAML, then execute them against a real cluster before shipping controller or manifest changes.
 url: https://agentskillexchange.com/skills/run-declarative-kubernetes-test-suites-against-clusters-before-operator-or-manifest-changes-merge-with-kuttl/
 
@@ -2615,7 +2615,7 @@ url: https://agentskillexchange.com/skills/run-declarative-kubernetes-test-suite
 slug: capture-simulate-and-diff-http-dependencies-before-flaky-integration-tests-hit-real-external-services-with-hoverfly
 category: CI/CD Integrations
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Record real HTTP traffic, replay it in simulation mode, and compare dependency behavior without hammering live third-party services.
 url: https://agentskillexchange.com/skills/capture-simulate-and-diff-http-dependencies-before-flaky-integration-tests-hit-real-external-services-with-hoverfly/
 
@@ -2623,7 +2623,7 @@ url: https://agentskillexchange.com/skills/capture-simulate-and-diff-http-depend
 slug: diff-and-review-mysql-schema-changes-as-filesystem-managed-sql-before-risky-database-deploys-with-skeema
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Pull live MySQL schema into files, inspect diffs, and push reviewed changes back with a repeatable workflow.
 url: https://agentskillexchange.com/skills/diff-and-review-mysql-schema-changes-as-filesystem-managed-sql-before-risky-database-deploys-with-skeema/
 
@@ -2631,7 +2631,7 @@ url: https://agentskillexchange.com/skills/diff-and-review-mysql-schema-changes-
 slug: plan-and-apply-many-helm-releases-from-one-declarative-state-before-cluster-changes-drift-out-of-sync-with-helmfile
 category: CI/CD Integrations
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Keep multi-chart Kubernetes environments coherent by diffing and syncing all declared Helm releases from one state file.
 url: https://agentskillexchange.com/skills/plan-and-apply-many-helm-releases-from-one-declarative-state-before-cluster-changes-drift-out-of-sync-with-helmfile/
 
@@ -2639,7 +2639,7 @@ url: https://agentskillexchange.com/skills/plan-and-apply-many-helm-releases-fro
 slug: swap-a-local-service-into-a-live-kubernetes-environment-to-debug-real-cluster-traffic-before-rollout-with-telepresence
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Intercept a Kubernetes service and route live cluster traffic into a local process so debugging happens against real dependencies before release.
 url: https://agentskillexchange.com/skills/swap-a-local-service-into-a-live-kubernetes-environment-to-debug-real-cluster-traffic-before-rollout-with-telepresence/
 
@@ -2655,7 +2655,7 @@ url: https://agentskillexchange.com/skills/run-terminal-native-repo-analysis-edi
 slug: coordinate-multiple-cli-agents-through-sessions-handoffs-and-terminal-control-apis-with-cli-agent-orchestrator
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Lets an agent supervisor spawn and steer isolated terminal-based worker agents with explicit handoff, assign, and message patterns.
 url: https://agentskillexchange.com/skills/coordinate-multiple-cli-agents-through-sessions-handoffs-and-terminal-control-apis-with-cli-agent-orchestrator/
 
@@ -2679,7 +2679,7 @@ url: https://agentskillexchange.com/skills/enforce-source-controlled-ai-checks-i
 slug: run-contract-tests-from-api-descriptions-against-live-endpoints-before-integrations-break-with-dredd
 category: Library & API Reference
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Lets an agent execute OpenAPI or API Blueprint contract checks against a running service so spec drift is caught before release.
 url: https://agentskillexchange.com/skills/run-contract-tests-from-api-descriptions-against-live-endpoints-before-integrations-break-with-dredd/
 
@@ -2687,7 +2687,7 @@ url: https://agentskillexchange.com/skills/run-contract-tests-from-api-descripti
 slug: compare-dbt-models-and-warehouse-relations-before-trusting-migration-parity-with-dbt-audit-helper
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Lets an agent run dbt parity checks, relation diffs, and row or value comparisons so refactors and source swaps can be verified before rollout.
 url: https://agentskillexchange.com/skills/compare-dbt-models-and-warehouse-relations-before-trusting-migration-parity-with-dbt-audit-helper/
 
@@ -2703,7 +2703,7 @@ url: https://agentskillexchange.com/skills/inventory-live-database-schemas-and-g
 slug: shard-slow-pytest-suites-by-historic-timings-before-ci-bottlenecks-pile-up-with-pytest-split
 category: CI/CD Integrations
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Lets an agent split a large pytest suite into timing-balanced shards so parallel CI lanes finish faster and with less variance.
 url: https://agentskillexchange.com/skills/shard-slow-pytest-suites-by-historic-timings-before-ci-bottlenecks-pile-up-with-pytest-split/
 
@@ -2751,7 +2751,7 @@ url: https://agentskillexchange.com/skills/gate-diff-only-test-coverage-on-chang
 slug: infer-and-normalize-broken-csv-dialects-before-import-with-clevercsv
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Detect messy CSV dialects, standardize malformed files, and generate reliable import code before ingestion pipelines or analyst workflows fail.
 url: https://agentskillexchange.com/skills/infer-and-normalize-broken-csv-dialects-before-import-with-clevercsv/
 
@@ -2775,7 +2775,7 @@ url: https://agentskillexchange.com/skills/find-and-group-duplicate-files-across
 slug: load-test-http-endpoints-with-reproducible-attack-profiles-and-latency-reports-before-rollout-with-vegeta
 category: Monitoring & Alerts
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run constant-rate HTTP attacks, capture binary results, and generate reports or plots before capacity changes and releases.
 url: https://agentskillexchange.com/skills/load-test-http-endpoints-with-reproducible-attack-profiles-and-latency-reports-before-rollout-with-vegeta/
 
@@ -2783,7 +2783,7 @@ url: https://agentskillexchange.com/skills/load-test-http-endpoints-with-reprodu
 slug: resolve-and-validate-openapi-specs-with-remote-refs-before-client-generation-or-review-with-prance
 category: Library & API Reference
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Validate an OpenAPI document, resolve external references, and emit a clean compiled spec before codegen or contract review.
 url: https://agentskillexchange.com/skills/resolve-and-validate-openapi-specs-with-remote-refs-before-client-generation-or-review-with-prance/
 
@@ -2799,7 +2799,7 @@ url: https://agentskillexchange.com/skills/trace-which-local-processes-and-hosts
 slug: scan-images-filesystems-and-sboms-for-end-of-life-software-before-unsupported-components-ship-with-xeol
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Find packages that are out of support even when they do not show up as a classic CVE finding yet.
 url: https://agentskillexchange.com/skills/scan-images-filesystems-and-sboms-for-end-of-life-software-before-unsupported-components-ship-with-xeol/
 
@@ -2807,7 +2807,7 @@ url: https://agentskillexchange.com/skills/scan-images-filesystems-and-sboms-for
 slug: lint-kubernetes-manifests-and-helm-charts-for-security-and-readiness-issues-before-cluster-deployment-with-kubelinter
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run a static policy pass over Kubernetes YAML before misconfigurations, missing limits, or risky defaults reach a cluster.
 url: https://agentskillexchange.com/skills/lint-kubernetes-manifests-and-helm-charts-for-security-and-readiness-issues-before-cluster-deployment-with-kubelinter/
 
@@ -2815,7 +2815,7 @@ url: https://agentskillexchange.com/skills/lint-kubernetes-manifests-and-helm-ch
 slug: pin-github-actions-and-reusable-workflow-refs-to-immutable-shas-before-ci-changes-merge-with-pinact
 category: CI/CD Integrations
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Rewrite mutable GitHub Actions refs to commit SHAs so workflow changes do not ship with drifting dependencies.
 url: https://agentskillexchange.com/skills/pin-github-actions-and-reusable-workflow-refs-to-immutable-shas-before-ci-changes-merge-with-pinact/
 
@@ -2823,7 +2823,7 @@ url: https://agentskillexchange.com/skills/pin-github-actions-and-reusable-workf
 slug: unit-test-helm-charts-with-yaml-assertions-before-deployment-templates-reach-clusters-with-helm-unittest
 category: CI/CD Integrations
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Render a Helm chart locally and assert on the generated Kubernetes objects before a broken template makes it to a cluster.
 url: https://agentskillexchange.com/skills/unit-test-helm-charts-with-yaml-assertions-before-deployment-templates-reach-clusters-with-helm-unittest/
 
@@ -2831,7 +2831,7 @@ url: https://agentskillexchange.com/skills/unit-test-helm-charts-with-yaml-asser
 slug: lint-postgresql-migrations-and-sql-changes-before-irreversible-schema-mistakes-land-with-squawk
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Catch locking, indexing, and schema-change hazards in PostgreSQL migration SQL before a review turns into downtime.
 url: https://agentskillexchange.com/skills/lint-postgresql-migrations-and-sql-changes-before-irreversible-schema-mistakes-land-with-squawk/
 
@@ -2839,7 +2839,7 @@ url: https://agentskillexchange.com/skills/lint-postgresql-migrations-and-sql-ch
 slug: score-open-source-repositories-for-supply-chain-risk-signals-before-adoption-or-release-decisions-with-scorecard
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Check a repository against OpenSSF security heuristics before you trust it as a dependency, approve it for use, or ship from it.
 url: https://agentskillexchange.com/skills/score-open-source-repositories-for-supply-chain-risk-signals-before-adoption-or-release-decisions-with-scorecard/
 
@@ -2847,7 +2847,7 @@ url: https://agentskillexchange.com/skills/score-open-source-repositories-for-su
 slug: spell-check-docs-and-code-comments-with-source-aware-filters-using-pyspelling
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run filtered spell checks over Markdown, Sphinx, HTML, or code comments without flattening everything into one noisy text stream.
 url: https://agentskillexchange.com/skills/spell-check-docs-and-code-comments-with-source-aware-filters-using-pyspelling/
 
@@ -2871,7 +2871,7 @@ url: https://agentskillexchange.com/skills/format-and-lint-toml-configs-and-lock
 slug: lint-dotenv-files-for-duplicated-keys-and-unsafe-formatting-with-dotenv-linter
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Check dotenv files for duplicated keys, malformed values, and formatting mistakes before they break local runs or secret handoffs.
 url: https://agentskillexchange.com/skills/lint-dotenv-files-for-duplicated-keys-and-unsafe-formatting-with-dotenv-linter/
 
@@ -2895,7 +2895,7 @@ url: https://agentskillexchange.com/skills/generate-and-validate-conventional-co
 slug: generate-oss-fuzz-harnesses-with-oss-fuzz-gen
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use LLM-assisted harness generation to expand fuzz coverage for real projects before manual fuzzing work begins.
 url: https://agentskillexchange.com/skills/generate-oss-fuzz-harnesses-with-oss-fuzz-gen/
 
@@ -2903,7 +2903,7 @@ url: https://agentskillexchange.com/skills/generate-oss-fuzz-harnesses-with-oss-
 slug: audit-go-dependency-licenses-with-go-licenses
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Produce a license inventory for Go module dependencies before release, procurement review, or open-source due diligence.
 url: https://agentskillexchange.com/skills/audit-go-dependency-licenses-with-go-licenses/
 
@@ -2911,7 +2911,7 @@ url: https://agentskillexchange.com/skills/audit-go-dependency-licenses-with-go-
 slug: generate-slsa-build-provenance-in-github-actions
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Attach signed SLSA provenance to GitHub Actions builds so release artifacts ship with verifiable supply-chain metadata.
 url: https://agentskillexchange.com/skills/generate-slsa-build-provenance-in-github-actions/
 
@@ -2943,7 +2943,7 @@ url: https://agentskillexchange.com/skills/enforce-repo-hygiene-with-pre-commit-
 slug: inspect-agent-model-traffic-with-llmtrace
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Proxy OpenAI-compatible model traffic so operators can inspect prompts, detect risks, and enforce budget or policy controls.
 url: https://agentskillexchange.com/skills/inspect-agent-model-traffic-with-llmtrace/
 
@@ -2951,7 +2951,7 @@ url: https://agentskillexchange.com/skills/inspect-agent-model-traffic-with-llmt
 slug: monitor-coding-agent-token-spend-with-splitrail
 category: Monitoring & Alerts
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Track token burn, spend, and model mix across multiple coding-agent tools from one local monitoring workflow.
 url: https://agentskillexchange.com/skills/monitor-coding-agent-token-spend-with-splitrail/
 
@@ -2959,7 +2959,7 @@ url: https://agentskillexchange.com/skills/monitor-coding-agent-token-spend-with
 slug: review-gate-openclaw-memory-hygiene-with-openclaw-mem
 category: Templates & Workflows
 framework: OpenClaw
-verification: Published
+verification: Security Reviewed
 description: Pack trusted context and review memory writes before long OpenClaw sessions drift or accumulate low-quality memory.
 url: https://agentskillexchange.com/skills/review-gate-openclaw-memory-hygiene-with-openclaw-mem/
 
@@ -2967,7 +2967,7 @@ url: https://agentskillexchange.com/skills/review-gate-openclaw-memory-hygiene-w
 slug: run-claude-code-with-spec-driven-quality-gates-via-pilot-shell
 category: Templates & Workflows
 framework: Claude Code
-verification: Published
+verification: Security Reviewed
 description: Wrap Claude Code sessions in a spec, approval, and verification workflow before risky implementation work lands.
 url: https://agentskillexchange.com/skills/run-claude-code-with-spec-driven-quality-gates-via-pilot-shell/
 
@@ -2975,7 +2975,7 @@ url: https://agentskillexchange.com/skills/run-claude-code-with-spec-driven-qual
 slug: apply-site-specific-action-manuals-with-actionbook
 category: Browser Automation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Load maintained action manuals for fragile websites so agents can execute known flows more reliably than generic browser prompting.
 url: https://agentskillexchange.com/skills/apply-site-specific-action-manuals-with-actionbook/
 
@@ -2983,7 +2983,7 @@ url: https://agentskillexchange.com/skills/apply-site-specific-action-manuals-wi
 slug: debug-live-chromium-sessions-with-browser-debugger-cli
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Pull DOM, console, network, and CDP telemetry from a live Chromium session when an agent needs to debug a failing browser task.
 url: https://agentskillexchange.com/skills/debug-live-chromium-sessions-with-browser-debugger-cli/
 
@@ -2991,7 +2991,7 @@ url: https://agentskillexchange.com/skills/debug-live-chromium-sessions-with-bro
 slug: validate-dry-run-and-expose-yaml-agent-runbooks-as-mcp-tools-with-declaragent
 category: Runbooks & Diagnostics
 framework: MCP
-verification: Published
+verification: Security Reviewed
 description: Turn YAML runbooks into auditable agent actions with validation, dry-runs, destructive-step approval, and optional MCP exposure.
 url: https://agentskillexchange.com/skills/validate-dry-run-and-expose-yaml-agent-runbooks-as-mcp-tools-with-declaragent/
 
@@ -2999,7 +2999,7 @@ url: https://agentskillexchange.com/skills/validate-dry-run-and-expose-yaml-agen
 slug: generate-and-safely-patch-agents-md-and-runbook-md-with-agents-md-generator
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Bootstrap and safely update AGENTS.md and RUNBOOK.md without clobbering hand-edited docs, so coding-agent repos keep a clean machine-readable contract.
 url: https://agentskillexchange.com/skills/generate-and-safely-patch-agents-md-and-runbook-md-with-agents-md-generator/
 
@@ -3007,7 +3007,7 @@ url: https://agentskillexchange.com/skills/generate-and-safely-patch-agents-md-a
 slug: run-claude-code-through-repeatable-command-and-persona-workflows-with-superclaude
 category: Templates & Workflows
 framework: Claude Code
-verification: Published
+verification: Security Reviewed
 description: Turn Claude Code into a command-driven workflow surface for research, planning, implementation, testing, and review instead of steering every step ad hoc.
 url: https://agentskillexchange.com/skills/run-claude-code-through-repeatable-command-and-persona-workflows-with-superclaude/
 
@@ -3015,7 +3015,7 @@ url: https://agentskillexchange.com/skills/run-claude-code-through-repeatable-co
 slug: dispatch-coding-agents-from-github-issue-labels-and-return-pull-requests-with-patchwork-agents
 category: CI/CD Integrations
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use issue labels as a lightweight dispatch layer that fans repository work out to Claude Code, Codex, or Aider workers and brings back PRs.
 url: https://agentskillexchange.com/skills/dispatch-coding-agents-from-github-issue-labels-and-return-pull-requests-with-patchwork-agents/
 
@@ -3023,7 +3023,7 @@ url: https://agentskillexchange.com/skills/dispatch-coding-agents-from-github-is
 slug: add-ide-style-semantic-code-navigation-and-symbol-safe-refactors-to-coding-agents-through-serena
 category: Developer Tools
 framework: MCP
-verification: Published
+verification: Security Reviewed
 description: Give a coding agent symbol-aware lookup, cross-file rename, and structural edit tools before it starts making brittle text-only changes.
 url: https://agentskillexchange.com/skills/add-ide-style-semantic-code-navigation-and-symbol-safe-refactors-to-coding-agents-through-serena/
 
@@ -3031,7 +3031,7 @@ url: https://agentskillexchange.com/skills/add-ide-style-semantic-code-navigatio
 slug: filter-prompts-and-model-outputs-for-injection-secrets-toxicity-and-policy-risks-with-llm-guard
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Screen prompts and responses with input and output scanners before an LLM interaction reaches production users or downstream systems.
 url: https://agentskillexchange.com/skills/filter-prompts-and-model-outputs-for-injection-secrets-toxicity-and-policy-risks-with-llm-guard/
 
@@ -3039,7 +3039,7 @@ url: https://agentskillexchange.com/skills/filter-prompts-and-model-outputs-for-
 slug: turn-markdown-runbooks-into-executable-parameterized-procedures-with-runme
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run named steps directly from Markdown runbooks so operational docs stay executable instead of drifting into stale reference text.
 url: https://agentskillexchange.com/skills/turn-markdown-runbooks-into-executable-parameterized-procedures-with-runme/
 
@@ -3047,7 +3047,7 @@ url: https://agentskillexchange.com/skills/turn-markdown-runbooks-into-executabl
 slug: score-model-outputs-with-reusable-evaluator-prompts-and-metrics-using-autoevals
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Apply reusable evaluators to model outputs when you need lightweight scoring, rationale capture, or quick eval loops in code.
 url: https://agentskillexchange.com/skills/score-model-outputs-with-reusable-evaluator-prompts-and-metrics-using-autoevals/
 
@@ -3055,7 +3055,7 @@ url: https://agentskillexchange.com/skills/score-model-outputs-with-reusable-eva
 slug: scan-llm-systems-for-jailbreaks-prompt-injections-and-unsafe-behaviors-with-garak
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Probe a model or agent stack with adversarial test suites so safety failures show up before deployment or review.
 url: https://agentskillexchange.com/skills/scan-llm-systems-for-jailbreaks-prompt-injections-and-unsafe-behaviors-with-garak/
 
@@ -3063,7 +3063,7 @@ url: https://agentskillexchange.com/skills/scan-llm-systems-for-jailbreaks-promp
 slug: regression-test-llm-apps-and-agents-with-metrics-traces-and-eval-suites-using-deepeval
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run repeatable eval suites against prompts, RAG pipelines, and agents so regressions surface before release.
 url: https://agentskillexchange.com/skills/regression-test-llm-apps-and-agents-with-metrics-traces-and-eval-suites-using-deepeval/
 
@@ -3071,7 +3071,7 @@ url: https://agentskillexchange.com/skills/regression-test-llm-apps-and-agents-w
 slug: triage-active-security-incidents-with-ai-augmented-workflows-in-valhuntir-cli
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Guide live digital-forensics and incident-response work with human approval gates when the job is evidence review and triage, not general MCP setup.
 url: https://agentskillexchange.com/skills/triage-active-security-incidents-with-ai-augmented-workflows-in-valhuntir-cli/
 
@@ -3079,7 +3079,7 @@ url: https://agentskillexchange.com/skills/triage-active-security-incidents-with
 slug: scan-repositories-for-shai-hulud-2-0-supply-chain-indicators-with-the-detector-action
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Check repositories and CI surfaces for Shai-Hulud 2.0 compromise indicators when the task is targeted supply-chain triage, not generic malware scanning.
 url: https://agentskillexchange.com/skills/scan-repositories-for-shai-hulud-2-0-supply-chain-indicators-with-the-detector-action/
 
@@ -3087,7 +3087,7 @@ url: https://agentskillexchange.com/skills/scan-repositories-for-shai-hulud-2-0-
 slug: generate-conventional-commit-release-notes-for-automated-ship-workflows-with-semantic-release-release-notes-generator
 category: CI/CD Integrations
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Generate structured release notes from Conventional Commits inside automated release pipelines when changelog generation is the specific job to do.
 url: https://agentskillexchange.com/skills/generate-conventional-commit-release-notes-for-automated-ship-workflows-with-semantic-release-release-notes-generator/
 
@@ -3095,7 +3095,7 @@ url: https://agentskillexchange.com/skills/generate-conventional-commit-release-
 slug: sweep-github-for-leaked-secrets-and-exposed-credentials-with-git-hound
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Search public GitHub broadly for leaked secrets and triage exposures when the workflow is recon and remediation, not generic secret scanning.
 url: https://agentskillexchange.com/skills/sweep-github-for-leaked-secrets-and-exposed-credentials-with-git-hound/
 
@@ -3103,7 +3103,7 @@ url: https://agentskillexchange.com/skills/sweep-github-for-leaked-secrets-and-e
 slug: capture-and-search-ai-coding-sessions-alongside-git-history-with-entire-cli
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Record AI coding sessions next to commits so an agent can recover why code changed, resume from checkpoints, and hand off work cleanly.
 url: https://agentskillexchange.com/skills/capture-and-search-ai-coding-sessions-alongside-git-history-with-entire-cli/
 
@@ -3111,7 +3111,7 @@ url: https://agentskillexchange.com/skills/capture-and-search-ai-coding-sessions
 slug: generate-llm-fine-tuning-rag-and-eval-datasets-from-source-material-with-easy-dataset
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Turn raw documents into structured fine-tuning, RAG, and evaluation datasets when the real job is dataset preparation, not generic document parsing.
 url: https://agentskillexchange.com/skills/generate-llm-fine-tuning-rag-and-eval-datasets-from-source-material-with-easy-dataset/
 
@@ -3119,7 +3119,7 @@ url: https://agentskillexchange.com/skills/generate-llm-fine-tuning-rag-and-eval
 slug: run-configurable-multi-source-deep-research-passes-with-open-deep-research
 category: Research & Scraping
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use Open Deep Research when an agent should run a configurable research job that searches, compresses, synthesizes, and writes a cited report across multiple…
 url: https://agentskillexchange.com/skills/run-configurable-multi-source-deep-research-passes-with-open-deep-research/
 
@@ -3135,7 +3135,7 @@ url: https://agentskillexchange.com/skills/review-pull-requests-with-structured-
 slug: simulate-buyer-and-user-personas-to-pressure-test-ideas-and-messaging-with-tinytroupe
 category: Research & Scraping
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use TinyTroupe when an agent should run simulated persona panels, synthetic interviews, or offline audience reactions before spending on campaigns, launches, or user research.
 url: https://agentskillexchange.com/skills/simulate-buyer-and-user-personas-to-pressure-test-ideas-and-messaging-with-tinytroupe/
 
@@ -3143,7 +3143,7 @@ url: https://agentskillexchange.com/skills/simulate-buyer-and-user-personas-to-p
 slug: convert-dense-pdfs-into-llm-ready-text-and-page-aligned-markdown-with-olmocr
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use olmOCR when an agent needs to turn scanned or layout-heavy documents into clean markdown or text before chunking, search, extraction, or citation workflows.
 url: https://agentskillexchange.com/skills/convert-dense-pdfs-into-llm-ready-text-and-page-aligned-markdown-with-olmocr/
 
@@ -3151,7 +3151,7 @@ url: https://agentskillexchange.com/skills/convert-dense-pdfs-into-llm-ready-tex
 slug: apply-repeatable-javascript-and-typescript-codemods-across-large-codebases-with-jscodeshift
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use jscodeshift when an agent needs AST-based JavaScript or TypeScript codemods for bulk migrations, API rewrites, and large refactors with reviewable diffs.
 url: https://agentskillexchange.com/skills/apply-repeatable-javascript-and-typescript-codemods-across-large-codebases-with-jscodeshift/
 
@@ -3159,7 +3159,7 @@ url: https://agentskillexchange.com/skills/apply-repeatable-javascript-and-types
 slug: turn-feature-ideas-into-executable-implementation-specs-and-task-plans-with-spec-kit
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use Spec Kit when an agent should turn a feature idea into a spec-first workflow with explicit artifacts, planning steps, and task breakdowns before…
 url: https://agentskillexchange.com/skills/turn-feature-ideas-into-executable-implementation-specs-and-task-plans-with-spec-kit/
 
@@ -3167,7 +3167,7 @@ url: https://agentskillexchange.com/skills/turn-feature-ideas-into-executable-im
 slug: apply-rule-based-guardrails-to-agent-traces-and-tool-flows-with-invariant
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Insert a trace-aware guardrail layer between agents and their tools so unsafe message patterns or tool-call sequences are blocked by explicit rules.
 url: https://agentskillexchange.com/skills/apply-rule-based-guardrails-to-agent-traces-and-tool-flows-with-invariant/
 
@@ -3175,7 +3175,7 @@ url: https://agentskillexchange.com/skills/apply-rule-based-guardrails-to-agent-
 slug: evaluate-b2b-software-vendors-by-interrogating-their-agents-and-scoring-the-evidence-with-buyer-eval-skill
 category: Research & Scraping
 framework: Claude Code
-verification: Published
+verification: Security Reviewed
 description: Use Claude Code to run a structured vendor diligence workflow that questions vendor agents, cross-checks claims, and returns evidence-backed scorecards.
 url: https://agentskillexchange.com/skills/evaluate-b2b-software-vendors-by-interrogating-their-agents-and-scoring-the-evidence-with-buyer-eval-skill/
 
@@ -3183,7 +3183,7 @@ url: https://agentskillexchange.com/skills/evaluate-b2b-software-vendors-by-inte
 slug: prove-whether-a-prompt-or-model-variant-really-won-before-shipping-with-promptstats
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run statistically sound comparisons on eval results so prompt and model changes are judged by confidence bounds, not bar-chart vibes.
 url: https://agentskillexchange.com/skills/prove-whether-a-prompt-or-model-variant-really-won-before-shipping-with-promptstats/
 
@@ -3191,7 +3191,7 @@ url: https://agentskillexchange.com/skills/prove-whether-a-prompt-or-model-varia
 slug: iteratively-optimize-prompts-and-text-based-agent-configs-against-scored-eval-sets-with-gepa
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use reflective search to improve prompts or text-configured agent components against a real eval set instead of manual prompt tweaking.
 url: https://agentskillexchange.com/skills/iteratively-optimize-prompts-and-text-based-agent-configs-against-scored-eval-sets-with-gepa/
 
@@ -3199,7 +3199,7 @@ url: https://agentskillexchange.com/skills/iteratively-optimize-prompts-and-text
 slug: verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run deterministic governance checks and policy verification before agents get real autonomy, so risky tool use and weak runtime evidence are caught early.
 url: https://agentskillexchange.com/skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit/
 
@@ -3207,7 +3207,7 @@ url: https://agentskillexchange.com/skills/verify-agent-policy-coverage-and-risk
 slug: track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch
 category: Monitoring & Alerts
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Monitor quota, spend, resets, and alerts across multiple coding-agent providers from one local dashboard before a long run hits throttling or budget limits.
 url: https://agentskillexchange.com/skills/track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch/
 
@@ -3271,7 +3271,7 @@ url: https://agentskillexchange.com/skills/search-and-resume-past-coding-agent-s
 slug: browse-search-and-cost-audit-local-coding-agent-histories-before-resuming-or-standardizing-workflows-with-agentsview
 category: Research & Scraping
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Index local coding-agent sessions into a searchable SQLite-backed view so you can inspect usage, compare failures, and recover prior context quickly.
 url: https://agentskillexchange.com/skills/browse-search-and-cost-audit-local-coding-agent-histories-before-resuming-or-standardizing-workflows-with-agentsview/
 
@@ -3295,7 +3295,7 @@ url: https://agentskillexchange.com/skills/lint-and-autofix-agent-config-files-b
 slug: drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-handoffs-using-spec-kitty
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Move from spec to plan to tasks to review through one repo-native workflow when larger AI coding efforts need tighter coordination.
 url: https://agentskillexchange.com/skills/drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-handoffs-using-spec-kitty/
 
@@ -3303,7 +3303,7 @@ url: https://agentskillexchange.com/skills/drive-spec-first-coding-workflows-wit
 slug: operate-dingtalk-messages-docs-approvals-and-workspace-tasks-from-agents-with-dingtalk-workspace-cli
 category: Calendar, Email & Productivity
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Handle DingTalk workspace actions from one CLI surface instead of building a fresh integration for each message, approval, or document task.
 url: https://agentskillexchange.com/skills/operate-dingtalk-messages-docs-approvals-and-workspace-tasks-from-agents-with-dingtalk-workspace-cli/
 
@@ -3311,7 +3311,7 @@ url: https://agentskillexchange.com/skills/operate-dingtalk-messages-docs-approv
 slug: read-and-automate-slack-workflows-from-a-purpose-built-agent-cli-with-agent-slack
 category: Calendar, Email & Productivity
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Search channels, inspect threads, move files, and send or edit Slack messages through an agent-oriented CLI with structured output.
 url: https://agentskillexchange.com/skills/read-and-automate-slack-workflows-from-a-purpose-built-agent-cli-with-agent-slack/
 
@@ -3319,7 +3319,7 @@ url: https://agentskillexchange.com/skills/read-and-automate-slack-workflows-fro
 slug: turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Convert a finished coding-agent session into a shareable HTML replay instead of sending raw logs or bulky screen recordings.
 url: https://agentskillexchange.com/skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/
 
@@ -3327,7 +3327,7 @@ url: https://agentskillexchange.com/skills/turn-coding-agent-transcripts-into-se
 slug: scan-agent-skill-folders-for-risky-patterns-and-missing-safeguards-before-sharing-or-deployment-with-cisco-skill-scanner
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run a pre-trust security pass over skill packs and prompt bundles before they get shared, merged, or deployed.
 url: https://agentskillexchange.com/skills/scan-agent-skill-folders-for-risky-patterns-and-missing-safeguards-before-sharing-or-deployment-with-cisco-skill-scanner/
 
@@ -3335,7 +3335,7 @@ url: https://agentskillexchange.com/skills/scan-agent-skill-folders-for-risky-pa
 slug: automate-lark-and-feishu-docs-sheets-mail-calendar-meetings-and-chat-tasks-from-agents-with-lark-cli
 category: Calendar, Email & Productivity
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Operate Lark and Feishu work objects from one agent-ready CLI instead of stitching together separate APIs and browser flows.
 url: https://agentskillexchange.com/skills/automate-lark-and-feishu-docs-sheets-mail-calendar-meetings-and-chat-tasks-from-agents-with-lark-cli/
 
@@ -3343,7 +3343,7 @@ url: https://agentskillexchange.com/skills/automate-lark-and-feishu-docs-sheets-
 slug: catch-silent-agent-regressions-by-diffing-outputs-and-tool-traces-in-ci-with-eval-view
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Snapshot agent behavior, compare outputs and tool-call paths, and block releases when a model or prompt change quietly shifts behavior.
 url: https://agentskillexchange.com/skills/catch-silent-agent-regressions-by-diffing-outputs-and-tool-traces-in-ci-with-eval-view/
 
@@ -3359,7 +3359,7 @@ url: https://agentskillexchange.com/skills/scan-claude-code-configs-for-secrets-
 slug: benchmark-openclaw-coding-agents-against-repeatable-real-tasks-before-rollout-with-pinchbench
 category: Code Quality & Review
 framework: OpenClaw
-verification: Published
+verification: Security Reviewed
 description: Run a real-task benchmark suite against OpenClaw agents so model or harness changes can be compared before they hit production workflows.
 url: https://agentskillexchange.com/skills/benchmark-openclaw-coding-agents-against-repeatable-real-tasks-before-rollout-with-pinchbench/
 
@@ -3367,7 +3367,7 @@ url: https://agentskillexchange.com/skills/benchmark-openclaw-coding-agents-agai
 slug: spin-up-isolated-git-worktrees-for-parallel-claude-code-and-codex-branches-with-worktrunk
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Create, switch, and clean per-branch worktrees so multiple coding agents can work the same repo in parallel without stomping each other.
 url: https://agentskillexchange.com/skills/spin-up-isolated-git-worktrees-for-parallel-claude-code-and-codex-branches-with-worktrunk/
 
@@ -3375,7 +3375,7 @@ url: https://agentskillexchange.com/skills/spin-up-isolated-git-worktrees-for-pa
 slug: run-coding-agents-in-a-locked-down-local-sandbox-with-repo-only-filesystem-access-and-controlled-egress-using-agent-sandbox
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Put Claude Code, Codex, Gemini, or other supported agent CLIs inside a persistent local sandbox instead of letting them operate directly on the host.
 url: https://agentskillexchange.com/skills/run-coding-agents-in-a-locked-down-local-sandbox-with-repo-only-filesystem-access-and-controlled-egress-using-agent-sandbox/
 
@@ -3383,7 +3383,7 @@ url: https://agentskillexchange.com/skills/run-coding-agents-in-a-locked-down-lo
 slug: restrict-outbound-domains-for-github-agentic-workflows-before-repository-agents-can-browse-freely-with-gh-aw-firewall
 category: Security & Verification
 framework: Custom Agents
-verification: Published
+verification: Security Reviewed
 description: Run GitHub Agentic Workflow jobs behind a domain allowlist and optional API-key sidecar instead of giving repository agents broad outbound access.
 url: https://agentskillexchange.com/skills/restrict-outbound-domains-for-github-agentic-workflows-before-repository-agents-can-browse-freely-with-gh-aw-firewall/
 
@@ -3399,7 +3399,7 @@ url: https://agentskillexchange.com/skills/orchestrate-parallel-coding-agents-wi
 slug: block-agent-egress-mcp-prompt-injection-and-secret-exfiltration-before-agents-touch-the-open-internet-with-pipelock
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Put an inline firewall and containment layer in front of agent network traffic, tool calls, and MCP traffic before you trust an agent with…
 url: https://agentskillexchange.com/skills/block-agent-egress-mcp-prompt-injection-and-secret-exfiltration-before-agents-touch-the-open-internet-with-pipelock/
 
@@ -3495,7 +3495,7 @@ url: https://agentskillexchange.com/skills/gate-rust-dependency-trees-on-license
 slug: resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use Mergiraf to let an agent attempt tree-aware conflict resolution during merge, rebase, revert, or cherry-pick before falling back to manual edits.
 url: https://agentskillexchange.com/skills/resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf/
 
@@ -3503,7 +3503,7 @@ url: https://agentskillexchange.com/skills/resolve-syntax-aware-git-merge-confli
 slug: diff-yaml-manifests-semantically-and-surface-meaningful-drift-before-apply-with-dyff
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use dyff to compare YAML documents by structure and changed paths so agents can review configuration drift without the noise of plain line diffs.
 url: https://agentskillexchange.com/skills/diff-yaml-manifests-semantically-and-surface-meaningful-drift-before-apply-with-dyff/
 
@@ -3511,7 +3511,7 @@ url: https://agentskillexchange.com/skills/diff-yaml-manifests-semantically-and-
 slug: run-policy-driven-borg-backups-checks-and-restores-from-one-config-with-borgmatic
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use borgmatic to drive Borg backup, prune, check, and restore routines from a single declarative config so an agent can supervise backup runbooks instead…
 url: https://agentskillexchange.com/skills/run-policy-driven-borg-backups-checks-and-restores-from-one-config-with-borgmatic/
 
@@ -3527,7 +3527,7 @@ url: https://agentskillexchange.com/skills/score-kubernetes-manifests-for-reliab
 slug: summarize-failing-go-test-runs-and-rerun-flakes-before-ci-repair-loops-with-gotestsum
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use gotestsum to turn noisy `go test` output into compact failure summaries, JUnit or JSON artifacts, and optional reruns of flaky tests before an…
 url: https://agentskillexchange.com/skills/summarize-failing-go-test-runs-and-rerun-flakes-before-ci-repair-loops-with-gotestsum/
 
@@ -3535,7 +3535,7 @@ url: https://agentskillexchange.com/skills/summarize-failing-go-test-runs-and-re
 slug: tail-multi-pod-kubernetes-logs-by-label-during-incidents-with-stern
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Aggregate and follow logs from matching Kubernetes pods during incident triage without hopping pod by pod.
 url: https://agentskillexchange.com/skills/tail-multi-pod-kubernetes-logs-by-label-during-incidents-with-stern/
 
@@ -3551,7 +3551,7 @@ url: https://agentskillexchange.com/skills/autofix-common-nix-anti-patterns-befo
 slug: watch-kubernetes-resources-explain-rollout-stalls-and-surface-live-status-transitions-with-kubespy
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Follow a Kubernetes workload live so an agent can explain why it is pending, failing, or not becoming ready.
 url: https://agentskillexchange.com/skills/watch-kubernetes-resources-explain-rollout-stalls-and-surface-live-status-transitions-with-kubespy/
 
@@ -3559,7 +3559,7 @@ url: https://agentskillexchange.com/skills/watch-kubernetes-resources-explain-ro
 slug: scan-python-code-for-risky-security-patterns-with-bandit-before-review-or-release
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Catch insecure Python calls, weak crypto usage, shell injection risks, and similar patterns before merge or release.
 url: https://agentskillexchange.com/skills/scan-python-code-for-risky-security-patterns-with-bandit-before-review-or-release/
 
@@ -3567,7 +3567,7 @@ url: https://agentskillexchange.com/skills/scan-python-code-for-risky-security-p
 slug: scan-kubernetes-clusters-and-manifests-for-security-posture-drift-with-kubescape
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run Kubernetes security and compliance scans against manifests or live clusters before rollout or audit.
 url: https://agentskillexchange.com/skills/scan-kubernetes-clusters-and-manifests-for-security-posture-drift-with-kubescape/
 
@@ -3575,7 +3575,7 @@ url: https://agentskillexchange.com/skills/scan-kubernetes-clusters-and-manifest
 slug: estimate-terraform-and-opentofu-cost-deltas-before-infrastructure-changes-merge-with-infracost
 category: CI/CD Integrations
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Show projected cloud cost increases or savings from Terraform and OpenTofu plans before a PR merges.
 url: https://agentskillexchange.com/skills/estimate-terraform-and-opentofu-cost-deltas-before-infrastructure-changes-merge-with-infracost/
 
@@ -3583,7 +3583,7 @@ url: https://agentskillexchange.com/skills/estimate-terraform-and-opentofu-cost-
 slug: expose-haystack-pipelines-as-webhook-endpoints-with-hayhooks
 category: Integrations & Connectors
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Turn an existing Haystack pipeline into an HTTP or MCP endpoint without building and maintaining a custom wrapper service.
 url: https://agentskillexchange.com/skills/expose-haystack-pipelines-as-webhook-endpoints-with-hayhooks/
 
@@ -3591,7 +3591,7 @@ url: https://agentskillexchange.com/skills/expose-haystack-pipelines-as-webhook-
 slug: probe-ml-and-llm-systems-for-regressions-and-vulnerabilities-with-giskard
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run automated red-team and failure scans against an LLM or RAG app before users find the breakage.
 url: https://agentskillexchange.com/skills/probe-ml-and-llm-systems-for-regressions-and-vulnerabilities-with-giskard/
 
@@ -3599,7 +3599,7 @@ url: https://agentskillexchange.com/skills/probe-ml-and-llm-systems-for-regressi
 slug: run-repeatable-model-and-agent-eval-suites-and-inspect-scoring-traces-with-inspect-ai
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run benchmark-style eval suites against models or agents, then inspect scored traces instead of relying on ad hoc chats and gut feel.
 url: https://agentskillexchange.com/skills/run-repeatable-model-and-agent-eval-suites-and-inspect-scoring-traces-with-inspect-ai/
 
@@ -3607,7 +3607,7 @@ url: https://agentskillexchange.com/skills/run-repeatable-model-and-agent-eval-s
 slug: score-rag-answer-quality-and-retrieval-quality-before-rollout-with-ragas
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Measure whether a RAG change actually improved answers and retrieval, instead of guessing from a few spot checks.
 url: https://agentskillexchange.com/skills/score-rag-answer-quality-and-retrieval-quality-before-rollout-with-ragas/
 
@@ -3615,7 +3615,7 @@ url: https://agentskillexchange.com/skills/score-rag-answer-quality-and-retrieva
 slug: turn-exploratory-python-notebooks-into-reproducible-apps-and-reports-with-marimo
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Promote notebook work into rerunnable Python artifacts or lightweight apps when an analysis needs to be shared, versioned, and rerun reliably.
 url: https://agentskillexchange.com/skills/turn-exploratory-python-notebooks-into-reproducible-apps-and-reports-with-marimo/
 
@@ -3623,7 +3623,7 @@ url: https://agentskillexchange.com/skills/turn-exploratory-python-notebooks-int
 slug: turn-messy-document-collections-into-structured-rows-with-docetl
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Define repeatable extraction pipelines that pull fields from large document collections, normalize outputs, and audit failures across the corpus.
 url: https://agentskillexchange.com/skills/turn-messy-document-collections-into-structured-rows-with-docetl/
 
@@ -3631,7 +3631,7 @@ url: https://agentskillexchange.com/skills/turn-messy-document-collections-into-
 slug: profile-and-triage-messy-tabular-files-from-the-terminal-with-visidata
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Inspect CSV, TSV, JSON, and parquet drops interactively, spot suspicious columns fast, and decide the next cleanup step without opening a spreadsheet.
 url: https://agentskillexchange.com/skills/profile-and-triage-messy-tabular-files-from-the-terminal-with-visidata/
 
@@ -3639,7 +3639,7 @@ url: https://agentskillexchange.com/skills/profile-and-triage-messy-tabular-file
 slug: generate-drift-and-quality-reports-for-ml-and-llm-pipelines-with-evidently
 category: Monitoring & Alerts
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Produce repeatable drift and quality reports after data, model, or prompt changes so regressions are visible before rollout.
 url: https://agentskillexchange.com/skills/generate-drift-and-quality-reports-for-ml-and-llm-pipelines-with-evidently/
 
@@ -3647,7 +3647,7 @@ url: https://agentskillexchange.com/skills/generate-drift-and-quality-reports-fo
 slug: triage-production-log-spikes-and-incidents-from-the-terminal-with-lnav
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Open raw logs, jump to error clusters, query structured fields, and summarize incident clues without shipping data to a separate platform.
 url: https://agentskillexchange.com/skills/triage-production-log-spikes-and-incidents-from-the-terminal-with-lnav/
 
@@ -3655,7 +3655,7 @@ url: https://agentskillexchange.com/skills/triage-production-log-spikes-and-inci
 slug: plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Compare SQL model changes, preview backfills and downstream impact, and stage safer warehouse rollouts before execution.
 url: https://agentskillexchange.com/skills/plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh/
 
@@ -3663,7 +3663,7 @@ url: https://agentskillexchange.com/skills/plan-and-preview-warehouse-sql-model-
 slug: review-dockerfiles-for-risky-patterns-and-bad-defaults-with-hadolint
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Catch insecure Dockerfile patterns, brittle package-install habits, and shell pitfalls before image builds ship.
 url: https://agentskillexchange.com/skills/review-dockerfiles-for-risky-patterns-and-bad-defaults-with-hadolint/
 
@@ -3671,7 +3671,7 @@ url: https://agentskillexchange.com/skills/review-dockerfiles-for-risky-patterns
 slug: lint-github-actions-workflows-before-ci-runs-with-actionlint
 category: CI/CD Integrations
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Validate workflow syntax, expressions, and shell steps before broken GitHub Actions changes reach CI.
 url: https://agentskillexchange.com/skills/lint-github-actions-workflows-before-ci-runs-with-actionlint/
 
@@ -3679,7 +3679,7 @@ url: https://agentskillexchange.com/skills/lint-github-actions-workflows-before-
 slug: lint-terraform-modules-for-provider-mistakes-and-policy-violations-with-tflint
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Check Terraform before plan or apply so invalid attributes, provider-specific mistakes, and custom rule violations are caught early.
 url: https://agentskillexchange.com/skills/lint-terraform-modules-for-provider-mistakes-and-policy-violations-with-tflint/
 
@@ -3687,7 +3687,7 @@ url: https://agentskillexchange.com/skills/lint-terraform-modules-for-provider-m
 slug: profile-and-clean-large-csv-datasets-from-the-terminal-with-qsv
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Inspect, profile, normalize, and diff large CSV files before loading them into downstream analytics or automation workflows.
 url: https://agentskillexchange.com/skills/profile-and-clean-large-csv-datasets-from-the-terminal-with-qsv/
 
@@ -3695,7 +3695,7 @@ url: https://agentskillexchange.com/skills/profile-and-clean-large-csv-datasets-
 slug: validate-cloudformation-templates-before-deploy-with-cfn-lint
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Catch CloudFormation schema, region, and intrinsic-function mistakes before a stack update fails in review or deployment.
 url: https://agentskillexchange.com/skills/validate-cloudformation-templates-before-deploy-with-cfn-lint/
 
@@ -3703,7 +3703,7 @@ url: https://agentskillexchange.com/skills/validate-cloudformation-templates-bef
 slug: audit-github-actions-for-privilege-and-supply-chain-risks-with-zizmor
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run a focused security pass on GitHub Actions workflows before merge so token misuse, dangerous permissions, and unpinned actions are caught early.
 url: https://agentskillexchange.com/skills/audit-github-actions-for-privilege-and-supply-chain-risks-with-zizmor/
 
@@ -3711,7 +3711,7 @@ url: https://agentskillexchange.com/skills/audit-github-actions-for-privilege-an
 slug: apply-structural-codemods-across-large-codebases-with-comby
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Rewrite recurring code patterns with syntax-aware matching so agents can run migration codemods more safely than plain regex search and replace.
 url: https://agentskillexchange.com/skills/apply-structural-codemods-across-large-codebases-with-comby/
 
@@ -3719,7 +3719,7 @@ url: https://agentskillexchange.com/skills/apply-structural-codemods-across-larg
 slug: run-profile-based-restic-backups-and-verification-checks-with-resticprofile
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Execute named restic backup profiles with repeatable backup, retention, prune, check, and restore steps instead of hand-running one-off commands.
 url: https://agentskillexchange.com/skills/run-profile-based-restic-backups-and-verification-checks-with-resticprofile/
 
@@ -3727,7 +3727,7 @@ url: https://agentskillexchange.com/skills/run-profile-based-restic-backups-and-
 slug: run-ruff-mypy-and-other-code-quality-tools-on-jupyter-notebooks-with-nbqa
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Apply standard Python formatters, linters, and type checkers to notebook-heavy repositories without manually converting notebooks to scripts.
 url: https://agentskillexchange.com/skills/run-ruff-mypy-and-other-code-quality-tools-on-jupyter-notebooks-with-nbqa/
 
@@ -3735,7 +3735,7 @@ url: https://agentskillexchange.com/skills/run-ruff-mypy-and-other-code-quality-
 slug: stress-test-python-test-suites-with-mutation-runs-from-mutmut
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use mutation testing to expose weak Python tests before merge or release by checking which code changes survive the current test suite.
 url: https://agentskillexchange.com/skills/stress-test-python-test-suites-with-mutation-runs-from-mutmut/
 
@@ -3743,7 +3743,7 @@ url: https://agentskillexchange.com/skills/stress-test-python-test-suites-with-m
 slug: audit-python-environments-and-requirements-files-for-known-vulnerabilities-with-pip-audit
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Check Python environments and requirements files for published vulnerabilities before shipping, upgrading, or approving dependency changes.
 url: https://agentskillexchange.com/skills/audit-python-environments-and-requirements-files-for-known-vulnerabilities-with-pip-audit/
 
@@ -3751,7 +3751,7 @@ url: https://agentskillexchange.com/skills/audit-python-environments-and-require
 slug: find-unused-python-code-before-cleanup-refactors-with-vulture
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run a dead-code pass on Python repositories before refactors so agents can flag unused functions, classes, imports, and variables instead of deleting blindly.
 url: https://agentskillexchange.com/skills/find-unused-python-code-before-cleanup-refactors-with-vulture/
 
@@ -3759,7 +3759,7 @@ url: https://agentskillexchange.com/skills/find-unused-python-code-before-cleanu
 slug: redact-pii-from-text-before-sharing-or-indexing-with-scrubadub
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use scrubadub when an agent needs to strip emails, phone numbers, names, and similar sensitive text before sending content to external systems or search…
 url: https://agentskillexchange.com/skills/redact-pii-from-text-before-sharing-or-indexing-with-scrubadub/
 
@@ -3767,7 +3767,7 @@ url: https://agentskillexchange.com/skills/redact-pii-from-text-before-sharing-o
 slug: publish-versioned-mkdocs-documentation-with-mike
 category: Content Writing & SEO
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use mike when an agent needs to publish multiple versions of a MkDocs site without overwriting older documentation.
 url: https://agentskillexchange.com/skills/publish-versioned-mkdocs-documentation-with-mike/
 
@@ -3775,7 +3775,7 @@ url: https://agentskillexchange.com/skills/publish-versioned-mkdocs-documentatio
 slug: gate-dbt-projects-with-pre-commit-checks-from-dbt-checkpoint
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use dbt-checkpoint when an agent should catch dbt naming, dependency, metadata, and model-hygiene issues before review or merge.
 url: https://agentskillexchange.com/skills/gate-dbt-projects-with-pre-commit-checks-from-dbt-checkpoint/
 
@@ -3783,7 +3783,7 @@ url: https://agentskillexchange.com/skills/gate-dbt-projects-with-pre-commit-che
 slug: query-and-rewrite-markdown-structure-with-mdq
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use mdq when an agent needs to target headings, lists, links, or other Markdown structure without falling back to brittle regex edits.
 url: https://agentskillexchange.com/skills/query-and-rewrite-markdown-structure-with-mdq/
 
@@ -3791,7 +3791,7 @@ url: https://agentskillexchange.com/skills/query-and-rewrite-markdown-structure-
 slug: inspect-and-diff-oci-images-and-registries-with-regctl
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use regctl when an agent needs to inspect manifests, compare image contents, or debug registry state without pulling whole images locally first.
 url: https://agentskillexchange.com/skills/inspect-and-diff-oci-images-and-registries-with-regctl/
 
@@ -3799,7 +3799,7 @@ url: https://agentskillexchange.com/skills/inspect-and-diff-oci-images-and-regis
 slug: turn-postgresql-logs-into-incident-and-tuning-reports-with-pgbadger
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use pgBadger when an agent needs to convert raw PostgreSQL logs into readable evidence about slow queries, errors, and workload hotspots after an incident.
 url: https://agentskillexchange.com/skills/turn-postgresql-logs-into-incident-and-tuning-reports-with-pgbadger/
 
@@ -3807,7 +3807,7 @@ url: https://agentskillexchange.com/skills/turn-postgresql-logs-into-incident-an
 slug: audit-aws-iam-policies-for-risky-permissions-with-cloudsplaining
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use Cloudsplaining when an agent needs to flag privilege-escalation paths and overbroad IAM permissions before an AWS policy change reaches production.
 url: https://agentskillexchange.com/skills/audit-aws-iam-policies-for-risky-permissions-with-cloudsplaining/
 
@@ -3815,7 +3815,7 @@ url: https://agentskillexchange.com/skills/audit-aws-iam-policies-for-risky-perm
 slug: translate-and-validate-sql-across-dialects-with-sqlglot
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use SQLGlot when an agent needs to parse, transpile, or sanity-check SQL before moving queries between engines or trusting generated SQL.
 url: https://agentskillexchange.com/skills/translate-and-validate-sql-across-dialects-with-sqlglot/
 
@@ -3823,7 +3823,7 @@ url: https://agentskillexchange.com/skills/translate-and-validate-sql-across-dia
 slug: rewrite-fragile-shell-scripts-toward-safer-quoting-and-stricter-patterns-with-shellharden
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Inspect or auto-fix shell scripts to reduce quoting bugs and brittle Bash patterns before they break in CI or production.
 url: https://agentskillexchange.com/skills/rewrite-fragile-shell-scripts-toward-safer-quoting-and-stricter-patterns-with-shellharden/
 
@@ -3831,7 +3831,7 @@ url: https://agentskillexchange.com/skills/rewrite-fragile-shell-scripts-toward-
 slug: lint-live-kubernetes-clusters-for-misconfigurations-and-operational-hygiene-with-popeye
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Inspect a live Kubernetes cluster for unhealthy resource settings, missing probes, and other operational smells.
 url: https://agentskillexchange.com/skills/lint-live-kubernetes-clusters-for-misconfigurations-and-operational-hygiene-with-popeye/
 
@@ -3839,7 +3839,7 @@ url: https://agentskillexchange.com/skills/lint-live-kubernetes-clusters-for-mis
 slug: find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Scan Helm charts, YAML, or live clusters for Kubernetes API versions scheduled for removal before an upgrade window.
 url: https://agentskillexchange.com/skills/find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto/
 
@@ -3847,7 +3847,7 @@ url: https://agentskillexchange.com/skills/find-deprecated-kubernetes-apis-in-ma
 slug: enforce-architectural-import-boundaries-in-python-codebases-with-import-linter
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Check whether a Python codebase still respects declared layered, independence, or forbidden import contracts.
 url: https://agentskillexchange.com/skills/enforce-architectural-import-boundaries-in-python-codebases-with-import-linter/
 
@@ -3855,7 +3855,7 @@ url: https://agentskillexchange.com/skills/enforce-architectural-import-boundari
 slug: audit-ssh-servers-and-clients-for-weak-algorithms-and-risky-config-drift-with-ssh-audit
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Inspect an SSH endpoint or config for outdated ciphers, key exchange choices, and hardening gaps before exposure or upgrades.
 url: https://agentskillexchange.com/skills/audit-ssh-servers-and-clients-for-weak-algorithms-and-risky-config-drift-with-ssh-audit/
 
@@ -3871,7 +3871,7 @@ url: https://agentskillexchange.com/skills/probe-public-tls-endpoints-for-protoc
 slug: verify-markdown-links-before-docs-or-content-ship-with-markdown-link-check
 category: Content Writing & SEO
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Catch dead links in README files, docs folders, and content drafts before a broken reference ships to users.
 url: https://agentskillexchange.com/skills/verify-markdown-links-before-docs-or-content-ship-with-markdown-link-check/
 
@@ -3879,7 +3879,7 @@ url: https://agentskillexchange.com/skills/verify-markdown-links-before-docs-or-
 slug: apply-repeatable-imap-rules-to-triage-and-clean-inboxes-with-imapfilter
 category: Calendar, Email & Productivity
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Route, label, and clean routine email traffic with scripted IMAP rules instead of doing the same inbox chores by hand.
 url: https://agentskillexchange.com/skills/apply-repeatable-imap-rules-to-triage-and-clean-inboxes-with-imapfilter/
 
@@ -3887,7 +3887,7 @@ url: https://agentskillexchange.com/skills/apply-repeatable-imap-rules-to-triage
 slug: extract-schema-shaped-json-from-javascript-rendered-pages-with-llm-scraper
 category: Research & Scraping
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Open a rendered page, describe the fields you want, and return structured data without hand-maintaining brittle selectors.
 url: https://agentskillexchange.com/skills/extract-schema-shaped-json-from-javascript-rendered-pages-with-llm-scraper/
 
@@ -3895,7 +3895,7 @@ url: https://agentskillexchange.com/skills/extract-schema-shaped-json-from-javas
 slug: inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Open a live PostgreSQL activity view during incidents so you can see sessions, waits, locks, and pressure before making a bad call.
 url: https://agentskillexchange.com/skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/
 
@@ -3903,7 +3903,7 @@ url: https://agentskillexchange.com/skills/inspect-live-postgresql-waits-locks-a
 slug: enrich-paperless-ngx-documents-with-ai-generated-titles-tags-and-correspondents-using-paperless-gpt
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Take an OCR archive that already exists in Paperless-ngx and push smarter titles, tags, and document metadata back into it.
 url: https://agentskillexchange.com/skills/enrich-paperless-ngx-documents-with-ai-generated-titles-tags-and-correspondents-using-paperless-gpt/
 
@@ -3911,7 +3911,7 @@ url: https://agentskillexchange.com/skills/enrich-paperless-ngx-documents-with-a
 slug: bulk-import-and-reconcile-large-photo-archives-into-immich-without-manual-re-upload-loops-using-immich-go
 category: Image & Creative Automation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Move big photo libraries, takeouts, and nested albums into Immich with metadata intact instead of babysitting one-off uploads.
 url: https://agentskillexchange.com/skills/bulk-import-and-reconcile-large-photo-archives-into-immich-without-manual-re-upload-loops-using-immich-go/
 
@@ -3919,7 +3919,7 @@ url: https://agentskillexchange.com/skills/bulk-import-and-reconcile-large-photo
 slug: lint-and-test-helm-charts-in-pull-requests-before-kubernetes-packaging-changes-merge-with-chart-testing
 category: CI/CD Integrations
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run chart-focused lint and install checks so changed Helm charts are validated before release or merge.
 url: https://agentskillexchange.com/skills/lint-and-test-helm-charts-in-pull-requests-before-kubernetes-packaging-changes-merge-with-chart-testing/
 
@@ -3935,7 +3935,7 @@ url: https://agentskillexchange.com/skills/lint-and-validate-prometheus-alerting
 slug: run-recipe-driven-codebase-migrations-and-framework-upgrades-with-reviewable-diffs-through-openrewrite
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Apply reusable refactoring recipes to large codebases so framework upgrades and codemods happen as auditable, reviewable changes.
 url: https://agentskillexchange.com/skills/run-recipe-driven-codebase-migrations-and-framework-upgrades-with-reviewable-diffs-through-openrewrite/
 
@@ -3943,7 +3943,7 @@ url: https://agentskillexchange.com/skills/run-recipe-driven-codebase-migrations
 slug: pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-stay-readable-with-jupytext
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Keep notebooks synchronized with `.py` or `.md` representations so version control, review, and refactoring can happen outside bulky notebook JSON.
 url: https://agentskillexchange.com/skills/pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-stay-readable-with-jupytext/
 
@@ -3951,7 +3951,7 @@ url: https://agentskillexchange.com/skills/pair-jupyter-notebooks-with-plain-tex
 slug: stress-test-javascript-and-typescript-test-suites-with-mutation-testing-before-risky-changes-ship-with-strykerjs
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Run mutation testing against JS or TS projects to find tests that still pass when real defects are introduced.
 url: https://agentskillexchange.com/skills/stress-test-javascript-and-typescript-test-suites-with-mutation-testing-before-risky-changes-ship-with-strykerjs/
 
@@ -3959,7 +3959,7 @@ url: https://agentskillexchange.com/skills/stress-test-javascript-and-typescript
 slug: enforce-javascript-and-typescript-dependency-rules-before-architectural-drift-spreads-with-dependency-cruiser
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Scan a JS or TS codebase for forbidden imports, circular dependencies, orphaned modules, and other dependency-rule violations before they turn into structural drift.
 url: https://agentskillexchange.com/skills/enforce-javascript-and-typescript-dependency-rules-before-architectural-drift-spreads-with-dependency-cruiser/
 
@@ -3983,7 +3983,7 @@ url: https://agentskillexchange.com/skills/build-temporal-context-graphs-for-age
 slug: capture-local-screen-and-audio-context-so-agents-can-search-what-happened-on-your-device
 category: Media & Transcription
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use Screenpipe when an agent needs private, local-first memory of what you saw or heard on your computer, including searchable screen text, app context,…
 url: https://agentskillexchange.com/skills/capture-local-screen-and-audio-context-so-agents-can-search-what-happened-on-your-device/
 
@@ -3991,7 +3991,7 @@ url: https://agentskillexchange.com/skills/capture-local-screen-and-audio-contex
 slug: drive-web-and-app-uis-with-vision-grounded-steps-when-selectors-are-brittle-or-unavailable
 category: Browser Automation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use Midscene.js when an agent needs screenshot-grounded UI actions and assertions across web, mobile, or desktop surfaces where DOM selectors are fragile, unavailable, or…
 url: https://agentskillexchange.com/skills/drive-web-and-app-uis-with-vision-grounded-steps-when-selectors-are-brittle-or-unavailable/
 
@@ -3999,7 +3999,7 @@ url: https://agentskillexchange.com/skills/drive-web-and-app-uis-with-vision-gro
 slug: inspect-and-debug-mcp-servers-visually-before-connecting-them-to-agents
 category: Developer Tools
 framework: MCP
-verification: Published
+verification: Security Reviewed
 description: Use MCP Inspector when you need to launch an MCP server, inspect its tools and resources, exercise calls manually, and troubleshoot transport or schema…
 url: https://agentskillexchange.com/skills/inspect-and-debug-mcp-servers-visually-before-connecting-them-to-agents/
 
@@ -4007,7 +4007,7 @@ url: https://agentskillexchange.com/skills/inspect-and-debug-mcp-servers-visuall
 slug: build-n8n-workflows-from-node-docs-templates-and-schemas-through-mcp
 category: Integrations & Connectors
 framework: MCP
-verification: Published
+verification: Security Reviewed
 description: Use n8n-MCP when an agent needs structured access to n8n nodes, properties, operations, and template examples while designing or debugging workflows, instead of guessing…
 url: https://agentskillexchange.com/skills/build-n8n-workflows-from-node-docs-templates-and-schemas-through-mcp/
 
@@ -4015,7 +4015,7 @@ url: https://agentskillexchange.com/skills/build-n8n-workflows-from-node-docs-te
 slug: add-a-browser-review-checkpoint-before-risky-agent-actions-with-agentclick
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use AgentClick when an agent should pause before risky commands, plans, drafts, or code changes so a human can inspect, edit, approve, or reject…
 url: https://agentskillexchange.com/skills/add-a-browser-review-checkpoint-before-risky-agent-actions-with-agentclick/
 
@@ -4023,7 +4023,7 @@ url: https://agentskillexchange.com/skills/add-a-browser-review-checkpoint-befor
 slug: run-deterministic-browser-steps-with-settled-screenshots-and-event-logs-for-agents
 category: Browser Automation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use Agent Browser Protocol when an agent needs browser actions to resolve into stable step results, complete with screenshots and surfaced events, instead of…
 url: https://agentskillexchange.com/skills/run-deterministic-browser-steps-with-settled-screenshots-and-event-logs-for-agents/
 
@@ -4039,7 +4039,7 @@ url: https://agentskillexchange.com/skills/operate-harness-pipelines-projects-an
 slug: manage-multi-agent-coding-sessions-from-one-terminal-mission-control-with-agent-deck
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Use Agent Deck when an operator needs one keyboard-first terminal to monitor, switch, fork, sandbox, and organize many coding-agent sessions instead of juggling tabs,…
 url: https://agentskillexchange.com/skills/manage-multi-agent-coding-sessions-from-one-terminal-mission-control-with-agent-deck/
 
@@ -4047,7 +4047,7 @@ url: https://agentskillexchange.com/skills/manage-multi-agent-coding-sessions-fr
 slug: statically-scan-agent-repos-for-prompt-injection-and-unsafe-mcp-configs-with-agent-audit
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Audit agent code, prompts, and MCP configuration for prompt-injection surfaces, taint issues, and unsafe tool exposure before shipping.
 url: https://agentskillexchange.com/skills/statically-scan-agent-repos-for-prompt-injection-and-unsafe-mcp-configs-with-agent-audit/
 
@@ -4055,7 +4055,7 @@ url: https://agentskillexchange.com/skills/statically-scan-agent-repos-for-promp
 slug: capture-live-transcripts-and-searchable-meeting-memory-for-agents-with-minutes
 category: Media & Transcription
 framework: MCP
-verification: Published
+verification: Security Reviewed
 description: Stream meeting transcripts into searchable conversation memory so agents can read live or post-meeting context before drafting follow-ups or taking action.
 url: https://agentskillexchange.com/skills/capture-live-transcripts-and-searchable-meeting-memory-for-agents-with-minutes/
 
@@ -4063,7 +4063,7 @@ url: https://agentskillexchange.com/skills/capture-live-transcripts-and-searchab
 slug: define-file-native-git-workflows-for-agents-with-gitagent
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Store prompts, task chains, and reusable agent workflows as versioned project files so teams can review and reuse agent behavior through Git.
 url: https://agentskillexchange.com/skills/define-file-native-git-workflows-for-agents-with-gitagent/
 
@@ -4071,7 +4071,7 @@ url: https://agentskillexchange.com/skills/define-file-native-git-workflows-for-
 slug: turn-mixed-local-folders-into-a-queryable-knowledge-graph-with-graphify
 category: Data Extraction & Transformation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Ingest code, docs, PDFs, images, and video from local folders into a searchable knowledge graph so agents can follow entities and relationships instead of…
 url: https://agentskillexchange.com/skills/turn-mixed-local-folders-into-a-queryable-knowledge-graph-with-graphify/
 
@@ -4103,7 +4103,7 @@ url: https://agentskillexchange.com/skills/work-with-affine-workspaces-documents
 slug: hadrian-api-authorization-security-testing
 category: Security & Verification
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Lets an agent exercise REST, GraphQL, and gRPC authorization paths with YAML-defined role tests so BOLA, BFLA, broken authentication, and related API flaws are…
 url: https://agentskillexchange.com/skills/hadrian-api-authorization-security-testing/
 
@@ -5343,7 +5343,7 @@ url: https://agentskillexchange.com/skills/apostrophecms-full-stack-nodejs-cms-i
 slug: cockpit-cms-headless-content-platform-rest-graphql-apis
 category: WordPress & CMS
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Cockpit CMS is a lightweight headless content platform for teams that want flexible models, REST and GraphQL APIs, and self-hosted deployment without a heavy…
 url: https://agentskillexchange.com/skills/cockpit-cms-headless-content-platform-rest-graphql-apis/
 
@@ -5463,7 +5463,7 @@ url: https://agentskillexchange.com/skills/faster-whisper-high-performance-speec
 slug: yoast-seo-wordpress-search-optimization-plugin
 category: WordPress & CMS
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Yoast SEO is the long-running WordPress SEO plugin from Yoast, used to manage metadata, XML sitemaps, schema output, readability checks, and search appearance settings…
 url: https://agentskillexchange.com/skills/yoast-seo-wordpress-search-optimization-plugin/
 
@@ -6679,7 +6679,7 @@ url: https://agentskillexchange.com/skills/fonttools-python-font-manipulation-su
 slug: weasyprint-html-css-pdf-document-generator
 category: Data Extraction & Transformation
 framework: Custom Agents
-verification: Published
+verification: Security Reviewed
 description: WeasyPrint is a Python library by Kozea/CourtBouillon that converts HTML and CSS into PDF documents. It implements a CSS layout engine designed specifically for…
 url: https://agentskillexchange.com/skills/weasyprint-html-css-pdf-document-generator/
 
@@ -6895,7 +6895,7 @@ url: https://agentskillexchange.com/skills/shadcn-ui-react-component-collection/
 slug: azure-cli-microsoft-cloud
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: The Azure CLI provides cross-platform command-line access to Microsoft Azure services for managing VMs, databases, Kubernetes, AI services, and hundreds of cloud resources with…
 url: https://agentskillexchange.com/skills/azure-cli-microsoft-cloud/
 
@@ -6911,7 +6911,7 @@ url: https://agentskillexchange.com/skills/google-cloud-cli-gcloud/
 slug: firebase-google-app-development-platform
 category: Integrations & Connectors
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Firebase is Google's app development platform providing real-time databases, authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android, and Flutter applications.
 url: https://agentskillexchange.com/skills/firebase-google-app-development-platform/
 
@@ -6919,7 +6919,7 @@ url: https://agentskillexchange.com/skills/firebase-google-app-development-platf
 slug: hugging-face-transformers-ml-library
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Hugging Face Transformers provides 400,000+ pretrained models for NLP, computer vision, audio, and multimodal tasks with a unified API across PyTorch, TensorFlow, and JAX…
 url: https://agentskillexchange.com/skills/hugging-face-transformers-ml-library/
 
@@ -7159,7 +7159,7 @@ url: https://agentskillexchange.com/skills/dotenvx-secure-env-variable-manager/
 slug: github-copilot-ai-code-assistant
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: GitHub Copilot is an AI pair programmer providing real-time code suggestions, multi-line completions, and chat-based assistance in VS Code, JetBrains, Neovim, and the CLI…
 url: https://agentskillexchange.com/skills/github-copilot-ai-code-assistant/
 
@@ -7167,7 +7167,7 @@ url: https://agentskillexchange.com/skills/github-copilot-ai-code-assistant/
 slug: autogen-microsoft-multi-agent-framework
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: AutoGen is Microsoft's open-source framework for building multi-agent systems where AI agents converse with each other and humans to solve tasks, with support for…
 url: https://agentskillexchange.com/skills/autogen-microsoft-multi-agent-framework/
 
@@ -7191,7 +7191,7 @@ url: https://agentskillexchange.com/skills/nuxt-vue-meta-framework-ssr/
 slug: angular-typescript-web-framework
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Angular is a TypeScript-based web application platform by Google providing dependency injection, declarative templates, a powerful CLI, and comprehensive libraries for routing, forms, and…
 url: https://agentskillexchange.com/skills/angular-typescript-web-framework/
 
@@ -7199,7 +7199,7 @@ url: https://agentskillexchange.com/skills/angular-typescript-web-framework/
 slug: vue-js-progressive-javascript-framework
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Vue.js is a progressive JavaScript framework for building user interfaces with an incrementally adoptable architecture, reactive data binding, and a rich ecosystem including Vue…
 url: https://agentskillexchange.com/skills/vue-js-progressive-javascript-framework/
 
@@ -7423,7 +7423,7 @@ url: https://agentskillexchange.com/skills/keybert-keyword-extraction-bert/
 slug: plane-open-source-project-management
 category: Calendar, Email & Productivity
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Plane is an open-source project management platform that serves as a self-hostable alternative to Jira, Linear, and ClickUp. It provides issue tracking, sprint cycles,…
 url: https://agentskillexchange.com/skills/plane-open-source-project-management/
 
@@ -7559,7 +7559,7 @@ url: https://agentskillexchange.com/skills/chafa-terminal-image-graphics-rendere
 slug: testcontainers-node-throwaway-docker-integration-testing
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Testcontainers for Node.js is a library that provides lightweight, throwaway instances of databases, message brokers, browsers, and other services as Docker containers for integration…
 url: https://agentskillexchange.com/skills/testcontainers-node-throwaway-docker-integration-testing/
 
@@ -7695,7 +7695,7 @@ url: https://agentskillexchange.com/skills/mailhog-smtp-testing-server-with-web-
 slug: puppeteer-browser-automation-library-for-chrome-and-firefox
 category: Browser Automation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Uses Puppeteer to control Chrome and Firefox through the DevTools Protocol or WebDriver BiDi for screenshots, PDF generation, scraping, and browser workflow automation. Best…
 url: https://agentskillexchange.com/skills/puppeteer-browser-automation-library-for-chrome-and-firefox/
 
@@ -7727,7 +7727,7 @@ url: https://agentskillexchange.com/skills/audioflux-audio-music-analysis-featur
 slug: leantime-open-source-project-management-platform
 category: Calendar, Email & Productivity
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Leantime is an open-source project management system designed for non-project managers, with kanban boards, gantt charts, goal tracking, timesheets, and lean canvas tools. Built…
 url: https://agentskillexchange.com/skills/leantime-open-source-project-management-platform/
 
@@ -7799,7 +7799,7 @@ url: https://agentskillexchange.com/skills/dockge-docker-compose-stack-manager/
 slug: dprint-pluggable-code-formatter
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: dprint is a pluggable and configurable code formatting platform written in Rust. It unifies formatting for TypeScript, JavaScript, JSON, Markdown, TOML, CSS, HTML, Dockerfile,…
 url: https://agentskillexchange.com/skills/dprint-pluggable-code-formatter/
 
@@ -8103,7 +8103,7 @@ url: https://agentskillexchange.com/skills/skyvern-ai-browser-workflow-automatio
 slug: testcafe-e2e-browser-testing
 category: Browser Automation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: TestCafe is a Node.js-based end-to-end browser testing framework by DevExpress that requires no WebDriver installation. It supports all major browsers, automatic waiting, live mode…
 url: https://agentskillexchange.com/skills/testcafe-e2e-browser-testing/
 
@@ -8215,7 +8215,7 @@ url: https://agentskillexchange.com/skills/timewarrior-command-line-time-trackin
 slug: sonic-fast-lightweight-search-backend
 category: Developer Tools
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Sonic is a fast, lightweight, and schema-less search backend written in Rust. It serves as a drop-in alternative to Elasticsearch that runs on just…
 url: https://agentskillexchange.com/skills/sonic-fast-lightweight-search-backend/
 
@@ -8719,7 +8719,7 @@ url: https://agentskillexchange.com/skills/openseo-self-hosted-keyword-research-
 slug: steel-browser-api-ai-agent-web-automation
 category: Browser Automation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Steel Browser is an open-source browser API that provides a batteries-included browser sandbox for AI agents and applications. It handles session management, proxy rotation,…
 url: https://agentskillexchange.com/skills/steel-browser-api-ai-agent-web-automation/
 
@@ -8727,7 +8727,7 @@ url: https://agentskillexchange.com/skills/steel-browser-api-ai-agent-web-automa
 slug: lightpanda-headless-browser-ai-automation
 category: Browser Automation
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: Lightpanda is a headless browser built from scratch in Zig, purpose-designed for AI agents and web automation. It delivers 11x faster page rendering and…
 url: https://agentskillexchange.com/skills/lightpanda-headless-browser-ai-automation/
 
@@ -8903,7 +8903,7 @@ url: https://agentskillexchange.com/skills/tinacms-git-backed-headless-cms-visua
 slug: spiderfoot-osint-automation-framework
 category: Research & Scraping
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: SpiderFoot is an open-source OSINT automation tool that queries over 200 data sources to gather intelligence about IP addresses, domain names, email addresses, and…
 url: https://agentskillexchange.com/skills/spiderfoot-osint-automation-framework/
 
@@ -9327,7 +9327,7 @@ url: https://agentskillexchange.com/skills/wp-env-wordpress-dev-environment/
 slug: wordpress-playground-wasm-runtime
 category: WordPress & CMS
 framework: Multi-Framework
-verification: Published
+verification: Security Reviewed
 description: WordPress Playground runs a full WordPress instance entirely in the browser using WebAssembly-compiled PHP. It enables zero-setup WordPress testing, plugin previews, and interactive demos…
 url: https://agentskillexchange.com/skills/wordpress-playground-wasm-runtime/
 
@@ -10303,7 +10303,7 @@ url: https://agentskillexchange.com/skills/lazydocker-terminal-docker-management
 slug: gitleaks-git-secret-scanner
 category: Security & Verification
 framework: Claude Code
-verification: Published
+verification: Security Reviewed
 description: Gitleaks is an open-source SAST tool for detecting hardcoded secrets like passwords, API keys, and tokens in Git repositories, files, and directories. With 24,000+…
 url: https://agentskillexchange.com/skills/gitleaks-git-secret-scanner/
 
@@ -11687,7 +11687,7 @@ url: https://agentskillexchange.com/skills/playwright-multi-tab-session-manager-
 slug: puppeteer-stealth-scraper-agent
 category: Browser Automation
 framework: OpenClaw
-verification: Published
+verification: Security Reviewed
 description: Anti-detection web scraping using puppeteer-extra-plugin-stealth with residential proxy rotation. Implements Canvas fingerprint spoofing and WebGL vendor masking via puppeteer-extra.
 url: https://agentskillexchange.com/skills/puppeteer-stealth-scraper-agent/
 
@@ -12231,7 +12231,7 @@ url: https://agentskillexchange.com/skills/ansible-playbook-template-generator/
 slug: docker-compose-service-blueprint-creator
 category: Templates & Workflows
 framework: MCP
-verification: Published
+verification: Security Reviewed
 description: Creates Docker Compose YAML service definitions using the Compose Specification. Configures multi-service stacks with proper network isolation, volume mounts, health checks, and dependency ordering…
 url: https://agentskillexchange.com/skills/docker-compose-service-blueprint-creator/
 
@@ -14031,7 +14031,7 @@ url: https://agentskillexchange.com/skills/selenium-grid-orchestrator/
 slug: puppeteer-pdf-renderer
 category: Browser Automation
 framework: Cursor
-verification: Published
+verification: Security Reviewed
 description: Generates pixel-perfect PDFs from web pages using Puppeteer with custom headers, footers, and page breaks. Supports authenticated pages via cookie injection.
 url: https://agentskillexchange.com/skills/puppeteer-pdf-renderer/
 
@@ -14455,7 +14455,7 @@ url: https://agentskillexchange.com/skills/docker-compose-stack-analyzer/
 slug: parquet-column-mapper
 category: Data Extraction & Transformation
 framework: MCP
-verification: Published
+verification: Security Reviewed
 description: Reads and transforms Apache Parquet file metadata and column statistics using PyArrow and the Parquet Thrift specification. Maps column types across Delta Lake, Iceberg,…
 url: https://agentskillexchange.com/skills/parquet-column-mapper/
 
@@ -14855,7 +14855,7 @@ url: https://agentskillexchange.com/skills/puppeteer-web-scraping-pipeline/
 slug: wp-cli-site-migration-automator
 category: WordPress & CMS
 framework: Codex
-verification: Published
+verification: Security Reviewed
 description: Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized data, multisite network moves, and DNS preflight checks via…
 url: https://agentskillexchange.com/skills/wp-cli-site-migration-automator/
 
@@ -16039,7 +16039,7 @@ url: https://agentskillexchange.com/skills/puppeteer-visual-regression-testing/
 slug: playwright-pdf-export-automation
 category: Browser Automation
 framework: Claude Code
-verification: Published
+verification: Security Reviewed
 description: Automates headless PDF generation from web pages using the Playwright chromium.launch() API with custom page.pdf() options. Supports A4/Letter sizing, header/footer templates, and configurable margins…
 url: https://agentskillexchange.com/skills/playwright-pdf-export-automation/
 
@@ -18583,7 +18583,7 @@ url: https://agentskillexchange.com/skills/bubble-stripe-subscription-portal/
 slug: n8n-github-jira-ticket-automator
 category: Developer Tools
 framework: Codex
-verification: Published
+verification: Security Reviewed
 description: Deploys an n8n workflow via the n8n REST API using the GitHub Trigger node to capture new issue events and transform them into Jira…
 url: https://agentskillexchange.com/skills/n8n-github-jira-ticket-automator/
 
@@ -18767,7 +18767,7 @@ url: https://agentskillexchange.com/skills/dbt-model-lineage-test-coverage-2/
 slug: linear-issue-triage-sprint-planner-2
 category: Integrations & Connectors
 framework: Claude Code
-verification: Published
+verification: Security Reviewed
 description: Queries the Linear GraphQL API to list open issues by team, priority, and cycle, then applies configurable triage rules to auto-assign or escalate. Generates…
 url: https://agentskillexchange.com/skills/linear-issue-triage-sprint-planner-2/
 
@@ -19015,7 +19015,7 @@ url: https://agentskillexchange.com/skills/llamaindex-agent/
 slug: linear-sprint-planner
 category: Calendar, Email & Productivity
 framework: Custom Agents
-verification: Published
+verification: Security Reviewed
 description: Linear Sprint Planner is built around GraphQL API ecosystem. The underlying ecosystem is represented by graphql/graphql-js (20,335+ GitHub stars). It gives an agent a…
 url: https://agentskillexchange.com/skills/linear-sprint-planner/
 

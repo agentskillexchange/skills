@@ -3,7 +3,7 @@ name: "Run repeatable agent evaluation suites with trajectory and simulator cove
 slug: "run-repeatable-agent-evaluation-suites-with-trajectory-and-simulator-coverage-using-strands-evals"
 description: "Build repeatable evaluation experiments for agents and LLM apps with output checks, trajectory scoring, simulators, and trace-based review."
 github_stars: 105
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/strands-agents/evals"
 author: "strands-agents"
 publisher_type: "organization"

@@ -3,7 +3,7 @@ name: "Capture live transcripts and searchable meeting memory for agents with Mi
 slug: "capture-live-transcripts-and-searchable-meeting-memory-for-agents-with-minutes"
 description: "Stream meeting transcripts into searchable conversation memory so agents can read live or post-meeting context before drafting follow-ups or taking action."
 github_stars: 1051
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/silverstein/minutes"
 author: "Mat Silverstein"
 publisher_type: "individual"

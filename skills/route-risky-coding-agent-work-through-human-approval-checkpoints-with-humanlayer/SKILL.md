@@ -3,7 +3,7 @@ name: "Route risky coding-agent work through human approval checkpoints with Hum
 slug: "route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer"
 description: "Pause high-risk coding-agent actions, gather human decisions, and resume or block work with durable approval checkpoints."
 github_stars: 10658
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/humanlayer/humanlayer"
 author: "HumanLayer"
 publisher_type: "organization"

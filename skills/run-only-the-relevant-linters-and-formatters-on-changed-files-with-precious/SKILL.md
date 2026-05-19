@@ -3,7 +3,7 @@ name: "Run only the relevant linters and formatters on changed files with Precio
 slug: "run-only-the-relevant-linters-and-formatters-on-changed-files-with-precious"
 description: "Run just the applicable quality checks on changed files so pre-commit and CI feedback stays fast and targeted."
 github_stars: 152
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/houseabsolute/precious"
 author: "houseabsolute"
 publisher_type: "open_source_project"

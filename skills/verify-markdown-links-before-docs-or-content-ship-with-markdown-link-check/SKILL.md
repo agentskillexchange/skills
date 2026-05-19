@@ -3,7 +3,7 @@ name: "Verify Markdown links before docs or content ship with markdown-link-chec
 slug: "verify-markdown-links-before-docs-or-content-ship-with-markdown-link-check"
 description: "Catch dead links in README files, docs folders, and content drafts before a broken reference ships to users."
 github_stars: 693
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/tcort/markdown-link-check"
 author: "tcort"
 publisher_type: "individual"

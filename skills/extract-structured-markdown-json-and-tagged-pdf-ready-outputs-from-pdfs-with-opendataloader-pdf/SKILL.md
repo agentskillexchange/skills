@@ -3,7 +3,7 @@ name: "Extract structured markdown, JSON, and tagged-PDF-ready outputs from PDFs
 slug: "extract-structured-markdown-json-and-tagged-pdf-ready-outputs-from-pdfs-with-opendataloader-pdf"
 description: "Convert PDFs into LLM-ready markdown or coordinate-aware JSON, and use the same pipeline for tagged-PDF accessibility workflows when that is the real job to be done."
 github_stars: 19060
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/opendataloader-project/opendataloader-pdf"
 author: "opendataloader-project"
 publisher_type: "organization"

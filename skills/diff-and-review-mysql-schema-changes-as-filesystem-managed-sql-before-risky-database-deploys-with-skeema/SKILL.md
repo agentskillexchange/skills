@@ -3,7 +3,7 @@ name: "Diff and review MySQL schema changes as filesystem-managed SQL before ris
 slug: "diff-and-review-mysql-schema-changes-as-filesystem-managed-sql-before-risky-database-deploys-with-skeema"
 description: "Pull live MySQL schema into files, inspect diffs, and push reviewed changes back with a repeatable workflow."
 github_stars: 1361
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/skeema/skeema"
 author: "skeema"
 publisher_type: "organization"
