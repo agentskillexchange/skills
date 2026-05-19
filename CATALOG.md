@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2477 published skills** across **17 categories** · 2,134 security reviewed · Updated 2026-05-19 16:24 UTC
+> **2479 published skills** across **17 categories** · 2,134 security reviewed · Updated 2026-05-19 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (316 skills)
+### 🛠️ Developer Tools (318 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -100,6 +100,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Restic Fast Encrypted Backup Program](skills/restic-encrypted-backup-tool/) | Restic is a fast, secure, and efficient backup program supporting local, SFTP, S3, Azure, GCS, and many other… | Security Reviewed | 32.9k | — |
 | [Just Command Runner](skills/just-command-runner/) | Just is a command runner written in Rust that provides a convenient way to save and run project-specific commands.… | Security Reviewed | 32.5k | — |
 | [Dokku Docker-Powered Mini-Heroku Self-Hosted PaaS](skills/dokku-docker-paas/) | Dokku is a self-hosted Platform-as-a-Service built on Docker that provides Heroku-like git-push deployment on your… | Security Reviewed | 31.9k | — |
+| [Build frontend copilot and generative UI workflows with CopilotKit](skills/build-frontend-copilot-and-generative-ui-workflows-with-copilotkit/) | Use CopilotKit to add agent-native React or Angular copilots with generative UI, shared state, and human-in-the-loop… | Security Reviewed | 31.5k | 261.2k/wk |
 | [Podman Daemonless Container Management Engine](skills/podman-daemonless-container-management-engine/) | Podman is a daemonless container engine for developing, managing, and running OCI containers on Linux, Mac, and… | Security Reviewed | 31.2k | — |
 | [Zellij Terminal Workspace and Multiplexer](skills/zellij-terminal-workspace-multiplexer/) | Zellij is a Rust-powered terminal workspace and multiplexer with floating panes, WebAssembly plugins, layout… | Security Reviewed | 30.9k | — |
 | [k6 Load Testing and Performance Benchmarking Tool](skills/k6-load-testing-performance-benchmarking-tool/) | A modern open-source load testing tool from Grafana Labs, written in Go with JavaScript scripting. Enables… | Security Reviewed | 30.3k | — |
@@ -200,6 +201,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [fq Binary Format Inspector and jq for Media Files](skills/fq-binary-format-inspector-jq-media/) | fq is a command-line tool that brings jq-style querying to binary formats. It decodes, inspects, and transforms… | Security Reviewed | 10.5k | — |
 | [Git Branch Analyzer](skills/git-branch-analyzer-libgit2/) | Analyzes Git repository branch topology using libgit2 bindings and git-log parsing. Identifies stale branches, merge… | Security Reviewed | 10.4k | — |
 | [MongoDB MCP Server](skills/mongodb-mcp-server/) | MongoDB MCP Server is built around MongoDB document database. The underlying ecosystem is represented by… | Security Reviewed | 10.2k | 11.2M/wk |
+| [Build React agent chat interfaces with assistant-ui](skills/build-react-agent-chat-interfaces-with-assistant-ui/) | Use assistant-ui to build production React chat interfaces with reusable threads, runtimes, message components, and… | Security Reviewed | 10.1k | 705.7k/wk |
 | [ElectricSQL Real-Time Postgres Sync Engine](skills/electricsql-postgres-sync-engine/) | ElectricSQL is a read-path sync engine for PostgreSQL that handles partial replication, data delivery, and fan-out.… | Security Reviewed | 10.1k | — |
 | [Preserve coding-agent context by sandboxing bulky tool output and retrieving only relevant session state with Context Mode](skills/preserve-coding-agent-context-by-sandboxing-bulky-tool-output-and-retrieving-only-relevant-session-state-with-context-mode/) | Use Context Mode when a coding agent keeps burning context on large tool outputs or loses its place after… | Security Reviewed | 10k | 5.5k/wk |
 | [usql Universal Command-Line SQL Client for Multiple Databases](skills/usql-universal-sql-client/) | usql is a universal command-line interface for SQL databases including PostgreSQL, MySQL, SQLite, Oracle, SQL… | Security Reviewed | 9.9k | — |

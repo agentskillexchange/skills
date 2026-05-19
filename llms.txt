@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-05-19
-# Total: 2477 skills
+# Total: 2479 skills
+
+## Build React agent chat interfaces with assistant-ui
+slug: build-react-agent-chat-interfaces-with-assistant-ui
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use assistant-ui to build production React chat interfaces with reusable threads, runtimes, message components, and model/provider adapters.
+url: https://agentskillexchange.com/skills/build-react-agent-chat-interfaces-with-assistant-ui/
+
+## Build frontend copilot and generative UI workflows with CopilotKit
+slug: build-frontend-copilot-and-generative-ui-workflows-with-copilotkit
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use CopilotKit to add agent-native React or Angular copilots with generative UI, shared state, and human-in-the-loop workflow controls.
+url: https://agentskillexchange.com/skills/build-frontend-copilot-and-generative-ui-workflows-with-copilotkit/
 
 ## Build a self-updating agent memory graph with GBrain
 slug: build-a-self-updating-agent-memory-graph-with-gbrain

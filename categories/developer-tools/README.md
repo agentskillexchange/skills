@@ -126,6 +126,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Restic Fast Encrypted Backup Program](../../skills/restic-encrypted-backup-tool/) | 32.9k | — |
 | [Just Command Runner](../../skills/just-command-runner/) | 32.5k | — |
 | [Dokku Docker-Powered Mini-Heroku Self-Hosted PaaS](../../skills/dokku-docker-paas/) | 31.9k | — |
+| [Build frontend copilot and generative UI workflows with CopilotKit](../../skills/build-frontend-copilot-and-generative-ui-workflows-with-copilotkit/) | 31.5k | 261.2k/wk |
 | [Podman Daemonless Container Management Engine](../../skills/podman-daemonless-container-management-engine/) | 31.2k | — |
 | [Zellij Terminal Workspace and Multiplexer](../../skills/zellij-terminal-workspace-multiplexer/) | 30.9k | — |
 | [k6 Load Testing and Performance Benchmarking Tool](../../skills/k6-load-testing-performance-benchmarking-tool/) | 30.3k | — |
@@ -226,6 +227,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [fq Binary Format Inspector and jq for Media Files](../../skills/fq-binary-format-inspector-jq-media/) | 10.5k | — |
 | [Git Branch Analyzer](../../skills/git-branch-analyzer-libgit2/) | 10.4k | — |
 | [MongoDB MCP Server](../../skills/mongodb-mcp-server/) | 10.2k | 11.2M/wk |
+| [Build React agent chat interfaces with assistant-ui](../../skills/build-react-agent-chat-interfaces-with-assistant-ui/) | 10.1k | 705.7k/wk |
 | [ElectricSQL Real-Time Postgres Sync Engine](../../skills/electricsql-postgres-sync-engine/) | 10.1k | — |
 | [Preserve coding-agent context by sandboxing bulky tool output and retrieving only relevant session state with Context Mode](../../skills/preserve-coding-agent-context-by-sandboxing-bulky-tool-output-and-retrieving-only-relevant-session-state-with-context-mode/) | 10k | 5.5k/wk |
 | [usql Universal Command-Line SQL Client for Multiple Databases](../../skills/usql-universal-sql-client/) | 9.9k | — |

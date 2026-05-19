@@ -2,8 +2,26 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-05-19",
-  "total": 2477,
+  "total": 2479,
   "skills": [
+    {
+      "slug": "build-react-agent-chat-interfaces-with-assistant-ui",
+      "name": "Build React agent chat interfaces with assistant-ui",
+      "title": "Build React agent chat interfaces with assistant-ui",
+      "description": "Use assistant-ui to build production React chat interfaces with reusable threads, runtimes, message components, and model/provider adapters.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "build-frontend-copilot-and-generative-ui-workflows-with-copilotkit",
+      "name": "Build frontend copilot and generative UI workflows with CopilotKit",
+      "title": "Build frontend copilot and generative UI workflows with CopilotKit",
+      "description": "Use CopilotKit to add agent-native React or Angular copilots with generative UI, shared state, and human-in-the-loop workflow controls.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "build-a-self-updating-agent-memory-graph-with-gbrain",
       "name": "Build a self-updating agent memory graph with GBrain",
