@@ -3,7 +3,7 @@ name: "Notion Workspace Agent"
 slug: "notion-workspace-agent"
 description: ""
 github_stars: 5582
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/makenotion/notion-sdk-js"
 category: "Developer Tools"
 framework: "Custom Agents"

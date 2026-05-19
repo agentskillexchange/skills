@@ -3,7 +3,7 @@ name: "Research real estate properties with RAG-backed market analysis"
 slug: "rag-backed-real-estate-property-research"
 description: "Guide an agent through property search, buyer/renter preference capture, and evidence-backed shortlist notes from structured listing data."
 github_stars: 170
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/AleksNeStu/ai-real-estate-assistant"
 author: "AleksNeStu"
 publisher_type: "individual"

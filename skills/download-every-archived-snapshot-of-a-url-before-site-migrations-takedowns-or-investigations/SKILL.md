@@ -3,7 +3,7 @@ name: "Download every archived snapshot of a URL before site migrations, takedow
 slug: "download-every-archived-snapshot-of-a-url-before-site-migrations-takedowns-or-investigations"
 description: "Use waybackpack when an agent needs the full historical record for a URL, not a few clicks through the Wayback Machine UI. The agent can list or download snapshots, constrain by date, deduplicate archives, and preserve evidence locally before a site changes or disappears."
 github_stars: 3173
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/jsvine/waybackpack"
 author: "Jeremy Singer-Vine"
 category: "Research & Scraping"

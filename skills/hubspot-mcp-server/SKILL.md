@@ -2,15 +2,15 @@
 name: "HubSpot MCP Server"
 slug: "hubspot-mcp-server"
 description: ""
-github_stars: 394
-verification: "listed"
+github_stars: 395
+verification: "security_reviewed"
 source: "https://github.com/HubSpot/hubspot-api-nodejs"
 author: "HubSpot"
 category: "Integrations & Connectors"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "hubspot/hubspot-api-nodejs"
-  github_stars: 394
+  github_stars: 395
   npm_package: "@hubspot/api-client"
   npm_weekly_downloads: 1118309
 ---

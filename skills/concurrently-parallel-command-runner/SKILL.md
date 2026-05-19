@@ -5,11 +5,14 @@ description: "Concurrently runs multiple commands in parallel with color-coded o
 github_stars: 7727
 verification: "security_reviewed"
 source: "https://github.com/open-cli-tools/concurrently"
+author: "open-cli-tools"
 category: "Developer Tools"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "open-cli-tools/concurrently"
   github_stars: 7727
+  npm_package: "concurrently"
+  npm_weekly_downloads: 14219128
 ---
 
 # Concurrently Parallel Command Runner for npm Scripts
@@ -33,6 +36,10 @@ Basic usage or getting-started notes:
 
 - Source: https://github.com/open-cli-tools/concurrently
 - Extracted from upstream docs: https://raw.githubusercontent.com/open-cli-tools/concurrently/HEAD/README.md
+
+## Documentation
+
+- https://github.com/open-cli-tools/concurrently#readme
 
 ## Source
 

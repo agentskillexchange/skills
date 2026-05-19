@@ -3,7 +3,7 @@ name: "Give coding agents runtime context for Encore services"
 slug: "give-coding-agents-runtime-context-for-encore-services"
 description: "Use Encore's AI integration and built-in MCP server so an agent can inspect service architecture, query local resources, call APIs, and analyze traces while iterating on TypeScript or Go backends."
 github_stars: 11921
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/encoredev/encore"
 author: "Encore"
 publisher_type: "open_source_project"

@@ -3,7 +3,7 @@ name: "Grounded Docs MCP Server"
 slug: "grounded-docs-mcp-server"
 description: "Grounded Docs MCP Server gives AI coding assistants a version-aware documentation index built from official sources like websites, GitHub, npm, PyPI, and local files. It helps agents fetch current docs, search them semantically, and reduce hallucinations when working against real libraries and APIs."
 github_stars: 1224
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/arabold/docs-mcp-server"
 category: "Library & API Reference"
 framework: "MCP"

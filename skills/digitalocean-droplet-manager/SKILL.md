@@ -3,7 +3,7 @@ name: "DigitalOcean Droplet Manager"
 slug: "digitalocean-droplet-manager"
 description: ""
 github_stars: 3417
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/digitalocean/doctl"
 author: "DigitalOcean"
 category: "Templates & Workflows"

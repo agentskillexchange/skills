@@ -3,7 +3,7 @@ name: "Build and trace multi-agent workflows with Microsoft Agent Framework"
 slug: "build-and-trace-multi-agent-workflows-with-microsoft-agent-framework"
 description: "Compose, orchestrate, and trace production multi-agent workflows with Microsoft Agent Framework."
 github_stars: 10118
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/microsoft/agent-framework"
 author: "microsoft"
 publisher_type: "organization"

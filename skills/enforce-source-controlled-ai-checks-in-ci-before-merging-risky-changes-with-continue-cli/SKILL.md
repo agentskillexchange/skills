@@ -3,7 +3,7 @@ name: "Enforce source-controlled AI checks in CI before merging risky changes wi
 slug: "enforce-source-controlled-ai-checks-in-ci-before-merging-risky-changes-with-continue-cli"
 description: "Lets an agent define repo-native AI review checks as markdown files and run them as repeatable pull request status checks in CI."
 github_stars: 32622
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/continuedev/continue"
 author: "Continue Dev"
 publisher_type: "organization"

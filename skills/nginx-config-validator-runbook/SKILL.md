@@ -3,7 +3,7 @@ name: "Nginx Config Validator Runbook"
 slug: "nginx-config-validator-runbook"
 description: "Validates Nginx configurations using nginx -t syntax checking, the crossplane Python parser for structural analysis, and gixy security analyzer. Detects misconfigurations, SSL issues, and security vulnerabilities."
 github_stars: 29930
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/nginx/nginx"
 category: "Runbooks & Diagnostics"
 framework: "Claude Agents"

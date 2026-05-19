@@ -3,7 +3,7 @@ name: "Webhook Debugger"
 slug: "webhook-debugger"
 description: ""
 github_stars: 4423
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/stripe/stripe-node"
 author: "Stripe"
 category: "Developer Tools"

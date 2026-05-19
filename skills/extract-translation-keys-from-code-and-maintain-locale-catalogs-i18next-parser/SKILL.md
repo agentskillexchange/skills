@@ -3,7 +3,7 @@ name: "Extract translation keys from code and maintain locale catalogs with i18n
 slug: "extract-translation-keys-from-code-and-maintain-locale-catalogs-i18next-parser"
 description: "Use i18next-parser when an agent needs to scan a codebase, find translation calls, and update locale resource files as part of localization maintenance. This is a bounded catalog-maintenance workflow, not a generic i18n platform listing."
 github_stars: 556
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/i18next/i18next-parser"
 category: "Templates & Workflows"
 framework: "Multi-Framework"

@@ -3,7 +3,7 @@ name: "Gate Rust dependency trees on license, advisory, and source-policy violat
 slug: "gate-rust-dependency-trees-on-license-advisory-and-source-policy-violations-before-merge-with-cargo-deny"
 description: "Use cargo-deny when an agent needs to enforce Rust dependency policy before merge by checking advisories, licenses, bans, and source rules in one repeatable gate instead of doing ad hoc manifest review."
 github_stars: 2263
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/EmbarkStudios/cargo-deny"
 author: "Embark Studios"
 publisher_type: "company"

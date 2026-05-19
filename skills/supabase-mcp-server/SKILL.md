@@ -3,7 +3,7 @@ name: "Supabase MCP Server"
 slug: "supabase-mcp-server"
 description: ""
 github_stars: 100812
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/supabase/supabase"
 category: "Developer Tools"
 framework: "MCP"

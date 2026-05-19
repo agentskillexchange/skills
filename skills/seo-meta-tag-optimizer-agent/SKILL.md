@@ -2,7 +2,7 @@
 name: "SEO Meta Tag Optimizer"
 slug: "seo-meta-tag-optimizer-agent"
 description: "Generates optimized title tags, meta descriptions, and Open Graph markup using Google NLP API for entity salience scoring. Integrates with Yoast SEO REST API for WordPress deployments."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://developer.wordpress.org/"
 author: "WordPress Foundation"
 category: "Content Writing & SEO"

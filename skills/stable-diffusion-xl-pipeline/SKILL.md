@@ -3,7 +3,7 @@ name: "Stable Diffusion XL Pipeline"
 slug: "stable-diffusion-xl-pipeline"
 description: "Orchestrates SDXL image generation via the Stability AI REST API with ControlNet conditioning, IP-Adapter style transfer, and automatic prompt enhancement using CLIP interrogation."
 github_stars: 27135
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/Stability-AI/generative-models"
 category: "Image & Creative Automation"
 framework: "Claude Agents"

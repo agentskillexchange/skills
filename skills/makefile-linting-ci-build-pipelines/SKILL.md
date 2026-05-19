@@ -3,7 +3,7 @@ name: "Makefile Linting for CI and Build Pipelines"
 slug: "makefile-linting-ci-build-pipelines"
 description: "Uses checkmake to inspect Makefiles for style issues, fragile targets, and maintainability problems before build automation breaks in CI. It is a narrow build-script review skill for agents working inside repositories that already rely on make, not a generic build tool listing."
 github_stars: 1188
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/checkmake/checkmake"
 author: "checkmake maintainers"
 publisher_type: "Open Source Project"

@@ -3,7 +3,7 @@ name: "Connect MCP agents to BatchData property and address APIs"
 slug: "connect-mcp-agents-to-batchdata-property-and-address-apis"
 description: "Use BatchData property and address APIs from MCP clients to enrich real-estate research and operations workflows."
 github_stars: 30
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/zellerhaus/batchdata-mcp-real-estate"
 author: "zellerhaus"
 publisher_type: "open_source"

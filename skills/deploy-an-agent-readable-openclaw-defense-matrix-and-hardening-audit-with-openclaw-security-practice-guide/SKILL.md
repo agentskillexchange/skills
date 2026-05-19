@@ -3,7 +3,7 @@ name: "Deploy an agent-readable OpenClaw defense matrix and hardening audit with
 slug: "deploy-an-agent-readable-openclaw-defense-matrix-and-hardening-audit-with-openclaw-security-practice-guide"
 description: "Use an agent-facing OpenClaw security guide to audit a live setup, surface conflicts, and apply a bounded hardening defense matrix with explicit approval gates and nightly checks."
 github_stars: 2791
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/slowmist/openclaw-security-practice-guide"
 author: "SlowMist"
 publisher_type: "community"

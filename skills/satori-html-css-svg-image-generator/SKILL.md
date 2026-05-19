@@ -5,11 +5,14 @@ description: "Satori is a high-performance library by Vercel that converts HTML 
 github_stars: 13234
 verification: "security_reviewed"
 source: "https://github.com/vercel/satori"
+author: "vercel"
 category: "Image & Creative Automation"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "vercel/satori"
   github_stars: 13234
+  npm_package: "satori"
+  npm_weekly_downloads: 1304170
 ---
 
 # Satori HTML and CSS to SVG Image Generator by Vercel
@@ -30,6 +33,10 @@ Basic usage or getting-started notes:
 
 - Source: https://github.com/vercel/satori
 - Extracted from upstream docs: https://raw.githubusercontent.com/vercel/satori/HEAD/README.md
+
+## Documentation
+
+- https://github.com/vercel/satori#readme
 
 ## Source
 

@@ -3,7 +3,7 @@ name: "GraphQL Schema Explorer"
 slug: "graphql-schema-explorer"
 description: ""
 github_stars: 20323
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/graphql/graphql-js"
 category: "Library & API Reference"
 framework: "Claude Code"

@@ -3,7 +3,7 @@ name: "Gitea Repository & Pull Request Automation"
 slug: "gitea-repository-pull-request-automation"
 description: "Automates repository administration, pull request workflows, issue triage, and release operations against Gitea using its REST API and webhook system. Useful for self-hosted software teams that want GitHub-like automation without leaving their own infrastructure."
 github_stars: 54880
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/go-gitea/gitea"
 author: "go-gitea"
 publisher_type: "Open Source Project"

@@ -3,7 +3,7 @@ name: "Sigstore Cosign Container Verifier"
 slug: "sigstore-cosign-container-verifier"
 description: "Verifies container image signatures and provenance using Sigstore Cosign and Rekor transparency log. Enforces supply chain policies with OPA Gatekeeper admission rules."
 github_stars: 5830
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/sigstore/cosign"
 author: "sigstore"
 category: "Security & Verification"

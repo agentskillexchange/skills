@@ -3,7 +3,7 @@ name: "Crawlee Smart Crawler Agent"
 slug: "crawlee-smart-crawler-agent"
 description: "Implements intelligent web crawling using the Crawlee framework with adaptive request routing between CheerioCrawler and PlaywrightCrawler. Manages request queues, handles anti-bot challenges, and exports structured data."
 github_stars: 22922
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/apify/crawlee"
 author: "Apify"
 category: "Research & Scraping"

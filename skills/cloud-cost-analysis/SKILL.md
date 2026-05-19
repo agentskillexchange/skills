@@ -2,15 +2,15 @@
 name: "Cloud Cost Analysis"
 slug: "cloud-cost-analysis"
 description: ""
-github_stars: 3629
-verification: "listed"
+github_stars: 3630
+verification: "security_reviewed"
 source: "https://github.com/aws/aws-sdk-js-v3"
 author: "Amazon Web Services"
 category: "Developer Tools"
 framework: "Claude Agents"
 tool_ecosystem:
   github_repo: "aws/aws-sdk-js-v3"
-  github_stars: 3629
+  github_stars: 3630
 ---
 
 # Cloud Cost Analysis

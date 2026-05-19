@@ -3,7 +3,7 @@ name: "Terraform Module Registry"
 slug: "terraform-module-registry"
 description: ""
 github_stars: 48146
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 category: "Templates & Workflows"
 framework: "Custom Agents"

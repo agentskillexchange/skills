@@ -3,7 +3,7 @@ name: "Jenkins MCP Server"
 slug: "jenkins-mcp-server"
 description: ""
 github_stars: 25271
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/jenkinsci/jenkins"
 author: "Jenkins"
 category: "Developer Tools"

@@ -3,7 +3,7 @@ name: "SQLite Analyst"
 slug: "sqlite-analyst"
 description: ""
 github_stars: 7111
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/WiseLibs/better-sqlite3"
 category: "Developer Tools"
 framework: "MCP"

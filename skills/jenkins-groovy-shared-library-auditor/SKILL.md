@@ -3,7 +3,7 @@ name: "Jenkins Groovy Shared Library Auditor"
 slug: "jenkins-groovy-shared-library-auditor"
 description: "Audits Jenkins shared library Groovy scripts for security anti-patterns using the Script Security Plugin API. Detects unapproved method signatures, sandbox escapes, and credential leakage in pipeline code."
 github_stars: 25189
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/jenkinsci/jenkins"
 category: "CI/CD Integrations"
 framework: "OpenClaw"

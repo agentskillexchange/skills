@@ -3,7 +3,7 @@ name: "Build versioned technical docs sites with search and navigation using Mat
 slug: "build-versioned-technical-docs-sites-with-search-and-nav-using-material-for-mkdocs"
 description: "Use Material for MkDocs to turn Markdown documentation into a searchable, navigable static site with project-ready configuration and previews."
 github_stars: 26746
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/squidfunk/mkdocs-material"
 author: "squidfunk"
 publisher_type: "individual"

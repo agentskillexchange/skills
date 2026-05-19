@@ -3,7 +3,7 @@ name: "Pytest Fixture Generator"
 slug: "pytest-fixture-generator"
 description: ""
 github_stars: 13758
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/pytest-dev/pytest"
 author: "pytest-dev"
 category: "Code Quality & Review"

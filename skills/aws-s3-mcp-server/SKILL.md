@@ -2,15 +2,15 @@
 name: "AWS S3 MCP Server"
 slug: "aws-s3-mcp-server"
 description: ""
-github_stars: 3629
-verification: "listed"
+github_stars: 3630
+verification: "security_reviewed"
 source: "https://github.com/aws/aws-sdk-js-v3"
 author: "Amazon Web Services"
 category: "Developer Tools"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "aws/aws-sdk-js-v3"
-  github_stars: 3629
+  github_stars: 3630
   npm_package: "@aws-sdk/client-s3"
   npm_weekly_downloads: 28131477
 ---

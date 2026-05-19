@@ -3,7 +3,7 @@ name: "Draft release notes continuously with Release Drafter"
 slug: "draft-release-notes-continuously-with-release-drafter"
 description: "Keep a living release draft in GitHub so merged pull requests are organized into release notes before ship day."
 github_stars: 3869
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/release-drafter/release-drafter"
 author: "Release Drafter maintainers"
 publisher_type: "organization"

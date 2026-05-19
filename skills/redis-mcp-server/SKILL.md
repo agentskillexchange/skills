@@ -3,7 +3,7 @@ name: "Redis MCP Server"
 slug: "redis-mcp-server"
 description: ""
 github_stars: 73815
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/redis/redis"
 category: "Developer Tools"
 framework: "MCP"

@@ -3,7 +3,7 @@ name: "Jest Unit Test Scaffolder"
 slug: "jest-unit-test-scaffolder"
 description: ""
 github_stars: 45359
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/jestjs/jest"
 author: "Jest"
 category: "Code Quality & Review"

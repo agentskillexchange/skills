@@ -3,7 +3,7 @@ name: "Cypress E2E API Intercept Skill"
 slug: "cypress-e2e-api-intercept-skill"
 description: "Creates end-to-end tests with Cypress cy.intercept() for API mocking and cy.wait() for request assertion. Uses Cypress Testing Library queries with findByRole() and findByText() for accessible element selection."
 github_stars: 49617
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/cypress-io/cypress"
 category: "Browser Automation"
 framework: "Codex"

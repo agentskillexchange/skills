@@ -3,7 +3,7 @@ name: "MySQL Query Agent"
 slug: "mysql-query-agent"
 description: ""
 github_stars: 4355
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/sidorares/node-mysql2"
 category: "Developer Tools"
 framework: "MCP"

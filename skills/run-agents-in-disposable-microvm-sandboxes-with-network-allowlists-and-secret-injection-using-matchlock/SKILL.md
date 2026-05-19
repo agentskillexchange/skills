@@ -3,7 +3,7 @@ name: "Run agents in disposable microVM sandboxes with network allowlists and se
 slug: "run-agents-in-disposable-microvm-sandboxes-with-network-allowlists-and-secret-injection-using-matchlock"
 description: "Launch risky agent work inside disposable microVMs when you need stronger isolation, sealed egress, and host-side secret injection instead of direct host access."
 github_stars: 552
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/jingkaihe/matchlock"
 author: "jingkaihe"
 publisher_type: "individual"

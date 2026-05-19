@@ -3,7 +3,7 @@ name: "Webpack Bundle Analyzer Agent"
 slug: "webpack-bundle-analyzer-agent"
 description: "Analyzes webpack bundle composition using webpack-bundle-analyzer and source-map-explorer APIs. Identifies duplicate dependencies and suggests tree-shaking optimizations with specific import rewrites."
 github_stars: 65837
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/webpack/webpack"
 category: "Developer Tools"
 framework: "Cursor"

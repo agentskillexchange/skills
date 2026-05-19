@@ -3,7 +3,7 @@ name: "SonarQube Code Quality Scanner"
 slug: "sonarqube-code-quality-scanner"
 description: "Runs SonarQube static analysis via the SonarQube Web API and sonar-scanner CLI. Detects code smells, bugs, and security vulnerabilities across 30+ languages with quality gate enforcement."
 github_stars: 10433
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/SonarSource/sonarqube"
 category: "Code Quality & Review"
 framework: "OpenClaw"

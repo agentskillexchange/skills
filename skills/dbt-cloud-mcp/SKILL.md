@@ -3,7 +3,7 @@ name: "dbt Cloud MCP"
 slug: "dbt-cloud-mcp"
 description: ""
 github_stars: 12621
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/dbt-labs/dbt-core"
 category: "Data Extraction & Transformation"
 framework: "MCP"

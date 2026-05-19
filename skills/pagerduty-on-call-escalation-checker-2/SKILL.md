@@ -3,7 +3,7 @@ name: "PagerDuty On-Call Escalation Checker"
 slug: "pagerduty-on-call-escalation-checker-2"
 description: "Queries PagerDuty to show who is currently on-call for each escalation policy, surfaces unacknowledged incidents, and identifies schedule coverage gaps for the next 7 days. Useful for handoff checks and pre-weekend coverage audits. Read-only skill."
 github_stars: 69
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/PagerDuty/pdjs"
 category: "Runbooks & Diagnostics"
 framework: "Claude Code"

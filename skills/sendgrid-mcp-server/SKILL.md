@@ -3,7 +3,7 @@ name: "SendGrid MCP Server"
 slug: "sendgrid-mcp-server"
 description: ""
 github_stars: 3052
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/sendgrid/sendgrid-nodejs"
 author: "Twilio SendGrid"
 category: "Integrations & Connectors"

@@ -3,7 +3,7 @@ name: "MongoDB MCP Server"
 slug: "mongodb-mcp-server"
 description: ""
 github_stars: 10181
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/mongodb/node-mongodb-native"
 category: "Developer Tools"
 framework: "MCP"

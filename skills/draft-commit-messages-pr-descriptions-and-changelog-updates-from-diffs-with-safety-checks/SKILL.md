@@ -2,7 +2,7 @@
 name: "Draft commit messages, PR descriptions, and changelog updates from diffs with safety checks"
 slug: "draft-commit-messages-pr-descriptions-and-changelog-updates-from-diffs-with-safety-checks"
 description: "Analyze staged changes, scan for sensitive content, draft Conventional Commit messages, prepare PR text, and update changelog entries in a guarded commit-and-release communication workflow."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/psenger/ai-agent-skills/tree/main/skills/git-commit-pr-message"
 author: "Philip A Senger"
 publisher_type: "individual"

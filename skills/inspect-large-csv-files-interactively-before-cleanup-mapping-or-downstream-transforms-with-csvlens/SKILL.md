@@ -3,7 +3,7 @@ name: "Inspect large CSV files interactively before cleanup, mapping, or downstr
 slug: "inspect-large-csv-files-interactively-before-cleanup-mapping-or-downstream-transforms-with-csvlens"
 description: "Use csvlens when an agent or operator needs fast column-aware inspection of a large CSV before cleaning, mapping, or transforming it."
 github_stars: 3715
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/YS-L/csvlens"
 author: "YS-L"
 publisher_type: "individual"

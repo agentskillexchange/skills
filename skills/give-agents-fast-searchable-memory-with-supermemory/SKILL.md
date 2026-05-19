@@ -3,7 +3,7 @@ name: "Give agents fast searchable memory with Supermemory"
 slug: "give-agents-fast-searchable-memory-with-supermemory"
 description: "Use Supermemory as an agent memory and context layer for ingesting user facts, documents, connectors, and searchable RAG context across assistant workflows."
 github_stars: 22457
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/supermemoryai/supermemory"
 author: "supermemoryai"
 publisher_type: "vendor_open_source"

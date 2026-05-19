@@ -3,7 +3,7 @@ name: "AWS CloudWatch Log Anomaly Scanner"
 slug: "aws-cloudwatch-log-anomaly-scanner"
 description: "Scans AWS CloudWatch Logs using the CloudWatch Logs Insights API and CloudWatch Anomaly Detection API. Identifies unusual error patterns, latency spikes, and log volume anomalies across log groups."
 github_stars: 3607
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/aws/aws-sdk-js-v3"
 category: "Runbooks & Diagnostics"
 framework: "Codex"

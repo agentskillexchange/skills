@@ -3,7 +3,7 @@ name: "Semgrep SAST Scanner"
 slug: "semgrep-sast-scanner-skill"
 description: "Runs Semgrep static analysis with custom rule packs targeting OWASP Top 10 patterns. Uses semgrep CLI with --config=auto and --sarif output for GitHub Advanced Security integration and CWE-tagged finding reports."
 github_stars: 14794
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/semgrep/semgrep"
 category: "Code Quality & Review"
 framework: "OpenClaw"

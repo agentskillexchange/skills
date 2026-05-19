@@ -3,7 +3,7 @@ name: "Cookiecutter Project Bootstrap"
 slug: "cookiecutter-project-bootstrap"
 description: "Bootstraps new projects from Cookiecutter templates with variable substitution and post-generation hooks. Supports remote template repositories via the cookiecutter CLI and Jinja2 rendering engine."
 github_stars: 24818
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/cookiecutter/cookiecutter"
 author: "cookiecutter"
 category: "Templates & Workflows"

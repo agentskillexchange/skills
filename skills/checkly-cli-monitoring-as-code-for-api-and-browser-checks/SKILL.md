@@ -3,7 +3,7 @@ name: "Checkly CLI Monitoring as Code for API and Browser Checks"
 slug: "checkly-cli-monitoring-as-code-for-api-and-browser-checks"
 description: "Checkly CLI lets agents define, test, and deploy synthetic monitoring from a JavaScript or TypeScript codebase. It is especially useful when monitoring should live next to Playwright tests, API checks, and CI workflows instead of being configured by hand in a UI."
 github_stars: 92
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/checkly/checkly-cli"
 author: "checkly"
 publisher_type: "Company"

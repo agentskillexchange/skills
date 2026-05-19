@@ -3,7 +3,7 @@ name: "Vercel Deployment Agent"
 slug: "vercel-deployment-agent"
 description: ""
 github_stars: 15296
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/vercel/vercel"
 category: "Templates & Workflows"
 framework: "Custom Agents"

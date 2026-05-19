@@ -3,7 +3,7 @@ name: "Deploy OpenClaw on Cloudflare Workers with Moltworker"
 slug: "deploy-openclaw-on-cloudflare-workers-with-moltworker"
 description: "Use Moltworker to deploy a supervised OpenClaw personal agent stack on Cloudflare Workers, Sandbox containers, Access, R2, and optional AI Gateway."
 github_stars: 9898
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/cloudflare/moltworker"
 author: "Cloudflare"
 publisher_type: "organization"

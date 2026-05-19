@@ -3,7 +3,7 @@ name: "Kubernetes CrashLoop Diagnostician"
 slug: "kubernetes-crashloop-diagnostician"
 description: "Diagnoses CrashLoopBackOff pods using the Kubernetes client-go API and kubectl debug. Analyzes container exit codes, OOMKill events, and liveness probe failures with automated remediation suggestions."
 github_stars: 121700
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/kubernetes/kubernetes"
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"

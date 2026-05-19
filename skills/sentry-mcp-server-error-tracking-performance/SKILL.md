@@ -3,7 +3,7 @@ name: "Sentry MCP Server for Error Tracking and Performance"
 slug: "sentry-mcp-server-error-tracking-performance"
 description: "The official Sentry MCP server gives AI agents access to Sentry error tracking, issue management, and performance telemetry through the Model Context Protocol, enabling automated incident triage, error analysis, and release monitoring workflows."
 github_stars: 615
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/getsentry/sentry-mcp"
 author: "Sentry"
 category: "Monitoring & Alerts"

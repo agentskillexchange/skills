@@ -3,7 +3,7 @@ name: "Repair malformed JSON before parsing downstream automations with jsonrepa
 slug: "repair-malformed-json-before-parsing-downstream-automations-jsonrepair"
 description: "Use jsonrepair when an agent receives JSON-like output that is almost valid but still breaks parsers, such as trailing commas, missing quotes, or concatenated fragments. The agent’s role is to normalize the payload before validation or routing, not to replace real schema design."
 github_stars: 2297
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/josdejong/jsonrepair"
 category: "Developer Tools"
 framework: "Multi-Framework"

@@ -27,15 +27,16 @@ Python 3 environment; google-adk package; model credentials; optional Google Clo
 Use the upstream install or setup path that matches your environment:
 - pip install google-adk
 - pip install "google-adk[extensions]"
-- pip install git+https://github.com/google/adk-python.git@main
 
 Requirements and caveats from upstream:
-- [![Python Unit Tests](https://github.com/google/adk-python/actions/workflows/python-unit-tests.yml/badge.svg)](https://github.com/google/adk-python/actions/workflows/python-unit-tests.yml)
-- <a href="https://codewiki.google/github.com/google/adk-python"><img src="https://www.gstatic.com/_/boq-sdlc-agents-ui/_/r/Mvosg4klCA4.svg" alt="Ask Code Wiki" height="20"></a>
 - <img src="https://raw.githubusercontent.com/google/adk-python/main/assets/agent-development-kit.png" width="256"/>
+- An open-source, code-first Python framework for building, evaluating, and deploying sophisticated AI agents with flexibility and control.
+- **Requirements:** Python 3.11+.
 
 Basic usage or getting-started notes:
-- **Deploy Anywhere**: Easily containerize and deploy agents on Cloud Run or
+- ### Agent
+- from google.adk import Agent
+- root_agent = Agent(
 
 - Source: https://github.com/google/adk-python
 - Extracted from upstream docs: https://raw.githubusercontent.com/google/adk-python/HEAD/README.md

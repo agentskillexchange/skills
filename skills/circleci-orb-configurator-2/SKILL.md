@@ -3,7 +3,7 @@ name: "CircleCI Orb Configurator"
 slug: "circleci-orb-configurator-2"
 description: "Builds and validates CircleCI orb configurations using the CircleCI CLI and Orb Development Kit. Supports orb packing, linting with yamllint, and publishing to the CircleCI Orb Registry via circleci orb publish."
 github_stars: 843
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/circleci/circleci-docs"
 category: "CI/CD Integrations"
 framework: "Claude Agents"

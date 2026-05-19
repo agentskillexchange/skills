@@ -3,7 +3,7 @@ name: "gRPC Service Tool"
 slug: "grpc-service-tool"
 description: ""
 github_stars: 4822
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/grpc/grpc-node"
 category: "Library & API Reference"
 framework: "Custom Agents"

@@ -3,7 +3,7 @@ name: "Terraform Cloud Run Trigger"
 slug: "terraform-cloud-run-trigger"
 description: "Automates Terraform Cloud workspace runs using the TFC API v2. Creates runs via POST /api/v2/runs with plan-only or auto-apply modes, streams plan output from /api/v2/plans/{id}/log, and manages workspace variables through /api/v2/workspaces/{id}/vars for infrastructure-as-code pipelines."
 github_stars: 48146
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
 category: "CI/CD Integrations"
 framework: "Custom Agents"

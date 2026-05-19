@@ -3,7 +3,7 @@ name: "CircleCI Orb Dependency Checker"
 slug: "circleci-orb-dependency-checker"
 description: "Scans CircleCI config.yml for orb version conflicts and breaking changes using the CircleCI Orbs Registry API. Validates executor configurations against circleci/docker and circleci/node orb specs."
 github_stars: 843
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/circleci/circleci-docs"
 category: "CI/CD Integrations"
 framework: "Codex"

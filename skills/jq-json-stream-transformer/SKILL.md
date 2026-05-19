@@ -3,7 +3,7 @@ name: "jq JSON Stream Transformer"
 slug: "jq-json-stream-transformer"
 description: "Constructs complex jq filter expressions for transforming JSON/NDJSON streams, including recursive descent, object construction, and reduce operations. Handles multi-gigabyte streams with jq's streaming parser."
 github_stars: 34478
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/jqlang/jq"
 author: "jqlang"
 category: "Data Extraction & Transformation"

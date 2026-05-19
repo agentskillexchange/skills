@@ -3,7 +3,7 @@ name: "ESLint Rule Auditor"
 slug: "eslint-rule-auditor-3"
 description: "Audits ESLint configurations using @eslint/eslintrc and @eslint/js flat config APIs. Detects conflicting rules, deprecated configs, and generates migration paths from eslintrc to eslint.config.js flat config format."
 github_stars: 27188
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/eslint/eslint"
 category: "Code Quality & Review"
 framework: "Cursor"

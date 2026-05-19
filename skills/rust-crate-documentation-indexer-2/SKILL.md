@@ -2,7 +2,7 @@
 name: "Rust Crate Documentation Indexer"
 slug: "rust-crate-documentation-indexer-2"
 description: "Indexes Rust crate documentation from docs.rs using rustdoc JSON output and cargo-doc. Extracts trait implementations, generic bounds, and lifetime annotations for searchable API reference."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://docs.rs/about"
 category: "Library & API Reference"
 framework: "Gemini"

@@ -2,15 +2,15 @@
 name: "Pulumi MCP Server"
 slug: "pulumi-mcp-server"
 description: ""
-github_stars: 25199
-verification: "listed"
+github_stars: 25204
+verification: "security_reviewed"
 source: "https://github.com/pulumi/pulumi"
 author: "Pulumi"
 category: "Developer Tools"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "pulumi/pulumi"
-  github_stars: 25199
+  github_stars: 25204
   npm_package: "@pulumi/pulumi"
   npm_weekly_downloads: 2247158
 ---

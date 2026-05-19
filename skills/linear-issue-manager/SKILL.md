@@ -2,7 +2,7 @@
 name: "Linear Issue Manager"
 slug: "linear-issue-manager"
 description: ""
-verification: "listed"
+verification: "security_reviewed"
 source: "https://linear.app/docs"
 author: "Linear"
 category: "Developer Tools"

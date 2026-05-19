@@ -3,7 +3,7 @@ name: "Turn Lark meeting transcripts into action items and follow-up tasks"
 slug: "turn-lark-meeting-transcripts-into-action-items-and-follow-up-tasks"
 description: "Read a Lark Minutes transcript, extract explicit and implied follow-ups, then let the agent execute selected tasks instead of leaving them as notes."
 github_stars: 40
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/zarazhangrui/lark-minutes-tasks"
 author: "zarazhangrui"
 publisher_type: "open_source_project"

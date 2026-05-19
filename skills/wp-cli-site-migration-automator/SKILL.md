@@ -14,13 +14,7 @@ Automates full WordPress site migrations using WP-CLI search-replace, wp db expo
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Make WordPress
-
-Basic usage or getting-started notes:
-- Browse commands
-- Scriptable by design
-- Anything you can do in the WordPress admin, you can do from the terminal. Install and update plugins, import content, create users, run search-replace across a database, rotate keys, manage multisite networks. Bundle...
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
 - Source: https://wp-cli.org/
 

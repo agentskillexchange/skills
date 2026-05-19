@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "maildev/maildev"
   github_stars: 5892
+  npm_package: "maildev"
+  npm_weekly_downloads: 90375
 ---
 
 # MailDev SMTP Capture and Email Testing Server
@@ -37,6 +39,10 @@ Basic usage or getting-started notes:
 
 - Source: https://github.com/maildev/maildev
 - Extracted from upstream docs: https://raw.githubusercontent.com/maildev/maildev/HEAD/README.md
+
+## Documentation
+
+- http://maildev.github.io/maildev/
 
 ## Source
 

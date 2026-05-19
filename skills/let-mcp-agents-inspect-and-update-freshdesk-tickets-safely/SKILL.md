@@ -3,7 +3,7 @@ name: "Let MCP agents inspect and update Freshdesk tickets safely"
 slug: "let-mcp-agents-inspect-and-update-freshdesk-tickets-safely"
 description: "Connect Freshdesk modules to MCP clients so agents can retrieve ticket context and prepare supervised support actions."
 github_stars: 59
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/effytech/freshdesk_mcp"
 author: "effytech"
 publisher_type: "open_source"

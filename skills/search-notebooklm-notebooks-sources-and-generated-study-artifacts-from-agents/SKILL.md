@@ -3,7 +3,7 @@ name: "Search NotebookLM notebooks, sources, and generated study artifacts from 
 slug: "search-notebooklm-notebooks-sources-and-generated-study-artifacts-from-agents"
 description: "Use notebooklm-mcp-cli when an agent needs to search NotebookLM notebooks, add sources, run notebook queries, and retrieve generated study artifacts without leaving an MCP workflow."
 github_stars: 3558
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/jacob-bd/notebooklm-mcp-cli"
 author: "jacob-bd"
 publisher_type: "individual"

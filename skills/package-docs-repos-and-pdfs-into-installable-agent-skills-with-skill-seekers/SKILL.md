@@ -3,7 +3,7 @@ name: "Package docs, repos, and PDFs into installable agent skills with Skill Se
 slug: "package-docs-repos-and-pdfs-into-installable-agent-skills-with-skill-seekers"
 description: "Turn documentation sites, GitHub repos, and PDFs into installable agent skill packages when hand-authoring a reusable skill would be slow or inconsistent."
 github_stars: 12876
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/yusufkaraaslan/Skill_Seekers"
 author: "Yusuf Karaaslan"
 publisher_type: "open_source_project"

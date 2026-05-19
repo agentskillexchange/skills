@@ -3,7 +3,7 @@ name: "Checkov IaC Scanner"
 slug: "checkov-iac-scanner"
 description: ""
 github_stars: 8623
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/bridgecrewio/checkov"
 author: "bridgecrewio"
 category: "Security & Verification"

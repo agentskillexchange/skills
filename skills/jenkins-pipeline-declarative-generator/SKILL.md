@@ -3,7 +3,7 @@ name: "Jenkins Pipeline Declarative Generator"
 slug: "jenkins-pipeline-declarative-generator"
 description: "Creates Jenkins Declarative Pipeline Jenkinsfiles using jenkins-pipeline-syntax and jenkins-shared-libraries. Configures stages, parallel execution, and post-build actions with Blue Ocean compatibility."
 github_stars: 25189
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/jenkinsci/jenkins"
 category: "CI/CD Integrations"
 framework: "Custom Agents"

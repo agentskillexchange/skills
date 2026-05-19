@@ -3,7 +3,7 @@ name: "Semgrep Custom Pattern Generator"
 slug: "semgrep-custom-pattern-generator"
 description: "Generates Semgrep SAST rules from vulnerability descriptions using the Semgrep CLI and semgrep-rules YAML schema. Supports metavariable patterns, taint tracking, and join rules for cross-function analysis."
 github_stars: 14794
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/semgrep/semgrep"
 category: "Code Quality & Review"
 framework: "MCP"

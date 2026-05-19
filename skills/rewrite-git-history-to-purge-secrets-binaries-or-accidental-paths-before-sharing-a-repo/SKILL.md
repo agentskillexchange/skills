@@ -3,7 +3,7 @@ name: "Rewrite Git history to purge secrets, binaries, or accidental paths befor
 slug: "rewrite-git-history-to-purge-secrets-binaries-or-accidental-paths-before-sharing-a-repo"
 description: "Use git-filter-repo when an agent needs to surgically rewrite repository history after a leaked secret, a huge binary commit, or a bad subtree split. The agent analyzes the problem, builds the rewrite command, and leaves a clean follow-up checklist for force-push, clone reset, and downstream cleanup."
 github_stars: 12127
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/newren/git-filter-repo"
 publisher_type: "individual_maintainer"
 category: "Runbooks & Diagnostics"

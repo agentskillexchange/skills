@@ -3,7 +3,7 @@ name: "SendGrid Transactional Email Builder"
 slug: "sendgrid-transactional-email-builder"
 description: "Constructs and sends transactional emails using the SendGrid v3 Mail Send API. Builds dynamic templates with Handlebars substitutions, manages suppression groups, and tracks delivery via Event Webhook parsing."
 github_stars: 3049
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/sendgrid/sendgrid-nodejs"
 category: "Integrations & Connectors"
 framework: "MCP"

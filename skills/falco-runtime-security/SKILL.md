@@ -3,7 +3,7 @@ name: "Falco Runtime Security"
 slug: "falco-runtime-security"
 description: ""
 github_stars: 8847
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/falcosecurity/falco"
 author: "Falco"
 category: "Security & Verification"

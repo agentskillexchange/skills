@@ -2,7 +2,7 @@
 name: "SerpAPI Search Intelligence Aggregator"
 slug: "serpapi-search-intelligence-aggregator"
 description: "Connects to SerpAPI endpoints for Google, Bing, YouTube, and Google Scholar search result extraction. Uses the Locations API for geo-targeted queries and Searches Archive API for historical SERP tracking."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://serpapi.com/"
 author: "SerpApi"
 category: "Research & Scraping"

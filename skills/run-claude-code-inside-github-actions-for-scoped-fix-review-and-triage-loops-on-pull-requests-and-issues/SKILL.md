@@ -3,7 +3,7 @@ name: "Run Claude Code inside GitHub Actions for scoped fix, review, and triage 
 slug: "run-claude-code-inside-github-actions-for-scoped-fix-review-and-triage-loops-on-pull-requests-and-issues"
 description: "Use Claude Code as a bounded GitHub Actions worker for PR reviews, issue follow-up, and repository automation that stays inside normal workflow triggers and runner policy."
 github_stars: 7136
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/anthropics/claude-code-action"
 author: "Anthropic"
 publisher_type: "organization"

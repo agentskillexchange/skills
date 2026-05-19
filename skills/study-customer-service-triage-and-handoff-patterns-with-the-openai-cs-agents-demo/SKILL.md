@@ -3,7 +3,7 @@ name: "Study customer-service triage and handoff patterns with the OpenAI CS age
 slug: "study-customer-service-triage-and-handoff-patterns-with-the-openai-cs-agents-demo"
 description: "Use OpenAI's customer-service agents demo as a reference workflow for triage, specialist handoffs, guardrails, and support-case orchestration before building a production support agent."
 github_stars: 6314
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/openai/openai-cs-agents-demo"
 author: "OpenAI"
 publisher_type: "official_project"

@@ -3,7 +3,7 @@ name: "Puppeteer Cookie Consent Handler"
 slug: "puppeteer-cookie-consent-handler-3"
 description: "Detects and dismisses cookie consent banners across websites using Puppeteer page.evaluate selectors and the CMP (Consent Management Platform) protocol. Supports IAB TCF v2.0 consent strings and GDPR/CCPA banner patterns."
 github_stars: 94115
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/puppeteer/puppeteer"
 author: "Puppeteer"
 category: "Browser Automation"

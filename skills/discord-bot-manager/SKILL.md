@@ -3,7 +3,7 @@ name: "Discord Bot Manager"
 slug: "discord-bot-manager"
 description: ""
 github_stars: 26668
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/discordjs/discord.js"
 category: "Calendar, Email & Productivity"
 framework: "Custom Agents"

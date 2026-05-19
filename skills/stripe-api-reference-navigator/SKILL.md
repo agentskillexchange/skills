@@ -3,7 +3,7 @@ name: "Stripe API Reference Navigator"
 slug: "stripe-api-reference-navigator"
 description: "Navigates and queries the Stripe REST API documentation using stripe-node SDK methods. Resolves payment intent lifecycle, webhook event schemas, and Connect platform payout structures with type-safe parameter validation."
 github_stars: 4385
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/stripe/stripe-node"
 category: "Library & API Reference"
 framework: "OpenClaw"

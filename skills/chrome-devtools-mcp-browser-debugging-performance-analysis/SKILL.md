@@ -3,7 +3,7 @@ name: "Chrome DevTools MCP Browser Debugging and Performance Analysis"
 slug: "chrome-devtools-mcp-browser-debugging-performance-analysis"
 description: "Chrome DevTools MCP connects an MCP-compatible agent to a live Chrome browser for debugging, automation, and performance work. It exposes Chrome DevTools capabilities through MCP, so agents can inspect network traffic, collect traces, capture screenshots, and automate browser actions from the same server."
 github_stars: 34239
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/ChromeDevTools/chrome-devtools-mcp"
 author: "ChromeDevTools"
 publisher_type: "Open Source Project"

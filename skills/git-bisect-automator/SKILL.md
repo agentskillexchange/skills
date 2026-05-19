@@ -2,7 +2,7 @@
 name: "Git Bisect Automator"
 slug: "git-bisect-automator"
 description: "Automates git bisect workflows with custom test scripts and CI pipeline integration. Uses the Git CLI and GitHub Actions API to identify regression-introducing commits across large repositories."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://git-scm.com/docs/git-bisect"
 category: "Developer Tools"
 framework: "Claude Code"

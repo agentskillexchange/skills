@@ -3,7 +3,7 @@ name: "Install Superpowers methodology for coding agents"
 slug: "install-superpowers-methodology-for-coding-agents"
 description: "Use Superpowers to give coding agents a structured software-development method with discovery, spec review, planning, TDD, subagents, and review loops."
 github_stars: 194639
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/obra/superpowers"
 author: "Jesse Vincent"
 publisher_type: "individual"

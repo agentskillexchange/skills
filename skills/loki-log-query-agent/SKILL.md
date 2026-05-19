@@ -3,7 +3,7 @@ name: "Loki Log Query Agent"
 slug: "loki-log-query-agent"
 description: ""
 github_stars: 27962
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/grafana/loki"
 author: "Grafana Labs"
 category: "Monitoring & Alerts"

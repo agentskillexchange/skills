@@ -3,7 +3,7 @@ name: "PostgreSQL Query Analyzer"
 slug: "postgresql-query-analyzer"
 description: "Analyzes PostgreSQL slow queries using EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON) output and pg_stat_statements views. Identifies missing indexes via pg_stat_user_tables sequential scan counters and suggests index creation with HypoPG extension."
 github_stars: 13127
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/brianc/node-postgres"
 category: "Runbooks & Diagnostics"
 framework: "Gemini"

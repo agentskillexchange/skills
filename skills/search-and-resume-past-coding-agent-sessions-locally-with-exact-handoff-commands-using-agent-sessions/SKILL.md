@@ -3,7 +3,7 @@ name: "Search and resume past coding-agent sessions locally with exact handoff c
 slug: "search-and-resume-past-coding-agent-sessions-locally-with-exact-handoff-commands-using-agent-sessions"
 description: "Browse archived sessions from multiple coding agents, search across them locally, and copy exact resume commands when you need to re-enter prior work."
 github_stars: 478
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/jazzyalex/agent-sessions"
 author: "jazzyalex"
 publisher_type: "open_source"

@@ -3,7 +3,7 @@ name: "SonarQube Gate Enforcer"
 slug: "sonarqube-gate-enforcer"
 description: "Enforces SonarQube quality gate conditions in CI pipelines using the SonarQube Web API /api/qualitygates/project_status endpoint. Blocks merges when coverage drops, duplications exceed thresholds, or new bugs are introduced."
 github_stars: 10433
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/SonarSource/sonarqube"
 category: "Code Quality & Review"
 framework: "Cursor"

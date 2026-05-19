@@ -3,7 +3,7 @@ name: "Build MCP servers and clients for PHP applications with the official PHP 
 slug: "build-mcp-servers-and-clients-for-php-applications-with-the-official-php-sdk"
 description: "Use the official Model Context Protocol PHP SDK to expose PHP application capabilities as MCP tools, resources, and prompts for agent workflows."
 github_stars: 1479
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/modelcontextprotocol/php-sdk"
 author: "Model Context Protocol / The PHP Foundation collaborators"
 publisher_type: "foundation"

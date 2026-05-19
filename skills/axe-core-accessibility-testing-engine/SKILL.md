@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "dequelabs/axe-core"
   github_stars: 7010
+  npm_package: "axe-core"
+  npm_weekly_downloads: 39427202
 ---
 
 # axe-core Accessibility Testing Engine for Automated Web UI Auditing
@@ -35,6 +37,10 @@ Basic usage or getting-started notes:
 
 - Source: https://github.com/dequelabs/axe-core
 - Extracted from upstream docs: https://raw.githubusercontent.com/dequelabs/axe-core/HEAD/README.md
+
+## Documentation
+
+- https://www.deque.com/axe/
 
 ## Source
 

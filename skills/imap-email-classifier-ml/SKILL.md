@@ -2,7 +2,7 @@
 name: "IMAP Email Classifier"
 slug: "imap-email-classifier-ml"
 description: "Classifies and organizes emails from IMAP servers using imaplib and scikit-learn text classification. Supports custom label rules with SpaCy NER for entity extraction."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://datatracker.ietf.org/doc/html/rfc3501"
 category: "Calendar, Email & Productivity"
 framework: "ChatGPT Agents"

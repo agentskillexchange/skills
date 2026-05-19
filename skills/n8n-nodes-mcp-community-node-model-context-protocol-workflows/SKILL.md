@@ -3,7 +3,7 @@ name: "n8n-nodes-mcp Community Node for Model Context Protocol Workflows"
 slug: "n8n-nodes-mcp-community-node-model-context-protocol-workflows"
 description: "n8n-nodes-mcp is a real n8n community node that lets self-hosted n8n instances connect to Model Context Protocol servers. This skill covers installing the package, configuring MCP transports inside n8n, and using the node in automation workflows that need external tools and structured context exchange."
 github_stars: 3002
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/nerding-io/n8n-nodes-mcp"
 author: "Jd Fiscus"
 publisher_type: "Company"

@@ -3,7 +3,7 @@ name: "Content Readability Optimizer"
 slug: "content-readability-optimizer"
 description: "Analyzes and optimizes content readability using textstat Python library and Hemingway API patterns. Computes Flesch-Kincaid, Gunning Fog, and SMOG indices with automated rewriting suggestions."
 github_stars: 1366
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/textstat/textstat"
 author: "textstat"
 category: "Content Writing & SEO"

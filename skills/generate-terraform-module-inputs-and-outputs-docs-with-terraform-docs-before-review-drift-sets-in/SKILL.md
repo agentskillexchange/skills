@@ -3,7 +3,7 @@ name: "Generate Terraform module inputs and outputs docs with terraform-docs bef
 slug: "generate-terraform-module-inputs-and-outputs-docs-with-terraform-docs-before-review-drift-sets-in"
 description: "Refresh Terraform module documentation from source so variables, outputs, and providers stay aligned with the code before review or release."
 github_stars: 4753
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/terraform-docs/terraform-docs"
 author: "terraform-docs"
 publisher_type: "open_source_project"

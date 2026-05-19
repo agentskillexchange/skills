@@ -3,7 +3,7 @@ name: "SSL Certificate Auditor"
 slug: "ssl-certificate-auditor-agent"
 description: "Audits TLS/SSL configurations using sslyze Python library and SSL Labs API v3. Checks certificate chain validity, HSTS headers, and OCSP stapling status with Certificate Transparency log verification."
 github_stars: 3755
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/nabla-c0d3/sslyze"
 author: "nabla-c0d3"
 category: "Security & Verification"

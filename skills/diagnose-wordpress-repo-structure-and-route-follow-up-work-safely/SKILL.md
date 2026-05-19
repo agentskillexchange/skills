@@ -2,7 +2,7 @@
 name: "Diagnose WordPress repo structure and route follow-up work safely"
 slug: "diagnose-wordpress-repo-structure-and-route-follow-up-work-safely"
 description: "This skill inspects a WordPress codebase, identifies what kind of project it is, and returns the signals an agent needs before touching files or running tools. Use it when you need a deterministic first pass instead of guessing whether a repo is a plugin, block theme, site, core checkout, or mixed workspace."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-project-triage"
 author: "WordPress Contributors"
 publisher_type: "Open Source Project"

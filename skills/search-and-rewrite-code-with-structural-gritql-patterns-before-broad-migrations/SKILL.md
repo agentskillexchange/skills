@@ -3,7 +3,7 @@ name: "Search and rewrite code with structural GritQL patterns before broad migr
 slug: "search-and-rewrite-code-with-structural-gritql-patterns-before-broad-migrations"
 description: "Use GritQL when an agent needs reviewable structural search and rewrite passes across a large codebase before a migration, policy cleanup, or API change, instead of relying on regex or hand edits."
 github_stars: 4482
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/biomejs/gritql"
 author: "biomejs"
 publisher_type: "community"

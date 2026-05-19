@@ -3,7 +3,7 @@ name: "Unstructured Document ETL for LLM Pipelines"
 slug: "unstructured-document-etl-for-llm-pipelines"
 description: "Unstructured is an open source document processing library that converts PDFs, HTML, Office files, emails, and other formats into structured data for downstream AI workflows. It is a practical intake layer for extraction, chunking, and preprocessing before embeddings, search, or agent use."
 github_stars: 14443
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/Unstructured-IO/unstructured"
 author: "Unstructured-IO"
 category: "Data Extraction & Transformation"

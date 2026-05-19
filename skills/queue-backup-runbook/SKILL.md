@@ -3,7 +3,7 @@ name: "Queue Backup Runbook"
 slug: "queue-backup-runbook"
 description: ""
 github_stars: 3992
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/tulios/kafkajs"
 author: "KafkaJS"
 category: "Runbooks & Diagnostics"

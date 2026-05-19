@@ -2,7 +2,7 @@
 name: "Protobuf Documentation Generator"
 slug: "protobuf-documentation-generator"
 description: "Generates API documentation from Protocol Buffer definitions using protoc-gen-doc and buf build toolchain. Produces Markdown, HTML, and DocJSON output with cross-linked message and service references."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://protobuf.dev/"
 author: "Protocol Buffers"
 category: "Library & API Reference"

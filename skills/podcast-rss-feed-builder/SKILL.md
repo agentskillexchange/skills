@@ -2,7 +2,7 @@
 name: "Podcast RSS Feed Builder"
 slug: "podcast-rss-feed-builder"
 description: "Generates and validates podcast RSS feeds compliant with the Apple Podcasts and Spotify specification. Uses the podcast-index API for cross-platform distribution and ID3 tag management via mutagen."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://www.rssboard.org/rss-specification"
 category: "Media & Transcription"
 framework: "Claude Agents"

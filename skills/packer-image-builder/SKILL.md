@@ -3,7 +3,7 @@ name: "Packer Image Builder"
 slug: "packer-image-builder"
 description: ""
 github_stars: 15647
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/hashicorp/packer"
 author: "HashiCorp"
 category: "Templates & Workflows"

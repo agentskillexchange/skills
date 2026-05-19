@@ -3,7 +3,7 @@ name: "Search large codebases semantically from MCP-compatible coding agents wit
 slug: "search-large-codebases-semantically-from-mcp-compatible-coding-agents-with-claude-context"
 description: "Use Claude Context when a coding agent needs targeted semantic retrieval from a very large repository instead of repeatedly loading folders or files into prompt context. It indexes code into a vector database and exposes code-search retrieval through MCP for Claude Code and other compatible agent clients."
 github_stars: 9226
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/zilliztech/claude-context"
 author: "Zilliz"
 publisher_type: "Organization"

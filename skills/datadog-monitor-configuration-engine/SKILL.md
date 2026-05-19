@@ -3,7 +3,7 @@ name: "Datadog Monitor Configuration Engine"
 slug: "datadog-monitor-configuration-engine"
 description: "Interfaces with the Datadog API v2 monitors and dashboards endpoints to programmatically create and manage monitors. Uses DogStatsD protocol for custom metric submission and Datadog Terraform provider for IaC."
 github_stars: 791
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/DataDog/dd-trace-js"
 category: "Monitoring & Alerts"
 framework: "ChatGPT Agents"

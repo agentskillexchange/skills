@@ -3,7 +3,7 @@ name: "Notion Workspace Sync Agent"
 slug: "notion-workspace-sync-agent"
 description: "Bidirectionally syncs project data between Notion databases and external tools using the Notion API v2022-06-28. Connects Jira (REST API), Linear (GraphQL), and GitHub Issues for unified project tracking."
 github_stars: 5582
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/makenotion/notion-sdk-js"
 category: "Calendar, Email & Productivity"
 framework: "Custom Agents"

@@ -3,7 +3,7 @@ name: "Run browser and API automation through the Playwright MCP server"
 slug: "run-browser-and-api-automation-through-the-playwright-mcp-server"
 description: "Expose Playwright browser and API automation commands to MCP-capable agents for supervised test workflows."
 github_stars: 5489
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/executeautomation/mcp-playwright"
 author: "executeautomation"
 publisher_type: "organization"

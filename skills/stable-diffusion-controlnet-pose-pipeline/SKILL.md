@@ -3,7 +3,7 @@ name: "Stable Diffusion ControlNet Pose Pipeline"
 slug: "stable-diffusion-controlnet-pose-pipeline"
 description: "Orchestrates Stable Diffusion image generation with ControlNet pose conditioning via the Automatic1111 API. Chains OpenPose detection, depth estimation, and img2img endpoints."
 github_stars: 33793
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/lllyasviel/ControlNet"
 category: "Image & Creative Automation"
 framework: "Custom Agents"

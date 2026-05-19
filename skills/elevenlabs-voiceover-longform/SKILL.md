@@ -2,7 +2,7 @@
 name: "ElevenLabs Voiceover Generator for Long-Form Content"
 slug: "elevenlabs-voiceover-longform"
 description: "Splits blog posts or scripts into optimal chunks under ElevenLabs character limits, synthesizes each chunk using the v2 Multilingual model, and stitches MP3 segments together with pydub. Supports custom voice cloning via stored Voice IDs with per-segment stability and similarity tuning. Final audio is uploaded to Cloudflare R2 and a signed URL is returned."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://elevenlabs.io/docs"
 author: "ElevenLabs"
 category: "Media & Transcription"
@@ -15,7 +15,13 @@ Splits blog posts or scripts into optimal chunks under ElevenLabs character limi
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Requirements and caveats from upstream:
+- ElevenLabs provides AI voice infrastructure: text-to-speech, speech-to-text, voice cloning, conversational agents, and generative audio. All capabilities are accessible through a REST API with official Python and Type...
+
+Basic usage or getting-started notes:
+- Files
+- Workspaces
+- Light
 
 - Source: https://elevenlabs.io/docs
 

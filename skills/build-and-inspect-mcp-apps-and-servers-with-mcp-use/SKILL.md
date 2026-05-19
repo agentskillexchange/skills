@@ -3,7 +3,7 @@ name: "Build and inspect MCP apps and servers with mcp-use"
 slug: "build-and-inspect-mcp-apps-and-servers-with-mcp-use"
 description: "Use mcp-use to create, test, and package MCP servers or interactive MCP apps that work across agent clients."
 github_stars: 9861
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/mcp-use/mcp-use"
 author: "mcp-use"
 publisher_type: "organization"

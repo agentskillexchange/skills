@@ -2,7 +2,7 @@
 name: "Run PHPStan on WordPress codebases with correct stubs baselines and narrow ignores"
 slug: "run-phpstan-on-wordpress-codebases-with-correct-stubs-baselines-and-narrow-ignores"
 description: "This entry turns WordPress/agent-skills' WP PHPStan guidance into a bounded agent workflow for plugin, theme, and site repositories. The agent inspects the existing PHPStan setup, adds or verifies WordPress-aware stubs, tightens config paths, and fixes or documents only the narrow ignores and baseline changes needed to get useful static-analysis output."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/WordPress/agent-skills/tree/trunk/skills/wp-phpstan"
 author: "WordPress"
 publisher_type: "Open Source Project"

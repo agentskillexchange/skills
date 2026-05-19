@@ -3,7 +3,7 @@ name: "AWS CDK Scaffolder"
 slug: "aws-cdk-scaffolder"
 description: ""
 github_stars: 12737
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/aws/aws-cdk"
 author: "aws"
 category: "Templates & Workflows"

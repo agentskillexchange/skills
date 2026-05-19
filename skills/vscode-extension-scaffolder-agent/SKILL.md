@@ -2,7 +2,7 @@
 name: "VS Code Extension Scaffolder"
 slug: "vscode-extension-scaffolder-agent"
 description: "Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels, language servers via LSP, and custom tree view providers."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://code.visualstudio.com/api/get-started/your-first-extension"
 author: "Microsoft"
 category: "Developer Tools"

@@ -3,7 +3,7 @@ name: "Capture and replay Claude Code trajectories for multi-session debugging w
 slug: "capture-and-replay-claude-code-trajectories-for-multi-session-debugging-with-agent-lens"
 description: "Record structured Claude Code trajectories, shadow git diffs, and replay branches when agent behavior needs forensic debugging instead of ad hoc transcript review."
 github_stars: 102
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/dreadnode/agent-lens"
 author: "Dreadnode"
 publisher_type: "organization"

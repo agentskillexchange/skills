@@ -5,11 +5,14 @@ description: "Hono is a small, simple, and ultrafast web framework built on Web 
 github_stars: 29789
 verification: "security_reviewed"
 source: "https://github.com/honojs/hono"
+author: "honojs"
 category: "Developer Tools"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "honojs/hono"
   github_stars: 29789
+  npm_package: "hono"
+  npm_weekly_downloads: 37119208
 ---
 
 # Hono Ultrafast Web Framework Built on Web Standards
@@ -31,6 +34,10 @@ Basic usage or getting-started notes:
 
 - Source: https://github.com/honojs/hono
 - Extracted from upstream docs: https://raw.githubusercontent.com/honojs/hono/HEAD/README.md
+
+## Documentation
+
+- https://hono.dev
 
 ## Source
 

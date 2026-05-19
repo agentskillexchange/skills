@@ -3,7 +3,7 @@ name: "PagerDuty MCP Server"
 slug: "pagerduty-mcp-server"
 description: ""
 github_stars: 69
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/PagerDuty/pdjs"
 author: "PagerDuty"
 category: "Monitoring & Alerts"

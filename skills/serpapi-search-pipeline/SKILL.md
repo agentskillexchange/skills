@@ -2,7 +2,7 @@
 name: "SerpAPI Search Pipeline"
 slug: "serpapi-search-pipeline"
 description: "Automates multi-engine searches via SerpAPI (Google, Bing, DuckDuckGo) with structured JSON extraction. Supports pagination, location targeting, and result deduplication using MinHash LSH."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://serpapi.com/search-api"
 author: "SerpApi"
 category: "Research & Scraping"

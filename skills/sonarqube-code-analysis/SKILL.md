@@ -2,15 +2,15 @@
 name: "SonarQube Code Analysis"
 slug: "sonarqube-code-analysis"
 description: ""
-github_stars: 10565
-verification: "listed"
+github_stars: 10566
+verification: "security_reviewed"
 source: "https://github.com/SonarSource/sonarqube"
 author: "Sonar"
 category: "Developer Tools"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "sonarsource/sonarqube"
-  github_stars: 10565
+  github_stars: 10566
 ---
 
 # SonarQube Code Analysis

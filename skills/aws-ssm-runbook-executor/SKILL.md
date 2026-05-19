@@ -3,7 +3,7 @@ name: "AWS Systems Manager Runbook"
 slug: "aws-ssm-runbook-executor"
 description: "Execute AWS Systems Manager Automation runbooks and Run Command documents using the SSM API and boto3. Supports cross-account execution, rate controls, and parameter store integration."
 github_stars: 3607
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/aws/aws-sdk-js-v3"
 category: "Runbooks & Diagnostics"
 framework: "Claude Agents"

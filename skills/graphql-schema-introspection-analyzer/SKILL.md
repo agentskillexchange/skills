@@ -3,7 +3,7 @@ name: "GraphQL Schema Introspection Analyzer"
 slug: "graphql-schema-introspection-analyzer"
 description: "Introspects GraphQL APIs via the standard __schema query and analyzes type systems using graphql-js utilities (buildClientSchema, printSchema). Detects N+1 patterns, circular types, deprecated field usage, and missing nullability annotations."
 github_stars: 20324
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/graphql/graphql-js"
 category: "Library & API Reference"
 framework: "MCP"

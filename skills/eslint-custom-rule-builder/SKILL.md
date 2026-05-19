@@ -3,7 +3,7 @@ name: "ESLint Custom Rule Builder"
 slug: "eslint-custom-rule-builder"
 description: "Scaffolds and tests custom ESLint rules using the RuleTester API and AST Explorer patterns. Generates rule documentation with fixable autofix implementations."
 github_stars: 27188
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/eslint/eslint"
 category: "Code Quality & Review"
 framework: "Cursor"

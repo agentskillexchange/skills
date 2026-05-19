@@ -3,7 +3,7 @@ name: "OWASP ZAP Scan Orchestrator"
 slug: "owasp-zap-scan-orchestrator"
 description: "Orchestrates OWASP ZAP active and passive scans via the ZAP API, automating spider crawls, AJAX spidering with Selenium, and generating SARIF-format vulnerability reports."
 github_stars: 14991
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/zaproxy/zaproxy"
 category: "Security & Verification"
 framework: "Codex"

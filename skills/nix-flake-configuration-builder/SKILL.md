@@ -3,7 +3,7 @@ name: "Nix Flake Configuration Builder"
 slug: "nix-flake-configuration-builder"
 description: "Generates reproducible Nix flake configurations with devShell environments and package overlays. Uses the Nix Flakes API, nixpkgs lib functions, and flake-utils for cross-platform builds."
 github_stars: 16764
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/NixOS/nix"
 author: "NixOS"
 category: "Developer Tools"

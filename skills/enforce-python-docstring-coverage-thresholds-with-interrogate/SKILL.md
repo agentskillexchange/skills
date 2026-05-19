@@ -3,7 +3,7 @@ name: "Enforce Python Docstring Coverage Thresholds with interrogate"
 slug: "enforce-python-docstring-coverage-thresholds-with-interrogate"
 description: "Measure Python docstring coverage and fail a docs-quality gate when code drops below an agreed threshold."
 github_stars: 662
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/econchick/interrogate"
 author: "econchick"
 publisher_type: "individual"

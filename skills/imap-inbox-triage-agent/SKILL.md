@@ -2,7 +2,7 @@
 name: "IMAP Inbox Triage Agent"
 slug: "imap-inbox-triage-agent"
 description: "Connects to IMAP email servers to classify, prioritize, and auto-label incoming messages using rule-based and ML-driven filtering. Supports Gmail, Outlook, and Fastmail."
-verification: "listed"
+verification: "security_reviewed"
 source: "https://datatracker.ietf.org/doc/html/rfc3501"
 category: "Calendar, Email & Productivity"
 framework: "Codex"

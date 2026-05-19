@@ -3,7 +3,7 @@ name: "Apache Tika Document Extractor"
 slug: "apache-tika-document-extractor"
 description: "Wraps Apache Tika Server REST API for extracting structured text from PDFs, DOCX, PPTX, and 1,200+ file formats. Outputs clean markdown with metadata preservation using Tika /rmeta/text endpoint and recursive parsing mode."
 github_stars: 3695
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/apache/tika"
 category: "Data Extraction & Transformation"
 framework: "Codex"

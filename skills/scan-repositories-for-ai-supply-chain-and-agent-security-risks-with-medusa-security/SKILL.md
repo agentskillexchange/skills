@@ -3,7 +3,7 @@ name: "Scan repositories for AI supply-chain and agent-security risks with Medus
 slug: "scan-repositories-for-ai-supply-chain-and-agent-security-risks-with-medusa-security"
 description: "Use Medusa Security before trusting a repository, dependency, or AI-agent codebase when an agent needs a focused scan for repo poisoning, prompt-injection, MCP, and AI supply-chain findings."
 github_stars: 256
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/Pantheon-Security/medusa"
 author: "Pantheon Security"
 publisher_type: "organization"
