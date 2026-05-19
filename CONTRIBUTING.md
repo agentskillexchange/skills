@@ -25,9 +25,9 @@ git commit -m "Add my-skill-name"
 git push origin main
 ```
 
-### 2. Submit via the Website
+### 2. Generate via the Website
 
-Use the [Create Skill](https://agentskillexchange.com/create-skill/) page. Skills submitted this way are automatically synced to this repo.
+Use the [Create Skill](https://agentskillexchange.com/create-skill/) page to generate a repo-ready `SKILL.md`, then submit it through a GitHub pull request. The website wizard does not directly publish or sync submissions.
 
 ### 3. Improve an Existing Skill
 
@@ -170,7 +170,7 @@ New skills enter as **Published** (`verification: listed`). Security review is h
 1. Open a PR with your new or updated skill
 2. Automated checks validate the SKILL.md format and scan for security concerns
 3. A reviewer checks the content for quality and accuracy
-4. If approved, it merges to `main` and syncs to the marketplace within the hour
+4. If approved, it merges to `main`; marketplace sync is handled by the ASE automation pipeline.
 
 ---
 

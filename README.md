@@ -200,9 +200,9 @@ Requirements:
 - Content must be 100+ words with real technical detail
 - Must fit an existing category and framework
 
-### Option 2: Web Submission
+### Option 2: Create Skill Wizard
 
-Submit through [agentskillexchange.com/create-skill](https://agentskillexchange.com/create-skill/) — auto-synced to this repo daily.
+Use [agentskillexchange.com/create-skill](https://agentskillexchange.com/create-skill/) to generate a repo-ready `SKILL.md`, then open a pull request with the generated file.
 
 ---
 
