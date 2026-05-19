@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-05-19
-# Total: 2475 skills
+# Total: 2476 skills
+
+## Install selected ECC agent skills and rules across coding harnesses
+slug: install-selected-ecc-agent-skills-and-rules-across-coding-harnesses
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Published
+description: Use Everything Claude Code to install curated skills, rules, hooks, and MCP configuration into Claude Code, Codex, Cursor, OpenCode, and related coding-agent harnesses without…
+url: https://agentskillexchange.com/skills/install-selected-ecc-agent-skills-and-rules-across-coding-harnesses/
 
 ## Build versioned technical docs sites with search and navigation using Material for MkDocs
 slug: build-versioned-technical-docs-sites-with-search-and-nav-using-material-for-mkdocs

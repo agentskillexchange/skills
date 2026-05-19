@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2475 published skills** across **17 categories** · 2,131 security reviewed · Updated 2026-05-19 04:09 UTC
+> **2476 published skills** across **17 categories** · 2,131 security reviewed · Updated 2026-05-19 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1312,13 +1312,14 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [PagerDuty Event Orchestration Runbook](skills/pagerduty-event-orchestration-runbook/) | Builds incident runbooks around the PagerDuty Events API v2, Incidents API, and Response Plays so agents can… | Published | — | — |
 
 
-### 📄 Templates & Workflows (159 skills)
+### 📄 Templates & Workflows (160 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
 | Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
 |---|---|---|---:|---:|
 | [Install Superpowers methodology for coding agents](skills/install-superpowers-methodology-for-coding-agents/) | Use Superpowers to give coding agents a structured software-development method with discovery, spec review,… | Security Reviewed | 194.6k | — |
+| [Install selected ECC agent skills and rules across coding harnesses](skills/install-selected-ecc-agent-skills-and-rules-across-coding-harnesses/) | Use Everything Claude Code to install curated skills, rules, hooks, and MCP configuration into Claude Code, Codex,… | Published | 186.8k | — |
 | [Run continuous workflow agents with AutoGPT](skills/run-continuous-workflow-agents-with-autogpt/) | Self-host AutoGPT to build, test, deploy, and operate continuous AI agents for repeatable multi-step workflows. | Security Reviewed | 184k | — |
 | [Langflow Visual AI Agent and Workflow Builder](skills/langflow-visual-ai-agent-workflow-builder/) | Langflow is an open-source visual builder for AI agents and workflows. It lets teams design flows graphically,… | Security Reviewed | 146.8k | — |
 | [Run a self-improving personal agent with Hermes Agent](skills/run-a-self-improving-personal-agent-with-hermes-agent/) | Deploy Hermes Agent as a persistent personal agent that learns skills from experience, searches past sessions,… | Security Reviewed | 135.2k | — |
@@ -2244,7 +2245,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [Podcast RSS Feed Transcriber](skills/podcast-rss-feed-transcriber/) | Automatically fetches podcast episodes from RSS feeds using feedparser, downloads audio enclosures, and transcribes… | Security Reviewed | 97.4k | — |
 | [Immich Self-Hosted Photo and Video Management Platform](skills/immich-photo-video-management-platform/) | Immich is a high-performance self-hosted photo and video management solution with 90K+ GitHub stars. It provides… | Published | 96.2k | — |
 | [Tesseract OCR Engine for Image-to-Text Workflows](skills/tesseract-ocr-engine-for-image-to-text-workflows/) | Tesseract OCR is a widely used open source optical character recognition engine with command line and library… | Security Reviewed | 73.4k | — |
-| [Video Frames Extractor](skills/video-frames-extractor/) | Extract frames and short clips from videos. Core Capabilities Process audio and video files using ffmpeg for… | Published | 60.2k | — |
+| [Video Frames Extractor](skills/video-frames-extractor/) | Extract frames and short clips from videos. Core Capabilities Process audio and video files using ffmpeg for… | Published | 60.3k | — |
 | [Live Stream Clip Extractor](skills/live-stream-clip-extractor-agent/) | Extracts highlight clips from live streams using Twitch Helix API, YouTube Live Streaming API, and FFmpeg segment… | Published | 59.4k | — |
 | [Podcast RSS Feed Audio Normalizer](skills/podcast-rss-feed-audio-normalizer/) | Parses podcast RSS feeds with feedparser and normalizes audio loudness to -16 LUFS broadcast standard using ffmpeg… | Published | 59.4k | — |
 | [Video Subtitle Auto-Translator](skills/video-subtitle-auto-translator-agent/) | Translates video subtitles across 100+ languages using DeepL API and Google Cloud Translation v3. Handles SRT/VTT… | Published | 59.4k | — |

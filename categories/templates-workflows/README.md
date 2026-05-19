@@ -7,6 +7,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | Skill | Stars |
 |---|---:|
 | [Install Superpowers methodology for coding agents](../../skills/install-superpowers-methodology-for-coding-agents/) | ⭐ 194.6k |
+| [Install selected ECC agent skills and rules across coding harnesses](../../skills/install-selected-ecc-agent-skills-and-rules-across-coding-harnesses/) | ⭐ 186.8k |
 | [Run continuous workflow agents with AutoGPT](../../skills/run-continuous-workflow-agents-with-autogpt/) | ⭐ 184k |
 | [Langflow Visual AI Agent and Workflow Builder](../../skills/langflow-visual-ai-agent-workflow-builder/) | ⭐ 146.8k |
 | [Run a self-improving personal agent with Hermes Agent](../../skills/run-a-self-improving-personal-agent-with-hermes-agent/) | ⭐ 135.2k |
@@ -15,7 +16,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](../../skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/) | ⭐ 116.8k |
 | [Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue](../../skills/triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue/) | ⭐ 116.8k |
 | [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms-2/) | ⭐ 116.2k |
-| [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms/) | ⭐ 116.2k |
 
 ---
 
@@ -41,6 +41,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Install Superpowers methodology for coding agents](../../skills/install-superpowers-methodology-for-coding-agents/) | 194.6k | — |
+| [Install selected ECC agent skills and rules across coding harnesses](../../skills/install-selected-ecc-agent-skills-and-rules-across-coding-harnesses/) | 186.8k | — |
 | [Run continuous workflow agents with AutoGPT](../../skills/run-continuous-workflow-agents-with-autogpt/) | 184k | — |
 | [Langflow Visual AI Agent and Workflow Builder](../../skills/langflow-visual-ai-agent-workflow-builder/) | 146.8k | — |
 | [Run a self-improving personal agent with Hermes Agent](../../skills/run-a-self-improving-personal-agent-with-hermes-agent/) | 135.2k | — |

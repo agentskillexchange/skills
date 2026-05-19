@@ -1,8 +1,20 @@
 {
   "version": "2.0",
-  "total": 2475,
+  "total": 2476,
   "generated": "2026-05-19",
   "skills": [
+    {
+      "slug": "install-selected-ecc-agent-skills-and-rules-across-coding-harnesses",
+      "name": "Install selected ECC agent skills and rules across coding harnesses",
+      "title": "Install selected ECC agent skills and rules across coding harnesses",
+      "description": "Use Everything Claude Code to install curated skills, rules, hooks, and MCP configuration into Claude Code, Codex, Cursor, OpenCode, and related coding-agent harnesses without…",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "signals": {
+        "github_stars": 186751
+      }
+    },
     {
       "slug": "build-versioned-technical-docs-sites-with-search-and-nav-using-material-for-mkdocs",
       "name": "Build versioned technical docs sites with search and navigation using Material for MkDocs",
@@ -29721,7 +29733,7 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 25204,
+        "github_stars": 25207,
         "npm_weekly_downloads": 2247158,
         "license": "Apache-2.0"
       }
@@ -29735,7 +29747,7 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 48421
+        "github_stars": 48422
       }
     },
     {
@@ -29954,7 +29966,7 @@
       "framework": "OpenClaw",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 10911,
+        "github_stars": 10912,
         "npm_weekly_downloads": 21570742,
         "license": "Apache-2.0"
       }
@@ -29981,7 +29993,7 @@
       "framework": "OpenClaw",
       "verification": "listed",
       "signals": {
-        "github_stars": 60250
+        "github_stars": 60252
       }
     },
     {
@@ -29998,7 +30010,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 85898
+        "github_stars": 85899
       }
     },
     {
@@ -30010,7 +30022,7 @@
       "framework": "OpenClaw",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 99726,
+        "github_stars": 99731,
         "license": "MIT"
       }
     },
@@ -30040,7 +30052,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 85898,
+        "github_stars": 85899,
         "npm_weekly_downloads": 225428
       }
     },
@@ -30087,7 +30099,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 85898,
+        "github_stars": 85899,
         "npm_weekly_downloads": 395921
       }
     },
@@ -30105,7 +30117,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 32694,
+        "github_stars": 32697,
         "npm_weekly_downloads": 2184986,
         "license": "Apache-2.0"
       }
@@ -30134,7 +30146,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 88965,
+        "github_stars": 88970,
         "npm_weekly_downloads": 53261626,
         "license": "Apache-2.0"
       }

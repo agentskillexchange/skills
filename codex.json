@@ -2,8 +2,17 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-05-19",
-  "total": 2475,
+  "total": 2476,
   "skills": [
+    {
+      "slug": "install-selected-ecc-agent-skills-and-rules-across-coding-harnesses",
+      "name": "Install selected ECC agent skills and rules across coding harnesses",
+      "title": "Install selected ECC agent skills and rules across coding harnesses",
+      "description": "Use Everything Claude Code to install curated skills, rules, hooks, and MCP configuration into Claude Code, Codex, Cursor, OpenCode, and related coding-agent harnesses without…",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
     {
       "slug": "build-versioned-technical-docs-sites-with-search-and-nav-using-material-for-mkdocs",
       "name": "Build versioned technical docs sites with search and navigation using Material for MkDocs",
