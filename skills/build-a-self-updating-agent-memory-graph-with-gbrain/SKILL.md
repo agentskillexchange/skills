@@ -3,7 +3,7 @@ name: "Build a self-updating agent memory graph with GBrain"
 slug: "build-a-self-updating-agent-memory-graph-with-gbrain"
 description: "Use GBrain to give OpenClaw or Hermes-style agents a local knowledge brain with markdown ingestion, entity links, hybrid search, scheduled consolidation, and MCP access."
 github_stars: 17347
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/garrytan/gbrain"
 author: "Garry Tan"
 publisher_type: "individual"

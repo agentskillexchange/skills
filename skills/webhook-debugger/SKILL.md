@@ -2,7 +2,7 @@
 name: "Webhook Debugger"
 slug: "webhook-debugger"
 description: ""
-github_stars: 4423
+github_stars: 4424
 verification: "security_reviewed"
 source: "https://github.com/stripe/stripe-node"
 author: "Stripe"
@@ -10,9 +10,9 @@ category: "Developer Tools"
 framework: "Claude Agents"
 tool_ecosystem:
   github_repo: "stripe/stripe-node"
-  github_stars: 4423
+  github_stars: 4424
   npm_package: "stripe"
-  npm_weekly_downloads: 12010695
+  npm_weekly_downloads: 12066978
 ---
 
 # Webhook Debugger

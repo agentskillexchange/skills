@@ -13,7 +13,7 @@ tool_ecosystem:
   github_repo: "steipete/claude-code-mcp"
   github_stars: 1283
   npm_package: "@steipete/claude-code-mcp"
-  npm_weekly_downloads: 529
+  npm_weekly_downloads: 499
 ---
 
 # Claude Code MCP Bridge

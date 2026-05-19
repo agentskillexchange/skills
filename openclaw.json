@@ -11,7 +11,7 @@
       "description": "Use GBrain to give OpenClaw or Hermes-style agents a local knowledge brain with markdown ingestion, entity links, hybrid search, scheduled consolidation, and MCP access.",
       "category": "Templates & Workflows",
       "framework": "OpenClaw",
-      "verification": "listed"
+      "verification": "security_reviewed"
     },
     {
       "slug": "install-selected-ecc-agent-skills-and-rules-across-coding-harnesses",

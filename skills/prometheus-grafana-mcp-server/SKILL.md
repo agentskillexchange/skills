@@ -2,7 +2,7 @@
 name: "Prometheus / Grafana MCP Server"
 slug: "prometheus-grafana-mcp-server"
 description: ""
-github_stars: 73864
+github_stars: 73870
 verification: "listed"
 source: "https://github.com/grafana/grafana"
 author: "Grafana Labs"
@@ -10,7 +10,7 @@ category: "Monitoring & Alerts"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "grafana/grafana"
-  github_stars: 73864
+  github_stars: 73870
 ---
 
 # Prometheus / Grafana MCP Server
