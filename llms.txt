@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-05-18
-# Total: 2474 skills
+# Generated: 2026-05-19
+# Total: 2475 skills
+
+## Build versioned technical docs sites with search and navigation using Material for MkDocs
+slug: build-versioned-technical-docs-sites-with-search-and-nav-using-material-for-mkdocs
+category: Content Writing & SEO
+framework: Multi-Framework
+verification: Published
+description: Use Material for MkDocs to turn Markdown documentation into a searchable, navigable static site with project-ready configuration and previews.
+url: https://agentskillexchange.com/skills/build-versioned-technical-docs-sites-with-search-and-nav-using-material-for-mkdocs/
 
 ## Deploy OpenClaw on Cloudflare Workers with Moltworker
 slug: deploy-openclaw-on-cloudflare-workers-with-moltworker

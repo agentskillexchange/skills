@@ -1,8 +1,20 @@
 {
   "version": "2.0",
-  "total": 2474,
-  "generated": "2026-05-18",
+  "total": 2475,
+  "generated": "2026-05-19",
   "skills": [
+    {
+      "slug": "build-versioned-technical-docs-sites-with-search-and-nav-using-material-for-mkdocs",
+      "name": "Build versioned technical docs sites with search and navigation using Material for MkDocs",
+      "title": "Build versioned technical docs sites with search and navigation using Material for MkDocs",
+      "description": "Use Material for MkDocs to turn Markdown documentation into a searchable, navigable static site with project-ready configuration and previews.",
+      "category": "Content Writing & SEO",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "signals": {
+        "github_stars": 26746
+      }
+    },
     {
       "slug": "deploy-openclaw-on-cloudflare-workers-with-moltworker",
       "name": "Deploy OpenClaw on Cloudflare Workers with Moltworker",

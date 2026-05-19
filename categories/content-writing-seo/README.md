@@ -8,6 +8,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 |---|---:|
 | [Typst Markup-Based Document Typesetting System](../../skills/typst-markup-typesetting-system/) | ⭐ 52.4k |
 | [Tiptap Headless Rich Text Editor Framework for Web Applications](../../skills/tiptap-headless-rich-text-editor-framework/) | ⭐ 35.9k |
+| [Build versioned technical docs sites with search and navigation using Material for MkDocs](../../skills/build-versioned-technical-docs-sites-with-search-and-nav-using-material-for-mkdocs/) | ⭐ 26.7k |
 | [Diagnose Site SEO Issues with a Structured Audit](../../skills/diagnose-site-seo-issues-with-a-structured-audit/) | ⭐ 21.9k |
 | [Plan Programmatic SEO Pages at Scale](../../skills/plan-programmatic-seo-pages-at-scale/) | ⭐ 21.9k |
 | [WordPress Content Optimizer](../../skills/wordpress-content-optimizer-yoast-rest/) | ⭐ 21k |
@@ -15,7 +16,6 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Zola Fast Static Site Generator in a Single Binary](../../skills/zola-static-site-generator/) | ⭐ 16.8k |
 | [Markdown-to-AMP Article Converter](../../skills/markdown-to-amp-article-converter/) | ⭐ 14.9k |
 | [LanguageTool Grammar and Style Checker](../../skills/languagetool-grammar-style-checker/) | ⭐ 14.2k |
-| [Harper Offline Privacy-First Grammar Checker by Automattic](../../skills/harper-offline-grammar-checker-automattic/) | ⭐ 10.2k |
 
 ---
 
@@ -41,6 +41,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 |---|---:|---:|
 | [Typst Markup-Based Document Typesetting System](../../skills/typst-markup-typesetting-system/) | 52.4k | — |
 | [Tiptap Headless Rich Text Editor Framework for Web Applications](../../skills/tiptap-headless-rich-text-editor-framework/) | 35.9k | 45.6k/wk |
+| [Build versioned technical docs sites with search and navigation using Material for MkDocs](../../skills/build-versioned-technical-docs-sites-with-search-and-nav-using-material-for-mkdocs/) | 26.7k | — |
 | [Diagnose Site SEO Issues with a Structured Audit](../../skills/diagnose-site-seo-issues-with-a-structured-audit/) | 21.9k | — |
 | [Plan Programmatic SEO Pages at Scale](../../skills/plan-programmatic-seo-pages-at-scale/) | 21.9k | — |
 | [WordPress Content Optimizer](../../skills/wordpress-content-optimizer-yoast-rest/) | 21k | — |

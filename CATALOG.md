@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2474 published skills** across **17 categories** · 200 security reviewed · Updated 2026-05-18 19:00 UTC
+> **2475 published skills** across **17 categories** · 200 security reviewed · Updated 2026-05-19 01:31 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -2534,7 +2534,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [RunPod Serverless GPU Inference](skills/runpod-serverless-gpu-inference/) | Deploy and manage GPU inference endpoints on RunPod Serverless using their REST API. Handles endpoint creation, cold… | Published | — | — |
 
 
-### ✍️ Content Writing & SEO (77 skills)
+### ✍️ Content Writing & SEO (78 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
 
@@ -2542,6 +2542,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 |---|---|---|---:|---:|
 | [Typst Markup-Based Document Typesetting System](skills/typst-markup-typesetting-system/) | Typst is a modern markup-based typesetting system designed to replace LaTeX with a faster, easier-to-learn… | Security Reviewed | 52.4k | — |
 | [Tiptap Headless Rich Text Editor Framework for Web Applications](skills/tiptap-headless-rich-text-editor-framework/) | Tiptap is a headless, framework-agnostic rich text editor built on ProseMirror. It provides a fully customizable… | Security Reviewed | 35.9k | 45.6k/wk |
+| [Build versioned technical docs sites with search and navigation using Material for MkDocs](skills/build-versioned-technical-docs-sites-with-search-and-nav-using-material-for-mkdocs/) | Use Material for MkDocs to turn Markdown documentation into a searchable, navigable static site with project-ready… | Published | 26.7k | — |
 | [Diagnose Site SEO Issues with a Structured Audit](skills/diagnose-site-seo-issues-with-a-structured-audit/) | Run a structured SEO audit that surfaces crawlability, technical, and on-page issues before you start guessing at… | Published | 21.9k | — |
 | [Plan Programmatic SEO Pages at Scale](skills/plan-programmatic-seo-pages-at-scale/) | Design template and data driven SEO page programs that can scale without collapsing into thin, duplicate, or… | Published | 21.9k | — |
 | [WordPress Content Optimizer](skills/wordpress-content-optimizer-yoast-rest/) | Optimizes WordPress posts for SEO using the Yoast SEO REST API fields alongside WP REST API v2 for content updates.… | Published | 21k | — |
