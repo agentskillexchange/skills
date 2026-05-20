@@ -81,7 +81,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | Skill | Tool | ⭐ Stars | Category |
 |-------|------|--------:|----------|
 | [Build frontend copilot and generative UI workflows with CopilotKit](skills/build-frontend-copilot-and-generative-ui-workflows-with-copilotkit/) | build-frontend-copilot-and-generative-ui-workflows-with-copilotkit | 31.5k | Developer Tools |
-| [Route Claude Code requests across models and providers with Claude Code Router](skills/route-claude-code-requests-across-models-and-providers-with-claude-code-router/) | route-claude-code-requests-across-models-and-providers-with-claude-code-router | 33.9k | Developer Tools |
+| [Build React agent chat interfaces with assistant-ui](skills/build-react-agent-chat-interfaces-with-assistant-ui/) | build-react-agent-chat-interfaces-with-assistant-ui | 10.1k | Developer Tools |
 | [Parse local PDFs into agent-ready text, JSON, and screenshots with LiteParse](skills/parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse/) | parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse | 5.1k | Data Extraction & Transformation |
 | [Run long-horizon spec-driven coding agent workflows with GSD 2](skills/run-long-horizon-spec-driven-coding-agent-workflows-with-gsd-2/) | run-long-horizon-spec-driven-coding-agent-workflows-with-gsd-2 | 7.3k | Templates & Workflows |
 | [Build and inspect MCP apps and servers with mcp-use](skills/build-and-inspect-mcp-apps-and-servers-with-mcp-use/) | build-and-inspect-mcp-apps-and-servers-with-mcp-use | 9.9k | Integrations & Connectors |

@@ -8,8 +8,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 |---|---:|
 | [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | ⭐ 116.9k |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../../skills/markitdown-document-to-markdown-converter-microsoft/) | ⭐ 93.2k |
-| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | ⭐ 85.9k |
-| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | ⭐ 85.9k |
+| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | ⭐ 86k |
+| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | ⭐ 86k |
 | [Build document-grounded agent context workflows with RAGFlow](../../skills/build-document-grounded-agent-context-workflows-with-ragflow/) | ⭐ 79.8k |
 | [Use RAGFlow as a retrieval and context layer for agent workflows](../../skills/use-ragflow-as-a-retrieval-and-context-layer-for-agent-workflows/) | ⭐ 79.8k |
 | [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | ⭐ 76.5k |
@@ -42,8 +42,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 |---|---:|---:|
 | [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | 116.9k | — |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../../skills/markitdown-document-to-markdown-converter-microsoft/) | 93.2k | — |
-| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | 85.9k | 395.9k/wk |
-| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 85.9k | — |
+| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | 86k | 395.9k/wk |
+| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 86k | — |
 | [Build document-grounded agent context workflows with RAGFlow](../../skills/build-document-grounded-agent-context-workflows-with-ragflow/) | 79.8k | — |
 | [Use RAGFlow as a retrieval and context layer for agent workflows](../../skills/use-ragflow-as-a-retrieval-and-context-layer-for-agent-workflows/) | 79.8k | — |
 | [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | 76.5k | — |
@@ -200,7 +200,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Query cross-connector business data for agents with Dinobase](../../skills/query-cross-connector-business-data-for-agents-with-dinobase/) | 252 | — |
 | [Weaviate MCP Server](../../skills/weaviate-mcp-server/) | 161 | — |
 | [Turn documents into validated knowledge graphs with Docling Graph](../../skills/turn-documents-into-validated-knowledge-graphs-with-docling-graph/) | 134 | — |
-| [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 87 | — |
+| [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 88 | — |
 | [Turn captured WARC pages into clean text and language-tagged records with warc2text](../../skills/turn-captured-warc-pages-into-clean-text-and-language-tagged-records-with-warc2text/) | 23 | — |
 | [Search large PDFs and read only the relevant pages before answering](../../skills/search-large-pdfs-and-read-only-the-relevant-pages-before-answering/) | 17 | — |
 | [Process, redact, OCR, and sign documents with Nutrient Agent Skill](../../skills/process-redact-ocr-and-sign-documents-with-nutrient-agent-skill/) | 5 | — |

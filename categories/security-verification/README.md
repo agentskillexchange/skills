@@ -76,7 +76,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [SOPS Encrypted Secrets Editor and Manager](../../skills/sops-encrypted-secrets-editor-manager/) | 21.3k | — |
 | [Sanitize untrusted HTML fragments before rendering previews, comments, or CMS content with DOMPurify](../../skills/sanitize-untrusted-html-fragments-before-rendering-previews-comments-or-cms-content-dompurify/) | 16.9k | — |
 | [Audit Linux host hardening drift before exposing SSH or rolling to production](../../skills/audit-linux-host-hardening-drift-before-exposing-ssh-or-rolling-to-production/) | 15.5k | — |
-| [Security Audit Skill](../../skills/security-audit-skill/) | 15.1k | — |
+| [Security Audit Skill](../../skills/security-audit-skill/) | 15.2k | — |
 | [ZAP Automated Security Scan Orchestrator](../../skills/zap-automated-security-scan-orchestrator/) | 15k | — |
 | [SuperTokens Open Source Authentication Platform and Auth0 Alternative](../../skills/supertokens-open-source-auth-platform/) | 15k | — |
 | [OWASP ZAP Active Scanner Agent](../../skills/owasp-zap-active-scanner-agent/) | 15k | — |
@@ -200,7 +200,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Sign agent-made Git commits with gitsign](../../skills/sign-agent-made-git-commits-with-gitsign/) | 1.1k | — |
 | [Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit](../../skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit/) | 1.1k | 20.9k/wk |
 | [Screen packages and agent skill repos for malware and supply-chain risk before adoption with SafeDep Vet](../../skills/screen-packages-and-agent-skill-repos-for-malware-and-supply-chain-risk-before-adoption-with-safedep-vet/) | 1k | 90/wk |
-| [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | 993 | — |
+| [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | 995 | — |
 | [Audit Go dependency licenses with go-licenses](../../skills/audit-go-dependency-licenses-with-go-licenses/) | 992 | — |
 | [CycloneDX SBOM Generator](../../skills/cyclonedx-sbom-generator/) | 956 | — |
 | [Scan agent workflows for tools, MCP exposure, and adversarial risk with Agentic Radar](../../skills/scan-agent-workflows-for-tools-mcp-exposure-and-adversarial-risk-with-agentic-radar/) | 953 | — |
@@ -230,7 +230,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Put approval gates and audit-ready policy checks between agents and external actions with DashClaw](../../skills/put-approval-gates-and-audit-ready-policy-checks-between-agents-and-external-actions-with-dashclaw/) | 241 | 1.6k/wk |
 | [Enforce policy-gated and auditable agent execution with LACP](../../skills/enforce-policy-gated-and-auditable-agent-execution-with-lacp/) | 211 | — |
 | [Lint and autofix agent config files before broken prompts, hooks, or MCP settings derail runs with agnix](../../skills/lint-and-autofix-agent-config-files-before-broken-prompts-hooks-or-mcp-settings-derail-runs-with-agnix/) | 179 | 6k/wk |
-| [Sentry for AI](../../skills/sentry-for-ai/) | 178 | — |
+| [Sentry for AI](../../skills/sentry-for-ai/) | 179 | — |
 | [Gitxray GitHub Repository Security X-Ray](../../skills/gitxray-github-repository-security-xray/) | 174 | — |
 | [Run coding agents in a locked-down local sandbox with repo-only filesystem access and controlled egress using agent-sandbox](../../skills/run-coding-agents-in-a-locked-down-local-sandbox-with-repo-only-filesystem-access-and-controlled-egress-using-agent-sandbox/) | 163 | — |
 | [Wrap local coding agents in deny-by-default least-privilege sandboxes with Greywall](../../skills/wrap-local-coding-agents-in-deny-by-default-least-privilege-sandboxes-with-greywall/) | 158 | — |
