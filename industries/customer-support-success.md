@@ -23,6 +23,10 @@ Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, c
 | [Inspect Freshservice service-management tickets and modules through MCP](../skills/inspect-freshservice-service-management-tickets-and-modules-through-mcp/) | Integrations & Connectors | 31 | — |
 | [Normalize vCard contact exports into structured contact records before CRM imports or dedup jobs](../skills/normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs/) | Integrations & Connectors | 50 | — |
 | [Normalize international phone numbers into E.164 before CRM imports or messaging workflows](../skills/normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows/) | Integrations & Connectors | — | 15.6M/wk |
+| [Gmail Thread Summarizer and Action Extractor](../skills/gmail-thread-summarizer-action-extractor/) | Calendar, Email & Productivity | — | — |
+| [Extract structured data and attachments from raw email with MailParser](../skills/extract-structured-data-and-attachments-from-raw-email-mailparser/) | Calendar, Email & Productivity | 1.7k | — |
+| [AssemblyAI Real-Time Call Intelligence](../skills/assemblyai-realtime-call-intelligence/) | Integrations & Connectors | — | — |
+| [Strip quoted email history and signatures before summarizing inbound replies](../skills/strip-quoted-email-history-and-signatures-before-summarizing-inbound-replies/) | Calendar, Email & Productivity | 78 | — |
 
 ## Editorial Caution
 

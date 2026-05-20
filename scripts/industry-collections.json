@@ -13,7 +13,11 @@
         "ffsubsync-subtitle-synchronization-tool",
         "normalize-loudness-across-podcast-lesson-or-video-batches-before-publishing",
         "whisperx-speech-recognition-timestamps-diarization",
-        "capture-youtube-transcripts-without-browser-automation-using-youtube-transcript-api"
+        "capture-youtube-transcripts-without-browser-automation-using-youtube-transcript-api",
+        "faster-whisper-high-performance-speech-transcription",
+        "deepgram-realtime-transcription-connector",
+        "assemblyai-summarization-chapters-skill",
+        "self-host-an-openai-compatible-speech-api-for-local-transcription-translation-and-tts-with-speaches"
       ]
     },
     {
@@ -26,7 +30,13 @@
         "sec-edgar-financial-filing-parser",
         "extract-invoice-fields-from-vendor-pdfs-into-structured-records",
         "ghostfolio-wealth-management-portfolio-tracking",
-        "openmeter-usage-metering-and-billing-platform"
+        "openmeter-usage-metering-and-billing-platform",
+        "stripe-reporting-agent",
+        "stripe-revenue-reconciliation-agent",
+        "stripe-revenue-analytics-dashboard",
+        "stripe-mcp-server",
+        "stripe-webhook-signature-verifier",
+        "quickbooks-invoice-reconciliation"
       ]
     },
     {
@@ -42,7 +52,11 @@
         "woocommerce-rest-inventory-sync",
         "stripe-connect-marketplace-sync",
         "woocommerce-webhook-delivery-inspector",
-        "run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp"
+        "run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp",
+        "stripe-payment-flow-connector",
+        "stripe-connect-account-provisioner",
+        "bubble-stripe-subscription-portal",
+        "cheerio-product-price-tracker"
       ]
     },
     {
@@ -79,7 +93,11 @@
         "whisperx-speech-recognition-timestamps-diarization",
         "docuseal-document-signing-pdf-forms",
         "pdfplumber-python-pdf-text-table-extraction",
-        "expose-fhir-healthcare-data-resources-to-mcp-agents-with-review-boundaries"
+        "expose-fhir-healthcare-data-resources-to-mcp-agents-with-review-boundaries",
+        "apache-tika-document-extractor",
+        "apache-tika-document-parser",
+        "parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse",
+        "redact-pii-from-text-before-sharing-or-indexing-with-scrubadub"
       ]
     },
     {
@@ -116,7 +134,12 @@
         "fumadocs-react-documentation-framework-and-docs-site-generator",
         "vale-prose-linter-technical-docs",
         "orval-openapi-client-regeneration-skill-typed-sdks",
-        "spectral-openapi-asyncapi-linter"
+        "spectral-openapi-asyncapi-linter",
+        "bundle-and-validate-openapi-files-into-one-publishable-spec-with-swagger-cli",
+        "resolve-and-validate-openapi-specs-with-remote-refs-before-client-generation-or-review-with-prance",
+        "run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac",
+        "publish-versioned-mkdocs-documentation-with-mike",
+        "verify-markdown-links-before-docs-or-content-ship-with-markdown-link-check"
       ]
     },
     {
@@ -139,7 +162,11 @@
         "let-mcp-agents-inspect-and-update-freshdesk-tickets-safely",
         "inspect-freshservice-service-management-tickets-and-modules-through-mcp",
         "normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs",
-        "normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows"
+        "normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows",
+        "gmail-thread-summarizer-action-extractor",
+        "extract-structured-data-and-attachments-from-raw-email-mailparser",
+        "assemblyai-realtime-call-intelligence",
+        "strip-quoted-email-history-and-signatures-before-summarizing-inbound-replies"
       ],
       "discovery_candidates": [
         "https://github.com/nbashaw/claude-cs",

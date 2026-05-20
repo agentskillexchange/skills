@@ -16,6 +16,10 @@ Catalog management, storefront automation, orders, inventory sync, marketplace s
 | [Stripe Connect Marketplace Sync](../skills/stripe-connect-marketplace-sync/) | Integrations & Connectors | 4.4k | 9.3M/wk |
 | [WooCommerce Webhook Delivery Inspector](../skills/woocommerce-webhook-delivery-inspector/) | WordPress & CMS | 10.2k | — |
 | [Run Shopify Admin product order customer and inventory workflows through MCP](../skills/run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp/) | Integrations & Connectors | 15 | — |
+| [Stripe Payment Flow Connector](../skills/stripe-payment-flow-connector/) | Integrations & Connectors | 4.4k | 9.3M/wk |
+| [Stripe Connect Account Provisioner](../skills/stripe-connect-account-provisioner/) | Integrations & Connectors | 4.4k | 9.3M/wk |
+| [Bubble.io Stripe Subscription Portal Builder](../skills/bubble-stripe-subscription-portal/) | Templates & Workflows | — | — |
+| [Cheerio Product Price Tracker](../skills/cheerio-product-price-tracker/) | Research & Scraping | 30.3k | 19.6M/wk |
 
 ## Editorial Caution
 

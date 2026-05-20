@@ -16,6 +16,10 @@ Transcription, subtitles, podcast workflows, chaptering, localization, loudness 
 | [Normalize loudness across podcast, lesson, or video batches before publishing](../skills/normalize-loudness-across-podcast-lesson-or-video-batches-before-publishing/) | Media & Transcription | 1.5k | — |
 | [WhisperX Speech Recognition with Word-Level Timestamps and Diarization](../skills/whisperx-speech-recognition-timestamps-diarization/) | Media & Transcription | 21k | — |
 | [Capture YouTube transcripts without browser automation using YouTube Transcript API](../skills/capture-youtube-transcripts-without-browser-automation-using-youtube-transcript-api/) | Media & Transcription | 7.4k | — |
+| [faster-whisper High-Performance Speech Transcription Engine](../skills/faster-whisper-high-performance-speech-transcription/) | Media & Transcription | 21.9k | — |
+| [Deepgram Real-Time Transcription Connector](../skills/deepgram-realtime-transcription-connector/) | Media & Transcription | 260 | 1.6M/wk |
+| [AssemblyAI Summarization & Chapters Skill](../skills/assemblyai-summarization-chapters-skill/) | Media & Transcription | — | — |
+| [Self-host an OpenAI-compatible speech API for local transcription, translation, and TTS with Speaches](../skills/self-host-an-openai-compatible-speech-api-for-local-transcription-translation-and-tts-with-speaches/) | Media & Transcription | 3.2k | — |
 
 ## Editorial Caution
 
