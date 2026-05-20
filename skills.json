@@ -7420,6 +7420,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 356821,
+        "npm_weekly_downloads": 837156,
         "license": "MIT"
       }
     },
@@ -7697,6 +7698,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 356821,
+        "npm_weekly_downloads": 837156,
         "license": "MIT"
       }
     },
@@ -7710,6 +7712,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 356821,
+        "npm_weekly_downloads": 837156,
         "license": "MIT"
       }
     },
@@ -7723,6 +7726,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 356821,
+        "npm_weekly_downloads": 837156,
         "license": "MIT"
       }
     },
@@ -9506,7 +9510,8 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 1224
+        "github_stars": 1224,
+        "npm_weekly_downloads": 1053
       }
     },
     {
@@ -9530,7 +9535,8 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 3002
+        "github_stars": 3002,
+        "npm_weekly_downloads": 45940
       }
     },
     {
@@ -14600,7 +14606,8 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 854
+        "github_stars": 854,
+        "npm_weekly_downloads": 19173
       }
     },
     {
@@ -15039,7 +15046,8 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 4141
+        "github_stars": 4141,
+        "npm_weekly_downloads": 67564
       }
     },
     {
@@ -15207,7 +15215,8 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 52
+        "github_stars": 52,
+        "npm_weekly_downloads": 432
       }
     },
     {

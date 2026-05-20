@@ -93,7 +93,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Stripe Payments Connector](../../skills/stripe-payments-connector/) | 4.4k | 9.3M/wk |
 | [Stripe Reporting Agent](../../skills/stripe-reporting-agent/) | 4.4k | 9.3M/wk |
 | [Stripe Revenue Reconciliation Agent](../../skills/stripe-revenue-reconciliation-agent/) | 4.4k | 9.3M/wk |
-| [Notion MCP Server for AI Workspace Integration](../../skills/notion-mcp-server-ai-workspace-integration/) | 4.1k | — |
+| [Notion MCP Server for AI Workspace Integration](../../skills/notion-mcp-server-ai-workspace-integration/) | 4.1k | 67.6k/wk |
 | [Tolgee Open Source Localization and i18n Platform](../../skills/tolgee-localization-i18n-platform/) | 3.9k | — |
 | [AWS S3 & SQS Pipeline Connector](../../skills/aws-s3-sqs-pipeline-connector/) | 3.6k | — |
 | [Cloudflare MCP Servers for Workers, Security, and Observability](../../skills/cloudflare-mcp-servers-workers-security-observability/) | 3.6k | — |
@@ -102,7 +102,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | 3.1k | 62.3k/wk |
 | [SendGrid Transactional Email Builder](../../skills/sendgrid-transactional-email-builder/) | 3k | 3.6M/wk |
 | [SendGrid Transactional Email Router](../../skills/sendgrid-transactional-email-router/) | 3k | 3.6M/wk |
-| [n8n-nodes-mcp Community Node for Model Context Protocol Workflows](../../skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows/) | 3k | — |
+| [n8n-nodes-mcp Community Node for Model Context Protocol Workflows](../../skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows/) | 3k | 45.9k/wk |
 | [Slack Channel Summarizer & Triage Bot](../../skills/slack-channel-summarizer-triage/) | 2.9k | 2.6M/wk |
 | [Slack Bolt Event Subscription Debugger](../../skills/slack-bolt-event-subscription-debugger/) | 2.9k | 2.5M/wk |
 | [Supabase MCP Server for Database and Project Management](../../skills/supabase-mcp-server-database-project-management/) | 2.6k | — |
@@ -140,7 +140,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Connect MCP agents to Zendesk ticket and Help Center workflows](../../skills/connect-mcp-agents-to-zendesk-ticket-and-help-center-workflows/) | 95 | — |
 | [Expose FHIR healthcare data resources to MCP agents with review boundaries](../../skills/expose-fhir-healthcare-data-resources-to-mcp-agents-with-review-boundaries/) | 80 | — |
 | [Let MCP agents inspect and update Freshdesk tickets safely](../../skills/let-mcp-agents-inspect-and-update-freshdesk-tickets-safely/) | 59 | — |
-| [Upstash MCP Server for Redis and QStash Management](../../skills/upstash-mcp-server-redis-qstash-management/) | 52 | — |
+| [Upstash MCP Server for Redis and QStash Management](../../skills/upstash-mcp-server-redis-qstash-management/) | 52 | 432/wk |
 | [Normalize vCard contact exports into structured contact records before CRM imports or dedup jobs](../../skills/normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs/) | 50 | — |
 | [Manage ElevenLabs agents as versioned local config files instead of hand-editing them in the dashboard with ElevenLabs CLI](../../skills/manage-elevenlabs-agents-as-versioned-local-config-files-instead-of-hand-editing-them-in-the-dashboard-with-elevenlabs-cli/) | 49 | 10.4k/wk |
 | [Calculate routes, ETAs, and place lookups inside agent planning workflows with TomTom MCP](../../skills/calculate-routes-etas-and-place-lookups-inside-agent-planning-workflows-with-tomtom-mcp/) | 45 | 356/wk |

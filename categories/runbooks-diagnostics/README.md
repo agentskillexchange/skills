@@ -23,6 +23,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 
 | Skill | Downloads |
 |---|---:|
+| [Diagnose OpenClaw node pairing and route failures](../../skills/diagnose-openclaw-node-pairing-and-route-failures/) | ⬇ 837.2k/wk |
 | [Pulumi Drift Detector & Reconciler](../../skills/pulumi-drift-detector-reconciler/) | ⬇ 2.1M/wk |
 | [PostgreSQL Diagnostic Analyzer](../../skills/postgresql-diagnostic-analyzer/) | ⬇ 23.2M/wk |
 | [PostgreSQL Diagnostic Runbook](../../skills/postgresql-diagnostic-runbook/) | ⬇ 23.2M/wk |
@@ -32,7 +33,6 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [PostgreSQL Performance Runbook](../../skills/postgresql-performance-runbook/) | ⬇ 23.2M/wk |
 | [PostgreSQL Query Analyzer](../../skills/postgresql-query-analyzer/) | ⬇ 23.2M/wk |
 | [PostgreSQL Query Diagnostics](../../skills/postgresql-query-diagnostics/) | ⬇ 23.2M/wk |
-| [PostgreSQL Query Plan Diagnostics](../../skills/postgresql-query-plan-diagnostics-wave48/) | ⬇ 23.2M/wk |
 
 ---
 
@@ -40,7 +40,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [Diagnose OpenClaw node pairing and route failures](../../skills/diagnose-openclaw-node-pairing-and-route-failures/) | 356.8k | — |
+| [Diagnose OpenClaw node pairing and route failures](../../skills/diagnose-openclaw-node-pairing-and-route-failures/) | 356.8k | 837.2k/wk |
 | [Pod CrashLoop Runbook](../../skills/pod-crashloop-runbook/) | 122.2k | — |
 | [Kubernetes CrashLoop Diagnoser](../../skills/kubernetes-crashloop-diagnoser-agent/) | 121.7k | — |
 | [Kubernetes Crashloop Diagnostic Runbook](../../skills/kubernetes-crashloop-diagnostic-runbook/) | 121.7k | — |

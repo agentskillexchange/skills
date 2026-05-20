@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2479 published skills** across **17 categories** · 2,134 security reviewed · Updated 2026-05-20 01:26 UTC
+> **2479 published skills** across **17 categories** · 2,134 security reviewed · Updated 2026-05-20 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -14,7 +14,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 
 | Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
 |---|---|---|---:|---:|
-| [Turn GitHub Issues into Fix PRs](skills/turn-github-issues-into-fix-prs/) | Use the gh-issues workflow to fetch filtered GitHub issues, spawn sub-agents for fixes, open PRs, and follow review… | Security Reviewed | 356.8k | — |
+| [Turn GitHub Issues into Fix PRs](skills/turn-github-issues-into-fix-prs/) | Use the gh-issues workflow to fetch filtered GitHub issues, spawn sub-agents for fixes, open PRs, and follow review… | Security Reviewed | 356.8k | 837.2k/wk |
 | [Ollama Local LLM Runner and Model Server](skills/ollama-local-llm-runner-model-server/) | Ollama runs large language models locally with a simple CLI and REST API. It supports hundreds of open models… | Security Reviewed | 167.9k | — |
 | [Hugging Face Transformers — Machine Learning Model Library](skills/hugging-face-transformers-ml-library/) | Hugging Face Transformers provides 400,000+ pretrained models for NLP, computer vision, audio, and multimodal tasks… | Security Reviewed | 159.2k | — |
 | [Open WebUI Self-Hosted AI Interface for LLMs](skills/open-webui-self-hosted-ai-interface/) | Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely… | Security Reviewed | 130.4k | — |
@@ -340,7 +340,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 
 | Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
 |---|---|---|---:|---:|
-| [Audit OpenClaw host security posture and hardening gaps](skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | This skill uses OpenClaw's healthcheck workflow to inspect the host running the assistant, surface risky exposure,… | Security Reviewed | 356.8k | — |
+| [Audit OpenClaw host security posture and hardening gaps](skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | This skill uses OpenClaw's healthcheck workflow to inspect the host running the assistant, surface risky exposure,… | Security Reviewed | 356.8k | 837.2k/wk |
 | [Provision secure disposable development sandboxes for AI-generated code with Daytona](skills/provision-secure-disposable-development-sandboxes-for-ai-generated-code-with-daytona/) | Spin up isolated, reproducible sandboxes where agents can run generated code, install dependencies, execute tests,… | Security Reviewed | 72.4k | — |
 | [Decompile Android APKs into readable source with jadx for review and analysis](skills/decompile-android-apks-into-readable-source-with-jadx-for-review-and-analysis/) | Turn an APK into readable Java or decompiled source artifacts so an agent can inspect behavior before deeper… | Security Reviewed | 46.1k | — |
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](skills/mitmproxy-interactive-https-proxy-debugging-security/) | mitmproxy is an interactive, SSL/TLS-capable intercepting HTTP proxy for penetration testers and software… | Security Reviewed | 42.9k | — |
@@ -1143,7 +1143,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 
 | Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
 |---|---|---|---:|---:|
-| [Diagnose OpenClaw node pairing and route failures](skills/diagnose-openclaw-node-pairing-and-route-failures/) | Guides an agent through the exact route, pairing, and auth checks needed when an OpenClaw companion node fails to… | Security Reviewed | 356.8k | — |
+| [Diagnose OpenClaw node pairing and route failures](skills/diagnose-openclaw-node-pairing-and-route-failures/) | Guides an agent through the exact route, pairing, and auth checks needed when an OpenClaw companion node fails to… | Security Reviewed | 356.8k | 837.2k/wk |
 | [Pod CrashLoop Runbook](skills/pod-crashloop-runbook/) | Pod CrashLoop Runbook is built around Kubernetes orchestration platform. The underlying ecosystem is represented by… | Security Reviewed | 122.2k | — |
 | [Kubernetes CrashLoop Diagnoser](skills/kubernetes-crashloop-diagnoser-agent/) | Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes API /api/v1/namespaces/{ns}/pods/{pod}/log… | Security Reviewed | 121.7k | — |
 | [Kubernetes Crashloop Diagnostic Runbook](skills/kubernetes-crashloop-diagnostic-runbook/) | Diagnoses CrashLoopBackOff pods in Kubernetes clusters using kubectl and the Kubernetes API. Fetches pod events,… | Security Reviewed | 121.7k | — |
@@ -1626,7 +1626,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 
 | Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
 |---|---|---|---:|---:|
-| [Check current weather and short forecasts for planning](skills/check-current-weather-and-short-forecasts-for-planning/) | This skill lets an agent fetch current conditions and short forecasts with a lightweight weather workflow instead of… | Security Reviewed | 356.8k | — |
+| [Check current weather and short forecasts for planning](skills/check-current-weather-and-short-forecasts-for-planning/) | This skill lets an agent fetch current conditions and short forecasts with a lightweight weather workflow instead of… | Security Reviewed | 356.8k | 837.2k/wk |
 | [Slack MCP Server](skills/slack-mcp-server/) | Agent access to Slack conversations and workspace workflows. | Security Reviewed | 85.9k | 225.4k/wk |
 | [AppFlowy Open Source Collaborative Workspace](skills/appflowy-open-source-collaborative-workspace/) | AppFlowy brings documents, projects, wikis, and AI-assisted collaboration into a self-hosted or desktop-friendly… | Security Reviewed | 69.7k | — |
 | [AFFiNE Knowledge Base and Collaborative Workspace Platform](skills/affine-knowledge-base-collaborative-workspace-platform/) | AFFiNE is an open source workspace that combines docs, whiteboards, and lightweight databases in one product. This… | Security Reviewed | 67.2k | — |
@@ -1824,7 +1824,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Navigate indexed codebases through symbol-first MCP retrieval with jCodeMunch MCP](skills/navigate-indexed-codebases-through-symbol-first-mcp-retrieval-with-jcodemunch-mcp/) | Use jCodeMunch MCP when an agent needs precise symbol lookups, outlines, call-graph context, and targeted source… | Security Reviewed | 1.6k | — |
 | [Microsoft Learn MCP Server](skills/microsoft-learn-mcp-server/) | Microsoft Learn MCP Server gives agents and IDE assistants direct access to official Microsoft documentation and… | Security Reviewed | 1.5k | — |
 | [Build MCP servers and clients for PHP applications with the official PHP SDK](skills/build-mcp-servers-and-clients-for-php-applications-with-the-official-php-sdk/) | Use the official Model Context Protocol PHP SDK to expose PHP application capabilities as MCP tools, resources, and… | Security Reviewed | 1.5k | — |
-| [Grounded Docs MCP Server](skills/grounded-docs-mcp-server/) | Grounded Docs MCP Server gives AI coding assistants a version-aware documentation index built from official sources… | Security Reviewed | 1.2k | — |
+| [Grounded Docs MCP Server](skills/grounded-docs-mcp-server/) | Grounded Docs MCP Server gives AI coding assistants a version-aware documentation index built from official sources… | Security Reviewed | 1.2k | 1.1k/wk |
 | [OpenAPI Specification Validator](skills/openapi-specification-validator-agent/) | Validates and lints OpenAPI 3.x specifications using swagger-parser, spectral, and openapi-typescript. Generates… | Security Reviewed | 1.2k | 4.3M/wk |
 | [OpenAPI Spec Changelog Generator](skills/openapi-spec-changelog-generator/) | Compares OpenAPI 3.x specification files using the oasdiff library to detect breaking changes, deprecated endpoints,… | Published | 1.2k | — |
 | [REST API Changelog Tracker](skills/rest-api-changelog-tracker/) | Tracks breaking changes across REST API versions by diffing OpenAPI specs with oasdiff and monitoring endpoint… | Published | 1.2k | — |
@@ -1938,7 +1938,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Stripe Payments Connector](skills/stripe-payments-connector/) | Full Stripe API integration using the stripe-node SDK. Creates PaymentIntents via stripe.paymentIntents.create(),… | Security Reviewed | 4.4k | 9.3M/wk |
 | [Stripe Reporting Agent](skills/stripe-reporting-agent/) | Stripe Reporting Agent is built around Stripe payments platform. The underlying ecosystem is represented by… | Security Reviewed | 4.4k | 9.3M/wk |
 | [Stripe Revenue Reconciliation Agent](skills/stripe-revenue-reconciliation-agent/) | Uses the Stripe API to pull charge, refund, dispute, and payout records within a configurable date window and… | Security Reviewed | 4.4k | 9.3M/wk |
-| [Notion MCP Server for AI Workspace Integration](skills/notion-mcp-server-ai-workspace-integration/) | The official Notion MCP Server enables AI agents to interact with Notion workspaces through the Model Context… | Security Reviewed | 4.1k | — |
+| [Notion MCP Server for AI Workspace Integration](skills/notion-mcp-server-ai-workspace-integration/) | The official Notion MCP Server enables AI agents to interact with Notion workspaces through the Model Context… | Security Reviewed | 4.1k | 67.6k/wk |
 | [Tolgee Open Source Localization and i18n Platform](skills/tolgee-localization-i18n-platform/) | Tolgee is an open-source localization platform that lets developers and translators manage translations through… | Security Reviewed | 3.9k | — |
 | [AWS S3 & SQS Pipeline Connector](skills/aws-s3-sqs-pipeline-connector/) | Orchestrates AWS data pipelines using @aws-sdk/client-s3 and @aws-sdk/client-sqs. Manages S3 object lifecycle with… | Security Reviewed | 3.6k | — |
 | [Cloudflare MCP Servers for Workers, Security, and Observability](skills/cloudflare-mcp-servers-workers-security-observability/) | Official Cloudflare MCP servers that enable AI assistants to manage Workers applications, debug logs, analyze Radar… | Security Reviewed | 3.6k | — |
@@ -1947,7 +1947,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [SendGrid MCP Server](skills/sendgrid-mcp-server/) | SendGrid MCP Server is built around SendGrid email delivery platform. The underlying ecosystem is represented by… | Security Reviewed | 3.1k | 62.3k/wk |
 | [SendGrid Transactional Email Builder](skills/sendgrid-transactional-email-builder/) | Constructs and sends transactional emails using the SendGrid v3 Mail Send API. Builds dynamic templates with… | Security Reviewed | 3k | 3.6M/wk |
 | [SendGrid Transactional Email Router](skills/sendgrid-transactional-email-router/) | Manages transactional email delivery via SendGrid v3 Mail Send API with dynamic template rendering. Handles bounce… | Security Reviewed | 3k | 3.6M/wk |
-| [n8n-nodes-mcp Community Node for Model Context Protocol Workflows](skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows/) | n8n-nodes-mcp is a real n8n community node that lets self-hosted n8n instances connect to Model Context Protocol… | Security Reviewed | 3k | — |
+| [n8n-nodes-mcp Community Node for Model Context Protocol Workflows](skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows/) | n8n-nodes-mcp is a real n8n community node that lets self-hosted n8n instances connect to Model Context Protocol… | Security Reviewed | 3k | 45.9k/wk |
 | [Slack Channel Summarizer & Triage Bot](skills/slack-channel-summarizer-triage/) | Connects to the Slack Web API to fetch unread messages across specified channels and surfaces a prioritized digest… | Security Reviewed | 2.9k | 2.6M/wk |
 | [Slack Bolt Event Subscription Debugger](skills/slack-bolt-event-subscription-debugger/) | Debugs Slack app event flows with the Bolt SDK, signature verification, `app.event()` handlers, and `ack()` timing.… | Security Reviewed | 2.9k | 2.5M/wk |
 | [Supabase MCP Server for Database and Project Management](skills/supabase-mcp-server-database-project-management/) | An official MCP server that connects Supabase projects to AI assistants like Claude, Cursor, and Windsurf. Enables… | Security Reviewed | 2.6k | — |
@@ -1985,7 +1985,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Connect MCP agents to Zendesk ticket and Help Center workflows](skills/connect-mcp-agents-to-zendesk-ticket-and-help-center-workflows/) | Expose Zendesk tickets, comments, and Help Center context to MCP-capable agents for supervised support workflow… | Security Reviewed | 95 | — |
 | [Expose FHIR healthcare data resources to MCP agents with review boundaries](skills/expose-fhir-healthcare-data-resources-to-mcp-agents-with-review-boundaries/) | Use a FHIR MCP server to query healthcare data resources for documentation and integration workflows while keeping… | Security Reviewed | 80 | — |
 | [Let MCP agents inspect and update Freshdesk tickets safely](skills/let-mcp-agents-inspect-and-update-freshdesk-tickets-safely/) | Connect Freshdesk modules to MCP clients so agents can retrieve ticket context and prepare supervised support actions. | Security Reviewed | 59 | — |
-| [Upstash MCP Server for Redis and QStash Management](skills/upstash-mcp-server-redis-qstash-management/) | An official MCP server from Upstash that lets AI agents manage Redis databases, QStash message queues, and Vector… | Security Reviewed | 52 | — |
+| [Upstash MCP Server for Redis and QStash Management](skills/upstash-mcp-server-redis-qstash-management/) | An official MCP server from Upstash that lets AI agents manage Redis databases, QStash message queues, and Vector… | Security Reviewed | 52 | 432/wk |
 | [Normalize vCard contact exports into structured contact records before CRM imports or dedup jobs](skills/normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs/) | Use vobject when an agent receives .vcf contact exports and needs reliable parsing into names, emails, phone… | Security Reviewed | 50 | — |
 | [Manage ElevenLabs agents as versioned local config files instead of hand-editing them in the dashboard with ElevenLabs CLI](skills/manage-elevenlabs-agents-as-versioned-local-config-files-instead-of-hand-editing-them-in-the-dashboard-with-elevenlabs-cli/) | Initialize, authenticate, and edit ElevenLabs agent configs from local files when you want agent definitions in code… | Security Reviewed | 49 | 10.4k/wk |
 | [Calculate routes, ETAs, and place lookups inside agent planning workflows with TomTom MCP](skills/calculate-routes-etas-and-place-lookups-inside-agent-planning-workflows-with-tomtom-mcp/) | Gives an MCP-compatible agent structured place search, geocoding, routing, ETA, traffic, and map lookups so travel,… | Security Reviewed | 45 | 356/wk |
@@ -2189,7 +2189,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Newspaper4k Python Article Extraction and NLP Library](skills/newspaper4k-python-article-extraction-nlp/) | Newspaper4k is an actively maintained fork of the popular Newspaper3k library for Python. It extracts articles,… | Security Reviewed | 1.1k | — |
 | [Browsertrix Crawler High-Fidelity Web Archiving and QA Crawler](skills/browsertrix-crawler-high-fidelity-web-archiving-qa-crawler/) | Browsertrix Crawler is a browser-based crawling system from Webrecorder for high-fidelity site capture, QA replay… | Published | 1k | — |
 | [Extract schema.org, Open Graph, and JSON-LD metadata from web pages for indexing](skills/extract-schema-org-open-graph-and-json-ld-metadata-from-web-pages-for-indexing/) | Uses extruct to pull machine-readable metadata from raw HTML so an agent can classify, deduplicate, or enrich pages… | Security Reviewed | 961 | — |
-| [Brave Search MCP Server for AI Web Search](skills/brave-search-mcp-server-ai-web-search/) | The official Brave Search MCP server integrates the Brave Search API with AI assistants, providing comprehensive web… | Security Reviewed | 854 | — |
+| [Brave Search MCP Server for AI Web Search](skills/brave-search-mcp-server-ai-web-search/) | The official Brave Search MCP server integrates the Brave Search API with AI assistants, providing comprehensive web… | Security Reviewed | 854 | 19.2k/wk |
 | [Browse search and cost-audit local coding-agent histories before resuming or standardizing workflows with agentsview](skills/browse-search-and-cost-audit-local-coding-agent-histories-before-resuming-or-standardizing-workflows-with-agentsview/) | Index local coding-agent sessions into a searchable SQLite-backed view so you can inspect usage, compare failures,… | Security Reviewed | 774 | — |
 | [SerpAPI Answer Box Extractor](skills/serpapi-answer-box-extractor/) | Extracts high-signal SERP features from SerpAPI responses, including `answer_box`, `knowledge_graph`,… | Security Reviewed | 734 | — |
 | [Search and resume past coding-agent sessions locally with exact handoff commands using Agent Sessions](skills/search-and-resume-past-coding-agent-sessions-locally-with-exact-handoff-commands-using-agent-sessions/) | Browse archived sessions from multiple coding agents, search across them locally, and copy exact resume commands… | Security Reviewed | 478 | — |

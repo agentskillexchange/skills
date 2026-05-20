@@ -23,6 +23,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 
 | Skill | Downloads |
 |---|---:|
+| [Audit OpenClaw host security posture and hardening gaps](../../skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | ⬇ 837.2k/wk |
 | [Run autonomous white-box pentests against web apps and APIs with Shannon](../../skills/run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon/) | ⬇ 4k/wk |
 | [Discord Moderation Bot with AI Classification](../../skills/discord-moderation-ai-classification/) | ⬇ 563.5k/wk |
 | [Route risky coding-agent work through human approval checkpoints with HumanLayer](../../skills/route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer/) | ⬇ 694/wk |
@@ -32,7 +33,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Snyk Container Vulnerability Agent](../../skills/snyk-container-vulnerability-agent/) | ⬇ 2.6M/wk |
 | [Snyk Dependency Audit Skill](../../skills/snyk-dependency-audit-skill/) | ⬇ 2.6M/wk |
 | [Snyk Dependency Vulnerability Auditor](../../skills/snyk-dependency-vulnerability-auditor/) | ⬇ 2.6M/wk |
-| [Snyk License Compliance Checker](../../skills/snyk-license-compliance-checker/) | ⬇ 2.6M/wk |
 
 ---
 
@@ -40,7 +40,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [Audit OpenClaw host security posture and hardening gaps](../../skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | 356.8k | — |
+| [Audit OpenClaw host security posture and hardening gaps](../../skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | 356.8k | 837.2k/wk |
 | [Provision secure disposable development sandboxes for AI-generated code with Daytona](../../skills/provision-secure-disposable-development-sandboxes-for-ai-generated-code-with-daytona/) | 72.4k | — |
 | [Decompile Android APKs into readable source with jadx for review and analysis](../../skills/decompile-android-apks-into-readable-source-with-jadx-for-review-and-analysis/) | 46.1k | — |
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](../../skills/mitmproxy-interactive-https-proxy-debugging-security/) | 42.9k | — |

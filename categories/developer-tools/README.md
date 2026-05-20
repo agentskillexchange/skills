@@ -23,6 +23,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 
 | Skill | Downloads |
 |---|---:|
+| [Turn GitHub Issues into Fix PRs](../../skills/turn-github-issues-into-fix-prs/) | ⬇ 837.2k/wk |
 | [Supabase MCP Server](../../skills/supabase-mcp-server/) | ⬇ 83.5M/wk |
 | [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | ⬇ 40.2M/wk |
 | [Playwright E2E Test Generator](../../skills/playwright-e2e-test-generator/) | ⬇ 47.9M/wk |
@@ -32,7 +33,6 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | ⬇ 16.5k/wk |
 | [Astro Content-Driven Web Framework](../../skills/astro-content-driven-web-framework/) | ⬇ 2M/wk |
 | [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | ⬇ 173.2k/wk |
-| [zx JavaScript Shell Script Runner](../../skills/zx-javascript-shell-script-runner/) | ⬇ 1.7M/wk |
 
 ---
 
@@ -40,7 +40,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [Turn GitHub Issues into Fix PRs](../../skills/turn-github-issues-into-fix-prs/) | 356.8k | — |
+| [Turn GitHub Issues into Fix PRs](../../skills/turn-github-issues-into-fix-prs/) | 356.8k | 837.2k/wk |
 | [Ollama Local LLM Runner and Model Server](../../skills/ollama-local-llm-runner-model-server/) | 167.9k | — |
 | [Hugging Face Transformers — Machine Learning Model Library](../../skills/hugging-face-transformers-ml-library/) | 159.2k | — |
 | [Open WebUI Self-Hosted AI Interface for LLMs](../../skills/open-webui-self-hosted-ai-interface/) | 130.4k | — |
