@@ -12,6 +12,8 @@ framework: "MCP"
 tool_ecosystem:
   github_repo: "nerding-io/n8n-nodes-mcp"
   github_stars: 3002
+  npm_package: "n8n-nodes-mcp"
+  npm_weekly_downloads: 45940
 ---
 
 # n8n-nodes-mcp Community Node for Model Context Protocol Workflows

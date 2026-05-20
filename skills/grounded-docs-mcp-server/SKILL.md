@@ -5,11 +5,14 @@ description: "Grounded Docs MCP Server gives AI coding assistants a version-awar
 github_stars: 1224
 verification: "security_reviewed"
 source: "https://github.com/arabold/docs-mcp-server"
+author: "arabold"
 category: "Library & API Reference"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "arabold/docs-mcp-server"
   github_stars: 1224
+  npm_package: "@arabold/docs-mcp-server"
+  npm_weekly_downloads: 1053
 ---
 
 # Grounded Docs MCP Server

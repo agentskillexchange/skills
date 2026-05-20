@@ -5,11 +5,14 @@ description: "The official Notion MCP Server enables AI agents to interact with 
 github_stars: 4141
 verification: "security_reviewed"
 source: "https://github.com/makenotion/notion-mcp-server"
+author: "makenotion"
 category: "Integrations & Connectors"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "makenotion/notion-mcp-server"
   github_stars: 4141
+  npm_package: "@notionhq/notion-mcp-server"
+  npm_weekly_downloads: 67564
 ---
 
 # Notion MCP Server for AI Workspace Integration

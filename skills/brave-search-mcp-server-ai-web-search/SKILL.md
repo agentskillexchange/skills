@@ -5,11 +5,14 @@ description: "The official Brave Search MCP server integrates the Brave Search A
 github_stars: 854
 verification: "security_reviewed"
 source: "https://github.com/brave/brave-search-mcp-server"
+author: "brave"
 category: "Research & Scraping"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "brave/brave-search-mcp-server"
   github_stars: 854
+  npm_package: "@brave/brave-search-mcp-server"
+  npm_weekly_downloads: 19173
 ---
 
 # Brave Search MCP Server for AI Web Search

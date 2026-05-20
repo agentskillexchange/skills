@@ -5,11 +5,14 @@ description: "An official MCP server from Upstash that lets AI agents manage Red
 github_stars: 52
 verification: "security_reviewed"
 source: "https://github.com/upstash/mcp-server"
+author: "upstash"
 category: "Integrations & Connectors"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "upstash/mcp-server"
   github_stars: 52
+  npm_package: "@upstash/mcp-server"
+  npm_weekly_downloads: 432
 ---
 
 # Upstash MCP Server for Redis and QStash Management
