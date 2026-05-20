@@ -233,6 +233,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [ElectricSQL Real-Time Postgres Sync Engine](../../skills/electricsql-postgres-sync-engine/) | 10.1k | — |
 | [Preserve coding-agent context by sandboxing bulky tool output and retrieving only relevant session state with Context Mode](../../skills/preserve-coding-agent-context-by-sandboxing-bulky-tool-output-and-retrieving-only-relevant-session-state-with-context-mode/) | 10k | 5.5k/wk |
 | [usql Universal Command-Line SQL Client for Multiple Databases](../../skills/usql-universal-sql-client/) | 9.9k | — |
+| [Run asynchronous coding-agent workflows with Open SWE](../../skills/run-asynchronous-coding-agent-workflows-with-open-swe/) | 9.8k | — |
 | [AIChat All-in-One LLM CLI with Shell Assistant and RAG](../../skills/aichat-llm-cli-shell-assistant-rag/) | 9.8k | — |
 | [WXT Next-Generation Web Extension Framework for Browser Extensions](../../skills/wxt-next-gen-web-extension-framework/) | 9.5k | — |
 | [Inspect and debug MCP servers visually before connecting them to agents](../../skills/inspect-and-debug-mcp-servers-visually-before-connecting-them-to-agents/) | 9.4k | 635.2k/wk |

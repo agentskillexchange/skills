@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-05-20
-# Total: 2484 skills
+# Total: 2488 skills
+
+## Run controlled cybersecurity agent workflows with CAI
+slug: run-controlled-cybersecurity-agent-workflows-with-cai
+category: Security & Verification
+framework: Custom Agents
+verification: Security Reviewed
+description: Use CAI to run research and bug-bounty-oriented security agents with model routing, tool integrations, tracing, MCP support, and human oversight.
+url: https://agentskillexchange.com/skills/run-controlled-cybersecurity-agent-workflows-with-cai/
+
+## Query Neo4j graph data from agent workflows through MCP
+slug: query-neo4j-graph-data-from-agent-workflows-through-mcp
+category: Data Extraction & Transformation
+framework: MCP
+verification: Security Reviewed
+description: Connect MCP-compatible agents to Neo4j so they can inspect graph schemas, run Cypher queries, manage graph memory, and operate Aura instances from chat.
+url: https://agentskillexchange.com/skills/query-neo4j-graph-data-from-agent-workflows-through-mcp/
+
+## Run asynchronous coding-agent workflows with Open SWE
+slug: run-asynchronous-coding-agent-workflows-with-open-swe
+category: Developer Tools
+framework: Custom Agents
+verification: Security Reviewed
+description: Deploy an internal coding agent that accepts tasks from GitHub, Slack, or Linear, runs them in isolated sandboxes, and opens pull requests automatically.
+url: https://agentskillexchange.com/skills/run-asynchronous-coding-agent-workflows-with-open-swe/
+
+## Trace and evaluate agent runs with MLflow
+slug: trace-and-evaluate-agent-runs-with-mlflow
+category: Monitoring & Alerts
+framework: Multi-Framework
+verification: Security Reviewed
+description: Instrument LLM and agent applications with MLflow tracing, evaluation, prompt tracking, and monitoring so operators can debug behavior before and after deployment.
+url: https://agentskillexchange.com/skills/trace-and-evaluate-agent-runs-with-mlflow/
 
 ## Run local deep research workflows with Local Deep Research
 slug: run-local-deep-research-workflows-with-local-deep-research

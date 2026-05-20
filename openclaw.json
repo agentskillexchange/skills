@@ -2,8 +2,44 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-05-20",
-  "total": 2484,
+  "total": 2488,
   "skills": [
+    {
+      "slug": "run-controlled-cybersecurity-agent-workflows-with-cai",
+      "name": "Run controlled cybersecurity agent workflows with CAI",
+      "title": "Run controlled cybersecurity agent workflows with CAI",
+      "description": "Use CAI to run research and bug-bounty-oriented security agents with model routing, tool integrations, tracing, MCP support, and human oversight.",
+      "category": "Security & Verification",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "query-neo4j-graph-data-from-agent-workflows-through-mcp",
+      "name": "Query Neo4j graph data from agent workflows through MCP",
+      "title": "Query Neo4j graph data from agent workflows through MCP",
+      "description": "Connect MCP-compatible agents to Neo4j so they can inspect graph schemas, run Cypher queries, manage graph memory, and operate Aura instances from chat.",
+      "category": "Data Extraction & Transformation",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "run-asynchronous-coding-agent-workflows-with-open-swe",
+      "name": "Run asynchronous coding-agent workflows with Open SWE",
+      "title": "Run asynchronous coding-agent workflows with Open SWE",
+      "description": "Deploy an internal coding agent that accepts tasks from GitHub, Slack, or Linear, runs them in isolated sandboxes, and opens pull requests automatically.",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "trace-and-evaluate-agent-runs-with-mlflow",
+      "name": "Trace and evaluate agent runs with MLflow",
+      "title": "Trace and evaluate agent runs with MLflow",
+      "description": "Instrument LLM and agent applications with MLflow tracing, evaluation, prompt tracking, and monitoring so operators can debug behavior before and after deployment.",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "run-local-deep-research-workflows-with-local-deep-research",
       "name": "Run local deep research workflows with Local Deep Research",

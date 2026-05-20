@@ -182,6 +182,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Infer And Normalize Broken CSV Dialects Before Import With Clevercsv](../../skills/infer-and-normalize-broken-csv-dialects-before-import-with-clevercsv/) | 1.3k | — |
 | [Export Obsidian vaults into clean Markdown trees for publishing or downstream processing](../../skills/export-obsidian-vaults-into-clean-markdown-trees-for-publishing-or-downstream-processing/) | 1.3k | — |
 | [xq Command-Line XML and HTML Beautifier and Content Extractor](../../skills/xq-command-line-xml-html-beautifier-content-extractor/) | 1.1k | — |
+| [Query Neo4j graph data from agent workflows through MCP](../../skills/query-neo4j-graph-data-from-agent-workflows-through-mcp/) | 947 | — |
 | [Extract structured fields from HTML XML and JSON endpoints with Xidel selectors](../../skills/extract-structured-fields-from-html-xml-and-json-endpoints-with-xidel-selectors/) | 835 | — |
 | [Snowflake MCP](../../skills/snowflake-mcp/) | 724 | — |
 | [Snowflake MCP Server](../../skills/snowflake-mcp-server/) | 724 | — |

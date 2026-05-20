@@ -85,6 +85,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Loki Log Query Agent](../../skills/loki-log-query-agent/) | 28k | — |
 | [Model user behavior and run distributed load tests before backend changes face real traffic with Locust](../../skills/model-user-behavior-and-run-distributed-load-tests-before-backend-changes-face-real-traffic-with-locust/) | 27.7k | — |
 | [SigNoz Open-Source Observability Platform](../../skills/signoz-open-source-observability-platform/) | 26.5k | — |
+| [Trace and evaluate agent runs with MLflow](../../skills/trace-and-evaluate-agent-runs-with-mlflow/) | 26k | — |
 | [Load-test HTTP endpoints with reproducible attack profiles and latency reports before rollout with Vegeta](../../skills/load-test-http-endpoints-with-reproducible-attack-profiles-and-latency-reports-before-rollout-with-vegeta/) | 25k | — |
 | [Plausible Analytics Privacy-First Web Analytics Platform](../../skills/plausible-analytics-privacy-first-web-analytics/) | 24.5k | — |
 | [Langfuse LLM Observability Platform and SDK](../../skills/langfuse-llm-observability-platform-and-sdk/) | 24.1k | — |

@@ -121,6 +121,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Syft SBOM Generator for Containers and Filesystems](../../skills/syft-sbom-generator-containers-filesystems/) | 8.6k | — |
 | [OSV-Scanner Dependency Vulnerability Detector](../../skills/osv-scanner-dependency-vulnerability-detector/) | 8.6k | — |
 | [Checkov IaC Scanner](../../skills/checkov-iac-scanner/) | 8.6k | — |
+| [Run controlled cybersecurity agent workflows with CAI](../../skills/run-controlled-cybersecurity-agent-workflows-with-cai/) | 8.6k | — |
 | [Benchmark Kubernetes clusters against CIS controls with kube-bench](../../skills/benchmark-kubernetes-clusters-against-cis-controls-with-kube-bench/) | 8k | — |
 | [Scan Python code for risky security patterns with Bandit before review or release](../../skills/scan-python-code-for-risky-security-patterns-with-bandit-before-review-or-release/) | 7.9k | — |
 | [Check Kubernetes hosts against CIS guidance with kube-bench before audit or hardening work](../../skills/check-kubernetes-hosts-against-cis-guidance-with-kube-bench-before-audit-or-hardening-work/) | 7.8k | — |

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2484 published skills** across **17 categories** · 2,142 security reviewed · Updated 2026-05-20 14:11 UTC
+> **2488 published skills** across **17 categories** · 2,142 security reviewed · Updated 2026-05-20 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (320 skills)
+### 🛠️ Developer Tools (321 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -207,6 +207,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [ElectricSQL Real-Time Postgres Sync Engine](skills/electricsql-postgres-sync-engine/) | ElectricSQL is a read-path sync engine for PostgreSQL that handles partial replication, data delivery, and fan-out.… | Security Reviewed | 10.1k | — |
 | [Preserve coding-agent context by sandboxing bulky tool output and retrieving only relevant session state with Context Mode](skills/preserve-coding-agent-context-by-sandboxing-bulky-tool-output-and-retrieving-only-relevant-session-state-with-context-mode/) | Use Context Mode when a coding agent keeps burning context on large tool outputs or loses its place after… | Security Reviewed | 10k | 5.5k/wk |
 | [usql Universal Command-Line SQL Client for Multiple Databases](skills/usql-universal-sql-client/) | usql is a universal command-line interface for SQL databases including PostgreSQL, MySQL, SQLite, Oracle, SQL… | Security Reviewed | 9.9k | — |
+| [Run asynchronous coding-agent workflows with Open SWE](skills/run-asynchronous-coding-agent-workflows-with-open-swe/) | Deploy an internal coding agent that accepts tasks from GitHub, Slack, or Linear, runs them in isolated sandboxes,… | Security Reviewed | 9.8k | — |
 | [AIChat All-in-One LLM CLI with Shell Assistant and RAG](skills/aichat-llm-cli-shell-assistant-rag/) | AIChat is a comprehensive LLM command-line tool written in Rust that combines chat-REPL, shell command generation,… | Security Reviewed | 9.8k | — |
 | [WXT Next-Generation Web Extension Framework for Browser Extensions](skills/wxt-next-gen-web-extension-framework/) | WXT is an open-source, next-generation framework for building browser extensions. It supports all browsers, both… | Security Reviewed | 9.5k | — |
 | [Inspect and debug MCP servers visually before connecting them to agents](skills/inspect-and-debug-mcp-servers-visually-before-connecting-them-to-agents/) | Use MCP Inspector when you need to launch an MCP server, inspect its tools and resources, exercise calls manually,… | Security Reviewed | 9.4k | 635.2k/wk |
@@ -336,7 +337,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (226 skills)
+### 🔒 Security & Verification (227 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -423,6 +424,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Syft SBOM Generator for Containers and Filesystems](skills/syft-sbom-generator-containers-filesystems/) | Syft by Anchore is a CLI tool for generating Software Bills of Materials (SBOMs) from container images and… | Security Reviewed | 8.6k | — |
 | [OSV-Scanner Dependency Vulnerability Detector](skills/osv-scanner-dependency-vulnerability-detector/) | OSV-Scanner is Google's open-source vulnerability scanner that checks project dependencies against the OSV.dev… | Published | 8.6k | — |
 | [Checkov IaC Scanner](skills/checkov-iac-scanner/) | Checkov IaC Scanner is built around Kubernetes orchestration platform. The underlying ecosystem is represented by… | Security Reviewed | 8.6k | — |
+| [Run controlled cybersecurity agent workflows with CAI](skills/run-controlled-cybersecurity-agent-workflows-with-cai/) | Use CAI to run research and bug-bounty-oriented security agents with model routing, tool integrations, tracing, MCP… | Security Reviewed | 8.6k | — |
 | [Benchmark Kubernetes clusters against CIS controls with kube-bench](skills/benchmark-kubernetes-clusters-against-cis-controls-with-kube-bench/) | Run CIS benchmark checks against cluster nodes and control planes when an agent needs a narrow Kubernetes hardening… | Security Reviewed | 8k | — |
 | [Scan Python code for risky security patterns with Bandit before review or release](skills/scan-python-code-for-risky-security-patterns-with-bandit-before-review-or-release/) | Catch insecure Python calls, weak crypto usage, shell injection risks, and similar patterns before merge or release. | Security Reviewed | 7.9k | — |
 | [Check Kubernetes hosts against CIS guidance with kube-bench before audit or hardening work](skills/check-kubernetes-hosts-against-cis-guidance-with-kube-bench-before-audit-or-hardening-work/) | Run a benchmark-driven posture check on Kubernetes nodes and control planes before an audit, upgrade, or hardening… | Security Reviewed | 7.8k | — |
@@ -961,7 +963,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf](skills/resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf/) | Use Mergiraf to let an agent attempt tree-aware conflict resolution during merge, rebase, revert, or cherry-pick… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (170 skills)
+### 🔄 Data Extraction & Transformation (171 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -1109,6 +1111,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Infer And Normalize Broken CSV Dialects Before Import With Clevercsv](skills/infer-and-normalize-broken-csv-dialects-before-import-with-clevercsv/) | Detect messy CSV dialects, standardize malformed files, and generate reliable import code before ingestion pipelines… | Security Reviewed | 1.3k | — |
 | [Export Obsidian vaults into clean Markdown trees for publishing or downstream processing](skills/export-obsidian-vaults-into-clean-markdown-trees-for-publishing-or-downstream-processing/) | Convert Obsidian vault content, wikilinks, and attachments into portable Markdown trees before publishing, indexing,… | Security Reviewed | 1.3k | — |
 | [xq Command-Line XML and HTML Beautifier and Content Extractor](skills/xq-command-line-xml-html-beautifier-content-extractor/) | xq is a command-line XML and HTML beautifier and content extractor written in Go. It provides syntax highlighting,… | Security Reviewed | 1.1k | — |
+| [Query Neo4j graph data from agent workflows through MCP](skills/query-neo4j-graph-data-from-agent-workflows-through-mcp/) | Connect MCP-compatible agents to Neo4j so they can inspect graph schemas, run Cypher queries, manage graph memory,… | Security Reviewed | 947 | — |
 | [Extract structured fields from HTML XML and JSON endpoints with Xidel selectors](skills/extract-structured-fields-from-html-xml-and-json-endpoints-with-xidel-selectors/) | Use Xidel to pull targeted values from pages, XML documents, or JSON APIs with CSS selectors, XPath, XQuery, or… | Security Reviewed | 835 | — |
 | [Snowflake MCP](skills/snowflake-mcp/) | Snowflake MCP is built around Snowflake cloud data warehouse. It gives an agent a more technical and reliable way to… | Security Reviewed | 724 | — |
 | [Snowflake MCP Server](skills/snowflake-mcp-server/) | Snowflake MCP Server is built around Snowflake cloud data warehouse. It gives an agent a more technical and reliable… | Security Reviewed | 724 | — |
@@ -1486,7 +1489,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Makefile Workflow Generator](skills/makefile-workflow-generator/) | Generates project Makefiles with standard targets using GNU Make syntax, autodeps pattern rules, and integration… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (130 skills)
+### 📊 Monitoring & Alerts (131 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -1537,6 +1540,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Loki Log Query Agent](skills/loki-log-query-agent/) | Loki Log Query Agent is built around Grafana Loki log aggregation system. The underlying ecosystem is represented by… | Security Reviewed | 28k | — |
 | [Model user behavior and run distributed load tests before backend changes face real traffic with Locust](skills/model-user-behavior-and-run-distributed-load-tests-before-backend-changes-face-real-traffic-with-locust/) | Script realistic user flows in Python and fan them out across workers so agents can pressure-test services before… | Security Reviewed | 27.7k | — |
 | [SigNoz Open-Source Observability Platform](skills/signoz-open-source-observability-platform/) | SigNoz is an open-source observability platform built around OpenTelemetry for logs, metrics, and traces in one… | Security Reviewed | 26.5k | — |
+| [Trace and evaluate agent runs with MLflow](skills/trace-and-evaluate-agent-runs-with-mlflow/) | Instrument LLM and agent applications with MLflow tracing, evaluation, prompt tracking, and monitoring so operators… | Security Reviewed | 26k | — |
 | [Load-test HTTP endpoints with reproducible attack profiles and latency reports before rollout with Vegeta](skills/load-test-http-endpoints-with-reproducible-attack-profiles-and-latency-reports-before-rollout-with-vegeta/) | Run constant-rate HTTP attacks, capture binary results, and generate reports or plots before capacity changes and… | Security Reviewed | 25k | — |
 | [Plausible Analytics Privacy-First Web Analytics Platform](skills/plausible-analytics-privacy-first-web-analytics/) | Plausible Analytics is a lightweight, open-source, privacy-friendly alternative to Google Analytics. It requires no… | Security Reviewed | 24.5k | — |
 | [Langfuse LLM Observability Platform and SDK](skills/langfuse-llm-observability-platform-and-sdk/) | Use Langfuse to capture prompts, traces, generations, evaluations, and cost telemetry for LLM applications and agent… | Security Reviewed | 24.1k | — |
