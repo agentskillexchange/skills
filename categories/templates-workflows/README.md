@@ -70,6 +70,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Terraform Module Template Generator](../../skills/terraform-module-template-generator/) | 48.1k | — |
 | [Terraform Module Testing Framework](../../skills/terraform-module-testing-framework/) | 48.1k | — |
 | [Terraform Module Boilerplate Assembler](../../skills/terraform-module-boilerplate-assembler/) | 48k | — |
+| [Run a lightweight personal AI agent with Nanobot](../../skills/run-a-lightweight-personal-ai-agent-with-nanobot/) | 42.8k | — |
 | [Enforce local Git hook checks in JavaScript repos with Husky](../../skills/enforce-local-git-hook-checks-in-javascript-repos-with-husky/) | 35k | 25.7M/wk |
 | [Run context → spec → implement coding loops in Claude Code with Conductor](../../skills/run-context-spec-and-implement-coding-loops-in-claude-code-with-conductor/) | 34k | — |
 | [Backstage Software Catalog Sync](../../skills/backstage-software-catalog-sync/) | 33.1k | — |

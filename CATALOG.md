@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2479 published skills** across **17 categories** · 2,138 security reviewed · Updated 2026-05-20 13:27 UTC
+> **2484 published skills** across **17 categories** · 2,138 security reviewed · Updated 2026-05-20 14:11 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (318 skills)
+### 🛠️ Developer Tools (320 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -32,11 +32,13 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [fzf Command-Line Fuzzy Finder](skills/fzf-command-line-fuzzy-finder/) | fzf is a general-purpose command-line fuzzy finder written in Go. It works as an interactive filter for any list —… | Security Reviewed | 79.2k | — |
 | [Hoppscotch Open Source API Development Ecosystem](skills/hoppscotch-api-development-ecosystem/) | Hoppscotch is a lightweight, open-source API development platform that serves as an alternative to Postman and… | Security Reviewed | 78.7k | — |
 | [Zed High-Performance Multiplayer Code Editor](skills/zed-high-performance-multiplayer-code-editor/) | Zed is a high-performance, multiplayer code editor built in Rust by the creators of Atom and Tree-sitter. It… | Published | 78.6k | — |
+| [Manage agent CLI providers and MCP settings with CC Switch](skills/manage-agent-cli-providers-and-mcp-settings-with-cc-switch/) | Use CC Switch to keep provider profiles, MCP servers, prompts, skills, sessions, and usage tracking consistent… | Published | 76.2k | — |
 | [lazygit Terminal UI for Git Operations](skills/lazygit-terminal-ui-git-operations/) | A simple terminal user interface for git commands built with Go. lazygit provides interactive staging, rebasing,… | Security Reviewed | 75.4k | — |
 | [vLLM High-Throughput LLM Serving Engine with PagedAttention](skills/vllm-high-throughput-llm-serving/) | vLLM is a fast and memory-efficient inference and serving engine for large language models. It uses PagedAttention… | Published | 75.1k | — |
 | [NestJS — Progressive Node.js Framework for Server-Side Applications](skills/nestjs-progressive-nodejs-framework/) | NestJS is a progressive Node.js framework built with TypeScript, inspired by Angular. It provides dependency… | Published | 75.1k | 10.5M/wk |
 | [LobeHub Multi-Agent Chat Platform with MCP Plugin Ecosystem](skills/lobehub-multi-agent-chat-platform-mcp-plugins/) | LobeHub is an open-source multi-agent chat platform supporting 50+ LLM providers, MCP plugin marketplace, knowledge… | Security Reviewed | 74.9k | — |
 | [Preserve Claude Code session memory with Claude Mem](skills/preserve-claude-code-session-memory-with-claude-mem/) | Use Claude Mem to capture Claude Code sessions, compress the useful context, and re-inject relevant memory so future… | Security Reviewed | 74.4k | — |
+| [Run software engineering tasks with OpenHands](skills/run-software-engineering-tasks-with-openhands/) | Use OpenHands to run supervised software-engineering agents that inspect repositories, edit code, execute commands,… | Security Reviewed | 74.2k | — |
 | [Redis MCP Server](skills/redis-mcp-server/) | Redis MCP Server is built around Redis in-memory datastore. The underlying ecosystem is represented by redis/redis… | Security Reviewed | 73.8k | — |
 | [Docker Compose Generator Skill](skills/docker-compose-generator-skill/) | Docker Compose Generator Skill is built around Docker container platform. The underlying ecosystem is represented by… | Security Reviewed | 71.6k | — |
 | [Docker MCP Server](skills/docker-mcp-server/) | Docker MCP Server is built around Docker container platform. The underlying ecosystem is represented by moby/moby… | Security Reviewed | 71.6k | — |
@@ -1314,7 +1316,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [PagerDuty Event Orchestration Runbook](skills/pagerduty-event-orchestration-runbook/) | Builds incident runbooks around the PagerDuty Events API v2, Incidents API, and Response Plays so agents can… | Published | — | — |
 
 
-### 📄 Templates & Workflows (161 skills)
+### 📄 Templates & Workflows (162 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1350,6 +1352,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Terraform Module Template Generator](skills/terraform-module-template-generator/) | Scaffolds production-ready Terraform modules with HCL templates, variable definitions, and output blocks. Uses the… | Security Reviewed | 48.1k | — |
 | [Terraform Module Testing Framework](skills/terraform-module-testing-framework/) | Tests Terraform modules using Terratest Go library and terraform test native framework. Validates plan output,… | Security Reviewed | 48.1k | — |
 | [Terraform Module Boilerplate Assembler](skills/terraform-module-boilerplate-assembler/) | Generates Terraform module scaffolds with variables.tf, outputs.tf, and provider configurations from a module… | Security Reviewed | 48k | — |
+| [Run a lightweight personal AI agent with Nanobot](skills/run-a-lightweight-personal-ai-agent-with-nanobot/) | Use Nanobot to configure a lightweight local personal agent with model providers, MCP tools, memory, chat channels,… | Security Reviewed | 42.8k | — |
 | [Enforce local Git hook checks in JavaScript repos with Husky](skills/enforce-local-git-hook-checks-in-javascript-repos-with-husky/) | Use Husky to wire pre-commit, pre-push, and commit-msg checks into a repo so agents and developers run the same… | Published | 35k | 25.7M/wk |
 | [Run context → spec → implement coding loops in Claude Code with Conductor](skills/run-context-spec-and-implement-coding-loops-in-claude-code-with-conductor/) | Turn Claude Code into a structured project workflow that captures context, plans work, and executes implementation… | Security Reviewed | 34k | — |
 | [Backstage Software Catalog Sync](skills/backstage-software-catalog-sync/) | Synchronizes service metadata into Spotify Backstage catalog using catalog-info.yaml generation and the Backstage… | Security Reviewed | 33.1k | — |
@@ -1483,7 +1486,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Makefile Workflow Generator](skills/makefile-workflow-generator/) | Generates project Makefiles with standard targets using GNU Make syntax, autodeps pattern rules, and integration… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (129 skills)
+### 📊 Monitoring & Alerts (130 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -1552,6 +1555,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Quickwit Cloud-Native Search Engine for Observability Logs and Traces](skills/quickwit-cloud-native-search-engine-observability/) | Quickwit is a cloud-native search engine built in Rust for log management and distributed tracing. It offers… | Published | 11.1k | — |
 | [Gatus Endpoint Monitoring and Status Page Platform](skills/gatus-endpoint-monitoring-status-page-platform/) | Gatus is an open source uptime and endpoint monitoring platform built for developers and ops teams. It checks HTTP,… | Security Reviewed | 10.7k | — |
 | [Healthchecks.io Cron Job Monitoring and Alerting Platform](skills/healthchecks-io-cron-job-monitoring-alerting-platform/) | Healthchecks.io is an open-source cron and background task monitoring platform that alerts when scheduled jobs fail… | Security Reviewed | 10k | — |
+| [Trace and evaluate agent runs with Phoenix](skills/trace-and-evaluate-agent-runs-with-phoenix/) | Use Phoenix to trace LLM and agent calls, run evaluations, replay prompts, inspect datasets, and expose… | Security Reviewed | 9.8k | 893/wk |
 | [Checkmate Open Source Uptime and Infrastructure Monitoring](skills/checkmate-open-source-uptime-infrastructure-monitoring/) | An ASE skill built on Checkmate, the open source self-hosted monitoring platform for uptime, incidents, response… | Security Reviewed | 9.6k | — |
 | [Highlight.io Open Source Full-Stack Monitoring Platform](skills/highlight-io-full-stack-monitoring/) | Highlight.io is an open-source full-stack monitoring platform combining session replay, error monitoring, logging,… | Security Reviewed | 9.2k | — |
 | [Prometheus Alertmanager Rule Auditor](skills/prometheus-alertmanager-rule-auditor/) | Validates Prometheus recording and alerting rules using promtool check rules, analyzes Alertmanager routing trees… | Security Reviewed | 8.4k | — |
@@ -2119,7 +2123,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [playwright-extra Plugin Framework for Playwright](skills/playwright-extra-plugin-framework-for-playwright/) | An ASE skill built around playwright-extra, the plugin framework that augments Playwright with reusable plugins such… | Published | — | 623.1k/wk |
 
 
-### 🔍 Research & Scraping (104 skills)
+### 🔍 Research & Scraping (105 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -2171,6 +2175,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Run configurable multi-source deep research passes with Open Deep Research](skills/run-configurable-multi-source-deep-research-passes-with-open-deep-research/) | Use Open Deep Research when an agent should run a configurable research job that searches, compresses, synthesizes,… | Security Reviewed | 11.1k | — |
 | [linkding Self-Hosted Bookmark Manager with REST API](skills/linkding-self-hosted-bookmark-manager-rest-api/) | linkding is a minimal, fast, self-hosted bookmark manager with a full REST API, tag-based organization, automatic… | Security Reviewed | 10.4k | — |
 | [Search PDFs, Office files, ebooks, and archives with one query before manual review](skills/search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review/) | Uses ripgrep-all to run one full-text search across mixed document and archive formats so an agent can find evidence… | Security Reviewed | 9.6k | — |
+| [Run local deep research workflows with Local Deep Research](skills/run-local-deep-research-workflows-with-local-deep-research/) | Use Local Deep Research to run private agentic research passes across web, academic, and local document sources with… | Security Reviewed | 7.9k | — |
 | [Simulate buyer and user personas to pressure-test ideas and messaging with TinyTroupe](skills/simulate-buyer-and-user-personas-to-pressure-test-ideas-and-messaging-with-tinytroupe/) | Use TinyTroupe when an agent should run simulated persona panels, synthetic interviews, or offline audience… | Security Reviewed | 7.4k | — |
 | [Extract schema-shaped JSON from JavaScript-rendered pages with llm-scraper](skills/extract-schema-shaped-json-from-javascript-rendered-pages-with-llm-scraper/) | Open a rendered page, describe the fields you want, and return structured data without hand-maintaining brittle… | Security Reviewed | 6.3k | 3.8k/wk |
 | [Official Firecrawl MCP Server](skills/official-firecrawl-mcp-server/) | Official Firecrawl MCP Server exposes Firecrawl’s scraping, crawling, search, and deep research features to MCP… | Security Reviewed | 6k | 28.9k/wk |

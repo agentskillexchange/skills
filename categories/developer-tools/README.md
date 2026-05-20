@@ -58,11 +58,13 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [fzf Command-Line Fuzzy Finder](../../skills/fzf-command-line-fuzzy-finder/) | 79.2k | — |
 | [Hoppscotch Open Source API Development Ecosystem](../../skills/hoppscotch-api-development-ecosystem/) | 78.7k | — |
 | [Zed High-Performance Multiplayer Code Editor](../../skills/zed-high-performance-multiplayer-code-editor/) | 78.6k | — |
+| [Manage agent CLI providers and MCP settings with CC Switch](../../skills/manage-agent-cli-providers-and-mcp-settings-with-cc-switch/) | 76.2k | — |
 | [lazygit Terminal UI for Git Operations](../../skills/lazygit-terminal-ui-git-operations/) | 75.4k | — |
 | [vLLM High-Throughput LLM Serving Engine with PagedAttention](../../skills/vllm-high-throughput-llm-serving/) | 75.1k | — |
 | [NestJS — Progressive Node.js Framework for Server-Side Applications](../../skills/nestjs-progressive-nodejs-framework/) | 75.1k | 10.5M/wk |
 | [LobeHub Multi-Agent Chat Platform with MCP Plugin Ecosystem](../../skills/lobehub-multi-agent-chat-platform-mcp-plugins/) | 74.9k | — |
 | [Preserve Claude Code session memory with Claude Mem](../../skills/preserve-claude-code-session-memory-with-claude-mem/) | 74.4k | — |
+| [Run software engineering tasks with OpenHands](../../skills/run-software-engineering-tasks-with-openhands/) | 74.2k | — |
 | [Redis MCP Server](../../skills/redis-mcp-server/) | 73.8k | — |
 | [Docker Compose Generator Skill](../../skills/docker-compose-generator-skill/) | 71.6k | — |
 | [Docker MCP Server](../../skills/docker-mcp-server/) | 71.6k | — |

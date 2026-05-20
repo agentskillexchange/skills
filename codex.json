@@ -2,8 +2,53 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-05-20",
-  "total": 2479,
+  "total": 2484,
   "skills": [
+    {
+      "slug": "run-local-deep-research-workflows-with-local-deep-research",
+      "name": "Run local deep research workflows with Local Deep Research",
+      "title": "Run local deep research workflows with Local Deep Research",
+      "description": "Use Local Deep Research to run private agentic research passes across web, academic, and local document sources with citations and an encrypted knowledge base.",
+      "category": "Research & Scraping",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "run-a-lightweight-personal-ai-agent-with-nanobot",
+      "name": "Run a lightweight personal AI agent with Nanobot",
+      "title": "Run a lightweight personal AI agent with Nanobot",
+      "description": "Use Nanobot to configure a lightweight local personal agent with model providers, MCP tools, memory, chat channels, search, and gateway deployment paths.",
+      "category": "Templates & Workflows",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "trace-and-evaluate-agent-runs-with-phoenix",
+      "name": "Trace and evaluate agent runs with Phoenix",
+      "title": "Trace and evaluate agent runs with Phoenix",
+      "description": "Use Phoenix to trace LLM and agent calls, run evaluations, replay prompts, inspect datasets, and expose observability workflows through MCP.",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "manage-agent-cli-providers-and-mcp-settings-with-cc-switch",
+      "name": "Manage agent CLI providers and MCP settings with CC Switch",
+      "title": "Manage agent CLI providers and MCP settings with CC Switch",
+      "description": "Use CC Switch to keep provider profiles, MCP servers, prompts, skills, sessions, and usage tracking consistent across Claude Code, Codex, Gemini CLI, OpenCode, and…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
+    {
+      "slug": "run-software-engineering-tasks-with-openhands",
+      "name": "Run software engineering tasks with OpenHands",
+      "title": "Run software engineering tasks with OpenHands",
+      "description": "Use OpenHands to run supervised software-engineering agents that inspect repositories, edit code, execute commands, and return reviewable implementation evidence.",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "build-react-agent-chat-interfaces-with-assistant-ui",
       "name": "Build React agent chat interfaces with assistant-ui",
