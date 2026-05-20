@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-05-19
+# Generated: 2026-05-20
 # Total: 2479 skills
 
 ## Build React agent chat interfaces with assistant-ui
