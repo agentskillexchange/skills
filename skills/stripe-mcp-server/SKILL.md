@@ -2,7 +2,7 @@
 name: "Stripe MCP Server"
 slug: "stripe-mcp-server"
 description: ""
-github_stars: 4424
+github_stars: 4425
 verification: "security_reviewed"
 source: "https://github.com/stripe/stripe-node"
 author: "Stripe"
@@ -10,7 +10,7 @@ category: "Integrations & Connectors"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "stripe/stripe-node"
-  github_stars: 4424
+  github_stars: 4425
   npm_package: "stripe"
   npm_weekly_downloads: 12066978
 ---
