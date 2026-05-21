@@ -178,6 +178,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Benchmark and reduce Xcode clean and incremental build times with Xcode Build Optimization Agent Skill](../../skills/benchmark-and-reduce-xcode-clean-and-incremental-build-times-with-xcode-build-optimization-agent-skill/) | 981 | — |
 | [Run reviewable multi-step codemod workflows with Codemod CLI](../../skills/run-reviewable-multi-step-codemod-workflows-with-codemod-cli/) | 979 | — |
 | [Run one formatter plan across a mixed-language repo and keep generated edits predictable with treefmt](../../skills/run-one-formatter-plan-across-a-mixed-language-repo-and-keep-generated-edits-predictable-with-treefmt/) | 977 | 18.6k/wk |
+| [Format and lint TOML configuration with Tombi](../../skills/format-and-lint-toml-configuration-with-tombi/) | 937 | 4.5k/wk |
 | [Template Linting and Auto-Formatting for Django and Jinja Repositories](../../skills/template-linting-auto-formatting-django-jinja-repositories/) | 911 | — |
 | [Autofix common Nix anti-patterns before style drift spreads with Statix](../../skills/autofix-common-nix-anti-patterns-before-style-drift-spreads-with-statix/) | 872 | — |
 | [Score model outputs with reusable evaluator prompts and metrics using autoevals](../../skills/score-model-outputs-with-reusable-evaluator-prompts-and-metrics-using-autoevals/) | 861 | 1.8M/wk |

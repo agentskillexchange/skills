@@ -1,8 +1,33 @@
 {
   "version": "2.0",
-  "total": 2488,
-  "generated": "2026-05-20",
+  "total": 2490,
+  "generated": "2026-05-21",
   "skills": [
+    {
+      "slug": "format-and-lint-toml-configuration-with-tombi",
+      "name": "Format and lint TOML configuration with Tombi",
+      "title": "Format and lint TOML configuration with Tombi",
+      "description": "Run Tombi as a TOML formatter, linter, and language server so agents can clean and validate pyproject, Cargo, and other TOML config files before…",
+      "category": "Code Quality & Review",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 937,
+        "npm_weekly_downloads": 4458
+      }
+    },
+    {
+      "slug": "build-authenticated-mcp-tools-and-servers-with-arcade-mcp",
+      "name": "Build authenticated MCP tools and servers with Arcade MCP",
+      "title": "Build authenticated MCP tools and servers with Arcade MCP",
+      "description": "Use Arcade MCP to create custom MCP servers and tools with OAuth-aware authorization, evals, and deployment paths for agent tool-calling workflows.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 895
+      }
+    },
     {
       "slug": "run-controlled-cybersecurity-agent-workflows-with-cai",
       "name": "Run controlled cybersecurity agent workflows with CAI",

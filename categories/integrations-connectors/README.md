@@ -123,6 +123,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Deploy a self-hosted phone-call agent for Asterisk and FreePBX with AVA](../../skills/deploy-a-self-hosted-phone-call-agent-for-asterisk-and-freepbx-with-ava/) | 991 | — |
 | [MongoDB MCP Server for Database and Atlas Management](../../skills/mongodb-mcp-server-database-atlas-management/) | 983 | 36.6k/wk |
 | [Shopify Admin GraphQL Sync Agent](../../skills/shopify-admin-graphql-sync-agent/) | 959 | 325.5k/wk |
+| [Build authenticated MCP tools and servers with Arcade MCP](../../skills/build-authenticated-mcp-tools-and-servers-with-arcade-mcp/) | 895 | — |
 | [Datadog Integration Connector](../../skills/datadog-integration-connector-agent/) | 791 | 6.6M/wk |
 | [Docker MCP Server for Container Lifecycle Management](../../skills/docker-mcp-server-container-lifecycle-management/) | 695 | — |
 | [Neon Serverless Postgres MCP](../../skills/neon-serverless-postgres-mcp/) | 598 | 15.5k/wk |

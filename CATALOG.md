@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2488 published skills** across **17 categories** · 2,144 security reviewed · Updated 2026-05-20 19:26 UTC
+> **2490 published skills** across **17 categories** · 2,144 security reviewed · Updated 2026-05-21 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -772,7 +772,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [npm Audit Dependency Report Generator](skills/npm-audit-dependency-report-generator/) | Generates comprehensive vulnerability reports from npm audit JSON output and the OSV (Open Source Vulnerabilities)… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (183 skills)
+### ✅ Code Quality & Review (184 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -916,6 +916,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Benchmark and reduce Xcode clean and incremental build times with Xcode Build Optimization Agent Skill](skills/benchmark-and-reduce-xcode-clean-and-incremental-build-times-with-xcode-build-optimization-agent-skill/) | Benchmark clean and incremental Xcode builds, surface compile and configuration hotspots, and produce an… | Security Reviewed | 981 | — |
 | [Run reviewable multi-step codemod workflows with Codemod CLI](skills/run-reviewable-multi-step-codemod-workflows-with-codemod-cli/) | Use Codemod CLI when an agent needs to scaffold, test, and run a reviewable multi-step migration workflow with… | Security Reviewed | 979 | — |
 | [Run one formatter plan across a mixed-language repo and keep generated edits predictable with treefmt](skills/run-one-formatter-plan-across-a-mixed-language-repo-and-keep-generated-edits-predictable-with-treefmt/) | Use treefmt when an agent needs one repo-level formatting plan across multiple languages instead of stitching… | Security Reviewed | 977 | 18.6k/wk |
+| [Format and lint TOML configuration with Tombi](skills/format-and-lint-toml-configuration-with-tombi/) | Run Tombi as a TOML formatter, linter, and language server so agents can clean and validate pyproject, Cargo, and… | Security Reviewed | 937 | 4.5k/wk |
 | [Template Linting and Auto-Formatting for Django and Jinja Repositories](skills/template-linting-auto-formatting-django-jinja-repositories/) | Uses djLint to scan Django, Jinja, Nunjucks, Twig, and HTML templates for indentation problems, malformed tags, and… | Security Reviewed | 911 | — |
 | [Autofix common Nix anti-patterns before style drift spreads with Statix](skills/autofix-common-nix-anti-patterns-before-style-drift-spreads-with-statix/) | Lint Nix expressions and automatically rewrite common anti-patterns before review or refactor work. | Published | 872 | — |
 | [Score model outputs with reusable evaluator prompts and metrics using autoevals](skills/score-model-outputs-with-reusable-evaluator-prompts-and-metrics-using-autoevals/) | Apply reusable evaluators to model outputs when you need lightweight scoring, rationale capture, or quick eval loops… | Security Reviewed | 861 | 1.8M/wk |
@@ -1887,7 +1888,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Rust Crates.io Explorer](skills/rust-crates-io-explorer/) | Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates… | Published | — | — |
 
 
-### 🔗 Integrations & Connectors (118 skills)
+### 🔗 Integrations & Connectors (119 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1976,6 +1977,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Deploy a self-hosted phone-call agent for Asterisk and FreePBX with AVA](skills/deploy-a-self-hosted-phone-call-agent-for-asterisk-and-freepbx-with-ava/) | Bring up a self-hosted voice agent that answers, routes, or transfers live calls through Asterisk or FreePBX with a… | Security Reviewed | 991 | — |
 | [MongoDB MCP Server for Database and Atlas Management](skills/mongodb-mcp-server-database-atlas-management/) | The official MongoDB MCP server connects AI agents to MongoDB databases and Atlas clusters through the Model Context… | Security Reviewed | 983 | 36.6k/wk |
 | [Shopify Admin GraphQL Sync Agent](skills/shopify-admin-graphql-sync-agent/) | Coordinates Shopify data syncs with the Admin GraphQL API, including `bulkOperationRunQuery`, node connections, and… | Published | 959 | 325.5k/wk |
+| [Build authenticated MCP tools and servers with Arcade MCP](skills/build-authenticated-mcp-tools-and-servers-with-arcade-mcp/) | Use Arcade MCP to create custom MCP servers and tools with OAuth-aware authorization, evals, and deployment paths… | Security Reviewed | 895 | — |
 | [Datadog Integration Connector](skills/datadog-integration-connector-agent/) | Connects applications to Datadog monitoring using the Datadog API v2 for metrics submission, log forwarding, APM… | Security Reviewed | 791 | 6.6M/wk |
 | [Docker MCP Server for Container Lifecycle Management](skills/docker-mcp-server-container-lifecycle-management/) | An MCP server that enables AI agents to manage Docker containers, images, volumes, and networks through natural… | Security Reviewed | 695 | — |
 | [Neon Serverless Postgres MCP](skills/neon-serverless-postgres-mcp/) | Neon's official MCP server translates natural language requests into Neon API calls, letting AI agents create… | Security Reviewed | 598 | 15.5k/wk |

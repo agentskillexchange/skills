@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-05-20
-# Total: 2488 skills
+# Generated: 2026-05-21
+# Total: 2490 skills
+
+## Format and lint TOML configuration with Tombi
+slug: format-and-lint-toml-configuration-with-tombi
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run Tombi as a TOML formatter, linter, and language server so agents can clean and validate pyproject, Cargo, and other TOML config files before…
+url: https://agentskillexchange.com/skills/format-and-lint-toml-configuration-with-tombi/
+
+## Build authenticated MCP tools and servers with Arcade MCP
+slug: build-authenticated-mcp-tools-and-servers-with-arcade-mcp
+category: Integrations & Connectors
+framework: MCP
+verification: Security Reviewed
+description: Use Arcade MCP to create custom MCP servers and tools with OAuth-aware authorization, evals, and deployment paths for agent tool-calling workflows.
+url: https://agentskillexchange.com/skills/build-authenticated-mcp-tools-and-servers-with-arcade-mcp/
 
 ## Run controlled cybersecurity agent workflows with CAI
 slug: run-controlled-cybersecurity-agent-workflows-with-cai
