@@ -12,6 +12,8 @@ framework: "Claude Code"
 tool_ecosystem:
   github_repo: "thedotmack/claude-mem"
   github_stars: 74413
+  npm_package: "claude-mem"
+  npm_weekly_downloads: 0
 ---
 
 # Preserve Claude Code session memory with Claude Mem

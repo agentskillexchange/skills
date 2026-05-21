@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "thedotmack/claude-mem"
   github_stars: 74480
+  npm_package: "claude-mem"
+  npm_weekly_downloads: 16072
 ---
 
 # Preserve agent session context with Claude Mem

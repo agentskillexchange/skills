@@ -11,6 +11,8 @@ framework: "Claude Code"
 tool_ecosystem:
   github_repo: "biomejs/biome"
   github_stars: 24293
+  npm_package: "@biomejs/biome"
+  npm_weekly_downloads: 8804233
 ---
 
 # Biome Lint Migration Toolkit

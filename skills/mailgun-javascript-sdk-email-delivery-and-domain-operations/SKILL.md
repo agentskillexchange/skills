@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "mailgun/mailgun.js"
   github_stars: 547
+  npm_package: "mailgun.js"
+  npm_weekly_downloads: 927003
 ---
 
 # Mailgun JavaScript SDK for Email Delivery and Domain Operations
