@@ -23,6 +23,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 
 | Skill | Downloads |
 |---|---:|
+| [Preserve agent session context with Claude Mem](../../skills/preserve-agent-session-context-with-claude-mem/) | ⬇ 16.1k/wk |
 | [Store selective long-term agent memories with Mem0 instead of replaying whole chats](../../skills/store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats/) | ⬇ 2.5M/wk |
 | [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | ⬇ 9.9M/wk |
 | [Swagger / OpenAPI Validator](../../skills/swagger-openapi-validator/) | ⬇ 149.9k/wk |
@@ -32,7 +33,6 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Swagger UI Documentation Deployer](../../skills/swagger-ui-documentation-deployer/) | ⬇ 149.2k/wk |
 | [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | ⬇ 1.5M/wk |
 | [Build temporal context graphs for agent memory from evolving facts with Graphiti](../../skills/build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti/) | ⬇ 529.3k/wk |
-| [GraphQL Introspection Documenter](../../skills/graphql-introspection-documenter/) | ⬇ 34.2M/wk |
 
 ---
 
@@ -40,7 +40,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [Preserve agent session context with Claude Mem](../../skills/preserve-agent-session-context-with-claude-mem/) | 74.5k | — |
+| [Preserve agent session context with Claude Mem](../../skills/preserve-agent-session-context-with-claude-mem/) | 74.5k | 16.1k/wk |
 | [Docker Image Layer Analyzer](../../skills/docker-image-layer-analyzer/) | 71.5k | — |
 | [Store selective long-term agent memories with Mem0 instead of replaying whole chats](../../skills/store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats/) | 53.5k | 2.5M/wk |
 | [Context7 MCP Documentation Server for LLM Code Editors](../../skills/context7-mcp-documentation-server-llm-code-editors/) | 51.3k | — |

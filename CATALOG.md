@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2490 published skills** across **17 categories** · 2,145 security reviewed · Updated 2026-05-21 01:26 UTC
+> **2491 published skills** across **17 categories** · 2,145 security reviewed · Updated 2026-05-21 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (321 skills)
+### 🛠️ Developer Tools (322 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -128,7 +128,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Jenkins MCP Server](skills/jenkins-mcp-server/) | Jenkins MCP Server is built around Jenkins automation server. The underlying ecosystem is represented by… | Security Reviewed | 25.3k | — |
 | [Pulumi MCP Server](skills/pulumi-mcp-server/) | Pulumi MCP Server is built around Pulumi infrastructure as code platform. The underlying ecosystem is represented by… | Security Reviewed | 25.2k | 2.3M/wk |
 | [CI Pipeline Generator Skill](skills/ci-pipeline-generator-skill/) | CI Pipeline Generator Skill is built around GitLab DevSecOps platform. The underlying ecosystem is represented by… | Security Reviewed | 24.3k | — |
-| [Biome Lint Migration Toolkit](skills/biome-lint-migration-toolkit/) | Automates migration from ESLint and Prettier to Biome (formerly Rome) by parsing .eslintrc and .prettierrc configs,… | Published | 24.3k | — |
+| [Biome Lint Migration Toolkit](skills/biome-lint-migration-toolkit/) | Automates migration from ESLint and Prettier to Biome (formerly Rome) by parsing .eslintrc and .prettierrc configs,… | Published | 24.3k | 8.8M/wk |
 | [FastMCP Python MCP Server and Client Framework](skills/fastmcp-python-mcp-server-client-framework/) | FastMCP is the standard Python framework for building Model Context Protocol servers, clients, and applications. It… | Published | 24.2k | — |
 | [llamafile Single-File LLM Distribution and Runner by Mozilla](skills/llamafile-single-file-llm-runner-mozilla/) | llamafile by Mozilla bundles open-source LLMs into a single portable executable that runs locally on macOS, Windows,… | Security Reviewed | 24.1k | — |
 | [Glow Terminal Markdown Renderer](skills/glow-terminal-markdown-renderer/) | Glow is a terminal-based markdown reader by Charm that renders markdown files with syntax highlighting, word… | Security Reviewed | 24.1k | — |
@@ -301,6 +301,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Run React Native implementation and troubleshooting workflows with Callstack Agent Skills](skills/run-react-native-implementation-and-troubleshooting-workflows-with-callstack-agent-skills/) | Give coding agents React Native-specific build, upgrade, GitHub Actions, and troubleshooting guidance instead of… | Security Reviewed | 1.3k | — |
 | [Capture, search, and optionally sync local coding-agent session history across Claude Code, Codex, Cursor CLI, and Gemini with SpecStory](skills/capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory/) | Use SpecStory when valuable coding-agent decisions keep disappearing into terminal history and you need one… | Security Reviewed | 1.2k | — |
 | [Find and export SVG icons across icon libraries for UI work](skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/) | Use Better Icons when an agent needs to search icon sets, compare matches, and return the exact SVG asset needed for… | Security Reviewed | 915 | — |
+| [Reduce coding-agent context load with Token Savior](skills/reduce-coding-agent-context-load-with-token-savior/) | Connect coding agents to a Token Savior MCP server for structural code navigation, persistent recall, compact… | Security Reviewed | 893 | — |
 | [CircleCI MCP Server](skills/circleci-mcp-server/) | CircleCI MCP Server is built around CircleCI continuous integration platform. The underlying ecosystem is… | Security Reviewed | 843 | — |
 | [Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac](skills/run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac/) | Execute repository-stored HTTP request files from the command line so API smoke tests, assertions, and… | Security Reviewed | 809 | 36.7k/wk |
 | [Control Android devices with an on-device AI agent using PokeClaw](skills/control-android-devices-with-an-on-device-ai-agent-using-pokeclaw/) | Run an on-device Android control loop that inspects screens and performs app actions locally for mobile automation… | Security Reviewed | 760 | — |
@@ -814,7 +815,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [ESLint Rule Violation Summarizer](skills/eslint-rule-violation-summarizer-2/) | Runs ESLint against a JS/TS codebase, groups violations by rule and file, and produces a prioritized fix plan.… | Security Reviewed | 27.2k | 123.6M/wk |
 | [Jenkins Pipeline Code Review Agent](skills/jenkins-pipeline-code-review-agent/) | Reviews Jenkinsfile and Groovy pipeline scripts for anti-patterns, security issues, and performance bottlenecks… | Security Reviewed | 25.2k | — |
 | [Difftastic Structural Syntax-Aware Diff Tool](skills/difftastic-structural-syntax-diff/) | Difftastic is a structural diff tool that compares files based on their syntax rather than line-by-line text.… | Security Reviewed | 24.9k | — |
-| [Biome High-Performance JavaScript TypeScript Formatter and Linter](skills/biome-high-performance-javascript-typescript-formatter-linter/) | Biome is a high-performance Rust-based toolchain for JavaScript, TypeScript, JSX, JSON, CSS, and GraphQL that… | Published | 24.3k | — |
+| [Biome High-Performance JavaScript TypeScript Formatter and Linter](skills/biome-high-performance-javascript-typescript-formatter-linter/) | Biome is a high-performance Rust-based toolchain for JavaScript, TypeScript, JSX, JSON, CSS, and GraphQL that… | Published | 24.3k | 8.8M/wk |
 | [Oxlint High-Performance JavaScript Linter](skills/oxlint-high-performance-javascript-linter/) | Run Oxlint from the Oxc toolchain to lint JavaScript and TypeScript codebases at extreme speed. Written in Rust,… | Security Reviewed | 20.5k | 4.3M/wk |
 | [Python Type Coverage Analyzer](skills/python-type-coverage-analyzer/) | Measures and improves Python type annotation coverage using mypy --html-report and pyright type completeness… | Security Reviewed | 20.4k | — |
 | [Regression-test prompts, agents, and RAG outputs before shipping changes](skills/regression-test-prompts-agents-and-rag-outputs-before-shipping-changes/) | Use promptfoo when an agent needs to evaluate prompt, agent, or RAG behavior against saved assertions before a… | Security Reviewed | 20k | — |
@@ -1607,8 +1608,8 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Cronitor CLI for Cron Monitoring and Job Telemetry](skills/cronitor-cli-cron-monitoring-job-telemetry/) | CronitorCLI is Cronitor's open-source command-line tool for syncing cron jobs, sending telemetry pings, and wrapping… | Security Reviewed | 399 | — |
 | [Monitor coding-agent token spend with Splitrail](skills/monitor-coding-agent-token-spend-with-splitrail/) | Track token burn, spend, and model mix across multiple coding-agent tools from one local monitoring workflow. | Security Reviewed | 159 | — |
 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | Metrics Dashboard Builder is built around Datadog observability platform. The underlying ecosystem is represented by… | Security Reviewed | 103 | 1.9M/wk |
-| [Checkly Browser Check Failure Notifier](skills/checkly-browser-check-failure-notifier/) | Monitors Checkly browser checks via the Checkly Management API and notifies teams on Playwright test failures.… | Security Reviewed | 92 | — |
-| [Checkly CLI Monitoring as Code for API and Browser Checks](skills/checkly-cli-monitoring-as-code-for-api-and-browser-checks/) | Checkly CLI lets agents define, test, and deploy synthetic monitoring from a JavaScript or TypeScript codebase. It… | Security Reviewed | 92 | — |
+| [Checkly Browser Check Failure Notifier](skills/checkly-browser-check-failure-notifier/) | Monitors Checkly browser checks via the Checkly Management API and notifies teams on Playwright test failures.… | Security Reviewed | 92 | 198.9k/wk |
+| [Checkly CLI Monitoring as Code for API and Browser Checks](skills/checkly-cli-monitoring-as-code-for-api-and-browser-checks/) | Checkly CLI lets agents define, test, and deploy synthetic monitoring from a JavaScript or TypeScript codebase. It… | Security Reviewed | 92 | 198.9k/wk |
 | [PagerDuty Incident Escalator](skills/pagerduty-incident-escalator/) | Manages PagerDuty incident lifecycle using the PagerDuty REST API v2 /incidents endpoint. Automates escalation… | Security Reviewed | 69 | 1M/wk |
 | [PagerDuty Incident Orchestrator](skills/pagerduty-incident-orchestrator-2/) | Manages PagerDuty incident lifecycle using the PagerDuty Events API v2 and REST API. Automates escalation policies,… | Security Reviewed | 69 | 1M/wk |
 | [PagerDuty Incident Runbook Linker](skills/pagerduty-incident-runbook-linker/) | Automatically links PagerDuty incidents to relevant runbooks using the PagerDuty Events API v2 and service… | Security Reviewed | 69 | 1M/wk |
@@ -1710,8 +1711,8 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Apply repeatable IMAP rules to triage and clean inboxes with imapfilter](skills/apply-repeatable-imap-rules-to-triage-and-clean-inboxes-with-imapfilter/) | Route, label, and clean routine email traffic with scripted IMAP rules instead of doing the same inbox chores by hand. | Security Reviewed | 917 | — |
 | [Resend Developer Email API and Node.js SDK](skills/resend-developer-email-api-nodejs-sdk/) | Resend is a modern email API designed for developers, providing a clean SDK for sending transactional and marketing… | Published | 887 | 5.3M/wk |
 | [Atlassian Rovo MCP Server](skills/atlassian-rovo-mcp-server/) | The Atlassian Rovo MCP Server bridges your Atlassian Cloud workspace with any MCP-compatible client. Search and… | Security Reviewed | 714 | — |
-| [Mailgun JavaScript SDK for Email Delivery and Domain Operations](skills/mailgun-javascript-sdk-email-delivery-and-domain-operations-2/) | An ASE skill built around the official Mailgun JavaScript SDK for sending email and managing Mailgun API workflows… | Security Reviewed | 547 | — |
-| [Mailgun JavaScript SDK for Email Delivery and Domain Operations](skills/mailgun-javascript-sdk-email-delivery-and-domain-operations/) | An ASE skill built around the official Mailgun JavaScript SDK for sending email and managing Mailgun API workflows… | Security Reviewed | 547 | — |
+| [Mailgun JavaScript SDK for Email Delivery and Domain Operations](skills/mailgun-javascript-sdk-email-delivery-and-domain-operations-2/) | An ASE skill built around the official Mailgun JavaScript SDK for sending email and managing Mailgun API workflows… | Security Reviewed | 547 | 927k/wk |
+| [Mailgun JavaScript SDK for Email Delivery and Domain Operations](skills/mailgun-javascript-sdk-email-delivery-and-domain-operations/) | An ASE skill built around the official Mailgun JavaScript SDK for sending email and managing Mailgun API workflows… | Security Reviewed | 547 | 927k/wk |
 | [Read and automate Slack workflows from a purpose-built agent CLI with agent-slack](skills/read-and-automate-slack-workflows-from-a-purpose-built-agent-cli-with-agent-slack/) | Search channels, inspect threads, move files, and send or edit Slack messages through an agent-oriented CLI with… | Security Reviewed | 382 | 5.2k/wk |
 | [Postmark.js Email Delivery API for Transactional Messaging](skills/postmarkjs-email-delivery-api-transactional-messaging/) | postmark.js is the official Node.js library for the Postmark API, used to send transactional email, templates, and… | Security Reviewed | 357 | — |
 | [Run agent mailboxes and pull verification codes or reply context programmatically with Mails](skills/run-agent-mailboxes-and-pull-verification-codes-or-reply-context-programmatically-with-mails/) | Give an agent a mailbox it can send from, read from, search, sync locally, and mine for login codes or attachments… | Security Reviewed | 294 | 1.3k/wk |
@@ -1765,7 +1766,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 
 | Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
 |---|---|---|---:|---:|
-| [Preserve agent session context with Claude Mem](skills/preserve-agent-session-context-with-claude-mem/) | Capture coding-agent sessions, compress the useful decisions and context, and inject relevant memory into future… | Security Reviewed | 74.5k | — |
+| [Preserve agent session context with Claude Mem](skills/preserve-agent-session-context-with-claude-mem/) | Capture coding-agent sessions, compress the useful decisions and context, and inject relevant memory into future… | Security Reviewed | 74.5k | 16.1k/wk |
 | [Docker Image Layer Analyzer](skills/docker-image-layer-analyzer/) | Analyzes Docker image layers using the Docker Registry HTTP API v2 and dive CLI tool. Calculates layer sizes,… | Security Reviewed | 71.5k | — |
 | [Store selective long-term agent memories with Mem0 instead of replaying whole chats](skills/store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats/) | Use Mem0 when an agent should retain durable preferences, facts, and prior decisions as selective memory records… | Security Reviewed | 53.5k | 2.5M/wk |
 | [Context7 MCP Documentation Server for LLM Code Editors](skills/context7-mcp-documentation-server-llm-code-editors/) | Context7 by Upstash injects up-to-date, version-specific library documentation and code examples directly into AI… | Security Reviewed | 51.3k | — |

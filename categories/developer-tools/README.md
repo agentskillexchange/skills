@@ -154,7 +154,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Jenkins MCP Server](../../skills/jenkins-mcp-server/) | 25.3k | — |
 | [Pulumi MCP Server](../../skills/pulumi-mcp-server/) | 25.2k | 2.3M/wk |
 | [CI Pipeline Generator Skill](../../skills/ci-pipeline-generator-skill/) | 24.3k | — |
-| [Biome Lint Migration Toolkit](../../skills/biome-lint-migration-toolkit/) | 24.3k | — |
+| [Biome Lint Migration Toolkit](../../skills/biome-lint-migration-toolkit/) | 24.3k | 8.8M/wk |
 | [FastMCP Python MCP Server and Client Framework](../../skills/fastmcp-python-mcp-server-client-framework/) | 24.2k | — |
 | [llamafile Single-File LLM Distribution and Runner by Mozilla](../../skills/llamafile-single-file-llm-runner-mozilla/) | 24.1k | — |
 | [Glow Terminal Markdown Renderer](../../skills/glow-terminal-markdown-renderer/) | 24.1k | — |
@@ -327,6 +327,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Run React Native implementation and troubleshooting workflows with Callstack Agent Skills](../../skills/run-react-native-implementation-and-troubleshooting-workflows-with-callstack-agent-skills/) | 1.3k | — |
 | [Capture, search, and optionally sync local coding-agent session history across Claude Code, Codex, Cursor CLI, and Gemini with SpecStory](../../skills/capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory/) | 1.2k | — |
 | [Find and export SVG icons across icon libraries for UI work](../../skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/) | 915 | — |
+| [Reduce coding-agent context load with Token Savior](../../skills/reduce-coding-agent-context-load-with-token-savior/) | 893 | — |
 | [CircleCI MCP Server](../../skills/circleci-mcp-server/) | 843 | — |
 | [Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac](../../skills/run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac/) | 809 | 36.7k/wk |
 | [Control Android devices with an on-device AI agent using PokeClaw](../../skills/control-android-devices-with-an-on-device-ai-agent-using-pokeclaw/) | 760 | — |

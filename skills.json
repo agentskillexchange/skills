@@ -1,8 +1,20 @@
 {
   "version": "2.0",
-  "total": 2490,
+  "total": 2491,
   "generated": "2026-05-21",
   "skills": [
+    {
+      "slug": "reduce-coding-agent-context-load-with-token-savior",
+      "name": "Reduce coding-agent context load with Token Savior",
+      "title": "Reduce coding-agent context load with Token Savior",
+      "description": "Connect coding agents to a Token Savior MCP server for structural code navigation, persistent recall, compact command output, and token-aware project context reuse.",
+      "category": "Developer Tools",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 893
+      }
+    },
     {
       "slug": "format-and-lint-toml-configuration-with-tombi",
       "name": "Format and lint TOML configuration with Tombi",
@@ -655,7 +667,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 74480
+        "github_stars": 74480,
+        "npm_weekly_downloads": 16072
       }
     },
     {
@@ -8081,7 +8094,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 547
+        "github_stars": 547,
+        "npm_weekly_downloads": 927003
       }
     },
     {
@@ -8093,7 +8107,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 547
+        "github_stars": 547,
+        "npm_weekly_downloads": 927003
       }
     },
     {
@@ -8794,6 +8809,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 92,
+        "npm_weekly_downloads": 198890,
         "license": "Apache-2.0"
       }
     },
@@ -10430,7 +10446,8 @@
       "framework": "Multi-Framework",
       "verification": "listed",
       "signals": {
-        "github_stars": 24340
+        "github_stars": 24340,
+        "npm_weekly_downloads": 8804233
       }
     },
     {
@@ -16908,7 +16925,8 @@
       "framework": "Claude Code",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 92
+        "github_stars": 92,
+        "npm_weekly_downloads": 198890
       }
     },
     {
@@ -17575,7 +17593,8 @@
       "framework": "Claude Code",
       "verification": "listed",
       "signals": {
-        "github_stars": 24293
+        "github_stars": 24293,
+        "npm_weekly_downloads": 8804233
       }
     },
     {

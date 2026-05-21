@@ -115,8 +115,8 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Apply repeatable IMAP rules to triage and clean inboxes with imapfilter](../../skills/apply-repeatable-imap-rules-to-triage-and-clean-inboxes-with-imapfilter/) | 917 | — |
 | [Resend Developer Email API and Node.js SDK](../../skills/resend-developer-email-api-nodejs-sdk/) | 887 | 5.3M/wk |
 | [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | 714 | — |
-| [Mailgun JavaScript SDK for Email Delivery and Domain Operations](../../skills/mailgun-javascript-sdk-email-delivery-and-domain-operations-2/) | 547 | — |
-| [Mailgun JavaScript SDK for Email Delivery and Domain Operations](../../skills/mailgun-javascript-sdk-email-delivery-and-domain-operations/) | 547 | — |
+| [Mailgun JavaScript SDK for Email Delivery and Domain Operations](../../skills/mailgun-javascript-sdk-email-delivery-and-domain-operations-2/) | 547 | 927k/wk |
+| [Mailgun JavaScript SDK for Email Delivery and Domain Operations](../../skills/mailgun-javascript-sdk-email-delivery-and-domain-operations/) | 547 | 927k/wk |
 | [Read and automate Slack workflows from a purpose-built agent CLI with agent-slack](../../skills/read-and-automate-slack-workflows-from-a-purpose-built-agent-cli-with-agent-slack/) | 382 | 5.2k/wk |
 | [Postmark.js Email Delivery API for Transactional Messaging](../../skills/postmarkjs-email-delivery-api-transactional-messaging/) | 357 | — |
 | [Run agent mailboxes and pull verification codes or reply context programmatically with Mails](../../skills/run-agent-mailboxes-and-pull-verification-codes-or-reply-context-programmatically-with-mails/) | 294 | 1.3k/wk |

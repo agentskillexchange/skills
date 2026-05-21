@@ -151,8 +151,8 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Cronitor CLI for Cron Monitoring and Job Telemetry](../../skills/cronitor-cli-cron-monitoring-job-telemetry/) | 399 | — |
 | [Monitor coding-agent token spend with Splitrail](../../skills/monitor-coding-agent-token-spend-with-splitrail/) | 159 | — |
 | [Metrics Dashboard Builder](../../skills/metrics-dashboard-builder/) | 103 | 1.9M/wk |
-| [Checkly Browser Check Failure Notifier](../../skills/checkly-browser-check-failure-notifier/) | 92 | — |
-| [Checkly CLI Monitoring as Code for API and Browser Checks](../../skills/checkly-cli-monitoring-as-code-for-api-and-browser-checks/) | 92 | — |
+| [Checkly Browser Check Failure Notifier](../../skills/checkly-browser-check-failure-notifier/) | 92 | 198.9k/wk |
+| [Checkly CLI Monitoring as Code for API and Browser Checks](../../skills/checkly-cli-monitoring-as-code-for-api-and-browser-checks/) | 92 | 198.9k/wk |
 | [PagerDuty Incident Escalator](../../skills/pagerduty-incident-escalator/) | 69 | 1M/wk |
 | [PagerDuty Incident Orchestrator](../../skills/pagerduty-incident-orchestrator-2/) | 69 | 1M/wk |
 | [PagerDuty Incident Runbook Linker](../../skills/pagerduty-incident-runbook-linker/) | 69 | 1M/wk |

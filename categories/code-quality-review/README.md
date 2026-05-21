@@ -76,7 +76,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [ESLint Rule Violation Summarizer](../../skills/eslint-rule-violation-summarizer-2/) | 27.2k | 123.6M/wk |
 | [Jenkins Pipeline Code Review Agent](../../skills/jenkins-pipeline-code-review-agent/) | 25.2k | — |
 | [Difftastic Structural Syntax-Aware Diff Tool](../../skills/difftastic-structural-syntax-diff/) | 24.9k | — |
-| [Biome High-Performance JavaScript TypeScript Formatter and Linter](../../skills/biome-high-performance-javascript-typescript-formatter-linter/) | 24.3k | — |
+| [Biome High-Performance JavaScript TypeScript Formatter and Linter](../../skills/biome-high-performance-javascript-typescript-formatter-linter/) | 24.3k | 8.8M/wk |
 | [Oxlint High-Performance JavaScript Linter](../../skills/oxlint-high-performance-javascript-linter/) | 20.5k | 4.3M/wk |
 | [Python Type Coverage Analyzer](../../skills/python-type-coverage-analyzer/) | 20.4k | — |
 | [Regression-test prompts, agents, and RAG outputs before shipping changes](../../skills/regression-test-prompts-agents-and-rag-outputs-before-shipping-changes/) | 20k | — |
