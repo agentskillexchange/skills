@@ -69,15 +69,24 @@
         "documenso-open-source-document-signing",
         "docuseal-document-signing-pdf-forms",
         "ocrmypdf-searchable-pdf-ocr-pipeline",
+        "apache-tika-document-extractor",
+        "apache-tika-document-parser",
         "pdfplumber-python-pdf-text-table-extraction",
+        "parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse",
         "search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review",
         "paperless-ngx-document-ocr-archive-management-system",
         "langextract-llm-structured-text-extraction",
+        "redact-pii-from-text-before-sharing-or-indexing-with-scrubadub",
         "search-large-pdfs-and-read-only-the-relevant-pages-before-answering",
         "process-redact-ocr-and-sign-documents-with-nutrient-agent-skill",
         "convert-dense-pdfs-into-llm-ready-text-and-page-aligned-markdown-with-olmocr",
+        "turn-documents-into-validated-knowledge-graphs-with-docling-graph",
+        "extract-structured-markdown-json-and-tagged-pdf-ready-outputs-from-pdfs-with-opendataloader-pdf",
         "enrich-paperless-ngx-documents-with-ai-generated-titles-tags-and-correspondents-using-paperless-gpt",
-        "capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate"
+        "capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate",
+        "extract-structured-data-and-attachments-from-raw-email-mailparser",
+        "strip-quoted-email-history-and-signatures-before-summarizing-inbound-replies",
+        "load-mbox-mail-archives-into-sqlite-for-offline-search-audits-and-dataset-joins"
       ]
     },
     {
