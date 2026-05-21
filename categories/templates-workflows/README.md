@@ -120,6 +120,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [SonarQube Gate Checker](../../skills/sonarqube-gate-checker-2/) | 10.4k | — |
 | [Yeoman Scaffold Runner](../../skills/yeoman-scaffold-runner/) | 10.1k | — |
 | [Build and trace multi-agent workflows with Microsoft Agent Framework](../../skills/build-and-trace-multi-agent-workflows-with-microsoft-agent-framework/) | 10.1k | — |
+| [Run Nature-style academic writing and figure workflows with Nature Skills](../../skills/run-nature-style-academic-writing-and-figure-workflows-with-nature-skills/) | 10k | — |
 | [Deploy OpenClaw on Cloudflare Workers with Moltworker](../../skills/deploy-openclaw-on-cloudflare-workers-with-moltworker/) | 9.9k | — |
 | [Automate ML research loops with ARIS skills](../../skills/automate-ml-research-loops-with-aris-skills/) | 9.6k | — |
 | [Compose router, evaluator, and handoff workflows over MCP servers with mcp-agent](../../skills/compose-router-evaluator-and-handoff-workflows-over-mcp-servers-with-mcp-agent/) | 8.3k | 29.2k/wk |

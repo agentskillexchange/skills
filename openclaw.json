@@ -2,8 +2,26 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-05-21",
-  "total": 2491,
+  "total": 2493,
   "skills": [
+    {
+      "slug": "run-nature-style-academic-writing-and-figure-workflows-with-nature-skills",
+      "name": "Run Nature-style academic writing and figure workflows with Nature Skills",
+      "title": "Run Nature-style academic writing and figure workflows with Nature Skills",
+      "description": "Install reusable Codex or Claude Code skill bundles for Nature-style manuscript polishing, academic writing, citations, paper reading, response drafting, data handling, slides, and scientific…",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "run-local-small-model-coding-sessions-with-smallcode",
+      "name": "Run local small-model coding sessions with SmallCode",
+      "title": "Run local small-model coding sessions with SmallCode",
+      "description": "Use SmallCode as a terminal-native coding agent for 8B-35B local models, with budget-managed context, forgiving tool parsing, TODO-driven planning, and patch-based edits.",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "listed"
+    },
     {
       "slug": "reduce-coding-agent-context-load-with-token-savior",
       "name": "Reduce coding-agent context load with Token Savior",

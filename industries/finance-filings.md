@@ -16,7 +16,7 @@ Filings research, invoice intake, billing operations, reconciliation, and financ
 | [Stripe Reporting Agent](../skills/stripe-reporting-agent/) | Integrations & Connectors | 4.4k | 9.3M/wk |
 | [Stripe Revenue Reconciliation Agent](../skills/stripe-revenue-reconciliation-agent/) | Integrations & Connectors | 4.4k | 9.3M/wk |
 | [Stripe Revenue Analytics Dashboard Builder](../skills/stripe-revenue-analytics-dashboard/) | Data Extraction & Transformation | 4.4k | 9.3M/wk |
-| [Stripe MCP Server](../skills/stripe-mcp-server/) | Integrations & Connectors | 4.4k | 12.1M/wk |
+| [Stripe MCP Server](../skills/stripe-mcp-server/) | Integrations & Connectors | 4.4k | 12.2M/wk |
 | [Stripe Webhook Signature Verifier](../skills/stripe-webhook-signature-verifier/) | Security & Verification | 4.4k | 9.3M/wk |
 | [QuickBooks Online Invoice Reconciliation Agent](../skills/quickbooks-invoice-reconciliation/) | Data Extraction & Transformation | — | — |
 

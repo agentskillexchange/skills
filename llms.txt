@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-05-21
-# Total: 2491 skills
+# Total: 2493 skills
+
+## Run Nature-style academic writing and figure workflows with Nature Skills
+slug: run-nature-style-academic-writing-and-figure-workflows-with-nature-skills
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Install reusable Codex or Claude Code skill bundles for Nature-style manuscript polishing, academic writing, citations, paper reading, response drafting, data handling, slides, and scientific…
+url: https://agentskillexchange.com/skills/run-nature-style-academic-writing-and-figure-workflows-with-nature-skills/
+
+## Run local small-model coding sessions with SmallCode
+slug: run-local-small-model-coding-sessions-with-smallcode
+category: Developer Tools
+framework: Custom Agents
+verification: Published
+description: Use SmallCode as a terminal-native coding agent for 8B-35B local models, with budget-managed context, forgiving tool parsing, TODO-driven planning, and patch-based edits.
+url: https://agentskillexchange.com/skills/run-local-small-model-coding-sessions-with-smallcode/
 
 ## Reduce coding-agent context load with Token Savior
 slug: reduce-coding-agent-context-load-with-token-savior

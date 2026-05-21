@@ -184,8 +184,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [xq Command-Line XML and HTML Beautifier and Content Extractor](../../skills/xq-command-line-xml-html-beautifier-content-extractor/) | 1.1k | — |
 | [Query Neo4j graph data from agent workflows through MCP](../../skills/query-neo4j-graph-data-from-agent-workflows-through-mcp/) | 947 | — |
 | [Extract structured fields from HTML XML and JSON endpoints with Xidel selectors](../../skills/extract-structured-fields-from-html-xml-and-json-endpoints-with-xidel-selectors/) | 835 | — |
+| [Snowflake MCP Server](../../skills/snowflake-mcp-server/) | 725 | — |
 | [Snowflake MCP](../../skills/snowflake-mcp/) | 724 | — |
-| [Snowflake MCP Server](../../skills/snowflake-mcp-server/) | 724 | — |
 | [Snowflake Query History Extractor](../../skills/snowflake-query-history-extractor/) | 724 | — |
 | [Snowflake Query Optimizer Agent](../../skills/snowflake-query-optimizer-agent/) | 724 | — |
 | [Snowflake Query Profiler](../../skills/snowflake-query-profiler/) | 724 | — |
@@ -201,7 +201,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Query cross-connector business data for agents with Dinobase](../../skills/query-cross-connector-business-data-for-agents-with-dinobase/) | 252 | — |
 | [Weaviate MCP Server](../../skills/weaviate-mcp-server/) | 161 | — |
 | [Turn documents into validated knowledge graphs with Docling Graph](../../skills/turn-documents-into-validated-knowledge-graphs-with-docling-graph/) | 134 | — |
-| [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 88 | — |
+| [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 89 | — |
 | [Turn captured WARC pages into clean text and language-tagged records with warc2text](../../skills/turn-captured-warc-pages-into-clean-text-and-language-tagged-records-with-warc2text/) | 23 | — |
 | [Search large PDFs and read only the relevant pages before answering](../../skills/search-large-pdfs-and-read-only-the-relevant-pages-before-answering/) | 17 | — |
 | [Process, redact, OCR, and sign documents with Nutrient Agent Skill](../../skills/process-redact-ocr-and-sign-documents-with-nutrient-agent-skill/) | 5 | — |
