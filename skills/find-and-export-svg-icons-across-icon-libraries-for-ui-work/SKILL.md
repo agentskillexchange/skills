@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "better-auth/better-icons"
   github_stars: 915
+  npm_package: "better-icons"
+  npm_weekly_downloads: 287
 ---
 
 # Find and export SVG icons across icon libraries for UI work

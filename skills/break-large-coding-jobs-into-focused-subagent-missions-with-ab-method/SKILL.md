@@ -12,6 +12,8 @@ framework: "Claude Code"
 tool_ecosystem:
   github_repo: "ayoubben18/ab-method"
   github_stars: 159
+  npm_package: "ab-method"
+  npm_weekly_downloads: 472
 ---
 
 # Break large coding jobs into focused subagent missions with AB Method

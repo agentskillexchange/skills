@@ -5,11 +5,14 @@ description: "Pipedream is a developer-focused workflow platform for connecting 
 github_stars: 11231
 verification: "security_reviewed"
 source: "https://github.com/PipedreamHQ/pipedream"
+author: "PipedreamHQ"
 category: "Integrations & Connectors"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "PipedreamHQ/pipedream"
   github_stars: 11231
+  npm_package: "pipedream"
+  npm_weekly_downloads: 9
 ---
 
 # Pipedream API Workflow Automation Platform

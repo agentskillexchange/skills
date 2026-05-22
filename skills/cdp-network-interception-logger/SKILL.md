@@ -11,6 +11,8 @@ framework: "Codex"
 tool_ecosystem:
   github_repo: "ChromeDevTools/devtools-protocol"
   github_stars: 1476
+  npm_package: "devtools-protocol"
+  npm_weekly_downloads: 23652912
 ---
 
 # CDP Network Interception Logger

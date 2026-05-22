@@ -5,11 +5,14 @@ description: "Cerbos is an open-core, language-agnostic, scalable authorization 
 github_stars: 4319
 verification: "security_reviewed"
 source: "https://github.com/cerbos/cerbos"
+author: "cerbos"
 category: "Security & Verification"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "cerbos/cerbos"
   github_stars: 4319
+  npm_package: "cerbos"
+  npm_weekly_downloads: 1035
 ---
 
 # Cerbos Open Source Authorization Policy Decision Point

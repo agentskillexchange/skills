@@ -5,11 +5,14 @@ description: "Budibase is an open-source low-code platform for internal apps, fo
 github_stars: 27811
 verification: "security_reviewed"
 source: "https://github.com/Budibase/budibase"
+author: "Budibase"
 category: "Developer Tools"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "Budibase/budibase"
   github_stars: 27811
+  npm_package: "budibase"
+  npm_weekly_downloads: 41
 ---
 
 # Budibase Open Source Low-Code Operations App Platform

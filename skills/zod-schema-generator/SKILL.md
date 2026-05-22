@@ -11,6 +11,8 @@ framework: "Cursor"
 tool_ecosystem:
   github_repo: "colinhacks/zod"
   github_stars: 42500
+  npm_package: "zod"
+  npm_weekly_downloads: 145142410
 ---
 
 # Zod Schema Generator

@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "astefanutti/decktape"
   github_stars: 2361
+  npm_package: "decktape"
+  npm_weekly_downloads: 1419
 ---
 
 # Export live HTML slide decks to PDF handouts before review or archival

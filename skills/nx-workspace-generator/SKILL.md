@@ -11,6 +11,8 @@ framework: "Claude Code"
 tool_ecosystem:
   github_repo: "nrwl/nx"
   github_stars: 28562
+  npm_package: "nx"
+  npm_weekly_downloads: 8943776
 ---
 
 # Nx Workspace Generator

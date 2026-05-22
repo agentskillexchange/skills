@@ -11,6 +11,8 @@ framework: "ChatGPT Agents"
 tool_ecosystem:
   github_repo: "airbnb/lottie-web"
   github_stars: 31794
+  npm_package: "lottie-web"
+  npm_weekly_downloads: 4758187
 ---
 
 # Lottie Animation Optimizer

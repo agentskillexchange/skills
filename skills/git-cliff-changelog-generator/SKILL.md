@@ -5,11 +5,14 @@ description: "git-cliff generates changelog files from Git history using convent
 github_stars: 11678
 verification: "security_reviewed"
 source: "https://github.com/orhun/git-cliff"
+author: "orhun"
 category: "Developer Tools"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "orhun/git-cliff"
   github_stars: 11678
+  npm_package: "git-cliff"
+  npm_weekly_downloads: 70840
 ---
 
 # git-cliff Customizable Changelog Generator for Git Repositories

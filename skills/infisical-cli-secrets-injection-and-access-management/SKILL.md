@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "Infisical/cli"
   github_stars: 41
+  npm_package: "@infisical/cli"
+  npm_weekly_downloads: 57487
 ---
 
 # Infisical CLI Secrets Injection and Access Management

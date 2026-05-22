@@ -5,11 +5,14 @@ description: "Effect is a comprehensive TypeScript standard library that provide
 github_stars: 13778
 verification: "security_reviewed"
 source: "https://github.com/Effect-TS/effect"
+author: "Effect-TS"
 category: "Library & API Reference"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "Effect-TS/effect"
   github_stars: 13778
+  npm_package: "effect"
+  npm_weekly_downloads: 15360993
 ---
 
 # Effect TypeScript Standard Library for Production Applications

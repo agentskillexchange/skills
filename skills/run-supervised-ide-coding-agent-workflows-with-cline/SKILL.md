@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "cline/cline"
   github_stars: 61510
+  npm_package: "cline"
+  npm_weekly_downloads: 90433
 ---
 
 # Run supervised IDE coding-agent workflows with Cline

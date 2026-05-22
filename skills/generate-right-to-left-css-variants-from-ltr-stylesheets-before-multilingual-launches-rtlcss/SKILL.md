@@ -12,6 +12,8 @@ framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "MohammadYounes/rtlcss"
   github_stars: 1708
+  npm_package: "rtlcss"
+  npm_weekly_downloads: 1997131
 ---
 
 # Generate right-to-left CSS variants from LTR stylesheets before multilingual launches with RTLCSS

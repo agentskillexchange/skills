@@ -12,6 +12,8 @@ framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "Automattic/juice"
   github_stars: 3245
+  npm_package: "juice"
+  npm_weekly_downloads: 2388946
 ---
 
 # Inline CSS into HTML emails before delivery across mail clients with Juice

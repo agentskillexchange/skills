@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "codemod/codemod"
   github_stars: 979
+  npm_package: "codemod"
+  npm_weekly_downloads: 15360
 ---
 
 # Run reviewable multi-step codemod workflows with Codemod CLI

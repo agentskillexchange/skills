@@ -5,11 +5,14 @@ description: "GrapesJS is a free, open-source web builder framework for creating
 github_stars: 25682
 verification: "security_reviewed"
 source: "https://github.com/GrapesJS/grapesjs"
+author: "GrapesJS"
 category: "Templates & Workflows"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "GrapesJS/grapesjs"
   github_stars: 25682
+  npm_package: "grapesjs"
+  npm_weekly_downloads: 156487
 ---
 
 # GrapesJS Open Source Web Builder and Template Design Framework

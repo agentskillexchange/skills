@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "hookdeck/hookdeck-cli"
   github_stars: 353
+  npm_package: "hookdeck-cli"
+  npm_weekly_downloads: 9063
 ---
 
 # Hookdeck CLI for Webhook Development and Event Debugging

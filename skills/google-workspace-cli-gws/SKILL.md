@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "googleworkspace/cli"
   github_stars: 24348
+  npm_package: "@googleworkspace/cli"
+  npm_weekly_downloads: 38925
 ---
 
 # Google Workspace CLI (gws)

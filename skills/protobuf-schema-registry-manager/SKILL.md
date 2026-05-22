@@ -11,6 +11,8 @@ framework: "Codex"
 tool_ecosystem:
   github_repo: "bufbuild/buf"
   github_stars: 11051
+  npm_package: "@bufbuild/buf"
+  npm_weekly_downloads: 1424221
 ---
 
 # Protobuf Schema Registry Manager

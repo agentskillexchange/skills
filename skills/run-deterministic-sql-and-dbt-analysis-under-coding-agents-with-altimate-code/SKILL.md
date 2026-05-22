@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "AltimateAI/altimate-code"
   github_stars: 552
+  npm_package: "altimate-code"
+  npm_weekly_downloads: 195
 ---
 
 # Run deterministic SQL and dbt analysis under coding agents with Altimate Code

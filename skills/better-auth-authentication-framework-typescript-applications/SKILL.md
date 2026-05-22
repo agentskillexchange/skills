@@ -5,11 +5,14 @@ description: "Better Auth is an open source authentication framework for TypeScr
 github_stars: 27760
 verification: "listed"
 source: "https://github.com/better-auth/better-auth"
+author: "better-auth"
 category: "Security & Verification"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "better-auth/better-auth"
   github_stars: 27760
+  npm_package: "better-auth"
+  npm_weekly_downloads: 3244932
 ---
 
 # Better Auth Authentication Framework for TypeScript Applications

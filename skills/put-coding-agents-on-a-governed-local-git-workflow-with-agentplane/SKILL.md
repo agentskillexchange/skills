@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "basilisk-labs/agentplane"
   github_stars: 38
+  npm_package: "agentplane"
+  npm_weekly_downloads: 817
 ---
 
 # Put coding agents on a governed local Git workflow with AgentPlane

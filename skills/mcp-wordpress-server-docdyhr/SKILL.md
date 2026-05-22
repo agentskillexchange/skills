@@ -12,6 +12,8 @@ framework: "MCP"
 tool_ecosystem:
   github_repo: "docdyhr/mcp-wordpress"
   github_stars: 81
+  npm_package: "mcp-wordpress"
+  npm_weekly_downloads: 358
 ---
 
 # MCP WordPress Server by docdyhr

@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "apostrophecms/apostrophe"
   github_stars: 4547
+  npm_package: "apostrophe"
+  npm_weekly_downloads: 4787
 ---
 
 # ApostropheCMS Full-Stack Node.js CMS with In-Context Editing
