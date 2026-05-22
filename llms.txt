@@ -47,7 +47,7 @@ url: https://agentskillexchange.com/skills/run-multi-harness-coding-agent-workfl
 slug: run-nature-style-academic-writing-and-figure-workflows-with-nature-skills
 category: Templates & Workflows
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Install reusable Codex or Claude Code skill bundles for Nature-style manuscript polishing, academic writing, citations, paper reading, response drafting, data handling, slides, and scientific…
 url: https://agentskillexchange.com/skills/run-nature-style-academic-writing-and-figure-workflows-with-nature-skills/
 

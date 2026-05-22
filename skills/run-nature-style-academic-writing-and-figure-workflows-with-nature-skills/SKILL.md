@@ -3,7 +3,7 @@ name: "Run Nature-style academic writing and figure workflows with Nature Skills
 slug: "run-nature-style-academic-writing-and-figure-workflows-with-nature-skills"
 description: "Install reusable Codex or Claude Code skill bundles for Nature-style manuscript polishing, academic writing, citations, paper reading, response drafting, data handling, slides, and scientific figures."
 github_stars: 10013
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/Yuan1z0825/nature-skills"
 author: "Yizhe Yuan"
 publisher_type: "individual"

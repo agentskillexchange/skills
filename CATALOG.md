@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2498 published skills** across **17 categories** · 2,151 security reviewed · Updated 2026-05-22 07:27 UTC
+> **2498 published skills** across **17 categories** · 2,150 security reviewed · Updated 2026-05-22 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1411,7 +1411,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [SonarQube Gate Checker](skills/sonarqube-gate-checker-2/) | Queries the SonarQube Web API (/api/qualitygates/project_status) to evaluate quality gate conditions before merge.… | Security Reviewed | 10.4k | — |
 | [Yeoman Scaffold Runner](skills/yeoman-scaffold-runner/) | Executes Yeoman generators via the yo CLI and yeoman-environment API to scaffold applications, components, and… | Published | 10.1k | — |
 | [Build and trace multi-agent workflows with Microsoft Agent Framework](skills/build-and-trace-multi-agent-workflows-with-microsoft-agent-framework/) | Compose, orchestrate, and trace production multi-agent workflows with Microsoft Agent Framework. | Security Reviewed | 10.1k | — |
-| [Run Nature-style academic writing and figure workflows with Nature Skills](skills/run-nature-style-academic-writing-and-figure-workflows-with-nature-skills/) | Install reusable Codex or Claude Code skill bundles for Nature-style manuscript polishing, academic writing,… | Security Reviewed | 10k | — |
+| [Run Nature-style academic writing and figure workflows with Nature Skills](skills/run-nature-style-academic-writing-and-figure-workflows-with-nature-skills/) | Install reusable Codex or Claude Code skill bundles for Nature-style manuscript polishing, academic writing,… | Published | 10k | — |
 | [Deploy OpenClaw on Cloudflare Workers with Moltworker](skills/deploy-openclaw-on-cloudflare-workers-with-moltworker/) | Use Moltworker to deploy a supervised OpenClaw personal agent stack on Cloudflare Workers, Sandbox containers,… | Security Reviewed | 9.9k | — |
 | [Automate ML research loops with ARIS skills](skills/automate-ml-research-loops-with-aris-skills/) | Use ARIS to run Markdown-based agent skills for literature review, idea discovery, cross-model critique, experiment… | Security Reviewed | 9.6k | — |
 | [Compose router, evaluator, and handoff workflows over MCP servers with mcp-agent](skills/compose-router-evaluator-and-handoff-workflows-over-mcp-servers-with-mcp-agent/) | Connect LLMs to MCP servers through composable patterns like router, evaluator-optimizer, and orchestrator flows… | Security Reviewed | 8.3k | 29.2k/wk |

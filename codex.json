@@ -56,7 +56,7 @@
       "description": "Install reusable Codex or Claude Code skill bundles for Nature-style manuscript polishing, academic writing, citations, paper reading, response drafting, data handling, slides, and scientific…",
       "category": "Templates & Workflows",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "run-local-small-model-coding-sessions-with-smallcode",
