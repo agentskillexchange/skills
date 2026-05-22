@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-05-22
-# Total: 2496 skills
+# Total: 2498 skills
+
+## Query and inspect Postgres databases through MCP with pgEdge Postgres MCP
+slug: query-and-inspect-postgres-databases-through-mcp-with-pgedge-postgres-mcp
+category: Data Extraction & Transformation
+framework: MCP
+verification: Security Reviewed
+description: Connect an MCP client to PostgreSQL databases for schema discovery, safe querying, and database inspection through a documented pgEdge MCP server and agent client…
+url: https://agentskillexchange.com/skills/query-and-inspect-postgres-databases-through-mcp-with-pgedge-postgres-mcp/
+
+## Control authenticated Chrome sessions through MCP with OpenChrome
+slug: control-authenticated-chrome-sessions-through-mcp-with-openchrome
+category: Browser Automation
+framework: MCP
+verification: Security Reviewed
+description: Let an agent drive a real logged-in Chrome profile through MCP for authenticated browsing, parallel tab work, and token-efficient page interaction without re-authenticating each…
+url: https://agentskillexchange.com/skills/control-authenticated-chrome-sessions-through-mcp-with-openchrome/
 
 ## Operate Kubernetes and OpenShift clusters through MCP
 slug: operate-kubernetes-and-openshift-clusters-through-mcp

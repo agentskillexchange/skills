@@ -199,6 +199,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Operate Airflow and warehouse workflows through agent-safe data engineering skills with Astronomer Agents](../../skills/operate-airflow-and-warehouse-workflows-through-agent-safe-data-engineering-skills-with-astronomer-agents/) | 337 | — |
 | [Compare recurring CSV, TSV, or JSON exports and emit row-level change sets before syncs](../../skills/compare-recurring-csv-tsv-or-json-exports-and-emit-row-level-change-sets-before-syncs/) | 330 | — |
 | [Query cross-connector business data for agents with Dinobase](../../skills/query-cross-connector-business-data-for-agents-with-dinobase/) | 252 | — |
+| [Query and inspect Postgres databases through MCP with pgEdge Postgres MCP](../../skills/query-and-inspect-postgres-databases-through-mcp-with-pgedge-postgres-mcp/) | 165 | — |
 | [Weaviate MCP Server](../../skills/weaviate-mcp-server/) | 161 | — |
 | [Turn documents into validated knowledge graphs with Docling Graph](../../skills/turn-documents-into-validated-knowledge-graphs-with-docling-graph/) | 134 | — |
 | [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 89 | — |

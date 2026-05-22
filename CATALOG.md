@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2496 published skills** across **17 categories** · 2,151 security reviewed · Updated 2026-05-22 05:08 UTC
+> **2498 published skills** across **17 categories** · 2,151 security reviewed · Updated 2026-05-22 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -967,7 +967,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf](skills/resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf/) | Use Mergiraf to let an agent attempt tree-aware conflict resolution during merge, rebase, revert, or cherry-pick… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (171 skills)
+### 🔄 Data Extraction & Transformation (172 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -1132,6 +1132,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Operate Airflow and warehouse workflows through agent-safe data engineering skills with Astronomer Agents](skills/operate-airflow-and-warehouse-workflows-through-agent-safe-data-engineering-skills-with-astronomer-agents/) | Give agents structured Airflow, lineage, dbt, and warehouse workflows through installable skills and an Airflow MCP… | Security Reviewed | 337 | — |
 | [Compare recurring CSV, TSV, or JSON exports and emit row-level change sets before syncs](skills/compare-recurring-csv-tsv-or-json-exports-and-emit-row-level-change-sets-before-syncs/) | Use csv-diff when an agent needs to explain what changed between two structured exports, not just that the files… | Security Reviewed | 330 | — |
 | [Query cross-connector business data for agents with Dinobase](skills/query-cross-connector-business-data-for-agents-with-dinobase/) | Use Dinobase to give agents a SQL layer over SaaS APIs, databases, files, and MCP servers so they can answer… | Security Reviewed | 252 | — |
+| [Query and inspect Postgres databases through MCP with pgEdge Postgres MCP](skills/query-and-inspect-postgres-databases-through-mcp-with-pgedge-postgres-mcp/) | Connect an MCP client to PostgreSQL databases for schema discovery, safe querying, and database inspection through a… | Security Reviewed | 165 | — |
 | [Weaviate MCP Server](skills/weaviate-mcp-server/) | Weaviate MCP Server is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 161 | — |
 | [Turn documents into validated knowledge graphs with Docling Graph](skills/turn-documents-into-validated-knowledge-graphs-with-docling-graph/) | Convert documents into schema-enforced entities and graph relationships when the job is exact knowledge extraction… | Security Reviewed | 134 | — |
 | [Crawl4AI MCP Server](skills/crawl4ai-mcp-server/) | Self-hosted web crawling and content extraction exposed as MCP tools. Scrape pages, crawl sites with depth control,… | Security Reviewed | 89 | — |
@@ -2020,7 +2021,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
 
-### 🌐 Browser Automation (106 skills)
+### 🌐 Browser Automation (107 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
@@ -2128,6 +2129,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Browserable Self-Hostable Browser Automation for AI Agents](skills/browserable-self-hostable-browser-automation-ai-agents/) | Browserable is an open-source, self-hostable browser automation library built for AI agents. This skill turns… | Security Reviewed | 1.2k | 21/wk |
 | [Run deterministic browser steps with settled screenshots and event logs for agents](skills/run-deterministic-browser-steps-with-settled-screenshots-and-event-logs-for-agents/) | Use Agent Browser Protocol when an agent needs browser actions to resolve into stable step results, complete with… | Security Reviewed | 436 | 1.7k/wk |
 | [Benchmark browser agents on repeatable Playwright web tasks with Bananalyzer](skills/benchmark-browser-agents-on-repeatable-playwright-web-tasks-with-bananalyzer/) | Run a repeatable evaluation suite for browser agents against static web task snapshots instead of judging them from… | Security Reviewed | 327 | — |
+| [Control authenticated Chrome sessions through MCP with OpenChrome](skills/control-authenticated-chrome-sessions-through-mcp-with-openchrome/) | Let an agent drive a real logged-in Chrome profile through MCP for authenticated browsing, parallel tab work, and… | Security Reviewed | 206 | 12.1k/wk |
 | [Debug Firefox-only browser issues with DevTools MCP before shipping web changes](skills/debug-firefox-only-browser-issues-with-devtools-mcp-before-shipping-web-changes/) | Use Firefox DevTools MCP when an agent needs to inspect pages, trace network and console activity, capture… | Security Reviewed | 107 | 3k/wk |
 | [Benchmark browser agents on a fixed stealth and task suite with browser-use benchmark](skills/benchmark-browser-agents-on-a-fixed-stealth-and-task-suite-with-browser-use-benchmark/) | Compare browser-agent reliability on a repeatable task and anti-bot suite before choosing a stack or claiming progress. | Security Reviewed | 71 | — |
 | [Browserbase Session Automation API and SDK](skills/browserbase-session-automation-api-and-sdk/) | Use Browserbase when an agent needs hosted browser sessions, remote automation, session recording, and scalable… | Security Reviewed | 61 | 818.3k/wk |

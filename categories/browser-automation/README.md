@@ -142,6 +142,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Browserable Self-Hostable Browser Automation for AI Agents](../../skills/browserable-self-hostable-browser-automation-ai-agents/) | 1.2k | 21/wk |
 | [Run deterministic browser steps with settled screenshots and event logs for agents](../../skills/run-deterministic-browser-steps-with-settled-screenshots-and-event-logs-for-agents/) | 436 | 1.7k/wk |
 | [Benchmark browser agents on repeatable Playwright web tasks with Bananalyzer](../../skills/benchmark-browser-agents-on-repeatable-playwright-web-tasks-with-bananalyzer/) | 327 | — |
+| [Control authenticated Chrome sessions through MCP with OpenChrome](../../skills/control-authenticated-chrome-sessions-through-mcp-with-openchrome/) | 206 | 12.1k/wk |
 | [Debug Firefox-only browser issues with DevTools MCP before shipping web changes](../../skills/debug-firefox-only-browser-issues-with-devtools-mcp-before-shipping-web-changes/) | 107 | 3k/wk |
 | [Benchmark browser agents on a fixed stealth and task suite with browser-use benchmark](../../skills/benchmark-browser-agents-on-a-fixed-stealth-and-task-suite-with-browser-use-benchmark/) | 71 | — |
 | [Browserbase Session Automation API and SDK](../../skills/browserbase-session-automation-api-and-sdk/) | 61 | 818.3k/wk |

@@ -2,8 +2,26 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-05-22",
-  "total": 2496,
+  "total": 2498,
   "skills": [
+    {
+      "slug": "query-and-inspect-postgres-databases-through-mcp-with-pgedge-postgres-mcp",
+      "name": "Query and inspect Postgres databases through MCP with pgEdge Postgres MCP",
+      "title": "Query and inspect Postgres databases through MCP with pgEdge Postgres MCP",
+      "description": "Connect an MCP client to PostgreSQL databases for schema discovery, safe querying, and database inspection through a documented pgEdge MCP server and agent client…",
+      "category": "Data Extraction & Transformation",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "control-authenticated-chrome-sessions-through-mcp-with-openchrome",
+      "name": "Control authenticated Chrome sessions through MCP with OpenChrome",
+      "title": "Control authenticated Chrome sessions through MCP with OpenChrome",
+      "description": "Let an agent drive a real logged-in Chrome profile through MCP for authenticated browsing, parallel tab work, and token-efficient page interaction without re-authenticating each…",
+      "category": "Browser Automation",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "operate-kubernetes-and-openshift-clusters-through-mcp",
       "name": "Operate Kubernetes and OpenShift clusters through MCP",
