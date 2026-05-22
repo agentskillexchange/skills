@@ -177,7 +177,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Inject SOPS-managed secrets into NixOS and Home Manager configs with sops-nix](../../skills/inject-sops-managed-secrets-into-nixos-and-home-manager-configs-with-sops-nix/) | 2.8k | — |
 | [Bearer CLI SAST Code Security and Privacy Scanner](../../skills/bearer-cli-sast-code-security-privacy-scanner/) | 2.6k | — |
 | [KICS IaC Linter](../../skills/kics-iac-linter/) | 2.6k | — |
-| [Snyk Agent Scan](../../skills/snyk-agent-scan/) | 2.4k | — |
+| [Snyk Agent Scan](../../skills/snyk-agent-scan/) | 2.5k | — |
 | [Inspect binary hardening flags and exploit mitigations with checksec](../../skills/inspect-binary-hardening-flags-and-exploit-mitigations-with-checksec/) | 2.3k | — |
 | [Gate Rust dependency trees on license, advisory, and source-policy violations before merge with cargo-deny](../../skills/gate-rust-dependency-trees-on-license-advisory-and-source-policy-violations-before-merge-with-cargo-deny/) | 2.3k | 3.3M/wk |
 | [Audit AWS IAM policies for risky permissions with Cloudsplaining](../../skills/audit-aws-iam-policies-for-risky-permissions-with-cloudsplaining/) | 2.2k | — |
@@ -230,8 +230,8 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Scan repositories for AI supply-chain and agent-security risks with Medusa Security](../../skills/scan-repositories-for-ai-supply-chain-and-agent-security-risks-with-medusa-security/) | 256 | — |
 | [Put approval gates and audit-ready policy checks between agents and external actions with DashClaw](../../skills/put-approval-gates-and-audit-ready-policy-checks-between-agents-and-external-actions-with-dashclaw/) | 241 | 1.6k/wk |
 | [Enforce policy-gated and auditable agent execution with LACP](../../skills/enforce-policy-gated-and-auditable-agent-execution-with-lacp/) | 211 | — |
+| [Sentry for AI](../../skills/sentry-for-ai/) | 181 | — |
 | [Lint and autofix agent config files before broken prompts, hooks, or MCP settings derail runs with agnix](../../skills/lint-and-autofix-agent-config-files-before-broken-prompts-hooks-or-mcp-settings-derail-runs-with-agnix/) | 179 | 6k/wk |
-| [Sentry for AI](../../skills/sentry-for-ai/) | 179 | — |
 | [Gitxray GitHub Repository Security X-Ray](../../skills/gitxray-github-repository-security-xray/) | 174 | — |
 | [Run coding agents in a locked-down local sandbox with repo-only filesystem access and controlled egress using agent-sandbox](../../skills/run-coding-agents-in-a-locked-down-local-sandbox-with-repo-only-filesystem-access-and-controlled-egress-using-agent-sandbox/) | 163 | — |
 | [Wrap local coding agents in deny-by-default least-privilege sandboxes with Greywall](../../skills/wrap-local-coding-agents-in-deny-by-default-least-privilege-sandboxes-with-greywall/) | 158 | — |
