@@ -173,6 +173,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](../../skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | 2k | — |
 | [Inspect and diff OCI images and registries with regctl](../../skills/inspect-and-diff-oci-images-and-registries-with-regctl/) | 1.8k | — |
 | [Inventory live database schemas and generate reviewable docs before risky SQL changes with SchemaCrawler](../../skills/inventory-live-database-schemas-and-generate-reviewable-docs-before-risky-sql-changes-with-schemacrawler/) | 1.8k | — |
+| [Operate Kubernetes and OpenShift clusters through MCP](../../skills/operate-kubernetes-and-openshift-clusters-through-mcp/) | 1.6k | 7.3k/wk |
 | [Diff and review MySQL schema changes as filesystem-managed SQL before risky database deploys with Skeema](../../skills/diff-and-review-mysql-schema-changes-as-filesystem-managed-sql-before-risky-database-deploys-with-skeema/) | 1.4k | — |
 | [Run profile-based restic backups and verification checks with resticprofile](../../skills/run-profile-based-restic-backups-and-verification-checks-with-resticprofile/) | 1.3k | — |
 | [Investigate backend-only WordPress performance bottlenecks](../../skills/investigate-backend-only-wordpress-performance-bottlenecks/) | 1.2k | — |

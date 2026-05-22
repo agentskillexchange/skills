@@ -28,11 +28,11 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | ⬇ 6.2k/wk |
 | [Build n8n workflows from node docs, templates, and schemas through MCP](../../skills/build-n8n-workflows-from-node-docs-templates-and-schemas-through-mcp/) | ⬇ 485k/wk |
 | [Generate reusable site adapters from live browser behavior with OpenCLI](../../skills/generate-reusable-site-adapters-from-live-browser-behavior-with-opencli/) | ⬇ 10.6k/wk |
+| [Pipedream API Workflow Automation Platform](../../skills/pipedream-api-workflow-automation-platform/) | ⬇ 9/wk |
 | [Build and inspect MCP apps and servers with mcp-use](../../skills/build-and-inspect-mcp-apps-and-servers-with-mcp-use/) | ⬇ 138.6k/wk |
 | [Nango Integration Platform SDK](../../skills/nango-integration-platform-sdk/) | ⬇ 17.7k/wk |
 | [Nango Open Source API Integration Platform](../../skills/nango-open-source-api-integration-platform/) | ⬇ 15.6k/wk |
 | [Notion Database Sync & Page Generator](../../skills/notion-database-sync-page-generator-2/) | ⬇ 1.2M/wk |
-| [Stripe MCP Server](../../skills/stripe-mcp-server/) | ⬇ 12.2M/wk |
 
 ---
 
@@ -70,7 +70,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Logto Open Source Authentication and Authorization Infrastructure](../../skills/logto-open-source-auth-infrastructure/) | 11.9k | — |
 | [Expose FastAPI routes as MCP tools with FastAPI-MCP](../../skills/expose-fastapi-routes-as-mcp-tools-with-fastapi-mcp/) | 11.8k | — |
 | [Webhook Lightweight HTTP Endpoint Server for Shell Command Execution](../../skills/webhook-http-endpoint-server-shell-commands/) | 11.7k | — |
-| [Pipedream API Workflow Automation Platform](../../skills/pipedream-api-workflow-automation-platform/) | 11.2k | — |
+| [Pipedream API Workflow Automation Platform](../../skills/pipedream-api-workflow-automation-platform/) | 11.2k | 9/wk |
 | [Build and inspect MCP apps and servers with mcp-use](../../skills/build-and-inspect-mcp-apps-and-servers-with-mcp-use/) | 9.9k | 138.6k/wk |
 | [Bootstrap an OpenAPI spec from captured API traffic before client or test automation starts](../../skills/bootstrap-openapi-spec-from-captured-api-traffic-before-client-or-test-automation/) | 9.3k | — |
 | [AWS MCP Servers for Cloud Service Integration](../../skills/aws-mcp-servers-cloud-service-integration/) | 8.6k | — |
@@ -133,7 +133,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Mirror GitHub issues, pull requests, commits, and releases into SQLite for offline analysis](../../skills/mirror-github-issues-pull-requests-commits-and-releases-into-sqlite-for-offline-analysis/) | 461 | — |
 | [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | 395 | 1.1M/wk |
 | [HubSpot CRM Contact Enrichment Pipeline](../../skills/hubspot-crm-contact-enrichment-pipeline/) | 392 | 986.8k/wk |
-| [Hookdeck CLI for Webhook Development and Event Debugging](../../skills/hookdeck-cli-webhook-development-event-debugging/) | 353 | — |
+| [Hookdeck CLI for Webhook Development and Event Debugging](../../skills/hookdeck-cli-webhook-development-event-debugging/) | 353 | 9.1k/wk |
 | [Linear MCP Server for Issue Tracking and Project Management](../../skills/linear-mcp-server-issue-tracking-project-management/) | 346 | — |
 | [Work with AFFiNE workspaces, documents, and databases from MCP-compatible agents](../../skills/work-with-affine-workspaces-documents-and-databases-from-mcp-compatible-agents/) | 142 | 2.1k/wk |
 | [Expose Haystack pipelines as webhook endpoints with Hayhooks](../../skills/expose-haystack-pipelines-as-webhook-endpoints-with-hayhooks/) | 138 | — |

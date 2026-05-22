@@ -98,6 +98,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Search NotebookLM notebooks, sources, and generated study artifacts from agents](../../skills/search-notebooklm-notebooks-sources-and-generated-study-artifacts-from-agents/) | 3.6k | — |
 | [Bright Data Web MCP Live Web Access and Scraping Tools](../../skills/bright-data-web-mcp-live-web-access-scraping-tools/) | 3.2k | 937/wk |
 | [Download every archived snapshot of a URL before site migrations, takedowns, or investigations](../../skills/download-every-archived-snapshot-of-a-url-before-site-migrations-takedowns-or-investigations/) | 3.2k | — |
+| [Search and analyze arXiv papers through MCP workflows](../../skills/search-and-analyze-arxiv-papers-through-mcp-workflows/) | 2.8k | — |
 | [shot-scraper Automated Website Screenshot and Scraping CLI](../../skills/shot-scraper-automated-website-screenshot-scraping-cli/) | 2.3k | — |
 | [Replay And Inspect WARC Web Archives Before Investigation Or Migration With Pywb](../../skills/replay-and-inspect-warc-web-archives-before-investigation-or-migration-with-pywb/) | 1.6k | — |
 | [Tavily MCP Server for AI-Powered Web Search and Extraction](../../skills/tavily-mcp-server-ai-web-search-extraction/) | 1.6k | 47.9k/wk |

@@ -28,11 +28,11 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Sharp Image Pipeline Processor](../../skills/sharp-image-pipeline-processor-2/) | ⬇ 52.5M/wk |
 | [Sharp Image Pipeline Skill](../../skills/sharp-image-pipeline-skill/) | ⬇ 52.5M/wk |
 | [Sharp Image Transform Pipeline](../../skills/sharp-image-transform-pipeline/) | ⬇ 52.5M/wk |
+| [Lottie Animation Optimizer](../../skills/lottie-animation-optimizer/) | ⬇ 4.8M/wk |
 | [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | ⬇ 28.7M/wk |
 | [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | ⬇ 898k/wk |
 | [Konva.js HTML5 Canvas Interactive Graphics Framework](../../skills/konva-js-html5-canvas-interactive-graphics-framework/) | ⬇ 1.2M/wk |
 | [Satori HTML and CSS to SVG Image Generator by Vercel](../../skills/satori-html-css-svg-image-generator/) | ⬇ 1.3M/wk |
-| [OpenAI Image Gen](../../skills/openai-image-gen/) | ⬇ 21.8M/wk |
 
 ---
 
@@ -64,7 +64,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Sharp Image Pipeline Processor](../../skills/sharp-image-pipeline-processor-2/) | 32.1k | 52.5M/wk |
 | [Sharp Image Pipeline Skill](../../skills/sharp-image-pipeline-skill/) | 32.1k | 52.5M/wk |
 | [Sharp Image Transform Pipeline](../../skills/sharp-image-transform-pipeline/) | 32.1k | 52.5M/wk |
-| [Lottie Animation Optimizer](../../skills/lottie-animation-optimizer/) | 31.8k | — |
+| [Lottie Animation Optimizer](../../skills/lottie-animation-optimizer/) | 31.8k | 4.8M/wk |
 | [Find duplicate and visually similar media before cleanup with Czkawka](../../skills/find-duplicate-and-visually-similar-media-before-cleanup-with-czkawka/) | 30.6k | — |
 | [Stable Diffusion XL LoRA Trainer](../../skills/stable-diffusion-xl-lora-trainer/) | 27.1k | — |
 | [Stable Diffusion XL Pipeline](../../skills/stable-diffusion-xl-pipeline/) | 27.1k | — |
@@ -96,7 +96,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](../../skills/pixelmatch-image-comparison-library/) | 6.8k | 8.7M/wk |
 | [Bulk import and reconcile large photo archives into Immich without manual re-upload loops using immich-go](../../skills/bulk-import-and-reconcile-large-photo-archives-into-immich-without-manual-re-upload-loops-using-immich-go/) | 6k | — |
 | [Chafa Terminal Image and Graphics Renderer](../../skills/chafa-terminal-image-graphics-renderer/) | 4.5k | — |
-| [Mermaid CLI Diagram-as-Code Renderer](../../skills/mermaid-cli-diagram-as-code-renderer/) | 4.3k | — |
+| [Mermaid CLI Diagram-as-Code Renderer](../../skills/mermaid-cli-diagram-as-code-renderer/) | 4.3k | 438.9k/wk |
 | [Kroki Unified Diagram Rendering API and Server](../../skills/kroki-unified-diagram-rendering-api-server/) | 4.1k | — |
 | [Oxipng Multithreaded Lossless PNG Compression Optimizer](../../skills/oxipng-png-compression-optimizer/) | 3.9k | — |
 | [resvg High-Performance SVG Rendering Library in Rust](../../skills/resvg-svg-rendering-library-rust/) | 3.8k | — |

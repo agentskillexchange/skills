@@ -79,7 +79,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WP-CLI Content Drift Auditor](../../skills/wp-cli-content-drift-auditor/) | 5k | — |
 | [WP-CLI Command-Line Interface for WordPress](../../skills/wp-cli-command-line-interface-wordpress/) | 5k | — |
 | [Statamic Laravel Git-Powered CMS](../../skills/statamic-laravel-git-powered-cms/) | 4.8k | — |
-| [ApostropheCMS Full-Stack Node.js CMS with In-Context Editing](../../skills/apostrophecms-full-stack-nodejs-cms-in-context-editing/) | 4.5k | — |
+| [ApostropheCMS Full-Stack Node.js CMS with In-Context Editing](../../skills/apostrophecms-full-stack-nodejs-cms-in-context-editing/) | 4.5k | 4.8k/wk |
 | [WPGraphQL Schema Extension Builder](../../skills/wpgraphql-schema-extension-builder/) | 3.8k | — |
 | [WPGraphQL GraphQL API for WordPress](../../skills/wpgraphql-graphql-api-wordpress/) | 3.8k | — |
 | [WPGraphQL GraphQL API Plugin for Headless WordPress](../../skills/wpgraphql-graphql-api-plugin-for-headless-wordpress/) | 3.8k | — |
@@ -115,7 +115,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Storyblok Management API and JavaScript Client](../../skills/storyblok-management-api-and-javascript-client/) | 137 | — |
 | [Automattic WordPress Remote MCP](../../skills/automattic-wordpress-remote-mcp/) | 131 | 2.5k/wk |
 | [WPGraphQL for ACF WordPress GraphQL Field Mapping](../../skills/wpgraphql-for-acf-wordpress-graphql-field-mapping/) | 108 | — |
-| [MCP WordPress Server by docdyhr](../../skills/mcp-wordpress-server-docdyhr/) | 81 | — |
+| [MCP WordPress Server by docdyhr](../../skills/mcp-wordpress-server-docdyhr/) | 81 | 358/wk |
 | [WPGraphQL Smart Cache for Headless WordPress](../../skills/wpgraphql-smart-cache-headless-wordpress/) | 80 | — |
 | [Hygraph Management SDK for Schema Migration Automation](../../skills/hygraph-management-sdk-schema-migration-automation/) | 51 | — |
 | [AI Engine WordPress MCP Server and AI Automation](../../skills/ai-engine-wordpress-mcp-server-and-ai-automation/) | 37 | — |

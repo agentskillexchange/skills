@@ -24,6 +24,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | Skill | Downloads |
 |---|---:|
 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](../../skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | ⬇ 97/wk |
+| [PM2 Node.js Production Process Manager with Load Balancing](../../skills/pm2-nodejs-production-process-manager/) | ⬇ 3M/wk |
 | [Trace, evaluate, and monitor agentic workflows with Opik](../../skills/trace-evaluate-and-monitor-agentic-workflows-with-opik/) | ⬇ 18.3k/wk |
 | [Trace Python memory allocation hotspots before leaks and spikes reach production with Memray](../../skills/trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray/) | ⬇ 16.3M/wk |
 | [Trace and evaluate agent runs with Phoenix](../../skills/trace-and-evaluate-agent-runs-with-phoenix/) | ⬇ 893/wk |
@@ -32,7 +33,6 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Track coding-agent token spend and leaderboard drift across local session logs with Tokscale](../../skills/track-coding-agent-token-spend-and-leaderboard-drift-with-tokscale/) | ⬇ 64.6k/wk |
 | [Datadog MCP Server](../../skills/datadog-mcp-server/) | ⬇ 7.4M/wk |
 | [Datadog Anomaly Alert Router](../../skills/datadog-anomaly-alert-router/) | ⬇ 6.6M/wk |
-| [Datadog Anomaly Detection Agent](../../skills/datadog-anomaly-detection-agent-2/) | ⬇ 6.6M/wk |
 
 ---
 
@@ -76,7 +76,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Prometheus Alerting Rules](../../skills/prometheus-alerting-rules/) | 63.5k | — |
 | [Sentry Error Intelligence](../../skills/sentry-error-intelligence/) | 43.6k | — |
 | [Sentry Issue Spike Detection Agent](../../skills/sentry-issue-spike-detection-agent/) | 43.5k | — |
-| [PM2 Node.js Production Process Manager with Load Balancing](../../skills/pm2-nodejs-production-process-manager/) | 43k | — |
+| [PM2 Node.js Production Process Manager with Load Balancing](../../skills/pm2-nodejs-production-process-manager/) | 43k | 3M/wk |
 | [Umami Privacy-Focused Web Analytics Platform](../../skills/umami-privacy-focused-web-analytics/) | 35.9k | — |
 | [k6 Load Testing CLI for JavaScript Performance Scenarios](../../skills/k6-load-testing-cli-javascript-performance-scenarios/) | 30.3k | — |
 | [Grafana Loki Log Aggregation Agent](../../skills/grafana-loki-log-aggregation-agent/) | 28k | — |

@@ -26,13 +26,13 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Check current weather and short forecasts for planning](../../skills/check-current-weather-and-short-forecasts-for-planning/) | ⬇ 837.2k/wk |
 | [Slack MCP Server](../../skills/slack-mcp-server/) | ⬇ 225.4k/wk |
 | [Discord Bot Manager](../../skills/discord-bot-manager/) | ⬇ 564.5k/wk |
+| [Google Workspace CLI (gws)](../../skills/google-workspace-cli-gws/) | ⬇ 38.9k/wk |
 | [Nodemailer Node.js Email Sending Library with SMTP and Transport Support](../../skills/nodemailer-nodejs-email-sending-library/) | ⬇ 15.5M/wk |
 | [Automate Lark and Feishu docs, sheets, mail, calendar, meetings, and chat tasks from agents with Lark CLI](../../skills/automate-lark-and-feishu-docs-sheets-mail-calendar-meetings-and-chat-tasks-from-agents-with-lark-cli/) | ⬇ 98.6k/wk |
 | [MailDev SMTP Capture and Email Testing Server](../../skills/maildev-smtp-capture-and-email-testing-server/) | ⬇ 90.4k/wk |
 | [MailDev SMTP Testing Server and Web Interface for Development Email Workflows](../../skills/maildev-smtp-testing-server-and-web-interface-for-development-email-workflows/) | ⬇ 90.4k/wk |
 | [Notion MCP Server](../../skills/notion-mcp-server/) | ⬇ 1.7M/wk |
 | [Notion AI Document Summarizer & Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | ⬇ 1.2M/wk |
-| [Notion AI Workspace](../../skills/notion-ai-workspace/) | ⬇ 1.2M/wk |
 
 ---
 
@@ -51,7 +51,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Outline Open Source Team Knowledge Base and Wiki Platform](../../skills/outline-knowledge-base-wiki/) | 38k | — |
 | [Wiki.js Modern Open Source Wiki Platform on Node.js](../../skills/wikijs-wiki-platform-nodejs/) | 28.2k | — |
 | [Discord Bot Manager](../../skills/discord-bot-manager/) | 26.7k | 564.5k/wk |
-| [Google Workspace CLI (gws)](../../skills/google-workspace-cli-gws/) | 24.3k | — |
+| [Google Workspace CLI (gws)](../../skills/google-workspace-cli-gws/) | 24.3k | 38.9k/wk |
 | [Design Lifecycle Email Sequences](../../skills/design-lifecycle-email-sequences/) | 21.9k | — |
 | [Docmost Open Source Collaborative Wiki and Documentation Platform](../../skills/docmost-open-source-collaborative-wiki-documentation/) | 19.7k | — |
 | [Listmonk Self-Hosted Newsletter and Mailing List Manager](../../skills/listmonk-self-hosted-newsletter-mailing-list/) | 19.4k | — |
@@ -95,7 +95,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Vikunja Self-Hosted Task Management and Project Organization Platform](../../skills/vikunja-self-hosted-task-management/) | 3.8k | — |
 | [NeoMutt Feature-Rich Terminal Email Client](../../skills/neomutt-terminal-email-client/) | 3.7k | — |
 | [gcalcli Google Calendar Command Line Interface](../../skills/gcalcli-google-calendar-cli/) | 3.7k | — |
-| [Inline CSS into HTML emails before delivery across mail clients with Juice](../../skills/inline-css-into-html-emails-before-delivery-across-mail-clients-juice/) | 3.2k | — |
+| [Inline CSS into HTML emails before delivery across mail clients with Juice](../../skills/inline-css-into-html-emails-before-delivery-across-mail-clients-juice/) | 3.2k | 2.4M/wk |
 | [khal Standards-Based CLI Calendar Application](../../skills/khal-cli-calendar-application-caldav/) | 3k | — |
 | [Slack Channel Summarizer](../../skills/slack-channel-summarizer-bolt-sdk/) | 2.9k | 2.6M/wk |
 | [Slack Digest and Task Router](../../skills/slack-digest-and-task-router/) | 2.9k | 2.6M/wk |

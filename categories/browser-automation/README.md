@@ -80,7 +80,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Cypress Visual Regression Testing Suite](../../skills/cypress-visual-regression-testing-suite/) | 49.6k | 7.3M/wk |
 | [Cypress End-to-End and Component Testing Framework](../../skills/cypress-end-to-end-component-testing-framework/) | 49.6k | 7.1M/wk |
 | [Cypress Component Testing Framework](../../skills/cypress-component-testing-framework-2/) | 49.6k | 6.9M/wk |
-| [Chrome DevTools MCP Browser Debugging and Performance Analysis](../../skills/chrome-devtools-mcp-browser-debugging-performance-analysis/) | 34.2k | — |
+| [Chrome DevTools MCP Browser Debugging and Performance Analysis](../../skills/chrome-devtools-mcp-browser-debugging-performance-analysis/) | 34.2k | 1.8M/wk |
 | [Selenium Grid Auto-Scaling Orchestrator](../../skills/selenium-grid-auto-scaling-orchestrator/) | 34.1k | 1.9M/wk |
 | [Selenium Grid Cloud Executor](../../skills/selenium-grid-cloud-executor/) | 34.1k | 1.9M/wk |
 | [Selenium Grid Load Balancer](../../skills/selenium-grid-load-balancer/) | 34.1k | 1.9M/wk |
@@ -138,7 +138,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Control iOS and Android devices through a deterministic CLI for agent-driven mobile testing and debugging with agent-device](../../skills/control-ios-and-android-devices-through-a-deterministic-cli-for-agent-driven-mobile-testing-and-debugging-with-agent-device/) | 1.8k | 162.4k/wk |
 | [Tarsier Vision Utilities for Web Interaction Agents](../../skills/tarsier-vision-utilities-web-interaction-agents/) | 1.8k | — |
 | [Apply site-specific action manuals with Actionbook](../../skills/apply-site-specific-action-manuals-with-actionbook/) | 1.5k | 4.7k/wk |
-| [CDP Network Interception Logger](../../skills/cdp-network-interception-logger/) | 1.5k | — |
+| [CDP Network Interception Logger](../../skills/cdp-network-interception-logger/) | 1.5k | 23.7M/wk |
 | [Browserable Self-Hostable Browser Automation for AI Agents](../../skills/browserable-self-hostable-browser-automation-ai-agents/) | 1.2k | 21/wk |
 | [Run deterministic browser steps with settled screenshots and event logs for agents](../../skills/run-deterministic-browser-steps-with-settled-screenshots-and-event-logs-for-agents/) | 436 | 1.7k/wk |
 | [Benchmark browser agents on repeatable Playwright web tasks with Bananalyzer](../../skills/benchmark-browser-agents-on-repeatable-playwright-web-tasks-with-bananalyzer/) | 327 | — |

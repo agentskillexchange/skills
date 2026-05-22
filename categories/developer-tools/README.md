@@ -31,8 +31,8 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [NestJS — Progressive Node.js Framework for Server-Side Applications](../../skills/nestjs-progressive-nodejs-framework/) | ⬇ 10.5M/wk |
 | [Webpack Bundle Analyzer Agent](../../skills/webpack-bundle-analyzer-agent/) | ⬇ 44.5M/wk |
 | [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | ⬇ 16.5k/wk |
-| [Astro Content-Driven Web Framework](../../skills/astro-content-driven-web-framework/) | ⬇ 2M/wk |
-| [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | ⬇ 173.2k/wk |
+| [Run supervised IDE coding-agent workflows with Cline](../../skills/run-supervised-ide-coding-agent-workflows-with-cline/) | ⬇ 90.4k/wk |
+| [Run multi-harness coding-agent workflows with Oh My OpenAgent](../../skills/run-multi-harness-coding-agent-workflows-with-oh-my-openagent/) | ⬇ 56.8k/wk |
 
 ---
 
@@ -77,8 +77,9 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Open Interpreter Natural Language Computer Interface](../../skills/open-interpreter-natural-language-computer-interface/) | 62.9k | — |
 | [Traefik Cloud-Native Application Proxy and Reverse Proxy](../../skills/traefik-cloud-native-reverse-proxy/) | 62.5k | — |
 | [ripgrep Recursive Regex Search Tool](../../skills/ripgrep-recursive-regex-search-tool/) | 61.7k | — |
-| [Run supervised IDE coding-agent workflows with Cline](../../skills/run-supervised-ide-coding-agent-workflows-with-cline/) | 61.5k | — |
+| [Run supervised IDE coding-agent workflows with Cline](../../skills/run-supervised-ide-coding-agent-workflows-with-cline/) | 61.5k | 90.4k/wk |
 | [Nuxt — Vue.js Meta-Framework for SSR and Static Sites](../../skills/nuxt-vue-meta-framework-ssr/) | 60k | — |
+| [Run multi-harness coding-agent workflows with Oh My OpenAgent](../../skills/run-multi-harness-coding-agent-workflows-with-oh-my-openagent/) | 58.9k | 56.8k/wk |
 | [Run supervised agentic terminal sessions with Warp](../../skills/run-supervised-agentic-terminal-sessions-with-warp/) | 58.5k | — |
 | [mkcert Zero-Config Local Development TLS Certificate Generator](../../skills/mkcert-local-dev-tls-certificate-generator/) | 58.4k | — |
 | [Astro Content-Driven Web Framework](../../skills/astro-content-driven-web-framework/) | 58k | 2M/wk |
@@ -140,7 +141,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [GitHub MCP Server for AI-Powered Repository Management](../../skills/github-mcp-server-ai-repository-management/) | 28.5k | — |
 | [OpenTofu Open Source Infrastructure as Code Tool](../../skills/opentofu-open-source-infrastructure-as-code/) | 28.2k | — |
 | [Build planner-driven agent workflows with Microsoft Semantic Kernel](../../skills/build-planner-driven-agent-workflows-with-microsoft-semantic-kernel/) | 27.9k | — |
-| [Budibase Open Source Low-Code Operations App Platform](../../skills/budibase-open-source-low-code-operations-app-platform/) | 27.8k | — |
+| [Budibase Open Source Low-Code Operations App Platform](../../skills/budibase-open-source-low-code-operations-app-platform/) | 27.8k | 41/wk |
 | [Hyperfine Command-Line Benchmarking Tool](../../skills/hyperfine-command-line-benchmarking-tool/) | 27.8k | — |
 | [Jujutsu Git-Compatible Version Control System](../../skills/jujutsu-jj-git-compatible-vcs/) | 27.5k | — |
 | [ESLint Code Review](../../skills/eslint-code-review/) | 27.3k | 132.9M/wk |
@@ -213,7 +214,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Give coding agents runtime context for Encore services](../../skills/give-coding-agents-runtime-context-for-encore-services/) | 11.9k | — |
 | [OpenCode Multi-Model AI Coding Agent CLI](../../skills/opencode-multi-model-ai-coding-agent-cli/) | 11.7k | — |
 | [onefetch Git Repository Information and Statistics CLI](../../skills/onefetch-git-repository-info-statistics-cli/) | 11.7k | — |
-| [git-cliff Customizable Changelog Generator for Git Repositories](../../skills/git-cliff-changelog-generator/) | 11.7k | — |
+| [git-cliff Customizable Changelog Generator for Git Repositories](../../skills/git-cliff-changelog-generator/) | 11.7k | 70.8k/wk |
 | [Posting Terminal API Client](../../skills/posting-terminal-api-client/) | 11.7k | — |
 | [Changesets Version and Changelog Manager](../../skills/changesets-version-changelog-manager/) | 11.6k | 2.8M/wk |
 | [LLM Command-Line Interface for Large Language Models](../../skills/llm-command-line-interface-large-language-models/) | 11.5k | — |
@@ -327,14 +328,14 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Run React Native implementation and troubleshooting workflows with Callstack Agent Skills](../../skills/run-react-native-implementation-and-troubleshooting-workflows-with-callstack-agent-skills/) | 1.3k | — |
 | [Capture, search, and optionally sync local coding-agent session history across Claude Code, Codex, Cursor CLI, and Gemini with SpecStory](../../skills/capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory/) | 1.2k | — |
 | [Run local small-model coding sessions with SmallCode](../../skills/run-local-small-model-coding-sessions-with-smallcode/) | 967 | 7.5k/wk |
-| [Find and export SVG icons across icon libraries for UI work](../../skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/) | 915 | — |
+| [Find and export SVG icons across icon libraries for UI work](../../skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/) | 915 | 287/wk |
 | [Reduce coding-agent context load with Token Savior](../../skills/reduce-coding-agent-context-load-with-token-savior/) | 893 | — |
 | [CircleCI MCP Server](../../skills/circleci-mcp-server/) | 843 | — |
 | [Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac](../../skills/run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac/) | 809 | 36.7k/wk |
 | [Control Android devices with an on-device AI agent using PokeClaw](../../skills/control-android-devices-with-an-on-device-ai-agent-using-pokeclaw/) | 760 | — |
 | [Generate and continuously refresh CLAUDE.md, AGENTS.md, MCP config, and editor rules from the live codebase with Caliber](../../skills/generate-and-continuously-refresh-claude-md-agents-md-mcp-config-and-editor-rules-from-the-live-codebase-with-caliber/) | 717 | — |
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](../../skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | 621 | 4.9k/wk |
-| [Run deterministic SQL and dbt analysis under coding agents with Altimate Code](../../skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/) | 552 | — |
+| [Run deterministic SQL and dbt analysis under coding agents with Altimate Code](../../skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/) | 552 | 195/wk |
 | [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 394 | 2.4k/wk |
 | [Temporal CLI Workflow and Server Control](../../skills/temporal-cli-workflow-server-control/) | 350 | — |
 | [Back up GitHub, GitLab, Bitbucket, and Forgejo repositories with gitbackup](../../skills/back-up-github-gitlab-bitbucket-and-forgejo-repositories-with-gitbackup/) | 218 | — |

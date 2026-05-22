@@ -1,8 +1,46 @@
 {
   "version": "2.0",
-  "total": 2493,
-  "generated": "2026-05-21",
+  "total": 2496,
+  "generated": "2026-05-22",
   "skills": [
+    {
+      "slug": "operate-kubernetes-and-openshift-clusters-through-mcp",
+      "name": "Operate Kubernetes and OpenShift clusters through MCP",
+      "title": "Operate Kubernetes and OpenShift clusters through MCP",
+      "description": "Expose Kubernetes and OpenShift cluster operations to MCP clients with native API-backed tools for resources, pods, events, Helm, Tekton, and diagnostics.",
+      "category": "Runbooks & Diagnostics",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1607,
+        "npm_weekly_downloads": 7270
+      }
+    },
+    {
+      "slug": "search-and-analyze-arxiv-papers-through-mcp-workflows",
+      "name": "Search and analyze arXiv papers through MCP workflows",
+      "title": "Search and analyze arXiv papers through MCP workflows",
+      "description": "Connect an MCP-capable assistant to arXiv search, paper download, local paper storage, and research prompts for grounded literature review workflows.",
+      "category": "Research & Scraping",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 2760
+      }
+    },
+    {
+      "slug": "run-multi-harness-coding-agent-workflows-with-oh-my-openagent",
+      "name": "Run multi-harness coding-agent workflows with Oh My OpenAgent",
+      "title": "Run multi-harness coding-agent workflows with Oh My OpenAgent",
+      "description": "Install and operate Oh My OpenAgent as a reusable coding-agent harness for long-running, multi-model development sessions across agent clients.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 58904,
+        "npm_weekly_downloads": 56814
+      }
+    },
     {
       "slug": "run-nature-style-academic-writing-and-figure-workflows-with-nature-skills",
       "name": "Run Nature-style academic writing and figure workflows with Nature Skills",
@@ -789,7 +827,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 61510
+        "github_stars": 61510,
+        "npm_weekly_downloads": 90433
       }
     },
     {
@@ -1178,7 +1217,8 @@
       "framework": "Multi-Framework",
       "verification": "listed",
       "signals": {
-        "github_stars": 552
+        "github_stars": 552,
+        "npm_weekly_downloads": 195
       }
     },
     {
@@ -2584,7 +2624,8 @@
       "framework": "Custom Agents",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 3303
+        "github_stars": 3303,
+        "npm_weekly_downloads": 456
       }
     },
     {
@@ -3302,7 +3343,8 @@
       "framework": "Claude Code",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 159
+        "github_stars": 159,
+        "npm_weekly_downloads": 472
       }
     },
     {
@@ -3362,7 +3404,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 979
+        "github_stars": 979,
+        "npm_weekly_downloads": 15360
       }
     },
     {
@@ -3905,7 +3948,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 38
+        "github_stars": 38,
+        "npm_weekly_downloads": 817
       }
     },
     {
@@ -6824,7 +6868,8 @@
       "framework": "Custom Agents",
       "verification": "listed",
       "signals": {
-        "github_stars": 1708
+        "github_stars": 1708,
+        "npm_weekly_downloads": 1997131
       }
     },
     {
@@ -6848,7 +6893,8 @@
       "framework": "Custom Agents",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 3245
+        "github_stars": 3245,
+        "npm_weekly_downloads": 2388946
       }
     },
     {
@@ -6944,7 +6990,8 @@
       "framework": "Multi-Framework",
       "verification": "listed",
       "signals": {
-        "github_stars": 2361
+        "github_stars": 2361,
+        "npm_weekly_downloads": 1419
       }
     },
     {
@@ -7507,7 +7554,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 915
+        "github_stars": 915,
+        "npm_weekly_downloads": 287
       }
     },
     {
@@ -8083,7 +8131,8 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 81
+        "github_stars": 81,
+        "npm_weekly_downloads": 358
       }
     },
     {
@@ -8181,7 +8230,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 41
+        "github_stars": 41,
+        "npm_weekly_downloads": 57487
       }
     },
     {
@@ -8351,7 +8401,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 4547
+        "github_stars": 4547,
+        "npm_weekly_downloads": 4787
       }
     },
     {
@@ -8926,7 +8977,8 @@
       "framework": "Multi-Framework",
       "verification": "listed",
       "signals": {
-        "github_stars": 27760
+        "github_stars": 27760,
+        "npm_weekly_downloads": 3244932
       }
     },
     {
@@ -8950,7 +9002,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 11231
+        "github_stars": 11231,
+        "npm_weekly_downloads": 9
       }
     },
     {
@@ -9022,7 +9075,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 353
+        "github_stars": 353,
+        "npm_weekly_downloads": 9063
       }
     },
     {
@@ -9059,7 +9113,8 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 34239
+        "github_stars": 34239,
+        "npm_weekly_downloads": 1759009
       }
     },
     {
@@ -9637,7 +9692,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 27811
+        "github_stars": 27811,
+        "npm_weekly_downloads": 41
       }
     },
     {
@@ -9774,7 +9830,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 24348
+        "github_stars": 24348,
+        "npm_weekly_downloads": 38925
       }
     },
     {
@@ -10110,7 +10167,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 4319
+        "github_stars": 4319,
+        "npm_weekly_downloads": 1035
       }
     },
     {
@@ -10932,7 +10990,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 43034
+        "github_stars": 43034,
+        "npm_weekly_downloads": 2999111
       }
     },
     {
@@ -11149,7 +11208,8 @@
       "framework": "Multi-Framework",
       "verification": "listed",
       "signals": {
-        "github_stars": 5309
+        "github_stars": 5309,
+        "npm_weekly_downloads": 6690769
       }
     },
     {
@@ -11327,7 +11387,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 25682
+        "github_stars": 25682,
+        "npm_weekly_downloads": 156487
       }
     },
     {
@@ -11375,7 +11436,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 11678
+        "github_stars": 11678,
+        "npm_weekly_downloads": 70840
       }
     },
     {
@@ -11593,7 +11655,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 13778
+        "github_stars": 13778,
+        "npm_weekly_downloads": 15360993
       }
     },
     {
@@ -13026,6 +13089,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4341,
+        "npm_weekly_downloads": 438910,
         "license": "MIT"
       }
     },
@@ -17509,7 +17573,8 @@
       "framework": "Cursor",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 28496
+        "github_stars": 28496,
+        "npm_weekly_downloads": 8943776
       }
     },
     {
@@ -17594,7 +17659,8 @@
       "framework": "ChatGPT Agents",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 31794
+        "github_stars": 31794,
+        "npm_weekly_downloads": 4758187
       }
     },
     {
@@ -18721,7 +18787,8 @@
       "framework": "Codex",
       "verification": "listed",
       "signals": {
-        "github_stars": 1476
+        "github_stars": 1476,
+        "npm_weekly_downloads": 23652912
       }
     },
     {
@@ -19220,7 +19287,8 @@
       "framework": "Claude Code",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 11049
+        "github_stars": 11049,
+        "npm_weekly_downloads": 1424221
       }
     },
     {
@@ -19689,7 +19757,8 @@
       "framework": "Cursor",
       "verification": "listed",
       "signals": {
-        "github_stars": 42500
+        "github_stars": 42500,
+        "npm_weekly_downloads": 145142410
       }
     },
     {
@@ -20511,7 +20580,8 @@
       "framework": "Claude Code",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 28562
+        "github_stars": 28562,
+        "npm_weekly_downloads": 8943776
       }
     },
     {
@@ -23769,7 +23839,8 @@
       "framework": "Codex",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 11051
+        "github_stars": 11051,
+        "npm_weekly_downloads": 1424221
       }
     },
     {

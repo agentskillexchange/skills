@@ -25,6 +25,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 |---|---:|
 | [Audit OpenClaw host security posture and hardening gaps](../../skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | ⬇ 837.2k/wk |
 | [Run autonomous white-box pentests against web apps and APIs with Shannon](../../skills/run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon/) | ⬇ 4k/wk |
+| [Better Auth Authentication Framework for TypeScript Applications](../../skills/better-auth-authentication-framework-typescript-applications/) | ⬇ 3.2M/wk |
 | [Discord Moderation Bot with AI Classification](../../skills/discord-moderation-ai-classification/) | ⬇ 563.5k/wk |
 | [Route risky coding-agent work through human approval checkpoints with HumanLayer](../../skills/route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer/) | ⬇ 694/wk |
 | [Dependency Vulnerability Scanner](../../skills/dependency-vulnerability-scanner-agent/) | ⬇ 2.6M/wk |
@@ -32,7 +33,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Snyk Container Image Analyzer](../../skills/snyk-container-image-analyzer/) | ⬇ 2.6M/wk |
 | [Snyk Container Vulnerability Agent](../../skills/snyk-container-vulnerability-agent/) | ⬇ 2.6M/wk |
 | [Snyk Dependency Audit Skill](../../skills/snyk-dependency-audit-skill/) | ⬇ 2.6M/wk |
-| [Snyk Dependency Vulnerability Auditor](../../skills/snyk-dependency-vulnerability-auditor/) | ⬇ 2.6M/wk |
 
 ---
 
@@ -61,7 +61,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Trivy Vulnerability Scanner Pipeline](../../skills/trivy-vulnerability-scanner-pipeline/) | 34.5k | — |
 | [Trivy Security Scanner for Containers and IaC](../../skills/trivy-security-scanner-containers-iac/) | 34.5k | — |
 | [Nuclei Vulnerability Template Runner](../../skills/nuclei-vulnerability-template-runner/) | 28k | — |
-| [Better Auth Authentication Framework for TypeScript Applications](../../skills/better-auth-authentication-framework-typescript-applications/) | 27.8k | — |
+| [Better Auth Authentication Framework for TypeScript Applications](../../skills/better-auth-authentication-framework-typescript-applications/) | 27.8k | 3.2M/wk |
 | [Nuclei Template-Based Vulnerability Scanner](../../skills/nuclei-template-vulnerability-scanner/) | 27.7k | — |
 | [Discord Moderation Bot with AI Classification](../../skills/discord-moderation-ai-classification/) | 26.7k | 563.5k/wk |
 | [Git Secret Scanner](../../skills/git-secret-scanner/) | 26.4k | — |
@@ -145,7 +145,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Snyk Open Source Dependency Auditor](../../skills/snyk-open-source-dependency-auditor/) | 5.5k | 2.6M/wk |
 | [Snyk Vulnerability Scanner Agent](../../skills/snyk-vulnerability-scanner-agent/) | 5.5k | 2.6M/wk |
 | [Score open source repositories for supply-chain risk signals before adoption or release decisions with Scorecard](../../skills/score-open-source-repositories-for-supply-chain-risk-signals-before-adoption-or-release-decisions-with-scorecard/) | 5.4k | — |
-| [dotenvx Secure Environment Variable Manager and Encryptor](../../skills/dotenvx-secure-env-variable-manager/) | 5.3k | — |
+| [dotenvx Secure Environment Variable Manager and Encryptor](../../skills/dotenvx-secure-env-variable-manager/) | 5.3k | 6.7M/wk |
 | [Probe ML and LLM systems for regressions and vulnerabilities with Giskard](../../skills/probe-ml-and-llm-systems-for-regressions-and-vulnerabilities-with-giskard/) | 5.3k | — |
 | [Unkey Open Source API Key Management and Rate Limiting Platform](../../skills/unkey-api-key-management-rate-limiting/) | 5.2k | — |
 | [Terrascan Policy Scanner](../../skills/terrascan-policy-scanner/) | 5.2k | — |
@@ -156,7 +156,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Baseline and Review Repository Secret Findings with detect-secrets](../../skills/baseline-and-review-repository-secret-findings-with-detect-secrets/) | 4.5k | — |
 | [Capture Linux runtime security events and suspicious behavior for live triage with Tracee](../../skills/capture-linux-runtime-security-events-and-suspicious-behavior-for-live-triage-with-tracee/) | 4.5k | — |
 | [Stripe Webhook Signature Verifier](../../skills/stripe-webhook-signature-verifier/) | 4.4k | 9.3M/wk |
-| [Cerbos Open Source Authorization Policy Decision Point](../../skills/cerbos-authorization-pdp/) | 4.3k | — |
+| [Cerbos Open Source Authorization Policy Decision Point](../../skills/cerbos-authorization-pdp/) | 4.3k | 1k/wk |
 | [Gate pull requests with targeted diff-aware AI security review using Claude Code Security Review](../../skills/gate-pull-requests-with-targeted-diff-aware-ai-security-review-using-claude-code-security-review/) | 4.3k | — |
 | [Audit GitHub Actions for privilege and supply-chain risks with zizmor](../../skills/audit-github-actions-for-privilege-and-supply-chain-risks-with-zizmor/) | 4.2k | — |
 | [Audit SSH servers and clients for weak algorithms and risky config drift with ssh-audit](../../skills/audit-ssh-servers-and-clients-for-weak-algorithms-and-risky-config-drift-with-ssh-audit/) | 4.2k | — |
@@ -246,7 +246,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Preflight agent specs for prompt-injection risk across prompt, tool, and architecture layers with Prompt Hardener](../../skills/preflight-agent-specs-for-prompt-injection-risk-across-prompt-tool-and-architecture-layers-with-prompt-hardener/) | 50 | — |
 | [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | 47 | — |
 | [Inspect agent model traffic with LLMTrace](../../skills/inspect-agent-model-traffic-with-llmtrace/) | 46 | — |
-| [Infisical CLI Secrets Injection and Access Management](../../skills/infisical-cli-secrets-injection-and-access-management/) | 41 | — |
+| [Infisical CLI Secrets Injection and Access Management](../../skills/infisical-cli-secrets-injection-and-access-management/) | 41 | 57.5k/wk |
 | [Test API authorization flows with Hadrian](../../skills/hadrian-api-authorization-security-testing/) | 38 | — |
 | [Gate MCP tool calls behind deterministic policy enforcement with Intercept](../../skills/gate-mcp-tool-calls-behind-deterministic-policy-enforcement-with-intercept/) | 29 | 336/wk |
 | [Triage pull request security risks with staged threat modeling and investigation using VulnVibes](../../skills/triage-pull-request-security-risks-with-staged-threat-modeling-and-investigation-using-vulnvibes/) | 17 | — |

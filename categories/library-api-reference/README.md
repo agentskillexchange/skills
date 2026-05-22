@@ -26,13 +26,13 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Preserve agent session context with Claude Mem](../../skills/preserve-agent-session-context-with-claude-mem/) | ⬇ 16.1k/wk |
 | [Store selective long-term agent memories with Mem0 instead of replaying whole chats](../../skills/store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats/) | ⬇ 2.5M/wk |
 | [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | ⬇ 9.9M/wk |
+| [Zod Schema Generator](../../skills/zod-schema-generator/) | ⬇ 145.1M/wk |
 | [Swagger / OpenAPI Validator](../../skills/swagger-openapi-validator/) | ⬇ 149.9k/wk |
 | [Swagger Codegen API Client Builder](../../skills/swagger-codegen-api-client-builder/) | ⬇ 149.2k/wk |
 | [Swagger Codegen Template Customizer](../../skills/swagger-codegen-template-customizer/) | ⬇ 149.2k/wk |
 | [Swagger OpenAPI Schema Validator](../../skills/swagger-openapi-schema-validator/) | ⬇ 149.2k/wk |
 | [Swagger UI Documentation Deployer](../../skills/swagger-ui-documentation-deployer/) | ⬇ 149.2k/wk |
 | [Redoc OpenAPI Documentation Renderer](../../skills/redoc-openapi-documentation-renderer/) | ⬇ 1.5M/wk |
-| [Build temporal context graphs for agent memory from evolving facts with Graphiti](../../skills/build-temporal-context-graphs-for-agent-memory-from-evolving-facts-with-graphiti/) | ⬇ 529.3k/wk |
 
 ---
 
@@ -46,7 +46,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Context7 MCP Documentation Server for LLM Code Editors](../../skills/context7-mcp-documentation-server-llm-code-editors/) | 51.3k | — |
 | [Terraform Provider Schema Explorer](../../skills/terraform-provider-schema-explorer/) | 48.1k | — |
 | [Prisma Schema Migrator](../../skills/prisma-schema-migrator/) | 45.8k | 9.9M/wk |
-| [Zod Schema Generator](../../skills/zod-schema-generator/) | 42.5k | — |
+| [Zod Schema Generator](../../skills/zod-schema-generator/) | 42.5k | 145.1M/wk |
 | [Bubble Tea Go TUI Framework by Charmbracelet](../../skills/bubble-tea-go-tui-framework/) | 41.2k | — |
 | [DevDocs Unified API Documentation Browser](../../skills/devdocs-unified-api-documentation-browser/) | 38.7k | — |
 | [Hasura GraphQL Engine for Instant API and Database Automation](../../skills/hasura-graphql-engine-instant-api-database-automation/) | 31.9k | — |
@@ -77,10 +77,10 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [PGlite Embeddable WASM Postgres for Browser and Node.js](../../skills/pglite-embeddable-wasm-postgres/) | 15k | — |
 | [REST API Response Schema Validator](../../skills/rest-api-response-schema-validator/) | 14.7k | 291.1M/wk |
 | [Scalar OpenAPI Reference and API Client Platform](../../skills/scalar-openapi-reference-api-client-platform/) | 14.6k | — |
-| [Effect TypeScript Standard Library for Production Applications](../../skills/effect-typescript-standard-library-production/) | 13.8k | — |
+| [Effect TypeScript Standard Library for Production Applications](../../skills/effect-typescript-standard-library-production/) | 13.8k | 15.4M/wk |
 | [Gotenberg Document-to-PDF Conversion API](../../skills/gotenberg-document-to-pdf-conversion-api/) | 11.8k | — |
-| [Protobuf Schema Registry Manager](../../skills/protobuf-schema-registry-manager/) | 11.1k | — |
-| [Buf Protobuf Linter](../../skills/buf-protobuf-linter/) | 11k | — |
+| [Protobuf Schema Registry Manager](../../skills/protobuf-schema-registry-manager/) | 11.1k | 1.4M/wk |
+| [Buf Protobuf Linter](../../skills/buf-protobuf-linter/) | 11k | 1.4M/wk |
 | [OpenMetadata Data Catalog and Governance Platform for Agent Discovery](../../skills/openmetadata-data-catalog-governance-platform-agent-discovery/) | 10k | — |
 | [Inspect the real Claude Code system, tool, and subagent prompts before designing compatible extensions with claude-code-system-prompts](../../skills/inspect-the-real-claude-code-system-tool-and-subagent-prompts-before-designing-compatible-extensions-with-claude-code-system-prompts/) | 9k | — |
 | [TypeDoc Symbol Resolver](../../skills/typedoc-symbol-resolver/) | 8.4k | 4.1M/wk |

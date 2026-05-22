@@ -1,9 +1,36 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-05-21",
-  "total": 2493,
+  "generated": "2026-05-22",
+  "total": 2496,
   "skills": [
+    {
+      "slug": "operate-kubernetes-and-openshift-clusters-through-mcp",
+      "name": "Operate Kubernetes and OpenShift clusters through MCP",
+      "title": "Operate Kubernetes and OpenShift clusters through MCP",
+      "description": "Expose Kubernetes and OpenShift cluster operations to MCP clients with native API-backed tools for resources, pods, events, Helm, Tekton, and diagnostics.",
+      "category": "Runbooks & Diagnostics",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "search-and-analyze-arxiv-papers-through-mcp-workflows",
+      "name": "Search and analyze arXiv papers through MCP workflows",
+      "title": "Search and analyze arXiv papers through MCP workflows",
+      "description": "Connect an MCP-capable assistant to arXiv search, paper download, local paper storage, and research prompts for grounded literature review workflows.",
+      "category": "Research & Scraping",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "run-multi-harness-coding-agent-workflows-with-oh-my-openagent",
+      "name": "Run multi-harness coding-agent workflows with Oh My OpenAgent",
+      "title": "Run multi-harness coding-agent workflows with Oh My OpenAgent",
+      "description": "Install and operate Oh My OpenAgent as a reusable coding-agent harness for long-running, multi-model development sessions across agent clients.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "run-nature-style-academic-writing-and-figure-workflows-with-nature-skills",
       "name": "Run Nature-style academic writing and figure workflows with Nature Skills",

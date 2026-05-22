@@ -28,11 +28,11 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Enforce local Git hook checks in JavaScript repos with Husky](../../skills/enforce-local-git-hook-checks-in-javascript-repos-with-husky/) | ⬇ 25.7M/wk |
 | [Swagger Codegen Orchestrator](../../skills/swagger-codegen-orchestrator/) | ⬇ 149.2k/wk |
 | [Nx Workspace Generator Toolkit](../../skills/nx-workspace-generator-toolkit/) | ⬇ 29.5M/wk |
+| [Nx Workspace Generator](../../skills/nx-workspace-generator/) | ⬇ 8.9M/wk |
+| [Nx Monorepo Workflow Orchestrator](../../skills/nx-monorepo-workflow-orchestrator/) | ⬇ 8.9M/wk |
 | [Turn a PRD into a dependency-aware task graph and keep AI implementation work scoped with Task Master AI](../../skills/turn-a-prd-into-a-dependency-aware-task-graph-and-keep-ai-implementation-work-scoped-with-task-master-ai/) | ⬇ 113.6k/wk |
+| [GrapesJS Open Source Web Builder and Template Design Framework](../../skills/grapesjs-web-builder-template-framework/) | ⬇ 156.5k/wk |
 | [Pulumi Infrastructure Stack Templater](../../skills/pulumi-infrastructure-stack-templater/) | ⬇ 2.2M/wk |
-| [Mustache Template Renderer](../../skills/mustache-template-renderer-agent/) | ⬇ 12.7M/wk |
-| [Vercel Deployment Agent](../../skills/vercel-deployment-agent/) | ⬇ 2.4M/wk |
-| [AWS CDK Scaffolder](../../skills/aws-cdk-scaffolder/) | ⬇ 3.3M/wk |
 
 ---
 
@@ -81,11 +81,11 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Helm Chart Templater](../../skills/helm-chart-templater/) | 29.7k | — |
 | [Swagger Codegen Orchestrator](../../skills/swagger-codegen-orchestrator/) | 28.8k | 149.2k/wk |
 | [Nx Workspace Generator Toolkit](../../skills/nx-workspace-generator-toolkit/) | 28.6k | 29.5M/wk |
-| [Nx Workspace Generator](../../skills/nx-workspace-generator/) | 28.6k | — |
-| [Nx Monorepo Workflow Orchestrator](../../skills/nx-monorepo-workflow-orchestrator/) | 28.5k | — |
+| [Nx Workspace Generator](../../skills/nx-workspace-generator/) | 28.6k | 8.9M/wk |
+| [Nx Monorepo Workflow Orchestrator](../../skills/nx-monorepo-workflow-orchestrator/) | 28.5k | 8.9M/wk |
 | [Kestra Event-Driven Orchestration and Scheduling Platform](../../skills/kestra-event-driven-orchestration-scheduling-platform/) | 26.7k | — |
 | [Turn a PRD into a dependency-aware task graph and keep AI implementation work scoped with Task Master AI](../../skills/turn-a-prd-into-a-dependency-aware-task-graph-and-keep-ai-implementation-work-scoped-with-task-master-ai/) | 26.6k | 113.6k/wk |
-| [GrapesJS Open Source Web Builder and Template Design Framework](../../skills/grapesjs-web-builder-template-framework/) | 25.7k | — |
+| [GrapesJS Open Source Web Builder and Template Design Framework](../../skills/grapesjs-web-builder-template-framework/) | 25.7k | 156.5k/wk |
 | [Pulumi Infrastructure Stack Templater](../../skills/pulumi-infrastructure-stack-templater/) | 25.2k | 2.2M/wk |
 | [Cookiecutter Project Bootstrap](../../skills/cookiecutter-project-bootstrap/) | 24.8k | — |
 | [Cookiecutter Project Bootstrapper](../../skills/cookiecutter-project-bootstrapper/) | 24.8k | — |
@@ -150,20 +150,20 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Run recipe-driven codebase migrations and framework upgrades with reviewable diffs through OpenRewrite](../../skills/run-recipe-driven-codebase-migrations-and-framework-upgrades-with-reviewable-diffs-through-openrewrite/) | 3.4k | — |
 | [Generate and validate conventional commits and semver release bumps with Commitizen](../../skills/generate-and-validate-conventional-commits-and-semver-release-bumps-with-commitizen/) | 3.4k | — |
 | [Draft user-facing App Store release notes from git history with App Store Changelog](../../skills/draft-user-facing-app-store-release-notes-from-git-history-with-app-store-changelog/) | 3.4k | — |
-| [Create and debug local-first declarative workflow jobs with Dagu](../../skills/create-and-debug-local-first-declarative-workflow-jobs-with-dagu/) | 3.3k | — |
+| [Create and debug local-first declarative workflow jobs with Dagu](../../skills/create-and-debug-local-first-declarative-workflow-jobs-with-dagu/) | 3.3k | 456/wk |
 | [Orchestrate stacked Git branches, sync safely, and ship pull requests in order](../../skills/orchestrate-stacked-git-branches-sync-safely-and-ship-pull-requests-in-order/) | 3.1k | — |
 | [Regenerate repository config from a single project definition with projen](../../skills/regenerate-repository-config-from-a-single-project-definition-with-projen/) | 2.9k | 876.8k/wk |
 | [Generate domain-specific Claude Code agent teams and shared skills with Harness](../../skills/generate-domain-specific-claude-code-agent-teams-and-shared-skills-with-harness/) | 2.8k | — |
 | [Define file-native Git workflows for agents with GitAgent](../../skills/define-file-native-git-workflows-for-agents-with-gitagent/) | 2.7k | 1.7k/wk |
 | [Coordinate persistent Copilot agent teams with Squad](../../skills/coordinate-persistent-copilot-agent-teams-with-squad/) | 2.5k | — |
-| [Export live HTML slide decks to PDF handouts before review or archival](../../skills/export-live-html-slide-decks-to-pdf-handouts-before-review-or-archival/) | 2.4k | — |
+| [Export live HTML slide decks to PDF handouts before review or archival](../../skills/export-live-html-slide-decks-to-pdf-handouts-before-review-or-archival/) | 2.4k | 1.4k/wk |
 | [Boot and supervise local multi-service process stacks from one declarative file with process-compose](../../skills/boot-and-supervise-local-multi-service-process-stacks-from-one-declarative-file-with-process-compose/) | 2.3k | — |
 | [Coordinate planner manager worker handoffs for long running AI delivery with Agentic Project Management](../../skills/coordinate-planner-manager-worker-handoffs-for-long-running-ai-delivery-with-agentic-project-management/) | 2.2k | — |
 | [Turn product requirements into executable Claude Code plans and validation loops with PRPs Agentic Eng](../../skills/turn-product-requirements-into-executable-claude-code-plans-and-validation-loops-with-prps-agentic-eng/) | 2.1k | — |
 | [Layer self-correcting memory and worktree routines into Claude Code with Pro Workflow](../../skills/layer-self-correcting-memory-and-worktree-routines-into-claude-code-with-pro-workflow/) | 1.9k | — |
 | [Netlify Site Manager](../../skills/netlify-site-manager/) | 1.8k | 259.3k/wk |
 | [Regenerate Helm chart READMEs from values and comments before release](../../skills/regenerate-helm-chart-readmes-from-values-and-comments-before-release/) | 1.7k | — |
-| [Generate right-to-left CSS variants from LTR stylesheets before multilingual launches with RTLCSS](../../skills/generate-right-to-left-css-variants-from-ltr-stylesheets-before-multilingual-launches-rtlcss/) | 1.7k | — |
+| [Generate right-to-left CSS variants from LTR stylesheets before multilingual launches with RTLCSS](../../skills/generate-right-to-left-css-variants-from-ltr-stylesheets-before-multilingual-launches-rtlcss/) | 1.7k | 2M/wk |
 | [Fly.io Deployment Helper](../../skills/fly-io-deployment-helper/) | 1.6k | — |
 | [Run Claude Code with spec-driven quality gates via Pilot Shell](../../skills/run-claude-code-with-spec-driven-quality-gates-via-pilot-shell/) | 1.6k | — |
 | [Refresh Cookiecutter-based repositories from their upstream template without losing local answers](../../skills/refresh-cookiecutter-based-repositories-from-upstream-template/) | 1.6k | — |
@@ -191,12 +191,12 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Evaluate long-horizon agents against WildClawBench](../../skills/evaluate-long-horizon-agents-against-wildclawbench/) | 359 | — |
 | [Makedown Task Runner](../../skills/makedown-task-runner/) | 319 | — |
 | [Build and refactor Copilot Studio agents as YAML from coding-agent workflows](../../skills/build-and-refactor-copilot-studio-agents-as-yaml/) | 166 | — |
-| [Break large coding jobs into focused subagent missions with AB Method](../../skills/break-large-coding-jobs-into-focused-subagent-missions-with-ab-method/) | 159 | — |
+| [Break large coding jobs into focused subagent missions with AB Method](../../skills/break-large-coding-jobs-into-focused-subagent-missions-with-ab-method/) | 159 | 472/wk |
 | [Convert browser HAR captures into reusable k6 load tests with har-to-k6](../../skills/convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6/) | 159 | — |
 | [Langfuse Prompt Management MCP Server](../../skills/langfuse-prompt-management-mcp-server/) | 159 | — |
 | [Distill repository rules and workflows into reusable project skills with Skill-Based Architecture](../../skills/distill-repository-rules-and-workflows-into-reusable-project-skills-with-skill-based-architecture/) | 131 | — |
 | [Triage support tickets and draft customer replies with Claude Code support skills](../../skills/triage-support-tickets-and-draft-customer-replies-with-claude-code-support-skills/) | 87 | — |
-| [Put coding agents on a governed local Git workflow with AgentPlane](../../skills/put-coding-agents-on-a-governed-local-git-workflow-with-agentplane/) | 38 | — |
+| [Put coding agents on a governed local Git workflow with AgentPlane](../../skills/put-coding-agents-on-a-governed-local-git-workflow-with-agentplane/) | 38 | 817/wk |
 | [Review-gate OpenClaw memory hygiene with openclaw-mem](../../skills/review-gate-openclaw-memory-hygiene-with-openclaw-mem/) | 28 | — |
 | [Generate and safely patch AGENTS.md and RUNBOOK.md with AGENTS.md Generator](../../skills/generate-and-safely-patch-agents-md-and-runbook-md-with-agents-md-generator/) | 2 | — |
 | [Bubble.io Stripe Subscription Portal Builder](../../skills/bubble-stripe-subscription-portal/) | — | — |
