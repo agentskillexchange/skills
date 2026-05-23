@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2498 published skills** across **17 categories** · 2,153 security reviewed · Updated 2026-05-23 12:22 UTC
+> **2501 published skills** across **17 categories** · 2,153 security reviewed · Updated 2026-05-23 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (324 skills)
+### 🛠️ Developer Tools (325 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -240,6 +240,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [procs Modern Process Viewer CLI](skills/procs-modern-process-viewer-cli/) | A modern replacement for ps written in Rust. procs provides colorized, human-readable process listings with… | Security Reviewed | 6k | — |
 | [Add executable smoke tests for shell scripts and CLIs before refactors ship](skills/add-shell-and-cli-smoke-tests-before-refactors-ship/) | Use Bats-core when an agent needs to turn fragile shell scripts or command-line workflows into something it can… | Published | 6k | — |
 | [Desktop Commander MCP Server for Terminal and File Control](skills/desktop-commander-mcp-terminal-file-control/) | Desktop Commander is an MCP server that gives AI assistants terminal command execution, file system search,… | Security Reviewed | 5.8k | — |
+| [Build, test, and inspect Apple apps through MCP with XcodeBuildMCP](skills/build-test-and-inspect-apple-apps-through-mcp-with-xcodebuildmcp/) | Connect coding agents to Xcode build, test, simulator, and project-inspection tools through XcodeBuildMCP's MCP… | Security Reviewed | 5.7k | 44.5k/wk |
 | [Orval OpenAPI Client Regeneration Skill for Typed SDKs](skills/orval-openapi-client-regeneration-skill-typed-sdks/) | Use this skill when an agent needs to regenerate a typed API client from an OpenAPI spec, keep fetch clients aligned… | Security Reviewed | 5.7k | 1.1M/wk |
 | [Notion Workspace Agent](skills/notion-workspace-agent/) | Notion Workspace Agent is built around Notion workspace and database platform. The underlying ecosystem is… | Security Reviewed | 5.6k | 1.2M/wk |
 | [Train agent policies with rLLM reinforcement learning](skills/train-agent-policies-with-rllm-reinforcement-learning/) | Use rLLM to evaluate, trace, reward, and train LLM agents with reinforcement learning across common agent frameworks. | Security Reviewed | 5.5k | — |
@@ -1325,7 +1326,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [PagerDuty Event Orchestration Runbook](skills/pagerduty-event-orchestration-runbook/) | Builds incident runbooks around the PagerDuty Events API v2, Incidents API, and Response Plays so agents can… | Published | — | — |
 
 
-### 📄 Templates & Workflows (163 skills)
+### 📄 Templates & Workflows (164 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1425,6 +1426,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Orchestrate goal-driven TypeScript agent teams with Open Multi Agent](skills/orchestrate-goal-driven-typescript-agent-teams-with-open-multi-agent/) | Turn a user goal into a planned multi-agent task DAG, execute independent tasks in parallel, and trace the run from… | Security Reviewed | 6.1k | — |
 | [Turn goals into traced multi-agent task DAGs with open-multi-agent](skills/turn-goals-into-traced-multi-agent-task-dags-with-open-multi-agent/) | Decompose goals into task DAGs, delegate work to agents and tools, and inspect execution traces. | Security Reviewed | 6k | — |
 | [Notion to PDF Knowledge Exporter](skills/notion-to-pdf-knowledge-exporter/) | Queries Notion databases and pages via the Notion API v1, then renders content blocks into PDF via WeasyPrint.… | Security Reviewed | 5.6k | 1.2M/wk |
+| [Build event-driven multi-agent workflows with Solace Agent Mesh](skills/build-event-driven-multi-agent-workflows-with-solace-agent-mesh/) | Stand up Solace Agent Mesh projects where agents delegate tasks, exchange events, call tools, and coordinate… | Security Reviewed | 4.5k | — |
 | [Test documentation sites across mobile, tablet, and desktop with GitHub Agentic Workflows](skills/test-documentation-sites-across-mobile-tablet-and-desktop-with-github-agentic-workflows/) | Run a repeatable docs-site check that builds locally, opens the site across device sizes, and reports layout,… | Security Reviewed | 4.3k | — |
 | [Automate repository triage and recurring repo maintenance with guarded GitHub agent workflows](skills/automate-repository-triage-and-recurring-maintenance-with-github-agent-workflows/) | Use GitHub Agentic Workflows to let an agent triage issues, inspect CI failures, or deliver scheduled repository… | Security Reviewed | 4.3k | — |
 | [Coordinate human-in-the-loop agent teams in auditable Matrix rooms with HiClaw](skills/coordinate-human-in-the-loop-agent-teams-in-auditable-matrix-rooms-with-hiclaw/) | Run manager-worker agent collaboration in Matrix rooms where humans can watch, intervene, and keep credentials out… | Security Reviewed | 4.2k | — |
@@ -1496,7 +1498,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Makefile Workflow Generator](skills/makefile-workflow-generator/) | Generates project Makefiles with standard targets using GNU Make syntax, autodeps pattern rules, and integration… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (131 skills)
+### 📊 Monitoring & Alerts (132 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -1566,6 +1568,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Quickwit Cloud-Native Search Engine for Observability Logs and Traces](skills/quickwit-cloud-native-search-engine-observability/) | Quickwit is a cloud-native search engine built in Rust for log management and distributed tracing. It offers… | Published | 11.1k | — |
 | [Gatus Endpoint Monitoring and Status Page Platform](skills/gatus-endpoint-monitoring-status-page-platform/) | Gatus is an open source uptime and endpoint monitoring platform built for developers and ops teams. It checks HTTP,… | Security Reviewed | 10.7k | — |
 | [Healthchecks.io Cron Job Monitoring and Alerting Platform](skills/healthchecks-io-cron-job-monitoring-alerting-platform/) | Healthchecks.io is an open-source cron and background task monitoring platform that alerts when scheduled jobs fail… | Security Reviewed | 10k | — |
+| [Run agentic anomaly investigations with PyOD](skills/run-agentic-anomaly-investigations-with-pyod/) | Use PyOD's agent skill or MCP server to turn natural-language anomaly detection requests into repeatable detector… | Security Reviewed | 9.9k | — |
 | [Trace and evaluate agent runs with Phoenix](skills/trace-and-evaluate-agent-runs-with-phoenix/) | Use Phoenix to trace LLM and agent calls, run evaluations, replay prompts, inspect datasets, and expose… | Security Reviewed | 9.8k | 893/wk |
 | [Checkmate Open Source Uptime and Infrastructure Monitoring](skills/checkmate-open-source-uptime-infrastructure-monitoring/) | An ASE skill built on Checkmate, the open source self-hosted monitoring platform for uptime, incidents, response… | Security Reviewed | 9.6k | — |
 | [Highlight.io Open Source Full-Stack Monitoring Platform](skills/highlight-io-full-stack-monitoring/) | Highlight.io is an open-source full-stack monitoring platform combining session replay, error monitoring, logging,… | Security Reviewed | 9.2k | — |

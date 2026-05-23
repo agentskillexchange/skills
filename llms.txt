@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-05-23
-# Total: 2498 skills
+# Total: 2501 skills
+
+## Build, test, and inspect Apple apps through MCP with XcodeBuildMCP
+slug: build-test-and-inspect-apple-apps-through-mcp-with-xcodebuildmcp
+category: Developer Tools
+framework: MCP
+verification: Security Reviewed
+description: Connect coding agents to Xcode build, test, simulator, and project-inspection tools through XcodeBuildMCP's MCP server or CLI.
+url: https://agentskillexchange.com/skills/build-test-and-inspect-apple-apps-through-mcp-with-xcodebuildmcp/
+
+## Build event-driven multi-agent workflows with Solace Agent Mesh
+slug: build-event-driven-multi-agent-workflows-with-solace-agent-mesh
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Stand up Solace Agent Mesh projects where agents delegate tasks, exchange events, call tools, and coordinate multi-step workflows through an event mesh.
+url: https://agentskillexchange.com/skills/build-event-driven-multi-agent-workflows-with-solace-agent-mesh/
+
+## Run agentic anomaly investigations with PyOD
+slug: run-agentic-anomaly-investigations-with-pyod
+category: Monitoring & Alerts
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use PyOD's agent skill or MCP server to turn natural-language anomaly detection requests into repeatable detector selection, fitting, scoring, and investigation workflows.
+url: https://agentskillexchange.com/skills/run-agentic-anomaly-investigations-with-pyod/
 
 ## Query and inspect Postgres databases through MCP with pgEdge Postgres MCP
 slug: query-and-inspect-postgres-databases-through-mcp-with-pgedge-postgres-mcp

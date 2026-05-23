@@ -2,8 +2,35 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-05-23",
-  "total": 2498,
+  "total": 2501,
   "skills": [
+    {
+      "slug": "build-test-and-inspect-apple-apps-through-mcp-with-xcodebuildmcp",
+      "name": "Build, test, and inspect Apple apps through MCP with XcodeBuildMCP",
+      "title": "Build, test, and inspect Apple apps through MCP with XcodeBuildMCP",
+      "description": "Connect coding agents to Xcode build, test, simulator, and project-inspection tools through XcodeBuildMCP's MCP server or CLI.",
+      "category": "Developer Tools",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "build-event-driven-multi-agent-workflows-with-solace-agent-mesh",
+      "name": "Build event-driven multi-agent workflows with Solace Agent Mesh",
+      "title": "Build event-driven multi-agent workflows with Solace Agent Mesh",
+      "description": "Stand up Solace Agent Mesh projects where agents delegate tasks, exchange events, call tools, and coordinate multi-step workflows through an event mesh.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "run-agentic-anomaly-investigations-with-pyod",
+      "name": "Run agentic anomaly investigations with PyOD",
+      "title": "Run agentic anomaly investigations with PyOD",
+      "description": "Use PyOD's agent skill or MCP server to turn natural-language anomaly detection requests into repeatable detector selection, fitting, scoring, and investigation workflows.",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "query-and-inspect-postgres-databases-through-mcp-with-pgedge-postgres-mcp",
       "name": "Query and inspect Postgres databases through MCP with pgEdge Postgres MCP",
