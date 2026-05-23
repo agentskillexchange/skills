@@ -12,6 +12,7 @@ import html
 import json
 import os
 import sys
+import time
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -65,9 +66,13 @@ INDUSTRY_EMOJI = {
     "real-estate-workflows": "🏠",
 }
 def fetch_json(url):
+    separator = "&" if "?" in url else "?"
+    url = f"{url}{separator}ase_repo_gen={int(time.time())}"
     req = urllib.request.Request(url, headers={
         "User-Agent": "Mozilla/5.0 (compatible; ASE Repo Generator/1.0)",
         "Accept": "application/json,text/plain,*/*",
+        "Cache-Control": "no-cache",
+        "Pragma": "no-cache",
     })
     with urllib.request.urlopen(req, timeout=60) as resp:
         return json.loads(resp.read().decode("utf-8")), dict(resp.headers)
