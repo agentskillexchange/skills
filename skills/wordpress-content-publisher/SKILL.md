@@ -2,7 +2,7 @@
 name: "WordPress Content Publisher"
 slug: "wordpress-content-publisher"
 description: "Structured publishing workflow for WordPress drafts, metadata, and content operations."
-github_stars: 21136
+github_stars: 21142
 verification: "listed"
 source: "https://github.com/WordPress/WordPress"
 author: "WordPress"
@@ -11,7 +11,7 @@ category: "WordPress & CMS"
 framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "wordpress/wordpress"
-  github_stars: 21136
+  github_stars: 21142
 ---
 
 # WordPress Content Publisher

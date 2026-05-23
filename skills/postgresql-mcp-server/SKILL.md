@@ -2,7 +2,7 @@
 name: "PostgreSQL MCP Server"
 slug: "postgresql-mcp-server"
 description: "Agent access to PostgreSQL data and queries through MCP."
-github_stars: 86076
+github_stars: 86107
 verification: "security_reviewed"
 source: "https://github.com/modelcontextprotocol/servers"
 author: "Model Context Protocol"
@@ -11,7 +11,7 @@ category: "Data Extraction & Transformation"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "modelcontextprotocol/servers"
-  github_stars: 86076
+  github_stars: 86107
   npm_package: "@modelcontextprotocol/server-postgres"
   npm_weekly_downloads: 395921
 ---

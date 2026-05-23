@@ -2,7 +2,7 @@
 name: "Datadog MCP Server"
 slug: "datadog-mcp-server"
 description: ""
-github_stars: 808
+github_stars: 810
 verification: "security_reviewed"
 source: "https://github.com/DataDog/dd-trace-js"
 author: "Datadog"
@@ -10,9 +10,9 @@ category: "Monitoring & Alerts"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "datadog/dd-trace-js"
-  github_stars: 808
+  github_stars: 810
   npm_package: "dd-trace"
-  npm_weekly_downloads: 7385311
+  npm_weekly_downloads: 7490094
 ---
 
 # Datadog MCP Server

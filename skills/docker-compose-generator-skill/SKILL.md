@@ -2,14 +2,14 @@
 name: "Docker Compose Generator Skill"
 slug: "docker-compose-generator-skill"
 description: ""
-github_stars: 71582
+github_stars: 71586
 verification: "security_reviewed"
 source: "https://github.com/moby/moby"
 category: "Developer Tools"
 framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "moby/moby"
-  github_stars: 71582
+  github_stars: 71586
 ---
 
 # Docker Compose Generator Skill

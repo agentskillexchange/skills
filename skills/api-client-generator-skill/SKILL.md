@@ -2,7 +2,7 @@
 name: "API Client Generator Skill"
 slug: "api-client-generator-skill"
 description: ""
-github_stars: 26276
+github_stars: 26297
 verification: "security_reviewed"
 source: "https://github.com/OpenAPITools/openapi-generator"
 author: "OpenAPITools"
@@ -10,7 +10,7 @@ category: "Developer Tools"
 framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "openapitools/openapi-generator"
-  github_stars: 26276
+  github_stars: 26297
   npm_package: "@openapitools/openapi-generator-cli"
   npm_weekly_downloads: 5686761
 ---
