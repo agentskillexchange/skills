@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-05-22
+# Generated: 2026-05-23
 # Total: 2498 skills
 
 ## Query and inspect Postgres databases through MCP with pgEdge Postgres MCP
