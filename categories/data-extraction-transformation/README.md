@@ -184,7 +184,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [xq Command-Line XML and HTML Beautifier and Content Extractor](../../skills/xq-command-line-xml-html-beautifier-content-extractor/) | 1.1k | — |
 | [Query Neo4j graph data from agent workflows through MCP](../../skills/query-neo4j-graph-data-from-agent-workflows-through-mcp/) | 947 | — |
 | [Extract structured fields from HTML XML and JSON endpoints with Xidel selectors](../../skills/extract-structured-fields-from-html-xml-and-json-endpoints-with-xidel-selectors/) | 835 | — |
-| [Snowflake MCP Server](../../skills/snowflake-mcp-server/) | 725 | — |
+| [Snowflake MCP Server](../../skills/snowflake-mcp-server/) | 726 | — |
 | [Snowflake MCP](../../skills/snowflake-mcp/) | 724 | — |
 | [Snowflake Query History Extractor](../../skills/snowflake-query-history-extractor/) | 724 | — |
 | [Snowflake Query Optimizer Agent](../../skills/snowflake-query-optimizer-agent/) | 724 | — |
