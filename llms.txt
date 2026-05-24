@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-05-23
+# Generated: 2026-05-24
 # Total: 2501 skills
 
 ## Build, test, and inspect Apple apps through MCP with XcodeBuildMCP
