@@ -12,6 +12,8 @@ framework: "MCP"
 tool_ecosystem:
   github_repo: "jztan/pdf-mcp"
   github_stars: 17
+  npm_package: "pdf-mcp"
+  npm_weekly_downloads: 42
 ---
 
 # Search large PDFs and read only the relevant pages before answering

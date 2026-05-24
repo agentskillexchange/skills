@@ -5,11 +5,14 @@ description: "Redocly CLI is an all-in-one OpenAPI utility that lints, validates
 github_stars: 1422
 verification: "security_reviewed"
 source: "https://github.com/Redocly/redocly-cli"
+author: "Redocly"
 category: "Developer Tools"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "redocly/redocly-cli"
   github_stars: 1422
+  npm_package: "@redocly/cli"
+  npm_weekly_downloads: 1641774
 ---
 
 # Redocly CLI OpenAPI Linter and Documentation Generator
