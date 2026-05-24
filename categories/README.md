@@ -1,10 +1,10 @@
 # Categories
 
-> **2501 skills** across **17 categories**
+> **2503 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
-| 🛠️ | [**Developer Tools**](developer-tools/) | **325** | CLI helpers, dev environment setup, productivity utilities, and devel... |
+| 🛠️ | [**Developer Tools**](developer-tools/) | **326** | CLI helpers, dev environment setup, productivity utilities, and devel... |
 | 🔒 | [**Security & Verification**](security-verification/) | **227** | Auth setup, vulnerability scanning, compliance checks, and security a... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **192** | Pipeline configs, deployment automation, build tooling, and continuou... |
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **184** | Linting rules, review checklists, code standards enforcement, and qua... |
@@ -13,7 +13,7 @@
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **164** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **132** | Metrics collection, alerting rules, observability setup, and system m... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **122** | Email automation, calendar management, task coordination, and product... |
-| 📚 | [**Library & API Reference**](library-api-reference/) | **121** | SDK documentation, API guides, framework reference material, and libr... |
+| 📚 | [**Library & API Reference**](library-api-reference/) | **122** | SDK documentation, API guides, framework reference material, and libr... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **119** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **107** | Web scraping, UI testing, headless browser control, and browser-based... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **106** | Web research, data collection, content aggregation, and information g... |

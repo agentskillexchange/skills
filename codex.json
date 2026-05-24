@@ -2,8 +2,26 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-05-24",
-  "total": 2501,
+  "total": 2503,
   "skills": [
+    {
+      "slug": "ground-coding-agents-in-live-repository-documentation-with-gitmcp",
+      "name": "Ground coding agents in live repository documentation with GitMCP",
+      "title": "Ground coding agents in live repository documentation with GitMCP",
+      "description": "Use GitMCP to connect an MCP-capable coding agent to current GitHub repository docs and code before generating or changing implementation details.",
+      "category": "Library & API Reference",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "give-coding-agents-persistent-project-memory-with-agentmemory",
+      "name": "Give coding agents persistent project memory with AgentMemory",
+      "title": "Give coding agents persistent project memory with AgentMemory",
+      "description": "Use AgentMemory to run a persistent memory service that lets coding agents recall project context, prior decisions, and reusable session knowledge.",
+      "category": "Developer Tools",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "build-test-and-inspect-apple-apps-through-mcp-with-xcodebuildmcp",
       "name": "Build, test, and inspect Apple apps through MCP with XcodeBuildMCP",

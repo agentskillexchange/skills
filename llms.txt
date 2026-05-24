@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-05-24
-# Total: 2501 skills
+# Total: 2503 skills
+
+## Ground coding agents in live repository documentation with GitMCP
+slug: ground-coding-agents-in-live-repository-documentation-with-gitmcp
+category: Library & API Reference
+framework: MCP
+verification: Security Reviewed
+description: Use GitMCP to connect an MCP-capable coding agent to current GitHub repository docs and code before generating or changing implementation details.
+url: https://agentskillexchange.com/skills/ground-coding-agents-in-live-repository-documentation-with-gitmcp/
+
+## Give coding agents persistent project memory with AgentMemory
+slug: give-coding-agents-persistent-project-memory-with-agentmemory
+category: Developer Tools
+framework: MCP
+verification: Security Reviewed
+description: Use AgentMemory to run a persistent memory service that lets coding agents recall project context, prior decisions, and reusable session knowledge.
+url: https://agentskillexchange.com/skills/give-coding-agents-persistent-project-memory-with-agentmemory/
 
 ## Build, test, and inspect Apple apps through MCP with XcodeBuildMCP
 slug: build-test-and-inspect-apple-apps-through-mcp-with-xcodebuildmcp

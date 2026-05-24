@@ -85,6 +85,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Inspect the real Claude Code system, tool, and subagent prompts before designing compatible extensions with claude-code-system-prompts](../../skills/inspect-the-real-claude-code-system-tool-and-subagent-prompts-before-designing-compatible-extensions-with-claude-code-system-prompts/) | 9k | — |
 | [TypeDoc Symbol Resolver](../../skills/typedoc-symbol-resolver/) | 8.4k | 4.1M/wk |
 | [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | 8.4k | 3.7M/wk |
+| [Ground coding agents in live repository documentation with GitMCP](../../skills/ground-coding-agents-in-live-repository-documentation-with-gitmcp/) | 8.1k | — |
 | [Octokit JavaScript GitHub SDK for REST GraphQL and App Automation](../../skills/octokit-javascript-github-sdk-rest-graphql-app-automation/) | 7.7k | — |
 | [Twirp Go RPC Framework and Code Generator](../../skills/twirp-go-rpc-framework-and-code-generator/) | 7.5k | — |
 | [Lightning CSS High-Performance CSS Parser Transformer and Minifier](../../skills/lightning-css-high-performance-css-parser-transformer-and-minifier/) | 7.5k | — |

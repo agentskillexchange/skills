@@ -188,6 +188,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [LangChain MCP Server](../../skills/langchain-mcp-server/) | 17.7k | 2M/wk |
 | [Verdaccio Lightweight Private npm Proxy Registry](../../skills/verdaccio-private-npm-proxy-registry/) | 17.6k | — |
 | [sqlc Type-Safe SQL Code Generator](../../skills/sqlc-type-safe-sql-code-generator/) | 17.3k | — |
+| [Give coding agents persistent project memory with AgentMemory](../../skills/give-coding-agents-persistent-project-memory-with-agentmemory/) | 17.2k | 40.7k/wk |
 | [navi Interactive CLI Cheatsheet Tool](../../skills/navi-interactive-cli-cheatsheet-tool/) | 16.9k | — |
 | [Nix Flake Configuration Builder](../../skills/nix-flake-configuration-builder/) | 16.8k | — |
 | [libSQL Edge-Ready SQLite Fork by Turso](../../skills/libsql-edge-sqlite-fork-turso/) | 16.6k | — |

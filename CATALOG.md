@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2501 published skills** across **17 categories** · 2,155 security reviewed · Updated 2026-05-24 13:27 UTC
+> **2503 published skills** across **17 categories** · 2,155 security reviewed · Updated 2026-05-24 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (325 skills)
+### 🛠️ Developer Tools (326 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -162,6 +162,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [LangChain MCP Server](skills/langchain-mcp-server/) | LangChain MCP Server is built around LangChain framework for LLM applications. The underlying ecosystem is… | Security Reviewed | 17.7k | 2M/wk |
 | [Verdaccio Lightweight Private npm Proxy Registry](skills/verdaccio-private-npm-proxy-registry/) | Verdaccio is a lightweight, zero-config private npm proxy registry that caches packages from npmjs.org and hosts… | Security Reviewed | 17.6k | — |
 | [sqlc Type-Safe SQL Code Generator](skills/sqlc-type-safe-sql-code-generator/) | sqlc is a SQL compiler that generates type-safe Go, Python, Kotlin, and TypeScript code from plain SQL queries. You… | Security Reviewed | 17.3k | — |
+| [Give coding agents persistent project memory with AgentMemory](skills/give-coding-agents-persistent-project-memory-with-agentmemory/) | Use AgentMemory to run a persistent memory service that lets coding agents recall project context, prior decisions,… | Security Reviewed | 17.2k | 40.7k/wk |
 | [navi Interactive CLI Cheatsheet Tool](skills/navi-interactive-cli-cheatsheet-tool/) | An interactive cheatsheet tool for the command line that lets you browse through commands and fill in argument… | Security Reviewed | 16.9k | — |
 | [Nix Flake Configuration Builder](skills/nix-flake-configuration-builder/) | Generates reproducible Nix flake configurations with devShell environments and package overlays. Uses the Nix Flakes… | Security Reviewed | 16.8k | — |
 | [libSQL Edge-Ready SQLite Fork by Turso](skills/libsql-edge-sqlite-fork-turso/) | libSQL is an open-source, open-contribution fork of SQLite by Turso that adds embedded replicas, server mode, and… | Published | 16.6k | — |
@@ -1768,7 +1769,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses… | Security Reviewed | — | — |
 
 
-### 📚 Library & API Reference (121 skills)
+### 📚 Library & API Reference (122 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=downloads)
 
@@ -1819,6 +1820,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Inspect the real Claude Code system, tool, and subagent prompts before designing compatible extensions with claude-code-system-prompts](skills/inspect-the-real-claude-code-system-tool-and-subagent-prompts-before-designing-compatible-extensions-with-claude-code-system-prompts/) | Use claude-code-system-prompts when you need the current extracted Claude Code system prompts, built-in tool… | Published | 9k | — |
 | [TypeDoc Symbol Resolver](skills/typedoc-symbol-resolver/) | Resolves TypeScript symbols and generates API documentation using the TypeDoc compiler API and ts-morph for AST… | Security Reviewed | 8.4k | 4.1M/wk |
 | [TypeDoc TypeScript API Documentation Generator](skills/typedoc-typescript-api-documentation-generator/) | TypeDoc is the standard documentation generator for TypeScript projects. It reads TypeScript source code and JSDoc… | Security Reviewed | 8.4k | 3.7M/wk |
+| [Ground coding agents in live repository documentation with GitMCP](skills/ground-coding-agents-in-live-repository-documentation-with-gitmcp/) | Use GitMCP to connect an MCP-capable coding agent to current GitHub repository docs and code before generating or… | Security Reviewed | 8.1k | — |
 | [Octokit JavaScript GitHub SDK for REST GraphQL and App Automation](skills/octokit-javascript-github-sdk-rest-graphql-app-automation/) | Octokit is GitHub’s JavaScript SDK family for REST API requests, GraphQL queries, authentication, webhooks, and… | Security Reviewed | 7.7k | — |
 | [Twirp Go RPC Framework and Code Generator](skills/twirp-go-rpc-framework-and-code-generator/) | Twirp is a protobuf-based RPC framework from Twitch that generates Go servers and clients with a simple HTTP… | Published | 7.5k | — |
 | [Lightning CSS High-Performance CSS Parser Transformer and Minifier](skills/lightning-css-high-performance-css-parser-transformer-and-minifier/) | Lightning CSS is a Rust-based CSS parser, transformer, bundler, and minifier from the Parcel team. This skill is for… | Security Reviewed | 7.5k | — |
