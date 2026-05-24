@@ -121,7 +121,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Capture responsive website screenshots for visual QA with Pageres](../../skills/capture-responsive-website-screenshots-pageres/) | 9.7k | — |
 | [Drive Chrome with stable accessibility refs for repeatable browser automation](../../skills/drive-chrome-with-stable-accessibility-refs-for-repeatable-browser-automation/) | 8.7k | — |
 | [Docker Selenium Grid for Scalable Browser Automation](../../skills/docker-selenium-grid-for-scalable-browser-automation/) | 8.6k | — |
-| [Playwright Extra Browser Automation Plugins](../../skills/playwright-extra-browser-automation-plugins/) | 7.3k | — |
+| [Playwright Extra Browser Automation Plugins](../../skills/playwright-extra-browser-automation-plugins/) | 7.3k | 835.6k/wk |
 | [BackstopJS Visual Regression Testing Automation](../../skills/backstopjs-visual-regression-testing-automation/) | 7.1k | 59.8k/wk |
 | [Camoufox Open Source Anti-Detect Browser for Python Automation](../../skills/camoufox-antidetect-browser-python/) | 7.1k | — |
 | [Rod Go Chrome DevTools Protocol Driver for Web Automation](../../skills/rod-go-cdp-browser-automation/) | 6.8k | — |

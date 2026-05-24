@@ -89,7 +89,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [Front Matter CMS Visual Studio Code Headless CMS](../../skills/front-matter-cms-vscode-headless-cms/) | 2.5k | — |
 | [Sveltia CMS Git-Based Headless Content Management System](../../skills/sveltia-cms-git-based-headless-cms/) | 2.2k | 2.8k/wk |
 | [Yoast SEO WordPress Search Optimization Plugin](../../skills/yoast-seo-wordpress-search-optimization-plugin/) | 1.9k | — |
-| [WordPress Playground WebAssembly Runtime for In-Browser WordPress](../../skills/wordpress-playground-wasm-runtime/) | 1.9k | — |
+| [WordPress Playground WebAssembly Runtime for In-Browser WordPress](../../skills/wordpress-playground-wasm-runtime/) | 1.9k | 51.6k/wk |
 | [Yoast SEO WordPress Optimization Toolkit](../../skills/yoast-seo-wordpress-optimization-toolkit/) | 1.9k | — |
 | [Query Monitor WordPress Developer Tools Panel](../../skills/query-monitor-wordpress-developer-tools-panel/) | 1.7k | — |
 | [Faust.js Headless WordPress Toolkit for Next.js](../../skills/faustjs-headless-wordpress-toolkit-nextjs/) | 1.6k | — |

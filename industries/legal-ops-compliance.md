@@ -20,7 +20,7 @@ Contract workflows, forms, document review, archive search, and evidence-oriente
 | [Paperless-ngx Document OCR and Archive Management System](../skills/paperless-ngx-document-ocr-archive-management-system/) | Data Extraction & Transformation | 38.1k | — |
 | [LangExtract LLM-Powered Structured Text Extraction](../skills/langextract-llm-structured-text-extraction/) | Data Extraction & Transformation | 35k | — |
 | [Redact PII from text before sharing or indexing with scrubadub](../skills/redact-pii-from-text-before-sharing-or-indexing-with-scrubadub/) | Security & Verification | 421 | — |
-| [Search large PDFs and read only the relevant pages before answering](../skills/search-large-pdfs-and-read-only-the-relevant-pages-before-answering/) | Data Extraction & Transformation | 17 | — |
+| [Search large PDFs and read only the relevant pages before answering](../skills/search-large-pdfs-and-read-only-the-relevant-pages-before-answering/) | Data Extraction & Transformation | 17 | 42/wk |
 | [Process, redact, OCR, and sign documents with Nutrient Agent Skill](../skills/process-redact-ocr-and-sign-documents-with-nutrient-agent-skill/) | Data Extraction & Transformation | 5 | — |
 | [Convert dense PDFs into LLM-ready text and page-aligned markdown with olmOCR](../skills/convert-dense-pdfs-into-llm-ready-text-and-page-aligned-markdown-with-olmocr/) | Data Extraction & Transformation | 17.1k | — |
 | [Turn documents into validated knowledge graphs with Docling Graph](../skills/turn-documents-into-validated-knowledge-graphs-with-docling-graph/) | Data Extraction & Transformation | 134 | — |

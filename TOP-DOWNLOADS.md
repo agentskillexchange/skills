@@ -55,7 +55,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 47 | [Astro Content-Driven Web Framework](skills/astro-content-driven-web-framework/) | 2M/wk | astro | Developer Tools |
 | 48 | [Selenium Grid Auto-Scaling Orchestrator](skills/selenium-grid-auto-scaling-orchestrator/) | 1.9M/wk | selenium | Browser Automation |
 | 49 | [zx JavaScript Shell Script Runner](skills/zx-javascript-shell-script-runner/) | 1.7M/wk | zx | Developer Tools |
-| 50 | [Lefthook Git Hooks Manager](skills/lefthook-git-hooks-manager/) | 1.6M/wk | lefthook | Developer Tools |
+| 50 | [Redocly CLI OpenAPI Linter and Documentation Generator](skills/redocly-cli-openapi-linter-documentation-generator/) | 1.6M/wk | redocly-cli | Developer Tools |
 
 ---
 

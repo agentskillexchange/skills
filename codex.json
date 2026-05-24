@@ -1358,7 +1358,7 @@
       "slug": "find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe",
       "name": "Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe",
       "title": "Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe",
-      "description": "Use Claude Code dedupe to summarize an issue, run several GitHub duplicate searches in parallel, filter false positives, and post only well-supported possible-duplicate links.",
+      "description": "Use Claude Code Dedupe to summarize an issue, run parallel GitHub duplicate searches, filter false positives, and post only well-supported duplicate candidates.",
       "category": "Templates & Workflows",
       "framework": "Claude Code",
       "verification": "security_reviewed"

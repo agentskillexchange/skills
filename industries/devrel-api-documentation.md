@@ -11,7 +11,7 @@ API docs, OpenAPI references, SDK generation, docs-site publishing, prose lintin
 |---|---|---:|---:|
 | [Redoc OpenAPI Documentation Renderer](../skills/redoc-openapi-documentation-renderer/) | Library & API Reference | 25.6k | 1.5M/wk |
 | [Scalar OpenAPI Reference and API Client Platform](../skills/scalar-openapi-reference-api-client-platform/) | Library & API Reference | 14.6k | — |
-| [Redocly CLI OpenAPI Linter and Documentation Generator](../skills/redocly-cli-openapi-linter-documentation-generator/) | Developer Tools | 1.4k | — |
+| [Redocly CLI OpenAPI Linter and Documentation Generator](../skills/redocly-cli-openapi-linter-documentation-generator/) | Developer Tools | 1.4k | 1.6M/wk |
 | [DevDocs Unified API Documentation Browser](../skills/devdocs-unified-api-documentation-browser/) | Library & API Reference | 38.7k | — |
 | [MkDocs Project Documentation Generator](../skills/mkdocs-project-documentation-generator/) | Developer Tools | 21.9k | — |
 | [Fumadocs React Documentation Framework and Docs Site Generator](../skills/fumadocs-react-documentation-framework-and-docs-site-generator/) | WordPress & CMS | 11.5k | 435/wk |
