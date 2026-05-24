@@ -2,7 +2,7 @@
 name: "Playwright MCP Browser Automation"
 slug: "playwright-mcp-browser-automation"
 description: "Official Playwright-powered browser control for agent workflows."
-github_stars: 32897
+github_stars: 32939
 verification: "security_reviewed"
 source: "https://github.com/microsoft/playwright-mcp"
 author: "Microsoft"
@@ -11,9 +11,9 @@ category: "Browser Automation"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "microsoft/playwright-mcp"
-  github_stars: 32897
+  github_stars: 32939
   npm_package: "@playwright/mcp"
-  npm_weekly_downloads: 2928454
+  npm_weekly_downloads: 3089534
 ---
 
 # Playwright MCP Browser Automation
