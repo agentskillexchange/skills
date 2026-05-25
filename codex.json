@@ -2,8 +2,17 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-05-25",
-  "total": 2508,
+  "total": 2509,
   "skills": [
+    {
+      "slug": "prepare-meetings-and-follow-ups-from-local-work-memory-with-rowboat",
+      "name": "Prepare meetings and follow-ups from local work memory with Rowboat",
+      "title": "Prepare meetings and follow-ups from local work memory with Rowboat",
+      "description": "Use Rowboat to build local work memory from email, calendar, notes, and web context, then generate meeting briefs, follow-ups, docs, and decks.",
+      "category": "Calendar, Email & Productivity",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
     {
       "slug": "control-a-real-browser-from-mcp-clients-with-browser-mcp",
       "name": "Control a real browser from MCP clients with Browser MCP",

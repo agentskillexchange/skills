@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2508 published skills** across **17 categories** · 2,157 security reviewed · Updated 2026-05-25 13:27 UTC
+> **2509 published skills** across **17 categories** · 2,157 security reviewed · Updated 2026-05-25 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1641,7 +1641,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Published | — | — |
 
 
-### 📅 Calendar, Email & Productivity (122 skills)
+### 📅 Calendar, Email & Productivity (123 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -1669,6 +1669,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [ActivityWatch Cross-Platform Automated Time Tracker and Productivity Analyzer](skills/activitywatch-automated-time-tracker/) | ActivityWatch is a privacy-first, open-source automated time tracker that records application usage, browser… | Security Reviewed | 17.2k | — |
 | [MailHog SMTP Testing Server with Web UI and API](skills/mailhog-smtp-testing-server-with-web-ui-and-api/) | Uses MailHog to capture outbound email in development and test environments through a local SMTP server, browser UI,… | Security Reviewed | 15.9k | — |
 | [OpenProject Open Source Project Management Platform](skills/openproject-open-source-project-management-platform/) | OpenProject is a mature open source project management platform for work packages, roadmaps, timelines, and… | Security Reviewed | 14.8k | — |
+| [Prepare meetings and follow-ups from local work memory with Rowboat](skills/prepare-meetings-and-follow-ups-from-local-work-memory-with-rowboat/) | Use Rowboat to build local work memory from email, calendar, notes, and web context, then generate meeting briefs,… | Published | 14.3k | — |
 | [Documenso Open Source Document Signing Platform](skills/documenso-open-source-document-signing/) | Documenso is an open-source digital document signing platform and DocuSign alternative. It enables secure electronic… | Security Reviewed | 12.6k | — |
 | [Stalwart All-in-One Mail and Collaboration Server](skills/stalwart-mail-collaboration-server/) | Stalwart is an open-source mail and collaboration server written in Rust that provides JMAP, IMAP4, POP3, SMTP,… | Security Reviewed | 12.2k | — |
 | [Planka Self-Hosted Kanban Board for Project Management](skills/planka-self-hosted-kanban-board-project-management/) | Planka is an elegant, self-hosted Kanban-style project management tool and open-source Trello alternative. With… | Security Reviewed | 11.8k | — |

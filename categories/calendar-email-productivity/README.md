@@ -62,6 +62,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [ActivityWatch Cross-Platform Automated Time Tracker and Productivity Analyzer](../../skills/activitywatch-automated-time-tracker/) | 17.2k | — |
 | [MailHog SMTP Testing Server with Web UI and API](../../skills/mailhog-smtp-testing-server-with-web-ui-and-api/) | 15.9k | — |
 | [OpenProject Open Source Project Management Platform](../../skills/openproject-open-source-project-management-platform/) | 14.8k | — |
+| [Prepare meetings and follow-ups from local work memory with Rowboat](../../skills/prepare-meetings-and-follow-ups-from-local-work-memory-with-rowboat/) | 14.3k | — |
 | [Documenso Open Source Document Signing Platform](../../skills/documenso-open-source-document-signing/) | 12.6k | — |
 | [Stalwart All-in-One Mail and Collaboration Server](../../skills/stalwart-mail-collaboration-server/) | 12.2k | — |
 | [Planka Self-Hosted Kanban Board for Project Management](../../skills/planka-self-hosted-kanban-board-project-management/) | 11.8k | — |

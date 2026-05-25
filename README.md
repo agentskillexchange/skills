@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C508-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-2%2C509-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C157-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,508 published skills · 17 categories · Real ecosystem signals · Updated daily*
+*2,509 published skills · 17 categories · Real ecosystem signals · Updated daily*
 
 </div>
 
@@ -84,14 +84,14 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Run multi-harness coding-agent workflows with Oh My OpenAgent](skills/run-multi-harness-coding-agent-workflows-with-oh-my-openagent/) | run-multi-harness-coding-agent-workflows-with-oh-my-openagent | 58.9k | Developer Tools |
 | [Give coding agents persistent project memory with AgentMemory](skills/give-coding-agents-persistent-project-memory-with-agentmemory/) | give-coding-agents-persistent-project-memory-with-agentmemory | 17.2k | Developer Tools |
 | [Connect Azure DevOps projects, work items, repos, and pipelines to MCP agents](skills/connect-azure-devops-projects-work-items-repos-and-pipelines-to-mcp-agents/) | connect-azure-devops-projects-work-items-repos-and-pipelines-to-mcp-agents | 1.7k | Integrations & Connectors |
-| [Trace and evaluate agent runs with Phoenix](skills/trace-and-evaluate-agent-runs-with-phoenix/) | trace-and-evaluate-agent-runs-with-phoenix | 9.8k | Monitoring & Alerts |
 | [Operate Kubernetes and OpenShift clusters through MCP](skills/operate-kubernetes-and-openshift-clusters-through-mcp/) | operate-kubernetes-and-openshift-clusters-through-mcp | 1.6k | Runbooks & Diagnostics |
+| [Trace and evaluate agent runs with Phoenix](skills/trace-and-evaluate-agent-runs-with-phoenix/) | trace-and-evaluate-agent-runs-with-phoenix | 9.8k | Monitoring & Alerts |
 | [Inspect live web apps and apply code changes with Stagewise](skills/inspect-live-web-apps-and-apply-code-changes-with-stagewise/) | inspect-live-web-apps-and-apply-code-changes-with-stagewise | 6.7k | Templates & Workflows |
 | [Format and lint TOML configuration with Tombi](skills/format-and-lint-toml-configuration-with-tombi/) | format-and-lint-toml-configuration-with-tombi | 937 | Code Quality & Review |
 | [Control a real browser from MCP clients with Browser MCP](skills/control-a-real-browser-from-mcp-clients-with-browser-mcp/) | control-a-real-browser-from-mcp-clients-with-browser-mcp | 6.6k | Browser Automation |
 | [Control authenticated Chrome sessions through MCP with OpenChrome](skills/control-authenticated-chrome-sessions-through-mcp-with-openchrome/) | control-authenticated-chrome-sessions-through-mcp-with-openchrome | 206 | Browser Automation |
 | [Run Kubernetes cluster operations through MCP](skills/run-kubernetes-cluster-operations-through-mcp/) | run-kubernetes-cluster-operations-through-mcp | 1.4k | Runbooks & Diagnostics |
-| [Run long-horizon spec-driven coding agent workflows with GSD 2](skills/run-long-horizon-spec-driven-coding-agent-workflows-with-gsd-2/) | run-long-horizon-spec-driven-coding-agent-workflows-with-gsd-2 | 7.3k | Templates & Workflows |
+| [Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/) | find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe | 116.8k | Templates & Workflows |
 
 ---
 
@@ -107,7 +107,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 171 | Incident response, troubleshooting, system diagnostics |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 165 | Scaffolders, boilerplate generators, workflow templates |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 132 | Metrics, alerting rules, observability |
-| 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 122 | Email automation, calendar management, task coordination |
+| 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 123 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 122 | SDK docs, API parsers, symbol resolvers |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 120 | Third-party API bridges, webhooks, service connectors |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 108 | Web scraping, UI testing, headless browser control |
@@ -177,7 +177,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,508 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,509 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,157 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

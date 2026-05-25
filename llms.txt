@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-05-25
-# Total: 2508 skills
+# Total: 2509 skills
+
+## Prepare meetings and follow-ups from local work memory with Rowboat
+slug: prepare-meetings-and-follow-ups-from-local-work-memory-with-rowboat
+category: Calendar, Email & Productivity
+framework: Multi-Framework
+verification: Published
+description: Use Rowboat to build local work memory from email, calendar, notes, and web context, then generate meeting briefs, follow-ups, docs, and decks.
+url: https://agentskillexchange.com/skills/prepare-meetings-and-follow-ups-from-local-work-memory-with-rowboat/
 
 ## Control a real browser from MCP clients with Browser MCP
 slug: control-a-real-browser-from-mcp-clients-with-browser-mcp
