@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-05-25
-# Total: 2507 skills
+# Total: 2508 skills
+
+## Control a real browser from MCP clients with Browser MCP
+slug: control-a-real-browser-from-mcp-clients-with-browser-mcp
+category: Browser Automation
+framework: MCP
+verification: Published
+description: Use Browser MCP to let an MCP-capable agent drive a user's browser session for inspection, navigation, form work, and browser-state-aware automation.
+url: https://agentskillexchange.com/skills/control-a-real-browser-from-mcp-clients-with-browser-mcp/
 
 ## Run Kubernetes cluster operations through MCP
 slug: run-kubernetes-cluster-operations-through-mcp

@@ -99,7 +99,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Cloudflare MCP Servers for Workers, Security, and Observability](../../skills/cloudflare-mcp-servers-workers-security-observability/) | 3.6k | — |
 | [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | 3.4k | — |
 | [Svix Enterprise Webhook Delivery Service](../../skills/svix-enterprise-webhook-delivery-service/) | 3.2k | — |
-| [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | 3.1k | 65.9k/wk |
+| [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | 3.1k | 66.7k/wk |
 | [SendGrid Transactional Email Builder](../../skills/sendgrid-transactional-email-builder/) | 3k | 3.6M/wk |
 | [SendGrid Transactional Email Router](../../skills/sendgrid-transactional-email-router/) | 3k | 3.6M/wk |
 | [n8n-nodes-mcp Community Node for Model Context Protocol Workflows](../../skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows/) | 3k | 45.9k/wk |

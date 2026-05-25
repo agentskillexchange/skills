@@ -2,8 +2,17 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-05-25",
-  "total": 2507,
+  "total": 2508,
   "skills": [
+    {
+      "slug": "control-a-real-browser-from-mcp-clients-with-browser-mcp",
+      "name": "Control a real browser from MCP clients with Browser MCP",
+      "title": "Control a real browser from MCP clients with Browser MCP",
+      "description": "Use Browser MCP to let an MCP-capable agent drive a user's browser session for inspection, navigation, form work, and browser-state-aware automation.",
+      "category": "Browser Automation",
+      "framework": "MCP",
+      "verification": "listed"
+    },
     {
       "slug": "run-kubernetes-cluster-operations-through-mcp",
       "name": "Run Kubernetes cluster operations through MCP",

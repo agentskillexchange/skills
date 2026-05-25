@@ -53,7 +53,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Puppeteer Web Scraping Pipeline](../../skills/puppeteer-web-scraping-pipeline/) | 94.1k | 40.2M/wk |
 | [Puppeteer Stealth Scraper](../../skills/puppeteer-stealth-scraper-agent/) | 94.1k | 36.4M/wk |
 | [Puppeteer Browser Automation Library for Chrome and Firefox](../../skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | 94k | 40.2M/wk |
-| [Agent Browser Operator](../../skills/agent-browser-operator/) | 89.3k | 53.8M/wk |
+| [Agent Browser Operator](../../skills/agent-browser-operator/) | 89.4k | 53.7M/wk |
 | [Browser Use Web Agent Automation](../../skills/browser-use-web-agent-automation/) | 87.7k | — |
 | [Browser Use Agentic Browser Control](../../skills/browser-use-agentic-browser-control/) | 87.3k | — |
 | [Playwright Accessibility Audit Runner](../../skills/playwright-accessibility-audit-runner/) | 86.4k | 47.9M/wk |
@@ -94,7 +94,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Selenium Grid Session Router](../../skills/selenium-grid-session-router/) | 34.1k | 1.9M/wk |
 | [Selenium Grid Test Orchestrator](../../skills/selenium-grid-test-orchestrator-2/) | 34.1k | 1.9M/wk |
 | [Selenium WebDriver Browser Automation Framework](../../skills/selenium-webdriver-browser-automation-framework/) | 34.1k | — |
-| [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | 32.9k | 3.1M/wk |
+| [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | 33k | 3M/wk |
 | [Microsoft Playwright MCP](../../skills/microsoft-playwright-mcp/) | 30.8k | 2.8M/wk |
 | [Playwright MCP Server for Browser Automation](../../skills/playwright-mcp-server-browser-automation/) | 30.1k | 2.4M/wk |
 | [Vercel Agent Browser](../../skills/vercel-agent-browser/) | 29.1k | 601.9k/wk |
@@ -126,6 +126,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Camoufox Open Source Anti-Detect Browser for Python Automation](../../skills/camoufox-antidetect-browser-python/) | 7.1k | — |
 | [Rod Go Chrome DevTools Protocol Driver for Web Automation](../../skills/rod-go-cdp-browser-automation/) | 6.8k | — |
 | [Steel Browser Open Source API for AI Agent Web Automation](../../skills/steel-browser-api-ai-agent-web-automation/) | 6.8k | — |
+| [Control a real browser from MCP clients with Browser MCP](../../skills/control-a-real-browser-from-mcp-clients-with-browser-mcp/) | 6.6k | 29.8k/wk |
 | [Run browser and API automation through the Playwright MCP server](../../skills/run-browser-and-api-automation-through-the-playwright-mcp-server/) | 5.5k | — |
 | [Pa11y Accessibility Testing CLI and CI](../../skills/pa11y-accessibility-testing-cli-and-ci/) | 4.4k | 221.7k/wk |
 | [Extract data and complete workflows in your real logged-in browser](../../skills/extract-data-and-complete-workflows-in-your-real-logged-in-browser/) | 4.4k | — |

@@ -6,12 +6,12 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 
 | Skill | Stars |
 |---|---:|
-| [Kubernetes Troubleshooting Runbook](../../skills/k8s-troubleshooting-runbook/) | ⭐ 122.4k |
+| [Kubernetes Troubleshooting Runbook](../../skills/k8s-troubleshooting-runbook/) | ⭐ 122.5k |
 | [Kubernetes Event Stream Analyzer](../../skills/kubernetes-event-stream-analyzer/) | ⭐ 121.7k |
 | [Uptime Kuma Status Sync](../../skills/uptime-kuma-status-sync/) | ⭐ 85.6k |
 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](../../skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | ⭐ 85.1k |
 | [Netdata Real-Time Infrastructure Monitoring and Alerting](../../skills/netdata-real-time-infrastructure-monitoring-and-alerting/) | ⭐ 78.4k |
-| [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | ⭐ 76.7k |
+| [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | ⭐ 76.8k |
 | [ElasticSearch Cluster Vitals Agent](../../skills/elasticsearch-cluster-vitals-agent/) | ⭐ 76.5k |
 | [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | ⭐ 74k |
 | [Grafana Alert Router](../../skills/grafana-alert-router/) | ⭐ 73.2k |
@@ -32,7 +32,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | ⬇ 3.3k/wk |
 | [Simulate agent scenarios, trace failures, and watch production regressions with LangWatch](../../skills/simulate-agent-scenarios-trace-failures-and-watch-production-regressions-with-langwatch/) | ⬇ 54.7k/wk |
 | [Track coding-agent token spend and leaderboard drift across local session logs with Tokscale](../../skills/track-coding-agent-token-spend-and-leaderboard-drift-with-tokscale/) | ⬇ 64.6k/wk |
-| [Datadog MCP Server](../../skills/datadog-mcp-server/) | ⬇ 7.5M/wk |
+| [Datadog MCP Server](../../skills/datadog-mcp-server/) | ⬇ 7.6M/wk |
 
 ---
 
@@ -40,12 +40,12 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [Kubernetes Troubleshooting Runbook](../../skills/k8s-troubleshooting-runbook/) | 122.4k | — |
+| [Kubernetes Troubleshooting Runbook](../../skills/k8s-troubleshooting-runbook/) | 122.5k | — |
 | [Kubernetes Event Stream Analyzer](../../skills/kubernetes-event-stream-analyzer/) | 121.7k | — |
 | [Uptime Kuma Status Sync](../../skills/uptime-kuma-status-sync/) | 85.6k | — |
 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](../../skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | 85.1k | 97/wk |
 | [Netdata Real-Time Infrastructure Monitoring and Alerting](../../skills/netdata-real-time-infrastructure-monitoring-and-alerting/) | 78.4k | — |
-| [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | 76.7k | — |
+| [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | 76.8k | — |
 | [ElasticSearch Cluster Vitals Agent](../../skills/elasticsearch-cluster-vitals-agent/) | 76.5k | — |
 | [Prometheus / Grafana MCP Server](../../skills/prometheus-grafana-mcp-server/) | 74k | — |
 | [Grafana Alert Router](../../skills/grafana-alert-router/) | 73.2k | — |
@@ -128,7 +128,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Lint and auto-format Markdown documentation before agents ship content with rumdl](../../skills/lint-and-auto-format-markdown-documentation-before-agents-ship-content-with-rumdl/) | 1.1k | — |
 | [Lint and validate Prometheus alerting rules before noisy or broken alerts reach production with Pint](../../skills/lint-and-validate-prometheus-alerting-rules-before-noisy-or-broken-alerts-reach-production-with-pint/) | 1k | — |
 | [LangSmith SDK for LLM Tracing and Evaluation](../../skills/langsmith-sdk-for-llm-tracing-and-evaluation/) | 843 | — |
-| [Datadog MCP Server](../../skills/datadog-mcp-server/) | 810 | 7.5M/wk |
+| [Datadog MCP Server](../../skills/datadog-mcp-server/) | 810 | 7.6M/wk |
 | [Datadog Anomaly Alert Router](../../skills/datadog-anomaly-alert-router/) | 791 | 6.6M/wk |
 | [Datadog Anomaly Detection Agent](../../skills/datadog-anomaly-detection-agent-2/) | 791 | 6.6M/wk |
 | [Datadog Anomaly Detector](../../skills/datadog-anomaly-detector/) | 791 | 6.6M/wk |
@@ -143,7 +143,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Datadog Monitor Sync](../../skills/datadog-monitor-sync/) | 791 | 6.6M/wk |
 | [Datadog Monitors Skill](../../skills/datadog-monitors-skill/) | 791 | 6.6M/wk |
 | [Datadog SLO Monitor](../../skills/datadog-slo-monitor/) | 791 | 6.6M/wk |
-| [Sentry MCP Server](../../skills/sentry-mcp-server/) | 699 | 90.7k/wk |
+| [Sentry MCP Server](../../skills/sentry-mcp-server/) | 704 | 92.3k/wk |
 | [Sentry MCP Server for Error Tracking and Performance](../../skills/sentry-mcp-server-error-tracking-performance/) | 615 | 49.6k/wk |
 | [Track coding-agent quota burn and remaining headroom across providers with onWatch](../../skills/track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch/) | 580 | — |
 | [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | 531 | 4.8M/wk |
