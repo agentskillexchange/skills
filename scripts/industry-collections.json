@@ -18,7 +18,103 @@
         "deepgram-realtime-transcription-connector",
         "assemblyai-summarization-chapters-skill",
         "self-host-an-openai-compatible-speech-api-for-local-transcription-translation-and-tts-with-speaches"
-      ]
+      ],
+      "who_for": [
+        "Podcast, video, course, and newsroom teams that need repeatable post-production handoffs.",
+        "Operations leads who want transcripts, subtitles, chapters, and loudness checks before content ships."
+      ],
+      "jobs_covered": [
+        "Transcribe long-form audio and video into reviewable text.",
+        "Align subtitles and narration timing after edits.",
+        "Normalize audio loudness and prepare publishing metadata.",
+        "Create searchable media archives for downstream agents."
+      ],
+      "workflow_stacks": [
+        {
+          "name": "Podcast release packet",
+          "steps": [
+            "Transcribe",
+            "chapter",
+            "summarize",
+            "normalize loudness",
+            "publish feed notes"
+          ]
+        },
+        {
+          "name": "Subtitle repair",
+          "steps": [
+            "Extract transcript",
+            "force-align timing",
+            "sync drift",
+            "export captions"
+          ]
+        }
+      ],
+      "editorial_notes": [
+        "Prioritize tools that create durable artifacts an editor can inspect.",
+        "Keep fully automated publishing behind human review for final titles, clips, and claims."
+      ],
+      "adjacent_collections": [
+        "devrel-api-documentation",
+        "customer-support-success"
+      ],
+      "skill_meta": {
+        "podcast-rss-feed-transcriber": {
+          "why_here": "Provides a practical media & publishing systems step for Transcription, subtitles, podcast workflows, chaptering, localization, loudness cleanup, and final-mile publishing prep.",
+          "persona": "Content ops / media producer",
+          "install_complexity": "Low"
+        },
+        "realign-drifting-subtitles-against-finished-video-audio": {
+          "why_here": "Adds a practitioner-ready option for media & publishing systems workflows without turning the collection into a generic catalog.",
+          "persona": "Content ops / media producer",
+          "install_complexity": "Medium"
+        },
+        "force-align-narration-and-transcript-text-into-subtitle-or-smil-timing-maps": {
+          "why_here": "Adds a practitioner-ready option for media & publishing systems workflows without turning the collection into a generic catalog.",
+          "persona": "Content ops / media producer",
+          "install_complexity": "Medium"
+        },
+        "ffsubsync-subtitle-synchronization-tool": {
+          "why_here": "Provides a practical media & publishing systems step for Transcription, subtitles, podcast workflows, chaptering, localization, loudness cleanup, and final-mile publishing prep.",
+          "persona": "Content ops / media producer",
+          "install_complexity": "Low"
+        },
+        "normalize-loudness-across-podcast-lesson-or-video-batches-before-publishing": {
+          "why_here": "Provides a practical media & publishing systems step for Transcription, subtitles, podcast workflows, chaptering, localization, loudness cleanup, and final-mile publishing prep.",
+          "persona": "Content ops / media producer",
+          "install_complexity": "Low"
+        },
+        "whisperx-speech-recognition-timestamps-diarization": {
+          "why_here": "Adds a practitioner-ready option for media & publishing systems workflows without turning the collection into a generic catalog.",
+          "persona": "Content ops / media producer",
+          "install_complexity": "High"
+        },
+        "capture-youtube-transcripts-without-browser-automation-using-youtube-transcript-api": {
+          "why_here": "Adds a practitioner-ready option for media & publishing systems workflows without turning the collection into a generic catalog.",
+          "persona": "Content ops / media producer",
+          "install_complexity": "Low"
+        },
+        "faster-whisper-high-performance-speech-transcription": {
+          "why_here": "Adds a practitioner-ready option for media & publishing systems workflows without turning the collection into a generic catalog.",
+          "persona": "Content ops / media producer",
+          "install_complexity": "Medium"
+        },
+        "deepgram-realtime-transcription-connector": {
+          "why_here": "Adds a practitioner-ready option for media & publishing systems workflows without turning the collection into a generic catalog.",
+          "persona": "Content ops / media producer",
+          "install_complexity": "Medium"
+        },
+        "assemblyai-summarization-chapters-skill": {
+          "why_here": "Adds a practitioner-ready option for media & publishing systems workflows without turning the collection into a generic catalog.",
+          "persona": "Content ops / media producer",
+          "install_complexity": "Medium"
+        },
+        "self-host-an-openai-compatible-speech-api-for-local-transcription-translation-and-tts-with-speaches": {
+          "why_here": "Adds a practitioner-ready option for media & publishing systems workflows without turning the collection into a generic catalog.",
+          "persona": "Content ops / media producer",
+          "install_complexity": "High"
+        }
+      }
     },
     {
       "slug": "finance-filings",
@@ -29,15 +125,147 @@
       "skill_slugs": [
         "sec-edgar-financial-filing-parser",
         "extract-invoice-fields-from-vendor-pdfs-into-structured-records",
-        "ghostfolio-wealth-management-portfolio-tracking",
+        "quickbooks-invoice-reconciliation",
         "openmeter-usage-metering-and-billing-platform",
         "stripe-reporting-agent",
         "stripe-revenue-reconciliation-agent",
-        "stripe-revenue-analytics-dashboard",
-        "stripe-mcp-server",
-        "stripe-webhook-signature-verifier",
-        "quickbooks-invoice-reconciliation"
-      ]
+        "ghostfolio-wealth-management-portfolio-tracking",
+        "pdfplumber-python-pdf-text-table-extraction",
+        "tabula-pdf-table-extractor",
+        "turn-messy-document-collections-into-structured-rows-with-docetl",
+        "duckdb-sql-analytics-agent",
+        "trdsql-sql-query-engine-csv-json-yaml-files",
+        "profile-and-clean-large-csv-datasets-from-the-terminal-with-qsv",
+        "compare-recurring-csv-tsv-or-json-exports-and-emit-row-level-change-sets-before-syncs",
+        "apache-superset-dashboard-sql-exploration-skill"
+      ],
+      "who_for": [
+        "Finance operators, founders, RevOps teams, and analysts who need evidence-backed filings, invoice, billing, and reconciliation workflows.",
+        "Teams that receive messy PDFs, CSV exports, payment processor data, or portfolio records and need repeatable extraction before analysis."
+      ],
+      "jobs_covered": [
+        "Pull SEC filing data and source documents for review packets.",
+        "Extract invoice fields and PDF tables into structured records.",
+        "Reconcile payments, invoices, subscriptions, and usage-metered revenue.",
+        "Profile CSV exports before loading them into spreadsheets, warehouses, or dashboards.",
+        "Build finance-facing reports without inventing a full data platform first."
+      ],
+      "workflow_stacks": [
+        {
+          "name": "Invoice intake to review",
+          "steps": [
+            "OCR or parse vendor PDFs",
+            "extract invoice fields",
+            "diff recurring exports",
+            "send exceptions to accounting"
+          ]
+        },
+        {
+          "name": "Usage billing operations",
+          "steps": [
+            "Meter product usage",
+            "map usage to customers",
+            "reconcile Stripe revenue",
+            "publish finance dashboard"
+          ]
+        },
+        {
+          "name": "Filing research packet",
+          "steps": [
+            "Collect EDGAR filings",
+            "extract tables",
+            "query local CSV/JSON/PDF outputs",
+            "summarize with source links"
+          ]
+        }
+      ],
+      "editorial_notes": [
+        "The collection is intentionally not a Stripe shelf: Stripe appears only where it represents a differentiated reporting or reconciliation workflow.",
+        "Listed-but-domain-specific picks remain when there is no stronger security-reviewed substitute for the finance job, especially EDGAR and QuickBooks workflows.",
+        "Prefer tools that leave auditable intermediate files over black-box financial advice or autonomous money movement."
+      ],
+      "adjacent_collections": [
+        "legal-ops-compliance",
+        "product-analytics-growth-ops",
+        "ecommerce-retail-operations"
+      ],
+      "skill_meta": {
+        "sec-edgar-financial-filing-parser": {
+          "why_here": "Anchors filing research with EDGAR search, company filing APIs, and XBRL-oriented extraction.",
+          "persona": "Analyst / finance researcher",
+          "install_complexity": "Medium"
+        },
+        "extract-invoice-fields-from-vendor-pdfs-into-structured-records": {
+          "why_here": "Turns recurring vendor invoices into structured records before approval, coding, or reconciliation.",
+          "persona": "AP ops / finance analyst",
+          "install_complexity": "Medium"
+        },
+        "quickbooks-invoice-reconciliation": {
+          "why_here": "Connects invoice state to accounting-system reconciliation instead of stopping at document extraction.",
+          "persona": "Bookkeeper / finance ops",
+          "install_complexity": "High"
+        },
+        "openmeter-usage-metering-and-billing-platform": {
+          "why_here": "Covers usage metering and entitlement data needed before usage-based billing can be trusted.",
+          "persona": "RevOps / billing engineer",
+          "install_complexity": "High"
+        },
+        "stripe-reporting-agent": {
+          "why_here": "Keeps Stripe coverage focused on operational reporting rather than generic payment API access.",
+          "persona": "RevOps / finance analyst",
+          "install_complexity": "Medium"
+        },
+        "stripe-revenue-reconciliation-agent": {
+          "why_here": "Pulls charges, refunds, disputes, and payouts into a reconciliation workflow with finance-facing evidence.",
+          "persona": "Revenue accountant / RevOps",
+          "install_complexity": "Medium"
+        },
+        "ghostfolio-wealth-management-portfolio-tracking": {
+          "why_here": "Adds portfolio tracking for investment and asset reporting workflows beyond payments and invoices.",
+          "persona": "Portfolio operator / finance analyst",
+          "install_complexity": "High"
+        },
+        "pdfplumber-python-pdf-text-table-extraction": {
+          "why_here": "Extracts tables and layout-aware text from financial PDFs that are not invoice-shaped.",
+          "persona": "Analyst / data wrangler",
+          "install_complexity": "Medium"
+        },
+        "tabula-pdf-table-extractor": {
+          "why_here": "Gives teams a focused table-extraction path for statements, filings, and PDF schedules.",
+          "persona": "Analyst / reporting ops",
+          "install_complexity": "Medium"
+        },
+        "turn-messy-document-collections-into-structured-rows-with-docetl": {
+          "why_here": "Moves document-heavy finance work from one-off prompts into repeatable extraction pipelines.",
+          "persona": "Data analyst / ops engineer",
+          "install_complexity": "High"
+        },
+        "duckdb-sql-analytics-agent": {
+          "why_here": "Lets analysts query local CSV, Parquet, and JSON exports quickly without standing up a warehouse.",
+          "persona": "Finance analyst / analytics engineer",
+          "install_complexity": "Low"
+        },
+        "trdsql-sql-query-engine-csv-json-yaml-files": {
+          "why_here": "Supports quick SQL checks over exported files when reconciliation questions start as CSV or JSON.",
+          "persona": "Ops analyst / data wrangler",
+          "install_complexity": "Low"
+        },
+        "profile-and-clean-large-csv-datasets-from-the-terminal-with-qsv": {
+          "why_here": "Profiles and cleans large exports before spreadsheet review or warehouse load.",
+          "persona": "Finance analyst / data ops",
+          "install_complexity": "Low"
+        },
+        "compare-recurring-csv-tsv-or-json-exports-and-emit-row-level-change-sets-before-syncs": {
+          "why_here": "Explains row-level differences between recurring exports, which is core to reconciliation review.",
+          "persona": "Finance ops / QA analyst",
+          "install_complexity": "Low"
+        },
+        "apache-superset-dashboard-sql-exploration-skill": {
+          "why_here": "Turns cleaned finance datasets into shareable dashboards and SQL-backed reporting views.",
+          "persona": "Analytics engineer / finance lead",
+          "install_complexity": "High"
+        }
+      }
     },
     {
       "slug": "ecommerce-retail-operations",
@@ -57,7 +285,106 @@
         "stripe-connect-account-provisioner",
         "bubble-stripe-subscription-portal",
         "cheerio-product-price-tracker"
-      ]
+      ],
+      "who_for": [
+        "Store operators, marketplace teams, and ecommerce engineers managing catalog, order, inventory, and payment workflows.",
+        "Teams that need agents to inspect commerce data without treating the storefront UI as the system of record."
+      ],
+      "jobs_covered": [
+        "Sync product, customer, order, and inventory data.",
+        "Inspect webhooks and payment events around store operations.",
+        "Provision marketplace or subscription payment flows.",
+        "Track prices and operational signals across storefronts."
+      ],
+      "workflow_stacks": [
+        {
+          "name": "Catalog and order ops",
+          "steps": [
+            "Sync catalog",
+            "review inventory deltas",
+            "inspect order payloads",
+            "escalate exceptions"
+          ]
+        },
+        {
+          "name": "Marketplace payments",
+          "steps": [
+            "Provision connected accounts",
+            "verify checkout flow",
+            "inspect webhooks",
+            "reconcile payouts"
+          ]
+        }
+      ],
+      "editorial_notes": [
+        "This collection stays focused on operating stores and marketplaces, not generic web scraping or content generation.",
+        "Stripe is currently exempted because marketplace, checkout, Connect, and subscription flows are distinct ecommerce jobs; revisit as non-Stripe commerce billing skills mature."
+      ],
+      "adjacent_collections": [
+        "finance-filings",
+        "customer-support-success",
+        "product-analytics-growth-ops"
+      ],
+      "family_exemptions": {
+        "stripe": "Ecommerce needs separate Stripe coverage for marketplace, checkout, Connect provisioning, and subscription portal workflows until equivalent non-Stripe picks exist."
+      },
+      "skill_meta": {
+        "saleor-open-source-headless-commerce-graphql-api": {
+          "why_here": "Adds a practitioner-ready option for ecommerce & retail operations workflows without turning the collection into a generic catalog.",
+          "persona": "Commerce ops / platform engineer",
+          "install_complexity": "High"
+        },
+        "medusa-commerce-api-store-operations-automation-skill": {
+          "why_here": "Adds a practitioner-ready option for ecommerce & retail operations workflows without turning the collection into a generic catalog.",
+          "persona": "Commerce ops / platform engineer",
+          "install_complexity": "High"
+        },
+        "shopify-admin-graphql-sync-agent": {
+          "why_here": "Provides a practical ecommerce & retail operations step for Catalog management, storefront automation, orders, inventory sync, marketplace support, and review-driven merchandising.",
+          "persona": "Commerce ops / platform engineer",
+          "install_complexity": "High"
+        },
+        "woocommerce-rest-inventory-sync": {
+          "why_here": "Provides a practical ecommerce & retail operations step for Catalog management, storefront automation, orders, inventory sync, marketplace support, and review-driven merchandising.",
+          "persona": "Commerce ops / platform engineer",
+          "install_complexity": "High"
+        },
+        "stripe-connect-marketplace-sync": {
+          "why_here": "Provides a practical ecommerce & retail operations step for Catalog management, storefront automation, orders, inventory sync, marketplace support, and review-driven merchandising.",
+          "persona": "Commerce ops / platform engineer",
+          "install_complexity": "High"
+        },
+        "woocommerce-webhook-delivery-inspector": {
+          "why_here": "Adds a practitioner-ready option for ecommerce & retail operations workflows without turning the collection into a generic catalog.",
+          "persona": "Commerce ops / platform engineer",
+          "install_complexity": "High"
+        },
+        "run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp": {
+          "why_here": "Adds a practitioner-ready option for ecommerce & retail operations workflows without turning the collection into a generic catalog.",
+          "persona": "Commerce ops / platform engineer",
+          "install_complexity": "High"
+        },
+        "stripe-payment-flow-connector": {
+          "why_here": "Adds a practitioner-ready option for ecommerce & retail operations workflows without turning the collection into a generic catalog.",
+          "persona": "Commerce ops / platform engineer",
+          "install_complexity": "Medium"
+        },
+        "stripe-connect-account-provisioner": {
+          "why_here": "Adds a practitioner-ready option for ecommerce & retail operations workflows without turning the collection into a generic catalog.",
+          "persona": "Commerce ops / platform engineer",
+          "install_complexity": "Medium"
+        },
+        "bubble-stripe-subscription-portal": {
+          "why_here": "Adds a practitioner-ready option for ecommerce & retail operations workflows without turning the collection into a generic catalog.",
+          "persona": "Commerce ops / platform engineer",
+          "install_complexity": "Medium"
+        },
+        "cheerio-product-price-tracker": {
+          "why_here": "Adds a practitioner-ready option for ecommerce & retail operations workflows without turning the collection into a generic catalog.",
+          "persona": "Commerce ops / platform engineer",
+          "install_complexity": "Medium"
+        }
+      }
     },
     {
       "slug": "legal-ops-compliance",
@@ -87,7 +414,154 @@
         "extract-structured-data-and-attachments-from-raw-email-mailparser",
         "strip-quoted-email-history-and-signatures-before-summarizing-inbound-replies",
         "load-mbox-mail-archives-into-sqlite-for-offline-search-audits-and-dataset-joins"
-      ]
+      ],
+      "who_for": [
+        "Legal operations, compliance, and records teams that need document intake, review, redaction, and archive workflows.",
+        "Teams preparing evidence packets where provenance and review boundaries matter."
+      ],
+      "jobs_covered": [
+        "Convert scanned PDFs and office files into searchable text.",
+        "Extract clauses, tables, attachments, and metadata from mixed records.",
+        "Redact sensitive data before sharing or indexing.",
+        "Search large archives before manual review."
+      ],
+      "workflow_stacks": [
+        {
+          "name": "Document review packet",
+          "steps": [
+            "OCR",
+            "extract text and tables",
+            "redact PII",
+            "search archive",
+            "export review notes"
+          ]
+        },
+        {
+          "name": "Signing and forms",
+          "steps": [
+            "Prepare PDF forms",
+            "route signature",
+            "store final packet",
+            "index metadata"
+          ]
+        }
+      ],
+      "editorial_notes": [
+        "The collection avoids legal-advice framing; these are intake, evidence, and operations tools.",
+        "Document-centric entries are favored over general security scanners unless they support compliance evidence work directly."
+      ],
+      "adjacent_collections": [
+        "finance-filings",
+        "healthcare-documentation-intake",
+        "real-estate-workflows"
+      ],
+      "skill_meta": {
+        "documenso-open-source-document-signing": {
+          "why_here": "Provides a practical legal ops & compliance step for Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support.",
+          "persona": "Legal ops / compliance analyst",
+          "install_complexity": "High"
+        },
+        "docuseal-document-signing-pdf-forms": {
+          "why_here": "Provides a practical legal ops & compliance step for Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support.",
+          "persona": "Legal ops / compliance analyst",
+          "install_complexity": "High"
+        },
+        "ocrmypdf-searchable-pdf-ocr-pipeline": {
+          "why_here": "Provides a practical legal ops & compliance step for Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support.",
+          "persona": "Legal ops / compliance analyst",
+          "install_complexity": "High"
+        },
+        "apache-tika-document-extractor": {
+          "why_here": "Provides a practical legal ops & compliance step for Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support.",
+          "persona": "Legal ops / compliance analyst",
+          "install_complexity": "Low"
+        },
+        "apache-tika-document-parser": {
+          "why_here": "Provides a practical legal ops & compliance step for Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support.",
+          "persona": "Legal ops / compliance analyst",
+          "install_complexity": "Low"
+        },
+        "pdfplumber-python-pdf-text-table-extraction": {
+          "why_here": "Provides a practical legal ops & compliance step for Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support.",
+          "persona": "Legal ops / compliance analyst",
+          "install_complexity": "Low"
+        },
+        "parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse": {
+          "why_here": "Provides a practical legal ops & compliance step for Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support.",
+          "persona": "Legal ops / compliance analyst",
+          "install_complexity": "Low"
+        },
+        "search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review": {
+          "why_here": "Provides a practical legal ops & compliance step for Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support.",
+          "persona": "Legal ops / compliance analyst",
+          "install_complexity": "Low"
+        },
+        "paperless-ngx-document-ocr-archive-management-system": {
+          "why_here": "Provides a practical legal ops & compliance step for Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support.",
+          "persona": "Legal ops / compliance analyst",
+          "install_complexity": "High"
+        },
+        "langextract-llm-structured-text-extraction": {
+          "why_here": "Provides a practical legal ops & compliance step for Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support.",
+          "persona": "Legal ops / compliance analyst",
+          "install_complexity": "Low"
+        },
+        "redact-pii-from-text-before-sharing-or-indexing-with-scrubadub": {
+          "why_here": "Provides a practical legal ops & compliance step for Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support.",
+          "persona": "Legal ops / compliance analyst",
+          "install_complexity": "Medium"
+        },
+        "search-large-pdfs-and-read-only-the-relevant-pages-before-answering": {
+          "why_here": "Provides a practical legal ops & compliance step for Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support.",
+          "persona": "Legal ops / compliance analyst",
+          "install_complexity": "Low"
+        },
+        "process-redact-ocr-and-sign-documents-with-nutrient-agent-skill": {
+          "why_here": "Provides a practical legal ops & compliance step for Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support.",
+          "persona": "Legal ops / compliance analyst",
+          "install_complexity": "Medium"
+        },
+        "convert-dense-pdfs-into-llm-ready-text-and-page-aligned-markdown-with-olmocr": {
+          "why_here": "Provides a practical legal ops & compliance step for Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support.",
+          "persona": "Legal ops / compliance analyst",
+          "install_complexity": "Low"
+        },
+        "turn-documents-into-validated-knowledge-graphs-with-docling-graph": {
+          "why_here": "Provides a practical legal ops & compliance step for Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support.",
+          "persona": "Legal ops / compliance analyst",
+          "install_complexity": "Low"
+        },
+        "extract-structured-markdown-json-and-tagged-pdf-ready-outputs-from-pdfs-with-opendataloader-pdf": {
+          "why_here": "Provides a practical legal ops & compliance step for Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support.",
+          "persona": "Legal ops / compliance analyst",
+          "install_complexity": "Low"
+        },
+        "enrich-paperless-ngx-documents-with-ai-generated-titles-tags-and-correspondents-using-paperless-gpt": {
+          "why_here": "Adds a practitioner-ready option for legal ops & compliance workflows without turning the collection into a generic catalog.",
+          "persona": "Legal ops / compliance analyst",
+          "install_complexity": "High"
+        },
+        "capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate": {
+          "why_here": "Provides a practical legal ops & compliance step for Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support.",
+          "persona": "Legal ops / compliance analyst",
+          "install_complexity": "Medium"
+        },
+        "extract-structured-data-and-attachments-from-raw-email-mailparser": {
+          "why_here": "Provides a practical legal ops & compliance step for Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support.",
+          "persona": "Legal ops / compliance analyst",
+          "install_complexity": "Low"
+        },
+        "strip-quoted-email-history-and-signatures-before-summarizing-inbound-replies": {
+          "why_here": "Provides a practical legal ops & compliance step for Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support.",
+          "persona": "Legal ops / compliance analyst",
+          "install_complexity": "Medium"
+        },
+        "load-mbox-mail-archives-into-sqlite-for-offline-search-audits-and-dataset-joins": {
+          "why_here": "Provides a practical legal ops & compliance step for Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support.",
+          "persona": "Legal ops / compliance analyst",
+          "install_complexity": "Low"
+        }
+      }
     },
     {
       "slug": "healthcare-documentation-intake",
@@ -107,7 +581,102 @@
         "apache-tika-document-parser",
         "parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse",
         "redact-pii-from-text-before-sharing-or-indexing-with-scrubadub"
-      ]
+      ],
+      "who_for": [
+        "Healthcare operations, intake, research, and documentation teams handling paperwork-heavy non-clinical workflows.",
+        "Teams that need PHI-aware extraction and literature support with explicit human review boundaries."
+      ],
+      "jobs_covered": [
+        "Extract text and tables from intake forms and scanned records.",
+        "Transcribe documentation audio into reviewable text.",
+        "Query literature and FHIR resources for documentation support.",
+        "Redact sensitive fields before downstream sharing."
+      ],
+      "workflow_stacks": [
+        {
+          "name": "Non-clinical intake packet",
+          "steps": [
+            "OCR forms",
+            "extract structured fields",
+            "redact sensitive data",
+            "route for human review"
+          ]
+        },
+        {
+          "name": "Literature support",
+          "steps": [
+            "Search PubMed",
+            "collect citations",
+            "summarize findings",
+            "preserve source links"
+          ]
+        }
+      ],
+      "editorial_notes": [
+        "This collection is explicitly not diagnosis, treatment, or medical decision support.",
+        "Prefer documentation, intake, transcription, extraction, and review workflows with audit-friendly outputs."
+      ],
+      "adjacent_collections": [
+        "legal-ops-compliance",
+        "media-publishing-systems"
+      ],
+      "skill_meta": {
+        "pubmed-literature-mining-agent": {
+          "why_here": "Adds a practitioner-ready option for healthcare documentation & intake workflows without turning the collection into a generic catalog.",
+          "persona": "Documentation ops / intake specialist",
+          "install_complexity": "Medium"
+        },
+        "langextract-llm-structured-text-extraction": {
+          "why_here": "Provides a practical healthcare documentation & intake step for Documentation intake, OCR, transcription, structured extraction, and biomedical literature support for paperwork-heavy workflows.",
+          "persona": "Documentation ops / intake specialist",
+          "install_complexity": "Low"
+        },
+        "ocrmypdf-searchable-pdf-ocr-pipeline": {
+          "why_here": "Provides a practical healthcare documentation & intake step for Documentation intake, OCR, transcription, structured extraction, and biomedical literature support for paperwork-heavy workflows.",
+          "persona": "Documentation ops / intake specialist",
+          "install_complexity": "High"
+        },
+        "whisperx-speech-recognition-timestamps-diarization": {
+          "why_here": "Adds a practitioner-ready option for healthcare documentation & intake workflows without turning the collection into a generic catalog.",
+          "persona": "Documentation ops / intake specialist",
+          "install_complexity": "High"
+        },
+        "docuseal-document-signing-pdf-forms": {
+          "why_here": "Provides a practical healthcare documentation & intake step for Documentation intake, OCR, transcription, structured extraction, and biomedical literature support for paperwork-heavy workflows.",
+          "persona": "Documentation ops / intake specialist",
+          "install_complexity": "High"
+        },
+        "pdfplumber-python-pdf-text-table-extraction": {
+          "why_here": "Provides a practical healthcare documentation & intake step for Documentation intake, OCR, transcription, structured extraction, and biomedical literature support for paperwork-heavy workflows.",
+          "persona": "Documentation ops / intake specialist",
+          "install_complexity": "Low"
+        },
+        "expose-fhir-healthcare-data-resources-to-mcp-agents-with-review-boundaries": {
+          "why_here": "Adds a practitioner-ready option for healthcare documentation & intake workflows without turning the collection into a generic catalog.",
+          "persona": "Documentation ops / intake specialist",
+          "install_complexity": "High"
+        },
+        "apache-tika-document-extractor": {
+          "why_here": "Provides a practical healthcare documentation & intake step for Documentation intake, OCR, transcription, structured extraction, and biomedical literature support for paperwork-heavy workflows.",
+          "persona": "Documentation ops / intake specialist",
+          "install_complexity": "Low"
+        },
+        "apache-tika-document-parser": {
+          "why_here": "Provides a practical healthcare documentation & intake step for Documentation intake, OCR, transcription, structured extraction, and biomedical literature support for paperwork-heavy workflows.",
+          "persona": "Documentation ops / intake specialist",
+          "install_complexity": "Low"
+        },
+        "parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse": {
+          "why_here": "Provides a practical healthcare documentation & intake step for Documentation intake, OCR, transcription, structured extraction, and biomedical literature support for paperwork-heavy workflows.",
+          "persona": "Documentation ops / intake specialist",
+          "install_complexity": "Low"
+        },
+        "redact-pii-from-text-before-sharing-or-indexing-with-scrubadub": {
+          "why_here": "Provides a practical healthcare documentation & intake step for Documentation intake, OCR, transcription, structured extraction, and biomedical literature support for paperwork-heavy workflows.",
+          "persona": "Documentation ops / intake specialist",
+          "install_complexity": "Medium"
+        }
+      }
     },
     {
       "slug": "product-analytics-growth-ops",
@@ -126,7 +695,98 @@
         "metabase-open-source-business-intelligence-and-embedded-analytics",
         "duckdb-sql-analytics-agent",
         "evidence-bi-as-code-sql-markdown-analytics"
-      ]
+      ],
+      "who_for": [
+        "Product, growth, analytics, and rollout teams that need agents to inspect metrics, flags, and experiment evidence.",
+        "Operators who need lightweight analytics workflows before escalating to full BI or data engineering work."
+      ],
+      "jobs_covered": [
+        "Inspect product analytics and session replay data.",
+        "Plan and verify feature flag rollouts.",
+        "Query local or embedded analytics datasets.",
+        "Create repeatable evidence reports for launches and experiments."
+      ],
+      "workflow_stacks": [
+        {
+          "name": "Launch readiness",
+          "steps": [
+            "Check feature flags",
+            "review analytics baseline",
+            "inspect replay samples",
+            "publish rollout notes"
+          ]
+        },
+        {
+          "name": "Growth report",
+          "steps": [
+            "Query events",
+            "compare cohorts",
+            "build dashboard",
+            "capture decisions"
+          ]
+        }
+      ],
+      "editorial_notes": [
+        "This is a product-ops collection, not a generic BI shelf.",
+        "The strongest picks connect analytics to rollout decisions and reviewable evidence."
+      ],
+      "adjacent_collections": [
+        "finance-filings",
+        "ecommerce-retail-operations",
+        "devrel-api-documentation"
+      ],
+      "skill_meta": {
+        "posthog-product-analytics-and-feature-flags-sdk": {
+          "why_here": "Provides a practical product analytics & growth ops step for Product analytics, feature flags, rollout checks, session replay, privacy-friendly web analytics, and experiment/evaluation workflows.",
+          "persona": "Product ops / growth analyst",
+          "install_complexity": "Medium"
+        },
+        "flagsmith-feature-flag-remote-config": {
+          "why_here": "Adds a practitioner-ready option for product analytics & growth ops workflows without turning the collection into a generic catalog.",
+          "persona": "Product ops / growth analyst",
+          "install_complexity": "High"
+        },
+        "design-and-verify-launchdarkly-feature-flag-targeting-and-rollout-changes-with-mcp-safety-checks": {
+          "why_here": "Provides a practical product analytics & growth ops step for Product analytics, feature flags, rollout checks, session replay, privacy-friendly web analytics, and experiment/evaluation workflows.",
+          "persona": "Product ops / growth analyst",
+          "install_complexity": "High"
+        },
+        "configure-and-interpret-launchdarkly-ai-config-online-evaluations-with-judge-attachments": {
+          "why_here": "Adds a practitioner-ready option for product analytics & growth ops workflows without turning the collection into a generic catalog.",
+          "persona": "Product ops / growth analyst",
+          "install_complexity": "Medium"
+        },
+        "openreplay-self-hosted-session-replay-analytics": {
+          "why_here": "Provides a practical product analytics & growth ops step for Product analytics, feature flags, rollout checks, session replay, privacy-friendly web analytics, and experiment/evaluation workflows.",
+          "persona": "Product ops / growth analyst",
+          "install_complexity": "High"
+        },
+        "plausible-analytics-privacy-first-web-analytics": {
+          "why_here": "Provides a practical product analytics & growth ops step for Product analytics, feature flags, rollout checks, session replay, privacy-friendly web analytics, and experiment/evaluation workflows.",
+          "persona": "Product ops / growth analyst",
+          "install_complexity": "High"
+        },
+        "umami-privacy-focused-web-analytics": {
+          "why_here": "Provides a practical product analytics & growth ops step for Product analytics, feature flags, rollout checks, session replay, privacy-friendly web analytics, and experiment/evaluation workflows.",
+          "persona": "Product ops / growth analyst",
+          "install_complexity": "High"
+        },
+        "metabase-open-source-business-intelligence-and-embedded-analytics": {
+          "why_here": "Provides a practical product analytics & growth ops step for Product analytics, feature flags, rollout checks, session replay, privacy-friendly web analytics, and experiment/evaluation workflows.",
+          "persona": "Product ops / growth analyst",
+          "install_complexity": "High"
+        },
+        "duckdb-sql-analytics-agent": {
+          "why_here": "Provides a practical product analytics & growth ops step for Product analytics, feature flags, rollout checks, session replay, privacy-friendly web analytics, and experiment/evaluation workflows.",
+          "persona": "Product ops / growth analyst",
+          "install_complexity": "Low"
+        },
+        "evidence-bi-as-code-sql-markdown-analytics": {
+          "why_here": "Provides a practical product analytics & growth ops step for Product analytics, feature flags, rollout checks, session replay, privacy-friendly web analytics, and experiment/evaluation workflows.",
+          "persona": "Product ops / growth analyst",
+          "install_complexity": "Medium"
+        }
+      }
     },
     {
       "slug": "devrel-api-documentation",
@@ -149,7 +809,118 @@
         "run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac",
         "publish-versioned-mkdocs-documentation-with-mike",
         "verify-markdown-links-before-docs-or-content-ship-with-markdown-link-check"
-      ]
+      ],
+      "who_for": [
+        "DevRel, API platform, SDK, and documentation teams maintaining references, examples, and docs sites.",
+        "Teams that need agents to validate docs and API contracts before publishing."
+      ],
+      "jobs_covered": [
+        "Render and lint OpenAPI references.",
+        "Generate typed clients and SDK docs.",
+        "Build and publish versioned documentation sites.",
+        "Check Markdown links and prose quality before release."
+      ],
+      "workflow_stacks": [
+        {
+          "name": "API reference release",
+          "steps": [
+            "Bundle OpenAPI",
+            "lint contract",
+            "generate clients",
+            "publish docs",
+            "check links"
+          ]
+        },
+        {
+          "name": "Docs quality pass",
+          "steps": [
+            "Run prose lint",
+            "verify links",
+            "preview site",
+            "ship versioned docs"
+          ]
+        }
+      ],
+      "editorial_notes": [
+        "The collection emphasizes developer enablement over generic engineering utilities.",
+        "Tools should reduce stale docs, broken references, or SDK drift."
+      ],
+      "adjacent_collections": [
+        "product-analytics-growth-ops",
+        "media-publishing-systems"
+      ],
+      "skill_meta": {
+        "redoc-openapi-documentation-renderer": {
+          "why_here": "Adds a practitioner-ready option for devrel & api documentation workflows without turning the collection into a generic catalog.",
+          "persona": "DevRel / API docs engineer",
+          "install_complexity": "High"
+        },
+        "scalar-openapi-reference-api-client-platform": {
+          "why_here": "Adds a practitioner-ready option for devrel & api documentation workflows without turning the collection into a generic catalog.",
+          "persona": "DevRel / API docs engineer",
+          "install_complexity": "High"
+        },
+        "redocly-cli-openapi-linter-documentation-generator": {
+          "why_here": "Provides a practical devrel & api documentation step for API docs, OpenAPI references, SDK generation, docs-site publishing, prose linting, and developer enablement workflows.",
+          "persona": "DevRel / API docs engineer",
+          "install_complexity": "High"
+        },
+        "devdocs-unified-api-documentation-browser": {
+          "why_here": "Adds a practitioner-ready option for devrel & api documentation workflows without turning the collection into a generic catalog.",
+          "persona": "DevRel / API docs engineer",
+          "install_complexity": "High"
+        },
+        "mkdocs-project-documentation-generator": {
+          "why_here": "Adds a practitioner-ready option for devrel & api documentation workflows without turning the collection into a generic catalog.",
+          "persona": "DevRel / API docs engineer",
+          "install_complexity": "Medium"
+        },
+        "fumadocs-react-documentation-framework-and-docs-site-generator": {
+          "why_here": "Adds a practitioner-ready option for devrel & api documentation workflows without turning the collection into a generic catalog.",
+          "persona": "DevRel / API docs engineer",
+          "install_complexity": "Medium"
+        },
+        "vale-prose-linter-technical-docs": {
+          "why_here": "Provides a practical devrel & api documentation step for API docs, OpenAPI references, SDK generation, docs-site publishing, prose linting, and developer enablement workflows.",
+          "persona": "DevRel / API docs engineer",
+          "install_complexity": "Low"
+        },
+        "orval-openapi-client-regeneration-skill-typed-sdks": {
+          "why_here": "Adds a practitioner-ready option for devrel & api documentation workflows without turning the collection into a generic catalog.",
+          "persona": "DevRel / API docs engineer",
+          "install_complexity": "High"
+        },
+        "spectral-openapi-asyncapi-linter": {
+          "why_here": "Provides a practical devrel & api documentation step for API docs, OpenAPI references, SDK generation, docs-site publishing, prose linting, and developer enablement workflows.",
+          "persona": "DevRel / API docs engineer",
+          "install_complexity": "High"
+        },
+        "bundle-and-validate-openapi-files-into-one-publishable-spec-with-swagger-cli": {
+          "why_here": "Provides a practical devrel & api documentation step for API docs, OpenAPI references, SDK generation, docs-site publishing, prose linting, and developer enablement workflows.",
+          "persona": "DevRel / API docs engineer",
+          "install_complexity": "High"
+        },
+        "resolve-and-validate-openapi-specs-with-remote-refs-before-client-generation-or-review-with-prance": {
+          "why_here": "Provides a practical devrel & api documentation step for API docs, OpenAPI references, SDK generation, docs-site publishing, prose linting, and developer enablement workflows.",
+          "persona": "DevRel / API docs engineer",
+          "install_complexity": "High"
+        },
+        "run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac": {
+          "why_here": "Adds a practitioner-ready option for devrel & api documentation workflows without turning the collection into a generic catalog.",
+          "persona": "DevRel / API docs engineer",
+          "install_complexity": "Low"
+        },
+        "publish-versioned-mkdocs-documentation-with-mike": {
+          "why_here": "Adds a practitioner-ready option for devrel & api documentation workflows without turning the collection into a generic catalog.",
+          "persona": "DevRel / API docs engineer",
+          "install_complexity": "Medium"
+        },
+        "verify-markdown-links-before-docs-or-content-ship-with-markdown-link-check": {
+          "why_here": "Adds a practitioner-ready option for devrel & api documentation workflows without turning the collection into a generic catalog.",
+          "persona": "DevRel / API docs engineer",
+          "install_complexity": "Low"
+        }
+      }
     },
     {
       "slug": "customer-support-success",
@@ -182,7 +953,138 @@
         "https://github.com/effytech/freshdesk_mcp",
         "https://github.com/koundinya/zd-mcp-server",
         "https://github.com/openai/openai-cs-agents-demo"
-      ]
+      ],
+      "who_for": [
+        "Support, success, and CX operations teams triaging tickets, conversations, knowledge-base gaps, and customer context.",
+        "Teams that want safer reply drafting with source context rather than autonomous customer-service replacement."
+      ],
+      "jobs_covered": [
+        "Search helpdesk conversations before drafting replies.",
+        "Sync CRM and customer context into support workflows.",
+        "Maintain knowledge-base material and internal notes.",
+        "Summarize calls, emails, and tickets into action records."
+      ],
+      "workflow_stacks": [
+        {
+          "name": "Ticket triage",
+          "steps": [
+            "Fetch conversation",
+            "search knowledge base",
+            "draft reply",
+            "route for human send"
+          ]
+        },
+        {
+          "name": "Customer context packet",
+          "steps": [
+            "Normalize contact data",
+            "pull CRM context",
+            "summarize thread",
+            "log follow-up"
+          ]
+        }
+      ],
+      "editorial_notes": [
+        "Keep humans responsible for final customer-facing messages.",
+        "Favor tools that expose ticket and knowledge context cleanly over generic chatbot wrappers."
+      ],
+      "adjacent_collections": [
+        "ecommerce-retail-operations",
+        "media-publishing-systems",
+        "real-estate-workflows"
+      ],
+      "skill_meta": {
+        "zammad-open-source-helpdesk-ticketing-system": {
+          "why_here": "Provides a practical customer support & success step for Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, customer context, CRM sync, and reply-drafting support.",
+          "persona": "Support ops / success manager",
+          "install_complexity": "High"
+        },
+        "chatwoot-open-source-customer-engagement-omnichannel-support": {
+          "why_here": "Adds a practitioner-ready option for customer support & success workflows without turning the collection into a generic catalog.",
+          "persona": "Support ops / success manager",
+          "install_complexity": "High"
+        },
+        "search-help-scout-conversations-and-thread-context-before-drafting-support-replies": {
+          "why_here": "Provides a practical customer support & success step for Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, customer context, CRM sync, and reply-drafting support.",
+          "persona": "Support ops / success manager",
+          "install_complexity": "Low"
+        },
+        "outline-knowledge-base-wiki": {
+          "why_here": "Adds a practitioner-ready option for customer support & success workflows without turning the collection into a generic catalog.",
+          "persona": "Support ops / success manager",
+          "install_complexity": "High"
+        },
+        "affine-knowledge-base-collaborative-workspace-platform": {
+          "why_here": "Adds a practitioner-ready option for customer support & success workflows without turning the collection into a generic catalog.",
+          "persona": "Support ops / success manager",
+          "install_complexity": "High"
+        },
+        "twenty-open-source-crm-salesforce-alternative": {
+          "why_here": "Provides a practical customer support & success step for Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, customer context, CRM sync, and reply-drafting support.",
+          "persona": "Support ops / success manager",
+          "install_complexity": "High"
+        },
+        "hubspot-crm-contact-enrichment-pipeline": {
+          "why_here": "Provides a practical customer support & success step for Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, customer context, CRM sync, and reply-drafting support.",
+          "persona": "Support ops / success manager",
+          "install_complexity": "High"
+        },
+        "nb-cli-note-taking-bookmarking-knowledge-base": {
+          "why_here": "Adds a practitioner-ready option for customer support & success workflows without turning the collection into a generic catalog.",
+          "persona": "Support ops / success manager",
+          "install_complexity": "Low"
+        },
+        "connect-mcp-agents-to-zendesk-ticket-and-help-center-workflows": {
+          "why_here": "Provides a practical customer support & success step for Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, customer context, CRM sync, and reply-drafting support.",
+          "persona": "Support ops / success manager",
+          "install_complexity": "High"
+        },
+        "triage-support-tickets-and-draft-customer-replies-with-claude-code-support-skills": {
+          "why_here": "Provides a practical customer support & success step for Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, customer context, CRM sync, and reply-drafting support.",
+          "persona": "Support ops / success manager",
+          "install_complexity": "Medium"
+        },
+        "let-mcp-agents-inspect-and-update-freshdesk-tickets-safely": {
+          "why_here": "Provides a practical customer support & success step for Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, customer context, CRM sync, and reply-drafting support.",
+          "persona": "Support ops / success manager",
+          "install_complexity": "High"
+        },
+        "inspect-freshservice-service-management-tickets-and-modules-through-mcp": {
+          "why_here": "Provides a practical customer support & success step for Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, customer context, CRM sync, and reply-drafting support.",
+          "persona": "Support ops / success manager",
+          "install_complexity": "High"
+        },
+        "normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs": {
+          "why_here": "Provides a practical customer support & success step for Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, customer context, CRM sync, and reply-drafting support.",
+          "persona": "Support ops / success manager",
+          "install_complexity": "High"
+        },
+        "normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows": {
+          "why_here": "Provides a practical customer support & success step for Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, customer context, CRM sync, and reply-drafting support.",
+          "persona": "Support ops / success manager",
+          "install_complexity": "High"
+        },
+        "gmail-thread-summarizer-action-extractor": {
+          "why_here": "Provides a practical customer support & success step for Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, customer context, CRM sync, and reply-drafting support.",
+          "persona": "Support ops / success manager",
+          "install_complexity": "Low"
+        },
+        "extract-structured-data-and-attachments-from-raw-email-mailparser": {
+          "why_here": "Provides a practical customer support & success step for Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, customer context, CRM sync, and reply-drafting support.",
+          "persona": "Support ops / success manager",
+          "install_complexity": "Low"
+        },
+        "assemblyai-realtime-call-intelligence": {
+          "why_here": "Adds a practitioner-ready option for customer support & success workflows without turning the collection into a generic catalog.",
+          "persona": "Support ops / success manager",
+          "install_complexity": "Medium"
+        },
+        "strip-quoted-email-history-and-signatures-before-summarizing-inbound-replies": {
+          "why_here": "Provides a practical customer support & success step for Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, customer context, CRM sync, and reply-drafting support.",
+          "persona": "Support ops / success manager",
+          "install_complexity": "Medium"
+        }
+      }
     },
     {
       "slug": "real-estate-workflows",
@@ -210,7 +1112,108 @@
         "https://github.com/sap156/zillow-mcp-server",
         "https://github.com/zellerhaus/batchdata-mcp-real-estate",
         "https://github.com/agentic-ops/real-estate-mcp"
-      ]
+      ],
+      "who_for": [
+        "Real-estate operations, transaction coordinators, broker teams, and property researchers handling documents and follow-up.",
+        "Teams that need paperwork, CRM, and property-data support without implying valuation or legal advice."
+      ],
+      "jobs_covered": [
+        "Prepare and route transaction paperwork.",
+        "Extract and search property documents.",
+        "Maintain CRM contact context and follow-up lists.",
+        "Retrieve property facts for human-reviewed research packets."
+      ],
+      "workflow_stacks": [
+        {
+          "name": "Transaction packet",
+          "steps": [
+            "Collect forms",
+            "OCR documents",
+            "route signatures",
+            "archive final records"
+          ]
+        },
+        {
+          "name": "Property research support",
+          "steps": [
+            "Fetch property facts",
+            "extract document context",
+            "summarize CRM notes",
+            "escalate gaps"
+          ]
+        }
+      ],
+      "editorial_notes": [
+        "This is an operations-and-paperwork collection, not valuation, legal advice, or MLS completeness.",
+        "Review boundaries matter because property data and transaction documents can be stale or jurisdiction-sensitive."
+      ],
+      "adjacent_collections": [
+        "legal-ops-compliance",
+        "customer-support-success",
+        "finance-filings"
+      ],
+      "skill_meta": {
+        "docuseal-document-signing-pdf-forms": {
+          "why_here": "Provides a practical real estate workflows step for Property research support, transaction paperwork, signature routing, document intake, CRM context, and listing follow-up workflows for real-estate operations.",
+          "persona": "Transaction coordinator / ops lead",
+          "install_complexity": "High"
+        },
+        "paperless-ngx-document-ocr-archive-management-system": {
+          "why_here": "Provides a practical real estate workflows step for Property research support, transaction paperwork, signature routing, document intake, CRM context, and listing follow-up workflows for real-estate operations.",
+          "persona": "Transaction coordinator / ops lead",
+          "install_complexity": "High"
+        },
+        "ocrmypdf-searchable-pdf-ocr-pipeline": {
+          "why_here": "Provides a practical real estate workflows step for Property research support, transaction paperwork, signature routing, document intake, CRM context, and listing follow-up workflows for real-estate operations.",
+          "persona": "Transaction coordinator / ops lead",
+          "install_complexity": "High"
+        },
+        "pdfplumber-python-pdf-text-table-extraction": {
+          "why_here": "Provides a practical real estate workflows step for Property research support, transaction paperwork, signature routing, document intake, CRM context, and listing follow-up workflows for real-estate operations.",
+          "persona": "Transaction coordinator / ops lead",
+          "install_complexity": "Low"
+        },
+        "langextract-llm-structured-text-extraction": {
+          "why_here": "Provides a practical real estate workflows step for Property research support, transaction paperwork, signature routing, document intake, CRM context, and listing follow-up workflows for real-estate operations.",
+          "persona": "Transaction coordinator / ops lead",
+          "install_complexity": "Low"
+        },
+        "hubspot-crm-contact-enrichment-pipeline": {
+          "why_here": "Provides a practical real estate workflows step for Property research support, transaction paperwork, signature routing, document intake, CRM context, and listing follow-up workflows for real-estate operations.",
+          "persona": "Transaction coordinator / ops lead",
+          "install_complexity": "High"
+        },
+        "search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review": {
+          "why_here": "Provides a practical real estate workflows step for Property research support, transaction paperwork, signature routing, document intake, CRM context, and listing follow-up workflows for real-estate operations.",
+          "persona": "Transaction coordinator / ops lead",
+          "install_complexity": "Low"
+        },
+        "twenty-open-source-crm-salesforce-alternative": {
+          "why_here": "Provides a practical real estate workflows step for Property research support, transaction paperwork, signature routing, document intake, CRM context, and listing follow-up workflows for real-estate operations.",
+          "persona": "Transaction coordinator / ops lead",
+          "install_complexity": "High"
+        },
+        "rag-backed-real-estate-property-research": {
+          "why_here": "Provides a practical real estate workflows step for Property research support, transaction paperwork, signature routing, document intake, CRM context, and listing follow-up workflows for real-estate operations.",
+          "persona": "Transaction coordinator / ops lead",
+          "install_complexity": "Low"
+        },
+        "retrieve-zillow-style-property-details-and-market-trends-through-an-mcp-server": {
+          "why_here": "Adds a practitioner-ready option for real estate workflows workflows without turning the collection into a generic catalog.",
+          "persona": "Transaction coordinator / ops lead",
+          "install_complexity": "High"
+        },
+        "connect-mcp-agents-to-batchdata-property-and-address-apis": {
+          "why_here": "Adds a practitioner-ready option for real estate workflows workflows without turning the collection into a generic catalog.",
+          "persona": "Transaction coordinator / ops lead",
+          "install_complexity": "High"
+        },
+        "normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs": {
+          "why_here": "Provides a practical real estate workflows step for Property research support, transaction paperwork, signature routing, document intake, CRM context, and listing follow-up workflows for real-estate operations.",
+          "persona": "Transaction coordinator / ops lead",
+          "install_complexity": "High"
+        }
+      }
     }
   ]
 }

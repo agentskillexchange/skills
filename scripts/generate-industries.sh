@@ -58,11 +58,38 @@ def downloads_str(n):
 def display_name(item):
     return html.unescape(item.get("name") or item.get("title") or "")
 
+def list_lines(values):
+    values = [str(v).strip() for v in (values or []) if str(v).strip()]
+    return [f"- {v}" for v in values] if values else ["- Not specified."]
+
+def workflow_lines(stacks):
+    lines = []
+    for stack in stacks or []:
+        if isinstance(stack, dict):
+            name = str(stack.get("name") or "Workflow").strip()
+            steps = [str(s).strip() for s in (stack.get("steps") or []) if str(s).strip()]
+            if steps:
+                lines.append(f"- **{name}:** " + " → ".join(steps))
+            else:
+                lines.append(f"- **{name}**")
+        elif str(stack).strip():
+            lines.append(f"- {str(stack).strip()}")
+    return lines if lines else ["- Not specified."]
+
+def adjacent_lines(collection, by_collection):
+    lines = []
+    for adjacent_slug in collection.get("adjacent_collections") or []:
+        adjacent = by_collection.get(adjacent_slug)
+        if adjacent:
+            lines.append(f"- [{adjacent['title']}]({adjacent_slug}.md)")
+    return lines if lines else ["- None listed."]
+
 
 manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
 collections = manifest.get("collections", [])
 if not collections:
     raise SystemExit("industry-collections.json has no collections")
+by_collection = {c["slug"]: c for c in collections}
 
 items = []
 page = 1
@@ -112,6 +139,7 @@ for collection in collections:
         raise SystemExit(f"Missing browse records for collection {slug}: {', '.join(missing_browse)}")
 
     picks = [by_slug[s] for s in skill_slugs]
+    skill_meta = collection.get("skill_meta") or {}
 
     lines = [
         f"# {emoji} {title}",
@@ -121,26 +149,50 @@ for collection in collections:
         f"- Live page: {SITE_BASE}/industry-skills/#{slug}",
         f"- Homepage access: Curated Collections on {SITE_BASE}/",
         "",
+        "## Who this is for",
+        "",
+        *list_lines(collection.get("who_for")),
+        "",
+        "## Jobs covered",
+        "",
+        *list_lines(collection.get("jobs_covered")),
+        "",
+        "## Workflow Stacks",
+        "",
+        *workflow_lines(collection.get("workflow_stacks")),
+        "",
         "## Recommended Picks",
         "",
-        "| Skill | Category | Stars | Downloads |",
-        "|---|---|---:|---:|",
+        "| Skill | What it does here | Persona | Install | Stars |",
+        "|---|---|---|---|---:|",
     ]
     for item in picks:
-        category = (item.get("categories") or ["Uncategorized"])[0]
+        meta = skill_meta.get(item["slug"]) or {}
+        why_here = str(meta.get("why_here") or "").strip()
+        persona = str(meta.get("persona") or "").strip()
+        install = str(meta.get("install_complexity") or "").strip()
+        if not (why_here and persona and install):
+            raise SystemExit(f"Missing skill_meta for {slug}:{item['slug']}")
         stars = fmt_num(item.get("github_stars") or 0)
-        downloads = downloads_str(item.get("npm_downloads") or 0)
-        lines.append(f"| [{item['name']}](../skills/{item['slug']}/) | {category} | {stars} | {downloads} |")
+        lines.append(
+            f"| [{item['name']}](../skills/{item['slug']}/) | {why_here} | {persona} | {install} | {stars} |"
+        )
 
 
+    notes = list(collection.get("editorial_notes") or [])
     caution = collection.get("editorial_caution")
-    if caution:
-        lines += [
-            "",
-            "## Editorial Caution",
-            "",
-            caution,
-        ]
+    if caution and caution not in notes:
+        notes.append(caution)
+    lines += [
+        "",
+        "## Editorial Notes",
+        "",
+        *list_lines(notes),
+        "",
+        "## Adjacent Collections",
+        "",
+        *adjacent_lines(collection, by_collection),
+    ]
 
     lines += [
         "",
