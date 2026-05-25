@@ -10,6 +10,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "markdoc/markdoc"
   github_stars: 7949
+  npm_package: "@markdoc/markdoc"
+  npm_weekly_downloads: 318958
 ---
 
 # Markdoc Markdown-Based Authoring Framework by Stripe

@@ -10,6 +10,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "markuplint/markuplint"
   github_stars: 600
+  npm_package: "markuplint"
+  npm_weekly_downloads: 54269
 ---
 
 # markuplint HTML Linter for All Markup Developers

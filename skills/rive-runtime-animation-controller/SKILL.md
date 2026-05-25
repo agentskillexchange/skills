@@ -11,6 +11,8 @@ framework: "ChatGPT Agents"
 tool_ecosystem:
   github_repo: "rive-app/rive-react"
   github_stars: 1111
+  npm_package: "rive-react"
+  npm_weekly_downloads: 19672
 ---
 
 # Rive Runtime Animation Controller

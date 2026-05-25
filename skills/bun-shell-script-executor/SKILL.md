@@ -11,6 +11,8 @@ framework: "Codex"
 tool_ecosystem:
   github_repo: "oven-sh/bun"
   github_stars: 88912
+  npm_package: "bun"
+  npm_weekly_downloads: 1705197
 ---
 
 # Bun Shell Script Executor

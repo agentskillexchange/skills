@@ -10,6 +10,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "excalidraw/excalidraw"
   github_stars: 119886
+  npm_package: "@excalidraw/excalidraw"
+  npm_weekly_downloads: 291272
 ---
 
 # Excalidraw Virtual Whiteboard and Diagram SDK

@@ -10,6 +10,8 @@ framework: "Claude Code"
 tool_ecosystem:
   github_repo: "goreleaser/goreleaser"
   github_stars: 15686
+  npm_package: "@goreleaser/goreleaser"
+  npm_weekly_downloads: 62
 ---
 
 # GoReleaser Cross-Platform Release Automation

@@ -10,6 +10,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "terrastruct/d2"
   github_stars: 23316
+  npm_package: "@terrastruct/d2"
+  npm_weekly_downloads: 14050
 ---
 
 # D2 Modern Diagram Scripting Language and CLI

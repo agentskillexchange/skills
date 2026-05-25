@@ -10,6 +10,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "umami-software/umami"
   github_stars: 35941
+  npm_package: "umami"
+  npm_weekly_downloads: 638
 ---
 
 # Umami Privacy-Focused Web Analytics Platform

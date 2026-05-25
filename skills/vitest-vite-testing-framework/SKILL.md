@@ -10,6 +10,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "vitest-dev/vitest"
   github_stars: 16296
+  npm_package: "vitest"
+  npm_weekly_downloads: 62243262
 ---
 
 # Vitest Next-Generation Vite-Powered Testing Framework

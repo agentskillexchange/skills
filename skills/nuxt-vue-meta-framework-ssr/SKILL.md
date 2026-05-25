@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "nuxt/nuxt"
   github_stars: 59957
+  npm_package: "nuxt"
+  npm_weekly_downloads: 1579536
 ---
 
 # Nuxt — Vue.js Meta-Framework for SSR and Static Sites
