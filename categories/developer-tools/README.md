@@ -26,13 +26,13 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Turn GitHub Issues into Fix PRs](../../skills/turn-github-issues-into-fix-prs/) | ⬇ 837.2k/wk |
 | [Supabase MCP Server](../../skills/supabase-mcp-server/) | ⬇ 83.5M/wk |
 | [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | ⬇ 40.2M/wk |
+| [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | ⬇ 1.7M/wk |
 | [Playwright E2E Test Generator](../../skills/playwright-e2e-test-generator/) | ⬇ 47.9M/wk |
 | [Vite Plugin Hot Module Analyzer](../../skills/vite-plugin-hmr-analyzer/) | ⬇ 96.8M/wk |
 | [NestJS — Progressive Node.js Framework for Server-Side Applications](../../skills/nestjs-progressive-nodejs-framework/) | ⬇ 10.5M/wk |
 | [Webpack Bundle Analyzer Agent](../../skills/webpack-bundle-analyzer-agent/) | ⬇ 44.5M/wk |
 | [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | ⬇ 16.5k/wk |
 | [Run supervised IDE coding-agent workflows with Cline](../../skills/run-supervised-ide-coding-agent-workflows-with-cline/) | ⬇ 90.4k/wk |
-| [Run multi-harness coding-agent workflows with Oh My OpenAgent](../../skills/run-multi-harness-coding-agent-workflows-with-oh-my-openagent/) | ⬇ 56.8k/wk |
 
 ---
 
@@ -51,7 +51,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Supabase MCP Server](../../skills/supabase-mcp-server/) | 100.8k | 83.5M/wk |
 | [Angular — TypeScript Web Application Framework by Google](../../skills/angular-typescript-web-framework/) | 100.1k | — |
 | [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | 94.1k | 40.2M/wk |
-| [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | 88.9k | — |
+| [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | 88.9k | 1.7M/wk |
 | [Playwright E2E Test Generator](../../skills/playwright-e2e-test-generator/) | 86.4k | 47.9M/wk |
 | [uv Ultra-Fast Python Package and Project Manager](../../skills/uv-ultra-fast-python-package-project-manager/) | 82.4k | — |
 | [Vite Plugin Hot Module Analyzer](../../skills/vite-plugin-hmr-analyzer/) | 79.9k | 96.8M/wk |
@@ -78,7 +78,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Traefik Cloud-Native Application Proxy and Reverse Proxy](../../skills/traefik-cloud-native-reverse-proxy/) | 62.5k | — |
 | [ripgrep Recursive Regex Search Tool](../../skills/ripgrep-recursive-regex-search-tool/) | 61.7k | — |
 | [Run supervised IDE coding-agent workflows with Cline](../../skills/run-supervised-ide-coding-agent-workflows-with-cline/) | 61.5k | 90.4k/wk |
-| [Nuxt — Vue.js Meta-Framework for SSR and Static Sites](../../skills/nuxt-vue-meta-framework-ssr/) | 60k | — |
+| [Nuxt — Vue.js Meta-Framework for SSR and Static Sites](../../skills/nuxt-vue-meta-framework-ssr/) | 60k | 1.6M/wk |
 | [Run multi-harness coding-agent workflows with Oh My OpenAgent](../../skills/run-multi-harness-coding-agent-workflows-with-oh-my-openagent/) | 58.9k | 56.8k/wk |
 | [Run supervised agentic terminal sessions with Warp](../../skills/run-supervised-agentic-terminal-sessions-with-warp/) | 58.5k | — |
 | [mkcert Zero-Config Local Development TLS Certificate Generator](../../skills/mkcert-local-dev-tls-certificate-generator/) | 58.4k | — |
@@ -160,7 +160,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [llamafile Single-File LLM Distribution and Runner by Mozilla](../../skills/llamafile-single-file-llm-runner-mozilla/) | 24.1k | — |
 | [Glow Terminal Markdown Renderer](../../skills/glow-terminal-markdown-renderer/) | 24.1k | — |
 | [Coordinate multi-mode coding-agent work in the IDE with Roo Code](../../skills/coordinate-multi-mode-coding-agent-work-in-the-ide-with-roo-code/) | 24k | — |
-| [D2 Modern Diagram Scripting Language and CLI](../../skills/d2-diagram-scripting-language-cli/) | 23.3k | — |
+| [D2 Modern Diagram Scripting Language and CLI](../../skills/d2-diagram-scripting-language-cli/) | 23.3k | 14.1k/wk |
 | [Gum Interactive Shell Script Toolkit](../../skills/gum-interactive-shell-script-toolkit/) | 23.2k | — |
 | [Add IDE-style semantic code navigation and symbol-safe refactors to coding agents through Serena](../../skills/add-ide-style-semantic-code-navigation-and-symbol-safe-refactors-to-coding-agents-through-serena/) | 23k | — |
 | [ArgoCD MCP Server](../../skills/argocd-mcp-server/) | 23k | — |

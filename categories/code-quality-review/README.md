@@ -86,7 +86,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Multi-Axis Code Review and Quality Gates](../../skills/multi-axis-code-review-and-quality-gates/) | 17.4k | — |
 | [Address GitHub PR review comments from the current branch with gh-address-comments](../../skills/address-github-pr-review-comments-from-the-current-branch-with-gh-address-comments/) | 17.3k | — |
 | [Keploy API Test Generation and Regression Testing Platform](../../skills/keploy-api-test-generation-regression-testing-platform/) | 17.1k | — |
-| [Vitest Next-Generation Vite-Powered Testing Framework](../../skills/vitest-vite-testing-framework/) | 16.3k | — |
+| [Vitest Next-Generation Vite-Powered Testing Framework](../../skills/vitest-vite-testing-framework/) | 16.3k | 62.2M/wk |
 | [Generate clickable architecture diagrams from public GitHub repos with GitDiagram](../../skills/generate-clickable-architecture-diagrams-from-public-github-repos-with-gitdiagram/) | 15.4k | — |
 | [Regression test LLM apps and agents with metrics, traces, and eval suites using DeepEval](../../skills/regression-test-llm-apps-and-agents-with-metrics-traces-and-eval-suites-using-deepeval/) | 14.8k | 1.3k/wk |
 | [Semgrep Code Scanner](../../skills/semgrep-code-scanner/) | 14.8k | — |
@@ -186,7 +186,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Gate dbt projects with pre-commit checks from dbt-checkpoint](../../skills/gate-dbt-projects-with-pre-commit-checks-from-dbt-checkpoint/) | 738 | — |
 | [Lint protobuf definitions for style and correctness before code generation and review churn begin with protolint](../../skills/lint-protobuf-definitions-for-style-and-correctness-before-code-generation-and-review-churn-begin-with-protolint/) | 685 | — |
 | [Enforce Python Docstring Coverage Thresholds with interrogate](../../skills/enforce-python-docstring-coverage-thresholds-with-interrogate/) | 662 | — |
-| [markuplint HTML Linter for All Markup Developers](../../skills/markuplint-html-linter/) | 600 | — |
+| [markuplint HTML Linter for All Markup Developers](../../skills/markuplint-html-linter/) | 600 | 54.3k/wk |
 | [Simplify recently changed code and open low-risk refactor pull requests](../../skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | 585 | — |
 | [Review AI-generated code changes in a cleaner diff workflow with Diffity](../../skills/review-ai-generated-code-changes-with-diffity/) | 561 | 3.5k/wk |
 | [Grade agent trajectories and tool-use decisions with AgentEvals](../../skills/grade-agent-trajectories-and-tool-use-decisions-with-agentevals/) | 550 | 251k/wk |

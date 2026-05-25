@@ -23,6 +23,7 @@ Image generation, asset processing, design automation, and creative tooling.
 
 | Skill | Downloads |
 |---|---:|
+| [Excalidraw Virtual Whiteboard and Diagram SDK](../../skills/excalidraw-virtual-whiteboard-diagram-sdk/) | ⬇ 291.3k/wk |
 | [Remotion React Video Generation and Rendering Framework](../../skills/remotion-react-video-generation-rendering-framework/) | ⬇ 746.1k/wk |
 | [Sharp Image CDN Optimizer](../../skills/sharp-image-cdn-optimizer/) | ⬇ 52.5M/wk |
 | [Sharp Image Pipeline Processor](../../skills/sharp-image-pipeline-processor-2/) | ⬇ 52.5M/wk |
@@ -32,7 +33,6 @@ Image generation, asset processing, design automation, and creative tooling.
 | [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | ⬇ 28.7M/wk |
 | [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | ⬇ 898k/wk |
 | [Konva.js HTML5 Canvas Interactive Graphics Framework](../../skills/konva-js-html5-canvas-interactive-graphics-framework/) | ⬇ 1.2M/wk |
-| [Satori HTML and CSS to SVG Image Generator by Vercel](../../skills/satori-html-css-svg-image-generator/) | ⬇ 1.3M/wk |
 
 ---
 
@@ -40,7 +40,7 @@ Image generation, asset processing, design automation, and creative tooling.
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [Excalidraw Virtual Whiteboard and Diagram SDK](../../skills/excalidraw-virtual-whiteboard-diagram-sdk/) | 119.9k | — |
+| [Excalidraw Virtual Whiteboard and Diagram SDK](../../skills/excalidraw-virtual-whiteboard-diagram-sdk/) | 119.9k | 291.3k/wk |
 | [Generate reproducible algorithmic art sketches with seeded p5.js randomness](../../skills/generate-reproducible-algorithmic-art-sketches-with-seeded-p5js-randomness/) | 116.9k | — |
 | [Generate Slack-ready animated GIFs from custom frame sequences](../../skills/generate-slack-ready-animated-gifs-from-custom-frame-sequences/) | 116.2k | — |
 | [Stable Diffusion ComfyUI Workflow Runner](../../skills/stable-diffusion-comfyui-workflow-runner-2/) | 112k | — |
@@ -103,7 +103,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Turn a plain-language brief into a multi-step video production pipeline with OpenMontage](../../skills/turn-a-plain-language-brief-into-a-multi-step-video-production-pipeline-with-openmontage/) | 3k | — |
 | [OpenEXR HDR Compositing Pipeline](../../skills/openexr-hdr-compositing-pipeline/) | 1.8k | — |
 | [Revise PDF Slides with Natural-Language Edits](../../skills/revise-pdf-slides-with-natural-language-edits/) | 1.2k | — |
-| [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | 1.1k | — |
+| [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | 1.1k | 19.7k/wk |
 | [CairoSVG SVG to PNG PDF and PostScript Converter](../../skills/cairosvg-svg-to-png-pdf-converter/) | 917 | — |
 | [Generate launch-ready web app icons and social assets with Web Asset Generator](../../skills/generate-launch-ready-web-app-icons-and-social-assets-with-web-asset-generator/) | 321 | — |
 | [Generate fast static photo album sites from curated folders with DD Photos](../../skills/generate-fast-static-photo-album-sites-from-curated-folders-with-dd-photos/) | 155 | — |

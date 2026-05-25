@@ -25,6 +25,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 |---|---:|
 | [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | ⬇ 189M/wk |
 | [semantic-release Automated Versioning and Release Publishing](../../skills/semantic-release-automated-versioning-and-release-publishing/) | ⬇ 2.5M/wk |
+| [GoReleaser Cross-Platform Release Automation](../../skills/goreleaser-cross-platform-release-automation/) | ⬇ 62/wk |
 | [CapRover Self-Hosted PaaS for App Deployment and Server Management](../../skills/caprover-self-hosted-paas-app-deployment/) | ⬇ 8.4k/wk |
 | [Parallelize and retry Rust test runs before flaky or slow suites stall CI with cargo-nextest](../../skills/parallelize-and-retry-rust-test-runs-before-flaky-or-slow-suites-stall-ci-with-cargo-nextest/) | ⬇ 9.8M/wk |
 | [Shard, retry, and summarize Rust test runs with CI-friendly artifacts and failure isolation using cargo-nextest](../../skills/shard-retry-and-summarize-rust-test-runs-with-ci-friendly-artifacts-and-failure-isolation-using-cargo-nextest/) | ⬇ 9.8M/wk |
@@ -32,7 +33,6 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Run AI browser regression checks with Playwright and multi-model verification through Passmark](../../skills/run-ai-browser-regression-checks-with-playwright-and-multi-model-verification-through-passmark/) | ⬇ 12.3k/wk |
 | [Catch agent-era CI/CD and permission misconfigurations before shipping with Ship Safe](../../skills/catch-agent-era-ci-cd-and-permission-misconfigurations-before-shipping-with-ship-safe/) | ⬇ 2.8k/wk |
 | [Generate conventional-commit release notes for automated ship workflows with semantic-release release-notes-generator](../../skills/generate-conventional-commit-release-notes-for-automated-ship-workflows-with-semantic-release-release-notes-generator/) | ⬇ 11M/wk |
-| [Shard slow pytest suites by historic timings before CI bottlenecks pile up with pytest-split](../../skills/shard-slow-pytest-suites-by-historic-timings-before-ci-bottlenecks-pile-up-with-pytest-split/) | ⬇ 12.8M/wk |
 
 ---
 
@@ -124,7 +124,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Inspect failing GitHub Actions checks and plan fixes with gh-fix-ci](../../skills/inspect-failing-github-actions-checks-and-plan-fixes-with-gh-fix-ci/) | 17.3k | — |
 | [Argo Workflows Deployer](../../skills/argo-workflows-deployer/) | 16.6k | — |
 | [Argo Workflows Linter](../../skills/argo-workflows-linter/) | 16.6k | — |
-| [GoReleaser Cross-Platform Release Automation](../../skills/goreleaser-cross-platform-release-automation/) | 15.7k | — |
+| [GoReleaser Cross-Platform Release Automation](../../skills/goreleaser-cross-platform-release-automation/) | 15.7k | 62/wk |
 | [Dagger Programmable CI/CD Automation Engine](../../skills/dagger-programmable-cicd-automation-engine/) | 15.6k | — |
 | [CapRover Self-Hosted PaaS for App Deployment and Server Management](../../skills/caprover-self-hosted-paas-app-deployment/) | 14.9k | 8.4k/wk |
 | [Kamal Zero-Downtime Docker Deployment Tool by Basecamp](../../skills/kamal-zero-downtime-docker-deployment-basecamp/) | 14k | — |

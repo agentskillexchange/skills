@@ -1,8 +1,34 @@
 {
   "version": "2.0",
-  "total": 2505,
+  "total": 2507,
   "generated": "2026-05-25",
   "skills": [
+    {
+      "slug": "run-kubernetes-cluster-operations-through-mcp",
+      "name": "Run Kubernetes cluster operations through MCP",
+      "title": "Run Kubernetes cluster operations through MCP",
+      "description": "Use mcp-server-kubernetes so an MCP-capable agent can inspect, troubleshoot, and manage Kubernetes resources through a configured kubeconfig.",
+      "category": "Runbooks & Diagnostics",
+      "framework": "MCP",
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1396,
+        "npm_weekly_downloads": 78540
+      }
+    },
+    {
+      "slug": "inspect-live-web-apps-and-apply-code-changes-with-stagewise",
+      "name": "Inspect live web apps and apply code changes with Stagewise",
+      "title": "Inspect live web apps and apply code changes with Stagewise",
+      "description": "Use Stagewise when a coding agent needs browser context, console/debugger signals, UI inspection, and code-change handoff in one loop.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 6683,
+        "npm_weekly_downloads": 799
+      }
+    },
     {
       "slug": "search-and-analyze-zotero-research-libraries-through-mcp",
       "name": "Search and analyze Zotero research libraries through MCP",
@@ -11250,7 +11276,8 @@
       "framework": "Multi-Framework",
       "verification": "listed",
       "signals": {
-        "github_stars": 600
+        "github_stars": 600,
+        "npm_weekly_downloads": 54269
       }
     },
     {
@@ -11369,7 +11396,8 @@
       "framework": "Multi-Framework",
       "verification": "listed",
       "signals": {
-        "github_stars": 59957
+        "github_stars": 59957,
+        "npm_weekly_downloads": 1579536
       }
     },
     {
@@ -11906,7 +11934,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 16296
+        "github_stars": 16296,
+        "npm_weekly_downloads": 62243262
       }
     },
     {
@@ -12892,7 +12921,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 35941
+        "github_stars": 35941,
+        "npm_weekly_downloads": 638
       }
     },
     {
@@ -13073,6 +13103,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 23316,
+        "npm_weekly_downloads": 14050,
         "license": "MPL-2.0"
       }
     },
@@ -13099,6 +13130,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 119886,
+        "npm_weekly_downloads": 291272,
         "license": "MIT"
       }
     },
@@ -13244,6 +13276,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 7949,
+        "npm_weekly_downloads": 318958,
         "license": "MIT"
       }
     },
@@ -16387,7 +16420,8 @@
       "framework": "Claude Code",
       "verification": "listed",
       "signals": {
-        "github_stars": 15686
+        "github_stars": 15686,
+        "npm_weekly_downloads": 62
       }
     },
     {
@@ -17720,7 +17754,8 @@
       "framework": "ChatGPT Agents",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 1111
+        "github_stars": 1111,
+        "npm_weekly_downloads": 19672
       }
     },
     {
@@ -17763,7 +17798,8 @@
       "framework": "Codex",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 88912
+        "github_stars": 88912,
+        "npm_weekly_downloads": 1705197
       }
     },
     {

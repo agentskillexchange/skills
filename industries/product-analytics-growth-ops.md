@@ -15,7 +15,7 @@ Product analytics, feature flags, rollout checks, session replay, privacy-friend
 | [Configure and interpret LaunchDarkly AI Config online evaluations with judge attachments](../skills/configure-and-interpret-launchdarkly-ai-config-online-evaluations-with-judge-attachments/) | Monitoring & Alerts | 6 | — |
 | [OpenReplay Self-Hosted Session Replay and Product Analytics Platform](../skills/openreplay-self-hosted-session-replay-analytics/) | Monitoring & Alerts | 11.9k | — |
 | [Plausible Analytics Privacy-First Web Analytics Platform](../skills/plausible-analytics-privacy-first-web-analytics/) | Monitoring & Alerts | 24.5k | — |
-| [Umami Privacy-Focused Web Analytics Platform](../skills/umami-privacy-focused-web-analytics/) | Monitoring & Alerts | 35.9k | — |
+| [Umami Privacy-Focused Web Analytics Platform](../skills/umami-privacy-focused-web-analytics/) | Monitoring & Alerts | 35.9k | 638/wk |
 | [Metabase Open Source Business Intelligence and Embedded Analytics](../skills/metabase-open-source-business-intelligence-and-embedded-analytics/) | Data Extraction & Transformation | 46.8k | 15/wk |
 | [DuckDB SQL Analytics Agent](../skills/duckdb-sql-analytics-agent/) | Data Extraction & Transformation | 37.1k | — |
 | [Evidence BI-as-Code SQL and Markdown Analytics Framework](../skills/evidence-bi-as-code-sql-markdown-analytics/) | Data Extraction & Transformation | 6.1k | — |

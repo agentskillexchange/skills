@@ -24,6 +24,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | Skill | Downloads |
 |---|---:|
 | [Tiptap Headless Rich Text Editor Framework for Web Applications](../../skills/tiptap-headless-rich-text-editor-framework/) | ⬇ 45.6k/wk |
+| [Markdoc Markdown-Based Authoring Framework by Stripe](../../skills/markdoc-markdown-authoring-framework-stripe/) | ⬇ 319k/wk |
 | [alex Inclusive Writing Linter](../../skills/alex-inclusive-writing-linter/) | ⬇ 30.6k/wk |
 | [write-good English Prose Linting for Technical Content](../../skills/write-good-english-prose-linting-technical-content/) | ⬇ 49.5k/wk |
 | [Unlighthouse Site-Wide Lighthouse and SEO Auditing](../../skills/unlighthouse-site-wide-lighthouse-seo-auditing/) | ⬇ 15.3k/wk |
@@ -32,7 +33,6 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [schema-dts TypeScript Types for Schema.org Structured Data](../../skills/schema-dts-typescript-types-schemaorg-structured-data/) | ⬇ 1.5M/wk |
 | [markdownlint-cli2 Markdown Linting for Docs and Repos](../../skills/markdownlint-cli2-markdown-linting-docs-repos/) | ⬇ 522.5k/wk |
 | [Verify Markdown links before docs or content ship with markdown-link-check](../../skills/verify-markdown-links-before-docs-or-content-ship-with-markdown-link-check/) | ⬇ 573.2k/wk |
-| [Format citations and bibliographies from DOIs, URLs, BibTeX, and CFF before publishing](../../skills/format-citations-and-bibliographies-from-dois-urls-bibtex-and-cff-before-publishing/) | ⬇ 10.7k/wk |
 
 ---
 
@@ -51,7 +51,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Markdown-to-AMP Article Converter](../../skills/markdown-to-amp-article-converter/) | 14.9k | — |
 | [LanguageTool Grammar and Style Checker](../../skills/languagetool-grammar-style-checker/) | 14.2k | — |
 | [Harper Offline Privacy-First Grammar Checker by Automattic](../../skills/harper-offline-grammar-checker-automattic/) | 10.2k | — |
-| [Markdoc Markdown-Based Authoring Framework by Stripe](../../skills/markdoc-markdown-authoring-framework-stripe/) | 7.9k | — |
+| [Markdoc Markdown-Based Authoring Framework by Stripe](../../skills/markdoc-markdown-authoring-framework-stripe/) | 7.9k | 319k/wk |
 | [Run a long-form SEO blog production workflow inside Claude Code with SEO Machine](../../skills/run-a-long-form-seo-blog-production-workflow-inside-claude-code-with-seo-machine/) | 6.6k | — |
 | [Schema.org Structured Data Generator](../../skills/schema-org-structured-data-generator/) | 6k | — |
 | [WriteFreely Federated Markdown Publishing Platform with ActivityPub](../../skills/writefreely-federated-markdown-publishing-platform/) | 5.1k | — |

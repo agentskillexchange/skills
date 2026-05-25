@@ -2,8 +2,26 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-05-25",
-  "total": 2505,
+  "total": 2507,
   "skills": [
+    {
+      "slug": "run-kubernetes-cluster-operations-through-mcp",
+      "name": "Run Kubernetes cluster operations through MCP",
+      "title": "Run Kubernetes cluster operations through MCP",
+      "description": "Use mcp-server-kubernetes so an MCP-capable agent can inspect, troubleshoot, and manage Kubernetes resources through a configured kubeconfig.",
+      "category": "Runbooks & Diagnostics",
+      "framework": "MCP",
+      "verification": "listed"
+    },
+    {
+      "slug": "inspect-live-web-apps-and-apply-code-changes-with-stagewise",
+      "name": "Inspect live web apps and apply code changes with Stagewise",
+      "title": "Inspect live web apps and apply code changes with Stagewise",
+      "description": "Use Stagewise when a coding agent needs browser context, console/debugger signals, UI inspection, and code-change handoff in one loop.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "search-and-analyze-zotero-research-libraries-through-mcp",
       "name": "Search and analyze Zotero research libraries through MCP",

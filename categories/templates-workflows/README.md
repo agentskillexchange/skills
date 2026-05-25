@@ -129,6 +129,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | 7.6k | 1.5M/wk |
 | [Run long-horizon spec-driven coding agent workflows with GSD 2](../../skills/run-long-horizon-spec-driven-coding-agent-workflows-with-gsd-2/) | 7.3k | 11.4k/wk |
 | [Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext](../../skills/pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-stay-readable-with-jupytext/) | 7.2k | — |
+| [Inspect live web apps and apply code changes with Stagewise](../../skills/inspect-live-web-apps-and-apply-code-changes-with-stagewise/) | 6.7k | 799/wk |
 | [Parameterize and execute notebooks as repeatable runs](../../skills/parameterize-and-execute-notebooks-as-repeatable-runs/) | 6.4k | — |
 | [Study customer-service triage and handoff patterns with the OpenAI CS agents demo](../../skills/study-customer-service-triage-and-handoff-patterns-with-the-openai-cs-agents-demo/) | 6.3k | — |
 | [Orchestrate goal-driven TypeScript agent teams with Open Multi Agent](../../skills/orchestrate-goal-driven-typescript-agent-teams-with-open-multi-agent/) | 6.1k | — |
