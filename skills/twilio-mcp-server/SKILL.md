@@ -2,7 +2,7 @@
 name: "Twilio MCP Server"
 slug: "twilio-mcp-server"
 description: ""
-github_stars: 1536
+github_stars: 1538
 verification: "security_reviewed"
 source: "https://github.com/twilio/twilio-node"
 author: "Twilio"
@@ -10,9 +10,9 @@ category: "Integrations & Connectors"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "twilio/twilio-node"
-  github_stars: 1536
+  github_stars: 1538
   npm_package: "twilio"
-  npm_weekly_downloads: 4500729
+  npm_weekly_downloads: 4486315
 ---
 
 # Twilio MCP Server
