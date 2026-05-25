@@ -96,6 +96,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Capture a live webpage as a clean PDF or readable archive for offline review with Percollate](../../skills/capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate/) | 4.6k | 588/wk |
 | [PuppeteerSharp Web Scraping Pipeline](../../skills/puppeteersharp-web-scraping-pipeline/) | 3.9k | — |
 | [Search NotebookLM notebooks, sources, and generated study artifacts from agents](../../skills/search-notebooklm-notebooks-sources-and-generated-study-artifacts-from-agents/) | 3.6k | — |
+| [Search and analyze Zotero research libraries through MCP](../../skills/search-and-analyze-zotero-research-libraries-through-mcp/) | 3.4k | — |
 | [Bright Data Web MCP Live Web Access and Scraping Tools](../../skills/bright-data-web-mcp-live-web-access-scraping-tools/) | 3.2k | 937/wk |
 | [Download every archived snapshot of a URL before site migrations, takedowns, or investigations](../../skills/download-every-archived-snapshot-of-a-url-before-site-migrations-takedowns-or-investigations/) | 3.2k | — |
 | [Search and analyze arXiv papers through MCP workflows](../../skills/search-and-analyze-arxiv-papers-through-mcp-workflows/) | 2.8k | — |

@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-05-24
-# Total: 2503 skills
+# Generated: 2026-05-25
+# Total: 2505 skills
+
+## Search and analyze Zotero research libraries through MCP
+slug: search-and-analyze-zotero-research-libraries-through-mcp
+category: Research & Scraping
+framework: MCP
+verification: Published
+description: Use Zotero MCP to let research agents search papers, retrieve metadata, inspect annotations, and analyze citation context from a Zotero library.
+url: https://agentskillexchange.com/skills/search-and-analyze-zotero-research-libraries-through-mcp/
+
+## Connect Azure DevOps projects, work items, repos, and pipelines to MCP agents
+slug: connect-azure-devops-projects-work-items-repos-and-pipelines-to-mcp-agents
+category: Integrations & Connectors
+framework: MCP
+verification: Security Reviewed
+description: Use Azure DevOps MCP when an agent needs governed access to ADO projects, work items, builds, repos, test plans, wikis, and pipelines.
+url: https://agentskillexchange.com/skills/connect-azure-devops-projects-work-items-repos-and-pipelines-to-mcp-agents/
 
 ## Ground coding agents in live repository documentation with GitMCP
 slug: ground-coding-agents-in-live-repository-documentation-with-gitmcp

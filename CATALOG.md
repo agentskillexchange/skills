@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2503 published skills** across **17 categories** · 2,156 security reviewed · Updated 2026-05-24 19:26 UTC
+> **2505 published skills** across **17 categories** · 2,156 security reviewed · Updated 2026-05-25 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1899,7 +1899,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Rust Crates.io Explorer](skills/rust-crates-io-explorer/) | Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates… | Published | — | — |
 
 
-### 🔗 Integrations & Connectors (119 skills)
+### 🔗 Integrations & Connectors (120 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1973,6 +1973,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Supabase MCP Server for Database and Project Management](skills/supabase-mcp-server-database-project-management/) | An official MCP server that connects Supabase projects to AI assistants like Claude, Cursor, and Windsurf. Enables… | Security Reviewed | 2.6k | — |
 | [Push, pull, and attach non-container OCI artifacts in registries with ORAS](skills/push-pull-and-attach-non-container-oci-artifacts-in-registries-with-oras/) | Use ORAS to move SBOMs, model bundles, provenance, and other non-container artifacts through OCI registries without… | Published | 2.2k | — |
 | [MetaMCP Unified MCP Server Aggregator and Gateway](skills/metamcp-unified-mcp-server-aggregator-gateway/) | MetaMCP is an open-source MCP proxy that aggregates multiple MCP servers into a single unified endpoint with a GUI… | Published | 2.2k | — |
+| [Connect Azure DevOps projects, work items, repos, and pipelines to MCP agents](skills/connect-azure-devops-projects-work-items-repos-and-pipelines-to-mcp-agents/) | Use Azure DevOps MCP when an agent needs governed access to ADO projects, work items, builds, repos, test plans,… | Security Reviewed | 1.7k | 334.3k/wk |
 | [Sync skills across Claude Code, Codex, OpenClaw, and other AI CLIs with Skillshare](skills/sync-skills-across-ai-coding-clis-with-skillshare/) | Keep one canonical skills and agents source in sync across multiple coding CLIs instead of hand-copying files… | Security Reviewed | 1.6k | — |
 | [Twilio MCP Server](skills/twilio-mcp-server/) | Twilio MCP Server is built around Twilio communications APIs. The underlying ecosystem is represented by… | Security Reviewed | 1.5k | 4.5M/wk |
 | [Twilio Programmable SMS Gateway](skills/twilio-programmable-sms-gateway/) | Sends and receives SMS/MMS messages via Twilio REST API with webhook handler generation. Supports message… | Security Reviewed | 1.5k | 3.7M/wk |
@@ -2141,7 +2142,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [playwright-extra Plugin Framework for Playwright](skills/playwright-extra-plugin-framework-for-playwright/) | An ASE skill built around playwright-extra, the plugin framework that augments Playwright with reusable plugins such… | Published | — | 623.1k/wk |
 
 
-### 🔍 Research & Scraping (106 skills)
+### 🔍 Research & Scraping (107 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -2203,6 +2204,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Capture a live webpage as a clean PDF or readable archive for offline review with Percollate](skills/capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate/) | Turn a live webpage into a clean offline artifact such as a PDF or readable archive for review, citation, or handoff. | Security Reviewed | 4.6k | 588/wk |
 | [PuppeteerSharp Web Scraping Pipeline](skills/puppeteersharp-web-scraping-pipeline/) | Builds headless Chrome scraping pipelines using PuppeteerSharp for .NET environments. Handles JavaScript-rendered… | Security Reviewed | 3.9k | — |
 | [Search NotebookLM notebooks, sources, and generated study artifacts from agents](skills/search-notebooklm-notebooks-sources-and-generated-study-artifacts-from-agents/) | Use notebooklm-mcp-cli when an agent needs to search NotebookLM notebooks, add sources, run notebook queries, and… | Security Reviewed | 3.6k | — |
+| [Search and analyze Zotero research libraries through MCP](skills/search-and-analyze-zotero-research-libraries-through-mcp/) | Use Zotero MCP to let research agents search papers, retrieve metadata, inspect annotations, and analyze citation… | Published | 3.4k | — |
 | [Bright Data Web MCP Live Web Access and Scraping Tools](skills/bright-data-web-mcp-live-web-access-scraping-tools/) | Bright Data Web MCP gives MCP-compatible agents live web search, scraping, and optional browser-automation access… | Security Reviewed | 3.2k | 937/wk |
 | [Download every archived snapshot of a URL before site migrations, takedowns, or investigations](skills/download-every-archived-snapshot-of-a-url-before-site-migrations-takedowns-or-investigations/) | Use waybackpack when an agent needs the full historical record for a URL, not a few clicks through the Wayback… | Security Reviewed | 3.2k | — |
 | [Search and analyze arXiv papers through MCP workflows](skills/search-and-analyze-arxiv-papers-through-mcp-workflows/) | Connect an MCP-capable assistant to arXiv search, paper download, local paper storage, and research prompts for… | Security Reviewed | 2.8k | — |

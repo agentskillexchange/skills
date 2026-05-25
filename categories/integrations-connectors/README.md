@@ -108,6 +108,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Supabase MCP Server for Database and Project Management](../../skills/supabase-mcp-server-database-project-management/) | 2.6k | — |
 | [Push, pull, and attach non-container OCI artifacts in registries with ORAS](../../skills/push-pull-and-attach-non-container-oci-artifacts-in-registries-with-oras/) | 2.2k | — |
 | [MetaMCP Unified MCP Server Aggregator and Gateway](../../skills/metamcp-unified-mcp-server-aggregator-gateway/) | 2.2k | — |
+| [Connect Azure DevOps projects, work items, repos, and pipelines to MCP agents](../../skills/connect-azure-devops-projects-work-items-repos-and-pipelines-to-mcp-agents/) | 1.7k | 334.3k/wk |
 | [Sync skills across Claude Code, Codex, OpenClaw, and other AI CLIs with Skillshare](../../skills/sync-skills-across-ai-coding-clis-with-skillshare/) | 1.6k | — |
 | [Twilio MCP Server](../../skills/twilio-mcp-server/) | 1.5k | 4.5M/wk |
 | [Twilio Programmable SMS Gateway](../../skills/twilio-programmable-sms-gateway/) | 1.5k | 3.7M/wk |

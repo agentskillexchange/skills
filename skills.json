@@ -1,8 +1,33 @@
 {
   "version": "2.0",
-  "total": 2503,
-  "generated": "2026-05-24",
+  "total": 2505,
+  "generated": "2026-05-25",
   "skills": [
+    {
+      "slug": "search-and-analyze-zotero-research-libraries-through-mcp",
+      "name": "Search and analyze Zotero research libraries through MCP",
+      "title": "Search and analyze Zotero research libraries through MCP",
+      "description": "Use Zotero MCP to let research agents search papers, retrieve metadata, inspect annotations, and analyze citation context from a Zotero library.",
+      "category": "Research & Scraping",
+      "framework": "MCP",
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3353
+      }
+    },
+    {
+      "slug": "connect-azure-devops-projects-work-items-repos-and-pipelines-to-mcp-agents",
+      "name": "Connect Azure DevOps projects, work items, repos, and pipelines to MCP agents",
+      "title": "Connect Azure DevOps projects, work items, repos, and pipelines to MCP agents",
+      "description": "Use Azure DevOps MCP when an agent needs governed access to ADO projects, work items, builds, repos, test plans, wikis, and pipelines.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1725,
+        "npm_weekly_downloads": 334283
+      }
+    },
     {
       "slug": "ground-coding-agents-in-live-repository-documentation-with-gitmcp",
       "name": "Ground coding agents in live repository documentation with GitMCP",
