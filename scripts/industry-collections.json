@@ -398,22 +398,27 @@
         "ocrmypdf-searchable-pdf-ocr-pipeline",
         "apache-tika-document-extractor",
         "apache-tika-document-parser",
+        "extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg",
         "pdfplumber-python-pdf-text-table-extraction",
         "parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse",
         "search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review",
         "paperless-ngx-document-ocr-archive-management-system",
         "langextract-llm-structured-text-extraction",
+        "turn-messy-document-collections-into-structured-rows-with-docetl",
         "redact-pii-from-text-before-sharing-or-indexing-with-scrubadub",
         "search-large-pdfs-and-read-only-the-relevant-pages-before-answering",
+        "run-local-deep-research-workflows-with-local-deep-research",
         "process-redact-ocr-and-sign-documents-with-nutrient-agent-skill",
         "convert-dense-pdfs-into-llm-ready-text-and-page-aligned-markdown-with-olmocr",
         "turn-documents-into-validated-knowledge-graphs-with-docling-graph",
+        "use-ragflow-as-a-retrieval-and-context-layer-for-agent-workflows",
         "extract-structured-markdown-json-and-tagged-pdf-ready-outputs-from-pdfs-with-opendataloader-pdf",
         "enrich-paperless-ngx-documents-with-ai-generated-titles-tags-and-correspondents-using-paperless-gpt",
         "capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate",
         "extract-structured-data-and-attachments-from-raw-email-mailparser",
         "strip-quoted-email-history-and-signatures-before-summarizing-inbound-replies",
-        "load-mbox-mail-archives-into-sqlite-for-offline-search-audits-and-dataset-joins"
+        "load-mbox-mail-archives-into-sqlite-for-offline-search-audits-and-dataset-joins",
+        "put-approval-gates-and-audit-ready-policy-checks-between-agents-and-external-actions-with-dashclaw"
       ],
       "who_for": [
         "Legal operations, compliance, and records teams that need document intake, review, redaction, and archive workflows.",
@@ -422,6 +427,8 @@
       "jobs_covered": [
         "Convert scanned PDFs and office files into searchable text.",
         "Extract clauses, tables, attachments, and metadata from mixed records.",
+        "Run cited research and matter knowledge retrieval with source boundaries.",
+        "Build diligence review tables and route higher-risk agent actions through approval gates.",
         "Redact sensitive data before sharing or indexing.",
         "Search large archives before manual review."
       ],
@@ -444,11 +451,22 @@
             "store final packet",
             "index metadata"
           ]
+        },
+        {
+          "name": "Research and diligence support",
+          "steps": [
+            "Search cited sources",
+            "ingest matter documents",
+            "extract review-table fields",
+            "gate external actions",
+            "preserve decision evidence"
+          ]
         }
       ],
       "editorial_notes": [
         "The collection avoids legal-advice framing; these are intake, evidence, and operations tools.",
-        "Document-centric entries are favored over general security scanners unless they support compliance evidence work directly."
+        "Document-centric entries are favored over general security scanners unless they support compliance evidence work directly.",
+        "Research and RAG picks are framed as source-grounded support for legal operations and human review, not automated legal advice."
       ],
       "adjacent_collections": [
         "finance-filings",
@@ -481,6 +499,11 @@
           "persona": "Compliance engineer / archive specialist",
           "install_complexity": "High"
         },
+        "extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg": {
+          "why_here": "Adds an MCP-accessible extraction layer for PDFs, Office files, images, HTML, and other mixed matter inputs before review or indexing.",
+          "persona": "Matter knowledge engineer / eDiscovery ops",
+          "install_complexity": "High"
+        },
         "pdfplumber-python-pdf-text-table-extraction": {
           "why_here": "Pulls tables, text, and layout clues from contract exhibits and regulatory PDFs.",
           "persona": "Legal analyst / data wrangler",
@@ -506,6 +529,11 @@
           "persona": "Legal analyst / compliance reviewer",
           "install_complexity": "Medium"
         },
+        "turn-messy-document-collections-into-structured-rows-with-docetl": {
+          "why_here": "Turns large contract, diligence, or evidence sets into repeatable structured rows with failure review across the corpus.",
+          "persona": "Diligence lead / legal data analyst",
+          "install_complexity": "High"
+        },
         "redact-pii-from-text-before-sharing-or-indexing-with-scrubadub": {
           "why_here": "Redacts sensitive identifiers before content enters search, summarization, or external review.",
           "persona": "Privacy analyst / compliance ops",
@@ -515,6 +543,11 @@
           "why_here": "Limits review to relevant pages of long PDFs instead of pushing full documents through an agent.",
           "persona": "Legal researcher / review analyst",
           "install_complexity": "Medium"
+        },
+        "run-local-deep-research-workflows-with-local-deep-research": {
+          "why_here": "Runs private cited research across web, academic, and local document sources while preserving source links and a controlled knowledge base.",
+          "persona": "Legal researcher / knowledge manager",
+          "install_complexity": "High"
         },
         "process-redact-ocr-and-sign-documents-with-nutrient-agent-skill": {
           "why_here": "Bundles OCR, redaction, form filling, conversion, and signing for governed document operations.",
@@ -529,6 +562,11 @@
         "turn-documents-into-validated-knowledge-graphs-with-docling-graph": {
           "why_here": "Extracts schema-checked entities and relationships when matters need structured fact maps.",
           "persona": "Knowledge engineer / compliance analyst",
+          "install_complexity": "High"
+        },
+        "use-ragflow-as-a-retrieval-and-context-layer-for-agent-workflows": {
+          "why_here": "Provides a supervised RAG layer for matter document knowledge bases with traceable source support before agent answers are reviewed.",
+          "persona": "Matter knowledge manager / legal AI ops",
           "install_complexity": "High"
         },
         "extract-structured-markdown-json-and-tagged-pdf-ready-outputs-from-pdfs-with-opendataloader-pdf": {
@@ -560,6 +598,11 @@
           "why_here": "Turns mailbox archives into queryable SQLite evidence stores for offline audit work.",
           "persona": "Investigator / data analyst",
           "install_complexity": "Medium"
+        },
+        "put-approval-gates-and-audit-ready-policy-checks-between-agents-and-external-actions-with-dashclaw": {
+          "why_here": "Adds approval gates and replayable decision evidence when legal AI workflows need human review before external actions.",
+          "persona": "Legal AI governance lead / compliance ops",
+          "install_complexity": "High"
         }
       }
     },
