@@ -1,10 +1,10 @@
 ---
 name: "Stancl Tenancy v3 — Multi-Tenant Laravel"
 slug: "tenancy-development"
-description: "Develops multi-tenant Laravel applications with stancl/tenancy v3. Covers tenant models, domain/subdomain/path identification middleware, multi-database and single-database tenancy, bootstrappers (database, cache, filesystem, queue, Redis), features (TenantConfig, UserImpersonation, TelescopeTags), the full event system with JobPipeline, tenant-aware console commands, testing patterns, and production integrations with Spatie Permission, Spatie MediaLibrary, Laravel Scout, Livewire, Horizon, and queues."
+description: "Builds multi-tenant Laravel SaaS applications with stancl/tenancy v3. Best when you need domain/subdomain/path-based tenant identification, multi-database or single-database isolation, tenant-aware queues/cache/filesystems/Redis, production bootstrappers, configuration per-tenant, and seamless integration with Horizon, Scout, Livewire, and Spatie packages. Covers the full package API surface including event system, JobPipeline, console commands, testing patterns, and critical production gotchas."
 category: "Developer Tools"
 framework: "Claude Code"
-verification: listed
+verification: security_reviewed
 source: "https://tenancyforlaravel.com/docs/v3/"
 tool_ecosystem:
   tool: "stancl/tenancy"
@@ -16,19 +16,20 @@ tool_ecosystem:
 
 # Stancl Tenancy v3 — Multi-Tenant Laravel
 
-Comprehensive agent skill for building multi-tenant SaaS applications with [stancl/tenancy](https://tenancyforlaravel.com) v3 (`^3.9`). Covers the full package API surface and real-world production patterns.
+Comprehensive agent skill for building multi-tenant SaaS applications with [stancl/tenancy](https://tenancyforlaravel.com) v3 (`^3.9`). Covers the full package API surface, real-world production patterns, and critical gotchas.
 
 ## What this skill covers
 
-- **Package architecture** — central vs tenant contexts, automatic/manual tenancy modes
+- **Package architecture** — central vs tenant contexts, automatic/manual tenancy modes, tenant model patterns
 - **Tenant identification** — `InitializeTenancyByDomain`, `InitializeTenancyBySubdomain`, `InitializeTenancyByPath`, `InitializeTenancyByRequestData` middleware with custom `$onFail` handling
-- **Bootstrappers** — `DatabaseTenancyBootstrapper`, `CacheTenancyBootstrapper`, `FilesystemTenancyBootstrapper`, `QueueTenancyBootstrapper`, `RedisTenancyBootstrapper` plus patterns for custom bootstrappers
-- **Features** — `TenantConfig` (per-tenant Laravel config), `UserImpersonation`, `TelescopeTags`, `UniversalRoutes`, `CrossDomainRedirect`, `ViteBundler`
-- **Event system** — full lifecycle events (`CreatingTenant` → `TenantCreated`, `InitializingTenancy` → `TenancyBootstrapped`, `EndingTenancy` → `RevertedToCentralContext`) with `JobPipeline` for sequential job execution
+- **Data isolation** — multi-database (per-tenant databases) and single-database (`BelongsToTenant`, `BelongsToPrimaryModel`, `HasScopedValidationRules`, unique index scoping, `withoutTenancy()`)
+- **Bootstrappers** — database, cache, filesystem, queue, Redis bootstrappers + patterns for custom bootstrappers
+- **Features** — `TenantConfig` (per-tenant Laravel config), `UserImpersonation`, `TelescopeTags`, `UniversalRoutes`
+- **Event system** — full lifecycle events with `JobPipeline` for sequential job execution
 - **Console commands** — `tenants:migrate`, `tenants:seed`, `tenants:rollback`, `tenants:list`, `tenants:run` with `--tenants=<id>` filtering
-- **Production patterns** — real-world `TenantServiceProvider` wiring, tenant route middleware stacks (`ScopeSessions`, `PreventAccessFromCentralDomains`), Horizon job tagging, custom bootstrapper for Meilisearch index scoping
-- **Third-party integration** — Spatie Permission cache key scoping, Spatie MediaLibrary prefix scoping, Laravel Scout index prefixing, Livewire route middleware, Horizon tenant-tagged jobs, queue connection configuration
-- **Testing** — central vs tenant test patterns, `Event::fake()` caveats, database testing with multi-database tenancy
+- **Production patterns** — queue isolation strategies (tenant-specific queues, priority queues, dedicated workers), idempotent provisioning, deployment-scale migrations, Horizon job tagging, Scout Meilisearch index scoping, Spatie package integration, Livewire tenant routing
+- **Testing** — fast transaction-based testing (25x speed improvement), `Event::fake()` caveats, event faking for isolation
+- **Critical gotchas** — queued events + `SerializesModels` trap (never pass tenant-scoped models), `DatabaseBatchRepository` stale connection fix, bootstrapper prefix accumulation in long-running processes
 
 ## Common patterns
 
@@ -62,7 +63,21 @@ class ScoutTenancyBootstrapper implements TenancyBootstrapper
     public function bootstrap(Tenant $tenant): void { /* scope Meilisearch */ }
     public function revert(): void { /* restore central config */ }
 }
+
+// Single-database scoping
+class Post extends Model { use BelongsToTenant; }
+class Comment extends Model { use BelongsToPrimaryModel; }
 ```
+
+## Critical Gotchas
+
+**Queued events + SerializesModels:** Never pass tenant-scoped models in queued payloads. `BelongsToTenant`'s global scope fires before `QueueTenancyBootstrapper` restores context. Pass scalars (`tenantId`, `modelId`) and call `tenancy()->initialize()` in `handle()`.
+
+**DatabaseBatchRepository:** `DB::purge('tenant')` between jobs nulls the PDO. Use `houlokmah/tenancy-batch-fix` for batched jobs across tenants.
+
+**Prefix accumulation:** Cache/Redis/filesystem bootstrappers can accumulate prefixes across tenant switches in long-running processes (Horizon, Octane). Always test after multiple cycles.
+
+For full patterns including queue isolation strategies, transaction-based testing (25x speed), and provisioning safety, see `references/production-patterns.md` in the skill source.
 
 ## Installation
 
