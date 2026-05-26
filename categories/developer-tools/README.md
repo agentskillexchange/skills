@@ -227,6 +227,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Lip Gloss CSS-Like Terminal Styling Library for Go](../../skills/lipgloss-terminal-styling-library/) | 11k | — |
 | [OpenAI MCP Server](../../skills/openai-mcp-server/) | 10.9k | 20.5M/wk |
 | [Nitro Next-Generation Universal Server Toolkit by UnJS](../../skills/nitro-universal-server-toolkit-unjs/) | 10.6k | 453.9k/wk |
+| [Run terminal-native coding agent workflows with GitHub Copilot CLI](../../skills/run-terminal-native-coding-agent-workflows-with-github-copilot-cli/) | 10.6k | 3.6M/wk |
 | [SonarQube Code Analysis](../../skills/sonarqube-code-analysis/) | 10.6k | — |
 | [fq Binary Format Inspector and jq for Media Files](../../skills/fq-binary-format-inspector-jq-media/) | 10.5k | — |
 | [Git Branch Analyzer](../../skills/git-branch-analyzer-libgit2/) | 10.4k | — |

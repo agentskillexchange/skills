@@ -1,9 +1,45 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-05-25",
-  "total": 2509,
+  "generated": "2026-05-26",
+  "total": 2513,
   "skills": [
+    {
+      "slug": "trace-evaluate-simulate-and-guardrail-agent-releases-with-future-agi",
+      "name": "Trace, evaluate, simulate, and guardrail agent releases with Future AGI",
+      "title": "Trace, evaluate, simulate, and guardrail agent releases with Future AGI",
+      "description": "Use Future AGI to instrument agent runs, run evals and simulations, apply guardrails, and turn production traces into release-quality feedback.",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "run-terminal-native-coding-agent-workflows-with-github-copilot-cli",
+      "name": "Run terminal-native coding agent workflows with GitHub Copilot CLI",
+      "title": "Run terminal-native coding agent workflows with GitHub Copilot CLI",
+      "description": "Use GitHub Copilot CLI to plan, edit, debug, explain, and automate repository work from a terminal with GitHub context and approval controls.",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "run-durable-agent-tasks-and-event-driven-workflows-with-hatchet",
+      "name": "Run durable agent tasks and event-driven workflows with Hatchet",
+      "title": "Run durable agent tasks and event-driven workflows with Hatchet",
+      "description": "Use Hatchet to queue, retry, pause, resume, observe, and scale long-running agent tasks and background workflows.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "run-supervised-desktop-and-browser-agent-work-inside-agent-zero",
+      "name": "Run supervised desktop and browser agent work inside Agent Zero",
+      "title": "Run supervised desktop and browser agent work inside Agent Zero",
+      "description": "Use Agent Zero to give an agent an isolated Linux desktop, browser, plugins, skills, and host connector for supervised file, web, and GUI workflows.",
+      "category": "Templates & Workflows",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "prepare-meetings-and-follow-ups-from-local-work-memory-with-rowboat",
       "name": "Prepare meetings and follow-ups from local work memory with Rowboat",

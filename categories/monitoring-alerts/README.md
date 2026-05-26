@@ -32,7 +32,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | ⬇ 3.3k/wk |
 | [Simulate agent scenarios, trace failures, and watch production regressions with LangWatch](../../skills/simulate-agent-scenarios-trace-failures-and-watch-production-regressions-with-langwatch/) | ⬇ 54.7k/wk |
 | [Track coding-agent token spend and leaderboard drift across local session logs with Tokscale](../../skills/track-coding-agent-token-spend-and-leaderboard-drift-with-tokscale/) | ⬇ 64.6k/wk |
-| [Datadog MCP Server](../../skills/datadog-mcp-server/) | ⬇ 7.6M/wk |
+| [Trace, evaluate, simulate, and guardrail agent releases with Future AGI](../../skills/trace-evaluate-simulate-and-guardrail-agent-releases-with-future-agi/) | ⬇ 1.9k/wk |
 
 ---
 
@@ -126,6 +126,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Track coding-agent token spend and leaderboard drift across local session logs with Tokscale](../../skills/track-coding-agent-token-spend-and-leaderboard-drift-with-tokscale/) | 2k | 64.6k/wk |
 | [Elastic APM Transaction Anomaly Spotter](../../skills/elastic-apm-transaction-anomaly-spotter/) | 1.3k | — |
 | [Lint and auto-format Markdown documentation before agents ship content with rumdl](../../skills/lint-and-auto-format-markdown-documentation-before-agents-ship-content-with-rumdl/) | 1.1k | — |
+| [Trace, evaluate, simulate, and guardrail agent releases with Future AGI](../../skills/trace-evaluate-simulate-and-guardrail-agent-releases-with-future-agi/) | 1k | 1.9k/wk |
 | [Lint and validate Prometheus alerting rules before noisy or broken alerts reach production with Pint](../../skills/lint-and-validate-prometheus-alerting-rules-before-noisy-or-broken-alerts-reach-production-with-pint/) | 1k | — |
 | [LangSmith SDK for LLM Tracing and Evaluation](../../skills/langsmith-sdk-for-llm-tracing-and-evaluation/) | 843 | — |
 | [Datadog MCP Server](../../skills/datadog-mcp-server/) | 810 | 7.6M/wk |

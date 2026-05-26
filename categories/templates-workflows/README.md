@@ -101,6 +101,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Prefect Python Workflow Orchestration Framework for Data Pipelines](../../skills/prefect-python-workflow-orchestration-data-pipelines/) | 22.1k | — |
 | [Temporal Durable Execution Workflow Orchestration Platform](../../skills/temporal-durable-execution-workflow-platform/) | 19.4k | — |
 | [React Email Component Library for Building Email Templates](../../skills/react-email-component-library-email-templates/) | 18.4k | — |
+| [Run supervised desktop and browser agent work inside Agent Zero](../../skills/run-supervised-desktop-and-browser-agent-work-inside-agent-zero/) | 17.8k | — |
 | [Build a self-updating agent memory graph with GBrain](../../skills/build-a-self-updating-agent-memory-graph-with-gbrain/) | 17.3k | — |
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](../../skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | 17.3k | — |
 | [Run scheduled autonomous agent Hands with OpenFang](../../skills/run-scheduled-autonomous-agent-hands-with-openfang/) | 17.2k | — |
@@ -128,6 +129,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Plop.js Code Generator](../../skills/plopjs-code-generator/) | 7.6k | 1.6M/wk |
 | [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | 7.6k | 1.5M/wk |
 | [Run long-horizon spec-driven coding agent workflows with GSD 2](../../skills/run-long-horizon-spec-driven-coding-agent-workflows-with-gsd-2/) | 7.3k | 11.4k/wk |
+| [Run durable agent tasks and event-driven workflows with Hatchet](../../skills/run-durable-agent-tasks-and-event-driven-workflows-with-hatchet/) | 7.2k | 298.3k/wk |
 | [Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext](../../skills/pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-stay-readable-with-jupytext/) | 7.2k | — |
 | [Inspect live web apps and apply code changes with Stagewise](../../skills/inspect-live-web-apps-and-apply-code-changes-with-stagewise/) | 6.7k | 799/wk |
 | [Parameterize and execute notebooks as repeatable runs](../../skills/parameterize-and-execute-notebooks-as-repeatable-runs/) | 6.4k | — |

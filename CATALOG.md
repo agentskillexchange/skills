@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2509 published skills** across **17 categories** · 2,161 security reviewed · Updated 2026-05-25 19:26 UTC
+> **2513 published skills** across **17 categories** · 2,161 security reviewed · Updated 2026-05-26 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (326 skills)
+### 🛠️ Developer Tools (327 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -201,6 +201,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Lip Gloss CSS-Like Terminal Styling Library for Go](skills/lipgloss-terminal-styling-library/) | Lip Gloss by Charmbracelet is a Go library that brings CSS-like declarative styling to terminal UIs. With 11,000+… | Security Reviewed | 11k | — |
 | [OpenAI MCP Server](skills/openai-mcp-server/) | OpenAI MCP Server is built around OpenAI API platform. The underlying ecosystem is represented by openai/openai-node… | Security Reviewed | 10.9k | 20.5M/wk |
 | [Nitro Next-Generation Universal Server Toolkit by UnJS](skills/nitro-universal-server-toolkit-unjs/) | Nitro is a universal server framework from the UnJS ecosystem that lets you build and deploy web servers to any… | Published | 10.6k | 453.9k/wk |
+| [Run terminal-native coding agent workflows with GitHub Copilot CLI](skills/run-terminal-native-coding-agent-workflows-with-github-copilot-cli/) | Use GitHub Copilot CLI to plan, edit, debug, explain, and automate repository work from a terminal with GitHub… | Security Reviewed | 10.6k | 3.6M/wk |
 | [SonarQube Code Analysis](skills/sonarqube-code-analysis/) | SonarQube Code Analysis is built around SonarQube code quality platform. The underlying ecosystem is represented by… | Security Reviewed | 10.6k | — |
 | [fq Binary Format Inspector and jq for Media Files](skills/fq-binary-format-inspector-jq-media/) | fq is a command-line tool that brings jq-style querying to binary formats. It decodes, inspects, and transforms… | Security Reviewed | 10.5k | — |
 | [Git Branch Analyzer](skills/git-branch-analyzer-libgit2/) | Analyzes Git repository branch topology using libgit2 bindings and git-log parsing. Identifies stale branches, merge… | Security Reviewed | 10.4k | — |
@@ -1328,7 +1329,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [PagerDuty Event Orchestration Runbook](skills/pagerduty-event-orchestration-runbook/) | Builds incident runbooks around the PagerDuty Events API v2, Incidents API, and Response Plays so agents can… | Published | — | — |
 
 
-### 📄 Templates & Workflows (165 skills)
+### 📄 Templates & Workflows (167 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1395,6 +1396,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Prefect Python Workflow Orchestration Framework for Data Pipelines](skills/prefect-python-workflow-orchestration-data-pipelines/) | Prefect is a Python workflow orchestration framework for building resilient data pipelines. Add scheduling, retries,… | Security Reviewed | 22.1k | — |
 | [Temporal Durable Execution Workflow Orchestration Platform](skills/temporal-durable-execution-workflow-platform/) | Temporal is an open-source durable execution platform that lets developers build scalable, fault-tolerant workflows.… | Security Reviewed | 19.4k | — |
 | [React Email Component Library for Building Email Templates](skills/react-email-component-library-email-templates/) | React Email is an open source component library for building responsive, cross-client email templates using React… | Security Reviewed | 18.4k | — |
+| [Run supervised desktop and browser agent work inside Agent Zero](skills/run-supervised-desktop-and-browser-agent-work-inside-agent-zero/) | Use Agent Zero to give an agent an isolated Linux desktop, browser, plugins, skills, and host connector for… | Security Reviewed | 17.8k | — |
 | [Build a self-updating agent memory graph with GBrain](skills/build-a-self-updating-agent-memory-graph-with-gbrain/) | Use GBrain to give OpenClaw or Hermes-style agents a local knowledge brain with markdown ingestion, entity links,… | Security Reviewed | 17.3k | — |
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown,… | Published | 17.3k | — |
 | [Run scheduled autonomous agent Hands with OpenFang](skills/run-scheduled-autonomous-agent-hands-with-openfang/) | Use OpenFang to run packaged autonomous agent workflows on schedules with manifests, dashboards, reporting, and… | Security Reviewed | 17.2k | — |
@@ -1422,6 +1424,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Plop.js Code Generator](skills/plopjs-code-generator/) | Creates Plop.js generators with Handlebars templates and custom action types for scaffolding React components, API… | Security Reviewed | 7.6k | 1.6M/wk |
 | [Plop.js Code Generator Orchestrator](skills/plopjs-code-generator-orchestrator/) | Manages Plop.js micro-generators to scaffold components, modules, and boilerplate files using Handlebars templates.… | Security Reviewed | 7.6k | 1.5M/wk |
 | [Run long-horizon spec-driven coding agent workflows with GSD 2](skills/run-long-horizon-spec-driven-coding-agent-workflows-with-gsd-2/) | Use GSD 2 to break a project into milestones, manage agent context and branches, recover from drift, and let coding… | Security Reviewed | 7.3k | 11.4k/wk |
+| [Run durable agent tasks and event-driven workflows with Hatchet](skills/run-durable-agent-tasks-and-event-driven-workflows-with-hatchet/) | Use Hatchet to queue, retry, pause, resume, observe, and scale long-running agent tasks and background workflows. | Security Reviewed | 7.2k | 298.3k/wk |
 | [Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext](skills/pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-stay-readable-with-jupytext/) | Keep notebooks synchronized with `.py` or `.md` representations so version control, review, and refactoring can… | Security Reviewed | 7.2k | — |
 | [Inspect live web apps and apply code changes with Stagewise](skills/inspect-live-web-apps-and-apply-code-changes-with-stagewise/) | Use Stagewise when a coding agent needs browser context, console/debugger signals, UI inspection, and code-change… | Security Reviewed | 6.7k | 799/wk |
 | [Parameterize and execute notebooks as repeatable runs](skills/parameterize-and-execute-notebooks-as-repeatable-runs/) | Use Papermill when an agent needs to treat a Jupyter notebook like a reusable job instead of a one-off interactive… | Security Reviewed | 6.4k | — |
@@ -1501,7 +1504,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Makefile Workflow Generator](skills/makefile-workflow-generator/) | Generates project Makefiles with standard targets using GNU Make syntax, autodeps pattern rules, and integration… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (132 skills)
+### 📊 Monitoring & Alerts (133 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -1593,6 +1596,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Track coding-agent token spend and leaderboard drift across local session logs with Tokscale](skills/track-coding-agent-token-spend-and-leaderboard-drift-with-tokscale/) | Aggregate local coding-agent usage logs into spend, token, and trend views before quotas or budgets surprise the team. | Security Reviewed | 2k | 64.6k/wk |
 | [Elastic APM Transaction Anomaly Spotter](skills/elastic-apm-transaction-anomaly-spotter/) | Queries Elastic APM transaction data through the Elasticsearch REST API to surface latency anomalies and throughput… | Security Reviewed | 1.3k | — |
 | [Lint and auto-format Markdown documentation before agents ship content with rumdl](skills/lint-and-auto-format-markdown-documentation-before-agents-ship-content-with-rumdl/) | Run rumdl as a fast Markdown lint-and-format gate so agents can catch style, flavor, link-adjacent, and consistency… | Security Reviewed | 1.1k | — |
+| [Trace, evaluate, simulate, and guardrail agent releases with Future AGI](skills/trace-evaluate-simulate-and-guardrail-agent-releases-with-future-agi/) | Use Future AGI to instrument agent runs, run evals and simulations, apply guardrails, and turn production traces… | Security Reviewed | 1k | 1.9k/wk |
 | [Lint and validate Prometheus alerting rules before noisy or broken alerts reach production with Pint](skills/lint-and-validate-prometheus-alerting-rules-before-noisy-or-broken-alerts-reach-production-with-pint/) | Check Prometheus alerting and recording rules in CI or ad hoc runs so invalid, misleading, or dangerous rules are… | Published | 1k | — |
 | [LangSmith SDK for LLM Tracing and Evaluation](skills/langsmith-sdk-for-llm-tracing-and-evaluation/) | LangSmith provides tracing, evaluation, and debugging workflows for LLM applications. This skill is useful when an… | Security Reviewed | 843 | — |
 | [Datadog MCP Server](skills/datadog-mcp-server/) | Datadog MCP Server is built around Datadog observability platform. The underlying ecosystem is represented by… | Security Reviewed | 810 | 7.6M/wk |

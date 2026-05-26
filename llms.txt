@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-05-25
-# Total: 2509 skills
+# Generated: 2026-05-26
+# Total: 2513 skills
+
+## Trace, evaluate, simulate, and guardrail agent releases with Future AGI
+slug: trace-evaluate-simulate-and-guardrail-agent-releases-with-future-agi
+category: Monitoring & Alerts
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Future AGI to instrument agent runs, run evals and simulations, apply guardrails, and turn production traces into release-quality feedback.
+url: https://agentskillexchange.com/skills/trace-evaluate-simulate-and-guardrail-agent-releases-with-future-agi/
+
+## Run terminal-native coding agent workflows with GitHub Copilot CLI
+slug: run-terminal-native-coding-agent-workflows-with-github-copilot-cli
+category: Developer Tools
+framework: Custom Agents
+verification: Security Reviewed
+description: Use GitHub Copilot CLI to plan, edit, debug, explain, and automate repository work from a terminal with GitHub context and approval controls.
+url: https://agentskillexchange.com/skills/run-terminal-native-coding-agent-workflows-with-github-copilot-cli/
+
+## Run durable agent tasks and event-driven workflows with Hatchet
+slug: run-durable-agent-tasks-and-event-driven-workflows-with-hatchet
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Hatchet to queue, retry, pause, resume, observe, and scale long-running agent tasks and background workflows.
+url: https://agentskillexchange.com/skills/run-durable-agent-tasks-and-event-driven-workflows-with-hatchet/
+
+## Run supervised desktop and browser agent work inside Agent Zero
+slug: run-supervised-desktop-and-browser-agent-work-inside-agent-zero
+category: Templates & Workflows
+framework: Custom Agents
+verification: Security Reviewed
+description: Use Agent Zero to give an agent an isolated Linux desktop, browser, plugins, skills, and host connector for supervised file, web, and GUI workflows.
+url: https://agentskillexchange.com/skills/run-supervised-desktop-and-browser-agent-work-inside-agent-zero/
 
 ## Prepare meetings and follow-ups from local work memory with Rowboat
 slug: prepare-meetings-and-follow-ups-from-local-work-memory-with-rowboat
