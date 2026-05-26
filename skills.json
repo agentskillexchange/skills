@@ -1,8 +1,20 @@
 {
   "version": "2.0",
-  "total": 2513,
+  "total": 2514,
   "generated": "2026-05-26",
   "skills": [
+    {
+      "slug": "tenancy-development",
+      "name": "Stancl Tenancy v3 — Multi-Tenant Laravel",
+      "title": "Stancl Tenancy v3 — Multi-Tenant Laravel",
+      "description": "Builds multi-tenant Laravel SaaS applications with stancl/tenancy v3. Best when you need domain/subdomain/path-based tenant identification, multi-database or single-database isolation, tenant-aware queues/cache/filesystems/Redis, production bootstrappers, configuration…",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 3800
+      }
+    },
     {
       "slug": "trace-evaluate-simulate-and-guardrail-agent-releases-with-future-agi",
       "name": "Trace, evaluate, simulate, and guardrail agent releases with Future AGI",

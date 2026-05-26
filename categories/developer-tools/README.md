@@ -290,6 +290,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Run high-volume S3 copy, sync, and delete jobs faster than ad hoc aws s3 loops with s5cmd](../../skills/run-high-volume-s3-copy-sync-and-delete-jobs-faster-than-ad-hoc-aws-s3-loops-with-s5cmd/) | 4k | — |
 | [Capture and search AI coding sessions alongside Git history with Entire CLI](../../skills/capture-and-search-ai-coding-sessions-alongside-git-history-with-entire-cli/) | 4k | — |
 | [Wrangler Cloudflare Workers CLI for Edge Deployment](../../skills/wrangler-cloudflare-workers-cli-edge-deployment/) | 4k | 14M/wk |
+| [Stancl Tenancy v3 — Multi-Tenant Laravel](../../skills/tenancy-development/) | 3.8k | — |
 | [Build Java agent transport gateways with Atmosphere](../../skills/build-java-agent-transport-gateways-with-atmosphere/) | 3.8k | — |
 | [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | 3.6k | 28.1M/wk |
 | [AWS Lambda MCP Server](../../skills/aws-lambda-mcp-server/) | 3.6k | 7.5M/wk |

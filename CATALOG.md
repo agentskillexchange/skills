@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2513 published skills** across **17 categories** · 2,162 security reviewed · Updated 2026-05-26 13:27 UTC
+> **2514 published skills** across **17 categories** · 2,162 security reviewed · Updated 2026-05-26 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (327 skills)
+### 🛠️ Developer Tools (328 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -264,6 +264,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Run high-volume S3 copy, sync, and delete jobs faster than ad hoc aws s3 loops with s5cmd](skills/run-high-volume-s3-copy-sync-and-delete-jobs-faster-than-ad-hoc-aws-s3-loops-with-s5cmd/) | Execute large parallel object-store operations from command files or shell pipelines when agents need speed and… | Security Reviewed | 4k | — |
 | [Capture and search AI coding sessions alongside Git history with Entire CLI](skills/capture-and-search-ai-coding-sessions-alongside-git-history-with-entire-cli/) | Record AI coding sessions next to commits so an agent can recover why code changed, resume from checkpoints, and… | Security Reviewed | 4k | — |
 | [Wrangler Cloudflare Workers CLI for Edge Deployment](skills/wrangler-cloudflare-workers-cli-edge-deployment/) | Wrangler is the official command-line tool for building, testing, and deploying Cloudflare Workers. It provides a… | Security Reviewed | 4k | 14M/wk |
+| [Stancl Tenancy v3 — Multi-Tenant Laravel](skills/tenancy-development/) | Builds multi-tenant Laravel SaaS applications with stancl/tenancy v3. Best when you need domain/subdomain/path-based… | Security Reviewed | 3.8k | — |
 | [Build Java agent transport gateways with Atmosphere](skills/build-java-agent-transport-gateways-with-atmosphere/) | Use Atmosphere to build JVM agent gateways that stream over WebSocket, SSE, gRPC, WebTransport, MCP, A2A, and AG-UI… | Published | 3.8k | — |
 | [AWS S3 MCP Server](skills/aws-s3-mcp-server/) | AWS S3 MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | 3.6k | 28.1M/wk |
 | [AWS Lambda MCP Server](skills/aws-lambda-mcp-server/) | AWS Lambda MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | 3.6k | 7.5M/wk |
