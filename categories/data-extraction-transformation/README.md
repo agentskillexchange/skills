@@ -102,7 +102,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Unstructured Document Partitioning and ETL Library for LLM Pipelines](../../skills/unstructured-document-partitioning-etl-library-llm-pipelines/) | 14.4k | — |
 | [Gitingest Repository-to-Prompt Codebase Extraction Tool](../../skills/gitingest-repository-to-prompt-codebase-extraction-tool/) | 14.3k | — |
 | [Generate LLM fine-tuning, RAG, and eval datasets from source material with easy-dataset](../../skills/generate-llm-fine-tuning-rag-and-eval-datasets-from-source-material-with-easy-dataset/) | 14k | — |
-| [dbt MCP Server](../../skills/dbt-mcp-server/) | 12.8k | — |
+| [dbt MCP Server](../../skills/dbt-mcp-server/) | 12.9k | — |
 | [Instructor Structured Data Extraction from LLMs](../../skills/instructor-structured-data-extraction-llms/) | 12.7k | — |
 | [dbt Cloud MCP](../../skills/dbt-cloud-mcp/) | 12.6k | — |
 | [dbt Data Transform Orchestrator](../../skills/dbt-data-transform-orchestrator/) | 12.6k | — |
