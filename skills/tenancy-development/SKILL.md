@@ -2,16 +2,10 @@
 name: "Stancl Tenancy v3 — Multi-Tenant Laravel"
 slug: "tenancy-development"
 description: "Builds multi-tenant Laravel SaaS applications with stancl/tenancy v3. Best when you need domain/subdomain/path-based tenant identification, multi-database or single-database isolation, tenant-aware queues/cache/filesystems/Redis, production bootstrappers, configuration per-tenant, and seamless integration with Horizon, Scout, Livewire, and Spatie packages. Covers the full package API surface including event system, JobPipeline, console commands, testing patterns, and critical production gotchas."
+verification: "security_reviewed"
+source: "https://tenancyforlaravel.com/docs/v3/"
 category: "Developer Tools"
 framework: "Claude Code"
-verification: security_reviewed
-source: "https://tenancyforlaravel.com/docs/v3/"
-tool_ecosystem:
-  tool: "stancl/tenancy"
-  github_repo: "https://github.com/stancl/tenancy"
-  github_stars: 3800
-  license: "MIT"
-  maintained: true
 ---
 
 # Stancl Tenancy v3 — Multi-Tenant Laravel
