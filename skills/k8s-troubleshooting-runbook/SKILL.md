@@ -2,14 +2,14 @@
 name: "Kubernetes Troubleshooting Runbook"
 slug: "k8s-troubleshooting-runbook"
 description: ""
-github_stars: 122451
+github_stars: 122475
 verification: "security_reviewed"
 source: "https://github.com/kubernetes/kubernetes"
 category: "Monitoring & Alerts"
 framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "kubernetes/kubernetes"
-  github_stars: 122451
+  github_stars: 122475
 ---
 
 # Kubernetes Troubleshooting Runbook
