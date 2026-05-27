@@ -301,7 +301,6 @@
         "stripe-connect-account-provisioner",
         "bubble-stripe-subscription-portal",
         "cheerio-product-price-tracker",
-        "woocommerce-rest-order-manager",
         "stripe-webhook-signature-verifier"
       ],
       "who_for": [
@@ -410,11 +409,6 @@
         "cheerio-product-price-tracker": {
           "why_here": "Monitors product price pages when no clean feed or partner API exists for competitive checks.",
           "persona": "Merchandising analyst / growth ops",
-          "install_complexity": "Medium"
-        },
-        "woocommerce-rest-order-manager": {
-          "why_here": "Adds direct order query/update operations, complementing current WooCommerce inventory and webhook coverage.",
-          "persona": "WooCommerce operator / ecommerce ops",
           "install_complexity": "Medium"
         },
         "stripe-webhook-signature-verifier": {
