@@ -5,6 +5,7 @@ description: "Use i18next-parser when an agent needs to scan a codebase, find tr
 github_stars: 556
 verification: "security_reviewed"
 source: "https://github.com/i18next/i18next-parser"
+author: "i18next"
 category: "Templates & Workflows"
 framework: "Multi-Framework"
 tool_ecosystem:

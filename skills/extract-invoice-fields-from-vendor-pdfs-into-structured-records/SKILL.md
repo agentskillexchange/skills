@@ -5,6 +5,7 @@ description: "Uses invoice2data to turn invoice PDFs into structured JSON, CSV, 
 github_stars: 2137
 verification: "security_reviewed"
 source: "https://github.com/invoice-x/invoice2data"
+author: "invoice-x"
 publisher_type: "open_source_project"
 category: "Data Extraction & Transformation"
 framework: "Multi-Framework"

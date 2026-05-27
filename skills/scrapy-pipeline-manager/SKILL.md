@@ -5,6 +5,7 @@ description: "Manages Scrapy spider deployments via Scrapyd API with custom item
 github_stars: 61314
 verification: "security_reviewed"
 source: "https://github.com/scrapy/scrapy"
+author: "scrapy"
 category: "Research & Scraping"
 framework: "Claude Code"
 tool_ecosystem:

@@ -5,6 +5,7 @@ description: "Use the Harness MCP Server when an agent needs governed access to 
 github_stars: 43
 verification: "security_reviewed"
 source: "https://github.com/harness/mcp-server"
+author: "harness"
 category: "CI/CD Integrations"
 framework: "MCP"
 tool_ecosystem:

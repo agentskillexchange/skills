@@ -5,6 +5,7 @@ description: "Use humanizer to scan drafts for AI telltales, explain what sounds
 github_stars: 45
 verification: "security_reviewed"
 source: "https://github.com/brandonwise/humanizer"
+author: "brandonwise"
 category: "Content Writing & SEO"
 framework: "OpenClaw"
 tool_ecosystem:

@@ -5,6 +5,7 @@ description: "Uses ripgrep-all to run one full-text search across mixed document
 github_stars: 9573
 verification: "security_reviewed"
 source: "https://github.com/phiresky/ripgrep-all"
+author: "phiresky"
 publisher_type: "User"
 category: "Research & Scraping"
 framework: "Multi-Framework"

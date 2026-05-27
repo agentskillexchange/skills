@@ -5,6 +5,7 @@ description: "Use this skill when an agent needs to regenerate a typed API clien
 github_stars: 5675
 verification: "security_reviewed"
 source: "https://github.com/orval-labs/orval"
+author: "orval-labs"
 category: "Developer Tools"
 framework: "Multi-Framework"
 tool_ecosystem:

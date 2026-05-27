@@ -5,6 +5,7 @@ description: "Generates production-ready Scrapy spiders with middleware configur
 github_stars: 61314
 verification: "security_reviewed"
 source: "https://github.com/scrapy/scrapy"
+author: "scrapy"
 category: "Research & Scraping"
 framework: "ChatGPT Agents"
 tool_ecosystem:

@@ -5,6 +5,7 @@ description: "Use python-slugify when an agent has messy human titles and needs 
 github_stars: 1604
 verification: "security_reviewed"
 source: "https://github.com/un33k/python-slugify"
+author: "un33k"
 publisher_type: "GitHub User"
 category: "Content Writing & SEO"
 framework: "Multi-Framework"

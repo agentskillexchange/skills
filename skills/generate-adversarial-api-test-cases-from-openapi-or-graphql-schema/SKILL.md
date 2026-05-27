@@ -5,6 +5,7 @@ description: "Use Schemathesis when an agent needs to turn an API schema into br
 github_stars: 3214
 verification: "security_reviewed"
 source: "https://github.com/schemathesis/schemathesis"
+author: "schemathesis"
 category: "Security & Verification"
 framework: "Multi-Framework"
 tool_ecosystem:

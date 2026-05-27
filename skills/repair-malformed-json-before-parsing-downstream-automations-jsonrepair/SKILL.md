@@ -5,6 +5,7 @@ description: "Use jsonrepair when an agent receives JSON-like output that is alm
 github_stars: 2297
 verification: "security_reviewed"
 source: "https://github.com/josdejong/jsonrepair"
+author: "josdejong"
 category: "Developer Tools"
 framework: "Multi-Framework"
 tool_ecosystem:

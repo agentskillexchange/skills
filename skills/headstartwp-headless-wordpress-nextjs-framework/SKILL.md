@@ -5,6 +5,7 @@ description: "HeadstartWP is 10up's open-source framework for building headless 
 github_stars: 198
 verification: "security_reviewed"
 source: "https://github.com/10up/headstartwp"
+author: "10up"
 category: "WordPress & CMS"
 framework: "Multi-Framework"
 tool_ecosystem:

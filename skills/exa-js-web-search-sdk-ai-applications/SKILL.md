@@ -5,6 +5,7 @@ description: "exa-js is the official JavaScript SDK for Exa, a web search API bu
 github_stars: 126
 verification: "security_reviewed"
 source: "https://github.com/exa-labs/exa-js"
+author: "exa-labs"
 category: "Research & Scraping"
 framework: "Multi-Framework"
 tool_ecosystem:

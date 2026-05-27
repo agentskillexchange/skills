@@ -5,6 +5,7 @@ description: "Use this skill when an agent needs to lint a package before publis
 github_stars: 1252
 verification: "security_reviewed"
 source: "https://github.com/publint/publint"
+author: "publint"
 category: "Code Quality & Review"
 framework: "Multi-Framework"
 tool_ecosystem:

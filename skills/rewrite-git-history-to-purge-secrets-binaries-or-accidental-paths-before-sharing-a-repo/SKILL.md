@@ -5,6 +5,7 @@ description: "Use git-filter-repo when an agent needs to surgically rewrite repo
 github_stars: 12127
 verification: "security_reviewed"
 source: "https://github.com/newren/git-filter-repo"
+author: "newren"
 publisher_type: "individual_maintainer"
 category: "Runbooks & Diagnostics"
 framework: "Multi-Framework"

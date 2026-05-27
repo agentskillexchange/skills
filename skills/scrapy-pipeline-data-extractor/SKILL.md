@@ -5,6 +5,7 @@ description: "Builds production Scrapy spiders with custom Item Pipelines for da
 github_stars: 61314
 verification: "security_reviewed"
 source: "https://github.com/scrapy/scrapy"
+author: "scrapy"
 category: "Research & Scraping"
 framework: "Gemini"
 tool_ecosystem:

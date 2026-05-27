@@ -5,6 +5,7 @@ description: "Use vobject when an agent receives .vcf contact exports and needs 
 github_stars: 50
 verification: "security_reviewed"
 source: "https://github.com/py-vobject/vobject"
+author: "py-vobject"
 publisher_type: "GitHub Organization"
 category: "Integrations & Connectors"
 framework: "Multi-Framework"

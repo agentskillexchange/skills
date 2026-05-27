@@ -5,6 +5,7 @@ description: "Generates Scrapy spider classes with CSS/XPath selectors, item pip
 github_stars: 61314
 verification: "security_reviewed"
 source: "https://github.com/scrapy/scrapy"
+author: "scrapy"
 category: "Research & Scraping"
 framework: "Custom Agents"
 tool_ecosystem:

@@ -5,6 +5,7 @@ description: "Scrapy is a high-level Python framework for web crawling and struc
 github_stars: 61273
 verification: "security_reviewed"
 source: "https://github.com/scrapy/scrapy"
+author: "scrapy"
 category: "Research & Scraping"
 framework: "Multi-Framework"
 tool_ecosystem:

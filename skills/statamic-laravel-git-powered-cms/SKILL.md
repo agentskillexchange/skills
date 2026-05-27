@@ -5,6 +5,7 @@ description: "Builds content workflows around Statamic, the Laravel-based CMS th
 github_stars: 4782
 verification: "listed"
 source: "https://github.com/statamic/cms"
+author: "statamic"
 category: "WordPress & CMS"
 framework: "Multi-Framework"
 tool_ecosystem:

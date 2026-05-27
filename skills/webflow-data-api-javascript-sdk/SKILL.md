@@ -5,6 +5,7 @@ description: "Automates site, CMS, and publishing workflows with Webflow’s off
 github_stars: 340
 verification: "security_reviewed"
 source: "https://github.com/webflow/js-webflow-api"
+author: "webflow"
 category: "WordPress & CMS"
 framework: "Multi-Framework"
 tool_ecosystem:
