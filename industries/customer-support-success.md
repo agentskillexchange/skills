@@ -44,6 +44,7 @@ Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, c
 | [Extract structured data and attachments from raw email with MailParser](../skills/extract-structured-data-and-attachments-from-raw-email-mailparser/) | Normalizes inbound email bodies and attachments for ticket creation or routing. | Support automation engineer | Medium | 1.7k |
 | [AssemblyAI Real-Time Call Intelligence](../skills/assemblyai-realtime-call-intelligence/) | Captures live call transcripts and speaker context for support QA and follow-up notes. | Call center ops / QA lead | High | — |
 | [Strip quoted email history and signatures before summarizing inbound replies](../skills/strip-quoted-email-history-and-signatures-before-summarizing-inbound-replies/) | Keeps reply summaries focused on the newest customer message instead of quoted thread noise. | Support agent / inbox triage lead | Low | 78 |
+| [Zapier Multi-Step Lead Enrichment Workflow](../skills/zapier-lead-enrichment-workflow/) | Enriches lead/contact records before support-to-success handoff or account follow-up. | Success ops / CRM automation lead | Medium | — |
 
 ## Editorial Notes
 

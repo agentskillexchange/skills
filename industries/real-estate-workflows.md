@@ -21,6 +21,7 @@ Property research support, transaction paperwork, signature routing, document in
 
 - **Transaction packet:** Collect forms → OCR documents → route signatures → archive final records
 - **Property research support:** Fetch property facts → extract document context → summarize CRM notes → escalate gaps
+- **PDF handoff packet:** Collect transaction documents → extract key fields → generate PDF packet → route signatures → archive final records
 
 ## Recommended Picks
 
@@ -38,6 +39,7 @@ Property research support, transaction paperwork, signature routing, document in
 | [Retrieve Zillow-style property details and market trends through an MCP server](../skills/retrieve-zillow-style-property-details-and-market-trends-through-an-mcp-server/) | Adds supervised property-detail and market-trend lookup for research packets. | Market analyst / agent assistant | High | 40 |
 | [Connect MCP agents to BatchData property and address APIs](../skills/connect-mcp-agents-to-batchdata-property-and-address-apis/) | Enriches addresses and property records through a structured API surface instead of manual lookup. | Data ops / property researcher | High | 30 |
 | [Normalize vCard contact exports into structured contact records before CRM imports or dedup jobs](../skills/normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs/) | Cleans contact exports from phones, email, or events before CRM dedupe and import. | Broker assistant / CRM ops | Low | 50 |
+| [WeasyPrint HTML and CSS to PDF Document Generator](../skills/weasyprint-html-css-pdf-document-generator/) | Generates clean PDFs for property packets, disclosures, summaries, and transaction handoffs. | Transaction coordinator / broker ops | Medium | 8.8k |
 
 ## Editorial Notes
 

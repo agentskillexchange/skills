@@ -21,6 +21,7 @@ API docs, OpenAPI references, SDK generation, docs-site publishing, prose lintin
 
 - **API reference release:** Bundle OpenAPI → lint contract → generate clients → publish docs → check links
 - **Docs quality pass:** Run prose lint → verify links → preview site → ship versioned docs
+- **Code-aware docs maintenance:** Generate TypeScript reference → validate Python docstrings → open docs-update PR → verify links → publish versioned docs
 
 ## Recommended Picks
 
@@ -40,6 +41,9 @@ API docs, OpenAPI references, SDK generation, docs-site publishing, prose lintin
 | [Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac](../skills/run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac/) | Turns API examples into executable checks that catch stale docs and broken sample flows. | DevRel engineer / QA engineer | Medium | 809 |
 | [Publish versioned MkDocs documentation with mike](../skills/publish-versioned-mkdocs-documentation-with-mike/) | Keeps older docs versions available while publishing new releases. | Docs release manager | Medium | 728 |
 | [Verify Markdown links before docs or content ship with markdown-link-check](../skills/verify-markdown-links-before-docs-or-content-ship-with-markdown-link-check/) | Catches broken links across docs and README files before they reach developers. | Technical writer / docs QA | Low | 693 |
+| [TypeDoc TypeScript API Documentation Generator](../skills/typedoc-typescript-api-documentation-generator/) | Adds TypeScript API documentation generation, a major docs workflow not currently represented in the collection. | SDK engineer / docs engineer | Low | 8.4k |
+| [Update repository docs automatically after code changes and open review PRs](../skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | Lets agents open reviewable docs-update PRs after code changes, reducing stale developer documentation. | DevRel engineer / docs maintainer | Medium | 585 |
+| [Validate Python Docstrings Against Function Signatures with pydoclint](../skills/validate-python-docstrings-against-function-signatures-with-pydoclint/) | Catches stale Python docstrings when APIs change, improving generated and maintained reference docs. | Python library maintainer / docs QA | Low | 208 |
 
 ## Editorial Notes
 

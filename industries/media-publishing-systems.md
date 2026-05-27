@@ -21,6 +21,7 @@ Transcription, subtitles, podcast workflows, chaptering, localization, loudness 
 
 - **Podcast release packet:** Transcribe → chapter → summarize → normalize loudness → publish feed notes
 - **Subtitle repair:** Extract transcript → force-align timing → sync drift → export captions
+- **Source-to-repurpose pipeline:** Acquire source media → extract transcript → chapter clips → normalize audio → prepare republishing notes
 
 ## Recommended Picks
 
@@ -37,6 +38,7 @@ Transcription, subtitles, podcast workflows, chaptering, localization, loudness 
 | [Deepgram Real-Time Transcription Connector](../skills/deepgram-realtime-transcription-connector/) | Covers live captions and streaming call transcription where batch Whisper-style workflows are too late. | Live production / call intelligence engineer | High | 260 |
 | [AssemblyAI Summarization & Chapters Skill](../skills/assemblyai-summarization-chapters-skill/) | Converts transcripts into chapter summaries for show notes, lesson outlines, and archive navigation. | Podcast producer / editorial ops | Medium | — |
 | [Self-host an OpenAI-compatible speech API for local transcription, translation, and TTS with Speaches](../skills/self-host-an-openai-compatible-speech-api-for-local-transcription-translation-and-tts-with-speaches/) | Lets teams keep OpenAI-compatible speech workflows while self-hosting audio processing. | Platform engineer / privacy-conscious media team | High | 3.2k |
+| [yt-dlp Feature-Rich Audio and Video Downloader CLI](../skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | Adds the standard audio/video source acquisition layer before transcription, captioning, chaptering, or repurposing workflows. | Media ops / content producer | Medium | 154.3k |
 
 ## Editorial Notes
 

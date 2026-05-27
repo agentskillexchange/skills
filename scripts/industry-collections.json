@@ -17,7 +17,8 @@
         "faster-whisper-high-performance-speech-transcription",
         "deepgram-realtime-transcription-connector",
         "assemblyai-summarization-chapters-skill",
-        "self-host-an-openai-compatible-speech-api-for-local-transcription-translation-and-tts-with-speaches"
+        "self-host-an-openai-compatible-speech-api-for-local-transcription-translation-and-tts-with-speaches",
+        "yt-dlp-feature-rich-audio-video-downloader-cli"
       ],
       "who_for": [
         "Podcast, video, course, and newsroom teams that need repeatable post-production handoffs.",
@@ -47,6 +48,16 @@
             "force-align timing",
             "sync drift",
             "export captions"
+          ]
+        },
+        {
+          "name": "Source-to-repurpose pipeline",
+          "steps": [
+            "Acquire source media",
+            "extract transcript",
+            "chapter clips",
+            "normalize audio",
+            "prepare republishing notes"
           ]
         }
       ],
@@ -113,6 +124,11 @@
           "why_here": "Lets teams keep OpenAI-compatible speech workflows while self-hosting audio processing.",
           "persona": "Platform engineer / privacy-conscious media team",
           "install_complexity": "High"
+        },
+        "yt-dlp-feature-rich-audio-video-downloader-cli": {
+          "why_here": "Adds the standard audio/video source acquisition layer before transcription, captioning, chaptering, or repurposing workflows.",
+          "persona": "Media ops / content producer",
+          "install_complexity": "Medium"
         }
       }
     },
@@ -284,7 +300,10 @@
         "stripe-payment-flow-connector",
         "stripe-connect-account-provisioner",
         "bubble-stripe-subscription-portal",
-        "cheerio-product-price-tracker"
+        "cheerio-product-price-tracker",
+        "woocommerce-rest-order-manager",
+        "woocommerce-webhook-orchestrator",
+        "stripe-webhook-signature-verifier"
       ],
       "who_for": [
         "Store operators, marketplace teams, and ecommerce engineers managing catalog, order, inventory, and payment workflows.",
@@ -313,6 +332,16 @@
             "verify checkout flow",
             "inspect webhooks",
             "reconcile payouts"
+          ]
+        },
+        {
+          "name": "Webhook-trusted order automation",
+          "steps": [
+            "Verify payment webhook",
+            "route commerce event",
+            "query order state",
+            "update fulfillment context",
+            "inspect failures"
           ]
         }
       ],
@@ -382,6 +411,21 @@
         "cheerio-product-price-tracker": {
           "why_here": "Monitors product price pages when no clean feed or partner API exists for competitive checks.",
           "persona": "Merchandising analyst / growth ops",
+          "install_complexity": "Medium"
+        },
+        "woocommerce-rest-order-manager": {
+          "why_here": "Adds direct order query/update operations, complementing current WooCommerce inventory and webhook coverage.",
+          "persona": "WooCommerce operator / ecommerce ops",
+          "install_complexity": "Medium"
+        },
+        "woocommerce-webhook-orchestrator": {
+          "why_here": "Manages webhook lifecycle and event routing for order, product, and customer automations instead of only inspecting failures.",
+          "persona": "Ecommerce automation engineer",
+          "install_complexity": "Medium"
+        },
+        "stripe-webhook-signature-verifier": {
+          "why_here": "Verifies payment webhook signatures before ecommerce automations trust checkout, subscription, or marketplace events.",
+          "persona": "Payments engineer / marketplace ops",
           "install_complexity": "Medium"
         }
       }
@@ -623,7 +667,9 @@
         "apache-tika-document-extractor",
         "apache-tika-document-parser",
         "parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse",
-        "redact-pii-from-text-before-sharing-or-indexing-with-scrubadub"
+        "redact-pii-from-text-before-sharing-or-indexing-with-scrubadub",
+        "surya-document-ocr-layout-analysis-table-recognition",
+        "extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg"
       ],
       "who_for": [
         "Healthcare operations, intake, research, and documentation teams handling paperwork-heavy non-clinical workflows.",
@@ -652,6 +698,16 @@
             "collect citations",
             "summarize findings",
             "preserve source links"
+          ]
+        },
+        {
+          "name": "Mixed-document intake extraction",
+          "steps": [
+            "Ingest mixed files",
+            "OCR scanned layouts",
+            "extract tables and metadata",
+            "redact sensitive data",
+            "route for human review"
           ]
         }
       ],
@@ -718,6 +774,16 @@
           "why_here": "Removes obvious identifiers before documentation text is shared, indexed, or sent downstream.",
           "persona": "Privacy reviewer / documentation ops",
           "install_complexity": "Low"
+        },
+        "surya-document-ocr-layout-analysis-table-recognition": {
+          "why_here": "Adds layout-aware OCR and table recognition for scanned forms, records, and intake packets.",
+          "persona": "Health records ops / documentation analyst",
+          "install_complexity": "High"
+        },
+        "extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg": {
+          "why_here": "Gives agents one MCP-accessible extraction layer for PDFs, Office files, images, HTML, and other mixed healthcare intake inputs.",
+          "persona": "Health data engineer / AI documentation ops",
+          "install_complexity": "High"
         }
       }
     },
@@ -737,7 +803,9 @@
         "umami-privacy-focused-web-analytics",
         "metabase-open-source-business-intelligence-and-embedded-analytics",
         "duckdb-sql-analytics-agent",
-        "evidence-bi-as-code-sql-markdown-analytics"
+        "evidence-bi-as-code-sql-markdown-analytics",
+        "run-repeatable-agent-evaluation-suites-with-trajectory-and-simulator-coverage-using-strands-evals",
+        "stripe-revenue-analytics-dashboard"
       ],
       "who_for": [
         "Product, growth, analytics, and rollout teams that need agents to inspect metrics, flags, and experiment evidence.",
@@ -766,6 +834,16 @@
             "compare cohorts",
             "build dashboard",
             "capture decisions"
+          ]
+        },
+        {
+          "name": "AI feature evaluation loop",
+          "steps": [
+            "Run eval suite",
+            "compare launch evidence",
+            "review revenue movement",
+            "update rollout decision",
+            "capture follow-up"
           ]
         }
       ],
@@ -828,6 +906,16 @@
           "why_here": "Builds versioned SQL-backed data reports that can live beside launch docs.",
           "persona": "Analytics engineer / growth ops",
           "install_complexity": "Medium"
+        },
+        "run-repeatable-agent-evaluation-suites-with-trajectory-and-simulator-coverage-using-strands-evals": {
+          "why_here": "Adds repeatable AI-agent evaluation evidence for launch readiness, complementing analytics and feature-flag workflows.",
+          "persona": "AI product manager / evaluation lead",
+          "install_complexity": "Medium"
+        },
+        "stripe-revenue-analytics-dashboard": {
+          "why_here": "Adds revenue analytics for growth teams tracking MRR, churn, LTV, and subscription movement from Stripe data.",
+          "persona": "Growth analyst / RevOps",
+          "install_complexity": "Medium"
         }
       }
     },
@@ -851,7 +939,10 @@
         "resolve-and-validate-openapi-specs-with-remote-refs-before-client-generation-or-review-with-prance",
         "run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac",
         "publish-versioned-mkdocs-documentation-with-mike",
-        "verify-markdown-links-before-docs-or-content-ship-with-markdown-link-check"
+        "verify-markdown-links-before-docs-or-content-ship-with-markdown-link-check",
+        "typedoc-typescript-api-documentation-generator",
+        "update-repository-docs-automatically-after-code-changes-and-open-review-prs",
+        "validate-python-docstrings-against-function-signatures-with-pydoclint"
       ],
       "who_for": [
         "DevRel, API platform, SDK, and documentation teams maintaining references, examples, and docs sites.",
@@ -881,6 +972,16 @@
             "verify links",
             "preview site",
             "ship versioned docs"
+          ]
+        },
+        {
+          "name": "Code-aware docs maintenance",
+          "steps": [
+            "Generate TypeScript reference",
+            "validate Python docstrings",
+            "open docs-update PR",
+            "verify links",
+            "publish versioned docs"
           ]
         }
       ],
@@ -962,6 +1063,21 @@
           "why_here": "Catches broken links across docs and README files before they reach developers.",
           "persona": "Technical writer / docs QA",
           "install_complexity": "Low"
+        },
+        "typedoc-typescript-api-documentation-generator": {
+          "why_here": "Adds TypeScript API documentation generation, a major docs workflow not currently represented in the collection.",
+          "persona": "SDK engineer / docs engineer",
+          "install_complexity": "Low"
+        },
+        "update-repository-docs-automatically-after-code-changes-and-open-review-prs": {
+          "why_here": "Lets agents open reviewable docs-update PRs after code changes, reducing stale developer documentation.",
+          "persona": "DevRel engineer / docs maintainer",
+          "install_complexity": "Medium"
+        },
+        "validate-python-docstrings-against-function-signatures-with-pydoclint": {
+          "why_here": "Catches stale Python docstrings when APIs change, improving generated and maintained reference docs.",
+          "persona": "Python library maintainer / docs QA",
+          "install_complexity": "Low"
         }
       }
     },
@@ -989,7 +1105,8 @@
         "gmail-thread-summarizer-action-extractor",
         "extract-structured-data-and-attachments-from-raw-email-mailparser",
         "assemblyai-realtime-call-intelligence",
-        "strip-quoted-email-history-and-signatures-before-summarizing-inbound-replies"
+        "strip-quoted-email-history-and-signatures-before-summarizing-inbound-replies",
+        "zapier-lead-enrichment-workflow"
       ],
       "discovery_candidates": [
         "https://github.com/nbashaw/claude-cs",
@@ -1126,6 +1243,11 @@
           "why_here": "Keeps reply summaries focused on the newest customer message instead of quoted thread noise.",
           "persona": "Support agent / inbox triage lead",
           "install_complexity": "Low"
+        },
+        "zapier-lead-enrichment-workflow": {
+          "why_here": "Enriches lead/contact records before support-to-success handoff or account follow-up.",
+          "persona": "Success ops / CRM automation lead",
+          "install_complexity": "Medium"
         }
       }
     },
@@ -1147,7 +1269,8 @@
         "rag-backed-real-estate-property-research",
         "retrieve-zillow-style-property-details-and-market-trends-through-an-mcp-server",
         "connect-mcp-agents-to-batchdata-property-and-address-apis",
-        "normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs"
+        "normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs",
+        "weasyprint-html-css-pdf-document-generator"
       ],
       "discovery_candidates": [
         "https://github.com/AleksNeStu/ai-real-estate-assistant",
@@ -1183,6 +1306,16 @@
             "extract document context",
             "summarize CRM notes",
             "escalate gaps"
+          ]
+        },
+        {
+          "name": "PDF handoff packet",
+          "steps": [
+            "Collect transaction documents",
+            "extract key fields",
+            "generate PDF packet",
+            "route signatures",
+            "archive final records"
           ]
         }
       ],
@@ -1255,6 +1388,11 @@
           "why_here": "Cleans contact exports from phones, email, or events before CRM dedupe and import.",
           "persona": "Broker assistant / CRM ops",
           "install_complexity": "Low"
+        },
+        "weasyprint-html-css-pdf-document-generator": {
+          "why_here": "Generates clean PDFs for property packets, disclosures, summaries, and transaction handoffs.",
+          "persona": "Transaction coordinator / broker ops",
+          "install_complexity": "Medium"
         }
       }
     }

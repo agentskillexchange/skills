@@ -21,6 +21,7 @@ Product analytics, feature flags, rollout checks, session replay, privacy-friend
 
 - **Launch readiness:** Check feature flags → review analytics baseline → inspect replay samples → publish rollout notes
 - **Growth report:** Query events → compare cohorts → build dashboard → capture decisions
+- **AI feature evaluation loop:** Run eval suite → compare launch evidence → review revenue movement → update rollout decision → capture follow-up
 
 ## Recommended Picks
 
@@ -36,6 +37,8 @@ Product analytics, feature flags, rollout checks, session replay, privacy-friend
 | [Metabase Open Source Business Intelligence and Embedded Analytics](../skills/metabase-open-source-business-intelligence-and-embedded-analytics/) | Turns product and growth data into dashboards that non-engineers can inspect. | Analytics engineer / product lead | High | 46.8k |
 | [DuckDB SQL Analytics Agent](../skills/duckdb-sql-analytics-agent/) | Lets teams analyze local event exports and experiment files before building warehouse models. | Product analyst / data scientist | Low | 37.1k |
 | [Evidence BI-as-Code SQL and Markdown Analytics Framework](../skills/evidence-bi-as-code-sql-markdown-analytics/) | Builds versioned SQL-backed data reports that can live beside launch docs. | Analytics engineer / growth ops | Medium | 6.1k |
+| [Run repeatable agent evaluation suites with trajectory and simulator coverage using Strands Evals](../skills/run-repeatable-agent-evaluation-suites-with-trajectory-and-simulator-coverage-using-strands-evals/) | Adds repeatable AI-agent evaluation evidence for launch readiness, complementing analytics and feature-flag workflows. | AI product manager / evaluation lead | Medium | 105 |
+| [Stripe Revenue Analytics Dashboard Builder](../skills/stripe-revenue-analytics-dashboard/) | Adds revenue analytics for growth teams tracking MRR, churn, LTV, and subscription movement from Stripe data. | Growth analyst / RevOps | Medium | 4.4k |
 
 ## Editorial Notes
 

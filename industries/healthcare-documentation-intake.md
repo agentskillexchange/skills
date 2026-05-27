@@ -21,6 +21,7 @@ Documentation intake, OCR, transcription, structured extraction, and biomedical 
 
 - **Non-clinical intake packet:** OCR forms → extract structured fields → redact sensitive data → route for human review
 - **Literature support:** Search PubMed → collect citations → summarize findings → preserve source links
+- **Mixed-document intake extraction:** Ingest mixed files → OCR scanned layouts → extract tables and metadata → redact sensitive data → route for human review
 
 ## Recommended Picks
 
@@ -37,6 +38,8 @@ Documentation intake, OCR, transcription, structured extraction, and biomedical 
 | [Apache Tika Document Parser](../skills/apache-tika-document-parser/) | Adds metadata and embedded-object parsing for mixed healthcare document packets. | Health data engineer / archive specialist | High | 3.7k |
 | [Parse local PDFs into agent-ready text, JSON, and screenshots with LiteParse](../skills/parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse/) | Keeps local PDF extraction inspectable with text, JSON, and screenshots before PHI-sensitive review. | AI ops / documentation QA | Medium | 5.1k |
 | [Redact PII from text before sharing or indexing with scrubadub](../skills/redact-pii-from-text-before-sharing-or-indexing-with-scrubadub/) | Removes obvious identifiers before documentation text is shared, indexed, or sent downstream. | Privacy reviewer / documentation ops | Low | 421 |
+| [Surya Document OCR with Layout Analysis and Table Recognition](../skills/surya-document-ocr-layout-analysis-table-recognition/) | Adds layout-aware OCR and table recognition for scanned forms, records, and intake packets. | Health records ops / documentation analyst | High | 19.5k |
+| [Extract structured text, metadata, tables, and images from mixed documents through an MCP server with Kreuzberg](../skills/extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg/) | Gives agents one MCP-accessible extraction layer for PDFs, Office files, images, HTML, and other mixed healthcare intake inputs. | Health data engineer / AI documentation ops | High | 7.6k |
 
 ## Editorial Notes
 
