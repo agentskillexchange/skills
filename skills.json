@@ -1,8 +1,32 @@
 {
   "version": "2.0",
-  "total": 2515,
+  "total": 2517,
   "generated": "2026-05-27",
   "skills": [
+    {
+      "slug": "install-focused-claude-code-workflow-plugins-from-claude-night-market",
+      "name": "Install focused Claude Code workflow plugins from Claude Night Market",
+      "title": "Install focused Claude Code workflow plugins from Claude Night Market",
+      "description": "Review and install only the Claude Night Market plugins needed for a specific Claude Code workflow, such as PR prep, code review, TDD gates,…",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 291
+      }
+    },
+    {
+      "slug": "configure-supervised-multi-provider-agent-workspaces-with-craft-agents",
+      "name": "Configure supervised multi-provider agent workspaces with Craft Agents",
+      "title": "Configure supervised multi-provider agent workspaces with Craft Agents",
+      "description": "Set up Craft Agents workspaces with connected sources, imported skills, MCP servers, permission modes, and session workflow states for supervised agent work.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 6132
+      }
+    },
     {
       "slug": "give-agents-persistent-semantic-memory-with-memora",
       "name": "Give agents persistent semantic memory with Memora",
@@ -30023,7 +30047,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4426,
-        "npm_weekly_downloads": 12276932,
+        "npm_weekly_downloads": 11915676,
         "license": "MIT"
       }
     },
@@ -30160,7 +30184,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4426,
-        "npm_weekly_downloads": 12276932,
+        "npm_weekly_downloads": 11915676,
         "license": "MIT"
       }
     },
@@ -30268,7 +30292,7 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 810,
+        "github_stars": 811,
         "npm_weekly_downloads": 6959655
       }
     },
@@ -30281,7 +30305,7 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 25246,
+        "github_stars": 25235,
         "npm_weekly_downloads": 2822826,
         "license": "Apache-2.0"
       }
@@ -30295,7 +30319,7 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 48466
+        "github_stars": 48449
       }
     },
     {
@@ -30307,7 +30331,7 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 22979,
+        "github_stars": 22971,
         "license": "Apache-2.0"
       }
     },
@@ -30332,7 +30356,7 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 25291,
+        "github_stars": 25294,
         "license": "MIT"
       }
     },
@@ -30345,7 +30369,7 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 728,
+        "github_stars": 729,
         "license": "Apache-2.0"
       }
     },
@@ -30358,7 +30382,7 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 602,
+        "github_stars": 603,
         "npm_weekly_downloads": 15537,
         "license": "MIT"
       }
@@ -30372,7 +30396,7 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 47,
+        "github_stars": 48,
         "license": "MPL-2.0"
       }
     },
@@ -30385,7 +30409,7 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 2798,
+        "github_stars": 2805,
         "license": "MIT"
       }
     },
@@ -30398,7 +30422,7 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 705,
+        "github_stars": 706,
         "npm_weekly_downloads": 91111
       }
     },
@@ -30411,7 +30435,7 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 2472,
+        "github_stars": 2480,
         "license": "Apache-2.0"
       }
     },
@@ -30436,7 +30460,7 @@
       "framework": "OpenClaw",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 1007,
+        "github_stars": 1010,
         "license": "AGPL-3.0"
       }
     },
@@ -30502,7 +30526,7 @@
       "framework": "OpenClaw",
       "verification": "listed",
       "signals": {
-        "github_stars": 619
+        "github_stars": 621
       }
     },
     {
@@ -30514,8 +30538,8 @@
       "framework": "OpenClaw",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 10936,
-        "npm_weekly_downloads": 22530663,
+        "github_stars": 10935,
+        "npm_weekly_downloads": 22023659,
         "license": "Apache-2.0"
       }
     },
@@ -30541,7 +30565,7 @@
       "framework": "OpenClaw",
       "verification": "listed",
       "signals": {
-        "github_stars": 60498
+        "github_stars": 60526
       }
     },
     {
@@ -30558,7 +30582,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 86238
+        "github_stars": 86308
       }
     },
     {
@@ -30570,7 +30594,7 @@
       "framework": "OpenClaw",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 100536,
+        "github_stars": 100635,
         "license": "MIT"
       }
     },
@@ -30583,7 +30607,7 @@
       "framework": "Custom Agents",
       "verification": "listed",
       "signals": {
-        "github_stars": 21143
+        "github_stars": 21146
       }
     },
     {
@@ -30600,7 +30624,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 86238,
+        "github_stars": 86308,
         "npm_weekly_downloads": 225428
       }
     },
@@ -30617,7 +30641,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 186,
+        "github_stars": 187,
         "license": "MIT"
       }
     },
@@ -30630,7 +30654,7 @@
       "framework": "OpenClaw",
       "verification": "listed",
       "signals": {
-        "github_stars": 21143
+        "github_stars": 21146
       }
     },
     {
@@ -30647,7 +30671,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 86238,
+        "github_stars": 86308,
         "npm_weekly_downloads": 395921
       }
     },
@@ -30665,7 +30689,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 33027,
+        "github_stars": 33078,
         "npm_weekly_downloads": 3226927,
         "license": "Apache-2.0"
       }
@@ -30679,7 +30703,7 @@
       "framework": "Custom Agents",
       "verification": "listed",
       "signals": {
-        "github_stars": 21143
+        "github_stars": 21146
       }
     },
     {
@@ -30694,7 +30718,7 @@
       ],
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 89437,
+        "github_stars": 89573,
         "npm_weekly_downloads": 52257271,
         "license": "Apache-2.0"
       }

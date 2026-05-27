@@ -2,8 +2,26 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-05-27",
-  "total": 2515,
+  "total": 2517,
   "skills": [
+    {
+      "slug": "install-focused-claude-code-workflow-plugins-from-claude-night-market",
+      "name": "Install focused Claude Code workflow plugins from Claude Night Market",
+      "title": "Install focused Claude Code workflow plugins from Claude Night Market",
+      "description": "Review and install only the Claude Night Market plugins needed for a specific Claude Code workflow, such as PR prep, code review, TDD gates,…",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "configure-supervised-multi-provider-agent-workspaces-with-craft-agents",
+      "name": "Configure supervised multi-provider agent workspaces with Craft Agents",
+      "title": "Configure supervised multi-provider agent workspaces with Craft Agents",
+      "description": "Set up Craft Agents workspaces with connected sources, imported skills, MCP servers, permission modes, and session workflow states for supervised agent work.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "give-agents-persistent-semantic-memory-with-memora",
       "name": "Give agents persistent semantic memory with Memora",

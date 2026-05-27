@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-05-27
-# Total: 2515 skills
+# Total: 2517 skills
+
+## Install focused Claude Code workflow plugins from Claude Night Market
+slug: install-focused-claude-code-workflow-plugins-from-claude-night-market
+category: Developer Tools
+framework: Claude Code
+verification: Security Reviewed
+description: Review and install only the Claude Night Market plugins needed for a specific Claude Code workflow, such as PR prep, code review, TDD gates,…
+url: https://agentskillexchange.com/skills/install-focused-claude-code-workflow-plugins-from-claude-night-market/
+
+## Configure supervised multi-provider agent workspaces with Craft Agents
+slug: configure-supervised-multi-provider-agent-workspaces-with-craft-agents
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Set up Craft Agents workspaces with connected sources, imported skills, MCP servers, permission modes, and session workflow states for supervised agent work.
+url: https://agentskillexchange.com/skills/configure-supervised-multi-provider-agent-workspaces-with-craft-agents/
 
 ## Give agents persistent semantic memory with Memora
 slug: give-agents-persistent-semantic-memory-with-memora

@@ -134,6 +134,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Inspect live web apps and apply code changes with Stagewise](../../skills/inspect-live-web-apps-and-apply-code-changes-with-stagewise/) | 6.7k | 799/wk |
 | [Parameterize and execute notebooks as repeatable runs](../../skills/parameterize-and-execute-notebooks-as-repeatable-runs/) | 6.4k | — |
 | [Study customer-service triage and handoff patterns with the OpenAI CS agents demo](../../skills/study-customer-service-triage-and-handoff-patterns-with-the-openai-cs-agents-demo/) | 6.3k | — |
+| [Configure supervised multi-provider agent workspaces with Craft Agents](../../skills/configure-supervised-multi-provider-agent-workspaces-with-craft-agents/) | 6.1k | — |
 | [Orchestrate goal-driven TypeScript agent teams with Open Multi Agent](../../skills/orchestrate-goal-driven-typescript-agent-teams-with-open-multi-agent/) | 6.1k | — |
 | [Turn goals into traced multi-agent task DAGs with open-multi-agent](../../skills/turn-goals-into-traced-multi-agent-task-dags-with-open-multi-agent/) | 6k | — |
 | [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter/) | 5.6k | 1.2M/wk |
@@ -184,7 +185,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Run ticket queues through unattended coding-agent batches and escalate only on blockers with Codex Autorunner](../../skills/run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner/) | 670 | — |
 | [Govern agent skills, MCP servers, prompts, and tool calls with DefenseClaw](../../skills/govern-agent-skills-mcp-servers-prompts-and-tool-calls-with-defenseclaw/) | 647 | — |
 | [Sync dbt schema YAML and inherited column metadata before docs drift accumulates with dbt-osmosis](../../skills/sync-dbt-schema-yaml-and-inherited-column-metadata-before-docs-drift-accumulates-with-dbt-osmosis/) | 622 | — |
-| [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | 619 | — |
+| [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | 621 | — |
 | [Keep GitHub wiki pages synced with recently merged code changes](../../skills/keep-github-wiki-pages-synced-with-recently-merged-code-changes/) | 585 | — |
 | [Review open pull requests against repository contribution guidelines](../../skills/review-open-pull-requests-against-repository-contribution-guidelines/) | 585 | — |
 | [Extract translation keys from code and maintain locale catalogs with i18next-parser](../../skills/extract-translation-keys-from-code-and-maintain-locale-catalogs-i18next-parser/) | 556 | — |

@@ -84,7 +84,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Inngest Event-Driven Durable Workflow Orchestration Platform](../../skills/inngest-event-driven-durable-workflow-orchestration/) | 5.2k | — |
 | [Firebase — Google Application Development Platform](../../skills/firebase-google-app-development-platform/) | 5.1k | — |
 | [Atlassian MCP Server for Jira and Confluence](../../skills/atlassian-mcp-server-jira-confluence/) | 4.8k | — |
-| [Stripe MCP Server](../../skills/stripe-mcp-server/) | 4.4k | 12.3M/wk |
+| [Stripe MCP Server](../../skills/stripe-mcp-server/) | 4.4k | 11.9M/wk |
 | [Stripe Connect Account Provisioner](../../skills/stripe-connect-account-provisioner/) | 4.4k | 9.3M/wk |
 | [Stripe Connect Integration](../../skills/stripe-connect-integration/) | 4.4k | 9.3M/wk |
 | [Stripe Connect Marketplace Sync](../../skills/stripe-connect-marketplace-sync/) | 4.4k | 9.3M/wk |
@@ -127,7 +127,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Build authenticated MCP tools and servers with Arcade MCP](../../skills/build-authenticated-mcp-tools-and-servers-with-arcade-mcp/) | 895 | — |
 | [Datadog Integration Connector](../../skills/datadog-integration-connector-agent/) | 791 | 6.6M/wk |
 | [Docker MCP Server for Container Lifecycle Management](../../skills/docker-mcp-server-container-lifecycle-management/) | 695 | — |
-| [Neon Serverless Postgres MCP](../../skills/neon-serverless-postgres-mcp/) | 602 | 15.5k/wk |
+| [Neon Serverless Postgres MCP](../../skills/neon-serverless-postgres-mcp/) | 603 | 15.5k/wk |
 | [Neon MCP Server for Serverless Postgres Management](../../skills/neon-mcp-server-serverless-postgres/) | 567 | 15.5k/wk |
 | [Chroma MCP Server for Embedding Database Operations](../../skills/chroma-mcp-server-embedding-database-operations/) | 527 | — |
 | [Zapier Webhooks by Zapier Router](../../skills/zapier-webhooks-by-zapier-router/) | 484 | — |
