@@ -12,7 +12,7 @@ tool_ecosystem:
   github_repo: "stripe/stripe-node"
   github_stars: 4426
   npm_package: "stripe"
-  npm_weekly_downloads: 12276932
+  npm_weekly_downloads: 11915676
 ---
 
 # Stripe MCP Server
