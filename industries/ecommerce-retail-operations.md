@@ -39,7 +39,6 @@ Catalog management, storefront automation, orders, inventory sync, marketplace s
 | [Bubble.io Stripe Subscription Portal Builder](../skills/bubble-stripe-subscription-portal/) | Supports no-code subscription operations where billing changes need a customer-facing portal. | No-code builder / subscription ops | Medium | — |
 | [Cheerio Product Price Tracker](../skills/cheerio-product-price-tracker/) | Monitors product price pages when no clean feed or partner API exists for competitive checks. | Merchandising analyst / growth ops | Medium | 30.3k |
 | [WooCommerce REST Order Manager](../skills/woocommerce-rest-order-manager/) | Adds direct order query/update operations, complementing current WooCommerce inventory and webhook coverage. | WooCommerce operator / ecommerce ops | Medium | — |
-| [WooCommerce Webhook Orchestrator](../skills/woocommerce-webhook-orchestrator/) | Manages webhook lifecycle and event routing for order, product, and customer automations instead of only inspecting failures. | Ecommerce automation engineer | Medium | 10.3k |
 | [Stripe Webhook Signature Verifier](../skills/stripe-webhook-signature-verifier/) | Verifies payment webhook signatures before ecommerce automations trust checkout, subscription, or marketplace events. | Payments engineer / marketplace ops | Medium | 4.4k |
 
 ## Editorial Notes

@@ -302,7 +302,6 @@
         "bubble-stripe-subscription-portal",
         "cheerio-product-price-tracker",
         "woocommerce-rest-order-manager",
-        "woocommerce-webhook-orchestrator",
         "stripe-webhook-signature-verifier"
       ],
       "who_for": [
@@ -416,11 +415,6 @@
         "woocommerce-rest-order-manager": {
           "why_here": "Adds direct order query/update operations, complementing current WooCommerce inventory and webhook coverage.",
           "persona": "WooCommerce operator / ecommerce ops",
-          "install_complexity": "Medium"
-        },
-        "woocommerce-webhook-orchestrator": {
-          "why_here": "Manages webhook lifecycle and event routing for order, product, and customer automations instead of only inspecting failures.",
-          "persona": "Ecommerce automation engineer",
           "install_complexity": "Medium"
         },
         "stripe-webhook-signature-verifier": {
