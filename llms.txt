@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-05-26
-# Total: 2514 skills
+# Generated: 2026-05-27
+# Total: 2515 skills
+
+## Give agents persistent semantic memory with Memora
+slug: give-agents-persistent-semantic-memory-with-memora
+category: Integrations & Connectors
+framework: MCP
+verification: Security Reviewed
+description: Use Memora to give MCP-compatible agents persistent semantic memory, document recall, and knowledge-graph context across sessions.
+url: https://agentskillexchange.com/skills/give-agents-persistent-semantic-memory-with-memora/
 
 ## Stancl Tenancy v3 — Multi-Tenant Laravel
 slug: tenancy-development

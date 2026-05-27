@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2514 published skills** across **17 categories** · 2,163 security reviewed · Updated 2026-05-26 19:27 UTC
+> **2515 published skills** across **17 categories** · 2,163 security reviewed · Updated 2026-05-27 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1907,7 +1907,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Rust Crates.io Explorer](skills/rust-crates-io-explorer/) | Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates… | Published | — | — |
 
 
-### 🔗 Integrations & Connectors (120 skills)
+### 🔗 Integrations & Connectors (121 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -2005,6 +2005,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Chroma MCP Server for Embedding Database Operations](skills/chroma-mcp-server-embedding-database-operations/) | An official MCP server for the Chroma open-source embedding database. Enables AI agents to create collections, add… | Security Reviewed | 527 | — |
 | [Zapier Webhooks by Zapier Router](skills/zapier-webhooks-by-zapier-router/) | Routes and validates inbound automation traffic built around Webhooks by Zapier endpoints such as… | Published | 484 | — |
 | [Mirror GitHub issues, pull requests, commits, and releases into SQLite for offline analysis](skills/mirror-github-issues-pull-requests-commits-and-releases-into-sqlite-for-offline-analysis/) | Use dogsheep/github-to-sqlite when an agent needs a local, queryable snapshot of GitHub activity instead of bouncing… | Security Reviewed | 461 | — |
+| [Give agents persistent semantic memory with Memora](skills/give-agents-persistent-semantic-memory-with-memora/) | Use Memora to give MCP-compatible agents persistent semantic memory, document recall, and knowledge-graph context… | Security Reviewed | 406 | — |
 | [HubSpot MCP Server](skills/hubspot-mcp-server/) | HubSpot MCP Server is built around HubSpot CRM and marketing APIs. The underlying ecosystem is represented by… | Security Reviewed | 396 | 1.1M/wk |
 | [HubSpot CRM Contact Enrichment Pipeline](skills/hubspot-crm-contact-enrichment-pipeline/) | Enriches HubSpot CRM contacts using the v3 Contacts API with batch read/update operations. Cross-references company… | Security Reviewed | 392 | 986.8k/wk |
 | [Hookdeck CLI for Webhook Development and Event Debugging](skills/hookdeck-cli-webhook-development-event-debugging/) | Hookdeck CLI is Hookdeck's official command-line tool for forwarding webhooks to localhost, managing event gateway… | Security Reviewed | 353 | 9.1k/wk |

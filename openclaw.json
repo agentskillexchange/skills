@@ -1,9 +1,18 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-05-26",
-  "total": 2514,
+  "generated": "2026-05-27",
+  "total": 2515,
   "skills": [
+    {
+      "slug": "give-agents-persistent-semantic-memory-with-memora",
+      "name": "Give agents persistent semantic memory with Memora",
+      "title": "Give agents persistent semantic memory with Memora",
+      "description": "Use Memora to give MCP-compatible agents persistent semantic memory, document recall, and knowledge-graph context across sessions.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "tenancy-development",
       "name": "Stancl Tenancy v3 — Multi-Tenant Laravel",

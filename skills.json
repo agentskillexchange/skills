@@ -1,8 +1,20 @@
 {
   "version": "2.0",
-  "total": 2514,
-  "generated": "2026-05-26",
+  "total": 2515,
+  "generated": "2026-05-27",
   "skills": [
+    {
+      "slug": "give-agents-persistent-semantic-memory-with-memora",
+      "name": "Give agents persistent semantic memory with Memora",
+      "title": "Give agents persistent semantic memory with Memora",
+      "description": "Use Memora to give MCP-compatible agents persistent semantic memory, document recall, and knowledge-graph context across sessions.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 406
+      }
+    },
     {
       "slug": "tenancy-development",
       "name": "Stancl Tenancy v3 — Multi-Tenant Laravel",
