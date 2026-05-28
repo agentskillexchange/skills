@@ -1431,6 +1431,296 @@
           "install_complexity": "Medium"
         }
       }
+    },
+    {
+      "slug": "education-research-workflows",
+      "title": "Education & Research Workflows",
+      "launch_stage": "wave-5",
+      "description": "Literature review, citation context, research synthesis, paper drafting, replication checks, and evidence packets for academic and technical teams.",
+      "editorial_caution": "Frame these as research workflow aids, not peer-review substitutes, authorship guarantees, or automated scientific claims.",
+      "skill_slugs": [
+        "search-and-analyze-zotero-research-libraries-through-mcp",
+        "search-and-analyze-arxiv-papers-through-mcp-workflows",
+        "beautifulsoup-academic-paper-parser",
+        "serpapi-scholar-agent",
+        "run-nature-style-academic-writing-and-figure-workflows-with-nature-skills",
+        "turn-a-research-idea-into-a-draft-paper-workflow-with-autoresearchclaw",
+        "run-research-and-scientific-analysis-workflows-with-scientific-agent-skills",
+        "run-academic-writing-analysis-and-replication-workflows-with-quality-gates-in-claude-code-my-workflow",
+        "run-local-deep-research-workflows-with-local-deep-research",
+        "convert-dense-pdfs-into-llm-ready-text-and-page-aligned-markdown-with-olmocr",
+        "capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate",
+        "excalidraw-virtual-whiteboard-diagram-sdk"
+      ],
+      "who_for": [
+        "Researchers, academic labs, research analysts, and science or technical writing teams turning scattered sources into reviewable research artifacts.",
+        "Knowledge workers doing literature review, citation review, paper drafting, replication checks, and synthesis with explicit human judgment."
+      ],
+      "jobs_covered": [
+        "Search personal, academic, and web research sources before drafting.",
+        "Extract citation context, paper metadata, and dense PDF text into usable artifacts.",
+        "Turn research questions into reviewable outlines, drafts, and replication plans.",
+        "Package findings into diagrams, archived sources, and human-reviewed research briefs."
+      ],
+      "workflow_stacks": [
+        {
+          "name": "Literature review packet",
+          "steps": [
+            "Search library",
+            "query academic indexes",
+            "parse papers",
+            "extract citations",
+            "summarize evidence"
+          ]
+        },
+        {
+          "name": "Draft paper workflow",
+          "steps": [
+            "Frame research idea",
+            "review related work",
+            "draft sections",
+            "check claims",
+            "prepare figures"
+          ]
+        },
+        {
+          "name": "Replication and synthesis pass",
+          "steps": [
+            "Collect source artifacts",
+            "convert PDFs",
+            "run analysis workflow",
+            "review quality gates",
+            "archive evidence"
+          ]
+        }
+      ],
+      "editorial_notes": [
+        "Prefer source-linked research artifacts over unsupported summary-only workflows.",
+        "Keep citation, authorship, and scientific claims under human review, especially for publishable work.",
+        "Include both academic search and document-conversion picks so the collection supports real research operations, not just paper discovery."
+      ],
+      "adjacent_collections": [
+        "legal-ops-compliance",
+        "devrel-api-documentation",
+        "media-publishing-systems"
+      ],
+      "skill_meta": {
+        "search-and-analyze-zotero-research-libraries-through-mcp": {
+          "why_here": "Connects research agents to a Zotero library so teams can search papers, inspect annotations, and ground literature review in their own source corpus.",
+          "persona": "Academic lab manager / researcher",
+          "install_complexity": "Medium"
+        },
+        "search-and-analyze-arxiv-papers-through-mcp-workflows": {
+          "why_here": "Adds arXiv search, download, and local paper storage for technical literature review and fast-moving research areas.",
+          "persona": "Research analyst / graduate researcher",
+          "install_complexity": "Medium"
+        },
+        "beautifulsoup-academic-paper-parser": {
+          "why_here": "Extracts paper metadata, affiliations, DOI details, and references from academic HTML sources before citation review.",
+          "persona": "Research data assistant / literature analyst",
+          "install_complexity": "Low"
+        },
+        "serpapi-scholar-agent": {
+          "why_here": "Covers Google Scholar-style citation lookup, BibTeX export, and author/citation context for literature maps.",
+          "persona": "Research analyst / citation reviewer",
+          "install_complexity": "Medium"
+        },
+        "run-nature-style-academic-writing-and-figure-workflows-with-nature-skills": {
+          "why_here": "Gives science teams reusable manuscript, figure, citation, and response-drafting workflows shaped around academic writing norms.",
+          "persona": "Scientific writing lead / lab author",
+          "install_complexity": "Medium"
+        },
+        "turn-a-research-idea-into-a-draft-paper-workflow-with-autoresearchclaw": {
+          "why_here": "Turns a raw research topic into literature review, experiment planning, draft writing, and verification artifacts.",
+          "persona": "Research lead / technical author",
+          "install_complexity": "High"
+        },
+        "run-research-and-scientific-analysis-workflows-with-scientific-agent-skills": {
+          "why_here": "Adds domain-specific scientific workflow guidance when general prompting is too loose for research-heavy analysis.",
+          "persona": "Research scientist / scientific analyst",
+          "install_complexity": "Medium"
+        },
+        "run-academic-writing-analysis-and-replication-workflows-with-quality-gates-in-claude-code-my-workflow": {
+          "why_here": "Adds quality-gated paper, analysis, slide, and replication workflows with review checkpoints before results are shared.",
+          "persona": "Replication lead / academic workflow owner",
+          "install_complexity": "Medium"
+        },
+        "run-local-deep-research-workflows-with-local-deep-research": {
+          "why_here": "Runs private research passes across web, academic, and local document sources with citations and an encrypted knowledge base.",
+          "persona": "Research analyst / private knowledge worker",
+          "install_complexity": "High"
+        },
+        "convert-dense-pdfs-into-llm-ready-text-and-page-aligned-markdown-with-olmocr": {
+          "why_here": "Converts scanned or layout-heavy papers into page-aligned Markdown for citation-aware review and synthesis.",
+          "persona": "Research engineer / paper ingestion lead",
+          "install_complexity": "High"
+        },
+        "capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate": {
+          "why_here": "Captures web sources as clean offline artifacts so research packets can preserve cited pages and review context.",
+          "persona": "Research assistant / evidence archivist",
+          "install_complexity": "Low"
+        },
+        "excalidraw-virtual-whiteboard-diagram-sdk": {
+          "why_here": "Supports research diagrams, study designs, paper figures, and collaborative whiteboarding before findings are written up.",
+          "persona": "Lab collaborator / technical writing team",
+          "install_complexity": "Medium"
+        }
+      }
+    },
+    {
+      "slug": "ai-agency-operations",
+      "title": "AI Agency Operations",
+      "launch_stage": "wave-5",
+      "description": "Client audits, repeatable automation delivery, campaign operations, CRM enrichment, reporting artifacts, and reusable workflow quality for AI agencies.",
+      "editorial_caution": "Frame this as client delivery operations for agencies and consultants, not a generic agent-engineering or developer-tools collection.",
+      "skill_slugs": [
+        "run-repeatable-google-ads-and-seo-audits-inside-claude-code-with-toprank",
+        "diagnose-site-seo-issues-with-a-structured-audit",
+        "plan-programmatic-seo-pages-at-scale",
+        "firecrawl-markdown-capture-pipeline",
+        "crawl4ai-llm-web-crawler-scraper",
+        "summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize",
+        "mautic-marketing-automation-platform",
+        "listmonk-self-hosted-newsletter-mailing-list",
+        "hubspot-crm-contact-enrichment-pipeline",
+        "zapier-lead-enrichment-workflow",
+        "n8n-workflow-webhook-bridge",
+        "composio-agent-tool-integration-platform",
+        "create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas",
+        "create-and-repair-word-documents-with-layout-safe-docx-workflows",
+        "co-author-structured-docs-with-staged-context-gathering-and-reader-testing"
+      ],
+      "who_for": [
+        "AI agency founders, automation consultants, client delivery leads, and solutions engineers packaging repeatable AI-enabled services for clients.",
+        "RevOps and marketing ops agencies that need site audits, CRM enrichment, campaign operations, deliverable production, and workflow QA."
+      ],
+      "jobs_covered": [
+        "Audit client sites, docs, workflows, and campaign surfaces.",
+        "Build repeatable client automation workflows across forms, webhooks, tools, and campaign systems.",
+        "Package findings into reports, docs, spreadsheets, and handoff artifacts.",
+        "Manage CRM, lead enrichment, newsletter, and marketing automation operations.",
+        "Monitor delivery quality and reusable agency workflows."
+      ],
+      "workflow_stacks": [
+        {
+          "name": "Client audit sprint",
+          "steps": [
+            "Crawl site",
+            "run SEO audit",
+            "summarize findings",
+            "build report",
+            "deliver action plan"
+          ]
+        },
+        {
+          "name": "Automation implementation",
+          "steps": [
+            "Map workflow",
+            "connect tools",
+            "enrich records",
+            "trigger handoffs",
+            "validate outputs"
+          ]
+        },
+        {
+          "name": "Campaign operations",
+          "steps": [
+            "Plan SEO pages",
+            "segment contacts",
+            "send campaigns",
+            "repair workbooks",
+            "document results"
+          ]
+        }
+      ],
+      "editorial_notes": [
+        "Keep the collection anchored in client delivery work: audits, handoffs, CRM, campaign ops, reports, and reusable workflows.",
+        "Avoid drifting into generic agent engineering, security operations, CI/CD, or broad developer tooling.",
+        "Prioritize tools that produce reviewable client artifacts or connect agency workflows to real business systems."
+      ],
+      "adjacent_collections": [
+        "product-analytics-growth-ops",
+        "customer-support-success",
+        "devrel-api-documentation",
+        "media-publishing-systems"
+      ],
+      "skill_meta": {
+        "run-repeatable-google-ads-and-seo-audits-inside-claude-code-with-toprank": {
+          "why_here": "Gives agencies a repeatable Google Ads and SEO audit workflow instead of ad hoc client-account prompting.",
+          "persona": "AI agency founder / paid search consultant",
+          "install_complexity": "Medium"
+        },
+        "diagnose-site-seo-issues-with-a-structured-audit": {
+          "why_here": "Creates a structured technical and on-page SEO audit before client recommendations are written.",
+          "persona": "SEO consultant / client strategist",
+          "install_complexity": "Low"
+        },
+        "plan-programmatic-seo-pages-at-scale": {
+          "why_here": "Helps agencies design scalable SEO page programs without collapsing into thin or duplicated client content.",
+          "persona": "Growth agency lead / content strategist",
+          "install_complexity": "Medium"
+        },
+        "firecrawl-markdown-capture-pipeline": {
+          "why_here": "Captures clean Markdown from client sites for audits, content inventories, knowledge-base builds, and handoff docs.",
+          "persona": "Solutions engineer / site audit lead",
+          "install_complexity": "Medium"
+        },
+        "crawl4ai-llm-web-crawler-scraper": {
+          "why_here": "Crawls client websites into LLM-ready Markdown when agencies need deeper extraction for audits or automation builds.",
+          "persona": "Automation consultant / data extraction lead",
+          "install_complexity": "High"
+        },
+        "summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize": {
+          "why_here": "Turns client URLs, docs, podcasts, videos, and files into compact briefs before proposals, audits, or implementation work.",
+          "persona": "Client delivery lead / research strategist",
+          "install_complexity": "Medium"
+        },
+        "mautic-marketing-automation-platform": {
+          "why_here": "Provides a self-hosted marketing automation base for client journeys, lead scoring, segmentation, and campaign workflows.",
+          "persona": "Marketing ops consultant / campaign architect",
+          "install_complexity": "High"
+        },
+        "listmonk-self-hosted-newsletter-mailing-list": {
+          "why_here": "Covers newsletter and mailing-list operations for agencies delivering owned-audience campaign systems.",
+          "persona": "Lifecycle marketer / agency ops",
+          "install_complexity": "Medium"
+        },
+        "hubspot-crm-contact-enrichment-pipeline": {
+          "why_here": "Enriches and updates client CRM contact records as part of RevOps and campaign handoff workflows.",
+          "persona": "RevOps consultant / HubSpot implementer",
+          "install_complexity": "Medium"
+        },
+        "zapier-lead-enrichment-workflow": {
+          "why_here": "Builds a concrete lead-enrichment workflow across forms, enrichment services, HubSpot, and Slack notifications.",
+          "persona": "Automation consultant / client success ops",
+          "install_complexity": "Medium"
+        },
+        "n8n-workflow-webhook-bridge": {
+          "why_here": "Connects client event sources, transformations, and webhook handoffs in repeatable low-code automation builds.",
+          "persona": "Solutions engineer / automation builder",
+          "install_complexity": "High"
+        },
+        "composio-agent-tool-integration-platform": {
+          "why_here": "Gives agency-built agents managed app integrations and authentication across common client tools.",
+          "persona": "AI solutions engineer / implementation lead",
+          "install_complexity": "High"
+        },
+        "create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas": {
+          "why_here": "Produces and repairs spreadsheet deliverables for audits, ROI models, campaign plans, and client reporting.",
+          "persona": "Client analyst / delivery ops",
+          "install_complexity": "Medium"
+        },
+        "create-and-repair-word-documents-with-layout-safe-docx-workflows": {
+          "why_here": "Creates layout-safe client reports, SOW drafts, process docs, and handoff documents as real DOCX artifacts.",
+          "persona": "Client delivery manager / documentation lead",
+          "install_complexity": "Medium"
+        },
+        "co-author-structured-docs-with-staged-context-gathering-and-reader-testing": {
+          "why_here": "Runs a staged co-authoring process for proposals, audit reports, SOPs, and client-facing implementation docs.",
+          "persona": "Agency principal / client strategist",
+          "install_complexity": "Low"
+        }
+      }
     }
   ]
 }
