@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "caliber-ai-org/ai-setup"
   github_stars: 717
+  npm_package: "@rely-ai/caliber"
+  npm_weekly_downloads: 6541
 ---
 
 # Generate and continuously refresh CLAUDE.md, AGENTS.md, MCP config, and editor rules from the live codebase with Caliber

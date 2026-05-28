@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "moonrunnerkc/swarm-orchestrator"
   github_stars: 83
+  npm_package: "swarm-orchestrator"
+  npm_weekly_downloads: 118
 ---
 
 # Gate AI-generated pull requests with evidence checks and quality barriers using Swarm Orchestrator

@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "josdejong/jsonrepair"
   github_stars: 2297
+  npm_package: "jsonrepair"
+  npm_weekly_downloads: 7314614
 ---
 
 # Repair malformed JSON before parsing downstream automations with jsonrepair

@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "cartesia-ai/cartesia-js"
   github_stars: 130
+  npm_package: "@cartesia/cartesia-js"
+  npm_weekly_downloads: 192166
 ---
 
 # Cartesia JavaScript SDK for Low-Latency Voice Generation

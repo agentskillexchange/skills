@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "trycua/cua"
   github_stars: 13544
+  npm_package: "cuabot"
+  npm_weekly_downloads: 513
 ---
 
 # Run computer-use agents inside cross-OS desktop sandboxes with CUA

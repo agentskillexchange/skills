@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "mwilliamson/mammoth.js"
   github_stars: 6167
+  npm_package: "mammoth"
+  npm_weekly_downloads: 18347789
 ---
 
 # Convert DOCX documents into clean HTML for publishing workflows with Mammoth

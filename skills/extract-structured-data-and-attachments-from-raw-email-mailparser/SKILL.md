@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "nodemailer/mailparser"
   github_stars: 1666
+  npm_package: "mailparser"
+  npm_weekly_downloads: 13679456
 ---
 
 # Extract structured data and attachments from raw email with MailParser

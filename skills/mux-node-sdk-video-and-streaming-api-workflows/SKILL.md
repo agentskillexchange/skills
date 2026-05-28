@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "muxinc/mux-node-sdk"
   github_stars: 178
+  npm_package: "@mux/mux-node"
+  npm_weekly_downloads: 987671
 ---
 
 # Mux Node SDK for Video and Streaming API Workflows

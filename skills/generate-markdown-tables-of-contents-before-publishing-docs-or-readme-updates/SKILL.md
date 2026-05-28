@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "thlorenz/doctoc"
   github_stars: 4432
+  npm_package: "doctoc"
+  npm_weekly_downloads: 1025939
 ---
 
 # Generate Markdown tables of contents before publishing docs or README updates

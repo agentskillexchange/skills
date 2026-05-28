@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "microlinkhq/metascraper"
   github_stars: 2660
+  npm_package: "metascraper"
+  npm_weekly_downloads: 415958
 ---
 
 # Normalize article metadata from URLs before generating link previews or content briefs

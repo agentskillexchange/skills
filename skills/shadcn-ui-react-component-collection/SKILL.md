@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "shadcn-ui/ui"
   github_stars: 112069
+  npm_package: "shadcn"
+  npm_weekly_downloads: 19409941
 ---
 
 # shadcn/ui — Re-usable UI Component Collection for React

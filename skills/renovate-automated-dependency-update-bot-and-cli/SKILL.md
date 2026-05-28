@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "renovatebot/renovate"
   github_stars: 21263
+  npm_package: "renovate"
+  npm_weekly_downloads: 1956427
 ---
 
 # Renovate Automated Dependency Update Bot and CLI

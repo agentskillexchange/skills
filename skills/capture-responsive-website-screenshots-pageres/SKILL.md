@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "sindresorhus/pageres"
   github_stars: 9741
+  npm_package: "pageres"
+  npm_weekly_downloads: 15326
 ---
 
 # Capture responsive website screenshots for visual QA with Pageres

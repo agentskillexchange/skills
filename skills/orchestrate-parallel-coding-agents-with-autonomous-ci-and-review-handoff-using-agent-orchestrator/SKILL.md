@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "ComposioHQ/agent-orchestrator"
   github_stars: 6270
+  npm_package: "@aoagents/ao"
+  npm_weekly_downloads: 3870
 ---
 
 # Orchestrate parallel coding agents with autonomous CI and review handoff using Agent Orchestrator

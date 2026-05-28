@@ -12,6 +12,8 @@ framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "cure53/DOMPurify"
   github_stars: 16854
+  npm_package: "dompurify"
+  npm_weekly_downloads: 165206079
 ---
 
 # Sanitize untrusted HTML fragments before rendering previews, comments, or CMS content with DOMPurify

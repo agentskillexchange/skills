@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "parcel-bundler/lightningcss"
   github_stars: 7502
+  npm_package: "lightningcss"
+  npm_weekly_downloads: 290423455
 ---
 
 # Lightning CSS High-Performance CSS Parser Transformer and Minifier

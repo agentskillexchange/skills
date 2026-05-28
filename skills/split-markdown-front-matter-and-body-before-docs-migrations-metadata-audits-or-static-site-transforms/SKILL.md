@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "jonschlinkert/gray-matter"
   github_stars: 4415
+  npm_package: "gray-matter"
+  npm_weekly_downloads: 26312715
 ---
 
 # Split Markdown front matter and body before docs migrations, metadata audits, or static-site transforms

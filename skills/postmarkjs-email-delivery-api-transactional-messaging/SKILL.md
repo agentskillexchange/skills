@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "ActiveCampaign/postmark.js"
   github_stars: 357
+  npm_package: "postmark"
+  npm_weekly_downloads: 3644261
 ---
 
 # Postmark.js Email Delivery API for Transactional Messaging

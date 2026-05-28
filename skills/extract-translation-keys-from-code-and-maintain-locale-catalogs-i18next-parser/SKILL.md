@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "i18next/i18next-parser"
   github_stars: 556
+  npm_package: "i18next-parser"
+  npm_weekly_downloads: 2232300
 ---
 
 # Extract translation keys from code and maintain locale catalogs with i18next-parser

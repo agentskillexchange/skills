@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "ekalinin/sitemap.js"
   github_stars: 1708
+  npm_package: "sitemap"
+  npm_weekly_downloads: 12536444
 ---
 
 # Generate XML sitemaps and robots.txt from route inventories before SEO launch
