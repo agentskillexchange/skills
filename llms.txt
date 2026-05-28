@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-05-27
-# Total: 2517 skills
+# Generated: 2026-05-28
+# Total: 2519 skills
+
+## Install Claude Code project workflows with Claude Workflow V2
+slug: install-claude-code-project-workflows-with-claude-workflow-v2
+category: Templates & Workflows
+framework: Claude Code
+verification: Security Reviewed
+description: Load a Claude Code workflow plugin that adds project-oriented commands, specialist agents, skills, and hooks for planning, review, verification, commits, and pull requests.
+url: https://agentskillexchange.com/skills/install-claude-code-project-workflows-with-claude-workflow-v2/
+
+## Preview and approve coding-agent execution plans with Overture
+slug: preview-and-approve-coding-agent-execution-plans-with-overture
+category: Developer Tools
+framework: MCP
+verification: Security Reviewed
+description: Render an AI coding agent's plan as an interactive flowchart so a human can inspect dependencies, attach context, choose branches, and approve execution before…
+url: https://agentskillexchange.com/skills/preview-and-approve-coding-agent-execution-plans-with-overture/
 
 ## Install focused Claude Code workflow plugins from Claude Night Market
 slug: install-focused-claude-code-workflow-plugins-from-claude-night-market

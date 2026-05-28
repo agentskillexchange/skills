@@ -1,9 +1,27 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-05-27",
-  "total": 2517,
+  "generated": "2026-05-28",
+  "total": 2519,
   "skills": [
+    {
+      "slug": "install-claude-code-project-workflows-with-claude-workflow-v2",
+      "name": "Install Claude Code project workflows with Claude Workflow V2",
+      "title": "Install Claude Code project workflows with Claude Workflow V2",
+      "description": "Load a Claude Code workflow plugin that adds project-oriented commands, specialist agents, skills, and hooks for planning, review, verification, commits, and pull requests.",
+      "category": "Templates & Workflows",
+      "framework": "Claude Code",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "preview-and-approve-coding-agent-execution-plans-with-overture",
+      "name": "Preview and approve coding-agent execution plans with Overture",
+      "title": "Preview and approve coding-agent execution plans with Overture",
+      "description": "Render an AI coding agent's plan as an interactive flowchart so a human can inspect dependencies, attach context, choose branches, and approve execution before…",
+      "category": "Developer Tools",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "install-focused-claude-code-workflow-plugins-from-claude-night-market",
       "name": "Install focused Claude Code workflow plugins from Claude Night Market",

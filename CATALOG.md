@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2517 published skills** across **17 categories** · 2,167 security reviewed · Updated 2026-05-27 19:26 UTC
+> **2519 published skills** across **17 categories** · 2,167 security reviewed · Updated 2026-05-28 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (329 skills)
+### 🛠️ Developer Tools (330 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -313,6 +313,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Control Android devices with an on-device AI agent using PokeClaw](skills/control-android-devices-with-an-on-device-ai-agent-using-pokeclaw/) | Run an on-device Android control loop that inspects screens and performs app actions locally for mobile automation… | Security Reviewed | 760 | — |
 | [Generate and continuously refresh CLAUDE.md, AGENTS.md, MCP config, and editor rules from the live codebase with Caliber](skills/generate-and-continuously-refresh-claude-md-agents-md-mcp-config-and-editor-rules-from-the-live-codebase-with-caliber/) | Use Caliber when agent-facing repo instructions have started drifting from the actual codebase and you want one… | Security Reviewed | 717 | — |
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | Convert a finished coding-agent session into a shareable HTML replay instead of sending raw logs or bulky screen… | Security Reviewed | 621 | 4.9k/wk |
+| [Preview and approve coding-agent execution plans with Overture](skills/preview-and-approve-coding-agent-execution-plans-with-overture/) | Render an AI coding agent's plan as an interactive flowchart so a human can inspect dependencies, attach context,… | Security Reviewed | 619 | 320/wk |
 | [Run deterministic SQL and dbt analysis under coding agents with Altimate Code](skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/) | Adds deterministic SQL analysis, dbt-aware tooling, warehouse metadata, lineage, and test-generation workflows… | Published | 552 | 195/wk |
 | [E2B Code Execution MCP](skills/e2b-code-execution-mcp/) | Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected… | Security Reviewed | 394 | 2.1k/wk |
 | [Temporal CLI Workflow and Server Control](skills/temporal-cli-workflow-server-control/) | Temporal CLI runs a local Temporal server and talks to workflows, activities, and namespaces. It is the practical… | Security Reviewed | 350 | — |
@@ -1331,7 +1332,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [PagerDuty Event Orchestration Runbook](skills/pagerduty-event-orchestration-runbook/) | Builds incident runbooks around the PagerDuty Events API v2, Incidents API, and Response Plays so agents can… | Published | — | — |
 
 
-### 📄 Templates & Workflows (168 skills)
+### 📄 Templates & Workflows (169 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1470,6 +1471,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Run Claude Code with spec-driven quality gates via Pilot Shell](skills/run-claude-code-with-spec-driven-quality-gates-via-pilot-shell/) | Wrap Claude Code sessions in a spec, approval, and verification workflow before risky implementation work lands. | Security Reviewed | 1.6k | — |
 | [Refresh Cookiecutter-based repositories from their upstream template without losing local answers](skills/refresh-cookiecutter-based-repositories-from-upstream-template/) | Use Cruft when an agent needs to pull new changes from a Cookiecutter template into an existing generated repository… | Security Reviewed | 1.6k | — |
 | [Define repeatable Python automation sessions in code with nox](skills/define-repeatable-python-automation-sessions-in-code-with-nox/) | Encode test, lint, build, and docs routines as named Python sessions so humans and agents run the same workflow… | Security Reviewed | 1.5k | — |
+| [Install Claude Code project workflows with Claude Workflow V2](skills/install-claude-code-project-workflows-with-claude-workflow-v2/) | Load a Claude Code workflow plugin that adds project-oriented commands, specialist agents, skills, and hooks for… | Security Reviewed | 1.4k | 55/wk |
 | [Prepare Rust Release PRs and Changelogs from Workspace Changes with release-plz](skills/prepare-rust-release-prs-and-changelogs-from-workspace-changes-with-release-plz/) | Inspect Rust workspace changes, draft release PRs, bump versions, and assemble changelogs before publishing. | Security Reviewed | 1.3k | — |
 | [Yeoman Generator Builder](skills/yeoman-generator-builder/) | Creates custom Yeoman generators using the yeoman-generator API and yo CLI. Scaffolds generator packages with… | Published | 1.3k | 5M/wk |
 | [Compose typed OpenClaw workflows with approval gates and resumable steps using Lobster](skills/compose-typed-openclaw-workflows-with-approval-gates-and-resumable-steps-using-lobster/) | Use Lobster when an OpenClaw operator wants one deterministic typed workflow step, with approval gates and resumable… | Security Reviewed | 1.1k | — |

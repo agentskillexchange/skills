@@ -173,6 +173,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Run Claude Code with spec-driven quality gates via Pilot Shell](../../skills/run-claude-code-with-spec-driven-quality-gates-via-pilot-shell/) | 1.6k | — |
 | [Refresh Cookiecutter-based repositories from their upstream template without losing local answers](../../skills/refresh-cookiecutter-based-repositories-from-upstream-template/) | 1.6k | — |
 | [Define repeatable Python automation sessions in code with nox](../../skills/define-repeatable-python-automation-sessions-in-code-with-nox/) | 1.5k | — |
+| [Install Claude Code project workflows with Claude Workflow V2](../../skills/install-claude-code-project-workflows-with-claude-workflow-v2/) | 1.4k | 55/wk |
 | [Prepare Rust Release PRs and Changelogs from Workspace Changes with release-plz](../../skills/prepare-rust-release-prs-and-changelogs-from-workspace-changes-with-release-plz/) | 1.3k | — |
 | [Yeoman Generator Builder](../../skills/yeoman-generator-builder/) | 1.3k | 5M/wk |
 | [Compose typed OpenClaw workflows with approval gates and resumable steps using Lobster](../../skills/compose-typed-openclaw-workflows-with-approval-gates-and-resumable-steps-using-lobster/) | 1.1k | — |
