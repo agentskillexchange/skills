@@ -27,12 +27,12 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Run autonomous white-box pentests against web apps and APIs with Shannon](../../skills/run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon/) | ⬇ 4k/wk |
 | [Better Auth Authentication Framework for TypeScript Applications](../../skills/better-auth-authentication-framework-typescript-applications/) | ⬇ 3.2M/wk |
 | [Discord Moderation Bot with AI Classification](../../skills/discord-moderation-ai-classification/) | ⬇ 563.5k/wk |
+| [Sanitize untrusted HTML fragments before rendering previews, comments, or CMS content with DOMPurify](../../skills/sanitize-untrusted-html-fragments-before-rendering-previews-comments-or-cms-content-dompurify/) | ⬇ 165.2M/wk |
 | [Route risky coding-agent work through human approval checkpoints with HumanLayer](../../skills/route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer/) | ⬇ 694/wk |
 | [Dependency Vulnerability Scanner](../../skills/dependency-vulnerability-scanner-agent/) | ⬇ 2.6M/wk |
 | [NPM Package Supply Chain Auditor](../../skills/npm-package-supply-chain-auditor/) | ⬇ 2.6M/wk |
 | [Snyk Container Image Analyzer](../../skills/snyk-container-image-analyzer/) | ⬇ 2.6M/wk |
 | [Snyk Container Vulnerability Agent](../../skills/snyk-container-vulnerability-agent/) | ⬇ 2.6M/wk |
-| [Snyk Dependency Audit Skill](../../skills/snyk-dependency-audit-skill/) | ⬇ 2.6M/wk |
 
 ---
 
@@ -74,7 +74,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [age Modern File Encryption Tool](../../skills/age-modern-file-encryption-tool/) | 21.8k | — |
 | [SOPS Secret File Encryption and Rotation](../../skills/sops-secret-file-encryption-rotation/) | 21.5k | — |
 | [SOPS Encrypted Secrets Editor and Manager](../../skills/sops-encrypted-secrets-editor-manager/) | 21.3k | — |
-| [Sanitize untrusted HTML fragments before rendering previews, comments, or CMS content with DOMPurify](../../skills/sanitize-untrusted-html-fragments-before-rendering-previews-comments-or-cms-content-dompurify/) | 16.9k | — |
+| [Sanitize untrusted HTML fragments before rendering previews, comments, or CMS content with DOMPurify](../../skills/sanitize-untrusted-html-fragments-before-rendering-previews-comments-or-cms-content-dompurify/) | 16.9k | 165.2M/wk |
 | [Audit Linux host hardening drift before exposing SSH or rolling to production](../../skills/audit-linux-host-hardening-drift-before-exposing-ssh-or-rolling-to-production/) | 15.5k | — |
 | [Security Audit Skill](../../skills/security-audit-skill/) | 15.2k | — |
 | [ZAP Automated Security Scan Orchestrator](../../skills/zap-automated-security-scan-orchestrator/) | 15k | — |

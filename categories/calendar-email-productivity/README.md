@@ -109,7 +109,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Pop Terminal Email Sender and TUI by Charmbracelet](../../skills/pop-terminal-email-sender-charmbracelet/) | 2.8k | — |
 | [Google Workspace MCP Server for Gmail Calendar and Drive](../../skills/google-workspace-mcp-server-gmail-calendar-drive/) | 2k | — |
 | [vdirsyncer CalDAV and CardDAV Calendar and Contact Synchronizer](../../skills/vdirsyncer-caldav-carddav-sync/) | 1.8k | — |
-| [Extract structured data and attachments from raw email with MailParser](../../skills/extract-structured-data-and-attachments-from-raw-email-mailparser/) | 1.7k | — |
+| [Extract structured data and attachments from raw email with MailParser](../../skills/extract-structured-data-and-attachments-from-raw-email-mailparser/) | 1.7k | 13.7M/wk |
 | [Timewarrior Command-Line Time Tracking and Reporting](../../skills/timewarrior-command-line-time-tracking-reporting/) | 1.6k | — |
 | [Operate DingTalk messages, docs, approvals, and workspace tasks from agents with DingTalk Workspace CLI](../../skills/operate-dingtalk-messages-docs-approvals-and-workspace-tasks-from-agents-with-dingtalk-workspace-cli/) | 1.6k | — |
 | [calcurse Text-Based Calendar and Scheduling Application](../../skills/calcurse-text-calendar-scheduling/) | 1.2k | — |
@@ -119,7 +119,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Mailgun JavaScript SDK for Email Delivery and Domain Operations](../../skills/mailgun-javascript-sdk-email-delivery-and-domain-operations-2/) | 547 | 927k/wk |
 | [Mailgun JavaScript SDK for Email Delivery and Domain Operations](../../skills/mailgun-javascript-sdk-email-delivery-and-domain-operations/) | 547 | 927k/wk |
 | [Read and automate Slack workflows from a purpose-built agent CLI with agent-slack](../../skills/read-and-automate-slack-workflows-from-a-purpose-built-agent-cli-with-agent-slack/) | 382 | 5.2k/wk |
-| [Postmark.js Email Delivery API for Transactional Messaging](../../skills/postmarkjs-email-delivery-api-transactional-messaging/) | 357 | — |
+| [Postmark.js Email Delivery API for Transactional Messaging](../../skills/postmarkjs-email-delivery-api-transactional-messaging/) | 357 | 3.6M/wk |
 | [Run agent mailboxes and pull verification codes or reply context programmatically with Mails](../../skills/run-agent-mailboxes-and-pull-verification-codes-or-reply-context-programmatically-with-mails/) | 294 | 1.3k/wk |
 | [Sync calendars between providers with a stateless CalendarSync job](../../skills/sync-calendars-between-providers-with-a-stateless-calendarsync-job/) | 217 | — |
 | [Mailchimp Marketing API Node.js SDK](../../skills/mailchimp-marketing-api-nodejs-sdk/) | 165 | — |

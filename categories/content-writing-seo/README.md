@@ -28,11 +28,11 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [alex Inclusive Writing Linter](../../skills/alex-inclusive-writing-linter/) | ⬇ 30.6k/wk |
 | [write-good English Prose Linting for Technical Content](../../skills/write-good-english-prose-linting-technical-content/) | ⬇ 49.5k/wk |
 | [Unlighthouse Site-Wide Lighthouse and SEO Auditing](../../skills/unlighthouse-site-wide-lighthouse-seo-auditing/) | ⬇ 15.3k/wk |
+| [Generate Markdown tables of contents before publishing docs or README updates](../../skills/generate-markdown-tables-of-contents-before-publishing-docs-or-readme-updates/) | ⬇ 1M/wk |
+| [Split Markdown front matter and body before docs migrations, metadata audits, or static-site transforms](../../skills/split-markdown-front-matter-and-body-before-docs-migrations-metadata-audits-or-static-site-transforms/) | ⬇ 26.3M/wk |
 | [Marp CLI Markdown Presentation Converter and Slide Deck Generator](../../skills/marp-cli-markdown-presentation-converter/) | ⬇ 39.7k/wk |
 | [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | ⬇ 102.9k/wk |
-| [schema-dts TypeScript Types for Schema.org Structured Data](../../skills/schema-dts-typescript-types-schemaorg-structured-data/) | ⬇ 1.5M/wk |
-| [markdownlint-cli2 Markdown Linting for Docs and Repos](../../skills/markdownlint-cli2-markdown-linting-docs-repos/) | ⬇ 522.5k/wk |
-| [Verify Markdown links before docs or content ship with markdown-link-check](../../skills/verify-markdown-links-before-docs-or-content-ship-with-markdown-link-check/) | ⬇ 573.2k/wk |
+| [Normalize article metadata from URLs before generating link previews or content briefs](../../skills/normalize-article-metadata-from-urls-before-generating-link-previews-or-content-briefs/) | ⬇ 416k/wk |
 
 ---
 
@@ -59,18 +59,18 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [write-good English Prose Linting for Technical Content](../../skills/write-good-english-prose-linting-technical-content/) | 5.1k | 49.5k/wk |
 | [proselint Prose Linting and Style Checker CLI](../../skills/proselint-prose-linting-style-checker-cli/) | 4.5k | — |
 | [Unlighthouse Site-Wide Lighthouse and SEO Auditing](../../skills/unlighthouse-site-wide-lighthouse-seo-auditing/) | 4.5k | 15.3k/wk |
-| [Generate Markdown tables of contents before publishing docs or README updates](../../skills/generate-markdown-tables-of-contents-before-publishing-docs-or-readme-updates/) | 4.4k | — |
-| [Split Markdown front matter and body before docs migrations, metadata audits, or static-site transforms](../../skills/split-markdown-front-matter-and-body-before-docs-migrations-metadata-audits-or-static-site-transforms/) | 4.4k | — |
+| [Generate Markdown tables of contents before publishing docs or README updates](../../skills/generate-markdown-tables-of-contents-before-publishing-docs-or-readme-updates/) | 4.4k | 1M/wk |
+| [Split Markdown front matter and body before docs migrations, metadata audits, or static-site transforms](../../skills/split-markdown-front-matter-and-body-before-docs-migrations-metadata-audits-or-static-site-transforms/) | 4.4k | 26.3M/wk |
 | [KeyBERT Minimal Keyword Extraction with BERT Embeddings](../../skills/keybert-keyword-extraction-bert/) | 4.1k | — |
 | [Format plain-text drafts for clean Substack paste](../../skills/format-plain-text-drafts-for-clean-substack-paste/) | 4.1k | — |
 | [lychee Async Broken Link Checker for Websites and Documentation](../../skills/lychee-async-broken-link-checker/) | 3.5k | — |
 | [Marp CLI Markdown Presentation Converter and Slide Deck Generator](../../skills/marp-cli-markdown-presentation-converter/) | 3.4k | 39.7k/wk |
 | [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | 3.1k | 102.9k/wk |
-| [Normalize article metadata from URLs before generating link previews or content briefs](../../skills/normalize-article-metadata-from-urls-before-generating-link-previews-or-content-briefs/) | 2.7k | — |
+| [Normalize article metadata from URLs before generating link previews or content briefs](../../skills/normalize-article-metadata-from-urls-before-generating-link-previews-or-content-briefs/) | 2.7k | 416k/wk |
 | [retext Natural Language Processor with Unified Plugin Ecosystem](../../skills/retext-natural-language-processor-unified-plugins/) | 2.4k | — |
 | [WritingTools System-Wide AI Grammar Assistant for Windows Linux and macOS](../../skills/writingtools-system-wide-ai-grammar-assistant/) | 2.2k | — |
 | [SerpBear Self-Hosted Search Engine Rank Tracking App](../../skills/serpbear-self-hosted-serp-rank-tracker/) | 1.9k | — |
-| [Generate XML sitemaps and robots.txt from route inventories before SEO launch](../../skills/generate-xml-sitemaps-and-robots-txt-from-route-inventories-before-seo-launch/) | 1.7k | — |
+| [Generate XML sitemaps and robots.txt from route inventories before SEO launch](../../skills/generate-xml-sitemaps-and-robots-txt-from-route-inventories-before-seo-launch/) | 1.7k | 12.5M/wk |
 | [Generate stable URL slugs from multilingual titles before publishing pages, docs, or filenames](../../skills/generate-stable-url-slugs-from-multilingual-titles-before-publishing-pages-docs-or-filenames/) | 1.6k | — |
 | [Content Readability Analyzer](../../skills/content-readability-analyzer-agent/) | 1.4k | — |
 | [Content Readability Optimizer](../../skills/content-readability-optimizer/) | 1.4k | — |

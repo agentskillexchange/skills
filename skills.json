@@ -2205,7 +2205,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 13544
+        "github_stars": 13544,
+        "npm_weekly_downloads": 513
       }
     },
     {
@@ -2241,7 +2242,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 83
+        "github_stars": 83,
+        "npm_weekly_downloads": 118
       }
     },
     {
@@ -2925,7 +2927,8 @@
       "framework": "Custom Agents",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 127
+        "github_stars": 127,
+        "npm_weekly_downloads": 262
       }
     },
     {
@@ -2961,7 +2964,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 717
+        "github_stars": 717,
+        "npm_weekly_downloads": 6541
       }
     },
     {
@@ -4577,7 +4581,8 @@
       "framework": "Gemini",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 101569
+        "github_stars": 101569,
+        "npm_weekly_downloads": 3185854
       }
     },
     {
@@ -5712,7 +5717,8 @@
       "framework": "Multi-Framework",
       "verification": "listed",
       "signals": {
-        "github_stars": 6270
+        "github_stars": 6270,
+        "npm_weekly_downloads": 3870
       }
     },
     {
@@ -7085,7 +7091,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 4432
+        "github_stars": 4432,
+        "npm_weekly_downloads": 1025939
       }
     },
     {
@@ -7170,7 +7177,8 @@
       "framework": "Custom Agents",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 16854
+        "github_stars": 16854,
+        "npm_weekly_downloads": 165206079
       }
     },
     {
@@ -7219,7 +7227,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 4415
+        "github_stars": 4415,
+        "npm_weekly_downloads": 26312715
       }
     },
     {
@@ -7292,7 +7301,8 @@
       "framework": "Multi-Framework",
       "verification": "listed",
       "signals": {
-        "github_stars": 2660
+        "github_stars": 2660,
+        "npm_weekly_downloads": 415958
       }
     },
     {
@@ -7508,7 +7518,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 1708
+        "github_stars": 1708,
+        "npm_weekly_downloads": 12536444
       }
     },
     {
@@ -7723,7 +7734,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 159
+        "github_stars": 159,
+        "npm_weekly_downloads": 13471
       }
     },
     {
@@ -7735,7 +7747,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 1260
+        "github_stars": 1260,
+        "npm_weekly_downloads": 499438
       }
     },
     {
@@ -7966,7 +7979,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 556
+        "github_stars": 556,
+        "npm_weekly_downloads": 2232300
       }
     },
     {
@@ -7978,7 +7992,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 2297
+        "github_stars": 2297,
+        "npm_weekly_downloads": 7314614
       }
     },
     {
@@ -7990,7 +8005,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 6167
+        "github_stars": 6167,
+        "npm_weekly_downloads": 18347789
       }
     },
     {
@@ -8014,7 +8030,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 1666
+        "github_stars": 1666,
+        "npm_weekly_downloads": 13679456
       }
     },
     {
@@ -8026,7 +8043,8 @@
       "framework": "Multi-Framework",
       "verification": "listed",
       "signals": {
-        "github_stars": 9741
+        "github_stars": 9741,
+        "npm_weekly_downloads": 15326
       }
     },
     {
@@ -8495,7 +8513,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 130
+        "github_stars": 130,
+        "npm_weekly_downloads": 192166
       }
     },
     {
@@ -8507,7 +8526,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 178
+        "github_stars": 178,
+        "npm_weekly_downloads": 987671
       }
     },
     {
@@ -9316,7 +9336,8 @@
       "framework": "Multi-Framework",
       "verification": "listed",
       "signals": {
-        "github_stars": 21263
+        "github_stars": 21263,
+        "npm_weekly_downloads": 1956427
       }
     },
     {
@@ -9328,7 +9349,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 7502
+        "github_stars": 7502,
+        "npm_weekly_downloads": 290423455
       }
     },
     {
@@ -9340,7 +9362,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 357
+        "github_stars": 357,
+        "npm_weekly_downloads": 3644261
       }
     },
     {
@@ -11102,7 +11125,8 @@
       "framework": "Multi-Framework",
       "verification": "listed",
       "signals": {
-        "github_stars": 112069
+        "github_stars": 112069,
+        "npm_weekly_downloads": 19409941
       }
     },
     {

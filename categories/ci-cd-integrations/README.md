@@ -25,14 +25,14 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 |---|---:|
 | [Playwright Test Report to Slack](../../skills/playwright-test-report-to-slack/) | ⬇ 189M/wk |
 | [semantic-release Automated Versioning and Release Publishing](../../skills/semantic-release-automated-versioning-and-release-publishing/) | ⬇ 2.5M/wk |
+| [Renovate Automated Dependency Update Bot and CLI](../../skills/renovate-automated-dependency-update-bot-and-cli/) | ⬇ 2M/wk |
 | [GoReleaser Cross-Platform Release Automation](../../skills/goreleaser-cross-platform-release-automation/) | ⬇ 62/wk |
 | [CapRover Self-Hosted PaaS for App Deployment and Server Management](../../skills/caprover-self-hosted-paas-app-deployment/) | ⬇ 8.4k/wk |
+| [Orchestrate parallel coding agents with autonomous CI and review handoff using Agent Orchestrator](../../skills/orchestrate-parallel-coding-agents-with-autonomous-ci-and-review-handoff-using-agent-orchestrator/) | ⬇ 3.9k/wk |
 | [Parallelize and retry Rust test runs before flaky or slow suites stall CI with cargo-nextest](../../skills/parallelize-and-retry-rust-test-runs-before-flaky-or-slow-suites-stall-ci-with-cargo-nextest/) | ⬇ 9.8M/wk |
 | [Shard, retry, and summarize Rust test runs with CI-friendly artifacts and failure isolation using cargo-nextest](../../skills/shard-retry-and-summarize-rust-test-runs-with-ci-friendly-artifacts-and-failure-isolation-using-cargo-nextest/) | ⬇ 9.8M/wk |
 | [Publish installable pull-request package previews before release with pkg.pr.new](../../skills/publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new/) | ⬇ 387.4k/wk |
 | [Run AI browser regression checks with Playwright and multi-model verification through Passmark](../../skills/run-ai-browser-regression-checks-with-playwright-and-multi-model-verification-through-passmark/) | ⬇ 12.3k/wk |
-| [Catch agent-era CI/CD and permission misconfigurations before shipping with Ship Safe](../../skills/catch-agent-era-ci-cd-and-permission-misconfigurations-before-shipping-with-ship-safe/) | ⬇ 2.8k/wk |
-| [Generate conventional-commit release notes for automated ship workflows with semantic-release release-notes-generator](../../skills/generate-conventional-commit-release-notes-for-automated-ship-workflows-with-semantic-release-release-notes-generator/) | ⬇ 11M/wk |
 
 ---
 
@@ -120,7 +120,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [ArgoCD Sync Wave Orchestrator](../../skills/argocd-sync-wave-orchestrator-wave48/) | 22.6k | — |
 | [ArgoCD Sync Wave Planner](../../skills/argocd-sync-wave-planner/) | 22.6k | — |
 | [ArgoCD GitOps Sync Automator](../../skills/argocd-gitops-sync-automator/) | 22.5k | — |
-| [Renovate Automated Dependency Update Bot and CLI](../../skills/renovate-automated-dependency-update-bot-and-cli/) | 21.3k | — |
+| [Renovate Automated Dependency Update Bot and CLI](../../skills/renovate-automated-dependency-update-bot-and-cli/) | 21.3k | 2M/wk |
 | [Inspect failing GitHub Actions checks and plan fixes with gh-fix-ci](../../skills/inspect-failing-github-actions-checks-and-plan-fixes-with-gh-fix-ci/) | 17.3k | — |
 | [Argo Workflows Deployer](../../skills/argo-workflows-deployer/) | 16.6k | — |
 | [Argo Workflows Linter](../../skills/argo-workflows-linter/) | 16.6k | — |
@@ -143,7 +143,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Run Claude Code inside GitHub Actions for scoped fix, review, and triage loops on pull requests and issues](../../skills/run-claude-code-inside-github-actions-for-scoped-fix-review-and-triage-loops-on-pull-requests-and-issues/) | 7.1k | — |
 | [Woodpecker CI Self-Hosted Continuous Integration Engine](../../skills/woodpecker-ci-self-hosted-continuous-integration/) | 6.8k | — |
 | [Generate release PRs and changelog updates from Conventional Commits](../../skills/generate-release-prs-and-changelog-updates-from-conventional-commits/) | 6.7k | — |
-| [Orchestrate parallel coding agents with autonomous CI and review handoff using Agent Orchestrator](../../skills/orchestrate-parallel-coding-agents-with-autonomous-ci-and-review-handoff-using-agent-orchestrator/) | 6.3k | — |
+| [Orchestrate parallel coding agents with autonomous CI and review handoff using Agent Orchestrator](../../skills/orchestrate-parallel-coding-agents-with-autonomous-ci-and-review-handoff-using-agent-orchestrator/) | 6.3k | 3.9k/wk |
 | [Generate dependency update pull requests from code with dependabot-core](../../skills/generate-dependency-update-pull-requests-from-code-with-dependabot-core/) | 5.5k | — |
 | [Plan and apply many Helm releases from one declarative state before cluster changes drift out of sync with Helmfile](../../skills/plan-and-apply-many-helm-releases-from-one-declarative-state-before-cluster-changes-drift-out-of-sync-with-helmfile/) | 5.1k | — |
 | [Generate Terraform module inputs and outputs docs with terraform-docs before review drift sets in](../../skills/generate-terraform-module-inputs-and-outputs-docs-with-terraform-docs-before-review-drift-sets-in/) | 4.8k | — |
@@ -206,7 +206,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Validate lint bundle and unit-test JSON Schema repositories before release with JSON Schema CLI](../../skills/validate-lint-bundle-and-unit-test-json-schema-repositories-before-release-with-json-schema-cli/) | 270 | 27.2k/wk |
 | [Execute DevOps delivery and infrastructure workflows with cc-devops-skills](../../skills/execute-devops-delivery-and-infrastructure-workflows-with-cc-devops-skills/) | 182 | — |
 | [Run only the relevant linters and formatters on changed files with Precious](../../skills/run-only-the-relevant-linters-and-formatters-on-changed-files-with-precious/) | 152 | — |
-| [Gate AI-generated pull requests with evidence checks and quality barriers using Swarm Orchestrator](../../skills/gate-ai-generated-pull-requests-with-evidence-checks-and-quality-barriers-using-swarm-orchestrator/) | 83 | — |
+| [Gate AI-generated pull requests with evidence checks and quality barriers using Swarm Orchestrator](../../skills/gate-ai-generated-pull-requests-with-evidence-checks-and-quality-barriers-using-swarm-orchestrator/) | 83 | 118/wk |
 | [Operate Harness pipelines, projects, and delivery resources from MCP-enabled agents](../../skills/operate-harness-pipelines-projects-and-delivery-resources-from-mcp-enabled-agents/) | 43 | 1k/wk |
 | [Generate structured release notes from merged pull requests between two refs with Copilot Release Notes](../../skills/generate-structured-release-notes-from-merged-pull-requests-between-two-refs-with-copilot-release-notes/) | 2 | — |
 | [Buildkite Agent Fleet Scaler](../../skills/buildkite-agent-fleet-scaler/) | — | — |

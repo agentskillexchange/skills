@@ -31,8 +31,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [GraphQL Data Federation Agent](../../skills/graphql-data-federation-agent/) | ⬇ 34.2M/wk |
 | [GraphQL Schema Introspection Mapper](../../skills/graphql-schema-introspection-mapper/) | ⬇ 34.2M/wk |
 | [CSV Schema Validator & Auto-Fixer](../../skills/csv-schema-validator-auto-fixer/) | ⬇ 291.1M/wk |
+| [Convert DOCX documents into clean HTML for publishing workflows with Mammoth](../../skills/convert-docx-documents-into-clean-html-for-publishing-workflows-mammoth/) | ⬇ 18.3M/wk |
 | [Parse local PDFs into agent-ready text, JSON, and screenshots with LiteParse](../../skills/parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse/) | ⬇ 37k/wk |
-| [Stripe Revenue Analytics Dashboard Builder](../../skills/stripe-revenue-analytics-dashboard/) | ⬇ 9.3M/wk |
 
 ---
 
@@ -135,7 +135,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Sync cloud and SaaS inventory into SQL tables for audits with CloudQuery](../../skills/sync-cloud-and-saas-inventory-into-sql-tables-for-audits-with-cloudquery/) | 6.4k | — |
 | [csvkit Python CSV Utility Suite](../../skills/csvkit-python-csv-utility-suite/) | 6.4k | — |
 | [Apache Camel Route Data Mapper](../../skills/apache-camel-route-data-mapper/) | 6.2k | — |
-| [Convert DOCX documents into clean HTML for publishing workflows with Mammoth](../../skills/convert-docx-documents-into-clean-html-for-publishing-workflows-mammoth/) | 6.2k | — |
+| [Convert DOCX documents into clean HTML for publishing workflows with Mammoth](../../skills/convert-docx-documents-into-clean-html-for-publishing-workflows-mammoth/) | 6.2k | 18.3M/wk |
 | [Evidence BI-as-Code SQL and Markdown Analytics Framework](../../skills/evidence-bi-as-code-sql-markdown-analytics/) | 6.1k | — |
 | [jnv Interactive JSON Navigator and jq Filter Editor](../../skills/jnv-interactive-json-navigator/) | 6k | — |
 | [dlt Python Data Load Tool](../../skills/dlt-python-data-load-tool/) | 5.2k | — |

@@ -88,7 +88,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Ground coding agents in live repository documentation with GitMCP](../../skills/ground-coding-agents-in-live-repository-documentation-with-gitmcp/) | 8.1k | — |
 | [Octokit JavaScript GitHub SDK for REST GraphQL and App Automation](../../skills/octokit-javascript-github-sdk-rest-graphql-app-automation/) | 7.7k | — |
 | [Twirp Go RPC Framework and Code Generator](../../skills/twirp-go-rpc-framework-and-code-generator/) | 7.5k | — |
-| [Lightning CSS High-Performance CSS Parser Transformer and Minifier](../../skills/lightning-css-high-performance-css-parser-transformer-and-minifier/) | 7.5k | — |
+| [Lightning CSS High-Performance CSS Parser Transformer and Minifier](../../skills/lightning-css-high-performance-css-parser-transformer-and-minifier/) | 7.5k | 290.4M/wk |
 | [Postman Collection Runner](../../skills/postman-collection-runner/) | 7.2k | 786.9k/wk |
 | [Doxygen Cross-Reference Indexer](../../skills/doxygen-cross-reference-indexer/) | 6.4k | — |
 | [OpenAPI Spec Validator & Mock Server](../../skills/openapi-spec-validator-mock-server-2/) | 4.9k | — |
