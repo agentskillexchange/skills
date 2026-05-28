@@ -64,6 +64,8 @@ INDUSTRY_EMOJI = {
     "devrel-api-documentation": "📚",
     "customer-support-success": "🎧",
     "real-estate-workflows": "🏠",
+    "education-research-workflows": "🎓",
+    "ai-agency-operations": "🧭",
 }
 def fetch_json(url):
     separator = "&" if "?" in url else "?"
