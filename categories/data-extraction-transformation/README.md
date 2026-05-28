@@ -8,8 +8,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 |---|---:|
 | [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | ⭐ 116.9k |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../../skills/markitdown-document-to-markdown-converter-microsoft/) | ⭐ 93.2k |
-| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | ⭐ 86.3k |
-| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | ⭐ 86.3k |
+| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | ⭐ 86.4k |
+| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | ⭐ 86.4k |
 | [Build document-grounded agent context workflows with RAGFlow](../../skills/build-document-grounded-agent-context-workflows-with-ragflow/) | ⭐ 79.8k |
 | [Use RAGFlow as a retrieval and context layer for agent workflows](../../skills/use-ragflow-as-a-retrieval-and-context-layer-for-agent-workflows/) | ⭐ 79.8k |
 | [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | ⭐ 76.5k |
@@ -42,8 +42,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 |---|---:|---:|
 | [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | 116.9k | — |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../../skills/markitdown-document-to-markdown-converter-microsoft/) | 93.2k | — |
-| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | 86.3k | 395.9k/wk |
-| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 86.3k | — |
+| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | 86.4k | 395.9k/wk |
+| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 86.4k | — |
 | [Build document-grounded agent context workflows with RAGFlow](../../skills/build-document-grounded-agent-context-workflows-with-ragflow/) | 79.8k | — |
 | [Use RAGFlow as a retrieval and context layer for agent workflows](../../skills/use-ragflow-as-a-retrieval-and-context-layer-for-agent-workflows/) | 79.8k | — |
 | [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | 76.5k | — |
@@ -181,6 +181,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Salesforce Bulk API Data Loader](../../skills/salesforce-bulk-api-data-loader/) | 1.5k | 936.6k/wk |
 | [Infer And Normalize Broken CSV Dialects Before Import With Clevercsv](../../skills/infer-and-normalize-broken-csv-dialects-before-import-with-clevercsv/) | 1.3k | — |
 | [Export Obsidian vaults into clean Markdown trees for publishing or downstream processing](../../skills/export-obsidian-vaults-into-clean-markdown-trees-for-publishing-or-downstream-processing/) | 1.3k | — |
+| [Run persistent finance research workspaces with LangAlpha](../../skills/run-persistent-finance-research-workspaces-with-langalpha/) | 1.2k | — |
 | [xq Command-Line XML and HTML Beautifier and Content Extractor](../../skills/xq-command-line-xml-html-beautifier-content-extractor/) | 1.1k | — |
 | [Query Neo4j graph data from agent workflows through MCP](../../skills/query-neo4j-graph-data-from-agent-workflows-through-mcp/) | 947 | — |
 | [Extract structured fields from HTML XML and JSON endpoints with Xidel selectors](../../skills/extract-structured-fields-from-html-xml-and-json-endpoints-with-xidel-selectors/) | 835 | — |
@@ -200,7 +201,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Compare recurring CSV, TSV, or JSON exports and emit row-level change sets before syncs](../../skills/compare-recurring-csv-tsv-or-json-exports-and-emit-row-level-change-sets-before-syncs/) | 330 | — |
 | [Query cross-connector business data for agents with Dinobase](../../skills/query-cross-connector-business-data-for-agents-with-dinobase/) | 252 | — |
 | [Query and inspect Postgres databases through MCP with pgEdge Postgres MCP](../../skills/query-and-inspect-postgres-databases-through-mcp-with-pgedge-postgres-mcp/) | 165 | — |
-| [Weaviate MCP Server](../../skills/weaviate-mcp-server/) | 161 | — |
+| [Weaviate MCP Server](../../skills/weaviate-mcp-server/) | 162 | — |
 | [Turn documents into validated knowledge graphs with Docling Graph](../../skills/turn-documents-into-validated-knowledge-graphs-with-docling-graph/) | 134 | — |
 | [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 89 | — |
 | [Turn captured WARC pages into clean text and language-tagged records with warc2text](../../skills/turn-captured-warc-pages-into-clean-text-and-language-tagged-records-with-warc2text/) | 23 | — |

@@ -94,6 +94,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Recon-ng Modular Web Reconnaissance Framework for OSINT](../../skills/recon-ng-web-reconnaissance-framework/) | 5.5k | — |
 | [Pagefind Static Low-Bandwidth Search Engine](../../skills/pagefind-static-low-bandwidth-search-engine/) | 5.1k | 527.8k/wk |
 | [Capture a live webpage as a clean PDF or readable archive for offline review with Percollate](../../skills/capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate/) | 4.6k | 588/wk |
+| [Run academic research workflows with Claude Scholar](../../skills/run-academic-research-workflows-with-claude-scholar/) | 4.1k | — |
 | [PuppeteerSharp Web Scraping Pipeline](../../skills/puppeteersharp-web-scraping-pipeline/) | 3.9k | — |
 | [Search NotebookLM notebooks, sources, and generated study artifacts from agents](../../skills/search-notebooklm-notebooks-sources-and-generated-study-artifacts-from-agents/) | 3.6k | — |
 | [Search and analyze Zotero research libraries through MCP](../../skills/search-and-analyze-zotero-research-libraries-through-mcp/) | 3.4k | — |
@@ -101,6 +102,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Download every archived snapshot of a URL before site migrations, takedowns, or investigations](../../skills/download-every-archived-snapshot-of-a-url-before-site-migrations-takedowns-or-investigations/) | 3.2k | — |
 | [Search and analyze arXiv papers through MCP workflows](../../skills/search-and-analyze-arxiv-papers-through-mcp-workflows/) | 2.8k | — |
 | [shot-scraper Automated Website Screenshot and Scraping CLI](../../skills/shot-scraper-automated-website-screenshot-scraping-cli/) | 2.3k | — |
+| [Ground research agents in Zotero libraries with LLM for Zotero](../../skills/ground-research-agents-in-zotero-libraries-with-llm-for-zotero/) | 1.7k | — |
 | [Replay And Inspect WARC Web Archives Before Investigation Or Migration With Pywb](../../skills/replay-and-inspect-warc-web-archives-before-investigation-or-migration-with-pywb/) | 1.6k | — |
 | [Tavily MCP Server for AI-Powered Web Search and Extraction](../../skills/tavily-mcp-server-ai-web-search-extraction/) | 1.6k | 47.9k/wk |
 | [AgentQL Natural Language Web Query SDK for Extraction and Automation](../../skills/agentql-natural-language-web-query-sdk-extraction-automation/) | 1.3k | 878/wk |

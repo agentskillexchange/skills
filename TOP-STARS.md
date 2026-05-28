@@ -23,7 +23,7 @@ Skills backed by the most-starred GitHub repositories, deduplicated by upstream 
 | 15 | [Storybook Component Tester](skills/storybook-component-tester/) | 89.9k | storybook | Code Quality & Review |
 | 16 | [Hugo Fast Static Site Generator and CMS Framework](skills/hugo-static-site-generator-cms-framework/) | 87.4k | hugo | WordPress & CMS |
 | 17 | [Playwright Accessibility Audit Runner](skills/playwright-accessibility-audit-runner/) | 86.4k | playwright | Browser Automation |
-| 18 | [PostgreSQL MCP Server](skills/postgresql-mcp-server/) | 86.3k | servers | Data Extraction & Transformation |
+| 18 | [PostgreSQL MCP Server](skills/postgresql-mcp-server/) | 86.4k | servers | Data Extraction & Transformation |
 | 19 | [browser-use Browser Automation Framework](skills/browser-use-browser-automation-framework/) | 85.2k | browser-use | Browser Automation |
 | 20 | [uv Ultra-Fast Python Package and Project Manager](skills/uv-ultra-fast-python-package-project-manager/) | 82.4k | uv | Developer Tools |
 | 21 | [Vite Plugin Hot Module Analyzer](skills/vite-plugin-hmr-analyzer/) | 79.9k | vite | Developer Tools |

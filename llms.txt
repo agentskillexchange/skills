@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-05-28
-# Total: 2519 skills
+# Total: 2523 skills
+
+## Run evidence-backed agentic SEO audits with Agentic SEO Skill
+slug: run-evidence-backed-agentic-seo-audits-with-agentic-seo-skill
+category: Content Writing & SEO
+framework: Multi-Framework
+verification: Security Reviewed
+description: Install a multi-runtime SEO skill pack that collects crawl, schema, performance, sitemap, robots, and content evidence before producing audit reports and action plans.
+url: https://agentskillexchange.com/skills/run-evidence-backed-agentic-seo-audits-with-agentic-seo-skill/
+
+## Run persistent finance research workspaces with LangAlpha
+slug: run-persistent-finance-research-workspaces-with-langalpha
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Create persistent investment-research workspaces where agents process market data, filings, models, charts, and thesis updates over time.
+url: https://agentskillexchange.com/skills/run-persistent-finance-research-workspaces-with-langalpha/
+
+## Ground research agents in Zotero libraries with LLM for Zotero
+slug: ground-research-agents-in-zotero-libraries-with-llm-for-zotero
+category: Research & Scraping
+framework: Multi-Framework
+verification: Security Reviewed
+description: Bring agent-mode paper chat, citation-grounded answers, note saving, tagging, importing, and library-wide research operations into Zotero.
+url: https://agentskillexchange.com/skills/ground-research-agents-in-zotero-libraries-with-llm-for-zotero/
+
+## Run academic research workflows with Claude Scholar
+slug: run-academic-research-workflows-with-claude-scholar
+category: Research & Scraping
+framework: Multi-Framework
+verification: Security Reviewed
+description: Guide literature review, experiment tracking, evidence records, result reporting, and paper-writing work through a structured research-agent workflow.
+url: https://agentskillexchange.com/skills/run-academic-research-workflows-with-claude-scholar/
 
 ## Install Claude Code project workflows with Claude Workflow V2
 slug: install-claude-code-project-workflows-with-claude-workflow-v2

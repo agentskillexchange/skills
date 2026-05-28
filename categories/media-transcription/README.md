@@ -7,7 +7,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | Skill | Stars |
 |---|---:|
 | [yt-dlp Feature-Rich Audio and Video Downloader CLI](../../skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | ⭐ 154.3k |
-| [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | ⭐ 100.6k |
+| [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | ⭐ 100.8k |
 | [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | ⭐ 97.8k |
 | [YouTube Chapters Generator with Whisper](../../skills/youtube-chapters-generator-whisper/) | ⭐ 97.8k |
 | [Whisper Diarization Post-Processor](../../skills/whisper-diarization-post-processor/) | ⭐ 97.8k |
@@ -39,7 +39,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [yt-dlp Feature-Rich Audio and Video Downloader CLI](../../skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | 154.3k | — |
-| [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | 100.6k | — |
+| [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | 100.8k | — |
 | [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | 97.8k | — |
 | [YouTube Chapters Generator with Whisper](../../skills/youtube-chapters-generator-whisper/) | 97.8k | — |
 | [Whisper Diarization Post-Processor](../../skills/whisper-diarization-post-processor/) | 97.8k | — |
@@ -49,7 +49,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Podcast RSS Feed Transcriber](../../skills/podcast-rss-feed-transcriber/) | 97.4k | — |
 | [Immich Self-Hosted Photo and Video Management Platform](../../skills/immich-photo-video-management-platform/) | 96.2k | — |
 | [Tesseract OCR Engine for Image-to-Text Workflows](../../skills/tesseract-ocr-engine-for-image-to-text-workflows/) | 73.4k | — |
-| [Video Frames Extractor](../../skills/video-frames-extractor/) | 60.5k | — |
+| [Video Frames Extractor](../../skills/video-frames-extractor/) | 60.6k | — |
 | [Live Stream Clip Extractor](../../skills/live-stream-clip-extractor-agent/) | 59.4k | — |
 | [Podcast RSS Feed Audio Normalizer](../../skills/podcast-rss-feed-audio-normalizer/) | 59.4k | — |
 | [Video Subtitle Auto-Translator](../../skills/video-subtitle-auto-translator-agent/) | 59.4k | — |

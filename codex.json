@@ -2,8 +2,44 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-05-28",
-  "total": 2519,
+  "total": 2523,
   "skills": [
+    {
+      "slug": "run-evidence-backed-agentic-seo-audits-with-agentic-seo-skill",
+      "name": "Run evidence-backed agentic SEO audits with Agentic SEO Skill",
+      "title": "Run evidence-backed agentic SEO audits with Agentic SEO Skill",
+      "description": "Install a multi-runtime SEO skill pack that collects crawl, schema, performance, sitemap, robots, and content evidence before producing audit reports and action plans.",
+      "category": "Content Writing & SEO",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "run-persistent-finance-research-workspaces-with-langalpha",
+      "name": "Run persistent finance research workspaces with LangAlpha",
+      "title": "Run persistent finance research workspaces with LangAlpha",
+      "description": "Create persistent investment-research workspaces where agents process market data, filings, models, charts, and thesis updates over time.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "ground-research-agents-in-zotero-libraries-with-llm-for-zotero",
+      "name": "Ground research agents in Zotero libraries with LLM for Zotero",
+      "title": "Ground research agents in Zotero libraries with LLM for Zotero",
+      "description": "Bring agent-mode paper chat, citation-grounded answers, note saving, tagging, importing, and library-wide research operations into Zotero.",
+      "category": "Research & Scraping",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "run-academic-research-workflows-with-claude-scholar",
+      "name": "Run academic research workflows with Claude Scholar",
+      "title": "Run academic research workflows with Claude Scholar",
+      "description": "Guide literature review, experiment tracking, evidence records, result reporting, and paper-writing work through a structured research-agent workflow.",
+      "category": "Research & Scraping",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "install-claude-code-project-workflows-with-claude-workflow-v2",
       "name": "Install Claude Code project workflows with Claude Workflow V2",
