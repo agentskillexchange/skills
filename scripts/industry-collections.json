@@ -1569,10 +1569,10 @@
     },
     {
       "slug": "ai-agency-operations",
-      "title": "AI Agency Operations",
+      "title": "AI Agency Operations & FDE Workflows",
       "launch_stage": "wave-5",
-      "description": "Client audits, repeatable automation delivery, campaign operations, CRM enrichment, reporting artifacts, and reusable workflow quality for AI agencies.",
-      "editorial_caution": "Frame this as client delivery operations for agencies and consultants, not a generic agent-engineering or developer-tools collection.",
+      "description": "Client-facing AI delivery, agency operations, forward deployed engineering workflows, automation consulting, and reusable implementation systems for client work.",
+      "editorial_caution": "Frame this as client delivery operations for agencies, FDEs, solutions engineers, and consultants, not a generic agent-engineering, security-ops, or developer-tools collection.",
       "skill_slugs": [
         "run-repeatable-google-ads-and-seo-audits-inside-claude-code-with-toprank",
         "diagnose-site-seo-issues-with-a-structured-audit",
@@ -1591,7 +1591,7 @@
         "co-author-structured-docs-with-staged-context-gathering-and-reader-testing"
       ],
       "who_for": [
-        "AI agency founders, automation consultants, client delivery leads, and solutions engineers packaging repeatable AI-enabled services for clients.",
+        "AI agency founders, forward deployed engineers, automation consultants, client delivery leads, and solutions engineers packaging repeatable AI-enabled services for clients.",
         "RevOps and marketing ops agencies that need site audits, CRM enrichment, campaign operations, deliverable production, and workflow QA."
       ],
       "jobs_covered": [

@@ -13,8 +13,8 @@
 | 📚 | [**DevRel & API Documentation**](devrel-api-documentation.md) | 17 | API docs, OpenAPI references, SDK generation, docs-site publishing, prose linting, and developer enablement workflows. |
 | 🎧 | [**Customer Support & Success**](customer-support-success.md) | 21 | Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, customer context, CRM sync, and reply-drafting support. |
 | 🏠 | [**Real Estate Workflows**](real-estate-workflows.md) | 13 | Property research support, transaction paperwork, signature routing, document intake, CRM context, and listing follow-up workflows for real-estate operations. |
-| 📦 | [**Education & Research Workflows**](education-research-workflows.md) | 12 | Literature review, citation context, research synthesis, paper drafting, replication checks, and evidence packets for academic and technical teams. |
-| 📦 | [**AI Agency Operations**](ai-agency-operations.md) | 15 | Client audits, repeatable automation delivery, campaign operations, CRM enrichment, reporting artifacts, and reusable workflow quality for AI agencies. |
+| 🎓 | [**Education & Research Workflows**](education-research-workflows.md) | 12 | Literature review, citation context, research synthesis, paper drafting, replication checks, and evidence packets for academic and technical teams. |
+| 🧭 | [**AI Agency Operations & FDE Workflows**](ai-agency-operations.md) | 15 | Client-facing AI delivery, agency operations, forward deployed engineering workflows, automation consulting, and reusable implementation systems for client work. |
 
 ---
 

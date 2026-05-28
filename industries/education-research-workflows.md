@@ -1,4 +1,4 @@
-# 📦 Education & Research Workflows
+# 🎓 Education & Research Workflows
 
 Literature review, citation context, research synthesis, paper drafting, replication checks, and evidence packets for academic and technical teams.
 

@@ -1,13 +1,13 @@
-# 📦 AI Agency Operations
+# 🧭 AI Agency Operations & FDE Workflows
 
-Client audits, repeatable automation delivery, campaign operations, CRM enrichment, reporting artifacts, and reusable workflow quality for AI agencies.
+Client-facing AI delivery, agency operations, forward deployed engineering workflows, automation consulting, and reusable implementation systems for client work.
 
 - Live page: https://agentskillexchange.com/industry-skills/#ai-agency-operations
 - Homepage access: Curated Collections on https://agentskillexchange.com/
 
 ## Who this is for
 
-- AI agency founders, automation consultants, client delivery leads, and solutions engineers packaging repeatable AI-enabled services for clients.
+- AI agency founders, forward deployed engineers, automation consultants, client delivery leads, and solutions engineers packaging repeatable AI-enabled services for clients.
 - RevOps and marketing ops agencies that need site audits, CRM enrichment, campaign operations, deliverable production, and workflow QA.
 
 ## Jobs covered
@@ -49,7 +49,7 @@ Client audits, repeatable automation delivery, campaign operations, CRM enrichme
 - Keep the collection anchored in client delivery work: audits, handoffs, CRM, campaign ops, reports, and reusable workflows.
 - Avoid drifting into generic agent engineering, security operations, CI/CD, or broad developer tooling.
 - Prioritize tools that produce reviewable client artifacts or connect agency workflows to real business systems.
-- Frame this as client delivery operations for agencies and consultants, not a generic agent-engineering or developer-tools collection.
+- Frame this as client delivery operations for agencies, FDEs, solutions engineers, and consultants, not a generic agent-engineering, security-ops, or developer-tools collection.
 
 ## Adjacent Collections
 
