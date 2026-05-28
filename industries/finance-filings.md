@@ -42,6 +42,7 @@ Filings research, invoice intake, billing operations, reconciliation, and financ
 | [trdsql SQL Query Engine for CSV JSON and YAML Files](../skills/trdsql-sql-query-engine-csv-json-yaml-files/) | Supports quick SQL checks over exported files when reconciliation questions start as CSV or JSON. | Ops analyst / data wrangler | Low | 2.2k |
 | [Profile and clean large CSV datasets from the terminal with qsv](../skills/profile-and-clean-large-csv-datasets-from-the-terminal-with-qsv/) | Profiles and cleans large exports before spreadsheet review or warehouse load. | Finance analyst / data ops | Low | 3.6k |
 | [Compare recurring CSV, TSV, or JSON exports and emit row-level change sets before syncs](../skills/compare-recurring-csv-tsv-or-json-exports-and-emit-row-level-change-sets-before-syncs/) | Explains row-level differences between recurring exports, which is core to reconciliation review. | Finance ops / QA analyst | Low | 330 |
+| [Run persistent finance research workspaces with LangAlpha](../skills/run-persistent-finance-research-workspaces-with-langalpha/) | Creates persistent finance research workspaces where filings, market data, models, charts, and thesis notes stay organized across analysis passes. | Investment analyst / finance researcher | High | 1.2k |
 | [Apache Superset Dashboard and SQL Exploration Skill](../skills/apache-superset-dashboard-sql-exploration-skill/) | Turns cleaned finance datasets into shareable dashboards and SQL-backed reporting views. | Analytics engineer / finance lead | High | 72.3k |
 
 ## Editorial Notes

@@ -165,6 +165,7 @@
         "trdsql-sql-query-engine-csv-json-yaml-files",
         "profile-and-clean-large-csv-datasets-from-the-terminal-with-qsv",
         "compare-recurring-csv-tsv-or-json-exports-and-emit-row-level-change-sets-before-syncs",
+        "run-persistent-finance-research-workspaces-with-langalpha",
         "apache-superset-dashboard-sql-exploration-skill"
       ],
       "who_for": [
@@ -287,6 +288,11 @@
           "why_here": "Explains row-level differences between recurring exports, which is core to reconciliation review.",
           "persona": "Finance ops / QA analyst",
           "install_complexity": "Low"
+        },
+        "run-persistent-finance-research-workspaces-with-langalpha": {
+          "why_here": "Creates persistent finance research workspaces where filings, market data, models, charts, and thesis notes stay organized across analysis passes.",
+          "persona": "Investment analyst / finance researcher",
+          "install_complexity": "High"
         },
         "apache-superset-dashboard-sql-exploration-skill": {
           "why_here": "Turns cleaned finance datasets into shareable dashboards and SQL-backed reporting views.",
@@ -1440,12 +1446,14 @@
       "editorial_caution": "Frame these as research workflow aids, not peer-review substitutes, authorship guarantees, or automated scientific claims.",
       "skill_slugs": [
         "search-and-analyze-zotero-research-libraries-through-mcp",
+        "ground-research-agents-in-zotero-libraries-with-llm-for-zotero",
         "search-and-analyze-arxiv-papers-through-mcp-workflows",
         "beautifulsoup-academic-paper-parser",
         "serpapi-scholar-agent",
         "run-nature-style-academic-writing-and-figure-workflows-with-nature-skills",
         "turn-a-research-idea-into-a-draft-paper-workflow-with-autoresearchclaw",
         "run-research-and-scientific-analysis-workflows-with-scientific-agent-skills",
+        "run-academic-research-workflows-with-claude-scholar",
         "run-academic-writing-analysis-and-replication-workflows-with-quality-gates-in-claude-code-my-workflow",
         "run-local-deep-research-workflows-with-local-deep-research",
         "convert-dense-pdfs-into-llm-ready-text-and-page-aligned-markdown-with-olmocr",
@@ -1510,6 +1518,11 @@
           "persona": "Academic lab manager / researcher",
           "install_complexity": "Medium"
         },
+        "ground-research-agents-in-zotero-libraries-with-llm-for-zotero": {
+          "why_here": "Adds deeper Zotero-native research operations: paper chat, citation-grounded answers, note saving, tagging, importing, and library-wide review.",
+          "persona": "Researcher / literature review lead",
+          "install_complexity": "Medium"
+        },
         "search-and-analyze-arxiv-papers-through-mcp-workflows": {
           "why_here": "Adds arXiv search, download, and local paper storage for technical literature review and fast-moving research areas.",
           "persona": "Research analyst / graduate researcher",
@@ -1538,6 +1551,11 @@
         "run-research-and-scientific-analysis-workflows-with-scientific-agent-skills": {
           "why_here": "Adds domain-specific scientific workflow guidance when general prompting is too loose for research-heavy analysis.",
           "persona": "Research scientist / scientific analyst",
+          "install_complexity": "Medium"
+        },
+        "run-academic-research-workflows-with-claude-scholar": {
+          "why_here": "Guides literature review, experiment tracking, evidence records, result reporting, and paper-writing through a structured research-agent workflow.",
+          "persona": "Academic lab lead / research project owner",
           "install_complexity": "Medium"
         },
         "run-academic-writing-analysis-and-replication-workflows-with-quality-gates-in-claude-code-my-workflow": {
@@ -1576,6 +1594,7 @@
       "skill_slugs": [
         "run-repeatable-google-ads-and-seo-audits-inside-claude-code-with-toprank",
         "diagnose-site-seo-issues-with-a-structured-audit",
+        "run-evidence-backed-agentic-seo-audits-with-agentic-seo-skill",
         "plan-programmatic-seo-pages-at-scale",
         "firecrawl-markdown-capture-pipeline",
         "crawl4ai-llm-web-crawler-scraper",
@@ -1654,6 +1673,11 @@
           "why_here": "Creates a structured technical and on-page SEO audit before client recommendations are written.",
           "persona": "SEO consultant / client strategist",
           "install_complexity": "Low"
+        },
+        "run-evidence-backed-agentic-seo-audits-with-agentic-seo-skill": {
+          "why_here": "Collects crawl, schema, performance, sitemap, robots, and content evidence before producing client SEO audit reports and action plans.",
+          "persona": "SEO agency lead / forward deployed growth engineer",
+          "install_complexity": "Medium"
         },
         "plan-programmatic-seo-pages-at-scale": {
           "why_here": "Helps agencies design scalable SEO page programs without collapsing into thin or duplicated client content.",
