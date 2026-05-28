@@ -4,14 +4,14 @@
 
 | | Collection | Picks | Summary |
 |---|---|---:|---|
-| 🎙️ | [**Media & Publishing Systems**](media-publishing-systems.md) | 12 | Transcription, subtitles, podcast workflows, chaptering, localization, loudness cleanup, and final-mile publishing prep. |
+| 🎙️ | [**Media & Publishing Systems**](media-publishing-systems.md) | 14 | Transcription, subtitles, podcast workflows, chaptering, localization, loudness cleanup, and final-mile publishing prep. |
 | 💼 | [**Finance & Filings**](finance-filings.md) | 15 | Filings research, invoice intake, billing operations, reconciliation, and finance-adjacent reporting. |
 | 🛒 | [**Ecommerce & Retail Operations**](ecommerce-retail-operations.md) | 12 | Catalog management, storefront automation, orders, inventory sync, marketplace support, and review-driven merchandising. |
-| ⚖️ | [**Legal Ops & Compliance**](legal-ops-compliance.md) | 26 | Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support. |
-| 🩺 | [**Healthcare Documentation & Intake**](healthcare-documentation-intake.md) | 13 | Documentation intake, OCR, transcription, structured extraction, and biomedical literature support for paperwork-heavy workflows. |
+| ⚖️ | [**Legal Ops & Compliance**](legal-ops-compliance.md) | 28 | Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support. |
+| 🩺 | [**Healthcare Documentation & Intake**](healthcare-documentation-intake.md) | 15 | Documentation intake, OCR, transcription, structured extraction, and biomedical literature support for paperwork-heavy workflows. |
 | 📈 | [**Product Analytics & Growth Ops**](product-analytics-growth-ops.md) | 12 | Product analytics, feature flags, rollout checks, session replay, privacy-friendly web analytics, and experiment/evaluation workflows. |
 | 📚 | [**DevRel & API Documentation**](devrel-api-documentation.md) | 17 | API docs, OpenAPI references, SDK generation, docs-site publishing, prose linting, and developer enablement workflows. |
-| 🎧 | [**Customer Support & Success**](customer-support-success.md) | 19 | Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, customer context, CRM sync, and reply-drafting support. |
+| 🎧 | [**Customer Support & Success**](customer-support-success.md) | 21 | Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, customer context, CRM sync, and reply-drafting support. |
 | 🏠 | [**Real Estate Workflows**](real-estate-workflows.md) | 13 | Property research support, transaction paperwork, signature routing, document intake, CRM context, and listing follow-up workflows for real-estate operations. |
 
 ---

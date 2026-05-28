@@ -17,6 +17,8 @@
         "faster-whisper-high-performance-speech-transcription",
         "deepgram-realtime-transcription-connector",
         "assemblyai-summarization-chapters-skill",
+        "youtube-chapters-generator-whisper",
+        "summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize",
         "self-host-an-openai-compatible-speech-api-for-local-transcription-translation-and-tts-with-speaches",
         "yt-dlp-feature-rich-audio-video-downloader-cli"
       ],
@@ -118,6 +120,16 @@
         "assemblyai-summarization-chapters-skill": {
           "why_here": "Converts transcripts into chapter summaries for show notes, lesson outlines, and archive navigation.",
           "persona": "Podcast producer / editorial ops",
+          "install_complexity": "Medium"
+        },
+        "youtube-chapters-generator-whisper": {
+          "why_here": "Turns YouTube source audio into timestamped chapters so editors can build navigable videos, show notes, and repurposing briefs.",
+          "persona": "Video producer / publishing ops",
+          "install_complexity": "Medium"
+        },
+        "summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize": {
+          "why_here": "Creates compact briefs from URLs, files, podcasts, and YouTube sources before downstream scripting, clipping, or editorial review.",
+          "persona": "Content strategist / research producer",
           "install_complexity": "Medium"
         },
         "self-host-an-openai-compatible-speech-api-for-local-transcription-translation-and-tts-with-speaches": {
@@ -450,6 +462,8 @@
         "extract-structured-data-and-attachments-from-raw-email-mailparser",
         "strip-quoted-email-history-and-signatures-before-summarizing-inbound-replies",
         "load-mbox-mail-archives-into-sqlite-for-offline-search-audits-and-dataset-joins",
+        "markitdown-document-to-markdown-converter-microsoft",
+        "mineru-pdf-to-markdown-document-parser",
         "put-approval-gates-and-audit-ready-policy-checks-between-agents-and-external-actions-with-dashclaw"
       ],
       "who_for": [
@@ -631,6 +645,16 @@
           "persona": "Investigator / data analyst",
           "install_complexity": "Medium"
         },
+        "markitdown-document-to-markdown-converter-microsoft": {
+          "why_here": "Converts Office files, PDFs, email-like documents, and other matter inputs into Markdown for review packets and audit summaries.",
+          "persona": "Legal ops analyst / compliance reviewer",
+          "install_complexity": "Medium"
+        },
+        "mineru-pdf-to-markdown-document-parser": {
+          "why_here": "Handles complex PDFs with layout-aware Markdown and JSON output for contract packets, exhibits, and long-form compliance evidence.",
+          "persona": "eDiscovery engineer / records analyst",
+          "install_complexity": "High"
+        },
         "put-approval-gates-and-audit-ready-policy-checks-between-agents-and-external-actions-with-dashclaw": {
           "why_here": "Adds approval gates and replayable decision evidence when legal AI workflows need human review before external actions.",
           "persona": "Legal AI governance lead / compliance ops",
@@ -657,6 +681,8 @@
         "parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse",
         "redact-pii-from-text-before-sharing-or-indexing-with-scrubadub",
         "surya-document-ocr-layout-analysis-table-recognition",
+        "paddleocr-multilingual-document-ocr-toolkit",
+        "markitdown-document-to-markdown-converter-microsoft",
         "extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg"
       ],
       "who_for": [
@@ -767,6 +793,16 @@
           "why_here": "Adds layout-aware OCR and table recognition for scanned forms, records, and intake packets.",
           "persona": "Health records ops / documentation analyst",
           "install_complexity": "High"
+        },
+        "paddleocr-multilingual-document-ocr-toolkit": {
+          "why_here": "Adds multilingual OCR and structured extraction for scanned intake forms, referral packets, and mixed-language documentation queues.",
+          "persona": "Healthcare intake ops / document automation engineer",
+          "install_complexity": "High"
+        },
+        "markitdown-document-to-markdown-converter-microsoft": {
+          "why_here": "Converts PDFs, Office files, images, and audio notes into Markdown that documentation agents can summarize with human review.",
+          "persona": "Clinical documentation ops / data intake analyst",
+          "install_complexity": "Medium"
         },
         "extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg": {
           "why_here": "Gives agents one MCP-accessible extraction layer for PDFs, Office files, images, HTML, and other mixed healthcare intake inputs.",
@@ -1094,6 +1130,8 @@
         "extract-structured-data-and-attachments-from-raw-email-mailparser",
         "assemblyai-realtime-call-intelligence",
         "strip-quoted-email-history-and-signatures-before-summarizing-inbound-replies",
+        "slack-mcp-server",
+        "imap-inbox-triage-agent",
         "zapier-lead-enrichment-workflow"
       ],
       "discovery_candidates": [
@@ -1231,6 +1269,16 @@
           "why_here": "Keeps reply summaries focused on the newest customer message instead of quoted thread noise.",
           "persona": "Support agent / inbox triage lead",
           "install_complexity": "Low"
+        },
+        "slack-mcp-server": {
+          "why_here": "Lets support agents inspect Slack escalation threads and customer-adjacent workspace context before drafting handoffs or replies.",
+          "persona": "Support escalation lead / success ops",
+          "install_complexity": "Medium"
+        },
+        "imap-inbox-triage-agent": {
+          "why_here": "Adds direct inbox classification and prioritization for teams whose support flow still starts in shared IMAP mailboxes.",
+          "persona": "Support inbox manager / operations analyst",
+          "install_complexity": "Medium"
         },
         "zapier-lead-enrichment-workflow": {
           "why_here": "Enriches lead/contact records before support-to-success handoff or account follow-up.",

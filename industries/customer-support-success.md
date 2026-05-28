@@ -44,6 +44,8 @@ Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, c
 | [Extract structured data and attachments from raw email with MailParser](../skills/extract-structured-data-and-attachments-from-raw-email-mailparser/) | Normalizes inbound email bodies and attachments for ticket creation or routing. | Support automation engineer | Medium | 1.7k |
 | [AssemblyAI Real-Time Call Intelligence](../skills/assemblyai-realtime-call-intelligence/) | Captures live call transcripts and speaker context for support QA and follow-up notes. | Call center ops / QA lead | High | — |
 | [Strip quoted email history and signatures before summarizing inbound replies](../skills/strip-quoted-email-history-and-signatures-before-summarizing-inbound-replies/) | Keeps reply summaries focused on the newest customer message instead of quoted thread noise. | Support agent / inbox triage lead | Low | 78 |
+| [Slack MCP Server](../skills/slack-mcp-server/) | Lets support agents inspect Slack escalation threads and customer-adjacent workspace context before drafting handoffs or replies. | Support escalation lead / success ops | Medium | 86.4k |
+| [IMAP Inbox Triage Agent](../skills/imap-inbox-triage-agent/) | Adds direct inbox classification and prioritization for teams whose support flow still starts in shared IMAP mailboxes. | Support inbox manager / operations analyst | Medium | — |
 | [Zapier Multi-Step Lead Enrichment Workflow](../skills/zapier-lead-enrichment-workflow/) | Enriches lead/contact records before support-to-success handoff or account follow-up. | Success ops / CRM automation lead | Medium | — |
 
 ## Editorial Notes
