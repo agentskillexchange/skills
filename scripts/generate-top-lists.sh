@@ -9,9 +9,12 @@ REPO_DIR="${1:-$(dirname "$SCRIPT_DIR")}"
 
 python3 - "$REPO_DIR" << 'PYEOF'
 import html
+import http.client
 import json
 import os
 import sys
+import time
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -20,12 +23,21 @@ SITE_BASE = os.environ.get("ASE_SITE_BASE", os.environ.get("ASE_API_BASE", "http
 BROWSE_BASE = f"{SITE_BASE}/wp-json/ase-marketplace/v1/browse"
 
 def fetch_json(url):
-    req = urllib.request.Request(url, headers={
-        "User-Agent": "Mozilla/5.0 (compatible; ASE Repo Generator/1.0)",
-        "Accept": "application/json,text/plain,*/*",
-    })
-    with urllib.request.urlopen(req, timeout=60) as resp:
-        return json.loads(resp.read().decode("utf-8")), dict(resp.headers)
+    last_error = None
+    for attempt in range(1, 6):
+        req = urllib.request.Request(url, headers={
+            "User-Agent": "Mozilla/5.0 (compatible; ASE Repo Generator/1.0)",
+            "Accept": "application/json,text/plain,*/*",
+        })
+        try:
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                return json.loads(resp.read().decode("utf-8")), dict(resp.headers)
+        except (http.client.RemoteDisconnected, urllib.error.URLError, TimeoutError) as exc:
+            last_error = exc
+            if attempt == 5:
+                break
+            time.sleep(2 * attempt)
+    raise RuntimeError(f"Failed to fetch {url} after retries: {last_error}")
 
 def fmt_num(n):
     n = int(n or 0)
