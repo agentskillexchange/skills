@@ -44,6 +44,8 @@ Filings research, invoice intake, billing operations, reconciliation, and financ
 | [Compare recurring CSV, TSV, or JSON exports and emit row-level change sets before syncs](../skills/compare-recurring-csv-tsv-or-json-exports-and-emit-row-level-change-sets-before-syncs/) | Explains row-level differences between recurring exports, which is core to reconciliation review. | Finance ops / QA analyst | Low | 330 |
 | [Run persistent finance research workspaces with LangAlpha](../skills/run-persistent-finance-research-workspaces-with-langalpha/) | Creates persistent finance research workspaces where filings, market data, models, charts, and thesis notes stay organized across analysis passes. | Investment analyst / finance researcher | High | 1.2k |
 | [Apache Superset Dashboard and SQL Exploration Skill](../skills/apache-superset-dashboard-sql-exploration-skill/) | Turns cleaned finance datasets into shareable dashboards and SQL-backed reporting views. | Analytics engineer / finance lead | High | 72.3k |
+| [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | Creates and repairs workbook models while preserving formulas, which is central to finance reporting and reconciliation handoffs. | Finance analyst / spreadsheet ops | Medium | 116.9k |
+| [Metabase Dashboard Snapshot & Alerting](../skills/metabase-dashboard-snapshot-alerting-2/) | Captures dashboard snapshots and alerts so finance teams can monitor recurring metrics without manually checking reports. | Finance analytics engineer / ops lead | Medium | — |
 
 ## Editorial Notes
 

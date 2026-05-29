@@ -20,7 +20,10 @@
         "youtube-chapters-generator-whisper",
         "summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize",
         "self-host-an-openai-compatible-speech-api-for-local-transcription-translation-and-tts-with-speaches",
-        "yt-dlp-feature-rich-audio-video-downloader-cli"
+        "yt-dlp-feature-rich-audio-video-downloader-cli",
+        "analyze-videos-with-frame-extraction-and-audio-context-in-claude-code",
+        "whisper-subtitle-generator",
+        "whishper-self-hosted-speech-to-text-audio-workflow-skill"
       ],
       "who_for": [
         "Podcast, video, course, and newsroom teams that need repeatable post-production handoffs.",
@@ -141,6 +144,21 @@
           "why_here": "Adds the standard audio/video source acquisition layer before transcription, captioning, chaptering, or repurposing workflows.",
           "persona": "Media ops / content producer",
           "install_complexity": "Medium"
+        },
+        "analyze-videos-with-frame-extraction-and-audio-context-in-claude-code": {
+          "why_here": "Extracts frames and audio context from videos so editors and researchers can build reviewable media summaries before publishing.",
+          "persona": "Video producer / media researcher",
+          "install_complexity": "Medium"
+        },
+        "whisper-subtitle-generator": {
+          "why_here": "Creates subtitle files from speech audio for teams that need caption artifacts before video or course release.",
+          "persona": "Video editor / accessibility ops",
+          "install_complexity": "Medium"
+        },
+        "whishper-self-hosted-speech-to-text-audio-workflow-skill": {
+          "why_here": "Adds a self-hosted speech-to-text workflow for privacy-conscious media teams handling interviews, lessons, or internal recordings.",
+          "persona": "Media platform engineer / transcript ops",
+          "install_complexity": "High"
         }
       }
     },
@@ -166,7 +184,9 @@
         "profile-and-clean-large-csv-datasets-from-the-terminal-with-qsv",
         "compare-recurring-csv-tsv-or-json-exports-and-emit-row-level-change-sets-before-syncs",
         "run-persistent-finance-research-workspaces-with-langalpha",
-        "apache-superset-dashboard-sql-exploration-skill"
+        "apache-superset-dashboard-sql-exploration-skill",
+        "create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas",
+        "metabase-dashboard-snapshot-alerting-2"
       ],
       "who_for": [
         "Finance operators, founders, RevOps teams, and analysts who need evidence-backed filings, invoice, billing, and reconciliation workflows.",
@@ -298,6 +318,16 @@
           "why_here": "Turns cleaned finance datasets into shareable dashboards and SQL-backed reporting views.",
           "persona": "Analytics engineer / finance lead",
           "install_complexity": "High"
+        },
+        "create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas": {
+          "why_here": "Creates and repairs workbook models while preserving formulas, which is central to finance reporting and reconciliation handoffs.",
+          "persona": "Finance analyst / spreadsheet ops",
+          "install_complexity": "Medium"
+        },
+        "metabase-dashboard-snapshot-alerting-2": {
+          "why_here": "Captures dashboard snapshots and alerts so finance teams can monitor recurring metrics without manually checking reports.",
+          "persona": "Finance analytics engineer / ops lead",
+          "install_complexity": "Medium"
         }
       }
     },
@@ -310,10 +340,10 @@
       "skill_slugs": [
         "saleor-open-source-headless-commerce-graphql-api",
         "medusa-commerce-api-store-operations-automation-skill",
-        "shopify-admin-graphql-sync-agent",
+        "build-and-validate-shopify-apps-with-the-official-shopify-ai-toolkit",
         "woocommerce-rest-inventory-sync",
         "stripe-connect-marketplace-sync",
-        "woocommerce-webhook-delivery-inspector",
+        "woocommerce-webhook-orchestrator",
         "run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp",
         "stripe-payment-flow-connector",
         "stripe-connect-account-provisioner",
@@ -384,9 +414,9 @@
           "persona": "Store operations engineer",
           "install_complexity": "High"
         },
-        "shopify-admin-graphql-sync-agent": {
-          "why_here": "Handles Shopify bulk data syncs for products, orders, customers, and inventory through the Admin API.",
-          "persona": "Shopify ops / integration engineer",
+        "build-and-validate-shopify-apps-with-the-official-shopify-ai-toolkit": {
+          "why_here": "Covers Shopify app build and validation work for teams extending storefront and admin operations with the official toolkit.",
+          "persona": "Shopify app engineer / commerce platform lead",
           "install_complexity": "High"
         },
         "woocommerce-rest-inventory-sync": {
@@ -399,9 +429,9 @@
           "persona": "Marketplace ops / payments engineer",
           "install_complexity": "High"
         },
-        "woocommerce-webhook-delivery-inspector": {
-          "why_here": "Diagnoses webhook delivery and Action Scheduler failures before order or inventory automations drift.",
-          "persona": "WooCommerce support engineer",
+        "woocommerce-webhook-orchestrator": {
+          "why_here": "Routes WooCommerce webhook events into repeatable order, inventory, and fulfillment automations.",
+          "persona": "Store automation engineer / WordPress ops",
           "install_complexity": "Medium"
         },
         "run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp": {
@@ -689,7 +719,8 @@
         "surya-document-ocr-layout-analysis-table-recognition",
         "paddleocr-multilingual-document-ocr-toolkit",
         "markitdown-document-to-markdown-converter-microsoft",
-        "extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg"
+        "extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg",
+        "tesseract-ocr-document-extractor"
       ],
       "who_for": [
         "Healthcare operations, intake, research, and documentation teams handling paperwork-heavy non-clinical workflows.",
@@ -814,6 +845,11 @@
           "why_here": "Gives agents one MCP-accessible extraction layer for PDFs, Office files, images, HTML, and other mixed healthcare intake inputs.",
           "persona": "Health data engineer / AI documentation ops",
           "install_complexity": "High"
+        },
+        "tesseract-ocr-document-extractor": {
+          "why_here": "Adds a proven OCR path for scanned intake forms, referral packets, and legacy paperwork before human review.",
+          "persona": "Healthcare intake ops / document automation engineer",
+          "install_complexity": "Medium"
         }
       }
     },
@@ -972,7 +1008,10 @@
         "verify-markdown-links-before-docs-or-content-ship-with-markdown-link-check",
         "typedoc-typescript-api-documentation-generator",
         "update-repository-docs-automatically-after-code-changes-and-open-review-prs",
-        "validate-python-docstrings-against-function-signatures-with-pydoclint"
+        "validate-python-docstrings-against-function-signatures-with-pydoclint",
+        "openapi-generator-api-client-server-stub-tooling",
+        "swagger-ui-documentation-deployer",
+        "bootstrap-openapi-spec-from-captured-api-traffic-before-client-or-test-automation"
       ],
       "who_for": [
         "DevRel, API platform, SDK, and documentation teams maintaining references, examples, and docs sites.",
@@ -1108,6 +1147,21 @@
           "why_here": "Catches stale Python docstrings when APIs change, improving generated and maintained reference docs.",
           "persona": "Python library maintainer / docs QA",
           "install_complexity": "Low"
+        },
+        "openapi-generator-api-client-server-stub-tooling": {
+          "why_here": "Generates client SDKs and server stubs from OpenAPI specs, closing the loop between API documentation and usable developer artifacts.",
+          "persona": "SDK engineer / API platform team",
+          "install_complexity": "Medium"
+        },
+        "swagger-ui-documentation-deployer": {
+          "why_here": "Publishes interactive API references from OpenAPI specs so developers can inspect endpoints without custom docs infrastructure.",
+          "persona": "API docs maintainer / DevRel engineer",
+          "install_complexity": "Low"
+        },
+        "bootstrap-openapi-spec-from-captured-api-traffic-before-client-or-test-automation": {
+          "why_here": "Turns captured API traffic into a starter OpenAPI spec before client generation, docs cleanup, or test automation.",
+          "persona": "API platform engineer / integration lead",
+          "install_complexity": "Medium"
         }
       }
     },
@@ -1138,7 +1192,8 @@
         "strip-quoted-email-history-and-signatures-before-summarizing-inbound-replies",
         "slack-mcp-server",
         "imap-inbox-triage-agent",
-        "zapier-lead-enrichment-workflow"
+        "zapier-lead-enrichment-workflow",
+        "gmail-api-thread-label-triage"
       ],
       "discovery_candidates": [
         "https://github.com/nbashaw/claude-cs",
@@ -1289,6 +1344,11 @@
         "zapier-lead-enrichment-workflow": {
           "why_here": "Enriches lead/contact records before support-to-success handoff or account follow-up.",
           "persona": "Success ops / CRM automation lead",
+          "install_complexity": "Medium"
+        },
+        "gmail-api-thread-label-triage": {
+          "why_here": "Adds Gmail-native thread labeling and triage for support and success teams that still coordinate from shared inboxes.",
+          "persona": "Support ops lead / customer success manager",
           "install_complexity": "Medium"
         }
       }
@@ -1458,7 +1518,10 @@
         "run-local-deep-research-workflows-with-local-deep-research",
         "convert-dense-pdfs-into-llm-ready-text-and-page-aligned-markdown-with-olmocr",
         "capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate",
-        "excalidraw-virtual-whiteboard-diagram-sdk"
+        "excalidraw-virtual-whiteboard-diagram-sdk",
+        "search-notebooklm-notebooks-sources-and-generated-study-artifacts-from-agents",
+        "parameterize-and-execute-notebooks-as-repeatable-runs",
+        "automate-ml-research-loops-with-aris-skills"
       ],
       "who_for": [
         "Researchers, academic labs, research analysts, and science or technical writing teams turning scattered sources into reviewable research artifacts.",
@@ -1582,6 +1645,21 @@
           "why_here": "Supports research diagrams, study designs, paper figures, and collaborative whiteboarding before findings are written up.",
           "persona": "Lab collaborator / technical writing team",
           "install_complexity": "Medium"
+        },
+        "search-notebooklm-notebooks-sources-and-generated-study-artifacts-from-agents": {
+          "why_here": "Lets research agents search NotebookLM notebooks, source sets, notes, and study artifacts without leaving the research workspace.",
+          "persona": "Research analyst / study workflow owner",
+          "install_complexity": "Medium"
+        },
+        "parameterize-and-execute-notebooks-as-repeatable-runs": {
+          "why_here": "Turns notebooks into parameterized repeatable runs for analysis, replication checks, and teaching workflows.",
+          "persona": "Research engineer / data science instructor",
+          "install_complexity": "Medium"
+        },
+        "automate-ml-research-loops-with-aris-skills": {
+          "why_here": "Supports iterative ML experiment planning, execution, and review loops with reusable research-agent structure.",
+          "persona": "ML researcher / research engineer",
+          "install_complexity": "High"
         }
       }
     },
@@ -1608,7 +1686,12 @@
         "composio-agent-tool-integration-platform",
         "create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas",
         "create-and-repair-word-documents-with-layout-safe-docx-workflows",
-        "co-author-structured-docs-with-staged-context-gathering-and-reader-testing"
+        "co-author-structured-docs-with-staged-context-gathering-and-reader-testing",
+        "stagehand-browser-automation-sdk",
+        "skyvern-ai-browser-workflow-automation",
+        "browserbase-mcp-server",
+        "cal-com-open-source-scheduling-infrastructure-api",
+        "webflow-data-api-javascript-sdk"
       ],
       "who_for": [
         "AI agency founders, forward deployed engineers, automation consultants, client delivery leads, and solutions engineers packaging repeatable AI-enabled services for clients.",
@@ -1749,6 +1832,31 @@
           "why_here": "Runs a staged co-authoring process for proposals, audit reports, SOPs, and client-facing implementation docs.",
           "persona": "Agency principal / client strategist",
           "install_complexity": "Low"
+        },
+        "stagehand-browser-automation-sdk": {
+          "why_here": "Gives agencies a browser automation SDK for client workflow demos, audits, and supervised web task implementation.",
+          "persona": "Forward deployed engineer / automation consultant",
+          "install_complexity": "Medium"
+        },
+        "skyvern-ai-browser-workflow-automation": {
+          "why_here": "Automates messy browser workflows with visual context when client systems lack clean APIs or repeatable backend hooks.",
+          "persona": "AI solutions engineer / client automation lead",
+          "install_complexity": "High"
+        },
+        "browserbase-mcp-server": {
+          "why_here": "Provides managed browser infrastructure through MCP for agency-built agents that need reliable web sessions.",
+          "persona": "FDE / agent infrastructure engineer",
+          "install_complexity": "High"
+        },
+        "cal-com-open-source-scheduling-infrastructure-api": {
+          "why_here": "Adds scheduling infrastructure for client onboarding, demos, bookings, and service-delivery handoffs.",
+          "persona": "Client success ops / agency operations lead",
+          "install_complexity": "High"
+        },
+        "webflow-data-api-javascript-sdk": {
+          "why_here": "Covers Webflow site and CMS operations for agencies delivering client landing pages, CMS migrations, and content systems.",
+          "persona": "Webflow agency engineer / site ops lead",
+          "install_complexity": "Medium"
         }
       }
     }

@@ -42,6 +42,7 @@ Documentation intake, OCR, transcription, structured extraction, and biomedical 
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../skills/paddleocr-multilingual-document-ocr-toolkit/) | Adds multilingual OCR and structured extraction for scanned intake forms, referral packets, and mixed-language documentation queues. | Healthcare intake ops / document automation engineer | High | 73.7k |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../skills/markitdown-document-to-markdown-converter-microsoft/) | Converts PDFs, Office files, images, and audio notes into Markdown that documentation agents can summarize with human review. | Clinical documentation ops / data intake analyst | Medium | 93.2k |
 | [Extract structured text, metadata, tables, and images from mixed documents through an MCP server with Kreuzberg](../skills/extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg/) | Gives agents one MCP-accessible extraction layer for PDFs, Office files, images, HTML, and other mixed healthcare intake inputs. | Health data engineer / AI documentation ops | High | 7.6k |
+| [Tesseract OCR Document Extractor](../skills/tesseract-ocr-document-extractor/) | Adds a proven OCR path for scanned intake forms, referral packets, and legacy paperwork before human review. | Healthcare intake ops / document automation engineer | Medium | 73.6k |
 
 ## Editorial Notes
 

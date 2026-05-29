@@ -47,6 +47,7 @@ Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, c
 | [Slack MCP Server](../skills/slack-mcp-server/) | Lets support agents inspect Slack escalation threads and customer-adjacent workspace context before drafting handoffs or replies. | Support escalation lead / success ops | Medium | 86.4k |
 | [IMAP Inbox Triage Agent](../skills/imap-inbox-triage-agent/) | Adds direct inbox classification and prioritization for teams whose support flow still starts in shared IMAP mailboxes. | Support inbox manager / operations analyst | Medium | — |
 | [Zapier Multi-Step Lead Enrichment Workflow](../skills/zapier-lead-enrichment-workflow/) | Enriches lead/contact records before support-to-success handoff or account follow-up. | Success ops / CRM automation lead | Medium | — |
+| [Gmail API Thread Label Triage](../skills/gmail-api-thread-label-triage/) | Adds Gmail-native thread labeling and triage for support and success teams that still coordinate from shared inboxes. | Support ops lead / customer success manager | Medium | — |
 
 ## Editorial Notes
 

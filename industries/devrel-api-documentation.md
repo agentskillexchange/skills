@@ -44,6 +44,9 @@ API docs, OpenAPI references, SDK generation, docs-site publishing, prose lintin
 | [TypeDoc TypeScript API Documentation Generator](../skills/typedoc-typescript-api-documentation-generator/) | Adds TypeScript API documentation generation, a major docs workflow not currently represented in the collection. | SDK engineer / docs engineer | Low | 8.4k |
 | [Update repository docs automatically after code changes and open review PRs](../skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | Lets agents open reviewable docs-update PRs after code changes, reducing stale developer documentation. | DevRel engineer / docs maintainer | Medium | 585 |
 | [Validate Python Docstrings Against Function Signatures with pydoclint](../skills/validate-python-docstrings-against-function-signatures-with-pydoclint/) | Catches stale Python docstrings when APIs change, improving generated and maintained reference docs. | Python library maintainer / docs QA | Low | 208 |
+| [OpenAPI Generator API Client and Server Stub Tooling](../skills/openapi-generator-api-client-server-stub-tooling/) | Generates client SDKs and server stubs from OpenAPI specs, closing the loop between API documentation and usable developer artifacts. | SDK engineer / API platform team | Medium | 26.1k |
+| [Swagger UI Documentation Deployer](../skills/swagger-ui-documentation-deployer/) | Publishes interactive API references from OpenAPI specs so developers can inspect endpoints without custom docs infrastructure. | API docs maintainer / DevRel engineer | Low | 28.8k |
+| [Bootstrap an OpenAPI spec from captured API traffic before client or test automation starts](../skills/bootstrap-openapi-spec-from-captured-api-traffic-before-client-or-test-automation/) | Turns captured API traffic into a starter OpenAPI spec before client generation, docs cleanup, or test automation. | API platform engineer / integration lead | Medium | 9.3k |
 
 ## Editorial Notes
 
