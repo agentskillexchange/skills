@@ -2,8 +2,44 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-05-29",
-  "total": 2530,
+  "total": 2534,
   "skills": [
+    {
+      "slug": "run-an-agent-across-browser-and-local-file-workflows-with-magentic-ui",
+      "name": "Run an agent across browser and local file workflows with Magentic-UI",
+      "title": "Run an agent across browser and local file workflows with Magentic-UI",
+      "description": "Use Microsoft's Magentic-UI to run supervised browser and local file tasks with an agentic UI, model endpoint, and approval-aware configuration.",
+      "category": "Browser Automation",
+      "framework": "Custom Agents",
+      "verification": "listed"
+    },
+    {
+      "slug": "give-coding-agents-figma-layout-context-through-mcp",
+      "name": "Give coding agents Figma layout context through MCP",
+      "title": "Give coding agents Figma layout context through MCP",
+      "description": "Configure Framelink's Figma MCP server so coding agents can fetch clean design layout context from Figma files before implementing UI.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "add-graph-backed-memory-and-context-retrieval-to-agent-workflows",
+      "name": "Add graph-backed memory and context retrieval to agent workflows",
+      "title": "Add graph-backed memory and context retrieval to agent workflows",
+      "description": "Use Cognee to ingest project knowledge into graph and vector memory so agents can retrieve durable context across sessions and workflows.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "run-autonomous-deep-research-workflows-with-gpt-researcher",
+      "name": "Run autonomous deep research workflows with GPT Researcher",
+      "title": "Run autonomous deep research workflows with GPT Researcher",
+      "description": "Use GPT Researcher to plan, gather, source, and assemble cited web or local research reports through a repeatable agent workflow.",
+      "category": "Research & Scraping",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "read-google-drive-files-and-edit-sheets-through-mcp",
       "name": "Read Google Drive files and edit Sheets through MCP",

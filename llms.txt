@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-05-29
-# Total: 2530 skills
+# Total: 2534 skills
+
+## Run an agent across browser and local file workflows with Magentic-UI
+slug: run-an-agent-across-browser-and-local-file-workflows-with-magentic-ui
+category: Browser Automation
+framework: Custom Agents
+verification: Published
+description: Use Microsoft's Magentic-UI to run supervised browser and local file tasks with an agentic UI, model endpoint, and approval-aware configuration.
+url: https://agentskillexchange.com/skills/run-an-agent-across-browser-and-local-file-workflows-with-magentic-ui/
+
+## Give coding agents Figma layout context through MCP
+slug: give-coding-agents-figma-layout-context-through-mcp
+category: Integrations & Connectors
+framework: MCP
+verification: Security Reviewed
+description: Configure Framelink's Figma MCP server so coding agents can fetch clean design layout context from Figma files before implementing UI.
+url: https://agentskillexchange.com/skills/give-coding-agents-figma-layout-context-through-mcp/
+
+## Add graph-backed memory and context retrieval to agent workflows
+slug: add-graph-backed-memory-and-context-retrieval-to-agent-workflows
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Cognee to ingest project knowledge into graph and vector memory so agents can retrieve durable context across sessions and workflows.
+url: https://agentskillexchange.com/skills/add-graph-backed-memory-and-context-retrieval-to-agent-workflows/
+
+## Run autonomous deep research workflows with GPT Researcher
+slug: run-autonomous-deep-research-workflows-with-gpt-researcher
+category: Research & Scraping
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use GPT Researcher to plan, gather, source, and assemble cited web or local research reports through a repeatable agent workflow.
+url: https://agentskillexchange.com/skills/run-autonomous-deep-research-workflows-with-gpt-researcher/
 
 ## Read Google Drive files and edit Sheets through MCP
 slug: read-google-drive-files-and-edit-sheets-through-mcp

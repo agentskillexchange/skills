@@ -102,6 +102,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Temporal Durable Execution Workflow Orchestration Platform](../../skills/temporal-durable-execution-workflow-platform/) | 19.4k | — |
 | [React Email Component Library for Building Email Templates](../../skills/react-email-component-library-email-templates/) | 18.4k | — |
 | [Run supervised desktop and browser agent work inside Agent Zero](../../skills/run-supervised-desktop-and-browser-agent-work-inside-agent-zero/) | 17.8k | — |
+| [Add graph-backed memory and context retrieval to agent workflows](../../skills/add-graph-backed-memory-and-context-retrieval-to-agent-workflows/) | 17.6k | — |
 | [Build a self-updating agent memory graph with GBrain](../../skills/build-a-self-updating-agent-memory-graph-with-gbrain/) | 17.3k | — |
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](../../skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | 17.3k | — |
 | [Run scheduled autonomous agent Hands with OpenFang](../../skills/run-scheduled-autonomous-agent-hands-with-openfang/) | 17.2k | — |

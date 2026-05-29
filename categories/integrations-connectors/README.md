@@ -28,11 +28,11 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | ⬇ 6.2k/wk |
 | [Build n8n workflows from node docs, templates, and schemas through MCP](../../skills/build-n8n-workflows-from-node-docs-templates-and-schemas-through-mcp/) | ⬇ 485k/wk |
 | [Generate reusable site adapters from live browser behavior with OpenCLI](../../skills/generate-reusable-site-adapters-from-live-browser-behavior-with-opencli/) | ⬇ 10.6k/wk |
+| [Give coding agents Figma layout context through MCP](../../skills/give-coding-agents-figma-layout-context-through-mcp/) | ⬇ 257.9k/wk |
 | [Pipedream API Workflow Automation Platform](../../skills/pipedream-api-workflow-automation-platform/) | ⬇ 9/wk |
 | [Build and inspect MCP apps and servers with mcp-use](../../skills/build-and-inspect-mcp-apps-and-servers-with-mcp-use/) | ⬇ 138.6k/wk |
 | [Nango Integration Platform SDK](../../skills/nango-integration-platform-sdk/) | ⬇ 17.7k/wk |
 | [Nango Open Source API Integration Platform](../../skills/nango-open-source-api-integration-platform/) | ⬇ 15.6k/wk |
-| [Notion Database Sync & Page Generator](../../skills/notion-database-sync-page-generator-2/) | ⬇ 1.2M/wk |
 
 ---
 
@@ -64,6 +64,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Build n8n workflows from node docs, templates, and schemas through MCP](../../skills/build-n8n-workflows-from-node-docs-templates-and-schemas-through-mcp/) | 18.1k | 485k/wk |
 | [LiveKit Real-Time Video Audio and Data Server with WebRTC](../../skills/livekit-realtime-webrtc-server/) | 18k | — |
 | [Generate reusable site adapters from live browser behavior with OpenCLI](../../skills/generate-reusable-site-adapters-from-live-browser-behavior-with-opencli/) | 16.3k | 10.6k/wk |
+| [Give coding agents Figma layout context through MCP](../../skills/give-coding-agents-figma-layout-context-through-mcp/) | 14.9k | 257.9k/wk |
 | [Expose approved database operations to MCP clients with MCP Toolbox before ad hoc SQL glue sprawls](../../skills/expose-approved-database-operations-to-mcp-clients-with-mcp-toolbox-before-ad-hoc-sql-glue-sprawls/) | 14.7k | — |
 | [Formbricks Open Source Survey and Experience Management Platform](../../skills/formbricks-open-source-survey-experience-management/) | 12.1k | — |
 | [Formbricks Open-Source Survey Platform](../../skills/formbricks-open-source-survey-platform/) | 12k | — |

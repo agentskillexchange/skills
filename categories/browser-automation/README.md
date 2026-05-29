@@ -117,6 +117,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Run stealth Chromium browser automation with CloakBrowser](../../skills/run-stealth-chromium-browser-automation-with-cloakbrowser/) | 10.2k | — |
 | [Drive token-efficient browser testing from coding agents with Playwright CLI](../../skills/drive-token-efficient-browser-testing-from-coding-agents-with-playwright-cli/) | 10k | — |
 | [TestCafe Zero-Config End-to-End Browser Testing Framework](../../skills/testcafe-e2e-browser-testing/) | 9.9k | 202.8k/wk |
+| [Run an agent across browser and local file workflows with Magentic-UI](../../skills/run-an-agent-across-browser-and-local-file-workflows-with-magentic-ui/) | 9.9k | — |
 | [WebdriverIO Next-Gen Browser and Mobile Automation Framework](../../skills/webdriverio-browser-mobile-automation-framework/) | 9.8k | 2.7M/wk |
 | [Capture responsive website screenshots for visual QA with Pageres](../../skills/capture-responsive-website-screenshots-pageres/) | 9.7k | 15.3k/wk |
 | [Drive Chrome with stable accessibility refs for repeatable browser automation](../../skills/drive-chrome-with-stable-accessibility-refs-for-repeatable-browser-automation/) | 8.7k | — |

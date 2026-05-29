@@ -64,6 +64,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Cheerio DOM Scraping Toolkit](../../skills/cheerio-dom-scraping-toolkit/) | 30.3k | 19.6M/wk |
 | [Cheerio Product Price Tracker](../../skills/cheerio-product-price-tracker/) | 30.3k | 19.6M/wk |
 | [SearXNG Privacy-First Metasearch Engine and Search API](../../skills/searxng-privacy-first-metasearch-engine-search-api/) | 28.3k | — |
+| [Run autonomous deep research workflows with GPT Researcher](../../skills/run-autonomous-deep-research-workflows-with-gpt-researcher/) | 27.4k | 1.6k/wk |
 | [Colly Golang Web Scraper and Crawler Framework](../../skills/colly-golang-web-scraper-crawler-framework/) | 25.2k | — |
 | [Karakeep Self-Hosted Bookmark Manager with AI Tagging](../../skills/karakeep-bookmark-manager-ai-tagging/) | 24.5k | — |
 | [ScrapeGraphAI LLM-Powered Web Scraping with Graph Logic Pipelines](../../skills/scrapegraphai-llm-web-scraping/) | 23.3k | — |

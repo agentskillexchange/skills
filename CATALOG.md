@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2530 published skills** across **17 categories** · 2,179 security reviewed · Updated 2026-05-29 13:27 UTC
+> **2534 published skills** across **17 categories** · 2,179 security reviewed · Updated 2026-05-29 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1336,7 +1336,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [PagerDuty Event Orchestration Runbook](skills/pagerduty-event-orchestration-runbook/) | Builds incident runbooks around the PagerDuty Events API v2, Incidents API, and Response Plays so agents can… | Published | — | — |
 
 
-### 📄 Templates & Workflows (170 skills)
+### 📄 Templates & Workflows (171 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1404,6 +1404,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Temporal Durable Execution Workflow Orchestration Platform](skills/temporal-durable-execution-workflow-platform/) | Temporal is an open-source durable execution platform that lets developers build scalable, fault-tolerant workflows.… | Security Reviewed | 19.4k | — |
 | [React Email Component Library for Building Email Templates](skills/react-email-component-library-email-templates/) | React Email is an open source component library for building responsive, cross-client email templates using React… | Security Reviewed | 18.4k | — |
 | [Run supervised desktop and browser agent work inside Agent Zero](skills/run-supervised-desktop-and-browser-agent-work-inside-agent-zero/) | Use Agent Zero to give an agent an isolated Linux desktop, browser, plugins, skills, and host connector for… | Security Reviewed | 17.8k | — |
+| [Add graph-backed memory and context retrieval to agent workflows](skills/add-graph-backed-memory-and-context-retrieval-to-agent-workflows/) | Use Cognee to ingest project knowledge into graph and vector memory so agents can retrieve durable context across… | Security Reviewed | 17.6k | — |
 | [Build a self-updating agent memory graph with GBrain](skills/build-a-self-updating-agent-memory-graph-with-gbrain/) | Use GBrain to give OpenClaw or Hermes-style agents a local knowledge brain with markdown ingestion, entity links,… | Security Reviewed | 17.3k | — |
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown,… | Published | 17.3k | — |
 | [Run scheduled autonomous agent Hands with OpenFang](skills/run-scheduled-autonomous-agent-hands-with-openfang/) | Use OpenFang to run packaged autonomous agent workflows on schedules with manifests, dashboards, reporting, and… | Security Reviewed | 17.2k | — |
@@ -1787,7 +1788,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (122 skills)
+### 🔗 Integrations & Connectors (123 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1817,6 +1818,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Build n8n workflows from node docs, templates, and schemas through MCP](skills/build-n8n-workflows-from-node-docs-templates-and-schemas-through-mcp/) | Use n8n-MCP when an agent needs structured access to n8n nodes, properties, operations, and template examples while… | Security Reviewed | 18.1k | 485k/wk |
 | [LiveKit Real-Time Video Audio and Data Server with WebRTC](skills/livekit-realtime-webrtc-server/) | LiveKit is an open-source, scalable WebRTC-based real-time communication server written in Go. It provides… | Security Reviewed | 18k | — |
 | [Generate reusable site adapters from live browser behavior with OpenCLI](skills/generate-reusable-site-adapters-from-live-browser-behavior-with-opencli/) | Use OpenCLI to explore a logged-in site, synthesize a deterministic adapter, and expose the result as a reusable CLI… | Security Reviewed | 16.3k | 10.6k/wk |
+| [Give coding agents Figma layout context through MCP](skills/give-coding-agents-figma-layout-context-through-mcp/) | Configure Framelink's Figma MCP server so coding agents can fetch clean design layout context from Figma files… | Security Reviewed | 14.9k | 257.9k/wk |
 | [Expose approved database operations to MCP clients with MCP Toolbox before ad hoc SQL glue sprawls](skills/expose-approved-database-operations-to-mcp-clients-with-mcp-toolbox-before-ad-hoc-sql-glue-sprawls/) | Use MCP Toolbox to turn database access into a constrained MCP tool surface, with prebuilt or custom tools that… | Security Reviewed | 14.7k | — |
 | [Formbricks Open Source Survey and Experience Management Platform](skills/formbricks-open-source-survey-experience-management/) | Formbricks is an open source survey platform and privacy-first experience management solution. Create in-app,… | Security Reviewed | 12.1k | — |
 | [Formbricks Open-Source Survey Platform](skills/formbricks-open-source-survey-platform/) | Formbricks is an open-source survey and experience-management platform with link, website, email, and in-app… | Security Reviewed | 12k | — |
@@ -2047,7 +2049,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Rust Crates.io Explorer](skills/rust-crates-io-explorer/) | Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates… | Published | — | — |
 
 
-### 🔍 Research & Scraping (109 skills)
+### 🔍 Research & Scraping (110 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -2077,6 +2079,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Cheerio DOM Scraping Toolkit](skills/cheerio-dom-scraping-toolkit/) | Parses static HTML using Cheerio's jQuery-like API for fast server-side DOM traversal and data extraction. Generates… | Published | 30.3k | 19.6M/wk |
 | [Cheerio Product Price Tracker](skills/cheerio-product-price-tracker/) | Monitors e-commerce product prices using Cheerio.js for server-side DOM parsing with got-scraping for stealth HTTP… | Published | 30.3k | 19.6M/wk |
 | [SearXNG Privacy-First Metasearch Engine and Search API](skills/searxng-privacy-first-metasearch-engine-search-api/) | SearXNG is an open-source metasearch engine that aggregates results from multiple search providers without tracking… | Security Reviewed | 28.3k | — |
+| [Run autonomous deep research workflows with GPT Researcher](skills/run-autonomous-deep-research-workflows-with-gpt-researcher/) | Use GPT Researcher to plan, gather, source, and assemble cited web or local research reports through a repeatable… | Security Reviewed | 27.4k | 1.6k/wk |
 | [Colly Golang Web Scraper and Crawler Framework](skills/colly-golang-web-scraper-crawler-framework/) | Colly is a fast open-source scraping and crawling framework for Go. It is built for everything from simple page… | Security Reviewed | 25.2k | — |
 | [Karakeep Self-Hosted Bookmark Manager with AI Tagging](skills/karakeep-bookmark-manager-ai-tagging/) | Karakeep (formerly Hoarder) is a self-hosted bookmark-everything app with 24K+ GitHub stars that provides AI-powered… | Published | 24.5k | — |
 | [ScrapeGraphAI LLM-Powered Web Scraping with Graph Logic Pipelines](skills/scrapegraphai-llm-web-scraping/) | ScrapeGraphAI is a Python web scraping library that uses LLMs and directed graph logic to create intelligent… | Published | 23.3k | — |
@@ -2164,7 +2167,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE… | Security Reviewed | — | — |
 
 
-### 🌐 Browser Automation (108 skills)
+### 🌐 Browser Automation (109 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
@@ -2247,6 +2250,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Run stealth Chromium browser automation with CloakBrowser](skills/run-stealth-chromium-browser-automation-with-cloakbrowser/) | Use CloakBrowser as a supervised Playwright/Puppeteer-compatible browser runtime for high-friction browser… | Security Reviewed | 10.2k | — |
 | [Drive token-efficient browser testing from coding agents with Playwright CLI](skills/drive-token-efficient-browser-testing-from-coding-agents-with-playwright-cli/) | Use Playwright CLI when a coding agent needs to open pages, inspect snapshots, click, type, capture screenshots, and… | Security Reviewed | 10k | — |
 | [TestCafe Zero-Config End-to-End Browser Testing Framework](skills/testcafe-e2e-browser-testing/) | TestCafe is a Node.js-based end-to-end browser testing framework by DevExpress that requires no WebDriver… | Security Reviewed | 9.9k | 202.8k/wk |
+| [Run an agent across browser and local file workflows with Magentic-UI](skills/run-an-agent-across-browser-and-local-file-workflows-with-magentic-ui/) | Use Microsoft's Magentic-UI to run supervised browser and local file tasks with an agentic UI, model endpoint, and… | Published | 9.9k | — |
 | [WebdriverIO Next-Gen Browser and Mobile Automation Framework](skills/webdriverio-browser-mobile-automation-framework/) | WebdriverIO is a next-generation browser and mobile automation test framework for Node.js. It supports WebDriver,… | Security Reviewed | 9.8k | 2.7M/wk |
 | [Capture responsive website screenshots for visual QA with Pageres](skills/capture-responsive-website-screenshots-pageres/) | Use Pageres when an agent needs repeatable screenshots of the same page across multiple viewport sizes for design… | Published | 9.7k | 15.3k/wk |
 | [Drive Chrome with stable accessibility refs for repeatable browser automation](skills/drive-chrome-with-stable-accessibility-refs-for-repeatable-browser-automation/) | Use PinchTab when an agent needs repeatable browser automation with stable element references, persistent profiles,… | Security Reviewed | 8.7k | — |
