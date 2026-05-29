@@ -2,7 +2,7 @@
 name: "OpenAI Whisper Transcription"
 slug: "openai-whisper-transcription"
 description: "Local speech-to-text transcription without relying on an API."
-github_stars: 100764
+github_stars: 100861
 verification: "security_reviewed"
 source: "https://github.com/openai/whisper"
 author: "OpenAI"
@@ -11,7 +11,7 @@ category: "Media & Transcription"
 framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "openai/whisper"
-  github_stars: 100764
+  github_stars: 100861
 ---
 
 # OpenAI Whisper Transcription

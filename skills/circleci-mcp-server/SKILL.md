@@ -2,7 +2,7 @@
 name: "CircleCI MCP Server"
 slug: "circleci-mcp-server"
 description: ""
-github_stars: 843
+github_stars: 844
 verification: "security_reviewed"
 source: "https://github.com/circleci/circleci-docs"
 author: "CircleCI"
@@ -10,7 +10,7 @@ category: "Developer Tools"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "circleci/circleci-docs"
-  github_stars: 843
+  github_stars: 844
 ---
 
 # CircleCI MCP Server
