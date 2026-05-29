@@ -1,7 +1,47 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-05-29
-# Total: 2523 skills
+# Total: 2528 skills
+
+## Emit policy receipts for hard-rule agent skills with Pluribus
+slug: emit-policy-receipts-for-hard-rule-agent-skills-with-pluribus
+category: Security & Verification
+framework: Multi-Framework
+verification: Published
+description: Uses the Pluribus skill-policy receipt recipe to make hard agent-skill rules auditable before and after writes. Best for Claude Code, OpenClaw, Cursor, Codex, and…
+url: https://agentskillexchange.com/skills/emit-policy-receipts-for-hard-rule-agent-skills-with-pluribus/
+
+## Build and validate Shopify apps with the official Shopify AI Toolkit
+slug: build-and-validate-shopify-apps-with-the-official-shopify-ai-toolkit
+category: Integrations & Connectors
+framework: Multi-Framework
+verification: Security Reviewed
+description: Connect agents and IDE assistants to Shopify docs, API schemas, code validation, and store-management workflows through Shopify's official toolkit.
+url: https://agentskillexchange.com/skills/build-and-validate-shopify-apps-with-the-official-shopify-ai-toolkit/
+
+## Analyze videos with frame extraction and audio context in Claude Code
+slug: analyze-videos-with-frame-extraction-and-audio-context-in-claude-code
+category: Media & Transcription
+framework: Claude Code
+verification: Security Reviewed
+description: Give Claude Code a video perception layer that extracts frames, transcribes audio, and lets Claude answer questions about local videos or YouTube URLs.
+url: https://agentskillexchange.com/skills/analyze-videos-with-frame-extraction-and-audio-context-in-claude-code/
+
+## Query Postgres databases through read-only MCP workflows with PGMCP
+slug: query-postgres-databases-through-read-only-mcp-workflows-with-pgmcp
+category: Data Extraction & Transformation
+framework: MCP
+verification: Security Reviewed
+description: Connect an MCP-compatible assistant to an existing PostgreSQL database for safe natural-language querying, schema-aware SQL, and streamed results.
+url: https://agentskillexchange.com/skills/query-postgres-databases-through-read-only-mcp-workflows-with-pgmcp/
+
+## Control Kubernetes infrastructure through natural-language MCP workflows
+slug: control-kubernetes-infrastructure-through-natural-language-mcp-workflows
+category: Runbooks & Diagnostics
+framework: MCP
+verification: Security Reviewed
+description: Let MCP-compatible agents inspect, debug, deploy, audit, and manage Kubernetes clusters through a controlled kubectl-backed server.
+url: https://agentskillexchange.com/skills/control-kubernetes-infrastructure-through-natural-language-mcp-workflows/
 
 ## Run evidence-backed agentic SEO audits with Agentic SEO Skill
 slug: run-evidence-backed-agentic-seo-audits-with-agentic-seo-skill

@@ -253,6 +253,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Gate risky agent actions behind approval checkpoints with Latch](../../skills/gate-risky-agent-actions-behind-approval-checkpoints-with-latch/) | 8 | — |
 | [Probe AI agents for dangerous tool chains and execution side effects with ZIRAN](../../skills/probe-ai-agents-for-dangerous-tool-chains-and-execution-side-effects-with-ziran/) | 6 | — |
 | [Block destructive Terraform, database, Kubernetes, cloud, and Git commands before Claude Code can execute them with Agent Guardrails](../../skills/block-destructive-terraform-database-kubernetes-cloud-and-git-commands-before-claude-code-can-execute-them-with-agent-guardrails/) | 2 | — |
+| [Emit policy receipts for hard-rule agent skills with Pluribus](../../skills/emit-policy-receipts-for-hard-rule-agent-skills-with-pluribus/) | 2 | — |
 | [Audit and normalize SPDX license headers before releasing or open-sourcing a repository](../../skills/audit-and-normalize-spdx-license-headers-before-releasing-or-open-sourcing-a-repository/) | — | — |
 | [CloudTrail Anomaly Detection Agent](../../skills/cloudtrail-anomaly-detection-agent/) | — | — |
 | [DocuSign Contract Auto-Sender with Conditional Logic](../../skills/docusign-contract-auto-sender/) | — | — |

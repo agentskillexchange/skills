@@ -180,6 +180,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Investigate backend-only WordPress performance bottlenecks](../../skills/investigate-backend-only-wordpress-performance-bottlenecks/) | 1.2k | — |
 | [Run day-2 OpenClaw operations with production runbooks and reusable prompt patterns from openclaw-runbook](../../skills/run-day-2-openclaw-operations-with-production-runbooks-and-reusable-prompt-patterns-from-openclaw-runbook/) | 1.1k | — |
 | [Diagnose Tailscale and proxy conflicts before remote development stalls out](../../skills/diagnose-tailscale-and-proxy-conflicts-before-remote-development-stalls-out/) | 910 | — |
+| [Control Kubernetes infrastructure through natural-language MCP workflows](../../skills/control-kubernetes-infrastructure-through-natural-language-mcp-workflows/) | 898 | 150/wk |
 | [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | 791 | 6.6M/wk |
 | [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | 791 | 6.6M/wk |
 | [Fix failing pull requests by analyzing CI errors and pushing targeted repairs](../../skills/fix-failing-pull-requests-by-analyzing-ci-errors-and-pushing-targeted-repairs/) | 585 | — |

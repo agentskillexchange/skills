@@ -122,7 +122,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Research real estate properties with RAG-backed market analysis](../../skills/rag-backed-real-estate-property-research/) | 170 | — |
 | [Normalize and filter noisy URL lists before crawling or queueing](../../skills/normalize-and-filter-noisy-url-lists-before-crawling-or-queueing/) | 165 | — |
 | [Common Crawl URL Index Miner](../../skills/common-crawl-url-index-miner/) | 127 | — |
-| [Exa JS Web Search SDK for AI Applications](../../skills/exa-js-web-search-sdk-ai-applications/) | 126 | — |
+| [Exa JS Web Search SDK for AI Applications](../../skills/exa-js-web-search-sdk-ai-applications/) | 126 | 429.9k/wk |
 | [Evaluate B2B software vendors by interrogating their agents and scoring the evidence with buyer-eval-skill](../../skills/evaluate-b2b-software-vendors-by-interrogating-their-agents-and-scoring-the-evidence-with-buyer-eval-skill/) | 55 | — |
 | [Use an escalating scrape strategy in Claude Code before reaching for browser automation](../../skills/use-an-escalating-scrape-strategy-in-claude-code-before-reaching-for-browser-automation/) | 38 | — |
 | [Academic Paper Citation Network Mapper](../../skills/academic-paper-citation-network-mapper/) | — | — |

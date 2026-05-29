@@ -86,7 +86,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [TypeDoc Symbol Resolver](../../skills/typedoc-symbol-resolver/) | 8.4k | 4.1M/wk |
 | [TypeDoc TypeScript API Documentation Generator](../../skills/typedoc-typescript-api-documentation-generator/) | 8.4k | 3.7M/wk |
 | [Ground coding agents in live repository documentation with GitMCP](../../skills/ground-coding-agents-in-live-repository-documentation-with-gitmcp/) | 8.1k | — |
-| [Octokit JavaScript GitHub SDK for REST GraphQL and App Automation](../../skills/octokit-javascript-github-sdk-rest-graphql-app-automation/) | 7.7k | — |
+| [Octokit JavaScript GitHub SDK for REST GraphQL and App Automation](../../skills/octokit-javascript-github-sdk-rest-graphql-app-automation/) | 7.7k | 7M/wk |
 | [Twirp Go RPC Framework and Code Generator](../../skills/twirp-go-rpc-framework-and-code-generator/) | 7.5k | — |
 | [Lightning CSS High-Performance CSS Parser Transformer and Minifier](../../skills/lightning-css-high-performance-css-parser-transformer-and-minifier/) | 7.5k | 290.4M/wk |
 | [Postman Collection Runner](../../skills/postman-collection-runner/) | 7.2k | 786.9k/wk |
@@ -120,7 +120,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Python Docstring Extractor](../../skills/python-docstring-extractor/) | 266 | — |
 | [Resolve and validate OpenAPI specs with remote refs before client generation or review with Prance](../../skills/resolve-and-validate-openapi-specs-with-remote-refs-before-client-generation-or-review-with-prance/) | 261 | — |
 | [GitHub REST API Paginator Library](../../skills/github-rest-api-paginator-library/) | 58 | 26.7M/wk |
-| [Linkup JS SDK for Sourced Web Search and Fetch](../../skills/linkup-js-sdk-sourced-web-search-fetch/) | 4 | — |
+| [Linkup JS SDK for Sourced Web Search and Fetch](../../skills/linkup-js-sdk-sourced-web-search-fetch/) | 4 | 30.8k/wk |
 | [NPM Package API Surface Extractor](../../skills/npm-package-api-surface-extractor/) | — | 17.1M/wk |
 | [API Documentation Indexer](../../skills/api-documentation-indexer/) | — | — |
 | [AsyncAPI Event Catalog Builder](../../skills/asyncapi-event-catalog-builder/) | — | — |

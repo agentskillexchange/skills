@@ -7,7 +7,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | Skill | Stars |
 |---|---:|
 | [yt-dlp Feature-Rich Audio and Video Downloader CLI](../../skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | ⭐ 154.3k |
-| [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | ⭐ 100.8k |
+| [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | ⭐ 100.9k |
 | [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | ⭐ 97.8k |
 | [YouTube Chapters Generator with Whisper](../../skills/youtube-chapters-generator-whisper/) | ⭐ 97.8k |
 | [Whisper Diarization Post-Processor](../../skills/whisper-diarization-post-processor/) | ⭐ 97.8k |
@@ -24,10 +24,12 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | Skill | Downloads |
 |---|---:|
 | [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | ⬇ 636k/wk |
+| [Howler.js Cross-Browser JavaScript Audio Library](../../skills/howlerjs-cross-browser-javascript-audio-library/) | ⬇ 773.2k/wk |
 | [Capture local screen and audio context so agents can search what happened on your device](../../skills/capture-local-screen-and-audio-context-so-agents-can-search-what-happened-on-your-device/) | ⬇ 13.2k/wk |
 | [Present version-controlled markdown slide decks as terminal-native talks with Presenterm](../../skills/present-version-controlled-markdown-slide-decks-as-terminal-native-talks-with-presenterm/) | ⬇ 29.9k/wk |
 | [Summarize URLs, files, podcasts, and YouTube sources into agent-ready briefs with Summarize](../../skills/summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize/) | ⬇ 42.8k/wk |
 | [Capture live transcripts and searchable meeting memory for agents with Minutes](../../skills/capture-live-transcripts-and-searchable-meeting-memory-for-agents-with-minutes/) | ⬇ 3.2k/wk |
+| [Analyze videos with frame extraction and audio context in Claude Code](../../skills/analyze-videos-with-frame-extraction-and-audio-context-in-claude-code/) | ⬇ 802/wk |
 | [Deepgram Real-Time Transcription Connector](../../skills/deepgram-realtime-transcription-connector/) | ⬇ 1.6M/wk |
 | [Mux Node SDK for Video and Streaming API Workflows](../../skills/mux-node-sdk-video-and-streaming-api-workflows/) | ⬇ 987.7k/wk |
 | [Cartesia JavaScript SDK for Low-Latency Voice Generation](../../skills/cartesia-javascript-sdk-low-latency-voice-generation/) | ⬇ 192.2k/wk |
@@ -39,7 +41,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [yt-dlp Feature-Rich Audio and Video Downloader CLI](../../skills/yt-dlp-feature-rich-audio-video-downloader-cli/) | 154.3k | — |
-| [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | 100.8k | — |
+| [OpenAI Whisper Transcription](../../skills/openai-whisper-transcription/) | 100.9k | — |
 | [OpenAI Whisper Batch Transcription Pipeline](../../skills/whisper-batch-transcription-pipeline/) | 97.8k | — |
 | [YouTube Chapters Generator with Whisper](../../skills/youtube-chapters-generator-whisper/) | 97.8k | — |
 | [Whisper Diarization Post-Processor](../../skills/whisper-diarization-post-processor/) | 97.8k | — |
@@ -66,7 +68,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [LosslessCut FFmpeg-Powered Media Editor](../../skills/losslesscut-ffmpeg-powered-media-editor/) | 39.5k | — |
 | [OCRmyPDF Searchable PDF OCR Pipeline](../../skills/ocrmypdf-searchable-pdf-ocr-pipeline/) | 33.2k | — |
 | [Spleeter AI Audio Source Separation by Deezer](../../skills/spleeter-ai-audio-source-separation-deezer/) | 28.1k | — |
-| [Howler.js Cross-Browser JavaScript Audio Library](../../skills/howlerjs-cross-browser-javascript-audio-library/) | 25.2k | — |
+| [Howler.js Cross-Browser JavaScript Audio Library](../../skills/howlerjs-cross-browser-javascript-audio-library/) | 25.2k | 773.2k/wk |
 | [Chatterbox State-of-the-Art Open Source Text-to-Speech](../../skills/chatterbox-sota-open-source-text-to-speech/) | 24.1k | — |
 | [HandBrake Open-Source Video Transcoder](../../skills/handbrake-open-source-video-transcoder/) | 22.8k | — |
 | [faster-whisper High-Performance Speech Transcription Library](../../skills/faster-whisper-high-performance-speech-transcription-library/) | 22.2k | — |
@@ -112,6 +114,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Normalize loudness across podcast, lesson, or video batches before publishing](../../skills/normalize-loudness-across-podcast-lesson-or-video-batches-before-publishing/) | 1.5k | — |
 | [Capture live transcripts and searchable meeting memory for agents with Minutes](../../skills/capture-live-transcripts-and-searchable-meeting-memory-for-agents-with-minutes/) | 1.1k | 3.2k/wk |
 | [Capture polished terminal screenshots for docs and changelogs with termshot](../../skills/capture-polished-terminal-screenshots-for-docs-and-changelogs-with-termshot/) | 751 | — |
+| [Analyze videos with frame extraction and audio context in Claude Code](../../skills/analyze-videos-with-frame-extraction-and-audio-context-in-claude-code/) | 698 | 802/wk |
 | [Realign drifting subtitles against finished video audio](../../skills/realign-drifting-subtitles-against-finished-video-audio/) | 504 | — |
 | [Archive online videos and metadata to the Internet Archive with Tubeup](../../skills/archive-online-videos-and-metadata-to-the-internet-archive-with-tubeup/) | 487 | — |
 | [Deepgram Real-Time Transcription Connector](../../skills/deepgram-realtime-transcription-connector/) | 260 | 1.6M/wk |

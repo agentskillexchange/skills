@@ -2,8 +2,53 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-05-29",
-  "total": 2523,
+  "total": 2528,
   "skills": [
+    {
+      "slug": "emit-policy-receipts-for-hard-rule-agent-skills-with-pluribus",
+      "name": "Emit policy receipts for hard-rule agent skills with Pluribus",
+      "title": "Emit policy receipts for hard-rule agent skills with Pluribus",
+      "description": "Uses the Pluribus skill-policy receipt recipe to make hard agent-skill rules auditable before and after writes. Best for Claude Code, OpenClaw, Cursor, Codex, and…",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
+    {
+      "slug": "build-and-validate-shopify-apps-with-the-official-shopify-ai-toolkit",
+      "name": "Build and validate Shopify apps with the official Shopify AI Toolkit",
+      "title": "Build and validate Shopify apps with the official Shopify AI Toolkit",
+      "description": "Connect agents and IDE assistants to Shopify docs, API schemas, code validation, and store-management workflows through Shopify's official toolkit.",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "analyze-videos-with-frame-extraction-and-audio-context-in-claude-code",
+      "name": "Analyze videos with frame extraction and audio context in Claude Code",
+      "title": "Analyze videos with frame extraction and audio context in Claude Code",
+      "description": "Give Claude Code a video perception layer that extracts frames, transcribes audio, and lets Claude answer questions about local videos or YouTube URLs.",
+      "category": "Media & Transcription",
+      "framework": "Claude Code",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "query-postgres-databases-through-read-only-mcp-workflows-with-pgmcp",
+      "name": "Query Postgres databases through read-only MCP workflows with PGMCP",
+      "title": "Query Postgres databases through read-only MCP workflows with PGMCP",
+      "description": "Connect an MCP-compatible assistant to an existing PostgreSQL database for safe natural-language querying, schema-aware SQL, and streamed results.",
+      "category": "Data Extraction & Transformation",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "control-kubernetes-infrastructure-through-natural-language-mcp-workflows",
+      "name": "Control Kubernetes infrastructure through natural-language MCP workflows",
+      "title": "Control Kubernetes infrastructure through natural-language MCP workflows",
+      "description": "Let MCP-compatible agents inspect, debug, deploy, audit, and manage Kubernetes clusters through a controlled kubectl-backed server.",
+      "category": "Runbooks & Diagnostics",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "run-evidence-backed-agentic-seo-audits-with-agentic-seo-skill",
       "name": "Run evidence-backed agentic SEO audits with Agentic SEO Skill",
