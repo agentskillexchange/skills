@@ -1601,6 +1601,7 @@
         "summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize",
         "mautic-marketing-automation-platform",
         "listmonk-self-hosted-newsletter-mailing-list",
+        "design-lifecycle-email-sequences",
         "hubspot-crm-contact-enrichment-pipeline",
         "zapier-lead-enrichment-workflow",
         "n8n-workflow-webhook-bridge",
@@ -1708,6 +1709,11 @@
           "why_here": "Covers newsletter and mailing-list operations for agencies delivering owned-audience campaign systems.",
           "persona": "Lifecycle marketer / agency ops",
           "install_complexity": "Medium"
+        },
+        "design-lifecycle-email-sequences": {
+          "why_here": "Structures lifecycle email campaigns for onboarding, activation, retention, and client campaign handoff work.",
+          "persona": "Lifecycle marketer / agency campaign lead",
+          "install_complexity": "Low"
         },
         "hubspot-crm-contact-enrichment-pipeline": {
           "why_here": "Enriches and updates client CRM contact records as part of RevOps and campaign handoff workflows.",

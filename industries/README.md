@@ -14,7 +14,7 @@
 | 🎧 | [**Customer Support & Success**](customer-support-success.md) | 21 | Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, customer context, CRM sync, and reply-drafting support. |
 | 🏠 | [**Real Estate Workflows**](real-estate-workflows.md) | 13 | Property research support, transaction paperwork, signature routing, document intake, CRM context, and listing follow-up workflows for real-estate operations. |
 | 🎓 | [**Education & Research Workflows**](education-research-workflows.md) | 14 | Literature review, citation context, research synthesis, paper drafting, replication checks, and evidence packets for academic and technical teams. |
-| 🧭 | [**AI Agency Operations & FDE Workflows**](ai-agency-operations.md) | 16 | Client-facing AI delivery, agency operations, forward deployed engineering workflows, automation consulting, and reusable implementation systems for client work. |
+| 🧭 | [**AI Agency Operations & FDE Workflows**](ai-agency-operations.md) | 17 | Client-facing AI delivery, agency operations, forward deployed engineering workflows, automation consulting, and reusable implementation systems for client work. |
 
 ---
 
