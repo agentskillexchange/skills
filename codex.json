@@ -2,8 +2,26 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-05-29",
-  "total": 2528,
+  "total": 2530,
   "skills": [
+    {
+      "slug": "read-google-drive-files-and-edit-sheets-through-mcp",
+      "name": "Read Google Drive files and edit Sheets through MCP",
+      "title": "Read Google Drive files and edit Sheets through MCP",
+      "description": "Connect an MCP-capable assistant to Google Drive search, file reads, and Google Sheets cell updates with mcp-gdrive.",
+      "category": "Calendar, Email & Productivity",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "build-deterministic-multi-agent-networks-with-inngest-agentkit",
+      "name": "Build deterministic multi-agent networks with Inngest AgentKit",
+      "title": "Build deterministic multi-agent networks with Inngest AgentKit",
+      "description": "Use Inngest AgentKit to build TypeScript agent networks with deterministic routing, shared state, MCP tools, and local tracing.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
     {
       "slug": "emit-policy-receipts-for-hard-rule-agent-skills-with-pluribus",
       "name": "Emit policy receipts for hard-rule agent skills with Pluribus",

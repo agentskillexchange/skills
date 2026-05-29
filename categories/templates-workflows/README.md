@@ -180,6 +180,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Drive spec-first coding workflows with task boards, worktrees, and agent handoffs using Spec Kitty](../../skills/drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-handoffs-using-spec-kitty/) | 1.1k | — |
 | [Run academic writing, analysis, and replication workflows with quality gates in claude-code-my-workflow](../../skills/run-academic-writing-analysis-and-replication-workflows-with-quality-gates-in-claude-code-my-workflow/) | 970 | — |
 | [Build and sync n8n workflows from code with n8n-as-code](../../skills/build-and-sync-n8n-workflows-from-code-with-n8n-as-code/) | 884 | 297/wk |
+| [Build deterministic multi-agent networks with Inngest AgentKit](../../skills/build-deterministic-multi-agent-networks-with-inngest-agentkit/) | 880 | 62.8k/wk |
 | [Run parallel Claude Code bug-fix and best-practice sweeps with coordinated workers using Claude Code Agent Farm](../../skills/run-parallel-claude-code-bug-fix-and-best-practice-sweeps-with-coordinated-workers-using-claude-code-agent-farm/) | 784 | — |
 | [Reformat Markdown files into a stable house style before review or migration](../../skills/reformat-markdown-files-into-a-stable-house-style-before-review-or-migration/) | 758 | — |
 | [Turn recurring team workflows into installable cross-tool agent skills with Agent Skill Creator](../../skills/turn-recurring-team-workflows-into-installable-cross-tool-agent-skills-with-agent-skill-creator/) | 744 | — |

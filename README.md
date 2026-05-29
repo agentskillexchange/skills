@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C528-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-2%2C530-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C176-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,528 published skills · 17 categories · Real ecosystem signals · Updated daily*
+*2,530 published skills · 17 categories · Real ecosystem signals · Updated daily*
 
 </div>
 
@@ -48,7 +48,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Control a real browser from MCP clients with Browser MCP](skills/control-a-real-browser-from-mcp-clients-with-browser-mcp/)** — Use Browser MCP to let an MCP-capable agent drive a user's browser session for inspection, navigation, form work, and browser-state-aware automation.
+**[Analyze videos with frame extraction and audio context in Claude Code](skills/analyze-videos-with-frame-extraction-and-audio-context-in-claude-code/)** — Give Claude Code a video perception layer that extracts frames, transcribes audio, and lets Claude answer questions about local videos or YouTube URLs.
 
 _Rotates daily by UTC date from the Security Reviewed pool._
 
@@ -89,11 +89,11 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Connect Azure DevOps projects, work items, repos, and pipelines to MCP agents](skills/connect-azure-devops-projects-work-items-repos-and-pipelines-to-mcp-agents/) | connect-azure-devops-projects-work-items-repos-and-pipelines-to-mcp-agents | 1.7k | Integrations & Connectors |
 | [Trace and evaluate agent runs with Phoenix](skills/trace-and-evaluate-agent-runs-with-phoenix/) | trace-and-evaluate-agent-runs-with-phoenix | 9.8k | Monitoring & Alerts |
 | [Build and validate Shopify apps with the official Shopify AI Toolkit](skills/build-and-validate-shopify-apps-with-the-official-shopify-ai-toolkit/) | build-and-validate-shopify-apps-with-the-official-shopify-ai-toolkit | 348 | Integrations & Connectors |
+| [Read Google Drive files and edit Sheets through MCP](skills/read-google-drive-files-and-edit-sheets-through-mcp/) | read-google-drive-files-and-edit-sheets-through-mcp | 280 | Calendar, Email & Productivity |
 | [Inspect live web apps and apply code changes with Stagewise](skills/inspect-live-web-apps-and-apply-code-changes-with-stagewise/) | inspect-live-web-apps-and-apply-code-changes-with-stagewise | 6.7k | Templates & Workflows |
 | [Operate Kubernetes and OpenShift clusters through MCP](skills/operate-kubernetes-and-openshift-clusters-through-mcp/) | operate-kubernetes-and-openshift-clusters-through-mcp | 1.6k | Runbooks & Diagnostics |
 | [Format and lint TOML configuration with Tombi](skills/format-and-lint-toml-configuration-with-tombi/) | format-and-lint-toml-configuration-with-tombi | 937 | Code Quality & Review |
 | [Trace, evaluate, simulate, and guardrail agent releases with Future AGI](skills/trace-evaluate-simulate-and-guardrail-agent-releases-with-future-agi/) | trace-evaluate-simulate-and-guardrail-agent-releases-with-future-agi | 1k | Monitoring & Alerts |
-| [Analyze videos with frame extraction and audio context in Claude Code](skills/analyze-videos-with-frame-extraction-and-audio-context-in-claude-code/) | analyze-videos-with-frame-extraction-and-audio-context-in-claude-code | 698 | Media & Transcription |
 
 ---
 
@@ -107,9 +107,9 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 184 | Linting, code review, test generators, coverage |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 174 | ETL pipelines, parsing, format conversion |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 172 | Incident response, troubleshooting, system diagnostics |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 169 | Scaffolders, boilerplate generators, workflow templates |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 170 | Scaffolders, boilerplate generators, workflow templates |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 133 | Metrics, alerting rules, observability |
-| 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 123 | Email automation, calendar management, task coordination |
+| 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 124 | Email automation, calendar management, task coordination |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 122 | Third-party API bridges, webhooks, service connectors |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 122 | SDK docs, API parsers, symbol resolvers |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 109 | Web research, content discovery, data collection |
@@ -179,7 +179,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,528 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,530 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,176 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

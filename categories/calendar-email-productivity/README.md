@@ -121,6 +121,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Read and automate Slack workflows from a purpose-built agent CLI with agent-slack](../../skills/read-and-automate-slack-workflows-from-a-purpose-built-agent-cli-with-agent-slack/) | 382 | 5.2k/wk |
 | [Postmark.js Email Delivery API for Transactional Messaging](../../skills/postmarkjs-email-delivery-api-transactional-messaging/) | 357 | 3.6M/wk |
 | [Run agent mailboxes and pull verification codes or reply context programmatically with Mails](../../skills/run-agent-mailboxes-and-pull-verification-codes-or-reply-context-programmatically-with-mails/) | 294 | 1.3k/wk |
+| [Read Google Drive files and edit Sheets through MCP](../../skills/read-google-drive-files-and-edit-sheets-through-mcp/) | 280 | 16.1k/wk |
 | [Sync calendars between providers with a stateless CalendarSync job](../../skills/sync-calendars-between-providers-with-a-stateless-calendarsync-job/) | 217 | — |
 | [Mailchimp Marketing API Node.js SDK](../../skills/mailchimp-marketing-api-nodejs-sdk/) | 165 | — |
 | [Mailtrap Node.js SDK for Transactional and Sandbox Email](../../skills/mailtrap-nodejs-sdk-transactional-and-sandbox-email/) | 108 | — |

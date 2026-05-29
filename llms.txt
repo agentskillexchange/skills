@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-05-29
-# Total: 2528 skills
+# Total: 2530 skills
+
+## Read Google Drive files and edit Sheets through MCP
+slug: read-google-drive-files-and-edit-sheets-through-mcp
+category: Calendar, Email & Productivity
+framework: MCP
+verification: Security Reviewed
+description: Connect an MCP-capable assistant to Google Drive search, file reads, and Google Sheets cell updates with mcp-gdrive.
+url: https://agentskillexchange.com/skills/read-google-drive-files-and-edit-sheets-through-mcp/
+
+## Build deterministic multi-agent networks with Inngest AgentKit
+slug: build-deterministic-multi-agent-networks-with-inngest-agentkit
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Published
+description: Use Inngest AgentKit to build TypeScript agent networks with deterministic routing, shared state, MCP tools, and local tracing.
+url: https://agentskillexchange.com/skills/build-deterministic-multi-agent-networks-with-inngest-agentkit/
 
 ## Emit policy receipts for hard-rule agent skills with Pluribus
 slug: emit-policy-receipts-for-hard-rule-agent-skills-with-pluribus

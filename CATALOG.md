@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2528 published skills** across **17 categories** · 2,176 security reviewed · Updated 2026-05-29 12:39 UTC
+> **2530 published skills** across **17 categories** · 2,176 security reviewed · Updated 2026-05-29 13:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1336,7 +1336,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [PagerDuty Event Orchestration Runbook](skills/pagerduty-event-orchestration-runbook/) | Builds incident runbooks around the PagerDuty Events API v2, Incidents API, and Response Plays so agents can… | Published | — | — |
 
 
-### 📄 Templates & Workflows (169 skills)
+### 📄 Templates & Workflows (170 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1482,6 +1482,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Drive spec-first coding workflows with task boards, worktrees, and agent handoffs using Spec Kitty](skills/drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-handoffs-using-spec-kitty/) | Move from spec to plan to tasks to review through one repo-native workflow when larger AI coding efforts need… | Security Reviewed | 1.1k | — |
 | [Run academic writing, analysis, and replication workflows with quality gates in claude-code-my-workflow](skills/run-academic-writing-analysis-and-replication-workflows-with-quality-gates-in-claude-code-my-workflow/) | Use claude-code-my-workflow when a research task needs a Claude Code workflow for papers, slides, data analysis, or… | Security Reviewed | 970 | — |
 | [Build and sync n8n workflows from code with n8n-as-code](skills/build-and-sync-n8n-workflows-from-code-with-n8n-as-code/) | Inspect n8n nodes and templates, generate typed workflow code, and sync automations through Git-friendly files… | Security Reviewed | 884 | 297/wk |
+| [Build deterministic multi-agent networks with Inngest AgentKit](skills/build-deterministic-multi-agent-networks-with-inngest-agentkit/) | Use Inngest AgentKit to build TypeScript agent networks with deterministic routing, shared state, MCP tools, and… | Published | 880 | 62.8k/wk |
 | [Run parallel Claude Code bug-fix and best-practice sweeps with coordinated workers using Claude Code Agent Farm](skills/run-parallel-claude-code-bug-fix-and-best-practice-sweeps-with-coordinated-workers-using-claude-code-agent-farm/) | Use Claude Code Agent Farm when a repo needs many Claude Code workers to run in parallel on bug-fix or best-practice… | Security Reviewed | 784 | — |
 | [Reformat Markdown files into a stable house style before review or migration](skills/reformat-markdown-files-into-a-stable-house-style-before-review-or-migration/) | Runs mdformat to rewrite Markdown into a consistent CommonMark-oriented layout or check mode in CI. Use it when an… | Security Reviewed | 758 | — |
 | [Turn recurring team workflows into installable cross-tool agent skills with Agent Skill Creator](skills/turn-recurring-team-workflows-into-installable-cross-tool-agent-skills-with-agent-skill-creator/) | Feed an agent your docs, links, code, or rough process notes and it generates, validates, installs, and optionally… | Security Reviewed | 744 | — |
@@ -1654,7 +1655,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Published | — | — |
 
 
-### 📅 Calendar, Email & Productivity (123 skills)
+### 📅 Calendar, Email & Productivity (124 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -1741,6 +1742,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Read and automate Slack workflows from a purpose-built agent CLI with agent-slack](skills/read-and-automate-slack-workflows-from-a-purpose-built-agent-cli-with-agent-slack/) | Search channels, inspect threads, move files, and send or edit Slack messages through an agent-oriented CLI with… | Security Reviewed | 382 | 5.2k/wk |
 | [Postmark.js Email Delivery API for Transactional Messaging](skills/postmarkjs-email-delivery-api-transactional-messaging/) | postmark.js is the official Node.js library for the Postmark API, used to send transactional email, templates, and… | Security Reviewed | 357 | 3.6M/wk |
 | [Run agent mailboxes and pull verification codes or reply context programmatically with Mails](skills/run-agent-mailboxes-and-pull-verification-codes-or-reply-context-programmatically-with-mails/) | Give an agent a mailbox it can send from, read from, search, sync locally, and mine for login codes or attachments… | Security Reviewed | 294 | 1.3k/wk |
+| [Read Google Drive files and edit Sheets through MCP](skills/read-google-drive-files-and-edit-sheets-through-mcp/) | Connect an MCP-capable assistant to Google Drive search, file reads, and Google Sheets cell updates with mcp-gdrive. | Security Reviewed | 280 | 16.1k/wk |
 | [Sync calendars between providers with a stateless CalendarSync job](skills/sync-calendars-between-providers-with-a-stateless-calendarsync-job/) | Run a one-shot calendar sync or migration between Google, Outlook, CalDAV, ICS, and related systems without standing… | Security Reviewed | 217 | — |
 | [Mailchimp Marketing API Node.js SDK](skills/mailchimp-marketing-api-nodejs-sdk/) | Connects agents to Mailchimp’s official Marketing API through the official Node.js client library. Useful for… | Security Reviewed | 165 | — |
 | [Mailtrap Node.js SDK for Transactional and Sandbox Email](skills/mailtrap-nodejs-sdk-transactional-and-sandbox-email/) | An ASE skill built on the official Mailtrap Node.js SDK for sending transactional email and working with Mailtrap… | Security Reviewed | 108 | — |
