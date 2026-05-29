@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "LinkupPlatform/linkup-js-sdk"
   github_stars: 4
+  npm_package: "linkup-sdk"
+  npm_weekly_downloads: 30824
 ---
 
 # Linkup JS SDK for Sourced Web Search and Fetch

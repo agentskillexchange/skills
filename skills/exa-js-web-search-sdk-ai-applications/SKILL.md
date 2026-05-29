@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "exa-labs/exa-js"
   github_stars: 126
+  npm_package: "exa-js"
+  npm_weekly_downloads: 429919
 ---
 
 # Exa JS Web Search SDK for AI Applications

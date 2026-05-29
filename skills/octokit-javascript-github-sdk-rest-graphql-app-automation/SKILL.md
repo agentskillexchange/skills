@@ -10,6 +10,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "octokit/octokit.js"
   github_stars: 7736
+  npm_package: "octokit"
+  npm_weekly_downloads: 7006664
 ---
 
 # Octokit JavaScript GitHub SDK for REST GraphQL and App Automation

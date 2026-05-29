@@ -2,18 +2,12 @@
 name: "Emit policy receipts for hard-rule agent skills with Pluribus"
 slug: "emit-policy-receipts-for-hard-rule-agent-skills-with-pluribus"
 description: "Uses the Pluribus skill-policy receipt recipe to make hard agent-skill rules auditable before and after writes. Best for Claude Code, OpenClaw, Cursor, Codex, and other coding-agent workflows where natural-language instructions such as forbidden services, generated-file boundaries, or preview-before-apply rules need explicit allow/refuse evidence."
-github_stars: 2
 verification: "listed"
 source: "https://github.com/caioribeiroclw-pixel/pluribus/blob/main/docs/skill-policy-receipts.md"
 author: "Caio Ribeiro"
 publisher_type: "Open Source Project"
 category: "Security & Verification"
 framework: "Multi-Framework"
-tool_ecosystem:
-  github_repo: "caioribeiroclw-pixel/pluribus"
-  github_stars: 2
-  npm_package: "pluribus-context"
-  maintained: true
 ---
 
 # Emit policy receipts for hard-rule agent skills with Pluribus

@@ -10,6 +10,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "goldfire/howler.js"
   github_stars: 25240
+  npm_package: "howler"
+  npm_weekly_downloads: 773225
 ---
 
 # Howler.js Cross-Browser JavaScript Audio Library
