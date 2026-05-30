@@ -230,7 +230,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Scan repositories for AI supply-chain and agent-security risks with Medusa Security](../../skills/scan-repositories-for-ai-supply-chain-and-agent-security-risks-with-medusa-security/) | 256 | — |
 | [Put approval gates and audit-ready policy checks between agents and external actions with DashClaw](../../skills/put-approval-gates-and-audit-ready-policy-checks-between-agents-and-external-actions-with-dashclaw/) | 241 | 1.6k/wk |
 | [Enforce policy-gated and auditable agent execution with LACP](../../skills/enforce-policy-gated-and-auditable-agent-execution-with-lacp/) | 211 | — |
-| [Sentry for AI](../../skills/sentry-for-ai/) | 187 | — |
+| [Sentry for AI](../../skills/sentry-for-ai/) | 189 | — |
 | [Lint and autofix agent config files before broken prompts, hooks, or MCP settings derail runs with agnix](../../skills/lint-and-autofix-agent-config-files-before-broken-prompts-hooks-or-mcp-settings-derail-runs-with-agnix/) | 179 | 6k/wk |
 | [Gitxray GitHub Repository Security X-Ray](../../skills/gitxray-github-repository-security-xray/) | 174 | — |
 | [Run coding agents in a locked-down local sandbox with repo-only filesystem access and controlled egress using agent-sandbox](../../skills/run-coding-agents-in-a-locked-down-local-sandbox-with-repo-only-filesystem-access-and-controlled-egress-using-agent-sandbox/) | 163 | — |
@@ -244,7 +244,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Review risky coding-agent sessions with local action logs using Gryph](../../skills/review-risky-coding-agent-sessions-with-local-action-logs-using-gryph/) | 105 | — |
 | [Restrict outbound domains for GitHub Agentic Workflows before repository agents can browse freely with gh-aw-firewall](../../skills/restrict-outbound-domains-for-github-agentic-workflows-before-repository-agents-can-browse-freely-with-gh-aw-firewall/) | 55 | — |
 | [Preflight agent specs for prompt-injection risk across prompt, tool, and architecture layers with Prompt Hardener](../../skills/preflight-agent-specs-for-prompt-injection-risk-across-prompt-tool-and-architecture-layers-with-prompt-hardener/) | 50 | — |
-| [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | 48 | — |
+| [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | 49 | — |
 | [Inspect agent model traffic with LLMTrace](../../skills/inspect-agent-model-traffic-with-llmtrace/) | 46 | — |
 | [Infisical CLI Secrets Injection and Access Management](../../skills/infisical-cli-secrets-injection-and-access-management/) | 41 | 57.5k/wk |
 | [Test API authorization flows with Hadrian](../../skills/hadrian-api-authorization-security-testing/) | 38 | — |
