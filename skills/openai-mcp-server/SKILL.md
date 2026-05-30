@@ -2,14 +2,14 @@
 name: "OpenAI MCP Server"
 slug: "openai-mcp-server"
 description: ""
-github_stars: 10938
+github_stars: 10940
 verification: "security_reviewed"
 source: "https://github.com/openai/openai-node"
 category: "Developer Tools"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "openai/openai-node"
-  github_stars: 10938
+  github_stars: 10940
   npm_package: "openai"
   npm_weekly_downloads: 20546795
 ---
