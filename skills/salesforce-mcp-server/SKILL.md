@@ -2,7 +2,7 @@
 name: "Salesforce MCP Server"
 slug: "salesforce-mcp-server"
 description: ""
-github_stars: 1464
+github_stars: 1465
 verification: "security_reviewed"
 source: "https://github.com/jsforce/jsforce"
 author: "JSforce"
@@ -10,9 +10,9 @@ category: "Integrations & Connectors"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "jsforce/jsforce"
-  github_stars: 1464
+  github_stars: 1465
   npm_package: "jsforce"
-  npm_weekly_downloads: 1019480
+  npm_weekly_downloads: 1026247
 ---
 
 # Salesforce MCP Server

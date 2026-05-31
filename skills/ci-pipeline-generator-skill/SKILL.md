@@ -2,7 +2,7 @@
 name: "CI Pipeline Generator Skill"
 slug: "ci-pipeline-generator-skill"
 description: ""
-github_stars: 24339
+github_stars: 24341
 verification: "security_reviewed"
 source: "https://github.com/gitlabhq/gitlabhq"
 author: "GitLab"
@@ -10,7 +10,7 @@ category: "Developer Tools"
 framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "gitlabhq/gitlabhq"
-  github_stars: 24339
+  github_stars: 24341
 ---
 
 # CI Pipeline Generator Skill
