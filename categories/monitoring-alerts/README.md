@@ -6,7 +6,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 
 | Skill | Stars |
 |---|---:|
-| [Kubernetes Troubleshooting Runbook](../../skills/k8s-troubleshooting-runbook/) | ⭐ 122.5k |
+| [Kubernetes Troubleshooting Runbook](../../skills/k8s-troubleshooting-runbook/) | ⭐ 122.6k |
 | [Kubernetes Event Stream Analyzer](../../skills/kubernetes-event-stream-analyzer/) | ⭐ 121.7k |
 | [Uptime Kuma Status Sync](../../skills/uptime-kuma-status-sync/) | ⭐ 85.6k |
 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](../../skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | ⭐ 85.1k |
@@ -40,7 +40,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [Kubernetes Troubleshooting Runbook](../../skills/k8s-troubleshooting-runbook/) | 122.5k | — |
+| [Kubernetes Troubleshooting Runbook](../../skills/k8s-troubleshooting-runbook/) | 122.6k | — |
 | [Kubernetes Event Stream Analyzer](../../skills/kubernetes-event-stream-analyzer/) | 121.7k | — |
 | [Uptime Kuma Status Sync](../../skills/uptime-kuma-status-sync/) | 85.6k | — |
 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](../../skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | 85.1k | 97/wk |
@@ -144,7 +144,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Datadog Monitor Sync](../../skills/datadog-monitor-sync/) | 791 | 6.6M/wk |
 | [Datadog Monitors Skill](../../skills/datadog-monitors-skill/) | 791 | 6.6M/wk |
 | [Datadog SLO Monitor](../../skills/datadog-slo-monitor/) | 791 | 6.6M/wk |
-| [Sentry MCP Server](../../skills/sentry-mcp-server/) | 711 | 77.1k/wk |
+| [Sentry MCP Server](../../skills/sentry-mcp-server/) | 712 | 69.1k/wk |
 | [Sentry MCP Server for Error Tracking and Performance](../../skills/sentry-mcp-server-error-tracking-performance/) | 615 | 49.6k/wk |
 | [Track coding-agent quota burn and remaining headroom across providers with onWatch](../../skills/track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch/) | 580 | — |
 | [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | 531 | 4.8M/wk |
@@ -159,7 +159,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [PagerDuty Incident Orchestrator](../../skills/pagerduty-incident-orchestrator-2/) | 69 | 1M/wk |
 | [PagerDuty Incident Runbook Linker](../../skills/pagerduty-incident-runbook-linker/) | 69 | 1M/wk |
 | [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | 69 | 238k/wk |
-| [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | 24 | 5.4k/wk |
+| [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | 24 | 5.2k/wk |
 | [Configure and interpret LaunchDarkly AI Config online evaluations with judge attachments](../../skills/configure-and-interpret-launchdarkly-ai-config-online-evaluations-with-judge-attachments/) | 6 | — |
 | [AWS CloudWatch Insights Query Builder](../../skills/aws-cloudwatch-insights-query-builder/) | — | — |
 | [Cloudflare Analytics Health Monitor](../../skills/cloudflare-analytics-health-monitor/) | — | — |
