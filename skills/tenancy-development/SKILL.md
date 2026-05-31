@@ -8,8 +8,6 @@ category: "Developer Tools"
 framework: "Claude Code"
 tool_ecosystem:
   tool: "stancl/tenancy"
-  github_repo: "https://github.com/stancl/tenancy"
-  github_stars: 3800
   license: "MIT"
   maintained: true
 ---
