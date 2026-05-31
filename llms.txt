@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-05-31
-# Total: 2534 skills
+# Total: 2536 skills
+
+## Run production multi-agent workflows with Hive
+slug: run-production-multi-agent-workflows-with-hive
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Hive as a model-agnostic harness for long-running multi-agent workflows that need state, recovery, observability, human oversight, and business-system tools.
+url: https://agentskillexchange.com/skills/run-production-multi-agent-workflows-with-hive/
+
+## Supervise parallel coding-agent terminals with Cmux
+slug: supervise-parallel-coding-agent-terminals-with-cmux
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Cmux to run multiple AI coding-agent terminal sessions with visible notifications, scriptable panes, an in-app browser, and project-aware workspaces.
+url: https://agentskillexchange.com/skills/supervise-parallel-coding-agent-terminals-with-cmux/
 
 ## Run an agent across browser and local file workflows with Magentic-UI
 slug: run-an-agent-across-browser-and-local-file-workflows-with-magentic-ui

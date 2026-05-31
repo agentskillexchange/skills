@@ -1,8 +1,32 @@
 {
   "version": "2.0",
-  "total": 2534,
+  "total": 2536,
   "generated": "2026-05-31",
   "skills": [
+    {
+      "slug": "run-production-multi-agent-workflows-with-hive",
+      "name": "Run production multi-agent workflows with Hive",
+      "title": "Run production multi-agent workflows with Hive",
+      "description": "Use Hive as a model-agnostic harness for long-running multi-agent workflows that need state, recovery, observability, human oversight, and business-system tools.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 10461
+      }
+    },
+    {
+      "slug": "supervise-parallel-coding-agent-terminals-with-cmux",
+      "name": "Supervise parallel coding-agent terminals with Cmux",
+      "title": "Supervise parallel coding-agent terminals with Cmux",
+      "description": "Use Cmux to run multiple AI coding-agent terminal sessions with visible notifications, scriptable panes, an in-app browser, and project-aware workspaces.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 20490
+      }
+    },
     {
       "slug": "run-an-agent-across-browser-and-local-file-workflows-with-magentic-ui",
       "name": "Run an agent across browser and local file workflows with Magentic-UI",

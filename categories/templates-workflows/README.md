@@ -119,6 +119,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [DocuSeal Open Source Document Signing and PDF Form Platform](../../skills/docuseal-document-signing-pdf-forms/) | 11.7k | — |
 | [Jinja2 Infrastructure Template Engine](../../skills/jinja2-infrastructure-template-engine/) | 11.6k | — |
 | [Jinja2 Template Engine](../../skills/jinja2-template-engine-agent/) | 11.6k | — |
+| [Run production multi-agent workflows with Hive](../../skills/run-production-multi-agent-workflows-with-hive/) | 10.5k | — |
 | [SonarQube Gate Checker](../../skills/sonarqube-gate-checker-2/) | 10.4k | — |
 | [Yeoman Scaffold Runner](../../skills/yeoman-scaffold-runner/) | 10.1k | — |
 | [Build and trace multi-agent workflows with Microsoft Agent Framework](../../skills/build-and-trace-multi-agent-workflows-with-microsoft-agent-framework/) | 10.1k | — |

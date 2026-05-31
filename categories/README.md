@@ -1,16 +1,16 @@
 # Categories
 
-> **2534 skills** across **17 categories**
+> **2536 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
-| 🛠️ | [**Developer Tools**](developer-tools/) | **330** | CLI helpers, dev environment setup, productivity utilities, and devel... |
+| 🛠️ | [**Developer Tools**](developer-tools/) | **331** | CLI helpers, dev environment setup, productivity utilities, and devel... |
 | 🔒 | [**Security & Verification**](security-verification/) | **228** | Auth setup, vulnerability scanning, compliance checks, and security a... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **192** | Pipeline configs, deployment automation, build tooling, and continuou... |
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **184** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **174** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
+| 📄 | [**Templates & Workflows**](templates-workflows/) | **172** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **172** | Incident response, troubleshooting guides, system diagnostics, and op... |
-| 📄 | [**Templates & Workflows**](templates-workflows/) | **171** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **133** | Metrics collection, alerting rules, observability setup, and system m... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **124** | Email automation, calendar management, task coordination, and product... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **123** | Third-party API bridges, webhook handlers, service connectors, and pl... |
