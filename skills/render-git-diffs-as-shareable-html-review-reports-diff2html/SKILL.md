@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "rtfpessoa/diff2html"
   github_stars: 3345
+  npm_package: "diff2html"
+  npm_weekly_downloads: 437414
 ---
 
 # Render git diffs as shareable HTML review reports with Diff2Html

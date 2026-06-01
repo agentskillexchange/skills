@@ -10,6 +10,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "medusajs/medusa"
   github_stars: 32622
+  npm_package: "@medusajs/medusa"
+  npm_weekly_downloads: 117771
 ---
 
 # Medusa Commerce API and Store Operations Automation Skill

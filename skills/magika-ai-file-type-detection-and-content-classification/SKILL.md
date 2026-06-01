@@ -10,6 +10,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "google/magika"
   github_stars: 10199
+  npm_package: "magika"
+  npm_weekly_downloads: 4630
 ---
 
 # Magika AI File Type Detection and Content Classification

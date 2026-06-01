@@ -10,6 +10,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "emdash-cms/emdash"
   github_stars: 9237
+  npm_package: "emdash"
+  npm_weekly_downloads: 11728
 ---
 
 # EmDash Full-Stack TypeScript CMS by Cloudflare

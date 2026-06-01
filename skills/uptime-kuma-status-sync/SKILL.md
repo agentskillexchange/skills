@@ -11,6 +11,8 @@ framework: "Claude Agents"
 tool_ecosystem:
   github_repo: "louislam/uptime-kuma"
   github_stars: 85583
+  npm_package: "uptime-kuma"
+  npm_weekly_downloads: 89
 ---
 
 # Uptime Kuma Status Sync

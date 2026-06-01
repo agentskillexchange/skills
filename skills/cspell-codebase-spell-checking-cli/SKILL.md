@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "streetsidesoftware/cspell"
   github_stars: 1616
+  npm_package: "cspell"
+  npm_weekly_downloads: 1137109
 ---
 
 # CSpell Codebase Spell Checking CLI

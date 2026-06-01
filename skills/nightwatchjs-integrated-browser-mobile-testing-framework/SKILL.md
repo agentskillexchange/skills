@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "nightwatchjs/nightwatch"
   github_stars: 11943
+  npm_package: "nightwatch"
+  npm_weekly_downloads: 110355
 ---
 
 # Nightwatch.js Integrated Browser and Mobile Testing Framework

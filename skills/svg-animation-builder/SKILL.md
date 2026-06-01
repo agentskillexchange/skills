@@ -11,6 +11,8 @@ framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "greensock/GSAP"
   github_stars: 24554
+  npm_package: "gsap"
+  npm_weekly_downloads: 2843792
 ---
 
 # SVG Animation Builder

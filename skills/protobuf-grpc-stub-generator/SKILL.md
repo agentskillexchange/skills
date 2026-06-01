@@ -11,6 +11,8 @@ framework: "Cursor"
 tool_ecosystem:
   github_repo: "grpc/grpc-node"
   github_stars: 4828
+  npm_package: "grpc"
+  npm_weekly_downloads: 106798
 ---
 
 # Protobuf & gRPC Stub Generator

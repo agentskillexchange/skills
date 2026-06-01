@@ -11,6 +11,8 @@ framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "yeoman/yeoman"
   github_stars: 10120
+  npm_package: "yeoman"
+  npm_weekly_downloads: 20
 ---
 
 # Yeoman Scaffold Runner

@@ -10,6 +10,8 @@ framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "unkeyed/unkey"
   github_stars: 5224
+  npm_package: "unkey"
+  npm_weekly_downloads: 32
 ---
 
 # Unkey Open Source API Key Management and Rate Limiting Platform

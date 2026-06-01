@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "djlint/djLint"
   github_stars: 911
+  npm_package: "djlint"
+  npm_weekly_downloads: 343
 ---
 
 # Template Linting and Auto-Formatting for Django and Jinja Repositories

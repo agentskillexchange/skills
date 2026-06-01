@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "safedep/gryph"
   github_stars: 105
+  npm_package: "@safedep/gryph"
+  npm_weekly_downloads: 55
 ---
 
 # Review risky coding-agent sessions with local action logs using Gryph

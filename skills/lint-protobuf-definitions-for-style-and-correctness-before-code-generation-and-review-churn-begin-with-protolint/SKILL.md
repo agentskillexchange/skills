@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "yoheimuta/protolint"
   github_stars: 685
+  npm_package: "protolint"
+  npm_weekly_downloads: 2219
 ---
 
 # Lint protobuf definitions for style and correctness before code generation and review churn begin with protolint

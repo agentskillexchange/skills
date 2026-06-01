@@ -12,6 +12,8 @@ framework: "MCP"
 tool_ecosystem:
   github_repo: "remorses/playwriter"
   github_stars: 3507
+  npm_package: "playwriter"
+  npm_weekly_downloads: 0
 ---
 
 # Let agents control a logged-in Chrome browser through Playwriter MCP

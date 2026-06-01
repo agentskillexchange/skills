@@ -12,6 +12,8 @@ framework: "Claude Code"
 tool_ecosystem:
   github_repo: "rohitg00/pro-workflow"
   github_stars: 1933
+  npm_package: "pro-workflow"
+  npm_weekly_downloads: 42
 ---
 
 # Layer self-correcting memory and worktree routines into Claude Code with Pro Workflow

@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "vuejs/vitepress"
   github_stars: 17508
+  npm_package: "vitepress"
+  npm_weekly_downloads: 506456
 ---
 
 # VitePress Documentation Site Generator

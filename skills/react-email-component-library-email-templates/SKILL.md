@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "resend/react-email"
   github_stars: 18373
+  npm_package: "react-email"
+  npm_weekly_downloads: 2236815
 ---
 
 # React Email Component Library for Building Email Templates

@@ -10,6 +10,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "electric-sql/pglite"
   github_stars: 14984
+  npm_package: "@electric-sql/pglite"
+  npm_weekly_downloads: 8394608
 ---
 
 # PGlite Embeddable WASM Postgres for Browser and Node.js

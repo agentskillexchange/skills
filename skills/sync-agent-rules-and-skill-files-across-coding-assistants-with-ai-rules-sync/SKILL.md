@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "lbb00/ai-rules-sync"
   github_stars: 25
+  npm_package: "ai-rules-sync"
+  npm_weekly_downloads: 1131
 ---
 
 # Sync agent rules and skill files across coding assistants with AI Rules Sync

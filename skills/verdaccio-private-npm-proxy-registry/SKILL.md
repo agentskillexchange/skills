@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "verdaccio/verdaccio"
   github_stars: 17595
+  npm_package: "verdaccio"
+  npm_weekly_downloads: 718759
 ---
 
 # Verdaccio Lightweight Private npm Proxy Registry

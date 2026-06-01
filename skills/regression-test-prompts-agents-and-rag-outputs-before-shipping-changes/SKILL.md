@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "promptfoo/promptfoo"
   github_stars: 20007
+  npm_package: "promptfoo"
+  npm_weekly_downloads: 248499
 ---
 
 # Regression-test prompts, agents, and RAG outputs before shipping changes

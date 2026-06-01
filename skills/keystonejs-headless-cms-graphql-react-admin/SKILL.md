@@ -10,6 +10,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "keystonejs/keystone"
   github_stars: 9860
+  npm_package: "keystone"
+  npm_weekly_downloads: 675
 ---
 
 # KeystoneJS Headless CMS with GraphQL API and React Admin UI

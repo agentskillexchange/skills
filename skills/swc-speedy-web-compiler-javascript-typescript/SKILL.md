@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "swc-project/swc"
   github_stars: 33347
+  npm_package: "@swc-project/swc"
+  npm_weekly_downloads: 3
 ---
 
 # SWC Speedy Web Compiler for JavaScript and TypeScript

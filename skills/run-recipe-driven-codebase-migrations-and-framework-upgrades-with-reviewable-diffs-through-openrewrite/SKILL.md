@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "openrewrite/rewrite"
   github_stars: 3395
+  npm_package: "@openrewrite/rewrite"
+  npm_weekly_downloads: 26331
 ---
 
 # Run recipe-driven codebase migrations and framework upgrades with reviewable diffs through OpenRewrite

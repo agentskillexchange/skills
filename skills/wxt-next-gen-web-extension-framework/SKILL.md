@@ -10,6 +10,8 @@ framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "wxt-dev/wxt"
   github_stars: 9534
+  npm_package: "wxt"
+  npm_weekly_downloads: 481421
 ---
 
 # WXT Next-Generation Web Extension Framework for Browser Extensions
