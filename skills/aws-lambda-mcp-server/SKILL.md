@@ -2,7 +2,7 @@
 name: "AWS Lambda MCP Server"
 slug: "aws-lambda-mcp-server"
 description: ""
-github_stars: 3631
+github_stars: 3632
 verification: "security_reviewed"
 source: "https://github.com/aws/aws-sdk-js-v3"
 author: "Amazon Web Services"
@@ -10,9 +10,9 @@ category: "Developer Tools"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "aws/aws-sdk-js-v3"
-  github_stars: 3631
+  github_stars: 3632
   npm_package: "@aws-sdk/client-lambda"
-  npm_weekly_downloads: 7266313
+  npm_weekly_downloads: 7288523
 ---
 
 # AWS Lambda MCP Server

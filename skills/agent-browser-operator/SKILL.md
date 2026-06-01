@@ -2,7 +2,7 @@
 name: "Agent Browser Operator"
 slug: "agent-browser-operator"
 description: "Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations."
-github_stars: 89912
+github_stars: 89986
 verification: "security_reviewed"
 source: "https://github.com/microsoft/playwright"
 author: "Microsoft"
@@ -11,9 +11,9 @@ category: "Browser Automation"
 framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "microsoft/playwright"
-  github_stars: 89912
+  github_stars: 89986
   npm_package: "playwright"
-  npm_weekly_downloads: 53654594
+  npm_weekly_downloads: 54219029
 ---
 
 # Agent Browser Operator
