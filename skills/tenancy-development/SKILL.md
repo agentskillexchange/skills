@@ -6,10 +6,6 @@ verification: "security_reviewed"
 source: "https://tenancyforlaravel.com/docs/v3/"
 category: "Developer Tools"
 framework: "Claude Code"
-tool_ecosystem:
-  tool: "stancl/tenancy"
-  license: "MIT"
-  maintained: true
 ---
 
 # Stancl Tenancy v3 — Multi-Tenant Laravel

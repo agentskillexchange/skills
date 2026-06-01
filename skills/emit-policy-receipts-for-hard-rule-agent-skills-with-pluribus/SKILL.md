@@ -8,8 +8,6 @@ author: "Caio Ribeiro"
 publisher_type: "Open Source Project"
 category: "Security & Verification"
 framework: "Multi-Framework"
-tool_ecosystem:
-  maintained: true
 ---
 
 # Emit policy receipts for hard-rule agent skills with Pluribus
