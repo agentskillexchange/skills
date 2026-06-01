@@ -112,7 +112,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [chromedp Go Browser Automation with Chrome DevTools Protocol](../../skills/chromedp-go-browser-automation-chrome-devtools-protocol/) | 12.9k | — |
 | [Drive web and app UIs with vision-grounded steps when selectors are brittle or unavailable](../../skills/drive-web-and-app-uis-with-vision-grounded-steps-when-selectors-are-brittle-or-unavailable/) | 12.6k | 83.7k/wk |
 | [SeleniumBase Python Browser Automation and Stealth Testing Framework](../../skills/seleniumbase-python-browser-automation-stealth-testing-framework/) | 12.6k | 17/wk |
-| [Nightwatch.js Integrated Browser and Mobile Testing Framework](../../skills/nightwatchjs-integrated-browser-mobile-testing-framework/) | 11.9k | — |
+| [Nightwatch.js Integrated Browser and Mobile Testing Framework](../../skills/nightwatchjs-integrated-browser-mobile-testing-framework/) | 11.9k | 110.4k/wk |
 | [Chrome MCP Server Extension-Based Browser Automation for AI Agents](../../skills/chrome-mcp-server-extension-based-browser-automation-ai-agents/) | 11.2k | — |
 | [Run stealth Chromium browser automation with CloakBrowser](../../skills/run-stealth-chromium-browser-automation-with-cloakbrowser/) | 10.2k | — |
 | [Drive token-efficient browser testing from coding agents with Playwright CLI](../../skills/drive-token-efficient-browser-testing-from-coding-agents-with-playwright-cli/) | 10k | — |
@@ -120,7 +120,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Run an agent across browser and local file workflows with Magentic-UI](../../skills/run-an-agent-across-browser-and-local-file-workflows-with-magentic-ui/) | 9.9k | — |
 | [WebdriverIO Next-Gen Browser and Mobile Automation Framework](../../skills/webdriverio-browser-mobile-automation-framework/) | 9.8k | 2.7M/wk |
 | [Capture responsive website screenshots for visual QA with Pageres](../../skills/capture-responsive-website-screenshots-pageres/) | 9.7k | 15.3k/wk |
-| [Drive Chrome with stable accessibility refs for repeatable browser automation](../../skills/drive-chrome-with-stable-accessibility-refs-for-repeatable-browser-automation/) | 8.7k | — |
+| [Drive Chrome with stable accessibility refs for repeatable browser automation](../../skills/drive-chrome-with-stable-accessibility-refs-for-repeatable-browser-automation/) | 8.7k | 1.1k/wk |
 | [Docker Selenium Grid for Scalable Browser Automation](../../skills/docker-selenium-grid-for-scalable-browser-automation/) | 8.6k | — |
 | [Playwright Extra Browser Automation Plugins](../../skills/playwright-extra-browser-automation-plugins/) | 7.3k | 835.6k/wk |
 | [BackstopJS Visual Regression Testing Automation](../../skills/backstopjs-visual-regression-testing-automation/) | 7.1k | 59.8k/wk |
@@ -130,7 +130,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Control a real browser from MCP clients with Browser MCP](../../skills/control-a-real-browser-from-mcp-clients-with-browser-mcp/) | 6.6k | 29.8k/wk |
 | [Run browser and API automation through the Playwright MCP server](../../skills/run-browser-and-api-automation-through-the-playwright-mcp-server/) | 5.5k | — |
 | [Pa11y Accessibility Testing CLI and CI](../../skills/pa11y-accessibility-testing-cli-and-ci/) | 4.4k | 221.7k/wk |
-| [Extract data and complete workflows in your real logged-in browser](../../skills/extract-data-and-complete-workflows-in-your-real-logged-in-browser/) | 4.4k | — |
+| [Extract data and complete workflows in your real logged-in browser](../../skills/extract-data-and-complete-workflows-in-your-real-logged-in-browser/) | 4.4k | 2.9k/wk |
 | [Nodriver Async Undetected Chrome Browser Automation for Python](../../skills/nodriver-undetected-chrome-automation/) | 4k | — |
 | [Taiko Smart-Selector Browser Automation for Node.js](../../skills/taiko-smart-selector-browser-automation-nodejs/) | 3.7k | 12.3k/wk |
 | [Let agents control a logged-in Chrome browser through Playwriter MCP](../../skills/let-agents-control-a-logged-in-chrome-browser-through-playwriter-mcp/) | 3.5k | — |

@@ -28,11 +28,11 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Renovate Automated Dependency Update Bot and CLI](../../skills/renovate-automated-dependency-update-bot-and-cli/) | ⬇ 2M/wk |
 | [GoReleaser Cross-Platform Release Automation](../../skills/goreleaser-cross-platform-release-automation/) | ⬇ 62/wk |
 | [CapRover Self-Hosted PaaS for App Deployment and Server Management](../../skills/caprover-self-hosted-paas-app-deployment/) | ⬇ 8.4k/wk |
+| [Generate release PRs and changelog updates from Conventional Commits](../../skills/generate-release-prs-and-changelog-updates-from-conventional-commits/) | ⬇ 162.7k/wk |
 | [Orchestrate parallel coding agents with autonomous CI and review handoff using Agent Orchestrator](../../skills/orchestrate-parallel-coding-agents-with-autonomous-ci-and-review-handoff-using-agent-orchestrator/) | ⬇ 3.9k/wk |
 | [Parallelize and retry Rust test runs before flaky or slow suites stall CI with cargo-nextest](../../skills/parallelize-and-retry-rust-test-runs-before-flaky-or-slow-suites-stall-ci-with-cargo-nextest/) | ⬇ 9.8M/wk |
 | [Shard, retry, and summarize Rust test runs with CI-friendly artifacts and failure isolation using cargo-nextest](../../skills/shard-retry-and-summarize-rust-test-runs-with-ci-friendly-artifacts-and-failure-isolation-using-cargo-nextest/) | ⬇ 9.8M/wk |
 | [Publish installable pull-request package previews before release with pkg.pr.new](../../skills/publish-installable-pull-request-package-previews-before-release-with-pkg-pr-new/) | ⬇ 387.4k/wk |
-| [Run AI browser regression checks with Playwright and multi-model verification through Passmark](../../skills/run-ai-browser-regression-checks-with-playwright-and-multi-model-verification-through-passmark/) | ⬇ 12.3k/wk |
 
 ---
 
@@ -142,7 +142,7 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Tekton Pipeline Validator](../../skills/tekton-pipeline-validator/) | 8.9k | — |
 | [Run Claude Code inside GitHub Actions for scoped fix, review, and triage loops on pull requests and issues](../../skills/run-claude-code-inside-github-actions-for-scoped-fix-review-and-triage-loops-on-pull-requests-and-issues/) | 7.1k | — |
 | [Woodpecker CI Self-Hosted Continuous Integration Engine](../../skills/woodpecker-ci-self-hosted-continuous-integration/) | 6.8k | — |
-| [Generate release PRs and changelog updates from Conventional Commits](../../skills/generate-release-prs-and-changelog-updates-from-conventional-commits/) | 6.7k | — |
+| [Generate release PRs and changelog updates from Conventional Commits](../../skills/generate-release-prs-and-changelog-updates-from-conventional-commits/) | 6.7k | 162.7k/wk |
 | [Orchestrate parallel coding agents with autonomous CI and review handoff using Agent Orchestrator](../../skills/orchestrate-parallel-coding-agents-with-autonomous-ci-and-review-handoff-using-agent-orchestrator/) | 6.3k | 3.9k/wk |
 | [Generate dependency update pull requests from code with dependabot-core](../../skills/generate-dependency-update-pull-requests-from-code-with-dependabot-core/) | 5.5k | — |
 | [Plan and apply many Helm releases from one declarative state before cluster changes drift out of sync with Helmfile](../../skills/plan-and-apply-many-helm-releases-from-one-declarative-state-before-cluster-changes-drift-out-of-sync-with-helmfile/) | 5.1k | — |

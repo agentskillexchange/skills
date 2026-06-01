@@ -100,7 +100,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Run Claude Code through repeatable command and persona workflows with SuperClaude](../../skills/run-claude-code-through-repeatable-command-and-persona-workflows-with-superclaude/) | 22.3k | — |
 | [Prefect Python Workflow Orchestration Framework for Data Pipelines](../../skills/prefect-python-workflow-orchestration-data-pipelines/) | 22.1k | — |
 | [Temporal Durable Execution Workflow Orchestration Platform](../../skills/temporal-durable-execution-workflow-platform/) | 19.4k | — |
-| [React Email Component Library for Building Email Templates](../../skills/react-email-component-library-email-templates/) | 18.4k | — |
+| [React Email Component Library for Building Email Templates](../../skills/react-email-component-library-email-templates/) | 18.4k | 2.2M/wk |
 | [Run supervised desktop and browser agent work inside Agent Zero](../../skills/run-supervised-desktop-and-browser-agent-work-inside-agent-zero/) | 17.8k | — |
 | [Add graph-backed memory and context retrieval to agent workflows](../../skills/add-graph-backed-memory-and-context-retrieval-to-agent-workflows/) | 17.6k | — |
 | [Build a self-updating agent memory graph with GBrain](../../skills/build-a-self-updating-agent-memory-graph-with-gbrain/) | 17.3k | — |
@@ -121,7 +121,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Jinja2 Template Engine](../../skills/jinja2-template-engine-agent/) | 11.6k | — |
 | [Run production multi-agent workflows with Hive](../../skills/run-production-multi-agent-workflows-with-hive/) | 10.5k | — |
 | [SonarQube Gate Checker](../../skills/sonarqube-gate-checker-2/) | 10.4k | — |
-| [Yeoman Scaffold Runner](../../skills/yeoman-scaffold-runner/) | 10.1k | — |
+| [Yeoman Scaffold Runner](../../skills/yeoman-scaffold-runner/) | 10.1k | 20/wk |
 | [Build and trace multi-agent workflows with Microsoft Agent Framework](../../skills/build-and-trace-multi-agent-workflows-with-microsoft-agent-framework/) | 10.1k | — |
 | [Run Nature-style academic writing and figure workflows with Nature Skills](../../skills/run-nature-style-academic-writing-and-figure-workflows-with-nature-skills/) | 10k | — |
 | [Deploy OpenClaw on Cloudflare Workers with Moltworker](../../skills/deploy-openclaw-on-cloudflare-workers-with-moltworker/) | 9.9k | — |
@@ -154,7 +154,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Rehearse and run scripted terminal demos with realistic playback using doitlive](../../skills/rehearse-and-run-scripted-terminal-demos-with-realistic-playback-using-doitlive/) | 3.6k | 236/wk |
 | [Iteratively optimize prompts and text-based agent configs against scored eval sets with GEPA](../../skills/iteratively-optimize-prompts-and-text-based-agent-configs-against-scored-eval-sets-with-gepa/) | 3.5k | 4.1M/wk |
 | [DigitalOcean Droplet Manager](../../skills/digitalocean-droplet-manager/) | 3.4k | — |
-| [Run recipe-driven codebase migrations and framework upgrades with reviewable diffs through OpenRewrite](../../skills/run-recipe-driven-codebase-migrations-and-framework-upgrades-with-reviewable-diffs-through-openrewrite/) | 3.4k | — |
+| [Run recipe-driven codebase migrations and framework upgrades with reviewable diffs through OpenRewrite](../../skills/run-recipe-driven-codebase-migrations-and-framework-upgrades-with-reviewable-diffs-through-openrewrite/) | 3.4k | 26.3k/wk |
 | [Generate and validate conventional commits and semver release bumps with Commitizen](../../skills/generate-and-validate-conventional-commits-and-semver-release-bumps-with-commitizen/) | 3.4k | — |
 | [Draft user-facing App Store release notes from git history with App Store Changelog](../../skills/draft-user-facing-app-store-release-notes-from-git-history-with-app-store-changelog/) | 3.4k | — |
 | [Create and debug local-first declarative workflow jobs with Dagu](../../skills/create-and-debug-local-first-declarative-workflow-jobs-with-dagu/) | 3.3k | 456/wk |
@@ -167,7 +167,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Boot and supervise local multi-service process stacks from one declarative file with process-compose](../../skills/boot-and-supervise-local-multi-service-process-stacks-from-one-declarative-file-with-process-compose/) | 2.3k | — |
 | [Coordinate planner manager worker handoffs for long running AI delivery with Agentic Project Management](../../skills/coordinate-planner-manager-worker-handoffs-for-long-running-ai-delivery-with-agentic-project-management/) | 2.2k | — |
 | [Turn product requirements into executable Claude Code plans and validation loops with PRPs Agentic Eng](../../skills/turn-product-requirements-into-executable-claude-code-plans-and-validation-loops-with-prps-agentic-eng/) | 2.1k | — |
-| [Layer self-correcting memory and worktree routines into Claude Code with Pro Workflow](../../skills/layer-self-correcting-memory-and-worktree-routines-into-claude-code-with-pro-workflow/) | 1.9k | — |
+| [Layer self-correcting memory and worktree routines into Claude Code with Pro Workflow](../../skills/layer-self-correcting-memory-and-worktree-routines-into-claude-code-with-pro-workflow/) | 1.9k | 42/wk |
 | [Netlify Site Manager](../../skills/netlify-site-manager/) | 1.8k | 259.3k/wk |
 | [Regenerate Helm chart READMEs from values and comments before release](../../skills/regenerate-helm-chart-readmes-from-values-and-comments-before-release/) | 1.7k | — |
 | [Generate right-to-left CSS variants from LTR stylesheets before multilingual launches with RTLCSS](../../skills/generate-right-to-left-css-variants-from-ltr-stylesheets-before-multilingual-launches-rtlcss/) | 1.7k | 2M/wk |

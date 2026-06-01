@@ -74,7 +74,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [FilePond Flexible JavaScript File Upload Library](../../skills/filepond-javascript-file-upload-library/) | 16.3k | 247.6k/wk |
 | [JSDoc Type Definition Extractor](../../skills/jsdoc-type-definition-extractor/) | 15.4k | 2.5M/wk |
 | [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | 15.4k | 2.7M/wk |
-| [PGlite Embeddable WASM Postgres for Browser and Node.js](../../skills/pglite-embeddable-wasm-postgres/) | 15k | — |
+| [PGlite Embeddable WASM Postgres for Browser and Node.js](../../skills/pglite-embeddable-wasm-postgres/) | 15k | 8.4M/wk |
 | [REST API Response Schema Validator](../../skills/rest-api-response-schema-validator/) | 14.7k | 291.1M/wk |
 | [Scalar OpenAPI Reference and API Client Platform](../../skills/scalar-openapi-reference-api-client-platform/) | 14.6k | — |
 | [Effect TypeScript Standard Library for Production Applications](../../skills/effect-typescript-standard-library-production/) | 13.8k | 15.4M/wk |
@@ -92,7 +92,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Postman Collection Runner](../../skills/postman-collection-runner/) | 7.2k | 786.9k/wk |
 | [Doxygen Cross-Reference Indexer](../../skills/doxygen-cross-reference-indexer/) | 6.4k | — |
 | [OpenAPI Spec Validator & Mock Server](../../skills/openapi-spec-validator-mock-server-2/) | 4.9k | — |
-| [Protobuf & gRPC Stub Generator](../../skills/protobuf-grpc-stub-generator/) | 4.8k | — |
+| [Protobuf & gRPC Stub Generator](../../skills/protobuf-grpc-stub-generator/) | 4.8k | 106.8k/wk |
 | [gRPC Service Tool](../../skills/grpc-service-tool/) | 4.8k | 147.4M/wk |
 | [Stripe API Reference Navigator](../../skills/stripe-api-reference-navigator/) | 4.4k | 9.3M/wk |
 | [Run contract tests from API descriptions against live endpoints before integrations break with Dredd](../../skills/run-contract-tests-from-api-descriptions-against-live-endpoints-before-integrations-break-with-dredd/) | 4.2k | 53.9k/wk |

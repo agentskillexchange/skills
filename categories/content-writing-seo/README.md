@@ -24,6 +24,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | Skill | Downloads |
 |---|---:|
 | [Tiptap Headless Rich Text Editor Framework for Web Applications](../../skills/tiptap-headless-rich-text-editor-framework/) | ⬇ 45.6k/wk |
+| [VitePress Documentation Site Generator](../../skills/vitepress-documentation-site-generator/) | ⬇ 506.5k/wk |
 | [Markdoc Markdown-Based Authoring Framework by Stripe](../../skills/markdoc-markdown-authoring-framework-stripe/) | ⬇ 319k/wk |
 | [alex Inclusive Writing Linter](../../skills/alex-inclusive-writing-linter/) | ⬇ 30.6k/wk |
 | [write-good English Prose Linting for Technical Content](../../skills/write-good-english-prose-linting-technical-content/) | ⬇ 49.5k/wk |
@@ -32,7 +33,6 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Split Markdown front matter and body before docs migrations, metadata audits, or static-site transforms](../../skills/split-markdown-front-matter-and-body-before-docs-migrations-metadata-audits-or-static-site-transforms/) | ⬇ 26.3M/wk |
 | [Marp CLI Markdown Presentation Converter and Slide Deck Generator](../../skills/marp-cli-markdown-presentation-converter/) | ⬇ 39.7k/wk |
 | [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | ⬇ 102.9k/wk |
-| [Normalize article metadata from URLs before generating link previews or content briefs](../../skills/normalize-article-metadata-from-urls-before-generating-link-previews-or-content-briefs/) | ⬇ 416k/wk |
 
 ---
 
@@ -46,7 +46,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Diagnose Site SEO Issues with a Structured Audit](../../skills/diagnose-site-seo-issues-with-a-structured-audit/) | 21.9k | — |
 | [Plan Programmatic SEO Pages at Scale](../../skills/plan-programmatic-seo-pages-at-scale/) | 21.9k | — |
 | [WordPress Content Optimizer](../../skills/wordpress-content-optimizer-yoast-rest/) | 21k | — |
-| [VitePress Documentation Site Generator](../../skills/vitepress-documentation-site-generator/) | 17.5k | — |
+| [VitePress Documentation Site Generator](../../skills/vitepress-documentation-site-generator/) | 17.5k | 506.5k/wk |
 | [Zola Fast Static Site Generator in a Single Binary](../../skills/zola-static-site-generator/) | 16.8k | — |
 | [Markdown-to-AMP Article Converter](../../skills/markdown-to-amp-article-converter/) | 14.9k | — |
 | [LanguageTool Grammar and Style Checker](../../skills/languagetool-grammar-style-checker/) | 14.2k | — |

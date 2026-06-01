@@ -26,13 +26,13 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [n8n Workflow Webhook Bridge](../../skills/n8n-workflow-webhook-bridge/) | ⬇ 73.1k/wk |
 | [NocoDB Self-Hosted No-Code Database Platform with REST API](../../skills/nocodb-self-hosted-no-code-database-rest-api/) | ⬇ 682/wk |
 | [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | ⬇ 6.2k/wk |
+| [Medusa Commerce API and Store Operations Automation Skill](../../skills/medusa-commerce-api-store-operations-automation-skill/) | ⬇ 117.8k/wk |
 | [Build n8n workflows from node docs, templates, and schemas through MCP](../../skills/build-n8n-workflows-from-node-docs-templates-and-schemas-through-mcp/) | ⬇ 485k/wk |
 | [Generate reusable site adapters from live browser behavior with OpenCLI](../../skills/generate-reusable-site-adapters-from-live-browser-behavior-with-opencli/) | ⬇ 10.6k/wk |
 | [Give coding agents Figma layout context through MCP](../../skills/give-coding-agents-figma-layout-context-through-mcp/) | ⬇ 257.9k/wk |
 | [Pipedream API Workflow Automation Platform](../../skills/pipedream-api-workflow-automation-platform/) | ⬇ 9/wk |
 | [Build and inspect MCP apps and servers with mcp-use](../../skills/build-and-inspect-mcp-apps-and-servers-with-mcp-use/) | ⬇ 138.6k/wk |
 | [Nango Integration Platform SDK](../../skills/nango-integration-platform-sdk/) | ⬇ 17.7k/wk |
-| [Nango Open Source API Integration Platform](../../skills/nango-open-source-api-integration-platform/) | ⬇ 15.6k/wk |
 
 ---
 
@@ -51,7 +51,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Kong Gateway API AI and MCP Traffic Control](../../skills/kong-gateway-api-ai-mcp-traffic-control/) | 43.2k | — |
 | [LiteLLM Unified LLM Gateway and Proxy Server](../../skills/litellm-unified-llm-gateway-proxy/) | 41.8k | — |
 | [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | 38.7k | 6.2k/wk |
-| [Medusa Commerce API and Store Operations Automation Skill](../../skills/medusa-commerce-api-store-operations-automation-skill/) | 32.6k | — |
+| [Medusa Commerce API and Store Operations Automation Skill](../../skills/medusa-commerce-api-store-operations-automation-skill/) | 32.6k | 117.8k/wk |
 | [Wrap ordinary CLIs so agents can invoke them through a normalized agent-native interface with CLI-Anything](../../skills/wrap-ordinary-clis-so-agents-can-invoke-them-through-a-normalized-agent-native-interface-with-cli-anything/) | 31.2k | — |
 | [ntfy Self-Hosted Push Notification Server](../../skills/ntfy-self-hosted-push-notification-server/) | 29.5k | — |
 | [Chatwoot Open Source Customer Engagement and Omnichannel Support Platform](../../skills/chatwoot-open-source-customer-engagement-omnichannel-support/) | 28.5k | — |
@@ -152,7 +152,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Retrieve Zillow-style property details and market trends through an MCP server](../../skills/retrieve-zillow-style-property-details-and-market-trends-through-an-mcp-server/) | 40 | — |
 | [Inspect Freshservice service-management tickets and modules through MCP](../../skills/inspect-freshservice-service-management-tickets-and-modules-through-mcp/) | 31 | — |
 | [Connect MCP agents to BatchData property and address APIs](../../skills/connect-mcp-agents-to-batchdata-property-and-address-apis/) | 30 | — |
-| [Sync agent rules and skill files across coding assistants with AI Rules Sync](../../skills/sync-agent-rules-and-skill-files-across-coding-assistants-with-ai-rules-sync/) | 25 | — |
+| [Sync agent rules and skill files across coding assistants with AI Rules Sync](../../skills/sync-agent-rules-and-skill-files-across-coding-assistants-with-ai-rules-sync/) | 25 | 1.1k/wk |
 | [Run Shopify Admin product order customer and inventory workflows through MCP](../../skills/run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp/) | 15 | — |
 | [Mirror and back up OpenClaw workspaces to your own storage with openclaw-workspace-sync](../../skills/mirror-and-back-up-openclaw-workspaces-to-your-own-storage-with-openclaw-workspace-sync/) | 8 | 295/wk |
 | [Mirror OpenClaw workspaces and stream encrypted backups with openclaw-workspace-sync](../../skills/mirror-openclaw-workspaces-and-stream-encrypted-backups-with-openclaw-workspace-sync/) | 8 | 295/wk |

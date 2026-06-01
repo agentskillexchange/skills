@@ -123,7 +123,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Route Claude Code requests across models and providers with Claude Code Router](../../skills/route-claude-code-requests-across-models-and-providers-with-claude-code-router/) | 33.9k | 211k/wk |
 | [Wails Desktop Application Framework for Go and Web Technologies](../../skills/wails-desktop-app-framework-go-web/) | 33.6k | — |
 | [Drizzle ORM TypeScript SQL Database Toolkit](../../skills/drizzle-orm-typescript-sql-database-toolkit/) | 33.6k | 7M/wk |
-| [SWC Speedy Web Compiler for JavaScript and TypeScript](../../skills/swc-speedy-web-compiler-javascript-typescript/) | 33.3k | — |
+| [SWC Speedy Web Compiler for JavaScript and TypeScript](../../skills/swc-speedy-web-compiler-javascript-typescript/) | 33.3k | 3/wk |
 | [Tabby Self-Hosted AI Coding Assistant and Copilot Alternative](../../skills/tabby-self-hosted-ai-coding-assistant/) | 33.3k | — |
 | [K9s Kubernetes Terminal Dashboard](../../skills/k9s-kubernetes-terminal-dashboard/) | 33.2k | — |
 | [Restic Fast Encrypted Backup Program](../../skills/restic-encrypted-backup-tool/) | 32.9k | — |
@@ -187,7 +187,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [chezmoi Cross-Machine Dotfiles Manager](../../skills/chezmoi-dotfiles-manager/) | 18.9k | — |
 | [Hurl Declarative HTTP Request Runner and Tester](../../skills/hurl-declarative-http-request-runner-tester/) | 18.7k | — |
 | [LangChain MCP Server](../../skills/langchain-mcp-server/) | 17.7k | 2M/wk |
-| [Verdaccio Lightweight Private npm Proxy Registry](../../skills/verdaccio-private-npm-proxy-registry/) | 17.6k | — |
+| [Verdaccio Lightweight Private npm Proxy Registry](../../skills/verdaccio-private-npm-proxy-registry/) | 17.6k | 718.8k/wk |
 | [sqlc Type-Safe SQL Code Generator](../../skills/sqlc-type-safe-sql-code-generator/) | 17.3k | — |
 | [Give coding agents persistent project memory with AgentMemory](../../skills/give-coding-agents-persistent-project-memory-with-agentmemory/) | 17.2k | 40.7k/wk |
 | [navi Interactive CLI Cheatsheet Tool](../../skills/navi-interactive-cli-cheatsheet-tool/) | 16.9k | — |
@@ -239,7 +239,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [usql Universal Command-Line SQL Client for Multiple Databases](../../skills/usql-universal-sql-client/) | 9.9k | — |
 | [Run asynchronous coding-agent workflows with Open SWE](../../skills/run-asynchronous-coding-agent-workflows-with-open-swe/) | 9.8k | — |
 | [AIChat All-in-One LLM CLI with Shell Assistant and RAG](../../skills/aichat-llm-cli-shell-assistant-rag/) | 9.8k | — |
-| [WXT Next-Generation Web Extension Framework for Browser Extensions](../../skills/wxt-next-gen-web-extension-framework/) | 9.5k | — |
+| [WXT Next-Generation Web Extension Framework for Browser Extensions](../../skills/wxt-next-gen-web-extension-framework/) | 9.5k | 481.4k/wk |
 | [Inspect and debug MCP servers visually before connecting them to agents](../../skills/inspect-and-debug-mcp-servers-visually-before-connecting-them-to-agents/) | 9.4k | 635.2k/wk |
 | [Search large codebases semantically from MCP-compatible coding agents with Claude Context](../../skills/search-large-codebases-semantically-from-mcp-compatible-coding-agents-with-claude-context/) | 9.2k | 2.4k/wk |
 | [BullMQ Redis-Based Message Queue and Job Processor for Node.js](../../skills/bullmq-redis-message-queue-job-processor-nodejs/) | 8.7k | 5.7M/wk |

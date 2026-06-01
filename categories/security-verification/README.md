@@ -29,10 +29,10 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Discord Moderation Bot with AI Classification](../../skills/discord-moderation-ai-classification/) | ⬇ 563.5k/wk |
 | [Sanitize untrusted HTML fragments before rendering previews, comments, or CMS content with DOMPurify](../../skills/sanitize-untrusted-html-fragments-before-rendering-previews-comments-or-cms-content-dompurify/) | ⬇ 165.2M/wk |
 | [Route risky coding-agent work through human approval checkpoints with HumanLayer](../../skills/route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer/) | ⬇ 694/wk |
+| [Magika AI File Type Detection and Content Classification](../../skills/magika-ai-file-type-detection-and-content-classification/) | ⬇ 4.6k/wk |
 | [Dependency Vulnerability Scanner](../../skills/dependency-vulnerability-scanner-agent/) | ⬇ 2.6M/wk |
 | [NPM Package Supply Chain Auditor](../../skills/npm-package-supply-chain-auditor/) | ⬇ 2.6M/wk |
 | [Snyk Container Image Analyzer](../../skills/snyk-container-image-analyzer/) | ⬇ 2.6M/wk |
-| [Snyk Container Vulnerability Agent](../../skills/snyk-container-vulnerability-agent/) | ⬇ 2.6M/wk |
 
 ---
 
@@ -107,7 +107,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Skopeo Container Image Registry Operations CLI](../../skills/skopeo-container-image-registry-operations-cli/) | 10.7k | — |
 | [Route risky coding-agent work through human approval checkpoints with HumanLayer](../../skills/route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer/) | 10.7k | 694/wk |
 | [Give MCP agents disposable code execution sandboxes with OpenSandbox MCP](../../skills/give-mcp-agents-disposable-code-execution-sandboxes-with-opensandbox-mcp/) | 10.2k | — |
-| [Magika AI File Type Detection and Content Classification](../../skills/magika-ai-file-type-detection-and-content-classification/) | 10.2k | — |
+| [Magika AI File Type Detection and Content Classification](../../skills/magika-ai-file-type-detection-and-content-classification/) | 10.2k | 4.6k/wk |
 | [httpx Fast Multi-Purpose HTTP Probing Toolkit by ProjectDiscovery](../../skills/httpx-http-probing-toolkit-projectdiscovery/) | 9.8k | — |
 | [Seal Kubernetes Secrets into Git-safe manifests with kubeseal](../../skills/seal-kubernetes-secrets-into-git-safe-manifests-with-kubeseal/) | 9k | — |
 | [Probe public TLS endpoints for protocol, cipher, and certificate weaknesses before rollout with testssl.sh](../../skills/probe-public-tls-endpoints-for-protocol-cipher-and-certificate-weaknesses-before-rollout-with-testssl-sh/) | 9k | — |
@@ -147,7 +147,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Score open source repositories for supply-chain risk signals before adoption or release decisions with Scorecard](../../skills/score-open-source-repositories-for-supply-chain-risk-signals-before-adoption-or-release-decisions-with-scorecard/) | 5.4k | — |
 | [dotenvx Secure Environment Variable Manager and Encryptor](../../skills/dotenvx-secure-env-variable-manager/) | 5.3k | 6.7M/wk |
 | [Probe ML and LLM systems for regressions and vulnerabilities with Giskard](../../skills/probe-ml-and-llm-systems-for-regressions-and-vulnerabilities-with-giskard/) | 5.3k | — |
-| [Unkey Open Source API Key Management and Rate Limiting Platform](../../skills/unkey-api-key-management-rate-limiting/) | 5.2k | — |
+| [Unkey Open Source API Key Management and Rate Limiting Platform](../../skills/unkey-api-key-management-rate-limiting/) | 5.2k | 32/wk |
 | [Terrascan Policy Scanner](../../skills/terrascan-policy-scanner/) | 5.2k | — |
 | [Horcrux Shamir Secret Sharing File Encryption and Splitting Tool](../../skills/horcrux-shamir-secret-file-splitter/) | 5k | — |
 | [Probe Kubernetes clusters for exposed attack paths with kube-hunter](../../skills/probe-kubernetes-clusters-for-exposed-attack-paths-with-kube-hunter/) | 5k | — |
@@ -241,7 +241,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Investigate CrowdStrike Falcon alerts and telemetry through falcon-mcp](../../skills/investigate-crowdstrike-falcon-alerts-and-telemetry-through-falcon-mcp/) | 136 | — |
 | [Scan repositories for Shai-Hulud 2.0 supply-chain indicators with the detector action](../../skills/scan-repositories-for-shai-hulud-2-0-supply-chain-indicators-with-the-detector-action/) | 124 | — |
 | [Heisenberg Supply Chain Health Checker](../../skills/heisenberg-supply-chain-health-checker/) | 123 | — |
-| [Review risky coding-agent sessions with local action logs using Gryph](../../skills/review-risky-coding-agent-sessions-with-local-action-logs-using-gryph/) | 105 | — |
+| [Review risky coding-agent sessions with local action logs using Gryph](../../skills/review-risky-coding-agent-sessions-with-local-action-logs-using-gryph/) | 105 | 55/wk |
 | [Restrict outbound domains for GitHub Agentic Workflows before repository agents can browse freely with gh-aw-firewall](../../skills/restrict-outbound-domains-for-github-agentic-workflows-before-repository-agents-can-browse-freely-with-gh-aw-firewall/) | 55 | — |
 | [Preflight agent specs for prompt-injection risk across prompt, tool, and architecture layers with Prompt Hardener](../../skills/preflight-agent-specs-for-prompt-injection-risk-across-prompt-tool-and-architecture-layers-with-prompt-hardener/) | 50 | — |
 | [HashiCorp Vault MCP Server](../../skills/hashicorp-vault-mcp-server/) | 49 | — |
@@ -252,8 +252,8 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Triage pull request security risks with staged threat modeling and investigation using VulnVibes](../../skills/triage-pull-request-security-risks-with-staged-threat-modeling-and-investigation-using-vulnvibes/) | 17 | — |
 | [Gate risky agent actions behind approval checkpoints with Latch](../../skills/gate-risky-agent-actions-behind-approval-checkpoints-with-latch/) | 8 | — |
 | [Probe AI agents for dangerous tool chains and execution side effects with ZIRAN](../../skills/probe-ai-agents-for-dangerous-tool-chains-and-execution-side-effects-with-ziran/) | 6 | — |
+| [Emit policy receipts for hard-rule agent skills with Pluribus](../../skills/emit-policy-receipts-for-hard-rule-agent-skills-with-pluribus/) | 2 | 1.3k/wk |
 | [Block destructive Terraform, database, Kubernetes, cloud, and Git commands before Claude Code can execute them with Agent Guardrails](../../skills/block-destructive-terraform-database-kubernetes-cloud-and-git-commands-before-claude-code-can-execute-them-with-agent-guardrails/) | 2 | — |
-| [Emit policy receipts for hard-rule agent skills with Pluribus](../../skills/emit-policy-receipts-for-hard-rule-agent-skills-with-pluribus/) | 2 | — |
 | [Audit and normalize SPDX license headers before releasing or open-sourcing a repository](../../skills/audit-and-normalize-spdx-license-headers-before-releasing-or-open-sourcing-a-repository/) | — | — |
 | [CloudTrail Anomaly Detection Agent](../../skills/cloudtrail-anomaly-detection-agent/) | — | — |
 | [DocuSign Contract Auto-Sender with Conditional Logic](../../skills/docusign-contract-auto-sender/) | — | — |

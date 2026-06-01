@@ -69,9 +69,9 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WooCommerce Webhook Orchestrator](../../skills/woocommerce-webhook-orchestrator/) | 10.3k | — |
 | [WooCommerce REST Inventory Sync](../../skills/woocommerce-rest-inventory-sync/) | 10.2k | — |
 | [WooCommerce Webhook Delivery Inspector](../../skills/woocommerce-webhook-delivery-inspector/) | 10.2k | — |
-| [KeystoneJS Headless CMS with GraphQL API and React Admin UI](../../skills/keystonejs-headless-cms-graphql-react-admin/) | 9.9k | — |
+| [KeystoneJS Headless CMS with GraphQL API and React Admin UI](../../skills/keystonejs-headless-cms-graphql-react-admin/) | 9.9k | 675/wk |
 | [WPScan WordPress Security Vulnerability Scanner](../../skills/wpscan-wordpress-security-vulnerability-scanner/) | 9.5k | — |
-| [EmDash Full-Stack TypeScript CMS by Cloudflare](../../skills/emdash-full-stack-typescript-cms-cloudflare/) | 9.2k | — |
+| [EmDash Full-Stack TypeScript CMS by Cloudflare](../../skills/emdash-full-stack-typescript-cms-cloudflare/) | 9.2k | 11.7k/wk |
 | [Bedrock Modern WordPress Project Boilerplate by Roots](../../skills/bedrock-wordpress-composer-boilerplate-roots/) | 6.5k | — |
 | [Sanity Structured Content Studio and Content Lake](../../skills/sanity-structured-content-studio-content-lake/) | 6k | 413.2k/wk |
 | [WP-CLI Bulk Content Migrator](../../skills/wp-cli-bulk-content-migrator/) | 5.1k | — |

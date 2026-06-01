@@ -30,9 +30,9 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Sharp Image Pipeline Skill](../../skills/sharp-image-pipeline-skill/) | ⬇ 52.5M/wk |
 | [Sharp Image Transform Pipeline](../../skills/sharp-image-transform-pipeline/) | ⬇ 52.5M/wk |
 | [Lottie Animation Optimizer](../../skills/lottie-animation-optimizer/) | ⬇ 4.8M/wk |
+| [SVG Animation Builder](../../skills/svg-animation-builder/) | ⬇ 2.8M/wk |
 | [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | ⬇ 28.7M/wk |
 | [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | ⬇ 898k/wk |
-| [Konva.js HTML5 Canvas Interactive Graphics Framework](../../skills/konva-js-html5-canvas-interactive-graphics-framework/) | ⬇ 1.2M/wk |
 
 ---
 
@@ -69,7 +69,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Stable Diffusion XL LoRA Trainer](../../skills/stable-diffusion-xl-lora-trainer/) | 27.1k | — |
 | [Stable Diffusion XL Pipeline](../../skills/stable-diffusion-xl-pipeline/) | 27.1k | — |
 | [Stable Diffusion XL Pipeline Builder](../../skills/stable-diffusion-xl-pipeline-builder/) | 27.1k | — |
-| [SVG Animation Builder](../../skills/svg-animation-builder/) | 24.6k | — |
+| [SVG Animation Builder](../../skills/svg-animation-builder/) | 24.6k | 2.8M/wk |
 | [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | 22.4k | 28.7M/wk |
 | [rembg AI Background Removal CLI and Python Library](../../skills/rembg-ai-background-removal-cli/) | 22.4k | — |
 | [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | 17k | 898k/wk |

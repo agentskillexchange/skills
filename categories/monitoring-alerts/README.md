@@ -23,6 +23,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 
 | Skill | Downloads |
 |---|---:|
+| [Uptime Kuma Status Sync](../../skills/uptime-kuma-status-sync/) | ⬇ 89/wk |
 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](../../skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | ⬇ 97/wk |
 | [PM2 Node.js Production Process Manager with Load Balancing](../../skills/pm2-nodejs-production-process-manager/) | ⬇ 3M/wk |
 | [Umami Privacy-Focused Web Analytics Platform](../../skills/umami-privacy-focused-web-analytics/) | ⬇ 638/wk |
@@ -32,7 +33,6 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | ⬇ 3.3k/wk |
 | [Simulate agent scenarios, trace failures, and watch production regressions with LangWatch](../../skills/simulate-agent-scenarios-trace-failures-and-watch-production-regressions-with-langwatch/) | ⬇ 54.7k/wk |
 | [Track coding-agent token spend and leaderboard drift across local session logs with Tokscale](../../skills/track-coding-agent-token-spend-and-leaderboard-drift-with-tokscale/) | ⬇ 64.6k/wk |
-| [Trace, evaluate, simulate, and guardrail agent releases with Future AGI](../../skills/trace-evaluate-simulate-and-guardrail-agent-releases-with-future-agi/) | ⬇ 1.9k/wk |
 
 ---
 
@@ -42,7 +42,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 |---|---:|---:|
 | [Kubernetes Troubleshooting Runbook](../../skills/k8s-troubleshooting-runbook/) | 122.6k | — |
 | [Kubernetes Event Stream Analyzer](../../skills/kubernetes-event-stream-analyzer/) | 121.7k | — |
-| [Uptime Kuma Status Sync](../../skills/uptime-kuma-status-sync/) | 85.6k | — |
+| [Uptime Kuma Status Sync](../../skills/uptime-kuma-status-sync/) | 85.6k | 89/wk |
 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](../../skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | 85.1k | 97/wk |
 | [Netdata Real-Time Infrastructure Monitoring and Alerting](../../skills/netdata-real-time-infrastructure-monitoring-and-alerting/) | 78.4k | — |
 | [Elastic / Kibana MCP Server](../../skills/elastic-kibana-mcp-server/) | 76.8k | — |
