@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-05-31
+# Generated: 2026-06-01
 # Total: 2536 skills
 
 ## Run production multi-agent workflows with Hive
