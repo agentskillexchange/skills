@@ -173,7 +173,6 @@
       "framework": "Multi-Framework",
       "verification": "listed",
       "signals": {
-        "github_stars": 2,
         "npm_weekly_downloads": 1321
       }
     },
@@ -2023,10 +2022,7 @@
       "description": "Attach judges to LaunchDarkly AI Config variations, create custom judges, set sampling rates, and interpret production quality signals from online evaluations.",
       "category": "Monitoring & Alerts",
       "framework": "Custom Agents",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 6
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "implement-review-and-optimize-swiftui-code-with-trace-backed-diagnostics",
@@ -2037,7 +2033,6 @@
       "framework": "Custom Agents",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 2661,
         "license": "MIT"
       }
     },
@@ -2050,7 +2045,6 @@
       "framework": "Claude Code",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 1,
         "license": "MIT"
       }
     },
@@ -2063,7 +2057,6 @@
       "framework": "Claude Code",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 1,
         "license": "MIT"
       }
     },
@@ -2074,10 +2067,7 @@
       "description": "Inspect a LaunchDarkly flag’s current state, choose the right targeting approach, apply rollout or rule changes through the LaunchDarkly MCP server, and verify the…",
       "category": "Developer Tools",
       "framework": "MCP",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 6
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "build-and-sync-n8n-workflows-from-code-with-n8n-as-code",
@@ -2099,10 +2089,7 @@
       "description": "Pull relevant Notion context, tailor an agenda to attendees and decisions, and assemble a structured pre-read for an upcoming meeting.",
       "category": "Calendar, Email & Productivity",
       "framework": "Codex",
-      "verification": "listed",
-      "signals": {
-        "github_stars": 17293
-      }
+      "verification": "listed"
     },
     {
       "slug": "address-github-pr-review-comments-from-the-current-branch-with-gh-address-comments",
@@ -2111,10 +2098,7 @@
       "description": "Find the open PR for the current branch, gather unresolved review comments, and drive a focused comment-resolution workflow with gh-authenticated context.",
       "category": "Code Quality & Review",
       "framework": "Codex",
-      "verification": "listed",
-      "signals": {
-        "github_stars": 17293
-      }
+      "verification": "listed"
     },
     {
       "slug": "turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation",
@@ -2123,10 +2107,7 @@
       "description": "Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown, and progress-tracking structure.",
       "category": "Templates & Workflows",
       "framework": "Codex",
-      "verification": "listed",
-      "signals": {
-        "github_stars": 17293
-      }
+      "verification": "listed"
     },
     {
       "slug": "inspect-failing-github-actions-checks-and-plan-fixes-with-gh-fix-ci",
@@ -2135,10 +2116,7 @@
       "description": "Inspect failing GitHub Actions checks on the current PR, pull the actionable log snippet, and stop at an approval gate before implementing a fix.",
       "category": "CI/CD Integrations",
       "framework": "Codex",
-      "verification": "listed",
-      "signals": {
-        "github_stars": 17293
-      }
+      "verification": "listed"
     },
     {
       "slug": "investigate-production-issues-from-slack-with-runbooks-and-monitoring-mcps-using-diy-ai-debugging-agent-toolkit",
@@ -2292,10 +2270,7 @@
       "description": "Use tunnel-doctor in Claude Code when Tailscale partially works but SSH, browser, git, or Docker paths fail because proxy, route, or double-tunneling conflicts need…",
       "category": "Runbooks & Diagnostics",
       "framework": "Claude Code",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 910
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "run-academic-writing-analysis-and-replication-workflows-with-quality-gates-in-claude-code-my-workflow",
@@ -2343,7 +2318,6 @@
       "framework": "Claude Code",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 116829,
         "npm_weekly_downloads": 49934290
       }
     },
@@ -2356,7 +2330,6 @@
       "framework": "Claude Code",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 116829,
         "npm_weekly_downloads": 49934290
       }
     },
@@ -2634,10 +2607,7 @@
       "description": "Turn commits since the last tag into concise App Store What's New bullets instead of hand-sifting raw git history.",
       "category": "Templates & Workflows",
       "framework": "Codex",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 3354
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "test-documentation-sites-across-mobile-tablet-and-desktop-with-github-agentic-workflows",
@@ -2646,10 +2616,7 @@
       "description": "Run a repeatable docs-site check that builds locally, opens the site across device sizes, and reports layout, accessibility, and interaction issues.",
       "category": "Templates & Workflows",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 4338
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "run-context-spec-and-implement-coding-loops-in-claude-code-with-conductor",
@@ -2658,10 +2625,7 @@
       "description": "Turn Claude Code into a structured project workflow that captures context, plans work, and executes implementation in reviewable tracks.",
       "category": "Templates & Workflows",
       "framework": "Claude Code",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 34018
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "block-unsafe-agent-actions-and-scan-newly-added-skills-with-agentguard",
@@ -2721,10 +2685,7 @@
       "description": "Build a repeatable text-to-audio workflow around Azure OpenAI Realtime streaming, PCM collection, WAV conversion, and frontend playback for podcast-style output.",
       "category": "Media & Transcription",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 2103
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "review-frontend-implementations-for-design-system-quality-accessibility-and-polish-with-frontend-design-review",
@@ -2733,10 +2694,7 @@
       "description": "Audit frontend work against design-system rules, accessibility expectations, responsive behavior, and visual craft before merge or release.",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 2103
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator",
@@ -2745,10 +2703,7 @@
       "description": "Convert messy bug notes, error logs, voice dictation, and screenshots into crisp GitHub issue reports with clear repro steps, impact, and evidence.",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 2103
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices",
@@ -2757,10 +2712,7 @@
       "description": "Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls using Supabase's own prioritized guidance.",
       "category": "Runbooks & Diagnostics",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 1977
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "provision-oauth-capable-microsoft-agent-identities-with-entra-agent-id",
@@ -2769,10 +2721,7 @@
       "description": "Create Microsoft Entra Agent Identity blueprints, principals, and agent identities with the right beta Graph permissions, sponsor rules, and sidecar-based auth patterns.",
       "category": "Security & Verification",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 2103
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "connect-claude-code-to-apple-apps-and-tmux-with-claude-apple-bridges",
@@ -3320,10 +3269,7 @@
       "description": "Run CodeShield on model-produced code or command suggestions before they reach a user, a repo, or an execution step, so insecure patterns get blocked…",
       "category": "Security & Verification",
       "framework": "Multi-Framework",
-      "verification": "listed",
-      "signals": {
-        "github_stars": 4126
-      }
+      "verification": "listed"
     },
     {
       "slug": "analyze-kubernetes-cluster-issues-through-mcp-with-k8sgpt",
@@ -4174,10 +4120,7 @@
       "description": "Create or improve welcome, nurture, onboarding, re-engagement, and other lifecycle sequences with a clear purpose for each email.",
       "category": "Calendar, Email & Productivity",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 21914
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "diagnose-site-seo-issues-with-a-structured-audit",
@@ -4186,10 +4129,7 @@
       "description": "Run a structured SEO audit that surfaces crawlability, technical, and on-page issues before you start guessing at why traffic or rankings slipped.",
       "category": "Content Writing & SEO",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 21914
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "plan-programmatic-seo-pages-at-scale",
@@ -4198,10 +4138,7 @@
       "description": "Design template and data driven SEO page programs that can scale without collapsing into thin, duplicate, or low-intent content.",
       "category": "Content Writing & SEO",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 21914
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "multi-axis-code-review-and-quality-gates",
@@ -4210,10 +4147,7 @@
       "description": "Run a structured pre-merge review across correctness, readability, architecture, security, and performance instead of relying on a shallow spot check.",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 17417
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "systematic-debugging-and-error-recovery",
@@ -4222,10 +4156,7 @@
       "description": "Stop guessing when something breaks, preserve evidence, reproduce the failure, isolate the cause, and verify the fix before resuming work.",
       "category": "Runbooks & Diagnostics",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 17417
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "use-an-escalating-scrape-strategy-in-claude-code-before-reaching-for-browser-automation",
@@ -7318,7 +7249,6 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 585,
         "license": "MIT"
       }
     },
@@ -7331,7 +7261,6 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 585,
         "license": "MIT"
       }
     },
@@ -7344,7 +7273,6 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 585,
         "license": "MIT"
       }
     },
@@ -7355,10 +7283,7 @@
       "description": "This entry turns WordPress/agent-skills' WP PHPStan guidance into a bounded agent workflow for plugin, theme, and site repositories. The agent inspects the existing PHPStan…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 1219
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "generate-markdown-tables-of-contents-before-publishing-docs-or-readme-updates",
@@ -7404,10 +7329,7 @@
       "description": "Use Anthropic's web-artifacts-builder skill to scaffold a React artifact project, build a richer interface with state or routing, and bundle everything into one shareable…",
       "category": "Templates & Workflows",
       "framework": "Claude Agents",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 116154
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "generate-slack-ready-animated-gifs-from-custom-frame-sequences",
@@ -7416,10 +7338,7 @@
       "description": "Use Anthropic's slack-gif-creator skill to build animated GIFs that stay inside Slack's practical size, duration, and dimension constraints. It gives an agent a bounded…",
       "category": "Image & Creative Automation",
       "framework": "Claude Agents",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 116154
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers",
@@ -7428,10 +7347,7 @@
       "description": "Use Anthropic's webapp-testing skill to spin up one or more local servers, wait for them to become reachable, and run native Playwright checks against…",
       "category": "Browser Automation",
       "framework": "Claude Agents",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 116154
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "generate-right-to-left-css-variants-from-ltr-stylesheets-before-multilingual-launches-rtlcss",
@@ -7938,7 +7854,6 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 585,
         "license": "MIT"
       }
     },
@@ -7951,7 +7866,6 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 585,
         "license": "MIT"
       }
     },
@@ -7962,10 +7876,7 @@
       "description": "Use Anthropic's doc-coauthoring skill to run a disciplined writing workflow instead of freeform drafting. The agent gathers missing context, iterates section by section, and…",
       "category": "Templates & Workflows",
       "framework": "Claude Agents",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 116918
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "generate-reproducible-algorithmic-art-sketches-with-seeded-p5js-randomness",
@@ -7974,10 +7885,7 @@
       "description": "Use the Anthropic algorithmic-art skill when an agent should turn a creative brief into executable generative art, not into a static image prompt or…",
       "category": "Image & Creative Automation",
       "framework": "Claude Agents",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 116918
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "create-and-repair-word-documents-with-layout-safe-docx-workflows",
@@ -7986,10 +7894,7 @@
       "description": "Use the Anthropic docx skill when an agent needs to produce or repair a real .docx deliverable with headings, tables, numbering, tracked changes, or…",
       "category": "Templates & Workflows",
       "framework": "Claude Agents",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 116918
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas",
@@ -7998,10 +7903,7 @@
       "description": "Use the Anthropic xlsx skill when an agent needs to create, clean up, or modify .xlsx, .xlsm, .csv, or .tsv files as spreadsheet deliverables,…",
       "category": "Data Extraction & Transformation",
       "framework": "Claude Agents",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 116918
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6",
@@ -8148,7 +8050,6 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 8694,
         "npm_weekly_downloads": 1113
       }
     },
@@ -8161,7 +8062,6 @@
       "framework": "Multi-Framework",
       "verification": "listed",
       "signals": {
-        "github_stars": 4412,
         "npm_weekly_downloads": 2868
       }
     },
@@ -8172,10 +8072,7 @@
       "description": "Use Anthropic's internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs, leadership notes, and incident writeups. The skill is…",
       "category": "Templates & Workflows",
       "framework": "Claude Agents",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 116155
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "investigate-failing-github-actions-runs-with-ci-doctor-2",
@@ -8184,10 +8081,7 @@
       "description": "Use GitHub Next's CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and open investigation issues with concrete next…",
       "category": "CI/CD Integrations",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 581
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "draft-internal-status-updates-and-incident-comms",
@@ -8196,10 +8090,7 @@
       "description": "Use Anthropic's internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs, leadership notes, and incident writeups. The skill is…",
       "category": "Templates & Workflows",
       "framework": "Claude Agents",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 116155
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "investigate-failing-github-actions-runs-with-ci-doctor",
@@ -8208,10 +8099,7 @@
       "description": "Use GitHub Next's CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and open investigation issues with concrete next…",
       "category": "CI/CD Integrations",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 581
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "turn-github-issues-into-fix-prs",
@@ -8222,7 +8110,6 @@
       "framework": "OpenClaw",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 356821,
         "npm_weekly_downloads": 837156,
         "license": "MIT"
       }
@@ -8372,10 +8259,7 @@
       "description": "Uses the WordPress wp-wpcli-and-ops skill to guide an agent through environment-aware WP-CLI work like search-replace, plugin or theme operations, cron inspection, and multisite-safe targeting.…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 1219
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "build-and-debug-custom-wordpress-rest-api-endpoints-with-schema-and-permission-guardrails",
@@ -8384,10 +8268,7 @@
       "description": "Uses the WordPress wp-rest-api skill to help an agent design, register, validate, and troubleshoot custom REST routes without skipping schema, auth, or permission_callback details.…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 1219
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "develop-and-harden-wordpress-plugins-with-lifecycle-and-security-guardrails",
@@ -8396,10 +8277,7 @@
       "description": "Use Automattic's official wp-plugin-development skill when an agent needs to build, refactor, secure, or package a WordPress plugin with correct activation hooks, settings handling,…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 196
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "improve-qdrant-vector-search-relevance-and-retrieval-quality",
@@ -8408,10 +8286,7 @@
       "description": "Use Qdrant's official qdrant-search-quality skill when an agent needs to diagnose weak recall, irrelevant matches, or embedding and chunking mistakes in a live retrieval…",
       "category": "Runbooks & Diagnostics",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 65
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "build-scroll-linked-animations-with-gsap-scrolltrigger",
@@ -8420,10 +8295,7 @@
       "description": "Use Greensock's official gsap-scrolltrigger skill to plan, implement, and debug scroll-linked animations, pinned sections, and scrubbed storytelling without guessing at plugin setup. The agent…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 2341
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "regression-test-prompts-agents-and-rag-outputs-before-shipping-changes",
@@ -8470,10 +8342,7 @@
       "description": "This skill helps an agent create or troubleshoot WordPress Interactivity API behavior, from store wiring to server-rendered state and hydration checks. Use it when…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 1219
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "investigate-backend-only-wordpress-performance-bottlenecks",
@@ -8482,10 +8351,7 @@
       "description": "This skill guides an agent through measuring, profiling, and narrowing slow WordPress behavior without relying on browser clicks. Use it when the job is…",
       "category": "Runbooks & Diagnostics",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 1219
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "diagnose-wordpress-repo-structure-and-route-follow-up-work-safely",
@@ -8494,10 +8360,7 @@
       "description": "This skill inspects a WordPress codebase, identifies what kind of project it is, and returns the signals an agent needs before touching files or…",
       "category": "WordPress & CMS",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
-      "signals": {
-        "github_stars": 1219
-      }
+      "verification": "security_reviewed"
     },
     {
       "slug": "check-current-weather-and-short-forecasts-for-planning",
@@ -8508,7 +8371,6 @@
       "framework": "OpenClaw",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 356821,
         "npm_weekly_downloads": 837156,
         "license": "MIT"
       }
@@ -8522,7 +8384,6 @@
       "framework": "OpenClaw",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 356821,
         "npm_weekly_downloads": 837156,
         "license": "MIT"
       }
@@ -8536,7 +8397,6 @@
       "framework": "OpenClaw",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 356821,
         "npm_weekly_downloads": 837156,
         "license": "MIT"
       }
@@ -8550,7 +8410,6 @@
       "framework": "OpenClaw",
       "verification": "listed",
       "signals": {
-        "github_stars": 4086,
         "license": "MIT"
       }
     },
@@ -8563,7 +8422,6 @@
       "framework": "OpenClaw",
       "verification": "listed",
       "signals": {
-        "github_stars": 4086,
         "license": "MIT"
       }
     },
@@ -10033,7 +9891,6 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 7294,
         "npm_weekly_downloads": 835554
       }
     },
