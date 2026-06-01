@@ -2,8 +2,53 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-01",
-  "total": 2536,
+  "total": 2541,
   "skills": [
+    {
+      "slug": "use-pandasai-for-conversational-csv-and-spreadsheet-analysis",
+      "name": "Use PandasAI for conversational CSV and spreadsheet analysis",
+      "title": "Use PandasAI for conversational CSV and spreadsheet analysis",
+      "description": "Load tabular data with PandasAI and ask natural-language analysis questions while keeping generated transformations inspectable.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "use-omniparser-for-vision-based-gui-parsing",
+      "name": "Use OmniParser for vision-based GUI parsing",
+      "title": "Use OmniParser for vision-based GUI parsing",
+      "description": "Parse screenshots into structured UI elements so computer-use agents can reason about controls before acting.",
+      "category": "Browser Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "use-potpie-for-spec-driven-codebase-workflows",
+      "name": "Use Potpie for spec-driven codebase workflows",
+      "title": "Use Potpie for spec-driven codebase workflows",
+      "description": "Index a repository with Potpie, turn it into a code knowledge graph, and drive focused implementation or review tasks from specs.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "use-docsgpt-for-document-grounded-enterprise-assistants",
+      "name": "Use DocsGPT for document-grounded enterprise assistants",
+      "title": "Use DocsGPT for document-grounded enterprise assistants",
+      "description": "Deploy DocsGPT to build private assistants that ingest documents, web sources, and enterprise connectors with cited answers.",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "use-sim-for-orchestrated-ai-agent-workflow-runs",
+      "name": "Use Sim for orchestrated AI agent workflow runs",
+      "title": "Use Sim for orchestrated AI agent workflow runs",
+      "description": "Build and run repeatable AI agent workflows in Sim by composing agents, tools, triggers, and integrations on a visual canvas.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "run-production-multi-agent-workflows-with-hive",
       "name": "Run production multi-agent workflows with Hive",

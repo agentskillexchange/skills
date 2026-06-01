@@ -27,12 +27,12 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue](../../skills/triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue/) | ⬇ 49.9M/wk |
 | [Enforce local Git hook checks in JavaScript repos with Husky](../../skills/enforce-local-git-hook-checks-in-javascript-repos-with-husky/) | ⬇ 25.7M/wk |
 | [Swagger Codegen Orchestrator](../../skills/swagger-codegen-orchestrator/) | ⬇ 149.2k/wk |
+| [Use Sim for orchestrated AI agent workflow runs](../../skills/use-sim-for-orchestrated-ai-agent-workflow-runs/) | ⬇ 32/wk |
 | [Nx Workspace Generator Toolkit](../../skills/nx-workspace-generator-toolkit/) | ⬇ 29.5M/wk |
 | [Nx Workspace Generator](../../skills/nx-workspace-generator/) | ⬇ 8.9M/wk |
 | [Nx Monorepo Workflow Orchestrator](../../skills/nx-monorepo-workflow-orchestrator/) | ⬇ 8.9M/wk |
 | [Turn a PRD into a dependency-aware task graph and keep AI implementation work scoped with Task Master AI](../../skills/turn-a-prd-into-a-dependency-aware-task-graph-and-keep-ai-implementation-work-scoped-with-task-master-ai/) | ⬇ 113.6k/wk |
 | [GrapesJS Open Source Web Builder and Template Design Framework](../../skills/grapesjs-web-builder-template-framework/) | ⬇ 156.5k/wk |
-| [Pulumi Infrastructure Stack Templater](../../skills/pulumi-infrastructure-stack-templater/) | ⬇ 2.2M/wk |
 
 ---
 
@@ -80,6 +80,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Helm Chart Template Scaffolder](../../skills/helm-chart-template-scaffolder/) | 29.7k | — |
 | [Helm Chart Templater](../../skills/helm-chart-templater/) | 29.7k | — |
 | [Swagger Codegen Orchestrator](../../skills/swagger-codegen-orchestrator/) | 28.8k | 149.2k/wk |
+| [Use Sim for orchestrated AI agent workflow runs](../../skills/use-sim-for-orchestrated-ai-agent-workflow-runs/) | 28.7k | 32/wk |
 | [Nx Workspace Generator Toolkit](../../skills/nx-workspace-generator-toolkit/) | 28.6k | 29.5M/wk |
 | [Nx Workspace Generator](../../skills/nx-workspace-generator/) | 28.6k | 8.9M/wk |
 | [Nx Monorepo Workflow Orchestrator](../../skills/nx-monorepo-workflow-orchestrator/) | 28.5k | 8.9M/wk |

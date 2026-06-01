@@ -53,7 +53,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Puppeteer Web Scraping Pipeline](../../skills/puppeteer-web-scraping-pipeline/) | 94.1k | 40.2M/wk |
 | [Puppeteer Stealth Scraper](../../skills/puppeteer-stealth-scraper-agent/) | 94.1k | 36.4M/wk |
 | [Puppeteer Browser Automation Library for Chrome and Firefox](../../skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | 94k | 40.2M/wk |
-| [Agent Browser Operator](../../skills/agent-browser-operator/) | 89.9k | 53.7M/wk |
+| [Agent Browser Operator](../../skills/agent-browser-operator/) | 90k | 54.2M/wk |
 | [Browser Use Web Agent Automation](../../skills/browser-use-web-agent-automation/) | 87.7k | — |
 | [Browser Use Agentic Browser Control](../../skills/browser-use-agentic-browser-control/) | 87.3k | — |
 | [Playwright Accessibility Audit Runner](../../skills/playwright-accessibility-audit-runner/) | 86.4k | 47.9M/wk |
@@ -94,11 +94,12 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Selenium Grid Session Router](../../skills/selenium-grid-session-router/) | 34.1k | 1.9M/wk |
 | [Selenium Grid Test Orchestrator](../../skills/selenium-grid-test-orchestrator-2/) | 34.1k | 1.9M/wk |
 | [Selenium WebDriver Browser Automation Framework](../../skills/selenium-webdriver-browser-automation-framework/) | 34.1k | — |
-| [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | 33.2k | 4.7M/wk |
+| [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | 33.3k | 4.8M/wk |
 | [Microsoft Playwright MCP](../../skills/microsoft-playwright-mcp/) | 30.8k | 2.8M/wk |
 | [Playwright MCP Server for Browser Automation](../../skills/playwright-mcp-server-browser-automation/) | 30.1k | 2.4M/wk |
 | [Vercel Agent Browser](../../skills/vercel-agent-browser/) | 29.1k | 601.9k/wk |
 | [Lightpanda Headless Browser for AI Automation](../../skills/lightpanda-headless-browser-ai-automation/) | 26.5k | — |
+| [Use OmniParser for vision-based GUI parsing](../../skills/use-omniparser-for-vision-based-gui-parsing/) | 24.8k | — |
 | [Stagehand AI Browser Automation Framework](../../skills/stagehand-ai-browser-automation-framework-2/) | 22.1k | 3.4M/wk |
 | [Stagehand AI Browser Automation Framework by Browserbase](../../skills/stagehand-ai-browser-automation-framework-browserbase/) | 22.1k | 3.4M/wk |
 | [Stagehand Browser Agent SDK](../../skills/stagehand-browser-agent-sdk/) | 22.1k | 3.4M/wk |

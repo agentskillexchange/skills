@@ -1,7 +1,47 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-01
-# Total: 2536 skills
+# Total: 2541 skills
+
+## Use PandasAI for conversational CSV and spreadsheet analysis
+slug: use-pandasai-for-conversational-csv-and-spreadsheet-analysis
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Load tabular data with PandasAI and ask natural-language analysis questions while keeping generated transformations inspectable.
+url: https://agentskillexchange.com/skills/use-pandasai-for-conversational-csv-and-spreadsheet-analysis/
+
+## Use OmniParser for vision-based GUI parsing
+slug: use-omniparser-for-vision-based-gui-parsing
+category: Browser Automation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Parse screenshots into structured UI elements so computer-use agents can reason about controls before acting.
+url: https://agentskillexchange.com/skills/use-omniparser-for-vision-based-gui-parsing/
+
+## Use Potpie for spec-driven codebase workflows
+slug: use-potpie-for-spec-driven-codebase-workflows
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Index a repository with Potpie, turn it into a code knowledge graph, and drive focused implementation or review tasks from specs.
+url: https://agentskillexchange.com/skills/use-potpie-for-spec-driven-codebase-workflows/
+
+## Use DocsGPT for document-grounded enterprise assistants
+slug: use-docsgpt-for-document-grounded-enterprise-assistants
+category: Integrations & Connectors
+framework: Multi-Framework
+verification: Security Reviewed
+description: Deploy DocsGPT to build private assistants that ingest documents, web sources, and enterprise connectors with cited answers.
+url: https://agentskillexchange.com/skills/use-docsgpt-for-document-grounded-enterprise-assistants/
+
+## Use Sim for orchestrated AI agent workflow runs
+slug: use-sim-for-orchestrated-ai-agent-workflow-runs
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Build and run repeatable AI agent workflows in Sim by composing agents, tools, triggers, and integrations on a visual canvas.
+url: https://agentskillexchange.com/skills/use-sim-for-orchestrated-ai-agent-workflow-runs/
 
 ## Run production multi-agent workflows with Hive
 slug: run-production-multi-agent-workflows-with-hive

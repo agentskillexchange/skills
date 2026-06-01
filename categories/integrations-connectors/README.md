@@ -63,6 +63,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Airbyte Open Source Data Integration Platform](../../skills/airbyte-open-source-data-integration-platform/) | 21k | — |
 | [Build n8n workflows from node docs, templates, and schemas through MCP](../../skills/build-n8n-workflows-from-node-docs-templates-and-schemas-through-mcp/) | 18.1k | 485k/wk |
 | [LiveKit Real-Time Video Audio and Data Server with WebRTC](../../skills/livekit-realtime-webrtc-server/) | 18k | — |
+| [Use DocsGPT for document-grounded enterprise assistants](../../skills/use-docsgpt-for-document-grounded-enterprise-assistants/) | 17.9k | — |
 | [Generate reusable site adapters from live browser behavior with OpenCLI](../../skills/generate-reusable-site-adapters-from-live-browser-behavior-with-opencli/) | 16.3k | 10.6k/wk |
 | [Give coding agents Figma layout context through MCP](../../skills/give-coding-agents-figma-layout-context-through-mcp/) | 14.9k | 257.9k/wk |
 | [Expose approved database operations to MCP clients with MCP Toolbox before ad hoc SQL glue sprawls](../../skills/expose-approved-database-operations-to-mcp-clients-with-mcp-toolbox-before-ad-hoc-sql-glue-sprawls/) | 14.7k | — |
@@ -85,7 +86,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Inngest Event-Driven Durable Workflow Orchestration Platform](../../skills/inngest-event-driven-durable-workflow-orchestration/) | 5.2k | — |
 | [Firebase — Google Application Development Platform](../../skills/firebase-google-app-development-platform/) | 5.1k | — |
 | [Atlassian MCP Server for Jira and Confluence](../../skills/atlassian-mcp-server-jira-confluence/) | 4.8k | — |
-| [Stripe MCP Server](../../skills/stripe-mcp-server/) | 4.4k | 12M/wk |
+| [Stripe MCP Server](../../skills/stripe-mcp-server/) | 4.4k | 12.1M/wk |
 | [Stripe Connect Account Provisioner](../../skills/stripe-connect-account-provisioner/) | 4.4k | 9.3M/wk |
 | [Stripe Connect Integration](../../skills/stripe-connect-integration/) | 4.4k | 9.3M/wk |
 | [Stripe Connect Marketplace Sync](../../skills/stripe-connect-marketplace-sync/) | 4.4k | 9.3M/wk |
@@ -100,7 +101,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Cloudflare MCP Servers for Workers, Security, and Observability](../../skills/cloudflare-mcp-servers-workers-security-observability/) | 3.6k | — |
 | [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | 3.4k | — |
 | [Svix Enterprise Webhook Delivery Service](../../skills/svix-enterprise-webhook-delivery-service/) | 3.2k | — |
-| [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | 3.1k | 53.3k/wk |
+| [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | 3.1k | 51.5k/wk |
 | [SendGrid Transactional Email Builder](../../skills/sendgrid-transactional-email-builder/) | 3k | 3.6M/wk |
 | [SendGrid Transactional Email Router](../../skills/sendgrid-transactional-email-router/) | 3k | 3.6M/wk |
 | [n8n-nodes-mcp Community Node for Model Context Protocol Workflows](../../skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows/) | 3k | 45.9k/wk |
@@ -128,7 +129,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Build authenticated MCP tools and servers with Arcade MCP](../../skills/build-authenticated-mcp-tools-and-servers-with-arcade-mcp/) | 895 | — |
 | [Datadog Integration Connector](../../skills/datadog-integration-connector-agent/) | 791 | 6.6M/wk |
 | [Docker MCP Server for Container Lifecycle Management](../../skills/docker-mcp-server-container-lifecycle-management/) | 695 | — |
-| [Neon Serverless Postgres MCP](../../skills/neon-serverless-postgres-mcp/) | 605 | 15.5k/wk |
+| [Neon Serverless Postgres MCP](../../skills/neon-serverless-postgres-mcp/) | 606 | 15.5k/wk |
 | [Neon MCP Server for Serverless Postgres Management](../../skills/neon-mcp-server-serverless-postgres/) | 567 | 15.5k/wk |
 | [Chroma MCP Server for Embedding Database Operations](../../skills/chroma-mcp-server-embedding-database-operations/) | 527 | — |
 | [Zapier Webhooks by Zapier Router](../../skills/zapier-webhooks-by-zapier-router/) | 484 | — |

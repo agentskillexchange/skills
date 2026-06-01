@@ -8,8 +8,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 |---|---:|
 | [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | ⭐ 116.9k |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../../skills/markitdown-document-to-markdown-converter-microsoft/) | ⭐ 93.2k |
-| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | ⭐ 86.5k |
-| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | ⭐ 86.5k |
+| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | ⭐ 86.6k |
+| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | ⭐ 86.6k |
 | [Build document-grounded agent context workflows with RAGFlow](../../skills/build-document-grounded-agent-context-workflows-with-ragflow/) | ⭐ 79.8k |
 | [Use RAGFlow as a retrieval and context layer for agent workflows](../../skills/use-ragflow-as-a-retrieval-and-context-layer-for-agent-workflows/) | ⭐ 79.8k |
 | [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | ⭐ 76.5k |
@@ -42,8 +42,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 |---|---:|---:|
 | [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | 116.9k | — |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../../skills/markitdown-document-to-markdown-converter-microsoft/) | 93.2k | — |
-| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | 86.5k | 395.9k/wk |
-| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 86.5k | — |
+| [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | 86.6k | 395.9k/wk |
+| [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 86.6k | — |
 | [Build document-grounded agent context workflows with RAGFlow](../../skills/build-document-grounded-agent-context-workflows-with-ragflow/) | 79.8k | — |
 | [Use RAGFlow as a retrieval and context layer for agent workflows](../../skills/use-ragflow-as-a-retrieval-and-context-layer-for-agent-workflows/) | 79.8k | — |
 | [Elasticsearch MCP](../../skills/elasticsearch-mcp/) | 76.5k | — |
@@ -83,6 +83,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Cheerio HTML and XML Parsing Library for Node.js Extraction Workflows](../../skills/cheerio-html-xml-parsing-library-nodejs-extraction-workflows/) | 30.3k | 19.6M/wk |
 | [Turn mixed local folders into a queryable knowledge graph with Graphify](../../skills/turn-mixed-local-folders-into-a-queryable-knowledge-graph-with-graphify/) | 25.7k | — |
 | [Typesense Typo-Tolerant Search Engine](../../skills/typesense-typo-tolerant-search-engine/) | 25.5k | — |
+| [Use PandasAI for conversational CSV and spreadsheet analysis](../../skills/use-pandasai-for-conversational-csv-and-spreadsheet-analysis/) | 23.6k | — |
 | [Airbyte Connector Config Generator](../../skills/airbyte-connector-config-generator/) | 21.1k | — |
 | [Teable No-Code Postgres Database Platform and Airtable Alternative](../../skills/teable-no-code-postgres-database-platform/) | 21.1k | — |
 | [fx Terminal JSON Viewer and Processor](../../skills/fx-terminal-json-viewer-processor/) | 20.4k | 206k/wk |
@@ -185,7 +186,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [xq Command-Line XML and HTML Beautifier and Content Extractor](../../skills/xq-command-line-xml-html-beautifier-content-extractor/) | 1.1k | — |
 | [Query Neo4j graph data from agent workflows through MCP](../../skills/query-neo4j-graph-data-from-agent-workflows-through-mcp/) | 947 | — |
 | [Extract structured fields from HTML XML and JSON endpoints with Xidel selectors](../../skills/extract-structured-fields-from-html-xml-and-json-endpoints-with-xidel-selectors/) | 835 | — |
-| [Snowflake MCP Server](../../skills/snowflake-mcp-server/) | 725 | — |
+| [Snowflake MCP Server](../../skills/snowflake-mcp-server/) | 726 | — |
 | [Snowflake MCP](../../skills/snowflake-mcp/) | 724 | — |
 | [Snowflake Query History Extractor](../../skills/snowflake-query-history-extractor/) | 724 | — |
 | [Snowflake Query Optimizer Agent](../../skills/snowflake-query-optimizer-agent/) | 724 | — |

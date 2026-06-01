@@ -7,7 +7,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | Skill | Stars |
 |---|---:|
 | [Check current weather and short forecasts for planning](../../skills/check-current-weather-and-short-forecasts-for-planning/) | ⭐ 356.8k |
-| [Slack MCP Server](../../skills/slack-mcp-server/) | ⭐ 86.5k |
+| [Slack MCP Server](../../skills/slack-mcp-server/) | ⭐ 86.6k |
 | [AppFlowy Open Source Collaborative Workspace](../../skills/appflowy-open-source-collaborative-workspace/) | ⭐ 69.7k |
 | [AFFiNE Knowledge Base and Collaborative Workspace Platform](../../skills/affine-knowledge-base-collaborative-workspace-platform/) | ⭐ 67.2k |
 | [Memos Self-Hosted Note Capture and Knowledge API](../../skills/memos-self-hosted-note-capture-knowledge-api/) | ⭐ 58.5k |
@@ -31,7 +31,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Automate Lark and Feishu docs, sheets, mail, calendar, meetings, and chat tasks from agents with Lark CLI](../../skills/automate-lark-and-feishu-docs-sheets-mail-calendar-meetings-and-chat-tasks-from-agents-with-lark-cli/) | ⬇ 98.6k/wk |
 | [MailDev SMTP Capture and Email Testing Server](../../skills/maildev-smtp-capture-and-email-testing-server/) | ⬇ 90.4k/wk |
 | [MailDev SMTP Testing Server and Web Interface for Development Email Workflows](../../skills/maildev-smtp-testing-server-and-web-interface-for-development-email-workflows/) | ⬇ 90.4k/wk |
-| [Notion MCP Server](../../skills/notion-mcp-server/) | ⬇ 3.5M/wk |
+| [Notion MCP Server](../../skills/notion-mcp-server/) | ⬇ 2.5M/wk |
 | [Notion AI Document Summarizer & Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | ⬇ 1.2M/wk |
 
 ---
@@ -41,7 +41,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | Skill | Stars | Downloads |
 |---|---:|---:|
 | [Check current weather and short forecasts for planning](../../skills/check-current-weather-and-short-forecasts-for-planning/) | 356.8k | 837.2k/wk |
-| [Slack MCP Server](../../skills/slack-mcp-server/) | 86.5k | 225.4k/wk |
+| [Slack MCP Server](../../skills/slack-mcp-server/) | 86.6k | 225.4k/wk |
 | [AppFlowy Open Source Collaborative Workspace](../../skills/appflowy-open-source-collaborative-workspace/) | 69.7k | — |
 | [AFFiNE Knowledge Base and Collaborative Workspace Platform](../../skills/affine-knowledge-base-collaborative-workspace-platform/) | 67.2k | — |
 | [Memos Self-Hosted Note Capture and Knowledge API](../../skills/memos-self-hosted-note-capture-knowledge-api/) | 58.5k | — |
@@ -80,7 +80,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [MailDev SMTP Testing Server and Web Interface for Development Email Workflows](../../skills/maildev-smtp-testing-server-and-web-interface-for-development-email-workflows/) | 5.9k | 90.4k/wk |
 | [Himalaya CLI Email Client for IMAP SMTP and Notmuch](../../skills/himalaya-cli-email-client-imap-smtp-notmuch/) | 5.8k | — |
 | [Taskwarrior Command-Line Task Management System](../../skills/taskwarrior-command-line-task-management-system/) | 5.7k | — |
-| [Notion MCP Server](../../skills/notion-mcp-server/) | 5.6k | 3.5M/wk |
+| [Notion MCP Server](../../skills/notion-mcp-server/) | 5.6k | 2.5M/wk |
 | [Notion AI Document Summarizer & Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | 5.6k | 1.2M/wk |
 | [Notion AI Workspace](../../skills/notion-ai-workspace/) | 5.6k | 1.2M/wk |
 | [Notion Database Sync Agent](../../skills/notion-database-sync-agent/) | 5.6k | 1.2M/wk |
@@ -115,7 +115,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [calcurse Text-Based Calendar and Scheduling Application](../../skills/calcurse-text-calendar-scheduling/) | 1.2k | — |
 | [Apply repeatable IMAP rules to triage and clean inboxes with imapfilter](../../skills/apply-repeatable-imap-rules-to-triage-and-clean-inboxes-with-imapfilter/) | 917 | — |
 | [Resend Developer Email API and Node.js SDK](../../skills/resend-developer-email-api-nodejs-sdk/) | 887 | 5.3M/wk |
-| [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | 742 | — |
+| [Atlassian Rovo MCP Server](../../skills/atlassian-rovo-mcp-server/) | 743 | — |
 | [Mailgun JavaScript SDK for Email Delivery and Domain Operations](../../skills/mailgun-javascript-sdk-email-delivery-and-domain-operations-2/) | 547 | 927k/wk |
 | [Mailgun JavaScript SDK for Email Delivery and Domain Operations](../../skills/mailgun-javascript-sdk-email-delivery-and-domain-operations/) | 547 | 927k/wk |
 | [Read and automate Slack workflows from a purpose-built agent CLI with agent-slack](../../skills/read-and-automate-slack-workflows-from-a-purpose-built-agent-cli-with-agent-slack/) | 382 | 5.2k/wk |

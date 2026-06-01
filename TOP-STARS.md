@@ -22,7 +22,7 @@ Skills backed by the most-starred GitHub repositories, deduplicated by upstream 
 | 14 | [MarkItDown Document-to-Markdown Converter by Microsoft](skills/markitdown-document-to-markdown-converter-microsoft/) | 93.2k | markitdown | Data Extraction & Transformation |
 | 15 | [Storybook Component Tester](skills/storybook-component-tester/) | 89.9k | storybook | Code Quality & Review |
 | 16 | [Hugo Fast Static Site Generator and CMS Framework](skills/hugo-static-site-generator-cms-framework/) | 87.4k | hugo | WordPress & CMS |
-| 17 | [PostgreSQL MCP Server](skills/postgresql-mcp-server/) | 86.5k | servers | Data Extraction & Transformation |
+| 17 | [PostgreSQL MCP Server](skills/postgresql-mcp-server/) | 86.6k | servers | Data Extraction & Transformation |
 | 18 | [Playwright Accessibility Audit Runner](skills/playwright-accessibility-audit-runner/) | 86.4k | playwright | Browser Automation |
 | 19 | [browser-use Browser Automation Framework](skills/browser-use-browser-automation-framework/) | 85.2k | browser-use | Browser Automation |
 | 20 | [uv Ultra-Fast Python Package and Project Manager](skills/uv-ultra-fast-python-package-project-manager/) | 82.4k | uv | Developer Tools |

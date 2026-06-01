@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C536-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-2%2C541-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C186-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,536 published skills · 17 categories · Real ecosystem signals · Updated daily*
+*2,541 published skills · 17 categories · Real ecosystem signals · Updated daily*
 
 </div>
 
@@ -48,7 +48,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Control Kubernetes infrastructure through natural-language MCP workflows](skills/control-kubernetes-infrastructure-through-natural-language-mcp-workflows/)** — Let MCP-compatible agents inspect, debug, deploy, audit, and manage Kubernetes clusters through a controlled kubectl-backed server.
+**[Trace, evaluate, simulate, and guardrail agent releases with Future AGI](skills/trace-evaluate-simulate-and-guardrail-agent-releases-with-future-agi/)** — Use Future AGI to instrument agent runs, run evals and simulations, apply guardrails, and turn production traces into release-quality feedback.
 
 _Rotates daily by UTC date from the Security Reviewed pool._
 
@@ -90,10 +90,10 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Run autonomous deep research workflows with GPT Researcher](skills/run-autonomous-deep-research-workflows-with-gpt-researcher/) | run-autonomous-deep-research-workflows-with-gpt-researcher | 27.4k | Research & Scraping |
 | [Connect Azure DevOps projects, work items, repos, and pipelines to MCP agents](skills/connect-azure-devops-projects-work-items-repos-and-pipelines-to-mcp-agents/) | connect-azure-devops-projects-work-items-repos-and-pipelines-to-mcp-agents | 1.7k | Integrations & Connectors |
 | [Trace and evaluate agent runs with Phoenix](skills/trace-and-evaluate-agent-runs-with-phoenix/) | trace-and-evaluate-agent-runs-with-phoenix | 9.8k | Monitoring & Alerts |
+| [Use Sim for orchestrated AI agent workflow runs](skills/use-sim-for-orchestrated-ai-agent-workflow-runs/) | use-sim-for-orchestrated-ai-agent-workflow-runs | 28.7k | Templates & Workflows |
 | [Read Google Drive files and edit Sheets through MCP](skills/read-google-drive-files-and-edit-sheets-through-mcp/) | read-google-drive-files-and-edit-sheets-through-mcp | 280 | Calendar, Email & Productivity |
+| [Run local deep research workflows with Local Deep Research](skills/run-local-deep-research-workflows-with-local-deep-research/) | run-local-deep-research-workflows-with-local-deep-research | 7.9k | Research & Scraping |
 | [Format and lint TOML configuration with Tombi](skills/format-and-lint-toml-configuration-with-tombi/) | format-and-lint-toml-configuration-with-tombi | 937 | Code Quality & Review |
-| [Inspect live web apps and apply code changes with Stagewise](skills/inspect-live-web-apps-and-apply-code-changes-with-stagewise/) | inspect-live-web-apps-and-apply-code-changes-with-stagewise | 6.7k | Templates & Workflows |
-| [Analyze videos with frame extraction and audio context in Claude Code](skills/analyze-videos-with-frame-extraction-and-audio-context-in-claude-code/) | analyze-videos-with-frame-extraction-and-audio-context-in-claude-code | 698 | Media & Transcription |
 
 ---
 
@@ -101,19 +101,19 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 331 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 332 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 228 | Vulnerability scanning, auth setup, compliance |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 184 | Linting, code review, test generators, coverage |
-| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 174 | ETL pipelines, parsing, format conversion |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 172 | Scaffolders, boilerplate generators, workflow templates |
+| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 175 | ETL pipelines, parsing, format conversion |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 173 | Scaffolders, boilerplate generators, workflow templates |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 172 | Incident response, troubleshooting, system diagnostics |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 133 | Metrics, alerting rules, observability |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 124 | Email automation, calendar management, task coordination |
-| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 123 | Third-party API bridges, webhooks, service connectors |
+| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 124 | Third-party API bridges, webhooks, service connectors |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 122 | SDK docs, API parsers, symbol resolvers |
+| 🌐 | [**Browser Automation**](categories/browser-automation/) | 110 | Web scraping, UI testing, headless browser control |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 110 | Web research, content discovery, data collection |
-| 🌐 | [**Browser Automation**](categories/browser-automation/) | 109 | Web scraping, UI testing, headless browser control |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 99 | Audio/video processing, speech-to-text |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 89 | Image generation, asset processing, design automation |
@@ -179,7 +179,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,536 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,541 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,186 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
