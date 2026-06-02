@@ -48,9 +48,9 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Control a real browser from MCP clients with Browser MCP](skills/control-a-real-browser-from-mcp-clients-with-browser-mcp/)** — Use Browser MCP to let an MCP-capable agent drive a user's browser session for inspection, navigation, form work, and browser-state-aware automation.
+**[Use RAGFlow as a retrieval and context layer for agent workflows](skills/use-ragflow-as-a-retrieval-and-context-layer-for-agent-workflows/)** — Build a supervised RAG context layer with RAGFlow so agents can index documents, retrieve grounded context, and answer with traceable source support.
 
-_Rotates daily by UTC date from the Security Reviewed pool._
+_Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
 ---
 

@@ -240,7 +240,7 @@ if skill_of_day:
     link = f"skills/{slug}/"
     lines.append(f"**[{title}]({link})** — {description}")
     lines.append("")
-    lines.append("_Rotates daily by UTC date from the Security Reviewed pool._")
+    lines.append("_Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._")
 else:
     lines.append("Daily featured skill data was unavailable during generation.")
 lines.append("")
