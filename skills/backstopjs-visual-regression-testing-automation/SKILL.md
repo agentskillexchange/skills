@@ -32,9 +32,6 @@ Requirements and caveats from upstream:
 - Run globally or locally as a standalone package app or require('backstopjs') right into your node app
 
 Basic usage or getting-started notes:
-- sh
-- ----
-- ## Contents
 
 - Source: https://github.com/garris/BackstopJS
 - Extracted from upstream docs: https://raw.githubusercontent.com/garris/BackstopJS/HEAD/README.md

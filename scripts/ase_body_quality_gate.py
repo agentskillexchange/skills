@@ -27,6 +27,7 @@ STAR_WORD_RE = re.compile(
     re.I,
 )
 STRICT_BULLET_RE = re.compile(r"^\s*[-*]\s+(?P<label>[^#|\[\]]{1,90})\s*$")
+ANY_BULLET_RE = re.compile(r"^\s*[-*]\s+(?P<label>[^|\[\]]{1,90})\s*$")
 NUMBERED_TOC_RE = re.compile(r"^\s*[-*]\s+\d+(?:\.\d+)+\.?\s+[A-Z][^:]{0,90}\s*$")
 DOTTED_TOC_RE = re.compile(r"^\s*(?:[-*]\s*)?\S.{0,120}?\.{3,}\s*\d{1,4}\s*$")
 FORMATTED_TOC_RE = re.compile(r"^\s*[-*]\s+(?:\*\*)?table of contents(?:\*\*)?\s*:", re.I)
@@ -131,9 +132,11 @@ def scan_file(path: Path) -> dict[str, Any]:
         stripped = line.strip()
         strict = False
         reason = ""
-        bullet = STRICT_BULLET_RE.match(line)
+        bullet = ANY_BULLET_RE.match(line)
         if bullet:
-            label = re.sub(r"\s+", " ", bullet.group("label").strip()).lower()
+            label = re.sub(r"\s+", " ", bullet.group("label").strip())
+            label = re.sub(r"^(?:#+\s*)+", "", label)
+            label = label.strip("*_ :").lower()
             if label in STRICT_NAV_LABELS:
                 strict = True
                 reason = "navigation heading copied as bullet"
