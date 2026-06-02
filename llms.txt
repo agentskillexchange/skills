@@ -1,7 +1,47 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-06-01
-# Total: 2541 skills
+# Generated: 2026-06-02
+# Total: 2546 skills
+
+## Extract OCR-ready Markdown from documents with Zerox
+slug: extract-ocr-ready-markdown-from-documents-with-zerox
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Zerox to convert PDFs, images, and office documents into Markdown or structured extraction outputs using vision models.
+url: https://agentskillexchange.com/skills/extract-ocr-ready-markdown-from-documents-with-zerox/
+
+## Connect accounting agents to Xero through MCP
+slug: connect-accounting-agents-to-xero-through-mcp
+category: Integrations & Connectors
+framework: MCP
+verification: Security Reviewed
+description: Use Xero MCP Server to give approved MCP clients controlled access to Xero accounting data, reports, invoices, contacts, and related business records.
+url: https://agentskillexchange.com/skills/connect-accounting-agents-to-xero-through-mcp/
+
+## Build managed document parsing pipelines with LlamaCloud Services
+slug: build-managed-document-parsing-pipelines-with-llamacloud-services
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use LlamaCloud Services to parse, index, and manage document knowledge pipelines that feed LlamaIndex retrieval and agent workflows.
+url: https://agentskillexchange.com/skills/build-managed-document-parsing-pipelines-with-llamacloud-services/
+
+## Gate agent inputs and outputs with Superagent safety checks
+slug: gate-agent-inputs-and-outputs-with-superagent-safety-checks
+category: Security & Verification
+framework: Multi-Framework
+verification: Published
+description: Use Superagent to add prompt-injection blocking, PII redaction, repository scanning, and compliance evidence around AI agent runs.
+url: https://agentskillexchange.com/skills/gate-agent-inputs-and-outputs-with-superagent-safety-checks/
+
+## Run local multi-agent browser tasks with Nanobrowser
+slug: run-local-multi-agent-browser-tasks-with-nanobrowser
+category: Browser Automation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Nanobrowser when an operator needs a local Chrome or Edge browser agent to run multi-step web tasks with their own LLM keys and…
+url: https://agentskillexchange.com/skills/run-local-multi-agent-browser-tasks-with-nanobrowser/
 
 ## Use PandasAI for conversational CSV and spreadsheet analysis
 slug: use-pandasai-for-conversational-csv-and-spreadsheet-analysis

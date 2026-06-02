@@ -160,12 +160,12 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [PagerDuty Incident Runbook Linker](../../skills/pagerduty-incident-runbook-linker/) | 69 | 1M/wk |
 | [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | 69 | 238k/wk |
 | [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | 24 | 5.2k/wk |
-| [Configure and interpret LaunchDarkly AI Config online evaluations with judge attachments](../../skills/configure-and-interpret-launchdarkly-ai-config-online-evaluations-with-judge-attachments/) | 6 | — |
 | [AWS CloudWatch Insights Query Builder](../../skills/aws-cloudwatch-insights-query-builder/) | — | — |
 | [Cloudflare Analytics Health Monitor](../../skills/cloudflare-analytics-health-monitor/) | — | — |
 | [CloudWatch Anomaly Detector](../../skills/cloudwatch-anomaly-detector/) | — | — |
 | [CloudWatch Intelligent Alarms](../../skills/cloudwatch-intelligent-alarms/) | — | — |
 | [CloudWatch Log Anomaly Detector](../../skills/cloudwatch-log-anomaly-detector/) | — | — |
+| [Configure and interpret LaunchDarkly AI Config online evaluations with judge attachments](../../skills/configure-and-interpret-launchdarkly-ai-config-online-evaluations-with-judge-attachments/) | — | — |
 | [GlitchTip Open-Source Error Tracking Platform](../../skills/glitchtip-open-source-error-tracking-platform/) | — | — |
 | [New Relic NRQL Query Agent](../../skills/new-relic-nrql-query-agent/) | — | — |
 | [New Relic SLO Compliance Monitor](../../skills/new-relic-slo-compliance-monitor/) | — | — |

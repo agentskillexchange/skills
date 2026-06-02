@@ -121,7 +121,6 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [ArgoCD Sync Wave Planner](../../skills/argocd-sync-wave-planner/) | 22.6k | — |
 | [ArgoCD GitOps Sync Automator](../../skills/argocd-gitops-sync-automator/) | 22.5k | — |
 | [Renovate Automated Dependency Update Bot and CLI](../../skills/renovate-automated-dependency-update-bot-and-cli/) | 21.3k | 2M/wk |
-| [Inspect failing GitHub Actions checks and plan fixes with gh-fix-ci](../../skills/inspect-failing-github-actions-checks-and-plan-fixes-with-gh-fix-ci/) | 17.3k | — |
 | [Argo Workflows Deployer](../../skills/argo-workflows-deployer/) | 16.6k | — |
 | [Argo Workflows Linter](../../skills/argo-workflows-linter/) | 16.6k | — |
 | [GoReleaser Cross-Platform Release Automation](../../skills/goreleaser-cross-platform-release-automation/) | 15.7k | 62/wk |
@@ -195,9 +194,6 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [CircleCI Workflow Cost Auditor](../../skills/circleci-workflow-cost-auditor/) | 843 | — |
 | [Run declarative Kubernetes test suites against clusters before operator or manifest changes merge with KUTTL](../../skills/run-declarative-kubernetes-test-suites-against-clusters-before-operator-or-manifest-changes-merge-with-kuttl/) | 804 | — |
 | [Run AI browser regression checks with Playwright and multi-model verification through Passmark](../../skills/run-ai-browser-regression-checks-with-playwright-and-multi-model-verification-through-passmark/) | 676 | 12.3k/wk |
-| [Update repository docs automatically after code changes and open review PRs](../../skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | 585 | — |
-| [Investigate failing GitHub Actions runs with CI Doctor](../../skills/investigate-failing-github-actions-runs-with-ci-doctor-2/) | 581 | — |
-| [Investigate failing GitHub Actions runs with CI Doctor](../../skills/investigate-failing-github-actions-runs-with-ci-doctor/) | 581 | — |
 | [Jenkins Declarative Pipeline Generator](../../skills/jenkins-declarative-pipeline-generator-2/) | 564 | — |
 | [Catch agent-era CI/CD and permission misconfigurations before shipping with Ship Safe](../../skills/catch-agent-era-ci-cd-and-permission-misconfigurations-before-shipping-with-ship-safe/) | 521 | 2.8k/wk |
 | [Automatically rerun flaky pytest cases with bounded retry rules before intermittent failures block merges with pytest-rerunfailures](../../skills/automatically-rerun-flaky-pytest-cases-with-bounded-retry-rules-before-intermittent-failures-block-merges-with-pytest-rerunfailures/) | 458 | — |
@@ -231,7 +227,11 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [GitHub Actions Workflow Generator](../../skills/github-actions-workflow-generator-3/) | — | — |
 | [GitHub Actions Workflow Linter](../../skills/github-actions-workflow-linter-2/) | — | — |
 | [GitHub Actions Workflow Optimizer](../../skills/github-actions-workflow-optimizer/) | — | — |
+| [Inspect failing GitHub Actions checks and plan fixes with gh-fix-ci](../../skills/inspect-failing-github-actions-checks-and-plan-fixes-with-gh-fix-ci/) | — | — |
+| [Investigate failing GitHub Actions runs with CI Doctor](../../skills/investigate-failing-github-actions-runs-with-ci-doctor-2/) | — | — |
+| [Investigate failing GitHub Actions runs with CI Doctor](../../skills/investigate-failing-github-actions-runs-with-ci-doctor/) | — | — |
 | [npm Audit Dependency Report Generator](../../skills/npm-audit-dependency-report-generator/) | — | — |
+| [Update repository docs automatically after code changes and open review PRs](../../skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | — | — |
 
 ---
 

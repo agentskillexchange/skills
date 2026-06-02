@@ -102,7 +102,6 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [OpenAPI Spec Validator & Linter](../../skills/openapi-spec-validator-linter-2/) | 3.1k | 1.2M/wk |
 | [Python Dependency Graph Resolver](../../skills/python-dependency-graph-resolver/) | 3k | — |
 | [Python Package Dependency Graph Mapper](../../skills/python-package-dependency-graph-mapper/) | 3k | — |
-| [Implement, review, and optimize SwiftUI code with trace-backed diagnostics](../../skills/implement-review-and-optimize-swiftui-code-with-trace-backed-diagnostics/) | 2.7k | — |
 | [OpenAI Agents SDK JavaScript Workflow Toolkit](../../skills/openai-agents-sdk-javascript-workflow-toolkit/) | 2.6k | — |
 | [Anthropic SDK Token Usage Logger](../../skills/anthropic-sdk-token-usage-logger/) | 1.9k | 14.5M/wk |
 | [Ground PostgreSQL code generation in exact docs and best-practice skills through pg-aiguide](../../skills/ground-postgresql-code-generation-in-exact-docs-and-best-practice-skills-through-pg-aiguide/) | 1.7k | — |
@@ -125,6 +124,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [API Documentation Indexer](../../skills/api-documentation-indexer/) | — | — |
 | [AsyncAPI Event Catalog Builder](../../skills/asyncapi-event-catalog-builder/) | — | — |
 | [AsyncAPI Event Catalog Generator](../../skills/asyncapi-event-catalog-generator/) | — | — |
+| [Implement, review, and optimize SwiftUI code with trace-backed diagnostics](../../skills/implement-review-and-optimize-swiftui-code-with-trace-backed-diagnostics/) | — | — |
 | [MDN Web API Reference Fetcher](../../skills/mdn-web-api-reference-fetcher/) | — | — |
 | [MDN Web Docs Fetcher](../../skills/mdn-web-docs-fetcher/) | — | — |
 | [NPM Package Analyzer](../../skills/npm-package-analyzer/) | — | — |

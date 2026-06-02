@@ -6,7 +6,6 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 
 | Skill | Stars |
 |---|---:|
-| [Diagnose OpenClaw node pairing and route failures](../../skills/diagnose-openclaw-node-pairing-and-route-failures/) | ⭐ 356.8k |
 | [Pod CrashLoop Runbook](../../skills/pod-crashloop-runbook/) | ⭐ 122.2k |
 | [Kubernetes CrashLoop Diagnoser](../../skills/kubernetes-crashloop-diagnoser-agent/) | ⭐ 121.7k |
 | [Kubernetes Crashloop Diagnostic Runbook](../../skills/kubernetes-crashloop-diagnostic-runbook/) | ⭐ 121.7k |
@@ -16,6 +15,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Kubernetes Diagnostics Agent](../../skills/kubernetes-diagnostics-agent/) | ⭐ 121.7k |
 | [Kubernetes Incident Runbook](../../skills/kubernetes-incident-runbook/) | ⭐ 121.7k |
 | [Kubernetes Pod Crash Analyzer](../../skills/kubernetes-pod-crash-analyzer-3/) | ⭐ 121.7k |
+| [Kubernetes Pod Crash Diagnostician](../../skills/kubernetes-pod-crash-diagnostician/) | ⭐ 121.7k |
 
 ---
 
@@ -23,7 +23,6 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 
 | Skill | Downloads |
 |---|---:|
-| [Diagnose OpenClaw node pairing and route failures](../../skills/diagnose-openclaw-node-pairing-and-route-failures/) | ⬇ 837.2k/wk |
 | [Pulumi Drift Detector & Reconciler](../../skills/pulumi-drift-detector-reconciler/) | ⬇ 2.1M/wk |
 | [PostgreSQL Diagnostic Analyzer](../../skills/postgresql-diagnostic-analyzer/) | ⬇ 23.2M/wk |
 | [PostgreSQL Diagnostic Runbook](../../skills/postgresql-diagnostic-runbook/) | ⬇ 23.2M/wk |
@@ -33,6 +32,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [PostgreSQL Performance Runbook](../../skills/postgresql-performance-runbook/) | ⬇ 23.2M/wk |
 | [PostgreSQL Query Analyzer](../../skills/postgresql-query-analyzer/) | ⬇ 23.2M/wk |
 | [PostgreSQL Query Diagnostics](../../skills/postgresql-query-diagnostics/) | ⬇ 23.2M/wk |
+| [PostgreSQL Query Plan Diagnostics](../../skills/postgresql-query-plan-diagnostics-wave48/) | ⬇ 23.2M/wk |
 
 ---
 
@@ -40,7 +40,6 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [Diagnose OpenClaw node pairing and route failures](../../skills/diagnose-openclaw-node-pairing-and-route-failures/) | 356.8k | 837.2k/wk |
 | [Pod CrashLoop Runbook](../../skills/pod-crashloop-runbook/) | 122.2k | — |
 | [Kubernetes CrashLoop Diagnoser](../../skills/kubernetes-crashloop-diagnoser-agent/) | 121.7k | — |
 | [Kubernetes Crashloop Diagnostic Runbook](../../skills/kubernetes-crashloop-diagnostic-runbook/) | 121.7k | — |
@@ -104,7 +103,6 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Pulumi Drift Detector & Reconciler](../../skills/pulumi-drift-detector-reconciler/) | 25k | 2.1M/wk |
 | [ArgoCD Application Health Runbook](../../skills/argocd-application-health-runbook/) | 22.6k | — |
 | [ArgoCD Deployment Runbook Agent](../../skills/argocd-deployment-runbook-agent/) | 22.6k | — |
-| [Systematic Debugging and Error Recovery](../../skills/systematic-debugging-and-error-recovery/) | 17.4k | — |
 | [Systemd Service Debugger](../../skills/systemd-service-debugger/) | 16.2k | — |
 | [Systemd Service Diagnostics](../../skills/systemd-service-diagnostics/) | 16.2k | — |
 | [Systemd Service Recovery Playbook](../../skills/systemd-service-recovery-playbook-2/) | 16.2k | — |
@@ -137,7 +135,6 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Verify a freshly provisioned server or container matches expected services, ports, and files](../../skills/verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files/) | 5.9k | — |
 | [Tail multi-pod Kubernetes logs by label during incidents with Stern](../../skills/tail-multi-pod-kubernetes-logs-by-label-during-incidents-with-stern/) | 4.6k | — |
 | [Debug DNS resolution and record mismatches from the terminal with doggo](../../skills/debug-dns-resolution-and-record-mismatches-from-the-terminal-with-doggo/) | 4.2k | — |
-| [Remote-control tmux sessions for interactive CLI agents](../../skills/remote-control-tmux-sessions-for-interactive-cli-agents/) | 4.1k | — |
 | [Analyze memory images for processes, modules, and malware indicators with Volatility 3](../../skills/analyze-memory-images-for-processes-modules-and-malware-indicators-with-volatility-3/) | 4.1k | — |
 | [Diagnose pathological Git repository size before migration, CI, or contributor onboarding](../../skills/diagnose-pathological-git-repository-size-before-migration-ci-or-contributor-onboarding/) | 4k | — |
 | [Turn PostgreSQL logs into incident and tuning reports with pgBadger](../../skills/turn-postgresql-logs-into-incident-and-tuning-reports-with-pgbadger/) | 4k | — |
@@ -170,20 +167,16 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Build super timelines from mixed forensic artifacts with Plaso](../../skills/build-super-timelines-from-mixed-forensic-artifacts-with-plaso/) | 2.1k | — |
 | [Turn Markdown runbooks into executable, parameterized procedures with Runme](../../skills/turn-markdown-runbooks-into-executable-parameterized-procedures-with-runme/) | 2k | 1.2k/wk |
 | [Investigate production incidents across observability signals and draft next remediation steps with OpenSRE](../../skills/investigate-production-incidents-across-observability-signals-and-draft-next-remediation-steps-with-opensre/) | 2k | — |
-| [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](../../skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | 2k | — |
 | [Inspect and diff OCI images and registries with regctl](../../skills/inspect-and-diff-oci-images-and-registries-with-regctl/) | 1.8k | — |
 | [Inventory live database schemas and generate reviewable docs before risky SQL changes with SchemaCrawler](../../skills/inventory-live-database-schemas-and-generate-reviewable-docs-before-risky-sql-changes-with-schemacrawler/) | 1.8k | — |
 | [Operate Kubernetes and OpenShift clusters through MCP](../../skills/operate-kubernetes-and-openshift-clusters-through-mcp/) | 1.6k | 7.3k/wk |
 | [Run Kubernetes cluster operations through MCP](../../skills/run-kubernetes-cluster-operations-through-mcp/) | 1.4k | 78.5k/wk |
 | [Diff and review MySQL schema changes as filesystem-managed SQL before risky database deploys with Skeema](../../skills/diff-and-review-mysql-schema-changes-as-filesystem-managed-sql-before-risky-database-deploys-with-skeema/) | 1.4k | — |
 | [Run profile-based restic backups and verification checks with resticprofile](../../skills/run-profile-based-restic-backups-and-verification-checks-with-resticprofile/) | 1.3k | — |
-| [Investigate backend-only WordPress performance bottlenecks](../../skills/investigate-backend-only-wordpress-performance-bottlenecks/) | 1.2k | — |
 | [Run day-2 OpenClaw operations with production runbooks and reusable prompt patterns from openclaw-runbook](../../skills/run-day-2-openclaw-operations-with-production-runbooks-and-reusable-prompt-patterns-from-openclaw-runbook/) | 1.1k | — |
-| [Diagnose Tailscale and proxy conflicts before remote development stalls out](../../skills/diagnose-tailscale-and-proxy-conflicts-before-remote-development-stalls-out/) | 910 | — |
 | [Control Kubernetes infrastructure through natural-language MCP workflows](../../skills/control-kubernetes-infrastructure-through-natural-language-mcp-workflows/) | 898 | 150/wk |
 | [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | 791 | 6.6M/wk |
 | [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | 791 | 6.6M/wk |
-| [Fix failing pull requests by analyzing CI errors and pushing targeted repairs](../../skills/fix-failing-pull-requests-by-analyzing-ci-errors-and-pushing-targeted-repairs/) | 585 | — |
 | [Benchmark virtual agents with scripted multi-turn conversations using Agent Evaluation](../../skills/benchmark-virtual-agents-with-scripted-multi-turn-conversations-using-agent-evaluation/) | 358 | — |
 | [Orchestrate database backup, restore, retention, and failure-notification runbooks through Databasement](../../skills/orchestrate-database-backup-restore-retention-and-failure-notification-runbooks-through-databasement/) | 315 | — |
 | [Benchmark IT automation agents on realistic SRE, CISO, and FinOps scenarios with ITBench](../../skills/benchmark-it-automation-agents-on-realistic-sre-ciso-and-finops-scenarios-with-itbench/) | 308 | — |
@@ -197,21 +190,28 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [PagerDuty Incident Runbook Engine](../../skills/pagerduty-incident-runbook-engine/) | 69 | 1M/wk |
 | [PagerDuty Incident Runbook Executor](../../skills/pagerduty-incident-runbook-executor/) | 69 | 1M/wk |
 | [PagerDuty On-Call Escalation Checker](../../skills/pagerduty-on-call-escalation-checker-2/) | 69 | 1M/wk |
-| [Improve Qdrant vector search relevance and retrieval quality](../../skills/improve-qdrant-vector-search-relevance-and-retrieval-quality/) | 65 | — |
 | [Triage active security incidents with AI-augmented workflows in Valhuntir CLI](../../skills/triage-active-security-incidents-with-ai-augmented-workflows-in-valhuntir-cli/) | 40 | — |
 | [Validate, dry-run, and expose YAML agent runbooks as MCP tools with DeclarAgent](../../skills/validate-dry-run-and-expose-yaml-agent-runbooks-as-mcp-tools-with-declaragent/) | 11 | — |
 | [Investigate production issues from Slack with runbooks and monitoring MCPs using DIY AI Debugging Agent Toolkit](../../skills/investigate-production-issues-from-slack-with-runbooks-and-monitoring-mcps-using-diy-ai-debugging-agent-toolkit/) | 6 | — |
 | [Back up and restore an OpenClaw workspace to Synology NAS with verification and rollback safety using Synology Backup](../../skills/back-up-and-restore-an-openclaw-workspace-to-synology-nas-with-verification-and-rollback-safety-using-synology-backup/) | 1 | — |
+| [Diagnose OpenClaw node pairing and route failures](../../skills/diagnose-openclaw-node-pairing-and-route-failures/) | — | 837.2k/wk |
 | [AWS CloudFormation Drift Detector](../../skills/aws-cloudformation-drift-detector-4/) | — | — |
 | [AWS CloudFormation Stack Diagnostics](../../skills/aws-cloudformation-stack-diagnostics/) | — | — |
 | [AWS Systems Manager Automation Incident Guide](../../skills/aws-systems-manager-automation-incident-guide/) | — | — |
 | [Database Migration Validator](../../skills/database-migration-validator/) | — | — |
+| [Diagnose Tailscale and proxy conflicts before remote development stalls out](../../skills/diagnose-tailscale-and-proxy-conflicts-before-remote-development-stalls-out/) | — | — |
+| [Fix failing pull requests by analyzing CI errors and pushing targeted repairs](../../skills/fix-failing-pull-requests-by-analyzing-ci-errors-and-pushing-targeted-repairs/) | — | — |
+| [Improve Qdrant vector search relevance and retrieval quality](../../skills/improve-qdrant-vector-search-relevance-and-retrieval-quality/) | — | — |
 | [Incident Postmortem Generator](../../skills/incident-postmortem-generator/) | — | — |
 | [Incident Response Checklist Engine](../../skills/incident-response-checklist-engine/) | — | — |
 | [Incident Response Playbook Runner](../../skills/incident-response-playbook-runner/) | — | — |
 | [Incident Timeline Builder](../../skills/incident-timeline-builder/) | — | — |
+| [Investigate backend-only WordPress performance bottlenecks](../../skills/investigate-backend-only-wordpress-performance-bottlenecks/) | — | — |
 | [Kubernetes CrashLoopBackOff Diagnoser](../../skills/k8s-crashloopbackoff-diagnoser/) | — | — |
 | [PagerDuty Event Orchestration Runbook](../../skills/pagerduty-event-orchestration-runbook/) | — | — |
+| [Remote-control tmux sessions for interactive CLI agents](../../skills/remote-control-tmux-sessions-for-interactive-cli-agents/) | — | — |
+| [Systematic Debugging and Error Recovery](../../skills/systematic-debugging-and-error-recovery/) | — | — |
+| [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](../../skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | — | — |
 
 ---
 

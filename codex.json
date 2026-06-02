@@ -1,9 +1,54 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-06-01",
-  "total": 2541,
+  "generated": "2026-06-02",
+  "total": 2546,
   "skills": [
+    {
+      "slug": "extract-ocr-ready-markdown-from-documents-with-zerox",
+      "name": "Extract OCR-ready Markdown from documents with Zerox",
+      "title": "Extract OCR-ready Markdown from documents with Zerox",
+      "description": "Use Zerox to convert PDFs, images, and office documents into Markdown or structured extraction outputs using vision models.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "connect-accounting-agents-to-xero-through-mcp",
+      "name": "Connect accounting agents to Xero through MCP",
+      "title": "Connect accounting agents to Xero through MCP",
+      "description": "Use Xero MCP Server to give approved MCP clients controlled access to Xero accounting data, reports, invoices, contacts, and related business records.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "build-managed-document-parsing-pipelines-with-llamacloud-services",
+      "name": "Build managed document parsing pipelines with LlamaCloud Services",
+      "title": "Build managed document parsing pipelines with LlamaCloud Services",
+      "description": "Use LlamaCloud Services to parse, index, and manage document knowledge pipelines that feed LlamaIndex retrieval and agent workflows.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "gate-agent-inputs-and-outputs-with-superagent-safety-checks",
+      "name": "Gate agent inputs and outputs with Superagent safety checks",
+      "title": "Gate agent inputs and outputs with Superagent safety checks",
+      "description": "Use Superagent to add prompt-injection blocking, PII redaction, repository scanning, and compliance evidence around AI agent runs.",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
+    {
+      "slug": "run-local-multi-agent-browser-tasks-with-nanobrowser",
+      "name": "Run local multi-agent browser tasks with Nanobrowser",
+      "title": "Run local multi-agent browser tasks with Nanobrowser",
+      "description": "Use Nanobrowser when an operator needs a local Chrome or Edge browser agent to run multi-step web tasks with their own LLM keys and…",
+      "category": "Browser Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "use-pandasai-for-conversational-csv-and-spreadsheet-analysis",
       "name": "Use PandasAI for conversational CSV and spreadsheet analysis",

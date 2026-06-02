@@ -6,7 +6,6 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 
 | Skill | Stars |
 |---|---:|
-| [Verify local web apps with Playwright scripts and managed dev servers](../../skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | ⭐ 116.2k |
 | [Browser Session Replay Analyzer](../../skills/browser-session-replay-analyzer/) | ⭐ 94.2k |
 | [Puppeteer Browser Automation Library](../../skills/puppeteer-browser-automation-library/) | ⭐ 94.1k |
 | [Puppeteer Cookie Consent Automator](../../skills/puppeteer-cookie-consent-automator/) | ⭐ 94.1k |
@@ -16,6 +15,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Puppeteer Screenshot Diff Engine](../../skills/puppeteer-screenshot-diff-engine/) | ⭐ 94.1k |
 | [Puppeteer Visual Regression Tester](../../skills/puppeteer-visual-regression-tester/) | ⭐ 94.1k |
 | [Puppeteer Visual Regression Testing](../../skills/puppeteer-visual-regression-testing/) | ⭐ 94.1k |
+| [Puppeteer Web Scraping Pipeline](../../skills/puppeteer-web-scraping-pipeline/) | ⭐ 94.1k |
 
 ---
 
@@ -40,7 +40,6 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [Verify local web apps with Playwright scripts and managed dev servers](../../skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | 116.2k | — |
 | [Browser Session Replay Analyzer](../../skills/browser-session-replay-analyzer/) | 94.2k | 40.2M/wk |
 | [Puppeteer Browser Automation Library](../../skills/puppeteer-browser-automation-library/) | 94.1k | 40.2M/wk |
 | [Puppeteer Cookie Consent Automator](../../skills/puppeteer-cookie-consent-automator/) | 94.1k | 40.2M/wk |
@@ -109,6 +108,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Skyvern AI Browser Workflow Automation with LLMs and Computer Vision](../../skills/skyvern-ai-browser-workflow-automation/) | 21k | — |
 | [Playwright Python Browser Automation Library for Cross-Browser Testing](../../skills/playwright-python-browser-automation-library-cross-browser-testing/) | 14.5k | — |
 | [Run computer-use agents inside cross-OS desktop sandboxes with CUA](../../skills/run-computer-use-agents-inside-cross-os-desktop-sandboxes-with-cua/) | 13.5k | 513/wk |
+| [Run local multi-agent browser tasks with Nanobrowser](../../skills/run-local-multi-agent-browser-tasks-with-nanobrowser/) | 13.1k | — |
 | [Browserless Headless Browser Automation Infrastructure](../../skills/browserless-headless-browser-automation-infrastructure/) | 13k | — |
 | [chromedp Go Browser Automation with Chrome DevTools Protocol](../../skills/chromedp-go-browser-automation-chrome-devtools-protocol/) | 12.9k | — |
 | [Drive web and app UIs with vision-grounded steps when selectors are brittle or unavailable](../../skills/drive-web-and-app-uis-with-vision-grounded-steps-when-selectors-are-brittle-or-unavailable/) | 12.6k | 83.7k/wk |
@@ -121,9 +121,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Run an agent across browser and local file workflows with Magentic-UI](../../skills/run-an-agent-across-browser-and-local-file-workflows-with-magentic-ui/) | 9.9k | — |
 | [WebdriverIO Next-Gen Browser and Mobile Automation Framework](../../skills/webdriverio-browser-mobile-automation-framework/) | 9.8k | 2.7M/wk |
 | [Capture responsive website screenshots for visual QA with Pageres](../../skills/capture-responsive-website-screenshots-pageres/) | 9.7k | 15.3k/wk |
-| [Drive Chrome with stable accessibility refs for repeatable browser automation](../../skills/drive-chrome-with-stable-accessibility-refs-for-repeatable-browser-automation/) | 8.7k | 1.1k/wk |
 | [Docker Selenium Grid for Scalable Browser Automation](../../skills/docker-selenium-grid-for-scalable-browser-automation/) | 8.6k | — |
-| [Playwright Extra Browser Automation Plugins](../../skills/playwright-extra-browser-automation-plugins/) | 7.3k | 835.6k/wk |
 | [BackstopJS Visual Regression Testing Automation](../../skills/backstopjs-visual-regression-testing-automation/) | 7.1k | 59.8k/wk |
 | [Camoufox Open Source Anti-Detect Browser for Python Automation](../../skills/camoufox-antidetect-browser-python/) | 7.1k | — |
 | [Rod Go Chrome DevTools Protocol Driver for Web Automation](../../skills/rod-go-cdp-browser-automation/) | 6.8k | — |
@@ -131,7 +129,6 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Control a real browser from MCP clients with Browser MCP](../../skills/control-a-real-browser-from-mcp-clients-with-browser-mcp/) | 6.6k | 29.8k/wk |
 | [Run browser and API automation through the Playwright MCP server](../../skills/run-browser-and-api-automation-through-the-playwright-mcp-server/) | 5.5k | — |
 | [Pa11y Accessibility Testing CLI and CI](../../skills/pa11y-accessibility-testing-cli-and-ci/) | 4.4k | 221.7k/wk |
-| [Extract data and complete workflows in your real logged-in browser](../../skills/extract-data-and-complete-workflows-in-your-real-logged-in-browser/) | 4.4k | 2.9k/wk |
 | [Nodriver Async Undetected Chrome Browser Automation for Python](../../skills/nodriver-undetected-chrome-automation/) | 4k | — |
 | [Taiko Smart-Selector Browser Automation for Node.js](../../skills/taiko-smart-selector-browser-automation-nodejs/) | 3.7k | 12.3k/wk |
 | [Let agents control a logged-in Chrome browser through Playwriter MCP](../../skills/let-agents-control-a-logged-in-chrome-browser-through-playwriter-mcp/) | 3.5k | — |
@@ -149,7 +146,11 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Debug Firefox-only browser issues with DevTools MCP before shipping web changes](../../skills/debug-firefox-only-browser-issues-with-devtools-mcp-before-shipping-web-changes/) | 107 | 3k/wk |
 | [Benchmark browser agents on a fixed stealth and task suite with browser-use benchmark](../../skills/benchmark-browser-agents-on-a-fixed-stealth-and-task-suite-with-browser-use-benchmark/) | 71 | — |
 | [Browserbase Session Automation API and SDK](../../skills/browserbase-session-automation-api-and-sdk/) | 61 | 818.3k/wk |
+| [Playwright Extra Browser Automation Plugins](../../skills/playwright-extra-browser-automation-plugins/) | — | 835.6k/wk |
 | [playwright-extra Plugin Framework for Playwright](../../skills/playwright-extra-plugin-framework-for-playwright/) | — | 623.1k/wk |
+| [Extract data and complete workflows in your real logged-in browser](../../skills/extract-data-and-complete-workflows-in-your-real-logged-in-browser/) | — | 2.9k/wk |
+| [Drive Chrome with stable accessibility refs for repeatable browser automation](../../skills/drive-chrome-with-stable-accessibility-refs-for-repeatable-browser-automation/) | — | 1.1k/wk |
+| [Verify local web apps with Playwright scripts and managed dev servers](../../skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | — | — |
 
 ---
 

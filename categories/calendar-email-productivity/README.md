@@ -6,7 +6,6 @@ Email automation, calendar management, task coordination, and productivity tools
 
 | Skill | Stars |
 |---|---:|
-| [Check current weather and short forecasts for planning](../../skills/check-current-weather-and-short-forecasts-for-planning/) | ⭐ 356.8k |
 | [Slack MCP Server](../../skills/slack-mcp-server/) | ⭐ 86.6k |
 | [AppFlowy Open Source Collaborative Workspace](../../skills/appflowy-open-source-collaborative-workspace/) | ⭐ 69.7k |
 | [AFFiNE Knowledge Base and Collaborative Workspace Platform](../../skills/affine-knowledge-base-collaborative-workspace-platform/) | ⭐ 67.2k |
@@ -16,6 +15,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Cal.com Open Source Scheduling Infrastructure and API](../../skills/cal-com-open-source-scheduling-infrastructure-api/) | ⭐ 40.9k |
 | [Outline Open Source Team Knowledge Base and Wiki Platform](../../skills/outline-knowledge-base-wiki/) | ⭐ 38k |
 | [Wiki.js Modern Open Source Wiki Platform on Node.js](../../skills/wikijs-wiki-platform-nodejs/) | ⭐ 28.2k |
+| [Discord Bot Manager](../../skills/discord-bot-manager/) | ⭐ 26.7k |
 
 ---
 
@@ -23,7 +23,6 @@ Email automation, calendar management, task coordination, and productivity tools
 
 | Skill | Downloads |
 |---|---:|
-| [Check current weather and short forecasts for planning](../../skills/check-current-weather-and-short-forecasts-for-planning/) | ⬇ 837.2k/wk |
 | [Slack MCP Server](../../skills/slack-mcp-server/) | ⬇ 225.4k/wk |
 | [Discord Bot Manager](../../skills/discord-bot-manager/) | ⬇ 564.5k/wk |
 | [Google Workspace CLI (gws)](../../skills/google-workspace-cli-gws/) | ⬇ 38.9k/wk |
@@ -33,6 +32,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [MailDev SMTP Testing Server and Web Interface for Development Email Workflows](../../skills/maildev-smtp-testing-server-and-web-interface-for-development-email-workflows/) | ⬇ 90.4k/wk |
 | [Notion MCP Server](../../skills/notion-mcp-server/) | ⬇ 2.5M/wk |
 | [Notion AI Document Summarizer & Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | ⬇ 1.2M/wk |
+| [Notion AI Workspace](../../skills/notion-ai-workspace/) | ⬇ 1.2M/wk |
 
 ---
 
@@ -40,7 +40,6 @@ Email automation, calendar management, task coordination, and productivity tools
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [Check current weather and short forecasts for planning](../../skills/check-current-weather-and-short-forecasts-for-planning/) | 356.8k | 837.2k/wk |
 | [Slack MCP Server](../../skills/slack-mcp-server/) | 86.6k | 225.4k/wk |
 | [AppFlowy Open Source Collaborative Workspace](../../skills/appflowy-open-source-collaborative-workspace/) | 69.7k | — |
 | [AFFiNE Knowledge Base and Collaborative Workspace Platform](../../skills/affine-knowledge-base-collaborative-workspace-platform/) | 67.2k | — |
@@ -52,13 +51,11 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Wiki.js Modern Open Source Wiki Platform on Node.js](../../skills/wikijs-wiki-platform-nodejs/) | 28.2k | — |
 | [Discord Bot Manager](../../skills/discord-bot-manager/) | 26.7k | 564.5k/wk |
 | [Google Workspace CLI (gws)](../../skills/google-workspace-cli-gws/) | 24.3k | 38.9k/wk |
-| [Design Lifecycle Email Sequences](../../skills/design-lifecycle-email-sequences/) | 21.9k | — |
 | [Docmost Open Source Collaborative Wiki and Documentation Platform](../../skills/docmost-open-source-collaborative-wiki-documentation/) | 19.7k | — |
 | [Listmonk Self-Hosted Newsletter and Mailing List Manager](../../skills/listmonk-self-hosted-newsletter-mailing-list/) | 19.4k | — |
 | [Super Productivity Open Source Task Manager with Time Tracking](../../skills/super-productivity-task-manager-time-tracking/) | 18.3k | — |
 | [Nodemailer Node.js Email Sending Library with SMTP and Transport Support](../../skills/nodemailer-nodejs-email-sending-library/) | 17.5k | 15.5M/wk |
 | [Mailspring Open Source Email Client with Plugin Architecture](../../skills/mailspring-open-source-email-client-plugin-architecture/) | 17.4k | — |
-| [Prepare meeting agendas and pre-reads from Notion context with notion-meeting-intelligence](../../skills/prepare-meeting-agendas-and-pre-reads-from-notion-context-with-notion-meeting-intelligence/) | 17.3k | — |
 | [ActivityWatch Cross-Platform Automated Time Tracker and Productivity Analyzer](../../skills/activitywatch-automated-time-tracker/) | 17.2k | — |
 | [MailHog SMTP Testing Server with Web UI and API](../../skills/mailhog-smtp-testing-server-with-web-ui-and-api/) | 15.9k | — |
 | [OpenProject Open Source Project Management Platform](../../skills/openproject-open-source-project-management-platform/) | 14.8k | — |
@@ -133,8 +130,10 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Load .mbox mail archives into SQLite for offline search, audits, and dataset joins](../../skills/load-mbox-mail-archives-into-sqlite-for-offline-search-audits-and-dataset-joins/) | 39 | — |
 | [Search Help Scout conversations and thread context before drafting support replies](../../skills/search-help-scout-conversations-and-thread-context-before-drafting-support-replies/) | 36 | 184/wk |
 | [Connect Claude Code to Apple apps and tmux with Claude Apple Bridges](../../skills/connect-claude-code-to-apple-apps-and-tmux-with-claude-apple-bridges/) | 9 | — |
+| [Check current weather and short forecasts for planning](../../skills/check-current-weather-and-short-forecasts-for-planning/) | — | 837.2k/wk |
 | [Turn ICS calendar invites and feeds into structured events for scheduling automations](../../skills/turn-ics-calendar-invites-and-feeds-into-structured-events-for-scheduling-automations/) | — | 128.6k/wk |
 | [aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch](../../skills/aerc-extensible-terminal-email-client/) | — | — |
+| [Design Lifecycle Email Sequences](../../skills/design-lifecycle-email-sequences/) | — | — |
 | [Gmail API Thread Label Triage](../../skills/gmail-api-thread-label-triage/) | — | — |
 | [Gmail Thread Summarizer and Action Extractor](../../skills/gmail-thread-summarizer-action-extractor/) | — | — |
 | [Google Calendar Conflict Detector](../../skills/google-calendar-conflict-detector/) | — | — |
@@ -158,6 +157,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Outlook Mail Triage Assistant](../../skills/outlook-mail-triage-assistant/) | — | — |
 | [Outlook Mail Triage Skill](../../skills/outlook-mail-triage-microsoft-graph/) | — | — |
 | [Outlook Rule Automation Manager](../../skills/outlook-rule-automation-manager/) | — | — |
+| [Prepare meeting agendas and pre-reads from Notion context with notion-meeting-intelligence](../../skills/prepare-meeting-agendas-and-pre-reads-from-notion-context-with-notion-meeting-intelligence/) | — | — |
 | [Slack Status API PTO Sync Assistant](../../skills/slack-status-api-pto-sync-assistant/) | — | — |
 | [Todoist GTD Workflow Automator](../../skills/todoist-gtd-workflow-automator/) | — | — |
 | [Todoist GTD Workflow Engine](../../skills/todoist-gtd-workflow-engine/) | — | — |

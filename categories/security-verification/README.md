@@ -6,7 +6,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 
 | Skill | Stars |
 |---|---:|
-| [Audit OpenClaw host security posture and hardening gaps](../../skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | ⭐ 356.8k |
 | [Provision secure disposable development sandboxes for AI-generated code with Daytona](../../skills/provision-secure-disposable-development-sandboxes-for-ai-generated-code-with-daytona/) | ⭐ 72.4k |
 | [Decompile Android APKs into readable source with jadx for review and analysis](../../skills/decompile-android-apks-into-readable-source-with-jadx-for-review-and-analysis/) | ⭐ 46.1k |
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](../../skills/mitmproxy-interactive-https-proxy-debugging-security/) | ⭐ 42.9k |
@@ -16,6 +15,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [HashiCorp Vault Secret Scanner](../../skills/hashicorp-vault-secret-scanner-2/) | ⭐ 35.4k |
 | [HashiCorp Vault Secrets Rotation Agent](../../skills/hashicorp-vault-secrets-rotation-agent-2/) | ⭐ 35.4k |
 | [Vault Secrets Rotation Orchestrator](../../skills/vault-secrets-rotation-orchestrator/) | ⭐ 35.4k |
+| [Vault Secrets Rotator](../../skills/vault-secrets-rotator/) | ⭐ 35.4k |
 
 ---
 
@@ -23,13 +23,13 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 
 | Skill | Downloads |
 |---|---:|
-| [Audit OpenClaw host security posture and hardening gaps](../../skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | ⬇ 837.2k/wk |
 | [Run autonomous white-box pentests against web apps and APIs with Shannon](../../skills/run-autonomous-white-box-pentests-against-web-apps-and-apis-with-shannon/) | ⬇ 4k/wk |
 | [Better Auth Authentication Framework for TypeScript Applications](../../skills/better-auth-authentication-framework-typescript-applications/) | ⬇ 3.2M/wk |
 | [Discord Moderation Bot with AI Classification](../../skills/discord-moderation-ai-classification/) | ⬇ 563.5k/wk |
 | [Sanitize untrusted HTML fragments before rendering previews, comments, or CMS content with DOMPurify](../../skills/sanitize-untrusted-html-fragments-before-rendering-previews-comments-or-cms-content-dompurify/) | ⬇ 165.2M/wk |
 | [Route risky coding-agent work through human approval checkpoints with HumanLayer](../../skills/route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer/) | ⬇ 694/wk |
 | [Magika AI File Type Detection and Content Classification](../../skills/magika-ai-file-type-detection-and-content-classification/) | ⬇ 4.6k/wk |
+| [Gate agent inputs and outputs with Superagent safety checks](../../skills/gate-agent-inputs-and-outputs-with-superagent-safety-checks/) | ⬇ 43.7k/wk |
 | [Dependency Vulnerability Scanner](../../skills/dependency-vulnerability-scanner-agent/) | ⬇ 2.6M/wk |
 | [NPM Package Supply Chain Auditor](../../skills/npm-package-supply-chain-auditor/) | ⬇ 2.6M/wk |
 | [Snyk Container Image Analyzer](../../skills/snyk-container-image-analyzer/) | ⬇ 2.6M/wk |
@@ -40,7 +40,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [Audit OpenClaw host security posture and hardening gaps](../../skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | 356.8k | 837.2k/wk |
 | [Provision secure disposable development sandboxes for AI-generated code with Daytona](../../skills/provision-secure-disposable-development-sandboxes-for-ai-generated-code-with-daytona/) | 72.4k | — |
 | [Decompile Android APKs into readable source with jadx for review and analysis](../../skills/decompile-android-apks-into-readable-source-with-jadx-for-review-and-analysis/) | 46.1k | — |
 | [mitmproxy Interactive HTTPS Proxy for Debugging and Security Testing](../../skills/mitmproxy-interactive-https-proxy-debugging-security/) | 42.9k | — |
@@ -128,6 +127,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Feroxbuster Fast Recursive Content Discovery Tool in Rust](../../skills/feroxbuster-content-discovery/) | 7.6k | — |
 | [Scan LLM systems for jailbreaks, prompt injections, and unsafe behaviors with garak](../../skills/scan-llm-systems-for-jailbreaks-prompt-injections-and-unsafe-behaviors-with-garak/) | 7.5k | — |
 | [Probe Kubernetes clusters with kube-hunter for exposed services and misconfigurations](../../skills/probe-kubernetes-clusters-with-kube-hunter-for-exposed-services-and-misconfigurations/) | 7.3k | — |
+| [Gate agent inputs and outputs with Superagent safety checks](../../skills/gate-agent-inputs-and-outputs-with-superagent-safety-checks/) | 6.6k | 43.7k/wk |
 | [Naabu Fast Port Scanner by ProjectDiscovery](../../skills/naabu-fast-port-scanner-projectdiscovery/) | 5.9k | — |
 | [Cosign Artifact Signature Verifier](../../skills/cosign-artifact-signature-verifier/) | 5.8k | — |
 | [Sigstore Cosign Container Verifier](../../skills/sigstore-cosign-container-verifier/) | 5.8k | — |
@@ -161,7 +161,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Audit GitHub Actions for privilege and supply-chain risks with zizmor](../../skills/audit-github-actions-for-privilege-and-supply-chain-risks-with-zizmor/) | 4.2k | — |
 | [Audit SSH servers and clients for weak algorithms and risky config drift with ssh-audit](../../skills/audit-ssh-servers-and-clients-for-weak-algorithms-and-risky-config-drift-with-ssh-audit/) | 4.2k | — |
 | [Audit GitHub Actions workflows for insecure permissions and unpinned actions](../../skills/audit-github-actions-workflows-for-insecure-permissions-and-unpinned-actions/) | 4.1k | — |
-| [Scan LLM-generated code before use with CodeShield](../../skills/scan-llm-generated-code-before-use-with-codeshield/) | 4.1k | — |
 | [SSL Certificate Auditor](../../skills/ssl-certificate-auditor-agent/) | 3.8k | — |
 | [AWS CloudTrail Log Normalizer](../../skills/aws-cloudtrail-log-normalizer/) | 3.6k | — |
 | [AWS IAM Privilege Escalation Audit](../../skills/aws-iam-privilege-escalation-audit/) | 3.6k | — |
@@ -181,7 +180,6 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Inspect binary hardening flags and exploit mitigations with checksec](../../skills/inspect-binary-hardening-flags-and-exploit-mitigations-with-checksec/) | 2.3k | — |
 | [Gate Rust dependency trees on license, advisory, and source-policy violations before merge with cargo-deny](../../skills/gate-rust-dependency-trees-on-license-advisory-and-source-policy-violations-before-merge-with-cargo-deny/) | 2.3k | 3.3M/wk |
 | [Audit AWS IAM policies for risky permissions with Cloudsplaining](../../skills/audit-aws-iam-policies-for-risky-permissions-with-cloudsplaining/) | 2.2k | — |
-| [Provision OAuth-capable Microsoft agent identities with Entra Agent ID](../../skills/provision-oauth-capable-microsoft-agent-identities-with-entra-agent-id/) | 2.1k | — |
 | [Run agent CLIs in a capability-based local sandbox with snapshots and controlled egress using nono](../../skills/run-agent-clis-in-a-capability-based-local-sandbox-with-snapshots-and-controlled-egress-using-nono/) | 2.1k | — |
 | [Lint .env files for duplicated keys and unsafe formatting with dotenv-linter](../../skills/lint-dotenv-files-for-duplicated-keys-and-unsafe-formatting-with-dotenv-linter/) | 2.1k | — |
 | [Snyk Agent Scan MCP and Skill Security Scanner](../../skills/snyk-agent-scan-mcp-skill-security-scanner/) | 2k | — |
@@ -252,8 +250,9 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Triage pull request security risks with staged threat modeling and investigation using VulnVibes](../../skills/triage-pull-request-security-risks-with-staged-threat-modeling-and-investigation-using-vulnvibes/) | 17 | — |
 | [Gate risky agent actions behind approval checkpoints with Latch](../../skills/gate-risky-agent-actions-behind-approval-checkpoints-with-latch/) | 8 | — |
 | [Probe AI agents for dangerous tool chains and execution side effects with ZIRAN](../../skills/probe-ai-agents-for-dangerous-tool-chains-and-execution-side-effects-with-ziran/) | 6 | — |
-| [Emit policy receipts for hard-rule agent skills with Pluribus](../../skills/emit-policy-receipts-for-hard-rule-agent-skills-with-pluribus/) | 2 | 1.3k/wk |
 | [Block destructive Terraform, database, Kubernetes, cloud, and Git commands before Claude Code can execute them with Agent Guardrails](../../skills/block-destructive-terraform-database-kubernetes-cloud-and-git-commands-before-claude-code-can-execute-them-with-agent-guardrails/) | 2 | — |
+| [Audit OpenClaw host security posture and hardening gaps](../../skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | — | 837.2k/wk |
+| [Emit policy receipts for hard-rule agent skills with Pluribus](../../skills/emit-policy-receipts-for-hard-rule-agent-skills-with-pluribus/) | — | 1.3k/wk |
 | [Audit and normalize SPDX license headers before releasing or open-sourcing a repository](../../skills/audit-and-normalize-spdx-license-headers-before-releasing-or-open-sourcing-a-repository/) | — | — |
 | [CloudTrail Anomaly Detection Agent](../../skills/cloudtrail-anomaly-detection-agent/) | — | — |
 | [DocuSign Contract Auto-Sender with Conditional Logic](../../skills/docusign-contract-auto-sender/) | — | — |
@@ -263,7 +262,9 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [npm Dependency Audit Scanner](../../skills/npm-dependency-audit-scanner/) | — | — |
 | [OAuth2 Flow Debugger](../../skills/oauth2-flow-debugger/) | — | — |
 | [OAuth2 Token Introspection Agent](../../skills/oauth2-token-introspection-agent/) | — | — |
+| [Provision OAuth-capable Microsoft agent identities with Entra Agent ID](../../skills/provision-oauth-capable-microsoft-agent-identities-with-entra-agent-id/) | — | — |
 | [SBOM Vulnerability Scanner](../../skills/sbom-vulnerability-scanner/) | — | — |
+| [Scan LLM-generated code before use with CodeShield](../../skills/scan-llm-generated-code-before-use-with-codeshield/) | — | — |
 | [SSL Certificate Chain Validator](../../skills/ssl-certificate-chain-validator-2/) | — | — |
 | [SSL/TLS Certificate Validator and Monitor](../../skills/ssl-tls-certificate-validator-monitor/) | — | — |
 | [TLS Certificate Chain Analyzer](../../skills/tls-certificate-chain-analyzer/) | — | — |

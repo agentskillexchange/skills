@@ -6,7 +6,6 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 
 | Skill | Stars |
 |---|---:|
-| [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | ⭐ 116.9k |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../../skills/markitdown-document-to-markdown-converter-microsoft/) | ⭐ 93.2k |
 | [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | ⭐ 86.6k |
 | [SQLite MCP Server](../../skills/sqlite-mcp-server/) | ⭐ 86.6k |
@@ -16,6 +15,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [PaddleOCR Multilingual Document OCR and Structured Data Toolkit](../../skills/paddleocr-multilingual-document-ocr-toolkit/) | ⭐ 73.7k |
 | [Tesseract OCR Data Extractor](../../skills/tesseract-ocr-data-extractor/) | ⭐ 73.6k |
 | [Tesseract OCR Document Extractor](../../skills/tesseract-ocr-document-extractor/) | ⭐ 73.6k |
+| [Apache Superset Dashboard and SQL Exploration Skill](../../skills/apache-superset-dashboard-sql-exploration-skill/) | ⭐ 72.3k |
 
 ---
 
@@ -31,8 +31,8 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [GraphQL Data Federation Agent](../../skills/graphql-data-federation-agent/) | ⬇ 34.2M/wk |
 | [GraphQL Schema Introspection Mapper](../../skills/graphql-schema-introspection-mapper/) | ⬇ 34.2M/wk |
 | [CSV Schema Validator & Auto-Fixer](../../skills/csv-schema-validator-auto-fixer/) | ⬇ 291.1M/wk |
+| [Extract OCR-ready Markdown from documents with Zerox](../../skills/extract-ocr-ready-markdown-from-documents-with-zerox/) | ⬇ 5.3k/wk |
 | [Convert DOCX documents into clean HTML for publishing workflows with Mammoth](../../skills/convert-docx-documents-into-clean-html-for-publishing-workflows-mammoth/) | ⬇ 18.3M/wk |
-| [Parse local PDFs into agent-ready text, JSON, and screenshots with LiteParse](../../skills/parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse/) | ⬇ 37k/wk |
 
 ---
 
@@ -40,7 +40,6 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 
 | Skill | Stars | Downloads |
 |---|---:|---:|
-| [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | 116.9k | — |
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../../skills/markitdown-document-to-markdown-converter-microsoft/) | 93.2k | — |
 | [PostgreSQL MCP Server](../../skills/postgresql-mcp-server/) | 86.6k | 395.9k/wk |
 | [SQLite MCP Server](../../skills/sqlite-mcp-server/) | 86.6k | — |
@@ -115,6 +114,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [dbt Model Lineage Extractor](../../skills/dbt-model-lineage-extractor-2/) | 12.6k | — |
 | [dbt Model Lineage Mapper](../../skills/dbt-model-lineage-mapper/) | 12.6k | — |
 | [dbt Model Transformation Architect](../../skills/dbt-model-transformation-architect/) | 12.6k | — |
+| [Extract OCR-ready Markdown from documents with Zerox](../../skills/extract-ocr-ready-markdown-from-documents-with-zerox/) | 12.2k | 5.3k/wk |
 | [Datasette Data Exploration and Publishing Tool](../../skills/datasette-data-exploration-publishing-tool/) | 10.9k | — |
 | [Grist Self-Hosted Relational Spreadsheet and Database Platform](../../skills/grist-self-hosted-relational-spreadsheet-database/) | 10.8k | — |
 | [xsv High-Performance CSV Toolkit](../../skills/xsv-high-performance-csv-toolkit/) | 10.8k | — |
@@ -144,6 +144,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [ExifTool Metadata Reader and Writer for Images and Files](../../skills/exiftool-metadata-reader-writer-images-files/) | 4.6k | — |
 | [franc Natural Language Detection Library and CLI](../../skills/franc-natural-language-detection/) | 4.4k | — |
 | [Stripe Revenue Analytics Dashboard Builder](../../skills/stripe-revenue-analytics-dashboard/) | 4.4k | 9.3M/wk |
+| [Build managed document parsing pipelines with LlamaCloud Services](../../skills/build-managed-document-parsing-pipelines-with-llamacloud-services/) | 4.2k | 83k/wk |
 | [Apache Kafka Schema Registry Extractor](../../skills/kafka-schema-registry-extractor/) | 4k | 2.5M/wk |
 | [Apache Kafka Schema Registry Validator](../../skills/kafka-schema-registry-validator/) | 4k | 2.5M/wk |
 | [xan SIMD-Powered CSV Processing and Analysis CLI](../../skills/xan-simd-csv-processing-cli/) | 3.9k | — |
@@ -210,6 +211,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Search large PDFs and read only the relevant pages before answering](../../skills/search-large-pdfs-and-read-only-the-relevant-pages-before-answering/) | 17 | 42/wk |
 | [Process, redact, OCR, and sign documents with Nutrient Agent Skill](../../skills/process-redact-ocr-and-sign-documents-with-nutrient-agent-skill/) | 5 | — |
 | [Convert HTML emails and web fragments into clean plain text for downstream agents](../../skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/) | — | 8.2M/wk |
+| [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | — | — |
 | [Metabase Dashboard Snapshot & Alerting](../../skills/metabase-dashboard-snapshot-alerting-2/) | — | — |
 | [Parquet to PostgreSQL Loader](../../skills/parquet-to-postgresql-loader/) | — | — |
 | [QuickBooks Online Invoice Reconciliation Agent](../../skills/quickbooks-invoice-reconciliation/) | — | — |

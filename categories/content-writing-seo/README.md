@@ -9,13 +9,13 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Typst Markup-Based Document Typesetting System](../../skills/typst-markup-typesetting-system/) | ⭐ 52.4k |
 | [Tiptap Headless Rich Text Editor Framework for Web Applications](../../skills/tiptap-headless-rich-text-editor-framework/) | ⭐ 35.9k |
 | [Build versioned technical docs sites with search and navigation using Material for MkDocs](../../skills/build-versioned-technical-docs-sites-with-search-and-nav-using-material-for-mkdocs/) | ⭐ 26.7k |
-| [Diagnose Site SEO Issues with a Structured Audit](../../skills/diagnose-site-seo-issues-with-a-structured-audit/) | ⭐ 21.9k |
-| [Plan Programmatic SEO Pages at Scale](../../skills/plan-programmatic-seo-pages-at-scale/) | ⭐ 21.9k |
 | [WordPress Content Optimizer](../../skills/wordpress-content-optimizer-yoast-rest/) | ⭐ 21k |
 | [VitePress Documentation Site Generator](../../skills/vitepress-documentation-site-generator/) | ⭐ 17.5k |
 | [Zola Fast Static Site Generator in a Single Binary](../../skills/zola-static-site-generator/) | ⭐ 16.8k |
 | [Markdown-to-AMP Article Converter](../../skills/markdown-to-amp-article-converter/) | ⭐ 14.9k |
 | [LanguageTool Grammar and Style Checker](../../skills/languagetool-grammar-style-checker/) | ⭐ 14.2k |
+| [Harper Offline Privacy-First Grammar Checker by Automattic](../../skills/harper-offline-grammar-checker-automattic/) | ⭐ 10.2k |
+| [Markdoc Markdown-Based Authoring Framework by Stripe](../../skills/markdoc-markdown-authoring-framework-stripe/) | ⭐ 7.9k |
 
 ---
 
@@ -43,8 +43,6 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Typst Markup-Based Document Typesetting System](../../skills/typst-markup-typesetting-system/) | 52.4k | — |
 | [Tiptap Headless Rich Text Editor Framework for Web Applications](../../skills/tiptap-headless-rich-text-editor-framework/) | 35.9k | 45.6k/wk |
 | [Build versioned technical docs sites with search and navigation using Material for MkDocs](../../skills/build-versioned-technical-docs-sites-with-search-and-nav-using-material-for-mkdocs/) | 26.7k | — |
-| [Diagnose Site SEO Issues with a Structured Audit](../../skills/diagnose-site-seo-issues-with-a-structured-audit/) | 21.9k | — |
-| [Plan Programmatic SEO Pages at Scale](../../skills/plan-programmatic-seo-pages-at-scale/) | 21.9k | — |
 | [WordPress Content Optimizer](../../skills/wordpress-content-optimizer-yoast-rest/) | 21k | — |
 | [VitePress Documentation Site Generator](../../skills/vitepress-documentation-site-generator/) | 17.5k | 506.5k/wk |
 | [Zola Fast Static Site Generator in a Single Binary](../../skills/zola-static-site-generator/) | 16.8k | — |
@@ -62,7 +60,6 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Generate Markdown tables of contents before publishing docs or README updates](../../skills/generate-markdown-tables-of-contents-before-publishing-docs-or-readme-updates/) | 4.4k | 1M/wk |
 | [Split Markdown front matter and body before docs migrations, metadata audits, or static-site transforms](../../skills/split-markdown-front-matter-and-body-before-docs-migrations-metadata-audits-or-static-site-transforms/) | 4.4k | 26.3M/wk |
 | [KeyBERT Minimal Keyword Extraction with BERT Embeddings](../../skills/keybert-keyword-extraction-bert/) | 4.1k | — |
-| [Format plain-text drafts for clean Substack paste](../../skills/format-plain-text-drafts-for-clean-substack-paste/) | 4.1k | — |
 | [lychee Async Broken Link Checker for Websites and Documentation](../../skills/lychee-async-broken-link-checker/) | 3.5k | — |
 | [Marp CLI Markdown Presentation Converter and Slide Deck Generator](../../skills/marp-cli-markdown-presentation-converter/) | 3.4k | 39.7k/wk |
 | [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | 3.1k | 102.9k/wk |
@@ -96,6 +93,8 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Content Brief Architect](../../skills/content-brief-architect-agent/) | — | — |
 | [Content Cannibalization Detector](../../skills/content-cannibalization-detector/) | — | — |
 | [Copy.ai Sales Email Sequence Builder](../../skills/copyai-sales-email-sequence/) | — | — |
+| [Diagnose Site SEO Issues with a Structured Audit](../../skills/diagnose-site-seo-issues-with-a-structured-audit/) | — | — |
+| [Format plain-text drafts for clean Substack paste](../../skills/format-plain-text-drafts-for-clean-substack-paste/) | — | — |
 | [Google Search Console Insights Agent](../../skills/gsc-insights-agent/) | — | — |
 | [Google Search Console Performance Analyzer](../../skills/gsc-performance-analyzer-skill/) | — | — |
 | [Hemingway Readability Analyzer API](../../skills/hemingway-readability-analyzer-api/) | — | — |
@@ -105,6 +104,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Jasper AI Long-Form Blog Post Generator](../../skills/jasper-longform-blog-generator/) | — | — |
 | [Keyword Cannibalization Detector](../../skills/keyword-cannibalization-detector/) | — | — |
 | [Keyword Cluster Generator](../../skills/keyword-cluster-generator-agent/) | — | — |
+| [Plan Programmatic SEO Pages at Scale](../../skills/plan-programmatic-seo-pages-at-scale/) | — | — |
 | [Rank Math SEO Plugin for WordPress Search Optimization](../../skills/rank-math-seo-plugin-wordpress-search-optimization/) | — | — |
 | [Schema Markup Generator for SEO](../../skills/schema-markup-generator-seo/) | — | — |
 | [Schema.org Markup Generator](../../skills/schema-org-markup-generator-agent/) | — | — |

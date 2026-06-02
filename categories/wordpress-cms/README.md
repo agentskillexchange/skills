@@ -96,11 +96,6 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WordOps High-Performance WordPress Server Stack Manager](../../skills/wordops-high-performance-wordpress-server-stack/) | 1.5k | — |
 | [ElasticPress WordPress Elasticsearch Integration Plugin by 10up](../../skills/elasticpress-wordpress-elasticsearch-integration-10up/) | 1.3k | — |
 | [Meta Box WordPress Custom Fields and Meta Boxes Framework](../../skills/meta-box-wordpress-custom-fields-framework/) | 1.2k | — |
-| [Build and debug custom WordPress REST API endpoints with schema and permission guardrails](../../skills/build-and-debug-custom-wordpress-rest-api-endpoints-with-schema-and-permission-guardrails/) | 1.2k | — |
-| [Build and debug interactive WordPress frontends with data-wp directives](../../skills/build-and-debug-interactive-wordpress-frontends-with-data-wp-directives/) | 1.2k | — |
-| [Diagnose WordPress repo structure and route follow-up work safely](../../skills/diagnose-wordpress-repo-structure-and-route-follow-up-work-safely/) | 1.2k | — |
-| [Run PHPStan on WordPress codebases with correct stubs baselines and narrow ignores](../../skills/run-phpstan-on-wordpress-codebases-with-correct-stubs-baselines-and-narrow-ignores/) | 1.2k | — |
-| [Run WordPress site operations safely with WP-CLI targeting and rollback guardrails](../../skills/run-wordpress-site-operations-safely-with-wp-cli-targeting-and-rollback-guardrails/) | 1.2k | — |
 | [WordPress MCP Adapter Model Context Protocol Bridge](../../skills/wordpress-mcp-adapter-model-context-protocol-bridge/) | 792 | — |
 | [Cockpit CMS Headless Content Platform with REST and GraphQL APIs](../../skills/cockpit-cms-headless-content-platform-rest-graphql-apis/) | 686 | — |
 | [wp-browser WordPress Integration Testing with Codeception](../../skills/wp-browser-wordpress-integration-testing-codeception/) | 634 | — |
@@ -109,7 +104,6 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [ACF Extended for Advanced Custom Fields Workflows](../../skills/acf-extended-advanced-custom-fields-workflows/) | 253 | — |
 | [WP Abilities API](../../skills/wp-abilities-api/) | 212 | — |
 | [HeadstartWP Headless WordPress and Next.js Framework](../../skills/headstartwp-headless-wordpress-nextjs-framework/) | 198 | — |
-| [Develop and harden WordPress plugins with lifecycle and security guardrails](../../skills/develop-and-harden-wordpress-plugins-with-lifecycle-and-security-guardrails/) | 196 | — |
 | [Prismic Headless CMS Content API Client](../../skills/prismic-headless-cms-content-api-client/) | 177 | 199.7k/wk |
 | [WordPress AI Services Plugin](../../skills/wordpress-ai-services-plugin/) | 158 | — |
 | [Storyblok Management API and JavaScript Client](../../skills/storyblok-management-api-and-javascript-client/) | 137 | — |
@@ -124,12 +118,18 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [ACF Custom Fields REST Exposer](../../skills/acf-custom-fields-rest-exposer/) | — | — |
 | [ACF to Gutenberg Block Migrator](../../skills/acf-to-gutenberg-block-migrator/) | — | — |
 | [Advanced Custom Fields REST Schema Mapper](../../skills/advanced-custom-fields-rest-schema-mapper/) | — | — |
+| [Build and debug custom WordPress REST API endpoints with schema and permission guardrails](../../skills/build-and-debug-custom-wordpress-rest-api-endpoints-with-schema-and-permission-guardrails/) | — | — |
+| [Build and debug interactive WordPress frontends with data-wp directives](../../skills/build-and-debug-interactive-wordpress-frontends-with-data-wp-directives/) | — | — |
 | [Contact Form 7 WordPress Form Builder and Mail Integration](../../skills/contact-form-7-wordpress-form-builder-mail-integration/) | — | — |
+| [Develop and harden WordPress plugins with lifecycle and security guardrails](../../skills/develop-and-harden-wordpress-plugins-with-lifecycle-and-security-guardrails/) | — | — |
+| [Diagnose WordPress repo structure and route follow-up work safely](../../skills/diagnose-wordpress-repo-structure-and-route-follow-up-work-safely/) | — | — |
 | [Elementor Website Builder WordPress Visual Page Editor](../../skills/elementor-website-builder-wordpress-visual-page-editor/) | — | — |
 | [Ghost Admin API Headless Publishing and CMS Automation](../../skills/ghost-admin-api-headless-publishing-cms-automation/) | — | — |
 | [Gutenberg Block Pattern Generator](../../skills/gutenberg-block-pattern-generator/) | — | — |
 | [Gutenberg Block Scaffolder](../../skills/gutenberg-block-scaffolder-agent/) | — | — |
 | [Headless CMS GraphQL Connector](../../skills/headless-cms-graphql-connector/) | — | — |
+| [Run PHPStan on WordPress codebases with correct stubs baselines and narrow ignores](../../skills/run-phpstan-on-wordpress-codebases-with-correct-stubs-baselines-and-narrow-ignores/) | — | — |
+| [Run WordPress site operations safely with WP-CLI targeting and rollback guardrails](../../skills/run-wordpress-site-operations-safely-with-wp-cli-targeting-and-rollback-guardrails/) | — | — |
 | [WooCommerce REST Order Manager](../../skills/woocommerce-rest-order-manager/) | — | — |
 | [WooCommerce REST Sync Agent](../../skills/woocommerce-rest-sync-agent/) | — | — |
 | [WordPress Block Theme Scaffolder](../../skills/wordpress-block-theme-scaffolder/) | — | — |
