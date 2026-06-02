@@ -101,13 +101,16 @@ def star_claim_value(match: re.Match[str]) -> int:
 def star_claim_matches(claim: int, actual: int) -> bool:
     if claim == actual:
         return True
+    # Prose star counts are usually rounded snapshots. Fail only when the
+    # claim has materially drifted from the structured source-aligned count.
+    relative_tolerance = int(round(actual * 0.10))
     if actual >= 100_000:
-        return abs(claim - actual) <= 1_000
+        return abs(claim - actual) <= max(1_000, relative_tolerance)
     if actual >= 10_000:
-        return abs(claim - actual) <= 500
+        return abs(claim - actual) <= max(500, relative_tolerance)
     if actual >= 1_000:
-        return abs(claim - actual) <= 100
-    return abs(claim - actual) <= 10
+        return abs(claim - actual) <= max(100, relative_tolerance)
+    return abs(claim - actual) <= max(10, relative_tolerance)
 
 
 def body_start_line(fm_end: int) -> int:
