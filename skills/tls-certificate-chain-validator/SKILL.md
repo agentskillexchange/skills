@@ -20,7 +20,6 @@ Requirements and caveats from upstream:
 - may require rejecting 0-RTT (see Section 4.2.10 ).
 
 Basic usage or getting-started notes:
-- 5.5 . Limits on Key Usage ....................................... 84
 - of protocols that run on top of TLS.
 - following example) is formed (using C notation) by:
 

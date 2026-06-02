@@ -16,7 +16,6 @@ Builds a Zapier automation using the Zapier NLA API to trigger on new HubSpot fo
 ## Installation
 
 Basic usage or getting-started notes:
-- Introduction
 - Developer tools
 - Glossary
 

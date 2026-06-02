@@ -25,7 +25,6 @@ Requirements and caveats from upstream:
 - Authenticating as a user requires an application to collect a user’s email and password. These credentials are then swapped for a cookie, and the cookie is then used to maintain a session.
 
 Basic usage or getting-started notes:
-- Introduction
 - Hosting Guide
 - Updates & Versions
 

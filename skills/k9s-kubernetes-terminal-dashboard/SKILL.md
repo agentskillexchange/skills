@@ -1,7 +1,7 @@
 ---
 name: "K9s Kubernetes Terminal Dashboard"
 slug: "k9s-kubernetes-terminal-dashboard"
-description: "K9s is a terminal-based UI for managing Kubernetes clusters, providing real-time observation of resources, log tailing, pod shell access, and cluster navigation. Written in Go with over 28,000 GitHub stars, it replaces dozens of kubectl commands with an interactive interface."
+description: "K9s is a terminal-based UI for managing Kubernetes clusters, providing real-time observation of resources, log tailing, pod shell access, and cluster navigation. Written in Go, it replaces many kubectl commands with an interactive interface."
 github_stars: 33240
 verification: "security_reviewed"
 source: "https://github.com/derailed/k9s"
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # K9s Kubernetes Terminal Dashboard
 
-K9s is a terminal-based UI for managing Kubernetes clusters, providing real-time observation of resources, log tailing, pod shell access, and cluster navigation. Written in Go with over 28,000 GitHub stars, it replaces dozens of kubectl commands with an interactive interface.
+K9s is a terminal-based UI for managing Kubernetes clusters, providing real-time observation of resources, log tailing, pod shell access, and cluster navigation. Written in Go, it replaces many kubectl commands with an interactive interface.
 
 ## Installation
 

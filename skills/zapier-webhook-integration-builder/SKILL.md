@@ -15,7 +15,6 @@ Creates and manages Zapier integrations using the Zapier Platform CLI and REST H
 ## Installation
 
 Basic usage or getting-started notes:
-- Introduction
 - Developer tools
 - Glossary
 

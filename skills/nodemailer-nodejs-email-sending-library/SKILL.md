@@ -1,7 +1,7 @@
 ---
 name: "Nodemailer Node.js Email Sending Library with SMTP and Transport Support"
 slug: "nodemailer-nodejs-email-sending-library"
-description: "Nodemailer is the most widely used Node.js library for sending emails, with 17k+ GitHub stars and 7 million weekly npm downloads. It supports SMTP, OAuth2, HTML content, attachments, embedded images, and custom transports for services like SES and SendGrid."
+description: "Nodemailer is the most widely used Node.js library for sending emails, and 7 million weekly npm downloads. It supports SMTP, OAuth2, HTML content, attachments, embedded images, and custom transports for services like SES and SendGrid."
 github_stars: 17534
 verification: "security_reviewed"
 source: "https://github.com/nodemailer/nodemailer"
@@ -17,7 +17,7 @@ tool_ecosystem:
 
 # Nodemailer Node.js Email Sending Library with SMTP and Transport Support
 
-Nodemailer is the most widely used Node.js library for sending emails, with 17k+ GitHub stars and 7 million weekly npm downloads. It supports SMTP, OAuth2, HTML content, attachments, embedded images, and custom transports for services like SES and SendGrid.
+Nodemailer is the most widely used Node.js library for sending emails, and 7 million weekly npm downloads. It supports SMTP, OAuth2, HTML content, attachments, embedded images, and custom transports for services like SES and SendGrid.
 
 ## Installation
 

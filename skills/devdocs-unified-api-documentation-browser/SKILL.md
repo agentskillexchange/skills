@@ -1,7 +1,7 @@
 ---
 name: "DevDocs Unified API Documentation Browser"
 slug: "devdocs-unified-api-documentation-browser"
-description: "DevDocs aggregates 500+ API documentation sets into a single searchable interface with instant fuzzy search, offline support, and keyboard navigation. Maintained by freeCodeCamp with 38,000+ GitHub stars, it serves as a comprehensive reference for programming languages, frameworks, and tools."
+description: "DevDocs aggregates 500+ API documentation sets into a single searchable interface with instant fuzzy search, offline support, and keyboard navigation. Maintained by freeCodeCamp, it serves as a comprehensive reference for programming languages, frameworks, and tools."
 github_stars: 38655
 verification: "security_reviewed"
 source: "https://github.com/freeCodeCamp/devdocs"
@@ -14,7 +14,7 @@ tool_ecosystem:
 
 # DevDocs Unified API Documentation Browser
 
-DevDocs aggregates 500+ API documentation sets into a single searchable interface with instant fuzzy search, offline support, and keyboard navigation. Maintained by freeCodeCamp with 38,000+ GitHub stars, it serves as a comprehensive reference for programming languages, frameworks, and tools.
+DevDocs aggregates 500+ API documentation sets into a single searchable interface with instant fuzzy search, offline support, and keyboard navigation. Maintained by freeCodeCamp, it serves as a comprehensive reference for programming languages, frameworks, and tools.
 
 ## Installation
 
@@ -30,9 +30,7 @@ Requirements and caveats from upstream:
 - DevDocs requires Ruby 3.4.1 (defined in [Gemfile](./Gemfile)), libcurl, and a JavaScript runtime supported by [ExecJS](https://github.com/rails/execjs#readme) (included in OS X and Windows; [Node.js](https://nodejs.or...
 
 Basic usage or getting-started notes:
-- **Table of Contents:** [Quick Start](#quick-start) · [Vision](#vision) · [App](#app) · [Scraper](#scraper) · [Commands](#available-commands) · [Contributing](#contributing) · [Documentation](#documentation) · [Related...
 - Unless you wish to contribute to the project, we recommend using the hosted version at [devdocs.io](https://devdocs.io). It's up-to-date and works offline out-of-the-box.
-- sh
 
 - Source: https://github.com/freeCodeCamp/devdocs
 - Extracted from upstream docs: https://raw.githubusercontent.com/freeCodeCamp/devdocs/HEAD/README.md

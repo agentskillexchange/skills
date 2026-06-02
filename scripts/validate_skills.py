@@ -14,6 +14,11 @@ import re
 import sys
 from pathlib import Path
 
+try:
+    from ase_body_quality_gate import scan_file as scan_body_quality
+except ImportError:  # pragma: no cover - keeps single-file use working if script is copied.
+    scan_body_quality = None
+
 # ── Schema invariants ─────────────────────────────────────────────────────────
 REQUIRED_FIELDS   = {"name", "slug", "description", "category", "framework", "verification"}
 FORBIDDEN_FIELDS  = {"verification_status", "verified_metadata"}
@@ -131,6 +136,19 @@ def validate_file(path: Path, github_annotations: bool = False) -> tuple[list[st
         errors.append(f"Invalid verification value '{ver}'; must be listed|security_reviewed")
     if ver == "security_reviewed" and INSTALL_BOILERPLATE in text:
         errors.append("Security-reviewed skill still contains generic skill-folder installation boilerplate")
+    if scan_body_quality is not None:
+        body_quality = scan_body_quality(path)
+        if ver == "security_reviewed":
+            for hit in body_quality["toc_fragments"]:
+                errors.append(f"Body quality: strict TOC/navigation fragment at line {hit['line']}: {hit['text']}")
+            for hit in body_quality["stale_star_claims"]:
+                errors.append(
+                    "Body quality: stale GitHub-star prose claim at "
+                    f"line {hit['line']}: {hit['text']} "
+                    f"(structured github_stars={hit['structured_github_stars']})"
+                )
+        for hit in body_quality["markdown_heading_bullet_warnings"]:
+            warnings.append(f"Body quality warning at line {hit['line']}: {hit['text']}")
 
     # H1 heading in body
     if "\n# " not in text and not text.startswith("# "):

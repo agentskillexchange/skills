@@ -1,7 +1,7 @@
 ---
 name: "ActivityWatch Cross-Platform Automated Time Tracker and Productivity Analyzer"
 slug: "activitywatch-automated-time-tracker"
-description: "ActivityWatch is a privacy-first, open-source automated time tracker that records application usage, browser activity, and AFK status across Windows, macOS, and Linux. With 16k+ GitHub stars, it provides detailed productivity analytics without sending data to external servers."
+description: "ActivityWatch is a privacy-first, open-source automated time tracker that records application usage, browser activity, and AFK status across Windows, macOS, and Linux. It provides detailed productivity analytics without sending data to external servers."
 github_stars: 17242
 verification: "security_reviewed"
 source: "https://github.com/ActivityWatch/activitywatch"
@@ -15,7 +15,7 @@ tool_ecosystem:
 
 # ActivityWatch Cross-Platform Automated Time Tracker and Productivity Analyzer
 
-ActivityWatch is a privacy-first, open-source automated time tracker that records application usage, browser activity, and AFK status across Windows, macOS, and Linux. With 16k+ GitHub stars, it provides detailed productivity analytics without sending data to external servers.
+ActivityWatch is a privacy-first, open-source automated time tracker that records application usage, browser activity, and AFK status across Windows, macOS, and Linux. It provides detailed productivity analytics without sending data to external servers.
 
 ## Installation
 

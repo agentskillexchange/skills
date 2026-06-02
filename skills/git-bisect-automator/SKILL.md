@@ -26,7 +26,6 @@ Requirements and caveats from upstream:
 
 Basic usage or getting-started notes:
 - Community
-- Table of Contents
 - NAME
 
 - Source: https://git-scm.com/docs/git-bisect

@@ -19,7 +19,6 @@ Use the upstream install or setup path that matches your environment:
 
 Basic usage or getting-started notes:
 - Community
-- Table of Contents
 - NAME
 
 - Source: https://git-scm.com/docs/git-diff

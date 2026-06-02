@@ -15,9 +15,6 @@ Manages GPG key lifecycle and file encryption operations using GnuPG CLI and GPG
 ## Installation
 
 Basic usage or getting-started notes:
-- 4.5 Unattended Usage
-- 5.5 Unattended Usage
-- 10.5 Run gpgconf for all users
 
 - Source: https://www.gnupg.org/documentation/manuals/gnupg/
 
