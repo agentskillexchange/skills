@@ -50,6 +50,10 @@ Client-facing AI delivery, agency operations, forward deployed engineering workf
 | [Browserbase MCP Server](../skills/browserbase-mcp-server/) | Provides managed browser infrastructure through MCP for agency-built agents that need reliable web sessions. | FDE / agent infrastructure engineer | High | 3.3k |
 | [Cal.com Open Source Scheduling Infrastructure and API](../skills/cal-com-open-source-scheduling-infrastructure-api/) | Adds scheduling infrastructure for client onboarding, demos, bookings, and service-delivery handoffs. | Client success ops / agency operations lead | High | 40.9k |
 | [Webflow Data API JavaScript SDK](../skills/webflow-data-api-javascript-sdk/) | Covers Webflow site and CMS operations for agencies delivering client landing pages, CMS migrations, and content systems. | Webflow agency engineer / site ops lead | Medium | 340 |
+| [Run local multi-agent browser tasks with Nanobrowser](../skills/run-local-multi-agent-browser-tasks-with-nanobrowser/) | Adds a local multi-agent browser execution option for agency QA, lead research, and workflow checks. | AI agency operator / FDE | Medium | 13.1k |
+| [Use OmniParser for vision-based GUI parsing](../skills/use-omniparser-for-vision-based-gui-parsing/) | Improves GUI-grounded automation when agents need screen element understanding instead of brittle selectors. | FDE / browser automation engineer | Medium | 24.8k |
+| [Give coding agents Figma layout context through MCP](../skills/give-coding-agents-figma-layout-context-through-mcp/) | Connects design context to coding agents so FDE teams can implement client UI work from real Figma layouts. | FDE / design-to-code engineer | Medium | 14.9k |
+| [Trace, evaluate, simulate, and guardrail agent releases with Future AGI](../skills/trace-evaluate-simulate-and-guardrail-agent-releases-with-future-agi/) | Adds release evaluation and guardrail checks for agencies shipping client-facing agent workflows. | AI agency delivery lead | Medium | 1k |
 
 ## Editorial Notes
 

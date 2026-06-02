@@ -39,6 +39,9 @@ Product analytics, feature flags, rollout checks, session replay, privacy-friend
 | [Evidence BI-as-Code SQL and Markdown Analytics Framework](../skills/evidence-bi-as-code-sql-markdown-analytics/) | Builds versioned SQL-backed data reports that can live beside launch docs. | Analytics engineer / growth ops | Medium | 6.1k |
 | [Run repeatable agent evaluation suites with trajectory and simulator coverage using Strands Evals](../skills/run-repeatable-agent-evaluation-suites-with-trajectory-and-simulator-coverage-using-strands-evals/) | Adds repeatable AI-agent evaluation evidence for launch readiness, complementing analytics and feature-flag workflows. | AI product manager / evaluation lead | Medium | 105 |
 | [Stripe Revenue Analytics Dashboard Builder](../skills/stripe-revenue-analytics-dashboard/) | Adds revenue analytics for growth teams tracking MRR, churn, LTV, and subscription movement from Stripe data. | Growth analyst / RevOps | Medium | 4.4k |
+| [Use PandasAI for conversational CSV and spreadsheet analysis](../skills/use-pandasai-for-conversational-csv-and-spreadsheet-analysis/) | Gives growth and product teams a fast way to interrogate CSV exports before committing to dashboard or warehouse work. | Product analyst / growth ops | Medium | 23.6k |
+| [Query Postgres databases through read-only MCP workflows with PGMCP](../skills/query-postgres-databases-through-read-only-mcp-workflows-with-pgmcp/) | Adds read-only Postgres analysis for product metrics while keeping write access out of exploratory agent workflows. | Product data analyst / analytics engineer | High | 529 |
+| [Trace, evaluate, simulate, and guardrail agent releases with Future AGI](../skills/trace-evaluate-simulate-and-guardrail-agent-releases-with-future-agi/) | Connects release evaluation and guardrail checks to growth experiments and AI-feature launch readiness. | AI product ops / experimentation lead | Medium | 1k |
 
 ## Editorial Notes
 

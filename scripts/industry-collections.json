@@ -186,7 +186,11 @@
         "run-persistent-finance-research-workspaces-with-langalpha",
         "apache-superset-dashboard-sql-exploration-skill",
         "create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas",
-        "metabase-dashboard-snapshot-alerting-2"
+        "metabase-dashboard-snapshot-alerting-2",
+        "connect-accounting-agents-to-xero-through-mcp",
+        "extract-ocr-ready-markdown-from-documents-with-zerox",
+        "use-pandasai-for-conversational-csv-and-spreadsheet-analysis",
+        "read-google-drive-files-and-edit-sheets-through-mcp"
       ],
       "who_for": [
         "Finance operators, founders, RevOps teams, and analysts who need evidence-backed filings, invoice, billing, and reconciliation workflows.",
@@ -327,6 +331,26 @@
         "metabase-dashboard-snapshot-alerting-2": {
           "why_here": "Captures dashboard snapshots and alerts so finance teams can monitor recurring metrics without manually checking reports.",
           "persona": "Finance analytics engineer / ops lead",
+          "install_complexity": "Medium"
+        },
+        "connect-accounting-agents-to-xero-through-mcp": {
+          "why_here": "Adds a direct Xero accounting connector for invoice, contact, and finance-record workflows after extraction or reconciliation.",
+          "persona": "Finance ops / accounting automation lead",
+          "install_complexity": "Medium"
+        },
+        "extract-ocr-ready-markdown-from-documents-with-zerox": {
+          "why_here": "Converts scanned statements, receipts, and finance PDFs into OCR-ready Markdown before filing review or table extraction.",
+          "persona": "Finance analyst / document intake ops",
+          "install_complexity": "Medium"
+        },
+        "use-pandasai-for-conversational-csv-and-spreadsheet-analysis": {
+          "why_here": "Lets analysts interrogate CSV and spreadsheet exports in natural language before building heavier dashboards.",
+          "persona": "Finance analyst / RevOps analyst",
+          "install_complexity": "Medium"
+        },
+        "read-google-drive-files-and-edit-sheets-through-mcp": {
+          "why_here": "Connects agents to Drive and Sheets where finance teams often stage reconciliations, forecast models, and review exports.",
+          "persona": "Finance ops / spreadsheet workflow owner",
           "install_complexity": "Medium"
         }
       }
@@ -500,7 +524,9 @@
         "load-mbox-mail-archives-into-sqlite-for-offline-search-audits-and-dataset-joins",
         "markitdown-document-to-markdown-converter-microsoft",
         "mineru-pdf-to-markdown-document-parser",
-        "put-approval-gates-and-audit-ready-policy-checks-between-agents-and-external-actions-with-dashclaw"
+        "put-approval-gates-and-audit-ready-policy-checks-between-agents-and-external-actions-with-dashclaw",
+        "extract-ocr-ready-markdown-from-documents-with-zerox",
+        "build-managed-document-parsing-pipelines-with-llamacloud-services"
       ],
       "who_for": [
         "Legal operations, compliance, and records teams that need document intake, review, redaction, and archive workflows.",
@@ -695,6 +721,16 @@
           "why_here": "Adds approval gates and replayable decision evidence when legal AI workflows need human review before external actions.",
           "persona": "Legal AI governance lead / compliance ops",
           "install_complexity": "High"
+        },
+        "extract-ocr-ready-markdown-from-documents-with-zerox": {
+          "why_here": "Turns scanned contracts, exhibits, and evidence PDFs into reviewable Markdown before legal search or redaction workflows.",
+          "persona": "Legal ops / document review lead",
+          "install_complexity": "Medium"
+        },
+        "build-managed-document-parsing-pipelines-with-llamacloud-services": {
+          "why_here": "Provides a managed parsing path for high-volume contract and policy packets where local parsers are too brittle.",
+          "persona": "Legal ops automation engineer",
+          "install_complexity": "Medium"
         }
       }
     },
@@ -720,7 +756,9 @@
         "paddleocr-multilingual-document-ocr-toolkit",
         "markitdown-document-to-markdown-converter-microsoft",
         "extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg",
-        "tesseract-ocr-document-extractor"
+        "tesseract-ocr-document-extractor",
+        "extract-ocr-ready-markdown-from-documents-with-zerox",
+        "build-managed-document-parsing-pipelines-with-llamacloud-services"
       ],
       "who_for": [
         "Healthcare operations, intake, research, and documentation teams handling paperwork-heavy non-clinical workflows.",
@@ -850,6 +888,16 @@
           "why_here": "Adds a proven OCR path for scanned intake forms, referral packets, and legacy paperwork before human review.",
           "persona": "Healthcare intake ops / document automation engineer",
           "install_complexity": "Medium"
+        },
+        "extract-ocr-ready-markdown-from-documents-with-zerox": {
+          "why_here": "Helps intake teams convert scanned referrals, forms, and PDFs into text artifacts before review or routing.",
+          "persona": "Clinical intake ops / documentation analyst",
+          "install_complexity": "High"
+        },
+        "build-managed-document-parsing-pipelines-with-llamacloud-services": {
+          "why_here": "Adds a managed document parsing option for structured intake packets, with humans still responsible for regulated-data review.",
+          "persona": "Healthcare documentation automation lead",
+          "install_complexity": "High"
         }
       }
     },
@@ -871,7 +919,10 @@
         "duckdb-sql-analytics-agent",
         "evidence-bi-as-code-sql-markdown-analytics",
         "run-repeatable-agent-evaluation-suites-with-trajectory-and-simulator-coverage-using-strands-evals",
-        "stripe-revenue-analytics-dashboard"
+        "stripe-revenue-analytics-dashboard",
+        "use-pandasai-for-conversational-csv-and-spreadsheet-analysis",
+        "query-postgres-databases-through-read-only-mcp-workflows-with-pgmcp",
+        "trace-evaluate-simulate-and-guardrail-agent-releases-with-future-agi"
       ],
       "who_for": [
         "Product, growth, analytics, and rollout teams that need agents to inspect metrics, flags, and experiment evidence.",
@@ -981,6 +1032,21 @@
         "stripe-revenue-analytics-dashboard": {
           "why_here": "Adds revenue analytics for growth teams tracking MRR, churn, LTV, and subscription movement from Stripe data.",
           "persona": "Growth analyst / RevOps",
+          "install_complexity": "Medium"
+        },
+        "use-pandasai-for-conversational-csv-and-spreadsheet-analysis": {
+          "why_here": "Gives growth and product teams a fast way to interrogate CSV exports before committing to dashboard or warehouse work.",
+          "persona": "Product analyst / growth ops",
+          "install_complexity": "Medium"
+        },
+        "query-postgres-databases-through-read-only-mcp-workflows-with-pgmcp": {
+          "why_here": "Adds read-only Postgres analysis for product metrics while keeping write access out of exploratory agent workflows.",
+          "persona": "Product data analyst / analytics engineer",
+          "install_complexity": "High"
+        },
+        "trace-evaluate-simulate-and-guardrail-agent-releases-with-future-agi": {
+          "why_here": "Connects release evaluation and guardrail checks to growth experiments and AI-feature launch readiness.",
+          "persona": "AI product ops / experimentation lead",
           "install_complexity": "Medium"
         }
       }
@@ -1193,7 +1259,8 @@
         "slack-mcp-server",
         "imap-inbox-triage-agent",
         "zapier-lead-enrichment-workflow",
-        "gmail-api-thread-label-triage"
+        "gmail-api-thread-label-triage",
+        "use-docsgpt-for-document-grounded-enterprise-assistants"
       ],
       "discovery_candidates": [
         "https://github.com/nbashaw/claude-cs",
@@ -1350,6 +1417,11 @@
           "why_here": "Adds Gmail-native thread labeling and triage for support and success teams that still coordinate from shared inboxes.",
           "persona": "Support ops lead / customer success manager",
           "install_complexity": "Medium"
+        },
+        "use-docsgpt-for-document-grounded-enterprise-assistants": {
+          "why_here": "Turns internal documentation into grounded assistant answers for support teams before replies reach customers.",
+          "persona": "Support ops / knowledge manager",
+          "install_complexity": "High"
         }
       }
     },
@@ -1521,7 +1593,9 @@
         "excalidraw-virtual-whiteboard-diagram-sdk",
         "search-notebooklm-notebooks-sources-and-generated-study-artifacts-from-agents",
         "parameterize-and-execute-notebooks-as-repeatable-runs",
-        "automate-ml-research-loops-with-aris-skills"
+        "automate-ml-research-loops-with-aris-skills",
+        "use-docsgpt-for-document-grounded-enterprise-assistants",
+        "run-autonomous-deep-research-workflows-with-gpt-researcher"
       ],
       "who_for": [
         "Researchers, academic labs, research analysts, and science or technical writing teams turning scattered sources into reviewable research artifacts.",
@@ -1660,6 +1734,16 @@
           "why_here": "Supports iterative ML experiment planning, execution, and review loops with reusable research-agent structure.",
           "persona": "ML researcher / research engineer",
           "install_complexity": "High"
+        },
+        "use-docsgpt-for-document-grounded-enterprise-assistants": {
+          "why_here": "Lets research and education teams build grounded assistants over course material, papers, or institutional knowledge bases.",
+          "persona": "Research ops / learning technology lead",
+          "install_complexity": "High"
+        },
+        "run-autonomous-deep-research-workflows-with-gpt-researcher": {
+          "why_here": "Adds an autonomous research workflow for literature scans, source gathering, and first-pass synthesis packets.",
+          "persona": "Research assistant / academic analyst",
+          "install_complexity": "Medium"
         }
       }
     },
@@ -1691,7 +1775,11 @@
         "skyvern-ai-browser-workflow-automation",
         "browserbase-mcp-server",
         "cal-com-open-source-scheduling-infrastructure-api",
-        "webflow-data-api-javascript-sdk"
+        "webflow-data-api-javascript-sdk",
+        "run-local-multi-agent-browser-tasks-with-nanobrowser",
+        "use-omniparser-for-vision-based-gui-parsing",
+        "give-coding-agents-figma-layout-context-through-mcp",
+        "trace-evaluate-simulate-and-guardrail-agent-releases-with-future-agi"
       ],
       "who_for": [
         "AI agency founders, forward deployed engineers, automation consultants, client delivery leads, and solutions engineers packaging repeatable AI-enabled services for clients.",
@@ -1856,6 +1944,26 @@
         "webflow-data-api-javascript-sdk": {
           "why_here": "Covers Webflow site and CMS operations for agencies delivering client landing pages, CMS migrations, and content systems.",
           "persona": "Webflow agency engineer / site ops lead",
+          "install_complexity": "Medium"
+        },
+        "run-local-multi-agent-browser-tasks-with-nanobrowser": {
+          "why_here": "Adds a local multi-agent browser execution option for agency QA, lead research, and workflow checks.",
+          "persona": "AI agency operator / FDE",
+          "install_complexity": "Medium"
+        },
+        "use-omniparser-for-vision-based-gui-parsing": {
+          "why_here": "Improves GUI-grounded automation when agents need screen element understanding instead of brittle selectors.",
+          "persona": "FDE / browser automation engineer",
+          "install_complexity": "Medium"
+        },
+        "give-coding-agents-figma-layout-context-through-mcp": {
+          "why_here": "Connects design context to coding agents so FDE teams can implement client UI work from real Figma layouts.",
+          "persona": "FDE / design-to-code engineer",
+          "install_complexity": "Medium"
+        },
+        "trace-evaluate-simulate-and-guardrail-agent-releases-with-future-agi": {
+          "why_here": "Adds release evaluation and guardrail checks for agencies shipping client-facing agent workflows.",
+          "persona": "AI agency delivery lead",
           "install_complexity": "Medium"
         }
       }

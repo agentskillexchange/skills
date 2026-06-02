@@ -44,6 +44,8 @@ Literature review, citation context, research synthesis, paper drafting, replica
 | [Search NotebookLM notebooks, sources, and generated study artifacts from agents](../skills/search-notebooklm-notebooks-sources-and-generated-study-artifacts-from-agents/) | Lets research agents search NotebookLM notebooks, source sets, notes, and study artifacts without leaving the research workspace. | Research analyst / study workflow owner | Medium | 3.6k |
 | [Parameterize and execute notebooks as repeatable runs](../skills/parameterize-and-execute-notebooks-as-repeatable-runs/) | Turns notebooks into parameterized repeatable runs for analysis, replication checks, and teaching workflows. | Research engineer / data science instructor | Medium | 6.4k |
 | [Automate ML research loops with ARIS skills](../skills/automate-ml-research-loops-with-aris-skills/) | Supports iterative ML experiment planning, execution, and review loops with reusable research-agent structure. | ML researcher / research engineer | High | 9.6k |
+| [Use DocsGPT for document-grounded enterprise assistants](../skills/use-docsgpt-for-document-grounded-enterprise-assistants/) | Lets research and education teams build grounded assistants over course material, papers, or institutional knowledge bases. | Research ops / learning technology lead | High | 17.9k |
+| [Run autonomous deep research workflows with GPT Researcher](../skills/run-autonomous-deep-research-workflows-with-gpt-researcher/) | Adds an autonomous research workflow for literature scans, source gathering, and first-pass synthesis packets. | Research assistant / academic analyst | Medium | 27.4k |
 
 ## Editorial Notes
 

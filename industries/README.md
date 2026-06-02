@@ -5,16 +5,16 @@
 | | Collection | Picks | Summary |
 |---|---|---:|---|
 | 🎙️ | [**Media & Publishing Systems**](media-publishing-systems.md) | 17 | Transcription, subtitles, podcast workflows, chaptering, localization, loudness cleanup, and final-mile publishing prep. |
-| 💼 | [**Finance & Filings**](finance-filings.md) | 18 | Filings research, invoice intake, billing operations, reconciliation, and finance-adjacent reporting. |
+| 💼 | [**Finance & Filings**](finance-filings.md) | 22 | Filings research, invoice intake, billing operations, reconciliation, and finance-adjacent reporting. |
 | 🛒 | [**Ecommerce & Retail Operations**](ecommerce-retail-operations.md) | 12 | Catalog management, storefront automation, orders, inventory sync, marketplace support, and review-driven merchandising. |
-| ⚖️ | [**Legal Ops & Compliance**](legal-ops-compliance.md) | 28 | Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support. |
-| 🩺 | [**Healthcare Documentation & Intake**](healthcare-documentation-intake.md) | 16 | Documentation intake, OCR, transcription, structured extraction, and biomedical literature support for paperwork-heavy workflows. |
-| 📈 | [**Product Analytics & Growth Ops**](product-analytics-growth-ops.md) | 12 | Product analytics, feature flags, rollout checks, session replay, privacy-friendly web analytics, and experiment/evaluation workflows. |
+| ⚖️ | [**Legal Ops & Compliance**](legal-ops-compliance.md) | 30 | Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support. |
+| 🩺 | [**Healthcare Documentation & Intake**](healthcare-documentation-intake.md) | 18 | Documentation intake, OCR, transcription, structured extraction, and biomedical literature support for paperwork-heavy workflows. |
+| 📈 | [**Product Analytics & Growth Ops**](product-analytics-growth-ops.md) | 15 | Product analytics, feature flags, rollout checks, session replay, privacy-friendly web analytics, and experiment/evaluation workflows. |
 | 📚 | [**DevRel & API Documentation**](devrel-api-documentation.md) | 20 | API docs, OpenAPI references, SDK generation, docs-site publishing, prose linting, and developer enablement workflows. |
-| 🎧 | [**Customer Support & Success**](customer-support-success.md) | 22 | Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, customer context, CRM sync, and reply-drafting support. |
+| 🎧 | [**Customer Support & Success**](customer-support-success.md) | 23 | Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, customer context, CRM sync, and reply-drafting support. |
 | 🏠 | [**Real Estate Workflows**](real-estate-workflows.md) | 13 | Property research support, transaction paperwork, signature routing, document intake, CRM context, and listing follow-up workflows for real-estate operations. |
-| 🎓 | [**Education & Research Workflows**](education-research-workflows.md) | 17 | Literature review, citation context, research synthesis, paper drafting, replication checks, and evidence packets for academic and technical teams. |
-| 🧭 | [**AI Agency Operations & FDE Workflows**](ai-agency-operations.md) | 22 | Client-facing AI delivery, agency operations, forward deployed engineering workflows, automation consulting, and reusable implementation systems for client work. |
+| 🎓 | [**Education & Research Workflows**](education-research-workflows.md) | 19 | Literature review, citation context, research synthesis, paper drafting, replication checks, and evidence packets for academic and technical teams. |
+| 🧭 | [**AI Agency Operations & FDE Workflows**](ai-agency-operations.md) | 26 | Client-facing AI delivery, agency operations, forward deployed engineering workflows, automation consulting, and reusable implementation systems for client work. |
 
 ---
 

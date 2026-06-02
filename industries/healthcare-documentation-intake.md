@@ -43,6 +43,8 @@ Documentation intake, OCR, transcription, structured extraction, and biomedical 
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../skills/markitdown-document-to-markdown-converter-microsoft/) | Converts PDFs, Office files, images, and audio notes into Markdown that documentation agents can summarize with human review. | Clinical documentation ops / data intake analyst | Medium | 93.2k |
 | [Extract structured text, metadata, tables, and images from mixed documents through an MCP server with Kreuzberg](../skills/extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg/) | Gives agents one MCP-accessible extraction layer for PDFs, Office files, images, HTML, and other mixed healthcare intake inputs. | Health data engineer / AI documentation ops | High | 7.6k |
 | [Tesseract OCR Document Extractor](../skills/tesseract-ocr-document-extractor/) | Adds a proven OCR path for scanned intake forms, referral packets, and legacy paperwork before human review. | Healthcare intake ops / document automation engineer | Medium | 73.6k |
+| [Extract OCR-ready Markdown from documents with Zerox](../skills/extract-ocr-ready-markdown-from-documents-with-zerox/) | Helps intake teams convert scanned referrals, forms, and PDFs into text artifacts before review or routing. | Clinical intake ops / documentation analyst | High | 12.2k |
+| [Build managed document parsing pipelines with LlamaCloud Services](../skills/build-managed-document-parsing-pipelines-with-llamacloud-services/) | Adds a managed document parsing option for structured intake packets, with humans still responsible for regulated-data review. | Healthcare documentation automation lead | High | 4.2k |
 
 ## Editorial Notes
 

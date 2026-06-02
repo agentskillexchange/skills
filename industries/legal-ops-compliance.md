@@ -57,6 +57,8 @@ Contract workflows, forms, document review, archive search, and evidence-oriente
 | [MarkItDown Document-to-Markdown Converter by Microsoft](../skills/markitdown-document-to-markdown-converter-microsoft/) | Converts Office files, PDFs, email-like documents, and other matter inputs into Markdown for review packets and audit summaries. | Legal ops analyst / compliance reviewer | Medium | 93.2k |
 | [MinerU PDF-to-Markdown Document Parser](../skills/mineru-pdf-to-markdown-document-parser/) | Handles complex PDFs with layout-aware Markdown and JSON output for contract packets, exhibits, and long-form compliance evidence. | eDiscovery engineer / records analyst | High | 57.8k |
 | [Put approval gates and audit-ready policy checks between agents and external actions with DashClaw](../skills/put-approval-gates-and-audit-ready-policy-checks-between-agents-and-external-actions-with-dashclaw/) | Adds approval gates and replayable decision evidence when legal AI workflows need human review before external actions. | Legal AI governance lead / compliance ops | High | 241 |
+| [Extract OCR-ready Markdown from documents with Zerox](../skills/extract-ocr-ready-markdown-from-documents-with-zerox/) | Turns scanned contracts, exhibits, and evidence PDFs into reviewable Markdown before legal search or redaction workflows. | Legal ops / document review lead | Medium | 12.2k |
+| [Build managed document parsing pipelines with LlamaCloud Services](../skills/build-managed-document-parsing-pipelines-with-llamacloud-services/) | Provides a managed parsing path for high-volume contract and policy packets where local parsers are too brittle. | Legal ops automation engineer | Medium | 4.2k |
 
 ## Editorial Notes
 

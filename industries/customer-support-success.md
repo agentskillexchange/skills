@@ -48,6 +48,7 @@ Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, c
 | [IMAP Inbox Triage Agent](../skills/imap-inbox-triage-agent/) | Adds direct inbox classification and prioritization for teams whose support flow still starts in shared IMAP mailboxes. | Support inbox manager / operations analyst | Medium | — |
 | [Zapier Multi-Step Lead Enrichment Workflow](../skills/zapier-lead-enrichment-workflow/) | Enriches lead/contact records before support-to-success handoff or account follow-up. | Success ops / CRM automation lead | Medium | — |
 | [Gmail API Thread Label Triage](../skills/gmail-api-thread-label-triage/) | Adds Gmail-native thread labeling and triage for support and success teams that still coordinate from shared inboxes. | Support ops lead / customer success manager | Medium | — |
+| [Use DocsGPT for document-grounded enterprise assistants](../skills/use-docsgpt-for-document-grounded-enterprise-assistants/) | Turns internal documentation into grounded assistant answers for support teams before replies reach customers. | Support ops / knowledge manager | High | 17.9k |
 
 ## Editorial Notes
 
