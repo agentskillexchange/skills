@@ -207,4 +207,17 @@ echo "[sync-from-api] Applying cleaned frontmatter verification overlay"
 python3 "$SCRIPT_DIR/apply-frontmatter-verification-overlay.py" "$REPO_DIR"
 python3 "$SCRIPT_DIR/apply-frontmatter-verification-overlay.py" "$REPO_DIR" --check
 
+echo "[sync-from-api] Cleaning generated skill install boilerplate"
+python3 "$SCRIPT_DIR/ase_replace_install_boilerplate.py"
+
+echo "[sync-from-api] Re-applying cleaned frontmatter verification overlay"
+python3 "$SCRIPT_DIR/apply-frontmatter-verification-overlay.py" "$REPO_DIR"
+python3 "$SCRIPT_DIR/apply-frontmatter-verification-overlay.py" "$REPO_DIR" --check
+
+echo "[sync-from-api] Checking skill body quality"
+python3 "$SCRIPT_DIR/ase_body_quality_gate.py" --all
+
+echo "[sync-from-api] Validating skill frontmatter"
+python3 "$SCRIPT_DIR/validate_skills.py" --all --quiet
+
 echo "[sync-from-api] Done."

@@ -35,6 +35,9 @@ echo "=== Applying cleaned frontmatter verification overlay ==="
 python3 "$SCRIPT_DIR/apply-frontmatter-verification-overlay.py" "$REPO_DIR"
 python3 "$SCRIPT_DIR/apply-frontmatter-verification-overlay.py" "$REPO_DIR" --check
 
+echo "=== Checking skill body quality ==="
+python3 "$SCRIPT_DIR/ase_body_quality_gate.py" --all
+
 echo "=== Validating cleaned skill frontmatter ==="
 python3 "$SCRIPT_DIR/validate_skills.py" --all --quiet
 
@@ -47,6 +50,9 @@ python3 "$SCRIPT_DIR/generate-agent-endpoints.py" "$REPO_DIR"
 echo "=== Re-applying cleaned frontmatter verification overlay ==="
 python3 "$SCRIPT_DIR/apply-frontmatter-verification-overlay.py" "$REPO_DIR"
 python3 "$SCRIPT_DIR/apply-frontmatter-verification-overlay.py" "$REPO_DIR" --check
+
+echo "=== Re-checking skill body quality ==="
+python3 "$SCRIPT_DIR/ase_body_quality_gate.py" --all
 
 echo "=== Checking install command safety ==="
 python3 "$SCRIPT_DIR/check-install-commands.py" "$REPO_DIR"

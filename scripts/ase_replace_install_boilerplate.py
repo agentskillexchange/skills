@@ -40,6 +40,17 @@ GENERIC_SENTENCES = (
     "internal provisioning",
     "download the folder directly",
 )
+STRICT_NAV_LABELS = {
+    "contents",
+    "documentation",
+    "installation",
+    "introduction",
+    "table of contents",
+}
+NUMBERED_TOC_RE = re.compile(r"^\d+(?:\.\d+)+\.?\s+[A-Z][^:]{0,90}\s*$")
+DOTTED_TOC_RE = re.compile(r"^\S.{0,120}?\.{3,}\s*\d{1,4}\s*$")
+MARKDOWN_HEADING_RE = re.compile(r"^#{1,6}\s+\S")
+FENCE_LANGUAGE_RE = re.compile(r"^(?:bash|sh|shell|console|powershell|cmd|terminal)$", re.I)
 
 
 def fetch_url(url: str, timeout: int = 10) -> str:
@@ -182,8 +193,10 @@ def extract_candidate_block(text: str) -> tuple[list[str], list[str], list[str]]
         if score <= 0:
             heading_score = max(0, heading_score - 1)
             continue
-        normalized = re.sub(r"^[-*+]\s+", "", line)
-        normalized = re.sub(r"^\d+[.)]\s+", "", normalized)
+        normalized = clean_extracted_line(line)
+        if not normalized:
+            heading_score = max(0, heading_score - 1)
+            continue
         if len(normalized) > 220:
             normalized = normalized[:217].rstrip() + "..."
         low = normalized.lower()
@@ -206,6 +219,27 @@ def extract_candidate_block(text: str) -> tuple[list[str], list[str], list[str]]
         if len(commands) >= 5 and len(caveats) >= 2 and len(usage) >= 2:
             break
     return commands[:5], caveats[:3], usage[:3]
+
+
+def clean_extracted_line(line: str) -> str | None:
+    normalized = re.sub(r"^[-*+]\s+", "", line.strip())
+    normalized = re.sub(r"^\d+[.)]\s+", "", normalized).strip()
+    normalized = normalized.strip()
+    if not normalized:
+        return None
+    label = re.sub(r"\s+", " ", normalized)
+    label = re.sub(r"^(?:#+\s*)+", "", label).strip("*_ :").lower()
+    if label in STRICT_NAV_LABELS:
+        return None
+    if MARKDOWN_HEADING_RE.match(normalized):
+        return None
+    if NUMBERED_TOC_RE.match(normalized):
+        return None
+    if DOTTED_TOC_RE.match(normalized):
+        return None
+    if FENCE_LANGUAGE_RE.match(normalized) or re.fullmatch(r"-{3,}|={3,}", normalized):
+        return None
+    return normalized
 
 
 def fetch_source_material(source: str) -> tuple[str, str]:
