@@ -5,7 +5,7 @@ description: "Use ParseBench to run repeatable document-parser evaluations befor
 github_stars: 474
 verification: "security_reviewed"
 source: "https://github.com/run-llama/ParseBench"
-author: "run-llama"
+author: "LlamaIndex"
 publisher_type: "open_source"
 category: "Data Extraction & Transformation"
 framework: "Multi-Framework"
