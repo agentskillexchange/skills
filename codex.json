@@ -2,8 +2,44 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-03",
-  "total": 2550,
+  "total": 2554,
   "skills": [
+    {
+      "slug": "use-mcp-context-forge-as-an-mcp-gateway-and-registry",
+      "name": "Use MCP Context Forge as an MCP gateway and registry",
+      "title": "Use MCP Context Forge as an MCP gateway and registry",
+      "description": "Put a governed gateway in front of MCP, A2A, REST, and gRPC tools so agent calls can be discovered, routed, observed, and controlled.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "use-a2a-for-agent-to-agent-interoperability-workflows",
+      "name": "Use A2A for agent-to-agent interoperability workflows",
+      "title": "Use A2A for agent-to-agent interoperability workflows",
+      "description": "Expose agent capabilities and route tasks across independent agent runtimes with the Agent2Agent protocol.",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "use-flowise-for-visual-agent-workflow-orchestration",
+      "name": "Use Flowise for visual agent workflow orchestration",
+      "title": "Use Flowise for visual agent workflow orchestration",
+      "description": "Compose, test, and hand off visual AI-agent flows in Flowise when the work needs inspectable orchestration instead of ad hoc prompting.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "use-dify-for-production-agentic-workflow-apps",
+      "name": "Use Dify for production agentic workflow apps",
+      "title": "Use Dify for production agentic workflow apps",
+      "description": "Build, test, and operate agentic workflow apps in Dify when an operator needs a governed path from prototype to production.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "staff-engineer-mode",
       "name": "Staff Engineer Mode",

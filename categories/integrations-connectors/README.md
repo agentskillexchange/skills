@@ -27,12 +27,12 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [NocoDB Self-Hosted No-Code Database Platform with REST API](../../skills/nocodb-self-hosted-no-code-database-rest-api/) | ⬇ 682/wk |
 | [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | ⬇ 6.2k/wk |
 | [Medusa Commerce API and Store Operations Automation Skill](../../skills/medusa-commerce-api-store-operations-automation-skill/) | ⬇ 117.8k/wk |
+| [Use A2A for agent-to-agent interoperability workflows](../../skills/use-a2a-for-agent-to-agent-interoperability-workflows/) | ⬇ 5M/wk |
 | [Build n8n workflows from node docs, templates, and schemas through MCP](../../skills/build-n8n-workflows-from-node-docs-templates-and-schemas-through-mcp/) | ⬇ 485k/wk |
 | [Generate reusable site adapters from live browser behavior with OpenCLI](../../skills/generate-reusable-site-adapters-from-live-browser-behavior-with-opencli/) | ⬇ 10.6k/wk |
 | [Give coding agents Figma layout context through MCP](../../skills/give-coding-agents-figma-layout-context-through-mcp/) | ⬇ 257.9k/wk |
 | [Pipedream API Workflow Automation Platform](../../skills/pipedream-api-workflow-automation-platform/) | ⬇ 9/wk |
 | [Build and inspect MCP apps and servers with mcp-use](../../skills/build-and-inspect-mcp-apps-and-servers-with-mcp-use/) | ⬇ 138.6k/wk |
-| [Nango Integration Platform SDK](../../skills/nango-integration-platform-sdk/) | ⬇ 17.7k/wk |
 
 ---
 
@@ -57,6 +57,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Chatwoot Open Source Customer Engagement and Omnichannel Support Platform](../../skills/chatwoot-open-source-customer-engagement-omnichannel-support/) | 28.5k | — |
 | [Composio Agent Tool Integration Platform](../../skills/composio-agent-tool-integration-platform/) | 27.6k | — |
 | [Zulip Open Source Team Chat Platform with Topic-Based Threading](../../skills/zulip-team-chat-threading/) | 25k | — |
+| [Use A2A for agent-to-agent interoperability workflows](../../skills/use-a2a-for-agent-to-agent-interoperability-workflows/) | 24.1k | 5M/wk |
 | [Saleor Open Source Headless Commerce Platform with GraphQL API](../../skills/saleor-open-source-headless-commerce-graphql-api/) | 22.8k | — |
 | [Give agents fast searchable memory with Supermemory](../../skills/give-agents-fast-searchable-memory-with-supermemory/) | 22.5k | — |
 | [Activepieces Open Source Workflow Automation](../../skills/activepieces-open-source-workflow-automation/) | 21.5k | — |
@@ -97,6 +98,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Stripe Revenue Reconciliation Agent](../../skills/stripe-revenue-reconciliation-agent/) | 4.4k | 9.3M/wk |
 | [Notion MCP Server for AI Workspace Integration](../../skills/notion-mcp-server-ai-workspace-integration/) | 4.1k | 67.6k/wk |
 | [Tolgee Open Source Localization and i18n Platform](../../skills/tolgee-localization-i18n-platform/) | 3.9k | — |
+| [Use MCP Context Forge as an MCP gateway and registry](../../skills/use-mcp-context-forge-as-an-mcp-gateway-and-registry/) | 3.8k | — |
 | [AWS S3 & SQS Pipeline Connector](../../skills/aws-s3-sqs-pipeline-connector/) | 3.6k | — |
 | [Cloudflare MCP Servers for Workers, Security, and Observability](../../skills/cloudflare-mcp-servers-workers-security-observability/) | 3.6k | — |
 | [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | 3.4k | — |

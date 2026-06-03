@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2550 published skills** across **17 categories** · 2,198 security reviewed · Updated 2026-06-03 13:27 UTC
+> **2554 published skills** across **17 categories** · 2,198 security reviewed · Updated 2026-06-03 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1166,7 +1166,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (173 skills)
+### 📄 Templates & Workflows (175 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1177,6 +1177,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Run continuous workflow agents with AutoGPT](skills/run-continuous-workflow-agents-with-autogpt/) | Self-host AutoGPT to build, test, deploy, and operate continuous AI agents for repeatable multi-step workflows. | Security Reviewed | 184k | — |
 | [Run a self-improving personal agent with Hermes Agent](skills/run-a-self-improving-personal-agent-with-hermes-agent/) | Deploy Hermes Agent as a persistent personal agent that learns skills from experience, searches past sessions,… | Security Reviewed | 177.6k | — |
 | [Langflow Visual AI Agent and Workflow Builder](skills/langflow-visual-ai-agent-workflow-builder/) | Langflow is an open-source visual builder for AI agents and workflows. It lets teams design flows graphically,… | Security Reviewed | 146.8k | — |
+| [Use Dify for production agentic workflow apps](skills/use-dify-for-production-agentic-workflow-apps/) | Build, test, and operate agentic workflow apps in Dify when an operator needs a governed path from prototype to… | Security Reviewed | 143.7k | — |
 | [Install role-specific agent personas with Agency Agents](skills/install-role-specific-agent-personas-with-agency-agents/) | Install and activate specialized AI agent personas from Agency Agents when a coding or operations session needs a… | Security Reviewed | 96k | — |
 | [Install reusable specialist agent roles from Agency Agents](skills/install-reusable-specialist-agent-roles-from-agency-agents/) | Install and adapt Agency Agents' curated specialist role files so coding agents can switch into focused engineering,… | Security Reviewed | 95.9k | — |
 | [Install Garry Tan’s Claude Code operating stack with gstack](skills/install-garry-tans-claude-code-operating-stack-with-gstack/) | Use gstack to bootstrap an opinionated Claude Code workspace with specialist agent skills, commands, hooks, and… | Security Reviewed | 94.8k | — |
@@ -1188,6 +1189,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Ansible Playbook Template Generator](skills/ansible-playbook-template-generator/) | Generates Ansible playbook YAML with proper module usage, handler chains, and role structures using ansible-core… | Security Reviewed | 68.4k | — |
 | [Ansible Playbook Template Library](skills/ansible-playbook-template-library/) | Generates and validates Ansible playbooks from infrastructure requirements. Uses ansible-lint for validation and… | Security Reviewed | 68.4k | — |
 | [Ansible Playbook Runner](skills/ansible-playbook-runner/) | Ansible Playbook Runner is built around Ansible automation engine. The underlying ecosystem is represented by… | Security Reviewed | 68.4k | — |
+| [Use Flowise for visual agent workflow orchestration](skills/use-flowise-for-visual-agent-workflow-orchestration/) | Compose, test, and hand off visual AI-agent flows in Flowise when the work needs inspectable orchestration instead… | Security Reviewed | 53.3k | 11.9k/wk |
 | [Terraform Module Registry](skills/terraform-module-registry/) | Terraform Module Registry is built around Terraform infrastructure as code. The underlying ecosystem is represented… | Security Reviewed | 48.1k | — |
 | [Terraform Module Registry Browser](skills/terraform-module-registry-browser/) | Searches and evaluates Terraform modules from the HashiCorp Registry API and private registries. Uses hcl2json… | Security Reviewed | 48.1k | — |
 | [Terraform Module Scaffold Generator](skills/terraform-module-scaffold-generator/) | Generates production-ready Terraform module scaffolds with variables.tf, outputs.tf, and provider blocks using the… | Security Reviewed | 48.1k | — |
@@ -1668,7 +1670,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Published | — | — |
 
 
-### 🔗 Integrations & Connectors (125 skills)
+### 🔗 Integrations & Connectors (127 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1691,6 +1693,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Chatwoot Open Source Customer Engagement and Omnichannel Support Platform](skills/chatwoot-open-source-customer-engagement-omnichannel-support/) | Chatwoot is a self-hosted, open-source customer engagement platform that provides live chat, email, social media,… | Security Reviewed | 28.5k | — |
 | [Composio Agent Tool Integration Platform](skills/composio-agent-tool-integration-platform/) | Composio provides 1000+ pre-built toolkits with managed authentication, context management, and sandboxed execution… | Security Reviewed | 27.6k | — |
 | [Zulip Open Source Team Chat Platform with Topic-Based Threading](skills/zulip-team-chat-threading/) | Zulip is an open-source organized team chat application with unique topic-based threading that combines the best of… | Published | 25k | — |
+| [Use A2A for agent-to-agent interoperability workflows](skills/use-a2a-for-agent-to-agent-interoperability-workflows/) | Expose agent capabilities and route tasks across independent agent runtimes with the Agent2Agent protocol. | Security Reviewed | 24.1k | 5M/wk |
 | [Saleor Open Source Headless Commerce Platform with GraphQL API](skills/saleor-open-source-headless-commerce-graphql-api/) | Saleor is a leading open source headless e-commerce platform built with Python and Django. It provides a GraphQL API… | Security Reviewed | 22.8k | — |
 | [Give agents fast searchable memory with Supermemory](skills/give-agents-fast-searchable-memory-with-supermemory/) | Use Supermemory as an agent memory and context layer for ingesting user facts, documents, connectors, and searchable… | Security Reviewed | 22.5k | — |
 | [Activepieces Open Source Workflow Automation](skills/activepieces-open-source-workflow-automation/) | Activepieces is an open-source, self-hostable workflow automation platform with 200+ integrations. It provides a… | Published | 21.5k | — |
@@ -1731,6 +1734,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Stripe Revenue Reconciliation Agent](skills/stripe-revenue-reconciliation-agent/) | Uses the Stripe API to pull charge, refund, dispute, and payout records within a configurable date window and… | Security Reviewed | 4.4k | 9.3M/wk |
 | [Notion MCP Server for AI Workspace Integration](skills/notion-mcp-server-ai-workspace-integration/) | The official Notion MCP Server enables AI agents to interact with Notion workspaces through the Model Context… | Security Reviewed | 4.1k | 67.6k/wk |
 | [Tolgee Open Source Localization and i18n Platform](skills/tolgee-localization-i18n-platform/) | Tolgee is an open-source localization platform that lets developers and translators manage translations through… | Security Reviewed | 3.9k | — |
+| [Use MCP Context Forge as an MCP gateway and registry](skills/use-mcp-context-forge-as-an-mcp-gateway-and-registry/) | Put a governed gateway in front of MCP, A2A, REST, and gRPC tools so agent calls can be discovered, routed,… | Security Reviewed | 3.8k | — |
 | [AWS S3 & SQS Pipeline Connector](skills/aws-s3-sqs-pipeline-connector/) | Orchestrates AWS data pipelines using @aws-sdk/client-s3 and @aws-sdk/client-sqs. Manages S3 object lifecycle with… | Security Reviewed | 3.6k | — |
 | [Cloudflare MCP Servers for Workers, Security, and Observability](skills/cloudflare-mcp-servers-workers-security-observability/) | Official Cloudflare MCP servers that enable AI assistants to manage Workers applications, debug logs, analyze Radar… | Security Reviewed | 3.6k | — |
 | [Ingestr Cross-Database Data Copier](skills/ingestr-cross-database-data-copier/) | Copy data between any databases with a single CLI command using Ingestr. Supports 50+ sources and destinations… | Published | 3.4k | — |

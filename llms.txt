@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-03
-# Total: 2550 skills
+# Total: 2554 skills
+
+## Use MCP Context Forge as an MCP gateway and registry
+slug: use-mcp-context-forge-as-an-mcp-gateway-and-registry
+category: Integrations & Connectors
+framework: MCP
+verification: Security Reviewed
+description: Put a governed gateway in front of MCP, A2A, REST, and gRPC tools so agent calls can be discovered, routed, observed, and controlled.
+url: https://agentskillexchange.com/skills/use-mcp-context-forge-as-an-mcp-gateway-and-registry/
+
+## Use A2A for agent-to-agent interoperability workflows
+slug: use-a2a-for-agent-to-agent-interoperability-workflows
+category: Integrations & Connectors
+framework: Multi-Framework
+verification: Security Reviewed
+description: Expose agent capabilities and route tasks across independent agent runtimes with the Agent2Agent protocol.
+url: https://agentskillexchange.com/skills/use-a2a-for-agent-to-agent-interoperability-workflows/
+
+## Use Flowise for visual agent workflow orchestration
+slug: use-flowise-for-visual-agent-workflow-orchestration
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Compose, test, and hand off visual AI-agent flows in Flowise when the work needs inspectable orchestration instead of ad hoc prompting.
+url: https://agentskillexchange.com/skills/use-flowise-for-visual-agent-workflow-orchestration/
+
+## Use Dify for production agentic workflow apps
+slug: use-dify-for-production-agentic-workflow-apps
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Build, test, and operate agentic workflow apps in Dify when an operator needs a governed path from prototype to production.
+url: https://agentskillexchange.com/skills/use-dify-for-production-agentic-workflow-apps/
 
 ## Staff Engineer Mode
 slug: staff-engineer-mode

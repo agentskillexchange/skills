@@ -11,11 +11,11 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Run continuous workflow agents with AutoGPT](../../skills/run-continuous-workflow-agents-with-autogpt/) | ⭐ 184k |
 | [Run a self-improving personal agent with Hermes Agent](../../skills/run-a-self-improving-personal-agent-with-hermes-agent/) | ⭐ 177.6k |
 | [Langflow Visual AI Agent and Workflow Builder](../../skills/langflow-visual-ai-agent-workflow-builder/) | ⭐ 146.8k |
+| [Use Dify for production agentic workflow apps](../../skills/use-dify-for-production-agentic-workflow-apps/) | ⭐ 143.7k |
 | [Install role-specific agent personas with Agency Agents](../../skills/install-role-specific-agent-personas-with-agency-agents/) | ⭐ 96k |
 | [Install reusable specialist agent roles from Agency Agents](../../skills/install-reusable-specialist-agent-roles-from-agency-agents/) | ⭐ 95.9k |
 | [Install Garry Tan’s Claude Code operating stack with gstack](../../skills/install-garry-tans-claude-code-operating-stack-with-gstack/) | ⭐ 94.8k |
 | [Turn feature ideas into executable implementation specs and task plans with Spec Kit](../../skills/turn-feature-ideas-into-executable-implementation-specs-and-task-plans-with-spec-kit/) | ⭐ 88.5k |
-| [Twitter/X Trend Monitor & Thread Publisher](../../skills/twitter-x-trend-monitor-thread-publisher/) | ⭐ 74.2k |
 
 ---
 
@@ -23,6 +23,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 
 | Skill | Downloads |
 |---|---:|
+| [Use Flowise for visual agent workflow orchestration](../../skills/use-flowise-for-visual-agent-workflow-orchestration/) | ⬇ 11.9k/wk |
 | [Enforce local Git hook checks in JavaScript repos with Husky](../../skills/enforce-local-git-hook-checks-in-javascript-repos-with-husky/) | ⬇ 25.7M/wk |
 | [Swagger Codegen Orchestrator](../../skills/swagger-codegen-orchestrator/) | ⬇ 149.2k/wk |
 | [Use Sim for orchestrated AI agent workflow runs](../../skills/use-sim-for-orchestrated-ai-agent-workflow-runs/) | ⬇ 32/wk |
@@ -32,7 +33,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Turn a PRD into a dependency-aware task graph and keep AI implementation work scoped with Task Master AI](../../skills/turn-a-prd-into-a-dependency-aware-task-graph-and-keep-ai-implementation-work-scoped-with-task-master-ai/) | ⬇ 113.6k/wk |
 | [GrapesJS Open Source Web Builder and Template Design Framework](../../skills/grapesjs-web-builder-template-framework/) | ⬇ 156.5k/wk |
 | [Pulumi Infrastructure Stack Templater](../../skills/pulumi-infrastructure-stack-templater/) | ⬇ 2.2M/wk |
-| [React Email Component Library for Building Email Templates](../../skills/react-email-component-library-email-templates/) | ⬇ 2.2M/wk |
 
 ---
 
@@ -45,6 +45,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Run continuous workflow agents with AutoGPT](../../skills/run-continuous-workflow-agents-with-autogpt/) | 184k | — |
 | [Run a self-improving personal agent with Hermes Agent](../../skills/run-a-self-improving-personal-agent-with-hermes-agent/) | 177.6k | — |
 | [Langflow Visual AI Agent and Workflow Builder](../../skills/langflow-visual-ai-agent-workflow-builder/) | 146.8k | — |
+| [Use Dify for production agentic workflow apps](../../skills/use-dify-for-production-agentic-workflow-apps/) | 143.7k | — |
 | [Install role-specific agent personas with Agency Agents](../../skills/install-role-specific-agent-personas-with-agency-agents/) | 96k | — |
 | [Install reusable specialist agent roles from Agency Agents](../../skills/install-reusable-specialist-agent-roles-from-agency-agents/) | 95.9k | — |
 | [Install Garry Tan’s Claude Code operating stack with gstack](../../skills/install-garry-tans-claude-code-operating-stack-with-gstack/) | 94.8k | — |
@@ -56,6 +57,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Ansible Playbook Template Generator](../../skills/ansible-playbook-template-generator/) | 68.4k | — |
 | [Ansible Playbook Template Library](../../skills/ansible-playbook-template-library/) | 68.4k | — |
 | [Ansible Playbook Runner](../../skills/ansible-playbook-runner/) | 68.4k | — |
+| [Use Flowise for visual agent workflow orchestration](../../skills/use-flowise-for-visual-agent-workflow-orchestration/) | 53.3k | 11.9k/wk |
 | [Terraform Module Registry](../../skills/terraform-module-registry/) | 48.1k | — |
 | [Terraform Module Registry Browser](../../skills/terraform-module-registry-browser/) | 48.1k | — |
 | [Terraform Module Scaffold Generator](../../skills/terraform-module-scaffold-generator/) | 48.1k | — |

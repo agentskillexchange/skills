@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C550-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-2%2C554-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C198-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,550 published skills · 17 categories · Real ecosystem signals · Updated daily*
+*2,554 published skills · 17 categories · Real ecosystem signals · Updated daily*
 
 </div>
 
@@ -84,16 +84,16 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 |-------|------|--------:|----------|
 | [Run durable agent tasks and event-driven workflows with Hatchet](skills/run-durable-agent-tasks-and-event-driven-workflows-with-hatchet/) | run-durable-agent-tasks-and-event-driven-workflows-with-hatchet | 7.2k | Templates & Workflows |
 | [Run terminal-native coding agent workflows with GitHub Copilot CLI](skills/run-terminal-native-coding-agent-workflows-with-github-copilot-cli/) | run-terminal-native-coding-agent-workflows-with-github-copilot-cli | 10.6k | Developer Tools |
+| [Use A2A for agent-to-agent interoperability workflows](skills/use-a2a-for-agent-to-agent-interoperability-workflows/) | use-a2a-for-agent-to-agent-interoperability-workflows | 24.1k | Integrations & Connectors |
 | [Give coding agents Figma layout context through MCP](skills/give-coding-agents-figma-layout-context-through-mcp/) | give-coding-agents-figma-layout-context-through-mcp | 14.9k | Integrations & Connectors |
 | [Build managed document parsing pipelines with LlamaCloud Services](skills/build-managed-document-parsing-pipelines-with-llamacloud-services/) | build-managed-document-parsing-pipelines-with-llamacloud-services | 4.2k | Data Extraction & Transformation |
+| [Use Flowise for visual agent workflow orchestration](skills/use-flowise-for-visual-agent-workflow-orchestration/) | use-flowise-for-visual-agent-workflow-orchestration | 53.3k | Templates & Workflows |
 | [Parse local PDFs into agent-ready text, JSON, and screenshots with LiteParse](skills/parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse/) | parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse | 5.1k | Data Extraction & Transformation |
-| [Connect accounting agents to Xero through MCP](skills/connect-accounting-agents-to-xero-through-mcp/) | connect-accounting-agents-to-xero-through-mcp | 294 | Integrations & Connectors |
 | [Run autonomous deep research workflows with GPT Researcher](skills/run-autonomous-deep-research-workflows-with-gpt-researcher/) | run-autonomous-deep-research-workflows-with-gpt-researcher | 27.4k | Research & Scraping |
 | [Give coding agents persistent project memory with AgentMemory](skills/give-coding-agents-persistent-project-memory-with-agentmemory/) | give-coding-agents-persistent-project-memory-with-agentmemory | 17.2k | Developer Tools |
 | [Gate agent inputs and outputs with Superagent safety checks](skills/gate-agent-inputs-and-outputs-with-superagent-safety-checks/) | gate-agent-inputs-and-outputs-with-superagent-safety-checks | 6.6k | Security & Verification |
 | [Read Google Drive files and edit Sheets through MCP](skills/read-google-drive-files-and-edit-sheets-through-mcp/) | read-google-drive-files-and-edit-sheets-through-mcp | 280 | Calendar, Email & Productivity |
 | [Trace and evaluate agent runs with Phoenix](skills/trace-and-evaluate-agent-runs-with-phoenix/) | trace-and-evaluate-agent-runs-with-phoenix | 9.8k | Monitoring & Alerts |
-| [Use Sim for orchestrated AI agent workflow runs](skills/use-sim-for-orchestrated-ai-agent-workflow-runs/) | use-sim-for-orchestrated-ai-agent-workflow-runs | 28.7k | Templates & Workflows |
 
 ---
 
@@ -106,10 +106,10 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 184 | Linting, code review, test generators, coverage |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 178 | ETL pipelines, parsing, format conversion |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 173 | Scaffolders, boilerplate generators, workflow templates |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 175 | Scaffolders, boilerplate generators, workflow templates |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 172 | Incident response, troubleshooting, system diagnostics |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 133 | Metrics, alerting rules, observability |
-| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 125 | Third-party API bridges, webhooks, service connectors |
+| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 127 | Third-party API bridges, webhooks, service connectors |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 124 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 122 | SDK docs, API parsers, symbol resolvers |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 111 | Web scraping, UI testing, headless browser control |
@@ -179,7 +179,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,550 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,554 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,198 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
