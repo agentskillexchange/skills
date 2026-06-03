@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2548 published skills** across **17 categories** · 2,192 security reviewed · Updated 2026-06-03 04:06 UTC
+> **2548 published skills** across **17 categories** · 2,192 security reviewed · Updated 2026-06-03 04:29 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1831,7 +1831,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Shiori Self-Hosted Bookmark Manager with CLI and Web Interface](skills/shiori-self-hosted-bookmark-manager-cli-web/) | Shiori is a simple, portable bookmark manager written in Go inspired by Pocket. It provides both a command-line… | Published | 11.4k | — |
 | [Inbox Zero AI Email Assistant](skills/inbox-zero-ai-email-assistant/) | Inbox Zero is an open-source AI email assistant with over 10,000 GitHub stars that auto-triages your inbox,… | Security Reviewed | 10.4k | — |
 | [Leantime Open Source Goals-Focused Project Management Platform](skills/leantime-open-source-project-management-platform/) | Leantime is an open-source project management system designed for non-project managers, with kanban boards, gantt… | Security Reviewed | 9.5k | — |
-| [Mautic Open Source Marketing Automation Platform](skills/mautic-marketing-automation-platform/) | Mautic is the world's largest open-source marketing automation platform with 7.9K+ GitHub stars. It provides email… | Security Reviewed | 9.4k | — |
+| [Mautic Open Source Marketing Automation Platform](skills/mautic-marketing-automation-platform/) | Mautic is the world's largest open-source marketing automation platform. It provides email campaign management, lead… | Security Reviewed | 9.4k | — |
 | [Miniflux Self-Hosted RSS Feed Reader and Automation API](skills/miniflux-self-hosted-rss-feed-reader-and-automation-api/) | Use Miniflux to run a minimalist self-hosted feed reader with a clean web UI, webhooks, and API integrations. This… | Security Reviewed | 9.1k | — |
 | [Mailpit SMTP Testing and Email Capture Workbench](skills/mailpit-smtp-testing-email-capture-workbench/) | This skill uses Mailpit as a safe SMTP sink for development, QA, and automated test runs. It helps teams capture,… | Security Reviewed | 9.1k | — |
 | [solidtime Modern Open Source Time Tracking for Freelancers and Agencies](skills/solidtime-open-source-time-tracking/) | solidtime is a modern open-source time tracking application built for freelancers and agencies, featuring project… | Published | 8.4k | — |
@@ -2515,7 +2515,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 
 | Skill | Description | Tier | ⭐ Stars | 📦 Downloads |
 |---|---|---|---:|---:|
-| [Excalidraw Virtual Whiteboard and Diagram SDK](skills/excalidraw-virtual-whiteboard-diagram-sdk/) | Excalidraw is an open-source virtual whiteboard for creating hand-drawn style diagrams, wireframes, and sketches.… | Security Reviewed | 119.9k | 291.3k/wk |
+| [Excalidraw Virtual Whiteboard and Diagram SDK](skills/excalidraw-virtual-whiteboard-diagram-sdk/) | Excalidraw is an open-source virtual whiteboard for creating hand-drawn style diagrams, wireframes, and sketches. It… | Security Reviewed | 119.9k | 291.3k/wk |
 | [Stable Diffusion ComfyUI Workflow Runner](skills/stable-diffusion-comfyui-workflow-runner-2/) | Executes ComfyUI workflow JSON files against a local or remote ComfyUI server via its REST API. Supports LoRA… | Security Reviewed | 112k | — |
 | [ComfyUI Workflow Executor](skills/comfyui-workflow-executor/) | Executes ComfyUI image generation workflows via the /prompt REST API endpoint with WebSocket progress tracking.… | Security Reviewed | 109.1k | — |
 | [Stable Diffusion Prompt Optimizer](skills/stable-diffusion-prompt-optimizer/) | Analyzes and enhances Stable Diffusion prompts using the Automatic1111 WebUI API /sdapi/v1/txt2img endpoint. Applies… | Security Reviewed | 73k | — |
