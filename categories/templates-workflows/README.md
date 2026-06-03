@@ -9,8 +9,8 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Install Superpowers methodology for coding agents](../../skills/install-superpowers-methodology-for-coding-agents/) | ⭐ 194.6k |
 | [Install selected ECC agent skills and rules across coding harnesses](../../skills/install-selected-ecc-agent-skills-and-rules-across-coding-harnesses/) | ⭐ 186.8k |
 | [Run continuous workflow agents with AutoGPT](../../skills/run-continuous-workflow-agents-with-autogpt/) | ⭐ 184k |
+| [Run a self-improving personal agent with Hermes Agent](../../skills/run-a-self-improving-personal-agent-with-hermes-agent/) | ⭐ 177.6k |
 | [Langflow Visual AI Agent and Workflow Builder](../../skills/langflow-visual-ai-agent-workflow-builder/) | ⭐ 146.8k |
-| [Run a self-improving personal agent with Hermes Agent](../../skills/run-a-self-improving-personal-agent-with-hermes-agent/) | ⭐ 135.2k |
 | [Install role-specific agent personas with Agency Agents](../../skills/install-role-specific-agent-personas-with-agency-agents/) | ⭐ 96k |
 | [Install reusable specialist agent roles from Agency Agents](../../skills/install-reusable-specialist-agent-roles-from-agency-agents/) | ⭐ 95.9k |
 | [Install Garry Tan’s Claude Code operating stack with gstack](../../skills/install-garry-tans-claude-code-operating-stack-with-gstack/) | ⭐ 94.8k |
@@ -43,8 +43,8 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Install Superpowers methodology for coding agents](../../skills/install-superpowers-methodology-for-coding-agents/) | 194.6k | — |
 | [Install selected ECC agent skills and rules across coding harnesses](../../skills/install-selected-ecc-agent-skills-and-rules-across-coding-harnesses/) | 186.8k | — |
 | [Run continuous workflow agents with AutoGPT](../../skills/run-continuous-workflow-agents-with-autogpt/) | 184k | — |
+| [Run a self-improving personal agent with Hermes Agent](../../skills/run-a-self-improving-personal-agent-with-hermes-agent/) | 177.6k | — |
 | [Langflow Visual AI Agent and Workflow Builder](../../skills/langflow-visual-ai-agent-workflow-builder/) | 146.8k | — |
-| [Run a self-improving personal agent with Hermes Agent](../../skills/run-a-self-improving-personal-agent-with-hermes-agent/) | 135.2k | — |
 | [Install role-specific agent personas with Agency Agents](../../skills/install-role-specific-agent-personas-with-agency-agents/) | 96k | — |
 | [Install reusable specialist agent roles from Agency Agents](../../skills/install-reusable-specialist-agent-roles-from-agency-agents/) | 95.9k | — |
 | [Install Garry Tan’s Claude Code operating stack with gstack](../../skills/install-garry-tans-claude-code-operating-stack-with-gstack/) | 94.8k | — |

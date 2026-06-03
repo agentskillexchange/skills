@@ -195,6 +195,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Give agents governed semantic data context with Wren Engine](../../skills/give-agents-governed-semantic-data-context-with-wren-engine/) | 661 | — |
 | [Query Postgres databases through read-only MCP workflows with PGMCP](../../skills/query-postgres-databases-through-read-only-mcp-workflows-with-pgmcp/) | 529 | — |
 | [dbt MCP Server for Data Pipeline Context](../../skills/dbt-mcp-server-data-pipeline-context/) | 526 | — |
+| [Evaluate document parsers for agent ingestion with ParseBench](../../skills/evaluate-document-parsers-for-agent-ingestion-with-parsebench/) | 474 | — |
 | [Compare dbt models and warehouse relations before trusting migration parity with dbt-audit-helper](../../skills/compare-dbt-models-and-warehouse-relations-before-trusting-migration-parity-with-dbt-audit-helper/) | 402 | — |
 | [Parquet Column Mapper](../../skills/parquet-column-mapper/) | 387 | 170.7k/wk |
 | [Parquet Column Pruning Optimizer](../../skills/parquet-column-pruning-optimizer/) | 387 | 170.7k/wk |

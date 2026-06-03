@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-06-02
-# Total: 2546 skills
+# Generated: 2026-06-03
+# Total: 2548 skills
+
+## Evaluate document parsers for agent ingestion with ParseBench
+slug: evaluate-document-parsers-for-agent-ingestion-with-parsebench
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use ParseBench to run repeatable document-parser evaluations before an agent relies on PDF, table, chart, or enterprise-document output for downstream decisions.
+url: https://agentskillexchange.com/skills/evaluate-document-parsers-for-agent-ingestion-with-parsebench/
+
+## Run Claude Code security operations with SecOpsAgentKit
+slug: run-claude-code-security-operations-with-secopsagentkit
+category: Security & Verification
+framework: Claude Code
+verification: Security Reviewed
+description: Install SecOpsAgentKit when a Claude Code session needs repeatable security review skills for SAST, DAST, container scanning, secrets checks, policy review, and remediation planning.
+url: https://agentskillexchange.com/skills/run-claude-code-security-operations-with-secopsagentkit/
 
 ## Extract OCR-ready Markdown from documents with Zerox
 slug: extract-ocr-ready-markdown-from-documents-with-zerox

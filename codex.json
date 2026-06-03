@@ -1,9 +1,27 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-06-02",
-  "total": 2546,
+  "generated": "2026-06-03",
+  "total": 2548,
   "skills": [
+    {
+      "slug": "evaluate-document-parsers-for-agent-ingestion-with-parsebench",
+      "name": "Evaluate document parsers for agent ingestion with ParseBench",
+      "title": "Evaluate document parsers for agent ingestion with ParseBench",
+      "description": "Use ParseBench to run repeatable document-parser evaluations before an agent relies on PDF, table, chart, or enterprise-document output for downstream decisions.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "run-claude-code-security-operations-with-secopsagentkit",
+      "name": "Run Claude Code security operations with SecOpsAgentKit",
+      "title": "Run Claude Code security operations with SecOpsAgentKit",
+      "description": "Install SecOpsAgentKit when a Claude Code session needs repeatable security review skills for SAST, DAST, container scanning, secrets checks, policy review, and remediation planning.",
+      "category": "Security & Verification",
+      "framework": "Claude Code",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "extract-ocr-ready-markdown-from-documents-with-zerox",
       "name": "Extract OCR-ready Markdown from documents with Zerox",

@@ -1,8 +1,32 @@
 {
   "version": "2.0",
-  "total": 2546,
-  "generated": "2026-06-02",
+  "total": 2548,
+  "generated": "2026-06-03",
   "skills": [
+    {
+      "slug": "evaluate-document-parsers-for-agent-ingestion-with-parsebench",
+      "name": "Evaluate document parsers for agent ingestion with ParseBench",
+      "title": "Evaluate document parsers for agent ingestion with ParseBench",
+      "description": "Use ParseBench to run repeatable document-parser evaluations before an agent relies on PDF, table, chart, or enterprise-document output for downstream decisions.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 474
+      }
+    },
+    {
+      "slug": "run-claude-code-security-operations-with-secopsagentkit",
+      "name": "Run Claude Code security operations with SecOpsAgentKit",
+      "title": "Run Claude Code security operations with SecOpsAgentKit",
+      "description": "Install SecOpsAgentKit when a Claude Code session needs repeatable security review skills for SAST, DAST, container scanning, secrets checks, policy review, and remediation planning.",
+      "category": "Security & Verification",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 157
+      }
+    },
     {
       "slug": "extract-ocr-ready-markdown-from-documents-with-zerox",
       "name": "Extract OCR-ready Markdown from documents with Zerox",
@@ -1268,7 +1292,7 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 135226
+        "github_stars": 177610
       }
     },
     {
@@ -2334,7 +2358,10 @@
       "description": "Use tunnel-doctor in Claude Code when Tailscale partially works but SSH, browser, git, or Docker paths fail because proxy, route, or double-tunneling conflicts need…",
       "category": "Runbooks & Diagnostics",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "license": "MIT"
+      }
     },
     {
       "slug": "run-academic-writing-analysis-and-replication-workflows-with-quality-gates-in-claude-code-my-workflow",
@@ -2671,7 +2698,10 @@
       "description": "Turn commits since the last tag into concise App Store What's New bullets instead of hand-sifting raw git history.",
       "category": "Templates & Workflows",
       "framework": "Codex",
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "license": "MIT"
+      }
     },
     {
       "slug": "test-documentation-sites-across-mobile-tablet-and-desktop-with-github-agentic-workflows",
@@ -2680,7 +2710,10 @@
       "description": "Run a repeatable docs-site check that builds locally, opens the site across device sizes, and reports layout, accessibility, and interaction issues.",
       "category": "Templates & Workflows",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "license": "MIT"
+      }
     },
     {
       "slug": "run-context-spec-and-implement-coding-loops-in-claude-code-with-conductor",
@@ -2689,7 +2722,10 @@
       "description": "Turn Claude Code into a structured project workflow that captures context, plans work, and executes implementation in reviewable tracks.",
       "category": "Templates & Workflows",
       "framework": "Claude Code",
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "license": "MIT"
+      }
     },
     {
       "slug": "block-unsafe-agent-actions-and-scan-newly-added-skills-with-agentguard",
@@ -2749,7 +2785,10 @@
       "description": "Build a repeatable text-to-audio workflow around Azure OpenAI Realtime streaming, PCM collection, WAV conversion, and frontend playback for podcast-style output.",
       "category": "Media & Transcription",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "license": "MIT"
+      }
     },
     {
       "slug": "review-frontend-implementations-for-design-system-quality-accessibility-and-polish-with-frontend-design-review",
@@ -2758,7 +2797,10 @@
       "description": "Audit frontend work against design-system rules, accessibility expectations, responsive behavior, and visual craft before merge or release.",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "license": "MIT"
+      }
     },
     {
       "slug": "turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator",
@@ -2767,7 +2809,10 @@
       "description": "Convert messy bug notes, error logs, voice dictation, and screenshots into crisp GitHub issue reports with clear repro steps, impact, and evidence.",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "license": "MIT"
+      }
     },
     {
       "slug": "tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices",
@@ -2776,7 +2821,10 @@
       "description": "Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls using Supabase's own prioritized guidance.",
       "category": "Runbooks & Diagnostics",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "license": "MIT"
+      }
     },
     {
       "slug": "provision-oauth-capable-microsoft-agent-identities-with-entra-agent-id",
@@ -2785,7 +2833,10 @@
       "description": "Create Microsoft Entra Agent Identity blueprints, principals, and agent identities with the right beta Graph permissions, sponsor rules, and sidecar-based auth patterns.",
       "category": "Security & Verification",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "license": "MIT"
+      }
     },
     {
       "slug": "connect-claude-code-to-apple-apps-and-tmux-with-claude-apple-bridges",
@@ -4184,7 +4235,10 @@
       "description": "Create or improve welcome, nurture, onboarding, re-engagement, and other lifecycle sequences with a clear purpose for each email.",
       "category": "Calendar, Email & Productivity",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "license": "MIT"
+      }
     },
     {
       "slug": "diagnose-site-seo-issues-with-a-structured-audit",
@@ -4193,7 +4247,10 @@
       "description": "Run a structured SEO audit that surfaces crawlability, technical, and on-page issues before you start guessing at why traffic or rankings slipped.",
       "category": "Content Writing & SEO",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "license": "MIT"
+      }
     },
     {
       "slug": "plan-programmatic-seo-pages-at-scale",
@@ -4202,7 +4259,10 @@
       "description": "Design template and data driven SEO page programs that can scale without collapsing into thin, duplicate, or low-intent content.",
       "category": "Content Writing & SEO",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "license": "MIT"
+      }
     },
     {
       "slug": "multi-axis-code-review-and-quality-gates",
@@ -4211,7 +4271,10 @@
       "description": "Run a structured pre-merge review across correctness, readability, architecture, security, and performance instead of relying on a shallow spot check.",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "license": "MIT"
+      }
     },
     {
       "slug": "systematic-debugging-and-error-recovery",
@@ -4220,7 +4283,10 @@
       "description": "Stop guessing when something breaks, preserve evidence, reproduce the failure, isolate the cause, and verify the fix before resuming work.",
       "category": "Runbooks & Diagnostics",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "license": "MIT"
+      }
     },
     {
       "slug": "use-an-escalating-scrape-strategy-in-claude-code-before-reaching-for-browser-automation",
@@ -8114,7 +8180,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "npm_weekly_downloads": 1113
+        "npm_weekly_downloads": 1113,
+        "license": "MIT"
       }
     },
     {
@@ -8126,7 +8193,8 @@
       "framework": "Multi-Framework",
       "verification": "listed",
       "signals": {
-        "npm_weekly_downloads": 2868
+        "npm_weekly_downloads": 2868,
+        "license": "MIT"
       }
     },
     {
@@ -8145,7 +8213,10 @@
       "description": "Use GitHub Next's CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and open investigation issues with concrete next…",
       "category": "CI/CD Integrations",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "license": "MIT"
+      }
     },
     {
       "slug": "draft-internal-status-updates-and-incident-comms",
@@ -8163,7 +8234,10 @@
       "description": "Use GitHub Next's CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and open investigation issues with concrete next…",
       "category": "CI/CD Integrations",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "license": "MIT"
+      }
     },
     {
       "slug": "turn-github-issues-into-fix-prs",
@@ -8350,7 +8424,10 @@
       "description": "Use Qdrant's official qdrant-search-quality skill when an agent needs to diagnose weak recall, irrelevant matches, or embedding and chunking mistakes in a live retrieval…",
       "category": "Runbooks & Diagnostics",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "license": "Apache-2.0"
+      }
     },
     {
       "slug": "build-scroll-linked-animations-with-gsap-scrolltrigger",
@@ -8359,7 +8436,10 @@
       "description": "Use Greensock's official gsap-scrolltrigger skill to plan, implement, and debug scroll-linked animations, pinned sections, and scrubbed storytelling without guessing at plugin setup. The agent…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "license": "MIT"
+      }
     },
     {
       "slug": "regression-test-prompts-agents-and-rag-outputs-before-shipping-changes",
@@ -9955,7 +10035,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "npm_weekly_downloads": 835554
+        "npm_weekly_downloads": 835554,
+        "license": "MIT"
       }
     },
     {

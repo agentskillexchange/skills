@@ -2,7 +2,7 @@
 name: "Run a self-improving personal agent with Hermes Agent"
 slug: "run-a-self-improving-personal-agent-with-hermes-agent"
 description: "Deploy Hermes Agent as a persistent personal agent that learns skills from experience, searches past sessions, schedules automations, and coordinates work across CLI and chat channels."
-github_stars: 135226
+github_stars: 177610
 verification: "security_reviewed"
 source: "https://github.com/NousResearch/hermes-agent"
 author: "Nous Research"
@@ -11,7 +11,7 @@ category: "Templates & Workflows"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "NousResearch/hermes-agent"
-  github_stars: 135226
+  github_stars: 177610
 ---
 
 # Run a self-improving personal agent with Hermes Agent
@@ -24,14 +24,42 @@ Hermes Agent; model provider API key or compatible endpoint; optional Telegram/D
 
 ## Installation
 
-Requirements and caveats from upstream:
-- <tr><td><b>Delegates and parallelizes</b></td><td>Spawn isolated subagents for parallel workstreams. Write Python scripts that call tools via RPC, collapsing multi-step pipelines into zero-context-cost turns.</td></tr>
-- <tr><td><b>Runs anywhere, not just your laptop</b></td><td>Seven terminal backends — local, Docker, SSH, Singularity, Modal, Daytona, and Vercel Sandbox. Daytona and Modal offer serverless persistence — your agent's e...
+Install Hermes Agent from the official repository installer.
 
-Basic usage or getting-started notes:
-- **The self-improving AI agent built by [Nous Research](https://nousresearch.com).** It's the only agent with a built-in learning loop — it creates skills from experience, improves them during use, nudges itself to per...
-- bash
-- hermes # Interactive CLI — start a conversation
+Linux, macOS, WSL2, or Termux:
+
+```bash
+curl -fsSLO https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh
+less install.sh
+bash install.sh
+source ~/.bashrc
+hermes
+```
+
+Windows PowerShell:
+
+```powershell
+iex (irm https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.ps1)
+```
+
+After installation, use the documented CLI commands to configure and operate the agent:
+
+```bash
+hermes setup        # Run the full setup wizard
+hermes model        # Choose the model provider and model
+hermes tools        # Configure enabled tools
+hermes gateway      # Start messaging gateway setup/runtime
+hermes doctor       # Diagnose environment or configuration issues
+```
+
+Contributor setup, when you need to work from source:
+
+```bash
+git clone https://github.com/NousResearch/hermes-agent.git
+cd hermes-agent
+./setup-hermes.sh
+./hermes
+```
 
 - Source: https://github.com/NousResearch/hermes-agent
 - Extracted from upstream docs: https://raw.githubusercontent.com/NousResearch/hermes-agent/HEAD/README.md

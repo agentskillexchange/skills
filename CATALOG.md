@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2546 published skills** across **17 categories** · 2,190 security reviewed · Updated 2026-06-02 01:27 UTC
+> **2548 published skills** across **17 categories** · 2,192 security reviewed · Updated 2026-06-03 04:06 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -348,7 +348,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (229 skills)
+### 🔒 Security & Verification (230 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -547,6 +547,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Gitxray GitHub Repository Security X-Ray](skills/gitxray-github-repository-security-xray/) | A multifaceted OSINT and forensics tool for GitHub repositories that detects fake stargazers, tampered commits,… | Published | 174 | — |
 | [Run coding agents in a locked-down local sandbox with repo-only filesystem access and controlled egress using agent-sandbox](skills/run-coding-agents-in-a-locked-down-local-sandbox-with-repo-only-filesystem-access-and-controlled-egress-using-agent-sandbox/) | Put Claude Code, Codex, Gemini, or other supported agent CLIs inside a persistent local sandbox instead of letting… | Security Reviewed | 163 | — |
 | [Wrap local coding agents in deny-by-default least-privilege sandboxes with Greywall](skills/wrap-local-coding-agents-in-deny-by-default-least-privilege-sandboxes-with-greywall/) | Run Claude Code, Codex, Cursor, or similar local agent CLIs inside a host-local sandbox that learns required access… | Security Reviewed | 158 | — |
+| [Run Claude Code security operations with SecOpsAgentKit](skills/run-claude-code-security-operations-with-secopsagentkit/) | Install SecOpsAgentKit when a Claude Code session needs repeatable security review skills for SAST, DAST, container… | Security Reviewed | 157 | — |
 | [Statically scan agent repos for prompt injection and unsafe MCP configs with Agent Audit](skills/statically-scan-agent-repos-for-prompt-injection-and-unsafe-mcp-configs-with-agent-audit/) | Audit agent code, prompts, and MCP configuration for prompt-injection surfaces, taint issues, and unsafe tool… | Security Reviewed | 149 | — |
 | [WorkOS AuthKit Next.js Authentication Toolkit](skills/workos-authkit-nextjs-authentication-toolkit/) | WorkOS AuthKit is a real authentication toolkit for Next.js applications. It gives agents a concrete integration… | Security Reviewed | 146 | 227.2k/wk |
 | [Start governed Claude Code sessions with short-lived service credentials using Kontext CLI](skills/start-governed-claude-code-sessions-with-short-lived-service-credentials-using-kontext-cli/) | Inject short-lived, scoped service credentials into Claude Code sessions so agents can reach approved systems… | Security Reviewed | 143 | — |
@@ -977,7 +978,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Simplify recently changed code and open low-risk refactor pull requests](skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | This entry turns GitHub Next's Code Simplifier workflow into a narrow cleanup agent. The agent inspects code changed… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (177 skills)
+### 🔄 Data Extraction & Transformation (178 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -1138,6 +1139,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Give agents governed semantic data context with Wren Engine](skills/give-agents-governed-semantic-data-context-with-wren-engine/) | Give agents governed semantic data context so data questions map to trusted metrics and schemas. | Published | 661 | — |
 | [Query Postgres databases through read-only MCP workflows with PGMCP](skills/query-postgres-databases-through-read-only-mcp-workflows-with-pgmcp/) | Connect an MCP-compatible assistant to an existing PostgreSQL database for safe natural-language querying,… | Security Reviewed | 529 | — |
 | [dbt MCP Server for Data Pipeline Context](skills/dbt-mcp-server-data-pipeline-context/) | The official dbt MCP Server by dbt Labs provides Model Context Protocol tools for AI agents to interact with dbt… | Security Reviewed | 526 | — |
+| [Evaluate document parsers for agent ingestion with ParseBench](skills/evaluate-document-parsers-for-agent-ingestion-with-parsebench/) | Use ParseBench to run repeatable document-parser evaluations before an agent relies on PDF, table, chart, or… | Security Reviewed | 474 | — |
 | [Compare dbt models and warehouse relations before trusting migration parity with dbt-audit-helper](skills/compare-dbt-models-and-warehouse-relations-before-trusting-migration-parity-with-dbt-audit-helper/) | Lets an agent run dbt parity checks, relation diffs, and row or value comparisons so refactors and source swaps can… | Security Reviewed | 402 | — |
 | [Parquet Column Mapper](skills/parquet-column-mapper/) | Reads and transforms Apache Parquet file metadata and column statistics using PyArrow and the Parquet Thrift… | Security Reviewed | 387 | 170.7k/wk |
 | [Parquet Column Pruning Optimizer](skills/parquet-column-pruning-optimizer/) | Optimizes Apache Parquet file reads using PyArrow column pruning and predicate pushdown. Analyzes query patterns to… | Security Reviewed | 387 | 170.7k/wk |
@@ -1171,8 +1173,8 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Install Superpowers methodology for coding agents](skills/install-superpowers-methodology-for-coding-agents/) | Use Superpowers to give coding agents a structured software-development method with discovery, spec review,… | Security Reviewed | 194.6k | — |
 | [Install selected ECC agent skills and rules across coding harnesses](skills/install-selected-ecc-agent-skills-and-rules-across-coding-harnesses/) | Use Everything Claude Code to install curated skills, rules, hooks, and MCP configuration into Claude Code, Codex,… | Published | 186.8k | — |
 | [Run continuous workflow agents with AutoGPT](skills/run-continuous-workflow-agents-with-autogpt/) | Self-host AutoGPT to build, test, deploy, and operate continuous AI agents for repeatable multi-step workflows. | Security Reviewed | 184k | — |
+| [Run a self-improving personal agent with Hermes Agent](skills/run-a-self-improving-personal-agent-with-hermes-agent/) | Deploy Hermes Agent as a persistent personal agent that learns skills from experience, searches past sessions,… | Security Reviewed | 177.6k | — |
 | [Langflow Visual AI Agent and Workflow Builder](skills/langflow-visual-ai-agent-workflow-builder/) | Langflow is an open-source visual builder for AI agents and workflows. It lets teams design flows graphically,… | Security Reviewed | 146.8k | — |
-| [Run a self-improving personal agent with Hermes Agent](skills/run-a-self-improving-personal-agent-with-hermes-agent/) | Deploy Hermes Agent as a persistent personal agent that learns skills from experience, searches past sessions,… | Security Reviewed | 135.2k | — |
 | [Install role-specific agent personas with Agency Agents](skills/install-role-specific-agent-personas-with-agency-agents/) | Install and activate specialized AI agent personas from Agency Agents when a coding or operations session needs a… | Security Reviewed | 96k | — |
 | [Install reusable specialist agent roles from Agency Agents](skills/install-reusable-specialist-agent-roles-from-agency-agents/) | Install and adapt Agency Agents' curated specialist role files so coding agents can switch into focused engineering,… | Security Reviewed | 95.9k | — |
 | [Install Garry Tan’s Claude Code operating stack with gstack](skills/install-garry-tans-claude-code-operating-stack-with-gstack/) | Use gstack to bootstrap an opinionated Claude Code workspace with specialist agent skills, commands, hooks, and… | Security Reviewed | 94.8k | — |
