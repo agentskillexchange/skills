@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2548 published skills** across **17 categories** · 2,194 security reviewed · Updated 2026-06-03 04:29 UTC
+> **2550 published skills** across **17 categories** · 2,194 security reviewed · Updated 2026-06-03 13:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (332 skills)
+### 🛠️ Developer Tools (333 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -343,12 +343,13 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [n8n GitHub Issue-to-Jira Ticket Automator](skills/n8n-github-jira-ticket-automator/) | Deploys an n8n workflow via the n8n REST API using the GitHub Trigger node to capture new issue events and transform… | Security Reviewed | — | — |
 | [NPM Package Auditor](skills/npm-package-auditor-registry-api/) | Audits NPM packages using the NPM Registry API with dependency tree resolution and vulnerability scanning via… | Security Reviewed | — | — |
 | [Obsidian Vault Manager](skills/obsidian-vault-manager/) | Obsidian Vault Manager is built around HashiCorp Vault secrets platform. The underlying ecosystem is represented by… | Published | — | — |
+| [Staff Engineer Mode](skills/staff-engineer-mode/) | Routes engineering design, delivery, reliability, security, operations, and maintenance prompts to one native router… | Security Reviewed | — | — |
 | [Turn notes, logs, and screenshots into structured GitHub issues with GitHub Issue Creator](skills/turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator/) | Convert messy bug notes, error logs, voice dictation, and screenshots into crisp GitHub issue reports with clear… | Security Reviewed | — | — |
 | [VS Code Extension Debugger](skills/vscode-extension-debugger-dap-protocol/) | Debugs VS Code extensions using the Debug Adapter Protocol (DAP) with breakpoint management and variable inspection.… | Security Reviewed | — | — |
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (230 skills)
+### 🔒 Security & Verification (231 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -502,6 +503,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Run repeatable model and agent eval suites and inspect scoring traces with Inspect AI](skills/run-repeatable-model-and-agent-eval-suites-and-inspect-scoring-traces-with-inspect-ai/) | Run benchmark-style eval suites against models or agents, then inspect scored traces instead of relying on ad hoc… | Security Reviewed | 1.9k | — |
 | [Broker API credentials to AI agents without exposing raw keys using OneCLI](skills/broker-api-credentials-to-ai-agents-without-exposing-raw-keys-using-onecli/) | Store credentials once, then inject them into outbound agent requests at runtime so agents can call services without… | Published | 1.9k | — |
 | [Scan agent skill folders for risky patterns and missing safeguards before sharing or deployment with Cisco Skill Scanner](skills/scan-agent-skill-folders-for-risky-patterns-and-missing-safeguards-before-sharing-or-deployment-with-cisco-skill-scanner/) | Run a pre-trust security pass over skill packs and prompt bundles before they get shared, merged, or deployed. | Security Reviewed | 1.8k | — |
+| [Scan project dependencies for supply-chain vulnerabilities with MurphySec](skills/scan-project-dependencies-for-supply-chain-vulnerabilities-with-murphysec/) | Run MurphySec CLI against a project before release or dependency approval to detect vulnerable direct and transitive… | Security Reviewed | 1.7k | — |
 | [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | Clerk’s JavaScript backend SDK gives agents a real server-side interface for auth and user management. It is useful… | Security Reviewed | 1.7k | — |
 | [Assemble minimal OCI images from declarative package configs with apko](skills/assemble-minimal-oci-images-from-declarative-package-configs-with-apko/) | Use apko to build small OCI images from declarative package manifests when supply-chain clarity and minimal contents… | Security Reviewed | 1.6k | — |
 | [Red-team agent workflows for jailbreaks, prompt injection, and policy failures with DeepTeam](skills/red-team-agent-workflows-for-jailbreaks-prompt-injection-and-policy-failures-with-deepteam/) | Run local adversarial attack passes against agents, RAG pipelines, and chatbots to surface concrete failure classes… | Security Reviewed | 1.6k | — |

@@ -4,14 +4,14 @@
 
 ### The open catalog of AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C548-6366f1?style=for-the-badge)](skills/)
+[![Published](https://img.shields.io/badge/published-2%2C550-6366f1?style=for-the-badge)](skills/)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C194-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Categories](categories/) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,548 published skills · 17 categories · Real ecosystem signals · Updated daily*
+*2,550 published skills · 17 categories · Real ecosystem signals · Updated daily*
 
 </div>
 
@@ -82,8 +82,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | Skill | Tool | ⭐ Stars | Category |
 |-------|------|--------:|----------|
-| [Run terminal-native coding agent workflows with GitHub Copilot CLI](skills/run-terminal-native-coding-agent-workflows-with-github-copilot-cli/) | run-terminal-native-coding-agent-workflows-with-github-copilot-cli | 10.6k | Developer Tools |
 | [Run durable agent tasks and event-driven workflows with Hatchet](skills/run-durable-agent-tasks-and-event-driven-workflows-with-hatchet/) | run-durable-agent-tasks-and-event-driven-workflows-with-hatchet | 7.2k | Templates & Workflows |
+| [Run terminal-native coding agent workflows with GitHub Copilot CLI](skills/run-terminal-native-coding-agent-workflows-with-github-copilot-cli/) | run-terminal-native-coding-agent-workflows-with-github-copilot-cli | 10.6k | Developer Tools |
 | [Give coding agents Figma layout context through MCP](skills/give-coding-agents-figma-layout-context-through-mcp/) | give-coding-agents-figma-layout-context-through-mcp | 14.9k | Integrations & Connectors |
 | [Build managed document parsing pipelines with LlamaCloud Services](skills/build-managed-document-parsing-pipelines-with-llamacloud-services/) | build-managed-document-parsing-pipelines-with-llamacloud-services | 4.2k | Data Extraction & Transformation |
 | [Parse local PDFs into agent-ready text, JSON, and screenshots with LiteParse](skills/parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse/) | parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse | 5.1k | Data Extraction & Transformation |
@@ -92,8 +92,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Give coding agents persistent project memory with AgentMemory](skills/give-coding-agents-persistent-project-memory-with-agentmemory/) | give-coding-agents-persistent-project-memory-with-agentmemory | 17.2k | Developer Tools |
 | [Gate agent inputs and outputs with Superagent safety checks](skills/gate-agent-inputs-and-outputs-with-superagent-safety-checks/) | gate-agent-inputs-and-outputs-with-superagent-safety-checks | 6.6k | Security & Verification |
 | [Read Google Drive files and edit Sheets through MCP](skills/read-google-drive-files-and-edit-sheets-through-mcp/) | read-google-drive-files-and-edit-sheets-through-mcp | 280 | Calendar, Email & Productivity |
-| [Use Sim for orchestrated AI agent workflow runs](skills/use-sim-for-orchestrated-ai-agent-workflow-runs/) | use-sim-for-orchestrated-ai-agent-workflow-runs | 28.7k | Templates & Workflows |
 | [Trace and evaluate agent runs with Phoenix](skills/trace-and-evaluate-agent-runs-with-phoenix/) | trace-and-evaluate-agent-runs-with-phoenix | 9.8k | Monitoring & Alerts |
+| [Use Sim for orchestrated AI agent workflow runs](skills/use-sim-for-orchestrated-ai-agent-workflow-runs/) | use-sim-for-orchestrated-ai-agent-workflow-runs | 28.7k | Templates & Workflows |
 
 ---
 
@@ -101,8 +101,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 332 | CLI tools, scaffolders, dev environment setup |
-| 🔒 | [**Security & Verification**](categories/security-verification/) | 230 | Vulnerability scanning, auth setup, compliance |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 333 | CLI tools, scaffolders, dev environment setup |
+| 🔒 | [**Security & Verification**](categories/security-verification/) | 231 | Vulnerability scanning, auth setup, compliance |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 184 | Linting, code review, test generators, coverage |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 178 | ETL pipelines, parsing, format conversion |
@@ -179,7 +179,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,548 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,550 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,194 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-03
-# Total: 2548 skills
+# Total: 2550 skills
+
+## Staff Engineer Mode
+slug: staff-engineer-mode
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Routes engineering design, delivery, reliability, security, operations, and maintenance prompts to one native router skill backed by specialist guidance for Claude Code, Codex, Cursor,…
+url: https://agentskillexchange.com/skills/staff-engineer-mode/
+
+## Scan project dependencies for supply-chain vulnerabilities with MurphySec
+slug: scan-project-dependencies-for-supply-chain-vulnerabilities-with-murphysec
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run MurphySec CLI against a project before release or dependency approval to detect vulnerable direct and transitive dependencies.
+url: https://agentskillexchange.com/skills/scan-project-dependencies-for-supply-chain-vulnerabilities-with-murphysec/
 
 ## Evaluate document parsers for agent ingestion with ParseBench
 slug: evaluate-document-parsers-for-agent-ingestion-with-parsebench
@@ -19520,7 +19536,7 @@ slug: terrascan-policy-scanner
 category: Security & Verification
 framework: Custom Agents
 verification: Published
-description: Terrascan Policy Scanner is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a…
+description: Terrascan Policy Scanner is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (active GitHub adoption). It gives an agent a…
 url: https://agentskillexchange.com/skills/terrascan-policy-scanner/
 
 ## Redis MCP Server
@@ -19544,7 +19560,7 @@ slug: kics-iac-linter
 category: Security & Verification
 framework: Custom Agents
 verification: Published
-description: KICS IaC Linter is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a…
+description: KICS IaC Linter is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (active GitHub adoption). It gives an agent a…
 url: https://agentskillexchange.com/skills/kics-iac-linter/
 
 ## Open Policy Agent (OPA)
@@ -19552,7 +19568,7 @@ slug: open-policy-agent-opa
 category: Security & Verification
 framework: Custom Agents
 verification: Security Reviewed
-description: Open Policy Agent (OPA) is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent…
+description: Open Policy Agent (OPA) is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (active GitHub adoption). It gives an agent…
 url: https://agentskillexchange.com/skills/open-policy-agent-opa/
 
 ## Conftest Policy Tester
@@ -19560,7 +19576,7 @@ slug: conftest-policy-tester
 category: Security & Verification
 framework: Custom Agents
 verification: Security Reviewed
-description: Conftest Policy Tester is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a…
+description: Conftest Policy Tester is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (active GitHub adoption). It gives an agent a…
 url: https://agentskillexchange.com/skills/conftest-policy-tester/
 
 ## Falco Runtime Security
@@ -19568,7 +19584,7 @@ slug: falco-runtime-security
 category: Security & Verification
 framework: Custom Agents
 verification: Security Reviewed
-description: Falco Runtime Security is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a…
+description: Falco Runtime Security is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (active GitHub adoption). It gives an agent a…
 url: https://agentskillexchange.com/skills/falco-runtime-security/
 
 ## OWASP ZAP Scanner
@@ -19584,7 +19600,7 @@ slug: checkov-iac-scanner
 category: Security & Verification
 framework: Custom Agents
 verification: Security Reviewed
-description: Checkov IaC Scanner is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a…
+description: Checkov IaC Scanner is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (active GitHub adoption). It gives an agent a…
 url: https://agentskillexchange.com/skills/checkov-iac-scanner/
 
 ## LlamaIndex Agent
@@ -19648,7 +19664,7 @@ slug: railway-app-deployer
 category: Templates & Workflows
 framework: Custom Agents
 verification: Security Reviewed
-description: Railway App Deployer is built around GraphQL API ecosystem. The underlying ecosystem is represented by graphql/graphql-js (20,335+ GitHub stars). It gives an agent a…
+description: Railway App Deployer is built around GraphQL API ecosystem. The underlying ecosystem is represented by graphql/graphql-js (active GitHub adoption). It gives an agent a…
 url: https://agentskillexchange.com/skills/railway-app-deployer/
 
 ## Terraform Module Registry
@@ -19672,7 +19688,7 @@ slug: digitalocean-droplet-manager
 category: Templates & Workflows
 framework: Custom Agents
 verification: Security Reviewed
-description: DigitalOcean Droplet Manager is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a…
+description: DigitalOcean Droplet Manager is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (active GitHub adoption). It gives an agent a…
 url: https://agentskillexchange.com/skills/digitalocean-droplet-manager/
 
 ## Ansible Playbook Runner
@@ -19688,7 +19704,7 @@ slug: fly-io-deployment-helper
 category: Templates & Workflows
 framework: Custom Agents
 verification: Security Reviewed
-description: Fly.io Deployment Helper is built around GraphQL API ecosystem. The underlying ecosystem is represented by graphql/graphql-js (20,335+ GitHub stars). It gives an agent a…
+description: Fly.io Deployment Helper is built around GraphQL API ecosystem. The underlying ecosystem is represented by graphql/graphql-js (active GitHub adoption). It gives an agent a…
 url: https://agentskillexchange.com/skills/fly-io-deployment-helper/
 
 ## Packer Image Builder
@@ -19696,7 +19712,7 @@ slug: packer-image-builder
 category: Templates & Workflows
 framework: Custom Agents
 verification: Security Reviewed
-description: Packer Image Builder is built around Docker container platform. The underlying ecosystem is represented by moby/moby (71,560+ GitHub stars). It gives an agent a…
+description: Packer Image Builder is built around Docker container platform. The underlying ecosystem is represented by moby/moby (active GitHub adoption). It gives an agent a…
 url: https://agentskillexchange.com/skills/packer-image-builder/
 
 ## Devcontainer Setup Agent
@@ -19704,7 +19720,7 @@ slug: devcontainer-setup-agent
 category: Developer Tools
 framework: Claude Code
 verification: Security Reviewed
-description: Devcontainer Setup Agent is built around Docker container platform. The underlying ecosystem is represented by moby/moby (71,560+ GitHub stars). It gives an agent a…
+description: Devcontainer Setup Agent is built around Docker container platform. The underlying ecosystem is represented by moby/moby (active GitHub adoption). It gives an agent a…
 url: https://agentskillexchange.com/skills/devcontainer-setup-agent/
 
 ## Cloudflare Workers Deployer
@@ -19712,7 +19728,7 @@ slug: cloudflare-workers-deployer
 category: Templates & Workflows
 framework: Custom Agents
 verification: Security Reviewed
-description: Cloudflare Workers Deployer is built around Cloudflare developer platform. The underlying ecosystem is represented by cloudflare/cloudflare-go (1,946+ GitHub stars). It gives an agent a…
+description: Cloudflare Workers Deployer is built around Cloudflare developer platform. The underlying ecosystem is represented by cloudflare/cloudflare-go (active GitHub adoption). It gives an agent a…
 url: https://agentskillexchange.com/skills/cloudflare-workers-deployer/
 
 ## AWS CDK Scaffolder
@@ -19720,7 +19736,7 @@ slug: aws-cdk-scaffolder
 category: Templates & Workflows
 framework: Custom Agents
 verification: Security Reviewed
-description: AWS CDK Scaffolder is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an…
+description: AWS CDK Scaffolder is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (active GitHub adoption). It gives an…
 url: https://agentskillexchange.com/skills/aws-cdk-scaffolder/
 
 ## Vercel Deployment Agent
@@ -19808,7 +19824,7 @@ slug: apache-kafka-stream-processor
 category: Data Extraction & Transformation
 framework: Custom Agents
 verification: Security Reviewed
-description: Apache Kafka Stream Processor is built around Apache Kafka event streaming platform. The underlying ecosystem is represented by tulios/kafkajs (3,987+ GitHub stars). It gives…
+description: Apache Kafka Stream Processor is built around Apache Kafka event streaming platform. The underlying ecosystem is represented by tulios/kafkajs (active GitHub adoption). It gives…
 url: https://agentskillexchange.com/skills/apache-kafka-stream-processor/
 
 ## Apache Spark Job Manager
@@ -19856,7 +19872,7 @@ slug: postman-collection-runner
 category: Library & API Reference
 framework: Custom Agents
 verification: Security Reviewed
-description: Postman Collection Runner is built around Postman API testing platform. The underlying ecosystem is represented by postmanlabs/postman-app-support (5,996+ GitHub stars). It gives an agent…
+description: Postman Collection Runner is built around Postman API testing platform. The underlying ecosystem is represented by postmanlabs/postman-app-support (active GitHub adoption). It gives an agent…
 url: https://agentskillexchange.com/skills/postman-collection-runner/
 
 ## GraphQL Schema Explorer
@@ -19952,7 +19968,7 @@ slug: weaviate-mcp-server
 category: Data Extraction & Transformation
 framework: MCP
 verification: Security Reviewed
-description: Weaviate MCP Server is built around GraphQL API ecosystem. The underlying ecosystem is represented by graphql/graphql-js (20,335+ GitHub stars). It gives an agent a…
+description: Weaviate MCP Server is built around GraphQL API ecosystem. The underlying ecosystem is represented by graphql/graphql-js (active GitHub adoption). It gives an agent a…
 url: https://agentskillexchange.com/skills/weaviate-mcp-server/
 
 ## LlamaIndex MCP Server
@@ -20000,7 +20016,7 @@ slug: metrics-dashboard-builder
 category: Monitoring & Alerts
 framework: Claude Agents
 verification: Security Reviewed
-description: Metrics Dashboard Builder is built around Datadog observability platform. The underlying ecosystem is represented by DataDog/dd-trace-js (787+ GitHub stars). It gives an agent a…
+description: Metrics Dashboard Builder is built around Datadog observability platform. The underlying ecosystem is represented by DataDog/dd-trace-js (active GitHub adoption). It gives an agent a…
 url: https://agentskillexchange.com/skills/metrics-dashboard-builder/
 
 ## Cloud Cost Analysis
