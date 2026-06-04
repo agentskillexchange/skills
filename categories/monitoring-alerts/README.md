@@ -113,6 +113,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Generate drift and quality reports for ML and LLM pipelines with Evidently](../../skills/generate-drift-and-quality-reports-for-ml-and-llm-pipelines-with-evidently/) | 7.4k | — |
 | [Trace LLM and agent workflows with OpenLLMetry](../../skills/trace-llm-and-agent-workflows-with-openllmetry/) | 7.2k | — |
 | [OpenTelemetry Collector Pipeline Designer](../../skills/otel-collector-pipeline-designer/) | 6.9k | — |
+| [Monitor and evaluate LLM agent traffic with Helicone](../../skills/monitor-and-evaluate-llm-agent-traffic-with-helicone/) | 5.8k | — |
 | [GoatCounter Privacy-First Web Analytics Platform](../../skills/goatcounter-privacy-first-web-analytics-platform/) | 5.6k | — |
 | [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | 5k | 3.3k/wk |
 | [Evaluate and monitor LLM workflows with Agenta](../../skills/evaluate-and-monitor-llm-workflows-with-agenta/) | 4.2k | — |

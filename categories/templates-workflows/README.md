@@ -94,6 +94,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Cookiecutter Project Template Scaffolder](../../skills/cookiecutter-project-template-scaffolder/) | 24.8k | — |
 | [Run Claude Code through repeatable command and persona workflows with SuperClaude](../../skills/run-claude-code-through-repeatable-command-and-persona-workflows-with-superclaude/) | 22.3k | — |
 | [Prefect Python Workflow Orchestration Framework for Data Pipelines](../../skills/prefect-python-workflow-orchestration-data-pipelines/) | 22.1k | — |
+| [Run supervised Suna sessions for reviewable agent work](../../skills/run-supervised-suna-sessions-for-reviewable-agent-work/) | 19.8k | — |
 | [Temporal Durable Execution Workflow Orchestration Platform](../../skills/temporal-durable-execution-workflow-platform/) | 19.4k | — |
 | [React Email Component Library for Building Email Templates](../../skills/react-email-component-library-email-templates/) | 18.4k | 2.2M/wk |
 | [Run supervised desktop and browser agent work inside Agent Zero](../../skills/run-supervised-desktop-and-browser-agent-work-inside-agent-zero/) | 17.8k | — |

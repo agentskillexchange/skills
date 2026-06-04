@@ -82,6 +82,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Apache Kafka Stream Processor](../../skills/apache-kafka-stream-processor/) | 32.4k | — |
 | [Cheerio DOM Extraction Pipeline](../../skills/cheerio-dom-extraction-pipeline/) | 30.3k | 19.6M/wk |
 | [Cheerio HTML and XML Parsing Library for Node.js Extraction Workflows](../../skills/cheerio-html-xml-parsing-library-nodejs-extraction-workflows/) | 30.3k | 19.6M/wk |
+| [Match resumes to job descriptions with Resume Matcher](../../skills/match-resumes-to-job-descriptions-with-resume-matcher/) | 27.2k | — |
 | [Turn mixed local folders into a queryable knowledge graph with Graphify](../../skills/turn-mixed-local-folders-into-a-queryable-knowledge-graph-with-graphify/) | 25.7k | — |
 | [Typesense Typo-Tolerant Search Engine](../../skills/typesense-typo-tolerant-search-engine/) | 25.5k | — |
 | [Use PandasAI for conversational CSV and spreadsheet analysis](../../skills/use-pandasai-for-conversational-csv-and-spreadsheet-analysis/) | 23.6k | — |
@@ -144,6 +145,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [jnv Interactive JSON Navigator and jq Filter Editor](../../skills/jnv-interactive-json-navigator/) | 6k | — |
 | [dlt Python Data Load Tool](../../skills/dlt-python-data-load-tool/) | 5.2k | — |
 | [Parse local PDFs into agent-ready text, JSON, and screenshots with LiteParse](../../skills/parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse/) | 5.1k | 37k/wk |
+| [Build graph RAG context with Neo4j LLM Graph Builder](../../skills/build-graph-rag-context-with-neo4j-llm-graph-builder/) | 4.7k | — |
 | [ExifTool Metadata Reader and Writer for Images and Files](../../skills/exiftool-metadata-reader-writer-images-files/) | 4.6k | — |
 | [franc Natural Language Detection Library and CLI](../../skills/franc-natural-language-detection/) | 4.4k | — |
 | [Stripe Revenue Analytics Dashboard Builder](../../skills/stripe-revenue-analytics-dashboard/) | 4.4k | 9.3M/wk |

@@ -2,8 +2,53 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-04",
-  "total": 2563,
+  "total": 2568,
   "skills": [
+    {
+      "slug": "build-graph-rag-context-with-neo4j-llm-graph-builder",
+      "name": "Build graph RAG context with Neo4j LLM Graph Builder",
+      "title": "Build graph RAG context with Neo4j LLM Graph Builder",
+      "description": "Convert a bounded document set into a Neo4j knowledge graph, inspect extracted nodes and relationships, and use it for graph-backed RAG.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "monitor-and-evaluate-llm-agent-traffic-with-helicone",
+      "name": "Monitor and evaluate LLM agent traffic with Helicone",
+      "title": "Monitor and evaluate LLM agent traffic with Helicone",
+      "description": "Route model calls through Helicone, inspect costs, latency, traces, prompts, and evaluations, then review changes before they ship.",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "render-interactive-mcp-tool-uis-with-mcp-ui",
+      "name": "Render interactive MCP tool UIs with mcp-ui",
+      "title": "Render interactive MCP tool UIs with mcp-ui",
+      "description": "Build an MCP Apps resource, attach it to a tool through _meta.ui.resourceUri, and verify the host renders the interactive UI alongside tool results.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "run-supervised-suna-sessions-for-reviewable-agent-work",
+      "name": "Run supervised Suna sessions for reviewable agent work",
+      "title": "Run supervised Suna sessions for reviewable agent work",
+      "description": "Start a bounded Suna or Kortix agent session, let it use browser, files, tools, and connectors, then review the session output before delivery.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "match-resumes-to-job-descriptions-with-resume-matcher",
+      "name": "Match resumes to job descriptions with Resume Matcher",
+      "title": "Match resumes to job descriptions with Resume Matcher",
+      "description": "Run a reviewable resume-to-job-description matching workflow that produces ATS-style gaps, keyword suggestions, and human-checkable resume improvements.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "prepare-local-retrieval-embeddings-with-fastembed",
       "name": "Prepare local retrieval embeddings with FastEmbed",

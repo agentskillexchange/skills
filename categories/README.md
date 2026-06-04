@@ -1,18 +1,18 @@
 # Categories
 
-> **2563 skills** across **17 categories**
+> **2568 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
 | 🛠️ | [**Developer Tools**](developer-tools/) | **333** | CLI helpers, dev environment setup, productivity utilities, and devel... |
 | 🔒 | [**Security & Verification**](security-verification/) | **231** | Auth setup, vulnerability scanning, compliance checks, and security a... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **192** | Pipeline configs, deployment automation, build tooling, and continuou... |
+| 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **184** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **184** | Linting rules, review checklists, code standards enforcement, and qua... |
-| 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **182** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
-| 📄 | [**Templates & Workflows**](templates-workflows/) | **176** | Project scaffolding, boilerplate generators, workflow templates, and ... |
+| 📄 | [**Templates & Workflows**](templates-workflows/) | **177** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **173** | Incident response, troubleshooting guides, system diagnostics, and op... |
-| 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **135** | Metrics collection, alerting rules, observability setup, and system m... |
-| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **127** | Third-party API bridges, webhook handlers, service connectors, and pl... |
+| 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **136** | Metrics collection, alerting rules, observability setup, and system m... |
+| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **128** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **124** | Email automation, calendar management, task coordination, and product... |
 | 📚 | [**Library & API Reference**](library-api-reference/) | **122** | SDK documentation, API guides, framework reference material, and libr... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **111** | Web scraping, UI testing, headless browser control, and browser-based... |
