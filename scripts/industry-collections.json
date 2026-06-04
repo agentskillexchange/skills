@@ -1922,7 +1922,7 @@
         },
         "twenty-open-source-crm-salesforce-alternative": {
           "why_here": "Provides an open CRM base for teams that need customizable pipeline, account, and contact workflows outside Salesforce.",
-          "persona": "Founder ops / CRM admin",
+          "persona": "RevOps admin / CRM operations lead",
           "install_complexity": "High"
         },
         "zapier-lead-enrichment-workflow": {
