@@ -57,7 +57,7 @@ Literature review, citation context, research synthesis, paper drafting, replica
 ## Adjacent Collections
 
 - [Legal Ops & Compliance](legal-ops-compliance.md)
-- [DevRel & API Documentation](devrel-api-documentation.md)
+- [DevRel & API Documentation Workflows](devrel-api-documentation.md)
 - [Media & Publishing Systems](media-publishing-systems.md)
 
 ---

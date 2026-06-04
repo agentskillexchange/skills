@@ -68,7 +68,7 @@ Demand generation, SEO and content operations, lifecycle email, CRM enrichment, 
 - [Product Analytics & Growth Ops](product-analytics-growth-ops.md)
 - [Customer Support & Success](customer-support-success.md)
 - [AI Agency Operations & FDE Workflows](ai-agency-operations.md)
-- [DevRel & API Documentation](devrel-api-documentation.md)
+- [DevRel & API Documentation Workflows](devrel-api-documentation.md)
 
 ---
 

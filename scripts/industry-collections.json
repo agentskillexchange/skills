@@ -1053,7 +1053,7 @@
     },
     {
       "slug": "devrel-api-documentation",
-      "title": "DevRel & API Documentation",
+      "title": "DevRel & API Documentation Workflows",
       "launch_stage": "wave-3",
       "description": "API docs, OpenAPI references, SDK generation, docs-site publishing, prose linting, and developer enablement workflows.",
       "editorial_caution": "Frame this as developer enablement and API documentation, not a generic software-industry bucket.",

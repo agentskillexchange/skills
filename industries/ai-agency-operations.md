@@ -58,7 +58,7 @@ Client-facing AI delivery, forward deployed engineering workflows, browser autom
 
 - [Product Analytics & Growth Ops](product-analytics-growth-ops.md)
 - [Customer Support & Success](customer-support-success.md)
-- [DevRel & API Documentation](devrel-api-documentation.md)
+- [DevRel & API Documentation Workflows](devrel-api-documentation.md)
 - [Media & Publishing Systems](media-publishing-systems.md)
 - [GTM & RevOps Workflows](gtm-revops-workflows.md)
 

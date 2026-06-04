@@ -53,7 +53,7 @@ Transcription, subtitles, podcast workflows, chaptering, localization, loudness 
 
 ## Adjacent Collections
 
-- [DevRel & API Documentation](devrel-api-documentation.md)
+- [DevRel & API Documentation Workflows](devrel-api-documentation.md)
 - [Customer Support & Success](customer-support-success.md)
 
 ---
