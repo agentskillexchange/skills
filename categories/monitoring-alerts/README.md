@@ -111,6 +111,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Prometheus Alertmanager Rule Auditor](../../skills/prometheus-alertmanager-rule-auditor/) | 8.4k | — |
 | [ntopng Web-Based Network Traffic Monitoring and Security Analysis](../../skills/ntopng-web-based-network-traffic-monitoring-security/) | 7.7k | — |
 | [Generate drift and quality reports for ML and LLM pipelines with Evidently](../../skills/generate-drift-and-quality-reports-for-ml-and-llm-pipelines-with-evidently/) | 7.4k | — |
+| [Trace LLM and agent workflows with OpenLLMetry](../../skills/trace-llm-and-agent-workflows-with-openllmetry/) | 7.2k | — |
 | [OpenTelemetry Collector Pipeline Designer](../../skills/otel-collector-pipeline-designer/) | 6.9k | — |
 | [GoatCounter Privacy-First Web Analytics Platform](../../skills/goatcounter-privacy-first-web-analytics-platform/) | 5.6k | — |
 | [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | 5k | 3.3k/wk |

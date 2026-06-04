@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-04
-# Total: 2554 skills
+# Total: 2558 skills
+
+## Draft cited research reports with STORM
+slug: draft-cited-research-reports-with-storm
+category: Research & Scraping
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use STORM to research a topic, build a multi-perspective outline, and generate a cited long-form draft for human review.
+url: https://agentskillexchange.com/skills/draft-cited-research-reports-with-storm/
+
+## Trace LLM and agent workflows with OpenLLMetry
+slug: trace-llm-and-agent-workflows-with-openllmetry
+category: Monitoring & Alerts
+framework: Multi-Framework
+verification: Security Reviewed
+description: Add OpenTelemetry-based instrumentation to LLM and agent code so operators can inspect prompts, tool calls, latency, errors, and provider behavior in their existing observability…
+url: https://agentskillexchange.com/skills/trace-llm-and-agent-workflows-with-openllmetry/
+
+## Deploy Kubernetes-native agents with kagent
+slug: deploy-kubernetes-native-agents-with-kagent
+category: Runbooks & Diagnostics
+framework: Multi-Framework
+verification: Published
+description: Define agents, model configs, and MCP tool servers as Kubernetes resources so cloud operators can run controlled infrastructure workflows in-cluster.
+url: https://agentskillexchange.com/skills/deploy-kubernetes-native-agents-with-kagent/
+
+## Run data-backed business automation with Minds Platform
+slug: run-data-backed-business-automation-with-minds-platform
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Connect business data sources to Minds Platform so an agent can search, analyze, and automate recurring operational work with inspectable data grounding.
+url: https://agentskillexchange.com/skills/run-data-backed-business-automation-with-minds-platform/
 
 ## Use MCP Context Forge as an MCP gateway and registry
 slug: use-mcp-context-forge-as-an-mcp-gateway-and-registry

@@ -2,8 +2,44 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-04",
-  "total": 2554,
+  "total": 2558,
   "skills": [
+    {
+      "slug": "draft-cited-research-reports-with-storm",
+      "name": "Draft cited research reports with STORM",
+      "title": "Draft cited research reports with STORM",
+      "description": "Use STORM to research a topic, build a multi-perspective outline, and generate a cited long-form draft for human review.",
+      "category": "Research & Scraping",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "trace-llm-and-agent-workflows-with-openllmetry",
+      "name": "Trace LLM and agent workflows with OpenLLMetry",
+      "title": "Trace LLM and agent workflows with OpenLLMetry",
+      "description": "Add OpenTelemetry-based instrumentation to LLM and agent code so operators can inspect prompts, tool calls, latency, errors, and provider behavior in their existing observability…",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "deploy-kubernetes-native-agents-with-kagent",
+      "name": "Deploy Kubernetes-native agents with kagent",
+      "title": "Deploy Kubernetes-native agents with kagent",
+      "description": "Define agents, model configs, and MCP tool servers as Kubernetes resources so cloud operators can run controlled infrastructure workflows in-cluster.",
+      "category": "Runbooks & Diagnostics",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
+    {
+      "slug": "run-data-backed-business-automation-with-minds-platform",
+      "name": "Run data-backed business automation with Minds Platform",
+      "title": "Run data-backed business automation with Minds Platform",
+      "description": "Connect business data sources to Minds Platform so an agent can search, analyze, and automate recurring operational work with inspectable data grounding.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "use-mcp-context-forge-as-an-mcp-gateway-and-registry",
       "name": "Use MCP Context Forge as an MCP gateway and registry",

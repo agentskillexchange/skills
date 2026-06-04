@@ -160,6 +160,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Diff live database schemas against declarative SQL before schema drift reaches production with sqldef](../../skills/diff-live-database-schemas-against-declarative-sql-before-schema-drift-reaches-production-with-sqldef/) | 3.1k | — |
 | [Watch Kubernetes resources explain rollout stalls and surface live status transitions with kubespy](../../skills/watch-kubernetes-resources-explain-rollout-stalls-and-surface-live-status-transitions-with-kubespy/) | 3.1k | — |
 | [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](../../skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | 3k | 20.8k/wk |
+| [Deploy Kubernetes-native agents with kagent](../../skills/deploy-kubernetes-native-agents-with-kagent/) | 2.9k | — |
 | [Capture low-level Kubernetes runtime evidence with Inspektor Gadget](../../skills/capture-low-level-kubernetes-runtime-evidence-with-inspektor-gadget/) | 2.8k | — |
 | [Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto](../../skills/find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto/) | 2.5k | — |
 | [Investigate production incidents across Kubernetes and cloud signals with HolmesGPT](../../skills/investigate-production-incidents-across-kubernetes-and-cloud-signals-with-holmesgpt/) | 2.3k | — |

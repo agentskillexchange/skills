@@ -67,6 +67,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Apache Airflow MCP](../../skills/apache-airflow-mcp/) | 45k | — |
 | [Apache Spark Job Manager](../../skills/apache-spark-job-manager/) | 43.1k | — |
 | [Apache Spark DataFrame ETL Pipeline](../../skills/spark-dataframe-etl-pipeline/) | 43.1k | — |
+| [Run data-backed business automation with Minds Platform](../../skills/run-data-backed-business-automation-with-minds-platform/) | 39.2k | — |
 | [Paperless-ngx Document OCR and Archive Management System](../../skills/paperless-ngx-document-ocr-archive-management-system/) | 38.1k | — |
 | [Polars Blazing-Fast DataFrame Query Engine](../../skills/polars-dataframe-query-engine/) | 37.9k | — |
 | [DuckDB SQL Analytics Agent](../../skills/duckdb-sql-analytics-agent/) | 37.1k | — |

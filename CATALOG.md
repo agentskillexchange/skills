@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2554 published skills** across **17 categories** · 2,201 security reviewed · Updated 2026-06-04 01:26 UTC
+> **2558 published skills** across **17 categories** · 2,201 security reviewed · Updated 2026-06-04 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -980,7 +980,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Simplify recently changed code and open low-risk refactor pull requests](skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | This entry turns GitHub Next's Code Simplifier workflow into a narrow cleanup agent. The agent inspects code changed… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (178 skills)
+### 🔄 Data Extraction & Transformation (179 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -1013,6 +1013,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Apache Airflow MCP](skills/apache-airflow-mcp/) | Apache Airflow MCP is built around Apache Airflow workflow orchestration. The underlying ecosystem is represented by… | Security Reviewed | 45k | — |
 | [Apache Spark Job Manager](skills/apache-spark-job-manager/) | Apache Spark Job Manager is built around Apache Spark distributed compute engine. The underlying ecosystem is… | Security Reviewed | 43.1k | — |
 | [Apache Spark DataFrame ETL Pipeline](skills/spark-dataframe-etl-pipeline/) | Automates PySpark DataFrame transformations including schema inference, partition pruning, and Delta Lake merge… | Security Reviewed | 43.1k | — |
+| [Run data-backed business automation with Minds Platform](skills/run-data-backed-business-automation-with-minds-platform/) | Connect business data sources to Minds Platform so an agent can search, analyze, and automate recurring operational… | Security Reviewed | 39.2k | — |
 | [Paperless-ngx Document OCR and Archive Management System](skills/paperless-ngx-document-ocr-archive-management-system/) | Paperless-ngx is an open source document management system that turns scanned or uploaded paperwork into a… | Security Reviewed | 38.1k | — |
 | [Polars Blazing-Fast DataFrame Query Engine](skills/polars-dataframe-query-engine/) | Polars is an extremely fast DataFrame library written in Rust with Python, Node.js, and R bindings. This skill… | Security Reviewed | 37.9k | — |
 | [DuckDB SQL Analytics Agent](skills/duckdb-sql-analytics-agent/) | Run analytical SQL queries on local files (CSV, Parquet, JSON) using the DuckDB in-process database engine. Enables… | Security Reviewed | 37.1k | — |
@@ -1349,7 +1350,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown,… | Published | — | — |
 
 
-### 📋 Runbooks & Diagnostics (172 skills)
+### 📋 Runbooks & Diagnostics (173 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -1475,6 +1476,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Diff live database schemas against declarative SQL before schema drift reaches production with sqldef](skills/diff-live-database-schemas-against-declarative-sql-before-schema-drift-reaches-production-with-sqldef/) | Compare checked-in SQL against live MySQL, PostgreSQL, SQLite, or SQL Server schemas and generate a reviewable apply… | Security Reviewed | 3.1k | — |
 | [Watch Kubernetes resources explain rollout stalls and surface live status transitions with kubespy](skills/watch-kubernetes-resources-explain-rollout-stalls-and-surface-live-status-transitions-with-kubespy/) | Follow a Kubernetes workload live so an agent can explain why it is pending, failing, or not becoming ready. | Security Reviewed | 3.1k | — |
 | [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | Open a live PostgreSQL activity view during incidents so you can see sessions, waits, locks, and pressure before… | Security Reviewed | 3k | 20.8k/wk |
+| [Deploy Kubernetes-native agents with kagent](skills/deploy-kubernetes-native-agents-with-kagent/) | Define agents, model configs, and MCP tool servers as Kubernetes resources so cloud operators can run controlled… | Published | 2.9k | — |
 | [Capture low-level Kubernetes runtime evidence with Inspektor Gadget](skills/capture-low-level-kubernetes-runtime-evidence-with-inspektor-gadget/) | Run named Inspektor Gadget traces and snapshots when an agent needs eBPF-backed runtime evidence from pods,… | Security Reviewed | 2.8k | — |
 | [Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto](skills/find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto/) | Scan Helm charts, YAML, or live clusters for Kubernetes API versions scheduled for removal before an upgrade window. | Security Reviewed | 2.5k | — |
 | [Investigate production incidents across Kubernetes and cloud signals with HolmesGPT](skills/investigate-production-incidents-across-kubernetes-and-cloud-signals-with-holmesgpt/) | Use HolmesGPT when an on-call agent needs one investigation loop that pulls alerts, logs, metrics, and… | Security Reviewed | 2.3k | — |
@@ -1529,7 +1531,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (133 skills)
+### 📊 Monitoring & Alerts (134 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -1606,6 +1608,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Prometheus Alertmanager Rule Auditor](skills/prometheus-alertmanager-rule-auditor/) | Validates Prometheus recording and alerting rules using promtool check rules, analyzes Alertmanager routing trees… | Security Reviewed | 8.4k | — |
 | [ntopng Web-Based Network Traffic Monitoring and Security Analysis](skills/ntopng-web-based-network-traffic-monitoring-security/) | ntopng is a web-based network traffic monitoring application that provides real-time visibility into network flows,… | Published | 7.7k | — |
 | [Generate drift and quality reports for ML and LLM pipelines with Evidently](skills/generate-drift-and-quality-reports-for-ml-and-llm-pipelines-with-evidently/) | Produce repeatable drift and quality reports after data, model, or prompt changes so regressions are visible before… | Security Reviewed | 7.4k | — |
+| [Trace LLM and agent workflows with OpenLLMetry](skills/trace-llm-and-agent-workflows-with-openllmetry/) | Add OpenTelemetry-based instrumentation to LLM and agent code so operators can inspect prompts, tool calls, latency,… | Security Reviewed | 7.2k | — |
 | [OpenTelemetry Collector Pipeline Designer](skills/otel-collector-pipeline-designer/) | Designs OpenTelemetry Collector pipeline configurations with receivers (otlp, prometheus, filelog), processors… | Security Reviewed | 6.9k | — |
 | [GoatCounter Privacy-First Web Analytics Platform](skills/goatcounter-privacy-first-web-analytics-platform/) | GoatCounter is an open source analytics platform for privacy-friendly pageview tracking, referrer reporting, and… | Security Reviewed | 5.6k | — |
 | [sitespeed.io Comprehensive Web Performance Analysis Toolkit](skills/sitespeed-io-web-performance-analysis/) | sitespeed.io is an open-source tool for comprehensive web performance analysis. It tests websites using real… | Security Reviewed | 5k | 3.3k/wk |
@@ -2186,7 +2189,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Verify local web apps with Playwright scripts and managed dev servers](skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | Use Anthropic's webapp-testing skill to spin up one or more local servers, wait for them to become reachable, and… | Security Reviewed | — | — |
 
 
-### 🔍 Research & Scraping (110 skills)
+### 🔍 Research & Scraping (111 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -2216,6 +2219,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Cheerio DOM Scraping Toolkit](skills/cheerio-dom-scraping-toolkit/) | Parses static HTML using Cheerio's jQuery-like API for fast server-side DOM traversal and data extraction. Generates… | Published | 30.3k | 19.6M/wk |
 | [Cheerio Product Price Tracker](skills/cheerio-product-price-tracker/) | Monitors e-commerce product prices using Cheerio.js for server-side DOM parsing with got-scraping for stealth HTTP… | Published | 30.3k | 19.6M/wk |
 | [SearXNG Privacy-First Metasearch Engine and Search API](skills/searxng-privacy-first-metasearch-engine-search-api/) | SearXNG is an open-source metasearch engine that aggregates results from multiple search providers without tracking… | Security Reviewed | 28.3k | — |
+| [Draft cited research reports with STORM](skills/draft-cited-research-reports-with-storm/) | Use STORM to research a topic, build a multi-perspective outline, and generate a cited long-form draft for human review. | Security Reviewed | 28.3k | — |
 | [Run autonomous deep research workflows with GPT Researcher](skills/run-autonomous-deep-research-workflows-with-gpt-researcher/) | Use GPT Researcher to plan, gather, source, and assemble cited web or local research reports through a repeatable… | Security Reviewed | 27.4k | 1.6k/wk |
 | [Colly Golang Web Scraper and Crawler Framework](skills/colly-golang-web-scraper-crawler-framework/) | Colly is a fast open-source scraping and crawling framework for Go. It is built for everything from simple page… | Security Reviewed | 25.2k | — |
 | [Karakeep Self-Hosted Bookmark Manager with AI Tagging](skills/karakeep-bookmark-manager-ai-tagging/) | Karakeep (formerly Hoarder) is a self-hosted bookmark-everything app with 24K+ GitHub stars that provides AI-powered… | Published | 24.5k | — |
