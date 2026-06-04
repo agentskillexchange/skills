@@ -1,7 +1,47 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-04
-# Total: 2558 skills
+# Total: 2563 skills
+
+## Prepare local retrieval embeddings with FastEmbed
+slug: prepare-local-retrieval-embeddings-with-fastembed
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Generate dense, sparse, image, and reranking embeddings locally before writing vectors into Qdrant or another retrieval stack for agent memory and RAG workflows.
+url: https://agentskillexchange.com/skills/prepare-local-retrieval-embeddings-with-fastembed/
+
+## Constrain agent outputs with Outlines structured generation
+slug: constrain-agent-outputs-with-outlines-structured-generation
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Force LLM outputs into typed schemas, enums, JSON-like structures, and routing records during generation instead of repairing malformed text afterward.
+url: https://agentskillexchange.com/skills/constrain-agent-outputs-with-outlines-structured-generation/
+
+## Build graph-based retrieval workflows with GraphRAG
+slug: build-graph-based-retrieval-workflows-with-graphrag
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Index private text into graph-backed retrieval structures, tune prompts, and query the resulting knowledge graph for RAG workflows.
+url: https://agentskillexchange.com/skills/build-graph-based-retrieval-workflows-with-graphrag/
+
+## Build and evaluate MCP-capable agents with fast-agent
+slug: build-and-evaluate-mcp-capable-agents-with-fast-agent
+category: Templates & Workflows
+framework: MCP
+verification: Security Reviewed
+description: Scaffold, run, inspect, and evaluate model-agnostic agents that connect to MCP servers, skills, shell tools, and workflow packs.
+url: https://agentskillexchange.com/skills/build-and-evaluate-mcp-capable-agents-with-fast-agent/
+
+## Evaluate and monitor LLM workflows with Agenta
+slug: evaluate-and-monitor-llm-workflows-with-agenta
+category: Monitoring & Alerts
+framework: Multi-Framework
+verification: Published
+description: Run prompt experiments, testset evaluations, and observability reviews for production LLM workflows before regressions reach users.
+url: https://agentskillexchange.com/skills/evaluate-and-monitor-llm-workflows-with-agenta/
 
 ## Draft cited research reports with STORM
 slug: draft-cited-research-reports-with-storm

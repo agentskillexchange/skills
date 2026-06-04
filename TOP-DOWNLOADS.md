@@ -19,7 +19,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 11 | [Puppeteer Browser Automation Library for Chrome and Firefox](skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | 40.2M/wk | puppeteer | Browser Automation |
 | 12 | [GraphQL Data Federation Agent](skills/graphql-data-federation-agent/) | 34.2M/wk | graphql | Data Extraction & Transformation |
 | 13 | [SVGO SVG Optimization Tool](skills/svgo-svg-optimization-tool/) | 28.7M/wk | svgo | Image & Creative Automation |
-| 14 | [OpenAI Image Gen](skills/openai-image-gen/) | 24M/wk | openai | Image & Creative Automation |
+| 14 | [OpenAI Image Gen](skills/openai-image-gen/) | 24.8M/wk | openai | Image & Creative Automation |
 | 15 | [PostgreSQL Diagnostic Analyzer](skills/postgresql-diagnostic-analyzer/) | 23.2M/wk | postgresql | Runbooks & Diagnostics |
 | 16 | [Cheerio DOM Extraction Pipeline](skills/cheerio-dom-extraction-pipeline/) | 19.6M/wk | cheerio | Data Extraction & Transformation |
 | 17 | [Normalize international phone numbers into E.164 before CRM imports or messaging workflows](skills/normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows/) | 15.6M/wk | libphonenumber-js | Integrations & Connectors |
@@ -38,7 +38,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 30 | [API Client Generator Skill](skills/api-client-generator-skill/) | 5.7M/wk | openapi-generator | Developer Tools |
 | 31 | [SQLite Analyst](skills/sqlite-analyst/) | 5.5M/wk | sqlite | Developer Tools |
 | 32 | [PostHog Product Analytics and Feature Flags SDK](skills/posthog-product-analytics-and-feature-flags-sdk/) | 4.8M/wk | posthog-js | Monitoring & Alerts |
-| 33 | [Twilio MCP Server](skills/twilio-mcp-server/) | 4.2M/wk | twilio | Integrations & Connectors |
+| 33 | [Twilio MCP Server](skills/twilio-mcp-server/) | 4.6M/wk | twilio | Integrations & Connectors |
 | 34 | [TypeDoc TypeScript API Documentation Generator](skills/typedoc-typescript-api-documentation-generator/) | 3.7M/wk | typedoc | Library & API Reference |
 | 35 | [Stagehand AI Browser Automation Framework](skills/stagehand-ai-browser-automation-framework-2/) | 3.4M/wk | stagehand | Browser Automation |
 | 36 | [AWS CDK Scaffolder](skills/aws-cdk-scaffolder/) | 3.3M/wk | aws | Templates & Workflows |
@@ -50,8 +50,8 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 42 | [semantic-release Automated Versioning and Release Publishing](skills/semantic-release-automated-versioning-and-release-publishing/) | 2.5M/wk | semantic-release | CI/CD Integrations |
 | 43 | [Slack Bolt Event Subscription Debugger](skills/slack-bolt-event-subscription-debugger/) | 2.5M/wk | slack | Integrations & Connectors |
 | 44 | [Vercel Deployment Agent](skills/vercel-deployment-agent/) | 2.4M/wk | vercel | Templates & Workflows |
-| 45 | [Pulumi Drift Detector & Reconciler](skills/pulumi-drift-detector-reconciler/) | 2.1M/wk | pulumi | Runbooks & Diagnostics |
-| 46 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 2.1M/wk | datadog-api-client-typescript | Monitoring & Alerts |
+| 45 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 2.3M/wk | datadog-api-client-typescript | Monitoring & Alerts |
+| 46 | [Pulumi Drift Detector & Reconciler](skills/pulumi-drift-detector-reconciler/) | 2.1M/wk | pulumi | Runbooks & Diagnostics |
 | 47 | [LangChain MCP Server](skills/langchain-mcp-server/) | 2M/wk | langchain | Developer Tools |
 | 48 | [Astro Content-Driven Web Framework](skills/astro-content-driven-web-framework/) | 2M/wk | astro | Developer Tools |
 | 49 | [Selenium Grid Auto-Scaling Orchestrator](skills/selenium-grid-auto-scaling-orchestrator/) | 1.9M/wk | selenium | Browser Automation |

@@ -74,6 +74,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [LangExtract LLM-Powered Structured Text Extraction](../../skills/langextract-llm-structured-text-extraction/) | 35k | — |
 | [jq JSON Stream Transformer](../../skills/jq-json-stream-transformer/) | 34.5k | — |
 | [jq Pipeline Builder Agent](../../skills/jq-pipeline-builder-agent/) | 34.5k | — |
+| [Build graph-based retrieval workflows with GraphRAG](../../skills/build-graph-based-retrieval-workflows-with-graphrag/) | 33.4k | — |
 | [Marker PDF-to-Markdown Converter](../../skills/marker-pdf-to-markdown-converter/) | 33.2k | — |
 | [LightRAG Graph-Based Retrieval-Augmented Generation Framework](../../skills/lightrag-graph-rag-framework/) | 33.2k | — |
 | [Apache Kafka Schema Extractor](../../skills/apache-kafka-schema-extractor/) | 32.5k | — |
@@ -103,6 +104,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Unstructured Document Partitioning and ETL Library for LLM Pipelines](../../skills/unstructured-document-partitioning-etl-library-llm-pipelines/) | 14.4k | — |
 | [Gitingest Repository-to-Prompt Codebase Extraction Tool](../../skills/gitingest-repository-to-prompt-codebase-extraction-tool/) | 14.3k | — |
 | [Generate LLM fine-tuning, RAG, and eval datasets from source material with easy-dataset](../../skills/generate-llm-fine-tuning-rag-and-eval-datasets-from-source-material-with-easy-dataset/) | 14k | — |
+| [Constrain agent outputs with Outlines structured generation](../../skills/constrain-agent-outputs-with-outlines-structured-generation/) | 13.9k | — |
 | [dbt MCP Server](../../skills/dbt-mcp-server/) | 12.9k | — |
 | [Instructor Structured Data Extraction from LLMs](../../skills/instructor-structured-data-extraction-llms/) | 12.7k | — |
 | [dbt Cloud MCP](../../skills/dbt-cloud-mcp/) | 12.6k | — |
@@ -166,6 +168,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [JSON-to-Avro Schema Transformer](../../skills/json-to-avro-schema-transformer/) | 3.3k | — |
 | [Plan and preview warehouse SQL model changes before rollout with SQLMesh](../../skills/plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh/) | 3k | — |
 | [XML XSLT Transform Pipeline](../../skills/xml-xslt-transform-pipeline/) | 3k | — |
+| [Prepare local retrieval embeddings with FastEmbed](../../skills/prepare-local-retrieval-embeddings-with-fastembed/) | 3k | — |
 | [Postgres MCP Pro](../../skills/postgres-mcp-pro/) | 2.8k | — |
 | [Diff nested JSON, API responses, and config snapshots before approving changes](../../skills/diff-nested-json-api-responses-and-config-snapshots-before-approving-changes/) | 2.5k | — |
 | [Meltano Declarative ELT Data Integration Engine](../../skills/meltano-declarative-elt-data-integration-engine/) | 2.4k | — |

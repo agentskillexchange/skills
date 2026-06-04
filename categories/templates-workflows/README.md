@@ -143,6 +143,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Yeoman Sub-Generator Composition Builder](../../skills/yeoman-sub-generator-composition-builder/) | 4k | 402.7k/wk |
 | [Turn a codebase into an interactive onboarding course with Codebase to Course](../../skills/turn-a-codebase-into-an-interactive-onboarding-course-with-codebase-to-course/) | 3.9k | — |
 | [Run autonomous improve verify keep-or-revert loops across coding tasks with autoresearch](../../skills/run-autonomous-improve-verify-keep-or-revert-loops-across-coding-tasks-with-autoresearch/) | 3.8k | — |
+| [Build and evaluate MCP-capable agents with fast-agent](../../skills/build-and-evaluate-mcp-capable-agents-with-fast-agent/) | 3.8k | — |
 | [Cron Job Manager](../../skills/cron-job-manager/) | 3.6k | — |
 | [Rehearse and run scripted terminal demos with realistic playback using doitlive](../../skills/rehearse-and-run-scripted-terminal-demos-with-realistic-playback-using-doitlive/) | 3.6k | 236/wk |
 | [Iteratively optimize prompts and text-based agent configs against scored eval sets with GEPA](../../skills/iteratively-optimize-prompts-and-text-based-agent-configs-against-scored-eval-sets-with-gepa/) | 3.5k | 4.1M/wk |

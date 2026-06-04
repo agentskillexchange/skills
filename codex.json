@@ -2,8 +2,53 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-04",
-  "total": 2558,
+  "total": 2563,
   "skills": [
+    {
+      "slug": "prepare-local-retrieval-embeddings-with-fastembed",
+      "name": "Prepare local retrieval embeddings with FastEmbed",
+      "title": "Prepare local retrieval embeddings with FastEmbed",
+      "description": "Generate dense, sparse, image, and reranking embeddings locally before writing vectors into Qdrant or another retrieval stack for agent memory and RAG workflows.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "constrain-agent-outputs-with-outlines-structured-generation",
+      "name": "Constrain agent outputs with Outlines structured generation",
+      "title": "Constrain agent outputs with Outlines structured generation",
+      "description": "Force LLM outputs into typed schemas, enums, JSON-like structures, and routing records during generation instead of repairing malformed text afterward.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "build-graph-based-retrieval-workflows-with-graphrag",
+      "name": "Build graph-based retrieval workflows with GraphRAG",
+      "title": "Build graph-based retrieval workflows with GraphRAG",
+      "description": "Index private text into graph-backed retrieval structures, tune prompts, and query the resulting knowledge graph for RAG workflows.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "build-and-evaluate-mcp-capable-agents-with-fast-agent",
+      "name": "Build and evaluate MCP-capable agents with fast-agent",
+      "title": "Build and evaluate MCP-capable agents with fast-agent",
+      "description": "Scaffold, run, inspect, and evaluate model-agnostic agents that connect to MCP servers, skills, shell tools, and workflow packs.",
+      "category": "Templates & Workflows",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "evaluate-and-monitor-llm-workflows-with-agenta",
+      "name": "Evaluate and monitor LLM workflows with Agenta",
+      "title": "Evaluate and monitor LLM workflows with Agenta",
+      "description": "Run prompt experiments, testset evaluations, and observability reviews for production LLM workflows before regressions reach users.",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
     {
       "slug": "draft-cited-research-reports-with-storm",
       "name": "Draft cited research reports with STORM",

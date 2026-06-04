@@ -1,8 +1,68 @@
 {
   "version": "2.0",
-  "total": 2558,
+  "total": 2563,
   "generated": "2026-06-04",
   "skills": [
+    {
+      "slug": "prepare-local-retrieval-embeddings-with-fastembed",
+      "name": "Prepare local retrieval embeddings with FastEmbed",
+      "title": "Prepare local retrieval embeddings with FastEmbed",
+      "description": "Generate dense, sparse, image, and reranking embeddings locally before writing vectors into Qdrant or another retrieval stack for agent memory and RAG workflows.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 3011
+      }
+    },
+    {
+      "slug": "constrain-agent-outputs-with-outlines-structured-generation",
+      "name": "Constrain agent outputs with Outlines structured generation",
+      "title": "Constrain agent outputs with Outlines structured generation",
+      "description": "Force LLM outputs into typed schemas, enums, JSON-like structures, and routing records during generation instead of repairing malformed text afterward.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 13923
+      }
+    },
+    {
+      "slug": "build-graph-based-retrieval-workflows-with-graphrag",
+      "name": "Build graph-based retrieval workflows with GraphRAG",
+      "title": "Build graph-based retrieval workflows with GraphRAG",
+      "description": "Index private text into graph-backed retrieval structures, tune prompts, and query the resulting knowledge graph for RAG workflows.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 33445
+      }
+    },
+    {
+      "slug": "build-and-evaluate-mcp-capable-agents-with-fast-agent",
+      "name": "Build and evaluate MCP-capable agents with fast-agent",
+      "title": "Build and evaluate MCP-capable agents with fast-agent",
+      "description": "Scaffold, run, inspect, and evaluate model-agnostic agents that connect to MCP servers, skills, shell tools, and workflow packs.",
+      "category": "Templates & Workflows",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 3807
+      }
+    },
+    {
+      "slug": "evaluate-and-monitor-llm-workflows-with-agenta",
+      "name": "Evaluate and monitor LLM workflows with Agenta",
+      "title": "Evaluate and monitor LLM workflows with Agenta",
+      "description": "Run prompt experiments, testset evaluations, and observability reviews for production LLM workflows before regressions reach users.",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4176
+      }
+    },
     {
       "slug": "draft-cited-research-reports-with-storm",
       "name": "Draft cited research reports with STORM",
@@ -30525,7 +30585,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 12110451,
+        "npm_weekly_downloads": 12938180,
         "license": "MIT"
       }
     },
@@ -30539,7 +30599,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 103,
-        "npm_weekly_downloads": 2051112,
+        "npm_weekly_downloads": 2331654,
         "license": "Apache-2.0"
       }
     },
@@ -30579,7 +30639,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 27264,
-        "npm_weekly_downloads": 126031192,
+        "npm_weekly_downloads": 132482239,
         "license": "MIT"
       }
     },
@@ -30606,7 +30666,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 7288523,
+        "npm_weekly_downloads": 7910949,
         "license": "Apache-2.0"
       }
     },
@@ -30620,7 +30680,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 29597287,
+        "npm_weekly_downloads": 31403926,
         "license": "Apache-2.0"
       }
     },
@@ -30634,7 +30694,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3051,
-        "npm_weekly_downloads": 51490,
+        "npm_weekly_downloads": 55613,
         "license": "MIT"
       }
     },
@@ -30648,7 +30708,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1539,
-        "npm_weekly_downloads": 4228044,
+        "npm_weekly_downloads": 4555799,
         "license": "MIT"
       }
     },
@@ -30662,7 +30722,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 12110451,
+        "npm_weekly_downloads": 12938180,
         "license": "MIT"
       }
     },
@@ -30676,7 +30736,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1465,
-        "npm_weekly_downloads": 1030889,
+        "npm_weekly_downloads": 1092776,
         "license": "MIT"
       }
     },
@@ -30690,7 +30750,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 397,
-        "npm_weekly_downloads": 1044174,
+        "npm_weekly_downloads": 1152869,
         "license": "Apache-2.0"
       }
     },
@@ -30704,7 +30764,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 5610,
-        "npm_weekly_downloads": 2505298,
+        "npm_weekly_downloads": 1451501,
         "license": "MIT"
       }
     },
@@ -30743,7 +30803,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 24,
-        "npm_weekly_downloads": 5154,
+        "npm_weekly_downloads": 5179,
         "license": "Apache-2.0"
       }
     },
@@ -30771,7 +30831,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 811,
-        "npm_weekly_downloads": 6646140
+        "npm_weekly_downloads": 7430262
       }
     },
     {
@@ -30784,7 +30844,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 25248,
-        "npm_weekly_downloads": 2044903,
+        "npm_weekly_downloads": 2098364,
         "license": "Apache-2.0"
       }
     },
@@ -30901,7 +30961,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 712,
-        "npm_weekly_downloads": 63329
+        "npm_weekly_downloads": 62143
       }
     },
     {
@@ -30955,7 +31015,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1290,
-        "npm_weekly_downloads": 286,
+        "npm_weekly_downloads": 307,
         "license": "MIT"
       }
     },
@@ -30982,7 +31042,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 393,
-        "npm_weekly_downloads": 4087,
+        "npm_weekly_downloads": 5823,
         "license": "Apache-2.0"
       }
     },
@@ -31017,7 +31077,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 10942,
-        "npm_weekly_downloads": 23950273,
+        "npm_weekly_downloads": 24753917,
         "license": "Apache-2.0"
       }
     },
@@ -31168,7 +31228,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 33289,
-        "npm_weekly_downloads": 4836686,
+        "npm_weekly_downloads": 5319545,
         "license": "Apache-2.0"
       }
     },
@@ -31197,7 +31257,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 89986,
-        "npm_weekly_downloads": 54219029,
+        "npm_weekly_downloads": 57637599,
         "license": "Apache-2.0"
       }
     }
