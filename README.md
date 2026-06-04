@@ -12,7 +12,7 @@
 
 **[Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,563 published skills · 17 categories · Real ecosystem signals · Updated daily*
+*2,563 published skills · 14 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 </div>
 

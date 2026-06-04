@@ -198,7 +198,7 @@ lines.append('[![License](https://img.shields.io/badge/license-MIT-f59e0b?style=
 lines.append("")
 lines.append("**[Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**")
 lines.append("")
-lines.append(f"*{fmt_count(total)} published skills · {len(cat_rows)} categories · Real ecosystem signals · Updated daily*")
+lines.append(f"*{fmt_count(total)} published skills · 14 Industry Collections · {len(cat_rows)} categories · Real ecosystem signals · Updated daily*")
 lines.append("")
 lines.append("</div>")
 lines.append("")
