@@ -5,6 +5,7 @@
 ### The open catalog of AI agent skills
 
 [![Published](https://img.shields.io/badge/published-2%2C563-6366f1?style=for-the-badge)](skills/)
+[![Industry%20Collections](https://img.shields.io/badge/industry--collections-14-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C205-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
