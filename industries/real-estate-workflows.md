@@ -14,13 +14,13 @@ Property research support, transaction paperwork, signature routing, document in
 
 - Prepare and route transaction paperwork.
 - Extract and search property documents.
-- Maintain CRM contact context and follow-up lists.
+- Maintain contact exports and follow-up lists without making generic CRM the collection center.
 - Retrieve property facts for human-reviewed research packets.
 
 ## Workflow Stacks
 
 - **Transaction packet:** Collect forms → OCR documents → route signatures → archive final records
-- **Property research support:** Fetch property facts → extract document context → summarize CRM notes → escalate gaps
+- **Property research support:** Fetch property facts → extract document context → summarize records → escalate gaps
 - **PDF handoff packet:** Collect transaction documents → extract key fields → generate PDF packet → route signatures → archive final records
 
 ## Recommended Picks
@@ -32,9 +32,7 @@ Property research support, transaction paperwork, signature routing, document in
 | [OCRmyPDF Searchable PDF OCR Pipeline](../skills/ocrmypdf-searchable-pdf-ocr-pipeline/) | Makes scanned property and transaction documents searchable before packet review. | Real-estate admin / document ops | Medium | 33.2k |
 | [pdfplumber Python PDF Text and Table Extraction Library](../skills/pdfplumber-python-pdf-text-table-extraction/) | Extracts tables and structured details from PDFs such as statements, reports, and schedules. | Property analyst / transaction assistant | Medium | 10.1k |
 | [LangExtract LLM-Powered Structured Text Extraction](../skills/langextract-llm-structured-text-extraction/) | Pulls structured facts from property descriptions, disclosures, and transaction notes. | Operations analyst / broker assistant | Medium | 35k |
-| [HubSpot CRM Contact Enrichment Pipeline](../skills/hubspot-crm-contact-enrichment-pipeline/) | Keeps buyer, seller, vendor, and agent contact records enriched for follow-up. | Real-estate CRM admin / sales ops | Medium | 392 |
 | [Search PDFs, Office files, ebooks, and archives with one query before manual review](../skills/search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review/) | Finds relevant terms across property packets and archived transaction files quickly. | Transaction coordinator / compliance reviewer | Low | 9.6k |
-| [Twenty Open Source CRM Platform and Salesforce Alternative](../skills/twenty-open-source-crm-salesforce-alternative/) | Provides a customizable CRM base for pipeline, contacts, properties, and follow-up workflows. | Broker ops / CRM admin | High | 43.5k |
 | [Research real estate properties with RAG-backed market analysis](../skills/rag-backed-real-estate-property-research/) | Builds evidence-backed property research notes while keeping recommendations human-reviewed. | Property researcher / buyer agent assistant | High | 170 |
 | [Retrieve Zillow-style property details and market trends through an MCP server](../skills/retrieve-zillow-style-property-details-and-market-trends-through-an-mcp-server/) | Adds supervised property-detail and market-trend lookup for research packets. | Market analyst / agent assistant | High | 40 |
 | [Connect MCP agents to BatchData property and address APIs](../skills/connect-mcp-agents-to-batchdata-property-and-address-apis/) | Enriches addresses and property records through a structured API surface instead of manual lookup. | Data ops / property researcher | High | 30 |
@@ -45,6 +43,7 @@ Property research support, transaction paperwork, signature routing, document in
 
 - This is an operations-and-paperwork collection, not valuation, legal advice, or MLS completeness.
 - Review boundaries matter because property data and transaction documents can be stale or jurisdiction-sensitive.
+- Generic CRM picks were removed from primary picks; GTM & RevOps Workflows now owns broad CRM enrichment and CRM platform coverage.
 - Treat this as a cautious operations-and-paperwork pilot. Do not imply MLS completeness, valuation accuracy, legal advice, or buyer/seller recommendations.
 
 ## Adjacent Collections
@@ -52,6 +51,7 @@ Property research support, transaction paperwork, signature routing, document in
 - [Legal Ops & Compliance](legal-ops-compliance.md)
 - [Customer Support & Success](customer-support-success.md)
 - [Finance & Filings](finance-filings.md)
+- [GTM & RevOps Workflows](gtm-revops-workflows.md)
 
 ---
 

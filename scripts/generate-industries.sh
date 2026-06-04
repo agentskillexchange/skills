@@ -31,6 +31,7 @@ EMOJI = {
     "customer-support-success": "🎧",
     "real-estate-workflows": "🏠",
     "education-research-workflows": "🎓",
+    "gtm-revops-workflows": "📣",
     "ai-agency-operations": "🧭",
 }
 

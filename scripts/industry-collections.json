@@ -1437,9 +1437,7 @@
         "ocrmypdf-searchable-pdf-ocr-pipeline",
         "pdfplumber-python-pdf-text-table-extraction",
         "langextract-llm-structured-text-extraction",
-        "hubspot-crm-contact-enrichment-pipeline",
         "search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review",
-        "twenty-open-source-crm-salesforce-alternative",
         "rag-backed-real-estate-property-research",
         "retrieve-zillow-style-property-details-and-market-trends-through-an-mcp-server",
         "connect-mcp-agents-to-batchdata-property-and-address-apis",
@@ -1460,7 +1458,7 @@
       "jobs_covered": [
         "Prepare and route transaction paperwork.",
         "Extract and search property documents.",
-        "Maintain CRM contact context and follow-up lists.",
+        "Maintain contact exports and follow-up lists without making generic CRM the collection center.",
         "Retrieve property facts for human-reviewed research packets."
       ],
       "workflow_stacks": [
@@ -1478,7 +1476,7 @@
           "steps": [
             "Fetch property facts",
             "extract document context",
-            "summarize CRM notes",
+            "summarize records",
             "escalate gaps"
           ]
         },
@@ -1495,12 +1493,14 @@
       ],
       "editorial_notes": [
         "This is an operations-and-paperwork collection, not valuation, legal advice, or MLS completeness.",
-        "Review boundaries matter because property data and transaction documents can be stale or jurisdiction-sensitive."
+        "Review boundaries matter because property data and transaction documents can be stale or jurisdiction-sensitive.",
+        "Generic CRM picks were removed from primary picks; GTM & RevOps Workflows now owns broad CRM enrichment and CRM platform coverage."
       ],
       "adjacent_collections": [
         "legal-ops-compliance",
         "customer-support-success",
-        "finance-filings"
+        "finance-filings",
+        "gtm-revops-workflows"
       ],
       "skill_meta": {
         "docuseal-document-signing-pdf-forms": {
@@ -1528,20 +1528,10 @@
           "persona": "Operations analyst / broker assistant",
           "install_complexity": "Medium"
         },
-        "hubspot-crm-contact-enrichment-pipeline": {
-          "why_here": "Keeps buyer, seller, vendor, and agent contact records enriched for follow-up.",
-          "persona": "Real-estate CRM admin / sales ops",
-          "install_complexity": "Medium"
-        },
         "search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review": {
           "why_here": "Finds relevant terms across property packets and archived transaction files quickly.",
           "persona": "Transaction coordinator / compliance reviewer",
           "install_complexity": "Low"
-        },
-        "twenty-open-source-crm-salesforce-alternative": {
-          "why_here": "Provides a customizable CRM base for pipeline, contacts, properties, and follow-up workflows.",
-          "persona": "Broker ops / CRM admin",
-          "install_complexity": "High"
         },
         "rag-backed-real-estate-property-research": {
           "why_here": "Builds evidence-backed property research notes while keeping recommendations human-reviewed.",
@@ -1748,24 +1738,239 @@
       }
     },
     {
-      "slug": "ai-agency-operations",
-      "title": "AI Agency Operations & FDE Workflows",
-      "launch_stage": "wave-5",
-      "description": "Client-facing AI delivery, agency operations, forward deployed engineering workflows, automation consulting, and reusable implementation systems for client work.",
-      "editorial_caution": "Frame this as client delivery operations for agencies, FDEs, solutions engineers, and consultants, not a generic agent-engineering, security-ops, or developer-tools collection.",
+      "slug": "gtm-revops-workflows",
+      "title": "GTM & RevOps Workflows",
+      "description": "Demand generation, SEO and content operations, lifecycle email, CRM enrichment, lead routing, scheduling, feedback capture, and sales/revenue operations workflows.",
+      "launch_stage": "current",
+      "who_for": [
+        "Demand generation, growth, and marketing operations teams building repeatable acquisition workflows.",
+        "RevOps and CRM teams responsible for enrichment, routing, cleanup, scheduling, and sales handoff.",
+        "Lifecycle marketers and content operators who need auditable campaign and SEO workflows, not one-off prompts."
+      ],
+      "jobs_covered": [
+        "Plan SEO, content-gap, keyword, and technical audit workflows.",
+        "Design lifecycle email, newsletter, and owned-audience campaign operations.",
+        "Enrich CRM contacts, route leads, schedule handoffs, and keep revenue data usable.",
+        "Capture customer feedback and route GTM signals into follow-up workflows."
+      ],
+      "workflow_stacks": [
+        {
+          "name": "Demand generation audit",
+          "steps": [
+            "Research keywords",
+            "compare gaps",
+            "audit site quality",
+            "prioritize content plan"
+          ]
+        },
+        {
+          "name": "Lifecycle campaign build",
+          "steps": [
+            "Segment audience",
+            "design sequence",
+            "send newsletter",
+            "measure feedback"
+          ]
+        },
+        {
+          "name": "Lead handoff flow",
+          "steps": [
+            "Capture form",
+            "enrich contact",
+            "route in CRM",
+            "schedule follow-up",
+            "notify owner"
+          ]
+        },
+        {
+          "name": "RevOps cleanup sprint",
+          "steps": [
+            "Export CRM records",
+            "bulk update data",
+            "dedupe contacts",
+            "document routing rules"
+          ]
+        }
+      ],
       "skill_slugs": [
-        "run-repeatable-google-ads-and-seo-audits-inside-claude-code-with-toprank",
-        "diagnose-site-seo-issues-with-a-structured-audit",
-        "run-evidence-backed-agentic-seo-audits-with-agentic-seo-skill",
-        "plan-programmatic-seo-pages-at-scale",
-        "firecrawl-markdown-capture-pipeline",
-        "crawl4ai-llm-web-crawler-scraper",
-        "summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize",
         "mautic-marketing-automation-platform",
         "listmonk-self-hosted-newsletter-mailing-list",
         "design-lifecycle-email-sequences",
+        "plan-programmatic-seo-pages-at-scale",
+        "run-evidence-backed-agentic-seo-audits-with-agentic-seo-skill",
+        "run-repeatable-google-ads-and-seo-audits-inside-claude-code-with-toprank",
+        "ghost-open-source-publishing-platform-memberships-newsletters-headless-cms",
+        "openseo-self-hosted-keyword-research-seo-analysis",
+        "seonaut-open-source-technical-seo-audit",
+        "unlighthouse-site-wide-lighthouse-seo-auditing",
+        "ahrefs-content-gap-finder-agent",
+        "ahrefs-keyword-gap-analysis-skill",
+        "semrush-keyword-research-agent-api-v3",
+        "semrush-content-optimizer-agent",
+        "keyword-cluster-generator-agent",
+        "keyword-cannibalization-detector",
+        "salesforce-mcp-server",
+        "salesforce-bulk-api-data-loader",
+        "hubspot-mcp-server",
         "hubspot-crm-contact-enrichment-pipeline",
+        "twenty-open-source-crm-salesforce-alternative",
         "zapier-lead-enrichment-workflow",
+        "cal-com-open-source-scheduling-infrastructure-api",
+        "n8n-workflow-webhook-bridge",
+        "formbricks-open-source-survey-experience-management"
+      ],
+      "skill_meta": {
+        "mautic-marketing-automation-platform": {
+          "why_here": "Provides a self-hosted marketing automation base for demand generation, segmentation, lead scoring, and lifecycle campaign operations.",
+          "persona": "Marketing ops lead / demand generation manager",
+          "install_complexity": "High"
+        },
+        "listmonk-self-hosted-newsletter-mailing-list": {
+          "why_here": "Runs owned-audience newsletter and mailing-list operations without turning email delivery into a black-box SaaS dependency.",
+          "persona": "Lifecycle marketer / content ops lead",
+          "install_complexity": "Medium"
+        },
+        "design-lifecycle-email-sequences": {
+          "why_here": "Structures onboarding, activation, retention, and reactivation email sequences before they move into an ESP or automation platform.",
+          "persona": "Lifecycle marketer / growth operator",
+          "install_complexity": "Low"
+        },
+        "plan-programmatic-seo-pages-at-scale": {
+          "why_here": "Plans scalable SEO page programs with guardrails against thin, duplicated, or low-intent content expansion.",
+          "persona": "SEO strategist / growth content lead",
+          "install_complexity": "Medium"
+        },
+        "run-evidence-backed-agentic-seo-audits-with-agentic-seo-skill": {
+          "why_here": "Collects crawl, schema, performance, sitemap, robots, and content evidence before turning SEO findings into a prioritized action plan.",
+          "persona": "SEO consultant / growth engineer",
+          "install_complexity": "Medium"
+        },
+        "run-repeatable-google-ads-and-seo-audits-inside-claude-code-with-toprank": {
+          "why_here": "Turns paid search and SEO account reviews into a repeatable audit workflow with evidence and recommendations.",
+          "persona": "Performance marketing consultant / demand gen lead",
+          "install_complexity": "Medium"
+        },
+        "ghost-open-source-publishing-platform-memberships-newsletters-headless-cms": {
+          "why_here": "Gives content teams a publishing, membership, and newsletter surface for owned media programs.",
+          "persona": "Content ops lead / audience growth manager",
+          "install_complexity": "High"
+        },
+        "openseo-self-hosted-keyword-research-seo-analysis": {
+          "why_here": "Adds self-hosted keyword research and SEO analysis for teams that want search planning evidence without vendor lock-in.",
+          "persona": "SEO operator / content strategist",
+          "install_complexity": "Medium"
+        },
+        "seonaut-open-source-technical-seo-audit": {
+          "why_here": "Crawls sites for technical SEO issues before prioritizing fixes for demand-generation pages.",
+          "persona": "Technical SEO specialist / web ops",
+          "install_complexity": "Medium"
+        },
+        "unlighthouse-site-wide-lighthouse-seo-auditing": {
+          "why_here": "Runs site-wide Lighthouse checks so SEO and web performance issues are visible across templates, not just one URL.",
+          "persona": "Web growth engineer / technical SEO lead",
+          "install_complexity": "Medium"
+        },
+        "ahrefs-content-gap-finder-agent": {
+          "why_here": "Identifies content opportunities against competitors and existing ranking gaps for demand-generation planning.",
+          "persona": "SEO strategist / content marketing manager",
+          "install_complexity": "Medium"
+        },
+        "ahrefs-keyword-gap-analysis-skill": {
+          "why_here": "Compares keyword coverage against competitors so content teams can prioritize missing commercial and informational terms.",
+          "persona": "SEO analyst / growth content lead",
+          "install_complexity": "Medium"
+        },
+        "semrush-keyword-research-agent-api-v3": {
+          "why_here": "Uses SEMrush keyword data for research, prioritization, and campaign planning through a repeatable agent workflow.",
+          "persona": "SEO analyst / demand gen operator",
+          "install_complexity": "Medium"
+        },
+        "semrush-content-optimizer-agent": {
+          "why_here": "Listed-only SEMrush content optimization option for teams that already use SEMrush and need human-reviewed content guidance.",
+          "persona": "Content marketer / SEO editor",
+          "install_complexity": "Medium"
+        },
+        "keyword-cluster-generator-agent": {
+          "why_here": "Groups related keywords into clusters so content plans map to topics and page types instead of isolated terms.",
+          "persona": "SEO content planner / growth operator",
+          "install_complexity": "Low"
+        },
+        "keyword-cannibalization-detector": {
+          "why_here": "Finds overlapping ranking targets before teams create duplicate pages or split search intent across multiple assets.",
+          "persona": "SEO analyst / content operations lead",
+          "install_complexity": "Low"
+        },
+        "salesforce-mcp-server": {
+          "why_here": "Connects agent workflows to Salesforce records and operations through an MCP-compatible surface for supervised CRM work.",
+          "persona": "RevOps engineer / Salesforce admin",
+          "install_complexity": "High"
+        },
+        "salesforce-bulk-api-data-loader": {
+          "why_here": "Handles bulk Salesforce data movement for imports, cleanup, enrichment, and operational backfills.",
+          "persona": "Salesforce admin / revenue operations analyst",
+          "install_complexity": "High"
+        },
+        "hubspot-mcp-server": {
+          "why_here": "Connects agent workflows to HubSpot CRM objects, contacts, companies, and engagement data for supervised RevOps tasks.",
+          "persona": "HubSpot admin / RevOps engineer",
+          "install_complexity": "High"
+        },
+        "hubspot-crm-contact-enrichment-pipeline": {
+          "why_here": "Enriches and updates HubSpot contacts before sales handoff, lifecycle segmentation, or campaign routing.",
+          "persona": "RevOps analyst / HubSpot implementer",
+          "install_complexity": "Medium"
+        },
+        "twenty-open-source-crm-salesforce-alternative": {
+          "why_here": "Provides an open CRM base for teams that need customizable pipeline, account, and contact workflows outside Salesforce.",
+          "persona": "Founder ops / CRM admin",
+          "install_complexity": "High"
+        },
+        "zapier-lead-enrichment-workflow": {
+          "why_here": "Builds a concrete lead-enrichment workflow across forms, enrichment services, CRM updates, and team notifications.",
+          "persona": "Marketing ops builder / RevOps generalist",
+          "install_complexity": "Medium"
+        },
+        "cal-com-open-source-scheduling-infrastructure-api": {
+          "why_here": "Adds scheduling infrastructure for demos, sales calls, onboarding, customer interviews, and routing follow-up.",
+          "persona": "Sales ops lead / customer lifecycle operator",
+          "install_complexity": "High"
+        },
+        "n8n-workflow-webhook-bridge": {
+          "why_here": "Connects forms, webhooks, CRMs, enrichment steps, and notifications into repeatable GTM automation flows.",
+          "persona": "RevOps automation engineer / growth ops builder",
+          "install_complexity": "High"
+        },
+        "formbricks-open-source-survey-experience-management": {
+          "why_here": "Collects website, in-app, link, and email feedback that can inform lifecycle campaigns, qualification, and customer expansion workflows.",
+          "persona": "Lifecycle marketer / customer insights operator",
+          "install_complexity": "High"
+        }
+      },
+      "editorial_notes": [
+        "This collection is practitioner-focused: use it for operational GTM workflows, not broad marketing strategy or unsupervised outbound.",
+        "Vendor-family caps are intentional: Salesforce, HubSpot, Ahrefs, and SEMrush are limited to two primary picks each.",
+        "SEMrush Content Optimizer is included as a listed-only option for teams already using SEMrush; review source, terms, and data handling before production use.",
+        "Formbricks Survey and Experience Management was chosen over the narrower Formbricks survey-platform duplicate because the GTM workflow depends on lifecycle feedback and customer experience signals."
+      ],
+      "editorial_caution": "Keep CRM writes, enrichment, email sending, and paid-search changes human-reviewed; avoid using these skills for spam, scraped outreach, or unauthorized contact processing.",
+      "adjacent_collections": [
+        "product-analytics-growth-ops",
+        "customer-support-success",
+        "ai-agency-operations",
+        "devrel-api-documentation"
+      ]
+    },
+    {
+      "slug": "ai-agency-operations",
+      "title": "AI Agency Operations & FDE Workflows",
+      "launch_stage": "wave-5",
+      "description": "Client-facing AI delivery, forward deployed engineering workflows, browser automation, implementation systems, documentation, spreadsheets, proposals, and client handoff workflows.",
+      "editorial_caution": "Keep this collection focused on implementation and client delivery. Use GTM & RevOps Workflows for marketing automation, SEO operations, CRM enrichment, and lead handoff tooling.",
+      "skill_slugs": [
+        "diagnose-site-seo-issues-with-a-structured-audit",
+        "firecrawl-markdown-capture-pipeline",
+        "crawl4ai-llm-web-crawler-scraper",
+        "summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize",
         "n8n-workflow-webhook-bridge",
         "composio-agent-tool-integration-platform",
         "create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas",
@@ -1786,18 +1991,17 @@
         "RevOps and marketing ops agencies that need site audits, CRM enrichment, campaign operations, deliverable production, and workflow QA."
       ],
       "jobs_covered": [
-        "Audit client sites, docs, workflows, and campaign surfaces.",
-        "Build repeatable client automation workflows across forms, webhooks, tools, and campaign systems.",
-        "Package findings into reports, docs, spreadsheets, and handoff artifacts.",
-        "Manage CRM, lead enrichment, newsletter, and marketing automation operations.",
+        "Audit client sites, docs, workflows, and product surfaces for implementation planning.",
+        "Build repeatable client automation workflows across browsers, webhooks, tools, and internal systems.",
+        "Package findings into proposals, reports, docs, spreadsheets, and handoff artifacts.",
+        "Implement browser automation, design-to-code, workflow delivery, and client-facing agent stacks.",
         "Monitor delivery quality and reusable agency workflows."
       ],
       "workflow_stacks": [
         {
           "name": "Client audit sprint",
           "steps": [
-            "Crawl site",
-            "run SEO audit",
+            "Capture site context",
             "summarize findings",
             "build report",
             "deliver action plan"
@@ -1808,53 +2012,38 @@
           "steps": [
             "Map workflow",
             "connect tools",
-            "enrich records",
             "trigger handoffs",
             "validate outputs"
           ]
         },
         {
-          "name": "Campaign operations",
+          "name": "Client handoff packet",
           "steps": [
-            "Plan SEO pages",
-            "segment contacts",
-            "send campaigns",
-            "repair workbooks",
-            "document results"
+            "Draft proposal",
+            "repair workbook",
+            "write docs",
+            "record workflow",
+            "handoff implementation"
           ]
         }
       ],
       "editorial_notes": [
-        "Keep the collection anchored in client delivery work: audits, handoffs, CRM, campaign ops, reports, and reusable workflows.",
         "Avoid drifting into generic agent engineering, security operations, CI/CD, or broad developer tooling.",
-        "Prioritize tools that produce reviewable client artifacts or connect agency workflows to real business systems."
+        "Prioritize tools that produce reviewable client artifacts or connect agency workflows to real business systems.",
+        "Marketing automation, SEO/content ops, CRM enrichment, and RevOps handoff tooling now live in GTM & RevOps Workflows so this collection stays focused on FDE and client delivery."
       ],
       "adjacent_collections": [
         "product-analytics-growth-ops",
         "customer-support-success",
         "devrel-api-documentation",
-        "media-publishing-systems"
+        "media-publishing-systems",
+        "gtm-revops-workflows"
       ],
       "skill_meta": {
-        "run-repeatable-google-ads-and-seo-audits-inside-claude-code-with-toprank": {
-          "why_here": "Gives agencies a repeatable Google Ads and SEO audit workflow instead of ad hoc client-account prompting.",
-          "persona": "AI agency founder / paid search consultant",
-          "install_complexity": "Medium"
-        },
         "diagnose-site-seo-issues-with-a-structured-audit": {
           "why_here": "Creates a structured technical and on-page SEO audit before client recommendations are written.",
           "persona": "SEO consultant / client strategist",
           "install_complexity": "Low"
-        },
-        "run-evidence-backed-agentic-seo-audits-with-agentic-seo-skill": {
-          "why_here": "Collects crawl, schema, performance, sitemap, robots, and content evidence before producing client SEO audit reports and action plans.",
-          "persona": "SEO agency lead / forward deployed growth engineer",
-          "install_complexity": "Medium"
-        },
-        "plan-programmatic-seo-pages-at-scale": {
-          "why_here": "Helps agencies design scalable SEO page programs without collapsing into thin or duplicated client content.",
-          "persona": "Growth agency lead / content strategist",
-          "install_complexity": "Medium"
         },
         "firecrawl-markdown-capture-pipeline": {
           "why_here": "Captures clean Markdown from client sites for audits, content inventories, knowledge-base builds, and handoff docs.",
@@ -1869,31 +2058,6 @@
         "summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize": {
           "why_here": "Turns client URLs, docs, podcasts, videos, and files into compact briefs before proposals, audits, or implementation work.",
           "persona": "Client delivery lead / research strategist",
-          "install_complexity": "Medium"
-        },
-        "mautic-marketing-automation-platform": {
-          "why_here": "Provides a self-hosted marketing automation base for client journeys, lead scoring, segmentation, and campaign workflows.",
-          "persona": "Marketing ops consultant / campaign architect",
-          "install_complexity": "High"
-        },
-        "listmonk-self-hosted-newsletter-mailing-list": {
-          "why_here": "Covers newsletter and mailing-list operations for agencies delivering owned-audience campaign systems.",
-          "persona": "Lifecycle marketer / agency ops",
-          "install_complexity": "Medium"
-        },
-        "design-lifecycle-email-sequences": {
-          "why_here": "Structures lifecycle email campaigns for onboarding, activation, retention, and client campaign handoff work.",
-          "persona": "Lifecycle marketer / agency campaign lead",
-          "install_complexity": "Low"
-        },
-        "hubspot-crm-contact-enrichment-pipeline": {
-          "why_here": "Enriches and updates client CRM contact records as part of RevOps and campaign handoff workflows.",
-          "persona": "RevOps consultant / HubSpot implementer",
-          "install_complexity": "Medium"
-        },
-        "zapier-lead-enrichment-workflow": {
-          "why_here": "Builds a concrete lead-enrichment workflow across forms, enrichment services, HubSpot, and Slack notifications.",
-          "persona": "Automation consultant / client success ops",
           "install_complexity": "Medium"
         },
         "n8n-workflow-webhook-bridge": {
