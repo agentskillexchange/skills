@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-06-04
+# Generated: 2026-06-05
 # Total: 2568 skills
 
 ## Build graph RAG context with Neo4j LLM Graph Builder

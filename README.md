@@ -49,7 +49,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Install Superpowers methodology for coding agents](skills/install-superpowers-methodology-for-coding-agents/)** — Use Superpowers to give coding agents a structured software-development method with discovery, spec review, planning, TDD, subagents, and review loops.
+**[Ollama Local LLM Runner and Model Server](skills/ollama-local-llm-runner-model-server/)** — Ollama runs large language models locally with a simple CLI and REST API. It supports hundreds of open models including Llama, Gemma, Qwen, and DeepSeek, with GPU acceleration…
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -84,11 +84,11 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | Skill | Tool | ⭐ Stars | Category |
 |-------|------|--------:|----------|
-| [Build managed document parsing pipelines with LlamaCloud Services](skills/build-managed-document-parsing-pipelines-with-llamacloud-services/) | build-managed-document-parsing-pipelines-with-llamacloud-services | 4.2k | Data Extraction & Transformation |
 | [Run durable agent tasks and event-driven workflows with Hatchet](skills/run-durable-agent-tasks-and-event-driven-workflows-with-hatchet/) | run-durable-agent-tasks-and-event-driven-workflows-with-hatchet | 7.2k | Templates & Workflows |
-| [Extract OCR-ready Markdown from documents with Zerox](skills/extract-ocr-ready-markdown-from-documents-with-zerox/) | extract-ocr-ready-markdown-from-documents-with-zerox | 12.2k | Data Extraction & Transformation |
+| [Build managed document parsing pipelines with LlamaCloud Services](skills/build-managed-document-parsing-pipelines-with-llamacloud-services/) | build-managed-document-parsing-pipelines-with-llamacloud-services | 4.2k | Data Extraction & Transformation |
 | [Use A2A for agent-to-agent interoperability workflows](skills/use-a2a-for-agent-to-agent-interoperability-workflows/) | use-a2a-for-agent-to-agent-interoperability-workflows | 24.1k | Integrations & Connectors |
 | [Run terminal-native coding agent workflows with GitHub Copilot CLI](skills/run-terminal-native-coding-agent-workflows-with-github-copilot-cli/) | run-terminal-native-coding-agent-workflows-with-github-copilot-cli | 10.6k | Developer Tools |
+| [Extract OCR-ready Markdown from documents with Zerox](skills/extract-ocr-ready-markdown-from-documents-with-zerox/) | extract-ocr-ready-markdown-from-documents-with-zerox | 12.2k | Data Extraction & Transformation |
 | [Use Flowise for visual agent workflow orchestration](skills/use-flowise-for-visual-agent-workflow-orchestration/) | use-flowise-for-visual-agent-workflow-orchestration | 53.3k | Templates & Workflows |
 | [Give coding agents Figma layout context through MCP](skills/give-coding-agents-figma-layout-context-through-mcp/) | give-coding-agents-figma-layout-context-through-mcp | 14.9k | Integrations & Connectors |
 | [Run autonomous deep research workflows with GPT Researcher](skills/run-autonomous-deep-research-workflows-with-gpt-researcher/) | run-autonomous-deep-research-workflows-with-gpt-researcher | 27.4k | Research & Scraping |
