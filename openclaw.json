@@ -2,8 +2,35 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-05",
-  "total": 2568,
+  "total": 2571,
   "skills": [
+    {
+      "slug": "serve-local-model-endpoints-for-agent-tests-with-openllm",
+      "name": "Serve local model endpoints for agent tests with OpenLLM",
+      "title": "Serve local model endpoints for agent tests with OpenLLM",
+      "description": "Launch an OpenAI-compatible OpenLLM server for a chosen open model, point an agent runtime at it, and compare behavior before production use.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "use-prompt-flow-for-llm-workflow-testing-and-evaluation",
+      "name": "Use Prompt Flow for LLM workflow testing and evaluation",
+      "title": "Use Prompt Flow for LLM workflow testing and evaluation",
+      "description": "Build a Prompt Flow graph, run interactive and batch tests, inspect traces and evaluation metrics, and promote only reviewed LLM workflow versions.",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "run-rag-chatbot-workflows-with-verba",
+      "name": "Run RAG chatbot workflows with Verba",
+      "title": "Run RAG chatbot workflows with Verba",
+      "description": "Ingest a bounded document set into Verba, configure retrieval and model providers, then review grounded chatbot answers before handing context to an agent workflow.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "build-graph-rag-context-with-neo4j-llm-graph-builder",
       "name": "Build graph RAG context with Neo4j LLM Graph Builder",

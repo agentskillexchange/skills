@@ -134,6 +134,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Normalize raw CLI output into JSON for reliable downstream parsing and automation](../../skills/normalize-cli-output-into-json-for-reliable-agent-automation/) | 8.6k | — |
 | [Dasel Multi-Format Data Selector and Modifier](../../skills/dasel-multi-format-data-selector-modifier/) | 7.9k | — |
 | [Steampipe Zero-ETL SQL Cloud API Query Engine](../../skills/steampipe-zero-etl-sql-cloud-api-query-engine/) | 7.7k | — |
+| [Run RAG chatbot workflows with Verba](../../skills/run-rag-chatbot-workflows-with-verba/) | 7.7k | — |
 | [Extract structured text, metadata, tables, and images from mixed documents through an MCP server with Kreuzberg](../../skills/extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg/) | 7.6k | — |
 | [htmlq Command-Line HTML Content Extractor with CSS Selectors](../../skills/htmlq-command-line-html-content-extractor-css-selectors/) | 7.5k | — |
 | [Migrate MySQL, SQLite, or CSV data into PostgreSQL with repeatable load files before cutover with pgloader](../../skills/migrate-mysql-sqlite-or-csv-data-into-postgresql-with-repeatable-load-files-before-cutover-with-pgloader/) | 6.4k | — |

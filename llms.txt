@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-05
-# Total: 2568 skills
+# Total: 2571 skills
+
+## Serve local model endpoints for agent tests with OpenLLM
+slug: serve-local-model-endpoints-for-agent-tests-with-openllm
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Launch an OpenAI-compatible OpenLLM server for a chosen open model, point an agent runtime at it, and compare behavior before production use.
+url: https://agentskillexchange.com/skills/serve-local-model-endpoints-for-agent-tests-with-openllm/
+
+## Use Prompt Flow for LLM workflow testing and evaluation
+slug: use-prompt-flow-for-llm-workflow-testing-and-evaluation
+category: Monitoring & Alerts
+framework: Multi-Framework
+verification: Security Reviewed
+description: Build a Prompt Flow graph, run interactive and batch tests, inspect traces and evaluation metrics, and promote only reviewed LLM workflow versions.
+url: https://agentskillexchange.com/skills/use-prompt-flow-for-llm-workflow-testing-and-evaluation/
+
+## Run RAG chatbot workflows with Verba
+slug: run-rag-chatbot-workflows-with-verba
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Ingest a bounded document set into Verba, configure retrieval and model providers, then review grounded chatbot answers before handing context to an agent workflow.
+url: https://agentskillexchange.com/skills/run-rag-chatbot-workflows-with-verba/
 
 ## Build graph RAG context with Neo4j LLM Graph Builder
 slug: build-graph-rag-context-with-neo4j-llm-graph-builder

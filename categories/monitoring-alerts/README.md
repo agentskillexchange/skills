@@ -101,6 +101,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [OpenReplay Self-Hosted Session Replay and Product Analytics Platform](../../skills/openreplay-self-hosted-session-replay-analytics/) | 11.9k | — |
 | [Investigate Kubernetes network incidents through MCP with Kubeshark](../../skills/investigate-kubernetes-network-incidents-through-mcp-with-kubeshark/) | 11.9k | — |
 | [Pyroscope Continuous Profiling Platform by Grafana](../../skills/pyroscope-continuous-profiling-platform-grafana/) | 11.3k | — |
+| [Use Prompt Flow for LLM workflow testing and evaluation](../../skills/use-prompt-flow-for-llm-workflow-testing-and-evaluation/) | 11.1k | — |
 | [Quickwit Cloud-Native Search Engine for Observability Logs and Traces](../../skills/quickwit-cloud-native-search-engine-observability/) | 11.1k | — |
 | [Gatus Endpoint Monitoring and Status Page Platform](../../skills/gatus-endpoint-monitoring-status-page-platform/) | 10.7k | — |
 | [Healthchecks.io Cron Job Monitoring and Alerting Platform](../../skills/healthchecks-io-cron-job-monitoring-alerting-platform/) | 10k | — |

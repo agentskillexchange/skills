@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2568 published skills** across **17 categories** · 2,213 security reviewed · Updated 2026-06-05 01:26 UTC
+> **2571 published skills** across **17 categories** · 2,213 security reviewed · Updated 2026-06-05 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (333 skills)
+### 🛠️ Developer Tools (334 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -185,6 +185,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Rspack High-Performance Rust-Based JavaScript Bundler](skills/rspack-rust-based-javascript-bundler/) | Rspack is a blazing-fast JavaScript bundler written in Rust with full webpack API compatibility. It provides drop-in… | Security Reviewed | 12.6k | — |
 | [broot Interactive Tree-View File Navigator](skills/broot-interactive-tree-view-file-navigator/) | broot is a Rust-based terminal tool that provides a new way to see and navigate directory trees. It offers fuzzy… | Security Reviewed | 12.5k | — |
 | [grpcurl Command-Line gRPC Client](skills/grpcurl-command-line-grpc-client/) | Like cURL but for gRPC servers. A command-line tool for interacting with gRPC services using server reflection or… | Security Reviewed | 12.5k | — |
+| [Serve local model endpoints for agent tests with OpenLLM](skills/serve-local-model-endpoints-for-agent-tests-with-openllm/) | Launch an OpenAI-compatible OpenLLM server for a chosen open model, point an agent runtime at it, and compare… | Security Reviewed | 12.3k | — |
 | [Run untrusted AI-generated code inside secure E2B sandboxes](skills/run-untrusted-ai-generated-code-inside-secure-e2b-sandboxes/) | Create disposable E2B cloud sandboxes where agents can execute generated code, install dependencies, collect… | Security Reviewed | 12k | — |
 | [Give coding agents runtime context for Encore services](skills/give-coding-agents-runtime-context-for-encore-services/) | Use Encore's AI integration and built-in MCP server so an agent can inspect service architecture, query local… | Security Reviewed | 11.9k | — |
 | [OpenCode Multi-Model AI Coding Agent CLI](skills/opencode-multi-model-ai-coding-agent-cli/) | An open-source terminal-native AI coding agent written in Go that supports 75+ LLMs including Claude, GPT, Gemini,… | Security Reviewed | 11.7k | — |
@@ -788,7 +789,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Update repository docs automatically after code changes and open review PRs](skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | Use GitHub Next's update-docs workflow when code changes should trigger documentation maintenance instead of waiting… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (184 skills)
+### 🔄 Data Extraction & Transformation (185 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -888,6 +889,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Normalize raw CLI output into JSON for reliable downstream parsing and automation](skills/normalize-cli-output-into-json-for-reliable-agent-automation/) | Uses jc to turn command output and supported file formats into structured JSON so an agent can filter, diff,… | Security Reviewed | 8.6k | — |
 | [Dasel Multi-Format Data Selector and Modifier](skills/dasel-multi-format-data-selector-modifier/) | Dasel (Data-Select) is a command-line tool and Go library for querying, modifying, and transforming structured data… | Security Reviewed | 7.9k | — |
 | [Steampipe Zero-ETL SQL Cloud API Query Engine](skills/steampipe-zero-etl-sql-cloud-api-query-engine/) | Query cloud APIs, SaaS services, and infrastructure with standard SQL using Steampipe. Maps over 150 data sources… | Security Reviewed | 7.7k | — |
+| [Run RAG chatbot workflows with Verba](skills/run-rag-chatbot-workflows-with-verba/) | Ingest a bounded document set into Verba, configure retrieval and model providers, then review grounded chatbot… | Security Reviewed | 7.7k | — |
 | [Extract structured text, metadata, tables, and images from mixed documents through an MCP server with Kreuzberg](skills/extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg/) | Expose one document-extraction surface to MCP-compatible agents so they can normalize PDFs, Office files, images,… | Security Reviewed | 7.6k | — |
 | [htmlq Command-Line HTML Content Extractor with CSS Selectors](skills/htmlq-command-line-html-content-extractor-css-selectors/) | htmlq is a command-line tool for extracting content from HTML using CSS selectors, functioning as the HTML… | Security Reviewed | 7.5k | — |
 | [Migrate MySQL, SQLite, or CSV data into PostgreSQL with repeatable load files before cutover with pgloader](skills/migrate-mysql-sqlite-or-csv-data-into-postgresql-with-repeatable-load-files-before-cutover-with-pgloader/) | Move data into PostgreSQL with declarative load files, built-in type conversion, and repeatable migration runs… | Security Reviewed | 6.4k | — |
@@ -1538,7 +1540,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (136 skills)
+### 📊 Monitoring & Alerts (137 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -1605,6 +1607,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [OpenReplay Self-Hosted Session Replay and Product Analytics Platform](skills/openreplay-self-hosted-session-replay-analytics/) | OpenReplay is an open-source session replay suite you can self-host. It captures user sessions with network… | Published | 11.9k | — |
 | [Investigate Kubernetes network incidents through MCP with Kubeshark](skills/investigate-kubernetes-network-incidents-through-mcp-with-kubeshark/) | Query live and historical Kubernetes network traffic through Kubeshark's MCP server when an agent needs packet-level… | Security Reviewed | 11.9k | — |
 | [Pyroscope Continuous Profiling Platform by Grafana](skills/pyroscope-continuous-profiling-platform-grafana/) | Pyroscope is an open-source continuous profiling platform by Grafana Labs that helps identify CPU, memory, and I/O… | Security Reviewed | 11.3k | — |
+| [Use Prompt Flow for LLM workflow testing and evaluation](skills/use-prompt-flow-for-llm-workflow-testing-and-evaluation/) | Build a Prompt Flow graph, run interactive and batch tests, inspect traces and evaluation metrics, and promote only… | Security Reviewed | 11.1k | — |
 | [Quickwit Cloud-Native Search Engine for Observability Logs and Traces](skills/quickwit-cloud-native-search-engine-observability/) | Quickwit is a cloud-native search engine built in Rust for log management and distributed tracing. It offers… | Published | 11.1k | — |
 | [Gatus Endpoint Monitoring and Status Page Platform](skills/gatus-endpoint-monitoring-status-page-platform/) | Gatus is an open source uptime and endpoint monitoring platform built for developers and ops teams. It checks HTTP,… | Security Reviewed | 10.7k | — |
 | [Healthchecks.io Cron Job Monitoring and Alerting Platform](skills/healthchecks-io-cron-job-monitoring-alerting-platform/) | Healthchecks.io is an open-source cron and background task monitoring platform that alerts when scheduled jobs fail… | Security Reviewed | 10k | — |

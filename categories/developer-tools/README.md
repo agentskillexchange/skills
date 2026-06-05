@@ -211,6 +211,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Rspack High-Performance Rust-Based JavaScript Bundler](../../skills/rspack-rust-based-javascript-bundler/) | 12.6k | — |
 | [broot Interactive Tree-View File Navigator](../../skills/broot-interactive-tree-view-file-navigator/) | 12.5k | — |
 | [grpcurl Command-Line gRPC Client](../../skills/grpcurl-command-line-grpc-client/) | 12.5k | — |
+| [Serve local model endpoints for agent tests with OpenLLM](../../skills/serve-local-model-endpoints-for-agent-tests-with-openllm/) | 12.3k | — |
 | [Run untrusted AI-generated code inside secure E2B sandboxes](../../skills/run-untrusted-ai-generated-code-inside-secure-e2b-sandboxes/) | 12k | — |
 | [Give coding agents runtime context for Encore services](../../skills/give-coding-agents-runtime-context-for-encore-services/) | 11.9k | — |
 | [OpenCode Multi-Model AI Coding Agent CLI](../../skills/opencode-multi-model-ai-coding-agent-cli/) | 11.7k | — |
