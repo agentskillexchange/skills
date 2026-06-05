@@ -2,8 +2,17 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-05",
-  "total": 2571,
+  "total": 2572,
   "skills": [
+    {
+      "slug": "give-mcp-clients-language-server-code-intelligence",
+      "name": "Give MCP clients language-server code intelligence",
+      "title": "Give MCP clients language-server code intelligence",
+      "description": "Expose LSP-backed definition, reference, rename, and diagnostic tools to MCP clients so coding agents can inspect code semantics before editing.",
+      "category": "Developer Tools",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "serve-local-model-endpoints-for-agent-tests-with-openllm",
       "name": "Serve local model endpoints for agent tests with OpenLLM",

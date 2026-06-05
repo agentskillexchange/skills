@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2571 published skills** across **17 categories** · 2,214 security reviewed · Updated 2026-06-05 07:27 UTC
+> **2572 published skills** across **17 categories** · 2,214 security reviewed · Updated 2026-06-05 13:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (334 skills)
+### 🛠️ Developer Tools (335 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -298,6 +298,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Run coding agents in isolated observable VibeKit sandboxes](skills/run-coding-agents-in-isolated-observable-vibekit-sandboxes/) | Launch coding agents such as Claude Code, Gemini, or Codex in clean sandboxed sessions with redaction and run… | Security Reviewed | 1.8k | — |
 | [Run and lifecycle-manage MCP servers in isolated environments with ToolHive before local MCP sprawl turns brittle](skills/run-and-lifecycle-manage-mcp-servers-in-isolated-environments-with-toolhive-before-local-mcp-sprawl-turns-brittle/) | Use ToolHive to install, isolate, update, and govern MCP servers so agents connect to a predictable local or… | Security Reviewed | 1.7k | — |
 | [Run queued background coding sessions across GitHub, Slack, Linear, and webhooks with background-agents](skills/run-queued-background-coding-sessions-across-github-slack-linear-and-webhooks-with-background-agents/) | Dispatch long-running coding work to background agents, check progress later, and pull reviewed outputs back into… | Security Reviewed | 1.6k | — |
+| [Give MCP clients language-server code intelligence](skills/give-mcp-clients-language-server-code-intelligence/) | Expose LSP-backed definition, reference, rename, and diagnostic tools to MCP clients so coding agents can inspect… | Security Reviewed | 1.5k | — |
 | [Redocly CLI OpenAPI Linter and Documentation Generator](skills/redocly-cli-openapi-linter-documentation-generator/) | Redocly CLI is an all-in-one OpenAPI utility that lints, validates, bundles, and generates documentation from API… | Security Reviewed | 1.4k | 1.6M/wk |
 | [Search cross-agent Markdown memory and conversation history with memsearch](skills/search-cross-agent-markdown-memory-and-conversation-history-with-memsearch/) | Give supported coding agents a shared Markdown-first memory layer so they can recall prior decisions, transcripts,… | Security Reviewed | 1.3k | — |
 | [Terraform MCP Server for Infrastructure as Code](skills/terraform-mcp-server-infrastructure-as-code/) | The official HashiCorp Terraform MCP server integrates with the Terraform Registry and HCP Terraform, enabling AI… | Security Reviewed | 1.3k | — |

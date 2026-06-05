@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-05
-# Total: 2571 skills
+# Total: 2572 skills
+
+## Give MCP clients language-server code intelligence
+slug: give-mcp-clients-language-server-code-intelligence
+category: Developer Tools
+framework: MCP
+verification: Security Reviewed
+description: Expose LSP-backed definition, reference, rename, and diagnostic tools to MCP clients so coding agents can inspect code semantics before editing.
+url: https://agentskillexchange.com/skills/give-mcp-clients-language-server-code-intelligence/
 
 ## Serve local model endpoints for agent tests with OpenLLM
 slug: serve-local-model-endpoints-for-agent-tests-with-openllm
