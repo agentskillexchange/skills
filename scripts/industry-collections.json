@@ -919,6 +919,8 @@
         "duckdb-sql-analytics-agent",
         "evidence-bi-as-code-sql-markdown-analytics",
         "run-repeatable-agent-evaluation-suites-with-trajectory-and-simulator-coverage-using-strands-evals",
+        "monitor-and-evaluate-llm-agent-traffic-with-helicone",
+        "use-prompt-flow-for-llm-workflow-testing-and-evaluation",
         "stripe-revenue-analytics-dashboard",
         "use-pandasai-for-conversational-csv-and-spreadsheet-analysis",
         "query-postgres-databases-through-read-only-mcp-workflows-with-pgmcp",
@@ -1027,6 +1029,16 @@
         "run-repeatable-agent-evaluation-suites-with-trajectory-and-simulator-coverage-using-strands-evals": {
           "why_here": "Adds repeatable AI-agent evaluation evidence for launch readiness, complementing analytics and feature-flag workflows.",
           "persona": "AI product manager / evaluation lead",
+          "install_complexity": "Medium"
+        },
+        "monitor-and-evaluate-llm-agent-traffic-with-helicone": {
+          "why_here": "Routes LLM and agent traffic through observable traces, costs, latency, prompts, and evaluations before product changes ship.",
+          "persona": "AI product ops / observability lead",
+          "install_complexity": "High"
+        },
+        "use-prompt-flow-for-llm-workflow-testing-and-evaluation": {
+          "why_here": "Builds, tests, traces, and evaluates LLM workflow graphs so teams can promote reviewed versions instead of ad hoc prompt changes.",
+          "persona": "AI product manager / evaluation engineer",
           "install_complexity": "Medium"
         },
         "stripe-revenue-analytics-dashboard": {
@@ -1585,6 +1597,8 @@
         "parameterize-and-execute-notebooks-as-repeatable-runs",
         "automate-ml-research-loops-with-aris-skills",
         "use-docsgpt-for-document-grounded-enterprise-assistants",
+        "build-graph-rag-context-with-neo4j-llm-graph-builder",
+        "run-rag-chatbot-workflows-with-verba",
         "run-autonomous-deep-research-workflows-with-gpt-researcher"
       ],
       "who_for": [
@@ -1728,6 +1742,16 @@
         "use-docsgpt-for-document-grounded-enterprise-assistants": {
           "why_here": "Lets research and education teams build grounded assistants over course material, papers, or institutional knowledge bases.",
           "persona": "Research ops / learning technology lead",
+          "install_complexity": "High"
+        },
+        "build-graph-rag-context-with-neo4j-llm-graph-builder": {
+          "why_here": "Converts bounded research or institutional document sets into inspectable knowledge graphs before graph-backed retrieval is used.",
+          "persona": "Research engineer / knowledge graph builder",
+          "install_complexity": "High"
+        },
+        "run-rag-chatbot-workflows-with-verba": {
+          "why_here": "Builds a reviewable RAG chatbot over a bounded source set so grounded answers can be checked before reuse in research workflows.",
+          "persona": "Research ops / retrieval workflow lead",
           "install_complexity": "High"
         },
         "run-autonomous-deep-research-workflows-with-gpt-researcher": {
@@ -1972,6 +1996,7 @@
         "summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize",
         "use-flowise-for-visual-agent-workflow-orchestration",
         "use-dify-for-production-agentic-workflow-apps",
+        "run-supervised-suna-sessions-for-reviewable-agent-work",
         "composio-agent-tool-integration-platform",
         "create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas",
         "create-and-repair-word-documents-with-layout-safe-docx-workflows",
@@ -2063,6 +2088,11 @@
         "use-dify-for-production-agentic-workflow-apps": {
           "why_here": "Provides a governed path from prototype to client-facing agent app with workflow testing, operations, and handoff surfaces.",
           "persona": "AI agency delivery lead / implementation engineer",
+          "install_complexity": "High"
+        },
+        "run-supervised-suna-sessions-for-reviewable-agent-work": {
+          "why_here": "Runs bounded browser, file, tool, and connector sessions in a reviewable sandbox before client delivery.",
+          "persona": "AI agency operator / implementation lead",
           "install_complexity": "High"
         },
         "composio-agent-tool-integration-platform": {
