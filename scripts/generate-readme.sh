@@ -131,6 +131,7 @@ try:
     industry_collections = json.loads(INDUSTRY_MANIFEST.read_text(encoding="utf-8")).get("collections", [])
 except Exception:
     industry_collections = []
+industry_count = len(industry_collections)
 
 def featured_row(item):
     cats_list = [html.unescape(str(x)) for x in (item.get("categories") or [])]
@@ -191,14 +192,14 @@ lines.append("")
 lines.append("### The open catalog of AI agent skills")
 lines.append("")
 lines.append(f'[![Published](https://img.shields.io/badge/published-{fmt_badge(total)}-6366f1?style=for-the-badge)](skills/)')
-lines.append('[![Industry%20Collections](https://img.shields.io/badge/industry--collections-14-14b8a6?style=for-the-badge)](industries/README.md)')
+lines.append(f'[![Industry%20Collections](https://img.shields.io/badge/industry--collections-{industry_count}-14b8a6?style=for-the-badge)](industries/README.md)')
 lines.append(f'[![Categories](https://img.shields.io/badge/categories-{len(cat_rows)}-0ea5e9?style=for-the-badge)](categories/README.md)')
 lines.append(f'[![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-{fmt_badge(sec_reviewed)}-10b981?style=for-the-badge)](verification/)')
 lines.append('[![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)')
 lines.append("")
 lines.append("**[Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**")
 lines.append("")
-lines.append(f"*{fmt_count(total)} published skills · 14 Industry Collections · {len(cat_rows)} categories · Real ecosystem signals · Updated daily*")
+lines.append(f"*{fmt_count(total)} published skills · {industry_count} Industry Collections · {len(cat_rows)} categories · Real ecosystem signals · Updated daily*")
 lines.append("")
 lines.append("</div>")
 lines.append("")
