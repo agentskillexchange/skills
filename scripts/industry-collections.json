@@ -1967,11 +1967,11 @@
       "description": "Client-facing AI delivery, forward deployed engineering workflows, browser automation, implementation systems, documentation, spreadsheets, proposals, and client handoff workflows.",
       "editorial_caution": "Keep this collection focused on implementation and client delivery. Use GTM & RevOps Workflows for marketing automation, SEO operations, CRM enrichment, and lead handoff tooling.",
       "skill_slugs": [
-        "diagnose-site-seo-issues-with-a-structured-audit",
         "firecrawl-markdown-capture-pipeline",
         "crawl4ai-llm-web-crawler-scraper",
         "summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize",
-        "n8n-workflow-webhook-bridge",
+        "use-flowise-for-visual-agent-workflow-orchestration",
+        "use-dify-for-production-agentic-workflow-apps",
         "composio-agent-tool-integration-platform",
         "create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas",
         "create-and-repair-word-documents-with-layout-safe-docx-workflows",
@@ -1979,8 +1979,8 @@
         "stagehand-browser-automation-sdk",
         "skyvern-ai-browser-workflow-automation",
         "browserbase-mcp-server",
-        "cal-com-open-source-scheduling-infrastructure-api",
         "webflow-data-api-javascript-sdk",
+        "inspect-live-web-apps-and-apply-code-changes-with-stagewise",
         "run-local-multi-agent-browser-tasks-with-nanobrowser",
         "use-omniparser-for-vision-based-gui-parsing",
         "give-coding-agents-figma-layout-context-through-mcp",
@@ -1988,11 +1988,11 @@
       ],
       "who_for": [
         "AI agency founders, forward deployed engineers, automation consultants, client delivery leads, and solutions engineers packaging repeatable AI-enabled services for clients.",
-        "RevOps and marketing ops agencies that need site audits, CRM enrichment, campaign operations, deliverable production, and workflow QA."
+        "Teams delivering supervised client implementations that need browser automation, agent app scaffolding, design-to-code context, implementation artifacts, and release checks."
       ],
       "jobs_covered": [
         "Audit client sites, docs, workflows, and product surfaces for implementation planning.",
-        "Build repeatable client automation workflows across browsers, webhooks, tools, and internal systems.",
+        "Build repeatable client automation workflows across browsers, agent apps, tools, and internal systems.",
         "Package findings into proposals, reports, docs, spreadsheets, and handoff artifacts.",
         "Implement browser automation, design-to-code, workflow delivery, and client-facing agent stacks.",
         "Monitor delivery quality and reusable agency workflows."
@@ -2040,11 +2040,6 @@
         "gtm-revops-workflows"
       ],
       "skill_meta": {
-        "diagnose-site-seo-issues-with-a-structured-audit": {
-          "why_here": "Creates a structured technical and on-page SEO audit before client recommendations are written.",
-          "persona": "SEO consultant / client strategist",
-          "install_complexity": "Low"
-        },
         "firecrawl-markdown-capture-pipeline": {
           "why_here": "Captures clean Markdown from client sites for audits, content inventories, knowledge-base builds, and handoff docs.",
           "persona": "Solutions engineer / site audit lead",
@@ -2060,9 +2055,14 @@
           "persona": "Client delivery lead / research strategist",
           "install_complexity": "Medium"
         },
-        "n8n-workflow-webhook-bridge": {
-          "why_here": "Connects client event sources, transformations, and webhook handoffs in repeatable low-code automation builds.",
-          "persona": "Solutions engineer / automation builder",
+        "use-flowise-for-visual-agent-workflow-orchestration": {
+          "why_here": "Lets agencies compose, test, and hand off inspectable agent flows instead of leaving client automations as prompt-only prototypes.",
+          "persona": "AI solutions engineer / workflow architect",
+          "install_complexity": "High"
+        },
+        "use-dify-for-production-agentic-workflow-apps": {
+          "why_here": "Provides a governed path from prototype to client-facing agent app with workflow testing, operations, and handoff surfaces.",
+          "persona": "AI agency delivery lead / implementation engineer",
           "install_complexity": "High"
         },
         "composio-agent-tool-integration-platform": {
@@ -2071,7 +2071,7 @@
           "install_complexity": "High"
         },
         "create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas": {
-          "why_here": "Produces and repairs spreadsheet deliverables for audits, ROI models, campaign plans, and client reporting.",
+          "why_here": "Produces and repairs spreadsheet deliverables for audits, ROI models, implementation estimates, and client reporting.",
           "persona": "Client analyst / delivery ops",
           "install_complexity": "Medium"
         },
@@ -2100,18 +2100,18 @@
           "persona": "FDE / agent infrastructure engineer",
           "install_complexity": "High"
         },
-        "cal-com-open-source-scheduling-infrastructure-api": {
-          "why_here": "Adds scheduling infrastructure for client onboarding, demos, bookings, and service-delivery handoffs.",
-          "persona": "Client success ops / agency operations lead",
-          "install_complexity": "High"
-        },
         "webflow-data-api-javascript-sdk": {
           "why_here": "Covers Webflow site and CMS operations for agencies delivering client landing pages, CMS migrations, and content systems.",
           "persona": "Webflow agency engineer / site ops lead",
           "install_complexity": "Medium"
         },
+        "inspect-live-web-apps-and-apply-code-changes-with-stagewise": {
+          "why_here": "Connects live browser inspection, console signals, and code-change handoff when FDE teams need to fix client UI issues in context.",
+          "persona": "Forward deployed engineer / client UI implementer",
+          "install_complexity": "Medium"
+        },
         "run-local-multi-agent-browser-tasks-with-nanobrowser": {
-          "why_here": "Adds a local multi-agent browser execution option for agency QA, lead research, and workflow checks.",
+          "why_here": "Adds a local multi-agent browser execution option for agency QA, client workflow rehearsal, and implementation checks.",
           "persona": "AI agency operator / FDE",
           "install_complexity": "Medium"
         },
