@@ -21,6 +21,7 @@ Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, c
 
 - **Ticket triage:** Fetch conversation → search knowledge base → draft reply → route for human send
 - **Customer context packet:** Normalize contact data → pull CRM context → summarize thread → log follow-up
+- **Inbound email and call follow-up:** Parse inbound email → strip quoted history → summarize call or thread → label priority → route next action
 
 ## Recommended Picks
 

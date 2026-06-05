@@ -21,7 +21,7 @@ Product analytics, feature flags, rollout checks, session replay, privacy-friend
 
 - **Launch readiness:** Check feature flags → review analytics baseline → inspect replay samples → publish rollout notes
 - **Growth report:** Query events → compare cohorts → build dashboard → capture decisions
-- **AI feature evaluation loop:** Run eval suite → compare launch evidence → review revenue movement → update rollout decision → capture follow-up
+- **AI feature evaluation loop:** Run eval suite → trace LLM traffic → compare prompt-flow results → update rollout decision → capture follow-up
 
 ## Recommended Picks
 

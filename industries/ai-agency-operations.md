@@ -22,6 +22,7 @@ Client-facing AI delivery, forward deployed engineering workflows, browser autom
 
 - **Client audit sprint:** Capture site context → summarize findings → build report → deliver action plan
 - **Automation implementation:** Map workflow → connect tools → trigger handoffs → validate outputs
+- **Supervised client agent session:** Scope task → run sandboxed session → inspect browser and file outputs → package changes → handoff for review
 - **Client handoff packet:** Draft proposal → repair workbook → write docs → record workflow → handoff implementation
 
 ## Recommended Picks

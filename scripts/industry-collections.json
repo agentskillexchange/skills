@@ -959,8 +959,8 @@
           "name": "AI feature evaluation loop",
           "steps": [
             "Run eval suite",
-            "compare launch evidence",
-            "review revenue movement",
+            "trace LLM traffic",
+            "compare prompt-flow results",
             "update rollout decision",
             "capture follow-up"
           ]
@@ -1308,6 +1308,16 @@
             "summarize thread",
             "log follow-up"
           ]
+        },
+        {
+          "name": "Inbound email and call follow-up",
+          "steps": [
+            "Parse inbound email",
+            "strip quoted history",
+            "summarize call or thread",
+            "label priority",
+            "route next action"
+          ]
         }
       ],
       "editorial_notes": [
@@ -1493,13 +1503,13 @@
           ]
         },
         {
-          "name": "PDF handoff packet",
+          "name": "Contact and listing follow-up",
           "steps": [
-            "Collect transaction documents",
-            "extract key fields",
-            "generate PDF packet",
-            "route signatures",
-            "archive final records"
+            "Normalize contacts",
+            "prepare follow-up list",
+            "attach property context",
+            "generate PDF summary",
+            "route next steps"
           ]
         }
       ],
@@ -1639,6 +1649,16 @@
             "convert PDFs",
             "run analysis workflow",
             "review quality gates",
+            "archive evidence"
+          ]
+        },
+        {
+          "name": "Grounded RAG research assistant",
+          "steps": [
+            "Ingest bounded sources",
+            "build graph context",
+            "configure retrieval",
+            "review grounded answers",
             "archive evidence"
           ]
         }
@@ -2039,6 +2059,16 @@
             "connect tools",
             "trigger handoffs",
             "validate outputs"
+          ]
+        },
+        {
+          "name": "Supervised client agent session",
+          "steps": [
+            "Scope task",
+            "run sandboxed session",
+            "inspect browser and file outputs",
+            "package changes",
+            "handoff for review"
           ]
         },
         {

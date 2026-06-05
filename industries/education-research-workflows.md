@@ -22,6 +22,7 @@ Literature review, citation context, research synthesis, paper drafting, replica
 - **Literature review packet:** Search library → query academic indexes → parse papers → extract citations → summarize evidence
 - **Draft paper workflow:** Frame research idea → review related work → draft sections → check claims → prepare figures
 - **Replication and synthesis pass:** Collect source artifacts → convert PDFs → run analysis workflow → review quality gates → archive evidence
+- **Grounded RAG research assistant:** Ingest bounded sources → build graph context → configure retrieval → review grounded answers → archive evidence
 
 ## Recommended Picks
 

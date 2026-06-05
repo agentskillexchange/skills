@@ -21,7 +21,7 @@ Property research support, transaction paperwork, signature routing, document in
 
 - **Transaction packet:** Collect forms → OCR documents → route signatures → archive final records
 - **Property research support:** Fetch property facts → extract document context → summarize records → escalate gaps
-- **PDF handoff packet:** Collect transaction documents → extract key fields → generate PDF packet → route signatures → archive final records
+- **Contact and listing follow-up:** Normalize contacts → prepare follow-up list → attach property context → generate PDF summary → route next steps
 
 ## Recommended Picks
 
