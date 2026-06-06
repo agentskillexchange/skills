@@ -355,6 +355,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Back up GitHub repos releases and gists with GitHub Backup](../../skills/back-up-github-repos-releases-and-gists-with-github-backup/) | 33 | — |
 | [Add persistent project memory and hook-driven synthesis with Claude Memory Kit](../../skills/add-persistent-project-memory-and-hook-driven-synthesis-with-claude-memory-kit/) | 11 | — |
 | [Index a codebase into evidence-backed memory so agents can answer with citations](../../skills/index-a-codebase-into-evidence-backed-memory-so-agents-can-answer-with-citations/) | 5 | 1.9k/wk |
+| [Staff Engineer Mode](../../skills/staff-engineer-mode/) | 5 | — |
 | [Turn GitHub Issues into Fix PRs](../../skills/turn-github-issues-into-fix-prs/) | — | 837.2k/wk |
 | [Build scroll-linked animations with GSAP ScrollTrigger](../../skills/build-scroll-linked-animations-with-gsap-scrolltrigger/) | — | — |
 | [Design and verify LaunchDarkly feature-flag targeting and rollout changes with MCP safety checks](../../skills/design-and-verify-launchdarkly-feature-flag-targeting-and-rollout-changes-with-mcp-safety-checks/) | — | — |
@@ -371,7 +372,6 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [n8n GitHub Issue-to-Jira Ticket Automator](../../skills/n8n-github-jira-ticket-automator/) | — | — |
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | — | — |
 | [Obsidian Vault Manager](../../skills/obsidian-vault-manager/) | — | — |
-| [Staff Engineer Mode](../../skills/staff-engineer-mode/) | — | — |
 | [Turn notes, logs, and screenshots into structured GitHub issues with GitHub Issue Creator](../../skills/turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator/) | — | — |
 | [VS Code Extension Debugger](../../skills/vscode-extension-debugger-dap-protocol/) | — | — |
 | [VS Code Extension Scaffolder](../../skills/vscode-extension-scaffolder-agent/) | — | — |

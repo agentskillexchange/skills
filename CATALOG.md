@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2574 published skills** across **17 categories** · 2,216 security reviewed · Updated 2026-06-06 01:27 UTC
+> **2574 published skills** across **17 categories** · 2,216 security reviewed · Updated 2026-06-06 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -329,6 +329,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Back up GitHub repos releases and gists with GitHub Backup](skills/back-up-github-repos-releases-and-gists-with-github-backup/) | Use GitHub Backup when an agent needs to mirror repositories, release assets, and gists into local storage on a… | Security Reviewed | 33 | — |
 | [Add persistent project memory and hook-driven synthesis with Claude Memory Kit](skills/add-persistent-project-memory-and-hook-driven-synthesis-with-claude-memory-kit/) | Keep Claude Code sessions grounded in prior decisions, project context, and daily handoff notes instead of starting… | Security Reviewed | 11 | — |
 | [Index a codebase into evidence-backed memory so agents can answer with citations](skills/index-a-codebase-into-evidence-backed-memory-so-agents-can-answer-with-citations/) | Use AtlasMemory when an agent keeps losing repo context and needs indexed, evidence-linked answers with file and… | Security Reviewed | 5 | 1.9k/wk |
+| [Staff Engineer Mode](skills/staff-engineer-mode/) | Routes engineering design, delivery, reliability, security, operations, and maintenance prompts to one native router… | Security Reviewed | 5 | — |
 | [Turn GitHub Issues into Fix PRs](skills/turn-github-issues-into-fix-prs/) | Use the gh-issues workflow to fetch filtered GitHub issues, spawn sub-agents for fixes, open PRs, and follow review… | Security Reviewed | — | 837.2k/wk |
 | [Build scroll-linked animations with GSAP ScrollTrigger](skills/build-scroll-linked-animations-with-gsap-scrolltrigger/) | Use Greensock's official gsap-scrolltrigger skill to plan, implement, and debug scroll-linked animations, pinned… | Security Reviewed | — | — |
 | [Design and verify LaunchDarkly feature-flag targeting and rollout changes with MCP safety checks](skills/design-and-verify-launchdarkly-feature-flag-targeting-and-rollout-changes-with-mcp-safety-checks/) | Inspect a LaunchDarkly flag’s current state, choose the right targeting approach, apply rollout or rule changes… | Security Reviewed | — | — |
@@ -345,7 +346,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [n8n GitHub Issue-to-Jira Ticket Automator](skills/n8n-github-jira-ticket-automator/) | Deploys an n8n workflow via the n8n REST API using the GitHub Trigger node to capture new issue events and transform… | Security Reviewed | — | — |
 | [NPM Package Auditor](skills/npm-package-auditor-registry-api/) | Audits NPM packages using the NPM Registry API with dependency tree resolution and vulnerability scanning via… | Security Reviewed | — | — |
 | [Obsidian Vault Manager](skills/obsidian-vault-manager/) | Obsidian Vault Manager is built around HashiCorp Vault secrets platform. The underlying ecosystem is represented by… | Published | — | — |
-| [Staff Engineer Mode](skills/staff-engineer-mode/) | Routes engineering design, delivery, reliability, security, operations, and maintenance prompts to one native router… | Security Reviewed | — | — |
 | [Turn notes, logs, and screenshots into structured GitHub issues with GitHub Issue Creator](skills/turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator/) | Convert messy bug notes, error logs, voice dictation, and screenshots into crisp GitHub issue reports with clear… | Security Reviewed | — | — |
 | [VS Code Extension Debugger](skills/vscode-extension-debugger-dap-protocol/) | Debugs VS Code extensions using the Debug Adapter Protocol (DAP) with breakpoint management and variable inspection.… | Security Reviewed | — | — |
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |

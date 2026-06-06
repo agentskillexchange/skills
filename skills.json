@@ -302,7 +302,10 @@
       "description": "Routes engineering design, delivery, reliability, security, operations, and maintenance prompts to one native router skill backed by specialist guidance for Claude Code, Codex, Cursor,…",
       "category": "Developer Tools",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 5
+      }
     },
     {
       "slug": "scan-project-dependencies-for-supply-chain-vulnerabilities-with-murphysec",
