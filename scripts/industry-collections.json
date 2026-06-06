@@ -160,7 +160,14 @@
           "persona": "Media platform engineer / transcript ops",
           "install_complexity": "High"
         }
-      }
+      },
+      "recommended_picks": [
+        "podcast-rss-feed-transcriber",
+        "realign-drifting-subtitles-against-finished-video-audio",
+        "normalize-loudness-across-podcast-lesson-or-video-batches-before-publishing",
+        "whisperx-speech-recognition-timestamps-diarization",
+        "capture-youtube-transcripts-without-browser-automation-using-youtube-transcript-api"
+      ]
     },
     {
       "slug": "finance-filings",
@@ -353,7 +360,14 @@
           "persona": "Finance ops / spreadsheet workflow owner",
           "install_complexity": "Medium"
         }
-      }
+      },
+      "recommended_picks": [
+        "sec-edgar-financial-filing-parser",
+        "extract-invoice-fields-from-vendor-pdfs-into-structured-records",
+        "quickbooks-invoice-reconciliation",
+        "openmeter-usage-metering-and-billing-platform",
+        "stripe-revenue-reconciliation-agent"
+      ]
     },
     {
       "slug": "ecommerce-retail-operations",
@@ -488,7 +502,14 @@
           "persona": "Payments engineer / marketplace ops",
           "install_complexity": "Medium"
         }
-      }
+      },
+      "recommended_picks": [
+        "saleor-open-source-headless-commerce-graphql-api",
+        "medusa-commerce-api-store-operations-automation-skill",
+        "build-and-validate-shopify-apps-with-the-official-shopify-ai-toolkit",
+        "run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp",
+        "woocommerce-rest-inventory-sync"
+      ]
     },
     {
       "slug": "legal-ops-compliance",
@@ -732,7 +753,14 @@
           "persona": "Legal ops automation engineer",
           "install_complexity": "Medium"
         }
-      }
+      },
+      "recommended_picks": [
+        "documenso-open-source-document-signing",
+        "docuseal-document-signing-pdf-forms",
+        "ocrmypdf-searchable-pdf-ocr-pipeline",
+        "extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg",
+        "put-approval-gates-and-audit-ready-policy-checks-between-agents-and-external-actions-with-dashclaw"
+      ]
     },
     {
       "slug": "healthcare-documentation-intake",
@@ -899,7 +927,14 @@
           "persona": "Healthcare documentation automation lead",
           "install_complexity": "High"
         }
-      }
+      },
+      "recommended_picks": [
+        "pubmed-literature-mining-agent",
+        "langextract-llm-structured-text-extraction",
+        "ocrmypdf-searchable-pdf-ocr-pipeline",
+        "whisperx-speech-recognition-timestamps-diarization",
+        "expose-fhir-healthcare-data-resources-to-mcp-agents-with-review-boundaries"
+      ]
     },
     {
       "slug": "product-analytics-growth-ops",
@@ -1061,7 +1096,14 @@
           "persona": "AI product ops / experimentation lead",
           "install_complexity": "Medium"
         }
-      }
+      },
+      "recommended_picks": [
+        "posthog-product-analytics-and-feature-flags-sdk",
+        "flagsmith-feature-flag-remote-config",
+        "design-and-verify-launchdarkly-feature-flag-targeting-and-rollout-changes-with-mcp-safety-checks",
+        "openreplay-self-hosted-session-replay-analytics",
+        "metabase-open-source-business-intelligence-and-embedded-analytics"
+      ]
     },
     {
       "slug": "devrel-api-documentation",
@@ -1241,7 +1283,14 @@
           "persona": "API platform engineer / integration lead",
           "install_complexity": "Medium"
         }
-      }
+      },
+      "recommended_picks": [
+        "redoc-openapi-documentation-renderer",
+        "scalar-openapi-reference-api-client-platform",
+        "redocly-cli-openapi-linter-documentation-generator",
+        "orval-openapi-client-regeneration-skill-typed-sdks",
+        "vale-prose-linter-technical-docs"
+      ]
     },
     {
       "slug": "customer-support-success",
@@ -1445,7 +1494,14 @@
           "persona": "Support ops / knowledge manager",
           "install_complexity": "High"
         }
-      }
+      },
+      "recommended_picks": [
+        "zammad-open-source-helpdesk-ticketing-system",
+        "chatwoot-open-source-customer-engagement-omnichannel-support",
+        "search-help-scout-conversations-and-thread-context-before-drafting-support-replies",
+        "twenty-open-source-crm-salesforce-alternative",
+        "hubspot-crm-contact-enrichment-pipeline"
+      ]
     },
     {
       "slug": "real-estate-workflows",
@@ -1580,7 +1636,14 @@
           "persona": "Transaction coordinator / broker ops",
           "install_complexity": "Medium"
         }
-      }
+      },
+      "recommended_picks": [
+        "docuseal-document-signing-pdf-forms",
+        "paperless-ngx-document-ocr-archive-management-system",
+        "rag-backed-real-estate-property-research",
+        "retrieve-zillow-style-property-details-and-market-trends-through-an-mcp-server",
+        "normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs"
+      ]
     },
     {
       "slug": "education-research-workflows",
@@ -1779,7 +1842,14 @@
           "persona": "Research assistant / academic analyst",
           "install_complexity": "Medium"
         }
-      }
+      },
+      "recommended_picks": [
+        "search-and-analyze-zotero-research-libraries-through-mcp",
+        "search-and-analyze-arxiv-papers-through-mcp-workflows",
+        "serpapi-scholar-agent",
+        "turn-a-research-idea-into-a-draft-paper-workflow-with-autoresearchclaw",
+        "run-research-and-scientific-analysis-workflows-with-scientific-agent-skills"
+      ]
     },
     {
       "slug": "gtm-revops-workflows",
@@ -2002,6 +2072,13 @@
         "customer-support-success",
         "ai-agency-operations",
         "devrel-api-documentation"
+      ],
+      "recommended_picks": [
+        "mautic-marketing-automation-platform",
+        "listmonk-self-hosted-newsletter-mailing-list",
+        "design-lifecycle-email-sequences",
+        "plan-programmatic-seo-pages-at-scale",
+        "hubspot-crm-contact-enrichment-pipeline"
       ]
     },
     {
@@ -2190,7 +2267,14 @@
           "persona": "AI agency delivery lead",
           "install_complexity": "Medium"
         }
-      }
+      },
+      "recommended_picks": [
+        "firecrawl-markdown-capture-pipeline",
+        "crawl4ai-llm-web-crawler-scraper",
+        "use-flowise-for-visual-agent-workflow-orchestration",
+        "use-dify-for-production-agentic-workflow-apps",
+        "run-supervised-suna-sessions-for-reviewable-agent-work"
+      ]
     },
     {
       "slug": "infrastructure-sre-incident-operations",
