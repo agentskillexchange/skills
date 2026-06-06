@@ -67,6 +67,9 @@ INDUSTRY_EMOJI = {
     "education-research-workflows": "🎓",
     "gtm-revops-workflows": "📣",
     "ai-agency-operations": "🧭",
+    "infrastructure-sre-incident-operations": "🛠️",
+    "security-operations-grc-workflows": "🛡️",
+    "data-platform-analytics-engineering": "🗄️",
 }
 def fetch_json(url):
     separator = "&" if "?" in url else "?"

@@ -16,6 +16,9 @@
 | 🎓 | [**Education & Research Workflows**](education-research-workflows.md) | 21 | Literature review, citation context, research synthesis, paper drafting, replication checks, and evidence packets for academic and technical teams. |
 | 📣 | [**GTM & RevOps Workflows**](gtm-revops-workflows.md) | 25 | Demand generation, SEO and content operations, lifecycle email, CRM enrichment, lead routing, scheduling, feedback capture, and sales/revenue operations workflows. |
 | 🧭 | [**AI Agency Operations & FDE Workflows**](ai-agency-operations.md) | 19 | Client-facing AI delivery, forward deployed engineering workflows, browser automation, implementation systems, documentation, spreadsheets, proposals, and client handoff workflows. |
+| 🛠️ | [**Infrastructure, SRE & Incident Operations**](infrastructure-sre-incident-operations.md) | 24 | Production reliability workflows for Kubernetes, incidents, observability, backups, deploy safety, infrastructure drift, alerts, and runbook-driven debugging. |
+| 🛡️ | [**Security Operations & GRC Workflows**](security-operations-grc-workflows.md) | 24 | Security operations and governance workflows for dependency risk, secrets, CI hardening, agent guardrails, approvals, policy evidence, threat hunting, red-team checks, and audit-ready releases. |
+| 🗄️ | [**Data Platform & Analytics Engineering**](data-platform-analytics-engineering.md) | 24 | Data engineering and analytics operations workflows for SQL, dbt, Airflow, warehouses, Postgres, CSV cleanup, schema quality, backups, lineage, dashboards, and query tuning. |
 
 ---
 
