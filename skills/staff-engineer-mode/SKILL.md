@@ -2,10 +2,15 @@
 name: "Staff Engineer Mode"
 slug: "staff-engineer-mode"
 description: "Routes engineering design, delivery, reliability, security, operations, and maintenance prompts to one native router skill backed by specialist guidance for Claude Code, Codex, Cursor, OpenCode, Copilot, and Gemini."
+github_stars: 5
 verification: "security_reviewed"
 source: "https://github.com/sirmarkz/staff-engineer-mode"
+author: "sirmarkz"
 category: "Developer Tools"
 framework: "Multi-Framework"
+tool_ecosystem:
+  github_repo: "sirmarkz/staff-engineer-mode"
+  github_stars: 5
 ---
 
 # Staff Engineer Mode
