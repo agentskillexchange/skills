@@ -2627,30 +2627,30 @@
       "description": "Data engineering and analytics operations workflows for SQL, dbt, Airflow, warehouses, Postgres, CSV cleanup, schema quality, backups, lineage, dashboards, and query tuning.",
       "editorial_caution": "Keep this centered on data platform and analytics engineering workflows; do not turn it into a generic Data Extraction category page.",
       "skill_slugs": [
+        "query-and-inspect-postgres-databases-through-mcp-with-pgedge-postgres-mcp",
+        "query-cross-connector-business-data-for-agents-with-dinobase",
+        "review-sql-server-execution-plans-through-an-mcp-compatible-analysis-workflow-with-performance-studio",
+        "run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code",
+        "operate-airflow-and-warehouse-workflows-through-agent-safe-data-engineering-skills-with-astronomer-agents",
+        "tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices",
+        "compare-dbt-models-and-warehouse-relations-before-trusting-migration-parity-with-dbt-audit-helper",
+        "translate-and-validate-sql-across-dialects-with-sqlglot",
+        "lint-postgresql-migrations-and-sql-changes-before-irreversible-schema-mistakes-land-with-squawk",
+        "inspect-large-csv-files-interactively-before-cleanup-mapping-or-downstream-transforms-with-csvlens",
+        "profile-and-triage-messy-tabular-files-from-the-terminal-with-visidata",
+        "plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh",
         "apache-airflow-mcp",
         "dbt-cloud-mcp",
         "dbt-data-transform-orchestrator",
-        "compare-dbt-models-and-warehouse-relations-before-trusting-migration-parity-with-dbt-audit-helper",
         "dbt-model-lineage-extractor-2",
         "gate-dbt-projects-with-pre-commit-checks-from-dbt-checkpoint",
-        "normalize-dbt-sql-and-jinja-templates-into-consistent-review-ready-style-with-sqlfmt",
         "sqlfluff-sql-linter-auto-formatter",
         "sqruff-sql-linter-formatter",
         "duckdb-sql-analytics-agent",
         "trdsql-sql-query-engine-csv-json-yaml-files",
         "anyquery-universal-sql-engine-mcp-integration",
-        "profile-and-clean-large-csv-datasets-from-the-terminal-with-qsv",
-        "csv-schema-validator-auto-fixer",
-        "csvkit-python-csv-utility-suite",
         "great-expectations-data-validation-pipeline",
-        "lint-postgresql-migrations-and-sql-changes-before-irreversible-schema-mistakes-land-with-squawk",
-        "inventory-live-database-schemas-and-generate-reviewable-docs-before-risky-sql-changes-with-schemacrawler",
-        "postgresql-slow-query-analyzer",
-        "orchestrate-database-backup-restore-retention-and-failure-notification-runbooks-through-databasement",
-        "schedule-and-retain-cross-database-backups-from-one-self-hosted-control-plane-with-databasus",
-        "metabase-dashboard-snapshot-alerting-2",
-        "apache-superset-dashboard-sql-exploration-skill",
-        "snowflake-query-optimizer-agent"
+        "inventory-live-database-schemas-and-generate-reviewable-docs-before-risky-sql-changes-with-schemacrawler"
       ],
       "who_for": [
         "Data engineers, analytics engineers, data platform teams, BI operators, and database reliability owners.",
@@ -2664,33 +2664,39 @@
       ],
       "workflow_stacks": [
         {
-          "name": "dbt change review",
+          "name": "Agent-safe data operations",
           "steps": [
-            "Inspect lineage",
-            "compare warehouse relations",
-            "format SQL/Jinja",
-            "run dbt checks",
-            "publish review notes"
+            "Inspect database or DAG context",
+            "Review permissions and query scope",
+            "Run controlled analysis",
+            "Record evidence for the operator"
           ]
         },
         {
-          "name": "CSV to trusted dataset",
+          "name": "Analytics engineering change review",
           "steps": [
-            "Profile raw files",
-            "validate schema",
-            "clean rows",
-            "query locally with SQL",
-            "promote to pipeline"
+            "Plan dbt or SQL model change",
+            "Lint and validate SQL",
+            "Compare model or relation parity",
+            "Preview rollout impact"
           ]
         },
         {
-          "name": "Warehouse reliability loop",
+          "name": "Warehouse and database performance",
           "steps": [
-            "Detect slow queries",
-            "lint migrations",
-            "inventory schemas",
-            "optimize warehouse queries",
-            "verify backup path"
+            "Inspect schema and execution plans",
+            "Tune query, index, or RLS behavior",
+            "Document risky migrations",
+            "Hand off a review packet"
+          ]
+        },
+        {
+          "name": "Tabular intake and cleanup",
+          "steps": [
+            "Inspect large CSV or messy tables",
+            "Profile schema and anomalies",
+            "Normalize for downstream transforms",
+            "Validate quality before ingestion"
           ]
         }
       ],
@@ -2706,6 +2712,66 @@
         "education-research-workflows"
       ],
       "skill_meta": {
+        "query-and-inspect-postgres-databases-through-mcp-with-pgedge-postgres-mcp": {
+          "why_here": "Gives agents a controlled Postgres inspection path for schema, table, and query context without turning database access into ad hoc shell work.",
+          "persona": "Postgres operator / data platform engineer",
+          "install_complexity": "Medium"
+        },
+        "query-cross-connector-business-data-for-agents-with-dinobase": {
+          "why_here": "Lets data teams query business context across connectors when analytics questions span tools rather than one warehouse table.",
+          "persona": "Analytics platform engineer",
+          "install_complexity": "Medium"
+        },
+        "review-sql-server-execution-plans-through-an-mcp-compatible-analysis-workflow-with-performance-studio": {
+          "why_here": "Adds SQL Server execution-plan review to the workflow for query tuning and database performance investigations.",
+          "persona": "Database performance engineer",
+          "install_complexity": "Medium"
+        },
+        "run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code": {
+          "why_here": "Keeps SQL and dbt analysis deterministic under coding agents, which matters when agents review warehouse changes.",
+          "persona": "Analytics engineering lead",
+          "install_complexity": "Medium"
+        },
+        "operate-airflow-and-warehouse-workflows-through-agent-safe-data-engineering-skills-with-astronomer-agents": {
+          "why_here": "Connects Airflow and warehouse operations through agent-safe data engineering workflows instead of unbounded DAG manipulation.",
+          "persona": "Data platform engineer",
+          "install_complexity": "High"
+        },
+        "tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices": {
+          "why_here": "Covers Supabase/Postgres query, index, and RLS tuning where app data teams need database advice tied to production constraints.",
+          "persona": "Supabase/Postgres engineer",
+          "install_complexity": "Medium"
+        },
+        "compare-dbt-models-and-warehouse-relations-before-trusting-migration-parity-with-dbt-audit-helper": {
+          "why_here": "Checks dbt model and warehouse parity before migrations or refactors are trusted.",
+          "persona": "Data quality lead",
+          "install_complexity": "Medium"
+        },
+        "translate-and-validate-sql-across-dialects-with-sqlglot": {
+          "why_here": "Translates and validates SQL across dialects so warehouse migrations and multi-engine analytics work stay reviewable.",
+          "persona": "Data engineer / migration reviewer",
+          "install_complexity": "Low"
+        },
+        "lint-postgresql-migrations-and-sql-changes-before-irreversible-schema-mistakes-land-with-squawk": {
+          "why_here": "Catches risky PostgreSQL migration patterns before irreversible schema mistakes land.",
+          "persona": "Database operator",
+          "install_complexity": "Low"
+        },
+        "inspect-large-csv-files-interactively-before-cleanup-mapping-or-downstream-transforms-with-csvlens": {
+          "why_here": "Provides interactive inspection of large CSV files before teams map, clean, or ingest messy tabular data.",
+          "persona": "Data operations analyst",
+          "install_complexity": "Low"
+        },
+        "profile-and-triage-messy-tabular-files-from-the-terminal-with-visidata": {
+          "why_here": "Helps analysts profile and triage messy tabular files quickly before building downstream transforms.",
+          "persona": "Data analyst / data wrangler",
+          "install_complexity": "Low"
+        },
+        "plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh": {
+          "why_here": "Adds plan-and-preview discipline for warehouse SQL model changes before rollout.",
+          "persona": "Analytics engineer / warehouse reviewer",
+          "install_complexity": "Medium"
+        },
         "apache-airflow-mcp": {
           "why_here": "Connects agents to Airflow DAG context and orchestration workflows for platform-owned pipelines.",
           "persona": "Data platform engineer",
@@ -2721,11 +2787,6 @@
           "persona": "Analytics engineer",
           "install_complexity": "Medium"
         },
-        "compare-dbt-models-and-warehouse-relations-before-trusting-migration-parity-with-dbt-audit-helper": {
-          "why_here": "Checks dbt model and warehouse parity before migrations or refactors are trusted.",
-          "persona": "Data quality lead",
-          "install_complexity": "Medium"
-        },
         "dbt-model-lineage-extractor-2": {
           "why_here": "Extracts model lineage so teams can reason about downstream impact before changing data assets.",
           "persona": "Analytics platform owner",
@@ -2734,11 +2795,6 @@
         "gate-dbt-projects-with-pre-commit-checks-from-dbt-checkpoint": {
           "why_here": "Adds pre-commit gates for dbt projects before style, tests, or docs drift.",
           "persona": "Analytics engineering reviewer",
-          "install_complexity": "Low"
-        },
-        "normalize-dbt-sql-and-jinja-templates-into-consistent-review-ready-style-with-sqlfmt": {
-          "why_here": "Normalizes dbt SQL and Jinja into review-ready form before warehouse changes merge.",
-          "persona": "Analytics engineer",
           "install_complexity": "Low"
         },
         "sqlfluff-sql-linter-auto-formatter": {
@@ -2766,73 +2822,23 @@
           "persona": "Data platform engineer",
           "install_complexity": "Medium"
         },
-        "profile-and-clean-large-csv-datasets-from-the-terminal-with-qsv": {
-          "why_here": "Profiles and cleans large CSV files before ingestion, reconciliation, or dashboarding.",
-          "persona": "Data operations engineer",
-          "install_complexity": "Low"
-        },
-        "csv-schema-validator-auto-fixer": {
-          "why_here": "Validates and fixes CSV schema issues before messy files pollute pipelines.",
-          "persona": "Data quality analyst",
-          "install_complexity": "Low"
-        },
-        "csvkit-python-csv-utility-suite": {
-          "why_here": "Adds a standard command-line CSV toolbox for inspection, conversion, and quick joins.",
-          "persona": "Data analyst",
-          "install_complexity": "Low"
-        },
         "great-expectations-data-validation-pipeline": {
           "why_here": "Creates explicit data quality expectations and validation artifacts for pipelines.",
           "persona": "Data quality engineer",
           "install_complexity": "Medium"
         },
-        "lint-postgresql-migrations-and-sql-changes-before-irreversible-schema-mistakes-land-with-squawk": {
-          "why_here": "Catches risky PostgreSQL migration patterns before irreversible schema mistakes land.",
-          "persona": "Database operator",
-          "install_complexity": "Low"
-        },
         "inventory-live-database-schemas-and-generate-reviewable-docs-before-risky-sql-changes-with-schemacrawler": {
           "why_here": "Inventories live schemas and produces reviewable docs before risky SQL or database changes.",
           "persona": "Database platform engineer",
           "install_complexity": "Medium"
-        },
-        "postgresql-slow-query-analyzer": {
-          "why_here": "Finds slow PostgreSQL queries and suggests tuning targets from live database evidence.",
-          "persona": "Database operator / SRE",
-          "install_complexity": "Medium"
-        },
-        "orchestrate-database-backup-restore-retention-and-failure-notification-runbooks-through-databasement": {
-          "why_here": "Covers database backup, restore, retention, and failure notification as part of data platform operations.",
-          "persona": "Database reliability owner",
-          "install_complexity": "Medium"
-        },
-        "schedule-and-retain-cross-database-backups-from-one-self-hosted-control-plane-with-databasus": {
-          "why_here": "Schedules and retains database backups across systems from one control plane.",
-          "persona": "Data platform operator",
-          "install_complexity": "Medium"
-        },
-        "metabase-dashboard-snapshot-alerting-2": {
-          "why_here": "Turns dashboards into scheduled snapshots and alerts for analytics operations.",
-          "persona": "Analytics operations lead",
-          "install_complexity": "Medium"
-        },
-        "apache-superset-dashboard-sql-exploration-skill": {
-          "why_here": "Supports SQL exploration and dashboard workflows for BI and analytics teams.",
-          "persona": "Analytics engineer / BI operator",
-          "install_complexity": "Medium"
-        },
-        "snowflake-query-optimizer-agent": {
-          "why_here": "Optimizes Snowflake queries so warehouse cost and performance issues are visible before they grow.",
-          "persona": "Warehouse performance engineer",
-          "install_complexity": "Medium"
         }
       },
       "recommended_picks": [
-        "apache-airflow-mcp",
-        "dbt-cloud-mcp",
-        "great-expectations-data-validation-pipeline",
-        "sqlfluff-sql-linter-auto-formatter",
-        "lint-postgresql-migrations-and-sql-changes-before-irreversible-schema-mistakes-land-with-squawk"
+        "operate-airflow-and-warehouse-workflows-through-agent-safe-data-engineering-skills-with-astronomer-agents",
+        "run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code",
+        "query-and-inspect-postgres-databases-through-mcp-with-pgedge-postgres-mcp",
+        "plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh",
+        "translate-and-validate-sql-across-dialects-with-sqlglot"
       ]
     }
   ]
