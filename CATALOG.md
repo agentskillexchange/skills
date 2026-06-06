@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2574 published skills** across **17 categories** · 2,217 security reviewed · Updated 2026-06-06 13:27 UTC
+> **2575 published skills** across **17 categories** · 2,217 security reviewed · Updated 2026-06-06 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (335 skills)
+### 🛠️ Developer Tools (336 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -313,6 +313,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac](skills/run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac/) | Execute repository-stored HTTP request files from the command line so API smoke tests, assertions, and… | Security Reviewed | 809 | 36.7k/wk |
 | [Control Android devices with an on-device AI agent using PokeClaw](skills/control-android-devices-with-an-on-device-ai-agent-using-pokeclaw/) | Run an on-device Android control loop that inspects screens and performs app actions locally for mobile automation… | Security Reviewed | 760 | — |
 | [Generate and continuously refresh CLAUDE.md, AGENTS.md, MCP config, and editor rules from the live codebase with Caliber](skills/generate-and-continuously-refresh-claude-md-agents-md-mcp-config-and-editor-rules-from-the-live-codebase-with-caliber/) | Use Caliber when agent-facing repo instructions have started drifting from the actual codebase and you want one… | Security Reviewed | 717 | 6.5k/wk |
+| [Store Python project task runners in pyproject.toml with taskipy](skills/store-python-project-task-runners-in-pyproject-toml-with-taskipy/) | Define short Python project commands in pyproject.toml so agents and maintainers can run the same test, lint, docs,… | Security Reviewed | 714 | — |
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | Convert a finished coding-agent session into a shareable HTML replay instead of sending raw logs or bulky screen… | Security Reviewed | 621 | 4.9k/wk |
 | [Preview and approve coding-agent execution plans with Overture](skills/preview-and-approve-coding-agent-execution-plans-with-overture/) | Render an AI coding agent's plan as an interactive flowchart so a human can inspect dependencies, attach context,… | Security Reviewed | 619 | 320/wk |
 | [Run deterministic SQL and dbt analysis under coding agents with Altimate Code](skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/) | Adds deterministic SQL analysis, dbt-aware tooling, warehouse metadata, lineage, and test-generation workflows… | Published | 552 | 195/wk |

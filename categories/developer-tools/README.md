@@ -339,6 +339,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac](../../skills/run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac/) | 809 | 36.7k/wk |
 | [Control Android devices with an on-device AI agent using PokeClaw](../../skills/control-android-devices-with-an-on-device-ai-agent-using-pokeclaw/) | 760 | — |
 | [Generate and continuously refresh CLAUDE.md, AGENTS.md, MCP config, and editor rules from the live codebase with Caliber](../../skills/generate-and-continuously-refresh-claude-md-agents-md-mcp-config-and-editor-rules-from-the-live-codebase-with-caliber/) | 717 | 6.5k/wk |
+| [Store Python project task runners in pyproject.toml with taskipy](../../skills/store-python-project-task-runners-in-pyproject-toml-with-taskipy/) | 714 | — |
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](../../skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | 621 | 4.9k/wk |
 | [Preview and approve coding-agent execution plans with Overture](../../skills/preview-and-approve-coding-agent-execution-plans-with-overture/) | 619 | 320/wk |
 | [Run deterministic SQL and dbt analysis under coding agents with Altimate Code](../../skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/) | 552 | 195/wk |

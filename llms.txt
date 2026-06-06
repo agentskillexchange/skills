@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-06
-# Total: 2574 skills
+# Total: 2575 skills
+
+## Store Python project task runners in pyproject.toml with taskipy
+slug: store-python-project-task-runners-in-pyproject-toml-with-taskipy
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Define short Python project commands in pyproject.toml so agents and maintainers can run the same test, lint, docs, and release tasks without hunting through…
+url: https://agentskillexchange.com/skills/store-python-project-task-runners-in-pyproject-toml-with-taskipy/
 
 ## Build event-driven document agent workflows with LlamaAgents
 slug: build-event-driven-document-agent-workflows-with-llamaagents

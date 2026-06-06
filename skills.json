@@ -1,8 +1,20 @@
 {
   "version": "2.0",
-  "total": 2574,
+  "total": 2575,
   "generated": "2026-06-06",
   "skills": [
+    {
+      "slug": "store-python-project-task-runners-in-pyproject-toml-with-taskipy",
+      "name": "Store Python project task runners in pyproject.toml with taskipy",
+      "title": "Store Python project task runners in pyproject.toml with taskipy",
+      "description": "Define short Python project commands in pyproject.toml so agents and maintainers can run the same test, lint, docs, and release tasks without hunting through…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 714
+      }
+    },
     {
       "slug": "build-event-driven-document-agent-workflows-with-llamaagents",
       "name": "Build event-driven document agent workflows with LlamaAgents",
