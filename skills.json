@@ -1,8 +1,33 @@
 {
   "version": "2.0",
-  "total": 2572,
-  "generated": "2026-06-05",
+  "total": 2574,
+  "generated": "2026-06-06",
   "skills": [
+    {
+      "slug": "build-event-driven-document-agent-workflows-with-llamaagents",
+      "name": "Build event-driven document agent workflows with LlamaAgents",
+      "title": "Build event-driven document agent workflows with LlamaAgents",
+      "description": "Use LlamaAgents to define async Python workflow steps, coordinate document-centric agent pipelines, and expose those workflows as services, clients, or deployable agent apps.",
+      "category": "Templates & Workflows",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 389
+      }
+    },
+    {
+      "slug": "add-temporal-context-memory-to-agent-workflows-with-zep",
+      "name": "Add temporal context memory to agent workflows with Zep",
+      "title": "Add temporal context memory to agent workflows with Zep",
+      "description": "Use Zep as an external context layer for agents that need to store events, assemble temporal graph context, and retrieve relevant memory before model…",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 4638,
+        "npm_weekly_downloads": 463010
+      }
+    },
     {
       "slug": "give-mcp-clients-language-server-code-intelligence",
       "name": "Give MCP clients language-server code intelligence",

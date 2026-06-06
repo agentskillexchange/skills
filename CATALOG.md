@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2572 published skills** across **17 categories** · 2,216 security reviewed · Updated 2026-06-05 19:26 UTC
+> **2574 published skills** across **17 categories** · 2,216 security reviewed · Updated 2026-06-06 01:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1175,7 +1175,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Simplify recently changed code and open low-risk refactor pull requests](skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | This entry turns GitHub Next's Code Simplifier workflow into a narrow cleanup agent. The agent inspects code changed… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (177 skills)
+### 📄 Templates & Workflows (178 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1330,6 +1330,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Evolve reusable coding-agent skills from failed trajectories with EvoSkill](skills/evolve-reusable-coding-agent-skills-from-failed-trajectories-with-evoskill/) | Mine failed agent runs for reusable skills, benchmark the candidates, and keep only the variants that improve a… | Security Reviewed | 489 | — |
 | [Coordinate multiple CLI agents through sessions, handoffs, and terminal control APIs with CLI Agent Orchestrator](skills/coordinate-multiple-cli-agents-through-sessions-handoffs-and-terminal-control-apis-with-cli-agent-orchestrator/) | Lets an agent supervisor spawn and steer isolated terminal-based worker agents with explicit handoff, assign, and… | Security Reviewed | 473 | — |
 | [Manage native GitHub stacked pull requests with gh-stack](skills/manage-native-github-stacked-pull-requests-with-gh-stack/) | Teach coding agents to split large changes into native GitHub stacked pull requests, keep branch layers rebased, and… | Security Reviewed | 401 | — |
+| [Build event-driven document agent workflows with LlamaAgents](skills/build-event-driven-document-agent-workflows-with-llamaagents/) | Use LlamaAgents to define async Python workflow steps, coordinate document-centric agent pipelines, and expose those… | Security Reviewed | 389 | — |
 | [Evaluate long-horizon agents against WildClawBench](skills/evaluate-long-horizon-agents-against-wildclawbench/) | Use WildClawBench to benchmark agents on hard end-to-end OpenClaw tasks covering tool orchestration, multimodal… | Published | 359 | — |
 | [Makedown Task Runner](skills/makedown-task-runner/) | Extracts executable task definitions from Markdown files and runs them as shell pipelines. Parses fenced code blocks… | Security Reviewed | 319 | — |
 | [Build and refactor Copilot Studio agents as YAML from coding-agent workflows](skills/build-and-refactor-copilot-studio-agents-as-yaml/) | Author, validate, test, and troubleshoot Copilot Studio agents through YAML-driven commands instead of clicking… | Security Reviewed | 166 | — |
@@ -1686,7 +1687,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Published | — | — |
 
 
-### 🔗 Integrations & Connectors (128 skills)
+### 🔗 Integrations & Connectors (129 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1740,6 +1741,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Firebase — Google Application Development Platform](skills/firebase-google-app-development-platform/) | Firebase is Google's app development platform providing real-time databases, authentication, cloud functions,… | Security Reviewed | 5.1k | — |
 | [Render interactive MCP tool UIs with mcp-ui](skills/render-interactive-mcp-tool-uis-with-mcp-ui/) | Build an MCP Apps resource, attach it to a tool through _meta.ui.resourceUri, and verify the host renders the… | Security Reviewed | 4.9k | 1.6M/wk |
 | [Atlassian MCP Server for Jira and Confluence](skills/atlassian-mcp-server-jira-confluence/) | mcp-atlassian is a Model Context Protocol server that connects AI assistants to Atlassian Jira and Confluence. It… | Security Reviewed | 4.8k | — |
+| [Add temporal context memory to agent workflows with Zep](skills/add-temporal-context-memory-to-agent-workflows-with-zep/) | Use Zep as an external context layer for agents that need to store events, assemble temporal graph context, and… | Security Reviewed | 4.6k | 463k/wk |
 | [Stripe MCP Server](skills/stripe-mcp-server/) | Stripe MCP Server is built around Stripe payments platform. The underlying ecosystem is represented by… | Security Reviewed | 4.4k | 12.9M/wk |
 | [Stripe Connect Account Provisioner](skills/stripe-connect-account-provisioner/) | Automates Stripe Connect onboarding by provisioning connected accounts via the Stripe API. Handles account creation,… | Security Reviewed | 4.4k | 9.3M/wk |
 | [Stripe Connect Integration](skills/stripe-connect-integration/) | Manages Stripe Connect accounts and payment flows using the Stripe Node.js SDK (stripe@14.x). Handles onboarding via… | Security Reviewed | 4.4k | 9.3M/wk |
