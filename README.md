@@ -10,7 +10,7 @@
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C217-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
-**[Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Catalog](CATALOG.md) · [Submit a Skill](#submit-a-skill)**
+**[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
 *2,575 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
@@ -126,10 +126,11 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 ---
 
-## Browse
+## Browse The Catalog
 
 | | View | What you'll find |
 |---|---|---|
+| 🧭 | [**Live Browse**](https://agentskillexchange.com/browse-skills/) | Search, filters, skill detail panels, and install links on agentskillexchange.com |
 | ⭐ | [**Top Starred**](TOP-STARS.md) | Skills backed by the most popular GitHub repos |
 | 🔥 | [**Top Downloaded**](TOP-DOWNLOADS.md) | Skills backed by the most-used npm packages |
 | 📖 | [**Full Catalog**](CATALOG.md) | Every skill, sorted by category and stars |
