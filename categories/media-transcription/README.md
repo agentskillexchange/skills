@@ -81,6 +81,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [PeerTube Video Publishing and Moderation API](../../skills/peertube-video-publishing-moderation-api/) | 14.6k | — |
 | [MoviePy Python Video Editing Library](../../skills/moviepy-python-video-editing-library/) | 14.5k | — |
 | [Vosk Offline Speech Recognition Toolkit](../../skills/vosk-offline-speech-recognition-toolkit/) | 14.5k | — |
+| [Build voice and multimodal agents with Pipecat](../../skills/build-voice-and-multimodal-agents-with-pipecat/) | 12.7k | — |
 | [Audiobookshelf Self-Hosted Audiobook and Podcast Server API](../../skills/audiobookshelf-self-hosted-audiobook-podcast-server-api/) | 12.3k | — |
 | [Insanely Fast Whisper GPU-Accelerated Speech Transcription CLI](../../skills/insanely-fast-whisper-gpu-transcription/) | 12.2k | — |
 | [SpeechBrain PyTorch Conversational AI and Speech Processing Toolkit](../../skills/speechbrain-pytorch-speech-processing-toolkit/) | 11.4k | — |

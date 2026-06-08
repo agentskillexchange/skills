@@ -128,6 +128,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Scan LLM systems for jailbreaks, prompt injections, and unsafe behaviors with garak](../../skills/scan-llm-systems-for-jailbreaks-prompt-injections-and-unsafe-behaviors-with-garak/) | 7.5k | — |
 | [Probe Kubernetes clusters with kube-hunter for exposed services and misconfigurations](../../skills/probe-kubernetes-clusters-with-kube-hunter-for-exposed-services-and-misconfigurations/) | 7.3k | — |
 | [Gate agent inputs and outputs with Superagent safety checks](../../skills/gate-agent-inputs-and-outputs-with-superagent-safety-checks/) | 6.6k | 43.7k/wk |
+| [Run agent-generated code in local microVM sandboxes with Microsandbox](../../skills/run-agent-generated-code-in-local-microvm-sandboxes-with-microsandbox/) | 6.5k | — |
 | [Naabu Fast Port Scanner by ProjectDiscovery](../../skills/naabu-fast-port-scanner-projectdiscovery/) | 5.9k | — |
 | [Cosign Artifact Signature Verifier](../../skills/cosign-artifact-signature-verifier/) | 5.8k | — |
 | [Sigstore Cosign Container Verifier](../../skills/sigstore-cosign-container-verifier/) | 5.8k | — |

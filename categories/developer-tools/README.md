@@ -286,6 +286,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Freeze Code and Terminal Screenshot Generator](../../skills/freeze-code-terminal-screenshot-generator/) | 4.4k | — |
 | [Spin up isolated git worktrees for parallel Claude Code and Codex branches with Worktrunk](../../skills/spin-up-isolated-git-worktrees-for-parallel-claude-code-and-codex-branches-with-worktrunk/) | 4.4k | — |
 | [MySQL Query Agent](../../skills/mysql-query-agent/) | 4.4k | 8.9M/wk |
+| [Build enterprise-ready JVM agents with JetBrains Koog](../../skills/build-enterprise-ready-jvm-agents-with-jetbrains-koog/) | 4.3k | — |
 | [pdfme Open Source TypeScript PDF Generation Library with WYSIWYG Designer](../../skills/pdfme-typescript-pdf-generation-library/) | 4.3k | — |
 | [Tera Jinja2-Inspired Template Engine for Rust](../../skills/tera-rust-template-engine/) | 4.2k | — |
 | [Manage stacked commits, repair commit graphs, and sync branchless review flows with git-branchless](../../skills/manage-stacked-commits-repair-commit-graphs-and-sync-branchless-review-flows-with-git-branchless/) | 4k | — |

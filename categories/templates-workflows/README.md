@@ -92,6 +92,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Cookiecutter Project Template Engine](../../skills/cookiecutter-project-template-engine/) | 24.8k | — |
 | [Cookiecutter Template Generator](../../skills/cookiecutter-template-generator/) | 24.8k | — |
 | [Cookiecutter Project Template Scaffolder](../../skills/cookiecutter-project-template-scaffolder/) | 24.8k | — |
+| [Assemble production agent harnesses with DeepAgents](../../skills/assemble-production-agent-harnesses-with-deepagents/) | 24.1k | — |
 | [Run Claude Code through repeatable command and persona workflows with SuperClaude](../../skills/run-claude-code-through-repeatable-command-and-persona-workflows-with-superclaude/) | 22.3k | — |
 | [Prefect Python Workflow Orchestration Framework for Data Pipelines](../../skills/prefect-python-workflow-orchestration-data-pipelines/) | 22.1k | — |
 | [Run supervised Suna sessions for reviewable agent work](../../skills/run-supervised-suna-sessions-for-reviewable-agent-work/) | 19.8k | — |
@@ -114,6 +115,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [DocuSeal Open Source Document Signing and PDF Form Platform](../../skills/docuseal-document-signing-pdf-forms/) | 11.7k | — |
 | [Jinja2 Infrastructure Template Engine](../../skills/jinja2-infrastructure-template-engine/) | 11.6k | — |
 | [Jinja2 Template Engine](../../skills/jinja2-template-engine-agent/) | 11.6k | — |
+| [Build enterprise RAG and agent workflows with Bisheng](../../skills/build-enterprise-rag-and-agent-workflows-with-bisheng/) | 11.4k | — |
 | [Run production multi-agent workflows with Hive](../../skills/run-production-multi-agent-workflows-with-hive/) | 10.5k | — |
 | [SonarQube Gate Checker](../../skills/sonarqube-gate-checker-2/) | 10.4k | — |
 | [Yeoman Scaffold Runner](../../skills/yeoman-scaffold-runner/) | 10.1k | 20/wk |

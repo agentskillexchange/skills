@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2575 published skills** across **17 categories** · 2,223 security reviewed · Updated 2026-06-08 01:26 UTC
+> **2581 published skills** across **17 categories** · 2,223 security reviewed · Updated 2026-06-08 14:43 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (336 skills)
+### 🛠️ Developer Tools (337 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -260,6 +260,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Freeze Code and Terminal Screenshot Generator](skills/freeze-code-terminal-screenshot-generator/) | Freeze by Charmbracelet generates polished PNG and SVG images of code snippets and terminal output. It supports… | Security Reviewed | 4.4k | — |
 | [Spin up isolated git worktrees for parallel Claude Code and Codex branches with Worktrunk](skills/spin-up-isolated-git-worktrees-for-parallel-claude-code-and-codex-branches-with-worktrunk/) | Create, switch, and clean per-branch worktrees so multiple coding agents can work the same repo in parallel without… | Security Reviewed | 4.4k | — |
 | [MySQL Query Agent](skills/mysql-query-agent/) | MySQL Query Agent is built around MySQL relational database. The underlying ecosystem is represented by… | Security Reviewed | 4.4k | 8.9M/wk |
+| [Build enterprise-ready JVM agents with JetBrains Koog](skills/build-enterprise-ready-jvm-agents-with-jetbrains-koog/) | Use JetBrains Koog to define typed, fault-tolerant AI agents that run inside JVM, Kotlin, backend, mobile, or… | Security Reviewed | 4.3k | — |
 | [pdfme Open Source TypeScript PDF Generation Library with WYSIWYG Designer](skills/pdfme-typescript-pdf-generation-library/) | pdfme is an open-source TypeScript and React library for generating PDFs programmatically. It includes a WYSIWYG… | Security Reviewed | 4.3k | — |
 | [Tera Jinja2-Inspired Template Engine for Rust](skills/tera-rust-template-engine/) | Tera is a powerful template engine for Rust inspired by Jinja2 and Django templates. It provides template… | Published | 4.2k | — |
 | [Manage stacked commits, repair commit graphs, and sync branchless review flows with git-branchless](skills/manage-stacked-commits-repair-commit-graphs-and-sync-branchless-review-flows-with-git-branchless/) | Use smartlog, restack, undo, and sync commands to keep stacked commit workflows reviewable without juggling… | Security Reviewed | 4k | — |
@@ -352,7 +353,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (231 skills)
+### 🔒 Security & Verification (232 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -446,6 +447,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Scan LLM systems for jailbreaks, prompt injections, and unsafe behaviors with garak](skills/scan-llm-systems-for-jailbreaks-prompt-injections-and-unsafe-behaviors-with-garak/) | Probe a model or agent stack with adversarial test suites so safety failures show up before deployment or review. | Security Reviewed | 7.5k | — |
 | [Probe Kubernetes clusters with kube-hunter for exposed services and misconfigurations](skills/probe-kubernetes-clusters-with-kube-hunter-for-exposed-services-and-misconfigurations/) | Run a focused exposure probe against a Kubernetes environment before deeper pentest work or remediation planning starts. | Published | 7.3k | — |
 | [Gate agent inputs and outputs with Superagent safety checks](skills/gate-agent-inputs-and-outputs-with-superagent-safety-checks/) | Use Superagent to add prompt-injection blocking, PII redaction, repository scanning, and compliance evidence around… | Published | 6.6k | 43.7k/wk |
+| [Run agent-generated code in local microVM sandboxes with Microsandbox](skills/run-agent-generated-code-in-local-microvm-sandboxes-with-microsandbox/) | Use Microsandbox to create local microVM-backed sandboxes for isolated execution of untrusted agent-generated code… | Security Reviewed | 6.5k | — |
 | [Naabu Fast Port Scanner by ProjectDiscovery](skills/naabu-fast-port-scanner-projectdiscovery/) | Naabu is a fast and reliable port scanning tool written in Go by ProjectDiscovery. It supports SYN, CONNECT, and UDP… | Security Reviewed | 5.9k | — |
 | [Cosign Artifact Signature Verifier](skills/cosign-artifact-signature-verifier/) | Validates container image and artifact signatures using Sigstore Cosign with keyless verification via Fulcio and… | Published | 5.8k | — |
 | [Sigstore Cosign Container Verifier](skills/sigstore-cosign-container-verifier/) | Verifies container image signatures and provenance using Sigstore Cosign and Rekor transparency log. Enforces supply… | Security Reviewed | 5.8k | — |
@@ -791,7 +793,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Update repository docs automatically after code changes and open review PRs](skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | Use GitHub Next's update-docs workflow when code changes should trigger documentation maintenance instead of waiting… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (185 skills)
+### 🔄 Data Extraction & Transformation (186 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -822,6 +824,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [ClickHouse Query Agent](skills/clickhouse-query-agent/) | ClickHouse Query Agent is built around ClickHouse columnar analytics database. The underlying ecosystem is… | Published | 46.9k | — |
 | [Metabase Open Source Business Intelligence and Embedded Analytics](skills/metabase-open-source-business-intelligence-and-embedded-analytics/) | Metabase is an open source business intelligence platform for querying data, building dashboards, and embedding… | Security Reviewed | 46.8k | 15/wk |
 | [Apache Airflow MCP](skills/apache-airflow-mcp/) | Apache Airflow MCP is built around Apache Airflow workflow orchestration. The underlying ecosystem is represented by… | Security Reviewed | 45k | — |
+| [Scale agent retrieval workloads with Milvus](skills/scale-agent-retrieval-workloads-with-milvus/) | Use Milvus to create vector collections, ingest embeddings, and serve filtered similarity search for RAG and agent… | Security Reviewed | 44.7k | — |
 | [Apache Spark Job Manager](skills/apache-spark-job-manager/) | Apache Spark Job Manager is built around Apache Spark distributed compute engine. The underlying ecosystem is… | Security Reviewed | 43.1k | — |
 | [Apache Spark DataFrame ETL Pipeline](skills/spark-dataframe-etl-pipeline/) | Automates PySpark DataFrame transformations including schema inference, partition pruning, and Delta Lake merge… | Security Reviewed | 43.1k | — |
 | [Run data-backed business automation with Minds Platform](skills/run-data-backed-business-automation-with-minds-platform/) | Connect business data sources to Minds Platform so an agent can search, analyze, and automate recurring operational… | Security Reviewed | 39.2k | — |
@@ -1176,7 +1179,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Simplify recently changed code and open low-risk refactor pull requests](skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | This entry turns GitHub Next's Code Simplifier workflow into a narrow cleanup agent. The agent inspects code changed… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (178 skills)
+### 📄 Templates & Workflows (180 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1234,6 +1237,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Cookiecutter Project Template Engine](skills/cookiecutter-project-template-engine/) | Manages and instantiates Cookiecutter project templates with dynamic Jinja2 variable substitution and… | Security Reviewed | 24.8k | — |
 | [Cookiecutter Template Generator](skills/cookiecutter-template-generator/) | Generates project scaffolding using the Cookiecutter CLI with Jinja2 templating. Supports custom template… | Security Reviewed | 24.8k | — |
 | [Cookiecutter Project Template Scaffolder](skills/cookiecutter-project-template-scaffolder/) | Generates project scaffolds using Cookiecutter templates from GitHub repositories or local directories. Automates… | Security Reviewed | 24.8k | — |
+| [Assemble production agent harnesses with DeepAgents](skills/assemble-production-agent-harnesses-with-deepagents/) | Use DeepAgents to build long-running task agents with a batteries-included harness for planning, tools, and workflow… | Security Reviewed | 24.1k | — |
 | [Run Claude Code through repeatable command and persona workflows with SuperClaude](skills/run-claude-code-through-repeatable-command-and-persona-workflows-with-superclaude/) | Turn Claude Code into a command-driven workflow surface for research, planning, implementation, testing, and review… | Security Reviewed | 22.3k | — |
 | [Prefect Python Workflow Orchestration Framework for Data Pipelines](skills/prefect-python-workflow-orchestration-data-pipelines/) | Prefect is a Python workflow orchestration framework for building resilient data pipelines. Add scheduling, retries,… | Security Reviewed | 22.1k | — |
 | [Run supervised Suna sessions for reviewable agent work](skills/run-supervised-suna-sessions-for-reviewable-agent-work/) | Start a bounded Suna or Kortix agent session, let it use browser, files, tools, and connectors, then review the… | Security Reviewed | 19.8k | — |
@@ -1256,6 +1260,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [DocuSeal Open Source Document Signing and PDF Form Platform](skills/docuseal-document-signing-pdf-forms/) | DocuSeal is an open-source DocuSign alternative for creating, filling, and signing digital documents. It provides a… | Security Reviewed | 11.7k | — |
 | [Jinja2 Infrastructure Template Engine](skills/jinja2-infrastructure-template-engine/) | Generates infrastructure-as-code configurations from Jinja2 templates with variable inheritance. Produces Terraform… | Security Reviewed | 11.6k | — |
 | [Jinja2 Template Engine](skills/jinja2-template-engine-agent/) | Renders Jinja2 templates with variable injection, macro expansion, and template inheritance. Integrates with the… | Security Reviewed | 11.6k | — |
+| [Build enterprise RAG and agent workflows with Bisheng](skills/build-enterprise-rag-and-agent-workflows-with-bisheng/) | Use Bisheng to assemble, evaluate, and publish enterprise RAG and agent workflows across internal data, models, and… | Security Reviewed | 11.4k | — |
 | [Run production multi-agent workflows with Hive](skills/run-production-multi-agent-workflows-with-hive/) | Use Hive as a model-agnostic harness for long-running multi-agent workflows that need state, recovery,… | Security Reviewed | 10.5k | — |
 | [SonarQube Gate Checker](skills/sonarqube-gate-checker-2/) | Queries the SonarQube Web API (/api/qualitygates/project_status) to evaluate quality gate conditions before merge.… | Security Reviewed | 10.4k | — |
 | [Yeoman Scaffold Runner](skills/yeoman-scaffold-runner/) | Executes Yeoman generators via the yo CLI and yeoman-environment API to scaffold applications, components, and… | Published | 10.1k | 20/wk |
@@ -2325,7 +2330,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE… | Security Reviewed | — | — |
 
 
-### 🎙️ Media & Transcription (99 skills)
+### 🎙️ Media & Transcription (100 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads)
 
@@ -2372,6 +2377,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [PeerTube Video Publishing and Moderation API](skills/peertube-video-publishing-moderation-api/) | Uses PeerTube's REST API and federation-aware platform features to automate video uploads, channel management,… | Published | 14.6k | — |
 | [MoviePy Python Video Editing Library](skills/moviepy-python-video-editing-library/) | MoviePy is a Python library for video editing — cuts, concatenations, title insertions, compositing, and custom… | Security Reviewed | 14.5k | — |
 | [Vosk Offline Speech Recognition Toolkit](skills/vosk-offline-speech-recognition-toolkit/) | Perform offline speech recognition across 20+ languages with Vosk. Provides compact models, zero-latency streaming… | Published | 14.5k | — |
+| [Build voice and multimodal agents with Pipecat](skills/build-voice-and-multimodal-agents-with-pipecat/) | Use Pipecat to define realtime voice and multimodal agent pipelines with transports, model providers, tools, and… | Security Reviewed | 12.7k | — |
 | [Audiobookshelf Self-Hosted Audiobook and Podcast Server API](skills/audiobookshelf-self-hosted-audiobook-podcast-server-api/) | Integrate Audiobookshelf's self-hosted audiobook and podcast server into AI agent workflows. Agents can manage… | Published | 12.3k | — |
 | [Insanely Fast Whisper GPU-Accelerated Speech Transcription CLI](skills/insanely-fast-whisper-gpu-transcription/) | Insanely Fast Whisper is a CLI tool that transcribes audio at extreme speeds using OpenAI Whisper models with… | Security Reviewed | 12.2k | — |
 | [SpeechBrain PyTorch Conversational AI and Speech Processing Toolkit](skills/speechbrain-pytorch-speech-processing-toolkit/) | SpeechBrain is an open-source PyTorch toolkit that accelerates conversational AI development. It provides recipes… | Security Reviewed | 11.4k | — |

@@ -1,7 +1,55 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-08
-# Total: 2575 skills
+# Total: 2581 skills
+
+## Build voice and multimodal agents with Pipecat
+slug: build-voice-and-multimodal-agents-with-pipecat
+category: Media & Transcription
+framework: Custom Agents
+verification: Security Reviewed
+description: Use Pipecat to define realtime voice and multimodal agent pipelines with transports, model providers, tools, and turn-taking tests.
+url: https://agentskillexchange.com/skills/build-voice-and-multimodal-agents-with-pipecat/
+
+## Run agent-generated code in local microVM sandboxes with Microsandbox
+slug: run-agent-generated-code-in-local-microvm-sandboxes-with-microsandbox
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Microsandbox to create local microVM-backed sandboxes for isolated execution of untrusted agent-generated code and tool calls.
+url: https://agentskillexchange.com/skills/run-agent-generated-code-in-local-microvm-sandboxes-with-microsandbox/
+
+## Build enterprise-ready JVM agents with JetBrains Koog
+slug: build-enterprise-ready-jvm-agents-with-jetbrains-koog
+category: Developer Tools
+framework: Custom Agents
+verification: Security Reviewed
+description: Use JetBrains Koog to define typed, fault-tolerant AI agents that run inside JVM, Kotlin, backend, mobile, or browser contexts.
+url: https://agentskillexchange.com/skills/build-enterprise-ready-jvm-agents-with-jetbrains-koog/
+
+## Scale agent retrieval workloads with Milvus
+slug: scale-agent-retrieval-workloads-with-milvus
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Milvus to create vector collections, ingest embeddings, and serve filtered similarity search for RAG and agent retrieval workloads.
+url: https://agentskillexchange.com/skills/scale-agent-retrieval-workloads-with-milvus/
+
+## Assemble production agent harnesses with DeepAgents
+slug: assemble-production-agent-harnesses-with-deepagents
+category: Templates & Workflows
+framework: Custom Agents
+verification: Security Reviewed
+description: Use DeepAgents to build long-running task agents with a batteries-included harness for planning, tools, and workflow structure.
+url: https://agentskillexchange.com/skills/assemble-production-agent-harnesses-with-deepagents/
+
+## Build enterprise RAG and agent workflows with Bisheng
+slug: build-enterprise-rag-and-agent-workflows-with-bisheng
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Bisheng to assemble, evaluate, and publish enterprise RAG and agent workflows across internal data, models, and business users.
+url: https://agentskillexchange.com/skills/build-enterprise-rag-and-agent-workflows-with-bisheng/
 
 ## Store Python project task runners in pyproject.toml with taskipy
 slug: store-python-project-task-runners-in-pyproject-toml-with-taskipy

@@ -2,8 +2,62 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-08",
-  "total": 2575,
+  "total": 2581,
   "skills": [
+    {
+      "slug": "build-voice-and-multimodal-agents-with-pipecat",
+      "name": "Build voice and multimodal agents with Pipecat",
+      "title": "Build voice and multimodal agents with Pipecat",
+      "description": "Use Pipecat to define realtime voice and multimodal agent pipelines with transports, model providers, tools, and turn-taking tests.",
+      "category": "Media & Transcription",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "run-agent-generated-code-in-local-microvm-sandboxes-with-microsandbox",
+      "name": "Run agent-generated code in local microVM sandboxes with Microsandbox",
+      "title": "Run agent-generated code in local microVM sandboxes with Microsandbox",
+      "description": "Use Microsandbox to create local microVM-backed sandboxes for isolated execution of untrusted agent-generated code and tool calls.",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "build-enterprise-ready-jvm-agents-with-jetbrains-koog",
+      "name": "Build enterprise-ready JVM agents with JetBrains Koog",
+      "title": "Build enterprise-ready JVM agents with JetBrains Koog",
+      "description": "Use JetBrains Koog to define typed, fault-tolerant AI agents that run inside JVM, Kotlin, backend, mobile, or browser contexts.",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "scale-agent-retrieval-workloads-with-milvus",
+      "name": "Scale agent retrieval workloads with Milvus",
+      "title": "Scale agent retrieval workloads with Milvus",
+      "description": "Use Milvus to create vector collections, ingest embeddings, and serve filtered similarity search for RAG and agent retrieval workloads.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "assemble-production-agent-harnesses-with-deepagents",
+      "name": "Assemble production agent harnesses with DeepAgents",
+      "title": "Assemble production agent harnesses with DeepAgents",
+      "description": "Use DeepAgents to build long-running task agents with a batteries-included harness for planning, tools, and workflow structure.",
+      "category": "Templates & Workflows",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "build-enterprise-rag-and-agent-workflows-with-bisheng",
+      "name": "Build enterprise RAG and agent workflows with Bisheng",
+      "title": "Build enterprise RAG and agent workflows with Bisheng",
+      "description": "Use Bisheng to assemble, evaluate, and publish enterprise RAG and agent workflows across internal data, models, and business users.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "store-python-project-task-runners-in-pyproject-toml-with-taskipy",
       "name": "Store Python project task runners in pyproject.toml with taskipy",
