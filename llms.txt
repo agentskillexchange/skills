@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-06-07
+# Generated: 2026-06-08
 # Total: 2575 skills
 
 ## Store Python project task runners in pyproject.toml with taskipy
