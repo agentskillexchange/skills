@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-09
-# Total: 2581 skills
+# Total: 2582 skills
+
+## Xquik X Data API Skill
+slug: xquik-x-data-api-skill
+category: Research & Scraping
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Xquik from coding agents to search X posts, inspect profiles, run bulk extractions, monitor accounts or keywords, verify HMAC webhooks, and call the…
+url: https://agentskillexchange.com/skills/xquik-x-data-api-skill/
 
 ## Build voice and multimodal agents with Pipecat
 slug: build-voice-and-multimodal-agents-with-pipecat

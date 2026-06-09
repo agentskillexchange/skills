@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C581-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C582-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C224-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,581 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,582 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 </div>
 
@@ -117,8 +117,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 129 | Third-party API bridges, webhooks, service connectors |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 124 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 122 | SDK docs, API parsers, symbol resolvers |
+| 🔍 | [**Research & Scraping**](categories/research-scraping/) | 112 | Web research, content discovery, data collection |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 111 | Web scraping, UI testing, headless browser control |
-| 🔍 | [**Research & Scraping**](categories/research-scraping/) | 111 | Web research, content discovery, data collection |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 100 | Audio/video processing, speech-to-text |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 89 | Image generation, asset processing, design automation |
@@ -185,7 +185,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,581 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,582 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,224 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

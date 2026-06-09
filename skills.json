@@ -1,8 +1,20 @@
 {
   "version": "2.0",
-  "total": 2581,
+  "total": 2582,
   "generated": "2026-06-09",
   "skills": [
+    {
+      "slug": "xquik-x-data-api-skill",
+      "name": "Xquik X Data API Skill",
+      "title": "Xquik X Data API Skill",
+      "description": "Use Xquik from coding agents to search X posts, inspect profiles, run bulk extractions, monitor accounts or keywords, verify HMAC webhooks, and call the…",
+      "category": "Research & Scraping",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 111
+      }
+    },
     {
       "slug": "build-voice-and-multimodal-agents-with-pipecat",
       "name": "Build voice and multimodal agents with Pipecat",
