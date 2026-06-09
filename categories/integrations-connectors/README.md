@@ -61,6 +61,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Saleor Open Source Headless Commerce Platform with GraphQL API](../../skills/saleor-open-source-headless-commerce-graphql-api/) | 22.8k | — |
 | [Give agents fast searchable memory with Supermemory](../../skills/give-agents-fast-searchable-memory-with-supermemory/) | 22.5k | — |
 | [Activepieces Open Source Workflow Automation](../../skills/activepieces-open-source-workflow-automation/) | 21.5k | — |
+| [Operate support chatbots and voice assistants with Rasa](../../skills/operate-support-chatbots-and-voice-assistants-with-rasa/) | 21.2k | — |
 | [Airbyte Open Source Data Integration Platform](../../skills/airbyte-open-source-data-integration-platform/) | 21k | — |
 | [Build n8n workflows from node docs, templates, and schemas through MCP](../../skills/build-n8n-workflows-from-node-docs-templates-and-schemas-through-mcp/) | 18.1k | 485k/wk |
 | [LiveKit Real-Time Video Audio and Data Server with WebRTC](../../skills/livekit-realtime-webrtc-server/) | 18k | — |

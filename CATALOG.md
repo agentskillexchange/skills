@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2582 published skills** across **17 categories** · 2,228 security reviewed · Updated 2026-06-09 02:19 UTC
+> **2586 published skills** across **17 categories** · 2,228 security reviewed · Updated 2026-06-09 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -793,7 +793,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Update repository docs automatically after code changes and open review PRs](skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | Use GitHub Next's update-docs workflow when code changes should trigger documentation maintenance instead of waiting… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (186 skills)
+### 🔄 Data Extraction & Transformation (188 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -827,6 +827,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Scale agent retrieval workloads with Milvus](skills/scale-agent-retrieval-workloads-with-milvus/) | Use Milvus to create vector collections, ingest embeddings, and serve filtered similarity search for RAG and agent… | Security Reviewed | 44.7k | — |
 | [Apache Spark Job Manager](skills/apache-spark-job-manager/) | Apache Spark Job Manager is built around Apache Spark distributed compute engine. The underlying ecosystem is… | Security Reviewed | 43.1k | — |
 | [Apache Spark DataFrame ETL Pipeline](skills/spark-dataframe-etl-pipeline/) | Automates PySpark DataFrame transformations including schema inference, partition pruning, and Delta Lake merge… | Security Reviewed | 43.1k | — |
+| [Build local vector retrieval indexes with Faiss](skills/build-local-vector-retrieval-indexes-with-faiss/) | Use Faiss to create and query local vector indexes for agent retrieval and RAG workflows before adding heavier… | Security Reviewed | 40.2k | — |
 | [Run data-backed business automation with Minds Platform](skills/run-data-backed-business-automation-with-minds-platform/) | Connect business data sources to Minds Platform so an agent can search, analyze, and automate recurring operational… | Security Reviewed | 39.2k | — |
 | [Paperless-ngx Document OCR and Archive Management System](skills/paperless-ngx-document-ocr-archive-management-system/) | Paperless-ngx is an open source document management system that turns scanned or uploaded paperwork into a… | Security Reviewed | 38.1k | — |
 | [Polars Blazing-Fast DataFrame Query Engine](skills/polars-dataframe-query-engine/) | Polars is an extremely fast DataFrame library written in Rust with Python, Node.js, and R bindings. This skill… | Security Reviewed | 37.9k | — |
@@ -879,6 +880,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [dbt Model Lineage Mapper](skills/dbt-model-lineage-mapper/) | Parses dbt manifest.json and catalog.json to extract full model lineage graphs using the dbt Core artifact API.… | Security Reviewed | 12.6k | — |
 | [dbt Model Transformation Architect](skills/dbt-model-transformation-architect/) | Generates and validates dbt (data build tool) models, tests, and documentation for Snowflake, BigQuery, and… | Security Reviewed | 12.6k | — |
 | [Extract OCR-ready Markdown from documents with Zerox](skills/extract-ocr-ready-markdown-from-documents-with-zerox/) | Use Zerox to convert PDFs, images, and office documents into Markdown or structured extraction outputs using vision… | Security Reviewed | 12.2k | 5.3k/wk |
+| [Expose data catalog context to AI workflows with DataHub](skills/expose-data-catalog-context-to-ai-workflows-with-datahub/) | Use DataHub metadata, ownership, schema, and lineage context to ground agent-assisted data discovery and governance… | Security Reviewed | 12.1k | — |
 | [Datasette Data Exploration and Publishing Tool](skills/datasette-data-exploration-publishing-tool/) | Datasette is an open-source Python tool for exploring and publishing data. It turns any SQLite database into an… | Security Reviewed | 10.9k | — |
 | [Grist Self-Hosted Relational Spreadsheet and Database Platform](skills/grist-self-hosted-relational-spreadsheet-database/) | Grist is an open-source modern relational spreadsheet that combines the flexibility of a spreadsheet with the… | Security Reviewed | 10.8k | — |
 | [xsv High-Performance CSV Toolkit](skills/xsv-high-performance-csv-toolkit/) | xsv is a fast CSV command-line toolkit written in Rust by Andrew Gallant (BurntSushi). It provides indexing,… | Security Reviewed | 10.8k | — |
@@ -1548,7 +1550,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (137 skills)
+### 📊 Monitoring & Alerts (138 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -1630,6 +1632,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [OpenTelemetry Collector Pipeline Designer](skills/otel-collector-pipeline-designer/) | Designs OpenTelemetry Collector pipeline configurations with receivers (otlp, prometheus, filelog), processors… | Security Reviewed | 6.9k | — |
 | [Monitor and evaluate LLM agent traffic with Helicone](skills/monitor-and-evaluate-llm-agent-traffic-with-helicone/) | Route model calls through Helicone, inspect costs, latency, traces, prompts, and evaluations, then review changes… | Security Reviewed | 5.8k | — |
 | [GoatCounter Privacy-First Web Analytics Platform](skills/goatcounter-privacy-first-web-analytics-platform/) | GoatCounter is an open source analytics platform for privacy-friendly pageview tracking, referrer reporting, and… | Security Reviewed | 5.6k | — |
+| [Optimize agent development loops with Coze Loop](skills/optimize-agent-development-loops-with-coze-loop/) | Use Coze Loop to evaluate, debug, and improve agent prompts and workflows across development iterations. | Security Reviewed | 5.5k | — |
 | [sitespeed.io Comprehensive Web Performance Analysis Toolkit](skills/sitespeed-io-web-performance-analysis/) | sitespeed.io is an open-source tool for comprehensive web performance analysis. It tests websites using real… | Security Reviewed | 5k | 3.3k/wk |
 | [Evaluate and monitor LLM workflows with Agenta](skills/evaluate-and-monitor-llm-workflows-with-agenta/) | Run prompt experiments, testset evaluations, and observability reviews for production LLM workflows before… | Published | 4.2k | — |
 | [Logfire Python Observability SDK for LLM and Agent Tracing](skills/logfire-python-observability-sdk-llm-agent-tracing/) | Logfire is Pydantic's observability SDK for Python applications, with first-class tracing for AI, LLM, and agent… | Security Reviewed | 4.2k | — |
@@ -1693,7 +1696,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Published | — | — |
 
 
-### 🔗 Integrations & Connectors (129 skills)
+### 🔗 Integrations & Connectors (130 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1720,6 +1723,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Saleor Open Source Headless Commerce Platform with GraphQL API](skills/saleor-open-source-headless-commerce-graphql-api/) | Saleor is a leading open source headless e-commerce platform built with Python and Django. It provides a GraphQL API… | Security Reviewed | 22.8k | — |
 | [Give agents fast searchable memory with Supermemory](skills/give-agents-fast-searchable-memory-with-supermemory/) | Use Supermemory as an agent memory and context layer for ingesting user facts, documents, connectors, and searchable… | Security Reviewed | 22.5k | — |
 | [Activepieces Open Source Workflow Automation](skills/activepieces-open-source-workflow-automation/) | Activepieces is an open-source, self-hostable workflow automation platform with 200+ integrations. It provides a… | Published | 21.5k | — |
+| [Operate support chatbots and voice assistants with Rasa](skills/operate-support-chatbots-and-voice-assistants-with-rasa/) | Use Rasa to design, test, and operate custom conversational assistants for support, service, and voice workflows. | Security Reviewed | 21.2k | — |
 | [Airbyte Open Source Data Integration Platform](skills/airbyte-open-source-data-integration-platform/) | Airbyte is the leading open-source data integration platform providing 600+ pre-built connectors for ELT pipelines… | Security Reviewed | 21k | — |
 | [Build n8n workflows from node docs, templates, and schemas through MCP](skills/build-n8n-workflows-from-node-docs-templates-and-schemas-through-mcp/) | Use n8n-MCP when an agent needs structured access to n8n nodes, properties, operations, and template examples while… | Security Reviewed | 18.1k | 485k/wk |
 | [LiveKit Real-Time Video Audio and Data Server with WebRTC](skills/livekit-realtime-webrtc-server/) | LiveKit is an open-source, scalable WebRTC-based real-time communication server written in Go. It provides… | Security Reviewed | 18k | — |

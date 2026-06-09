@@ -68,6 +68,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Scale agent retrieval workloads with Milvus](../../skills/scale-agent-retrieval-workloads-with-milvus/) | 44.7k | — |
 | [Apache Spark Job Manager](../../skills/apache-spark-job-manager/) | 43.1k | — |
 | [Apache Spark DataFrame ETL Pipeline](../../skills/spark-dataframe-etl-pipeline/) | 43.1k | — |
+| [Build local vector retrieval indexes with Faiss](../../skills/build-local-vector-retrieval-indexes-with-faiss/) | 40.2k | — |
 | [Run data-backed business automation with Minds Platform](../../skills/run-data-backed-business-automation-with-minds-platform/) | 39.2k | — |
 | [Paperless-ngx Document OCR and Archive Management System](../../skills/paperless-ngx-document-ocr-archive-management-system/) | 38.1k | — |
 | [Polars Blazing-Fast DataFrame Query Engine](../../skills/polars-dataframe-query-engine/) | 37.9k | — |
@@ -120,6 +121,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [dbt Model Lineage Mapper](../../skills/dbt-model-lineage-mapper/) | 12.6k | — |
 | [dbt Model Transformation Architect](../../skills/dbt-model-transformation-architect/) | 12.6k | — |
 | [Extract OCR-ready Markdown from documents with Zerox](../../skills/extract-ocr-ready-markdown-from-documents-with-zerox/) | 12.2k | 5.3k/wk |
+| [Expose data catalog context to AI workflows with DataHub](../../skills/expose-data-catalog-context-to-ai-workflows-with-datahub/) | 12.1k | — |
 | [Datasette Data Exploration and Publishing Tool](../../skills/datasette-data-exploration-publishing-tool/) | 10.9k | — |
 | [Grist Self-Hosted Relational Spreadsheet and Database Platform](../../skills/grist-self-hosted-relational-spreadsheet-database/) | 10.8k | — |
 | [xsv High-Performance CSV Toolkit](../../skills/xsv-high-performance-csv-toolkit/) | 10.8k | — |

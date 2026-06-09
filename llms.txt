@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-09
-# Total: 2582 skills
+# Total: 2586 skills
+
+## Optimize agent development loops with Coze Loop
+slug: optimize-agent-development-loops-with-coze-loop
+category: Monitoring & Alerts
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Coze Loop to evaluate, debug, and improve agent prompts and workflows across development iterations.
+url: https://agentskillexchange.com/skills/optimize-agent-development-loops-with-coze-loop/
+
+## Operate support chatbots and voice assistants with Rasa
+slug: operate-support-chatbots-and-voice-assistants-with-rasa
+category: Integrations & Connectors
+framework: Custom Agents
+verification: Security Reviewed
+description: Use Rasa to design, test, and operate custom conversational assistants for support, service, and voice workflows.
+url: https://agentskillexchange.com/skills/operate-support-chatbots-and-voice-assistants-with-rasa/
+
+## Expose data catalog context to AI workflows with DataHub
+slug: expose-data-catalog-context-to-ai-workflows-with-datahub
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use DataHub metadata, ownership, schema, and lineage context to ground agent-assisted data discovery and governance workflows.
+url: https://agentskillexchange.com/skills/expose-data-catalog-context-to-ai-workflows-with-datahub/
+
+## Build local vector retrieval indexes with Faiss
+slug: build-local-vector-retrieval-indexes-with-faiss
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Faiss to create and query local vector indexes for agent retrieval and RAG workflows before adding heavier managed vector infrastructure.
+url: https://agentskillexchange.com/skills/build-local-vector-retrieval-indexes-with-faiss/
 
 ## Xquik X Data API Skill
 slug: xquik-x-data-api-skill

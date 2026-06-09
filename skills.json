@@ -1,8 +1,56 @@
 {
   "version": "2.0",
-  "total": 2582,
+  "total": 2586,
   "generated": "2026-06-09",
   "skills": [
+    {
+      "slug": "optimize-agent-development-loops-with-coze-loop",
+      "name": "Optimize agent development loops with Coze Loop",
+      "title": "Optimize agent development loops with Coze Loop",
+      "description": "Use Coze Loop to evaluate, debug, and improve agent prompts and workflows across development iterations.",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 5496
+      }
+    },
+    {
+      "slug": "operate-support-chatbots-and-voice-assistants-with-rasa",
+      "name": "Operate support chatbots and voice assistants with Rasa",
+      "title": "Operate support chatbots and voice assistants with Rasa",
+      "description": "Use Rasa to design, test, and operate custom conversational assistants for support, service, and voice workflows.",
+      "category": "Integrations & Connectors",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 21201
+      }
+    },
+    {
+      "slug": "expose-data-catalog-context-to-ai-workflows-with-datahub",
+      "name": "Expose data catalog context to AI workflows with DataHub",
+      "title": "Expose data catalog context to AI workflows with DataHub",
+      "description": "Use DataHub metadata, ownership, schema, and lineage context to ground agent-assisted data discovery and governance workflows.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 12050
+      }
+    },
+    {
+      "slug": "build-local-vector-retrieval-indexes-with-faiss",
+      "name": "Build local vector retrieval indexes with Faiss",
+      "title": "Build local vector retrieval indexes with Faiss",
+      "description": "Use Faiss to create and query local vector indexes for agent retrieval and RAG workflows before adding heavier managed vector infrastructure.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 40233
+      }
+    },
     {
       "slug": "xquik-x-data-api-skill",
       "name": "Xquik X Data API Skill",

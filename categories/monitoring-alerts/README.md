@@ -116,6 +116,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [OpenTelemetry Collector Pipeline Designer](../../skills/otel-collector-pipeline-designer/) | 6.9k | — |
 | [Monitor and evaluate LLM agent traffic with Helicone](../../skills/monitor-and-evaluate-llm-agent-traffic-with-helicone/) | 5.8k | — |
 | [GoatCounter Privacy-First Web Analytics Platform](../../skills/goatcounter-privacy-first-web-analytics-platform/) | 5.6k | — |
+| [Optimize agent development loops with Coze Loop](../../skills/optimize-agent-development-loops-with-coze-loop/) | 5.5k | — |
 | [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | 5k | 3.3k/wk |
 | [Evaluate and monitor LLM workflows with Agenta](../../skills/evaluate-and-monitor-llm-workflows-with-agenta/) | 4.2k | — |
 | [Logfire Python Observability SDK for LLM and Agent Tracing](../../skills/logfire-python-observability-sdk-llm-agent-tracing/) | 4.2k | — |
