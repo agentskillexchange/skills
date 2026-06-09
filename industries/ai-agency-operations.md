@@ -48,6 +48,7 @@ Client-facing AI delivery, forward deployed engineering workflows, browser autom
 | [Use OmniParser for vision-based GUI parsing](../skills/use-omniparser-for-vision-based-gui-parsing/) | Improves GUI-grounded automation when agents need screen element understanding instead of brittle selectors. | FDE / browser automation engineer | Medium | 24.8k |
 | [Give coding agents Figma layout context through MCP](../skills/give-coding-agents-figma-layout-context-through-mcp/) | Connects design context to coding agents so FDE teams can implement client UI work from real Figma layouts. | FDE / design-to-code engineer | Medium | 14.9k |
 | [Trace, evaluate, simulate, and guardrail agent releases with Future AGI](../skills/trace-evaluate-simulate-and-guardrail-agent-releases-with-future-agi/) | Adds release evaluation and guardrail checks for agencies shipping client-facing agent workflows. | AI agency delivery lead | Medium | 1k |
+| [Optimize agent development loops with Coze Loop](../skills/optimize-agent-development-loops-with-coze-loop/) | Gives delivery teams an evaluation and debugging loop for prompts and agent workflows before client handoff. | AI agency delivery lead / agent QA engineer | Medium | 5.5k |
 
 ## Editorial Notes
 

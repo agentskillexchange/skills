@@ -50,6 +50,7 @@ Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, c
 | [Zapier Multi-Step Lead Enrichment Workflow](../skills/zapier-lead-enrichment-workflow/) | Enriches lead/contact records before support-to-success handoff or account follow-up. | Success ops / CRM automation lead | Medium | — |
 | [Gmail API Thread Label Triage](../skills/gmail-api-thread-label-triage/) | Adds Gmail-native thread labeling and triage for support and success teams that still coordinate from shared inboxes. | Support ops lead / customer success manager | Medium | — |
 | [Use DocsGPT for document-grounded enterprise assistants](../skills/use-docsgpt-for-document-grounded-enterprise-assistants/) | Turns internal documentation into grounded assistant answers for support teams before replies reach customers. | Support ops / knowledge manager | High | 17.9k |
+| [Operate support chatbots and voice assistants with Rasa](../skills/operate-support-chatbots-and-voice-assistants-with-rasa/) | Supports supervised design, testing, and operation of customer-service chatbots and voice assistants without implying autonomous replacement. | CX automation lead / conversational AI engineer | High | 21.2k |
 
 ## Editorial Notes
 

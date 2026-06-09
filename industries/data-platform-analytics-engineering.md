@@ -52,6 +52,8 @@ Data engineering and analytics operations workflows for SQL, dbt, Airflow, wareh
 | [Anyquery Universal SQL Engine with MCP Integration](../skills/anyquery-universal-sql-engine-mcp-integration/) | Turns many APIs and files into SQL-queryable surfaces for agents and data operators. | Data platform engineer | Medium | 1.7k |
 | [Great Expectations Data Validation Pipeline](../skills/great-expectations-data-validation-pipeline/) | Creates explicit data quality expectations and validation artifacts for pipelines. | Data quality engineer | Medium | 11.3k |
 | [Inventory live database schemas and generate reviewable docs before risky SQL changes with SchemaCrawler](../skills/inventory-live-database-schemas-and-generate-reviewable-docs-before-risky-sql-changes-with-schemacrawler/) | Inventories live schemas and produces reviewable docs before risky SQL or database changes. | Database platform engineer | Medium | 1.8k |
+| [Build local vector retrieval indexes with Faiss](../skills/build-local-vector-retrieval-indexes-with-faiss/) | Adds a local vector-indexing layer for retrieval and RAG experiments before teams adopt heavier managed vector infrastructure. | Data platform engineer / retrieval engineer | Medium | 40.2k |
+| [Expose data catalog context to AI workflows with DataHub](../skills/expose-data-catalog-context-to-ai-workflows-with-datahub/) | Grounds agent-assisted data discovery in catalog metadata, ownership, schema, and lineage context. | Data governance lead / analytics platform engineer | High | 12.1k |
 
 ## Editorial Notes
 
