@@ -60,7 +60,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 111
+        "github_stars": 111,
+        "npm_weekly_downloads": 136
       }
     },
     {

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2586 published skills** across **17 categories** · 2,228 security reviewed · Updated 2026-06-09 07:26 UTC
+> **2586 published skills** across **17 categories** · 2,228 security reviewed · Updated 2026-06-09 13:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -2187,7 +2187,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Normalize and filter noisy URL lists before crawling or queueing](skills/normalize-and-filter-noisy-url-lists-before-crawling-or-queueing/) | Uses Courlan to clean, normalize, de-track, and language-filter raw URL inventories before a crawler, scraper, or… | Security Reviewed | 165 | — |
 | [Common Crawl URL Index Miner](skills/common-crawl-url-index-miner/) | Queries the Common Crawl Index API and CC-MAIN collections to surface historical URL coverage, MIME types, and crawl… | Security Reviewed | 127 | — |
 | [Exa JS Web Search SDK for AI Applications](skills/exa-js-web-search-sdk-ai-applications/) | exa-js is the official JavaScript SDK for Exa, a web search API built for AI workflows. It gives agents a concrete… | Security Reviewed | 126 | 429.9k/wk |
-| [Xquik X Data API Skill](skills/xquik-x-data-api-skill/) | Use Xquik from coding agents to search X posts, inspect profiles, run bulk extractions, monitor accounts or… | Security Reviewed | 111 | — |
+| [Xquik X Data API Skill](skills/xquik-x-data-api-skill/) | Use Xquik from coding agents to search X posts, inspect profiles, run bulk extractions, monitor accounts or… | Security Reviewed | 111 | 136/wk |
 | [Evaluate B2B software vendors by interrogating their agents and scoring the evidence with buyer-eval-skill](skills/evaluate-b2b-software-vendors-by-interrogating-their-agents-and-scoring-the-evidence-with-buyer-eval-skill/) | Use Claude Code to run a structured vendor diligence workflow that questions vendor agents, cross-checks claims, and… | Security Reviewed | 55 | — |
 | [Use an escalating scrape strategy in Claude Code before reaching for browser automation](skills/use-an-escalating-scrape-strategy-in-claude-code-before-reaching-for-browser-automation/) | Start with cheap static fetches, escalate to a browser only when needed, validate findings, and turn the result into… | Security Reviewed | 38 | — |
 | [Academic Paper Citation Network Mapper](skills/academic-paper-citation-network-mapper/) | Builds citation networks from Semantic Scholar API and CrossRef DOI metadata. Visualizes paper influence graphs… | Published | — | — |
