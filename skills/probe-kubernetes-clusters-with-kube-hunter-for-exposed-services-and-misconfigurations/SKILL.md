@@ -13,6 +13,7 @@ tool_ecosystem:
   github_repo: "aquasecurity/kube-hunter"
   github_stars: 7267
   npm_package: "kube-hunter"
+  npm_weekly_downloads: 0
 ---
 
 # Probe Kubernetes clusters with kube-hunter for exposed services and misconfigurations

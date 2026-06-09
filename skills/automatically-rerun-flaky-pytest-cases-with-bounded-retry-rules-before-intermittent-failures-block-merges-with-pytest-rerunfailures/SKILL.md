@@ -13,6 +13,7 @@ tool_ecosystem:
   github_repo: "pytest-dev/pytest-rerunfailures"
   github_stars: 458
   npm_package: "pytest-rerunfailures"
+  npm_weekly_downloads: 0
 ---
 
 # Automatically rerun flaky pytest cases with bounded retry rules before intermittent failures block merges with pytest-rerunfailures

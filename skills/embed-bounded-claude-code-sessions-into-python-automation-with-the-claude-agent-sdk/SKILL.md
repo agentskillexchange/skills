@@ -13,6 +13,7 @@ tool_ecosystem:
   github_repo: "anthropics/claude-agent-sdk-python"
   github_stars: 6390
   npm_package: "claude-agent-sdk"
+  npm_weekly_downloads: 0
 ---
 
 # Embed bounded Claude Code sessions into Python automation with the Claude Agent SDK
