@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-06-08
+# Generated: 2026-06-09
 # Total: 2581 skills
 
 ## Build voice and multimodal agents with Pipecat
