@@ -13,6 +13,7 @@ tool_ecosystem:
   github_repo: "Xquik-dev/x-twitter-scraper"
   github_stars: 111
   npm_package: "x-developer"
+  npm_weekly_downloads: 136
 ---
 
 # Xquik X Data API Skill
