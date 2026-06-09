@@ -14,8 +14,8 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Twenty Open Source CRM Platform and Salesforce Alternative](../../skills/twenty-open-source-crm-salesforce-alternative/) | ⭐ 43.5k |
 | [Cal.com Open Source Scheduling Infrastructure and API](../../skills/cal-com-open-source-scheduling-infrastructure-api/) | ⭐ 40.9k |
 | [Outline Open Source Team Knowledge Base and Wiki Platform](../../skills/outline-knowledge-base-wiki/) | ⭐ 38k |
+| [Run scheduled research automations with self-hosted Khoj](../../skills/run-scheduled-research-automations-with-self-hosted-khoj/) | ⭐ 35k |
 | [Wiki.js Modern Open Source Wiki Platform on Node.js](../../skills/wikijs-wiki-platform-nodejs/) | ⭐ 28.2k |
-| [Discord Bot Manager](../../skills/discord-bot-manager/) | ⭐ 26.7k |
 
 ---
 
@@ -48,6 +48,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Twenty Open Source CRM Platform and Salesforce Alternative](../../skills/twenty-open-source-crm-salesforce-alternative/) | 43.5k | — |
 | [Cal.com Open Source Scheduling Infrastructure and API](../../skills/cal-com-open-source-scheduling-infrastructure-api/) | 40.9k | — |
 | [Outline Open Source Team Knowledge Base and Wiki Platform](../../skills/outline-knowledge-base-wiki/) | 38k | — |
+| [Run scheduled research automations with self-hosted Khoj](../../skills/run-scheduled-research-automations-with-self-hosted-khoj/) | 35k | — |
 | [Wiki.js Modern Open Source Wiki Platform on Node.js](../../skills/wikijs-wiki-platform-nodejs/) | 28.2k | — |
 | [Discord Bot Manager](../../skills/discord-bot-manager/) | 26.7k | 564.5k/wk |
 | [Google Workspace CLI (gws)](../../skills/google-workspace-cli-gws/) | 24.3k | 38.9k/wk |

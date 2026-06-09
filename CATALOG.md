@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2586 published skills** across **17 categories** · 2,230 security reviewed · Updated 2026-06-09 13:26 UTC
+> **2588 published skills** across **17 categories** · 2,230 security reviewed · Updated 2026-06-09 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -793,7 +793,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Update repository docs automatically after code changes and open review PRs](skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | Use GitHub Next's update-docs workflow when code changes should trigger documentation maintenance instead of waiting… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (188 skills)
+### 🔄 Data Extraction & Transformation (189 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -846,6 +846,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Match resumes to job descriptions with Resume Matcher](skills/match-resumes-to-job-descriptions-with-resume-matcher/) | Run a reviewable resume-to-job-description matching workflow that produces ATS-style gaps, keyword suggestions, and… | Security Reviewed | 27.2k | — |
 | [Turn mixed local folders into a queryable knowledge graph with Graphify](skills/turn-mixed-local-folders-into-a-queryable-knowledge-graph-with-graphify/) | Ingest code, docs, PDFs, images, and video from local folders into a searchable knowledge graph so agents can follow… | Security Reviewed | 25.7k | — |
 | [Typesense Typo-Tolerant Search Engine](skills/typesense-typo-tolerant-search-engine/) | Typesense is an open-source, typo-tolerant search engine built in C++ for building fast, relevant search… | Security Reviewed | 25.5k | — |
+| [Chat with private document collections through Kotaemon](skills/chat-with-private-document-collections-through-kotaemon/) | Run a self-hosted Kotaemon document QA workflow so agents can index private files, ask grounded questions, and… | Security Reviewed | 25.4k | — |
 | [Use PandasAI for conversational CSV and spreadsheet analysis](skills/use-pandasai-for-conversational-csv-and-spreadsheet-analysis/) | Load tabular data with PandasAI and ask natural-language analysis questions while keeping generated transformations… | Security Reviewed | 23.6k | — |
 | [Airbyte Connector Config Generator](skills/airbyte-connector-config-generator/) | Generates Airbyte source and destination connector configurations using the Airbyte API /v1/sources/create and… | Security Reviewed | 21.1k | — |
 | [Teable No-Code Postgres Database Platform and Airtable Alternative](skills/teable-no-code-postgres-database-platform/) | Teable is an open source no-code database platform built on PostgreSQL that uses a spreadsheet-like interface for… | Published | 21.1k | — |
@@ -1834,7 +1835,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
 
-### 📅 Calendar, Email & Productivity (124 skills)
+### 📅 Calendar, Email & Productivity (125 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -1848,6 +1849,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Twenty Open Source CRM Platform and Salesforce Alternative](skills/twenty-open-source-crm-salesforce-alternative/) | Twenty is a modern open-source CRM built to replace Salesforce, with customizable objects, workflow automation,… | Security Reviewed | 43.5k | — |
 | [Cal.com Open Source Scheduling Infrastructure and API](skills/cal-com-open-source-scheduling-infrastructure-api/) | Integrate Cal.com's open-source scheduling platform into AI agent workflows. Agents can programmatically create… | Security Reviewed | 40.9k | — |
 | [Outline Open Source Team Knowledge Base and Wiki Platform](skills/outline-knowledge-base-wiki/) | Outline is a fast, collaborative knowledge base for teams built with React and Node.js. It provides real-time… | Security Reviewed | 38k | — |
+| [Run scheduled research automations with self-hosted Khoj](skills/run-scheduled-research-automations-with-self-hosted-khoj/) | Use Khoj to connect private knowledge and web sources, create a custom agent, and schedule recurring research or… | Security Reviewed | 35k | — |
 | [Wiki.js Modern Open Source Wiki Platform on Node.js](skills/wikijs-wiki-platform-nodejs/) | Wiki.js is a powerful open-source wiki app built on Node.js with support for Markdown, visual editing, Git-backed… | Published | 28.2k | — |
 | [Discord Bot Manager](skills/discord-bot-manager/) | Discord Bot Manager is built around Discord bot and moderation platform. The underlying ecosystem is represented by… | Security Reviewed | 26.7k | 564.5k/wk |
 | [Google Workspace CLI (gws)](skills/google-workspace-cli-gws/) | Google Workspace CLI, branded as gws, is a command-line tool that gives humans and AI agents structured access to… | Security Reviewed | 24.3k | 38.9k/wk |

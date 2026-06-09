@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-09
-# Total: 2586 skills
+# Total: 2588 skills
+
+## Run scheduled research automations with self-hosted Khoj
+slug: run-scheduled-research-automations-with-self-hosted-khoj
+category: Calendar, Email & Productivity
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Khoj to connect private knowledge and web sources, create a custom agent, and schedule recurring research or notification workflows.
+url: https://agentskillexchange.com/skills/run-scheduled-research-automations-with-self-hosted-khoj/
+
+## Chat with private document collections through Kotaemon
+slug: chat-with-private-document-collections-through-kotaemon
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run a self-hosted Kotaemon document QA workflow so agents can index private files, ask grounded questions, and return cited answers.
+url: https://agentskillexchange.com/skills/chat-with-private-document-collections-through-kotaemon/
 
 ## Optimize agent development loops with Coze Loop
 slug: optimize-agent-development-loops-with-coze-loop

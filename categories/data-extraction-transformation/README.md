@@ -87,6 +87,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Match resumes to job descriptions with Resume Matcher](../../skills/match-resumes-to-job-descriptions-with-resume-matcher/) | 27.2k | — |
 | [Turn mixed local folders into a queryable knowledge graph with Graphify](../../skills/turn-mixed-local-folders-into-a-queryable-knowledge-graph-with-graphify/) | 25.7k | — |
 | [Typesense Typo-Tolerant Search Engine](../../skills/typesense-typo-tolerant-search-engine/) | 25.5k | — |
+| [Chat with private document collections through Kotaemon](../../skills/chat-with-private-document-collections-through-kotaemon/) | 25.4k | — |
 | [Use PandasAI for conversational CSV and spreadsheet analysis](../../skills/use-pandasai-for-conversational-csv-and-spreadsheet-analysis/) | 23.6k | — |
 | [Airbyte Connector Config Generator](../../skills/airbyte-connector-config-generator/) | 21.1k | — |
 | [Teable No-Code Postgres Database Platform and Airtable Alternative](../../skills/teable-no-code-postgres-database-platform/) | 21.1k | — |

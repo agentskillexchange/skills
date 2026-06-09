@@ -2,8 +2,26 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-09",
-  "total": 2586,
+  "total": 2588,
   "skills": [
+    {
+      "slug": "run-scheduled-research-automations-with-self-hosted-khoj",
+      "name": "Run scheduled research automations with self-hosted Khoj",
+      "title": "Run scheduled research automations with self-hosted Khoj",
+      "description": "Use Khoj to connect private knowledge and web sources, create a custom agent, and schedule recurring research or notification workflows.",
+      "category": "Calendar, Email & Productivity",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "chat-with-private-document-collections-through-kotaemon",
+      "name": "Chat with private document collections through Kotaemon",
+      "title": "Chat with private document collections through Kotaemon",
+      "description": "Run a self-hosted Kotaemon document QA workflow so agents can index private files, ask grounded questions, and return cited answers.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "optimize-agent-development-loops-with-coze-loop",
       "name": "Optimize agent development loops with Coze Loop",
