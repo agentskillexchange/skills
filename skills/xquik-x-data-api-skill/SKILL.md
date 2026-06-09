@@ -3,17 +3,16 @@ name: "Xquik X Data API Skill"
 slug: "xquik-x-data-api-skill"
 description: "Use Xquik from coding agents to search X posts, inspect profiles, run bulk extractions, monitor accounts or keywords, verify HMAC webhooks, and call the remote MCP server or REST API with an XQUIK_API_KEY."
 github_stars: 111
-verification: "listed"
+verification: "security_reviewed"
 source: "https://github.com/Xquik-dev/x-twitter-scraper"
+author: "Xquik-dev"
+publisher_type: "tool_vendor"
 category: "Research & Scraping"
 framework: "Multi-Framework"
 tool_ecosystem:
-  tool: "Xquik"
   github_repo: "Xquik-dev/x-twitter-scraper"
   github_stars: 111
   npm_package: "x-developer"
-  license: "MIT"
-  maintained: true
 ---
 
 # Xquik X Data API Skill
