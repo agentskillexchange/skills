@@ -98,7 +98,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Give coding agents persistent project memory with AgentMemory](skills/give-coding-agents-persistent-project-memory-with-agentmemory/) | give-coding-agents-persistent-project-memory-with-agentmemory | 17.2k | Developer Tools |
 | [Use Prompt Flow for LLM workflow testing and evaluation](skills/use-prompt-flow-for-llm-workflow-testing-and-evaluation/) | use-prompt-flow-for-llm-workflow-testing-and-evaluation | 11.1k | Monitoring & Alerts |
 | [Gate agent inputs and outputs with Superagent safety checks](skills/gate-agent-inputs-and-outputs-with-superagent-safety-checks/) | gate-agent-inputs-and-outputs-with-superagent-safety-checks | 6.6k | Security & Verification |
-| [Read Google Drive files and edit Sheets through MCP](skills/read-google-drive-files-and-edit-sheets-through-mcp/) | read-google-drive-files-and-edit-sheets-through-mcp | 280 | Calendar, Email & Productivity |
+| [Run scheduled research automations with self-hosted Khoj](skills/run-scheduled-research-automations-with-self-hosted-khoj/) | run-scheduled-research-automations-with-self-hosted-khoj | 35k | Calendar, Email & Productivity |
 
 ---
 
