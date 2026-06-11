@@ -95,6 +95,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [OpenObserve Cloud-Native Observability Platform for Logs Metrics and Traces](../../skills/openobserve-observability-platform-logs-metrics-traces/) | 18.5k | — |
 | [Upptime GitHub Actions Uptime Monitor and Status Page](../../skills/upptime-github-actions-uptime-monitor-status-page/) | 17k | — |
 | [Apprise Universal Push Notification Library and CLI](../../skills/apprise-universal-push-notification-library-cli/) | 16.2k | — |
+| [Evaluate and trace agent workflows with RagaAI Catalyst](../../skills/evaluate-and-trace-agent-workflows-with-ragaai-catalyst/) | 16.2k | — |
 | [Trace Python memory allocation hotspots before leaks and spikes reach production with Memray](../../skills/trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray/) | 15k | 16.3M/wk |
 | [Gotify Self-Hosted Push Notification Server and API](../../skills/gotify-self-hosted-push-notification-server-and-api/) | 14.9k | — |
 | [Dozzle Real-Time Docker Container Log Viewer](../../skills/dozzle-docker-log-viewer/) | 12.4k | — |

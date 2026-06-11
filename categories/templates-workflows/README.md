@@ -53,6 +53,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Twitter/X Trend Monitor & Thread Publisher](../../skills/twitter-x-trend-monitor-thread-publisher/) | 74.2k | — |
 | [Docker Compose Service Blueprint Creator](../../skills/docker-compose-service-blueprint-creator/) | 71.5k | — |
 | [Docker Compose Test Harness](../../skills/docker-compose-test-harness/) | 71.5k | — |
+| [Coordinate software delivery roles with MetaGPT](../../skills/coordinate-software-delivery-roles-with-metagpt/) | 68.7k | — |
 | [Ansible Playbook Linter](../../skills/ansible-playbook-linter-2/) | 68.4k | — |
 | [Ansible Playbook Template Generator](../../skills/ansible-playbook-template-generator/) | 68.4k | — |
 | [Ansible Playbook Template Library](../../skills/ansible-playbook-template-library/) | 68.4k | — |
@@ -127,6 +128,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Coordinate issue-backed parallel coding worktrees with CCPM](../../skills/coordinate-issue-backed-parallel-coding-worktrees-with-ccpm/) | 8k | — |
 | [Plop.js Code Generator](../../skills/plopjs-code-generator/) | 7.6k | 1.6M/wk |
 | [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | 7.6k | 1.5M/wk |
+| [Build bounded single-binary agent workflows with Yao](../../skills/build-bounded-single-binary-agent-workflows-with-yao/) | 7.5k | — |
 | [Run long-horizon spec-driven coding agent workflows with GSD 2](../../skills/run-long-horizon-spec-driven-coding-agent-workflows-with-gsd-2/) | 7.3k | 11.4k/wk |
 | [Run durable agent tasks and event-driven workflows with Hatchet](../../skills/run-durable-agent-tasks-and-event-driven-workflows-with-hatchet/) | 7.2k | 298.3k/wk |
 | [Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext](../../skills/pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-stay-readable-with-jupytext/) | 7.2k | — |

@@ -123,6 +123,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [dbt Model Transformation Architect](../../skills/dbt-model-transformation-architect/) | 12.6k | — |
 | [Extract OCR-ready Markdown from documents with Zerox](../../skills/extract-ocr-ready-markdown-from-documents-with-zerox/) | 12.2k | 5.3k/wk |
 | [Expose data catalog context to AI workflows with DataHub](../../skills/expose-data-catalog-context-to-ai-workflows-with-datahub/) | 12.1k | — |
+| [Generate and evaluate retrieval embeddings with FlagEmbedding](../../skills/generate-and-evaluate-retrieval-embeddings-with-flagembedding/) | 11.8k | — |
 | [Datasette Data Exploration and Publishing Tool](../../skills/datasette-data-exploration-publishing-tool/) | 10.9k | — |
 | [Grist Self-Hosted Relational Spreadsheet and Database Platform](../../skills/grist-self-hosted-relational-spreadsheet-database/) | 10.8k | — |
 | [xsv High-Performance CSV Toolkit](../../skills/xsv-high-performance-csv-toolkit/) | 10.8k | — |

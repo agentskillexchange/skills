@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-11
-# Total: 2588 skills
+# Total: 2592 skills
+
+## Coordinate software delivery roles with MetaGPT
+slug: coordinate-software-delivery-roles-with-metagpt
+category: Templates & Workflows
+framework: Custom Agents
+verification: Security Reviewed
+description: Use MetaGPT to turn a product requirement into coordinated product, architecture, project, and engineering agent outputs that an operator can review and iterate.
+url: https://agentskillexchange.com/skills/coordinate-software-delivery-roles-with-metagpt/
+
+## Evaluate and trace agent workflows with RagaAI Catalyst
+slug: evaluate-and-trace-agent-workflows-with-ragaai-catalyst
+category: Monitoring & Alerts
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use RagaAI Catalyst to instrument agent runs, collect traces, manage evaluation datasets, inspect execution graphs, and review regressions before deployment.
+url: https://agentskillexchange.com/skills/evaluate-and-trace-agent-workflows-with-ragaai-catalyst/
+
+## Generate and evaluate retrieval embeddings with FlagEmbedding
+slug: generate-and-evaluate-retrieval-embeddings-with-flagembedding
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use FlagEmbedding to choose BGE embedding or reranking models, encode documents and queries, evaluate retrieval quality, and feed stronger context into RAG workflows.
+url: https://agentskillexchange.com/skills/generate-and-evaluate-retrieval-embeddings-with-flagembedding/
+
+## Build bounded single-binary agent workflows with Yao
+slug: build-bounded-single-binary-agent-workflows-with-yao
+category: Templates & Workflows
+framework: Custom Agents
+verification: Security Reviewed
+description: Use Yao when an operator needs to package an AI agent workflow, hooks, MCP tools, memory scopes, and a reviewable web or chat interface…
+url: https://agentskillexchange.com/skills/build-bounded-single-binary-agent-workflows-with-yao/
 
 ## Run scheduled research automations with self-hosted Khoj
 slug: run-scheduled-research-automations-with-self-hosted-khoj

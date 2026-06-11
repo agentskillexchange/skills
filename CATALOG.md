@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2588 published skills** across **17 categories** · 2,234 security reviewed · Updated 2026-06-11 07:26 UTC
+> **2592 published skills** across **17 categories** · 2,234 security reviewed · Updated 2026-06-11 13:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -793,7 +793,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Update repository docs automatically after code changes and open review PRs](skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | Use GitHub Next's update-docs workflow when code changes should trigger documentation maintenance instead of waiting… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (189 skills)
+### 🔄 Data Extraction & Transformation (190 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -882,6 +882,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [dbt Model Transformation Architect](skills/dbt-model-transformation-architect/) | Generates and validates dbt (data build tool) models, tests, and documentation for Snowflake, BigQuery, and… | Security Reviewed | 12.6k | — |
 | [Extract OCR-ready Markdown from documents with Zerox](skills/extract-ocr-ready-markdown-from-documents-with-zerox/) | Use Zerox to convert PDFs, images, and office documents into Markdown or structured extraction outputs using vision… | Security Reviewed | 12.2k | 5.3k/wk |
 | [Expose data catalog context to AI workflows with DataHub](skills/expose-data-catalog-context-to-ai-workflows-with-datahub/) | Use DataHub metadata, ownership, schema, and lineage context to ground agent-assisted data discovery and governance… | Security Reviewed | 12.1k | — |
+| [Generate and evaluate retrieval embeddings with FlagEmbedding](skills/generate-and-evaluate-retrieval-embeddings-with-flagembedding/) | Use FlagEmbedding to choose BGE embedding or reranking models, encode documents and queries, evaluate retrieval… | Security Reviewed | 11.8k | — |
 | [Datasette Data Exploration and Publishing Tool](skills/datasette-data-exploration-publishing-tool/) | Datasette is an open-source Python tool for exploring and publishing data. It turns any SQLite database into an… | Security Reviewed | 10.9k | — |
 | [Grist Self-Hosted Relational Spreadsheet and Database Platform](skills/grist-self-hosted-relational-spreadsheet-database/) | Grist is an open-source modern relational spreadsheet that combines the flexibility of a spreadsheet with the… | Security Reviewed | 10.8k | — |
 | [xsv High-Performance CSV Toolkit](skills/xsv-high-performance-csv-toolkit/) | xsv is a fast CSV command-line toolkit written in Rust by Andrew Gallant (BurntSushi). It provides indexing,… | Security Reviewed | 10.8k | — |
@@ -1182,7 +1183,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Simplify recently changed code and open low-risk refactor pull requests](skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | This entry turns GitHub Next's Code Simplifier workflow into a narrow cleanup agent. The agent inspects code changed… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (180 skills)
+### 📄 Templates & Workflows (182 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1201,6 +1202,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Twitter/X Trend Monitor & Thread Publisher](skills/twitter-x-trend-monitor-thread-publisher/) | Polls the X API v2 trending topics endpoint every 15 minutes and compares against a keyword watchlist stored in… | Security Reviewed | 74.2k | — |
 | [Docker Compose Service Blueprint Creator](skills/docker-compose-service-blueprint-creator/) | Creates Docker Compose YAML service definitions using the Compose Specification. Configures multi-service stacks… | Security Reviewed | 71.5k | — |
 | [Docker Compose Test Harness](skills/docker-compose-test-harness/) | Scaffolds integration test environments using Docker Compose v2 CLI, testcontainers-python library, and the… | Security Reviewed | 71.5k | — |
+| [Coordinate software delivery roles with MetaGPT](skills/coordinate-software-delivery-roles-with-metagpt/) | Use MetaGPT to turn a product requirement into coordinated product, architecture, project, and engineering agent… | Security Reviewed | 68.7k | — |
 | [Ansible Playbook Linter](skills/ansible-playbook-linter-2/) | Validates Ansible playbooks and roles using ansible-lint and yamllint APIs. Enforces best practices for idempotency,… | Security Reviewed | 68.4k | — |
 | [Ansible Playbook Template Generator](skills/ansible-playbook-template-generator/) | Generates Ansible playbook YAML with proper module usage, handler chains, and role structures using ansible-core… | Security Reviewed | 68.4k | — |
 | [Ansible Playbook Template Library](skills/ansible-playbook-template-library/) | Generates and validates Ansible playbooks from infrastructure requirements. Uses ansible-lint for validation and… | Security Reviewed | 68.4k | — |
@@ -1275,6 +1277,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Coordinate issue-backed parallel coding worktrees with CCPM](skills/coordinate-issue-backed-parallel-coding-worktrees-with-ccpm/) | Use CCPM when an agent team needs one issue-backed workflow that turns plans into GitHub issues, isolates execution… | Security Reviewed | 8k | — |
 | [Plop.js Code Generator](skills/plopjs-code-generator/) | Creates Plop.js generators with Handlebars templates and custom action types for scaffolding React components, API… | Security Reviewed | 7.6k | 1.6M/wk |
 | [Plop.js Code Generator Orchestrator](skills/plopjs-code-generator-orchestrator/) | Manages Plop.js micro-generators to scaffold components, modules, and boilerplate files using Handlebars templates.… | Security Reviewed | 7.6k | 1.5M/wk |
+| [Build bounded single-binary agent workflows with Yao](skills/build-bounded-single-binary-agent-workflows-with-yao/) | Use Yao when an operator needs to package an AI agent workflow, hooks, MCP tools, memory scopes, and a reviewable… | Security Reviewed | 7.5k | — |
 | [Run long-horizon spec-driven coding agent workflows with GSD 2](skills/run-long-horizon-spec-driven-coding-agent-workflows-with-gsd-2/) | Use GSD 2 to break a project into milestones, manage agent context and branches, recover from drift, and let coding… | Security Reviewed | 7.3k | 11.4k/wk |
 | [Run durable agent tasks and event-driven workflows with Hatchet](skills/run-durable-agent-tasks-and-event-driven-workflows-with-hatchet/) | Use Hatchet to queue, retry, pause, resume, observe, and scale long-running agent tasks and background workflows. | Security Reviewed | 7.2k | 298.3k/wk |
 | [Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext](skills/pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-stay-readable-with-jupytext/) | Keep notebooks synchronized with `.py` or `.md` representations so version control, review, and refactoring can… | Security Reviewed | 7.2k | — |
@@ -1551,7 +1554,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (138 skills)
+### 📊 Monitoring & Alerts (139 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -1612,6 +1615,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [OpenObserve Cloud-Native Observability Platform for Logs Metrics and Traces](skills/openobserve-observability-platform-logs-metrics-traces/) | OpenObserve is an open-source, cloud-native observability platform for logs, metrics, traces, and Real User… | Security Reviewed | 18.5k | — |
 | [Upptime GitHub Actions Uptime Monitor and Status Page](skills/upptime-github-actions-uptime-monitor-status-page/) | An ASE skill built around Upptime, the open source uptime monitor and status page system powered by GitHub Actions,… | Security Reviewed | 17k | — |
 | [Apprise Universal Push Notification Library and CLI](skills/apprise-universal-push-notification-library-cli/) | Apprise is a Python library and CLI that sends push notifications to over 100 services including Telegram, Discord,… | Security Reviewed | 16.2k | — |
+| [Evaluate and trace agent workflows with RagaAI Catalyst](skills/evaluate-and-trace-agent-workflows-with-ragaai-catalyst/) | Use RagaAI Catalyst to instrument agent runs, collect traces, manage evaluation datasets, inspect execution graphs,… | Security Reviewed | 16.2k | — |
 | [Trace Python memory allocation hotspots before leaks and spikes reach production with Memray](skills/trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray/) | Lets an agent record Python allocation traces and inspect the biggest allocators, retained objects, and leak paths… | Published | 15k | 16.3M/wk |
 | [Gotify Self-Hosted Push Notification Server and API](skills/gotify-self-hosted-push-notification-server-and-api/) | Run self-hosted push notifications with Gotify, including a REST API, WebSocket stream, web UI, plugins, and mobile… | Security Reviewed | 14.9k | — |
 | [Dozzle Real-Time Docker Container Log Viewer](skills/dozzle-docker-log-viewer/) | Dozzle is a lightweight, web-based real-time log viewer for Docker containers. It supports Docker standalone, Swarm… | Security Reviewed | 12.4k | — |

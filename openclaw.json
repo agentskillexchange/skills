@@ -2,8 +2,44 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-11",
-  "total": 2588,
+  "total": 2592,
   "skills": [
+    {
+      "slug": "coordinate-software-delivery-roles-with-metagpt",
+      "name": "Coordinate software delivery roles with MetaGPT",
+      "title": "Coordinate software delivery roles with MetaGPT",
+      "description": "Use MetaGPT to turn a product requirement into coordinated product, architecture, project, and engineering agent outputs that an operator can review and iterate.",
+      "category": "Templates & Workflows",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "evaluate-and-trace-agent-workflows-with-ragaai-catalyst",
+      "name": "Evaluate and trace agent workflows with RagaAI Catalyst",
+      "title": "Evaluate and trace agent workflows with RagaAI Catalyst",
+      "description": "Use RagaAI Catalyst to instrument agent runs, collect traces, manage evaluation datasets, inspect execution graphs, and review regressions before deployment.",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "generate-and-evaluate-retrieval-embeddings-with-flagembedding",
+      "name": "Generate and evaluate retrieval embeddings with FlagEmbedding",
+      "title": "Generate and evaluate retrieval embeddings with FlagEmbedding",
+      "description": "Use FlagEmbedding to choose BGE embedding or reranking models, encode documents and queries, evaluate retrieval quality, and feed stronger context into RAG workflows.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "build-bounded-single-binary-agent-workflows-with-yao",
+      "name": "Build bounded single-binary agent workflows with Yao",
+      "title": "Build bounded single-binary agent workflows with Yao",
+      "description": "Use Yao when an operator needs to package an AI agent workflow, hooks, MCP tools, memory scopes, and a reviewable web or chat interface…",
+      "category": "Templates & Workflows",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "run-scheduled-research-automations-with-self-hosted-khoj",
       "name": "Run scheduled research automations with self-hosted Khoj",
