@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-11
-# Total: 2592 skills
+# Total: 2594 skills
+
+## Add Postgres-native vector retrieval to agent and RAG workflows with pgvector
+slug: add-postgres-native-vector-retrieval-to-agent-and-rag-workflows-with-pgvector
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Store embeddings beside application data in Postgres, create vector indexes, and query nearest neighbors for semantic search, RAG, recommendations, or agent memory retrieval.
+url: https://agentskillexchange.com/skills/add-postgres-native-vector-retrieval-to-agent-and-rag-workflows-with-pgvector/
+
+## Give MCP clients local Markdown project memory with Basic Memory
+slug: give-mcp-clients-local-markdown-project-memory-with-basic-memory
+category: Developer Tools
+framework: MCP
+verification: Security Reviewed
+description: Connect Claude, Codex, Cursor, ChatGPT, or any MCP-capable client to a local-first Markdown knowledge graph so agents can write, search, and reuse project context…
+url: https://agentskillexchange.com/skills/give-mcp-clients-local-markdown-project-memory-with-basic-memory/
 
 ## Coordinate software delivery roles with MetaGPT
 slug: coordinate-software-delivery-roles-with-metagpt

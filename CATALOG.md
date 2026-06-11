@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2592 published skills** across **17 categories** · 2,236 security reviewed · Updated 2026-06-11 13:27 UTC
+> **2594 published skills** across **17 categories** · 2,236 security reviewed · Updated 2026-06-11 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (337 skills)
+### 🛠️ Developer Tools (338 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -274,6 +274,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Cloud Cost Analysis](skills/cloud-cost-analysis/) | Cloud Cost Analysis is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | 3.6k | — |
 | [Topgrade Universal System Package Updater](skills/topgrade-universal-system-package-updater/) | Topgrade is a CLI tool written in Rust that detects all package managers and updatable sources on your system and… | Security Reviewed | 3.6k | — |
 | [DynamoDB Manager](skills/dynamodb-manager/) | DynamoDB Manager is built around Amazon DynamoDB NoSQL database. The underlying ecosystem is represented by… | Security Reviewed | 3.6k | 30.5M/wk |
+| [Give MCP clients local Markdown project memory with Basic Memory](skills/give-mcp-clients-local-markdown-project-memory-with-basic-memory/) | Connect Claude, Codex, Cursor, ChatGPT, or any MCP-capable client to a local-first Markdown knowledge graph so… | Security Reviewed | 3.2k | — |
 | [OpenAPI Spec Validator](skills/openapi-spec-validator-agent/) | Validates and lints OpenAPI 3.0/3.1 specifications using Spectral CLI rules and the Swagger Parser library. Detects… | Security Reviewed | 3.1k | 1.2M/wk |
 | [Record and replay HTTP fixtures for deterministic Python tests with VCR.py](skills/record-and-replay-http-fixtures-for-deterministic-python-tests-with-vcr-py/) | Use VCR.py when an agent needs to turn flaky, slow, or rate-limited Python tests into stable runs by recording real… | Security Reviewed | 3k | — |
 | [LangGraph.js Agent Orchestration Framework](skills/langgraph-js-agent-orchestration-framework/) | A verified skill for LangGraph.js, the graph-based orchestration framework from LangChain. It focuses on… | Published | 2.8k | — |
@@ -793,7 +794,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Update repository docs automatically after code changes and open review PRs](skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | Use GitHub Next's update-docs workflow when code changes should trigger documentation maintenance instead of waiting… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (190 skills)
+### 🔄 Data Extraction & Transformation (191 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -848,6 +849,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Typesense Typo-Tolerant Search Engine](skills/typesense-typo-tolerant-search-engine/) | Typesense is an open-source, typo-tolerant search engine built in C++ for building fast, relevant search… | Security Reviewed | 25.5k | — |
 | [Chat with private document collections through Kotaemon](skills/chat-with-private-document-collections-through-kotaemon/) | Run a self-hosted Kotaemon document QA workflow so agents can index private files, ask grounded questions, and… | Security Reviewed | 25.4k | — |
 | [Use PandasAI for conversational CSV and spreadsheet analysis](skills/use-pandasai-for-conversational-csv-and-spreadsheet-analysis/) | Load tabular data with PandasAI and ask natural-language analysis questions while keeping generated transformations… | Security Reviewed | 23.6k | — |
+| [Add Postgres-native vector retrieval to agent and RAG workflows with pgvector](skills/add-postgres-native-vector-retrieval-to-agent-and-rag-workflows-with-pgvector/) | Store embeddings beside application data in Postgres, create vector indexes, and query nearest neighbors for… | Security Reviewed | 21.7k | — |
 | [Airbyte Connector Config Generator](skills/airbyte-connector-config-generator/) | Generates Airbyte source and destination connector configurations using the Airbyte API /v1/sources/create and… | Security Reviewed | 21.1k | — |
 | [Teable No-Code Postgres Database Platform and Airtable Alternative](skills/teable-no-code-postgres-database-platform/) | Teable is an open source no-code database platform built on PostgreSQL that uses a spreadsheet-like interface for… | Published | 21.1k | — |
 | [fx Terminal JSON Viewer and Processor](skills/fx-terminal-json-viewer-processor/) | fx is a terminal-based JSON viewer and processor that provides an interactive TUI for navigating, filtering, and… | Published | 20.4k | 206k/wk |

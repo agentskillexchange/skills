@@ -89,6 +89,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Typesense Typo-Tolerant Search Engine](../../skills/typesense-typo-tolerant-search-engine/) | 25.5k | — |
 | [Chat with private document collections through Kotaemon](../../skills/chat-with-private-document-collections-through-kotaemon/) | 25.4k | — |
 | [Use PandasAI for conversational CSV and spreadsheet analysis](../../skills/use-pandasai-for-conversational-csv-and-spreadsheet-analysis/) | 23.6k | — |
+| [Add Postgres-native vector retrieval to agent and RAG workflows with pgvector](../../skills/add-postgres-native-vector-retrieval-to-agent-and-rag-workflows-with-pgvector/) | 21.7k | — |
 | [Airbyte Connector Config Generator](../../skills/airbyte-connector-config-generator/) | 21.1k | — |
 | [Teable No-Code Postgres Database Platform and Airtable Alternative](../../skills/teable-no-code-postgres-database-platform/) | 21.1k | — |
 | [fx Terminal JSON Viewer and Processor](../../skills/fx-terminal-json-viewer-processor/) | 20.4k | 206k/wk |

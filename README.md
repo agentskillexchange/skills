@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C592-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C594-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C236-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,592 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,594 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 </div>
 
@@ -88,17 +88,17 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | Skill | Tool | ⭐ Stars | Category |
 |-------|------|--------:|----------|
 | [Run durable agent tasks and event-driven workflows with Hatchet](skills/run-durable-agent-tasks-and-event-driven-workflows-with-hatchet/) | run-durable-agent-tasks-and-event-driven-workflows-with-hatchet | 7.2k | Templates & Workflows |
-| [Render interactive MCP tool UIs with mcp-ui](skills/render-interactive-mcp-tool-uis-with-mcp-ui/) | render-interactive-mcp-tool-uis-with-mcp-ui | 4.9k | Integrations & Connectors |
 | [Build managed document parsing pipelines with LlamaCloud Services](skills/build-managed-document-parsing-pipelines-with-llamacloud-services/) | build-managed-document-parsing-pipelines-with-llamacloud-services | 4.2k | Data Extraction & Transformation |
-| [Use A2A for agent-to-agent interoperability workflows](skills/use-a2a-for-agent-to-agent-interoperability-workflows/) | use-a2a-for-agent-to-agent-interoperability-workflows | 24.1k | Integrations & Connectors |
+| [Render interactive MCP tool UIs with mcp-ui](skills/render-interactive-mcp-tool-uis-with-mcp-ui/) | render-interactive-mcp-tool-uis-with-mcp-ui | 4.9k | Integrations & Connectors |
 | [Extract OCR-ready Markdown from documents with Zerox](skills/extract-ocr-ready-markdown-from-documents-with-zerox/) | extract-ocr-ready-markdown-from-documents-with-zerox | 12.2k | Data Extraction & Transformation |
+| [Use A2A for agent-to-agent interoperability workflows](skills/use-a2a-for-agent-to-agent-interoperability-workflows/) | use-a2a-for-agent-to-agent-interoperability-workflows | 24.1k | Integrations & Connectors |
 | [Use Flowise for visual agent workflow orchestration](skills/use-flowise-for-visual-agent-workflow-orchestration/) | use-flowise-for-visual-agent-workflow-orchestration | 53.3k | Templates & Workflows |
 | [Run terminal-native coding agent workflows with GitHub Copilot CLI](skills/run-terminal-native-coding-agent-workflows-with-github-copilot-cli/) | run-terminal-native-coding-agent-workflows-with-github-copilot-cli | 10.6k | Developer Tools |
 | [Run autonomous deep research workflows with GPT Researcher](skills/run-autonomous-deep-research-workflows-with-gpt-researcher/) | run-autonomous-deep-research-workflows-with-gpt-researcher | 27.4k | Research & Scraping |
-| [Give coding agents persistent project memory with AgentMemory](skills/give-coding-agents-persistent-project-memory-with-agentmemory/) | give-coding-agents-persistent-project-memory-with-agentmemory | 17.2k | Developer Tools |
+| [Serve local model endpoints for agent tests with OpenLLM](skills/serve-local-model-endpoints-for-agent-tests-with-openllm/) | serve-local-model-endpoints-for-agent-tests-with-openllm | 12.3k | Developer Tools |
 | [Use Prompt Flow for LLM workflow testing and evaluation](skills/use-prompt-flow-for-llm-workflow-testing-and-evaluation/) | use-prompt-flow-for-llm-workflow-testing-and-evaluation | 11.1k | Monitoring & Alerts |
 | [Gate agent inputs and outputs with Superagent safety checks](skills/gate-agent-inputs-and-outputs-with-superagent-safety-checks/) | gate-agent-inputs-and-outputs-with-superagent-safety-checks | 6.6k | Security & Verification |
-| [Monitor and evaluate LLM agent traffic with Helicone](skills/monitor-and-evaluate-llm-agent-traffic-with-helicone/) | monitor-and-evaluate-llm-agent-traffic-with-helicone | 5.8k | Monitoring & Alerts |
+| [Evaluate and trace agent workflows with RagaAI Catalyst](skills/evaluate-and-trace-agent-workflows-with-ragaai-catalyst/) | evaluate-and-trace-agent-workflows-with-ragaai-catalyst | 16.2k | Monitoring & Alerts |
 
 ---
 
@@ -106,10 +106,10 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 337 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 338 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 232 | Vulnerability scanning, auth setup, compliance |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
-| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 190 | ETL pipelines, parsing, format conversion |
+| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 191 | ETL pipelines, parsing, format conversion |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 184 | Linting, code review, test generators, coverage |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 182 | Scaffolders, boilerplate generators, workflow templates |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 173 | Incident response, troubleshooting, system diagnostics |
@@ -185,7 +185,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,592 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,594 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,236 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
