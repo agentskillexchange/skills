@@ -767,7 +767,7 @@
       "title": "Healthcare Documentation & Intake",
       "launch_stage": "wave-2",
       "description": "Documentation intake, OCR, transcription, structured extraction, and biomedical literature support for paperwork-heavy workflows.",
-      "editorial_caution": "Keep the framing explicitly non-clinical. This is for documentation, intake, extraction, transcription, and literature support \u2014 not diagnosis or medical decision support.",
+      "editorial_caution": "Keep the framing explicitly non-clinical. This is for documentation, intake, extraction, transcription, and literature support — not diagnosis or medical decision support.",
       "skill_slugs": [
         "pubmed-literature-mining-agent",
         "langextract-llm-structured-text-extraction",
@@ -1678,7 +1678,8 @@
         "use-docsgpt-for-document-grounded-enterprise-assistants",
         "build-graph-rag-context-with-neo4j-llm-graph-builder",
         "run-rag-chatbot-workflows-with-verba",
-        "run-autonomous-deep-research-workflows-with-gpt-researcher"
+        "run-autonomous-deep-research-workflows-with-gpt-researcher",
+        "run-scheduled-research-automations-with-self-hosted-khoj"
       ],
       "who_for": [
         "Researchers, academic labs, research analysts, and science or technical writing teams turning scattered sources into reviewable research artifacts.",
@@ -1847,6 +1848,11 @@
           "why_here": "Adds an autonomous research workflow for literature scans, source gathering, and first-pass synthesis packets.",
           "persona": "Research assistant / academic analyst",
           "install_complexity": "Medium"
+        },
+        "run-scheduled-research-automations-with-self-hosted-khoj": {
+          "why_here": "Schedules recurring source-backed research digests and alerts so teams can monitor the same knowledge sources with reviewable outputs.",
+          "persona": "Research analyst / knowledge ops lead",
+          "install_complexity": "High"
         }
       },
       "recommended_picks": [
