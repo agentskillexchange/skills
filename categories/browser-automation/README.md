@@ -79,6 +79,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Cypress Visual Regression Testing Suite](../../skills/cypress-visual-regression-testing-suite/) | 49.6k | 7.3M/wk |
 | [Cypress End-to-End and Component Testing Framework](../../skills/cypress-end-to-end-component-testing-framework/) | 49.6k | 7.1M/wk |
 | [Cypress Component Testing Framework](../../skills/cypress-component-testing-framework-2/) | 49.6k | 6.9M/wk |
+| [Run multimodal computer and browser operator workflows with UI-TARS Desktop](../../skills/run-multimodal-computer-and-browser-operator-workflows-with-ui-tars-desktop/) | 36.3k | — |
 | [Chrome DevTools MCP Browser Debugging and Performance Analysis](../../skills/chrome-devtools-mcp-browser-debugging-performance-analysis/) | 34.2k | 1.8M/wk |
 | [Selenium Grid Auto-Scaling Orchestrator](../../skills/selenium-grid-auto-scaling-orchestrator/) | 34.1k | 1.9M/wk |
 | [Selenium Grid Cloud Executor](../../skills/selenium-grid-cloud-executor/) | 34.1k | 1.9M/wk |

@@ -23,6 +23,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 
 | Skill | Downloads |
 |---|---:|
+| [Coordinate multi-agent Claude Code and Codex workflows with Ruflo](../../skills/coordinate-multi-agent-claude-code-and-codex-workflows-with-ruflo/) | ⬇ 83.5k/wk |
 | [Use Flowise for visual agent workflow orchestration](../../skills/use-flowise-for-visual-agent-workflow-orchestration/) | ⬇ 11.9k/wk |
 | [Enforce local Git hook checks in JavaScript repos with Husky](../../skills/enforce-local-git-hook-checks-in-javascript-repos-with-husky/) | ⬇ 25.7M/wk |
 | [Swagger Codegen Orchestrator](../../skills/swagger-codegen-orchestrator/) | ⬇ 149.2k/wk |
@@ -32,7 +33,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Nx Monorepo Workflow Orchestrator](../../skills/nx-monorepo-workflow-orchestrator/) | ⬇ 8.9M/wk |
 | [Turn a PRD into a dependency-aware task graph and keep AI implementation work scoped with Task Master AI](../../skills/turn-a-prd-into-a-dependency-aware-task-graph-and-keep-ai-implementation-work-scoped-with-task-master-ai/) | ⬇ 113.6k/wk |
 | [GrapesJS Open Source Web Builder and Template Design Framework](../../skills/grapesjs-web-builder-template-framework/) | ⬇ 156.5k/wk |
-| [Pulumi Infrastructure Stack Templater](../../skills/pulumi-infrastructure-stack-templater/) | ⬇ 2.2M/wk |
 
 ---
 
@@ -58,6 +58,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Ansible Playbook Template Generator](../../skills/ansible-playbook-template-generator/) | 68.4k | — |
 | [Ansible Playbook Template Library](../../skills/ansible-playbook-template-library/) | 68.4k | — |
 | [Ansible Playbook Runner](../../skills/ansible-playbook-runner/) | 68.4k | — |
+| [Coordinate multi-agent Claude Code and Codex workflows with Ruflo](../../skills/coordinate-multi-agent-claude-code-and-codex-workflows-with-ruflo/) | 59k | 83.5k/wk |
 | [Use Flowise for visual agent workflow orchestration](../../skills/use-flowise-for-visual-agent-workflow-orchestration/) | 53.3k | 11.9k/wk |
 | [Terraform Module Registry](../../skills/terraform-module-registry/) | 48.1k | — |
 | [Terraform Module Registry Browser](../../skills/terraform-module-registry-browser/) | 48.1k | — |

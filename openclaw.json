@@ -2,8 +2,26 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-12",
-  "total": 2594,
+  "total": 2596,
   "skills": [
+    {
+      "slug": "run-multimodal-computer-and-browser-operator-workflows-with-ui-tars-desktop",
+      "name": "Run multimodal computer and browser operator workflows with UI-TARS Desktop",
+      "title": "Run multimodal computer and browser operator workflows with UI-TARS Desktop",
+      "description": "Use UI-TARS Desktop when an operator needs a local or remote GUI agent to drive desktop, browser, and computer-use tasks with multimodal model support.",
+      "category": "Browser Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "coordinate-multi-agent-claude-code-and-codex-workflows-with-ruflo",
+      "name": "Coordinate multi-agent Claude Code and Codex workflows with Ruflo",
+      "title": "Coordinate multi-agent Claude Code and Codex workflows with Ruflo",
+      "description": "Install Ruflo when an operator needs Claude Code or Codex agents to coordinate swarms, memory, hooks, and MCP tools across a bounded project workflow.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "add-postgres-native-vector-retrieval-to-agent-and-rag-workflows-with-pgvector",
       "name": "Add Postgres-native vector retrieval to agent and RAG workflows with pgvector",

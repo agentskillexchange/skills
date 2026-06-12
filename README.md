@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C594-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C596-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C238-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,594 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,596 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 </div>
 
@@ -85,6 +85,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Run multimodal computer and browser operator workflows with UI-TARS Desktop](skills/run-multimodal-computer-and-browser-operator-workflows-with-ui-tars-desktop/) | Use UI-TARS Desktop when an operator needs a local or remote GUI agent to drive desktop, browser, and... | 36.3k | Browser Automation |
+| [Coordinate multi-agent Claude Code and Codex workflows with Ruflo](skills/coordinate-multi-agent-claude-code-and-codex-workflows-with-ruflo/) | Install Ruflo when an operator needs Claude Code or Codex agents to coordinate swarms, memory, hooks, and MCP... | 59.0k | Templates & Workflows |
 | [Add Postgres-native vector retrieval to agent and RAG workflows with pgvector](skills/add-postgres-native-vector-retrieval-to-agent-and-rag-workflows-with-pgvector/) | Store embeddings beside application data in Postgres, create vector indexes, and query nearest neighbors for semantic search, RAG... | 21.7k | Data Extraction & Transformation |
 | [Give MCP clients local Markdown project memory with Basic Memory](skills/give-mcp-clients-local-markdown-project-memory-with-basic-memory/) | Connect Claude, Codex, Cursor, ChatGPT, or any MCP-capable client to a local-first Markdown knowledge graph so agents can... | 3.2k | Developer Tools |
 | [Coordinate software delivery roles with MetaGPT](skills/coordinate-software-delivery-roles-with-metagpt/) | Use MetaGPT to turn a product requirement into coordinated product, architecture, project, and engineering agent outputs that an... | 68.7k | Templates & Workflows |
@@ -93,8 +95,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Build bounded single-binary agent workflows with Yao](skills/build-bounded-single-binary-agent-workflows-with-yao/) | Use Yao when an operator needs to package an AI agent workflow, hooks, MCP tools, memory scopes, and... | 7.5k | Templates & Workflows |
 | [Run scheduled research automations with self-hosted Khoj](skills/run-scheduled-research-automations-with-self-hosted-khoj/) | Use Khoj to connect private knowledge and web sources, create a custom agent, and schedule recurring research or... | 35.0k | Calendar, Email & Productivity |
 | [Chat with private document collections through Kotaemon](skills/chat-with-private-document-collections-through-kotaemon/) | Run a self-hosted Kotaemon document QA workflow so agents can index private files, ask grounded questions, and return... | 25.4k | Data Extraction & Transformation |
-| [Optimize agent development loops with Coze Loop](skills/optimize-agent-development-loops-with-coze-loop/) | Use Coze Loop to evaluate, debug, and improve agent prompts and workflows across development iterations | 5.5k | Monitoring & Alerts |
-| [Operate support chatbots and voice assistants with Rasa](skills/operate-support-chatbots-and-voice-assistants-with-rasa/) | Use Rasa to design, test, and operate custom conversational assistants for support, service, and voice workflows | 21.2k | Integrations & Connectors |
 
 ---
 
@@ -106,14 +106,14 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 |---|---|---:|---|
 | [Run durable agent tasks and event-driven workflows with Hatchet](skills/run-durable-agent-tasks-and-event-driven-workflows-with-hatchet/) | Use Hatchet to queue, retry, pause, resume, observe, and scale long-running agent tasks and background workflows | 7.2k | Templates & Workflows |
 | [Build managed document parsing pipelines with LlamaCloud Services](skills/build-managed-document-parsing-pipelines-with-llamacloud-services/) | Use LlamaCloud Services to parse, index, and manage document knowledge pipelines that feed LlamaIndex retrieval and agent workflows | 4.2k | Data Extraction & Transformation |
+| [Coordinate multi-agent Claude Code and Codex workflows with Ruflo](skills/coordinate-multi-agent-claude-code-and-codex-workflows-with-ruflo/) | Install Ruflo when an operator needs Claude Code or Codex agents to coordinate swarms, memory, hooks, and MCP... | 59.0k | Templates & Workflows |
 | [Render interactive MCP tool UIs with mcp-ui](skills/render-interactive-mcp-tool-uis-with-mcp-ui/) | Build an MCP Apps resource, attach it to a tool through _meta.ui.resourceUri, and verify the host renders the... | 4.9k | Integrations & Connectors |
 | [Use A2A for agent-to-agent interoperability workflows](skills/use-a2a-for-agent-to-agent-interoperability-workflows/) | Expose agent capabilities and route tasks across independent agent runtimes with the Agent2Agent protocol | 24.1k | Integrations & Connectors |
 | [Extract OCR-ready Markdown from documents with Zerox](skills/extract-ocr-ready-markdown-from-documents-with-zerox/) | Use Zerox to convert PDFs, images, and office documents into Markdown or structured extraction outputs using vision models | 12.2k | Data Extraction & Transformation |
-| [Use Flowise for visual agent workflow orchestration](skills/use-flowise-for-visual-agent-workflow-orchestration/) | Compose, test, and hand off visual AI-agent flows in Flowise when the work needs inspectable orchestration instead of... | 53.3k | Templates & Workflows |
 | [Run terminal-native coding agent workflows with GitHub Copilot CLI](skills/run-terminal-native-coding-agent-workflows-with-github-copilot-cli/) | Use GitHub Copilot CLI to plan, edit, debug, explain, and automate repository work from a terminal with GitHub... | 10.6k | Developer Tools |
 | [Run autonomous deep research workflows with GPT Researcher](skills/run-autonomous-deep-research-workflows-with-gpt-researcher/) | Use GPT Researcher to plan, gather, source, and assemble cited web or local research reports through a repeatable... | 27.4k | Research & Scraping |
-| [Serve local model endpoints for agent tests with OpenLLM](skills/serve-local-model-endpoints-for-agent-tests-with-openllm/) | Launch an OpenAI-compatible OpenLLM server for a chosen open model, point an agent runtime at it, and compare... | 12.3k | Developer Tools |
-| [Use Prompt Flow for LLM workflow testing and evaluation](skills/use-prompt-flow-for-llm-workflow-testing-and-evaluation/) | Build a Prompt Flow graph, run interactive and batch tests, inspect traces and evaluation metrics, and promote only... | 11.1k | Monitoring & Alerts |
+| [Give coding agents persistent project memory with AgentMemory](skills/give-coding-agents-persistent-project-memory-with-agentmemory/) | Use AgentMemory to run a persistent memory service that lets coding agents recall project context, prior decisions, and... | 17.2k | Developer Tools |
+| [Run multimodal computer and browser operator workflows with UI-TARS Desktop](skills/run-multimodal-computer-and-browser-operator-workflows-with-ui-tars-desktop/) | Use UI-TARS Desktop when an operator needs a local or remote GUI agent to drive desktop, browser, and... | 36.3k | Browser Automation |
 
 ---
 
@@ -126,14 +126,14 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 191 | ETL pipelines, parsing, format conversion |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 184 | Linting, code review, test generators, coverage |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 182 | Scaffolders, boilerplate generators, workflow templates |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 183 | Scaffolders, boilerplate generators, workflow templates |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 173 | Incident response, troubleshooting, system diagnostics |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 139 | Metrics, alerting rules, observability |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 130 | Third-party API bridges, webhooks, service connectors |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 125 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 122 | SDK docs, API parsers, symbol resolvers |
+| 🌐 | [**Browser Automation**](categories/browser-automation/) | 112 | Web scraping, UI testing, headless browser control |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 112 | Web research, content discovery, data collection |
-| 🌐 | [**Browser Automation**](categories/browser-automation/) | 111 | Web scraping, UI testing, headless browser control |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 100 | Audio/video processing, speech-to-text |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 89 | Image generation, asset processing, design automation |
@@ -200,7 +200,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,594 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,596 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,238 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

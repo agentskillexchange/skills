@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-12
-# Total: 2594 skills
+# Total: 2596 skills
+
+## Run multimodal computer and browser operator workflows with UI-TARS Desktop
+slug: run-multimodal-computer-and-browser-operator-workflows-with-ui-tars-desktop
+category: Browser Automation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use UI-TARS Desktop when an operator needs a local or remote GUI agent to drive desktop, browser, and computer-use tasks with multimodal model support.
+url: https://agentskillexchange.com/skills/run-multimodal-computer-and-browser-operator-workflows-with-ui-tars-desktop/
+
+## Coordinate multi-agent Claude Code and Codex workflows with Ruflo
+slug: coordinate-multi-agent-claude-code-and-codex-workflows-with-ruflo
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Install Ruflo when an operator needs Claude Code or Codex agents to coordinate swarms, memory, hooks, and MCP tools across a bounded project workflow.
+url: https://agentskillexchange.com/skills/coordinate-multi-agent-claude-code-and-codex-workflows-with-ruflo/
 
 ## Add Postgres-native vector retrieval to agent and RAG workflows with pgvector
 slug: add-postgres-native-vector-retrieval-to-agent-and-rag-workflows-with-pgvector
