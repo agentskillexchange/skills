@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "total": 2594,
-  "generated": "2026-06-11",
+  "generated": "2026-06-12",
   "skills": [
     {
       "slug": "add-postgres-native-vector-retrieval-to-agent-and-rag-workflows-with-pgvector",
