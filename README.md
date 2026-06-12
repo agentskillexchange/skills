@@ -81,6 +81,23 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 ---
 
+## Recently Published Skills
+
+| Skill | Category | Framework | Verification |
+|-------|----------|-----------|--------------|
+| [Add Postgres-native vector retrieval to agent and RAG workflows with pgvector](skills/add-postgres-native-vector-retrieval-to-agent-and-rag-workflows-with-pgvector/) | Data Extraction & Transformation | Multi-Framework | Security Reviewed |
+| [Give MCP clients local Markdown project memory with Basic Memory](skills/give-mcp-clients-local-markdown-project-memory-with-basic-memory/) | Developer Tools | MCP | Security Reviewed |
+| [Coordinate software delivery roles with MetaGPT](skills/coordinate-software-delivery-roles-with-metagpt/) | Templates & Workflows | Custom Agents | Security Reviewed |
+| [Evaluate and trace agent workflows with RagaAI Catalyst](skills/evaluate-and-trace-agent-workflows-with-ragaai-catalyst/) | Monitoring & Alerts | Multi-Framework | Security Reviewed |
+| [Generate and evaluate retrieval embeddings with FlagEmbedding](skills/generate-and-evaluate-retrieval-embeddings-with-flagembedding/) | Data Extraction & Transformation | Multi-Framework | Security Reviewed |
+| [Build bounded single-binary agent workflows with Yao](skills/build-bounded-single-binary-agent-workflows-with-yao/) | Templates & Workflows | Custom Agents | Security Reviewed |
+| [Run scheduled research automations with self-hosted Khoj](skills/run-scheduled-research-automations-with-self-hosted-khoj/) | Calendar, Email & Productivity | Multi-Framework | Security Reviewed |
+| [Chat with private document collections through Kotaemon](skills/chat-with-private-document-collections-through-kotaemon/) | Data Extraction & Transformation | Multi-Framework | Security Reviewed |
+| [Optimize agent development loops with Coze Loop](skills/optimize-agent-development-loops-with-coze-loop/) | Monitoring & Alerts | Multi-Framework | Security Reviewed |
+| [Operate support chatbots and voice assistants with Rasa](skills/operate-support-chatbots-and-voice-assistants-with-rasa/) | Integrations & Connectors | Custom Agents | Security Reviewed |
+
+---
+
 ## Featured Skills
 
 Mirrors the live ASE homepage featured shelf: recent-popular, diversified across tools and categories, rather than a frozen all-time-stars list. See [TOP-STARS.md](TOP-STARS.md) and [TOP-DOWNLOADS.md](TOP-DOWNLOADS.md) for raw rankings.

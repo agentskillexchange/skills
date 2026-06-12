@@ -11,10 +11,12 @@ python3 - "$REPO_DIR" << 'PYEOF'
 import html
 import json
 import os
+import re
 import sys
 import time
 import urllib.parse
 import urllib.request
+from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_DIR = Path(sys.argv[1])
@@ -105,6 +107,75 @@ def clean_text(value):
 def display_name(item):
     return clean_text(item.get("name") or item.get("title"))
 
+def first_label(item, *keys, fallback="—"):
+    for key in keys:
+        value = item.get(key)
+        if isinstance(value, list) and value:
+            return clean_text(value[0]) or fallback
+        if isinstance(value, str) and value.strip():
+            return clean_text(value)
+    return fallback
+
+def verification_label(value):
+    if value == "security_reviewed":
+        return "Security Reviewed"
+    return "Published"
+
+def parse_publish_timestamp(item):
+    for key in ("published_at", "date", "date_gmt", "created_at", "modified_at"):
+        value = item.get(key)
+        if not value:
+            continue
+        text_value = str(value).strip()
+        try:
+            if text_value.endswith("Z"):
+                text_value = text_value[:-1] + "+00:00"
+            parsed = datetime.fromisoformat(text_value)
+            if parsed.tzinfo is None:
+                parsed = parsed.replace(tzinfo=timezone.utc)
+            return parsed.timestamp()
+        except ValueError:
+            continue
+    return 0
+
+def repo_skill_exists(slug):
+    return bool(slug) and (REPO_DIR / "skills" / slug / "SKILL.md").is_file()
+
+def is_public_published(item):
+    for key in ("status", "post_status"):
+        value = str(item.get(key) or "").strip().lower()
+        if value and value not in ("publish", "published", "public"):
+            return False
+    if item.get("hidden") is True or str(item.get("visibility") or "").strip().lower() == "hidden":
+        return False
+    return True
+
+def recent_skill_rows(source_items, limit=10):
+    seen = set()
+    rows = []
+    for item in sorted(source_items, key=parse_publish_timestamp, reverse=True):
+        if not is_public_published(item):
+            continue
+        slug = str(item.get("slug") or "").strip()
+        if not slug or slug in seen or not re.fullmatch(r"[a-z0-9][a-z0-9-]*", slug):
+            continue
+        if not repo_skill_exists(slug):
+            continue
+        title = display_name(item)
+        if not title:
+            continue
+        seen.add(slug)
+        rows.append({
+            "title": title,
+            "slug": slug,
+            "category": first_label(item, "categories", "category"),
+            "framework": first_label(item, "frameworks", "framework"),
+            "verification": verification_label(item.get("verification", "listed")),
+        })
+        if len(rows) >= limit:
+            break
+    return rows
+
 # Fetch live data
 cats, _ = fetch_json(WP_CAT_URL)
 cat_rows = [{"name": html.unescape(c["name"]), "slug": c["slug"], "count": int(c["count"])} for c in cats]
@@ -123,6 +194,7 @@ for item in items:
 
 total = len(items)
 sec_reviewed = sum(1 for i in items if i.get("verification") == "security_reviewed")
+recent_skills = recent_skill_rows(items)
 
 try:
     homepage_picks, _ = fetch_json(HOMEPAGE_PICKS_URL)
@@ -270,6 +342,15 @@ if industry_collections:
     lines.append("")
     lines.append("---")
     lines.append("")
+lines.append("## Recently Published Skills")
+lines.append("")
+lines.append("| Skill | Category | Framework | Verification |")
+lines.append("|-------|----------|-----------|--------------|")
+for item in recent_skills:
+    lines.append(f"| [{item['title']}](skills/{item['slug']}/) | {item['category']} | {item['framework']} | {item['verification']} |")
+lines.append("")
+lines.append("---")
+lines.append("")
 lines.append("## Featured Skills")
 lines.append("")
 lines.append("Mirrors the live ASE homepage featured shelf: recent-popular, diversified across tools and categories, rather than a frozen all-time-stars list. See [TOP-STARS.md](TOP-STARS.md) and [TOP-DOWNLOADS.md](TOP-DOWNLOADS.md) for raw rankings.")
