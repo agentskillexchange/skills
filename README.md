@@ -83,18 +83,18 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 ## Recently Published Skills
 
-| Skill | Category | Framework | Verification |
-|-------|----------|-----------|--------------|
-| [Add Postgres-native vector retrieval to agent and RAG workflows with pgvector](skills/add-postgres-native-vector-retrieval-to-agent-and-rag-workflows-with-pgvector/) | Data Extraction & Transformation | Multi-Framework | Security Reviewed |
-| [Give MCP clients local Markdown project memory with Basic Memory](skills/give-mcp-clients-local-markdown-project-memory-with-basic-memory/) | Developer Tools | MCP | Security Reviewed |
-| [Coordinate software delivery roles with MetaGPT](skills/coordinate-software-delivery-roles-with-metagpt/) | Templates & Workflows | Custom Agents | Security Reviewed |
-| [Evaluate and trace agent workflows with RagaAI Catalyst](skills/evaluate-and-trace-agent-workflows-with-ragaai-catalyst/) | Monitoring & Alerts | Multi-Framework | Security Reviewed |
-| [Generate and evaluate retrieval embeddings with FlagEmbedding](skills/generate-and-evaluate-retrieval-embeddings-with-flagembedding/) | Data Extraction & Transformation | Multi-Framework | Security Reviewed |
-| [Build bounded single-binary agent workflows with Yao](skills/build-bounded-single-binary-agent-workflows-with-yao/) | Templates & Workflows | Custom Agents | Security Reviewed |
-| [Run scheduled research automations with self-hosted Khoj](skills/run-scheduled-research-automations-with-self-hosted-khoj/) | Calendar, Email & Productivity | Multi-Framework | Security Reviewed |
-| [Chat with private document collections through Kotaemon](skills/chat-with-private-document-collections-through-kotaemon/) | Data Extraction & Transformation | Multi-Framework | Security Reviewed |
-| [Optimize agent development loops with Coze Loop](skills/optimize-agent-development-loops-with-coze-loop/) | Monitoring & Alerts | Multi-Framework | Security Reviewed |
-| [Operate support chatbots and voice assistants with Rasa](skills/operate-support-chatbots-and-voice-assistants-with-rasa/) | Integrations & Connectors | Custom Agents | Security Reviewed |
+| Skill | What it helps with | Stars | Category |
+|---|---|---:|---|
+| [Add Postgres-native vector retrieval to agent and RAG workflows with pgvector](skills/add-postgres-native-vector-retrieval-to-agent-and-rag-workflows-with-pgvector/) | Store embeddings beside application data in Postgres, create vector indexes, and query nearest neighbors for semantic search, RAG... | 21.7k | Data Extraction & Transformation |
+| [Give MCP clients local Markdown project memory with Basic Memory](skills/give-mcp-clients-local-markdown-project-memory-with-basic-memory/) | Connect Claude, Codex, Cursor, ChatGPT, or any MCP-capable client to a local-first Markdown knowledge graph so agents can... | 3.2k | Developer Tools |
+| [Coordinate software delivery roles with MetaGPT](skills/coordinate-software-delivery-roles-with-metagpt/) | Use MetaGPT to turn a product requirement into coordinated product, architecture, project, and engineering agent outputs that an... | 68.7k | Templates & Workflows |
+| [Evaluate and trace agent workflows with RagaAI Catalyst](skills/evaluate-and-trace-agent-workflows-with-ragaai-catalyst/) | Use RagaAI Catalyst to instrument agent runs, collect traces, manage evaluation datasets, inspect execution graphs, and review regressions... | 16.2k | Monitoring & Alerts |
+| [Generate and evaluate retrieval embeddings with FlagEmbedding](skills/generate-and-evaluate-retrieval-embeddings-with-flagembedding/) | Use FlagEmbedding to choose BGE embedding or reranking models, encode documents and queries, evaluate retrieval quality, and feed... | 11.8k | Data Extraction & Transformation |
+| [Build bounded single-binary agent workflows with Yao](skills/build-bounded-single-binary-agent-workflows-with-yao/) | Use Yao when an operator needs to package an AI agent workflow, hooks, MCP tools, memory scopes, and... | 7.5k | Templates & Workflows |
+| [Run scheduled research automations with self-hosted Khoj](skills/run-scheduled-research-automations-with-self-hosted-khoj/) | Use Khoj to connect private knowledge and web sources, create a custom agent, and schedule recurring research or... | 35.0k | Calendar, Email & Productivity |
+| [Chat with private document collections through Kotaemon](skills/chat-with-private-document-collections-through-kotaemon/) | Run a self-hosted Kotaemon document QA workflow so agents can index private files, ask grounded questions, and return... | 25.4k | Data Extraction & Transformation |
+| [Optimize agent development loops with Coze Loop](skills/optimize-agent-development-loops-with-coze-loop/) | Use Coze Loop to evaluate, debug, and improve agent prompts and workflows across development iterations | 5.5k | Monitoring & Alerts |
+| [Operate support chatbots and voice assistants with Rasa](skills/operate-support-chatbots-and-voice-assistants-with-rasa/) | Use Rasa to design, test, and operate custom conversational assistants for support, service, and voice workflows | 21.2k | Integrations & Connectors |
 
 ---
 
@@ -102,20 +102,18 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 Mirrors the live ASE homepage featured shelf: recent-popular, diversified across tools and categories, rather than a frozen all-time-stars list. See [TOP-STARS.md](TOP-STARS.md) and [TOP-DOWNLOADS.md](TOP-DOWNLOADS.md) for raw rankings.
 
-| Skill | Tool | ⭐ Stars | Category |
-|-------|------|--------:|----------|
-| [Run durable agent tasks and event-driven workflows with Hatchet](skills/run-durable-agent-tasks-and-event-driven-workflows-with-hatchet/) | run-durable-agent-tasks-and-event-driven-workflows-with-hatchet | 7.2k | Templates & Workflows |
-| [Build managed document parsing pipelines with LlamaCloud Services](skills/build-managed-document-parsing-pipelines-with-llamacloud-services/) | build-managed-document-parsing-pipelines-with-llamacloud-services | 4.2k | Data Extraction & Transformation |
-| [Render interactive MCP tool UIs with mcp-ui](skills/render-interactive-mcp-tool-uis-with-mcp-ui/) | render-interactive-mcp-tool-uis-with-mcp-ui | 4.9k | Integrations & Connectors |
-| [Use A2A for agent-to-agent interoperability workflows](skills/use-a2a-for-agent-to-agent-interoperability-workflows/) | use-a2a-for-agent-to-agent-interoperability-workflows | 24.1k | Integrations & Connectors |
-| [Extract OCR-ready Markdown from documents with Zerox](skills/extract-ocr-ready-markdown-from-documents-with-zerox/) | extract-ocr-ready-markdown-from-documents-with-zerox | 12.2k | Data Extraction & Transformation |
-| [Use Flowise for visual agent workflow orchestration](skills/use-flowise-for-visual-agent-workflow-orchestration/) | use-flowise-for-visual-agent-workflow-orchestration | 53.3k | Templates & Workflows |
-| [Run terminal-native coding agent workflows with GitHub Copilot CLI](skills/run-terminal-native-coding-agent-workflows-with-github-copilot-cli/) | run-terminal-native-coding-agent-workflows-with-github-copilot-cli | 10.6k | Developer Tools |
-| [Run autonomous deep research workflows with GPT Researcher](skills/run-autonomous-deep-research-workflows-with-gpt-researcher/) | run-autonomous-deep-research-workflows-with-gpt-researcher | 27.4k | Research & Scraping |
-| [Serve local model endpoints for agent tests with OpenLLM](skills/serve-local-model-endpoints-for-agent-tests-with-openllm/) | serve-local-model-endpoints-for-agent-tests-with-openllm | 12.3k | Developer Tools |
-| [Use Prompt Flow for LLM workflow testing and evaluation](skills/use-prompt-flow-for-llm-workflow-testing-and-evaluation/) | use-prompt-flow-for-llm-workflow-testing-and-evaluation | 11.1k | Monitoring & Alerts |
-| [Evaluate and trace agent workflows with RagaAI Catalyst](skills/evaluate-and-trace-agent-workflows-with-ragaai-catalyst/) | evaluate-and-trace-agent-workflows-with-ragaai-catalyst | 16.2k | Monitoring & Alerts |
-| [Gate agent inputs and outputs with Superagent safety checks](skills/gate-agent-inputs-and-outputs-with-superagent-safety-checks/) | gate-agent-inputs-and-outputs-with-superagent-safety-checks | 6.6k | Security & Verification |
+| Skill | What it helps with | Stars | Category |
+|---|---|---:|---|
+| [Run durable agent tasks and event-driven workflows with Hatchet](skills/run-durable-agent-tasks-and-event-driven-workflows-with-hatchet/) | Use Hatchet to queue, retry, pause, resume, observe, and scale long-running agent tasks and background workflows | 7.2k | Templates & Workflows |
+| [Build managed document parsing pipelines with LlamaCloud Services](skills/build-managed-document-parsing-pipelines-with-llamacloud-services/) | Use LlamaCloud Services to parse, index, and manage document knowledge pipelines that feed LlamaIndex retrieval and agent workflows | 4.2k | Data Extraction & Transformation |
+| [Render interactive MCP tool UIs with mcp-ui](skills/render-interactive-mcp-tool-uis-with-mcp-ui/) | Build an MCP Apps resource, attach it to a tool through _meta.ui.resourceUri, and verify the host renders the... | 4.9k | Integrations & Connectors |
+| [Use A2A for agent-to-agent interoperability workflows](skills/use-a2a-for-agent-to-agent-interoperability-workflows/) | Expose agent capabilities and route tasks across independent agent runtimes with the Agent2Agent protocol | 24.1k | Integrations & Connectors |
+| [Extract OCR-ready Markdown from documents with Zerox](skills/extract-ocr-ready-markdown-from-documents-with-zerox/) | Use Zerox to convert PDFs, images, and office documents into Markdown or structured extraction outputs using vision models | 12.2k | Data Extraction & Transformation |
+| [Use Flowise for visual agent workflow orchestration](skills/use-flowise-for-visual-agent-workflow-orchestration/) | Compose, test, and hand off visual AI-agent flows in Flowise when the work needs inspectable orchestration instead of... | 53.3k | Templates & Workflows |
+| [Run terminal-native coding agent workflows with GitHub Copilot CLI](skills/run-terminal-native-coding-agent-workflows-with-github-copilot-cli/) | Use GitHub Copilot CLI to plan, edit, debug, explain, and automate repository work from a terminal with GitHub... | 10.6k | Developer Tools |
+| [Run autonomous deep research workflows with GPT Researcher](skills/run-autonomous-deep-research-workflows-with-gpt-researcher/) | Use GPT Researcher to plan, gather, source, and assemble cited web or local research reports through a repeatable... | 27.4k | Research & Scraping |
+| [Serve local model endpoints for agent tests with OpenLLM](skills/serve-local-model-endpoints-for-agent-tests-with-openllm/) | Launch an OpenAI-compatible OpenLLM server for a chosen open model, point an agent runtime at it, and compare... | 12.3k | Developer Tools |
+| [Use Prompt Flow for LLM workflow testing and evaluation](skills/use-prompt-flow-for-llm-workflow-testing-and-evaluation/) | Build a Prompt Flow graph, run interactive and batch tests, inspect traces and evaluation metrics, and promote only... | 11.1k | Monitoring & Alerts |
 
 ---
 

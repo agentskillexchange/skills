@@ -88,10 +88,10 @@ def fetch_json(url):
 def fmt_num(n):
     n = int(n or 0)
     if n >= 1_000_000:
-        return f"{n/1_000_000:.1f}".rstrip("0").rstrip(".") + "M"
+        return f"{n/1_000_000:.1f}M"
     if n >= 1_000:
-        return f"{n/1_000:.1f}".rstrip("0").rstrip(".") + "k"
-    return str(n) if n else "—"
+        return f"{n/1_000:.1f}k"
+    return str(n) if n else "-"
 
 def fmt_count(n):
     """Format 1327 as 1,327 for badges."""
@@ -104,8 +104,39 @@ def fmt_badge(n):
 def clean_text(value):
     return html.unescape(str(value or "")).strip()
 
+def clean_table_text(value):
+    return clean_text(value).replace("|", "\\|")
+
 def display_name(item):
     return clean_text(item.get("name") or item.get("title"))
+
+def short_help(item, max_words=18):
+    text_value = clean_text(item.get("description") or item.get("excerpt"))
+    text_value = re.sub(r"\s+", " ", text_value)
+    text_value = re.sub(r"[.\u2026]+$", "", text_value).strip()
+    if not text_value:
+        return "-"
+    words = text_value.split()
+    if len(words) > max_words:
+        text_value = " ".join(words[:max_words]).rstrip(".,;:") + "..."
+    return clean_table_text(text_value)
+
+def has_parent_repo_stars(item):
+    parent_stars = int(item.get("parent_repo_stars") or 0)
+    if parent_stars:
+        return True
+    for key in ("is_monorepo_subdir", "monorepo_subdir", "uses_parent_repo_stars"):
+        if item.get(key) is True:
+            return True
+    return False
+
+def skill_stars(item):
+    if has_parent_repo_stars(item):
+        return "-"
+    stars = item.get("github_stars")
+    if stars is None or stars == "":
+        return "-"
+    return fmt_num(stars)
 
 def first_label(item, *keys, fallback="—"):
     for key in keys:
@@ -168,9 +199,9 @@ def recent_skill_rows(source_items, limit=10):
         rows.append({
             "title": title,
             "slug": slug,
+            "help": short_help(item),
+            "stars": skill_stars(item),
             "category": first_label(item, "categories", "category"),
-            "framework": first_label(item, "frameworks", "framework"),
-            "verification": verification_label(item.get("verification", "listed")),
         })
         if len(rows) >= limit:
             break
@@ -213,8 +244,8 @@ def featured_row(item):
     return {
         "title": display_name(item),
         "slug": item.get("slug") or "",
-        "tool": item.get("tool_match") or (item.get("slug") or "").lower(),
-        "stars": int(item.get("github_stars") or 0),
+        "help": short_help(item),
+        "stars": skill_stars(item),
         "cat": cats_list[0] if cats_list else "Uncategorized",
     }
 
@@ -223,7 +254,7 @@ def featured_row(item):
 # should mirror that instead of reverting to raw all-time GitHub stars.
 featured = []
 if isinstance(homepage_picks, dict) and isinstance(homepage_picks.get("featured"), list):
-    for item in homepage_picks.get("featured", [])[:12]:
+    for item in homepage_picks.get("featured", [])[:10]:
         featured.append(featured_row(item))
 
 # Fallback only: if the homepage API is unavailable, keep a deterministic local
@@ -256,7 +287,7 @@ if not featured:
         if sum(1 for f in featured if f["cat"] == row["cat"]) >= 2:
             continue
         featured.append(row)
-        if len(featured) >= 12:
+        if len(featured) >= 10:
             break
 
 lines = []
@@ -344,10 +375,10 @@ if industry_collections:
     lines.append("")
 lines.append("## Recently Published Skills")
 lines.append("")
-lines.append("| Skill | Category | Framework | Verification |")
-lines.append("|-------|----------|-----------|--------------|")
+lines.append("| Skill | What it helps with | Stars | Category |")
+lines.append("|---|---|---:|---|")
 for item in recent_skills:
-    lines.append(f"| [{item['title']}](skills/{item['slug']}/) | {item['category']} | {item['framework']} | {item['verification']} |")
+    lines.append(f"| [{clean_table_text(item['title'])}](skills/{item['slug']}/) | {item['help']} | {item['stars']} | {clean_table_text(item['category'])} |")
 lines.append("")
 lines.append("---")
 lines.append("")
@@ -355,10 +386,10 @@ lines.append("## Featured Skills")
 lines.append("")
 lines.append("Mirrors the live ASE homepage featured shelf: recent-popular, diversified across tools and categories, rather than a frozen all-time-stars list. See [TOP-STARS.md](TOP-STARS.md) and [TOP-DOWNLOADS.md](TOP-DOWNLOADS.md) for raw rankings.")
 lines.append("")
-lines.append("| Skill | Tool | ⭐ Stars | Category |")
-lines.append("|-------|------|--------:|----------|")
+lines.append("| Skill | What it helps with | Stars | Category |")
+lines.append("|---|---|---:|---|")
 for f in featured:
-    lines.append(f"| [{f['title']}](skills/{f['slug']}/) | {f['tool']} | {fmt_num(f['stars'])} | {f['cat']} |")
+    lines.append(f"| [{clean_table_text(f['title'])}](skills/{f['slug']}/) | {f['help']} | {f['stars']} | {clean_table_text(f['cat'])} |")
 lines.append("")
 lines.append("---")
 lines.append("")
