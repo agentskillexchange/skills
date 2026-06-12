@@ -2119,7 +2119,9 @@
         "use-omniparser-for-vision-based-gui-parsing",
         "give-coding-agents-figma-layout-context-through-mcp",
         "trace-evaluate-simulate-and-guardrail-agent-releases-with-future-agi",
-        "optimize-agent-development-loops-with-coze-loop"
+        "optimize-agent-development-loops-with-coze-loop",
+        "coordinate-multi-agent-claude-code-and-codex-workflows-with-ruflo",
+        "run-multimodal-computer-and-browser-operator-workflows-with-ui-tars-desktop"
       ],
       "who_for": [
         "AI agency founders, forward deployed engineers, automation consultants, client delivery leads, and solutions engineers packaging repeatable AI-enabled services for clients.",
@@ -2284,6 +2286,16 @@
           "why_here": "Gives delivery teams an evaluation and debugging loop for prompts and agent workflows before client handoff.",
           "persona": "AI agency delivery lead / agent QA engineer",
           "install_complexity": "Medium"
+        },
+        "coordinate-multi-agent-claude-code-and-codex-workflows-with-ruflo": {
+          "why_here": "Coordinates Claude Code and Codex agent swarms, memory, hooks, and MCP tools for repeatable client delivery work.",
+          "persona": "AI agency operator / FDE lead",
+          "install_complexity": "Medium"
+        },
+        "run-multimodal-computer-and-browser-operator-workflows-with-ui-tars-desktop": {
+          "why_here": "Adds supervised desktop and browser operator workflows for agencies testing GUI-bound client automations.",
+          "persona": "FDE / browser automation engineer",
+          "install_complexity": "High"
         }
       },
       "recommended_picks": [
