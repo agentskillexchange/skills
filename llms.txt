@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-12
-# Total: 2596 skills
+# Total: 2598 skills
+
+## Query ClickHouse analytics safely from MCP clients
+slug: query-clickhouse-analytics-safely-from-mcp-clients
+category: Data Extraction & Transformation
+framework: MCP
+verification: Security Reviewed
+description: Use ClickHouse's official MCP server when an assistant needs schema-aware, reviewable analytics access to ClickHouse through bounded tools instead of ad hoc database credentials.
+url: https://agentskillexchange.com/skills/query-clickhouse-analytics-safely-from-mcp-clients/
+
+## Monitor cross-platform trends and alert agents with TrendRadar
+slug: monitor-cross-platform-trends-and-alert-agents-with-trendradar
+category: Monitoring & Alerts
+framework: MCP
+verification: Security Reviewed
+description: Use TrendRadar when an operator needs a self-hosted trend monitor that filters multi-platform feeds, summarizes signals with AI, sends alerts, and exposes trend analysis…
+url: https://agentskillexchange.com/skills/monitor-cross-platform-trends-and-alert-agents-with-trendradar/
 
 ## Run multimodal computer and browser operator workflows with UI-TARS Desktop
 slug: run-multimodal-computer-and-browser-operator-workflows-with-ui-tars-desktop

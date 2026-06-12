@@ -74,6 +74,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Prometheus PromQL Alert Builder](../../skills/prometheus-promql-alert-builder/) | 63.6k | — |
 | [Prometheus Rule Evaluator](../../skills/prometheus-rule-evaluator/) | 63.6k | — |
 | [Prometheus Alerting Rules](../../skills/prometheus-alerting-rules/) | 63.5k | — |
+| [Monitor cross-platform trends and alert agents with TrendRadar](../../skills/monitor-cross-platform-trends-and-alert-agents-with-trendradar/) | 59.4k | — |
 | [Sentry Error Intelligence](../../skills/sentry-error-intelligence/) | 43.6k | — |
 | [Sentry Issue Spike Detection Agent](../../skills/sentry-issue-spike-detection-agent/) | 43.5k | — |
 | [PM2 Node.js Production Process Manager with Load Balancing](../../skills/pm2-nodejs-production-process-manager/) | 43k | 3M/wk |

@@ -1,8 +1,32 @@
 {
   "version": "2.0",
-  "total": 2596,
+  "total": 2598,
   "generated": "2026-06-12",
   "skills": [
+    {
+      "slug": "query-clickhouse-analytics-safely-from-mcp-clients",
+      "name": "Query ClickHouse analytics safely from MCP clients",
+      "title": "Query ClickHouse analytics safely from MCP clients",
+      "description": "Use ClickHouse's official MCP server when an assistant needs schema-aware, reviewable analytics access to ClickHouse through bounded tools instead of ad hoc database credentials.",
+      "category": "Data Extraction & Transformation",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 801
+      }
+    },
+    {
+      "slug": "monitor-cross-platform-trends-and-alert-agents-with-trendradar",
+      "name": "Monitor cross-platform trends and alert agents with TrendRadar",
+      "title": "Monitor cross-platform trends and alert agents with TrendRadar",
+      "description": "Use TrendRadar when an operator needs a self-hosted trend monitor that filters multi-platform feeds, summarizes signals with AI, sends alerts, and exposes trend analysis…",
+      "category": "Monitoring & Alerts",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 59359
+      }
+    },
     {
       "slug": "run-multimodal-computer-and-browser-operator-workflows-with-ui-tars-desktop",
       "name": "Run multimodal computer and browser operator workflows with UI-TARS Desktop",
