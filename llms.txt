@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-06-12
+# Generated: 2026-06-13
 # Total: 2598 skills
 
 ## Query ClickHouse analytics safely from MCP clients
