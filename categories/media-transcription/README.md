@@ -115,6 +115,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Capture live transcripts and searchable meeting memory for agents with Minutes](../../skills/capture-live-transcripts-and-searchable-meeting-memory-for-agents-with-minutes/) | 1.1k | 3.2k/wk |
 | [Capture polished terminal screenshots for docs and changelogs with termshot](../../skills/capture-polished-terminal-screenshots-for-docs-and-changelogs-with-termshot/) | 751 | — |
 | [Analyze videos with frame extraction and audio context in Claude Code](../../skills/analyze-videos-with-frame-extraction-and-audio-context-in-claude-code/) | 698 | 802/wk |
+| [Deploy conversational voice agents with Bolna](../../skills/deploy-conversational-voice-agents-with-bolna/) | 666 | — |
 | [Realign drifting subtitles against finished video audio](../../skills/realign-drifting-subtitles-against-finished-video-audio/) | 504 | — |
 | [Archive online videos and metadata to the Internet Archive with Tubeup](../../skills/archive-online-videos-and-metadata-to-the-internet-archive-with-tubeup/) | 487 | — |
 | [Deepgram Real-Time Transcription Connector](../../skills/deepgram-realtime-transcription-connector/) | 260 | 1.6M/wk |

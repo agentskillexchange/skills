@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-13
-# Total: 2598 skills
+# Total: 2600 skills
+
+## Deploy conversational voice agents with Bolna
+slug: deploy-conversational-voice-agents-with-bolna
+category: Media & Transcription
+framework: Multi-Framework
+verification: Security Reviewed
+description: Build and run voice-first conversational agents by configuring telephony, ASR, LLM, and TTS providers behind a deployable orchestration service.
+url: https://agentskillexchange.com/skills/deploy-conversational-voice-agents-with-bolna/
+
+## Serve production agentic RAG through R2R
+slug: serve-production-agentic-rag-through-r2r
+category: Research & Scraping
+framework: Multi-Framework
+verification: Published
+description: Ingest documents, expose hybrid retrieval and agentic RAG APIs, and give agents a production retrieval service with citations and reviewable document operations.
+url: https://agentskillexchange.com/skills/serve-production-agentic-rag-through-r2r/
 
 ## Query ClickHouse analytics safely from MCP clients
 slug: query-clickhouse-analytics-safely-from-mcp-clients

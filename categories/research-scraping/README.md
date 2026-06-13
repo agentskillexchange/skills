@@ -88,6 +88,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Run configurable multi-source deep research passes with Open Deep Research](../../skills/run-configurable-multi-source-deep-research-passes-with-open-deep-research/) | 11.1k | — |
 | [linkding Self-Hosted Bookmark Manager with REST API](../../skills/linkding-self-hosted-bookmark-manager-rest-api/) | 10.4k | — |
 | [Search PDFs, Office files, ebooks, and archives with one query before manual review](../../skills/search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review/) | 9.6k | — |
+| [Serve production agentic RAG through R2R](../../skills/serve-production-agentic-rag-through-r2r/) | 7.9k | 3.5k/wk |
 | [Run local deep research workflows with Local Deep Research](../../skills/run-local-deep-research-workflows-with-local-deep-research/) | 7.9k | — |
 | [Simulate buyer and user personas to pressure-test ideas and messaging with TinyTroupe](../../skills/simulate-buyer-and-user-personas-to-pressure-test-ideas-and-messaging-with-tinytroupe/) | 7.4k | — |
 | [Extract schema-shaped JSON from JavaScript-rendered pages with llm-scraper](../../skills/extract-schema-shaped-json-from-javascript-rendered-pages-with-llm-scraper/) | 6.3k | 3.8k/wk |

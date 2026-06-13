@@ -2,8 +2,26 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-13",
-  "total": 2598,
+  "total": 2600,
   "skills": [
+    {
+      "slug": "deploy-conversational-voice-agents-with-bolna",
+      "name": "Deploy conversational voice agents with Bolna",
+      "title": "Deploy conversational voice agents with Bolna",
+      "description": "Build and run voice-first conversational agents by configuring telephony, ASR, LLM, and TTS providers behind a deployable orchestration service.",
+      "category": "Media & Transcription",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "serve-production-agentic-rag-through-r2r",
+      "name": "Serve production agentic RAG through R2R",
+      "title": "Serve production agentic RAG through R2R",
+      "description": "Ingest documents, expose hybrid retrieval and agentic RAG APIs, and give agents a production retrieval service with citations and reviewable document operations.",
+      "category": "Research & Scraping",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
     {
       "slug": "query-clickhouse-analytics-safely-from-mcp-clients",
       "name": "Query ClickHouse analytics safely from MCP clients",
