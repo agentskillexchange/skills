@@ -1,8 +1,45 @@
 {
   "version": "2.0",
-  "total": 2600,
+  "total": 2603,
   "generated": "2026-06-13",
   "skills": [
+    {
+      "slug": "read-and-modify-figma-designs-from-coding-agents-with-talk-to-figma-mcp",
+      "name": "Read and modify Figma designs from coding agents with Talk to Figma MCP",
+      "title": "Read and modify Figma designs from coding agents with Talk to Figma MCP",
+      "description": "Bridge Cursor, Claude Code, and other MCP clients into Figma so agents can inspect selections, create nodes, annotate designs, and apply bulk edits.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 6832,
+        "npm_weekly_downloads": 11128
+      }
+    },
+    {
+      "slug": "control-unity-editor-scenes-and-assets-through-mcp-for-unity",
+      "name": "Control Unity Editor scenes and assets through MCP for Unity",
+      "title": "Control Unity Editor scenes and assets through MCP for Unity",
+      "description": "Connect MCP-compatible agents to Unity Editor so they can inspect scenes, manage assets, edit scripts, run tests, and automate game-development tasks.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 10623
+      }
+    },
+    {
+      "slug": "run-workspace-bounded-autonomous-python-agents-with-upsonic",
+      "name": "Run workspace-bounded autonomous Python agents with Upsonic",
+      "title": "Run workspace-bounded autonomous Python agents with Upsonic",
+      "description": "Build and run Python agents that execute tasks against an explicit workspace, with tools, MCP connections, and prebuilt agent packages available when needed.",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 7880
+      }
+    },
     {
       "slug": "deploy-conversational-voice-agents-with-bolna",
       "name": "Deploy conversational voice agents with Bolna",
@@ -31037,7 +31074,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 12938180,
+        "npm_weekly_downloads": 13353622,
         "license": "MIT"
       }
     },
@@ -31051,7 +31088,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 103,
-        "npm_weekly_downloads": 2331654,
+        "npm_weekly_downloads": 1952162,
         "license": "Apache-2.0"
       }
     },
@@ -31091,7 +31128,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 27264,
-        "npm_weekly_downloads": 132482239,
+        "npm_weekly_downloads": 115204395,
         "license": "MIT"
       }
     },
@@ -31118,7 +31155,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 7910949,
+        "npm_weekly_downloads": 7046112,
         "license": "Apache-2.0"
       }
     },
@@ -31132,7 +31169,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 31403926,
+        "npm_weekly_downloads": 31860374,
         "license": "Apache-2.0"
       }
     },
@@ -31146,7 +31183,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3051,
-        "npm_weekly_downloads": 55613,
+        "npm_weekly_downloads": 50383,
         "license": "MIT"
       }
     },
@@ -31160,7 +31197,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1539,
-        "npm_weekly_downloads": 4555799,
+        "npm_weekly_downloads": 4853180,
         "license": "MIT"
       }
     },
@@ -31174,7 +31211,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 12938180,
+        "npm_weekly_downloads": 13353622,
         "license": "MIT"
       }
     },
@@ -31188,7 +31225,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1465,
-        "npm_weekly_downloads": 1092776,
+        "npm_weekly_downloads": 1036082,
         "license": "MIT"
       }
     },
@@ -31202,7 +31239,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 397,
-        "npm_weekly_downloads": 1152869,
+        "npm_weekly_downloads": 1178089,
         "license": "Apache-2.0"
       }
     },
@@ -31216,7 +31253,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 5610,
-        "npm_weekly_downloads": 1451501,
+        "npm_weekly_downloads": 1402279,
         "license": "MIT"
       }
     },
@@ -31255,7 +31292,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 24,
-        "npm_weekly_downloads": 5179,
+        "npm_weekly_downloads": 5204,
         "license": "Apache-2.0"
       }
     },
@@ -31283,7 +31320,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 811,
-        "npm_weekly_downloads": 7430262
+        "npm_weekly_downloads": 7779036
       }
     },
     {
@@ -31296,7 +31333,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 25248,
-        "npm_weekly_downloads": 2098364,
+        "npm_weekly_downloads": 2198362,
         "license": "Apache-2.0"
       }
     },
@@ -31413,7 +31450,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 712,
-        "npm_weekly_downloads": 62143
+        "npm_weekly_downloads": 67556
       }
     },
     {
@@ -31467,7 +31504,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1290,
-        "npm_weekly_downloads": 307,
+        "npm_weekly_downloads": 440,
         "license": "MIT"
       }
     },
@@ -31494,7 +31531,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 393,
-        "npm_weekly_downloads": 5823,
+        "npm_weekly_downloads": 11155,
         "license": "Apache-2.0"
       }
     },
@@ -31529,7 +31566,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 10942,
-        "npm_weekly_downloads": 24753917,
+        "npm_weekly_downloads": 25535875,
         "license": "Apache-2.0"
       }
     },
@@ -31680,7 +31717,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 33289,
-        "npm_weekly_downloads": 5319545,
+        "npm_weekly_downloads": 5106637,
         "license": "Apache-2.0"
       }
     },
@@ -31709,7 +31746,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 89986,
-        "npm_weekly_downloads": 57637599,
+        "npm_weekly_downloads": 60351531,
         "license": "Apache-2.0"
       }
     }

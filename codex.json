@@ -2,8 +2,35 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-13",
-  "total": 2600,
+  "total": 2603,
   "skills": [
+    {
+      "slug": "read-and-modify-figma-designs-from-coding-agents-with-talk-to-figma-mcp",
+      "name": "Read and modify Figma designs from coding agents with Talk to Figma MCP",
+      "title": "Read and modify Figma designs from coding agents with Talk to Figma MCP",
+      "description": "Bridge Cursor, Claude Code, and other MCP clients into Figma so agents can inspect selections, create nodes, annotate designs, and apply bulk edits.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "control-unity-editor-scenes-and-assets-through-mcp-for-unity",
+      "name": "Control Unity Editor scenes and assets through MCP for Unity",
+      "title": "Control Unity Editor scenes and assets through MCP for Unity",
+      "description": "Connect MCP-compatible agents to Unity Editor so they can inspect scenes, manage assets, edit scripts, run tests, and automate game-development tasks.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "run-workspace-bounded-autonomous-python-agents-with-upsonic",
+      "name": "Run workspace-bounded autonomous Python agents with Upsonic",
+      "title": "Run workspace-bounded autonomous Python agents with Upsonic",
+      "description": "Build and run Python agents that execute tasks against an explicit workspace, with tools, MCP connections, and prebuilt agent packages available when needed.",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "deploy-conversational-voice-agents-with-bolna",
       "name": "Deploy conversational voice agents with Bolna",
