@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-14
-# Total: 2607 skills
+# Total: 2608 skills
+
+## Run multi-agent public opinion analysis and report generation with BettaFish
+slug: run-multi-agent-public-opinion-analysis-and-report-generation-with-bettafish
+category: Research & Scraping
+framework: Custom Agents
+verification: Security Reviewed
+description: Collect public discussion, coordinate specialist agents, and generate an evidence-backed public opinion report from one conversational analysis request.
+url: https://agentskillexchange.com/skills/run-multi-agent-public-opinion-analysis-and-report-generation-with-bettafish/
 
 ## Operate a local multi-agent workforce with Eigent
 slug: operate-a-local-multi-agent-workforce-with-eigent

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2607 published skills** across **17 categories** · 2,249 security reviewed · Updated 2026-06-14 13:27 UTC
+> **2608 published skills** across **17 categories** · 2,249 security reviewed · Updated 2026-06-14 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -2114,7 +2114,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Rust Crates.io Explorer](skills/rust-crates-io-explorer/) | Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates… | Published | — | — |
 
 
-### 🔍 Research & Scraping (113 skills)
+### 🔍 Research & Scraping (114 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -2139,6 +2139,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Scrapy Spider Architect](skills/scrapy-spider-architect/) | Generates Scrapy spider classes with CSS/XPath selectors, item pipelines, and middleware configurations for… | Security Reviewed | 61.3k | — |
 | [Scrapy Spider Generator](skills/scrapy-spider-generator/) | Generates production-ready Scrapy spiders with middleware configuration and item pipeline setup. Uses the Scrapy… | Security Reviewed | 61.3k | — |
 | [Scrapy Python Web Crawling and Structured Data Extraction Framework](skills/scrapy-python-web-crawling-structured-data-extraction-framework/) | Scrapy is a high-level Python framework for web crawling and structured data extraction. It is a strong fit for… | Security Reviewed | 61.3k | — |
+| [Run multi-agent public opinion analysis and report generation with BettaFish](skills/run-multi-agent-public-opinion-analysis-and-report-generation-with-bettafish/) | Collect public discussion, coordinate specialist agents, and generate an evidence-backed public opinion report from… | Security Reviewed | 41.4k | — |
 | [Scrapling Adaptive Web Scraping Framework](skills/scrapling-adaptive-web-scraping-framework/) | Scrapling is an adaptive Python web scraping framework that automatically handles website structure changes. Its… | Security Reviewed | 34.1k | — |
 | [changedetection.io Self-Hosted Website Change Monitoring Platform](skills/changedetection-io-website-change-monitor/) | changedetection.io is an open-source, self-hosted tool for monitoring websites for content changes, price drops,… | Security Reviewed | 30.9k | — |
 | [Cheerio DOM Scraping Toolkit](skills/cheerio-dom-scraping-toolkit/) | Parses static HTML using Cheerio's jQuery-like API for fast server-side DOM traversal and data extraction. Generates… | Published | 30.3k | 19.6M/wk |

@@ -2,8 +2,17 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-14",
-  "total": 2607,
+  "total": 2608,
   "skills": [
+    {
+      "slug": "run-multi-agent-public-opinion-analysis-and-report-generation-with-bettafish",
+      "name": "Run multi-agent public opinion analysis and report generation with BettaFish",
+      "title": "Run multi-agent public opinion analysis and report generation with BettaFish",
+      "description": "Collect public discussion, coordinate specialist agents, and generate an evidence-backed public opinion report from one conversational analysis request.",
+      "category": "Research & Scraping",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "operate-a-local-multi-agent-workforce-with-eigent",
       "name": "Operate a local multi-agent workforce with Eigent",

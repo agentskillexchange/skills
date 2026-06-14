@@ -59,6 +59,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Scrapy Spider Architect](../../skills/scrapy-spider-architect/) | 61.3k | — |
 | [Scrapy Spider Generator](../../skills/scrapy-spider-generator/) | 61.3k | — |
 | [Scrapy Python Web Crawling and Structured Data Extraction Framework](../../skills/scrapy-python-web-crawling-structured-data-extraction-framework/) | 61.3k | — |
+| [Run multi-agent public opinion analysis and report generation with BettaFish](../../skills/run-multi-agent-public-opinion-analysis-and-report-generation-with-bettafish/) | 41.4k | — |
 | [Scrapling Adaptive Web Scraping Framework](../../skills/scrapling-adaptive-web-scraping-framework/) | 34.1k | — |
 | [changedetection.io Self-Hosted Website Change Monitoring Platform](../../skills/changedetection-io-website-change-monitor/) | 30.9k | — |
 | [Cheerio DOM Scraping Toolkit](../../skills/cheerio-dom-scraping-toolkit/) | 30.3k | 19.6M/wk |
