@@ -171,6 +171,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Crush Agentic AI Coding CLI by Charmbracelet](../../skills/crush-agentic-ai-coding-cli-charmbracelet/) | 22.2k | — |
 | [NocoBase Extensible AI-Powered No-Code and Low-Code Platform](../../skills/nocobase-extensible-no-code-low-code-platform/) | 22.1k | 746/wk |
 | [MkDocs Project Documentation Generator](../../skills/mkdocs-project-documentation-generator/) | 21.9k | — |
+| [Run DeepSeek-oriented terminal coding workflows with Reasonix](../../skills/run-deepseek-oriented-terminal-coding-workflows-with-reasonix/) | 21.8k | 77.9k/wk |
 | [ChartDB Database Schema Visualization and Diagram Editor](../../skills/chartdb-database-schema-visualization/) | 21.7k | — |
 | [GitUI Blazing Fast Terminal Git Interface](../../skills/gitui-terminal-git-interface/) | 21.7k | — |
 | [mdBook Markdown Book Generator by Rust Project](../../skills/mdbook-markdown-book-generator-rust/) | 21.4k | — |

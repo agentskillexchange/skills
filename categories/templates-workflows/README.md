@@ -112,6 +112,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Vercel Deployment Agent](../../skills/vercel-deployment-agent/) | 15.3k | 2.4M/wk |
 | [Enforce repo hygiene with pre-commit hooks](../../skills/enforce-repo-hygiene-with-pre-commit-hooks/) | 15.2k | — |
 | [Semgrep Custom Rule Runner](../../skills/semgrep-custom-rule-runner-2/) | 14.8k | — |
+| [Operate a local multi-agent workforce with Eigent](../../skills/operate-a-local-multi-agent-workforce-with-eigent/) | 14.3k | — |
 | [Package docs, repos, and PDFs into installable agent skills with Skill Seekers](../../skills/package-docs-repos-and-pdfs-into-installable-agent-skills-with-skill-seekers/) | 12.9k | — |
 | [AWS CDK Scaffolder](../../skills/aws-cdk-scaffolder/) | 12.7k | 3.3M/wk |
 | [DocuSeal Open Source Document Signing and PDF Form Platform](../../skills/docuseal-document-signing-pdf-forms/) | 11.7k | — |

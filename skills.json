@@ -1,8 +1,33 @@
 {
   "version": "2.0",
-  "total": 2605,
+  "total": 2607,
   "generated": "2026-06-14",
   "skills": [
+    {
+      "slug": "operate-a-local-multi-agent-workforce-with-eigent",
+      "name": "Operate a local multi-agent workforce with Eigent",
+      "title": "Operate a local multi-agent workforce with Eigent",
+      "description": "Use Eigent when an operator needs a local desktop agent workforce that can coordinate developer, browser, document, multimodal, model-provider, and MCP-backed work in one…",
+      "category": "Templates & Workflows",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 14273
+      }
+    },
+    {
+      "slug": "run-deepseek-oriented-terminal-coding-workflows-with-reasonix",
+      "name": "Run DeepSeek-oriented terminal coding workflows with Reasonix",
+      "title": "Run DeepSeek-oriented terminal coding workflows with Reasonix",
+      "description": "Use Reasonix when an operator wants a persistent terminal coding agent tuned for DeepSeek-style prefix caching, project memory, MCP-compatible plugins, and reviewable code-edit runs.",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 21828,
+        "npm_weekly_downloads": 77947
+      }
+    },
     {
       "slug": "stress-test-agent-defenses-with-agentdojo",
       "name": "Stress-test agent defenses with AgentDojo",

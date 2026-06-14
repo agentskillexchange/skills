@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-14
-# Total: 2605 skills
+# Total: 2607 skills
+
+## Operate a local multi-agent workforce with Eigent
+slug: operate-a-local-multi-agent-workforce-with-eigent
+category: Templates & Workflows
+framework: Custom Agents
+verification: Security Reviewed
+description: Use Eigent when an operator needs a local desktop agent workforce that can coordinate developer, browser, document, multimodal, model-provider, and MCP-backed work in one…
+url: https://agentskillexchange.com/skills/operate-a-local-multi-agent-workforce-with-eigent/
+
+## Run DeepSeek-oriented terminal coding workflows with Reasonix
+slug: run-deepseek-oriented-terminal-coding-workflows-with-reasonix
+category: Developer Tools
+framework: Custom Agents
+verification: Security Reviewed
+description: Use Reasonix when an operator wants a persistent terminal coding agent tuned for DeepSeek-style prefix caching, project memory, MCP-compatible plugins, and reviewable code-edit runs.
+url: https://agentskillexchange.com/skills/run-deepseek-oriented-terminal-coding-workflows-with-reasonix/
 
 ## Stress-test agent defenses with AgentDojo
 slug: stress-test-agent-defenses-with-agentdojo
