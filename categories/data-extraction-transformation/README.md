@@ -170,6 +170,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Camelot Advanced PDF Table Intelligence](../../skills/camelot-advanced-pdf-table-intelligence/) | 3.7k | — |
 | [Camelot PDF Stream Parser](../../skills/camelot-pdf-stream-parser/) | 3.7k | — |
 | [PDF Table Extraction with Camelot](../../skills/pdf-table-extraction-camelot/) | 3.7k | — |
+| [Build document search layers for AI apps with Morphik](../../skills/build-document-search-layers-for-ai-apps-with-morphik/) | 3.6k | — |
 | [Profile and clean large CSV datasets from the terminal with qsv](../../skills/profile-and-clean-large-csv-datasets-from-the-terminal-with-qsv/) | 3.6k | — |
 | [qsv Blazing-Fast CSV Data Wrangling Toolkit](../../skills/qsv-blazing-fast-csv-data-wrangling-toolkit/) | 3.6k | — |
 | [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | 3.4k | — |

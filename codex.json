@@ -1,9 +1,27 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-06-13",
-  "total": 2603,
+  "generated": "2026-06-14",
+  "total": 2605,
   "skills": [
+    {
+      "slug": "stress-test-agent-defenses-with-agentdojo",
+      "name": "Stress-test agent defenses with AgentDojo",
+      "title": "Stress-test agent defenses with AgentDojo",
+      "description": "Run AgentDojo benchmark environments to evaluate prompt-injection attacks and defenses against LLM agents before trusting them with real tools or data.",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "build-document-search-layers-for-ai-apps-with-morphik",
+      "name": "Build document search layers for AI apps with Morphik",
+      "title": "Build document search layers for AI apps with Morphik",
+      "description": "Ingest documents into Morphik, expose retrieval over AI-app knowledge, and tune document search quality before handing context to agents or RAG workflows.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "read-and-modify-figma-designs-from-coding-agents-with-talk-to-figma-mcp",
       "name": "Read and modify Figma designs from coding agents with Talk to Figma MCP",

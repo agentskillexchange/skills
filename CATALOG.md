@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2603 published skills** across **17 categories** · 2,246 security reviewed · Updated 2026-06-13 19:26 UTC
+> **2605 published skills** across **17 categories** · 2,246 security reviewed · Updated 2026-06-14 01:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -355,7 +355,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (232 skills)
+### 🔒 Security & Verification (233 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -533,6 +533,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Detect repository licenses before dependency approval or open-source due diligence](skills/detect-repository-licenses-before-dependency-approval-or-open-source-due-diligence/) | Use Licensee when an agent needs to inspect a repository and determine what license text it actually matches before… | Security Reviewed | 876 | — |
 | [Betterleaks Next-Generation Secrets Scanner](skills/betterleaks-secrets-scanner/) | A fast, configurable secrets scanner built by the creator of Gitleaks and backed by Aikido Security. Betterleaks… | Security Reviewed | 712 | — |
 | [Verify Packages Are Reproducibly Rebuildable Before Trusting Artifacts With Oss Rebuild](skills/verify-packages-are-reproducibly-rebuildable-before-trusting-artifacts-with-oss-rebuild/) | Query OSS Rebuild attestations and rebuild metadata so an agent can verify whether a published package artifact… | Security Reviewed | 687 | — |
+| [Stress-test agent defenses with AgentDojo](skills/stress-test-agent-defenses-with-agentdojo/) | Run AgentDojo benchmark environments to evaluate prompt-injection attacks and defenses against LLM agents before… | Security Reviewed | 619 | — |
 | [Generate SLSA build provenance in GitHub Actions](skills/generate-slsa-build-provenance-in-github-actions/) | Attach signed SLSA provenance to GitHub Actions builds so release artifacts ship with verifiable supply-chain metadata. | Security Reviewed | 566 | — |
 | [Run agents in disposable microVM sandboxes with network allowlists and secret injection using Matchlock](skills/run-agents-in-disposable-microvm-sandboxes-with-network-allowlists-and-secret-injection-using-matchlock/) | Launch risky agent work inside disposable microVMs when you need stronger isolation, sealed egress, and host-side… | Security Reviewed | 552 | — |
 | [SBOM Generator with CycloneDX](skills/sbom-generator-cyclonedx/) | Generates Software Bill of Materials in CycloneDX 1.5 format using cdxgen and syft. Enriches component data with… | Security Reviewed | 489 | — |
@@ -595,7 +596,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (192 skills)
+### 🔄 Data Extraction & Transformation (193 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -731,6 +732,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Camelot Advanced PDF Table Intelligence](skills/camelot-advanced-pdf-table-intelligence/) | Intelligent PDF table detection and extraction using Camelot-py with OpenCV-based lattice detection and… | Published | 3.7k | — |
 | [Camelot PDF Stream Parser](skills/camelot-pdf-stream-parser/) | Implements Camelot library for advanced PDF table detection using lattice and stream parsing algorithms. Processes… | Published | 3.7k | — |
 | [PDF Table Extraction with Camelot](skills/pdf-table-extraction-camelot/) | Extracts structured tables from PDF documents using Camelot's lattice and stream parsing algorithms. Handles merged… | Published | 3.7k | — |
+| [Build document search layers for AI apps with Morphik](skills/build-document-search-layers-for-ai-apps-with-morphik/) | Ingest documents into Morphik, expose retrieval over AI-app knowledge, and tune document search quality before… | Security Reviewed | 3.6k | — |
 | [Profile and clean large CSV datasets from the terminal with qsv](skills/profile-and-clean-large-csv-datasets-from-the-terminal-with-qsv/) | Inspect, profile, normalize, and diff large CSV files before loading them into downstream analytics or automation… | Security Reviewed | 3.6k | — |
 | [qsv Blazing-Fast CSV Data Wrangling Toolkit](skills/qsv-blazing-fast-csv-data-wrangling-toolkit/) | qsv is a high-performance command-line toolkit for querying, transforming, validating, and analyzing CSV and tabular… | Security Reviewed | 3.6k | — |
 | [Ingestr Cross-Database Data Copier](skills/ingestr-cross-database-data-copier/) | Copy data between any databases with a single CLI command using Ingestr. Supports 50+ sources and destinations… | Published | 3.4k | — |
