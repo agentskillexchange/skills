@@ -1322,7 +1322,9 @@
         "zapier-lead-enrichment-workflow",
         "gmail-api-thread-label-triage",
         "use-docsgpt-for-document-grounded-enterprise-assistants",
-        "operate-support-chatbots-and-voice-assistants-with-rasa"
+        "operate-support-chatbots-and-voice-assistants-with-rasa",
+        "deploy-conversational-voice-agents-with-bolna",
+        "build-voice-and-multimodal-agents-with-pipecat"
       ],
       "discovery_candidates": [
         "https://github.com/nbashaw/claude-cs",
@@ -1498,6 +1500,16 @@
         "operate-support-chatbots-and-voice-assistants-with-rasa": {
           "why_here": "Supports supervised design, testing, and operation of customer-service chatbots and voice assistants without implying autonomous replacement.",
           "persona": "CX automation lead / conversational AI engineer",
+          "install_complexity": "High"
+        },
+        "deploy-conversational-voice-agents-with-bolna": {
+          "why_here": "Adds deployable voice-first conversational agents for supervised support and service workflows.",
+          "persona": "CX automation lead / voice AI engineer",
+          "install_complexity": "High"
+        },
+        "build-voice-and-multimodal-agents-with-pipecat": {
+          "why_here": "Builds realtime voice and multimodal support-assistant pipelines with transports, model providers, and turn-taking tests.",
+          "persona": "Conversational AI engineer / support automation lead",
           "install_complexity": "High"
         }
       },
@@ -1679,7 +1691,8 @@
         "build-graph-rag-context-with-neo4j-llm-graph-builder",
         "run-rag-chatbot-workflows-with-verba",
         "run-autonomous-deep-research-workflows-with-gpt-researcher",
-        "run-scheduled-research-automations-with-self-hosted-khoj"
+        "run-scheduled-research-automations-with-self-hosted-khoj",
+        "chat-with-private-document-collections-through-kotaemon"
       ],
       "who_for": [
         "Researchers, academic labs, research analysts, and science or technical writing teams turning scattered sources into reviewable research artifacts.",
@@ -1853,6 +1866,11 @@
           "why_here": "Schedules recurring source-backed research digests and alerts so teams can monitor the same knowledge sources with reviewable outputs.",
           "persona": "Research analyst / knowledge ops lead",
           "install_complexity": "High"
+        },
+        "chat-with-private-document-collections-through-kotaemon": {
+          "why_here": "Lets research teams index private document collections and ask cited, grounded questions over bounded source sets.",
+          "persona": "Research ops / document QA lead",
+          "install_complexity": "High"
         }
       },
       "recommended_picks": [
@@ -1866,7 +1884,7 @@
     {
       "slug": "gtm-revops-workflows",
       "title": "GTM & RevOps Workflows",
-      "description": "Demand generation, SEO and content operations, lifecycle email, CRM enrichment, lead routing, scheduling, feedback capture, and sales/revenue operations workflows.",
+      "description": "Demand generation, SEO and content operations, lifecycle email, CRM enrichment, lead routing, social listening, trend monitoring, feedback capture, and sales/revenue operations workflows.",
       "launch_stage": "current",
       "who_for": [
         "Demand generation, growth, and marketing operations teams building repeatable acquisition workflows.",
@@ -1877,7 +1895,8 @@
         "Plan SEO, content-gap, keyword, and technical audit workflows.",
         "Design lifecycle email, newsletter, and owned-audience campaign operations.",
         "Enrich CRM contacts, route leads, schedule handoffs, and keep revenue data usable.",
-        "Capture customer feedback and route GTM signals into follow-up workflows."
+        "Capture customer feedback and route GTM signals into follow-up workflows.",
+        "Monitor public discussion, social channels, and market trends before campaign or positioning decisions."
       ],
       "workflow_stacks": [
         {
@@ -1943,7 +1962,10 @@
         "zapier-lead-enrichment-workflow",
         "cal-com-open-source-scheduling-infrastructure-api",
         "n8n-workflow-webhook-bridge",
-        "formbricks-open-source-survey-experience-management"
+        "formbricks-open-source-survey-experience-management",
+        "run-multi-agent-public-opinion-analysis-and-report-generation-with-bettafish",
+        "monitor-cross-platform-trends-and-alert-agents-with-trendradar",
+        "xquik-x-data-api-skill"
       ],
       "skill_meta": {
         "mautic-marketing-automation-platform": {
@@ -2070,6 +2092,21 @@
           "why_here": "Collects website, in-app, link, and email feedback that can inform lifecycle campaigns, qualification, and customer expansion workflows.",
           "persona": "Lifecycle marketer / customer insights operator",
           "install_complexity": "High"
+        },
+        "run-multi-agent-public-opinion-analysis-and-report-generation-with-bettafish": {
+          "why_here": "Turns public discussion into evidence-backed opinion reports for market, campaign, and positioning research.",
+          "persona": "GTM research analyst / market intelligence lead",
+          "install_complexity": "Medium"
+        },
+        "monitor-cross-platform-trends-and-alert-agents-with-trendradar": {
+          "why_here": "Monitors cross-platform trends, summarizes signals, and alerts operators before GTM opportunities or risks are missed.",
+          "persona": "Growth ops / social listening lead",
+          "install_complexity": "Medium"
+        },
+        "xquik-x-data-api-skill": {
+          "why_here": "Adds X search, profile inspection, bulk extraction, and account or keyword monitoring for social listening workflows.",
+          "persona": "GTM analyst / social intelligence operator",
+          "install_complexity": "Medium"
         }
       },
       "editorial_notes": [
@@ -2121,7 +2158,11 @@
         "trace-evaluate-simulate-and-guardrail-agent-releases-with-future-agi",
         "optimize-agent-development-loops-with-coze-loop",
         "coordinate-multi-agent-claude-code-and-codex-workflows-with-ruflo",
-        "run-multimodal-computer-and-browser-operator-workflows-with-ui-tars-desktop"
+        "run-multimodal-computer-and-browser-operator-workflows-with-ui-tars-desktop",
+        "operate-a-local-multi-agent-workforce-with-eigent",
+        "read-and-modify-figma-designs-from-coding-agents-with-talk-to-figma-mcp",
+        "coordinate-software-delivery-roles-with-metagpt",
+        "assemble-production-agent-harnesses-with-deepagents"
       ],
       "who_for": [
         "AI agency founders, forward deployed engineers, automation consultants, client delivery leads, and solutions engineers packaging repeatable AI-enabled services for clients.",
@@ -2296,6 +2337,26 @@
           "why_here": "Adds supervised desktop and browser operator workflows for agencies testing GUI-bound client automations.",
           "persona": "FDE / browser automation engineer",
           "install_complexity": "High"
+        },
+        "operate-a-local-multi-agent-workforce-with-eigent": {
+          "why_here": "Coordinates local desktop agent work across browser, document, coding, multimodal, model-provider, and MCP-backed client delivery tasks.",
+          "persona": "AI agency operator / FDE lead",
+          "install_complexity": "High"
+        },
+        "read-and-modify-figma-designs-from-coding-agents-with-talk-to-figma-mcp": {
+          "why_here": "Lets coding agents inspect, annotate, and update Figma designs during design-to-code and client implementation work.",
+          "persona": "FDE / design-to-code engineer",
+          "install_complexity": "Medium"
+        },
+        "coordinate-software-delivery-roles-with-metagpt": {
+          "why_here": "Turns product requirements into coordinated product, architecture, project, and engineering outputs for reviewable delivery planning.",
+          "persona": "AI agency delivery lead / FDE project owner",
+          "install_complexity": "Medium"
+        },
+        "assemble-production-agent-harnesses-with-deepagents": {
+          "why_here": "Gives delivery teams a production-oriented harness for long-running task agents before client handoff.",
+          "persona": "Agent implementation lead / FDE",
+          "install_complexity": "Medium"
         }
       },
       "recommended_picks": [
@@ -2550,7 +2611,9 @@
         "grype-container-sbom-vulnerability-scanner",
         "sigstore-cosign-container-signature-checker",
         "put-approval-gates-and-audit-ready-policy-checks-between-agents-and-external-actions-with-dashclaw",
-        "verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit"
+        "verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit",
+        "stress-test-agent-defenses-with-agentdojo",
+        "run-agent-generated-code-in-local-microvm-sandboxes-with-microsandbox"
       ],
       "who_for": [
         "Security engineers, SOC teams, compliance operators, DevSecOps leads, and AI governance owners.",
@@ -2724,6 +2787,16 @@
           "why_here": "Checks policy coverage and risky-action guardrails before production agent rollout.",
           "persona": "AI governance lead",
           "install_complexity": "Medium"
+        },
+        "stress-test-agent-defenses-with-agentdojo": {
+          "why_here": "Benchmarks prompt-injection attacks and defenses before agents are trusted with real tools or data.",
+          "persona": "AI security engineer / red-team operator",
+          "install_complexity": "Medium"
+        },
+        "run-agent-generated-code-in-local-microvm-sandboxes-with-microsandbox": {
+          "why_here": "Runs untrusted agent-generated code and tool calls in local microVM-backed sandboxes for safer review.",
+          "persona": "AppSec engineer / agent platform operator",
+          "install_complexity": "High"
         }
       },
       "recommended_picks": [
@@ -2738,7 +2811,7 @@
       "slug": "data-platform-analytics-engineering",
       "title": "Data Platform & Analytics Engineering",
       "launch_stage": "wave-2",
-      "description": "Data engineering and analytics operations workflows for SQL, dbt, Airflow, warehouses, Postgres, CSV cleanup, schema quality, backups, lineage, dashboards, and query tuning.",
+      "description": "Data engineering and analytics operations workflows for SQL, dbt, Airflow, warehouses, Postgres, CSV cleanup, schema quality, retrieval indexes, data catalogs, dashboards, and query tuning.",
       "editorial_caution": "Keep this centered on data platform and analytics engineering workflows; do not turn it into a generic Data Extraction category page.",
       "skill_slugs": [
         "query-and-inspect-postgres-databases-through-mcp-with-pgedge-postgres-mcp",
@@ -2766,7 +2839,14 @@
         "great-expectations-data-validation-pipeline",
         "inventory-live-database-schemas-and-generate-reviewable-docs-before-risky-sql-changes-with-schemacrawler",
         "build-local-vector-retrieval-indexes-with-faiss",
-        "expose-data-catalog-context-to-ai-workflows-with-datahub"
+        "expose-data-catalog-context-to-ai-workflows-with-datahub",
+        "query-clickhouse-analytics-safely-from-mcp-clients",
+        "serve-production-agentic-rag-through-r2r",
+        "build-document-search-layers-for-ai-apps-with-morphik",
+        "add-postgres-native-vector-retrieval-to-agent-and-rag-workflows-with-pgvector",
+        "generate-and-evaluate-retrieval-embeddings-with-flagembedding",
+        "scale-agent-retrieval-workloads-with-milvus",
+        "build-enterprise-rag-and-agent-workflows-with-bisheng"
       ],
       "who_for": [
         "Data engineers, analytics engineers, data platform teams, BI operators, and database reliability owners.",
@@ -2776,7 +2856,8 @@
         "Operate Airflow and dbt context for pipeline orchestration, lineage, and transformation review.",
         "Lint, format, and validate SQL, dbt, CSV, and schema changes before they break downstream consumers.",
         "Profile local files and query structured exports before loading them into warehouses or dashboards.",
-        "Tune PostgreSQL and Snowflake performance while preserving backup and restore readiness."
+        "Tune PostgreSQL and Snowflake performance while preserving backup and restore readiness.",
+        "Build and evaluate retrieval, vector, and catalog context before agents consume data assets."
       ],
       "workflow_stacks": [
         {
@@ -2819,7 +2900,8 @@
       "editorial_notes": [
         "This collection spans Data Extraction, Code Quality, Runbooks, and dashboarding because data platform work is both engineering and operations.",
         "Several dbt picks are included, but each covers a different job: orchestration, parity, lineage, pre-commit gates, and formatting.",
-        "Listed SchemaCrawler is included because live schema inventory is a distinct database-operations gap not covered by the security-reviewed data picks."
+        "Listed SchemaCrawler is included because live schema inventory is a distinct database-operations gap not covered by the security-reviewed data picks.",
+        "Recent RAG and vector-database picks are included when they serve data-platform ownership: retrieval quality, catalog grounding, and production data access."
       ],
       "adjacent_collections": [
         "finance-filings",
@@ -2956,6 +3038,41 @@
         "expose-data-catalog-context-to-ai-workflows-with-datahub": {
           "why_here": "Grounds agent-assisted data discovery in catalog metadata, ownership, schema, and lineage context.",
           "persona": "Data governance lead / analytics platform engineer",
+          "install_complexity": "High"
+        },
+        "query-clickhouse-analytics-safely-from-mcp-clients": {
+          "why_here": "Gives agents bounded, schema-aware ClickHouse analytics access without handing them ad hoc database credentials.",
+          "persona": "Analytics platform engineer / ClickHouse operator",
+          "install_complexity": "Medium"
+        },
+        "serve-production-agentic-rag-through-r2r": {
+          "why_here": "Provides production hybrid retrieval and agentic RAG APIs with citations and reviewable document operations.",
+          "persona": "Retrieval engineer / data platform lead",
+          "install_complexity": "High"
+        },
+        "build-document-search-layers-for-ai-apps-with-morphik": {
+          "why_here": "Adds document ingestion and search quality tuning before AI apps or agents consume retrieval context.",
+          "persona": "Retrieval engineer / AI data platform builder",
+          "install_complexity": "High"
+        },
+        "add-postgres-native-vector-retrieval-to-agent-and-rag-workflows-with-pgvector": {
+          "why_here": "Stores embeddings beside application data in Postgres for semantic search, RAG, recommendations, and agent memory retrieval.",
+          "persona": "Postgres data platform engineer / retrieval engineer",
+          "install_complexity": "Medium"
+        },
+        "generate-and-evaluate-retrieval-embeddings-with-flagembedding": {
+          "why_here": "Helps teams choose, evaluate, and rerank retrieval embeddings before feeding context into RAG workflows.",
+          "persona": "Retrieval engineer / ML platform engineer",
+          "install_complexity": "Medium"
+        },
+        "scale-agent-retrieval-workloads-with-milvus": {
+          "why_here": "Adds a scalable vector database path for filtered similarity search across RAG and agent retrieval workloads.",
+          "persona": "Vector database operator / data platform engineer",
+          "install_complexity": "High"
+        },
+        "build-enterprise-rag-and-agent-workflows-with-bisheng": {
+          "why_here": "Assembles and evaluates enterprise RAG workflows across internal data, models, and business users.",
+          "persona": "Enterprise AI platform lead / retrieval workflow owner",
           "install_complexity": "High"
         }
       },
