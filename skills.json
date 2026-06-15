@@ -1,8 +1,33 @@
 {
   "version": "2.0",
-  "total": 2608,
+  "total": 2610,
   "generated": "2026-06-15",
   "skills": [
+    {
+      "slug": "add-managed-long-term-memory-to-langgraph-agents-with-langmem",
+      "name": "Add managed long-term memory to LangGraph agents with LangMem",
+      "title": "Add managed long-term memory to LangGraph agents with LangMem",
+      "description": "Give LangGraph agents memory management and search tools so they can store, retrieve, and update durable facts across sessions.",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1502
+      }
+    },
+    {
+      "slug": "embed-an-in-page-gui-agent-with-page-agent",
+      "name": "Embed an in-page GUI agent with Page Agent",
+      "title": "Embed an in-page GUI agent with Page Agent",
+      "description": "Add a JavaScript GUI agent to a web app so users or agents can complete UI tasks through natural-language commands without a headless browser.",
+      "category": "Browser Automation",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "signals": {
+        "github_stars": 18551,
+        "npm_weekly_downloads": 37044
+      }
+    },
     {
       "slug": "run-multi-agent-public-opinion-analysis-and-report-generation-with-bettafish",
       "name": "Run multi-agent public opinion analysis and report generation with BettaFish",

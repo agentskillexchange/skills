@@ -329,6 +329,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Run and lifecycle-manage MCP servers in isolated environments with ToolHive before local MCP sprawl turns brittle](../../skills/run-and-lifecycle-manage-mcp-servers-in-isolated-environments-with-toolhive-before-local-mcp-sprawl-turns-brittle/) | 1.7k | — |
 | [Run queued background coding sessions across GitHub, Slack, Linear, and webhooks with background-agents](../../skills/run-queued-background-coding-sessions-across-github-slack-linear-and-webhooks-with-background-agents/) | 1.6k | — |
 | [Give MCP clients language-server code intelligence](../../skills/give-mcp-clients-language-server-code-intelligence/) | 1.5k | — |
+| [Add managed long-term memory to LangGraph agents with LangMem](../../skills/add-managed-long-term-memory-to-langgraph-agents-with-langmem/) | 1.5k | — |
 | [Redocly CLI OpenAPI Linter and Documentation Generator](../../skills/redocly-cli-openapi-linter-documentation-generator/) | 1.4k | 1.6M/wk |
 | [Search cross-agent Markdown memory and conversation history with memsearch](../../skills/search-cross-agent-markdown-memory-and-conversation-history-with-memsearch/) | 1.3k | — |
 | [Terraform MCP Server for Infrastructure as Code](../../skills/terraform-mcp-server-infrastructure-as-code/) | 1.3k | — |

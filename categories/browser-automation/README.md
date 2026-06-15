@@ -107,6 +107,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Stagehand Browser Automation SDK](../../skills/stagehand-browser-automation-sdk/) | 22.1k | 3.4M/wk |
 | [Stagehand AI Browser Automation Framework](../../skills/stagehand-ai-browser-automation-framework/) | 21.8k | 3.4M/wk |
 | [Skyvern AI Browser Workflow Automation with LLMs and Computer Vision](../../skills/skyvern-ai-browser-workflow-automation/) | 21k | — |
+| [Embed an in-page GUI agent with Page Agent](../../skills/embed-an-in-page-gui-agent-with-page-agent/) | 18.6k | 37k/wk |
 | [Playwright Python Browser Automation Library for Cross-Browser Testing](../../skills/playwright-python-browser-automation-library-cross-browser-testing/) | 14.5k | — |
 | [Run computer-use agents inside cross-OS desktop sandboxes with CUA](../../skills/run-computer-use-agents-inside-cross-os-desktop-sandboxes-with-cua/) | 13.5k | 513/wk |
 | [Run local multi-agent browser tasks with Nanobrowser](../../skills/run-local-multi-agent-browser-tasks-with-nanobrowser/) | 13.1k | — |
