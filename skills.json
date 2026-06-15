@@ -1,8 +1,32 @@
 {
   "version": "2.0",
-  "total": 2610,
+  "total": 2612,
   "generated": "2026-06-15",
   "skills": [
+    {
+      "slug": "evaluate-model-generated-code-execution-with-sandboxfusion",
+      "name": "Evaluate model-generated code execution with SandboxFusion",
+      "title": "Evaluate model-generated code execution with SandboxFusion",
+      "description": "Use SandboxFusion to run and judge LLM-generated code in controlled sandboxes across many languages and benchmark-style evaluation tasks.",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1022
+      }
+    },
+    {
+      "slug": "run-block-based-browser-automation-workflows-with-automa",
+      "name": "Run block-based browser automation workflows with Automa",
+      "title": "Run block-based browser automation workflows with Automa",
+      "description": "Use Automa when an operator needs repeatable browser workflows for form filling, scraping, screenshots, or scheduled web tasks through a browser-extension block builder.",
+      "category": "Browser Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 21409
+      }
+    },
     {
       "slug": "add-managed-long-term-memory-to-langgraph-agents-with-langmem",
       "name": "Add managed long-term memory to LangGraph agents with LangMem",
@@ -31160,7 +31184,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 13573582,
+        "npm_weekly_downloads": 13577845,
         "license": "MIT"
       }
     },
@@ -31174,7 +31198,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 103,
-        "npm_weekly_downloads": 2005682,
+        "npm_weekly_downloads": 2012794,
         "license": "Apache-2.0"
       }
     },
@@ -31214,7 +31238,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 27264,
-        "npm_weekly_downloads": 138007382,
+        "npm_weekly_downloads": 138259133,
         "license": "MIT"
       }
     },
@@ -31241,7 +31265,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 8522107,
+        "npm_weekly_downloads": 8530851,
         "license": "Apache-2.0"
       }
     },
@@ -31255,7 +31279,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 32440807,
+        "npm_weekly_downloads": 32600631,
         "license": "Apache-2.0"
       }
     },
@@ -31269,7 +31293,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3051,
-        "npm_weekly_downloads": 60683,
+        "npm_weekly_downloads": 61018,
         "license": "MIT"
       }
     },
@@ -31283,7 +31307,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1539,
-        "npm_weekly_downloads": 4894307,
+        "npm_weekly_downloads": 4875846,
         "license": "MIT"
       }
     },
@@ -31297,7 +31321,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 13573582,
+        "npm_weekly_downloads": 13577845,
         "license": "MIT"
       }
     },
@@ -31311,7 +31335,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1465,
-        "npm_weekly_downloads": 1047332,
+        "npm_weekly_downloads": 1059279,
         "license": "MIT"
       }
     },
@@ -31325,7 +31349,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 397,
-        "npm_weekly_downloads": 1195603,
+        "npm_weekly_downloads": 1190711,
         "license": "Apache-2.0"
       }
     },
@@ -31339,7 +31363,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 5610,
-        "npm_weekly_downloads": 1436348,
+        "npm_weekly_downloads": 1435110,
         "license": "MIT"
       }
     },
@@ -31378,7 +31402,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 24,
-        "npm_weekly_downloads": 5217,
+        "npm_weekly_downloads": 5322,
         "license": "Apache-2.0"
       }
     },
@@ -31406,7 +31430,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 811,
-        "npm_weekly_downloads": 7867082
+        "npm_weekly_downloads": 7874737
       }
     },
     {
@@ -31419,7 +31443,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 25248,
-        "npm_weekly_downloads": 2242276,
+        "npm_weekly_downloads": 2244849,
         "license": "Apache-2.0"
       }
     },
@@ -31536,7 +31560,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 712,
-        "npm_weekly_downloads": 78539
+        "npm_weekly_downloads": 79144
       }
     },
     {
@@ -31590,7 +31614,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1290,
-        "npm_weekly_downloads": 421,
+        "npm_weekly_downloads": 414,
         "license": "MIT"
       }
     },
@@ -31617,7 +31641,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 393,
-        "npm_weekly_downloads": 9666,
+        "npm_weekly_downloads": 10209,
         "license": "Apache-2.0"
       }
     },
@@ -31652,7 +31676,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 10942,
-        "npm_weekly_downloads": 25921088,
+        "npm_weekly_downloads": 25811014,
         "license": "Apache-2.0"
       }
     },
@@ -31803,7 +31827,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 33289,
-        "npm_weekly_downloads": 6157658,
+        "npm_weekly_downloads": 6272314,
         "license": "Apache-2.0"
       }
     },
@@ -31832,7 +31856,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 89986,
-        "npm_weekly_downloads": 61488160,
+        "npm_weekly_downloads": 61727054,
         "license": "Apache-2.0"
       }
     }

@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-15
-# Total: 2610 skills
+# Total: 2612 skills
+
+## Evaluate model-generated code execution with SandboxFusion
+slug: evaluate-model-generated-code-execution-with-sandboxfusion
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use SandboxFusion to run and judge LLM-generated code in controlled sandboxes across many languages and benchmark-style evaluation tasks.
+url: https://agentskillexchange.com/skills/evaluate-model-generated-code-execution-with-sandboxfusion/
+
+## Run block-based browser automation workflows with Automa
+slug: run-block-based-browser-automation-workflows-with-automa
+category: Browser Automation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Automa when an operator needs repeatable browser workflows for form filling, scraping, screenshots, or scheduled web tasks through a browser-extension block builder.
+url: https://agentskillexchange.com/skills/run-block-based-browser-automation-workflows-with-automa/
 
 ## Add managed long-term memory to LangGraph agents with LangMem
 slug: add-managed-long-term-memory-to-langgraph-agents-with-langmem

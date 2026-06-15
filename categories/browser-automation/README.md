@@ -52,7 +52,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Puppeteer Web Scraping Pipeline](../../skills/puppeteer-web-scraping-pipeline/) | 94.1k | 40.2M/wk |
 | [Puppeteer Stealth Scraper](../../skills/puppeteer-stealth-scraper-agent/) | 94.1k | 36.4M/wk |
 | [Puppeteer Browser Automation Library for Chrome and Firefox](../../skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | 94k | 40.2M/wk |
-| [Agent Browser Operator](../../skills/agent-browser-operator/) | 90k | 61.5M/wk |
+| [Agent Browser Operator](../../skills/agent-browser-operator/) | 90k | 61.7M/wk |
 | [Browser Use Web Agent Automation](../../skills/browser-use-web-agent-automation/) | 87.7k | — |
 | [Browser Use Agentic Browser Control](../../skills/browser-use-agentic-browser-control/) | 87.3k | — |
 | [Playwright Accessibility Audit Runner](../../skills/playwright-accessibility-audit-runner/) | 86.4k | 47.9M/wk |
@@ -94,7 +94,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Selenium Grid Session Router](../../skills/selenium-grid-session-router/) | 34.1k | 1.9M/wk |
 | [Selenium Grid Test Orchestrator](../../skills/selenium-grid-test-orchestrator-2/) | 34.1k | 1.9M/wk |
 | [Selenium WebDriver Browser Automation Framework](../../skills/selenium-webdriver-browser-automation-framework/) | 34.1k | — |
-| [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | 33.3k | 6.2M/wk |
+| [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | 33.3k | 6.3M/wk |
 | [Microsoft Playwright MCP](../../skills/microsoft-playwright-mcp/) | 30.8k | 2.8M/wk |
 | [Playwright MCP Server for Browser Automation](../../skills/playwright-mcp-server-browser-automation/) | 30.1k | 2.4M/wk |
 | [Vercel Agent Browser](../../skills/vercel-agent-browser/) | 29.1k | 601.9k/wk |
@@ -106,6 +106,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Stagehand Browser Automation](../../skills/stagehand-browser-automation/) | 22.1k | 3.4M/wk |
 | [Stagehand Browser Automation SDK](../../skills/stagehand-browser-automation-sdk/) | 22.1k | 3.4M/wk |
 | [Stagehand AI Browser Automation Framework](../../skills/stagehand-ai-browser-automation-framework/) | 21.8k | 3.4M/wk |
+| [Run block-based browser automation workflows with Automa](../../skills/run-block-based-browser-automation-workflows-with-automa/) | 21.4k | — |
 | [Skyvern AI Browser Workflow Automation with LLMs and Computer Vision](../../skills/skyvern-ai-browser-workflow-automation/) | 21k | — |
 | [Embed an in-page GUI agent with Page Agent](../../skills/embed-an-in-page-gui-agent-with-page-agent/) | 18.6k | 37k/wk |
 | [Playwright Python Browser Automation Library for Cross-Browser Testing](../../skills/playwright-python-browser-automation-library-cross-browser-testing/) | 14.5k | — |

@@ -200,6 +200,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Audit Python environments and requirements files for known vulnerabilities with pip-audit](../../skills/audit-python-environments-and-requirements-files-for-known-vulnerabilities-with-pip-audit/) | 1.3k | — |
 | [Sign agent-made Git commits with gitsign](../../skills/sign-agent-made-git-commits-with-gitsign/) | 1.1k | — |
 | [Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit](../../skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit/) | 1.1k | 20.9k/wk |
+| [Evaluate model-generated code execution with SandboxFusion](../../skills/evaluate-model-generated-code-execution-with-sandboxfusion/) | 1k | — |
 | [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | 1k | — |
 | [Screen packages and agent skill repos for malware and supply-chain risk before adoption with SafeDep Vet](../../skills/screen-packages-and-agent-skill-repos-for-malware-and-supply-chain-risk-before-adoption-with-safedep-vet/) | 1k | 90/wk |
 | [Audit Go dependency licenses with go-licenses](../../skills/audit-go-dependency-licenses-with-go-licenses/) | 992 | — |

@@ -2,8 +2,26 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-15",
-  "total": 2610,
+  "total": 2612,
   "skills": [
+    {
+      "slug": "evaluate-model-generated-code-execution-with-sandboxfusion",
+      "name": "Evaluate model-generated code execution with SandboxFusion",
+      "title": "Evaluate model-generated code execution with SandboxFusion",
+      "description": "Use SandboxFusion to run and judge LLM-generated code in controlled sandboxes across many languages and benchmark-style evaluation tasks.",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "run-block-based-browser-automation-workflows-with-automa",
+      "name": "Run block-based browser automation workflows with Automa",
+      "title": "Run block-based browser automation workflows with Automa",
+      "description": "Use Automa when an operator needs repeatable browser workflows for form filling, scraping, screenshots, or scheduled web tasks through a browser-extension block builder.",
+      "category": "Browser Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "add-managed-long-term-memory-to-langgraph-agents-with-langmem",
       "name": "Add managed long-term memory to LangGraph agents with LangMem",
