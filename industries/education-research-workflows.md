@@ -50,6 +50,7 @@ Literature review, citation context, research synthesis, paper drafting, replica
 | [Run RAG chatbot workflows with Verba](../skills/run-rag-chatbot-workflows-with-verba/) | Builds a reviewable RAG chatbot over a bounded source set so grounded answers can be checked before reuse in research workflows. | Research ops / retrieval workflow lead | High | 7.7k |
 | [Run autonomous deep research workflows with GPT Researcher](../skills/run-autonomous-deep-research-workflows-with-gpt-researcher/) | Adds an autonomous research workflow for literature scans, source gathering, and first-pass synthesis packets. | Research assistant / academic analyst | Medium | 27.4k |
 | [Run scheduled research automations with self-hosted Khoj](../skills/run-scheduled-research-automations-with-self-hosted-khoj/) | Schedules recurring source-backed research digests and alerts so teams can monitor the same knowledge sources with reviewable outputs. | Research analyst / knowledge ops lead | High | 35k |
+| [Chat with private document collections through Kotaemon](../skills/chat-with-private-document-collections-through-kotaemon/) | Lets research teams index private document collections and ask cited, grounded questions over bounded source sets. | Research ops / document QA lead | High | 25.4k |
 
 ## Editorial Notes
 

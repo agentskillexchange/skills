@@ -1,6 +1,6 @@
 # 📣 GTM & RevOps Workflows
 
-Demand generation, SEO and content operations, lifecycle email, CRM enrichment, lead routing, scheduling, feedback capture, and sales/revenue operations workflows.
+Demand generation, SEO and content operations, lifecycle email, CRM enrichment, lead routing, social listening, trend monitoring, feedback capture, and sales/revenue operations workflows.
 
 - Live page: https://agentskillexchange.com/industry-skills/#gtm-revops-workflows
 - Homepage access: Curated Collections on https://agentskillexchange.com/
@@ -17,6 +17,7 @@ Demand generation, SEO and content operations, lifecycle email, CRM enrichment, 
 - Design lifecycle email, newsletter, and owned-audience campaign operations.
 - Enrich CRM contacts, route leads, schedule handoffs, and keep revenue data usable.
 - Capture customer feedback and route GTM signals into follow-up workflows.
+- Monitor public discussion, social channels, and market trends before campaign or positioning decisions.
 
 ## Workflow Stacks
 
@@ -54,6 +55,9 @@ Demand generation, SEO and content operations, lifecycle email, CRM enrichment, 
 | [Cal.com Open Source Scheduling Infrastructure and API](../skills/cal-com-open-source-scheduling-infrastructure-api/) | Adds scheduling infrastructure for demos, sales calls, onboarding, customer interviews, and routing follow-up. | Sales ops lead / customer lifecycle operator | High | 40.9k |
 | [n8n Workflow Webhook Bridge](../skills/n8n-workflow-webhook-bridge/) | Connects forms, webhooks, CRMs, enrichment steps, and notifications into repeatable GTM automation flows. | RevOps automation engineer / growth ops builder | High | 182.1k |
 | [Formbricks Open Source Survey and Experience Management Platform](../skills/formbricks-open-source-survey-experience-management/) | Collects website, in-app, link, and email feedback that can inform lifecycle campaigns, qualification, and customer expansion workflows. | Lifecycle marketer / customer insights operator | High | 12.1k |
+| [Run multi-agent public opinion analysis and report generation with BettaFish](../skills/run-multi-agent-public-opinion-analysis-and-report-generation-with-bettafish/) | Turns public discussion into evidence-backed opinion reports for market, campaign, and positioning research. | GTM research analyst / market intelligence lead | Medium | 41.4k |
+| [Monitor cross-platform trends and alert agents with TrendRadar](../skills/monitor-cross-platform-trends-and-alert-agents-with-trendradar/) | Monitors cross-platform trends, summarizes signals, and alerts operators before GTM opportunities or risks are missed. | Growth ops / social listening lead | Medium | 59.4k |
+| [Xquik X Data API Skill](../skills/xquik-x-data-api-skill/) | Adds X search, profile inspection, bulk extraction, and account or keyword monitoring for social listening workflows. | GTM analyst / social intelligence operator | Medium | 111 |
 
 ## Editorial Notes
 

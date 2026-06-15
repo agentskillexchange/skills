@@ -51,6 +51,8 @@ Security operations and governance workflows for dependency risk, secrets, CI ha
 | [Sigstore Cosign Container Signature Checker](../skills/sigstore-cosign-container-signature-checker/) | Verifies container signatures so release gates can prove artifact origin. | Supply-chain security engineer | Medium | 5.8k |
 | [Put approval gates and audit-ready policy checks between agents and external actions with DashClaw](../skills/put-approval-gates-and-audit-ready-policy-checks-between-agents-and-external-actions-with-dashclaw/) | Adds approval gates and policy evidence before agents take external actions. | AI governance operator | Medium | 241 |
 | [Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit](../skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit/) | Checks policy coverage and risky-action guardrails before production agent rollout. | AI governance lead | Medium | 1.1k |
+| [Stress-test agent defenses with AgentDojo](../skills/stress-test-agent-defenses-with-agentdojo/) | Benchmarks prompt-injection attacks and defenses before agents are trusted with real tools or data. | AI security engineer / red-team operator | Medium | 619 |
+| [Run agent-generated code in local microVM sandboxes with Microsandbox](../skills/run-agent-generated-code-in-local-microvm-sandboxes-with-microsandbox/) | Runs untrusted agent-generated code and tool calls in local microVM-backed sandboxes for safer review. | AppSec engineer / agent platform operator | High | 6.5k |
 
 ## Editorial Notes
 

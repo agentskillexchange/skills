@@ -51,6 +51,8 @@ Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, c
 | [Gmail API Thread Label Triage](../skills/gmail-api-thread-label-triage/) | Adds Gmail-native thread labeling and triage for support and success teams that still coordinate from shared inboxes. | Support ops lead / customer success manager | Medium | — |
 | [Use DocsGPT for document-grounded enterprise assistants](../skills/use-docsgpt-for-document-grounded-enterprise-assistants/) | Turns internal documentation into grounded assistant answers for support teams before replies reach customers. | Support ops / knowledge manager | High | 17.9k |
 | [Operate support chatbots and voice assistants with Rasa](../skills/operate-support-chatbots-and-voice-assistants-with-rasa/) | Supports supervised design, testing, and operation of customer-service chatbots and voice assistants without implying autonomous replacement. | CX automation lead / conversational AI engineer | High | 21.2k |
+| [Deploy conversational voice agents with Bolna](../skills/deploy-conversational-voice-agents-with-bolna/) | Adds deployable voice-first conversational agents for supervised support and service workflows. | CX automation lead / voice AI engineer | High | 666 |
+| [Build voice and multimodal agents with Pipecat](../skills/build-voice-and-multimodal-agents-with-pipecat/) | Builds realtime voice and multimodal support-assistant pipelines with transports, model providers, and turn-taking tests. | Conversational AI engineer / support automation lead | High | 12.7k |
 
 ## Editorial Notes
 

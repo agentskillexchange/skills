@@ -1,6 +1,6 @@
 # 🗄️ Data Platform & Analytics Engineering
 
-Data engineering and analytics operations workflows for SQL, dbt, Airflow, warehouses, Postgres, CSV cleanup, schema quality, backups, lineage, dashboards, and query tuning.
+Data engineering and analytics operations workflows for SQL, dbt, Airflow, warehouses, Postgres, CSV cleanup, schema quality, retrieval indexes, data catalogs, dashboards, and query tuning.
 
 - Live page: https://agentskillexchange.com/industry-skills/#data-platform-analytics-engineering
 - Homepage access: Curated Collections on https://agentskillexchange.com/
@@ -16,6 +16,7 @@ Data engineering and analytics operations workflows for SQL, dbt, Airflow, wareh
 - Lint, format, and validate SQL, dbt, CSV, and schema changes before they break downstream consumers.
 - Profile local files and query structured exports before loading them into warehouses or dashboards.
 - Tune PostgreSQL and Snowflake performance while preserving backup and restore readiness.
+- Build and evaluate retrieval, vector, and catalog context before agents consume data assets.
 
 ## Workflow Stacks
 
@@ -54,12 +55,20 @@ Data engineering and analytics operations workflows for SQL, dbt, Airflow, wareh
 | [Inventory live database schemas and generate reviewable docs before risky SQL changes with SchemaCrawler](../skills/inventory-live-database-schemas-and-generate-reviewable-docs-before-risky-sql-changes-with-schemacrawler/) | Inventories live schemas and produces reviewable docs before risky SQL or database changes. | Database platform engineer | Medium | 1.8k |
 | [Build local vector retrieval indexes with Faiss](../skills/build-local-vector-retrieval-indexes-with-faiss/) | Adds a local vector-indexing layer for retrieval and RAG experiments before teams adopt heavier managed vector infrastructure. | Data platform engineer / retrieval engineer | Medium | 40.2k |
 | [Expose data catalog context to AI workflows with DataHub](../skills/expose-data-catalog-context-to-ai-workflows-with-datahub/) | Grounds agent-assisted data discovery in catalog metadata, ownership, schema, and lineage context. | Data governance lead / analytics platform engineer | High | 12.1k |
+| [Query ClickHouse analytics safely from MCP clients](../skills/query-clickhouse-analytics-safely-from-mcp-clients/) | Gives agents bounded, schema-aware ClickHouse analytics access without handing them ad hoc database credentials. | Analytics platform engineer / ClickHouse operator | Medium | 801 |
+| [Serve production agentic RAG through R2R](../skills/serve-production-agentic-rag-through-r2r/) | Provides production hybrid retrieval and agentic RAG APIs with citations and reviewable document operations. | Retrieval engineer / data platform lead | High | 7.9k |
+| [Build document search layers for AI apps with Morphik](../skills/build-document-search-layers-for-ai-apps-with-morphik/) | Adds document ingestion and search quality tuning before AI apps or agents consume retrieval context. | Retrieval engineer / AI data platform builder | High | 3.6k |
+| [Add Postgres-native vector retrieval to agent and RAG workflows with pgvector](../skills/add-postgres-native-vector-retrieval-to-agent-and-rag-workflows-with-pgvector/) | Stores embeddings beside application data in Postgres for semantic search, RAG, recommendations, and agent memory retrieval. | Postgres data platform engineer / retrieval engineer | Medium | 21.7k |
+| [Generate and evaluate retrieval embeddings with FlagEmbedding](../skills/generate-and-evaluate-retrieval-embeddings-with-flagembedding/) | Helps teams choose, evaluate, and rerank retrieval embeddings before feeding context into RAG workflows. | Retrieval engineer / ML platform engineer | Medium | 11.8k |
+| [Scale agent retrieval workloads with Milvus](../skills/scale-agent-retrieval-workloads-with-milvus/) | Adds a scalable vector database path for filtered similarity search across RAG and agent retrieval workloads. | Vector database operator / data platform engineer | High | 44.7k |
+| [Build enterprise RAG and agent workflows with Bisheng](../skills/build-enterprise-rag-and-agent-workflows-with-bisheng/) | Assembles and evaluates enterprise RAG workflows across internal data, models, and business users. | Enterprise AI platform lead / retrieval workflow owner | High | 11.4k |
 
 ## Editorial Notes
 
 - This collection spans Data Extraction, Code Quality, Runbooks, and dashboarding because data platform work is both engineering and operations.
 - Several dbt picks are included, but each covers a different job: orchestration, parity, lineage, pre-commit gates, and formatting.
 - Listed SchemaCrawler is included because live schema inventory is a distinct database-operations gap not covered by the security-reviewed data picks.
+- Recent RAG and vector-database picks are included when they serve data-platform ownership: retrieval quality, catalog grounding, and production data access.
 - Keep this centered on data platform and analytics engineering workflows; do not turn it into a generic Data Extraction category page.
 
 ## Adjacent Collections
