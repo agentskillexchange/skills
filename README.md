@@ -7,7 +7,7 @@
 [![Published](https://img.shields.io/badge/published-2%2C614-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
-[![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C254-10b981?style=for-the-badge)](verification/)
+[![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C255-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
@@ -201,7 +201,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 | Tier | Count | Meaning |
 |------|------:|---|
 | 📋 **Published** | 2,614 | In the catalog — every skill is backed by a real tool, repo, or package |
-| 🛡️ **Security Reviewed** | 2,254 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
+| 🛡️ **Security Reviewed** | 2,255 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
 
