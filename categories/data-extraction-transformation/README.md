@@ -143,6 +143,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Run RAG chatbot workflows with Verba](../../skills/run-rag-chatbot-workflows-with-verba/) | 7.7k | — |
 | [Extract structured text, metadata, tables, and images from mixed documents through an MCP server with Kreuzberg](../../skills/extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg/) | 7.6k | — |
 | [htmlq Command-Line HTML Content Extractor with CSS Selectors](../../skills/htmlq-command-line-html-content-extractor-css-selectors/) | 7.5k | — |
+| [Deploy document-to-JSON extraction APIs and ETL pipelines with Unstract](../../skills/deploy-document-to-json-extraction-apis-and-etl-pipelines-with-unstract/) | 6.7k | — |
 | [Migrate MySQL, SQLite, or CSV data into PostgreSQL with repeatable load files before cutover with pgloader](../../skills/migrate-mysql-sqlite-or-csv-data-into-postgresql-with-repeatable-load-files-before-cutover-with-pgloader/) | 6.4k | — |
 | [Sync cloud and SaaS inventory into SQL tables for audits with CloudQuery](../../skills/sync-cloud-and-saas-inventory-into-sql-tables-for-audits-with-cloudquery/) | 6.4k | — |
 | [csvkit Python CSV Utility Suite](../../skills/csvkit-python-csv-utility-suite/) | 6.4k | — |
@@ -176,6 +177,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | 3.4k | — |
 | [Apache Avro Schema Evolution Agent](../../skills/apache-avro-schema-evolution-agent/) | 3.3k | — |
 | [JSON-to-Avro Schema Transformer](../../skills/json-to-avro-schema-transformer/) | 3.3k | — |
+| [Build OCR and layout-analysis preprocessing pipelines with deepdoctection](../../skills/build-ocr-and-layout-analysis-preprocessing-pipelines-with-deepdoctection/) | 3.2k | — |
 | [Plan and preview warehouse SQL model changes before rollout with SQLMesh](../../skills/plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh/) | 3k | — |
 | [XML XSLT Transform Pipeline](../../skills/xml-xslt-transform-pipeline/) | 3k | — |
 | [Prepare local retrieval embeddings with FastEmbed](../../skills/prepare-local-retrieval-embeddings-with-fastembed/) | 3k | — |

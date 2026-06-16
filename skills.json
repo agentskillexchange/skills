@@ -1,8 +1,32 @@
 {
   "version": "2.0",
-  "total": 2612,
+  "total": 2614,
   "generated": "2026-06-16",
   "skills": [
+    {
+      "slug": "build-ocr-and-layout-analysis-preprocessing-pipelines-with-deepdoctection",
+      "name": "Build OCR and layout-analysis preprocessing pipelines with deepdoctection",
+      "title": "Build OCR and layout-analysis preprocessing pipelines with deepdoctection",
+      "description": "Use deepdoctection when an agent workflow needs a local Python pipeline for document layout analysis, OCR, table recognition, and page-level extraction before LLM ingestion.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 3177
+      }
+    },
+    {
+      "slug": "deploy-document-to-json-extraction-apis-and-etl-pipelines-with-unstract",
+      "name": "Deploy document-to-JSON extraction APIs and ETL pipelines with Unstract",
+      "title": "Deploy document-to-JSON extraction APIs and ETL pipelines with Unstract",
+      "description": "Use Unstract when an operator needs agents or automation pipelines to turn recurring PDFs, scans, and document batches into structured JSON through prompt-defined extraction…",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 6661
+      }
+    },
     {
       "slug": "evaluate-model-generated-code-execution-with-sandboxfusion",
       "name": "Evaluate model-generated code execution with SandboxFusion",

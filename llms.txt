@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-16
-# Total: 2612 skills
+# Total: 2614 skills
+
+## Build OCR and layout-analysis preprocessing pipelines with deepdoctection
+slug: build-ocr-and-layout-analysis-preprocessing-pipelines-with-deepdoctection
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use deepdoctection when an agent workflow needs a local Python pipeline for document layout analysis, OCR, table recognition, and page-level extraction before LLM ingestion.
+url: https://agentskillexchange.com/skills/build-ocr-and-layout-analysis-preprocessing-pipelines-with-deepdoctection/
+
+## Deploy document-to-JSON extraction APIs and ETL pipelines with Unstract
+slug: deploy-document-to-json-extraction-apis-and-etl-pipelines-with-unstract
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Unstract when an operator needs agents or automation pipelines to turn recurring PDFs, scans, and document batches into structured JSON through prompt-defined extraction…
+url: https://agentskillexchange.com/skills/deploy-document-to-json-extraction-apis-and-etl-pipelines-with-unstract/
 
 ## Evaluate model-generated code execution with SandboxFusion
 slug: evaluate-model-generated-code-execution-with-sandboxfusion

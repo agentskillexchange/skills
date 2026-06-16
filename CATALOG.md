@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2612 published skills** across **17 categories** · 2,254 security reviewed · Updated 2026-06-16 01:26 UTC
+> **2614 published skills** across **17 categories** · 2,254 security reviewed · Updated 2026-06-16 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -599,7 +599,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (193 skills)
+### 🔄 Data Extraction & Transformation (195 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -708,6 +708,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Run RAG chatbot workflows with Verba](skills/run-rag-chatbot-workflows-with-verba/) | Ingest a bounded document set into Verba, configure retrieval and model providers, then review grounded chatbot… | Security Reviewed | 7.7k | — |
 | [Extract structured text, metadata, tables, and images from mixed documents through an MCP server with Kreuzberg](skills/extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg/) | Expose one document-extraction surface to MCP-compatible agents so they can normalize PDFs, Office files, images,… | Security Reviewed | 7.6k | — |
 | [htmlq Command-Line HTML Content Extractor with CSS Selectors](skills/htmlq-command-line-html-content-extractor-css-selectors/) | htmlq is a command-line tool for extracting content from HTML using CSS selectors, functioning as the HTML… | Security Reviewed | 7.5k | — |
+| [Deploy document-to-JSON extraction APIs and ETL pipelines with Unstract](skills/deploy-document-to-json-extraction-apis-and-etl-pipelines-with-unstract/) | Use Unstract when an operator needs agents or automation pipelines to turn recurring PDFs, scans, and document… | Security Reviewed | 6.7k | — |
 | [Migrate MySQL, SQLite, or CSV data into PostgreSQL with repeatable load files before cutover with pgloader](skills/migrate-mysql-sqlite-or-csv-data-into-postgresql-with-repeatable-load-files-before-cutover-with-pgloader/) | Move data into PostgreSQL with declarative load files, built-in type conversion, and repeatable migration runs… | Security Reviewed | 6.4k | — |
 | [Sync cloud and SaaS inventory into SQL tables for audits with CloudQuery](skills/sync-cloud-and-saas-inventory-into-sql-tables-for-audits-with-cloudquery/) | Extract cloud and SaaS configuration data into queryable tables so agents can run audits, drift checks, and evidence… | Security Reviewed | 6.4k | — |
 | [csvkit Python CSV Utility Suite](skills/csvkit-python-csv-utility-suite/) | csvkit is a suite of Python command-line utilities for converting to, working with, and analyzing CSV files. It… | Security Reviewed | 6.4k | — |
@@ -741,6 +742,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Ingestr Cross-Database Data Copier](skills/ingestr-cross-database-data-copier/) | Copy data between any databases with a single CLI command using Ingestr. Supports 50+ sources and destinations… | Published | 3.4k | — |
 | [Apache Avro Schema Evolution Agent](skills/apache-avro-schema-evolution-agent/) | Manages Apache Avro schema evolution with compatibility checking via Confluent Schema Registry API. Validates… | Security Reviewed | 3.3k | — |
 | [JSON-to-Avro Schema Transformer](skills/json-to-avro-schema-transformer/) | Transforms JSON Schema definitions into Apache Avro schema format using the jsonschema and fastavro Python… | Security Reviewed | 3.3k | — |
+| [Build OCR and layout-analysis preprocessing pipelines with deepdoctection](skills/build-ocr-and-layout-analysis-preprocessing-pipelines-with-deepdoctection/) | Use deepdoctection when an agent workflow needs a local Python pipeline for document layout analysis, OCR, table… | Security Reviewed | 3.2k | — |
 | [Plan and preview warehouse SQL model changes before rollout with SQLMesh](skills/plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh/) | Compare SQL model changes, preview backfills and downstream impact, and stage safer warehouse rollouts before execution. | Security Reviewed | 3k | — |
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | 3k | — |
 | [Prepare local retrieval embeddings with FastEmbed](skills/prepare-local-retrieval-embeddings-with-fastembed/) | Generate dense, sparse, image, and reranking embeddings locally before writing vectors into Qdrant or another… | Security Reviewed | 3k | — |
