@@ -73,10 +73,12 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Caddy Automatic HTTPS Web Server and Reverse Proxy](../../skills/caddy-automatic-https-web-server-reverse-proxy/) | 71.2k | — |
 | [Webpack Bundle Analyzer Agent](../../skills/webpack-bundle-analyzer-agent/) | 65.8k | 44.5M/wk |
 | [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | 64.3k | 16.5k/wk |
+| [Run local Pi coding-agent workflows with sandbox and session-sharing guardrails](../../skills/run-local-pi-coding-agent-workflows-with-sandbox-and-session-sharing-guardrails/) | 63.1k | 5.7M/wk |
 | [Open Interpreter Natural Language Computer Interface](../../skills/open-interpreter-natural-language-computer-interface/) | 62.9k | — |
 | [Traefik Cloud-Native Application Proxy and Reverse Proxy](../../skills/traefik-cloud-native-reverse-proxy/) | 62.5k | — |
 | [ripgrep Recursive Regex Search Tool](../../skills/ripgrep-recursive-regex-search-tool/) | 61.7k | — |
 | [Run supervised IDE coding-agent workflows with Cline](../../skills/run-supervised-ide-coding-agent-workflows-with-cline/) | 61.5k | 90.4k/wk |
+| [Build navigable codebase knowledge graphs with Understand Anything](../../skills/build-navigable-codebase-knowledge-graphs-with-understand-anything/) | 61.1k | — |
 | [Nuxt — Vue.js Meta-Framework for SSR and Static Sites](../../skills/nuxt-vue-meta-framework-ssr/) | 60k | 1.6M/wk |
 | [Run multi-harness coding-agent workflows with Oh My OpenAgent](../../skills/run-multi-harness-coding-agent-workflows-with-oh-my-openagent/) | 58.9k | 56.8k/wk |
 | [Run supervised agentic terminal sessions with Warp](../../skills/run-supervised-agentic-terminal-sessions-with-warp/) | 58.5k | — |

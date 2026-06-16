@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-16
-# Total: 2614 skills
+# Total: 2616 skills
+
+## Build navigable codebase knowledge graphs with Understand Anything
+slug: build-navigable-codebase-knowledge-graphs-with-understand-anything
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Turn a repository or wiki into an interactive knowledge graph that agents and humans can search, explore, and query before implementation work.
+url: https://agentskillexchange.com/skills/build-navigable-codebase-knowledge-graphs-with-understand-anything/
+
+## Run local Pi coding-agent workflows with sandbox and session-sharing guardrails
+slug: run-local-pi-coding-agent-workflows-with-sandbox-and-session-sharing-guardrails
+category: Developer Tools
+framework: Custom Agents
+verification: Published
+description: Use Pi when an operator needs a local coding-agent CLI with explicit sandboxing, provider setup, and reviewable session artifacts.
+url: https://agentskillexchange.com/skills/run-local-pi-coding-agent-workflows-with-sandbox-and-session-sharing-guardrails/
 
 ## Build OCR and layout-analysis preprocessing pipelines with deepdoctection
 slug: build-ocr-and-layout-analysis-preprocessing-pipelines-with-deepdoctection

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2614 published skills** across **17 categories** · 2,255 security reviewed · Updated 2026-06-16 07:26 UTC
+> **2616 published skills** across **17 categories** · 2,255 security reviewed · Updated 2026-06-16 13:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (341 skills)
+### 🛠️ Developer Tools (343 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -47,10 +47,12 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Caddy Automatic HTTPS Web Server and Reverse Proxy](skills/caddy-automatic-https-web-server-reverse-proxy/) | Caddy is a fast, extensible web server written in Go that provides automatic HTTPS via Let's Encrypt and ZeroSSL. It… | Security Reviewed | 71.2k | — |
 | [Webpack Bundle Analyzer Agent](skills/webpack-bundle-analyzer-agent/) | Analyzes webpack bundle composition using webpack-bundle-analyzer and source-map-explorer APIs. Identifies duplicate… | Security Reviewed | 65.8k | 44.5M/wk |
 | [Docusaurus React Documentation Framework by Meta](skills/docusaurus-react-documentation-framework-meta/) | Docusaurus is an open-source static site generator built with React, developed and maintained by Meta. It enables… | Security Reviewed | 64.3k | 16.5k/wk |
+| [Run local Pi coding-agent workflows with sandbox and session-sharing guardrails](skills/run-local-pi-coding-agent-workflows-with-sandbox-and-session-sharing-guardrails/) | Use Pi when an operator needs a local coding-agent CLI with explicit sandboxing, provider setup, and reviewable… | Published | 63.1k | 5.7M/wk |
 | [Open Interpreter Natural Language Computer Interface](skills/open-interpreter-natural-language-computer-interface/) | Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more) through a ChatGPT-like terminal… | Security Reviewed | 62.9k | — |
 | [Traefik Cloud-Native Application Proxy and Reverse Proxy](skills/traefik-cloud-native-reverse-proxy/) | Traefik is a modern cloud-native reverse proxy and load balancer that automatically discovers services and… | Security Reviewed | 62.5k | — |
 | [ripgrep Recursive Regex Search Tool](skills/ripgrep-recursive-regex-search-tool/) | ripgrep (rg) is a line-oriented search tool that recursively searches directories for regex patterns while… | Security Reviewed | 61.7k | — |
 | [Run supervised IDE coding-agent workflows with Cline](skills/run-supervised-ide-coding-agent-workflows-with-cline/) | Use Cline inside the IDE to let an agent inspect a repository, edit files, run terminal commands, use browser… | Security Reviewed | 61.5k | 90.4k/wk |
+| [Build navigable codebase knowledge graphs with Understand Anything](skills/build-navigable-codebase-knowledge-graphs-with-understand-anything/) | Turn a repository or wiki into an interactive knowledge graph that agents and humans can search, explore, and query… | Security Reviewed | 61.1k | — |
 | [Nuxt — Vue.js Meta-Framework for SSR and Static Sites](skills/nuxt-vue-meta-framework-ssr/) | Nuxt is a Vue.js meta-framework providing server-side rendering, static site generation, file-based routing,… | Published | 60k | 1.6M/wk |
 | [Run multi-harness coding-agent workflows with Oh My OpenAgent](skills/run-multi-harness-coding-agent-workflows-with-oh-my-openagent/) | Install and operate Oh My OpenAgent as a reusable coding-agent harness for long-running, multi-model development… | Security Reviewed | 58.9k | 56.8k/wk |
 | [Run supervised agentic terminal sessions with Warp](skills/run-supervised-agentic-terminal-sessions-with-warp/) | Use Warp as a supervised terminal workspace for running Warp Agent or external CLI agents such as Codex, Claude… | Security Reviewed | 58.5k | — |

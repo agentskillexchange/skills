@@ -2,8 +2,26 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-16",
-  "total": 2614,
+  "total": 2616,
   "skills": [
+    {
+      "slug": "build-navigable-codebase-knowledge-graphs-with-understand-anything",
+      "name": "Build navigable codebase knowledge graphs with Understand Anything",
+      "title": "Build navigable codebase knowledge graphs with Understand Anything",
+      "description": "Turn a repository or wiki into an interactive knowledge graph that agents and humans can search, explore, and query before implementation work.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "run-local-pi-coding-agent-workflows-with-sandbox-and-session-sharing-guardrails",
+      "name": "Run local Pi coding-agent workflows with sandbox and session-sharing guardrails",
+      "title": "Run local Pi coding-agent workflows with sandbox and session-sharing guardrails",
+      "description": "Use Pi when an operator needs a local coding-agent CLI with explicit sandboxing, provider setup, and reviewable session artifacts.",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "listed"
+    },
     {
       "slug": "build-ocr-and-layout-analysis-preprocessing-pipelines-with-deepdoctection",
       "name": "Build OCR and layout-analysis preprocessing pipelines with deepdoctection",
