@@ -2,8 +2,35 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-17",
-  "total": 2620,
+  "total": 2623,
   "skills": [
+    {
+      "slug": "investigate-telemetry-incidents-with-monoscope-mcp-and-agent-mode-cli",
+      "name": "Investigate telemetry incidents with Monoscope MCP and agent-mode CLI",
+      "title": "Investigate telemetry incidents with Monoscope MCP and agent-mode CLI",
+      "description": "Connect agents to Monoscope so they can query logs, traces, metrics, monitors, and issues through stable JSON CLI output or MCP tools for incident…",
+      "category": "Monitoring & Alerts",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "translate-technical-pdfs-through-retainpdf-while-preserving-layout",
+      "name": "Translate technical PDFs through RetainPDF while preserving layout",
+      "title": "Translate technical PDFs through RetainPDF while preserving layout",
+      "description": "Route scanned, scientific, and technical PDFs through RetainPDF so an agent can produce translated PDFs while preserving formulas, tables, code blocks, and page layout.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "run-supervised-mcp-browser-automation-with-auto-browser",
+      "name": "Run supervised MCP browser automation with Auto Browser",
+      "title": "Run supervised MCP browser automation with Auto Browser",
+      "description": "Give an MCP-capable agent a local Playwright browser with human takeover, reusable auth profiles, approvals, audit trails, and repeatable browser workflow evidence.",
+      "category": "Browser Automation",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "control-windows-desktop-apps-through-mcp-with-terminator",
       "name": "Control Windows desktop apps through MCP with Terminator",

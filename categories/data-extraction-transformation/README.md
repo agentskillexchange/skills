@@ -192,6 +192,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [sqlite-utils Python CLI for SQLite Database Manipulation](../../skills/sqlite-utils-python-cli-sqlite-manipulation/) | 2k | — |
 | [Tabula PDF Table Extraction Agent](../../skills/tabula-pdf-table-extraction-agent/) | 2k | — |
 | [Tabula PDF Table Extractor](../../skills/tabula-pdf-table-extractor/) | 2k | — |
+| [Translate technical PDFs through RetainPDF while preserving layout](../../skills/translate-technical-pdfs-through-retainpdf-while-preserving-layout/) | 2k | — |
 | [Query and rewrite Markdown structure with mdq](../../skills/query-and-rewrite-markdown-structure-with-mdq/) | 1.7k | — |
 | [Anyquery Universal SQL Engine with MCP Integration](../../skills/anyquery-universal-sql-engine-mcp-integration/) | 1.7k | — |
 | [Repair, split, merge, and normalize PDFs with qpdf before downstream processing](../../skills/repair-split-merge-and-normalize-pdfs-with-qpdf-before-downstream-processing/) | 1.5k | — |

@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-17
-# Total: 2620 skills
+# Total: 2623 skills
+
+## Investigate telemetry incidents with Monoscope MCP and agent-mode CLI
+slug: investigate-telemetry-incidents-with-monoscope-mcp-and-agent-mode-cli
+category: Monitoring & Alerts
+framework: MCP
+verification: Security Reviewed
+description: Connect agents to Monoscope so they can query logs, traces, metrics, monitors, and issues through stable JSON CLI output or MCP tools for incident…
+url: https://agentskillexchange.com/skills/investigate-telemetry-incidents-with-monoscope-mcp-and-agent-mode-cli/
+
+## Translate technical PDFs through RetainPDF while preserving layout
+slug: translate-technical-pdfs-through-retainpdf-while-preserving-layout
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Route scanned, scientific, and technical PDFs through RetainPDF so an agent can produce translated PDFs while preserving formulas, tables, code blocks, and page layout.
+url: https://agentskillexchange.com/skills/translate-technical-pdfs-through-retainpdf-while-preserving-layout/
+
+## Run supervised MCP browser automation with Auto Browser
+slug: run-supervised-mcp-browser-automation-with-auto-browser
+category: Browser Automation
+framework: MCP
+verification: Security Reviewed
+description: Give an MCP-capable agent a local Playwright browser with human takeover, reusable auth profiles, approvals, audit trails, and repeatable browser workflow evidence.
+url: https://agentskillexchange.com/skills/run-supervised-mcp-browser-automation-with-auto-browser/
 
 ## Control Windows desktop apps through MCP with Terminator
 slug: control-windows-desktop-apps-through-mcp-with-terminator

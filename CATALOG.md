@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2620 published skills** across **17 categories** · 2,261 security reviewed · Updated 2026-06-17 07:49 UTC
+> **2623 published skills** across **17 categories** · 2,261 security reviewed · Updated 2026-06-17 13:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -601,7 +601,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (195 skills)
+### 🔄 Data Extraction & Transformation (196 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -759,6 +759,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [sqlite-utils Python CLI for SQLite Database Manipulation](skills/sqlite-utils-python-cli-sqlite-manipulation/) | sqlite-utils is a Python CLI utility and library by Simon Willison for manipulating SQLite databases. It lets you… | Security Reviewed | 2k | — |
 | [Tabula PDF Table Extraction Agent](skills/tabula-pdf-table-extraction-agent/) | Uses Tabula Java library via tabula-py bindings to detect and extract tables from PDF documents. Supports both… | Security Reviewed | 2k | — |
 | [Tabula PDF Table Extractor](skills/tabula-pdf-table-extractor/) | Extracts structured tables from PDF documents using Tabula-java with lattice and stream detection modes. Outputs to… | Security Reviewed | 2k | — |
+| [Translate technical PDFs through RetainPDF while preserving layout](skills/translate-technical-pdfs-through-retainpdf-while-preserving-layout/) | Route scanned, scientific, and technical PDFs through RetainPDF so an agent can produce translated PDFs while… | Security Reviewed | 2k | — |
 | [Query and rewrite Markdown structure with mdq](skills/query-and-rewrite-markdown-structure-with-mdq/) | Use mdq when an agent needs to target headings, lists, links, or other Markdown structure without falling back to… | Security Reviewed | 1.7k | — |
 | [Anyquery Universal SQL Engine with MCP Integration](skills/anyquery-universal-sql-engine-mcp-integration/) | Anyquery is a SQL query engine that lets you run SQL against 40+ apps, files, and databases including GitHub,… | Security Reviewed | 1.7k | — |
 | [Repair, split, merge, and normalize PDFs with qpdf before downstream processing](skills/repair-split-merge-and-normalize-pdfs-with-qpdf-before-downstream-processing/) | Preprocess messy PDFs into a stable form before extraction, review, packaging, or delivery workflows depend on them. | Security Reviewed | 1.5k | — |
@@ -1570,7 +1571,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (142 skills)
+### 📊 Monitoring & Alerts (143 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -1670,6 +1671,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Logdy Real-Time Log Viewer with Web UI and CLI](skills/logdy-realtime-log-viewer-web-ui-cli/) | Logdy is a zero-dependency single-binary log viewer that pipes any command output into an interactive browser-based… | Security Reviewed | 2.1k | — |
 | [Track coding-agent token spend and leaderboard drift across local session logs with Tokscale](skills/track-coding-agent-token-spend-and-leaderboard-drift-with-tokscale/) | Aggregate local coding-agent usage logs into spend, token, and trend views before quotas or budgets surprise the team. | Security Reviewed | 2k | 64.6k/wk |
 | [Elastic APM Transaction Anomaly Spotter](skills/elastic-apm-transaction-anomaly-spotter/) | Queries Elastic APM transaction data through the Elasticsearch REST API to surface latency anomalies and throughput… | Security Reviewed | 1.3k | — |
+| [Investigate telemetry incidents with Monoscope MCP and agent-mode CLI](skills/investigate-telemetry-incidents-with-monoscope-mcp-and-agent-mode-cli/) | Connect agents to Monoscope so they can query logs, traces, metrics, monitors, and issues through stable JSON CLI… | Security Reviewed | 1.1k | — |
 | [Lint and auto-format Markdown documentation before agents ship content with rumdl](skills/lint-and-auto-format-markdown-documentation-before-agents-ship-content-with-rumdl/) | Run rumdl as a fast Markdown lint-and-format gate so agents can catch style, flavor, link-adjacent, and consistency… | Security Reviewed | 1.1k | — |
 | [Trace, evaluate, simulate, and guardrail agent releases with Future AGI](skills/trace-evaluate-simulate-and-guardrail-agent-releases-with-future-agi/) | Use Future AGI to instrument agent runs, run evals and simulations, apply guardrails, and turn production traces… | Security Reviewed | 1k | 1.9k/wk |
 | [Lint and validate Prometheus alerting rules before noisy or broken alerts reach production with Pint](skills/lint-and-validate-prometheus-alerting-rules-before-noisy-or-broken-alerts-reach-production-with-pint/) | Check Prometheus alerting and recording rules in CI or ad hoc runs so invalid, misleading, or dangerous rules are… | Published | 1k | — |
@@ -2123,7 +2125,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Rust Crates.io Explorer](skills/rust-crates-io-explorer/) | Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates… | Published | — | — |
 
 
-### 🌐 Browser Automation (115 skills)
+### 🌐 Browser Automation (116 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
@@ -2233,6 +2235,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Apply site-specific action manuals with Actionbook](skills/apply-site-specific-action-manuals-with-actionbook/) | Load maintained action manuals for fragile websites so agents can execute known flows more reliably than generic… | Security Reviewed | 1.5k | 4.7k/wk |
 | [CDP Network Interception Logger](skills/cdp-network-interception-logger/) | Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify… | Published | 1.5k | 23.7M/wk |
 | [Browserable Self-Hostable Browser Automation for AI Agents](skills/browserable-self-hostable-browser-automation-ai-agents/) | Browserable is an open-source, self-hostable browser automation library built for AI agents. This skill turns… | Security Reviewed | 1.2k | 21/wk |
+| [Run supervised MCP browser automation with Auto Browser](skills/run-supervised-mcp-browser-automation-with-auto-browser/) | Give an MCP-capable agent a local Playwright browser with human takeover, reusable auth profiles, approvals, audit… | Security Reviewed | 565 | — |
 | [Run deterministic browser steps with settled screenshots and event logs for agents](skills/run-deterministic-browser-steps-with-settled-screenshots-and-event-logs-for-agents/) | Use Agent Browser Protocol when an agent needs browser actions to resolve into stable step results, complete with… | Security Reviewed | 436 | 1.7k/wk |
 | [Benchmark browser agents on repeatable Playwright web tasks with Bananalyzer](skills/benchmark-browser-agents-on-repeatable-playwright-web-tasks-with-bananalyzer/) | Run a repeatable evaluation suite for browser agents against static web task snapshots instead of judging them from… | Security Reviewed | 327 | — |
 | [Control authenticated Chrome sessions through MCP with OpenChrome](skills/control-authenticated-chrome-sessions-through-mcp-with-openchrome/) | Let an agent drive a real logged-in Chrome profile through MCP for authenticated browsing, parallel tab work, and… | Security Reviewed | 206 | 12.1k/wk |

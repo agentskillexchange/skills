@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C620-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C623-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C261-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,620 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,623 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 </div>
 
@@ -85,6 +85,9 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Investigate telemetry incidents with Monoscope MCP and agent-mode CLI](skills/investigate-telemetry-incidents-with-monoscope-mcp-and-agent-mode-cli/) | Connect agents to Monoscope so they can query logs, traces, metrics, monitors, and issues through stable JSON CLI... | 1.1k | Monitoring & Alerts |
+| [Translate technical PDFs through RetainPDF while preserving layout](skills/translate-technical-pdfs-through-retainpdf-while-preserving-layout/) | Route scanned, scientific, and technical PDFs through RetainPDF so an agent can produce translated PDFs while preserving formulas... | 2.0k | Data Extraction & Transformation |
+| [Run supervised MCP browser automation with Auto Browser](skills/run-supervised-mcp-browser-automation-with-auto-browser/) | Give an MCP-capable agent a local Playwright browser with human takeover, reusable auth profiles, approvals, audit trails, and... | 565 | Browser Automation |
 | [Control Windows desktop apps through MCP with Terminator](skills/control-windows-desktop-apps-through-mcp-with-terminator/) | Connect Terminator MCP to an agent so it can inspect and automate real Windows desktop and browser workflows... | 1.5k | Browser Automation |
 | [Trace and debug agent runs with AgentOps](skills/trace-and-debug-agent-runs-with-agentops/) | Instrument agent sessions so operators can replay runs, track model costs, inspect tool calls, and compare behavior across... | 5.6k | Monitoring & Alerts |
 | [Evaluate agent and model workflows with EvalScope](skills/evaluate-agent-and-model-workflows-with-evalscope/) | Run repeatable EvalScope benchmark suites for LLM, VLM, RAG, and agent workflows, then inspect traces and reports before... | 3.0k | Monitoring & Alerts |
@@ -92,9 +95,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Build navigable codebase knowledge graphs with Understand Anything](skills/build-navigable-codebase-knowledge-graphs-with-understand-anything/) | Turn a repository or wiki into an interactive knowledge graph that agents and humans can search, explore, and... | 61.1k | Developer Tools |
 | [Run local Pi coding-agent workflows with sandbox and session-sharing guardrails](skills/run-local-pi-coding-agent-workflows-with-sandbox-and-session-sharing-guardrails/) | Use Pi when an operator needs a local coding-agent CLI with explicit sandboxing, provider setup, and reviewable session... | 63.1k | Developer Tools |
 | [Build OCR and layout-analysis preprocessing pipelines with deepdoctection](skills/build-ocr-and-layout-analysis-preprocessing-pipelines-with-deepdoctection/) | Use deepdoctection when an agent workflow needs a local Python pipeline for document layout analysis, OCR, table recognition... | 3.2k | Data Extraction & Transformation |
-| [Deploy document-to-JSON extraction APIs and ETL pipelines with Unstract](skills/deploy-document-to-json-extraction-apis-and-etl-pipelines-with-unstract/) | Use Unstract when an operator needs agents or automation pipelines to turn recurring PDFs, scans, and document batches... | 6.7k | Data Extraction & Transformation |
-| [Evaluate model-generated code execution with SandboxFusion](skills/evaluate-model-generated-code-execution-with-sandboxfusion/) | Use SandboxFusion to run and judge LLM-generated code in controlled sandboxes across many languages and benchmark-style evaluation tasks | 1.0k | Security & Verification |
-| [Run block-based browser automation workflows with Automa](skills/run-block-based-browser-automation-workflows-with-automa/) | Use Automa when an operator needs repeatable browser workflows for form filling, scraping, screenshots, or scheduled web tasks... | 21.4k | Browser Automation |
 
 ---
 
@@ -113,7 +113,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Read and modify Figma designs from coding agents with Talk to Figma MCP](skills/read-and-modify-figma-designs-from-coding-agents-with-talk-to-figma-mcp/) | Bridge Cursor, Claude Code, and other MCP clients into Figma so agents can inspect selections, create nodes, annotate... | 6.8k | Integrations & Connectors |
 | [Run local Pi coding-agent workflows with sandbox and session-sharing guardrails](skills/run-local-pi-coding-agent-workflows-with-sandbox-and-session-sharing-guardrails/) | Use Pi when an operator needs a local coding-agent CLI with explicit sandboxing, provider setup, and reviewable session... | 63.1k | Developer Tools |
 | [Embed an in-page GUI agent with Page Agent](skills/embed-an-in-page-gui-agent-with-page-agent/) | Add a JavaScript GUI agent to a web app so users or agents can complete UI tasks through... | 18.6k | Browser Automation |
-| [Control Windows desktop apps through MCP with Terminator](skills/control-windows-desktop-apps-through-mcp-with-terminator/) | Connect Terminator MCP to an agent so it can inspect and automate real Windows desktop and browser workflows... | 1.5k | Browser Automation |
+| [Run local multi-agent browser tasks with Nanobrowser](skills/run-local-multi-agent-browser-tasks-with-nanobrowser/) | Use Nanobrowser when an operator needs a local Chrome or Edge browser agent to run multi-step web tasks... | 13.1k | Browser Automation |
 
 ---
 
@@ -123,16 +123,16 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 |---|---|---:|---|
 | 🛠️ | [**Developer Tools**](categories/developer-tools/) | 343 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 234 | Vulnerability scanning, auth setup, compliance |
-| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 195 | ETL pipelines, parsing, format conversion |
+| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 196 | ETL pipelines, parsing, format conversion |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 185 | Scaffolders, boilerplate generators, workflow templates |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 184 | Linting, code review, test generators, coverage |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 173 | Incident response, troubleshooting, system diagnostics |
-| 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 142 | Metrics, alerting rules, observability |
+| 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 143 | Metrics, alerting rules, observability |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 132 | Third-party API bridges, webhooks, service connectors |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 125 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 122 | SDK docs, API parsers, symbol resolvers |
-| 🌐 | [**Browser Automation**](categories/browser-automation/) | 115 | Web scraping, UI testing, headless browser control |
+| 🌐 | [**Browser Automation**](categories/browser-automation/) | 116 | Web scraping, UI testing, headless browser control |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 114 | Web research, content discovery, data collection |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 101 | Audio/video processing, speech-to-text |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
@@ -200,7 +200,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,620 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,623 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,261 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
