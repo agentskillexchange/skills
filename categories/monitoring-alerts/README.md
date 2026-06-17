@@ -117,6 +117,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Trace LLM and agent workflows with OpenLLMetry](../../skills/trace-llm-and-agent-workflows-with-openllmetry/) | 7.2k | — |
 | [OpenTelemetry Collector Pipeline Designer](../../skills/otel-collector-pipeline-designer/) | 6.9k | — |
 | [Monitor and evaluate LLM agent traffic with Helicone](../../skills/monitor-and-evaluate-llm-agent-traffic-with-helicone/) | 5.8k | — |
+| [Trace and debug agent runs with AgentOps](../../skills/trace-and-debug-agent-runs-with-agentops/) | 5.6k | — |
 | [GoatCounter Privacy-First Web Analytics Platform](../../skills/goatcounter-privacy-first-web-analytics-platform/) | 5.6k | — |
 | [Optimize agent development loops with Coze Loop](../../skills/optimize-agent-development-loops-with-coze-loop/) | 5.5k | — |
 | [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | 5k | 3.3k/wk |
@@ -129,6 +130,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [AWS CloudWatch Insights Agent](../../skills/aws-cloudwatch-insights-agent/) | 3.6k | — |
 | [Simulate agent scenarios, trace failures, and watch production regressions with LangWatch](../../skills/simulate-agent-scenarios-trace-failures-and-watch-production-regressions-with-langwatch/) | 3.2k | 54.7k/wk |
 | [Grafana Alloy OpenTelemetry Collector Distribution](../../skills/grafana-alloy-opentelemetry-collector/) | 3k | — |
+| [Evaluate agent and model workflows with EvalScope](../../skills/evaluate-agent-and-model-workflows-with-evalscope/) | 3k | — |
 | [Logdy Real-Time Log Viewer with Web UI and CLI](../../skills/logdy-realtime-log-viewer-web-ui-cli/) | 2.1k | — |
 | [Track coding-agent token spend and leaderboard drift across local session logs with Tokscale](../../skills/track-coding-agent-token-spend-and-leaderboard-drift-with-tokscale/) | 2k | 64.6k/wk |
 | [Elastic APM Transaction Anomaly Spotter](../../skills/elastic-apm-transaction-anomaly-spotter/) | 1.3k | — |
@@ -136,7 +138,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Trace, evaluate, simulate, and guardrail agent releases with Future AGI](../../skills/trace-evaluate-simulate-and-guardrail-agent-releases-with-future-agi/) | 1k | 1.9k/wk |
 | [Lint and validate Prometheus alerting rules before noisy or broken alerts reach production with Pint](../../skills/lint-and-validate-prometheus-alerting-rules-before-noisy-or-broken-alerts-reach-production-with-pint/) | 1k | — |
 | [LangSmith SDK for LLM Tracing and Evaluation](../../skills/langsmith-sdk-for-llm-tracing-and-evaluation/) | 843 | — |
-| [Datadog MCP Server](../../skills/datadog-mcp-server/) | 811 | 7.9M/wk |
+| [Datadog MCP Server](../../skills/datadog-mcp-server/) | 811 | 8M/wk |
 | [Datadog Anomaly Alert Router](../../skills/datadog-anomaly-alert-router/) | 791 | 6.6M/wk |
 | [Datadog Anomaly Detection Agent](../../skills/datadog-anomaly-detection-agent-2/) | 791 | 6.6M/wk |
 | [Datadog Anomaly Detector](../../skills/datadog-anomaly-detector/) | 791 | 6.6M/wk |
@@ -151,7 +153,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Datadog Monitor Sync](../../skills/datadog-monitor-sync/) | 791 | 6.6M/wk |
 | [Datadog Monitors Skill](../../skills/datadog-monitors-skill/) | 791 | 6.6M/wk |
 | [Datadog SLO Monitor](../../skills/datadog-slo-monitor/) | 791 | 6.6M/wk |
-| [Sentry MCP Server](../../skills/sentry-mcp-server/) | 712 | 79.1k/wk |
+| [Sentry MCP Server](../../skills/sentry-mcp-server/) | 712 | 78.4k/wk |
 | [Sentry MCP Server for Error Tracking and Performance](../../skills/sentry-mcp-server-error-tracking-performance/) | 615 | 49.6k/wk |
 | [Track coding-agent quota burn and remaining headroom across providers with onWatch](../../skills/track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch/) | 580 | — |
 | [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | 531 | 4.8M/wk |
@@ -159,7 +161,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Inspect Claude Code multi-agent runs with Agents Observe](../../skills/agents-observe-claude-code-observability/) | 421 | — |
 | [Cronitor CLI for Cron Monitoring and Job Telemetry](../../skills/cronitor-cli-cron-monitoring-job-telemetry/) | 399 | — |
 | [Monitor coding-agent token spend with Splitrail](../../skills/monitor-coding-agent-token-spend-with-splitrail/) | 159 | — |
-| [Metrics Dashboard Builder](../../skills/metrics-dashboard-builder/) | 103 | 2M/wk |
+| [Metrics Dashboard Builder](../../skills/metrics-dashboard-builder/) | 103 | 2.1M/wk |
 | [Checkly Browser Check Failure Notifier](../../skills/checkly-browser-check-failure-notifier/) | 92 | 198.9k/wk |
 | [Checkly CLI Monitoring as Code for API and Browser Checks](../../skills/checkly-cli-monitoring-as-code-for-api-and-browser-checks/) | 92 | 198.9k/wk |
 | [PagerDuty Incident Escalator](../../skills/pagerduty-incident-escalator/) | 69 | 1M/wk |

@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-17
-# Total: 2616 skills
+# Total: 2620 skills
+
+## Control Windows desktop apps through MCP with Terminator
+slug: control-windows-desktop-apps-through-mcp-with-terminator
+category: Browser Automation
+framework: MCP
+verification: Security Reviewed
+description: Connect Terminator MCP to an agent so it can inspect and automate real Windows desktop and browser workflows with pixels, DOM, and accessibility context.
+url: https://agentskillexchange.com/skills/control-windows-desktop-apps-through-mcp-with-terminator/
+
+## Trace and debug agent runs with AgentOps
+slug: trace-and-debug-agent-runs-with-agentops
+category: Monitoring & Alerts
+framework: Multi-Framework
+verification: Security Reviewed
+description: Instrument agent sessions so operators can replay runs, track model costs, inspect tool calls, and compare behavior across frameworks.
+url: https://agentskillexchange.com/skills/trace-and-debug-agent-runs-with-agentops/
+
+## Evaluate agent and model workflows with EvalScope
+slug: evaluate-agent-and-model-workflows-with-evalscope
+category: Monitoring & Alerts
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run repeatable EvalScope benchmark suites for LLM, VLM, RAG, and agent workflows, then inspect traces and reports before changing models or prompts.
+url: https://agentskillexchange.com/skills/evaluate-agent-and-model-workflows-with-evalscope/
+
+## Run Claude Code job-search operations with Career-Ops
+slug: run-claude-code-job-search-operations-with-career-ops
+category: Templates & Workflows
+framework: Claude Code
+verification: Published
+description: Use Career-Ops to run a repeatable Claude Code powered job-search workflow: evaluate listings, tailor resumes, generate applications, and review outputs before sending anything.
+url: https://agentskillexchange.com/skills/run-claude-code-job-search-operations-with-career-ops/
 
 ## Build navigable codebase knowledge graphs with Understand Anything
 slug: build-navigable-codebase-knowledge-graphs-with-understand-anything

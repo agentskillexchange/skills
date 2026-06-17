@@ -1,8 +1,58 @@
 {
   "version": "2.0",
-  "total": 2616,
+  "total": 2620,
   "generated": "2026-06-17",
   "skills": [
+    {
+      "slug": "control-windows-desktop-apps-through-mcp-with-terminator",
+      "name": "Control Windows desktop apps through MCP with Terminator",
+      "title": "Control Windows desktop apps through MCP with Terminator",
+      "description": "Connect Terminator MCP to an agent so it can inspect and automate real Windows desktop and browser workflows with pixels, DOM, and accessibility context.",
+      "category": "Browser Automation",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1534,
+        "npm_weekly_downloads": 57
+      }
+    },
+    {
+      "slug": "trace-and-debug-agent-runs-with-agentops",
+      "name": "Trace and debug agent runs with AgentOps",
+      "title": "Trace and debug agent runs with AgentOps",
+      "description": "Instrument agent sessions so operators can replay runs, track model costs, inspect tool calls, and compare behavior across frameworks.",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 5640
+      }
+    },
+    {
+      "slug": "evaluate-agent-and-model-workflows-with-evalscope",
+      "name": "Evaluate agent and model workflows with EvalScope",
+      "title": "Evaluate agent and model workflows with EvalScope",
+      "description": "Run repeatable EvalScope benchmark suites for LLM, VLM, RAG, and agent workflows, then inspect traces and reports before changing models or prompts.",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 2953
+      }
+    },
+    {
+      "slug": "run-claude-code-job-search-operations-with-career-ops",
+      "name": "Run Claude Code job-search operations with Career-Ops",
+      "title": "Run Claude Code job-search operations with Career-Ops",
+      "description": "Use Career-Ops to run a repeatable Claude Code powered job-search workflow: evaluate listings, tailor resumes, generate applications, and review outputs before sending anything.",
+      "category": "Templates & Workflows",
+      "framework": "Claude Code",
+      "verification": "listed",
+      "signals": {
+        "github_stars": 54286,
+        "npm_weekly_downloads": 3466
+      }
+    },
     {
       "slug": "build-navigable-codebase-knowledge-graphs-with-understand-anything",
       "name": "Build navigable codebase knowledge graphs with Understand Anything",
@@ -31233,7 +31283,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 13577845,
+        "npm_weekly_downloads": 13703842,
         "license": "MIT"
       }
     },
@@ -31247,7 +31297,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 103,
-        "npm_weekly_downloads": 2012794,
+        "npm_weekly_downloads": 2069597,
         "license": "Apache-2.0"
       }
     },
@@ -31287,7 +31337,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 27264,
-        "npm_weekly_downloads": 138259133,
+        "npm_weekly_downloads": 139051523,
         "license": "MIT"
       }
     },
@@ -31314,7 +31364,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 8530851,
+        "npm_weekly_downloads": 8642265,
         "license": "Apache-2.0"
       }
     },
@@ -31328,7 +31378,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 32600631,
+        "npm_weekly_downloads": 32881999,
         "license": "Apache-2.0"
       }
     },
@@ -31342,7 +31392,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3051,
-        "npm_weekly_downloads": 61018,
+        "npm_weekly_downloads": 61478,
         "license": "MIT"
       }
     },
@@ -31356,7 +31406,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1539,
-        "npm_weekly_downloads": 4875846,
+        "npm_weekly_downloads": 4894392,
         "license": "MIT"
       }
     },
@@ -31370,7 +31420,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 13577845,
+        "npm_weekly_downloads": 13703842,
         "license": "MIT"
       }
     },
@@ -31384,7 +31434,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1465,
-        "npm_weekly_downloads": 1059279,
+        "npm_weekly_downloads": 1056997,
         "license": "MIT"
       }
     },
@@ -31398,7 +31448,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 397,
-        "npm_weekly_downloads": 1190711,
+        "npm_weekly_downloads": 1213270,
         "license": "Apache-2.0"
       }
     },
@@ -31412,7 +31462,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 5610,
-        "npm_weekly_downloads": 1435110,
+        "npm_weekly_downloads": 1443067,
         "license": "MIT"
       }
     },
@@ -31451,7 +31501,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 24,
-        "npm_weekly_downloads": 5322,
+        "npm_weekly_downloads": 5269,
         "license": "Apache-2.0"
       }
     },
@@ -31479,7 +31529,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 811,
-        "npm_weekly_downloads": 7874737
+        "npm_weekly_downloads": 7967858
       }
     },
     {
@@ -31492,7 +31542,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 25248,
-        "npm_weekly_downloads": 2244849,
+        "npm_weekly_downloads": 2273696,
         "license": "Apache-2.0"
       }
     },
@@ -31609,7 +31659,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 712,
-        "npm_weekly_downloads": 79144
+        "npm_weekly_downloads": 78396
       }
     },
     {
@@ -31663,7 +31713,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1290,
-        "npm_weekly_downloads": 414,
+        "npm_weekly_downloads": 434,
         "license": "MIT"
       }
     },
@@ -31690,7 +31740,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 393,
-        "npm_weekly_downloads": 10209,
+        "npm_weekly_downloads": 9531,
         "license": "Apache-2.0"
       }
     },
@@ -31725,7 +31775,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 10942,
-        "npm_weekly_downloads": 25811014,
+        "npm_weekly_downloads": 25931093,
         "license": "Apache-2.0"
       }
     },
@@ -31876,7 +31926,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 33289,
-        "npm_weekly_downloads": 6272314,
+        "npm_weekly_downloads": 6330652,
         "license": "Apache-2.0"
       }
     },
@@ -31905,7 +31955,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 89986,
-        "npm_weekly_downloads": 61727054,
+        "npm_weekly_downloads": 62308160,
         "license": "Apache-2.0"
       }
     }
