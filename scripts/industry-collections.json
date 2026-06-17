@@ -2160,6 +2160,7 @@
         "coordinate-multi-agent-claude-code-and-codex-workflows-with-ruflo",
         "run-multimodal-computer-and-browser-operator-workflows-with-ui-tars-desktop",
         "operate-a-local-multi-agent-workforce-with-eigent",
+        "build-navigable-codebase-knowledge-graphs-with-understand-anything",
         "read-and-modify-figma-designs-from-coding-agents-with-talk-to-figma-mcp",
         "coordinate-software-delivery-roles-with-metagpt",
         "assemble-production-agent-harnesses-with-deepagents"
@@ -2342,6 +2343,11 @@
           "why_here": "Coordinates local desktop agent work across browser, document, coding, multimodal, model-provider, and MCP-backed client delivery tasks.",
           "persona": "AI agency operator / FDE lead",
           "install_complexity": "High"
+        },
+        "build-navigable-codebase-knowledge-graphs-with-understand-anything": {
+          "why_here": "Turns client repositories or knowledge bases into explorable graphs before onboarding, impact analysis, and scoped implementation work.",
+          "persona": "Forward deployed engineer / client implementation lead",
+          "install_complexity": "Medium"
         },
         "read-and-modify-figma-designs-from-coding-agents-with-talk-to-figma-mcp": {
           "why_here": "Lets coding agents inspect, annotate, and update Figma designs during design-to-code and client implementation work.",
