@@ -12,7 +12,7 @@ tool_ecosystem:
   github_repo: "makenotion/notion-sdk-js"
   github_stars: 5610
   npm_package: "@notionhq/client"
-  npm_weekly_downloads: 1443067
+  npm_weekly_downloads: 1455344
 ---
 
 # Notion MCP Server
