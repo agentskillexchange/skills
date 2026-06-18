@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-18
-# Total: 2624 skills
+# Total: 2627 skills
+
+## Run TypeScript-native LLM eval suites with Evalite
+slug: run-typescript-native-llm-eval-suites-with-evalite
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Published
+description: Use Evalite when a TypeScript team needs repeatable Vitest-style eval runs for LLM apps before prompt, model, or workflow changes ship.
+url: https://agentskillexchange.com/skills/run-typescript-native-llm-eval-suites-with-evalite/
+
+## Trace coding-agent and LLM workflows with OpenLIT
+slug: trace-coding-agent-and-llm-workflows-with-openlit
+category: Monitoring & Alerts
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use OpenLIT to instrument coding agents and LLM applications with OpenTelemetry traces, metrics, costs, prompts, tool calls, and evaluation signals.
+url: https://agentskillexchange.com/skills/trace-coding-agent-and-llm-workflows-with-openlit/
+
+## Build portable single-file agent memory with Memvid
+slug: build-portable-single-file-agent-memory-with-memvid
+category: Integrations & Connectors
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Memvid when an agent needs local, portable long-term memory and retrieval without running a vector database or full RAG service.
+url: https://agentskillexchange.com/skills/build-portable-single-file-agent-memory-with-memvid/
 
 ## Parse multilingual documents for agent ingestion with dots.ocr
 slug: parse-multilingual-documents-for-agent-ingestion-with-dots-ocr

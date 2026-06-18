@@ -2,8 +2,35 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-18",
-  "total": 2624,
+  "total": 2627,
   "skills": [
+    {
+      "slug": "run-typescript-native-llm-eval-suites-with-evalite",
+      "name": "Run TypeScript-native LLM eval suites with Evalite",
+      "title": "Run TypeScript-native LLM eval suites with Evalite",
+      "description": "Use Evalite when a TypeScript team needs repeatable Vitest-style eval runs for LLM apps before prompt, model, or workflow changes ship.",
+      "category": "Code Quality & Review",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
+    {
+      "slug": "trace-coding-agent-and-llm-workflows-with-openlit",
+      "name": "Trace coding-agent and LLM workflows with OpenLIT",
+      "title": "Trace coding-agent and LLM workflows with OpenLIT",
+      "description": "Use OpenLIT to instrument coding agents and LLM applications with OpenTelemetry traces, metrics, costs, prompts, tool calls, and evaluation signals.",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "build-portable-single-file-agent-memory-with-memvid",
+      "name": "Build portable single-file agent memory with Memvid",
+      "title": "Build portable single-file agent memory with Memvid",
+      "description": "Use Memvid when an agent needs local, portable long-term memory and retrieval without running a vector database or full RAG service.",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "parse-multilingual-documents-for-agent-ingestion-with-dots-ocr",
       "name": "Parse multilingual documents for agent ingestion with dots.ocr",

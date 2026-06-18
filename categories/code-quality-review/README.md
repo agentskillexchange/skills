@@ -160,6 +160,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Enforce package boundaries inside a Rails monolith before coupling spreads with Packwerk](../../skills/enforce-package-boundaries-inside-a-rails-monolith-before-coupling-spreads-with-packwerk/) | 1.9k | — |
 | [Diff YAML manifests semantically and surface meaningful drift before apply with dyff](../../skills/diff-yaml-manifests-semantically-and-surface-meaningful-drift-before-apply-with-dyff/) | 1.8k | — |
 | [CSpell Codebase Spell Checking CLI](../../skills/cspell-codebase-spell-checking-cli/) | 1.6k | 1.1M/wk |
+| [Run TypeScript-native LLM eval suites with Evalite](../../skills/run-typescript-native-llm-eval-suites-with-evalite/) | 1.6k | 1.1M/wk |
 | [Strip noisy Jupyter output from notebooks before commit with nbstripout](../../skills/strip-noisy-jupyter-output-from-notebooks-before-commit-with-nbstripout/) | 1.4k | — |
 | [Audit Python dependency declarations for unused, missing, and transitive imports before release](../../skills/audit-python-dependency-declarations-before-release/) | 1.4k | — |
 | [Remove unused Rust dependencies before they quietly bloat builds and reviews with cargo-machete](../../skills/remove-unused-rust-dependencies-before-they-quietly-bloat-builds-and-reviews-with-cargo-machete/) | 1.3k | 2.1M/wk |

@@ -1,8 +1,47 @@
 {
   "version": "2.0",
-  "total": 2624,
+  "total": 2627,
   "generated": "2026-06-18",
   "skills": [
+    {
+      "slug": "run-typescript-native-llm-eval-suites-with-evalite",
+      "name": "Run TypeScript-native LLM eval suites with Evalite",
+      "title": "Run TypeScript-native LLM eval suites with Evalite",
+      "description": "Use Evalite when a TypeScript team needs repeatable Vitest-style eval runs for LLM apps before prompt, model, or workflow changes ship.",
+      "category": "Code Quality & Review",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "signals": {
+        "github_stars": 1600,
+        "npm_weekly_downloads": 1137316
+      }
+    },
+    {
+      "slug": "trace-coding-agent-and-llm-workflows-with-openlit",
+      "name": "Trace coding-agent and LLM workflows with OpenLIT",
+      "title": "Trace coding-agent and LLM workflows with OpenLIT",
+      "description": "Use OpenLIT to instrument coding agents and LLM applications with OpenTelemetry traces, metrics, costs, prompts, tool calls, and evaluation signals.",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 2532,
+        "npm_weekly_downloads": 8382
+      }
+    },
+    {
+      "slug": "build-portable-single-file-agent-memory-with-memvid",
+      "name": "Build portable single-file agent memory with Memvid",
+      "title": "Build portable single-file agent memory with Memvid",
+      "description": "Use Memvid when an agent needs local, portable long-term memory and retrieval without running a vector database or full RAG service.",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 15668,
+        "npm_weekly_downloads": 3996
+      }
+    },
     {
       "slug": "parse-multilingual-documents-for-agent-ingestion-with-dots-ocr",
       "name": "Parse multilingual documents for agent ingestion with dots.ocr",

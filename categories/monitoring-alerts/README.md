@@ -32,7 +32,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Trace and evaluate agent runs with Phoenix](../../skills/trace-and-evaluate-agent-runs-with-phoenix/) | ⬇ 893/wk |
 | [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | ⬇ 3.3k/wk |
 | [Simulate agent scenarios, trace failures, and watch production regressions with LangWatch](../../skills/simulate-agent-scenarios-trace-failures-and-watch-production-regressions-with-langwatch/) | ⬇ 54.7k/wk |
-| [Track coding-agent token spend and leaderboard drift across local session logs with Tokscale](../../skills/track-coding-agent-token-spend-and-leaderboard-drift-with-tokscale/) | ⬇ 64.6k/wk |
+| [Trace coding-agent and LLM workflows with OpenLIT](../../skills/trace-coding-agent-and-llm-workflows-with-openlit/) | ⬇ 8.4k/wk |
 
 ---
 
@@ -131,6 +131,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Simulate agent scenarios, trace failures, and watch production regressions with LangWatch](../../skills/simulate-agent-scenarios-trace-failures-and-watch-production-regressions-with-langwatch/) | 3.2k | 54.7k/wk |
 | [Grafana Alloy OpenTelemetry Collector Distribution](../../skills/grafana-alloy-opentelemetry-collector/) | 3k | — |
 | [Evaluate agent and model workflows with EvalScope](../../skills/evaluate-agent-and-model-workflows-with-evalscope/) | 3k | — |
+| [Trace coding-agent and LLM workflows with OpenLIT](../../skills/trace-coding-agent-and-llm-workflows-with-openlit/) | 2.5k | 8.4k/wk |
 | [Logdy Real-Time Log Viewer with Web UI and CLI](../../skills/logdy-realtime-log-viewer-web-ui-cli/) | 2.1k | — |
 | [Track coding-agent token spend and leaderboard drift across local session logs with Tokscale](../../skills/track-coding-agent-token-spend-and-leaderboard-drift-with-tokscale/) | 2k | 64.6k/wk |
 | [Elastic APM Transaction Anomaly Spotter](../../skills/elastic-apm-transaction-anomaly-spotter/) | 1.3k | — |

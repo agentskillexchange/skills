@@ -30,9 +30,9 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Use A2A for agent-to-agent interoperability workflows](../../skills/use-a2a-for-agent-to-agent-interoperability-workflows/) | ⬇ 5M/wk |
 | [Build n8n workflows from node docs, templates, and schemas through MCP](../../skills/build-n8n-workflows-from-node-docs-templates-and-schemas-through-mcp/) | ⬇ 485k/wk |
 | [Generate reusable site adapters from live browser behavior with OpenCLI](../../skills/generate-reusable-site-adapters-from-live-browser-behavior-with-opencli/) | ⬇ 10.6k/wk |
+| [Build portable single-file agent memory with Memvid](../../skills/build-portable-single-file-agent-memory-with-memvid/) | ⬇ 4k/wk |
 | [Give coding agents Figma layout context through MCP](../../skills/give-coding-agents-figma-layout-context-through-mcp/) | ⬇ 257.9k/wk |
 | [Pipedream API Workflow Automation Platform](../../skills/pipedream-api-workflow-automation-platform/) | ⬇ 9/wk |
-| [Build and inspect MCP apps and servers with mcp-use](../../skills/build-and-inspect-mcp-apps-and-servers-with-mcp-use/) | ⬇ 138.6k/wk |
 
 ---
 
@@ -67,6 +67,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [LiveKit Real-Time Video Audio and Data Server with WebRTC](../../skills/livekit-realtime-webrtc-server/) | 18k | — |
 | [Use DocsGPT for document-grounded enterprise assistants](../../skills/use-docsgpt-for-document-grounded-enterprise-assistants/) | 17.9k | — |
 | [Generate reusable site adapters from live browser behavior with OpenCLI](../../skills/generate-reusable-site-adapters-from-live-browser-behavior-with-opencli/) | 16.3k | 10.6k/wk |
+| [Build portable single-file agent memory with Memvid](../../skills/build-portable-single-file-agent-memory-with-memvid/) | 15.7k | 4k/wk |
 | [Give coding agents Figma layout context through MCP](../../skills/give-coding-agents-figma-layout-context-through-mcp/) | 14.9k | 257.9k/wk |
 | [Expose approved database operations to MCP clients with MCP Toolbox before ad hoc SQL glue sprawls](../../skills/expose-approved-database-operations-to-mcp-clients-with-mcp-toolbox-before-ad-hoc-sql-glue-sprawls/) | 14.7k | — |
 | [Formbricks Open Source Survey and Experience Management Platform](../../skills/formbricks-open-source-survey-experience-management/) | 12.1k | — |
