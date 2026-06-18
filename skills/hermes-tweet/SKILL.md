@@ -41,7 +41,7 @@ Clone the Agent Skill Exchange repository and copy this skill directory into the
 ```bash
 git clone https://github.com/agentskillexchange/skills.git
 mkdir -p ~/.agent-skills
-cp -R skills/skills/hermes-tweet ~/.agent-skills/hermes-tweet
+cp -R skills/hermes-tweet ~/.agent-skills/hermes-tweet
 ```
 
 ## Source
