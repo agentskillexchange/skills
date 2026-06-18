@@ -135,6 +135,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Gorse AI-Powered Open Source Recommender System Engine](../../skills/gorse-ai-recommender-system-engine/) | 9.6k | — |
 | [Translate and validate SQL across dialects with SQLGlot](../../skills/translate-and-validate-sql-across-dialects-with-sqlglot/) | 9.1k | — |
 | [Profile and triage messy tabular files from the terminal with VisiData](../../skills/profile-and-triage-messy-tabular-files-from-the-terminal-with-visidata/) | 9k | — |
+| [Parse multilingual documents for agent ingestion with dots.ocr](../../skills/parse-multilingual-documents-for-agent-ingestion-with-dots-ocr/) | 8.9k | — |
 | [WeasyPrint HTML and CSS to PDF Document Generator](../../skills/weasyprint-html-css-pdf-document-generator/) | 8.8k | — |
 | [Redpanda Connect Declarative Stream Processor](../../skills/redpanda-connect-declarative-stream-processor/) | 8.6k | — |
 | [Normalize raw CLI output into JSON for reliable downstream parsing and automation](../../skills/normalize-cli-output-into-json-for-reliable-agent-automation/) | 8.6k | — |

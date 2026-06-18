@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2623 published skills** across **17 categories** · 2,262 security reviewed · Updated 2026-06-17 19:26 UTC
+> **2624 published skills** across **17 categories** · 2,262 security reviewed · Updated 2026-06-18 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -601,7 +601,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (196 skills)
+### 🔄 Data Extraction & Transformation (197 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -702,6 +702,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Gorse AI-Powered Open Source Recommender System Engine](skills/gorse-ai-recommender-system-engine/) | Gorse is an AI-powered open-source recommender system written in Go that generates personalized recommendations via… | Security Reviewed | 9.6k | — |
 | [Translate and validate SQL across dialects with SQLGlot](skills/translate-and-validate-sql-across-dialects-with-sqlglot/) | Use SQLGlot when an agent needs to parse, transpile, or sanity-check SQL before moving queries between engines or… | Security Reviewed | 9.1k | — |
 | [Profile and triage messy tabular files from the terminal with VisiData](skills/profile-and-triage-messy-tabular-files-from-the-terminal-with-visidata/) | Inspect CSV, TSV, JSON, and parquet drops interactively, spot suspicious columns fast, and decide the next cleanup… | Security Reviewed | 9k | — |
+| [Parse multilingual documents for agent ingestion with dots.ocr](skills/parse-multilingual-documents-for-agent-ingestion-with-dots-ocr/) | Use dots.ocr when an agent needs repeatable multilingual document layout parsing before retrieval, extraction,… | Security Reviewed | 8.9k | — |
 | [WeasyPrint HTML and CSS to PDF Document Generator](skills/weasyprint-html-css-pdf-document-generator/) | WeasyPrint is a Python library by Kozea/CourtBouillon that converts HTML and CSS into PDF documents. It implements a… | Security Reviewed | 8.8k | — |
 | [Redpanda Connect Declarative Stream Processor](skills/redpanda-connect-declarative-stream-processor/) | Redpanda Connect (formerly Benthos) is a high-performance stream processor that connects data sources and sinks… | Security Reviewed | 8.6k | — |
 | [Normalize raw CLI output into JSON for reliable downstream parsing and automation](skills/normalize-cli-output-into-json-for-reliable-agent-automation/) | Uses jc to turn command output and supported file formats into structured JSON so an agent can filter, diff,… | Security Reviewed | 8.6k | — |

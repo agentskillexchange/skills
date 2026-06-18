@@ -1,8 +1,20 @@
 {
   "version": "2.0",
-  "total": 2623,
-  "generated": "2026-06-17",
+  "total": 2624,
+  "generated": "2026-06-18",
   "skills": [
+    {
+      "slug": "parse-multilingual-documents-for-agent-ingestion-with-dots-ocr",
+      "name": "Parse multilingual documents for agent ingestion with dots.ocr",
+      "title": "Parse multilingual documents for agent ingestion with dots.ocr",
+      "description": "Use dots.ocr when an agent needs repeatable multilingual document layout parsing before retrieval, extraction, review, or downstream automation.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 8932
+      }
+    },
     {
       "slug": "investigate-telemetry-incidents-with-monoscope-mcp-and-agent-mode-cli",
       "name": "Investigate telemetry incidents with Monoscope MCP and agent-mode CLI",

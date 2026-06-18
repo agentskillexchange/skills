@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-06-17
-# Total: 2623 skills
+# Generated: 2026-06-18
+# Total: 2624 skills
+
+## Parse multilingual documents for agent ingestion with dots.ocr
+slug: parse-multilingual-documents-for-agent-ingestion-with-dots-ocr
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use dots.ocr when an agent needs repeatable multilingual document layout parsing before retrieval, extraction, review, or downstream automation.
+url: https://agentskillexchange.com/skills/parse-multilingual-documents-for-agent-ingestion-with-dots-ocr/
 
 ## Investigate telemetry incidents with Monoscope MCP and agent-mode CLI
 slug: investigate-telemetry-incidents-with-monoscope-mcp-and-agent-mode-cli
