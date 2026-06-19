@@ -2,8 +2,17 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-19",
-  "total": 2631,
+  "total": 2632,
   "skills": [
+    {
+      "slug": "expose-database-apis-and-sql-mcp-tools-with-azure-data-api-builder",
+      "name": "Expose database APIs and SQL MCP tools with Azure Data API Builder",
+      "title": "Expose database APIs and SQL MCP tools with Azure Data API Builder",
+      "description": "Use Azure Data API Builder to generate secure REST, GraphQL, and SQL MCP access for supported databases so agents can query and operate data…",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "build-and-debug-ai-pipelines-in-an-ide-with-rocketride",
       "name": "Build and debug AI pipelines in an IDE with RocketRide",

@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-19
-# Total: 2631 skills
+# Total: 2632 skills
+
+## Expose database APIs and SQL MCP tools with Azure Data API Builder
+slug: expose-database-apis-and-sql-mcp-tools-with-azure-data-api-builder
+category: Integrations & Connectors
+framework: MCP
+verification: Security Reviewed
+description: Use Azure Data API Builder to generate secure REST, GraphQL, and SQL MCP access for supported databases so agents can query and operate data…
+url: https://agentskillexchange.com/skills/expose-database-apis-and-sql-mcp-tools-with-azure-data-api-builder/
 
 ## Build and debug AI pipelines in an IDE with RocketRide
 slug: build-and-debug-ai-pipelines-in-an-ide-with-rocketride

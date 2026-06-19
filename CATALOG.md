@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2631 published skills** across **17 categories** · 2,268 security reviewed · Updated 2026-06-19 13:26 UTC
+> **2632 published skills** across **17 categories** · 2,268 security reviewed · Updated 2026-06-19 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1726,7 +1726,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Published | — | — |
 
 
-### 🔗 Integrations & Connectors (136 skills)
+### 🔗 Integrations & Connectors (137 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1822,6 +1822,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Salesforce MCP Server](skills/salesforce-mcp-server/) | Salesforce MCP Server is built around Salesforce CRM platform. The underlying ecosystem is represented by… | Security Reviewed | 1.5k | 1.1M/wk |
 | [Salesforce Bulk API Sync Agent](skills/salesforce-bulk-api-sync-agent/) | Perform high-volume data synchronization with Salesforce using the Bulk API 2.0 for CSV-based upsert, delete, and… | Security Reviewed | 1.5k | 936.6k/wk |
 | [Salesforce CRM Sync Agent](skills/salesforce-crm-sync-agent/) | Bidirectional Salesforce integration using jsforce library and the Salesforce REST API. Performs SOQL queries via… | Security Reviewed | 1.5k | 936.6k/wk |
+| [Expose database APIs and SQL MCP tools with Azure Data API Builder](skills/expose-database-apis-and-sql-mcp-tools-with-azure-data-api-builder/) | Use Azure Data API Builder to generate secure REST, GraphQL, and SQL MCP access for supported databases so agents… | Security Reviewed | 1.4k | — |
 | [Stripe Agent Toolkit for AI Payment Integration](skills/stripe-agent-toolkit-ai-payment-integration/) | The official Stripe Agent Toolkit provides Python and TypeScript libraries plus a hosted MCP server for integrating… | Security Reviewed | 1.4k | — |
 | [Run approved MCP servers through Docker MCP Gateway](skills/run-approved-mcp-servers-through-docker-mcp-gateway/) | Use Docker MCP Gateway to run MCP servers in isolated containers, centralize profiles, secrets, tools, and client… | Security Reviewed | 1.4k | — |
 | [Qdrant MCP Server for Vector Search and Semantic Memory](skills/qdrant-mcp-server-vector-search-semantic-memory/) | An official Qdrant MCP server implementation that provides semantic memory capabilities for AI agents. Enables… | Security Reviewed | 1.3k | — |

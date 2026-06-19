@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C631-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C632-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C268-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,631 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,632 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 </div>
 
@@ -85,6 +85,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Expose database APIs and SQL MCP tools with Azure Data API Builder](skills/expose-database-apis-and-sql-mcp-tools-with-azure-data-api-builder/) | Use Azure Data API Builder to generate secure REST, GraphQL, and SQL MCP access for supported databases so... | 1.4k | Integrations & Connectors |
 | [Build and debug AI pipelines in an IDE with RocketRide](skills/build-and-debug-ai-pipelines-in-an-ide-with-rocketride/) | Use RocketRide to compose, run, observe, and deploy portable AI pipelines from an IDE or CLI across model... | 3.9k | Developer Tools |
 | [Index codebases into MCP knowledge graphs with codebase-memory-mcp](skills/index-codebases-into-mcp-knowledge-graphs-with-codebase-memory-mcp/) | Give coding agents a local MCP code intelligence graph for fast architecture, symbol, route, impact, and call-path queries... | 7.3k | Integrations & Connectors |
 | [Build Go MCP servers with MCP Go](skills/build-go-mcp-servers-with-mcp-go/) | Use MCP Go to implement typed Model Context Protocol servers in Go that expose tools, resources, prompts, and... | 8.8k | Integrations & Connectors |
@@ -94,7 +95,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Build portable single-file agent memory with Memvid](skills/build-portable-single-file-agent-memory-with-memvid/) | Use Memvid when an agent needs local, portable long-term memory and retrieval without running a vector database or... | 15.7k | Integrations & Connectors |
 | [Parse multilingual documents for agent ingestion with dots.ocr](skills/parse-multilingual-documents-for-agent-ingestion-with-dots-ocr/) | Use dots.ocr when an agent needs repeatable multilingual document layout parsing before retrieval, extraction, review, or downstream automation | 8.9k | Data Extraction & Transformation |
 | [Investigate telemetry incidents with Monoscope MCP and agent-mode CLI](skills/investigate-telemetry-incidents-with-monoscope-mcp-and-agent-mode-cli/) | Connect agents to Monoscope so they can query logs, traces, metrics, monitors, and issues through stable JSON CLI... | 1.1k | Monitoring & Alerts |
-| [Translate technical PDFs through RetainPDF while preserving layout](skills/translate-technical-pdfs-through-retainpdf-while-preserving-layout/) | Route scanned, scientific, and technical PDFs through RetainPDF so an agent can produce translated PDFs while preserving formulas... | 2.0k | Data Extraction & Transformation |
 
 ---
 
@@ -129,7 +129,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 185 | Scaffolders, boilerplate generators, workflow templates |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 173 | Incident response, troubleshooting, system diagnostics |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 144 | Metrics, alerting rules, observability |
-| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 136 | Third-party API bridges, webhooks, service connectors |
+| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 137 | Third-party API bridges, webhooks, service connectors |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 125 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 122 | SDK docs, API parsers, symbol resolvers |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 116 | Web scraping, UI testing, headless browser control |
@@ -200,7 +200,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,631 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,632 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,268 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

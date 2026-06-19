@@ -130,6 +130,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | 1.5k | 1.1M/wk |
 | [Salesforce Bulk API Sync Agent](../../skills/salesforce-bulk-api-sync-agent/) | 1.5k | 936.6k/wk |
 | [Salesforce CRM Sync Agent](../../skills/salesforce-crm-sync-agent/) | 1.5k | 936.6k/wk |
+| [Expose database APIs and SQL MCP tools with Azure Data API Builder](../../skills/expose-database-apis-and-sql-mcp-tools-with-azure-data-api-builder/) | 1.4k | — |
 | [Stripe Agent Toolkit for AI Payment Integration](../../skills/stripe-agent-toolkit-ai-payment-integration/) | 1.4k | — |
 | [Run approved MCP servers through Docker MCP Gateway](../../skills/run-approved-mcp-servers-through-docker-mcp-gateway/) | 1.4k | — |
 | [Qdrant MCP Server for Vector Search and Semantic Memory](../../skills/qdrant-mcp-server-vector-search-semantic-memory/) | 1.3k | — |
