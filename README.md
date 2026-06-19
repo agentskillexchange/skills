@@ -49,7 +49,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Lightning CSS High-Performance CSS Parser Transformer and Minifier](skills/lightning-css-high-performance-css-parser-transformer-and-minifier/)** — Lightning CSS is a Rust-based CSS parser, transformer, bundler, and minifier from the Parcel team. This skill is for agents that need to optimize stylesheets, lower modern CSS…
+**[Langflow Visual AI Agent and Workflow Builder](skills/langflow-visual-ai-agent-workflow-builder/)** — Langflow is an open-source visual builder for AI agents and workflows. It lets teams design flows graphically, expose them as APIs or MCP tools, and connect major LLMs,…
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -105,11 +105,11 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
 | [Run DeepSeek-oriented terminal coding workflows with Reasonix](skills/run-deepseek-oriented-terminal-coding-workflows-with-reasonix/) | Use Reasonix when an operator wants a persistent terminal coding agent tuned for DeepSeek-style prefix caching, project memory... | 21.8k | Developer Tools |
-| [Build managed document parsing pipelines with LlamaCloud Services](skills/build-managed-document-parsing-pipelines-with-llamacloud-services/) | Use LlamaCloud Services to parse, index, and manage document knowledge pipelines that feed LlamaIndex retrieval and agent workflows | 4.2k | Data Extraction & Transformation |
 | [Build portable single-file agent memory with Memvid](skills/build-portable-single-file-agent-memory-with-memvid/) | Use Memvid when an agent needs local, portable long-term memory and retrieval without running a vector database or... | 15.7k | Integrations & Connectors |
+| [Build managed document parsing pipelines with LlamaCloud Services](skills/build-managed-document-parsing-pipelines-with-llamacloud-services/) | Use LlamaCloud Services to parse, index, and manage document knowledge pipelines that feed LlamaIndex retrieval and agent workflows | 4.2k | Data Extraction & Transformation |
 | [Coordinate multi-agent Claude Code and Codex workflows with Ruflo](skills/coordinate-multi-agent-claude-code-and-codex-workflows-with-ruflo/) | Install Ruflo when an operator needs Claude Code or Codex agents to coordinate swarms, memory, hooks, and MCP... | 59.0k | Templates & Workflows |
-| [Extract OCR-ready Markdown from documents with Zerox](skills/extract-ocr-ready-markdown-from-documents-with-zerox/) | Use Zerox to convert PDFs, images, and office documents into Markdown or structured extraction outputs using vision models | 12.2k | Data Extraction & Transformation |
 | [Trace coding-agent and LLM workflows with OpenLIT](skills/trace-coding-agent-and-llm-workflows-with-openlit/) | Use OpenLIT to instrument coding agents and LLM applications with OpenTelemetry traces, metrics, costs, prompts, tool calls, and... | 2.5k | Monitoring & Alerts |
+| [Extract OCR-ready Markdown from documents with Zerox](skills/extract-ocr-ready-markdown-from-documents-with-zerox/) | Use Zerox to convert PDFs, images, and office documents into Markdown or structured extraction outputs using vision models | 12.2k | Data Extraction & Transformation |
 | [Run durable agent tasks and event-driven workflows with Hatchet](skills/run-durable-agent-tasks-and-event-driven-workflows-with-hatchet/) | Use Hatchet to queue, retry, pause, resume, observe, and scale long-running agent tasks and background workflows | 7.2k | Templates & Workflows |
 | [Render interactive MCP tool UIs with mcp-ui](skills/render-interactive-mcp-tool-uis-with-mcp-ui/) | Build an MCP Apps resource, attach it to a tool through _meta.ui.resourceUri, and verify the host renders the... | 4.9k | Integrations & Connectors |
 | [Embed an in-page GUI agent with Page Agent](skills/embed-an-in-page-gui-agent-with-page-agent/) | Add a JavaScript GUI agent to a web app so users or agents can complete UI tasks through... | 18.6k | Browser Automation |
