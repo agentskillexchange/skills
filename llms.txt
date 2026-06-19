@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-19
-# Total: 2627 skills
+# Total: 2631 skills
+
+## Build and debug AI pipelines in an IDE with RocketRide
+slug: build-and-debug-ai-pipelines-in-an-ide-with-rocketride
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use RocketRide to compose, run, observe, and deploy portable AI pipelines from an IDE or CLI across model providers, vector stores, and agent nodes.
+url: https://agentskillexchange.com/skills/build-and-debug-ai-pipelines-in-an-ide-with-rocketride/
+
+## Index codebases into MCP knowledge graphs with codebase-memory-mcp
+slug: index-codebases-into-mcp-knowledge-graphs-with-codebase-memory-mcp
+category: Integrations & Connectors
+framework: MCP
+verification: Security Reviewed
+description: Give coding agents a local MCP code intelligence graph for fast architecture, symbol, route, impact, and call-path queries across large repositories.
+url: https://agentskillexchange.com/skills/index-codebases-into-mcp-knowledge-graphs-with-codebase-memory-mcp/
+
+## Build Go MCP servers with MCP Go
+slug: build-go-mcp-servers-with-mcp-go
+category: Integrations & Connectors
+framework: MCP
+verification: Security Reviewed
+description: Use MCP Go to implement typed Model Context Protocol servers in Go that expose tools, resources, prompts, and transport handlers to agent clients.
+url: https://agentskillexchange.com/skills/build-go-mcp-servers-with-mcp-go/
+
+## Hermes Tweet
+slug: hermes-tweet
+category: Integrations & Connectors
+framework: Multi-Framework
+verification: Published
+description: Use Hermes Tweet when Hermes Agent needs a native X/Twitter plugin for reading posts, exploring public data, and running explicitly gated tweet actions through…
+url: https://agentskillexchange.com/skills/hermes-tweet/
 
 ## Run TypeScript-native LLM eval suites with Evalite
 slug: run-typescript-native-llm-eval-suites-with-evalite

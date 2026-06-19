@@ -1,8 +1,57 @@
 {
   "version": "2.0",
-  "total": 2627,
+  "total": 2631,
   "generated": "2026-06-19",
   "skills": [
+    {
+      "slug": "build-and-debug-ai-pipelines-in-an-ide-with-rocketride",
+      "name": "Build and debug AI pipelines in an IDE with RocketRide",
+      "title": "Build and debug AI pipelines in an IDE with RocketRide",
+      "description": "Use RocketRide to compose, run, observe, and deploy portable AI pipelines from an IDE or CLI across model providers, vector stores, and agent nodes.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 3935
+      }
+    },
+    {
+      "slug": "index-codebases-into-mcp-knowledge-graphs-with-codebase-memory-mcp",
+      "name": "Index codebases into MCP knowledge graphs with codebase-memory-mcp",
+      "title": "Index codebases into MCP knowledge graphs with codebase-memory-mcp",
+      "description": "Give coding agents a local MCP code intelligence graph for fast architecture, symbol, route, impact, and call-path queries across large repositories.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 7266,
+        "npm_weekly_downloads": 1956
+      }
+    },
+    {
+      "slug": "build-go-mcp-servers-with-mcp-go",
+      "name": "Build Go MCP servers with MCP Go",
+      "title": "Build Go MCP servers with MCP Go",
+      "description": "Use MCP Go to implement typed Model Context Protocol servers in Go that expose tools, resources, prompts, and transport handlers to agent clients.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 8815
+      }
+    },
+    {
+      "slug": "hermes-tweet",
+      "name": "Hermes Tweet",
+      "title": "Hermes Tweet",
+      "description": "Use Hermes Tweet when Hermes Agent needs a native X/Twitter plugin for reading posts, exploring public data, and running explicitly gated tweet actions through…",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "signals": {
+        "github_stars": 10
+      }
+    },
     {
       "slug": "run-typescript-native-llm-eval-suites-with-evalite",
       "name": "Run TypeScript-native LLM eval suites with Evalite",
@@ -31370,7 +31419,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 13986045,
+        "npm_weekly_downloads": 14055937,
         "license": "MIT"
       }
     },
@@ -31384,7 +31433,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 103,
-        "npm_weekly_downloads": 2085734,
+        "npm_weekly_downloads": 2567917,
         "license": "Apache-2.0"
       }
     },
@@ -31424,7 +31473,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 27264,
-        "npm_weekly_downloads": 141107246,
+        "npm_weekly_downloads": 141710730,
         "license": "MIT"
       }
     },
@@ -31451,7 +31500,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 8721175,
+        "npm_weekly_downloads": 8706214,
         "license": "Apache-2.0"
       }
     },
@@ -31465,7 +31514,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 33245008,
+        "npm_weekly_downloads": 33250812,
         "license": "Apache-2.0"
       }
     },
@@ -31479,7 +31528,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3051,
-        "npm_weekly_downloads": 60513,
+        "npm_weekly_downloads": 60113,
         "license": "MIT"
       }
     },
@@ -31493,7 +31542,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1539,
-        "npm_weekly_downloads": 4949219,
+        "npm_weekly_downloads": 4978264,
         "license": "MIT"
       }
     },
@@ -31507,7 +31556,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 13986045,
+        "npm_weekly_downloads": 14055937,
         "license": "MIT"
       }
     },
@@ -31521,7 +31570,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1465,
-        "npm_weekly_downloads": 1070644,
+        "npm_weekly_downloads": 1072526,
         "license": "MIT"
       }
     },
@@ -31535,7 +31584,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 397,
-        "npm_weekly_downloads": 1241288,
+        "npm_weekly_downloads": 1252492,
         "license": "Apache-2.0"
       }
     },
@@ -31549,7 +31598,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 5610,
-        "npm_weekly_downloads": 1455344,
+        "npm_weekly_downloads": 1443633,
         "license": "MIT"
       }
     },
@@ -31588,7 +31637,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 24,
-        "npm_weekly_downloads": 5592,
+        "npm_weekly_downloads": 5586,
         "license": "Apache-2.0"
       }
     },
@@ -31616,7 +31665,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 811,
-        "npm_weekly_downloads": 8043338
+        "npm_weekly_downloads": 8076504
       }
     },
     {
@@ -31629,7 +31678,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 25248,
-        "npm_weekly_downloads": 2278258,
+        "npm_weekly_downloads": 2241043,
         "license": "Apache-2.0"
       }
     },
@@ -31746,7 +31795,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 712,
-        "npm_weekly_downloads": 70526
+        "npm_weekly_downloads": 67740
       }
     },
     {
@@ -31800,7 +31849,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1290,
-        "npm_weekly_downloads": 423,
+        "npm_weekly_downloads": 412,
         "license": "MIT"
       }
     },
@@ -31827,7 +31876,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 393,
-        "npm_weekly_downloads": 10588,
+        "npm_weekly_downloads": 12629,
         "license": "Apache-2.0"
       }
     },
@@ -31862,7 +31911,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 10942,
-        "npm_weekly_downloads": 26140449,
+        "npm_weekly_downloads": 26288763,
         "license": "Apache-2.0"
       }
     },
@@ -32013,7 +32062,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 33289,
-        "npm_weekly_downloads": 6352260,
+        "npm_weekly_downloads": 5810249,
         "license": "Apache-2.0"
       }
     },
@@ -32042,7 +32091,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 89986,
-        "npm_weekly_downloads": 63322984,
+        "npm_weekly_downloads": 63336844,
         "license": "Apache-2.0"
       }
     }

@@ -2,8 +2,44 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-19",
-  "total": 2627,
+  "total": 2631,
   "skills": [
+    {
+      "slug": "build-and-debug-ai-pipelines-in-an-ide-with-rocketride",
+      "name": "Build and debug AI pipelines in an IDE with RocketRide",
+      "title": "Build and debug AI pipelines in an IDE with RocketRide",
+      "description": "Use RocketRide to compose, run, observe, and deploy portable AI pipelines from an IDE or CLI across model providers, vector stores, and agent nodes.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "index-codebases-into-mcp-knowledge-graphs-with-codebase-memory-mcp",
+      "name": "Index codebases into MCP knowledge graphs with codebase-memory-mcp",
+      "title": "Index codebases into MCP knowledge graphs with codebase-memory-mcp",
+      "description": "Give coding agents a local MCP code intelligence graph for fast architecture, symbol, route, impact, and call-path queries across large repositories.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "build-go-mcp-servers-with-mcp-go",
+      "name": "Build Go MCP servers with MCP Go",
+      "title": "Build Go MCP servers with MCP Go",
+      "description": "Use MCP Go to implement typed Model Context Protocol servers in Go that expose tools, resources, prompts, and transport handlers to agent clients.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "hermes-tweet",
+      "name": "Hermes Tweet",
+      "title": "Hermes Tweet",
+      "description": "Use Hermes Tweet when Hermes Agent needs a native X/Twitter plugin for reading posts, exploring public data, and running explicitly gated tweet actions through…",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
     {
       "slug": "run-typescript-native-llm-eval-suites-with-evalite",
       "name": "Run TypeScript-native LLM eval suites with Evalite",

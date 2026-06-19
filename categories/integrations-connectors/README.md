@@ -79,9 +79,11 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Control Unity Editor scenes and assets through MCP for Unity](../../skills/control-unity-editor-scenes-and-assets-through-mcp-for-unity/) | 10.6k | — |
 | [Build and inspect MCP apps and servers with mcp-use](../../skills/build-and-inspect-mcp-apps-and-servers-with-mcp-use/) | 9.9k | 138.6k/wk |
 | [Bootstrap an OpenAPI spec from captured API traffic before client or test automation starts](../../skills/bootstrap-openapi-spec-from-captured-api-traffic-before-client-or-test-automation/) | 9.3k | — |
+| [Build Go MCP servers with MCP Go](../../skills/build-go-mcp-servers-with-mcp-go/) | 8.8k | — |
 | [AWS MCP Servers for Cloud Service Integration](../../skills/aws-mcp-servers-cloud-service-integration/) | 8.6k | — |
 | [Papermark Open Source Document Sharing Platform with Analytics](../../skills/papermark-document-sharing-analytics/) | 8.2k | — |
 | [Ghostfolio Open Source Wealth Management and Portfolio Tracking Platform](../../skills/ghostfolio-wealth-management-portfolio-tracking/) | 8.1k | — |
+| [Index codebases into MCP knowledge graphs with codebase-memory-mcp](../../skills/index-codebases-into-mcp-knowledge-graphs-with-codebase-memory-mcp/) | 7.3k | 2k/wk |
 | [Nango Integration Platform SDK](../../skills/nango-integration-platform-sdk/) | 7.1k | 17.7k/wk |
 | [Nango Open Source API Integration Platform](../../skills/nango-open-source-api-integration-platform/) | 7k | 15.6k/wk |
 | [Read and modify Figma designs from coding agents with Talk to Figma MCP](../../skills/read-and-modify-figma-designs-from-coding-agents-with-talk-to-figma-mcp/) | 6.8k | 11.1k/wk |
@@ -93,7 +95,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Render interactive MCP tool UIs with mcp-ui](../../skills/render-interactive-mcp-tool-uis-with-mcp-ui/) | 4.9k | 1.6M/wk |
 | [Atlassian MCP Server for Jira and Confluence](../../skills/atlassian-mcp-server-jira-confluence/) | 4.8k | — |
 | [Add temporal context memory to agent workflows with Zep](../../skills/add-temporal-context-memory-to-agent-workflows-with-zep/) | 4.6k | 463k/wk |
-| [Stripe MCP Server](../../skills/stripe-mcp-server/) | 4.4k | 14M/wk |
+| [Stripe MCP Server](../../skills/stripe-mcp-server/) | 4.4k | 14.1M/wk |
 | [Stripe Connect Account Provisioner](../../skills/stripe-connect-account-provisioner/) | 4.4k | 9.3M/wk |
 | [Stripe Connect Integration](../../skills/stripe-connect-integration/) | 4.4k | 9.3M/wk |
 | [Stripe Connect Marketplace Sync](../../skills/stripe-connect-marketplace-sync/) | 4.4k | 9.3M/wk |
@@ -109,7 +111,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Cloudflare MCP Servers for Workers, Security, and Observability](../../skills/cloudflare-mcp-servers-workers-security-observability/) | 3.6k | — |
 | [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | 3.4k | — |
 | [Svix Enterprise Webhook Delivery Service](../../skills/svix-enterprise-webhook-delivery-service/) | 3.2k | — |
-| [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | 3.1k | 60.5k/wk |
+| [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | 3.1k | 60.1k/wk |
 | [SendGrid Transactional Email Builder](../../skills/sendgrid-transactional-email-builder/) | 3k | 3.6M/wk |
 | [SendGrid Transactional Email Router](../../skills/sendgrid-transactional-email-router/) | 3k | 3.6M/wk |
 | [n8n-nodes-mcp Community Node for Model Context Protocol Workflows](../../skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows/) | 3k | 45.9k/wk |
@@ -120,7 +122,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [MetaMCP Unified MCP Server Aggregator and Gateway](../../skills/metamcp-unified-mcp-server-aggregator-gateway/) | 2.2k | — |
 | [Connect Azure DevOps projects, work items, repos, and pipelines to MCP agents](../../skills/connect-azure-devops-projects-work-items-repos-and-pipelines-to-mcp-agents/) | 1.7k | 334.3k/wk |
 | [Sync skills across Claude Code, Codex, OpenClaw, and other AI CLIs with Skillshare](../../skills/sync-skills-across-ai-coding-clis-with-skillshare/) | 1.6k | — |
-| [Twilio MCP Server](../../skills/twilio-mcp-server/) | 1.5k | 4.9M/wk |
+| [Twilio MCP Server](../../skills/twilio-mcp-server/) | 1.5k | 5M/wk |
 | [Twilio Programmable SMS Gateway](../../skills/twilio-programmable-sms-gateway/) | 1.5k | 3.7M/wk |
 | [Twilio Programmable Voice Router](../../skills/twilio-programmable-voice-router-2/) | 1.5k | 3.7M/wk |
 | [Twilio SMS & Voice Bridge](../../skills/twilio-sms-voice-bridge/) | 1.5k | 3.7M/wk |
@@ -143,7 +145,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Zapier Webhooks by Zapier Router](../../skills/zapier-webhooks-by-zapier-router/) | 484 | — |
 | [Mirror GitHub issues, pull requests, commits, and releases into SQLite for offline analysis](../../skills/mirror-github-issues-pull-requests-commits-and-releases-into-sqlite-for-offline-analysis/) | 461 | — |
 | [Give agents persistent semantic memory with Memora](../../skills/give-agents-persistent-semantic-memory-with-memora/) | 406 | — |
-| [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | 397 | 1.2M/wk |
+| [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | 397 | 1.3M/wk |
 | [HubSpot CRM Contact Enrichment Pipeline](../../skills/hubspot-crm-contact-enrichment-pipeline/) | 392 | 986.8k/wk |
 | [Hookdeck CLI for Webhook Development and Event Debugging](../../skills/hookdeck-cli-webhook-development-event-debugging/) | 353 | 9.1k/wk |
 | [Build and validate Shopify apps with the official Shopify AI Toolkit](../../skills/build-and-validate-shopify-apps-with-the-official-shopify-ai-toolkit/) | 348 | 17.6k/wk |
@@ -164,6 +166,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Connect MCP agents to BatchData property and address APIs](../../skills/connect-mcp-agents-to-batchdata-property-and-address-apis/) | 30 | — |
 | [Sync agent rules and skill files across coding assistants with AI Rules Sync](../../skills/sync-agent-rules-and-skill-files-across-coding-assistants-with-ai-rules-sync/) | 25 | 1.1k/wk |
 | [Run Shopify Admin product order customer and inventory workflows through MCP](../../skills/run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp/) | 15 | — |
+| [Hermes Tweet](../../skills/hermes-tweet/) | 10 | — |
 | [Mirror and back up OpenClaw workspaces to your own storage with openclaw-workspace-sync](../../skills/mirror-and-back-up-openclaw-workspaces-to-your-own-storage-with-openclaw-workspace-sync/) | 8 | 295/wk |
 | [Mirror OpenClaw workspaces and stream encrypted backups with openclaw-workspace-sync](../../skills/mirror-openclaw-workspaces-and-stream-encrypted-backups-with-openclaw-workspace-sync/) | 8 | 295/wk |
 | [Normalize international phone numbers into E.164 before CRM imports or messaging workflows](../../skills/normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows/) | — | 15.6M/wk |
