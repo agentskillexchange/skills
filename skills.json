@@ -1,8 +1,20 @@
 {
   "version": "2.0",
-  "total": 2632,
-  "generated": "2026-06-19",
+  "total": 2633,
+  "generated": "2026-06-20",
   "skills": [
+    {
+      "slug": "parse-agent-ready-pdfs-and-document-images-with-monkeyocr",
+      "name": "Parse agent-ready PDFs and document images with MonkeyOCR",
+      "title": "Parse agent-ready PDFs and document images with MonkeyOCR",
+      "description": "Run MonkeyOCR over PDFs, scanned pages, formulas, and tables to produce structured Markdown/text that downstream agents can ingest and reason over.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 6595
+      }
+    },
     {
       "slug": "expose-database-apis-and-sql-mcp-tools-with-azure-data-api-builder",
       "name": "Expose database APIs and SQL MCP tools with Azure Data API Builder",

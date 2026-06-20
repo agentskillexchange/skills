@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-06-19
-# Total: 2632 skills
+# Generated: 2026-06-20
+# Total: 2633 skills
+
+## Parse agent-ready PDFs and document images with MonkeyOCR
+slug: parse-agent-ready-pdfs-and-document-images-with-monkeyocr
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run MonkeyOCR over PDFs, scanned pages, formulas, and tables to produce structured Markdown/text that downstream agents can ingest and reason over.
+url: https://agentskillexchange.com/skills/parse-agent-ready-pdfs-and-document-images-with-monkeyocr/
 
 ## Expose database APIs and SQL MCP tools with Azure Data API Builder
 slug: expose-database-apis-and-sql-mcp-tools-with-azure-data-api-builder

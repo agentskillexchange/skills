@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2632 published skills** across **17 categories** · 2,269 security reviewed · Updated 2026-06-19 19:26 UTC
+> **2633 published skills** across **17 categories** · 2,269 security reviewed · Updated 2026-06-20 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -602,7 +602,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (197 skills)
+### 🔄 Data Extraction & Transformation (198 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -713,6 +713,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Extract structured text, metadata, tables, and images from mixed documents through an MCP server with Kreuzberg](skills/extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg/) | Expose one document-extraction surface to MCP-compatible agents so they can normalize PDFs, Office files, images,… | Security Reviewed | 7.6k | — |
 | [htmlq Command-Line HTML Content Extractor with CSS Selectors](skills/htmlq-command-line-html-content-extractor-css-selectors/) | htmlq is a command-line tool for extracting content from HTML using CSS selectors, functioning as the HTML… | Security Reviewed | 7.5k | — |
 | [Deploy document-to-JSON extraction APIs and ETL pipelines with Unstract](skills/deploy-document-to-json-extraction-apis-and-etl-pipelines-with-unstract/) | Use Unstract when an operator needs agents or automation pipelines to turn recurring PDFs, scans, and document… | Security Reviewed | 6.7k | — |
+| [Parse agent-ready PDFs and document images with MonkeyOCR](skills/parse-agent-ready-pdfs-and-document-images-with-monkeyocr/) | Run MonkeyOCR over PDFs, scanned pages, formulas, and tables to produce structured Markdown/text that downstream… | Security Reviewed | 6.6k | — |
 | [Migrate MySQL, SQLite, or CSV data into PostgreSQL with repeatable load files before cutover with pgloader](skills/migrate-mysql-sqlite-or-csv-data-into-postgresql-with-repeatable-load-files-before-cutover-with-pgloader/) | Move data into PostgreSQL with declarative load files, built-in type conversion, and repeatable migration runs… | Security Reviewed | 6.4k | — |
 | [Sync cloud and SaaS inventory into SQL tables for audits with CloudQuery](skills/sync-cloud-and-saas-inventory-into-sql-tables-for-audits-with-cloudquery/) | Extract cloud and SaaS configuration data into queryable tables so agents can run audits, drift checks, and evidence… | Security Reviewed | 6.4k | — |
 | [csvkit Python CSV Utility Suite](skills/csvkit-python-csv-utility-suite/) | csvkit is a suite of Python command-line utilities for converting to, working with, and analyzing CSV files. It… | Security Reviewed | 6.4k | — |
