@@ -13,7 +13,7 @@ tool_ecosystem:
   github_repo: "rvben/rumdl"
   github_stars: 1110
   npm_package: "rumdl"
-  npm_weekly_downloads: 0
+  npm_weekly_downloads: 5827
 ---
 
 # Lint and auto-format Markdown documentation before agents ship content with rumdl

@@ -13,7 +13,7 @@ tool_ecosystem:
   github_repo: "bradygaster/squad"
   github_stars: 2518
   npm_package: "@bradygaster/squad-cli"
-  npm_weekly_downloads: 0
+  npm_weekly_downloads: 2119
 ---
 
 # Coordinate persistent Copilot agent teams with Squad

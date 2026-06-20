@@ -13,7 +13,7 @@ tool_ecosystem:
   github_repo: "microsoft/playwright-cli"
   github_stars: 9956
   npm_package: "@playwright/cli"
-  npm_weekly_downloads: 0
+  npm_weekly_downloads: 596242
 ---
 
 # Drive token-efficient browser testing from coding agents with Playwright CLI

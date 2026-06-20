@@ -13,7 +13,7 @@ tool_ecosystem:
   github_repo: "affaan-m/ECC"
   github_stars: 186751
   npm_package: "ecc-universal"
-  npm_weekly_downloads: 0
+  npm_weekly_downloads: 3194
 ---
 
 # Install selected ECC agent skills and rules across coding harnesses

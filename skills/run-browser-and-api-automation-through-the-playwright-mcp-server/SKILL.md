@@ -13,7 +13,7 @@ tool_ecosystem:
   github_repo: "executeautomation/mcp-playwright"
   github_stars: 5489
   npm_package: "@executeautomation/playwright-mcp-server"
-  npm_weekly_downloads: 0
+  npm_weekly_downloads: 26278
 ---
 
 # Run browser and API automation through the Playwright MCP server

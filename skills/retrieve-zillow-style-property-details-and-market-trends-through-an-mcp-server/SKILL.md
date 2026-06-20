@@ -13,7 +13,7 @@ tool_ecosystem:
   github_repo: "sap156/zillow-mcp-server"
   github_stars: 40
   npm_package: "zillow-mcp-server"
-  npm_weekly_downloads: 0
+  npm_weekly_downloads: 7
 ---
 
 # Retrieve Zillow-style property details and market trends through an MCP server

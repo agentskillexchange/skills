@@ -13,7 +13,7 @@ tool_ecosystem:
   github_repo: "antoineschaller/shopify-mcp-server"
   github_stars: 15
   npm_package: "@akson/mcp-shopify"
-  npm_weekly_downloads: 0
+  npm_weekly_downloads: 27
 ---
 
 # Run Shopify Admin product order customer and inventory workflows through MCP

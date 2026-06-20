@@ -13,7 +13,7 @@ tool_ecosystem:
   github_repo: "CloakHQ/CloakBrowser"
   github_stars: 10239
   npm_package: "cloakbrowser"
-  npm_weekly_downloads: 0
+  npm_weekly_downloads: 46453
 ---
 
 # Run stealth Chromium browser automation with CloakBrowser

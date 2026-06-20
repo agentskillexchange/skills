@@ -13,7 +13,7 @@ tool_ecosystem:
   github_repo: "open-multi-agent/open-multi-agent"
   github_stars: 6088
   npm_package: "@open-multi-agent/core"
-  npm_weekly_downloads: 0
+  npm_weekly_downloads: 370
 ---
 
 # Orchestrate goal-driven TypeScript agent teams with Open Multi Agent
