@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-20
-# Total: 2633 skills
+# Total: 2634 skills
+
+## Parse multi-format RAG inputs with OmniParse
+slug: parse-multi-format-rag-inputs-with-omniparse
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run OmniParse locally or as an API service to turn documents, images, audio, video, and web pages into structured Markdown-ready inputs for agent and…
+url: https://agentskillexchange.com/skills/parse-multi-format-rag-inputs-with-omniparse/
 
 ## Parse agent-ready PDFs and document images with MonkeyOCR
 slug: parse-agent-ready-pdfs-and-document-images-with-monkeyocr

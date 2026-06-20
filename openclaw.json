@@ -2,8 +2,17 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-20",
-  "total": 2633,
+  "total": 2634,
   "skills": [
+    {
+      "slug": "parse-multi-format-rag-inputs-with-omniparse",
+      "name": "Parse multi-format RAG inputs with OmniParse",
+      "title": "Parse multi-format RAG inputs with OmniParse",
+      "description": "Run OmniParse locally or as an API service to turn documents, images, audio, video, and web pages into structured Markdown-ready inputs for agent and…",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "parse-agent-ready-pdfs-and-document-images-with-monkeyocr",
       "name": "Parse agent-ready PDFs and document images with MonkeyOCR",

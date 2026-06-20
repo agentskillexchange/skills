@@ -1,8 +1,20 @@
 {
   "version": "2.0",
-  "total": 2633,
+  "total": 2634,
   "generated": "2026-06-20",
   "skills": [
+    {
+      "slug": "parse-multi-format-rag-inputs-with-omniparse",
+      "name": "Parse multi-format RAG inputs with OmniParse",
+      "title": "Parse multi-format RAG inputs with OmniParse",
+      "description": "Run OmniParse locally or as an API service to turn documents, images, audio, video, and web pages into structured Markdown-ready inputs for agent and…",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 7613
+      }
+    },
     {
       "slug": "parse-agent-ready-pdfs-and-document-images-with-monkeyocr",
       "name": "Parse agent-ready PDFs and document images with MonkeyOCR",
@@ -1944,7 +1956,8 @@
       "framework": "Multi-Framework",
       "verification": "listed",
       "signals": {
-        "github_stars": 186751
+        "github_stars": 186751,
+        "npm_weekly_downloads": 3194
       }
     },
     {
@@ -2065,7 +2078,8 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 3507
+        "github_stars": 3507,
+        "npm_weekly_downloads": 8482
       }
     },
     {
@@ -2077,7 +2091,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 1110
+        "github_stars": 1110,
+        "npm_weekly_downloads": 5827
       }
     },
     {
@@ -2089,7 +2104,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 10239
+        "github_stars": 10239,
+        "npm_weekly_downloads": 46453
       }
     },
     {
@@ -2113,7 +2129,8 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 15
+        "github_stars": 15,
+        "npm_weekly_downloads": 27
       }
     },
     {
@@ -2137,7 +2154,8 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 40
+        "github_stars": 40,
+        "npm_weekly_downloads": 7
       }
     },
     {
@@ -2257,7 +2275,8 @@
       "framework": "Custom Agents",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 2518
+        "github_stars": 2518,
+        "npm_weekly_downloads": 2119
       }
     },
     {
@@ -2428,7 +2447,8 @@
       "framework": "Claude Code",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 74413
+        "github_stars": 74413,
+        "npm_weekly_downloads": 16958
       }
     },
     {
@@ -2452,7 +2472,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 6088
+        "github_stars": 6088,
+        "npm_weekly_downloads": 370
       }
     },
     {
@@ -2561,7 +2582,8 @@
       "framework": "Claude Code",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 9956
+        "github_stars": 9956,
+        "npm_weekly_downloads": 596242
       }
     },
     {
@@ -2573,7 +2595,8 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 5489
+        "github_stars": 5489,
+        "npm_weekly_downloads": 26278
       }
     },
     {
@@ -2693,7 +2716,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 7483
+        "github_stars": 7483,
+        "npm_weekly_downloads": 79091
       }
     },
     {

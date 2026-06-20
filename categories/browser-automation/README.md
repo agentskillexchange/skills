@@ -118,8 +118,8 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [SeleniumBase Python Browser Automation and Stealth Testing Framework](../../skills/seleniumbase-python-browser-automation-stealth-testing-framework/) | 12.6k | 17/wk |
 | [Nightwatch.js Integrated Browser and Mobile Testing Framework](../../skills/nightwatchjs-integrated-browser-mobile-testing-framework/) | 11.9k | 110.4k/wk |
 | [Chrome MCP Server Extension-Based Browser Automation for AI Agents](../../skills/chrome-mcp-server-extension-based-browser-automation-ai-agents/) | 11.2k | — |
-| [Run stealth Chromium browser automation with CloakBrowser](../../skills/run-stealth-chromium-browser-automation-with-cloakbrowser/) | 10.2k | — |
-| [Drive token-efficient browser testing from coding agents with Playwright CLI](../../skills/drive-token-efficient-browser-testing-from-coding-agents-with-playwright-cli/) | 10k | — |
+| [Run stealth Chromium browser automation with CloakBrowser](../../skills/run-stealth-chromium-browser-automation-with-cloakbrowser/) | 10.2k | 46.5k/wk |
+| [Drive token-efficient browser testing from coding agents with Playwright CLI](../../skills/drive-token-efficient-browser-testing-from-coding-agents-with-playwright-cli/) | 10k | 596.2k/wk |
 | [TestCafe Zero-Config End-to-End Browser Testing Framework](../../skills/testcafe-e2e-browser-testing/) | 9.9k | 202.8k/wk |
 | [Run an agent across browser and local file workflows with Magentic-UI](../../skills/run-an-agent-across-browser-and-local-file-workflows-with-magentic-ui/) | 9.9k | — |
 | [WebdriverIO Next-Gen Browser and Mobile Automation Framework](../../skills/webdriverio-browser-mobile-automation-framework/) | 9.8k | 2.7M/wk |
@@ -130,11 +130,11 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Rod Go Chrome DevTools Protocol Driver for Web Automation](../../skills/rod-go-cdp-browser-automation/) | 6.8k | — |
 | [Steel Browser Open Source API for AI Agent Web Automation](../../skills/steel-browser-api-ai-agent-web-automation/) | 6.8k | — |
 | [Control a real browser from MCP clients with Browser MCP](../../skills/control-a-real-browser-from-mcp-clients-with-browser-mcp/) | 6.6k | 29.8k/wk |
-| [Run browser and API automation through the Playwright MCP server](../../skills/run-browser-and-api-automation-through-the-playwright-mcp-server/) | 5.5k | — |
+| [Run browser and API automation through the Playwright MCP server](../../skills/run-browser-and-api-automation-through-the-playwright-mcp-server/) | 5.5k | 26.3k/wk |
 | [Pa11y Accessibility Testing CLI and CI](../../skills/pa11y-accessibility-testing-cli-and-ci/) | 4.4k | 221.7k/wk |
 | [Nodriver Async Undetected Chrome Browser Automation for Python](../../skills/nodriver-undetected-chrome-automation/) | 4k | — |
 | [Taiko Smart-Selector Browser Automation for Node.js](../../skills/taiko-smart-selector-browser-automation-nodejs/) | 3.7k | 12.3k/wk |
-| [Let agents control a logged-in Chrome browser through Playwriter MCP](../../skills/let-agents-control-a-logged-in-chrome-browser-through-playwriter-mcp/) | 3.5k | — |
+| [Let agents control a logged-in Chrome browser through Playwriter MCP](../../skills/let-agents-control-a-logged-in-chrome-browser-through-playwriter-mcp/) | 3.5k | 8.5k/wk |
 | [Test agent-written web changes in a real browser and hand failures back for repair with Expect](../../skills/test-agent-written-web-changes-in-a-real-browser-and-hand-failures-back-for-repair-with-expect/) | 3.4k | 24.5k/wk |
 | [Browserbase MCP Server](../../skills/browserbase-mcp-server/) | 3.3k | 907/wk |
 | [Run blocked-site browser tasks through anti-bot friendly sessions with Camofox Browser](../../skills/run-blocked-site-browser-tasks-through-anti-bot-friendly-sessions-with-camofox-browser/) | 2.9k | — |

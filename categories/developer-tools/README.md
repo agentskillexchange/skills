@@ -31,8 +31,8 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Playwright E2E Test Generator](../../skills/playwright-e2e-test-generator/) | ⬇ 47.9M/wk |
 | [Vite Plugin Hot Module Analyzer](../../skills/vite-plugin-hmr-analyzer/) | ⬇ 96.8M/wk |
 | [NestJS — Progressive Node.js Framework for Server-Side Applications](../../skills/nestjs-progressive-nodejs-framework/) | ⬇ 10.5M/wk |
+| [Preserve Claude Code session memory with Claude Mem](../../skills/preserve-claude-code-session-memory-with-claude-mem/) | ⬇ 17k/wk |
 | [Webpack Bundle Analyzer Agent](../../skills/webpack-bundle-analyzer-agent/) | ⬇ 44.5M/wk |
-| [Docusaurus React Documentation Framework by Meta](../../skills/docusaurus-react-documentation-framework-meta/) | ⬇ 16.5k/wk |
 
 ---
 
@@ -62,7 +62,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [vLLM High-Throughput LLM Serving Engine with PagedAttention](../../skills/vllm-high-throughput-llm-serving/) | 75.1k | — |
 | [NestJS — Progressive Node.js Framework for Server-Side Applications](../../skills/nestjs-progressive-nodejs-framework/) | 75.1k | 10.5M/wk |
 | [LobeHub Multi-Agent Chat Platform with MCP Plugin Ecosystem](../../skills/lobehub-multi-agent-chat-platform-mcp-plugins/) | 74.9k | — |
-| [Preserve Claude Code session memory with Claude Mem](../../skills/preserve-claude-code-session-memory-with-claude-mem/) | 74.4k | — |
+| [Preserve Claude Code session memory with Claude Mem](../../skills/preserve-claude-code-session-memory-with-claude-mem/) | 74.4k | 17k/wk |
 | [Run software engineering tasks with OpenHands](../../skills/run-software-engineering-tasks-with-openhands/) | 74.2k | — |
 | [Redis MCP Server](../../skills/redis-mcp-server/) | 73.8k | — |
 | [Docker Compose Generator Skill](../../skills/docker-compose-generator-skill/) | 71.6k | — |
