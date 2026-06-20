@@ -2,8 +2,26 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-20",
-  "total": 2634,
+  "total": 2636,
   "skills": [
+    {
+      "slug": "add-multimodal-lifelong-memory-to-mcp-and-python-agents-with-simplemem",
+      "name": "Add multimodal lifelong memory to MCP and Python agents with SimpleMem",
+      "title": "Add multimodal lifelong memory to MCP and Python agents with SimpleMem",
+      "description": "Use SimpleMem to store, compress, index, and retrieve text or multimodal memories for agents through MCP or Python integrations.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "build-multimodal-retrieval-context-layers-with-deep-lake",
+      "name": "Build multimodal retrieval context layers with Deep Lake",
+      "title": "Build multimodal retrieval context layers with Deep Lake",
+      "description": "Store raw multimodal data, embeddings, and vector-search indexes in Deep Lake so agents can retrieve grounded context for RAG and analysis workflows.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "parse-multi-format-rag-inputs-with-omniparse",
       "name": "Parse multi-format RAG inputs with OmniParse",

@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-20
-# Total: 2634 skills
+# Total: 2636 skills
+
+## Add multimodal lifelong memory to MCP and Python agents with SimpleMem
+slug: add-multimodal-lifelong-memory-to-mcp-and-python-agents-with-simplemem
+category: Integrations & Connectors
+framework: MCP
+verification: Security Reviewed
+description: Use SimpleMem to store, compress, index, and retrieve text or multimodal memories for agents through MCP or Python integrations.
+url: https://agentskillexchange.com/skills/add-multimodal-lifelong-memory-to-mcp-and-python-agents-with-simplemem/
+
+## Build multimodal retrieval context layers with Deep Lake
+slug: build-multimodal-retrieval-context-layers-with-deep-lake
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Store raw multimodal data, embeddings, and vector-search indexes in Deep Lake so agents can retrieve grounded context for RAG and analysis workflows.
+url: https://agentskillexchange.com/skills/build-multimodal-retrieval-context-layers-with-deep-lake/
 
 ## Parse multi-format RAG inputs with OmniParse
 slug: parse-multi-format-rag-inputs-with-omniparse

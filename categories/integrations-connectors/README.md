@@ -109,9 +109,10 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Use MCP Context Forge as an MCP gateway and registry](../../skills/use-mcp-context-forge-as-an-mcp-gateway-and-registry/) | 3.8k | — |
 | [AWS S3 & SQS Pipeline Connector](../../skills/aws-s3-sqs-pipeline-connector/) | 3.6k | — |
 | [Cloudflare MCP Servers for Workers, Security, and Observability](../../skills/cloudflare-mcp-servers-workers-security-observability/) | 3.6k | — |
+| [Add multimodal lifelong memory to MCP and Python agents with SimpleMem](../../skills/add-multimodal-lifelong-memory-to-mcp-and-python-agents-with-simplemem/) | 3.5k | — |
 | [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | 3.4k | — |
 | [Svix Enterprise Webhook Delivery Service](../../skills/svix-enterprise-webhook-delivery-service/) | 3.2k | — |
-| [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | 3.1k | 60.1k/wk |
+| [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | 3.1k | 58.7k/wk |
 | [SendGrid Transactional Email Builder](../../skills/sendgrid-transactional-email-builder/) | 3k | 3.6M/wk |
 | [SendGrid Transactional Email Router](../../skills/sendgrid-transactional-email-router/) | 3k | 3.6M/wk |
 | [n8n-nodes-mcp Community Node for Model Context Protocol Workflows](../../skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows/) | 3k | 45.9k/wk |
