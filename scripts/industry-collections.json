@@ -2849,6 +2849,7 @@
         "query-clickhouse-analytics-safely-from-mcp-clients",
         "serve-production-agentic-rag-through-r2r",
         "build-document-search-layers-for-ai-apps-with-morphik",
+        "parse-multi-format-rag-inputs-with-omniparse",
         "add-postgres-native-vector-retrieval-to-agent-and-rag-workflows-with-pgvector",
         "generate-and-evaluate-retrieval-embeddings-with-flagembedding",
         "scale-agent-retrieval-workloads-with-milvus",
@@ -3059,6 +3060,11 @@
         "build-document-search-layers-for-ai-apps-with-morphik": {
           "why_here": "Adds document ingestion and search quality tuning before AI apps or agents consume retrieval context.",
           "persona": "Retrieval engineer / AI data platform builder",
+          "install_complexity": "High"
+        },
+        "parse-multi-format-rag-inputs-with-omniparse": {
+          "why_here": "Converts PDFs, tables, images, audio, video, and web pages into structured text/markdown so RAG pipelines receive reviewable multi-format inputs.",
+          "persona": "Retrieval engineer / data ingestion platform owner",
           "install_complexity": "High"
         },
         "add-postgres-native-vector-retrieval-to-agent-and-rag-workflows-with-pgvector": {
