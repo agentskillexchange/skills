@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-06-20
-# Total: 2636 skills
+# Generated: 2026-06-21
+# Total: 2638 skills
+
+## Generate local subtitles for video editing workflows with Auto Subs
+slug: generate-local-subtitles-for-video-editing-workflows-with-auto-subs
+category: Media & Transcription
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Auto Subs when an operator or media agent needs local-first subtitle generation, editing, and handoff into DaVinci Resolve, Premiere Pro, After Effects, or…
+url: https://agentskillexchange.com/skills/generate-local-subtitles-for-video-editing-workflows-with-auto-subs/
+
+## Run durable scheduled agent jobs in Node.js with Agenda
+slug: run-durable-scheduled-agent-jobs-in-node-js-with-agenda
+category: Templates & Workflows
+framework: Custom Agents
+verification: Security Reviewed
+description: Use Agenda when a custom Node.js agent needs persistent scheduled jobs, retries, locking, and background workers backed by MongoDB, PostgreSQL, or Redis instead of…
+url: https://agentskillexchange.com/skills/run-durable-scheduled-agent-jobs-in-node-js-with-agenda/
 
 ## Add multimodal lifelong memory to MCP and Python agents with SimpleMem
 slug: add-multimodal-lifelong-memory-to-mcp-and-python-agents-with-simplemem

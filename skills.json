@@ -1,8 +1,33 @@
 {
   "version": "2.0",
-  "total": 2636,
-  "generated": "2026-06-20",
+  "total": 2638,
+  "generated": "2026-06-21",
   "skills": [
+    {
+      "slug": "generate-local-subtitles-for-video-editing-workflows-with-auto-subs",
+      "name": "Generate local subtitles for video editing workflows with Auto Subs",
+      "title": "Generate local subtitles for video editing workflows with Auto Subs",
+      "description": "Use Auto Subs when an operator or media agent needs local-first subtitle generation, editing, and handoff into DaVinci Resolve, Premiere Pro, After Effects, or…",
+      "category": "Media & Transcription",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 3649
+      }
+    },
+    {
+      "slug": "run-durable-scheduled-agent-jobs-in-node-js-with-agenda",
+      "name": "Run durable scheduled agent jobs in Node.js with Agenda",
+      "title": "Run durable scheduled agent jobs in Node.js with Agenda",
+      "description": "Use Agenda when a custom Node.js agent needs persistent scheduled jobs, retries, locking, and background workers backed by MongoDB, PostgreSQL, or Redis instead of…",
+      "category": "Templates & Workflows",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 9677,
+        "npm_weekly_downloads": 167228
+      }
+    },
     {
       "slug": "add-multimodal-lifelong-memory-to-mcp-and-python-agents-with-simplemem",
       "name": "Add multimodal lifelong memory to MCP and Python agents with SimpleMem",

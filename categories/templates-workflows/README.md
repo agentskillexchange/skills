@@ -126,6 +126,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Build and trace multi-agent workflows with Microsoft Agent Framework](../../skills/build-and-trace-multi-agent-workflows-with-microsoft-agent-framework/) | 10.1k | — |
 | [Run Nature-style academic writing and figure workflows with Nature Skills](../../skills/run-nature-style-academic-writing-and-figure-workflows-with-nature-skills/) | 10k | — |
 | [Deploy OpenClaw on Cloudflare Workers with Moltworker](../../skills/deploy-openclaw-on-cloudflare-workers-with-moltworker/) | 9.9k | — |
+| [Run durable scheduled agent jobs in Node.js with Agenda](../../skills/run-durable-scheduled-agent-jobs-in-node-js-with-agenda/) | 9.7k | 167.2k/wk |
 | [Automate ML research loops with ARIS skills](../../skills/automate-ml-research-loops-with-aris-skills/) | 9.6k | — |
 | [Compose router, evaluator, and handoff workflows over MCP servers with mcp-agent](../../skills/compose-router-evaluator-and-handoff-workflows-over-mcp-servers-with-mcp-agent/) | 8.3k | 29.2k/wk |
 | [Coordinate issue-backed parallel coding worktrees with CCPM](../../skills/coordinate-issue-backed-parallel-coding-worktrees-with-ccpm/) | 8k | — |
