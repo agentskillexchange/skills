@@ -18,7 +18,7 @@
 | 🧭 | [**AI Agency Operations & FDE Workflows**](ai-agency-operations.md) | 27 | Client-facing AI delivery, forward deployed engineering workflows, browser automation, implementation systems, documentation, spreadsheets, proposals, and client handoff workflows. |
 | 🛠️ | [**Infrastructure, SRE & Incident Operations**](infrastructure-sre-incident-operations.md) | 24 | Production reliability workflows for Kubernetes, incidents, observability, backups, deploy safety, infrastructure drift, alerts, and runbook-driven debugging. |
 | 🛡️ | [**Security Operations & GRC Workflows**](security-operations-grc-workflows.md) | 26 | Security operations and governance workflows for dependency risk, secrets, CI hardening, agent guardrails, approvals, policy evidence, threat hunting, red-team checks, and audit-ready releases. |
-| 🗄️ | [**Data Platform & Analytics Engineering**](data-platform-analytics-engineering.md) | 33 | Data engineering and analytics operations workflows for SQL, dbt, Airflow, warehouses, Postgres, CSV cleanup, schema quality, retrieval indexes, data catalogs, dashboards, and query tuning. |
+| 🗄️ | [**Data Platform & Analytics Engineering**](data-platform-analytics-engineering.md) | 34 | Data engineering and analytics operations workflows for SQL, dbt, Airflow, warehouses, Postgres, CSV cleanup, schema quality, retrieval indexes, data catalogs, dashboards, and query tuning. |
 
 ---
 
