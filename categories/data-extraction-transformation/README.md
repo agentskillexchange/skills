@@ -186,6 +186,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [XML XSLT Transform Pipeline](../../skills/xml-xslt-transform-pipeline/) | 3k | — |
 | [Prepare local retrieval embeddings with FastEmbed](../../skills/prepare-local-retrieval-embeddings-with-fastembed/) | 3k | — |
 | [Postgres MCP Pro](../../skills/postgres-mcp-pro/) | 2.8k | — |
+| [Convert complex PDFs and document images into agent-ready Markdown with OCRFlux](../../skills/convert-complex-pdfs-and-document-images-into-agent-ready-markdown-with-ocrflux/) | 2.5k | — |
 | [Diff nested JSON, API responses, and config snapshots before approving changes](../../skills/diff-nested-json-api-responses-and-config-snapshots-before-approving-changes/) | 2.5k | — |
 | [Meltano Declarative ELT Data Integration Engine](../../skills/meltano-declarative-elt-data-integration-engine/) | 2.4k | — |
 | [Enrich Paperless-ngx documents with AI-generated titles tags and correspondents using paperless-gpt](../../skills/enrich-paperless-ngx-documents-with-ai-generated-titles-tags-and-correspondents-using-paperless-gpt/) | 2.3k | — |

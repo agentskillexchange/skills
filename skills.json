@@ -1,8 +1,20 @@
 {
   "version": "2.0",
-  "total": 2638,
+  "total": 2639,
   "generated": "2026-06-21",
   "skills": [
+    {
+      "slug": "convert-complex-pdfs-and-document-images-into-agent-ready-markdown-with-ocrflux",
+      "name": "Convert complex PDFs and document images into agent-ready Markdown with OCRFlux",
+      "title": "Convert complex PDFs and document images into agent-ready Markdown with OCRFlux",
+      "description": "Use OCRFlux when agents need local PDF or image parsing into Markdown/JSONL with layout-aware OCR, table handling, and cross-page paragraph or table merging.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 2514
+      }
+    },
     {
       "slug": "generate-local-subtitles-for-video-editing-workflows-with-auto-subs",
       "name": "Generate local subtitles for video editing workflows with Auto Subs",

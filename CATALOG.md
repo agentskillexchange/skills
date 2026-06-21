@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2638 published skills** across **17 categories** · 2,275 security reviewed · Updated 2026-06-21 01:26 UTC
+> **2639 published skills** across **17 categories** · 2,275 security reviewed · Updated 2026-06-21 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -602,7 +602,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (200 skills)
+### 🔄 Data Extraction & Transformation (201 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -754,6 +754,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | 3k | — |
 | [Prepare local retrieval embeddings with FastEmbed](skills/prepare-local-retrieval-embeddings-with-fastembed/) | Generate dense, sparse, image, and reranking embeddings locally before writing vectors into Qdrant or another… | Security Reviewed | 3k | — |
 | [Postgres MCP Pro](skills/postgres-mcp-pro/) | Query, analyze, and tune PostgreSQL databases through your AI agent with safe access controls. Beyond basic SQL… | Security Reviewed | 2.8k | — |
+| [Convert complex PDFs and document images into agent-ready Markdown with OCRFlux](skills/convert-complex-pdfs-and-document-images-into-agent-ready-markdown-with-ocrflux/) | Use OCRFlux when agents need local PDF or image parsing into Markdown/JSONL with layout-aware OCR, table handling,… | Security Reviewed | 2.5k | — |
 | [Diff nested JSON, API responses, and config snapshots before approving changes](skills/diff-nested-json-api-responses-and-config-snapshots-before-approving-changes/) | Uses DeepDiff to compare structured objects deeply and return precise additions, removals, value changes, and deltas… | Security Reviewed | 2.5k | — |
 | [Meltano Declarative ELT Data Integration Engine](skills/meltano-declarative-elt-data-integration-engine/) | Meltano is an open-source, CLI-first ELT platform built on the Singer specification. It provides declarative,… | Published | 2.4k | — |
 | [Enrich Paperless-ngx documents with AI-generated titles tags and correspondents using paperless-gpt](skills/enrich-paperless-ngx-documents-with-ai-generated-titles-tags-and-correspondents-using-paperless-gpt/) | Take an OCR archive that already exists in Paperless-ngx and push smarter titles, tags, and document metadata back… | Security Reviewed | 2.3k | — |

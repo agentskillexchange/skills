@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-21
-# Total: 2638 skills
+# Total: 2639 skills
+
+## Convert complex PDFs and document images into agent-ready Markdown with OCRFlux
+slug: convert-complex-pdfs-and-document-images-into-agent-ready-markdown-with-ocrflux
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use OCRFlux when agents need local PDF or image parsing into Markdown/JSONL with layout-aware OCR, table handling, and cross-page paragraph or table merging.
+url: https://agentskillexchange.com/skills/convert-complex-pdfs-and-document-images-into-agent-ready-markdown-with-ocrflux/
 
 ## Generate local subtitles for video editing workflows with Auto Subs
 slug: generate-local-subtitles-for-video-editing-workflows-with-auto-subs
