@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-06-21
-# Total: 2639 skills
+# Generated: 2026-06-22
+# Total: 2640 skills
+
+## Ship AG2 multi-agent workflows behind APIs with FastAgency
+slug: ship-ag2-multi-agent-workflows-behind-apis-with-fastagency
+category: Templates & Workflows
+framework: Custom Agents
+verification: Security Reviewed
+description: Turn an AG2 multi-agent prototype into a reusable console, web, REST API, or broker-backed service with FastAgency.
+url: https://agentskillexchange.com/skills/ship-ag2-multi-agent-workflows-behind-apis-with-fastagency/
 
 ## Convert complex PDFs and document images into agent-ready Markdown with OCRFlux
 slug: convert-complex-pdfs-and-document-images-into-agent-ready-markdown-with-ocrflux

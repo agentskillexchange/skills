@@ -1,9 +1,18 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-06-21",
-  "total": 2639,
+  "generated": "2026-06-22",
+  "total": 2640,
   "skills": [
+    {
+      "slug": "ship-ag2-multi-agent-workflows-behind-apis-with-fastagency",
+      "name": "Ship AG2 multi-agent workflows behind APIs with FastAgency",
+      "title": "Ship AG2 multi-agent workflows behind APIs with FastAgency",
+      "description": "Turn an AG2 multi-agent prototype into a reusable console, web, REST API, or broker-backed service with FastAgency.",
+      "category": "Templates & Workflows",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "convert-complex-pdfs-and-document-images-into-agent-ready-markdown-with-ocrflux",
       "name": "Convert complex PDFs and document images into agent-ready Markdown with OCRFlux",

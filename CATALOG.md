@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2639 published skills** across **17 categories** · 2,276 security reviewed · Updated 2026-06-21 19:26 UTC
+> **2640 published skills** across **17 categories** · 2,276 security reviewed · Updated 2026-06-22 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1011,7 +1011,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Update repository docs automatically after code changes and open review PRs](skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | Use GitHub Next's update-docs workflow when code changes should trigger documentation maintenance instead of waiting… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (186 skills)
+### 📄 Templates & Workflows (187 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1170,6 +1170,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Self-Improvement / Learnings Capture](skills/self-improvement-learnings-capture/) | Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions. | Published | 627 | — |
 | [Sync dbt schema YAML and inherited column metadata before docs drift accumulates with dbt-osmosis](skills/sync-dbt-schema-yaml-and-inherited-column-metadata-before-docs-drift-accumulates-with-dbt-osmosis/) | Keep dbt schema YAML and column documentation aligned with the project so stale metadata does not pile up between… | Security Reviewed | 622 | — |
 | [Extract translation keys from code and maintain locale catalogs with i18next-parser](skills/extract-translation-keys-from-code-and-maintain-locale-catalogs-i18next-parser/) | Use i18next-parser when an agent needs to scan a codebase, find translation calls, and update locale resource files… | Security Reviewed | 556 | 2.2M/wk |
+| [Ship AG2 multi-agent workflows behind APIs with FastAgency](skills/ship-ag2-multi-agent-workflows-behind-apis-with-fastagency/) | Turn an AG2 multi-agent prototype into a reusable console, web, REST API, or broker-backed service with FastAgency. | Security Reviewed | 540 | — |
 | [Railway App Deployer](skills/railway-app-deployer/) | Railway App Deployer is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 523 | 143.6k/wk |
 | [Evolve reusable coding-agent skills from failed trajectories with EvoSkill](skills/evolve-reusable-coding-agent-skills-from-failed-trajectories-with-evoskill/) | Mine failed agent runs for reusable skills, benchmark the candidates, and keep only the variants that improve a… | Security Reviewed | 489 | — |
 | [Coordinate multiple CLI agents through sessions, handoffs, and terminal control APIs with CLI Agent Orchestrator](skills/coordinate-multiple-cli-agents-through-sessions-handoffs-and-terminal-control-apis-with-cli-agent-orchestrator/) | Lets an agent supervisor spawn and steer isolated terminal-based worker agents with explicit handoff, assign, and… | Security Reviewed | 473 | — |

@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C639-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C640-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C276-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,639 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,640 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 </div>
 
@@ -49,7 +49,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Build multimodal retrieval context layers with Deep Lake](skills/build-multimodal-retrieval-context-layers-with-deep-lake/)** — Store raw multimodal data, embeddings, and vector-search indexes in Deep Lake so agents can retrieve grounded context for RAG and analysis workflows.
+**[Use Dify for production agentic workflow apps](skills/use-dify-for-production-agentic-workflow-apps/)** — Build, test, and operate agentic workflow apps in Dify when an operator needs a governed path from prototype to production.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -85,6 +85,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Ship AG2 multi-agent workflows behind APIs with FastAgency](skills/ship-ag2-multi-agent-workflows-behind-apis-with-fastagency/) | Turn an AG2 multi-agent prototype into a reusable console, web, REST API, or broker-backed service with FastAgency | 540 | Templates & Workflows |
 | [Convert complex PDFs and document images into agent-ready Markdown with OCRFlux](skills/convert-complex-pdfs-and-document-images-into-agent-ready-markdown-with-ocrflux/) | Use OCRFlux when agents need local PDF or image parsing into Markdown/JSONL with layout-aware OCR, table handling, and... | 2.5k | Data Extraction & Transformation |
 | [Generate local subtitles for video editing workflows with Auto Subs](skills/generate-local-subtitles-for-video-editing-workflows-with-auto-subs/) | Use Auto Subs when an operator or media agent needs local-first subtitle generation, editing, and handoff into DaVinci... | 3.6k | Media & Transcription |
 | [Run durable scheduled agent jobs in Node.js with Agenda](skills/run-durable-scheduled-agent-jobs-in-node-js-with-agenda/) | Use Agenda when a custom Node.js agent needs persistent scheduled jobs, retries, locking, and background workers backed by... | 9.7k | Templates & Workflows |
@@ -94,7 +95,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Parse agent-ready PDFs and document images with MonkeyOCR](skills/parse-agent-ready-pdfs-and-document-images-with-monkeyocr/) | Run MonkeyOCR over PDFs, scanned pages, formulas, and tables to produce structured Markdown/text that downstream agents can ingest... | 6.6k | Data Extraction & Transformation |
 | [Expose database APIs and SQL MCP tools with Azure Data API Builder](skills/expose-database-apis-and-sql-mcp-tools-with-azure-data-api-builder/) | Use Azure Data API Builder to generate secure REST, GraphQL, and SQL MCP access for supported databases so... | 1.4k | Integrations & Connectors |
 | [Build and debug AI pipelines in an IDE with RocketRide](skills/build-and-debug-ai-pipelines-in-an-ide-with-rocketride/) | Use RocketRide to compose, run, observe, and deploy portable AI pipelines from an IDE or CLI across model... | 3.9k | Developer Tools |
-| [Index codebases into MCP knowledge graphs with codebase-memory-mcp](skills/index-codebases-into-mcp-knowledge-graphs-with-codebase-memory-mcp/) | Give coding agents a local MCP code intelligence graph for fast architecture, symbol, route, impact, and call-path queries... | 7.3k | Integrations & Connectors |
 
 ---
 
@@ -107,11 +107,11 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Coordinate multi-agent Claude Code and Codex workflows with Ruflo](skills/coordinate-multi-agent-claude-code-and-codex-workflows-with-ruflo/) | Install Ruflo when an operator needs Claude Code or Codex agents to coordinate swarms, memory, hooks, and MCP... | 59.0k | Templates & Workflows |
 | [Run DeepSeek-oriented terminal coding workflows with Reasonix](skills/run-deepseek-oriented-terminal-coding-workflows-with-reasonix/) | Use Reasonix when an operator wants a persistent terminal coding agent tuned for DeepSeek-style prefix caching, project memory... | 21.8k | Developer Tools |
 | [Run durable scheduled agent jobs in Node.js with Agenda](skills/run-durable-scheduled-agent-jobs-in-node-js-with-agenda/) | Use Agenda when a custom Node.js agent needs persistent scheduled jobs, retries, locking, and background workers backed by... | 9.7k | Templates & Workflows |
+| [Build portable single-file agent memory with Memvid](skills/build-portable-single-file-agent-memory-with-memvid/) | Use Memvid when an agent needs local, portable long-term memory and retrieval without running a vector database or... | 15.7k | Integrations & Connectors |
 | [Build managed document parsing pipelines with LlamaCloud Services](skills/build-managed-document-parsing-pipelines-with-llamacloud-services/) | Use LlamaCloud Services to parse, index, and manage document knowledge pipelines that feed LlamaIndex retrieval and agent workflows | 4.2k | Data Extraction & Transformation |
 | [Extract OCR-ready Markdown from documents with Zerox](skills/extract-ocr-ready-markdown-from-documents-with-zerox/) | Use Zerox to convert PDFs, images, and office documents into Markdown or structured extraction outputs using vision models | 12.2k | Data Extraction & Transformation |
-| [Build portable single-file agent memory with Memvid](skills/build-portable-single-file-agent-memory-with-memvid/) | Use Memvid when an agent needs local, portable long-term memory and retrieval without running a vector database or... | 15.7k | Integrations & Connectors |
 | [Trace coding-agent and LLM workflows with OpenLIT](skills/trace-coding-agent-and-llm-workflows-with-openlit/) | Use OpenLIT to instrument coding agents and LLM applications with OpenTelemetry traces, metrics, costs, prompts, tool calls, and... | 2.5k | Monitoring & Alerts |
-| [Connect accounting agents to Xero through MCP](skills/connect-accounting-agents-to-xero-through-mcp/) | Use Xero MCP Server to give approved MCP clients controlled access to Xero accounting data, reports, invoices, contacts... | 294 | Integrations & Connectors |
+| [Index codebases into MCP knowledge graphs with codebase-memory-mcp](skills/index-codebases-into-mcp-knowledge-graphs-with-codebase-memory-mcp/) | Give coding agents a local MCP code intelligence graph for fast architecture, symbol, route, impact, and call-path queries... | 7.3k | Integrations & Connectors |
 | [Embed an in-page GUI agent with Page Agent](skills/embed-an-in-page-gui-agent-with-page-agent/) | Add a JavaScript GUI agent to a web app so users or agents can complete UI tasks through... | 18.6k | Browser Automation |
 | [Run local Pi coding-agent workflows with sandbox and session-sharing guardrails](skills/run-local-pi-coding-agent-workflows-with-sandbox-and-session-sharing-guardrails/) | Use Pi when an operator needs a local coding-agent CLI with explicit sandboxing, provider setup, and reviewable session... | 63.1k | Developer Tools |
 
@@ -125,7 +125,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 234 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 201 | ETL pipelines, parsing, format conversion |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 186 | Scaffolders, boilerplate generators, workflow templates |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 187 | Scaffolders, boilerplate generators, workflow templates |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 185 | Linting, code review, test generators, coverage |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 173 | Incident response, troubleshooting, system diagnostics |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 144 | Metrics, alerting rules, observability |
@@ -200,7 +200,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,639 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,640 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,276 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

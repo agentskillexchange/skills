@@ -1,8 +1,20 @@
 {
   "version": "2.0",
-  "total": 2639,
-  "generated": "2026-06-21",
+  "total": 2640,
+  "generated": "2026-06-22",
   "skills": [
+    {
+      "slug": "ship-ag2-multi-agent-workflows-behind-apis-with-fastagency",
+      "name": "Ship AG2 multi-agent workflows behind APIs with FastAgency",
+      "title": "Ship AG2 multi-agent workflows behind APIs with FastAgency",
+      "description": "Turn an AG2 multi-agent prototype into a reusable console, web, REST API, or broker-backed service with FastAgency.",
+      "category": "Templates & Workflows",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 540
+      }
+    },
     {
       "slug": "convert-complex-pdfs-and-document-images-into-agent-ready-markdown-with-ocrflux",
       "name": "Convert complex PDFs and document images into agent-ready Markdown with OCRFlux",
