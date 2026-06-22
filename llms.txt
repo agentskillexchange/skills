@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-22
-# Total: 2640 skills
+# Total: 2642 skills
+
+## Connect MCP clients to JetBrains IDE project tools
+slug: connect-mcp-clients-to-jetbrains-ide-project-tools
+category: Developer Tools
+framework: MCP
+verification: Security Reviewed
+description: Use the built-in JetBrains MCP server to let Codex, Claude Desktop, Cursor, VS Code, and other MCP clients inspect and operate an open IntelliJ-based…
+url: https://agentskillexchange.com/skills/connect-mcp-clients-to-jetbrains-ide-project-tools/
+
+## Prepare bid proposal drafts and compliance checks with OpenBidKit Yibiao
+slug: prepare-bid-proposal-drafts-and-compliance-checks-with-openbidkit-yibiao
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use OpenBidKit Yibiao to turn tender materials, company knowledge, and model-provider settings into reviewable bid proposal drafts with reuse and risk-check workspaces.
+url: https://agentskillexchange.com/skills/prepare-bid-proposal-drafts-and-compliance-checks-with-openbidkit-yibiao/
 
 ## Ship AG2 multi-agent workflows behind APIs with FastAgency
 slug: ship-ag2-multi-agent-workflows-behind-apis-with-fastagency

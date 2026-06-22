@@ -2,8 +2,26 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-22",
-  "total": 2640,
+  "total": 2642,
   "skills": [
+    {
+      "slug": "connect-mcp-clients-to-jetbrains-ide-project-tools",
+      "name": "Connect MCP clients to JetBrains IDE project tools",
+      "title": "Connect MCP clients to JetBrains IDE project tools",
+      "description": "Use the built-in JetBrains MCP server to let Codex, Claude Desktop, Cursor, VS Code, and other MCP clients inspect and operate an open IntelliJ-based…",
+      "category": "Developer Tools",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "prepare-bid-proposal-drafts-and-compliance-checks-with-openbidkit-yibiao",
+      "name": "Prepare bid proposal drafts and compliance checks with OpenBidKit Yibiao",
+      "title": "Prepare bid proposal drafts and compliance checks with OpenBidKit Yibiao",
+      "description": "Use OpenBidKit Yibiao to turn tender materials, company knowledge, and model-provider settings into reviewable bid proposal drafts with reuse and risk-check workspaces.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "ship-ag2-multi-agent-workflows-behind-apis-with-fastagency",
       "name": "Ship AG2 multi-agent workflows behind APIs with FastAgency",
