@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2646 published skills** across **17 categories** · 2,285 security reviewed · Updated 2026-06-23 13:26 UTC
+> **2649 published skills** across **17 categories** · 2,285 security reviewed · Updated 2026-06-23 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -361,7 +361,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (234 skills)
+### 🔒 Security & Verification (235 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -525,6 +525,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Generate OSS-Fuzz harnesses with oss-fuzz-gen](skills/generate-oss-fuzz-harnesses-with-oss-fuzz-gen/) | Use LLM-assisted harness generation to expand fuzz coverage for real projects before manual fuzzing work begins. | Security Reviewed | 1.4k | — |
 | [Collect Unix-like incident-response artifacts into one portable evidence bundle with UAC](skills/collect-unix-like-incident-response-artifacts-into-one-portable-evidence-bundle-with-uac/) | Capture volatile and persistent Unix-like system artifacts quickly before evidence disappears or responders start… | Security Reviewed | 1.3k | — |
 | [Audit Python environments and requirements files for known vulnerabilities with pip-audit](skills/audit-python-environments-and-requirements-files-for-known-vulnerabilities-with-pip-audit/) | Check Python environments and requirements files for published vulnerabilities before shipping, upgrading, or… | Security Reviewed | 1.3k | — |
+| [Scan agent dependencies and container inputs with OWASP dep-scan](skills/scan-agent-dependencies-and-container-inputs-with-owasp-dep-scan/) | Run OWASP dep-scan before adopting dependencies, containers, or generated code so agents get a reviewable… | Security Reviewed | 1.3k | — |
 | [Sign agent-made Git commits with gitsign](skills/sign-agent-made-git-commits-with-gitsign/) | Apply keyless Sigstore-backed signatures to Git commits so automated changes retain verifiable provenance. | Security Reviewed | 1.1k | — |
 | [Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit](skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit/) | Run deterministic governance checks and policy verification before agents get real autonomy, so risky tool use and… | Security Reviewed | 1.1k | 20.9k/wk |
 | [Evaluate model-generated code execution with SandboxFusion](skills/evaluate-model-generated-code-execution-with-sandboxfusion/) | Use SandboxFusion to run and judge LLM-generated code in controlled sandboxes across many languages and… | Security Reviewed | 1k | — |
@@ -1013,7 +1014,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Update repository docs automatically after code changes and open review PRs](skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | Use GitHub Next's update-docs workflow when code changes should trigger documentation maintenance instead of waiting… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (188 skills)
+### 📄 Templates & Workflows (189 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1111,6 +1112,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Coordinate issue-backed parallel coding worktrees with CCPM](skills/coordinate-issue-backed-parallel-coding-worktrees-with-ccpm/) | Use CCPM when an agent team needs one issue-backed workflow that turns plans into GitHub issues, isolates execution… | Security Reviewed | 8k | — |
 | [Plop.js Code Generator](skills/plopjs-code-generator/) | Creates Plop.js generators with Handlebars templates and custom action types for scaffolding React components, API… | Security Reviewed | 7.6k | 1.6M/wk |
 | [Plop.js Code Generator Orchestrator](skills/plopjs-code-generator-orchestrator/) | Manages Plop.js micro-generators to scaffold components, modules, and boilerplate files using Handlebars templates.… | Security Reviewed | 7.6k | 1.5M/wk |
+| [Run durable Python agent schedules with APScheduler](skills/run-durable-python-agent-schedules-with-apscheduler/) | Schedule recurring, interval, calendar, and one-off Python agent jobs with persistent job stores so background… | Security Reviewed | 7.5k | — |
 | [Build bounded single-binary agent workflows with Yao](skills/build-bounded-single-binary-agent-workflows-with-yao/) | Use Yao when an operator needs to package an AI agent workflow, hooks, MCP tools, memory scopes, and a reviewable… | Security Reviewed | 7.5k | — |
 | [Run long-horizon spec-driven coding agent workflows with GSD 2](skills/run-long-horizon-spec-driven-coding-agent-workflows-with-gsd-2/) | Use GSD 2 to break a project into milestones, manage agent context and branches, recover from drift, and let coding… | Security Reviewed | 7.3k | 11.4k/wk |
 | [Run durable agent tasks and event-driven workflows with Hatchet](skills/run-durable-agent-tasks-and-event-driven-workflows-with-hatchet/) | Use Hatchet to queue, retry, pause, resume, observe, and scale long-running agent tasks and background workflows. | Security Reviewed | 7.2k | 298.3k/wk |
@@ -1583,7 +1585,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (145 skills)
+### 📊 Monitoring & Alerts (146 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -1710,6 +1712,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Track coding-agent quota burn and remaining headroom across providers with onWatch](skills/track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch/) | Monitor quota, spend, resets, and alerts across multiple coding-agent providers from one local dashboard before a… | Security Reviewed | 580 | — |
 | [PostHog Product Analytics and Feature Flags SDK](skills/posthog-product-analytics-and-feature-flags-sdk/) | Use PostHog to capture product analytics events, identify users, evaluate feature flags, and route experimentation… | Published | 531 | 4.8M/wk |
 | [Grafana Dashboard as Code Generator](skills/grafana-dashboard-as-code-generator/) | Generates Grafana dashboards programmatically using Grafonnet (jsonnet), the Grafana HTTP API, and grafana-toolkit.… | Security Reviewed | 528 | — |
+| [Record system-level agent activity with AgentSight](skills/record-system-level-agent-activity-with-agentsight/) | Wrap Claude Code, Codex, Gemini CLI, OpenClaw, or another agent command with AgentSight to capture processes, files,… | Security Reviewed | 469 | — |
 | [Inspect Claude Code multi-agent runs with Agents Observe](skills/agents-observe-claude-code-observability/) | Gives Claude Code operators a live dashboard for multi-agent sessions, tool calls, file activity, and nested task… | Security Reviewed | 421 | — |
 | [Cronitor CLI for Cron Monitoring and Job Telemetry](skills/cronitor-cli-cron-monitoring-job-telemetry/) | CronitorCLI is Cronitor's open-source command-line tool for syncing cron jobs, sending telemetry pings, and wrapping… | Security Reviewed | 399 | — |
 | [Monitor coding-agent token spend with Splitrail](skills/monitor-coding-agent-token-spend-with-splitrail/) | Track token burn, spend, and model mix across multiple coding-agent tools from one local monitoring workflow. | Security Reviewed | 159 | — |

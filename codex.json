@@ -2,8 +2,35 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-23",
-  "total": 2646,
+  "total": 2649,
   "skills": [
+    {
+      "slug": "record-system-level-agent-activity-with-agentsight",
+      "name": "Record system-level agent activity with AgentSight",
+      "title": "Record system-level agent activity with AgentSight",
+      "description": "Wrap Claude Code, Codex, Gemini CLI, OpenClaw, or another agent command with AgentSight to capture processes, files, network destinations, prompts, and reports.",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "scan-agent-dependencies-and-container-inputs-with-owasp-dep-scan",
+      "name": "Scan agent dependencies and container inputs with OWASP dep-scan",
+      "title": "Scan agent dependencies and container inputs with OWASP dep-scan",
+      "description": "Run OWASP dep-scan before adopting dependencies, containers, or generated code so agents get a reviewable vulnerability, license, SBOM, and risk report.",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "run-durable-python-agent-schedules-with-apscheduler",
+      "name": "Run durable Python agent schedules with APScheduler",
+      "title": "Run durable Python agent schedules with APScheduler",
+      "description": "Schedule recurring, interval, calendar, and one-off Python agent jobs with persistent job stores so background workflows survive restarts.",
+      "category": "Templates & Workflows",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "trace-and-evaluate-llm-application-behavior-with-langtrace",
       "name": "Trace and evaluate LLM application behavior with Langtrace",

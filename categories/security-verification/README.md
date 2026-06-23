@@ -198,6 +198,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Generate OSS-Fuzz harnesses with oss-fuzz-gen](../../skills/generate-oss-fuzz-harnesses-with-oss-fuzz-gen/) | 1.4k | — |
 | [Collect Unix-like incident-response artifacts into one portable evidence bundle with UAC](../../skills/collect-unix-like-incident-response-artifacts-into-one-portable-evidence-bundle-with-uac/) | 1.3k | — |
 | [Audit Python environments and requirements files for known vulnerabilities with pip-audit](../../skills/audit-python-environments-and-requirements-files-for-known-vulnerabilities-with-pip-audit/) | 1.3k | — |
+| [Scan agent dependencies and container inputs with OWASP dep-scan](../../skills/scan-agent-dependencies-and-container-inputs-with-owasp-dep-scan/) | 1.3k | — |
 | [Sign agent-made Git commits with gitsign](../../skills/sign-agent-made-git-commits-with-gitsign/) | 1.1k | — |
 | [Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit](../../skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit/) | 1.1k | 20.9k/wk |
 | [Evaluate model-generated code execution with SandboxFusion](../../skills/evaluate-model-generated-code-execution-with-sandboxfusion/) | 1k | — |

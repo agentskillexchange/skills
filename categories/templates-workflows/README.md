@@ -132,6 +132,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Coordinate issue-backed parallel coding worktrees with CCPM](../../skills/coordinate-issue-backed-parallel-coding-worktrees-with-ccpm/) | 8k | — |
 | [Plop.js Code Generator](../../skills/plopjs-code-generator/) | 7.6k | 1.6M/wk |
 | [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | 7.6k | 1.5M/wk |
+| [Run durable Python agent schedules with APScheduler](../../skills/run-durable-python-agent-schedules-with-apscheduler/) | 7.5k | — |
 | [Build bounded single-binary agent workflows with Yao](../../skills/build-bounded-single-binary-agent-workflows-with-yao/) | 7.5k | — |
 | [Run long-horizon spec-driven coding agent workflows with GSD 2](../../skills/run-long-horizon-spec-driven-coding-agent-workflows-with-gsd-2/) | 7.3k | 11.4k/wk |
 | [Run durable agent tasks and event-driven workflows with Hatchet](../../skills/run-durable-agent-tasks-and-event-driven-workflows-with-hatchet/) | 7.2k | 298.3k/wk |

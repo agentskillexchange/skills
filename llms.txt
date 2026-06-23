@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-23
-# Total: 2646 skills
+# Total: 2649 skills
+
+## Record system-level agent activity with AgentSight
+slug: record-system-level-agent-activity-with-agentsight
+category: Monitoring & Alerts
+framework: Multi-Framework
+verification: Security Reviewed
+description: Wrap Claude Code, Codex, Gemini CLI, OpenClaw, or another agent command with AgentSight to capture processes, files, network destinations, prompts, and reports.
+url: https://agentskillexchange.com/skills/record-system-level-agent-activity-with-agentsight/
+
+## Scan agent dependencies and container inputs with OWASP dep-scan
+slug: scan-agent-dependencies-and-container-inputs-with-owasp-dep-scan
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run OWASP dep-scan before adopting dependencies, containers, or generated code so agents get a reviewable vulnerability, license, SBOM, and risk report.
+url: https://agentskillexchange.com/skills/scan-agent-dependencies-and-container-inputs-with-owasp-dep-scan/
+
+## Run durable Python agent schedules with APScheduler
+slug: run-durable-python-agent-schedules-with-apscheduler
+category: Templates & Workflows
+framework: Custom Agents
+verification: Security Reviewed
+description: Schedule recurring, interval, calendar, and one-off Python agent jobs with persistent job stores so background workflows survive restarts.
+url: https://agentskillexchange.com/skills/run-durable-python-agent-schedules-with-apscheduler/
 
 ## Trace and evaluate LLM application behavior with Langtrace
 slug: trace-and-evaluate-llm-application-behavior-with-langtrace
