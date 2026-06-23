@@ -2,7 +2,7 @@
   "source_api_base": "https://agentskillexchange.com",
   "source_total": 2642,
   "source_etag_or_hash": "sha256:00bdb8a48523c1867fe47537deda8d9318b70b5721f6d402731a4b388e259494",
-  "generated": "2026-06-22",
+  "generated": "2026-06-23",
   "generated_files": [
     "skills.json",
     "openclaw.json",
