@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2644 published skills** across **17 categories** · 2,282 security reviewed · Updated 2026-06-23 07:26 UTC
+> **2646 published skills** across **17 categories** · 2,282 security reviewed · Updated 2026-06-23 13:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1583,7 +1583,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (144 skills)
+### 📊 Monitoring & Alerts (145 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -1684,6 +1684,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Logdy Real-Time Log Viewer with Web UI and CLI](skills/logdy-realtime-log-viewer-web-ui-cli/) | Logdy is a zero-dependency single-binary log viewer that pipes any command output into an interactive browser-based… | Security Reviewed | 2.1k | — |
 | [Track coding-agent token spend and leaderboard drift across local session logs with Tokscale](skills/track-coding-agent-token-spend-and-leaderboard-drift-with-tokscale/) | Aggregate local coding-agent usage logs into spend, token, and trend views before quotas or budgets surprise the team. | Security Reviewed | 2k | 64.6k/wk |
 | [Elastic APM Transaction Anomaly Spotter](skills/elastic-apm-transaction-anomaly-spotter/) | Queries Elastic APM transaction data through the Elasticsearch REST API to surface latency anomalies and throughput… | Security Reviewed | 1.3k | — |
+| [Trace and evaluate LLM application behavior with Langtrace](skills/trace-and-evaluate-llm-application-behavior-with-langtrace/) | Instrument Python or TypeScript agent applications with OpenTelemetry traces, metrics, and evaluation views for… | Security Reviewed | 1.2k | 1.1k/wk |
 | [Investigate telemetry incidents with Monoscope MCP and agent-mode CLI](skills/investigate-telemetry-incidents-with-monoscope-mcp-and-agent-mode-cli/) | Connect agents to Monoscope so they can query logs, traces, metrics, monitors, and issues through stable JSON CLI… | Security Reviewed | 1.1k | — |
 | [Lint and auto-format Markdown documentation before agents ship content with rumdl](skills/lint-and-auto-format-markdown-documentation-before-agents-ship-content-with-rumdl/) | Run rumdl as a fast Markdown lint-and-format gate so agents can catch style, flavor, link-adjacent, and consistency… | Security Reviewed | 1.1k | 5.8k/wk |
 | [Trace, evaluate, simulate, and guardrail agent releases with Future AGI](skills/trace-evaluate-simulate-and-guardrail-agent-releases-with-future-agi/) | Use Future AGI to instrument agent runs, run evals and simulations, apply guardrails, and turn production traces… | Security Reviewed | 1k | 1.9k/wk |
@@ -2145,7 +2146,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Rust Crates.io Explorer](skills/rust-crates-io-explorer/) | Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates… | Published | — | — |
 
 
-### 🌐 Browser Automation (116 skills)
+### 🌐 Browser Automation (117 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
@@ -2255,6 +2256,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Apply site-specific action manuals with Actionbook](skills/apply-site-specific-action-manuals-with-actionbook/) | Load maintained action manuals for fragile websites so agents can execute known flows more reliably than generic… | Security Reviewed | 1.5k | 4.7k/wk |
 | [CDP Network Interception Logger](skills/cdp-network-interception-logger/) | Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify… | Published | 1.5k | 23.7M/wk |
 | [Browserable Self-Hostable Browser Automation for AI Agents](skills/browserable-self-hostable-browser-automation-ai-agents/) | Browserable is an open-source, self-hostable browser automation library built for AI agents. This skill turns… | Security Reviewed | 1.2k | 21/wk |
+| [Control hosted browser research and extraction through Hyperbrowser MCP](skills/control-hosted-browser-research-and-extraction-through-hyperbrowser-mcp/) | Give MCP clients hosted browser tools for scraping, crawling, structured extraction, search, and computer-use… | Security Reviewed | 770 | 3.2k/wk |
 | [Run supervised MCP browser automation with Auto Browser](skills/run-supervised-mcp-browser-automation-with-auto-browser/) | Give an MCP-capable agent a local Playwright browser with human takeover, reusable auth profiles, approvals, audit… | Security Reviewed | 565 | — |
 | [Run deterministic browser steps with settled screenshots and event logs for agents](skills/run-deterministic-browser-steps-with-settled-screenshots-and-event-logs-for-agents/) | Use Agent Browser Protocol when an agent needs browser actions to resolve into stable step results, complete with… | Security Reviewed | 436 | 1.7k/wk |
 | [Benchmark browser agents on repeatable Playwright web tasks with Bananalyzer](skills/benchmark-browser-agents-on-repeatable-playwright-web-tasks-with-bananalyzer/) | Run a repeatable evaluation suite for browser agents against static web task snapshots instead of judging them from… | Security Reviewed | 327 | — |

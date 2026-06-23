@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-23
-# Total: 2644 skills
+# Total: 2646 skills
+
+## Trace and evaluate LLM application behavior with Langtrace
+slug: trace-and-evaluate-llm-application-behavior-with-langtrace
+category: Monitoring & Alerts
+framework: Multi-Framework
+verification: Security Reviewed
+description: Instrument Python or TypeScript agent applications with OpenTelemetry traces, metrics, and evaluation views for debugging production LLM workflows.
+url: https://agentskillexchange.com/skills/trace-and-evaluate-llm-application-behavior-with-langtrace/
+
+## Control hosted browser research and extraction through Hyperbrowser MCP
+slug: control-hosted-browser-research-and-extraction-through-hyperbrowser-mcp
+category: Browser Automation
+framework: MCP
+verification: Security Reviewed
+description: Give MCP clients hosted browser tools for scraping, crawling, structured extraction, search, and computer-use browser automation.
+url: https://agentskillexchange.com/skills/control-hosted-browser-research-and-extraction-through-hyperbrowser-mcp/
 
 ## Prepare agent-ready PDF and document extraction with PyMuPDF
 slug: prepare-agent-ready-pdf-and-document-extraction-with-pymupdf

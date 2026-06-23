@@ -135,6 +135,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Logdy Real-Time Log Viewer with Web UI and CLI](../../skills/logdy-realtime-log-viewer-web-ui-cli/) | 2.1k | — |
 | [Track coding-agent token spend and leaderboard drift across local session logs with Tokscale](../../skills/track-coding-agent-token-spend-and-leaderboard-drift-with-tokscale/) | 2k | 64.6k/wk |
 | [Elastic APM Transaction Anomaly Spotter](../../skills/elastic-apm-transaction-anomaly-spotter/) | 1.3k | — |
+| [Trace and evaluate LLM application behavior with Langtrace](../../skills/trace-and-evaluate-llm-application-behavior-with-langtrace/) | 1.2k | 1.1k/wk |
 | [Investigate telemetry incidents with Monoscope MCP and agent-mode CLI](../../skills/investigate-telemetry-incidents-with-monoscope-mcp-and-agent-mode-cli/) | 1.1k | — |
 | [Lint and auto-format Markdown documentation before agents ship content with rumdl](../../skills/lint-and-auto-format-markdown-documentation-before-agents-ship-content-with-rumdl/) | 1.1k | 5.8k/wk |
 | [Trace, evaluate, simulate, and guardrail agent releases with Future AGI](../../skills/trace-evaluate-simulate-and-guardrail-agent-releases-with-future-agi/) | 1k | 1.9k/wk |

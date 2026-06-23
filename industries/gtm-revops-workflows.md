@@ -58,6 +58,7 @@ Demand generation, SEO and content operations, lifecycle email, CRM enrichment, 
 | [Run multi-agent public opinion analysis and report generation with BettaFish](../skills/run-multi-agent-public-opinion-analysis-and-report-generation-with-bettafish/) | Turns public discussion into evidence-backed opinion reports for market, campaign, and positioning research. | GTM research analyst / market intelligence lead | Medium | 41.4k |
 | [Monitor cross-platform trends and alert agents with TrendRadar](../skills/monitor-cross-platform-trends-and-alert-agents-with-trendradar/) | Monitors cross-platform trends, summarizes signals, and alerts operators before GTM opportunities or risks are missed. | Growth ops / social listening lead | Medium | 59.4k |
 | [Xquik X Data API Skill](../skills/xquik-x-data-api-skill/) | Adds X search, profile inspection, bulk extraction, and account or keyword monitoring for social listening workflows. | GTM analyst / social intelligence operator | Medium | 111 |
+| [Build React agent chat interfaces with assistant-ui](../skills/build-react-agent-chat-interfaces-with-assistant-ui/) | Fits GTM teams building customer-facing or internal agent interfaces around sales, support, and revenue workflows. | RevOps engineer / growth tooling lead | Medium | 10.1k |
 
 ## Editorial Notes
 

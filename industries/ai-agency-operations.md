@@ -56,6 +56,10 @@ Client-facing AI delivery, forward deployed engineering workflows, browser autom
 | [Read and modify Figma designs from coding agents with Talk to Figma MCP](../skills/read-and-modify-figma-designs-from-coding-agents-with-talk-to-figma-mcp/) | Lets coding agents inspect, annotate, and update Figma designs during design-to-code and client implementation work. | FDE / design-to-code engineer | Medium | 6.8k |
 | [Coordinate software delivery roles with MetaGPT](../skills/coordinate-software-delivery-roles-with-metagpt/) | Turns product requirements into coordinated product, architecture, project, and engineering outputs for reviewable delivery planning. | AI agency delivery lead / FDE project owner | Medium | 68.7k |
 | [Assemble production agent harnesses with DeepAgents](../skills/assemble-production-agent-harnesses-with-deepagents/) | Gives delivery teams a production-oriented harness for long-running task agents before client handoff. | Agent implementation lead / FDE | Medium | 24.1k |
+| [Run durable scheduled agent jobs in Node.js with Agenda](../skills/run-durable-scheduled-agent-jobs-in-node-js-with-agenda/) | Gives agencies a durable scheduling layer for recurring client automations, retries, and background agent jobs. | AI agency operator / automation engineer | Medium | 9.7k |
+| [Run TypeScript-native LLM eval suites with Evalite](../skills/run-typescript-native-llm-eval-suites-with-evalite/) | Adds a TypeScript-native eval loop before agencies ship or update client-facing agent behavior. | AI agency QA lead / TypeScript engineer | Medium | 1.6k |
+| [Run supervised MCP browser automation with Auto Browser](../skills/run-supervised-mcp-browser-automation-with-auto-browser/) | Supports supervised browser automation for client workflow QA where operators need control and reviewable actions. | FDE / browser automation specialist | Medium | 565 |
+| [Use MCP Context Forge as an MCP gateway and registry](../skills/use-mcp-context-forge-as-an-mcp-gateway-and-registry/) | Helps agency teams standardize MCP servers and tool access across multiple client projects. | AI agency platform lead / FDE | High | 3.8k |
 
 ## Editorial Notes
 

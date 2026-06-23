@@ -1,8 +1,34 @@
 {
   "version": "2.0",
-  "total": 2644,
+  "total": 2646,
   "generated": "2026-06-23",
   "skills": [
+    {
+      "slug": "trace-and-evaluate-llm-application-behavior-with-langtrace",
+      "name": "Trace and evaluate LLM application behavior with Langtrace",
+      "title": "Trace and evaluate LLM application behavior with Langtrace",
+      "description": "Instrument Python or TypeScript agent applications with OpenTelemetry traces, metrics, and evaluation views for debugging production LLM workflows.",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1207,
+        "npm_weekly_downloads": 1100
+      }
+    },
+    {
+      "slug": "control-hosted-browser-research-and-extraction-through-hyperbrowser-mcp",
+      "name": "Control hosted browser research and extraction through Hyperbrowser MCP",
+      "title": "Control hosted browser research and extraction through Hyperbrowser MCP",
+      "description": "Give MCP clients hosted browser tools for scraping, crawling, structured extraction, search, and computer-use browser automation.",
+      "category": "Browser Automation",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 770,
+        "npm_weekly_downloads": 3206
+      }
+    },
     {
       "slug": "prepare-agent-ready-pdf-and-document-extraction-with-pymupdf",
       "name": "Prepare agent-ready PDF and document extraction with PyMuPDF",

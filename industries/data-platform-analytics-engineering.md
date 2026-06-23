@@ -63,6 +63,9 @@ Data engineering and analytics operations workflows for SQL, dbt, Airflow, wareh
 | [Generate and evaluate retrieval embeddings with FlagEmbedding](../skills/generate-and-evaluate-retrieval-embeddings-with-flagembedding/) | Helps teams choose, evaluate, and rerank retrieval embeddings before feeding context into RAG workflows. | Retrieval engineer / ML platform engineer | Medium | 11.8k |
 | [Scale agent retrieval workloads with Milvus](../skills/scale-agent-retrieval-workloads-with-milvus/) | Adds a scalable vector database path for filtered similarity search across RAG and agent retrieval workloads. | Vector database operator / data platform engineer | High | 44.7k |
 | [Build enterprise RAG and agent workflows with Bisheng](../skills/build-enterprise-rag-and-agent-workflows-with-bisheng/) | Assembles and evaluates enterprise RAG workflows across internal data, models, and business users. | Enterprise AI platform lead / retrieval workflow owner | High | 11.4k |
+| [Build portable single-file agent memory with Memvid](../skills/build-portable-single-file-agent-memory-with-memvid/) | Gives analytics teams a portable context layer for packaging large reference sets without standing up a full service. | Analytics engineer / data platform operator | Medium | 15.7k |
+| [Build graph-based retrieval workflows with GraphRAG](../skills/build-graph-based-retrieval-workflows-with-graphrag/) | Adds a graph retrieval option for analytics teams working with relationship-heavy corpora and entity context. | Data platform engineer / retrieval architect | High | 33.4k |
+| [Query Neo4j graph data from agent workflows through MCP](../skills/query-neo4j-graph-data-from-agent-workflows-through-mcp/) | Lets agents inspect governed Neo4j graph data through MCP instead of copying graph context into prompts. | Graph data engineer / analytics platform owner | Medium | 947 |
 
 ## Editorial Notes
 

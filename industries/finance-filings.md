@@ -50,6 +50,8 @@ Filings research, invoice intake, billing operations, reconciliation, and financ
 | [Extract OCR-ready Markdown from documents with Zerox](../skills/extract-ocr-ready-markdown-from-documents-with-zerox/) | Converts scanned statements, receipts, and finance PDFs into OCR-ready Markdown before filing review or table extraction. | Finance analyst / document intake ops | Medium | 12.2k |
 | [Use PandasAI for conversational CSV and spreadsheet analysis](../skills/use-pandasai-for-conversational-csv-and-spreadsheet-analysis/) | Lets analysts interrogate CSV and spreadsheet exports in natural language before building heavier dashboards. | Finance analyst / RevOps analyst | Medium | 23.6k |
 | [Read Google Drive files and edit Sheets through MCP](../skills/read-google-drive-files-and-edit-sheets-through-mcp/) | Connects agents to Drive and Sheets where finance teams often stage reconciliations, forecast models, and review exports. | Finance ops / spreadsheet workflow owner | Medium | 280 |
+| [Prepare bid proposal drafts and compliance checks with OpenBidKit Yibiao](../skills/prepare-bid-proposal-drafts-and-compliance-checks-with-openbidkit-yibiao/) | Fits finance-adjacent bid and proposal workflows where requirements, pricing, and compliance checks need a review packet. | Proposal operations / finance bid analyst | Medium | 1k |
+| [Prepare agent-ready PDF and document extraction with PyMuPDF](../skills/prepare-agent-ready-pdf-and-document-extraction-with-pymupdf/) | Adds a lightweight PDF extraction path for filings, statements, and vendor documents before spreadsheet or dashboard work. | Finance analyst / filings researcher | Medium | 10.1k |
 
 ## Editorial Notes
 

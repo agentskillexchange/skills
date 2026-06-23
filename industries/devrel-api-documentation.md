@@ -47,6 +47,8 @@ API docs, OpenAPI references, SDK generation, docs-site publishing, prose lintin
 | [OpenAPI Generator API Client and Server Stub Tooling](../skills/openapi-generator-api-client-server-stub-tooling/) | Generates client SDKs and server stubs from OpenAPI specs, closing the loop between API documentation and usable developer artifacts. | SDK engineer / API platform team | Medium | 26.1k |
 | [Swagger UI Documentation Deployer](../skills/swagger-ui-documentation-deployer/) | Publishes interactive API references from OpenAPI specs so developers can inspect endpoints without custom docs infrastructure. | API docs maintainer / DevRel engineer | Low | 28.8k |
 | [Bootstrap an OpenAPI spec from captured API traffic before client or test automation starts](../skills/bootstrap-openapi-spec-from-captured-api-traffic-before-client-or-test-automation/) | Turns captured API traffic into a starter OpenAPI spec before client generation, docs cleanup, or test automation. | API platform engineer / integration lead | Medium | 9.3k |
+| [Build versioned technical docs sites with search and navigation using Material for MkDocs](../skills/build-versioned-technical-docs-sites-with-search-and-nav-using-material-for-mkdocs/) | Adds a practical docs-site build path for versioned API and developer documentation with navigation and search. | DevRel engineer / docs platform owner | Medium | 26.7k |
+| [Lint and auto-format Markdown documentation before agents ship content with rumdl](../skills/lint-and-auto-format-markdown-documentation-before-agents-ship-content-with-rumdl/) | Keeps generated Markdown docs consistent before agent-authored changes reach a docs repo or release branch. | Technical writer / docs automation maintainer | Low | 1.1k |
 
 ## Editorial Notes
 

@@ -53,6 +53,9 @@ Security operations and governance workflows for dependency risk, secrets, CI ha
 | [Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit](../skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit/) | Checks policy coverage and risky-action guardrails before production agent rollout. | AI governance lead | Medium | 1.1k |
 | [Stress-test agent defenses with AgentDojo](../skills/stress-test-agent-defenses-with-agentdojo/) | Benchmarks prompt-injection attacks and defenses before agents are trusted with real tools or data. | AI security engineer / red-team operator | Medium | 619 |
 | [Run agent-generated code in local microVM sandboxes with Microsandbox](../skills/run-agent-generated-code-in-local-microvm-sandboxes-with-microsandbox/) | Runs untrusted agent-generated code and tool calls in local microVM-backed sandboxes for safer review. | AppSec engineer / agent platform operator | High | 6.5k |
+| [Evaluate model-generated code execution with SandboxFusion](../skills/evaluate-model-generated-code-execution-with-sandboxfusion/) | Tests model-generated code execution behavior inside a controlled benchmark before teams trust automation outputs. | AI security engineer / evaluation lead | High | 1k |
+| [Gate agent inputs and outputs with Superagent safety checks](../skills/gate-agent-inputs-and-outputs-with-superagent-safety-checks/) | Adds a safety gate for agent inputs and outputs before risky actions reach users or downstream systems. | GRC automation owner / AI safety reviewer | Medium | 6.6k |
+| [Emit policy receipts for hard-rule agent skills with Pluribus](../skills/emit-policy-receipts-for-hard-rule-agent-skills-with-pluribus/) | Creates reviewable policy receipts for hard-rule workflows where compliance needs evidence, not just logs. | Compliance engineer / policy operations | Medium | — |
 
 ## Editorial Notes
 

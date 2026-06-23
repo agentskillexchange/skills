@@ -51,6 +51,9 @@ Production reliability workflows for Kubernetes, incidents, observability, backu
 | [OpenObserve Cloud-Native Observability Platform for Logs Metrics and Traces](../skills/openobserve-observability-platform-logs-metrics-traces/) | Adds a cloud-native observability backend for logs, metrics, traces, and incident search. | Observability platform owner | High | 18.5k |
 | [Convert SMTP-only alerts into routed notification deliveries with Mailrise](../skills/convert-smtp-only-alerts-into-routed-notification-deliveries-with-mailrise/) | Routes legacy SMTP-only alerts into modern notification channels so incidents reach the right responders. | On-call tooling owner | Low | 1.5k |
 | [Datadog Integration Connector](../skills/datadog-integration-connector-agent/) | Connects Datadog signals into agent workflows for incident context, monitor review, and dashboard triage. | SRE / observability engineer | Medium | 791 |
+| [Trace and debug agent runs with AgentOps](../skills/trace-and-debug-agent-runs-with-agentops/) | Adds run-level tracing for agent systems that SRE teams need to debug after failures or noisy automation. | SRE / agent platform operator | Medium | 5.6k |
+| [Trace LLM and agent workflows with OpenLLMetry](../skills/trace-llm-and-agent-workflows-with-openllmetry/) | Connects LLM and agent traces to OpenTelemetry-style incident investigation workflows. | Observability engineer / platform SRE | Medium | 7.2k |
+| [Evaluate and monitor LLM workflows with Agenta](../skills/evaluate-and-monitor-llm-workflows-with-agenta/) | Adds monitoring and evaluation coverage for production LLM workflows that need regression signals during incidents. | AI platform SRE / reliability owner | Medium | 4.2k |
 
 ## Editorial Notes
 

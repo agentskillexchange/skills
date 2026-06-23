@@ -44,6 +44,7 @@ Transcription, subtitles, podcast workflows, chaptering, localization, loudness 
 | [Analyze videos with frame extraction and audio context in Claude Code](../skills/analyze-videos-with-frame-extraction-and-audio-context-in-claude-code/) | Extracts frames and audio context from videos so editors and researchers can build reviewable media summaries before publishing. | Video producer / media researcher | Medium | 698 |
 | [Whisper Subtitle Generator](../skills/whisper-subtitle-generator/) | Creates subtitle files from speech audio for teams that need caption artifacts before video or course release. | Video editor / accessibility ops | Medium | 97.8k |
 | [Whishper Self-Hosted Speech-to-Text and Audio Workflow Skill](../skills/whishper-self-hosted-speech-to-text-audio-workflow-skill/) | Adds a self-hosted speech-to-text workflow for privacy-conscious media teams handling interviews, lessons, or internal recordings. | Media platform engineer / transcript ops | High | 3k |
+| [Generate local subtitles for video editing workflows with Auto Subs](../skills/generate-local-subtitles-for-video-editing-workflows-with-auto-subs/) | Adds a local subtitle generation step for editors who need captions before exporting or publishing finished video. | Video editor / post-production ops | Medium | 3.6k |
 
 ## Editorial Notes
 
