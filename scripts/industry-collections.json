@@ -23,7 +23,8 @@
         "yt-dlp-feature-rich-audio-video-downloader-cli",
         "analyze-videos-with-frame-extraction-and-audio-context-in-claude-code",
         "whisper-subtitle-generator",
-        "whishper-self-hosted-speech-to-text-audio-workflow-skill"
+        "whishper-self-hosted-speech-to-text-audio-workflow-skill",
+        "generate-local-subtitles-for-video-editing-workflows-with-auto-subs"
       ],
       "who_for": [
         "Podcast, video, course, and newsroom teams that need repeatable post-production handoffs.",
@@ -159,6 +160,11 @@
           "why_here": "Adds a self-hosted speech-to-text workflow for privacy-conscious media teams handling interviews, lessons, or internal recordings.",
           "persona": "Media platform engineer / transcript ops",
           "install_complexity": "High"
+        },
+        "generate-local-subtitles-for-video-editing-workflows-with-auto-subs": {
+          "why_here": "Adds a local subtitle generation step for editors who need captions before exporting or publishing finished video.",
+          "persona": "Video editor / post-production ops",
+          "install_complexity": "Medium"
         }
       },
       "recommended_picks": [
@@ -197,7 +203,9 @@
         "connect-accounting-agents-to-xero-through-mcp",
         "extract-ocr-ready-markdown-from-documents-with-zerox",
         "use-pandasai-for-conversational-csv-and-spreadsheet-analysis",
-        "read-google-drive-files-and-edit-sheets-through-mcp"
+        "read-google-drive-files-and-edit-sheets-through-mcp",
+        "prepare-bid-proposal-drafts-and-compliance-checks-with-openbidkit-yibiao",
+        "prepare-agent-ready-pdf-and-document-extraction-with-pymupdf"
       ],
       "who_for": [
         "Finance operators, founders, RevOps teams, and analysts who need evidence-backed filings, invoice, billing, and reconciliation workflows.",
@@ -359,6 +367,16 @@
           "why_here": "Connects agents to Drive and Sheets where finance teams often stage reconciliations, forecast models, and review exports.",
           "persona": "Finance ops / spreadsheet workflow owner",
           "install_complexity": "Medium"
+        },
+        "prepare-bid-proposal-drafts-and-compliance-checks-with-openbidkit-yibiao": {
+          "why_here": "Fits finance-adjacent bid and proposal workflows where requirements, pricing, and compliance checks need a review packet.",
+          "persona": "Proposal operations / finance bid analyst",
+          "install_complexity": "Medium"
+        },
+        "prepare-agent-ready-pdf-and-document-extraction-with-pymupdf": {
+          "why_here": "Adds a lightweight PDF extraction path for filings, statements, and vendor documents before spreadsheet or dashboard work.",
+          "persona": "Finance analyst / filings researcher",
+          "install_complexity": "Medium"
         }
       },
       "recommended_picks": [
@@ -387,7 +405,8 @@
         "stripe-connect-account-provisioner",
         "bubble-stripe-subscription-portal",
         "cheerio-product-price-tracker",
-        "stripe-webhook-signature-verifier"
+        "stripe-webhook-signature-verifier",
+        "build-react-agent-chat-interfaces-with-assistant-ui"
       ],
       "who_for": [
         "Store operators, marketplace teams, and ecommerce engineers managing catalog, order, inventory, and payment workflows.",
@@ -501,6 +520,11 @@
           "why_here": "Verifies payment webhook signatures before ecommerce automations trust checkout, subscription, or marketplace events.",
           "persona": "Payments engineer / marketplace ops",
           "install_complexity": "Medium"
+        },
+        "build-react-agent-chat-interfaces-with-assistant-ui": {
+          "why_here": "Supports storefront or back-office agent interfaces for product, order, inventory, and support workflows.",
+          "persona": "Commerce product engineer / retail ops builder",
+          "install_complexity": "Medium"
         }
       },
       "recommended_picks": [
@@ -547,7 +571,11 @@
         "mineru-pdf-to-markdown-document-parser",
         "put-approval-gates-and-audit-ready-policy-checks-between-agents-and-external-actions-with-dashclaw",
         "extract-ocr-ready-markdown-from-documents-with-zerox",
-        "build-managed-document-parsing-pipelines-with-llamacloud-services"
+        "build-managed-document-parsing-pipelines-with-llamacloud-services",
+        "prepare-agent-ready-pdf-and-document-extraction-with-pymupdf",
+        "convert-complex-pdfs-and-document-images-into-agent-ready-markdown-with-ocrflux",
+        "parse-agent-ready-pdfs-and-document-images-with-monkeyocr",
+        "evaluate-document-parsers-for-agent-ingestion-with-parsebench"
       ],
       "who_for": [
         "Legal operations, compliance, and records teams that need document intake, review, redaction, and archive workflows.",
@@ -752,6 +780,26 @@
           "why_here": "Provides a managed parsing path for high-volume contract and policy packets where local parsers are too brittle.",
           "persona": "Legal ops automation engineer",
           "install_complexity": "Medium"
+        },
+        "prepare-agent-ready-pdf-and-document-extraction-with-pymupdf": {
+          "why_here": "Gives legal ops a fast source-backed PDF extraction step before contract review, diligence packets, or clause analysis.",
+          "persona": "Legal ops analyst / contract reviewer",
+          "install_complexity": "Medium"
+        },
+        "convert-complex-pdfs-and-document-images-into-agent-ready-markdown-with-ocrflux": {
+          "why_here": "Turns scanned or layout-heavy legal documents into Markdown that downstream review agents can cite and inspect.",
+          "persona": "Legal document intake specialist",
+          "install_complexity": "High"
+        },
+        "parse-agent-ready-pdfs-and-document-images-with-monkeyocr": {
+          "why_here": "Adds an OCR path for mixed legal PDFs and document images before matter summaries or compliance checks.",
+          "persona": "Paralegal / compliance intake operator",
+          "install_complexity": "High"
+        },
+        "evaluate-document-parsers-for-agent-ingestion-with-parsebench": {
+          "why_here": "Lets teams compare extraction quality before standardizing a parser for legal review workflows.",
+          "persona": "Legal automation lead / document QA",
+          "install_complexity": "Medium"
         }
       },
       "recommended_picks": [
@@ -786,7 +834,11 @@
         "extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg",
         "tesseract-ocr-document-extractor",
         "extract-ocr-ready-markdown-from-documents-with-zerox",
-        "build-managed-document-parsing-pipelines-with-llamacloud-services"
+        "build-managed-document-parsing-pipelines-with-llamacloud-services",
+        "convert-complex-pdfs-and-document-images-into-agent-ready-markdown-with-ocrflux",
+        "parse-agent-ready-pdfs-and-document-images-with-monkeyocr",
+        "build-ocr-and-layout-analysis-preprocessing-pipelines-with-deepdoctection",
+        "evaluate-document-parsers-for-agent-ingestion-with-parsebench"
       ],
       "who_for": [
         "Healthcare operations, intake, research, and documentation teams handling paperwork-heavy non-clinical workflows.",
@@ -926,6 +978,26 @@
           "why_here": "Adds a managed document parsing option for structured intake packets, with humans still responsible for regulated-data review.",
           "persona": "Healthcare documentation automation lead",
           "install_complexity": "High"
+        },
+        "convert-complex-pdfs-and-document-images-into-agent-ready-markdown-with-ocrflux": {
+          "why_here": "Prepares scanned forms, referrals, and packet-style documents for reviewable intake summaries without treating OCR as diagnosis.",
+          "persona": "Healthcare intake ops / documentation analyst",
+          "install_complexity": "High"
+        },
+        "parse-agent-ready-pdfs-and-document-images-with-monkeyocr": {
+          "why_here": "Covers document-image parsing for intake packets where text extraction must happen before routing or abstraction.",
+          "persona": "Clinical admin ops / intake reviewer",
+          "install_complexity": "High"
+        },
+        "build-ocr-and-layout-analysis-preprocessing-pipelines-with-deepdoctection": {
+          "why_here": "Adds layout-aware preprocessing for forms, tables, and multi-section medical paperwork before human review.",
+          "persona": "Healthcare data ops engineer",
+          "install_complexity": "High"
+        },
+        "evaluate-document-parsers-for-agent-ingestion-with-parsebench": {
+          "why_here": "Helps compare parser behavior on healthcare paperwork before adopting one extraction path for regulated workflows.",
+          "persona": "Documentation QA lead / automation owner",
+          "install_complexity": "Medium"
         }
       },
       "recommended_picks": [
@@ -1131,7 +1203,9 @@
         "validate-python-docstrings-against-function-signatures-with-pydoclint",
         "openapi-generator-api-client-server-stub-tooling",
         "swagger-ui-documentation-deployer",
-        "bootstrap-openapi-spec-from-captured-api-traffic-before-client-or-test-automation"
+        "bootstrap-openapi-spec-from-captured-api-traffic-before-client-or-test-automation",
+        "build-versioned-technical-docs-sites-with-search-and-nav-using-material-for-mkdocs",
+        "lint-and-auto-format-markdown-documentation-before-agents-ship-content-with-rumdl"
       ],
       "who_for": [
         "DevRel, API platform, SDK, and documentation teams maintaining references, examples, and docs sites.",
@@ -1282,6 +1356,16 @@
           "why_here": "Turns captured API traffic into a starter OpenAPI spec before client generation, docs cleanup, or test automation.",
           "persona": "API platform engineer / integration lead",
           "install_complexity": "Medium"
+        },
+        "build-versioned-technical-docs-sites-with-search-and-nav-using-material-for-mkdocs": {
+          "why_here": "Adds a practical docs-site build path for versioned API and developer documentation with navigation and search.",
+          "persona": "DevRel engineer / docs platform owner",
+          "install_complexity": "Medium"
+        },
+        "lint-and-auto-format-markdown-documentation-before-agents-ship-content-with-rumdl": {
+          "why_here": "Keeps generated Markdown docs consistent before agent-authored changes reach a docs repo or release branch.",
+          "persona": "Technical writer / docs automation maintainer",
+          "install_complexity": "Low"
         }
       },
       "recommended_picks": [
@@ -1692,7 +1776,9 @@
         "run-rag-chatbot-workflows-with-verba",
         "run-autonomous-deep-research-workflows-with-gpt-researcher",
         "run-scheduled-research-automations-with-self-hosted-khoj",
-        "chat-with-private-document-collections-through-kotaemon"
+        "chat-with-private-document-collections-through-kotaemon",
+        "draft-cited-research-reports-with-storm",
+        "evaluate-agent-and-model-workflows-with-evalscope"
       ],
       "who_for": [
         "Researchers, academic labs, research analysts, and science or technical writing teams turning scattered sources into reviewable research artifacts.",
@@ -1871,6 +1957,16 @@
           "why_here": "Lets research teams index private document collections and ask cited, grounded questions over bounded source sets.",
           "persona": "Research ops / document QA lead",
           "install_complexity": "High"
+        },
+        "draft-cited-research-reports-with-storm": {
+          "why_here": "Supports literature-style research workflows where an agent drafts cited reports from multiple perspectives for review.",
+          "persona": "Research analyst / academic writing lead",
+          "install_complexity": "Medium"
+        },
+        "evaluate-agent-and-model-workflows-with-evalscope": {
+          "why_here": "Adds an evaluation layer for research teams comparing model or agent workflows before using outputs in studies.",
+          "persona": "Research engineer / evaluation owner",
+          "install_complexity": "Medium"
         }
       },
       "recommended_picks": [
@@ -1965,7 +2061,8 @@
         "formbricks-open-source-survey-experience-management",
         "run-multi-agent-public-opinion-analysis-and-report-generation-with-bettafish",
         "monitor-cross-platform-trends-and-alert-agents-with-trendradar",
-        "xquik-x-data-api-skill"
+        "xquik-x-data-api-skill",
+        "build-react-agent-chat-interfaces-with-assistant-ui"
       ],
       "skill_meta": {
         "mautic-marketing-automation-platform": {
@@ -2107,6 +2204,11 @@
           "why_here": "Adds X search, profile inspection, bulk extraction, and account or keyword monitoring for social listening workflows.",
           "persona": "GTM analyst / social intelligence operator",
           "install_complexity": "Medium"
+        },
+        "build-react-agent-chat-interfaces-with-assistant-ui": {
+          "why_here": "Fits GTM teams building customer-facing or internal agent interfaces around sales, support, and revenue workflows.",
+          "persona": "RevOps engineer / growth tooling lead",
+          "install_complexity": "Medium"
         }
       },
       "editorial_notes": [
@@ -2163,7 +2265,11 @@
         "build-navigable-codebase-knowledge-graphs-with-understand-anything",
         "read-and-modify-figma-designs-from-coding-agents-with-talk-to-figma-mcp",
         "coordinate-software-delivery-roles-with-metagpt",
-        "assemble-production-agent-harnesses-with-deepagents"
+        "assemble-production-agent-harnesses-with-deepagents",
+        "run-durable-scheduled-agent-jobs-in-node-js-with-agenda",
+        "run-typescript-native-llm-eval-suites-with-evalite",
+        "run-supervised-mcp-browser-automation-with-auto-browser",
+        "use-mcp-context-forge-as-an-mcp-gateway-and-registry"
       ],
       "who_for": [
         "AI agency founders, forward deployed engineers, automation consultants, client delivery leads, and solutions engineers packaging repeatable AI-enabled services for clients.",
@@ -2363,6 +2469,26 @@
           "why_here": "Gives delivery teams a production-oriented harness for long-running task agents before client handoff.",
           "persona": "Agent implementation lead / FDE",
           "install_complexity": "Medium"
+        },
+        "run-durable-scheduled-agent-jobs-in-node-js-with-agenda": {
+          "why_here": "Gives agencies a durable scheduling layer for recurring client automations, retries, and background agent jobs.",
+          "persona": "AI agency operator / automation engineer",
+          "install_complexity": "Medium"
+        },
+        "run-typescript-native-llm-eval-suites-with-evalite": {
+          "why_here": "Adds a TypeScript-native eval loop before agencies ship or update client-facing agent behavior.",
+          "persona": "AI agency QA lead / TypeScript engineer",
+          "install_complexity": "Medium"
+        },
+        "run-supervised-mcp-browser-automation-with-auto-browser": {
+          "why_here": "Supports supervised browser automation for client workflow QA where operators need control and reviewable actions.",
+          "persona": "FDE / browser automation specialist",
+          "install_complexity": "Medium"
+        },
+        "use-mcp-context-forge-as-an-mcp-gateway-and-registry": {
+          "why_here": "Helps agency teams standardize MCP servers and tool access across multiple client projects.",
+          "persona": "AI agency platform lead / FDE",
+          "install_complexity": "High"
         }
       },
       "recommended_picks": [
@@ -2403,7 +2529,10 @@
         "signoz-open-source-observability-platform",
         "openobserve-observability-platform-logs-metrics-traces",
         "convert-smtp-only-alerts-into-routed-notification-deliveries-with-mailrise",
-        "datadog-integration-connector-agent"
+        "datadog-integration-connector-agent",
+        "trace-and-debug-agent-runs-with-agentops",
+        "trace-llm-and-agent-workflows-with-openllmetry",
+        "evaluate-and-monitor-llm-workflows-with-agenta"
       ],
       "who_for": [
         "SREs, platform engineers, DevOps leads, and infrastructure operators responsible for production reliability.",
@@ -2577,6 +2706,21 @@
           "why_here": "Connects Datadog signals into agent workflows for incident context, monitor review, and dashboard triage.",
           "persona": "SRE / observability engineer",
           "install_complexity": "Medium"
+        },
+        "trace-and-debug-agent-runs-with-agentops": {
+          "why_here": "Adds run-level tracing for agent systems that SRE teams need to debug after failures or noisy automation.",
+          "persona": "SRE / agent platform operator",
+          "install_complexity": "Medium"
+        },
+        "trace-llm-and-agent-workflows-with-openllmetry": {
+          "why_here": "Connects LLM and agent traces to OpenTelemetry-style incident investigation workflows.",
+          "persona": "Observability engineer / platform SRE",
+          "install_complexity": "Medium"
+        },
+        "evaluate-and-monitor-llm-workflows-with-agenta": {
+          "why_here": "Adds monitoring and evaluation coverage for production LLM workflows that need regression signals during incidents.",
+          "persona": "AI platform SRE / reliability owner",
+          "install_complexity": "Medium"
         }
       },
       "recommended_picks": [
@@ -2619,7 +2763,10 @@
         "put-approval-gates-and-audit-ready-policy-checks-between-agents-and-external-actions-with-dashclaw",
         "verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit",
         "stress-test-agent-defenses-with-agentdojo",
-        "run-agent-generated-code-in-local-microvm-sandboxes-with-microsandbox"
+        "run-agent-generated-code-in-local-microvm-sandboxes-with-microsandbox",
+        "evaluate-model-generated-code-execution-with-sandboxfusion",
+        "gate-agent-inputs-and-outputs-with-superagent-safety-checks",
+        "emit-policy-receipts-for-hard-rule-agent-skills-with-pluribus"
       ],
       "who_for": [
         "Security engineers, SOC teams, compliance operators, DevSecOps leads, and AI governance owners.",
@@ -2803,6 +2950,21 @@
           "why_here": "Runs untrusted agent-generated code and tool calls in local microVM-backed sandboxes for safer review.",
           "persona": "AppSec engineer / agent platform operator",
           "install_complexity": "High"
+        },
+        "evaluate-model-generated-code-execution-with-sandboxfusion": {
+          "why_here": "Tests model-generated code execution behavior inside a controlled benchmark before teams trust automation outputs.",
+          "persona": "AI security engineer / evaluation lead",
+          "install_complexity": "High"
+        },
+        "gate-agent-inputs-and-outputs-with-superagent-safety-checks": {
+          "why_here": "Adds a safety gate for agent inputs and outputs before risky actions reach users or downstream systems.",
+          "persona": "GRC automation owner / AI safety reviewer",
+          "install_complexity": "Medium"
+        },
+        "emit-policy-receipts-for-hard-rule-agent-skills-with-pluribus": {
+          "why_here": "Creates reviewable policy receipts for hard-rule workflows where compliance needs evidence, not just logs.",
+          "persona": "Compliance engineer / policy operations",
+          "install_complexity": "Medium"
         }
       },
       "recommended_picks": [
@@ -2853,7 +3015,10 @@
         "add-postgres-native-vector-retrieval-to-agent-and-rag-workflows-with-pgvector",
         "generate-and-evaluate-retrieval-embeddings-with-flagembedding",
         "scale-agent-retrieval-workloads-with-milvus",
-        "build-enterprise-rag-and-agent-workflows-with-bisheng"
+        "build-enterprise-rag-and-agent-workflows-with-bisheng",
+        "build-portable-single-file-agent-memory-with-memvid",
+        "build-graph-based-retrieval-workflows-with-graphrag",
+        "query-neo4j-graph-data-from-agent-workflows-through-mcp"
       ],
       "who_for": [
         "Data engineers, analytics engineers, data platform teams, BI operators, and database reliability owners.",
@@ -3086,6 +3251,21 @@
           "why_here": "Assembles and evaluates enterprise RAG workflows across internal data, models, and business users.",
           "persona": "Enterprise AI platform lead / retrieval workflow owner",
           "install_complexity": "High"
+        },
+        "build-portable-single-file-agent-memory-with-memvid": {
+          "why_here": "Gives analytics teams a portable context layer for packaging large reference sets without standing up a full service.",
+          "persona": "Analytics engineer / data platform operator",
+          "install_complexity": "Medium"
+        },
+        "build-graph-based-retrieval-workflows-with-graphrag": {
+          "why_here": "Adds a graph retrieval option for analytics teams working with relationship-heavy corpora and entity context.",
+          "persona": "Data platform engineer / retrieval architect",
+          "install_complexity": "High"
+        },
+        "query-neo4j-graph-data-from-agent-workflows-through-mcp": {
+          "why_here": "Lets agents inspect governed Neo4j graph data through MCP instead of copying graph context into prompts.",
+          "persona": "Graph data engineer / analytics platform owner",
+          "install_complexity": "Medium"
         }
       },
       "recommended_picks": [
