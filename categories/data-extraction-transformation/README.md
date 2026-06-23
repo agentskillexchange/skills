@@ -131,6 +131,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Jina Reader URL-to-Markdown Converter and Web Search API](../../skills/jina-reader-url-to-markdown-web-search/) | 10.6k | — |
 | [Orama Embeddable Search Engine and RAG Pipeline for JavaScript](../../skills/orama-embeddable-search-engine-rag-pipeline/) | 10.3k | — |
 | [pdfplumber Python PDF Text and Table Extraction Library](../../skills/pdfplumber-python-pdf-text-table-extraction/) | 10.1k | — |
+| [Prepare agent-ready PDF and document extraction with PyMuPDF](../../skills/prepare-agent-ready-pdf-and-document-extraction-with-pymupdf/) | 10.1k | — |
 | [Miller CSV TSV JSON Data Processor](../../skills/miller-csv-tsv-json-data-processor/) | 9.8k | — |
 | [Gorse AI-Powered Open Source Recommender System Engine](../../skills/gorse-ai-recommender-system-engine/) | 9.6k | — |
 | [Build multimodal retrieval context layers with Deep Lake](../../skills/build-multimodal-retrieval-context-layers-with-deep-lake/) | 9.2k | — |

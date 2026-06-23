@@ -1,8 +1,33 @@
 {
   "version": "2.0",
-  "total": 2642,
+  "total": 2644,
   "generated": "2026-06-23",
   "skills": [
+    {
+      "slug": "prepare-agent-ready-pdf-and-document-extraction-with-pymupdf",
+      "name": "Prepare agent-ready PDF and document extraction with PyMuPDF",
+      "title": "Prepare agent-ready PDF and document extraction with PyMuPDF",
+      "description": "Use PyMuPDF to extract text, layout metadata, tables, images, Markdown, or JSON from PDFs and documents before an agent ingests or reviews them.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 10058
+      }
+    },
+    {
+      "slug": "operate-multi-provider-ai-gateway-traffic-with-bifrost",
+      "name": "Operate multi-provider AI gateway traffic with Bifrost",
+      "title": "Operate multi-provider AI gateway traffic with Bifrost",
+      "description": "Run Bifrost as an OpenAI-compatible gateway so agents can route model calls across providers with failover, load balancing, caching, and governance.",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 5969,
+        "npm_weekly_downloads": 6524
+      }
+    },
     {
       "slug": "connect-mcp-clients-to-jetbrains-ide-project-tools",
       "name": "Connect MCP clients to JetBrains IDE project tools",

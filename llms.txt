@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-23
-# Total: 2642 skills
+# Total: 2644 skills
+
+## Prepare agent-ready PDF and document extraction with PyMuPDF
+slug: prepare-agent-ready-pdf-and-document-extraction-with-pymupdf
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use PyMuPDF to extract text, layout metadata, tables, images, Markdown, or JSON from PDFs and documents before an agent ingests or reviews them.
+url: https://agentskillexchange.com/skills/prepare-agent-ready-pdf-and-document-extraction-with-pymupdf/
+
+## Operate multi-provider AI gateway traffic with Bifrost
+slug: operate-multi-provider-ai-gateway-traffic-with-bifrost
+category: Integrations & Connectors
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run Bifrost as an OpenAI-compatible gateway so agents can route model calls across providers with failover, load balancing, caching, and governance.
+url: https://agentskillexchange.com/skills/operate-multi-provider-ai-gateway-traffic-with-bifrost/
 
 ## Connect MCP clients to JetBrains IDE project tools
 slug: connect-mcp-clients-to-jetbrains-ide-project-tools

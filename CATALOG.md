@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2642 published skills** across **17 categories** · 2,280 security reviewed · Updated 2026-06-23 01:26 UTC
+> **2644 published skills** across **17 categories** · 2,280 security reviewed · Updated 2026-06-23 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -603,7 +603,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (201 skills)
+### 🔄 Data Extraction & Transformation (202 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -700,6 +700,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Jina Reader URL-to-Markdown Converter and Web Search API](skills/jina-reader-url-to-markdown-web-search/) | Jina Reader converts any URL to LLM-friendly markdown by prefixing https://r.jina.ai/ to any web address. It also… | Security Reviewed | 10.6k | — |
 | [Orama Embeddable Search Engine and RAG Pipeline for JavaScript](skills/orama-embeddable-search-engine-rag-pipeline/) | Orama is a full-text, vector, and hybrid search engine that runs in the browser, on a server, or at the edge in… | Security Reviewed | 10.3k | — |
 | [pdfplumber Python PDF Text and Table Extraction Library](skills/pdfplumber-python-pdf-text-table-extraction/) | pdfplumber is a Python library for extracting detailed information from PDFs — text, tables, lines, rectangles, and… | Security Reviewed | 10.1k | — |
+| [Prepare agent-ready PDF and document extraction with PyMuPDF](skills/prepare-agent-ready-pdf-and-document-extraction-with-pymupdf/) | Use PyMuPDF to extract text, layout metadata, tables, images, Markdown, or JSON from PDFs and documents before an… | Security Reviewed | 10.1k | — |
 | [Miller CSV TSV JSON Data Processor](skills/miller-csv-tsv-json-data-processor/) | Miller (mlr) is a command-line tool for querying, shaping, and reformatting name-indexed data such as CSV, TSV,… | Security Reviewed | 9.8k | — |
 | [Gorse AI-Powered Open Source Recommender System Engine](skills/gorse-ai-recommender-system-engine/) | Gorse is an AI-powered open-source recommender system written in Go that generates personalized recommendations via… | Security Reviewed | 9.6k | — |
 | [Build multimodal retrieval context layers with Deep Lake](skills/build-multimodal-retrieval-context-layers-with-deep-lake/) | Store raw multimodal data, embeddings, and vector-search indexes in Deep Lake so agents can retrieve grounded… | Security Reviewed | 9.2k | — |
@@ -1734,7 +1735,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Published | — | — |
 
 
-### 🔗 Integrations & Connectors (138 skills)
+### 🔗 Integrations & Connectors (139 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1788,6 +1789,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Nango Open Source API Integration Platform](skills/nango-open-source-api-integration-platform/) | Nango is an open-source platform for building product integrations with 700+ APIs. It handles OAuth, token… | Security Reviewed | 7k | 15.6k/wk |
 | [Read and modify Figma designs from coding agents with Talk to Figma MCP](skills/read-and-modify-figma-designs-from-coding-agents-with-talk-to-figma-mcp/) | Bridge Cursor, Claude Code, and other MCP clients into Figma so agents can inspect selections, create nodes,… | Security Reviewed | 6.8k | 11.1k/wk |
 | [Flagsmith Open Source Feature Flag and Remote Config Platform](skills/flagsmith-feature-flag-remote-config/) | Flagsmith is an open-source feature flagging and remote configuration platform. It enables teams to safely roll out… | Security Reviewed | 6.3k | — |
+| [Operate multi-provider AI gateway traffic with Bifrost](skills/operate-multi-provider-ai-gateway-traffic-with-bifrost/) | Run Bifrost as an OpenAI-compatible gateway so agents can route model calls across providers with failover, load… | Security Reviewed | 6k | 6.5k/wk |
 | [Notion Database Sync & Page Generator](skills/notion-database-sync-page-generator-2/) | Reads from and writes to Notion databases using the official Notion API v1, supporting filtered queries, property… | Security Reviewed | 5.6k | 1.2M/wk |
 | [Zammad Open Source Web-Based Helpdesk and Ticketing System](skills/zammad-open-source-helpdesk-ticketing-system/) | Zammad is a self-hosted, open-source helpdesk and customer support system with email, chat, phone, Twitter, and… | Security Reviewed | 5.5k | — |
 | [Inngest Event-Driven Durable Workflow Orchestration Platform](skills/inngest-event-driven-durable-workflow-orchestration/) | Inngest is an open-source workflow orchestration platform that replaces queues, state management, and scheduling… | Security Reviewed | 5.2k | — |
