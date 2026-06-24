@@ -163,6 +163,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [franc Natural Language Detection Library and CLI](../../skills/franc-natural-language-detection/) | 4.4k | — |
 | [Stripe Revenue Analytics Dashboard Builder](../../skills/stripe-revenue-analytics-dashboard/) | 4.4k | 9.3M/wk |
 | [Build managed document parsing pipelines with LlamaCloud Services](../../skills/build-managed-document-parsing-pipelines-with-llamacloud-services/) | 4.2k | 83k/wk |
+| [Generate validated analytics SQL with SQLCoder](../../skills/generate-validated-analytics-sql-with-sqlcoder/) | 4k | — |
 | [Apache Kafka Schema Registry Extractor](../../skills/kafka-schema-registry-extractor/) | 4k | 2.5M/wk |
 | [Apache Kafka Schema Registry Validator](../../skills/kafka-schema-registry-validator/) | 4k | 2.5M/wk |
 | [xan SIMD-Powered CSV Processing and Analysis CLI](../../skills/xan-simd-csv-processing-cli/) | 3.9k | — |

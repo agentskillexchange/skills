@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-06-23
-# Total: 2649 skills
+# Generated: 2026-06-24
+# Total: 2650 skills
+
+## Generate validated analytics SQL with SQLCoder
+slug: generate-validated-analytics-sql-with-sqlcoder
+category: Data Extraction & Transformation
+framework: Custom Agents
+verification: Security Reviewed
+description: Use SQLCoder when an analytics agent needs to turn natural-language questions plus schema context into SQL drafts that can be reviewed, validated, and run…
+url: https://agentskillexchange.com/skills/generate-validated-analytics-sql-with-sqlcoder/
 
 ## Record system-level agent activity with AgentSight
 slug: record-system-level-agent-activity-with-agentsight

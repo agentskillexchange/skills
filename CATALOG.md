@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2649 published skills** across **17 categories** · 2,286 security reviewed · Updated 2026-06-23 19:29 UTC
+> **2650 published skills** across **17 categories** · 2,286 security reviewed · Updated 2026-06-24 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -604,7 +604,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (202 skills)
+### 🔄 Data Extraction & Transformation (203 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -733,6 +733,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [franc Natural Language Detection Library and CLI](skills/franc-natural-language-detection/) | franc is a JavaScript library and CLI tool for detecting the language of text. It supports up to 419 languages and… | Published | 4.4k | — |
 | [Stripe Revenue Analytics Dashboard Builder](skills/stripe-revenue-analytics-dashboard/) | Pulls MRR, churn, and LTV metrics from the Stripe Data API using the stripe Node.js SDK and transforms the data… | Security Reviewed | 4.4k | 9.3M/wk |
 | [Build managed document parsing pipelines with LlamaCloud Services](skills/build-managed-document-parsing-pipelines-with-llamacloud-services/) | Use LlamaCloud Services to parse, index, and manage document knowledge pipelines that feed LlamaIndex retrieval and… | Security Reviewed | 4.2k | 83k/wk |
+| [Generate validated analytics SQL with SQLCoder](skills/generate-validated-analytics-sql-with-sqlcoder/) | Use SQLCoder when an analytics agent needs to turn natural-language questions plus schema context into SQL drafts… | Security Reviewed | 4k | — |
 | [Apache Kafka Schema Registry Extractor](skills/kafka-schema-registry-extractor/) | Extracts and transforms Avro/Protobuf schemas from Confluent Schema Registry using the REST API. Generates… | Security Reviewed | 4k | 2.5M/wk |
 | [Apache Kafka Schema Registry Validator](skills/kafka-schema-registry-validator/) | Validates Avro, Protobuf, and JSON Schema compatibility against Confluent Schema Registry using the REST API.… | Security Reviewed | 4k | 2.5M/wk |
 | [xan SIMD-Powered CSV Processing and Analysis CLI](skills/xan-simd-csv-processing-cli/) | xan is a high-performance command-line tool for processing CSV files, written in Rust with a novel SIMD CSV parser.… | Security Reviewed | 3.9k | — |

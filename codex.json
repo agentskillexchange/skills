@@ -1,9 +1,18 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-06-23",
-  "total": 2649,
+  "generated": "2026-06-24",
+  "total": 2650,
   "skills": [
+    {
+      "slug": "generate-validated-analytics-sql-with-sqlcoder",
+      "name": "Generate validated analytics SQL with SQLCoder",
+      "title": "Generate validated analytics SQL with SQLCoder",
+      "description": "Use SQLCoder when an analytics agent needs to turn natural-language questions plus schema context into SQL drafts that can be reviewed, validated, and run…",
+      "category": "Data Extraction & Transformation",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "record-system-level-agent-activity-with-agentsight",
       "name": "Record system-level agent activity with AgentSight",
