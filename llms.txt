@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-24
-# Total: 2650 skills
+# Total: 2651 skills
+
+## Run lightweight headless browser automation with Obscura
+slug: run-lightweight-headless-browser-automation-with-obscura
+category: Browser Automation
+framework: Multi-Framework
+verification: Published
+description: Use Obscura as a lightweight headless browser runtime for agent scraping, page inspection, parallel extraction, and CDP-driven Playwright or Puppeteer workflows.
+url: https://agentskillexchange.com/skills/run-lightweight-headless-browser-automation-with-obscura/
 
 ## Generate validated analytics SQL with SQLCoder
 slug: generate-validated-analytics-sql-with-sqlcoder

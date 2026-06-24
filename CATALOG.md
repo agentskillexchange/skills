@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2650 published skills** across **17 categories** · 2,286 security reviewed · Updated 2026-06-24 01:26 UTC
+> **2651 published skills** across **17 categories** · 2,286 security reviewed · Updated 2026-06-24 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -2150,7 +2150,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Rust Crates.io Explorer](skills/rust-crates-io-explorer/) | Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates… | Published | — | — |
 
 
-### 🌐 Browser Automation (117 skills)
+### 🌐 Browser Automation (118 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
@@ -2225,6 +2225,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Run block-based browser automation workflows with Automa](skills/run-block-based-browser-automation-workflows-with-automa/) | Use Automa when an operator needs repeatable browser workflows for form filling, scraping, screenshots, or scheduled… | Security Reviewed | 21.4k | — |
 | [Skyvern AI Browser Workflow Automation with LLMs and Computer Vision](skills/skyvern-ai-browser-workflow-automation/) | Skyvern automates browser-based workflows using LLMs and computer vision. It provides a Playwright-compatible SDK… | Security Reviewed | 21k | — |
 | [Embed an in-page GUI agent with Page Agent](skills/embed-an-in-page-gui-agent-with-page-agent/) | Add a JavaScript GUI agent to a web app so users or agents can complete UI tasks through natural-language commands… | Published | 18.6k | 37k/wk |
+| [Run lightweight headless browser automation with Obscura](skills/run-lightweight-headless-browser-automation-with-obscura/) | Use Obscura as a lightweight headless browser runtime for agent scraping, page inspection, parallel extraction, and… | Published | 16.1k | — |
 | [Playwright Python Browser Automation Library for Cross-Browser Testing](skills/playwright-python-browser-automation-library-cross-browser-testing/) | Playwright for Python is Microsoft's cross-browser automation library for Chromium, Firefox, and WebKit. It gives… | Security Reviewed | 14.5k | — |
 | [Run computer-use agents inside cross-OS desktop sandboxes with CUA](skills/run-computer-use-agents-inside-cross-os-desktop-sandboxes-with-cua/) | Launch computer-use agents in Linux, macOS, Windows, or Android sandboxes and drive full desktop tasks through… | Security Reviewed | 13.5k | 513/wk |
 | [Run local multi-agent browser tasks with Nanobrowser](skills/run-local-multi-agent-browser-tasks-with-nanobrowser/) | Use Nanobrowser when an operator needs a local Chrome or Edge browser agent to run multi-step web tasks with their… | Security Reviewed | 13.1k | — |

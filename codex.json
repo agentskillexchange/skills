@@ -2,8 +2,17 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-24",
-  "total": 2650,
+  "total": 2651,
   "skills": [
+    {
+      "slug": "run-lightweight-headless-browser-automation-with-obscura",
+      "name": "Run lightweight headless browser automation with Obscura",
+      "title": "Run lightweight headless browser automation with Obscura",
+      "description": "Use Obscura as a lightweight headless browser runtime for agent scraping, page inspection, parallel extraction, and CDP-driven Playwright or Puppeteer workflows.",
+      "category": "Browser Automation",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
     {
       "slug": "generate-validated-analytics-sql-with-sqlcoder",
       "name": "Generate validated analytics SQL with SQLCoder",

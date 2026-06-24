@@ -109,6 +109,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Run block-based browser automation workflows with Automa](../../skills/run-block-based-browser-automation-workflows-with-automa/) | 21.4k | — |
 | [Skyvern AI Browser Workflow Automation with LLMs and Computer Vision](../../skills/skyvern-ai-browser-workflow-automation/) | 21k | — |
 | [Embed an in-page GUI agent with Page Agent](../../skills/embed-an-in-page-gui-agent-with-page-agent/) | 18.6k | 37k/wk |
+| [Run lightweight headless browser automation with Obscura](../../skills/run-lightweight-headless-browser-automation-with-obscura/) | 16.1k | — |
 | [Playwright Python Browser Automation Library for Cross-Browser Testing](../../skills/playwright-python-browser-automation-library-cross-browser-testing/) | 14.5k | — |
 | [Run computer-use agents inside cross-OS desktop sandboxes with CUA](../../skills/run-computer-use-agents-inside-cross-os-desktop-sandboxes-with-cua/) | 13.5k | 513/wk |
 | [Run local multi-agent browser tasks with Nanobrowser](../../skills/run-local-multi-agent-browser-tasks-with-nanobrowser/) | 13.1k | — |
