@@ -307,6 +307,8 @@ lines.append("**[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchang
 lines.append("")
 lines.append(f"*{fmt_count(total)} published skills · {industry_count} Industry Collections · {len(cat_rows)} categories · Real ecosystem signals · Updated daily*")
 lines.append("")
+lines.append("*Star this repo to keep the agent skill catalog handy and follow new additions.*")
+lines.append("")
 lines.append("</div>")
 lines.append("")
 lines.append("---")

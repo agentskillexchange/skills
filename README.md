@@ -14,6 +14,8 @@
 
 *2,650 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
+*Star this repo to keep the agent skill catalog handy and follow new additions.*
+
 </div>
 
 ---
