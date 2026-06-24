@@ -51,6 +51,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Kong Gateway API AI and MCP Traffic Control](../../skills/kong-gateway-api-ai-mcp-traffic-control/) | 43.2k | — |
 | [LiteLLM Unified LLM Gateway and Proxy Server](../../skills/litellm-unified-llm-gateway-proxy/) | 41.8k | — |
 | [Novu Open-Source Notification Infrastructure Platform](../../skills/novu-open-source-notification-infrastructure-platform/) | 38.7k | 6.2k/wk |
+| [Expose CLI agent accounts through an API-compatible local proxy with CLIProxyAPI](../../skills/expose-cli-agent-accounts-through-api-compatible-local-proxy-with-cliproxyapi/) | 38.3k | — |
 | [Medusa Commerce API and Store Operations Automation Skill](../../skills/medusa-commerce-api-store-operations-automation-skill/) | 32.6k | 117.8k/wk |
 | [Wrap ordinary CLIs so agents can invoke them through a normalized agent-native interface with CLI-Anything](../../skills/wrap-ordinary-clis-so-agents-can-invoke-them-through-a-normalized-agent-native-interface-with-cli-anything/) | 31.2k | — |
 | [ntfy Self-Hosted Push Notification Server](../../skills/ntfy-self-hosted-push-notification-server/) | 29.5k | — |
@@ -96,7 +97,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Render interactive MCP tool UIs with mcp-ui](../../skills/render-interactive-mcp-tool-uis-with-mcp-ui/) | 4.9k | 1.6M/wk |
 | [Atlassian MCP Server for Jira and Confluence](../../skills/atlassian-mcp-server-jira-confluence/) | 4.8k | — |
 | [Add temporal context memory to agent workflows with Zep](../../skills/add-temporal-context-memory-to-agent-workflows-with-zep/) | 4.6k | 463k/wk |
-| [Stripe MCP Server](../../skills/stripe-mcp-server/) | 4.4k | 14.5M/wk |
+| [Stripe MCP Server](../../skills/stripe-mcp-server/) | 4.4k | 14.6M/wk |
 | [Stripe Connect Account Provisioner](../../skills/stripe-connect-account-provisioner/) | 4.4k | 9.3M/wk |
 | [Stripe Connect Integration](../../skills/stripe-connect-integration/) | 4.4k | 9.3M/wk |
 | [Stripe Connect Marketplace Sync](../../skills/stripe-connect-marketplace-sync/) | 4.4k | 9.3M/wk |
@@ -113,7 +114,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Add multimodal lifelong memory to MCP and Python agents with SimpleMem](../../skills/add-multimodal-lifelong-memory-to-mcp-and-python-agents-with-simplemem/) | 3.5k | — |
 | [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | 3.4k | — |
 | [Svix Enterprise Webhook Delivery Service](../../skills/svix-enterprise-webhook-delivery-service/) | 3.2k | — |
-| [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | 3.1k | 57.9k/wk |
+| [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | 3.1k | 57.7k/wk |
 | [SendGrid Transactional Email Builder](../../skills/sendgrid-transactional-email-builder/) | 3k | 3.6M/wk |
 | [SendGrid Transactional Email Router](../../skills/sendgrid-transactional-email-router/) | 3k | 3.6M/wk |
 | [n8n-nodes-mcp Community Node for Model Context Protocol Workflows](../../skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows/) | 3k | 45.9k/wk |
@@ -124,7 +125,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [MetaMCP Unified MCP Server Aggregator and Gateway](../../skills/metamcp-unified-mcp-server-aggregator-gateway/) | 2.2k | — |
 | [Connect Azure DevOps projects, work items, repos, and pipelines to MCP agents](../../skills/connect-azure-devops-projects-work-items-repos-and-pipelines-to-mcp-agents/) | 1.7k | 334.3k/wk |
 | [Sync skills across Claude Code, Codex, OpenClaw, and other AI CLIs with Skillshare](../../skills/sync-skills-across-ai-coding-clis-with-skillshare/) | 1.6k | — |
-| [Twilio MCP Server](../../skills/twilio-mcp-server/) | 1.5k | 5.1M/wk |
+| [Twilio MCP Server](../../skills/twilio-mcp-server/) | 1.5k | 5.2M/wk |
 | [Twilio Programmable SMS Gateway](../../skills/twilio-programmable-sms-gateway/) | 1.5k | 3.7M/wk |
 | [Twilio Programmable Voice Router](../../skills/twilio-programmable-voice-router-2/) | 1.5k | 3.7M/wk |
 | [Twilio SMS & Voice Bridge](../../skills/twilio-sms-voice-bridge/) | 1.5k | 3.7M/wk |

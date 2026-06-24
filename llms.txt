@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-24
-# Total: 2651 skills
+# Total: 2654 skills
+
+## Run durable Go agent schedules with gocron
+slug: run-durable-go-agent-schedules-with-gocron
+category: Templates & Workflows
+framework: Custom Agents
+verification: Security Reviewed
+description: Embed gocron in Go-based agents or operators to run recurring tasks, cron expressions, one-time jobs, singleton executions, concurrency limits, and distributed leader-elected schedules.
+url: https://agentskillexchange.com/skills/run-durable-go-agent-schedules-with-gocron/
+
+## Expose CLI agent accounts through an API-compatible local proxy with CLIProxyAPI
+slug: expose-cli-agent-accounts-through-api-compatible-local-proxy-with-cliproxyapi
+category: Integrations & Connectors
+framework: Multi-Framework
+verification: Published
+description: Run CLIProxyAPI when an operator needs a local OpenAI, Gemini, Claude, Codex, or Grok-compatible API facade over authenticated CLI agent access for repeatable agent…
+url: https://agentskillexchange.com/skills/expose-cli-agent-accounts-through-api-compatible-local-proxy-with-cliproxyapi/
+
+## Coordinate multi-agent cowork sessions with AionUi
+slug: coordinate-multi-agent-cowork-sessions-with-aionui
+category: Developer Tools
+framework: Multi-Framework
+verification: Published
+description: Run AionUi as a local cowork surface for coordinating built-in agents, Codex, Claude Code, OpenClaw, Gemini CLI, and other CLI agents across supervised files,…
+url: https://agentskillexchange.com/skills/coordinate-multi-agent-cowork-sessions-with-aionui/
 
 ## Run lightweight headless browser automation with Obscura
 slug: run-lightweight-headless-browser-automation-with-obscura

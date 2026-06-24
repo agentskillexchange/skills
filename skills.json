@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 2651,
+  "total": 2654,
   "generated": "2026-06-24",
   "skills": [
+    {
+      "slug": "run-durable-go-agent-schedules-with-gocron",
+      "name": "Run durable Go agent schedules with gocron",
+      "title": "Run durable Go agent schedules with gocron",
+      "description": "Embed gocron in Go-based agents or operators to run recurring tasks, cron expressions, one-time jobs, singleton executions, concurrency limits, and distributed leader-elected schedules.",
+      "category": "Templates & Workflows",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 7079
+      }
+    },
+    {
+      "slug": "expose-cli-agent-accounts-through-api-compatible-local-proxy-with-cliproxyapi",
+      "name": "Expose CLI agent accounts through an API-compatible local proxy with CLIProxyAPI",
+      "title": "Expose CLI agent accounts through an API-compatible local proxy with CLIProxyAPI",
+      "description": "Run CLIProxyAPI when an operator needs a local OpenAI, Gemini, Claude, Codex, or Grok-compatible API facade over authenticated CLI agent access for repeatable agent…",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "signals": {
+        "github_stars": 38268
+      }
+    },
+    {
+      "slug": "coordinate-multi-agent-cowork-sessions-with-aionui",
+      "name": "Coordinate multi-agent cowork sessions with AionUi",
+      "title": "Coordinate multi-agent cowork sessions with AionUi",
+      "description": "Run AionUi as a local cowork surface for coordinating built-in agents, Codex, Claude Code, OpenClaw, Gemini CLI, and other CLI agents across supervised files,…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "signals": {
+        "github_stars": 28770
+      }
+    },
     {
       "slug": "run-lightweight-headless-browser-automation-with-obscura",
       "name": "Run lightweight headless browser automation with Obscura",
@@ -31676,7 +31712,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 14469787,
+        "npm_weekly_downloads": 14611965,
         "license": "MIT"
       }
     },
@@ -31690,7 +31726,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 103,
-        "npm_weekly_downloads": 2388292,
+        "npm_weekly_downloads": 2389695,
         "license": "Apache-2.0"
       }
     },
@@ -31730,7 +31766,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 27264,
-        "npm_weekly_downloads": 142095387,
+        "npm_weekly_downloads": 142964622,
         "license": "MIT"
       }
     },
@@ -31757,7 +31793,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 8449898,
+        "npm_weekly_downloads": 8519797,
         "license": "Apache-2.0"
       }
     },
@@ -31771,7 +31807,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 32358206,
+        "npm_weekly_downloads": 32537489,
         "license": "Apache-2.0"
       }
     },
@@ -31785,7 +31821,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3051,
-        "npm_weekly_downloads": 57879,
+        "npm_weekly_downloads": 57700,
         "license": "MIT"
       }
     },
@@ -31799,7 +31835,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1539,
-        "npm_weekly_downloads": 5114927,
+        "npm_weekly_downloads": 5187888,
         "license": "MIT"
       }
     },
@@ -31813,7 +31849,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 14469787,
+        "npm_weekly_downloads": 14611965,
         "license": "MIT"
       }
     },
@@ -31827,7 +31863,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1465,
-        "npm_weekly_downloads": 1033138,
+        "npm_weekly_downloads": 1049862,
         "license": "MIT"
       }
     },
@@ -31841,7 +31877,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 397,
-        "npm_weekly_downloads": 1268639,
+        "npm_weekly_downloads": 1290941,
         "license": "Apache-2.0"
       }
     },
@@ -31855,7 +31891,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 5610,
-        "npm_weekly_downloads": 1384840,
+        "npm_weekly_downloads": 1393088,
         "license": "MIT"
       }
     },
@@ -31894,7 +31930,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 24,
-        "npm_weekly_downloads": 5667,
+        "npm_weekly_downloads": 5790,
         "license": "Apache-2.0"
       }
     },
@@ -31922,7 +31958,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 811,
-        "npm_weekly_downloads": 7712630
+        "npm_weekly_downloads": 7712189
       }
     },
     {
@@ -31935,7 +31971,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 25248,
-        "npm_weekly_downloads": 2143196,
+        "npm_weekly_downloads": 2131328,
         "license": "Apache-2.0"
       }
     },
@@ -32052,7 +32088,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 712,
-        "npm_weekly_downloads": 62219
+        "npm_weekly_downloads": 61167
       }
     },
     {
@@ -32106,7 +32142,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1290,
-        "npm_weekly_downloads": 418,
+        "npm_weekly_downloads": 403,
         "license": "MIT"
       }
     },
@@ -32133,7 +32169,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 393,
-        "npm_weekly_downloads": 14507,
+        "npm_weekly_downloads": 14155,
         "license": "Apache-2.0"
       }
     },
@@ -32168,7 +32204,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 10942,
-        "npm_weekly_downloads": 27415266,
+        "npm_weekly_downloads": 27667359,
         "license": "Apache-2.0"
       }
     },
@@ -32319,7 +32355,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 33289,
-        "npm_weekly_downloads": 5413836,
+        "npm_weekly_downloads": 5369936,
         "license": "Apache-2.0"
       }
     },
@@ -32348,7 +32384,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 89986,
-        "npm_weekly_downloads": 63710685,
+        "npm_weekly_downloads": 64101024,
         "license": "Apache-2.0"
       }
     }
