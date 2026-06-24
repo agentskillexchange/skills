@@ -13,7 +13,7 @@ tool_ecosystem:
   github_repo: "e2b-dev/mcp-server"
   github_stars: 393
   npm_package: "@e2b/mcp-server"
-  npm_weekly_downloads: 14507
+  npm_weekly_downloads: 14155
 ---
 
 # E2B Code Execution MCP
