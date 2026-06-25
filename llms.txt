@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-25
-# Total: 2654 skills
+# Total: 2656 skills
+
+## Ingest Chinese social and media content into agent knowledge bases with Chubbyskills
+slug: ingest-chinese-social-and-media-content-into-agent-knowledge-bases-with-chubbyskills
+category: Media & Transcription
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Chubbyskills when an agent needs installable skills for collecting Chinese social, video, podcast, and article content into Markdown and Obsidian-style knowledge bases.
+url: https://agentskillexchange.com/skills/ingest-chinese-social-and-media-content-into-agent-knowledge-bases-with-chubbyskills/
+
+## Run self-hosted media research and RAG workflows with tldw_server
+slug: run-self-hosted-media-research-and-rag-workflows-with-tldw-server
+category: Research & Scraping
+framework: MCP
+verification: Security Reviewed
+description: Use tldw_server when an agent workflow needs to ingest video, audio, documents, and web pages into a local research layer with RAG, evals, OpenAI-compatible…
+url: https://agentskillexchange.com/skills/run-self-hosted-media-research-and-rag-workflows-with-tldw-server/
 
 ## Run durable Go agent schedules with gocron
 slug: run-durable-go-agent-schedules-with-gocron

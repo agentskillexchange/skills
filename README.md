@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C654-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C656-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C289-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,654 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,656 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Ingest Chinese social and media content into agent knowledge bases with Chubbyskills](skills/ingest-chinese-social-and-media-content-into-agent-knowledge-bases-with-chubbyskills/) | Use Chubbyskills when an agent needs installable skills for collecting Chinese social, video, podcast, and article content into... | 466 | Media & Transcription |
+| [Run self-hosted media research and RAG workflows with tldw_server](skills/run-self-hosted-media-research-and-rag-workflows-with-tldw-server/) | Use tldw_server when an agent workflow needs to ingest video, audio, documents, and web pages into a local... | 1.4k | Research & Scraping |
 | [Run durable Go agent schedules with gocron](skills/run-durable-go-agent-schedules-with-gocron/) | Embed gocron in Go-based agents or operators to run recurring tasks, cron expressions, one-time jobs, singleton executions, concurrency... | 7.1k | Templates & Workflows |
 | [Expose CLI agent accounts through an API-compatible local proxy with CLIProxyAPI](skills/expose-cli-agent-accounts-through-api-compatible-local-proxy-with-cliproxyapi/) | Run CLIProxyAPI when an operator needs a local OpenAI, Gemini, Claude, Codex, or Grok-compatible API facade over authenticated... | 38.3k | Integrations & Connectors |
 | [Coordinate multi-agent cowork sessions with AionUi](skills/coordinate-multi-agent-cowork-sessions-with-aionui/) | Run AionUi as a local cowork surface for coordinating built-in agents, Codex, Claude Code, OpenClaw, Gemini CLI, and... | 28.8k | Developer Tools |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Record system-level agent activity with AgentSight](skills/record-system-level-agent-activity-with-agentsight/) | Wrap Claude Code, Codex, Gemini CLI, OpenClaw, or another agent command with AgentSight to capture processes, files, network... | 469 | Monitoring & Alerts |
 | [Scan agent dependencies and container inputs with OWASP dep-scan](skills/scan-agent-dependencies-and-container-inputs-with-owasp-dep-scan/) | Run OWASP dep-scan before adopting dependencies, containers, or generated code so agents get a reviewable vulnerability, license, SBOM... | 1.3k | Security & Verification |
 | [Run durable Python agent schedules with APScheduler](skills/run-durable-python-agent-schedules-with-apscheduler/) | Schedule recurring, interval, calendar, and one-off Python agent jobs with persistent job stores so background workflows survive restarts | 7.5k | Templates & Workflows |
-| [Trace and evaluate LLM application behavior with Langtrace](skills/trace-and-evaluate-llm-application-behavior-with-langtrace/) | Instrument Python or TypeScript agent applications with OpenTelemetry traces, metrics, and evaluation views for debugging production LLM workflows | 1.2k | Monitoring & Alerts |
-| [Control hosted browser research and extraction through Hyperbrowser MCP](skills/control-hosted-browser-research-and-extraction-through-hyperbrowser-mcp/) | Give MCP clients hosted browser tools for scraping, crawling, structured extraction, search, and computer-use browser automation | 770 | Browser Automation |
 
 ---
 
@@ -106,13 +106,13 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
-| [Coordinate multi-agent Claude Code and Codex workflows with Ruflo](skills/coordinate-multi-agent-claude-code-and-codex-workflows-with-ruflo/) | Install Ruflo when an operator needs Claude Code or Codex agents to coordinate swarms, memory, hooks, and MCP... | 59.0k | Templates & Workflows |
 | [Run durable scheduled agent jobs in Node.js with Agenda](skills/run-durable-scheduled-agent-jobs-in-node-js-with-agenda/) | Use Agenda when a custom Node.js agent needs persistent scheduled jobs, retries, locking, and background workers backed by... | 9.7k | Templates & Workflows |
+| [Coordinate multi-agent Claude Code and Codex workflows with Ruflo](skills/coordinate-multi-agent-claude-code-and-codex-workflows-with-ruflo/) | Install Ruflo when an operator needs Claude Code or Codex agents to coordinate swarms, memory, hooks, and MCP... | 59.0k | Templates & Workflows |
 | [Run DeepSeek-oriented terminal coding workflows with Reasonix](skills/run-deepseek-oriented-terminal-coding-workflows-with-reasonix/) | Use Reasonix when an operator wants a persistent terminal coding agent tuned for DeepSeek-style prefix caching, project memory... | 21.8k | Developer Tools |
 | [Operate multi-provider AI gateway traffic with Bifrost](skills/operate-multi-provider-ai-gateway-traffic-with-bifrost/) | Run Bifrost as an OpenAI-compatible gateway so agents can route model calls across providers with failover, load balancing... | 6.0k | Integrations & Connectors |
-| [Build portable single-file agent memory with Memvid](skills/build-portable-single-file-agent-memory-with-memvid/) | Use Memvid when an agent needs local, portable long-term memory and retrieval without running a vector database or... | 15.7k | Integrations & Connectors |
 | [Build managed document parsing pipelines with LlamaCloud Services](skills/build-managed-document-parsing-pipelines-with-llamacloud-services/) | Use LlamaCloud Services to parse, index, and manage document knowledge pipelines that feed LlamaIndex retrieval and agent workflows | 4.2k | Data Extraction & Transformation |
 | [Extract OCR-ready Markdown from documents with Zerox](skills/extract-ocr-ready-markdown-from-documents-with-zerox/) | Use Zerox to convert PDFs, images, and office documents into Markdown or structured extraction outputs using vision models | 12.2k | Data Extraction & Transformation |
+| [Build portable single-file agent memory with Memvid](skills/build-portable-single-file-agent-memory-with-memvid/) | Use Memvid when an agent needs local, portable long-term memory and retrieval without running a vector database or... | 15.7k | Integrations & Connectors |
 | [Trace coding-agent and LLM workflows with OpenLIT](skills/trace-coding-agent-and-llm-workflows-with-openlit/) | Use OpenLIT to instrument coding agents and LLM applications with OpenTelemetry traces, metrics, costs, prompts, tool calls, and... | 2.5k | Monitoring & Alerts |
 | [Control hosted browser research and extraction through Hyperbrowser MCP](skills/control-hosted-browser-research-and-extraction-through-hyperbrowser-mcp/) | Give MCP clients hosted browser tools for scraping, crawling, structured extraction, search, and computer-use browser automation | 770 | Browser Automation |
 | [Trace and evaluate LLM application behavior with Langtrace](skills/trace-and-evaluate-llm-application-behavior-with-langtrace/) | Instrument Python or TypeScript agent applications with OpenTelemetry traces, metrics, and evaluation views for debugging production LLM workflows | 1.2k | Monitoring & Alerts |
@@ -135,8 +135,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 125 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 122 | SDK docs, API parsers, symbol resolvers |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 118 | Web scraping, UI testing, headless browser control |
-| 🔍 | [**Research & Scraping**](categories/research-scraping/) | 114 | Web research, content discovery, data collection |
-| 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 102 | Audio/video processing, speech-to-text |
+| 🔍 | [**Research & Scraping**](categories/research-scraping/) | 115 | Web research, content discovery, data collection |
+| 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 103 | Audio/video processing, speech-to-text |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 89 | Image generation, asset processing, design automation |
 | ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 79 | SEO content, blog automation, editorial workflows |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,654 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,656 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,289 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

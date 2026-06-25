@@ -119,6 +119,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Deploy conversational voice agents with Bolna](../../skills/deploy-conversational-voice-agents-with-bolna/) | 666 | — |
 | [Realign drifting subtitles against finished video audio](../../skills/realign-drifting-subtitles-against-finished-video-audio/) | 504 | — |
 | [Archive online videos and metadata to the Internet Archive with Tubeup](../../skills/archive-online-videos-and-metadata-to-the-internet-archive-with-tubeup/) | 487 | — |
+| [Ingest Chinese social and media content into agent knowledge bases with Chubbyskills](../../skills/ingest-chinese-social-and-media-content-into-agent-knowledge-bases-with-chubbyskills/) | 466 | — |
 | [Deepgram Real-Time Transcription Connector](../../skills/deepgram-realtime-transcription-connector/) | 260 | 1.6M/wk |
 | [Mux Node SDK for Video and Streaming API Workflows](../../skills/mux-node-sdk-video-and-streaming-api-workflows/) | 178 | 987.7k/wk |
 | [Cartesia JavaScript SDK for Low-Latency Voice Generation](../../skills/cartesia-javascript-sdk-low-latency-voice-generation/) | 130 | 192.2k/wk |

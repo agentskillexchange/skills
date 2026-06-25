@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2654 published skills** across **17 categories** · 2,289 security reviewed · Updated 2026-06-25 01:26 UTC
+> **2656 published skills** across **17 categories** · 2,289 security reviewed · Updated 2026-06-25 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -2279,7 +2279,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Verify local web apps with Playwright scripts and managed dev servers](skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | Use Anthropic's webapp-testing skill to spin up one or more local servers, wait for them to become reachable, and… | Security Reviewed | — | — |
 
 
-### 🔍 Research & Scraping (114 skills)
+### 🔍 Research & Scraping (115 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -2354,6 +2354,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Ground research agents in Zotero libraries with LLM for Zotero](skills/ground-research-agents-in-zotero-libraries-with-llm-for-zotero/) | Bring agent-mode paper chat, citation-grounded answers, note saving, tagging, importing, and library-wide research… | Security Reviewed | 1.7k | — |
 | [Replay And Inspect WARC Web Archives Before Investigation Or Migration With Pywb](skills/replay-and-inspect-warc-web-archives-before-investigation-or-migration-with-pywb/) | Replay WARC-backed web archives locally so an agent can inspect historical pages, validate captures, and review… | Security Reviewed | 1.6k | — |
 | [Tavily MCP Server for AI-Powered Web Search and Extraction](skills/tavily-mcp-server-ai-web-search-extraction/) | An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping,… | Security Reviewed | 1.6k | 47.9k/wk |
+| [Run self-hosted media research and RAG workflows with tldw_server](skills/run-self-hosted-media-research-and-rag-workflows-with-tldw-server/) | Use tldw_server when an agent workflow needs to ingest video, audio, documents, and web pages into a local research… | Security Reviewed | 1.4k | — |
 | [AgentQL Natural Language Web Query SDK for Extraction and Automation](skills/agentql-natural-language-web-query-sdk-extraction-automation/) | AgentQL is TinyFish's web automation and extraction toolkit that layers a natural-language query system on top of… | Security Reviewed | 1.3k | 878/wk |
 | [Newspaper4k Python Article Extraction and NLP Library](skills/newspaper4k-python-article-extraction-nlp/) | Newspaper4k is an actively maintained fork of the popular Newspaper3k library for Python. It extracts articles,… | Security Reviewed | 1.1k | — |
 | [Browsertrix Crawler High-Fidelity Web Archiving and QA Crawler](skills/browsertrix-crawler-high-fidelity-web-archiving-qa-crawler/) | Browsertrix Crawler is a browser-based crawling system from Webrecorder for high-fidelity site capture, QA replay… | Published | 1k | — |
@@ -2401,7 +2402,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE… | Security Reviewed | — | — |
 
 
-### 🎙️ Media & Transcription (102 skills)
+### 🎙️ Media & Transcription (103 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads)
 
@@ -2486,6 +2487,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [Deploy conversational voice agents with Bolna](skills/deploy-conversational-voice-agents-with-bolna/) | Build and run voice-first conversational agents by configuring telephony, ASR, LLM, and TTS providers behind a… | Security Reviewed | 666 | — |
 | [Realign drifting subtitles against finished video audio](skills/realign-drifting-subtitles-against-finished-video-audio/) | Uses Subaligner to retime an existing subtitle file against the final audio track, then outputs a corrected subtitle… | Security Reviewed | 504 | — |
 | [Archive online videos and metadata to the Internet Archive with Tubeup](skills/archive-online-videos-and-metadata-to-the-internet-archive-with-tubeup/) | Download a supported video URL with yt-dlp and upload the preserved file plus metadata to archive.org as a… | Security Reviewed | 487 | — |
+| [Ingest Chinese social and media content into agent knowledge bases with Chubbyskills](skills/ingest-chinese-social-and-media-content-into-agent-knowledge-bases-with-chubbyskills/) | Use Chubbyskills when an agent needs installable skills for collecting Chinese social, video, podcast, and article… | Security Reviewed | 466 | — |
 | [Deepgram Real-Time Transcription Connector](skills/deepgram-realtime-transcription-connector/) | Streams live audio to Deepgram's WebSocket API at wss://api.deepgram.com/v1/listen for real-time speech-to-text.… | Security Reviewed | 260 | 1.6M/wk |
 | [Mux Node SDK for Video and Streaming API Workflows](skills/mux-node-sdk-video-and-streaming-api-workflows/) | An ASE skill built around the official Mux Node SDK for working with Mux Video and Mux Data from JavaScript or… | Security Reviewed | 178 | 987.7k/wk |
 | [Cartesia JavaScript SDK for Low-Latency Voice Generation](skills/cartesia-javascript-sdk-low-latency-voice-generation/) | An ASE skill built around the official Cartesia JavaScript SDK for text-to-speech and voice API workflows. It is a… | Security Reviewed | 130 | 192.2k/wk |

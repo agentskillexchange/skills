@@ -2,8 +2,26 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-25",
-  "total": 2654,
+  "total": 2656,
   "skills": [
+    {
+      "slug": "ingest-chinese-social-and-media-content-into-agent-knowledge-bases-with-chubbyskills",
+      "name": "Ingest Chinese social and media content into agent knowledge bases with Chubbyskills",
+      "title": "Ingest Chinese social and media content into agent knowledge bases with Chubbyskills",
+      "description": "Use Chubbyskills when an agent needs installable skills for collecting Chinese social, video, podcast, and article content into Markdown and Obsidian-style knowledge bases.",
+      "category": "Media & Transcription",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "run-self-hosted-media-research-and-rag-workflows-with-tldw-server",
+      "name": "Run self-hosted media research and RAG workflows with tldw_server",
+      "title": "Run self-hosted media research and RAG workflows with tldw_server",
+      "description": "Use tldw_server when an agent workflow needs to ingest video, audio, documents, and web pages into a local research layer with RAG, evals, OpenAI-compatible…",
+      "category": "Research & Scraping",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "run-durable-go-agent-schedules-with-gocron",
       "name": "Run durable Go agent schedules with gocron",
