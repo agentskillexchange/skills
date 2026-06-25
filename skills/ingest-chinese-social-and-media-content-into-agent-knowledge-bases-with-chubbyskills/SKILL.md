@@ -3,7 +3,7 @@ name: "Ingest Chinese social and media content into agent knowledge bases with C
 slug: "ingest-chinese-social-and-media-content-into-agent-knowledge-bases-with-chubbyskills"
 description: "Use Chubbyskills when an agent needs installable skills for collecting Chinese social, video, podcast, and article content into Markdown and Obsidian-style knowledge bases."
 github_stars: 466
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/chubbyguan/chubbyskills"
 author: "Chubbyguan"
 publisher_type: "independent_open_source"

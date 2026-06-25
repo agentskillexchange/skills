@@ -11,7 +11,7 @@
       "description": "Use Chubbyskills when an agent needs installable skills for collecting Chinese social, video, podcast, and article content into Markdown and Obsidian-style knowledge bases.",
       "category": "Media & Transcription",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed"
+      "verification": "listed"
     },
     {
       "slug": "run-self-hosted-media-research-and-rag-workflows-with-tldw-server",

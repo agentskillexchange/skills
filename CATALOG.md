@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2656 published skills** across **17 categories** · 2,289 security reviewed · Updated 2026-06-25 13:31 UTC
+> **2656 published skills** across **17 categories** · 2,288 security reviewed · Updated 2026-06-25 13:31 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -2487,7 +2487,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [Deploy conversational voice agents with Bolna](skills/deploy-conversational-voice-agents-with-bolna/) | Build and run voice-first conversational agents by configuring telephony, ASR, LLM, and TTS providers behind a… | Security Reviewed | 666 | — |
 | [Realign drifting subtitles against finished video audio](skills/realign-drifting-subtitles-against-finished-video-audio/) | Uses Subaligner to retime an existing subtitle file against the final audio track, then outputs a corrected subtitle… | Security Reviewed | 504 | — |
 | [Archive online videos and metadata to the Internet Archive with Tubeup](skills/archive-online-videos-and-metadata-to-the-internet-archive-with-tubeup/) | Download a supported video URL with yt-dlp and upload the preserved file plus metadata to archive.org as a… | Security Reviewed | 487 | — |
-| [Ingest Chinese social and media content into agent knowledge bases with Chubbyskills](skills/ingest-chinese-social-and-media-content-into-agent-knowledge-bases-with-chubbyskills/) | Use Chubbyskills when an agent needs installable skills for collecting Chinese social, video, podcast, and article… | Security Reviewed | 466 | — |
+| [Ingest Chinese social and media content into agent knowledge bases with Chubbyskills](skills/ingest-chinese-social-and-media-content-into-agent-knowledge-bases-with-chubbyskills/) | Use Chubbyskills when an agent needs installable skills for collecting Chinese social, video, podcast, and article… | Published | 466 | — |
 | [Deepgram Real-Time Transcription Connector](skills/deepgram-realtime-transcription-connector/) | Streams live audio to Deepgram's WebSocket API at wss://api.deepgram.com/v1/listen for real-time speech-to-text.… | Security Reviewed | 260 | 1.6M/wk |
 | [Mux Node SDK for Video and Streaming API Workflows](skills/mux-node-sdk-video-and-streaming-api-workflows/) | An ASE skill built around the official Mux Node SDK for working with Mux Video and Mux Data from JavaScript or… | Security Reviewed | 178 | 987.7k/wk |
 | [Cartesia JavaScript SDK for Low-Latency Voice Generation](skills/cartesia-javascript-sdk-low-latency-voice-generation/) | An ASE skill built around the official Cartesia JavaScript SDK for text-to-speech and voice API workflows. It is a… | Security Reviewed | 130 | 192.2k/wk |
