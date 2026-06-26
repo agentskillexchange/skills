@@ -78,6 +78,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [REST API Response Schema Validator](../../skills/rest-api-response-schema-validator/) | 14.7k | 291.1M/wk |
 | [Scalar OpenAPI Reference and API Client Platform](../../skills/scalar-openapi-reference-api-client-platform/) | 14.6k | — |
 | [Effect TypeScript Standard Library for Production Applications](../../skills/effect-typescript-standard-library-production/) | 13.8k | 15.4M/wk |
+| [Generate Go API docs from source annotations with Swag](../../skills/generate-go-api-docs-from-source-annotations-with-swag/) | 12.9k | — |
 | [Gotenberg Document-to-PDF Conversion API](../../skills/gotenberg-document-to-pdf-conversion-api/) | 11.8k | — |
 | [Protobuf Schema Registry Manager](../../skills/protobuf-schema-registry-manager/) | 11.1k | 1.4M/wk |
 | [Buf Protobuf Linter](../../skills/buf-protobuf-linter/) | 11k | 1.4M/wk |

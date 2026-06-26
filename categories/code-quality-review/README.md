@@ -105,6 +105,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [tokei Code Statistics Counter](../../skills/tokei-code-statistics-counter/) | 14.2k | — |
 | [PHPStan Static Analyzer Agent](../../skills/phpstan-static-analyzer-agent/) | 13.9k | — |
 | [Pytest Fixture Generator](../../skills/pytest-fixture-generator/) | 13.8k | — |
+| [Profile Python agent workloads with Scalene](../../skills/profile-python-agent-workloads-with-scalene/) | 13.5k | — |
 | [ast-grep Structural Code Search and Rewrite](../../skills/ast-grep-structural-code-search-rewrite/) | 13.2k | — |
 | [Nock HTTP Server Mocking and Expectations Library for Node.js](../../skills/nock-http-server-mocking-nodejs/) | 13.1k | 6.6M/wk |
 | [Great Expectations Data Validation Pipeline](../../skills/great-expectations-data-validation-pipeline/) | 11.3k | — |

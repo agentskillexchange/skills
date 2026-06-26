@@ -2,8 +2,26 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-26",
-  "total": 2656,
+  "total": 2658,
   "skills": [
+    {
+      "slug": "profile-python-agent-workloads-with-scalene",
+      "name": "Profile Python agent workloads with Scalene",
+      "title": "Profile Python agent workloads with Scalene",
+      "description": "Use Scalene when a Python agent, tool server, or retrieval pipeline needs line-level CPU, GPU, and memory profiling before targeted optimization.",
+      "category": "Code Quality & Review",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "generate-go-api-docs-from-source-annotations-with-swag",
+      "name": "Generate Go API docs from source annotations with Swag",
+      "title": "Generate Go API docs from source annotations with Swag",
+      "description": "Use Swag when an agent needs to turn Go handler annotations into reviewable Swagger 2.0 documentation before API docs, clients, or release checks depend…",
+      "category": "Library & API Reference",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "ingest-chinese-social-and-media-content-into-agent-knowledge-bases-with-chubbyskills",
       "name": "Ingest Chinese social and media content into agent knowledge bases with Chubbyskills",

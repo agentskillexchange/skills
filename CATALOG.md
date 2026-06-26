@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2656 published skills** across **17 categories** · 2,290 security reviewed · Updated 2026-06-26 01:26 UTC
+> **2658 published skills** across **17 categories** · 2,290 security reviewed · Updated 2026-06-26 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1214,7 +1214,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown,… | Published | — | — |
 
 
-### ✅ Code Quality & Review (185 skills)
+### ✅ Code Quality & Review (186 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1285,6 +1285,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [tokei Code Statistics Counter](skills/tokei-code-statistics-counter/) | Fast and accurate code statistics tool written in Rust. Counts lines of code, comments, and blanks across 200+… | Security Reviewed | 14.2k | — |
 | [PHPStan Static Analyzer Agent](skills/phpstan-static-analyzer-agent/) | Performs PHP static analysis using PHPStan CLI at rule levels 0-9 with custom extensions. Detects type errors, dead… | Security Reviewed | 13.9k | — |
 | [Pytest Fixture Generator](skills/pytest-fixture-generator/) | Pytest Fixture Generator is built around pytest Python testing framework. The underlying ecosystem is represented by… | Security Reviewed | 13.8k | — |
+| [Profile Python agent workloads with Scalene](skills/profile-python-agent-workloads-with-scalene/) | Use Scalene when a Python agent, tool server, or retrieval pipeline needs line-level CPU, GPU, and memory profiling… | Security Reviewed | 13.5k | — |
 | [ast-grep Structural Code Search and Rewrite](skills/ast-grep-structural-code-search-rewrite/) | Use ast-grep (sg) to search, lint, and rewrite code across large codebases using AST pattern matching. A… | Security Reviewed | 13.2k | — |
 | [Nock HTTP Server Mocking and Expectations Library for Node.js](skills/nock-http-server-mocking-nodejs/) | Nock is an HTTP server mocking and expectations library for Node.js that intercepts outgoing HTTP requests and… | Security Reviewed | 13.1k | 6.6M/wk |
 | [Great Expectations Data Validation Pipeline](skills/great-expectations-data-validation-pipeline/) | Validate data quality using the Great Expectations Python library. Define expectations as unit tests for your data,… | Security Reviewed | 11.3k | — |
@@ -2023,7 +2024,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses… | Security Reviewed | — | — |
 
 
-### 📚 Library & API Reference (122 skills)
+### 📚 Library & API Reference (123 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=downloads)
 
@@ -2067,6 +2068,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [REST API Response Schema Validator](skills/rest-api-response-schema-validator/) | Validates live API responses against JSON Schema definitions using Ajv (Another JSON Schema Validator). Supports… | Security Reviewed | 14.7k | 291.1M/wk |
 | [Scalar OpenAPI Reference and API Client Platform](skills/scalar-openapi-reference-api-client-platform/) | Scalar is an open-source API platform for publishing modern OpenAPI references and testing endpoints with a built-in… | Security Reviewed | 14.6k | — |
 | [Effect TypeScript Standard Library for Production Applications](skills/effect-typescript-standard-library-production/) | Effect is a comprehensive TypeScript standard library that provides structured concurrency, typed errors, dependency… | Security Reviewed | 13.8k | 15.4M/wk |
+| [Generate Go API docs from source annotations with Swag](skills/generate-go-api-docs-from-source-annotations-with-swag/) | Use Swag when an agent needs to turn Go handler annotations into reviewable Swagger 2.0 documentation before API… | Security Reviewed | 12.9k | — |
 | [Gotenberg Document-to-PDF Conversion API](skills/gotenberg-document-to-pdf-conversion-api/) | Gotenberg is a Docker-based API for converting HTML, URLs, Markdown, and office documents into PDF, then performing… | Security Reviewed | 11.8k | — |
 | [Protobuf Schema Registry Manager](skills/protobuf-schema-registry-manager/) | Manages Protocol Buffer schema evolution using buf CLI with breaking change detection and Confluent Schema Registry… | Security Reviewed | 11.1k | 1.4M/wk |
 | [Buf Protobuf Linter](skills/buf-protobuf-linter/) | Lints Protocol Buffer definitions using the Buf CLI ruleset and validates gRPC service contracts. Detects breaking… | Security Reviewed | 11k | 1.4M/wk |
