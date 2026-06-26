@@ -46,4 +46,5 @@ jobs:
         run: python3 scripts/security_scan.py skills --github-annotations --quiet
 
       - name: Smoke test public agent endpoints
+        if: github.event_name == 'push'
         run: python3 scripts/smoke-agent-endpoints.py --base https://agentskillexchange.com
