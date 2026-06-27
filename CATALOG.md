@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2658 published skills** across **17 categories** · 2,291 security reviewed · Updated 2026-06-26 07:26 UTC
+> **2660 published skills** across **17 categories** · 2,291 security reviewed · Updated 2026-06-27 03:03 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -605,7 +605,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (203 skills)
+### 🔄 Data Extraction & Transformation (204 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -773,6 +773,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Translate technical PDFs through RetainPDF while preserving layout](skills/translate-technical-pdfs-through-retainpdf-while-preserving-layout/) | Route scanned, scientific, and technical PDFs through RetainPDF so an agent can produce translated PDFs while… | Security Reviewed | 2k | — |
 | [Query and rewrite Markdown structure with mdq](skills/query-and-rewrite-markdown-structure-with-mdq/) | Use mdq when an agent needs to target headings, lists, links, or other Markdown structure without falling back to… | Security Reviewed | 1.7k | — |
 | [Anyquery Universal SQL Engine with MCP Integration](skills/anyquery-universal-sql-engine-mcp-integration/) | Anyquery is a SQL query engine that lets you run SQL against 40+ apps, files, and databases including GitHub,… | Security Reviewed | 1.7k | — |
+| [Convert mixed documents into agent-ready Markdown and JSON with DocStrange](skills/convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange/) | Convert PDFs, scans, office files, images, and URLs into clean Markdown, structured JSON, CSV, or HTML before an… | Security Reviewed | 1.5k | — |
 | [Repair, split, merge, and normalize PDFs with qpdf before downstream processing](skills/repair-split-merge-and-normalize-pdfs-with-qpdf-before-downstream-processing/) | Preprocess messy PDFs into a stable form before extraction, review, packaging, or delivery workflows depend on them. | Security Reviewed | 1.5k | — |
 | [Documind AI-Powered Structured Data Extraction from Documents](skills/documind-ai-structured-data-extraction/) | Documind is an open-source Node.js tool that uses AI to extract structured JSON data from PDFs and other documents.… | Security Reviewed | 1.5k | 14/wk |
 | [Salesforce Bulk API Data Loader](skills/salesforce-bulk-api-data-loader/) | Performs high-volume data operations using the Salesforce Bulk API 2.0. Creates ingest jobs with createJob(),… | Security Reviewed | 1.5k | 936.6k/wk |
@@ -1743,7 +1744,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Published | — | — |
 
 
-### 🔗 Integrations & Connectors (140 skills)
+### 🔗 Integrations & Connectors (141 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1860,6 +1861,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Give agents persistent semantic memory with Memora](skills/give-agents-persistent-semantic-memory-with-memora/) | Use Memora to give MCP-compatible agents persistent semantic memory, document recall, and knowledge-graph context… | Security Reviewed | 406 | — |
 | [HubSpot MCP Server](skills/hubspot-mcp-server/) | HubSpot MCP Server is built around HubSpot CRM and marketing APIs. The underlying ecosystem is represented by… | Security Reviewed | 397 | 1.3M/wk |
 | [HubSpot CRM Contact Enrichment Pipeline](skills/hubspot-crm-contact-enrichment-pipeline/) | Enriches HubSpot CRM contacts using the v3 Contacts API with batch read/update operations. Cross-references company… | Security Reviewed | 392 | 986.8k/wk |
+| [tiny.place](skills/tinyplace/) | Live on tiny.place, an agent-to-agent social network, through the tinyplace CLI: claim an @handle identity, get… | Published | 377 | — |
 | [Hookdeck CLI for Webhook Development and Event Debugging](skills/hookdeck-cli-webhook-development-event-debugging/) | Hookdeck CLI is Hookdeck's official command-line tool for forwarding webhooks to localhost, managing event gateway… | Security Reviewed | 353 | 9.1k/wk |
 | [Build and validate Shopify apps with the official Shopify AI Toolkit](skills/build-and-validate-shopify-apps-with-the-official-shopify-ai-toolkit/) | Connect agents and IDE assistants to Shopify docs, API schemas, code validation, and store-management workflows… | Security Reviewed | 348 | 17.6k/wk |
 | [Linear MCP Server for Issue Tracking and Project Management](skills/linear-mcp-server-issue-tracking-project-management/) | An MCP server that integrates Linear project management with AI assistants. Enables creating, searching, updating,… | Security Reviewed | 346 | — |

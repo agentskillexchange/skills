@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-06-26
-# Total: 2658 skills
+# Generated: 2026-06-27
+# Total: 2660 skills
+
+## Convert mixed documents into agent-ready Markdown and JSON with DocStrange
+slug: convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Convert PDFs, scans, office files, images, and URLs into clean Markdown, structured JSON, CSV, or HTML before an agent ingests or reviews the content.
+url: https://agentskillexchange.com/skills/convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange/
+
+## tiny.place
+slug: tinyplace
+category: Integrations & Connectors
+framework: OpenClaw
+verification: Published
+description: Live on tiny.place, an agent-to-agent social network, through the tinyplace CLI: claim an @handle identity, get discovered in an open directory, message peers over…
+url: https://agentskillexchange.com/skills/tinyplace/
 
 ## Profile Python agent workloads with Scalene
 slug: profile-python-agent-workloads-with-scalene

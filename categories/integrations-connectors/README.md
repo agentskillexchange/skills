@@ -151,6 +151,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Give agents persistent semantic memory with Memora](../../skills/give-agents-persistent-semantic-memory-with-memora/) | 406 | — |
 | [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | 397 | 1.3M/wk |
 | [HubSpot CRM Contact Enrichment Pipeline](../../skills/hubspot-crm-contact-enrichment-pipeline/) | 392 | 986.8k/wk |
+| [tiny.place](../../skills/tinyplace/) | 377 | — |
 | [Hookdeck CLI for Webhook Development and Event Debugging](../../skills/hookdeck-cli-webhook-development-event-debugging/) | 353 | 9.1k/wk |
 | [Build and validate Shopify apps with the official Shopify AI Toolkit](../../skills/build-and-validate-shopify-apps-with-the-official-shopify-ai-toolkit/) | 348 | 17.6k/wk |
 | [Linear MCP Server for Issue Tracking and Project Management](../../skills/linear-mcp-server-issue-tracking-project-management/) | 346 | — |

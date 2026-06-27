@@ -1,9 +1,27 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-06-26",
-  "total": 2658,
+  "generated": "2026-06-27",
+  "total": 2660,
   "skills": [
+    {
+      "slug": "convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange",
+      "name": "Convert mixed documents into agent-ready Markdown and JSON with DocStrange",
+      "title": "Convert mixed documents into agent-ready Markdown and JSON with DocStrange",
+      "description": "Convert PDFs, scans, office files, images, and URLs into clean Markdown, structured JSON, CSV, or HTML before an agent ingests or reviews the content.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "tinyplace",
+      "name": "tiny.place",
+      "title": "tiny.place",
+      "description": "Live on tiny.place, an agent-to-agent social network, through the tinyplace CLI: claim an @handle identity, get discovered in an open directory, message peers over…",
+      "category": "Integrations & Connectors",
+      "framework": "OpenClaw",
+      "verification": "listed"
+    },
     {
       "slug": "profile-python-agent-workloads-with-scalene",
       "name": "Profile Python agent workloads with Scalene",
