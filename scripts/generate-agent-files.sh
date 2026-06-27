@@ -27,7 +27,7 @@ def get_total():
         method="HEAD",
     )
     with urllib.request.urlopen(req, timeout=30) as resp:
-        return int(resp.headers.get("X-WP-Total", 0))
+        return int(resp.headers.get("x-wp-total", 0))
 
 total = get_total()
 # Round to nearest hundred for description

@@ -42,7 +42,7 @@ def fetch_json(url, method="GET"):
     }, method=method)
     with urllib.request.urlopen(req, timeout=60) as resp:
         body = resp.read().decode("utf-8")
-        return json.loads(body), dict(resp.headers), body
+        return json.loads(body), {k.lower(): v for k, v in resp.headers.items()}, body
 
 def display_name(item):
     return html.unescape(item.get("name") or item.get("title") or "")
@@ -55,7 +55,7 @@ while True:
     batch, headers, body = fetch_json(f"{BROWSE_API}?per_page=100&page={page}")
     items.extend(batch)
     raw_body += body
-    total_pages = int(headers.get("X-WP-TotalPages", "1"))
+    total_pages = int(headers.get("x-wp-totalpages", "1"))
     print(f"  Page {page}/{total_pages}: +{len(batch)} items")
     if page >= total_pages:
         break

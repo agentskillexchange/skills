@@ -55,7 +55,7 @@ def fetch_json(url: str):
         "Accept": "application/json,text/plain,*/*",
     })
     with urllib.request.urlopen(req, timeout=60) as resp:
-        return json.loads(resp.read().decode("utf-8")), dict(resp.headers)
+        return json.loads(resp.read().decode("utf-8")), {k.lower(): v for k, v in resp.headers.items()}
 
 def fmt_num(n):
     n = int(n or 0)
@@ -81,7 +81,7 @@ page = 1
 while True:
     batch, headers = fetch_json(f"{BROWSE_BASE}?per_page=100&page={page}")
     items.extend(batch)
-    total_pages = int(headers.get("X-WP-TotalPages", "1"))
+    total_pages = int(headers.get("x-wp-totalpages", "1"))
     if page >= total_pages:
         break
     page += 1
