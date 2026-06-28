@@ -13,7 +13,7 @@ tool_ecosystem:
   github_repo: "rocketride-org/rocketride-server"
   github_stars: 3935
   npm_package: "rocketride"
-  npm_weekly_downloads: 0
+  npm_weekly_downloads: 635
 ---
 
 # Build and debug AI pipelines in an IDE with RocketRide
