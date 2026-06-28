@@ -365,7 +365,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 3935
+        "github_stars": 3935,
+        "npm_weekly_downloads": 635
       }
     },
     {
