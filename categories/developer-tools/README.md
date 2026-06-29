@@ -138,6 +138,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Nginx Error Log Parser](../../skills/nginx-error-log-parser/) | 29.9k | — |
 | [delta Syntax-Highlighting Git Diff Pager](../../skills/delta-syntax-highlighting-git-diff-pager/) | 29.8k | — |
 | [Hono Ultrafast Web Framework Built on Web Standards](../../skills/hono-ultrafast-web-framework-web-standards/) | 29.8k | 37.1M/wk |
+| [Run multi-provider coding-agent sessions with OpenClaude](../../skills/run-multi-provider-coding-agent-sessions-with-openclaude/) | 29.5k | 34.8k/wk |
 | [Atuin Shell History Database and Sync](../../skills/atuin-shell-history-database-sync/) | 28.9k | — |
 | [Coordinate multi-agent cowork sessions with AionUi](../../skills/coordinate-multi-agent-cowork-sessions-with-aionui/) | 28.8k | — |
 | [GitHub MCP Server for AI-Powered Repository Management](../../skills/github-mcp-server-ai-repository-management/) | 28.5k | — |

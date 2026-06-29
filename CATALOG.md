@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2662 published skills** across **17 categories** · 2,294 security reviewed · Updated 2026-06-29 13:26 UTC
+> **2664 published skills** across **17 categories** · 2,294 security reviewed · Updated 2026-06-29 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (347 skills)
+### 🛠️ Developer Tools (348 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -112,6 +112,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Nginx Error Log Parser](skills/nginx-error-log-parser/) | Parses nginx error.log and access.log files using pattern matching for 5xx status codes, upstream timeouts, and SSL… | Security Reviewed | 29.9k | — |
 | [delta Syntax-Highlighting Git Diff Pager](skills/delta-syntax-highlighting-git-diff-pager/) | A syntax-highlighting pager for git diff, grep, and blame output built in Rust. Provides word-level diff… | Security Reviewed | 29.8k | — |
 | [Hono Ultrafast Web Framework Built on Web Standards](skills/hono-ultrafast-web-framework-web-standards/) | Hono is a small, simple, and ultrafast web framework built on Web Standards. It runs on any JavaScript runtime… | Security Reviewed | 29.8k | 37.1M/wk |
+| [Run multi-provider coding-agent sessions with OpenClaude](skills/run-multi-provider-coding-agent-sessions-with-openclaude/) | Use OpenClaude when a repository task needs one terminal-first coding-agent workflow that can switch across cloud,… | Security Reviewed | 29.5k | 34.8k/wk |
 | [Atuin Shell History Database and Sync](skills/atuin-shell-history-database-sync/) | Atuin replaces your existing shell history with a SQLite database that records additional context like exit codes,… | Security Reviewed | 28.9k | — |
 | [Coordinate multi-agent cowork sessions with AionUi](skills/coordinate-multi-agent-cowork-sessions-with-aionui/) | Run AionUi as a local cowork surface for coordinating built-in agents, Codex, Claude Code, OpenClaw, Gemini CLI, and… | Published | 28.8k | — |
 | [GitHub MCP Server for AI-Powered Repository Management](skills/github-mcp-server-ai-repository-management/) | GitHub's official Model Context Protocol (MCP) server that connects AI agents, assistants, and chatbots directly to… | Security Reviewed | 28.5k | — |
@@ -1746,7 +1747,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Published | — | — |
 
 
-### 🔗 Integrations & Connectors (141 skills)
+### 🔗 Integrations & Connectors (142 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1800,6 +1801,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Nango Integration Platform SDK](skills/nango-integration-platform-sdk/) | Nango is an integration platform for connecting products and agents to hundreds of APIs with managed auth, proxying,… | Security Reviewed | 7.1k | 17.7k/wk |
 | [Nango Open Source API Integration Platform](skills/nango-open-source-api-integration-platform/) | Nango is an open-source platform for building product integrations with 700+ APIs. It handles OAuth, token… | Security Reviewed | 7k | 15.6k/wk |
 | [Read and modify Figma designs from coding agents with Talk to Figma MCP](skills/read-and-modify-figma-designs-from-coding-agents-with-talk-to-figma-mcp/) | Bridge Cursor, Claude Code, and other MCP clients into Figma so agents can inspect selections, create nodes,… | Security Reviewed | 6.8k | 11.1k/wk |
+| [Route and observe production agent traffic with Plano](skills/route-and-observe-production-agent-traffic-with-plano/) | Use Plano when an agent application needs an out-of-process data plane for multi-agent routing, model agility,… | Security Reviewed | 6.6k | — |
 | [Flagsmith Open Source Feature Flag and Remote Config Platform](skills/flagsmith-feature-flag-remote-config/) | Flagsmith is an open-source feature flagging and remote configuration platform. It enables teams to safely roll out… | Security Reviewed | 6.3k | — |
 | [Operate multi-provider AI gateway traffic with Bifrost](skills/operate-multi-provider-ai-gateway-traffic-with-bifrost/) | Run Bifrost as an OpenAI-compatible gateway so agents can route model calls across providers with failover, load… | Security Reviewed | 6k | 6.5k/wk |
 | [Notion Database Sync & Page Generator](skills/notion-database-sync-page-generator-2/) | Reads from and writes to Notion databases using the official Notion API v1, supporting filtered queries, property… | Security Reviewed | 5.6k | 1.2M/wk |

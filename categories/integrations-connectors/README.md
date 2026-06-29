@@ -88,6 +88,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Nango Integration Platform SDK](../../skills/nango-integration-platform-sdk/) | 7.1k | 17.7k/wk |
 | [Nango Open Source API Integration Platform](../../skills/nango-open-source-api-integration-platform/) | 7k | 15.6k/wk |
 | [Read and modify Figma designs from coding agents with Talk to Figma MCP](../../skills/read-and-modify-figma-designs-from-coding-agents-with-talk-to-figma-mcp/) | 6.8k | 11.1k/wk |
+| [Route and observe production agent traffic with Plano](../../skills/route-and-observe-production-agent-traffic-with-plano/) | 6.6k | — |
 | [Flagsmith Open Source Feature Flag and Remote Config Platform](../../skills/flagsmith-feature-flag-remote-config/) | 6.3k | — |
 | [Operate multi-provider AI gateway traffic with Bifrost](../../skills/operate-multi-provider-ai-gateway-traffic-with-bifrost/) | 6k | 6.5k/wk |
 | [Notion Database Sync & Page Generator](../../skills/notion-database-sync-page-generator-2/) | 5.6k | 1.2M/wk |

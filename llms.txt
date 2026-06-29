@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-29
-# Total: 2662 skills
+# Total: 2664 skills
+
+## Route and observe production agent traffic with Plano
+slug: route-and-observe-production-agent-traffic-with-plano
+category: Integrations & Connectors
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Plano when an agent application needs an out-of-process data plane for multi-agent routing, model agility, guardrails, traces, and OpenAI-compatible traffic instead of custom…
+url: https://agentskillexchange.com/skills/route-and-observe-production-agent-traffic-with-plano/
+
+## Run multi-provider coding-agent sessions with OpenClaude
+slug: run-multi-provider-coding-agent-sessions-with-openclaude
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use OpenClaude when a repository task needs one terminal-first coding-agent workflow that can switch across cloud, local, Codex OAuth, MCP, slash commands, file tools,…
+url: https://agentskillexchange.com/skills/run-multi-provider-coding-agent-sessions-with-openclaude/
 
 ## Evolve agent behavior into auditable Genes and Capsules with Evolver
 slug: evolve-agent-behavior-into-auditable-genes-and-capsules-with-evolver

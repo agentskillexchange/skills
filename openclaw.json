@@ -2,8 +2,26 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-29",
-  "total": 2662,
+  "total": 2664,
   "skills": [
+    {
+      "slug": "route-and-observe-production-agent-traffic-with-plano",
+      "name": "Route and observe production agent traffic with Plano",
+      "title": "Route and observe production agent traffic with Plano",
+      "description": "Use Plano when an agent application needs an out-of-process data plane for multi-agent routing, model agility, guardrails, traces, and OpenAI-compatible traffic instead of custom…",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "run-multi-provider-coding-agent-sessions-with-openclaude",
+      "name": "Run multi-provider coding-agent sessions with OpenClaude",
+      "title": "Run multi-provider coding-agent sessions with OpenClaude",
+      "description": "Use OpenClaude when a repository task needs one terminal-first coding-agent workflow that can switch across cloud, local, Codex OAuth, MCP, slash commands, file tools,…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "evolve-agent-behavior-into-auditable-genes-and-capsules-with-evolver",
       "name": "Evolve agent behavior into auditable Genes and Capsules with Evolver",
