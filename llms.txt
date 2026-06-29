@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-06-28
+# Generated: 2026-06-29
 # Total: 2660 skills
 
 ## Convert mixed documents into agent-ready Markdown and JSON with DocStrange
