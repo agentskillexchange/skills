@@ -128,6 +128,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Deploy OpenClaw on Cloudflare Workers with Moltworker](../../skills/deploy-openclaw-on-cloudflare-workers-with-moltworker/) | 9.9k | — |
 | [Run durable scheduled agent jobs in Node.js with Agenda](../../skills/run-durable-scheduled-agent-jobs-in-node-js-with-agenda/) | 9.7k | 167.2k/wk |
 | [Automate ML research loops with ARIS skills](../../skills/automate-ml-research-loops-with-aris-skills/) | 9.6k | — |
+| [Evolve agent behavior into auditable Genes and Capsules with Evolver](../../skills/evolve-agent-behavior-into-auditable-genes-and-capsules-with-evolver/) | 8.8k | 12.5k/wk |
 | [Compose router, evaluator, and handoff workflows over MCP servers with mcp-agent](../../skills/compose-router-evaluator-and-handoff-workflows-over-mcp-servers-with-mcp-agent/) | 8.3k | 29.2k/wk |
 | [Coordinate issue-backed parallel coding worktrees with CCPM](../../skills/coordinate-issue-backed-parallel-coding-worktrees-with-ccpm/) | 8k | — |
 | [Plop.js Code Generator](../../skills/plopjs-code-generator/) | 7.6k | 1.6M/wk |

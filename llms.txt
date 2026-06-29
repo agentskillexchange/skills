@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-29
-# Total: 2660 skills
+# Total: 2662 skills
+
+## Evolve agent behavior into auditable Genes and Capsules with Evolver
+slug: evolve-agent-behavior-into-auditable-genes-and-capsules-with-evolver
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Published
+description: Turn recurring agent lessons, logs, and strategy tweaks into reviewable GEP evolution artifacts that can be applied across supported coding-agent runtimes.
+url: https://agentskillexchange.com/skills/evolve-agent-behavior-into-auditable-genes-and-capsules-with-evolver/
+
+## Coordinate parallel coding agents and review their worktrees with Orca
+slug: coordinate-parallel-coding-agents-and-review-their-worktrees-with-orca
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run Codex, Claude Code, OpenCode, Pi, and similar coding agents side by side in isolated worktrees, then compare, annotate, and merge the best result.
+url: https://agentskillexchange.com/skills/coordinate-parallel-coding-agents-and-review-their-worktrees-with-orca/
 
 ## Convert mixed documents into agent-ready Markdown and JSON with DocStrange
 slug: convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange

@@ -1,8 +1,33 @@
 {
   "version": "2.0",
-  "total": 2660,
+  "total": 2662,
   "generated": "2026-06-29",
   "skills": [
+    {
+      "slug": "evolve-agent-behavior-into-auditable-genes-and-capsules-with-evolver",
+      "name": "Evolve agent behavior into auditable Genes and Capsules with Evolver",
+      "title": "Evolve agent behavior into auditable Genes and Capsules with Evolver",
+      "description": "Turn recurring agent lessons, logs, and strategy tweaks into reviewable GEP evolution artifacts that can be applied across supported coding-agent runtimes.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "signals": {
+        "github_stars": 8812,
+        "npm_weekly_downloads": 12500
+      }
+    },
+    {
+      "slug": "coordinate-parallel-coding-agents-and-review-their-worktrees-with-orca",
+      "name": "Coordinate parallel coding agents and review their worktrees with Orca",
+      "title": "Coordinate parallel coding agents and review their worktrees with Orca",
+      "description": "Run Codex, Claude Code, OpenCode, Pi, and similar coding agents side by side in isolated worktrees, then compare, annotate, and merge the best result.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 8927
+      }
+    },
     {
       "slug": "convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange",
       "name": "Convert mixed documents into agent-ready Markdown and JSON with DocStrange",
@@ -31908,7 +31933,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1539,
-        "npm_weekly_downloads": 4968641,
+        "npm_weekly_downloads": 4903730,
         "license": "MIT"
       }
     },
@@ -31922,7 +31947,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 13987392,
+        "npm_weekly_downloads": 13856327,
         "license": "MIT"
       }
     },
@@ -31936,7 +31961,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1465,
-        "npm_weekly_downloads": 847176,
+        "npm_weekly_downloads": 851176,
         "license": "MIT"
       }
     },
@@ -31950,7 +31975,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 397,
-        "npm_weekly_downloads": 1073707,
+        "npm_weekly_downloads": 1083653,
         "license": "Apache-2.0"
       }
     },
@@ -31964,7 +31989,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 5610,
-        "npm_weekly_downloads": 1374332,
+        "npm_weekly_downloads": 1377893,
         "license": "MIT"
       }
     },
@@ -32003,7 +32028,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 24,
-        "npm_weekly_downloads": 5369,
+        "npm_weekly_downloads": 5463,
         "license": "Apache-2.0"
       }
     },
@@ -32031,7 +32056,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 811,
-        "npm_weekly_downloads": 8153324
+        "npm_weekly_downloads": 8162011
       }
     },
     {
@@ -32044,7 +32069,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 25248,
-        "npm_weekly_downloads": 2175234,
+        "npm_weekly_downloads": 2155331,
         "license": "Apache-2.0"
       }
     },
@@ -32161,7 +32186,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 712,
-        "npm_weekly_downloads": 69881
+        "npm_weekly_downloads": 69897
       }
     },
     {
@@ -32215,7 +32240,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1290,
-        "npm_weekly_downloads": 501,
+        "npm_weekly_downloads": 483,
         "license": "MIT"
       }
     },
@@ -32242,7 +32267,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 393,
-        "npm_weekly_downloads": 6840,
+        "npm_weekly_downloads": 5344,
         "license": "Apache-2.0"
       }
     },
@@ -32277,7 +32302,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 10942,
-        "npm_weekly_downloads": 22526148,
+        "npm_weekly_downloads": 21587773,
         "license": "Apache-2.0"
       }
     },
@@ -32428,7 +32453,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 33289,
-        "npm_weekly_downloads": 5060767,
+        "npm_weekly_downloads": 5000572,
         "license": "Apache-2.0"
       }
     },
@@ -32457,7 +32482,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 89986,
-        "npm_weekly_downloads": 61523659,
+        "npm_weekly_downloads": 61562009,
         "license": "Apache-2.0"
       }
     }

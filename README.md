@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C660-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C662-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C292-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,660 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,662 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Evolve agent behavior into auditable Genes and Capsules with Evolver](skills/evolve-agent-behavior-into-auditable-genes-and-capsules-with-evolver/) | Turn recurring agent lessons, logs, and strategy tweaks into reviewable GEP evolution artifacts that can be applied across... | 8.8k | Templates & Workflows |
+| [Coordinate parallel coding agents and review their worktrees with Orca](skills/coordinate-parallel-coding-agents-and-review-their-worktrees-with-orca/) | Run Codex, Claude Code, OpenCode, Pi, and similar coding agents side by side in isolated worktrees, then compare... | 8.9k | Developer Tools |
 | [Convert mixed documents into agent-ready Markdown and JSON with DocStrange](skills/convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange/) | Convert PDFs, scans, office files, images, and URLs into clean Markdown, structured JSON, CSV, or HTML before an... | 1.5k | Data Extraction & Transformation |
 | [tiny.place](skills/tinyplace/) | Live on tiny.place, an agent-to-agent social network, through the tinyplace CLI: claim an @handle identity, get discovered in... | 377 | Integrations & Connectors |
 | [Profile Python agent workloads with Scalene](skills/profile-python-agent-workloads-with-scalene/) | Use Scalene when a Python agent, tool server, or retrieval pipeline needs line-level CPU, GPU, and memory profiling... | 13.5k | Code Quality & Review |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Run self-hosted media research and RAG workflows with tldw_server](skills/run-self-hosted-media-research-and-rag-workflows-with-tldw-server/) | Use tldw_server when an agent workflow needs to ingest video, audio, documents, and web pages into a local... | 1.4k | Research & Scraping |
 | [Run durable Go agent schedules with gocron](skills/run-durable-go-agent-schedules-with-gocron/) | Embed gocron in Go-based agents or operators to run recurring tasks, cron expressions, one-time jobs, singleton executions, concurrency... | 7.1k | Templates & Workflows |
 | [Expose CLI agent accounts through an API-compatible local proxy with CLIProxyAPI](skills/expose-cli-agent-accounts-through-api-compatible-local-proxy-with-cliproxyapi/) | Run CLIProxyAPI when an operator needs a local OpenAI, Gemini, Claude, Codex, or Grok-compatible API facade over authenticated... | 38.3k | Integrations & Connectors |
-| [Coordinate multi-agent cowork sessions with AionUi](skills/coordinate-multi-agent-cowork-sessions-with-aionui/) | Run AionUi as a local cowork surface for coordinating built-in agents, Codex, Claude Code, OpenClaw, Gemini CLI, and... | 28.8k | Developer Tools |
-| [Run lightweight headless browser automation with Obscura](skills/run-lightweight-headless-browser-automation-with-obscura/) | Use Obscura as a lightweight headless browser runtime for agent scraping, page inspection, parallel extraction, and CDP-driven Playwright... | 16.1k | Browser Automation |
 
 ---
 
@@ -114,8 +114,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Extract OCR-ready Markdown from documents with Zerox](skills/extract-ocr-ready-markdown-from-documents-with-zerox/) | Use Zerox to convert PDFs, images, and office documents into Markdown or structured extraction outputs using vision models | 12.2k | Data Extraction & Transformation |
 | [Build portable single-file agent memory with Memvid](skills/build-portable-single-file-agent-memory-with-memvid/) | Use Memvid when an agent needs local, portable long-term memory and retrieval without running a vector database or... | 15.7k | Integrations & Connectors |
 | [Trace coding-agent and LLM workflows with OpenLIT](skills/trace-coding-agent-and-llm-workflows-with-openlit/) | Use OpenLIT to instrument coding agents and LLM applications with OpenTelemetry traces, metrics, costs, prompts, tool calls, and... | 2.5k | Monitoring & Alerts |
+| [Connect MCP clients to JetBrains IDE project tools](skills/connect-mcp-clients-to-jetbrains-ide-project-tools/) | Use the built-in JetBrains MCP server to let Codex, Claude Desktop, Cursor, VS Code, and other MCP clients... | 961 | Developer Tools |
 | [Control hosted browser research and extraction through Hyperbrowser MCP](skills/control-hosted-browser-research-and-extraction-through-hyperbrowser-mcp/) | Give MCP clients hosted browser tools for scraping, crawling, structured extraction, search, and computer-use browser automation | 770 | Browser Automation |
-| [Trace and evaluate LLM application behavior with Langtrace](skills/trace-and-evaluate-llm-application-behavior-with-langtrace/) | Instrument Python or TypeScript agent applications with OpenTelemetry traces, metrics, and evaluation views for debugging production LLM workflows | 1.2k | Monitoring & Alerts |
 
 ---
 
@@ -123,11 +123,11 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 346 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 347 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 235 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 204 | ETL pipelines, parsing, format conversion |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 190 | Scaffolders, boilerplate generators, workflow templates |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 191 | Scaffolders, boilerplate generators, workflow templates |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 186 | Linting, code review, test generators, coverage |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 173 | Incident response, troubleshooting, system diagnostics |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 146 | Metrics, alerting rules, observability |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,660 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,662 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,292 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

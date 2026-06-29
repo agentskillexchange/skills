@@ -2,8 +2,26 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-29",
-  "total": 2660,
+  "total": 2662,
   "skills": [
+    {
+      "slug": "evolve-agent-behavior-into-auditable-genes-and-capsules-with-evolver",
+      "name": "Evolve agent behavior into auditable Genes and Capsules with Evolver",
+      "title": "Evolve agent behavior into auditable Genes and Capsules with Evolver",
+      "description": "Turn recurring agent lessons, logs, and strategy tweaks into reviewable GEP evolution artifacts that can be applied across supported coding-agent runtimes.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
+    {
+      "slug": "coordinate-parallel-coding-agents-and-review-their-worktrees-with-orca",
+      "name": "Coordinate parallel coding agents and review their worktrees with Orca",
+      "title": "Coordinate parallel coding agents and review their worktrees with Orca",
+      "description": "Run Codex, Claude Code, OpenCode, Pi, and similar coding agents side by side in isolated worktrees, then compare, annotate, and merge the best result.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange",
       "name": "Convert mixed documents into agent-ready Markdown and JSON with DocStrange",

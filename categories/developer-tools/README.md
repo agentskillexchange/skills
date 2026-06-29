@@ -246,6 +246,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [WXT Next-Generation Web Extension Framework for Browser Extensions](../../skills/wxt-next-gen-web-extension-framework/) | 9.5k | 481.4k/wk |
 | [Inspect and debug MCP servers visually before connecting them to agents](../../skills/inspect-and-debug-mcp-servers-visually-before-connecting-them-to-agents/) | 9.4k | 635.2k/wk |
 | [Search large codebases semantically from MCP-compatible coding agents with Claude Context](../../skills/search-large-codebases-semantically-from-mcp-compatible-coding-agents-with-claude-context/) | 9.2k | 2.4k/wk |
+| [Coordinate parallel coding agents and review their worktrees with Orca](../../skills/coordinate-parallel-coding-agents-and-review-their-worktrees-with-orca/) | 8.9k | — |
 | [BullMQ Redis-Based Message Queue and Job Processor for Node.js](../../skills/bullmq-redis-message-queue-job-processor-nodejs/) | 8.7k | 5.7M/wk |
 | [Regex Pattern Test Suite Generator](../../skills/regex-pattern-test-suite-generator/) | 8.6k | — |
 | [pdfcpu Go PDF Processor and Manipulation CLI](../../skills/pdfcpu-go-pdf-processor-cli/) | 8.6k | — |
@@ -338,7 +339,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Search cross-agent Markdown memory and conversation history with memsearch](../../skills/search-cross-agent-markdown-memory-and-conversation-history-with-memsearch/) | 1.3k | — |
 | [Terraform MCP Server for Infrastructure as Code](../../skills/terraform-mcp-server-infrastructure-as-code/) | 1.3k | — |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | 1.3k | — |
-| [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | 1.3k | 501/wk |
+| [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | 1.3k | 483/wk |
 | [Run React Native implementation and troubleshooting workflows with Callstack Agent Skills](../../skills/run-react-native-implementation-and-troubleshooting-workflows-with-callstack-agent-skills/) | 1.3k | — |
 | [Capture, search, and optionally sync local coding-agent session history across Claude Code, Codex, Cursor CLI, and Gemini with SpecStory](../../skills/capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory/) | 1.2k | — |
 | [Run local small-model coding sessions with SmallCode](../../skills/run-local-small-model-coding-sessions-with-smallcode/) | 967 | 7.5k/wk |
@@ -353,7 +354,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](../../skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | 621 | 4.9k/wk |
 | [Preview and approve coding-agent execution plans with Overture](../../skills/preview-and-approve-coding-agent-execution-plans-with-overture/) | 619 | 320/wk |
 | [Run deterministic SQL and dbt analysis under coding agents with Altimate Code](../../skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/) | 552 | 195/wk |
-| [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 393 | 6.8k/wk |
+| [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 393 | 5.3k/wk |
 | [Temporal CLI Workflow and Server Control](../../skills/temporal-cli-workflow-server-control/) | 350 | — |
 | [Install focused Claude Code workflow plugins from Claude Night Market](../../skills/install-focused-claude-code-workflow-plugins-from-claude-night-market/) | 291 | — |
 | [Back up GitHub, GitLab, Bitbucket, and Forgejo repositories with gitbackup](../../skills/back-up-github-gitlab-bitbucket-and-forgejo-repositories-with-gitbackup/) | 218 | — |
