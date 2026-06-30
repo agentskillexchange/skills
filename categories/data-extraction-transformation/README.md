@@ -68,6 +68,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Scale agent retrieval workloads with Milvus](../../skills/scale-agent-retrieval-workloads-with-milvus/) | 44.7k | — |
 | [Apache Spark Job Manager](../../skills/apache-spark-job-manager/) | 43.1k | — |
 | [Apache Spark DataFrame ETL Pipeline](../../skills/spark-dataframe-etl-pipeline/) | 43.1k | — |
+| [Build SQL and vector retrieval context layers with TiDB](../../skills/build-sql-and-vector-retrieval-context-layers-with-tidb/) | 40.2k | — |
 | [Build local vector retrieval indexes with Faiss](../../skills/build-local-vector-retrieval-indexes-with-faiss/) | 40.2k | — |
 | [Run data-backed business automation with Minds Platform](../../skills/run-data-backed-business-automation-with-minds-platform/) | 39.2k | — |
 | [Paperless-ngx Document OCR and Archive Management System](../../skills/paperless-ngx-document-ocr-archive-management-system/) | 38.1k | — |

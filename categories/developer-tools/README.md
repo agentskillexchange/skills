@@ -346,6 +346,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Run local small-model coding sessions with SmallCode](../../skills/run-local-small-model-coding-sessions-with-smallcode/) | 967 | 7.5k/wk |
 | [Connect MCP clients to JetBrains IDE project tools](../../skills/connect-mcp-clients-to-jetbrains-ide-project-tools/) | 961 | 4.4k/wk |
 | [Find and export SVG icons across icon libraries for UI work](../../skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/) | 915 | 287/wk |
+| [Fork and merge Pydantic AI agent runs with Pydantic Deep Agents](../../skills/fork-and-merge-pydantic-ai-agent-runs-with-pydantic-deep-agents/) | 912 | — |
 | [Reduce coding-agent context load with Token Savior](../../skills/reduce-coding-agent-context-load-with-token-savior/) | 893 | — |
 | [CircleCI MCP Server](../../skills/circleci-mcp-server/) | 844 | — |
 | [Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac](../../skills/run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac/) | 809 | 36.7k/wk |

@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-06-30
-# Total: 2664 skills
+# Total: 2666 skills
+
+## Fork and merge Pydantic AI agent runs with Pydantic Deep Agents
+slug: fork-and-merge-pydantic-ai-agent-runs-with-pydantic-deep-agents
+category: Developer Tools
+framework: Custom Agents
+verification: Security Reviewed
+description: Run a self-hosted terminal agent or custom Pydantic AI harness that can branch a coding or research run, test isolated alternatives, and merge the…
+url: https://agentskillexchange.com/skills/fork-and-merge-pydantic-ai-agent-runs-with-pydantic-deep-agents/
+
+## Build SQL and vector retrieval context layers with TiDB
+slug: build-sql-and-vector-retrieval-context-layers-with-tidb
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Published
+description: Use TiDB when an agent needs one transactional SQL store that can also hold embeddings and serve vector retrieval for RAG, memory, or app-context…
+url: https://agentskillexchange.com/skills/build-sql-and-vector-retrieval-context-layers-with-tidb/
 
 ## Route and observe production agent traffic with Plano
 slug: route-and-observe-production-agent-traffic-with-plano

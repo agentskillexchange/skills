@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C664-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C666-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C295-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,664 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,666 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Fork and merge Pydantic AI agent runs with Pydantic Deep Agents](skills/fork-and-merge-pydantic-ai-agent-runs-with-pydantic-deep-agents/) | Run a self-hosted terminal agent or custom Pydantic AI harness that can branch a coding or research run... | 912 | Developer Tools |
+| [Build SQL and vector retrieval context layers with TiDB](skills/build-sql-and-vector-retrieval-context-layers-with-tidb/) | Use TiDB when an agent needs one transactional SQL store that can also hold embeddings and serve vector... | 40.2k | Data Extraction & Transformation |
 | [Route and observe production agent traffic with Plano](skills/route-and-observe-production-agent-traffic-with-plano/) | Use Plano when an agent application needs an out-of-process data plane for multi-agent routing, model agility, guardrails, traces... | 6.6k | Integrations & Connectors |
 | [Run multi-provider coding-agent sessions with OpenClaude](skills/run-multi-provider-coding-agent-sessions-with-openclaude/) | Use OpenClaude when a repository task needs one terminal-first coding-agent workflow that can switch across cloud, local, Codex... | 29.5k | Developer Tools |
 | [Evolve agent behavior into auditable Genes and Capsules with Evolver](skills/evolve-agent-behavior-into-auditable-genes-and-capsules-with-evolver/) | Turn recurring agent lessons, logs, and strategy tweaks into reviewable GEP evolution artifacts that can be applied across... | 8.8k | Templates & Workflows |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [tiny.place](skills/tinyplace/) | Live on tiny.place, an agent-to-agent social network, through the tinyplace CLI: claim an @handle identity, get discovered in... | 377 | Integrations & Connectors |
 | [Profile Python agent workloads with Scalene](skills/profile-python-agent-workloads-with-scalene/) | Use Scalene when a Python agent, tool server, or retrieval pipeline needs line-level CPU, GPU, and memory profiling... | 13.5k | Code Quality & Review |
 | [Generate Go API docs from source annotations with Swag](skills/generate-go-api-docs-from-source-annotations-with-swag/) | Use Swag when an agent needs to turn Go handler annotations into reviewable Swagger 2.0 documentation before API... | 12.9k | Library & API Reference |
-| [Ingest Chinese social and media content into agent knowledge bases with Chubbyskills](skills/ingest-chinese-social-and-media-content-into-agent-knowledge-bases-with-chubbyskills/) | Use Chubbyskills when an agent needs installable skills for collecting Chinese social, video, podcast, and article content into... | 466 | Media & Transcription |
-| [Run self-hosted media research and RAG workflows with tldw_server](skills/run-self-hosted-media-research-and-rag-workflows-with-tldw-server/) | Use tldw_server when an agent workflow needs to ingest video, audio, documents, and web pages into a local... | 1.4k | Research & Scraping |
 
 ---
 
@@ -123,9 +123,9 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 348 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 349 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 235 | Vulnerability scanning, auth setup, compliance |
-| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 204 | ETL pipelines, parsing, format conversion |
+| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 205 | ETL pipelines, parsing, format conversion |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 191 | Scaffolders, boilerplate generators, workflow templates |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 186 | Linting, code review, test generators, coverage |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,664 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,666 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,295 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

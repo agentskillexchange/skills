@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2664 published skills** across **17 categories** · 2,295 security reviewed · Updated 2026-06-30 13:28 UTC
+> **2666 published skills** across **17 categories** · 2,295 security reviewed · Updated 2026-06-30 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (348 skills)
+### 🛠️ Developer Tools (349 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -320,6 +320,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Run local small-model coding sessions with SmallCode](skills/run-local-small-model-coding-sessions-with-smallcode/) | Use SmallCode as a terminal-native coding agent for 8B-35B local models, with budget-managed context, forgiving tool… | Published | 967 | 7.5k/wk |
 | [Connect MCP clients to JetBrains IDE project tools](skills/connect-mcp-clients-to-jetbrains-ide-project-tools/) | Use the built-in JetBrains MCP server to let Codex, Claude Desktop, Cursor, VS Code, and other MCP clients inspect… | Security Reviewed | 961 | 4.4k/wk |
 | [Find and export SVG icons across icon libraries for UI work](skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/) | Use Better Icons when an agent needs to search icon sets, compare matches, and return the exact SVG asset needed for… | Security Reviewed | 915 | 287/wk |
+| [Fork and merge Pydantic AI agent runs with Pydantic Deep Agents](skills/fork-and-merge-pydantic-ai-agent-runs-with-pydantic-deep-agents/) | Run a self-hosted terminal agent or custom Pydantic AI harness that can branch a coding or research run, test… | Security Reviewed | 912 | — |
 | [Reduce coding-agent context load with Token Savior](skills/reduce-coding-agent-context-load-with-token-savior/) | Connect coding agents to a Token Savior MCP server for structural code navigation, persistent recall, compact… | Security Reviewed | 893 | — |
 | [CircleCI MCP Server](skills/circleci-mcp-server/) | CircleCI MCP Server is built around CircleCI continuous integration platform. The underlying ecosystem is… | Security Reviewed | 844 | — |
 | [Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac](skills/run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac/) | Execute repository-stored HTTP request files from the command line so API smoke tests, assertions, and… | Security Reviewed | 809 | 36.7k/wk |
@@ -607,7 +608,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (204 skills)
+### 🔄 Data Extraction & Transformation (205 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -641,6 +642,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Scale agent retrieval workloads with Milvus](skills/scale-agent-retrieval-workloads-with-milvus/) | Use Milvus to create vector collections, ingest embeddings, and serve filtered similarity search for RAG and agent… | Security Reviewed | 44.7k | — |
 | [Apache Spark Job Manager](skills/apache-spark-job-manager/) | Apache Spark Job Manager is built around Apache Spark distributed compute engine. The underlying ecosystem is… | Security Reviewed | 43.1k | — |
 | [Apache Spark DataFrame ETL Pipeline](skills/spark-dataframe-etl-pipeline/) | Automates PySpark DataFrame transformations including schema inference, partition pruning, and Delta Lake merge… | Security Reviewed | 43.1k | — |
+| [Build SQL and vector retrieval context layers with TiDB](skills/build-sql-and-vector-retrieval-context-layers-with-tidb/) | Use TiDB when an agent needs one transactional SQL store that can also hold embeddings and serve vector retrieval… | Published | 40.2k | — |
 | [Build local vector retrieval indexes with Faiss](skills/build-local-vector-retrieval-indexes-with-faiss/) | Use Faiss to create and query local vector indexes for agent retrieval and RAG workflows before adding heavier… | Security Reviewed | 40.2k | — |
 | [Run data-backed business automation with Minds Platform](skills/run-data-backed-business-automation-with-minds-platform/) | Connect business data sources to Minds Platform so an agent can search, analyze, and automate recurring operational… | Security Reviewed | 39.2k | — |
 | [Paperless-ngx Document OCR and Archive Management System](skills/paperless-ngx-document-ocr-archive-management-system/) | Paperless-ngx is an open source document management system that turns scanned or uploaded paperwork into a… | Security Reviewed | 38.1k | — |

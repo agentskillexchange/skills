@@ -2,8 +2,26 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-06-30",
-  "total": 2664,
+  "total": 2666,
   "skills": [
+    {
+      "slug": "fork-and-merge-pydantic-ai-agent-runs-with-pydantic-deep-agents",
+      "name": "Fork and merge Pydantic AI agent runs with Pydantic Deep Agents",
+      "title": "Fork and merge Pydantic AI agent runs with Pydantic Deep Agents",
+      "description": "Run a self-hosted terminal agent or custom Pydantic AI harness that can branch a coding or research run, test isolated alternatives, and merge the…",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "build-sql-and-vector-retrieval-context-layers-with-tidb",
+      "name": "Build SQL and vector retrieval context layers with TiDB",
+      "title": "Build SQL and vector retrieval context layers with TiDB",
+      "description": "Use TiDB when an agent needs one transactional SQL store that can also hold embeddings and serve vector retrieval for RAG, memory, or app-context…",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
     {
       "slug": "route-and-observe-production-agent-traffic-with-plano",
       "name": "Route and observe production agent traffic with Plano",
