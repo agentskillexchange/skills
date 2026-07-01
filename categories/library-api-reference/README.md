@@ -105,7 +105,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Python Package Dependency Graph Mapper](../../skills/python-package-dependency-graph-mapper/) | 3k | — |
 | [OpenAI Agents SDK JavaScript Workflow Toolkit](../../skills/openai-agents-sdk-javascript-workflow-toolkit/) | 2.6k | — |
 | [Anthropic SDK Token Usage Logger](../../skills/anthropic-sdk-token-usage-logger/) | 1.9k | 14.5M/wk |
-| [Ground PostgreSQL code generation in exact docs and best-practice skills through pg-aiguide](../../skills/ground-postgresql-code-generation-in-exact-docs-and-best-practice-skills-through-pg-aiguide/) | 1.7k | — |
+| [Ground PostgreSQL code generation in exact docs and best-practice skills through pg-aiguide](../../skills/ground-postgresql-code-generation-in-exact-docs-and-best-practice-skills-through-pg-aiguide/) | 1.7k | 444/wk |
 | [Navigate indexed codebases through symbol-first MCP retrieval with jCodeMunch MCP](../../skills/navigate-indexed-codebases-through-symbol-first-mcp-retrieval-with-jcodemunch-mcp/) | 1.6k | — |
 | [Microsoft Learn MCP Server](../../skills/microsoft-learn-mcp-server/) | 1.5k | — |
 | [Build MCP servers and clients for PHP applications with the official PHP SDK](../../skills/build-mcp-servers-and-clients-for-php-applications-with-the-official-php-sdk/) | 1.5k | — |

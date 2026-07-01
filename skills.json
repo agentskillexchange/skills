@@ -1,8 +1,33 @@
 {
   "version": "2.0",
-  "total": 2667,
+  "total": 2669,
   "generated": "2026-07-01",
   "skills": [
+    {
+      "slug": "give-opencode-project-sessions-persistent-memory-with-opencode-mem",
+      "name": "Give OpenCode project sessions persistent memory with opencode-mem",
+      "title": "Give OpenCode project sessions persistent memory with opencode-mem",
+      "description": "Add opencode-mem to OpenCode so coding sessions can store, search, and reuse project memories through a local SQLite and vector index.",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1003,
+        "npm_weekly_downloads": 12093
+      }
+    },
+    {
+      "slug": "cut-coding-agent-response-tokens-with-caveman-mode",
+      "name": "Cut coding-agent response tokens with Caveman mode",
+      "title": "Cut coding-agent response tokens with Caveman mode",
+      "description": "Install Caveman as a Claude Code style skill when coding agents need terse, technically accurate responses that reduce output-token waste.",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "listed",
+      "signals": {
+        "github_stars": 78400
+      }
+    },
     {
       "slug": "run-agent-tool-calls-through-pctx-code-mode-and-unified-mcp",
       "name": "Run agent tool calls through pctx Code Mode and unified MCP",
@@ -3947,7 +3972,8 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 1698
+        "github_stars": 1698,
+        "npm_weekly_downloads": 444
       }
     },
     {
@@ -4519,7 +4545,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 2211
+        "github_stars": 2211,
+        "npm_weekly_downloads": 1948
       }
     },
     {
@@ -4693,7 +4720,8 @@
       "framework": "Custom Agents",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 2853
+        "github_stars": 2853,
+        "npm_weekly_downloads": 264027
       }
     },
     {

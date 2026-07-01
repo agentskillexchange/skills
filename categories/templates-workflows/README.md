@@ -170,7 +170,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Coordinate persistent Copilot agent teams with Squad](../../skills/coordinate-persistent-copilot-agent-teams-with-squad/) | 2.5k | 2.1k/wk |
 | [Export live HTML slide decks to PDF handouts before review or archival](../../skills/export-live-html-slide-decks-to-pdf-handouts-before-review-or-archival/) | 2.4k | 1.4k/wk |
 | [Boot and supervise local multi-service process stacks from one declarative file with process-compose](../../skills/boot-and-supervise-local-multi-service-process-stacks-from-one-declarative-file-with-process-compose/) | 2.3k | — |
-| [Coordinate planner manager worker handoffs for long running AI delivery with Agentic Project Management](../../skills/coordinate-planner-manager-worker-handoffs-for-long-running-ai-delivery-with-agentic-project-management/) | 2.2k | — |
+| [Coordinate planner manager worker handoffs for long running AI delivery with Agentic Project Management](../../skills/coordinate-planner-manager-worker-handoffs-for-long-running-ai-delivery-with-agentic-project-management/) | 2.2k | 1.9k/wk |
 | [Turn product requirements into executable Claude Code plans and validation loops with PRPs Agentic Eng](../../skills/turn-product-requirements-into-executable-claude-code-plans-and-validation-loops-with-prps-agentic-eng/) | 2.1k | — |
 | [Layer self-correcting memory and worktree routines into Claude Code with Pro Workflow](../../skills/layer-self-correcting-memory-and-worktree-routines-into-claude-code-with-pro-workflow/) | 1.9k | 42/wk |
 | [Netlify Site Manager](../../skills/netlify-site-manager/) | 1.8k | 259.3k/wk |

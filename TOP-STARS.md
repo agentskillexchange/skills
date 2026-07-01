@@ -50,9 +50,9 @@ Skills backed by the most-starred GitHub repositories, deduplicated by upstream 
 | 42 | [Hoppscotch Open Source API Development Ecosystem](skills/hoppscotch-api-development-ecosystem/) | 78.7k | hoppscotch | Developer Tools |
 | 43 | [Zed High-Performance Multiplayer Code Editor](skills/zed-high-performance-multiplayer-code-editor/) | 78.6k | zed | Developer Tools |
 | 44 | [Netdata Real-Time Infrastructure Monitoring and Alerting](skills/netdata-real-time-infrastructure-monitoring-and-alerting/) | 78.4k | netdata | Monitoring & Alerts |
-| 45 | [Elastic / Kibana MCP Server](skills/elastic-kibana-mcp-server/) | 76.8k | elasticsearch | Monitoring & Alerts |
-| 46 | [Sherlock Social Media Username Hunter Across 400+ Networks](skills/sherlock-social-media-username-hunter/) | 76.2k | sherlock | Research & Scraping |
-| 47 | [Manage agent CLI providers and MCP settings with CC Switch](skills/manage-agent-cli-providers-and-mcp-settings-with-cc-switch/) | 76.2k | cc-switch | Developer Tools |
-| 48 | [lazygit Terminal UI for Git Operations](skills/lazygit-terminal-ui-git-operations/) | 75.4k | lazygit | Developer Tools |
-| 49 | [vLLM High-Throughput LLM Serving Engine with PagedAttention](skills/vllm-high-throughput-llm-serving/) | 75.1k | vllm | Developer Tools |
-| 50 | [NestJS — Progressive Node.js Framework for Server-Side Applications](skills/nestjs-progressive-nodejs-framework/) | 75.1k | nest | Developer Tools |
+| 45 | [Cut coding-agent response tokens with Caveman mode](skills/cut-coding-agent-response-tokens-with-caveman-mode/) | 78.4k | caveman | Developer Tools |
+| 46 | [Elastic / Kibana MCP Server](skills/elastic-kibana-mcp-server/) | 76.8k | elasticsearch | Monitoring & Alerts |
+| 47 | [Sherlock Social Media Username Hunter Across 400+ Networks](skills/sherlock-social-media-username-hunter/) | 76.2k | sherlock | Research & Scraping |
+| 48 | [Manage agent CLI providers and MCP settings with CC Switch](skills/manage-agent-cli-providers-and-mcp-settings-with-cc-switch/) | 76.2k | cc-switch | Developer Tools |
+| 49 | [lazygit Terminal UI for Git Operations](skills/lazygit-terminal-ui-git-operations/) | 75.4k | lazygit | Developer Tools |
+| 50 | [vLLM High-Throughput LLM Serving Engine with PagedAttention](skills/vllm-high-throughput-llm-serving/) | 75.1k | vllm | Developer Tools |

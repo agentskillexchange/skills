@@ -138,7 +138,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Let agents control a logged-in Chrome browser through Playwriter MCP](../../skills/let-agents-control-a-logged-in-chrome-browser-through-playwriter-mcp/) | 3.5k | 8.5k/wk |
 | [Test agent-written web changes in a real browser and hand failures back for repair with Expect](../../skills/test-agent-written-web-changes-in-a-real-browser-and-hand-failures-back-for-repair-with-expect/) | 3.4k | 24.5k/wk |
 | [Browserbase MCP Server](../../skills/browserbase-mcp-server/) | 3.3k | 907/wk |
-| [Run blocked-site browser tasks through anti-bot friendly sessions with Camofox Browser](../../skills/run-blocked-site-browser-tasks-through-anti-bot-friendly-sessions-with-camofox-browser/) | 2.9k | — |
+| [Run blocked-site browser tasks through anti-bot friendly sessions with Camofox Browser](../../skills/run-blocked-site-browser-tasks-through-anti-bot-friendly-sessions-with-camofox-browser/) | 2.9k | 264k/wk |
 | [Control iOS and Android devices through a deterministic CLI for agent-driven mobile testing and debugging with agent-device](../../skills/control-ios-and-android-devices-through-a-deterministic-cli-for-agent-driven-mobile-testing-and-debugging-with-agent-device/) | 1.8k | 162.4k/wk |
 | [Tarsier Vision Utilities for Web Interaction Agents](../../skills/tarsier-vision-utilities-web-interaction-agents/) | 1.8k | — |
 | [Control Windows desktop apps through MCP with Terminator](../../skills/control-windows-desktop-apps-through-mcp-with-terminator/) | 1.5k | 57/wk |

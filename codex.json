@@ -2,8 +2,26 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-01",
-  "total": 2667,
+  "total": 2669,
   "skills": [
+    {
+      "slug": "give-opencode-project-sessions-persistent-memory-with-opencode-mem",
+      "name": "Give OpenCode project sessions persistent memory with opencode-mem",
+      "title": "Give OpenCode project sessions persistent memory with opencode-mem",
+      "description": "Add opencode-mem to OpenCode so coding sessions can store, search, and reuse project memories through a local SQLite and vector index.",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "cut-coding-agent-response-tokens-with-caveman-mode",
+      "name": "Cut coding-agent response tokens with Caveman mode",
+      "title": "Cut coding-agent response tokens with Caveman mode",
+      "description": "Install Caveman as a Claude Code style skill when coding agents need terse, technically accurate responses that reduce output-token waste.",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "listed"
+    },
     {
       "slug": "run-agent-tool-calls-through-pctx-code-mode-and-unified-mcp",
       "name": "Run agent tool calls through pctx Code Mode and unified MCP",
