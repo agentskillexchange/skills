@@ -52,6 +52,7 @@ Filings research, invoice intake, billing operations, reconciliation, and financ
 | [Read Google Drive files and edit Sheets through MCP](../skills/read-google-drive-files-and-edit-sheets-through-mcp/) | Connects agents to Drive and Sheets where finance teams often stage reconciliations, forecast models, and review exports. | Finance ops / spreadsheet workflow owner | Medium | 280 |
 | [Prepare bid proposal drafts and compliance checks with OpenBidKit Yibiao](../skills/prepare-bid-proposal-drafts-and-compliance-checks-with-openbidkit-yibiao/) | Fits finance-adjacent bid and proposal workflows where requirements, pricing, and compliance checks need a review packet. | Proposal operations / finance bid analyst | Medium | 1k |
 | [Prepare agent-ready PDF and document extraction with PyMuPDF](../skills/prepare-agent-ready-pdf-and-document-extraction-with-pymupdf/) | Adds a lightweight PDF extraction path for filings, statements, and vendor documents before spreadsheet or dashboard work. | Finance analyst / filings researcher | Medium | 10.1k |
+| [Convert mixed documents into agent-ready Markdown and JSON with DocStrange](../skills/convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange/) | Turns mixed statements, filing exhibits, invoice packets, and spreadsheet-adjacent documents into reviewable Markdown or JSON before finance analysis. | Finance analyst / filings and vendor document intake ops | Medium | 1.5k |
 
 ## Editorial Notes
 

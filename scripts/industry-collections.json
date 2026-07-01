@@ -205,7 +205,8 @@
         "use-pandasai-for-conversational-csv-and-spreadsheet-analysis",
         "read-google-drive-files-and-edit-sheets-through-mcp",
         "prepare-bid-proposal-drafts-and-compliance-checks-with-openbidkit-yibiao",
-        "prepare-agent-ready-pdf-and-document-extraction-with-pymupdf"
+        "prepare-agent-ready-pdf-and-document-extraction-with-pymupdf",
+        "convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange"
       ],
       "who_for": [
         "Finance operators, founders, RevOps teams, and analysts who need evidence-backed filings, invoice, billing, and reconciliation workflows.",
@@ -376,6 +377,11 @@
         "prepare-agent-ready-pdf-and-document-extraction-with-pymupdf": {
           "why_here": "Adds a lightweight PDF extraction path for filings, statements, and vendor documents before spreadsheet or dashboard work.",
           "persona": "Finance analyst / filings researcher",
+          "install_complexity": "Medium"
+        },
+        "convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange": {
+          "why_here": "Turns mixed statements, filing exhibits, invoice packets, and spreadsheet-adjacent documents into reviewable Markdown or JSON before finance analysis.",
+          "persona": "Finance analyst / filings and vendor document intake ops",
           "install_complexity": "Medium"
         }
       },
@@ -575,7 +581,8 @@
         "prepare-agent-ready-pdf-and-document-extraction-with-pymupdf",
         "convert-complex-pdfs-and-document-images-into-agent-ready-markdown-with-ocrflux",
         "parse-agent-ready-pdfs-and-document-images-with-monkeyocr",
-        "evaluate-document-parsers-for-agent-ingestion-with-parsebench"
+        "evaluate-document-parsers-for-agent-ingestion-with-parsebench",
+        "convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange"
       ],
       "who_for": [
         "Legal operations, compliance, and records teams that need document intake, review, redaction, and archive workflows.",
@@ -800,6 +807,11 @@
           "why_here": "Lets teams compare extraction quality before standardizing a parser for legal review workflows.",
           "persona": "Legal automation lead / document QA",
           "install_complexity": "Medium"
+        },
+        "convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange": {
+          "why_here": "Converts mixed PDFs, scans, office files, images, and URLs into Markdown or structured JSON before contract review, diligence packets, policy review, or compliance intake.",
+          "persona": "Legal ops analyst / compliance document intake lead",
+          "install_complexity": "Medium"
         }
       },
       "recommended_picks": [
@@ -838,7 +850,8 @@
         "convert-complex-pdfs-and-document-images-into-agent-ready-markdown-with-ocrflux",
         "parse-agent-ready-pdfs-and-document-images-with-monkeyocr",
         "build-ocr-and-layout-analysis-preprocessing-pipelines-with-deepdoctection",
-        "evaluate-document-parsers-for-agent-ingestion-with-parsebench"
+        "evaluate-document-parsers-for-agent-ingestion-with-parsebench",
+        "convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange"
       ],
       "who_for": [
         "Healthcare operations, intake, research, and documentation teams handling paperwork-heavy non-clinical workflows.",
@@ -997,6 +1010,11 @@
         "evaluate-document-parsers-for-agent-ingestion-with-parsebench": {
           "why_here": "Helps compare parser behavior on healthcare paperwork before adopting one extraction path for regulated workflows.",
           "persona": "Documentation QA lead / automation owner",
+          "install_complexity": "Medium"
+        },
+        "convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange": {
+          "why_here": "Prepares mixed healthcare paperwork, forms, scans, and office documents for non-clinical intake routing, abstraction, and human review.",
+          "persona": "Healthcare documentation ops / intake automation owner",
           "install_complexity": "Medium"
         }
       },
@@ -1203,6 +1221,7 @@
         "validate-python-docstrings-against-function-signatures-with-pydoclint",
         "openapi-generator-api-client-server-stub-tooling",
         "swagger-ui-documentation-deployer",
+        "generate-go-api-docs-from-source-annotations-with-swag",
         "bootstrap-openapi-spec-from-captured-api-traffic-before-client-or-test-automation",
         "build-versioned-technical-docs-sites-with-search-and-nav-using-material-for-mkdocs",
         "lint-and-auto-format-markdown-documentation-before-agents-ship-content-with-rumdl"
@@ -1365,6 +1384,11 @@
         "lint-and-auto-format-markdown-documentation-before-agents-ship-content-with-rumdl": {
           "why_here": "Keeps generated Markdown docs consistent before agent-authored changes reach a docs repo or release branch.",
           "persona": "Technical writer / docs automation maintainer",
+          "install_complexity": "Low"
+        },
+        "generate-go-api-docs-from-source-annotations-with-swag": {
+          "why_here": "Generates Swagger/OpenAPI documentation from Go handler annotations before DevRel teams publish API references or regenerate clients.",
+          "persona": "API platform engineer / DevRel docs maintainer",
           "install_complexity": "Low"
         }
       },
@@ -2269,6 +2293,7 @@
         "run-durable-scheduled-agent-jobs-in-node-js-with-agenda",
         "run-typescript-native-llm-eval-suites-with-evalite",
         "run-supervised-mcp-browser-automation-with-auto-browser",
+        "control-hosted-browser-research-and-extraction-through-hyperbrowser-mcp",
         "use-mcp-context-forge-as-an-mcp-gateway-and-registry"
       ],
       "who_for": [
@@ -2489,6 +2514,11 @@
           "why_here": "Helps agency teams standardize MCP servers and tool access across multiple client projects.",
           "persona": "AI agency platform lead / FDE",
           "install_complexity": "High"
+        },
+        "control-hosted-browser-research-and-extraction-through-hyperbrowser-mcp": {
+          "why_here": "Gives agency and FDE teams hosted browser research, crawling, extraction, and computer-use automation for client delivery workflows that need reviewable web evidence.",
+          "persona": "AI agency FDE / browser automation specialist",
+          "install_complexity": "Medium"
         }
       },
       "recommended_picks": [
@@ -2532,7 +2562,10 @@
         "datadog-integration-connector-agent",
         "trace-and-debug-agent-runs-with-agentops",
         "trace-llm-and-agent-workflows-with-openllmetry",
-        "evaluate-and-monitor-llm-workflows-with-agenta"
+        "trace-and-evaluate-llm-application-behavior-with-langtrace",
+        "profile-python-agent-workloads-with-scalene",
+        "evaluate-and-monitor-llm-workflows-with-agenta",
+        "record-system-level-agent-activity-with-agentsight"
       ],
       "who_for": [
         "SREs, platform engineers, DevOps leads, and infrastructure operators responsible for production reliability.",
@@ -2721,6 +2754,21 @@
           "why_here": "Adds monitoring and evaluation coverage for production LLM workflows that need regression signals during incidents.",
           "persona": "AI platform SRE / reliability owner",
           "install_complexity": "Medium"
+        },
+        "record-system-level-agent-activity-with-agentsight": {
+          "why_here": "Records system-level behavior from agent commands during incidents or postmortems, giving SRE teams evidence beyond agent transcripts.",
+          "persona": "SRE / agent platform reliability owner",
+          "install_complexity": "High"
+        },
+        "trace-and-evaluate-llm-application-behavior-with-langtrace": {
+          "why_here": "Adds OpenTelemetry-style traces, metrics, and evaluations for production LLM and agent applications that SRE teams need to debug and monitor.",
+          "persona": "AI platform SRE / observability engineer",
+          "install_complexity": "Medium"
+        },
+        "profile-python-agent-workloads-with-scalene": {
+          "why_here": "Profiles CPU, GPU, and memory hotspots in Python agent services, tool servers, or retrieval pipelines before reliability tuning.",
+          "persona": "AI platform SRE / Python performance engineer",
+          "install_complexity": "Low"
         }
       },
       "recommended_picks": [
@@ -2766,7 +2814,9 @@
         "run-agent-generated-code-in-local-microvm-sandboxes-with-microsandbox",
         "evaluate-model-generated-code-execution-with-sandboxfusion",
         "gate-agent-inputs-and-outputs-with-superagent-safety-checks",
-        "emit-policy-receipts-for-hard-rule-agent-skills-with-pluribus"
+        "emit-policy-receipts-for-hard-rule-agent-skills-with-pluribus",
+        "record-system-level-agent-activity-with-agentsight",
+        "scan-agent-dependencies-and-container-inputs-with-owasp-dep-scan"
       ],
       "who_for": [
         "Security engineers, SOC teams, compliance operators, DevSecOps leads, and AI governance owners.",
@@ -2965,6 +3015,16 @@
           "why_here": "Creates reviewable policy receipts for hard-rule workflows where compliance needs evidence, not just logs.",
           "persona": "Compliance engineer / policy operations",
           "install_complexity": "Medium"
+        },
+        "record-system-level-agent-activity-with-agentsight": {
+          "why_here": "Captures process, file, network, prompt, and report activity from agent runs so SecOps and GRC teams can audit what an agent actually did.",
+          "persona": "AI security engineer / GRC audit operator",
+          "install_complexity": "High"
+        },
+        "scan-agent-dependencies-and-container-inputs-with-owasp-dep-scan": {
+          "why_here": "Scans dependencies, containers, SBOMs, licenses, and risk signals before agent-generated or agent-adopted code moves toward production.",
+          "persona": "AppSec engineer / supply-chain risk reviewer",
+          "install_complexity": "Medium"
         }
       },
       "recommended_picks": [
@@ -3012,6 +3072,7 @@
         "serve-production-agentic-rag-through-r2r",
         "build-document-search-layers-for-ai-apps-with-morphik",
         "parse-multi-format-rag-inputs-with-omniparse",
+        "convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange",
         "add-postgres-native-vector-retrieval-to-agent-and-rag-workflows-with-pgvector",
         "generate-and-evaluate-retrieval-embeddings-with-flagembedding",
         "scale-agent-retrieval-workloads-with-milvus",
@@ -3265,6 +3326,11 @@
         "query-neo4j-graph-data-from-agent-workflows-through-mcp": {
           "why_here": "Lets agents inspect governed Neo4j graph data through MCP instead of copying graph context into prompts.",
           "persona": "Graph data engineer / analytics platform owner",
+          "install_complexity": "Medium"
+        },
+        "convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange": {
+          "why_here": "Adds a mixed-document normalization step for analytics and RAG ingestion pipelines that need Markdown, JSON, CSV, or HTML before downstream processing.",
+          "persona": "Data platform engineer / document ingestion owner",
           "install_complexity": "Medium"
         }
       },

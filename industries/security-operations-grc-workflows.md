@@ -56,6 +56,8 @@ Security operations and governance workflows for dependency risk, secrets, CI ha
 | [Evaluate model-generated code execution with SandboxFusion](../skills/evaluate-model-generated-code-execution-with-sandboxfusion/) | Tests model-generated code execution behavior inside a controlled benchmark before teams trust automation outputs. | AI security engineer / evaluation lead | High | 1k |
 | [Gate agent inputs and outputs with Superagent safety checks](../skills/gate-agent-inputs-and-outputs-with-superagent-safety-checks/) | Adds a safety gate for agent inputs and outputs before risky actions reach users or downstream systems. | GRC automation owner / AI safety reviewer | Medium | 6.6k |
 | [Emit policy receipts for hard-rule agent skills with Pluribus](../skills/emit-policy-receipts-for-hard-rule-agent-skills-with-pluribus/) | Creates reviewable policy receipts for hard-rule workflows where compliance needs evidence, not just logs. | Compliance engineer / policy operations | Medium | — |
+| [Record system-level agent activity with AgentSight](../skills/record-system-level-agent-activity-with-agentsight/) | Captures process, file, network, prompt, and report activity from agent runs so SecOps and GRC teams can audit what an agent actually did. | AI security engineer / GRC audit operator | High | 469 |
+| [Scan agent dependencies and container inputs with OWASP dep-scan](../skills/scan-agent-dependencies-and-container-inputs-with-owasp-dep-scan/) | Scans dependencies, containers, SBOMs, licenses, and risk signals before agent-generated or agent-adopted code moves toward production. | AppSec engineer / supply-chain risk reviewer | Medium | 1.3k |
 
 ## Editorial Notes
 

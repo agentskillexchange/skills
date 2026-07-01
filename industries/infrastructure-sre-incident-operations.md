@@ -53,7 +53,10 @@ Production reliability workflows for Kubernetes, incidents, observability, backu
 | [Datadog Integration Connector](../skills/datadog-integration-connector-agent/) | Connects Datadog signals into agent workflows for incident context, monitor review, and dashboard triage. | SRE / observability engineer | Medium | 791 |
 | [Trace and debug agent runs with AgentOps](../skills/trace-and-debug-agent-runs-with-agentops/) | Adds run-level tracing for agent systems that SRE teams need to debug after failures or noisy automation. | SRE / agent platform operator | Medium | 5.6k |
 | [Trace LLM and agent workflows with OpenLLMetry](../skills/trace-llm-and-agent-workflows-with-openllmetry/) | Connects LLM and agent traces to OpenTelemetry-style incident investigation workflows. | Observability engineer / platform SRE | Medium | 7.2k |
+| [Trace and evaluate LLM application behavior with Langtrace](../skills/trace-and-evaluate-llm-application-behavior-with-langtrace/) | Adds OpenTelemetry-style traces, metrics, and evaluations for production LLM and agent applications that SRE teams need to debug and monitor. | AI platform SRE / observability engineer | Medium | 1.2k |
+| [Profile Python agent workloads with Scalene](../skills/profile-python-agent-workloads-with-scalene/) | Profiles CPU, GPU, and memory hotspots in Python agent services, tool servers, or retrieval pipelines before reliability tuning. | AI platform SRE / Python performance engineer | Low | 13.5k |
 | [Evaluate and monitor LLM workflows with Agenta](../skills/evaluate-and-monitor-llm-workflows-with-agenta/) | Adds monitoring and evaluation coverage for production LLM workflows that need regression signals during incidents. | AI platform SRE / reliability owner | Medium | 4.2k |
+| [Record system-level agent activity with AgentSight](../skills/record-system-level-agent-activity-with-agentsight/) | Records system-level behavior from agent commands during incidents or postmortems, giving SRE teams evidence beyond agent transcripts. | SRE / agent platform reliability owner | High | 469 |
 
 ## Editorial Notes
 

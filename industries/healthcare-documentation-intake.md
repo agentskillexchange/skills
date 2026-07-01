@@ -49,6 +49,7 @@ Documentation intake, OCR, transcription, structured extraction, and biomedical 
 | [Parse agent-ready PDFs and document images with MonkeyOCR](../skills/parse-agent-ready-pdfs-and-document-images-with-monkeyocr/) | Covers document-image parsing for intake packets where text extraction must happen before routing or abstraction. | Clinical admin ops / intake reviewer | High | 6.6k |
 | [Build OCR and layout-analysis preprocessing pipelines with deepdoctection](../skills/build-ocr-and-layout-analysis-preprocessing-pipelines-with-deepdoctection/) | Adds layout-aware preprocessing for forms, tables, and multi-section medical paperwork before human review. | Healthcare data ops engineer | High | 3.2k |
 | [Evaluate document parsers for agent ingestion with ParseBench](../skills/evaluate-document-parsers-for-agent-ingestion-with-parsebench/) | Helps compare parser behavior on healthcare paperwork before adopting one extraction path for regulated workflows. | Documentation QA lead / automation owner | Medium | 474 |
+| [Convert mixed documents into agent-ready Markdown and JSON with DocStrange](../skills/convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange/) | Prepares mixed healthcare paperwork, forms, scans, and office documents for non-clinical intake routing, abstraction, and human review. | Healthcare documentation ops / intake automation owner | Medium | 1.5k |
 
 ## Editorial Notes
 

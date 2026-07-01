@@ -63,6 +63,7 @@ Contract workflows, forms, document review, archive search, and evidence-oriente
 | [Convert complex PDFs and document images into agent-ready Markdown with OCRFlux](../skills/convert-complex-pdfs-and-document-images-into-agent-ready-markdown-with-ocrflux/) | Turns scanned or layout-heavy legal documents into Markdown that downstream review agents can cite and inspect. | Legal document intake specialist | High | 2.5k |
 | [Parse agent-ready PDFs and document images with MonkeyOCR](../skills/parse-agent-ready-pdfs-and-document-images-with-monkeyocr/) | Adds an OCR path for mixed legal PDFs and document images before matter summaries or compliance checks. | Paralegal / compliance intake operator | High | 6.6k |
 | [Evaluate document parsers for agent ingestion with ParseBench](../skills/evaluate-document-parsers-for-agent-ingestion-with-parsebench/) | Lets teams compare extraction quality before standardizing a parser for legal review workflows. | Legal automation lead / document QA | Medium | 474 |
+| [Convert mixed documents into agent-ready Markdown and JSON with DocStrange](../skills/convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange/) | Converts mixed PDFs, scans, office files, images, and URLs into Markdown or structured JSON before contract review, diligence packets, policy review, or compliance intake. | Legal ops analyst / compliance document intake lead | Medium | 1.5k |
 
 ## Editorial Notes
 
