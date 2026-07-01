@@ -1,9 +1,18 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-06-30",
-  "total": 2666,
+  "generated": "2026-07-01",
+  "total": 2667,
   "skills": [
+    {
+      "slug": "run-agent-tool-calls-through-pctx-code-mode-and-unified-mcp",
+      "name": "Run agent tool calls through pctx Code Mode and unified MCP",
+      "title": "Run agent tool calls through pctx Code Mode and unified MCP",
+      "description": "Put pctx between agents and tools so MCP servers and custom tools can run through a code-oriented execution layer instead of one-off tool calls.",
+      "category": "Developer Tools",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "fork-and-merge-pydantic-ai-agent-runs-with-pydantic-deep-agents",
       "name": "Fork and merge Pydantic AI agent runs with Pydantic Deep Agents",
