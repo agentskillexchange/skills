@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "Helicone/helicone"
   github_stars: 5779
+  npm_package: "helicone"
+  npm_weekly_downloads: 0
 ---
 
 # Monitor and evaluate LLM agent traffic with Helicone

@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "sdi2200262/agentic-project-management"
   github_stars: 2211
+  npm_package: "agentic-pm"
+  npm_weekly_downloads: 1948
 ---
 
 # Coordinate planner manager worker handoffs for long running AI delivery with Agentic Project Management

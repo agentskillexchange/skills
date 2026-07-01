@@ -12,6 +12,8 @@ framework: "MCP"
 tool_ecosystem:
   github_repo: "timescale/pg-aiguide"
   github_stars: 1698
+  npm_package: "@tigerdata/pg-aiguide"
+  npm_weekly_downloads: 444
 ---
 
 # Ground PostgreSQL code generation in exact docs and best-practice skills through pg-aiguide

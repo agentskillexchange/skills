@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "arc53/DocsGPT"
   github_stars: 17915
+  npm_package: "docsgpt"
+  npm_weekly_downloads: 0
 ---
 
 # Use DocsGPT for document-grounded enterprise assistants
