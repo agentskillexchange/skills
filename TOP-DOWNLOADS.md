@@ -46,8 +46,8 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 38 | [WebdriverIO Next-Gen Browser and Mobile Automation Framework](skills/webdriverio-browser-mobile-automation-framework/) | 2.7M/wk | webdriverio | Browser Automation |
 | 39 | [JSDoc JavaScript API Documentation Generator](skills/jsdoc-javascript-api-documentation-generator/) | 2.7M/wk | jsdoc | Library & API Reference |
 | 40 | [Snyk Container Image Analyzer](skills/snyk-container-image-analyzer/) | 2.6M/wk | snyk | Security & Verification |
-| 41 | [Apache Kafka Schema Registry Extractor](skills/kafka-schema-registry-extractor/) | 2.5M/wk | kafka | Data Extraction & Transformation |
-| 42 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 2.5M/wk | datadog-api-client-typescript | Monitoring & Alerts |
+| 41 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 2.5M/wk | datadog-api-client-typescript | Monitoring & Alerts |
+| 42 | [Apache Kafka Schema Registry Extractor](skills/kafka-schema-registry-extractor/) | 2.5M/wk | kafka | Data Extraction & Transformation |
 | 43 | [semantic-release Automated Versioning and Release Publishing](skills/semantic-release-automated-versioning-and-release-publishing/) | 2.5M/wk | semantic-release | CI/CD Integrations |
 | 44 | [Slack Bolt Event Subscription Debugger](skills/slack-bolt-event-subscription-debugger/) | 2.5M/wk | slack | Integrations & Connectors |
 | 45 | [Vercel Deployment Agent](skills/vercel-deployment-agent/) | 2.4M/wk | vercel | Templates & Workflows |

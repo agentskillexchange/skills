@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2669 published skills** across **17 categories** · 2,297 security reviewed · Updated 2026-07-01 07:26 UTC
+> **2669 published skills** across **17 categories** · 2,297 security reviewed · Updated 2026-07-01 13:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -122,7 +122,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Budibase Open Source Low-Code Operations App Platform](skills/budibase-open-source-low-code-operations-app-platform/) | Budibase is an open-source low-code platform for internal apps, forms, portals, and approvals. It gives agents a… | Security Reviewed | 27.8k | 41/wk |
 | [Hyperfine Command-Line Benchmarking Tool](skills/hyperfine-command-line-benchmarking-tool/) | Benchmark command-line programs with statistical rigor using Hyperfine. Performs warmup runs, detects outliers,… | Security Reviewed | 27.8k | — |
 | [Jujutsu Git-Compatible Version Control System](skills/jujutsu-jj-git-compatible-vcs/) | Jujutsu (jj) is a powerful Git-compatible version control system that reimagines VCS workflows with automatic… | Security Reviewed | 27.5k | — |
-| [ESLint Code Review](skills/eslint-code-review/) | ESLint Code Review is built around ESLint static analysis for JavaScript and TypeScript. The underlying ecosystem is… | Security Reviewed | 27.3k | 139.1M/wk |
+| [ESLint Code Review](skills/eslint-code-review/) | ESLint Code Review is built around ESLint static analysis for JavaScript and TypeScript. The underlying ecosystem is… | Security Reviewed | 27.3k | 138.6M/wk |
 | [ESLint Rule Generator Agent](skills/eslint-rule-generator-agent/) | Generates custom ESLint rules from natural language descriptions using the ESLint RuleTester API and AST selectors.… | Security Reviewed | 27.2k | 120.2M/wk |
 | [smolagents Code-First AI Agent Library](skills/smolagents-code-first-ai-agent-library/) | smolagents is HuggingFace's barebones Python library for building AI agents that think in code rather than JSON.… | Security Reviewed | 26.4k | — |
 | [API Client Generator Skill](skills/api-client-generator-skill/) | API Client Generator Skill is built around Swagger/OpenAPI tooling. The underlying ecosystem is represented by… | Security Reviewed | 26.3k | 5.7M/wk |
@@ -264,7 +264,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Mods AI-Powered Command-Line LLM Interface by Charmbracelet](skills/mods-charmbracelet-ai-cli-llm/) | Mods is a CLI tool by Charmbracelet that pipes stdin directly to large language models. It enables AI-powered text… | Security Reviewed | 4.5k | — |
 | [Azure CLI — Command-Line Interface for Microsoft Azure](skills/azure-cli-microsoft-cloud/) | The Azure CLI provides cross-platform command-line access to Microsoft Azure services for managing VMs, databases,… | Security Reviewed | 4.5k | — |
 | [Build, test, and package PostgreSQL extensions in Rust with pgrx](skills/build-test-and-package-postgresql-extensions-in-rust-with-pgrx/) | Use pgrx when an agent needs the Rust-native extension lifecycle for PostgreSQL, including local builds, test runs,… | Security Reviewed | 4.5k | — |
-| [Webhook Debugger](skills/webhook-debugger/) | Webhook Debugger is built around Stripe payments platform. The underlying ecosystem is represented by… | Security Reviewed | 4.4k | 14M/wk |
+| [Webhook Debugger](skills/webhook-debugger/) | Webhook Debugger is built around Stripe payments platform. The underlying ecosystem is represented by… | Security Reviewed | 4.4k | 13.9M/wk |
 | [Freeze Code and Terminal Screenshot Generator](skills/freeze-code-terminal-screenshot-generator/) | Freeze by Charmbracelet generates polished PNG and SVG images of code snippets and terminal output. It supports… | Security Reviewed | 4.4k | — |
 | [Spin up isolated git worktrees for parallel Claude Code and Codex branches with Worktrunk](skills/spin-up-isolated-git-worktrees-for-parallel-claude-code-and-codex-branches-with-worktrunk/) | Create, switch, and clean per-branch worktrees so multiple coding agents can work the same repo in parallel without… | Security Reviewed | 4.4k | — |
 | [MySQL Query Agent](skills/mysql-query-agent/) | MySQL Query Agent is built around MySQL relational database. The underlying ecosystem is represented by… | Security Reviewed | 4.4k | 8.9M/wk |
@@ -278,7 +278,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Build and debug AI pipelines in an IDE with RocketRide](skills/build-and-debug-ai-pipelines-in-an-ide-with-rocketride/) | Use RocketRide to compose, run, observe, and deploy portable AI pipelines from an IDE or CLI across model providers,… | Security Reviewed | 3.9k | 635/wk |
 | [Stancl Tenancy v3 — Multi-Tenant Laravel](skills/tenancy-development/) | Builds multi-tenant Laravel SaaS applications with stancl/tenancy v3. Best when you need domain/subdomain/path-based… | Security Reviewed | 3.8k | — |
 | [Build Java agent transport gateways with Atmosphere](skills/build-java-agent-transport-gateways-with-atmosphere/) | Use Atmosphere to build JVM agent gateways that stream over WebSocket, SSE, gRPC, WebTransport, MCP, A2A, and AG-UI… | Published | 3.8k | — |
-| [AWS S3 MCP Server](skills/aws-s3-mcp-server/) | AWS S3 MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | 3.6k | 32.4M/wk |
+| [AWS S3 MCP Server](skills/aws-s3-mcp-server/) | AWS S3 MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | 3.6k | 32.2M/wk |
 | [AWS Lambda MCP Server](skills/aws-lambda-mcp-server/) | AWS Lambda MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | 3.6k | 8.6M/wk |
 | [Cloud Cost Analysis](skills/cloud-cost-analysis/) | Cloud Cost Analysis is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | 3.6k | — |
 | [Topgrade Universal System Package Updater](skills/topgrade-universal-system-package-updater/) | Topgrade is a CLI tool written in Rust that detects all package managers and updatable sources on your system and… | Security Reviewed | 3.6k | — |
@@ -1833,7 +1833,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Add multimodal lifelong memory to MCP and Python agents with SimpleMem](skills/add-multimodal-lifelong-memory-to-mcp-and-python-agents-with-simplemem/) | Use SimpleMem to store, compress, index, and retrieve text or multimodal memories for agents through MCP or Python… | Security Reviewed | 3.5k | — |
 | [Ingestr Cross-Database Data Copier](skills/ingestr-cross-database-data-copier/) | Copy data between any databases with a single CLI command using Ingestr. Supports 50+ sources and destinations… | Published | 3.4k | — |
 | [Svix Enterprise Webhook Delivery Service](skills/svix-enterprise-webhook-delivery-service/) | Svix is an open-source enterprise-grade webhook delivery service written in Rust. It handles webhook sending,… | Security Reviewed | 3.2k | — |
-| [SendGrid MCP Server](skills/sendgrid-mcp-server/) | SendGrid MCP Server is built around SendGrid email delivery platform. The underlying ecosystem is represented by… | Security Reviewed | 3.1k | 61.3k/wk |
+| [SendGrid MCP Server](skills/sendgrid-mcp-server/) | SendGrid MCP Server is built around SendGrid email delivery platform. The underlying ecosystem is represented by… | Security Reviewed | 3.1k | 61.7k/wk |
 | [SendGrid Transactional Email Builder](skills/sendgrid-transactional-email-builder/) | Constructs and sends transactional emails using the SendGrid v3 Mail Send API. Builds dynamic templates with… | Security Reviewed | 3k | 3.6M/wk |
 | [SendGrid Transactional Email Router](skills/sendgrid-transactional-email-router/) | Manages transactional email delivery via SendGrid v3 Mail Send API with dynamic template rendering. Handles bounce… | Security Reviewed | 3k | 3.6M/wk |
 | [n8n-nodes-mcp Community Node for Model Context Protocol Workflows](skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows/) | n8n-nodes-mcp is a real n8n community node that lets self-hosted n8n instances connect to Model Context Protocol… | Security Reviewed | 3k | 45.9k/wk |
