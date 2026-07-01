@@ -26,24 +26,24 @@ pctx CLI, Python SDK or npm package, MCP-compatible client or OpenAI Agents SDK
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install portofcontext/tap/pctx
-- npm i -g @portofcontext/pctx
-- pip install pctx-client
-- brew upgrade pctx
+Install the pctx CLI and the client library that matches your agent stack:
 
-Requirements and caveats from upstream:
-- [![Python](https://img.shields.io/pypi/v/pctx-client?color=blue)](https://pctx.readthedocs.io/en/latest/)
-- Use the Python SDK if building agents in Python and want to run Code Mode with custom tools and/or MCP servers. The Python SDK is an HTTP client to the pctx server.
-- python
+```bash
+brew install portofcontext/tap/pctx
+npm i -g @portofcontext/pctx
+pip install pctx-client
+```
 
-Basic usage or getting-started notes:
-- pctx can be run as a stateless HTTP server for Code Mode sessions or as a unified MCP server that exposes Code Mode functionality for registered upstream MCP servers.
-- pctx start
-- pctx mcp init
+Use the Python client when building Python agents that call pctx as an HTTP service. Use the npm package or Homebrew CLI when you want pctx available as a local command for Code Mode or MCP setup. Existing Homebrew installs can be updated separately with `brew upgrade pctx`; do not treat that as the first-install path.
 
-- Source: https://github.com/portofcontext/pctx
-- Extracted from upstream docs: https://raw.githubusercontent.com/portofcontext/pctx/HEAD/README.md
+Basic setup:
+
+```bash
+pctx start
+pctx mcp init
+```
+
+Run pctx as the boundary between your agent and registered tools/MCP servers. Keep the MCP server list explicit, review which tools are exposed through Code Mode, and avoid giving the bridge broader filesystem or network access than the workflow needs.
 
 ## Documentation
 

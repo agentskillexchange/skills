@@ -24,21 +24,25 @@ Python 3.10+, pydantic-deep CLI or Python package, approved model provider key, 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- uv run deepresearch # → http://localhost:8080
+Install the package in the Python environment that will run the local agent harness:
 
-Requirements and caveats from upstream:
-- A self-hosted <b>terminal AI assistant</b> <i>and</i> the <b>Python framework</b> behind it.<br>
-- <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.10+-blue?logo=python&logoColor=white" alt="Python 3.10+"></a>
-- python
+```bash
+pip install pydantic-deep
+```
 
-Basic usage or getting-started notes:
-- <a href="#-live-run-forking--the-feature-no-one-else-has">Forking</a> &middot;
-- When an agent hits a fork in the road — "should I refactor this with a decorator or a context manager?" — most tools force one bet. Pydantic Deep Agents lets the run **branch**:
-- agent.run("refactor auth") ──┬─┼── branch B: "use a context manager" ── tests: 6/8 ✗ conf 0.42
+Use the upstream documentation for current CLI and framework setup details:
 
-- Source: https://github.com/vstorm-co/pydantic-deepagents
-- Extracted from upstream docs: https://raw.githubusercontent.com/vstorm-co/pydantic-deepagents/HEAD/README.md
+- https://vstorm-co.github.io/pydantic-deepagents/
+
+A minimal ASE-safe workflow is:
+
+1. Install the package and CLI in an isolated Python environment.
+2. Configure only the approved model provider credentials needed by your harness.
+3. Run a branch or fork workflow from a self-hosted terminal agent or custom Pydantic AI agent.
+4. Compare branch outputs with tests, traces, or review notes.
+5. Merge or select the winning branch only after a human reviews the evidence.
+
+Treat this as a self-hosted custom-agent workflow for branching and evaluating Pydantic AI runs. It is not a generic Claude Code replacement, and it should not be wired to broad shell or repository permissions until the branch/test/merge loop is constrained and reviewed.
 
 ## Documentation
 
