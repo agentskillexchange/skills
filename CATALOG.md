@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2669 published skills** across **17 categories** · 2,299 security reviewed · Updated 2026-07-01 13:28 UTC
+> **2671 published skills** across **17 categories** · 2,299 security reviewed · Updated 2026-07-01 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -611,7 +611,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (205 skills)
+### 🔄 Data Extraction & Transformation (206 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -774,6 +774,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [trdsql SQL Query Engine for CSV JSON and YAML Files](skills/trdsql-sql-query-engine-csv-json-yaml-files/) | trdsql is a CLI tool that executes SQL queries directly on CSV, LTSV, JSON, YAML, and TBLN files. It supports… | Security Reviewed | 2.2k | — |
 | [Extract invoice fields from vendor PDFs into structured records](skills/extract-invoice-fields-from-vendor-pdfs-into-structured-records/) | Uses invoice2data to turn invoice PDFs into structured JSON, CSV, or XML using supplier-specific templates. This is… | Security Reviewed | 2.1k | — |
 | [markdownify Python HTML to Markdown Conversion Library](skills/markdownify-python-html-to-markdown-converter/) | markdownify is a Python library that converts HTML content to clean Markdown text. It supports tag filtering,… | Security Reviewed | 2.1k | — |
+| [Convert PDFs and document images into agent-ready Markdown with Docext](skills/convert-pdfs-and-document-images-into-agent-ready-markdown-with-docext/) | Run Docext locally or with a chosen model backend to turn PDFs and document images into structured Markdown for RAG,… | Security Reviewed | 2k | — |
 | [sqlite-utils Python CLI for SQLite Database Manipulation](skills/sqlite-utils-python-cli-sqlite-manipulation/) | sqlite-utils is a Python CLI utility and library by Simon Willison for manipulating SQLite databases. It lets you… | Security Reviewed | 2k | — |
 | [Tabula PDF Table Extraction Agent](skills/tabula-pdf-table-extraction-agent/) | Uses Tabula Java library via tabula-py bindings to detect and extract tables from PDF documents. Supports both… | Security Reviewed | 2k | — |
 | [Tabula PDF Table Extractor](skills/tabula-pdf-table-extractor/) | Extracts structured tables from PDF documents using Tabula-java with lattice and stream detection modes. Outputs to… | Security Reviewed | 2k | — |
@@ -1752,7 +1753,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Published | — | — |
 
 
-### 🔗 Integrations & Connectors (142 skills)
+### 🔗 Integrations & Connectors (143 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1874,6 +1875,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Hookdeck CLI for Webhook Development and Event Debugging](skills/hookdeck-cli-webhook-development-event-debugging/) | Hookdeck CLI is Hookdeck's official command-line tool for forwarding webhooks to localhost, managing event gateway… | Security Reviewed | 353 | 9.1k/wk |
 | [Build and validate Shopify apps with the official Shopify AI Toolkit](skills/build-and-validate-shopify-apps-with-the-official-shopify-ai-toolkit/) | Connect agents and IDE assistants to Shopify docs, API schemas, code validation, and store-management workflows… | Security Reviewed | 348 | 17.6k/wk |
 | [Linear MCP Server for Issue Tracking and Project Management](skills/linear-mcp-server-issue-tracking-project-management/) | An MCP server that integrates Linear project management with AI assistants. Enables creating, searching, updating,… | Security Reviewed | 346 | — |
+| [Give MCP agents structured graph memory with RushDB](skills/give-mcp-agents-structured-graph-memory-with-rushdb/) | Connect RushDB's MCP server so agents can store, search, update, and traverse persistent structured memory without… | Security Reviewed | 308 | 1.9k/wk |
 | [Connect accounting agents to Xero through MCP](skills/connect-accounting-agents-to-xero-through-mcp/) | Use Xero MCP Server to give approved MCP clients controlled access to Xero accounting data, reports, invoices,… | Security Reviewed | 294 | 8k/wk |
 | [Work with AFFiNE workspaces, documents, and databases from MCP-compatible agents](skills/work-with-affine-workspaces-documents-and-databases-from-mcp-compatible-agents/) | Use affine-mcp-server when an agent needs tool-callable access to AFFiNE workspaces, documents, databases, and… | Security Reviewed | 142 | 2.1k/wk |
 | [Expose Haystack pipelines as webhook endpoints with Hayhooks](skills/expose-haystack-pipelines-as-webhook-endpoints-with-hayhooks/) | Turn an existing Haystack pipeline into an HTTP or MCP endpoint without building and maintaining a custom wrapper… | Security Reviewed | 138 | — |

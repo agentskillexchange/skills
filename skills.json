@@ -1,8 +1,33 @@
 {
   "version": "2.0",
-  "total": 2669,
+  "total": 2671,
   "generated": "2026-07-01",
   "skills": [
+    {
+      "slug": "convert-pdfs-and-document-images-into-agent-ready-markdown-with-docext",
+      "name": "Convert PDFs and document images into agent-ready Markdown with Docext",
+      "title": "Convert PDFs and document images into agent-ready Markdown with Docext",
+      "description": "Run Docext locally or with a chosen model backend to turn PDFs and document images into structured Markdown for RAG, extraction, and review workflows.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 2029
+      }
+    },
+    {
+      "slug": "give-mcp-agents-structured-graph-memory-with-rushdb",
+      "name": "Give MCP agents structured graph memory with RushDB",
+      "title": "Give MCP agents structured graph memory with RushDB",
+      "description": "Connect RushDB's MCP server so agents can store, search, update, and traverse persistent structured memory without hand-building a separate vector and graph stack.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 308,
+        "npm_weekly_downloads": 1903
+      }
+    },
     {
       "slug": "give-opencode-project-sessions-persistent-memory-with-opencode-mem",
       "name": "Give OpenCode project sessions persistent memory with opencode-mem",

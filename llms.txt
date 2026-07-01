@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-01
-# Total: 2669 skills
+# Total: 2671 skills
+
+## Convert PDFs and document images into agent-ready Markdown with Docext
+slug: convert-pdfs-and-document-images-into-agent-ready-markdown-with-docext
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run Docext locally or with a chosen model backend to turn PDFs and document images into structured Markdown for RAG, extraction, and review workflows.
+url: https://agentskillexchange.com/skills/convert-pdfs-and-document-images-into-agent-ready-markdown-with-docext/
+
+## Give MCP agents structured graph memory with RushDB
+slug: give-mcp-agents-structured-graph-memory-with-rushdb
+category: Integrations & Connectors
+framework: MCP
+verification: Security Reviewed
+description: Connect RushDB's MCP server so agents can store, search, update, and traverse persistent structured memory without hand-building a separate vector and graph stack.
+url: https://agentskillexchange.com/skills/give-mcp-agents-structured-graph-memory-with-rushdb/
 
 ## Give OpenCode project sessions persistent memory with opencode-mem
 slug: give-opencode-project-sessions-persistent-memory-with-opencode-mem
