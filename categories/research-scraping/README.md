@@ -126,6 +126,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Apify Web Scraper Orchestrator](../../skills/apify-web-scraper-orchestrator-3/) | 173 | 34.1k/wk |
 | [Research real estate properties with RAG-backed market analysis](../../skills/rag-backed-real-estate-property-research/) | 170 | — |
 | [Normalize and filter noisy URL lists before crawling or queueing](../../skills/normalize-and-filter-noisy-url-lists-before-crawling-or-queueing/) | 165 | — |
+| [Run academic literature review and paper-output workflows with Aut Sci Write](../../skills/run-academic-literature-review-and-paper-output-workflows-with-aut-sci-write/) | 151 | — |
 | [Common Crawl URL Index Miner](../../skills/common-crawl-url-index-miner/) | 127 | — |
 | [Exa JS Web Search SDK for AI Applications](../../skills/exa-js-web-search-sdk-ai-applications/) | 126 | 429.9k/wk |
 | [Xquik X Data API Skill](../../skills/xquik-x-data-api-skill/) | 111 | 136/wk |

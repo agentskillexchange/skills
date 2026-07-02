@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-02
-# Total: 2675 skills
+# Total: 2678 skills
+
+## Build streaming voice LLM agents with Vocode
+slug: build-streaming-voice-llm-agents-with-vocode
+category: Media & Transcription
+framework: Custom Agents
+verification: Security Reviewed
+description: Use Vocode to compose transcription, LLM, speech synthesis, and telephony components into reviewable real-time voice-agent workflows.
+url: https://agentskillexchange.com/skills/build-streaming-voice-llm-agents-with-vocode/
+
+## Review contract risk and redlines with Claude Legal Skill
+slug: review-contract-risk-and-redlines-with-claude-legal-skill
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Claude Legal Skill to guide an agent through contract risk review, CUAD-style clause checks, market benchmarks, and lawyer-ready redline suggestions.
+url: https://agentskillexchange.com/skills/review-contract-risk-and-redlines-with-claude-legal-skill/
+
+## Run academic literature review and paper-output workflows with Aut Sci Write
+slug: run-academic-literature-review-and-paper-output-workflows-with-aut-sci-write
+category: Research & Scraping
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Aut Sci Write to let an agent search scholarly sources, download papers, extract PDF evidence, sync Zotero citations, and produce review or presentation…
+url: https://agentskillexchange.com/skills/run-academic-literature-review-and-paper-output-workflows-with-aut-sci-write/
 
 ## Give coding agents sandboxed shell runtimes with SWE-ReX
 slug: give-coding-agents-sandboxed-shell-runtimes-with-swe-rex

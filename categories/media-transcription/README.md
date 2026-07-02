@@ -103,6 +103,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Detect Scene Boundaries And Export Cut Lists Before Video Review With Pyscenedetect](../../skills/detect-scene-boundaries-and-export-cut-lists-before-video-review-with-pyscenedetect/) | 4.7k | — |
 | [Kokoro FastAPI OpenAI-Compatible Text-to-Speech Server](../../skills/kokoro-fastapi-openai-compatible-text-to-speech-server/) | 4.7k | — |
 | [Auto-Editor Automated Video and Audio Silence Trimmer CLI](../../skills/auto-editor-automated-video-audio-silence-trimmer-cli/) | 4.1k | — |
+| [Build streaming voice LLM agents with Vocode](../../skills/build-streaming-voice-llm-agents-with-vocode/) | 3.8k | — |
 | [Generate local subtitles for video editing workflows with Auto Subs](../../skills/generate-local-subtitles-for-video-editing-workflows-with-auto-subs/) | 3.6k | — |
 | [audioFlux Audio and Music Analysis Feature Extraction Library](../../skills/audioflux-audio-music-analysis-feature-extraction-library/) | 3.3k | — |
 | [Self-host an OpenAI-compatible speech API for local transcription, translation, and TTS with Speaches](../../skills/self-host-an-openai-compatible-speech-api-for-local-transcription-translation-and-tts-with-speaches/) | 3.2k | — |

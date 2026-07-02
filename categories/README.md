@@ -1,11 +1,11 @@
 # Categories
 
-> **2675 skills** across **17 categories**
+> **2678 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
 | 🛠️ | [**Developer Tools**](developer-tools/) | **354** | CLI helpers, dev environment setup, productivity utilities, and devel... |
-| 🔒 | [**Security & Verification**](security-verification/) | **235** | Auth setup, vulnerability scanning, compliance checks, and security a... |
+| 🔒 | [**Security & Verification**](security-verification/) | **236** | Auth setup, vulnerability scanning, compliance checks, and security a... |
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **207** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **192** | Pipeline configs, deployment automation, build tooling, and continuou... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **191** | Project scaffolding, boilerplate generators, workflow templates, and ... |
@@ -16,8 +16,8 @@
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **125** | Email automation, calendar management, task coordination, and product... |
 | 📚 | [**Library & API Reference**](library-api-reference/) | **123** | SDK documentation, API guides, framework reference material, and libr... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **118** | Web scraping, UI testing, headless browser control, and browser-based... |
-| 🔍 | [**Research & Scraping**](research-scraping/) | **115** | Web research, data collection, content aggregation, and information g... |
-| 🎙️ | [**Media & Transcription**](media-transcription/) | **104** | Audio/video processing, speech-to-text, media conversion, and transcr... |
+| 🔍 | [**Research & Scraping**](research-scraping/) | **116** | Web research, data collection, content aggregation, and information g... |
+| 🎙️ | [**Media & Transcription**](media-transcription/) | **105** | Audio/video processing, speech-to-text, media conversion, and transcr... |
 | 📰 | [**WordPress & CMS**](wordpress-cms/) | **96** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **89** | Image generation, asset processing, design automation, and creative t... |
 | ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **79** | Blog posts, SEO optimization, content strategy, and writing assistance. |

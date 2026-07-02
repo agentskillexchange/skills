@@ -227,6 +227,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [CSP Policy Analyzer](../../skills/csp-policy-analyzer/) | 390 | — |
 | [Scan Claude Code configs for secrets permission drift and unsafe MCP hookups with AgentShield](../../skills/scan-claude-code-configs-for-secrets-permission-drift-and-unsafe-mcp-hookups-with-agentshield/) | 388 | — |
 | [Lint Rego Policies Before Promotion with Regal](../../skills/lint-rego-policies-before-promotion-with-regal/) | 373 | — |
+| [Review contract risk and redlines with Claude Legal Skill](../../skills/review-contract-risk-and-redlines-with-claude-legal-skill/) | 355 | — |
 | [Block agent egress, MCP prompt injection, and secret exfiltration before agents touch the open internet with Pipelock](../../skills/block-agent-egress-mcp-prompt-injection-and-secret-exfiltration-before-agents-touch-the-open-internet-with-pipelock/) | 333 | — |
 | [SLSA Verifier Build Provenance Checker](../../skills/slsa-verifier-build-provenance-checker/) | 318 | — |
 | [Scan agent repos for repo-poisoning, unsafe AI config files, and MCP attack surfaces with MEDUSA](../../skills/scan-agent-repos-for-repo-poisoning-unsafe-ai-config-files-and-mcp-attack-surfaces-with-medusa/) | 256 | — |

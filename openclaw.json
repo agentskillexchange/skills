@@ -2,8 +2,35 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-02",
-  "total": 2675,
+  "total": 2678,
   "skills": [
+    {
+      "slug": "build-streaming-voice-llm-agents-with-vocode",
+      "name": "Build streaming voice LLM agents with Vocode",
+      "title": "Build streaming voice LLM agents with Vocode",
+      "description": "Use Vocode to compose transcription, LLM, speech synthesis, and telephony components into reviewable real-time voice-agent workflows.",
+      "category": "Media & Transcription",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "review-contract-risk-and-redlines-with-claude-legal-skill",
+      "name": "Review contract risk and redlines with Claude Legal Skill",
+      "title": "Review contract risk and redlines with Claude Legal Skill",
+      "description": "Use Claude Legal Skill to guide an agent through contract risk review, CUAD-style clause checks, market benchmarks, and lawyer-ready redline suggestions.",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "run-academic-literature-review-and-paper-output-workflows-with-aut-sci-write",
+      "name": "Run academic literature review and paper-output workflows with Aut Sci Write",
+      "title": "Run academic literature review and paper-output workflows with Aut Sci Write",
+      "description": "Use Aut Sci Write to let an agent search scholarly sources, download papers, extract PDF evidence, sync Zotero citations, and produce review or presentation…",
+      "category": "Research & Scraping",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "give-coding-agents-sandboxed-shell-runtimes-with-swe-rex",
       "name": "Give coding agents sandboxed shell runtimes with SWE-ReX",

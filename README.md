@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C675-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C678-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C306-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,675 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,678 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,9 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Build streaming voice LLM agents with Vocode](skills/build-streaming-voice-llm-agents-with-vocode/) | Use Vocode to compose transcription, LLM, speech synthesis, and telephony components into reviewable real-time voice-agent workflows | 3.8k | Media & Transcription |
+| [Review contract risk and redlines with Claude Legal Skill](skills/review-contract-risk-and-redlines-with-claude-legal-skill/) | Use Claude Legal Skill to guide an agent through contract risk review, CUAD-style clause checks, market benchmarks, and... | 355 | Security & Verification |
+| [Run academic literature review and paper-output workflows with Aut Sci Write](skills/run-academic-literature-review-and-paper-output-workflows-with-aut-sci-write/) | Use Aut Sci Write to let an agent search scholarly sources, download papers, extract PDF evidence, sync Zotero... | 151 | Research & Scraping |
 | [Give coding agents sandboxed shell runtimes with SWE-ReX](skills/give-coding-agents-sandboxed-shell-runtimes-with-swe-rex/) | Use SWE-ReX when a coding agent needs a consistent runtime interface for local, containerized, or remote shell sessions... | 543 | Developer Tools |
 | [Run private document extraction pipelines with Text Extract API](skills/run-private-document-extraction-pipelines-with-text-extract-api/) | Use Text Extract API when an agent needs to turn PDFs, Office files, or images into Markdown or... | 3.1k | Data Extraction & Transformation |
 | [Orchestrate review-first multi-agent development work with Kandev](skills/orchestrate-review-first-multi-agent-development-work-with-kandev/) | Use Kandev when an operator needs to plan, run, isolate, review, and ship multiple coding-agent tasks through a... | 405 | Developer Tools |
@@ -94,9 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Convert PDFs and document images into agent-ready Markdown with Docext](skills/convert-pdfs-and-document-images-into-agent-ready-markdown-with-docext/) | Run Docext locally or with a chosen model backend to turn PDFs and document images into structured Markdown... | 2.0k | Data Extraction & Transformation |
 | [Give MCP agents structured graph memory with RushDB](skills/give-mcp-agents-structured-graph-memory-with-rushdb/) | Connect RushDB's MCP server so agents can store, search, update, and traverse persistent structured memory without hand-building a... | 308 | Integrations & Connectors |
 | [Give OpenCode project sessions persistent memory with opencode-mem](skills/give-opencode-project-sessions-persistent-memory-with-opencode-mem/) | Add opencode-mem to OpenCode so coding sessions can store, search, and reuse project memories through a local SQLite... | 1.0k | Developer Tools |
-| [Cut coding-agent response tokens with Caveman mode](skills/cut-coding-agent-response-tokens-with-caveman-mode/) | Install Caveman as a Claude Code style skill when coding agents need terse, technically accurate responses that reduce... | 78.4k | Developer Tools |
-| [Run agent tool calls through pctx Code Mode and unified MCP](skills/run-agent-tool-calls-through-pctx-code-mode-and-unified-mcp/) | Put pctx between agents and tools so MCP servers and custom tools can run through a code-oriented execution... | 264 | Developer Tools |
-| [Fork and merge Pydantic AI agent runs with Pydantic Deep Agents](skills/fork-and-merge-pydantic-ai-agent-runs-with-pydantic-deep-agents/) | Run a self-hosted terminal agent or custom Pydantic AI harness that can branch a coding or research run... | 912 | Developer Tools |
 
 ---
 
@@ -124,7 +124,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | | Category | Skills | What's inside |
 |---|---|---:|---|
 | 🛠️ | [**Developer Tools**](categories/developer-tools/) | 354 | CLI tools, scaffolders, dev environment setup |
-| 🔒 | [**Security & Verification**](categories/security-verification/) | 235 | Vulnerability scanning, auth setup, compliance |
+| 🔒 | [**Security & Verification**](categories/security-verification/) | 236 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 207 | ETL pipelines, parsing, format conversion |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 191 | Scaffolders, boilerplate generators, workflow templates |
@@ -135,8 +135,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 125 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 123 | SDK docs, API parsers, symbol resolvers |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 118 | Web scraping, UI testing, headless browser control |
-| 🔍 | [**Research & Scraping**](categories/research-scraping/) | 115 | Web research, content discovery, data collection |
-| 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 104 | Audio/video processing, speech-to-text |
+| 🔍 | [**Research & Scraping**](categories/research-scraping/) | 116 | Web research, content discovery, data collection |
+| 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 105 | Audio/video processing, speech-to-text |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 89 | Image generation, asset processing, design automation |
 | ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 79 | SEO content, blog automation, editorial workflows |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,675 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,678 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,306 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
