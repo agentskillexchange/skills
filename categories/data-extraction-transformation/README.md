@@ -185,6 +185,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Apache Avro Schema Evolution Agent](../../skills/apache-avro-schema-evolution-agent/) | 3.3k | — |
 | [JSON-to-Avro Schema Transformer](../../skills/json-to-avro-schema-transformer/) | 3.3k | — |
 | [Build OCR and layout-analysis preprocessing pipelines with deepdoctection](../../skills/build-ocr-and-layout-analysis-preprocessing-pipelines-with-deepdoctection/) | 3.2k | — |
+| [Run private document extraction pipelines with Text Extract API](../../skills/run-private-document-extraction-pipelines-with-text-extract-api/) | 3.1k | — |
 | [Plan and preview warehouse SQL model changes before rollout with SQLMesh](../../skills/plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh/) | 3k | — |
 | [XML XSLT Transform Pipeline](../../skills/xml-xslt-transform-pipeline/) | 3k | — |
 | [Prepare local retrieval embeddings with FastEmbed](../../skills/prepare-local-retrieval-embeddings-with-fastembed/) | 3k | — |

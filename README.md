@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C673-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C675-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C303-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,673 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,675 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Give coding agents sandboxed shell runtimes with SWE-ReX](skills/give-coding-agents-sandboxed-shell-runtimes-with-swe-rex/) | Use SWE-ReX when a coding agent needs a consistent runtime interface for local, containerized, or remote shell sessions... | 543 | Developer Tools |
+| [Run private document extraction pipelines with Text Extract API](skills/run-private-document-extraction-pipelines-with-text-extract-api/) | Use Text Extract API when an agent needs to turn PDFs, Office files, or images into Markdown or... | 3.1k | Data Extraction & Transformation |
 | [Orchestrate review-first multi-agent development work with Kandev](skills/orchestrate-review-first-multi-agent-development-work-with-kandev/) | Use Kandev when an operator needs to plan, run, isolate, review, and ship multiple coding-agent tasks through a... | 405 | Developer Tools |
 | [Turn long video or audio into reviewed clips and subtitles with FunClip](skills/turn-long-video-or-audio-into-reviewed-clips-and-subtitles-with-funclip/) | Use FunClip when an agent needs a repeatable local workflow for transcribing media, proposing clip timestamps, and producing... | 5.9k | Media & Transcription |
 | [Convert PDFs and document images into agent-ready Markdown with Docext](skills/convert-pdfs-and-document-images-into-agent-ready-markdown-with-docext/) | Run Docext locally or with a chosen model backend to turn PDFs and document images into structured Markdown... | 2.0k | Data Extraction & Transformation |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Cut coding-agent response tokens with Caveman mode](skills/cut-coding-agent-response-tokens-with-caveman-mode/) | Install Caveman as a Claude Code style skill when coding agents need terse, technically accurate responses that reduce... | 78.4k | Developer Tools |
 | [Run agent tool calls through pctx Code Mode and unified MCP](skills/run-agent-tool-calls-through-pctx-code-mode-and-unified-mcp/) | Put pctx between agents and tools so MCP servers and custom tools can run through a code-oriented execution... | 264 | Developer Tools |
 | [Fork and merge Pydantic AI agent runs with Pydantic Deep Agents](skills/fork-and-merge-pydantic-ai-agent-runs-with-pydantic-deep-agents/) | Run a self-hosted terminal agent or custom Pydantic AI harness that can branch a coding or research run... | 912 | Developer Tools |
-| [Build SQL and vector retrieval context layers with TiDB](skills/build-sql-and-vector-retrieval-context-layers-with-tidb/) | Use TiDB when an agent needs one transactional SQL store that can also hold embeddings and serve vector... | 40.2k | Data Extraction & Transformation |
-| [Route and observe production agent traffic with Plano](skills/route-and-observe-production-agent-traffic-with-plano/) | Use Plano when an agent application needs an out-of-process data plane for multi-agent routing, model agility, guardrails, traces... | 6.6k | Integrations & Connectors |
 
 ---
 
@@ -115,7 +115,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Build managed document parsing pipelines with LlamaCloud Services](skills/build-managed-document-parsing-pipelines-with-llamacloud-services/) | Use LlamaCloud Services to parse, index, and manage document knowledge pipelines that feed LlamaIndex retrieval and agent workflows | 4.2k | Data Extraction & Transformation |
 | [Extract OCR-ready Markdown from documents with Zerox](skills/extract-ocr-ready-markdown-from-documents-with-zerox/) | Use Zerox to convert PDFs, images, and office documents into Markdown or structured extraction outputs using vision models | 12.2k | Data Extraction & Transformation |
 | [Trace coding-agent and LLM workflows with OpenLIT](skills/trace-coding-agent-and-llm-workflows-with-openlit/) | Use OpenLIT to instrument coding agents and LLM applications with OpenTelemetry traces, metrics, costs, prompts, tool calls, and... | 2.5k | Monitoring & Alerts |
-| [Control hosted browser research and extraction through Hyperbrowser MCP](skills/control-hosted-browser-research-and-extraction-through-hyperbrowser-mcp/) | Give MCP clients hosted browser tools for scraping, crawling, structured extraction, search, and computer-use browser automation | 770 | Browser Automation |
+| [Turn long video or audio into reviewed clips and subtitles with FunClip](skills/turn-long-video-or-audio-into-reviewed-clips-and-subtitles-with-funclip/) | Use FunClip when an agent needs a repeatable local workflow for transcribing media, proposing clip timestamps, and producing... | 5.9k | Media & Transcription |
 
 ---
 
@@ -123,9 +123,9 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 353 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 354 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 235 | Vulnerability scanning, auth setup, compliance |
-| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 206 | ETL pipelines, parsing, format conversion |
+| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 207 | ETL pipelines, parsing, format conversion |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 191 | Scaffolders, boilerplate generators, workflow templates |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 186 | Linting, code review, test generators, coverage |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,673 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,675 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,303 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

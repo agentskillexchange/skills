@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2673 published skills** across **17 categories** · 2,303 security reviewed · Updated 2026-07-02 07:26 UTC
+> **2675 published skills** across **17 categories** · 2,303 security reviewed · Updated 2026-07-02 13:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (353 skills)
+### 🛠️ Developer Tools (354 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -332,6 +332,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | Convert a finished coding-agent session into a shareable HTML replay instead of sending raw logs or bulky screen… | Security Reviewed | 621 | 4.9k/wk |
 | [Preview and approve coding-agent execution plans with Overture](skills/preview-and-approve-coding-agent-execution-plans-with-overture/) | Render an AI coding agent's plan as an interactive flowchart so a human can inspect dependencies, attach context,… | Security Reviewed | 619 | 320/wk |
 | [Run deterministic SQL and dbt analysis under coding agents with Altimate Code](skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/) | Adds deterministic SQL analysis, dbt-aware tooling, warehouse metadata, lineage, and test-generation workflows… | Published | 552 | 195/wk |
+| [Give coding agents sandboxed shell runtimes with SWE-ReX](skills/give-coding-agents-sandboxed-shell-runtimes-with-swe-rex/) | Use SWE-ReX when a coding agent needs a consistent runtime interface for local, containerized, or remote shell… | Security Reviewed | 543 | — |
 | [Orchestrate review-first multi-agent development work with Kandev](skills/orchestrate-review-first-multi-agent-development-work-with-kandev/) | Use Kandev when an operator needs to plan, run, isolate, review, and ship multiple coding-agent tasks through a… | Security Reviewed | 405 | — |
 | [E2B Code Execution MCP](skills/e2b-code-execution-mcp/) | Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected… | Security Reviewed | 393 | 5.3k/wk |
 | [Temporal CLI Workflow and Server Control](skills/temporal-cli-workflow-server-control/) | Temporal CLI runs a local Temporal server and talks to workflows, activities, and namespaces. It is the practical… | Security Reviewed | 350 | — |
@@ -612,7 +613,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (206 skills)
+### 🔄 Data Extraction & Transformation (207 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -763,6 +764,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Apache Avro Schema Evolution Agent](skills/apache-avro-schema-evolution-agent/) | Manages Apache Avro schema evolution with compatibility checking via Confluent Schema Registry API. Validates… | Security Reviewed | 3.3k | — |
 | [JSON-to-Avro Schema Transformer](skills/json-to-avro-schema-transformer/) | Transforms JSON Schema definitions into Apache Avro schema format using the jsonschema and fastavro Python… | Security Reviewed | 3.3k | — |
 | [Build OCR and layout-analysis preprocessing pipelines with deepdoctection](skills/build-ocr-and-layout-analysis-preprocessing-pipelines-with-deepdoctection/) | Use deepdoctection when an agent workflow needs a local Python pipeline for document layout analysis, OCR, table… | Security Reviewed | 3.2k | — |
+| [Run private document extraction pipelines with Text Extract API](skills/run-private-document-extraction-pipelines-with-text-extract-api/) | Use Text Extract API when an agent needs to turn PDFs, Office files, or images into Markdown or structured JSON with… | Security Reviewed | 3.1k | — |
 | [Plan and preview warehouse SQL model changes before rollout with SQLMesh](skills/plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh/) | Compare SQL model changes, preview backfills and downstream impact, and stage safer warehouse rollouts before execution. | Security Reviewed | 3k | — |
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | 3k | — |
 | [Prepare local retrieval embeddings with FastEmbed](skills/prepare-local-retrieval-embeddings-with-fastembed/) | Generate dense, sparse, image, and reranking embeddings locally before writing vectors into Qdrant or another… | Security Reviewed | 3k | — |

@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-02
-# Total: 2673 skills
+# Total: 2675 skills
+
+## Give coding agents sandboxed shell runtimes with SWE-ReX
+slug: give-coding-agents-sandboxed-shell-runtimes-with-swe-rex
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use SWE-ReX when a coding agent needs a consistent runtime interface for local, containerized, or remote shell sessions with command output, exit codes, interactive…
+url: https://agentskillexchange.com/skills/give-coding-agents-sandboxed-shell-runtimes-with-swe-rex/
+
+## Run private document extraction pipelines with Text Extract API
+slug: run-private-document-extraction-pipelines-with-text-extract-api
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Text Extract API when an agent needs to turn PDFs, Office files, or images into Markdown or structured JSON with local OCR, optional…
+url: https://agentskillexchange.com/skills/run-private-document-extraction-pipelines-with-text-extract-api/
 
 ## Orchestrate review-first multi-agent development work with Kandev
 slug: orchestrate-review-first-multi-agent-development-work-with-kandev

@@ -2,8 +2,26 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-02",
-  "total": 2673,
+  "total": 2675,
   "skills": [
+    {
+      "slug": "give-coding-agents-sandboxed-shell-runtimes-with-swe-rex",
+      "name": "Give coding agents sandboxed shell runtimes with SWE-ReX",
+      "title": "Give coding agents sandboxed shell runtimes with SWE-ReX",
+      "description": "Use SWE-ReX when a coding agent needs a consistent runtime interface for local, containerized, or remote shell sessions with command output, exit codes, interactive…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "run-private-document-extraction-pipelines-with-text-extract-api",
+      "name": "Run private document extraction pipelines with Text Extract API",
+      "title": "Run private document extraction pipelines with Text Extract API",
+      "description": "Use Text Extract API when an agent needs to turn PDFs, Office files, or images into Markdown or structured JSON with local OCR, optional…",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "orchestrate-review-first-multi-agent-development-work-with-kandev",
       "name": "Orchestrate review-first multi-agent development work with Kandev",
