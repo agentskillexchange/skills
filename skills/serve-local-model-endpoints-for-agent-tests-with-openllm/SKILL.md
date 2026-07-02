@@ -13,7 +13,7 @@ tool_ecosystem:
   github_repo: "bentoml/OpenLLM"
   github_stars: 12346
   npm_package: "openllm"
-  npm_weekly_downloads: 0
+  npm_weekly_downloads: 6
 ---
 
 # Serve local model endpoints for agent tests with OpenLLM

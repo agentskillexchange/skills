@@ -13,7 +13,7 @@ tool_ecosystem:
   github_repo: "NanoNets/docstrange"
   github_stars: 1489
   npm_package: "docstrange"
-  npm_weekly_downloads: 0
+  npm_weekly_downloads: 90
 ---
 
 # Convert mixed documents into agent-ready Markdown and JSON with DocStrange
