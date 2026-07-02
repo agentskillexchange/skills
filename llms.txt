@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-07-01
+# Generated: 2026-07-02
 # Total: 2671 skills
 
 ## Convert PDFs and document images into agent-ready Markdown with Docext
