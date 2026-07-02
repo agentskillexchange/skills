@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2671 published skills** across **17 categories** · 2,301 security reviewed · Updated 2026-07-02 01:26 UTC
+> **2673 published skills** across **17 categories** · 2,301 security reviewed · Updated 2026-07-02 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (352 skills)
+### 🛠️ Developer Tools (353 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -191,7 +191,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Rspack High-Performance Rust-Based JavaScript Bundler](skills/rspack-rust-based-javascript-bundler/) | Rspack is a blazing-fast JavaScript bundler written in Rust with full webpack API compatibility. It provides drop-in… | Security Reviewed | 12.6k | — |
 | [broot Interactive Tree-View File Navigator](skills/broot-interactive-tree-view-file-navigator/) | broot is a Rust-based terminal tool that provides a new way to see and navigate directory trees. It offers fuzzy… | Security Reviewed | 12.5k | — |
 | [grpcurl Command-Line gRPC Client](skills/grpcurl-command-line-grpc-client/) | Like cURL but for gRPC servers. A command-line tool for interacting with gRPC services using server reflection or… | Security Reviewed | 12.5k | — |
-| [Serve local model endpoints for agent tests with OpenLLM](skills/serve-local-model-endpoints-for-agent-tests-with-openllm/) | Launch an OpenAI-compatible OpenLLM server for a chosen open model, point an agent runtime at it, and compare… | Security Reviewed | 12.3k | — |
+| [Serve local model endpoints for agent tests with OpenLLM](skills/serve-local-model-endpoints-for-agent-tests-with-openllm/) | Launch an OpenAI-compatible OpenLLM server for a chosen open model, point an agent runtime at it, and compare… | Security Reviewed | 12.3k | 6/wk |
 | [Run untrusted AI-generated code inside secure E2B sandboxes](skills/run-untrusted-ai-generated-code-inside-secure-e2b-sandboxes/) | Create disposable E2B cloud sandboxes where agents can execute generated code, install dependencies, collect… | Security Reviewed | 12k | — |
 | [Give coding agents runtime context for Encore services](skills/give-coding-agents-runtime-context-for-encore-services/) | Use Encore's AI integration and built-in MCP server so an agent can inspect service architecture, query local… | Security Reviewed | 11.9k | — |
 | [OpenCode Multi-Model AI Coding Agent CLI](skills/opencode-multi-model-ai-coding-agent-cli/) | An open-source terminal-native AI coding agent written in Go that supports 75+ LLMs including Claude, GPT, Gemini,… | Security Reviewed | 11.7k | — |
@@ -332,6 +332,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | Convert a finished coding-agent session into a shareable HTML replay instead of sending raw logs or bulky screen… | Security Reviewed | 621 | 4.9k/wk |
 | [Preview and approve coding-agent execution plans with Overture](skills/preview-and-approve-coding-agent-execution-plans-with-overture/) | Render an AI coding agent's plan as an interactive flowchart so a human can inspect dependencies, attach context,… | Security Reviewed | 619 | 320/wk |
 | [Run deterministic SQL and dbt analysis under coding agents with Altimate Code](skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/) | Adds deterministic SQL analysis, dbt-aware tooling, warehouse metadata, lineage, and test-generation workflows… | Published | 552 | 195/wk |
+| [Orchestrate review-first multi-agent development work with Kandev](skills/orchestrate-review-first-multi-agent-development-work-with-kandev/) | Use Kandev when an operator needs to plan, run, isolate, review, and ship multiple coding-agent tasks through a… | Security Reviewed | 405 | — |
 | [E2B Code Execution MCP](skills/e2b-code-execution-mcp/) | Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected… | Security Reviewed | 393 | 5.3k/wk |
 | [Temporal CLI Workflow and Server Control](skills/temporal-cli-workflow-server-control/) | Temporal CLI runs a local Temporal server and talks to workflows, activities, and namespaces. It is the practical… | Security Reviewed | 350 | — |
 | [Install focused Claude Code workflow plugins from Claude Night Market](skills/install-focused-claude-code-workflow-plugins-from-claude-night-market/) | Review and install only the Claude Night Market plugins needed for a specific Claude Code workflow, such as PR prep,… | Security Reviewed | 291 | — |
@@ -781,7 +782,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Translate technical PDFs through RetainPDF while preserving layout](skills/translate-technical-pdfs-through-retainpdf-while-preserving-layout/) | Route scanned, scientific, and technical PDFs through RetainPDF so an agent can produce translated PDFs while… | Security Reviewed | 2k | — |
 | [Query and rewrite Markdown structure with mdq](skills/query-and-rewrite-markdown-structure-with-mdq/) | Use mdq when an agent needs to target headings, lists, links, or other Markdown structure without falling back to… | Security Reviewed | 1.7k | — |
 | [Anyquery Universal SQL Engine with MCP Integration](skills/anyquery-universal-sql-engine-mcp-integration/) | Anyquery is a SQL query engine that lets you run SQL against 40+ apps, files, and databases including GitHub,… | Security Reviewed | 1.7k | — |
-| [Convert mixed documents into agent-ready Markdown and JSON with DocStrange](skills/convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange/) | Convert PDFs, scans, office files, images, and URLs into clean Markdown, structured JSON, CSV, or HTML before an… | Security Reviewed | 1.5k | — |
+| [Convert mixed documents into agent-ready Markdown and JSON with DocStrange](skills/convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange/) | Convert PDFs, scans, office files, images, and URLs into clean Markdown, structured JSON, CSV, or HTML before an… | Security Reviewed | 1.5k | 90/wk |
 | [Repair, split, merge, and normalize PDFs with qpdf before downstream processing](skills/repair-split-merge-and-normalize-pdfs-with-qpdf-before-downstream-processing/) | Preprocess messy PDFs into a stable form before extraction, review, packaging, or delivery workflows depend on them. | Security Reviewed | 1.5k | — |
 | [Documind AI-Powered Structured Data Extraction from Documents](skills/documind-ai-structured-data-extraction/) | Documind is an open-source Node.js tool that uses AI to extract structured JSON data from PDFs and other documents.… | Security Reviewed | 1.5k | 14/wk |
 | [Salesforce Bulk API Data Loader](skills/salesforce-bulk-api-data-loader/) | Performs high-volume data operations using the Salesforce Bulk API 2.0. Creates ingest jobs with createJob(),… | Security Reviewed | 1.5k | 936.6k/wk |
@@ -1681,7 +1682,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Generate drift and quality reports for ML and LLM pipelines with Evidently](skills/generate-drift-and-quality-reports-for-ml-and-llm-pipelines-with-evidently/) | Produce repeatable drift and quality reports after data, model, or prompt changes so regressions are visible before… | Security Reviewed | 7.4k | — |
 | [Trace LLM and agent workflows with OpenLLMetry](skills/trace-llm-and-agent-workflows-with-openllmetry/) | Add OpenTelemetry-based instrumentation to LLM and agent code so operators can inspect prompts, tool calls, latency,… | Security Reviewed | 7.2k | — |
 | [OpenTelemetry Collector Pipeline Designer](skills/otel-collector-pipeline-designer/) | Designs OpenTelemetry Collector pipeline configurations with receivers (otlp, prometheus, filelog), processors… | Security Reviewed | 6.9k | — |
-| [Monitor and evaluate LLM agent traffic with Helicone](skills/monitor-and-evaluate-llm-agent-traffic-with-helicone/) | Route model calls through Helicone, inspect costs, latency, traces, prompts, and evaluations, then review changes… | Security Reviewed | 5.8k | — |
+| [Monitor and evaluate LLM agent traffic with Helicone](skills/monitor-and-evaluate-llm-agent-traffic-with-helicone/) | Route model calls through Helicone, inspect costs, latency, traces, prompts, and evaluations, then review changes… | Security Reviewed | 5.8k | 49/wk |
 | [Trace and debug agent runs with AgentOps](skills/trace-and-debug-agent-runs-with-agentops/) | Instrument agent sessions so operators can replay runs, track model costs, inspect tool calls, and compare behavior… | Security Reviewed | 5.6k | — |
 | [GoatCounter Privacy-First Web Analytics Platform](skills/goatcounter-privacy-first-web-analytics-platform/) | GoatCounter is an open source analytics platform for privacy-friendly pageview tracking, referrer reporting, and… | Security Reviewed | 5.6k | — |
 | [Optimize agent development loops with Coze Loop](skills/optimize-agent-development-loops-with-coze-loop/) | Use Coze Loop to evaluate, debug, and improve agent prompts and workflows across development iterations. | Security Reviewed | 5.5k | — |
@@ -1785,7 +1786,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Airbyte Open Source Data Integration Platform](skills/airbyte-open-source-data-integration-platform/) | Airbyte is the leading open-source data integration platform providing 600+ pre-built connectors for ELT pipelines… | Security Reviewed | 21k | — |
 | [Build n8n workflows from node docs, templates, and schemas through MCP](skills/build-n8n-workflows-from-node-docs-templates-and-schemas-through-mcp/) | Use n8n-MCP when an agent needs structured access to n8n nodes, properties, operations, and template examples while… | Security Reviewed | 18.1k | 485k/wk |
 | [LiveKit Real-Time Video Audio and Data Server with WebRTC](skills/livekit-realtime-webrtc-server/) | LiveKit is an open-source, scalable WebRTC-based real-time communication server written in Go. It provides… | Security Reviewed | 18k | — |
-| [Use DocsGPT for document-grounded enterprise assistants](skills/use-docsgpt-for-document-grounded-enterprise-assistants/) | Deploy DocsGPT to build private assistants that ingest documents, web sources, and enterprise connectors with cited… | Security Reviewed | 17.9k | — |
+| [Use DocsGPT for document-grounded enterprise assistants](skills/use-docsgpt-for-document-grounded-enterprise-assistants/) | Deploy DocsGPT to build private assistants that ingest documents, web sources, and enterprise connectors with cited… | Security Reviewed | 17.9k | 63/wk |
 | [Generate reusable site adapters from live browser behavior with OpenCLI](skills/generate-reusable-site-adapters-from-live-browser-behavior-with-opencli/) | Use OpenCLI to explore a logged-in site, synthesize a deterministic adapter, and expose the result as a reusable CLI… | Security Reviewed | 16.3k | 10.6k/wk |
 | [Build portable single-file agent memory with Memvid](skills/build-portable-single-file-agent-memory-with-memvid/) | Use Memvid when an agent needs local, portable long-term memory and retrieval without running a vector database or… | Security Reviewed | 15.7k | 4k/wk |
 | [Give coding agents Figma layout context through MCP](skills/give-coding-agents-figma-layout-context-through-mcp/) | Configure Framelink's Figma MCP server so coding agents can fetch clean design layout context from Figma files… | Security Reviewed | 14.9k | 257.9k/wk |
@@ -2417,7 +2418,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE… | Security Reviewed | — | — |
 
 
-### 🎙️ Media & Transcription (103 skills)
+### 🎙️ Media & Transcription (104 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads)
 
@@ -2481,6 +2482,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [Capture YouTube transcripts without browser automation using YouTube Transcript API](skills/capture-youtube-transcripts-without-browser-automation-using-youtube-transcript-api/) | Fetch manual or auto-generated YouTube subtitles, including translations, without Selenium or API keys before… | Security Reviewed | 7.4k | — |
 | [eSpeak NG Multilingual Speech Synthesizer](skills/espeak-ng-multilingual-speech-synthesizer/) | An agent skill built on eSpeak NG, the open-source formant-based speech synthesizer supporting over 100 languages… | Published | 6.3k | — |
 | [Pedalboard Python Audio Effects Library by Spotify](skills/pedalboard-spotify-audio-effects-python/) | Pedalboard is a Python library built by Spotify for working with audio: reading, writing, rendering, and adding… | Security Reviewed | 6k | — |
+| [Turn long video or audio into reviewed clips and subtitles with FunClip](skills/turn-long-video-or-audio-into-reviewed-clips-and-subtitles-with-funclip/) | Use FunClip when an agent needs a repeatable local workflow for transcribing media, proposing clip timestamps, and… | Security Reviewed | 5.9k | — |
 | [Summarize URLs, files, podcasts, and YouTube sources into agent-ready briefs with Summarize](skills/summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize/) | Turn long pages, PDFs, podcasts, videos, and local files into compact working briefs before downstream research,… | Security Reviewed | 5.6k | 42.8k/wk |
 | [Detect Scene Boundaries And Export Cut Lists Before Video Review With Pyscenedetect](skills/detect-scene-boundaries-and-export-cut-lists-before-video-review-with-pyscenedetect/) | Detect scene changes in a video, emit cut boundaries, and hand back machine-usable scene lists before manual review,… | Security Reviewed | 4.7k | — |
 | [Kokoro FastAPI OpenAI-Compatible Text-to-Speech Server](skills/kokoro-fastapi-openai-compatible-text-to-speech-server/) | Kokoro-FastAPI is a Dockerized FastAPI wrapper around the Kokoro-82M text-to-speech model with OpenAI-compatible… | Security Reviewed | 4.7k | — |

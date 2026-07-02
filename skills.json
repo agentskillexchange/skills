@@ -1,8 +1,32 @@
 {
   "version": "2.0",
-  "total": 2671,
+  "total": 2673,
   "generated": "2026-07-02",
   "skills": [
+    {
+      "slug": "orchestrate-review-first-multi-agent-development-work-with-kandev",
+      "name": "Orchestrate review-first multi-agent development work with Kandev",
+      "title": "Orchestrate review-first multi-agent development work with Kandev",
+      "description": "Use Kandev when an operator needs to plan, run, isolate, review, and ship multiple coding-agent tasks through a controlled kanban and pipeline workspace.",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 405
+      }
+    },
+    {
+      "slug": "turn-long-video-or-audio-into-reviewed-clips-and-subtitles-with-funclip",
+      "name": "Turn long video or audio into reviewed clips and subtitles with FunClip",
+      "title": "Turn long video or audio into reviewed clips and subtitles with FunClip",
+      "description": "Use FunClip when an agent needs a repeatable local workflow for transcribing media, proposing clip timestamps, and producing reviewable video segments with subtitle files.",
+      "category": "Media & Transcription",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 5878
+      }
+    },
     {
       "slug": "convert-pdfs-and-document-images-into-agent-ready-markdown-with-docext",
       "name": "Convert PDFs and document images into agent-ready Markdown with Docext",
@@ -149,7 +173,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 1489
+        "github_stars": 1489,
+        "npm_weekly_downloads": 90
       }
     },
     {
@@ -1237,7 +1262,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 12346
+        "github_stars": 12346,
+        "npm_weekly_downloads": 6
       }
     },
     {
@@ -1285,7 +1311,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 5779
+        "github_stars": 5779,
+        "npm_weekly_downloads": 49
       }
     },
     {
@@ -1640,7 +1667,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 17915
+        "github_stars": 17915,
+        "npm_weekly_downloads": 63
       }
     },
     {

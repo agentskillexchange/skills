@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-02
-# Total: 2671 skills
+# Total: 2673 skills
+
+## Orchestrate review-first multi-agent development work with Kandev
+slug: orchestrate-review-first-multi-agent-development-work-with-kandev
+category: Developer Tools
+framework: Custom Agents
+verification: Security Reviewed
+description: Use Kandev when an operator needs to plan, run, isolate, review, and ship multiple coding-agent tasks through a controlled kanban and pipeline workspace.
+url: https://agentskillexchange.com/skills/orchestrate-review-first-multi-agent-development-work-with-kandev/
+
+## Turn long video or audio into reviewed clips and subtitles with FunClip
+slug: turn-long-video-or-audio-into-reviewed-clips-and-subtitles-with-funclip
+category: Media & Transcription
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use FunClip when an agent needs a repeatable local workflow for transcribing media, proposing clip timestamps, and producing reviewable video segments with subtitle files.
+url: https://agentskillexchange.com/skills/turn-long-video-or-audio-into-reviewed-clips-and-subtitles-with-funclip/
 
 ## Convert PDFs and document images into agent-ready Markdown with Docext
 slug: convert-pdfs-and-document-images-into-agent-ready-markdown-with-docext

@@ -30,9 +30,9 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Trace, evaluate, and monitor agentic workflows with Opik](../../skills/trace-evaluate-and-monitor-agentic-workflows-with-opik/) | ⬇ 18.3k/wk |
 | [Trace Python memory allocation hotspots before leaks and spikes reach production with Memray](../../skills/trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray/) | ⬇ 16.3M/wk |
 | [Trace and evaluate agent runs with Phoenix](../../skills/trace-and-evaluate-agent-runs-with-phoenix/) | ⬇ 893/wk |
+| [Monitor and evaluate LLM agent traffic with Helicone](../../skills/monitor-and-evaluate-llm-agent-traffic-with-helicone/) | ⬇ 49/wk |
 | [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | ⬇ 3.3k/wk |
 | [Simulate agent scenarios, trace failures, and watch production regressions with LangWatch](../../skills/simulate-agent-scenarios-trace-failures-and-watch-production-regressions-with-langwatch/) | ⬇ 54.7k/wk |
-| [Trace coding-agent and LLM workflows with OpenLIT](../../skills/trace-coding-agent-and-llm-workflows-with-openlit/) | ⬇ 8.4k/wk |
 
 ---
 
@@ -116,7 +116,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Generate drift and quality reports for ML and LLM pipelines with Evidently](../../skills/generate-drift-and-quality-reports-for-ml-and-llm-pipelines-with-evidently/) | 7.4k | — |
 | [Trace LLM and agent workflows with OpenLLMetry](../../skills/trace-llm-and-agent-workflows-with-openllmetry/) | 7.2k | — |
 | [OpenTelemetry Collector Pipeline Designer](../../skills/otel-collector-pipeline-designer/) | 6.9k | — |
-| [Monitor and evaluate LLM agent traffic with Helicone](../../skills/monitor-and-evaluate-llm-agent-traffic-with-helicone/) | 5.8k | — |
+| [Monitor and evaluate LLM agent traffic with Helicone](../../skills/monitor-and-evaluate-llm-agent-traffic-with-helicone/) | 5.8k | 49/wk |
 | [Trace and debug agent runs with AgentOps](../../skills/trace-and-debug-agent-runs-with-agentops/) | 5.6k | — |
 | [GoatCounter Privacy-First Web Analytics Platform](../../skills/goatcounter-privacy-first-web-analytics-platform/) | 5.6k | — |
 | [Optimize agent development loops with Coze Loop](../../skills/optimize-agent-development-loops-with-coze-loop/) | 5.5k | — |

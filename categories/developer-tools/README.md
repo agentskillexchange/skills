@@ -217,7 +217,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Rspack High-Performance Rust-Based JavaScript Bundler](../../skills/rspack-rust-based-javascript-bundler/) | 12.6k | — |
 | [broot Interactive Tree-View File Navigator](../../skills/broot-interactive-tree-view-file-navigator/) | 12.5k | — |
 | [grpcurl Command-Line gRPC Client](../../skills/grpcurl-command-line-grpc-client/) | 12.5k | — |
-| [Serve local model endpoints for agent tests with OpenLLM](../../skills/serve-local-model-endpoints-for-agent-tests-with-openllm/) | 12.3k | — |
+| [Serve local model endpoints for agent tests with OpenLLM](../../skills/serve-local-model-endpoints-for-agent-tests-with-openllm/) | 12.3k | 6/wk |
 | [Run untrusted AI-generated code inside secure E2B sandboxes](../../skills/run-untrusted-ai-generated-code-inside-secure-e2b-sandboxes/) | 12k | — |
 | [Give coding agents runtime context for Encore services](../../skills/give-coding-agents-runtime-context-for-encore-services/) | 11.9k | — |
 | [OpenCode Multi-Model AI Coding Agent CLI](../../skills/opencode-multi-model-ai-coding-agent-cli/) | 11.7k | — |
@@ -358,6 +358,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](../../skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | 621 | 4.9k/wk |
 | [Preview and approve coding-agent execution plans with Overture](../../skills/preview-and-approve-coding-agent-execution-plans-with-overture/) | 619 | 320/wk |
 | [Run deterministic SQL and dbt analysis under coding agents with Altimate Code](../../skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/) | 552 | 195/wk |
+| [Orchestrate review-first multi-agent development work with Kandev](../../skills/orchestrate-review-first-multi-agent-development-work-with-kandev/) | 405 | — |
 | [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 393 | 5.3k/wk |
 | [Temporal CLI Workflow and Server Control](../../skills/temporal-cli-workflow-server-control/) | 350 | — |
 | [Install focused Claude Code workflow plugins from Claude Night Market](../../skills/install-focused-claude-code-workflow-plugins-from-claude-night-market/) | 291 | — |
