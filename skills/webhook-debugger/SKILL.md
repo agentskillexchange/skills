@@ -12,7 +12,7 @@ tool_ecosystem:
   github_repo: "stripe/stripe-node"
   github_stars: 4428
   npm_package: "stripe"
-  npm_weekly_downloads: 13856327
+  npm_weekly_downloads: 13967043
 ---
 
 # Webhook Debugger
