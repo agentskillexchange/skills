@@ -26,13 +26,13 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [shadcn/ui — Re-usable UI Component Collection for React](../../skills/shadcn-ui-react-component-collection/) | ⬇ 19.4M/wk |
 | [Run terminal-native repo analysis, edits, and command loops with Gemini in a bounded CLI workflow with Gemini CLI](../../skills/run-terminal-native-repo-analysis-edits-and-command-loops-with-gemini-in-a-bounded-cli-workflow-with-gemini-cli/) | ⬇ 3.2M/wk |
 | [Supabase MCP Server](../../skills/supabase-mcp-server/) | ⬇ 83.5M/wk |
+| [Angular — TypeScript Web Application Framework by Google](../../skills/angular-typescript-web-framework/) | ⬇ 5.7M/wk |
 | [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | ⬇ 40.2M/wk |
 | [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | ⬇ 1.7M/wk |
 | [Playwright E2E Test Generator](../../skills/playwright-e2e-test-generator/) | ⬇ 47.9M/wk |
 | [Vite Plugin Hot Module Analyzer](../../skills/vite-plugin-hmr-analyzer/) | ⬇ 96.8M/wk |
 | [NestJS — Progressive Node.js Framework for Server-Side Applications](../../skills/nestjs-progressive-nodejs-framework/) | ⬇ 10.5M/wk |
 | [Preserve Claude Code session memory with Claude Mem](../../skills/preserve-claude-code-session-memory-with-claude-mem/) | ⬇ 17k/wk |
-| [Webpack Bundle Analyzer Agent](../../skills/webpack-bundle-analyzer-agent/) | ⬇ 44.5M/wk |
 
 ---
 
@@ -48,7 +48,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Run terminal-native repo analysis, edits, and command loops with Gemini in a bounded CLI workflow with Gemini CLI](../../skills/run-terminal-native-repo-analysis-edits-and-command-loops-with-gemini-in-a-bounded-cli-workflow-with-gemini-cli/) | 101.6k | 3.2M/wk |
 | [llama.cpp Portable LLM Inference Engine in C/C++](../../skills/llama-cpp-portable-llm-inference/) | 100.9k | — |
 | [Supabase MCP Server](../../skills/supabase-mcp-server/) | 100.8k | 83.5M/wk |
-| [Angular — TypeScript Web Application Framework by Google](../../skills/angular-typescript-web-framework/) | 100.1k | — |
+| [Angular — TypeScript Web Application Framework by Google](../../skills/angular-typescript-web-framework/) | 100.1k | 5.7M/wk |
 | [Puppeteer DevTools Protocol Recorder](../../skills/puppeteer-devtools-protocol-recorder/) | 94.1k | 40.2M/wk |
 | [Bun Shell Script Executor](../../skills/bun-shell-script-executor/) | 88.9k | 1.7M/wk |
 | [Playwright E2E Test Generator](../../skills/playwright-e2e-test-generator/) | 86.4k | 47.9M/wk |
@@ -91,7 +91,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Starship Cross-Shell Prompt Configurator](../../skills/starship-cross-shell-prompt-configurator/) | 55.7k | — |
 | [Generate and iterate on a local codebase from a natural-language spec with gpt-engineer](../../skills/generate-and-iterate-on-a-local-codebase-from-a-natural-language-spec-with-gpt-engineer/) | 55.2k | — |
 | [Dive Docker Image Layer Explorer and Size Optimizer](../../skills/dive-docker-image-layer-explorer/) | 53.7k | — |
-| [Vue.js — Progressive JavaScript Framework for Building UIs](../../skills/vue-js-progressive-javascript-framework/) | 53.4k | — |
+| [Vue.js — Progressive JavaScript Framework for Building UIs](../../skills/vue-js-progressive-javascript-framework/) | 53.4k | 13.6M/wk |
 | [Coolify Self-Hosted App Platform and Deployment Automation Skill](../../skills/coolify-self-hosted-app-platform-deployment-automation-skill/) | 52.9k | — |
 | [LazyDocker Terminal UI for Docker Management](../../skills/lazydocker-terminal-docker-management/) | 50.5k | — |
 | [LlamaIndex MCP Server](../../skills/llamaindex-mcp-server/) | 49.8k | — |

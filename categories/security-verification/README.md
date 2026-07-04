@@ -190,7 +190,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Broker API credentials to AI agents without exposing raw keys using OneCLI](../../skills/broker-api-credentials-to-ai-agents-without-exposing-raw-keys-using-onecli/) | 1.9k | — |
 | [Scan agent skill folders for risky patterns and missing safeguards before sharing or deployment with Cisco Skill Scanner](../../skills/scan-agent-skill-folders-for-risky-patterns-and-missing-safeguards-before-sharing-or-deployment-with-cisco-skill-scanner/) | 1.8k | — |
 | [Scan project dependencies for supply-chain vulnerabilities with MurphySec](../../skills/scan-project-dependencies-for-supply-chain-vulnerabilities-with-murphysec/) | 1.7k | — |
-| [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](../../skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | 1.7k | — |
+| [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](../../skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | 1.7k | 2.8M/wk |
 | [Assemble minimal OCI images from declarative package configs with apko](../../skills/assemble-minimal-oci-images-from-declarative-package-configs-with-apko/) | 1.6k | — |
 | [Red-team agent workflows for jailbreaks, prompt injection, and policy failures with DeepTeam](../../skills/red-team-agent-workflows-for-jailbreaks-prompt-injection-and-policy-failures-with-deepteam/) | 1.6k | — |
 | [Decode, inspect, sign, and verify JWTs while debugging auth flows with jwt-cli](../../skills/decode-inspect-sign-and-verify-jwts-while-debugging-auth-flows-with-jwt-cli/) | 1.5k | 3.4k/wk |

@@ -121,8 +121,8 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Run agent mailboxes and pull verification codes or reply context programmatically with Mails](../../skills/run-agent-mailboxes-and-pull-verification-codes-or-reply-context-programmatically-with-mails/) | 294 | 1.3k/wk |
 | [Read Google Drive files and edit Sheets through MCP](../../skills/read-google-drive-files-and-edit-sheets-through-mcp/) | 280 | 16.1k/wk |
 | [Sync calendars between providers with a stateless CalendarSync job](../../skills/sync-calendars-between-providers-with-a-stateless-calendarsync-job/) | 217 | — |
-| [Mailchimp Marketing API Node.js SDK](../../skills/mailchimp-marketing-api-nodejs-sdk/) | 165 | — |
-| [Mailtrap Node.js SDK for Transactional and Sandbox Email](../../skills/mailtrap-nodejs-sdk-transactional-and-sandbox-email/) | 108 | — |
+| [Mailchimp Marketing API Node.js SDK](../../skills/mailchimp-marketing-api-nodejs-sdk/) | 165 | 202k/wk |
+| [Mailtrap Node.js SDK for Transactional and Sandbox Email](../../skills/mailtrap-nodejs-sdk-transactional-and-sandbox-email/) | 108 | 38.3k/wk |
 | [Nylas Platform SDK for Unified Email Calendar and Contacts API](../../skills/nylas-sdk-email-calendar-contacts/) | 106 | — |
 | [Route iMessage, Mail, Notes, Reminders, and Calendar tasks into approved AI CLI workflows with Apple Flow](../../skills/route-imessage-mail-notes-reminders-and-calendar-tasks-into-approved-ai-cli-workflows-with-apple-flow/) | 105 | — |
 | [Strip quoted email history and signatures before summarizing inbound replies](../../skills/strip-quoted-email-history-and-signatures-before-summarizing-inbound-replies/) | 78 | — |

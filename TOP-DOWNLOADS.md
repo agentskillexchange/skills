@@ -42,20 +42,20 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 34 | [TypeDoc TypeScript API Documentation Generator](skills/typedoc-typescript-api-documentation-generator/) | 3.7M/wk | typedoc | Library & API Reference |
 | 35 | [Stagehand AI Browser Automation Framework](skills/stagehand-ai-browser-automation-framework-2/) | 3.4M/wk | stagehand | Browser Automation |
 | 36 | [AWS CDK Scaffolder](skills/aws-cdk-scaffolder/) | 3.3M/wk | aws | Templates & Workflows |
-| 37 | [Microsoft Playwright MCP](skills/microsoft-playwright-mcp/) | 2.8M/wk | playwright-mcp | Browser Automation |
-| 38 | [WebdriverIO Next-Gen Browser and Mobile Automation Framework](skills/webdriverio-browser-mobile-automation-framework/) | 2.7M/wk | webdriverio | Browser Automation |
-| 39 | [JSDoc JavaScript API Documentation Generator](skills/jsdoc-javascript-api-documentation-generator/) | 2.7M/wk | jsdoc | Library & API Reference |
-| 40 | [Snyk Container Image Analyzer](skills/snyk-container-image-analyzer/) | 2.6M/wk | snyk | Security & Verification |
-| 41 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 2.5M/wk | datadog-api-client-typescript | Monitoring & Alerts |
-| 42 | [Apache Kafka Schema Registry Extractor](skills/kafka-schema-registry-extractor/) | 2.5M/wk | kafka | Data Extraction & Transformation |
-| 43 | [semantic-release Automated Versioning and Release Publishing](skills/semantic-release-automated-versioning-and-release-publishing/) | 2.5M/wk | semantic-release | CI/CD Integrations |
-| 44 | [Slack Bolt Event Subscription Debugger](skills/slack-bolt-event-subscription-debugger/) | 2.5M/wk | slack | Integrations & Connectors |
-| 45 | [Vercel Deployment Agent](skills/vercel-deployment-agent/) | 2.4M/wk | vercel | Templates & Workflows |
-| 46 | [Pulumi Drift Detector & Reconciler](skills/pulumi-drift-detector-reconciler/) | 2.1M/wk | pulumi | Runbooks & Diagnostics |
-| 47 | [LangChain MCP Server](skills/langchain-mcp-server/) | 2M/wk | langchain | Developer Tools |
-| 48 | [Astro Content-Driven Web Framework](skills/astro-content-driven-web-framework/) | 2M/wk | astro | Developer Tools |
-| 49 | [Selenium Grid Auto-Scaling Orchestrator](skills/selenium-grid-auto-scaling-orchestrator/) | 1.9M/wk | selenium | Browser Automation |
-| 50 | [zx JavaScript Shell Script Runner](skills/zx-javascript-shell-script-runner/) | 1.7M/wk | zx | Developer Tools |
+| 37 | [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | 2.8M/wk | javascript | Security & Verification |
+| 38 | [Microsoft Playwright MCP](skills/microsoft-playwright-mcp/) | 2.8M/wk | playwright-mcp | Browser Automation |
+| 39 | [WebdriverIO Next-Gen Browser and Mobile Automation Framework](skills/webdriverio-browser-mobile-automation-framework/) | 2.7M/wk | webdriverio | Browser Automation |
+| 40 | [JSDoc JavaScript API Documentation Generator](skills/jsdoc-javascript-api-documentation-generator/) | 2.7M/wk | jsdoc | Library & API Reference |
+| 41 | [Snyk Container Image Analyzer](skills/snyk-container-image-analyzer/) | 2.6M/wk | snyk | Security & Verification |
+| 42 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 2.5M/wk | datadog-api-client-typescript | Monitoring & Alerts |
+| 43 | [Apache Kafka Schema Registry Extractor](skills/kafka-schema-registry-extractor/) | 2.5M/wk | kafka | Data Extraction & Transformation |
+| 44 | [semantic-release Automated Versioning and Release Publishing](skills/semantic-release-automated-versioning-and-release-publishing/) | 2.5M/wk | semantic-release | CI/CD Integrations |
+| 45 | [Slack Bolt Event Subscription Debugger](skills/slack-bolt-event-subscription-debugger/) | 2.5M/wk | slack | Integrations & Connectors |
+| 46 | [Vercel Deployment Agent](skills/vercel-deployment-agent/) | 2.4M/wk | vercel | Templates & Workflows |
+| 47 | [Pulumi Drift Detector & Reconciler](skills/pulumi-drift-detector-reconciler/) | 2.1M/wk | pulumi | Runbooks & Diagnostics |
+| 48 | [LangChain MCP Server](skills/langchain-mcp-server/) | 2M/wk | langchain | Developer Tools |
+| 49 | [Astro Content-Driven Web Framework](skills/astro-content-driven-web-framework/) | 2M/wk | astro | Developer Tools |
+| 50 | [Selenium Grid Auto-Scaling Orchestrator](skills/selenium-grid-auto-scaling-orchestrator/) | 1.9M/wk | selenium | Browser Automation |
 
 ---
 

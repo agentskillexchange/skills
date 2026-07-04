@@ -140,7 +140,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Lint and auto-format Markdown documentation before agents ship content with rumdl](../../skills/lint-and-auto-format-markdown-documentation-before-agents-ship-content-with-rumdl/) | 1.1k | 5.8k/wk |
 | [Trace, evaluate, simulate, and guardrail agent releases with Future AGI](../../skills/trace-evaluate-simulate-and-guardrail-agent-releases-with-future-agi/) | 1k | 1.9k/wk |
 | [Lint and validate Prometheus alerting rules before noisy or broken alerts reach production with Pint](../../skills/lint-and-validate-prometheus-alerting-rules-before-noisy-or-broken-alerts-reach-production-with-pint/) | 1k | — |
-| [LangSmith SDK for LLM Tracing and Evaluation](../../skills/langsmith-sdk-for-llm-tracing-and-evaluation/) | 843 | — |
+| [LangSmith SDK for LLM Tracing and Evaluation](../../skills/langsmith-sdk-for-llm-tracing-and-evaluation/) | 843 | 5.4M/wk |
 | [Datadog MCP Server](../../skills/datadog-mcp-server/) | 811 | 8.2M/wk |
 | [Datadog Anomaly Alert Router](../../skills/datadog-anomaly-alert-router/) | 791 | 6.6M/wk |
 | [Datadog Anomaly Detection Agent](../../skills/datadog-anomaly-detection-agent-2/) | 791 | 6.6M/wk |

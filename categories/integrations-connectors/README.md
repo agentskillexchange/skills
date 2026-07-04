@@ -94,7 +94,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Notion Database Sync & Page Generator](../../skills/notion-database-sync-page-generator-2/) | 5.6k | 1.2M/wk |
 | [Zammad Open Source Web-Based Helpdesk and Ticketing System](../../skills/zammad-open-source-helpdesk-ticketing-system/) | 5.5k | — |
 | [Inngest Event-Driven Durable Workflow Orchestration Platform](../../skills/inngest-event-driven-durable-workflow-orchestration/) | 5.2k | — |
-| [Firebase — Google Application Development Platform](../../skills/firebase-google-app-development-platform/) | 5.1k | — |
+| [Firebase — Google Application Development Platform](../../skills/firebase-google-app-development-platform/) | 5.1k | 7.9M/wk |
 | [Render interactive MCP tool UIs with mcp-ui](../../skills/render-interactive-mcp-tool-uis-with-mcp-ui/) | 4.9k | 1.6M/wk |
 | [Atlassian MCP Server for Jira and Confluence](../../skills/atlassian-mcp-server-jira-confluence/) | 4.8k | — |
 | [Add temporal context memory to agent workflows with Zep](../../skills/add-temporal-context-memory-to-agent-workflows-with-zep/) | 4.6k | 463k/wk |
