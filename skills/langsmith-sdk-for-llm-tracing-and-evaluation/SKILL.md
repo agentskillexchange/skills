@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "langchain-ai/langsmith-sdk"
   github_stars: 843
+  npm_package: "langsmith"
+  npm_weekly_downloads: 5381236
 ---
 
 # LangSmith SDK for LLM Tracing and Evaluation

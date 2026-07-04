@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "mailchimp/mailchimp-marketing-node"
   github_stars: 165
+  npm_package: "@mailchimp/mailchimp_marketing"
+  npm_weekly_downloads: 201953
 ---
 
 # Mailchimp Marketing API Node.js SDK

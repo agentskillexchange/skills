@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "mailtrap/mailtrap-nodejs"
   github_stars: 108
+  npm_package: "mailtrap"
+  npm_weekly_downloads: 38335
 ---
 
 # Mailtrap Node.js SDK for Transactional and Sandbox Email

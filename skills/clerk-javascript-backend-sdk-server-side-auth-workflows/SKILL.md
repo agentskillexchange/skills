@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "clerk/javascript"
   github_stars: 1690
+  npm_package: "@clerk/backend"
+  npm_weekly_downloads: 2840313
 ---
 
 # Clerk JavaScript Backend SDK for Server-Side Auth Workflows

@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "angular/angular"
   github_stars: 100106
+  npm_package: "@angular/core"
+  npm_weekly_downloads: 5667331
 ---
 
 # Angular — TypeScript Web Application Framework by Google

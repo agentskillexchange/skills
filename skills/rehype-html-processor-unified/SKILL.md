@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "rehypejs/rehype"
   github_stars: 2202
+  npm_package: "rehype"
+  npm_weekly_downloads: 4300221
 ---
 
 # rehype Plugin-Based HTML Processor by the Unified Collective

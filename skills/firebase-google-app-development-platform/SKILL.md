@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "firebase/firebase-js-sdk"
   github_stars: 5100
+  npm_package: "firebase"
+  npm_weekly_downloads: 7860889
 ---
 
 # Firebase — Google Application Development Platform

@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "vuejs/core"
   github_stars: 53379
+  npm_package: "vue"
+  npm_weekly_downloads: 13566395
 ---
 
 # Vue.js — Progressive JavaScript Framework for Building UIs
