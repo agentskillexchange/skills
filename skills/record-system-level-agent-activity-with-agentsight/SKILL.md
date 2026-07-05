@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "eunomia-bpf/agentsight"
   github_stars: 469
+  npm_package: "@eunomia-bpf/agentsight"
+  npm_weekly_downloads: 18
 ---
 
 # Record system-level agent activity with AgentSight

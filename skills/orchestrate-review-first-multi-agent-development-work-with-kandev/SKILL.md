@@ -12,6 +12,8 @@ framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "kdlbs/kandev"
   github_stars: 405
+  npm_package: "kandev"
+  npm_weekly_downloads: 0
 ---
 
 # Orchestrate review-first multi-agent development work with Kandev
