@@ -1,8 +1,56 @@
 {
   "version": "2.0",
-  "total": 2678,
+  "total": 2682,
   "generated": "2026-07-05",
   "skills": [
+    {
+      "slug": "search-and-automate-x-twitter-from-openclaw-with-tweetclaw",
+      "name": "Search and automate X/Twitter from OpenClaw with TweetClaw",
+      "title": "Search and automate X/Twitter from OpenClaw with TweetClaw",
+      "description": "Install and configure TweetClaw, the OpenClaw plugin for X/Twitter automation through Xquik. Use it when an agent needs structured tweet search, search tweet replies,…",
+      "category": "Integrations & Connectors",
+      "framework": "OpenClaw",
+      "verification": "listed",
+      "signals": {
+        "github_stars": 84
+      }
+    },
+    {
+      "slug": "control-launch-behavior-with-go-feature-flag",
+      "name": "Control launch behavior with GO Feature Flag",
+      "title": "Control launch behavior with GO Feature Flag",
+      "description": "Use GO Feature Flag as an OpenFeature-compatible control plane for rollout rules, targeting, experiments, remote config, and launch verification.",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 2050
+      }
+    },
+    {
+      "slug": "build-production-go-agents-with-trpc-agent-go",
+      "name": "Build production Go agents with tRPC-Agent-Go",
+      "title": "Build production Go agents with tRPC-Agent-Go",
+      "description": "Model Go-native agent systems with graph workflows, tool calls, memory, MCP, A2A, evaluation, and OpenTelemetry observability.",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1501
+      }
+    },
+    {
+      "slug": "build-production-agent-harnesses-with-strands-agents",
+      "name": "Build production agent harnesses with Strands Agents",
+      "title": "Build production agent harnesses with Strands Agents",
+      "description": "Use Strands Agents to assemble model-agnostic Python or TypeScript agent harnesses with tools, MCP, guardrails, tracing, streaming, and provider swaps.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 6417
+      }
+    },
     {
       "slug": "build-streaming-voice-llm-agents-with-vocode",
       "name": "Build streaming voice LLM agents with Vocode",
@@ -32022,7 +32070,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 13967043,
+        "npm_weekly_downloads": 13839288,
         "license": "MIT"
       }
     },
@@ -32036,7 +32084,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 103,
-        "npm_weekly_downloads": 2515323,
+        "npm_weekly_downloads": 2326157,
         "license": "Apache-2.0"
       }
     },
@@ -32076,7 +32124,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 27264,
-        "npm_weekly_downloads": 137540863,
+        "npm_weekly_downloads": 135465836,
         "license": "MIT"
       }
     },
@@ -32103,7 +32151,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 8335661,
+        "npm_weekly_downloads": 8070491,
         "license": "Apache-2.0"
       }
     },
@@ -32117,7 +32165,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 32009529,
+        "npm_weekly_downloads": 31371935,
         "license": "Apache-2.0"
       }
     },
@@ -32131,7 +32179,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3051,
-        "npm_weekly_downloads": 59418,
+        "npm_weekly_downloads": 59521,
         "license": "MIT"
       }
     },
@@ -32145,7 +32193,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1539,
-        "npm_weekly_downloads": 4826616,
+        "npm_weekly_downloads": 4692147,
         "license": "MIT"
       }
     },
@@ -32159,7 +32207,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 13967043,
+        "npm_weekly_downloads": 13839288,
         "license": "MIT"
       }
     },
@@ -32173,7 +32221,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1465,
-        "npm_weekly_downloads": 1028079,
+        "npm_weekly_downloads": 983774,
         "license": "MIT"
       }
     },
@@ -32187,7 +32235,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 397,
-        "npm_weekly_downloads": 1307078,
+        "npm_weekly_downloads": 1240634,
         "license": "Apache-2.0"
       }
     },
@@ -32201,7 +32249,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 5610,
-        "npm_weekly_downloads": 1350887,
+        "npm_weekly_downloads": 1312763,
         "license": "MIT"
       }
     },
@@ -32240,7 +32288,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 24,
-        "npm_weekly_downloads": 4813,
+        "npm_weekly_downloads": 4709,
         "license": "Apache-2.0"
       }
     },
@@ -32268,7 +32316,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 811,
-        "npm_weekly_downloads": 7952961
+        "npm_weekly_downloads": 7371333
       }
     },
     {
@@ -32281,7 +32329,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 25248,
-        "npm_weekly_downloads": 2187660,
+        "npm_weekly_downloads": 2093835,
         "license": "Apache-2.0"
       }
     },
@@ -32398,7 +32446,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 712,
-        "npm_weekly_downloads": 73835
+        "npm_weekly_downloads": 84020
       }
     },
     {
@@ -32452,7 +32500,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1290,
-        "npm_weekly_downloads": 372,
+        "npm_weekly_downloads": 364,
         "license": "MIT"
       }
     },
@@ -32479,7 +32527,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 393,
-        "npm_weekly_downloads": 3869,
+        "npm_weekly_downloads": 4542,
         "license": "Apache-2.0"
       }
     },
@@ -32514,7 +32562,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 10942,
-        "npm_weekly_downloads": 25252263,
+        "npm_weekly_downloads": 25115784,
         "license": "Apache-2.0"
       }
     },
@@ -32665,7 +32713,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 33289,
-        "npm_weekly_downloads": 5770364,
+        "npm_weekly_downloads": 5863809,
         "license": "Apache-2.0"
       }
     },
@@ -32694,7 +32742,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 89986,
-        "npm_weekly_downloads": 63813303,
+        "npm_weekly_downloads": 63982999,
         "license": "Apache-2.0"
       }
     }

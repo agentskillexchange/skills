@@ -30,7 +30,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Automate Lark and Feishu docs, sheets, mail, calendar, meetings, and chat tasks from agents with Lark CLI](../../skills/automate-lark-and-feishu-docs-sheets-mail-calendar-meetings-and-chat-tasks-from-agents-with-lark-cli/) | ⬇ 98.6k/wk |
 | [MailDev SMTP Capture and Email Testing Server](../../skills/maildev-smtp-capture-and-email-testing-server/) | ⬇ 90.4k/wk |
 | [MailDev SMTP Testing Server and Web Interface for Development Email Workflows](../../skills/maildev-smtp-testing-server-and-web-interface-for-development-email-workflows/) | ⬇ 90.4k/wk |
-| [Notion MCP Server](../../skills/notion-mcp-server/) | ⬇ 1.4M/wk |
+| [Notion MCP Server](../../skills/notion-mcp-server/) | ⬇ 1.3M/wk |
 | [Notion AI Document Summarizer & Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | ⬇ 1.2M/wk |
 | [Notion AI Workspace](../../skills/notion-ai-workspace/) | ⬇ 1.2M/wk |
 
@@ -78,7 +78,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [MailDev SMTP Testing Server and Web Interface for Development Email Workflows](../../skills/maildev-smtp-testing-server-and-web-interface-for-development-email-workflows/) | 5.9k | 90.4k/wk |
 | [Himalaya CLI Email Client for IMAP SMTP and Notmuch](../../skills/himalaya-cli-email-client-imap-smtp-notmuch/) | 5.8k | — |
 | [Taskwarrior Command-Line Task Management System](../../skills/taskwarrior-command-line-task-management-system/) | 5.7k | — |
-| [Notion MCP Server](../../skills/notion-mcp-server/) | 5.6k | 1.4M/wk |
+| [Notion MCP Server](../../skills/notion-mcp-server/) | 5.6k | 1.3M/wk |
 | [Notion AI Document Summarizer & Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | 5.6k | 1.2M/wk |
 | [Notion AI Workspace](../../skills/notion-ai-workspace/) | 5.6k | 1.2M/wk |
 | [Notion Database Sync Agent](../../skills/notion-database-sync-agent/) | 5.6k | 1.2M/wk |

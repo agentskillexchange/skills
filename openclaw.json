@@ -2,8 +2,44 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-05",
-  "total": 2678,
+  "total": 2682,
   "skills": [
+    {
+      "slug": "search-and-automate-x-twitter-from-openclaw-with-tweetclaw",
+      "name": "Search and automate X/Twitter from OpenClaw with TweetClaw",
+      "title": "Search and automate X/Twitter from OpenClaw with TweetClaw",
+      "description": "Install and configure TweetClaw, the OpenClaw plugin for X/Twitter automation through Xquik. Use it when an agent needs structured tweet search, search tweet replies,…",
+      "category": "Integrations & Connectors",
+      "framework": "OpenClaw",
+      "verification": "listed"
+    },
+    {
+      "slug": "control-launch-behavior-with-go-feature-flag",
+      "name": "Control launch behavior with GO Feature Flag",
+      "title": "Control launch behavior with GO Feature Flag",
+      "description": "Use GO Feature Flag as an OpenFeature-compatible control plane for rollout rules, targeting, experiments, remote config, and launch verification.",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "build-production-go-agents-with-trpc-agent-go",
+      "name": "Build production Go agents with tRPC-Agent-Go",
+      "title": "Build production Go agents with tRPC-Agent-Go",
+      "description": "Model Go-native agent systems with graph workflows, tool calls, memory, MCP, A2A, evaluation, and OpenTelemetry observability.",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "build-production-agent-harnesses-with-strands-agents",
+      "name": "Build production agent harnesses with Strands Agents",
+      "title": "Build production agent harnesses with Strands Agents",
+      "description": "Use Strands Agents to assemble model-agnostic Python or TypeScript agent harnesses with tools, MCP, guardrails, tracing, streaming, and provider swaps.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "build-streaming-voice-llm-agents-with-vocode",
       "name": "Build streaming voice LLM agents with Vocode",

@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-05
-# Total: 2678 skills
+# Total: 2682 skills
+
+## Search and automate X/Twitter from OpenClaw with TweetClaw
+slug: search-and-automate-x-twitter-from-openclaw-with-tweetclaw
+category: Integrations & Connectors
+framework: OpenClaw
+verification: Published
+description: Install and configure TweetClaw, the OpenClaw plugin for X/Twitter automation through Xquik. Use it when an agent needs structured tweet search, search tweet replies,…
+url: https://agentskillexchange.com/skills/search-and-automate-x-twitter-from-openclaw-with-tweetclaw/
+
+## Control launch behavior with GO Feature Flag
+slug: control-launch-behavior-with-go-feature-flag
+category: Monitoring & Alerts
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use GO Feature Flag as an OpenFeature-compatible control plane for rollout rules, targeting, experiments, remote config, and launch verification.
+url: https://agentskillexchange.com/skills/control-launch-behavior-with-go-feature-flag/
+
+## Build production Go agents with tRPC-Agent-Go
+slug: build-production-go-agents-with-trpc-agent-go
+category: Developer Tools
+framework: Custom Agents
+verification: Security Reviewed
+description: Model Go-native agent systems with graph workflows, tool calls, memory, MCP, A2A, evaluation, and OpenTelemetry observability.
+url: https://agentskillexchange.com/skills/build-production-go-agents-with-trpc-agent-go/
+
+## Build production agent harnesses with Strands Agents
+slug: build-production-agent-harnesses-with-strands-agents
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Strands Agents to assemble model-agnostic Python or TypeScript agent harnesses with tools, MCP, guardrails, tracing, streaming, and provider swaps.
+url: https://agentskillexchange.com/skills/build-production-agent-harnesses-with-strands-agents/
 
 ## Build streaming voice LLM agents with Vocode
 slug: build-streaming-voice-llm-agents-with-vocode

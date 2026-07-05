@@ -148,7 +148,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Budibase Open Source Low-Code Operations App Platform](../../skills/budibase-open-source-low-code-operations-app-platform/) | 27.8k | 41/wk |
 | [Hyperfine Command-Line Benchmarking Tool](../../skills/hyperfine-command-line-benchmarking-tool/) | 27.8k | — |
 | [Jujutsu Git-Compatible Version Control System](../../skills/jujutsu-jj-git-compatible-vcs/) | 27.5k | — |
-| [ESLint Code Review](../../skills/eslint-code-review/) | 27.3k | 137.5M/wk |
+| [ESLint Code Review](../../skills/eslint-code-review/) | 27.3k | 135.5M/wk |
 | [ESLint Rule Generator Agent](../../skills/eslint-rule-generator-agent/) | 27.2k | 120.2M/wk |
 | [smolagents Code-First AI Agent Library](../../skills/smolagents-code-first-ai-agent-library/) | 26.4k | — |
 | [API Client Generator Skill](../../skills/api-client-generator-skill/) | 26.3k | 5.7M/wk |
@@ -157,7 +157,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Reduce agent token burn on repo-scale coding commands with the rtk CLI proxy](../../skills/reduce-agent-token-burn-on-repo-scale-coding-commands-with-the-rtk-cli-proxy/) | 25.4k | — |
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | 25.3k | — |
 | [Jenkins MCP Server](../../skills/jenkins-mcp-server/) | 25.3k | — |
-| [Pulumi MCP Server](../../skills/pulumi-mcp-server/) | 25.2k | 2.2M/wk |
+| [Pulumi MCP Server](../../skills/pulumi-mcp-server/) | 25.2k | 2.1M/wk |
 | [CI Pipeline Generator Skill](../../skills/ci-pipeline-generator-skill/) | 24.3k | — |
 | [Biome Lint Migration Toolkit](../../skills/biome-lint-migration-toolkit/) | 24.3k | 8.8M/wk |
 | [FastMCP Python MCP Server and Client Framework](../../skills/fastmcp-python-mcp-server-client-framework/) | 24.2k | — |
@@ -269,6 +269,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Soft Serve Self-Hosted Git Server with SSH TUI](../../skills/soft-serve-self-hosted-git-server-ssh-tui/) | 6.8k | — |
 | [Pixi Cross-Platform Package Manager Built on Conda](../../skills/pixi-cross-platform-package-manager-conda-rust/) | 6.7k | — |
 | [devenv Declarative Developer Environments with Nix](../../skills/devenv-declarative-developer-environments-nix/) | 6.6k | — |
+| [Build production agent harnesses with Strands Agents](../../skills/build-production-agent-harnesses-with-strands-agents/) | 6.4k | — |
 | [pgroll PostgreSQL Zero-Downtime Schema Migration](../../skills/pgroll-postgresql-zero-downtime-schema-migration/) | 6.4k | — |
 | [Embed bounded Claude Code sessions into Python automation with the Claude Agent SDK](../../skills/embed-bounded-claude-code-sessions-into-python-automation-with-the-claude-agent-sdk/) | 6.4k | — |
 | [pastel Command-Line Color Generation Analysis and Manipulation Tool](../../skills/pastel-command-line-color-tool/) | 6.3k | — |
@@ -290,7 +291,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Mods AI-Powered Command-Line LLM Interface by Charmbracelet](../../skills/mods-charmbracelet-ai-cli-llm/) | 4.5k | — |
 | [Azure CLI — Command-Line Interface for Microsoft Azure](../../skills/azure-cli-microsoft-cloud/) | 4.5k | — |
 | [Build, test, and package PostgreSQL extensions in Rust with pgrx](../../skills/build-test-and-package-postgresql-extensions-in-rust-with-pgrx/) | 4.5k | — |
-| [Webhook Debugger](../../skills/webhook-debugger/) | 4.4k | 14M/wk |
+| [Webhook Debugger](../../skills/webhook-debugger/) | 4.4k | 13.8M/wk |
 | [Freeze Code and Terminal Screenshot Generator](../../skills/freeze-code-terminal-screenshot-generator/) | 4.4k | — |
 | [Spin up isolated git worktrees for parallel Claude Code and Codex branches with Worktrunk](../../skills/spin-up-isolated-git-worktrees-for-parallel-claude-code-and-codex-branches-with-worktrunk/) | 4.4k | — |
 | [MySQL Query Agent](../../skills/mysql-query-agent/) | 4.4k | 8.9M/wk |
@@ -304,8 +305,8 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Build and debug AI pipelines in an IDE with RocketRide](../../skills/build-and-debug-ai-pipelines-in-an-ide-with-rocketride/) | 3.9k | 635/wk |
 | [Stancl Tenancy v3 — Multi-Tenant Laravel](../../skills/tenancy-development/) | 3.8k | — |
 | [Build Java agent transport gateways with Atmosphere](../../skills/build-java-agent-transport-gateways-with-atmosphere/) | 3.8k | — |
-| [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | 3.6k | 32M/wk |
-| [AWS Lambda MCP Server](../../skills/aws-lambda-mcp-server/) | 3.6k | 8.3M/wk |
+| [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | 3.6k | 31.4M/wk |
+| [AWS Lambda MCP Server](../../skills/aws-lambda-mcp-server/) | 3.6k | 8.1M/wk |
 | [Cloud Cost Analysis](../../skills/cloud-cost-analysis/) | 3.6k | — |
 | [Topgrade Universal System Package Updater](../../skills/topgrade-universal-system-package-updater/) | 3.6k | — |
 | [DynamoDB Manager](../../skills/dynamodb-manager/) | 3.6k | 30.5M/wk |
@@ -337,11 +338,12 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Run queued background coding sessions across GitHub, Slack, Linear, and webhooks with background-agents](../../skills/run-queued-background-coding-sessions-across-github-slack-linear-and-webhooks-with-background-agents/) | 1.6k | — |
 | [Give MCP clients language-server code intelligence](../../skills/give-mcp-clients-language-server-code-intelligence/) | 1.5k | — |
 | [Add managed long-term memory to LangGraph agents with LangMem](../../skills/add-managed-long-term-memory-to-langgraph-agents-with-langmem/) | 1.5k | — |
+| [Build production Go agents with tRPC-Agent-Go](../../skills/build-production-go-agents-with-trpc-agent-go/) | 1.5k | — |
 | [Redocly CLI OpenAPI Linter and Documentation Generator](../../skills/redocly-cli-openapi-linter-documentation-generator/) | 1.4k | 1.6M/wk |
 | [Search cross-agent Markdown memory and conversation history with memsearch](../../skills/search-cross-agent-markdown-memory-and-conversation-history-with-memsearch/) | 1.3k | — |
 | [Terraform MCP Server for Infrastructure as Code](../../skills/terraform-mcp-server-infrastructure-as-code/) | 1.3k | — |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | 1.3k | — |
-| [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | 1.3k | 372/wk |
+| [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | 1.3k | 364/wk |
 | [Run React Native implementation and troubleshooting workflows with Callstack Agent Skills](../../skills/run-react-native-implementation-and-troubleshooting-workflows-with-callstack-agent-skills/) | 1.3k | — |
 | [Capture, search, and optionally sync local coding-agent session history across Claude Code, Codex, Cursor CLI, and Gemini with SpecStory](../../skills/capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory/) | 1.2k | — |
 | [Give OpenCode project sessions persistent memory with opencode-mem](../../skills/give-opencode-project-sessions-persistent-memory-with-opencode-mem/) | 1k | 12.1k/wk |
@@ -360,7 +362,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Run deterministic SQL and dbt analysis under coding agents with Altimate Code](../../skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/) | 552 | 195/wk |
 | [Give coding agents sandboxed shell runtimes with SWE-ReX](../../skills/give-coding-agents-sandboxed-shell-runtimes-with-swe-rex/) | 543 | — |
 | [Orchestrate review-first multi-agent development work with Kandev](../../skills/orchestrate-review-first-multi-agent-development-work-with-kandev/) | 405 | — |
-| [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 393 | 3.9k/wk |
+| [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 393 | 4.5k/wk |
 | [Temporal CLI Workflow and Server Control](../../skills/temporal-cli-workflow-server-control/) | 350 | — |
 | [Install focused Claude Code workflow plugins from Claude Night Market](../../skills/install-focused-claude-code-workflow-plugins-from-claude-night-market/) | 291 | — |
 | [Run agent tool calls through pctx Code Mode and unified MCP](../../skills/run-agent-tool-calls-through-pctx-code-mode-and-unified-mcp/) | 264 | 285/wk |

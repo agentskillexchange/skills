@@ -19,7 +19,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 11 | [Puppeteer Browser Automation Library for Chrome and Firefox](skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | 40.2M/wk | puppeteer | Browser Automation |
 | 12 | [GraphQL Data Federation Agent](skills/graphql-data-federation-agent/) | 34.2M/wk | graphql | Data Extraction & Transformation |
 | 13 | [SVGO SVG Optimization Tool](skills/svgo-svg-optimization-tool/) | 28.7M/wk | svgo | Image & Creative Automation |
-| 14 | [OpenAI Image Gen](skills/openai-image-gen/) | 25.3M/wk | openai | Image & Creative Automation |
+| 14 | [OpenAI Image Gen](skills/openai-image-gen/) | 25.1M/wk | openai | Image & Creative Automation |
 | 15 | [PostgreSQL Diagnostic Analyzer](skills/postgresql-diagnostic-analyzer/) | 23.2M/wk | postgresql | Runbooks & Diagnostics |
 | 16 | [Cheerio DOM Extraction Pipeline](skills/cheerio-dom-extraction-pipeline/) | 19.6M/wk | cheerio | Data Extraction & Transformation |
 | 17 | [Normalize international phone numbers into E.164 before CRM imports or messaging workflows](skills/normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows/) | 15.6M/wk | libphonenumber-js | Integrations & Connectors |
@@ -37,8 +37,8 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 29 | [Datadog APM Anomaly Detector](skills/datadog-apm-anomaly-detector/) | 6.6M/wk | datadog | Monitoring & Alerts |
 | 30 | [API Client Generator Skill](skills/api-client-generator-skill/) | 5.7M/wk | openapi-generator | Developer Tools |
 | 31 | [SQLite Analyst](skills/sqlite-analyst/) | 5.5M/wk | sqlite | Developer Tools |
-| 32 | [Twilio MCP Server](skills/twilio-mcp-server/) | 4.8M/wk | twilio | Integrations & Connectors |
-| 33 | [PostHog Product Analytics and Feature Flags SDK](skills/posthog-product-analytics-and-feature-flags-sdk/) | 4.8M/wk | posthog-js | Monitoring & Alerts |
+| 32 | [PostHog Product Analytics and Feature Flags SDK](skills/posthog-product-analytics-and-feature-flags-sdk/) | 4.8M/wk | posthog-js | Monitoring & Alerts |
+| 33 | [Twilio MCP Server](skills/twilio-mcp-server/) | 4.7M/wk | twilio | Integrations & Connectors |
 | 34 | [TypeDoc TypeScript API Documentation Generator](skills/typedoc-typescript-api-documentation-generator/) | 3.7M/wk | typedoc | Library & API Reference |
 | 35 | [Stagehand AI Browser Automation Framework](skills/stagehand-ai-browser-automation-framework-2/) | 3.4M/wk | stagehand | Browser Automation |
 | 36 | [AWS CDK Scaffolder](skills/aws-cdk-scaffolder/) | 3.3M/wk | aws | Templates & Workflows |
@@ -48,10 +48,10 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 40 | [JSDoc JavaScript API Documentation Generator](skills/jsdoc-javascript-api-documentation-generator/) | 2.7M/wk | jsdoc | Library & API Reference |
 | 41 | [Snyk Container Image Analyzer](skills/snyk-container-image-analyzer/) | 2.6M/wk | snyk | Security & Verification |
 | 42 | [Apache Kafka Schema Registry Extractor](skills/kafka-schema-registry-extractor/) | 2.5M/wk | kafka | Data Extraction & Transformation |
-| 43 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 2.5M/wk | datadog-api-client-typescript | Monitoring & Alerts |
-| 44 | [semantic-release Automated Versioning and Release Publishing](skills/semantic-release-automated-versioning-and-release-publishing/) | 2.5M/wk | semantic-release | CI/CD Integrations |
-| 45 | [Slack Bolt Event Subscription Debugger](skills/slack-bolt-event-subscription-debugger/) | 2.5M/wk | slack | Integrations & Connectors |
-| 46 | [Vercel Deployment Agent](skills/vercel-deployment-agent/) | 2.4M/wk | vercel | Templates & Workflows |
+| 43 | [semantic-release Automated Versioning and Release Publishing](skills/semantic-release-automated-versioning-and-release-publishing/) | 2.5M/wk | semantic-release | CI/CD Integrations |
+| 44 | [Slack Bolt Event Subscription Debugger](skills/slack-bolt-event-subscription-debugger/) | 2.5M/wk | slack | Integrations & Connectors |
+| 45 | [Vercel Deployment Agent](skills/vercel-deployment-agent/) | 2.4M/wk | vercel | Templates & Workflows |
+| 46 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 2.3M/wk | datadog-api-client-typescript | Monitoring & Alerts |
 | 47 | [Pulumi Drift Detector & Reconciler](skills/pulumi-drift-detector-reconciler/) | 2.1M/wk | pulumi | Runbooks & Diagnostics |
 | 48 | [LangChain MCP Server](skills/langchain-mcp-server/) | 2M/wk | langchain | Developer Tools |
 | 49 | [Astro Content-Driven Web Framework](skills/astro-content-driven-web-framework/) | 2M/wk | astro | Developer Tools |
