@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2678 published skills** across **17 categories** · 2,306 security reviewed · Updated 2026-07-05 01:26 UTC
+> **2678 published skills** across **17 categories** · 2,306 security reviewed · Updated 2026-07-05 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1730,7 +1730,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Track coding-agent quota burn and remaining headroom across providers with onWatch](skills/track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch/) | Monitor quota, spend, resets, and alerts across multiple coding-agent providers from one local dashboard before a… | Security Reviewed | 580 | — |
 | [PostHog Product Analytics and Feature Flags SDK](skills/posthog-product-analytics-and-feature-flags-sdk/) | Use PostHog to capture product analytics events, identify users, evaluate feature flags, and route experimentation… | Published | 531 | 4.8M/wk |
 | [Grafana Dashboard as Code Generator](skills/grafana-dashboard-as-code-generator/) | Generates Grafana dashboards programmatically using Grafonnet (jsonnet), the Grafana HTTP API, and grafana-toolkit.… | Security Reviewed | 528 | — |
-| [Record system-level agent activity with AgentSight](skills/record-system-level-agent-activity-with-agentsight/) | Wrap Claude Code, Codex, Gemini CLI, OpenClaw, or another agent command with AgentSight to capture processes, files,… | Security Reviewed | 469 | — |
+| [Record system-level agent activity with AgentSight](skills/record-system-level-agent-activity-with-agentsight/) | Wrap Claude Code, Codex, Gemini CLI, OpenClaw, or another agent command with AgentSight to capture processes, files,… | Security Reviewed | 469 | 18/wk |
 | [Inspect Claude Code multi-agent runs with Agents Observe](skills/agents-observe-claude-code-observability/) | Gives Claude Code operators a live dashboard for multi-agent sessions, tool calls, file activity, and nested task… | Security Reviewed | 421 | — |
 | [Cronitor CLI for Cron Monitoring and Job Telemetry](skills/cronitor-cli-cron-monitoring-job-telemetry/) | CronitorCLI is Cronitor's open-source command-line tool for syncing cron jobs, sending telemetry pings, and wrapping… | Security Reviewed | 399 | — |
 | [Monitor coding-agent token spend with Splitrail](skills/monitor-coding-agent-token-spend-with-splitrail/) | Track token burn, spend, and model mix across multiple coding-agent tools from one local monitoring workflow. | Security Reviewed | 159 | — |

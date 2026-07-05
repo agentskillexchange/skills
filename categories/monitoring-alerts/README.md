@@ -161,7 +161,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Track coding-agent quota burn and remaining headroom across providers with onWatch](../../skills/track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch/) | 580 | — |
 | [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | 531 | 4.8M/wk |
 | [Grafana Dashboard as Code Generator](../../skills/grafana-dashboard-as-code-generator/) | 528 | — |
-| [Record system-level agent activity with AgentSight](../../skills/record-system-level-agent-activity-with-agentsight/) | 469 | — |
+| [Record system-level agent activity with AgentSight](../../skills/record-system-level-agent-activity-with-agentsight/) | 469 | 18/wk |
 | [Inspect Claude Code multi-agent runs with Agents Observe](../../skills/agents-observe-claude-code-observability/) | 421 | — |
 | [Cronitor CLI for Cron Monitoring and Job Telemetry](../../skills/cronitor-cli-cron-monitoring-job-telemetry/) | 399 | — |
 | [Monitor coding-agent token spend with Splitrail](../../skills/monitor-coding-agent-token-spend-with-splitrail/) | 159 | — |
