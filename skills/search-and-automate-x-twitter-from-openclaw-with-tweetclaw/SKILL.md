@@ -2,7 +2,7 @@
 name: "Search and automate X/Twitter from OpenClaw with TweetClaw"
 slug: "search-and-automate-x-twitter-from-openclaw-with-tweetclaw"
 description: "Install and configure TweetClaw, the OpenClaw plugin for X/Twitter automation through Xquik. Use it when an agent needs structured tweet search, search tweet replies, post tweets, post tweet replies, follower export, user lookup, media upload or media download workflows, direct messages, monitor tweets, webhooks, and giveaway draws from OpenClaw."
-github_stars: 39
+github_stars: 84
 verification: "listed"
 source: "https://github.com/Xquik-dev/tweetclaw"
 author: "Xquik-dev"
@@ -11,7 +11,7 @@ category: "Integrations & Connectors"
 framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "Xquik-dev/tweetclaw"
-  github_stars: 39
+  github_stars: 84
   npm_package: "@xquik/tweetclaw"
 ---
 
@@ -36,7 +36,7 @@ openclaw config set plugins.entries.tweetclaw.config.apiKey "$XQUIK_API_KEY"
 Enable the live endpoint invoker after reviewing the available actions:
 
 ```bash
-openclaw config set tools.profile all
+openclaw config set tools.alsoAllow '["explore", "tweetclaw"]'
 ```
 
 ### Agent skill installers
