@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-07-04
+# Generated: 2026-07-05
 # Total: 2678 skills
 
 ## Build streaming voice LLM agents with Vocode
