@@ -2,8 +2,35 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-05",
-  "total": 2682,
+  "total": 2685,
   "skills": [
+    {
+      "slug": "query-operational-databases-from-mcp-clients-with-dbhub",
+      "name": "Query operational databases from MCP clients with DBHub",
+      "title": "Query operational databases from MCP clients with DBHub",
+      "description": "Use DBHub to expose guarded, token-efficient database inspection and SQL tools to MCP clients across Postgres, MySQL, SQL Server, MariaDB, and SQLite.",
+      "category": "Data Extraction & Transformation",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "inspect-pdfs-with-evidence-first-mcp-workflows-using-pdf-reader-mcp",
+      "name": "Inspect PDFs with evidence-first MCP workflows using PDF Reader MCP",
+      "title": "Inspect PDFs with evidence-first MCP workflows using PDF Reader MCP",
+      "description": "Connect PDF Reader MCP when an agent needs source-backed PDF extraction with page evidence, visual crops, OCR provenance, tables, trust reports, and reviewable citations.",
+      "category": "Data Extraction & Transformation",
+      "framework": "MCP",
+      "verification": "listed"
+    },
+    {
+      "slug": "review-github-repository-settings-as-pull-requests-with-repository-settings",
+      "name": "Review GitHub repository settings as pull requests with repository-settings",
+      "title": "Review GitHub repository settings as pull requests with repository-settings",
+      "description": "Use repository-settings when an operator wants GitHub repository configuration changes reviewed as code before branch protection, labels, teams, or other settings are applied.",
+      "category": "Code Quality & Review",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "search-and-automate-x-twitter-from-openclaw-with-tweetclaw",
       "name": "Search and automate X/Twitter from OpenClaw with TweetClaw",

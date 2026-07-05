@@ -186,6 +186,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [JSON-to-Avro Schema Transformer](../../skills/json-to-avro-schema-transformer/) | 3.3k | — |
 | [Build OCR and layout-analysis preprocessing pipelines with deepdoctection](../../skills/build-ocr-and-layout-analysis-preprocessing-pipelines-with-deepdoctection/) | 3.2k | — |
 | [Run private document extraction pipelines with Text Extract API](../../skills/run-private-document-extraction-pipelines-with-text-extract-api/) | 3.1k | — |
+| [Query operational databases from MCP clients with DBHub](../../skills/query-operational-databases-from-mcp-clients-with-dbhub/) | 3.1k | 78.8k/wk |
 | [Plan and preview warehouse SQL model changes before rollout with SQLMesh](../../skills/plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh/) | 3k | — |
 | [XML XSLT Transform Pipeline](../../skills/xml-xslt-transform-pipeline/) | 3k | — |
 | [Prepare local retrieval embeddings with FastEmbed](../../skills/prepare-local-retrieval-embeddings-with-fastembed/) | 3k | — |
@@ -215,6 +216,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [xq Command-Line XML and HTML Beautifier and Content Extractor](../../skills/xq-command-line-xml-html-beautifier-content-extractor/) | 1.1k | — |
 | [Query Neo4j graph data from agent workflows through MCP](../../skills/query-neo4j-graph-data-from-agent-workflows-through-mcp/) | 947 | — |
 | [Extract structured fields from HTML XML and JSON endpoints with Xidel selectors](../../skills/extract-structured-fields-from-html-xml-and-json-endpoints-with-xidel-selectors/) | 835 | — |
+| [Inspect PDFs with evidence-first MCP workflows using PDF Reader MCP](../../skills/inspect-pdfs-with-evidence-first-mcp-workflows-using-pdf-reader-mcp/) | 807 | 27.9k/wk |
 | [Query ClickHouse analytics safely from MCP clients](../../skills/query-clickhouse-analytics-safely-from-mcp-clients/) | 801 | — |
 | [Snowflake MCP Server](../../skills/snowflake-mcp-server/) | 726 | — |
 | [Snowflake MCP](../../skills/snowflake-mcp/) | 724 | — |

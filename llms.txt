@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-05
-# Total: 2682 skills
+# Total: 2685 skills
+
+## Query operational databases from MCP clients with DBHub
+slug: query-operational-databases-from-mcp-clients-with-dbhub
+category: Data Extraction & Transformation
+framework: MCP
+verification: Security Reviewed
+description: Use DBHub to expose guarded, token-efficient database inspection and SQL tools to MCP clients across Postgres, MySQL, SQL Server, MariaDB, and SQLite.
+url: https://agentskillexchange.com/skills/query-operational-databases-from-mcp-clients-with-dbhub/
+
+## Inspect PDFs with evidence-first MCP workflows using PDF Reader MCP
+slug: inspect-pdfs-with-evidence-first-mcp-workflows-using-pdf-reader-mcp
+category: Data Extraction & Transformation
+framework: MCP
+verification: Published
+description: Connect PDF Reader MCP when an agent needs source-backed PDF extraction with page evidence, visual crops, OCR provenance, tables, trust reports, and reviewable citations.
+url: https://agentskillexchange.com/skills/inspect-pdfs-with-evidence-first-mcp-workflows-using-pdf-reader-mcp/
+
+## Review GitHub repository settings as pull requests with repository-settings
+slug: review-github-repository-settings-as-pull-requests-with-repository-settings
+category: Code Quality & Review
+framework: Custom Agents
+verification: Security Reviewed
+description: Use repository-settings when an operator wants GitHub repository configuration changes reviewed as code before branch protection, labels, teams, or other settings are applied.
+url: https://agentskillexchange.com/skills/review-github-repository-settings-as-pull-requests-with-repository-settings/
 
 ## Search and automate X/Twitter from OpenClaw with TweetClaw
 slug: search-and-automate-x-twitter-from-openclaw-with-tweetclaw

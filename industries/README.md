@@ -9,7 +9,7 @@
 | 🛒 | [**Ecommerce & Retail Operations**](ecommerce-retail-operations.md) | 13 | Catalog management, storefront automation, orders, inventory sync, marketplace support, and review-driven merchandising. |
 | ⚖️ | [**Legal Ops & Compliance**](legal-ops-compliance.md) | 35 | Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support. |
 | 🩺 | [**Healthcare Documentation & Intake**](healthcare-documentation-intake.md) | 23 | Documentation intake, OCR, transcription, structured extraction, and biomedical literature support for paperwork-heavy workflows. |
-| 📈 | [**Product Analytics & Growth Ops**](product-analytics-growth-ops.md) | 17 | Product analytics, feature flags, rollout checks, session replay, privacy-friendly web analytics, and experiment/evaluation workflows. |
+| 📈 | [**Product Analytics & Growth Ops**](product-analytics-growth-ops.md) | 18 | Product analytics, feature flags, rollout checks, session replay, privacy-friendly web analytics, and experiment/evaluation workflows. |
 | 📚 | [**DevRel & API Documentation Workflows**](devrel-api-documentation.md) | 23 | API docs, OpenAPI references, SDK generation, docs-site publishing, prose linting, and developer enablement workflows. |
 | 🎧 | [**Customer Support & Success**](customer-support-success.md) | 26 | Helpdesk queues, ticket triage, conversation lookup, knowledge-base workflows, customer context, CRM sync, and reply-drafting support. |
 | 🏠 | [**Real Estate Workflows**](real-estate-workflows.md) | 11 | Property research support, transaction paperwork, signature routing, document intake, CRM context, and listing follow-up workflows for real-estate operations. |

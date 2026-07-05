@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2682 published skills** across **17 categories** · 2,311 security reviewed · Updated 2026-07-05 13:26 UTC
+> **2685 published skills** across **17 categories** · 2,311 security reviewed · Updated 2026-07-05 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -616,7 +616,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (207 skills)
+### 🔄 Data Extraction & Transformation (209 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -768,6 +768,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [JSON-to-Avro Schema Transformer](skills/json-to-avro-schema-transformer/) | Transforms JSON Schema definitions into Apache Avro schema format using the jsonschema and fastavro Python… | Security Reviewed | 3.3k | — |
 | [Build OCR and layout-analysis preprocessing pipelines with deepdoctection](skills/build-ocr-and-layout-analysis-preprocessing-pipelines-with-deepdoctection/) | Use deepdoctection when an agent workflow needs a local Python pipeline for document layout analysis, OCR, table… | Security Reviewed | 3.2k | — |
 | [Run private document extraction pipelines with Text Extract API](skills/run-private-document-extraction-pipelines-with-text-extract-api/) | Use Text Extract API when an agent needs to turn PDFs, Office files, or images into Markdown or structured JSON with… | Security Reviewed | 3.1k | — |
+| [Query operational databases from MCP clients with DBHub](skills/query-operational-databases-from-mcp-clients-with-dbhub/) | Use DBHub to expose guarded, token-efficient database inspection and SQL tools to MCP clients across Postgres,… | Security Reviewed | 3.1k | 78.8k/wk |
 | [Plan and preview warehouse SQL model changes before rollout with SQLMesh](skills/plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh/) | Compare SQL model changes, preview backfills and downstream impact, and stage safer warehouse rollouts before execution. | Security Reviewed | 3k | — |
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | 3k | — |
 | [Prepare local retrieval embeddings with FastEmbed](skills/prepare-local-retrieval-embeddings-with-fastembed/) | Generate dense, sparse, image, and reranking embeddings locally before writing vectors into Qdrant or another… | Security Reviewed | 3k | — |
@@ -797,6 +798,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [xq Command-Line XML and HTML Beautifier and Content Extractor](skills/xq-command-line-xml-html-beautifier-content-extractor/) | xq is a command-line XML and HTML beautifier and content extractor written in Go. It provides syntax highlighting,… | Security Reviewed | 1.1k | — |
 | [Query Neo4j graph data from agent workflows through MCP](skills/query-neo4j-graph-data-from-agent-workflows-through-mcp/) | Connect MCP-compatible agents to Neo4j so they can inspect graph schemas, run Cypher queries, manage graph memory,… | Security Reviewed | 947 | — |
 | [Extract structured fields from HTML XML and JSON endpoints with Xidel selectors](skills/extract-structured-fields-from-html-xml-and-json-endpoints-with-xidel-selectors/) | Use Xidel to pull targeted values from pages, XML documents, or JSON APIs with CSS selectors, XPath, XQuery, or… | Security Reviewed | 835 | — |
+| [Inspect PDFs with evidence-first MCP workflows using PDF Reader MCP](skills/inspect-pdfs-with-evidence-first-mcp-workflows-using-pdf-reader-mcp/) | Connect PDF Reader MCP when an agent needs source-backed PDF extraction with page evidence, visual crops, OCR… | Published | 807 | 27.9k/wk |
 | [Query ClickHouse analytics safely from MCP clients](skills/query-clickhouse-analytics-safely-from-mcp-clients/) | Use ClickHouse's official MCP server when an assistant needs schema-aware, reviewable analytics access to ClickHouse… | Security Reviewed | 801 | — |
 | [Snowflake MCP Server](skills/snowflake-mcp-server/) | Snowflake MCP Server is built around Snowflake cloud data warehouse. It gives an agent a more technical and reliable… | Security Reviewed | 726 | — |
 | [Snowflake MCP](skills/snowflake-mcp/) | Snowflake MCP is built around Snowflake cloud data warehouse. It gives an agent a more technical and reliable way to… | Security Reviewed | 724 | — |
@@ -1230,7 +1232,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown,… | Published | — | — |
 
 
-### ✅ Code Quality & Review (186 skills)
+### ✅ Code Quality & Review (187 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1368,6 +1370,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Run Ruff, Mypy, and other code-quality tools on Jupyter notebooks with nbQA](skills/run-ruff-mypy-and-other-code-quality-tools-on-jupyter-notebooks-with-nbqa/) | Apply standard Python formatters, linters, and type checkers to notebook-heavy repositories without manually… | Security Reviewed | 1.2k | — |
 | [Makefile Linting for CI and Build Pipelines](skills/makefile-linting-ci-build-pipelines/) | Uses checkmake to inspect Makefiles for style issues, fragile targets, and maintainability problems before build… | Security Reviewed | 1.2k | — |
 | [Lint PostgreSQL migrations and SQL changes before irreversible schema mistakes land with Squawk](skills/lint-postgresql-migrations-and-sql-changes-before-irreversible-schema-mistakes-land-with-squawk/) | Catch locking, indexing, and schema-change hazards in PostgreSQL migration SQL before a review turns into downtime. | Security Reviewed | 1.1k | — |
+| [Review GitHub repository settings as pull requests with repository-settings](skills/review-github-repository-settings-as-pull-requests-with-repository-settings/) | Use repository-settings when an operator wants GitHub repository configuration changes reviewed as code before… | Security Reviewed | 1k | — |
 | [Benchmark OpenClaw coding agents against repeatable real tasks before rollout with PinchBench](skills/benchmark-openclaw-coding-agents-against-repeatable-real-tasks-before-rollout-with-pinchbench/) | Run a real-task benchmark suite against OpenClaw agents so model or harness changes can be compared before they hit… | Security Reviewed | 1k | — |
 | [Enforce architectural import boundaries in Python codebases with Import Linter](skills/enforce-architectural-import-boundaries-in-python-codebases-with-import-linter/) | Check whether a Python codebase still respects declared layered, independence, or forbidden import contracts. | Security Reviewed | 995 | — |
 | [Benchmark and reduce Xcode clean and incremental build times with Xcode Build Optimization Agent Skill](skills/benchmark-and-reduce-xcode-clean-and-incremental-build-times-with-xcode-build-optimization-agent-skill/) | Benchmark clean and incremental Xcode builds, surface compile and configuration hotspots, and produce an… | Security Reviewed | 981 | — |
