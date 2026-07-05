@@ -1035,6 +1035,7 @@
       "skill_slugs": [
         "posthog-product-analytics-and-feature-flags-sdk",
         "flagsmith-feature-flag-remote-config",
+        "control-launch-behavior-with-go-feature-flag",
         "design-and-verify-launchdarkly-feature-flag-targeting-and-rollout-changes-with-mcp-safety-checks",
         "configure-and-interpret-launchdarkly-ai-config-online-evaluations-with-judge-attachments",
         "openreplay-self-hosted-session-replay-analytics",
@@ -1110,6 +1111,11 @@
           "why_here": "Provides open-source flag and remote-config control for staged product rollouts.",
           "persona": "Product engineer / release manager",
           "install_complexity": "High"
+        },
+        "control-launch-behavior-with-go-feature-flag": {
+          "why_here": "Adds OpenFeature-compatible rollout controls for staged launches, experiments, and reversible release gates.",
+          "persona": "Product engineer / release manager",
+          "install_complexity": "Medium"
         },
         "design-and-verify-launchdarkly-feature-flag-targeting-and-rollout-changes-with-mcp-safety-checks": {
           "why_here": "Makes flag targeting changes reviewable before they affect production cohorts.",
