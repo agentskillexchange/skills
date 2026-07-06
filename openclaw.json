@@ -2,8 +2,26 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-06",
-  "total": 2687,
+  "total": 2689,
   "skills": [
+    {
+      "slug": "build-a-local-work-assistant-with-10xproductivity",
+      "name": "Build a local work assistant with 10xProductivity",
+      "title": "Build a local work assistant with 10xProductivity",
+      "description": "Turn an existing coding agent into a supervised local work assistant that connects to workplace tools, reusable skills, workflows, and scheduled loops.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "query-real-time-global-intelligence-through-worldmonitor-mcp",
+      "name": "Query real-time global intelligence through Worldmonitor MCP",
+      "title": "Query real-time global intelligence through Worldmonitor MCP",
+      "description": "Give MCP-capable agents a live global-intelligence surface for country briefs, risk scores, conflict, cyber, market, weather, and infrastructure monitoring.",
+      "category": "Monitoring & Alerts",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "enforce-pull-request-approval-policy-with-policy-bot",
       "name": "Enforce pull-request approval policy with Policy Bot",

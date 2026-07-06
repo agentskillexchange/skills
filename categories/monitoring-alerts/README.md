@@ -25,6 +25,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 |---|---:|
 | [Uptime Kuma Status Sync](../../skills/uptime-kuma-status-sync/) | ⬇ 89/wk |
 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](../../skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | ⬇ 97/wk |
+| [Query real-time global intelligence through Worldmonitor MCP](../../skills/query-real-time-global-intelligence-through-worldmonitor-mcp/) | ⬇ 602/wk |
 | [PM2 Node.js Production Process Manager with Load Balancing](../../skills/pm2-nodejs-production-process-manager/) | ⬇ 3M/wk |
 | [Umami Privacy-Focused Web Analytics Platform](../../skills/umami-privacy-focused-web-analytics/) | ⬇ 638/wk |
 | [Trace, evaluate, and monitor agentic workflows with Opik](../../skills/trace-evaluate-and-monitor-agentic-workflows-with-opik/) | ⬇ 18.3k/wk |
@@ -32,7 +33,6 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Trace and evaluate agent runs with Phoenix](../../skills/trace-and-evaluate-agent-runs-with-phoenix/) | ⬇ 893/wk |
 | [Monitor and evaluate LLM agent traffic with Helicone](../../skills/monitor-and-evaluate-llm-agent-traffic-with-helicone/) | ⬇ 49/wk |
 | [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | ⬇ 3.3k/wk |
-| [Simulate agent scenarios, trace failures, and watch production regressions with LangWatch](../../skills/simulate-agent-scenarios-trace-failures-and-watch-production-regressions-with-langwatch/) | ⬇ 54.7k/wk |
 
 ---
 
@@ -74,6 +74,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Prometheus PromQL Alert Builder](../../skills/prometheus-promql-alert-builder/) | 63.6k | — |
 | [Prometheus Rule Evaluator](../../skills/prometheus-rule-evaluator/) | 63.6k | — |
 | [Prometheus Alerting Rules](../../skills/prometheus-alerting-rules/) | 63.5k | — |
+| [Query real-time global intelligence through Worldmonitor MCP](../../skills/query-real-time-global-intelligence-through-worldmonitor-mcp/) | 61.4k | 602/wk |
 | [Monitor cross-platform trends and alert agents with TrendRadar](../../skills/monitor-cross-platform-trends-and-alert-agents-with-trendradar/) | 59.4k | — |
 | [Sentry Error Intelligence](../../skills/sentry-error-intelligence/) | 43.6k | — |
 | [Sentry Issue Spike Detection Agent](../../skills/sentry-issue-spike-detection-agent/) | 43.5k | — |
@@ -142,7 +143,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Trace, evaluate, simulate, and guardrail agent releases with Future AGI](../../skills/trace-evaluate-simulate-and-guardrail-agent-releases-with-future-agi/) | 1k | 1.9k/wk |
 | [Lint and validate Prometheus alerting rules before noisy or broken alerts reach production with Pint](../../skills/lint-and-validate-prometheus-alerting-rules-before-noisy-or-broken-alerts-reach-production-with-pint/) | 1k | — |
 | [LangSmith SDK for LLM Tracing and Evaluation](../../skills/langsmith-sdk-for-llm-tracing-and-evaluation/) | 843 | 5.4M/wk |
-| [Datadog MCP Server](../../skills/datadog-mcp-server/) | 811 | 7.4M/wk |
+| [Datadog MCP Server](../../skills/datadog-mcp-server/) | 811 | 7.3M/wk |
 | [Datadog Anomaly Alert Router](../../skills/datadog-anomaly-alert-router/) | 791 | 6.6M/wk |
 | [Datadog Anomaly Detection Agent](../../skills/datadog-anomaly-detection-agent-2/) | 791 | 6.6M/wk |
 | [Datadog Anomaly Detector](../../skills/datadog-anomaly-detector/) | 791 | 6.6M/wk |
@@ -157,7 +158,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Datadog Monitor Sync](../../skills/datadog-monitor-sync/) | 791 | 6.6M/wk |
 | [Datadog Monitors Skill](../../skills/datadog-monitors-skill/) | 791 | 6.6M/wk |
 | [Datadog SLO Monitor](../../skills/datadog-slo-monitor/) | 791 | 6.6M/wk |
-| [Sentry MCP Server](../../skills/sentry-mcp-server/) | 712 | 84k/wk |
+| [Sentry MCP Server](../../skills/sentry-mcp-server/) | 712 | 85.4k/wk |
 | [Sentry MCP Server for Error Tracking and Performance](../../skills/sentry-mcp-server-error-tracking-performance/) | 615 | 49.6k/wk |
 | [Track coding-agent quota burn and remaining headroom across providers with onWatch](../../skills/track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch/) | 580 | — |
 | [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | 531 | 4.8M/wk |
@@ -173,7 +174,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [PagerDuty Incident Orchestrator](../../skills/pagerduty-incident-orchestrator-2/) | 69 | 1M/wk |
 | [PagerDuty Incident Runbook Linker](../../skills/pagerduty-incident-runbook-linker/) | 69 | 1M/wk |
 | [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | 69 | 238k/wk |
-| [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | 24 | 4.7k/wk |
+| [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | 24 | 4.6k/wk |
 | [AWS CloudWatch Insights Query Builder](../../skills/aws-cloudwatch-insights-query-builder/) | — | — |
 | [Cloudflare Analytics Health Monitor](../../skills/cloudflare-analytics-health-monitor/) | — | — |
 | [CloudWatch Anomaly Detector](../../skills/cloudwatch-anomaly-detector/) | — | — |

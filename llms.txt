@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-06
-# Total: 2687 skills
+# Total: 2689 skills
+
+## Build a local work assistant with 10xProductivity
+slug: build-a-local-work-assistant-with-10xproductivity
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Turn an existing coding agent into a supervised local work assistant that connects to workplace tools, reusable skills, workflows, and scheduled loops.
+url: https://agentskillexchange.com/skills/build-a-local-work-assistant-with-10xproductivity/
+
+## Query real-time global intelligence through Worldmonitor MCP
+slug: query-real-time-global-intelligence-through-worldmonitor-mcp
+category: Monitoring & Alerts
+framework: MCP
+verification: Security Reviewed
+description: Give MCP-capable agents a live global-intelligence surface for country briefs, risk scores, conflict, cyber, market, weather, and infrastructure monitoring.
+url: https://agentskillexchange.com/skills/query-real-time-global-intelligence-through-worldmonitor-mcp/
 
 ## Enforce pull-request approval policy with Policy Bot
 slug: enforce-pull-request-approval-policy-with-policy-bot

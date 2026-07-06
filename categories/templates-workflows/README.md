@@ -201,6 +201,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Railway App Deployer](../../skills/railway-app-deployer/) | 523 | 143.6k/wk |
 | [Evolve reusable coding-agent skills from failed trajectories with EvoSkill](../../skills/evolve-reusable-coding-agent-skills-from-failed-trajectories-with-evoskill/) | 489 | — |
 | [Coordinate multiple CLI agents through sessions, handoffs, and terminal control APIs with CLI Agent Orchestrator](../../skills/coordinate-multiple-cli-agents-through-sessions-handoffs-and-terminal-control-apis-with-cli-agent-orchestrator/) | 473 | — |
+| [Build a local work assistant with 10xProductivity](../../skills/build-a-local-work-assistant-with-10xproductivity/) | 455 | — |
 | [Manage native GitHub stacked pull requests with gh-stack](../../skills/manage-native-github-stacked-pull-requests-with-gh-stack/) | 401 | — |
 | [Build event-driven document agent workflows with LlamaAgents](../../skills/build-event-driven-document-agent-workflows-with-llamaagents/) | 389 | — |
 | [Evaluate long-horizon agents against WildClawBench](../../skills/evaluate-long-horizon-agents-against-wildclawbench/) | 359 | — |

@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C687-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C689-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C315-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,687 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,689 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Build a local work assistant with 10xProductivity](skills/build-a-local-work-assistant-with-10xproductivity/) | Turn an existing coding agent into a supervised local work assistant that connects to workplace tools, reusable skills... | 455 | Templates & Workflows |
+| [Query real-time global intelligence through Worldmonitor MCP](skills/query-real-time-global-intelligence-through-worldmonitor-mcp/) | Give MCP-capable agents a live global-intelligence surface for country briefs, risk scores, conflict, cyber, market, weather, and infrastructure... | 61.4k | Monitoring & Alerts |
 | [Enforce pull-request approval policy with Policy Bot](skills/enforce-pull-request-approval-policy-with-policy-bot/) | Codify complex GitHub review rules, evaluate pull requests, and expose approval status as a required check | 1.0k | Code Quality & Review |
 | [Parse documents into structured content for agent ingestion with Dedoc](skills/parse-documents-into-structured-content-for-agent-ingestion-with-dedoc/) | Extract document text, tables, logical structure, and metadata into normalized output before RAG, review, or workflow automation | 712 | Data Extraction & Transformation |
 | [Query operational databases from MCP clients with DBHub](skills/query-operational-databases-from-mcp-clients-with-dbhub/) | Use DBHub to expose guarded, token-efficient database inspection and SQL tools to MCP clients across Postgres, MySQL, SQL... | 3.1k | Data Extraction & Transformation |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Search and automate X/Twitter from OpenClaw with TweetClaw](skills/search-and-automate-x-twitter-from-openclaw-with-tweetclaw/) | Install and configure TweetClaw, the OpenClaw plugin for X/Twitter automation through Xquik. Use it when an agent needs... | 84 | Integrations & Connectors |
 | [Control launch behavior with GO Feature Flag](skills/control-launch-behavior-with-go-feature-flag/) | Use GO Feature Flag as an OpenFeature-compatible control plane for rollout rules, targeting, experiments, remote config, and launch... | 2.0k | Monitoring & Alerts |
 | [Build production Go agents with tRPC-Agent-Go](skills/build-production-go-agents-with-trpc-agent-go/) | Model Go-native agent systems with graph workflows, tool calls, memory, MCP, A2A, evaluation, and OpenTelemetry observability | 1.5k | Developer Tools |
-| [Build production agent harnesses with Strands Agents](skills/build-production-agent-harnesses-with-strands-agents/) | Use Strands Agents to assemble model-agnostic Python or TypeScript agent harnesses with tools, MCP, guardrails, tracing, streaming, and... | 6.4k | Developer Tools |
-| [Build streaming voice LLM agents with Vocode](skills/build-streaming-voice-llm-agents-with-vocode/) | Use Vocode to compose transcription, LLM, speech synthesis, and telephony components into reviewable real-time voice-agent workflows | 3.8k | Media & Transcription |
 
 ---
 
@@ -106,15 +106,15 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
-| [Query operational databases from MCP clients with DBHub](skills/query-operational-databases-from-mcp-clients-with-dbhub/) | Use DBHub to expose guarded, token-efficient database inspection and SQL tools to MCP clients across Postgres, MySQL, SQL... | 3.1k | Data Extraction & Transformation |
 | [Run multi-provider coding-agent sessions with OpenClaude](skills/run-multi-provider-coding-agent-sessions-with-openclaude/) | Use OpenClaude when a repository task needs one terminal-first coding-agent workflow that can switch across cloud, local, Codex... | 29.5k | Developer Tools |
-| [Give OpenCode project sessions persistent memory with opencode-mem](skills/give-opencode-project-sessions-persistent-memory-with-opencode-mem/) | Add opencode-mem to OpenCode so coding sessions can store, search, and reuse project memories through a local SQLite... | 1.0k | Developer Tools |
+| [Build production agent harnesses with Strands Agents](skills/build-production-agent-harnesses-with-strands-agents/) | Use Strands Agents to assemble model-agnostic Python or TypeScript agent harnesses with tools, MCP, guardrails, tracing, streaming, and... | 6.4k | Developer Tools |
+| [Query operational databases from MCP clients with DBHub](skills/query-operational-databases-from-mcp-clients-with-dbhub/) | Use DBHub to expose guarded, token-efficient database inspection and SQL tools to MCP clients across Postgres, MySQL, SQL... | 3.1k | Data Extraction & Transformation |
 | [Coordinate multi-agent Claude Code and Codex workflows with Ruflo](skills/coordinate-multi-agent-claude-code-and-codex-workflows-with-ruflo/) | Install Ruflo when an operator needs Claude Code or Codex agents to coordinate swarms, memory, hooks, and MCP... | 59.0k | Templates & Workflows |
+| [Query real-time global intelligence through Worldmonitor MCP](skills/query-real-time-global-intelligence-through-worldmonitor-mcp/) | Give MCP-capable agents a live global-intelligence surface for country briefs, risk scores, conflict, cyber, market, weather, and infrastructure... | 61.4k | Monitoring & Alerts |
 | [Run durable scheduled agent jobs in Node.js with Agenda](skills/run-durable-scheduled-agent-jobs-in-node-js-with-agenda/) | Use Agenda when a custom Node.js agent needs persistent scheduled jobs, retries, locking, and background workers backed by... | 9.7k | Templates & Workflows |
 | [Give MCP agents structured graph memory with RushDB](skills/give-mcp-agents-structured-graph-memory-with-rushdb/) | Connect RushDB's MCP server so agents can store, search, update, and traverse persistent structured memory without hand-building a... | 308 | Integrations & Connectors |
 | [Inspect PDFs with evidence-first MCP workflows using PDF Reader MCP](skills/inspect-pdfs-with-evidence-first-mcp-workflows-using-pdf-reader-mcp/) | Connect PDF Reader MCP when an agent needs source-backed PDF extraction with page evidence, visual crops, OCR provenance... | 807 | Data Extraction & Transformation |
 | [Operate multi-provider AI gateway traffic with Bifrost](skills/operate-multi-provider-ai-gateway-traffic-with-bifrost/) | Run Bifrost as an OpenAI-compatible gateway so agents can route model calls across providers with failover, load balancing... | 6.0k | Integrations & Connectors |
-| [Control launch behavior with GO Feature Flag](skills/control-launch-behavior-with-go-feature-flag/) | Use GO Feature Flag as an OpenFeature-compatible control plane for rollout rules, targeting, experiments, remote config, and launch... | 2.0k | Monitoring & Alerts |
 | [Trace coding-agent and LLM workflows with OpenLIT](skills/trace-coding-agent-and-llm-workflows-with-openlit/) | Use OpenLIT to instrument coding agents and LLM applications with OpenTelemetry traces, metrics, costs, prompts, tool calls, and... | 2.5k | Monitoring & Alerts |
 
 ---
@@ -126,11 +126,11 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 🛠️ | [**Developer Tools**](categories/developer-tools/) | 356 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 236 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 210 | ETL pipelines, parsing, format conversion |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 192 | Scaffolders, boilerplate generators, workflow templates |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 191 | Scaffolders, boilerplate generators, workflow templates |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 188 | Linting, code review, test generators, coverage |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 173 | Incident response, troubleshooting, system diagnostics |
-| 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 147 | Metrics, alerting rules, observability |
+| 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 148 | Metrics, alerting rules, observability |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 144 | Third-party API bridges, webhooks, service connectors |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 125 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 123 | SDK docs, API parsers, symbol resolvers |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,687 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,689 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,315 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
