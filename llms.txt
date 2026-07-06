@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-07-05
-# Total: 2685 skills
+# Generated: 2026-07-06
+# Total: 2687 skills
+
+## Enforce pull-request approval policy with Policy Bot
+slug: enforce-pull-request-approval-policy-with-policy-bot
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Codify complex GitHub review rules, evaluate pull requests, and expose approval status as a required check.
+url: https://agentskillexchange.com/skills/enforce-pull-request-approval-policy-with-policy-bot/
+
+## Parse documents into structured content for agent ingestion with Dedoc
+slug: parse-documents-into-structured-content-for-agent-ingestion-with-dedoc
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Extract document text, tables, logical structure, and metadata into normalized output before RAG, review, or workflow automation.
+url: https://agentskillexchange.com/skills/parse-documents-into-structured-content-for-agent-ingestion-with-dedoc/
 
 ## Query operational databases from MCP clients with DBHub
 slug: query-operational-databases-from-mcp-clients-with-dbhub

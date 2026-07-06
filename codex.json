@@ -1,9 +1,27 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-07-05",
-  "total": 2685,
+  "generated": "2026-07-06",
+  "total": 2687,
   "skills": [
+    {
+      "slug": "enforce-pull-request-approval-policy-with-policy-bot",
+      "name": "Enforce pull-request approval policy with Policy Bot",
+      "title": "Enforce pull-request approval policy with Policy Bot",
+      "description": "Codify complex GitHub review rules, evaluate pull requests, and expose approval status as a required check.",
+      "category": "Code Quality & Review",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
+    {
+      "slug": "parse-documents-into-structured-content-for-agent-ingestion-with-dedoc",
+      "name": "Parse documents into structured content for agent ingestion with Dedoc",
+      "title": "Parse documents into structured content for agent ingestion with Dedoc",
+      "description": "Extract document text, tables, logical structure, and metadata into normalized output before RAG, review, or workflow automation.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "query-operational-databases-from-mcp-clients-with-dbhub",
       "name": "Query operational databases from MCP clients with DBHub",

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2685 published skills** across **17 categories** · 2,313 security reviewed · Updated 2026-07-05 19:26 UTC
+> **2687 published skills** across **17 categories** · 2,313 security reviewed · Updated 2026-07-06 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -616,7 +616,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (209 skills)
+### 🔄 Data Extraction & Transformation (210 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -805,6 +805,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Snowflake Query History Extractor](skills/snowflake-query-history-extractor/) | Extracts query history and performance metadata from Snowflake using the Snowflake Python Connector and… | Security Reviewed | 724 | — |
 | [Snowflake Query Optimizer Agent](skills/snowflake-query-optimizer-agent/) | Analyzes and optimizes Snowflake SQL queries using the QUERY_HISTORY and ACCESS_HISTORY views in ACCOUNT_USAGE.… | Security Reviewed | 724 | — |
 | [Snowflake Query Profiler](skills/snowflake-query-profiler/) | Profiles and optimizes Snowflake SQL queries using the Snowflake Information Schema and Query History views.… | Security Reviewed | 724 | — |
+| [Parse documents into structured content for agent ingestion with Dedoc](skills/parse-documents-into-structured-content-for-agent-ingestion-with-dedoc/) | Extract document text, tables, logical structure, and metadata into normalized output before RAG, review, or… | Security Reviewed | 712 | — |
 | [Give agents governed semantic data context with Wren Engine](skills/give-agents-governed-semantic-data-context-with-wren-engine/) | Give agents governed semantic data context so data questions map to trusted metrics and schemas. | Published | 661 | — |
 | [Query Postgres databases through read-only MCP workflows with PGMCP](skills/query-postgres-databases-through-read-only-mcp-workflows-with-pgmcp/) | Connect an MCP-compatible assistant to an existing PostgreSQL database for safe natural-language querying,… | Security Reviewed | 529 | — |
 | [dbt MCP Server for Data Pipeline Context](skills/dbt-mcp-server-data-pipeline-context/) | The official dbt MCP Server by dbt Labs provides Model Context Protocol tools for AI agents to interact with dbt… | Security Reviewed | 526 | — |
@@ -1232,7 +1233,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown,… | Published | — | — |
 
 
-### ✅ Code Quality & Review (187 skills)
+### ✅ Code Quality & Review (188 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1371,6 +1372,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Makefile Linting for CI and Build Pipelines](skills/makefile-linting-ci-build-pipelines/) | Uses checkmake to inspect Makefiles for style issues, fragile targets, and maintainability problems before build… | Security Reviewed | 1.2k | — |
 | [Lint PostgreSQL migrations and SQL changes before irreversible schema mistakes land with Squawk](skills/lint-postgresql-migrations-and-sql-changes-before-irreversible-schema-mistakes-land-with-squawk/) | Catch locking, indexing, and schema-change hazards in PostgreSQL migration SQL before a review turns into downtime. | Security Reviewed | 1.1k | — |
 | [Review GitHub repository settings as pull requests with repository-settings](skills/review-github-repository-settings-as-pull-requests-with-repository-settings/) | Use repository-settings when an operator wants GitHub repository configuration changes reviewed as code before… | Security Reviewed | 1k | — |
+| [Enforce pull-request approval policy with Policy Bot](skills/enforce-pull-request-approval-policy-with-policy-bot/) | Codify complex GitHub review rules, evaluate pull requests, and expose approval status as a required check. | Security Reviewed | 1k | — |
 | [Benchmark OpenClaw coding agents against repeatable real tasks before rollout with PinchBench](skills/benchmark-openclaw-coding-agents-against-repeatable-real-tasks-before-rollout-with-pinchbench/) | Run a real-task benchmark suite against OpenClaw agents so model or harness changes can be compared before they hit… | Security Reviewed | 1k | — |
 | [Enforce architectural import boundaries in Python codebases with Import Linter](skills/enforce-architectural-import-boundaries-in-python-codebases-with-import-linter/) | Check whether a Python codebase still respects declared layered, independence, or forbidden import contracts. | Security Reviewed | 995 | — |
 | [Benchmark and reduce Xcode clean and incremental build times with Xcode Build Optimization Agent Skill](skills/benchmark-and-reduce-xcode-clean-and-incremental-build-times-with-xcode-build-optimization-agent-skill/) | Benchmark clean and incremental Xcode builds, surface compile and configuration hotspots, and produce an… | Security Reviewed | 981 | — |

@@ -223,6 +223,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Snowflake Query History Extractor](../../skills/snowflake-query-history-extractor/) | 724 | — |
 | [Snowflake Query Optimizer Agent](../../skills/snowflake-query-optimizer-agent/) | 724 | — |
 | [Snowflake Query Profiler](../../skills/snowflake-query-profiler/) | 724 | — |
+| [Parse documents into structured content for agent ingestion with Dedoc](../../skills/parse-documents-into-structured-content-for-agent-ingestion-with-dedoc/) | 712 | — |
 | [Give agents governed semantic data context with Wren Engine](../../skills/give-agents-governed-semantic-data-context-with-wren-engine/) | 661 | — |
 | [Query Postgres databases through read-only MCP workflows with PGMCP](../../skills/query-postgres-databases-through-read-only-mcp-workflows-with-pgmcp/) | 529 | — |
 | [dbt MCP Server for Data Pipeline Context](../../skills/dbt-mcp-server-data-pipeline-context/) | 526 | — |
