@@ -2,8 +2,17 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-06",
-  "total": 2689,
+  "total": 2690,
   "skills": [
+    {
+      "slug": "build-authenticated-mcp-servers-from-python-files-with-golf",
+      "name": "Build authenticated MCP servers from Python files with Golf",
+      "title": "Build authenticated MCP servers from Python files with Golf",
+      "description": "Scaffold, build, and run MCP servers from a predictable Python project layout with tools, prompts, resources, auth, and OpenTelemetry hooks.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed"
+    },
     {
       "slug": "build-a-local-work-assistant-with-10xproductivity",
       "name": "Build a local work assistant with 10xProductivity",

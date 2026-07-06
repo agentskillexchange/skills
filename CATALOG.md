@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2689 published skills** across **17 categories** · 2,316 security reviewed · Updated 2026-07-06 13:27 UTC
+> **2690 published skills** across **17 categories** · 2,316 security reviewed · Updated 2026-07-06 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1767,7 +1767,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Published | — | — |
 
 
-### 🔗 Integrations & Connectors (144 skills)
+### 🔗 Integrations & Connectors (145 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1875,6 +1875,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [MongoDB MCP Server for Database and Atlas Management](skills/mongodb-mcp-server-database-atlas-management/) | The official MongoDB MCP server connects AI agents to MongoDB databases and Atlas clusters through the Model Context… | Security Reviewed | 983 | 36.6k/wk |
 | [Shopify Admin GraphQL Sync Agent](skills/shopify-admin-graphql-sync-agent/) | Coordinates Shopify data syncs with the Admin GraphQL API, including `bulkOperationRunQuery`, node connections, and… | Published | 959 | 325.5k/wk |
 | [Build authenticated MCP tools and servers with Arcade MCP](skills/build-authenticated-mcp-tools-and-servers-with-arcade-mcp/) | Use Arcade MCP to create custom MCP servers and tools with OAuth-aware authorization, evals, and deployment paths… | Security Reviewed | 895 | — |
+| [Build authenticated MCP servers from Python files with Golf](skills/build-authenticated-mcp-servers-from-python-files-with-golf/) | Scaffold, build, and run MCP servers from a predictable Python project layout with tools, prompts, resources, auth,… | Security Reviewed | 835 | — |
 | [Datadog Integration Connector](skills/datadog-integration-connector-agent/) | Connects applications to Datadog monitoring using the Datadog API v2 for metrics submission, log forwarding, APM… | Security Reviewed | 791 | 6.6M/wk |
 | [Docker MCP Server for Container Lifecycle Management](skills/docker-mcp-server-container-lifecycle-management/) | An MCP server that enables AI agents to manage Docker containers, images, volumes, and networks through natural… | Security Reviewed | 695 | — |
 | [Neon Serverless Postgres MCP](skills/neon-serverless-postgres-mcp/) | Neon's official MCP server translates natural language requests into Neon API calls, letting AI agents create… | Security Reviewed | 606 | 15.5k/wk |

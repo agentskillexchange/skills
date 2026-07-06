@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-06
-# Total: 2689 skills
+# Total: 2690 skills
+
+## Build authenticated MCP servers from Python files with Golf
+slug: build-authenticated-mcp-servers-from-python-files-with-golf
+category: Integrations & Connectors
+framework: MCP
+verification: Security Reviewed
+description: Scaffold, build, and run MCP servers from a predictable Python project layout with tools, prompts, resources, auth, and OpenTelemetry hooks.
+url: https://agentskillexchange.com/skills/build-authenticated-mcp-servers-from-python-files-with-golf/
 
 ## Build a local work assistant with 10xProductivity
 slug: build-a-local-work-assistant-with-10xproductivity
