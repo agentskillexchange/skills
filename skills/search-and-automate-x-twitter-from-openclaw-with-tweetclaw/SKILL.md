@@ -13,6 +13,7 @@ tool_ecosystem:
   github_repo: "Xquik-dev/tweetclaw"
   github_stars: 84
   npm_package: "@xquik/tweetclaw"
+  npm_weekly_downloads: 90
 ---
 
 # Search and automate X/Twitter from OpenClaw with TweetClaw

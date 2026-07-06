@@ -13,6 +13,7 @@ tool_ecosystem:
   github_repo: "strands-agents/harness-sdk"
   github_stars: 6417
   npm_package: "@strands-agents/sdk"
+  npm_weekly_downloads: 60364
 ---
 
 # Build production agent harnesses with Strands Agents
