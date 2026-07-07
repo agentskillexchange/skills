@@ -3,11 +3,11 @@ name: "Live Search Console Data"
 slug: "live-search-console-data"
 description: "Give Claude Code, Codex, or OpenCode live access to Google Search Console and GA4 data through RefreshAgent. Provides authenticated GSC queries, keyword positions, sitemap status, cannibalization detection, and analytics without manual GCP OAuth setup."
 verification: "listed"
-source: "https://github.com/refreshagent/live-search-console-data"
+source: "https://github.com/marketingskills/live-search-console-data"
 category: "Data Extraction & Transformation"
 framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: "refreshagent/live-search-console-data"
+  github_repo: "marketingskills/live-search-console-data"
 ---
 
 # Live Search Console Data
@@ -42,7 +42,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 ### Direct from GitHub
 
 ```bash
-npx skills add refreshagent/live-search-console-data
+npx skills add marketingskills/live-search-console-data
 ```
 
 ## Capabilities
@@ -68,5 +68,5 @@ python3 {skill_dir}/scripts/refreshagent_api.py GET /api/v1/sc/keyword-position 
 
 ## Source
 
-- [GitHub: refreshagent/live-search-console-data](https://github.com/refreshagent/live-search-console-data)
+- [GitHub: marketingskills/live-search-console-data](https://github.com/marketingskills/live-search-console-data)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/live-search-console-data/)

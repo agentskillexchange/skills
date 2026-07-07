@@ -3,11 +3,11 @@ name: "SEO Growth Loop"
 slug: "seo-growth-loop"
 description: "Run a closed-loop SEO growth workflow using Search Console data, keyword demand analysis, SERP Authority Mark checks, and the available publishing path. Works across CMS/API, local repo, hybrid, and advisory-only environments."
 verification: "listed"
-source: "https://github.com/refreshagent/seo-growth-loop"
+source: "https://github.com/marketingskills/seo-growth-loop"
 category: "Content Writing & SEO"
 framework: "Multi-Framework"
 tool_ecosystem:
-  github_repo: "refreshagent/seo-growth-loop"
+  github_repo: "marketingskills/seo-growth-loop"
 ---
 
 # SEO Growth Loop
@@ -42,7 +42,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 ### Direct from GitHub
 
 ```bash
-npx skills add refreshagent/seo-growth-loop
+npx skills add marketingskills/seo-growth-loop
 ```
 
 ## How it works
@@ -60,5 +60,5 @@ npx skills add refreshagent/seo-growth-loop
 
 ## Source
 
-- [GitHub: refreshagent/seo-growth-loop](https://github.com/refreshagent/seo-growth-loop)
+- [GitHub: marketingskills/seo-growth-loop](https://github.com/marketingskills/seo-growth-loop)
 - [Agent Skill Exchange](https://agentskillexchange.com/skills/seo-growth-loop/)
