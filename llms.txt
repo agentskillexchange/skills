@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-07-06
-# Total: 2690 skills
+# Generated: 2026-07-07
+# Total: 2693 skills
+
+## SEO Growth Loop
+slug: seo-growth-loop
+category: Content Writing & SEO
+framework: Multi-Framework
+verification: Published
+description: Run a closed-loop SEO growth workflow using Search Console data, keyword demand analysis, SERP Authority Mark checks, and the available publishing path. Works across…
+url: https://agentskillexchange.com/skills/seo-growth-loop/
+
+## Live Search Console Data
+slug: live-search-console-data
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Published
+description: Give Claude Code, Codex, or OpenCode live access to Google Search Console and GA4 data through RefreshAgent. Provides authenticated GSC queries, keyword positions, sitemap…
+url: https://agentskillexchange.com/skills/live-search-console-data/
+
+## JMT x402 Agent Tools
+slug: jmt-x402-agent-tools
+category: Integrations & Connectors
+framework: Custom Agents
+verification: Published
+description: Paid x402 HTTP-402 endpoints on Base mainnet that let agents pay-per-call in USDC for web search, AI analysis, crypto and stock market data, SEC…
+url: https://agentskillexchange.com/skills/jmt-x402-agent-tools/
 
 ## Build authenticated MCP servers from Python files with Golf
 slug: build-authenticated-mcp-servers-from-python-files-with-golf

@@ -1,9 +1,36 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-07-06",
-  "total": 2690,
+  "generated": "2026-07-07",
+  "total": 2693,
   "skills": [
+    {
+      "slug": "seo-growth-loop",
+      "name": "SEO Growth Loop",
+      "title": "SEO Growth Loop",
+      "description": "Run a closed-loop SEO growth workflow using Search Console data, keyword demand analysis, SERP Authority Mark checks, and the available publishing path. Works across…",
+      "category": "Content Writing & SEO",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
+    {
+      "slug": "live-search-console-data",
+      "name": "Live Search Console Data",
+      "title": "Live Search Console Data",
+      "description": "Give Claude Code, Codex, or OpenCode live access to Google Search Console and GA4 data through RefreshAgent. Provides authenticated GSC queries, keyword positions, sitemap…",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "listed"
+    },
+    {
+      "slug": "jmt-x402-agent-tools",
+      "name": "JMT x402 Agent Tools",
+      "title": "JMT x402 Agent Tools",
+      "description": "Paid x402 HTTP-402 endpoints on Base mainnet that let agents pay-per-call in USDC for web search, AI analysis, crypto and stock market data, SEC…",
+      "category": "Integrations & Connectors",
+      "framework": "Custom Agents",
+      "verification": "listed"
+    },
     {
       "slug": "build-authenticated-mcp-servers-from-python-files-with-golf",
       "name": "Build authenticated MCP servers from Python files with Golf",

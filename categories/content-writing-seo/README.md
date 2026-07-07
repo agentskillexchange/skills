@@ -112,6 +112,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [SEMrush Content Optimizer Agent](../../skills/semrush-content-optimizer-agent/) | — | — |
 | [SEMrush Keyword Research Agent](../../skills/semrush-keyword-research-agent-api-v3/) | — | — |
 | [SEO Content Cluster Generator](../../skills/seo-content-cluster-generator/) | — | — |
+| [SEO Growth Loop](../../skills/seo-growth-loop/) | — | — |
 | [SEO Keyword Research Automator](../../skills/seo-keyword-research-automator/) | — | — |
 | [SEO Meta Tag Optimizer](../../skills/seo-meta-tag-optimizer-agent/) | — | — |
 | [SEO Schema Markup Generator](../../skills/seo-schema-markup-generator-agent/) | — | — |

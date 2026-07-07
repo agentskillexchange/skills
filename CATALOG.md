@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2690 published skills** across **17 categories** · 2,316 security reviewed · Updated 2026-07-06 19:26 UTC
+> **2693 published skills** across **17 categories** · 2,316 security reviewed · Updated 2026-07-07 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -616,7 +616,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (210 skills)
+### 🔄 Data Extraction & Transformation (211 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -827,6 +827,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Process, redact, OCR, and sign documents with Nutrient Agent Skill](skills/process-redact-ocr-and-sign-documents-with-nutrient-agent-skill/) | Give coding agents one promptable workflow surface for OCR, extraction, redaction, form filling, conversion, and… | Security Reviewed | 5 | — |
 | [Convert HTML emails and web fragments into clean plain text for downstream agents](skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/) | Use html-to-text when an agent receives raw HTML from inboxes, support systems, or scraped pages and needs readable… | Published | — | 8.2M/wk |
 | [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | Use the Anthropic xlsx skill when an agent needs to create, clean up, or modify .xlsx, .xlsm, .csv, or .tsv files as… | Security Reviewed | — | — |
+| [Live Search Console Data](skills/live-search-console-data/) | Give Claude Code, Codex, or OpenCode live access to Google Search Console and GA4 data through RefreshAgent.… | Published | — | — |
 | [Metabase Dashboard Snapshot & Alerting](skills/metabase-dashboard-snapshot-alerting-2/) | Uses the Metabase REST API to export question results as CSV and render dashboard PNGs on schedule. Compares key… | Security Reviewed | — | — |
 | [Parquet to PostgreSQL Loader](skills/parquet-to-postgresql-loader/) | Reads Apache Parquet files using PyArrow and bulk-loads them into PostgreSQL via psycopg2 COPY protocol. Handles… | Published | — | — |
 | [QuickBooks Online Invoice Reconciliation Agent](skills/quickbooks-invoice-reconciliation/) | Connects to the QuickBooks Online Accounting API using OAuth 2.0 via the intuit-oauth Node.js SDK to fetch unpaid… | Published | — | — |
@@ -1767,7 +1768,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Published | — | — |
 
 
-### 🔗 Integrations & Connectors (145 skills)
+### 🔗 Integrations & Connectors (146 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1914,6 +1915,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Normalize international phone numbers into E.164 before CRM imports or messaging workflows](skills/normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows/) | Use libphonenumber-js when an agent needs to clean messy phone-number input, validate it against country rules, and… | Published | — | 15.6M/wk |
 | [AssemblyAI Real-Time Call Intelligence](skills/assemblyai-realtime-call-intelligence/) | Streams audio from Twilio Media Streams over WebSocket to AssemblyAI real-time transcription, extracting… | Security Reviewed | — | — |
 | [GitHub Discussions Community Digest](skills/github-discussions-community-digest/) | Queries GitHub GraphQL API for new and unanswered Discussions, ranks them by reaction count and recency, and drafts… | Security Reviewed | — | — |
+| [JMT x402 Agent Tools](skills/jmt-x402-agent-tools/) | Paid x402 HTTP-402 endpoints on Base mainnet that let agents pay-per-call in USDC for web search, AI analysis,… | Published | — | — |
 | [Linear Issue Triage & Sprint Planner](skills/linear-issue-triage-sprint-planner-2/) | Queries the Linear GraphQL API to list open issues by team, priority, and cycle, then applies configurable triage… | Security Reviewed | — | — |
 | [Plaid Financial Data Connector](skills/plaid-financial-data-connector/) | Connects to bank accounts via Plaid Link SDK and retrieves transaction data using the Plaid Transactions API.… | Security Reviewed | — | — |
 | [Zapier Multi-Step Lead Enrichment Workflow](skills/zapier-lead-enrichment-workflow/) | Builds a Zapier automation using the Zapier NLA API to trigger on new HubSpot form submissions and enrich contact… | Security Reviewed | — | — |
@@ -2748,7 +2750,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [RunPod Serverless GPU Inference](skills/runpod-serverless-gpu-inference/) | Deploy and manage GPU inference endpoints on RunPod Serverless using their REST API. Handles endpoint creation, cold… | Security Reviewed | — | — |
 
 
-### ✍️ Content Writing & SEO (79 skills)
+### ✍️ Content Writing & SEO (80 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
 
@@ -2826,6 +2828,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [SEMrush Content Optimizer Agent](skills/semrush-content-optimizer-agent/) | Integrates with SEMrush Writing Assistant API to analyze content against top-10 SERP competitors. Provides real-time… | Published | — | — |
 | [SEMrush Keyword Research Agent](skills/semrush-keyword-research-agent-api-v3/) | Performs keyword research using SEMrush API v3 with domain analytics, keyword difficulty scoring, and SERP feature… | Security Reviewed | — | — |
 | [SEO Content Cluster Generator](skills/seo-content-cluster-generator/) | Builds topical authority clusters using SEMrush Keyword Magic API, Ahrefs Content Explorer, and Google Search… | Published | — | — |
+| [SEO Growth Loop](skills/seo-growth-loop/) | Run a closed-loop SEO growth workflow using Search Console data, keyword demand analysis, SERP Authority Mark… | Published | — | — |
 | [SEO Keyword Research Automator](skills/seo-keyword-research-automator/) | Automated keyword research using DataForSEO API and Google Search Console API. Performs SERP analysis, keyword… | Published | — | — |
 | [SEO Meta Tag Optimizer](skills/seo-meta-tag-optimizer-agent/) | Generates optimized title tags, meta descriptions, and Open Graph markup using Google NLP API for entity salience… | Security Reviewed | — | — |
 | [SEO Schema Markup Generator](skills/seo-schema-markup-generator-agent/) | Generates JSON-LD structured data for articles, products, FAQs, and local business schemas using Schema.org… | Security Reviewed | — | — |
