@@ -2,10 +2,10 @@
 name: "JMT x402 Agent Tools"
 slug: "jmt-x402-agent-tools"
 description: "Paid x402 HTTP-402 endpoints on Base mainnet that let agents pay-per-call in USDC for web search, AI analysis, crypto and stock market data, SEC filings, company intelligence, news, sentiment scoring, and a macro dashboard. 25 endpoints priced $0.001-$0.15/call, returning JSON. The proxy fronts local LLM inference and public data APIs so an agent can fetch grounded market, filings, and news data without API keys, charging micropayments via the x402 facilitator protocol."
+verification: "listed"
+source: "https://jmt-x402-proxy.jmthomasofficial.workers.dev"
 category: "Integrations & Connectors"
 framework: "Custom Agents"
-verification: listed
-source: "https://jmt-x402-proxy.jmthomasofficial.workers.dev"
 ---
 
 # JMT x402 Agent Tools
