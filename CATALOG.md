@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2695 published skills** across **17 categories** · 2,318 security reviewed · Updated 2026-07-07 07:26 UTC
+> **2695 published skills** across **17 categories** · 2,318 security reviewed · Updated 2026-07-07 13:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -265,7 +265,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Mods AI-Powered Command-Line LLM Interface by Charmbracelet](skills/mods-charmbracelet-ai-cli-llm/) | Mods is a CLI tool by Charmbracelet that pipes stdin directly to large language models. It enables AI-powered text… | Security Reviewed | 4.5k | — |
 | [Azure CLI — Command-Line Interface for Microsoft Azure](skills/azure-cli-microsoft-cloud/) | The Azure CLI provides cross-platform command-line access to Microsoft Azure services for managing VMs, databases,… | Security Reviewed | 4.5k | — |
 | [Build, test, and package PostgreSQL extensions in Rust with pgrx](skills/build-test-and-package-postgresql-extensions-in-rust-with-pgrx/) | Use pgrx when an agent needs the Rust-native extension lifecycle for PostgreSQL, including local builds, test runs,… | Security Reviewed | 4.5k | — |
-| [Webhook Debugger](skills/webhook-debugger/) | Webhook Debugger is built around Stripe payments platform. The underlying ecosystem is represented by… | Security Reviewed | 4.4k | 13.8M/wk |
+| [Webhook Debugger](skills/webhook-debugger/) | Webhook Debugger is built around Stripe payments platform. The underlying ecosystem is represented by… | Security Reviewed | 4.4k | 13.9M/wk |
 | [Freeze Code and Terminal Screenshot Generator](skills/freeze-code-terminal-screenshot-generator/) | Freeze by Charmbracelet generates polished PNG and SVG images of code snippets and terminal output. It supports… | Security Reviewed | 4.4k | — |
 | [Spin up isolated git worktrees for parallel Claude Code and Codex branches with Worktrunk](skills/spin-up-isolated-git-worktrees-for-parallel-claude-code-and-codex-branches-with-worktrunk/) | Create, switch, and clean per-branch worktrees so multiple coding agents can work the same repo in parallel without… | Security Reviewed | 4.4k | — |
 | [MySQL Query Agent](skills/mysql-query-agent/) | MySQL Query Agent is built around MySQL relational database. The underlying ecosystem is represented by… | Security Reviewed | 4.4k | 8.9M/wk |
