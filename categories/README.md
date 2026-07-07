@@ -1,10 +1,10 @@
 # Categories
 
-> **2693 skills** across **17 categories**
+> **2695 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
-| 🛠️ | [**Developer Tools**](developer-tools/) | **356** | CLI helpers, dev environment setup, productivity utilities, and devel... |
+| 🛠️ | [**Developer Tools**](developer-tools/) | **357** | CLI helpers, dev environment setup, productivity utilities, and devel... |
 | 🔒 | [**Security & Verification**](security-verification/) | **236** | Auth setup, vulnerability scanning, compliance checks, and security a... |
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **211** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **192** | Project scaffolding, boilerplate generators, workflow templates, and ... |
@@ -15,7 +15,7 @@
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **146** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **125** | Email automation, calendar management, task coordination, and product... |
 | 📚 | [**Library & API Reference**](library-api-reference/) | **123** | SDK documentation, API guides, framework reference material, and libr... |
-| 🌐 | [**Browser Automation**](browser-automation/) | **118** | Web scraping, UI testing, headless browser control, and browser-based... |
+| 🌐 | [**Browser Automation**](browser-automation/) | **119** | Web scraping, UI testing, headless browser control, and browser-based... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **116** | Web research, data collection, content aggregation, and information g... |
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **105** | Audio/video processing, speech-to-text, media conversion, and transcr... |
 | 📰 | [**WordPress & CMS**](wordpress-cms/) | **96** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |

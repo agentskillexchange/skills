@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-07
-# Total: 2693 skills
+# Total: 2695 skills
+
+## Build embeddable Rust coding agents with Cersei
+slug: build-embeddable-rust-coding-agents-with-cersei
+category: Developer Tools
+framework: Custom Agents
+verification: Security Reviewed
+description: Compose coding-agent primitives in Rust, including tool execution, LLM streaming, sub-agent orchestration, memory, and MCP support, as an embeddable application workflow.
+url: https://agentskillexchange.com/skills/build-embeddable-rust-coding-agents-with-cersei/
+
+## Browse from MCP clients with Browser Use MCP Server
+slug: browse-from-mcp-clients-with-browser-use-mcp-server
+category: Browser Automation
+framework: MCP
+verification: Security Reviewed
+description: Expose browser-use web automation through an MCP server so Cursor or another MCP client can operate websites with browser state returned to the agent.
+url: https://agentskillexchange.com/skills/browse-from-mcp-clients-with-browser-use-mcp-server/
 
 ## SEO Growth Loop
 slug: seo-growth-loop

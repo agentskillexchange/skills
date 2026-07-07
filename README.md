@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C693-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C695-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C318-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,693 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,695 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Build embeddable Rust coding agents with Cersei](skills/build-embeddable-rust-coding-agents-with-cersei/) | Compose coding-agent primitives in Rust, including tool execution, LLM streaming, sub-agent orchestration, memory, and MCP support, as an... | 400 | Developer Tools |
+| [Browse from MCP clients with Browser Use MCP Server](skills/browse-from-mcp-clients-with-browser-use-mcp-server/) | Expose browser-use web automation through an MCP server so Cursor or another MCP client can operate websites with... | 827 | Browser Automation |
 | [SEO Growth Loop](skills/seo-growth-loop/) | Run a closed-loop SEO growth workflow using Search Console data, keyword demand analysis, SERP Authority Mark checks, and... | - | Content Writing & SEO |
 | [Live Search Console Data](skills/live-search-console-data/) | Give Claude Code, Codex, or OpenCode live access to Google Search Console and GA4 data through RefreshAgent. Provides... | - | Data Extraction & Transformation |
 | [JMT x402 Agent Tools](skills/jmt-x402-agent-tools/) | Paid x402 HTTP-402 endpoints on Base mainnet that let agents pay-per-call in USDC for web search, AI analysis... | - | Integrations & Connectors |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Query real-time global intelligence through Worldmonitor MCP](skills/query-real-time-global-intelligence-through-worldmonitor-mcp/) | Give MCP-capable agents a live global-intelligence surface for country briefs, risk scores, conflict, cyber, market, weather, and infrastructure... | 61.4k | Monitoring & Alerts |
 | [Enforce pull-request approval policy with Policy Bot](skills/enforce-pull-request-approval-policy-with-policy-bot/) | Codify complex GitHub review rules, evaluate pull requests, and expose approval status as a required check | 1.0k | Code Quality & Review |
 | [Parse documents into structured content for agent ingestion with Dedoc](skills/parse-documents-into-structured-content-for-agent-ingestion-with-dedoc/) | Extract document text, tables, logical structure, and metadata into normalized output before RAG, review, or workflow automation | 712 | Data Extraction & Transformation |
-| [Query operational databases from MCP clients with DBHub](skills/query-operational-databases-from-mcp-clients-with-dbhub/) | Use DBHub to expose guarded, token-efficient database inspection and SQL tools to MCP clients across Postgres, MySQL, SQL... | 3.1k | Data Extraction & Transformation |
-| [Inspect PDFs with evidence-first MCP workflows using PDF Reader MCP](skills/inspect-pdfs-with-evidence-first-mcp-workflows-using-pdf-reader-mcp/) | Connect PDF Reader MCP when an agent needs source-backed PDF extraction with page evidence, visual crops, OCR provenance... | 807 | Data Extraction & Transformation |
 
 ---
 
@@ -123,7 +123,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 356 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 357 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 236 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 211 | ETL pipelines, parsing, format conversion |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 192 | Scaffolders, boilerplate generators, workflow templates |
@@ -134,7 +134,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 146 | Third-party API bridges, webhooks, service connectors |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 125 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 123 | SDK docs, API parsers, symbol resolvers |
-| 🌐 | [**Browser Automation**](categories/browser-automation/) | 118 | Web scraping, UI testing, headless browser control |
+| 🌐 | [**Browser Automation**](categories/browser-automation/) | 119 | Web scraping, UI testing, headless browser control |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 116 | Web research, content discovery, data collection |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 105 | Audio/video processing, speech-to-text |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,693 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,695 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,318 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

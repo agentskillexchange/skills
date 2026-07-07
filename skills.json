@@ -1,8 +1,32 @@
 {
   "version": "2.0",
-  "total": 2693,
+  "total": 2695,
   "generated": "2026-07-07",
   "skills": [
+    {
+      "slug": "build-embeddable-rust-coding-agents-with-cersei",
+      "name": "Build embeddable Rust coding agents with Cersei",
+      "title": "Build embeddable Rust coding agents with Cersei",
+      "description": "Compose coding-agent primitives in Rust, including tool execution, LLM streaming, sub-agent orchestration, memory, and MCP support, as an embeddable application workflow.",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 400
+      }
+    },
+    {
+      "slug": "browse-from-mcp-clients-with-browser-use-mcp-server",
+      "name": "Browse from MCP clients with Browser Use MCP Server",
+      "title": "Browse from MCP clients with Browser Use MCP Server",
+      "description": "Expose browser-use web automation through an MCP server so Cursor or another MCP client can operate websites with browser state returned to the agent.",
+      "category": "Browser Automation",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 827
+      }
+    },
     {
       "slug": "seo-growth-loop",
       "name": "SEO Growth Loop",
@@ -248,7 +272,8 @@
       "framework": "Custom Agents",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 405
+        "github_stars": 405,
+        "npm_weekly_downloads": 3474
       }
     },
     {

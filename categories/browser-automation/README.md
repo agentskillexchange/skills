@@ -145,6 +145,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Apply site-specific action manuals with Actionbook](../../skills/apply-site-specific-action-manuals-with-actionbook/) | 1.5k | 4.7k/wk |
 | [CDP Network Interception Logger](../../skills/cdp-network-interception-logger/) | 1.5k | 23.7M/wk |
 | [Browserable Self-Hostable Browser Automation for AI Agents](../../skills/browserable-self-hostable-browser-automation-ai-agents/) | 1.2k | 21/wk |
+| [Browse from MCP clients with Browser Use MCP Server](../../skills/browse-from-mcp-clients-with-browser-use-mcp-server/) | 827 | — |
 | [Control hosted browser research and extraction through Hyperbrowser MCP](../../skills/control-hosted-browser-research-and-extraction-through-hyperbrowser-mcp/) | 770 | 3.2k/wk |
 | [Run supervised MCP browser automation with Auto Browser](../../skills/run-supervised-mcp-browser-automation-with-auto-browser/) | 565 | — |
 | [Run deterministic browser steps with settled screenshots and event logs for agents](../../skills/run-deterministic-browser-steps-with-settled-screenshots-and-event-logs-for-agents/) | 436 | 1.7k/wk |

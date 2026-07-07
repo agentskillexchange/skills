@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2693 published skills** across **17 categories** · 2,318 security reviewed · Updated 2026-07-07 01:26 UTC
+> **2695 published skills** across **17 categories** · 2,318 security reviewed · Updated 2026-07-07 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (356 skills)
+### 🛠️ Developer Tools (357 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -335,7 +335,8 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Preview and approve coding-agent execution plans with Overture](skills/preview-and-approve-coding-agent-execution-plans-with-overture/) | Render an AI coding agent's plan as an interactive flowchart so a human can inspect dependencies, attach context,… | Security Reviewed | 619 | 320/wk |
 | [Run deterministic SQL and dbt analysis under coding agents with Altimate Code](skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/) | Adds deterministic SQL analysis, dbt-aware tooling, warehouse metadata, lineage, and test-generation workflows… | Published | 552 | 195/wk |
 | [Give coding agents sandboxed shell runtimes with SWE-ReX](skills/give-coding-agents-sandboxed-shell-runtimes-with-swe-rex/) | Use SWE-ReX when a coding agent needs a consistent runtime interface for local, containerized, or remote shell… | Security Reviewed | 543 | — |
-| [Orchestrate review-first multi-agent development work with Kandev](skills/orchestrate-review-first-multi-agent-development-work-with-kandev/) | Use Kandev when an operator needs to plan, run, isolate, review, and ship multiple coding-agent tasks through a… | Security Reviewed | 405 | — |
+| [Orchestrate review-first multi-agent development work with Kandev](skills/orchestrate-review-first-multi-agent-development-work-with-kandev/) | Use Kandev when an operator needs to plan, run, isolate, review, and ship multiple coding-agent tasks through a… | Security Reviewed | 405 | 3.5k/wk |
+| [Build embeddable Rust coding agents with Cersei](skills/build-embeddable-rust-coding-agents-with-cersei/) | Compose coding-agent primitives in Rust, including tool execution, LLM streaming, sub-agent orchestration, memory,… | Security Reviewed | 400 | — |
 | [E2B Code Execution MCP](skills/e2b-code-execution-mcp/) | Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected… | Security Reviewed | 393 | 4.1k/wk |
 | [Temporal CLI Workflow and Server Control](skills/temporal-cli-workflow-server-control/) | Temporal CLI runs a local Temporal server and talks to workflows, activities, and namespaces. It is the practical… | Security Reviewed | 350 | — |
 | [Install focused Claude Code workflow plugins from Claude Night Market](skills/install-focused-claude-code-workflow-plugins-from-claude-night-market/) | Review and install only the Claude Night Market plugins needed for a specific Claude Code workflow, such as PR prep,… | Security Reviewed | 291 | — |
@@ -2186,7 +2187,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Rust Crates.io Explorer](skills/rust-crates-io-explorer/) | Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates… | Published | — | — |
 
 
-### 🌐 Browser Automation (118 skills)
+### 🌐 Browser Automation (119 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
@@ -2297,6 +2298,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Apply site-specific action manuals with Actionbook](skills/apply-site-specific-action-manuals-with-actionbook/) | Load maintained action manuals for fragile websites so agents can execute known flows more reliably than generic… | Security Reviewed | 1.5k | 4.7k/wk |
 | [CDP Network Interception Logger](skills/cdp-network-interception-logger/) | Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify… | Published | 1.5k | 23.7M/wk |
 | [Browserable Self-Hostable Browser Automation for AI Agents](skills/browserable-self-hostable-browser-automation-ai-agents/) | Browserable is an open-source, self-hostable browser automation library built for AI agents. This skill turns… | Security Reviewed | 1.2k | 21/wk |
+| [Browse from MCP clients with Browser Use MCP Server](skills/browse-from-mcp-clients-with-browser-use-mcp-server/) | Expose browser-use web automation through an MCP server so Cursor or another MCP client can operate websites with… | Security Reviewed | 827 | — |
 | [Control hosted browser research and extraction through Hyperbrowser MCP](skills/control-hosted-browser-research-and-extraction-through-hyperbrowser-mcp/) | Give MCP clients hosted browser tools for scraping, crawling, structured extraction, search, and computer-use… | Security Reviewed | 770 | 3.2k/wk |
 | [Run supervised MCP browser automation with Auto Browser](skills/run-supervised-mcp-browser-automation-with-auto-browser/) | Give an MCP-capable agent a local Playwright browser with human takeover, reusable auth profiles, approvals, audit… | Security Reviewed | 565 | — |
 | [Run deterministic browser steps with settled screenshots and event logs for agents](skills/run-deterministic-browser-steps-with-settled-screenshots-and-event-logs-for-agents/) | Use Agent Browser Protocol when an agent needs browser actions to resolve into stable step results, complete with… | Security Reviewed | 436 | 1.7k/wk |
