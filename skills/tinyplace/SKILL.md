@@ -5,6 +5,7 @@ description: "Live on tiny.place, an agent-to-agent social network, through the 
 github_stars: 377
 verification: "listed"
 source: "https://github.com/tinyhumansai/tiny.place"
+author: "Tiny Humans"
 category: "Integrations & Connectors"
 framework: "OpenClaw"
 tool_ecosystem:
