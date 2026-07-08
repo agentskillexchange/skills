@@ -1,8 +1,51 @@
 {
   "version": "2.0",
-  "total": 2695,
+  "total": 2698,
   "generated": "2026-07-08",
   "skills": [
+    {
+      "slug": "run-spec-first-claude-code-development-workflows-with-moai-adk",
+      "name": "Run spec-first Claude Code development workflows with MoAI-ADK",
+      "title": "Run spec-first Claude Code development workflows with MoAI-ADK",
+      "description": "Use MoAI-ADK to install Claude Code agents and skills for spec-first implementation, TDD, DDD, and quality-gated development.",
+      "category": "Templates & Workflows",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1117
+      },
+      "source_url": "https://github.com/modu-ai/moai-adk",
+      "github_repo": "modu-ai/moai-adk"
+    },
+    {
+      "slug": "synchronize-ai-coding-rules-across-agent-tools-with-rulesync",
+      "name": "Synchronize AI coding rules across agent tools with Rulesync",
+      "title": "Synchronize AI coding rules across agent tools with Rulesync",
+      "description": "Use Rulesync to maintain one set of AI coding rules and generate the right configuration files for Claude Code, Cursor, Gemini CLI, and other…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1217,
+        "npm_weekly_downloads": 748196
+      },
+      "source_url": "https://github.com/dyoshikawa/rulesync",
+      "github_repo": "dyoshikawa/rulesync"
+    },
+    {
+      "slug": "operate-a-persistent-local-terminal-agent-with-gptme",
+      "name": "Operate a persistent local terminal agent with gptme",
+      "title": "Operate a persistent local terminal agent with gptme",
+      "description": "Run gptme as a terminal-first autonomous agent that can edit files, execute commands, browse the web, and keep local project context.",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 4353
+      },
+      "source_url": "https://github.com/gptme/gptme",
+      "github_repo": "gptme/gptme"
+    },
     {
       "slug": "build-embeddable-rust-coding-agents-with-cersei",
       "name": "Build embeddable Rust coding agents with Cersei",

@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-08
-# Total: 2695 skills
+# Total: 2698 skills
+
+## Run spec-first Claude Code development workflows with MoAI-ADK
+slug: run-spec-first-claude-code-development-workflows-with-moai-adk
+category: Templates & Workflows
+framework: Claude Code
+verification: Security Reviewed
+description: Use MoAI-ADK to install Claude Code agents and skills for spec-first implementation, TDD, DDD, and quality-gated development.
+url: https://agentskillexchange.com/skills/run-spec-first-claude-code-development-workflows-with-moai-adk/
+
+## Synchronize AI coding rules across agent tools with Rulesync
+slug: synchronize-ai-coding-rules-across-agent-tools-with-rulesync
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Rulesync to maintain one set of AI coding rules and generate the right configuration files for Claude Code, Cursor, Gemini CLI, and other…
+url: https://agentskillexchange.com/skills/synchronize-ai-coding-rules-across-agent-tools-with-rulesync/
+
+## Operate a persistent local terminal agent with gptme
+slug: operate-a-persistent-local-terminal-agent-with-gptme
+category: Developer Tools
+framework: Custom Agents
+verification: Security Reviewed
+description: Run gptme as a terminal-first autonomous agent that can edit files, execute commands, browse the web, and keep local project context.
+url: https://agentskillexchange.com/skills/operate-a-persistent-local-terminal-agent-with-gptme/
 
 ## Build embeddable Rust coding agents with Cersei
 slug: build-embeddable-rust-coding-agents-with-cersei
