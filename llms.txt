@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-08
-# Total: 2700 skills
+# Total: 2703 skills
+
+## Run Genie planning and execution loops in Claude Code
+slug: run-genie-planning-execution-loops-in-claude-code
+category: Developer Tools
+framework: Claude Code
+verification: Security Reviewed
+description: Use Genie to turn a vague coding request into Claude Code brainstorm, wish, work, and review loops backed by markdown plans and local SQLite…
+url: https://agentskillexchange.com/skills/run-genie-planning-execution-loops-in-claude-code/
+
+## Manage parallel coding agents with Agent of Empires
+slug: manage-parallel-coding-agents-with-agent-of-empires
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Agent of Empires to launch, monitor, sandbox, resume, and review multiple coding-agent sessions from a TUI or web dashboard.
+url: https://agentskillexchange.com/skills/manage-parallel-coding-agents-with-agent-of-empires/
+
+## Design loop engineering workflows for coding agents
+slug: design-loop-engineering-workflows-for-coding-agents
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Loop Engineering to scaffold, audit, and operate repeatable coding-agent loops with explicit state, budget, readiness, and tool-specific patterns.
+url: https://agentskillexchange.com/skills/design-loop-engineering-workflows-for-coding-agents/
 
 ## Parse Korean office documents for agents with kordoc
 slug: parse-korean-office-documents-for-agents-with-kordoc

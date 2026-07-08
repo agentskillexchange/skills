@@ -270,6 +270,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Soft Serve Self-Hosted Git Server with SSH TUI](../../skills/soft-serve-self-hosted-git-server-ssh-tui/) | 6.8k | — |
 | [Pixi Cross-Platform Package Manager Built on Conda](../../skills/pixi-cross-platform-package-manager-conda-rust/) | 6.7k | — |
 | [devenv Declarative Developer Environments with Nix](../../skills/devenv-declarative-developer-environments-nix/) | 6.6k | — |
+| [Design loop engineering workflows for coding agents](../../skills/design-loop-engineering-workflows-for-coding-agents/) | 6.6k | 2.7k/wk |
 | [Build production agent harnesses with Strands Agents](../../skills/build-production-agent-harnesses-with-strands-agents/) | 6.4k | 60.4k/wk |
 | [pgroll PostgreSQL Zero-Downtime Schema Migration](../../skills/pgroll-postgresql-zero-downtime-schema-migration/) | 6.4k | — |
 | [Embed bounded Claude Code sessions into Python automation with the Claude Agent SDK](../../skills/embed-bounded-claude-code-sessions-into-python-automation-with-the-claude-agent-sdk/) | 6.4k | — |
@@ -316,6 +317,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [OpenAPI Spec Validator](../../skills/openapi-spec-validator-agent/) | 3.1k | 1.2M/wk |
 | [Record and replay HTTP fixtures for deterministic Python tests with VCR.py](../../skills/record-and-replay-http-fixtures-for-deterministic-python-tests-with-vcr-py/) | 3k | — |
 | [LangGraph.js Agent Orchestration Framework](../../skills/langgraph-js-agent-orchestration-framework/) | 2.8k | — |
+| [Manage parallel coding agents with Agent of Empires](../../skills/manage-parallel-coding-agents-with-agent-of-empires/) | 2.8k | — |
 | [Find and group duplicate files across large trees before cleanup migration or backup with fclones](../../skills/find-and-group-duplicate-files-across-large-trees-before-cleanup-migration-or-backup-with-fclones/) | 2.7k | — |
 | [gitu Magit-Inspired Terminal Git Interface](../../skills/gitu-magit-inspired-terminal-git-interface/) | 2.7k | — |
 | [files-to-prompt Directory Concatenator for LLM Context](../../skills/files-to-prompt-directory-concatenator-llm-context/) | 2.6k | — |
@@ -368,6 +370,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Build embeddable Rust coding agents with Cersei](../../skills/build-embeddable-rust-coding-agents-with-cersei/) | 400 | — |
 | [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 393 | 4.1k/wk |
 | [Temporal CLI Workflow and Server Control](../../skills/temporal-cli-workflow-server-control/) | 350 | — |
+| [Run Genie planning and execution loops in Claude Code](../../skills/run-genie-planning-execution-loops-in-claude-code/) | 323 | — |
 | [Install focused Claude Code workflow plugins from Claude Night Market](../../skills/install-focused-claude-code-workflow-plugins-from-claude-night-market/) | 291 | — |
 | [Run agent tool calls through pctx Code Mode and unified MCP](../../skills/run-agent-tool-calls-through-pctx-code-mode-and-unified-mcp/) | 264 | 285/wk |
 | [Back up GitHub, GitLab, Bitbucket, and Forgejo repositories with gitbackup](../../skills/back-up-github-gitlab-bitbucket-and-forgejo-repositories-with-gitbackup/) | 218 | — |

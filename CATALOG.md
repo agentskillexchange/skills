@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2700 published skills** across **17 categories** · 2,326 security reviewed · Updated 2026-07-08 13:26 UTC
+> **2703 published skills** across **17 categories** · 2,326 security reviewed · Updated 2026-07-08 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (360 skills)
+### 🛠️ Developer Tools (363 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -244,6 +244,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Soft Serve Self-Hosted Git Server with SSH TUI](skills/soft-serve-self-hosted-git-server-ssh-tui/) | Soft Serve is a self-hostable Git server by Charmbracelet that provides a beautiful terminal UI accessible over SSH.… | Security Reviewed | 6.8k | — |
 | [Pixi Cross-Platform Package Manager Built on Conda](skills/pixi-cross-platform-package-manager-conda-rust/) | A blazing-fast, cross-platform package manager and workflow tool written in Rust. Pixi builds on the Conda ecosystem… | Security Reviewed | 6.7k | — |
 | [devenv Declarative Developer Environments with Nix](skills/devenv-declarative-developer-environments-nix/) | A fast, declarative, and reproducible developer environment tool built on Nix. devenv lets teams define project… | Security Reviewed | 6.6k | — |
+| [Design loop engineering workflows for coding agents](skills/design-loop-engineering-workflows-for-coding-agents/) | Use Loop Engineering to scaffold, audit, and operate repeatable coding-agent loops with explicit state, budget,… | Security Reviewed | 6.6k | 2.7k/wk |
 | [Build production agent harnesses with Strands Agents](skills/build-production-agent-harnesses-with-strands-agents/) | Use Strands Agents to assemble model-agnostic Python or TypeScript agent harnesses with tools, MCP, guardrails,… | Security Reviewed | 6.4k | 60.4k/wk |
 | [pgroll PostgreSQL Zero-Downtime Schema Migration](skills/pgroll-postgresql-zero-downtime-schema-migration/) | pgroll is an open-source CLI tool by Xata that performs zero-downtime, reversible schema migrations for PostgreSQL.… | Security Reviewed | 6.4k | — |
 | [Embed bounded Claude Code sessions into Python automation with the Claude Agent SDK](skills/embed-bounded-claude-code-sessions-into-python-automation-with-the-claude-agent-sdk/) | Use the Claude Agent SDK for Python when an existing script or service needs to delegate scoped repo work to Claude… | Security Reviewed | 6.4k | — |
@@ -290,6 +291,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [OpenAPI Spec Validator](skills/openapi-spec-validator-agent/) | Validates and lints OpenAPI 3.0/3.1 specifications using Spectral CLI rules and the Swagger Parser library. Detects… | Security Reviewed | 3.1k | 1.2M/wk |
 | [Record and replay HTTP fixtures for deterministic Python tests with VCR.py](skills/record-and-replay-http-fixtures-for-deterministic-python-tests-with-vcr-py/) | Use VCR.py when an agent needs to turn flaky, slow, or rate-limited Python tests into stable runs by recording real… | Security Reviewed | 3k | — |
 | [LangGraph.js Agent Orchestration Framework](skills/langgraph-js-agent-orchestration-framework/) | A verified skill for LangGraph.js, the graph-based orchestration framework from LangChain. It focuses on… | Published | 2.8k | — |
+| [Manage parallel coding agents with Agent of Empires](skills/manage-parallel-coding-agents-with-agent-of-empires/) | Use Agent of Empires to launch, monitor, sandbox, resume, and review multiple coding-agent sessions from a TUI or… | Security Reviewed | 2.8k | — |
 | [Find and group duplicate files across large trees before cleanup migration or backup with fclones](skills/find-and-group-duplicate-files-across-large-trees-before-cleanup-migration-or-backup-with-fclones/) | Scan large directory trees for duplicate or under-replicated files, then review grouped results before cleanup actions. | Published | 2.7k | — |
 | [gitu Magit-Inspired Terminal Git Interface](skills/gitu-magit-inspired-terminal-git-interface/) | A fast terminal user interface for Git inspired by Emacs Magit, written in Rust. gitu provides keyboard-driven… | Published | 2.7k | — |
 | [files-to-prompt Directory Concatenator for LLM Context](skills/files-to-prompt-directory-concatenator-llm-context/) | files-to-prompt by Simon Willison concatenates an entire directory of files into a single prompt for use with LLMs.… | Security Reviewed | 2.6k | — |
@@ -342,6 +344,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Build embeddable Rust coding agents with Cersei](skills/build-embeddable-rust-coding-agents-with-cersei/) | Compose coding-agent primitives in Rust, including tool execution, LLM streaming, sub-agent orchestration, memory,… | Security Reviewed | 400 | — |
 | [E2B Code Execution MCP](skills/e2b-code-execution-mcp/) | Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected… | Security Reviewed | 393 | 4.1k/wk |
 | [Temporal CLI Workflow and Server Control](skills/temporal-cli-workflow-server-control/) | Temporal CLI runs a local Temporal server and talks to workflows, activities, and namespaces. It is the practical… | Security Reviewed | 350 | — |
+| [Run Genie planning and execution loops in Claude Code](skills/run-genie-planning-execution-loops-in-claude-code/) | Use Genie to turn a vague coding request into Claude Code brainstorm, wish, work, and review loops backed by… | Security Reviewed | 323 | — |
 | [Install focused Claude Code workflow plugins from Claude Night Market](skills/install-focused-claude-code-workflow-plugins-from-claude-night-market/) | Review and install only the Claude Night Market plugins needed for a specific Claude Code workflow, such as PR prep,… | Security Reviewed | 291 | — |
 | [Run agent tool calls through pctx Code Mode and unified MCP](skills/run-agent-tool-calls-through-pctx-code-mode-and-unified-mcp/) | Put pctx between agents and tools so MCP servers and custom tools can run through a code-oriented execution layer… | Security Reviewed | 264 | 285/wk |
 | [Back up GitHub, GitLab, Bitbucket, and Forgejo repositories with gitbackup](skills/back-up-github-gitlab-bitbucket-and-forgejo-repositories-with-gitbackup/) | Run repeatable cross-forge repository backup jobs from one config instead of hand-scripting clone and export steps… | Security Reviewed | 218 | — |

@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C700-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C703-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C326-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,700 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,703 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,9 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Run Genie planning and execution loops in Claude Code](skills/run-genie-planning-execution-loops-in-claude-code/) | Use Genie to turn a vague coding request into Claude Code brainstorm, wish, work, and review loops backed... | 323 | Developer Tools |
+| [Manage parallel coding agents with Agent of Empires](skills/manage-parallel-coding-agents-with-agent-of-empires/) | Use Agent of Empires to launch, monitor, sandbox, resume, and review multiple coding-agent sessions from a TUI or... | 2.8k | Developer Tools |
+| [Design loop engineering workflows for coding agents](skills/design-loop-engineering-workflows-for-coding-agents/) | Use Loop Engineering to scaffold, audit, and operate repeatable coding-agent loops with explicit state, budget, readiness, and tool-specific... | 6.6k | Developer Tools |
 | [Parse Korean office documents for agents with kordoc](skills/parse-korean-office-documents-for-agents-with-kordoc/) | Use kordoc when an agent needs to parse HWP, HWPX, PDF, Excel, or DOCX files into Markdown, fill... | 1.4k | Data Extraction & Transformation |
 | [Run multi-session coding-agent workflows with jcode](skills/run-multi-session-coding-agent-workflows-with-jcode/) | Use jcode as a local coding-agent harness for long-running, multi-session repository work with custom provider and memory configuration | 8.2k | Developer Tools |
 | [Run spec-first Claude Code development workflows with MoAI-ADK](skills/run-spec-first-claude-code-development-workflows-with-moai-adk/) | Use MoAI-ADK to install Claude Code agents and skills for spec-first implementation, TDD, DDD, and quality-gated development | 1.1k | Templates & Workflows |
@@ -94,9 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Operate a persistent local terminal agent with gptme](skills/operate-a-persistent-local-terminal-agent-with-gptme/) | Run gptme as a terminal-first autonomous agent that can edit files, execute commands, browse the web, and keep... | 4.4k | Developer Tools |
 | [Build embeddable Rust coding agents with Cersei](skills/build-embeddable-rust-coding-agents-with-cersei/) | Compose coding-agent primitives in Rust, including tool execution, LLM streaming, sub-agent orchestration, memory, and MCP support, as an... | 400 | Developer Tools |
 | [Browse from MCP clients with Browser Use MCP Server](skills/browse-from-mcp-clients-with-browser-use-mcp-server/) | Expose browser-use web automation through an MCP server so Cursor or another MCP client can operate websites with... | 827 | Browser Automation |
-| [SEO Growth Loop](skills/seo-growth-loop/) | Run a closed-loop SEO growth workflow using Search Console data, keyword demand analysis, SERP Authority Mark checks, and... | - | Content Writing & SEO |
-| [Live Search Console Data](skills/live-search-console-data/) | Give Claude Code, Codex, or OpenCode live access to Google Search Console and GA4 data through RefreshAgent. Provides... | - | Data Extraction & Transformation |
-| [JMT x402 Agent Tools](skills/jmt-x402-agent-tools/) | Paid x402 HTTP-402 endpoints on Base mainnet that let agents pay-per-call in USDC for web search, AI analysis... | - | Integrations & Connectors |
 
 ---
 
@@ -106,9 +106,9 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Build production agent harnesses with Strands Agents](skills/build-production-agent-harnesses-with-strands-agents/) | Use Strands Agents to assemble model-agnostic Python or TypeScript agent harnesses with tools, MCP, guardrails, tracing, streaming, and... | 6.4k | Developer Tools |
 | [Run multi-provider coding-agent sessions with OpenClaude](skills/run-multi-provider-coding-agent-sessions-with-openclaude/) | Use OpenClaude when a repository task needs one terminal-first coding-agent workflow that can switch across cloud, local, Codex... | 29.5k | Developer Tools |
 | [Query operational databases from MCP clients with DBHub](skills/query-operational-databases-from-mcp-clients-with-dbhub/) | Use DBHub to expose guarded, token-efficient database inspection and SQL tools to MCP clients across Postgres, MySQL, SQL... | 3.1k | Data Extraction & Transformation |
-| [Build production agent harnesses with Strands Agents](skills/build-production-agent-harnesses-with-strands-agents/) | Use Strands Agents to assemble model-agnostic Python or TypeScript agent harnesses with tools, MCP, guardrails, tracing, streaming, and... | 6.4k | Developer Tools |
 | [Parse Korean office documents for agents with kordoc](skills/parse-korean-office-documents-for-agents-with-kordoc/) | Use kordoc when an agent needs to parse HWP, HWPX, PDF, Excel, or DOCX files into Markdown, fill... | 1.4k | Data Extraction & Transformation |
 | [Query real-time global intelligence through Worldmonitor MCP](skills/query-real-time-global-intelligence-through-worldmonitor-mcp/) | Give MCP-capable agents a live global-intelligence surface for country briefs, risk scores, conflict, cyber, market, weather, and infrastructure... | 61.4k | Monitoring & Alerts |
 | [Coordinate multi-agent Claude Code and Codex workflows with Ruflo](skills/coordinate-multi-agent-claude-code-and-codex-workflows-with-ruflo/) | Install Ruflo when an operator needs Claude Code or Codex agents to coordinate swarms, memory, hooks, and MCP... | 59.0k | Templates & Workflows |
@@ -123,7 +123,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 360 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 363 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 236 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 212 | ETL pipelines, parsing, format conversion |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 193 | Scaffolders, boilerplate generators, workflow templates |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,700 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,703 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,326 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

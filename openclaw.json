@@ -2,8 +2,41 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-08",
-  "total": 2700,
+  "total": 2703,
   "skills": [
+    {
+      "slug": "run-genie-planning-execution-loops-in-claude-code",
+      "name": "Run Genie planning and execution loops in Claude Code",
+      "title": "Run Genie planning and execution loops in Claude Code",
+      "description": "Use Genie to turn a vague coding request into Claude Code brainstorm, wish, work, and review loops backed by markdown plans and local SQLite…",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/automagik-dev/genie",
+      "github_repo": "automagik-dev/genie"
+    },
+    {
+      "slug": "manage-parallel-coding-agents-with-agent-of-empires",
+      "name": "Manage parallel coding agents with Agent of Empires",
+      "title": "Manage parallel coding agents with Agent of Empires",
+      "description": "Use Agent of Empires to launch, monitor, sandbox, resume, and review multiple coding-agent sessions from a TUI or web dashboard.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/agent-of-empires/agent-of-empires",
+      "github_repo": "agent-of-empires/agent-of-empires"
+    },
+    {
+      "slug": "design-loop-engineering-workflows-for-coding-agents",
+      "name": "Design loop engineering workflows for coding agents",
+      "title": "Design loop engineering workflows for coding agents",
+      "description": "Use Loop Engineering to scaffold, audit, and operate repeatable coding-agent loops with explicit state, budget, readiness, and tool-specific patterns.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/cobusgreyling/loop-engineering",
+      "github_repo": "cobusgreyling/loop-engineering"
+    },
     {
       "slug": "parse-korean-office-documents-for-agents-with-kordoc",
       "name": "Parse Korean office documents for agents with kordoc",
