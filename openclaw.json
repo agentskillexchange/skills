@@ -2,8 +2,30 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-08",
-  "total": 2698,
+  "total": 2700,
   "skills": [
+    {
+      "slug": "parse-korean-office-documents-for-agents-with-kordoc",
+      "name": "Parse Korean office documents for agents with kordoc",
+      "title": "Parse Korean office documents for agents with kordoc",
+      "description": "Use kordoc when an agent needs to parse HWP, HWPX, PDF, Excel, or DOCX files into Markdown, fill forms, compare documents, or expose document…",
+      "category": "Data Extraction & Transformation",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/chrisryugj/kordoc",
+      "github_repo": "chrisryugj/kordoc"
+    },
+    {
+      "slug": "run-multi-session-coding-agent-workflows-with-jcode",
+      "name": "Run multi-session coding-agent workflows with jcode",
+      "title": "Run multi-session coding-agent workflows with jcode",
+      "description": "Use jcode as a local coding-agent harness for long-running, multi-session repository work with custom provider and memory configuration.",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/1jehuang/jcode",
+      "github_repo": "1jehuang/jcode"
+    },
     {
       "slug": "run-spec-first-claude-code-development-workflows-with-moai-adk",
       "name": "Run spec-first Claude Code development workflows with MoAI-ADK",

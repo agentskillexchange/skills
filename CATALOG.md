@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2698 published skills** across **17 categories** · 2,323 security reviewed · Updated 2026-07-08 07:26 UTC
+> **2700 published skills** across **17 categories** · 2,323 security reviewed · Updated 2026-07-08 13:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (359 skills)
+### 🛠️ Developer Tools (360 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -226,6 +226,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [BullMQ Redis-Based Message Queue and Job Processor for Node.js](skills/bullmq-redis-message-queue-job-processor-nodejs/) | BullMQ is the fastest, most reliable Redis-based distributed queue for Node.js, Python, Elixir, and PHP. It provides… | Security Reviewed | 8.7k | 5.7M/wk |
 | [Regex Pattern Test Suite Generator](skills/regex-pattern-test-suite-generator/) | Generates comprehensive test suites for regular expressions using Hypothesis property-based testing and re2 for safe… | Security Reviewed | 8.6k | — |
 | [pdfcpu Go PDF Processor and Manipulation CLI](skills/pdfcpu-go-pdf-processor-cli/) | pdfcpu is a Go-based PDF processing library and CLI tool that handles validation, optimization, merging, splitting,… | Security Reviewed | 8.6k | — |
+| [Run multi-session coding-agent workflows with jcode](skills/run-multi-session-coding-agent-workflows-with-jcode/) | Use jcode as a local coding-agent harness for long-running, multi-session repository work with custom provider and… | Security Reviewed | 8.2k | — |
 | [Starlight Documentation Framework for Astro](skills/starlight-documentation-framework-astro/) | Starlight is a documentation website framework built on Astro that generates beautiful, accessible, and… | Published | 8.2k | — |
 | [Mockoon Local Mock API Server and CLI for API Development](skills/mockoon-mock-api-server-cli/) | Mockoon is the fastest way to run mock REST APIs locally. It provides a desktop application and a CLI for creating… | Security Reviewed | 8.2k | — |
 | [grex Regular Expression Generator from Test Cases](skills/grex-regex-generator-from-test-cases/) | grex is a command-line tool and library that automatically generates regular expressions from user-provided test… | Security Reviewed | 8.1k | — |
@@ -619,7 +620,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (211 skills)
+### 🔄 Data Extraction & Transformation (212 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -795,6 +796,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Repair, split, merge, and normalize PDFs with qpdf before downstream processing](skills/repair-split-merge-and-normalize-pdfs-with-qpdf-before-downstream-processing/) | Preprocess messy PDFs into a stable form before extraction, review, packaging, or delivery workflows depend on them. | Security Reviewed | 1.5k | — |
 | [Documind AI-Powered Structured Data Extraction from Documents](skills/documind-ai-structured-data-extraction/) | Documind is an open-source Node.js tool that uses AI to extract structured JSON data from PDFs and other documents.… | Security Reviewed | 1.5k | 14/wk |
 | [Salesforce Bulk API Data Loader](skills/salesforce-bulk-api-data-loader/) | Performs high-volume data operations using the Salesforce Bulk API 2.0. Creates ingest jobs with createJob(),… | Security Reviewed | 1.5k | 936.6k/wk |
+| [Parse Korean office documents for agents with kordoc](skills/parse-korean-office-documents-for-agents-with-kordoc/) | Use kordoc when an agent needs to parse HWP, HWPX, PDF, Excel, or DOCX files into Markdown, fill forms, compare… | Security Reviewed | 1.4k | 34.5k/wk |
 | [Infer And Normalize Broken CSV Dialects Before Import With Clevercsv](skills/infer-and-normalize-broken-csv-dialects-before-import-with-clevercsv/) | Detect messy CSV dialects, standardize malformed files, and generate reliable import code before ingestion pipelines… | Security Reviewed | 1.3k | — |
 | [Export Obsidian vaults into clean Markdown trees for publishing or downstream processing](skills/export-obsidian-vaults-into-clean-markdown-trees-for-publishing-or-downstream-processing/) | Convert Obsidian vault content, wikilinks, and attachments into portable Markdown trees before publishing, indexing,… | Security Reviewed | 1.3k | — |
 | [Run persistent finance research workspaces with LangAlpha](skills/run-persistent-finance-research-workspaces-with-langalpha/) | Create persistent investment-research workspaces where agents process market data, filings, models, charts, and… | Security Reviewed | 1.2k | — |

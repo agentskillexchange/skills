@@ -252,6 +252,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [BullMQ Redis-Based Message Queue and Job Processor for Node.js](../../skills/bullmq-redis-message-queue-job-processor-nodejs/) | 8.7k | 5.7M/wk |
 | [Regex Pattern Test Suite Generator](../../skills/regex-pattern-test-suite-generator/) | 8.6k | — |
 | [pdfcpu Go PDF Processor and Manipulation CLI](../../skills/pdfcpu-go-pdf-processor-cli/) | 8.6k | — |
+| [Run multi-session coding-agent workflows with jcode](../../skills/run-multi-session-coding-agent-workflows-with-jcode/) | 8.2k | — |
 | [Starlight Documentation Framework for Astro](../../skills/starlight-documentation-framework-astro/) | 8.2k | — |
 | [Mockoon Local Mock API Server and CLI for API Development](../../skills/mockoon-mock-api-server-cli/) | 8.2k | — |
 | [grex Regular Expression Generator from Test Cases](../../skills/grex-regex-generator-from-test-cases/) | 8.1k | — |

@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-08
-# Total: 2698 skills
+# Total: 2700 skills
+
+## Parse Korean office documents for agents with kordoc
+slug: parse-korean-office-documents-for-agents-with-kordoc
+category: Data Extraction & Transformation
+framework: MCP
+verification: Security Reviewed
+description: Use kordoc when an agent needs to parse HWP, HWPX, PDF, Excel, or DOCX files into Markdown, fill forms, compare documents, or expose document…
+url: https://agentskillexchange.com/skills/parse-korean-office-documents-for-agents-with-kordoc/
+
+## Run multi-session coding-agent workflows with jcode
+slug: run-multi-session-coding-agent-workflows-with-jcode
+category: Developer Tools
+framework: Custom Agents
+verification: Security Reviewed
+description: Use jcode as a local coding-agent harness for long-running, multi-session repository work with custom provider and memory configuration.
+url: https://agentskillexchange.com/skills/run-multi-session-coding-agent-workflows-with-jcode/
 
 ## Run spec-first Claude Code development workflows with MoAI-ADK
 slug: run-spec-first-claude-code-development-workflows-with-moai-adk

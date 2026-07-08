@@ -210,6 +210,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Repair, split, merge, and normalize PDFs with qpdf before downstream processing](../../skills/repair-split-merge-and-normalize-pdfs-with-qpdf-before-downstream-processing/) | 1.5k | — |
 | [Documind AI-Powered Structured Data Extraction from Documents](../../skills/documind-ai-structured-data-extraction/) | 1.5k | 14/wk |
 | [Salesforce Bulk API Data Loader](../../skills/salesforce-bulk-api-data-loader/) | 1.5k | 936.6k/wk |
+| [Parse Korean office documents for agents with kordoc](../../skills/parse-korean-office-documents-for-agents-with-kordoc/) | 1.4k | 34.5k/wk |
 | [Infer And Normalize Broken CSV Dialects Before Import With Clevercsv](../../skills/infer-and-normalize-broken-csv-dialects-before-import-with-clevercsv/) | 1.3k | — |
 | [Export Obsidian vaults into clean Markdown trees for publishing or downstream processing](../../skills/export-obsidian-vaults-into-clean-markdown-trees-for-publishing-or-downstream-processing/) | 1.3k | — |
 | [Run persistent finance research workspaces with LangAlpha](../../skills/run-persistent-finance-research-workspaces-with-langalpha/) | 1.2k | — |
