@@ -6,6 +6,8 @@ verification: "listed"
 source: "https://github.com/gptme/gptme-contrib"
 category: "Code Quality & Review"
 framework: "Claude Code"
+tool_ecosystem:
+  github_repo: "gptme/gptme-contrib"
 ---
 
 # Pre-Landing Self-Review

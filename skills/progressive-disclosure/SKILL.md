@@ -6,6 +6,8 @@ verification: "listed"
 source: "https://github.com/gptme/gptme-contrib"
 category: "Templates & Workflows"
 framework: "Claude Code"
+tool_ecosystem:
+  github_repo: "gptme/gptme-contrib"
 ---
 
 # Progressive Disclosure for Documentation
