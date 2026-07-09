@@ -2,8 +2,30 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-09",
-  "total": 2710,
+  "total": 2712,
   "skills": [
+    {
+      "slug": "track-ai-coding-agent-token-usage-with-tokentracker",
+      "name": "Track AI coding-agent token usage with TokenTracker",
+      "title": "Track AI coding-agent token usage with TokenTracker",
+      "description": "Use TokenTracker to auto-collect local token, cost, and rate-limit telemetry across Claude Code, Codex, Cursor, Gemini, OpenCode, OpenClaw, and other AI coding tools.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/mm7894215/TokenTracker",
+      "github_repo": "mm7894215/TokenTracker"
+    },
+    {
+      "slug": "run-secure-ironclaw-reborn-agent-sessions",
+      "name": "Run secure IronClaw Reborn agent sessions",
+      "title": "Run secure IronClaw Reborn agent sessions",
+      "description": "Use IronClaw Reborn as a secure local agent runtime for model-routed CLI, REPL, and WebUI sessions with explicit state, policy, storage, and secret boundaries.",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "listed",
+      "source_url": "https://github.com/nearai/ironclaw",
+      "github_repo": "nearai/ironclaw"
+    },
     {
       "slug": "self-push",
       "name": "Self-Push: Lazy-Check Before Submitting",
@@ -12,8 +34,8 @@
       "category": "Code Quality & Review",
       "framework": "Claude Code",
       "verification": "listed",
-      "source_url": "https://github.com/TimeToBuildBob/bob",
-      "github_repo": "timetobuildbob/bob"
+      "source_url": "https://github.com/agentskillexchange/skills/pull/13",
+      "github_repo": "agentskillexchange/skills"
     },
     {
       "slug": "routerbase-model-routing",
@@ -53,8 +75,8 @@
       "category": "Code Quality & Review",
       "framework": "Claude Code",
       "verification": "listed",
-      "source_url": "https://github.com/TimeToBuildBob/bob",
-      "github_repo": "timetobuildbob/bob"
+      "source_url": "https://github.com/agentskillexchange/skills/pull/13",
+      "github_repo": "agentskillexchange/skills"
     },
     {
       "slug": "five-element-spec",
@@ -64,8 +86,8 @@
       "category": "Templates & Workflows",
       "framework": "Claude Code",
       "verification": "listed",
-      "source_url": "https://github.com/TimeToBuildBob/bob",
-      "github_repo": "timetobuildbob/bob"
+      "source_url": "https://github.com/agentskillexchange/skills/pull/13",
+      "github_repo": "agentskillexchange/skills"
     },
     {
       "slug": "run-natural-language-bi-analysis-with-openchatbi-agents",

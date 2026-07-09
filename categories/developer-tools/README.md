@@ -217,6 +217,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Rspack High-Performance Rust-Based JavaScript Bundler](../../skills/rspack-rust-based-javascript-bundler/) | 12.6k | — |
 | [broot Interactive Tree-View File Navigator](../../skills/broot-interactive-tree-view-file-navigator/) | 12.5k | — |
 | [grpcurl Command-Line gRPC Client](../../skills/grpcurl-command-line-grpc-client/) | 12.5k | — |
+| [Run secure IronClaw Reborn agent sessions](../../skills/run-secure-ironclaw-reborn-agent-sessions/) | 12.5k | — |
 | [Serve local model endpoints for agent tests with OpenLLM](../../skills/serve-local-model-endpoints-for-agent-tests-with-openllm/) | 12.3k | 6/wk |
 | [Run untrusted AI-generated code inside secure E2B sandboxes](../../skills/run-untrusted-ai-generated-code-inside-secure-e2b-sandboxes/) | 12k | — |
 | [Give coding agents runtime context for Encore services](../../skills/give-coding-agents-runtime-context-for-encore-services/) | 11.9k | — |
@@ -354,6 +355,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Give OpenCode project sessions persistent memory with opencode-mem](../../skills/give-opencode-project-sessions-persistent-memory-with-opencode-mem/) | 1k | 12.1k/wk |
 | [Run local small-model coding sessions with SmallCode](../../skills/run-local-small-model-coding-sessions-with-smallcode/) | 967 | 7.5k/wk |
 | [Connect MCP clients to JetBrains IDE project tools](../../skills/connect-mcp-clients-to-jetbrains-ide-project-tools/) | 961 | 4.4k/wk |
+| [Track AI coding-agent token usage with TokenTracker](../../skills/track-ai-coding-agent-token-usage-with-tokentracker/) | 959 | 15.3k/wk |
 | [Find and export SVG icons across icon libraries for UI work](../../skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/) | 915 | 287/wk |
 | [Fork and merge Pydantic AI agent runs with Pydantic Deep Agents](../../skills/fork-and-merge-pydantic-ai-agent-runs-with-pydantic-deep-agents/) | 912 | — |
 | [Reduce coding-agent context load with Token Savior](../../skills/reduce-coding-agent-context-load-with-token-savior/) | 893 | — |

@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-09
-# Total: 2710 skills
+# Total: 2712 skills
+
+## Track AI coding-agent token usage with TokenTracker
+slug: track-ai-coding-agent-token-usage-with-tokentracker
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use TokenTracker to auto-collect local token, cost, and rate-limit telemetry across Claude Code, Codex, Cursor, Gemini, OpenCode, OpenClaw, and other AI coding tools.
+url: https://agentskillexchange.com/skills/track-ai-coding-agent-token-usage-with-tokentracker/
+
+## Run secure IronClaw Reborn agent sessions
+slug: run-secure-ironclaw-reborn-agent-sessions
+category: Developer Tools
+framework: Custom Agents
+verification: Published
+description: Use IronClaw Reborn as a secure local agent runtime for model-routed CLI, REPL, and WebUI sessions with explicit state, policy, storage, and secret boundaries.
+url: https://agentskillexchange.com/skills/run-secure-ironclaw-reborn-agent-sessions/
 
 ## Self-Push: Lazy-Check Before Submitting
 slug: self-push

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2710 published skills** across **17 categories** · 2,328 security reviewed · Updated 2026-07-09 07:35 UTC
+> **2712 published skills** across **17 categories** · 2,328 security reviewed · Updated 2026-07-09 13:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (364 skills)
+### 🛠️ Developer Tools (366 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -191,6 +191,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Rspack High-Performance Rust-Based JavaScript Bundler](skills/rspack-rust-based-javascript-bundler/) | Rspack is a blazing-fast JavaScript bundler written in Rust with full webpack API compatibility. It provides drop-in… | Security Reviewed | 12.6k | — |
 | [broot Interactive Tree-View File Navigator](skills/broot-interactive-tree-view-file-navigator/) | broot is a Rust-based terminal tool that provides a new way to see and navigate directory trees. It offers fuzzy… | Security Reviewed | 12.5k | — |
 | [grpcurl Command-Line gRPC Client](skills/grpcurl-command-line-grpc-client/) | Like cURL but for gRPC servers. A command-line tool for interacting with gRPC services using server reflection or… | Security Reviewed | 12.5k | — |
+| [Run secure IronClaw Reborn agent sessions](skills/run-secure-ironclaw-reborn-agent-sessions/) | Use IronClaw Reborn as a secure local agent runtime for model-routed CLI, REPL, and WebUI sessions with explicit… | Published | 12.5k | — |
 | [Serve local model endpoints for agent tests with OpenLLM](skills/serve-local-model-endpoints-for-agent-tests-with-openllm/) | Launch an OpenAI-compatible OpenLLM server for a chosen open model, point an agent runtime at it, and compare… | Security Reviewed | 12.3k | 6/wk |
 | [Run untrusted AI-generated code inside secure E2B sandboxes](skills/run-untrusted-ai-generated-code-inside-secure-e2b-sandboxes/) | Create disposable E2B cloud sandboxes where agents can execute generated code, install dependencies, collect… | Security Reviewed | 12k | — |
 | [Give coding agents runtime context for Encore services](skills/give-coding-agents-runtime-context-for-encore-services/) | Use Encore's AI integration and built-in MCP server so an agent can inspect service architecture, query local… | Security Reviewed | 11.9k | — |
@@ -328,6 +329,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Give OpenCode project sessions persistent memory with opencode-mem](skills/give-opencode-project-sessions-persistent-memory-with-opencode-mem/) | Add opencode-mem to OpenCode so coding sessions can store, search, and reuse project memories through a local SQLite… | Security Reviewed | 1k | 12.1k/wk |
 | [Run local small-model coding sessions with SmallCode](skills/run-local-small-model-coding-sessions-with-smallcode/) | Use SmallCode as a terminal-native coding agent for 8B-35B local models, with budget-managed context, forgiving tool… | Published | 967 | 7.5k/wk |
 | [Connect MCP clients to JetBrains IDE project tools](skills/connect-mcp-clients-to-jetbrains-ide-project-tools/) | Use the built-in JetBrains MCP server to let Codex, Claude Desktop, Cursor, VS Code, and other MCP clients inspect… | Security Reviewed | 961 | 4.4k/wk |
+| [Track AI coding-agent token usage with TokenTracker](skills/track-ai-coding-agent-token-usage-with-tokentracker/) | Use TokenTracker to auto-collect local token, cost, and rate-limit telemetry across Claude Code, Codex, Cursor,… | Security Reviewed | 959 | 15.3k/wk |
 | [Find and export SVG icons across icon libraries for UI work](skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/) | Use Better Icons when an agent needs to search icon sets, compare matches, and return the exact SVG asset needed for… | Security Reviewed | 915 | 287/wk |
 | [Fork and merge Pydantic AI agent runs with Pydantic Deep Agents](skills/fork-and-merge-pydantic-ai-agent-runs-with-pydantic-deep-agents/) | Run a self-hosted terminal agent or custom Pydantic AI harness that can branch a coding or research run, test… | Security Reviewed | 912 | — |
 | [Reduce coding-agent context load with Token Savior](skills/reduce-coding-agent-context-load-with-token-savior/) | Connect coding agents to a Token Savior MCP server for structural code navigation, persistent recall, compact… | Security Reviewed | 893 | — |
