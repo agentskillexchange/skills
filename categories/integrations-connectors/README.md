@@ -184,6 +184,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [JMT x402 Agent Tools](../../skills/jmt-x402-agent-tools/) | — | — |
 | [Linear Issue Triage & Sprint Planner](../../skills/linear-issue-triage-sprint-planner-2/) | — | — |
 | [Plaid Financial Data Connector](../../skills/plaid-financial-data-connector/) | — | — |
+| [RouterBase API Integration](../../skills/routerbase-api-integration/) | — | — |
 | [Zapier Multi-Step Lead Enrichment Workflow](../../skills/zapier-lead-enrichment-workflow/) | — | — |
 | [Zapier Webhook Integration Builder](../../skills/zapier-webhook-integration-builder/) | — | — |
 

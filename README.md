@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C703-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C710-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C327-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,703 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,710 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,16 +87,16 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Self-Push: Lazy-Check Before Submitting](skills/self-push/) | Run a structured lazy-check on any significant output before submitting. Forces root-cause analysis, alternative consideration, and outcome verification... | - | Code Quality & Review |
+| [RouterBase Model Routing](skills/routerbase-model-routing/) | Design RouterBase model routing policies for AI agents, including primary model selection, fallback chains, latency budgets, cost controls... | - | Developer Tools |
+| [RouterBase Media Generation](skills/routerbase-media-generation/) | Build RouterBase media generation workflows for image, audio, speech, and video tasks, covering endpoint selection, request schemas, polling... | - | Image & Creative Automation |
+| [RouterBase API Integration](skills/routerbase-api-integration/) | Integrate agent applications with RouterBase as an OpenAI-compatible API gateway, including SDK base URL configuration, streaming, tool calling... | - | Integrations & Connectors |
+| [Multi-Lens Review](skills/multi-lens-review/) | Review a PR or diff through three independent focused lenses (correctness, security, test coverage), then deduplicate and validate... | - | Code Quality & Review |
+| [Five-Element Spec: Scope Before Coding](skills/five-element-spec/) | Translate a vague request or GitHub issue into a concrete, testable spec using five structured elements (problem, scope... | - | Templates & Workflows |
+| [Run natural-language BI analysis with OpenChatBI agents](skills/run-natural-language-bi-analysis-with-openchatbi-agents/) | Deploy OpenChatBI when an agent needs to turn business questions into SQL, charts, anomaly analysis, and explainable BI... | 595 | Data Extraction & Transformation |
 | [Run Genie planning and execution loops in Claude Code](skills/run-genie-planning-execution-loops-in-claude-code/) | Use Genie to turn a vague coding request into Claude Code brainstorm, wish, work, and review loops backed... | 323 | Developer Tools |
 | [Manage parallel coding agents with Agent of Empires](skills/manage-parallel-coding-agents-with-agent-of-empires/) | Use Agent of Empires to launch, monitor, sandbox, resume, and review multiple coding-agent sessions from a TUI or... | 2.8k | Developer Tools |
 | [Design loop engineering workflows for coding agents](skills/design-loop-engineering-workflows-for-coding-agents/) | Use Loop Engineering to scaffold, audit, and operate repeatable coding-agent loops with explicit state, budget, readiness, and tool-specific... | 6.6k | Developer Tools |
-| [Parse Korean office documents for agents with kordoc](skills/parse-korean-office-documents-for-agents-with-kordoc/) | Use kordoc when an agent needs to parse HWP, HWPX, PDF, Excel, or DOCX files into Markdown, fill... | 1.4k | Data Extraction & Transformation |
-| [Run multi-session coding-agent workflows with jcode](skills/run-multi-session-coding-agent-workflows-with-jcode/) | Use jcode as a local coding-agent harness for long-running, multi-session repository work with custom provider and memory configuration | 8.2k | Developer Tools |
-| [Run spec-first Claude Code development workflows with MoAI-ADK](skills/run-spec-first-claude-code-development-workflows-with-moai-adk/) | Use MoAI-ADK to install Claude Code agents and skills for spec-first implementation, TDD, DDD, and quality-gated development | 1.1k | Templates & Workflows |
-| [Synchronize AI coding rules across agent tools with Rulesync](skills/synchronize-ai-coding-rules-across-agent-tools-with-rulesync/) | Use Rulesync to maintain one set of AI coding rules and generate the right configuration files for Claude... | 1.2k | Developer Tools |
-| [Operate a persistent local terminal agent with gptme](skills/operate-a-persistent-local-terminal-agent-with-gptme/) | Run gptme as a terminal-first autonomous agent that can edit files, execute commands, browse the web, and keep... | 4.4k | Developer Tools |
-| [Build embeddable Rust coding agents with Cersei](skills/build-embeddable-rust-coding-agents-with-cersei/) | Compose coding-agent primitives in Rust, including tool execution, LLM streaming, sub-agent orchestration, memory, and MCP support, as an... | 400 | Developer Tools |
-| [Browse from MCP clients with Browser Use MCP Server](skills/browse-from-mcp-clients-with-browser-use-mcp-server/) | Expose browser-use web automation through an MCP server so Cursor or another MCP client can operate websites with... | 827 | Browser Automation |
 
 ---
 
@@ -123,22 +123,22 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 363 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 364 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 236 | Vulnerability scanning, auth setup, compliance |
-| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 212 | ETL pipelines, parsing, format conversion |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 193 | Scaffolders, boilerplate generators, workflow templates |
+| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 213 | ETL pipelines, parsing, format conversion |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 194 | Scaffolders, boilerplate generators, workflow templates |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
-| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 188 | Linting, code review, test generators, coverage |
+| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 190 | Linting, code review, test generators, coverage |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 173 | Incident response, troubleshooting, system diagnostics |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 148 | Metrics, alerting rules, observability |
-| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 146 | Third-party API bridges, webhooks, service connectors |
+| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 147 | Third-party API bridges, webhooks, service connectors |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 125 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 123 | SDK docs, API parsers, symbol resolvers |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 119 | Web scraping, UI testing, headless browser control |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 116 | Web research, content discovery, data collection |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 105 | Audio/video processing, speech-to-text |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
-| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 89 | Image generation, asset processing, design automation |
+| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 90 | Image generation, asset processing, design automation |
 | ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 80 | SEO content, blog automation, editorial workflows |
 
 ---
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,703 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,710 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,327 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

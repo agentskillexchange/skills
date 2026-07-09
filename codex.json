@@ -2,8 +2,82 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-09",
-  "total": 2703,
+  "total": 2710,
   "skills": [
+    {
+      "slug": "self-push",
+      "name": "Self-Push: Lazy-Check Before Submitting",
+      "title": "Self-Push: Lazy-Check Before Submitting",
+      "description": "Run a structured lazy-check on any significant output before submitting. Forces root-cause analysis, alternative consideration, and outcome verification — especially critical in autonomous runs…",
+      "category": "Code Quality & Review",
+      "framework": "Claude Code",
+      "verification": "listed",
+      "source_url": "https://github.com/TimeToBuildBob/bob",
+      "github_repo": "timetobuildbob/bob"
+    },
+    {
+      "slug": "routerbase-model-routing",
+      "name": "RouterBase Model Routing",
+      "title": "RouterBase Model Routing",
+      "description": "Design RouterBase model routing policies for AI agents, including primary model selection, fallback chains, latency budgets, cost controls, rollout checks, and provider-specific capability notes.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://routerbase.com/"
+    },
+    {
+      "slug": "routerbase-media-generation",
+      "name": "RouterBase Media Generation",
+      "title": "RouterBase Media Generation",
+      "description": "Build RouterBase media generation workflows for image, audio, speech, and video tasks, covering endpoint selection, request schemas, polling, retries, asset storage, moderation, and failure…",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://routerbase.com/"
+    },
+    {
+      "slug": "routerbase-api-integration",
+      "name": "RouterBase API Integration",
+      "title": "RouterBase API Integration",
+      "description": "Integrate agent applications with RouterBase as an OpenAI-compatible API gateway, including SDK base URL configuration, streaming, tool calling, JSON mode, retries, and safe API…",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://routerbase.com/"
+    },
+    {
+      "slug": "multi-lens-review",
+      "name": "Multi-Lens Review",
+      "title": "Multi-Lens Review",
+      "description": "Review a PR or diff through three independent focused lenses (correctness, security, test coverage), then deduplicate and validate findings before persisting. Catches more real…",
+      "category": "Code Quality & Review",
+      "framework": "Claude Code",
+      "verification": "listed",
+      "source_url": "https://github.com/TimeToBuildBob/bob",
+      "github_repo": "timetobuildbob/bob"
+    },
+    {
+      "slug": "five-element-spec",
+      "name": "Five-Element Spec: Scope Before Coding",
+      "title": "Five-Element Spec: Scope Before Coding",
+      "description": "Translate a vague request or GitHub issue into a concrete, testable spec using five structured elements (problem, scope, acceptance criteria, edge cases, success criterion)…",
+      "category": "Templates & Workflows",
+      "framework": "Claude Code",
+      "verification": "listed",
+      "source_url": "https://github.com/TimeToBuildBob/bob",
+      "github_repo": "timetobuildbob/bob"
+    },
+    {
+      "slug": "run-natural-language-bi-analysis-with-openchatbi-agents",
+      "name": "Run natural-language BI analysis with OpenChatBI agents",
+      "title": "Run natural-language BI analysis with OpenChatBI agents",
+      "description": "Deploy OpenChatBI when an agent needs to turn business questions into SQL, charts, anomaly analysis, and explainable BI results.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/zhongyu09/openchatbi",
+      "github_repo": "zhongyu09/openchatbi"
+    },
     {
       "slug": "run-genie-planning-execution-loops-in-claude-code",
       "name": "Run Genie planning and execution loops in Claude Code",

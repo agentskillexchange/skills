@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2703 published skills** across **17 categories** · 2,327 security reviewed · Updated 2026-07-09 01:30 UTC
+> **2710 published skills** across **17 categories** · 2,327 security reviewed · Updated 2026-07-09 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (363 skills)
+### 🛠️ Developer Tools (364 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -374,6 +374,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [n8n GitHub Issue-to-Jira Ticket Automator](skills/n8n-github-jira-ticket-automator/) | Deploys an n8n workflow via the n8n REST API using the GitHub Trigger node to capture new issue events and transform… | Security Reviewed | — | — |
 | [NPM Package Auditor](skills/npm-package-auditor-registry-api/) | Audits NPM packages using the NPM Registry API with dependency tree resolution and vulnerability scanning via… | Security Reviewed | — | — |
 | [Obsidian Vault Manager](skills/obsidian-vault-manager/) | Obsidian Vault Manager is built around HashiCorp Vault secrets platform. The underlying ecosystem is represented by… | Published | — | — |
+| [RouterBase Model Routing](skills/routerbase-model-routing/) | Design RouterBase model routing policies for AI agents, including primary model selection, fallback chains, latency… | Published | — | — |
 | [Turn notes, logs, and screenshots into structured GitHub issues with GitHub Issue Creator](skills/turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator/) | Convert messy bug notes, error logs, voice dictation, and screenshots into crisp GitHub issue reports with clear… | Security Reviewed | — | — |
 | [VS Code Extension Debugger](skills/vscode-extension-debugger-dap-protocol/) | Debugs VS Code extensions using the Debug Adapter Protocol (DAP) with breakpoint management and variable inspection.… | Security Reviewed | — | — |
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
@@ -623,7 +624,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (212 skills)
+### 🔄 Data Extraction & Transformation (213 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -815,6 +816,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Snowflake Query Profiler](skills/snowflake-query-profiler/) | Profiles and optimizes Snowflake SQL queries using the Snowflake Information Schema and Query History views.… | Security Reviewed | 724 | — |
 | [Parse documents into structured content for agent ingestion with Dedoc](skills/parse-documents-into-structured-content-for-agent-ingestion-with-dedoc/) | Extract document text, tables, logical structure, and metadata into normalized output before RAG, review, or… | Security Reviewed | 712 | — |
 | [Give agents governed semantic data context with Wren Engine](skills/give-agents-governed-semantic-data-context-with-wren-engine/) | Give agents governed semantic data context so data questions map to trusted metrics and schemas. | Published | 661 | — |
+| [Run natural-language BI analysis with OpenChatBI agents](skills/run-natural-language-bi-analysis-with-openchatbi-agents/) | Deploy OpenChatBI when an agent needs to turn business questions into SQL, charts, anomaly analysis, and explainable… | Security Reviewed | 595 | — |
 | [Query Postgres databases through read-only MCP workflows with PGMCP](skills/query-postgres-databases-through-read-only-mcp-workflows-with-pgmcp/) | Connect an MCP-compatible assistant to an existing PostgreSQL database for safe natural-language querying,… | Security Reviewed | 529 | — |
 | [dbt MCP Server for Data Pipeline Context](skills/dbt-mcp-server-data-pipeline-context/) | The official dbt MCP Server by dbt Labs provides Model Context Protocol tools for AI agents to interact with dbt… | Security Reviewed | 526 | — |
 | [Evaluate document parsers for agent ingestion with ParseBench](skills/evaluate-document-parsers-for-agent-ingestion-with-parsebench/) | Use ParseBench to run repeatable document-parser evaluations before an agent relies on PDF, table, chart, or… | Security Reviewed | 474 | — |
@@ -843,7 +845,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (193 skills)
+### 📄 Templates & Workflows (194 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1033,6 +1035,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Draft internal status updates and incident comms](skills/draft-internal-status-updates-and-incident-comms-2/) | Use Anthropic's internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs,… | Security Reviewed | — | — |
 | [Draft internal status updates and incident comms](skills/draft-internal-status-updates-and-incident-comms/) | Use Anthropic's internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs,… | Security Reviewed | — | — |
 | [Draft user-facing App Store release notes from git history with App Store Changelog](skills/draft-user-facing-app-store-release-notes-from-git-history-with-app-store-changelog/) | Turn commits since the last tag into concise App Store What's New bullets instead of hand-sifting raw git history. | Security Reviewed | — | — |
+| [Five-Element Spec: Scope Before Coding](skills/five-element-spec/) | Translate a vague request or GitHub issue into a concrete, testable spec using five structured elements (problem,… | Published | — | — |
 | [GitHub Actions Workflow Composer](skills/github-actions-workflow-composer-2/) | Composes GitHub Actions workflow YAML files from modular job templates, resolving action version pins and secret… | Security Reviewed | — | — |
 | [Incident Response Template Generator](skills/incident-response-template-generator/) | Creates structured incident response templates using the PagerDuty Events API v2, Jira REST API for ticket creation,… | Security Reviewed | — | — |
 | [Keep GitHub wiki pages synced with recently merged code changes](skills/keep-github-wiki-pages-synced-with-recently-merged-code-changes/) | This entry turns GitHub Next's Agentic Wiki Writer into a documentation-maintenance workflow. The agent watches for… | Security Reviewed | — | — |
@@ -1244,7 +1247,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Update repository docs automatically after code changes and open review PRs](skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | Use GitHub Next's update-docs workflow when code changes should trigger documentation maintenance instead of waiting… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (188 skills)
+### ✅ Code Quality & Review (190 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1433,10 +1436,12 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Codecov Coverage Tracker Agent](skills/codecov-coverage-tracker-agent/) | Tracks and enforces code coverage using Codecov API, lcov, and Istanbul/nyc. Generates coverage reports, detects… | Security Reviewed | — | — |
 | [Git Bisect Automation Agent](skills/git-bisect-automation-agent/) | Automates git bisect workflows to find regression-introducing commits using custom test scripts and the git bisect… | Security Reviewed | — | — |
 | [Multi-Axis Code Review and Quality Gates](skills/multi-axis-code-review-and-quality-gates/) | Run a structured pre-merge review across correctness, readability, architecture, security, and performance instead… | Security Reviewed | — | — |
+| [Multi-Lens Review](skills/multi-lens-review/) | Review a PR or diff through three independent focused lenses (correctness, security, test coverage), then… | Published | — | — |
 | [Pull Request Size Analyzer](skills/pull-request-size-analyzer-agent/) | Analyzes PR size and reviewability using the GitHub GraphQL API and git diff-stat. Enforces size limits, suggests PR… | Security Reviewed | — | — |
 | [Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf](skills/resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf/) | Use Mergiraf to let an agent attempt tree-aware conflict resolution during merge, rebase, revert, or cherry-pick… | Security Reviewed | — | — |
 | [Review frontend implementations for design-system quality, accessibility, and polish with Frontend Design Review](skills/review-frontend-implementations-for-design-system-quality-accessibility-and-polish-with-frontend-design-review/) | Audit frontend work against design-system rules, accessibility expectations, responsive behavior, and visual craft… | Security Reviewed | — | — |
 | [Review REST API designs before implementation for versioning, security, and contract clarity](skills/review-rest-api-designs-before-implementation-for-versioning-security-and-contract-clarity/) | Review an API design, endpoint set, or OpenAPI spec before implementation and return prioritized findings on design… | Security Reviewed | — | — |
+| [Self-Push: Lazy-Check Before Submitting](skills/self-push/) | Run a structured lazy-check on any significant output before submitting. Forces root-cause analysis, alternative… | Published | — | — |
 | [Simplify recently changed code and open low-risk refactor pull requests](skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | This entry turns GitHub Next's Code Simplifier workflow into a narrow cleanup agent. The agent inspects code changed… | Security Reviewed | — | — |
 
 
@@ -1777,7 +1782,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Published | — | — |
 
 
-### 🔗 Integrations & Connectors (146 skills)
+### 🔗 Integrations & Connectors (147 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1927,6 +1932,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [JMT x402 Agent Tools](skills/jmt-x402-agent-tools/) | Paid x402 HTTP-402 endpoints on Base mainnet that let agents pay-per-call in USDC for web search, AI analysis,… | Published | — | — |
 | [Linear Issue Triage & Sprint Planner](skills/linear-issue-triage-sprint-planner-2/) | Queries the Linear GraphQL API to list open issues by team, priority, and cycle, then applies configurable triage… | Security Reviewed | — | — |
 | [Plaid Financial Data Connector](skills/plaid-financial-data-connector/) | Connects to bank accounts via Plaid Link SDK and retrieves transaction data using the Plaid Transactions API.… | Security Reviewed | — | — |
+| [RouterBase API Integration](skills/routerbase-api-integration/) | Integrate agent applications with RouterBase as an OpenAI-compatible API gateway, including SDK base URL… | Published | — | — |
 | [Zapier Multi-Step Lead Enrichment Workflow](skills/zapier-lead-enrichment-workflow/) | Builds a Zapier automation using the Zapier NLA API to trigger on new HubSpot form submissions and enrich contact… | Security Reviewed | — | — |
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
@@ -2663,7 +2669,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (89 skills)
+### 🎨 Image & Creative Automation (90 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -2757,6 +2763,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Midjourney Prompt Optimizer](skills/midjourney-prompt-optimizer-skill/) | Analyze and optimize Midjourney prompts using parameter tuning for --ar, --stylize, --chaos, and --weird flags.… | Published | — | — |
 | [Pexels API Stock Photo Curator](skills/pexels-api-stock-photo-curator/) | Searches and downloads royalty-free images from Pexels API with smart filtering by orientation, color, and size.… | Published | — | — |
 | [Photoshop Batch Action Automator](skills/photoshop-batch-action-automator/) | Automates Adobe Photoshop batch processing via the UXP Scripting API and CEP ExtendScript. Handles bulk resize,… | Security Reviewed | — | — |
+| [RouterBase Media Generation](skills/routerbase-media-generation/) | Build RouterBase media generation workflows for image, audio, speech, and video tasks, covering endpoint selection,… | Published | — | — |
 | [RunPod Serverless GPU Inference](skills/runpod-serverless-gpu-inference/) | Deploy and manage GPU inference endpoints on RunPod Serverless using their REST API. Handles endpoint creation, cold… | Security Reviewed | — | — |
 
 

@@ -1,7 +1,63 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-09
-# Total: 2703 skills
+# Total: 2710 skills
+
+## Self-Push: Lazy-Check Before Submitting
+slug: self-push
+category: Code Quality & Review
+framework: Claude Code
+verification: Published
+description: Run a structured lazy-check on any significant output before submitting. Forces root-cause analysis, alternative consideration, and outcome verification — especially critical in autonomous runs…
+url: https://agentskillexchange.com/skills/self-push/
+
+## RouterBase Model Routing
+slug: routerbase-model-routing
+category: Developer Tools
+framework: Multi-Framework
+verification: Published
+description: Design RouterBase model routing policies for AI agents, including primary model selection, fallback chains, latency budgets, cost controls, rollout checks, and provider-specific capability notes.
+url: https://agentskillexchange.com/skills/routerbase-model-routing/
+
+## RouterBase Media Generation
+slug: routerbase-media-generation
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Published
+description: Build RouterBase media generation workflows for image, audio, speech, and video tasks, covering endpoint selection, request schemas, polling, retries, asset storage, moderation, and failure…
+url: https://agentskillexchange.com/skills/routerbase-media-generation/
+
+## RouterBase API Integration
+slug: routerbase-api-integration
+category: Integrations & Connectors
+framework: Multi-Framework
+verification: Published
+description: Integrate agent applications with RouterBase as an OpenAI-compatible API gateway, including SDK base URL configuration, streaming, tool calling, JSON mode, retries, and safe API…
+url: https://agentskillexchange.com/skills/routerbase-api-integration/
+
+## Multi-Lens Review
+slug: multi-lens-review
+category: Code Quality & Review
+framework: Claude Code
+verification: Published
+description: Review a PR or diff through three independent focused lenses (correctness, security, test coverage), then deduplicate and validate findings before persisting. Catches more real…
+url: https://agentskillexchange.com/skills/multi-lens-review/
+
+## Five-Element Spec: Scope Before Coding
+slug: five-element-spec
+category: Templates & Workflows
+framework: Claude Code
+verification: Published
+description: Translate a vague request or GitHub issue into a concrete, testable spec using five structured elements (problem, scope, acceptance criteria, edge cases, success criterion)…
+url: https://agentskillexchange.com/skills/five-element-spec/
+
+## Run natural-language BI analysis with OpenChatBI agents
+slug: run-natural-language-bi-analysis-with-openchatbi-agents
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Deploy OpenChatBI when an agent needs to turn business questions into SQL, charts, anomaly analysis, and explainable BI results.
+url: https://agentskillexchange.com/skills/run-natural-language-bi-analysis-with-openchatbi-agents/
 
 ## Run Genie planning and execution loops in Claude Code
 slug: run-genie-planning-execution-loops-in-claude-code

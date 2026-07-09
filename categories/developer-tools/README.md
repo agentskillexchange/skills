@@ -400,6 +400,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [n8n GitHub Issue-to-Jira Ticket Automator](../../skills/n8n-github-jira-ticket-automator/) | — | — |
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | — | — |
 | [Obsidian Vault Manager](../../skills/obsidian-vault-manager/) | — | — |
+| [RouterBase Model Routing](../../skills/routerbase-model-routing/) | — | — |
 | [Turn notes, logs, and screenshots into structured GitHub issues with GitHub Issue Creator](../../skills/turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator/) | — | — |
 | [VS Code Extension Debugger](../../skills/vscode-extension-debugger-dap-protocol/) | — | — |
 | [VS Code Extension Scaffolder](../../skills/vscode-extension-scaffolder-agent/) | — | — |

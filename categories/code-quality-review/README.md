@@ -223,10 +223,12 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Codecov Coverage Tracker Agent](../../skills/codecov-coverage-tracker-agent/) | — | — |
 | [Git Bisect Automation Agent](../../skills/git-bisect-automation-agent/) | — | — |
 | [Multi-Axis Code Review and Quality Gates](../../skills/multi-axis-code-review-and-quality-gates/) | — | — |
+| [Multi-Lens Review](../../skills/multi-lens-review/) | — | — |
 | [Pull Request Size Analyzer](../../skills/pull-request-size-analyzer-agent/) | — | — |
 | [Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf](../../skills/resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf/) | — | — |
 | [Review frontend implementations for design-system quality, accessibility, and polish with Frontend Design Review](../../skills/review-frontend-implementations-for-design-system-quality-accessibility-and-polish-with-frontend-design-review/) | — | — |
 | [Review REST API designs before implementation for versioning, security, and contract clarity](../../skills/review-rest-api-designs-before-implementation-for-versioning-security-and-contract-clarity/) | — | — |
+| [Self-Push: Lazy-Check Before Submitting](../../skills/self-push/) | — | — |
 | [Simplify recently changed code and open low-risk refactor pull requests](../../skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | — | — |
 
 ---
