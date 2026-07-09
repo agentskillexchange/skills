@@ -2,10 +2,12 @@
 name: "Self-Push: Lazy-Check Before Submitting"
 slug: "self-push"
 description: "Run a structured lazy-check on any significant output before submitting. Forces root-cause analysis, alternative consideration, and outcome verification — especially critical in autonomous runs where no human reviewer will catch lazy shortcuts."
+verification: "listed"
+source: "https://github.com/TimeToBuildBob/bob"
 category: "Code Quality & Review"
 framework: "Claude Code"
-verification: listed
-source: "https://github.com/TimeToBuildBob/bob"
+tool_ecosystem:
+  github_repo: "timetobuildbob/bob"
 ---
 
 # Self-Push: Lazy-Check Before Submitting

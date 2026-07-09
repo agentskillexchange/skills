@@ -2,10 +2,12 @@
 name: "Multi-Lens Review"
 slug: "multi-lens-review"
 description: "Review a PR or diff through three independent focused lenses (correctness, security, test coverage), then deduplicate and validate findings before persisting. Catches more real bugs than a single general review pass while producing less noise."
+verification: "listed"
+source: "https://github.com/TimeToBuildBob/bob"
 category: "Code Quality & Review"
 framework: "Claude Code"
-verification: listed
-source: "https://github.com/TimeToBuildBob/bob"
+tool_ecosystem:
+  github_repo: "timetobuildbob/bob"
 ---
 
 # Multi-Lens Review

@@ -2,10 +2,10 @@
 name: "RouterBase Model Routing"
 slug: "routerbase-model-routing"
 description: "Design RouterBase model routing policies for AI agents, including primary model selection, fallback chains, latency budgets, cost controls, rollout checks, and provider-specific capability notes."
-category: "Developer Tools"
-framework: "Multi-Framework"
 verification: "listed"
 source: "https://routerbase.com/"
+category: "Developer Tools"
+framework: "Multi-Framework"
 ---
 
 # RouterBase Model Routing

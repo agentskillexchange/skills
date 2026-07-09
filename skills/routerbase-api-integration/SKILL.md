@@ -2,10 +2,10 @@
 name: "RouterBase API Integration"
 slug: "routerbase-api-integration"
 description: "Integrate agent applications with RouterBase as an OpenAI-compatible API gateway, including SDK base URL configuration, streaming, tool calling, JSON mode, retries, and safe API key handling."
-category: "Integrations & Connectors"
-framework: "Multi-Framework"
 verification: "listed"
 source: "https://routerbase.com/"
+category: "Integrations & Connectors"
+framework: "Multi-Framework"
 ---
 
 # RouterBase API Integration

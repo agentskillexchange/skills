@@ -2,10 +2,10 @@
 name: "RouterBase Media Generation"
 slug: "routerbase-media-generation"
 description: "Build RouterBase media generation workflows for image, audio, speech, and video tasks, covering endpoint selection, request schemas, polling, retries, asset storage, moderation, and failure handling."
-category: "Image & Creative Automation"
-framework: "Multi-Framework"
 verification: "listed"
 source: "https://routerbase.com/"
+category: "Image & Creative Automation"
+framework: "Multi-Framework"
 ---
 
 # RouterBase Media Generation
