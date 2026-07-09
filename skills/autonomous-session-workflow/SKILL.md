@@ -3,7 +3,7 @@ name: "Autonomous Session Workflow"
 slug: "autonomous-session-workflow"
 description: "5-phase repeatable structure for autonomous agent sessions: context-load, tiered work-selection, coordination claim, execute, and persist-learning. Prevents duplicate work across concurrent sessions and ensures every run produces durable artifacts. Runtime-agnostic — Claude Code, gptme, Codex, or any persistent-workspace agent."
 verification: "listed"
-source: "https://github.com/TimeToBuildBob/bob"
+source: "https://github.com/agentskillexchange/skills/pull/15"
 category: "Templates & Workflows"
 framework: "Claude Code"
 ---
