@@ -39,6 +39,19 @@ jobs:
       - name: Validate full SKILL.md catalog
         run: python3 scripts/validate_skills.py --all --github-annotations --quiet
 
+      - name: Validate changed GitHub repo source claims
+        if: github.event_name == 'pull_request'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          git fetch --no-tags --depth=1 origin "${{ github.base_ref }}"
+          mapfile -t files < <(git diff --name-only "origin/${{ github.base_ref }}...HEAD" -- 'skills/*/SKILL.md')
+          if [ "${#files[@]}" -gt 0 ]; then
+            python3 scripts/validate_github_repo_sources.py "${files[@]}"
+          else
+            echo "No changed skill files to validate."
+          fi
+
       - name: Test executable security patterns
         run: python3 scripts/test_security_patterns.py
 

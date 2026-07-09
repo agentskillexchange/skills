@@ -3,11 +3,9 @@ name: "Five-Element Spec: Scope Before Coding"
 slug: "five-element-spec"
 description: "Translate a vague request or GitHub issue into a concrete, testable spec using five structured elements (problem, scope, acceptance criteria, edge cases, success criterion) before writing any code. Prevents scope creep, PR churn, and mid-implementation pivots."
 verification: "listed"
-source: "https://github.com/TimeToBuildBob/bob"
+source: "https://github.com/agentskillexchange/skills/pull/13"
 category: "Templates & Workflows"
 framework: "Claude Code"
-tool_ecosystem:
-  github_repo: "timetobuildbob/bob"
 ---
 
 # Five-Element Spec: Scope Before Coding
