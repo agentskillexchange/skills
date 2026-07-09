@@ -1,8 +1,41 @@
 {
   "version": "2.0",
-  "total": 2712,
+  "total": 2715,
   "generated": "2026-07-09",
   "skills": [
+    {
+      "slug": "progressive-disclosure",
+      "name": "Progressive Disclosure for Documentation",
+      "title": "Progressive Disclosure for Documentation",
+      "description": "Restructure large documentation files (500+ lines, 5k+ tokens) into slim indexes with on-demand detail directories. Reduces always-included context by 40-60% while preserving full accessibility.…",
+      "category": "Templates & Workflows",
+      "framework": "Claude Code",
+      "verification": "listed",
+      "source_url": "https://github.com/gptme/gptme-contrib",
+      "github_repo": "gptme/gptme-contrib"
+    },
+    {
+      "slug": "pre-landing-review",
+      "name": "Pre-Landing Self-Review",
+      "title": "Pre-Landing Self-Review",
+      "description": "Structured self-review checklist to run before committing substantial code changes. Covers edge cases, error paths, test coverage, documentation, and code quality — so CI…",
+      "category": "Code Quality & Review",
+      "framework": "Claude Code",
+      "verification": "listed",
+      "source_url": "https://github.com/gptme/gptme-contrib",
+      "github_repo": "gptme/gptme-contrib"
+    },
+    {
+      "slug": "autonomous-session-workflow",
+      "name": "Autonomous Session Workflow",
+      "title": "Autonomous Session Workflow",
+      "description": "5-phase repeatable structure for autonomous agent sessions: context-load, tiered work-selection, coordination claim, execute, and persist-learning. Prevents duplicate work across concurrent sessions and ensures every…",
+      "category": "Templates & Workflows",
+      "framework": "Claude Code",
+      "verification": "listed",
+      "source_url": "https://github.com/agentskillexchange/skills/pull/15",
+      "github_repo": "agentskillexchange/skills"
+    },
     {
       "slug": "track-ai-coding-agent-token-usage-with-tokentracker",
       "name": "Track AI coding-agent token usage with TokenTracker",

@@ -1,15 +1,15 @@
 # Categories
 
-> **2712 skills** across **17 categories**
+> **2715 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
 | 🛠️ | [**Developer Tools**](developer-tools/) | **366** | CLI helpers, dev environment setup, productivity utilities, and devel... |
 | 🔒 | [**Security & Verification**](security-verification/) | **236** | Auth setup, vulnerability scanning, compliance checks, and security a... |
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **213** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
-| 📄 | [**Templates & Workflows**](templates-workflows/) | **194** | Project scaffolding, boilerplate generators, workflow templates, and ... |
+| 📄 | [**Templates & Workflows**](templates-workflows/) | **196** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **192** | Pipeline configs, deployment automation, build tooling, and continuou... |
-| ✅ | [**Code Quality & Review**](code-quality-review/) | **190** | Linting rules, review checklists, code standards enforcement, and qua... |
+| ✅ | [**Code Quality & Review**](code-quality-review/) | **191** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **173** | Incident response, troubleshooting guides, system diagnostics, and op... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **148** | Metrics collection, alerting rules, observability setup, and system m... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **147** | Third-party API bridges, webhook handlers, service connectors, and pl... |

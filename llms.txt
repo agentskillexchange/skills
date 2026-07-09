@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-09
-# Total: 2712 skills
+# Total: 2715 skills
+
+## Progressive Disclosure for Documentation
+slug: progressive-disclosure
+category: Templates & Workflows
+framework: Claude Code
+verification: Published
+description: Restructure large documentation files (500+ lines, 5k+ tokens) into slim indexes with on-demand detail directories. Reduces always-included context by 40-60% while preserving full accessibility.…
+url: https://agentskillexchange.com/skills/progressive-disclosure/
+
+## Pre-Landing Self-Review
+slug: pre-landing-review
+category: Code Quality & Review
+framework: Claude Code
+verification: Published
+description: Structured self-review checklist to run before committing substantial code changes. Covers edge cases, error paths, test coverage, documentation, and code quality — so CI…
+url: https://agentskillexchange.com/skills/pre-landing-review/
+
+## Autonomous Session Workflow
+slug: autonomous-session-workflow
+category: Templates & Workflows
+framework: Claude Code
+verification: Published
+description: 5-phase repeatable structure for autonomous agent sessions: context-load, tiered work-selection, coordination claim, execute, and persist-learning. Prevents duplicate work across concurrent sessions and ensures every…
+url: https://agentskillexchange.com/skills/autonomous-session-workflow/
 
 ## Track AI coding-agent token usage with TokenTracker
 slug: track-ai-coding-agent-token-usage-with-tokentracker
