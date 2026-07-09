@@ -28,7 +28,7 @@ Clone the Agent Skill Exchange repository and copy this skill directory into the
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git
-cp -R skills/skills/routerbase-api-integration ~/.agent-skills/routerbase-api-integration
+cp -R skills/routerbase-api-integration ~/.agent-skills/routerbase-api-integration
 ```
 
 ### Optional Third-Party Installer

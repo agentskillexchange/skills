@@ -28,7 +28,7 @@ Clone the Agent Skill Exchange repository and copy this skill directory into the
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git
-cp -R skills/skills/routerbase-media-generation ~/.agent-skills/routerbase-media-generation
+cp -R skills/routerbase-media-generation ~/.agent-skills/routerbase-media-generation
 ```
 
 ### Optional Third-Party Installer

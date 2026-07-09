@@ -28,7 +28,7 @@ Clone the Agent Skill Exchange repository and copy this skill directory into the
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git
-cp -R skills/skills/routerbase-model-routing ~/.agent-skills/routerbase-model-routing
+cp -R skills/routerbase-model-routing ~/.agent-skills/routerbase-model-routing
 ```
 
 ### Optional Third-Party Installer
