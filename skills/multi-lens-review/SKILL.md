@@ -43,7 +43,7 @@ Invoke with `/multi-lens-review` when starting a rigorous PR or diff review.
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git
-cp -R skills/skills/multi-lens-review ~/.agent-skills/multi-lens-review
+cp -R skills/multi-lens-review ~/.agent-skills/multi-lens-review
 ```
 
 ## Default Lenses

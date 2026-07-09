@@ -39,7 +39,7 @@ Then invoke with `/self-push` when you want to trigger a lazy-check.
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git
-cp -R skills/skills/self-push ~/.agent-skills/self-push
+cp -R skills/self-push ~/.agent-skills/self-push
 ```
 
 ## The Lazy-Check (3 Questions)

@@ -43,7 +43,7 @@ Invoke with `/five-element-spec` before starting any non-trivial implementation 
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git
-cp -R skills/skills/five-element-spec ~/.agent-skills/five-element-spec
+cp -R skills/five-element-spec ~/.agent-skills/five-element-spec
 ```
 
 ## The 5-Element Spec
