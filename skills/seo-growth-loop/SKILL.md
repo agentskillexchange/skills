@@ -2,12 +2,15 @@
 name: "SEO Growth Loop"
 slug: "seo-growth-loop"
 description: "Run a closed-loop SEO growth workflow using Search Console data, keyword demand analysis, SERP Authority Mark checks, and the available publishing path. Works across CMS/API, local repo, hybrid, and advisory-only environments."
+github_stars: 1
 verification: "listed"
 source: "https://github.com/marketingskills/seo-growth-loop"
+author: "marketingskills"
 category: "Content Writing & SEO"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "marketingskills/seo-growth-loop"
+  github_stars: 1
 ---
 
 # SEO Growth Loop

@@ -2,12 +2,15 @@
 name: "Live Search Console Data"
 slug: "live-search-console-data"
 description: "Give Claude Code, Codex, or OpenCode live access to Google Search Console and GA4 data through RefreshAgent. Provides authenticated GSC queries, keyword positions, sitemap status, cannibalization detection, and analytics without manual GCP OAuth setup."
+github_stars: 0
 verification: "listed"
 source: "https://github.com/marketingskills/live-search-console-data"
+author: "marketingskills"
 category: "Data Extraction & Transformation"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "marketingskills/live-search-console-data"
+  github_stars: 0
 ---
 
 # Live Search Console Data

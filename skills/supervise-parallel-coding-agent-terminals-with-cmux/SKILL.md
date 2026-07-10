@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "manaflow-ai/cmux"
   github_stars: 20490
+  npm_package: "cmux"
+  npm_weekly_downloads: 0
 ---
 
 # Supervise parallel coding-agent terminals with Cmux
