@@ -1,12 +1,12 @@
 ---
-name: "Gitleaks Git Repository Secret Scanner"
-slug: "gitleaks-git-secret-scanner"
+title: "Gitleaks Git Repository Secret Scanner"
 description: "Gitleaks is an open-source SAST tool for detecting hardcoded secrets like passwords, API keys, and tokens in Git repositories, files, and directories. With 24,000+ GitHub stars and 20 million Docker downloads, it is the most widely adopted open-source secret scanner."
-github_stars: 25731
 verification: "security_reviewed"
 source: "https://github.com/gitleaks/gitleaks"
-category: "Security & Verification"
-framework: "Claude Code"
+category:
+  - "Security & Verification"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "gitleaks/gitleaks"
   github_stars: 25731
@@ -14,28 +14,17 @@ tool_ecosystem:
 
 # Gitleaks Git Repository Secret Scanner
 
-Gitleaks is an open-source SAST tool for detecting hardcoded secrets like passwords, API keys, and tokens in Git repositories, files, and directories. It is the most widely adopted open-source secret scanner.
+Gitleaks is an open-source SAST tool for detecting hardcoded secrets like passwords, API keys, and tokens in Git repositories, files, and directories. With 24,000+ GitHub stars and 20 million Docker downloads, it is the most widely adopted open-source secret scanner.
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install gitleaks
-- docker pull zricethezav/gitleaks:latest
-- docker run -v ${path_to_host_folder_to_scan}:/path zricethezav/gitleaks:latest [COMMAND] [OPTIONS] [SOURCE_PATH]
-- docker pull ghcr.io/gitleaks/gitleaks:latest
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [dockerhub]: https://hub.docker.com/r/zricethezav/gitleaks
-- [dockerhub-badge]: https://img.shields.io/docker/pulls/zricethezav/gitleaks.svg
-- [![Docker Hub][dockerhub-badge]][dockerhub]
-
-Basic usage or getting-started notes:
-- ### Installing
-- bash
-- # MacOS
-
-- Source: https://github.com/gitleaks/gitleaks
-- Extracted from upstream docs: https://raw.githubusercontent.com/gitleaks/gitleaks/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

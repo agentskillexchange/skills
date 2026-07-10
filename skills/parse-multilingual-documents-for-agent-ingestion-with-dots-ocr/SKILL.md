@@ -1,14 +1,14 @@
 ---
-name: "Parse multilingual documents for agent ingestion with dots.ocr"
-slug: "parse-multilingual-documents-for-agent-ingestion-with-dots-ocr"
+title: "Parse multilingual documents for agent ingestion with dots.ocr"
 description: "Use dots.ocr when an agent needs repeatable multilingual document layout parsing before retrieval, extraction, review, or downstream automation."
-github_stars: 8932
 verification: "security_reviewed"
 source: "https://github.com/rednote-hilab/dots.ocr"
 author: "rednote-hilab"
 publisher_type: "open_source"
-category: "Data Extraction & Transformation"
-framework: "Multi-Framework"
+category:
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "rednote-hilab/dots.ocr"
   github_stars: 8932
@@ -24,24 +24,19 @@ Python, vLLM or Hugging Face Transformers, dots.mocr model weights
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- conda create -n dots_mocr python=3.12
-- conda activate dots_mocr
-- git clone https://github.com/rednote-hilab/dots.mocr.git
-- pip install -e .
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [OCRVerse](https://github.com/DocTron-hub/OCRVerse) results are derived from various code formats (e.g., SVG, Python), whereas results for Gemini 3 Pro and dots.mocr are based specifically on SVG code.
-- If you have trouble with the installation, try our [Docker Image](https://hub.docker.com/r/rednotehilab/dots.ocr) for an easier setup, and follow these steps:
-- We highly recommend using vLLM for deployment and inference. **Since vLLM version 0.11.0, Dots OCR has been officially integrated into vLLM with verified performance** and you can use vLLM docker image directly (e.g,...
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- cd dots.mocr
-- 💡**Note:** Please use a directory name without periods (e.g., DotsMOCR instead of dots.mocr) for the model save path. This is a temporary workaround pending our integration with Transformers.
-- python3 tools/download_model.py
+Install command or upstream instructions:
 
-- Source: https://github.com/rednote-hilab/dots.ocr
-- Extracted from upstream docs: https://raw.githubusercontent.com/rednote-hilab/dots.ocr/HEAD/README.md
+```
+Clone https://github.com/rednote-hilab/dots.ocr, create the documented Python 3.12 environment, install PyTorch for the target CUDA runtime, run `pip install -e .`, download model weights with `python3 tools/download_model.py`, then deploy through vLLM or run parser commands such as `python3 dots_mocr/parser.py demo/demo_pdf1.pdf --num_thread 64`.
+```
 
 ## Documentation
 

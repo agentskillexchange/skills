@@ -1,12 +1,12 @@
 ---
-name: "Datadog APM Trace Query Agent"
-slug: "datadog-apm-trace-query-agent"
+title: "Datadog APM Trace Query Agent"
 description: "Queries distributed traces from Datadog APM using the Trace Search API with faceted filtering. Analyzes p99 latency breakdowns across service spans and identifies slow database queries via db.statement tags."
-github_stars: 791
 verification: "security_reviewed"
 source: "https://github.com/DataDog/dd-trace-js"
-category: "Monitoring & Alerts"
-framework: "MCP"
+category:
+  - "Monitoring & Alerts"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "datadog/dd-trace-js"
   github_stars: 791
@@ -20,22 +20,13 @@ Queries distributed traces from Datadog APM using the Trace Search API with face
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- $ npm install dd-trace
-- $ yarn add dd-trace
-- $ npm install dd-trace@4 # or whatever version you need
-- $ yarn add dd-trace@4 # or whatever version you need
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- # dd-trace: Node.js APM Tracer Library
-- dd-trace is an npm package that you can install in your Node.js application to capture APM (Application Performance Monitoring) data. In Datadog terminology this library is called a Tracer. This data is then sent off...
-- [Tracing Node.js Applications](https://docs.datadoghq.com/tracing/languages/nodejs/) - most project documentation, including setup instructions
-
-Basic usage or getting-started notes:
-- [API Documentation](https://datadog.github.io/dd-trace-js) - method signatures, plugin list, and some usage examples
-
-- Source: https://github.com/DataDog/dd-trace-js
-- Extracted from upstream docs: https://raw.githubusercontent.com/DataDog/dd-trace-js/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

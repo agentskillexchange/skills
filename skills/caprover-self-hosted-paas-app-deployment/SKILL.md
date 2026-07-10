@@ -1,12 +1,12 @@
 ---
-name: "CapRover Self-Hosted PaaS for App Deployment and Server Management"
-slug: "caprover-self-hosted-paas-app-deployment"
+title: "CapRover Self-Hosted PaaS for App Deployment and Server Management"
 description: "CapRover is a self-hosted Platform-as-a-Service that automates Docker, Nginx, and LetsEncrypt to deploy applications and databases with minimal configuration. It provides a web GUI and CLI for managing NodeJS, Python, PHP, Ruby, Go apps and popular databases on any VPS."
-github_stars: 14949
 verification: "security_reviewed"
 source: "https://github.com/caprover/caprover"
-category: "CI/CD Integrations"
-framework: "Multi-Framework"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "caprover/caprover"
   github_stars: 14949
@@ -20,13 +20,13 @@ CapRover is a self-hosted Platform-as-a-Service that automates Docker, Nginx, an
 
 ## Installation
 
-Requirements and caveats from upstream:
-- <a href="https://hub.docker.com/r/caprover/caprover/" target="_blank" title="Docker Pulls">
-- <img src="https://img.shields.io/docker/pulls/caprover/caprover.svg" alt="Docker Pulls"/>
-- Easiest app/database deployment platform and webserver package for your NodeJS, Python, PHP, Ruby, Go applications.
+Choose whichever fits your setup:
 
-- Source: https://github.com/caprover/caprover
-- Extracted from upstream docs: https://raw.githubusercontent.com/caprover/caprover/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

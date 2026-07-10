@@ -1,12 +1,12 @@
 ---
-name: "OWASP ZAP Scanner Agent"
-slug: "owasp-zap-scanner-agent"
+title: "OWASP ZAP Scanner Agent"
 description: "Integrates the OWASP ZAP API to run automated DAST scans against web applications. Parses ZAP JSON reports, triages alerts by CVSS severity, and generates remediation tickets via Jira REST API."
-github_stars: 14991
 verification: "security_reviewed"
 source: "https://github.com/zaproxy/zaproxy"
-category: "Security & Verification"
-framework: "OpenClaw"
+category:
+  - "Security & Verification"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "zaproxy/zaproxy"
   github_stars: 14991
@@ -18,14 +18,13 @@ Integrates the OWASP ZAP API to run automated DAST scans against web application
 
 ## Installation
 
-Requirements and caveats from upstream:
-- ![Docker Live Release](https://github.com/zaproxy/zaproxy/actions/workflows/release-live-docker.yml/badge.svg)
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- ![Integration Tests](https://github.com/zaproxy/zaproxy/actions/workflows/run-integration-tests.yml/badge.svg)
-
-- Source: https://github.com/zaproxy/zaproxy
-- Extracted from upstream docs: https://raw.githubusercontent.com/zaproxy/zaproxy/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

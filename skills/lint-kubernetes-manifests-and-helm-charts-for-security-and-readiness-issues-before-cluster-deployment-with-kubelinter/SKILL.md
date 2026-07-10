@@ -1,14 +1,14 @@
 ---
-name: "Lint Kubernetes manifests and Helm charts for security and readiness issues before cluster deployment with KubeLinter"
-slug: "lint-kubernetes-manifests-and-helm-charts-for-security-and-readiness-issues-before-cluster-deployment-with-kubelinter"
+title: "Lint Kubernetes manifests and Helm charts for security and readiness issues before cluster deployment with KubeLinter"
 description: "Run a static policy pass over Kubernetes YAML before misconfigurations, missing limits, or risky defaults reach a cluster."
-github_stars: 3437
 verification: "security_reviewed"
 source: "https://github.com/stackrox/kube-linter"
 author: "StackRox"
 publisher_type: "organization"
-category: "Security & Verification"
-framework: "Multi-Framework"
+category:
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "stackrox/kube-linter"
   github_stars: 3437
@@ -24,23 +24,19 @@ KubeLinter binary or container image, Kubernetes YAML or Helm/Kustomize inputs, 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- go install golang.stackrox.io/kube-linter/cmd/kube-linter@latest
-- brew install kube-linter
-- docker pull stackrox/kube-linter:latest
-- git clone git@github.com:stackrox/kube-linter.git
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ### Using docker
-- Running KubeLinter to Lint your YAML files only requires two steps in its most basic form.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- To install using [Go](https://golang.org/), run the following command:
-- To install using Homebrew or LinuxBrew, run the following command:
-- Make sure that you have [installed Go](https://golang.org/doc/install) prior to building from source.
+Install command or upstream instructions:
 
-- Source: https://github.com/stackrox/kube-linter
-- Extracted from upstream docs: https://raw.githubusercontent.com/stackrox/kube-linter/HEAD/README.md
+```
+Install KubeLinter from the upstream binary, package manager, or container image, run kube-linter lint against the target manifests or chart output, and review the recommendations before deployment.
+```
 
 ## Documentation
 

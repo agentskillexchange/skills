@@ -1,14 +1,14 @@
 ---
-name: "Render interactive MCP tool UIs with mcp-ui"
-slug: "render-interactive-mcp-tool-uis-with-mcp-ui"
+title: "Render interactive MCP tool UIs with mcp-ui"
 description: "Build an MCP Apps resource, attach it to a tool through _meta.ui.resourceUri, and verify the host renders the interactive UI alongside tool results."
-github_stars: 4875
 verification: "security_reviewed"
 source: "https://github.com/MCP-UI-Org/mcp-ui"
 author: "MCP-UI-Org"
 publisher_type: "open-source organization"
-category: "Integrations & Connectors"
-framework: "MCP"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "MCP-UI-Org/mcp-ui"
   github_stars: 4875
@@ -26,23 +26,19 @@ MCP server, MCP Apps-compatible host or legacy MCP-UI host, TypeScript packages 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install @mcp-ui/server @mcp-ui/client
-- pnpm add @mcp-ui/server @mcp-ui/client
-- yarn add @mcp-ui/server @mcp-ui/client
-- gem install mcp_ui_server
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <a href="https://pypi.org/project/mcp-ui-server/"><img src="https://img.shields.io/pypi/v/mcp-ui-server?label=python&color=yellow" alt="Python Server SDK Version"></a>
-- **mcp-ui-server (Python)**: Create UI resources in Python.
-- UI snippets must be able to interact with the agent. In mcp-ui, this is done by hooking into events sent from the UI snippet and reacting to them in the host (see onUIAction prop). For example, an HTML may trigger a t...
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- <a href="#-getting-started">Getting Started</a> •
-- **Usage:**
+Install command or upstream instructions:
 
-- Source: https://github.com/MCP-UI-Org/mcp-ui
-- Extracted from upstream docs: https://raw.githubusercontent.com/MCP-UI-Org/mcp-ui/HEAD/README.md
+```
+For TypeScript, run npm install @mcp-ui/server @mcp-ui/client, or pnpm add @mcp-ui/server @mcp-ui/client. Create a UI resource with createUIResource, register it with the MCP Apps resource handler, then link a tool to the resource using _meta.ui.resourceUri. For Python use pip install mcp-ui-server; for Ruby use gem install mcp_ui_server.
+```
 
 ## Documentation
 

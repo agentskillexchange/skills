@@ -1,12 +1,13 @@
 ---
-name: "Diffbot Article Extraction Verifier"
-slug: "diffbot-article-extraction-verifier"
+title: "Diffbot Article Extraction Verifier"
 description: "Validates article extraction quality using the Diffbot Article API and Analyze API, checking fields like `title`, `author`, `tags`, and `text`. Useful for verifying whether an extraction pipeline is capturing real editorial structure instead of noisy page chrome."
 verification: "security_reviewed"
 source: "https://www.diffbot.com/dev/docs/"
 author: "Diffbot"
-category: "Research & Scraping"
-framework: "Claude Agents"
+category:
+  - "Research & Scraping"
+framework:
+  - "Claude Agents"
 ---
 
 # Diffbot Article Extraction Verifier
@@ -15,12 +16,13 @@ Validates article extraction quality using the Diffbot Article API and Analyze A
 
 ## Installation
 
-Basic usage or getting-started notes:
-- General Concepts Entity ID and diffbotUri
-- Origin
-- Importance
+Choose whichever fits your setup:
 
-- Source: https://www.diffbot.com/dev/docs/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

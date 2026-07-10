@@ -1,12 +1,12 @@
 ---
-name: "PostgreSQL Query Optimizer Agent"
-slug: "postgresql-query-optimizer-explain-api"
+title: "PostgreSQL Query Optimizer Agent"
 description: "Optimizes PostgreSQL queries using EXPLAIN ANALYZE output parsing with pg_stat_statements extension data. Suggests index creation via HypoPG hypothetical index simulator and validates query plans against pg_hint_plan directives."
-github_stars: 13127
 verification: "security_reviewed"
 source: "https://github.com/brianc/node-postgres"
-category: "Developer Tools"
-framework: "OpenClaw"
+category:
+  - "Developer Tools"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "brianc/node-postgres"
   github_stars: 13127
@@ -20,23 +20,13 @@ Optimizes PostgreSQL queries using EXPLAIN ANALYZE output parsing with pg_stat_s
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install pg
-- From your workspace root run yarn and then yarn lerna bootstrap
-- Run yarn test to run all the tests.
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- # node-postgres
-- ![Build Status](https://github.com/brianc/node-postgres/actions/workflows/ci.yml/badge.svg)
-- Non-blocking PostgreSQL client for Node.js. Pure JavaScript and optional native libpq bindings.
-
-Basic usage or getting-started notes:
-- ## Documentation
-- Each package in this repo should have its own readme more focused on how to develop/contribute. For overall documentation on the project and the related modules managed by this repo please see:
-- ### Features
-
-- Source: https://github.com/brianc/node-postgres
-- Extracted from upstream docs: https://raw.githubusercontent.com/brianc/node-postgres/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

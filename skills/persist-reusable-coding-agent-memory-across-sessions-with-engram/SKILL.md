@@ -1,14 +1,14 @@
 ---
-name: "Persist reusable coding-agent memory across sessions with Engram"
-slug: "persist-reusable-coding-agent-memory-across-sessions-with-engram"
+title: "Persist reusable coding-agent memory across sessions with Engram"
 description: "Keep searchable long-term memory for coding agents in a local SQLite store and expose it through MCP when sessions keep forgetting prior decisions, conventions, and useful findings."
-github_stars: 2576
 verification: "listed"
 source: "https://github.com/Gentleman-Programming/engram"
 author: "Gentleman Programming"
 publisher_type: "organization"
-category: "Developer Tools"
-framework: "MCP"
+category:
+  - "Developer Tools"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "Gentleman-Programming/engram"
   github_stars: 2576
@@ -24,9 +24,19 @@ Local shell, Engram binary, and an MCP-compatible coding agent such as Claude Co
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://github.com/Gentleman-Programming/engram
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install the Engram binary, then use the agent-specific setup instructions in the repository, for example `engram setup codex` or `engram setup gemini-cli`, or register `engram mcp` manually with your MCP client.
+```
 
 ## Documentation
 

@@ -1,13 +1,13 @@
 ---
-name: "Generate Markdown tables of contents before publishing docs or README updates"
-slug: "generate-markdown-tables-of-contents-before-publishing-docs-or-readme-updates"
+title: "Generate Markdown tables of contents before publishing docs or README updates"
 description: "Runs DocToc to insert or refresh navigable tables of contents inside Markdown files after headings already exist. Use it when an agent is preparing README or docs updates and needs reliable intra-document navigation, not when it is generating the documentation itself."
-github_stars: 4432
 verification: "security_reviewed"
 source: "https://github.com/thlorenz/doctoc"
 author: "Thorsten Lorenz"
-category: "Content Writing & SEO"
-framework: "Multi-Framework"
+category:
+  - "Content Writing & SEO"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "thlorenz/doctoc"
   github_stars: 4432
@@ -25,21 +25,19 @@ Node.js, npm, command line
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install -g doctoc
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- # DocToc [![Node.js CI](https://github.com/thlorenz/doctoc/actions/workflows/node.js.yml/badge.svg)](https://github.com/thlorenz/doctoc/actions/workflows/node.js.yml)
-- [Docker image](#docker-image)
-- ### Docker image
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-- [Usage](#usage)
-- [Example](#example)
+Install command or upstream instructions:
 
-- Source: https://github.com/thlorenz/doctoc
-- Extracted from upstream docs: https://raw.githubusercontent.com/thlorenz/doctoc/HEAD/README.md
+```
+npm install -g doctoc
+```
 
 ## Documentation
 

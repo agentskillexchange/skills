@@ -1,14 +1,14 @@
 ---
-name: "Serve local model endpoints for agent tests with OpenLLM"
-slug: "serve-local-model-endpoints-for-agent-tests-with-openllm"
+title: "Serve local model endpoints for agent tests with OpenLLM"
 description: "Launch an OpenAI-compatible OpenLLM server for a chosen open model, point an agent runtime at it, and compare behavior before production use."
-github_stars: 12346
 verification: "security_reviewed"
 source: "https://github.com/bentoml/OpenLLM"
 author: "BentoML"
 publisher_type: "open-source organization"
-category: "Developer Tools"
-framework: "Multi-Framework"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "bentoml/OpenLLM"
   github_stars: 12346
@@ -26,20 +26,19 @@ OpenLLM, Python environment, supported open model, required GPU/CPU resources, H
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install openllm # or pip3 install openllm
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <summary>OpenAI Python client</summary>
-- python
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- OpenLLM allows developers to run **any open-source LLMs** (Llama 3.3, Qwen2.5, Phi3 and [more](#supported-models)) or **custom models** as **OpenAI-compatible APIs** with a single command. It features a [built-in chat...
-- Run the following commands to install OpenLLM and explore it interactively.
-- OpenLLM supports a wide range of state-of-the-art open-source LLMs. You can also add a [model repository to run custom models](#set-up-a-custom-repository) with OpenLLM.
+Install command or upstream instructions:
 
-- Source: https://github.com/bentoml/OpenLLM
-- Extracted from upstream docs: https://raw.githubusercontent.com/bentoml/OpenLLM/HEAD/README.md
+```
+Install with `pip install openllm`, run `openllm hello` to verify the CLI, then start a server such as `openllm serve llama3.2:1b`. The server exposes OpenAI-compatible APIs at `http://localhost:3000`; point compatible clients at `http://localhost:3000/v1` with a placeholder local API key.
+```
 
 ## Documentation
 

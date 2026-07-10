@@ -1,14 +1,14 @@
 ---
-name: "Layer self-correcting memory and worktree routines into Claude Code with Pro Workflow"
-slug: "layer-self-correcting-memory-and-worktree-routines-into-claude-code-with-pro-workflow"
+title: "Layer self-correcting memory and worktree routines into Claude Code with Pro Workflow"
 description: "Use Pro Workflow when Claude Code sessions keep repeating the same mistakes and you want corrections, quality gates, and parallel worktree routines to persist across sessions instead of being re-explained every time."
-github_stars: 1933
 verification: "security_reviewed"
 source: "https://github.com/rohitg00/pro-workflow"
 author: "rohitg00"
 publisher_type: "individual"
-category: "Templates & Workflows"
-framework: "Claude Code"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "rohitg00/pro-workflow"
   github_stars: 1933
@@ -26,17 +26,19 @@ Claude Code, the Pro Workflow plugin files or installer, a repository where hook
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx skillkit install pro-workflow
-- git clone https://github.com/rohitg00/pro-workflow.git /tmp/pw
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- bash
-- /plugin marketplace add rohitg00/pro-workflow
-- /plugin install pro-workflow@pro-workflow
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/rohitg00/pro-workflow
-- Extracted from upstream docs: https://raw.githubusercontent.com/rohitg00/pro-workflow/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install Pro Workflow through the project's documented plugin or manual setup path, enable its Claude Code commands and hooks in your repo, initialize the persistent memory components, then use the workflow commands so corrections and review routines are captured and reused across future sessions.
+```
 
 ## Documentation
 

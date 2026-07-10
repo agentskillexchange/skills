@@ -1,14 +1,14 @@
 ---
-name: "Run agent tool calls through pctx Code Mode and unified MCP"
-slug: "run-agent-tool-calls-through-pctx-code-mode-and-unified-mcp"
+title: "Run agent tool calls through pctx Code Mode and unified MCP"
 description: "Put pctx between agents and tools so MCP servers and custom tools can run through a code-oriented execution layer instead of one-off tool calls."
-github_stars: 264
 verification: "security_reviewed"
 source: "https://github.com/portofcontext/pctx"
 author: "Port of Context"
 publisher_type: "organization"
-category: "Developer Tools"
-framework: "MCP"
+category:
+  - "Developer Tools"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "portofcontext/pctx"
   github_stars: 264
@@ -26,24 +26,19 @@ pctx CLI, Python SDK or npm package, MCP-compatible client or OpenAI Agents SDK
 
 ## Installation
 
-Install the pctx CLI and the client library that matches your agent stack:
+Choose whichever fits your setup:
 
-```bash
-brew install portofcontext/tap/pctx
-npm i -g @portofcontext/pctx
-pip install pctx-client
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
 ```
-
-Use the Python client when building Python agents that call pctx as an HTTP service. Use the npm package or Homebrew CLI when you want pctx available as a local command for Code Mode or MCP setup. Existing Homebrew installs can be updated separately with `brew upgrade pctx`; do not treat that as the first-install path.
-
-Basic setup:
-
-```bash
-pctx start
-pctx mcp init
+Install with Homebrew using brew install portofcontext/tap/pctx or npm using npm i -g @portofcontext/pctx. Start Code Mode with pctx start, or initialize a unified MCP setup with pctx mcp init, add upstream servers with pctx mcp add, and run it with pctx mcp dev or pctx mcp start --stdio.
 ```
-
-Run pctx as the boundary between your agent and registered tools/MCP servers. Keep the MCP server list explicit, review which tools are exposed through Code Mode, and avoid giving the bridge broader filesystem or network access than the workflow needs.
 
 ## Documentation
 

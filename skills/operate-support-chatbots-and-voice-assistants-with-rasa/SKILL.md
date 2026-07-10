@@ -1,14 +1,14 @@
 ---
-name: "Operate support chatbots and voice assistants with Rasa"
-slug: "operate-support-chatbots-and-voice-assistants-with-rasa"
+title: "Operate support chatbots and voice assistants with Rasa"
 description: "Use Rasa to design, test, and operate custom conversational assistants for support, service, and voice workflows."
-github_stars: 21201
 verification: "security_reviewed"
 source: "https://github.com/RasaHQ/rasa"
 author: "Rasa"
 publisher_type: "open_source"
-category: "Integrations & Connectors"
-framework: "Custom Agents"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "RasaHQ/rasa"
   github_stars: 21201
@@ -24,23 +24,19 @@ Rasa, conversation training data, custom actions, channel configuration
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- make install
-- Make sure you have development requirements installed:
-- make prepare-tests-ubuntu # Ubuntu/Debian
-- make prepare-tests-macos # macOS
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Supported Python Versions](https://img.shields.io/pypi/pyversions/rasa.svg)](https://pypi.python.org/pypi/rasa)
-- **Install Poetry**: Follow the [official guide](https://python-poetry.org/docs/#installation).
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- We are happy to receive contributions. Please review our [Contribution Guidelines](CONTRIBUTING.md) before getting started.
-- Rasa uses **Poetry** for packaging and dependency management.
-- **Build from source**:
+Install command or upstream instructions:
 
-- Source: https://github.com/RasaHQ/rasa
-- Extracted from upstream docs: https://raw.githubusercontent.com/RasaHQ/rasa/HEAD/README.md
+```
+Install Rasa, initialize or open an assistant project, define intents, entities, stories, rules, and actions, train the model, run conversation tests, and deploy through the selected support or voice channel.
+```
 
 ## Documentation
 

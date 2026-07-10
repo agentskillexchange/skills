@@ -1,12 +1,12 @@
 ---
-name: "FFmpeg Intelligent Media Processor"
-slug: "ffmpeg-intelligent-media-processor"
+title: "FFmpeg Intelligent Media Processor"
 description: "Orchestrates complex video and audio processing pipelines using FFmpeg and FFprobe with scene detection via PySceneDetect. Handles format conversion, thumbnail generation, HLS packaging, and loudness normalization per EBU R128."
-github_stars: 58972
 verification: "listed"
 source: "https://github.com/FFmpeg/FFmpeg"
-category: "Image & Creative Automation"
-framework: "OpenClaw"
+category:
+  - "Image & Creative Automation"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "ffmpeg/ffmpeg"
   github_stars: 58972
@@ -18,9 +18,13 @@ Orchestrates complex video and audio processing pipelines using FFmpeg and FFpro
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://github.com/FFmpeg/FFmpeg
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

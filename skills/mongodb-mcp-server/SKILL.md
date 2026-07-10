@@ -1,12 +1,12 @@
 ---
-name: "MongoDB MCP Server"
-slug: "mongodb-mcp-server"
-description: ""
-github_stars: 10181
+title: "MongoDB MCP Server"
+description: "MongoDB MCP Server is built around MongoDB document database. The underlying ecosystem is represented by mongodb/node-mongodb-native (10,180+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like collections, aggregation pipeline, indexes, Atlas, change streams, schema inspection and preserving the […]"
 verification: "security_reviewed"
 source: "https://github.com/mongodb/node-mongodb-native"
-category: "Developer Tools"
-framework: "MCP"
+category:
+  - "Developer Tools"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "mongodb/node-mongodb-native"
   github_stars: 10181
@@ -16,28 +16,17 @@ tool_ecosystem:
 
 # MongoDB MCP Server
 
-
+MongoDB MCP Server is built around MongoDB document database. The underlying ecosystem is represented by mongodb/node-mongodb-native (10,180+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like collections, aggregation pipeline, indexes, Atlas, change streams, schema inspection and preserving the […]
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm view mongodb@vX.Y.Z dist.tarball
-- npm install mongodb
-- npm install -D @types/node
-- npm init -y
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- # MongoDB Node.js Driver
-- The official [MongoDB](https://www.mongodb.com/) driver for Node.js.
-- **Upgrading to version 7? Take a look at our [upgrade guide here](https://github.com/mongodb/node-mongodb-native/blob/HEAD/etc/notes/CHANGES_7.0.0.md)!**
-
-Basic usage or getting-started notes:
-- To verify the integrity of the downloaded package, run the following command:
-- After you've created your own project using npm init, you can run:
-- bash
-
-- Source: https://github.com/mongodb/node-mongodb-native
-- Extracted from upstream docs: https://raw.githubusercontent.com/mongodb/node-mongodb-native/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

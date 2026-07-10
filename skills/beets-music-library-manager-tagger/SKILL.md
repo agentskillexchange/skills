@@ -1,12 +1,12 @@
 ---
-name: "Beets Music Library Manager and Tagger"
-slug: "beets-music-library-manager-tagger"
+title: "Beets Music Library Manager and Tagger"
 description: "Manage and tag music libraries with beets, the Python-based CLI tool that auto-tags audio files using MusicBrainz metadata. Import, organize, deduplicate, and query your music collection with a powerful plugin system and flexible query language."
-github_stars: 14901
 verification: "security_reviewed"
 source: "https://github.com/beetbox/beets"
-category: "Media & Transcription"
-framework: "Custom Agents"
+category:
+  - "Media & Transcription"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "beetbox/beets"
   github_stars: 14901
@@ -18,17 +18,13 @@ Manage and tag music libraries with beets, the Python-based CLI tool that auto-t
 
 ## Installation
 
-Requirements and caveats from upstream:
-- :target: https://pypi.python.org/pypi/beets
-- simple if you know a little Python.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Here's an example of beets' brainy tag corrector doing its thing:
-- -------
-- You can install beets by typing pip install beets or directly from Github
-
-- Source: https://github.com/beetbox/beets
-- Extracted from upstream docs: https://raw.githubusercontent.com/beetbox/beets/HEAD/README.rst
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

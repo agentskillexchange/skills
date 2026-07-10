@@ -1,12 +1,12 @@
 ---
-name: "eza Modern File Listing CLI"
-slug: "eza-modern-file-listing-cli"
+title: "eza Modern File Listing CLI"
 description: "A modern, maintained replacement for the ls command, written in Rust. eza provides colorized output, Git integration, tree views, symlink awareness, and extended attribute support in a single fast binary."
-github_stars: 20929
 verification: "security_reviewed"
 source: "https://github.com/eza-community/eza"
-category: "Developer Tools"
-framework: "Claude Code"
+category:
+  - "Developer Tools"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "eza-community/eza"
   github_stars: 20929
@@ -18,13 +18,13 @@ A modern, maintained replacement for the ls command, written in Rust. eza provid
 
 ## Installation
 
-Basic usage or getting-started notes:
-- See the man pages for further documentation of usage. They are available
-- An example theme file is available in docs/theme.yml, and needs to either be placed in a directory specified by the
-- Full details are available on the [man page](https://github.com/eza-community/eza/tree/main/man/eza_colors-explanation.5.md) and an example theme file is included [here](https://github.com/eza-community/eza/tree/main/...
+Choose whichever fits your setup:
 
-- Source: https://github.com/eza-community/eza
-- Extracted from upstream docs: https://raw.githubusercontent.com/eza-community/eza/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

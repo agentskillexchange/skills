@@ -1,12 +1,12 @@
 ---
-name: "Datadog Synthetics Failure Triage Skill"
-slug: "datadog-synthetics-failure-triage-skill"
+title: "Datadog Synthetics Failure Triage Skill"
 description: "Investigates broken checks with the Datadog Synthetics API, Monitors API, and Logs Search API to connect failed browser or API tests with the signals that explain them. Handy for turning a red synthetic check into an actionable diagnosis instead of a vague outage alarm."
-github_stars: 158
 verification: "security_reviewed"
 source: "https://github.com/DataDog/datadog-api-client-python"
-category: "Runbooks & Diagnostics"
-framework: "Claude Code"
+category:
+  - "Runbooks & Diagnostics"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "DataDog/datadog-api-client-python"
   github_stars: 158
@@ -18,21 +18,13 @@ Investigates broken checks with the Datadog Synthetics API, Monitors API, and Lo
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install datadog-api-client
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- # datadog-api-client-python
-- This repository contains a Python API client for the [Datadog API](https://docs.datadoghq.com/api/).
-- Building and using the API client library requires [Python 3.8+](https://www.python.org/downloads/).
-
-Basic usage or getting-started notes:
-- To install the API client library, simply execute:
-- shell
-- from datadog_api_client import ApiClient, Configuration
-
-- Source: https://github.com/DataDog/datadog-api-client-python
-- Extracted from upstream docs: https://raw.githubusercontent.com/DataDog/datadog-api-client-python/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

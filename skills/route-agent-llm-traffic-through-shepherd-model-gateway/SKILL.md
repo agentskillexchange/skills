@@ -1,14 +1,14 @@
 ---
-name: "Route agent LLM traffic through Shepherd Model Gateway"
-slug: "route-agent-llm-traffic-through-shepherd-model-gateway"
+title: "Route agent LLM traffic through Shepherd Model Gateway"
 description: "Use Shepherd Model Gateway to route OpenAI, Anthropic, Responses API, embeddings, and MCP tool traffic across self-hosted and cloud model backends with cache-aware policies and observability."
-github_stars: 380
 verification: "security_reviewed"
 source: "https://github.com/lightseekorg/smg"
 author: "LightSeek contributors"
 publisher_type: "open_source"
-category: "Integrations & Connectors"
-framework: "Multi-Framework"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "lightseekorg/smg"
   github_stars: 380
@@ -24,22 +24,19 @@ SMG binary, Docker image, Python package, or Rust install; one or more model wor
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- docker pull lightseekorg/smg:latest
-- pip install smg
-- cargo install smg
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <a href="https://github.com/orgs/lightseekorg/packages/container/package/smg"><img src="https://img.shields.io/badge/ghcr.io-lightseekorg%2Fsmg-blue?logo=docker" alt="Docker"></a>
-- | **[High Availability](docs/concepts/architecture/high-availability.md)** | Mesh networking with SWIM protocol for multi-node deployments |
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- **Install** — pick your preferred method:
-- **Run** — point SMG at your inference workers:
-- smg launch --worker-urls http://localhost:8000
+Install command or upstream instructions:
 
-- Source: https://github.com/lightseekorg/smg
-- Extracted from upstream docs: https://raw.githubusercontent.com/lightseekorg/smg/HEAD/README.md
+```
+Install with docker pull lightseekorg/smg:latest, pip install smg, or cargo install smg. Start with smg launch --worker-urls http://localhost:8000, add additional worker URLs or --policy cache_aware as needed, then point OpenAI-compatible agent clients at the gateway endpoint.
+```
 
 ## Documentation
 

@@ -1,14 +1,14 @@
 ---
-name: "Search cross-agent Markdown memory and conversation history with memsearch"
-slug: "search-cross-agent-markdown-memory-and-conversation-history-with-memsearch"
+title: "Search cross-agent Markdown memory and conversation history with memsearch"
 description: "Give supported coding agents a shared Markdown-first memory layer so they can recall prior decisions, transcripts, and notes across sessions instead of re-deriving context from scratch."
-github_stars: 1324
 verification: "security_reviewed"
 source: "https://github.com/zilliztech/memsearch"
 author: "Zilliz"
 publisher_type: "organization"
-category: "Developer Tools"
-framework: "Multi-Framework"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "zilliztech/memsearch"
   github_stars: 1324
@@ -24,24 +24,19 @@ Supported coding-agent client, local filesystem access, default local Milvus/ONN
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- uv tool install memsearch # via uv
-- pipx install memsearch # via pipx
-- pip install memsearch # plain pip
-- uv add memsearch # via uv, adds to pyproject.toml
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <a href="https://pypi.org/project/memsearch/"><img src="https://img.shields.io/badge/python-%3E%3D3.10-blue?style=flat-square&logo=python&logoColor=white" alt="Python"></a>
-- 👥 **For Agent Users**, install a plugin and get persistent memory with zero effort; **for Agent Developers**, use the full [CLI](https://zilliztech.github.io/memsearch/cli/) and [Python API](https://zilliztech.github....
-- Beyond ready-to-use plugins, memsearch provides a complete **CLI and Python API** for building memory into your own agents. Whether you're adding persistent context to a custom agent, building a memory-augmented RAG p...
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ### How Plugins Work (Claude Code as example)
-- # memsearch command or any of the agent plugins (Claude Code, Codex,
-- # OpenClaw, OpenCode), which all shell out to the CLI.
+Install command or upstream instructions:
 
-- Source: https://github.com/zilliztech/memsearch
-- Extracted from upstream docs: https://raw.githubusercontent.com/zilliztech/memsearch/HEAD/README.md
+```
+Use the platform-specific plugin flow from the repo. For Claude Code, add the marketplace source and install `memsearch`. For OpenClaw, run `openclaw plugins install clawhub:memsearch` and restart the gateway. Other supported agent clients have separate install instructions in the upstream docs.
+```
 
 ## Documentation
 

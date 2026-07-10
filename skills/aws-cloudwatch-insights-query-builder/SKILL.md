@@ -1,12 +1,14 @@
 ---
-name: "AWS CloudWatch Insights Query Builder"
-slug: "aws-cloudwatch-insights-query-builder"
+title: "AWS CloudWatch Insights Query Builder"
 description: "Builds CloudWatch Logs Insights queries and metric alarms using AWS SDK v3 (@aws-sdk/client-cloudwatch-logs, @aws-sdk/client-cloudwatch). Generates cross-account observability dashboards with CloudWatch Metrics Insights."
 verification: "security_reviewed"
 source: "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html"
 author: "Amazon Web Services"
-category: "Monitoring & Alerts"
-framework: "Codex"
+category:
+  - "Monitoring & Alerts"
+framework:
+  - "Codex"
+  - "Multi-Framework"
 ---
 
 # AWS CloudWatch Insights Query Builder
@@ -19,12 +21,19 @@ Amazon CloudWatch Logs Insights, AWS SDK for JavaScript v3 (@aws-sdk/client-clou
 
 ## Installation
 
-Basic usage or getting-started notes:
-- including queries added to dashboards. Additionally, you can run 15 concurrent queries for
-- For example, enclose @message , Operation.Export , and
-- observability, you can run CloudWatch Logs Insights queries on log groups in source accounts linked to
+Choose whichever fits your setup:
 
-- Source: https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+npm install @aws-sdk/client-cloudwatch-logs @aws-sdk/client-cloudwatch
+```
 
 ## Documentation
 

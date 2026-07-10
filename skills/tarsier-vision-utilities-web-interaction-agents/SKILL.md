@@ -1,13 +1,13 @@
 ---
-name: "Tarsier Vision Utilities for Web Interaction Agents"
-slug: "tarsier-vision-utilities-web-interaction-agents"
+title: "Tarsier Vision Utilities for Web Interaction Agents"
 description: "Tarsier is a Python library by Reworkd that provides vision utilities for AI web interaction agents. It visually tags interactable elements on web pages with bracketed IDs, enabling LLMs to take actions like CLICK [23], and includes an OCR algorithm that converts page screenshots into whitespace-structured text representations that even text-only LLMs can understand."
-github_stars: 1758
 verification: "security_reviewed"
 source: "https://github.com/reworkd/tarsier"
 author: "Reworkd"
-category: "Browser Automation"
-framework: "Custom Agents"
+category:
+  - "Browser Automation"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "reworkd/tarsier"
   github_stars: 1758
@@ -19,22 +19,13 @@ Tarsier is a Python library by Reworkd that provides vision utilities for AI web
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install tarsier
-- npm run build
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <img alt="Python" src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
-- python
-- This compiles the TypeScript into JavaScript, which can then be utilized in the Python package.
-
-Basic usage or getting-started notes:
-- If you've tried using an LLM to automate web interactions, you've probably run into questions like:
-- shell
-- Visit our [cookbook](https://github.com/reworkd/Tarsier/tree/main/cookbook) for agent examples using Tarsier:
-
-- Source: https://github.com/reworkd/tarsier
-- Extracted from upstream docs: https://raw.githubusercontent.com/reworkd/tarsier/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

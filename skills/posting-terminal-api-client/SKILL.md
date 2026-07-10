@@ -1,12 +1,12 @@
 ---
-name: "Posting Terminal API Client"
-slug: "posting-terminal-api-client"
+title: "Posting Terminal API Client"
 description: "A modern, open-source HTTP client built as a terminal UI application. Posting provides a Postman-like experience entirely in the terminal, with keyboard-centric workflows, environment variables, syntax highlighting, and YAML-based request storage for version control."
-github_stars: 11673
 verification: "security_reviewed"
 source: "https://github.com/darrenburns/posting"
-category: "Developer Tools"
-framework: "Custom Agents"
+category:
+  - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "darrenburns/posting"
   github_stars: 11673
@@ -18,21 +18,13 @@ A modern, open-source HTTP client built as a terminal UI application. Posting pr
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- # quickly install uv on MacOS/Linux
-- uv tool install --python 3.13 posting
-- If you'd prefer to use pipx, that works too: pipx install posting.
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- run Python code before and after requests
-
-Basic usage or getting-started notes:
-- Posting can be installed via [uv](https://docs.astral.sh/uv/getting-started/installation/) on MacOS, Linux, and Windows.
-- bash
-- Now you can run Posting via the command line:
-
-- Source: https://github.com/darrenburns/posting
-- Extracted from upstream docs: https://raw.githubusercontent.com/darrenburns/posting/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

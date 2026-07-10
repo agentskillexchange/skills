@@ -1,12 +1,13 @@
 ---
-name: "Dolby.io Media Enhancer"
-slug: "dolby-io-media-enhancer-agent"
+title: "Dolby.io Media Enhancer"
 description: "Enhances audio and video quality using the Dolby.io Media Processing API. Applies noise reduction, loudness correction to EBU R128 standards, and dynamic range compression via the /media/enhance endpoint."
 verification: "listed"
 source: "https://optiview.dolby.com/docs/"
 author: "Dolby.io"
-category: "Media & Transcription"
-framework: "Cursor"
+category:
+  - "Media & Transcription"
+framework:
+  - "Cursor"
 ---
 
 # Dolby.io Media Enhancer
@@ -15,9 +16,13 @@ Enhances audio and video quality using the Dolby.io Media Processing API. Applie
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://optiview.dolby.com/docs/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

@@ -1,12 +1,12 @@
 ---
-name: "ArgoCD Deployment Sync Skill"
-slug: "argocd-deployment-sync-skill"
+title: "ArgoCD Deployment Sync Skill"
 description: "Manages GitOps deployments via the ArgoCD REST API and argocd CLI. Triggers application syncs through /api/v1/applications/{name}/sync, monitors health status via /api/v1/applications/{name}, and manages rollbacks using /api/v1/applications/{name}/rollback for Kubernetes workloads."
-github_stars: 22593
 verification: "security_reviewed"
 source: "https://github.com/argoproj/argo-cd"
-category: "CI/CD Integrations"
-framework: "Claude Agents"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Claude Agents"
 tool_ecosystem:
   github_repo: "argoproj/argo-cd"
   github_stars: 22593
@@ -18,12 +18,13 @@ Manages GitOps deployments via the ArgoCD REST API and argocd CLI. Triggers appl
 
 ## Installation
 
-Basic usage or getting-started notes:
-- [Couchbase - How To Run a Database Cluster in Kubernetes Using Argo CD](https://youtu.be/nkPoPaVzExY)
-- [Getting Started with ArgoCD for GitOps Deployments](https://youtu.be/AvLuplh1skA)
+Choose whichever fits your setup:
 
-- Source: https://github.com/argoproj/argo-cd
-- Extracted from upstream docs: https://raw.githubusercontent.com/argoproj/argo-cd/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,14 +1,14 @@
 ---
-name: "Red-team agent workflows for jailbreaks, prompt injection, and policy failures with DeepTeam"
-slug: "red-team-agent-workflows-for-jailbreaks-prompt-injection-and-policy-failures-with-deepteam"
+title: "Red-team agent workflows for jailbreaks, prompt injection, and policy failures with DeepTeam"
 description: "Run local adversarial attack passes against agents, RAG pipelines, and chatbots to surface concrete failure classes before production rollout."
-github_stars: 1566
 verification: "security_reviewed"
 source: "https://github.com/confident-ai/deepteam"
 author: "Confident AI"
 publisher_type: "organization"
-category: "Security & Verification"
-framework: "Multi-Framework"
+category:
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "confident-ai/deepteam"
   github_stars: 1566
@@ -24,21 +24,19 @@ Python environment, local or configured LLM access for chosen attacks
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install -U deepteam
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- 🔗 Run red teaming from the **CLI** with YAML configs, or programmatically in Python.
-- DeepTeam does not require you to define what LLM system you are red teaming — because neither will malicious users. All you need to do is install deepteam, define a model_callback, and you're good to go.
-- python
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- <a href="#-quickstart">Getting Started</a> |
-- 📐 50+ ready-to-use [vulnerabilities](https://www.trydeepteam.com/docs/red-teaming-vulnerabilities) (all with explanations) powered by **ANY** LLM of your choice. Each vulnerability uses LLM-as-a-Judge metrics that run...
-- ## Red Team Your First LLM
+Install command or upstream instructions:
 
-- Source: https://github.com/confident-ai/deepteam
-- Extracted from upstream docs: https://raw.githubusercontent.com/confident-ai/deepteam/HEAD/README.md
+```
+Follow the repository quickstart to install DeepTeam, configure the model or local runtime you want to use for attack generation and judging, then run red-team passes against the target agent or LLM system and review the reported failures.
+```
 
 ## Documentation
 

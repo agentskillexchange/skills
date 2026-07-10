@@ -1,12 +1,13 @@
 ---
-name: "Python Package Docs Fetcher"
-slug: "python-package-docs-fetcher"
+title: "Python Package Docs Fetcher"
 description: "Retrieves and indexes Python package documentation from PyPI metadata API and Read the Docs API. Uses ast module parsing and pydoc introspection to extract function signatures, docstrings, and type hints for offline reference."
 verification: "security_reviewed"
 source: "https://docs.pypi.org/"
 author: "PyPI"
-category: "Library & API Reference"
-framework: "OpenClaw"
+category:
+  - "Library & API Reference"
+framework:
+  - "OpenClaw"
 ---
 
 # Python Package Docs Fetcher
@@ -15,15 +16,13 @@ Retrieves and indexes Python package documentation from PyPI metadata API and Re
 
 ## Installation
 
-Requirements and caveats from upstream:
-- PyPI is the official repository of packages for Python.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Adding a Trusted Publisher to an Existing PyPI Project
-- Creating a PyPI Project with a Trusted Publisher
-- Publishing with a Trusted Publisher
-
-- Source: https://docs.pypi.org/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

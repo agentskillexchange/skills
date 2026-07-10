@@ -1,14 +1,14 @@
 ---
-name: "Run production multi-agent workflows with Hive"
-slug: "run-production-multi-agent-workflows-with-hive"
+title: "Run production multi-agent workflows with Hive"
 description: "Use Hive as a model-agnostic harness for long-running multi-agent workflows that need state, recovery, observability, human oversight, and business-system tools."
-github_stars: 10461
 verification: "security_reviewed"
 source: "https://github.com/aden-hive/hive"
 author: "Aden Hive"
 publisher_type: "organization"
-category: "Templates & Workflows"
-framework: "Multi-Framework"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "aden-hive/hive"
   github_stars: 10461
@@ -24,21 +24,19 @@ Hive/OpenHive, Python 3.11+, uv workspace setup, LLM provider credentials, optio
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/aden-hive/hive.git
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Require **human-in-the-loop control**, observability, and cost limits
-- Python 3.11+ for agent development
-- **ripgrep (optional, recommended on Windows):** The search_files tool uses ripgrep for faster file search. If not installed, a Python fallback is used. On Windows: winget install BurntSushi.ripgrep or scoop install ri...
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- <p align="center"><em>The agent harness for production workloads — state management, failure recovery, observability, and human oversight so your agents actually run.</em></p>
-- Plan to run agents in **production** where uptime, cost, and auditability matter
-- An LLM provider that powers the agents
+Install command or upstream instructions:
 
-- Source: https://github.com/aden-hive/hive
-- Extracted from upstream docs: https://raw.githubusercontent.com/aden-hive/hive/HEAD/README.md
+```
+Clone `https://github.com/aden-hive/hive.git`, enter the repository, then run `./quickstart.sh` on macOS/Linux or `./quickstart.ps1` on Windows. Do not use `pip install -e .` from the repository root; the upstream README states that Hive uses a uv workspace layout.
+```
 
 ## Documentation
 

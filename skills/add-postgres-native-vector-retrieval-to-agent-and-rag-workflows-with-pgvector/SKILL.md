@@ -1,14 +1,14 @@
 ---
-name: "Add Postgres-native vector retrieval to agent and RAG workflows with pgvector"
-slug: "add-postgres-native-vector-retrieval-to-agent-and-rag-workflows-with-pgvector"
+title: "Add Postgres-native vector retrieval to agent and RAG workflows with pgvector"
 description: "Store embeddings beside application data in Postgres, create vector indexes, and query nearest neighbors for semantic search, RAG, recommendations, or agent memory retrieval."
-github_stars: 21709
 verification: "security_reviewed"
 source: "https://github.com/pgvector/pgvector"
 author: "pgvector"
 publisher_type: "organization"
-category: "Data Extraction & Transformation"
-framework: "Multi-Framework"
+category:
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pgvector/pgvector"
   github_stars: 21709
@@ -24,24 +24,19 @@ Postgres 13+, pgvector extension, SQL access to the target database, embeddings 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone --branch v0.8.2 https://github.com/pgvector/pgvector.git
-- make
-- make install # may need sudo
-- Then re-run the installation instructions (run make clean before make if needed). If sudo is needed for make install, use:
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- You can also install it with [Docker](#docker), [Homebrew](#homebrew), [PGXN](#pgxn), [APT](#apt), [Yum](#yum), [pkg](#pkg), [APK](#apk), or [conda-forge](#conda-forge), and it comes preinstalled with [Postgres.app](#...
-- You can also install it with [Docker](#docker) or [conda-forge](#conda-forge).
-- Or load vectors in bulk using COPY ([example](https://github.com/pgvector/pgvector-python/blob/master/examples/loading/example.py))
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Compile and install the extension (supports Postgres 13+)
-- cd /tmp
-- cd pgvector
+Install command or upstream instructions:
 
-- Source: https://github.com/pgvector/pgvector
-- Extracted from upstream docs: https://raw.githubusercontent.com/pgvector/pgvector/HEAD/README.md
+```
+Install pgvector using the upstream package, source, Docker, Homebrew, PGXN, APT, Yum, or provider-specific path, run `CREATE EXTENSION vector;`, add vector columns and indexes, then query embeddings with the documented distance operators from the agent or RAG application.
+```
 
 ## Documentation
 

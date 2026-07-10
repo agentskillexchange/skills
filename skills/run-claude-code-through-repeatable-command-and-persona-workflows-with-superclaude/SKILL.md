@@ -1,14 +1,14 @@
 ---
-name: "Run Claude Code through repeatable command and persona workflows with SuperClaude"
-slug: "run-claude-code-through-repeatable-command-and-persona-workflows-with-superclaude"
+title: "Run Claude Code through repeatable command and persona workflows with SuperClaude"
 description: "Turn Claude Code into a command-driven workflow surface for research, planning, implementation, testing, and review instead of steering every step ad hoc."
-github_stars: 22321
 verification: "security_reviewed"
 source: "https://github.com/SuperClaude-Org/SuperClaude_Framework"
 author: "SuperClaude-Org"
 publisher_type: "organization"
-category: "Templates & Workflows"
-framework: "Claude Code"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "SuperClaude-Org/SuperClaude_Framework"
   github_stars: 22321
@@ -24,20 +24,19 @@ Claude Code, SuperClaude installation, optional MCP server installs for enhanced
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pipx install superclaude
-- git clone https://github.com/SuperClaude-Org/SuperClaude_Framework.git
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- # Mindbase provides semantic search enhancement (requires "recommended" profile)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [![Run in Smithery](https://smithery.ai/badge/skills/SuperClaude-Org)](https://smithery.ai/skills?ns=SuperClaude-Org&utm_source=github&utm_medium=badge)
-- <a href="#-quick-installation">Quick Start</a> •
-- superclaude install
+Install command or upstream instructions:
 
-- Source: https://github.com/SuperClaude-Org/SuperClaude_Framework
-- Extracted from upstream docs: https://raw.githubusercontent.com/SuperClaude-Org/SuperClaude_Framework/HEAD/README.md
+```
+Install SuperClaude with pipx or the upstream installation script, run the documented command installer, optionally add the supported MCP servers, then restart Claude Code so the slash-command workflow layer becomes available.
+```
 
 ## Documentation
 

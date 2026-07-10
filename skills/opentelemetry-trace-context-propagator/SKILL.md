@@ -1,12 +1,13 @@
 ---
-name: "OpenTelemetry Trace Context Propagator"
-slug: "opentelemetry-trace-context-propagator"
+title: "OpenTelemetry Trace Context Propagator"
 description: "Implements W3C TraceContext and Baggage propagation using the OpenTelemetry JS SDK and @opentelemetry/api. Injects and extracts trace context headers (traceparent, tracestate) across HTTP, gRPC, and message queue boundaries. Integrates with Jaeger, Zipkin, and OTLP exporters for distributed trace correlation."
 verification: "security_reviewed"
 source: "https://opentelemetry.io/docs/languages/js/propagation/"
 author: "OpenTelemetry"
-category: "Library & API Reference"
-framework: "Claude Code"
+category:
+  - "Library & API Reference"
+framework:
+  - "Claude Code"
 ---
 
 # OpenTelemetry Trace Context Propagator
@@ -15,23 +16,13 @@ Implements W3C TraceContext and Baggage propagation using the OpenTelemetry JS S
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Docker
-- npm init -y
-- npm install undici \
-- npm install -D tsx # a tool to run TypeScript (.ts) files directly with node
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Node.js
-- Python
-- @opentelemetry/sdk-node
-
-Basic usage or getting-started notes:
-- Dev
-- Ops
-- Concepts
-
-- Source: https://opentelemetry.io/docs/languages/js/propagation/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

@@ -1,12 +1,12 @@
 ---
-name: "Grafana Alloy OpenTelemetry Collector Distribution"
-slug: "grafana-alloy-opentelemetry-collector"
+title: "Grafana Alloy OpenTelemetry Collector Distribution"
 description: "Grafana Alloy is an open-source OpenTelemetry Collector distribution with programmable pipelines for metrics, logs, traces, and profiles. This skill enables agents to configure and manage observability data collection using Alloy."
-github_stars: 3026
 verification: "security_reviewed"
 source: "https://github.com/grafana/alloy"
-category: "Monitoring & Alerts"
-framework: "Custom Agents"
+category:
+  - "Monitoring & Alerts"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "grafana/alloy"
   github_stars: 3026
@@ -18,13 +18,13 @@ Grafana Alloy is an open-source OpenTelemetry Collector distribution with progra
 
 ## Installation
 
-Basic usage or getting-started notes:
-- ## Example
-- otelcol.receiver.otlp "example" {
-- metrics = [otelcol.processor.batch.example.input]
+Choose whichever fits your setup:
 
-- Source: https://github.com/grafana/alloy
-- Extracted from upstream docs: https://raw.githubusercontent.com/grafana/alloy/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

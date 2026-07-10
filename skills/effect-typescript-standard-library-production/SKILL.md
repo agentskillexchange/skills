@@ -1,13 +1,13 @@
 ---
-name: "Effect TypeScript Standard Library for Production Applications"
-slug: "effect-typescript-standard-library-production"
+title: "Effect TypeScript Standard Library for Production Applications"
 description: "Effect is a comprehensive TypeScript standard library that provides structured concurrency, typed errors, dependency injection, schema validation, and observability — replacing dozens of individual packages with one cohesive, type-safe framework for building production-grade applications."
-github_stars: 13778
 verification: "security_reviewed"
 source: "https://github.com/Effect-TS/effect"
 author: "Effect-TS"
-category: "Library & API Reference"
-framework: "Multi-Framework"
+category:
+  - "Library & API Reference"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Effect-TS/effect"
   github_stars: 13778
@@ -21,24 +21,13 @@ Effect is a comprehensive TypeScript standard library that provides structured c
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pnpm install # Requires pnpm version 10.4.0
-- Make the changes you propose to the codebase. If your changes impact functionality, please **add corresponding tests** to validate your updates.
-- If you encounter style issues, use pnpm lint-fix to automatically correct some of these.
-- pnpm changeset
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- | @effect/platform-node | Platform utilities for [Node.js](https://nodejs.org) | [README](https://github.com/Effect-TS/effect/blob/main/packages/platform-node/README.md) |
-- | @effect/platform-node-shared | Shared utilities for [Node.js](https://nodejs.org) | [README](https://github.com/Effect-TS/effect/blob/main/packages/platform-node-shared/README.md) |
-- | @effect/sql-sqlite-node | An @effect/sql implementation using the better-sqlite3 library. | [README](https://github.com/Effect-TS/effect/blob/main/packages/sql-sqlite-node/README.md) |
-
-Basic usage or getting-started notes:
-- For detailed information and usage examples, visit the [Effect website](https://www.effect.website/).
-- Run the following commands to ensure your changes do not introduce any issues:
-- pnpm test-types: Run type-level tests. Tests are written using [tstyche](https://tstyche.org/).
-
-- Source: https://github.com/Effect-TS/effect
-- Extracted from upstream docs: https://raw.githubusercontent.com/Effect-TS/effect/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

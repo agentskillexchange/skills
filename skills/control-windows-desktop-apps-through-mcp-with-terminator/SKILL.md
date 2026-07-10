@@ -1,14 +1,14 @@
 ---
-name: "Control Windows desktop apps through MCP with Terminator"
-slug: "control-windows-desktop-apps-through-mcp-with-terminator"
+title: "Control Windows desktop apps through MCP with Terminator"
 description: "Connect Terminator MCP to an agent so it can inspect and automate real Windows desktop and browser workflows with pixels, DOM, and accessibility context."
-github_stars: 1534
 verification: "security_reviewed"
 source: "https://github.com/mediar-ai/terminator"
 author: "Mediar AI"
 publisher_type: "organization"
-category: "Browser Automation"
-framework: "MCP"
+category:
+  - "Browser Automation"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "mediar-ai/terminator"
   github_stars: 1534
@@ -26,15 +26,19 @@ MCP-capable client such as Claude Code, Cursor, or VS Code, Node.js/npx, Termina
 
 ## Installation
 
-Requirements and caveats from upstream:
-- | Python (terminator.py) | Partial | No | No | pip install terminator |
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- 08/25 Big release — NodeJS SDK in YAML workflows, run JS in browser, OS event recording → YAML generation in MCP, and more
-- **Usage:** Open the app you want to inspect → launch Accessibility Insights → hover or use keyboard navigation to explore the UI tree (Name, Role, ControlType, AutomationId).
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/mediar-ai/terminator
-- Extracted from upstream docs: https://raw.githubusercontent.com/mediar-ai/terminator/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Add the MCP server with claude mcp add terminator "npx -y terminator-mcp-agent@latest" or the equivalent MCP client configuration, verify the desktop automation permissions and environment, then run supervised UI automation tasks against the target desktop or browser workflow.
+```
 
 ## Documentation
 

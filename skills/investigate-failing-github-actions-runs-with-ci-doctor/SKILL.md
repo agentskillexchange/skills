@@ -1,18 +1,19 @@
 ---
-name: "Investigate failing GitHub Actions runs with CI Doctor"
-slug: "investigate-failing-github-actions-runs-with-ci-doctor"
-description: "Use GitHub Next's CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and open investigation issues with concrete next steps. This is for agents acting as CI failure investigators, not for listing GitHub Agentic Workflows as a product."
+title: "Investigate failing GitHub Actions runs with CI Doctor"
+description: "Use GitHub Next’s CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and open investigation issues with concrete next steps. This is for agents acting as CI failure investigators, not for listing GitHub Agentic Workflows as a product."
 verification: "security_reviewed"
 source: "https://github.com/githubnext/agentics/blob/main/docs/ci-doctor.md"
 author: "GitHub Next"
 publisher_type: "Open source project"
-category: "CI/CD Integrations"
-framework: "Multi-Framework"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Multi-Framework"
 ---
 
 # Investigate failing GitHub Actions runs with CI Doctor
 
-Use GitHub Next's CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and open investigation issues with concrete next steps. This is for agents acting as CI failure investigators, not for listing GitHub Agentic Workflows as a product.
+Use GitHub Next’s CI Doctor workflow to watch GitHub Actions runs, pull failure logs, trace recurring patterns, and open investigation issues with concrete next steps. This is for agents acting as CI failure investigators, not for listing GitHub Agentic Workflows as a product.
 
 ## Prerequisites
 
@@ -20,16 +21,19 @@ GitHub, GitHub Actions, gh, GitHub Agentic Workflows extension, AI provider toke
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Make software maintenance enjoyable! From basic issue triage to Repo Assist - a powerful triage multi-task backlog burner, issue labeller, bug fixer and general repository assistant. Other workflows help gate your rep...
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- [💰 Cost Tracker](docs/cost-tracker.md) - Post per-run agent spend summaries on pull requests using token-usage.jsonl from gh-aw's firewall
-- [📝 Markdown Linter](docs/markdown-linter.md) - Run Markdown quality checks on all documentation files and get a prioritized issue report of violations
-- **[Reporting](workflows/shared/reporting.md)** - Guidelines for reporting workflow run information with clickable run ID links
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/githubnext/agentics/blob/main/docs/ci-doctor.md
-- Extracted from upstream docs: https://raw.githubusercontent.com/githubnext/agentics/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install gh-aw with gh extension install github/gh-aw, then add githubnext/agentics/ci-doctor to your repository and compile the workflow.
+```
 
 ## Documentation
 

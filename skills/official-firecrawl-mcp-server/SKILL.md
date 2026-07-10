@@ -1,13 +1,13 @@
 ---
-name: "Official Firecrawl MCP Server"
-slug: "official-firecrawl-mcp-server"
+title: "Official Firecrawl MCP Server"
 description: "Official Firecrawl MCP Server exposes Firecrawl’s scraping, crawling, search, and deep research features to MCP clients. It is a strong choice for agents that need web extraction with a maintained API-backed service instead of hand-built scrapers."
-github_stars: 6001
 verification: "security_reviewed"
 source: "https://github.com/firecrawl/firecrawl-mcp-server"
 author: "firecrawl"
-category: "Research & Scraping"
-framework: "MCP"
+category:
+  - "Research & Scraping"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "firecrawl/firecrawl-mcp-server"
   github_stars: 6001
@@ -25,24 +25,19 @@ FIRECRAWL_API_KEY
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install -g firecrawl-mcp
-- npx -y @smithery/cli install @mendableai/mcp-server-firecrawl --client claude
-- [![Install with NPX in VS Code](https://img.shields.io/badge/VS_Code-NPM-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=firecrawl&inputs=%5B%7B%2...
-- npm install
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Note: Requires Cursor version 0.45.6+
-- If not provided, the cloud API will be used (requires API key)
-- export FIRECRAWL_API_KEY=your-api-key # If your instance requires auth
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ### Running with npx
-- bash
-- env FIRECRAWL_API_KEY=fc-YOUR_API_KEY npx -y firecrawl-mcp
+Install command or upstream instructions:
 
-- Source: https://github.com/firecrawl/firecrawl-mcp-server
-- Extracted from upstream docs: https://raw.githubusercontent.com/firecrawl/firecrawl-mcp-server/HEAD/README.md
+```
+npx -y firecrawl-mcp
+```
 
 ## Source
 

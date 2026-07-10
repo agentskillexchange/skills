@@ -1,14 +1,14 @@
 ---
-name: "Run block-based browser automation workflows with Automa"
-slug: "run-block-based-browser-automation-workflows-with-automa"
+title: "Run block-based browser automation workflows with Automa"
 description: "Use Automa when an operator needs repeatable browser workflows for form filling, scraping, screenshots, or scheduled web tasks through a browser-extension block builder."
-github_stars: 21409
 verification: "security_reviewed"
 source: "https://github.com/AutomaApp/automa"
 author: "AutomaApp"
 publisher_type: "Open Source Project"
-category: "Browser Automation"
-framework: "Multi-Framework"
+category:
+  - "Browser Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "AutomaApp/automa"
   github_stars: 21409
@@ -24,19 +24,19 @@ Automa browser extension for Chrome or Firefox
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pnpm install
-- pnpm dev
-- pnpm build
-- pnpm build:zip
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- v-remixicon/icons: https://preview-v-remixicon.vercel.app/
-- Open chrome and navigate to extensions page using this URL: chrome://extensions.
-- Enable the "Developer mode".
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/AutomaApp/automa
-- Extracted from upstream docs: https://raw.githubusercontent.com/AutomaApp/automa/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install Automa from the Chrome Web Store or Firefox Add-ons, or build locally with pnpm install and pnpm build from the GitHub repository.
+```
 
 ## Documentation
 

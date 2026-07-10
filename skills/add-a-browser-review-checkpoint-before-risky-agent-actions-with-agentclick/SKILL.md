@@ -1,14 +1,14 @@
 ---
-name: "Add a browser review checkpoint before risky agent actions with AgentClick"
-slug: "add-a-browser-review-checkpoint-before-risky-agent-actions-with-agentclick"
+title: "Add a browser review checkpoint before risky agent actions with AgentClick"
 description: "Use AgentClick when an agent should pause before risky commands, plans, drafts, or code changes so a human can inspect, edit, approve, or reject them in a purpose-built browser UI."
-github_stars: 22
 verification: "security_reviewed"
 source: "https://github.com/agentlayer-io/AgentClick"
 author: "agentlayer-io"
 publisher_type: "organization"
-category: "Code Quality & Review"
-framework: "Multi-Framework"
+category:
+  - "Code Quality & Review"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "agentlayer-io/agentclick"
   github_stars: 22
@@ -26,20 +26,19 @@ AgentClick, browser access, npm, compatible local agent that can invoke tools an
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/agentlayer-io/AgentClick.git
-- npm install
-- npm run dev
-- npm run build
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- For OpenClaw in particular, use a stronger model with solid instruction-following, since the workflow is skill-based and depends on the agent following routing instructions reliably.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- AgentClick works as a **skill / plugin** for modern AI agents. Any agent that can run local tools, send HTTP requests, and follow skill instructions can integrate with it.
+Install command or upstream instructions:
 
-- Source: https://github.com/agentlayer-io/AgentClick
-- Extracted from upstream docs: https://raw.githubusercontent.com/agentlayer-io/AgentClick/HEAD/README.md
+```
+Install with `npm install -g @harvenstar/agentclick`, run `agentclick`, open the local UI in a browser, and instruct your compatible agent to use AgentClick whenever a richer review step is needed before execution.
+```
 
 ## Documentation
 

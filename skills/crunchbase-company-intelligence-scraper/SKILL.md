@@ -1,12 +1,13 @@
 ---
-name: "Crunchbase Company Intelligence Scraper"
-slug: "crunchbase-company-intelligence-scraper"
+title: "Crunchbase Company Intelligence Scraper"
 description: "Extracts company profiles, funding rounds, and investor data using the Crunchbase Enterprise API v4 with autocomplete, search, and entity lookup endpoints. Builds competitive landscape maps with funding timeline visualizations."
 verification: "security_reviewed"
 source: "https://data.crunchbase.com/docs"
 author: "Crunchbase"
-category: "Research & Scraping"
-framework: "Custom Agents"
+category:
+  - "Research & Scraping"
+framework:
+  - "Custom Agents"
 ---
 
 # Crunchbase Company Intelligence Scraper
@@ -15,12 +16,13 @@ Extracts company profiles, funding rounds, and investor data using the Crunchbas
 
 ## Installation
 
-Basic usage or getting-started notes:
-- Home Getting Started API Documentation v3.1 v4.0 (Legacy) v4.0 (Current) Getting Started API Documentation API Starter Playbooks About Us Go to Crunchbase
-- About Us Go to Crunchbase
-- v4.0 (Current)
+Choose whichever fits your setup:
 
-- Source: https://data.crunchbase.com/docs
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

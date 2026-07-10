@@ -1,13 +1,13 @@
 ---
-name: "Ansible Playbook Runner"
-slug: "ansible-playbook-runner"
-description: ""
-github_stars: 68362
+title: "Ansible Playbook Runner"
+description: "Ansible Playbook Runner is built around Ansible automation engine. The underlying ecosystem is represented by ansible/ansible (68,365+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like ansible-playbook CLI, inventories, roles, Vault, dynamic inventory plugins and preserving the operational […]"
 verification: "security_reviewed"
 source: "https://github.com/ansible/ansible"
 author: "ansible"
-category: "Templates & Workflows"
-framework: "Custom Agents"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "ansible/ansible"
   github_stars: 68362
@@ -15,7 +15,7 @@ tool_ecosystem:
 
 # Ansible Playbook Runner
 
-
+Ansible Playbook Runner is built around Ansible automation engine. The underlying ecosystem is represented by ansible/ansible (68,365+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like ansible-playbook CLI, inventories, roles, Vault, dynamic inventory plugins and preserving the operational […]
 
 ## Prerequisites
 
@@ -23,16 +23,19 @@ Python, SSH
 
 ## Installation
 
-Requirements and caveats from upstream:
-- ad-hoc task execution, network automation, and multi-node orchestration. Ansible makes complex
-- Allow module development in any dynamic language, not just Python.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Power users and developers can run the devel branch, which has the latest
-- in the Ansible community if you want to run the devel branch.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/ansible/ansible
-- Extracted from upstream docs: https://raw.githubusercontent.com/ansible/ansible/HEAD/README.md
+Install command or upstream instructions:
+
+```
+python3 -m pip install --user ansible
+```
 
 ## Documentation
 

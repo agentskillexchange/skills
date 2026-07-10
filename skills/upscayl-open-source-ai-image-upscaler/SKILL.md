@@ -1,12 +1,12 @@
 ---
-name: "Upscayl Open Source AI Image Upscaler"
-slug: "upscayl-open-source-ai-image-upscaler"
+title: "Upscayl Open Source AI Image Upscaler"
 description: "Upscayl is a free, open-source AI image upscaler for Linux, macOS, and Windows. It uses Real-ESRGAN models with Vulkan GPU acceleration to enhance low-resolution images, supporting batch processing, custom models, and multiple output formats."
-github_stars: 44297
 verification: "security_reviewed"
 source: "https://github.com/upscayl/upscayl"
-category: "Image & Creative Automation"
-framework: "Multi-Framework"
+category:
+  - "Image & Creative Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "upscayl/upscayl"
   github_stars: 44297
@@ -18,23 +18,13 @@ Upscayl is a free, open-source AI image upscaler for Linux, macOS, and Windows. 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install --cask upscayl
-- git clone https://github.com/upscayl/upscayl
-- npm install
-- npm run start
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- I recommend using Volta: https://volta.sh for installing Node.js.
-- Download and install volta, then do: volta install node.
-
-Basic usage or getting-started notes:
-- Right Click AppImage -> Go to Permissions tab -> Check 'allow file to execute' and then double click the file to run Upscayl.
-- If you get a SmartScreen warning - click 'More Info' and then 'Run Anyway' OR press 'YES' on the unverified publisher dialog.
-- # RUN THE DEVELOPMENT SERVER LOCALLY
-
-- Source: https://github.com/upscayl/upscayl
-- Extracted from upstream docs: https://raw.githubusercontent.com/upscayl/upscayl/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

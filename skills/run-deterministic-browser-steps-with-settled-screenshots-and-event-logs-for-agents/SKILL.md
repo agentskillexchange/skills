@@ -1,14 +1,14 @@
 ---
-name: "Run deterministic browser steps with settled screenshots and event logs for agents"
-slug: "run-deterministic-browser-steps-with-settled-screenshots-and-event-logs-for-agents"
+title: "Run deterministic browser steps with settled screenshots and event logs for agents"
 description: "Use Agent Browser Protocol when an agent needs browser actions to resolve into stable step results, complete with screenshots and surfaced events, instead of racing an always-live browser session."
-github_stars: 436
 verification: "security_reviewed"
 source: "https://github.com/theredsix/agent-browser-protocol"
 author: "The Red Six"
 publisher_type: "organization"
-category: "Browser Automation"
-framework: "Multi-Framework"
+category:
+  - "Browser Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "theredsix/agent-browser-protocol"
   github_stars: 436
@@ -26,16 +26,19 @@ Chromium-compatible local environment, Node.js/npx for MCP mode, MCP-compatible 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx -y agent-browser-protocol
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- **Note:** If you have a Playwright MCP server configured, disable it before using ABP to avoid tool name conflicts.
-- ### Claude Code
-- bash
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/theredsix/agent-browser-protocol
-- Extracted from upstream docs: https://raw.githubusercontent.com/theredsix/agent-browser-protocol/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Run `npx -y agent-browser-protocol` for local REST control or add `npx -y agent-browser-protocol --mcp` as an MCP server in a supported client, then drive browser actions as settled step calls.
+```
 
 ## Documentation
 

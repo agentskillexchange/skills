@@ -1,12 +1,12 @@
 ---
-name: "Windmill Open-Source Workflow Engine and Developer Platform"
-slug: "windmill-workflow-engine-developer-platform"
+title: "Windmill Open-Source Workflow Engine and Developer Platform"
 description: "Open-source developer platform to turn scripts into webhooks, workflows, and UIs. Self-hostable alternative to Retool and Temporal, supporting Python, TypeScript, Go, Bash, SQL, and more. Includes a built-in MCP server for AI agent integration."
-github_stars: 16115
 verification: "security_reviewed"
 source: "https://github.com/windmill-labs/windmill"
-category: "Templates & Workflows"
-framework: "Multi-Framework"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "windmill-labs/windmill"
   github_stars: 16115
@@ -18,24 +18,13 @@ Open-source developer platform to turn scripts into webhooks, workflows, and UIs
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- docker compose up -d
-- npm install
-- npm run generate-backend-client # or generate-backend-client-mac on Mac
-- npm run dev
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Scripts are turned into sharable UIs automatically, and can be composed together into flows or used into richer apps built with low-code. Supported languages: Python, TypeScript, Go, Bash, SQL, GraphQL, PowerShell, Ru...
-- <a href="https://github.com/windmill-labs/windmill/actions/workflows/docker-image.yml" target="_blank">
-- <img src="https://github.com/windmill-labs/windmill/actions/workflows/docker-image.yml/badge.svg" alt="Docker Image CI">
-
-Basic usage or getting-started notes:
-- [Run a local dev setup](#run-a-local-dev-setup)
-- ![Step 2](./imgs/windmill-run.png)
-- | **[CLI](https://www.windmill.dev/docs/advanced/cli)** | Sync scripts from local files or GitHub, run scripts/flows from the command line |
-
-- Source: https://github.com/windmill-labs/windmill
-- Extracted from upstream docs: https://raw.githubusercontent.com/windmill-labs/windmill/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

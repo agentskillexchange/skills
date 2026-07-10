@@ -1,14 +1,14 @@
 ---
-name: "Investigate CrowdStrike Falcon alerts and telemetry through falcon-mcp"
-slug: "investigate-crowdstrike-falcon-alerts-and-telemetry-through-falcon-mcp"
+title: "Investigate CrowdStrike Falcon alerts and telemetry through falcon-mcp"
 description: "Use falcon-mcp when an agent needs CrowdStrike Falcon detections, incidents, behaviors, threat intel, or read-only response context to triage a security event without leaving an MCP workflow."
-github_stars: 136
 verification: "security_reviewed"
 source: "https://github.com/CrowdStrike/falcon-mcp"
 author: "CrowdStrike"
 publisher_type: "company"
-category: "Security & Verification"
-framework: "MCP"
+category:
+  - "Security & Verification"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "CrowdStrike/falcon-mcp"
   github_stars: 136
@@ -24,24 +24,19 @@ Python 3.10+ with uv or pip; CrowdStrike Falcon API credentials with the scopes 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- uv tool install falcon-mcp
-- pip install falcon-mcp
-- docker pull quay.io/crowdstrike/falcon-mcp:latest
-- docker run -i --rm --env-file /path/to/.env quay.io/crowdstrike/falcon-mcp:latest
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/falcon-mcp)](https://pypi.org/project/falcon-mcp/)
-- ### Docker
-- "falcon-mcp-docker": {
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- | [Sensor Usage](https://crowdstrike.github.io/falcon-mcp/modules/sensor-usage/) | Access and analyze sensor usage data |
-- #### Using uv (recommended)
-- bash
+Install command or upstream instructions:
 
-- Source: https://github.com/CrowdStrike/falcon-mcp
-- Extracted from upstream docs: https://raw.githubusercontent.com/CrowdStrike/falcon-mcp/HEAD/README.md
+```
+Install with uv tool install falcon-mcp or pip install falcon-mcp, set the required Falcon API credentials in your environment or .env file, then run falcon-mcp for stdio transport or add flags like --transport sse or --transport streamable-http when you need a networked deployment.
+```
 
 ## Documentation
 

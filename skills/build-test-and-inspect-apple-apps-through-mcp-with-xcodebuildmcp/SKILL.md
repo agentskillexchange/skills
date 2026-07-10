@@ -1,14 +1,14 @@
 ---
-name: "Build, test, and inspect Apple apps through MCP with XcodeBuildMCP"
-slug: "build-test-and-inspect-apple-apps-through-mcp-with-xcodebuildmcp"
-description: "Connect coding agents to Xcode build, test, simulator, and project-inspection tools through XcodeBuildMCP's MCP server or CLI."
-github_stars: 5719
+title: "Build, test, and inspect Apple apps through MCP with XcodeBuildMCP"
+description: "Connect coding agents to Xcode build, test, simulator, and project-inspection tools through XcodeBuildMCP’s MCP server or CLI."
 verification: "security_reviewed"
 source: "https://github.com/getsentry/XcodeBuildMCP"
 author: "Sentry"
 publisher_type: "organization"
-category: "Developer Tools"
-framework: "MCP"
+category:
+  - "Developer Tools"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "getsentry/XcodeBuildMCP"
   github_stars: 5719
@@ -18,7 +18,7 @@ tool_ecosystem:
 
 # Build, test, and inspect Apple apps through MCP with XcodeBuildMCP
 
-Connect coding agents to Xcode build, test, simulator, and project-inspection tools through XcodeBuildMCP's MCP server or CLI.
+Connect coding agents to Xcode build, test, simulator, and project-inspection tools through XcodeBuildMCP’s MCP server or CLI.
 
 ## Prerequisites
 
@@ -26,24 +26,19 @@ Xcode 16 or later, Node.js 18 or later for npm install, MCP-compatible client
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew tap getsentry/xcodebuildmcp
-- brew install xcodebuildmcp
-- npm install -g xcodebuildmcp@latest
-- npx -y xcodebuildmcp@latest init
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![npm version](https://badge.fury.io/js/xcodebuildmcp.svg)](https://badge.fury.io/js/xcodebuildmcp) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Node....
-- ### Option B — npm (Node.js 18+)
-- Node.js 18.x or later (not required for Homebrew installation)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- XcodeBuildMCP ships as a single package with two modes: a **CLI** for direct terminal use and an **MCP server** for AI coding agents. Either install method gives you both.
-- ### Option A — Homebrew
-- bash
+Install command or upstream instructions:
 
-- Source: https://github.com/getsentry/XcodeBuildMCP
-- Extracted from upstream docs: https://raw.githubusercontent.com/getsentry/XcodeBuildMCP/HEAD/README.md
+```
+Install with Homebrew using `brew tap getsentry/xcodebuildmcp && brew install xcodebuildmcp`, or with npm using `npm install -g xcodebuildmcp@latest`. Verify with `xcodebuildmcp --help`, then connect the MCP server to your client or run `xcodebuildmcp init` to install the optional agent skills.
+```
 
 ## Documentation
 

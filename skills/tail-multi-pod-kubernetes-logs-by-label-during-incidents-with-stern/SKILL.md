@@ -1,14 +1,14 @@
 ---
-name: "Tail multi-pod Kubernetes logs by label during incidents with Stern"
-slug: "tail-multi-pod-kubernetes-logs-by-label-during-incidents-with-stern"
+title: "Tail multi-pod Kubernetes logs by label during incidents with Stern"
 description: "Aggregate and follow logs from matching Kubernetes pods during incident triage without hopping pod by pod."
-github_stars: 4636
 verification: "security_reviewed"
 source: "https://github.com/stern/stern"
 author: "Stern maintainers"
 publisher_type: "organization"
-category: "Runbooks & Diagnostics"
-framework: "Multi-Framework"
+category:
+  - "Runbooks & Diagnostics"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "stern/stern"
   github_stars: 4636
@@ -24,24 +24,19 @@ Stern CLI, Kubernetes cluster access
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- go install github.com/stern/stern@latest
-- brew install stern
-- brew install bash-completion
-- brew install bash-completion@2
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- --container-colors | | Specifies the colors used to highlight container names. Use the same format as --pod-colors. Defaults to the values of --pod-colors if omitted, and must match its length.
-- --node | | Node name to filter on.
-- | NodeName | string | The node name where the pod is scheduled on |
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ### Download binary
-- Download a [binary release](https://github.com/stern/stern/releases)
-- ### Build from source
+Install command or upstream instructions:
 
-- Source: https://github.com/stern/stern
-- Extracted from upstream docs: https://raw.githubusercontent.com/stern/stern/HEAD/README.md
+```
+Install Stern from the project repository or package manager, then run it against a namespace, label selector, or pod name pattern to stream matching logs during investigation.
+```
 
 ## Documentation
 

@@ -1,13 +1,13 @@
 ---
-name: "Cypress End-to-End and Component Testing Framework"
-slug: "cypress-end-to-end-component-testing-framework"
+title: "Cypress End-to-End and Component Testing Framework"
 description: "Cypress is an open-source browser testing framework for end-to-end, component, and accessibility testing in modern web apps. It gives agents and developers a reliable way to run local browser tests, debug failures with rich traces, and plug test execution into CI pipelines."
-github_stars: 49611
 verification: "security_reviewed"
 source: "https://github.com/cypress-io/cypress"
 author: "Cypress"
-category: "Browser Automation"
-framework: "Multi-Framework"
+category:
+  - "Browser Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "cypress-io/cypress"
   github_stars: 49611
@@ -21,18 +21,13 @@ Cypress is an open-source browser testing framework for end-to-end, component, a
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install cypress --save-dev
-- yarn add cypress --dev
-- pnpm add cypress --save-dev
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- bash
-- or
-- ![installing-cli e1693232](./assets/cypress-installation.gif)
-
-- Source: https://github.com/cypress-io/cypress
-- Extracted from upstream docs: https://raw.githubusercontent.com/cypress-io/cypress/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

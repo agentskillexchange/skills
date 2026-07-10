@@ -1,14 +1,14 @@
 ---
-name: "Build a local work assistant with 10xProductivity"
-slug: "build-a-local-work-assistant-with-10xproductivity"
+title: "Build a local work assistant with 10xProductivity"
 description: "Turn an existing coding agent into a supervised local work assistant that connects to workplace tools, reusable skills, workflows, and scheduled loops."
-github_stars: 455
 verification: "security_reviewed"
 source: "https://github.com/ZhixiangLuo/10xProductivity"
 author: "ZhixiangLuo"
 publisher_type: "individual"
-category: "Templates & Workflows"
-framework: "Multi-Framework"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ZhixiangLuo/10xProductivity"
   github_stars: 455
@@ -24,22 +24,19 @@ Python, pip, a coding-agent environment such as Cursor, Claude Code, Codex, or a
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/ZhixiangLuo/10xProductivity.git
-- pip install -e ".[dev]"
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- If needed, set up Python and Playwright:
-- Read setup-python.md and prepare this repo.
-- The trigger uses SLACK_XOXC and SLACK_D_COOKIE from TENX_PRIVATE_DIR/.env. It does not require a personal Slack app, Socket Mode, or webhook.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Coding agents are no longer just coding assistants. Cursor, Claude Code, Codex, Copilot, and similar tools can read files, run scripts, call APIs, use browsers, and work across your local environment. 10xProductivity...
-- The shift is not "let an AI run autonomously." The shift is **human-AI interaction**:
-- Once a workflow has been coached and proven, you can run it with less supervision:
+Install command or upstream instructions:
 
-- Source: https://github.com/ZhixiangLuo/10xProductivity
-- Extracted from upstream docs: https://raw.githubusercontent.com/ZhixiangLuo/10xProductivity/HEAD/README.md
+```
+Clone the repository, install the local runtime with `pip install -e ".[dev]"`, then follow `setup.md` and the guides under `tool_connections/` to connect the specific tools the agent is allowed to use.
+```
 
 ## Documentation
 

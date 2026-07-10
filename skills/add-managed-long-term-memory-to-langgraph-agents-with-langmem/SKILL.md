@@ -1,14 +1,14 @@
 ---
-name: "Add managed long-term memory to LangGraph agents with LangMem"
-slug: "add-managed-long-term-memory-to-langgraph-agents-with-langmem"
+title: "Add managed long-term memory to LangGraph agents with LangMem"
 description: "Give LangGraph agents memory management and search tools so they can store, retrieve, and update durable facts across sessions."
-github_stars: 1502
 verification: "security_reviewed"
 source: "https://github.com/langchain-ai/langmem"
 author: "LangChain"
 publisher_type: "organization"
-category: "Developer Tools"
-framework: "Custom Agents"
+category:
+  - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "langchain-ai/langmem"
   github_stars: 1502
@@ -24,19 +24,19 @@ Python, langmem, LangGraph or LangChain agent runtime, persistent store such as 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install -U langmem
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- python
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Configure your environment with an API key for your favorite LLM provider:
-- export ANTHROPIC_API_KEY="sk-..." # Or another supported LLM provider
-- Here's how to create an agent that actively manages its own long-term memory in just a few lines:
+Install command or upstream instructions:
 
-- Source: https://github.com/langchain-ai/langmem
-- Extracted from upstream docs: https://raw.githubusercontent.com/langchain-ai/langmem/HEAD/README.md
+```
+Install with `pip install -U langmem`, configure the target LLM provider key, create or connect a LangGraph store, then add `create_manage_memory_tool` and `create_search_memory_tool` to the agent.
+```
 
 ## Documentation
 

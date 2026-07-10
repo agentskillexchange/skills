@@ -1,14 +1,14 @@
 ---
-name: "Shard slow pytest suites by historic timings before CI bottlenecks pile up with pytest-split"
-slug: "shard-slow-pytest-suites-by-historic-timings-before-ci-bottlenecks-pile-up-with-pytest-split"
+title: "Shard slow pytest suites by historic timings before CI bottlenecks pile up with pytest-split"
 description: "Lets an agent split a large pytest suite into timing-balanced shards so parallel CI lanes finish faster and with less variance."
-github_stars: 308
 verification: "security_reviewed"
 source: "https://github.com/jerry-git/pytest-split"
 author: "jerry-git"
 publisher_type: "individual"
-category: "CI/CD Integrations"
-framework: "Multi-Framework"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jerry-git/pytest-split"
   github_stars: 308
@@ -26,21 +26,19 @@ Python, pytest, pytest-split
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install pytest-split
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![PyPI](https://img.shields.io/pypi/v/pytest-split?style=flat-square)](https://pypi.python.org/pypi/pytest-split/)
-- [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pytest-split?style=flat-square)](https://pypi.python.org/pypi/pytest-split/)
-- [![PyPI - License](https://img.shields.io/pypi/l/pytest-split?style=flat-square)](https://pypi.python.org/pypi/pytest-split/)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- For example, some test suites may be fragile considering the order in which the tests are executed.
-- sh
-- First we have to store test durations from a complete test suite run.
+Install command or upstream instructions:
 
-- Source: https://github.com/jerry-git/pytest-split
-- Extracted from upstream docs: https://raw.githubusercontent.com/jerry-git/pytest-split/HEAD/README.md
+```
+pip install pytest-split
+```
 
 ## Documentation
 

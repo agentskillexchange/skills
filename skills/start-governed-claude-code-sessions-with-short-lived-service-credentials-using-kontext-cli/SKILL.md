@@ -1,14 +1,14 @@
 ---
-name: "Start governed Claude Code sessions with short-lived service credentials using Kontext CLI"
-slug: "start-governed-claude-code-sessions-with-short-lived-service-credentials-using-kontext-cli"
+title: "Start governed Claude Code sessions with short-lived service credentials using Kontext CLI"
 description: "Inject short-lived, scoped service credentials into Claude Code sessions so agents can reach approved systems without exposing raw secrets."
-github_stars: 143
 verification: "security_reviewed"
 source: "https://github.com/kontext-security/kontext-cli"
 author: "kontext-security"
 publisher_type: "organization"
-category: "Security & Verification"
-framework: "Claude Code"
+category:
+  - "Security & Verification"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "kontext-security/kontext-cli"
   github_stars: 143
@@ -24,21 +24,19 @@ Claude Code, supported service accounts, browser login for first-run auth
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install kontext-security/tap/kontext
-- pnpm install --frozen-lockfile
-- pnpm build
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- | Local evaluation | Default kontext start does not require hosted login or trace upload. |
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Kontext is an authorization platform for AI agents. It helps teams control what agents can access and do with scoped credentials, policy enforcement, approvals, and audit trails. Kontext can run local-first for develo...
-- For enterprise identity, audit retention, organization controls, deployment planning, custom usage volume, and onboarding for security and platform teams, contact [michel@kontext.security](mailto:michel@kontext.securi...
-- | No reasoning capture | Kontext captures tool events and outcomes, not LLM reasoning, token usage, or full conversation history. |
+Install command or upstream instructions:
 
-- Source: https://github.com/kontext-security/kontext-cli
-- Extracted from upstream docs: https://raw.githubusercontent.com/kontext-security/kontext-cli/HEAD/README.md
+```
+Install with `brew install kontext-security/tap/kontext`, then run `kontext start --agent claude` from your project to authenticate, connect providers, inject short-lived credentials, and launch Claude Code.
+```
 
 ## Documentation
 

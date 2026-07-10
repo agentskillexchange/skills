@@ -1,13 +1,13 @@
 ---
-name: "Queue Backup Runbook"
-slug: "queue-backup-runbook"
-description: ""
-github_stars: 3992
+title: "Queue Backup Runbook"
+description: "Queue Backup Runbook is built around Apache Kafka event streaming platform. The underlying ecosystem is represented by tulios/kafkajs (3,987+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like topics, partitions, consumer groups, offsets, producers, admin APIs and preserving […]"
 verification: "security_reviewed"
 source: "https://github.com/tulios/kafkajs"
 author: "KafkaJS"
-category: "Runbooks & Diagnostics"
-framework: "Custom Agents"
+category:
+  - "Runbooks & Diagnostics"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "tulios/kafkajs"
   github_stars: 3992
@@ -17,7 +17,7 @@ tool_ecosystem:
 
 # Queue Backup Runbook
 
-
+Queue Backup Runbook is built around Apache Kafka event streaming platform. The underlying ecosystem is represented by tulios/kafkajs (3,987+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like topics, partitions, consumer groups, offsets, producers, admin APIs and preserving […]
 
 ## Prerequisites
 
@@ -25,21 +25,19 @@ Node.js
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install kafkajs
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- A modern Apache Kafka® client for Node.js
-- KafkaJS is a modern [Apache Kafka](https://kafka.apache.org/) client for Node.js. It is compatible with Kafka 0.10+ and offers native support for 0.11 features.
-- const { Kafka } = require('kafkajs')
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- ### <a name="getting-started"></a> Getting Started
+Install command or upstream instructions:
 
-- Source: https://github.com/tulios/kafkajs
-- Extracted from upstream docs: https://raw.githubusercontent.com/tulios/kafkajs/HEAD/README.md
+```
+npm install kafkajs
+```
 
 ## Documentation
 

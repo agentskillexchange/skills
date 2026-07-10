@@ -1,14 +1,14 @@
 ---
-name: "Embed an in-page GUI agent with Page Agent"
-slug: "embed-an-in-page-gui-agent-with-page-agent"
+title: "Embed an in-page GUI agent with Page Agent"
 description: "Add a JavaScript GUI agent to a web app so users or agents can complete UI tasks through natural-language commands without a headless browser."
-github_stars: 18551
 verification: "listed"
 source: "https://github.com/alibaba/page-agent"
 author: "Alibaba"
 publisher_type: "organization"
-category: "Browser Automation"
-framework: "Multi-Framework"
+category:
+  - "Browser Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "alibaba/page-agent"
   github_stars: 18551
@@ -26,9 +26,19 @@ JavaScript, npm or script tag, LLM API endpoint, optional Chrome extension or MC
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://github.com/alibaba/page-agent
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install with `npm install page-agent` and instantiate `new PageAgent({ model, baseURL, apiKey, language })`, or load the documented IIFE script for evaluation. Then call `agent.execute('...')` from the page context.
+```
 
 ## Documentation
 

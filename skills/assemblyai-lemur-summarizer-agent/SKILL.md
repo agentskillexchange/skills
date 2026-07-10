@@ -1,28 +1,27 @@
 ---
-name: "AssemblyAI LeMUR Summarizer"
-slug: "assemblyai-lemur-summarizer-agent"
-description: "Summarizes audio content using AssemblyAI's LeMUR (Large Language Model for Audio Understanding) API. Chains the /v2/transcript endpoint with /lemur/v3/generate/summary for contextual audio intelligence."
+title: "AssemblyAI LeMUR Summarizer"
+description: "Summarizes audio content using AssemblyAI’s LeMUR (Large Language Model for Audio Understanding) API. Chains the /v2/transcript endpoint with /lemur/v3/generate/summary for contextual audio intelligence."
 verification: "security_reviewed"
 source: "https://www.assemblyai.com/docs"
-category: "Media & Transcription"
-framework: "Gemini"
+category:
+  - "Media & Transcription"
+framework:
+  - "Gemini"
 ---
 
 # AssemblyAI LeMUR Summarizer
 
-Summarizes audio content using AssemblyAI's LeMUR (Large Language Model for Audio Understanding) API. Chains the /v2/transcript endpoint with /lemur/v3/generate/summary for contextual audio intelligence.
+Summarizes audio content using AssemblyAI’s LeMUR (Large Language Model for Audio Understanding) API. Chains the /v2/transcript endpoint with /lemur/v3/generate/summary for contextual audio intelligence.
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Python SDK
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Overview
-- Build with AI coding agents
-- Models
-
-- Source: https://www.assemblyai.com/docs
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

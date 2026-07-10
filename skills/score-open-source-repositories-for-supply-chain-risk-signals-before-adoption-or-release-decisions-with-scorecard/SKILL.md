@@ -1,14 +1,14 @@
 ---
-name: "Score open source repositories for supply-chain risk signals before adoption or release decisions with Scorecard"
-slug: "score-open-source-repositories-for-supply-chain-risk-signals-before-adoption-or-release-decisions-with-scorecard"
+title: "Score open source repositories for supply-chain risk signals before adoption or release decisions with Scorecard"
 description: "Check a repository against OpenSSF security heuristics before you trust it as a dependency, approve it for use, or ship from it."
-github_stars: 5376
 verification: "security_reviewed"
 source: "https://github.com/ossf/scorecard"
 author: "OpenSSF"
 publisher_type: "organization"
-category: "Security & Verification"
-framework: "Multi-Framework"
+category:
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ossf/scorecard"
   github_stars: 5376
@@ -24,24 +24,19 @@ Scorecard CLI or GitHub Action, network access to the target repository host, an
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- docker pull ghcr.io/ossf/scorecard:latest
-- docker pull ghcr.io/ossf/scorecard:v3.2.1
-- docker run -e GITHUB_AUTH_TOKEN=token ghcr.io/ossf/scorecard:latest --show-details --repo=https://github.com/ossf/scorecard
-- docker run -e GITHUB_AUTH_TOKEN=token ghcr.io/ossf/scorecard:v3.2.1 --show-details --repo=https://github.com/ossf/scorecard
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [Prerequisites](#prerequisites)
-- projects the world depends on.
-- If OSS consumers require certain behaviors from their dependencies,
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Basic Usage](#basic-usage)
-- Scorecard has been run on thousands of projects to monitor and track security
-- For example:
+Install command or upstream instructions:
 
-- Source: https://github.com/ossf/scorecard
-- Extracted from upstream docs: https://raw.githubusercontent.com/ossf/scorecard/HEAD/README.md
+```
+Install Scorecard from the upstream release, package, or action path documented at scorecard.dev, then run it against the target repository URL or dependency list and review the reported checks before adoption or release work proceeds.
+```
 
 ## Documentation
 

@@ -1,14 +1,14 @@
 ---
-name: "Calculate routes, ETAs, and place lookups inside agent planning workflows with TomTom MCP"
-slug: "calculate-routes-etas-and-place-lookups-inside-agent-planning-workflows-with-tomtom-mcp"
+title: "Calculate routes, ETAs, and place lookups inside agent planning workflows with TomTom MCP"
 description: "Gives an MCP-compatible agent structured place search, geocoding, routing, ETA, traffic, and map lookups so travel, field-service, and logistics tasks can stay inside an automated planning workflow."
-github_stars: 45
 verification: "security_reviewed"
 source: "https://github.com/tomtom-international/tomtom-mcp"
 author: "TomTom"
 publisher_type: "company"
-category: "Integrations & Connectors"
-framework: "MCP"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "tomtom-international/tomtom-mcp"
   github_stars: 45
@@ -26,24 +26,19 @@ MCP-compatible client, TomTom API key with MCP access, and either the hosted Tom
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install @tomtom-org/tomtom-mcp@latest
-- npx @tomtom-org/tomtom-mcp@latest
-- npm run build # Build first (required)
-- npm run start:http
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [Prerequisites](#prerequisites)
-- Node.js 22.x
-- node bin/tomtom-mcp-http.js
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Quick Start](#quick-start)
-- [Usage](#usage)
-- TomTom API key
+Install command or upstream instructions:
 
-- Source: https://github.com/tomtom-international/tomtom-mcp
-- Extracted from upstream docs: https://raw.githubusercontent.com/tomtom-international/tomtom-mcp/HEAD/README.md
+```
+Connect your MCP client to the hosted endpoint at https://mcp.tomtom.com/maps with a tomtom-api-key header, or run it locally with npm install @tomtom-org/tomtom-mcp@latest or npx @tomtom-org/tomtom-mcp@latest. Provide TOMTOM_API_KEY, then register the server in your MCP client configuration.
+```
 
 ## Documentation
 

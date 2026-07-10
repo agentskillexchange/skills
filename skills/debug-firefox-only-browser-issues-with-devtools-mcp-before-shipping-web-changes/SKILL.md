@@ -1,14 +1,14 @@
 ---
-name: "Debug Firefox-only browser issues with DevTools MCP before shipping web changes"
-slug: "debug-firefox-only-browser-issues-with-devtools-mcp-before-shipping-web-changes"
+title: "Debug Firefox-only browser issues with DevTools MCP before shipping web changes"
 description: "Use Firefox DevTools MCP when an agent needs to inspect pages, trace network and console activity, capture screenshots, and automate reproduction steps in Firefox instead of relying on Chrome-first tooling."
-github_stars: 107
 verification: "security_reviewed"
 source: "https://github.com/mozilla/firefox-devtools-mcp"
 author: "Mozilla"
 publisher_type: "company"
-category: "Browser Automation"
-framework: "MCP"
+category:
+  - "Browser Automation"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "mozilla/firefox-devtools-mcp"
   github_stars: 107
@@ -26,23 +26,19 @@ Node.js 20.19+; a local Firefox 100+ installation; an MCP-compatible client such
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- **Note**: This MCP server requires a local Firefox browser installation and cannot run on cloud hosting services like glama.ai. Use npx firefox-devtools-mcp@latest to run locally, or use Docker with the provided Docke...
-- Recommended: use npx so you always run the latest published version from npm.
-- npm run setup
-- npx @modelcontextprotocol/inspector npx firefox-devtools-mcp@latest --start-url https://example.com --headless
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Node.js ≥ 20.19.0
-- --enable-privileged-context — enable privileged context tools: list/select privileged contexts, evaluate privileged scripts, get/set Firefox prefs, and list extensions. Requires MOZ_REMOTE_ALLOW_SYSTEM_ACCESS=1 (ENABL...
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- **Use a dedicated Firefox profile.** Never run the server against your regular profile — the agent has access to whatever the browser can reach, including cookies and saved sessions.
-- Firefox 100+ installed (auto‑detected, or pass --firefox-path)
-- Option A — Claude Code CLI
+Install command or upstream instructions:
 
-- Source: https://github.com/mozilla/firefox-devtools-mcp
-- Extracted from upstream docs: https://raw.githubusercontent.com/mozilla/firefox-devtools-mcp/HEAD/README.md
+```
+Use npx firefox-devtools-mcp@latest for the recommended install path, or add it directly to your MCP client config. For Claude Code, run claude mcp add firefox-devtools npx firefox-devtools-mcp@latest. Optional flags like --headless, --viewport, --start-url, and --connect-existing let you tune the Firefox session for debugging or attach to a real browser profile.
+```
 
 ## Documentation
 

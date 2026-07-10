@@ -1,12 +1,13 @@
 ---
-name: "Shodan Network Reconnaissance Agent"
-slug: "shodan-network-reconnaissance-agent"
+title: "Shodan Network Reconnaissance Agent"
 description: "Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE mappings, and generates asset inventories with risk scores for security teams."
 verification: "security_reviewed"
 source: "https://developer.shodan.io/"
 author: "Shodan"
-category: "Research & Scraping"
-framework: "Claude Code"
+category:
+  - "Research & Scraping"
+framework:
+  - "Claude Code"
 ---
 
 # Shodan Network Reconnaissance Agent
@@ -15,12 +16,13 @@ Performs network reconnaissance using the Shodan REST API and Shodan InternetDB.
 
 ## Installation
 
-Basic usage or getting-started notes:
-- Shodan has a curated DNS database that contains information about hostnames likely to run a service. Use it to help map out your organization's attack surface.
-- API-First Development
-- All Shodan websites, including Shodan Images and Shodan Monitor, are powered by the API. Anything that can be done using those websites you can also do directly via the API. To get started find an API binding in your...
+Choose whichever fits your setup:
 
-- Source: https://developer.shodan.io/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

@@ -1,12 +1,12 @@
 ---
-name: "Payload CMS Next.js-Native Headless CMS and Application Framework"
-slug: "payload-cms-nextjs-headless-framework"
+title: "Payload CMS Next.js-Native Headless CMS and Application Framework"
 description: "Payload is an open-source, TypeScript-first headless CMS that installs directly into a Next.js application. It provides a full admin panel, REST and GraphQL APIs, access control, file uploads, and rich text editing with zero separate backend required."
-github_stars: 41552
 verification: "security_reviewed"
 source: "https://github.com/payloadcms/payload"
-category: "WordPress & CMS"
-framework: "Custom Agents"
+category:
+  - "WordPress & CMS"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "payloadcms/payload"
   github_stars: 41552
@@ -20,16 +20,13 @@ Payload is an open-source, TypeScript-first headless CMS that installs directly 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx create-payload-app --example example_name
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Before beginning to work with Payload, make sure you have all of the [required software](https://payloadcms.com/docs/getting-started/installation).
-- text
-- pnpx create-payload-app@latest
-
-- Source: https://github.com/payloadcms/payload
-- Extracted from upstream docs: https://raw.githubusercontent.com/payloadcms/payload/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

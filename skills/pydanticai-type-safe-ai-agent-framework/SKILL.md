@@ -1,12 +1,12 @@
 ---
-name: "PydanticAI Type-Safe AI Agent Framework"
-slug: "pydanticai-type-safe-ai-agent-framework"
+title: "PydanticAI Type-Safe AI Agent Framework"
 description: "PydanticAI is an AI agent framework built by the Pydantic team that brings FastAPI-style ergonomics to GenAI development. It provides type-safe, model-agnostic agent construction with structured outputs, dependency injection, and seamless integration with Pydantic Logfire for observability."
-github_stars: 15962
 verification: "security_reviewed"
 source: "https://github.com/pydantic/pydantic-ai"
-category: "Developer Tools"
-framework: "Custom Agents"
+category:
+  - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "pydantic/pydantic-ai"
   github_stars: 15962
@@ -18,18 +18,13 @@ PydanticAI is an AI agent framework built by the Pydantic team that brings FastA
 
 ## Installation
 
-Requirements and caveats from upstream:
-- <a href="https://pypi.python.org/pypi/pydantic-ai"><img src="https://img.shields.io/pypi/v/pydantic-ai.svg" alt="PyPI"></a>
-- ### <em>Pydantic AI is a Python agent framework designed to help you quickly, confidently, and painlessly build production grade applications and workflows with Generative AI.</em>
-- FastAPI revolutionized web development by offering an innovative and ergonomic design, built on the foundation of [Pydantic Validation](https://docs.pydantic.dev) and modern Python features like type hints.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- ## Hello World Example
-- Here's a minimal example of Pydantic AI:
-- # For more complex dynamically-generated instructions, see the example below.
-
-- Source: https://github.com/pydantic/pydantic-ai
-- Extracted from upstream docs: https://raw.githubusercontent.com/pydantic/pydantic-ai/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

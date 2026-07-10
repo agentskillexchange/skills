@@ -1,13 +1,13 @@
 ---
-name: "OpenTelemetry Collector Pipeline Designer"
-slug: "otel-collector-pipeline-designer"
+title: "OpenTelemetry Collector Pipeline Designer"
 description: "Designs OpenTelemetry Collector pipeline configurations with receivers (otlp, prometheus, filelog), processors (batch, attributes, tail_sampling), and exporters (otlphttp, jaeger, elasticsearch)."
-github_stars: 6867
 verification: "security_reviewed"
 source: "https://github.com/open-telemetry/opentelemetry-collector"
 author: "OpenTelemetry"
-category: "Monitoring & Alerts"
-framework: "OpenClaw"
+category:
+  - "Monitoring & Alerts"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "open-telemetry/opentelemetry-collector"
   github_stars: 6867
@@ -23,17 +23,19 @@ Go
 
 ## Installation
 
-Requirements and caveats from upstream:
-- [{"critical":{"identity":{"docker-reference":"ghcr.io/open-telemetry/opentelemetry-collector-releases/opentelemetry-collector-contrib"},"image":{"docker-manifest-digest":"sha256:5cea85bcbc734a3c0a641368e5a4ea9d31b4729...
-- In addition to what is described at the organization-level, the SIG Collector requires all core approvers to take part in rotating
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- to run, operate and maintain multiple agents/collectors in order to support
-- We are signing the images otel/opentelemetry-collector and otel/opentelemetry-collector-contrib using [sigstore cosign](https://github.com/sigstore/cosign) tool and to verify the signatures you can run the following c...
-- Example:
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/open-telemetry/opentelemetry-collector
-- Extracted from upstream docs: https://raw.githubusercontent.com/open-telemetry/opentelemetry-collector/HEAD/README.md
+Install command or upstream instructions:
+
+```
+go install go.opentelemetry.io/collector/cmd/otelcol@latest
+```
 
 ## Documentation
 

@@ -1,14 +1,14 @@
 ---
-name: "Gate Diff Only Test Coverage On Changed Lines Before Merging With Diff Cover"
-slug: "gate-diff-only-test-coverage-on-changed-lines-before-merging-with-diff-cover"
+title: "Gate Diff Only Test Coverage On Changed Lines Before Merging With Diff Cover"
 description: "Compare coverage reports against a git diff so an agent can flag newly changed lines that still lack tests before merge."
-github_stars: 828
 verification: "security_reviewed"
 source: "https://github.com/Bachmann1234/diff_cover"
 author: "Matthias Bachmann and contributors"
 publisher_type: "Open Source"
-category: "Code Quality & Review"
-framework: "Multi-Framework"
+category:
+  - "Code Quality & Review"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Bachmann1234/diff_cover"
   github_stars: 828
@@ -24,24 +24,19 @@ Git, supported XML or LCov coverage report, Python 3, pip
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install diff-cover
-- git clone https://github.com/Bachmann1234/diff-cover.git
-- make a pull request from your fork.
-- pip install poetry
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Currently, diff-cover requires that:
-- coverage.py__ (Python)
-- poetry manages a python virtual environment and organizes dependencies. It also
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ------------
-- To install the latest release:
-- .. code:: bash
+Install command or upstream instructions:
 
-- Source: https://github.com/Bachmann1234/diff_cover
-- Extracted from upstream docs: https://raw.githubusercontent.com/Bachmann1234/diff_cover/HEAD/README.rst
+```
+pip install diff-cover
+```
 
 ## Documentation
 

@@ -1,14 +1,14 @@
 ---
-name: "Analyze videos with frame extraction and audio context in Claude Code"
-slug: "analyze-videos-with-frame-extraction-and-audio-context-in-claude-code"
+title: "Analyze videos with frame extraction and audio context in Claude Code"
 description: "Give Claude Code a video perception layer that extracts frames, transcribes audio, and lets Claude answer questions about local videos or YouTube URLs."
-github_stars: 698
 verification: "security_reviewed"
 source: "https://github.com/jordanrendric/claude-video-vision"
 author: "Jordan Rendric"
 publisher_type: "individual"
-category: "Media & Transcription"
-framework: "Claude Code"
+category:
+  - "Media & Transcription"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "jordanrendric/claude-video-vision"
   github_stars: 698
@@ -26,21 +26,19 @@ Claude Code, Node.js 20+, ffmpeg, optional yt-dlp, Gemini API or Whisper/OpenAI 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/jordanrendric/claude-video-vision.git
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- | **Local (Whisper)** | whisper.cpp or Python openai-whisper | Free, fully offline | brew install whisper-cpp + auto model download |
-- │ MCP Server (Node.js) │
-- **Node.js 20+** (for the MCP server)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ### 1. Install the plugin
-- Inside Claude Code, run these commands **one at a time**:
-- /plugin marketplace add https://github.com/jordanrendric/claude-video-vision
+Install command or upstream instructions:
 
-- Source: https://github.com/jordanrendric/claude-video-vision
-- Extracted from upstream docs: https://raw.githubusercontent.com/jordanrendric/claude-video-vision/HEAD/README.md
+```
+In Claude Code, run /plugin marketplace add https://github.com/jordanrendric/claude-video-vision, then /plugin install claude-video-vision. Run /setup-video-vision to configure ffmpeg, audio backend, and optional YouTube support.
+```
 
 ## Documentation
 

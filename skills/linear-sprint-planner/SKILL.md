@@ -1,26 +1,28 @@
 ---
-name: "Linear Sprint Planner"
-slug: "linear-sprint-planner"
-description: ""
+title: "Linear Sprint Planner"
+description: "Linear Sprint Planner is built around GraphQL API ecosystem. The underlying ecosystem is represented by graphql/graphql-js (20,335+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like queries, mutations, schema introspection, fragments, pagination, subscriptions and preserving the operational context […]"
 verification: "security_reviewed"
 source: "https://linear.app/docs"
 author: "Linear"
-category: "Calendar, Email & Productivity"
-framework: "Custom Agents"
+category:
+  - "Calendar, Email & Productivity"
+framework:
+  - "Custom Agents"
 ---
 
 # Linear Sprint Planner
 
-
+Linear Sprint Planner is built around GraphQL API ecosystem. The underlying ecosystem is represented by graphql/graphql-js (20,335+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like queries, mutations, schema introspection, fragments, pagination, subscriptions and preserving the operational context […]
 
 ## Installation
 
-Basic usage or getting-started notes:
-- Account
-- AI
-- Your sidebar
+Choose whichever fits your setup:
 
-- Source: https://linear.app/docs
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

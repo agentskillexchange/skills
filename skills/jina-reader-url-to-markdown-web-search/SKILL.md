@@ -1,12 +1,12 @@
 ---
-name: "Jina Reader URL-to-Markdown Converter and Web Search API"
-slug: "jina-reader-url-to-markdown-web-search"
+title: "Jina Reader URL-to-Markdown Converter and Web Search API"
 description: "Jina Reader converts any URL to LLM-friendly markdown by prefixing https://r.jina.ai/ to any web address. It also provides a search endpoint at https://s.jina.ai/ that returns web search results in clean markdown format for RAG and agent workflows."
-github_stars: 10559
 verification: "security_reviewed"
 source: "https://github.com/jina-ai/reader"
-category: "Data Extraction & Transformation"
-framework: "Multi-Framework"
+category:
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jina-ai/reader"
   github_stars: 10559
@@ -18,23 +18,13 @@ Jina Reader converts any URL to LLM-friendly markdown by prefixing https://r.jin
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- docker pull ghcr.io/jina-ai/reader:oss
-- docker run --rm -p 3000:8081 ghcr.io/jina-ai/reader:oss
-- docker run --rm -p 3000:8080 -p 3001:8081 ghcr.io/jina-ai/reader:oss
-- docker run --rm -p 3000:8081 \
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ## Self-host with Docker
-- Docker *(optional — only if you want a local MinIO bucket cache)*
-
-Basic usage or getting-started notes:
-- **2026-04** — Re-synchronized the open source branch with the SaaS code. The MongoDB-backed storage layer is stripped; the oss branch runs in stateless mode out of the box, with optional MinIO/S3-compatible bucket cac...
-- **2025-03** — Major refactor: Reader is no longer a Firebase application. The SaaS migrated off Firestore + Cloud Functions to a Cloud Run image with MongoDB Atlas, removing the platform-coupled bits and unblocking th...
-- ### Using r.jina.ai for single URL fetching
-
-- Source: https://github.com/jina-ai/reader
-- Extracted from upstream docs: https://raw.githubusercontent.com/jina-ai/reader/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

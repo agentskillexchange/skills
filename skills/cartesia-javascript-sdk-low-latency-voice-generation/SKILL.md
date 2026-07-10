@@ -1,14 +1,14 @@
 ---
-name: "Cartesia JavaScript SDK for Low-Latency Voice Generation"
-slug: "cartesia-javascript-sdk-low-latency-voice-generation"
+title: "Cartesia JavaScript SDK for Low-Latency Voice Generation"
 description: "An ASE skill built around the official Cartesia JavaScript SDK for text-to-speech and voice API workflows. It is a strong fit for agents that need programmatic voice generation, low-latency speech responses, and direct integration with Cartesia’s hosted models."
-github_stars: 130
 verification: "security_reviewed"
 source: "https://github.com/cartesia-ai/cartesia-js"
 author: "cartesia-ai"
 publisher_type: "Company"
-category: "Media & Transcription"
-framework: "Multi-Framework"
+category:
+  - "Media & Transcription"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "cartesia-ai/cartesia-js"
   github_stars: 130
@@ -26,21 +26,19 @@ Node.js or TypeScript runtime with the @cartesia/cartesia-js package
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install @cartesia/cartesia-js
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- // If you have access to Node fs we recommend using fs.createReadStream():
-- <img src="https://raw.githubusercontent.com/stainless-api/sdk-assets/refs/heads/main/node.svg" align="top" width="18" height="21"> **Node** <sup>[[docs](https://github.com/nodejs/undici/blob/main/docs/docs/api/ProxyAg...
-- Node.js 20 LTS or later ([non-EOL](https://endoflife.date/nodejs)) versions.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- sh
-- The full API of this library can be found in [api.md](api.md).
-- <!-- prettier-ignore -->
+Install command or upstream instructions:
 
-- Source: https://github.com/cartesia-ai/cartesia-js
-- Extracted from upstream docs: https://raw.githubusercontent.com/cartesia-ai/cartesia-js/HEAD/README.md
+```
+npm install @cartesia/cartesia-js
+```
 
 ## Documentation
 

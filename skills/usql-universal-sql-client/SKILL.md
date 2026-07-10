@@ -1,12 +1,12 @@
 ---
-name: "usql Universal Command-Line SQL Client for Multiple Databases"
-slug: "usql-universal-sql-client"
+title: "usql Universal Command-Line SQL Client for Multiple Databases"
 description: "usql is a universal command-line interface for SQL databases including PostgreSQL, MySQL, SQLite, Oracle, SQL Server, and dozens more. It provides a consistent psql-like experience with syntax highlighting, tab completion, and cross-database copying."
-github_stars: 9904
 verification: "security_reviewed"
 source: "https://github.com/xo/usql"
-category: "Developer Tools"
-framework: "Multi-Framework"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "xo/usql"
   github_stars: 9904
@@ -18,23 +18,13 @@ usql is a universal command-line interface for SQL databases including PostgreSQ
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- $ brew install xo/xo/usql
-- $ brew tap xo/xo
-- $ brew install --with-odbc usql
-- $ git clone https://aur.archlinux.org/usql.git && cd usql
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Scoop][], [via Go][], or [via Docker][]:
-- [via Docker]: #installing-via-docker
-
-Basic usage or getting-started notes:
-- command][homebrew]:
-- sh
-- Support for [ODBC databases][databases] is available through the --with-odbc
-
-- Source: https://github.com/xo/usql
-- Extracted from upstream docs: https://raw.githubusercontent.com/xo/usql/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

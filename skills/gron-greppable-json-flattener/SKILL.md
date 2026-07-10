@@ -1,12 +1,12 @@
 ---
-name: "gron Greppable JSON Flattener"
-slug: "gron-greppable-json-flattener"
+title: "gron Greppable JSON Flattener"
 description: "gron transforms JSON into discrete assignment statements, making it possible to grep through complex JSON structures using standard Unix tools. It reverses the process with ungron, turning filtered assignments back into valid JSON."
-github_stars: 14413
 verification: "listed"
 source: "https://github.com/tomnomnom/gron"
-category: "Data Extraction & Transformation"
-framework: "Custom Agents"
+category:
+  - "Data Extraction & Transformation"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "tomnomnom/gron"
   github_stars: 14413
@@ -18,9 +18,13 @@ gron transforms JSON into discrete assignment statements, making it possible to 
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://github.com/tomnomnom/gron
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

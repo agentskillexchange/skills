@@ -1,12 +1,13 @@
 ---
-name: "Blender Geometry Nodes Script Generator"
-slug: "blender-geometry-nodes-script-generator"
+title: "Blender Geometry Nodes Script Generator"
 description: "Generates Blender Python (bpy) scripts that programmatically create Geometry Nodes modifier trees, using the node_groups API and GeometryNodeTree interface for parametric 3D asset generation."
 verification: "security_reviewed"
 source: "https://www.blender.org/"
 author: "Blender Foundation"
-category: "Image & Creative Automation"
-framework: "Custom Agents"
+category:
+  - "Image & Creative Automation"
+framework:
+  - "Custom Agents"
 ---
 
 # Blender Geometry Nodes Script Generator
@@ -15,20 +16,13 @@ Generates Blender Python (bpy) scripts that programmatically create Geometry Nod
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Make it Your Own
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- · Python scripting for custom tools and add-ons
-- Blender has a flexible Python controlled interface. Layout, colors, size and even fonts can be adjusted. Use hundreds of add-ons by the community or create your own using Blender’s accessible Python API.
-- Python API
-
-Basic usage or getting-started notes:
-- Benchmark
-- Flamenco
-- Extensions
-
-- Source: https://www.blender.org/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

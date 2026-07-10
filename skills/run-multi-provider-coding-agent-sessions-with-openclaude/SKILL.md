@@ -1,14 +1,14 @@
 ---
-name: "Run multi-provider coding-agent sessions with OpenClaude"
-slug: "run-multi-provider-coding-agent-sessions-with-openclaude"
+title: "Run multi-provider coding-agent sessions with OpenClaude"
 description: "Use OpenClaude when a repository task needs one terminal-first coding-agent workflow that can switch across cloud, local, Codex OAuth, MCP, slash commands, file tools, and background sessions."
-github_stars: 29524
 verification: "security_reviewed"
 source: "https://github.com/Gitlawb/openclaude"
 author: "Gitlawb"
 publisher_type: "open_source_project"
-category: "Developer Tools"
-framework: "Multi-Framework"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Gitlawb/openclaude"
   github_stars: 29524
@@ -26,22 +26,19 @@ Node.js 22+, npm, ripgrep recommended, provider API key or local model backend, 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install -g @gitlawb/openclaude@latest
-- npm view @gitlawb/openclaude dist-tags
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [gitlawb.com/node/repos/z6MkqDnb/openclaude](https://gitlawb.com/node/repos/z6MkqDnb/openclaude)
-- OpenClaude requires Node.js >=22.0.0 for npm installs and runtime. Bun is
-- | Gitlawb Opengateway | Startup default, /provider, or env vars | Smart gateway at https://opengateway.gitlawb.com/v1; requires an API key from https://gitlawb.com/opengateway/keys and routes Xiaomi MiMo and GMI Cloud...
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Quick Start](#quick-start) | [Setup Guides](#setup-guides) | [Providers](#supported-providers) | [Source Build](#source-build-and-local-development) | [VS Code Extension](#vs-code-extension) | [Sponsors](#sponsors) |...
-- Run with OpenAI-compatible services, Gemini, GitHub Models, Codex OAuth, Codex, Ollama, Atomic Chat, and other supported providers
-- only needed for source builds and local development.
+Install command or upstream instructions:
 
-- Source: https://github.com/Gitlawb/openclaude
-- Extracted from upstream docs: https://raw.githubusercontent.com/Gitlawb/openclaude/HEAD/README.md
+```
+npm install -g @gitlawb/openclaude@latest, then run openclaude and use /provider for guided provider setup or pass provider environment variables explicitly.
+```
 
 ## Documentation
 

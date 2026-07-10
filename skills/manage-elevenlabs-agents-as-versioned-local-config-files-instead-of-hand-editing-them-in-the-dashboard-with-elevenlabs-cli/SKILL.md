@@ -1,14 +1,14 @@
 ---
-name: "Manage ElevenLabs agents as versioned local config files instead of hand-editing them in the dashboard with ElevenLabs CLI"
-slug: "manage-elevenlabs-agents-as-versioned-local-config-files-instead-of-hand-editing-them-in-the-dashboard-with-elevenlabs-cli"
+title: "Manage ElevenLabs agents as versioned local config files instead of hand-editing them in the dashboard with ElevenLabs CLI"
 description: "Initialize, authenticate, and edit ElevenLabs agent configs from local files when you want agent definitions in code review instead of only in a hosted UI."
-github_stars: 49
 verification: "security_reviewed"
 source: "https://github.com/elevenlabs/cli"
 author: "ElevenLabs"
 publisher_type: "vendor"
-category: "Integrations & Connectors"
-framework: "Custom Agents"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "elevenlabs/cli"
   github_stars: 49
@@ -26,23 +26,19 @@ Node.js, elevenlabs CLI, ElevenLabs API key
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pnpm install -g @elevenlabs/cli
-- npm install -g @elevenlabs/cli
-- pnpm dlx @elevenlabs/cli agents init
-- npx @elevenlabs/cli agents init
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- **Note**: For now, your API key must be unrestricted to work with the CLI, as ElevenLabs-restricted keys are not available yet.
-- **CRITICAL**: E2E tests require a **dedicated, empty test account**.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- bash
-- # Global installation
-- # OR
+Install command or upstream instructions:
 
-- Source: https://github.com/elevenlabs/cli
-- Extracted from upstream docs: https://raw.githubusercontent.com/elevenlabs/cli/HEAD/README.md
+```
+npm install -g @elevenlabs/cli # or pnpm install -g @elevenlabs/cli # then authenticate elevenlabs auth login
+```
 
 ## Documentation
 

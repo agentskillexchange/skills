@@ -1,14 +1,14 @@
 ---
-name: "Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto"
-slug: "find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto"
+title: "Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto"
 description: "Scan Helm charts, YAML, or live clusters for Kubernetes API versions scheduled for removal before an upgrade window."
-github_stars: 2494
 verification: "security_reviewed"
 source: "https://github.com/FairwindsOps/pluto"
 author: "FairwindsOps"
 publisher_type: "organization"
-category: "Runbooks & Diagnostics"
-framework: "Multi-Framework"
+category:
+  - "Runbooks & Diagnostics"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "FairwindsOps/pluto"
   github_stars: 2494
@@ -24,16 +24,19 @@ Kubernetes manifests or cluster access, Pluto binary
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Images moved to us-docker.pkg.dev/fairwinds-ops/oss/pluto
-- us-docker.pkg.dev/fairwinds-ops/oss/pluto:<tag>
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- ## GitHub Action Usage
-- run: |
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/FairwindsOps/pluto
-- Extracted from upstream docs: https://raw.githubusercontent.com/FairwindsOps/pluto/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install Pluto from a release or package manager, then run commands such as `pluto detect-files`, `pluto detect-helm`, or `pluto detect` for live cluster checks.
+```
 
 ## Documentation
 

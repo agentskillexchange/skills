@@ -1,12 +1,13 @@
 ---
-name: "VS Code Extension Debugger"
-slug: "vscode-extension-debugger-dap-protocol"
+title: "VS Code Extension Debugger"
 description: "Debugs VS Code extensions using the Debug Adapter Protocol (DAP) with breakpoint management and variable inspection. Integrates with VS Code Extension API for webview debugging and uses Chrome DevTools Protocol for renderer process analysis."
 verification: "security_reviewed"
 source: "https://code.visualstudio.com/api"
 author: "Microsoft"
-category: "Developer Tools"
-framework: "Claude Code"
+category:
+  - "Developer Tools"
+framework:
+  - "Claude Code"
 ---
 
 # VS Code Extension Debugger
@@ -15,14 +16,13 @@ Debugs VS Code extensions using the Debug Adapter Protocol (DAP) with breakpoint
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Python Extension Template
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- How to build, run, debug, test, and publish an extension
-- If you'd like to have a more comprehensive overview of the Extension API, refer to the Extension Capabilities Overview page. Extension Guides Overview also includes a list of code samples and guides that illustrate va...
-
-- Source: https://code.visualstudio.com/api
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

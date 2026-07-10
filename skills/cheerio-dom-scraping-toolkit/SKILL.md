@@ -1,12 +1,12 @@
 ---
-name: "Cheerio DOM Scraping Toolkit"
-slug: "cheerio-dom-scraping-toolkit"
-description: "Parses static HTML using Cheerio's jQuery-like API for fast server-side DOM traversal and data extraction. Generates extraction patterns with CSS selectors optimized for resilience to layout changes."
-github_stars: 30270
+title: "Cheerio DOM Scraping Toolkit"
+description: "Parses static HTML using Cheerio’s jQuery-like API for fast server-side DOM traversal and data extraction. Generates extraction patterns with CSS selectors optimized for resilience to layout changes."
 verification: "listed"
 source: "https://github.com/cheeriojs/cheerio"
-category: "Research & Scraping"
-framework: "Cursor"
+category:
+  - "Research & Scraping"
+framework:
+  - "Cursor"
 tool_ecosystem:
   github_repo: "cheeriojs/cheerio"
   github_stars: 30270
@@ -16,13 +16,17 @@ tool_ecosystem:
 
 # Cheerio DOM Scraping Toolkit
 
-Parses static HTML using Cheerio's jQuery-like API for fast server-side DOM traversal and data extraction. Generates extraction patterns with CSS selectors optimized for resilience to layout changes.
+Parses static HTML using Cheerio’s jQuery-like API for fast server-side DOM traversal and data extraction. Generates extraction patterns with CSS selectors optimized for resilience to layout changes.
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://github.com/cheeriojs/cheerio
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

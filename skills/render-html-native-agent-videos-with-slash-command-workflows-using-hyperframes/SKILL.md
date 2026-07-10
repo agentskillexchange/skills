@@ -1,14 +1,14 @@
 ---
-name: "Render HTML-native agent videos with slash-command workflows using HyperFrames"
-slug: "render-html-native-agent-videos-with-slash-command-workflows-using-hyperframes"
+title: "Render HTML-native agent videos with slash-command workflows using HyperFrames"
 description: "Use agent-facing HyperFrames skills to turn prompts, PDFs, CSVs, or repo context into editable HTML video compositions and rendered MP4 outputs."
-github_stars: 9510
 verification: "security_reviewed"
 source: "https://github.com/heygen-com/hyperframes"
 author: "HeyGen"
 publisher_type: "organization"
-category: "Image & Creative Automation"
-framework: "Multi-Framework"
+category:
+  - "Image & Creative Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "heygen-com/hyperframes"
   github_stars: 9510
@@ -26,23 +26,19 @@ Node.js 22+, FFmpeg
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx skills add heygen-com/hyperframes
-- Make a 9:16 TikTok-style hook video about [topic] using /hyperframes, with bouncy captions synced to a TTS narration.
-- Make the title 2x bigger, swap to dark mode, and add a fade-out at the end.
-- npx hyperframes init my-video
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <a href="https://nodejs.org"><img src="https://img.shields.io/badge/node-%3E%3D22-brightgreen" alt="Node.js"></a>
-- **Requirements:** Node.js >= 22, FFmpeg
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ### Option 1: With an AI coding agent (recommended)
-- bash
-- This teaches your agent (Claude Code, Cursor, Gemini CLI, Codex) how to write correct compositions, GSAP timelines, Tailwind v4 browser-runtime styles, and first-party adapter animations. In Claude Code, the skills re...
+Install command or upstream instructions:
 
-- Source: https://github.com/heygen-com/hyperframes
-- Extracted from upstream docs: https://raw.githubusercontent.com/heygen-com/hyperframes/HEAD/README.md
+```
+Install the package with `npx hyperframes init my-video` or add the upstream agent skills with `npx skills add heygen-com/hyperframes`, then preview with `npx hyperframes preview` and render with `npx hyperframes render`.
+```
 
 ## Documentation
 

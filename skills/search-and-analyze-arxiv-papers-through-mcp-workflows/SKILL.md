@@ -1,14 +1,14 @@
 ---
-name: "Search and analyze arXiv papers through MCP workflows"
-slug: "search-and-analyze-arxiv-papers-through-mcp-workflows"
+title: "Search and analyze arXiv papers through MCP workflows"
 description: "Connect an MCP-capable assistant to arXiv search, paper download, local paper storage, and research prompts for grounded literature review workflows."
-github_stars: 2760
 verification: "security_reviewed"
 source: "https://github.com/blazickjp/arxiv-mcp-server"
 author: "blazickjp"
 publisher_type: "individual"
-category: "Research & Scraping"
-framework: "MCP"
+category:
+  - "Research & Scraping"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "blazickjp/arxiv-mcp-server"
   github_stars: 2760
@@ -24,21 +24,19 @@ Python 3.11+, uv or supported MCP bundle installer, MCP-compatible client such a
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- uv pip install -e ".[pro]"
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Python Version](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
-- python
-- Read the full text of a locally downloaded paper in markdown. **Requires download_paper to be called first.** Use start and max_chars with the returned next_start value to page through large papers.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- example, instructing it to exfiltrate data, invoke other tools with unintended
-- asks you to run commands or visit external URLs that were not part of your
-- Run the test suite:
+Install command or upstream instructions:
 
-- Source: https://github.com/blazickjp/arxiv-mcp-server
-- Extracted from upstream docs: https://raw.githubusercontent.com/blazickjp/arxiv-mcp-server/HEAD/README.md
+```
+Install with Smithery, a Claude Desktop .mcpb release bundle, or manually with uv tool install arxiv-mcp-server, then register the arxiv-mcp-server stdio command in the MCP client. Use the optional [pdf] extra when older PDF-only arXiv papers must be parsed.
+```
 
 ## Documentation
 

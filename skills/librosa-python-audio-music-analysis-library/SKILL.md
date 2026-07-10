@@ -1,12 +1,12 @@
 ---
-name: "librosa Python Audio and Music Analysis Library"
-slug: "librosa-python-audio-music-analysis-library"
+title: "librosa Python Audio and Music Analysis Library"
 description: "librosa is a Python library for audio and music analysis. It provides tools for feature extraction, spectral analysis, beat tracking, onset detection, and audio visualization, built on top of NumPy and SciPy for scientific audio computing."
-github_stars: 8294
 verification: "security_reviewed"
 source: "https://github.com/librosa/librosa"
-category: "Media & Transcription"
-framework: "Multi-Framework"
+category:
+  - "Media & Transcription"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "librosa/librosa"
   github_stars: 8294
@@ -18,24 +18,13 @@ librosa is a Python library for audio and music analysis. It provides tools for 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- python -m pip install librosa
-- conda install -c conda-forge librosa
-- Alternatively, you can download or clone the repository and use pip to handle dependencies:
-- python -m pip install -e librosa
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- A python package for music and audio analysis.
-- [![PyPI](https://img.shields.io/pypi/v/librosa.svg)](https://pypi.python.org/pypi/librosa)
-- python setup.py build
-
-Basic usage or getting-started notes:
-- ### Using PyPI
-- The latest stable release is available on PyPI, and you can install it by saying
-- ### Using Anaconda
-
-- Source: https://github.com/librosa/librosa
-- Extracted from upstream docs: https://raw.githubusercontent.com/librosa/librosa/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

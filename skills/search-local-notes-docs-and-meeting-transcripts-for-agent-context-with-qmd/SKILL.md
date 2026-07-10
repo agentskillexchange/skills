@@ -1,14 +1,14 @@
 ---
-name: "Search local notes, docs, and meeting transcripts for agent context with QMD"
-slug: "search-local-notes-docs-and-meeting-transcripts-for-agent-context-with-qmd"
+title: "Search local notes, docs, and meeting transcripts for agent context with QMD"
 description: "Index local notes, docs, and meeting transcripts, then return ranked files or structured JSON so an agent can pull only the context it needs."
-github_stars: 22082
 verification: "security_reviewed"
 source: "https://github.com/tobi/qmd"
 author: "tobi"
 publisher_type: "open_source_project"
-category: "Research & Scraping"
-framework: "Multi-Framework"
+category:
+  - "Research & Scraping"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "tobi/qmd"
   github_stars: 22082
@@ -26,24 +26,19 @@ Node or Bun, local document folders, optional local GGUF model via node-llama-cp
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install -g @tobilu/qmd
-- npx @tobilu/qmd ...
-- npm install @tobilu/qmd
-- brew install sqlite
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- QMD combines BM25 full-text search, vector semantic search, and LLM re-ranking—all running locally via node-llama-cpp with GGUF models.
-- Use QMD as a library in your own Node.js or Bun applications.
-- The SDK requires explicit dbPath — no defaults are assumed. This makes it safe to embed in any application without side effects.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- sh
-- # or
-- bun install -g @tobilu/qmd
+Install command or upstream instructions:
 
-- Source: https://github.com/tobi/qmd
-- Extracted from upstream docs: https://raw.githubusercontent.com/tobi/qmd/HEAD/README.md
+```
+npm install -g @tobilu/qmd or bun install -g @tobilu/qmd
+```
 
 ## Documentation
 

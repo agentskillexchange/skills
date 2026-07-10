@@ -1,12 +1,13 @@
 ---
-name: "Internal Link Graph Optimizer"
-slug: "internal-link-graph-optimizer"
+title: "Internal Link Graph Optimizer"
 description: "Analyzes internal linking structure by crawling sitemaps with Screaming Frog or Sitebulb, computing PageRank distribution via NetworkX graph algorithms, and identifying orphan pages. Recommends contextual link insertions using BM25 text matching against existing content inventory."
 verification: "security_reviewed"
 source: "https://developer.wordpress.org/"
 author: "WordPress Foundation"
-category: "Content Writing & SEO"
-framework: "Cursor"
+category:
+  - "Content Writing & SEO"
+framework:
+  - "Cursor"
 ---
 
 # Internal Link Graph Optimizer
@@ -15,15 +16,13 @@ Analyzes internal linking structure by crawling sitemaps with Screaming Frog or 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Make WordPress
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Run WordPress entirely in your browser.
-- Run WP-CLI Commands
-- Advanced · May 4, 2026
-
-- Source: https://developer.wordpress.org/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

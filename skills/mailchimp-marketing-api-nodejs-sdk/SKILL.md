@@ -1,13 +1,13 @@
 ---
-name: "Mailchimp Marketing API Node.js SDK"
-slug: "mailchimp-marketing-api-nodejs-sdk"
+title: "Mailchimp Marketing API Node.js SDK"
 description: "Connects agents to Mailchimp’s official Marketing API through the official Node.js client library. Useful for audience sync, tagging, campaign orchestration, automation triggers, webhooks, and batch operations at marketing scale."
-github_stars: 165
 verification: "security_reviewed"
 source: "https://github.com/mailchimp/mailchimp-marketing-node"
 author: "mailchimp"
-category: "Calendar, Email & Productivity"
-framework: "Multi-Framework"
+category:
+  - "Calendar, Email & Productivity"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mailchimp/mailchimp-marketing-node"
   github_stars: 165
@@ -21,21 +21,13 @@ Connects agents to Mailchimp’s official Marketing API through the official Nod
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install @mailchimp/mailchimp_marketing
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- # Mailchimp Marketing – Node.js
-- The official Node.js client library for the Mailchimp Marketing API
-- const mailchimp = require('@mailchimp/mailchimp_marketing');
-
-Basic usage or getting-started notes:
-- javascript
-- mailchimp.setConfig({
-- apiKey: 'YOUR_API_KEY',
-
-- Source: https://github.com/mailchimp/mailchimp-marketing-node
-- Extracted from upstream docs: https://raw.githubusercontent.com/mailchimp/mailchimp-marketing-node/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,14 +1,14 @@
 ---
-name: "Prepare agent-ready PDF and document extraction with PyMuPDF"
-slug: "prepare-agent-ready-pdf-and-document-extraction-with-pymupdf"
+title: "Prepare agent-ready PDF and document extraction with PyMuPDF"
 description: "Use PyMuPDF to extract text, layout metadata, tables, images, Markdown, or JSON from PDFs and documents before an agent ingests or reviews them."
-github_stars: 10058
 verification: "security_reviewed"
 source: "https://github.com/pymupdf/PyMuPDF"
 author: "PyMuPDF"
 publisher_type: "company"
-category: "Data Extraction & Transformation"
-framework: "Multi-Framework"
+category:
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "pymupdf/PyMuPDF"
   github_stars: 10058
@@ -24,24 +24,19 @@ Python 3.10+, PyMuPDF, source PDFs or supported document files, and optional pym
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install pymupdf
-- pip install pymupdf-fonts
-- pip install pymupdf4llm
-- pip install pymupdfpro
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pymupdf)](https://pypi.org/project/pymupdf/)
-- [![Forum](https://img.shields.io/badge/Forum-ff6600?logo=python&logoColor=ffffff)](https://forum.mupdf.com/c/general/4?utm_source=github&utm_medium=referral&utm_campaign=pymupdf_github&utm_content=badges&utm_term=forum)
-- [![Demo](https://img.shields.io/badge/PyMuPDF4LLM-live?badge&label=DEMO&logo=python&logoColor=ffffff)](https://demo.pymupdf.io?utm_source=github&utm_medium=referral&utm_campaign=pymupdf_github&utm_content=badges&utm_t...
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- | Package | Purpose |
-- |---|---|
-- | pymupdf-fonts | Extended font collection for text output |
+Install command or upstream instructions:
 
-- Source: https://github.com/pymupdf/PyMuPDF
-- Extracted from upstream docs: https://raw.githubusercontent.com/pymupdf/PyMuPDF/HEAD/README.md
+```
+Install with pip install pymupdf. For LLM/RAG-oriented Markdown or JSON extraction, also install pymupdf4llm; for scanned-page OCR, install Tesseract separately and configure the extraction workflow to emit reviewed text, Markdown, or JSON outputs.
+```
 
 ## Documentation
 

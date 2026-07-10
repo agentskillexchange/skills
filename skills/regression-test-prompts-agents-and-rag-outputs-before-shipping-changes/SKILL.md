@@ -1,13 +1,13 @@
 ---
-name: "Regression-test prompts, agents, and RAG outputs before shipping changes"
-slug: "regression-test-prompts-agents-and-rag-outputs-before-shipping-changes"
+title: "Regression-test prompts, agents, and RAG outputs before shipping changes"
 description: "Use promptfoo when an agent needs to evaluate prompt, agent, or RAG behavior against saved assertions before a change goes live. The value here is the repeatable evaluation workflow, not a generic AI tooling catalog entry."
-github_stars: 20007
 verification: "security_reviewed"
 source: "https://github.com/promptfoo/promptfoo"
 author: "promptfoo"
-category: "Code Quality & Review"
-framework: "Multi-Framework"
+category:
+  - "Code Quality & Review"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "promptfoo/promptfoo"
   github_stars: 20007
@@ -25,22 +25,19 @@ Node.js, CI pipeline, model provider credentials
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install -g promptfoo
-- Also available via brew install promptfoo and pip install promptfoo. You can also use npx promptfoo@latest to run any command without installing.
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Requires [Node.js](https://nodejs.org/en/download) ^20.20.0 or >=22.22.0 for npm and npx usage.
-- Most LLM providers require an API key. Set yours as an environment variable:
-- [Node.js Package](https://www.promptfoo.dev/docs/usage/node-package/)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- <a href="https://www.promptfoo.dev/docs/getting-started/">Getting Started</a> ·
-- sh
-- promptfoo init --example getting-started
+Install command or upstream instructions:
 
-- Source: https://github.com/promptfoo/promptfoo
-- Extracted from upstream docs: https://raw.githubusercontent.com/promptfoo/promptfoo/HEAD/README.md
+```
+Install promptfoo, define evaluation cases and assertions in config files, then run local or CI evaluations against prompts, agents, or RAG flows before merging changes.
+```
 
 ## Documentation
 

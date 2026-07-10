@@ -1,12 +1,12 @@
 ---
-name: "Tekton Pipeline Task Assembler"
-slug: "tekton-pipeline-task-assembler"
+title: "Tekton Pipeline Task Assembler"
 description: "Assembles Tekton CI/CD pipelines from reusable Task and ClusterTask definitions using tkn CLI and Tekton Hub catalog. Manages PipelineRun parameters, workspace bindings, and result propagation across task steps."
-github_stars: 8936
 verification: "security_reviewed"
 source: "https://github.com/tektoncd/pipeline"
-category: "CI/CD Integrations"
-framework: "Gemini"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Gemini"
 tool_ecosystem:
   github_repo: "tektoncd/pipeline"
   github_stars: 8936
@@ -18,13 +18,13 @@ Assembles Tekton CI/CD pipelines from reusable Task and ClusterTask definitions 
 
 ## Installation
 
-Basic usage or getting-started notes:
-- Run on Kubernetes
-- The Tasks which make up a Pipeline can easily be run in isolation
-- Jump in with [the "Getting started" tutorial!](https://tekton.dev/docs/getting-started/tasks/)
+Choose whichever fits your setup:
 
-- Source: https://github.com/tektoncd/pipeline
-- Extracted from upstream docs: https://raw.githubusercontent.com/tektoncd/pipeline/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

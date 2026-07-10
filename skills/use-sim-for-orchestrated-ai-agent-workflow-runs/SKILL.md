@@ -1,14 +1,14 @@
 ---
-name: "Use Sim for orchestrated AI agent workflow runs"
-slug: "use-sim-for-orchestrated-ai-agent-workflow-runs"
+title: "Use Sim for orchestrated AI agent workflow runs"
 description: "Build and run repeatable AI agent workflows in Sim by composing agents, tools, triggers, and integrations on a visual canvas."
-github_stars: 28667
 verification: "security_reviewed"
 source: "https://github.com/simstudioai/sim"
 author: "Sim Studio"
 publisher_type: "open_source"
-category: "Templates & Workflows"
-framework: "Multi-Framework"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "simstudioai/sim"
   github_stars: 28667
@@ -26,24 +26,19 @@ Docker; npx or Docker Compose; Sim integrations as needed
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx simstudio
-- Docker must be installed and running on your machine.
-- git clone https://github.com/simstudioai/sim.git && cd sim
-- docker compose -f docker-compose.prod.yml up -d
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- | --no-pull | Skip pulling latest Docker images |
-- ### Self-hosted: Docker Compose
-- Sim also supports local models via [Ollama](https://ollama.ai) and [vLLM](https://docs.vllm.ai/) — see the [Docker self-hosting docs](https://docs.sim.ai/self-hosting/docker) for setup details.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- <p align="center">The open-source platform to build AI agents and run your agentic workforce. Connect 1,000+ integrations and LLMs to orchestrate agentic workflows.</p>
-- Design agent workflows visually on a canvas—connect agents, tools, and blocks, then run them instantly.
-- ### Cloud-hosted: [sim.ai](https://sim.ai)
+Install command or upstream instructions:
 
-- Source: https://github.com/simstudioai/sim
-- Extracted from upstream docs: https://raw.githubusercontent.com/simstudioai/sim/HEAD/README.md
+```
+Run npx simstudio for the self-hosted package, or clone https://github.com/simstudioai/sim and start the production Docker Compose stack.
+```
 
 ## Documentation
 

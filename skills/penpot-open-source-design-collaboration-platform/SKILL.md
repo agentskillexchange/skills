@@ -1,14 +1,14 @@
 ---
-name: "Penpot Open-Source Design Collaboration Platform"
-slug: "penpot-open-source-design-collaboration-platform"
+title: "Penpot Open-Source Design Collaboration Platform"
 description: "Penpot is an open-source design and prototyping platform built for design and code collaboration. This skill helps agents anchor UI, prototype, and handoff tasks to Penpot’s real workspace, self-hosting, and collaboration model."
-github_stars: 45294
 verification: "security_reviewed"
 source: "https://github.com/penpot/penpot"
 author: "Penpot"
 publisher_type: "Open Source Project"
-category: "Image & Creative Automation"
-framework: "Multi-Framework"
+category:
+  - "Image & Creative Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "penpot/penpot"
   github_stars: 45294
@@ -24,17 +24,19 @@ Docker Compose or Kubernetes/Helm for self-hosting
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Learn how to install it with Docker, Kubernetes, Elestio or other options on [our website](https://penpot.app/self-host).
-- Anyone who contributes to Penpot, whether through code, in the community, or at an event, must adhere to the
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- [Getting Started](#getting-started)
-- Penpot is the only design & prototype platform that is deployment agnostic. You can use it in our [SAAS](https://design.penpot.app) or deploy it anywhere.
-- ## Community ##
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/penpot/penpot
-- Extracted from upstream docs: https://raw.githubusercontent.com/penpot/penpot/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Deploy with docker compose
+```
 
 ## Documentation
 

@@ -1,12 +1,12 @@
 ---
-name: "Terraform State Drift Detector"
-slug: "terraform-state-drift-detector"
+title: "Terraform State Drift Detector"
 description: "Detects infrastructure drift by running terraform plan -detailed-exitcode and parsing the JSON output via terraform show -json. Categorizes drift by resource type and generates targeted terraform apply plans for reconciliation."
-github_stars: 48146
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
-category: "Runbooks & Diagnostics"
-framework: "OpenClaw"
+category:
+  - "Runbooks & Diagnostics"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48146
@@ -18,13 +18,13 @@ Detects infrastructure drift by running terraform plan -detailed-exitcode and pa
 
 ## Installation
 
-Basic usage or getting-started notes:
-- Documentation is available on the [Terraform website](https://developer.hashicorp.com/terraform):
-- [Introduction](https://developer.hashicorp.com/terraform/intro)
-- [Documentation](https://developer.hashicorp.com/terraform/docs)
+Choose whichever fits your setup:
 
-- Source: https://github.com/hashicorp/terraform
-- Extracted from upstream docs: https://raw.githubusercontent.com/hashicorp/terraform/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

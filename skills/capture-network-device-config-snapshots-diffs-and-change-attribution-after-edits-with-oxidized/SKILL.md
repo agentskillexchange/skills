@@ -1,14 +1,14 @@
 ---
-name: "Capture network device config snapshots diffs and change attribution after edits with Oxidized"
-slug: "capture-network-device-config-snapshots-diffs-and-change-attribution-after-edits-with-oxidized"
+title: "Capture network device config snapshots diffs and change attribution after edits with Oxidized"
 description: "Pull running configs from routers and switches on a schedule or after change events so you can diff drift, audit edits, and recover known-good state."
-github_stars: 3350
 verification: "security_reviewed"
 source: "https://github.com/ytti/oxidized"
 author: "ytti"
 publisher_type: "organization"
-category: "Runbooks & Diagnostics"
-framework: "Multi-Framework"
+category:
+  - "Runbooks & Diagnostics"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ytti/oxidized"
   github_stars: 3350
@@ -24,24 +24,19 @@ Oxidized, network device access credentials, supported source inventory, and sto
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- gem install oxidized
-- gem install oxidized-web # Web interface and rest API
-- gem install oxidized-script # Script-based input/output extensions
-- git clone https://github.com/ytti/oxidized.git
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Restful API to a move node immediately to head-of-queue (GET/PUT /node/next/[NODE])
-- Restful API to fetch configurations (/node/fetch/[NODE] or /node/fetch/group/[NODE])
-- Restful API to show list of version for a node (/node/version[NODE]) and diffs
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Syslog udp+file example to catch config change events (IOS/JunOS) and trigger a config fetch
-- ### Debian and Ubuntu
-- Debian 12 "bookworm" or newer and Ubuntu 22.04 (Jammy Jellyfish) or newer are recommended. On Ubuntu, begin by enabling the universe
+Install command or upstream instructions:
 
-- Source: https://github.com/ytti/oxidized
-- Extracted from upstream docs: https://raw.githubusercontent.com/ytti/oxidized/HEAD/README.md
+```
+Install Oxidized from the upstream package, gem, container, or source instructions, configure the device source and output backend, then run scheduled or event-triggered config fetches against the target network fleet.
+```
 
 ## Documentation
 

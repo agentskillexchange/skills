@@ -1,14 +1,14 @@
 ---
-name: "Use Potpie for spec-driven codebase workflows"
-slug: "use-potpie-for-spec-driven-codebase-workflows"
+title: "Use Potpie for spec-driven codebase workflows"
 description: "Index a repository with Potpie, turn it into a code knowledge graph, and drive focused implementation or review tasks from specs."
-github_stars: 5411
 verification: "security_reviewed"
 source: "https://github.com/potpie-ai/potpie"
 author: "Potpie AI"
 publisher_type: "open_source"
-category: "Developer Tools"
-framework: "Multi-Framework"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "potpie-ai/potpie"
   github_stars: 5411
@@ -24,23 +24,19 @@ Docker; Git; Python 3.11+; uv; configured LLM provider
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone --recurse-submodules https://github.com/potpie-ai/potpie.git
-- uv sync
-- pnpm build && pnpm start
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [Docker](https://docker.com) installed and running
-- [Python 3.11+](https://python.org) with [uv](https://docs.astral.sh/uv/)
-- This will start Docker services, apply migrations, start the FastAPI app, and start the Celery worker.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Git](https://git-scm.com) installed
-- **Clone the repository**
-- bash
+Install command or upstream instructions:
 
-- Source: https://github.com/potpie-ai/potpie
-- Extracted from upstream docs: https://raw.githubusercontent.com/potpie-ai/potpie/HEAD/README.md
+```
+Clone https://github.com/potpie-ai/potpie with submodules, copy .env.template to .env, configure the LLM and database settings, then run the repository quickstart.
+```
 
 ## Documentation
 

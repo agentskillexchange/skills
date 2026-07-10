@@ -1,12 +1,13 @@
 ---
-name: "npm Dependency Audit Scanner"
-slug: "npm-dependency-audit-scanner"
+title: "npm Dependency Audit Scanner"
 description: "Scans Node.js projects for vulnerable dependencies using npm audit and the OSV.dev REST API. Cross-references CVE databases via the National Vulnerability Database API v2.0 and generates SBOM documents in CycloneDX format."
 verification: "security_reviewed"
 source: "https://docs.npmjs.com/auditing-package-dependencies-for-security-vulnerabilities/"
 author: "npm, Inc."
-category: "Security & Verification"
-framework: "Custom Agents"
+category:
+  - "Security & Verification"
+framework:
+  - "Custom Agents"
 ---
 
 # npm Dependency Audit Scanner
@@ -15,23 +16,13 @@ Scans Node.js projects for vulnerable dependencies using npm audit and the OSV.d
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm Docs
-- npm package scope, access level, and visibility
-- Docker and private modules
-- npm License
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Downloading and installing Node.js and npm
-- Try the latest stable version of node
-- Creating Node.js modules
-
-Basic usage or getting-started notes:
-- Creating a strong password
-- Receiving a one-time password over email
-- About two-factor authentication
-
-- Source: https://docs.npmjs.com/auditing-package-dependencies-for-security-vulnerabilities/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

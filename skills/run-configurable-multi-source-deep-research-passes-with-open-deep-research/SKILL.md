@@ -1,14 +1,14 @@
 ---
-name: "Run configurable multi-source deep research passes with Open Deep Research"
-slug: "run-configurable-multi-source-deep-research-passes-with-open-deep-research"
+title: "Run configurable multi-source deep research passes with Open Deep Research"
 description: "Use Open Deep Research when an agent should run a configurable research job that searches, compresses, synthesizes, and writes a cited report across multiple model and search backends."
-github_stars: 11125
 verification: "security_reviewed"
 source: "https://github.com/langchain-ai/open_deep_research"
 author: "LangChain"
 publisher_type: "organization"
-category: "Research & Scraping"
-framework: "Multi-Framework"
+category:
+  - "Research & Scraping"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "langchain-ai/open_deep_research"
   github_stars: 11125
@@ -24,24 +24,19 @@ Python, uv, model API credentials, one or more supported search tools
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/langchain-ai/open_deep_research.git
-- uv venv
-- uv sync
-- uv pip install -r pyproject.toml
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- uvx --refresh --from "langgraph-cli[inmem]" --with-editable . --python 3.11 langgraph dev --allow-blocking
-- Open Deep Research supports a wide range of LLM providers via the [init_chat_model() API](https://python.langchain.com/docs/how_to/chat_models_universal_init/). It uses LLMs for a few different tasks. See the below mo...
-- Note: the selected model will need to support [structured outputs](https://python.langchain.com/docs/integrations/chat/) and [tool calling](https://python.langchain.com/docs/how_to/tool_calling/).
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- cp .env.example .env
-- This will open the LangGraph Studio UI in your browser.
-- 🚀 API: http://127.0.0.1:2024
+Install command or upstream instructions:
 
-- Source: https://github.com/langchain-ai/open_deep_research
-- Extracted from upstream docs: https://raw.githubusercontent.com/langchain-ai/open_deep_research/HEAD/README.md
+```
+Clone the repository, create a virtual environment, install dependencies with uv sync, configure the .env file for model and search providers, then start the LangGraph development server to run research jobs.
+```
 
 ## Documentation
 

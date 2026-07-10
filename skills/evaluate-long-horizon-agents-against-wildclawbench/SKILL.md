@@ -1,14 +1,14 @@
 ---
-name: "Evaluate long-horizon agents against WildClawBench"
-slug: "evaluate-long-horizon-agents-against-wildclawbench"
+title: "Evaluate long-horizon agents against WildClawBench"
 description: "Use WildClawBench to benchmark agents on hard end-to-end OpenClaw tasks covering tool orchestration, multimodal work, coding, safety, and long-horizon planning."
-github_stars: 359
 verification: "listed"
 source: "https://github.com/InternLM/WildClawBench"
 author: "InternLM"
 publisher_type: "research_open_source"
-category: "Templates & Workflows"
-framework: "OpenClaw"
+category:
+  - "Templates & Workflows"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "InternLM/WildClawBench"
   github_stars: 359
@@ -24,9 +24,19 @@ WildClawBench assets; OpenClaw environment; target agent/model under test
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://github.com/InternLM/WildClawBench
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Follow the WildClawBench repository and documentation to obtain benchmark assets, configure an OpenClaw evaluation environment, run supported harnesses against the target agent, and compare results with the published task categories and leaderboard.
+```
 
 ## Documentation
 

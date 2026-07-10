@@ -1,14 +1,14 @@
 ---
-name: "Manage parallel coding agents with Agent of Empires"
-slug: "manage-parallel-coding-agents-with-agent-of-empires"
+title: "Manage parallel coding agents with Agent of Empires"
 description: "Use Agent of Empires to launch, monitor, sandbox, resume, and review multiple coding-agent sessions from a TUI or web dashboard."
-github_stars: 2773
 verification: "security_reviewed"
 source: "https://github.com/agent-of-empires/agent-of-empires"
 author: "Agent of Empires"
 publisher_type: "independent"
-category: "Developer Tools"
-framework: "Multi-Framework"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "agent-of-empires/agent-of-empires"
   github_stars: 2773
@@ -24,24 +24,19 @@ Agent of Empires CLI, tmux, git, an installed coding-agent CLI such as Claude Co
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install aoe
-- git clone https://github.com/agent-of-empires/agent-of-empires
-- cargo check # Type-check
-- cargo test # Run tests
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- **Docker sandboxing**: isolate agents in containers with shared auth volumes (Podman and Apple Containers also supported)
-- **Prerequisites:** [tmux](https://github.com/tmux/tmux/wiki) (required), [Docker](https://www.docker.com/) (optional, for sandboxing)
-- **[Installation](https://www.agent-of-empires.com/docs/installation/)**: prerequisites and install methods
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- A session manager for AI coding agents on Linux and macOS, driven from the terminal (TUI) or any browser ([web dashboard](https://www.agent-of-empires.com/guides/web-dashboard/)). Run many agents in parallel across di...
-- <a href="https://www.youtube.com/watch?v=Kk8dX_F-P4E">Watch the getting started video</a>
-- curl -fsSL \
+Install command or upstream instructions:
 
-- Source: https://github.com/agent-of-empires/agent-of-empires
-- Extracted from upstream docs: https://raw.githubusercontent.com/agent-of-empires/agent-of-empires/HEAD/README.md
+```
+Install with Homebrew using brew install aoe, run with Nix using nix run github:agent-of-empires/agent-of-empires, or build from the GitHub source with cargo build --release after reviewing the upstream installation guide.
+```
 
 ## Documentation
 

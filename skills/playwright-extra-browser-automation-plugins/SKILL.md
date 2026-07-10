@@ -1,12 +1,13 @@
 ---
-name: "Playwright Extra Browser Automation Plugins"
-slug: "playwright-extra-browser-automation-plugins"
+title: "Playwright Extra Browser Automation Plugins"
 description: "Playwright Extra adds a plugin layer on top of Microsoft Playwright so agents can reuse stealth, CAPTCHA handling, and custom browser hooks instead of wiring those capabilities by hand. It is useful when browser automations need anti-bot evasions or shared middleware across Chromium sessions."
 verification: "security_reviewed"
 source: "https://github.com/berstend/puppeteer-extra/tree/master/packages/playwright-extra"
 author: "berstend"
-category: "Browser Automation"
-framework: "Multi-Framework"
+category:
+  - "Browser Automation"
+framework:
+  - "Multi-Framework"
 ---
 
 # Playwright Extra Browser Automation Plugins
@@ -15,19 +16,23 @@ Playwright Extra adds a plugin layer on top of Microsoft Playwright so agents ca
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- yarn
-- yarn bootstrap
-- yarn build
-- yarn lerna add debug
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- PRs and new plugins are welcome! The plugin API for puppeteer-extra is clean and fun to use. Have a look the [PuppeteerExtraPlugin](./packages/puppeteer-extra-plugin) base class documentation to get going and check ou...
-- # Bootstrap the packages in the current Lerna repo.
-- # Installs all of their dependencies and links any cross-dependencies.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/berstend/puppeteer-extra/tree/master/packages/playwright-extra
-- Extracted from upstream docs: https://raw.githubusercontent.com/berstend/puppeteer-extra/HEAD/README.md
+Install command or upstream instructions:
+
+```
+npm install playwright-extra
+```
+
+## Documentation
+
+- https://github.com/berstend/puppeteer-extra/tree/master/packages/playwright-extra#readme
 
 ## Source
 

@@ -1,12 +1,12 @@
 ---
-name: "Apify Actor Development Kit"
-slug: "apify-actor-development-kit"
+title: "Apify Actor Development Kit"
 description: "Builds Apify Actors for scalable cloud scraping with automatic proxy management and storage. Uses the Apify SDK (Actor, Dataset, KeyValueStore, RequestQueue) and Crawlee library for robust crawling."
-github_stars: 173
 verification: "security_reviewed"
 source: "https://github.com/apify/apify-sdk-js"
-category: "Research & Scraping"
-framework: "Claude Code"
+category:
+  - "Research & Scraping"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "apify/apify-sdk-js"
   github_stars: 173
@@ -20,19 +20,13 @@ Builds Apify Actors for scalable cloud scraping with automatic proxy management 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install apify
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Apify SDK requires [Node.js](https://nodejs.org/en/) 16 or later. Add Apify SDK to any Node.js project by running:
-
-Basic usage or getting-started notes:
-- This short tutorial will set you up to start using Apify SDK in a minute or two.
-- If you want to learn more, proceed to the [Apify Platform](https://docs.apify.com/sdk/js/docs/concepts/actor-lifecycle)
-- guide that will take you step by step through running your Actor on Apify's platform.
-
-- Source: https://github.com/apify/apify-sdk-js
-- Extracted from upstream docs: https://raw.githubusercontent.com/apify/apify-sdk-js/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

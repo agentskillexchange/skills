@@ -1,12 +1,12 @@
 ---
-name: "Stripe Payment Flow Connector"
-slug: "stripe-payment-flow-connector"
+title: "Stripe Payment Flow Connector"
 description: "Integrates Stripe payment processing using stripe-node SDK including PaymentIntents, Checkout Sessions, Billing Portal, and webhook event verification with stripe.webhooks.constructEvent."
-github_stars: 4385
 verification: "security_reviewed"
 source: "https://github.com/stripe/stripe-node"
-category: "Integrations & Connectors"
-framework: "Cursor"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "Cursor"
 tool_ecosystem:
   github_repo: "stripe/stripe-node"
   github_stars: 4385
@@ -20,24 +20,13 @@ Integrates Stripe payment processing using stripe-node SDK including PaymentInte
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install stripe
-- yarn add stripe
-- npm install stripe@public-preview --save-exact
-- npm install stripe@<some-version>
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- # Stripe Node.js Library
-- [![Build Status](https://github.com/stripe/stripe-node/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/stripe/stripe-node/actions?query=branch%3Amaster)
-- Want to chat live with Stripe engineers? Join us on our [Discord server](https://stripe.com/go/discord/node).
-
-Basic usage or getting-started notes:
-- sh
-- # or
-- The package needs to be configured with your account's secret key, which is
-
-- Source: https://github.com/stripe/stripe-node
-- Extracted from upstream docs: https://raw.githubusercontent.com/stripe/stripe-node/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

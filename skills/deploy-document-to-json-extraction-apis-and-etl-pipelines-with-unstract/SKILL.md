@@ -1,14 +1,14 @@
 ---
-name: "Deploy document-to-JSON extraction APIs and ETL pipelines with Unstract"
-slug: "deploy-document-to-json-extraction-apis-and-etl-pipelines-with-unstract"
+title: "Deploy document-to-JSON extraction APIs and ETL pipelines with Unstract"
 description: "Use Unstract when an operator needs agents or automation pipelines to turn recurring PDFs, scans, and document batches into structured JSON through prompt-defined extraction workflows."
-github_stars: 6661
 verification: "security_reviewed"
 source: "https://github.com/Zipstack/unstract"
 author: "Zipstack"
 publisher_type: "open_source"
-category: "Data Extraction & Transformation"
-framework: "Multi-Framework"
+category:
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Zipstack/unstract"
   github_stars: 6661
@@ -24,21 +24,19 @@ Unstract platform; Docker and Docker Compose; Git; LLM provider credentials; tar
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/Zipstack/unstract.git
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <a href="https://hub.docker.com/u/unstract"><img src="https://img.shields.io/docker/pulls/unstract/backend" alt="Docker Pulls"></a>
-- <img src="https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2FZipstack%2Funstract%2Frefs%2Fheads%2Fmain%2Fpyproject.toml" alt="Python Version from PEP 621 TOML">
-- **n8n Node** — Drop into existing automation workflows. [Docs →](https://docs.unstract.com/unstract/unstract_platform/api_deployment/unstract_api_deployment_n8n_custom_node/)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- | Deployment | Custom infrastructure | ./run-platform.sh or managed cloud |
-- ./run-platform.sh
-- ./run-platform.sh -v v0.1.0
+Install command or upstream instructions:
 
-- Source: https://github.com/Zipstack/unstract
-- Extracted from upstream docs: https://raw.githubusercontent.com/Zipstack/unstract/HEAD/README.md
+```
+Clone https://github.com/Zipstack/unstract, run ./run-platform.sh, open the local Unstract frontend, configure provider credentials, define the extraction prompt/schema in Prompt Studio, then deploy as a REST API or ETL pipeline using the official Unstract docs.
+```
 
 ## Documentation
 

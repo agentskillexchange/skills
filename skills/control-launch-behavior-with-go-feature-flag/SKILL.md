@@ -1,14 +1,14 @@
 ---
-name: "Control launch behavior with GO Feature Flag"
-slug: "control-launch-behavior-with-go-feature-flag"
+title: "Control launch behavior with GO Feature Flag"
 description: "Use GO Feature Flag as an OpenFeature-compatible control plane for rollout rules, targeting, experiments, remote config, and launch verification."
-github_stars: 2050
 verification: "security_reviewed"
 source: "https://github.com/thomaspoignant/go-feature-flag"
 author: "Thomas Poignant"
 publisher_type: "individual"
-category: "Monitoring & Alerts"
-framework: "Multi-Framework"
+category:
+  - "Monitoring & Alerts"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "thomaspoignant/go-feature-flag"
   github_stars: 2050
@@ -24,23 +24,19 @@ GO Feature Flag relay proxy or SDK, OpenFeature-compatible application client, f
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- docker run \
-- _If you don't want to use docker to install the **relay proxy** you can follow other ways to install it in the [documentation](https://gofeatureflag.org/docs/relay-proxy/install_relay_proxy)._
-- npm i @openfeature/server-sdk @openfeature/go-feature-flag-provider
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- const {OpenFeature} = require("@openfeature/server-sdk");
-- const {GoFeatureFlagProvider} = require("@openfeature/go-feature-flag-provider");
-- // With GO Feature Flag you MUST provide a targetingKey that is a unique identifier of the user.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Getting started](#getting-started)
-- [Example](#example)
-- The solution has been built to facilitate the usage of feature flags in your code with the easiest setup possible.
+Install command or upstream instructions:
 
-- Source: https://github.com/thomaspoignant/go-feature-flag
-- Extracted from upstream docs: https://raw.githubusercontent.com/thomaspoignant/go-feature-flag/HEAD/README.md
+```
+Follow the upstream getting-started guide: create a flag configuration, configure and run the relay proxy or SDK integration, initialize an OpenFeature client in the target service, then evaluate and verify rollout behavior before broad release.
+```
 
 ## Documentation
 

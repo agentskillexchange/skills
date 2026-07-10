@@ -1,12 +1,12 @@
 ---
-name: "Supabase MCP Server for Database and Project Management"
-slug: "supabase-mcp-server-database-project-management"
+title: "Supabase MCP Server for Database and Project Management"
 description: "An official MCP server that connects Supabase projects to AI assistants like Claude, Cursor, and Windsurf. Enables natural-language database management, table operations, SQL queries, and project configuration through the Model Context Protocol."
-github_stars: 2572
 verification: "security_reviewed"
 source: "https://github.com/supabase-community/supabase-mcp"
-category: "Integrations & Connectors"
-framework: "MCP"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "supabase-community/supabase-mcp"
   github_stars: 2572
@@ -18,18 +18,13 @@ An official MCP server that connects Supabase projects to AI assistants like Cla
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Most MCP clients require the following information:
-- For [self-hosted Supabase](https://supabase.com/docs/guides/self-hosting/docker), check the [Enabling MCP server](https://supabase.com/docs/guides/self-hosting/enable-mcp) page. Currently, the MCP Server in self-hoste...
-- #### Branching (Experimental, requires a paid plan)
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- ### 1. Follow our security best practices
-- Before setting up the MCP server, we recommend you read our [security best practices](#security-risks) to understand the risks of connecting an LLM to your Supabase projects and how to mitigate them.
-- ### 2. Configure your MCP client
-
-- Source: https://github.com/supabase-community/supabase-mcp
-- Extracted from upstream docs: https://raw.githubusercontent.com/supabase-community/supabase-mcp/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

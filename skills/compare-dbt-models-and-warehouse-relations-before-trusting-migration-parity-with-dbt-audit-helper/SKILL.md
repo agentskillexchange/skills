@@ -1,14 +1,14 @@
 ---
-name: "Compare dbt models and warehouse relations before trusting migration parity with dbt-audit-helper"
-slug: "compare-dbt-models-and-warehouse-relations-before-trusting-migration-parity-with-dbt-audit-helper"
+title: "Compare dbt models and warehouse relations before trusting migration parity with dbt-audit-helper"
 description: "Lets an agent run dbt parity checks, relation diffs, and row or value comparisons so refactors and source swaps can be verified before rollout."
-github_stars: 402
 verification: "security_reviewed"
 source: "https://github.com/dbt-labs/dbt-audit-helper"
 author: "dbt Labs"
 publisher_type: "organization"
-category: "Data Extraction & Transformation"
-framework: "Multi-Framework"
+category:
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "dbt-labs/dbt-audit-helper"
   github_stars: 402
@@ -24,18 +24,19 @@ dbt Core, warehouse credentials, dbt-audit-helper package
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Each relation must have the same columns with the same names, but they do not have to be in the same order.
-- Each relation must have the same columns with the same names, but they do not have to be in the same order. Build long lists with a few exclusions with dbt_utils.get_filtered_columns_in_relation, or pass None and the...
-- Each relation must have the same columns with the same names, but they do not have to be in the same order. Use exclude_columns if some columns only exist in one relation.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- [Advanced Usage](#advanced-usage)
-- New to dbt packages? Read more about them [here](https://docs.getdbt.com/docs/building-a-dbt-project/package-management/).
-- Include this package in your packages.yml file — check [here](https://hub.getdbt.com/dbt-labs/audit_helper/latest/) for the latest version number.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/dbt-labs/dbt-audit-helper
-- Extracted from upstream docs: https://raw.githubusercontent.com/dbt-labs/dbt-audit-helper/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Add dbt-labs/audit_helper to packages.yml, then run dbt deps.
+```
 
 ## Documentation
 

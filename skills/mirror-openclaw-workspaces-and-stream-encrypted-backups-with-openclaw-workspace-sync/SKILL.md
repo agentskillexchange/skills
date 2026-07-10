@@ -1,14 +1,14 @@
 ---
-name: "Mirror OpenClaw workspaces and stream encrypted backups with openclaw-workspace-sync"
-slug: "mirror-openclaw-workspaces-and-stream-encrypted-backups-with-openclaw-workspace-sync"
+title: "Mirror OpenClaw workspaces and stream encrypted backups with openclaw-workspace-sync"
 description: "Sync an OpenClaw workspace to your own cloud storage or push encrypted agent-system backups with OpenClaw-aware mailbox, mirror, and bisync modes."
-github_stars: 8
 verification: "security_reviewed"
 source: "https://github.com/ashbrener/openclaw-workspace-sync"
 author: "ashbrener"
 publisher_type: "individual"
-category: "Integrations & Connectors"
-framework: "OpenClaw"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "ashbrener/openclaw-workspace-sync"
   github_stars: 8
@@ -26,19 +26,19 @@ OpenClaw, rclone, Node.js/npm, supported cloud storage account
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/ashbrener/openclaw-workspace-sync workspace-sync
-- npm install
-- npm test
-- npx tsc --noEmit
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- bash
-- openclaw plugins install openclaw-workspace-sync
-- Or clone into your extensions directory:
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/ashbrener/openclaw-workspace-sync
-- Extracted from upstream docs: https://raw.githubusercontent.com/ashbrener/openclaw-workspace-sync/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install the plugin with `openclaw plugins install openclaw-workspace-sync`, run `openclaw workspace-sync setup`, then configure sync and or backup blocks in your OpenClaw plugin config.
+```
 
 ## Documentation
 

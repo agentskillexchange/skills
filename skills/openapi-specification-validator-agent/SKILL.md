@@ -1,13 +1,13 @@
 ---
-name: "OpenAPI Specification Validator"
-slug: "openapi-specification-validator-agent"
+title: "OpenAPI Specification Validator"
 description: "Validates and lints OpenAPI 3.x specifications using swagger-parser, spectral, and openapi-typescript. Generates type-safe client SDKs and detects breaking API changes via oasdiff."
-github_stars: 1194
 verification: "security_reviewed"
 source: "https://github.com/APIDevTools/swagger-parser"
 author: "API Dev Tools"
-category: "Library & API Reference"
-framework: "Cursor"
+category:
+  - "Library & API Reference"
+framework:
+  - "Cursor"
 tool_ecosystem:
   github_repo: "APIDevTools/swagger-parser"
   github_stars: 1194
@@ -25,24 +25,19 @@ swagger-parser, @stoplight/spectral, openapi-typescript, oasdiff, Redocly CLI
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install @apidevtools/swagger-parser
-- git clone https://github.com/APIDevTools/swagger-parser.git
-- npm install
-- npm test
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- **[Tested](https://github.com/APIDevTools/swagger-parser/actions)** in Node.js and all modern web browsers on Mac, Windows, and Linux
-- When using Swagger Parser in Node.js apps, you'll probably want to use **CommonJS** syntax:
-- const SwaggerParser = require("@apidevtools/swagger-parser");
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ## Example
-- Or use async/await or [Promise](http://javascriptplayground.com/blog/2015/02/promises/) syntax instead. The following example is the same as above:
-- bash
+Install command or upstream instructions:
 
-- Source: https://github.com/APIDevTools/swagger-parser
-- Extracted from upstream docs: https://raw.githubusercontent.com/APIDevTools/swagger-parser/HEAD/README.md
+```
+npm install @apidevtools/swagger-parser
+```
 
 ## Documentation
 

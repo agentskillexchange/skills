@@ -1,14 +1,14 @@
 ---
-name: "Run data-backed business automation with Minds Platform"
-slug: "run-data-backed-business-automation-with-minds-platform"
+title: "Run data-backed business automation with Minds Platform"
 description: "Connect business data sources to Minds Platform so an agent can search, analyze, and automate recurring operational work with inspectable data grounding."
-github_stars: 39235
 verification: "security_reviewed"
 source: "https://github.com/mindsdb/minds-platform"
 author: "MindsDB"
 publisher_type: "organization"
-category: "Data Extraction & Transformation"
-framework: "Multi-Framework"
+category:
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mindsdb/minds-platform"
   github_stars: 39235
@@ -24,13 +24,19 @@ Python 3.10+, Docker optional, Minds Platform, connected business data sources
 
 ## Installation
 
-Requirements and caveats from upstream:
-- <a href="https://www.python.org/downloads/" target="_blank">
-- <img src="https://img.shields.io/badge/python-3.10.x%7C%203.11.x%7C%203.12.x%7C%203.13.x-brightgreen.svg" alt="Python supported" />
-- <a href="https://hub.docker.com/r/mindsdb/mindsdb" target="_blank">
+Choose whichever fits your setup:
 
-- Source: https://github.com/mindsdb/minds-platform
-- Extracted from upstream docs: https://raw.githubusercontent.com/mindsdb/minds-platform/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Follow the Minds Platform README for the current deployment path. For source setup, clone https://github.com/mindsdb/minds-platform, install the documented Python runtime, configure approved data-source credentials, and validate the workflow through Minds Query Engine or Minds Anton before handing work to an agent.
+```
 
 ## Documentation
 

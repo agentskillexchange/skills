@@ -1,14 +1,14 @@
 ---
-name: "Run local Pi coding-agent workflows with sandbox and session-sharing guardrails"
-slug: "run-local-pi-coding-agent-workflows-with-sandbox-and-session-sharing-guardrails"
+title: "Run local Pi coding-agent workflows with sandbox and session-sharing guardrails"
 description: "Use Pi when an operator needs a local coding-agent CLI with explicit sandboxing, provider setup, and reviewable session artifacts."
-github_stars: 63139
 verification: "listed"
 source: "https://github.com/earendil-works/pi"
 author: "Earendil Works"
 publisher_type: "organization"
-category: "Developer Tools"
-framework: "Custom Agents"
+category:
+  - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "earendil-works/pi"
   github_stars: 63139
@@ -26,9 +26,19 @@ Pi coding-agent CLI, configured LLM provider credentials, target repository, opt
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://github.com/earendil-works/pi
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install the @earendil-works/pi-coding-agent package from npm, configure the intended model provider, run Pi from the target repository, and apply the documented containerization or sandbox pattern before allowing broad filesystem or shell access.
+```
 
 ## Documentation
 

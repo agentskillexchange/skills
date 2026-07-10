@@ -1,14 +1,14 @@
 ---
-name: "Clone and refresh whole GitHub orgs for audit or migration with ghorg"
-slug: "clone-and-refresh-whole-github-orgs-for-audit-or-migration-with-ghorg"
+title: "Clone and refresh whole GitHub orgs for audit or migration with ghorg"
 description: "Use ghorg to clone or resync large sets of repositories from a GitHub user or organization for offline audit, migration prep, or bulk analysis work."
-github_stars: 2016
 verification: "security_reviewed"
 source: "https://github.com/gabrie30/ghorg"
 author: "gabrie30"
 publisher_type: "open_source_project"
-category: "Developer Tools"
-framework: "Multi-Framework"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "gabrie30/ghorg"
   github_stars: 2016
@@ -24,24 +24,19 @@ ghorg, git, and GitHub access credentials when needed
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install gabrie30/utils/ghorg
-- go install github.com/gabrie30/ghorg@latest
-- docker run --rm ghcr.io/gabrie30/ghorg:latest
-- docker run --rm ghcr.io/gabrie30/ghorg \
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [Docker](#docker)
-- ## Using Docker
-- The commands for ghorg are parsed as docker commands. The entrypoint is the ghorg binary, hence you only need to enter remaining arguments as follows:
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- <img width="648" alt="ghorg cli example" src="https://user-images.githubusercontent.com/1512282/63229247-5459f880-c1b3-11e9-9e5d-d20723046946.png">
-- There are a installation methods available, please choose the one that suits your fancy:
-- [Prebuilt Binaries](#prebuilt-binaries)
+Install command or upstream instructions:
 
-- Source: https://github.com/gabrie30/ghorg
-- Extracted from upstream docs: https://raw.githubusercontent.com/gabrie30/ghorg/HEAD/README.md
+```
+Install ghorg, provide a GitHub token if cloning private repos or large orgs, then run ghorg against a user or organization and re-run sync commands to refresh the local mirror.
+```
 
 ## Documentation
 

@@ -1,14 +1,14 @@
 ---
-name: "Hookdeck CLI for Webhook Development and Event Debugging"
-slug: "hookdeck-cli-webhook-development-event-debugging"
-description: "Hookdeck CLI is Hookdeck's official command-line tool for forwarding webhooks to localhost, managing event gateway resources, and running an MCP server for agent workflows. It is useful when you need repeatable webhook testing, local event inspection, and a bridge between webhook infrastructure and agent tooling."
-github_stars: 353
+title: "Hookdeck CLI for Webhook Development and Event Debugging"
+description: "Hookdeck CLI is Hookdeck’s official command-line tool for forwarding webhooks to localhost, managing event gateway resources, and running an MCP server for agent workflows. It is useful when you need repeatable webhook testing, local event inspection, and a bridge between webhook infrastructure and agent tooling."
 verification: "security_reviewed"
 source: "https://github.com/hookdeck/hookdeck-cli"
 author: "hookdeck"
 publisher_type: "Company"
-category: "Integrations & Connectors"
-framework: "Multi-Framework"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "hookdeck/hookdeck-cli"
   github_stars: 353
@@ -18,7 +18,7 @@ tool_ecosystem:
 
 # Hookdeck CLI for Webhook Development and Event Debugging
 
-Hookdeck CLI is Hookdeck's official command-line tool for forwarding webhooks to localhost, managing event gateway resources, and running an MCP server for agent workflows. It is useful when you need repeatable webhook testing, local event inspection, and a bridge between webhook infrastructure and agent tooling.
+Hookdeck CLI is Hookdeck’s official command-line tool for forwarding webhooks to localhost, managing event gateway resources, and running an MCP server for agent workflows. It is useful when you need repeatable webhook testing, local event inspection, and a bridge between webhook infrastructure and agent tooling.
 
 ## Prerequisites
 
@@ -26,24 +26,19 @@ Node.js or Homebrew
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install hookdeck-cli -g
-- npm install hookdeck-cli@beta -g
-- brew install hookdeck/hookdeck/hookdeck
-- brew install hookdeck/hookdeck/hookdeck-beta
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [Docker](#docker)
-- ### Docker
-- The CLI is also available as a Docker image: [hookdeck/hookdeck-cli](https://hub.docker.com/r/hookdeck/hookdeck-cli).
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Usage](#usage)
-- Hookdeck CLI is available for macOS, Windows, and Linux for distros like Ubuntu, Debian, RedHat, and CentOS.
-- ### NPM
+Install command or upstream instructions:
 
-- Source: https://github.com/hookdeck/hookdeck-cli
-- Extracted from upstream docs: https://raw.githubusercontent.com/hookdeck/hookdeck-cli/HEAD/README.md
+```
+npm install hookdeck-cli -g
+```
 
 ## Documentation
 

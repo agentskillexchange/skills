@@ -1,14 +1,14 @@
 ---
-name: "Find and export SVG icons across icon libraries for UI work"
-slug: "find-and-export-svg-icons-across-icon-libraries-for-ui-work"
+title: "Find and export SVG icons across icon libraries for UI work"
 description: "Use Better Icons when an agent needs to search icon sets, compare matches, and return the exact SVG asset needed for a UI task. It is a narrow asset-selection skill, not a generic icon platform listing."
-github_stars: 915
 verification: "security_reviewed"
 source: "https://github.com/better-auth/better-icons"
 author: "better-auth"
 publisher_type: "Organization"
-category: "Developer Tools"
-framework: "Multi-Framework"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "better-auth/better-icons"
   github_stars: 915
@@ -26,17 +26,19 @@ better-icons, Node.js
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx skills add better-auth/better-icons
-- npm install -g better-icons
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- ### Add Skills
-- Enable the better-icons CLI features in your agent environment (matches all examples below):
-- bash
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/better-auth/better-icons
-- Extracted from upstream docs: https://raw.githubusercontent.com/better-auth/better-icons/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install from npm with npm install -g better-icons or run via npx, then use the documented search and get commands to find icons and export raw SVG or JSON.
+```
 
 ## Documentation
 

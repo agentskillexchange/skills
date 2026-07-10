@@ -1,14 +1,14 @@
 ---
-name: "Run and lifecycle-manage MCP servers in isolated environments with ToolHive before local MCP sprawl turns brittle"
-slug: "run-and-lifecycle-manage-mcp-servers-in-isolated-environments-with-toolhive-before-local-mcp-sprawl-turns-brittle"
+title: "Run and lifecycle-manage MCP servers in isolated environments with ToolHive before local MCP sprawl turns brittle"
 description: "Use ToolHive to install, isolate, update, and govern MCP servers so agents connect to a predictable local or Kubernetes-backed tool surface instead of a pile of hand-managed server processes."
-github_stars: 1718
 verification: "security_reviewed"
 source: "https://github.com/stacklok/toolhive"
 author: "Stacklok"
 publisher_type: "organization"
-category: "Developer Tools"
-framework: "MCP"
+category:
+  - "Developer Tools"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "stacklok/toolhive"
   github_stars: 1718
@@ -24,16 +24,19 @@ ToolHive CLI or desktop app, Docker or Podman for local runtimes, optional Kuber
 
 ## Installation
 
-Requirements and caveats from upstream:
-- <td>Put an end to shadow MCP use by your developers, and give your security team the audit logs and identity enforcement they require.<br><br>
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- ## Run any MCP server securely, instantly, anywhere.
-- <td><strong>Developers.</strong> Run MCP servers with more security and more (token) savings</td>
-- <td><strong>Platform Engineers.</strong> Run MCP on your existing Kubernetes infrastructure</td>
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/stacklok/toolhive
-- Extracted from upstream docs: https://raw.githubusercontent.com/stacklok/toolhive/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install ToolHive, choose the local or Kubernetes quickstart, add the MCP servers you want to run, and connect your MCP-capable client to the ToolHive-managed endpoint instead of starting each server manually.
+```
 
 ## Documentation
 

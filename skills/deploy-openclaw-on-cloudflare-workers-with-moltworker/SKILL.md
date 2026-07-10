@@ -1,14 +1,14 @@
 ---
-name: "Deploy OpenClaw on Cloudflare Workers with Moltworker"
-slug: "deploy-openclaw-on-cloudflare-workers-with-moltworker"
+title: "Deploy OpenClaw on Cloudflare Workers with Moltworker"
 description: "Use Moltworker to deploy a supervised OpenClaw personal agent stack on Cloudflare Workers, Sandbox containers, Access, R2, and optional AI Gateway."
-github_stars: 9898
 verification: "security_reviewed"
 source: "https://github.com/cloudflare/moltworker"
 author: "Cloudflare"
 publisher_type: "organization"
-category: "Templates & Workflows"
-framework: "OpenClaw"
+category:
+  - "Templates & Workflows"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "cloudflare/moltworker"
   github_stars: 9898
@@ -24,23 +24,19 @@ Cloudflare Workers Paid plan, Wrangler, Cloudflare Sandbox containers, Cloudflar
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install
-- npx wrangler secret put ANTHROPIC_API_KEY
-- npm run deploy
-- npx wrangler secret put CF_ACCESS_TEAM_DOMAIN
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- **Important:** You will not be able to use the Control UI until you complete the following steps. You MUST:
-- This is the most secure option as it requires explicit approval for each device.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Run [OpenClaw](https://github.com/openclaw/openclaw) (formerly Moltbot, formerly Clawdbot) personal AI assistant in a [Cloudflare Sandbox](https://developers.cloudflare.com/sandbox/).
-- **Experimental:** This is a proof of concept demonstrating that OpenClaw can run in Cloudflare Sandbox. It is not officially supported and may break without notice. Use at your own risk.
-- [Workers Paid plan](https://www.cloudflare.com/plans/developer-platform/) ($5 USD/month) — required for Cloudflare Sandbox containers. Running the container incurs additional compute costs; see [Container Cost Estimat...
+Install command or upstream instructions:
 
-- Source: https://github.com/cloudflare/moltworker
-- Extracted from upstream docs: https://raw.githubusercontent.com/cloudflare/moltworker/HEAD/README.md
+```
+Clone the Moltworker repository, run npm install, set the required Wrangler secrets for the model provider and gateway token, deploy with npm run deploy, then configure Cloudflare Access, device pairing, and optional R2 persistence.
+```
 
 ## Documentation
 

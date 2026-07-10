@@ -1,13 +1,13 @@
 ---
-name: "Yeoman Enterprise Generator Suite"
-slug: "yeoman-enterprise-generator-suite"
+title: "Yeoman Enterprise Generator Suite"
 description: "Manages Yeoman generators for enterprise application scaffolding with custom sub-generators. Handles Angular module generation via generator-angular, Express API scaffolding, and composite generators with shared prompting and conflict resolution."
-github_stars: 3956
 verification: "listed"
 source: "https://github.com/yeoman/yo"
 author: "Yeoman"
-category: "Templates & Workflows"
-framework: "Claude Code"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "yeoman/yo"
   github_stars: 3956
@@ -21,9 +21,19 @@ Manages Yeoman generators for enterprise application scaffolding with custom sub
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://github.com/yeoman/yo
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+npm install -g yo
+```
 
 ## Documentation
 

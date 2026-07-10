@@ -1,11 +1,12 @@
 ---
-name: "Google Search Console Insights Agent"
-slug: "gsc-insights-agent"
+title: "Google Search Console Insights Agent"
 description: "Extracts search performance data via the Google Search Console API v1 /searchAnalytics/query endpoint. Analyzes CTR, impressions, and position trends with dimension filtering by page, query, device, and country."
 verification: "security_reviewed"
 source: "https://developers.google.com/search/blog/2025/06/search-console-insights"
-category: "Content Writing & SEO"
-framework: "Custom Agents"
+category:
+  - "Content Writing & SEO"
+framework:
+  - "Custom Agents"
 ---
 
 # Google Search Console Insights Agent
@@ -14,22 +15,13 @@ Extracts search performance data via the Google Search Console API v1 /searchAna
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Make the licensing information for your images visible on Google Images
-- Make your site's complete jobs information accessible to job seekers
-- Make the most of Search Queries in Webmaster Tools
-- Make the web faster with mod_pagespeed, now out of Beta
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Download search queries data using Python
-- Search queries require topicality. True or myth?
-
-Basic usage or getting-started notes:
-- Using schema.org markup for organization logos
-- Google+: Content recommendation feature on mobile sites
-- Upcoming event: White Hat SEO for First Grade Webmasters
-
-- Source: https://developers.google.com/search/blog/2025/06/search-console-insights
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

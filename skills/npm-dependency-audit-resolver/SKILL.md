@@ -1,12 +1,13 @@
 ---
-name: "npm Dependency Audit Resolver"
-slug: "npm-dependency-audit-resolver"
+title: "npm Dependency Audit Resolver"
 description: "Resolves npm audit vulnerabilities by analyzing the npm registry API for patched versions, generating targeted package.json overrides, and testing upgrades via npm-check-updates compatibility mode."
 verification: "security_reviewed"
 source: "https://docs.npmjs.com/cli/v11/commands/npm-audit/"
 author: "npm, Inc."
-category: "Security & Verification"
-framework: "Claude Code"
+category:
+  - "Security & Verification"
+framework:
+  - "Claude Code"
 ---
 
 # npm Dependency Audit Resolver
@@ -15,23 +16,13 @@ Resolves npm audit vulnerabilities by analyzing the npm registry API for patched
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm-audit | npm Docs Skip to search Skip to content
-- npm Docs
-- npm package scope, access level, and visibility
-- Docker and private modules
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Downloading and installing Node.js and npm
-- Try the latest stable version of node
-- Creating Node.js modules
-
-Basic usage or getting-started notes:
-- Creating a strong password
-- Receiving a one-time password over email
-- About two-factor authentication
-
-- Source: https://docs.npmjs.com/cli/v11/commands/npm-audit/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

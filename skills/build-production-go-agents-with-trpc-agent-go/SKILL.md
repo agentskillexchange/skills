@@ -1,14 +1,14 @@
 ---
-name: "Build production Go agents with tRPC-Agent-Go"
-slug: "build-production-go-agents-with-trpc-agent-go"
+title: "Build production Go agents with tRPC-Agent-Go"
 description: "Model Go-native agent systems with graph workflows, tool calls, memory, MCP, A2A, evaluation, and OpenTelemetry observability."
-github_stars: 1501
 verification: "security_reviewed"
 source: "https://github.com/trpc-group/trpc-agent-go"
 author: "tRPC Group"
 publisher_type: "organization"
-category: "Developer Tools"
-framework: "Custom Agents"
+category:
+  - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "trpc-group/trpc-agent-go"
   github_stars: 1501
@@ -24,22 +24,19 @@ Go toolchain, tRPC-Agent-Go module, model provider credentials, optional MCP/A2A
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/trpc-group/trpc-agent-go.git
-- git clone https://github.com/YOUR_USERNAME/trpc-agent-go.git
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [Prerequisites](#prerequisites)
-- Sometimes your Agent must be created **per request** (for example: different
-- Agent-to-Agent (A2A) interop with an ADK Python A2A server.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- // Or run them in parallel
-- // Run with Langfuse attributes
-- events, _ := runner.Run(ctx, "user-1", "session-1",
+Install command or upstream instructions:
 
-- Source: https://github.com/trpc-group/trpc-agent-go
-- Extracted from upstream docs: https://raw.githubusercontent.com/trpc-group/trpc-agent-go/HEAD/README.md
+```
+Follow the upstream Go module setup from the tRPC-Agent-Go documentation, import the agent packages into a Go service, configure the model and tools, then run an example graph or runner with tracing enabled before production rollout.
+```
 
 ## Documentation
 

@@ -1,13 +1,13 @@
 ---
-name: "Mustache Template Renderer"
-slug: "mustache-template-renderer-agent"
+title: "Mustache Template Renderer"
 description: "Renders Mustache logic-less templates with partials resolution and lambda support. Uses the mustache.js library for client and server-side rendering with custom delimiter configuration."
-github_stars: 16718
 verification: "security_reviewed"
 source: "https://github.com/janl/mustache.js"
 author: "Jan Lehnardt"
-category: "Templates & Workflows"
-framework: "OpenClaw"
+category:
+  - "Templates & Workflows"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "janl/mustache.js"
   github_stars: 16718
@@ -21,24 +21,19 @@ Renders Mustache logic-less templates with partials resolution and lambda suppor
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- $ npm install mustache --save
-- $ npm install -g mustache
-- $ npm install mustache --save-dev
-- $ npm run build
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- You can use mustache.js to render mustache templates anywhere you can use JavaScript. This includes web browsers, server-side environments such as [Node.js](http://nodejs.org/), and [CouchDB](http://couchdb.apache.org...
-- const Mustache = require('mustache');
-- Mustache requires only this:
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- You can get Mustache via [npm](http://npmjs.com).
-- bash
-- Below is a quick example how to use mustache.js:
+Install command or upstream instructions:
 
-- Source: https://github.com/janl/mustache.js
-- Extracted from upstream docs: https://raw.githubusercontent.com/janl/mustache.js/HEAD/README.md
+```
+npm install mustache
+```
 
 ## Documentation
 

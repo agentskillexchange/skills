@@ -1,14 +1,14 @@
 ---
-name: "Query cross-connector business data for agents with Dinobase"
-slug: "query-cross-connector-business-data-for-agents-with-dinobase"
+title: "Query cross-connector business data for agents with Dinobase"
 description: "Use Dinobase to give agents a SQL layer over SaaS APIs, databases, files, and MCP servers so they can answer cross-system business questions with previewed writes."
-github_stars: 252
 verification: "security_reviewed"
 source: "https://github.com/DinobaseHQ/dinobase"
 author: "DinobaseHQ"
 publisher_type: "open_source"
-category: "Data Extraction & Transformation"
-framework: "Multi-Framework"
+category:
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "DinobaseHQ/dinobase"
   github_stars: 252
@@ -24,17 +24,19 @@ Dinobase CLI; approved source credentials; optional MCP client or shell-capable 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/DinobaseHQ/dinobase
-- pip install -e ".[dev]"
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- [Docs](https://dinobase.ai) · [Getting Started](https://dinobase.ai/docs/getting-started/) · [Connectors](https://dinobase.ai/docs/connectors/overview/) · [Slack Community](https://join.slack.com/t/dinobasecommunity/s...
-- **Your agents are flying blind.** Agent stacks built on per-connector tool calls have a structural gap: agents can't JOIN across APIs, have no semantic context to interpret field values, and receive paginated JSON tha...
-- **[Getting Started](https://dinobase.ai/docs/getting-started/)** — Install, connect, and query in 5 minutes
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/DinobaseHQ/dinobase
-- Extracted from upstream docs: https://raw.githubusercontent.com/DinobaseHQ/dinobase/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install with the official Dinobase installer, uv, pip, or pipx; add approved connectors with dinobase add or dinobase connector create; run dinobase sync; use dinobase describe and dinobase query from the supervised agent workflow.
+```
 
 ## Documentation
 

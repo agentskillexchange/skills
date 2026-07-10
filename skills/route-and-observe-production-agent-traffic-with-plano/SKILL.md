@@ -1,14 +1,14 @@
 ---
-name: "Route and observe production agent traffic with Plano"
-slug: "route-and-observe-production-agent-traffic-with-plano"
+title: "Route and observe production agent traffic with Plano"
 description: "Use Plano when an agent application needs an out-of-process data plane for multi-agent routing, model agility, guardrails, traces, and OpenAI-compatible traffic instead of custom glue in every service."
-github_stars: 6604
 verification: "security_reviewed"
 source: "https://github.com/katanemo/plano"
 author: "Katanemo"
 publisher_type: "open_source_project"
-category: "Integrations & Connectors"
-framework: "Multi-Framework"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "katanemo/plano"
   github_stars: 6604
@@ -24,16 +24,19 @@ Python 3.10+, uv or pip, provider API keys, optional Docker and Docker Compose
 
 ## Installation
 
-Requirements and caveats from upstream:
-- [![Docker Image](https://github.com/katanemo/plano/actions/workflows/docker-push-main.yml/badge.svg)](https://github.com/katanemo/plano/actions/workflows/docker-push-main.yml)
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Plano and the Plano family of LLMs (like Plano-Orchestrator) are hosted free of charge in the US-central region to give you a great first-run developer experience of Plano. To scale and run in production, you can eith...
-- Ready to try Plano? Check out our comprehensive documentation:
-- **[Quickstart Guide](https://docs.planoai.dev/get_started/quickstart.html)** - Get up and running in minutes
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/katanemo/plano
-- Extracted from upstream docs: https://raw.githubusercontent.com/katanemo/plano/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Recommended: uv tool install planoai==0.4.26. Alternative: create a Python virtual environment and run pip install planoai==0.4.26. Then create a Plano config and run planoai up plano_config.yaml.
+```
 
 ## Documentation
 

@@ -1,12 +1,12 @@
 ---
-name: "Bubble Tea Go TUI Framework by Charmbracelet"
-slug: "bubble-tea-go-tui-framework"
+title: "Bubble Tea Go TUI Framework by Charmbracelet"
 description: "Bubble Tea is a powerful Go framework for building terminal user interfaces based on The Elm Architecture. Developed by Charmbracelet, it supports inline, full-window, and mixed TUI applications with a high-performance cell-based renderer and declarative views."
-github_stars: 41168
 verification: "security_reviewed"
 source: "https://github.com/charmbracelet/bubbletea"
-category: "Library & API Reference"
-framework: "Multi-Framework"
+category:
+  - "Library & API Reference"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "charmbracelet/bubbletea"
   github_stars: 41168
@@ -18,12 +18,13 @@ Bubble Tea is a powerful Go framework for building terminal user interfaces base
 
 ## Installation
 
-Basic usage or getting-started notes:
-- <img src="https://stuff.charm.sh/bubbletea/bubbletea-example.gif" width="100%" alt="Bubble Tea Example">
-- <a href="https://github.com/charmbracelet/bubbles"><img src="https://stuff.charm.sh/bubbles-examples/textinput.gif" width="400" alt="Text Input Example from Bubbles"></a>
+Choose whichever fits your setup:
 
-- Source: https://github.com/charmbracelet/bubbletea
-- Extracted from upstream docs: https://raw.githubusercontent.com/charmbracelet/bubbletea/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

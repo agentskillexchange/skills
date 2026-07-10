@@ -1,12 +1,13 @@
 ---
-name: "Ahrefs Backlink Content Planner"
-slug: "ahrefs-backlink-content-planner"
+title: "Ahrefs Backlink Content Planner"
 description: "Leverages Ahrefs REST API v3 to identify content gap opportunities through competing domain analysis. Pulls referring domains data, anchor text distributions, and DR metrics to prioritize content creation for link-worthy topics."
 verification: "listed"
 source: "https://docs.ahrefs.com/"
 author: "Ahrefs"
-category: "Content Writing & SEO"
-framework: "Gemini"
+category:
+  - "Content Writing & SEO"
+framework:
+  - "Gemini"
 ---
 
 # Ahrefs Backlink Content Planner
@@ -15,9 +16,13 @@ Leverages Ahrefs REST API v3 to identify content gap opportunities through compe
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://docs.ahrefs.com/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

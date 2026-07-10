@@ -1,14 +1,14 @@
 ---
-name: "WPGraphQL Smart Cache for Headless WordPress"
-slug: "wpgraphql-smart-cache-headless-wordpress"
+title: "WPGraphQL Smart Cache for Headless WordPress"
 description: "An ASE skill built around WPGraphQL Smart Cache, the open source WordPress plugin for caching WPGraphQL queries and invalidating them when content changes. It fits headless WordPress stacks that need faster GraphQL responses without giving up reliable cache purges."
-github_stars: 80
 verification: "security_reviewed"
 source: "https://github.com/wp-graphql/wp-graphql-smart-cache"
 author: "Jason Bahl"
 publisher_type: "Open Source Project"
-category: "WordPress & CMS"
-framework: "Multi-Framework"
+category:
+  - "WordPress & CMS"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "wp-graphql/wp-graphql-smart-cache"
   github_stars: 80
@@ -24,16 +24,19 @@ WordPress, WPGraphQL, and a supported cache layer for network or object caching
 
 ## Installation
 
-Requirements and caveats from upstream:
-- To get the most out of this plugin, we recommend using GET requests with Network Caching, which requires your WordPress install to be on a [supported host](https://github.com/wp-graphql/wp-graphql-smart-cache/blob/mai...
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- [Quick Start](#-quick-start)
-- _"The fastest code is the code which does not run" - [Robert Galanakis](https://daveredfern.com/no-code/)_
-- WPGraphQL is optimized for run-time performance by using [DataLoader](https://www.wpgraphql.com/docs/wpgraphql-vs-wp-rest-api#dataloader-and-the-n1-problem) methods and other techniques to reduce run time execution co...
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/wp-graphql/wp-graphql-smart-cache
-- Extracted from upstream docs: https://raw.githubusercontent.com/wp-graphql/wp-graphql-smart-cache/HEAD/README.md
+Install command or upstream instructions:
+
+```
+wp plugin install wpgraphql-smart-cache --activate
+```
 
 ## Documentation
 

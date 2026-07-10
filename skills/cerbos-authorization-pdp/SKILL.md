@@ -1,13 +1,13 @@
 ---
-name: "Cerbos Open Source Authorization Policy Decision Point"
-slug: "cerbos-authorization-pdp"
+title: "Cerbos Open Source Authorization Policy Decision Point"
 description: "Cerbos is an open-core, language-agnostic, scalable authorization solution that makes implementing and managing user permissions simple. It uses context-aware YAML access control policies managed through Git-ops, providing high-availability APIs for dynamic access decisions across applications."
-github_stars: 4319
 verification: "security_reviewed"
 source: "https://github.com/cerbos/cerbos"
 author: "cerbos"
-category: "Security & Verification"
-framework: "Multi-Framework"
+category:
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "cerbos/cerbos"
   github_stars: 4319
@@ -21,16 +21,13 @@ Cerbos is an open-core, language-agnostic, scalable authorization solution that 
 
 ## Installation
 
-Requirements and caveats from upstream:
-- [Python](https://github.com/cerbos/cerbos-sdk-python)
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Get up and running quickly with our [quickstart](https://docs.cerbos.dev/cerbos/latest/quickstart.html), or build an example implementation in our [tutorial](https://docs.cerbos.dev/cerbos/latest/tutorial/00_intro.html)
-- See [example policies and requests](#examples)
-- [Container](https://docs.cerbos.dev/cerbos/latest/installation/container.html)
-
-- Source: https://github.com/cerbos/cerbos
-- Extracted from upstream docs: https://raw.githubusercontent.com/cerbos/cerbos/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

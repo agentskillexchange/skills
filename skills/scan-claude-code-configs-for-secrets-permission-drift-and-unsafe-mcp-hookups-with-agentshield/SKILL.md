@@ -1,14 +1,14 @@
 ---
-name: "Scan Claude Code configs for secrets permission drift and unsafe MCP hookups with AgentShield"
-slug: "scan-claude-code-configs-for-secrets-permission-drift-and-unsafe-mcp-hookups-with-agentshield"
+title: "Scan Claude Code configs for secrets permission drift and unsafe MCP hookups with AgentShield"
 description: "Audit a Claude Code setup before use by flagging hardcoded secrets, broad allow rules, risky hooks, and dangerous MCP server config."
-github_stars: 388
 verification: "listed"
 source: "https://github.com/affaan-m/agentshield"
 author: "affaan-m"
 publisher_type: "individual"
-category: "Security & Verification"
-framework: "Claude Code"
+category:
+  - "Security & Verification"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "affaan-m/agentshield"
   github_stars: 388
@@ -24,9 +24,19 @@ Claude Code configuration directory, AgentShield CLI or npx path, local shell ac
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://github.com/affaan-m/agentshield
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Run AgentShield with the no-install npx flow or install the documented package globally, then scan the target Claude Code configuration directory and review or apply the reported fixes.
+```
 
 ## Documentation
 

@@ -1,14 +1,14 @@
 ---
-name: "Lint PostgreSQL migrations and SQL changes before irreversible schema mistakes land with Squawk"
-slug: "lint-postgresql-migrations-and-sql-changes-before-irreversible-schema-mistakes-land-with-squawk"
+title: "Lint PostgreSQL migrations and SQL changes before irreversible schema mistakes land with Squawk"
 description: "Catch locking, indexing, and schema-change hazards in PostgreSQL migration SQL before a review turns into downtime."
-github_stars: 1050
 verification: "security_reviewed"
 source: "https://github.com/sbdchd/squawk"
 author: "sbdchd"
 publisher_type: "individual"
-category: "Code Quality & Review"
-framework: "Multi-Framework"
+category:
+  - "Code Quality & Review"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sbdchd/squawk"
   github_stars: 1050
@@ -24,24 +24,19 @@ Squawk CLI or container image, PostgreSQL migration SQL files, and optional CI o
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install -g squawk-cli
-- pip install squawk-cli
-- docker run --rm -v $(pwd):/data ghcr.io/sbdchd/squawk:latest *.sql
-- cargo install
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ### Or via Docker
-- You can also run Squawk using Docker. The official image is available on GitHub Container Registry.
-- warning[prefer-text-field]: Changing the size of a varchar field requires an ACCESS EXCLUSIVE lock, that will prevent all reads and writes to the table.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Quick Start](https://squawkhq.com/docs/) | [Playground](https://play.squawkhq.com) | [Rules Documentation](https://squawkhq.com/docs/rules) | [GitHub Action](https://github.com/sbdchd/squawk-action) | [DIY GitHub Int...
-- shell
-- # or via PYPI
+Install command or upstream instructions:
 
-- Source: https://github.com/sbdchd/squawk
-- Extracted from upstream docs: https://raw.githubusercontent.com/sbdchd/squawk/HEAD/README.md
+```
+Install Squawk from the upstream CLI, package, container, or release path, point it at the migration SQL files or repository, and review the reported warnings before merging or applying schema changes.
+```
 
 ## Documentation
 

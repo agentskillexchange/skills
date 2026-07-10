@@ -1,14 +1,14 @@
 ---
-name: "Review Dockerfiles for risky patterns and bad defaults with hadolint"
-slug: "review-dockerfiles-for-risky-patterns-and-bad-defaults-with-hadolint"
+title: "Review Dockerfiles for risky patterns and bad defaults with hadolint"
 description: "Catch insecure Dockerfile patterns, brittle package-install habits, and shell pitfalls before image builds ship."
-github_stars: 12065
 verification: "security_reviewed"
 source: "https://github.com/hadolint/hadolint"
 author: "hadolint"
 publisher_type: "organization"
-category: "Security & Verification"
-framework: "Multi-Framework"
+category:
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "hadolint/hadolint"
   github_stars: 12065
@@ -24,24 +24,19 @@ hadolint binary and Dockerfiles
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Docker comes to the rescue, providing an easy way how to run hadolint on most
-- docker run --rm -i hadolint/hadolint < Dockerfile
-- docker run --rm -i ghcr.io/hadolint/hadolint < Dockerfile
-- brew install hadolint
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Docker pulls][docker-img]][docker]
-- A smarter Dockerfile linter that helps you build [best practice][] Docker
-- Just pipe your Dockerfile to docker run:
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- the Bash code inside RUN instructions.
-- You can run hadolint locally to lint your Dockerfile.
-- podman run --rm -i ghcr.io/hadolint/hadolint < Dockerfile
+Install command or upstream instructions:
 
-- Source: https://github.com/hadolint/hadolint
-- Extracted from upstream docs: https://raw.githubusercontent.com/hadolint/hadolint/HEAD/README.md
+```
+Install hadolint from the project releases, package manager, or container image, then run `hadolint Dockerfile` during review or CI.
+```
 
 ## Documentation
 

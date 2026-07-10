@@ -1,14 +1,14 @@
 ---
-name: "Run AI browser regression checks with Playwright and multi-model verification through Passmark"
-slug: "run-ai-browser-regression-checks-with-playwright-and-multi-model-verification-through-passmark"
+title: "Run AI browser regression checks with Playwright and multi-model verification through Passmark"
 description: "Execute natural-language browser regression tests with Playwright, caching, auto-healing, and multi-model assertion verification."
-github_stars: 676
 verification: "security_reviewed"
 source: "https://github.com/bug0inc/passmark"
 author: "bug0"
 publisher_type: "organization"
-category: "CI/CD Integrations"
-framework: "Multi-Framework"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "bug0inc/passmark"
   github_stars: 676
@@ -26,23 +26,19 @@ Node.js, Playwright, passmark package, browser test project, model provider keys
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm init playwright@latest passmark-project # select the default options and set language to TypeScript
-- npm install passmark
-- Make sure you install dotenv by running npm install dotenv.
-- npx playwright test example.spec.ts --project chromium
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- // if the gateway is authenticated) in your .env file. Cloudflare also requires
-- gateway: "none", // CUA requires direct OpenAI access
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- bash
-- cd passmark-project
-- We need at least one model from Anthropic and one from Google to use Passmark's multi-model consensus features. Set the required environment variables in .env:
+Install command or upstream instructions:
 
-- Source: https://github.com/bug0inc/passmark
-- Extracted from upstream docs: https://raw.githubusercontent.com/bug0inc/passmark/HEAD/README.md
+```
+Create or use a Playwright TypeScript project, install with `npm install passmark`, configure the documented model provider or gateway environment variables, then run Passmark browser regression checks against the target app.
+```
 
 ## Documentation
 

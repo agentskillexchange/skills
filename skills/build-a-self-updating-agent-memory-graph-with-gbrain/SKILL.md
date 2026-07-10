@@ -1,14 +1,14 @@
 ---
-name: "Build a self-updating agent memory graph with GBrain"
-slug: "build-a-self-updating-agent-memory-graph-with-gbrain"
+title: "Build a self-updating agent memory graph with GBrain"
 description: "Use GBrain to give OpenClaw or Hermes-style agents a local knowledge brain with markdown ingestion, entity links, hybrid search, scheduled consolidation, and MCP access."
-github_stars: 17347
 verification: "security_reviewed"
 source: "https://github.com/garrytan/gbrain"
 author: "Garry Tan"
 publisher_type: "individual"
-category: "Templates & Workflows"
-framework: "OpenClaw"
+category:
+  - "Templates & Workflows"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "garrytan/gbrain"
   github_stars: 17347
@@ -24,17 +24,19 @@ GBrain CLI, Bun/Node-compatible runtime, PGLite or Postgres with pgvector, markd
 
 ## Installation
 
-Requirements and caveats from upstream:
-- gbrain init --pglite # 2 seconds; no server, no Docker
-- Run bun run test for the fast loop, bun run verify for the pre-push gate, bun run ci:local to run the full Docker-backed CI stack locally. Detailed test discipline in [CONTRIBUTING.md](CONTRIBUTING.md).
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Built by the President and CEO of Y Combinator to run his actual AI agents. The production brain behind his OpenClaw and Hermes deployments: **17,888 pages, 4,383 people, 723 companies**, 21 cron jobs running autonomo...
-- **New in v0.35.7 — Temporal trajectory + founder scorecard.** Author typed metric assertions in the ## Facts fence (mrr=50000, arr=2000000, team_size=12) and gbrain stores them as first-class typed columns. gbrain eva...
-- GBrain runs in three shapes. Pick the one that matches how you use AI agents today.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/garrytan/gbrain
-- Extracted from upstream docs: https://raw.githubusercontent.com/garrytan/gbrain/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Follow the upstream INSTALL_FOR_AGENTS.md and AGENTS.md protocol, install the GBrain CLI from the GitHub source, choose PGLite for local use or Postgres for scale, then run gbrain doctor --json and configure ingestion, cron jobs, and optional MCP deployment.
+```
 
 ## Documentation
 

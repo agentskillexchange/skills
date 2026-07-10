@@ -1,14 +1,14 @@
 ---
-name: "Turn long video or audio into reviewed clips and subtitles with FunClip"
-slug: "turn-long-video-or-audio-into-reviewed-clips-and-subtitles-with-funclip"
+title: "Turn long video or audio into reviewed clips and subtitles with FunClip"
 description: "Use FunClip when an agent needs a repeatable local workflow for transcribing media, proposing clip timestamps, and producing reviewable video segments with subtitle files."
-github_stars: 5878
 verification: "security_reviewed"
 source: "https://github.com/modelscope/FunClip"
 author: "ModelScope / FunASR"
 publisher_type: "open-source"
-category: "Media & Transcription"
-framework: "Multi-Framework"
+category:
+  - "Media & Transcription"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "modelscope/FunClip"
   github_stars: 5878
@@ -24,23 +24,19 @@ Python environment, FunClip source checkout, FunASR-supported models, local or s
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/alibaba-damo-academy/FunClip.git
-- pip install -r ./requirements.txt
-- brew install imagemagick
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- 2026/05/20 FunClip now supports Fun-ASR-Nano and SenseVoice models. Fun-ASR-Nano provides higher accuracy for 31 languages; SenseVoice adds emotion recognition and audio event detection. Run python funclip/launch.py -...
-- 2024/06/12 FunClip supports recognize and clip English audio files now. Run python funclip/launch.py -l en to try.
-- [x] FunClip will support Whisper model for English users, coming soon (ASR using Whisper with timestamp requires massive GPU memory, we support timestamp prediction for vanilla Paraformer in FunASR to achieving this).
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ｜<a href="#Usage"> Usage </a>
-- 🔥2024/05/13 FunClip v2.0.0 now supports smart clipping with large language models, integrating models from the qwen series, GPT series, etc., providing default prompts. You can also explore and share tips for setting...
-- cd FunClip
+Install command or upstream instructions:
 
-- Source: https://github.com/modelscope/FunClip
-- Extracted from upstream docs: https://raw.githubusercontent.com/modelscope/FunClip/HEAD/README.md
+```
+Clone the upstream FunClip repository, install its Python dependencies as documented, launch the local Gradio app with the documented python funclip/launch.py command, then load media files for transcription, subtitle generation, LLM-assisted timestamp selection, and reviewed clipping.
+```
 
 ## Documentation
 

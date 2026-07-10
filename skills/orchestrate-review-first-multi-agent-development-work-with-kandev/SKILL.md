@@ -1,14 +1,14 @@
 ---
-name: "Orchestrate review-first multi-agent development work with Kandev"
-slug: "orchestrate-review-first-multi-agent-development-work-with-kandev"
+title: "Orchestrate review-first multi-agent development work with Kandev"
 description: "Use Kandev when an operator needs to plan, run, isolate, review, and ship multiple coding-agent tasks through a controlled kanban and pipeline workspace."
-github_stars: 405
 verification: "security_reviewed"
 source: "https://github.com/kdlbs/kandev"
 author: "Kandev"
 publisher_type: "open-source"
-category: "Developer Tools"
-framework: "Custom Agents"
+category:
+  - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "kdlbs/kandev"
   github_stars: 405
@@ -26,24 +26,19 @@ Kandev installation, configured agent providers or local agent CLIs, a target re
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install kdlbs/kandev/kandev
-- npx kandev@latest
-- npm install -g kandev@latest
-- git clone git@github.com:kdlbs/kandev.git
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- **Flexible runtimes** - Run agents as local processes, in isolated Docker containers, on remote servers via SSH, or in cloud executors like sprites.dev
-- | **Cursor** | cursor-agent acp *(requires Cursor Pro)* |
-- | **Docker** | Runs the agent in an isolated Docker container |
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Manage and run tasks in parallel. Orchestrate agents. Review changes. Ship value.
-- [Features](docs/features.md) | [Workflows](docs/workflow-tips.md) | [Run as a Service](docs/run-as-a-service.md) | [Debug Logs](docs/debug-logs.md) | [Roadmap](docs/roadmap.md) | [Contributing](CONTRIBUTING.md) | [Arc...
-- Run it locally or self-host it on your own infrastructure and access it from anywhere via [Tailscale](https://tailscale.com/) or any VPN.
+Install command or upstream instructions:
 
-- Source: https://github.com/kdlbs/kandev
-- Extracted from upstream docs: https://raw.githubusercontent.com/kdlbs/kandev/HEAD/README.md
+```
+Install and run Kandev from the upstream repository or release path, configure the desired agent providers and runtime profiles, connect a repository, then create kanban or pipeline tasks so agents can execute in isolated workspaces while the operator reviews diffs and decides what ships.
+```
 
 ## Documentation
 

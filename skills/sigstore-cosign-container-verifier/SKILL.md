@@ -1,13 +1,13 @@
 ---
-name: "Sigstore Cosign Container Verifier"
-slug: "sigstore-cosign-container-verifier"
+title: "Sigstore Cosign Container Verifier"
 description: "Verifies container image signatures and provenance using Sigstore Cosign and Rekor transparency log. Enforces supply chain policies with OPA Gatekeeper admission rules."
-github_stars: 5830
 verification: "security_reviewed"
 source: "https://github.com/sigstore/cosign"
 author: "sigstore"
-category: "Security & Verification"
-framework: "MCP"
+category:
+  - "Security & Verification"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "sigstore/cosign"
   github_stars: 5830
@@ -19,23 +19,13 @@ Verifies container image signatures and provenance using Sigstore Cosign and Rek
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- $ git clone https://github.com/sigstore/cosign
-- $ go install ./cmd/cosign
-- $ docker push $IMAGE_URI
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- {"Critical":{"Identity":{"docker-reference":""},"Image":{"Docker-manifest-digest":"sha256:87ef60f558bad79beea6425a3b28989f01dd417164150ab3baab98dcbf04def8"},"Type":"cosign container image signature"},"Optional":null}
-- **Note:** Most verification workflows require periodically requesting service keys from a TUF repository.
-- Verification fails with failed to verify timestamps: threshold not met for verified log entry integrated timestamps: 0 < 1: You may be verifying a signature that requires RFC3161 timestamp support
-
-Basic usage or getting-started notes:
-- For Homebrew, Arch, Nix, GitHub Action, and Kubernetes installs see the [installation docs](https://docs.sigstore.dev/cosign/system_config/installation/).
-- For Linux and macOS binaries see the [GitHub release assets](https://github.com/sigstore/cosign/releases/latest).
-- :rotating_light: If you are downloading releases of cosign from our GCS bucket - please see more information on the July 31, 2023 [deprecation notice](https://blog.sigstore.dev/cosign-releases-bucket-deprecation/) :ro...
-
-- Source: https://github.com/sigstore/cosign
-- Extracted from upstream docs: https://raw.githubusercontent.com/sigstore/cosign/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

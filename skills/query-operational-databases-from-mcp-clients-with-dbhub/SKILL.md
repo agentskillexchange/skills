@@ -1,14 +1,14 @@
 ---
-name: "Query operational databases from MCP clients with DBHub"
-slug: "query-operational-databases-from-mcp-clients-with-dbhub"
+title: "Query operational databases from MCP clients with DBHub"
 description: "Use DBHub to expose guarded, token-efficient database inspection and SQL tools to MCP clients across Postgres, MySQL, SQL Server, MariaDB, and SQLite."
-github_stars: 3102
 verification: "security_reviewed"
 source: "https://github.com/bytebase/dbhub"
 author: "Bytebase"
 publisher_type: "open_source_vendor"
-category: "Data Extraction & Transformation"
-framework: "MCP"
+category:
+  - "Data Extraction & Transformation"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "bytebase/dbhub"
   github_stars: 3102
@@ -26,24 +26,19 @@ Node.js 22.5 or newer or Docker, database DSN/configuration, MCP-compatible clie
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- docker run --rm --init \
-- npx @bytebase/dbhub@latest --transport http --port 8080 --dsn "postgres://user:password@localhost:5432/dbname?sslmode=disable"
-- npx @bytebase/dbhub@latest --transport http --port 8080 --demo
-- npx @bytebase/dbhub@latest --transport http --host 127.0.0.1 --port 8080 --demo
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- **Docker:**
-- **NPM:** (requires Node.js >= 22.5.0)
-- Requires Node.js >= 22.5.0 (DBHub uses the built-in node:sqlite module).
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- DBHub includes a [built-in web interface](https://dbhub.ai/workbench/overview) for interacting with your database tools. It provides a visual way to execute queries, run custom tools, and view request traces without r...
-- See the full [Installation Guide](https://dbhub.ai/installation) for detailed instructions.
-- --name dbhub \
+Install command or upstream instructions:
 
-- Source: https://github.com/bytebase/dbhub
-- Extracted from upstream docs: https://raw.githubusercontent.com/bytebase/dbhub/HEAD/README.md
+```
+Run with npx @bytebase/dbhub@latest --transport http --port 8080 --dsn or use the documented Docker image; configure read-only mode, row limits, timeouts, SSH/SSL, and custom tools as appropriate before exposing it to an MCP client.
+```
 
 ## Documentation
 

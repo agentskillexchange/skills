@@ -1,12 +1,13 @@
 ---
-name: "SEC EDGAR Financial Filing Parser"
-slug: "sec-edgar-financial-filing-parser"
+title: "SEC EDGAR Financial Filing Parser"
 description: "Retrieves and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR Full-Text Search API and company filing API. Extracts XBRL financial data via the SEC XBRL API for structured balance sheet and income statement analysis."
 verification: "listed"
 source: "https://www.sec.gov/edgar/searchedgar/companysearch"
 author: "SEC"
-category: "Research & Scraping"
-framework: "Claude Code"
+category:
+  - "Research & Scraping"
+framework:
+  - "Claude Code"
 ---
 
 # SEC EDGAR Financial Filing Parser
@@ -15,9 +16,13 @@ Retrieves and parses SEC EDGAR filings (10-K, 10-Q, 8-K) using the EDGAR Full-Te
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://www.sec.gov/edgar/searchedgar/companysearch
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

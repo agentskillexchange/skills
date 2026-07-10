@@ -1,12 +1,12 @@
 ---
-name: "act Local GitHub Actions Runner"
-slug: "act-local-github-actions-runner"
+title: "act Local GitHub Actions Runner"
 description: "act is an open-source CLI tool that runs GitHub Actions workflows locally using Docker, enabling fast feedback on workflow changes without pushing to GitHub. It is a standard tool for local Actions development and testing."
-github_stars: 69661
 verification: "security_reviewed"
 source: "https://github.com/nektos/act"
-category: "CI/CD Integrations"
-framework: "Claude Code"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "nektos/act"
   github_stars: 69661
@@ -18,22 +18,13 @@ act is an open-source CLI tool that runs GitHub Actions workflows locally using 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Install Docker first. On macOS, use Docker Desktop. On Linux, install Docker Engine.
-- On macOS, install act with Homebrew: \`brew install act\`
-- git clone https://github.com/nektos/act.git
-- make build
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- act depends on the Docker Engine API to run workflows in containers.
-- Jobs that do not require container isolation can be run directly on the host runner when that fits the workflow.
-
-Basic usage or getting-started notes:
-- Run all local workflow jobs: \`act\`
-- Run a specific job: \`act -j <job>\`
-
-- Source: https://github.com/nektos/act
-- Extracted from upstream docs: https://nektosact.com/installation/index.html
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

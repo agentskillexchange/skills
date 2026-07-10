@@ -1,14 +1,14 @@
 ---
-name: "Trace LLM and agent workflows with OpenLLMetry"
-slug: "trace-llm-and-agent-workflows-with-openllmetry"
+title: "Trace LLM and agent workflows with OpenLLMetry"
 description: "Add OpenTelemetry-based instrumentation to LLM and agent code so operators can inspect prompts, tool calls, latency, errors, and provider behavior in their existing observability stack."
-github_stars: 7170
 verification: "security_reviewed"
 source: "https://github.com/traceloop/openllmetry"
 author: "Traceloop"
 publisher_type: "organization"
-category: "Monitoring & Alerts"
-framework: "Multi-Framework"
+category:
+  - "Monitoring & Alerts"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "traceloop/openllmetry"
   github_stars: 7170
@@ -24,21 +24,19 @@ Python, OpenLLMetry or Traceloop SDK, OpenTelemetry-compatible collector or back
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install traceloop-sdk
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <a href="https://traceloop.com/docs/openllmetry/getting-started-python"><strong>Get started »</strong></a>
-- For a complete guide, go to our [docs](https://traceloop.com/docs/openllmetry/getting-started-python).
-- python
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Then, to start instrumenting your code, just add this line to your code:
-- from traceloop.sdk import Traceloop
-- Traceloop.init()
+Install command or upstream instructions:
 
-- Source: https://github.com/traceloop/openllmetry
-- Extracted from upstream docs: https://raw.githubusercontent.com/traceloop/openllmetry/HEAD/README.md
+```
+Install the SDK with pip install traceloop-sdk, initialize tracing with the Traceloop SDK in the application, then route the emitted OpenTelemetry data to the team's collector or observability backend.
+```
 
 ## Documentation
 

@@ -1,14 +1,14 @@
 ---
-name: "Control hosted browser research and extraction through Hyperbrowser MCP"
-slug: "control-hosted-browser-research-and-extraction-through-hyperbrowser-mcp"
+title: "Control hosted browser research and extraction through Hyperbrowser MCP"
 description: "Give MCP clients hosted browser tools for scraping, crawling, structured extraction, search, and computer-use browser automation."
-github_stars: 770
 verification: "security_reviewed"
 source: "https://github.com/hyperbrowserai/mcp"
 author: "Hyperbrowser"
 publisher_type: "organization"
-category: "Browser Automation"
-framework: "MCP"
+category:
+  - "Browser Automation"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "hyperbrowserai/mcp"
   github_stars: 770
@@ -26,22 +26,19 @@ Node.js, npx, Hyperbrowser API key, MCP-compatible client
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx hyperbrowser-mcp <YOUR-HYPERBROWSER-API-KEY>
-- git clone git@github.com:hyperbrowserai/mcp.git hyperbrowser-mcp
-- npm install # or yarn install
-- npm run build
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- node dist/server.js
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Usage](#usage)
-- To install the server, run:
-- Add to ~/.cursor/mcp.json like this:
+Install command or upstream instructions:
 
-- Source: https://github.com/hyperbrowserai/mcp
-- Extracted from upstream docs: https://raw.githubusercontent.com/hyperbrowserai/mcp/HEAD/README.md
+```
+Run `npx hyperbrowser-mcp` with `HYPERBROWSER_API_KEY` configured, then register the server in an MCP client such as Cursor, Windsurf, or Claude Desktop.
+```
 
 ## Documentation
 

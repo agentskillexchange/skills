@@ -1,14 +1,14 @@
 ---
-name: "Build enterprise RAG and agent workflows with Bisheng"
-slug: "build-enterprise-rag-and-agent-workflows-with-bisheng"
+title: "Build enterprise RAG and agent workflows with Bisheng"
 description: "Use Bisheng to assemble, evaluate, and publish enterprise RAG and agent workflows across internal data, models, and business users."
-github_stars: 11440
 verification: "security_reviewed"
 source: "https://github.com/dataelement/bisheng"
 author: "DataElement"
 publisher_type: "open_source_project"
-category: "Templates & Workflows"
-framework: "Multi-Framework"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "dataelement/bisheng"
   github_stars: 11440
@@ -24,22 +24,19 @@ Bisheng, LLM provider credentials, enterprise data sources
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/dataelement/bisheng.git
-- docker compose -f docker-compose.yml -p bisheng up -d
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <!-- <img src="https://img.shields.io/docker/pulls/bisheng-io/bisheng" alt="docker-pull-count" /> -->
-- 🖐️ **User-friendly and intuitive**: Operations like loops, parallelism, and batch processing, which require specialized components in similar products, can be easily visualized in BISHENG as a "flowchart" (drawing a l...
-- Docker 19.03.9+
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Please ensure the following conditions are met before installing BISHENG:
-- CPU >= 4 Virtual Cores
-- RAM >= 16 GB
+Install command or upstream instructions:
 
-- Source: https://github.com/dataelement/bisheng
-- Extracted from upstream docs: https://raw.githubusercontent.com/dataelement/bisheng/HEAD/README.md
+```
+Follow the Bisheng repository setup instructions, configure model and data-source credentials, then create and evaluate a RAG or agent workflow before publishing it to users.
+```
 
 ## Documentation
 

@@ -1,14 +1,14 @@
 ---
-name: "Expose data catalog context to AI workflows with DataHub"
-slug: "expose-data-catalog-context-to-ai-workflows-with-datahub"
+title: "Expose data catalog context to AI workflows with DataHub"
 description: "Use DataHub metadata, ownership, schema, and lineage context to ground agent-assisted data discovery and governance workflows."
-github_stars: 12050
 verification: "security_reviewed"
 source: "https://github.com/datahub-project/datahub"
 author: "DataHub Project"
 publisher_type: "open_source"
-category: "Data Extraction & Transformation"
-framework: "Multi-Framework"
+category:
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "datahub-project/datahub"
   github_stars: 12050
@@ -24,24 +24,19 @@ DataHub, DataHub API or CLI, catalog metadata access
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/datahub-project/analytics-agent.git
-- brew install datahub-project/tap/datahub
-- pip install acryl-datahub
-- **Note:** For pip, you can also use uv or other Python package managers.
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <a href="https://hub.docker.com/r/linkedin/datahub-gms">
-- <img src="https://img.shields.io/docker/pulls/linkedin/datahub-gms.svg" alt="Docker Pulls" />
-- datahub docker quickstart
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- <a href="https://docs.datahub.com/docs/quickstart"><b>Quick Start</b></a> •
-- **Quick start:**
-- See the [Quick Start](#-quick-start-60-seconds) section below for full instructions. The PyPI package is [acryl-datahub](https://pypi.org/project/acryl-datahub/); the Homebrew tap is [datahub-project/homebrew-tap](htt...
+Install command or upstream instructions:
 
-- Source: https://github.com/datahub-project/datahub
-- Extracted from upstream docs: https://raw.githubusercontent.com/datahub-project/datahub/HEAD/README.md
+```
+Deploy or connect to DataHub, configure metadata ingestion for relevant data systems, grant API access, then have the agent query datasets, ownership, schema, lineage, and glossary context before data work.
+```
 
 ## Documentation
 

@@ -1,13 +1,13 @@
 ---
-name: "Checkly Browser Check Failure Notifier"
-slug: "checkly-browser-check-failure-notifier"
+title: "Checkly Browser Check Failure Notifier"
 description: "Monitors Checkly browser checks via the Checkly Management API and notifies teams on Playwright test failures. Extracts failure screenshots, trace URLs, and degraded check results."
-github_stars: 92
 verification: "security_reviewed"
 source: "https://github.com/checkly/checkly-cli"
 author: "checkly"
-category: "Monitoring & Alerts"
-framework: "Claude Code"
+category:
+  - "Monitoring & Alerts"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "checkly/checkly-cli"
   github_stars: 92
@@ -21,19 +21,23 @@ Monitors Checkly browser checks via the Checkly Management API and notifies team
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx checkly test
-- npx checkly deploy
-- npx checkly login.
-- npm create checkly@latest
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- **Run in the cloud or on-prem.** Run on the Checkly cloud or in your network using the [Private Locations](https://www.checklyhq.com/docs/private-locations/)
-- # A quick example
-- Run your checks from your local machine or in CI using npx checkly test
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/checkly/checkly-cli
-- Extracted from upstream docs: https://raw.githubusercontent.com/checkly/checkly-cli/HEAD/README.md
+Install command or upstream instructions:
+
+```
+npx checkly init
+```
+
+## Documentation
+
+- https://www.checklyhq.com/docs/cli/overview/
 
 ## Source
 

@@ -1,14 +1,14 @@
 ---
-name: "Scan repositories for Shai-Hulud 2.0 supply-chain indicators with the detector action"
-slug: "scan-repositories-for-shai-hulud-2-0-supply-chain-indicators-with-the-detector-action"
+title: "Scan repositories for Shai-Hulud 2.0 supply-chain indicators with the detector action"
 description: "Check repositories and CI surfaces for Shai-Hulud 2.0 compromise indicators when the task is targeted supply-chain triage, not generic malware scanning."
-github_stars: 124
 verification: "security_reviewed"
 source: "https://github.com/gensecaihq/Shai-Hulud-2.0-Detector"
 author: "GenSecAIHQ"
 publisher_type: "GitHub repository"
-category: "Security & Verification"
-framework: "Multi-Framework"
+category:
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "gensecaihq/Shai-Hulud-2.0-Detector"
   github_stars: 124
@@ -24,24 +24,19 @@ GitHub Action or local detector CLI, repository or monorepo to scan, and securit
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- **STOP** - Do not run npm install or any build commands
-- npm cache clean --force
-- npm install --ignore-scripts # Prevent postinstall hooks
-- npm audit
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <strong>🔑 THE SUCCESS OF THIS PROJECT DEPENDS ON YOU!</strong>
-- | PostHog | 62 | posthog-node, posthog-js, @posthog/nextjs, @posthog/plugin-server |
-- node scripts/update-ioc-database.js
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- <a href="#quick-start">Quick Start</a> •
-- [Quick Start](#quick-start)
-- [Local CLI Usage](#local-cli-usage)
+Install command or upstream instructions:
 
-- Source: https://github.com/gensecaihq/Shai-Hulud-2.0-Detector
-- Extracted from upstream docs: https://raw.githubusercontent.com/gensecaihq/Shai-Hulud-2.0-Detector/HEAD/README.md
+```
+Use the upstream GitHub Action in CI or run the detector locally, then review the campaign-specific findings, SARIF output, and incident-response guidance from the project documentation.
+```
 
 ## Documentation
 

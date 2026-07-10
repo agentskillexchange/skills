@@ -1,23 +1,23 @@
 ---
-name: "Webhook Debugger"
-slug: "webhook-debugger"
-description: ""
-github_stars: 4428
+title: "Webhook Debugger"
+description: "Webhook Debugger is built around Stripe payments platform. The underlying ecosystem is represented by stripe/stripe-node (4,377+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like charges, payment intents, subscriptions, billing, payouts, webhooks, reports and preserving the operational context […]"
 verification: "security_reviewed"
 source: "https://github.com/stripe/stripe-node"
 author: "Stripe"
-category: "Developer Tools"
-framework: "Claude Agents"
+category:
+  - "Developer Tools"
+framework:
+  - "Claude Agents"
 tool_ecosystem:
   github_repo: "stripe/stripe-node"
   github_stars: 4428
   npm_package: "stripe"
-  npm_weekly_downloads: 13871238
+  npm_weekly_downloads: 14763209
 ---
 
 # Webhook Debugger
 
-
+Webhook Debugger is built around Stripe payments platform. The underlying ecosystem is represented by stripe/stripe-node (4,377+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like charges, payment intents, subscriptions, billing, payouts, webhooks, reports and preserving the operational context […]
 
 ## Prerequisites
 
@@ -25,24 +25,19 @@ Node.js
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install stripe
-- yarn add stripe
-- npm install stripe@public-preview --save-exact
-- npm install stripe@<some-version>
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- # Stripe Node.js Library
-- [![Build Status](https://github.com/stripe/stripe-node/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/stripe/stripe-node/actions?query=branch%3Amaster)
-- Want to chat live with Stripe engineers? Join us on our [Discord server](https://stripe.com/go/discord/node).
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- sh
-- # or
-- The package needs to be configured with your account's secret key, which is
+Install command or upstream instructions:
 
-- Source: https://github.com/stripe/stripe-node
-- Extracted from upstream docs: https://raw.githubusercontent.com/stripe/stripe-node/HEAD/README.md
+```
+npm install stripe --save
+```
 
 ## Documentation
 

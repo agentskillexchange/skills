@@ -1,14 +1,14 @@
 ---
-name: "Capture a live webpage as a clean PDF or readable archive for offline review with Percollate"
-slug: "capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate"
+title: "Capture a live webpage as a clean PDF or readable archive for offline review with Percollate"
 description: "Turn a live webpage into a clean offline artifact such as a PDF or readable archive for review, citation, or handoff."
-github_stars: 4620
 verification: "security_reviewed"
 source: "https://github.com/danburzo/percollate"
 author: "danburzo"
 publisher_type: "open_source_project"
-category: "Research & Scraping"
-framework: "Multi-Framework"
+category:
+  - "Research & Scraping"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "danburzo/percollate"
   github_stars: 4620
@@ -26,22 +26,19 @@ percollate
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install -g percollate
-- npm uninstall -g percollate && npm install -g percollate
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- percollate is a Node.js command-line tool which you can install globally from npm:
-- Percollate and its dependencies **require Node.js 14.17.0** or later.
-- Some Docker images are available in this [tracking issue](https://github.com/danburzo/percollate/issues/95).
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Usage](#usage)
-- bash
-- #### Community-maintained packages
+Install command or upstream instructions:
 
-- Source: https://github.com/danburzo/percollate
-- Extracted from upstream docs: https://raw.githubusercontent.com/danburzo/percollate/HEAD/README.md
+```
+Install the percollate package from npm, then pass the target URL and desired output format to generate an offline capture artifact.
+```
 
 ## Documentation
 

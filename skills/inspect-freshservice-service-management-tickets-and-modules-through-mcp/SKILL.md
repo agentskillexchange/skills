@@ -1,14 +1,14 @@
 ---
-name: "Inspect Freshservice service-management tickets and modules through MCP"
-slug: "inspect-freshservice-service-management-tickets-and-modules-through-mcp"
+title: "Inspect Freshservice service-management tickets and modules through MCP"
 description: "Connect Freshservice modules to MCP clients for supervised IT service-management ticket lookup and support-ops preparation."
-github_stars: 31
 verification: "security_reviewed"
 source: "https://github.com/effytech/freshservice_mcp"
 author: "effytech"
 publisher_type: "open_source"
-category: "Integrations & Connectors"
-framework: "MCP"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "effytech/freshservice_mcp"
   github_stars: 31
@@ -24,17 +24,19 @@ Freshservice account/API credentials, MCP-compatible client, repository runtime 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx -y @smithery/cli install @effytech/freshservice_mcp --client claude
-- uvx installed (pip install uv or brew install uv)
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- ### Installing via Smithery
-- To install freshservice_mcp automatically via Smithery:
-- bash
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/effytech/freshservice_mcp
-- Extracted from upstream docs: https://raw.githubusercontent.com/effytech/freshservice_mcp/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install the Freshservice MCP server from the repository, configure Freshservice domain and API credentials, restrict scopes to required modules, then connect it to a trusted MCP client.
+```
 
 ## Documentation
 

@@ -1,14 +1,14 @@
 ---
-name: "Video Frames Extractor"
-slug: "video-frames-extractor"
+title: "Video Frames Extractor"
 description: "Extract frames and short clips from videos. Core Capabilities Process audio and video files using ffmpeg for transcription and analysis Extract text, timestamps, and speaker metadata from media cont"
-github_stars: 60668
 verification: "listed"
 source: "https://github.com/FFmpeg/FFmpeg"
 author: "FFmpeg"
 publisher_type: "open_source_collective"
-category: "Media & Transcription"
-framework: "OpenClaw"
+category:
+  - "Media & Transcription"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "ffmpeg/ffmpeg"
   github_stars: 60668
@@ -24,9 +24,19 @@ FFmpeg
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://github.com/FFmpeg/FFmpeg
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install from the OpenClaw skills set and make sure ffmpeg is available on the host machine.
+```
 
 ## Documentation
 

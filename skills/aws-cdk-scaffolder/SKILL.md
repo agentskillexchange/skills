@@ -1,13 +1,13 @@
 ---
-name: "AWS CDK Scaffolder"
-slug: "aws-cdk-scaffolder"
-description: ""
-github_stars: 12737
+title: "AWS CDK Scaffolder"
+description: "AWS CDK Scaffolder is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (active GitHub adoption). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like AWS SDK, IAM, STS, S3, Lambda, CloudWatch, DynamoDB, EC2 and […]"
 verification: "security_reviewed"
 source: "https://github.com/aws/aws-cdk"
 author: "aws"
-category: "Templates & Workflows"
-framework: "Custom Agents"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "aws/aws-cdk"
   github_stars: 12737
@@ -17,7 +17,7 @@ tool_ecosystem:
 
 # AWS CDK Scaffolder
 
-
+AWS CDK Scaffolder is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (active GitHub adoption). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like AWS SDK, IAM, STS, S3, Lambda, CloudWatch, DynamoDB, EC2 and […]
 
 ## Prerequisites
 
@@ -25,21 +25,19 @@ Node.js, AWS CDK CLI
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm i -g aws-cdk
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- JavaScript, TypeScript ([Node.js >= 20.x](https://nodejs.org/en/download))
-- Python ([Python ≥ 3.8](https://www.python.org/downloads/))
-- [Recommended AWS CDK project structure for Python applications](https://aws.amazon.com/blogs/developer/recommended-aws-cdk-project-structure-for-python-applications/)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Getting Started](#getting-started) |
-- For a detailed walkthrough, see the [tutorial](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html#hello_world_tutorial) in the AWS CDK [Developer Guide](https://docs.aws.amazon.com/cdk/latest/guide/home...
-- ### At a glance
+Install command or upstream instructions:
 
-- Source: https://github.com/aws/aws-cdk
-- Extracted from upstream docs: https://raw.githubusercontent.com/aws/aws-cdk/HEAD/README.md
+```
+npm install -g aws-cdk
+```
 
 ## Documentation
 

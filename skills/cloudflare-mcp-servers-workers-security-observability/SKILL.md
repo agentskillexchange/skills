@@ -1,12 +1,12 @@
 ---
-name: "Cloudflare MCP Servers for Workers, Security, and Observability"
-slug: "cloudflare-mcp-servers-workers-security-observability"
+title: "Cloudflare MCP Servers for Workers, Security, and Observability"
 description: "Official Cloudflare MCP servers that enable AI assistants to manage Workers applications, debug logs, analyze Radar traffic data, configure security settings, and interact with the full Cloudflare platform through natural language via the Model Context Protocol."
-github_stars: 3579
 verification: "security_reviewed"
 source: "https://github.com/cloudflare/mcp-server-cloudflare"
-category: "Integrations & Connectors"
-framework: "MCP"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "cloudflare/mcp-server-cloudflare"
   github_stars: 3579
@@ -18,14 +18,13 @@ Official Cloudflare MCP servers that enable AI assistants to manage Workers appl
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Some features may require a paid Cloudflare Workers plan. Ensure your Cloudflare account has the necessary subscription level for the features you intend to use.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- For example, to use the [Browser Rendering MCP server](https://github.com/cloudflare/mcp-server-cloudflare/tree/main/apps/browser-rendering) with OpenAI, create an API token in the Cloudflare dashboard [here](https://...
-
-- Source: https://github.com/cloudflare/mcp-server-cloudflare
-- Extracted from upstream docs: https://raw.githubusercontent.com/cloudflare/mcp-server-cloudflare/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,11 +1,12 @@
 ---
-name: "SSL/TLS Certificate Validator and Monitor"
-slug: "ssl-tls-certificate-validator-monitor"
+title: "SSL/TLS Certificate Validator and Monitor"
 description: "Validates SSL/TLS certificates using OpenSSL s_client, checks OCSP stapling status, and monitors expiry dates. Integrates with crt.sh Certificate Transparency logs and SSLLabs API for grading."
 verification: "security_reviewed"
 source: "https://datatracker.ietf.org/doc/html/rfc8446"
-category: "Security & Verification"
-framework: "Custom Agents"
+category:
+  - "Security & Verification"
+framework:
+  - "Custom Agents"
 ---
 
 # SSL/TLS Certificate Validator and Monitor
@@ -14,16 +15,13 @@ Validates SSL/TLS certificates using OpenSSL s_client, checks OCSP stapling stat
 
 ## Installation
 
-Requirements and caveats from upstream:
-- In the following example, "mandatory" is a vector that must contain
-- If the server successfully selects parameters and does not require a
-- may require rejecting 0-RTT (see Section 4.2.10 ).
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- of protocols that run on top of TLS.
-- following example) is formed (using C notation) by:
-
-- Source: https://datatracker.ietf.org/doc/html/rfc8446
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

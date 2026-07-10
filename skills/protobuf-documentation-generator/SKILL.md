@@ -1,12 +1,13 @@
 ---
-name: "Protobuf Documentation Generator"
-slug: "protobuf-documentation-generator"
+title: "Protobuf Documentation Generator"
 description: "Generates API documentation from Protocol Buffer definitions using protoc-gen-doc and buf build toolchain. Produces Markdown, HTML, and DocJSON output with cross-linked message and service references."
 verification: "security_reviewed"
 source: "https://protobuf.dev/"
 author: "Protocol Buffers"
-category: "Library & API Reference"
-framework: "Gemini"
+category:
+  - "Library & API Reference"
+framework:
+  - "Gemini"
 ---
 
 # Protobuf Documentation Generator
@@ -15,16 +16,13 @@ Generates API documentation from Protocol Buffer definitions using protoc-gen-do
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Python
-- Python Generated Code Guide
-- Python Comparison
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Example Implementation
-- . setEmail ( "jdoe@example.com" )
-
-- Source: https://protobuf.dev/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

@@ -1,14 +1,14 @@
 ---
-name: "Normalize raw CLI output into JSON for reliable downstream parsing and automation"
-slug: "normalize-cli-output-into-json-for-reliable-agent-automation"
+title: "Normalize raw CLI output into JSON for reliable downstream parsing and automation"
 description: "Uses jc to turn command output and supported file formats into structured JSON so an agent can filter, diff, validate, and store results without brittle regex parsing. Best when a workflow already depends on standard CLI tools but needs machine-readable output for the next step."
-github_stars: 8573
 verification: "security_reviewed"
 source: "https://github.com/kellyjonbrazil/jc"
 author: "Kelly Brazil"
 publisher_type: "User"
-category: "Data Extraction & Transformation"
-framework: "Multi-Framework"
+category:
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "kellyjonbrazil/jc"
   github_stars: 8573
@@ -20,18 +20,19 @@ Uses jc to turn command output and supported file formats into structured JSON s
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Check out the jc Python [package documentation](https://github.com/kellyjonbrazil/jc/tree/master/docs) for developers
-- jc can also be used as a python library. In this case the returned value
-- will be a python dictionary, a list of dictionaries, or even a
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- for an example.
-- dig example.com | jc --dig
-- {"name":"example.com.","class":"IN","type":"A"},"answer":[{"name":
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/kellyjonbrazil/jc
-- Extracted from upstream docs: https://raw.githubusercontent.com/kellyjonbrazil/jc/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install via `pip3 install jc`, an OS package, or a GitHub release binary.
+```
 
 ## Documentation
 

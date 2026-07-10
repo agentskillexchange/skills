@@ -1,13 +1,13 @@
 ---
-name: "Ansible Playbook Runner with Vault Secrets"
-slug: "ansible-playbook-vault-runner"
-description: "Executes Ansible playbooks against dynamic inventories from AWS EC2 or Azure, decrypting Ansible Vault secrets via HashiCorp Vault KV v2 API. Streams task output in real time and posts a per-host pass/fail summary to Slack. Supports --check mode for dry-run validation before live runs."
-github_stars: 68348
+title: "Ansible Playbook Runner with Vault Secrets"
+description: "Executes Ansible playbooks against dynamic inventories from AWS EC2 or Azure, decrypting Ansible Vault secrets via HashiCorp Vault KV v2 API. Streams task output in real time and posts a per-host pass/fail summary to Slack. Supports –check mode for dry-run validation before live runs."
 verification: "security_reviewed"
 source: "https://github.com/ansible/ansible"
 author: "Ansible"
-category: "Runbooks & Diagnostics"
-framework: "Claude Code"
+category:
+  - "Runbooks & Diagnostics"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "ansible/ansible"
   github_stars: 68348
@@ -15,20 +15,17 @@ tool_ecosystem:
 
 # Ansible Playbook Runner with Vault Secrets
 
-Executes Ansible playbooks against dynamic inventories from AWS EC2 or Azure, decrypting Ansible Vault secrets via HashiCorp Vault KV v2 API. Streams task output in real time and posts a per-host pass/fail summary to Slack. Supports --check mode for dry-run validation before live runs.
+Executes Ansible playbooks against dynamic inventories from AWS EC2 or Azure, decrypting Ansible Vault secrets via HashiCorp Vault KV v2 API. Streams task output in real time and posts a per-host pass/fail summary to Slack. Supports –check mode for dry-run validation before live runs.
 
 ## Installation
 
-Requirements and caveats from upstream:
-- ad-hoc task execution, network automation, and multi-node orchestration. Ansible makes complex
-- Allow module development in any dynamic language, not just Python.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Power users and developers can run the devel branch, which has the latest
-- in the Ansible community if you want to run the devel branch.
-
-- Source: https://github.com/ansible/ansible
-- Extracted from upstream docs: https://raw.githubusercontent.com/ansible/ansible/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

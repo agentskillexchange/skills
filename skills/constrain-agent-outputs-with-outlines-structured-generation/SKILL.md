@@ -1,14 +1,14 @@
 ---
-name: "Constrain agent outputs with Outlines structured generation"
-slug: "constrain-agent-outputs-with-outlines-structured-generation"
+title: "Constrain agent outputs with Outlines structured generation"
 description: "Force LLM outputs into typed schemas, enums, JSON-like structures, and routing records during generation instead of repairing malformed text afterward."
-github_stars: 13923
 verification: "security_reviewed"
 source: "https://github.com/dottxt-ai/outlines"
 author: ".txt"
 publisher_type: "organization"
-category: "Data Extraction & Transformation"
-framework: "Multi-Framework"
+category:
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "dottxt-ai/outlines"
   github_stars: 13923
@@ -24,21 +24,19 @@ Python, Outlines, supported LLM runtime or provider, schema definitions
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install outlines
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Outlines follows a simple pattern that mirrors Python's own type system. Simply specify the desired output type, and Outlines will ensure your data matches that structure exactly:
-- python
-- | **Custome types** | Intuitive interface to build complex types | [Python Types Guide →](https://dottxt-ai.github.io/outlines/latest/features/core/output_types/#basic-python-types) |
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- import outlines
-- from transformers import AutoTokenizer, AutoModelForCausalLM
-- MODEL_NAME = "microsoft/Phi-3-mini-4k-instruct"
+Install command or upstream instructions:
 
-- Source: https://github.com/dottxt-ai/outlines
-- Extracted from upstream docs: https://raw.githubusercontent.com/dottxt-ai/outlines/HEAD/README.md
+```
+Install with pip install outlines, connect a supported model, define the desired output type using literals, Python types, enums, or Pydantic models, then call the model with that output type and validate the returned structure before routing it downstream.
+```
 
 ## Documentation
 

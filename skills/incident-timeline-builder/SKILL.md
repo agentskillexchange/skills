@@ -1,12 +1,13 @@
 ---
-name: "Incident Timeline Builder"
-slug: "incident-timeline-builder"
+title: "Incident Timeline Builder"
 description: "Constructs incident timelines from PagerDuty Events API v2, Datadog Monitors API, and Slack message archives. Correlates alerts with deployment events for root cause analysis."
 verification: "security_reviewed"
 source: "https://developers.notion.com/"
 author: "Notion Labs"
-category: "Runbooks & Diagnostics"
-framework: "OpenClaw"
+category:
+  - "Runbooks & Diagnostics"
+framework:
+  - "OpenClaw"
 ---
 
 # Incident Timeline Builder
@@ -15,15 +16,13 @@ Constructs incident timelines from PagerDuty Events API v2, Datadog Monitors API
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Connections are added to Notion workspaces and require explicit permission from users to access Notion pages and databases.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Personal access tokens
-- Internal connections
-- Public connections
-
-- Source: https://developers.notion.com/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

@@ -1,12 +1,12 @@
 ---
-name: "Webpack Bundle Analyzer Agent"
-slug: "webpack-bundle-analyzer-agent"
+title: "Webpack Bundle Analyzer Agent"
 description: "Analyzes webpack bundle composition using webpack-bundle-analyzer and source-map-explorer APIs. Identifies duplicate dependencies and suggests tree-shaking optimizations with specific import rewrites."
-github_stars: 65837
 verification: "security_reviewed"
 source: "https://github.com/webpack/webpack"
-category: "Developer Tools"
-framework: "Cursor"
+category:
+  - "Developer Tools"
+framework:
+  - "Cursor"
 tool_ecosystem:
   github_repo: "webpack/webpack"
   github_stars: 65837
@@ -20,20 +20,13 @@ Analyzes webpack bundle composition using webpack-bundle-analyzer and source-map
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install --save-dev webpack
-- yarn add webpack --dev
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![node][node]][node-url]
-- Highly modular plugin system to do whatever else your application requires.
-- Webpack supports all browsers that are [ES5-compliant](https://kangax.github.io/compat-table/es5/) (IE8 and below are not supported).
-
-Basic usage or getting-started notes:
-- Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset.
-
-- Source: https://github.com/webpack/webpack
-- Extracted from upstream docs: https://raw.githubusercontent.com/webpack/webpack/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

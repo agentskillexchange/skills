@@ -1,12 +1,12 @@
 ---
-name: "Notion AI Workspace"
-slug: "notion-ai-workspace"
-description: ""
-github_stars: 5582
+title: "Notion AI Workspace"
+description: "Notion AI Workspace is built around Notion workspace and database platform. The underlying ecosystem is represented by makenotion/notion-sdk-js (5,562+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like pages, databases.query, blocks.children, properties, relations, pagination and preserving the operational […]"
 verification: "security_reviewed"
 source: "https://github.com/makenotion/notion-sdk-js"
-category: "Calendar, Email & Productivity"
-framework: "Custom Agents"
+category:
+  - "Calendar, Email & Productivity"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "makenotion/notion-sdk-js"
   github_stars: 5582
@@ -16,26 +16,17 @@ tool_ecosystem:
 
 # Notion AI Workspace
 
-
+Notion AI Workspace is built around Notion workspace and database platform. The underlying ecosystem is represented by makenotion/notion-sdk-js (5,562+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like pages, databases.query, blocks.children, properties, relations, pagination and preserving the operational […]
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install @notionhq/client
-- Make a request to any Notion API endpoint.
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- const { Client } = require("@notionhq/client")
-- const { Client, APIErrorCode } = require("@notionhq/client")
-- const { Client, LogLevel } = require("@notionhq/client")
-
-Basic usage or getting-started notes:
-- bash
-- [![Open Val Town Template](https://stevekrouse-badge.web.val.run/?3)](https://www.val.town/v/charmaine/NotionJsSDK)
-- [!NOTE]
-
-- Source: https://github.com/makenotion/notion-sdk-js
-- Extracted from upstream docs: https://raw.githubusercontent.com/makenotion/notion-sdk-js/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

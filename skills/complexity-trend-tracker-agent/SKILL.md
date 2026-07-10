@@ -1,13 +1,13 @@
 ---
-name: "Complexity Trend Tracker"
-slug: "complexity-trend-tracker-agent"
+title: "Complexity Trend Tracker"
 description: "Tracks cyclomatic and cognitive complexity trends using lizard CLI and radon for Python analysis. Generates weekly complexity reports with git-integrated change attribution per module."
-github_stars: 2362
 verification: "security_reviewed"
 source: "https://github.com/terryyin/lizard"
 author: "Terry Yin"
-category: "Code Quality & Review"
-framework: "MCP"
+category:
+  - "Code Quality & Review"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "terryyin/lizard"
   github_stars: 2362
@@ -19,18 +19,13 @@ Tracks cyclomatic and cognitive complexity trends using lizard CLI and radon for
 
 ## Installation
 
-Requirements and caveats from upstream:
-- including C/C++ (doesn't require all the header files or Java imports). It also does
-- Python
-- It requires python3.8 or above (early versions are not verified).
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- ------------
-- functionalities are there. You can always use it without any
-- need a proper install.
-
-- Source: https://github.com/terryyin/lizard
-- Extracted from upstream docs: https://raw.githubusercontent.com/terryyin/lizard/HEAD/README.rst
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

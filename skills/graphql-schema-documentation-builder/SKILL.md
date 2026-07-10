@@ -1,12 +1,12 @@
 ---
-name: "GraphQL Schema Documentation Builder"
-slug: "graphql-schema-documentation-builder"
+title: "GraphQL Schema Documentation Builder"
 description: "Generates interactive API documentation from GraphQL schemas using graphql-js introspection queries and SpectaQL. Produces type relationship diagrams, query examples, and deprecation notices from SDL files."
-github_stars: 20324
 verification: "security_reviewed"
 source: "https://github.com/graphql/graphql-js"
-category: "Library & API Reference"
-framework: "Gemini"
+category:
+  - "Library & API Reference"
+framework:
+  - "Gemini"
 tool_ecosystem:
   github_repo: "graphql/graphql-js"
   github_stars: 20324
@@ -20,22 +20,13 @@ Generates interactive API documentation from GraphQL schemas using graphql-js in
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install --save graphql
-- yarn add graphql
-- npm install graphql@git://github.com/graphql/graphql-js.git#npm
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- GraphQL.js is a general-purpose library and can be used both in a Node server
-- with both CommonJS (require()) and ESModule (import) files. Ensure that any
-
-Basic usage or getting-started notes:
-- A general overview of GraphQL is available in the
-- [README](https://github.com/graphql/graphql-spec/blob/main/README.md) for the
-- [Specification for GraphQL](https://github.com/graphql/graphql-spec). That overview
-
-- Source: https://github.com/graphql/graphql-js
-- Extracted from upstream docs: https://raw.githubusercontent.com/graphql/graphql-js/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,14 +1,14 @@
 ---
-name: "Query Eventhouse and manage Fabric RTI resources from MCP-compatible agents with Fabric RTI MCP"
-slug: "query-eventhouse-and-manage-fabric-rti-resources-from-mcp-compatible-agents-with-fabric-rti-mcp"
+title: "Query Eventhouse and manage Fabric RTI resources from MCP-compatible agents with Fabric RTI MCP"
 description: "Use Fabric RTI MCP when an agent needs tool-callable access to Microsoft Fabric Real-Time Intelligence services such as Eventhouse, Eventstreams, Activator, and Map instead of sending the user back to the Fabric UI or wiring custom SDK glue."
-github_stars: 111
 verification: "security_reviewed"
 source: "https://github.com/microsoft/fabric-rti-mcp"
 author: "Microsoft"
 publisher_type: "Organization"
-category: "Integrations & Connectors"
-framework: "MCP"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "microsoft/fabric-rti-mcp"
   github_stars: 111
@@ -24,22 +24,19 @@ MCP-compatible client; Python with uvx or equivalent; Microsoft Fabric RTI acces
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Install uv
-- pip install -e ".[dev]"
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Make sure you have Python 3.10+ installed properly and added to your PATH.
-- Assuming you have python installed and the repo cloned:
-- Use the Python: Attach configuration in your launch.json to attach to the running server.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ### 🔍 Example Prompts
-- **kusto_diagnostics** - Run a best-effort suite of cluster diagnostic commands and return a unified summary. Sections: capacity (resource slots), cluster (nodes/hardware), principal roles (caller permissions), interna...
-- Install either the stable or Insiders release of VS Code:
+Install command or upstream instructions:
 
-- Source: https://github.com/microsoft/fabric-rti-mcp
-- Extracted from upstream docs: https://raw.githubusercontent.com/microsoft/fabric-rti-mcp/HEAD/README.md
+```
+Install in an MCP client using the upstream Python package, for example with `uvx microsoft-fabric-rti-mcp`, then authenticate with Azure Identity and configure access to the target Fabric RTI resources.
+```
 
 ## Documentation
 

@@ -1,14 +1,14 @@
 ---
-name: "Build event-driven multi-agent workflows with Solace Agent Mesh"
-slug: "build-event-driven-multi-agent-workflows-with-solace-agent-mesh"
+title: "Build event-driven multi-agent workflows with Solace Agent Mesh"
 description: "Stand up Solace Agent Mesh projects where agents delegate tasks, exchange events, call tools, and coordinate multi-step workflows through an event mesh."
-github_stars: 4484
 verification: "security_reviewed"
 source: "https://github.com/SolaceLabs/solace-agent-mesh"
 author: "SolaceLabs"
 publisher_type: "organization"
-category: "Templates & Workflows"
-framework: "Multi-Framework"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "SolaceLabs/solace-agent-mesh"
   github_stars: 4484
@@ -24,19 +24,19 @@ Python, Solace Agent Mesh, Solace broker or compatible local setup
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install -e .[test]
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <img src="https://img.shields.io/pypi/pyversions/solace-agent-mesh.svg" alt="PyPI - Python Version">
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- This project uses pytest for testing. You can run tests using either hatch or pytest directly.
-- The recommended way to run tests is through the hatch environment, which ensures all dependencies are managed correctly.
-- # Run all tests
+Install command or upstream instructions:
 
-- Source: https://github.com/SolaceLabs/solace-agent-mesh
-- Extracted from upstream docs: https://raw.githubusercontent.com/SolaceLabs/solace-agent-mesh/HEAD/README.md
+```
+Create and activate a Python virtual environment, install the `solace-agent-mesh` package from PyPI, then follow the upstream quickstart to initialize a SAM project and configure agents, gateways, and the event mesh.
+```
 
 ## Documentation
 

@@ -1,14 +1,14 @@
 ---
-name: "Run local multi-agent browser tasks with Nanobrowser"
-slug: "run-local-multi-agent-browser-tasks-with-nanobrowser"
+title: "Run local multi-agent browser tasks with Nanobrowser"
 description: "Use Nanobrowser when an operator needs a local Chrome or Edge browser agent to run multi-step web tasks with their own LLM keys and visible browser state."
-github_stars: 13069
 verification: "security_reviewed"
 source: "https://github.com/nanobrowser/nanobrowser"
 author: "Nanobrowser"
 publisher_type: "open_source_project"
-category: "Browser Automation"
-framework: "Multi-Framework"
+category:
+  - "Browser Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "nanobrowser/nanobrowser"
   github_stars: 13069
@@ -24,23 +24,19 @@ Chrome or Edge, Nanobrowser extension, user-managed LLM API key, supported model
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/nanobrowser/nanobrowser.git
-- pnpm install
-- pnpm build
-- pnpm dev
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- **Prerequisites**:
-- [Node.js](https://nodejs.org/) (v22.12.0 or higher)
-- May require more iterations for complex tasks
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ## 🚀 Quick Start
-- Use Ollama or other custom OpenAI-compatible providers to run models locally
+Install command or upstream instructions:
 
-- Source: https://github.com/nanobrowser/nanobrowser
-- Extracted from upstream docs: https://raw.githubusercontent.com/nanobrowser/nanobrowser/HEAD/README.md
+```
+Install Nanobrowser from the Chrome Web Store or download the release zip, load it into Chrome or Edge, open the extension settings, add LLM API keys, and assign models to the planner and navigator agents.
+```
 
 ## Documentation
 

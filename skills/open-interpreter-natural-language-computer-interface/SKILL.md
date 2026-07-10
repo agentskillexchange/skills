@@ -1,12 +1,12 @@
 ---
-name: "Open Interpreter Natural Language Computer Interface"
-slug: "open-interpreter-natural-language-computer-interface"
-description: "Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more) through a ChatGPT-like terminal interface. It provides a natural-language interface to your computer's general-purpose capabilities including file manipulation, browser control, and data analysis."
-github_stars: 62934
+title: "Open Interpreter Natural Language Computer Interface"
+description: "Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more) through a ChatGPT-like terminal interface. It provides a natural-language interface to your computer’s general-purpose capabilities including file manipulation, browser control, and data analysis."
 verification: "security_reviewed"
 source: "https://github.com/openinterpreter/open-interpreter"
-category: "Developer Tools"
-framework: "Multi-Framework"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "openinterpreter/open-interpreter"
   github_stars: 62934
@@ -14,25 +14,17 @@ tool_ecosystem:
 
 # Open Interpreter Natural Language Computer Interface
 
-Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more) through a ChatGPT-like terminal interface. It provides a natural-language interface to your computer's general-purpose capabilities including file manipulation, browser control, and data analysis.
+Open Interpreter lets LLMs run code locally (Python, JavaScript, Shell, and more) through a ChatGPT-like terminal interface. It provides a natural-language interface to your computer’s general-purpose capabilities including file manipulation, browser control, and data analysis.
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install git+https://github.com/OpenInterpreter/open-interpreter.git
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- **Open Interpreter** lets LLMs run code (Python, Javascript, Shell, and more) locally. You can chat with Open Interpreter through a ChatGPT-like interface in your terminal by running $ interpreter after installing.
-- ### Python
-- python
-
-Basic usage or getting-started notes:
-- **⚠️ Note: You'll be asked to approve code before it's run.**
-- ### Along with an example voice interface, inspired by _Her_
-- shell
-
-- Source: https://github.com/openinterpreter/open-interpreter
-- Extracted from upstream docs: https://raw.githubusercontent.com/openinterpreter/open-interpreter/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

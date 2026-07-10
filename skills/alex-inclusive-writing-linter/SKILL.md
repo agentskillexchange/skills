@@ -1,12 +1,12 @@
 ---
-name: "alex Inclusive Writing Linter"
-slug: "alex-inclusive-writing-linter"
+title: "alex Inclusive Writing Linter"
 description: "Catch insensitive, inconsiderate writing with alex. This CLI tool and Node.js library scans Markdown and plain text for gender-biased, polarizing, or exclusionary language and suggests inclusive alternatives."
-github_stars: 5096
 verification: "listed"
 source: "https://github.com/get-alex/alex"
-category: "Content Writing & SEO"
-framework: "Multi-Framework"
+category:
+  - "Content Writing & SEO"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "get-alex/alex"
   github_stars: 5096
@@ -20,9 +20,13 @@ Catch insensitive, inconsiderate writing with alex. This CLI tool and Node.js li
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://github.com/get-alex/alex
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

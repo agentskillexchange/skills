@@ -1,14 +1,14 @@
 ---
-name: "Draft release notes continuously with Release Drafter"
-slug: "draft-release-notes-continuously-with-release-drafter"
+title: "Draft release notes continuously with Release Drafter"
 description: "Keep a living release draft in GitHub so merged pull requests are organized into release notes before ship day."
-github_stars: 3869
 verification: "security_reviewed"
 source: "https://github.com/release-drafter/release-drafter"
 author: "Release Drafter maintainers"
 publisher_type: "organization"
-category: "CI/CD Integrations"
-framework: "Multi-Framework"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "release-drafter/release-drafter"
   github_stars: 3869
@@ -24,21 +24,19 @@ GitHub Actions, Release Drafter
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Before pushing, run npm run all to format, lint, type-check, test, and
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- The action requires a configuration file. Default location is
-- | filter-by-range | Optional | Filter releases that satisfies a semver range. Evaluates the tag name againts node's semver.satisfies(). Default : "*". |
-- | $NEXT_PRERELEASE_VERSION | The next prerelease suffix. Depends on prerelease-identifier. Ex: v1.2.3-beta.3. Default : '' |
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- You can use the
-- [Release Drafter GitHub Action](https://github.com/marketplace/actions/release-drafter)
-- in a
+Install command or upstream instructions:
 
-- Source: https://github.com/release-drafter/release-drafter
-- Extracted from upstream docs: https://raw.githubusercontent.com/release-drafter/release-drafter/HEAD/README.md
+```
+Add the Release Drafter GitHub Action and a `.github/release-drafter.yml` template, then let merged PRs populate the draft release automatically.
+```
 
 ## Documentation
 

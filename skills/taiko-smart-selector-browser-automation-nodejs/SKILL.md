@@ -1,13 +1,13 @@
 ---
-name: "Taiko Smart-Selector Browser Automation for Node.js"
-slug: "taiko-smart-selector-browser-automation-nodejs"
+title: "Taiko Smart-Selector Browser Automation for Node.js"
 description: "Taiko is a Node.js browser automation framework from the Gauge and Thoughtworks ecosystem. Its smart selectors and REPL-driven recorder make it useful for readable UI tests, browser flows, and scripted validation without relying heavily on brittle CSS or XPath selectors."
-github_stars: 3666
 verification: "security_reviewed"
 source: "https://github.com/getgauge/taiko"
 author: "getgauge"
-category: "Browser Automation"
-framework: "Multi-Framework"
+category:
+  - "Browser Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "getgauge/taiko"
   github_stars: 3666
@@ -21,22 +21,13 @@ Taiko is a Node.js browser automation framework from the Gauge and Thoughtworks 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- $ npm install -g taiko
-- $ npm install @getgauge/cli
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- A Node.js library for testing modern web applications
-- Taiko is a free and open source browser automation tool built by the team behind [Gauge](https://gauge.org/) from [ThoughtWorks](https://www.thoughtworks.com/). Taiko is a Node.js library with a clear and concise API...
-- Taiko works on Windows, MacOS and Linux. You only need [Node.js](https://nodejs.org/en/) installed in your system to start writing Taiko scripts in JavaScript. After you’ve installed Node.js open a terminal applicatio...
-
-Basic usage or getting-started notes:
-- Record/Write/Run tests
-- ## Easy Installation
-- This installs Taiko and the latest version of Chromium browser. We are all set to do some testing!
-
-- Source: https://github.com/getgauge/taiko
-- Extracted from upstream docs: https://raw.githubusercontent.com/getgauge/taiko/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

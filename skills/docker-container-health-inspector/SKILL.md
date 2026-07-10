@@ -1,12 +1,12 @@
 ---
-name: "Docker Container Health Inspector"
-slug: "docker-container-health-inspector"
+title: "Docker Container Health Inspector"
 description: "Inspects Docker container health using the Docker Engine API v1.45 /containers/{id}/json and /containers/{id}/stats endpoints. Diagnoses OOM kills, restart loops, and network connectivity issues with automated log analysis via /containers/{id}/logs streaming."
-github_stars: 71492
 verification: "security_reviewed"
 source: "https://github.com/moby/moby"
-category: "Runbooks & Diagnostics"
-framework: "MCP"
+category:
+  - "Runbooks & Diagnostics"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "moby/moby"
   github_stars: 71492
@@ -18,16 +18,13 @@ Inspects Docker container health using the Docker Engine API v1.45 /containers/{
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Docker Engine releases are tagged with a **docker-** prefix (e.g. docker-v29.0.0 for Docker Engine 29.0.0).
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Moby is an open-source project created by Docker to enable and accelerate software containerization.
-- ## Relationship with Docker
-- The components and tools in the Moby Project are initially the open source components that Docker and the community have built for the Docker Project.
-
-- Source: https://github.com/moby/moby
-- Extracted from upstream docs: https://raw.githubusercontent.com/moby/moby/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

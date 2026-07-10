@@ -1,14 +1,14 @@
 ---
-name: "Build Go MCP servers with MCP Go"
-slug: "build-go-mcp-servers-with-mcp-go"
+title: "Build Go MCP servers with MCP Go"
 description: "Use MCP Go to implement typed Model Context Protocol servers in Go that expose tools, resources, prompts, and transport handlers to agent clients."
-github_stars: 8815
 verification: "security_reviewed"
 source: "https://github.com/mark3labs/mcp-go"
 author: "mark3labs"
 publisher_type: "organization"
-category: "Integrations & Connectors"
-framework: "MCP"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "mark3labs/mcp-go"
   github_stars: 8815
@@ -24,17 +24,19 @@ Go, MCP Go module, MCP-compatible client or host runtime
 
 ## Installation
 
-Requirements and caveats from upstream:
-- // Example: A tool that requires task execution
-- Servers that require OAuth can advertise their authorization requirements
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- go get github.com/mark3labs/mcp-go
-- Let's create a simple MCP server that exposes a calculator tool and some data:
-- go
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/mark3labs/mcp-go
-- Extracted from upstream docs: https://raw.githubusercontent.com/mark3labs/mcp-go/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install with `go get github.com/mark3labs/mcp-go`, create a Go MCP server with registered tools, resources, prompts, and handlers, then run it with the transport expected by the target MCP client.
+```
 
 ## Documentation
 

@@ -1,14 +1,14 @@
 ---
-name: "Apply rule-based guardrails to agent traces and tool flows with Invariant"
-slug: "apply-rule-based-guardrails-to-agent-traces-and-tool-flows-with-invariant"
+title: "Apply rule-based guardrails to agent traces and tool flows with Invariant"
 description: "Insert a trace-aware guardrail layer between agents and their tools so unsafe message patterns or tool-call sequences are blocked by explicit rules."
-github_stars: 409
 verification: "security_reviewed"
 source: "https://github.com/invariantlabs-ai/invariant"
 author: "Invariant Labs"
 publisher_type: "organization"
-category: "Security & Verification"
-framework: "Multi-Framework"
+category:
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "invariantlabs-ai/invariant"
   github_stars: 409
@@ -26,16 +26,19 @@ Python environment or Invariant Gateway deployment, target LLM or MCP-enabled ag
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Guardrailing rules are simple Python-inspired matching rules, that can be written to identify and prevent malicious agent behavior:
-- python
-- Here, (msg: Message) automatically is assigned every checkable message, whereas the second line executes like regular Python. To facilitate checking Guardrails comes with an extensive standard library of operations, a...
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- <a href="https://invariantlabs-ai.github.io/docs/mcp-scan/guardrails-reference/">Getting Started</a> |
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/invariantlabs-ai/invariant
-- Extracted from upstream docs: https://raw.githubusercontent.com/invariantlabs-ai/invariant/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install the upstream package or gateway from the documented instructions, define guardrail rules for the target workflow, then run Invariant inline as a proxy or locally against captured traces to review and enforce violations.
+```
 
 ## Documentation
 

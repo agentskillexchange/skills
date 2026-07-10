@@ -1,14 +1,14 @@
 ---
-name: "Coordinate persistent Copilot agent teams with Squad"
-slug: "coordinate-persistent-copilot-agent-teams-with-squad"
+title: "Coordinate persistent Copilot agent teams with Squad"
 description: "Use Squad to create human-directed specialist agents that persist in a repository, share decisions through files, and help coordinate implementation, testing, and review work in GitHub Copilot."
-github_stars: 2518
 verification: "security_reviewed"
 source: "https://github.com/bradygaster/squad"
 author: "Brady Gaster"
 publisher_type: "independent_open_source"
-category: "Templates & Workflows"
-framework: "Custom Agents"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "bradygaster/squad"
   github_stars: 2518
@@ -26,23 +26,19 @@ Node/npm; Squad CLI; GitHub CLI authentication; GitHub Copilot agent mode
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install -g @bradygaster/squad-cli
-- git clone https://github.com/bradygaster/squad.git
-- npm install
-- npm run build
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Here's what I'm building: a recipe sharing app with React and Node.
-- node ./packages/squad-cli/dist/cli-entry.js init
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ### 1. Create your project
-- bash
-- mkdir my-project && cd my-project
+Install command or upstream instructions:
 
-- Source: https://github.com/bradygaster/squad
-- Extracted from upstream docs: https://raw.githubusercontent.com/bradygaster/squad/HEAD/README.md
+```
+Run npm install -g @bradygaster/squad-cli, run squad init in a git repository, authenticate with gh auth login, then invoke the Squad agent in GitHub Copilot and approve the proposed team.
+```
 
 ## Documentation
 

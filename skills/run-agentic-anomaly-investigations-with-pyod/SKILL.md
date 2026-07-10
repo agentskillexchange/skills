@@ -1,14 +1,14 @@
 ---
-name: "Run agentic anomaly investigations with PyOD"
-slug: "run-agentic-anomaly-investigations-with-pyod"
-description: "Use PyOD's agent skill or MCP server to turn natural-language anomaly detection requests into repeatable detector selection, fitting, scoring, and investigation workflows."
-github_stars: 9854
+title: "Run agentic anomaly investigations with PyOD"
+description: "Use PyOD’s agent skill or MCP server to turn natural-language anomaly detection requests into repeatable detector selection, fitting, scoring, and investigation workflows."
 verification: "security_reviewed"
 source: "https://github.com/yzhao062/pyod"
 author: "PyOD maintainers"
 publisher_type: "individual"
-category: "Monitoring & Alerts"
-framework: "Multi-Framework"
+category:
+  - "Monitoring & Alerts"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "yzhao062/pyod"
   github_stars: 9854
@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Run agentic anomaly investigations with PyOD
 
-Use PyOD's agent skill or MCP server to turn natural-language anomaly detection requests into repeatable detector selection, fitting, scoring, and investigation workflows.
+Use PyOD’s agent skill or MCP server to turn natural-language anomaly detection requests into repeatable detector selection, fitting, scoring, and investigation workflows.
 
 ## Prerequisites
 
@@ -24,22 +24,19 @@ Python, pip, PyOD, optional MCP-compatible client
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install pyod
-- pip install pyod[mcp]
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Python Outlier Detection (PyOD) 3
-- PyOD 3 is the most comprehensive Python library for anomaly detection. Four pillars:
-- # 2. Any MCP-compatible LLM — requires the optional mcp extra
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ^^^^^^^
-- Core library (required for every activation path):
-- .. code-block:: bash
+Install command or upstream instructions:
 
-- Source: https://github.com/yzhao062/pyod
-- Extracted from upstream docs: https://raw.githubusercontent.com/yzhao062/pyod/HEAD/README.rst
+```
+Install with `pip install pyod`. For agent skill use, run `pyod install skill` or `pyod install skill --project`. For MCP clients, install `pip install pyod[mcp]` and start the server with `pyod mcp serve`.
+```
 
 ## Documentation
 

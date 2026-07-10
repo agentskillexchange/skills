@@ -1,14 +1,14 @@
 ---
-name: "Break large coding jobs into focused subagent missions with AB Method"
-slug: "break-large-coding-jobs-into-focused-subagent-missions-with-ab-method"
+title: "Break large coding jobs into focused subagent missions with AB Method"
 description: "Use AB Method when a Claude Code task is too large for one pass and needs to be broken into focused tasks and missions that are completed incrementally instead of trying to solve the whole project in one conversation."
-github_stars: 159
 verification: "security_reviewed"
 source: "https://github.com/ayoubben18/ab-method"
 author: "ayoubben18"
 publisher_type: "individual"
-category: "Templates & Workflows"
-framework: "Claude Code"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "ayoubben18/ab-method"
   github_stars: 159
@@ -26,16 +26,19 @@ Claude Code, the AB Method installer or workflow files, and a repository where g
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx ab-method
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- bash
-- The installer detects your environment and installs accordingly:
-- | Detected | Result |
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/ayoubben18/ab-method
-- Extracted from upstream docs: https://raw.githubusercontent.com/ayoubben18/ab-method/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install AB Method using the documented npx installer or manual project setup, let it add the command files and workflow directories to your Claude Code environment, then create tasks and missions through the provided commands so larger jobs run as bounded incremental work instead of one monolithic session.
+```
 
 ## Documentation
 

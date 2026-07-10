@@ -1,12 +1,12 @@
 ---
-name: "ripgrep Recursive Regex Search Tool"
-slug: "ripgrep-recursive-regex-search-tool"
+title: "ripgrep Recursive Regex Search Tool"
 description: "ripgrep (rg) is a line-oriented search tool that recursively searches directories for regex patterns while respecting .gitignore rules. Written in Rust, it outperforms grep, ag, and ack on large codebases by significant margins and supports Unicode by default."
-github_stars: 61743
 verification: "security_reviewed"
 source: "https://github.com/BurntSushi/ripgrep"
-category: "Developer Tools"
-framework: "Claude Code"
+category:
+  - "Developer Tools"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "BurntSushi/ripgrep"
   github_stars: 61743
@@ -18,22 +18,13 @@ ripgrep (rg) is a line-oriented search tool that recursively searches directorie
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- $ brew install ripgrep
-- $ cargo install ripgrep
-- $ cargo binstall ripgrep
-- $ git clone https://github.com/BurntSushi/ripgrep
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- For example, rg -tpy foo limits your search to Python files and rg -Tjs
-
-Basic usage or getting-started notes:
-- This example searches the entire
-- The binary name for ripgrep is rg.
-- **[Archives of precompiled binaries for ripgrep are available for Windows,
-
-- Source: https://github.com/BurntSushi/ripgrep
-- Extracted from upstream docs: https://raw.githubusercontent.com/BurntSushi/ripgrep/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

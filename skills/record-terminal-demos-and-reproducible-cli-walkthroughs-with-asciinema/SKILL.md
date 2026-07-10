@@ -1,14 +1,14 @@
 ---
-name: "Record terminal demos and reproducible CLI walkthroughs with asciinema"
-slug: "record-terminal-demos-and-reproducible-cli-walkthroughs-with-asciinema"
+title: "Record terminal demos and reproducible CLI walkthroughs with asciinema"
 description: "Capture a terminal session as a replayable cast when an agent needs a text-native CLI repro or walkthrough instead of a generic screen recording."
-github_stars: 17188
 verification: "security_reviewed"
 source: "https://github.com/asciinema/asciinema"
 author: "asciinema"
 publisher_type: "organization"
-category: "Media & Transcription"
-framework: "Multi-Framework"
+category:
+  - "Media & Transcription"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "asciinema/asciinema"
   github_stars: 17188
@@ -24,22 +24,19 @@ asciinema CLI and a terminal session to record
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- cargo install --locked --git https://github.com/asciinema/asciinema
-- git clone https://github.com/asciinema/asciinema
-- cargo build --release
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Building asciinema from source requires the [Rust](https://www.rust-lang.org/)
-- The previous generation (2.x), written in Python, can be found in the python
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- To record a session run this command in your shell:
-- To stream a session via built-in HTTP server run:
-- To stream a session via a relay (asciinema server) run:
+Install command or upstream instructions:
 
-- Source: https://github.com/asciinema/asciinema
-- Extracted from upstream docs: https://raw.githubusercontent.com/asciinema/asciinema/HEAD/README.md
+```
+Install asciinema with your package manager or from release artifacts, then record a session with `asciinema rec`, stop recording when the workflow is complete, and replay or share the resulting cast file as needed.
+```
 
 ## Documentation
 

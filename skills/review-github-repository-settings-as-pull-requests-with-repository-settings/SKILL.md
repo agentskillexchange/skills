@@ -1,14 +1,14 @@
 ---
-name: "Review GitHub repository settings as pull requests with repository-settings"
-slug: "review-github-repository-settings-as-pull-requests-with-repository-settings"
+title: "Review GitHub repository settings as pull requests with repository-settings"
 description: "Use repository-settings when an operator wants GitHub repository configuration changes reviewed as code before branch protection, labels, teams, or other settings are applied."
-github_stars: 1043
 verification: "security_reviewed"
 source: "https://github.com/repository-settings/app"
 author: "repository-settings"
 publisher_type: "open_source"
-category: "Code Quality & Review"
-framework: "Custom Agents"
+category:
+  - "Code Quality & Review"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "repository-settings/app"
   github_stars: 1043
@@ -26,18 +26,19 @@ GitHub App installation, .github/settings.yml, GitHub pull request review workfl
 
 ## Installation
 
-Requirements and caveats from upstream:
-- [![Node CI Workflow Status][github-actions-ci-badge]][github-actions-ci-link]
-- .github/settings.yml file, and turn on "require code owner review" for the
-- [github-actions-ci-badge]: https://github.com/repository-settings/app/workflows/Node.js%20CI/badge.svg
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- [Usage](#usage)
-- To gain the benefits of the Repository Settings app, it will need to installed
-- as a GitHub App on your repositories.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/repository-settings/app
-- Extracted from upstream docs: https://raw.githubusercontent.com/repository-settings/app/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install the hosted GitHub App from https://github.com/apps/settings or self-host from https://github.com/repository-settings/app, then define repository settings in .github/settings.yml and review changes through pull requests before merging.
+```
 
 ## Documentation
 

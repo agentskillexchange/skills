@@ -1,14 +1,14 @@
 ---
-name: "Run multi-session coding-agent workflows with jcode"
-slug: "run-multi-session-coding-agent-workflows-with-jcode"
+title: "Run multi-session coding-agent workflows with jcode"
 description: "Use jcode as a local coding-agent harness for long-running, multi-session repository work with custom provider and memory configuration."
-github_stars: 8229
 verification: "security_reviewed"
 source: "https://github.com/1jehuang/jcode"
 author: "1jehuang"
 publisher_type: "individual"
-category: "Developer Tools"
-framework: "Custom Agents"
+category:
+  - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "1jehuang/jcode"
   github_stars: 8229
@@ -24,24 +24,19 @@ Local shell, Git, jcode CLI, configured model provider
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew tap 1jehuang/jcode
-- brew install jcode
-- git clone https://github.com/1jehuang/jcode.git
-- cargo build --release
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- extra_body — inject non-standard top-level fields into every chat/completions request body for backends that require them. See [Extra request-body fields](#extra-request-body-fields-extra_body) below.
-- For local servers that do not require auth:
-- Some OpenAI-compatible backends require non-standard top-level request fields. For example, NVIDIA NIM DeepSeek-V4 reasoning models (deepseek-ai/deepseek-v4-flash, deepseek-ai/deepseek-v4-pro) only enable thinking whe...
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Website](https://solosystems.dev/jcode) · [Features](#features) · [Install](#installation) · [Quick Start](#quick-start) · [Further Reading](#further-reading) · [Contributing](CONTRIBUTING.md)
-- jcode is built to be as performant and resource efficient as possible. Every metric is optimized to the bone, which is important for scaling multi-session workflows. Here we sample a few metrics to show the difference...
-- Measured on this Linux machine across 10 interactive PTY launches. Antigravity CLI was unauthenticated for this run; its sign-in screen rendered normally and emitted an internal CLI ready for user input marker, but di...
+Install command or upstream instructions:
 
-- Source: https://github.com/1jehuang/jcode
-- Extracted from upstream docs: https://raw.githubusercontent.com/1jehuang/jcode/HEAD/README.md
+```
+Download the appropriate jcode release archive from https://github.com/1jehuang/jcode/releases, place the binary on PATH, then configure model/provider access before running jcode inside the target repository.
+```
 
 ## Documentation
 

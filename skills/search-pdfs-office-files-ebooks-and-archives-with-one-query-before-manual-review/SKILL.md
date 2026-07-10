@@ -1,14 +1,14 @@
 ---
-name: "Search PDFs, Office files, ebooks, and archives with one query before manual review"
-slug: "search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review"
+title: "Search PDFs, Office files, ebooks, and archives with one query before manual review"
 description: "Uses ripgrep-all to run one full-text search across mixed document and archive formats so an agent can find evidence without separately extracting every file type first. Best when a workflow has PDFs, Office documents, ebooks, media sidecars, or compressed bundles that need fast on-demand search."
-github_stars: 9573
 verification: "security_reviewed"
 source: "https://github.com/phiresky/ripgrep-all"
 author: "phiresky"
 publisher_type: "User"
-category: "Research & Scraping"
-framework: "Multi-Framework"
+category:
+  - "Research & Scraping"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "phiresky/ripgrep-all"
   github_stars: 9573
@@ -24,17 +24,19 @@ ripgrep; optional adapters and dependencies such as pandoc, poppler, and ffmpeg.
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install rga
-- brew install pandoc poppler ffmpeg
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Here is an [example directory](https://github.com/phiresky/ripgrep-all/tree/master/exampledir/demo) with different file types:
-- Linux x64, macOS and Windows binaries are available [in GitHub Releases][latestrelease].
-- [latestrelease]: https://github.com/phiresky/ripgrep-all/releases/latest
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/phiresky/ripgrep-all
-- Extracted from upstream docs: https://raw.githubusercontent.com/phiresky/ripgrep-all/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install via Homebrew (`brew install rga`) or Cargo (`cargo install --locked ripgrep_all`).
+```
 
 ## Documentation
 

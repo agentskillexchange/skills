@@ -1,23 +1,23 @@
 ---
-name: "OpsGenie MCP Server"
-slug: "opsgenie-mcp-server"
-description: ""
-github_stars: 24
+title: "OpsGenie MCP Server"
+description: "OpsGenie MCP Server is built around Opsgenie incident and on-call platform. The underlying ecosystem is represented by opsgenie/opsgenie-nodejs-sdk (24+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like alerts, schedules, teams, escalation policies, notes, integrations and preserving the […]"
 verification: "security_reviewed"
 source: "https://github.com/opsgenie/opsgenie-nodejs-sdk"
 author: "Opsgenie"
-category: "Monitoring & Alerts"
-framework: "MCP"
+category:
+  - "Monitoring & Alerts"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "opsgenie/opsgenie-nodejs-sdk"
   github_stars: 24
   npm_package: "opsgenie-sdk"
-  npm_weekly_downloads: 4599
+  npm_weekly_downloads: 4264
 ---
 
 # OpsGenie MCP Server
 
-
+OpsGenie MCP Server is built around Opsgenie incident and on-call platform. The underlying ecosystem is represented by opsgenie/opsgenie-nodejs-sdk (24+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like alerts, schedules, teams, escalation policies, notes, integrations and preserving the […]
 
 ## Prerequisites
 
@@ -25,21 +25,19 @@ Node.js, npm
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install opsgenie-sdk
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- # OpsGenie Node.js SDK
-- This is the repository for Node.js SDK of OpsGenie.
-- OpsGenie Node.js SDK aims to access OpsGenie Web API through HTTP calls from Node.js applications.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- js
-- opsgenie.configure({
-- api_key: "your_api_key",
+Install command or upstream instructions:
 
-- Source: https://github.com/opsgenie/opsgenie-nodejs-sdk
-- Extracted from upstream docs: https://raw.githubusercontent.com/opsgenie/opsgenie-nodejs-sdk/HEAD/README.md
+```
+npm install opsgenie-sdk
+```
 
 ## Documentation
 

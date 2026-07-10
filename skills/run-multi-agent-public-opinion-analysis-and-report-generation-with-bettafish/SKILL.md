@@ -1,14 +1,14 @@
 ---
-name: "Run multi-agent public opinion analysis and report generation with BettaFish"
-slug: "run-multi-agent-public-opinion-analysis-and-report-generation-with-bettafish"
+title: "Run multi-agent public opinion analysis and report generation with BettaFish"
 description: "Collect public discussion, coordinate specialist agents, and generate an evidence-backed public opinion report from one conversational analysis request."
-github_stars: 41383
 verification: "security_reviewed"
 source: "https://github.com/666ghj/BettaFish"
 author: "666ghj"
 publisher_type: "individual"
-category: "Research & Scraping"
-framework: "Custom Agents"
+category:
+  - "Research & Scraping"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "666ghj/BettaFish"
   github_stars: 41383
@@ -24,23 +24,19 @@ Python 3.9+, Docker Compose or Python environment, PostgreSQL or MySQL, Playwrig
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- docker compose up -d
-- conda create -n your_conda_name python=3.11
-- conda activate your_conda_name
-- uv venv --python 3.11 # 创建3.11环境
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Docker](https://img.shields.io/badge/Docker-Build-2496ED?style=flat-square&logo=docker&logoColor=white)](https://hub.docker.com/)
-- ├── docker-compose.yml # Docker多服务编排配置
-- **注：镜像拉取速度慢**，在原 docker-compose.yml 文件中，我们已经通过**注释**的方式提供了备用镜像地址供您替换
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ├── .env.example # 环境变量示例文件
-- 复制一份 .env.example 文件，命名为 .env ，并按需配置 .env 文件中的环境变量
+Install command or upstream instructions:
 
-- Source: https://github.com/666ghj/BettaFish
-- Extracted from upstream docs: https://raw.githubusercontent.com/666ghj/BettaFish/HEAD/README.md
+```
+For Docker, clone the repository, configure database and LLM settings, then run `docker compose up -d`. For source startup, create a Python 3.11 environment, install `requirements.txt`, run `playwright install chromium`, copy `.env.example` to `.env`, fill database and OpenAI-compatible LLM settings, then launch the documented Flask application.
+```
 
 ## Documentation
 

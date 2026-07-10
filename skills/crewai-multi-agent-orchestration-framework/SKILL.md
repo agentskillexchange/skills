@@ -1,12 +1,12 @@
 ---
-name: "CrewAI Multi-Agent Orchestration Framework"
-slug: "crewai-multi-agent-orchestration-framework"
+title: "CrewAI Multi-Agent Orchestration Framework"
 description: "CrewAI is a lean, lightning-fast Python framework for orchestrating role-playing autonomous AI agents. It enables developers to define agents with specific roles, goals, and backstories, then assemble them into crews that collaborate on complex tasks through sequential or parallel workflows."
-github_stars: 47658
 verification: "security_reviewed"
 source: "https://github.com/crewAIInc/crewAI"
-category: "Developer Tools"
-framework: "Custom Agents"
+category:
+  - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "crewaiinc/crewai"
   github_stars: 47658
@@ -18,24 +18,13 @@ CrewAI is a lean, lightning-fast Python framework for orchestrating role-playing
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx skills add crewaiinc/skills
-- uv pip install crewai
-- uv pip install 'crewai[tools]'
-- Make sure you find any interesting and relevant information given
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- CrewAI is a lean, lightning-fast Python framework built entirely from scratch—completely **independent of LangChain or other agent frameworks**.
-- CrewAI AMP Suite is a comprehensive bundle tailored for organizations that require secure, scalable, and easy-to-manage agent-driven automation.
-- Clean integration of AI agents with production Python code
-
-Basic usage or getting-started notes:
-- [Getting Started](#getting-started)
-- **High Performance**: Optimized for speed and minimal resource usage, enabling faster execution.
-- [![CrewAI Getting Started Tutorial](https://img.youtube.com/vi/-kSOTtYzgEw/hqdefault.jpg)](https://www.youtube.com/watch?v=-kSOTtYzgEw "CrewAI Getting Started Tutorial")
-
-- Source: https://github.com/crewAIInc/crewAI
-- Extracted from upstream docs: https://raw.githubusercontent.com/crewAIInc/crewAI/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

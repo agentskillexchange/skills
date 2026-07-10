@@ -1,13 +1,14 @@
 ---
-name: "Devcontainer Specification Builder"
-slug: "devcontainer-specification-builder"
+title: "Devcontainer Specification Builder"
 description: "Generates dev container specifications with feature composition and lifecycle hooks. Uses the Dev Container Specification API, OCI feature registry, and devcontainer CLI for container-based development environments."
-github_stars: 5357
 verification: "security_reviewed"
 source: "https://github.com/devcontainers/spec"
 author: "Dev Containers"
-category: "Developer Tools"
-framework: "Claude Agents"
+category:
+  - "Developer Tools"
+framework:
+  - "Claude Agents"
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "devcontainers/spec"
   github_stars: 5357
@@ -19,13 +20,13 @@ Generates dev container specifications with feature composition and lifecycle ho
 
 ## Installation
 
-Basic usage or getting-started notes:
-- A development container allows you to use a container as a full-featured development environment. It can be used to run an application, to separate tools, libraries, or runtimes needed for working with a codebase, and...
-- We envision that this same structured data can be embedded in images and other formats – all while retaining a common object model for consistent processing. For example, some of this same metadata can be added to a d...
-- Beyond repeatable setup, these same development containers provide consistency to avoid environment specific problems across developers and centralized build and test automation services. You can use the [open-source...
+Choose whichever fits your setup:
 
-- Source: https://github.com/devcontainers/spec
-- Extracted from upstream docs: https://raw.githubusercontent.com/devcontainers/spec/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

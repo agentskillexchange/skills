@@ -1,14 +1,14 @@
 ---
-name: "Dokploy Self-Hosted Application Deployment Platform"
-slug: "dokploy-self-hosted-application-deployment-platform"
+title: "Dokploy Self-Hosted Application Deployment Platform"
 description: "Deploy and manage Dockerized apps on your own infrastructure with Dokploy, an open source platform positioned as an alternative to Heroku, Vercel, and Netlify. This skill is useful when agents need to stand up services, manage compose stacks, provision databases, and reason about Traefik-backed deployment workflows from real Dokploy docs and project conventions."
-github_stars: 32998
 verification: "security_reviewed"
 source: "https://github.com/Dokploy/dokploy"
 author: "Dokploy"
 publisher_type: "Open Source Project"
-category: "CI/CD Integrations"
-framework: "Multi-Framework"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Dokploy/dokploy"
   github_stars: 32998
@@ -24,18 +24,19 @@ Docker, Docker Swarm, Traefik, Linux VPS
 
 ## Installation
 
-Requirements and caveats from upstream:
-- **Applications**: Deploy any type of application (Node.js, PHP, Python, Go, Ruby, etc.).
-- **Docker Compose**: Native support for Docker Compose to manage complex applications.
-- **Multi Node**: Scale applications to multiple nodes using Docker Swarm to manage the cluster.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- **Real-time Monitoring**: Monitor CPU, memory, storage, and network usage for every resource.
-- ## 🚀 Getting Started
-- To get started, run the following command on a VPS:
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/Dokploy/dokploy
-- Extracted from upstream docs: https://raw.githubusercontent.com/Dokploy/dokploy/HEAD/README.md
+Install command or upstream instructions:
+
+```
+curl -sSL https://dokploy.com/install.sh | sh
+```
 
 ## Documentation
 

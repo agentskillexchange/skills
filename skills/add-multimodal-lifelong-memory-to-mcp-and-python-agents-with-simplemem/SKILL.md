@@ -1,14 +1,14 @@
 ---
-name: "Add multimodal lifelong memory to MCP and Python agents with SimpleMem"
-slug: "add-multimodal-lifelong-memory-to-mcp-and-python-agents-with-simplemem"
+title: "Add multimodal lifelong memory to MCP and Python agents with SimpleMem"
 description: "Use SimpleMem to store, compress, index, and retrieve text or multimodal memories for agents through MCP or Python integrations."
-github_stars: 3522
 verification: "security_reviewed"
 source: "https://github.com/aiming-lab/SimpleMem"
 author: "Aiming Lab"
 publisher_type: "organization"
-category: "Integrations & Connectors"
-framework: "MCP"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "aiming-lab/SimpleMem"
   github_stars: 3522
@@ -24,23 +24,19 @@ SimpleMem Python package or MCP server, MCP-capable client or Python agent runti
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/aiming-lab/SimpleMem.git
-- pip install -r requirements.txt
-- pip install -e . # default: text + multimodal + evolver
-- pip install -e ".[server]" # + MCP / HTTP server (mcp, fastapi, ...)
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <p><b>Works with any AI platform that supports MCP (text memory) or Python integration (full multimodal)</b></p>
-- <a href="https://pypi.org/project/simplemem/"><img src="https://img.shields.io/pypi/pyversions/simplemem?style=flat&label=python&labelColor=555&color=3775A9&logo=python&logoColor=white" alt="Python"></a>
-- python
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [🚀 Quick Start](#-quick-start) • [🌟 Overview](#-overview) • [📦 Installation](#-installation) • [🔌 MCP Server](#-mcp-server-text-memory) • [📊 Reproduce](#-reproduce-paper-results) • [📝 Citation](#-citation)
-- **[01/20/2026]** 📦 **SimpleMem is now available on PyPI!** Install via pip install simplemem. [View Package Usage Guide →](docs/PACKAGE_USAGE.md)
+Install command or upstream instructions:
 
-- Source: https://github.com/aiming-lab/SimpleMem
-- Extracted from upstream docs: https://raw.githubusercontent.com/aiming-lab/SimpleMem/HEAD/README.md
+```
+Install simplemem from PyPI for Python workflows or configure the documented SimpleMem MCP server for text-memory workflows, add scoped dialogue or multimodal memories, finalize or index them, then query relevant memory before agent responses.
+```
 
 ## Documentation
 

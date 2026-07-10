@@ -1,12 +1,12 @@
 ---
-name: "WPGraphQL GraphQL API for WordPress"
-slug: "wpgraphql-graphql-api-wordpress"
+title: "WPGraphQL GraphQL API for WordPress"
 description: "Builds headless WordPress workflows around WPGraphQL, the open-source GraphQL API plugin for WordPress. Useful for querying posts, custom post types, menus, taxonomies, and custom fields through typed GraphQL operations instead of ad hoc REST fetches."
-github_stars: 3777
 verification: "security_reviewed"
 source: "https://github.com/wp-graphql/wp-graphql"
-category: "WordPress & CMS"
-framework: "Multi-Framework"
+category:
+  - "WordPress & CMS"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "wp-graphql/wp-graphql"
   github_stars: 3777
@@ -18,14 +18,13 @@ Builds headless WordPress workflows around WPGraphQL, the open-source GraphQL AP
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Breaking changes that require community feedback
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- ![graphiql-ide-example.gif](plugins/wp-graphql/img/graphiql-ide-example.gif)
-
-- Source: https://github.com/wp-graphql/wp-graphql
-- Extracted from upstream docs: https://raw.githubusercontent.com/wp-graphql/wp-graphql/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,23 +1,23 @@
 ---
-name: "ESLint Code Review"
-slug: "eslint-code-review"
-description: ""
-github_stars: 27264
+title: "ESLint Code Review"
+description: "ESLint Code Review is built around ESLint static analysis for JavaScript and TypeScript. The underlying ecosystem is represented by eslint/eslint (27,186+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like eslint CLI, flat config, plugins, formatters, autofix, rule […]"
 verification: "security_reviewed"
 source: "https://github.com/eslint/eslint"
 author: "ESLint"
-category: "Developer Tools"
-framework: "Claude Code"
+category:
+  - "Developer Tools"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "eslint/eslint"
   github_stars: 27264
   npm_package: "eslint"
-  npm_weekly_downloads: 134639235
+  npm_weekly_downloads: 137022569
 ---
 
 # ESLint Code Review
 
-
+ESLint Code Review is built around ESLint static analysis for JavaScript and TypeScript. The underlying ecosystem is represented by eslint/eslint (27,186+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like eslint CLI, flat config, plugins, formatters, autofix, rule […]
 
 ## Prerequisites
 
@@ -25,22 +25,19 @@ Node.js, npm
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm init @eslint/config@latest
-- npx eslint yourfile.js
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- To use ESLint, you must have [Node.js](https://nodejs.org/) (^20.19.0, ^22.13.0, or >=24) installed and built with SSL support. (If you are using an official Node.js distribution, SSL is always built in.)
-- node-linker=hoisted
-- ### Which Node.js versions does ESLint support?
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Installation and Usage](#installation-and-usage)
-- If you use ESLint's TypeScript type definitions, TypeScript 5.3 or later is required.
-- ### npm Installation
+Install command or upstream instructions:
 
-- Source: https://github.com/eslint/eslint
-- Extracted from upstream docs: https://raw.githubusercontent.com/eslint/eslint/HEAD/README.md
+```
+npm install eslint --save-dev
+```
 
 ## Documentation
 

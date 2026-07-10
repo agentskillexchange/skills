@@ -1,14 +1,14 @@
 ---
-name: "Publish versioned MkDocs documentation with mike"
-slug: "publish-versioned-mkdocs-documentation-with-mike"
+title: "Publish versioned MkDocs documentation with mike"
 description: "Use mike when an agent needs to publish multiple versions of a MkDocs site without overwriting older documentation."
-github_stars: 728
 verification: "security_reviewed"
 source: "https://github.com/jimporter/mike"
 author: "jimporter"
 publisher_type: "individual"
-category: "Content Writing & SEO"
-framework: "Multi-Framework"
+category:
+  - "Content Writing & SEO"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jimporter/mike"
   github_stars: 728
@@ -24,22 +24,19 @@ Python, MkDocs, a Git-backed docs deployment target such as GitHub Pages, and mi
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install mike
-- make commits:
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- **mike** is a Python utility that makes it easy to deploy multiple versions of
-- Like most Python projects, mike uses [setuptools][setuptools], so installation
-- setuptools entry point for mike.themes pointing to a Python submodule that
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- hosting on Github via gh-pages. To see an example of this in action, take a
-- is what you might expect:
-- sh
+Install command or upstream instructions:
 
-- Source: https://github.com/jimporter/mike
-- Extracted from upstream docs: https://raw.githubusercontent.com/jimporter/mike/HEAD/README.md
+```
+Install with `pip install mike`, configure your MkDocs site for versioned publishing, then use mike to deploy named versions and set aliases like `latest`.
+```
 
 ## Documentation
 

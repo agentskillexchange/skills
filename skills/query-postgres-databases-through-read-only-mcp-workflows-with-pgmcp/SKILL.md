@@ -1,14 +1,14 @@
 ---
-name: "Query Postgres databases through read-only MCP workflows with PGMCP"
-slug: "query-postgres-databases-through-read-only-mcp-workflows-with-pgmcp"
+title: "Query Postgres databases through read-only MCP workflows with PGMCP"
 description: "Connect an MCP-compatible assistant to an existing PostgreSQL database for safe natural-language querying, schema-aware SQL, and streamed results."
-github_stars: 529
 verification: "security_reviewed"
 source: "https://github.com/subnetmarco/pgmcp"
 author: "subnetmarco"
 publisher_type: "individual"
-category: "Data Extraction & Transformation"
-framework: "MCP"
+category:
+  - "Data Extraction & Transformation"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "subnetmarco/pgmcp"
   github_stars: 529
@@ -24,23 +24,19 @@ PostgreSQL, DATABASE_URL, optional OpenAI API key, MCP-compatible client
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew tap subnetmarco/homebrew-tap
-- brew install pgmcp
-- docker run -e DATABASE_URL="postgres://user:pass@host:5432/db" \
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ### Docker/Kubernetes
-- # Docker
-- # Integration tests (requires PostgreSQL)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- PGMCP connects to **your existing PostgreSQL database** and makes it accessible to AI assistants through natural language queries.
-- PostgreSQL database (existing database with your schema)
-- OpenAI API key (optional, for AI-powered SQL generation)
+Install command or upstream instructions:
 
-- Source: https://github.com/subnetmarco/pgmcp
-- Extracted from upstream docs: https://raw.githubusercontent.com/subnetmarco/pgmcp/HEAD/README.md
+```
+Download a release binary or build with go build -o pgmcp-server ./server, set DATABASE_URL for the target PostgreSQL database, optionally set OPENAI_API_KEY, then run ./pgmcp-server and connect it from an MCP-compatible client.
+```
 
 ## Documentation
 

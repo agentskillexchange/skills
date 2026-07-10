@@ -1,14 +1,14 @@
 ---
-name: "Turn a PRD into a dependency-aware task graph and keep AI implementation work scoped with Task Master AI"
-slug: "turn-a-prd-into-a-dependency-aware-task-graph-and-keep-ai-implementation-work-scoped-with-task-master-ai"
+title: "Turn a PRD into a dependency-aware task graph and keep AI implementation work scoped with Task Master AI"
 description: "Use Task Master AI when an agent needs to turn a product request or PRD into a dependency-aware task graph, expand or scope tasks, and keep implementation work anchored to an explicit plan instead of improvising in chat."
-github_stars: 26557
 verification: "security_reviewed"
 source: "https://github.com/eyaltoledano/claude-task-master"
 author: "Eyal Toledano"
 publisher_type: "individual"
-category: "Templates & Workflows"
-framework: "Multi-Framework"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "eyaltoledano/claude-task-master"
   github_stars: 26557
@@ -26,24 +26,19 @@ Task Master AI, an AI coding assistant or editor session that can invoke it, and
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install -g task-master-ai
-- npm install task-master-ai
-- npx task-master init
-- git clone https://github.com/eyaltoledano/claude-task-master.git
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Taskmaster utilizes AI across several commands, and those require a separate API key. You can use a variety of models from different AI providers provided you add your API keys. For example, if you want to use Claude...
-- You can define 3 types of models to be used: the main model, the research model, and the fallback model (in case either the main or research fail). Whatever model you use, its provider API key must be present in eithe...
-- Claude Code (no API key required - requires Claude Code CLI)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Quick Start Guide](https://tryhamster.com/docs/taskmaster/getting-started/quick-start/quick-start)
-- At least one (1) of the following is required:
-- Anthropic API key (Claude API)
+Install command or upstream instructions:
 
-- Source: https://github.com/eyaltoledano/claude-task-master
-- Extracted from upstream docs: https://raw.githubusercontent.com/eyaltoledano/claude-task-master/HEAD/README.md
+```
+Install Task Master AI with the package or MCP setup documented by the project, add the required model credentials or local agent integrations, then use its planning commands such as parse-prd, expand, and scope adjustment to generate and maintain the task graph for the target project.
+```
 
 ## Documentation
 

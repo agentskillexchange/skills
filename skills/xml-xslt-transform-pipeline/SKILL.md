@@ -1,13 +1,13 @@
 ---
-name: "XML XSLT Transform Pipeline"
-slug: "xml-xslt-transform-pipeline"
+title: "XML XSLT Transform Pipeline"
 description: "Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath parameter injection, and multi-stage transform pipelines with intermediate validation."
-github_stars: 3021
 verification: "security_reviewed"
 source: "https://github.com/lxml/lxml"
 author: "lxml"
-category: "Data Extraction & Transformation"
-framework: "ChatGPT Agents"
+category:
+  - "Data Extraction & Transformation"
+framework:
+  - "ChatGPT Agents"
 tool_ecosystem:
   github_repo: "lxml/lxml"
   github_stars: 3021
@@ -19,13 +19,13 @@ Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. S
 
 ## Installation
 
-Requirements and caveats from upstream:
-- lxml is the most feature-rich and easy-to-use library for processing XML and HTML in the Python language.
-- lxml has been downloaded from the Python Package Index_
-- .. _Python Package Index: https://pypi.python.org/pypi/lxml
+Choose whichever fits your setup:
 
-- Source: https://github.com/lxml/lxml
-- Extracted from upstream docs: https://raw.githubusercontent.com/lxml/lxml/HEAD/README.rst
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

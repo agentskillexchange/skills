@@ -1,14 +1,14 @@
 ---
-name: "Sign agent-made Git commits with gitsign"
-slug: "sign-agent-made-git-commits-with-gitsign"
+title: "Sign agent-made Git commits with gitsign"
 description: "Apply keyless Sigstore-backed signatures to Git commits so automated changes retain verifiable provenance."
-github_stars: 1079
 verification: "security_reviewed"
 source: "https://github.com/sigstore/gitsign"
 author: "Sigstore maintainers"
 publisher_type: "organization"
-category: "Security & Verification"
-framework: "Multi-Framework"
+category:
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sigstore/gitsign"
   github_stars: 1079
@@ -24,17 +24,19 @@ git, gitsign
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install gitsign
-- go install github.com/sigstore/gitsign@latest
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Using Homebrew:
-- sh
-- Using Go:
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/sigstore/gitsign
-- Extracted from upstream docs: https://raw.githubusercontent.com/sigstore/gitsign/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install `gitsign`, configure Git to use it for commit signing, then create commits normally and verify the signatures in Git or your forge UI.
+```
 
 ## Documentation
 

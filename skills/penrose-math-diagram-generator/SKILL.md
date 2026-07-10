@@ -1,12 +1,12 @@
 ---
-name: "Penrose Mathematical Diagram Generator from Plain Text Notation"
-slug: "penrose-math-diagram-generator"
+title: "Penrose Mathematical Diagram Generator from Plain Text Notation"
 description: "Penrose is an open-source platform that creates beautiful mathematical and scientific diagrams from plain text notation. Define domain concepts, write substance programs, and apply style rules to generate publication-quality SVG visualizations automatically."
-github_stars: 7933
 verification: "security_reviewed"
 source: "https://github.com/penrose/penrose"
-category: "Image & Creative Automation"
-framework: "Multi-Framework"
+category:
+  - "Image & Creative Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "penrose/penrose"
   github_stars: 7933
@@ -18,13 +18,13 @@ Penrose is an open-source platform that creates beautiful mathematical and scien
 
 ## Installation
 
-Basic usage or getting-started notes:
-- You can [try Penrose in your browser](https://penrose.cs.cmu.edu/try/index.html)
-- without any installation. For a more detailed step-by-step introduction, check
-- out our [tutorials](https://penrose.cs.cmu.edu/docs/tutorial/welcome). Or, for
+Choose whichever fits your setup:
 
-- Source: https://github.com/penrose/penrose
-- Extracted from upstream docs: https://raw.githubusercontent.com/penrose/penrose/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

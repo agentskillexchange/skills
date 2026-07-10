@@ -1,12 +1,13 @@
 ---
-name: "Buildkite Pipeline Profiler"
-slug: "buildkite-pipeline-profiler"
+title: "Buildkite Pipeline Profiler"
 description: "Profiles Buildkite pipeline performance using the Buildkite REST API and GraphQL API. Analyzes step durations, agent queue wait times, and artifact upload bottlenecks. Generates optimization reports with buildkite-agent meta-data analysis."
 verification: "listed"
 source: "https://buildkite.com/docs"
 author: "Buildkite"
-category: "CI/CD Integrations"
-framework: "MCP"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "MCP"
 ---
 
 # Buildkite Pipeline Profiler
@@ -15,9 +16,13 @@ Profiles Buildkite pipeline performance using the Buildkite REST API and GraphQL
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://buildkite.com/docs
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

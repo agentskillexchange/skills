@@ -1,12 +1,12 @@
 ---
-name: "Plunk Open Source Transactional Email Platform on AWS SES"
-slug: "plunk-open-source-email-platform-aws-ses"
+title: "Plunk Open Source Transactional Email Platform on AWS SES"
 description: "Plunk is an open-source email platform built on AWS SES for sending transactional emails, creating event-driven automations, and broadcasting newsletters. It serves as a self-hosted alternative to SendGrid, Resend, and Mailgun."
-github_stars: 4955
 verification: "security_reviewed"
 source: "https://github.com/useplunk/plunk"
-category: "Calendar, Email & Productivity"
-framework: "Multi-Framework"
+category:
+  - "Calendar, Email & Productivity"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "useplunk/plunk"
   github_stars: 4955
@@ -18,13 +18,13 @@ Plunk is an open-source email platform built on AWS SES for sending transactiona
 
 ## Installation
 
-Requirements and caveats from upstream:
-- <a href="https://github.com/useplunk/plunk/actions"><img src="https://img.shields.io/github/actions/workflow/status/useplunk/plunk/docker-publish.yml" alt="Build Status"/></a>
-- <a href="https://github.com/useplunk/plunk/pkgs/container/plunk"><img src="https://img.shields.io/badge/docker-available-blue?logo=docker" alt="Docker"/></a>
-- The easiest way to self-host Plunk is by using the plunk Docker image.
+Choose whichever fits your setup:
 
-- Source: https://github.com/useplunk/plunk
-- Extracted from upstream docs: https://raw.githubusercontent.com/useplunk/plunk/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

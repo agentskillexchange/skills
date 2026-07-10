@@ -1,14 +1,14 @@
 ---
-name: "Use OmniParser for vision-based GUI parsing"
-slug: "use-omniparser-for-vision-based-gui-parsing"
+title: "Use OmniParser for vision-based GUI parsing"
 description: "Parse screenshots into structured UI elements so computer-use agents can reason about controls before acting."
-github_stars: 24836
 verification: "security_reviewed"
 source: "https://github.com/microsoft/OmniParser"
 author: "Microsoft"
 publisher_type: "open_source"
-category: "Browser Automation"
-framework: "Multi-Framework"
+category:
+  - "Browser Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "microsoft/OmniParser"
   github_stars: 24836
@@ -24,23 +24,19 @@ Python 3.12; conda; Hugging Face model weights; optional Gradio demo
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- conda create -n "omni" python==3.12
-- conda activate omni
-- pip install -r requirements.txt
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- python
-- python weights/convert_safetensor_to_pt.py
-- python gradio_demo.py
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- First clone the repo, and then install environment:
-- cd OmniParser
-- Ensure you have the V2 weights downloaded in weights folder (ensure caption weights folder is called icon_caption_florence). If not download them with:
+Install command or upstream instructions:
 
-- Source: https://github.com/microsoft/OmniParser
-- Extracted from upstream docs: https://raw.githubusercontent.com/microsoft/OmniParser/HEAD/README.md
+```
+Clone https://github.com/microsoft/OmniParser, create the documented conda environment, install requirements.txt, download the OmniParser model weights from Hugging Face, then run the demo or integrate the parser into a GUI-agent pipeline.
+```
 
 ## Documentation
 

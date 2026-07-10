@@ -1,12 +1,12 @@
 ---
-name: "LLM Command-Line Interface for Large Language Models"
-slug: "llm-command-line-interface-large-language-models"
+title: "LLM Command-Line Interface for Large Language Models"
 description: "LLM is a Python CLI tool and library by Simon Willison for accessing OpenAI, Anthropic Claude, Google Gemini, Meta Llama, and dozens of other language models from the terminal. It supports API-based and local models via plugins, conversation logging to SQLite, templates, embeddings, and tool use."
-github_stars: 11508
 verification: "security_reviewed"
 source: "https://github.com/simonw/llm"
-category: "Developer Tools"
-framework: "Multi-Framework"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "simonw/llm"
   github_stars: 11508
@@ -18,24 +18,13 @@ LLM is a Python CLI tool and library by Simon Willison for accessing OpenAI, Ant
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install llm
-- brew install llm
-- pipx install llm
-- uv tool install llm
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- A CLI tool and Python library for interacting with **OpenAI**, **Anthropic’s Claude**, **Google’s Gemini**, **Meta’s Llama** and dozens of other Large Language Models, both via remote APIs and with models that can be...
-- [Using embeddings from Python](https://llm.datasette.io/en/stable/embeddings/python-api.html)
-- [Working with collections](https://llm.datasette.io/en/stable/embeddings/python-api.html#working-with-collections)
-
-Basic usage or getting-started notes:
-- # Run: sphinx-build -M markdown ./docs ./tmpdir
-- subprocess.run([
-- [Run prompts from the command-line](https://llm.datasette.io/en/stable/usage.html#usage-executing-prompts)
-
-- Source: https://github.com/simonw/llm
-- Extracted from upstream docs: https://raw.githubusercontent.com/simonw/llm/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

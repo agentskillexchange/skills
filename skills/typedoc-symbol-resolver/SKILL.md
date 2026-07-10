@@ -1,13 +1,13 @@
 ---
-name: "TypeDoc Symbol Resolver"
-slug: "typedoc-symbol-resolver"
+title: "TypeDoc Symbol Resolver"
 description: "Resolves TypeScript symbols and generates API documentation using the TypeDoc compiler API and ts-morph for AST manipulation. Creates interlinked reference pages with declaration merging support and module augmentation tracking."
-github_stars: 8391
 verification: "security_reviewed"
 source: "https://github.com/TypeStrong/typedoc"
 author: "TypeStrong"
-category: "Library & API Reference"
-framework: "Claude Agents"
+category:
+  - "Library & API Reference"
+framework:
+  - "Claude Agents"
 tool_ecosystem:
   github_repo: "TypeStrong/typedoc"
   github_stars: 8391
@@ -21,20 +21,19 @@ Resolves TypeScript symbols and generates API documentation using the TypeDoc co
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install typedoc --save-dev
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- TypeDoc runs on Node.js and is available as a NPM package.
-- requires configuration to be present in each directory to specify the entry points. For an example setup, see
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- text
-- To generate documentation TypeDoc needs to know your project entry point and TypeScript
-- compiler options. It will automatically try to find your tsconfig.json file and figure
+Install command or upstream instructions:
 
-- Source: https://github.com/TypeStrong/typedoc
-- Extracted from upstream docs: https://raw.githubusercontent.com/TypeStrong/typedoc/HEAD/README.md
+```
+npm install --save-dev typedoc
+```
 
 ## Documentation
 

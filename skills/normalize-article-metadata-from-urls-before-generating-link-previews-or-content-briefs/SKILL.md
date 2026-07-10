@@ -1,14 +1,14 @@
 ---
-name: "Normalize article metadata from URLs before generating link previews or content briefs"
-slug: "normalize-article-metadata-from-urls-before-generating-link-previews-or-content-briefs"
+title: "Normalize article metadata from URLs before generating link previews or content briefs"
 description: "Uses metascraper to turn a URL plus its fetched HTML into normalized fields such as title, description, author, date, publisher, and lead image. This is useful when an agent needs reliable preview or briefing data from a page without building a custom parser for every site."
-github_stars: 2660
 verification: "listed"
 source: "https://github.com/microlinkhq/metascraper"
 author: "microlinkhq"
 publisher_type: "Organization"
-category: "Content Writing & SEO"
-framework: "Multi-Framework"
+category:
+  - "Content Writing & SEO"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "microlinkhq/metascraper"
   github_stars: 2660
@@ -26,9 +26,19 @@ Node.js and an HTML retrieval step such as fetch, Playwright, or browserless
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://github.com/microlinkhq/metascraper
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+npm install metascraper
+```
 
 ## Documentation
 

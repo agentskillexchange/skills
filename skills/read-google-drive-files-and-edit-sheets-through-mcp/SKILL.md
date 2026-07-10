@@ -1,14 +1,14 @@
 ---
-name: "Read Google Drive files and edit Sheets through MCP"
-slug: "read-google-drive-files-and-edit-sheets-through-mcp"
+title: "Read Google Drive files and edit Sheets through MCP"
 description: "Connect an MCP-capable assistant to Google Drive search, file reads, and Google Sheets cell updates with mcp-gdrive."
-github_stars: 280
 verification: "security_reviewed"
 source: "https://github.com/isaacphi/mcp-gdrive"
 author: "Phil Isaac"
 publisher_type: "individual"
-category: "Calendar, Email & Productivity"
-framework: "MCP"
+category:
+  - "Calendar, Email & Productivity"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "isaacphi/mcp-gdrive"
   github_stars: 280
@@ -26,21 +26,19 @@ Node.js, npm, MCP-compatible client, Google Cloud project, OAuth desktop client 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Make sure to build the server with either npm run build or npm run watch.
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Note your OAuth Client ID and Client Secret. They must be provided as environment variables along with your configuration directory.
-- Next you will need to run node ./dist/index.js to trigger the authentication step
-- You will be prompted to authenticate with your browser. You must authenticate with an account in the same organization as your Google Cloud project.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Create a new Google Cloud project](https://console.cloud.google.com/projectcreate)
-- [Enable the Google Drive API](https://console.cloud.google.com/workspace-api/products)
-- [Configure an OAuth consent screen](https://console.cloud.google.com/apis/credentials/consent) ("internal" is fine for testing)
+Install command or upstream instructions:
 
-- Source: https://github.com/isaacphi/mcp-gdrive
-- Extracted from upstream docs: https://raw.githubusercontent.com/isaacphi/mcp-gdrive/HEAD/README.md
+```
+Install or run @isaacphi/mcp-gdrive, configure Google Cloud OAuth credentials in the directory referenced by GDRIVE_CREDS_DIR, enable the required Google APIs, and register the MCP server with the client.
+```
 
 ## Documentation
 

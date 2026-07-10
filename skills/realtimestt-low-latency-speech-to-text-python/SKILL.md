@@ -1,12 +1,12 @@
 ---
-name: "RealtimeSTT Low-Latency Speech-to-Text Python Library"
-slug: "realtimestt-low-latency-speech-to-text-python"
+title: "RealtimeSTT Low-Latency Speech-to-Text Python Library"
 description: "RealtimeSTT is a Python library for real-time speech-to-text with advanced voice activity detection, wake word activation, and instant transcription. It combines WebRTC VAD, Silero VAD, and Faster Whisper for production-grade voice input in agent applications."
-github_stars: 9615
 verification: "security_reviewed"
 source: "https://github.com/KoljaB/RealtimeSTT"
-category: "Media & Transcription"
-framework: "Custom Agents"
+category:
+  - "Media & Transcription"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "koljab/realtimestt"
   github_stars: 9615
@@ -18,23 +18,13 @@ RealtimeSTT is a Python library for real-time speech-to-text with advanced voice
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install "RealtimeSTT[faster-whisper]"
-- brew install portaudio
-- python -m pip install -r example_fastapi_server/requirements.txt
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- RealtimeSTT is a Python speech-to-text library for applications that need
-- python
-- python example_fastapi_server/server.py --host 0.0.0.0 --port 8010
-
-Basic usage or getting-started notes:
-- bash
-- On Linux, install PortAudio headers before installing the package:
-- sudo apt-get update
-
-- Source: https://github.com/KoljaB/RealtimeSTT
-- Extracted from upstream docs: https://raw.githubusercontent.com/KoljaB/RealtimeSTT/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

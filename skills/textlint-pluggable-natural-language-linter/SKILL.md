@@ -1,12 +1,12 @@
 ---
-name: "textlint Pluggable Natural Language Linter"
-slug: "textlint-pluggable-natural-language-linter"
+title: "textlint Pluggable Natural Language Linter"
 description: "Lint natural language text with textlint, the pluggable linting framework inspired by ESLint. Install community rules from npm to enforce writing standards, catch grammar issues, and maintain consistent documentation style across your project."
-github_stars: 3099
 verification: "security_reviewed"
 source: "https://github.com/textlint/textlint"
-category: "Content Writing & SEO"
-framework: "Multi-Framework"
+category:
+  - "Content Writing & SEO"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "textlint/textlint"
   github_stars: 3099
@@ -20,24 +20,13 @@ Lint natural language text with textlint, the pluggable linting framework inspir
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- $ npm install textlint --save-dev
-- npm install --save-dev textlint textlint-rule-no-todo
-- npx textlint --init command creates .textlintrc.json file from installed rules.
-- npx textlint --init
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Node.js 20+
-- If you're not sure what version of Node you're running, you can run node -v in your console to find out.
-- If you have installed textlint globally you must install each reference rule globally as well.
-
-Basic usage or getting-started notes:
-- For a quick tour of textlint, checkout our [Getting Started](./docs/getting-started.md) guide :squirrel:
-- You can install the textlint command using npm:
-- **Requirements**:
-
-- Source: https://github.com/textlint/textlint
-- Extracted from upstream docs: https://raw.githubusercontent.com/textlint/textlint/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

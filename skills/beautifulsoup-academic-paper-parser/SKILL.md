@@ -1,11 +1,12 @@
 ---
-name: "Beautiful Soup Academic Paper Parser"
-slug: "beautifulsoup-academic-paper-parser"
+title: "Beautiful Soup Academic Paper Parser"
 description: "Extracts structured citation data from academic repositories using BeautifulSoup4 with lxml parser. Parses DOI metadata, author affiliations, and reference lists from PubMed, arXiv, and Semantic Scholar HTML."
 verification: "security_reviewed"
 source: "https://pypi.org/project/beautifulsoup4/"
-category: "Research & Scraping"
-framework: "MCP"
+category:
+  - "Research & Scraping"
+framework:
+  - "MCP"
 ---
 
 # Beautiful Soup Academic Paper Parser
@@ -14,21 +15,13 @@ Extracts structured citation data from academic repositories using BeautifulSoup
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install beautifulsoup4
-- format. Run make html in that directory to create HTML
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Requires: Python >=3.7.0
-- Python
-- Python :: 3
-
-Basic usage or getting-started notes:
-- >> from bs4 import BeautifulSoup
-- >> soup = BeautifulSoup("<p>Some<b>bad<i>HTML")
-- >> print(soup.prettify())
-
-- Source: https://pypi.org/project/beautifulsoup4/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

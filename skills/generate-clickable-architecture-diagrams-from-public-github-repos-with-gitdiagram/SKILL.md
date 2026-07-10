@@ -1,14 +1,14 @@
 ---
-name: "Generate clickable architecture diagrams from public GitHub repos with GitDiagram"
-slug: "generate-clickable-architecture-diagrams-from-public-github-repos-with-gitdiagram"
+title: "Generate clickable architecture diagrams from public GitHub repos with GitDiagram"
 description: "Turn a public GitHub repository into an interactive architecture diagram before onboarding, code review, or agent handoff."
-github_stars: 15447
 verification: "security_reviewed"
 source: "https://github.com/ahmedkhaleel2004/gitdiagram"
 author: "Ahmed Khaleel"
 publisher_type: "open_source_project"
-category: "Code Quality & Review"
-framework: "Multi-Framework"
+category:
+  - "Code Quality & Review"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "ahmedkhaleel2004/gitdiagram"
   github_stars: 15447
@@ -24,22 +24,19 @@ Public GitHub repository URL, web access, optional self-hosted OpenAI or OpenRou
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/ahmedkhaleel2004/gitdiagram.git
-- docker-compose up --build -d
-- docker-compose logs -f api
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- That graph is validated against the actual file tree, retried with feedback if it contains bad paths or invalid connections, then compiled into Mermaid and validated again before it is shown. Any node tied to a real p...
-- This keeps the backend's Python environment managed by uv and installs the backend Mermaid validator's Bun dependencies from backend/bun.lock.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- One implementation detail worth knowing: the Next backend validates Mermaid in-process in [src/server/generate/mermaid-validator.ts](/Users/ahmedkhaleel/repos/gitdiagram/src/server/generate/mermaid-validator.ts), whil...
-- bun run install:backend
-- cp .env.example .env
+Install command or upstream instructions:
 
-- Source: https://github.com/ahmedkhaleel2004/gitdiagram
-- Extracted from upstream docs: https://raw.githubusercontent.com/ahmedkhaleel2004/gitdiagram/HEAD/README.md
+```
+Use the hosted service at gitdiagram.com or self-host from the upstream repository.
+```
 
 ## Documentation
 

@@ -1,14 +1,14 @@
 ---
-name: "Install one MCP server across Claude Code, Cursor, Codex, and VS Code without manual config edits"
-slug: "install-one-mcp-server-across-claude-code-cursor-codex-and-vs-code-without-manual-config-edits"
+title: "Install one MCP server across Claude Code, Cursor, Codex, and VS Code without manual config edits"
 description: "Use add-mcp when an agent needs to roll out, list, remove, or synchronize MCP server configs across multiple coding clients instead of hand-editing each config file separately."
-github_stars: 151
 verification: "security_reviewed"
 source: "https://github.com/neondatabase/add-mcp"
 author: "Neon"
 publisher_type: "company"
-category: "Developer Tools"
-framework: "Multi-Framework"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "neondatabase/add-mcp"
   github_stars: 151
@@ -26,23 +26,19 @@ Node.js and npx; one or more supported coding clients such as Claude Code, Codex
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx add-mcp url | package name [options]
-- npx add-mcp https://mcp.context7.com/mcp
-- npx add-mcp find vercel
-- npx add-mcp https://mcp.example.com/mcp
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- # Node.js script
-- add-mcp supports all three transport types: HTTP, SSE, and stdio. Some agents require type option to be set to specify the transport type. You can use the --type or --transport option to specify the transport type:
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- bash
-- Example installing the Context7 remote MCP server:
-- You can add env variables and arguments (stdio) and headers (remote) to the server config using the --env, --args and --header options.
+Install command or upstream instructions:
 
-- Source: https://github.com/neondatabase/add-mcp
-- Extracted from upstream docs: https://raw.githubusercontent.com/neondatabase/add-mcp/HEAD/README.md
+```
+Run npx add-mcp to install an MCP server into detected project configs, or add -g for global config files. Use flags like -a to target specific clients, --header for remote auth, --env for local stdio servers, find to search registries, and sync to unify names and installations across clients.
+```
 
 ## Documentation
 

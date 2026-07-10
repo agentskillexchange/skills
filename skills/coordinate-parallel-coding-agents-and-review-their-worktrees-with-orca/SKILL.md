@@ -1,14 +1,14 @@
 ---
-name: "Coordinate parallel coding agents and review their worktrees with Orca"
-slug: "coordinate-parallel-coding-agents-and-review-their-worktrees-with-orca"
+title: "Coordinate parallel coding agents and review their worktrees with Orca"
 description: "Run Codex, Claude Code, OpenCode, Pi, and similar coding agents side by side in isolated worktrees, then compare, annotate, and merge the best result."
-github_stars: 8927
 verification: "security_reviewed"
 source: "https://github.com/stablyai/orca"
 author: "Stably AI"
 publisher_type: "open_source_project"
-category: "Developer Tools"
-framework: "Multi-Framework"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "stablyai/orca"
   github_stars: 8927
@@ -24,16 +24,19 @@ Orca desktop app, Git worktrees, one or more supported coding agents such as Cod
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install --cask stablyai/orca/orca
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Run Codex, ClaudeCode, OpenCode or Pi side-by-side — each in its own worktree, tracked in one place.
-- Run agents on a beefy remote box with full file editing, git, and terminals — auto-reconnect and port forwarding included.
-- **[Account switcher &amp; usage tracking](https://www.onorca.dev/docs/agents/usage-tracking)** — See Claude and Codex usage and rate-limit resets, and hot-swap accounts without re-logging in.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/stablyai/orca
-- Extracted from upstream docs: https://raw.githubusercontent.com/stablyai/orca/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Download Orca from https://onorca.dev/download, connect the coding agents you use, then create isolated worktrees for parallel agent runs. Use the Orca CLI for scripted worktree, snapshot, click, and fill workflows.
+```
 
 ## Documentation
 

@@ -1,12 +1,12 @@
 ---
-name: "HTTPie CLI API Testing and Debugging Client"
-slug: "httpie-cli-api-testing-debugging-client"
+title: "HTTPie CLI API Testing and Debugging Client"
 description: "HTTPie is a modern, user-friendly command-line HTTP client designed for testing, debugging, and interacting with APIs and HTTP servers. It provides an intuitive syntax with formatted and colorized terminal output, built-in JSON support, and session persistence."
-github_stars: 37814
 verification: "security_reviewed"
 source: "https://github.com/httpie/cli"
-category: "Developer Tools"
-framework: "Claude Code"
+category:
+  - "Developer Tools"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "httpie/cli"
   github_stars: 37814
@@ -18,16 +18,13 @@ HTTPie is a modern, user-friendly command-line HTTP client designed for testing,
 
 ## Installation
 
-Requirements and caveats from upstream:
-- [![Latest version](https://img.shields.io/pypi/v/httpie.svg?style=flat&label=Latest&color=%234B78E6&logo=&logoColor=white)](https://pypi.python.org/pypi/httpie)
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- [Installation instructions →](https://httpie.io/docs#installation)
-- [Full documentation →](https://httpie.io/docs)
-- ## Features
-
-- Source: https://github.com/httpie/cli
-- Extracted from upstream docs: https://raw.githubusercontent.com/httpie/cli/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

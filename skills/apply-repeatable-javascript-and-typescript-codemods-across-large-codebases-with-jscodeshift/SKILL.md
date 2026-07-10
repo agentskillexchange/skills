@@ -1,14 +1,14 @@
 ---
-name: "Apply repeatable JavaScript and TypeScript codemods across large codebases with jscodeshift"
-slug: "apply-repeatable-javascript-and-typescript-codemods-across-large-codebases-with-jscodeshift"
+title: "Apply repeatable JavaScript and TypeScript codemods across large codebases with jscodeshift"
 description: "Use jscodeshift when an agent needs AST-based JavaScript or TypeScript codemods for bulk migrations, API rewrites, and large refactors with reviewable diffs."
-github_stars: 9983
 verification: "security_reviewed"
 source: "https://github.com/facebook/jscodeshift"
 author: "Meta"
 publisher_type: "organization"
-category: "Code Quality & Review"
-framework: "Multi-Framework"
+category:
+  - "Code Quality & Review"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "facebook/jscodeshift"
   github_stars: 9983
@@ -26,24 +26,19 @@ Node.js, npm or pnpm, Git
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- $ npm install -g jscodeshift
-- make the transform more readable.
-- To update docs in /docs, use npm run docs.
-- To view these docs locally, use npx http-server ./docs
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- const {run: jscodeshift} = require('jscodeshift/src/Runner')
-- const path = require('node:path');
-- An AST node is a plain JavaScript object with a specific set of fields, in
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Get jscodeshift from [npm](https://www.npmjs.com/package/jscodeshift):
-- This will install the runner as jscodeshift.
-- ## VSCode Debugger
+Install command or upstream instructions:
 
-- Source: https://github.com/facebook/jscodeshift
-- Extracted from upstream docs: https://raw.githubusercontent.com/facebook/jscodeshift/HEAD/README.md
+```
+Install with npm install -g jscodeshift or run it with npx, then provide a transform file and target paths, for example jscodeshift -t ./transform.js src/.
+```
 
 ## Documentation
 

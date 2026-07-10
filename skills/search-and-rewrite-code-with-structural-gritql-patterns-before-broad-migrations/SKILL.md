@@ -1,14 +1,14 @@
 ---
-name: "Search and rewrite code with structural GritQL patterns before broad migrations"
-slug: "search-and-rewrite-code-with-structural-gritql-patterns-before-broad-migrations"
+title: "Search and rewrite code with structural GritQL patterns before broad migrations"
 description: "Use GritQL when an agent needs reviewable structural search and rewrite passes across a large codebase before a migration, policy cleanup, or API change, instead of relying on regex or hand edits."
-github_stars: 4482
 verification: "security_reviewed"
 source: "https://github.com/biomejs/gritql"
 author: "biomejs"
 publisher_type: "community"
-category: "Code Quality & Review"
-framework: "Multi-Framework"
+category:
+  - "Code Quality & Review"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "biomejs/gritql"
   github_stars: 4482
@@ -24,18 +24,19 @@ Grit CLI, a local repository to search or rewrite, and a review loop for inspect
 
 ## Installation
 
-Requirements and caveats from upstream:
-- ♻️ Once you learn GritQL, you can use it to rewrite any [target language](https://docs.grit.io/language/target-languages): JavaScript/TypeScript, Python, JSON, Java, Terraform, Solidity, CSS, Markdown, YAML, Rust, Go,...
-- Patterns can be combined to create complex queries, including [large refactors](https://github.com/getgrit/stdlib/blob/main/.grit/patterns/python/openai.md).
-- Reading/writing a codemod requires mentally translating from AST names back to what source code actually looks like.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Read the [documentation](https://docs.grit.io/language/overview), [interactive tutorial](https://docs.grit.io/tutorials/gritql), or run grit --help.
-- sh
-- Search for all your console.log calls by putting the desired pattern in backticks:
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/biomejs/gritql
-- Extracted from upstream docs: https://raw.githubusercontent.com/biomejs/gritql/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install the Grit CLI using the method documented by the project, write or reuse the GritQL patterns that describe the search or rewrite you want, run the apply or check workflow against the target repository, and review the resulting changes before merging.
+```
 
 ## Documentation
 

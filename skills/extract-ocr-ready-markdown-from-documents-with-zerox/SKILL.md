@@ -1,14 +1,14 @@
 ---
-name: "Extract OCR-ready Markdown from documents with Zerox"
-slug: "extract-ocr-ready-markdown-from-documents-with-zerox"
+title: "Extract OCR-ready Markdown from documents with Zerox"
 description: "Use Zerox to convert PDFs, images, and office documents into Markdown or structured extraction outputs using vision models."
-github_stars: 12236
 verification: "security_reviewed"
 source: "https://github.com/getomni-ai/zerox"
 author: "Omni AI"
 publisher_type: "open_source_project"
-category: "Data Extraction & Transformation"
-framework: "Multi-Framework"
+category:
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "getomni-ai/zerox"
   github_stars: 12236
@@ -26,22 +26,19 @@ Node.js or Python Zerox package, graphicsmagick/ghostscript for Node PDF convers
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install zerox
-- pip install py-zerox
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Zerox is available as both a Node and Python package.
-- [Node README](#node-zerox) - [npm package](https://www.npmjs.com/package/zerox)
-- [Python README](#python-zerox) - [pip package](https://pypi.org/project/py-zerox/)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- | ------------------------- | ---------------------------- | -------------------------- |
-- | Image Processing | ✓ | ✓ |
-- | OpenAI Support | ✓ | ✓ |
+Install command or upstream instructions:
 
-- Source: https://github.com/getomni-ai/zerox
-- Extracted from upstream docs: https://raw.githubusercontent.com/getomni-ai/zerox/HEAD/README.md
+```
+Install the Node package with npm install zerox or the Python package from PyPI, install required PDF conversion dependencies, configure model credentials, then call Zerox with a file path or URL and review the generated Markdown or structured output.
+```
 
 ## Documentation
 

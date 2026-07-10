@@ -1,12 +1,12 @@
 ---
-name: "Crawlee Web Crawling and Browser Automation Library"
-slug: "crawlee-web-crawling-browser-automation-library"
+title: "Crawlee Web Crawling and Browser Automation Library"
 description: "Builds scalable web collection pipelines with Crawlee, Apify’s open-source crawling and browser automation library. Useful for request queue management, Playwright or Puppeteer crawling, structured dataset export, and resilient scraping across large sets of pages."
-github_stars: 22591
 verification: "security_reviewed"
 source: "https://github.com/apify/crawlee"
-category: "Research & Scraping"
-framework: "Multi-Framework"
+category:
+  - "Research & Scraping"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "apify/crawlee"
   github_stars: 22591
@@ -20,23 +20,13 @@ Builds scalable web collection pipelines with Crawlee, Apify’s open-source cra
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx crawlee create my-crawler
-- npm start
-- npm install crawlee playwright
-- npm install crawlee@next
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Do you prefer 🐍 Python instead of JavaScript? [👉 Checkout Crawlee for Python 👈](https://github.com/apify/crawlee-python).
-- Crawlee requires **Node.js 16 or higher**.
-
-Basic usage or getting-started notes:
-- We recommend visiting the [Introduction tutorial](https://crawlee.dev/js/docs/introduction) in Crawlee documentation for more information.
-- ### With Crawlee CLI
-- The fastest way to try Crawlee out is to use the **Crawlee CLI** and choose the **Getting started example**. The CLI will install all the necessary dependencies and add boilerplate code for you to play with.
-
-- Source: https://github.com/apify/crawlee
-- Extracted from upstream docs: https://raw.githubusercontent.com/apify/crawlee/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

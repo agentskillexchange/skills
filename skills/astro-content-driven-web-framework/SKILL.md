@@ -1,12 +1,12 @@
 ---
-name: "Astro Content-Driven Web Framework"
-slug: "astro-content-driven-web-framework"
+title: "Astro Content-Driven Web Framework"
 description: "Astro is a modern web framework for building content-driven websites. It ships zero JavaScript by default, supports multiple UI frameworks (React, Vue, Svelte, Solid), and provides islands architecture for optimal performance."
-github_stars: 57979
 verification: "security_reviewed"
 source: "https://github.com/withastro/astro"
-category: "Developer Tools"
-framework: "Multi-Framework"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "withastro/astro"
   github_stars: 57979
@@ -20,20 +20,13 @@ Astro is a modern web framework for building content-driven websites. It ships z
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm create astro@latest
-- npm install astro
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- | [@astrojs/node](packages/integrations/node) | [![@astrojs/node version](https://img.shields.io/npm/v/@astrojs/node.svg?label=%20)](packages/integrations/node/CHANGELOG.md) |
-
-Basic usage or getting-started notes:
-- The **recommended** way to install the latest version of Astro is by running the command below:
-- bash
-- You can also install Astro **manually** by running this command instead:
-
-- Source: https://github.com/withastro/astro
-- Extracted from upstream docs: https://raw.githubusercontent.com/withastro/astro/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

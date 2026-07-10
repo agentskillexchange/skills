@@ -1,19 +1,19 @@
 ---
-name: "E2B Code Execution MCP"
-slug: "e2b-code-execution-mcp"
+title: "E2B Code Execution MCP"
 description: "Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected Linux environments for running Python, JavaScript, and shell commands without touching your local machine."
-github_stars: 393
 verification: "security_reviewed"
 source: "https://github.com/e2b-dev/mcp-server"
 author: "E2B"
 publisher_type: "individual"
-category: "Developer Tools"
-framework: "MCP"
+category:
+  - "Developer Tools"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "e2b-dev/mcp-server"
   github_stars: 393
   npm_package: "@e2b/mcp-server"
-  npm_weekly_downloads: 4079
+  npm_weekly_downloads: 2132
 ---
 
 # E2B Code Execution MCP
@@ -26,14 +26,19 @@ MCP-compatible client (Claude Code, Cursor, or similar), E2B API key, Node.js ru
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx @smithery/cli install e2b --client claude
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [Python](packages/python/README.md)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/e2b-dev/mcp-server
-- Extracted from upstream docs: https://raw.githubusercontent.com/e2b-dev/mcp-server/HEAD/README.md
+Install command or upstream instructions:
+
+```
+npm install @e2b/mcp-server
+```
 
 ## Documentation
 

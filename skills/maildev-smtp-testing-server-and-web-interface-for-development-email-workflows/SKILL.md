@@ -1,13 +1,13 @@
 ---
-name: "MailDev SMTP Testing Server and Web Interface for Development Email Workflows"
-slug: "maildev-smtp-testing-server-and-web-interface-for-development-email-workflows"
+title: "MailDev SMTP Testing Server and Web Interface for Development Email Workflows"
 description: "MailDev is a local SMTP server with a browser UI for viewing test emails during development. It catches outgoing mail, exposes a REST API, supports attachments and relay options, and helps teams test email flows without sending real messages to customers."
-github_stars: 5889
 verification: "security_reviewed"
 source: "https://github.com/maildev/maildev"
 author: "maildev"
-category: "Calendar, Email & Productivity"
-framework: "Multi-Framework"
+category:
+  - "Calendar, Email & Productivity"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "maildev/maildev"
   github_stars: 5889
@@ -21,24 +21,13 @@ MailDev is a local SMTP server with a browser UI for viewing test emails during 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- $ docker run -p 1080:1080 -p 1025:1025 maildev/maildev
-- npm install
-- npm run dev
-- To lint your code before submitting your PR, run npm run lint.
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Docker Pulls](https://img.shields.io/docker/pulls/maildev/maildev)](https://hub.docker.com/r/maildev/maildev)
-- **MailDev** is a simple way to test your project's generated email during development, with an easy to use web interface that runs on your machine built on top of [Node.js](http://www.nodejs.org).
-- ## Docker Run
-
-Basic usage or getting-started notes:
-- | Options | Environment variable | Description |
-- | -------------------------------- | -------------------------- | ----------------------------------------------------------------------------------------- |
-- | -s, --smtp <port> | MAILDEV_SMTP_PORT | SMTP port to catch mail |
-
-- Source: https://github.com/maildev/maildev
-- Extracted from upstream docs: https://raw.githubusercontent.com/maildev/maildev/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

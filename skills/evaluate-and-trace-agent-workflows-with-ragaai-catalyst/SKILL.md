@@ -1,14 +1,14 @@
 ---
-name: "Evaluate and trace agent workflows with RagaAI Catalyst"
-slug: "evaluate-and-trace-agent-workflows-with-ragaai-catalyst"
+title: "Evaluate and trace agent workflows with RagaAI Catalyst"
 description: "Use RagaAI Catalyst to instrument agent runs, collect traces, manage evaluation datasets, inspect execution graphs, and review regressions before deployment."
-github_stars: 16167
 verification: "security_reviewed"
 source: "https://github.com/raga-ai-hub/RagaAI-Catalyst"
 author: "raga-ai-hub"
 publisher_type: "open_source"
-category: "Monitoring & Alerts"
-framework: "Multi-Framework"
+category:
+  - "Monitoring & Alerts"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "raga-ai-hub/RagaAI-Catalyst"
   github_stars: 16167
@@ -24,20 +24,19 @@ Python environment, ragaai-catalyst SDK, Catalyst project credentials, instrumen
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- To install RagaAI Catalyst, you can use pip:
-- pip install ragaai-catalyst
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- python
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Usage](#usage)
-- Before using RagaAI Catalyst, you need to set up your credentials. You can do this by setting environment variables or passing them directly to the RagaAICatalyst class:
-- from ragaai_catalyst import RagaAICatalyst
+Install command or upstream instructions:
 
-- Source: https://github.com/raga-ai-hub/RagaAI-Catalyst
-- Extracted from upstream docs: https://raw.githubusercontent.com/raga-ai-hub/RagaAI-Catalyst/HEAD/README.md
+```
+Install the ragaai-catalyst Python package, configure a Catalyst project, instrument agent or LLM calls with the SDK, then run representative workflows and review traces and evaluations in Catalyst.
+```
 
 ## Documentation
 

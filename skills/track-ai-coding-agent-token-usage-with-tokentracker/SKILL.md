@@ -1,14 +1,14 @@
 ---
-name: "Track AI coding-agent token usage with TokenTracker"
-slug: "track-ai-coding-agent-token-usage-with-tokentracker"
+title: "Track AI coding-agent token usage with TokenTracker"
 description: "Use TokenTracker to auto-collect local token, cost, and rate-limit telemetry across Claude Code, Codex, Cursor, Gemini, OpenCode, OpenClaw, and other AI coding tools."
-github_stars: 959
 verification: "security_reviewed"
 source: "https://github.com/mm7894215/TokenTracker"
 author: "TokenTracker contributors"
 publisher_type: "open_source"
-category: "Developer Tools"
-framework: "Multi-Framework"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mm7894215/TokenTracker"
   github_stars: 959
@@ -26,18 +26,19 @@ Node.js 20+, tokentracker-cli or native desktop app, local AI coding tools to mo
 
 ## Installation
 
-Requirements and caveats from upstream:
-- <summary><b>"engines.node" or unsupported version error</b></summary>
-- TokenTracker requires **Node 20+**. Check your version:
-- node --version
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- 🚀 **Zero config** — Hooks auto-install on first run. From zero to dashboard in 30 seconds.
-- 📊 **Beautiful dashboard** — Usage trends, cost breakdowns by model, GitHub-style activity heatmap, project attribution
-- 🎨 **4 desktop widgets** — Pin Usage / Activity Heatmap / Top Models / Usage Limits to your desktop
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/mm7894215/TokenTracker
-- Extracted from upstream docs: https://raw.githubusercontent.com/mm7894215/TokenTracker/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Run npx tokentracker-cli for first-time setup, or install globally with npm i -g tokentracker-cli and run tokentracker, tokentracker sync, tokentracker status, or tokentracker doctor to collect and inspect local AI-tool usage.
+```
 
 ## Documentation
 

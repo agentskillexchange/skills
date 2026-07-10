@@ -1,14 +1,14 @@
 ---
-name: "Ground coding agents in live repository documentation with GitMCP"
-slug: "ground-coding-agents-in-live-repository-documentation-with-gitmcp"
+title: "Ground coding agents in live repository documentation with GitMCP"
 description: "Use GitMCP to connect an MCP-capable coding agent to current GitHub repository docs and code before generating or changing implementation details."
-github_stars: 8090
 verification: "security_reviewed"
 source: "https://github.com/idosal/git-mcp"
 author: "Ido Salomon"
 publisher_type: "individual"
-category: "Library & API Reference"
-framework: "MCP"
+category:
+  - "Library & API Reference"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "idosal/git-mcp"
   github_stars: 8090
@@ -24,22 +24,19 @@ An MCP-compatible client such as Cursor, Claude Desktop, Claude Code, or another
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx mcp-remote https://gitmcp.io/{owner}/{repo}
-- git clone https://github.com/idosal/git-mcp.git
-- pnpm install
-- npm run dev
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- GitMCP is deeply committed to its users' privacy. The service doesn't have access to or store any personally identifiable information as it doesn't require authentication. In addition, it doesn't store any queries sen...
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- <a href="#-getting-started">Getting Started</a> •
-- Get accurate API usage and reliable code examples.
-- For example, this side-by-side comparison shows the result for the same one-shot prompt in Cursor when creating a [three.js](https://github.com/mrdoob/three.js) scene -
+Install command or upstream instructions:
 
-- Source: https://github.com/idosal/git-mcp
-- Extracted from upstream docs: https://raw.githubusercontent.com/idosal/git-mcp/HEAD/README.md
+```
+Choose a GitMCP server URL for the target source, such as https://gitmcp.io/{owner}/{repo} for a GitHub repository, {owner}.gitmcp.io/{repo} for GitHub Pages, or https://gitmcp.io/docs for the generic server. Add that URL as an MCP server in the agent client, then prompt the agent to consult GitMCP before answering repository-specific implementation questions.
+```
 
 ## Documentation
 

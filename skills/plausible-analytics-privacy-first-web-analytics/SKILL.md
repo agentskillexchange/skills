@@ -1,12 +1,12 @@
 ---
-name: "Plausible Analytics Privacy-First Web Analytics Platform"
-slug: "plausible-analytics-privacy-first-web-analytics"
+title: "Plausible Analytics Privacy-First Web Analytics Platform"
 description: "Plausible Analytics is a lightweight, open-source, privacy-friendly alternative to Google Analytics. It requires no cookies, is fully GDPR/CCPA/PECR compliant, and provides a clean single-page dashboard with all essential website metrics and traffic insights."
-github_stars: 24495
 verification: "security_reviewed"
 source: "https://github.com/plausible/analytics"
-category: "Monitoring & Alerts"
-framework: "Multi-Framework"
+category:
+  - "Monitoring & Alerts"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "plausible/analytics"
   github_stars: 24495
@@ -18,13 +18,13 @@ Plausible Analytics is a lightweight, open-source, privacy-friendly alternative 
 
 ## Installation
 
-Basic usage or getting-started notes:
-- The easiest way to get started with Plausible Analytics is with [our official managed service in the cloud](https://plausible.io/register).
-- Takes ~2 minutes to set up
-- Global CDN, high availability, backups and security included
+Choose whichever fits your setup:
 
-- Source: https://github.com/plausible/analytics
-- Extracted from upstream docs: https://raw.githubusercontent.com/plausible/analytics/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

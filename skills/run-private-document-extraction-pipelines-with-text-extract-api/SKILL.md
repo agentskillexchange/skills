@@ -1,14 +1,14 @@
 ---
-name: "Run private document extraction pipelines with Text Extract API"
-slug: "run-private-document-extraction-pipelines-with-text-extract-api"
+title: "Run private document extraction pipelines with Text Extract API"
 description: "Use Text Extract API when an agent needs to turn PDFs, Office files, or images into Markdown or structured JSON with local OCR, optional Ollama models, PII removal, and queued batch processing."
-github_stars: 3111
 verification: "security_reviewed"
 source: "https://github.com/CatchTheTornado/text-extract-api"
 author: "CatchTheTornado"
 publisher_type: "open_source"
-category: "Data Extraction & Transformation"
-framework: "Multi-Framework"
+category:
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "CatchTheTornado/text-extract-api"
   github_stars: 3111
@@ -24,24 +24,19 @@ Python, FastAPI, Celery, Redis, Docker, Ollama, OCR backend
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- [Download and install Docker](https://www.docker.com/products/docker-desktop/)
-- git clone https://github.com/CatchTheTornado/text-extract-api.git
-- pip install -e .
-- brew update && brew install libmagic poppler pkg-config ghostscript ffmpeg automake autoconf
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- **No Cloud/external dependencies** all you need: PyTorch based OCR (EasyOCR) + Ollama are shipped and configured via docker-compose no data is sent outside your dev/server environment,
-- python client/cli.py ocr_upload --file examples/example-mri.pdf --prompt_file examples/example-mri-2-json-prompt.txt
-- python client/cli.py ocr_upload --file examples/example-invoice.pdf --prompt_file examples/example-invoice-remove-pii.txt
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Before running the example see [getting started](#getting-started)
-- ![Converting MRI report to Markdown](./screenshots/example-1.png)
-- ![Converting Invoice to JSON](./screenshots/example-2.png)
+Install command or upstream instructions:
 
-- Source: https://github.com/CatchTheTornado/text-extract-api
-- Extracted from upstream docs: https://raw.githubusercontent.com/CatchTheTornado/text-extract-api/HEAD/README.md
+```
+Clone https://github.com/CatchTheTornado/text-extract-api, copy .env.localhost.example to .env.localhost, install Docker and Ollama, then run make install and make run. For manual setup, create a Python virtualenv, run pip install -e ., start the service, and run a Celery worker before submitting files with python client/cli.py ocr_upload.
+```
 
 ## Documentation
 

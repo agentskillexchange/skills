@@ -1,14 +1,14 @@
 ---
-name: "Operate a local multi-agent workforce with Eigent"
-slug: "operate-a-local-multi-agent-workforce-with-eigent"
+title: "Operate a local multi-agent workforce with Eigent"
 description: "Use Eigent when an operator needs a local desktop agent workforce that can coordinate developer, browser, document, multimodal, model-provider, and MCP-backed work in one controlled environment."
-github_stars: 14273
 verification: "security_reviewed"
 source: "https://github.com/eigent-ai/eigent"
 author: "eigent-ai"
 publisher_type: "open_source"
-category: "Templates & Workflows"
-framework: "Custom Agents"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "eigent-ai/eigent"
   github_stars: 14273
@@ -24,23 +24,19 @@ Eigent desktop/frontend, local backend, Docker/PostgreSQL for local mode, model 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/eigent-ai/eigent.git
-- npm install
-- npm run dev
-- uv sync
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Node.js (version 18-22) and npm
-- Note: This mode connects to Eigent cloud services and requires account registration. For a fully standalone experience, use [Local Deployment](#-local-deployment-recommended) instead.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [🚀 Getting Started with Open Source Cowork](#-getting-started-with-open-source-Cowork)
-- [⚡ Quick Start (Cloud-Connected)](#-quick-start-cloud-connected)
-- The recommended way to run Eigent — fully standalone with complete control over your data, no cloud account required.
+Install command or upstream instructions:
 
-- Source: https://github.com/eigent-ai/eigent
-- Extracted from upstream docs: https://raw.githubusercontent.com/eigent-ai/eigent/HEAD/README.md
+```
+For local mode, clone the repository, start `server/` with Docker Compose after copying `.env.example` to `.env`, configure the frontend `.env.development` for the local proxy, run `npm install`, and start the desktop/frontend with `npm run dev`.
+```
 
 ## Documentation
 

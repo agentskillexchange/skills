@@ -1,14 +1,14 @@
 ---
-name: "Coordinate software delivery roles with MetaGPT"
-slug: "coordinate-software-delivery-roles-with-metagpt"
+title: "Coordinate software delivery roles with MetaGPT"
 description: "Use MetaGPT to turn a product requirement into coordinated product, architecture, project, and engineering agent outputs that an operator can review and iterate."
-github_stars: 68717
 verification: "security_reviewed"
 source: "https://github.com/FoundationAgents/MetaGPT"
 author: "FoundationAgents"
 publisher_type: "open_source"
-category: "Templates & Workflows"
-framework: "Custom Agents"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "FoundationAgents/MetaGPT"
   github_stars: 68717
@@ -24,21 +24,19 @@ Python environment, MetaGPT package or repository install, configured model prov
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install --upgrade metagpt
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Ensure that Python 3.9 or later, but less than 3.12, is installed on your system. You can check this by using: python --version.
-- You can use conda like this: conda create -n metagpt python=3.9 && conda activate metagpt
-- **Install [node](https://nodejs.org/en/download) and [pnpm](https://pnpm.io/installation#using-npm) before actual use.**
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- For detailed installation guidance, please refer to [cli_install](https://docs.deepwisdom.ai/main/en/guide/get_started/installation.html#install-stable-version)
-- You can init the config of MetaGPT by running the following command, or manually create ~/.metagpt/config2.yaml file:
-- metagpt --init-config # it will create ~/.metagpt/config2.yaml, just modify it to your needs
+Install command or upstream instructions:
 
-- Source: https://github.com/FoundationAgents/MetaGPT
-- Extracted from upstream docs: https://raw.githubusercontent.com/FoundationAgents/MetaGPT/HEAD/README.md
+```
+Install MetaGPT using the upstream Python instructions, configure the model provider, pass a focused product requirement to the multi-agent workflow, then review generated planning and implementation artifacts before use.
+```
 
 ## Documentation
 

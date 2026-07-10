@@ -1,14 +1,14 @@
 ---
-name: "Trace and evaluate LLM application behavior with Langtrace"
-slug: "trace-and-evaluate-llm-application-behavior-with-langtrace"
+title: "Trace and evaluate LLM application behavior with Langtrace"
 description: "Instrument Python or TypeScript agent applications with OpenTelemetry traces, metrics, and evaluation views for debugging production LLM workflows."
-github_stars: 1207
 verification: "security_reviewed"
 source: "https://github.com/Scale3-Labs/langtrace"
 author: "Scale3 Labs"
 publisher_type: "organization"
-category: "Monitoring & Alerts"
-framework: "Multi-Framework"
+category:
+  - "Monitoring & Alerts"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "Scale3-Labs/langtrace"
   github_stars: 1207
@@ -26,13 +26,19 @@ Python or Node.js runtime, Langtrace API key or self-hosted Langtrace instance
 
 ## Installation
 
-Requirements and caveats from upstream:
-- [![PyPI SDK](https://img.shields.io/pypi/v/langtrace-python-sdk?style=flat-square&logo=python&label=python-sdk&color=green)](https://github.com/Scale3-Labs/langtrace-python-sdk)
-- [![PyPI Downloads](https://static.pepy.tech/badge/langtrace-python-sdk/month)](https://pepy.tech/project/langtrace-python-sdk)
-- [![Total PyPI Downloads](https://static.pepy.tech/badge/langtrace-python-sdk)](https://static.pepy.tech/badge/langtrace-python-sdk)
+Choose whichever fits your setup:
 
-- Source: https://github.com/Scale3-Labs/langtrace
-- Extracted from upstream docs: https://raw.githubusercontent.com/Scale3-Labs/langtrace/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install `langtrace-python-sdk` with pip or `@langtrase/typescript-sdk` with npm, initialize Langtrace before LLM/framework imports, then run agent traffic and inspect traces in Langtrace.
+```
 
 ## Documentation
 

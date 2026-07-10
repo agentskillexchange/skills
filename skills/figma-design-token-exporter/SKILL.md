@@ -1,12 +1,13 @@
 ---
-name: "Figma Design Token Exporter"
-slug: "figma-design-token-exporter"
+title: "Figma Design Token Exporter"
 description: "Extracts design tokens from Figma files using the Figma REST API v1 and transforms them into platform-specific formats via Style Dictionary. Supports CSS custom properties, Tailwind config, and iOS/Android native tokens."
 verification: "security_reviewed"
 source: "https://developers.figma.com/docs/rest-api/"
 author: "Figma"
-category: "Image & Creative Automation"
-framework: "Claude Code"
+category:
+  - "Image & Creative Automation"
+framework:
+  - "Claude Code"
 ---
 
 # Figma Design Token Exporter
@@ -15,18 +16,13 @@ Extracts design tokens from Figma files using the Figma REST API v1 and transfor
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Make requests for different resources:
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Once granted access, you can use the Figma API to inspect a JSON representation of the file. Every layer or object in a file will be represented within the file by a node (subtree). You will then be able to access and...
-
-Basic usage or getting-started notes:
-- The Figma API supports access and interactions with Figma's different products. This gives you the ability to do things such as view and extract any objects or layers, and their properties from files, get usage data,...
-- Get usage and analytics data:
-- For example: GET https://api.figma.com/v1/files/:key
-
-- Source: https://developers.figma.com/docs/rest-api/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

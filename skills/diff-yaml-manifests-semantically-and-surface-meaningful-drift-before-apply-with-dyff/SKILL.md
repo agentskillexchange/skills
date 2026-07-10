@@ -1,14 +1,14 @@
 ---
-name: "Diff YAML manifests semantically and surface meaningful drift before apply with dyff"
-slug: "diff-yaml-manifests-semantically-and-surface-meaningful-drift-before-apply-with-dyff"
+title: "Diff YAML manifests semantically and surface meaningful drift before apply with dyff"
 description: "Use dyff to compare YAML documents by structure and changed paths so agents can review configuration drift without the noise of plain line diffs."
-github_stars: 1800
 verification: "security_reviewed"
 source: "https://github.com/homeport/dyff"
 author: "homeport"
 publisher_type: "open_source_project"
-category: "Code Quality & Review"
-framework: "Multi-Framework"
+category:
+  - "Code Quality & Review"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "homeport/dyff"
   github_stars: 1800
@@ -24,21 +24,19 @@ dyff
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- make install clean
-- brew install homeport/tap/dyff
-- go install github.com/homeport/dyff/cmd/dyff@latest
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- get Go (dyff requires Go version 1.23 or greater)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- export KUBECTL_EXTERNAL_DIFF="dyff between --omit-header --set-exit-code"
-- kubectl diff [...]
-- ![dyff between example with kubectl diff](.docs/dyff-between-kubectl-diff.png?raw=true "dyff in kubectl diff example")
+Install command or upstream instructions:
 
-- Source: https://github.com/homeport/dyff
-- Extracted from upstream docs: https://raw.githubusercontent.com/homeport/dyff/HEAD/README.md
+```
+Install dyff from the project release or package-manager path documented in the repository, then compare files with `dyff between old.yaml new.yaml`.
+```
 
 ## Documentation
 

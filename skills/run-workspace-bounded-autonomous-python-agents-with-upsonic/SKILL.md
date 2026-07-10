@@ -1,14 +1,14 @@
 ---
-name: "Run workspace-bounded autonomous Python agents with Upsonic"
-slug: "run-workspace-bounded-autonomous-python-agents-with-upsonic"
+title: "Run workspace-bounded autonomous Python agents with Upsonic"
 description: "Build and run Python agents that execute tasks against an explicit workspace, with tools, MCP connections, and prebuilt agent packages available when needed."
-github_stars: 7880
 verification: "security_reviewed"
 source: "https://github.com/Upsonic/Upsonic"
 author: "Upsonic"
 publisher_type: "organization"
-category: "Developer Tools"
-framework: "Custom Agents"
+category:
+  - "Developer Tools"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "Upsonic/Upsonic"
   github_stars: 7880
@@ -24,19 +24,19 @@ Python, uv or pip, model provider credentials, optional MCP-compatible tools
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- uv pip install "upsonic[ocr]"
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- **Build Autonomous AI Agents in Python**
-- [![Python Version](https://img.shields.io/pypi/pyversions/upsonic.svg)](https://pypi.org/project/upsonic/)
-- python
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Prebuilt autonomous agents are ready-to-run agents built by the Upsonic community, each packaging a skill, system prompt, and first message so you can go from install to running in seconds. The collection is [open to...
+Install command or upstream instructions:
 
-- Source: https://github.com/Upsonic/Upsonic
-- Extracted from upstream docs: https://raw.githubusercontent.com/Upsonic/Upsonic/HEAD/README.md
+```
+Install with `uv pip install upsonic` or `pip install upsonic`, create an `AutonomousAgent` with a model and workspace path, then pass a `Task` to `agent.print_do()` for a bounded run.
+```
 
 ## Documentation
 

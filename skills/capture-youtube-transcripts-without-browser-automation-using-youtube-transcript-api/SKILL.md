@@ -1,14 +1,14 @@
 ---
-name: "Capture YouTube transcripts without browser automation using YouTube Transcript API"
-slug: "capture-youtube-transcripts-without-browser-automation-using-youtube-transcript-api"
+title: "Capture YouTube transcripts without browser automation using YouTube Transcript API"
 description: "Fetch manual or auto-generated YouTube subtitles, including translations, without Selenium or API keys before summarization, extraction, or quote-checking."
-github_stars: 7352
 verification: "security_reviewed"
 source: "https://github.com/jdepoix/youtube-transcript-api"
 author: "jdepoix"
 publisher_type: "open_source_project"
-category: "Media & Transcription"
-framework: "Multi-Framework"
+category:
+  - "Media & Transcription"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "jdepoix/youtube-transcript-api"
   github_stars: 7352
@@ -24,21 +24,19 @@ Python, YouTube video ID
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install youtube-transcript-api
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <img src="https://img.shields.io/pypi/pyversions/youtube-transcript-api.svg" alt="Supported Python Versions">
-- This is a python API which allows you to retrieve the transcript/subtitles for a given YouTube video. It also works for automatically generated subtitles, supports translating subtitles and it does not require a headl...
-- python
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- It is recommended to [install this module by using pip](https://pypi.org/project/youtube-transcript-api/):
-- You can either integrate this module [into an existing application](#api) or just use it via a [CLI](#cli).
-- ## API
+Install command or upstream instructions:
 
-- Source: https://github.com/jdepoix/youtube-transcript-api
-- Extracted from upstream docs: https://raw.githubusercontent.com/jdepoix/youtube-transcript-api/HEAD/README.md
+```
+pip install youtube-transcript-api
+```
 
 ## Documentation
 

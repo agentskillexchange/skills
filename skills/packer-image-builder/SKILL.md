@@ -1,13 +1,13 @@
 ---
-name: "Packer Image Builder"
-slug: "packer-image-builder"
-description: ""
-github_stars: 15647
+title: "Packer Image Builder"
+description: "Packer Image Builder is built around Docker container platform. The underlying ecosystem is represented by moby/moby (active GitHub adoption). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Docker Engine API, Dockerfiles, docker compose, image builds, registries and preserving the […]"
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/packer"
 author: "HashiCorp"
-category: "Templates & Workflows"
-framework: "Custom Agents"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "hashicorp/packer"
   github_stars: 15647
@@ -15,20 +15,17 @@ tool_ecosystem:
 
 # Packer Image Builder
 
-
+Packer Image Builder is built around Docker container platform. The underlying ecosystem is represented by moby/moby (active GitHub adoption). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Docker Engine API, Dockerfiles, docker compose, image builds, registries and preserving the […]
 
 ## Installation
 
-Requirements and caveats from upstream:
-- for building a Docker image on your local machine without using any paid cloud resources.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- ### Packer
-- There is a great [introduction and getting started guide](https://learn.hashicorp.com/tutorials/packer/get-started-install-cli)
-- Alternatively, you can refer to [getting started with AWS](https://developer.hashicorp.com/packer/tutorials/aws-get-started) to
-
-- Source: https://github.com/hashicorp/packer
-- Extracted from upstream docs: https://raw.githubusercontent.com/hashicorp/packer/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

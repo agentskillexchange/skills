@@ -1,12 +1,12 @@
 ---
-name: "Tekton Pipeline Resource Optimizer"
-slug: "tekton-pipeline-resource-optimizer"
+title: "Tekton Pipeline Resource Optimizer"
 description: "Analyzes Tekton Pipeline and Task resource definitions using the Tekton Results API. Recommends CPU/memory request adjustments based on historical TaskRun metrics from Prometheus."
-github_stars: 8936
 verification: "security_reviewed"
 source: "https://github.com/tektoncd/pipeline"
-category: "CI/CD Integrations"
-framework: "Cursor"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Cursor"
 tool_ecosystem:
   github_repo: "tektoncd/pipeline"
   github_stars: 8936
@@ -18,13 +18,13 @@ Analyzes Tekton Pipeline and Task resource definitions using the Tekton Results 
 
 ## Installation
 
-Basic usage or getting-started notes:
-- Run on Kubernetes
-- The Tasks which make up a Pipeline can easily be run in isolation
-- Jump in with [the "Getting started" tutorial!](https://tekton.dev/docs/getting-started/tasks/)
+Choose whichever fits your setup:
 
-- Source: https://github.com/tektoncd/pipeline
-- Extracted from upstream docs: https://raw.githubusercontent.com/tektoncd/pipeline/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

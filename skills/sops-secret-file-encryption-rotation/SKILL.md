@@ -1,14 +1,14 @@
 ---
-name: "SOPS Secret File Encryption and Rotation"
-slug: "sops-secret-file-encryption-rotation"
+title: "SOPS Secret File Encryption and Rotation"
 description: "SOPS manages encrypted YAML, JSON, ENV, INI, and binary files with KMS, age, and PGP. It is a tight fit for secrets handling, rotation, and encrypted configuration workflows."
-github_stars: 21476
 verification: "listed"
 source: "https://github.com/getsops/sops"
 author: "Getsops"
 publisher_type: "Open Source Project"
-category: "Security & Verification"
-framework: "Multi-Framework"
+category:
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "getsops/sops"
   github_stars: 21476
@@ -24,9 +24,19 @@ AWS KMS, GCP KMS, Azure Key Vault, age, or PGP depending on encryption backend
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://github.com/getsops/sops
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+brew install sops
+```
 
 ## Documentation
 

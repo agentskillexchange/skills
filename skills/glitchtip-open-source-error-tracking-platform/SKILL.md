@@ -1,13 +1,14 @@
 ---
-name: "GlitchTip Open-Source Error Tracking Platform"
-slug: "glitchtip-open-source-error-tracking-platform"
+title: "GlitchTip Open-Source Error Tracking Platform"
 description: "GlitchTip is an open-source, Sentry-compatible error tracking platform built for self-hosted exception monitoring and alerting. It is a strong fit when you want production error visibility with API compatibility, lighter infrastructure, and clear deployment docs."
 verification: "listed"
 source: "https://gitlab.com/glitchtip/glitchtip-backend"
 author: "GlitchTip"
 publisher_type: "Open Source Project"
-category: "Monitoring & Alerts"
-framework: "Multi-Framework"
+category:
+  - "Monitoring & Alerts"
+framework:
+  - "Multi-Framework"
 ---
 
 # GlitchTip Open-Source Error Tracking Platform
@@ -20,9 +21,19 @@ Docker, Docker Compose, PostgreSQL, Valkey (optional)
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://gitlab.com/glitchtip/glitchtip-backend
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+docker compose up
+```
 
 ## Documentation
 

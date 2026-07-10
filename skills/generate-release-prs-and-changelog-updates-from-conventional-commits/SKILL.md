@@ -1,13 +1,13 @@
 ---
-name: "Generate release PRs and changelog updates from Conventional Commits"
-slug: "generate-release-prs-and-changelog-updates-from-conventional-commits"
+title: "Generate release PRs and changelog updates from Conventional Commits"
 description: "Use release-please when an agent should turn merged Conventional Commits into structured release PRs, version bumps, and changelog updates before a human reviews and merges. This is a release-management workflow, not a generic package or CI listing."
-github_stars: 6700
 verification: "security_reviewed"
 source: "https://github.com/googleapis/release-please"
 author: "Google APIs"
-category: "CI/CD Integrations"
-framework: "Multi-Framework"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "googleapis/release-please"
   github_stars: 6700
@@ -25,21 +25,19 @@ GitHub, Conventional Commits
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- make sense when merged in the main branch. For example, you may have
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- "docs" is a prefix for releasable units in Java and Python.
-- | node | [A Node.js repository, with a package.json and CHANGELOG.md](https://github.com/yargs/yargs) |
-- | python | [A Python repository with a pyproject.toml, &lt;project&gt;/\_\_init\_\_.py, CHANGELOG.md or optionally a setup.py, setup.cfg](https://github.com/googleapis/python-storage) |
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Updates your changelog file (for example CHANGELOG.md), along with other language specific files (for example package.json).
-- **Empty commit example:**
-- Some languages have their specific releasable unit configuration. For example,
+Install command or upstream instructions:
 
-- Source: https://github.com/googleapis/release-please
-- Extracted from upstream docs: https://raw.githubusercontent.com/googleapis/release-please/HEAD/README.md
+```
+Install release-please via npm or use the GitHub integration, configure release-please in the repository, then let it open release PRs from commit history.
+```
 
 ## Documentation
 

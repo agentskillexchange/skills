@@ -1,14 +1,14 @@
 ---
-name: "Build streaming voice LLM agents with Vocode"
-slug: "build-streaming-voice-llm-agents-with-vocode"
+title: "Build streaming voice LLM agents with Vocode"
 description: "Use Vocode to compose transcription, LLM, speech synthesis, and telephony components into reviewable real-time voice-agent workflows."
-github_stars: 3767
 verification: "security_reviewed"
 source: "https://github.com/vocodedev/vocode-core"
 author: "Vocode"
 publisher_type: "organization"
-category: "Media & Transcription"
-framework: "Custom Agents"
+category:
+  - "Media & Transcription"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "vocodedev/vocode-core"
   github_stars: 3767
@@ -24,19 +24,19 @@ Python environment with the vocode package; provider credentials for selected tr
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install vocode
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![pypi](https://img.shields.io/pypi/v/vocode.svg)](https://pypi.python.org/pypi/vocode)
-- 🗣 [Spin up a conversation with your system audio](https://docs.vocode.dev/open-source/python-quickstart)
-- python
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- asyncio.run(main())
+Install command or upstream instructions:
 
-- Source: https://github.com/vocodedev/vocode-core
-- Extracted from upstream docs: https://raw.githubusercontent.com/vocodedev/vocode-core/HEAD/README.md
+```
+Install the upstream Python package with pip install vocode, then follow the open-source quickstart to configure microphone or telephony input, a conversation agent, transcriber, and synthesizer.
+```
 
 ## Documentation
 

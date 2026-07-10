@@ -1,12 +1,12 @@
 ---
-name: "Excalidraw Virtual Whiteboard and Diagram SDK"
-slug: "excalidraw-virtual-whiteboard-diagram-sdk"
+title: "Excalidraw Virtual Whiteboard and Diagram SDK"
 description: "Excalidraw is an open-source virtual whiteboard for creating hand-drawn style diagrams, wireframes, and sketches. It provides an infinite canvas, real-time collaboration, end-to-end encryption, and a React component library for embedding in custom applications."
-github_stars: 119886
 verification: "security_reviewed"
 source: "https://github.com/excalidraw/excalidraw"
-category: "Image & Creative Automation"
-framework: "Multi-Framework"
+category:
+  - "Image & Creative Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "excalidraw/excalidraw"
   github_stars: 119886
@@ -20,18 +20,13 @@ Excalidraw is an open-source virtual whiteboard for creating hand-drawn style di
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Use npm or yarn to install the package.
-- npm install react react-dom @excalidraw/excalidraw
-- yarn add react react-dom @excalidraw/excalidraw
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- **Note:** following instructions are for installing the Excalidraw [npm package](https://www.npmjs.com/package/@excalidraw/excalidraw) when integrating Excalidraw into your own app. To run the repository locally for d...
-- bash
-- # or
-
-- Source: https://github.com/excalidraw/excalidraw
-- Extracted from upstream docs: https://raw.githubusercontent.com/excalidraw/excalidraw/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

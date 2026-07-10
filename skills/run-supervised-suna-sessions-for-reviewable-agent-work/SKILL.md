@@ -1,14 +1,14 @@
 ---
-name: "Run supervised Suna sessions for reviewable agent work"
-slug: "run-supervised-suna-sessions-for-reviewable-agent-work"
+title: "Run supervised Suna sessions for reviewable agent work"
 description: "Start a bounded Suna or Kortix agent session, let it use browser, files, tools, and connectors, then review the session output before delivery."
-github_stars: 19814
 verification: "security_reviewed"
 source: "https://github.com/kortix-ai/suna"
 author: "Kortix AI"
 publisher_type: "organization"
-category: "Templates & Workflows"
-framework: "Multi-Framework"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "kortix-ai/suna"
   github_stars: 19814
@@ -24,13 +24,19 @@ Suna or Kortix runtime, Kortix CLI or hosted Kortix project, browser/files works
 
 ## Installation
 
-Basic usage or getting-started notes:
-- Every **session** runs in its own disposable Linux sandbox on its own branch — the agent can install, run and break anything; only what it commits survives.
-- Run **thousands of agents in parallel** on the same config, each fully isolated, each feeding work back through change requests.
-- **A workforce, not one assistant.** Org-scale specialist agents that run in parallel and compound a shared memory.
+Choose whichever fits your setup:
 
-- Source: https://github.com/kortix-ai/suna
-- Extracted from upstream docs: https://raw.githubusercontent.com/kortix-ai/suna/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Use the upstream Kortix installer from https://kortix.com/install after reviewing it, then run kortix init to scaffold a project and kortix ship to bring it live. For a bounded run, start a session with kortix sessions new --prompt "<task>", inspect change requests with kortix cr ls, and use kortix chat for session interaction.
+```
 
 ## Documentation
 

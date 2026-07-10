@@ -1,14 +1,14 @@
 ---
-name: "Decompile Android APKs into readable source with jadx for review and analysis"
-slug: "decompile-android-apks-into-readable-source-with-jadx-for-review-and-analysis"
+title: "Decompile Android APKs into readable source with jadx for review and analysis"
 description: "Turn an APK into readable Java or decompiled source artifacts so an agent can inspect behavior before deeper reverse-engineering or triage."
-github_stars: 46142
 verification: "security_reviewed"
 source: "https://github.com/skylot/jadx"
 author: "skylot"
 publisher_type: "individual"
-category: "Security & Verification"
-framework: "Multi-Framework"
+category:
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "skylot/jadx"
   github_stars: 46142
@@ -24,20 +24,19 @@ jadx CLI or GUI, target APK or DEX files, Java runtime, local workspace for extr
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install jadx
-- git clone https://github.com/skylot/jadx.git
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- JDK 17 or higher must be installed:
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- find usage
-- smali debugger, check [wiki page](https://github.com/skylot/jadx/wiki/Smali-debugger) for setup and usage
-- After download unpack zip file go to bin directory and run:
+Install command or upstream instructions:
 
-- Source: https://github.com/skylot/jadx
-- Extracted from upstream docs: https://raw.githubusercontent.com/skylot/jadx/HEAD/README.md
+```
+Install jadx from the upstream release archive or package path, provide the target APK or DEX file, then run the documented decompile flow to inspect the generated readable source output.
+```
 
 ## Documentation
 

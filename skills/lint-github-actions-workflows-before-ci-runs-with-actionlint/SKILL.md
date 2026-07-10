@@ -1,14 +1,14 @@
 ---
-name: "Lint GitHub Actions workflows before CI runs with actionlint"
-slug: "lint-github-actions-workflows-before-ci-runs-with-actionlint"
+title: "Lint GitHub Actions workflows before CI runs with actionlint"
 description: "Validate workflow syntax, expressions, and shell steps before broken GitHub Actions changes reach CI."
-github_stars: 3787
 verification: "security_reviewed"
 source: "https://github.com/rhysd/actionlint"
 author: "rhysd"
 publisher_type: "individual"
-category: "CI/CD Integrations"
-framework: "Multi-Framework"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "rhysd/actionlint"
   github_stars: 3787
@@ -24,21 +24,19 @@ actionlint binary and GitHub Actions workflow files
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- go install github.com/rhysd/actionlint/cmd/actionlint@latest
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- uses: actions/setup-node@v4
-- key: ${{ matrix.platform }}-node-${{ hashFiles('**/package-lock.json') }}
-- test.yaml:17:11: input "node_version" is not defined in action "actions/setup-node@v4". available inputs are "always-auth", "architecture", "cache", "cache-dependency-path", "check-latest", "node-version", "node-versi...
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- **Actions usage check** to check that inputs at with: and outputs in steps.{id}.outputs are correct
-- **[shellcheck][] and [pyflakes][] integrations** for scripts at run:
-- **Example of broken workflow:**
+Install command or upstream instructions:
 
-- Source: https://github.com/rhysd/actionlint
-- Extracted from upstream docs: https://raw.githubusercontent.com/rhysd/actionlint/HEAD/README.md
+```
+Install actionlint from the project releases or package manager, then run `actionlint` in the repository root or against specific workflow files before merge.
+```
 
 ## Documentation
 

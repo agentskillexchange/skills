@@ -1,19 +1,19 @@
 ---
-name: "OpenAI Image Gen"
-slug: "openai-image-gen"
+title: "OpenAI Image Gen"
 description: "Batch-generate images through the OpenAI Images API with a prompt sampler and gallery output."
-github_stars: 10942
 verification: "security_reviewed"
 source: "https://github.com/openai/openai-node"
 author: "OpenAI"
 publisher_type: "open_source_collective"
-category: "Image & Creative Automation"
-framework: "OpenClaw"
+category:
+  - "Image & Creative Automation"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "openai/openai-node"
   github_stars: 10942
   npm_package: "openai"
-  npm_weekly_downloads: 25353504
+  npm_weekly_downloads: 27272595
 ---
 
 # OpenAI Image Gen
@@ -26,22 +26,19 @@ Node.js, npm
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install openai
-- npx jsr add @openai/openai
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- The full API of this library can be found in [api.md file](api.md) along with many [code examples](https://github.com/openai/openai-node/tree/master/examples).
-- // If you have access to Node fs we recommend using fs.createReadStream():
-- await client.chat.completions.create({ messages: [{ role: 'user', content: 'How can I list all files in a directory using Python?' }], model: 'gpt-5.2' }, {
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- sh
-- deno add jsr:@openai/openai
-- These commands will make the module importable from the @openai/openai scope. You can also [import directly from JSR](https://jsr.io/docs/using-packages#importing-with-jsr-specifiers) without an install step if you're...
+Install command or upstream instructions:
 
-- Source: https://github.com/openai/openai-node
-- Extracted from upstream docs: https://raw.githubusercontent.com/openai/openai-node/HEAD/README.md
+```
+npm install openai
+```
 
 ## Documentation
 

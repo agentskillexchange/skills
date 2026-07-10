@@ -1,12 +1,12 @@
 ---
-name: "OWASP ZAP Automated Pen Testing Agent"
-slug: "owasp-zap-automated-pen-testing-agent"
+title: "OWASP ZAP Automated Pen Testing Agent"
 description: "Runs automated penetration tests using OWASP ZAP API with spider crawling, active scanning, and AJAX-aware testing. Generates SARIF and HTML reports with CWE-mapped findings for security review workflows."
-github_stars: 14991
 verification: "security_reviewed"
 source: "https://github.com/zaproxy/zaproxy"
-category: "Security & Verification"
-framework: "ChatGPT Agents"
+category:
+  - "Security & Verification"
+framework:
+  - "ChatGPT Agents"
 tool_ecosystem:
   github_repo: "zaproxy/zaproxy"
   github_stars: 14991
@@ -18,14 +18,13 @@ Runs automated penetration tests using OWASP ZAP API with spider crawling, activ
 
 ## Installation
 
-Requirements and caveats from upstream:
-- ![Docker Live Release](https://github.com/zaproxy/zaproxy/actions/workflows/release-live-docker.yml/badge.svg)
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- ![Integration Tests](https://github.com/zaproxy/zaproxy/actions/workflows/run-integration-tests.yml/badge.svg)
-
-- Source: https://github.com/zaproxy/zaproxy
-- Extracted from upstream docs: https://raw.githubusercontent.com/zaproxy/zaproxy/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

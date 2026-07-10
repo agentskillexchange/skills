@@ -1,12 +1,12 @@
 ---
-name: "Supabase MCP Server"
-slug: "supabase-mcp-server"
-description: ""
-github_stars: 100812
+title: "Supabase MCP Server"
+description: "Supabase MCP Server is built around Supabase developer platform. The underlying ecosystem is represented by supabase/supabase (99,546+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like PostgREST, Auth, Storage, Realtime, Edge Functions, RLS and preserving the operational context […]"
 verification: "security_reviewed"
 source: "https://github.com/supabase/supabase"
-category: "Developer Tools"
-framework: "MCP"
+category:
+  - "Developer Tools"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "supabase/supabase"
   github_stars: 100812
@@ -16,19 +16,17 @@ tool_ecosystem:
 
 # Supabase MCP Server
 
-
+Supabase MCP Server is built around Supabase developer platform. The underlying ecosystem is represented by supabase/supabase (99,546+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like PostgREST, Auth, Storage, Realtime, Edge Functions, RLS and preserving the operational context […]
 
 ## Installation
 
-Requirements and caveats from upstream:
-- <td>Python</td>
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- To see how to Contribute, visit [Getting Started](./DEVELOPERS.md)
-- [postgres-meta](https://github.com/supabase/postgres-meta) is a RESTful API for managing your Postgres, allowing you to fetch tables, add roles, and run queries, etc.
-
-- Source: https://github.com/supabase/supabase
-- Extracted from upstream docs: https://raw.githubusercontent.com/supabase/supabase/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

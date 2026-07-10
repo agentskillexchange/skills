@@ -1,14 +1,14 @@
 ---
-name: "Trace and debug agent runs with AgentOps"
-slug: "trace-and-debug-agent-runs-with-agentops"
+title: "Trace and debug agent runs with AgentOps"
 description: "Instrument agent sessions so operators can replay runs, track model costs, inspect tool calls, and compare behavior across frameworks."
-github_stars: 5640
 verification: "security_reviewed"
 source: "https://github.com/AgentOps-AI/agentops"
 author: "AgentOps AI"
 publisher_type: "organization"
-category: "Monitoring & Alerts"
-framework: "Multi-Framework"
+category:
+  - "Monitoring & Alerts"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "AgentOps-AI/agentops"
   github_stars: 5640
@@ -24,24 +24,19 @@ AgentOps Python SDK or supported framework integration, AgentOps API key or self
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install agentops
-- pip install openai-agents
-- npm install agentops @openai/agents
-- pip install 'crewai[agentops]'
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- python
-- Build multi-agent systems with tools, handoffs, and guardrails. AgentOps natively integrates with the OpenAI Agents SDKs for both Python and TypeScript.
-- [Python integration guide](https://docs.agentops.ai/v2/integrations/openai_agents_python)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- | ⚒️ **Self-Host** | Want to run AgentOps on your own cloud? You're covered |
-- Initialize the AgentOps client and automatically get analytics on all your LLM calls.
-- [Get an API key](https://app.agentops.ai/settings/projects)
+Install command or upstream instructions:
 
-- Source: https://github.com/AgentOps-AI/agentops
-- Extracted from upstream docs: https://raw.githubusercontent.com/AgentOps-AI/agentops/HEAD/README.md
+```
+Install the AgentOps SDK with pip install agentops, configure an AgentOps API key or self-hosted endpoint, initialize AgentOps at process startup, end sessions explicitly, and review replay, cost, and tool-call traces after representative agent runs.
+```
 
 ## Documentation
 

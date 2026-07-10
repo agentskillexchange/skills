@@ -1,14 +1,14 @@
 ---
-name: "Mailtrap Node.js SDK for Transactional and Sandbox Email"
-slug: "mailtrap-nodejs-sdk-transactional-and-sandbox-email"
+title: "Mailtrap Node.js SDK for Transactional and Sandbox Email"
 description: "An ASE skill built on the official Mailtrap Node.js SDK for sending transactional email and working with Mailtrap sandbox or production flows. It is well suited to agent workflows that need API-driven email delivery, test inbox validation, and structured messaging automation."
-github_stars: 108
 verification: "security_reviewed"
 source: "https://github.com/mailtrap/mailtrap-nodejs"
 author: "mailtrap"
 publisher_type: "Company"
-category: "Calendar, Email & Productivity"
-framework: "Multi-Framework"
+category:
+  - "Calendar, Email & Productivity"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mailtrap/mailtrap-nodejs"
   github_stars: 108
@@ -26,24 +26,19 @@ Node.js or TypeScript runtime with the mailtrap package
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install mailtrap
-- yarn add mailtrap
-- npm install nodemailer
-- yarn add nodemailer
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- # Mailtrap Node.js client - Official
-- To get the most out of this official Mailtrap.io Node.js SDK:
-- subject: "Hello from Mailtrap Node.js",
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Create a Mailtrap account](https://mailtrap.io/signup)
-- [Verify your domain](https://mailtrap.io/sending/domains)
-- You can install the package via [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/):
+Install command or upstream instructions:
 
-- Source: https://github.com/mailtrap/mailtrap-nodejs
-- Extracted from upstream docs: https://raw.githubusercontent.com/mailtrap/mailtrap-nodejs/HEAD/README.md
+```
+npm install mailtrap
+```
 
 ## Documentation
 

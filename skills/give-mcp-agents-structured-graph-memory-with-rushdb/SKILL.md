@@ -1,14 +1,14 @@
 ---
-name: "Give MCP agents structured graph memory with RushDB"
-slug: "give-mcp-agents-structured-graph-memory-with-rushdb"
-description: "Connect RushDB's MCP server so agents can store, search, update, and traverse persistent structured memory without hand-building a separate vector and graph stack."
-github_stars: 308
+title: "Give MCP agents structured graph memory with RushDB"
+description: "Connect RushDB’s MCP server so agents can store, search, update, and traverse persistent structured memory without hand-building a separate vector and graph stack."
 verification: "security_reviewed"
 source: "https://github.com/rush-db/rushdb"
 author: "RushDB"
 publisher_type: "organization"
-category: "Integrations & Connectors"
-framework: "MCP"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "rush-db/rushdb"
   github_stars: 308
@@ -18,7 +18,7 @@ tool_ecosystem:
 
 # Give MCP agents structured graph memory with RushDB
 
-Connect RushDB's MCP server so agents can store, search, update, and traverse persistent structured memory without hand-building a separate vector and graph stack.
+Connect RushDB’s MCP server so agents can store, search, update, and traverse persistent structured memory without hand-building a separate vector and graph stack.
 
 ## Prerequisites
 
@@ -26,24 +26,19 @@ RushDB account or self-hosted RushDB API, RushDB API key, Node.js/npx, and an MC
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install @rushdb/javascript-sdk
-- pip install rushdb
-- git clone https://github.com/rush-db/rushdb.git
-- pnpm install
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- **Self-host** — Docker + your own Neo4j instance. [Jump to Self-hosting →](#self-hosting)
-- python
-- | Python SDK | https://docs.rushdb.com/python-sdk/introduction |
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Two paths depending on your setup:
-- **Cloud** — Managed, free tier, running in 30 seconds. [Get API key →](https://app.rushdb.com)
-- typescript
+Install command or upstream instructions:
 
-- Source: https://github.com/rush-db/rushdb
-- Extracted from upstream docs: https://raw.githubusercontent.com/rush-db/rushdb/HEAD/README.md
+```
+For local stdio MCP clients, add a rushdb MCP server entry that runs npx @rushdb/mcp-server and set RUSHDB_API_KEY in the server environment. For hosted MCP clients that support remote connectors, use the documented RushDB remote MCP endpoint and complete OAuth authorization. Use RUSHDB_API_URL only when pointing the server at a self-hosted or staging RushDB API.
+```
 
 ## Documentation
 

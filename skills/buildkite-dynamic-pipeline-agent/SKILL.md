@@ -1,12 +1,13 @@
 ---
-name: "Buildkite Dynamic Pipeline Agent"
-slug: "buildkite-dynamic-pipeline-agent"
+title: "Buildkite Dynamic Pipeline Agent"
 description: "Creates Buildkite pipelines dynamically using the Buildkite REST API and pipeline upload commands. Manages agent targeting with queue tags and implements automatic retry strategies for flaky tests."
 verification: "listed"
 source: "https://buildkite.com/docs"
 author: "Buildkite"
-category: "CI/CD Integrations"
-framework: "Cursor"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Cursor"
 ---
 
 # Buildkite Dynamic Pipeline Agent
@@ -15,9 +16,13 @@ Creates Buildkite pipelines dynamically using the Buildkite REST API and pipelin
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://buildkite.com/docs
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

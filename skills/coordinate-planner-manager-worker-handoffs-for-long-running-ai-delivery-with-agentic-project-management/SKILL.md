@@ -1,14 +1,14 @@
 ---
-name: "Coordinate planner manager worker handoffs for long running AI delivery with Agentic Project Management"
-slug: "coordinate-planner-manager-worker-handoffs-for-long-running-ai-delivery-with-agentic-project-management"
+title: "Coordinate planner manager worker handoffs for long running AI delivery with Agentic Project Management"
 description: "Keep a large software project moving across planning, execution, and review by handing work between structured agent roles instead of losing the thread in one giant chat."
-github_stars: 2211
 verification: "security_reviewed"
 source: "https://github.com/sdi2200262/agentic-project-management"
 author: "sdi2200262"
 publisher_type: "individual"
-category: "Templates & Workflows"
-framework: "Multi-Framework"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "sdi2200262/agentic-project-management"
   github_stars: 2211
@@ -26,19 +26,19 @@ Node.js, Agentic Project Management CLI, a supported AI assistant such as Claude
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install -g agentic-pm
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Licensed under the **Mozilla Public License 2.0 (MPL-2.0)**. APM is free for all uses including commercial. Improvements to core APM files must be shared back with the community. See [LICENSE](LICENSE) for full details.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- You mediate every exchange between agents by running commands in the appropriate conversation. This keeps every step visible and auditable, letting you set the pace and review work at each stage. Each agent tells you...
-- From there it's simple: the Manager coordinates execution using the planning documents and tells you what command to run next and where, you run it in the right conversation, and work gets done. One command delivers a...
-- As the project grows, Workers build up focused working knowledge of their domains. When one fills its context, you run a Handoff command and the next instance picks up without gaps. The same applies to the Manager.
+Install command or upstream instructions:
 
-- Source: https://github.com/sdi2200262/agentic-project-management
-- Extracted from upstream docs: https://raw.githubusercontent.com/sdi2200262/agentic-project-management/HEAD/README.md
+```
+Install the APM CLI from npm as documented upstream, run apm init inside the target project, then start the planner and manager slash-command workflow in a supported AI assistant.
+```
 
 ## Documentation
 

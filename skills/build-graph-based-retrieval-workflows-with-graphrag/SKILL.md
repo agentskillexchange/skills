@@ -1,14 +1,14 @@
 ---
-name: "Build graph-based retrieval workflows with GraphRAG"
-slug: "build-graph-based-retrieval-workflows-with-graphrag"
+title: "Build graph-based retrieval workflows with GraphRAG"
 description: "Index private text into graph-backed retrieval structures, tune prompts, and query the resulting knowledge graph for RAG workflows."
-github_stars: 33445
 verification: "security_reviewed"
 source: "https://github.com/microsoft/graphrag"
 author: "Microsoft"
 publisher_type: "organization"
-category: "Data Extraction & Transformation"
-framework: "Multi-Framework"
+category:
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "microsoft/graphrag"
   github_stars: 33445
@@ -24,17 +24,19 @@ Python, GraphRAG CLI/package, LLM credentials, bounded text corpus
 
 ## Installation
 
-Requirements and caveats from upstream:
-- trademarks or logos is subject to and must follow
-- Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- To get started with the GraphRAG system we recommend trying the [command line quickstart](https://microsoft.github.io/graphrag/get_started/).
-- This repository presents a methodology for using knowledge graph memory structures to enhance LLM outputs. Please note that the provided code serves as a demonstration and is not an officially supported Microsoft offe...
-- ⚠️ *Warning: GraphRAG indexing can be an expensive operation, please read all of the documentation to understand the process and costs involved, and start small.*
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/microsoft/graphrag
-- Extracted from upstream docs: https://raw.githubusercontent.com/microsoft/graphrag/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Follow the GraphRAG command-line quickstart, initialize a project with graphrag init --root [path], add a small bounded corpus, review configuration and cost guidance, then run indexing and query commands before connecting results to an agent or RAG workflow.
+```
 
 ## Documentation
 

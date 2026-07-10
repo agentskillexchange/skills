@@ -1,12 +1,12 @@
 ---
-name: "OWASP ZAP API Security Auditor"
-slug: "owasp-zap-api-security-auditor"
-description: "Orchestrates OWASP ZAP active and passive scans against REST and GraphQL endpoints using ZAP's Python API client. Generates DAST reports with CWE mappings and suggests WAF rule configurations."
-github_stars: 14991
+title: "OWASP ZAP API Security Auditor"
+description: "Orchestrates OWASP ZAP active and passive scans against REST and GraphQL endpoints using ZAP’s Python API client. Generates DAST reports with CWE mappings and suggests WAF rule configurations."
 verification: "security_reviewed"
 source: "https://github.com/zaproxy/zaproxy"
-category: "Security & Verification"
-framework: "OpenClaw"
+category:
+  - "Security & Verification"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "zaproxy/zaproxy"
   github_stars: 14991
@@ -14,18 +14,17 @@ tool_ecosystem:
 
 # OWASP ZAP API Security Auditor
 
-Orchestrates OWASP ZAP active and passive scans against REST and GraphQL endpoints using ZAP's Python API client. Generates DAST reports with CWE mappings and suggests WAF rule configurations.
+Orchestrates OWASP ZAP active and passive scans against REST and GraphQL endpoints using ZAP’s Python API client. Generates DAST reports with CWE mappings and suggests WAF rule configurations.
 
 ## Installation
 
-Requirements and caveats from upstream:
-- ![Docker Live Release](https://github.com/zaproxy/zaproxy/actions/workflows/release-live-docker.yml/badge.svg)
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- ![Integration Tests](https://github.com/zaproxy/zaproxy/actions/workflows/run-integration-tests.yml/badge.svg)
-
-- Source: https://github.com/zaproxy/zaproxy
-- Extracted from upstream docs: https://raw.githubusercontent.com/zaproxy/zaproxy/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

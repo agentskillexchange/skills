@@ -1,12 +1,13 @@
 ---
-name: "SerpAPI Search Pipeline"
-slug: "serpapi-search-pipeline"
+title: "SerpAPI Search Pipeline"
 description: "Automates multi-engine searches via SerpAPI (Google, Bing, DuckDuckGo) with structured JSON extraction. Supports pagination, location targeting, and result deduplication using MinHash LSH."
 verification: "security_reviewed"
 source: "https://serpapi.com/search-api"
 author: "SerpApi"
-category: "Research & Scraping"
-framework: "OpenClaw"
+category:
+  - "Research & Scraping"
+framework:
+  - "OpenClaw"
 ---
 
 # SerpAPI Search Pipeline
@@ -15,12 +16,13 @@ Automates multi-engine searches via SerpAPI (Google, Bing, DuckDuckGo) with stru
 
 ## Installation
 
-Basic usage or getting-started notes:
-- Example with q : Coffee parameter
-- JSON Example
-- "snippet": "Icon of a bag of coffee being shipped to you. Subscriptions. Never run out of your favorite coffees, teas and powders again with our auto-delivery subscription.",
+Choose whichever fits your setup:
 
-- Source: https://serpapi.com/search-api
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

@@ -1,13 +1,13 @@
 ---
-name: "Jaeger Trace Explorer"
-slug: "jaeger-trace-explorer"
-description: ""
-github_stars: 22671
+title: "Jaeger Trace Explorer"
+description: "Jaeger Trace Explorer is built around Jaeger distributed tracing platform. The underlying ecosystem is represented by jaegertracing/jaeger (22,608+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like trace search, spans, service graph, latency timelines, baggage, sampling and preserving […]"
 verification: "security_reviewed"
 source: "https://github.com/jaegertracing/jaeger"
 author: "Jaeger - Distributed Tracing Platform"
-category: "Monitoring & Alerts"
-framework: "MCP"
+category:
+  - "Monitoring & Alerts"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "jaegertracing/jaeger"
   github_stars: 22671
@@ -15,23 +15,17 @@ tool_ecosystem:
 
 # Jaeger Trace Explorer
 
-
+Jaeger Trace Explorer is built around Jaeger distributed tracing platform. The underlying ecosystem is represented by jaegertracing/jaeger (22,608+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like trace search, spans, service graph, latency timelines, baggage, sampling and preserving […]
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- docker run --rm --name jaeger \
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Get Jaeger running in seconds with Docker:
-
-Basic usage or getting-started notes:
-- bash
-- # Run Jaeger all-in-one (includes UI, collector, query, and in-memory storage)
-- -p 16686:16686 \
-
-- Source: https://github.com/jaegertracing/jaeger
-- Extracted from upstream docs: https://raw.githubusercontent.com/jaegertracing/jaeger/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

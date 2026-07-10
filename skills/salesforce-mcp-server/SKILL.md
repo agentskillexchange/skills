@@ -1,23 +1,23 @@
 ---
-name: "Salesforce MCP Server"
-slug: "salesforce-mcp-server"
-description: ""
-github_stars: 1465
+title: "Salesforce MCP Server"
+description: "Salesforce MCP Server is built around Salesforce CRM platform. The underlying ecosystem is represented by jsforce/jsforce (1,452+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SOQL, REST API, objects, workflows, envelopes, records, sync and preserving the operational […]"
 verification: "security_reviewed"
 source: "https://github.com/jsforce/jsforce"
 author: "JSforce"
-category: "Integrations & Connectors"
-framework: "MCP"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "jsforce/jsforce"
   github_stars: 1465
   npm_package: "jsforce"
-  npm_weekly_downloads: 974111
+  npm_weekly_downloads: 999305
 ---
 
 # Salesforce MCP Server
 
-
+Salesforce MCP Server is built around Salesforce CRM platform. The underlying ecosystem is represented by jsforce/jsforce (1,452+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SOQL, REST API, objects, workflows, envelopes, records, sync and preserving the operational […]
 
 ## Prerequisites
 
@@ -25,17 +25,19 @@ Node.js, npm
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Salesforce API Library for JavaScript applications (both on web browser and Node.js)
-- JSforce (f.k.a. Node-Salesforce) is an isomorphic JavaScript Library utilizing Salesforce's API: It works both in the browser and with Node.js.
-- ## Node-specific release
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- It also has command line interface (CLI) which gives interactive console (REPL), so you can learn the usage without hassle.
-- ## How to build/run tests:
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/jsforce/jsforce
-- Extracted from upstream docs: https://raw.githubusercontent.com/jsforce/jsforce/HEAD/README.md
+Install command or upstream instructions:
+
+```
+npm install jsforce
+```
 
 ## Documentation
 

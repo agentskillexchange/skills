@@ -1,14 +1,14 @@
 ---
-name: "semantic-release Automated Versioning and Release Publishing"
-slug: "semantic-release-automated-versioning-and-release-publishing"
+title: "semantic-release Automated Versioning and Release Publishing"
 description: "semantic-release automates version calculation, changelog generation, tagging, and package publishing from conventional commits and CI runs. It fits agent workflows that need repeatable release automation across npm and other release targets without manual version bumps."
-github_stars: 23549
 verification: "security_reviewed"
 source: "https://github.com/semantic-release/semantic-release"
 author: "semantic-release"
 publisher_type: "Open Source Project"
-category: "CI/CD Integrations"
-framework: "Multi-Framework"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "semantic-release/semantic-release"
   github_stars: 23549
@@ -26,18 +26,19 @@ Git, Node.js, CI service
 
 ## Installation
 
-Requirements and caveats from upstream:
-- A [Node.js](https://nodejs.org) version that meets [our version requirement](docs/support/node-version.md) installed in your Continuous Integration environment
-- [Node version requirement](docs/support/node-version.md)
-- [Node Support Policy](docs/support/node-support-policy.md)
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Support any [package managers and languages](docs/recipes/release-workflow/README.md#package-managers-and-languages) via [plugins](docs/usage/plugins.md)
-- Simple and reusable configuration via [shareable configurations](docs/usage/shareable-configurations.md)
-- The commit message format can be changed with the [preset or config options](docs/usage/configuration.md#options) of the [@semantic-release/commit-analyzer](https://github.com/semantic-release/commit-analyzer#options)...
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/semantic-release/semantic-release
-- Extracted from upstream docs: https://raw.githubusercontent.com/semantic-release/semantic-release/HEAD/README.md
+Install command or upstream instructions:
+
+```
+npm install --save-dev semantic-release
+```
 
 ## Documentation
 

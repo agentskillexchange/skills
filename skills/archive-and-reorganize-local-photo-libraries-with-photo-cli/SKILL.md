@@ -1,14 +1,14 @@
 ---
-name: "Archive and reorganize local photo libraries with photo-cli"
-slug: "archive-and-reorganize-local-photo-libraries-with-photo-cli"
+title: "Archive and reorganize local photo libraries with photo-cli"
 description: "Use photo-cli when an agent needs to normalize a local photo archive by reading capture metadata, reverse geocoding locations, and rebuilding a cleaner folder structure without moving into a hosted photo platform."
-github_stars: 68
 verification: "security_reviewed"
 source: "https://github.com/photo-cli/photo-cli"
 author: "photo-cli contributors"
 publisher_type: "open_source_project"
-category: "Image & Creative Automation"
-framework: "Multi-Framework"
+category:
+  - "Image & Creative Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "photo-cli/photo-cli"
   github_stars: 68
@@ -24,23 +24,19 @@ photo-cli, access to the source photo library, destination storage for the reorg
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx @modelcontextprotocol/inspector {photo-cli-standalone-executable-or-dotnet-tool-path-or-docker-command} mcp --input {archive-folder-path}
-- npx @modelcontextprotocol/inspector photo-cli mcp --input {archive-folder-path}
-- docker run --rm --volume ./test-photographs:/photos/input --volume ./archive:/photos/output photocli/photocli archive --input /photos/input --output /photos/output --album-type DateRange --album-name My-Album --auto-r...
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- This application can be installed by Homebrew (macOS & Linux), container (Docker, Podman), standalone executable (without dependency and SDK) or as .NET tool.
-- A photo archive folder created with photo-cli archive (must contain the photo-cli.db SQLite database).
-- "command": "{photo-cli-standalone-executable-or-dotnet-tool-path-or-docker-command}",
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [![Nuget release](https://img.shields.io/nuget/v/photo-cli?label=stable&color=blue)](https-://www.nuget.org/packages/photo-cli/) [![Nuget download count](https://img.shields.io/nuget/dt/photo-cli)](https://www.nuget.o...
-- [Features Explained With An Example](#features-explained-with-examples)
-- [Sample Usage Screenshots](#sample-usage-screenshots)
+Install command or upstream instructions:
 
-- Source: https://github.com/photo-cli/photo-cli
-- Extracted from upstream docs: https://raw.githubusercontent.com/photo-cli/photo-cli/HEAD/README.md
+```
+Install photo-cli using one of the documented release methods, choose the source library and destination folder, then run the archive or copy workflow to build a reorganized photo tree from file metadata.
+```
 
 ## Documentation
 

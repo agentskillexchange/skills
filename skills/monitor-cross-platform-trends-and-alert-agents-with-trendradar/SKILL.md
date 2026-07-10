@@ -1,14 +1,14 @@
 ---
-name: "Monitor cross-platform trends and alert agents with TrendRadar"
-slug: "monitor-cross-platform-trends-and-alert-agents-with-trendradar"
+title: "Monitor cross-platform trends and alert agents with TrendRadar"
 description: "Use TrendRadar when an operator needs a self-hosted trend monitor that filters multi-platform feeds, summarizes signals with AI, sends alerts, and exposes trend analysis through MCP."
-github_stars: 59359
 verification: "security_reviewed"
 source: "https://github.com/sansan0/TrendRadar"
 author: "sansan0"
 publisher_type: "open_source"
-category: "Monitoring & Alerts"
-framework: "MCP"
+category:
+  - "Monitoring & Alerts"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "sansan0/TrendRadar"
   github_stars: 59359
@@ -24,24 +24,19 @@ Docker or Python runtime, TrendRadar configuration, notification channel credent
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/sansan0/TrendRadar.git
-- docker compose pull
-- docker compose up -d
-- docker compose pull trendradar
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Docker Pulls](https://img.shields.io/docker/pulls/wantcat/trendradar?style=flat-square&logo=docker&logoColor=white&label=TrendRadar%20Pulls&color=2496ED)](https://hub.docker.com/r/wantcat/trendradar)
-- [![Docker Pulls](https://img.shields.io/docker/pulls/wantcat/trendradar-mcp?style=flat-square&logo=docker&logoColor=white&label=MCP%20Pulls&color=2496ED)](https://hub.docker.com/r/wantcat/trendradar-mcp)
-- [![Docker](https://img.shields.io/badge/Docker-部署-2496ED?style=flat-square&logo=docker&logoColor=white)](https://hub.docker.com/r/wantcat/trendradar)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- EMAIL_TO="user1@example.com,user2@example.com,user3@example.com"
-- 找到 **"Get Hot News"**(必须得是这个字)点进去，点击右侧的 **"Run workflow"** 按钮运行
-- 点击 Run workflow 后需要刷新浏览器页面才能看到新的运行记录
+Install command or upstream instructions:
 
-- Source: https://github.com/sansan0/TrendRadar
-- Extracted from upstream docs: https://raw.githubusercontent.com/sansan0/TrendRadar/HEAD/README.md
+```
+Install from the upstream TrendRadar repository or documentation, configure watched sources, keywords, AI filtering, notification channels, and enable MCP access only for approved agent clients.
+```
 
 ## Documentation
 

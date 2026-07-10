@@ -1,19 +1,20 @@
 ---
-name: "Claude Code MCP Bridge"
-slug: "claude-code-mcp-bridge"
+title: "Claude Code MCP Bridge"
 description: "Run Claude Code as a one-shot MCP tool so other agents and editors can delegate coding tasks to it. An agent-in-agent orchestration bridge."
-github_stars: 1290
 verification: "security_reviewed"
 source: "https://github.com/steipete/claude-code-mcp"
 author: "Peter Steinberger"
 publisher_type: "individual"
-category: "Developer Tools"
-framework: "Claude Code"
+category:
+  - "Developer Tools"
+framework:
+  - "Claude Code"
+  - "MCP"
 tool_ecosystem:
   github_repo: "steipete/claude-code-mcp"
   github_stars: 1290
   npm_package: "@steipete/claude-code-mcp"
-  npm_weekly_downloads: 352
+  npm_weekly_downloads: 346
 ---
 
 # Claude Code MCP Bridge
@@ -26,24 +27,13 @@ Claude Code CLI (installed and authenticated), Node.js v20+, MCP-compatible clie
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install -g @anthropic-ai/claude-code
-- npm test
-- npm run test:unit
-- npm run test:e2e
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Node.js v20 or later (Use fnm or nvm to install)
-- **Before the MCP server can use the default bypassPermissions mode, you must first run the Claude CLI manually once with the --dangerously-skip-permissions flag, login and accept the terms.**
-- "Generate a Python script to parse CSV data and output JSON."
-
-Basic usage or getting-started notes:
-- Run Claude Code with all permissions bypassed by default (using --dangerously-skip-permissions)
-- This server is a thin MCP wrapper around the local Claude Code CLI. By default it preserves the historic behavior and starts Claude Code with --dangerously-skip-permissions. Set the tool's permissionMode argument to d...
-- The wrapper cannot approve prompts that belong to a parent MCP client, bypass macOS privacy prompts, or make another Claude Code session inherit its settings. If the calling client stalls while waiting for permission...
-
-- Source: https://github.com/steipete/claude-code-mcp
-- Extracted from upstream docs: https://raw.githubusercontent.com/steipete/claude-code-mcp/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

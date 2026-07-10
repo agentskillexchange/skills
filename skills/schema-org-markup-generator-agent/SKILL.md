@@ -1,12 +1,13 @@
 ---
-name: "Schema.org Markup Generator"
-slug: "schema-org-markup-generator-agent"
+title: "Schema.org Markup Generator"
 description: "Generates structured data markup using Schema.org vocabulary in JSON-LD format. Supports Article, Product, FAQPage, HowTo, and LocalBusiness schemas with Google Rich Results Test API validation."
 verification: "listed"
 source: "https://schema.org/"
 author: "Schema.org"
-category: "Content Writing & SEO"
-framework: "MCP"
+category:
+  - "Content Writing & SEO"
+framework:
+  - "MCP"
 ---
 
 # Schema.org Markup Generator
@@ -15,9 +16,13 @@ Generates structured data markup using Schema.org vocabulary in JSON-LD format. 
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://schema.org/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

@@ -1,14 +1,14 @@
 ---
-name: "Operate Kubernetes and OpenShift clusters through MCP"
-slug: "operate-kubernetes-and-openshift-clusters-through-mcp"
+title: "Operate Kubernetes and OpenShift clusters through MCP"
 description: "Expose Kubernetes and OpenShift cluster operations to MCP clients with native API-backed tools for resources, pods, events, Helm, Tekton, and diagnostics."
-github_stars: 1607
 verification: "security_reviewed"
 source: "https://github.com/containers/kubernetes-mcp-server"
 author: "containers"
 publisher_type: "organization"
-category: "Runbooks & Diagnostics"
-framework: "MCP"
+category:
+  - "Runbooks & Diagnostics"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "containers/kubernetes-mcp-server"
   github_stars: 1607
@@ -26,23 +26,19 @@ Access to a Kubernetes or OpenShift cluster, kubeconfig or in-cluster configurat
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx kubernetes-mcp-server@latest --help
-- make build
-- npx @modelcontextprotocol/inspector@latest $(pwd)/kubernetes-mcp-server
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- If you're using the native binaries you don't need to have Node or Python installed on your system.
-- **✅ Cross-Platform**: Available as a native binary for Linux, macOS, and Windows, as well as an npm package, a Python package, and container/Docker image.
-- # Run the Kubernetes MCP server using npx (in case you have npm and node installed)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [✨ Features](#features) | [🚀 Getting Started](#getting-started) | [🎥 Demos](#demos) | [⚙️ Configuration](#configuration) | [🛠️ Tools](#tools-and-functionalities) | [💬 Community](#community) | [🧑‍💻 Development](#develo...
-- **Top** gets resource usage metrics for all pods or a specific pod in the specified namespace.
-- **Exec** into a pod and run a command.
+Install command or upstream instructions:
 
-- Source: https://github.com/containers/kubernetes-mcp-server
-- Extracted from upstream docs: https://raw.githubusercontent.com/containers/kubernetes-mcp-server/HEAD/README.md
+```
+For npm-based clients, add an MCP server command such as npx -y kubernetes-mcp-server@latest. For other environments, use the upstream native binary, Python package, container image, or VS Code/Cursor install links, then configure the server with an approved kubeconfig or in-cluster identity.
+```
 
 ## Documentation
 

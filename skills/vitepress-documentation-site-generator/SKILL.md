@@ -1,13 +1,13 @@
 ---
-name: "VitePress Documentation Site Generator"
-slug: "vitepress-documentation-site-generator"
+title: "VitePress Documentation Site Generator"
 description: "VitePress is a Vite and Vue powered static site generator focused on documentation, knowledge bases, and project sites. It gives agents a reliable way to scaffold, structure, and maintain docs sites with fast local previews and Markdown-first authoring."
-github_stars: 17508
 verification: "listed"
 source: "https://github.com/vuejs/vitepress"
 author: "vuejs"
-category: "Content Writing & SEO"
-framework: "Multi-Framework"
+category:
+  - "Content Writing & SEO"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "vuejs/vitepress"
   github_stars: 17508
@@ -21,9 +21,13 @@ VitePress is a Vite and Vue powered static site generator focused on documentati
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://github.com/vuejs/vitepress
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

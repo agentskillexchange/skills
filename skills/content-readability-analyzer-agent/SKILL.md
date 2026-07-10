@@ -1,13 +1,13 @@
 ---
-name: "Content Readability Analyzer"
-slug: "content-readability-analyzer-agent"
+title: "Content Readability Analyzer"
 description: "Scores content using Flesch-Kincaid, Gunning Fog, and SMOG readability indices via textstat Python library. Provides sentence-level rewrite suggestions using OpenAI GPT-4o API."
-github_stars: 1366
 verification: "security_reviewed"
 source: "https://github.com/textstat/textstat"
 author: "textstat"
-category: "Content Writing & SEO"
-framework: "Gemini"
+category:
+  - "Content Writing & SEO"
+framework:
+  - "Gemini"
 tool_ecosystem:
   github_repo: "textstat/textstat"
   github_stars: 1366
@@ -19,24 +19,13 @@ Scores content using Flesch-Kincaid, Gunning Fog, and SMOG readability indices v
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install textstat
-- git clone https://github.com/textstat/textstat.git
-- pip install .
-- $ git clone https://github.com/<yourname>/textstat.git # Clone the repo from your fork
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- python
-- You can install textstat either via the Python Package Index (PyPI) or from source.
-- Download the latest version of textstat from http://pypi.python.org/pypi/textstat/
-
-Basic usage or getting-started notes:
-- >> import textstat
-- >> test_data = (
-- "Playing games has always been thought to be important to "
-
-- Source: https://github.com/textstat/textstat
-- Extracted from upstream docs: https://raw.githubusercontent.com/textstat/textstat/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

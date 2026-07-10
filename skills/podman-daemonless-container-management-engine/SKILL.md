@@ -1,12 +1,12 @@
 ---
-name: "Podman Daemonless Container Management Engine"
-slug: "podman-daemonless-container-management-engine"
+title: "Podman Daemonless Container Management Engine"
 description: "Podman is a daemonless container engine for developing, managing, and running OCI containers on Linux, Mac, and Windows. It provides a Docker-compatible CLI interface with rootless container support and pod management, making it a secure drop-in replacement for Docker in development and CI/CD workflows."
-github_stars: 31227
 verification: "security_reviewed"
 source: "https://github.com/containers/podman"
-category: "Developer Tools"
-framework: "Multi-Framework"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "containers/podman"
   github_stars: 31227
@@ -18,18 +18,13 @@ Podman is a daemonless container engine for developing, managing, and running OC
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Support for multiple container image formats, including OCI and Docker images.
-- Support for a Docker-compatible CLI interface, which can both run containers locally and on remote systems.
-- Support for a REST API providing both a Docker-compatible interface and an improved interface exposing advanced Podman functionality.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Support for running on Windows and Mac via virtual machines run by podman machine.
-- Podman can be easily run as a normal user, without requiring a setuid binary.
-- When run without root, Podman containers use user namespaces to set root in the container to the user running Podman.
-
-- Source: https://github.com/containers/podman
-- Extracted from upstream docs: https://raw.githubusercontent.com/containers/podman/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

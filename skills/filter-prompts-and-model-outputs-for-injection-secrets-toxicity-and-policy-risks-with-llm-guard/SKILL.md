@@ -1,14 +1,14 @@
 ---
-name: "Filter prompts and model outputs for injection, secrets, toxicity, and policy risks with LLM Guard"
-slug: "filter-prompts-and-model-outputs-for-injection-secrets-toxicity-and-policy-risks-with-llm-guard"
+title: "Filter prompts and model outputs for injection, secrets, toxicity, and policy risks with LLM Guard"
 description: "Screen prompts and responses with input and output scanners before an LLM interaction reaches production users or downstream systems."
-github_stars: 2831
 verification: "security_reviewed"
 source: "https://github.com/protectai/llm-guard"
 author: "Protect AI"
 publisher_type: "organization"
-category: "Security & Verification"
-framework: "Multi-Framework"
+category:
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "protectai/llm-guard"
   github_stars: 2831
@@ -24,21 +24,19 @@ Python 3.9+, application or agent code that can wrap LLM input and output handli
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install llm-guard
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![PyPI - Python Version](https://img.shields.io/pypi/v/llm-guard)](https://pypi.org/project/llm-guard)
-- Base functionality requires a limited number of libraries. As you explore more advanced features, necessary libraries
-- Ensure you're using Python version 3.9 or higher. Confirm with: python --version.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- Begin your journey with LLM Guard by downloading the package:
-- sh
-- **Important Notes**:
+Install command or upstream instructions:
 
-- Source: https://github.com/protectai/llm-guard
-- Extracted from upstream docs: https://raw.githubusercontent.com/protectai/llm-guard/HEAD/README.md
+```
+Install with `pip install llm-guard`, choose the input and output scanners that match your risk profile, and wrap those checks around prompt submission and response handling in your LLM workflow.
+```
 
 ## Documentation
 

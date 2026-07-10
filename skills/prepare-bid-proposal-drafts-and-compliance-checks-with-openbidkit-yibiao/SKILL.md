@@ -1,14 +1,14 @@
 ---
-name: "Prepare bid proposal drafts and compliance checks with OpenBidKit Yibiao"
-slug: "prepare-bid-proposal-drafts-and-compliance-checks-with-openbidkit-yibiao"
+title: "Prepare bid proposal drafts and compliance checks with OpenBidKit Yibiao"
 description: "Use OpenBidKit Yibiao to turn tender materials, company knowledge, and model-provider settings into reviewable bid proposal drafts with reuse and risk-check workspaces."
-github_stars: 1031
 verification: "security_reviewed"
 source: "https://github.com/FB208/OpenBidKit_Yibiao"
 author: "FB208"
 publisher_type: "individual"
-category: "Templates & Workflows"
-framework: "Multi-Framework"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "FB208/OpenBidKit_Yibiao"
   github_stars: 1031
@@ -24,21 +24,19 @@ OpenBidKit Yibiao desktop app or local development build, OpenAI-compatible API 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm ci
-- npm run dev
-- npm run build
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- node scripts/prepare-opencode-binary.cjs --platform win32 --arch x64
-- node scripts/verify-opencode-binary.cjs --platform win32 --arch x64
-- node scripts/prepare-opencode-binary.cjs --platform darwin --arch arm64
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- YIBIAO_OPENCODE_BIN=/absolute/path/to/opencode npm run dev
+Install command or upstream instructions:
 
-- Source: https://github.com/FB208/OpenBidKit_Yibiao
-- Extracted from upstream docs: https://raw.githubusercontent.com/FB208/OpenBidKit_Yibiao/HEAD/README.md
+```
+Download the latest OpenBidKit Yibiao release from https://github.com/FB208/OpenBidKit_Yibiao/releases, install or run the desktop build, configure an OpenAI-compatible API or local model provider, then create a local bid workspace with tender files and company knowledge-base materials before generating and reviewing proposal sections.
+```
 
 ## Documentation
 

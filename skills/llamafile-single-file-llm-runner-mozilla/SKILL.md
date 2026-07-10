@@ -1,12 +1,12 @@
 ---
-name: "llamafile Single-File LLM Distribution and Runner by Mozilla"
-slug: "llamafile-single-file-llm-runner-mozilla"
+title: "llamafile Single-File LLM Distribution and Runner by Mozilla"
 description: "llamafile by Mozilla bundles open-source LLMs into a single portable executable that runs locally on macOS, Windows, Linux, and BSD with zero installation. It combines llama.cpp inference with Cosmopolitan Libc to collapse model weights, server, and runtime into one file."
-github_stars: 24134
 verification: "security_reviewed"
 source: "https://github.com/mozilla-ai/llamafile"
-category: "Developer Tools"
-framework: "Multi-Framework"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "mozilla-ai/llamafile"
   github_stars: 24134
@@ -18,13 +18,13 @@ llamafile by Mozilla bundles open-source LLMs into a single portable executable 
 
 ## Installation
 
-Basic usage or getting-started notes:
-- **llamafile lets you distribute and run LLMs with a single file.**
-- show which version of the server they have been bundled with ([0.9.* example](https://huggingface.co/mozilla-ai/llava-v1.5-7b-llamafile), [0.10.* example](https://huggingface.co/mozilla-ai/llamafile_0.10)), so you wil...
-- Download and run your first llamafile in minutes:
+Choose whichever fits your setup:
 
-- Source: https://github.com/mozilla-ai/llamafile
-- Extracted from upstream docs: https://raw.githubusercontent.com/mozilla-ai/llamafile/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

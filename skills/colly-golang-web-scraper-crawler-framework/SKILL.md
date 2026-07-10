@@ -1,12 +1,12 @@
 ---
-name: "Colly Golang Web Scraper and Crawler Framework"
-slug: "colly-golang-web-scraper-crawler-framework"
+title: "Colly Golang Web Scraper and Crawler Framework"
 description: "Colly is a fast open-source scraping and crawling framework for Go. It is built for everything from simple page extraction to asynchronous crawlers that process large collections of pages with request callbacks and structured parsing."
-github_stars: 25229
 verification: "security_reviewed"
 source: "https://github.com/gocolly/colly"
-category: "Research & Scraping"
-framework: "Multi-Framework"
+category:
+  - "Research & Scraping"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "gocolly/colly"
   github_stars: 25229
@@ -18,16 +18,13 @@ Colly is a fast open-source scraping and crawling framework for Go. It is built 
 
 ## Installation
 
-Requirements and caveats from upstream:
-- [docker-slim/docker-slim](https://github.com/docker-slim/docker-slim) Optimize your Docker containers to make them smaller and better.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- ## Example
-- go get github.com/gocolly/colly/v2
-- ## Bugs
-
-- Source: https://github.com/gocolly/colly
-- Extracted from upstream docs: https://raw.githubusercontent.com/gocolly/colly/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

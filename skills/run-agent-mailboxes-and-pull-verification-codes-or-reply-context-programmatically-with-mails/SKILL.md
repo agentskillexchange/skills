@@ -1,14 +1,14 @@
 ---
-name: "Run agent mailboxes and pull verification codes or reply context programmatically with Mails"
-slug: "run-agent-mailboxes-and-pull-verification-codes-or-reply-context-programmatically-with-mails"
+title: "Run agent mailboxes and pull verification codes or reply context programmatically with Mails"
 description: "Give an agent a mailbox it can send from, read from, search, sync locally, and mine for login codes or attachments without hand-driving a normal email client."
-github_stars: 294
 verification: "security_reviewed"
 source: "https://github.com/chekusu/mails"
 author: "chekusu"
 publisher_type: "individual"
-category: "Calendar, Email & Productivity"
-framework: "Multi-Framework"
+category:
+  - "Calendar, Email & Productivity"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "chekusu/mails"
   github_stars: 294
@@ -26,21 +26,19 @@ Node.js or Bun, Mails CLI or SDK, a claimed or self-hosted mailbox, optional Res
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install -g mails
-- npx mails
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- All /api/* endpoints require Authorization: Bearer <mailbox-token>. The token must belong to the mailbox in ?to=, the email being fetched, or the from address being sent. /health is always public. If no mailbox token...
-- bun test:live # Live E2E with real Resend + Cloudflare (requires .env)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- | mails send --to user@example.com | email to agent@mails.dev
-- bash
-- # or
+Install command or upstream instructions:
 
-- Source: https://github.com/chekusu/mails
-- Extracted from upstream docs: https://raw.githubusercontent.com/chekusu/mails/HEAD/README.md
+```
+Install Mails from npm or use npx as documented upstream, claim or configure a mailbox, set any required sending or worker credentials, then run the send, inbox, code, or sync flows for the target automation.
+```
 
 ## Documentation
 

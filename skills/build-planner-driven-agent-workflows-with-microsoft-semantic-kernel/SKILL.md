@@ -1,14 +1,14 @@
 ---
-name: "Build planner-driven agent workflows with Microsoft Semantic Kernel"
-slug: "build-planner-driven-agent-workflows-with-microsoft-semantic-kernel"
+title: "Build planner-driven agent workflows with Microsoft Semantic Kernel"
 description: "Compose prompts, plugins, memory, planners, and connectors into repeatable Python, .NET, or Java agent workflows with Microsoft Semantic Kernel."
-github_stars: 27861
 verification: "security_reviewed"
 source: "https://github.com/microsoft/semantic-kernel"
 author: "Microsoft"
 publisher_type: "organization"
-category: "Developer Tools"
-framework: "Multi-Framework"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "microsoft/semantic-kernel"
   github_stars: 27861
@@ -24,21 +24,19 @@ Microsoft Semantic Kernel; Python 3.10+, .NET 10.0+, or Java 17+ depending on ru
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install semantic-kernel
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Python package](https://img.shields.io/pypi/v/semantic-kernel)](https://pypi.org/project/semantic-kernel/)
-- **Python**: 3.10+
-- ### Python
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- **Local Deployment**: Run with [Ollama](https://ollama.com/), [LMStudio](https://lmstudio.ai/), or [ONNX](https://onnx.ai/)
-- First, set the environment variable for your AI Services:
-- **Azure OpenAI:**
+Install command or upstream instructions:
 
-- Source: https://github.com/microsoft/semantic-kernel
-- Extracted from upstream docs: https://raw.githubusercontent.com/microsoft/semantic-kernel/HEAD/README.md
+```
+Install the Semantic Kernel package for the target runtime, then configure a model connector and define plugins/functions, memory, and planner or agent orchestration components following the official documentation.
+```
 
 ## Documentation
 

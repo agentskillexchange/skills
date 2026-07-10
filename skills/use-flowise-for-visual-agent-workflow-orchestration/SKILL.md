@@ -1,14 +1,14 @@
 ---
-name: "Use Flowise for visual agent workflow orchestration"
-slug: "use-flowise-for-visual-agent-workflow-orchestration"
+title: "Use Flowise for visual agent workflow orchestration"
 description: "Compose, test, and hand off visual AI-agent flows in Flowise when the work needs inspectable orchestration instead of ad hoc prompting."
-github_stars: 53309
 verification: "security_reviewed"
 source: "https://github.com/FlowiseAI/Flowise"
 author: "FlowiseAI"
 publisher_type: "organization"
-category: "Templates & Workflows"
-framework: "Multi-Framework"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "FlowiseAI/Flowise"
   github_stars: 53309
@@ -26,24 +26,19 @@ Node.js 20+, npm or Docker, Flowise workspace, model provider credentials
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install -g flowise
-- npx flowise start
-- docker build --no-cache -t flowise .
-- docker run -d --name flowise -p 3000:3000 flowise
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [🐳 Docker](#-docker)
-- Go to docker folder at the root of the project
-- docker compose up -d
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [⚡ Quick Start](#-quick-start)
-- Copy .env.example file, paste it into the same location, and rename to .env file
-- Run image:
+Install command or upstream instructions:
 
-- Source: https://github.com/FlowiseAI/Flowise
-- Extracted from upstream docs: https://raw.githubusercontent.com/FlowiseAI/Flowise/HEAD/README.md
+```
+Install with `npm install -g flowise`, start with `npx flowise start`, then open `http://localhost:3000`. For Docker Compose, clone the repository, copy `docker/.env.example` to `.env`, and run `docker compose up -d` from the `docker` folder.
+```
 
 ## Documentation
 

@@ -1,13 +1,13 @@
 ---
-name: "Linkwarden Collaborative Bookmark Archive and Preservation Platform"
-slug: "linkwarden-collaborative-bookmark-archive-preservation-platform"
+title: "Linkwarden Collaborative Bookmark Archive and Preservation Platform"
 description: "Linkwarden is an open source bookmark and web archiving platform for saving, organizing, and preserving research material. It captures screenshots, PDFs, and archived page copies, adds reader and annotation features, and supports shared collections for teams."
-github_stars: 17869
 verification: "security_reviewed"
 source: "https://github.com/linkwarden/linkwarden"
 author: "linkwarden"
-category: "Research & Scraping"
-framework: "Multi-Framework"
+category:
+  - "Research & Scraping"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "linkwarden/linkwarden"
   github_stars: 17869
@@ -19,14 +19,13 @@ Linkwarden is an open source bookmark and web archiving platform for saving, org
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Make sure to check out our [public roadmap](https://github.com/orgs/linkwarden/projects/1).
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- ⬆️ Upload from SingleFile (check out the [guide](https://docs.linkwarden.app/Usage/upload-from-singlefile))
-
-- Source: https://github.com/linkwarden/linkwarden
-- Extracted from upstream docs: https://raw.githubusercontent.com/linkwarden/linkwarden/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

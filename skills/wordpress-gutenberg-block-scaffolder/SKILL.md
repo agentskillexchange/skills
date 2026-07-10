@@ -1,12 +1,12 @@
 ---
-name: "WordPress Gutenberg Block Scaffolder"
-slug: "wordpress-gutenberg-block-scaffolder"
+title: "WordPress Gutenberg Block Scaffolder"
 description: "Generates custom Gutenberg blocks using @wordpress/create-block and the Block API v2. Configures block.json metadata, InspectorControls, and server-side render callbacks with register_block_type."
-github_stars: 21027
 verification: "listed"
 source: "https://github.com/WordPress/WordPress"
-category: "WordPress & CMS"
-framework: "Claude Code"
+category:
+  - "WordPress & CMS"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "wordpress/wordpress"
   github_stars: 21027
@@ -18,9 +18,13 @@ Generates custom Gutenberg blocks using @wordpress/create-block and the Block AP
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://github.com/WordPress/WordPress
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

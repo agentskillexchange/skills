@@ -1,11 +1,12 @@
 ---
-name: "Rust Crate Analyzer"
-slug: "rust-crate-analyzer"
+title: "Rust Crate Analyzer"
 description: "Fetches crate metadata from the crates.io API and docs.rs API for Rust package discovery. Analyzes feature flags, dependency auditing via RustSec Advisory DB, and MSRV compatibility checking."
 verification: "listed"
 source: "https://crates.io/data-access"
-category: "Library & API Reference"
-framework: "Codex"
+category:
+  - "Library & API Reference"
+framework:
+  - "Codex"
 ---
 
 # Rust Crate Analyzer
@@ -14,9 +15,13 @@ Fetches crate metadata from the crates.io API and docs.rs API for Rust package d
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://crates.io/data-access
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,13 +1,13 @@
 ---
-name: "Jest Unit Test Scaffolder"
-slug: "jest-unit-test-scaffolder"
-description: ""
-github_stars: 45359
+title: "Jest Unit Test Scaffolder"
+description: "Jest Unit Test Scaffolder is built around Jest JavaScript test framework. The underlying ecosystem is represented by jestjs/jest (45,332+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like test runners, snapshots, mocks, coverage, watch mode, reporters and preserving […]"
 verification: "security_reviewed"
 source: "https://github.com/jestjs/jest"
 author: "Jest"
-category: "Code Quality & Review"
-framework: "Custom Agents"
+category:
+  - "Code Quality & Review"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "jestjs/jest"
   github_stars: 45359
@@ -17,27 +17,17 @@ tool_ecosystem:
 
 # Jest Unit Test Scaffolder
 
-
+Jest Unit Test Scaffolder is built around Jest JavaScript test framework. The underlying ecosystem is represented by jestjs/jest (45,332+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like test runners, snapshots, mocks, coverage, watch mode, reporters and preserving […]
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- yarn add --dev jest
-- npm install --save-dev jest
-- Finally, run yarn test or npm test and Jest will print this message:
-- yarn create jest
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- const sum = require('./sum');
-- Configure Babel to target your current version of Node by creating a babel.config.js file in the root of your project:
-
-Basic usage or getting-started notes:
-- [Getting Started](#getting-started)
-- <!-- copied from Getting Started docs, links updated to point to Jest website -->
-- bash
-
-- Source: https://github.com/jestjs/jest
-- Extracted from upstream docs: https://raw.githubusercontent.com/jestjs/jest/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

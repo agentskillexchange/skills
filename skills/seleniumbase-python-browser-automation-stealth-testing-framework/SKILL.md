@@ -1,14 +1,14 @@
 ---
-name: "SeleniumBase Python Browser Automation and Stealth Testing Framework"
-slug: "seleniumbase-python-browser-automation-stealth-testing-framework"
+title: "SeleniumBase Python Browser Automation and Stealth Testing Framework"
 description: "SeleniumBase is a Python framework for browser automation, end-to-end testing, and stealthy web interaction. It layers pytest-friendly test structure, browser control, reporting, and anti-bot-aware CDP and UC modes on top of Selenium workflows."
-github_stars: 12560
 verification: "security_reviewed"
 source: "https://github.com/seleniumbase/SeleniumBase"
 author: "Michael Mintz"
 publisher_type: "Open Source Project"
-category: "Browser Automation"
-framework: "Multi-Framework"
+category:
+  - "Browser Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "seleniumbase/seleniumbase"
   github_stars: 12560
@@ -26,24 +26,19 @@ Python 3.9+
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install seleniumbase
-- git clone https://github.com/seleniumbase/SeleniumBase.git
-- pip install -e .
-- pip install allure-pytest
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <meta property="og:title" content="SeleniumBase: Python Web Automation and E2E Testing" />
-- <meta property="og:description" content="Fast, easy, and reliable Web/UI testing with Python." />
-- <meta property="og:keywords" content="Python, pytest, selenium, webdriver, testing, automation, seleniumbase, framework, dashboard, recorder, reports, screenshots">
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- 📚 The [SeleniumBase/examples/](https://github.com/seleniumbase/SeleniumBase/tree/master/examples) folder includes over 100 ready-to-run examples of E2E testing. Examples that start with test_ or end with _test.py/_tes...
-- <p align="left">📝 <a href="https://github.com/seleniumbase/SeleniumBase/blob/master/examples/cdp_mode/raw_cdp_browserscan.py" target="_blank">This example</a> verifies that <a href="https://github.com/seleniumbase/Sel...
-- 📝 <a href="https://github.com/seleniumbase/SeleniumBase/blob/master/examples/cdp_mode/playwright/raw_browserscan_sync.py">This example</a> demonstrates the drop-in patch that makes Playwright stealthy:
+Install command or upstream instructions:
 
-- Source: https://github.com/seleniumbase/SeleniumBase
-- Extracted from upstream docs: https://raw.githubusercontent.com/seleniumbase/SeleniumBase/HEAD/README.md
+```
+pip install seleniumbase
+```
 
 ## Documentation
 

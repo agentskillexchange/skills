@@ -1,13 +1,13 @@
 ---
-name: "Puppeteer Stealth Web Scraper"
-slug: "puppeteer-stealth-web-scraper"
+title: "Puppeteer Stealth Web Scraper"
 description: "Uses puppeteer-extra with stealth plugin to bypass bot detection for web scraping. Integrates with Cheerio for HTML parsing, rotating residential proxies via Bright Data API, and p-queue for concurrency control."
-github_stars: 94115
 verification: "security_reviewed"
 source: "https://github.com/puppeteer/puppeteer"
 author: "Puppeteer"
-category: "Research & Scraping"
-framework: "Cursor"
+category:
+  - "Research & Scraping"
+framework:
+  - "Cursor"
 tool_ecosystem:
   github_repo: "puppeteer/puppeteer"
   github_stars: 94115
@@ -21,17 +21,13 @@ Uses puppeteer-extra with stealth plugin to bypass bot detection for web scrapin
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm i puppeteer # Downloads compatible Chrome during installation.
-- npm i puppeteer-core # Alternatively, install as a library, without downloading Chrome.
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- bash npm2yarn
-- ## MCP
-- a Puppeteer-based MCP server for browser automation and debugging.
-
-- Source: https://github.com/puppeteer/puppeteer
-- Extracted from upstream docs: https://raw.githubusercontent.com/puppeteer/puppeteer/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

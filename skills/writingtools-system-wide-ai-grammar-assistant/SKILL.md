@@ -1,12 +1,12 @@
 ---
-name: "WritingTools System-Wide AI Grammar Assistant for Windows Linux and macOS"
-slug: "writingtools-system-wide-ai-grammar-assistant"
+title: "WritingTools System-Wide AI Grammar Assistant for Windows Linux and macOS"
 description: "WritingTools is an open-source, Apple Intelligence-inspired writing assistant that works system-wide on Windows, Linux, and macOS. With a single hotkey, it fixes grammar, rewrites text, summarizes content, and more using cloud or local LLMs."
-github_stars: 2186
 verification: "security_reviewed"
 source: "https://github.com/theJayTea/WritingTools"
-category: "Content Writing & SEO"
-framework: "Custom Agents"
+category:
+  - "Content Writing & SEO"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "theJayTea/WritingTools"
   github_stars: 2186
@@ -18,16 +18,13 @@ WritingTools is an open-source, Apple Intelligence-inspired writing assistant th
 
 ## Installation
 
-Requirements and caveats from upstream:
-- *Note: Writing Tools is a portable app. If you extract it into a protected folder (e.g., Program Files), you must run it as administrator at least on first launch so it can create/edit its config files (in the same fo...
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Extract it to your desired location (recommended: Documents or App Data/Local), run Writing Tools.exe, and enjoy! :D
-- [Run it from the source code](https://github.com/theJayTea/WritingTools/blob/main/README's%20Linked%20Content/To%20Run%20Writing%20Tools%20Directly%20from%20the%20Source%20Code.md)
-- Run ollama pull llama3.1:8b in your terminal to download it.
-
-- Source: https://github.com/theJayTea/WritingTools
-- Extracted from upstream docs: https://raw.githubusercontent.com/theJayTea/WritingTools/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

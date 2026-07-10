@@ -1,14 +1,14 @@
 ---
-name: "Give coding agents Figma layout context through MCP"
-slug: "give-coding-agents-figma-layout-context-through-mcp"
-description: "Configure Framelink's Figma MCP server so coding agents can fetch clean design layout context from Figma files before implementing UI."
-github_stars: 14915
+title: "Give coding agents Figma layout context through MCP"
+description: "Configure Framelink’s Figma MCP server so coding agents can fetch clean design layout context from Figma files before implementing UI."
 verification: "security_reviewed"
 source: "https://github.com/GLips/Figma-Context-MCP"
 author: "GLips"
 publisher_type: "organization"
-category: "Integrations & Connectors"
-framework: "MCP"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "GLips/Figma-Context-MCP"
   github_stars: 14915
@@ -18,7 +18,7 @@ tool_ecosystem:
 
 # Give coding agents Figma layout context through MCP
 
-Configure Framelink's Figma MCP server so coding agents can fetch clean design layout context from Figma files before implementing UI.
+Configure Framelink’s Figma MCP server so coding agents can fetch clean design layout context from Figma files before implementing UI.
 
 ## Prerequisites
 
@@ -26,13 +26,19 @@ Node.js, npm or npx, Figma personal access token, MCP-compatible coding client
 
 ## Installation
 
-Basic usage or getting-started notes:
-- Many code editors and other AI clients use a configuration file to manage MCP servers.
-- The figma-developer-mcp server can be configured by adding the following to your configuration file.
-- NOTE: You will need to create a Figma access token to use this server. Instructions on how to create a Figma API access token can be found [here](https://help.figma.com/hc/en-us/articles/8085703771159-Manage-personal-...
+Choose whichever fits your setup:
 
-- Source: https://github.com/GLips/Figma-Context-MCP
-- Extracted from upstream docs: https://raw.githubusercontent.com/GLips/Figma-Context-MCP/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Create a Figma access token, then add an MCP server command such as `npx -y figma-developer-mcp --figma-api-key=YOUR-KEY --stdio` to Cursor, Claude Desktop, VS Code, or another MCP client.
+```
 
 ## Documentation
 

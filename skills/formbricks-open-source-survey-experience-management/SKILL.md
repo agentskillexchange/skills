@@ -1,12 +1,12 @@
 ---
-name: "Formbricks Open Source Survey and Experience Management Platform"
-slug: "formbricks-open-source-survey-experience-management"
+title: "Formbricks Open Source Survey and Experience Management Platform"
 description: "Formbricks is an open source survey platform and privacy-first experience management solution. Create in-app, website, link, and email surveys to gather user and customer insights at every point of their journey."
-github_stars: 12057
 verification: "security_reviewed"
 source: "https://github.com/formbricks/formbricks"
-category: "Integrations & Connectors"
-framework: "Multi-Framework"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "formbricks/formbricks"
   github_stars: 12057
@@ -18,18 +18,13 @@ Formbricks is an open source survey platform and privacy-first experience manage
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Formbricks is available Open-Source under AGPLv3 license. You can host Formbricks on your own servers using Docker without a subscription.
-- #### Docker
-- To get started with self-hosting with Docker, take a look at our [self-hosting docs](https://formbricks.com/docs/self-hosting/deployment).
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- [Getting Started](#getting-started)
-- ## 🚀 Getting started
-- Here is what you need to be able to run Formbricks:
-
-- Source: https://github.com/formbricks/formbricks
-- Extracted from upstream docs: https://raw.githubusercontent.com/formbricks/formbricks/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

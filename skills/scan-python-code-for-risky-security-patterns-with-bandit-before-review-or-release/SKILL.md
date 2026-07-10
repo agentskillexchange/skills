@@ -1,14 +1,14 @@
 ---
-name: "Scan Python code for risky security patterns with Bandit before review or release"
-slug: "scan-python-code-for-risky-security-patterns-with-bandit-before-review-or-release"
+title: "Scan Python code for risky security patterns with Bandit before review or release"
 description: "Catch insecure Python calls, weak crypto usage, shell injection risks, and similar patterns before merge or release."
-github_stars: 7933
 verification: "security_reviewed"
 source: "https://github.com/PyCQA/bandit"
 author: "PyCQA"
 publisher_type: "organization"
-category: "Security & Verification"
-framework: "Multi-Framework"
+category:
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "PyCQA/bandit"
   github_stars: 7933
@@ -24,20 +24,19 @@ Bandit CLI, Python source tree
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- docker pull ghcr.io/pycqa/bandit/bandit
-- docker pull --platform=<architecture> ghcr.io/pycqa/bandit/bandit:latest
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- :alt: Python Versions
-- Bandit is a tool designed to find common security issues in Python code. To do
-- Python AST module documentation: https://docs.python.org/3/library/ast.html
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- :alt: Bandit Example Screen Shot
+Install command or upstream instructions:
 
-- Source: https://github.com/PyCQA/bandit
-- Extracted from upstream docs: https://raw.githubusercontent.com/PyCQA/bandit/HEAD/README.rst
+```
+Install Bandit from the official documentation, then point it at a Python package or repository and review the reported findings before merge or release.
+```
 
 ## Documentation
 

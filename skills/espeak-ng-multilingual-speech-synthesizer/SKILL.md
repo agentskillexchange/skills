@@ -1,12 +1,12 @@
 ---
-name: "eSpeak NG Multilingual Speech Synthesizer"
-slug: "espeak-ng-multilingual-speech-synthesizer"
+title: "eSpeak NG Multilingual Speech Synthesizer"
 description: "An agent skill built on eSpeak NG, the open-source formant-based speech synthesizer supporting over 100 languages and accents. Provides fast, lightweight text-to-speech synthesis via CLI and library API, with phoneme output, SSML support, and MBROLA voice integration for improved naturalness."
-github_stars: 6311
 verification: "listed"
 source: "https://github.com/espeak-ng/espeak-ng"
-category: "Media & Transcription"
-framework: "Custom Agents"
+category:
+  - "Media & Transcription"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "espeak-ng/espeak-ng"
   github_stars: 6311
@@ -18,9 +18,13 @@ An agent skill built on eSpeak NG, the open-source formant-based speech synthesi
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://github.com/espeak-ng/espeak-ng
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

@@ -1,12 +1,13 @@
 ---
-name: "Gmail API Thread Label Triage"
-slug: "gmail-api-thread-label-triage"
+title: "Gmail API Thread Label Triage"
 description: "Triage inbox backlog with the Gmail API’s `users.threads`, `users.messages`, and `users.labels` methods so agents can classify and prioritize whole conversations instead of isolated emails. Useful for support, recruiting, or founder inboxes where thread context matters more than single-message scanning."
 verification: "security_reviewed"
 source: "https://developers.google.com/gmail/api"
 author: "Google"
-category: "Calendar, Email & Productivity"
-framework: "Gemini"
+category:
+  - "Calendar, Email & Productivity"
+framework:
+  - "Gemini"
 ---
 
 # Gmail API Thread Label Triage
@@ -19,15 +20,19 @@ Google account, Google Cloud project, Gmail API enabled, and OAuth 2.0 credentia
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Python
-- Node.js
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- A mechanism for organizing messages and threads. For example, the label
-- To learn how to configure and run a Gmail API app, read the
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://developers.google.com/gmail/api
+Install command or upstream instructions:
+
+```
+Create a Google Cloud project, enable the Gmail API, configure OAuth 2.0 credentials, then authorize your app against the Gmail API.
+```
 
 ## Documentation
 

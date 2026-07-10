@@ -1,12 +1,12 @@
 ---
-name: "Apache Spark DataFrame ETL Pipeline"
-slug: "spark-dataframe-etl-pipeline"
+title: "Apache Spark DataFrame ETL Pipeline"
 description: "Automates PySpark DataFrame transformations including schema inference, partition pruning, and Delta Lake merge operations. Integrates with AWS Glue Data Catalog and Apache Iceberg table formats for lakehouse architectures."
-github_stars: 43117
 verification: "security_reviewed"
 source: "https://github.com/apache/spark"
-category: "Data Extraction & Transformation"
-framework: "OpenClaw"
+category:
+  - "Data Extraction & Transformation"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "apache/spark"
   github_stars: 43117
@@ -18,18 +18,13 @@ Automates PySpark DataFrame transformations including schema inference, partitio
 
 ## Installation
 
-Requirements and caveats from upstream:
-- high-level APIs in Scala, Java, Python, and R (Deprecated), and an optimized engine that
-- ## Interactive Python Shell
-- Alternatively, if you prefer Python, you can use the Python shell:
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- To build Spark and its example programs, run:
-- And run the following command, which should also return 1,000,000,000:
-- ## Example Programs
-
-- Source: https://github.com/apache/spark
-- Extracted from upstream docs: https://raw.githubusercontent.com/apache/spark/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

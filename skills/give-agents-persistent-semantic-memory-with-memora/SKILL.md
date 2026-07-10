@@ -1,14 +1,14 @@
 ---
-name: "Give agents persistent semantic memory with Memora"
-slug: "give-agents-persistent-semantic-memory-with-memora"
+title: "Give agents persistent semantic memory with Memora"
 description: "Use Memora to give MCP-compatible agents persistent semantic memory, document recall, and knowledge-graph context across sessions."
-github_stars: 406
 verification: "security_reviewed"
 source: "https://github.com/agentic-box/memora"
 author: "agentic-box"
 publisher_type: "open_source"
-category: "Integrations & Connectors"
-framework: "MCP"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "agentic-box/memora"
   github_stars: 406
@@ -24,23 +24,19 @@ Python package installed from the Memora GitHub repository; MCP-compatible clien
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install git+https://github.com/agentic-box/memora.git
-- pip install "memora[local]" @ git+https://github.com/agentic-box/memora.git
-- npx wrangler d1 create memora-graph
-- npx wrangler d1 execute memora-graph --file=memora-graph/schema.sql
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ### Node Colors
-- Node size reflects connection count.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- <b><a href="#features">Features</a></b> · <b><a href="#install">Install</a></b> · <b><a href="#usage">Usage</a></b> · <b><a href="#configuration">Config</a></b> · <b><a href="#live-graph-server">Live Graph</a></b> · <...
-- 📊 **Statistics & Analytics** - Tag usage, trends, and connection insights
-- bash
+Install command or upstream instructions:
 
-- Source: https://github.com/agentic-box/memora
-- Extracted from upstream docs: https://raw.githubusercontent.com/agentic-box/memora/HEAD/README.md
+```
+Install with pip install git+https://github.com/agentic-box/memora.git, then run memora-server for stdio MCP mode or configure memora-server --transport streamable-http for HTTP mode. Add the documented memora MCP server block to the target agent client and set storage environment variables such as MEMORA_DB_PATH or MEMORA_STORAGE_URI before using memory tools.
+```
 
 ## Documentation
 

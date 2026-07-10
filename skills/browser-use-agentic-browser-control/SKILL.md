@@ -1,13 +1,13 @@
 ---
-name: "Browser Use Agentic Browser Control"
-slug: "browser-use-agentic-browser-control"
+title: "Browser Use Agentic Browser Control"
 description: "Browser Use is an open source browser automation framework for AI agents that turns websites into controllable interfaces for multi-step tasks. It combines a Python SDK, browser orchestration, and model integrations so agents can navigate, extract data, and complete workflows in real browsers."
-github_stars: 87316
 verification: "listed"
 source: "https://github.com/browser-use/browser-use"
 author: "browser-use"
-category: "Browser Automation"
-framework: "Multi-Framework"
+category:
+  - "Browser Automation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "browser-use/browser-use"
   github_stars: 87316
@@ -23,9 +23,19 @@ python, uv, go
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://github.com/browser-use/browser-use
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+uvx browser-use init --template default
+```
 
 ## Documentation
 

@@ -1,14 +1,14 @@
 ---
-name: "Diff nested JSON, API responses, and config snapshots before approving changes"
-slug: "diff-nested-json-api-responses-and-config-snapshots-before-approving-changes"
+title: "Diff nested JSON, API responses, and config snapshots before approving changes"
 description: "Uses DeepDiff to compare structured objects deeply and return precise additions, removals, value changes, and deltas instead of noisy line-based diffs. Best when an agent is validating API payloads, configuration snapshots, or migration outputs where nesting and key paths matter."
-github_stars: 2495
 verification: "security_reviewed"
 source: "https://github.com/qlustered/deepdiff"
 author: "Qluster"
 publisher_type: "Organization"
-category: "Data Extraction & Transformation"
-framework: "Multi-Framework"
+category:
+  - "Data Extraction & Transformation"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "qlustered/deepdiff"
   github_stars: 2495
@@ -20,24 +20,19 @@ Uses DeepDiff to compare structured objects deeply and return precise additions,
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install deepdiff
-- pip install "deepdiff[cli]"
-- pip install "deepdiff[optimize]"
-- Method 2: Use pip: pip install -e ".[cli,coverage,dev,docs,static,test]"
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ![Python Versions](https://img.shields.io/pypi/pyversions/deepdiff.svg?style=flat)
-- [Extract](https://zepworks.com/deepdiff/current/extract.html): Extract an item from a nested Python object using its path.
-- Tested on Python 3.10+ and PyPy3.
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- If you want to use DeepDiff from commandline:
-- If you want to improve the performance of DeepDiff with certain functionalities such as improved json serialization:
-- [yaml](https://pypi.org/project/PyYAML/)
+Install command or upstream instructions:
 
-- Source: https://github.com/qlustered/deepdiff
-- Extracted from upstream docs: https://raw.githubusercontent.com/qlustered/deepdiff/HEAD/README.md
+```
+Install via `pip install deepdiff`.
+```
 
 ## Documentation
 

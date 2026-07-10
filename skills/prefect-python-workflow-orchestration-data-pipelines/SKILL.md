@@ -1,12 +1,12 @@
 ---
-name: "Prefect Python Workflow Orchestration Framework for Data Pipelines"
-slug: "prefect-python-workflow-orchestration-data-pipelines"
+title: "Prefect Python Workflow Orchestration Framework for Data Pipelines"
 description: "Prefect is a Python workflow orchestration framework for building resilient data pipelines. Add scheduling, retries, caching, and observability to any Python script with simple decorators. Monitor workflows through the self-hosted Prefect server or managed Prefect Cloud dashboard."
-github_stars: 22145
 verification: "security_reviewed"
 source: "https://github.com/PrefectHQ/prefect"
-category: "Templates & Workflows"
-framework: "Custom Agents"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "PrefectHQ/prefect"
   github_stars: 22145
@@ -18,22 +18,13 @@ Prefect is a Python workflow orchestration framework for building resilient data
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install -U prefect
-- uv add prefect
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Prefect is a workflow orchestration framework for building data pipelines in Python.
-- Prefect requires Python 3.10+. To [install the latest version of Prefect](https://docs.prefect.io/v3/get-started/install), run one of the following commands:
-- Then create and run a Python file that uses Prefect flow and task decorators to orchestrate and observe your workflow - in this case, a simple script that fetches the number of GitHub stars from a repository:
-
-Basic usage or getting-started notes:
-- </a>
-- ·
-- <a href="https://docs.prefect.io/v3/get-started/quickstart?utm_source=oss&utm_medium=oss&utm_campaign=oss_gh_repo&utm_term=none&utm_content=none">
-
-- Source: https://github.com/PrefectHQ/prefect
-- Extracted from upstream docs: https://raw.githubusercontent.com/PrefectHQ/prefect/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

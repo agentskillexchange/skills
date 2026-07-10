@@ -1,13 +1,13 @@
 ---
-name: "GoatCounter Privacy-First Web Analytics Platform"
-slug: "goatcounter-privacy-first-web-analytics-platform"
+title: "GoatCounter Privacy-First Web Analytics Platform"
 description: "GoatCounter is an open source analytics platform for privacy-friendly pageview tracking, referrer reporting, and lightweight site stats. It can be used as a hosted service or self-hosted, and it supports JavaScript, backend API, and logfile-based ingestion paths."
-github_stars: 5628
 verification: "security_reviewed"
 source: "https://github.com/arp242/goatcounter"
 author: "arp242"
-category: "Monitoring & Alerts"
-framework: "Multi-Framework"
+category:
+  - "Monitoring & Alerts"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "arp242/goatcounter"
   github_stars: 5628
@@ -19,22 +19,13 @@ GoatCounter is an open source analytics platform for privacy-friendly pageview t
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- make improvements, or <strong>self-host</strong> it for any purpose.
-- database file or a PostgreSQL connection. Alternatively you can use Docker, as
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- ### Running with Docker
-- % docker run \
-- % docker exec -it [..] goatcounter db create site -vhost=stats.example.com -user.email=me@example.com
-
-Basic usage or getting-started notes:
-- There are two ways to run this: as hosted service on [goatcounter.com][www], or
-- run it on your own server. The source code is completely Open Source/Free
-- Use the HTTP/REST API, for example from your backend server middleware.
-
-- Source: https://github.com/arp242/goatcounter
-- Extracted from upstream docs: https://raw.githubusercontent.com/arp242/goatcounter/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

@@ -1,14 +1,14 @@
 ---
-name: "Install and sync reproducible agent dependencies, prompts, and skills across repos with APM"
-slug: "install-and-sync-reproducible-agent-dependencies-prompts-and-skills-across-repos-with-apm"
+title: "Install and sync reproducible agent dependencies, prompts, and skills across repos with APM"
 description: "Use one manifest to reproduce agent setup across repositories so skills, prompts, plugins, and config stop drifting from machine to machine."
-github_stars: 1934
 verification: "security_reviewed"
 source: "https://github.com/microsoft/apm"
 author: "Microsoft"
 publisher_type: "organization"
-category: "Developer Tools"
-framework: "Multi-Framework"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "microsoft/apm"
   github_stars: 1934
@@ -26,14 +26,19 @@ Git access to the target repo, APM CLI, an apm.yml manifest, and whichever agent
 
 ## Installation
 
-Requirements and caveats from upstream:
-- This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft trademarks or logos is subject to and must follow [Microsoft's Trademark & Brand Guidelines](https://www.mi...
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- **[Documentation](https://microsoft.github.io/apm/)** · **[Quick Start](https://microsoft.github.io/apm/getting-started/quick-start/)** · **[CLI Reference](https://microsoft.github.io/apm/reference/cli-commands/)** ·...
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/microsoft/apm
-- Extracted from upstream docs: https://raw.githubusercontent.com/microsoft/apm/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Install APM from the upstream binary, Homebrew, or pip path, create or adopt an apm.yml manifest, then run the documented install or sync commands inside the target repository to reproduce the agent setup.
+```
 
 ## Documentation
 

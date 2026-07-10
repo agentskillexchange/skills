@@ -1,13 +1,13 @@
 ---
-name: "Python Docstring Linter"
-slug: "python-docstring-linter-ast-pydocstyle"
+title: "Python Docstring Linter"
 description: "Validates and auto-generates Python docstrings using the ast module and pydocstyle conventions. Supports NumPy, Google, and Sphinx docstring formats with type stub integration."
-github_stars: 1119
 verification: "security_reviewed"
 source: "https://github.com/PyCQA/pydocstyle"
 author: "PyCQA"
-category: "Library & API Reference"
-framework: "Codex"
+category:
+  - "Library & API Reference"
+framework:
+  - "Codex"
 tool_ecosystem:
   github_repo: "PyCQA/pydocstyle"
   github_stars: 1119
@@ -19,22 +19,13 @@ Validates and auto-generates Python docstrings using the ast module and pydocsty
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install pydocstyle
-- Before submitting a PR make sure that you run make all.
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Ruff offers full parity with pydocstyle along with advanced features, better support for the latest Python versions, and ongoing development to ensure a top-notch linting experience. We highly recommend pydocstyle use...
-- **pydocstyle** is a static analysis tool for checking compliance with Python
-- PEP 257 <http://www.python.org/dev/peps/pep-0257/>_ out of the box, but it
-
-Basic usage or getting-started notes:
-- We want to express our heartfelt gratitude to the pydocstyle community, maintainers, and contributors for their support and dedication over the years. Your contributions have been invaluable, and we appreciate the tim...
-- .. image:: https://github.com/PyCQA/pydocstyle/workflows/Run%20tests/badge.svg
-- -----------
-
-- Source: https://github.com/PyCQA/pydocstyle
-- Extracted from upstream docs: https://raw.githubusercontent.com/PyCQA/pydocstyle/HEAD/README.rst
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

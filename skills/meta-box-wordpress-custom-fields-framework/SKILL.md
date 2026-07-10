@@ -1,12 +1,12 @@
 ---
-name: "Meta Box WordPress Custom Fields and Meta Boxes Framework"
-slug: "meta-box-wordpress-custom-fields-framework"
+title: "Meta Box WordPress Custom Fields and Meta Boxes Framework"
 description: "Meta Box is a professional WordPress framework for creating custom fields and custom meta boxes with over 40 field types. It supports posts, pages, custom post types, taxonomies, settings pages, user profiles, and comments."
-github_stars: 1237
 verification: "security_reviewed"
 source: "https://github.com/wpmetabox/meta-box"
-category: "WordPress & CMS"
-framework: "Multi-Framework"
+category:
+  - "WordPress & CMS"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "wpmetabox/meta-box"
   github_stars: 1237
@@ -18,13 +18,13 @@ Meta Box is a professional WordPress framework for creating custom fields and cu
 
 ## Installation
 
-Basic usage or getting-started notes:
-- We recommend using [Meta Box Lite](https://metabox.io/lite/), a feature-rich free UI version of Meta Box that provides UI and all free features for managing custom fields and dynamic content on WordPress, including po...
-- To install Meta Box Lite, go to [this page](https://metabox.io/lite/) and download it.
-- If you want to use Meta Box, please follow these steps:
+Choose whichever fits your setup:
 
-- Source: https://github.com/wpmetabox/meta-box
-- Extracted from upstream docs: https://raw.githubusercontent.com/wpmetabox/meta-box/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

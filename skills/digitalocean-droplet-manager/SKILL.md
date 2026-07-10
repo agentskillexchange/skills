@@ -1,13 +1,13 @@
 ---
-name: "DigitalOcean Droplet Manager"
-slug: "digitalocean-droplet-manager"
-description: ""
-github_stars: 3417
+title: "DigitalOcean Droplet Manager"
+description: "DigitalOcean Droplet Manager is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (active GitHub adoption). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like kubectl, API server, pods, deployments, events, logs, probes, RBAC and preserving the […]"
 verification: "security_reviewed"
 source: "https://github.com/digitalocean/doctl"
 author: "DigitalOcean"
-category: "Templates & Workflows"
-framework: "Custom Agents"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "digitalocean/doctl"
   github_stars: 3417
@@ -15,28 +15,17 @@ tool_ecosystem:
 
 # DigitalOcean Droplet Manager
 
-
+DigitalOcean Droplet Manager is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (active GitHub adoption). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like kubectl, API server, pods, deployments, events, logs, probes, RBAC and preserving the […]
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- [Use with Docker](#use-with-docker)
-- brew install doctl
-- ##### Use with Docker
-- docker build --tag=doctl .
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [Docker Hub](#docker-hub)
-- [Building with Docker](#building-with-docker)
-- Using kubectl requires the kube-config personal-files connection for doctl:
-
-Basic usage or getting-started notes:
-- doctl [command]
-- Available Commands:
-- 1-click Display commands that pertain to 1-click applications
-
-- Source: https://github.com/digitalocean/doctl
-- Extracted from upstream docs: https://raw.githubusercontent.com/digitalocean/doctl/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

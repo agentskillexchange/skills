@@ -1,12 +1,12 @@
 ---
-name: "Apache Camel Route Data Mapper"
-slug: "apache-camel-route-data-mapper"
+title: "Apache Camel Route Data Mapper"
 description: "Maps and transforms data between systems using Apache Camel route definitions and the Camel Component API. Supports XSLT, JSONPath, and DataFormat transformations via camel-core SDK."
-github_stars: 6198
 verification: "security_reviewed"
 source: "https://github.com/apache/camel"
-category: "Data Extraction & Transformation"
-framework: "Custom Agents"
+category:
+  - "Data Extraction & Transformation"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "apache/camel"
   github_stars: 6198
@@ -18,13 +18,13 @@ Maps and transforms data between systems using Apache Camel route definitions an
 
 ## Installation
 
-Basic usage or getting-started notes:
-- To help you get started, try the following links:
-- **Getting Started**
-- <https://camel.apache.org/getting-started.html>
+Choose whichever fits your setup:
 
-- Source: https://github.com/apache/camel
-- Extracted from upstream docs: https://raw.githubusercontent.com/apache/camel/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

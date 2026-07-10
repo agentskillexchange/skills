@@ -1,14 +1,14 @@
 ---
-name: "Audit Apple-platform UI work against Human Interface Guidelines with HIG Doctor"
-slug: "audit-apple-platform-ui-work-against-human-interface-guidelines-with-hig-doctor"
+title: "Audit Apple-platform UI work against Human Interface Guidelines with HIG Doctor"
 description: "Run a repeatable HIG compliance audit over app code before shipping UI changes, then use the findings to guide remediation."
-github_stars: 44
 verification: "security_reviewed"
 source: "https://github.com/raintree-technology/hig-doctor"
 author: "raintree-technology"
 publisher_type: "organization"
-category: "Code Quality & Review"
-framework: "Multi-Framework"
+category:
+  - "Code Quality & Review"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "raintree-technology/hig-doctor"
   github_stars: 44
@@ -24,21 +24,19 @@ Bun, a local project directory to audit, and an agent setup that can call the HI
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install
-- npm run preview # preview in browser
-- npm run render # out/hig-doctor-showcase.mp4 (1920x1080, 30fps, 21s)
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Requires [Bun](https://bun.sh).
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- bash
-- /plugin marketplace add raintree-technology/apple-hig-skills
-- Or add as a git submodule into any project's .claude/ directory.
+Install command or upstream instructions:
 
-- Source: https://github.com/raintree-technology/hig-doctor
-- Extracted from upstream docs: https://raw.githubusercontent.com/raintree-technology/hig-doctor/HEAD/README.md
+```
+Install or clone the repository, install Bun dependencies, then run the documented audit command against the target project directory or install the companion agent skills through the upstream skill installation path.
+```
 
 ## Documentation
 

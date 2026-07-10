@@ -1,14 +1,14 @@
 ---
-name: "Evaluate model-generated code execution with SandboxFusion"
-slug: "evaluate-model-generated-code-execution-with-sandboxfusion"
+title: "Evaluate model-generated code execution with SandboxFusion"
 description: "Use SandboxFusion to run and judge LLM-generated code in controlled sandboxes across many languages and benchmark-style evaluation tasks."
-github_stars: 1022
 verification: "security_reviewed"
 source: "https://github.com/bytedance/SandboxFusion"
 author: "ByteDance"
 publisher_type: "Open Source Project"
-category: "Security & Verification"
-framework: "Multi-Framework"
+category:
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "bytedance/SandboxFusion"
   github_stars: 1022
@@ -24,24 +24,19 @@ Docker, or conda and Poetry for manual installation
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- docker build -f ./scripts/Dockerfile.base -t code_sandbox:base .
-- docker build -f ./scripts/Dockerfile.server -t code_sandbox:server .
-- docker run -d --rm -p 8080:8080 code_sandbox:server make run-online
-- conda create -n sandbox -y python=3.12
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Python (python, pytest)
-- Python (GPU)
-- **Online Judge**: Implementation of Evaluation & RL datasets that requires code running
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- **Code Runner**: Run and return the result of a code snippet
-- Build the image locally:
-- sed -i '1s/.*/FROM code_sandbox:base/' ./scripts/Dockerfile.server
+Install command or upstream instructions:
 
-- Source: https://github.com/bytedance/SandboxFusion
-- Extracted from upstream docs: https://raw.githubusercontent.com/bytedance/SandboxFusion/HEAD/README.md
+```
+Build the Docker images from scripts/Dockerfile.base and scripts/Dockerfile.server, then run the sandbox service with make run-online; manual setup uses Python 3.12, conda, Poetry, and runtime-specific language installers.
+```
 
 ## Documentation
 

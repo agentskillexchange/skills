@@ -1,14 +1,14 @@
 ---
-name: "Browse search and cost-audit local coding-agent histories before resuming or standardizing workflows with agentsview"
-slug: "browse-search-and-cost-audit-local-coding-agent-histories-before-resuming-or-standardizing-workflows-with-agentsview"
+title: "Browse search and cost-audit local coding-agent histories before resuming or standardizing workflows with agentsview"
 description: "Index local coding-agent sessions into a searchable SQLite-backed view so you can inspect usage, compare failures, and recover prior context quickly."
-github_stars: 774
 verification: "security_reviewed"
 source: "https://github.com/wesm/agentsview"
 author: "wesm"
 publisher_type: "open_source"
-category: "Research & Scraping"
-framework: "Multi-Framework"
+category:
+  - "Research & Scraping"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "wesm/agentsview"
   github_stars: 774
@@ -24,23 +24,19 @@ agentsview binary or desktop app
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- docker run --rm -p 127.0.0.1:8080:8080 \
-- docker-compose.prod.yaml is included as a production example:
-- docker compose -f docker-compose.prod.yaml up -d
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Or run the published Docker image:
-- ## Docker
-- expose it beyond localhost, enable --require-auth and publish the port
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- bash
-- # macOS / Linux
-- # Windows
+Install command or upstream instructions:
 
-- Source: https://github.com/wesm/agentsview
-- Extracted from upstream docs: https://raw.githubusercontent.com/wesm/agentsview/HEAD/README.md
+```
+curl -fsSL https://agentsview.io/install.sh | bash # or download the desktop app from GitHub Releases
+```
 
 ## Documentation
 

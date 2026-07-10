@@ -1,13 +1,14 @@
 ---
-name: "Configure and interpret LaunchDarkly AI Config online evaluations with judge attachments"
-slug: "configure-and-interpret-launchdarkly-ai-config-online-evaluations-with-judge-attachments"
+title: "Configure and interpret LaunchDarkly AI Config online evaluations with judge attachments"
 description: "Attach judges to LaunchDarkly AI Config variations, create custom judges, set sampling rates, and interpret production quality signals from online evaluations."
 verification: "security_reviewed"
 source: "https://github.com/launchdarkly/ai-tooling/tree/main/skills/ai-configs/aiconfig-online-evals"
 author: "launchdarkly"
 publisher_type: "organization"
-category: "Monitoring & Alerts"
-framework: "Custom Agents"
+category:
+  - "Monitoring & Alerts"
+framework:
+  - "Custom Agents"
 ---
 
 # Configure and interpret LaunchDarkly AI Config online evaluations with judge attachments
@@ -20,18 +21,19 @@ LaunchDarkly AI Configs; LaunchDarkly API token or SDK access; custom skill-capa
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/launchdarkly/ai-tooling.git
-- npx skills add launchdarkly/ai-tooling
-- npx skills add <owner/repo>
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- This repo is a [Claude Code plugin](https://code.claude.com/docs/en/create-plugins). Installing it gives you all the skills above plus the LaunchDarkly MCP server.
-- Open Claude Code and run /plugin install.
-- Search for **LaunchDarkly**, or install directly from the repo URL:
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/launchdarkly/ai-tooling/tree/main/skills/ai-configs/aiconfig-online-evals
-- Extracted from upstream docs: https://raw.githubusercontent.com/launchdarkly/ai-tooling/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Copy the skill directory into the agent client’s skills path and provide LaunchDarkly AI Config credentials before attaching judges or configuring evaluations.
+```
 
 ## Documentation
 

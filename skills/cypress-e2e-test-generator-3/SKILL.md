@@ -1,12 +1,12 @@
 ---
-name: "Cypress E2E Test Generator"
-slug: "cypress-e2e-test-generator-3"
+title: "Cypress E2E Test Generator"
 description: "Generates Cypress end-to-end test suites from user flow recordings. Uses the Cypress Real Events plugin and cy.intercept() for network stubbing with automatic fixture generation."
-github_stars: 49617
 verification: "security_reviewed"
 source: "https://github.com/cypress-io/cypress"
-category: "Browser Automation"
-framework: "Claude Agents"
+category:
+  - "Browser Automation"
+framework:
+  - "Claude Agents"
 tool_ecosystem:
   github_repo: "cypress-io/cypress"
   github_stars: 49617
@@ -20,18 +20,13 @@ Generates Cypress end-to-end test suites from user flow recordings. Uses the Cyp
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install cypress --save-dev
-- yarn add cypress --dev
-- pnpm add cypress --save-dev
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- bash
-- or
-- ![installing-cli e1693232](./assets/cypress-installation.gif)
-
-- Source: https://github.com/cypress-io/cypress
-- Extracted from upstream docs: https://raw.githubusercontent.com/cypress-io/cypress/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

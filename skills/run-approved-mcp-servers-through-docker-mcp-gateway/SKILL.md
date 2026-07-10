@@ -1,14 +1,14 @@
 ---
-name: "Run approved MCP servers through Docker MCP Gateway"
-slug: "run-approved-mcp-servers-through-docker-mcp-gateway"
+title: "Run approved MCP servers through Docker MCP Gateway"
 description: "Use Docker MCP Gateway to run MCP servers in isolated containers, centralize profiles, secrets, tools, and client connections."
-github_stars: 1374
 verification: "security_reviewed"
 source: "https://github.com/docker/mcp-gateway"
 author: "Docker"
 publisher_type: "organization"
-category: "Integrations & Connectors"
-framework: "MCP"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "docker/mcp-gateway"
   github_stars: 1374
@@ -24,24 +24,19 @@ Docker Desktop 4.59+ with MCP Toolkit or Docker CLI plugin, Docker daemon, MCP s
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/docker/mcp-gateway.git
-- make docker-mcp
-- docker mcp --help
-- docker mcp feature enable profiles
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- # Docker MCP Plugin and Docker MCP Gateway
-- ![build](https://github.com/docker/mcp-gateway/actions/workflows/ci.yml/badge.svg)
-- The [MCP Toolkit](https://docs.docker.com/ai/mcp-catalog-and-toolkit/toolkit/), in Docker Desktop, allows
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- <div align="left">
-- <img src="./img/enable_toolkit.png" width="400"/>
-- </div>
+Install command or upstream instructions:
 
-- Source: https://github.com/docker/mcp-gateway
-- Extracted from upstream docs: https://raw.githubusercontent.com/docker/mcp-gateway/HEAD/README.md
+```
+Use the docker mcp CLI plugin included with recent Docker Desktop MCP Toolkit builds, or clone https://github.com/docker/mcp-gateway, run make docker-mcp, then use docker mcp gateway/profile/catalog/client commands as documented.
+```
 
 ## Documentation
 

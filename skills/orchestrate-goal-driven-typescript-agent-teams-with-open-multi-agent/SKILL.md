@@ -1,14 +1,14 @@
 ---
-name: "Orchestrate goal-driven TypeScript agent teams with Open Multi Agent"
-slug: "orchestrate-goal-driven-typescript-agent-teams-with-open-multi-agent"
+title: "Orchestrate goal-driven TypeScript agent teams with Open Multi Agent"
 description: "Turn a user goal into a planned multi-agent task DAG, execute independent tasks in parallel, and trace the run from a TypeScript backend."
-github_stars: 6088
 verification: "security_reviewed"
 source: "https://github.com/open-multi-agent/open-multi-agent"
 author: "open-multi-agent"
 publisher_type: "organization"
-category: "Templates & Workflows"
-framework: "Multi-Framework"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "open-multi-agent/open-multi-agent"
   github_stars: 6088
@@ -26,24 +26,19 @@ Node.js >= 18, npm, API keys for selected model providers or local model provide
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install @open-multi-agent/core
-- git clone https://github.com/open-multi-agent/open-multi-agent && cd open-multi-agent
-- npm install
-- npx tsx examples/basics/team-collaboration.ts
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <img src="https://raw.githubusercontent.com/open-multi-agent/open-multi-agent/main/.github/brand/demo-dashboard-hero.gif" alt="Post-run dashboard replaying a completed team run: task DAG with per-node assignee, status...
-- Requires Node.js >= 18.
-- | Python stack with mature multi-agent ecosystem | CrewAI |
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- open-multi-agent is a multi-agent orchestration framework for TypeScript backends. Give it a goal; a coordinator agent decomposes it into a task DAG, parallelizes independents, and synthesizes the result. Three runtim...
-- ### Use it in your project
-- bash
+Install command or upstream instructions:
 
-- Source: https://github.com/open-multi-agent/open-multi-agent
-- Extracted from upstream docs: https://raw.githubusercontent.com/open-multi-agent/open-multi-agent/HEAD/README.md
+```
+Install with `npm install @open-multi-agent/core`, define AgentConfig entries for the team, create an OpenMultiAgent orchestrator, then call `runTeam(team, goal)` or `runTasks()` from a TypeScript backend or run examples with `npx tsx examples/<path>.ts`.
+```
 
 ## Documentation
 

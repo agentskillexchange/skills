@@ -1,12 +1,12 @@
 ---
-name: "ESLint Rule Auditor"
-slug: "eslint-rule-auditor-3"
+title: "ESLint Rule Auditor"
 description: "Audits ESLint configurations using @eslint/eslintrc and @eslint/js flat config APIs. Detects conflicting rules, deprecated configs, and generates migration paths from eslintrc to eslint.config.js flat config format."
-github_stars: 27188
 verification: "security_reviewed"
 source: "https://github.com/eslint/eslint"
-category: "Code Quality & Review"
-framework: "Cursor"
+category:
+  - "Code Quality & Review"
+framework:
+  - "Cursor"
 tool_ecosystem:
   github_repo: "eslint/eslint"
   github_stars: 27188
@@ -20,22 +20,13 @@ Audits ESLint configurations using @eslint/eslintrc and @eslint/js flat config A
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm init @eslint/config@latest
-- npx eslint yourfile.js
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- To use ESLint, you must have [Node.js](https://nodejs.org/) (^20.19.0, ^22.13.0, or >=24) installed and built with SSL support. (If you are using an official Node.js distribution, SSL is always built in.)
-- node-linker=hoisted
-- ### Which Node.js versions does ESLint support?
-
-Basic usage or getting-started notes:
-- [Installation and Usage](#installation-and-usage)
-- If you use ESLint's TypeScript type definitions, TypeScript 5.3 or later is required.
-- ### npm Installation
-
-- Source: https://github.com/eslint/eslint
-- Extracted from upstream docs: https://raw.githubusercontent.com/eslint/eslint/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

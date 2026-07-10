@@ -1,13 +1,13 @@
 ---
-name: "Firebase — Google Application Development Platform"
-slug: "firebase-google-app-development-platform"
-description: "Firebase is Google's app development platform providing real-time databases, authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android, and Flutter applications."
-github_stars: 5100
+title: "Firebase — Google Application Development Platform"
+description: "Firebase is Google’s app development platform providing real-time databases, authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android, and Flutter applications."
 verification: "security_reviewed"
 source: "https://github.com/firebase/firebase-js-sdk"
 author: "Google / Firebase"
-category: "Integrations & Connectors"
-framework: "Multi-Framework"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "firebase/firebase-js-sdk"
   github_stars: 5100
@@ -17,7 +17,7 @@ tool_ecosystem:
 
 # Firebase — Google Application Development Platform
 
-Firebase is Google's app development platform providing real-time databases, authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android, and Flutter applications.
+Firebase is Google’s app development platform providing real-time databases, authentication, cloud functions, hosting, storage, and analytics for web, iOS, Android, and Flutter applications.
 
 ## Prerequisites
 
@@ -25,24 +25,19 @@ Node.js 18+, npm, Firebase CLI, Google Cloud account
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- In addition to Node.js we use yarn to facilitate multi package development.
-- To install yarn follow the instructions listed on their website:
-- $ yarn set version 1.22.11
-- $ yarn -v
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- #### Node.js
-- Before you can start working on the Firebase JS SDK, you need to have Node.js
-- installed on your machine. As of April 19th, 2024 the team has been testing with Node.js version
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- _NOTE: You can use a tool like [NVM](https://github.com/creationix/nvm)
-- #### Yarn
-- https://yarnpkg.com/en/docs/install
+Install command or upstream instructions:
 
-- Source: https://github.com/firebase/firebase-js-sdk
-- Extracted from upstream docs: https://raw.githubusercontent.com/firebase/firebase-js-sdk/HEAD/README.md
+```
+npm install -g firebase-tools && firebase login
+```
 
 ## Documentation
 

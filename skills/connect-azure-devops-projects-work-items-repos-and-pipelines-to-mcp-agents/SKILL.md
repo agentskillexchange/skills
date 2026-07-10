@@ -1,14 +1,14 @@
 ---
-name: "Connect Azure DevOps projects, work items, repos, and pipelines to MCP agents"
-slug: "connect-azure-devops-projects-work-items-repos-and-pipelines-to-mcp-agents"
+title: "Connect Azure DevOps projects, work items, repos, and pipelines to MCP agents"
 description: "Use Azure DevOps MCP when an agent needs governed access to ADO projects, work items, builds, repos, test plans, wikis, and pipelines."
-github_stars: 1725
 verification: "security_reviewed"
 source: "https://github.com/microsoft/azure-devops-mcp"
 author: "Microsoft"
 publisher_type: "organization"
-category: "Integrations & Connectors"
-framework: "MCP"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "microsoft/azure-devops-mcp"
   github_stars: 1725
@@ -26,17 +26,19 @@ Azure DevOps organization, MCP-capable client, Microsoft authentication, and Nod
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Start with the Remote MCP Server first. Use the local MCP Server only if your scenario specifically requires a local stdio setup.
-- Install [Node.js](https://nodejs.org/en/download) 20+
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- "Update the wiki page '/Getting Started' with new onboarding instructions"
-- Use this configuration to connect directly to the Azure DevOps-hosted endpoint using streamable HTTP transport:
-- json
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-- Source: https://github.com/microsoft/azure-devops-mcp
-- Extracted from upstream docs: https://raw.githubusercontent.com/microsoft/azure-devops-mcp/HEAD/README.md
+Install command or upstream instructions:
+
+```
+Start with the Azure DevOps Remote MCP Server using the upstream onboarding documentation. For local stdio use, install Node.js 20+ and configure the MCP client command as npx -y @azure-devops/mcp <organization>, optionally restricting domains such as core, work, work-items, search, repositories, wiki, test-plans, pipelines, or advanced-security.
+```
 
 ## Documentation
 

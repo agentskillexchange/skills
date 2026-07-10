@@ -1,12 +1,12 @@
 ---
-name: "GitLab CI Pipeline Optimizer"
-slug: "gitlab-ci-pipeline-optimizer-8"
+title: "GitLab CI Pipeline Optimizer"
 description: "Optimizes GitLab CI/CD pipelines using the GitLab Pipelines API and DAG keyword configurations. Analyzes job dependencies, parallel execution opportunities, and cache strategies for faster builds."
-github_stars: 24298
 verification: "security_reviewed"
 source: "https://github.com/gitlabhq/gitlabhq"
-category: "CI/CD Integrations"
-framework: "Claude Code"
+category:
+  - "CI/CD Integrations"
+framework:
+  - "Claude Code"
 tool_ecosystem:
   github_repo: "gitlabhq/gitlabhq"
   github_stars: 24298
@@ -18,13 +18,13 @@ Optimizes GitLab CI/CD pipelines using the GitLab Pipelines API and DAG keyword 
 
 ## Installation
 
-Basic usage or getting-started notes:
-- Please see the [requirements documentation](doc/install/requirements.md) for system requirements and more information about the supported operating systems.
-- The recommended way to install GitLab is with the [Omnibus packages](https://docs.gitlab.com/install/package/) on our package server.
-- Compared to [a self-compiled installation](https://docs.gitlab.com/install/self_compiled/), this is faster and less error prone.
+Choose whichever fits your setup:
 
-- Source: https://github.com/gitlabhq/gitlabhq
-- Extracted from upstream docs: https://raw.githubusercontent.com/gitlabhq/gitlabhq/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

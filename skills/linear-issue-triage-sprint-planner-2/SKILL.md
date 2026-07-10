@@ -1,12 +1,13 @@
 ---
-name: "Linear Issue Triage & Sprint Planner"
-slug: "linear-issue-triage-sprint-planner-2"
+title: "Linear Issue Triage & Sprint Planner"
 description: "Queries the Linear GraphQL API to list open issues by team, priority, and cycle, then applies configurable triage rules to auto-assign or escalate. Generates sprint plan drafts scored against velocity and team capacity from Linear projectMilestone and workflowState data."
 verification: "security_reviewed"
 source: "https://linear.app/docs"
 author: "Linear"
-category: "Integrations & Connectors"
-framework: "Claude Code"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "Claude Code"
 ---
 
 # Linear Issue Triage & Sprint Planner
@@ -15,12 +16,13 @@ Queries the Linear GraphQL API to list open issues by team, priority, and cycle,
 
 ## Installation
 
-Basic usage or getting-started notes:
-- Account
-- AI
-- Your sidebar
+Choose whichever fits your setup:
 
-- Source: https://linear.app/docs
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

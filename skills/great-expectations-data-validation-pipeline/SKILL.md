@@ -1,12 +1,13 @@
 ---
-name: "Great Expectations Data Validation Pipeline"
-slug: "great-expectations-data-validation-pipeline"
+title: "Great Expectations Data Validation Pipeline"
 description: "Validate data quality using the Great Expectations Python library. Define expectations as unit tests for your data, run validation suites, and generate human-readable data quality reports."
-github_stars: 11321
 verification: "security_reviewed"
 source: "https://github.com/great-expectations/great_expectations"
-category: "Code Quality & Review"
-framework: "Claude Code"
+category:
+  - "Code Quality & Review"
+framework:
+  - "Claude Code"
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "great-expectations/great_expectations"
   github_stars: 11321
@@ -18,20 +19,13 @@ Validate data quality using the Great Expectations Python library. Define expect
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install great_expectations
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Python Versions](https://img.shields.io/pypi/pyversions/great_expectations.svg)](https://pypi.python.org/pypi/great_expectations)
-- GX Core supports Python 3.10 through 3.13.
-- Experimental support for Python 3.14 and later can be enabled by setting a GX_PYTHON_EXPERIMENTAL environment variable when installing great_expectations.
-
-Basic usage or getting-started notes:
-- GX recommends deploying GX Core within a virtual environment. For more information about getting started with GX Core, see [Introduction to GX Core](https://docs.greatexpectations.io/docs/core/introduction/).
-- Run the following command to import the great_expectations module and create a Data Context:
-
-- Source: https://github.com/great-expectations/great_expectations
-- Extracted from upstream docs: https://raw.githubusercontent.com/great-expectations/great_expectations/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

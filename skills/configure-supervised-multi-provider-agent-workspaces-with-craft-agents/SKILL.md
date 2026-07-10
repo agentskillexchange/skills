@@ -1,14 +1,14 @@
 ---
-name: "Configure supervised multi-provider agent workspaces with Craft Agents"
-slug: "configure-supervised-multi-provider-agent-workspaces-with-craft-agents"
+title: "Configure supervised multi-provider agent workspaces with Craft Agents"
 description: "Set up Craft Agents workspaces with connected sources, imported skills, MCP servers, permission modes, and session workflow states for supervised agent work."
-github_stars: 6132
 verification: "security_reviewed"
 source: "https://github.com/craft-ai-agents/craft-agents-oss"
 author: "craft-ai-agents"
 publisher_type: "open_source_project"
-category: "Templates & Workflows"
-framework: "Multi-Framework"
+category:
+  - "Templates & Workflows"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "craft-ai-agents/craft-agents-oss"
   github_stars: 6132
@@ -24,22 +24,19 @@ Craft Agents desktop app, one or more AI provider connections, optional MCP serv
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/lukilabs/craft-agents-oss.git
-- docker run -d \
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Fully supported. Stdio-based MCP servers run as local subprocesses on your machine. Point it at an npx command, a Python script, or any local binary. It just works.
-- ### Docker
-- To enable TLS in Docker, mount your certificates and set the env vars:
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- ### One-Line Install (Recommended)
-- **macOS / Linux:**
-- bash
+Install command or upstream instructions:
 
-- Source: https://github.com/craft-ai-agents/craft-agents-oss
-- Extracted from upstream docs: https://raw.githubusercontent.com/craft-ai-agents/craft-agents-oss/HEAD/README.md
+```
+macOS or Linux: curl -fsSL https://agents.craft.do/install-app.sh | bash. Windows PowerShell: irm https://agents.craft.do/install-app.ps1 | iex. To build from source, clone the repo, run bun install, then bun run electron:start.
+```
 
 ## Documentation
 

@@ -1,14 +1,14 @@
 ---
-name: "Run autonomous deep research workflows with GPT Researcher"
-slug: "run-autonomous-deep-research-workflows-with-gpt-researcher"
+title: "Run autonomous deep research workflows with GPT Researcher"
 description: "Use GPT Researcher to plan, gather, source, and assemble cited web or local research reports through a repeatable agent workflow."
-github_stars: 27380
 verification: "security_reviewed"
 source: "https://github.com/assafelovic/gpt-researcher"
 author: "assafelovic"
 publisher_type: "individual"
-category: "Research & Scraping"
-framework: "Multi-Framework"
+category:
+  - "Research & Scraping"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "assafelovic/gpt-researcher"
   github_stars: 27380
@@ -26,24 +26,19 @@ Python 3.11+, GPT Researcher, LLM provider API key, Tavily or configured retriev
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx skills add assafelovic/gpt-researcher
-- git clone https://github.com/assafelovic/gpt-researcher.git
-- pip install -r requirements.txt
-- pip install gpt-researcher
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- [![Docker Image Version](https://img.shields.io/docker/v/elestio/gpt-researcher/latest?arch=amd64&style=flat&logo=docker&logoColor=white&color=1D63ED)](https://hub.docker.com/r/gptresearcher/gpt-researcher)
-- Install Python 3.11 or later. [Guide](https://www.tutorialsteacher.com/python/install-python).
-- python -m uvicorn main:app --reload
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [![Open In Colab](https://img.shields.io/static/v1?message=Open%20in%20Colab&logo=googlecolab&labelColor=grey&color=yellow&label=%20&style=flat&logoSize=40)](https://colab.research.google.com/github/assafelovic/gpt-re...
-- Extend Claude's deep research capabilities by installing GPT Researcher as a [Claude Skill](https://skills.sh/assafelovic/gpt-researcher/gpt-researcher):
-- bash
+Install command or upstream instructions:
 
-- Source: https://github.com/assafelovic/gpt-researcher
-- Extracted from upstream docs: https://raw.githubusercontent.com/assafelovic/gpt-researcher/HEAD/README.md
+```
+Install with `pip install gpt-researcher`, configure provider and retriever API keys such as `OPENAI_API_KEY` and `TAVILY_API_KEY`, then run GPT Researcher from the package, app, Docker setup, or Claude Skill path documented upstream.
+```
 
 ## Documentation
 

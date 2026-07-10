@@ -1,12 +1,13 @@
 ---
-name: "Internal Link Optimizer"
-slug: "internal-link-optimizer-seo"
+title: "Internal Link Optimizer"
 description: "Optimizes internal linking structure using Screaming Frog SEO Spider XML exports and NetworkX graph analysis. Identifies orphan pages, calculates PageRank distribution, and suggests anchor text improvements."
 verification: "listed"
 source: "https://www.screamingfrog.co.uk/seo-spider/user-guide/"
 author: "Screaming Frog"
-category: "Content Writing & SEO"
-framework: "Custom Agents"
+category:
+  - "Content Writing & SEO"
+framework:
+  - "Custom Agents"
 ---
 
 # Internal Link Optimizer
@@ -15,9 +16,17 @@ Optimizes internal linking structure using Screaming Frog SEO Spider XML exports
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Choose whichever fits your setup:
 
-- Source: https://agentskillexchange.com/skills/internal-link-optimizer-seo/
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+## Documentation
+
+- https://www.screamingfrog.co.uk/seo-spider/user-guide/
 
 ## Source
 

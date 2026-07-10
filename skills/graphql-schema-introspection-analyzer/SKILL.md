@@ -1,12 +1,12 @@
 ---
-name: "GraphQL Schema Introspection Analyzer"
-slug: "graphql-schema-introspection-analyzer"
+title: "GraphQL Schema Introspection Analyzer"
 description: "Introspects GraphQL APIs via the standard __schema query and analyzes type systems using graphql-js utilities (buildClientSchema, printSchema). Detects N+1 patterns, circular types, deprecated field usage, and missing nullability annotations."
-github_stars: 20324
 verification: "security_reviewed"
 source: "https://github.com/graphql/graphql-js"
-category: "Library & API Reference"
-framework: "MCP"
+category:
+  - "Library & API Reference"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "graphql/graphql-js"
   github_stars: 20324
@@ -20,22 +20,13 @@ Introspects GraphQL APIs via the standard __schema query and analyzes type syste
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install --save graphql
-- yarn add graphql
-- npm install graphql@git://github.com/graphql/graphql-js.git#npm
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- GraphQL.js is a general-purpose library and can be used both in a Node server
-- with both CommonJS (require()) and ESModule (import) files. Ensure that any
-
-Basic usage or getting-started notes:
-- A general overview of GraphQL is available in the
-- [README](https://github.com/graphql/graphql-spec/blob/main/README.md) for the
-- [Specification for GraphQL](https://github.com/graphql/graphql-spec). That overview
-
-- Source: https://github.com/graphql/graphql-js
-- Extracted from upstream docs: https://raw.githubusercontent.com/graphql/graphql-js/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

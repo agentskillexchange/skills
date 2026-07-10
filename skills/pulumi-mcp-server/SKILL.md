@@ -1,38 +1,33 @@
 ---
-name: "Pulumi MCP Server"
-slug: "pulumi-mcp-server"
-description: ""
-github_stars: 25248
+title: "Pulumi MCP Server"
+description: "Pulumi MCP Server is built around Pulumi infrastructure as code platform. The underlying ecosystem is represented by pulumi/pulumi (24,917+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like stacks, preview, refresh, state, providers, config, drift detection and preserving […]"
 verification: "security_reviewed"
 source: "https://github.com/pulumi/pulumi"
 author: "Pulumi"
-category: "Developer Tools"
-framework: "MCP"
+category:
+  - "Developer Tools"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "pulumi/pulumi"
   github_stars: 25248
   npm_package: "@pulumi/pulumi"
-  npm_weekly_downloads: 2089108
+  npm_weekly_downloads: 2117132
 ---
 
 # Pulumi MCP Server
 
-
+Pulumi MCP Server is built around Pulumi infrastructure as code platform. The underlying ecosystem is represented by pulumi/pulumi (24,917+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like stacks, preview, refresh, state, providers, config, drift detection and preserving […]
 
 ## Installation
 
-Requirements and caveats from upstream:
-- [![Python version](https://badge.fury.io/py/pulumi.svg)](https://pypi.org/project/pulumi)
-- const aws = require("@pulumi/aws");
-- nohup python -m SimpleHTTPServer 80 &,
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- For example, create three web servers:
-- ## <a name="getting-started"></a>Getting Started
-- To install the latest Pulumi release, run the following (see full
-
-- Source: https://github.com/pulumi/pulumi
-- Extracted from upstream docs: https://raw.githubusercontent.com/pulumi/pulumi/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

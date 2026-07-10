@@ -1,14 +1,14 @@
 ---
-name: "Run multi-harness coding-agent workflows with Oh My OpenAgent"
-slug: "run-multi-harness-coding-agent-workflows-with-oh-my-openagent"
+title: "Run multi-harness coding-agent workflows with Oh My OpenAgent"
 description: "Install and operate Oh My OpenAgent as a reusable coding-agent harness for long-running, multi-model development sessions across agent clients."
-github_stars: 58904
 verification: "security_reviewed"
 source: "https://github.com/code-yeongyu/oh-my-openagent"
 author: "code-yeongyu"
 publisher_type: "individual"
-category: "Developer Tools"
-framework: "Multi-Framework"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "code-yeongyu/oh-my-openagent"
   github_stars: 58904
@@ -26,13 +26,19 @@ Node.js or npm-compatible runtime, target coding-agent client such as OpenCode, 
 
 ## Installation
 
-Basic usage or getting-started notes:
-- Everything below, every feature, every optimization: you don't need to know any of it. It just works.
-- Even with only the following subscriptions, ultrawork works well (this project is not affiliated; these are personal recommendations):
-- [ChatGPT Subscription ($20)](https://chatgpt.com/)
+Choose whichever fits your setup:
 
-- Source: https://github.com/code-yeongyu/oh-my-openagent
-- Extracted from upstream docs: https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+Install the oh-my-openagent package or follow the upstream agent-facing installation guide, then have the target coding agent fetch and apply the documented configuration instructions from the repository before invoking the desired workflow command.
+```
 
 ## Documentation
 

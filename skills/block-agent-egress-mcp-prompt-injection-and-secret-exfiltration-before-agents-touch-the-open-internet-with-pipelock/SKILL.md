@@ -1,14 +1,14 @@
 ---
-name: "Block agent egress, MCP prompt injection, and secret exfiltration before agents touch the open internet with Pipelock"
-slug: "block-agent-egress-mcp-prompt-injection-and-secret-exfiltration-before-agents-touch-the-open-internet-with-pipelock"
+title: "Block agent egress, MCP prompt injection, and secret exfiltration before agents touch the open internet with Pipelock"
 description: "Put an inline firewall and containment layer in front of agent network traffic, tool calls, and MCP traffic before you trust an agent with local secrets."
-github_stars: 333
 verification: "security_reviewed"
 source: "https://github.com/luckyPipewrench/pipelock"
 author: "luckyPipewrench"
 publisher_type: "individual"
-category: "Security & Verification"
-framework: "Multi-Framework"
+category:
+  - "Security & Verification"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "luckyPipewrench/pipelock"
   github_stars: 333
@@ -24,24 +24,19 @@ Homebrew or Go, terminal, supported agent runtime or IDE integration
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install luckyPipewrench/tap/pipelock
-- docker pull ghcr.io/luckypipewrench/pipelock:latest
-- go install github.com/luckyPipewrench/pipelock/cmd/pipelock@latest
-- docker run -p 8888:8888 -v ./pipelock.yaml:/config/pipelock.yaml:ro \
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- pipelock check --url "https://docs.python.org/3/" # allowed
-- # Docker
-- # From source (requires Go 1.25+)
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- [Quick Start](#quick-start) · [What It Does](#what-it-does) · [Docs](docs/) · [Blog](https://pipelab.org/blog/) · [Ask Dosu](https://app.dosu.dev/bcccd1cf-be85-4c0e-ae05-edeb0ff50b59/ask)
-- bash
-- # Set up (discovers IDE configs, generates config, verifies detection)
+Install command or upstream instructions:
 
-- Source: https://github.com/luckyPipewrench/pipelock
-- Extracted from upstream docs: https://raw.githubusercontent.com/luckyPipewrench/pipelock/HEAD/README.md
+```
+Install with `brew install luckyPipewrench/tap/pipelock` or `go install github.com/luckyPipewrench/pipelock/cmd/pipelock@latest`, run `pipelock init`, then place the agent behind `pipelock sandbox` or `pipelock mcp proxy` with your policy config.
+```
 
 ## Documentation
 

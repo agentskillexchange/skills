@@ -1,12 +1,12 @@
 ---
-name: "Snowflake Query Optimizer Agent"
-slug: "snowflake-query-optimizer-agent"
+title: "Snowflake Query Optimizer Agent"
 description: "Analyzes and optimizes Snowflake SQL queries using the QUERY_HISTORY and ACCESS_HISTORY views in ACCOUNT_USAGE. Identifies expensive scans, recommends clustering keys, and monitors warehouse credit consumption via WAREHOUSE_METERING_HISTORY."
-github_stars: 724
 verification: "security_reviewed"
 source: "https://github.com/snowflakedb/snowflake-connector-python"
-category: "Data Extraction & Transformation"
-framework: "OpenClaw"
+category:
+  - "Data Extraction & Transformation"
+framework:
+  - "OpenClaw"
 tool_ecosystem:
   github_repo: "snowflakedb/snowflake-connector-python"
   github_stars: 724
@@ -18,22 +18,13 @@ Analyzes and optimizes Snowflake SQL queries using the QUERY_HISTORY and ACCESS_
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone git@github.com:snowflakedb/snowflake-connector-python.git
-- python -m pip install -U pip setuptools wheel build
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- # Snowflake Connector for Python
-- [![Build and Test](https://github.com/snowflakedb/snowflake-connector-python/actions/workflows/build_test.yml/badge.svg)](https://github.com/snowflakedb/snowflake-connector-python/actions/workflows/build_test.yml)
-- [![codecov](https://codecov.io/gh/snowflakedb/snowflake-connector-python/branch/main/graph/badge.svg?token=MVKSNtnLr0)](https://codecov.io/gh/snowflakedb/snowflake-connector-python)
-
-Basic usage or getting-started notes:
-- to create a wheel package using PEP-517 build:
-- shell
-- Find the snowflake_connector_python*.whl package in the ./dist directory.
-
-- Source: https://github.com/snowflakedb/snowflake-connector-python
-- Extracted from upstream docs: https://raw.githubusercontent.com/snowflakedb/snowflake-connector-python/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

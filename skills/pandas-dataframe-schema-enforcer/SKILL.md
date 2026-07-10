@@ -1,12 +1,12 @@
 ---
-name: "Pandas DataFrame Schema Enforcer"
-slug: "pandas-dataframe-schema-enforcer"
+title: "Pandas DataFrame Schema Enforcer"
 description: "Validates and transforms Pandas DataFrames using Pandera schema definitions with column-level dtype, nullable, and custom check constraints. Auto-generates Pandera schema code from sample DataFrames."
-github_stars: 48498
 verification: "security_reviewed"
 source: "https://github.com/pandas-dev/pandas"
-category: "Data Extraction & Transformation"
-framework: "ChatGPT Agents"
+category:
+  - "Data Extraction & Transformation"
+framework:
+  - "ChatGPT Agents"
 tool_ecosystem:
   github_repo: "pandas-dev/pandas"
   github_stars: 48498
@@ -18,24 +18,13 @@ Validates and transforms Pandas DataFrames using Pandera schema definitions with
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- conda install -c conda-forge pandas
-- pip install pandas
-- pip install cython
-- pip install .
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- # pandas: A Powerful Python Data Analysis Toolkit
-- **pandas** is a Python package that provides fast, flexible, and expressive data
-- doing practical, **real-world** data analysis in Python. Additionally, it has
-
-Basic usage or getting-started notes:
-- To install pandas from source you need [Cython](https://cython.org/) in addition to the normal
-- dependencies above. Cython can be installed from PyPI:
-- sh
-
-- Source: https://github.com/pandas-dev/pandas
-- Extracted from upstream docs: https://raw.githubusercontent.com/pandas-dev/pandas/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

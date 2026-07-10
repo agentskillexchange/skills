@@ -1,13 +1,13 @@
 ---
-name: "Outline Open Source Team Knowledge Base and Wiki Platform"
-slug: "outline-knowledge-base-wiki"
+title: "Outline Open Source Team Knowledge Base and Wiki Platform"
 description: "Outline is a fast, collaborative knowledge base for teams built with React and Node.js. It provides real-time editing, Markdown support, and a rich API for integration with Slack, authentication providers, and custom workflows."
-github_stars: 38027
 verification: "security_reviewed"
 source: "https://github.com/outline/outline"
 author: "Outline"
-category: "Calendar, Email & Productivity"
-framework: "Multi-Framework"
+category:
+  - "Calendar, Email & Productivity"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "outline/outline"
   github_stars: 38027
@@ -19,22 +19,13 @@ Outline is a fast, collaborative knowledge base for teams built with React and N
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- make test
-- make watch
-- yarn test:server
-- yarn test path/to/file.test.ts --watch
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- <i>A fast, collaborative, knowledge base for your team built using React and Node.js.<br/>Try out Outline using our hosted version at <a href="https://www.getoutline.com">www.getoutline.com</a>.</i>
-
-Basic usage or getting-started notes:
-- This is the source code that runs [**Outline**](https://www.getoutline.com) and all the associated services. If you want to use Outline then you don't need to run this code, A hosted version of the app is offered at [...
-- If you'd like to run your own copy of Outline or contribute to development then this is the place for you.
-- Please see the [documentation](https://docs.getoutline.com/s/hosting/) for running your own copy of Outline in a production configuration.
-
-- Source: https://github.com/outline/outline
-- Extracted from upstream docs: https://raw.githubusercontent.com/outline/outline/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Source
 

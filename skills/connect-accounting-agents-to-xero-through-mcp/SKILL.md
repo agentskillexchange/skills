@@ -1,14 +1,14 @@
 ---
-name: "Connect accounting agents to Xero through MCP"
-slug: "connect-accounting-agents-to-xero-through-mcp"
+title: "Connect accounting agents to Xero through MCP"
 description: "Use Xero MCP Server to give approved MCP clients controlled access to Xero accounting data, reports, invoices, contacts, and related business records."
-github_stars: 294
 verification: "security_reviewed"
 source: "https://github.com/XeroAPI/xero-mcp-server"
 author: "XeroAPI"
 publisher_type: "vendor_open_source"
-category: "Integrations & Connectors"
-framework: "MCP"
+category:
+  - "Integrations & Connectors"
+framework:
+  - "MCP"
 tool_ecosystem:
   github_repo: "XeroAPI/xero-mcp-server"
   github_stars: 294
@@ -26,24 +26,19 @@ Node.js 18+, npm or pnpm, Xero developer account, Xero client credentials or bea
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install
-- pnpm install
-- npm run build
-- pnpm build
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Node.js (v18 or higher)
-- [Xero-Node Public API SDK Docs](https://xeroapi.github.io/xero-node/accounting)
-- Custom connections require different scopes depending on when they were created. **All scopes in the relevant list must be added to your custom connection:**
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- npm or pnpm
-- A Xero developer account with API credentials
-- ## Docs and Links
+Install command or upstream instructions:
 
-- Source: https://github.com/XeroAPI/xero-mcp-server
-- Extracted from upstream docs: https://raw.githubusercontent.com/XeroAPI/xero-mcp-server/HEAD/README.md
+```
+Add the server to an MCP client using npx -y @xeroapi/xero-mcp-server@latest, then set XERO_CLIENT_ID and XERO_CLIENT_SECRET with required scopes or provide XERO_CLIENT_BEARER_TOKEN for bearer-token mode.
+```
 
 ## Documentation
 

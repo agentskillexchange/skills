@@ -1,13 +1,13 @@
 ---
-name: "Prismic Headless CMS Content API Client"
-slug: "prismic-headless-cms-content-api-client"
+title: "Prismic Headless CMS Content API Client"
 description: "Prismic provides a headless CMS with an API-first editing model, and the official @prismicio/client package is the main integration point for fetching content in apps and automations. It fits agents that need to inspect repositories, publish structured content flows, or wire CMS data into websites and internal tools."
-github_stars: 177
 verification: "security_reviewed"
 source: "https://github.com/prismicio/prismic-client"
 author: "prismicio"
-category: "WordPress & CMS"
-framework: "Multi-Framework"
+category:
+  - "WordPress & CMS"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "prismicio/prismic-client"
   github_stars: 177
@@ -21,16 +21,13 @@ Prismic provides a headless CMS with an API-first editing model, and the officia
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install @prismicio/client
+Choose whichever fits your setup:
 
-Basic usage or getting-started notes:
-- Built for browser and server usage.
-- bash
-- ## Documentation
-
-- Source: https://github.com/prismicio/prismic-client
-- Extracted from upstream docs: https://raw.githubusercontent.com/prismicio/prismic-client/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
 ## Documentation
 

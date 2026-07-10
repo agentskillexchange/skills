@@ -1,14 +1,14 @@
 ---
-name: "Investigate production incidents across observability signals and draft next remediation steps with OpenSRE"
-slug: "investigate-production-incidents-across-observability-signals-and-draft-next-remediation-steps-with-opensre"
+title: "Investigate production incidents across observability signals and draft next remediation steps with OpenSRE"
 description: "Pull logs, metrics, traces, and runbook context into one incident investigation loop before a human operator guesses at the root cause."
-github_stars: 1979
 verification: "security_reviewed"
 source: "https://github.com/Tracer-Cloud/opensre"
 author: "Tracer Cloud"
 publisher_type: "organization"
-category: "Runbooks & Diagnostics"
-framework: "Custom Agents"
+category:
+  - "Runbooks & Diagnostics"
+framework:
+  - "Custom Agents"
 tool_ecosystem:
   github_repo: "Tracer-Cloud/opensre"
   github_stars: 1979
@@ -24,21 +24,19 @@ OpenSRE installation, access to the target observability stack and incident cont
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew tap tracer-cloud/tap
-- brew install tracer-cloud/tap/opensre
-- pipx install opensre
+Choose whichever fits your setup:
 
-Requirements and caveats from upstream:
-- Deploy OpenSRE as a standard Python/FastAPI runtime using the repo Dockerfile or a managed app host such as Railway, EC2, ECS, or Vercel. Set LLM_PROVIDER plus the matching API key (see [.env.example](.env.example));...
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
 
-Basic usage or getting-started notes:
-- <p>The open-source framework for AI SRE agents, and the training and evaluation environment they need to improve. Connect the 60+ tools you already run, define your own workflows, and investigate incidents on your own...
-- [Quick Start](#quick-start)
-- The root installer URL auto-detects Unix shell vs PowerShell. Add --main when you want the latest rolling build from main instead of the latest stable release.
+Install command or upstream instructions:
 
-- Source: https://github.com/Tracer-Cloud/opensre
-- Extracted from upstream docs: https://raw.githubusercontent.com/Tracer-Cloud/opensre/HEAD/README.md
+```
+Install OpenSRE from the upstream install script, Homebrew tap, or project build path, run the documented onboard flow, then execute the investigate workflow against a real incident payload or supported environment context.
+```
 
 ## Documentation
 

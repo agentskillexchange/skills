@@ -1,14 +1,14 @@
 ---
-name: "Coolify Self-Hosted App Platform and Deployment Automation Skill"
-slug: "coolify-self-hosted-app-platform-deployment-automation-skill"
+title: "Coolify Self-Hosted App Platform and Deployment Automation Skill"
 description: "Coolify is an open source self-hosted deployment platform for applications, databases, and services. This skill covers installing Coolify, connecting infrastructure over SSH, and using it as an operational control plane for repeatable app delivery workflows."
-github_stars: 52900
 verification: "security_reviewed"
 source: "https://github.com/coollabsio/coolify"
 author: "CoolLabs"
 publisher_type: "Company"
-category: "Developer Tools"
-framework: "Multi-Framework"
+category:
+  - "Developer Tools"
+framework:
+  - "Multi-Framework"
 tool_ecosystem:
   github_repo: "coollabsio/coolify"
   github_stars: 52900
@@ -24,13 +24,19 @@ Linux server with SSH access, Docker, curl
 
 ## Installation
 
-Basic usage or getting-started notes:
-- bash
-- You can find the installation script source [here](./scripts/install.sh).
-- [!NOTE]
+Choose whichever fits your setup:
 
-- Source: https://github.com/coollabsio/coolify
-- Extracted from upstream docs: https://raw.githubusercontent.com/coollabsio/coolify/HEAD/README.md
+1. Copy this skill folder into your local skills directory.
+2. Clone the repo and symlink or copy the skill into your agent workspace.
+3. Add the repo as a git submodule if you manage shared skills centrally.
+4. Install it through your internal provisioning or packaging workflow.
+5. Download the folder directly from GitHub and place it in your skills collection.
+
+Install command or upstream instructions:
+
+```
+curl -fsSL https://cdn.coollabs.io/coolify/install.sh | sudo bash
+```
 
 ## Documentation
 
