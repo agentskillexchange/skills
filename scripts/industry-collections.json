@@ -408,11 +408,7 @@
         "woocommerce-webhook-orchestrator",
         "run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp",
         "stripe-payment-flow-connector",
-        "stripe-connect-account-provisioner",
-        "bubble-stripe-subscription-portal",
-        "cheerio-product-price-tracker",
-        "stripe-webhook-signature-verifier",
-        "build-react-agent-chat-interfaces-with-assistant-ui"
+        "cheerio-product-price-tracker"
       ],
       "who_for": [
         "Store operators, marketplace teams, and ecommerce engineers managing catalog, order, inventory, and payment workflows.",
@@ -456,16 +452,13 @@
       ],
       "editorial_notes": [
         "This collection stays focused on operating stores and marketplaces, not generic web scraping or content generation.",
-        "Stripe is currently exempted because marketplace, checkout, Connect, and subscription flows are distinct ecommerce jobs; revisit as non-Stripe commerce billing skills mature."
+        "Stripe is limited to two differentiated payment workflows: checkout/payment flow and marketplace/Connect payout sync."
       ],
       "adjacent_collections": [
         "finance-filings",
         "customer-support-success",
         "product-analytics-growth-ops"
       ],
-      "family_exemptions": {
-        "stripe": "Ecommerce needs separate Stripe coverage for marketplace, checkout, Connect provisioning, and subscription portal workflows until equivalent non-Stripe picks exist."
-      },
       "skill_meta": {
         "saleor-open-source-headless-commerce-graphql-api": {
           "why_here": "Provides an API-first commerce backend for catalog, checkout, order, and channel workflows.",
@@ -488,8 +481,8 @@
           "install_complexity": "Medium"
         },
         "stripe-connect-marketplace-sync": {
-          "why_here": "Maps marketplace transactions, transfers, and reversals into a supervised payout workflow.",
-          "persona": "Marketplace ops / payments engineer",
+          "why_here": "Covers the marketplace side of retail payments: Connect transfers, reversals, and payout reconciliation across sellers.",
+          "persona": "Marketplace operations lead / payments engineer",
           "install_complexity": "High"
         },
         "woocommerce-webhook-orchestrator": {
@@ -503,42 +496,22 @@
           "install_complexity": "High"
         },
         "stripe-payment-flow-connector": {
-          "why_here": "Covers checkout and payment-intent workflows that ecommerce teams need to verify end to end.",
-          "persona": "Payments engineer",
-          "install_complexity": "Medium"
-        },
-        "stripe-connect-account-provisioner": {
-          "why_here": "Automates connected-account onboarding for marketplace seller or vendor programs.",
-          "persona": "Marketplace ops / compliance engineer",
-          "install_complexity": "High"
-        },
-        "bubble-stripe-subscription-portal": {
-          "why_here": "Supports no-code subscription operations where billing changes need a customer-facing portal.",
-          "persona": "No-code builder / subscription ops",
+          "why_here": "Retained as the single Stripe checkout/payment-flow pick for validating cart-to-payment intent behavior.",
+          "persona": "Checkout engineer / payments engineer",
           "install_complexity": "Medium"
         },
         "cheerio-product-price-tracker": {
           "why_here": "Monitors product price pages when no clean feed or partner API exists for competitive checks.",
           "persona": "Merchandising analyst / growth ops",
           "install_complexity": "Medium"
-        },
-        "stripe-webhook-signature-verifier": {
-          "why_here": "Verifies payment webhook signatures before ecommerce automations trust checkout, subscription, or marketplace events.",
-          "persona": "Payments engineer / marketplace ops",
-          "install_complexity": "Medium"
-        },
-        "build-react-agent-chat-interfaces-with-assistant-ui": {
-          "why_here": "Supports storefront or back-office agent interfaces for product, order, inventory, and support workflows.",
-          "persona": "Commerce product engineer / retail ops builder",
-          "install_complexity": "Medium"
         }
       },
       "recommended_picks": [
         "saleor-open-source-headless-commerce-graphql-api",
-        "medusa-commerce-api-store-operations-automation-skill",
-        "build-and-validate-shopify-apps-with-the-official-shopify-ai-toolkit",
+        "woocommerce-rest-inventory-sync",
         "run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp",
-        "woocommerce-rest-inventory-sync"
+        "stripe-payment-flow-connector",
+        "stripe-connect-marketplace-sync"
       ]
     },
     {
@@ -834,15 +807,15 @@
         "ocrmypdf-searchable-pdf-ocr-pipeline",
         "whisperx-speech-recognition-timestamps-diarization",
         "docuseal-document-signing-pdf-forms",
-        "pdfplumber-python-pdf-text-table-extraction",
+        "parse-multilingual-documents-for-agent-ingestion-with-dots-ocr",
         "expose-fhir-healthcare-data-resources-to-mcp-agents-with-review-boundaries",
-        "apache-tika-document-extractor",
-        "apache-tika-document-parser",
+        "unstructured-document-etl-for-llm-pipelines",
+        "beautifulsoup-academic-paper-parser",
         "parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse",
         "redact-pii-from-text-before-sharing-or-indexing-with-scrubadub",
         "surya-document-ocr-layout-analysis-table-recognition",
         "paddleocr-multilingual-document-ocr-toolkit",
-        "markitdown-document-to-markdown-converter-microsoft",
+        "whisper-cpp-local-transcription-engine",
         "extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg",
         "tesseract-ocr-document-extractor",
         "extract-ocr-ready-markdown-from-documents-with-zerox",
@@ -927,25 +900,25 @@
           "persona": "Clinic admin / forms coordinator",
           "install_complexity": "Medium"
         },
-        "pdfplumber-python-pdf-text-table-extraction": {
-          "why_here": "Extracts tables and structured text from lab-style PDFs, referrals, and administrative packets.",
-          "persona": "Data coordinator / intake analyst",
-          "install_complexity": "Medium"
+        "parse-multilingual-documents-for-agent-ingestion-with-dots-ocr": {
+          "why_here": "Adds multilingual layout parsing for intake forms, referrals, and mixed-language documentation queues before human review.",
+          "persona": "Healthcare intake ops / document automation engineer",
+          "install_complexity": "High"
         },
         "expose-fhir-healthcare-data-resources-to-mcp-agents-with-review-boundaries": {
           "why_here": "Lets agents inspect FHIR resources with explicit PHI and clinical-use boundaries.",
           "persona": "Health IT engineer / integration lead",
           "install_complexity": "High"
         },
-        "apache-tika-document-extractor": {
-          "why_here": "Extracts text from mixed intake files, office documents, and uploaded paperwork.",
-          "persona": "Health records ops / integration engineer",
+        "unstructured-document-etl-for-llm-pipelines": {
+          "why_here": "Chunks and normalizes intake packets into structured elements before PHI-aware retrieval or abstraction workflows.",
+          "persona": "Healthcare data ops / retrieval engineer",
           "install_complexity": "High"
         },
-        "apache-tika-document-parser": {
-          "why_here": "Adds metadata and embedded-object parsing for mixed healthcare document packets.",
-          "persona": "Health data engineer / archive specialist",
-          "install_complexity": "High"
+        "beautifulsoup-academic-paper-parser": {
+          "why_here": "Parses PubMed and scholarly HTML metadata so literature-support packets keep citations, authors, and source links intact.",
+          "persona": "Research coordinator / evidence reviewer",
+          "install_complexity": "Medium"
         },
         "parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse": {
           "why_here": "Keeps local PDF extraction inspectable with text, JSON, and screenshots before PHI-sensitive review.",
@@ -967,9 +940,9 @@
           "persona": "Healthcare intake ops / document automation engineer",
           "install_complexity": "High"
         },
-        "markitdown-document-to-markdown-converter-microsoft": {
-          "why_here": "Converts PDFs, Office files, images, and audio notes into Markdown that documentation agents can summarize with human review.",
-          "persona": "Clinical documentation ops / data intake analyst",
+        "whisper-cpp-local-transcription-engine": {
+          "why_here": "Provides a local transcription option for documentation audio when teams want reviewable text artifacts without sending recordings through a hosted service.",
+          "persona": "Clinical documentation ops / transcription engineer",
           "install_complexity": "Medium"
         },
         "extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg": {
