@@ -1,13 +1,13 @@
 ---
-title: "Backstage Software Template Composer"
+name: "Backstage Software Template Composer"
+slug: "backstage-software-template-composer"
 description: "Creates Spotify Backstage software templates using template.yaml definitions with Scaffolder actions including fetch:template, publish:github, and catalog:register. Manages the Backstage Software Catalog via its REST API."
+github_stars: 33052
 verification: "security_reviewed"
 source: "https://github.com/backstage/backstage"
 author: "backstage"
-category:
-  - "Templates & Workflows"
-framework:
-  - "Codex"
+category: "Templates & Workflows"
+framework: "Codex"
 tool_ecosystem:
   github_repo: "backstage/backstage"
   github_stars: 33052
@@ -19,13 +19,13 @@ Creates Spotify Backstage software templates using template.yaml definitions wit
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- To start using Backstage, see the [Getting Started documentation](https://backstage.io/docs/getting-started).
+- ## Documentation
+- The documentation of Backstage includes:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/backstage/backstage
+- Extracted from upstream docs: https://raw.githubusercontent.com/backstage/backstage/HEAD/README.md
 
 ## Source
 

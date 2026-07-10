@@ -1,14 +1,14 @@
 ---
-title: "Generate OSS-Fuzz harnesses with oss-fuzz-gen"
+name: "Generate OSS-Fuzz harnesses with oss-fuzz-gen"
+slug: "generate-oss-fuzz-harnesses-with-oss-fuzz-gen"
 description: "Use LLM-assisted harness generation to expand fuzz coverage for real projects before manual fuzzing work begins."
+github_stars: 1384
 verification: "security_reviewed"
 source: "https://github.com/google/oss-fuzz-gen"
 author: "Google"
 publisher_type: "organization"
-category:
-  - "Security & Verification"
-framework:
-  - "Multi-Framework"
+category: "Security & Verification"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "google/oss-fuzz-gen"
   github_stars: 1384
@@ -24,19 +24,16 @@ oss-fuzz-gen, compiler toolchain, fuzzing runtime
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- This framework generates fuzz targets for real-world C/C++/Java/Python projects with
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Check our detailed [usage guide](./USAGE.md) for instructions on how to run this framework and generate reports based on the results.
+- ## Independent Agent Execution and Evaluation
+- You can also execute or evaluate individual agents without running full experiments, using the integrated agent execution framework.
 
-Install command or upstream instructions:
-
-```
-Clone or install the project dependencies described upstream, run the harness generation flow against a supported codebase, then build and test the generated fuzz targets.
-```
+- Source: https://github.com/google/oss-fuzz-gen
+- Extracted from upstream docs: https://raw.githubusercontent.com/google/oss-fuzz-gen/HEAD/README.md
 
 ## Documentation
 

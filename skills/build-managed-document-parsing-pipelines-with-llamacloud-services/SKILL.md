@@ -1,14 +1,14 @@
 ---
-title: "Build managed document parsing pipelines with LlamaCloud Services"
+name: "Build managed document parsing pipelines with LlamaCloud Services"
+slug: "build-managed-document-parsing-pipelines-with-llamacloud-services"
 description: "Use LlamaCloud Services to parse, index, and manage document knowledge pipelines that feed LlamaIndex retrieval and agent workflows."
+github_stars: 4250
 verification: "security_reviewed"
 source: "https://github.com/run-llama/llama_cloud_services"
 author: "Run Llama"
 publisher_type: "open_source_project"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Multi-Framework"
+category: "Data Extraction & Transformation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "run-llama/llama_cloud_services"
   github_stars: 4250
@@ -26,19 +26,15 @@ LlamaCloud Services client, LlamaCloud account/API access, documents or datasets
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- **Python**: pip install llama-cloud>=1.0 ([GitHub](https://github.com/run-llama/llama-cloud-py))
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- [![GitHub contributors](https://img.shields.io/github/contributors/run-llama/llama_cloud_services)](https://github.com/run-llama/llama_cloud_services/graphs/contributors)
+- **TypeScript**: npm install @llamaindex/llama-cloud ([GitHub](https://github.com/run-llama/llama-cloud-ts))
 
-Install command or upstream instructions:
-
-```
-Install the LlamaCloud Services client package, configure LlamaCloud credentials, then use the documented examples to parse documents, manage indexes, and connect outputs to LlamaIndex retrieval workflows.
-```
+- Source: https://github.com/run-llama/llama_cloud_services
+- Extracted from upstream docs: https://raw.githubusercontent.com/run-llama/llama_cloud_services/HEAD/README.md
 
 ## Documentation
 

@@ -1,12 +1,12 @@
 ---
-title: "LangChain MCP Server"
-description: "LangChain MCP Server is built around LangChain framework for LLM applications. The underlying ecosystem is represented by langchain-ai/langchainjs (17,321+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like chains, tools, prompts, agents, retrievers, vector stores, callbacks and preserving […]"
+name: "LangChain MCP Server"
+slug: "langchain-mcp-server"
+description: ""
+github_stars: 17737
 verification: "security_reviewed"
 source: "https://github.com/langchain-ai/langchainjs"
-category:
-  - "Developer Tools"
-framework:
-  - "MCP"
+category: "Developer Tools"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "langchain-ai/langchainjs"
   github_stars: 17737
@@ -16,17 +16,24 @@ tool_ecosystem:
 
 # LangChain MCP Server
 
-LangChain MCP Server is built around LangChain framework for LLM applications. The underlying ecosystem is represented by langchain-ai/langchainjs (17,321+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like chains, tools, prompts, agents, retrievers, vector stores, callbacks and preserving […]
+
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- You can use npm, pnpm, or yarn to install LangChain.js
+- npm install -S langchain or pnpm install langchain or yarn add langchain
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- For an equivalent Python library, check out [LangChain](https://github.com/langchain-ai/langchain).
+- Node.js (ESM and CommonJS) - 20.x, 22.x, 24.x
+
+Basic usage or getting-started notes:
+- Just getting started? Check out **[Deep Agents](http://docs.langchain.com/oss/javascript/deepagents/)** — a higher-level package built on LangChain for agents that have built-in capabilites for common usage patterns s...
+- [Getting started](https://docs.langchain.com/oss/javascript/langchain/overview): Installation, setting up the environment, simple examples
+
+- Source: https://github.com/langchain-ai/langchainjs
+- Extracted from upstream docs: https://raw.githubusercontent.com/langchain-ai/langchainjs/HEAD/README.md
 
 ## Source
 

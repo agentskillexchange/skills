@@ -1,12 +1,12 @@
 ---
-title: "Tabby Self-Hosted AI Coding Assistant and Copilot Alternative"
+name: "Tabby Self-Hosted AI Coding Assistant and Copilot Alternative"
+slug: "tabby-self-hosted-ai-coding-assistant"
 description: "Tabby is an open-source, self-hosted AI coding assistant that serves as an on-premises alternative to GitHub Copilot. It provides code completion and chat capabilities using consumer-grade GPUs with no cloud dependency."
+github_stars: 33305
 verification: "security_reviewed"
 source: "https://github.com/TabbyML/tabby"
-category:
-  - "Developer Tools"
-framework:
-  - "Custom Agents"
+category: "Developer Tools"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "TabbyML/tabby"
   github_stars: 33305
@@ -18,13 +18,23 @@ Tabby is an open-source, self-hosted AI coding assistant that serves as an on-pr
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- docker run -it \
+- git clone --recurse-submodules https://github.com/TabbyML/tabby
+- brew install protobuf
+- apt install make sqlite3 graphviz
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Docker pulls](https://img.shields.io/docker/pulls/tabbyml/tabby)](https://hub.docker.com/r/tabbyml/tabby)
+- The easiest way to start a Tabby server is by using the following Docker command:
+
+Basic usage or getting-started notes:
+- **05/11/2024** [v0.11.0](https://github.com/TabbyML/tabby/releases/tag/v0.11.0) brings significant enterprise upgrades, including 📊**storage usage** stats, 🔗**GitHub & GitLab** integration, 📋**Activities** page, and t...
+- **04/22/2024** [v0.10.0](https://github.com/TabbyML/tabby/releases/tag/v0.10.0) released, featuring the latest **Reports** tab with team-wise analytics for Tabby usage.
+- ## 👋 Getting Started
+
+- Source: https://github.com/TabbyML/tabby
+- Extracted from upstream docs: https://raw.githubusercontent.com/TabbyML/tabby/HEAD/README.md
 
 ## Source
 

@@ -1,14 +1,14 @@
 ---
-title: "Control Kubernetes infrastructure through natural-language MCP workflows"
+name: "Control Kubernetes infrastructure through natural-language MCP workflows"
+slug: "control-kubernetes-infrastructure-through-natural-language-mcp-workflows"
 description: "Let MCP-compatible agents inspect, debug, deploy, audit, and manage Kubernetes clusters through a controlled kubectl-backed server."
+github_stars: 898
 verification: "security_reviewed"
 source: "https://github.com/rohitg00/kubectl-mcp-server"
 author: "Rohit Ghumare"
 publisher_type: "individual"
-category:
-  - "Runbooks & Diagnostics"
-framework:
-  - "MCP"
+category: "Runbooks & Diagnostics"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "rohitg00/kubectl-mcp-server"
   github_stars: 898
@@ -26,19 +26,20 @@ Node.js or Python, kubectl, Kubernetes cluster access, MCP-compatible client
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- [Install with pip](#or-install-with-pip-python)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3.9+-blue.svg" alt="Python"></a>
+- <a href="https://hub.docker.com/r/rohitghumare64/kubectl-mcp-server"><img src="https://img.shields.io/docker/pulls/rohitghumare64/kubectl-mcp-server.svg" alt="Docker"></a>
+- [Docker](#docker)
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [Quick Start with npx](#quick-start-with-npx-recommended---zero-install)
+- [Getting Started](#getting-started)
 
-```
-Run with npx -y kubectl-mcp-server, install globally with npm install -g kubectl-mcp-server, or install the Python package with pip install kubectl-mcp-server[ui], then register the server with an MCP-compatible client that has access to the intended kubeconfig.
-```
+- Source: https://github.com/rohitg00/kubectl-mcp-server
+- Extracted from upstream docs: https://raw.githubusercontent.com/rohitg00/kubectl-mcp-server/HEAD/README.md
 
 ## Documentation
 

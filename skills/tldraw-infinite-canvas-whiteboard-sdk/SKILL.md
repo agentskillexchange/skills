@@ -1,12 +1,12 @@
 ---
-title: "tldraw Infinite Canvas Whiteboard SDK for React"
+name: "tldraw Infinite Canvas Whiteboard SDK for React"
+slug: "tldraw-infinite-canvas-whiteboard-sdk"
 description: "tldraw is a feature-complete infinite canvas engine and whiteboard SDK for React. It provides drawing, diagramming, real-time multiplayer collaboration, and AI integrations out of the box, with full extensibility for custom shapes, tools, and UI components."
+github_stars: 46154
 verification: "security_reviewed"
 source: "https://github.com/tldraw/tldraw"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "tldraw/tldraw"
   github_stars: 46154
@@ -20,13 +20,24 @@ tldraw is a feature-complete infinite canvas engine and whiteboard SDK for React
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm i tldraw
+- npx create-tldraw@latest
+- npm i -g corepack
+- yarn
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- **Workflow** — drag-and-drop node builder for automation pipelines, visual programming, and no-code platforms
+- **Image pipeline** — node-based builder for image generation pipelines
+- The development server runs the examples app at localhost:5420. You'll need [Node.js](https://nodejs.org) ^20.0.0. Clone the repo, then enable [corepack](https://nodejs.org/api/corepack.html) for the correct yarn vers...
+
+Basic usage or getting-started notes:
+- bash
+- Then, use the <Tldraw /> component in your React app:
+- tsx
+
+- Source: https://github.com/tldraw/tldraw
+- Extracted from upstream docs: https://raw.githubusercontent.com/tldraw/tldraw/HEAD/README.md
 
 ## Source
 

@@ -1,14 +1,14 @@
 ---
-title: "Build and validate Shopify apps with the official Shopify AI Toolkit"
-description: "Connect agents and IDE assistants to Shopify docs, API schemas, code validation, and store-management workflows through Shopify’s official toolkit."
+name: "Build and validate Shopify apps with the official Shopify AI Toolkit"
+slug: "build-and-validate-shopify-apps-with-the-official-shopify-ai-toolkit"
+description: "Connect agents and IDE assistants to Shopify docs, API schemas, code validation, and store-management workflows through Shopify's official toolkit."
+github_stars: 348
 verification: "security_reviewed"
 source: "https://github.com/Shopify/Shopify-AI-Toolkit"
 author: "Shopify"
 publisher_type: "organization"
-category:
-  - "Integrations & Connectors"
-framework:
-  - "Multi-Framework"
+category: "Integrations & Connectors"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "Shopify/Shopify-AI-Toolkit"
   github_stars: 348
@@ -18,7 +18,7 @@ tool_ecosystem:
 
 # Build and validate Shopify apps with the official Shopify AI Toolkit
 
-Connect agents and IDE assistants to Shopify docs, API schemas, code validation, and store-management workflows through Shopify’s official toolkit.
+Connect agents and IDE assistants to Shopify docs, API schemas, code validation, and store-management workflows through Shopify's official toolkit.
 
 ## Prerequisites
 
@@ -26,19 +26,13 @@ Supported agent client such as Claude Code, Cursor, Gemini CLI, Codex, or VS Cod
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- **For Claude Code**: Run these two commands in a chat:
+- /plugin marketplace add Shopify/shopify-ai-toolkit
+- /plugin install shopify-plugin@shopify-ai-toolkit
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-For Claude Code, run /plugin marketplace add Shopify/shopify-ai-toolkit and /plugin install shopify-plugin@shopify-ai-toolkit. For Gemini CLI, run gemini extensions install https://github.com/Shopify/shopify-ai-toolkit; for Codex, add Shopify from /plugins; for Cursor or VS Code, use the documented marketplace/source install flow.
-```
+- Source: https://github.com/Shopify/Shopify-AI-Toolkit
+- Extracted from upstream docs: https://raw.githubusercontent.com/Shopify/Shopify-AI-Toolkit/HEAD/README.md
 
 ## Documentation
 

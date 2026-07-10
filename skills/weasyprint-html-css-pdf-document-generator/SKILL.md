@@ -1,13 +1,13 @@
 ---
-title: "WeasyPrint HTML and CSS to PDF Document Generator"
+name: "WeasyPrint HTML and CSS to PDF Document Generator"
+slug: "weasyprint-html-css-pdf-document-generator"
 description: "WeasyPrint is a Python library by Kozea/CourtBouillon that converts HTML and CSS into PDF documents. It implements a CSS layout engine designed specifically for pagination, supporting web standards for printing including page breaks, headers, page counters, and responsive layouts without relying on a browser engine like WebKit or Gecko."
+github_stars: 8841
 verification: "security_reviewed"
 source: "https://github.com/Kozea/WeasyPrint"
 author: "Kozea"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Custom Agents"
+category: "Data Extraction & Transformation"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "Kozea/WeasyPrint"
   github_stars: 8841
@@ -19,13 +19,12 @@ WeasyPrint is a Python library by Kozea/CourtBouillon that converts HTML and CSS
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- WebKit or Gecko. The CSS layout engine is written in Python, designed for
+- For Python 3.10+, tested on CPython and PyPy
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/Kozea/WeasyPrint
+- Extracted from upstream docs: https://raw.githubusercontent.com/Kozea/WeasyPrint/HEAD/README.rst
 
 ## Source
 

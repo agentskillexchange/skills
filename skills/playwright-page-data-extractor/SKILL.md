@@ -1,12 +1,12 @@
 ---
-title: "Playwright Page Data Extractor"
-description: "Uses Microsoft Playwright’s Node.js API to navigate dynamic web applications, intercept network requests, and extract structured data from React/Vue/Angular SPAs with automatic wait strategies."
+name: "Playwright Page Data Extractor"
+slug: "playwright-page-data-extractor"
+description: "Uses Microsoft Playwright's Node.js API to navigate dynamic web applications, intercept network requests, and extract structured data from React/Vue/Angular SPAs with automatic wait strategies."
+github_stars: 86409
 verification: "security_reviewed"
 source: "https://github.com/microsoft/playwright"
-category:
-  - "Research & Scraping"
-framework:
-  - "Claude Code"
+category: "Research & Scraping"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "microsoft/playwright"
   github_stars: 86409
@@ -16,17 +16,24 @@ tool_ecosystem:
 
 # Playwright Page Data Extractor
 
-Uses Microsoft Playwright’s Node.js API to navigate dynamic web applications, intercept network requests, and extract structured data from React/Vue/Angular SPAs with automatic wait strategies.
+Uses Microsoft Playwright's Node.js API to navigate dynamic web applications, intercept network requests, and extract structured data from React/Vue/Angular SPAs with automatic wait strategies.
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install -g @playwright/cli@latest
+- npm i playwright
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Playwright is also available for [Python](https://playwright.dev/python/docs/intro), [.NET](https://playwright.dev/dotnet/docs/intro), and [Java](https://playwright.dev/java/docs/intro).
+
+Basic usage or getting-started notes:
+- bash
+- Optionally install skills for richer agent integration:
+- playwright-cli install --skills
+
+- Source: https://github.com/microsoft/playwright
+- Extracted from upstream docs: https://raw.githubusercontent.com/microsoft/playwright/HEAD/README.md
 
 ## Source
 

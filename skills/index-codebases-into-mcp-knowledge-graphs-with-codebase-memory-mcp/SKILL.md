@@ -1,14 +1,14 @@
 ---
-title: "Index codebases into MCP knowledge graphs with codebase-memory-mcp"
+name: "Index codebases into MCP knowledge graphs with codebase-memory-mcp"
+slug: "index-codebases-into-mcp-knowledge-graphs-with-codebase-memory-mcp"
 description: "Give coding agents a local MCP code intelligence graph for fast architecture, symbol, route, impact, and call-path queries across large repositories."
+github_stars: 7266
 verification: "security_reviewed"
 source: "https://github.com/DeusData/codebase-memory-mcp"
 author: "DeusData"
 publisher_type: "organization"
-category:
-  - "Integrations & Connectors"
-framework:
-  - "MCP"
+category: "Integrations & Connectors"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "DeusData/codebase-memory-mcp"
   github_stars: 7266
@@ -26,19 +26,21 @@ MCP-compatible coding agent, codebase-memory-mcp binary or npm package, local re
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/DeusData/codebase-memory-mcp.git
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- High-quality parsing through [tree-sitter](https://tree-sitter.github.io/tree-sitter/) AST analysis across all 158 languages, enhanced with [**Hybrid LSP** semantic type resolution](#hybrid-lsp) for Python, TypeScript...
+- **Plug and play** — single static binary for macOS (arm64/amd64), Linux (arm64/amd64), and Windows (amd64). No Docker, no runtime dependencies, no API keys. Download → install → restart agent → done.
+- **Semantic search** (semantic_query): vector search across the entire graph, powered by bundled Nomic nomic-embed-code embeddings (40K tokens, 768d int8) compiled into the binary — no API key, no Ollama, no Docker. 11...
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [![CI](https://img.shields.io/github/actions/workflow/status/DeusData/codebase-memory-mcp/dry-run.yml?label=CI)](https://github.com/DeusData/codebase-memory-mcp/actions/workflows/dry-run.yml)
+- **The fastest and most efficient code intelligence engine for AI coding agents.** Full-indexes an average repository in milliseconds, the Linux kernel (28M LOC, 75K files) in 3 minutes. Answers structural queries in u...
+- **One-line install** (macOS / Linux):
 
-```
-Install with the upstream setup script or `npm install -g codebase-memory-mcp`, restart the MCP-compatible coding agent, then index the project before asking the agent architecture, symbol, route, impact, or call-path questions.
-```
+- Source: https://github.com/DeusData/codebase-memory-mcp
+- Extracted from upstream docs: https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/HEAD/README.md
 
 ## Documentation
 

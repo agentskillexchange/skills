@@ -1,14 +1,14 @@
 ---
-title: "Run a lightweight personal AI agent with Nanobot"
+name: "Run a lightweight personal AI agent with Nanobot"
+slug: "run-a-lightweight-personal-ai-agent-with-nanobot"
 description: "Use Nanobot to configure a lightweight local personal agent with model providers, MCP tools, memory, chat channels, search, and gateway deployment paths."
+github_stars: 42833
 verification: "security_reviewed"
 source: "https://github.com/HKUDS/nanobot"
 author: "HKUDS"
 publisher_type: "organization"
-category:
-  - "Templates & Workflows"
-framework:
-  - "Custom Agents"
+category: "Templates & Workflows"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "HKUDS/nanobot"
   github_stars: 42833
@@ -24,19 +24,23 @@ Python 3.11+, nanobot-ai package, model provider credentials or local model runt
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/HKUDS/nanobot.git
+- pip install -e .
+- **Install with uv**
+- uv tool install nanobot-ai
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <img src="https://img.shields.io/badge/python-≥3.11-blue" alt="Python">
+- **2026-04-21** 🚀 Released **v0.1.5.post2** — Windows & Python 3.14 support, Office document reading, SSE streaming for the OpenAI-compatible API, and stronger reliability across sessions, memory, and channels. Please...
+- **2026-04-17** 🪟 Windows & Python 3.14 CI, Dream line-age memory, email self-loop guard.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- **2026-04-02** 🧱 Long-running tasks run more reliably — core runtime hardening.
+- ## 🚀 Quick Start
 
-```
-Install Nanobot from the upstream Python package workflow, run the Nanobot onboarding command, configure providers, MCP servers, tools, memory, and channels, then start the agent through the CLI, WebUI, or gateway path documented upstream.
-```
+- Source: https://github.com/HKUDS/nanobot
+- Extracted from upstream docs: https://raw.githubusercontent.com/HKUDS/nanobot/HEAD/README.md
 
 ## Documentation
 

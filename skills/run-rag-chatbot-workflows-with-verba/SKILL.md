@@ -1,14 +1,14 @@
 ---
-title: "Run RAG chatbot workflows with Verba"
+name: "Run RAG chatbot workflows with Verba"
+slug: "run-rag-chatbot-workflows-with-verba"
 description: "Ingest a bounded document set into Verba, configure retrieval and model providers, then review grounded chatbot answers before handing context to an agent workflow."
+github_stars: 7716
 verification: "security_reviewed"
 source: "https://github.com/weaviate/Verba"
 author: "Weaviate"
 publisher_type: "open-source organization"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Multi-Framework"
+category: "Data Extraction & Transformation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "weaviate/Verba"
   github_stars: 7716
@@ -24,19 +24,19 @@ Verba, Python 3.10 through 3.12 or Docker, Weaviate embedded/cloud/Docker deploy
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install goldenverba
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [Quickstart: Deploy with Docker](#how-to-install-verba-with-docker)
+- | Docker Support | ✅ | Verba is deployable via Docker |
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [![PyPi downloads](https://static.pepy.tech/personalized-badge/goldenverba?period=total&units=international_system&left_color=grey&right_color=orange&left_text=pip%20downloads)](https://pypi.org/project/goldenverba/)...
+- [✨ Getting Started with Verba](#getting-started-with-verba)
 
-```
-Install with `pip install goldenverba`, optionally create a `.env` file with only the provider keys you intend to use, then run `verba start`. For Docker, clone https://github.com/weaviate/Verba and run `docker compose --env-file <your-env-file> up -d --build`.
-```
+- Source: https://github.com/weaviate/Verba
+- Extracted from upstream docs: https://raw.githubusercontent.com/weaviate/Verba/HEAD/README.md
 
 ## Documentation
 

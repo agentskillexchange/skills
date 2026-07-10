@@ -1,13 +1,12 @@
 ---
-title: "Diffbot Knowledge Graph Extractor"
+name: "Diffbot Knowledge Graph Extractor"
+slug: "diffbot-knowledge-graph-extractor"
 description: "Extracts structured entities from web pages using the Diffbot Extraction API and Knowledge Graph. Supports article, product, and discussion extraction with automatic entity linking via DQL queries."
 verification: "security_reviewed"
 source: "https://docs.diffbot.com/"
 author: "Diffbot"
-category:
-  - "Research & Scraping"
-framework:
-  - "Claude Agents"
+category: "Research & Scraping"
+framework: "Claude Agents"
 ---
 
 # Diffbot Knowledge Graph Extractor
@@ -16,13 +15,12 @@ Extracts structured entities from web pages using the Diffbot Extraction API and
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- General Concepts Entity ID and diffbotUri
+- Origin
+- Importance
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://docs.diffbot.com/
 
 ## Documentation
 

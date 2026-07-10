@@ -1,12 +1,11 @@
 ---
-title: "Patent Landscape Analyzer"
+name: "Patent Landscape Analyzer"
+slug: "patent-landscape-analyzer"
 description: "Searches the USPTO PatentsView API and European Patent Office OPS (Open Patent Services) API for patent grants, applications, and family relationships. Generates technology landscape maps with IPC classification clustering."
 verification: "listed"
 source: "https://search.patentsview.org/docs/"
-category:
-  - "Research & Scraping"
-framework:
-  - "OpenClaw"
+category: "Research & Scraping"
+framework: "OpenClaw"
 ---
 
 # Patent Landscape Analyzer
@@ -15,13 +14,9 @@ Searches the USPTO PatentsView API and European Patent Office OPS (Open Patent S
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://search.patentsview.org/docs/
 
 ## Source
 

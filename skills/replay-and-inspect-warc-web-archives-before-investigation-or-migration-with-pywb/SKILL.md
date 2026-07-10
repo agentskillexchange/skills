@@ -1,14 +1,14 @@
 ---
-title: "Replay And Inspect WARC Web Archives Before Investigation Or Migration With Pywb"
+name: "Replay And Inspect WARC Web Archives Before Investigation Or Migration With Pywb"
+slug: "replay-and-inspect-warc-web-archives-before-investigation-or-migration-with-pywb"
 description: "Replay WARC-backed web archives locally so an agent can inspect historical pages, validate captures, and review preserved site behavior before migration or investigation work."
+github_stars: 1646
 verification: "security_reviewed"
 source: "https://github.com/webrecorder/pywb"
 author: "Webrecorder and contributors"
 publisher_type: "Open Source"
-category:
-  - "Research & Scraping"
-framework:
-  - "Multi-Framework"
+category: "Research & Scraping"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "webrecorder/pywb"
   github_stars: 1646
@@ -24,19 +24,23 @@ Python 3, pip
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install pywb
+- git clone https://github.com/webrecorder/pywb
+- To install from a locally cloned copy, install with pip install -e . or python setup.py install.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- **pywb** is a Python 3 web archiving toolkit for replaying web archives large and small as accurately as possible.
+- Note: depending on your Python installation, you may have to use pip3 instead of pip.
+- To run tests, we recommend installing pip install tox tox-current-env and then running tox --current-env to test in your current Python environment.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- ---------------------------
+- On Linux-based systems, first verify that python3-dev is installed. If it is not, install it with your package manager. E.g. on a Debian-based system, use:
+- sudo apt install python3-dev
 
-```
-pip install pywb
-```
+- Source: https://github.com/webrecorder/pywb
+- Extracted from upstream docs: https://raw.githubusercontent.com/webrecorder/pywb/HEAD/README.rst
 
 ## Documentation
 

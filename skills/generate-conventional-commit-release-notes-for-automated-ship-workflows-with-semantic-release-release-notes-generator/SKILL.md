@@ -1,14 +1,14 @@
 ---
-title: "Generate conventional-commit release notes for automated ship workflows with semantic-release release-notes-generator"
+name: "Generate conventional-commit release notes for automated ship workflows with semantic-release release-notes-generator"
+slug: "generate-conventional-commit-release-notes-for-automated-ship-workflows-with-semantic-release-release-notes-generator"
 description: "Generate structured release notes from Conventional Commits inside automated release pipelines when changelog generation is the specific job to do."
+github_stars: 361
 verification: "security_reviewed"
 source: "https://github.com/semantic-release/release-notes-generator"
 author: "semantic-release maintainers"
 publisher_type: "GitHub repository + npm package"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Multi-Framework"
+category: "CI/CD Integrations"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "semantic-release/release-notes-generator"
   github_stars: 361
@@ -26,19 +26,20 @@ Node.js, semantic-release, Conventional Commits, and the @semantic-release/relea
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ npm install @semantic-release/release-notes-generator -D
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- semantic-release already depends on this package, and defining your own direct dependency can result in conflicts when you update semantic-release.
+- **Notes**: in order to use a preset it must be installed (for example to use the [eslint preset](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-eslint) you...
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [!TIP]
+- You do not need to directly depend on this package if you are using semantic-release.
+- bash
 
-```
-Add @semantic-release/release-notes-generator to a semantic-release configuration, then configure the desired conventional-changelog preset and parser or writer options in the release pipeline.
-```
+- Source: https://github.com/semantic-release/release-notes-generator
+- Extracted from upstream docs: https://raw.githubusercontent.com/semantic-release/release-notes-generator/HEAD/README.md
 
 ## Documentation
 

@@ -1,12 +1,12 @@
 ---
-title: "dbt MCP Server for Data Pipeline Context"
+name: "dbt MCP Server for Data Pipeline Context"
+slug: "dbt-mcp-server-data-pipeline-context"
 description: "The official dbt MCP Server by dbt Labs provides Model Context Protocol tools for AI agents to interact with dbt projects, query the Semantic Layer, execute SQL, generate SQL from natural language, and explore data model lineage across dbt Core, Fusion, and Platform environments."
+github_stars: 526
 verification: "security_reviewed"
 source: "https://github.com/dbt-labs/dbt-mcp"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "MCP"
+category: "Data Extraction & Transformation"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "dbt-labs/dbt-mcp"
   github_stars: 526
@@ -18,13 +18,17 @@ The official dbt MCP Server by dbt Labs provides Model Context Protocol tools fo
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- get_node_details_dev: Retrieves node details from local manifest.json (models, seeds, snapshots, sources).
+- get_column_lineage: Traces column-level lineage locally (requires dbt-lsp via dbt Labs VSCE).
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- get_model_health: Gets health signals: run status, test results, and upstream source freshness.
+- run: Executes models to materialize them in the database.
+- get_job_run_details: Gets run details including status, timing, steps, and artifacts.
+
+- Source: https://github.com/dbt-labs/dbt-mcp
+- Extracted from upstream docs: https://raw.githubusercontent.com/dbt-labs/dbt-mcp/HEAD/README.md
 
 ## Source
 

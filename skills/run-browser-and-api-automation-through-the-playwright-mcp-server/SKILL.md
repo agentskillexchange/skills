@@ -1,14 +1,14 @@
 ---
-title: "Run browser and API automation through the Playwright MCP server"
+name: "Run browser and API automation through the Playwright MCP server"
+slug: "run-browser-and-api-automation-through-the-playwright-mcp-server"
 description: "Expose Playwright browser and API automation commands to MCP-capable agents for supervised test workflows."
+github_stars: 5489
 verification: "security_reviewed"
 source: "https://github.com/executeautomation/mcp-playwright"
 author: "executeautomation"
 publisher_type: "organization"
-category:
-  - "Browser Automation"
-framework:
-  - "MCP"
+category: "Browser Automation"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "executeautomation/mcp-playwright"
   github_stars: 5489
@@ -26,19 +26,23 @@ Node.js, Playwright browsers, an MCP-capable client such as Claude Desktop, Curs
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install -g @executeautomation/playwright-mcp-server
+- npx @michaellatman/mcp-get@latest install @executeautomation/playwright-mcp-server
+- npx @smithery/cli install @executeautomation/playwright-mcp-server --client claude
+- npx playwright install
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- **Note for Claude Desktop Users:** Claude Desktop currently requires stdio mode (command/args configuration). HTTP mode is recommended for VS Code, custom clients, and remote deployments. See [CLAUDE_DESKTOP_CONFIG.md...
+- node run-tests.cjs
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- You can install the package using either npm, mcp-get, or Smithery:
+- Using npm:
+- bash
 
-```
-Clone or install the MCP Playwright server as documented upstream, install Playwright browsers, register the server with an MCP client, and run browser/API automation commands through the client.
-```
+- Source: https://github.com/executeautomation/mcp-playwright
+- Extracted from upstream docs: https://raw.githubusercontent.com/executeautomation/mcp-playwright/HEAD/README.md
 
 ## Documentation
 

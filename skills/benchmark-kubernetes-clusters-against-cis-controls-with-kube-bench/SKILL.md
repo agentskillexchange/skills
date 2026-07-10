@@ -1,14 +1,14 @@
 ---
-title: "Benchmark Kubernetes clusters against CIS controls with kube-bench"
+name: "Benchmark Kubernetes clusters against CIS controls with kube-bench"
+slug: "benchmark-kubernetes-clusters-against-cis-controls-with-kube-bench"
 description: "Run CIS benchmark checks against cluster nodes and control planes when an agent needs a narrow Kubernetes hardening audit, not a general platform listing."
+github_stars: 8022
 verification: "security_reviewed"
 source: "https://github.com/aquasecurity/kube-bench"
 author: "Aqua Security"
 publisher_type: "organization"
-category:
-  - "Security & Verification"
-framework:
-  - "Multi-Framework"
+category: "Security & Verification"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "aquasecurity/kube-bench"
   github_stars: 8022
@@ -24,19 +24,18 @@ kube-bench binary or container image, access to target Kubernetes nodes or clust
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- [![Docker Pulls][docker-pull]][docker]
+- [docker-pull]: https://img.shields.io/docker/pulls/aquasec/kube-bench?logo=docker&label=docker%20pulls%20%2F%20kube-bench
+- [docker]: https://hub.docker.com/r/aquasec/kube-bench
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- There are multiple ways to run kube-bench.
+- You can run kube-bench inside a pod, but it will need access to the host's PID namespace in order to check the running processes, as well as access to some directories on the host where config files and other files ar...
+- The supplied job.yaml [file](job.yaml) can be applied to run the tests as a job. For example:
 
-Install command or upstream instructions:
-
-```
-Install kube-bench from releases, Homebrew, or its container image, then run it on a target node or cluster context, for example with `kube-bench run --targets master,node` or the equivalent containerized invocation from the upstream README.
-```
+- Source: https://github.com/aquasecurity/kube-bench
+- Extracted from upstream docs: https://raw.githubusercontent.com/aquasecurity/kube-bench/HEAD/README.md
 
 ## Documentation
 

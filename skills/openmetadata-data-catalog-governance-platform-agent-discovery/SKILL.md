@@ -1,12 +1,12 @@
 ---
-title: "OpenMetadata Data Catalog and Governance Platform for Agent Discovery"
+name: "OpenMetadata Data Catalog and Governance Platform for Agent Discovery"
+slug: "openmetadata-data-catalog-governance-platform-agent-discovery"
 description: "OpenMetadata provides a central metadata layer for data discovery, lineage, quality, ownership, and governance. This skill helps agents answer questions about tables, dashboards, pipelines, and data health from one searchable control plane instead of jumping between isolated tools."
+github_stars: 10041
 verification: "security_reviewed"
 source: "https://github.com/open-metadata/OpenMetadata"
-category:
-  - "Library & API Reference"
-framework:
-  - "Multi-Framework"
+category: "Library & API Reference"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "open-metadata/OpenMetadata"
   github_stars: 10041
@@ -18,13 +18,16 @@ OpenMetadata provides a central metadata layer for data discovery, lineage, qual
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- The AI SDK enables AI applications to use OpenMetadata context from Python, TypeScript, and Java.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- OpenMetadata connects technical metadata, data quality signals, data lineage, column-level lineage, ownership, usage, policies, conversations, glossaries, classifications, metrics, domains, and data products into a un...
+- run semantic search
+- For example, a user can ask:
+
+- Source: https://github.com/open-metadata/OpenMetadata
+- Extracted from upstream docs: https://raw.githubusercontent.com/open-metadata/OpenMetadata/HEAD/README.md
 
 ## Source
 

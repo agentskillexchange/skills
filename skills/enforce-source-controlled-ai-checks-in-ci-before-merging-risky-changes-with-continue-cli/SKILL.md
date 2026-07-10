@@ -1,14 +1,14 @@
 ---
-title: "Enforce source-controlled AI checks in CI before merging risky changes with Continue CLI"
+name: "Enforce source-controlled AI checks in CI before merging risky changes with Continue CLI"
+slug: "enforce-source-controlled-ai-checks-in-ci-before-merging-risky-changes-with-continue-cli"
 description: "Lets an agent define repo-native AI review checks as markdown files and run them as repeatable pull request status checks in CI."
+github_stars: 32622
 verification: "security_reviewed"
 source: "https://github.com/continuedev/continue"
 author: "Continue Dev"
 publisher_type: "organization"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Multi-Framework"
+category: "CI/CD Integrations"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "continuedev/continue"
   github_stars: 32622
@@ -24,19 +24,19 @@ Continue CLI, GitHub or CI system, repository checkout
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm i -g @continuedev/cli
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Or with npm (requires Node.js 20+):
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Paste this into your coding agent of choice:
+- Help me write checks for this codebase: https://continue.dev/walkthrough
+- ## How it works
 
-```
-Install Continue CLI with curl or npm, then define checks in .continue/checks/ and run them in CI.
-```
+- Source: https://github.com/continuedev/continue
+- Extracted from upstream docs: https://raw.githubusercontent.com/continuedev/continue/HEAD/README.md
 
 ## Documentation
 

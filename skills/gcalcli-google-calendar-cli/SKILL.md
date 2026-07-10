@@ -1,12 +1,12 @@
 ---
-title: "gcalcli Google Calendar Command Line Interface"
+name: "gcalcli Google Calendar Command Line Interface"
+slug: "gcalcli-google-calendar-cli"
 description: "gcalcli is a Python CLI that provides full access to Google Calendar from the command line. View agendas, search events, quick-add appointments, import ICS files, set reminders, and display ASCII calendar views—all without leaving the terminal."
+github_stars: 3678
 verification: "listed"
 source: "https://github.com/insanum/gcalcli"
-category:
-  - "Calendar, Email & Productivity"
-framework:
-  - "Custom Agents"
+category: "Calendar, Email & Productivity"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "insanum/gcalcli"
   github_stars: 3678
@@ -18,13 +18,9 @@ gcalcli is a Python CLI that provides full access to Google Calendar from the co
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/insanum/gcalcli
 
 ## Source
 

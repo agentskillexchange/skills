@@ -1,13 +1,13 @@
 ---
-title: "Protobuf Schema Registry Manager"
+name: "Protobuf Schema Registry Manager"
+slug: "protobuf-schema-registry-manager"
 description: "Manages Protocol Buffer schema evolution using buf CLI with breaking change detection and Confluent Schema Registry integration. Enforces buf lint rules and generates gRPC service stubs via protoc-gen-go and protoc-gen-grpc-web."
+github_stars: 11051
 verification: "security_reviewed"
 source: "https://github.com/bufbuild/buf"
 author: "Buf"
-category:
-  - "Library & API Reference"
-framework:
-  - "Codex"
+category: "Library & API Reference"
+framework: "Codex"
 tool_ecosystem:
   github_repo: "bufbuild/buf"
   github_stars: 11051
@@ -25,19 +25,21 @@ Buf CLI, Protobuf
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew install bufbuild/buf/buf
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Docker](https://img.shields.io/docker/pulls/bufbuild/buf)](https://hub.docker.com/r/bufbuild/buf)
+- Other supported installation methods include [npm], [Windows], [Docker], [binary downloads], [tarballs], [source builds], and [minisign verification][verifying]. See the [installation docs][install] for the full list.
+- [docker]: https://buf.build/docs/cli/installation/#docker
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- sh
+- Initialize a workspace and run the checks you should expect every Protobuf repository to pass:
+- buf config init
 
-```
-brew install bufbuild/buf/buf
-```
+- Source: https://github.com/bufbuild/buf
+- Extracted from upstream docs: https://raw.githubusercontent.com/bufbuild/buf/HEAD/README.md
 
 ## Documentation
 

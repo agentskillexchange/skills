@@ -1,14 +1,14 @@
 ---
-title: "Gate Rust dependency trees on license, advisory, and source-policy violations before merge with cargo-deny"
+name: "Gate Rust dependency trees on license, advisory, and source-policy violations before merge with cargo-deny"
+slug: "gate-rust-dependency-trees-on-license-advisory-and-source-policy-violations-before-merge-with-cargo-deny"
 description: "Use cargo-deny when an agent needs to enforce Rust dependency policy before merge by checking advisories, licenses, bans, and source rules in one repeatable gate instead of doing ad hoc manifest review."
+github_stars: 2263
 verification: "security_reviewed"
 source: "https://github.com/EmbarkStudios/cargo-deny"
 author: "Embark Studios"
 publisher_type: "company"
-category:
-  - "Security & Verification"
-framework:
-  - "Multi-Framework"
+category: "Security & Verification"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "EmbarkStudios/cargo-deny"
   github_stars: 2263
@@ -26,19 +26,19 @@ Rust toolchain, Cargo project, cargo-deny configuration file, and CI or local sh
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- cargo install --locked cargo-deny && cargo deny init && cargo deny check
+- If you want to use cargo-deny without having cargo installed, build cargo-deny with the standalone feature. This can be useful in Docker Images.
+- cargo install --locked cargo-deny
+- cargo deny init
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- To run on CI as a GitHub Action, see [cargo-deny-action](https://github.com/EmbarkStudios/cargo-deny-action).
+- <a href="https://repology.org/project/cargo-deny/versions"><img align="right" src="https://repology.org/badge/vertical-allrepos/cargo-deny.svg" alt="Packaging status"></a>
+- ### [Install](https://embarkstudios.github.io/cargo-deny/cli/index.html) cargo-deny
 
-Install command or upstream instructions:
-
-```
-Install cargo-deny with the Rust toolchain using the method documented by the project, add a deny.toml policy file to the repository, then run cargo deny check locally or in CI and act on the reported policy violations before merging.
-```
+- Source: https://github.com/EmbarkStudios/cargo-deny
+- Extracted from upstream docs: https://raw.githubusercontent.com/EmbarkStudios/cargo-deny/HEAD/README.md
 
 ## Documentation
 

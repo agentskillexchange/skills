@@ -1,13 +1,13 @@
 ---
-title: "Satori HTML and CSS to SVG Image Generator by Vercel"
+name: "Satori HTML and CSS to SVG Image Generator by Vercel"
+slug: "satori-html-css-svg-image-generator"
 description: "Satori is a high-performance library by Vercel that converts HTML and CSS markup into SVG images. It powers Open Graph image generation for dynamic social cards, blog previews, and branded assets using a JSX-like API with full Flexbox layout support and custom font rendering."
+github_stars: 13234
 verification: "security_reviewed"
 source: "https://github.com/vercel/satori"
 author: "vercel"
-category:
-  - "Image & Creative Automation"
-framework:
-  - "Multi-Framework"
+category: "Image & Creative Automation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "vercel/satori"
   github_stars: 13234
@@ -21,13 +21,18 @@ Satori is a high-performance library by Vercel that converts HTML and CSS markup
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- // Use fs (Node.js only) or fetch to read the font as Buffer/ArrayBuffer and provide data here.
+- Satori currently supports three font formats: TTF, OTF and WOFF. Note that WOFF2 is not supported at the moment. You must specify the font if any text is rendered with Satori, and pass the font data as ArrayBuffer (we...
+- Satori can be directly used in browser, Node.js (>= 16), and Web Workers. It bundles its underlying WASM dependencies as base64-encoded strings and loads them at runtime.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Satori supports the JSX syntax, which makes it very straightforward to use. Here’s an overview of the basic usage:
+- For example, the <input> HTML element, the cursor CSS property are not in consideration. And you can't use <style> tags or external resources via <link> or <script>.
+- <th>Example</th>
+
+- Source: https://github.com/vercel/satori
+- Extracted from upstream docs: https://raw.githubusercontent.com/vercel/satori/HEAD/README.md
 
 ## Documentation
 

@@ -1,13 +1,13 @@
 ---
-title: "Puppeteer Browser Automation Library"
+name: "Puppeteer Browser Automation Library"
+slug: "puppeteer-browser-automation-library"
 description: "A practical guide to Puppeteer for browser automation, scraping, and testing. It tracks the official install flow, the Chrome/Firefox control API, and the docs you need to get started quickly."
+github_stars: 94115
 verification: "security_reviewed"
 source: "https://github.com/puppeteer/puppeteer"
 author: "puppeteer"
-category:
-  - "Browser Automation"
-framework:
-  - "Multi-Framework"
+category: "Browser Automation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "puppeteer/puppeteer"
   github_stars: 94115
@@ -21,13 +21,17 @@ A practical guide to Puppeteer for browser automation, scraping, and testing. It
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm i puppeteer # Downloads compatible Chrome during installation.
+- npm i puppeteer-core # Alternatively, install as a library, without downloading Chrome.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- bash npm2yarn
+- ## MCP
+- a Puppeteer-based MCP server for browser automation and debugging.
+
+- Source: https://github.com/puppeteer/puppeteer
+- Extracted from upstream docs: https://raw.githubusercontent.com/puppeteer/puppeteer/HEAD/README.md
 
 ## Documentation
 

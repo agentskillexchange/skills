@@ -1,14 +1,14 @@
 ---
-title: "Run evidence-backed agentic SEO audits with Agentic SEO Skill"
+name: "Run evidence-backed agentic SEO audits with Agentic SEO Skill"
+slug: "run-evidence-backed-agentic-seo-audits-with-agentic-seo-skill"
 description: "Install a multi-runtime SEO skill pack that collects crawl, schema, performance, sitemap, robots, and content evidence before producing audit reports and action plans."
+github_stars: 588
 verification: "security_reviewed"
 source: "https://github.com/Bhanunamikaze/Agentic-SEO-Skill"
 author: "Bhanunamikaze"
 publisher_type: "individual"
-category:
-  - "Content Writing & SEO"
-framework:
-  - "Multi-Framework"
+category: "Content Writing & SEO"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "Bhanunamikaze/Agentic-SEO-Skill"
   github_stars: 588
@@ -24,19 +24,18 @@ One supported agent IDE or coding assistant such as Codex, Claude Code, Cursor, 
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Scripts in scripts/: 89 (88 Python + 1 shell validation helper)
+- # python3 scripts/gsc_checker.py "$URL" --credentials creds.json --json # requires GSC credentials
+- # python3 scripts/indexnow_checker.py "$URL" --key YOUR_KEY --json # requires IndexNow key
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- For detailed installation guidance, example prompts, report generation, troubleshooting, and the full script inventory, see the **[Agentic SEO Skill Wiki](https://github.com/Bhanunamikaze/Agentic-SEO-Skill/wiki)**.
+- ## 💬 Example Prompts (hackingdream.net)
+- For expanded copy-paste prompt templates across full audits, technical SEO, schema, content, GEO/AEO, local SEO, ecommerce, and GitHub SEO, see the [Example Prompts wiki](https://github.com/Bhanunamikaze/Agentic-SEO-S...
 
-Install command or upstream instructions:
-
-```
-Follow the upstream installer or wiki instructions for the target runtime so the skill is placed in the native location, then run the validation helpers and invoke the SEO audit, page, technical, schema, sitemap, image, GEO, AEO, or GitHub SEO workflows as needed.
-```
+- Source: https://github.com/Bhanunamikaze/Agentic-SEO-Skill
+- Extracted from upstream docs: https://raw.githubusercontent.com/Bhanunamikaze/Agentic-SEO-Skill/HEAD/README.md
 
 ## Documentation
 

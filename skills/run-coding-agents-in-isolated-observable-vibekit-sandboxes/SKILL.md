@@ -1,14 +1,14 @@
 ---
-title: "Run coding agents in isolated observable VibeKit sandboxes"
+name: "Run coding agents in isolated observable VibeKit sandboxes"
+slug: "run-coding-agents-in-isolated-observable-vibekit-sandboxes"
 description: "Launch coding agents such as Claude Code, Gemini, or Codex in clean sandboxed sessions with redaction and run observability."
+github_stars: 1775
 verification: "security_reviewed"
 source: "https://github.com/superagent-ai/vibekit"
 author: "superagent-ai"
 publisher_type: "open_source"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "superagent-ai/vibekit"
   github_stars: 1775
@@ -24,19 +24,21 @@ VibeKit; supported coding agent credentials/tools; sandbox runtime
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install -g vibekit
+- npm install @vibe-kit/sdk
+- npm install @vibe-kit/auth
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- 🐳 **Local sandbox** - Runs agent output in isolated Docker containers — zero risk to your local setup
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Run Claude Code, Gemini, Codex — or any coding agent — in a clean, isolated sandbox with sensitive data redaction and observability baked in.
+- ## 🚀 Quick Start
+- bash
 
-```
-Follow the repository setup, configure credentials for the selected coding agent and sandbox provider, enable the documented redaction/observability options, then start a bounded coding-agent session.
-```
+- Source: https://github.com/superagent-ai/vibekit
+- Extracted from upstream docs: https://raw.githubusercontent.com/superagent-ai/vibekit/HEAD/README.md
 
 ## Documentation
 

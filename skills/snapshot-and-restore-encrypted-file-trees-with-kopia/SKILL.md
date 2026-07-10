@@ -1,14 +1,14 @@
 ---
-title: "Snapshot and restore encrypted file trees with Kopia"
+name: "Snapshot and restore encrypted file trees with Kopia"
+slug: "snapshot-and-restore-encrypted-file-trees-with-kopia"
 description: "Use Kopia when an agent needs to create, verify, or restore encrypted incremental snapshots across local, NAS, SFTP, WebDAV, or cloud storage targets."
+github_stars: 13110
 verification: "security_reviewed"
 source: "https://github.com/kopia/kopia"
 author: "Kopia"
 publisher_type: "open_source_project"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "kopia/kopia"
   github_stars: 13110
@@ -24,19 +24,16 @@ Kopia CLI, configured local or remote storage target
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- [![Docker Pulls](https://img.shields.io/docker/pulls/kopia/kopia)](https://hub.docker.com/r/kopia/kopia/tags?page=1&ordering=name)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- When ready, head to the [installation](https://kopia.io/docs/installation/) page to download and install Kopia, and make sure to read the [Getting Started Guide](https://kopia.io/docs/getting-started/) for a step-by-s...
+- Kopia is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for the full license text.
+- Building Kopia
 
-Install command or upstream instructions:
-
-```
-Install Kopia from https://kopia.io/docs/installation/, then use kopia repository connect or kopia repository create before snapshot create, snapshot list, and snapshot restore operations.
-```
+- Source: https://github.com/kopia/kopia
+- Extracted from upstream docs: https://raw.githubusercontent.com/kopia/kopia/HEAD/README.md
 
 ## Documentation
 

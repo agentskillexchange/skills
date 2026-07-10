@@ -1,14 +1,14 @@
 ---
-title: "Build production agent harnesses with Strands Agents"
+name: "Build production agent harnesses with Strands Agents"
+slug: "build-production-agent-harnesses-with-strands-agents"
 description: "Use Strands Agents to assemble model-agnostic Python or TypeScript agent harnesses with tools, MCP, guardrails, tracing, streaming, and provider swaps."
+github_stars: 6417
 verification: "security_reviewed"
 source: "https://github.com/strands-agents/harness-sdk"
 author: "Strands Agents"
 publisher_type: "organization"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "strands-agents/harness-sdk"
   github_stars: 6417
@@ -26,19 +26,24 @@ Python 3.10+ or Node.js/TypeScript, model provider credentials, optional MCP-com
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install strands-agents strands-agents-tools
+- npm install @strands-agents/sdk
+- pip install hatch
+- npm ci # install from repo root
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <a href="https://python.org"><img alt="Python versions" src="https://img.shields.io/pypi/pyversions/strands-agents"/></a>
+- This monorepo contains the Python SDK, TypeScript SDK, documentation site, and supporting packages:
+- | strands-py/ | Python SDK: agent loop, model providers, tools ([PyPI](https://pypi.org/project/strands-agents/) · [releases](https://github.com/strands-agents/harness-sdk/releases?q=python%2F&expanded=false)) |
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- **Deliver outcomes that work.** Guardrails catch mistakes before they run. Steering handlers let agents correct themselves instead of failing silently.
+- Both SDKs default to the Amazon Bedrock model provider, so you'll need AWS credentials configured and model access enabled for Claude Sonnet. The [Quickstart Guide](https://strandsagents.com/docs/user-guide/quickstart...
+- from strands import Agent
 
-```
-For Python, install with pip install strands-agents strands-agents-tools. For TypeScript, install the upstream @strands-agents/sdk package, configure a supported model provider, attach tools or MCP servers, then run a small agent task and inspect traces before production use.
-```
+- Source: https://github.com/strands-agents/harness-sdk
+- Extracted from upstream docs: https://raw.githubusercontent.com/strands-agents/harness-sdk/HEAD/README.md
 
 ## Documentation
 

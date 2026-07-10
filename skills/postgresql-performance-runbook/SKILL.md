@@ -1,12 +1,12 @@
 ---
-title: "PostgreSQL Performance Runbook"
+name: "PostgreSQL Performance Runbook"
+slug: "postgresql-performance-runbook"
 description: "Executes diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat_activity, and pg_locks system views. Identifies slow queries, lock contention, bloated tables via pgstattuple, and generates EXPLAIN ANALYZE reports with buffer statistics."
+github_stars: 13127
 verification: "security_reviewed"
 source: "https://github.com/brianc/node-postgres"
-category:
-  - "Runbooks & Diagnostics"
-framework:
-  - "Codex"
+category: "Runbooks & Diagnostics"
+framework: "Codex"
 tool_ecosystem:
   github_repo: "brianc/node-postgres"
   github_stars: 13127
@@ -20,13 +20,23 @@ Executes diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install pg
+- From your workspace root run yarn and then yarn lerna bootstrap
+- Run yarn test to run all the tests.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- # node-postgres
+- ![Build Status](https://github.com/brianc/node-postgres/actions/workflows/ci.yml/badge.svg)
+- Non-blocking PostgreSQL client for Node.js. Pure JavaScript and optional native libpq bindings.
+
+Basic usage or getting-started notes:
+- ## Documentation
+- Each package in this repo should have its own readme more focused on how to develop/contribute. For overall documentation on the project and the related modules managed by this repo please see:
+- ### Features
+
+- Source: https://github.com/brianc/node-postgres
+- Extracted from upstream docs: https://raw.githubusercontent.com/brianc/node-postgres/HEAD/README.md
 
 ## Source
 

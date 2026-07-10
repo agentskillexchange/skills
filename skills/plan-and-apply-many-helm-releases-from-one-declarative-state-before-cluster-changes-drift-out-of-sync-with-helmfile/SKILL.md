@@ -1,14 +1,14 @@
 ---
-title: "Plan and apply many Helm releases from one declarative state before cluster changes drift out of sync with Helmfile"
+name: "Plan and apply many Helm releases from one declarative state before cluster changes drift out of sync with Helmfile"
+slug: "plan-and-apply-many-helm-releases-from-one-declarative-state-before-cluster-changes-drift-out-of-sync-with-helmfile"
 description: "Keep multi-chart Kubernetes environments coherent by diffing and syncing all declared Helm releases from one state file."
+github_stars: 5058
 verification: "security_reviewed"
 source: "https://github.com/helmfile/helmfile"
 author: "helmfile"
 publisher_type: "organization"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Multi-Framework"
+category: "CI/CD Integrations"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "helmfile/helmfile"
   github_stars: 5058
@@ -24,19 +24,21 @@ Helmfile binary, Helm CLI, access to the target Kubernetes clusters, chart repos
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Make sure to run helmfile init once after installation. Helmfile uses the [helm-diff](https://github.com/databus23/helm-diff) plugin.
+- go install github.com/helmfile/helmfile@latest
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Container Image Repository on GHCR](https://ghcr-badge.egpl.dev/helmfile/helmfile/latest_tag?trim=major&label=latest "Docker Repository on ghcr")](https://github.com/helmfile/helmfile/pkgs/container/helmfile)
+- openSUSE: install via zypper in helmfile assuming you are on Tumbleweed; if you are on Leap you must add the [kubic](https://download.opensuse.org/repositories/devel:/kubic/) repo for your distribution version once be...
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- **1: Binary Installation**
+- download one of [releases](https://github.com/helmfile/helmfile/releases)
+- **2: Package Manager**
 
-```
-Install Helmfile from the upstream release or package instructions, define the desired releases and environments in a helmfile.yaml configuration, then run the documented diff or sync commands against the target cluster contexts.
-```
+- Source: https://github.com/helmfile/helmfile
+- Extracted from upstream docs: https://raw.githubusercontent.com/helmfile/helmfile/HEAD/README.md
 
 ## Documentation
 

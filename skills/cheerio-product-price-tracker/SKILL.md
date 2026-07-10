@@ -1,12 +1,12 @@
 ---
-title: "Cheerio Product Price Tracker"
+name: "Cheerio Product Price Tracker"
+slug: "cheerio-product-price-tracker"
 description: "Monitors e-commerce product prices using Cheerio.js for server-side DOM parsing with got-scraping for stealth HTTP requests. Tracks price history in SQLite and triggers alerts via nodemailer when prices drop below thresholds."
+github_stars: 30270
 verification: "listed"
 source: "https://github.com/cheeriojs/cheerio"
-category:
-  - "Research & Scraping"
-framework:
-  - "Claude Agents"
+category: "Research & Scraping"
+framework: "Claude Agents"
 tool_ecosystem:
   github_repo: "cheeriojs/cheerio"
   github_stars: 30270
@@ -20,13 +20,9 @@ Monitors e-commerce product prices using Cheerio.js for server-side DOM parsing 
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/cheeriojs/cheerio
 
 ## Source
 

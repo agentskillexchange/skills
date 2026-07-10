@@ -1,14 +1,14 @@
 ---
-title: "Search and analyze Zotero research libraries through MCP"
+name: "Search and analyze Zotero research libraries through MCP"
+slug: "search-and-analyze-zotero-research-libraries-through-mcp"
 description: "Use Zotero MCP to let research agents search papers, retrieve metadata, inspect annotations, and analyze citation context from a Zotero library."
+github_stars: 3353
 verification: "listed"
 source: "https://github.com/54yyyu/zotero-mcp"
 author: "54yyyu"
 publisher_type: "open_source_project"
-category:
-  - "Research & Scraping"
-framework:
-  - "MCP"
+category: "Research & Scraping"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "54yyyu/zotero-mcp"
   github_stars: 3353
@@ -24,19 +24,9 @@ Zotero, Zotero local API or web API credentials, Python package tooling such as 
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Install the base server with uv tool install zotero-mcp-server, pip install zotero-mcp-server, or pipx install zotero-mcp-server, then run zotero-mcp setup to configure supported MCP clients. Add optional extras such as zotero-mcp-server[semantic], zotero-mcp-server[pdf], zotero-mcp-server[scite], or zotero-mcp-server[all] when semantic search, PDF extraction, or citation intelligence is needed.
-```
+- Source: https://github.com/54yyyu/zotero-mcp
 
 ## Documentation
 

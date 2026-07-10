@@ -1,14 +1,14 @@
 ---
-title: "Apply structural codemods across large codebases with Comby"
+name: "Apply structural codemods across large codebases with Comby"
+slug: "apply-structural-codemods-across-large-codebases-with-comby"
 description: "Rewrite recurring code patterns with syntax-aware matching so agents can run migration codemods more safely than plain regex search and replace."
+github_stars: 2626
 verification: "security_reviewed"
 source: "https://github.com/comby-tools/comby"
 author: "comby-tools"
 publisher_type: "organization"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "comby-tools/comby"
   github_stars: 2626
@@ -24,19 +24,24 @@ Comby CLI
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- docker run -a stdin -a stdout -a stderr -i comby/comby '(:[emoji] hi)' 'bye :[emoji]' lisp -stdin <<< '(👋 hi)'
+- git clone https://github.com/comby-tools/comby
+- make
+- make test
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- ### Docker
+- docker pull comby/comby
+- <summary>click to expand an example invocation for the docker image</summary>
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- ### See the [usage documentation](https://comby.dev).
+- [A short example below](https://github.com/comby-tools/comby#isnt-a-regex-approach-like-sed-good-enough) shows how comby simplifies matching and rewriting compared to regex approaches like sed.
+- ### Mac OS X
 
-```
-Install Comby from the release binaries or package manager for your platform, then run a match and rewrite pair such as `comby 'old(:[x])' 'new(:[x])' -matcher .python -i`.
-```
+- Source: https://github.com/comby-tools/comby
+- Extracted from upstream docs: https://raw.githubusercontent.com/comby-tools/comby/HEAD/README.md
 
 ## Documentation
 

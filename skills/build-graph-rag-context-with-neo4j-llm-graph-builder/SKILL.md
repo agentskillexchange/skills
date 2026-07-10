@@ -1,14 +1,14 @@
 ---
-title: "Build graph RAG context with Neo4j LLM Graph Builder"
+name: "Build graph RAG context with Neo4j LLM Graph Builder"
+slug: "build-graph-rag-context-with-neo4j-llm-graph-builder"
 description: "Convert a bounded document set into a Neo4j knowledge graph, inspect extracted nodes and relationships, and use it for graph-backed RAG."
+github_stars: 4733
 verification: "security_reviewed"
 source: "https://github.com/neo4j-labs/llm-graph-builder"
 author: "Neo4j Labs"
 publisher_type: "open-source organization"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Multi-Framework"
+category: "Data Extraction & Transformation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "neo4j-labs/llm-graph-builder"
   github_stars: 4733
@@ -24,19 +24,21 @@ Neo4j Database 5.23 or later with APOC, Python 3.12 backend, configured LLM prov
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install -r requirements.txt -c constraints.txt
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- ![Python](https://img.shields.io/badge/Python-yellow)
+- **Python 3.12 or higher** (for local/separate backend deployment)
+- If using **Neo4j Desktop**, you will need to deploy the backend and frontend separately (docker-compose is not supported).
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Neo4j Database **5.23 or later** with APOC installed.
+- **Neo4j Aura** databases (including the free tier) are supported.
+- Create a .env file in the backend folder by copying backend/example.env.
 
-```
-Create backend/.env from backend/example.env and set NEO4J_URI, NEO4J_USERNAME, NEO4J_PASSWORD, and NEO4J_DATABASE. From backend, create a Python 3.12 virtual environment, install requirements with pip install -r requirements.txt -c constraints.txt, then run uvicorn score:app --reload. Follow the README for front-end and Docker-specific deployment paths.
-```
+- Source: https://github.com/neo4j-labs/llm-graph-builder
+- Extracted from upstream docs: https://raw.githubusercontent.com/neo4j-labs/llm-graph-builder/HEAD/README.md
 
 ## Documentation
 

@@ -1,14 +1,13 @@
 ---
-title: "Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf"
+name: "Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf"
+slug: "resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf"
 description: "Use Mergiraf to let an agent attempt tree-aware conflict resolution during merge, rebase, revert, or cherry-pick before falling back to manual edits."
 verification: "security_reviewed"
 source: "https://codeberg.org/mergiraf/mergiraf"
 author: "Mergiraf maintainers"
 publisher_type: "open_source_project"
-category:
-  - "Code Quality & Review"
-framework:
-  - "Multi-Framework"
+category: "Code Quality & Review"
+framework: "Multi-Framework"
 ---
 
 # Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf
@@ -21,19 +20,19 @@ Mergiraf, Git
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Cargo.lock
+- Cargo.toml
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- This website requires JavaScript.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- chore(helpers/run.sh): clean-up ( #714 )
+- .envrc.example
+- feat: convert the committed .envrc to an example, with contribution instructions ( #711 )
 
-```
-Follow the installation page at mergiraf.org, then configure Git to use Mergiraf as the merge driver or invoke it manually after a conflict appears.
-```
+- Source: https://codeberg.org/mergiraf/mergiraf
 
 ## Documentation
 

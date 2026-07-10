@@ -1,12 +1,12 @@
 ---
-title: "libvips High-Performance Image Processing Library and CLI"
+name: "libvips High-Performance Image Processing Library and CLI"
+slug: "libvips-high-performance-image-processing-library-cli"
 description: "libvips is a demand-driven, horizontally threaded image processing library with over 300 operations. It processes images faster and with less memory than alternatives like ImageMagick, supports 20+ formats, and powers Sharp, Mastodon, imgproxy, and Ruby on Rails."
+github_stars: 11197
 verification: "security_reviewed"
 source: "https://github.com/libvips/libvips"
-category:
-  - "Image & Creative Automation"
-framework:
-  - "Multi-Framework"
+category: "Image & Creative Automation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "libvips/libvips"
   github_stars: 11197
@@ -18,13 +18,18 @@ libvips is a demand-driven, horizontally threaded image processing library with 
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- | Python | [pyvips](https://pypi.python.org/pypi/pyvips) |
+- | [sharp (on Node.js)](https://www.npmjs.org/package/sharp) |
+- libvips must have build-essential, pkg-config, libglib2.0-dev,
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- There are packages for most Unix-like operating systems, including
+- macOS. Check your package manager.
+- There are binaries for Windows in
+
+- Source: https://github.com/libvips/libvips
+- Extracted from upstream docs: https://raw.githubusercontent.com/libvips/libvips/HEAD/README.md
 
 ## Source
 

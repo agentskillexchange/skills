@@ -1,12 +1,12 @@
 ---
-title: "Casdoor Open Source Identity and Access Management Platform"
+name: "Casdoor Open Source Identity and Access Management Platform"
+slug: "casdoor-open-source-iam-auth-platform"
 description: "Casdoor is an open source AI-first Identity and Access Management (IAM) platform and auth server supporting OAuth 2.1, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, and MCP gateway integration with a web-based admin UI."
+github_stars: 13316
 verification: "security_reviewed"
 source: "https://github.com/casdoor/casdoor"
-category:
-  - "Security & Verification"
-framework:
-  - "Multi-Framework"
+category: "Security & Verification"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "casdoor/casdoor"
   github_stars: 13316
@@ -18,13 +18,23 @@ Casdoor is an open source AI-first Identity and Access Management (IAM) platform
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/casdoor/casdoor.git
+- yarn install
+- yarn build
+- docker run -p 8000:8000 casbin/casdoor-all-in-one
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <a href="https://hub.docker.com/r/casbin/casdoor">
+- <img src="https://img.shields.io/docker/pulls/casbin/casdoor?style=flat-square&color=brightgreen" alt="Docker Pulls">
+- Install dependencies: **Go 1.25** (follow go.mod), **Node.js LTS (20)**, **Yarn 1.x**, and a supported database.
+
+Basic usage or getting-started notes:
+- ## 🚀 Quick start
+- go run main.go
+
+- Source: https://github.com/casdoor/casdoor
+- Extracted from upstream docs: https://raw.githubusercontent.com/casdoor/casdoor/HEAD/README.md
 
 ## Source
 

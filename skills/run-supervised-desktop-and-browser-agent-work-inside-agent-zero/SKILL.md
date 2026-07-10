@@ -1,14 +1,14 @@
 ---
-title: "Run supervised desktop and browser agent work inside Agent Zero"
+name: "Run supervised desktop and browser agent work inside Agent Zero"
+slug: "run-supervised-desktop-and-browser-agent-work-inside-agent-zero"
 description: "Use Agent Zero to give an agent an isolated Linux desktop, browser, plugins, skills, and host connector for supervised file, web, and GUI workflows."
+github_stars: 17805
 verification: "security_reviewed"
 source: "https://github.com/agent0ai/agent-zero"
 author: "Agent Zero"
 publisher_type: "organization"
-category:
-  - "Templates & Workflows"
-framework:
-  - "Custom Agents"
+category: "Templates & Workflows"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "agent0ai/agent-zero"
   github_stars: 17805
@@ -24,19 +24,21 @@ Docker or the Agent Zero installer, Agent Zero Web UI, configured LLM provider, 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- docker run -p 80:80 -v a0_usr:/a0/usr agent0ai/agent-zero
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Agent Zero is an open, dynamic, organic agentic framework. One Docker container ships a full Linux system with a desktop and a plugin hub that the agent can extend using Skills.
+- ### Docker already installed? Run this directly
+- The Docker browser is the default live Browser surface. Browser history keeps screenshots of important steps, so older chats can still show what the agent saw. The Browser also supports Chrome extensions inside the Do...
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- <img alt="Agent Zero driving Blender in its built-in XFCE desktop" src="docs/res/usage/webui/agentzero-xfce-computer.gif" />
+- That means the agent can drive *real desktop software*: open Blender to model a 3D object, jump into a terminal window, manage files visually, run a GUI tool that has no API.
+- <img alt="Annotating a webpage element in the Agent Zero browser" src="docs/res/usage/browser/annotation.gif" />
 
-```
-Install with the official Agent Zero installer for macOS, Linux, or Windows PowerShell, or run the published agent0ai/agent-zero Docker image. Open the Web UI, configure the model provider and tools, then run tasks while supervising browser, desktop, terminal, file, and plugin actions.
-```
+- Source: https://github.com/agent0ai/agent-zero
+- Extracted from upstream docs: https://raw.githubusercontent.com/agent0ai/agent-zero/HEAD/README.md
 
 ## Documentation
 

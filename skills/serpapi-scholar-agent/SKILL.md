@@ -1,13 +1,12 @@
 ---
-title: "SerpAPI Scholar Agent"
+name: "SerpAPI Scholar Agent"
+slug: "serpapi-scholar-agent"
 description: "Automates academic research using the SerpAPI Google Scholar endpoint. Extracts citation graphs, h-index data, and co-author networks for literature reviews. Supports BibTeX export and cross-references with Semantic Scholar API."
 verification: "security_reviewed"
 source: "https://serpapi.com/google-scholar-api"
 author: "SerpApi"
-category:
-  - "Research & Scraping"
-framework:
-  - "Claude Code"
+category: "Research & Scraping"
+framework: "Claude Code"
 ---
 
 # SerpAPI Scholar Agent
@@ -16,13 +15,12 @@ Automates academic research using the SerpAPI Google Scholar endpoint. Extracts 
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- Advanced Google Scholar Parameters
+- cites
+- Optional
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://serpapi.com/google-scholar-api
 
 ## Documentation
 

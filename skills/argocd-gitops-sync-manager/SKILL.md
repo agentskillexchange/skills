@@ -1,12 +1,12 @@
 ---
-title: "ArgoCD GitOps Sync Manager"
+name: "ArgoCD GitOps Sync Manager"
+slug: "argocd-gitops-sync-manager"
 description: "Manages ArgoCD application sync operations with intelligent drift detection and rollback strategies. Uses the ArgoCD gRPC API and ApplicationSet CRD for multi-cluster GitOps deployments."
+github_stars: 22593
 verification: "security_reviewed"
 source: "https://github.com/argoproj/argo-cd"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Gemini"
+category: "CI/CD Integrations"
+framework: "Gemini"
 tool_ecosystem:
   github_repo: "argoproj/argo-cd"
   github_stars: 22593
@@ -18,13 +18,12 @@ Manages ArgoCD application sync operations with intelligent drift detection and 
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- [Couchbase - How To Run a Database Cluster in Kubernetes Using Argo CD](https://youtu.be/nkPoPaVzExY)
+- [Getting Started with ArgoCD for GitOps Deployments](https://youtu.be/AvLuplh1skA)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/argoproj/argo-cd
+- Extracted from upstream docs: https://raw.githubusercontent.com/argoproj/argo-cd/HEAD/README.md
 
 ## Source
 

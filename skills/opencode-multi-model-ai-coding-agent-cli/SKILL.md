@@ -1,12 +1,12 @@
 ---
-title: "OpenCode Multi-Model AI Coding Agent CLI"
+name: "OpenCode Multi-Model AI Coding Agent CLI"
+slug: "opencode-multi-model-ai-coding-agent-cli"
 description: "An open-source terminal-native AI coding agent written in Go that supports 75+ LLMs including Claude, GPT, Gemini, and local models. Provides file editing, code generation, shell command execution, and project understanding without subscription fees."
+github_stars: 11729
 verification: "security_reviewed"
 source: "https://github.com/opencode-ai/opencode"
-category:
-  - "Developer Tools"
-framework:
-  - "Custom Agents"
+category: "Developer Tools"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "opencode-ai/opencode"
   github_stars: 11729
@@ -18,13 +18,18 @@ An open-source terminal-native AI coding agent written in Go that supports 75+ L
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew install opencode-ai/tap/opencode
+- go install github.com/opencode-ai/opencode@latest
+- git clone https://github.com/opencode-ai/opencode.git
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- ### Using the Install Script
+- bash
+- curl -fsSL https://raw.githubusercontent.com/opencode-ai/opencode/refs/heads/main/install | VERSION=0.1.0 bash
+
+- Source: https://github.com/opencode-ai/opencode
+- Extracted from upstream docs: https://raw.githubusercontent.com/opencode-ai/opencode/HEAD/README.md
 
 ## Source
 

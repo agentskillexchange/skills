@@ -1,14 +1,14 @@
 ---
-title: "Nango Integration Platform SDK"
+name: "Nango Integration Platform SDK"
+slug: "nango-integration-platform-sdk"
 description: "Nango is an integration platform for connecting products and agents to hundreds of APIs with managed auth, proxying, and function execution. This skill covers how to use the real Nango project for OAuth-backed integrations, API tool calling, and production sync workflows."
+github_stars: 7092
 verification: "security_reviewed"
 source: "https://github.com/NangoHQ/nango"
 author: "NangoHQ"
 publisher_type: "Company"
-category:
-  - "Integrations & Connectors"
-framework:
-  - "Multi-Framework"
+category: "Integrations & Connectors"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "NangoHQ/nango"
   github_stars: 7092
@@ -26,19 +26,20 @@ Node.js, TypeScript
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Make authenticated API requests on behalf of your users. Send requests through Nango's proxy: it resolves the provider, injects credentials, handles retries and rate limits, and returns the response.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![NPM Downloads](https://img.shields.io/npm/dm/@nangohq/node)](https://www.npmjs.com/package/@nangohq/node)
+- import { Nango } from '@nangohq/node';
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Connect your product & AI agents with 700+ APIs. Build, run, and maintain integrations with AI in code, on infrastructure built for scale.
+- export default async function run(nango: Nango) {
+- Get up and running in under 5 minutes:
 
-```
-npm install @nangohq/node
-```
+- Source: https://github.com/NangoHQ/nango
+- Extracted from upstream docs: https://raw.githubusercontent.com/NangoHQ/nango/HEAD/README.md
 
 ## Documentation
 

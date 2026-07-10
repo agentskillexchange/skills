@@ -1,14 +1,14 @@
 ---
-title: "Synchronize AI coding rules across agent tools with Rulesync"
+name: "Synchronize AI coding rules across agent tools with Rulesync"
+slug: "synchronize-ai-coding-rules-across-agent-tools-with-rulesync"
 description: "Use Rulesync to maintain one set of AI coding rules and generate the right configuration files for Claude Code, Cursor, Gemini CLI, and other development agents."
+github_stars: 1217
 verification: "security_reviewed"
 source: "https://github.com/dyoshikawa/rulesync"
 author: "dyoshikawa"
 publisher_type: "individual"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "dyoshikawa/rulesync"
   github_stars: 1217
@@ -26,19 +26,21 @@ Node.js/npm or Homebrew, Rulesync CLI, target AI coding tools
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install -g rulesync
+- brew install rulesync
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- A Node.js CLI tool that automatically generates configuration files for various AI development tools from unified AI rule files. Features selective generation, comprehensive import/export capabilities, and supports ma...
+- The tables below show whether each tool supports a given feature (✅ = supported, blank = not supported). A ✅ means the feature is supported in at least one mode (project, global, or simulated) — for example, Codex CLI...
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- See [Installation docs](https://dyoshikawa.github.io/rulesync/getting-started/installation) for manual install and platform-specific instructions.
+- rulesync init
+- rulesync fetch dyoshikawa/rulesync --features skills
 
-```
-Install with `npm install -g rulesync` or `brew install rulesync`, run `rulesync init`, optionally fetch official skills with `rulesync fetch dyoshikawa/rulesync --features skills`, then generate target configs with `rulesync generate --targets "*" --features "*"`.
-```
+- Source: https://github.com/dyoshikawa/rulesync
+- Extracted from upstream docs: https://raw.githubusercontent.com/dyoshikawa/rulesync/HEAD/README.md
 
 ## Documentation
 

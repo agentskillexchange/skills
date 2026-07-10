@@ -1,14 +1,14 @@
 ---
-title: "Build local vector retrieval indexes with Faiss"
+name: "Build local vector retrieval indexes with Faiss"
+slug: "build-local-vector-retrieval-indexes-with-faiss"
 description: "Use Faiss to create and query local vector indexes for agent retrieval and RAG workflows before adding heavier managed vector infrastructure."
+github_stars: 40233
 verification: "security_reviewed"
 source: "https://github.com/facebookresearch/faiss"
 author: "Meta AI / Facebook Research"
 publisher_type: "open_source"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Multi-Framework"
+category: "Data Extraction & Transformation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "facebookresearch/faiss"
   github_stars: 40233
@@ -24,19 +24,16 @@ Faiss, embeddings, Python or native runtime bindings
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Some of the methods, like those based on binary vectors and compact quantization codes, solely use a compressed representation of the vectors and do not require to keep the original vectors. This generally comes at th...
+- Faiss comes with precompiled libraries for Anaconda in Python, see [faiss-cpu](https://anaconda.org/pytorch/faiss-cpu), [faiss-gpu](https://anaconda.org/pytorch/faiss-gpu) and [faiss-gpu-cuvs](https://anaconda.org/pyt...
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Faiss is a library for efficient similarity search and clustering of dense vectors. It contains algorithms that search in sets of vectors of any size, up to ones that possibly do not fit in RAM. It also contains suppo...
+- The GPU implementation can accept input from either CPU or GPU memory. On a server with GPUs, the GPU indexes can be used a drop-in replacement for the CPU indexes (e.g., replace IndexFlatL2 with GpuIndexFlatL2) and c...
 
-Install command or upstream instructions:
-
-```
-Install the appropriate Faiss package or build from source, prepare embedding vectors, create a Faiss index, add vectors with IDs, and query the index from the agent retrieval workflow.
-```
+- Source: https://github.com/facebookresearch/faiss
+- Extracted from upstream docs: https://raw.githubusercontent.com/facebookresearch/faiss/HEAD/README.md
 
 ## Documentation
 

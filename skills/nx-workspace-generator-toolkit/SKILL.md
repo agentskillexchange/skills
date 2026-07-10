@@ -1,13 +1,13 @@
 ---
-title: "Nx Workspace Generator Toolkit"
+name: "Nx Workspace Generator Toolkit"
+slug: "nx-workspace-generator-toolkit"
 description: "Creates and manages custom Nx workspace generators using @nrwl/devkit with TypeTree file generation and schema.json validation. Automates monorepo library and app scaffolding with dependency graph awareness."
+github_stars: 28566
 verification: "security_reviewed"
 source: "https://github.com/nrwl/nx"
 author: "Nx"
-category:
-  - "Templates & Workflows"
-framework:
-  - "Cursor"
+category: "Templates & Workflows"
+framework: "Cursor"
 tool_ecosystem:
   github_repo: "nrwl/nx"
   github_stars: 28566
@@ -25,19 +25,16 @@ Node.js
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- **Incremental by design -** Run npx nx init in any npm/pnpm/yarn workspace. Nx picks up your existing package.json scripts, caches their outputs, and runs only what's
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Visit the [Nx quickstart docs](https://nx.dev/docs/quickstart) to get started.
+- ## Why Nx?
+- affected. No changes to your setup required.
 
-Install command or upstream instructions:
-
-```
-npm install -D nx @nx/devkit
-```
+- Source: https://github.com/nrwl/nx
+- Extracted from upstream docs: https://raw.githubusercontent.com/nrwl/nx/HEAD/README.md
 
 ## Documentation
 

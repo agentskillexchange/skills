@@ -1,14 +1,14 @@
 ---
-title: "Gate MCP tool calls behind deterministic policy enforcement with Intercept"
+name: "Gate MCP tool calls behind deterministic policy enforcement with Intercept"
+slug: "gate-mcp-tool-calls-behind-deterministic-policy-enforcement-with-intercept"
 description: "Use Intercept when an MCP-connected agent needs transport-layer policy enforcement for risky tools, argument limits, spend caps, hidden tools, or rate limits before calls reach the upstream server."
+github_stars: 29
 verification: "listed"
 source: "https://github.com/PolicyLayer/Intercept"
 author: "PolicyLayer"
 publisher_type: "organization"
-category:
-  - "Security & Verification"
-framework:
-  - "MCP"
+category: "Security & Verification"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "PolicyLayer/Intercept"
   github_stars: 29
@@ -26,19 +26,9 @@ Node.js or Go runtime, MCP client, upstream MCP server, YAML policy file
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Install Intercept from npm, Go, or a release binary, write or generate a policy.yaml file, then point your MCP client at the Intercept proxy instead of the upstream server so tool calls flow through policy enforcement.
-```
+- Source: https://github.com/PolicyLayer/Intercept
 
 ## Documentation
 

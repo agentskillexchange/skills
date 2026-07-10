@@ -1,14 +1,14 @@
 ---
-title: "Validate JSON data and config files against schemas with ajv-cli"
+name: "Validate JSON data and config files against schemas with ajv-cli"
+slug: "validate-json-data-and-config-files-against-schemas-with-ajv-cli"
 description: "Run schema checks from the shell or CI so malformed JSON, JSON5, or YAML inputs fail before they reach downstream tooling."
+github_stars: 308
 verification: "security_reviewed"
 source: "https://github.com/ajv-validator/ajv-cli"
 author: "ajv-validator maintainers"
 publisher_type: "organization"
-category:
-  - "Library & API Reference"
-framework:
-  - "Multi-Framework"
+category: "Library & API Reference"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "ajv-validator/ajv-cli"
   github_stars: 308
@@ -26,19 +26,21 @@ Node.js, ajv-cli, one or more JSON Schema or JTD files, and target JSON, JSON5, 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install -g ajv-cli
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Multiple schemas can be passed both by using this parameter multiple times and with [glob patterns](https://github.com/isaacs/node-glob#glob-primer). Glob pattern should be quoted and extensions cannot be omitted.
+- These modules can be written in TypeScript if you have ts-node installed.
+- Multiple schemas can be passed both by using this parameter multiple times and with [glob patterns](https://github.com/isaacs/node-glob#glob-primer).
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- sh
+- ## JSON schema language and version
+- Parameter --spec can be used with all commands (other than help) to choose JSON schema language:
 
-```
-Install ajv-cli with npm or invoke it with npx, supply the schema and data paths with the documented validate, compile, migrate, or test commands, and use the exit code in scripts or CI gates.
-```
+- Source: https://github.com/ajv-validator/ajv-cli
+- Extracted from upstream docs: https://raw.githubusercontent.com/ajv-validator/ajv-cli/HEAD/README.md
 
 ## Documentation
 

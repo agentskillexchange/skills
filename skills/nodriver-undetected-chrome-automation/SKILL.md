@@ -1,13 +1,13 @@
 ---
-title: "Nodriver Async Undetected Chrome Browser Automation for Python"
+name: "Nodriver Async Undetected Chrome Browser Automation for Python"
+slug: "nodriver-undetected-chrome-automation"
 description: "Nodriver is the official successor to Undetected-Chromedriver, providing async browser automation that communicates directly with Chrome DevTools Protocol without Selenium or WebDriver dependencies. Built for stealth web automation that bypasses anti-bot systems including Cloudflare and Imperva."
+github_stars: 4005
 verification: "security_reviewed"
 source: "https://github.com/ultrafunkamsterdam/nodriver"
 author: "Leon"
-category:
-  - "Browser Automation"
-framework:
-  - "Custom Agents"
+category: "Browser Automation"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "ultrafunkamsterdam/nodriver"
   github_stars: 4005
@@ -19,13 +19,23 @@ Nodriver is the official successor to Undetected-Chromedriver, providing async b
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- #### you can use pip to install nodriver
+- pip install nodriver
+- pip install -U nodriver
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- ### nodriver provides next level async webscraping and browser automation library for python with an easy interface which Just Makes Sense ™
+- **This is the official successor of the** [Undetected-Chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver/) **python package.**
+- requires opencv-python package to be installed
+
+Basic usage or getting-started notes:
+- uses fresh profile on each run, cleans up on exit
+- Since this required quite some rewriting, please test thoroughly, especially if you run large projects.
+- for example when a certificate is invalid.
+
+- Source: https://github.com/ultrafunkamsterdam/nodriver
+- Extracted from upstream docs: https://raw.githubusercontent.com/ultrafunkamsterdam/nodriver/HEAD/README.md
 
 ## Source
 

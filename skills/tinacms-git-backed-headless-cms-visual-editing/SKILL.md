@@ -1,12 +1,12 @@
 ---
-title: "TinaCMS Git-Backed Headless CMS with Visual Editing"
+name: "TinaCMS Git-Backed Headless CMS with Visual Editing"
+slug: "tinacms-git-backed-headless-cms-visual-editing"
 description: "TinaCMS is a fully open-source headless CMS backed by Git that supports Markdown, MDX, JSON, and YAML content. It provides a GraphQL API for querying content, real-time visual editing for non-technical users, and seamless integration with static site generators and Next.js."
+github_stars: 13245
 verification: "security_reviewed"
 source: "https://github.com/tinacms/tinacms"
-category:
-  - "WordPress & CMS"
-framework:
-  - "Multi-Framework"
+category: "WordPress & CMS"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "tinacms/tinacms"
   github_stars: 13245
@@ -20,13 +20,16 @@ TinaCMS is a fully open-source headless CMS backed by Git that supports Markdown
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx create-tina-app@latest
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Test a TinaCMS starter site locally
+- Or try a [demo site](https://app.tina.io/quickstart) on TinaCloud.
+- ## Documentation
+
+- Source: https://github.com/tinacms/tinacms
+- Extracted from upstream docs: https://raw.githubusercontent.com/tinacms/tinacms/HEAD/README.md
 
 ## Source
 

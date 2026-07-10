@@ -1,12 +1,12 @@
 ---
-title: "dbt Cloud MCP"
-description: "dbt Cloud MCP is built around dbt transformation framework. The underlying ecosystem is represented by dbt-labs/dbt-core (12,457+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like manifest.json, catalog.json, dbt run/test/build, dbt Cloud API and preserving the operational context […]"
+name: "dbt Cloud MCP"
+slug: "dbt-cloud-mcp"
+description: ""
+github_stars: 12621
 verification: "security_reviewed"
 source: "https://github.com/dbt-labs/dbt-core"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "MCP"
+category: "Data Extraction & Transformation"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "dbt-labs/dbt-core"
   github_stars: 12621
@@ -14,17 +14,17 @@ tool_ecosystem:
 
 # dbt Cloud MCP
 
-dbt Cloud MCP is built around dbt transformation framework. The underlying ecosystem is represented by dbt-labs/dbt-core (12,457+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like manifest.json, catalog.json, dbt run/test/build, dbt Cloud API and preserving the operational context […]
+
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- [Install dbt Core](https://docs.getdbt.com/docs/get-started/installation) or explore the [dbt Cloud CLI](https://docs.getdbt.com/docs/cloud/cloud-cli-installation), a command-line interface powered by [dbt Cloud](http...
+- Read the [introduction](https://docs.getdbt.com/docs/introduction/) and [viewpoint](https://docs.getdbt.com/docs/about/viewpoint/)
+- ## Join the dbt Community
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/dbt-labs/dbt-core
+- Extracted from upstream docs: https://raw.githubusercontent.com/dbt-labs/dbt-core/HEAD/README.md
 
 ## Source
 

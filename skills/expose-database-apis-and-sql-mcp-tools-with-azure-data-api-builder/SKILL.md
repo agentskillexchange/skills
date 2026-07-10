@@ -1,14 +1,14 @@
 ---
-title: "Expose database APIs and SQL MCP tools with Azure Data API Builder"
+name: "Expose database APIs and SQL MCP tools with Azure Data API Builder"
+slug: "expose-database-apis-and-sql-mcp-tools-with-azure-data-api-builder"
 description: "Use Azure Data API Builder to generate secure REST, GraphQL, and SQL MCP access for supported databases so agents can query and operate data through bounded tools."
+github_stars: 1442
 verification: "security_reviewed"
 source: "https://github.com/Azure/data-api-builder"
 author: "Microsoft Azure"
 publisher_type: "organization"
-category:
-  - "Integrations & Connectors"
-framework:
-  - "MCP"
+category: "Integrations & Connectors"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "Azure/data-api-builder"
   github_stars: 1442
@@ -24,19 +24,17 @@ Use Azure Data API Builder to generate secure REST, GraphQL, and SQL MCP access 
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- The Data API builder (DAB) command line requires the .NET runtime version 8 or later.
+- Data API builder (DAB) requires a JSON configuration file. Use dab --help for syntax options.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Use the [Getting Started](https://learn.microsoft.com/azure/data-api-builder/get-started/get-started-with-data-api-builder) tutorial to quickly explore the core tools and concepts.
+- https://get.dot.net
+- [!NOTE]
 
-Install command or upstream instructions:
-
-```
-Install .NET 8 or later, run `dotnet tool install microsoft.dataapibuilder -g`, initialize a `dab-config.json` with `dab init`, add database entities and permissions, then run Data API Builder and connect an agent client to the documented SQL MCP server when MCP access is required.
-```
+- Source: https://github.com/Azure/data-api-builder
+- Extracted from upstream docs: https://raw.githubusercontent.com/Azure/data-api-builder/HEAD/README.md
 
 ## Documentation
 

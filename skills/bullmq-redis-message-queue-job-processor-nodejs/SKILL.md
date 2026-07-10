@@ -1,13 +1,13 @@
 ---
-title: "BullMQ Redis-Based Message Queue and Job Processor for Node.js"
+name: "BullMQ Redis-Based Message Queue and Job Processor for Node.js"
+slug: "bullmq-redis-message-queue-job-processor-nodejs"
 description: "BullMQ is the fastest, most reliable Redis-based distributed queue for Node.js, Python, Elixir, and PHP. It provides priority queues, rate limiting, delayed jobs, parent-child dependencies, repeatable jobs, and sandboxed workers for background processing at scale."
+github_stars: 8714
 verification: "security_reviewed"
 source: "https://github.com/taskforcesh/bullmq"
 author: "taskforcesh"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "taskforcesh/bullmq"
   github_stars: 8714
@@ -21,13 +21,20 @@ BullMQ is the fastest, most reliable Redis-based distributed queue for Node.js, 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ yarn add bullmq
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- The fastest, most reliable, Redis-based distributed queue for Node. <br/>
+- Do you need to work with BullMQ on platforms other than Node.js? If so, check out the [BullMQ Proxy](https://github.com/taskforcesh/bullmq-proxy)
+
+Basic usage or getting-started notes:
+- Add jobs to the queue:
+- ts
+- import { Queue } from 'bullmq';
+
+- Source: https://github.com/taskforcesh/bullmq
+- Extracted from upstream docs: https://raw.githubusercontent.com/taskforcesh/bullmq/HEAD/README.md
 
 ## Documentation
 

@@ -1,14 +1,14 @@
 ---
-title: "Add IDE-style semantic code navigation and symbol-safe refactors to coding agents through Serena"
+name: "Add IDE-style semantic code navigation and symbol-safe refactors to coding agents through Serena"
+slug: "add-ide-style-semantic-code-navigation-and-symbol-safe-refactors-to-coding-agents-through-serena"
 description: "Give a coding agent symbol-aware lookup, cross-file rename, and structural edit tools before it starts making brittle text-only changes."
+github_stars: 23039
 verification: "security_reviewed"
 source: "https://github.com/oraios/serena"
 author: "oraios"
 publisher_type: "organization"
-category:
-  - "Developer Tools"
-framework:
-  - "MCP"
+category: "Developer Tools"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "oraios/serena"
   github_stars: 23039
@@ -24,19 +24,20 @@ Serena installation, an MCP-compatible coding agent or client, supported languag
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- uv tool install -p 3.13 serena-agent@latest --prerelease=allow
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- **Opus 4.6 (high) in Claude Code on a large Python codebase:**
+- **Prerequisites**. Serena is managed by *uv*, and [installing uv](https://docs.astral.sh/uv/getting-started/installation/) is the only required prerequisite.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Instead, follow our [Quick Start](#quick-start) instructions.
+- See our [documentation](https://oraios.github.io/serena/04-evaluation/000_evaluation-intro.html) for the full methodology and much more detailed evaluation results, or run your own evaluation on a project of your choice.
+- See the [Quick Start](#quick-start) section below for information on how to get started.
 
-```
-Install Serena using the upstream quick-start instructions, connect it to the target coding agent through MCP, then enable its semantic navigation and refactor tools for the repository you want the agent to edit.
-```
+- Source: https://github.com/oraios/serena
+- Extracted from upstream docs: https://raw.githubusercontent.com/oraios/serena/HEAD/README.md
 
 ## Documentation
 

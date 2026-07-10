@@ -1,14 +1,14 @@
 ---
-title: "Generate Go API docs from source annotations with Swag"
+name: "Generate Go API docs from source annotations with Swag"
+slug: "generate-go-api-docs-from-source-annotations-with-swag"
 description: "Use Swag when an agent needs to turn Go handler annotations into reviewable Swagger 2.0 documentation before API docs, clients, or release checks depend on it."
+github_stars: 12867
 verification: "security_reviewed"
 source: "https://github.com/swaggo/swag"
 author: "swaggo"
 publisher_type: "open_source"
-category:
-  - "Library & API Reference"
-framework:
-  - "Multi-Framework"
+category: "Library & API Reference"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "swaggo/swag"
   github_stars: 12867
@@ -24,19 +24,24 @@ Go 1.19 or newer; Swag CLI or Docker image; Go API source tree with handler anno
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- go install github.com/swaggo/swag/cmd/swag@latest
+- docker run --rm -v $(pwd):/code ghcr.io/swaggo/swag:latest
+- Make sure to import the generated docs/docs.go so that your specific configuration gets init'ed. If your General API annotations do not live in main.go, you can let swag know with -g flag.
+- Make it OR condition
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Alternatively you can run the docker image:
+- --dir value, -d value Directories you want to parse,comma separated and general-info file must be in the first one (default: "./")
+- | x-name | The extension key, must be start by x- and take only json value | // @x-example-key {"key": "value"} |
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [Getting started](#getting-started)
+- [Example value of struct](#example-value-of-struct)
+- Add comments to your API source code, See [Declarative Comments Format](#declarative-comments-format).
 
-```
-Install with go install github.com/swaggo/swag/cmd/swag@latest, then run swag init from the project root containing main.go. Use swag init -g path/to/file.go when the general API annotations live outside main.go, and import the generated docs package as described in the upstream README.
-```
+- Source: https://github.com/swaggo/swag
+- Extracted from upstream docs: https://raw.githubusercontent.com/swaggo/swag/HEAD/README.md
 
 ## Documentation
 

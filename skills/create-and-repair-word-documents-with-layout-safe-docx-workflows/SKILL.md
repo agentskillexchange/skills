@@ -1,14 +1,13 @@
 ---
-title: "Create and repair Word documents with layout-safe DOCX workflows"
+name: "Create and repair Word documents with layout-safe DOCX workflows"
+slug: "create-and-repair-word-documents-with-layout-safe-docx-workflows"
 description: "Use the Anthropic docx skill when an agent needs to produce or repair a real .docx deliverable with headings, tables, numbering, tracked changes, or layout constraints. It frames the work as a document-building workflow with validation and packaging rules, not as a generic document library listing."
 verification: "security_reviewed"
 source: "https://github.com/anthropics/skills/tree/main/skills/docx"
 author: "Anthropic"
 publisher_type: "official_repository"
-category:
-  - "Templates & Workflows"
-framework:
-  - "Claude Agents"
+category: "Templates & Workflows"
+framework: "Claude Agents"
 ---
 
 # Create and repair Word documents with layout-safe DOCX workflows
@@ -21,19 +20,16 @@ docx generation library, pandoc, LibreOffice
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- The frontmatter requires only two fields:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Select document-skills or example-skills
+- /plugin install example-skills@anthropic-agent-skills
+- These example skills are all already available to paid plans in Claude.ai.
 
-Install command or upstream instructions:
-
-```
-Use the upstream Anthropic docx skill from the anthropics/skills repository in an agent environment that can generate or edit .docx files and run validation/conversion helpers.
-```
+- Source: https://github.com/anthropics/skills/tree/main/skills/docx
+- Extracted from upstream docs: https://raw.githubusercontent.com/anthropics/skills/HEAD/README.md
 
 ## Documentation
 

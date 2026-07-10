@@ -1,13 +1,12 @@
 ---
-title: "NPM Package Audit Reference"
+name: "NPM Package Audit Reference"
+slug: "npm-package-audit-reference"
 description: "Provides deep dependency analysis using npm audit, socket.dev API for supply chain risk scoring, and bundlephobia API for bundle size impact assessment. Generates license compliance reports via license-checker."
 verification: "security_reviewed"
 source: "https://docs.npmjs.com/cli/v10/commands/npm-audit/"
 author: "npm, Inc."
-category:
-  - "Library & API Reference"
-framework:
-  - "Codex"
+category: "Library & API Reference"
+framework: "Codex"
 ---
 
 # NPM Package Audit Reference
@@ -16,13 +15,23 @@ Provides deep dependency analysis using npm audit, socket.dev API for supply cha
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm-audit | npm Docs Skip to search Skip to content
+- npm Docs
+- npm package scope, access level, and visibility
+- Docker and private modules
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Downloading and installing Node.js and npm
+- Try the latest stable version of node
+- Creating Node.js modules
+
+Basic usage or getting-started notes:
+- Creating a strong password
+- Receiving a one-time password over email
+- About two-factor authentication
+
+- Source: https://docs.npmjs.com/cli/v10/commands/npm-audit/
 
 ## Documentation
 

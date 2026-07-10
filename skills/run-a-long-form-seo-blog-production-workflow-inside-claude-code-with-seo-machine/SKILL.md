@@ -1,14 +1,14 @@
 ---
-title: "Run a long-form SEO blog production workflow inside Claude Code with SEO Machine"
+name: "Run a long-form SEO blog production workflow inside Claude Code with SEO Machine"
+slug: "run-a-long-form-seo-blog-production-workflow-inside-claude-code-with-seo-machine"
 description: "Research, outline, draft, review, and optimize long-form blog posts through a repeatable Claude Code workspace instead of ad hoc chat writing."
+github_stars: 6597
 verification: "security_reviewed"
 source: "https://github.com/TheCraigHewitt/seomachine"
 author: "TheCraigHewitt"
 publisher_type: "individual"
-category:
-  - "Content Writing & SEO"
-framework:
-  - "Claude Code"
+category: "Content Writing & SEO"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "TheCraigHewitt/seomachine"
   github_stars: 6597
@@ -24,19 +24,20 @@ Claude Code, Anthropic API access, repository context files filled for the targe
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/TheCraigHewitt/seomachine.git
+- pip install -r data_sources/requirements.txt
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Install Python dependencies for analysis modules:
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [Claude Code](https://claude.com/claude-code) installed
+- Anthropic API account
+- Clone this repository:
 
-```
-Clone the repository, install the documented Python dependencies, open the workspace in Claude Code, fill in the required context files, then invoke the documented commands such as /research, /write, /optimize, or /rewrite.
-```
+- Source: https://github.com/TheCraigHewitt/seomachine
+- Extracted from upstream docs: https://raw.githubusercontent.com/TheCraigHewitt/seomachine/HEAD/README.md
 
 ## Documentation
 

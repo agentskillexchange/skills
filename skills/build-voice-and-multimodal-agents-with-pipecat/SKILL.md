@@ -1,14 +1,14 @@
 ---
-title: "Build voice and multimodal agents with Pipecat"
+name: "Build voice and multimodal agents with Pipecat"
+slug: "build-voice-and-multimodal-agents-with-pipecat"
 description: "Use Pipecat to define realtime voice and multimodal agent pipelines with transports, model providers, tools, and turn-taking tests."
+github_stars: 12703
 verification: "security_reviewed"
 source: "https://github.com/pipecat-ai/pipecat"
 author: "Pipecat AI"
 publisher_type: "open_source_project"
-category:
-  - "Media & Transcription"
-framework:
-  - "Custom Agents"
+category: "Media & Transcription"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "pipecat-ai/pipecat"
   github_stars: 12703
@@ -24,19 +24,23 @@ Pipecat, audio or video transport, model provider credentials
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Install uv
+- uv init my-pipecat-app
+- uv add pipecat-ai
+- uv add "pipecat-ai[option,...]"
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- **Pipecat** is an open-source Python framework for building real-time voice and multimodal conversational agents. Build a single voice agent or a full multi-agent system where specialists hand off, fan out in parallel...
+- **Minimum Python Version:** 3.11
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Want to dive right in? Run pipecat init quickstart or follow the [quickstart guide](https://docs.pipecat.ai/getting-started/quickstart).
+- **Multi-Agent Systems** – specialists that hand off, fan out in parallel, or run as sidecars over a shared bus
+- cp env.example .env
 
-```
-Follow the Pipecat repository setup instructions, configure the selected transport and model providers, define the conversational pipeline and tools, then test realtime latency and turn-taking.
-```
+- Source: https://github.com/pipecat-ai/pipecat
+- Extracted from upstream docs: https://raw.githubusercontent.com/pipecat-ai/pipecat/HEAD/README.md
 
 ## Documentation
 

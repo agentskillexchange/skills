@@ -1,13 +1,13 @@
 ---
-title: "OWASP ZAP Active Scanner Agent"
+name: "OWASP ZAP Active Scanner Agent"
+slug: "owasp-zap-active-scanner-agent"
 description: "Runs OWASP ZAP active security scans via the ZAP API daemon with custom scan policies. Generates SARIF reports compatible with GitHub Advanced Security code scanning alerts."
+github_stars: 14991
 verification: "security_reviewed"
 source: "https://github.com/zaproxy/zaproxy"
 author: "zaproxy"
-category:
-  - "Security & Verification"
-framework:
-  - "Codex"
+category: "Security & Verification"
+framework: "Codex"
 tool_ecosystem:
   github_repo: "zaproxy/zaproxy"
   github_stars: 14991
@@ -19,13 +19,14 @@ Runs OWASP ZAP active security scans via the ZAP API daemon with custom scan pol
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- ![Docker Live Release](https://github.com/zaproxy/zaproxy/actions/workflows/release-live-docker.yml/badge.svg)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- ![Integration Tests](https://github.com/zaproxy/zaproxy/actions/workflows/run-integration-tests.yml/badge.svg)
+
+- Source: https://github.com/zaproxy/zaproxy
+- Extracted from upstream docs: https://raw.githubusercontent.com/zaproxy/zaproxy/HEAD/README.md
 
 ## Documentation
 

@@ -1,14 +1,14 @@
 ---
-title: "Build OCR and layout-analysis preprocessing pipelines with deepdoctection"
+name: "Build OCR and layout-analysis preprocessing pipelines with deepdoctection"
+slug: "build-ocr-and-layout-analysis-preprocessing-pipelines-with-deepdoctection"
 description: "Use deepdoctection when an agent workflow needs a local Python pipeline for document layout analysis, OCR, table recognition, and page-level extraction before LLM ingestion."
+github_stars: 3177
 verification: "security_reviewed"
 source: "https://github.com/deepdoctection/deepdoctection"
 author: "deepdoctection"
 publisher_type: "open_source"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Multi-Framework"
+category: "Data Extraction & Transformation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "deepdoctection/deepdoctection"
   github_stars: 3177
@@ -24,19 +24,24 @@ Python environment; deepdoctection package; selected OCR/layout/model dependenci
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- uv pip install timm # needed for the default setup
+- uv pip install transformers
+- uv pip install python-doctr
+- uv pip install deepdoctection
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- **deep**doctection is a Python library that orchestrates Scan and PDF document layout analysis, OCR and document
+- python
+- Python >= 3.10
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- and token classification. Build and run a pipeline for your document extraction tasks, develop your own document
+- The following example shows how to use the built-in analyzer to decompose a PDF document into its layout structures.
+- ![requirements](https://github.com/deepdoctection/deepdoctection/raw/master/docs/_imgs/install_01.png)
 
-```
-Install deepdoctection using the official documentation, configure the OCR and model backends required for the target documents, create an analyzer with dd.get_dd_analyzer() or a custom pipeline, and run analyzer.analyze(path=...) to produce page-level text, layout, table, and diagnostic outputs.
-```
+- Source: https://github.com/deepdoctection/deepdoctection
+- Extracted from upstream docs: https://raw.githubusercontent.com/deepdoctection/deepdoctection/HEAD/README.md
 
 ## Documentation
 

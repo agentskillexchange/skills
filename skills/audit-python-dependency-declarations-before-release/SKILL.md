@@ -1,14 +1,14 @@
 ---
-title: "Audit Python dependency declarations for unused, missing, and transitive imports before release"
-description: "Use Deptry when an agent needs to verify that a Python project’s declared dependencies still match the imports the code actually uses. The agent scans the codebase, flags unused direct dependencies, missing declarations, and transitive imports that only work by accident, then turns the findings into cleanup commits or release blockers."
+name: "Audit Python dependency declarations for unused, missing, and transitive imports before release"
+slug: "audit-python-dependency-declarations-before-release"
+description: "Use Deptry when an agent needs to verify that a Python project's declared dependencies still match the imports the code actually uses. The agent scans the codebase, flags unused direct dependencies, missing declarations, and transitive imports that only work by accident, then turns the findings into cleanup commits or release blockers."
+github_stars: 1359
 verification: "security_reviewed"
 source: "https://github.com/osprey-oss/deptry"
 author: "Osprey OSS"
 publisher_type: "Open Source Project"
-category:
-  - "Code Quality & Review"
-framework:
-  - "Multi-Framework"
+category: "Code Quality & Review"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "osprey-oss/deptry"
   github_stars: 1359
@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Audit Python dependency declarations for unused, missing, and transitive imports before release
 
-Use Deptry when an agent needs to verify that a Python project’s declared dependencies still match the imports the code actually uses. The agent scans the codebase, flags unused direct dependencies, missing declarations, and transitive imports that only work by accident, then turns the findings into cleanup commits or release blockers.
+Use Deptry when an agent needs to verify that a Python project's declared dependencies still match the imports the code actually uses. The agent scans the codebase, flags unused direct dependencies, missing declarations, and transitive imports that only work by accident, then turns the findings into cleanup commits or release blockers.
 
 ## Prerequisites
 
@@ -24,19 +24,22 @@ Python plus Deptry configured against the target repository
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- uv add --dev deptry
+- pip install deptry
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Supported Python versions](https://img.shields.io/pypi/pyversions/deptry)](https://pypi.org/project/deptry/)
+- _deptry_ is a command line tool to check for issues with dependencies in a Python project, such as unused or missing
+- using [Poetry](https://python-poetry.org/), [pip](https://pip.pypa.io/), [PDM](https://pdm-project.org/), [uv](https://docs.astral.sh/uv/),
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- To add _deptry_ to your project, run one of the following commands:
+- shell
+- poetry add --dev deptry
 
-```
-pip install deptry
-```
+- Source: https://github.com/osprey-oss/deptry
+- Extracted from upstream docs: https://raw.githubusercontent.com/osprey-oss/deptry/HEAD/README.md
 
 ## Documentation
 

@@ -1,12 +1,12 @@
 ---
-title: "Apache Tika Document Extractor"
+name: "Apache Tika Document Extractor"
+slug: "apache-tika-document-extractor"
 description: "Wraps Apache Tika Server REST API for extracting structured text from PDFs, DOCX, PPTX, and 1,200+ file formats. Outputs clean markdown with metadata preservation using Tika /rmeta/text endpoint and recursive parsing mode."
+github_stars: 3695
 verification: "security_reviewed"
 source: "https://github.com/apache/tika"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Codex"
+category: "Data Extraction & Transformation"
+framework: "Codex"
 tool_ecosystem:
   github_repo: "apache/tika"
   github_stars: 3695
@@ -18,13 +18,16 @@ Wraps Apache Tika Server REST API for extracting structured text from PDFs, DOCX
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- **N.B.** [Docker](https://www.docker.com/products/personal) is used for tests in tika-integration-tests. If Docker is not installed, those tests are skipped.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- ===========
+- **Parse a file in Java:**
+- java
+
+- Source: https://github.com/apache/tika
+- Extracted from upstream docs: https://raw.githubusercontent.com/apache/tika/HEAD/README.md
 
 ## Source
 

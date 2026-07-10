@@ -1,14 +1,14 @@
 ---
-title: "Run PostgreSQL backup restore and WAL recovery workflows with pgBackRest"
+name: "Run PostgreSQL backup restore and WAL recovery workflows with pgBackRest"
+slug: "run-postgresql-backup-restore-and-wal-recovery-workflows-with-pgbackrest"
 description: "Execute PostgreSQL backup, restore, verification, and point-in-time recovery runbooks with explicit repository and WAL handling."
+github_stars: 3729
 verification: "security_reviewed"
 source: "https://github.com/pgbackrest/pgbackrest"
 author: "pgbackrest"
 publisher_type: "organization"
-category:
-  - "Runbooks & Diagnostics"
-framework:
-  - "Multi-Framework"
+category: "Runbooks & Diagnostics"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "pgbackrest/pgbackrest"
   github_stars: 3729
@@ -24,19 +24,13 @@ pgBackRest installation, PostgreSQL server access, configured backup repository 
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- Multiple repositories allow, for example, a local repository with minimal retention for fast restores and a remote repository with a longer retention for redundancy and access across the enterprise.
+- Dedicated commands are included for pushing WAL to the archive and getting WAL from the archive. Both commands support parallelism to accelerate processing and run asynchronously to provide the fastest possible respon...
+- pgBackRest strives to be easy to configure and operate:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Install pgBackRest from the upstream packages or build instructions, configure a stanza and repository for the target PostgreSQL cluster, then use the documented backup, check, restore, and WAL recovery commands for the intended runbook.
-```
+- Source: https://github.com/pgbackrest/pgbackrest
+- Extracted from upstream docs: https://raw.githubusercontent.com/pgbackrest/pgbackrest/HEAD/README.md
 
 ## Documentation
 

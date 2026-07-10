@@ -1,12 +1,12 @@
 ---
-title: "Aider AI Pair Programming CLI Agent"
+name: "Aider AI Pair Programming CLI Agent"
+slug: "aider-ai-pair-programming-cli-agent"
 description: "Aider is an open-source AI pair programming tool that runs in your terminal, letting you collaborate with LLMs to edit code across your entire codebase. With 42k+ GitHub stars and 15 billion tokens processed weekly, it features deep git integration, repo-wide code mapping, and support for 100+ programming languages."
+github_stars: 42670
 verification: "security_reviewed"
 source: "https://github.com/Aider-AI/aider"
-category:
-  - "Developer Tools"
-framework:
-  - "Custom Agents"
+category: "Developer Tools"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "Aider-AI/aider"
   github_stars: 42670
@@ -14,17 +14,23 @@ tool_ecosystem:
 
 # Aider AI Pair Programming CLI Agent
 
-Aider is an open-source AI pair programming tool that runs in your terminal, letting you collaborate with LLMs to edit code across your entire codebase. With 42k+ GitHub stars and 15 billion tokens processed weekly, it features deep git integration, repo-wide code mapping, and support for 100+ programming languages.
+Aider is an open-source AI pair programming tool that runs in your terminal, letting you collaborate with LLMs to edit code across your entire codebase. It features deep git integration, repo-wide code mapping, and support for 100+ programming languages.
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- python -m pip install aider-install
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Aider works with most popular programming languages: python, javascript, rust, ruby, go, cpp, php, html, css, and dozens more.
+
+Basic usage or getting-started notes:
+- ### [Use in your IDE](https://aider.chat/docs/usage/watch.html)
+- <a href="https://aider.chat/docs/usage/watch.html"><img src="https://aider.chat/assets/icons/monitor.svg" width="32" height="32" align="left" valign="middle" style="margin-right:10px"></a>
+- ### [Images & web pages](https://aider.chat/docs/usage/images-urls.html)
+
+- Source: https://github.com/Aider-AI/aider
+- Extracted from upstream docs: https://raw.githubusercontent.com/Aider-AI/aider/HEAD/README.md
 
 ## Source
 

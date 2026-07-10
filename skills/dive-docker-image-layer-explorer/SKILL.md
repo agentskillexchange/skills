@@ -1,12 +1,12 @@
 ---
-title: "Dive Docker Image Layer Explorer and Size Optimizer"
+name: "Dive Docker Image Layer Explorer and Size Optimizer"
+slug: "dive-docker-image-layer-explorer"
 description: "Dive is a CLI tool for exploring Docker image layers, analyzing file system changes, and estimating wasted space. It helps developers optimize container image sizes by visualizing exactly what each layer adds, modifies, or removes."
+github_stars: 53711
 verification: "security_reviewed"
 source: "https://github.com/wagoodman/dive"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "wagoodman/dive"
   github_stars: 53711
@@ -18,13 +18,24 @@ Dive is a CLI tool for exploring Docker image layers, analyzing file system chan
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- docker run --rm -it \
+- docker.io/wagoodman/dive:latest build -t <some-tag> .
+- sudo snap install docker
+- brew install dive
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- **A tool for exploring a Docker image, layer contents, and discovering ways to shrink the size of your Docker/OCI image.**
+- To analyze a Docker image simply run dive with an image tag/id/digest:
+- or you can dive with Docker directly:
+
+Basic usage or getting-started notes:
+- # for example
+- Additionally you can run this in your CI pipeline to ensure you're keeping wasted space to a minimum (this skips the UI):
+- **Ubuntu/Debian**
+
+- Source: https://github.com/wagoodman/dive
+- Extracted from upstream docs: https://raw.githubusercontent.com/wagoodman/dive/HEAD/README.md
 
 ## Source
 

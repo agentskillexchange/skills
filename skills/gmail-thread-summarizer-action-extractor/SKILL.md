@@ -1,13 +1,12 @@
 ---
-title: "Gmail Thread Summarizer and Action Extractor"
+name: "Gmail Thread Summarizer and Action Extractor"
+slug: "gmail-thread-summarizer-action-extractor"
 description: "Fetches Gmail threads via the Gmail API (users.threads.get), extracts full message content, and produces a structured summary with action items, decisions, and follow-ups. Uses MIME part decoding for multi-part HTML/plain text emails and handles forwarded thread chains."
 verification: "security_reviewed"
 source: "https://developers.google.com/gmail/api/reference/rest/v1/users.threads/get"
 author: "Google"
-category:
-  - "Calendar, Email & Productivity"
-framework:
-  - "OpenClaw"
+category: "Calendar, Email & Productivity"
+framework: "OpenClaw"
 ---
 
 # Gmail Thread Summarizer and Action Extractor
@@ -20,19 +19,17 @@ Google account, Google Cloud project, Gmail API enabled, and OAuth 2.0 credentia
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Node.js
+- Python
+- Requires one of the following OAuth scopes:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Postmaster Tools API
+- v2
+- Resource summary
 
-Install command or upstream instructions:
-
-```
-Create a Google Cloud project, enable the Gmail API, configure OAuth 2.0 credentials, then authorize your app against the Gmail API.
-```
+- Source: https://developers.google.com/gmail/api/reference/rest/v1/users.threads/get
 
 ## Documentation
 

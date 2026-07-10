@@ -1,14 +1,14 @@
 ---
-title: "Neon Serverless Postgres MCP"
-description: "Neon’s official MCP server translates natural language requests into Neon API calls, letting AI agents create projects, manage branches, run SQL queries, and perform database migrations on Neon’s serverless Postgres platform."
+name: "Neon Serverless Postgres MCP"
+slug: "neon-serverless-postgres-mcp"
+description: "Neon's official MCP server translates natural language requests into Neon API calls, letting AI agents create projects, manage branches, run SQL queries, and perform database migrations on Neon's serverless Postgres platform."
+github_stars: 606
 verification: "security_reviewed"
 source: "https://github.com/neondatabase/mcp-server-neon"
 author: "Neon"
 publisher_type: "company"
-category:
-  - "Integrations & Connectors"
-framework:
-  - "MCP"
+category: "Integrations & Connectors"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "neondatabase/mcp-server-neon"
   github_stars: 606
@@ -18,7 +18,7 @@ tool_ecosystem:
 
 # Neon Serverless Postgres MCP
 
-Neon’s official MCP server translates natural language requests into Neon API calls, letting AI agents create projects, manage branches, run SQL queries, and perform database migrations on Neon’s serverless Postgres platform.
+Neon's official MCP server translates natural language requests into Neon API calls, letting AI agents create projects, manage branches, run SQL queries, and perform database migrations on Neon's serverless Postgres platform.
 
 ## Prerequisites
 
@@ -26,19 +26,24 @@ MCP-compatible client (Claude Code, Cursor, VS Code), Neon account (free tier av
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx neonctl@latest init
+- npx add-mcp https://mcp.neon.tech/mcp
+- npx add-mcp https://mcp.neon.tech/mcp --header "Authorization: Bearer <$NEON_API_KEY>"
+- npx add-mcp https://mcp.neon.tech/sse --type sse
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- **Node.js (>= v18.0.0):** Download from [nodejs.org](https://nodejs.org).
+- For development, you'll need Node.js 22+ (pnpm is provided via Corepack — run corepack enable to activate it).
+- Connect to Neon's managed MCP server using OAuth for authentication. This is the easiest setup, requires no local installation of this server, and doesn't need a Neon API key configured in the client.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- For example, in Claude Code, or any MCP Client, you can use natural language to accomplish things with Neon, such as:
+- I want to run a migration on my project called "my-project" that alters the users table to add a new column called "created_at".
+- **Quick Setup with API Key (Cursor, VS Code, and Claude Code):** Run [neonctl@latest init](https://neon.com/docs/reference/cli-init) to automatically configure Neon's MCP Server, [agent skills](https://github.com/neon...
 
-```
-npm install @neondatabase/mcp-server-neon
-```
+- Source: https://github.com/neondatabase/mcp-server-neon
+- Extracted from upstream docs: https://raw.githubusercontent.com/neondatabase/mcp-server-neon/HEAD/README.md
 
 ## Documentation
 

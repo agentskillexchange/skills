@@ -1,14 +1,14 @@
 ---
-title: "Run supervised agentic terminal sessions with Warp"
+name: "Run supervised agentic terminal sessions with Warp"
+slug: "run-supervised-agentic-terminal-sessions-with-warp"
 description: "Use Warp as a supervised terminal workspace for running Warp Agent or external CLI agents such as Codex, Claude Code, Gemini CLI, and OpenCode with shared shell context."
+github_stars: 58541
 verification: "security_reviewed"
 source: "https://github.com/warpdotdev/warp"
 author: "Warp"
 publisher_type: "open_source"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "warpdotdev/warp"
   github_stars: 58541
@@ -24,19 +24,13 @@ Warp desktop app or preview build; Warp Agent or a supported CLI agent such as C
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- You can [download Warp](https://www.warp.dev/download) and [read our docs](https://docs.warp.dev/) for platform-specific instructions.
+- ## Warp Contributions Overview Dashboard
+- Explore [build.warp.dev](https://build.warp.dev) to:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Download Warp from https://www.warp.dev/download, open the target repository or shell workspace, and configure the built-in Warp Agent or the external CLI agent the operator intends to supervise.
-```
+- Source: https://github.com/warpdotdev/warp
+- Extracted from upstream docs: https://raw.githubusercontent.com/warpdotdev/warp/HEAD/README.md
 
 ## Documentation
 

@@ -1,13 +1,12 @@
 ---
-title: "LLDB Debug Session Automator"
+name: "LLDB Debug Session Automator"
+slug: "lldb-debug-session-automator"
 description: "Automates LLDB debugging sessions with scripted breakpoint management and expression evaluation. Uses the LLDB Python SB API (lldb.SBDebugger, SBTarget, SBProcess) for programmatic debug control."
 verification: "security_reviewed"
 source: "https://lldb.llvm.org/"
 author: "LLVM Project"
-category:
-  - "Developer Tools"
-framework:
-  - "Custom Agents"
+category: "Developer Tools"
+framework: "Custom Agents"
 ---
 
 # LLDB Debug Session Automator
@@ -16,13 +15,20 @@ Automates LLDB debugging sessions with scripted breakpoint management and expres
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ git clone https://github.com/llvm/llvm-project.git
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Python Reference Toggle navigation of Python Reference
+- Embedded Python Interpreter
+- Python API Toggle navigation of Python API
+
+Basic usage or getting-started notes:
+- Tutorial
+- GDB to LLDB command map
+- Settings
+
+- Source: https://lldb.llvm.org/
 
 ## Documentation
 

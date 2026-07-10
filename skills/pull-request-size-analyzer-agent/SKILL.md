@@ -1,13 +1,12 @@
 ---
-title: "Pull Request Size Analyzer"
+name: "Pull Request Size Analyzer"
+slug: "pull-request-size-analyzer-agent"
 description: "Analyzes PR size and reviewability using the GitHub GraphQL API and git diff-stat. Enforces size limits, suggests PR splitting strategies, and tracks team review velocity metrics via GitHub Checks API."
 verification: "security_reviewed"
 source: "https://graphql.org/"
 author: "GraphQL Foundation"
-category:
-  - "Code Quality & Review"
-framework:
-  - "OpenClaw"
+category: "Code Quality & Review"
+framework: "OpenClaw"
 ---
 
 # Pull Request Size Analyzer
@@ -16,13 +15,17 @@ Analyzes PR size and reviewability using the GitHub GraphQL API and git diff-sta
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- GraphQL seamlessly follows relationships between data, eliminating multiple API calls. While typical REST APIs require loading from multiple URLs, GraphQL APIs get all the data your app needs in a single request. Idea...
+- NODE.JS
+- PYTHON
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Ask for what you want Run query
+- Press Ctrl Space to open the completions menu, ⌘ Ctrl Enter to run the query.
+- Protect your APIs while maintaining full visibility into data consumption. GraphQL allows you to monitor, secure, and optimize API usage while ensuring compliance.
+
+- Source: https://graphql.org/
 
 ## Documentation
 

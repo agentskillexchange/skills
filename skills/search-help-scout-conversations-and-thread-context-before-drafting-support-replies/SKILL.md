@@ -1,14 +1,14 @@
 ---
-title: "Search Help Scout conversations and thread context before drafting support replies"
+name: "Search Help Scout conversations and thread context before drafting support replies"
+slug: "search-help-scout-conversations-and-thread-context-before-drafting-support-replies"
 description: "Lets an MCP-compatible agent search Help Scout inboxes, customers, organizations, and full thread history so support replies start with the right account and ticket context."
+github_stars: 36
 verification: "security_reviewed"
 source: "https://github.com/drewburchfield/help-scout-mcp-server"
 author: "drewburchfield"
 publisher_type: "individual"
-category:
-  - "Calendar, Email & Productivity"
-framework:
-  - "MCP"
+category: "Calendar, Email & Productivity"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "drewburchfield/help-scout-mcp-server"
   github_stars: 36
@@ -26,19 +26,23 @@ MCP-compatible client and Help Scout private app credentials with read access to
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- docker run -e HELPSCOUT_APP_ID="your-app-id" \
+- git clone https://github.com/drewburchfield/help-scout-mcp-server.git
+- npm install && npm run build
+- npm start
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![npm version](https://badge.fury.io/js/help-scout-mcp-server.svg)](https://badge.fury.io/js/help-scout-mcp-server) [![Docker](https://img.shields.io/docker/v/drewburchfield/help-scout-mcp-server?logo=docker&label=do...
+- ### Docker
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- ### Claude Cowork (Recommended)
+- Open Cowork and go to **Customize** > **Browse plugins** > **Personal**
+- Click **+** > **Add marketplace from GitHub** and enter drewburchfield/help-scout-mcp-server
 
-```
-Add the server to your MCP client with npx help-scout-mcp-server, set HELPSCOUT_APP_ID and HELPSCOUT_APP_SECRET, and grant the Help Scout private app read access to Mailboxes, Conversations, Customers, and Organizations. If you want the packaged navigator guidance, install the project’s Claude/Desktop plugin from the repository releases or marketplace instructions.
-```
+- Source: https://github.com/drewburchfield/help-scout-mcp-server
+- Extracted from upstream docs: https://raw.githubusercontent.com/drewburchfield/help-scout-mcp-server/HEAD/README.md
 
 ## Documentation
 

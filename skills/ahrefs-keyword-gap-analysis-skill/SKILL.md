@@ -1,28 +1,27 @@
 ---
-title: "Ahrefs Keyword Gap Analysis Skill"
-description: "Identifies keyword opportunities by comparing competitor rankings using Ahrefs’ /v3/site-explorer/organic-keywords API endpoint. Calculates traffic potential from search volume, CPC, and keyword difficulty scores."
+name: "Ahrefs Keyword Gap Analysis Skill"
+slug: "ahrefs-keyword-gap-analysis-skill"
+description: "Identifies keyword opportunities by comparing competitor rankings using Ahrefs' /v3/site-explorer/organic-keywords API endpoint. Calculates traffic potential from search volume, CPC, and keyword difficulty scores."
 verification: "security_reviewed"
 source: "https://docs.ahrefs.com/docs/api/site-explorer/operations/get-organic-keywords"
 author: "Ahrefs"
-category:
-  - "Content Writing & SEO"
-framework:
-  - "ChatGPT Agents"
+category: "Content Writing & SEO"
+framework: "ChatGPT Agents"
 ---
 
 # Ahrefs Keyword Gap Analysis Skill
 
-Identifies keyword opportunities by comparing competitor rankings using Ahrefs’ /v3/site-explorer/organic-keywords API endpoint. Calculates traffic potential from search volume, CPC, and keyword difficulty scores.
+Identifies keyword opportunities by comparing competitor rankings using Ahrefs' /v3/site-explorer/organic-keywords API endpoint. Calculates traffic potential from search volume, CPC, and keyword difficulty scores.
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- cURL Python Node.js Go Response
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Example: field_a,field_b:asc,field_c:desc
+
+- Source: https://docs.ahrefs.com/docs/api/site-explorer/operations/get-organic-keywords
 
 ## Documentation
 

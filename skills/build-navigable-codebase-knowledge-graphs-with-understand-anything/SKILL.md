@@ -1,14 +1,14 @@
 ---
-title: "Build navigable codebase knowledge graphs with Understand Anything"
+name: "Build navigable codebase knowledge graphs with Understand Anything"
+slug: "build-navigable-codebase-knowledge-graphs-with-understand-anything"
 description: "Turn a repository or wiki into an interactive knowledge graph that agents and humans can search, explore, and query before implementation work."
+github_stars: 61057
 verification: "security_reviewed"
 source: "https://github.com/Egonex-AI/Understand-Anything"
 author: "Egonex AI"
 publisher_type: "organization"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "Egonex-AI/Understand-Anything"
   github_stars: 61057
@@ -24,19 +24,16 @@ Understand Anything plugin or installer, supported coding harness such as Claude
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Navigate your codebase as an interactive knowledge graph — every file, function, and class is a node you can click, search, and explore. Select any node to see plain-English summaries, relationships, and guided tours.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- <a href="#-quick-start"><img src="https://img.shields.io/badge/Quick_Start-blue" alt="Quick Start" /></a>
+- For personal skills (available across all projects), run the install.sh above with the vscode platform.
+- For personal skills (available across all projects), run the install.sh above with the kiro platform.
 
-Install command or upstream instructions:
-
-```
-Install through the Claude Code plugin marketplace or run the upstream installer for the target platform, restart the coding harness, then run /understand in the target project and open /understand-dashboard to inspect the generated graph.
-```
+- Source: https://github.com/Egonex-AI/Understand-Anything
+- Extracted from upstream docs: https://raw.githubusercontent.com/Egonex-AI/Understand-Anything/HEAD/README.md
 
 ## Documentation
 

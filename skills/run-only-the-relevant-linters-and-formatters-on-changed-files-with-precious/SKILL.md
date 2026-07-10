@@ -1,14 +1,14 @@
 ---
-title: "Run only the relevant linters and formatters on changed files with Precious"
+name: "Run only the relevant linters and formatters on changed files with Precious"
+slug: "run-only-the-relevant-linters-and-formatters-on-changed-files-with-precious"
 description: "Run just the applicable quality checks on changed files so pre-commit and CI feedback stays fast and targeted."
+github_stars: 152
 verification: "security_reviewed"
 source: "https://github.com/houseabsolute/precious"
 author: "houseabsolute"
 publisher_type: "open_source_project"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Multi-Framework"
+category: "CI/CD Integrations"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "houseabsolute/precious"
   github_stars: 152
@@ -24,19 +24,18 @@ precious
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- You must pass either --auto or at least one --component. In --auto mode, precious will look
+- the commands. prefix must be unique. You **can** have run the same executable differently with
+- a command can be run in multiple ways, and how quickly it completes depends on how many files or
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Wouldn't it be great if you could run all of them with just one command? Wouldn't it be great if
+- that command just had one config file to define what tools to run on each part of your project?
+- Precious is a code quality tool that lets you run all of your linters and tidiers with a single
 
-Install command or upstream instructions:
-
-```
-Install the Precious binary, configure the repository linters and formatters it should manage, then run it against changed files or a diff range.
-```
+- Source: https://github.com/houseabsolute/precious
+- Extracted from upstream docs: https://raw.githubusercontent.com/houseabsolute/precious/HEAD/README.md
 
 ## Documentation
 

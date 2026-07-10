@@ -1,12 +1,12 @@
 ---
-title: "Meilisearch MCP Server for AI-Powered Search Integration"
+name: "Meilisearch MCP Server for AI-Powered Search Integration"
+slug: "meilisearch-mcp-server-ai-search"
 description: "Official Model Context Protocol server that connects LLMs to Meilisearch for lightning-fast search, index management, and document operations via natural language. Enables AI agents to manage search infrastructure through conversation."
+github_stars: 181
 verification: "security_reviewed"
 source: "https://github.com/meilisearch/meilisearch-mcp"
-category:
-  - "Developer Tools"
-framework:
-  - "MCP"
+category: "Developer Tools"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "meilisearch/meilisearch-mcp"
   github_stars: 181
@@ -18,13 +18,24 @@ Official Model Context Protocol server that connects LLMs to Meilisearch for lig
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install meilisearch-mcp
+- docker run -d -p 7700:7700 getmeili/meilisearch:v1.28
+- brew install meilisearch
+- git clone https://github.com/meilisearch/meilisearch-mcp.git
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <a href="https://pypi.org/project/meilisearch-mcp/"><img src="https://img.shields.io/pypi/pyversions/meilisearch-mcp.svg" alt="Python Versions"></a>
+- 🐍 **Python Implementation** - [TypeScript version also available](https://github.com/devlimelabs/meilisearch-ts-mcp)
+- # Using Docker (recommended)
+
+Basic usage or getting-started notes:
+- ## 🚀 Quick Start
+- ### 🔍 Advanced Search Example:
+- Running Meilisearch instance
+
+- Source: https://github.com/meilisearch/meilisearch-mcp
+- Extracted from upstream docs: https://raw.githubusercontent.com/meilisearch/meilisearch-mcp/HEAD/README.md
 
 ## Source
 

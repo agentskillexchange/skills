@@ -1,14 +1,14 @@
 ---
-title: "Wagtail Django CMS for Structured Content and Editorial Workflows"
+name: "Wagtail Django CMS for Structured Content and Editorial Workflows"
+slug: "wagtail-django-cms-structured-content-editorial-workflows"
 description: "Wagtail is an open source CMS built on Django for teams that need structured content, flexible page models, and a polished editor experience. It works for traditional websites and headless builds, with a content API, image handling, search, and multi-site support baked in."
+github_stars: 20291
 verification: "security_reviewed"
 source: "https://github.com/wagtail/wagtail"
 author: "Wagtail"
 publisher_type: "Open Source Project"
-category:
-  - "WordPress & CMS"
-framework:
-  - "Multi-Framework"
+category: "WordPress & CMS"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "wagtail/wagtail"
   github_stars: 20291
@@ -24,19 +24,22 @@ Python 3, pip, Django
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install wagtail
+- pip install -r requirements.txt
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <a href="https://pypi.python.org/pypi/wagtail/">
+- Wagtail works with [Python 3](https://www.python.org/downloads/), on any platform.
+- To get started with using Wagtail, run the following in a [virtual environment](https://docs.python.org/3/tutorial/venv.html):
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- ### 👉 Getting started
+- For detailed installation and setup docs, see [the getting started tutorial](https://docs.wagtail.org/en/stable/getting_started/tutorial.html).
+- **For developers** who are ready to jump in to their first Wagtail website the [Getting Started Tutorial](https://docs.wagtail.org/en/stable/getting_started/tutorial.html) will guide you through creating and editing y...
 
-```
-pip install wagtail && wagtail start mysite
-```
+- Source: https://github.com/wagtail/wagtail
+- Extracted from upstream docs: https://raw.githubusercontent.com/wagtail/wagtail/HEAD/README.md
 
 ## Documentation
 

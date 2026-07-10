@@ -1,14 +1,14 @@
 ---
-title: "Capture live transcripts and searchable meeting memory for agents with Minutes"
+name: "Capture live transcripts and searchable meeting memory for agents with Minutes"
+slug: "capture-live-transcripts-and-searchable-meeting-memory-for-agents-with-minutes"
 description: "Stream meeting transcripts into searchable conversation memory so agents can read live or post-meeting context before drafting follow-ups or taking action."
+github_stars: 1051
 verification: "security_reviewed"
 source: "https://github.com/silverstein/minutes"
 author: "Mat Silverstein"
 publisher_type: "individual"
-category:
-  - "Media & Transcription"
-framework:
-  - "MCP"
+category: "Media & Transcription"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "silverstein/minutes"
   github_stars: 1051
@@ -26,19 +26,23 @@ Minutes app or service, minutes-mcp package, microphone or meeting audio source
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew install --cask silverstein/tap/minutes
+- brew tap silverstein/tap && brew install minutes
+- cargo install minutes-cli # macOS/Linux
+- cargo install minutes-cli --no-default-features # Windows (see install notes below)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- # Any platform — from source (requires Rust + cmake; Windows also needs LLVM)
+- # Or use Mistral API (requires MISTRAL_API_KEY)
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Agents have run logs. Humans have conversations. **minutes** captures the human side — the decisions, the intent, the context that agents need but can't observe — and makes it queryable.
+- bash
+- # macOS — Desktop app (menu bar, recording UI, AI assistant)
 
-```
-Install the minutes-mcp package and connect it to a running Minutes setup, then capture meetings so agents can query live or recent transcript memory through MCP.
-```
+- Source: https://github.com/silverstein/minutes
+- Extracted from upstream docs: https://raw.githubusercontent.com/silverstein/minutes/HEAD/README.md
 
 ## Documentation
 

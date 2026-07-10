@@ -1,14 +1,14 @@
 ---
-title: "Run durable agent tasks and event-driven workflows with Hatchet"
+name: "Run durable agent tasks and event-driven workflows with Hatchet"
+slug: "run-durable-agent-tasks-and-event-driven-workflows-with-hatchet"
 description: "Use Hatchet to queue, retry, pause, resume, observe, and scale long-running agent tasks and background workflows."
+github_stars: 7224
 verification: "security_reviewed"
 source: "https://github.com/hatchet-dev/hatchet"
 author: "Hatchet"
 publisher_type: "organization"
-category:
-  - "Templates & Workflows"
-framework:
-  - "Multi-Framework"
+category: "Templates & Workflows"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "hatchet-dev/hatchet"
   github_stars: 7224
@@ -26,19 +26,18 @@ Hatchet CLI, Docker for local setup, Hatchet workers, and application code in Py
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Hatchet is a platform for orchestrating background tasks, AI agents, and durable workflows at scale. It supports applications written in Python, TypeScript, Go and Ruby, and can be used as a service through [Hatchet C...
+- To run Hatchet locally, the fastest path for setup is to install the Hatchet CLI (on MacOS, Linux or WSL) - note that this requires [Docker](https://www.docker.com/get-started) installed locally to work:
+- **When to use Hatchet:** when you'd like to use a DAG-based framework, write your own integrations and functions, and require higher throughput (>100/s)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- <a href ="https://hatchet.run?utm_source=github&utm_campaign=readme">
+- [![Docs](https://img.shields.io/badge/docs-docs.hatchet.run-3F16E4)](https://docs.hatchet.run) [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT) [![Go Referenc...
+- [![Discord](https://img.shields.io/discord/1088927970518909068?style=social&logo=discord)](https://hatchet.run/discord)
 
-Install command or upstream instructions:
-
-```
-Install the Hatchet CLI from the official installer or package instructions, confirm the CLI version, start a local server with hatchet server start, then define and run workers for durable tasks, retries, event waits, schedules, and workflows using the upstream SDK examples.
-```
+- Source: https://github.com/hatchet-dev/hatchet
+- Extracted from upstream docs: https://raw.githubusercontent.com/hatchet-dev/hatchet/HEAD/README.md
 
 ## Documentation
 

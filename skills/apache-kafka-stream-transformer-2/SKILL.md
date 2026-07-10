@@ -1,13 +1,13 @@
 ---
-title: "Apache Kafka Stream Transformer"
+name: "Apache Kafka Stream Transformer"
+slug: "apache-kafka-stream-transformer-2"
 description: "Processes real-time event streams using KafkaJS consumer groups and transforms messages with configurable schemas. Handles partition rebalancing, offset commits, and dead-letter queue routing for failed transformations."
+github_stars: 32377
 verification: "security_reviewed"
 source: "https://github.com/apache/kafka"
 author: "apache"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Cursor"
+category: "Data Extraction & Transformation"
+framework: "Cursor"
 tool_ecosystem:
   github_repo: "apache/kafka"
   github_stars: 32377
@@ -19,13 +19,20 @@ Processes real-time event streams using KafkaJS consumer groups and transforms m
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- docker run -p 9092:9092 apache/kafka:latest
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Using docker image:
+- See [docker/README.md](docker/README.md) for detailed information.
+
+Basic usage or getting-started notes:
+- ### Build a JAR and run it
+- ### Run unit/integration tests
+- ./gradlew test -Pkafka.test.run.flaky=true # runs tests that are marked as flaky
+
+- Source: https://github.com/apache/kafka
+- Extracted from upstream docs: https://raw.githubusercontent.com/apache/kafka/HEAD/README.md
 
 ## Documentation
 

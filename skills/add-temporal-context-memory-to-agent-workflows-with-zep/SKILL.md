@@ -1,14 +1,14 @@
 ---
-title: "Add temporal context memory to agent workflows with Zep"
+name: "Add temporal context memory to agent workflows with Zep"
+slug: "add-temporal-context-memory-to-agent-workflows-with-zep"
 description: "Use Zep as an external context layer for agents that need to store events, assemble temporal graph context, and retrieve relevant memory before model calls."
+github_stars: 4638
 verification: "security_reviewed"
 source: "https://github.com/getzep/zep"
 author: "Zep"
 publisher_type: "company"
-category:
-  - "Integrations & Connectors"
-framework:
-  - "Multi-Framework"
+category: "Integrations & Connectors"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "getzep/zep"
   github_stars: 4638
@@ -26,19 +26,22 @@ Zep Cloud account; Python SDK zep-cloud or TypeScript SDK @getzep/zep-cloud; age
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- **Install UV** (if not already installed):
+- uv sync
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- **Python**: pip install zep-cloud
+- This project uses [UV](https://github.com/astral-sh/uv) for Python package management with workspace features.
+- Python 3.13+
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Visit [www.getzep.com](https://www.getzep.com/) to sign up for Zep Cloud, our managed service delivering intelligent agent context with <200ms latency, enterprise-grade scalability, and SOC2 Type 2 / HIPAA compliance....
+- Zep offers comprehensive SDKs for multiple languages:
+- **TypeScript/JavaScript**: npm install @getzep/zep-cloud
 
-```
-Install the SDK for the target workflow, for example `pip install zep-cloud` or `npm install @getzep/zep-cloud`, configure a Zep API key, write agent messages and events to Zep, and retrieve assembled context before model calls.
-```
+- Source: https://github.com/getzep/zep
+- Extracted from upstream docs: https://raw.githubusercontent.com/getzep/zep/HEAD/README.md
 
 ## Documentation
 

@@ -1,12 +1,12 @@
 ---
-title: "Zellij Terminal Workspace and Multiplexer"
+name: "Zellij Terminal Workspace and Multiplexer"
+slug: "zellij-terminal-workspace-multiplexer"
 description: "Zellij is a Rust-powered terminal workspace and multiplexer with floating panes, WebAssembly plugins, layout persistence, multiplayer collaboration, and a built-in web client. A modern replacement for tmux and screen."
+github_stars: 30894
 verification: "security_reviewed"
 source: "https://github.com/zellij-org/zellij"
-category:
-  - "Developer Tools"
-framework:
-  - "Custom Agents"
+category: "Developer Tools"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "zellij-org/zellij"
   github_stars: 30894
@@ -18,13 +18,15 @@ Zellij is a Rust-powered terminal workspace and multiplexer with floating panes,
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- cargo install --locked zellij
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- In the project folder, for debug builds run: cargo xtask run
+- To run all tests: cargo xtask test
+
+- Source: https://github.com/zellij-org/zellij
+- Extracted from upstream docs: https://raw.githubusercontent.com/zellij-org/zellij/HEAD/README.md
 
 ## Source
 

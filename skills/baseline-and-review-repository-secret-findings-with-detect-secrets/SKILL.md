@@ -1,14 +1,14 @@
 ---
-title: "Baseline and Review Repository Secret Findings with detect-secrets"
+name: "Baseline and Review Repository Secret Findings with detect-secrets"
+slug: "baseline-and-review-repository-secret-findings-with-detect-secrets"
 description: "Scan a repository for secrets, keep an auditable baseline, and review only newly introduced findings during commits or CI checks."
+github_stars: 4482
 verification: "security_reviewed"
 source: "https://github.com/Yelp/detect-secrets"
 author: "Yelp"
 publisher_type: "organization"
-category:
-  - "Security & Verification"
-framework:
-  - "Multi-Framework"
+category: "Security & Verification"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "Yelp/detect-secrets"
   github_stars: 4482
@@ -24,19 +24,24 @@ Python, detect-secrets CLI, git repository
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ pip install detect-secrets
+- $ brew install detect-secrets
+- $ pip install detect-secrets[word_list]
+- $ pip install detect-secrets[gibberish]
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- python
+- Specify path to custom filter. May be a python module
+- is great for non-structured secrets, but may require tuning to adjust the scanning precision.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Create a baseline of potential secrets currently found in your git repository.
+- bash
+- $ detect-secrets scan > .secrets.baseline
 
-```
-Install with pip, then create or update a baseline before scanning: pip install detect-secrets && detect-secrets scan > .secrets.baseline
-```
+- Source: https://github.com/Yelp/detect-secrets
+- Extracted from upstream docs: https://raw.githubusercontent.com/Yelp/detect-secrets/HEAD/README.md
 
 ## Documentation
 

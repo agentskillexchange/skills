@@ -1,14 +1,14 @@
 ---
-title: "Monitor Claude Code and Codex local usage logs for spend, model mix, and session burn with ccusage"
+name: "Monitor Claude Code and Codex local usage logs for spend, model mix, and session burn with ccusage"
+slug: "monitor-claude-code-and-codex-local-usage-logs-for-spend-model-mix-and-session-burn-with-ccusage"
 description: "Use ccusage when an agent operator needs to turn local Claude Code or Codex usage logs into spend and usage reports instead of manually reading raw JSONL files."
+github_stars: 12900
 verification: "listed"
 source: "https://github.com/ryoppippi/ccusage"
 author: "ryoppippi"
 publisher_type: "individual"
-category:
-  - "Runbooks & Diagnostics"
-framework:
-  - "Multi-Framework"
+category: "Runbooks & Diagnostics"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "ryoppippi/ccusage"
   github_stars: 12900
@@ -26,19 +26,9 @@ Local Claude Code or Codex usage logs, ccusage, and shell access on the machine 
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Install ccusage using the package or binary method documented in the repository, point it at the local usage-log location for your coding agent, then run the report commands you need to summarize spend, model mix, and session usage.
-```
+- Source: https://github.com/ryoppippi/ccusage
 
 ## Documentation
 

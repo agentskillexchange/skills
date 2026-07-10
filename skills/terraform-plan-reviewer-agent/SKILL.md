@@ -1,12 +1,12 @@
 ---
-title: "Terraform Plan Reviewer Agent"
+name: "Terraform Plan Reviewer Agent"
+slug: "terraform-plan-reviewer-agent"
 description: "Parses terraform plan -json output and queries the Terraform Cloud API /runs endpoint to review infrastructure changes. Detects destructive operations, estimates cost impact via Infracost API, and validates against OPA policies."
+github_stars: 48146
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Gemini"
+category: "CI/CD Integrations"
+framework: "Gemini"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48146
@@ -18,13 +18,13 @@ Parses terraform plan -json output and queries the Terraform Cloud API /runs end
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- Documentation is available on the [Terraform website](https://developer.hashicorp.com/terraform):
+- [Introduction](https://developer.hashicorp.com/terraform/intro)
+- [Documentation](https://developer.hashicorp.com/terraform/docs)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/hashicorp/terraform
+- Extracted from upstream docs: https://raw.githubusercontent.com/hashicorp/terraform/HEAD/README.md
 
 ## Source
 

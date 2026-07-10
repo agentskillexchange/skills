@@ -1,14 +1,14 @@
 ---
-title: "Read and modify Figma designs from coding agents with Talk to Figma MCP"
+name: "Read and modify Figma designs from coding agents with Talk to Figma MCP"
+slug: "read-and-modify-figma-designs-from-coding-agents-with-talk-to-figma-mcp"
 description: "Bridge Cursor, Claude Code, and other MCP clients into Figma so agents can inspect selections, create nodes, annotate designs, and apply bulk edits."
+github_stars: 6832
 verification: "security_reviewed"
 source: "https://github.com/grab/cursor-talk-to-figma-mcp"
 author: "Grab"
 publisher_type: "organization"
-category:
-  - "Integrations & Connectors"
-framework:
-  - "MCP"
+category: "Integrations & Connectors"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "grab/cursor-talk-to-figma-mcp"
   github_stars: 6832
@@ -26,19 +26,18 @@ Bun, MCP-compatible client, Figma desktop or web app, Talk to Figma Figma plugin
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- read_my_design - Get detailed node information about the current selection without parameters
+- get_node_info - Get detailed information about a specific node
+- get_nodes_info - Get detailed information about multiple nodes by providing an array of node IDs
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Run setup, this will also install MCP in your Cursor's active project
+- Start the WebSocket server
+- Install the MCP server in Cursor
 
-Install command or upstream instructions:
-
-```
-Install Bun, run `bun setup`, start the bridge with `bun socket`, install the Talk to Figma plugin from Figma Community or locally, then connect the plugin channel and register the MCP server in the agent client.
-```
+- Source: https://github.com/grab/cursor-talk-to-figma-mcp
+- Extracted from upstream docs: https://raw.githubusercontent.com/grab/cursor-talk-to-figma-mcp/HEAD/README.md
 
 ## Documentation
 

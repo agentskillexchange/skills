@@ -1,14 +1,14 @@
 ---
-title: "Profile and clean large CSV datasets from the terminal with qsv"
+name: "Profile and clean large CSV datasets from the terminal with qsv"
+slug: "profile-and-clean-large-csv-datasets-from-the-terminal-with-qsv"
 description: "Inspect, profile, normalize, and diff large CSV files before loading them into downstream analytics or automation workflows."
+github_stars: 3594
 verification: "security_reviewed"
 source: "https://github.com/dathere/qsv"
 author: "datHere"
 publisher_type: "organization"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Multi-Framework"
+category: "Data Extraction & Transformation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "dathere/qsv"
   github_stars: 3594
@@ -24,19 +24,23 @@ qsv binary and CSV datasets
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- cargo install zipsign
+- brew install qsv
+- conda install conda-forge::qsv
+- git clone https://github.com/dathere/qsv.git
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- | [py](docs/help/py.md)✨<br>📇🔣 | Create a new computed column or filter rows by evaluating a Python expression on every row of a CSV file. Python's [f-strings](https://www.freecodecamp.org/news/python-f-strings-tutori...
+- 🔣: requires UTF-8 encoded input.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- | [describegpt](docs/help/describegpt.md)<br>📇🗃️🤖🌐🪄📚⛩️ ![CKAN](docs/images/ckan.png) | <a name="describegpt_deeplink"></a>Infer a ["neuro-symbolic"](https://en.wikipedia.org/wiki/Neuro-symbolic_AI) Data Dictionary, De...
+- | [luau](docs/help/luau.md)✨<br>📇🌐🔣📚 ![CKAN](docs/images/ckan.png) ![Luau](docs/images/luau.png) | <a name="luau_deeplink"></a>Create multiple new computed columns, filter rows, compute aggregations and build complex...
+- | [moarstats](docs/help/moarstats.md)<br>📇🏎️ | Add up to an additional 55 statistical measures, including extended outlier, robust & bivariate statistics to an existing stats CSV file. ([example](docs/moarstats/NYC_31...
 
-```
-Install qsv for your platform from the project releases or package manager, then use subcommands such as `qsv stats`, `qsv validate`, `qsv diff`, and `qsv apply` as needed for the dataset workflow.
-```
+- Source: https://github.com/dathere/qsv
+- Extracted from upstream docs: https://raw.githubusercontent.com/dathere/qsv/HEAD/README.md
 
 ## Documentation
 

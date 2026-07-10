@@ -1,14 +1,14 @@
 ---
-title: "Translate and validate SQL across dialects with SQLGlot"
+name: "Translate and validate SQL across dialects with SQLGlot"
+slug: "translate-and-validate-sql-across-dialects-with-sqlglot"
 description: "Use SQLGlot when an agent needs to parse, transpile, or sanity-check SQL before moving queries between engines or trusting generated SQL."
+github_stars: 9133
 verification: "security_reviewed"
 source: "https://github.com/tobymao/sqlglot"
 author: "tobymao"
 publisher_type: "individual"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Multi-Framework"
+category: "Data Extraction & Transformation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "tobymao/sqlglot"
   github_stars: 9133
@@ -24,19 +24,24 @@ Python 3.8+, SQLGlot, and any agent or script that needs SQL parsing, transpilat
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- # Optionally prefix with UV=1 to use uv for the installation
+- make install
+- make install-dev
+- make docs-serve
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- It is a very comprehensive generic SQL parser with a robust [test suite](https://github.com/tobymao/sqlglot/blob/main/tests/). It is also quite [performant](#benchmarks), while being written purely in Python.
+- # Pure python version
+- Like parsing, generating SQL also requires the target dialect to be specified, otherwise the SQLGlot dialect will be used by default. For example, to transpile a query from Spark SQL to DuckDB, do parse_one(sql, diale...
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- SQLGlot can detect a variety of [syntax errors](#parser-errors), such as unbalanced parentheses, incorrect usage of reserved keywords, and so on. These errors are highlighted and dialect incompatibilities can warn or...
+- [Run Tests and Lint](#run-tests-and-lint)
+- From PyPI:
 
-```
-Install with `pip install sqlglot`, then use its parser and transpiler APIs or CLI inside migration, linting, or generated-SQL review workflows.
-```
+- Source: https://github.com/tobymao/sqlglot
+- Extracted from upstream docs: https://raw.githubusercontent.com/tobymao/sqlglot/HEAD/README.md
 
 ## Documentation
 

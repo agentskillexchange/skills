@@ -1,14 +1,14 @@
 ---
-title: "Run a self-improving personal agent with Hermes Agent"
+name: "Run a self-improving personal agent with Hermes Agent"
+slug: "run-a-self-improving-personal-agent-with-hermes-agent"
 description: "Deploy Hermes Agent as a persistent personal agent that learns skills from experience, searches past sessions, schedules automations, and coordinates work across CLI and chat channels."
+github_stars: 177610
 verification: "security_reviewed"
 source: "https://github.com/NousResearch/hermes-agent"
 author: "Nous Research"
 publisher_type: "open_source"
-category:
-  - "Templates & Workflows"
-framework:
-  - "Multi-Framework"
+category: "Templates & Workflows"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "NousResearch/hermes-agent"
   github_stars: 177610
@@ -24,19 +24,45 @@ Hermes Agent; model provider API key or compatible endpoint; optional Telegram/D
 
 ## Installation
 
-Choose whichever fits your setup:
+Install Hermes Agent from the official repository installer.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Linux, macOS, WSL2, or Termux:
 
-Install command or upstream instructions:
-
+```bash
+curl -fsSLO https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh
+less install.sh
+bash install.sh
+source ~/.bashrc
+hermes
 ```
-Follow the Hermes Agent documentation to install the runtime, configure a model provider, and connect the CLI or desired messaging gateway before assigning persistent tasks, schedules, and skills.
+
+Windows PowerShell:
+
+```powershell
+iex (irm https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.ps1)
 ```
+
+After installation, use the documented CLI commands to configure and operate the agent:
+
+```bash
+hermes setup        # Run the full setup wizard
+hermes model        # Choose the model provider and model
+hermes tools        # Configure enabled tools
+hermes gateway      # Start messaging gateway setup/runtime
+hermes doctor       # Diagnose environment or configuration issues
+```
+
+Contributor setup, when you need to work from source:
+
+```bash
+git clone https://github.com/NousResearch/hermes-agent.git
+cd hermes-agent
+./setup-hermes.sh
+./hermes
+```
+
+- Source: https://github.com/NousResearch/hermes-agent
+- Extracted from upstream docs: https://raw.githubusercontent.com/NousResearch/hermes-agent/HEAD/README.md
 
 ## Documentation
 

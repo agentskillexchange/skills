@@ -1,12 +1,12 @@
 ---
-title: "Ansible Playbook Template Library"
+name: "Ansible Playbook Template Library"
+slug: "ansible-playbook-template-library"
 description: "Generates and validates Ansible playbooks from infrastructure requirements. Uses ansible-lint for validation and queries Ansible Galaxy API for discovering certified roles and collections."
+github_stars: 68364
 verification: "security_reviewed"
 source: "https://github.com/ansible/ansible"
-category:
-  - "Templates & Workflows"
-framework:
-  - "ChatGPT Agents"
+category: "Templates & Workflows"
+framework: "ChatGPT Agents"
 tool_ecosystem:
   github_repo: "ansible/ansible"
   github_stars: 68364
@@ -18,13 +18,16 @@ Generates and validates Ansible playbooks from infrastructure requirements. Uses
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- ad-hoc task execution, network automation, and multi-node orchestration. Ansible makes complex
+- Allow module development in any dynamic language, not just Python.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Power users and developers can run the devel branch, which has the latest
+- in the Ansible community if you want to run the devel branch.
+
+- Source: https://github.com/ansible/ansible
+- Extracted from upstream docs: https://raw.githubusercontent.com/ansible/ansible/HEAD/README.md
 
 ## Source
 

@@ -1,13 +1,13 @@
 ---
-title: "CSP Policy Analyzer"
+name: "CSP Policy Analyzer"
+slug: "csp-policy-analyzer"
 description: "Parses and evaluates Content Security Policy headers using csp-parse and csp-evaluator libraries. Identifies overly permissive directives, missing protections, and generates tightened policy recommendations."
+github_stars: 390
 verification: "security_reviewed"
 source: "https://github.com/google/csp-evaluator"
 author: "google"
-category:
-  - "Security & Verification"
-framework:
-  - "Claude Agents"
+category: "Security & Verification"
+framework: "Claude Agents"
 tool_ecosystem:
   github_repo: "google/csp-evaluator"
   github_stars: 390
@@ -19,13 +19,18 @@ Parses and evaluates Content Security Policy headers using csp-parse and csp-eva
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install csp_evaluator
+- npm install && tsc --build
+- npm install && npm test
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- To build, run:
+- To run unit tests, run:
+- ## Example Usage
+
+- Source: https://github.com/google/csp-evaluator
+- Extracted from upstream docs: https://raw.githubusercontent.com/google/csp-evaluator/HEAD/README.md
 
 ## Source
 

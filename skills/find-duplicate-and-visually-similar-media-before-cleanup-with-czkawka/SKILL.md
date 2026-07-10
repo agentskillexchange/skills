@@ -1,14 +1,14 @@
 ---
-title: "Find duplicate and visually similar media before cleanup with Czkawka"
+name: "Find duplicate and visually similar media before cleanup with Czkawka"
+slug: "find-duplicate-and-visually-similar-media-before-cleanup-with-czkawka"
 description: "Scan local archives for duplicate files, similar images, similar videos, empties, and related cleanup targets before deleting or reorganizing them."
+github_stars: 30600
 verification: "security_reviewed"
 source: "https://github.com/qarmin/czkawka"
 author: "qarmin"
 publisher_type: "individual"
-category:
-  - "Image & Creative Automation"
-framework:
-  - "Multi-Framework"
+category: "Image & Creative Automation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "qarmin/czkawka"
   github_stars: 30600
@@ -24,19 +24,17 @@ Czkawka CLI or GUI, local filesystem access
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- | Language | Rust | Rust | Rust | Python | Python/Obj-C | Python |
+- **Python** - https://pypi.org/project/czkawka/
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- **Easy to run, easy to compile** - minimal runtime and build dependencies, portable version available
+- Each tool uses different technologies, so you can find instructions for each of them in the appropriate file:
+- [Krokiet GUI (Slint frontend)](krokiet/README.md)</br>
 
-Install command or upstream instructions:
-
-```
-Install Czkawka from GitHub releases or your package manager, then use the CLI for scripted scans or the GUI to review duplicate, similar-image, and related cleanup findings before deleting files.
-```
+- Source: https://github.com/qarmin/czkawka
+- Extracted from upstream docs: https://raw.githubusercontent.com/qarmin/czkawka/HEAD/README.md
 
 ## Documentation
 

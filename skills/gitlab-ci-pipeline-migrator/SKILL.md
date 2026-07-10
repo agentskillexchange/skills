@@ -1,12 +1,12 @@
 ---
-title: "GitLab CI Pipeline Migrator"
+name: "GitLab CI Pipeline Migrator"
+slug: "gitlab-ci-pipeline-migrator"
 description: "Converts GitLab CI .gitlab-ci.yml pipelines to GitHub Actions workflows using the gitlab-ci-local parser and YAML AST transformations. Maps GitLab stages, services, and artifacts to equivalent GitHub Actions syntax."
+github_stars: 24298
 verification: "security_reviewed"
 source: "https://github.com/gitlabhq/gitlabhq"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Claude Code"
+category: "CI/CD Integrations"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "gitlabhq/gitlabhq"
   github_stars: 24298
@@ -18,13 +18,13 @@ Converts GitLab CI .gitlab-ci.yml pipelines to GitHub Actions workflows using th
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- Please see the [requirements documentation](doc/install/requirements.md) for system requirements and more information about the supported operating systems.
+- The recommended way to install GitLab is with the [Omnibus packages](https://docs.gitlab.com/install/package/) on our package server.
+- Compared to [a self-compiled installation](https://docs.gitlab.com/install/self_compiled/), this is faster and less error prone.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/gitlabhq/gitlabhq
+- Extracted from upstream docs: https://raw.githubusercontent.com/gitlabhq/gitlabhq/HEAD/README.md
 
 ## Source
 

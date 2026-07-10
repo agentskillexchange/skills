@@ -1,13 +1,12 @@
 ---
-title: "NPM Package API Surface Extractor"
+name: "NPM Package API Surface Extractor"
+slug: "npm-package-api-surface-extractor"
 description: "Extracts and documents public API surfaces from NPM packages using TypeScript Compiler API (ts.createProgram) and API Extractor from @microsoft/api-extractor. Generates .api.md report files and .d.ts rollups."
 verification: "security_reviewed"
 source: "https://api-extractor.com/"
 author: "Microsoft"
-category:
-  - "Library & API Reference"
-framework:
-  - "Claude Code"
+category: "Library & API Reference"
+framework: "Claude Code"
 ---
 
 # NPM Package API Surface Extractor
@@ -20,19 +19,13 @@ Node.js, TypeScript
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Missing exports: Suppose the awesome-widgets package exports an API function AwesomeButton.draw() that requires a parameter of type DrawStyle , but you forgot to export this enum. Things seem fine at first, but when a...
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- API Extractor helps you build better TypeScript library packages. Suppose for example that your company has published an NPM package called “ awesome-widgets ” that exports many classes and interfaces. As developers s...
 
-Install command or upstream instructions:
-
-```
-npm install -D @microsoft/api-extractor
-```
+- Source: https://api-extractor.com/
 
 ## Documentation
 

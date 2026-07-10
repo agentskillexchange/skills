@@ -1,12 +1,12 @@
 ---
-title: "Svix Enterprise Webhook Delivery Service"
+name: "Svix Enterprise Webhook Delivery Service"
+slug: "svix-enterprise-webhook-delivery-service"
 description: "Svix is an open-source enterprise-grade webhook delivery service written in Rust. It handles webhook sending, retries, signature verification, and delivery monitoring so developers can offer reliable webhooks to their users with a single API call."
+github_stars: 3152
 verification: "security_reviewed"
 source: "https://github.com/svix/svix-webhooks"
-category:
-  - "Integrations & Connectors"
-framework:
-  - "Multi-Framework"
+category: "Integrations & Connectors"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "svix/svix-webhooks"
   github_stars: 3152
@@ -18,13 +18,23 @@ Svix is an open-source enterprise-grade webhook delivery service written in Rust
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx svix-cli --help
+- npm install -g svix-cli
+- docker compose up
+- docker run \
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Docker Pulls](https://img.shields.io/docker/pulls/svix/svix-server?logo=docker)](https://hub.docker.com/r/svix/svix-server/)
+- [![PyPI](https://img.shields.io/pypi/v/svix.svg)](https://pypi.python.org/pypi/svix/)
+- <th><a href="https://github.com/svix/svix-webhooks/tree/main/python/">Python</a></th>
+
+Basic usage or getting-started notes:
+- You can find general usage documentation at <https://docs.svix.com>. For complete API documentation with code examples for each endpoint in all of our official client libraries head over to our API documentation site...
+- The Svix CLI is published on npm as [svix-cli](https://www.npmjs.com/package/svix-cli). You can run it directly with npx without installing anything:
+
+- Source: https://github.com/svix/svix-webhooks
+- Extracted from upstream docs: https://raw.githubusercontent.com/svix/svix-webhooks/HEAD/README.md
 
 ## Source
 

@@ -1,14 +1,14 @@
 ---
-title: "Scan C and C++ code with Flawfinder for risky function patterns before review"
+name: "Scan C and C++ code with Flawfinder for risky function patterns before review"
+slug: "scan-c-and-c-code-with-flawfinder-for-risky-function-patterns-before-review"
 description: "Run a fast secure-code triage pass over C and C++ sources before manual review or remediation planning begins."
+github_stars: 4514
 verification: "security_reviewed"
 source: "https://github.com/david-a-wheeler/flawfinder"
 author: "David A. Wheeler"
 publisher_type: "individual"
-category:
-  - "Security & Verification"
-framework:
-  - "Multi-Framework"
+category: "Security & Verification"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "david-a-wheeler/flawfinder"
   github_stars: 4514
@@ -24,19 +24,18 @@ Flawfinder installation, C or C++ source tree, terminal access, reviewer workflo
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- command line tool. It requires Python (we test with Python 3;
+- Python 2.7 should work but this is increasingly untested).
+- Python's "pip" or with your system's package manager (flawfinder has
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- If you just want to *use* it, you can install flawfinder with
+- packages for many systems). It also supports easy installation
+- following usual make install source installation conventions.
 
-Install command or upstream instructions:
-
-```
-Install Flawfinder from the upstream source or system packages, point it at the target C or C++ codebase, then review the reported risky patterns and severities before manual review or remediation.
-```
+- Source: https://github.com/david-a-wheeler/flawfinder
+- Extracted from upstream docs: https://raw.githubusercontent.com/david-a-wheeler/flawfinder/HEAD/README.md
 
 ## Documentation
 

@@ -1,12 +1,12 @@
 ---
-title: "Discord Bot Manager"
-description: "Discord Bot Manager is built around Discord bot and moderation platform. The underlying ecosystem is represented by discordjs/discord.js (26,650+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like gateway events, slash commands, REST API, webhooks, intents, role actions […]"
+name: "Discord Bot Manager"
+slug: "discord-bot-manager"
+description: ""
+github_stars: 26668
 verification: "security_reviewed"
 source: "https://github.com/discordjs/discord.js"
-category:
-  - "Calendar, Email & Productivity"
-framework:
-  - "Custom Agents"
+category: "Calendar, Email & Productivity"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "discordjs/discord.js"
   github_stars: 26668
@@ -16,17 +16,16 @@ tool_ecosystem:
 
 # Discord Bot Manager
 
-Discord Bot Manager is built around Discord bot and moderation platform. The underlying ecosystem is represented by discordjs/discord.js (26,650+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like gateway events, slash commands, REST API, webhooks, intents, role actions […]
+
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- This repository contains multiple packages with separate [releases][github-releases]. You can find the assembled Discord API wrapper at [discord.js][source]. It is a powerful [Node.js](https://nodejs.org/en) module th...
+- discord.js ([source][source]) - A powerful Node.js module for interacting with the Discord API
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/discordjs/discord.js
+- Extracted from upstream docs: https://raw.githubusercontent.com/discordjs/discord.js/HEAD/README.md
 
 ## Source
 

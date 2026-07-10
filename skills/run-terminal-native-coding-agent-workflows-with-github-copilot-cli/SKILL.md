@@ -1,14 +1,14 @@
 ---
-title: "Run terminal-native coding agent workflows with GitHub Copilot CLI"
+name: "Run terminal-native coding agent workflows with GitHub Copilot CLI"
+slug: "run-terminal-native-coding-agent-workflows-with-github-copilot-cli"
 description: "Use GitHub Copilot CLI to plan, edit, debug, explain, and automate repository work from a terminal with GitHub context and approval controls."
+github_stars: 10610
 verification: "security_reviewed"
 source: "https://github.com/github/copilot-cli"
 author: "GitHub"
 publisher_type: "organization"
-category:
-  - "Developer Tools"
-framework:
-  - "Custom Agents"
+category: "Developer Tools"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "github/copilot-cli"
   github_stars: 10610
@@ -26,19 +26,19 @@ GitHub Copilot CLI, active GitHub Copilot subscription, GitHub authentication or
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew install copilot-cli
+- brew install copilot-cli@prerelease
+- npm install -g @github/copilot
+- npm install -g @github/copilot@prerelease
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- ## 📦 Getting Started
+- (On Windows) **PowerShell** v6 or higher
+- An **active Copilot subscription**. See [Copilot plans](https://github.com/features/copilot/plans?ref_cta=Copilot+plans+signup&ref_loc=install-copilot-cli&ref_page=docs).
 
-Install command or upstream instructions:
-
-```
-Install with the official GitHub Copilot CLI installer, Homebrew, WinGet, or npm package @github/copilot. Launch copilot inside a repository, authenticate with GitHub or a token with Copilot Requests permission, choose a model if needed, then run supervised coding, debugging, explanation, and GitHub-context tasks from the terminal.
-```
+- Source: https://github.com/github/copilot-cli
+- Extracted from upstream docs: https://raw.githubusercontent.com/github/copilot-cli/HEAD/README.md
 
 ## Documentation
 

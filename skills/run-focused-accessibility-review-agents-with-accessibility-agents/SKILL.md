@@ -1,14 +1,14 @@
 ---
-title: "Run focused accessibility review agents against coding-tool output with Accessibility Agents"
+name: "Run focused accessibility review agents against coding-tool output with Accessibility Agents"
+slug: "run-focused-accessibility-review-agents-with-accessibility-agents"
 description: "Dispatch specialized WCAG review agents to inspect code or content before inaccessible patterns ship."
+github_stars: 235
 verification: "listed"
 source: "https://github.com/Community-Access/accessibility-agents"
 author: "Community Access"
 publisher_type: "organization"
-category:
-  - "Code Quality & Review"
-framework:
-  - "Multi-Framework"
+category: "Code Quality & Review"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "Community-Access/accessibility-agents"
   github_stars: 235
@@ -24,19 +24,9 @@ Supported agent host such as Claude Code, GitHub Copilot, Gemini CLI, Codex CLI,
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Follow the upstream setup for your host platform, then invoke the relevant accessibility specialist agents for review passes against generated code, content, or workflows.
-```
+- Source: https://github.com/Community-Access/accessibility-agents
 
 ## Documentation
 

@@ -1,13 +1,12 @@
 ---
-title: "Terraform Module Testing Framework"
+name: "Terraform Module Testing Framework"
+slug: "terraform-module-testing-framework"
 description: "Tests Terraform modules using Terratest Go library and terraform test native framework. Validates plan output, applies infrastructure in ephemeral environments, and asserts resource attributes with automatic cleanup."
+github_stars: 48146
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
-category:
-  - "Templates & Workflows"
-framework:
-  - "Claude Code"
-  - "Multi-Framework"
+category: "Templates & Workflows"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48146
@@ -19,13 +18,13 @@ Tests Terraform modules using Terratest Go library and terraform test native fra
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- Documentation is available on the [Terraform website](https://developer.hashicorp.com/terraform):
+- [Introduction](https://developer.hashicorp.com/terraform/intro)
+- [Documentation](https://developer.hashicorp.com/terraform/docs)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/hashicorp/terraform
+- Extracted from upstream docs: https://raw.githubusercontent.com/hashicorp/terraform/HEAD/README.md
 
 ## Source
 

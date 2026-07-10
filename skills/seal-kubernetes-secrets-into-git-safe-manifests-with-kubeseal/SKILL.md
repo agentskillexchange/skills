@@ -1,14 +1,14 @@
 ---
-title: "Seal Kubernetes Secrets into Git-safe manifests with kubeseal"
+name: "Seal Kubernetes Secrets into Git-safe manifests with kubeseal"
+slug: "seal-kubernetes-secrets-into-git-safe-manifests-with-kubeseal"
 description: "Encrypt Kubernetes Secret manifests against a Sealed Secrets controller so agents can commit cluster-targeted secrets to Git without exposing plaintext."
+github_stars: 9045
 verification: "security_reviewed"
 source: "https://github.com/bitnami-labs/sealed-secrets"
 author: "bitnami-labs"
 publisher_type: "organization"
-category:
-  - "Security & Verification"
-framework:
-  - "Multi-Framework"
+category: "Security & Verification"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "bitnami-labs/sealed-secrets"
   github_stars: 9045
@@ -24,19 +24,22 @@ kubeseal CLI, access to the target Sealed Secrets controller certificate or clus
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew install kubeseal
+- go install github.com/bitnami-labs/sealed-secrets/cmd/kubeseal@main
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Download Status](https://img.shields.io/docker/pulls/bitnami/sealed-secrets-controller.svg)](https://hub.docker.com/r/bitnami/sealed-secrets-controller)
+- (requires secure access to the Kubernetes API server), which is
+- A cluster administrator must have already installed the SealedSecret CRDs.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+- [Usage](#usage)
+- The [Usage](#usage) section explores in more detail how you craft SealedSecret resources.
 
-```
-Install kubeseal from the Sealed Secrets releases or package manager instructions, fetch or reference the target controller certificate as documented upstream, then run kubeseal against a Kubernetes Secret manifest to emit a SealedSecret for Git-safe storage.
-```
+- Source: https://github.com/bitnami-labs/sealed-secrets
+- Extracted from upstream docs: https://raw.githubusercontent.com/bitnami-labs/sealed-secrets/HEAD/README.md
 
 ## Documentation
 

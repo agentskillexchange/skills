@@ -1,14 +1,14 @@
 ---
-title: "Give MCP clients local Markdown project memory with Basic Memory"
+name: "Give MCP clients local Markdown project memory with Basic Memory"
+slug: "give-mcp-clients-local-markdown-project-memory-with-basic-memory"
 description: "Connect Claude, Codex, Cursor, ChatGPT, or any MCP-capable client to a local-first Markdown knowledge graph so agents can write, search, and reuse project context across sessions."
+github_stars: 3192
 verification: "security_reviewed"
 source: "https://github.com/basicmachines-co/basic-memory"
 author: "Basic Machines"
 publisher_type: "organization"
-category:
-  - "Developer Tools"
-framework:
-  - "MCP"
+category: "Developer Tools"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "basicmachines-co/basic-memory"
   github_stars: 3192
@@ -24,19 +24,12 @@ Python 3.12+, uv, Basic Memory CLI, an MCP-capable client such as Claude, Codex,
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
+- Claude, Codex, or Cursor connected in 30 seconds. No Python, no JSON, no
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Install with `uv tool install basic-memory`, create or select a local Basic Memory project, then configure the Basic Memory MCP server in the target AI client so the agent can write, search, and fetch Markdown-backed memories.
-```
+- Source: https://github.com/basicmachines-co/basic-memory
+- Extracted from upstream docs: https://raw.githubusercontent.com/basicmachines-co/basic-memory/HEAD/README.md
 
 ## Documentation
 

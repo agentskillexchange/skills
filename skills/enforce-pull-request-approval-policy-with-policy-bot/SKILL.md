@@ -1,14 +1,14 @@
 ---
-title: "Enforce pull-request approval policy with Policy Bot"
+name: "Enforce pull-request approval policy with Policy Bot"
+slug: "enforce-pull-request-approval-policy-with-policy-bot"
 description: "Codify complex GitHub review rules, evaluate pull requests, and expose approval status as a required check."
+github_stars: 1032
 verification: "security_reviewed"
 source: "https://github.com/palantir/policy-bot"
 author: "Palantir"
 publisher_type: "organization"
-category:
-  - "Code Quality & Review"
-framework:
-  - "Multi-Framework"
+category: "Code Quality & Review"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "palantir/policy-bot"
   github_stars: 1032
@@ -24,19 +24,24 @@ Policy Bot GitHub App, GitHub repository, policy.yml
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- make it easier for developers to figure out who they should ask for approval.
+- yarn install
+- yarn run build
+- docker run --rm -v "$(pwd)/config:/secrets/" -p 8080:8080 palantirtechnologies/policy-bot:latest
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Docker Pulls](https://img.shields.io/docker/pulls/palantirtechnologies/policy-bot.svg)](https://hub.docker.com/r/palantirtechnologies/policy-bot/)
+- Require reviews from specific users, organizations, or teams
+- policy requires that all of its rules are approved to approve the pull request.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- After evaluation, a rule can be in one of four states:
+- approved - all of the predicates and requirements are true
+- pending - all of the predicates are true but one or more requirements are not true
 
-```
-Deploy Policy Bot as a GitHub App, configure the required repository permissions and webhook, add a policy.yml file to each repository, and make the Policy Bot status check required where merge gating is needed.
-```
+- Source: https://github.com/palantir/policy-bot
+- Extracted from upstream docs: https://raw.githubusercontent.com/palantir/policy-bot/HEAD/README.md
 
 ## Documentation
 

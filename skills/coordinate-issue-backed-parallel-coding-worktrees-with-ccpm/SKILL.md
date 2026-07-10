@@ -1,14 +1,14 @@
 ---
-title: "Coordinate issue-backed parallel coding worktrees with CCPM"
+name: "Coordinate issue-backed parallel coding worktrees with CCPM"
+slug: "coordinate-issue-backed-parallel-coding-worktrees-with-ccpm"
 description: "Use CCPM when an agent team needs one issue-backed workflow that turns plans into GitHub issues, isolates execution in worktrees, and keeps parallel coding runs reviewable instead of relying on ad hoc chat memory."
+github_stars: 7995
 verification: "security_reviewed"
 source: "https://github.com/automazeio/ccpm"
 author: "automazeio"
 publisher_type: "company"
-category:
-  - "Templates & Workflows"
-framework:
-  - "Multi-Framework"
+category: "Templates & Workflows"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "automazeio/ccpm"
   github_stars: 7995
@@ -24,19 +24,13 @@ GitHub Issues, git worktrees, a repo using an agent-skills-compatible coding har
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- [Usage](#usage)
+- [Example Flow](#example-flow)
+- **⚡ Parallel execution** — tasks marked parallel: true run concurrently across multiple agents without conflicts.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Install CCPM from the GitHub repo or supported agent-skills harness, connect it to a repository with GitHub Issues enabled, generate or refine the project plan into issues, then let each issue run in its own worktree so agent execution and review stay isolated and traceable.
-```
+- Source: https://github.com/automazeio/ccpm
+- Extracted from upstream docs: https://raw.githubusercontent.com/automazeio/ccpm/HEAD/README.md
 
 ## Documentation
 

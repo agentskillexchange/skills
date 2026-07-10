@@ -1,14 +1,14 @@
 ---
-title: "Run asynchronous coding-agent workflows with Open SWE"
+name: "Run asynchronous coding-agent workflows with Open SWE"
+slug: "run-asynchronous-coding-agent-workflows-with-open-swe"
 description: "Deploy an internal coding agent that accepts tasks from GitHub, Slack, or Linear, runs them in isolated sandboxes, and opens pull requests automatically."
+github_stars: 9823
 verification: "security_reviewed"
 source: "https://github.com/langchain-ai/open-swe"
 author: "LangChain"
 publisher_type: "organization"
-category:
-  - "Developer Tools"
-framework:
-  - "Custom Agents"
+category: "Developer Tools"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "langchain-ai/open-swe"
   github_stars: 9823
@@ -24,19 +24,13 @@ Python, uv, GitHub App, LangSmith, sandbox provider, GitHub/Slack/Linear trigger
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- **[Installation Guide](INSTALLATION.md)** — GitHub App creation, LangSmith, Linear/Slack/GitHub triggers, and production deployment
+- **[Customization Guide](CUSTOMIZATION.md)** — swap the sandbox, model, tools, triggers, system prompt, and middleware for your org
+- ## License
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Clone `https://github.com/langchain-ai/open-swe`, run `uv venv`, `source .venv/bin/activate`, and `uv sync --all-extras`, then follow the installation guide to configure the GitHub App, LangSmith OAuth, sandbox snapshot, and webhook triggers.
-```
+- Source: https://github.com/langchain-ai/open-swe
+- Extracted from upstream docs: https://raw.githubusercontent.com/langchain-ai/open-swe/HEAD/README.md
 
 ## Documentation
 

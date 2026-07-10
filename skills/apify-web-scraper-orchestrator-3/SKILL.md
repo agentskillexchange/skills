@@ -1,12 +1,12 @@
 ---
-title: "Apify Web Scraper Orchestrator"
+name: "Apify Web Scraper Orchestrator"
+slug: "apify-web-scraper-orchestrator-3"
 description: "Orchestrates Apify actors for large-scale web scraping via the Apify Client SDK. Manages actor runs, dataset exports, and proxy configuration through the Apify API v2."
+github_stars: 173
 verification: "security_reviewed"
 source: "https://github.com/apify/apify-sdk-js"
-category:
-  - "Research & Scraping"
-framework:
-  - "Cursor"
+category: "Research & Scraping"
+framework: "Cursor"
 tool_ecosystem:
   github_repo: "apify/apify-sdk-js"
   github_stars: 173
@@ -20,13 +20,19 @@ Orchestrates Apify actors for large-scale web scraping via the Apify Client SDK.
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install apify
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Apify SDK requires [Node.js](https://nodejs.org/en/) 16 or later. Add Apify SDK to any Node.js project by running:
+
+Basic usage or getting-started notes:
+- This short tutorial will set you up to start using Apify SDK in a minute or two.
+- If you want to learn more, proceed to the [Apify Platform](https://docs.apify.com/sdk/js/docs/concepts/actor-lifecycle)
+- guide that will take you step by step through running your Actor on Apify's platform.
+
+- Source: https://github.com/apify/apify-sdk-js
+- Extracted from upstream docs: https://raw.githubusercontent.com/apify/apify-sdk-js/HEAD/README.md
 
 ## Source
 

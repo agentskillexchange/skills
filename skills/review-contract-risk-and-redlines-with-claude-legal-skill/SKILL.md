@@ -1,14 +1,14 @@
 ---
-title: "Review contract risk and redlines with Claude Legal Skill"
+name: "Review contract risk and redlines with Claude Legal Skill"
+slug: "review-contract-risk-and-redlines-with-claude-legal-skill"
 description: "Use Claude Legal Skill to guide an agent through contract risk review, CUAD-style clause checks, market benchmarks, and lawyer-ready redline suggestions."
+github_stars: 355
 verification: "security_reviewed"
 source: "https://github.com/evolsb/claude-legal-skill"
 author: "C. T. Sheehan"
 publisher_type: "independent"
-category:
-  - "Security & Verification"
-framework:
-  - "Multi-Framework"
+category: "Security & Verification"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "evolsb/claude-legal-skill"
   github_stars: 355
@@ -24,19 +24,19 @@ Agent Skills-compatible runtime such as Claude Code, Codex, Cursor, GitHub Copil
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/evolsb/claude-legal-skill ~/.claude/skills/contract-review
+- git clone https://github.com/evolsb/claude-legal-skill ~/.codex/skills/contract-review
+- pip install git+https://github.com/evolsb/legal-redline-tools.git
+- git clone https://github.com/evolsb/claude-legal-skill ~/Developer/claude-legal-skill
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- This skill follows the open [Agent Skills standard](https://agentskills.io) and works with any compatible tool.
+- ln -s ~/Developer/claude-legal-skill ~/.claude/skills/contract-review
+- **Not legal advice** — always have material terms reviewed by qualified counsel
 
-Install command or upstream instructions:
-
-```
-Clone the upstream repository into the agent runtime skill directory, for example ~/.claude/skills/contract-review for Claude Code or ~/.codex/skills/contract-review for Codex, then invoke the documented contract-review skill on a bounded agreement.
-```
+- Source: https://github.com/evolsb/claude-legal-skill
+- Extracted from upstream docs: https://raw.githubusercontent.com/evolsb/claude-legal-skill/HEAD/README.md
 
 ## Documentation
 

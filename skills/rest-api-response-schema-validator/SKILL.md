@@ -1,13 +1,13 @@
 ---
-title: "REST API Response Schema Validator"
+name: "REST API Response Schema Validator"
+slug: "rest-api-response-schema-validator"
 description: "Validates live API responses against JSON Schema definitions using Ajv (Another JSON Schema Validator). Supports OpenAPI 3.x schema extraction and detects undocumented fields or type mismatches."
+github_stars: 14691
 verification: "security_reviewed"
 source: "https://github.com/ajv-validator/ajv"
 author: "Ajv Validator"
-category:
-  - "Library & API Reference"
-framework:
-  - "Claude Agents"
+category: "Library & API Reference"
+framework: "Claude Agents"
 tool_ecosystem:
   github_repo: "ajv-validator/ajv"
   github_stars: 14691
@@ -25,19 +25,21 @@ Node.js
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install ajv
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- The fastest JSON validator for Node.js and browser.
+- Supports JSON Schema draft-04/06/07/2019-09/2020-12 ([draft-04 support](https://ajv.js.org/json-schema.html#draft-04) requires ajv-draft-04 package) and JSON Type Definition [RFC8927](https://datatracker.ietf.org/doc/...
+- supports [browsers](https://ajv.js.org/guide/environments.html#browsers) and Node.js 18.x - current
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [Getting started](https://ajv.js.org/guide/getting-started.html)
+- To install version 8:
+- ## <a name="usage"></a>Getting started
 
-```
-npm install ajv
-```
+- Source: https://github.com/ajv-validator/ajv
+- Extracted from upstream docs: https://raw.githubusercontent.com/ajv-validator/ajv/HEAD/README.md
 
 ## Documentation
 

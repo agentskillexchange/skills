@@ -1,14 +1,14 @@
 ---
-title: "Triage active security incidents with AI-augmented workflows in Valhuntir CLI"
+name: "Triage active security incidents with AI-augmented workflows in Valhuntir CLI"
+slug: "triage-active-security-incidents-with-ai-augmented-workflows-in-valhuntir-cli"
 description: "Guide live digital-forensics and incident-response work with human approval gates when the job is evidence review and triage, not general MCP setup."
+github_stars: 40
 verification: "security_reviewed"
 source: "https://github.com/AppliedIR/Valhuntir"
 author: "AppliedIR"
 publisher_type: "GitHub repository"
-category:
-  - "Runbooks & Diagnostics"
-framework:
-  - "Multi-Framework"
+category: "Runbooks & Diagnostics"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "AppliedIR/Valhuntir"
   github_stars: 40
@@ -24,19 +24,23 @@ Valhuntir CLI and gateway components, forensic artifacts, and an MCP-compatible 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/AppliedIR/sift-mcp.git && cd sift-mcp
+- git clone https://github.com/AppliedIR/wintools-mcp.git; cd wintools-mcp
+- git clone https://github.com/AppliedIR/sift-mcp.git
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- OSD["OpenSearch<br/>Docker :9200"]
+- The **Examiner Portal** (vhir portal) is the primary review interface — an 8-tab browser UI where examiners review, edit, approve, and reject findings and timeline events. The Commit button requires the examiner's pas...
+- | OpenSearch | SIFT (Docker) | 9200 | Evidence search engine. Local or remote. Optional. |
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Valhuntir is **LLM client agnostic** — connect any locally installed MCP-compatible client through the gateway. Supported clients include Claude Code, Claude Desktop, Cherry Studio, self-hosted LibreChat, and any clie...
+- With [opensearch-mcp](https://github.com/AppliedIR/opensearch-mcp), evidence is parsed programmatically and indexed into OpenSearch, giving the LLM 17 purpose-built query tools instead of consuming billions of tokens...
+- | **Valhuntir + OpenSearch** | Above + evidence indexing | 32 GB | 32 GB | 100 GB + evidence/extractions/indices | OpenSearch JVM 6 GB, container 8 GB. Can run on separate host. |
 
-```
-Follow the upstream Valhuntir setup to install the CLI and supporting components, connect a supported local MCP-compatible client, and run investigations with the documented approval and evidence-review controls.
-```
+- Source: https://github.com/AppliedIR/Valhuntir
+- Extracted from upstream docs: https://raw.githubusercontent.com/AppliedIR/Valhuntir/HEAD/README.md
 
 ## Documentation
 

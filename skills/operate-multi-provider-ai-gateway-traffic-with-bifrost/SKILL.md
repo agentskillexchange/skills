@@ -1,14 +1,14 @@
 ---
-title: "Operate multi-provider AI gateway traffic with Bifrost"
+name: "Operate multi-provider AI gateway traffic with Bifrost"
+slug: "operate-multi-provider-ai-gateway-traffic-with-bifrost"
 description: "Run Bifrost as an OpenAI-compatible gateway so agents can route model calls across providers with failover, load balancing, caching, and governance."
+github_stars: 5969
 verification: "security_reviewed"
 source: "https://github.com/maximhq/bifrost"
 author: "Maxim AI"
 publisher_type: "company"
-category:
-  - "Integrations & Connectors"
-framework:
-  - "Multi-Framework"
+category: "Integrations & Connectors"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "maximhq/bifrost"
   github_stars: 5969
@@ -26,19 +26,22 @@ Bifrost gateway, provider API keys, and an agent or application stack that can c
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx -y @maximhq/bifrost
+- docker run -p 8080:8080 maximhq/bifrost
+- docker run -p 8080:8080 -v $(pwd)/data:/app/data maximhq/bifrost
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- ![Docker Pulls](https://img.shields.io/docker/pulls/maximhq/bifrost)
+- [Clustering](https://docs.getbifrost.ai/enterprise/clustering) - Multi-node deployment
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 95px; height: 21px;">](https://app.getpostman.com/run-collection/31642484-2ba0e658-4dcd-49f4-845a-0c7ed745b916?action=collection%2Ffork&so...
+- ![Get started](./docs/media/getting-started.png)
+- **Go from zero to production-ready AI gateway in under a minute.**
 
-```
-Run Bifrost with npx -y @maximhq/bifrost or docker run -p 8080:8080 maximhq/bifrost, open http://localhost:8080 to configure providers and keys, then point the agent runtime at the Bifrost OpenAI-compatible endpoint.
-```
+- Source: https://github.com/maximhq/bifrost
+- Extracted from upstream docs: https://raw.githubusercontent.com/maximhq/bifrost/HEAD/README.md
 
 ## Documentation
 

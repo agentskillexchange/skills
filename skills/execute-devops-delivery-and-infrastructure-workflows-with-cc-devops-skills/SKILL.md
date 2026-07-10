@@ -1,14 +1,14 @@
 ---
-title: "Execute DevOps delivery and infrastructure workflows with cc-devops-skills"
+name: "Execute DevOps delivery and infrastructure workflows with cc-devops-skills"
+slug: "execute-devops-delivery-and-infrastructure-workflows-with-cc-devops-skills"
 description: "Use generator and validator loops for infra, CI, and platform work so agents ship operational changes with more checks and less improvisation."
+github_stars: 182
 verification: "security_reviewed"
 source: "https://github.com/akin-ozer/cc-devops-skills"
 author: "Akin Ozer"
 publisher_type: "individual"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Multi-Framework"
+category: "CI/CD Integrations"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "akin-ozer/cc-devops-skills"
   github_stars: 182
@@ -24,19 +24,23 @@ Claude Code or Codex with skills or plugin support, the repository skill pack, a
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/akin-ozer/cc-devops-skills.git ~/.codex/devops-skills
+- brew install terraform tflint terragrunt helm kubeconform kubectl hadolint
+- brew install actionlint act shellcheck prometheus yq fluent-bit
+- pipx install ansible ansible-lint checkov yamllint molecule
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- **Local-first validation pipelines**: many validator skills run shell/Python checks directly from their scripts/ folders.
+- | Docker | hadolint |
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- **14 validators** for linting, security checks, and dry-run validation
+- To run as pure passthrough (no auto-injection):
+- B --> C["Run matching validator"]
 
-```
-Install via the Claude Code marketplace, Skill Installer, or the local Codex plugin instructions documented in the README, then invoke the specific generator, validator, or k8s-debug workflow needed for the infrastructure task.
-```
+- Source: https://github.com/akin-ozer/cc-devops-skills
+- Extracted from upstream docs: https://raw.githubusercontent.com/akin-ozer/cc-devops-skills/HEAD/README.md
 
 ## Documentation
 

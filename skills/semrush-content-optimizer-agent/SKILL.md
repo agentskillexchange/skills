@@ -1,13 +1,12 @@
 ---
-title: "SEMrush Content Optimizer Agent"
+name: "SEMrush Content Optimizer Agent"
+slug: "semrush-content-optimizer-agent"
 description: "Integrates with SEMrush Writing Assistant API to analyze content against top-10 SERP competitors. Provides real-time readability scoring via Flesch-Kincaid, keyword density analysis, and semantic similarity checks using SEMrush Topic Research endpoints."
 verification: "listed"
 source: "https://www.semrush.com/features/content-marketing-tools/"
 author: "Semrush"
-category:
-  - "Content Writing & SEO"
-framework:
-  - "OpenClaw"
+category: "Content Writing & SEO"
+framework: "OpenClaw"
 ---
 
 # SEMrush Content Optimizer Agent
@@ -16,13 +15,9 @@ Integrates with SEMrush Writing Assistant API to analyze content against top-10 
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://www.semrush.com/features/content-marketing-tools/
 
 ## Documentation
 

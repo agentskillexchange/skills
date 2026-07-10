@@ -1,14 +1,14 @@
 ---
-title: "Scan project dependencies for supply-chain vulnerabilities with MurphySec"
+name: "Scan project dependencies for supply-chain vulnerabilities with MurphySec"
+slug: "scan-project-dependencies-for-supply-chain-vulnerabilities-with-murphysec"
 description: "Run MurphySec CLI against a project before release or dependency approval to detect vulnerable direct and transitive dependencies."
+github_stars: 1746
 verification: "security_reviewed"
 source: "https://github.com/murphysecurity/murphysec"
 author: "MurphySecurity"
 publisher_type: "Open-source vendor"
-category:
-  - "Security & Verification"
-framework:
-  - "Multi-Framework"
+category: "Security & Verification"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "murphysecurity/murphysec"
   github_stars: 1746
@@ -24,19 +24,17 @@ MurphySec CLI; MurphySec account access token for authentication
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- MurphySec CLI requires an access token from your MurphySec account for authentication to work properly. [What is an access token?](https://www.murphysec.com/docs/faqs/project-management/access-token.html)
+- --log-level string specify log level, must be silent|error|warn|info|debug
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- [Getting Started](#getting-started)
+- Visit the [GitHub Releases](https://github.com/murphysecurity/murphysec/releases/latest) page to download the latest version of MurphySec CLI, or install it by running:
+- wget -q https://s.murphysec.com/release/install.sh -O - | /bin/bash
 
-Install command or upstream instructions:
-
-```
-Download a release from https://github.com/murphysecurity/murphysec/releases/latest or review and run the upstream installer for your OS, authenticate with `murphysec auth login` or `--token`, then scan with `murphysec scan [project-path] --json`.
-```
+- Source: https://github.com/murphysecurity/murphysec
+- Extracted from upstream docs: https://raw.githubusercontent.com/murphysecurity/murphysec/HEAD/README.md
 
 ## Documentation
 

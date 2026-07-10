@@ -1,23 +1,23 @@
 ---
-title: "AWS S3 MCP Server"
-description: "AWS S3 MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like AWS SDK, IAM, STS, S3, Lambda, CloudWatch, DynamoDB, EC2 […]"
+name: "AWS S3 MCP Server"
+slug: "aws-s3-mcp-server"
+description: ""
+github_stars: 3632
 verification: "security_reviewed"
 source: "https://github.com/aws/aws-sdk-js-v3"
 author: "Amazon Web Services"
-category:
-  - "Developer Tools"
-framework:
-  - "MCP"
+category: "Developer Tools"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "aws/aws-sdk-js-v3"
   github_stars: 3632
   npm_package: "@aws-sdk/client-s3"
-  npm_weekly_downloads: 32117270
+  npm_weekly_downloads: 31245242
 ---
 
 # AWS S3 MCP Server
 
-AWS S3 MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like AWS SDK, IAM, STS, S3, Lambda, CloudWatch, DynamoDB, EC2 […]
+
 
 ## Prerequisites
 
@@ -25,13 +25,24 @@ Node.js, npm
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Let’s walk through setting up a project that depends on DynamoDB from the SDK and makes a simple service call. The following steps use yarn as an example. These steps assume you have Node.js and yarn already installed.
+- git clone https://github.com/aws/aws-sdk-js-v3.git
+- yarn && yarn test:all
+- yarn pack .
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- To test your universal JavaScript code in Node.js, browser and react-native environments,
+- [Node.js and ECMAScript Version Support Policy](#nodejs-and-ecmascript-version-support-policy)
+- Create a new Node.js project.
+
+Basic usage or getting-started notes:
+- [Getting Started](#getting-started)
+- Inside of the project, run: yarn add @aws-sdk/client-dynamodb. Adding packages results in update in lock file, [yarn.lock](https://yarnpkg.com/getting-started/qa/#should-lockfiles-be-committed-to-the-repository) or [p...
+- Create a new file called index.js, create a DynamoDB service client and send a request.
+
+- Source: https://github.com/aws/aws-sdk-js-v3
+- Extracted from upstream docs: https://raw.githubusercontent.com/aws/aws-sdk-js-v3/HEAD/README.md
 
 ## Documentation
 

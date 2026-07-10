@@ -1,14 +1,14 @@
 ---
-title: "Evolve reusable coding-agent skills from failed trajectories with EvoSkill"
+name: "Evolve reusable coding-agent skills from failed trajectories with EvoSkill"
+slug: "evolve-reusable-coding-agent-skills-from-failed-trajectories-with-evoskill"
 description: "Mine failed agent runs for reusable skills, benchmark the candidates, and keep only the variants that improve a supported coding agent over your baseline."
+github_stars: 489
 verification: "security_reviewed"
 source: "https://github.com/sentient-agi/EvoSkill"
 author: "Sentient"
 publisher_type: "organization"
-category:
-  - "Templates & Workflows"
-framework:
-  - "Multi-Framework"
+category: "Templates & Workflows"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "sentient-agi/EvoSkill"
   github_stars: 489
@@ -24,19 +24,23 @@ Python environment, a supported coding agent such as Claude Code, OpenCode, Open
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- uv sync
+- pip install -e .
+- brew install --cask claude-code # Claude Code
+- brew install opencode # OpenCode (v1.4.0+)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [Python API](#python-api)
+- Python 3.12+
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Also join us on [Discord](https://discord.gg/sentientfoundation) to discuss your experience, share suggestions, or show off your work!
+- ## 🤖 Supported agents
+- <table>
 
-```
-Follow the repository Quickstart to install EvoSkill, connect a supported coding agent, and run the evaluation loop against your chosen benchmark or task set.
-```
+- Source: https://github.com/sentient-agi/EvoSkill
+- Extracted from upstream docs: https://raw.githubusercontent.com/sentient-agi/EvoSkill/HEAD/README.md
 
 ## Documentation
 

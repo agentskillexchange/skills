@@ -1,14 +1,14 @@
 ---
-title: "Query real-time global intelligence through Worldmonitor MCP"
+name: "Query real-time global intelligence through Worldmonitor MCP"
+slug: "query-real-time-global-intelligence-through-worldmonitor-mcp"
 description: "Give MCP-capable agents a live global-intelligence surface for country briefs, risk scores, conflict, cyber, market, weather, and infrastructure monitoring."
+github_stars: 61437
 verification: "security_reviewed"
 source: "https://github.com/koala73/worldmonitor"
 author: "koala73"
 publisher_type: "individual"
-category:
-  - "Monitoring & Alerts"
-framework:
-  - "MCP"
+category: "Monitoring & Alerts"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "koala73/worldmonitor"
   github_stars: 61437
@@ -26,19 +26,15 @@ MCP-compatible client, Worldmonitor API key for authenticated tool calls, Node.j
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm run typecheck # Type checking
+- npm run build:full # Production build
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- | **Desktop** | Tauri 2 (Rust) with Node.js sidecar |
 
-Install command or upstream instructions:
-
-```
-For MCP, configure the Streamable HTTP endpoint at `https://worldmonitor.app/mcp` and provide `X-WorldMonitor-Key` for authenticated tool calls. For CLI use, run `npx worldmonitor tools` to list available tools or install globally with `npm install -g worldmonitor`.
-```
+- Source: https://github.com/koala73/worldmonitor
+- Extracted from upstream docs: https://raw.githubusercontent.com/koala73/worldmonitor/HEAD/README.md
 
 ## Documentation
 

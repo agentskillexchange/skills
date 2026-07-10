@@ -1,12 +1,12 @@
 ---
-title: "Cheerio DOM Extraction Pipeline"
+name: "Cheerio DOM Extraction Pipeline"
+slug: "cheerio-dom-extraction-pipeline"
 description: "Builds configurable data extraction pipelines using Cheerio for server-side DOM parsing with CSS selector chains. Supports JSONPath output mapping, pagination following, and schema validation via Ajv."
+github_stars: 30270
 verification: "listed"
 source: "https://github.com/cheeriojs/cheerio"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Codex"
+category: "Data Extraction & Transformation"
+framework: "Codex"
 tool_ecosystem:
   github_repo: "cheeriojs/cheerio"
   github_stars: 30270
@@ -20,13 +20,9 @@ Builds configurable data extraction pipelines using Cheerio for server-side DOM 
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/cheeriojs/cheerio
 
 ## Source
 

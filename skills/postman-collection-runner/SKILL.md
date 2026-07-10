@@ -1,13 +1,13 @@
 ---
-title: "Postman Collection Runner"
-description: "Postman Collection Runner is built around Postman API testing platform. The underlying ecosystem is represented by postmanlabs/postman-app-support (active GitHub adoption). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like collections, environments, Newman, scripts, assertions, monitors and preserving the operational context […]"
+name: "Postman Collection Runner"
+slug: "postman-collection-runner"
+description: ""
+github_stars: 7205
 verification: "security_reviewed"
 source: "https://github.com/postmanlabs/newman"
 author: "postmanlabs"
-category:
-  - "Library & API Reference"
-framework:
-  - "Custom Agents"
+category: "Library & API Reference"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "postmanlabs/newman"
   github_stars: 7205
@@ -17,7 +17,7 @@ tool_ecosystem:
 
 # Postman Collection Runner
 
-Postman Collection Runner is built around Postman API testing platform. The underlying ecosystem is represented by postmanlabs/postman-app-support (active GitHub adoption). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like collections, environments, Newman, scripts, assertions, monitors and preserving the operational context […]
+
 
 ## Prerequisites
 
@@ -25,19 +25,23 @@ Node.js, Postman collections
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ npm install -g newman
+- $ brew install newman
+- $ npm install -g newman-reporter-html
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [Using Newman in Docker](#using-newman-in-docker)
+- To run Newman, ensure that you have Node.js >= v16. [Install Node.js via package manager](https://nodejs.org/en/download/package-manager/).
+- The easiest way to install Newman is using NPM. If you have Node.js installed, it is most likely that you have NPM installed as well.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Newman is a command-line collection runner for Postman. It allows you to effortlessly run and test a Postman collection directly from the command-line. It is built with extensibility in mind so that you can easily int...
+- [Getting Started](#getting-started)
+- [Usage](#usage)
 
-```
-npm install -g newman
-```
+- Source: https://github.com/postmanlabs/newman
+- Extracted from upstream docs: https://raw.githubusercontent.com/postmanlabs/newman/HEAD/README.md
 
 ## Documentation
 

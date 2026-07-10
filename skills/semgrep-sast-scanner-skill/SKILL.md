@@ -1,12 +1,12 @@
 ---
-title: "Semgrep SAST Scanner"
-description: "Runs Semgrep static analysis with custom rule packs targeting OWASP Top 10 patterns. Uses semgrep CLI with –config=auto and –sarif output for GitHub Advanced Security integration and CWE-tagged finding reports."
+name: "Semgrep SAST Scanner"
+slug: "semgrep-sast-scanner-skill"
+description: "Runs Semgrep static analysis with custom rule packs targeting OWASP Top 10 patterns. Uses semgrep CLI with --config=auto and --sarif output for GitHub Advanced Security integration and CWE-tagged finding reports."
+github_stars: 14794
 verification: "security_reviewed"
 source: "https://github.com/semgrep/semgrep"
-category:
-  - "Code Quality & Review"
-framework:
-  - "OpenClaw"
+category: "Code Quality & Review"
+framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "semgrep/semgrep"
   github_stars: 14794
@@ -14,17 +14,28 @@ tool_ecosystem:
 
 # Semgrep SAST Scanner
 
-Runs Semgrep static analysis with custom rule packs targeting OWASP Top 10 patterns. Uses semgrep CLI with –config=auto and –sarif output for GitHub Advanced Security integration and CWE-tagged finding reports.
+Runs Semgrep static analysis with custom rule packs targeting OWASP Top 10 patterns. Uses semgrep CLI with --config=auto and --sarif output for GitHub Advanced Security integration and CWE-tagged finding reports.
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ brew install semgrep
+- $ docker run -it -v "${PWD}:/src" semgrep/semgrep semgrep login
+- $ docker run -e SEMGREP_APP_TOKEN=<TOKEN> --rm -v "${PWD}:/src" semgrep/semgrep semgrep ci
+- $ brew upgrade semgrep
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <a href="https://hub.docker.com/r/semgrep/semgrep">
+- <img src="https://img.shields.io/docker/pulls/semgrep/semgrep.svg?style=flat-square" alt="Docker Pulls" />
+- <img src="https://img.shields.io/docker/pulls/semgrep/semgrep.svg?style=flat-square" alt="Docker Pulls (Old)" />
+
+Basic usage or getting-started notes:
+- Semgrep is a fast, open-source, static analysis tool that searches code, finds bugs, and enforces secure guardrails and coding standards. Semgrep [supports 30+ languages](#language-support) and can run in an IDE, as a...
+- [From the Semgrep AppSec Platform](#option-1-getting-started-from-the-semgrep-appsec-platform-recommended)
+- [From the CLI](#option-2-getting-started-from-the-cli)
+
+- Source: https://github.com/semgrep/semgrep
+- Extracted from upstream docs: https://raw.githubusercontent.com/semgrep/semgrep/HEAD/README.md
 
 ## Source
 

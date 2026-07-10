@@ -1,14 +1,14 @@
 ---
-title: "Bulk import and reconcile large photo archives into Immich without manual re-upload loops using immich-go"
+name: "Bulk import and reconcile large photo archives into Immich without manual re-upload loops using immich-go"
+slug: "bulk-import-and-reconcile-large-photo-archives-into-immich-without-manual-re-upload-loops-using-immich-go"
 description: "Move big photo libraries, takeouts, and nested albums into Immich with metadata intact instead of babysitting one-off uploads."
+github_stars: 5979
 verification: "security_reviewed"
 source: "https://github.com/simulot/immich-go"
 author: "simulot"
 publisher_type: "individual"
-category:
-  - "Image & Creative Automation"
-framework:
-  - "Multi-Framework"
+category: "Image & Creative Automation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "simulot/immich-go"
   github_stars: 5979
@@ -24,19 +24,20 @@ Immich server access, immich-go binary, source media library or takeout export, 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/simulot/immich-go.git
+- go install
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- No prerequisites needed - just download and run!
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- This guide covers all installation methods for Immich-Go across different platforms.
+- ### For Pre-built Binaries
+- ### For Building from Source
 
-```
-Install immich-go from the project release or build instructions, configure access to the target Immich instance, then run the documented import or reconcile flow against the source media library or takeout export.
-```
+- Source: https://github.com/simulot/immich-go
+- Extracted from upstream docs: https://raw.githubusercontent.com/simulot/immich-go/HEAD/docs/installation.md
 
 ## Documentation
 

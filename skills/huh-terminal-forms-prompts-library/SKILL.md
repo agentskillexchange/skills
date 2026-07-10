@@ -1,12 +1,12 @@
 ---
-title: "Huh Interactive Terminal Forms and Prompts Library for Go"
+name: "Huh Interactive Terminal Forms and Prompts Library for Go"
+slug: "huh-terminal-forms-prompts-library"
 description: "Huh by Charmbracelet is a Go library for building interactive forms and prompts in the terminal. It supports input fields, selects, multi-selects, text areas, and confirmations with built-in validation, theming, and accessibility support for screen readers."
+github_stars: 6784
 verification: "security_reviewed"
 source: "https://github.com/charmbracelet/huh"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "charmbracelet/huh"
   github_stars: 6784
@@ -18,13 +18,13 @@ Huh by Charmbracelet is a Go library for building interactive forms and prompts 
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- The above example is running from a single Go program ([source](./examples/burger/main.go)).
+- Finally, run the form:
+- err := form.Run()
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/charmbracelet/huh
+- Extracted from upstream docs: https://raw.githubusercontent.com/charmbracelet/huh/HEAD/README.md
 
 ## Source
 

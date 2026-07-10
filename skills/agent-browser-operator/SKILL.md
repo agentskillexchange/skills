@@ -1,20 +1,19 @@
 ---
-title: "Agent Browser Operator"
+name: "Agent Browser Operator"
+slug: "agent-browser-operator"
 description: "Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations."
+github_stars: 89986
 verification: "security_reviewed"
 source: "https://github.com/microsoft/playwright"
 author: "Microsoft"
 publisher_type: "open_source_collective"
-category:
-  - "Browser Automation"
-framework:
-  - "Custom Agents"
-  - "OpenClaw"
+category: "Browser Automation"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "microsoft/playwright"
   github_stars: 89986
   npm_package: "playwright"
-  npm_weekly_downloads: 65367396
+  npm_weekly_downloads: 63790589
 ---
 
 # Agent Browser Operator
@@ -27,19 +26,20 @@ OpenClaw, browser tool (OpenClaw-managed or Chrome extension relay)
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install -g @playwright/cli@latest
+- npm i playwright
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Playwright is also available for [Python](https://playwright.dev/python/docs/intro), [.NET](https://playwright.dev/dotnet/docs/intro), and [Java](https://playwright.dev/java/docs/intro).
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- bash
+- Optionally install skills for richer agent integration:
+- playwright-cli install --skills
 
-```
-npm init playwright@latest
-```
+- Source: https://github.com/microsoft/playwright
+- Extracted from upstream docs: https://raw.githubusercontent.com/microsoft/playwright/HEAD/README.md
 
 ## Documentation
 

@@ -1,13 +1,13 @@
 ---
-title: "Deepgram Real-Time Transcription Connector"
-description: "Streams live audio to Deepgram’s WebSocket API at wss://api.deepgram.com/v1/listen for real-time speech-to-text. Handles interim results, utterance detection, and speaker diarization via the Deepgram Node SDK."
+name: "Deepgram Real-Time Transcription Connector"
+slug: "deepgram-realtime-transcription-connector"
+description: "Streams live audio to Deepgram's WebSocket API at wss://api.deepgram.com/v1/listen for real-time speech-to-text. Handles interim results, utterance detection, and speaker diarization via the Deepgram Node SDK."
+github_stars: 260
 verification: "security_reviewed"
 source: "https://github.com/deepgram/deepgram-js-sdk"
 author: "Deepgram"
-category:
-  - "Media & Transcription"
-framework:
-  - "MCP"
+category: "Media & Transcription"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "deepgram/deepgram-js-sdk"
   github_stars: 260
@@ -17,7 +17,7 @@ tool_ecosystem:
 
 # Deepgram Real-Time Transcription Connector
 
-Streams live audio to Deepgram’s WebSocket API at wss://api.deepgram.com/v1/listen for real-time speech-to-text. Handles interim results, utterance detection, and speaker diarization via the Deepgram Node SDK.
+Streams live audio to Deepgram's WebSocket API at wss://api.deepgram.com/v1/listen for real-time speech-to-text. Handles interim results, utterance detection, and speaker diarization via the Deepgram Node SDK.
 
 ## Prerequisites
 
@@ -25,19 +25,24 @@ Node.js
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install @deepgram/sdk
+- pnpm install
+- make build
+- make test
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Node.js 18+](https://img.shields.io/badge/node-18+-blue.svg)](https://nodejs.org/)
+- Your proxy must set the Authorization: token DEEPGRAM_API_KEY header and forward requests to Deepgram's API. See our example [Deepgram Node Proxy](https://github.com/deepgram-devs/deepgram-node-proxy).
+- Node.js 18+
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- bash
+- ## Reference
+- **[API Reference](./reference.md)** - Complete reference for all SDK methods and parameters
 
-```
-npm install @deepgram/sdk
-```
+- Source: https://github.com/deepgram/deepgram-js-sdk
+- Extracted from upstream docs: https://raw.githubusercontent.com/deepgram/deepgram-js-sdk/HEAD/README.md
 
 ## Documentation
 

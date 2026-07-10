@@ -1,14 +1,14 @@
 ---
-title: "Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed"
+name: "Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed"
+slug: "catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed"
 description: "Use CodSpeed when an agent needs benchmark runs compared in CI and surfaced on pull requests before performance regressions merge."
+github_stars: 143
 verification: "security_reviewed"
 source: "https://github.com/CodSpeedHQ/codspeed"
 author: "CodSpeed"
 publisher_type: "company"
-category:
-  - "Code Quality & Review"
-framework:
-  - "Multi-Framework"
+category: "Code Quality & Review"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "CodSpeedHQ/codspeed"
   github_stars: 143
@@ -26,19 +26,22 @@ A repository with executable benchmarks or benchmark commands, a CI system such 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- codspeed run cargo codspeed run
+- codspeed run pnpm vitest bench
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- 🐍 **Multi-language support** for Python, Rust, Node.js, Go, C/C++ and more.
+- codspeed exec -- python my_script.py
+- codspeed exec --mode walltime -- node app.js
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- 🏠 **Run locally or in CI** - works on your machine and integrates with GitHub Actions, GitLab CI, and more.
+- bash
+- [!NOTE]
 
-```
-Install the CLI with curl -fsSL https://codspeed.io/install.sh | bash or use the official CodSpeed GitHub Action, authenticate the project, then run codspeed exec for direct command benchmarks or codspeed run to wrap an existing benchmark suite in CI and pull requests.
-```
+- Source: https://github.com/CodSpeedHQ/codspeed
+- Extracted from upstream docs: https://raw.githubusercontent.com/CodSpeedHQ/codspeed/HEAD/README.md
 
 ## Documentation
 

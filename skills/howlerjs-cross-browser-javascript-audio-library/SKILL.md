@@ -1,12 +1,12 @@
 ---
-title: "Howler.js Cross-Browser JavaScript Audio Library"
+name: "Howler.js Cross-Browser JavaScript Audio Library"
+slug: "howlerjs-cross-browser-javascript-audio-library"
 description: "Howler.js is a JavaScript audio library for the modern web that defaults to the Web Audio API with an HTML5 Audio fallback. With nearly 25,000 GitHub stars and 580,000 weekly npm downloads, it provides a single reliable API for audio playback, spatial sound, sprites, and streaming across all browsers and platforms."
+github_stars: 25240
 verification: "security_reviewed"
 source: "https://github.com/goldfire/howler.js"
-category:
-  - "Media & Transcription"
-framework:
-  - "Multi-Framework"
+category: "Media & Transcription"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "goldfire/howler.js"
   github_stars: 25240
@@ -20,13 +20,18 @@ Howler.js is a JavaScript audio library for the modern web that defaults to the 
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- const {Howl, Howler} = require('howler');
+- **howler.spatial**: This is a plugin that adds spatial/stereo audio functionality. It requires howler.core to operate as it is simply an add-on to the core.
+- Sets the panner node's attributes for a sound or group of sounds. See the pannerAttr method for all available options.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- [Quick Start](#quick-start)
+- Several options to get up and running:
+- Clone the repo: git clone https://github.com/goldfire/howler.js.git
+
+- Source: https://github.com/goldfire/howler.js
+- Extracted from upstream docs: https://raw.githubusercontent.com/goldfire/howler.js/HEAD/README.md
 
 ## Source
 

@@ -1,12 +1,12 @@
 ---
-title: "dbt Model Lineage & Test Coverage Checker"
+name: "dbt Model Lineage & Test Coverage Checker"
+slug: "dbt-model-lineage-test-coverage-2"
 description: "Parses dbt project artifacts (manifest.json and catalog.json) to build a lineage graph and identify models with no tests, stale documentation, or missing uniqueness assertions. Integrates with dbt Cloud API to fetch latest run results and annotates each model with pass/fail status."
+github_stars: 12621
 verification: "security_reviewed"
 source: "https://github.com/dbt-labs/dbt-core"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Cursor"
+category: "Data Extraction & Transformation"
+framework: "Cursor"
 tool_ecosystem:
   github_repo: "dbt-labs/dbt-core"
   github_stars: 12621
@@ -18,13 +18,13 @@ Parses dbt project artifacts (manifest.json and catalog.json) to build a lineage
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- [Install dbt Core](https://docs.getdbt.com/docs/get-started/installation) or explore the [dbt Cloud CLI](https://docs.getdbt.com/docs/cloud/cloud-cli-installation), a command-line interface powered by [dbt Cloud](http...
+- Read the [introduction](https://docs.getdbt.com/docs/introduction/) and [viewpoint](https://docs.getdbt.com/docs/about/viewpoint/)
+- ## Join the dbt Community
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/dbt-labs/dbt-core
+- Extracted from upstream docs: https://raw.githubusercontent.com/dbt-labs/dbt-core/HEAD/README.md
 
 ## Source
 

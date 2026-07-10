@@ -1,12 +1,12 @@
 ---
-title: "Linear MCP Server for Issue Tracking and Project Management"
+name: "Linear MCP Server for Issue Tracking and Project Management"
+slug: "linear-mcp-server-issue-tracking-project-management"
 description: "An MCP server that integrates Linear project management with AI assistants. Enables creating, searching, updating, and commenting on Linear issues, managing projects and teams, and querying workflows through the Model Context Protocol."
+github_stars: 346
 verification: "security_reviewed"
 source: "https://github.com/jerhadf/linear-mcp-server"
-category:
-  - "Integrations & Connectors"
-framework:
-  - "MCP"
+category: "Integrations & Connectors"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "jerhadf/linear-mcp-server"
   github_stars: 346
@@ -18,13 +18,19 @@ An MCP server that integrates Linear project management with AI assistants. Enab
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx @smithery/cli install linear-mcp-server --client claude
+- npm install
+- npm run build
+- npm run watch
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- ### Automatic Installation
+- To install the Linear MCP server for Claude Desktop automatically via [Smithery](https://smithery.ai/protocol/linear-mcp-server):
+- bash
+
+- Source: https://github.com/jerhadf/linear-mcp-server
+- Extracted from upstream docs: https://raw.githubusercontent.com/jerhadf/linear-mcp-server/HEAD/README.md
 
 ## Source
 

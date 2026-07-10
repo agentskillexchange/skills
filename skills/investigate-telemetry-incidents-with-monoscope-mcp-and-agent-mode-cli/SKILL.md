@@ -1,14 +1,14 @@
 ---
-title: "Investigate telemetry incidents with Monoscope MCP and agent-mode CLI"
+name: "Investigate telemetry incidents with Monoscope MCP and agent-mode CLI"
+slug: "investigate-telemetry-incidents-with-monoscope-mcp-and-agent-mode-cli"
 description: "Connect agents to Monoscope so they can query logs, traces, metrics, monitors, and issues through stable JSON CLI output or MCP tools for incident triage."
+github_stars: 1130
 verification: "security_reviewed"
 source: "https://github.com/monoscope-tech/monoscope"
 author: "monoscope-tech"
 publisher_type: "open_source"
-category:
-  - "Monitoring & Alerts"
-framework:
-  - "MCP"
+category: "Monitoring & Alerts"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "monoscope-tech/monoscope"
   github_stars: 1130
@@ -24,19 +24,24 @@ Monoscope cloud or self-hosted stack, S3-compatible storage, OpenTelemetry or te
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/monoscope-tech/monoscope.git
+- docker-compose up
+- npx skills add monoscope-tech/skills
+- pip install opentelemetry-distro opentelemetry-exporter-otlp
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <summary><b>Python</b></summary>
+- opentelemetry-instrument python myapp.py
+- <summary><b>Node.js</b></summary>
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- <a href="#what-is-monoscope">What is Monoscope?</a> • <a href="#cloud-vs-self-hosted">Cloud vs Self-hosted</a> • <a href="#quick-start">Quick Start</a> • <a href="#ai-agents--reports">AI Agents</a> • <a href="#roadmap...
+- 🤖 **AI agents** — Create agents that run on a schedule to detect anomalies and surface insights
+- | **Pricing** | [Usage-based](https://monoscope.tech/pricing) | Free (AGPL-3.0) |
 
-```
-Clone https://github.com/monoscope-tech/monoscope and run docker-compose up for self-hosting, or use Monoscope cloud. Install the CLI with the upstream install script and set MONOSCOPE_AGENT_MODE=1 for JSON output, or configure the MCP endpoint at https://api.monoscope.tech/api/v1/mcp with an Authorization header.
-```
+- Source: https://github.com/monoscope-tech/monoscope
+- Extracted from upstream docs: https://raw.githubusercontent.com/monoscope-tech/monoscope/HEAD/README.md
 
 ## Documentation
 

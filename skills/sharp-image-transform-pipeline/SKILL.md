@@ -1,12 +1,12 @@
 ---
-title: "Sharp Image Transform Pipeline"
+name: "Sharp Image Transform Pipeline"
+slug: "sharp-image-transform-pipeline"
 description: "Builds composable image processing pipelines using the Sharp library with libvips bindings for Node.js. Chains resize, crop, overlay, and format conversion operations with streaming I/O, EXIF metadata preservation, and ICC color profile management."
+github_stars: 32138
 verification: "security_reviewed"
 source: "https://github.com/lovell/sharp"
-category:
-  - "Image & Creative Automation"
-framework:
-  - "OpenClaw"
+category: "Image & Creative Automation"
+framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "lovell/sharp"
   github_stars: 32138
@@ -20,13 +20,16 @@ Builds composable image processing pipelines using the Sharp library with libvip
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install sharp
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- The typical use case for this high speed Node-API module
+- that provide support for Node-API v9, including
+- Node.js (^18.17.0 or >= 20.3.0), Deno and Bun.
+
+- Source: https://github.com/lovell/sharp
+- Extracted from upstream docs: https://raw.githubusercontent.com/lovell/sharp/HEAD/README.md
 
 ## Source
 

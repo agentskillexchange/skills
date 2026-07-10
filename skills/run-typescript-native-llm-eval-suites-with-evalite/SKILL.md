@@ -1,14 +1,14 @@
 ---
-title: "Run TypeScript-native LLM eval suites with Evalite"
+name: "Run TypeScript-native LLM eval suites with Evalite"
+slug: "run-typescript-native-llm-eval-suites-with-evalite"
 description: "Use Evalite when a TypeScript team needs repeatable Vitest-style eval runs for LLM apps before prompt, model, or workflow changes ship."
+github_stars: 1600
 verification: "listed"
 source: "https://github.com/mattpocock/evalite"
 author: "Matt Pocock"
 publisher_type: "individual"
-category:
-  - "Code Quality & Review"
-framework:
-  - "Multi-Framework"
+category: "Code Quality & Review"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "mattpocock/evalite"
   github_stars: 1600
@@ -26,19 +26,9 @@ Node.js, a TypeScript project, Evalite npm package, model/provider credentials a
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Install Evalite in a TypeScript project with `npm install evalite` or the package manager used by the repo, then add eval files, datasets, and scorers before running the Evalite test command documented upstream.
-```
+- Source: https://github.com/mattpocock/evalite
 
 ## Documentation
 

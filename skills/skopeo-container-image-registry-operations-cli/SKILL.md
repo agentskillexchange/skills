@@ -1,12 +1,12 @@
 ---
-title: "Skopeo Container Image Registry Operations CLI"
+name: "Skopeo Container Image Registry Operations CLI"
+slug: "skopeo-container-image-registry-operations-cli"
 description: "Skopeo is a command-line tool for working with container images and registries without requiring a running daemon. It can inspect, copy, delete, and sync container images across registries, supporting OCI and Docker v2 formats with rootless operation."
+github_stars: 10665
 verification: "security_reviewed"
 source: "https://github.com/containers/skopeo"
-category:
-  - "Security & Verification"
-framework:
-  - "Custom Agents"
+category: "Security & Verification"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "containers/skopeo"
   github_stars: 10665
@@ -18,13 +18,17 @@ Skopeo is a command-line tool for working with container images and registries w
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- skopeo does not require the user to be running as root to do most of its operations.
+- skopeo does not require a daemon to be running to perform its operations.
+- skopeo can work with [OCI images](https://github.com/opencontainers/image-spec) as well as the original Docker v2 images.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- For example you can copy images from one registry to another, without requiring privilege.
+- skopeo uses credentials from the --creds (for skopeo inspect|delete) or --src-creds|--dest-creds (for skopeo copy) flags, if set; otherwise it uses configuration set by skopeo login, podman login, buildah login, or do...
+
+- Source: https://github.com/containers/skopeo
+- Extracted from upstream docs: https://raw.githubusercontent.com/containers/skopeo/HEAD/README.md
 
 ## Source
 

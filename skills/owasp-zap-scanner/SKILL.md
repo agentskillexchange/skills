@@ -1,13 +1,13 @@
 ---
-title: "OWASP ZAP Scanner"
-description: "OWASP ZAP Scanner is built around OWASP security tooling ecosystem. The underlying ecosystem is represented by zaproxy/zaproxy (14,896+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like ZAP scanning, passive/active checks, auth contexts, alerts, HTTP spidering and preserving […]"
+name: "OWASP ZAP Scanner"
+slug: "owasp-zap-scanner"
+description: ""
+github_stars: 14978
 verification: "security_reviewed"
 source: "https://github.com/zaproxy/zaproxy"
 author: "zaproxy"
-category:
-  - "Security & Verification"
-framework:
-  - "Custom Agents"
+category: "Security & Verification"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "zaproxy/zaproxy"
   github_stars: 14978
@@ -15,7 +15,7 @@ tool_ecosystem:
 
 # OWASP ZAP Scanner
 
-OWASP ZAP Scanner is built around OWASP security tooling ecosystem. The underlying ecosystem is represented by zaproxy/zaproxy (14,896+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like ZAP scanning, passive/active checks, auth contexts, alerts, HTTP spidering and preserving […]
+
 
 ## Prerequisites
 
@@ -23,13 +23,14 @@ Java or Docker
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- ![Docker Live Release](https://github.com/zaproxy/zaproxy/actions/workflows/release-live-docker.yml/badge.svg)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- ![Integration Tests](https://github.com/zaproxy/zaproxy/actions/workflows/run-integration-tests.yml/badge.svg)
+
+- Source: https://github.com/zaproxy/zaproxy
+- Extracted from upstream docs: https://raw.githubusercontent.com/zaproxy/zaproxy/HEAD/README.md
 
 ## Documentation
 

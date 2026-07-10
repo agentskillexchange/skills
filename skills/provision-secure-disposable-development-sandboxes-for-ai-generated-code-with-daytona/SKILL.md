@@ -1,14 +1,14 @@
 ---
-title: "Provision secure disposable development sandboxes for AI-generated code with Daytona"
+name: "Provision secure disposable development sandboxes for AI-generated code with Daytona"
+slug: "provision-secure-disposable-development-sandboxes-for-ai-generated-code-with-daytona"
 description: "Spin up isolated, reproducible sandboxes where agents can run generated code, install dependencies, execute tests, and discard state safely."
+github_stars: 72383
 verification: "security_reviewed"
 source: "https://github.com/daytonaio/daytona"
 author: "Daytona"
 publisher_type: "organization"
-category:
-  - "Security & Verification"
-framework:
-  - "Multi-Framework"
+category: "Security & Verification"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "daytonaio/daytona"
   github_stars: 72383
@@ -24,19 +24,23 @@ Daytona SDK or CLI, sandbox-capable runtime, target code or repository
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install daytona
+- npm install @daytona/sdk
+- gem install daytona
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Sandboxes are the core component of the Daytona platform, spinning up in under 90ms from code to execution and running any code in Python, TypeScript, and JavaScript. Built on OCI/Docker compatibility, massive paralle...
+- #### Python
+- Standalone packages and libraries for interacting with Daytona using Python:
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Run AI Code.
+- [runner](apps/runner): compute nodes that power Daytona's compute plane and run sandboxes
+- Daytona is available as a managed service on [app.daytona.io](https://app.daytona.io). Daytona can run as a fully hosted service, as an open-source stack you operate, or in a hybrid setup where Daytona orchestrates sa...
 
-```
-Follow the Daytona docs to install the CLI or SDK, configure credentials/runtime, create a sandbox for the target task, run the agent-generated commands inside it, then stop or remove the sandbox after reviewing outputs.
-```
+- Source: https://github.com/daytonaio/daytona
+- Extracted from upstream docs: https://raw.githubusercontent.com/daytonaio/daytona/HEAD/README.md
 
 ## Documentation
 

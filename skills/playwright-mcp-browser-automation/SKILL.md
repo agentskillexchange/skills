@@ -1,22 +1,19 @@
 ---
-title: "Playwright MCP Browser Automation"
+name: "Playwright MCP Browser Automation"
+slug: "playwright-mcp-browser-automation"
 description: "Official Playwright-powered browser control for agent workflows."
+github_stars: 33289
 verification: "security_reviewed"
 source: "https://github.com/microsoft/playwright-mcp"
 author: "Microsoft"
 publisher_type: "company"
-category:
-  - "Browser Automation"
-framework:
-  - "Claude Code"
-  - "Cursor"
-  - "MCP"
-  - "OpenClaw"
+category: "Browser Automation"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "microsoft/playwright-mcp"
   github_stars: 33289
   npm_package: "@playwright/mcp"
-  npm_weekly_downloads: 5696935
+  npm_weekly_downloads: 5999263
 ---
 
 # Playwright MCP Browser Automation
@@ -29,19 +26,24 @@ Node.js, Playwright, MCP client or host environment
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx @playwright/mcp@latest --config path/to/config.json
+- npx @playwright/mcp@latest --port 8931
+- docker run -d -i --rm --init --pull=always \
+- docker build -t mcr.microsoft.com/playwright/mcp .
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Node.js 18 or newer
+- node utils/generate-links.js
+- | --extension | Connect to a running browser instance (Edge/Chrome only). Requires the "Playwright Extension" to be installed.<br>*env* PLAYWRIGHT_MCP_EXTENSION |
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- VS Code, Cursor, Windsurf, Claude Desktop, Goose, Junie or any other MCP client
+- <!--
+- // Generate using:
 
-```
-Install from the GitHub repository and register as an MCP server in the host agent environment. Requires Node.js and Playwright.
-```
+- Source: https://github.com/microsoft/playwright-mcp
+- Extracted from upstream docs: https://raw.githubusercontent.com/microsoft/playwright-mcp/HEAD/README.md
 
 ## Documentation
 

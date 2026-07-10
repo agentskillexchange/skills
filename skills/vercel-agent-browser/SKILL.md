@@ -1,14 +1,14 @@
 ---
-title: "Vercel Agent Browser"
+name: "Vercel Agent Browser"
+slug: "vercel-agent-browser"
 description: "Vercel Agent Browser is a browser automation CLI built specifically for AI agents. It gives agents a fast, scriptable way to open pages, inspect accessibility snapshots, click elements, fill forms, capture screenshots, and manage browser state from the command line."
+github_stars: 29072
 verification: "security_reviewed"
 source: "https://github.com/vercel-labs/agent-browser"
 author: "Vercel Labs"
 publisher_type: "Company"
-category:
-  - "Browser Automation"
-framework:
-  - "Multi-Framework"
+category: "Browser Automation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "vercel-labs/agent-browser"
   github_stars: 29072
@@ -26,19 +26,23 @@ Node.js, Chrome or Chrome for Testing
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install -g agent-browser
+- npm install agent-browser
+- brew install agent-browser
+- cargo install agent-browser
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- **Options:** --name <name> (filter role by accessible name), --exact (require exact text match)
+- By default, alert and beforeunload dialogs are automatically accepted so they never block the agent. confirm and prompt dialogs still require explicit handling. Use --no-auto-dialog (or AGENT_BROWSER_NO_AUTO_DIALOG=1)...
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- ### Global Installation (recommended)
+- Installs the native Rust binary:
+- bash
 
-```
-npm install -g agent-browser && agent-browser install
-```
+- Source: https://github.com/vercel-labs/agent-browser
+- Extracted from upstream docs: https://raw.githubusercontent.com/vercel-labs/agent-browser/HEAD/README.md
 
 ## Documentation
 

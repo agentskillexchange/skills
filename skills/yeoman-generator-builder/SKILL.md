@@ -1,13 +1,13 @@
 ---
-title: "Yeoman Generator Builder"
+name: "Yeoman Generator Builder"
+slug: "yeoman-generator-builder"
 description: "Creates custom Yeoman generators using the yeoman-generator API and yo CLI. Scaffolds generator packages with prompting, writing, and install phases, supporting composability via this.composeWith() for multi-generator workflows."
+github_stars: 1262
 verification: "listed"
 source: "https://github.com/yeoman/generator"
 author: "Yeoman"
-category:
-  - "Templates & Workflows"
-framework:
-  - "OpenClaw"
+category: "Templates & Workflows"
+framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "yeoman/generator"
   github_stars: 1262
@@ -25,19 +25,9 @@ Node.js
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-npm install yeoman-generator
-```
+- Source: https://github.com/yeoman/generator
 
 ## Documentation
 

@@ -1,13 +1,12 @@
 ---
-title: "Content Cannibalization Detector"
+name: "Content Cannibalization Detector"
+slug: "content-cannibalization-detector"
 description: "Identifies keyword cannibalization across site pages by analyzing Google Search Console Performance API data, extracting query-page pairings, and detecting overlap using TF-IDF cosine similarity scoring. Generates merge recommendations and 301 redirect maps via Screaming Frog exports."
 verification: "listed"
 source: "https://developers.google.com/webmaster-tools/v1/searchanalytics/query"
 author: "Google"
-category:
-  - "Content Writing & SEO"
-framework:
-  - "Gemini"
+category: "Content Writing & SEO"
+framework: "Gemini"
 ---
 
 # Content Cannibalization Detector
@@ -16,17 +15,9 @@ Identifies keyword cannibalization across site pages by analyzing Google Search 
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-## Documentation
-
-- https://developers.google.com/webmaster-tools/v1/searchanalytics/query
+- Source: https://agentskillexchange.com/skills/content-cannibalization-detector/
 
 ## Source
 

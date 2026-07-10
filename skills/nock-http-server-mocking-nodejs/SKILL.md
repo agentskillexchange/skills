@@ -1,13 +1,13 @@
 ---
-title: "Nock HTTP Server Mocking and Expectations Library for Node.js"
+name: "Nock HTTP Server Mocking and Expectations Library for Node.js"
+slug: "nock-http-server-mocking-nodejs"
 description: "Nock is an HTTP server mocking and expectations library for Node.js that intercepts outgoing HTTP requests and provides programmable responses. With over 13,000 GitHub stars and 5.5 million weekly npm downloads, it is one of the most widely used testing utilities in the JavaScript ecosystem."
+github_stars: 13101
 verification: "security_reviewed"
 source: "https://github.com/nock/nock"
 author: "nock"
-category:
-  - "Code Quality & Review"
-framework:
-  - "Multi-Framework"
+category: "Code Quality & Review"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "nock/nock"
   github_stars: 13101
@@ -21,13 +21,21 @@ Nock is an HTTP server mocking and expectations library for Node.js that interce
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ npm install --save-dev nock
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- HTTP server mocking and expectations library for Node.js
+- [Node version support](#node-version-support)
+- Nock works by overriding Node's http.request function. Also, it overrides http.ClientRequest too to cover for modules that use it directly.
+
+Basic usage or getting-started notes:
+- [Usage](#usage)
+- [Usage](#usage-1)
+- [Example](#example)
+
+- Source: https://github.com/nock/nock
+- Extracted from upstream docs: https://raw.githubusercontent.com/nock/nock/HEAD/README.md
 
 ## Documentation
 

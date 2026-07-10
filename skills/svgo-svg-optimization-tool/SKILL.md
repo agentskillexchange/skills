@@ -1,12 +1,12 @@
 ---
-title: "SVGO SVG Optimization Tool"
+name: "SVGO SVG Optimization Tool"
+slug: "svgo-svg-optimization-tool"
 description: "An agent skill built on SVGO (SVG Optimizer), the Node.js tool for optimizing SVG files by applying a configurable set of transformation plugins. Removes unnecessary metadata, simplifies paths, collapses groups, and reduces SVG file sizes for faster web rendering."
+github_stars: 22412
 verification: "security_reviewed"
 source: "https://github.com/svg/svgo"
-category:
-  - "Image & Creative Automation"
-framework:
-  - "Multi-Framework"
+category: "Image & Creative Automation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "svg/svgo"
   github_stars: 22412
@@ -20,13 +20,22 @@ An agent skill built on SVGO (SVG Optimizer), the Node.js tool for optimizing SV
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install -g svgo
+- yarn global add svgo
+- pnpm add -g svgo
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- SVGO, short for **SVG O**ptimizer, is a Node.js library and command-line application for optimizing SVG files.
+- You can install SVGO globally through npm, yarn, or pnpm. Alternatively, drop the global flag (global/-g) to use it in your Node.js project.
+
+Basic usage or getting-started notes:
+- sh
+- # npm
+- # yarn
+
+- Source: https://github.com/svg/svgo
+- Extracted from upstream docs: https://raw.githubusercontent.com/svg/svgo/HEAD/README.md
 
 ## Source
 

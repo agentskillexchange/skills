@@ -1,14 +1,14 @@
 ---
-title: "Use PandasAI for conversational CSV and spreadsheet analysis"
+name: "Use PandasAI for conversational CSV and spreadsheet analysis"
+slug: "use-pandasai-for-conversational-csv-and-spreadsheet-analysis"
 description: "Load tabular data with PandasAI and ask natural-language analysis questions while keeping generated transformations inspectable."
+github_stars: 23563
 verification: "security_reviewed"
 source: "https://github.com/sinaptik-ai/pandas-ai"
 author: "Sinaptik AI"
 publisher_type: "open_source"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Multi-Framework"
+category: "Data Extraction & Transformation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "sinaptik-ai/pandas-ai"
   github_stars: 23563
@@ -24,19 +24,21 @@ Python 3.8-3.11; pandasai; pandasai-litellm or another supported LLM connector
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install pandasai
+- pip install pandasai-litellm
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- PandasAI is a Python library that makes it easy to ask questions to your data in natural language. It helps non-technical users to interact with their data in a more natural way, and it helps technical users to save t...
+- ### Python Requirements
+- Python version 3.8+ <=3.11
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- # 🔧 Getting started
+- ### 💻 Usage
 
-```
-Install with pip install pandasai pandasai-litellm, configure an LLM provider, load a CSV or dataframe, and call df.chat() with a bounded analysis question.
-```
+- Source: https://github.com/sinaptik-ai/pandas-ai
+- Extracted from upstream docs: https://raw.githubusercontent.com/sinaptik-ai/pandas-ai/HEAD/README.md
 
 ## Documentation
 

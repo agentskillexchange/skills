@@ -1,12 +1,12 @@
 ---
-title: "WP-CLI Command-Line Interface for WordPress"
+name: "WP-CLI Command-Line Interface for WordPress"
+slug: "wp-cli-command-line-interface-wordpress"
 description: "Builds repeatable WordPress maintenance and content workflows around WP-CLI, the official command-line interface for WordPress. Useful for plugin management, database tasks, user administration, search-replace operations, and scripted publishing without living inside wp-admin."
+github_stars: 5044
 verification: "security_reviewed"
 source: "https://github.com/wp-cli/wp-cli"
-category:
-  - "WordPress & CMS"
-framework:
-  - "Multi-Framework"
+category: "WordPress & CMS"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "wp-cli/wp-cli"
   github_stars: 5044
@@ -18,13 +18,13 @@ Builds repeatable WordPress maintenance and content workflows around WP-CLI, the
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- WP-CLI also includes commands for many things you can't do in the WordPress admin. For example, wp transient delete --all ([doc](https://developer.wordpress.org/cli/commands/transient/delete/)) lets you delete one or...
+- For a more complete introduction to using WP-CLI, read the [Quick Start guide](https://make.wordpress.org/cli/handbook/quick-start/). Or, catch up with [shell friends](https://make.wordpress.org/cli/handbook/shell-fri...
+- Downloading the Phar file is the recommended installation method for most users. See the documentation for [alternative installation methods](https://make.wordpress.org/cli/handbook/installing/) ([Composer](https://ma...
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/wp-cli/wp-cli
+- Extracted from upstream docs: https://raw.githubusercontent.com/wp-cli/wp-cli/HEAD/README.md
 
 ## Source
 

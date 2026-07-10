@@ -1,14 +1,14 @@
 ---
-title: "Run Shopify Admin product order customer and inventory workflows through MCP"
+name: "Run Shopify Admin product order customer and inventory workflows through MCP"
+slug: "run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp"
 description: "Expose Shopify Admin API operations to MCP clients for supervised ecommerce catalog, order, customer, and inventory work."
+github_stars: 15
 verification: "security_reviewed"
 source: "https://github.com/antoineschaller/shopify-mcp-server"
 author: "antoineschaller"
 publisher_type: "open_source"
-category:
-  - "Integrations & Connectors"
-framework:
-  - "MCP"
+category: "Integrations & Connectors"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "antoineschaller/shopify-mcp-server"
   github_stars: 15
@@ -26,19 +26,20 @@ Shopify store/Admin API access, MCP client, API credentials with least-privilege
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install -g @akson/mcp-shopify
+- npm install @akson/mcp-shopify
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Node.js >= 14.0.0
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- ### Global Installation (Recommended)
+- bash
+- ### Local Installation
 
-```
-Install the server from the repository, configure Shopify Admin API credentials and allowed scopes, then connect it to a trusted MCP client for supervised store-operations workflows.
-```
+- Source: https://github.com/antoineschaller/shopify-mcp-server
+- Extracted from upstream docs: https://raw.githubusercontent.com/antoineschaller/shopify-mcp-server/HEAD/README.md
 
 ## Documentation
 

@@ -1,12 +1,11 @@
 ---
-title: "CodeClimate Diff Analyzer"
+name: "CodeClimate Diff Analyzer"
+slug: "codeclimate-diff-analyzer-2"
 description: "Runs CodeClimate analysis on pull request diffs using the CLI engine and reports new issues inline. Calculates maintainability impact scores per changed file."
 verification: "security_reviewed"
 source: "https://codeclimate.com/"
-category:
-  - "Code Quality & Review"
-framework:
-  - "Claude Code"
+category: "Code Quality & Review"
+framework: "Claude Code"
 ---
 
 # CodeClimate Diff Analyzer
@@ -15,13 +14,11 @@ Runs CodeClimate analysis on pull request diffs using the CLI engine and reports
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Two companies running the same AI tooling will get wildly different results, because the result depends on how the company already works. The teams' habits. The leadership's expectations. The way decisions actually ge...
+- We're deliberately taking a small number of new conversations with leaders who look at the current state of "AI Impact" and feel that there must be more to the story than token counting and tool usage. If that's you,...
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://codeclimate.com/
 
 ## Source
 

@@ -1,13 +1,13 @@
 ---
-title: "Concurrently Parallel Command Runner for npm Scripts"
+name: "Concurrently Parallel Command Runner for npm Scripts"
+slug: "concurrently-parallel-command-runner"
 description: "Concurrently runs multiple commands in parallel with color-coded output, prefix labels, and process lifecycle management. With 14M+ weekly npm downloads, it is the standard tool for running dev servers, watchers, and build processes simultaneously."
+github_stars: 7727
 verification: "security_reviewed"
 source: "https://github.com/open-cli-tools/concurrently"
 author: "open-cli-tools"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "open-cli-tools/concurrently"
   github_stars: 7727
@@ -21,13 +21,21 @@ Concurrently runs multiple commands in parallel with color-coded output, prefix 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm run watch-js & npm run watch-css. That's fine but it's hard to keep
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- The tool is written in Node.js, but you can use it to run **any** commands.
+- const concurrently = require('concurrently');
+- See [Node.js docs](https://nodejs.org/docs/latest/api/child_process.html#subprocesssendmessage-sendhandle-options-callback).
+
+Basic usage or getting-started notes:
+- Run multiple commands concurrently.
+- Like npm run watch-js & npm run watch-less but better.
+- [Usage](#usage)
+
+- Source: https://github.com/open-cli-tools/concurrently
+- Extracted from upstream docs: https://raw.githubusercontent.com/open-cli-tools/concurrently/HEAD/README.md
 
 ## Documentation
 

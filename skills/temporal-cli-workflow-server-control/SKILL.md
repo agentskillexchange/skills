@@ -1,14 +1,14 @@
 ---
-title: "Temporal CLI Workflow and Server Control"
+name: "Temporal CLI Workflow and Server Control"
+slug: "temporal-cli-workflow-server-control"
 description: "Temporal CLI runs a local Temporal server and talks to workflows, activities, and namespaces. It is the practical command-line companion for Temporal development and debugging."
+github_stars: 350
 verification: "security_reviewed"
 source: "https://github.com/temporalio/cli"
 author: "Temporal"
 publisher_type: "Company"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "temporalio/cli"
   github_stars: 350
@@ -24,19 +24,22 @@ Go, Docker, or a downloaded Temporal binary depending on install path
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew install temporal
+- docker run --rm temporalio/temporal --help
+- docker run --rm -p 7233:7233 -p 8233:8233 temporalio/temporal:latest server start-dev --ip 0.0.0.0
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- ### Run via Docker
+- [Temporal CLI on DockerHub](https://hub.docker.com/r/temporalio/temporal)
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Download the version for your OS and architecture:
+- [Linux amd64](https://temporal.download/cli/archive/latest?platform=linux&arch=amd64)
+- [Linux arm64](https://temporal.download/cli/archive/latest?platform=linux&arch=arm64)
 
-```
-brew install temporal
-```
+- Source: https://github.com/temporalio/cli
+- Extracted from upstream docs: https://raw.githubusercontent.com/temporalio/cli/HEAD/README.md
 
 ## Documentation
 

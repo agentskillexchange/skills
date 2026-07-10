@@ -1,12 +1,12 @@
 ---
-title: "Tekton Pipeline Generator"
+name: "Tekton Pipeline Generator"
+slug: "tekton-pipeline-generator"
 description: "Scaffolds Tekton CI/CD pipelines and tasks using the Tekton Hub API and kubectl. Generates PipelineRun manifests with workspace bindings, result propagation, and sidecar configurations."
+github_stars: 8936
 verification: "security_reviewed"
 source: "https://github.com/tektoncd/pipeline"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Gemini"
+category: "CI/CD Integrations"
+framework: "Gemini"
 tool_ecosystem:
   github_repo: "tektoncd/pipeline"
   github_stars: 8936
@@ -18,13 +18,13 @@ Scaffolds Tekton CI/CD pipelines and tasks using the Tekton Hub API and kubectl.
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- Run on Kubernetes
+- The Tasks which make up a Pipeline can easily be run in isolation
+- Jump in with [the "Getting started" tutorial!](https://tekton.dev/docs/getting-started/tasks/)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/tektoncd/pipeline
+- Extracted from upstream docs: https://raw.githubusercontent.com/tektoncd/pipeline/HEAD/README.md
 
 ## Source
 

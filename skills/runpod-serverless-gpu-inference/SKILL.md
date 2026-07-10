@@ -1,12 +1,11 @@
 ---
-title: "RunPod Serverless GPU Inference"
+name: "RunPod Serverless GPU Inference"
+slug: "runpod-serverless-gpu-inference"
 description: "Deploy and manage GPU inference endpoints on RunPod Serverless using their REST API. Handles endpoint creation, cold start optimization, request queuing, and auto-scaling configuration for image generation models."
 verification: "security_reviewed"
 source: "https://docs.runpod.io/serverless/overview"
-category:
-  - "Image & Creative Automation"
-framework:
-  - "Claude Agents"
+category: "Image & Creative Automation"
+framework: "Claude Agents"
 ---
 
 # RunPod Serverless GPU Inference
@@ -15,13 +14,19 @@ Deploy and manage GPU inference endpoints on RunPod Serverless using their REST 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Make API requests
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- The container instances that execute your code when requests arrive at your endpoint. Each worker runs your custom Docker container with your application code and dependencies. Runpod automatically manages worker life...
+- Build and push the worker image to Docker Hub (or another container registry).
+
+Basic usage or getting-started notes:
+- Concepts
+- Manage API keys
+- Agent skills NEW
+
+- Source: https://docs.runpod.io/serverless/overview
 
 ## Source
 

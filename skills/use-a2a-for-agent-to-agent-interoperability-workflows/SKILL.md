@@ -1,14 +1,14 @@
 ---
-title: "Use A2A for agent-to-agent interoperability workflows"
+name: "Use A2A for agent-to-agent interoperability workflows"
+slug: "use-a2a-for-agent-to-agent-interoperability-workflows"
 description: "Expose agent capabilities and route tasks across independent agent runtimes with the Agent2Agent protocol."
+github_stars: 24109
 verification: "security_reviewed"
 source: "https://github.com/a2aproject/A2A"
 author: "a2aproject"
 publisher_type: "organization"
-category:
-  - "Integrations & Connectors"
-framework:
-  - "Multi-Framework"
+category: "Integrations & Connectors"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "a2aproject/A2A"
   github_stars: 24109
@@ -26,19 +26,16 @@ A2A specification, one or more A2A SDKs, agent runtimes to expose or connect
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- [🐍 A2A Python SDK](https://github.com/a2aproject/a2a-python) pip install a2a-sdk
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- 📚 **Explore the Documentation:** Visit the [Agent2Agent Protocol Documentation Site](https://a2a-protocol.org) for a complete overview, the full protocol specification, tutorials, and guides.
+- 📝 **View the Specification:** [A2A Protocol Specification](https://a2a-protocol.org/latest/specification/)
+- Use the SDKs:
 
-Install command or upstream instructions:
-
-```
-Read the A2A protocol documentation, choose the SDK that matches the target runtime, for example `pip install a2a-sdk`, `go get github.com/a2aproject/a2a-go`, or `npm install @a2a-js/sdk`, then use the samples to expose and connect agent capabilities.
-```
+- Source: https://github.com/a2aproject/A2A
+- Extracted from upstream docs: https://raw.githubusercontent.com/a2aproject/A2A/HEAD/README.md
 
 ## Documentation
 

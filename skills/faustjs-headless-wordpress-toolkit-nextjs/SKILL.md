@@ -1,12 +1,12 @@
 ---
-title: "Faust.js Headless WordPress Toolkit for Next.js"
+name: "Faust.js Headless WordPress Toolkit for Next.js"
+slug: "faustjs-headless-wordpress-toolkit-nextjs"
 description: "Faust.js by WP Engine is a JavaScript framework and WordPress plugin that streamlines building headless WordPress sites with Next.js. It handles data fetching via WPGraphQL, authentication, content previews, and server-side rendering, providing a production-ready bridge between WordPress as a CMS and React-based frontends."
+github_stars: 1568
 verification: "security_reviewed"
 source: "https://github.com/wpengine/faustjs"
-category:
-  - "WordPress & CMS"
-framework:
-  - "Multi-Framework"
+category: "WordPress & CMS"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "wpengine/faustjs"
   github_stars: 1568
@@ -18,13 +18,15 @@ Faust.js by WP Engine is a JavaScript framework and WordPress plugin that stream
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Node.js v18 or newer. npm v8 or newer.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- [Getting started with Next.js](https://faustjs.org/docs/getting-started)
+- There are two key parts to Faust.js: the NPM packages and the WordPress plugin. To take full advantage of headless, you will need to install the plugin in addition to the npm packages.
+
+- Source: https://github.com/wpengine/faustjs
+- Extracted from upstream docs: https://raw.githubusercontent.com/wpengine/faustjs/HEAD/README.md
 
 ## Source
 

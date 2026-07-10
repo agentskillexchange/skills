@@ -1,13 +1,13 @@
 ---
-title: "Regex Pattern Test Suite Generator"
+name: "Regex Pattern Test Suite Generator"
+slug: "regex-pattern-test-suite-generator"
 description: "Generates comprehensive test suites for regular expressions using Hypothesis property-based testing and re2 for safe evaluation. Creates positive/negative test cases, edge cases, and ReDoS vulnerability checks."
+github_stars: 8605
 verification: "security_reviewed"
 source: "https://github.com/HypothesisWorks/hypothesis"
 author: "HypothesisWorks"
-category:
-  - "Developer Tools"
-framework:
-  - "Cursor"
+category: "Developer Tools"
+framework: "Cursor"
 tool_ecosystem:
   github_repo: "HypothesisWorks/hypothesis"
   github_stars: 8605
@@ -19,13 +19,20 @@ Generates comprehensive test suites for regular expressions using Hypothesis pro
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install hypothesis
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Hypothesis is the property-based testing library for Python. With Hypothesis, you write tests which should pass for all inputs in whatever range you describe, and let Hypothesis randomly choose which of those inputs t...
+- python
+
+Basic usage or getting-started notes:
+- This randomized testing can catch bugs and edge cases that you didn't think of and wouldn't have found. In addition, when Hypothesis does find a bug, it doesn't just report any failing example — it reports the simples...
+- fails with the simplest possible failing example:
+- Falsifying example: test_matches_builtin(ls=[0, 0])
+
+- Source: https://github.com/HypothesisWorks/hypothesis
+- Extracted from upstream docs: https://raw.githubusercontent.com/HypothesisWorks/hypothesis/HEAD/README.md
 
 ## Source
 

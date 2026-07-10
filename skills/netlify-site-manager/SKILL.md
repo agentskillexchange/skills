@@ -1,13 +1,13 @@
 ---
-title: "Netlify Site Manager"
-description: "Netlify Site Manager is built around Netlify deployment platform. The underlying ecosystem is represented by netlify/cli (1,837+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like sites API, deploy previews, functions, env vars, build hooks, edge functions and […]"
+name: "Netlify Site Manager"
+slug: "netlify-site-manager"
+description: ""
+github_stars: 1843
 verification: "security_reviewed"
 source: "https://github.com/netlify/cli"
 author: "netlify"
-category:
-  - "Templates & Workflows"
-framework:
-  - "Custom Agents"
+category: "Templates & Workflows"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "netlify/cli"
   github_stars: 1843
@@ -17,7 +17,7 @@ tool_ecosystem:
 
 # Netlify Site Manager
 
-Netlify Site Manager is built around Netlify deployment platform. The underlying ecosystem is represented by netlify/cli (1,837+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like sites API, deploy previews, functions, env vars, build hooks, edge functions and […]
+
 
 ## Prerequisites
 
@@ -25,19 +25,21 @@ Node.js, Netlify CLI
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install netlify-cli -g
+- npm install --save-dev netlify-cli
+- npm link from inside the cli folder
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Netlify CLI requires [Node.js](https://nodejs.org) version 20.12.2 or above. To install, run the following command from
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [Netlify Dev](https://github.com/netlify/cli/blob/main/docs/commands/dev.md) to run your site locally.
+- [Usage](#usage)
+- any directory in your terminal:
 
-```
-npm install netlify-cli -g
-```
+- Source: https://github.com/netlify/cli
+- Extracted from upstream docs: https://raw.githubusercontent.com/netlify/cli/HEAD/README.md
 
 ## Documentation
 

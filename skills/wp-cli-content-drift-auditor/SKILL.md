@@ -1,13 +1,13 @@
 ---
-title: "WP-CLI Content Drift Auditor"
+name: "WP-CLI Content Drift Auditor"
+slug: "wp-cli-content-drift-auditor"
 description: "Audits WordPress content drift by comparing live posts, revisions, and key options using WP-CLI commands like `wp post list`, `wp post meta get`, and `wp option get`. Useful for catching accidental edits, stale templates, and mismatches between REST output and database state before they turn into site-wide regressions."
+github_stars: 5048
 verification: "security_reviewed"
 source: "https://github.com/wp-cli/wp-cli"
 author: "wp-cli"
-category:
-  - "WordPress & CMS"
-framework:
-  - "OpenClaw"
+category: "WordPress & CMS"
+framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "wp-cli/wp-cli"
   github_stars: 5048
@@ -19,13 +19,13 @@ Audits WordPress content drift by comparing live posts, revisions, and key optio
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- WP-CLI also includes commands for many things you can't do in the WordPress admin. For example, wp transient delete --all ([doc](https://developer.wordpress.org/cli/commands/transient/delete/)) lets you delete one or...
+- For a more complete introduction to using WP-CLI, read the [Quick Start guide](https://make.wordpress.org/cli/handbook/quick-start/). Or, catch up with [shell friends](https://make.wordpress.org/cli/handbook/shell-fri...
+- Downloading the Phar file is the recommended installation method for most users. See the documentation for [alternative installation methods](https://make.wordpress.org/cli/handbook/installing/) ([Composer](https://ma...
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/wp-cli/wp-cli
+- Extracted from upstream docs: https://raw.githubusercontent.com/wp-cli/wp-cli/HEAD/README.md
 
 ## Source
 

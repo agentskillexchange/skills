@@ -1,14 +1,14 @@
 ---
-title: "Validate Python Docstrings Against Function Signatures with pydoclint"
+name: "Validate Python Docstrings Against Function Signatures with pydoclint"
+slug: "validate-python-docstrings-against-function-signatures-with-pydoclint"
 description: "Check that Python docstrings stay consistent with parameters, returns, and raised exceptions as code evolves."
+github_stars: 208
 verification: "security_reviewed"
 source: "https://github.com/jsh9/pydoclint"
 author: "jsh9"
 publisher_type: "individual"
-category:
-  - "Code Quality & Review"
-framework:
-  - "Multi-Framework"
+category: "Code Quality & Review"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "jsh9/pydoclint"
   github_stars: 208
@@ -24,19 +24,22 @@ Python, pydoclint, Python source tree
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install pydoclint
+- pip install pydoclint[flake8]
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- _Pydoclint_ is a Python docstring linter to check whether a docstring's
+- Here is a comparison of linting time on some famous Python projects:
+- also install _flake8_ to the current Python environment:
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [Google](https://www.sphinx-doc.org/en/master/usage/extensions/example_google.html),
+- [2. Usage](#2-usage)
+- To install only the native _pydoclint_ tooling, run this command:
 
-```
-Install with pip, then run it over the package or changed files you want to verify: pip install pydoclint && pydoclint path/to/package
-```
+- Source: https://github.com/jsh9/pydoclint
+- Extracted from upstream docs: https://raw.githubusercontent.com/jsh9/pydoclint/HEAD/README.md
 
 ## Documentation
 

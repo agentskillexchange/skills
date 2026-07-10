@@ -1,14 +1,13 @@
 ---
-title: "Generate reproducible algorithmic art sketches with seeded p5.js randomness"
+name: "Generate reproducible algorithmic art sketches with seeded p5.js randomness"
+slug: "generate-reproducible-algorithmic-art-sketches-with-seeded-p5js-randomness"
 description: "Use the Anthropic algorithmic-art skill when an agent should turn a creative brief into executable generative art, not into a static image prompt or a generic design suggestion. It directs the agent toward a repeatable p5.js workflow with seeded randomness, parameter controls, and an explicit creative philosophy."
 verification: "security_reviewed"
 source: "https://github.com/anthropics/skills/tree/main/skills/algorithmic-art"
 author: "Anthropic"
 publisher_type: "official_repository"
-category:
-  - "Image & Creative Automation"
-framework:
-  - "Claude Agents"
+category: "Image & Creative Automation"
+framework: "Claude Agents"
 ---
 
 # Generate reproducible algorithmic art sketches with seeded p5.js randomness
@@ -21,19 +20,16 @@ p5.js, HTML viewer
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- The frontmatter requires only two fields:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Select document-skills or example-skills
+- /plugin install example-skills@anthropic-agent-skills
+- These example skills are all already available to paid plans in Claude.ai.
 
-Install command or upstream instructions:
-
-```
-Use the upstream Anthropic algorithmic-art skill from the anthropics/skills repository in an agent environment that can write HTML and JavaScript files and preview p5.js sketches.
-```
+- Source: https://github.com/anthropics/skills/tree/main/skills/algorithmic-art
+- Extracted from upstream docs: https://raw.githubusercontent.com/anthropics/skills/HEAD/README.md
 
 ## Documentation
 

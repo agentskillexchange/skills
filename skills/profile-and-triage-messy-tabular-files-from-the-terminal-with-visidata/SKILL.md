@@ -1,14 +1,14 @@
 ---
-title: "Profile and triage messy tabular files from the terminal with VisiData"
+name: "Profile and triage messy tabular files from the terminal with VisiData"
+slug: "profile-and-triage-messy-tabular-files-from-the-terminal-with-visidata"
 description: "Inspect CSV, TSV, JSON, and parquet drops interactively, spot suspicious columns fast, and decide the next cleanup step without opening a spreadsheet."
+github_stars: 9025
 verification: "security_reviewed"
 source: "https://github.com/saulpw/visidata"
 author: "saulpw"
 publisher_type: "individual"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Multi-Framework"
+category: "Data Extraction & Transformation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "saulpw/visidata"
   github_stars: 9025
@@ -24,19 +24,24 @@ Python 3, VisiData, tabular data files
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pipx run visidata # or: uvx visidata
+- pipx install visidata # or: uv tool install visidata
+- pipx install visidata --preinstall openpyxl --preinstall lxml
+- pipx inject visidata openpyxl lxml
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Python 3.8+
+- additional Python modules are required for certain formats and sources
+- Additional Python packages are needed for some formats:
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- To install the latest release from PyPi:
+- pip3 install visidata
+- To try VisiData without installing, use [pipx](https://pipx.pypa.io/) or [uv](https://docs.astral.sh/uv/):
 
-```
-Install with `pip install visidata` or your preferred package manager, then open files with `vd data.csv` or another supported format and use profiling, selection, and aggregation commands to drive cleanup decisions.
-```
+- Source: https://github.com/saulpw/visidata
+- Extracted from upstream docs: https://raw.githubusercontent.com/saulpw/visidata/HEAD/README.md
 
 ## Documentation
 

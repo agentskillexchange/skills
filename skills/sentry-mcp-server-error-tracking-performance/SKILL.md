@@ -1,13 +1,13 @@
 ---
-title: "Sentry MCP Server for Error Tracking and Performance"
+name: "Sentry MCP Server for Error Tracking and Performance"
+slug: "sentry-mcp-server-error-tracking-performance"
 description: "The official Sentry MCP server gives AI agents access to Sentry error tracking, issue management, and performance telemetry through the Model Context Protocol, enabling automated incident triage, error analysis, and release monitoring workflows."
+github_stars: 615
 verification: "security_reviewed"
 source: "https://github.com/getsentry/sentry-mcp"
 author: "Sentry"
-category:
-  - "Monitoring & Alerts"
-framework:
-  - "MCP"
+category: "Monitoring & Alerts"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "getsentry/sentry-mcp"
   github_stars: 615
@@ -21,13 +21,23 @@ The official Sentry MCP server gives AI agents access to Sentry error tracking, 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx @sentry/mcp-server@latest --access-token=sentry-user-token
+- npx @sentry/mcp-server@latest --access-token=TOKEN --host=sentry.example.com --disable-skills=seer
+- npx @sentry/mcp-server@latest --access-token=TOKEN --host=sentry.internal:9000 --insecure-http
+- pnpm inspector
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- **Note:** The AI-powered search tools (search_events, search_issues, etc.) require an LLM provider (OpenAI or Anthropic). These tools use natural language processing to translate queries into Sentry's query syntax. Wi...
+- **Evaluations** require a .env file in the project root with some config:
+
+Basic usage or getting-started notes:
+- You'll find everything you need to know by visiting the deployed service in production:
+- <https://mcp.sentry.dev>
+- If you're looking to contribute, learn how it works, or to run this for self-hosted Sentry, continue below.
+
+- Source: https://github.com/getsentry/sentry-mcp
+- Extracted from upstream docs: https://raw.githubusercontent.com/getsentry/sentry-mcp/HEAD/README.md
 
 ## Documentation
 

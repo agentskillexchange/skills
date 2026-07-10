@@ -1,12 +1,11 @@
 ---
-title: "OAuth2 Flow Debugger"
+name: "OAuth2 Flow Debugger"
+slug: "oauth2-flow-debugger"
 description: "Inspects and debugs OAuth 2.0 authorization flows including PKCE, client credentials, and device code grants. Uses jose JWT library and node-fetch to validate tokens, decode claims, and trace redirect chains."
 verification: "listed"
 source: "https://oauth.net/2/"
-category:
-  - "Security & Verification"
-framework:
-  - "ChatGPT Agents"
+category: "Security & Verification"
+framework: "ChatGPT Agents"
 ---
 
 # OAuth2 Flow Debugger
@@ -15,13 +14,9 @@ Inspects and debugs OAuth 2.0 authorization flows including PKCE, client credent
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://oauth.net/2/
 
 ## Source
 

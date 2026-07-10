@@ -1,14 +1,14 @@
 ---
-title: "Install selected ECC agent skills and rules across coding harnesses"
+name: "Install selected ECC agent skills and rules across coding harnesses"
+slug: "install-selected-ecc-agent-skills-and-rules-across-coding-harnesses"
 description: "Use Everything Claude Code to install curated skills, rules, hooks, and MCP configuration into Claude Code, Codex, Cursor, OpenCode, and related coding-agent harnesses without copying the whole repo blindly."
+github_stars: 186751
 verification: "listed"
 source: "https://github.com/affaan-m/ECC"
 author: "affaan-m"
 publisher_type: "individual"
-category:
-  - "Templates & Workflows"
-framework:
-  - "Multi-Framework"
+category: "Templates & Workflows"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "affaan-m/ECC"
   github_stars: 186751
@@ -26,19 +26,23 @@ Claude Code, Codex, Cursor, OpenCode, or another supported harness; Node.js/npm 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx ecc-install --profile minimal --target claude
+- npx ecc consult "security reviews" --target claude
+- npx ecc consult "mlops training model deployment" --target claude
+- npx ecc install --profile minimal --target claude --with capability:machine-learning
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
+- If your local Claude setup was wiped or reset, that does not mean you need to repurchase ECC. Start with node scripts/ecc.js list-installed, then run node scripts/ecc.js doctor and node scripts/ecc.js repair before re...
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Get up and running in under 2 minutes:
+- ### Pick one path only
+- Most Claude Code users should use exactly one install path:
 
-```
-For Claude Code, add the marketplace with `/plugin marketplace add https://github.com/affaan-m/everything-claude-code` and install `ecc@ecc`, or use the repo's selective installer such as `./install.sh --profile minimal --target claude` or `npx ecc-install --profile minimal --target claude`; for Codex, run `npm install && bash scripts/sync-ecc-to-codex.sh` from a checked-out repo.
-```
+- Source: https://github.com/affaan-m/ECC
+- Extracted from upstream docs: https://raw.githubusercontent.com/affaan-m/ECC/HEAD/README.md
 
 ## Documentation
 

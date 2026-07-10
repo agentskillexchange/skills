@@ -1,14 +1,14 @@
 ---
-title: "Let agents control a logged-in Chrome browser through Playwriter MCP"
+name: "Let agents control a logged-in Chrome browser through Playwriter MCP"
+slug: "let-agents-control-a-logged-in-chrome-browser-through-playwriter-mcp"
 description: "Use Playwriter to give MCP-compatible agents a bounded, stateful Playwright control surface over an operator-approved Chrome session."
+github_stars: 3507
 verification: "security_reviewed"
 source: "https://github.com/remorses/playwriter"
 author: "remorses"
 publisher_type: "open_source"
-category:
-  - "Browser Automation"
-framework:
-  - "MCP"
+category: "Browser Automation"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "remorses/playwriter"
   github_stars: 3507
@@ -26,19 +26,22 @@ Playwriter Chrome extension and CLI; MCP-compatible client when using MCP mode; 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm i -g playwriter
+- npx -y skills add remorses/playwriter
+- npx -y traforo -p 19988 -t my-machine -- npx -y playwriter serve --token <secret>
+- npx -y playwriter serve --host 127.0.0.1
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Variables in scope: page, context, state (persists between calls), require, and Node.js globals.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [**Install Extension**](https://chromewebstore.google.com/detail/playwriter-mcp/jfeammnjpkecdekppnclgkkffahnhfhe) from Chrome Web Store
+- Click extension icon on a tab → turns green when connected
+- Install the CLI and start automating the browser:
 
-```
-Install the Playwriter Chrome extension or start the bundled Playwriter browser, install the CLI with npm i -g playwriter, create a session with playwriter session new, and run scoped commands with playwriter -s <session> -e '<Playwright snippet>' or configure the MCP server for a compatible client.
-```
+- Source: https://github.com/remorses/playwriter
+- Extracted from upstream docs: https://raw.githubusercontent.com/remorses/playwriter/HEAD/README.md
 
 ## Documentation
 

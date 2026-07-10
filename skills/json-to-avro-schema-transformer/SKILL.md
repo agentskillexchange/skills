@@ -1,13 +1,13 @@
 ---
-title: "JSON-to-Avro Schema Transformer"
+name: "JSON-to-Avro Schema Transformer"
+slug: "json-to-avro-schema-transformer"
 description: "Transforms JSON Schema definitions into Apache Avro schema format using the jsonschema and fastavro Python libraries. Handles nested objects, arrays, optional fields, and $ref resolution. Registers the resulting Avro schema to Confluent Schema Registry via the Schema Registry REST API."
+github_stars: 3265
 verification: "security_reviewed"
 source: "https://github.com/apache/avro"
 author: "Apache Software Foundation"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "OpenClaw"
+category: "Data Extraction & Transformation"
+framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "apache/avro"
   github_stars: 3265
@@ -19,13 +19,13 @@ Transforms JSON Schema definitions into Apache Avro schema format using the json
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- [![test python][test python img]][test python]
+- [![codeql python][codeql python img]][codeql python]
+- [test python]: https://github.com/apache/avro/actions/workflows/test-lang-py.yml
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/apache/avro
+- Extracted from upstream docs: https://raw.githubusercontent.com/apache/avro/HEAD/README.md
 
 ## Documentation
 

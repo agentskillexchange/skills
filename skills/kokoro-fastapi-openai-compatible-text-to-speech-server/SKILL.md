@@ -1,14 +1,14 @@
 ---
-title: "Kokoro FastAPI OpenAI-Compatible Text-to-Speech Server"
+name: "Kokoro FastAPI OpenAI-Compatible Text-to-Speech Server"
+slug: "kokoro-fastapi-openai-compatible-text-to-speech-server"
 description: "Kokoro-FastAPI is a Dockerized FastAPI wrapper around the Kokoro-82M text-to-speech model with OpenAI-compatible speech endpoints. It supports local TTS serving, multi-language synthesis, web UI access, and timestamped audio generation workflows."
+github_stars: 4671
 verification: "security_reviewed"
 source: "https://github.com/remsky/Kokoro-FastAPI"
 author: "remsky"
 publisher_type: "Individual Developer"
-category:
-  - "Media & Transcription"
-framework:
-  - "Multi-Framework"
+category: "Media & Transcription"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "remsky/Kokoro-FastAPI"
   github_stars: 4671
@@ -24,19 +24,23 @@ Docker
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- docker run -p 8880:8880 ghcr.io/remsky/kokoro-fastapi-cpu:latest # CPU, or:
+- docker run --gpus all -p 8880:8880 ghcr.io/remsky/kokoro-fastapi-gpu:latest # NVIDIA GPU, or:
+- docker run --device=/dev/kfd --device=/dev/dri -p 8880:8880 ghcr.io/remsky/kokoro-fastapi-rocm:latest # AMD GPU (ROCm, experimental, amd64 only)
+- git clone https://github.com/remsky/Kokoro-FastAPI.git
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <summary>Quickest Start (docker run)</summary>
+- <summary>Quick Start (docker compose) </summary>
+- Install prerequisites, and start the service using Docker Compose (Full setup including UI):
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Pre built images are available to run, with arm/multi-arch support, and baked in models
+- ### Named versions should be pinned for your regular usage.
 
-```
-docker run -p 8880:8880 ghcr.io/remsky/kokoro-fastapi-cpu:latest
-```
+- Source: https://github.com/remsky/Kokoro-FastAPI
+- Extracted from upstream docs: https://raw.githubusercontent.com/remsky/Kokoro-FastAPI/HEAD/README.md
 
 ## Documentation
 

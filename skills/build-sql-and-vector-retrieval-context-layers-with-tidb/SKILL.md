@@ -1,14 +1,14 @@
 ---
-title: "Build SQL and vector retrieval context layers with TiDB"
+name: "Build SQL and vector retrieval context layers with TiDB"
+slug: "build-sql-and-vector-retrieval-context-layers-with-tidb"
 description: "Use TiDB when an agent needs one transactional SQL store that can also hold embeddings and serve vector retrieval for RAG, memory, or app-context workflows."
+github_stars: 40235
 verification: "listed"
 source: "https://github.com/pingcap/tidb"
 author: "PingCAP"
 publisher_type: "organization"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Multi-Framework"
+category: "Data Extraction & Transformation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "pingcap/tidb"
   github_stars: 40235
@@ -24,19 +24,9 @@ TiDB or TiDB Cloud, an embedding model, SQL client or application connector, sou
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Use TiDB Cloud Serverless for the shortest setup path, or install a local TiDB test cluster with the current TiUP instructions from PingCAP's documentation. Create vector columns for embeddings, load source rows, add vector indexes where appropriate, and query with SQL filters plus vector similarity functions from the TiDB vector search docs.
-```
+- Source: https://github.com/pingcap/tidb
 
 ## Documentation
 

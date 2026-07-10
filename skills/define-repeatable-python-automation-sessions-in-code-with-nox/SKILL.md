@@ -1,14 +1,14 @@
 ---
-title: "Define repeatable Python automation sessions in code with nox"
+name: "Define repeatable Python automation sessions in code with nox"
+slug: "define-repeatable-python-automation-sessions-in-code-with-nox"
 description: "Encode test, lint, build, and docs routines as named Python sessions so humans and agents run the same workflow every time."
+github_stars: 1513
 verification: "security_reviewed"
 source: "https://github.com/wntrblm/nox"
 author: "Alicia Ramirez"
 publisher_type: "individual"
-category:
-  - "Templates & Workflows"
-framework:
-  - "Multi-Framework"
+category: "Templates & Workflows"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "wntrblm/nox"
   github_stars: 1513
@@ -24,19 +24,21 @@ Python environment, nox, and a repository with a versioned noxfile defining the 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pipx install nox
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![PyPI](https://img.shields.io/pypi/v/nox.svg?logo=python)](https://pypi.python.org/pypi/nox)
+- *Flexible test automation with Python*
+- nox is a command-line tool that automates testing in multiple Python environments, similar to [tox][]. Unlike tox, Nox uses a standard Python file for configuration:
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- session.run("pytest")
+- session.run("flake8", "--import-order-style", "google")
+- To install Nox with [pipx][]:
 
-```
-Install nox from the upstream Python package, add or review a noxfile.py with named sessions for the repository workflow, then run the desired session locally or in CI through the documented nox commands.
-```
+- Source: https://github.com/wntrblm/nox
+- Extracted from upstream docs: https://raw.githubusercontent.com/wntrblm/nox/HEAD/README.md
 
 ## Documentation
 

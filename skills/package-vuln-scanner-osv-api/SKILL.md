@@ -1,13 +1,13 @@
 ---
-title: "Package Vulnerability Scanner"
+name: "Package Vulnerability Scanner"
+slug: "package-vuln-scanner-osv-api"
 description: "Scans npm, PyPI, and Go module dependencies for known vulnerabilities using the OSV.dev API and GitHub Advisory Database. Generates SBOM reports in CycloneDX format."
+github_stars: 2626
 verification: "listed"
 source: "https://github.com/google/osv.dev"
 author: "Google"
-category:
-  - "Developer Tools"
-framework:
-  - "Codex"
+category: "Developer Tools"
+framework: "Codex"
 tool_ecosystem:
   github_repo: "google/osv.dev"
   github_stars: 2626
@@ -19,13 +19,9 @@ Scans npm, PyPI, and Go module dependencies for known vulnerabilities using the 
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/google/osv.dev
 
 ## Documentation
 

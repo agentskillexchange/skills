@@ -1,14 +1,14 @@
 ---
-title: "Build and debug AI pipelines in an IDE with RocketRide"
+name: "Build and debug AI pipelines in an IDE with RocketRide"
+slug: "build-and-debug-ai-pipelines-in-an-ide-with-rocketride"
 description: "Use RocketRide to compose, run, observe, and deploy portable AI pipelines from an IDE or CLI across model providers, vector stores, and agent nodes."
+github_stars: 3935
 verification: "security_reviewed"
 source: "https://github.com/rocketride-org/rocketride-server"
 author: "RocketRide"
 publisher_type: "organization"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "rocketride-org/rocketride-server"
   github_stars: 3935
@@ -26,19 +26,22 @@ RocketRide IDE extension or RocketRide server, Docker for container deployment, 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- docker pull ghcr.io/rocketride-org/rocketride-engine:latest
+- docker create --name rocketride-engine -p 5565:5565 ghcr.io/rocketride-org/rocketride-engine:latest
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <img src="https://raw.githubusercontent.com/rocketride-org/rocketride-server/develop/images/icon-python.png" alt="Python" />&nbsp;&nbsp;
+- <a href="https://pypi.org/project/rocketride/">Python SDK</a> |
+- _Drop pipelines into any Python or TypeScript app with a few lines of code, no infrastructure glue required._
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- <img src="https://raw.githubusercontent.com/rocketride-org/rocketride-server/develop/images/screenshot-ide.png" alt="Build and run AI pipelines inside your IDE" width="100%">
+- | **Visual Pipeline Builder** | Drag, connect, and configure nodes in VS Code, no boilerplate. Real-time observability tracks token usage, LLM calls, latency, and execution. Pipelines are portable JSON, version-contro...
+- Install the extension for your IDE. Search for RocketRide in the extension marketplace:
 
-```
-Install the RocketRide IDE extension or run the server locally, create a `.pipe` pipeline, connect the required model, data, vector, and agent nodes, then run the pipeline from the canvas, CLI, SDK, or Docker runtime.
-```
+- Source: https://github.com/rocketride-org/rocketride-server
+- Extracted from upstream docs: https://raw.githubusercontent.com/rocketride-org/rocketride-server/HEAD/README.md
 
 ## Documentation
 

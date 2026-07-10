@@ -1,12 +1,12 @@
 ---
-title: "ClickHouse Query Agent"
-description: "ClickHouse Query Agent is built around ClickHouse columnar analytics database. The underlying ecosystem is represented by ClickHouse/ClickHouse (46,508+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SQL queries, MergeTree tables, materialized views, HTTP and native clients and […]"
+name: "ClickHouse Query Agent"
+slug: "clickhouse-query-agent"
+description: ""
+github_stars: 46871
 verification: "listed"
 source: "https://github.com/ClickHouse/ClickHouse"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Custom Agents"
+category: "Data Extraction & Transformation"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "clickhouse/clickhouse"
   github_stars: 46871
@@ -14,17 +14,13 @@ tool_ecosystem:
 
 # ClickHouse Query Agent
 
-ClickHouse Query Agent is built around ClickHouse columnar analytics database. The underlying ecosystem is represented by ClickHouse/ClickHouse (46,508+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like SQL queries, MergeTree tables, materialized views, HTTP and native clients and […]
+
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/ClickHouse/ClickHouse
 
 ## Source
 

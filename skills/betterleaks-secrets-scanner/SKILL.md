@@ -1,12 +1,12 @@
 ---
-title: "Betterleaks Next-Generation Secrets Scanner"
+name: "Betterleaks Next-Generation Secrets Scanner"
+slug: "betterleaks-secrets-scanner"
 description: "A fast, configurable secrets scanner built by the creator of Gitleaks and backed by Aikido Security. Betterleaks detects leaked passwords, API keys, and tokens in git repositories, directories, and stdin with CEL-based validation and parallelized scanning."
+github_stars: 712
 verification: "security_reviewed"
 source: "https://github.com/betterleaks/betterleaks"
-category:
-  - "Security & Verification"
-framework:
-  - "Claude Code"
+category: "Security & Verification"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "betterleaks/betterleaks"
   github_stars: 712
@@ -18,13 +18,19 @@ A fast, configurable secrets scanner built by the creator of Gitleaks and backed
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew install betterleaks
+- brew install betterleaks/tap/betterleaks
+- docker pull ghcr.io/betterleaks/betterleaks:latest
+- git clone https://github.com/betterleaks/betterleaks
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- # Package managers
+- # Fedora Linux
+- sudo dnf install betterleaks
+
+- Source: https://github.com/betterleaks/betterleaks
+- Extracted from upstream docs: https://raw.githubusercontent.com/betterleaks/betterleaks/HEAD/README.md
 
 ## Source
 

@@ -1,13 +1,13 @@
 ---
-title: "Upstash MCP Server for Redis and QStash Management"
+name: "Upstash MCP Server for Redis and QStash Management"
+slug: "upstash-mcp-server-redis-qstash-management"
 description: "An official MCP server from Upstash that lets AI agents manage Redis databases, QStash message queues, and Vector stores through natural language. Supports database creation, key operations, backups, and throughput analytics via the Model Context Protocol."
+github_stars: 52
 verification: "security_reviewed"
 source: "https://github.com/upstash/mcp-server"
 author: "upstash"
-category:
-  - "Integrations & Connectors"
-framework:
-  - "MCP"
+category: "Integrations & Connectors"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "upstash/mcp-server"
   github_stars: 52
@@ -21,17 +21,19 @@ An official MCP server from Upstash that lets AI agents manage Redis databases, 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx -y @upstash/mcp-server@latest --email YOUR_EMAIL --api-key YOUR_API_KEY
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- The server sends anonymous diagnostic info to Upstash with each request: the MCP server SDK version, your runtime version (Node, Bun, etc.), and basic platform info (OS and architecture). **No account data, tool argum...
 
-## Documentation
+Basic usage or getting-started notes:
+- You'll need your Upstash account email and an API key — create one at [Upstash Console → Account → API Keys](https://console.upstash.com/account/api).
+- The Upstash MCP server works with any MCP-compatible client. If your client isn't listed below, check its documentation for how to add a stdio MCP server, then point it at the base command:
+- bash
 
-- https://github.com/upstash/mcp-server#readme
+- Source: https://github.com/upstash/mcp-server
+- Extracted from upstream docs: https://raw.githubusercontent.com/upstash/mcp-server/HEAD/README.md
 
 ## Source
 

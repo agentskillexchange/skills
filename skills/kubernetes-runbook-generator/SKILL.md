@@ -1,12 +1,12 @@
 ---
-title: "Kubernetes Runbook Generator"
+name: "Kubernetes Runbook Generator"
+slug: "kubernetes-runbook-generator"
 description: "Auto-generates operational runbooks from Kubernetes cluster state using kubectl and the Kubernetes API. Produces step-by-step troubleshooting guides for common pod failure modes."
+github_stars: 121700
 verification: "security_reviewed"
 source: "https://github.com/kubernetes/kubernetes"
-category:
-  - "Runbooks & Diagnostics"
-framework:
-  - "OpenClaw"
+category: "Runbooks & Diagnostics"
+framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "kubernetes/kubernetes"
   github_stars: 121700
@@ -18,13 +18,17 @@ Auto-generates operational runbooks from Kubernetes cluster state using kubectl 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/kubernetes/kubernetes
+- make
+- make quick-release
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- ##### You have a working [Docker environment].
+- [Docker environment]: https://docs.docker.com/engine
+
+- Source: https://github.com/kubernetes/kubernetes
+- Extracted from upstream docs: https://raw.githubusercontent.com/kubernetes/kubernetes/HEAD/README.md
 
 ## Source
 

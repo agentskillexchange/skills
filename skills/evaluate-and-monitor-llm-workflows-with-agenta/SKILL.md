@@ -1,14 +1,14 @@
 ---
-title: "Evaluate and monitor LLM workflows with Agenta"
+name: "Evaluate and monitor LLM workflows with Agenta"
+slug: "evaluate-and-monitor-llm-workflows-with-agenta"
 description: "Run prompt experiments, testset evaluations, and observability reviews for production LLM workflows before regressions reach users."
+github_stars: 4176
 verification: "listed"
 source: "https://github.com/Agenta-AI/agenta"
 author: "Agenta"
 publisher_type: "organization"
-category:
-  - "Monitoring & Alerts"
-framework:
-  - "Multi-Framework"
+category: "Monitoring & Alerts"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "Agenta-AI/agenta"
   github_stars: 4176
@@ -24,19 +24,9 @@ Agenta, LLM application traces or test cases, model/provider credentials
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Use Agenta Cloud or follow the Agenta documentation for self-hosting. Create or import test cases, connect the target LLM application or prompts, run evaluations, and review observability traces before promoting a prompt or model configuration.
-```
+- Source: https://github.com/Agenta-AI/agenta
 
 ## Documentation
 

@@ -1,12 +1,12 @@
 ---
-title: "Miniflux Self-Hosted RSS Feed Reader and Automation API"
+name: "Miniflux Self-Hosted RSS Feed Reader and Automation API"
+slug: "miniflux-self-hosted-rss-feed-reader-and-automation-api"
 description: "Use Miniflux to run a minimalist self-hosted feed reader with a clean web UI, webhooks, and API integrations. This skill helps agents subscribe to sources, organize categories, and automate article triage or downstream alerting from RSS, Atom, and JSON feeds."
+github_stars: 9064
 verification: "security_reviewed"
 source: "https://github.com/miniflux/v2"
-category:
-  - "Calendar, Email & Productivity"
-framework:
-  - "Multi-Framework"
+category: "Calendar, Email & Productivity"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "miniflux/v2"
   github_stars: 9064
@@ -18,13 +18,16 @@ Use Miniflux to run a minimalist self-hosted feed reader with a clean web UI, we
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- REST API with client libraries available in [Go](https://github.com/miniflux/v2/tree/main/client) and [Python](https://github.com/miniflux/python-client).
+- Publishes a Docker image to Docker Hub, GitHub Registry, and Quay.io Registry, with ARM and RISC-V architecture support.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- [Command Line Usage](https://miniflux.app/docs/cli.html)
+- [User Interface Usage](https://miniflux.app/docs/ui.html)
+
+- Source: https://github.com/miniflux/v2
+- Extracted from upstream docs: https://raw.githubusercontent.com/miniflux/v2/HEAD/README.md
 
 ## Source
 

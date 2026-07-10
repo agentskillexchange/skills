@@ -1,14 +1,14 @@
 ---
-title: "Generate validated analytics SQL with SQLCoder"
+name: "Generate validated analytics SQL with SQLCoder"
+slug: "generate-validated-analytics-sql-with-sqlcoder"
 description: "Use SQLCoder when an analytics agent needs to turn natural-language questions plus schema context into SQL drafts that can be reviewed, validated, and run inside a controlled data workflow."
+github_stars: 4035
 verification: "security_reviewed"
 source: "https://github.com/defog-ai/sqlcoder"
 author: "Defog"
 publisher_type: "company"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Custom Agents"
+category: "Data Extraction & Transformation"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "defog-ai/sqlcoder"
   github_stars: 4035
@@ -24,19 +24,20 @@ Python environment, SQLCoder package or Hugging Face model weights, schema metad
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install "sqlcoder[transformers]"
+- pip install "sqlcoder[llama-cpp]"
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- python inference.py -q "Question about the sample database goes here"
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- If running on a non-apple silicon computer without GPU access, please run this on Linux/Intel Mac
+- And run this on Windows
+- In your terminal, run
 
-```
-Install SQLCoder in a Python environment with the hardware-specific extra from the README, for example sqlcoder[transformers] on a supported NVIDIA GPU or sqlcoder[llama-cpp] for llama.cpp backends. Launch SQLCoder or call the inference script with schema metadata, then validate generated SQL before allowing the agent to execute it.
-```
+- Source: https://github.com/defog-ai/sqlcoder
+- Extracted from upstream docs: https://raw.githubusercontent.com/defog-ai/sqlcoder/HEAD/README.md
 
 ## Documentation
 

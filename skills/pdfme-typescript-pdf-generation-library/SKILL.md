@@ -1,13 +1,13 @@
 ---
-title: "pdfme Open Source TypeScript PDF Generation Library with WYSIWYG Designer"
+name: "pdfme Open Source TypeScript PDF Generation Library with WYSIWYG Designer"
+slug: "pdfme-typescript-pdf-generation-library"
 description: "pdfme is an open-source TypeScript and React library for generating PDFs programmatically. It includes a WYSIWYG template designer, PDF viewer, and CLI tools for validation and generation in both browser and Node.js environments."
+github_stars: 4263
 verification: "security_reviewed"
 source: "https://github.com/pdfme/pdfme"
 author: "pdfme"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "pdfme/pdfme"
   github_stars: 4263
@@ -19,13 +19,15 @@ pdfme is an open-source TypeScript and React library for generating PDFs program
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- | Works on Node and in the browser. Use templates to generate PDFs—complex operations are not required. | Anyone can easily create templates using the designer. | Templates are JSON data that is easy to understand and...
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- For complete documentation on pdfme, please refer to the [Getting Started](https://pdfme.com/docs/getting-started) guide.
+- pdfme examples --withInputs: export official example assets as a unified job you can edit and regenerate
+
+- Source: https://github.com/pdfme/pdfme
+- Extracted from upstream docs: https://raw.githubusercontent.com/pdfme/pdfme/HEAD/README.md
 
 ## Source
 

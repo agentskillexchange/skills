@@ -1,14 +1,14 @@
 ---
-title: "Give MCP clients language-server code intelligence"
+name: "Give MCP clients language-server code intelligence"
+slug: "give-mcp-clients-language-server-code-intelligence"
 description: "Expose LSP-backed definition, reference, rename, and diagnostic tools to MCP clients so coding agents can inspect code semantics before editing."
+github_stars: 1539
 verification: "security_reviewed"
 source: "https://github.com/isaacphi/mcp-language-server"
 author: "isaacphi"
 publisher_type: "individual"
-category:
-  - "Developer Tools"
-framework:
-  - "MCP"
+category: "Developer Tools"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "isaacphi/mcp-language-server"
   github_stars: 1539
@@ -24,19 +24,20 @@ MCP-capable client, Go toolchain, and a language server for the target programmi
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/isaacphi/mcp-language-server.git
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <summary>Python (pyright)</summary>
+- You will need the language servers installed locally to run them. There are tests for go, rust, python, and typescript.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- **Install Go**: Follow instructions at <https://golang.org/doc/install>
+- **Install or update this server**: go install github.com/isaacphi/mcp-language-server@latest
+- **Install a language server**: _follow one of the guides below_
 
-```
-Install the MCP server with `go install github.com/isaacphi/mcp-language-server@latest`, install the language server required for the target codebase, then configure the MCP client to launch `mcp-language-server` with the appropriate language-server command.
-```
+- Source: https://github.com/isaacphi/mcp-language-server
+- Extracted from upstream docs: https://raw.githubusercontent.com/isaacphi/mcp-language-server/HEAD/README.md
 
 ## Documentation
 

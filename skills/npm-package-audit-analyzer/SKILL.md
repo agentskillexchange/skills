@@ -1,13 +1,12 @@
 ---
-title: "NPM Package Audit Analyzer"
+name: "NPM Package Audit Analyzer"
+slug: "npm-package-audit-analyzer"
 description: "Analyzes npm package security advisories using npm audit, the npm Registry API, and the GitHub Advisory Database GraphQL API. Produces prioritized vulnerability reports with upgrade path recommendations."
 verification: "security_reviewed"
 source: "https://docs.npmjs.com/auditing-package-dependencies-for-security-vulnerabilities/"
 author: "npm, Inc."
-category:
-  - "Library & API Reference"
-framework:
-  - "Claude Agents"
+category: "Library & API Reference"
+framework: "Claude Agents"
 ---
 
 # NPM Package Audit Analyzer
@@ -16,13 +15,23 @@ Analyzes npm package security advisories using npm audit, the npm Registry API, 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm Docs
+- npm package scope, access level, and visibility
+- Docker and private modules
+- npm License
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Downloading and installing Node.js and npm
+- Try the latest stable version of node
+- Creating Node.js modules
+
+Basic usage or getting-started notes:
+- Creating a strong password
+- Receiving a one-time password over email
+- About two-factor authentication
+
+- Source: https://docs.npmjs.com/auditing-package-dependencies-for-security-vulnerabilities/
 
 ## Documentation
 

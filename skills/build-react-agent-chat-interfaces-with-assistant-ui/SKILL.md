@@ -1,14 +1,14 @@
 ---
-title: "Build React agent chat interfaces with assistant-ui"
+name: "Build React agent chat interfaces with assistant-ui"
+slug: "build-react-agent-chat-interfaces-with-assistant-ui"
 description: "Use assistant-ui to build production React chat interfaces with reusable threads, runtimes, message components, and model/provider adapters."
+github_stars: 10127
 verification: "security_reviewed"
 source: "https://github.com/assistant-ui/assistant-ui"
 author: "assistant-ui"
 publisher_type: "organization"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "assistant-ui/assistant-ui"
   github_stars: 10127
@@ -26,19 +26,18 @@ React application, @assistant-ui/react, runtime adapter such as @assistant-ui/re
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx assistant-ui@latest create # new project
+- npx assistant-ui@latest init # add to existing project
+- npm install @assistant-ui/react @assistant-ui/react-ai-sdk
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- The fastest path is the CLI, which scaffolds a Next.js app or adds the styled components to an existing project:
+- bash
+- Or install the packages directly:
 
-Install command or upstream instructions:
-
-```
-Install @assistant-ui/react and the appropriate runtime adapter such as @assistant-ui/react-ai-sdk, wrap the React app in AssistantRuntimeProvider, then connect the chat runtime to the backend model or agent endpoint.
-```
+- Source: https://github.com/assistant-ui/assistant-ui
+- Extracted from upstream docs: https://raw.githubusercontent.com/assistant-ui/assistant-ui/HEAD/README.md
 
 ## Documentation
 

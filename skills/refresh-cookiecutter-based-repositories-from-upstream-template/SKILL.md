@@ -1,14 +1,14 @@
 ---
-title: "Refresh Cookiecutter-based repositories from their upstream template without losing local answers"
-description: "Use Cruft when an agent needs to pull new changes from a Cookiecutter template into an existing generated repository without redoing the project from scratch. The agent tracks the template origin, previews the diff, applies the update, and preserves the repository’s saved answers and local customizations as carefully as possible."
+name: "Refresh Cookiecutter-based repositories from their upstream template without losing local answers"
+slug: "refresh-cookiecutter-based-repositories-from-upstream-template"
+description: "Use Cruft when an agent needs to pull new changes from a Cookiecutter template into an existing generated repository without redoing the project from scratch. The agent tracks the template origin, previews the diff, applies the update, and preserves the repository's saved answers and local customizations as carefully as possible."
+github_stars: 1564
 verification: "security_reviewed"
 source: "https://github.com/cruft/cruft"
 author: "Cruft maintainers"
 publisher_type: "Open Source Project"
-category:
-  - "Templates & Workflows"
-framework:
-  - "Multi-Framework"
+category: "Templates & Workflows"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "cruft/cruft"
   github_stars: 1564
@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Refresh Cookiecutter-based repositories from their upstream template without losing local answers
 
-Use Cruft when an agent needs to pull new changes from a Cookiecutter template into an existing generated repository without redoing the project from scratch. The agent tracks the template origin, previews the diff, applies the update, and preserves the repository’s saved answers and local customizations as carefully as possible.
+Use Cruft when an agent needs to pull new changes from a Cookiecutter template into an existing generated repository without redoing the project from scratch. The agent tracks the template origin, previews the diff, applies the update, and preserves the repository's saved answers and local customizations as carefully as possible.
 
 ## Prerequisites
 
@@ -24,19 +24,18 @@ Python plus Cruft and a repository generated from a Cookiecutter template
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://pypi.python.org/pypi/cruft/)
+- To get started - install cruft using a Python package manager:
+- cruft create https://github.com/timothycrosley/cookiecutter-python/
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- [![Build Status](https://github.com/cruft/cruft/workflows/Run%20tests/badge.svg)](https://github.com/cruft/cruft/actions?query=workflow%3A%22Run+tests%22+branch%3Amaster)
+- ![Example Usage New Project](https://raw.githubusercontent.com/cruft/cruft/master/art/example.gif)
+- ![Example Usage New Project](https://raw.githubusercontent.com/cruft/cruft/master/art/example_update.gif)
 
-Install command or upstream instructions:
-
-```
-pip install cruft
-```
+- Source: https://github.com/cruft/cruft
+- Extracted from upstream docs: https://raw.githubusercontent.com/cruft/cruft/HEAD/README.md
 
 ## Documentation
 

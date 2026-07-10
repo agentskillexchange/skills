@@ -1,14 +1,14 @@
 ---
-title: "Audit SSH servers and clients for weak algorithms and risky config drift with ssh-audit"
+name: "Audit SSH servers and clients for weak algorithms and risky config drift with ssh-audit"
+slug: "audit-ssh-servers-and-clients-for-weak-algorithms-and-risky-config-drift-with-ssh-audit"
 description: "Inspect an SSH endpoint or config for outdated ciphers, key exchange choices, and hardening gaps before exposure or upgrades."
+github_stars: 4164
 verification: "security_reviewed"
 source: "https://github.com/jtesta/ssh-audit"
 author: "jtesta"
 publisher_type: "individual"
-category:
-  - "Security & Verification"
-framework:
-  - "Multi-Framework"
+category: "Security & Verification"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "jtesta/ssh-audit"
   github_stars: 4164
@@ -24,19 +24,21 @@ Python 3 or packaged binary, network access to SSH targets
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ docker pull positronsecurity/ssh-audit
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Docker Pulls](https://img.shields.io/docker/pulls/positronsecurity/ssh-audit)](https://hub.docker.com/r/positronsecurity/ssh-audit)
+- supports Python 3.9 - 3.13;
+- -m, --manual print the man page (Docker, PyPI, Snap, and Windows
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [Usage](#usage)
+- [Server Standard Audit Example](#server-standard-audit-example)
+- [Server Policy Audit Example](#server-policy-audit-example)
 
-```
-Install from the repository or package source, then run `ssh-audit <host>` against the SSH endpoint or use its config-audit modes for local review.
-```
+- Source: https://github.com/jtesta/ssh-audit
+- Extracted from upstream docs: https://raw.githubusercontent.com/jtesta/ssh-audit/HEAD/README.md
 
 ## Documentation
 

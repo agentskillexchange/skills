@@ -1,14 +1,14 @@
 ---
-title: "OpenMeter Usage Metering and Billing Platform"
+name: "OpenMeter Usage Metering and Billing Platform"
+slug: "openmeter-usage-metering-and-billing-platform"
 description: "OpenMeter is an open-source platform for usage metering, entitlements, and billing workflows. It is useful when you need to track API or AI usage events, define meters, and connect that usage data to limits, plans, or customer-facing reporting."
+github_stars: 1899
 verification: "listed"
 source: "https://github.com/openmeterio/openmeter"
 author: "openmeterio"
 publisher_type: "Open Source Project"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "openmeterio/openmeter"
   github_stars: 1899
@@ -24,19 +24,9 @@ Docker Compose, curl, jq
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-git clone git@github.com:openmeterio/openmeter.git cd openmeter/quickstart docker compose up -d
-```
+- Source: https://github.com/openmeterio/openmeter
 
 ## Documentation
 

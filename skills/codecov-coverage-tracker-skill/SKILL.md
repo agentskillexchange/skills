@@ -1,13 +1,12 @@
 ---
-title: "Codecov Coverage Tracker"
+name: "Codecov Coverage Tracker"
+slug: "codecov-coverage-tracker-skill"
 description: "Monitors test coverage trends using the Codecov API v2 /repos/{owner}/{repo}/commits endpoint. Compares branch coverage against base, generates diff-coverage reports, and flags untested code paths in PR comments via GitHub REST API."
 verification: "security_reviewed"
 source: "https://docs.codecov.com/reference/repos_commits_list"
 author: "Codecov"
-category:
-  - "Code Quality & Review"
-framework:
-  - "ChatGPT Agents"
+category: "Code Quality & Review"
+framework: "ChatGPT Agents"
 ---
 
 # Codecov Coverage Tracker
@@ -16,13 +15,13 @@ Monitors test coverage trends using the Codecov API v2 /repos/{owner}/{repo}/com
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Shell Node Ruby PHP Python
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Click Try It! to start a request and see the response here! Or choose an example:
+
+- Source: https://docs.codecov.com/reference/repos_commits_list
 
 ## Documentation
 

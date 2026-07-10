@@ -1,12 +1,12 @@
 ---
-title: "sqlc Type-Safe SQL Code Generator"
+name: "sqlc Type-Safe SQL Code Generator"
+slug: "sqlc-type-safe-sql-code-generator"
 description: "sqlc is a SQL compiler that generates type-safe Go, Python, Kotlin, and TypeScript code from plain SQL queries. You write SQL, run sqlc, and get fully typed data access functions with compile-time safety — no ORM, no reflection, no runtime query building."
+github_stars: 17275
 verification: "security_reviewed"
 source: "https://github.com/sqlc-dev/sqlc"
-category:
-  - "Developer Tools"
-framework:
-  - "Claude Code"
+category: "Developer Tools"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "sqlc-dev/sqlc"
   github_stars: 17275
@@ -18,13 +18,15 @@ sqlc is a SQL compiler that generates type-safe Go, Python, Kotlin, and TypeScri
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- [sqlc-gen-python](https://github.com/sqlc-dev/sqlc-gen-python)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- You run sqlc to generate code with type-safe interfaces to those queries.
+- Check out [an interactive example](https://play.sqlc.dev/) to see it in action, and the [introductory blog post](https://conroy.org/introducing-sqlc) for the motivation behind sqlc.
+
+- Source: https://github.com/sqlc-dev/sqlc
+- Extracted from upstream docs: https://raw.githubusercontent.com/sqlc-dev/sqlc/HEAD/README.md
 
 ## Source
 

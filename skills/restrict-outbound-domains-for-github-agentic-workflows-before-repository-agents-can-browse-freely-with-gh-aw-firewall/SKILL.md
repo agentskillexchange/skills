@@ -1,14 +1,14 @@
 ---
-title: "Restrict outbound domains for GitHub Agentic Workflows before repository agents can browse freely with gh-aw-firewall"
+name: "Restrict outbound domains for GitHub Agentic Workflows before repository agents can browse freely with gh-aw-firewall"
+slug: "restrict-outbound-domains-for-github-agentic-workflows-before-repository-agents-can-browse-freely-with-gh-aw-firewall"
 description: "Run GitHub Agentic Workflow jobs behind a domain allowlist and optional API-key sidecar instead of giving repository agents broad outbound access."
+github_stars: 55
 verification: "security_reviewed"
 source: "https://github.com/github/gh-aw-firewall"
 author: "GitHub"
 publisher_type: "organization"
-category:
-  - "Security & Verification"
-framework:
-  - "Custom Agents"
+category: "Security & Verification"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "github/gh-aw-firewall"
   github_stars: 55
@@ -24,19 +24,18 @@ Docker 20.10+, Docker Compose v2, Linux host or compatible runtime
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- awf runs your command inside a Docker sandbox with three containers:
+- **Docker**: 20.10+ with Docker Compose v2
+- **Node.js**: 20.19.0+ (for building from source)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- **OS**: Ubuntu 22.04+ or compatible Linux distribution (x86_64 and arm64)
+- See [Compatibility](docs/compatibility.md) for full details on supported versions and tested configurations.
+- ## Get started fast
 
-Install command or upstream instructions:
-
-```
-Install with the upstream installer, for example `curl -sSL https://raw.githubusercontent.com/github/gh-aw-firewall/main/install.sh | sudo bash`, then run `awf --allow-domains <domain-list> -- <your-agentic-workflow-command>`.
-```
+- Source: https://github.com/github/gh-aw-firewall
+- Extracted from upstream docs: https://raw.githubusercontent.com/github/gh-aw-firewall/HEAD/README.md
 
 ## Documentation
 

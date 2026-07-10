@@ -1,14 +1,14 @@
 ---
-title: "Trace and evaluate agent runs with MLflow"
+name: "Trace and evaluate agent runs with MLflow"
+slug: "trace-and-evaluate-agent-runs-with-mlflow"
 description: "Instrument LLM and agent applications with MLflow tracing, evaluation, prompt tracking, and monitoring so operators can debug behavior before and after deployment."
+github_stars: 26027
 verification: "security_reviewed"
 source: "https://github.com/mlflow/mlflow"
 author: "MLflow"
 publisher_type: "organization"
-category:
-  - "Monitoring & Alerts"
-framework:
-  - "Multi-Framework"
+category: "Monitoring & Alerts"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "mlflow/mlflow"
   github_stars: 26027
@@ -24,19 +24,18 @@ Python, uv or pip, MLflow tracking server, LLM or agent application
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- [![Python SDK](https://img.shields.io/pypi/v/mlflow)](https://pypi.org/project/mlflow/)
+- python
+- MLflow provides everything you need to build, debug, evaluate, and deploy production-quality LLM applications and AI agents. Supports Python, TypeScript/JavaScript, Java and any other programming language. MLflow also...
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- **3. Run Your Code**
+- <a href="https://mlflow.org/docs/latest/genai/tracing/quickstart/">Getting Started →</a>
+- <div>Run systematic evaluations, track quality metrics over time, and catch regressions before they reach production. Choose from 50+ built-in metrics and LLM judges, or define your own.</div><br>
 
-Install command or upstream instructions:
-
-```
-Start a local tracking server with `uvx mlflow server`, point the application at it with `mlflow.set_tracking_uri("http://localhost:5000")`, then enable the relevant LLM or agent tracing integration such as `mlflow.openai.autolog()`.
-```
+- Source: https://github.com/mlflow/mlflow
+- Extracted from upstream docs: https://raw.githubusercontent.com/mlflow/mlflow/HEAD/README.md
 
 ## Documentation
 

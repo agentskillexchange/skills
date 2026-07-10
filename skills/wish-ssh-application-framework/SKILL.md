@@ -1,12 +1,12 @@
 ---
-title: "Wish SSH Application Framework by Charmbracelet"
+name: "Wish SSH Application Framework by Charmbracelet"
+slug: "wish-ssh-application-framework"
 description: "Wish is a Go library for building SSH-accessible applications with sensible defaults and composable middleware. It lets developers serve Bubble Tea TUIs, Git repos, and custom protocols over SSH without touching openssh-server."
+github_stars: 5110
 verification: "security_reviewed"
 source: "https://github.com/charmbracelet/wish"
-category:
-  - "Developer Tools"
-framework:
-  - "Custom Agents"
+category: "Developer Tools"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "charmbracelet/wish"
   github_stars: 5110
@@ -18,13 +18,19 @@ Wish is a Go library for building SSH-accessible applications with sensible defa
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Make SSH apps, just like that! 💫
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- This middleware requires that git is installed on the server.
+
+Basic usage or getting-started notes:
+- If you want to run a Wish app with systemd, you can create an unit like so:
+- You can tune the values below, and once you're happy with them, you can run:
+- # need to run this every time you change the unit file
+
+- Source: https://github.com/charmbracelet/wish
+- Extracted from upstream docs: https://raw.githubusercontent.com/charmbracelet/wish/HEAD/README.md
 
 ## Source
 

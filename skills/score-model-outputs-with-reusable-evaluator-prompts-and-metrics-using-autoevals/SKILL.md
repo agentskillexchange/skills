@@ -1,14 +1,14 @@
 ---
-title: "Score model outputs with reusable evaluator prompts and metrics using autoevals"
+name: "Score model outputs with reusable evaluator prompts and metrics using autoevals"
+slug: "score-model-outputs-with-reusable-evaluator-prompts-and-metrics-using-autoevals"
 description: "Apply reusable evaluators to model outputs when you need lightweight scoring, rationale capture, or quick eval loops in code."
+github_stars: 861
 verification: "security_reviewed"
 source: "https://github.com/braintrustdata/autoevals"
 author: "Braintrust"
 publisher_type: "organization"
-category:
-  - "Code Quality & Review"
-framework:
-  - "Multi-Framework"
+category: "Code Quality & Review"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "braintrustdata/autoevals"
   github_stars: 861
@@ -26,19 +26,24 @@ Python or Node.js, access to an OpenAI-compatible model endpoint or Braintrust p
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install autoevals
+- pip install autoevals
+- npx braintrust run example.eval.js
+- To install the development dependencies, run make develop, and run source env.sh to activate the environment. Make a .env file from the .env.example file and set the environment variables. Run direnv allow to load the...
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Python 3.9 or higher
+- Compatible with both OpenAI Python SDK v0.x and v1.x
+- ### Python
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- project but are implemented so you can flexibly run them on individual examples, tweak the prompts, and debug
+- </div>
+- <div className="tabs">
 
-```
-Install with `npm install autoevals` or `pip install autoevals`, configure an OpenAI-compatible endpoint, then call the built-in or custom evaluators from code to score outputs and inspect rationales.
-```
+- Source: https://github.com/braintrustdata/autoevals
+- Extracted from upstream docs: https://raw.githubusercontent.com/braintrustdata/autoevals/HEAD/README.md
 
 ## Documentation
 

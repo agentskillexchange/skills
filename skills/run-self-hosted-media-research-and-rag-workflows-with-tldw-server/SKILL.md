@@ -1,14 +1,14 @@
 ---
-title: "Run self-hosted media research and RAG workflows with tldw_server"
+name: "Run self-hosted media research and RAG workflows with tldw_server"
+slug: "run-self-hosted-media-research-and-rag-workflows-with-tldw-server"
 description: "Use tldw_server when an agent workflow needs to ingest video, audio, documents, and web pages into a local research layer with RAG, evals, OpenAI-compatible APIs, and MCP access."
+github_stars: 1410
 verification: "security_reviewed"
 source: "https://github.com/rmusser01/tldw_server"
 author: "rmusser01"
 publisher_type: "independent_open_source"
-category:
-  - "Research & Scraping"
-framework:
-  - "MCP"
+category: "Research & Scraping"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "rmusser01/tldw_server"
   github_stars: 1410
@@ -24,19 +24,16 @@ Python 3.10+, ffmpeg, Docker or local Python setup, tldw_server, optional LLM/ST
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- We analyze the performance of language models on two tasks that require identifying relevant information in their input contexts: multi-document question answering and key-value retrieval. We find that performance can...
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Can be used to run LLMs on Windows, Linux, and MacOS with a single binary wrapper around Llama.cpp.
+- For commercial API usage for use with this project: GPT-5.1, Anthropic's models(The Temu of AI services/models), Kimi k2, DeepSeek
+- 2025 Nov: I would say service quality has improved enough to the point where it can make sense to use a 'premium' subscription/usage of API services without expecting to be screwed 7-8/10 times.
 
-Install command or upstream instructions:
-
-```
-Follow the upstream Start Here guide. Run the prerequisite check, choose the Docker single-user or local single-user profile, configure authentication and provider settings, start the FastAPI service, verify the health endpoint, and test ingestion plus retrieval before connecting MCP clients.
-```
+- Source: https://github.com/rmusser01/tldw_server
+- Extracted from upstream docs: https://raw.githubusercontent.com/rmusser01/tldw_server/HEAD/README.md
 
 ## Documentation
 

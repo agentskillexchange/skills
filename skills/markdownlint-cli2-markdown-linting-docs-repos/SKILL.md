@@ -1,12 +1,12 @@
 ---
-title: "markdownlint-cli2 Markdown Linting for Docs and Repos"
+name: "markdownlint-cli2 Markdown Linting for Docs and Repos"
+slug: "markdownlint-cli2-markdown-linting-docs-repos"
 description: "This skill uses markdownlint-cli2 to enforce consistent Markdown quality across docs, READMEs, and content repositories. It is built for local authoring, pull-request checks, and CI enforcement with rule-based output."
+github_stars: 740
 verification: "security_reviewed"
 source: "https://github.com/DavidAnson/markdownlint-cli2"
-category:
-  - "Content Writing & SEO"
-framework:
-  - "Multi-Framework"
+category: "Content Writing & SEO"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "davidanson/markdownlint-cli2"
   github_stars: 740
@@ -20,13 +20,24 @@ This skill uses markdownlint-cli2 to enforce consistent Markdown quality across 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install markdownlint-cli2 --global
+- npm install markdownlint-cli2 --save-dev
+- docker pull davidanson/markdownlint-cli2
+- brew install markdownlint-cli2
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- As a development dependency of the current [Node.js][nodejs] package:
+- As a [Docker][docker] container image:
+- [CommonMark][commonmark] files on [Node.js][nodejs] using the
+
+Basic usage or getting-started notes:
+- As a global CLI:
+- bash
+- As a global CLI with [Homebrew][homebrew]:
+
+- Source: https://github.com/DavidAnson/markdownlint-cli2
+- Extracted from upstream docs: https://raw.githubusercontent.com/DavidAnson/markdownlint-cli2/HEAD/README.md
 
 ## Source
 

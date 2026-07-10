@@ -1,13 +1,13 @@
 ---
-title: "SWC Speedy Web Compiler for JavaScript and TypeScript"
+name: "SWC Speedy Web Compiler for JavaScript and TypeScript"
+slug: "swc-speedy-web-compiler-javascript-typescript"
 description: "SWC (Speedy Web Compiler) is a Rust-based JavaScript and TypeScript compiler that is 20x faster than Babel on a single thread and 70x faster on four cores. It handles transpilation, minification, and bundling, and powers major tools including Next.js, Parcel, and Rspack."
+github_stars: 33347
 verification: "security_reviewed"
 source: "https://github.com/swc-project/swc"
 author: "swc"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "swc-project/swc"
   github_stars: 33347
@@ -21,13 +21,19 @@ SWC (Speedy Web Compiler) is a Rust-based JavaScript and TypeScript compiler tha
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Make the web (development) faster.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <a href="https://github.com/swc-project/swc/blob/main/package.json#L22"><img alt="node-current (scoped)" src="https://img.shields.io/node/v/@swc/core"></a>
+- Supported Node Versions:
+- Node v10+ for usage
+
+Basic usage or getting-started notes:
+- command to run the script.
+
+- Source: https://github.com/swc-project/swc
+- Extracted from upstream docs: https://raw.githubusercontent.com/swc-project/swc/HEAD/README.md
 
 ## Source
 

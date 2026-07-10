@@ -1,12 +1,12 @@
 ---
-title: "Datadog Monitor Configuration Agent"
+name: "Datadog Monitor Configuration Agent"
+slug: "datadog-monitor-configuration-agent-2"
 description: "Creates and manages Datadog monitors using the datadog-api-client SDK. Configures metric, log, APM trace, and composite monitors with proper threshold types and notification routing."
+github_stars: 791
 verification: "security_reviewed"
 source: "https://github.com/DataDog/dd-trace-js"
-category:
-  - "Monitoring & Alerts"
-framework:
-  - "Claude Agents"
+category: "Monitoring & Alerts"
+framework: "Claude Agents"
 tool_ecosystem:
   github_repo: "datadog/dd-trace-js"
   github_stars: 791
@@ -20,13 +20,22 @@ Creates and manages Datadog monitors using the datadog-api-client SDK. Configure
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ npm install dd-trace
+- $ yarn add dd-trace
+- $ npm install dd-trace@4 # or whatever version you need
+- $ yarn add dd-trace@4 # or whatever version you need
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- # dd-trace: Node.js APM Tracer Library
+- dd-trace is an npm package that you can install in your Node.js application to capture APM (Application Performance Monitoring) data. In Datadog terminology this library is called a Tracer. This data is then sent off...
+- [Tracing Node.js Applications](https://docs.datadoghq.com/tracing/languages/nodejs/) - most project documentation, including setup instructions
+
+Basic usage or getting-started notes:
+- [API Documentation](https://datadog.github.io/dd-trace-js) - method signatures, plugin list, and some usage examples
+
+- Source: https://github.com/DataDog/dd-trace-js
+- Extracted from upstream docs: https://raw.githubusercontent.com/DataDog/dd-trace-js/HEAD/README.md
 
 ## Source
 

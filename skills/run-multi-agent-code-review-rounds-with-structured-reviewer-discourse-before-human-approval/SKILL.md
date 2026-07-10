@@ -1,14 +1,14 @@
 ---
-title: "Run multi-agent code review rounds with structured reviewer discourse before human approval"
+name: "Run multi-agent code review rounds with structured reviewer discourse before human approval"
+slug: "run-multi-agent-code-review-rounds-with-structured-reviewer-discourse-before-human-approval"
 description: "Use Open Code Review when an agent needs several reviewer personas to inspect a diff, debate findings, and synthesize review output before a human approves, posts, or acts on the review."
+github_stars: 131
 verification: "security_reviewed"
 source: "https://github.com/spencermarx/open-code-review"
 author: "Spencer Marx"
 publisher_type: "individual"
-category:
-  - "Code Quality & Review"
-framework:
-  - "Multi-Framework"
+category: "Code Quality & Review"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "spencermarx/open-code-review"
   github_stars: 131
@@ -26,19 +26,16 @@ Node.js 20+, Git, and a supported AI coding assistant such as Claude Code, Curso
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- **Prerequisites**: GitHub CLI (gh) installed and authenticated, open PR on current branch.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- The dashboard is the recommended way to run reviews, browse results, and manage your workflow. Launch it with ocr dashboard.
+- ### Run reviews and maps
+- <img src="assets/ocr-tool-example-translated-human-review.png" alt="Human-voice review posted to GitHub PR" width="700" />
 
-Install command or upstream instructions:
-
-```
-Install the CLI with npm install -g @open-code-review/cli, run ocr init inside the target repository, then open ocr dashboard or invoke the review from your coding assistant with /ocr:review or /ocr-review. Use ocr progress to watch live execution and connect gh if you want OCR to post findings to pull requests.
-```
+- Source: https://github.com/spencermarx/open-code-review
+- Extracted from upstream docs: https://raw.githubusercontent.com/spencermarx/open-code-review/HEAD/README.md
 
 ## Documentation
 

@@ -1,14 +1,14 @@
 ---
-title: "Drive token-efficient browser testing from coding agents with Playwright CLI"
+name: "Drive token-efficient browser testing from coding agents with Playwright CLI"
+slug: "drive-token-efficient-browser-testing-from-coding-agents-with-playwright-cli"
 description: "Use Playwright CLI when a coding agent needs to open pages, inspect snapshots, click, type, capture screenshots, and manage browser sessions through concise shell commands instead of loading a full browser automation server or hand-writing Playwright scripts first."
+github_stars: 9956
 verification: "security_reviewed"
 source: "https://github.com/microsoft/playwright-cli"
 author: "Microsoft Corporation"
 publisher_type: "organization"
-category:
-  - "Browser Automation"
-framework:
-  - "Claude Code"
+category: "Browser Automation"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "microsoft/playwright-cli"
   github_stars: 9956
@@ -26,19 +26,22 @@ Node.js 18+, npm, @playwright/cli, Playwright browsers, shell access from a codi
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install -g @playwright/cli@latest
+- npx --no-install playwright-cli --version
+- When local version is available, use npx playwright-cli in all commands. Otherwise, install playwright-cli as a global command:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Node.js 18 or newer
+- | PLAYWRIGHT_MCP_EXTENSION Connect to a running browser instance (Edge/Chrome only). Requires the "Playwright MCP Bridge" browser extension to be installed. |
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Claude Code, GitHub Copilot, or any other coding agent.
+- bash
+- playwright-cli --help
 
-```
-npm install -g @playwright/cli@latest; playwright-cli --help; optionally run playwright-cli install --skills for coding-agent skill integration.
-```
+- Source: https://github.com/microsoft/playwright-cli
+- Extracted from upstream docs: https://raw.githubusercontent.com/microsoft/playwright-cli/HEAD/README.md
 
 ## Documentation
 

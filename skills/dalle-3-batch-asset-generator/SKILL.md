@@ -1,12 +1,12 @@
 ---
-title: "DALL-E 3 Batch Asset Generator"
+name: "DALL-E 3 Batch Asset Generator"
+slug: "dalle-3-batch-asset-generator"
 description: "Generates multiple image variations from a single brief using the OpenAI Images API (POST /v1/images/generations) with DALL-E 3, applying brand guidelines via structured prompt templates. Handles concurrent generation requests with retry logic for rate limit compliance."
+github_stars: 10813
 verification: "security_reviewed"
 source: "https://github.com/openai/openai-node"
-category:
-  - "Image & Creative Automation"
-framework:
-  - "ChatGPT Agents"
+category: "Image & Creative Automation"
+framework: "ChatGPT Agents"
 tool_ecosystem:
   github_repo: "openai/openai-node"
   github_stars: 10813
@@ -20,13 +20,22 @@ Generates multiple image variations from a single brief using the OpenAI Images 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install openai
+- npx jsr add @openai/openai
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- The full API of this library can be found in [api.md file](api.md) along with many [code examples](https://github.com/openai/openai-node/tree/master/examples).
+- // If you have access to Node fs we recommend using fs.createReadStream():
+- await client.chat.completions.create({ messages: [{ role: 'user', content: 'How can I list all files in a directory using Python?' }], model: 'gpt-5.2' }, {
+
+Basic usage or getting-started notes:
+- sh
+- deno add jsr:@openai/openai
+- These commands will make the module importable from the @openai/openai scope. You can also [import directly from JSR](https://jsr.io/docs/using-packages#importing-with-jsr-specifiers) without an install step if you're...
+
+- Source: https://github.com/openai/openai-node
+- Extracted from upstream docs: https://raw.githubusercontent.com/openai/openai-node/HEAD/README.md
 
 ## Source
 

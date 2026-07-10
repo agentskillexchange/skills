@@ -1,13 +1,13 @@
 ---
-title: "Yeoman Scaffold Runner"
+name: "Yeoman Scaffold Runner"
+slug: "yeoman-scaffold-runner"
 description: "Executes Yeoman generators via the yo CLI and yeoman-environment API to scaffold applications, components, and microservices. Manages generator discovery through the npm registry and supports sub-generator composition."
+github_stars: 10120
 verification: "listed"
 source: "https://github.com/yeoman/yeoman"
 author: "Yeoman"
-category:
-  - "Templates & Workflows"
-framework:
-  - "OpenClaw"
+category: "Templates & Workflows"
+framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "yeoman/yeoman"
   github_stars: 10120
@@ -21,13 +21,9 @@ Executes Yeoman generators via the yo CLI and yeoman-environment API to scaffold
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/yeoman/yeoman
 
 ## Source
 

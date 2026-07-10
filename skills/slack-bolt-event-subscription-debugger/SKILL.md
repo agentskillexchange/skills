@@ -1,12 +1,12 @@
 ---
-title: "Slack Bolt Event Subscription Debugger"
+name: "Slack Bolt Event Subscription Debugger"
+slug: "slack-bolt-event-subscription-debugger"
 description: "Debugs Slack app event flows with the Bolt SDK, signature verification, `app.event()` handlers, and `ack()` timing. Useful for tracing why Events API deliveries, slash commands, or interactive callbacks are failing in real integration environments."
+github_stars: 2898
 verification: "security_reviewed"
 source: "https://github.com/slackapi/bolt-js"
-category:
-  - "Integrations & Connectors"
-framework:
-  - "Claude Code"
+category: "Integrations & Connectors"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "slackapi/bolt-js"
   github_stars: 2898
@@ -20,13 +20,21 @@ Debugs Slack app event flows with the Bolt SDK, signature verification, `app.eve
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install @slack/bolt
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Node.js CI](https://github.com/slackapi/bolt-js/actions/workflows/ci-build.yml/badge.svg)](https://github.com/slackapi/bolt-js/actions/workflows/ci-build.yml)
+- The Slack **Request URL** for a Bolt app must have the path set to /slack/events.
+- | payload | Contents of the incoming event. The payload structure depends on the listener. For example, for an Events API event, payload will be the [event type structure](https://docs.slack.dev/apis/events-api#event-...
+
+Basic usage or getting-started notes:
+- A JavaScript framework to build Slack apps in a flash with the latest platform features. Read the [getting started guide](https://docs.slack.dev/tools/bolt-js/getting-started) to set-up and run your first Bolt app.
+- bash
+- ## Initialization
+
+- Source: https://github.com/slackapi/bolt-js
+- Extracted from upstream docs: https://raw.githubusercontent.com/slackapi/bolt-js/HEAD/README.md
 
 ## Source
 

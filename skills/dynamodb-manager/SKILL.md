@@ -1,12 +1,12 @@
 ---
-title: "DynamoDB Manager"
-description: "DynamoDB Manager is built around Amazon DynamoDB NoSQL database. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like tables, GSIs, queries, scans, streams, conditional writes, TTL and preserving the operational […]"
+name: "DynamoDB Manager"
+slug: "dynamodb-manager"
+description: ""
+github_stars: 3607
 verification: "security_reviewed"
 source: "https://github.com/aws/aws-sdk-js-v3"
-category:
-  - "Developer Tools"
-framework:
-  - "Custom Agents"
+category: "Developer Tools"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "aws/aws-sdk-js-v3"
   github_stars: 3607
@@ -16,17 +16,28 @@ tool_ecosystem:
 
 # DynamoDB Manager
 
-DynamoDB Manager is built around Amazon DynamoDB NoSQL database. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like tables, GSIs, queries, scans, streams, conditional writes, TTL and preserving the operational […]
+
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Let’s walk through setting up a project that depends on DynamoDB from the SDK and makes a simple service call. The following steps use yarn as an example. These steps assume you have Node.js and yarn already installed.
+- git clone https://github.com/aws/aws-sdk-js-v3.git
+- yarn && yarn test:all
+- yarn pack .
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- To test your universal JavaScript code in Node.js, browser and react-native environments,
+- [Node.js and ECMAScript Version Support Policy](#nodejs-and-ecmascript-version-support-policy)
+- Create a new Node.js project.
+
+Basic usage or getting-started notes:
+- [Getting Started](#getting-started)
+- Inside of the project, run: yarn add @aws-sdk/client-dynamodb. Adding packages results in update in lock file, [yarn.lock](https://yarnpkg.com/getting-started/qa/#should-lockfiles-be-committed-to-the-repository) or [p...
+- Create a new file called index.js, create a DynamoDB service client and send a request.
+
+- Source: https://github.com/aws/aws-sdk-js-v3
+- Extracted from upstream docs: https://raw.githubusercontent.com/aws/aws-sdk-js-v3/HEAD/README.md
 
 ## Source
 

@@ -1,14 +1,14 @@
 ---
-title: "Verify a freshly provisioned server or container matches expected services, ports, and files"
+name: "Verify a freshly provisioned server or container matches expected services, ports, and files"
+slug: "verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files"
 description: "Uses Goss to express the expected state of a machine or container, then validates that reality still matches the contract. Reach for it after provisioning, image builds, or config changes when an agent needs a fast pass or fail answer about service health and system drift."
+github_stars: 5877
 verification: "security_reviewed"
 source: "https://github.com/goss-org/goss"
 author: "goss-org"
 publisher_type: "Open Source Project"
-category:
-  - "Runbooks & Diagnostics"
-framework:
-  - "Multi-Framework"
+category: "Runbooks & Diagnostics"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "goss-org/goss"
   github_stars: 5877
@@ -24,19 +24,21 @@ Goss binary, shell access to the target system, and appropriate permissions to i
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- make build
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- and Docker Compose [dcgoss](https://github.com/goss-org/goss/tree/master/extras/dcgoss).
+- **Note:** For some Docker/Kubernetes healthcheck, health endpoint, and
+- # (optional) dgoss docker wrapper (use 'master' for latest version)
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- **Note:** For macOS and Windows, see: [platform-feature-parity].
+- This will install goss and [dgoss](https://github.com/goss-org/goss/tree/master/extras/dgoss).
+- bash
 
-```
-curl -L https://github.com/goss-org/goss/releases/latest/download/goss-linux-amd64 -o /usr/local/bin/goss && chmod +rx /usr/local/bin/goss
-```
+- Source: https://github.com/goss-org/goss
+- Extracted from upstream docs: https://raw.githubusercontent.com/goss-org/goss/HEAD/README.md
 
 ## Documentation
 

@@ -1,14 +1,14 @@
 ---
-title: "Generate fast static photo album sites from curated folders with DD Photos"
+name: "Generate fast static photo album sites from curated folders with DD Photos"
+slug: "generate-fast-static-photo-album-sites-from-curated-folders-with-dd-photos"
 description: "Turn exported photo folders into a mobile-friendly static album site without standing up a database-backed gallery system."
+github_stars: 155
 verification: "security_reviewed"
 source: "https://github.com/dougdonohoe/ddphotos"
 author: "Doug Donohoe"
 publisher_type: "individual"
-category:
-  - "Image & Creative Automation"
-framework:
-  - "Multi-Framework"
+category: "Image & Creative Automation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "dougdonohoe/ddphotos"
   github_stars: 155
@@ -24,19 +24,21 @@ Go toolchain or built binaries, source photo folders, DD Photos config files, op
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- docker run --rm -v ~/my-ddphotos:/ddphotos dougdonohoe/ddphotos init
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Docker Image Version](https://img.shields.io/docker/v/dougdonohoe/ddphotos?logo=docker&label=Docker%20Hub)](https://hub.docker.com/r/dougdonohoe/ddphotos)
+- [![Docker Pulls](https://img.shields.io/docker/pulls/dougdonohoe/ddphotos?logo=docker&label=Docker%20Pulls)](https://hub.docker.com/r/dougdonohoe/ddphotos)
+- ## Docker Quick Start
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- ./ddphotos run # run dev server at http://localhost:5173
+- Once you have defined where your photos live, you run the photogen tool,
+- Dry-run mode by default (use -doit to write files).
 
-```
-Install DD Photos from the repository build instructions, define album locations and descriptions, run the documented photo generation step to resize and index the images, then build and deploy the generated static site.
-```
+- Source: https://github.com/dougdonohoe/ddphotos
+- Extracted from upstream docs: https://raw.githubusercontent.com/dougdonohoe/ddphotos/HEAD/README.md
 
 ## Documentation
 

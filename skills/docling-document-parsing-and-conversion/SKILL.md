@@ -1,12 +1,12 @@
 ---
-title: "Docling Document Parsing and Conversion"
+name: "Docling Document Parsing and Conversion"
+slug: "docling-document-parsing-and-conversion"
 description: "Docling is an open-source document processing toolkit for turning PDFs and other files into structured outputs for AI systems. It handles advanced PDF understanding, OCR, multiple export formats, and integrations with agent and retrieval frameworks."
+github_stars: 57771
 verification: "security_reviewed"
 source: "https://github.com/docling-project/docling"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Multi-Framework"
+category: "Data Extraction & Transformation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "docling-project/docling"
   github_stars: 57771
@@ -18,13 +18,21 @@ Docling is an open-source document processing toolkit for turning PDFs and other
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install docling
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/docling)](https://pypi.org/project/docling/)
+- **Note:** Python 3.9 support was dropped in docling version 2.70.0. Please use Python 3.10 or higher.
+- ## 3. Python usage (recommended)
+
+Basic usage or getting-started notes:
+- 🔌 Connect to any agent using the [MCP server](https://docling-project.github.io/docling/usage/mcp/)
+- 🔌 [MCP server](https://docling-project.github.io/docling/usage/mcp/) for agentic applications
+- ### 1. Install
+
+- Source: https://github.com/docling-project/docling
+- Extracted from upstream docs: https://raw.githubusercontent.com/docling-project/docling/HEAD/README.md
 
 ## Source
 

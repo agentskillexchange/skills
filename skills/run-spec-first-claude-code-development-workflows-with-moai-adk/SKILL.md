@@ -1,14 +1,14 @@
 ---
-title: "Run spec-first Claude Code development workflows with MoAI-ADK"
+name: "Run spec-first Claude Code development workflows with MoAI-ADK"
+slug: "run-spec-first-claude-code-development-workflows-with-moai-adk"
 description: "Use MoAI-ADK to install Claude Code agents and skills for spec-first implementation, TDD, DDD, and quality-gated development."
+github_stars: 1117
 verification: "security_reviewed"
 source: "https://github.com/modu-ai/moai-adk"
 author: "modu-ai"
 publisher_type: "organization"
-category:
-  - "Templates & Workflows"
-framework:
-  - "Claude Code"
+category: "Templates & Workflows"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "modu-ai/moai-adk"
   github_stars: 1117
@@ -24,19 +24,20 @@ Claude Code, MoAI-ADK CLI, Git, local shell
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/modu-ai/moai-adk.git
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Requires [Git for Windows](https://gitforwindows.org/) to be installed first.
+- **Workaround 2:** Disable 8.3 filename generation (requires admin):
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- | **Session Persistence** | progress.md tracks completed phases across sessions; interrupted runs resume automatically | /moai run SPEC-XXX |
+- | **Failing Checklist** | All acceptance criteria registered as pending tasks at run start; marked complete as implemented | /moai run SPEC-XXX |
+- | **Scaffolding First** | Empty file stubs created before implementation to prevent entropy | /moai run SPEC-XXX |
 
-```
-Install the MoAI-ADK binary from the project documentation or GitHub releases, initialize it in a Claude Code project, then use the provided agents and `moai-*` skills to run spec-first development and quality-gate workflows.
-```
+- Source: https://github.com/modu-ai/moai-adk
+- Extracted from upstream docs: https://raw.githubusercontent.com/modu-ai/moai-adk/HEAD/README.md
 
 ## Documentation
 

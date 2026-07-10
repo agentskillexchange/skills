@@ -1,12 +1,12 @@
 ---
-title: "Prometheus AlertManager Rule Generator"
+name: "Prometheus AlertManager Rule Generator"
+slug: "prometheus-alertmanager-rule-generator"
 description: "Generates Prometheus alerting rules and AlertManager routing configs from natural language descriptions. Leverages PromQL query builder and the Alertmanager API v2 for live rule validation."
+github_stars: 63584
 verification: "security_reviewed"
 source: "https://github.com/prometheus/prometheus"
-category:
-  - "Monitoring & Alerts"
-framework:
-  - "Claude Code"
+category: "Monitoring & Alerts"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "prometheus/prometheus"
   github_stars: 63584
@@ -18,13 +18,24 @@ Generates Prometheus alerting rules and AlertManager routing configs from natura
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Docker images are available on [Quay.io](https://quay.io/repository/prometheus/prometheus) or [Docker Hub](https://hub.docker.com/r/prom/prometheus/).
+- docker run --name prometheus -d -p 127.0.0.1:9090:9090 prom/prometheus
+- git clone https://github.com/prometheus/prometheus.git
+- go install github.com/prometheus/prometheus/cmd/...
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Docker Repository on Quay](https://quay.io/repository/prometheus/prometheus/status)][quay]
+- [![Docker Pulls](https://img.shields.io/docker/pulls/prom/prometheus.svg?maxAge=604800)][hub]
+- ### Docker images
+
+Basic usage or getting-started notes:
+- There are various ways to install Prometheus.
+- ### Precompiled binaries
+- Precompiled binaries for released versions are available in the
+
+- Source: https://github.com/prometheus/prometheus
+- Extracted from upstream docs: https://raw.githubusercontent.com/prometheus/prometheus/HEAD/README.md
 
 ## Source
 

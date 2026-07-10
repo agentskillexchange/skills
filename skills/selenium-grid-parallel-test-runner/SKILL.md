@@ -1,13 +1,13 @@
 ---
-title: "Selenium Grid Parallel Test Runner"
+name: "Selenium Grid Parallel Test Runner"
+slug: "selenium-grid-parallel-test-runner"
 description: "Orchestrates distributed browser tests across Selenium Grid 4 nodes with dynamic scaling. Uses selenium-webdriver RemoteWebDriver with W3C WebDriver protocol and Zalenium-style video recording."
+github_stars: 34076
 verification: "security_reviewed"
 source: "https://github.com/SeleniumHQ/selenium"
 author: "SeleniumHQ"
-category:
-  - "Browser Automation"
-framework:
-  - "Cursor"
+category: "Browser Automation"
+framework: "Cursor"
 tool_ecosystem:
   github_repo: "seleniumhq/selenium"
   github_stars: 34076
@@ -21,13 +21,21 @@ Orchestrates distributed browser tests across Selenium Grid 4 nodes with dynamic
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install -r py/requirements_lock.txt
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- As an alternative you can build a [Dev Container](https://containers.dev/) - basically a docker container -
+- #### Using Docker Image
+- You can also build a Docker image suitable
+
+Basic usage or getting-started notes:
+- to make sure this isn't required in the long run.
+- Often we wrap Bazel commands with our custom [Rake](http://rake.rubyforge.org/) wrapper. These are run with the ./go command.
+- bazel run — builds the target and then executes it.
+
+- Source: https://github.com/SeleniumHQ/selenium
+- Extracted from upstream docs: https://raw.githubusercontent.com/SeleniumHQ/selenium/HEAD/README.md
 
 ## Documentation
 

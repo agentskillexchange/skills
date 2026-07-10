@@ -1,14 +1,14 @@
 ---
-title: "Convert mixed documents into agent-ready Markdown and JSON with DocStrange"
+name: "Convert mixed documents into agent-ready Markdown and JSON with DocStrange"
+slug: "convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange"
 description: "Convert PDFs, scans, office files, images, and URLs into clean Markdown, structured JSON, CSV, or HTML before an agent ingests or reviews the content."
+github_stars: 1489
 verification: "security_reviewed"
 source: "https://github.com/NanoNets/docstrange"
 author: "NanoNets"
 publisher_type: "organization"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Multi-Framework"
+category: "Data Extraction & Transformation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "NanoNets/docstrange"
   github_stars: 1489
@@ -26,19 +26,24 @@ Python 3.8+, docstrange package, optional CUDA GPU for local processing, optiona
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install "docstrange[web]"
+- pip install -e ".[web]"
+- pip install Flask
+- git clone https://github.com/nanonets/docstrange.git
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Python](https://img.shields.io/pypi/pyversions/docstrange.svg)](https://pypi.org/project/docstrange/)
+- DocStrange is a Python library for converting a wide range of document formats—including **PDF**, **DOCX**, **PPTX**, **XLSX**, and **images** — into clean, usable data. It produces LLM-optimized **Markdown**, structu...
+- python -m docstrange.web_app
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- The library offers both a powerful cloud API and a 100% private, offline mode that runs locally on your GPU. Developed by **Nanonets**, DocStrange is built on a powerful pipeline of OCR and layout detection models and...
+- **Example outputs: Here's a quick preview of the quality of output**
+- 💡 Want a GUI? Run the simple, drag-and-drop local web interface for private, offline document conversion.
 
-```
-Install with `pip install docstrange` for library use. For the local web UI, install with `pip install "docstrange[web]"` and run `docstrange web` or `python -m docstrange.web_app`. Choose cloud mode for managed processing or GPU mode for local/private document conversion.
-```
+- Source: https://github.com/NanoNets/docstrange
+- Extracted from upstream docs: https://raw.githubusercontent.com/NanoNets/docstrange/HEAD/README.md
 
 ## Documentation
 

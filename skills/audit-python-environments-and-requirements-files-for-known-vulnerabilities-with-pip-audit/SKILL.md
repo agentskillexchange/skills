@@ -1,14 +1,14 @@
 ---
-title: "Audit Python environments and requirements files for known vulnerabilities with pip-audit"
+name: "Audit Python environments and requirements files for known vulnerabilities with pip-audit"
+slug: "audit-python-environments-and-requirements-files-for-known-vulnerabilities-with-pip-audit"
 description: "Check Python environments and requirements files for published vulnerabilities before shipping, upgrading, or approving dependency changes."
+github_stars: 1260
 verification: "security_reviewed"
 source: "https://github.com/pypa/pip-audit"
 author: "PyPA"
 publisher_type: "organization"
-category:
-  - "Security & Verification"
-framework:
-  - "Multi-Framework"
+category: "Security & Verification"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "pypa/pip-audit"
   github_stars: 1260
@@ -24,19 +24,24 @@ Python 3.9+, pip, pip-audit
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip-audit
+- pip-audit is a tool for scanning Python environments for packages
+- pip-audit requires Python 3.10 or newer, and can be installed directly via pip:
+- python -m pip install pip-audit
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Packaging status](https://repology.org/badge/tiny-repos/python:pip-audit.svg)](https://repology.org/project/python:pip-audit/versions)
+- with known vulnerabilities. It uses the Python Packaging Advisory Database
+- [![Packaging status](https://repology.org/badge/vertical-allrepos/python:pip-audit.svg)](https://repology.org/project/python:pip-audit/versions)
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [Usage](#usage)
+- bash
+- ### Third-party packages
 
-```
-Install with `pip install pip-audit`, then run `pip-audit` in the target environment or `pip-audit -r requirements.txt` for a pinned dependency file.
-```
+- Source: https://github.com/pypa/pip-audit
+- Extracted from upstream docs: https://raw.githubusercontent.com/pypa/pip-audit/HEAD/README.md
 
 ## Documentation
 

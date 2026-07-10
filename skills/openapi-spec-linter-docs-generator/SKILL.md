@@ -1,13 +1,13 @@
 ---
-title: "OpenAPI Spec Linter & Docs Generator"
+name: "OpenAPI Spec Linter & Docs Generator"
+slug: "openapi-spec-linter-docs-generator"
 description: "Validates OpenAPI 3.x specifications using Spectral rulesets and generates interactive API documentation with Redoc and Swagger UI. Detects breaking changes using oasdiff for versioned APIs."
+github_stars: 3084
 verification: "security_reviewed"
 source: "https://github.com/stoplightio/spectral"
 author: "Stoplight"
-category:
-  - "Library & API Reference"
-framework:
-  - "Claude Agents"
+category: "Library & API Reference"
+framework: "Claude Agents"
 tool_ecosystem:
   github_repo: "stoplightio/spectral"
   github_stars: 3084
@@ -21,13 +21,17 @@ Validates OpenAPI 3.x specifications using Spectral rulesets and generates inter
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install -g @stoplight/spectral-cli
+- yarn global add @stoplight/spectral-cli
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- [💻 Usage](#-usage)
+- ## 💻 Usage
+- To get started, run this command in your terminal to create a .spectral.yaml file that uses the Spectral predefined rulesets based on OpenAPI, Arazzo or AsyncAPI:
+
+- Source: https://github.com/stoplightio/spectral
+- Extracted from upstream docs: https://raw.githubusercontent.com/stoplightio/spectral/HEAD/README.md
 
 ## Documentation
 

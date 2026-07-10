@@ -1,12 +1,12 @@
 ---
-title: "Podcast RSS Feed Audio Normalizer"
+name: "Podcast RSS Feed Audio Normalizer"
+slug: "podcast-rss-feed-audio-normalizer"
 description: "Parses podcast RSS feeds with feedparser and normalizes audio loudness to -16 LUFS broadcast standard using ffmpeg loudnorm filter with dual-pass EBU R128 analysis. Integrates with Podbean API and Buzzsprout API for automated episode re-upload."
+github_stars: 59426
 verification: "listed"
 source: "https://github.com/FFmpeg/FFmpeg"
-category:
-  - "Media & Transcription"
-framework:
-  - "MCP"
+category: "Media & Transcription"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "FFmpeg/FFmpeg"
   github_stars: 59426
@@ -18,13 +18,9 @@ Parses podcast RSS feeds with feedparser and normalizes audio loudness to -16 LU
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/FFmpeg/FFmpeg
 
 ## Source
 

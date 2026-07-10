@@ -1,14 +1,14 @@
 ---
-title: "Build authenticated MCP tools and servers with Arcade MCP"
+name: "Build authenticated MCP tools and servers with Arcade MCP"
+slug: "build-authenticated-mcp-tools-and-servers-with-arcade-mcp"
 description: "Use Arcade MCP to create custom MCP servers and tools with OAuth-aware authorization, evals, and deployment paths for agent tool-calling workflows."
+github_stars: 895
 verification: "security_reviewed"
 source: "https://github.com/ArcadeAI/arcade-mcp"
 author: "ArcadeAI"
 publisher_type: "company"
-category:
-  - "Integrations & Connectors"
-framework:
-  - "MCP"
+category: "Integrations & Connectors"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "ArcadeAI/arcade-mcp"
   github_stars: 895
@@ -24,19 +24,24 @@ Python, arcade-mcp, an MCP-compatible client, optional Arcade Cloud account for 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- uv tool install arcade-mcp
+- uv run server.py # stdio (default), for Claude Desktop and CLI tools
+- uv run server.py http # HTTP+SSE, for Cursor and VS Code; docs at http://127.0.0.1:8000/docs
+- git clone https://github.com/ArcadeAI/arcade-mcp.git
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Python Version](https://img.shields.io/pypi/pyversions/arcade-mcp)](https://pypi.org/project/arcade-mcp/)
+- **Open-source Python framework for building MCP servers and tools.**
+- arcade-mcp is the Python framework for building [Model Context Protocol](https://modelcontextprotocol.io) servers and the tools that run inside them. It powers the 7,500+ prebuilt tools across 81 MCP servers at [Arcad...
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- The secrets (OAuth tokens, API keys, etc) are securely injected by Arcade into your tool call at runtime, so that your tool can authorize requests to upstream APIs, for example. **The client and the LLM never see the...
+- bash
+- ### Scaffold a new server
 
-```
-Install the Python package from PyPI as documented by Arcade, define tools with arcade_mcp_server, configure required auth providers or scopes, then connect the resulting MCP server to Claude, Cursor, VS Code, or another MCP client.
-```
+- Source: https://github.com/ArcadeAI/arcade-mcp
+- Extracted from upstream docs: https://raw.githubusercontent.com/ArcadeAI/arcade-mcp/HEAD/README.md
 
 ## Documentation
 

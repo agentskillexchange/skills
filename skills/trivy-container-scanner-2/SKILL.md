@@ -1,12 +1,12 @@
 ---
-title: "Trivy Container Scanner"
+name: "Trivy Container Scanner"
+slug: "trivy-container-scanner-2"
 description: "Wraps the Trivy CLI for comprehensive container image vulnerability scanning. Outputs results in SARIF format for GitHub Code Scanning API integration and generates OCI artifact attestations."
+github_stars: 34488
 verification: "security_reviewed"
 source: "https://github.com/aquasecurity/trivy"
-category:
-  - "Security & Verification"
-framework:
-  - "OpenClaw"
+category: "Security & Verification"
+framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "aquasecurity/trivy"
   github_stars: 34488
@@ -18,13 +18,18 @@ Wraps the Trivy CLI for comprehensive container image vulnerability scanning. Ou
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- ![Docker Pulls][docker-pulls]
+- docker run aquasec/trivy
+- There are canary builds ([Docker Hub](https://hub.docker.com/r/aquasec/trivy/tags?page=1&name=canary), [GitHub](https://github.com/aquasecurity/trivy/pkgs/container/trivy/75776514?tag=canary), [ECR](https://gallery.ec...
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- ### Get Trivy
+- Trivy is available in most common distribution channels. The full list of installation options is available in the [Installation] page. Here are a few popular examples:
+- brew install trivy
+
+- Source: https://github.com/aquasecurity/trivy
+- Extracted from upstream docs: https://raw.githubusercontent.com/aquasecurity/trivy/HEAD/README.md
 
 ## Source
 

@@ -1,12 +1,12 @@
 ---
-title: "LlamaIndex MCP Server"
-description: "LlamaIndex MCP Server is built around LlamaIndex framework for LLM data access. The underlying ecosystem is represented by run-llama/llama_index (47,942+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like indexes, readers, retrievers, query engines, agents, embeddings, nodes and […]"
+name: "LlamaIndex MCP Server"
+slug: "llamaindex-mcp-server"
+description: ""
+github_stars: 49818
 verification: "security_reviewed"
 source: "https://github.com/run-llama/llama_index"
-category:
-  - "Developer Tools"
-framework:
-  - "MCP"
+category: "Developer Tools"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "run-llama/llama_index"
   github_stars: 49818
@@ -14,17 +14,28 @@ tool_ecosystem:
 
 # LlamaIndex MCP Server
 
-LlamaIndex MCP Server is built around LlamaIndex framework for LLM data access. The underlying ecosystem is represented by run-llama/llama_index (47,942+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like indexes, readers, retrievers, query engines, agents, embeddings, nodes and […]
+
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install llama-index-core
+- pip install llama-index-llms-openai
+- pip install llama-index-llms-ollama
+- pip install llama-index-embeddings-huggingface
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [LlamaParse](https://developers.llamaindex.ai/python/cloud/llamaparse/?utm_medium=li_github&utm_source=github&utm_campaign=2026--)
+- [LlamaIndex OSS](https://developers.llamaindex.ai/python/framework/?utm_medium=li_github&utm_source=github&utm_campaign=2026--)
+- [LlamaAgents](https://developers.llamaindex.ai/python/llamaagents/overview/?utm_medium=li_github&utm_source=github&utm_campaign=2026--)
+
+Basic usage or getting-started notes:
+- [![Build](https://github.com/run-llama/llama_index/actions/workflows/build_package.yml/badge.svg)](https://github.com/run-llama/llama_index/actions/workflows/build_package.yml)
+- # concrete example
+- ## 💻 Example Usage
+
+- Source: https://github.com/run-llama/llama_index
+- Extracted from upstream docs: https://raw.githubusercontent.com/run-llama/llama_index/HEAD/README.md
 
 ## Source
 

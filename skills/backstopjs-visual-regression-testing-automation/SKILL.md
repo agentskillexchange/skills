@@ -1,12 +1,12 @@
 ---
-title: "BackstopJS Visual Regression Testing Automation"
+name: "BackstopJS Visual Regression Testing Automation"
+slug: "backstopjs-visual-regression-testing-automation"
 description: "BackstopJS gives agents a repeatable way to capture reference screenshots, compare UI states, and flag visual regressions before changes ship. This skill centers on the real BackstopJS project and turns browser-based layout comparison into a structured QA workflow for web teams."
+github_stars: 7116
 verification: "security_reviewed"
 source: "https://github.com/garris/BackstopJS"
-category:
-  - "Browser Automation"
-framework:
-  - "Multi-Framework"
+category: "Browser Automation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "garris/BackstopJS"
   github_stars: 7116
@@ -20,13 +20,21 @@ BackstopJS gives agents a repeatable way to capture reference screenshots, compa
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install -g backstopjs
+- First, go ahead and install docker on your machine from the [Docker Downloads Page](https://store.docker.com/search?type=edition&offering=community&architecture=amd64).
+- Make sure Docker is running on your machine. On MacOS there is a menu item that looks like this... ![MacOS Docker Menu Item](https://user-images.githubusercontent.com/447033/42773728-fef034f4-88e2-11e8-9956-d58a7d4324...
+- npm install backstopjs
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- **Backstop 6.3.2 -- now with support for Node 20** Many thanks to @dgrebb for this doozy of a maintainance release!
+- Integrated Docker rendering -- to eliminate cross-platform rendering shenanigans
+- Run globally or locally as a standalone package app or require('backstopjs') right into your node app
+
+Basic usage or getting-started notes:
+
+- Source: https://github.com/garris/BackstopJS
+- Extracted from upstream docs: https://raw.githubusercontent.com/garris/BackstopJS/HEAD/README.md
 
 ## Source
 

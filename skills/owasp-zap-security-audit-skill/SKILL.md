@@ -1,12 +1,12 @@
 ---
-title: "OWASP ZAP Security Audit Skill"
+name: "OWASP ZAP Security Audit Skill"
+slug: "owasp-zap-security-audit-skill"
 description: "Wraps OWASP ZAP API for automated web application security testing including active scan, spider crawl, and ajax spider endpoints. Generates structured findings reports with CWE classifications and OWASP Top 10 category mapping."
+github_stars: 14991
 verification: "security_reviewed"
 source: "https://github.com/zaproxy/zaproxy"
-category:
-  - "Security & Verification"
-framework:
-  - "Claude Code"
+category: "Security & Verification"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "zaproxy/zaproxy"
   github_stars: 14991
@@ -18,13 +18,14 @@ Wraps OWASP ZAP API for automated web application security testing including act
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- ![Docker Live Release](https://github.com/zaproxy/zaproxy/actions/workflows/release-live-docker.yml/badge.svg)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- ![Integration Tests](https://github.com/zaproxy/zaproxy/actions/workflows/run-integration-tests.yml/badge.svg)
+
+- Source: https://github.com/zaproxy/zaproxy
+- Extracted from upstream docs: https://raw.githubusercontent.com/zaproxy/zaproxy/HEAD/README.md
 
 ## Source
 

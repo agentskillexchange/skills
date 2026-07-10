@@ -1,12 +1,12 @@
 ---
-title: "Temporal Durable Execution Workflow Orchestration Platform"
+name: "Temporal Durable Execution Workflow Orchestration Platform"
+slug: "temporal-durable-execution-workflow-platform"
 description: "Temporal is an open-source durable execution platform that lets developers build scalable, fault-tolerant workflows. It automatically handles retries, timeouts, and intermittent failures, with SDKs for Go, Java, Python, TypeScript, .NET, and PHP."
+github_stars: 19402
 verification: "security_reviewed"
 source: "https://github.com/temporalio/temporal"
-category:
-  - "Templates & Workflows"
-framework:
-  - "Multi-Framework"
+category: "Templates & Workflows"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "temporalio/temporal"
   github_stars: 19402
@@ -18,13 +18,16 @@ Temporal is an open-source durable execution platform that lets developers build
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew install temporal
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- **[Getting Started](#getting-started) &nbsp;&nbsp;&bull;&nbsp;&nbsp;**
+- ### Download and Start Temporal Server Locally
+- Execute the following commands to start a pre-built image along with all the dependencies.
+
+- Source: https://github.com/temporalio/temporal
+- Extracted from upstream docs: https://raw.githubusercontent.com/temporalio/temporal/HEAD/README.md
 
 ## Source
 

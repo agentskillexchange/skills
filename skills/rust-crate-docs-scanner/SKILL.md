@@ -1,12 +1,11 @@
 ---
-title: "Rust Crate Docs Scanner"
+name: "Rust Crate Docs Scanner"
+slug: "rust-crate-docs-scanner"
 description: "Scans Rust crate documentation using rustdoc JSON output and cargo-doc metadata. Indexes public API surfaces including traits, impls, and derive macros with cross-crate dependency linking via docs.rs integration."
 verification: "security_reviewed"
 source: "https://docs.rs/about"
-category:
-  - "Library & API Reference"
-framework:
-  - "Custom Agents"
+category: "Library & API Reference"
+framework: "Custom Agents"
 ---
 
 # Rust Crate Docs Scanner
@@ -15,13 +14,11 @@ Scans Rust crate documentation using rustdoc JSON output and cargo-doc metadata.
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- Rust by Example
+- Docs.rs is run and maintained by the Docs.rs team .
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://docs.rs/about
 
 ## Source
 

@@ -1,14 +1,14 @@
 ---
-title: "Prevent broken GitHub Actions workflows before CI runs with actionlint"
+name: "Prevent broken GitHub Actions workflows before CI runs with actionlint"
+slug: "prevent-broken-github-actions-workflows-before-ci-runs-with-actionlint"
 description: "Use actionlint when an agent needs to inspect GitHub Actions workflow files before a push or pull request lands. The skill checks syntax, expressions, action inputs, runner labels, cron patterns, and a few security footguns so the agent can stop bad workflow changes before CI burns time."
+github_stars: 3782
 verification: "security_reviewed"
 source: "https://github.com/rhysd/actionlint"
 author: "rhysd"
 publisher_type: "Open Source Project"
-category:
-  - "Code Quality & Review"
-framework:
-  - "Multi-Framework"
+category: "Code Quality & Review"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "rhysd/actionlint"
   github_stars: 3782
@@ -24,19 +24,21 @@ actionlint binary, plus optional shellcheck and pyflakes for deeper inline scrip
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- go install github.com/rhysd/actionlint/cmd/actionlint@latest
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- uses: actions/setup-node@v4
+- key: ${{ matrix.platform }}-node-${{ hashFiles('**/package-lock.json') }}
+- test.yaml:17:11: input "node_version" is not defined in action "actions/setup-node@v4". available inputs are "always-auth", "architecture", "cache", "cache-dependency-path", "check-latest", "node-version", "node-versi...
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- **Actions usage check** to check that inputs at with: and outputs in steps.{id}.outputs are correct
+- **[shellcheck][] and [pyflakes][] integrations** for scripts at run:
+- **Example of broken workflow:**
 
-```
-go install github.com/rhysd/actionlint/cmd/actionlint@latest
-```
+- Source: https://github.com/rhysd/actionlint
+- Extracted from upstream docs: https://raw.githubusercontent.com/rhysd/actionlint/HEAD/README.md
 
 ## Documentation
 

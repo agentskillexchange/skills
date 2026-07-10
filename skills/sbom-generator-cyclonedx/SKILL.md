@@ -1,13 +1,13 @@
 ---
-title: "SBOM Generator with CycloneDX"
+name: "SBOM Generator with CycloneDX"
+slug: "sbom-generator-cyclonedx"
 description: "Generates Software Bill of Materials in CycloneDX 1.5 format using cdxgen and syft. Enriches component data with license detection from clearlydefined.io and vulnerability cross-referencing via OSV.dev."
+github_stars: 489
 verification: "security_reviewed"
 source: "https://github.com/CycloneDX/cyclonedx-cli"
 author: "CycloneDX"
-category:
-  - "Security & Verification"
-framework:
-  - "Gemini"
+category: "Security & Verification"
+framework: "Gemini"
 tool_ecosystem:
   github_repo: "CycloneDX/cyclonedx-cli"
   github_stars: 489
@@ -19,13 +19,21 @@ Generates Software Bill of Materials in CycloneDX 1.5 format using cdxgen and sy
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew install cyclonedx/cyclonedx/cyclonedx-cli
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Docker Image](https://img.shields.io/badge/docker-image-brightgreen?style=flat&logo=docker)](https://hub.docker.com/r/cyclonedx/cyclonedx-cli)
+- # Docker Image
+- The CycloneDX CLI tool can also be run using docker docker run cyclonedx/cyclonedx-cli.
+
+Basic usage or getting-started notes:
+- cyclonedx [command] [options]
+- Options:
+- --version Show version information
+
+- Source: https://github.com/CycloneDX/cyclonedx-cli
+- Extracted from upstream docs: https://raw.githubusercontent.com/CycloneDX/cyclonedx-cli/HEAD/README.md
 
 ## Documentation
 

@@ -1,13 +1,12 @@
 ---
-title: "ACF Custom Fields REST Exposer"
+name: "ACF Custom Fields REST Exposer"
+slug: "acf-custom-fields-rest-exposer"
 description: "Exposes Advanced Custom Fields data through the WordPress REST API using register_rest_field and acf_format_value. Handles repeater fields, flexible content layouts, and gallery fields with proper serialization."
 verification: "security_reviewed"
 source: "https://www.advancedcustomfields.com/resources/wp-rest-api-integration/"
 author: "WP Engine"
-category:
-  - "WordPress & CMS"
-framework:
-  - "Cursor"
+category: "WordPress & CMS"
+framework: "Cursor"
 ---
 
 # ACF Custom Fields REST Exposer
@@ -16,13 +15,15 @@ Exposes Advanced Custom Fields data through the WordPress REST API using registe
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- POST requests allow you to update any ACF fields, and require you to authenticate to perform the request.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- In the following example, we’ve configured a custom post type book , and an ACF field group for all books, with Author (Text), Author Bio (WYSIWYG), and Author Image (Image) fields. We’ll add data to each book for the...
+- Performing an OPTIONS request to a WordPress REST API endpoint allows you to see the schema for that data object, i.e., the available fields and their properties. For ACF fields, it allows you to see details for the f...
+- In our example post above, making an OPTIONS request will return the schema for the book, including data about the ACF fields we’ve set up.
+
+- Source: https://www.advancedcustomfields.com/resources/wp-rest-api-integration/
 
 ## Documentation
 

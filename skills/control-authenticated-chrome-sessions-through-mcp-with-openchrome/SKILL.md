@@ -1,14 +1,14 @@
 ---
-title: "Control authenticated Chrome sessions through MCP with OpenChrome"
+name: "Control authenticated Chrome sessions through MCP with OpenChrome"
+slug: "control-authenticated-chrome-sessions-through-mcp-with-openchrome"
 description: "Let an agent drive a real logged-in Chrome profile through MCP for authenticated browsing, parallel tab work, and token-efficient page interaction without re-authenticating each run."
+github_stars: 206
 verification: "security_reviewed"
 source: "https://github.com/shaun0927/openchrome"
 author: "shaun0927"
 publisher_type: "individual"
-category:
-  - "Browser Automation"
-framework:
-  - "MCP"
+category: "Browser Automation"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "shaun0927/openchrome"
   github_stars: 206
@@ -26,19 +26,22 @@ Node.js, npm, Google Chrome, MCP-compatible client
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install -g openchrome-mcp
+- npx openchrome-mcp setup --client opencode # OpenCode
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- (macOS / Windows / Linux, beta) runs the server with no Node.js setup.
+- launched it (Docker, systemd, CI):
+- openchrome doctor # Node, disk, Chrome binary/port, orphans, perms, locks
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- bash
+- openchrome setup # Claude Code
+- openchrome setup --client codex # Codex CLI
 
-```
-Install with `npm install -g openchrome-mcp`, run `openchrome setup` for Claude Code or `openchrome setup --client codex` for Codex CLI, then restart the MCP client. For other clients, configure the MCP server command as `openchrome serve --auto-launch`.
-```
+- Source: https://github.com/shaun0927/openchrome
+- Extracted from upstream docs: https://raw.githubusercontent.com/shaun0927/openchrome/HEAD/README.md
 
 ## Documentation
 

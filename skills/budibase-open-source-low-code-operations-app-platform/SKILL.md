@@ -1,13 +1,13 @@
 ---
-title: "Budibase Open Source Low-Code Operations App Platform"
+name: "Budibase Open Source Low-Code Operations App Platform"
+slug: "budibase-open-source-low-code-operations-app-platform"
 description: "Budibase is an open-source low-code platform for internal apps, forms, portals, and approvals. It gives agents a practical way to stand up operational tools on top of PostgreSQL, REST APIs, and other business data sources with self-hosted deployment options."
+github_stars: 27811
 verification: "security_reviewed"
 source: "https://github.com/Budibase/budibase"
 author: "Budibase"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "Budibase/budibase"
   github_stars: 27811
@@ -21,13 +21,16 @@ Budibase is an open-source low-code platform for internal apps, forms, portals, 
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- <a href="https://docs.budibase.com/docs/hosting-methods">Get started - you host (Docker, K8s, DO)</a>
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- AI Agents that run your operations
+- ### Run your operations on one platform
+- ### Operations your team can run with AI agents
+
+- Source: https://github.com/Budibase/budibase
+- Extracted from upstream docs: https://raw.githubusercontent.com/Budibase/budibase/HEAD/README.md
 
 ## Source
 

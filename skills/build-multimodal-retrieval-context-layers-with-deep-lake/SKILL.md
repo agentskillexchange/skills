@@ -1,14 +1,14 @@
 ---
-title: "Build multimodal retrieval context layers with Deep Lake"
+name: "Build multimodal retrieval context layers with Deep Lake"
+slug: "build-multimodal-retrieval-context-layers-with-deep-lake"
 description: "Store raw multimodal data, embeddings, and vector-search indexes in Deep Lake so agents can retrieve grounded context for RAG and analysis workflows."
+github_stars: 9181
 verification: "security_reviewed"
 source: "https://github.com/activeloopai/deeplake"
 author: "Activeloop"
 publisher_type: "organization"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Multi-Framework"
+category: "Data Extraction & Transformation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "activeloopai/deeplake"
   github_stars: 9181
@@ -24,19 +24,16 @@ Deep Lake Python package, storage target, source documents or multimodal data, e
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install deeplake
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Use [Deep Lake as a vector store for LLM apps](https://www.activeloop.ai/resources/ultimate-guide-to-lang-chain-deep-lake-build-chat-gpt-to-answer-questions-on-your-financial-data/). Our integration combines the [Lang...
+- Deep Lake users can access and visualize a variety of popular datasets through a free integration with Deep Lake's App. Universities can get up to 1TB of data storage and 100,000 monthly queries on the Tensor Database...
+- <details>
 
-Install command or upstream instructions:
-
-```
-Install with pip install deeplake, create or connect a scoped dataset, ingest the source data and embeddings, configure vector search or the documented LangChain/LlamaIndex integration, then query only the bounded dataset needed for the agent workflow.
-```
+- Source: https://github.com/activeloopai/deeplake
+- Extracted from upstream docs: https://raw.githubusercontent.com/activeloopai/deeplake/HEAD/README.md
 
 ## Documentation
 

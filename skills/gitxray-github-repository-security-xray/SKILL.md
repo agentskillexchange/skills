@@ -1,12 +1,12 @@
 ---
-title: "Gitxray GitHub Repository Security X-Ray"
+name: "Gitxray GitHub Repository Security X-Ray"
+slug: "gitxray-github-repository-security-xray"
 description: "A multifaceted OSINT and forensics tool for GitHub repositories that detects fake stargazers, tampered commits, infected releases, leaked PGP keys, and suspicious contributor behavior using public GitHub REST APIs."
+github_stars: 174
 verification: "listed"
 source: "https://github.com/kulkansecurity/gitxray"
-category:
-  - "Security & Verification"
-framework:
-  - "Claude Code"
+category: "Security & Verification"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "kulkansecurity/gitxray"
   github_stars: 174
@@ -18,13 +18,9 @@ A multifaceted OSINT and forensics tool for GitHub repositories that detects fak
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/kulkansecurity/gitxray
 
 ## Source
 

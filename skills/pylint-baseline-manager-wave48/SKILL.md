@@ -1,13 +1,13 @@
 ---
-title: "Pylint Baseline Manager"
-description: "Manages Pylint baseline files for gradual code quality improvement using pylint –output-format=json and the pylint.reporters API. Tracks new violations per commit while suppressing pre-existing issues in legacy code."
+name: "Pylint Baseline Manager"
+slug: "pylint-baseline-manager-wave48"
+description: "Manages Pylint baseline files for gradual code quality improvement using pylint --output-format=json and the pylint.reporters API. Tracks new violations per commit while suppressing pre-existing issues in legacy code."
+github_stars: 5673
 verification: "security_reviewed"
 source: "https://github.com/pylint-dev/pylint"
 author: "Pylint Contributors"
-category:
-  - "Code Quality & Review"
-framework:
-  - "Custom Agents"
+category: "Code Quality & Review"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "pylint-dev/pylint"
   github_stars: 5673
@@ -15,23 +15,27 @@ tool_ecosystem:
 
 # Pylint Baseline Manager
 
-Manages Pylint baseline files for gradual code quality improvement using pylint –output-format=json and the pylint.reporters API. Tracks new violations per commit while suppressing pre-existing issues in legacy code.
+Manages Pylint baseline files for gradual code quality improvement using pylint --output-format=json and the pylint.reporters API. Tracks new violations per commit while suppressing pre-existing issues in legacy code.
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install pylint
+- pip install pylint[spelling]
+- make a code contribution.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- :target: https://pypi.python.org/pypi/pylint
+- Pylint is a static code analyser_ for Python 2 or 3. The latest version supports Python
+- Pylint supports the Python standard library out of the box. Third-party
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- -------
+- .. This is used inside the doc to recover the start of the short text for installation
+- For command line use, pylint is installed with::
 
-```
-pip install pylint
-```
+- Source: https://github.com/pylint-dev/pylint
+- Extracted from upstream docs: https://raw.githubusercontent.com/pylint-dev/pylint/HEAD/README.rst
 
 ## Documentation
 

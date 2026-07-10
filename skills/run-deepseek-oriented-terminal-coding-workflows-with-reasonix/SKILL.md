@@ -1,14 +1,14 @@
 ---
-title: "Run DeepSeek-oriented terminal coding workflows with Reasonix"
+name: "Run DeepSeek-oriented terminal coding workflows with Reasonix"
+slug: "run-deepseek-oriented-terminal-coding-workflows-with-reasonix"
 description: "Use Reasonix when an operator wants a persistent terminal coding agent tuned for DeepSeek-style prefix caching, project memory, MCP-compatible plugins, and reviewable code-edit runs."
+github_stars: 21828
 verification: "security_reviewed"
 source: "https://github.com/esengine/DeepSeek-Reasonix"
 author: "esengine"
 publisher_type: "open_source"
-category:
-  - "Developer Tools"
-framework:
-  - "Custom Agents"
+category: "Developer Tools"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "esengine/DeepSeek-Reasonix"
   github_stars: 21828
@@ -26,19 +26,19 @@ reasonix CLI, DeepSeek or OpenAI-compatible API key, optional MCP-compatible plu
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm i -g reasonix # any OS; pulls the prebuilt native binary
+- brew install esengine/reasonix/reasonix # macOS
+- make build # -> bin/reasonix(.exe)
+- make cross # -> dist/ (darwin|linux|windows × amd64|arm64)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- any OpenAI-compatible endpoint is a config entry, not new code. Optionally run
+- **Plugin-driven.** External tools run as subprocesses over stdio JSON-RPC
+- Prebuilt archives (darwin|linux|windows × amd64|arm64) and SHA256SUMS are on
 
-Install command or upstream instructions:
-
-```
-Install with `npm i -g reasonix` or `brew install esengine/reasonix/reasonix`, run `reasonix setup`, set the required provider API key environment variable, then use `reasonix chat` or `reasonix run "<task>"` inside the target project.
-```
+- Source: https://github.com/esengine/DeepSeek-Reasonix
+- Extracted from upstream docs: https://raw.githubusercontent.com/esengine/DeepSeek-Reasonix/HEAD/README.md
 
 ## Documentation
 

@@ -1,14 +1,14 @@
 ---
-title: "Profile Python agent workloads with Scalene"
+name: "Profile Python agent workloads with Scalene"
+slug: "profile-python-agent-workloads-with-scalene"
 description: "Use Scalene when a Python agent, tool server, or retrieval pipeline needs line-level CPU, GPU, and memory profiling before targeted optimization."
+github_stars: 13455
 verification: "security_reviewed"
 source: "https://github.com/plasma-umass/scalene"
 author: "plasma-umass"
 publisher_type: "open_source"
-category:
-  - "Code Quality & Review"
-framework:
-  - "Multi-Framework"
+category: "Code Quality & Review"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "plasma-umass/scalene"
   github_stars: 13455
@@ -24,19 +24,21 @@ Python project or script that reproduces the workload; Scalene CLI; local or sta
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- conda install -c conda-forge scalene
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- (tweet from Ian Ozsvald, author of [_High Performance Python_](https://smile.amazon.com/High-Performance-Python-Performant-Programming/dp/1492055026/ref=sr_1_1?crid=texbooks))
+- [_Python Profiler Links to AI to Improve Code Scalene identifies inefficiencies and asks GPT-4 for suggestions_](https://spectrum.ieee.org/python-programming), IEEE Spectrum
+- [Episode 172: Measuring Multiple Facets of Python Performance With Scalene](https://realpython.com/podcasts/rpp/172/), The Real Python podcast
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [![PyPI Latest Release](https://img.shields.io/pypi/v/scalene.svg)](https://pypi.org/project/scalene/)[![Anaconda-Server Badge](https://img.shields.io/conda/v/conda-forge/scalene)](https://anaconda.org/conda-forge/sca...
+- <img width="571" alt="example proposed optimization" src="https://user-images.githubusercontent.com/1612723/211639968-37cf793f-3290-43d1-9282-79e579558388.png">
+- python3 -m pip install -U scalene
 
-```
-Install with python3 -m pip install -U scalene or conda install -c conda-forge scalene. Run scalene run your_prog.py, or python3 -m scalene run your_prog.py, then inspect with scalene view, scalene view --cli, or exported output such as scalene run -o results.json your_prog.py.
-```
+- Source: https://github.com/plasma-umass/scalene
+- Extracted from upstream docs: https://raw.githubusercontent.com/plasma-umass/scalene/HEAD/README.md
 
 ## Documentation
 

@@ -1,14 +1,14 @@
 ---
-title: "Capture and search AI coding sessions alongside Git history with Entire CLI"
+name: "Capture and search AI coding sessions alongside Git history with Entire CLI"
+slug: "capture-and-search-ai-coding-sessions-alongside-git-history-with-entire-cli"
 description: "Record AI coding sessions next to commits so an agent can recover why code changed, resume from checkpoints, and hand off work cleanly."
+github_stars: 4000
 verification: "security_reviewed"
 source: "https://github.com/entireio/cli"
 author: "entireio"
 publisher_type: "GitHub repository"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "entireio/cli"
   github_stars: 4000
@@ -24,19 +24,19 @@ Git repository, Entire CLI, and a supported coding agent such as Claude Code, Co
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew tap entireio/tap
+- brew install --cask entire
+- brew install --cask entire@nightly
+- go install github.com/entireio/cli/cmd/entire@latest
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- **Understand why code changed, not just what** — Transcripts, prompts, files touched, token usage, tool calls, and more are captured alongside every commit.
+- [Quick Start](#quick-start)
+- Git
 
-Install command or upstream instructions:
-
-```
-Install Entire from the upstream Homebrew tap or install script, authenticate a supported coding agent, and initialize it in a Git repository so sessions are captured alongside commits.
-```
+- Source: https://github.com/entireio/cli
+- Extracted from upstream docs: https://raw.githubusercontent.com/entireio/cli/HEAD/README.md
 
 ## Documentation
 

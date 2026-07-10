@@ -1,14 +1,14 @@
 ---
-title: "Summarize URLs, files, podcasts, and YouTube sources into agent-ready briefs with Summarize"
+name: "Summarize URLs, files, podcasts, and YouTube sources into agent-ready briefs with Summarize"
+slug: "summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize"
 description: "Turn long pages, PDFs, podcasts, videos, and local files into compact working briefs before downstream research, drafting, or execution steps."
+github_stars: 5642
 verification: "security_reviewed"
 source: "https://github.com/steipete/summarize"
 author: "steipete"
 publisher_type: "individual"
-category:
-  - "Media & Transcription"
-framework:
-  - "Multi-Framework"
+category: "Media & Transcription"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "steipete/summarize"
   github_stars: 5642
@@ -26,19 +26,23 @@ Node.js or Homebrew environment, Summarize CLI or browser extension, supported l
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx -y @steipete/summarize "https://example.com"
+- npm i -g @steipete/summarize
+- npm i @steipete/summarize-core
+- brew install summarize
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Daemon is localhost-only and requires a shared token; rerunning summarize daemon install --token <TOKEN> adds another paired browser token instead of invalidating the old one.
+- Requires Node 24+.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- The panel shows a token + install command. Run it in Terminal:
+- The extension can’t run heavy extraction inside the browser. It talks to a local background service on 127.0.0.1 for fast streaming and media tools (yt‑dlp, ffmpeg, OCR, transcription).
+- Windows containers: summarize daemon install starts the daemon for the current container session but does not register a Scheduled Task. Run it each time the container starts or add that command to your container star...
 
-```
-Install Summarize from npm or Homebrew as documented upstream, configure a supported backend or local endpoint, then run it against a URL, file, podcast, YouTube video, or local media source to generate the briefing output.
-```
+- Source: https://github.com/steipete/summarize
+- Extracted from upstream docs: https://raw.githubusercontent.com/steipete/summarize/HEAD/README.md
 
 ## Documentation
 

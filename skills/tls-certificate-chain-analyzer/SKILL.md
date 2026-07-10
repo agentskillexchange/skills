@@ -1,13 +1,12 @@
 ---
-title: "TLS Certificate Chain Analyzer"
+name: "TLS Certificate Chain Analyzer"
+slug: "tls-certificate-chain-analyzer"
 description: "Analyzes TLS certificate chains using OpenSSL s_client and the crt.sh Certificate Transparency API. Detects weak algorithms, expiring intermediates, and CT log compliance issues."
 verification: "security_reviewed"
 source: "https://developers.cloudflare.com/"
 author: "Cloudflare"
-category:
-  - "Security & Verification"
-framework:
-  - "MCP"
+category: "Security & Verification"
+framework: "MCP"
 ---
 
 # TLS Certificate Chain Analyzer
@@ -16,13 +15,15 @@ Analyzes TLS certificate chains using OpenSSL s_client and the crt.sh Certificat
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Make Cloudflare your primary DNS provider by updating your authoritative nameservers at your domain registrar.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Get started with Cloudflare
+- View all docs
+- Developer Products
+
+- Source: https://developers.cloudflare.com/
 
 ## Documentation
 

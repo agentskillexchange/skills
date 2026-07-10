@@ -1,13 +1,13 @@
 ---
-title: "Terrascan Policy Scanner"
-description: "Terrascan Policy Scanner is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (active GitHub adoption). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like kubectl, API server, pods, deployments, events, logs, probes, RBAC and preserving the […]"
+name: "Terrascan Policy Scanner"
+slug: "terrascan-policy-scanner"
+description: ""
+github_stars: 5209
 verification: "listed"
 source: "https://github.com/tenable/terrascan"
 author: "Tenable"
-category:
-  - "Security & Verification"
-framework:
-  - "Custom Agents"
+category: "Security & Verification"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "tenable/terrascan"
   github_stars: 5209
@@ -15,17 +15,13 @@ tool_ecosystem:
 
 # Terrascan Policy Scanner
 
-Terrascan Policy Scanner is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (active GitHub adoption). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like kubectl, API server, pods, deployments, events, logs, probes, RBAC and preserving the […]
+
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/tenable/terrascan
 
 ## Source
 

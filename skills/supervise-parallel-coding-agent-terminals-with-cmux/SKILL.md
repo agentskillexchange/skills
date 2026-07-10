@@ -1,14 +1,14 @@
 ---
-title: "Supervise parallel coding-agent terminals with Cmux"
+name: "Supervise parallel coding-agent terminals with Cmux"
+slug: "supervise-parallel-coding-agent-terminals-with-cmux"
 description: "Use Cmux to run multiple AI coding-agent terminal sessions with visible notifications, scriptable panes, an in-app browser, and project-aware workspaces."
+github_stars: 20490
 verification: "security_reviewed"
 source: "https://github.com/manaflow-ai/cmux"
 author: "Manaflow AI"
 publisher_type: "organization"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "manaflow-ai/cmux"
   github_stars: 20490
@@ -26,19 +26,18 @@ Cmux macOS app, macOS, terminal-native coding agents such as Claude Code or Code
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- brew tap manaflow-ai/cmux
+- brew install --cask cmux
+- brew upgrade --cask cmux
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- ### DMG (recommended)
+- <a href="https://github.com/manaflow-ai/cmux/releases/latest/download/cmux-macos.dmg">
+- <img src="./docs/assets/macos-badge.png" alt="Download cmux for macOS" width="180" />
 
-Install command or upstream instructions:
-
-```
-Install the latest macOS DMG from GitHub releases, or run `brew tap manaflow-ai/cmux` followed by `brew install --cask cmux`. Launch Cmux, create project workspaces, run coding agents in panes, and optionally wire agent hooks to `cmux notify`.
-```
+- Source: https://github.com/manaflow-ai/cmux
+- Extracted from upstream docs: https://raw.githubusercontent.com/manaflow-ai/cmux/HEAD/README.md
 
 ## Documentation
 

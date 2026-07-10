@@ -1,12 +1,12 @@
 ---
-title: "WXT Next-Generation Web Extension Framework for Browser Extensions"
+name: "WXT Next-Generation Web Extension Framework for Browser Extensions"
+slug: "wxt-next-gen-web-extension-framework"
 description: "WXT is an open-source, next-generation framework for building browser extensions. It supports all browsers, both Manifest V2 and V3, and provides dev mode with HMR, file-based entrypoints, TypeScript, auto-imports, and automated publishing."
+github_stars: 9534
 verification: "security_reviewed"
 source: "https://github.com/wxt-dev/wxt"
-category:
-  - "Developer Tools"
-framework:
-  - "Custom Agents"
+category: "Developer Tools"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "wxt-dev/wxt"
   github_stars: 9534
@@ -20,13 +20,17 @@ WXT is an open-source, next-generation framework for building browser extensions
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx wxt@latest init
+- pnpm dlx wxt@latest init
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- ![Example CLI Output](https://raw.githubusercontent.com/wxt-dev/wxt/HEAD/docs/assets/cli-output.png)
+- Bootstrap a new project:
+- sh
+
+- Source: https://github.com/wxt-dev/wxt
+- Extracted from upstream docs: https://raw.githubusercontent.com/wxt-dev/wxt/HEAD/README.md
 
 ## Source
 

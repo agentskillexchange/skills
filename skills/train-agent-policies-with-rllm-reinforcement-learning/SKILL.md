@@ -1,14 +1,14 @@
 ---
-title: "Train agent policies with rLLM reinforcement learning"
+name: "Train agent policies with rLLM reinforcement learning"
+slug: "train-agent-policies-with-rllm-reinforcement-learning"
 description: "Use rLLM to evaluate, trace, reward, and train LLM agents with reinforcement learning across common agent frameworks."
+github_stars: 5530
 verification: "security_reviewed"
 source: "https://github.com/rllm-org/rllm"
 author: "rLLM"
 publisher_type: "organization"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "rllm-org/rllm"
   github_stars: 5530
@@ -24,19 +24,22 @@ Python 3.11 or newer, rLLM, agent code or benchmark task, reward/evaluator funct
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- uv pip install "rllm @ git+https://github.com/rllm-org/rllm.git"
+- uv pip install rllm[verl] @ git+https://github.com/rllm-org/rllm.git
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- rLLM requires Python >= 3.11. You can install it either directly via pip or build from source.
+- For building from source or Docker, see the [installation guide](https://docs.rllm-project.com/installation).
+- ### Option B: Python API
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- bash
+- this installs dependencies for running rllm cli, which uses Tinker as the training backend.
+- To use verl as the training backend (GPU machine required), install via
 
-```
-Install rLLM from the GitHub package with uv or pip, run a benchmark with rllm eval or wrap an existing agent rollout, define an evaluator, then launch training with the selected backend.
-```
+- Source: https://github.com/rllm-org/rllm
+- Extracted from upstream docs: https://raw.githubusercontent.com/rllm-org/rllm/HEAD/README.md
 
 ## Documentation
 

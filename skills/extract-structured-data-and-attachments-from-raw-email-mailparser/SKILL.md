@@ -1,13 +1,13 @@
 ---
-title: "Extract structured data and attachments from raw email with MailParser"
+name: "Extract structured data and attachments from raw email with MailParser"
+slug: "extract-structured-data-and-attachments-from-raw-email-mailparser"
 description: "Use MailParser when an agent receives raw RFC822 or MIME email and needs a normalized result with headers, text, HTML, addresses, and attachments. This is for email ingestion and handoff workflows, not for acting as a mailbox client or delivery platform."
+github_stars: 1666
 verification: "security_reviewed"
 source: "https://github.com/nodemailer/mailparser"
 author: "Andris Reinman"
-category:
-  - "Calendar, Email & Productivity"
-framework:
-  - "Multi-Framework"
+category: "Calendar, Email & Productivity"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "nodemailer/mailparser"
   github_stars: 1666
@@ -25,19 +25,20 @@ Node.js
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ npm install mailparser
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Advanced email parser for Node.js. Everything is handled as a stream which should make it able to parse even very large messages (100MB+) with relatively low overhead.
+- const mailparser = require('mailparser');
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- This module is in maintenance mode. It will continue to receive security updates and critical bug fixes, but no new features or feature changes will be added. For new projects, please consider using [PostalMime](https...
+- First install the module from npm:
+- next import the mailparser object into your script:
 
-```
-npm install mailparser
-```
+- Source: https://github.com/nodemailer/mailparser
+- Extracted from upstream docs: https://raw.githubusercontent.com/nodemailer/mailparser/HEAD/README.md
 
 ## Documentation
 

@@ -1,13 +1,13 @@
 ---
-title: "JSDoc Type Definition Extractor"
+name: "JSDoc Type Definition Extractor"
+slug: "jsdoc-type-definition-extractor"
 description: "Extracts and indexes JSDoc type annotations from JavaScript codebases using the jsdoc-api parser. Generates TypeScript declaration files (.d.ts) and searchable type catalogs from @typedef and @param tags."
+github_stars: 15436
 verification: "security_reviewed"
 source: "https://github.com/jsdoc/jsdoc"
 author: "jsdoc"
-category:
-  - "Library & API Reference"
-framework:
-  - "MCP"
+category: "Library & API Reference"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "jsdoc/jsdoc"
   github_stars: 15436
@@ -21,13 +21,21 @@ Extracts and indexes JSDoc type annotations from JavaScript codebases using the 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install -g jsdoc
+- npm install --save-dev jsdoc
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- JSDoc supports stable versions of Node.js 8.15.0 and later. You can install
+- To install the latest version on npm globally (might require sudo;
+
+Basic usage or getting-started notes:
+- JSDoc globally or in your project's node_modules folder.
+- [learn how to fix this](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally)):
+- To install the latest version on npm locally and save it in your package's
+
+- Source: https://github.com/jsdoc/jsdoc
+- Extracted from upstream docs: https://raw.githubusercontent.com/jsdoc/jsdoc/HEAD/README.md
 
 ## Documentation
 

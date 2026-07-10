@@ -1,14 +1,14 @@
 ---
-title: "Generate structured release notes from merged pull requests between two refs with Copilot Release Notes"
+name: "Generate structured release notes from merged pull requests between two refs with Copilot Release Notes"
+slug: "generate-structured-release-notes-from-merged-pull-requests-between-two-refs-with-copilot-release-notes"
 description: "Compare two tags, branches, or SHAs and turn merged pull requests into reviewable markdown and JSON release notes for a release workflow."
+github_stars: 2
 verification: "security_reviewed"
 source: "https://github.com/github/copilot-release-notes"
 author: "GitHub"
 publisher_type: "organization"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Multi-Framework"
+category: "CI/CD Integrations"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "github/copilot-release-notes"
   github_stars: 2
@@ -24,19 +24,22 @@ GitHub Actions runner, checked-out git history for the compared refs, GitHub Cop
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install
+- npm test # run 42 unit tests
+- npx ncc build src/index.ts -o dist # rebuild dist/
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- This action requires a COPILOT_GITHUB_TOKEN — a GitHub fine-grained personal access token with the **"Copilot Requests: Read"** permission. The token owner must have an active GitHub Copilot license.
+- Uses the GitHub API to find PRs associated with commits. Catches more PR types but requires API access and is slower for large ranges.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- A **GitHub Actions** runner (Ubuntu, macOS, or Windows)
+- An active **GitHub Copilot license**
+- A **fine-grained PAT** with the Copilot Requests: Read permission (see [Authentication](#authentication))
 
-```
-Add the documented action to a GitHub Actions workflow, provide base-ref and head-ref, configure the COPILOT_GITHUB_TOKEN secret, then consume the generated markdown or JSON outputs in the release pipeline.
-```
+- Source: https://github.com/github/copilot-release-notes
+- Extracted from upstream docs: https://raw.githubusercontent.com/github/copilot-release-notes/HEAD/README.md
 
 ## Documentation
 

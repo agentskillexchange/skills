@@ -1,14 +1,14 @@
 ---
-title: "Trace and evaluate agent runs with Phoenix"
+name: "Trace and evaluate agent runs with Phoenix"
+slug: "trace-and-evaluate-agent-runs-with-phoenix"
 description: "Use Phoenix to trace LLM and agent calls, run evaluations, replay prompts, inspect datasets, and expose observability workflows through MCP."
+github_stars: 9750
 verification: "security_reviewed"
 source: "https://github.com/Arize-ai/phoenix"
 author: "Arize AI"
 publisher_type: "organization"
-category:
-  - "Monitoring & Alerts"
-framework:
-  - "Multi-Framework"
+category: "Monitoring & Alerts"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "Arize-ai/phoenix"
   github_stars: 9750
@@ -26,19 +26,21 @@ Phoenix server, OpenTelemetry or supported framework integration, LLM or agent a
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install arize-phoenix
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <a target="_blank" href="https://hub.docker.com/r/arizephoenix/phoenix/tags">
+- <img src="https://img.shields.io/docker/v/arizephoenix/phoenix?sort=semver&logo=docker&label=image&color=blue">
+- <a target="_blank" href="https://hub.docker.com/r/arizephoenix/phoenix-helm">
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Phoenix is vendor and language agnostic with out-of-the-box support for popular frameworks ([OpenAI Agents SDK](https://arize.com/docs/phoenix/tracing/integrations-tracing/openai-agents-sdk), [Claude Agent SDK](https:...
+- shell
+- ## Packages
 
-```
-Install or deploy Phoenix using the official Docker, Python, or cloud instructions, instrument the target LLM or agent app with a supported Phoenix tracing integration, then configure evaluations, datasets, playground replay, CLI access, or the Phoenix MCP server as needed.
-```
+- Source: https://github.com/Arize-ai/phoenix
+- Extracted from upstream docs: https://raw.githubusercontent.com/Arize-ai/phoenix/HEAD/README.md
 
 ## Documentation
 

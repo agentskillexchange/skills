@@ -1,14 +1,14 @@
 ---
-title: "Design loop engineering workflows for coding agents"
+name: "Design loop engineering workflows for coding agents"
+slug: "design-loop-engineering-workflows-for-coding-agents"
 description: "Use Loop Engineering to scaffold, audit, and operate repeatable coding-agent loops with explicit state, budget, readiness, and tool-specific patterns."
+github_stars: 6582
 verification: "security_reviewed"
 source: "https://github.com/cobusgreyling/loop-engineering"
 author: "Cobus Greyling"
 publisher_type: "independent"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "cobusgreyling/loop-engineering"
   github_stars: 6582
@@ -26,19 +26,23 @@ Node.js/npm for loop-init, loop-audit, loop-cost, loop-sync, loop-context, loop-
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx @cobusgreyling/loop-init .
+- npx @cobusgreyling/loop-init . --pattern daily-triage --tool grok
+- npx @cobusgreyling/loop-cost --pattern daily-triage --level L1
+- npx @cobusgreyling/loop-audit . --suggest
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- cd tools/loop-init && npm ci && npm test && node dist/cli.js /path/to/project --pattern daily-triage --tool grok
+- cd tools/loop-audit && npm ci && npm test && node dist/cli.js /path/to/project --suggest
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [Getting Started (5 minutes)](#getting-started-5-minutes)
+- | [Pattern Picker](docs/pattern-picker.md) | Which loop to run first — **start here if unsure** |
+- | [Starters](starters/) | Clone-and-run kits (Grok, Claude Code, Codex, Opencode) |
 
-```
-Install individual packages with npm, for example npm install -g @cobusgreyling/loop-audit @cobusgreyling/loop-init @cobusgreyling/loop-cost, or run the documented npx package commands from the upstream quickstart.
-```
+- Source: https://github.com/cobusgreyling/loop-engineering
+- Extracted from upstream docs: https://raw.githubusercontent.com/cobusgreyling/loop-engineering/HEAD/README.md
 
 ## Documentation
 

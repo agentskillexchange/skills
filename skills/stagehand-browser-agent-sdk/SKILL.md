@@ -1,13 +1,13 @@
 ---
-title: "Stagehand Browser Agent SDK"
-description: "Stagehand is Browserbase’s open source SDK for browser agents, combining code-first control with natural language actions. It is aimed at reliable production browser automation, with TypeScript integrations, docs, and npm distribution for agent workflows."
+name: "Stagehand Browser Agent SDK"
+slug: "stagehand-browser-agent-sdk"
+description: "Stagehand is Browserbase's open source SDK for browser agents, combining code-first control with natural language actions. It is aimed at reliable production browser automation, with TypeScript integrations, docs, and npm distribution for agent workflows."
+github_stars: 22059
 verification: "security_reviewed"
 source: "https://github.com/browserbase/stagehand"
 author: "browserbase"
-category:
-  - "Browser Automation"
-framework:
-  - "Multi-Framework"
+category: "Browser Automation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "browserbase/stagehand"
   github_stars: 22059
@@ -17,7 +17,7 @@ tool_ecosystem:
 
 # Stagehand Browser Agent SDK
 
-Stagehand is Browserbase’s open source SDK for browser agents, combining code-first control with natural language actions. It is aimed at reliable production browser automation, with TypeScript integrations, docs, and npm distribution for agent workflows.
+Stagehand is Browserbase's open source SDK for browser agents, combining code-first control with natural language actions. It is aimed at reliable production browser automation, with TypeScript integrations, docs, and npm distribution for agent workflows.
 
 ## Prerequisites
 
@@ -25,19 +25,24 @@ npm, pnpm, python, go
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx create-browser-app
+- git clone https://github.com/browserbase/stagehand.git
+- pnpm install
+- pnpm run build
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- If you're looking for the Python implementation, you can find it
+- <a href="https://github.com/browserbase/stagehand-python"> here</a>
+- Most existing browser automation tools either require you to write low-level code in a framework like Selenium, Playwright, or Puppeteer, or use high-level agents that can be unpredictable in production. By letting de...
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- **Write once, run forever**: Stagehand's auto-caching combined with self-healing remembers previous actions, runs without LLM inference, and knows when to involve AI whenever the website changes and your automation br...
+- Start with Stagehand with one line of code, or check out our [Quickstart Guide](https://docs.stagehand.dev/v3/first-steps/quickstart) for more information:
+- bash
 
-```
-npx create-browser-app
-```
+- Source: https://github.com/browserbase/stagehand
+- Extracted from upstream docs: https://raw.githubusercontent.com/browserbase/stagehand/HEAD/README.md
 
 ## Documentation
 

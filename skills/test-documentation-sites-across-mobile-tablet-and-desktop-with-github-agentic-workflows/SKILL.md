@@ -1,14 +1,13 @@
 ---
-title: "Test documentation sites across mobile, tablet, and desktop with GitHub Agentic Workflows"
+name: "Test documentation sites across mobile, tablet, and desktop with GitHub Agentic Workflows"
+slug: "test-documentation-sites-across-mobile-tablet-and-desktop-with-github-agentic-workflows"
 description: "Run a repeatable docs-site check that builds locally, opens the site across device sizes, and reports layout, accessibility, and interaction issues."
 verification: "security_reviewed"
 source: "https://github.com/github/gh-aw/blob/v0.45.5/.github/workflows/daily-multi-device-docs-tester.md"
 author: "GitHub"
 publisher_type: "organization"
-category:
-  - "Templates & Workflows"
-framework:
-  - "Multi-Framework"
+category: "Templates & Workflows"
+framework: "Multi-Framework"
 ---
 
 # Test documentation sites across mobile, tablet, and desktop with GitHub Agentic Workflows
@@ -21,19 +20,19 @@ GitHub repository with docs build scripts, GitHub Actions, gh-aw, Playwright MCP
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- make golint-custom builds cmd/linters and runs the custom analyzers against ./cmd/... and ./pkg/....
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Using agentic workflows in your repository requires careful attention to security considerations and careful human supervision, and even then things can still go wrong. Use it with caution, and at your own risk.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Write agentic workflows in natural language markdown, and run them in GitHub Actions.
+- [Quick Start](#quick-start)
+- Ready to get your first agentic workflow running? Follow our step-by-step [Quick Start Guide](https://github.github.com/gh-aw/setup/quick-start/) to install the extension, add a sample workflow, and see it in action.
 
-```
-Install and configure gh-aw in the target repository, add the daily-multi-device-docs-tester workflow, compile the workflow with gh aw compile, then run it on schedule or via workflow_dispatch against the repository docs site.
-```
+- Source: https://github.com/github/gh-aw/blob/v0.45.5/.github/workflows/daily-multi-device-docs-tester.md
+- Extracted from upstream docs: https://raw.githubusercontent.com/github/gh-aw/HEAD/README.md
 
 ## Documentation
 

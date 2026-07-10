@@ -1,12 +1,12 @@
 ---
-title: "CircleCI Orb Pipeline Composer"
+name: "CircleCI Orb Pipeline Composer"
+slug: "circleci-orb-pipeline-composer-2"
 description: "Composes multi-stage CircleCI pipelines using reusable Orbs and the CircleCI v2 API. Supports dynamic config generation with setup workflows and pipeline parameters for monorepo deployments."
+github_stars: 843
 verification: "security_reviewed"
 source: "https://github.com/circleci/circleci-docs"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Claude Code"
+category: "CI/CD Integrations"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "circleci/circleci-docs"
   github_stars: 843
@@ -18,13 +18,18 @@ Composes multi-stage CircleCI pipelines using reusable Orbs and the CircleCI v2 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/circleci/circleci-docs.git
+- npm ci
+- npm run start:dev
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- [Getting Started](#getting-started)
+- | [README.md](README.md) | Project overview and basic usage |
+- ### For Contributors
+
+- Source: https://github.com/circleci/circleci-docs
+- Extracted from upstream docs: https://raw.githubusercontent.com/circleci/circleci-docs/HEAD/README.md
 
 ## Source
 

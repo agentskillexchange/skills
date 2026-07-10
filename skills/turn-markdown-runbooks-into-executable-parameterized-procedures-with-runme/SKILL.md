@@ -1,14 +1,14 @@
 ---
-title: "Turn Markdown runbooks into executable, parameterized procedures with Runme"
+name: "Turn Markdown runbooks into executable, parameterized procedures with Runme"
+slug: "turn-markdown-runbooks-into-executable-parameterized-procedures-with-runme"
 description: "Run named steps directly from Markdown runbooks so operational docs stay executable instead of drifting into stale reference text."
+github_stars: 2031
 verification: "security_reviewed"
 source: "https://github.com/runmedev/runme"
 author: "Runme"
 publisher_type: "organization"
-category:
-  - "Runbooks & Diagnostics"
-framework:
-  - "Multi-Framework"
+category: "Runbooks & Diagnostics"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "runmedev/runme"
   github_stars: 2031
@@ -26,19 +26,23 @@ Runme CLI, Markdown runbooks with fenced code blocks, local shell or supported r
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ brew update
+- $ brew install runme
+- $ npm install -g runme
+- $ go install github.com/runmedev/runme/v3@main
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [Runme](https://runme.dev) is a tool that makes runbooks actually runnable, making it easier to follow step-by-step instructions. Shell/Bash, Python, Ruby, JavaScript/TypeScript, Lua, PHP, Perl, and many other runtime...
+- If you prefer using NPM (Node Package Manager) for managing your packages, Runme can also be installed globally via the following command:
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Discover and run code snippets directly from your markdown files, e.g. runbooks, docs, or READMEs. Read the [docs](https://docs.runme.dev).
+- To get started with Runme on MacOS, the recommended method of installation is using Homebrew, a popular package manager that simplifies the installation process. First, ensure your Homebrew is up to date to avoid any...
+- sh { name=update-brew }
 
-```
-Install with `brew install runme` or `npm install -g runme`, point it at a Markdown file or repo, then use commands like `runme list` and `runme run <step>` to execute named runbook steps.
-```
+- Source: https://github.com/runmedev/runme
+- Extracted from upstream docs: https://raw.githubusercontent.com/runmedev/runme/HEAD/README.md
 
 ## Documentation
 

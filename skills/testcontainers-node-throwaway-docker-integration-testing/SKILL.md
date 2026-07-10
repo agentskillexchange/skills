@@ -1,12 +1,12 @@
 ---
-title: "Testcontainers Node Throwaway Docker Integration Testing Library"
+name: "Testcontainers Node Throwaway Docker Integration Testing Library"
+slug: "testcontainers-node-throwaway-docker-integration-testing"
 description: "Testcontainers for Node.js is a library that provides lightweight, throwaway instances of databases, message brokers, browsers, and other services as Docker containers for integration testing. It automates container lifecycle management during test runs, ensuring clean and reproducible test environments."
+github_stars: 2508
 verification: "security_reviewed"
 source: "https://github.com/testcontainers/testcontainers-node"
-category:
-  - "Code Quality & Review"
-framework:
-  - "Multi-Framework"
+category: "Code Quality & Review"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "testcontainers/testcontainers-node"
   github_stars: 2508
@@ -18,13 +18,13 @@ Testcontainers for Node.js is a library that provides lightweight, throwaway ins
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- [![Test](https://github.com/testcontainers/testcontainers-node/actions/workflows/checks.yml/badge.svg?branch=main)](https://github.com/testcontainers/testcontainers-node/actions/workflows/checks.yml)
+- ![Testcontainers Banner](https://github.com/testcontainers/testcontainers-node/raw/main/docs/site/logo.png)
+- ## [📖 Documentation](https://node.testcontainers.org/)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/testcontainers/testcontainers-node
+- Extracted from upstream docs: https://raw.githubusercontent.com/testcontainers/testcontainers-node/HEAD/README.md
 
 ## Source
 

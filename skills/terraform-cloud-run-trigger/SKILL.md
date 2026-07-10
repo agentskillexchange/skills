@@ -1,12 +1,12 @@
 ---
-title: "Terraform Cloud Run Trigger"
+name: "Terraform Cloud Run Trigger"
+slug: "terraform-cloud-run-trigger"
 description: "Automates Terraform Cloud workspace runs using the TFC API v2. Creates runs via POST /api/v2/runs with plan-only or auto-apply modes, streams plan output from /api/v2/plans/{id}/log, and manages workspace variables through /api/v2/workspaces/{id}/vars for infrastructure-as-code pipelines."
+github_stars: 48146
 verification: "security_reviewed"
 source: "https://github.com/hashicorp/terraform"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Custom Agents"
+category: "CI/CD Integrations"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "hashicorp/terraform"
   github_stars: 48146
@@ -18,13 +18,13 @@ Automates Terraform Cloud workspace runs using the TFC API v2. Creates runs via 
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- Documentation is available on the [Terraform website](https://developer.hashicorp.com/terraform):
+- [Introduction](https://developer.hashicorp.com/terraform/intro)
+- [Documentation](https://developer.hashicorp.com/terraform/docs)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/hashicorp/terraform
+- Extracted from upstream docs: https://raw.githubusercontent.com/hashicorp/terraform/HEAD/README.md
 
 ## Source
 

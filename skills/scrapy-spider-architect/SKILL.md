@@ -1,13 +1,13 @@
 ---
-title: "Scrapy Spider Architect"
+name: "Scrapy Spider Architect"
+slug: "scrapy-spider-architect"
 description: "Generates Scrapy spider classes with CSS/XPath selectors, item pipelines, and middleware configurations for structured web scraping. Includes Scrapy-Splash integration for JavaScript-rendered content."
+github_stars: 61314
 verification: "security_reviewed"
 source: "https://github.com/scrapy/scrapy"
 author: "scrapy"
-category:
-  - "Research & Scraping"
-framework:
-  - "Custom Agents"
+category: "Research & Scraping"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "scrapy/scrapy"
   github_stars: 61314
@@ -19,13 +19,20 @@ Generates Scrapy spider classes with CSS/XPath selectors, item pipelines, and mi
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install scrapy
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- :alt: Supported Python Versions
+- It is cross-platform, and requires Python 3.10+. It is maintained by Zyte_
+
+Basic usage or getting-started notes:
+- .. code:: bash
+- And follow the documentation_ to learn how to use it.
+- .. _documentation: https://docs.scrapy.org/en/latest/
+
+- Source: https://github.com/scrapy/scrapy
+- Extracted from upstream docs: https://raw.githubusercontent.com/scrapy/scrapy/HEAD/README.rst
 
 ## Source
 

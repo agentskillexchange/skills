@@ -1,12 +1,12 @@
 ---
-title: "Twenty Open Source CRM Platform and Salesforce Alternative"
+name: "Twenty Open Source CRM Platform and Salesforce Alternative"
+slug: "twenty-open-source-crm-salesforce-alternative"
 description: "Twenty is a modern open-source CRM built to replace Salesforce, with customizable objects, workflow automation, email and calendar integration, and a GraphQL API. It offers kanban, table, and calendar views with fine-grained permission controls and self-hosting support."
+github_stars: 43525
 verification: "security_reviewed"
 source: "https://github.com/twentyhq/twenty"
-category:
-  - "Calendar, Email & Productivity"
-framework:
-  - "Multi-Framework"
+category: "Calendar, Email & Productivity"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "twentyhq/twenty"
   github_stars: 43525
@@ -18,13 +18,20 @@ Twenty is a modern open-source CRM built to replace Salesforce, with customizabl
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx create-twenty-app my-app
+- npx twenty deploy
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Run Twenty on your own infrastructure with [Docker Compose](https://docs.twenty.com/developers/self-host/capabilities/docker-compose), or contribute locally via the [local setup guide](https://docs.twenty.com/develope...
+
+Basic usage or getting-started notes:
+- ### <img src="./packages/twenty-website-new/public/images/readme/globe-icon.svg" width="14" height="14"/> Cloud
+- The fastest way to get started. Sign up at [twenty.com](https://twenty.com) and spin up a workspace in under a minute, with no infrastructure to manage and always up to date.
+- ### <img src="./packages/twenty-website-new/public/images/readme/book-icon.svg" width="14" height="14"/> Build an app
+
+- Source: https://github.com/twentyhq/twenty
+- Extracted from upstream docs: https://raw.githubusercontent.com/twentyhq/twenty/HEAD/README.md
 
 ## Source
 

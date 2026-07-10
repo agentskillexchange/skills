@@ -1,12 +1,12 @@
 ---
-title: "Timewarrior Command-Line Time Tracking and Reporting"
+name: "Timewarrior Command-Line Time Tracking and Reporting"
+slug: "timewarrior-command-line-time-tracking-reporting"
 description: "Timewarrior is a command-line time tracking tool from the Taskwarrior project. It records time intervals with tags, generates flexible reports, and integrates with Taskwarrior for automatic time tracking of tasks. Data is stored as plain text files with no database required."
+github_stars: 1580
 verification: "security_reviewed"
 source: "https://github.com/GothenburgBitFactory/timewarrior"
-category:
-  - "Calendar, Email & Productivity"
-framework:
-  - "Multi-Framework"
+category: "Calendar, Email & Productivity"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "gothenburgbitfactory/timewarrior"
   github_stars: 1580
@@ -18,13 +18,21 @@ Timewarrior is a command-line time tracking tool from the Taskwarrior project. I
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone --recurse-submodules https://github.com/GothenburgBitFactory/timewarrior
+- cmake -DCMAKE_BUILD_TYPE=release -S . -B _build
+- cmake --build _build -j
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Building Timewarrior yourself requires
+- Python 3 (for running the testsuite)
+- The cmake --install command may not require sudo depending on your choice of install location.
+
+Basic usage or getting-started notes:
+- Build Timewarrior, optionally run the test suite, and install it.
+
+- Source: https://github.com/GothenburgBitFactory/timewarrior
+- Extracted from upstream docs: https://raw.githubusercontent.com/GothenburgBitFactory/timewarrior/HEAD/README.md
 
 ## Source
 

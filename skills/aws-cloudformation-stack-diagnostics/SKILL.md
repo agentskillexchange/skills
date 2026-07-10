@@ -1,13 +1,12 @@
 ---
-title: "AWS CloudFormation Stack Diagnostics"
+name: "AWS CloudFormation Stack Diagnostics"
+slug: "aws-cloudformation-stack-diagnostics"
 description: "Diagnoses failed AWS CloudFormation stack operations using the AWS CLI (aws cloudformation describe-stack-events) and cfn-lint validator. Traces resource creation failures, rollback causes, and nested stack dependency chains."
 verification: "security_reviewed"
 source: "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html"
 author: "Amazon Web Services"
-category:
-  - "Runbooks & Diagnostics"
-framework:
-  - "ChatGPT Agents"
+category: "Runbooks & Diagnostics"
+framework: "ChatGPT Agents"
 ---
 
 # AWS CloudFormation Stack Diagnostics
@@ -16,13 +15,15 @@ Diagnoses failed AWS CloudFormation stack operations using the AWS CLI (aws clou
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Resources that support drift detection and allow or require attachments from
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- the underlying service that created the resource. For example, you can use the Amazon EC2 console
+- the stack. For example, if the stack includes an AWS::EC2::Instance
+- example, the AWS::EC2::SecurityGroupIngress and
+
+- Source: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html
 
 ## Documentation
 

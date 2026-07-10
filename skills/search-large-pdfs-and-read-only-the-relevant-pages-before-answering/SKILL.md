@@ -1,14 +1,14 @@
 ---
-title: "Search large PDFs and read only the relevant pages before answering"
+name: "Search large PDFs and read only the relevant pages before answering"
+slug: "search-large-pdfs-and-read-only-the-relevant-pages-before-answering"
 description: "Use pdf-mcp to inspect a PDF, search it, and load only the pages that matter so an agent can answer questions from long documents without brute-forcing the whole file into context."
+github_stars: 17
 verification: "security_reviewed"
 source: "https://github.com/jztan/pdf-mcp"
 author: "jztan"
 publisher_type: "individual"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "MCP"
+category: "Data Extraction & Transformation"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "jztan/pdf-mcp"
   github_stars: 17
@@ -26,19 +26,24 @@ Python 3.10+; an MCP-compatible client; local PDFs or accessible PDF URLs; optio
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install pdf-mcp
+- pip install 'pdf-mcp[semantic]'
+- brew install tesseract
+- git clone https://github.com/jztan/pdf-mcp.git
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+- A [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) server that enables AI agents to read, search, and extract content from PDF files. Built with Python and PyMuPDF, with SQLite-based caching for persis...
+- For OCR on scanned PDFs (requires system Tesseract):
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- bash
+- For semantic search (adds fastembed and numpy, ~67 MB model download on first use):
+- # macOS
 
-```
-Install with pip install pdf-mcp, or use pip install 'pdf-mcp[semantic]' to enable local embedding-based semantic search. Then add it to your MCP client with a command such as claude mcp add pdf-mcp -- pdf-mcp, and use the info, search, TOC, and page-read tools to inspect the document before loading content into the model.
-```
+- Source: https://github.com/jztan/pdf-mcp
+- Extracted from upstream docs: https://raw.githubusercontent.com/jztan/pdf-mcp/HEAD/README.md
 
 ## Documentation
 

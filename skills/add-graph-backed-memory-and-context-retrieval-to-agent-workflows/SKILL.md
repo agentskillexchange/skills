@@ -1,14 +1,14 @@
 ---
-title: "Add graph-backed memory and context retrieval to agent workflows"
+name: "Add graph-backed memory and context retrieval to agent workflows"
+slug: "add-graph-backed-memory-and-context-retrieval-to-agent-workflows"
 description: "Use Cognee to ingest project knowledge into graph and vector memory so agents can retrieve durable context across sessions and workflows."
+github_stars: 17584
 verification: "security_reviewed"
 source: "https://github.com/topoteretes/cognee"
 author: "topoteretes"
 publisher_type: "organization"
-category:
-  - "Templates & Workflows"
-framework:
-  - "Multi-Framework"
+category: "Templates & Workflows"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "topoteretes/cognee"
   github_stars: 17584
@@ -24,19 +24,23 @@ Python, Cognee, LLM provider credentials, optional graph/vector database backend
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- uv pip install cognee
+- pip install cognee
+- git clone https://github.com/topoteretes/cognee-integrations.git
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Python 3.10 to 3.14
+- You can install Cognee with **pip**, **poetry**, **uv**, or your preferred Python package manager.
+- python
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- ## Basic Usage & Feature Guide
+- Let’s try Cognee in just a few lines of code.
+- ### Step 1: Install Cognee
 
-```
-Install with `pip install cognee` or `uv pip install cognee`, configure the required LLM provider settings, then ingest data and query Cognee from the documented Python, plugin, or agent integration path.
-```
+- Source: https://github.com/topoteretes/cognee
+- Extracted from upstream docs: https://raw.githubusercontent.com/topoteretes/cognee/HEAD/README.md
 
 ## Documentation
 

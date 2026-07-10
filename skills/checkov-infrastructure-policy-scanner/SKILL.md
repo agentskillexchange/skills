@@ -1,13 +1,13 @@
 ---
-title: "Checkov Infrastructure Policy Scanner"
+name: "Checkov Infrastructure Policy Scanner"
+slug: "checkov-infrastructure-policy-scanner"
 description: "Scans IaC files with Bridgecrew Checkov for policy violations across Terraform, CloudFormation, Kubernetes, and Dockerfile configurations. Supports custom Python-based policy authoring and Prisma Cloud integration."
+github_stars: 8646
 verification: "security_reviewed"
 source: "https://github.com/bridgecrewio/checkov"
 author: "Bridgecrew"
-category:
-  - "Security & Verification"
-framework:
-  - "Codex"
+category: "Security & Verification"
+framework: "Codex"
 tool_ecosystem:
   github_repo: "bridgecrewio/checkov"
   github_stars: 8646
@@ -19,13 +19,24 @@ Scans IaC files with Bridgecrew Checkov for policy violations across Terraform, 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- To install pip follow the official [docs](https://pip.pypa.io/en/stable/cli/pip_install/)
+- pip install checkov
+- brew install checkov
+- brew upgrade checkov
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Python Version](https://img.shields.io/pypi/pyversions/checkov)](#)
+- [![Docker Pulls](https://img.shields.io/docker/pulls/bridgecrew/checkov.svg)](https://hub.docker.com/r/bridgecrew/checkov)
+- Supports Python format for attribute policies and YAML format for both attribute and composite policies.
+
+Basic usage or getting-started notes:
+- [Getting Started](#getting-started)
+- Terraform >= 0.12
+- sh
+
+- Source: https://github.com/bridgecrewio/checkov
+- Extracted from upstream docs: https://raw.githubusercontent.com/bridgecrewio/checkov/HEAD/README.md
 
 ## Source
 

@@ -1,14 +1,14 @@
 ---
-title: "Run academic literature review and paper-output workflows with Aut Sci Write"
+name: "Run academic literature review and paper-output workflows with Aut Sci Write"
+slug: "run-academic-literature-review-and-paper-output-workflows-with-aut-sci-write"
 description: "Use Aut Sci Write to let an agent search scholarly sources, download papers, extract PDF evidence, sync Zotero citations, and produce review or presentation artifacts."
+github_stars: 151
 verification: "security_reviewed"
 source: "https://github.com/ShZhao27208/Aut_Sci_Write"
 author: "Shuo Zhao"
 publisher_type: "independent"
-category:
-  - "Research & Scraping"
-framework:
-  - "Multi-Framework"
+category: "Research & Scraping"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "ShZhao27208/Aut_Sci_Write"
   github_stars: 151
@@ -24,19 +24,19 @@ Agent Skills-compatible runtime such as Claude Code, Codex, Cursor, OpenClaw, or
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx skills add ShZhao27208/Aut_Sci_Write -g -y
+- npx 安装后仍需安装 Python 依赖才能运行技能：
+- pip install -r requirements.txt
+- git clone https://github.com/ShZhao27208/Aut_Sci_Write.git
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+- [![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+- **Python 3.10 及以上**：用于运行 sci-search、sci-extract、sci-figure、sci-review、sci-ppt 等基于 Python 的技能
 
-Install command or upstream instructions:
-
-```
-Install with the documented plugin flow using /plugin marketplace add ShZhao27208/Aut_Sci_Write and /plugin install academic-skills@shuozhao, or run npx skills add ShZhao27208/Aut_Sci_Write -g -y and then install Python dependencies from the upstream requirements file.
-```
+- Source: https://github.com/ShZhao27208/Aut_Sci_Write
+- Extracted from upstream docs: https://raw.githubusercontent.com/ShZhao27208/Aut_Sci_Write/HEAD/README.md
 
 ## Documentation
 

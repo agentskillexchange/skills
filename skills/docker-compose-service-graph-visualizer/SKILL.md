@@ -1,14 +1,13 @@
 ---
-title: "Docker Compose Service Graph Visualizer"
+name: "Docker Compose Service Graph Visualizer"
+slug: "docker-compose-service-graph-visualizer"
 description: "Parses docker-compose.yml files using PyYAML and generates interactive dependency graphs with Graphviz and D3.js. Shows port mappings, volume mounts, network topology, and health check status."
+github_stars: 37227
 verification: "security_reviewed"
 source: "https://github.com/docker/compose"
 author: "Docker"
-category:
-  - "Developer Tools"
-framework:
-  - "Claude Code"
-  - "Multi-Framework"
+category: "Developer Tools"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "docker/compose"
   github_stars: 37227
@@ -24,19 +23,24 @@ Docker Compose, Compose file format, Docker CLI
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Docker Compose is a tool for running multi-container applications on Docker
+- Docker Swarm used to rely on the legacy compose file format but did not adopt the compose specification
+- Docker Compose is included in
+- Lastly, run docker compose up and Compose will start and run your entire
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [Docker Compose](#docker-compose)
+- [Where to get Docker Compose](#where-to-get-docker-compose)
+- # Docker Compose
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- [Quick Start](#quick-start)
+- -----------
+- Define your app's environment with a Dockerfile so it can be
 
-```
-docker compose up
-```
+- Source: https://github.com/docker/compose
+- Extracted from upstream docs: https://raw.githubusercontent.com/docker/compose/HEAD/README.md
 
 ## Documentation
 

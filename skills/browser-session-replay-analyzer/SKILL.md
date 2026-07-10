@@ -1,13 +1,13 @@
 ---
-title: "Browser Session Replay Analyzer"
+name: "Browser Session Replay Analyzer"
+slug: "browser-session-replay-analyzer"
 description: "Records and replays browser sessions using rrweb recording library with DOM mutation serialization. Integrates with LogRocket API and FullStory Data Export API for session analytics."
+github_stars: 94192
 verification: "security_reviewed"
 source: "https://github.com/puppeteer/puppeteer"
 author: "Puppeteer"
-category:
-  - "Browser Automation"
-framework:
-  - "Custom Agents"
+category: "Browser Automation"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "puppeteer/puppeteer"
   github_stars: 94192
@@ -21,19 +21,17 @@ Records and replays browser sessions using rrweb recording library with DOM muta
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm i puppeteer # Downloads compatible Chrome during installation.
+- npm i puppeteer-core # Alternatively, install as a library, without downloading Chrome.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- bash npm2yarn
+- ## MCP
+- a Puppeteer-based MCP server for browser automation and debugging.
 
-Install command or upstream instructions:
-
-```
-npm install puppeteer
-```
+- Source: https://github.com/puppeteer/puppeteer
+- Extracted from upstream docs: https://raw.githubusercontent.com/puppeteer/puppeteer/HEAD/README.md
 
 ## Documentation
 

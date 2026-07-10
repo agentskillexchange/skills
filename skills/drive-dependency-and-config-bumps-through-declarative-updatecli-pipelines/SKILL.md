@@ -1,14 +1,14 @@
 ---
-title: "Drive dependency and config bumps through declarative Updatecli pipelines"
+name: "Drive dependency and config bumps through declarative Updatecli pipelines"
+slug: "drive-dependency-and-config-bumps-through-declarative-updatecli-pipelines"
 description: "Use Updatecli when an agent needs to detect upstream releases, validate conditions, patch versioned files, and open reviewable update actions from one policy run instead of hand-editing manifests or relying on a single ecosystem bot."
+github_stars: 894
 verification: "listed"
 source: "https://github.com/updatecli/updatecli"
 author: "Updatecli contributors"
 publisher_type: "open_source_project"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Multi-Framework"
+category: "CI/CD Integrations"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "updatecli/updatecli"
   github_stars: 894
@@ -24,19 +24,9 @@ Updatecli binary, YAML policy file, access to the repositories or files you want
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Install Updatecli from the documented release or package method, write an updatecli YAML policy, then run `updatecli apply --config updatecli.yaml` against the target repository or workspace.
-```
+- Source: https://github.com/updatecli/updatecli
 
 ## Documentation
 

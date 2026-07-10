@@ -1,14 +1,14 @@
 ---
-title: "Stress-test JavaScript and TypeScript test suites with mutation testing before risky changes ship with StrykerJS"
+name: "Stress-test JavaScript and TypeScript test suites with mutation testing before risky changes ship with StrykerJS"
+slug: "stress-test-javascript-and-typescript-test-suites-with-mutation-testing-before-risky-changes-ship-with-strykerjs"
 description: "Run mutation testing against JS or TS projects to find tests that still pass when real defects are introduced."
+github_stars: 2828
 verification: "security_reviewed"
 source: "https://github.com/stryker-mutator/stryker-js"
 author: "Stryker Mutator"
 publisher_type: "organization"
-category:
-  - "Code Quality & Review"
-framework:
-  - "Multi-Framework"
+category: "Code Quality & Review"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "stryker-mutator/stryker-js"
   github_stars: 2828
@@ -26,19 +26,21 @@ Node.js, npm, a supported JavaScript or TypeScript test runner
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pnpm add --save-dev @stryker-mutator/core
+- npx stryker run
+- $ npx stryker <command> [options] [configFile]
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Node version](https://img.shields.io/node/v/@stryker-mutator/core.svg)](https://img.shields.io/node/v/@stryker-mutator/core.svg)
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Please follow the [quickstart on the website](https://stryker-mutator.io/docs/stryker-js/getting-started/).
+- For small js projects, you can try the following command:
+- # Only for small projects:
 
-```
-Install the core package with `npm install --save-dev @stryker-mutator/core`, run the Stryker initializer or config flow for your test runner, then execute Stryker as a pre-merge or pre-release mutation test step.
-```
+- Source: https://github.com/stryker-mutator/stryker-js
+- Extracted from upstream docs: https://raw.githubusercontent.com/stryker-mutator/stryker-js/HEAD/README.md
 
 ## Documentation
 

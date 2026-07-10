@@ -1,14 +1,14 @@
 ---
-title: "Build frontend copilot and generative UI workflows with CopilotKit"
+name: "Build frontend copilot and generative UI workflows with CopilotKit"
+slug: "build-frontend-copilot-and-generative-ui-workflows-with-copilotkit"
 description: "Use CopilotKit to add agent-native React or Angular copilots with generative UI, shared state, and human-in-the-loop workflow controls."
+github_stars: 31523
 verification: "security_reviewed"
 source: "https://github.com/CopilotKit/CopilotKit"
 author: "CopilotKit"
 publisher_type: "organization"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "CopilotKit/CopilotKit"
   github_stars: 31523
@@ -26,19 +26,11 @@ React or Angular application, CopilotKit packages, backend agent or model endpoi
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx create-ag-ui-app my-agent-app
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Install the official CopilotKit frontend package such as @copilotkit/react-core, follow the CopilotKit docs to wrap the app, expose approved state and actions, and connect the runtime to the selected backend agent or model endpoint.
-```
+- Source: https://github.com/CopilotKit/CopilotKit
+- Extracted from upstream docs: https://raw.githubusercontent.com/CopilotKit/CopilotKit/HEAD/README.md
 
 ## Documentation
 

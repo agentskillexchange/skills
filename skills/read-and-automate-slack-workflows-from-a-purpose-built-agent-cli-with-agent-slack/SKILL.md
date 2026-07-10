@@ -1,14 +1,14 @@
 ---
-title: "Read and automate Slack workflows from a purpose-built agent CLI with agent-slack"
+name: "Read and automate Slack workflows from a purpose-built agent CLI with agent-slack"
+slug: "read-and-automate-slack-workflows-from-a-purpose-built-agent-cli-with-agent-slack"
 description: "Search channels, inspect threads, move files, and send or edit Slack messages through an agent-oriented CLI with structured output."
+github_stars: 382
 verification: "security_reviewed"
 source: "https://github.com/stablyai/agent-slack"
 author: "stablyai"
 publisher_type: "organization"
-category:
-  - "Calendar, Email & Productivity"
-framework:
-  - "Multi-Framework"
+category: "Calendar, Email & Productivity"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "stablyai/agent-slack"
   github_stars: 382
@@ -26,19 +26,22 @@ agent-slack CLI, Node.js or Bun, Slack workspace access, and either supported lo
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm i -g agent-slack
+- npx skills add stablyai/agent-slack
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- **Zero-config auth** — Auth just works if you have Slack Desktop (with fallbacks available). No Python dependency.
+- OR npm global install (requires Node >= 22.5):
+- Channel mode requires --ts:
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- bash
+- OR run via Nix flake:
+- nix run github:stablyai/agent-slack
 
-```
-Install agent-slack with Bun, npm, or the published installer, complete one of the documented auth import or token flows, then run the message, search, channel, workflow, or canvas subcommands needed for the task.
-```
+- Source: https://github.com/stablyai/agent-slack
+- Extracted from upstream docs: https://raw.githubusercontent.com/stablyai/agent-slack/HEAD/README.md
 
 ## Documentation
 

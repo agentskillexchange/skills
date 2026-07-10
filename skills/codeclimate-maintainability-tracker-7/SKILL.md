@@ -1,13 +1,12 @@
 ---
-title: "CodeClimate Maintainability Tracker"
+name: "CodeClimate Maintainability Tracker"
+slug: "codeclimate-maintainability-tracker-7"
 description: "Tracks Code Climate maintainability scores over time using the Code Climate v1 API. Identifies technical debt hotspots, monitors churn-complexity coupling, and generates weekly maintainability digests via SendGrid."
 verification: "security_reviewed"
 source: "https://docs.codeclimate.com/"
 author: "Code Climate"
-category:
-  - "Code Quality & Review"
-framework:
-  - "ChatGPT Agents"
+category: "Code Quality & Review"
+framework: "ChatGPT Agents"
 ---
 
 # CodeClimate Maintainability Tracker
@@ -16,13 +15,14 @@ Tracks Code Climate maintainability scores over time using the Code Climate v1 A
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Python
+- Developer tool SaaS sprawl. Implementing static analysis, SAST, IaC scanning, and code coverage often requires setting up and managing at least three tools totaling over $100 per developer per month. Qlty provides all...
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- All of this is possible with five minutes of setup, and without needing to run static analysis on your CI system. (A simple coverage uploader is provided for publishing code coverage reports to Qlty.)
+
+- Source: https://docs.codeclimate.com/
 
 ## Documentation
 

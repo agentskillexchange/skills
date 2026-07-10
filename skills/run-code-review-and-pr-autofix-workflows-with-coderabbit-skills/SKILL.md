@@ -1,14 +1,14 @@
 ---
-title: "Run code review and PR autofix workflows with CodeRabbit Skills"
+name: "Run code review and PR autofix workflows with CodeRabbit Skills"
+slug: "run-code-review-and-pr-autofix-workflows-with-coderabbit-skills"
 description: "Trigger CodeRabbit review passes from an agent and work unresolved PR feedback threads into guided or batch autofix loops."
+github_stars: 73
 verification: "security_reviewed"
 source: "https://github.com/coderabbitai/skills"
 author: "CodeRabbit"
 publisher_type: "organization"
-category:
-  - "Code Quality & Review"
-framework:
-  - "Multi-Framework"
+category: "Code Quality & Review"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "coderabbitai/skills"
   github_stars: 73
@@ -24,19 +24,16 @@ CodeRabbit CLI, authenticated CodeRabbit access, a Git repository with local cha
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx skills add coderabbitai/skills
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- then authenticate:
+- bash
+- coderabbit auth login
 
-Install command or upstream instructions:
-
-```
-Install and authenticate the CodeRabbit CLI, add the skills repo with npx skills add coderabbitai/skills, then invoke the documented review or autofix prompts from a supported coding agent inside the target repository.
-```
+- Source: https://github.com/coderabbitai/skills
+- Extracted from upstream docs: https://raw.githubusercontent.com/coderabbitai/skills/HEAD/README.md
 
 ## Documentation
 

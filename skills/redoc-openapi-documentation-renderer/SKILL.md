@@ -1,12 +1,12 @@
 ---
-title: "Redoc OpenAPI Documentation Renderer"
+name: "Redoc OpenAPI Documentation Renderer"
+slug: "redoc-openapi-documentation-renderer"
 description: "Redoc is an open-source tool by Redocly for generating beautiful, three-panel API reference documentation from OpenAPI specifications. With 25,000+ GitHub stars and nearly 1 million weekly npm downloads, it is the most widely used API documentation renderer."
+github_stars: 25596
 verification: "security_reviewed"
 source: "https://github.com/Redocly/redoc"
-category:
-  - "Library & API Reference"
-framework:
-  - "Claude Code"
+category: "Library & API Reference"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "Redocly/redoc"
   github_stars: 25596
@@ -16,17 +16,25 @@ tool_ecosystem:
 
 # Redoc OpenAPI Documentation Renderer
 
-Redoc is an open-source tool by Redocly for generating beautiful, three-panel API reference documentation from OpenAPI specifications. With 25,000+ GitHub stars and nearly 1 million weekly npm downloads, it is the most widely used API documentation renderer.
+Redoc is an open-source tool by Redocly for generating beautiful, three-panel API reference documentation from OpenAPI specifications. It is the most widely used API documentation renderer.
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npx @redocly/cli build-docs openapi.yaml
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Redoc is provided as a CLI tool (also distributed as a Docker image), HTML tag, and React component.
+- If you have Node installed, quickly generate documentation using npx:
+- [Docker Engine](https://docs.docker.com/engine/api/v1.25/)
+
+Basic usage or getting-started notes:
+- ### Generate documentation from the CLI
+- bash
+- The tool outputs by default to a file named redoc-static.html that you can open in your browser.
+
+- Source: https://github.com/Redocly/redoc
+- Extracted from upstream docs: https://raw.githubusercontent.com/Redocly/redoc/HEAD/README.md
 
 ## Source
 

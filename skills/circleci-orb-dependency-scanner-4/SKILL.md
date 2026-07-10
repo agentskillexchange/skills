@@ -1,12 +1,12 @@
 ---
-title: "CircleCI Orb Dependency Scanner"
+name: "CircleCI Orb Dependency Scanner"
+slug: "circleci-orb-dependency-scanner-4"
 description: "Scans CircleCI config.yml for outdated orb versions using the CircleCI Orbs Registry API. Reports CVEs linked to orb dependencies via Snyk vulnerability database lookups."
+github_stars: 843
 verification: "security_reviewed"
 source: "https://github.com/circleci/circleci-docs"
-category:
-  - "CI/CD Integrations"
-framework:
-  - "Claude Code"
+category: "CI/CD Integrations"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "circleci/circleci-docs"
   github_stars: 843
@@ -18,13 +18,18 @@ Scans CircleCI config.yml for outdated orb versions using the CircleCI Orbs Regi
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/circleci/circleci-docs.git
+- npm ci
+- npm run start:dev
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- [Getting Started](#getting-started)
+- | [README.md](README.md) | Project overview and basic usage |
+- ### For Contributors
+
+- Source: https://github.com/circleci/circleci-docs
+- Extracted from upstream docs: https://raw.githubusercontent.com/circleci/circleci-docs/HEAD/README.md
 
 ## Source
 

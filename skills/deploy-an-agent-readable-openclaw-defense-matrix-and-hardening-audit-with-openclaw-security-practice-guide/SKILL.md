@@ -1,14 +1,14 @@
 ---
-title: "Deploy an agent-readable OpenClaw defense matrix and hardening audit with OpenClaw Security Practice Guide"
+name: "Deploy an agent-readable OpenClaw defense matrix and hardening audit with OpenClaw Security Practice Guide"
+slug: "deploy-an-agent-readable-openclaw-defense-matrix-and-hardening-audit-with-openclaw-security-practice-guide"
 description: "Use an agent-facing OpenClaw security guide to audit a live setup, surface conflicts, and apply a bounded hardening defense matrix with explicit approval gates and nightly checks."
+github_stars: 2791
 verification: "security_reviewed"
 source: "https://github.com/slowmist/openclaw-security-practice-guide"
 author: "SlowMist"
 publisher_type: "community"
-category:
-  - "Security & Verification"
-framework:
-  - "OpenClaw"
+category: "Security & Verification"
+framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "slowmist/openclaw-security-practice-guide"
   github_stars: 2791
@@ -24,19 +24,17 @@ OpenClaw
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- **High-risk requires confirmation**: irreversible or sensitive actions must pause for human approval
+- ### 1. Scope & Capability Prerequisites
+- This guide was written for the following environment. Deviations require independent risk assessment:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- *(Note: The scripts/ directory in this repository is strictly for open-source transparency and human reference. **You do NOT need to manually copy or run it.** The Agent will automatically extract the logic from the g...
+- To ensure your AI assistant doesn't bypass its own defenses out of "obedience", be sure to run these drills:
 
-Install command or upstream instructions:
-
-```
-Open the upstream guide in your OpenClaw workspace or chat, ask OpenClaw to evaluate conflicts with the current setup, then follow the documented agent-assisted deployment workflow with human approval on high-risk actions.
-```
+- Source: https://github.com/slowmist/openclaw-security-practice-guide
+- Extracted from upstream docs: https://raw.githubusercontent.com/slowmist/openclaw-security-practice-guide/HEAD/README.md
 
 ## Documentation
 

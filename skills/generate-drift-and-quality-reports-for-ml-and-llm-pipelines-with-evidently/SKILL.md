@@ -1,14 +1,14 @@
 ---
-title: "Generate drift and quality reports for ML and LLM pipelines with Evidently"
+name: "Generate drift and quality reports for ML and LLM pipelines with Evidently"
+slug: "generate-drift-and-quality-reports-for-ml-and-llm-pipelines-with-evidently"
 description: "Produce repeatable drift and quality reports after data, model, or prompt changes so regressions are visible before rollout."
+github_stars: 7386
 verification: "security_reviewed"
 source: "https://github.com/evidentlyai/evidently"
 author: "Evidently AI"
 publisher_type: "organization"
-category:
-  - "Monitoring & Alerts"
-framework:
-  - "Multi-Framework"
+category: "Monitoring & Alerts"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "evidentlyai/evidently"
   github_stars: 7386
@@ -24,19 +24,24 @@ Python 3.9+, pip, datasets or eval outputs for comparison
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install evidently
+- conda install -c conda-forge evidently
+- uv run --with evidently evidently ui --demo-projects all
+- pip install virtualenv
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Evidently is an open-source Python library to evaluate, test, and monitor ML and LLM systems—from experiments to production.
+- 🛠️ Python interface for custom metrics.
+- View interactive Reports in Python or export as JSON, Python dictionary, HTML, or view in monitoring UI.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- |![Report example](https://github.com/evidentlyai/docs/blob/eb1630cdd80d31d55921ff4d34fc7b5e6e9c9f90/images/concepts/report_test_preview.gif)|
+- |![Dashboard example](https://github.com/evidentlyai/docs/blob/eb1630cdd80d31d55921ff4d34fc7b5e6e9c9f90/images/dashboard_llm_tabs.gif)|
+- To install Evidently using the Conda installer, run:
 
-```
-Install with `pip install evidently`, prepare reference and current datasets or eval results, then generate a report in Python or the supported UI flow before approving pipeline changes.
-```
+- Source: https://github.com/evidentlyai/evidently
+- Extracted from upstream docs: https://raw.githubusercontent.com/evidentlyai/evidently/HEAD/README.md
 
 ## Documentation
 

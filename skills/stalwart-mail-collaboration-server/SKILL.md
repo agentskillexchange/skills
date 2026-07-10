@@ -1,12 +1,12 @@
 ---
-title: "Stalwart All-in-One Mail and Collaboration Server"
+name: "Stalwart All-in-One Mail and Collaboration Server"
+slug: "stalwart-mail-collaboration-server"
 description: "Stalwart is an open-source mail and collaboration server written in Rust that provides JMAP, IMAP4, POP3, SMTP, CalDAV, CardDAV, and WebDAV support. It enables agents to deploy and manage self-hosted email infrastructure with built-in spam filtering, DKIM/DMARC/SPF authentication, and full calendar and contact synchronization."
+github_stars: 12164
 verification: "security_reviewed"
 source: "https://github.com/stalwartlabs/stalwart"
-category:
-  - "Calendar, Email & Productivity"
-framework:
-  - "Multi-Framework"
+category: "Calendar, Email & Productivity"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "stalwartlabs/stalwart"
   github_stars: 12164
@@ -18,13 +18,17 @@ Stalwart is an open-source mail and collaboration server written in Rust that pr
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- **Kubernetes**, **Apache Mesos** and **Docker Swarm** support for automated scaling and container orchestration.
+- [Docker](https://stalw.art/docs/install/platform/docker)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- [Linux / MacOS](https://stalw.art/docs/install/platform/linux)
+- [Windows](https://stalw.art/docs/install/platform/windows)
+- All documentation is available at [stalw.art/docs](https://stalw.art/docs/install/get-started).
+
+- Source: https://github.com/stalwartlabs/stalwart
+- Extracted from upstream docs: https://raw.githubusercontent.com/stalwartlabs/stalwart/HEAD/README.md
 
 ## Source
 

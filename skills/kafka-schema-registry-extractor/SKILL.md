@@ -1,12 +1,12 @@
 ---
-title: "Apache Kafka Schema Registry Extractor"
+name: "Apache Kafka Schema Registry Extractor"
+slug: "kafka-schema-registry-extractor"
 description: "Extracts and transforms Avro/Protobuf schemas from Confluent Schema Registry using the REST API. Generates TypeScript interfaces, JSON Schema, and data contract documentation from registered subjects."
+github_stars: 3992
 verification: "security_reviewed"
 source: "https://github.com/tulios/kafkajs"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Claude Agents"
+category: "Data Extraction & Transformation"
+framework: "Claude Agents"
 tool_ecosystem:
   github_repo: "tulios/kafkajs"
   github_stars: 3992
@@ -20,13 +20,21 @@ Extracts and transforms Avro/Protobuf schemas from Confluent Schema Registry usi
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install kafkajs
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- A modern Apache Kafka® client for Node.js
+- KafkaJS is a modern [Apache Kafka](https://kafka.apache.org/) client for Node.js. It is compatible with Kafka 0.10+ and offers native support for 0.11 features.
+- const { Kafka } = require('kafkajs')
+
+Basic usage or getting-started notes:
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- ### <a name="getting-started"></a> Getting Started
+
+- Source: https://github.com/tulios/kafkajs
+- Extracted from upstream docs: https://raw.githubusercontent.com/tulios/kafkajs/HEAD/README.md
 
 ## Source
 

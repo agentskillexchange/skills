@@ -1,14 +1,14 @@
 ---
-title: "Translate technical PDFs through RetainPDF while preserving layout"
+name: "Translate technical PDFs through RetainPDF while preserving layout"
+slug: "translate-technical-pdfs-through-retainpdf-while-preserving-layout"
 description: "Route scanned, scientific, and technical PDFs through RetainPDF so an agent can produce translated PDFs while preserving formulas, tables, code blocks, and page layout."
+github_stars: 1956
 verification: "security_reviewed"
 source: "https://github.com/wxyhgk/retain-pdf"
 author: "wxyhgk"
 publisher_type: "open_source"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Multi-Framework"
+category: "Data Extraction & Transformation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "wxyhgk/retain-pdf"
   github_stars: 1956
@@ -24,19 +24,19 @@ RetainPDF desktop release or Docker deployment, PDF inputs, OCR/translation back
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/wxyhgk/retain-pdf.git
+- docker compose up -d
+- docker compose pull
+- docker compose ps
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- 如果你想给局域网、团队或多台设备一起用，优先选 Docker 部署。
+- 当前仓库提供了 Docker 交付目录：
+- [docker/delivery/README.md](docker/delivery/README.md)
 
-Install command or upstream instructions:
-
-```
-Download a RetainPDF desktop release from GitHub Releases, or clone https://github.com/wxyhgk/retain-pdf, enter docker/delivery, run docker compose up -d, and use the local web/API endpoint on the documented ports.
-```
+- Source: https://github.com/wxyhgk/retain-pdf
+- Extracted from upstream docs: https://raw.githubusercontent.com/wxyhgk/retain-pdf/HEAD/README.md
 
 ## Documentation
 

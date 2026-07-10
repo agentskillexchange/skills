@@ -1,13 +1,12 @@
 ---
-title: "AWS CloudFormation Drift Detector"
+name: "AWS CloudFormation Drift Detector"
+slug: "aws-cloudformation-drift-detector-4"
 description: "Monitors AWS CloudFormation stacks for configuration drift using the AWS SDK DetectStackDrift and DescribeStackResourceDrifts APIs. Generates remediation templates and integrates with AWS Config rules for continuous compliance."
 verification: "security_reviewed"
 source: "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html"
 author: "Amazon Web Services"
-category:
-  - "Runbooks & Diagnostics"
-framework:
-  - "Gemini"
+category: "Runbooks & Diagnostics"
+framework: "Gemini"
 ---
 
 # AWS CloudFormation Drift Detector
@@ -16,13 +15,15 @@ Monitors AWS CloudFormation stacks for configuration drift using the AWS SDK Det
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Resources that support drift detection and allow or require attachments from
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- the underlying service that created the resource. For example, you can use the Amazon EC2 console
+- the stack. For example, if the stack includes an AWS::EC2::Instance
+- example, the AWS::EC2::SecurityGroupIngress and
+
+- Source: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html
 
 ## Documentation
 

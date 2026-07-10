@@ -1,12 +1,12 @@
 ---
-title: "Playwright Visual Regression Tester"
+name: "Playwright Visual Regression Tester"
+slug: "playwright-visual-regression-tester-3"
 description: "Automates visual regression testing using the Playwright screenshot comparison API and pixelmatch diffing library. Captures baseline snapshots, detects pixel-level UI changes across viewport sizes, and generates HTML diff reports with threshold-based pass/fail results."
+github_stars: 86409
 verification: "security_reviewed"
 source: "https://github.com/microsoft/playwright"
-category:
-  - "Browser Automation"
-framework:
-  - "OpenClaw"
+category: "Browser Automation"
+framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "microsoft/playwright"
   github_stars: 86409
@@ -20,13 +20,20 @@ Automates visual regression testing using the Playwright screenshot comparison A
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install -g @playwright/cli@latest
+- npm i playwright
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Playwright is also available for [Python](https://playwright.dev/python/docs/intro), [.NET](https://playwright.dev/dotnet/docs/intro), and [Java](https://playwright.dev/java/docs/intro).
+
+Basic usage or getting-started notes:
+- bash
+- Optionally install skills for richer agent integration:
+- playwright-cli install --skills
+
+- Source: https://github.com/microsoft/playwright
+- Extracted from upstream docs: https://raw.githubusercontent.com/microsoft/playwright/HEAD/README.md
 
 ## Source
 

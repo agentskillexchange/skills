@@ -1,13 +1,13 @@
 ---
-title: "Linkup JS SDK for Sourced Web Search and Fetch"
-description: "Linkup’s JS SDK wraps the Linkup API for sourced web search and clean content fetching. It gives agents a maintained client for standard and deep search modes, plus URL fetch operations that can return rendered page content in a cleaner form for downstream reasoning."
+name: "Linkup JS SDK for Sourced Web Search and Fetch"
+slug: "linkup-js-sdk-sourced-web-search-fetch"
+description: "Linkup's JS SDK wraps the Linkup API for sourced web search and clean content fetching. It gives agents a maintained client for standard and deep search modes, plus URL fetch operations that can return rendered page content in a cleaner form for downstream reasoning."
+github_stars: 4
 verification: "security_reviewed"
 source: "https://github.com/LinkupPlatform/linkup-js-sdk"
 author: "LinkupPlatform"
-category:
-  - "Library & API Reference"
-framework:
-  - "Multi-Framework"
+category: "Library & API Reference"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "LinkupPlatform/linkup-js-sdk"
   github_stars: 4
@@ -17,17 +17,21 @@ tool_ecosystem:
 
 # Linkup JS SDK for Sourced Web Search and Fetch
 
-Linkup’s JS SDK wraps the Linkup API for sourced web search and clean content fetching. It gives agents a maintained client for standard and deep search modes, plus URL fetch operations that can return rendered page content in a cleaner form for downstream reasoning.
+Linkup's JS SDK wraps the Linkup API for sourced web search and clean content fetching. It gives agents a maintained client for standard and deep search modes, plus URL fetch operations that can return rendered page content in a cleaner form for downstream reasoning.
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm i linkup-sdk
+- npm i viem @x402/core @x402/evm
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- ## 🛠️ Usage
+- #### 📝 Example standard search query
+- #### 📝 Example
+
+- Source: https://github.com/LinkupPlatform/linkup-js-sdk
+- Extracted from upstream docs: https://raw.githubusercontent.com/LinkupPlatform/linkup-js-sdk/HEAD/README.md
 
 ## Source
 

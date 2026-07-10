@@ -1,12 +1,12 @@
 ---
-title: "Parquet Column Statistics Profiler"
+name: "Parquet Column Statistics Profiler"
+slug: "parquet-column-statistics-profiler"
 description: "Profiles Apache Parquet files using pyarrow metadata APIs to extract column statistics, row group distributions, and encoding efficiency metrics without reading full datasets."
+github_stars: 387
 verification: "security_reviewed"
 source: "https://github.com/ironSource/parquetjs"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "ChatGPT Agents"
+category: "Data Extraction & Transformation"
+framework: "ChatGPT Agents"
 tool_ecosystem:
   github_repo: "ironsource/parquetjs"
   github_stars: 387
@@ -20,13 +20,21 @@ Profiles Apache Parquet files using pyarrow metadata APIs to extract column stat
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- $ npm install parquetjs
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- This project requires a major overhaul, as well as handling and sorting through dozens of issues and prs.
+- fully asynchronous, pure node.js implementation of the Parquet file format
+- To use parquet.js with node.js, install it using npm:
+
+Basic usage or getting-started notes:
+- ------------
+- --------------------
+- Once you have installed the parquet.js library, you can import it as a single
+
+- Source: https://github.com/ironSource/parquetjs
+- Extracted from upstream docs: https://raw.githubusercontent.com/ironSource/parquetjs/HEAD/README.md
 
 ## Source
 

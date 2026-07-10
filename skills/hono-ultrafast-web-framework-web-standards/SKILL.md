@@ -1,13 +1,13 @@
 ---
-title: "Hono Ultrafast Web Framework Built on Web Standards"
+name: "Hono Ultrafast Web Framework Built on Web Standards"
+slug: "hono-ultrafast-web-framework-web-standards"
 description: "Hono is a small, simple, and ultrafast web framework built on Web Standards. It runs on any JavaScript runtime including Cloudflare Workers, Deno, Bun, Vercel, AWS Lambda, and Node.js, making it ideal for building portable edge-first APIs and web applications."
+github_stars: 29789
 verification: "security_reviewed"
 source: "https://github.com/honojs/hono"
 author: "honojs"
-category:
-  - "Developer Tools"
-framework:
-  - "Multi-Framework"
+category: "Developer Tools"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "honojs/hono"
   github_stars: 29789
@@ -21,13 +21,19 @@ Hono is a small, simple, and ultrafast web framework built on Web Standards. It 
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm create hono@latest
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- **Multi-runtime** 🌍 - Works on Cloudflare Workers, Fastly Compute, Deno, Bun, AWS Lambda, Lambda@Edge, or Node.js. The same code runs on all platforms.
+
+Basic usage or getting-started notes:
+- Hono - _**means flame🔥 in Japanese**_ - is a small, simple, and ultrafast web framework built on Web Standards. It works on any JavaScript runtime: Cloudflare Workers, Fastly Compute, Deno, Bun, Vercel, AWS Lambda, La...
+- bash
+- ## Features
+
+- Source: https://github.com/honojs/hono
+- Extracted from upstream docs: https://raw.githubusercontent.com/honojs/hono/HEAD/README.md
 
 ## Documentation
 

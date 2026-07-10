@@ -1,14 +1,14 @@
 ---
-title: "Run blocked-site browser tasks through anti-bot friendly sessions with Camofox Browser"
+name: "Run blocked-site browser tasks through anti-bot friendly sessions with Camofox Browser"
+slug: "run-blocked-site-browser-tasks-through-anti-bot-friendly-sessions-with-camofox-browser"
 description: "Use Camofox Browser to route agent browser work through an anti-detection browser server with stable element refs, snapshots, cookies, proxies, and session isolation."
+github_stars: 2853
 verification: "security_reviewed"
 source: "https://github.com/jo-inc/camofox-browser"
 author: "Jo, Inc."
 publisher_type: "organization"
-category:
-  - "Browser Automation"
-framework:
-  - "Custom Agents"
+category: "Browser Automation"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "jo-inc/camofox-browser"
   github_stars: 2853
@@ -26,19 +26,12 @@ Node.js or Docker, Camofox Browser server, optional yt-dlp for transcript extrac
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/jo-inc/camofox-browser && cd camofox-browser
+- npm install && npm start
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Clone the repository, run npm install and npm start for local use, or deploy with the provided Docker and Makefile flows. Then call the REST API or OpenClaw plugin tools against the running server.
-```
+- Source: https://github.com/jo-inc/camofox-browser
+- Extracted from upstream docs: https://raw.githubusercontent.com/jo-inc/camofox-browser/HEAD/README.md
 
 ## Documentation
 

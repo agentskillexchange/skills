@@ -1,14 +1,14 @@
 ---
-title: "Inspect Claude Code multi-agent runs with Agents Observe"
+name: "Inspect Claude Code multi-agent runs with Agents Observe"
+slug: "agents-observe-claude-code-observability"
 description: "Gives Claude Code operators a live dashboard for multi-agent sessions, tool calls, file activity, and nested task progress so debugging starts from what the agents are actually doing."
+github_stars: 421
 verification: "security_reviewed"
 source: "https://github.com/simple10/agents-observe"
 author: "Joe Johnston"
 publisher_type: "individual"
-category:
-  - "Monitoring & Alerts"
-framework:
-  - "Claude Code"
+category: "Monitoring & Alerts"
+framework: "Claude Code"
 tool_ecosystem:
   github_repo: "simple10/agents-observe"
   github_stars: 421
@@ -24,19 +24,23 @@ Claude Code, Docker, Node.js, and a local browser. The plugin runs a local serve
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/simple10/agents-observe.git agents-observe
+- brew install just
+- docker-compose.yml # Container orchestration - not used by the plugin
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [Docker](https://www.docker.com/) (required — the server runs as a container)
+- [Node.js](https://nodejs.org/) (required — hook scripts run via node)
+- If docker or node are not installed on your host, the plugin will fail to properly load.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- bash
+- # Add this repo as a marketplace
+- claude plugin marketplace add simple10/agents-observe
 
-```
-Add the repository as a Claude Code plugin marketplace with claude plugin marketplace add simple10/agents-observe, install it with claude plugin install agents-observe, then start claude. The plugin auto-starts its local server and event capture. Open http://localhost:4981 to view the dashboard. Docker and Node.js must already be installed on the host.
-```
+- Source: https://github.com/simple10/agents-observe
+- Extracted from upstream docs: https://raw.githubusercontent.com/simple10/agents-observe/HEAD/README.md
 
 ## Documentation
 

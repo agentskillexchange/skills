@@ -1,14 +1,14 @@
 ---
-title: "Diff and review MySQL schema changes as filesystem-managed SQL before risky database deploys with Skeema"
+name: "Diff and review MySQL schema changes as filesystem-managed SQL before risky database deploys with Skeema"
+slug: "diff-and-review-mysql-schema-changes-as-filesystem-managed-sql-before-risky-database-deploys-with-skeema"
 description: "Pull live MySQL schema into files, inspect diffs, and push reviewed changes back with a repeatable workflow."
+github_stars: 1361
 verification: "security_reviewed"
 source: "https://github.com/skeema/skeema"
 author: "skeema"
 publisher_type: "organization"
-category:
-  - "Runbooks & Diagnostics"
-framework:
-  - "Multi-Framework"
+category: "Runbooks & Diagnostics"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "skeema/skeema"
   github_stars: 1361
@@ -24,19 +24,13 @@ Skeema CLI, network access to the target MySQL or MariaDB instances, credentials
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- [Getting started](https://www.skeema.io/docs/examples/) | Usage examples and screencasts
+- [Configuration guide](https://www.skeema.io/docs/config/) | Option handling, config file format, and command-line option usage
+- [Command reference](https://www.skeema.io/docs/commands/) | Usage instructions for each command in the Skeema CLI
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Install Skeema from the upstream binary or package instructions, configure credentials and the .skeema settings for the target databases, then use the documented pull, diff, lint, and push commands to manage reviewed schema changes.
-```
+- Source: https://github.com/skeema/skeema
+- Extracted from upstream docs: https://raw.githubusercontent.com/skeema/skeema/HEAD/README.md
 
 ## Documentation
 

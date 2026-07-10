@@ -1,14 +1,14 @@
 ---
-title: "Inspect live web apps and apply code changes with Stagewise"
+name: "Inspect live web apps and apply code changes with Stagewise"
+slug: "inspect-live-web-apps-and-apply-code-changes-with-stagewise"
 description: "Use Stagewise when a coding agent needs browser context, console/debugger signals, UI inspection, and code-change handoff in one loop."
+github_stars: 6683
 verification: "security_reviewed"
 source: "https://github.com/stagewise-io/stagewise"
 author: "stagewise"
 publisher_type: "organization"
-category:
-  - "Templates & Workflows"
-framework:
-  - "Multi-Framework"
+category: "Templates & Workflows"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "stagewise-io/stagewise"
   github_stars: 6683
@@ -26,19 +26,13 @@ Stagewise app, a running web application, optional connected IDE/codebase, and m
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- Download stagewise from [stagewise.io](https://stagewise.io) and follow the short onboarding guide to set up your account.
+- ## Use your coding subscription
+- Bring Your Own Key for all popular model providers — you can also register completely custom providers (including local inference!) and define custom models.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Install or download Stagewise from https://stagewise.io, complete onboarding, connect your model provider or Stagewise account, open the target web app, and connect the relevant codebase or IDE when permanent code changes are needed.
-```
+- Source: https://github.com/stagewise-io/stagewise
+- Extracted from upstream docs: https://raw.githubusercontent.com/stagewise-io/stagewise/HEAD/README.md
 
 ## Documentation
 

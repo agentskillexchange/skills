@@ -1,14 +1,14 @@
 ---
-title: "Monitor and evaluate LLM agent traffic with Helicone"
+name: "Monitor and evaluate LLM agent traffic with Helicone"
+slug: "monitor-and-evaluate-llm-agent-traffic-with-helicone"
 description: "Route model calls through Helicone, inspect costs, latency, traces, prompts, and evaluations, then review changes before they ship."
+github_stars: 5779
 verification: "security_reviewed"
 source: "https://github.com/Helicone/helicone"
 author: "Helicone"
 publisher_type: "organization"
-category:
-  - "Monitoring & Alerts"
-framework:
-  - "Multi-Framework"
+category: "Monitoring & Alerts"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "Helicone/helicone"
   github_stars: 5779
@@ -26,19 +26,22 @@ Helicone account or self-hosted Helicone deployment, LLM application or agent us
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/Helicone/helicone.git
+- Manual deployment is not recommended. Please use Docker or Helm. If you must, follow the instructions [here](https://docs.helicone.ai/getting-started/self-deploy).
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Helicone is simple to self-host and update. To get started locally, just use our [docker-compose](https://docs.helicone.ai/getting-started/self-deploy-docker) file.
+- cd docker
+- | AI Gateway | [JS/TS, Python, cURL](https://docs.helicone.ai/gateway/overview) | Unified API for 100+ providers with intelligent routing, automatic fallbacks, and unified observability
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Get your API key by signing up [here](https://helicone.ai/signup) and add credits at [helicone.ai/credits](https://us.helicone.ai/credits)
+- Update the baseURL in your code and add your API key.
+- typescript
 
-```
-For the hosted gateway, create a Helicone API key, set the OpenAI client baseURL to https://ai-gateway.helicone.ai, and use HELICONE_API_KEY for authentication. For self-hosting, clone https://github.com/Helicone/helicone, enter the docker directory, copy .env.example to .env, and start services with ./helicone-compose.sh helicone up.
-```
+- Source: https://github.com/Helicone/helicone
+- Extracted from upstream docs: https://raw.githubusercontent.com/Helicone/helicone/HEAD/README.md
 
 ## Documentation
 

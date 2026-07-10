@@ -1,13 +1,13 @@
 ---
-title: "Automattic WordPress Remote MCP"
+name: "Automattic WordPress Remote MCP"
+slug: "automattic-wordpress-remote-mcp"
 description: "Automattic WordPress Remote MCP connects MCP clients to live WordPress sites using OAuth, JWT, or application passwords. It is aimed at agents that need to read or operate against WordPress content and site features through a maintained remote MCP bridge."
+github_stars: 131
 verification: "security_reviewed"
 source: "https://github.com/Automattic/mcp-wordpress-remote"
 author: "Automattic"
-category:
-  - "WordPress & CMS"
-framework:
-  - "MCP"
+category: "WordPress & CMS"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "Automattic/mcp-wordpress-remote"
   github_stars: 131
@@ -25,19 +25,23 @@ WP_API_URL, WP_API_USERNAME, WP_API_PASSWORD
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install @automattic/mcp-wordpress-remote
+- npx @automattic/mcp-wordpress-remote
+- git clone https://github.com/Automattic/mcp-wordpress-remote.git
+- npm install
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- "command": "node",
+- **Node.js 22+** (required for fetch API support)
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- bash
+- ### Configuration
+- Add to your MCP client configuration (e.g., Claude Desktop's claude_desktop_config.json):
 
-```
-npm install @automattic/mcp-wordpress-remote
-```
+- Source: https://github.com/Automattic/mcp-wordpress-remote
+- Extracted from upstream docs: https://raw.githubusercontent.com/Automattic/mcp-wordpress-remote/HEAD/README.md
 
 ## Source
 

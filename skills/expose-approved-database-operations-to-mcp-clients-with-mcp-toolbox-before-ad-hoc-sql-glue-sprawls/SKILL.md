@@ -1,14 +1,14 @@
 ---
-title: "Expose approved database operations to MCP clients with MCP Toolbox before ad hoc SQL glue sprawls"
+name: "Expose approved database operations to MCP clients with MCP Toolbox before ad hoc SQL glue sprawls"
+slug: "expose-approved-database-operations-to-mcp-clients-with-mcp-toolbox-before-ad-hoc-sql-glue-sprawls"
 description: "Use MCP Toolbox to turn database access into a constrained MCP tool surface, with prebuilt or custom tools that agents can call without hand-rolled wrappers for every project."
+github_stars: 14664
 verification: "security_reviewed"
 source: "https://github.com/googleapis/mcp-toolbox"
 author: "Google Cloud"
 publisher_type: "organization"
-category:
-  - "Integrations & Connectors"
-framework:
-  - "MCP"
+category: "Integrations & Connectors"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "googleapis/mcp-toolbox"
   github_stars: 14664
@@ -24,19 +24,24 @@ MCP Toolbox server, database credentials, an MCP-capable client such as Claude C
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install toolbox-core
+- pip install toolbox-langchain
+- pip install toolbox-llamaindex
+- npm install @toolbox-sdk/core
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Python SDK](https://img.shields.io/pypi/v/toolbox-core?logo=python&logoColor=white&label=Python%20SDK)](https://pypi.org/project/toolbox-core/)
+- *See the [Install & Run the Toolbox server](#install--run-the-toolbox-server) section for different execution methods like Docker or binaries.*
+- <summary>Python (<a href="https://github.com/googleapis/mcp-toolbox-sdk-python">Github</a>)</summary>
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- **Custom Tools Framework (Run-Time):** A robust framework to build specialized, highly secure AI tools for your production agents. Define structured queries, semantic search, and NL2SQL capabilities safely and easily.
+- [Quick Start: Prebuilt Tools](#quick-start-prebuilt-tools)
+- [Quick Start: Custom Tools](#quick-start-custom-tools)
 
-```
-Install or run MCP Toolbox, configure a prebuilt or custom database tool definition, provide the needed connection settings, then register the toolbox server in your MCP client configuration.
-```
+- Source: https://github.com/googleapis/mcp-toolbox
+- Extracted from upstream docs: https://raw.githubusercontent.com/googleapis/mcp-toolbox/HEAD/README.md
 
 ## Documentation
 

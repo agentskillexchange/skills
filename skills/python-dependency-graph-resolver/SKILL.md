@@ -1,13 +1,13 @@
 ---
-title: "Python Dependency Graph Resolver"
+name: "Python Dependency Graph Resolver"
+slug: "python-dependency-graph-resolver"
 description: "Resolves and visualizes Python package dependency graphs using pip, pipdeptree, and the PyPI JSON API. Detects version conflicts, circular dependencies, and vulnerable transitive dependencies."
+github_stars: 2996
 verification: "security_reviewed"
 source: "https://github.com/tox-dev/pipdeptree"
 author: "tox-dev"
-category:
-  - "Library & API Reference"
-framework:
-  - "Custom Agents"
+category: "Library & API Reference"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "tox-dev/pipdeptree"
   github_stars: 2996
@@ -23,19 +23,20 @@ Python, pip
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install pipdeptree
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pipdeptree?style=flat-square)](https://pypi.org/project/pipdeptree)
+- A command-line utility for displaying installed Python packages as a dependency tree. While pip freeze shows a flat
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- bash
+- pipdeptree
+- text
 
-```
-pip install pipdeptree
-```
+- Source: https://github.com/tox-dev/pipdeptree
+- Extracted from upstream docs: https://raw.githubusercontent.com/tox-dev/pipdeptree/HEAD/README.md
 
 ## Documentation
 

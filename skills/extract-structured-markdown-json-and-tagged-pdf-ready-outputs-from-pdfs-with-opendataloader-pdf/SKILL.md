@@ -1,14 +1,14 @@
 ---
-title: "Extract structured markdown, JSON, and tagged-PDF-ready outputs from PDFs with OpenDataLoader PDF"
+name: "Extract structured markdown, JSON, and tagged-PDF-ready outputs from PDFs with OpenDataLoader PDF"
+slug: "extract-structured-markdown-json-and-tagged-pdf-ready-outputs-from-pdfs-with-opendataloader-pdf"
 description: "Convert PDFs into LLM-ready markdown or coordinate-aware JSON, and use the same pipeline for tagged-PDF accessibility workflows when that is the real job to be done."
+github_stars: 19060
 verification: "security_reviewed"
 source: "https://github.com/opendataloader-project/opendataloader-pdf"
 author: "opendataloader-project"
 publisher_type: "organization"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Multi-Framework"
+category: "Data Extraction & Transformation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "opendataloader-project/opendataloader-pdf"
   github_stars: 19060
@@ -24,19 +24,24 @@ Python 3.10+, Java 11+, PDF inputs, optional hybrid-mode backend setup for compl
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip install -U opendataloader-pdf
+- npm install @opendataloader/pdf
+- pip install -U "opendataloader-pdf[hybrid]"
+- pip install -U langchain-opendataloader-pdf
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- sdk: Python, Node.js, Java
+- **Requires**: Java 11+ and Python 3.10+ ([Node.js](https://opendataloader.org/docs/quick-start-nodejs) | [Java](https://opendataloader.org/docs/quick-start-java) also available)
+- python
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- pricing: open-source core (data extraction, layout analysis, auto-tagging to Tagged PDF), enterprise add-on (PDF/UA export, accessibility studio)
+- extraction-benchmark: #1 overall extraction accuracy (0.907) in hybrid mode, 0.928 table extraction accuracy, 0.015s/page local mode
+- accessibility-validation: PDF Association collaboration, Well-Tagged PDF specification, veraPDF automated validation
 
-```
-Install the package from the documented pip path, confirm Java 11+ is available, then run the convert workflow against one or more PDFs to emit markdown, JSON, HTML, or the documented accessibility-oriented outputs.
-```
+- Source: https://github.com/opendataloader-project/opendataloader-pdf
+- Extracted from upstream docs: https://raw.githubusercontent.com/opendataloader-project/opendataloader-pdf/HEAD/README.md
 
 ## Documentation
 

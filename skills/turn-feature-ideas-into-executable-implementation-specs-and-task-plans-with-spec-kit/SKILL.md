@@ -1,14 +1,14 @@
 ---
-title: "Turn feature ideas into executable implementation specs and task plans with Spec Kit"
+name: "Turn feature ideas into executable implementation specs and task plans with Spec Kit"
+slug: "turn-feature-ideas-into-executable-implementation-specs-and-task-plans-with-spec-kit"
 description: "Use Spec Kit when an agent should turn a feature idea into a spec-first workflow with explicit artifacts, planning steps, and task breakdowns before code is written."
+github_stars: 88536
 verification: "security_reviewed"
 source: "https://github.com/github/spec-kit"
 author: "GitHub"
 publisher_type: "organization"
-category:
-  - "Templates & Workflows"
-framework:
-  - "Multi-Framework"
+category: "Templates & Workflows"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "github/spec-kit"
   github_stars: 88536
@@ -24,19 +24,18 @@ uv, Git, a supported AI coding assistant
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- │ ├── check-prerequisites.sh
+- require further research, I want you to update the research document with additional details about the specific
+- Validate that all prerequisites are in place (constitution, spec, plan, and tasks)
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- You can use the Specify CLI to bootstrap your project, which will bring in the required artifacts in your environment. Run:
+- Go to the project folder and run your coding agent. In our example, we're using claude.
+- An example prompt:
 
-Install command or upstream instructions:
-
-```
-Install from GitHub with uv, for example: uv tool install specify-cli --from git+https://github.com/github/spec-kit.git@vX.Y.Z, then run specify init in a project and use the /speckit.* workflow commands from a supported AI agent.
-```
+- Source: https://github.com/github/spec-kit
+- Extracted from upstream docs: https://raw.githubusercontent.com/github/spec-kit/HEAD/README.md
 
 ## Documentation
 

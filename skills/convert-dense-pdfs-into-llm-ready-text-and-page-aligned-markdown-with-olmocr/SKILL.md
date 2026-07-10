@@ -1,14 +1,14 @@
 ---
-title: "Convert dense PDFs into LLM-ready text and page-aligned markdown with olmOCR"
+name: "Convert dense PDFs into LLM-ready text and page-aligned markdown with olmOCR"
+slug: "convert-dense-pdfs-into-llm-ready-text-and-page-aligned-markdown-with-olmocr"
 description: "Use olmOCR when an agent needs to turn scanned or layout-heavy documents into clean markdown or text before chunking, search, extraction, or citation workflows."
+github_stars: 17135
 verification: "security_reviewed"
 source: "https://github.com/allenai/olmocr"
 author: "Allen Institute for AI"
 publisher_type: "organization"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Multi-Framework"
+category: "Data Extraction & Transformation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "allenai/olmocr"
   github_stars: 17135
@@ -24,19 +24,24 @@ Python 3.11, pip or conda, poppler-utils, optional NVIDIA GPU for local inferenc
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- conda create -n olmocr python=3.11
+- conda activate olmocr
+- pip install olmocr
+- pip install olmocr[gpu] --extra-index-url https://download.pytorch.org/whl/cu128
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- (Based on a 7B parameter VLM, so it requires a GPU)
+- June 17, 2025 - v0.1.75 - Switch from sglang to vllm based inference pipeline, updated docker image to CUDA 12.8.
+- May 23, 2025 - v0.1.70 - Official docker support and images are now available! [See Docker usage](#using-docker)
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- #### System Dependencies
+- You will need to install poppler-utils and additional fonts for rendering PDF images.
+- bash
 
-```
-Create a clean Python environment, install required PDF rendering dependencies, then install the package with pip install olmocr for remote inference or pip install olmocr[gpu] for local GPU inference.
-```
+- Source: https://github.com/allenai/olmocr
+- Extracted from upstream docs: https://raw.githubusercontent.com/allenai/olmocr/HEAD/README.md
 
 ## Documentation
 

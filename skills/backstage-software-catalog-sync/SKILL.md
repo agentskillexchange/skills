@@ -1,13 +1,13 @@
 ---
-title: "Backstage Software Catalog Sync"
+name: "Backstage Software Catalog Sync"
+slug: "backstage-software-catalog-sync"
 description: "Synchronizes service metadata into Spotify Backstage catalog using catalog-info.yaml generation and the Backstage Catalog REST API. Manages component, API, and system entity relationships across teams."
+github_stars: 33125
 verification: "security_reviewed"
 source: "https://github.com/backstage/backstage"
 author: "Backstage"
-category:
-  - "Templates & Workflows"
-framework:
-  - "Cursor"
+category: "Templates & Workflows"
+framework: "Cursor"
 tool_ecosystem:
   github_repo: "backstage/backstage"
   github_stars: 33125
@@ -19,13 +19,13 @@ Synchronizes service metadata into Spotify Backstage catalog using catalog-info.
 
 ## Installation
 
-Choose whichever fits your setup:
+Basic usage or getting-started notes:
+- To start using Backstage, see the [Getting Started documentation](https://backstage.io/docs/getting-started).
+- ## Documentation
+- The documentation of Backstage includes:
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+- Source: https://github.com/backstage/backstage
+- Extracted from upstream docs: https://raw.githubusercontent.com/backstage/backstage/HEAD/README.md
 
 ## Source
 

@@ -1,14 +1,14 @@
 ---
-title: "Run local small-model coding sessions with SmallCode"
+name: "Run local small-model coding sessions with SmallCode"
+slug: "run-local-small-model-coding-sessions-with-smallcode"
 description: "Use SmallCode as a terminal-native coding agent for 8B-35B local models, with budget-managed context, forgiving tool parsing, TODO-driven planning, and patch-based edits."
+github_stars: 967
 verification: "listed"
 source: "https://github.com/Doorman11991/smallcode"
 author: "Doorman11991"
 publisher_type: "individual"
-category:
-  - "Developer Tools"
-framework:
-  - "Custom Agents"
+category: "Developer Tools"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "Doorman11991/smallcode"
   github_stars: 967
@@ -26,19 +26,9 @@ Node.js/npm, a local 8B-35B coding model or compatible local model runtime, term
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Install globally with npm install -g smallcode, or run directly with npx smallcode, then start it from the target project directory.
-```
+- Source: https://github.com/Doorman11991/smallcode
 
 ## Documentation
 

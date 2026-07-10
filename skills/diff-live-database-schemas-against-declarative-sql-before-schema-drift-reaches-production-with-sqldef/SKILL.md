@@ -1,14 +1,14 @@
 ---
-title: "Diff live database schemas against declarative SQL before schema drift reaches production with sqldef"
+name: "Diff live database schemas against declarative SQL before schema drift reaches production with sqldef"
+slug: "diff-live-database-schemas-against-declarative-sql-before-schema-drift-reaches-production-with-sqldef"
 description: "Compare checked-in SQL against live MySQL, PostgreSQL, SQLite, or SQL Server schemas and generate a reviewable apply plan before agents touch production databases."
+github_stars: 3076
 verification: "security_reviewed"
 source: "https://github.com/sqldef/sqldef"
 author: "sqldef"
 publisher_type: "organization"
-category:
-  - "Runbooks & Diagnostics"
-framework:
-  - "Multi-Framework"
+category: "Runbooks & Diagnostics"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "sqldef/sqldef"
   github_stars: 3076
@@ -24,19 +24,24 @@ Go-built sqldef binary and access to a supported relational database
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Docker images are available on Docker Hub:
+- brew install sqldef/sqldef/mysqldef
+- brew install sqldef/sqldef/psqldef
+- brew install sqldef/sqldef/sqlite3def
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- ### Docker images
+- https://hub.docker.com/u/sqldef
+- Debian packages are not currently available. Use the pre-built binaries or Docker images instead.
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Each database gets its own command (mysqldef, psqldef, sqlite3def, mssqldef) that mimics the connection options of the native database client, making it familiar and easy to integrate into existing workflows. The tool...
+- ### Basic Workflow
+- This is the basic workflow, which is identical across all databases - only the connection options differ between commands.
 
-```
-Install the sqldef binary for your platform from the project releases or package manager, prepare declarative SQL files for the target database, then run the matching tool such as `psqldef`, `mysqldef`, or `sqlite3def` against a live database to review and apply the diff.
-```
+- Source: https://github.com/sqldef/sqldef
+- Extracted from upstream docs: https://raw.githubusercontent.com/sqldef/sqldef/HEAD/README.md
 
 ## Documentation
 

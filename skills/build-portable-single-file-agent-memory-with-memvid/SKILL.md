@@ -1,14 +1,14 @@
 ---
-title: "Build portable single-file agent memory with Memvid"
+name: "Build portable single-file agent memory with Memvid"
+slug: "build-portable-single-file-agent-memory-with-memvid"
 description: "Use Memvid when an agent needs local, portable long-term memory and retrieval without running a vector database or full RAG service."
+github_stars: 15668
 verification: "security_reviewed"
 source: "https://github.com/memvid/memvid"
 author: "memvid"
 publisher_type: "organization"
-category:
-  - "Integrations & Connectors"
-framework:
-  - "Multi-Framework"
+category: "Integrations & Connectors"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "memvid/memvid"
   github_stars: 15668
@@ -26,19 +26,23 @@ Memvid CLI or SDK; optional local embedding model files for local vector search
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/memvid/memvid.git
+- cargo build
+- cargo build --release
+- cargo build --release --features "lex,vec,temporal_track"
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- | **Node.js SDK** | npm install @memvid/sdk | [![npm](https://img.shields.io/npm/v/@memvid/sdk?style=flat-square)](https://www.npmjs.com/package/@memvid/sdk) |
+- | **Python SDK** | pip install memvid-sdk | [![PyPI](https://img.shields.io/pypi/v/memvid-sdk?style=flat-square)](https://pypi.org/project/memvid-sdk/) |
+- Image search using CLIP embeddings (requires clip feature):
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- MEMVID_WHISPER_MODEL=whisper-tiny-en-q8k cargo run --example test_whisper --features whisper -- audio.mp3
+- Download the default BGE-small model (384 dimensions, fast and efficient):
 
-```
-Install the Node SDK with `npm install @memvid/sdk`, the CLI with `npm install -g memvid-cli`, the Python SDK with `pip install memvid-sdk`, or the Rust crate with `cargo add memvid-core`.
-```
+- Source: https://github.com/memvid/memvid
+- Extracted from upstream docs: https://raw.githubusercontent.com/memvid/memvid/HEAD/README.md
 
 ## Documentation
 

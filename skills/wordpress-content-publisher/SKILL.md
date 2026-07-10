@@ -1,14 +1,14 @@
 ---
-title: "WordPress Content Publisher"
+name: "WordPress Content Publisher"
+slug: "wordpress-content-publisher"
 description: "Structured publishing workflow for WordPress drafts, metadata, and content operations."
+github_stars: 21160
 verification: "listed"
 source: "https://github.com/WordPress/WordPress"
 author: "WordPress"
 publisher_type: "open_source_collective"
-category:
-  - "WordPress & CMS"
-framework:
-  - "Custom Agents"
+category: "WordPress & CMS"
+framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "wordpress/wordpress"
   github_stars: 21160
@@ -24,19 +24,9 @@ OpenClaw, WordPress site with REST API access, application password
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Install the WordPress skills from the OpenClaw skills set. Create an application password in WordPress (Users → Profile → Application Passwords) and configure REST API access in your OpenClaw environment.
-```
+- Source: https://github.com/WordPress/WordPress
 
 ## Documentation
 

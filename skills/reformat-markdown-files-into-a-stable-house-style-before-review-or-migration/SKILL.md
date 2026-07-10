@@ -1,13 +1,13 @@
 ---
-title: "Reformat Markdown files into a stable house style before review or migration"
+name: "Reformat Markdown files into a stable house style before review or migration"
+slug: "reformat-markdown-files-into-a-stable-house-style-before-review-or-migration"
 description: "Runs mdformat to rewrite Markdown into a consistent CommonMark-oriented layout or check mode in CI. Use it when an agent needs deterministic Markdown diffs before review, migration, or bulk cleanup, not when it needs to generate new content or build a docs site."
+github_stars: 758
 verification: "security_reviewed"
 source: "https://github.com/hukkin/mdformat"
 author: "Taneli Hukkinen"
-category:
-  - "Templates & Workflows"
-framework:
-  - "Multi-Framework"
+category: "Templates & Workflows"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "hukkin/mdformat"
   github_stars: 758
@@ -23,19 +23,22 @@ Python 3, pipx or pip, command line
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pipx install mdformat
+- pipx inject mdformat mdformat-gfm
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Mdformat is a Unix-style command-line tool as well as a Python library.
+- require and enable an extension plugin (multiple
+- require and enable a code formatter plugin (multiple
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- bash
+- <!-- end installing -->
+- <!-- start cli-usage -->
 
-```
-pipx install mdformat
-```
+- Source: https://github.com/hukkin/mdformat
+- Extracted from upstream docs: https://raw.githubusercontent.com/hukkin/mdformat/HEAD/README.md
 
 ## Documentation
 

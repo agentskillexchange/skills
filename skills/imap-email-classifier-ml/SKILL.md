@@ -1,12 +1,11 @@
 ---
-title: "IMAP Email Classifier"
+name: "IMAP Email Classifier"
+slug: "imap-email-classifier-ml"
 description: "Classifies and organizes emails from IMAP servers using imaplib and scikit-learn text classification. Supports custom label rules with SpaCy NER for entity extraction."
 verification: "security_reviewed"
 source: "https://datatracker.ietf.org/doc/html/rfc3501"
-category:
-  - "Calendar, Email & Productivity"
-framework:
-  - "ChatGPT Agents"
+category: "Calendar, Email & Productivity"
+framework: "ChatGPT Agents"
 ---
 
 # IMAP Email Classifier
@@ -15,13 +14,17 @@ Classifies and organizes emails from IMAP servers using imaplib and scikit-learn
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- under Data Formats); in the other case, the command arguments require
+- re-ordered by a non-IMAP agent, this requires that the
+- to a particular case. Client implementations MUST interact with any
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- the software being run by the user.
+- not they implement the convention. For example, "&" may not be used
+- replacements; for example, the modern version of RFC822 .HEADER is
+
+- Source: https://datatracker.ietf.org/doc/html/rfc3501
 
 ## Source
 

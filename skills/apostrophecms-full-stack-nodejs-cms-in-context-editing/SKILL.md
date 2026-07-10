@@ -1,14 +1,14 @@
 ---
-title: "ApostropheCMS Full-Stack Node.js CMS with In-Context Editing"
+name: "ApostropheCMS Full-Stack Node.js CMS with In-Context Editing"
+slug: "apostrophecms-full-stack-nodejs-cms-in-context-editing"
 description: "ApostropheCMS is a full-stack Node.js CMS that combines in-context editing for content teams with headless flexibility for developers. It is a strong fit when teams want live-page editing, MongoDB-backed content models, and a documented REST API for custom frontends."
+github_stars: 4547
 verification: "security_reviewed"
 source: "https://github.com/apostrophecms/apostrophe"
 author: "ApostropheCMS"
 publisher_type: "Open Source Project"
-category:
-  - "WordPress & CMS"
-framework:
-  - "Multi-Framework"
+category: "WordPress & CMS"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "apostrophecms/apostrophe"
   github_stars: 4547
@@ -26,19 +26,24 @@ Node.js 20+, npm 10+, MongoDB 6+
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install -g @apostrophecms/cli
+- npm run dev
+- # Option 2: Use npx for one-time project creation
+- npx @apostrophecms/cli create my-website
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Build websites with in-context editing and headless flexibility using Node.js and MongoDB.
+- ApostropheCMS is a full-stack content management system built with Node.js and MongoDB. Content creators can edit directly on live pages without switching between admin interfaces, while developers can build with mode...
+- **🛠️ Developer-First** - Built with Node.js and MongoDB for full-stack JavaScript development
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- Get ApostropheCMS running locally in minutes:
+- bash
+- # Option 1: Install CLI globally (recommended for multiple projects)
 
-```
-npm install -g @apostrophecms/cli && apos create my-website
-```
+- Source: https://github.com/apostrophecms/apostrophe
+- Extracted from upstream docs: https://raw.githubusercontent.com/apostrophecms/apostrophe/HEAD/README.md
 
 ## Documentation
 

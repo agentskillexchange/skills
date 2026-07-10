@@ -1,13 +1,13 @@
 ---
-title: "Apache Airflow MCP"
-description: "Apache Airflow MCP is built around Apache Airflow workflow orchestration. The underlying ecosystem is represented by apache/airflow (44,767+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Airflow REST API, DAGs, task instances, schedulers and preserving the operational […]"
+name: "Apache Airflow MCP"
+slug: "apache-airflow-mcp"
+description: ""
+github_stars: 45040
 verification: "security_reviewed"
 source: "https://github.com/apache/airflow"
 author: "apache"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "MCP"
+category: "Data Extraction & Transformation"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "apache/airflow"
   github_stars: 45040
@@ -15,7 +15,7 @@ tool_ecosystem:
 
 # Apache Airflow MCP
 
-Apache Airflow MCP is built around Apache Airflow workflow orchestration. The underlying ecosystem is represented by apache/airflow (44,767+ GitHub stars). It gives an agent a more technical and reliable way to work with the tool than a thin one-line wrapper, using stable interfaces like Airflow REST API, DAGs, task instances, schedulers and preserving the operational […]
+
 
 ## Prerequisites
 
@@ -23,19 +23,24 @@ Python
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- pip - especially when it comes to constraint vs. requirements management.
+- pip install 'apache-airflow==3.2.0' \
+- pip install 'apache-airflow[postgres,google]==3.2.0' \
+- docker tool, use them in Kubernetes, Helm Charts, docker-compose, docker swarm, etc. You can
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- | PyPI | [![PyPI version](https://badge.fury.io/py/apache-airflow.svg)](https://badge.fury.io/py/apache-airflow) [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/apache-airflow.svg)](https://pypi.org/p...
+- | Containers | [![Docker Pulls](https://img.shields.io/docker/pulls/apache/airflow.svg)](https://hub.docker.com/r/apache/airflow) [![Docker Stars](https://img.shields.io/docker/stars/apache/airflow.svg)](https://hub.d...
+- [Support for Python and Kubernetes versions](#support-for-python-and-kubernetes-versions)
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+- [Getting started](#getting-started)
+- Airflow works best with workflows that are mostly static and slowly changing. When the Dag structure is similar from one run to the next, it clarifies the unit of work and continuity. Other similar projects include [L...
 
-```
-pip install apache-airflow
-```
+- Source: https://github.com/apache/airflow
+- Extracted from upstream docs: https://raw.githubusercontent.com/apache/airflow/HEAD/README.md
 
 ## Documentation
 

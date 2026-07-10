@@ -1,14 +1,14 @@
 ---
-title: "Capture Linux runtime security events and suspicious behavior for live triage with Tracee"
+name: "Capture Linux runtime security events and suspicious behavior for live triage with Tracee"
+slug: "capture-linux-runtime-security-events-and-suspicious-behavior-for-live-triage-with-tracee"
 description: "Watch live Linux and container activity through eBPF so you can triage suspicious runtime behavior before it disappears into guesswork."
+github_stars: 4468
 verification: "listed"
 source: "https://github.com/aquasecurity/tracee"
 author: "Aqua Security"
 publisher_type: "organization"
-category:
-  - "Security & Verification"
-framework:
-  - "Multi-Framework"
+category: "Security & Verification"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "aquasecurity/tracee"
   github_stars: 4468
@@ -24,19 +24,9 @@ Linux host or Kubernetes environment with the required kernel support, Tracee ru
 
 ## Installation
 
-Choose whichever fits your setup:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
-
-Install command or upstream instructions:
-
-```
-Install Tracee from the upstream binary, container, Helm chart, or package path documented by the project, confirm the host or cluster meets the kernel and privilege requirements, then run Tracee with the documented event or rule filters for the target environment.
-```
+- Source: https://github.com/aquasecurity/tracee
 
 ## Documentation
 

@@ -1,12 +1,12 @@
 ---
-title: "Bedrock Modern WordPress Project Boilerplate by Roots"
+name: "Bedrock Modern WordPress Project Boilerplate by Roots"
+slug: "bedrock-wordpress-composer-boilerplate-roots"
 description: "Bedrock is a WordPress boilerplate with Composer-based dependency management, environment-specific configuration via .env files, and an improved folder structure. It separates WordPress core from application code for cleaner version control and deployment."
+github_stars: 6498
 verification: "security_reviewed"
 source: "https://github.com/roots/bedrock"
-category:
-  - "WordPress & CMS"
-framework:
-  - "Multi-Framework"
+category: "WordPress & CMS"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "roots/bedrock"
   github_stars: 6498
@@ -18,13 +18,16 @@ Bedrock is a WordPress boilerplate with Composer-based dependency management, en
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- <img src="https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/roots/bedrock/master/composer.json&label=wordpress&logo=roots&logoColor=white&query=$.require[%22roots/wordpress%22]&colorB...
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- See the [Bedrock installation documentation](https://roots.io/bedrock/docs/installation/).
+- ## Community
+- Keep track of development and community news.
+
+- Source: https://github.com/roots/bedrock
+- Extracted from upstream docs: https://raw.githubusercontent.com/roots/bedrock/HEAD/README.md
 
 ## Source
 

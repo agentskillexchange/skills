@@ -1,13 +1,12 @@
 ---
-title: "Makefile Workflow Generator"
+name: "Makefile Workflow Generator"
+slug: "makefile-workflow-generator"
 description: "Generates project Makefiles with standard targets using GNU Make syntax, autodeps pattern rules, and integration with package managers (npm scripts, Poetry tasks, Cargo commands). Produces .PHONY declarations and help targets."
 verification: "security_reviewed"
 source: "https://docs.docker.com/"
 author: "Docker Inc."
-category:
-  - "Templates & Workflows"
-framework:
-  - "Gemini"
+category: "Templates & Workflows"
+framework: "Gemini"
 ---
 
 # Makefile Workflow Generator
@@ -16,13 +15,23 @@ Generates project Makefiles with standard targets using GNU Make syntax, autodep
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- Docker Docs
+- Docker Hardened Images
+- Why should I use Docker Compose?
+- Docker Desktop overview
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- Gordon Gordon, your AI assistant for Docker docs
+- email: 'docs@docker.com',
+- I'm Gordon, your AI assistant for Docker and documentation
+
+Basic usage or getting-started notes:
+- Can I run my AI agent in a sandbox?
+- Reference
+- Browse the CLI and API documentation.
+
+- Source: https://docs.docker.com/
 
 ## Documentation
 

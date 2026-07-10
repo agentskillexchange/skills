@@ -1,14 +1,14 @@
 ---
-title: "Store selective long-term agent memories with Mem0 instead of replaying whole chats"
+name: "Store selective long-term agent memories with Mem0 instead of replaying whole chats"
+slug: "store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats"
 description: "Use Mem0 when an agent should retain durable preferences, facts, and prior decisions as selective memory records instead of stuffing more transcript history back into every prompt."
+github_stars: 53457
 verification: "security_reviewed"
 source: "https://github.com/mem0ai/mem0"
 author: "Mem0"
 publisher_type: "company"
-category:
-  - "Library & API Reference"
-framework:
-  - "Multi-Framework"
+category: "Library & API Reference"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "mem0ai/mem0"
   github_stars: 53457
@@ -26,19 +26,24 @@ A Python or Node agent stack, the Mem0 package or API, and a workflow that can d
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- npm install -g @mem0/cli # or: pip install mem0-cli
+- pip install mem0ai
+- pip install mem0ai[nlp]
+- npm install mem0ai
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- | **Setup** | pip install mem0ai | docker compose up | Sign up at [app.mem0.ai](https://app.mem0.ai?utm_source=oss&utm_medium=readme) |
+- python -m spacy download en_core_web_sm
+- cd server && docker compose up -d # http://localhost:3000
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- All benchmarks run on the same production-representative model stack. Single-pass retrieval (one call, no agentic loops).
+- bash
+- ### Self-Hosted Server
 
-```
-Install Mem0 through the supported Python or npm package, configure the LLM and storage components described in the docs, wire the add and search calls into your agent workflow, and store only stable facts or preferences so later runs can retrieve selective memory instead of replaying full chats.
-```
+- Source: https://github.com/mem0ai/mem0
+- Extracted from upstream docs: https://raw.githubusercontent.com/mem0ai/mem0/HEAD/README.md
 
 ## Documentation
 

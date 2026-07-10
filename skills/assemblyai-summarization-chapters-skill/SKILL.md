@@ -1,27 +1,28 @@
 ---
-title: "AssemblyAI Summarization & Chapters Skill"
-description: "Transcribes audio and generates auto-chapters with summaries using AssemblyAI’s /v2/transcript endpoint with auto_chapters=true. Extracts key topics, sentiment analysis, and content safety labels via AssemblyAI SDK."
+name: "AssemblyAI Summarization & Chapters Skill"
+slug: "assemblyai-summarization-chapters-skill"
+description: "Transcribes audio and generates auto-chapters with summaries using AssemblyAI's /v2/transcript endpoint with auto_chapters=true. Extracts key topics, sentiment analysis, and content safety labels via AssemblyAI SDK."
 verification: "security_reviewed"
 source: "https://www.assemblyai.com/docs"
-category:
-  - "Media & Transcription"
-framework:
-  - "Claude Agents"
+category: "Media & Transcription"
+framework: "Claude Agents"
 ---
 
 # AssemblyAI Summarization & Chapters Skill
 
-Transcribes audio and generates auto-chapters with summaries using AssemblyAI’s /v2/transcript endpoint with auto_chapters=true. Extracts key topics, sentiment analysis, and content safety labels via AssemblyAI SDK.
+Transcribes audio and generates auto-chapters with summaries using AssemblyAI's /v2/transcript endpoint with auto_chapters=true. Extracts key topics, sentiment analysis, and content safety labels via AssemblyAI SDK.
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- Python SDK
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- Overview
+- Build with AI coding agents
+- Models
+
+- Source: https://www.assemblyai.com/docs
 
 ## Source
 

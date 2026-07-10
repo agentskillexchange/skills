@@ -1,14 +1,14 @@
 ---
-title: "Build document-grounded agent context workflows with RAGFlow"
+name: "Build document-grounded agent context workflows with RAGFlow"
+slug: "build-document-grounded-agent-context-workflows-with-ragflow"
 description: "Use RAGFlow to ingest complex documents, build governed RAG knowledge bases, and give agents higher-fidelity context for retrieval-augmented workflows."
+github_stars: 79794
 verification: "security_reviewed"
 source: "https://github.com/infiniflow/ragflow"
 author: "infiniflow"
 publisher_type: "Open source project"
-category:
-  - "Data Extraction & Transformation"
-framework:
-  - "Multi-Framework"
+category: "Data Extraction & Transformation"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "infiniflow/ragflow"
   github_stars: 79794
@@ -24,19 +24,19 @@ RAGFlow, Docker or self-hosted/cloud RAGFlow deployment, target LLM/provider cre
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- If you have not installed Docker on your local machine (Windows, Mac, or Linux), see [Install Docker Engine](https://docs.docker.com/engine/install/).
+- $ git clone https://github.com/infiniflow/ragflow.git
+- $ docker compose -f docker-compose.yml up -d
+- $ docker logs -f docker-ragflow-cpu-1
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- <a href="https://hub.docker.com/r/infiniflow/ragflow" target="_blank">
+- <img src="https://img.shields.io/docker/pulls/infiniflow/ragflow?label=Docker%20Pulls&color=0db7ed&logo=docker&logoColor=white&style=flat-square" alt="docker pull infiniflow/ragflow:v0.25.4">
+- 🔧 [Build a Docker image](#-build-a-docker-image)
 
-Install command or upstream instructions:
-
-```
-Follow the RAGFlow self-hosting or cloud setup from the upstream documentation; the GitHub README links Docker images, releases, configuration, and source-development launch paths.
-```
+- Source: https://github.com/infiniflow/ragflow
+- Extracted from upstream docs: https://raw.githubusercontent.com/infiniflow/ragflow/HEAD/README.md
 
 ## Documentation
 

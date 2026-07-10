@@ -1,14 +1,14 @@
 ---
-title: "Cronitor CLI for Cron Monitoring and Job Telemetry"
-description: "CronitorCLI is Cronitor’s open-source command-line tool for syncing cron jobs, sending telemetry pings, and wrapping commands with execution monitoring. It fits monitoring-heavy agent runbooks where scheduled jobs, server tasks, and long-running commands need explicit visibility."
+name: "Cronitor CLI for Cron Monitoring and Job Telemetry"
+slug: "cronitor-cli-cron-monitoring-job-telemetry"
+description: "CronitorCLI is Cronitor's open-source command-line tool for syncing cron jobs, sending telemetry pings, and wrapping commands with execution monitoring. It fits monitoring-heavy agent runbooks where scheduled jobs, server tasks, and long-running commands need explicit visibility."
+github_stars: 399
 verification: "security_reviewed"
 source: "https://github.com/cronitorio/cronitor-cli"
 author: "cronitorio"
 publisher_type: "Company"
-category:
-  - "Monitoring & Alerts"
-framework:
-  - "Multi-Framework"
+category: "Monitoring & Alerts"
+framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "cronitorio/cronitor-cli"
   github_stars: 399
@@ -16,7 +16,7 @@ tool_ecosystem:
 
 # Cronitor CLI for Cron Monitoring and Job Telemetry
 
-CronitorCLI is Cronitor’s open-source command-line tool for syncing cron jobs, sending telemetry pings, and wrapping commands with execution monitoring. It fits monitoring-heavy agent runbooks where scheduled jobs, server tasks, and long-running commands need explicit visibility.
+CronitorCLI is Cronitor's open-source command-line tool for syncing cron jobs, sending telemetry pings, and wrapping commands with execution monitoring. It fits monitoring-heavy agent runbooks where scheduled jobs, server tasks, and long-running commands need explicit visibility.
 
 ## Prerequisites
 
@@ -24,19 +24,16 @@ Linux, macOS, or Windows shell environment
 
 ## Installation
 
-Choose whichever fits your setup:
+Requirements and caveats from upstream:
+- For systemd and Docker examples, and security best‑practices, see the full [Dashboard documentation](https://crontab.guru/dashboard.html).
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Basic usage or getting-started notes:
+- CronitorCLI is packaged as a single executable for Linux, MacOS and Windows. There is a simple installation script, but all you need to do is download and decompress the app into a location of your choice for easy sys...
+- For the latest installation details, see https://cronitor.io/docs/using-cronitor-cli#installation
+- cronitor [command]
 
-Install command or upstream instructions:
-
-```
-curl https://cronitor.io/install-linux?sudo=1 -H "API-KEY: API_KEY" | sh
-```
+- Source: https://github.com/cronitorio/cronitor-cli
+- Extracted from upstream docs: https://raw.githubusercontent.com/cronitorio/cronitor-cli/HEAD/README.md
 
 ## Documentation
 

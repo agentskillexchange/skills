@@ -1,14 +1,14 @@
 ---
-title: "Compose router, evaluator, and handoff workflows over MCP servers with mcp-agent"
+name: "Compose router, evaluator, and handoff workflows over MCP servers with mcp-agent"
+slug: "compose-router-evaluator-and-handoff-workflows-over-mcp-servers-with-mcp-agent"
 description: "Connect LLMs to MCP servers through composable patterns like router, evaluator-optimizer, and orchestrator flows without hand-managing server lifecycles."
+github_stars: 8276
 verification: "security_reviewed"
 source: "https://github.com/lastmile-ai/mcp-agent"
 author: "LastMile AI"
 publisher_type: "open_source_project"
-category:
-  - "Templates & Workflows"
-framework:
-  - "MCP"
+category: "Templates & Workflows"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "lastmile-ai/mcp-agent"
   github_stars: 8276
@@ -26,19 +26,23 @@ Python runtime, MCP servers, LLM API key, optional Temporal for durable workflow
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- uv init
+- uv add "mcp-agent[openai]"
+- uv run main.py
+- uv add "mcp-agent"
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- python
+- We recommend using [uv](https://docs.astral.sh/uv/) to manage your Python projects (uv init).
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- <a id="minimal-example"></a>
+- **Minimal example**
+- async with app.run():
 
-```
-Install mcp-agent from the upstream package, configure your MCP servers and model credentials, then compose the desired workflow pattern from the quickstart examples.
-```
+- Source: https://github.com/lastmile-ai/mcp-agent
+- Extracted from upstream docs: https://raw.githubusercontent.com/lastmile-ai/mcp-agent/HEAD/README.md
 
 ## Documentation
 

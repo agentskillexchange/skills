@@ -1,14 +1,14 @@
 ---
-title: "Search, send, and organize Apple Mail from MCP-compatible agents with Apple Mail MCP"
+name: "Search, send, and organize Apple Mail from MCP-compatible agents with Apple Mail MCP"
+slug: "search-send-and-organize-apple-mail-from-mcp-compatible-agents-with-apple-mail-mcp"
 description: "Lets an MCP-compatible agent read, search, send, thread, template, and organize Apple Mail on macOS so email work can stay inside a bounded agent workflow."
+github_stars: 54
 verification: "security_reviewed"
 source: "https://github.com/s-morgan-jeffries/apple-mail-mcp"
 author: "s-morgan-jeffries"
 publisher_type: "individual"
-category:
-  - "Calendar, Email & Productivity"
-framework:
-  - "MCP"
+category: "Calendar, Email & Productivity"
+framework: "MCP"
 tool_ecosystem:
   github_repo: "s-morgan-jeffries/apple-mail-mcp"
   github_stars: 54
@@ -24,19 +24,24 @@ macOS 10.15+ with Apple Mail configured, Python 3.10+, uv or pip, and an MCP-com
 
 ## Installation
 
-Choose whichever fits your setup:
+Use the upstream install or setup path that matches your environment:
+- git clone https://github.com/s-morgan-jeffries/apple-mail-mcp.git
+- uv sync --dev
+- uv run python -c "from apple_mail_mcp.mail_connector import AppleMailConnector; \
+- make test # Run unit tests
 
-1. Copy this skill folder into your local skills directory.
-2. Clone the repo and symlink or copy the skill into your agent workspace.
-3. Add the repo as a git submodule if you manage shared skills centrally.
-4. Install it through your internal provisioning or packaging workflow.
-5. Download the folder directly from GitHub and place it in your skills collection.
+Requirements and caveats from upstream:
+- [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+- Python 3.10 or later
+- "args": ["--directory", "/path/to/apple-mail-mcp", "run", "python", "-m", "apple_mail_mcp.server"]
 
-Install command or upstream instructions:
+Basic usage or getting-started notes:
+- ⚠️ **Pre-1.0 — expect breaking changes.** The MCP tool surface (tool names, parameters, return shapes) is still evolving as the project matures. Pin to a specific version (for example, apple-mail-mcp==0.8.1) and revie...
+- macOS 10.15 (Catalina) or later
+- Apple Mail configured with at least one account
 
-```
-Clone the repository, run uv sync --dev (or install with pip), then register the server in your MCP client config using uv --directory /path/to/apple-mail-mcp run python -m apple_mail_mcp.server. On first run, grant macOS Automation permission so the server can control Apple Mail.
-```
+- Source: https://github.com/s-morgan-jeffries/apple-mail-mcp
+- Extracted from upstream docs: https://raw.githubusercontent.com/s-morgan-jeffries/apple-mail-mcp/HEAD/README.md
 
 ## Documentation
 
