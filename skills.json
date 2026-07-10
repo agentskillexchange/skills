@@ -1,8 +1,22 @@
 {
   "version": "2.0",
-  "total": 2715,
-  "generated": "2026-07-09",
+  "total": 2716,
+  "generated": "2026-07-10",
   "skills": [
+    {
+      "slug": "run-visual-scheduled-agent-jobs-with-cronicle",
+      "name": "Run visual scheduled agent jobs with Cronicle",
+      "title": "Run visual scheduled agent jobs with Cronicle",
+      "description": "Use Cronicle to schedule, run, monitor, and manually trigger recurring agent maintenance jobs across one or more worker servers from a web UI and…",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 5771
+      },
+      "source_url": "https://github.com/jhuckaby/Cronicle",
+      "github_repo": "jhuckaby/Cronicle"
+    },
     {
       "slug": "progressive-disclosure",
       "name": "Progressive Disclosure for Documentation",

@@ -145,6 +145,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Configure supervised multi-provider agent workspaces with Craft Agents](../../skills/configure-supervised-multi-provider-agent-workspaces-with-craft-agents/) | 6.1k | — |
 | [Orchestrate goal-driven TypeScript agent teams with Open Multi Agent](../../skills/orchestrate-goal-driven-typescript-agent-teams-with-open-multi-agent/) | 6.1k | 370/wk |
 | [Turn goals into traced multi-agent task DAGs with open-multi-agent](../../skills/turn-goals-into-traced-multi-agent-task-dags-with-open-multi-agent/) | 6k | — |
+| [Run visual scheduled agent jobs with Cronicle](../../skills/run-visual-scheduled-agent-jobs-with-cronicle/) | 5.8k | — |
 | [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter/) | 5.6k | 1.2M/wk |
 | [Build event-driven multi-agent workflows with Solace Agent Mesh](../../skills/build-event-driven-multi-agent-workflows-with-solace-agent-mesh/) | 4.5k | — |
 | [Automate repository triage and recurring repo maintenance with guarded GitHub agent workflows](../../skills/automate-repository-triage-and-recurring-maintenance-with-github-agent-workflows/) | 4.3k | — |

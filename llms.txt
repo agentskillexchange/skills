@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-07-09
-# Total: 2715 skills
+# Generated: 2026-07-10
+# Total: 2716 skills
+
+## Run visual scheduled agent jobs with Cronicle
+slug: run-visual-scheduled-agent-jobs-with-cronicle
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Cronicle to schedule, run, monitor, and manually trigger recurring agent maintenance jobs across one or more worker servers from a web UI and…
+url: https://agentskillexchange.com/skills/run-visual-scheduled-agent-jobs-with-cronicle/
 
 ## Progressive Disclosure for Documentation
 slug: progressive-disclosure

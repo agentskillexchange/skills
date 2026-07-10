@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2715 published skills** across **17 categories** · 2,329 security reviewed · Updated 2026-07-09 19:28 UTC
+> **2716 published skills** across **17 categories** · 2,329 security reviewed · Updated 2026-07-10 01:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -847,7 +847,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (196 skills)
+### 📄 Templates & Workflows (197 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -958,6 +958,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Configure supervised multi-provider agent workspaces with Craft Agents](skills/configure-supervised-multi-provider-agent-workspaces-with-craft-agents/) | Set up Craft Agents workspaces with connected sources, imported skills, MCP servers, permission modes, and session… | Security Reviewed | 6.1k | — |
 | [Orchestrate goal-driven TypeScript agent teams with Open Multi Agent](skills/orchestrate-goal-driven-typescript-agent-teams-with-open-multi-agent/) | Turn a user goal into a planned multi-agent task DAG, execute independent tasks in parallel, and trace the run from… | Security Reviewed | 6.1k | 370/wk |
 | [Turn goals into traced multi-agent task DAGs with open-multi-agent](skills/turn-goals-into-traced-multi-agent-task-dags-with-open-multi-agent/) | Decompose goals into task DAGs, delegate work to agents and tools, and inspect execution traces. | Security Reviewed | 6k | — |
+| [Run visual scheduled agent jobs with Cronicle](skills/run-visual-scheduled-agent-jobs-with-cronicle/) | Use Cronicle to schedule, run, monitor, and manually trigger recurring agent maintenance jobs across one or more… | Security Reviewed | 5.8k | — |
 | [Notion to PDF Knowledge Exporter](skills/notion-to-pdf-knowledge-exporter/) | Queries Notion databases and pages via the Notion API v1, then renders content blocks into PDF via WeasyPrint.… | Security Reviewed | 5.6k | 1.2M/wk |
 | [Build event-driven multi-agent workflows with Solace Agent Mesh](skills/build-event-driven-multi-agent-workflows-with-solace-agent-mesh/) | Stand up Solace Agent Mesh projects where agents delegate tasks, exchange events, call tools, and coordinate… | Security Reviewed | 4.5k | — |
 | [Automate repository triage and recurring repo maintenance with guarded GitHub agent workflows](skills/automate-repository-triage-and-recurring-maintenance-with-github-agent-workflows/) | Use GitHub Agentic Workflows to let an agent triage issues, inspect CI failures, or deliver scheduled repository… | Security Reviewed | 4.3k | — |
