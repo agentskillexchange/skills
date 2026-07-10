@@ -31516,11 +31516,11 @@
       "framework": "Claude Code",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 97775,
+        "github_stars": 51671,
         "license": "MIT"
       },
-      "source_url": "https://github.com/openai/whisper",
-      "github_repo": "openai/whisper"
+      "source_url": "https://github.com/ggml-org/whisper.cpp",
+      "github_repo": "ggml-org/whisper.cpp"
     },
     {
       "slug": "assemblyai-summarization-chapters-skill",

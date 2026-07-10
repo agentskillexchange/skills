@@ -2,14 +2,14 @@
 name: "Whisper.cpp Local Transcription Engine"
 slug: "whisper-cpp-local-transcription-engine"
 description: "Runs OpenAI Whisper models locally via whisper.cpp with GGML quantized weights for CPU-efficient transcription. Supports beam search decoding, VAD-based segmentation, and SRT/VTT subtitle output formats."
-github_stars: 97775
+github_stars: 51671
 verification: "security_reviewed"
-source: "https://github.com/openai/whisper"
+source: "https://github.com/ggml-org/whisper.cpp"
 category: "Media & Transcription"
 framework: "Claude Code"
 tool_ecosystem:
-  github_repo: "openai/whisper"
-  github_stars: 97775
+  github_repo: "ggml-org/whisper.cpp"
+  github_stars: 51671
 ---
 
 # Whisper.cpp Local Transcription Engine
@@ -18,24 +18,34 @@ Runs OpenAI Whisper models locally via whisper.cpp with GGML quantized weights f
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install -U openai-whisper
-- pip install git+https://github.com/openai/whisper.git
-- pip install --upgrade --no-deps --force-reinstall git+https://github.com/openai/whisper.git
-- brew install ffmpeg
+Use the upstream whisper.cpp build path for local transcription:
 
-Requirements and caveats from upstream:
-- We used Python 3.9.9 and [PyTorch](https://pytorch.org/) 1.10.1 to train and test our models, but the codebase is expected to be compatible with Python 3.8-3.11 and recent PyTorch versions. The codebase also depends o...
-- Alternatively, the following command will pull and install the latest commit from this repository, along with its Python dependencies:
-- It also requires the command-line tool [ffmpeg](https://ffmpeg.org/) to be installed on your system, which is available from most package managers:
+```bash
+git clone https://github.com/ggml-org/whisper.cpp.git
+cd whisper.cpp
+sh ./models/download-ggml-model.sh base.en
+cmake -B build
+cmake --build build -j --config Release
+./build/bin/whisper-cli -f samples/jfk.wav
+```
 
-Basic usage or getting-started notes:
-- [[Colab example]](https://colab.research.google.com/github/openai/whisper/blob/master/notebooks/LibriSpeech.ipynb)
-- To update the package to the latest version of this repository, please run:
-- bash
+For a quick demo, upstream also supports:
 
-- Source: https://github.com/openai/whisper
-- Extracted from upstream docs: https://raw.githubusercontent.com/openai/whisper/HEAD/README.md
+```bash
+make base.en
+```
+
+The `whisper-cli` example currently expects 16-bit WAV input. Convert other audio formats before transcription when needed:
+
+```bash
+ffmpeg -i input.mp3 -ar 16000 -ac 1 -c:a pcm_s16le output.wav
+./build/bin/whisper-cli -f output.wav
+```
+
+Run `./build/bin/whisper-cli -h` for detailed CLI options.
+
+- Source: https://github.com/ggml-org/whisper.cpp
+- Extracted from upstream docs: https://raw.githubusercontent.com/ggml-org/whisper.cpp/master/README.md
 
 ## Source
 

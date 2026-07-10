@@ -24471,8 +24471,8 @@
       "category": "Media & Transcription",
       "framework": "Claude Code",
       "verification": "security_reviewed",
-      "source_url": "https://github.com/openai/whisper",
-      "github_repo": "openai/whisper"
+      "source_url": "https://github.com/ggml-org/whisper.cpp",
+      "github_repo": "ggml-org/whisper.cpp"
     },
     {
       "slug": "assemblyai-summarization-chapters-skill",
