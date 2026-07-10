@@ -2,8 +2,30 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-10",
-  "total": 2716,
+  "total": 2718,
   "skills": [
+    {
+      "slug": "route-agent-llm-traffic-through-shepherd-model-gateway",
+      "name": "Route agent LLM traffic through Shepherd Model Gateway",
+      "title": "Route agent LLM traffic through Shepherd Model Gateway",
+      "description": "Use Shepherd Model Gateway to route OpenAI, Anthropic, Responses API, embeddings, and MCP tool traffic across self-hosted and cloud model backends with cache-aware policies…",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/lightseekorg/smg",
+      "github_repo": "lightseekorg/smg"
+    },
+    {
+      "slug": "schedule-and-inspect-dotnet-agent-jobs-with-tickerq",
+      "name": "Schedule and inspect .NET agent jobs with TickerQ",
+      "title": "Schedule and inspect .NET agent jobs with TickerQ",
+      "description": "Use TickerQ to add persistent cron and time-based job scheduling, retries, multi-node coordination, OpenTelemetry, and a live dashboard to .NET agent services.",
+      "category": "Templates & Workflows",
+      "framework": "Custom Agents",
+      "verification": "listed",
+      "source_url": "https://github.com/Arcenox-co/TickerQ",
+      "github_repo": "Arcenox-co/TickerQ"
+    },
     {
       "slug": "run-visual-scheduled-agent-jobs-with-cronicle",
       "name": "Run visual scheduled agent jobs with Cronicle",

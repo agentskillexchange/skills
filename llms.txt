@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-10
-# Total: 2716 skills
+# Total: 2718 skills
+
+## Route agent LLM traffic through Shepherd Model Gateway
+slug: route-agent-llm-traffic-through-shepherd-model-gateway
+category: Integrations & Connectors
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Shepherd Model Gateway to route OpenAI, Anthropic, Responses API, embeddings, and MCP tool traffic across self-hosted and cloud model backends with cache-aware policies…
+url: https://agentskillexchange.com/skills/route-agent-llm-traffic-through-shepherd-model-gateway/
+
+## Schedule and inspect .NET agent jobs with TickerQ
+slug: schedule-and-inspect-dotnet-agent-jobs-with-tickerq
+category: Templates & Workflows
+framework: Custom Agents
+verification: Published
+description: Use TickerQ to add persistent cron and time-based job scheduling, retries, multi-node coordination, OpenTelemetry, and a live dashboard to .NET agent services.
+url: https://agentskillexchange.com/skills/schedule-and-inspect-dotnet-agent-jobs-with-tickerq/
 
 ## Run visual scheduled agent jobs with Cronicle
 slug: run-visual-scheduled-agent-jobs-with-cronicle

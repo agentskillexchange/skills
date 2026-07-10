@@ -82,6 +82,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Run evidence-backed agentic SEO audits with Agentic SEO Skill](../../skills/run-evidence-backed-agentic-seo-audits-with-agentic-seo-skill/) | 588 | — |
 | [Run repeatable Google Ads and SEO audits inside Claude Code with Toprank](../../skills/run-repeatable-google-ads-and-seo-audits-inside-claude-code-with-toprank/) | 466 | — |
 | [Remove AI Writing Fingerprints from Draft Copy](../../skills/remove-ai-writing-fingerprints-from-draft-copy/) | 45 | — |
+| [SEO Growth Loop](../../skills/seo-growth-loop/) | 1 | — |
 | [Format citations and bibliographies from DOIs, URLs, BibTeX, and CFF before publishing](../../skills/format-citations-and-bibliographies-from-dois-urls-bibtex-and-cff-before-publishing/) | — | 10.7k/wk |
 | [Ahrefs Backlink Content Planner](../../skills/ahrefs-backlink-content-planner/) | — | — |
 | [Ahrefs Content Gap Finder](../../skills/ahrefs-content-gap-finder-agent/) | — | — |
@@ -112,7 +113,6 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [SEMrush Content Optimizer Agent](../../skills/semrush-content-optimizer-agent/) | — | — |
 | [SEMrush Keyword Research Agent](../../skills/semrush-keyword-research-agent-api-v3/) | — | — |
 | [SEO Content Cluster Generator](../../skills/seo-content-cluster-generator/) | — | — |
-| [SEO Growth Loop](../../skills/seo-growth-loop/) | — | — |
 | [SEO Keyword Research Automator](../../skills/seo-keyword-research-automator/) | — | — |
 | [SEO Meta Tag Optimizer](../../skills/seo-meta-tag-optimizer-agent/) | — | — |
 | [SEO Schema Markup Generator](../../skills/seo-schema-markup-generator-agent/) | — | — |
