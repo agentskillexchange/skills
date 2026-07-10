@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-10
-# Total: 2718 skills
+# Total: 2719 skills
+
+## Inspect BullMQ agent job queues with Bull Board
+slug: inspect-bullmq-agent-job-queues-with-bull-board
+category: Monitoring & Alerts
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Bull Board to add a protected dashboard for Bull and BullMQ queues so operators can inspect, retry, pause, clean, and debug background agent…
+url: https://agentskillexchange.com/skills/inspect-bullmq-agent-job-queues-with-bull-board/
 
 ## Route agent LLM traffic through Shepherd Model Gateway
 slug: route-agent-llm-traffic-through-shepherd-model-gateway

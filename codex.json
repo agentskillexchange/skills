@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-10",
-  "total": 2718,
+  "total": 2719,
   "skills": [
+    {
+      "slug": "inspect-bullmq-agent-job-queues-with-bull-board",
+      "name": "Inspect BullMQ agent job queues with Bull Board",
+      "title": "Inspect BullMQ agent job queues with Bull Board",
+      "description": "Use Bull Board to add a protected dashboard for Bull and BullMQ queues so operators can inspect, retry, pause, clean, and debug background agent…",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/felixmosh/bull-board",
+      "github_repo": "felixmosh/bull-board"
+    },
     {
       "slug": "route-agent-llm-traffic-through-shepherd-model-gateway",
       "name": "Route agent LLM traffic through Shepherd Model Gateway",

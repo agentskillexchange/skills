@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C718-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C719-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C331-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,718 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,719 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Inspect BullMQ agent job queues with Bull Board](skills/inspect-bullmq-agent-job-queues-with-bull-board/) | Use Bull Board to add a protected dashboard for Bull and BullMQ queues so operators can inspect, retry... | 3.4k | Monitoring & Alerts |
 | [Route agent LLM traffic through Shepherd Model Gateway](skills/route-agent-llm-traffic-through-shepherd-model-gateway/) | Use Shepherd Model Gateway to route OpenAI, Anthropic, Responses API, embeddings, and MCP tool traffic across self-hosted and... | 380 | Integrations & Connectors |
 | [Schedule and inspect .NET agent jobs with TickerQ](skills/schedule-and-inspect-dotnet-agent-jobs-with-tickerq/) | Use TickerQ to add persistent cron and time-based job scheduling, retries, multi-node coordination, OpenTelemetry, and a live dashboard... | 3.5k | Templates & Workflows |
 | [Run visual scheduled agent jobs with Cronicle](skills/run-visual-scheduled-agent-jobs-with-cronicle/) | Use Cronicle to schedule, run, monitor, and manually trigger recurring agent maintenance jobs across one or more worker... | 5.8k | Templates & Workflows |
@@ -96,7 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Track AI coding-agent token usage with TokenTracker](skills/track-ai-coding-agent-token-usage-with-tokentracker/) | Use TokenTracker to auto-collect local token, cost, and rate-limit telemetry across Claude Code, Codex, Cursor, Gemini, OpenCode, OpenClaw... | 959 | Developer Tools |
 | [Run secure IronClaw Reborn agent sessions](skills/run-secure-ironclaw-reborn-agent-sessions/) | Use IronClaw Reborn as a secure local agent runtime for model-routed CLI, REPL, and WebUI sessions with explicit... | 12.5k | Developer Tools |
 | [Self-Push: Lazy-Check Before Submitting](skills/self-push/) | Run a structured lazy-check on any significant output before submitting. Forces root-cause analysis, alternative consideration, and outcome verification... | - | Code Quality & Review |
-| [RouterBase Model Routing](skills/routerbase-model-routing/) | Design RouterBase model routing policies for AI agents, including primary model selection, fallback chains, latency budgets, cost controls... | - | Developer Tools |
 
 ---
 
@@ -106,6 +106,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Inspect BullMQ agent job queues with Bull Board](skills/inspect-bullmq-agent-job-queues-with-bull-board/) | Use Bull Board to add a protected dashboard for Bull and BullMQ queues so operators can inspect, retry... | 3.4k | Monitoring & Alerts |
 | [Build production agent harnesses with Strands Agents](skills/build-production-agent-harnesses-with-strands-agents/) | Use Strands Agents to assemble model-agnostic Python or TypeScript agent harnesses with tools, MCP, guardrails, tracing, streaming, and... | 6.4k | Developer Tools |
 | [Run multi-provider coding-agent sessions with OpenClaude](skills/run-multi-provider-coding-agent-sessions-with-openclaude/) | Use OpenClaude when a repository task needs one terminal-first coding-agent workflow that can switch across cloud, local, Codex... | 29.5k | Developer Tools |
 | [Query operational databases from MCP clients with DBHub](skills/query-operational-databases-from-mcp-clients-with-dbhub/) | Use DBHub to expose guarded, token-efficient database inspection and SQL tools to MCP clients across Postgres, MySQL, SQL... | 3.1k | Data Extraction & Transformation |
@@ -115,7 +116,6 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Run durable scheduled agent jobs in Node.js with Agenda](skills/run-durable-scheduled-agent-jobs-in-node-js-with-agenda/) | Use Agenda when a custom Node.js agent needs persistent scheduled jobs, retries, locking, and background workers backed by... | 9.7k | Templates & Workflows |
 | [Give MCP agents structured graph memory with RushDB](skills/give-mcp-agents-structured-graph-memory-with-rushdb/) | Connect RushDB's MCP server so agents can store, search, update, and traverse persistent structured memory without hand-building a... | 308 | Integrations & Connectors |
 | [Operate multi-provider AI gateway traffic with Bifrost](skills/operate-multi-provider-ai-gateway-traffic-with-bifrost/) | Run Bifrost as an OpenAI-compatible gateway so agents can route model calls across providers with failover, load balancing... | 6.0k | Integrations & Connectors |
-| [Control launch behavior with GO Feature Flag](skills/control-launch-behavior-with-go-feature-flag/) | Use GO Feature Flag as an OpenFeature-compatible control plane for rollout rules, targeting, experiments, remote config, and launch... | 2.0k | Monitoring & Alerts |
 
 ---
 
@@ -130,8 +130,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 191 | Linting, code review, test generators, coverage |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 173 | Incident response, troubleshooting, system diagnostics |
+| 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 149 | Metrics, alerting rules, observability |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 148 | Third-party API bridges, webhooks, service connectors |
-| 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 148 | Metrics, alerting rules, observability |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 125 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 123 | SDK docs, API parsers, symbol resolvers |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 119 | Web scraping, UI testing, headless browser control |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,718 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,719 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,331 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

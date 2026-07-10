@@ -12,10 +12,10 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [YouTube Chapters Generator with Whisper](../../skills/youtube-chapters-generator-whisper/) | ⭐ 97.8k |
 | [Whisper Diarization Post-Processor](../../skills/whisper-diarization-post-processor/) | ⭐ 97.8k |
 | [Whisper Subtitle Generator](../../skills/whisper-subtitle-generator/) | ⭐ 97.8k |
-| [Whisper.cpp Local Transcription Engine](../../skills/whisper-cpp-local-transcription-engine/) | ⭐ 51.7k |
 | [Whisper.cpp Real-Time Transcription Pipeline](../../skills/whisper-cpp-realtime-transcription-pipeline/) | ⭐ 97.8k |
 | [Podcast RSS Feed Transcriber](../../skills/podcast-rss-feed-transcriber/) | ⭐ 97.4k |
 | [Immich Self-Hosted Photo and Video Management Platform](../../skills/immich-photo-video-management-platform/) | ⭐ 96.2k |
+| [Tesseract OCR Engine for Image-to-Text Workflows](../../skills/tesseract-ocr-engine-for-image-to-text-workflows/) | ⭐ 73.4k |
 
 ---
 
@@ -46,7 +46,6 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [YouTube Chapters Generator with Whisper](../../skills/youtube-chapters-generator-whisper/) | 97.8k | — |
 | [Whisper Diarization Post-Processor](../../skills/whisper-diarization-post-processor/) | 97.8k | — |
 | [Whisper Subtitle Generator](../../skills/whisper-subtitle-generator/) | 97.8k | — |
-| [Whisper.cpp Local Transcription Engine](../../skills/whisper-cpp-local-transcription-engine/) | 51.7k | — |
 | [Whisper.cpp Real-Time Transcription Pipeline](../../skills/whisper-cpp-realtime-transcription-pipeline/) | 97.8k | — |
 | [Podcast RSS Feed Transcriber](../../skills/podcast-rss-feed-transcriber/) | 97.4k | — |
 | [Immich Self-Hosted Photo and Video Management Platform](../../skills/immich-photo-video-management-platform/) | 96.2k | — |
@@ -62,6 +61,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [FFmpeg Clip Extractor](../../skills/ffmpeg-clip-extractor-agent/) | 59k | — |
 | [Live Stream Audio Monitor](../../skills/live-stream-audio-monitor/) | 58.5k | — |
 | [Video Subtitle Translator Agent](../../skills/video-subtitle-translator-agent/) | 58.5k | — |
+| [Whisper.cpp Local Transcription Engine](../../skills/whisper-cpp-local-transcription-engine/) | 51.7k | — |
 | [whisper.cpp High-Performance C/C++ Speech Recognition Engine](../../skills/whisper-cpp-speech-recognition-engine/) | 48.3k | — |
 | [Coqui TTS Deep Learning Text-to-Speech Toolkit](../../skills/coqui-tts-deep-learning-text-to-speech-toolkit/) | 45k | — |
 | [Remotion Programmatic Video Creator](../../skills/remotion-programmatic-video-creator/) | 41.5k | 636k/wk |

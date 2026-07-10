@@ -31,20 +31,16 @@ Catalog management, storefront automation, orders, inventory sync, marketplace s
 | [Medusa Commerce API and Store Operations Automation Skill](../skills/medusa-commerce-api-store-operations-automation-skill/) | Covers modular store operations where agents need backend APIs rather than storefront clicks. | Store operations engineer | High | 32.6k |
 | [Build and validate Shopify apps with the official Shopify AI Toolkit](../skills/build-and-validate-shopify-apps-with-the-official-shopify-ai-toolkit/) | Covers Shopify app build and validation work for teams extending storefront and admin operations with the official toolkit. | Shopify app engineer / commerce platform lead | High | 348 |
 | [WooCommerce REST Inventory Sync](../skills/woocommerce-rest-inventory-sync/) | Keeps WooCommerce inventory synchronized across channels without treating wp-admin as the workflow surface. | WooCommerce operator / WordPress engineer | Medium | 10.2k |
-| [Stripe Connect Marketplace Sync](../skills/stripe-connect-marketplace-sync/) | Maps marketplace transactions, transfers, and reversals into a supervised payout workflow. | Marketplace ops / payments engineer | High | 4.4k |
+| [Stripe Connect Marketplace Sync](../skills/stripe-connect-marketplace-sync/) | Covers the marketplace side of retail payments: Connect transfers, reversals, and payout reconciliation across sellers. | Marketplace operations lead / payments engineer | High | 4.4k |
 | [WooCommerce Webhook Orchestrator](../skills/woocommerce-webhook-orchestrator/) | Routes WooCommerce webhook events into repeatable order, inventory, and fulfillment automations. | Store automation engineer / WordPress ops | Medium | 10.3k |
 | [Run Shopify Admin product order customer and inventory workflows through MCP](../skills/run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp/) | Exposes Shopify Admin actions to MCP clients while keeping catalog and order work supervised. | AI ops engineer / Shopify operator | High | 15 |
-| [Stripe Payment Flow Connector](../skills/stripe-payment-flow-connector/) | Covers checkout and payment-intent workflows that ecommerce teams need to verify end to end. | Payments engineer | Medium | 4.4k |
-| [Stripe Connect Account Provisioner](../skills/stripe-connect-account-provisioner/) | Automates connected-account onboarding for marketplace seller or vendor programs. | Marketplace ops / compliance engineer | High | 4.4k |
-| [Bubble.io Stripe Subscription Portal Builder](../skills/bubble-stripe-subscription-portal/) | Supports no-code subscription operations where billing changes need a customer-facing portal. | No-code builder / subscription ops | Medium | — |
+| [Stripe Payment Flow Connector](../skills/stripe-payment-flow-connector/) | Retained as the single Stripe checkout/payment-flow pick for validating cart-to-payment intent behavior. | Checkout engineer / payments engineer | Medium | 4.4k |
 | [Cheerio Product Price Tracker](../skills/cheerio-product-price-tracker/) | Monitors product price pages when no clean feed or partner API exists for competitive checks. | Merchandising analyst / growth ops | Medium | 30.3k |
-| [Stripe Webhook Signature Verifier](../skills/stripe-webhook-signature-verifier/) | Verifies payment webhook signatures before ecommerce automations trust checkout, subscription, or marketplace events. | Payments engineer / marketplace ops | Medium | 4.4k |
-| [Build React agent chat interfaces with assistant-ui](../skills/build-react-agent-chat-interfaces-with-assistant-ui/) | Supports storefront or back-office agent interfaces for product, order, inventory, and support workflows. | Commerce product engineer / retail ops builder | Medium | 10.1k |
 
 ## Editorial Notes
 
 - This collection stays focused on operating stores and marketplaces, not generic web scraping or content generation.
-- Stripe is currently exempted because marketplace, checkout, Connect, and subscription flows are distinct ecommerce jobs; revisit as non-Stripe commerce billing skills mature.
+- Stripe is limited to two differentiated payment workflows: checkout/payment flow and marketplace/Connect payout sync.
 - Keep this about operating a store, not about generic product or content tooling.
 
 ## Adjacent Collections
