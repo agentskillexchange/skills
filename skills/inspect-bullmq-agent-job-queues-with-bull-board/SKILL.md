@@ -26,20 +26,13 @@ Bull or BullMQ queues, Redis, Bull Board API/UI package, one supported server ad
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install @bull-board/api @bull-board/express
-- git clone git@github.com:felixmosh/bull-board.git
-- yarn && yarn dev:docker && yarn build && yarn dev
+Install the Bull Board API package and the adapter for your server framework. For Express:
 
-Requirements and caveats from upstream:
-- const express = require('express');
-- const { Queue } = require('bullmq');
-- const { createBullBoard } = require('@bull-board/api');
+```bash
+npm install @bull-board/api @bull-board/express
+```
 
-Basic usage or getting-started notes:
-- Pick the adapter for your framework:
-- js
-- const queue = new Queue('emails', { connection: { host: 'localhost', port: 6379 } });
+Use the matching adapter package for other supported servers, such as Fastify, Koa, Hapi, NestJS, Hono, H3, Elysia, or Bun. Bull Board plugs into existing Bull or BullMQ queues backed by Redis; protect the mounted dashboard route with your application's normal authentication and authorization controls before exposing it to operators.
 
 - Source: https://github.com/felixmosh/bull-board
 - Extracted from upstream docs: https://raw.githubusercontent.com/felixmosh/bull-board/HEAD/README.md
