@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Run terminal-native repo analysis, edits, and command loops with Gemini in a bounded CLI workflow with Gemini CLI](skills/run-terminal-native-repo-analysis-edits-and-command-loops-with-gemini-in-a-bounded-cli-workflow-with-gemini-cli/)** — Lets an agent use Gemini from the terminal to inspect repositories, edit files, run shell commands, and ground work with built-in search and local context.
+**[Browser Session Replay Analyzer](skills/browser-session-replay-analyzer/)** — Records and replays browser sessions using rrweb recording library with DOM mutation serialization. Integrates with LogRocket API and FullStory Data Export API for session analytics.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
