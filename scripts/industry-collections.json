@@ -518,14 +518,14 @@
       "slug": "legal-ops-compliance",
       "title": "Legal Ops & Compliance",
       "launch_stage": "wave-1",
-      "description": "Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support.",
+      "description": "Contract risk review, redline preparation, forms, document review, archive search, and evidence-oriented legal and compliance support.",
       "editorial_caution": "Do not let infra-policy scanners take over this collection. Keep v1 document-centric.",
       "skill_slugs": [
+        "review-contract-risk-and-redlines-with-claude-legal-skill",
         "documenso-open-source-document-signing",
         "docuseal-document-signing-pdf-forms",
         "ocrmypdf-searchable-pdf-ocr-pipeline",
         "apache-tika-document-extractor",
-        "apache-tika-document-parser",
         "extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg",
         "pdfplumber-python-pdf-text-table-extraction",
         "parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse",
@@ -550,18 +550,14 @@
         "mineru-pdf-to-markdown-document-parser",
         "put-approval-gates-and-audit-ready-policy-checks-between-agents-and-external-actions-with-dashclaw",
         "extract-ocr-ready-markdown-from-documents-with-zerox",
-        "build-managed-document-parsing-pipelines-with-llamacloud-services",
-        "prepare-agent-ready-pdf-and-document-extraction-with-pymupdf",
-        "convert-complex-pdfs-and-document-images-into-agent-ready-markdown-with-ocrflux",
-        "parse-agent-ready-pdfs-and-document-images-with-monkeyocr",
-        "evaluate-document-parsers-for-agent-ingestion-with-parsebench",
-        "convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange"
+        "prepare-agent-ready-pdf-and-document-extraction-with-pymupdf"
       ],
       "who_for": [
-        "Legal operations, compliance, and records teams that need document intake, review, redaction, and archive workflows.",
-        "Teams preparing evidence packets where provenance and review boundaries matter."
+        "Legal operations, compliance, contract, and records teams that need document intake, review, redline preparation, and archive workflows.",
+        "Teams preparing evidence packets where provenance, human legal approval, and review boundaries matter."
       ],
       "jobs_covered": [
+        "Review contract risk and prepare lawyer-ready redline suggestions for human legal approval.",
         "Convert scanned PDFs and office files into searchable text.",
         "Extract clauses, tables, attachments, and metadata from mixed records.",
         "Run cited research and matter knowledge retrieval with source boundaries.",
@@ -570,6 +566,16 @@
         "Search large archives before manual review."
       ],
       "workflow_stacks": [
+        {
+          "name": "Contract risk and redline support",
+          "steps": [
+            "Extract contract text",
+            "flag clauses and risk areas",
+            "prepare redline suggestions",
+            "route to human legal review",
+            "record approval evidence"
+          ]
+        },
         {
           "name": "Document review packet",
           "steps": [
@@ -601,7 +607,7 @@
         }
       ],
       "editorial_notes": [
-        "The collection avoids legal-advice framing; these are intake, evidence, and operations tools.",
+        "The collection avoids legal-advice framing; these are contract review, redline preparation, intake, evidence, and operations tools for human legal approval.",
         "Document-centric entries are favored over general security scanners unless they support compliance evidence work directly.",
         "Research and RAG picks are framed as source-grounded support for legal operations and human review, not automated legal advice."
       ],
@@ -629,11 +635,6 @@
         "apache-tika-document-extractor": {
           "why_here": "Provides broad-format document extraction when matter files include Office docs, PDFs, and attachments.",
           "persona": "eDiscovery engineer / records ops",
-          "install_complexity": "High"
-        },
-        "apache-tika-document-parser": {
-          "why_here": "Extracts metadata and embedded objects from heterogeneous files for archive triage.",
-          "persona": "Compliance engineer / archive specialist",
           "install_complexity": "High"
         },
         "extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg": {
@@ -756,42 +757,22 @@
           "persona": "Legal ops / document review lead",
           "install_complexity": "Medium"
         },
-        "build-managed-document-parsing-pipelines-with-llamacloud-services": {
-          "why_here": "Provides a managed parsing path for high-volume contract and policy packets where local parsers are too brittle.",
-          "persona": "Legal ops automation engineer",
-          "install_complexity": "Medium"
-        },
         "prepare-agent-ready-pdf-and-document-extraction-with-pymupdf": {
           "why_here": "Gives legal ops a fast source-backed PDF extraction step before contract review, diligence packets, or clause analysis.",
           "persona": "Legal ops analyst / contract reviewer",
           "install_complexity": "Medium"
         },
-        "convert-complex-pdfs-and-document-images-into-agent-ready-markdown-with-ocrflux": {
-          "why_here": "Turns scanned or layout-heavy legal documents into Markdown that downstream review agents can cite and inspect.",
-          "persona": "Legal document intake specialist",
-          "install_complexity": "High"
-        },
-        "parse-agent-ready-pdfs-and-document-images-with-monkeyocr": {
-          "why_here": "Adds an OCR path for mixed legal PDFs and document images before matter summaries or compliance checks.",
-          "persona": "Paralegal / compliance intake operator",
-          "install_complexity": "High"
-        },
-        "evaluate-document-parsers-for-agent-ingestion-with-parsebench": {
-          "why_here": "Lets teams compare extraction quality before standardizing a parser for legal review workflows.",
-          "persona": "Legal automation lead / document QA",
-          "install_complexity": "Medium"
-        },
-        "convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange": {
-          "why_here": "Converts mixed PDFs, scans, office files, images, and URLs into Markdown or structured JSON before contract review, diligence packets, policy review, or compliance intake.",
-          "persona": "Legal ops analyst / compliance document intake lead",
+        "review-contract-risk-and-redlines-with-claude-legal-skill": {
+          "why_here": "Supports contract risk review and lawyer-ready redline preparation while keeping final interpretation, negotiation, and legal advice with qualified human counsel.",
+          "persona": "Legal ops / contract review lead",
           "install_complexity": "Medium"
         }
       },
       "recommended_picks": [
+        "review-contract-risk-and-redlines-with-claude-legal-skill",
         "documenso-open-source-document-signing",
         "docuseal-document-signing-pdf-forms",
         "ocrmypdf-searchable-pdf-ocr-pipeline",
-        "extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg",
         "put-approval-gates-and-audit-ready-policy-checks-between-agents-and-external-actions-with-dashclaw"
       ]
     },
@@ -811,20 +792,12 @@
         "expose-fhir-healthcare-data-resources-to-mcp-agents-with-review-boundaries",
         "unstructured-document-etl-for-llm-pipelines",
         "beautifulsoup-academic-paper-parser",
-        "parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse",
-        "redact-pii-from-text-before-sharing-or-indexing-with-scrubadub",
         "surya-document-ocr-layout-analysis-table-recognition",
         "paddleocr-multilingual-document-ocr-toolkit",
         "whisper-cpp-local-transcription-engine",
         "extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg",
         "tesseract-ocr-document-extractor",
-        "extract-ocr-ready-markdown-from-documents-with-zerox",
-        "build-managed-document-parsing-pipelines-with-llamacloud-services",
-        "convert-complex-pdfs-and-document-images-into-agent-ready-markdown-with-ocrflux",
-        "parse-agent-ready-pdfs-and-document-images-with-monkeyocr",
-        "build-ocr-and-layout-analysis-preprocessing-pipelines-with-deepdoctection",
-        "evaluate-document-parsers-for-agent-ingestion-with-parsebench",
-        "convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange"
+        "build-ocr-and-layout-analysis-preprocessing-pipelines-with-deepdoctection"
       ],
       "who_for": [
         "Healthcare operations, intake, research, and documentation teams handling paperwork-heavy non-clinical workflows.",
@@ -868,7 +841,8 @@
       ],
       "editorial_notes": [
         "This collection is explicitly not diagnosis, treatment, or medical decision support.",
-        "Prefer documentation, intake, transcription, extraction, and review workflows with audit-friendly outputs."
+        "Prefer documentation, intake, transcription, extraction, and review workflows with audit-friendly outputs.",
+        "Generic parser alternatives are intentionally limited in favor of non-clinical healthcare intake, documentation, transcription, FHIR, literature, and human-review workflows."
       ],
       "adjacent_collections": [
         "legal-ops-compliance",
@@ -920,16 +894,6 @@
           "persona": "Research coordinator / evidence reviewer",
           "install_complexity": "Medium"
         },
-        "parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse": {
-          "why_here": "Keeps local PDF extraction inspectable with text, JSON, and screenshots before PHI-sensitive review.",
-          "persona": "AI ops / documentation QA",
-          "install_complexity": "Medium"
-        },
-        "redact-pii-from-text-before-sharing-or-indexing-with-scrubadub": {
-          "why_here": "Removes obvious identifiers before documentation text is shared, indexed, or sent downstream.",
-          "persona": "Privacy reviewer / documentation ops",
-          "install_complexity": "Low"
-        },
         "surya-document-ocr-layout-analysis-table-recognition": {
           "why_here": "Adds layout-aware OCR and table recognition for scanned forms, records, and intake packets.",
           "persona": "Health records ops / documentation analyst",
@@ -955,40 +919,10 @@
           "persona": "Healthcare intake ops / document automation engineer",
           "install_complexity": "Medium"
         },
-        "extract-ocr-ready-markdown-from-documents-with-zerox": {
-          "why_here": "Helps intake teams convert scanned referrals, forms, and PDFs into text artifacts before review or routing.",
-          "persona": "Clinical intake ops / documentation analyst",
-          "install_complexity": "High"
-        },
-        "build-managed-document-parsing-pipelines-with-llamacloud-services": {
-          "why_here": "Adds a managed document parsing option for structured intake packets, with humans still responsible for regulated-data review.",
-          "persona": "Healthcare documentation automation lead",
-          "install_complexity": "High"
-        },
-        "convert-complex-pdfs-and-document-images-into-agent-ready-markdown-with-ocrflux": {
-          "why_here": "Prepares scanned forms, referrals, and packet-style documents for reviewable intake summaries without treating OCR as diagnosis.",
-          "persona": "Healthcare intake ops / documentation analyst",
-          "install_complexity": "High"
-        },
-        "parse-agent-ready-pdfs-and-document-images-with-monkeyocr": {
-          "why_here": "Covers document-image parsing for intake packets where text extraction must happen before routing or abstraction.",
-          "persona": "Clinical admin ops / intake reviewer",
-          "install_complexity": "High"
-        },
         "build-ocr-and-layout-analysis-preprocessing-pipelines-with-deepdoctection": {
           "why_here": "Adds layout-aware preprocessing for forms, tables, and multi-section medical paperwork before human review.",
           "persona": "Healthcare data ops engineer",
           "install_complexity": "High"
-        },
-        "evaluate-document-parsers-for-agent-ingestion-with-parsebench": {
-          "why_here": "Helps compare parser behavior on healthcare paperwork before adopting one extraction path for regulated workflows.",
-          "persona": "Documentation QA lead / automation owner",
-          "install_complexity": "Medium"
-        },
-        "convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange": {
-          "why_here": "Prepares mixed healthcare paperwork, forms, scans, and office documents for non-clinical intake routing, abstraction, and human review.",
-          "persona": "Healthcare documentation ops / intake automation owner",
-          "install_complexity": "Medium"
         }
       },
       "recommended_picks": [
@@ -2273,6 +2207,9 @@
         "run-typescript-native-llm-eval-suites-with-evalite",
         "run-supervised-mcp-browser-automation-with-auto-browser",
         "control-hosted-browser-research-and-extraction-through-hyperbrowser-mcp",
+        "coordinate-visible-multi-agent-cli-workspaces-with-ccb",
+        "expose-repository-code-intelligence-to-agents-with-gortex",
+        "route-production-agent-loops-through-bitrouter",
         "use-mcp-context-forge-as-an-mcp-gateway-and-registry"
       ],
       "who_for": [
@@ -2492,6 +2429,21 @@
         "use-mcp-context-forge-as-an-mcp-gateway-and-registry": {
           "why_here": "Helps agency teams standardize MCP servers and tool access across multiple client projects.",
           "persona": "AI agency platform lead / FDE",
+          "install_complexity": "High"
+        },
+        "coordinate-visible-multi-agent-cli-workspaces-with-ccb": {
+          "why_here": "Gives agency operators a visible multi-agent CLI workspace for coordinating Codex, Claude, Gemini, and other local delivery lanes without losing human takeover.",
+          "persona": "AI agency operator / FDE lead",
+          "install_complexity": "Medium"
+        },
+        "expose-repository-code-intelligence-to-agents-with-gortex": {
+          "why_here": "Indexes client repositories into an agent-facing code graph so FDE teams can inspect symbols, call chains, and blast radius before implementation work.",
+          "persona": "Forward deployed engineer / client codebase lead",
+          "install_complexity": "Medium"
+        },
+        "route-production-agent-loops-through-bitrouter": {
+          "why_here": "Adds routing policy, scoped keys, spend controls, failover, and telemetry for production client agent loops before handoff.",
+          "persona": "AI agency platform lead / agent operations engineer",
           "install_complexity": "High"
         },
         "control-hosted-browser-research-and-extraction-through-hyperbrowser-mcp": {
