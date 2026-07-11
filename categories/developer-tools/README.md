@@ -332,6 +332,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Supergateway MCP Transport Bridge](../../skills/supergateway-mcp-transport-bridge/) | 2.5k | 88.6k/wk |
 | [Griptape Modular Python AI Agent and Workflow Framework](../../skills/griptape-python-ai-agent-framework/) | 2.5k | — |
 | [Postgres MCP Pro Server for Database Analysis and Tuning](../../skills/postgres-mcp-pro-database-analysis-tuning/) | 2.5k | — |
+| [Drive agent terminal workspaces with Rmux](../../skills/drive-agent-terminal-workspaces-with-rmux/) | 2.4k | 236/wk |
 | [Repair malformed JSON before parsing downstream automations with jsonrepair](../../skills/repair-malformed-json-before-parsing-downstream-automations-jsonrepair/) | 2.3k | 7.3M/wk |
 | [Supabase CLI for Local Development and Database Migrations](../../skills/supabase-cli-local-development-database-migrations/) | 2.1k | 1.2M/wk |
 | [Manage multi-agent coding sessions from one terminal mission control with Agent Deck](../../skills/manage-multi-agent-coding-sessions-from-one-terminal-mission-control-with-agent-deck/) | 2k | — |

@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-11
-# Total: 2722 skills
+# Total: 2723 skills
+
+## Drive agent terminal workspaces with Rmux
+slug: drive-agent-terminal-workspaces-with-rmux
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Rmux to create and automate cross-platform terminal sessions for agent CLIs, with tmux-compatible commands, typed SDKs, web sharing, and Claude Code teammate mode.
+url: https://agentskillexchange.com/skills/drive-agent-terminal-workspaces-with-rmux/
 
 ## Route production agent loops through BitRouter
 slug: route-production-agent-loops-through-bitrouter

@@ -1,17 +1,18 @@
 # ⚖️ Legal Ops & Compliance
 
-Contract workflows, forms, document review, archive search, and evidence-oriented legal and compliance support.
+Contract risk review, redline preparation, forms, document review, archive search, and evidence-oriented legal and compliance support.
 
 - Live page: https://agentskillexchange.com/industry-skills/#legal-ops-compliance
 - Homepage access: Curated Collections on https://agentskillexchange.com/
 
 ## Who this is for
 
-- Legal operations, compliance, and records teams that need document intake, review, redaction, and archive workflows.
-- Teams preparing evidence packets where provenance and review boundaries matter.
+- Legal operations, compliance, contract, and records teams that need document intake, review, redline preparation, and archive workflows.
+- Teams preparing evidence packets where provenance, human legal approval, and review boundaries matter.
 
 ## Jobs covered
 
+- Review contract risk and prepare lawyer-ready redline suggestions for human legal approval.
 - Convert scanned PDFs and office files into searchable text.
 - Extract clauses, tables, attachments, and metadata from mixed records.
 - Run cited research and matter knowledge retrieval with source boundaries.
@@ -21,6 +22,7 @@ Contract workflows, forms, document review, archive search, and evidence-oriente
 
 ## Workflow Stacks
 
+- **Contract risk and redline support:** Extract contract text → flag clauses and risk areas → prepare redline suggestions → route to human legal review → record approval evidence
 - **Document review packet:** OCR → extract text and tables → redact PII → search archive → export review notes
 - **Signing and forms:** Prepare PDF forms → route signature → store final packet → index metadata
 - **Research and diligence support:** Search cited sources → ingest matter documents → extract review-table fields → gate external actions → preserve decision evidence
@@ -29,11 +31,11 @@ Contract workflows, forms, document review, archive search, and evidence-oriente
 
 | Skill | What it does here | Persona | Install | Stars |
 |---|---|---|---|---:|
+| [Review contract risk and redlines with Claude Legal Skill](../skills/review-contract-risk-and-redlines-with-claude-legal-skill/) | Supports contract risk review and lawyer-ready redline preparation while keeping final interpretation, negotiation, and legal advice with qualified human counsel. | Legal ops / contract review lead | Medium | 355 |
 | [Documenso Open Source Document Signing Platform](../skills/documenso-open-source-document-signing/) | Adds an auditable signing path for contract and approval packets. | Legal ops / contract admin | High | 12.6k |
 | [DocuSeal Open Source Document Signing and PDF Form Platform](../skills/docuseal-document-signing-pdf-forms/) | Combines PDF form preparation and signatures for document-heavy approval flows. | Legal ops / forms administrator | Medium | 11.7k |
 | [OCRmyPDF Searchable PDF OCR Pipeline](../skills/ocrmypdf-searchable-pdf-ocr-pipeline/) | Turns scanned evidence and records into searchable PDFs before review. | Records manager / compliance analyst | Medium | 33.2k |
 | [Apache Tika Document Extractor](../skills/apache-tika-document-extractor/) | Provides broad-format document extraction when matter files include Office docs, PDFs, and attachments. | eDiscovery engineer / records ops | High | 3.7k |
-| [Apache Tika Document Parser](../skills/apache-tika-document-parser/) | Extracts metadata and embedded objects from heterogeneous files for archive triage. | Compliance engineer / archive specialist | High | 3.7k |
 | [Extract structured text, metadata, tables, and images from mixed documents through an MCP server with Kreuzberg](../skills/extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg/) | Adds an MCP-accessible extraction layer for PDFs, Office files, images, HTML, and other mixed matter inputs before review or indexing. | Matter knowledge engineer / eDiscovery ops | High | 7.6k |
 | [pdfplumber Python PDF Text and Table Extraction Library](../skills/pdfplumber-python-pdf-text-table-extraction/) | Pulls tables, text, and layout clues from contract exhibits and regulatory PDFs. | Legal analyst / data wrangler | Medium | 10.1k |
 | [Parse local PDFs into agent-ready text, JSON, and screenshots with LiteParse](../skills/parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse/) | Creates text, spatial JSON, and screenshots so reviewers can inspect what an agent saw. | Document review lead / AI ops | Medium | 5.1k |
@@ -58,16 +60,11 @@ Contract workflows, forms, document review, archive search, and evidence-oriente
 | [MinerU PDF-to-Markdown Document Parser](../skills/mineru-pdf-to-markdown-document-parser/) | Handles complex PDFs with layout-aware Markdown and JSON output for contract packets, exhibits, and long-form compliance evidence. | eDiscovery engineer / records analyst | High | 57.8k |
 | [Put approval gates and audit-ready policy checks between agents and external actions with DashClaw](../skills/put-approval-gates-and-audit-ready-policy-checks-between-agents-and-external-actions-with-dashclaw/) | Adds approval gates and replayable decision evidence when legal AI workflows need human review before external actions. | Legal AI governance lead / compliance ops | High | 241 |
 | [Extract OCR-ready Markdown from documents with Zerox](../skills/extract-ocr-ready-markdown-from-documents-with-zerox/) | Turns scanned contracts, exhibits, and evidence PDFs into reviewable Markdown before legal search or redaction workflows. | Legal ops / document review lead | Medium | 12.2k |
-| [Build managed document parsing pipelines with LlamaCloud Services](../skills/build-managed-document-parsing-pipelines-with-llamacloud-services/) | Provides a managed parsing path for high-volume contract and policy packets where local parsers are too brittle. | Legal ops automation engineer | Medium | 4.2k |
 | [Prepare agent-ready PDF and document extraction with PyMuPDF](../skills/prepare-agent-ready-pdf-and-document-extraction-with-pymupdf/) | Gives legal ops a fast source-backed PDF extraction step before contract review, diligence packets, or clause analysis. | Legal ops analyst / contract reviewer | Medium | 10.1k |
-| [Convert complex PDFs and document images into agent-ready Markdown with OCRFlux](../skills/convert-complex-pdfs-and-document-images-into-agent-ready-markdown-with-ocrflux/) | Turns scanned or layout-heavy legal documents into Markdown that downstream review agents can cite and inspect. | Legal document intake specialist | High | 2.5k |
-| [Parse agent-ready PDFs and document images with MonkeyOCR](../skills/parse-agent-ready-pdfs-and-document-images-with-monkeyocr/) | Adds an OCR path for mixed legal PDFs and document images before matter summaries or compliance checks. | Paralegal / compliance intake operator | High | 6.6k |
-| [Evaluate document parsers for agent ingestion with ParseBench](../skills/evaluate-document-parsers-for-agent-ingestion-with-parsebench/) | Lets teams compare extraction quality before standardizing a parser for legal review workflows. | Legal automation lead / document QA | Medium | 474 |
-| [Convert mixed documents into agent-ready Markdown and JSON with DocStrange](../skills/convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange/) | Converts mixed PDFs, scans, office files, images, and URLs into Markdown or structured JSON before contract review, diligence packets, policy review, or compliance intake. | Legal ops analyst / compliance document intake lead | Medium | 1.5k |
 
 ## Editorial Notes
 
-- The collection avoids legal-advice framing; these are intake, evidence, and operations tools.
+- The collection avoids legal-advice framing; these are contract review, redline preparation, intake, evidence, and operations tools for human legal approval.
 - Document-centric entries are favored over general security scanners unless they support compliance evidence work directly.
 - Research and RAG picks are framed as source-grounded support for legal operations and human review, not automated legal advice.
 - Do not let infra-policy scanners take over this collection. Keep v1 document-centric.

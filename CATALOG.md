@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2722 published skills** across **17 categories** · 2,334 security reviewed · Updated 2026-07-11 13:27 UTC
+> **2723 published skills** across **17 categories** · 2,334 security reviewed · Updated 2026-07-11 19:30 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (368 skills)
+### 🛠️ Developer Tools (369 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -306,6 +306,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Supergateway MCP Transport Bridge](skills/supergateway-mcp-transport-bridge/) | Supergateway enables running MCP stdio-based servers over SSE, WebSockets, or Streamable HTTP with a single command.… | Security Reviewed | 2.5k | 88.6k/wk |
 | [Griptape Modular Python AI Agent and Workflow Framework](skills/griptape-python-ai-agent-framework/) | Griptape is a modular Python framework for building AI agents and workflows with chain-of-thought reasoning, tools,… | Security Reviewed | 2.5k | — |
 | [Postgres MCP Pro Server for Database Analysis and Tuning](skills/postgres-mcp-pro-database-analysis-tuning/) | Postgres MCP Pro is an open-source MCP server that provides AI agents with PostgreSQL database health analysis,… | Security Reviewed | 2.5k | — |
+| [Drive agent terminal workspaces with Rmux](skills/drive-agent-terminal-workspaces-with-rmux/) | Use Rmux to create and automate cross-platform terminal sessions for agent CLIs, with tmux-compatible commands,… | Security Reviewed | 2.4k | 236/wk |
 | [Repair malformed JSON before parsing downstream automations with jsonrepair](skills/repair-malformed-json-before-parsing-downstream-automations-jsonrepair/) | Use jsonrepair when an agent receives JSON-like output that is almost valid but still breaks parsers, such as… | Security Reviewed | 2.3k | 7.3M/wk |
 | [Supabase CLI for Local Development and Database Migrations](skills/supabase-cli-local-development-database-migrations/) | Supabase CLI manages local Supabase projects, database migrations, types, and edge functions. It is the upstream… | Security Reviewed | 2.1k | 1.2M/wk |
 | [Manage multi-agent coding sessions from one terminal mission control with Agent Deck](skills/manage-multi-agent-coding-sessions-from-one-terminal-mission-control-with-agent-deck/) | Use Agent Deck when an operator needs one keyboard-first terminal to monitor, switch, fork, sandbox, and organize… | Security Reviewed | 2k | — |

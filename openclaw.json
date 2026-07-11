@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-11",
-  "total": 2722,
+  "total": 2723,
   "skills": [
+    {
+      "slug": "drive-agent-terminal-workspaces-with-rmux",
+      "name": "Drive agent terminal workspaces with Rmux",
+      "title": "Drive agent terminal workspaces with Rmux",
+      "description": "Use Rmux to create and automate cross-platform terminal sessions for agent CLIs, with tmux-compatible commands, typed SDKs, web sharing, and Claude Code teammate mode.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Helvesec/rmux",
+      "github_repo": "Helvesec/rmux"
+    },
     {
       "slug": "route-production-agent-loops-through-bitrouter",
       "name": "Route production agent loops through BitRouter",
