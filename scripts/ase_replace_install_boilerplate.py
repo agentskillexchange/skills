@@ -195,7 +195,7 @@ def extract_candidate_block(text: str) -> tuple[list[str], list[str], list[str]]
         command_like = bool(COMMAND_START_RE.search(line) or re.search(r"\b(?:install|run|use)\s+(?:with\s+)?(?:brew|npm|pnpm|yarn|npx|pipx?|uv|cargo|docker|git clone|make)\b", line, re.I))
         if command_like:
             score += 8
-        if re.search(r"\b(?:requires?|prerequisites?|depends on|need to install|docker|node|python|go toolchain)\b", line, re.I):
+        if re.search(r"\b(?:requires|required|prerequisites?|depends on|need to install|docker|node|python|go toolchain)\b", line, re.I):
             score += 4
         if re.search(r"\b(?:usage|run|example|quick start|getting started)\b", line, re.I):
             score += 3
@@ -218,7 +218,7 @@ def extract_candidate_block(text: str) -> tuple[list[str], list[str], list[str]]
         if command_like:
             if normalized not in commands:
                 commands.append(normalized)
-        elif re.search(r"\b(?:requires?|prerequisites?|depends on|docker|node|python|go toolchain|not supported|must)\b", normalized, re.I):
+        elif re.search(r"\b(?:requires|required|prerequisites?|depends on|docker|node|python|go toolchain|not supported|must)\b", normalized, re.I):
             if normalized not in caveats:
                 caveats.append(normalized)
         else:
