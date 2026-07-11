@@ -2,8 +2,41 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-11",
-  "total": 2719,
+  "total": 2722,
   "skills": [
+    {
+      "slug": "route-production-agent-loops-through-bitrouter",
+      "name": "Route production agent loops through BitRouter",
+      "title": "Route production agent loops through BitRouter",
+      "description": "Use BitRouter as an agentic LLM gateway that routes model, tool, and sub-agent calls with scoped keys, cost policy, failover, telemetry, MCP gateway support,…",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/bitrouter/bitrouter",
+      "github_repo": "bitrouter/bitrouter"
+    },
+    {
+      "slug": "expose-repository-code-intelligence-to-agents-with-gortex",
+      "name": "Expose repository code intelligence to agents with Gortex",
+      "title": "Expose repository code intelligence to agents with Gortex",
+      "description": "Use Gortex to index one or more repositories into a local code graph and expose symbol, call-chain, blast-radius, review, and refactoring tools through MCP,…",
+      "category": "Developer Tools",
+      "framework": "MCP",
+      "verification": "listed",
+      "source_url": "https://github.com/zzet/gortex",
+      "github_repo": "zzet/gortex"
+    },
+    {
+      "slug": "coordinate-visible-multi-agent-cli-workspaces-with-ccb",
+      "name": "Coordinate visible multi-agent CLI workspaces with CCB",
+      "title": "Coordinate visible multi-agent CLI workspaces with CCB",
+      "description": "Use CCB to run Codex, Claude, Gemini, Cursor, OpenCode, and other CLI agents in a visible project workspace with configured panes, shared memory, role…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/SeemSeam/claude_codex_bridge",
+      "github_repo": "SeemSeam/claude_codex_bridge"
+    },
     {
       "slug": "inspect-bullmq-agent-job-queues-with-bull-board",
       "name": "Inspect BullMQ agent job queues with Bull Board",

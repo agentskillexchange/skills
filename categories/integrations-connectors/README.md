@@ -160,6 +160,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Linear MCP Server for Issue Tracking and Project Management](../../skills/linear-mcp-server-issue-tracking-project-management/) | 346 | — |
 | [Give MCP agents structured graph memory with RushDB](../../skills/give-mcp-agents-structured-graph-memory-with-rushdb/) | 308 | 1.9k/wk |
 | [Connect accounting agents to Xero through MCP](../../skills/connect-accounting-agents-to-xero-through-mcp/) | 294 | 8k/wk |
+| [Route production agent loops through BitRouter](../../skills/route-production-agent-loops-through-bitrouter/) | 202 | 258/wk |
 | [Work with AFFiNE workspaces, documents, and databases from MCP-compatible agents](../../skills/work-with-affine-workspaces-documents-and-databases-from-mcp-compatible-agents/) | 142 | 2.1k/wk |
 | [Expose Haystack pipelines as webhook endpoints with Hayhooks](../../skills/expose-haystack-pipelines-as-webhook-endpoints-with-hayhooks/) | 138 | — |
 | [Query Eventhouse and manage Fabric RTI resources from MCP-compatible agents with Fabric RTI MCP](../../skills/query-eventhouse-and-manage-fabric-rti-resources-from-mcp-compatible-agents-with-fabric-rti-mcp/) | 111 | — |

@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-11
-# Total: 2719 skills
+# Total: 2722 skills
+
+## Route production agent loops through BitRouter
+slug: route-production-agent-loops-through-bitrouter
+category: Integrations & Connectors
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use BitRouter as an agentic LLM gateway that routes model, tool, and sub-agent calls with scoped keys, cost policy, failover, telemetry, MCP gateway support,…
+url: https://agentskillexchange.com/skills/route-production-agent-loops-through-bitrouter/
+
+## Expose repository code intelligence to agents with Gortex
+slug: expose-repository-code-intelligence-to-agents-with-gortex
+category: Developer Tools
+framework: MCP
+verification: Published
+description: Use Gortex to index one or more repositories into a local code graph and expose symbol, call-chain, blast-radius, review, and refactoring tools through MCP,…
+url: https://agentskillexchange.com/skills/expose-repository-code-intelligence-to-agents-with-gortex/
+
+## Coordinate visible multi-agent CLI workspaces with CCB
+slug: coordinate-visible-multi-agent-cli-workspaces-with-ccb
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use CCB to run Codex, Claude, Gemini, Cursor, OpenCode, and other CLI agents in a visible project workspace with configured panes, shared memory, role…
+url: https://agentskillexchange.com/skills/coordinate-visible-multi-agent-cli-workspaces-with-ccb/
 
 ## Inspect BullMQ agent job queues with Bull Board
 slug: inspect-bullmq-agent-job-queues-with-bull-board
