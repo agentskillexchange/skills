@@ -51,14 +51,14 @@ NUMBERED_TOC_RE = re.compile(r"^\d+(?:\.\d+)+\.?\s+[A-Z][^:]{0,90}\s*$")
 DOTTED_TOC_RE = re.compile(r"^\S.{0,120}?\.{3,}\s*\d{1,4}\s*$")
 MARKDOWN_HEADING_RE = re.compile(r"^#{1,6}\s+\S")
 FENCE_LANGUAGE_RE = re.compile(
-    r"^(?:bash|sh|shell|console|powershell|cmd|terminal|js|jsx|javascript|ts|tsx|typescript)$",
+    r"^(?:bash|sh|shell|console|powershell|cmd|terminal|js|jsx|javascript|ts|tsx|typescript|json|yaml|yml|python|py)$",
     re.I,
 )
 CODE_ARTIFACT_RE = re.compile(
-    r"^(?://|/\*|\*/|\*)\s*|"
-    r"^(?:const|let|var|import|export|module\.exports|require\(|function|async function|class)\b|"
-    r"^[A-Za-z_$][\w$]*\s*:\s*(?:\[|\{|new\b|[A-Za-z_$][\w$]*,?\s*$)|"
-    r"\bnew\s+[A-Za-z_$][\w$]*\b|=>|[{};]\s*$"
+    r"^(?://|/\*|\*/)"
+    r"|^(?:const|let|var|import|export|function|async\s+function|class)\b"
+    r"|^module\.exports\b"
+    r"|^require\("
 )
 
 
@@ -213,8 +213,6 @@ def extract_candidate_block(text: str) -> tuple[list[str], list[str], list[str]]
             continue
         if BAD_COMMAND_RE.search(normalized):
             continue
-        if command_like and dev_setup_command(normalized):
-            continue
         if UNSAFE_EXTRACT_RE.search(normalized):
             continue
         if command_like:
@@ -250,19 +248,9 @@ def clean_extracted_line(line: str) -> str | None:
         return None
     if FENCE_LANGUAGE_RE.match(normalized) or re.fullmatch(r"-{3,}|={3,}", normalized):
         return None
-    if CODE_ARTIFACT_RE.search(normalized) or re.search(r"\brequire\([^)]*\)", normalized):
+    if CODE_ARTIFACT_RE.match(normalized):
         return None
     return normalized
-
-
-def dev_setup_command(line: str) -> bool:
-    low = line.lower()
-    return (
-        low.startswith("git clone git@github.com:")
-        or "dev:docker" in low
-        or re.search(r"\byarn\s+&&\s+yarn\b", low) is not None
-        or re.search(r"\b(?:npm|pnpm|yarn)\s+(?:run\s+)?dev\b", low) is not None
-    )
 
 
 def fetch_source_material(source: str) -> tuple[str, str]:
