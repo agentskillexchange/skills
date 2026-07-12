@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Browser Session Replay Analyzer](skills/browser-session-replay-analyzer/)** — Records and replays browser sessions using rrweb recording library with DOM mutation serialization. Integrates with LogRocket API and FullStory Data Export API for session analytics.
+**[ESLint Code Review](skills/eslint-code-review/)** — ESLint Code Review is built around ESLint static analysis for JavaScript and TypeScript. The underlying ecosystem is represented by eslint/eslint (27,186+ GitHub stars). It gives an agent a…
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 

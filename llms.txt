@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-07-11
+# Generated: 2026-07-12
 # Total: 2723 skills
 
 ## Drive agent terminal workspaces with Rmux
