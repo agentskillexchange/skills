@@ -5,7 +5,7 @@ description: "Use Scalene when a Python agent, tool server, or retrieval pipelin
 github_stars: 13455
 verification: "security_reviewed"
 source: "https://github.com/plasma-umass/scalene"
-author: "plasma-umass"
+author: "PLASMA @ UMass"
 publisher_type: "open_source"
 category: "Code Quality & Review"
 framework: "Multi-Framework"

@@ -5,7 +5,7 @@ description: "Use Cronicle to schedule, run, monitor, and manually trigger recur
 github_stars: 5771
 verification: "security_reviewed"
 source: "https://github.com/jhuckaby/Cronicle"
-author: "Cronicle contributors"
+author: "Joseph Huckaby"
 publisher_type: "open_source"
 category: "Templates & Workflows"
 framework: "Multi-Framework"

@@ -5,7 +5,7 @@ description: "Schedule recurring, interval, calendar, and one-off Python agent j
 github_stars: 7547
 verification: "security_reviewed"
 source: "https://github.com/agronholm/apscheduler"
-author: "agronholm"
+author: "Alex Gronholm"
 publisher_type: "individual"
 category: "Templates & Workflows"
 framework: "Custom Agents"

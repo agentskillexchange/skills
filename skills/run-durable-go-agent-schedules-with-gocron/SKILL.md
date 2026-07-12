@@ -5,7 +5,7 @@ description: "Embed gocron in Go-based agents or operators to run recurring task
 github_stars: 7079
 verification: "security_reviewed"
 source: "https://github.com/go-co-op/gocron"
-author: "go-co-op"
+author: "Go Co Op"
 publisher_type: "open_source"
 category: "Templates & Workflows"
 framework: "Custom Agents"

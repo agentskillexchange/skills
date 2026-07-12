@@ -2,12 +2,15 @@
 name: "Pre-Landing Self-Review"
 slug: "pre-landing-review"
 description: "Structured self-review checklist to run before committing substantial code changes. Covers edge cases, error paths, test coverage, documentation, and code quality — so CI is a last resort, not your first reviewer."
+github_stars: 14
 verification: "listed"
 source: "https://github.com/gptme/gptme-contrib"
+author: "gptme"
 category: "Code Quality & Review"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "gptme/gptme-contrib"
+  github_stars: 14
 ---
 
 # Pre-Landing Self-Review

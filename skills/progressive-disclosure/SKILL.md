@@ -2,12 +2,15 @@
 name: "Progressive Disclosure for Documentation"
 slug: "progressive-disclosure"
 description: "Restructure large documentation files (500+ lines, 5k+ tokens) into slim indexes with on-demand detail directories. Reduces always-included context by 40-60% while preserving full accessibility. Ideal for documentation auto-included in every agent context window."
+github_stars: 14
 verification: "listed"
 source: "https://github.com/gptme/gptme-contrib"
+author: "gptme"
 category: "Templates & Workflows"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "gptme/gptme-contrib"
+  github_stars: 14
 ---
 
 # Progressive Disclosure for Documentation
