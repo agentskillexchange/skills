@@ -44,6 +44,8 @@ Requires Python 3.10+.
 
 ## Basic Usage
 
+Because gptme can run shell commands, edit files, control a browser, and persist sessions locally, run it with an explicit operating boundary. Prefer a project sandbox or worktree, review enabled tool permissions before unattended runs, and avoid pointing agents at sensitive directories unless you intend those files to be inspected or modified.
+
 ```bash
 # Start an interactive session
 gptme "Write a Python script to list all .md files in the current dir"
