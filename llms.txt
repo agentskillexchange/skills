@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-12
-# Total: 2724 skills
+# Total: 2725 skills
+
+## gptme — Terminal AI Agent with Local Tools
+slug: gptme-terminal-ai-agent-with-local-tools
+category: Developer Tools
+framework: Custom Agents
+verification: Published
+description: gptme is an open-source Python framework for running LLM-powered agents in your terminal with access to shell commands, file editing, browser control, Python execution,…
+url: https://agentskillexchange.com/skills/gptme-terminal-ai-agent-with-local-tools/
 
 ## Benchmark agent memory and RAG systems with MemoryBench
 slug: benchmark-agent-memory-and-rag-systems-with-memorybench

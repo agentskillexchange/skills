@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C724-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C725-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C334-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,724 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,725 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [gptme — Terminal AI Agent with Local Tools](skills/gptme-terminal-ai-agent-with-local-tools/) | gptme is an open-source Python framework for running LLM-powered agents in your terminal with access to shell commands... | 4.4k | Developer Tools |
 | [Benchmark agent memory and RAG systems with MemoryBench](skills/benchmark-agent-memory-and-rag-systems-with-memorybench/) | Use MemoryBench to run repeatable conversational memory and RAG benchmarks across providers, datasets, judge models, checkpoints, and structured... | 293 | Runbooks & Diagnostics |
 | [Drive agent terminal workspaces with Rmux](skills/drive-agent-terminal-workspaces-with-rmux/) | Use Rmux to create and automate cross-platform terminal sessions for agent CLIs, with tmux-compatible commands, typed SDKs, web... | 2.4k | Developer Tools |
 | [Route production agent loops through BitRouter](skills/route-production-agent-loops-through-bitrouter/) | Use BitRouter as an agentic LLM gateway that routes model, tool, and sub-agent calls with scoped keys, cost... | 202 | Integrations & Connectors |
@@ -96,7 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Route agent LLM traffic through Shepherd Model Gateway](skills/route-agent-llm-traffic-through-shepherd-model-gateway/) | Use Shepherd Model Gateway to route OpenAI, Anthropic, Responses API, embeddings, and MCP tool traffic across self-hosted and... | 380 | Integrations & Connectors |
 | [Schedule and inspect .NET agent jobs with TickerQ](skills/schedule-and-inspect-dotnet-agent-jobs-with-tickerq/) | Use TickerQ to add persistent cron and time-based job scheduling, retries, multi-node coordination, OpenTelemetry, and a live dashboard... | 3.5k | Templates & Workflows |
 | [Run visual scheduled agent jobs with Cronicle](skills/run-visual-scheduled-agent-jobs-with-cronicle/) | Use Cronicle to schedule, run, monitor, and manually trigger recurring agent maintenance jobs across one or more worker... | 5.8k | Templates & Workflows |
-| [Progressive Disclosure for Documentation](skills/progressive-disclosure/) | Restructure large documentation files (500+ lines, 5k+ tokens) into slim indexes with on-demand detail directories. Reduces always-included context... | 14 | Templates & Workflows |
 
 ---
 
@@ -123,7 +123,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 369 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 370 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 236 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 213 | ETL pipelines, parsing, format conversion |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 198 | Scaffolders, boilerplate generators, workflow templates |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,724 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,725 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,334 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

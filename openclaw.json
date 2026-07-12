@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-12",
-  "total": 2724,
+  "total": 2725,
   "skills": [
+    {
+      "slug": "gptme-terminal-ai-agent-with-local-tools",
+      "name": "gptme — Terminal AI Agent with Local Tools",
+      "title": "gptme — Terminal AI Agent with Local Tools",
+      "description": "gptme is an open-source Python framework for running LLM-powered agents in your terminal with access to shell commands, file editing, browser control, Python execution,…",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "listed",
+      "source_url": "https://github.com/gptme/gptme",
+      "github_repo": "gptme/gptme"
+    },
     {
       "slug": "benchmark-agent-memory-and-rag-systems-with-memorybench",
       "name": "Benchmark agent memory and RAG systems with MemoryBench",
