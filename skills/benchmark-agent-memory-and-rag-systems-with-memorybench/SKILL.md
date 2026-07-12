@@ -3,7 +3,7 @@ name: "Benchmark agent memory and RAG systems with MemoryBench"
 slug: "benchmark-agent-memory-and-rag-systems-with-memorybench"
 description: "Use MemoryBench to run repeatable conversational memory and RAG benchmarks across providers, datasets, judge models, checkpoints, and structured reports."
 github_stars: 293
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/supermemoryai/memorybench"
 author: "Supermemory contributors"
 publisher_type: "open_source"

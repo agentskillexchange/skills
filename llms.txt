@@ -7,7 +7,7 @@
 slug: benchmark-agent-memory-and-rag-systems-with-memorybench
 category: Runbooks & Diagnostics
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Use MemoryBench to run repeatable conversational memory and RAG benchmarks across providers, datasets, judge models, checkpoints, and structured reports.
 url: https://agentskillexchange.com/skills/benchmark-agent-memory-and-rag-systems-with-memorybench/
 

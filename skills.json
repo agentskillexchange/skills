@@ -10,7 +10,7 @@
       "description": "Use MemoryBench to run repeatable conversational memory and RAG benchmarks across providers, datasets, judge models, checkpoints, and structured reports.",
       "category": "Runbooks & Diagnostics",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 293
       },

@@ -11,7 +11,7 @@
       "description": "Use MemoryBench to run repeatable conversational memory and RAG benchmarks across providers, datasets, judge models, checkpoints, and structured reports.",
       "category": "Runbooks & Diagnostics",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "source_url": "https://github.com/supermemoryai/memorybench",
       "github_repo": "supermemoryai/memorybench"
     },
