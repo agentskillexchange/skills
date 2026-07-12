@@ -181,6 +181,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Benchmark virtual agents with scripted multi-turn conversations using Agent Evaluation](../../skills/benchmark-virtual-agents-with-scripted-multi-turn-conversations-using-agent-evaluation/) | 358 | — |
 | [Orchestrate database backup, restore, retention, and failure-notification runbooks through Databasement](../../skills/orchestrate-database-backup-restore-retention-and-failure-notification-runbooks-through-databasement/) | 315 | — |
 | [Benchmark IT automation agents on realistic SRE, CISO, and FinOps scenarios with ITBench](../../skills/benchmark-it-automation-agents-on-realistic-sre-ciso-and-finops-scenarios-with-itbench/) | 308 | — |
+| [Benchmark agent memory and RAG systems with MemoryBench](../../skills/benchmark-agent-memory-and-rag-systems-with-memorybench/) | 293 | — |
 | [Review SQL Server execution plans through an MCP-compatible analysis workflow with Performance Studio](../../skills/review-sql-server-execution-plans-through-an-mcp-compatible-analysis-workflow-with-performance-studio/) | 175 | — |
 | [Datadog Synthetics Failure Triage Skill](../../skills/datadog-synthetics-failure-triage-skill/) | 158 | — |
 | [Debug live Chromium sessions with browser-debugger-cli](../../skills/debug-live-chromium-sessions-with-browser-debugger-cli/) | 124 | 582/wk |

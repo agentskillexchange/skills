@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C723-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C724-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C335-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,723 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,724 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Benchmark agent memory and RAG systems with MemoryBench](skills/benchmark-agent-memory-and-rag-systems-with-memorybench/) | Use MemoryBench to run repeatable conversational memory and RAG benchmarks across providers, datasets, judge models, checkpoints, and structured... | 293 | Runbooks & Diagnostics |
 | [Drive agent terminal workspaces with Rmux](skills/drive-agent-terminal-workspaces-with-rmux/) | Use Rmux to create and automate cross-platform terminal sessions for agent CLIs, with tmux-compatible commands, typed SDKs, web... | 2.4k | Developer Tools |
 | [Route production agent loops through BitRouter](skills/route-production-agent-loops-through-bitrouter/) | Use BitRouter as an agentic LLM gateway that routes model, tool, and sub-agent calls with scoped keys, cost... | 202 | Integrations & Connectors |
 | [Expose repository code intelligence to agents with Gortex](skills/expose-repository-code-intelligence-to-agents-with-gortex/) | Use Gortex to index one or more repositories into a local code graph and expose symbol, call-chain, blast-radius... | 840 | Developer Tools |
@@ -95,8 +96,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Route agent LLM traffic through Shepherd Model Gateway](skills/route-agent-llm-traffic-through-shepherd-model-gateway/) | Use Shepherd Model Gateway to route OpenAI, Anthropic, Responses API, embeddings, and MCP tool traffic across self-hosted and... | 380 | Integrations & Connectors |
 | [Schedule and inspect .NET agent jobs with TickerQ](skills/schedule-and-inspect-dotnet-agent-jobs-with-tickerq/) | Use TickerQ to add persistent cron and time-based job scheduling, retries, multi-node coordination, OpenTelemetry, and a live dashboard... | 3.5k | Templates & Workflows |
 | [Run visual scheduled agent jobs with Cronicle](skills/run-visual-scheduled-agent-jobs-with-cronicle/) | Use Cronicle to schedule, run, monitor, and manually trigger recurring agent maintenance jobs across one or more worker... | 5.8k | Templates & Workflows |
-| [Progressive Disclosure for Documentation](skills/progressive-disclosure/) | Restructure large documentation files (500+ lines, 5k+ tokens) into slim indexes with on-demand detail directories. Reduces always-included context... | - | Templates & Workflows |
-| [Pre-Landing Self-Review](skills/pre-landing-review/) | Structured self-review checklist to run before committing substantial code changes. Covers edge cases, error paths, test coverage, documentation... | - | Code Quality & Review |
+| [Progressive Disclosure for Documentation](skills/progressive-disclosure/) | Restructure large documentation files (500+ lines, 5k+ tokens) into slim indexes with on-demand detail directories. Reduces always-included context... | 14 | Templates & Workflows |
 
 ---
 
@@ -129,7 +129,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 198 | Scaffolders, boilerplate generators, workflow templates |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 191 | Linting, code review, test generators, coverage |
-| 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 173 | Incident response, troubleshooting, system diagnostics |
+| 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 174 | Incident response, troubleshooting, system diagnostics |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 149 | Third-party API bridges, webhooks, service connectors |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 149 | Metrics, alerting rules, observability |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 125 | Email automation, calendar management, task coordination |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,723 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,724 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,335 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

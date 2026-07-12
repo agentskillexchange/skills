@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-12
-# Total: 2723 skills
+# Total: 2724 skills
+
+## Benchmark agent memory and RAG systems with MemoryBench
+slug: benchmark-agent-memory-and-rag-systems-with-memorybench
+category: Runbooks & Diagnostics
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use MemoryBench to run repeatable conversational memory and RAG benchmarks across providers, datasets, judge models, checkpoints, and structured reports.
+url: https://agentskillexchange.com/skills/benchmark-agent-memory-and-rag-systems-with-memorybench/
 
 ## Drive agent terminal workspaces with Rmux
 slug: drive-agent-terminal-workspaces-with-rmux

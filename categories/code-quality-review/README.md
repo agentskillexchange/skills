@@ -211,6 +211,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Benchmark deep research agents across factual, quality, and process dimensions with MiroEval](../../skills/benchmark-deep-research-agents-across-factual-quality-and-process-dimensions-with-miroeval/) | 34 | — |
 | [Add a browser review checkpoint before risky agent actions with AgentClick](../../skills/add-a-browser-review-checkpoint-before-risky-agent-actions-with-agentclick/) | 22 | 9/wk |
 | [Test Claude Code plugin and skill triggering with staged eval runs using cc-plugin-eval](../../skills/test-claude-code-plugin-and-skill-triggering-with-staged-eval-runs-using-cc-plugin-eval/) | 16 | — |
+| [Pre-Landing Self-Review](../../skills/pre-landing-review/) | 14 | — |
 | [Apply Git branching, commit, and pull request best practices through Git Workflow Skill](../../skills/apply-git-branching-commit-and-pr-best-practices-through-git-workflow-skill/) | 13 | — |
 | [Detect copy-pasted code hotspots before refactors, audits, or review](../../skills/detect-copy-pasted-code-hotspots-before-refactors-audits-or-review/) | — | 703.6k/wk |
 | [Address GitHub PR review comments from the current branch with gh-address-comments](../../skills/address-github-pr-review-comments-from-the-current-branch-with-gh-address-comments/) | — | — |
@@ -224,7 +225,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Git Bisect Automation Agent](../../skills/git-bisect-automation-agent/) | — | — |
 | [Multi-Axis Code Review and Quality Gates](../../skills/multi-axis-code-review-and-quality-gates/) | — | — |
 | [Multi-Lens Review](../../skills/multi-lens-review/) | — | — |
-| [Pre-Landing Self-Review](../../skills/pre-landing-review/) | — | — |
 | [Pull Request Size Analyzer](../../skills/pull-request-size-analyzer-agent/) | — | — |
 | [Resolve syntax-aware Git merge conflicts before escalating to manual surgery with Mergiraf](../../skills/resolve-syntax-aware-git-merge-conflicts-before-escalating-to-manual-surgery-with-mergiraf/) | — | — |
 | [Review frontend implementations for design-system quality, accessibility, and polish with Frontend Design Review](../../skills/review-frontend-implementations-for-design-system-quality-accessibility-and-polish-with-frontend-design-review/) | — | — |

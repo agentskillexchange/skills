@@ -1,8 +1,22 @@
 {
   "version": "2.0",
-  "total": 2723,
+  "total": 2724,
   "generated": "2026-07-12",
   "skills": [
+    {
+      "slug": "benchmark-agent-memory-and-rag-systems-with-memorybench",
+      "name": "Benchmark agent memory and RAG systems with MemoryBench",
+      "title": "Benchmark agent memory and RAG systems with MemoryBench",
+      "description": "Use MemoryBench to run repeatable conversational memory and RAG benchmarks across providers, datasets, judge models, checkpoints, and structured reports.",
+      "category": "Runbooks & Diagnostics",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 293
+      },
+      "source_url": "https://github.com/supermemoryai/memorybench",
+      "github_repo": "supermemoryai/memorybench"
+    },
     {
       "slug": "drive-agent-terminal-workspaces-with-rmux",
       "name": "Drive agent terminal workspaces with Rmux",
@@ -127,6 +141,9 @@
       "category": "Templates & Workflows",
       "framework": "Claude Code",
       "verification": "listed",
+      "signals": {
+        "github_stars": 14
+      },
       "source_url": "https://github.com/gptme/gptme-contrib",
       "github_repo": "gptme/gptme-contrib"
     },
@@ -138,6 +155,9 @@
       "category": "Code Quality & Review",
       "framework": "Claude Code",
       "verification": "listed",
+      "signals": {
+        "github_stars": 14
+      },
       "source_url": "https://github.com/gptme/gptme-contrib",
       "github_repo": "gptme/gptme-contrib"
     },
