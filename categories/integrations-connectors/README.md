@@ -159,6 +159,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Build and validate Shopify apps with the official Shopify AI Toolkit](../../skills/build-and-validate-shopify-apps-with-the-official-shopify-ai-toolkit/) | 348 | 17.6k/wk |
 | [Linear MCP Server for Issue Tracking and Project Management](../../skills/linear-mcp-server-issue-tracking-project-management/) | 346 | — |
 | [Give MCP agents structured graph memory with RushDB](../../skills/give-mcp-agents-structured-graph-memory-with-rushdb/) | 308 | 1.9k/wk |
+| [Give MCP agents local shared memory with MARM](../../skills/give-mcp-agents-local-shared-memory-with-marm/) | 307 | — |
 | [Connect accounting agents to Xero through MCP](../../skills/connect-accounting-agents-to-xero-through-mcp/) | 294 | 8k/wk |
 | [Route production agent loops through BitRouter](../../skills/route-production-agent-loops-through-bitrouter/) | 202 | 258/wk |
 | [Work with AFFiNE workspaces, documents, and databases from MCP-compatible agents](../../skills/work-with-affine-workspaces-documents-and-databases-from-mcp-compatible-agents/) | 142 | 2.1k/wk |

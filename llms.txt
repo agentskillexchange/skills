@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-07-12
-# Total: 2725 skills
+# Generated: 2026-07-13
+# Total: 2726 skills
+
+## Give MCP agents local shared memory with MARM
+slug: give-mcp-agents-local-shared-memory-with-marm
+category: Integrations & Connectors
+framework: MCP
+verification: Security Reviewed
+description: Use MARM Memory to give Claude Code, Cursor, Codex, Gemini, and other MCP clients a local-first shared memory server with sessions, semantic recall, notebooks,…
+url: https://agentskillexchange.com/skills/give-mcp-agents-local-shared-memory-with-marm/
 
 ## gptme — Terminal AI Agent with Local Tools
 slug: gptme-terminal-ai-agent-with-local-tools

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2725 published skills** across **17 categories** · 2,335 security reviewed · Updated 2026-07-12 19:27 UTC
+> **2726 published skills** across **17 categories** · 2,335 security reviewed · Updated 2026-07-13 01:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1638,7 +1638,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (149 skills)
+### 🔗 Integrations & Connectors (150 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1763,6 +1763,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Build and validate Shopify apps with the official Shopify AI Toolkit](skills/build-and-validate-shopify-apps-with-the-official-shopify-ai-toolkit/) | Connect agents and IDE assistants to Shopify docs, API schemas, code validation, and store-management workflows… | Security Reviewed | 348 | 17.6k/wk |
 | [Linear MCP Server for Issue Tracking and Project Management](skills/linear-mcp-server-issue-tracking-project-management/) | An MCP server that integrates Linear project management with AI assistants. Enables creating, searching, updating,… | Security Reviewed | 346 | — |
 | [Give MCP agents structured graph memory with RushDB](skills/give-mcp-agents-structured-graph-memory-with-rushdb/) | Connect RushDB's MCP server so agents can store, search, update, and traverse persistent structured memory without… | Security Reviewed | 308 | 1.9k/wk |
+| [Give MCP agents local shared memory with MARM](skills/give-mcp-agents-local-shared-memory-with-marm/) | Use MARM Memory to give Claude Code, Cursor, Codex, Gemini, and other MCP clients a local-first shared memory server… | Security Reviewed | 307 | — |
 | [Connect accounting agents to Xero through MCP](skills/connect-accounting-agents-to-xero-through-mcp/) | Use Xero MCP Server to give approved MCP clients controlled access to Xero accounting data, reports, invoices,… | Security Reviewed | 294 | 8k/wk |
 | [Route production agent loops through BitRouter](skills/route-production-agent-loops-through-bitrouter/) | Use BitRouter as an agentic LLM gateway that routes model, tool, and sub-agent calls with scoped keys, cost policy,… | Security Reviewed | 202 | 258/wk |
 | [Work with AFFiNE workspaces, documents, and databases from MCP-compatible agents](skills/work-with-affine-workspaces-documents-and-databases-from-mcp-compatible-agents/) | Use affine-mcp-server when an agent needs tool-callable access to AFFiNE workspaces, documents, databases, and… | Security Reviewed | 142 | 2.1k/wk |

@@ -1,9 +1,20 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-07-12",
-  "total": 2725,
+  "generated": "2026-07-13",
+  "total": 2726,
   "skills": [
+    {
+      "slug": "give-mcp-agents-local-shared-memory-with-marm",
+      "name": "Give MCP agents local shared memory with MARM",
+      "title": "Give MCP agents local shared memory with MARM",
+      "description": "Use MARM Memory to give Claude Code, Cursor, Codex, Gemini, and other MCP clients a local-first shared memory server with sessions, semantic recall, notebooks,…",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Lyellr88/marm-memory",
+      "github_repo": "Lyellr88/marm-memory"
+    },
     {
       "slug": "gptme-terminal-ai-agent-with-local-tools",
       "name": "gptme — Terminal AI Agent with Local Tools",

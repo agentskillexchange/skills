@@ -1,8 +1,22 @@
 {
   "version": "2.0",
-  "total": 2725,
-  "generated": "2026-07-12",
+  "total": 2726,
+  "generated": "2026-07-13",
   "skills": [
+    {
+      "slug": "give-mcp-agents-local-shared-memory-with-marm",
+      "name": "Give MCP agents local shared memory with MARM",
+      "title": "Give MCP agents local shared memory with MARM",
+      "description": "Use MARM Memory to give Claude Code, Cursor, Codex, Gemini, and other MCP clients a local-first shared memory server with sessions, semantic recall, notebooks,…",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 307
+      },
+      "source_url": "https://github.com/Lyellr88/marm-memory",
+      "github_repo": "Lyellr88/marm-memory"
+    },
     {
       "slug": "gptme-terminal-ai-agent-with-local-tools",
       "name": "gptme — Terminal AI Agent with Local Tools",
