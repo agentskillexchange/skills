@@ -12,6 +12,8 @@ framework: "Claude Code"
 tool_ecosystem:
   github_repo: "modu-ai/moai-adk"
   github_stars: 1117
+  npm_package: "moai-adk"
+  npm_weekly_downloads: 41
 ---
 
 # Run spec-first Claude Code development workflows with MoAI-ADK
