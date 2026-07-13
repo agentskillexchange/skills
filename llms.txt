@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-13
-# Total: 2726 skills
+# Total: 2727 skills
+
+## Schedule distributed agent maintenance jobs with Dkron
+slug: schedule-distributed-agent-maintenance-jobs-with-dkron
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Dkron to run recurring agent maintenance, data refresh, evaluation, and cleanup jobs across a fault-tolerant cluster with a UI and API.
+url: https://agentskillexchange.com/skills/schedule-distributed-agent-maintenance-jobs-with-dkron/
 
 ## Give MCP agents local shared memory with MARM
 slug: give-mcp-agents-local-shared-memory-with-marm

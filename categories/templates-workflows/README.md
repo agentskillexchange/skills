@@ -147,6 +147,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Turn goals into traced multi-agent task DAGs with open-multi-agent](../../skills/turn-goals-into-traced-multi-agent-task-dags-with-open-multi-agent/) | 6k | — |
 | [Run visual scheduled agent jobs with Cronicle](../../skills/run-visual-scheduled-agent-jobs-with-cronicle/) | 5.8k | — |
 | [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter/) | 5.6k | 1.2M/wk |
+| [Schedule distributed agent maintenance jobs with Dkron](../../skills/schedule-distributed-agent-maintenance-jobs-with-dkron/) | 4.7k | — |
 | [Build event-driven multi-agent workflows with Solace Agent Mesh](../../skills/build-event-driven-multi-agent-workflows-with-solace-agent-mesh/) | 4.5k | — |
 | [Automate repository triage and recurring repo maintenance with guarded GitHub agent workflows](../../skills/automate-repository-triage-and-recurring-maintenance-with-github-agent-workflows/) | 4.3k | — |
 | [Coordinate human-in-the-loop agent teams in auditable Matrix rooms with HiClaw](../../skills/coordinate-human-in-the-loop-agent-teams-in-auditable-matrix-rooms-with-hiclaw/) | 4.2k | — |
@@ -186,7 +187,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Prepare Rust Release PRs and Changelogs from Workspace Changes with release-plz](../../skills/prepare-rust-release-prs-and-changelogs-from-workspace-changes-with-release-plz/) | 1.3k | — |
 | [Yeoman Generator Builder](../../skills/yeoman-generator-builder/) | 1.3k | 5M/wk |
 | [Compose typed OpenClaw workflows with approval gates and resumable steps using Lobster](../../skills/compose-typed-openclaw-workflows-with-approval-gates-and-resumable-steps-using-lobster/) | 1.1k | — |
-| [Run spec-first Claude Code development workflows with MoAI-ADK](../../skills/run-spec-first-claude-code-development-workflows-with-moai-adk/) | 1.1k | — |
+| [Run spec-first Claude Code development workflows with MoAI-ADK](../../skills/run-spec-first-claude-code-development-workflows-with-moai-adk/) | 1.1k | 41/wk |
 | [Drive spec-first coding workflows with task boards, worktrees, and agent handoffs using Spec Kitty](../../skills/drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-handoffs-using-spec-kitty/) | 1.1k | — |
 | [Prepare bid proposal drafts and compliance checks with OpenBidKit Yibiao](../../skills/prepare-bid-proposal-drafts-and-compliance-checks-with-openbidkit-yibiao/) | 1k | — |
 | [Run academic writing, analysis, and replication workflows with quality gates in claude-code-my-workflow](../../skills/run-academic-writing-analysis-and-replication-workflows-with-quality-gates-in-claude-code-my-workflow/) | 970 | — |

@@ -1,8 +1,22 @@
 {
   "version": "2.0",
-  "total": 2726,
+  "total": 2727,
   "generated": "2026-07-13",
   "skills": [
+    {
+      "slug": "schedule-distributed-agent-maintenance-jobs-with-dkron",
+      "name": "Schedule distributed agent maintenance jobs with Dkron",
+      "title": "Schedule distributed agent maintenance jobs with Dkron",
+      "description": "Use Dkron to run recurring agent maintenance, data refresh, evaluation, and cleanup jobs across a fault-tolerant cluster with a UI and API.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 4706
+      },
+      "source_url": "https://github.com/dkron-io/dkron",
+      "github_repo": "dkron-io/dkron"
+    },
     {
       "slug": "give-mcp-agents-local-shared-memory-with-marm",
       "name": "Give MCP agents local shared memory with MARM",
@@ -387,7 +401,8 @@
       "framework": "Claude Code",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 1117
+        "github_stars": 1117,
+        "npm_weekly_downloads": 41
       },
       "source_url": "https://github.com/modu-ai/moai-adk",
       "github_repo": "modu-ai/moai-adk"

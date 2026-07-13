@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-13",
-  "total": 2726,
+  "total": 2727,
   "skills": [
+    {
+      "slug": "schedule-distributed-agent-maintenance-jobs-with-dkron",
+      "name": "Schedule distributed agent maintenance jobs with Dkron",
+      "title": "Schedule distributed agent maintenance jobs with Dkron",
+      "description": "Use Dkron to run recurring agent maintenance, data refresh, evaluation, and cleanup jobs across a fault-tolerant cluster with a UI and API.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/dkron-io/dkron",
+      "github_repo": "dkron-io/dkron"
+    },
     {
       "slug": "give-mcp-agents-local-shared-memory-with-marm",
       "name": "Give MCP agents local shared memory with MARM",

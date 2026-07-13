@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2726 published skills** across **17 categories** · 2,336 security reviewed · Updated 2026-07-13 01:27 UTC
+> **2727 published skills** across **17 categories** · 2,336 security reviewed · Updated 2026-07-13 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -851,7 +851,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (198 skills)
+### 📄 Templates & Workflows (199 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -964,6 +964,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Turn goals into traced multi-agent task DAGs with open-multi-agent](skills/turn-goals-into-traced-multi-agent-task-dags-with-open-multi-agent/) | Decompose goals into task DAGs, delegate work to agents and tools, and inspect execution traces. | Security Reviewed | 6k | — |
 | [Run visual scheduled agent jobs with Cronicle](skills/run-visual-scheduled-agent-jobs-with-cronicle/) | Use Cronicle to schedule, run, monitor, and manually trigger recurring agent maintenance jobs across one or more… | Security Reviewed | 5.8k | — |
 | [Notion to PDF Knowledge Exporter](skills/notion-to-pdf-knowledge-exporter/) | Queries Notion databases and pages via the Notion API v1, then renders content blocks into PDF via WeasyPrint.… | Security Reviewed | 5.6k | 1.2M/wk |
+| [Schedule distributed agent maintenance jobs with Dkron](skills/schedule-distributed-agent-maintenance-jobs-with-dkron/) | Use Dkron to run recurring agent maintenance, data refresh, evaluation, and cleanup jobs across a fault-tolerant… | Security Reviewed | 4.7k | — |
 | [Build event-driven multi-agent workflows with Solace Agent Mesh](skills/build-event-driven-multi-agent-workflows-with-solace-agent-mesh/) | Stand up Solace Agent Mesh projects where agents delegate tasks, exchange events, call tools, and coordinate… | Security Reviewed | 4.5k | — |
 | [Automate repository triage and recurring repo maintenance with guarded GitHub agent workflows](skills/automate-repository-triage-and-recurring-maintenance-with-github-agent-workflows/) | Use GitHub Agentic Workflows to let an agent triage issues, inspect CI failures, or deliver scheduled repository… | Security Reviewed | 4.3k | — |
 | [Coordinate human-in-the-loop agent teams in auditable Matrix rooms with HiClaw](skills/coordinate-human-in-the-loop-agent-teams-in-auditable-matrix-rooms-with-hiclaw/) | Run manager-worker agent collaboration in Matrix rooms where humans can watch, intervene, and keep credentials out… | Security Reviewed | 4.2k | — |
@@ -1003,7 +1004,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Prepare Rust Release PRs and Changelogs from Workspace Changes with release-plz](skills/prepare-rust-release-prs-and-changelogs-from-workspace-changes-with-release-plz/) | Inspect Rust workspace changes, draft release PRs, bump versions, and assemble changelogs before publishing. | Security Reviewed | 1.3k | — |
 | [Yeoman Generator Builder](skills/yeoman-generator-builder/) | Creates custom Yeoman generators using the yeoman-generator API and yo CLI. Scaffolds generator packages with… | Published | 1.3k | 5M/wk |
 | [Compose typed OpenClaw workflows with approval gates and resumable steps using Lobster](skills/compose-typed-openclaw-workflows-with-approval-gates-and-resumable-steps-using-lobster/) | Use Lobster when an OpenClaw operator wants one deterministic typed workflow step, with approval gates and resumable… | Security Reviewed | 1.1k | — |
-| [Run spec-first Claude Code development workflows with MoAI-ADK](skills/run-spec-first-claude-code-development-workflows-with-moai-adk/) | Use MoAI-ADK to install Claude Code agents and skills for spec-first implementation, TDD, DDD, and quality-gated… | Security Reviewed | 1.1k | — |
+| [Run spec-first Claude Code development workflows with MoAI-ADK](skills/run-spec-first-claude-code-development-workflows-with-moai-adk/) | Use MoAI-ADK to install Claude Code agents and skills for spec-first implementation, TDD, DDD, and quality-gated… | Security Reviewed | 1.1k | 41/wk |
 | [Drive spec-first coding workflows with task boards, worktrees, and agent handoffs using Spec Kitty](skills/drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-handoffs-using-spec-kitty/) | Move from spec to plan to tasks to review through one repo-native workflow when larger AI coding efforts need… | Security Reviewed | 1.1k | — |
 | [Prepare bid proposal drafts and compliance checks with OpenBidKit Yibiao](skills/prepare-bid-proposal-drafts-and-compliance-checks-with-openbidkit-yibiao/) | Use OpenBidKit Yibiao to turn tender materials, company knowledge, and model-provider settings into reviewable bid… | Security Reviewed | 1k | — |
 | [Run academic writing, analysis, and replication workflows with quality gates in claude-code-my-workflow](skills/run-academic-writing-analysis-and-replication-workflows-with-quality-gates-in-claude-code-my-workflow/) | Use claude-code-my-workflow when a research task needs a Claude Code workflow for papers, slides, data analysis, or… | Security Reviewed | 970 | — |

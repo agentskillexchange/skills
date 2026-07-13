@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C726-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C727-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C336-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,726 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,727 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Schedule distributed agent maintenance jobs with Dkron](skills/schedule-distributed-agent-maintenance-jobs-with-dkron/) | Use Dkron to run recurring agent maintenance, data refresh, evaluation, and cleanup jobs across a fault-tolerant cluster with... | 4.7k | Templates & Workflows |
 | [Give MCP agents local shared memory with MARM](skills/give-mcp-agents-local-shared-memory-with-marm/) | Use MARM Memory to give Claude Code, Cursor, Codex, Gemini, and other MCP clients a local-first shared memory... | 307 | Integrations & Connectors |
 | [gptme — Terminal AI Agent with Local Tools](skills/gptme-terminal-ai-agent-with-local-tools/) | gptme is an open-source Python framework for running LLM-powered agents in your terminal with access to shell commands... | 4.4k | Developer Tools |
 | [Benchmark agent memory and RAG systems with MemoryBench](skills/benchmark-agent-memory-and-rag-systems-with-memorybench/) | Use MemoryBench to run repeatable conversational memory and RAG benchmarks across providers, datasets, judge models, checkpoints, and structured... | 293 | Runbooks & Diagnostics |
@@ -96,7 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Coordinate visible multi-agent CLI workspaces with CCB](skills/coordinate-visible-multi-agent-cli-workspaces-with-ccb/) | Use CCB to run Codex, Claude, Gemini, Cursor, OpenCode, and other CLI agents in a visible project workspace... | 3.2k | Developer Tools |
 | [Inspect BullMQ agent job queues with Bull Board](skills/inspect-bullmq-agent-job-queues-with-bull-board/) | Use Bull Board to add a protected dashboard for Bull and BullMQ queues so operators can inspect, retry... | 3.4k | Monitoring & Alerts |
 | [Route agent LLM traffic through Shepherd Model Gateway](skills/route-agent-llm-traffic-through-shepherd-model-gateway/) | Use Shepherd Model Gateway to route OpenAI, Anthropic, Responses API, embeddings, and MCP tool traffic across self-hosted and... | 380 | Integrations & Connectors |
-| [Schedule and inspect .NET agent jobs with TickerQ](skills/schedule-and-inspect-dotnet-agent-jobs-with-tickerq/) | Use TickerQ to add persistent cron and time-based job scheduling, retries, multi-node coordination, OpenTelemetry, and a live dashboard... | 3.5k | Templates & Workflows |
 
 ---
 
@@ -126,7 +126,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 🛠️ | [**Developer Tools**](categories/developer-tools/) | 370 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 236 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 213 | ETL pipelines, parsing, format conversion |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 198 | Scaffolders, boilerplate generators, workflow templates |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 199 | Scaffolders, boilerplate generators, workflow templates |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 191 | Linting, code review, test generators, coverage |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 174 | Incident response, troubleshooting, system diagnostics |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,726 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,727 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,336 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
