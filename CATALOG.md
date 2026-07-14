@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2727 published skills** across **17 categories** · 2,337 security reviewed · Updated 2026-07-13 19:26 UTC
+> **2728 published skills** across **17 categories** · 2,337 security reviewed · Updated 2026-07-14 01:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -851,7 +851,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (199 skills)
+### 📄 Templates & Workflows (200 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -994,6 +994,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Turn product requirements into executable Claude Code plans and validation loops with PRPs Agentic Eng](skills/turn-product-requirements-into-executable-claude-code-plans-and-validation-loops-with-prps-agentic-eng/) | Generate PRDs, implementation plans, validation loops, issue investigations, and autonomous fix cycles inside Claude… | Security Reviewed | 2.1k | — |
 | [Layer self-correcting memory and worktree routines into Claude Code with Pro Workflow](skills/layer-self-correcting-memory-and-worktree-routines-into-claude-code-with-pro-workflow/) | Use Pro Workflow when Claude Code sessions keep repeating the same mistakes and you want corrections, quality gates,… | Security Reviewed | 1.9k | 42/wk |
 | [Netlify Site Manager](skills/netlify-site-manager/) | Netlify Site Manager is built around Netlify deployment platform. The underlying ecosystem is represented by… | Security Reviewed | 1.8k | 259.3k/wk |
+| [Run scheduled Ruby agent jobs with Sidekiq Scheduler](skills/run-scheduled-ruby-agent-jobs-with-sidekiq-scheduler/) | Use Sidekiq Scheduler to run recurring Ruby/Sidekiq agent jobs for refreshes, evaluations, reports, maintenance, and… | Security Reviewed | 1.8k | — |
 | [Regenerate Helm chart READMEs from values and comments before release](skills/regenerate-helm-chart-readmes-from-values-and-comments-before-release/) | Uses helm-docs to rebuild Helm chart documentation from Chart.yaml, values.yaml, and inline comments so README files… | Security Reviewed | 1.7k | — |
 | [Generate right-to-left CSS variants from LTR stylesheets before multilingual launches with RTLCSS](skills/generate-right-to-left-css-variants-from-ltr-stylesheets-before-multilingual-launches-rtlcss/) | Use RTLCSS when an agent already has left-to-right stylesheets and must prepare a right-to-left variant for Arabic,… | Published | 1.7k | 2M/wk |
 | [Fly.io Deployment Helper](skills/fly-io-deployment-helper/) | Fly.io Deployment Helper is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 1.6k | — |

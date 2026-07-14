@@ -177,6 +177,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Turn product requirements into executable Claude Code plans and validation loops with PRPs Agentic Eng](../../skills/turn-product-requirements-into-executable-claude-code-plans-and-validation-loops-with-prps-agentic-eng/) | 2.1k | — |
 | [Layer self-correcting memory and worktree routines into Claude Code with Pro Workflow](../../skills/layer-self-correcting-memory-and-worktree-routines-into-claude-code-with-pro-workflow/) | 1.9k | 42/wk |
 | [Netlify Site Manager](../../skills/netlify-site-manager/) | 1.8k | 259.3k/wk |
+| [Run scheduled Ruby agent jobs with Sidekiq Scheduler](../../skills/run-scheduled-ruby-agent-jobs-with-sidekiq-scheduler/) | 1.8k | — |
 | [Regenerate Helm chart READMEs from values and comments before release](../../skills/regenerate-helm-chart-readmes-from-values-and-comments-before-release/) | 1.7k | — |
 | [Generate right-to-left CSS variants from LTR stylesheets before multilingual launches with RTLCSS](../../skills/generate-right-to-left-css-variants-from-ltr-stylesheets-before-multilingual-launches-rtlcss/) | 1.7k | 2M/wk |
 | [Fly.io Deployment Helper](../../skills/fly-io-deployment-helper/) | 1.6k | — |

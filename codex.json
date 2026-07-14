@@ -1,9 +1,20 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-07-13",
-  "total": 2727,
+  "generated": "2026-07-14",
+  "total": 2728,
   "skills": [
+    {
+      "slug": "run-scheduled-ruby-agent-jobs-with-sidekiq-scheduler",
+      "name": "Run scheduled Ruby agent jobs with Sidekiq Scheduler",
+      "title": "Run scheduled Ruby agent jobs with Sidekiq Scheduler",
+      "description": "Use Sidekiq Scheduler to run recurring Ruby/Sidekiq agent jobs for refreshes, evaluations, reports, maintenance, and queue-driven automations with cron-style schedules.",
+      "category": "Templates & Workflows",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/sidekiq-scheduler/sidekiq-scheduler",
+      "github_repo": "sidekiq-scheduler/sidekiq-scheduler"
+    },
     {
       "slug": "schedule-distributed-agent-maintenance-jobs-with-dkron",
       "name": "Schedule distributed agent maintenance jobs with Dkron",
