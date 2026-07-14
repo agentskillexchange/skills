@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2728 published skills** across **17 categories** · 2,337 security reviewed · Updated 2026-07-14 01:27 UTC
+> **2728 published skills** across **17 categories** · 2,337 security reviewed · Updated 2026-07-14 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -157,7 +157,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Sonic Fast Lightweight Schema-Less Search Backend](skills/sonic-fast-lightweight-search-backend/) | Sonic is a fast, lightweight, and schema-less search backend written in Rust. It serves as a drop-in alternative to… | Security Reviewed | 21.2k | — |
 | [eza Modern File Listing CLI](skills/eza-modern-file-listing-cli/) | A modern, maintained replacement for the ls command, written in Rust. eza provides colorized output, Git… | Security Reviewed | 20.9k | — |
 | [OpenAI Agents SDK Multi-Agent Workflow Framework for Python](skills/openai-agents-sdk-python-multi-agent/) | The OpenAI Agents SDK is a lightweight Python framework for building multi-agent workflows. It supports 100+ LLMs,… | Security Reviewed | 20.6k | — |
-| [Supervise parallel coding-agent terminals with Cmux](skills/supervise-parallel-coding-agent-terminals-with-cmux/) | Use Cmux to run multiple AI coding-agent terminal sessions with visible notifications, scriptable panes, an in-app… | Security Reviewed | 20.5k | — |
+| [Supervise parallel coding-agent terminals with Cmux](skills/supervise-parallel-coding-agent-terminals-with-cmux/) | Use Cmux to run multiple AI coding-agent terminal sessions with visible notifications, scriptable panes, an in-app… | Security Reviewed | 20.5k | 500/wk |
 | [Turn exploratory Python notebooks into reproducible apps and reports with marimo](skills/turn-exploratory-python-notebooks-into-reproducible-apps-and-reports-with-marimo/) | Promote notebook work into rerunnable Python artifacts or lightweight apps when an analysis needs to be shared,… | Security Reviewed | 20.4k | — |
 | [GitButler Virtual Branch Git Client](skills/gitbutler-virtual-branch-git-client/) | GitButler is a modern Git client built in Rust and Svelte that introduces virtual branches, allowing developers to… | Published | 20k | — |
 | [Build and evaluate production agents with Google ADK](skills/build-and-evaluate-production-agents-with-google-adk/) | Use Google Agent Development Kit to define, test, evaluate, and deploy code-first Python agents with tools,… | Security Reviewed | 19.5k | — |
@@ -1397,7 +1397,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Run Ruff, Mypy, and other code-quality tools on Jupyter notebooks with nbQA](skills/run-ruff-mypy-and-other-code-quality-tools-on-jupyter-notebooks-with-nbqa/) | Apply standard Python formatters, linters, and type checkers to notebook-heavy repositories without manually… | Security Reviewed | 1.2k | — |
 | [Makefile Linting for CI and Build Pipelines](skills/makefile-linting-ci-build-pipelines/) | Uses checkmake to inspect Makefiles for style issues, fragile targets, and maintainability problems before build… | Security Reviewed | 1.2k | — |
 | [Lint PostgreSQL migrations and SQL changes before irreversible schema mistakes land with Squawk](skills/lint-postgresql-migrations-and-sql-changes-before-irreversible-schema-mistakes-land-with-squawk/) | Catch locking, indexing, and schema-change hazards in PostgreSQL migration SQL before a review turns into downtime. | Security Reviewed | 1.1k | — |
-| [Review GitHub repository settings as pull requests with repository-settings](skills/review-github-repository-settings-as-pull-requests-with-repository-settings/) | Use repository-settings when an operator wants GitHub repository configuration changes reviewed as code before… | Security Reviewed | 1k | — |
+| [Review GitHub repository settings as pull requests with repository-settings](skills/review-github-repository-settings-as-pull-requests-with-repository-settings/) | Use repository-settings when an operator wants GitHub repository configuration changes reviewed as code before… | Security Reviewed | 1k | 646/wk |
 | [Enforce pull-request approval policy with Policy Bot](skills/enforce-pull-request-approval-policy-with-policy-bot/) | Codify complex GitHub review rules, evaluate pull requests, and expose approval status as a required check. | Security Reviewed | 1k | — |
 | [Benchmark OpenClaw coding agents against repeatable real tasks before rollout with PinchBench](skills/benchmark-openclaw-coding-agents-against-repeatable-real-tasks-before-rollout-with-pinchbench/) | Run a real-task benchmark suite against OpenClaw agents so model or harness changes can be compared before they hit… | Security Reviewed | 1k | — |
 | [Enforce architectural import boundaries in Python codebases with Import Linter](skills/enforce-architectural-import-boundaries-in-python-codebases-with-import-linter/) | Check whether a Python codebase still respects declared layered, independence, or forbidden import contracts. | Security Reviewed | 995 | — |

@@ -623,7 +623,8 @@
       "framework": "Custom Agents",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 1043
+        "github_stars": 1043,
+        "npm_weekly_downloads": 646
       },
       "source_url": "https://github.com/repository-settings/app",
       "github_repo": "repository-settings/app"
@@ -2736,7 +2737,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 20490
+        "github_stars": 20490,
+        "npm_weekly_downloads": 500
       },
       "source_url": "https://github.com/manaflow-ai/cmux",
       "github_repo": "manaflow-ai/cmux"

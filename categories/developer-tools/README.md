@@ -183,7 +183,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Sonic Fast Lightweight Schema-Less Search Backend](../../skills/sonic-fast-lightweight-search-backend/) | 21.2k | — |
 | [eza Modern File Listing CLI](../../skills/eza-modern-file-listing-cli/) | 20.9k | — |
 | [OpenAI Agents SDK Multi-Agent Workflow Framework for Python](../../skills/openai-agents-sdk-python-multi-agent/) | 20.6k | — |
-| [Supervise parallel coding-agent terminals with Cmux](../../skills/supervise-parallel-coding-agent-terminals-with-cmux/) | 20.5k | — |
+| [Supervise parallel coding-agent terminals with Cmux](../../skills/supervise-parallel-coding-agent-terminals-with-cmux/) | 20.5k | 500/wk |
 | [Turn exploratory Python notebooks into reproducible apps and reports with marimo](../../skills/turn-exploratory-python-notebooks-into-reproducible-apps-and-reports-with-marimo/) | 20.4k | — |
 | [GitButler Virtual Branch Git Client](../../skills/gitbutler-virtual-branch-git-client/) | 20k | — |
 | [Build and evaluate production agents with Google ADK](../../skills/build-and-evaluate-production-agents-with-google-adk/) | 19.5k | — |
