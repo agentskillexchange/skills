@@ -13,7 +13,7 @@ tool_ecosystem:
   github_repo: "repository-settings/app"
   github_stars: 1043
   npm_package: "@repository-settings/app"
-  npm_weekly_downloads: 0
+  npm_weekly_downloads: 646
 ---
 
 # Review GitHub repository settings as pull requests with repository-settings
