@@ -37694,7 +37694,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 13035635,
+        "npm_weekly_downloads": 11915213,
         "license": "MIT"
       },
       "source_url": "https://github.com/stripe/stripe-node",
@@ -37710,7 +37710,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 103,
-        "npm_weekly_downloads": 2427471,
+        "npm_weekly_downloads": 2329731,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/DataDog/datadog-api-client-typescript",
@@ -37756,7 +37756,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 27264,
-        "npm_weekly_downloads": 141921333,
+        "npm_weekly_downloads": 133101099,
         "license": "MIT"
       },
       "source_url": "https://github.com/eslint/eslint",
@@ -37787,7 +37787,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 8805825,
+        "npm_weekly_downloads": 8445388,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/aws/aws-sdk-js-v3",
@@ -37803,7 +37803,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 27719075,
+        "npm_weekly_downloads": 26009772,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/aws/aws-sdk-js-v3",
@@ -37819,7 +37819,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3051,
-        "npm_weekly_downloads": 58743,
+        "npm_weekly_downloads": 53082,
         "license": "MIT"
       },
       "source_url": "https://github.com/sendgrid/sendgrid-nodejs",
@@ -37835,7 +37835,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1539,
-        "npm_weekly_downloads": 4258751,
+        "npm_weekly_downloads": 4059007,
         "license": "MIT"
       },
       "source_url": "https://github.com/twilio/twilio-node",
@@ -37851,7 +37851,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 13035635,
+        "npm_weekly_downloads": 11915213,
         "license": "MIT"
       },
       "source_url": "https://github.com/stripe/stripe-node",
@@ -37867,7 +37867,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1465,
-        "npm_weekly_downloads": 1051528,
+        "npm_weekly_downloads": 997287,
         "license": "MIT"
       },
       "source_url": "https://github.com/jsforce/jsforce",
@@ -37883,7 +37883,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 397,
-        "npm_weekly_downloads": 1066455,
+        "npm_weekly_downloads": 1008184,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/HubSpot/hubspot-api-nodejs",
@@ -37899,7 +37899,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 5610,
-        "npm_weekly_downloads": 1237837,
+        "npm_weekly_downloads": 1164666,
         "license": "MIT"
       },
       "source_url": "https://github.com/makenotion/notion-sdk-js",
@@ -37944,7 +37944,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 24,
-        "npm_weekly_downloads": 3856,
+        "npm_weekly_downloads": 4430,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/opsgenie/opsgenie-nodejs-sdk",
@@ -37976,7 +37976,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 811,
-        "npm_weekly_downloads": 8406439
+        "npm_weekly_downloads": 8210024
       },
       "source_url": "https://github.com/DataDog/dd-trace-js",
       "github_repo": "datadog/dd-trace-js"
@@ -37991,7 +37991,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 25248,
-        "npm_weekly_downloads": 1852391,
+        "npm_weekly_downloads": 1786408,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/pulumi/pulumi",
@@ -38126,7 +38126,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 712,
-        "npm_weekly_downloads": 91086
+        "npm_weekly_downloads": 88471
       },
       "source_url": "https://github.com/getsentry/sentry-mcp",
       "github_repo": "getsentry/sentry-mcp"
@@ -38187,7 +38187,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1290,
-        "npm_weekly_downloads": 329,
+        "npm_weekly_downloads": 266,
         "license": "MIT"
       },
       "source_url": "https://github.com/steipete/claude-code-mcp",
@@ -38218,7 +38218,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 393,
-        "npm_weekly_downloads": 1068,
+        "npm_weekly_downloads": 1246,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/e2b-dev/mcp-server",
@@ -38258,7 +38258,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 10942,
-        "npm_weekly_downloads": 28489723,
+        "npm_weekly_downloads": 26319023,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/openai/openai-node",
@@ -38429,7 +38429,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 33289,
-        "npm_weekly_downloads": 6402173,
+        "npm_weekly_downloads": 6182375,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/microsoft/playwright-mcp",
@@ -38462,7 +38462,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 89986,
-        "npm_weekly_downloads": 56349115,
+        "npm_weekly_downloads": 52060445,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/microsoft/playwright",
