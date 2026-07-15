@@ -1,8 +1,23 @@
 {
   "version": "2.0",
-  "total": 2728,
-  "generated": "2026-07-14",
+  "total": 2729,
+  "generated": "2026-07-15",
   "skills": [
+    {
+      "slug": "review-agent-authored-diffs-with-hunk",
+      "name": "Review agent-authored diffs with Hunk",
+      "title": "Review agent-authored diffs with Hunk",
+      "description": "Use Hunk to keep a live terminal review UI open for agent-authored code changes, with Git, Jujutsu, Sapling, patch input, watch mode, and inline…",
+      "category": "Code Quality & Review",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 6866,
+        "npm_weekly_downloads": 12934
+      },
+      "source_url": "https://github.com/modem-dev/hunk",
+      "github_repo": "modem-dev/hunk"
+    },
     {
       "slug": "run-scheduled-ruby-agent-jobs-with-sidekiq-scheduler",
       "name": "Run scheduled Ruby agent jobs with Sidekiq Scheduler",

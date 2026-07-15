@@ -1,6 +1,6 @@
 # Categories
 
-> **2728 skills** across **17 categories**
+> **2729 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -8,8 +8,8 @@
 | 🔒 | [**Security & Verification**](security-verification/) | **236** | Auth setup, vulnerability scanning, compliance checks, and security a... |
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **213** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **200** | Project scaffolding, boilerplate generators, workflow templates, and ... |
+| ✅ | [**Code Quality & Review**](code-quality-review/) | **192** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **192** | Pipeline configs, deployment automation, build tooling, and continuou... |
-| ✅ | [**Code Quality & Review**](code-quality-review/) | **191** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **174** | Incident response, troubleshooting guides, system diagnostics, and op... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **150** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **149** | Metrics collection, alerting rules, observability setup, and system m... |

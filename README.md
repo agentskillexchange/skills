@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C728-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C729-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C338-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,728 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,729 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Firecrawl Markdown Capture Pipeline](skills/firecrawl-markdown-capture-pipeline/)** — Captures clean site content through Firecrawl endpoints like `/v1/scrape`, `/v1/map`, and `/v1/crawl`, with Markdown output for downstream agents. Great for turning messy websites into reliable research corpora, docs…
+**[Run scheduled Ruby agent jobs with Sidekiq Scheduler](skills/run-scheduled-ruby-agent-jobs-with-sidekiq-scheduler/)** — Use Sidekiq Scheduler to run recurring Ruby/Sidekiq agent jobs for refreshes, evaluations, reports, maintenance, and queue-driven automations with cron-style schedules.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -87,6 +87,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Review agent-authored diffs with Hunk](skills/review-agent-authored-diffs-with-hunk/) | Use Hunk to keep a live terminal review UI open for agent-authored code changes, with Git, Jujutsu, Sapling... | 6.9k | Code Quality & Review |
 | [Run scheduled Ruby agent jobs with Sidekiq Scheduler](skills/run-scheduled-ruby-agent-jobs-with-sidekiq-scheduler/) | Use Sidekiq Scheduler to run recurring Ruby/Sidekiq agent jobs for refreshes, evaluations, reports, maintenance, and queue-driven automations with... | 1.8k | Templates & Workflows |
 | [Schedule distributed agent maintenance jobs with Dkron](skills/schedule-distributed-agent-maintenance-jobs-with-dkron/) | Use Dkron to run recurring agent maintenance, data refresh, evaluation, and cleanup jobs across a fault-tolerant cluster with... | 4.7k | Templates & Workflows |
 | [Give MCP agents local shared memory with MARM](skills/give-mcp-agents-local-shared-memory-with-marm/) | Use MARM Memory to give Claude Code, Cursor, Codex, Gemini, and other MCP clients a local-first shared memory... | 307 | Integrations & Connectors |
@@ -96,7 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Route production agent loops through BitRouter](skills/route-production-agent-loops-through-bitrouter/) | Use BitRouter as an agentic LLM gateway that routes model, tool, and sub-agent calls with scoped keys, cost... | 202 | Integrations & Connectors |
 | [Expose repository code intelligence to agents with Gortex](skills/expose-repository-code-intelligence-to-agents-with-gortex/) | Use Gortex to index one or more repositories into a local code graph and expose symbol, call-chain, blast-radius... | 840 | Developer Tools |
 | [Coordinate visible multi-agent CLI workspaces with CCB](skills/coordinate-visible-multi-agent-cli-workspaces-with-ccb/) | Use CCB to run Codex, Claude, Gemini, Cursor, OpenCode, and other CLI agents in a visible project workspace... | 3.2k | Developer Tools |
-| [Inspect BullMQ agent job queues with Bull Board](skills/inspect-bullmq-agent-job-queues-with-bull-board/) | Use Bull Board to add a protected dashboard for Bull and BullMQ queues so operators can inspect, retry... | 3.4k | Monitoring & Alerts |
 
 ---
 
@@ -106,16 +106,16 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Review agent-authored diffs with Hunk](skills/review-agent-authored-diffs-with-hunk/) | Use Hunk to keep a live terminal review UI open for agent-authored code changes, with Git, Jujutsu, Sapling... | 6.9k | Code Quality & Review |
 | [Inspect BullMQ agent job queues with Bull Board](skills/inspect-bullmq-agent-job-queues-with-bull-board/) | Use Bull Board to add a protected dashboard for Bull and BullMQ queues so operators can inspect, retry... | 3.4k | Monitoring & Alerts |
 | [Coordinate visible multi-agent CLI workspaces with CCB](skills/coordinate-visible-multi-agent-cli-workspaces-with-ccb/) | Use CCB to run Codex, Claude, Gemini, Cursor, OpenCode, and other CLI agents in a visible project workspace... | 3.2k | Developer Tools |
 | [Query operational databases from MCP clients with DBHub](skills/query-operational-databases-from-mcp-clients-with-dbhub/) | Use DBHub to expose guarded, token-efficient database inspection and SQL tools to MCP clients across Postgres, MySQL, SQL... | 3.1k | Data Extraction & Transformation |
 | [Query real-time global intelligence through Worldmonitor MCP](skills/query-real-time-global-intelligence-through-worldmonitor-mcp/) | Give MCP-capable agents a live global-intelligence surface for country briefs, risk scores, conflict, cyber, market, weather, and infrastructure... | 61.4k | Monitoring & Alerts |
-| [Build production agent harnesses with Strands Agents](skills/build-production-agent-harnesses-with-strands-agents/) | Use Strands Agents to assemble model-agnostic Python or TypeScript agent harnesses with tools, MCP, guardrails, tracing, streaming, and... | 6.4k | Developer Tools |
+| [Design loop engineering workflows for coding agents](skills/design-loop-engineering-workflows-for-coding-agents/) | Use Loop Engineering to scaffold, audit, and operate repeatable coding-agent loops with explicit state, budget, readiness, and tool-specific... | 6.6k | Developer Tools |
 | [Parse Korean office documents for agents with kordoc](skills/parse-korean-office-documents-for-agents-with-kordoc/) | Use kordoc when an agent needs to parse HWP, HWPX, PDF, Excel, or DOCX files into Markdown, fill... | 1.4k | Data Extraction & Transformation |
 | [Coordinate multi-agent Claude Code and Codex workflows with Ruflo](skills/coordinate-multi-agent-claude-code-and-codex-workflows-with-ruflo/) | Install Ruflo when an operator needs Claude Code or Codex agents to coordinate swarms, memory, hooks, and MCP... | 59.0k | Templates & Workflows |
 | [Run durable scheduled agent jobs in Node.js with Agenda](skills/run-durable-scheduled-agent-jobs-in-node-js-with-agenda/) | Use Agenda when a custom Node.js agent needs persistent scheduled jobs, retries, locking, and background workers backed by... | 9.7k | Templates & Workflows |
 | [Route production agent loops through BitRouter](skills/route-production-agent-loops-through-bitrouter/) | Use BitRouter as an agentic LLM gateway that routes model, tool, and sub-agent calls with scoped keys, cost... | 202 | Integrations & Connectors |
-| [Review GitHub repository settings as pull requests with repository-settings](skills/review-github-repository-settings-as-pull-requests-with-repository-settings/) | Use repository-settings when an operator wants GitHub repository configuration changes reviewed as code before branch protection, labels, teams... | 1.0k | Code Quality & Review |
 
 ---
 
@@ -127,8 +127,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 236 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 213 | ETL pipelines, parsing, format conversion |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 200 | Scaffolders, boilerplate generators, workflow templates |
+| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 192 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
-| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 191 | Linting, code review, test generators, coverage |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 174 | Incident response, troubleshooting, system diagnostics |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 150 | Third-party API bridges, webhooks, service connectors |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 149 | Metrics, alerting rules, observability |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,728 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,729 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,338 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

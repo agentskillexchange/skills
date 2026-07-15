@@ -130,6 +130,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Format shell scripts into a stable house style before review with shfmt](../../skills/format-shell-scripts-into-a-stable-house-style-before-review-with-shfmt/) | 8.7k | — |
 | [Run fast multi-language Git hook quality checks with prek](../../skills/run-fast-multi-language-git-hook-quality-checks-with-prek/) | 7.5k | 79.1k/wk |
 | [axe-core Accessibility Testing Engine for Automated Web UI Auditing](../../skills/axe-core-accessibility-testing-engine/) | 7k | 39.4M/wk |
+| [Review agent-authored diffs with Hunk](../../skills/review-agent-authored-diffs-with-hunk/) | 6.9k | 12.9k/wk |
 | [Enforce JavaScript and TypeScript dependency rules before architectural drift spreads with dependency-cruiser](../../skills/enforce-javascript-and-typescript-dependency-rules-before-architectural-drift-spreads-with-dependency-cruiser/) | 6.6k | 5.2M/wk |
 | [Lint Terraform modules for provider mistakes and policy violations with TFLint](../../skills/lint-terraform-modules-for-provider-mistakes-and-policy-violations-with-tflint/) | 5.7k | — |
 | [Pylint Code Review Assistant](../../skills/pylint-code-review-assistant/) | 5.7k | — |
