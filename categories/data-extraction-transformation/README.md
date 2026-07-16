@@ -51,6 +51,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Tesseract OCR Document Extractor](../../skills/tesseract-ocr-document-extractor/) | 73.6k | — |
 | [Apache Superset Dashboard and SQL Exploration Skill](../../skills/apache-superset-dashboard-sql-exploration-skill/) | 72.3k | — |
 | [Protocol Buffer Schema Generator](../../skills/protobuf-schema-generator-from-json/) | 71.2k | — |
+| [Extract financial data context for agents with OpenBB](../../skills/use-openbb-as-financial-data-context-for-agents/) | 70.7k | — |
 | [Scrapy Spider Data Pipeline](../../skills/scrapy-spider-data-pipeline/) | 61.3k | — |
 | [MinerU PDF-to-Markdown Document Parser](../../skills/mineru-pdf-to-markdown-document-parser/) | 57.8k | — |
 | [Docling Document Parsing and Conversion](../../skills/docling-document-parsing-and-conversion/) | 57.8k | — |

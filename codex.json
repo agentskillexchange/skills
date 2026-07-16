@@ -2,8 +2,52 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-16",
-  "total": 2729,
+  "total": 2733,
   "skills": [
+    {
+      "slug": "generate-repository-wikis-with-deepwiki-open",
+      "name": "Generate repository wikis with DeepWiki-Open",
+      "title": "Generate repository wikis with DeepWiki-Open",
+      "description": "Use DeepWiki-Open to analyze a GitHub, GitLab, or Bitbucket repository and generate a navigable AI-written wiki with code structure explanations and diagrams for onboarding…",
+      "category": "Library & API Reference",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/AsyncFuncAI/deepwiki-open",
+      "github_repo": "AsyncFuncAI/deepwiki-open"
+    },
+    {
+      "slug": "use-apify-mcp-for-agent-web-extraction",
+      "name": "Use Apify MCP for agent web extraction",
+      "title": "Use Apify MCP for agent web extraction",
+      "description": "Use the Apify MCP server to let MCP-compatible agents run Apify Actors for structured extraction from search, maps, ecommerce, social platforms, and arbitrary websites.",
+      "category": "Research & Scraping",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/apify/apify-mcp-server",
+      "github_repo": "apify/apify-mcp-server"
+    },
+    {
+      "slug": "record-and-replay-governed-gui-workflows-with-openadapt",
+      "name": "Record and replay governed GUI workflows with OpenAdapt",
+      "title": "Record and replay governed GUI workflows with OpenAdapt",
+      "description": "Use OpenAdapt to demonstrate a repeated browser or GUI workflow once, compile it into a deterministic replay bundle, and certify or halt runs with…",
+      "category": "Browser Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/OpenAdaptAI/OpenAdapt",
+      "github_repo": "OpenAdaptAI/OpenAdapt"
+    },
+    {
+      "slug": "use-openbb-as-financial-data-context-for-agents",
+      "name": "Extract financial data context for agents with OpenBB",
+      "title": "Extract financial data context for agents with OpenBB",
+      "description": "Extract source-backed financial market, filings, economics, and research data with OpenBB, then route the outputs into agent workflows through Python, REST, OpenBB Workspace, or…",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/OpenBB-finance/OpenBB",
+      "github_repo": "OpenBB-finance/OpenBB"
+    },
     {
       "slug": "review-agent-authored-diffs-with-hunk",
       "name": "Review agent-authored diffs with Hunk",

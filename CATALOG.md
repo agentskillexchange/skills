@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2729 published skills** across **17 categories** · 2,341 security reviewed · Updated 2026-07-16 07:26 UTC
+> **2733 published skills** across **17 categories** · 2,341 security reviewed · Updated 2026-07-16 13:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -122,7 +122,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Budibase Open Source Low-Code Operations App Platform](skills/budibase-open-source-low-code-operations-app-platform/) | Budibase is an open-source low-code platform for internal apps, forms, portals, and approvals. It gives agents a… | Security Reviewed | 27.8k | 41/wk |
 | [Hyperfine Command-Line Benchmarking Tool](skills/hyperfine-command-line-benchmarking-tool/) | Benchmark command-line programs with statistical rigor using Hyperfine. Performs warmup runs, detects outliers,… | Security Reviewed | 27.8k | — |
 | [Jujutsu Git-Compatible Version Control System](skills/jujutsu-jj-git-compatible-vcs/) | Jujutsu (jj) is a powerful Git-compatible version control system that reimagines VCS workflows with automatic… | Security Reviewed | 27.5k | — |
-| [ESLint Code Review](skills/eslint-code-review/) | ESLint Code Review is built around ESLint static analysis for JavaScript and TypeScript. The underlying ecosystem is… | Security Reviewed | 27.3k | 133.1M/wk |
+| [ESLint Code Review](skills/eslint-code-review/) | ESLint Code Review is built around ESLint static analysis for JavaScript and TypeScript. The underlying ecosystem is… | Security Reviewed | 27.3k | 133.9M/wk |
 | [ESLint Rule Generator Agent](skills/eslint-rule-generator-agent/) | Generates custom ESLint rules from natural language descriptions using the ESLint RuleTester API and AST selectors.… | Security Reviewed | 27.2k | 120.2M/wk |
 | [smolagents Code-First AI Agent Library](skills/smolagents-code-first-ai-agent-library/) | smolagents is HuggingFace's barebones Python library for building AI agents that think in code rather than JSON.… | Security Reviewed | 26.4k | — |
 | [API Client Generator Skill](skills/api-client-generator-skill/) | API Client Generator Skill is built around Swagger/OpenAPI tooling. The underlying ecosystem is represented by… | Security Reviewed | 26.3k | 5.7M/wk |
@@ -284,7 +284,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Build and debug AI pipelines in an IDE with RocketRide](skills/build-and-debug-ai-pipelines-in-an-ide-with-rocketride/) | Use RocketRide to compose, run, observe, and deploy portable AI pipelines from an IDE or CLI across model providers,… | Security Reviewed | 3.9k | 635/wk |
 | [Stancl Tenancy v3 — Multi-Tenant Laravel](skills/tenancy-development/) | Builds multi-tenant Laravel SaaS applications with stancl/tenancy v3. Best when you need domain/subdomain/path-based… | Security Reviewed | 3.8k | — |
 | [Build Java agent transport gateways with Atmosphere](skills/build-java-agent-transport-gateways-with-atmosphere/) | Use Atmosphere to build JVM agent gateways that stream over WebSocket, SSE, gRPC, WebTransport, MCP, A2A, and AG-UI… | Published | 3.8k | — |
-| [AWS S3 MCP Server](skills/aws-s3-mcp-server/) | AWS S3 MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | 3.6k | 26M/wk |
+| [AWS S3 MCP Server](skills/aws-s3-mcp-server/) | AWS S3 MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | 3.6k | 26.2M/wk |
 | [AWS Lambda MCP Server](skills/aws-lambda-mcp-server/) | AWS Lambda MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | 3.6k | 8.4M/wk |
 | [Cloud Cost Analysis](skills/cloud-cost-analysis/) | Cloud Cost Analysis is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | 3.6k | — |
 | [Topgrade Universal System Package Updater](skills/topgrade-universal-system-package-updater/) | Topgrade is a CLI tool written in Rust that detects all package managers and updatable sources on your system and… | Security Reviewed | 3.6k | — |
@@ -325,7 +325,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Search cross-agent Markdown memory and conversation history with memsearch](skills/search-cross-agent-markdown-memory-and-conversation-history-with-memsearch/) | Give supported coding agents a shared Markdown-first memory layer so they can recall prior decisions, transcripts,… | Security Reviewed | 1.3k | — |
 | [Terraform MCP Server for Infrastructure as Code](skills/terraform-mcp-server-infrastructure-as-code/) | The official HashiCorp Terraform MCP server integrates with the Terraform Registry and HCP Terraform, enabling AI… | Security Reviewed | 1.3k | — |
 | [WASM Component Model Linker](skills/wasm-component-model-linker/) | Compiles and links WebAssembly components using the WASI Preview 2 Component Model, wasm-tools CLI for component… | Published | 1.3k | — |
-| [Claude Code MCP Bridge](skills/claude-code-mcp-bridge/) | Run Claude Code as a one-shot MCP tool so other agents and editors can delegate coding tasks to it. An… | Security Reviewed | 1.3k | 266/wk |
+| [Claude Code MCP Bridge](skills/claude-code-mcp-bridge/) | Run Claude Code as a one-shot MCP tool so other agents and editors can delegate coding tasks to it. An… | Security Reviewed | 1.3k | 295/wk |
 | [Run React Native implementation and troubleshooting workflows with Callstack Agent Skills](skills/run-react-native-implementation-and-troubleshooting-workflows-with-callstack-agent-skills/) | Give coding agents React Native-specific build, upgrade, GitHub Actions, and troubleshooting guidance instead of… | Security Reviewed | 1.3k | — |
 | [Synchronize AI coding rules across agent tools with Rulesync](skills/synchronize-ai-coding-rules-across-agent-tools-with-rulesync/) | Use Rulesync to maintain one set of AI coding rules and generate the right configuration files for Claude Code,… | Security Reviewed | 1.2k | 748.2k/wk |
 | [Capture, search, and optionally sync local coding-agent session history across Claude Code, Codex, Cursor CLI, and Gemini with SpecStory](skills/capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory/) | Use SpecStory when valuable coding-agent decisions keep disappearing into terminal history and you need one… | Security Reviewed | 1.2k | — |
@@ -348,7 +348,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Give coding agents sandboxed shell runtimes with SWE-ReX](skills/give-coding-agents-sandboxed-shell-runtimes-with-swe-rex/) | Use SWE-ReX when a coding agent needs a consistent runtime interface for local, containerized, or remote shell… | Security Reviewed | 543 | — |
 | [Orchestrate review-first multi-agent development work with Kandev](skills/orchestrate-review-first-multi-agent-development-work-with-kandev/) | Use Kandev when an operator needs to plan, run, isolate, review, and ship multiple coding-agent tasks through a… | Security Reviewed | 405 | 3.5k/wk |
 | [Build embeddable Rust coding agents with Cersei](skills/build-embeddable-rust-coding-agents-with-cersei/) | Compose coding-agent primitives in Rust, including tool execution, LLM streaming, sub-agent orchestration, memory,… | Security Reviewed | 400 | — |
-| [E2B Code Execution MCP](skills/e2b-code-execution-mcp/) | Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected… | Security Reviewed | 393 | 1.2k/wk |
+| [E2B Code Execution MCP](skills/e2b-code-execution-mcp/) | Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected… | Security Reviewed | 393 | 1.5k/wk |
 | [Temporal CLI Workflow and Server Control](skills/temporal-cli-workflow-server-control/) | Temporal CLI runs a local Temporal server and talks to workflows, activities, and namespaces. It is the practical… | Security Reviewed | 350 | — |
 | [Run Genie planning and execution loops in Claude Code](skills/run-genie-planning-execution-loops-in-claude-code/) | Use Genie to turn a vague coding request into Claude Code brainstorm, wish, work, and review loops backed by… | Security Reviewed | 323 | — |
 | [Install focused Claude Code workflow plugins from Claude Night Market](skills/install-focused-claude-code-workflow-plugins-from-claude-night-market/) | Review and install only the Claude Night Market plugins needed for a specific Claude Code workflow, such as PR prep,… | Security Reviewed | 291 | — |
@@ -630,7 +630,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (213 skills)
+### 🔄 Data Extraction & Transformation (214 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -647,6 +647,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Tesseract OCR Document Extractor](skills/tesseract-ocr-document-extractor/) | Extracts structured text from scanned documents and images using Tesseract OCR with custom LSTM training data.… | Security Reviewed | 73.6k | — |
 | [Apache Superset Dashboard and SQL Exploration Skill](skills/apache-superset-dashboard-sql-exploration-skill/) | Apache Superset is a widely adopted open-source BI platform for SQL exploration, chart building, and dashboard… | Security Reviewed | 72.3k | — |
 | [Protocol Buffer Schema Generator](skills/protobuf-schema-generator-from-json/) | Infers Protocol Buffer (.proto) definitions from JSON samples using protobuf-compiler and grpcio-tools. Generates… | Security Reviewed | 71.2k | — |
+| [Extract financial data context for agents with OpenBB](skills/use-openbb-as-financial-data-context-for-agents/) | Extract source-backed financial market, filings, economics, and research data with OpenBB, then route the outputs… | Security Reviewed | 70.7k | — |
 | [Scrapy Spider Data Pipeline](skills/scrapy-spider-data-pipeline/) | Builds and manages Scrapy web scraping spiders with custom item pipelines. Supports Splash rendering for JavaScript… | Security Reviewed | 61.3k | — |
 | [MinerU PDF-to-Markdown Document Parser](skills/mineru-pdf-to-markdown-document-parser/) | Transforms complex PDFs into LLM-ready markdown and JSON using MinerU, a high-accuracy document intelligence… | Security Reviewed | 57.8k | — |
 | [Docling Document Parsing and Conversion](skills/docling-document-parsing-and-conversion/) | Docling is an open-source document processing toolkit for turning PDFs and other files into structured outputs for… | Security Reviewed | 57.8k | — |
@@ -1722,7 +1723,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Add multimodal lifelong memory to MCP and Python agents with SimpleMem](skills/add-multimodal-lifelong-memory-to-mcp-and-python-agents-with-simplemem/) | Use SimpleMem to store, compress, index, and retrieve text or multimodal memories for agents through MCP or Python… | Security Reviewed | 3.5k | — |
 | [Ingestr Cross-Database Data Copier](skills/ingestr-cross-database-data-copier/) | Copy data between any databases with a single CLI command using Ingestr. Supports 50+ sources and destinations… | Published | 3.4k | — |
 | [Svix Enterprise Webhook Delivery Service](skills/svix-enterprise-webhook-delivery-service/) | Svix is an open-source enterprise-grade webhook delivery service written in Rust. It handles webhook sending,… | Security Reviewed | 3.2k | — |
-| [SendGrid MCP Server](skills/sendgrid-mcp-server/) | SendGrid MCP Server is built around SendGrid email delivery platform. The underlying ecosystem is represented by… | Security Reviewed | 3.1k | 53.1k/wk |
+| [SendGrid MCP Server](skills/sendgrid-mcp-server/) | SendGrid MCP Server is built around SendGrid email delivery platform. The underlying ecosystem is represented by… | Security Reviewed | 3.1k | 52.8k/wk |
 | [SendGrid Transactional Email Builder](skills/sendgrid-transactional-email-builder/) | Constructs and sends transactional emails using the SendGrid v3 Mail Send API. Builds dynamic templates with… | Security Reviewed | 3k | 3.6M/wk |
 | [SendGrid Transactional Email Router](skills/sendgrid-transactional-email-router/) | Manages transactional email delivery via SendGrid v3 Mail Send API with dynamic template rendering. Handles bounce… | Security Reviewed | 3k | 3.6M/wk |
 | [n8n-nodes-mcp Community Node for Model Context Protocol Workflows](skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows/) | n8n-nodes-mcp is a real n8n community node that lets self-hosted n8n instances connect to Model Context Protocol… | Security Reviewed | 3k | 45.9k/wk |
@@ -1738,7 +1739,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Twilio Programmable Voice Router](skills/twilio-programmable-voice-router-2/) | Builds intelligent voice routing flows using the Twilio Programmable Voice API. Generates TwiML responses with , ,… | Security Reviewed | 1.5k | 3.7M/wk |
 | [Twilio SMS & Voice Bridge](skills/twilio-sms-voice-bridge/) | Connects to Twilio REST API via the twilio-node SDK for programmable messaging and voice. Sends SMS with… | Security Reviewed | 1.5k | 3.7M/wk |
 | [Convert SMTP-only alerts into routed notification deliveries with Mailrise](skills/convert-smtp-only-alerts-into-routed-notification-deliveries-with-mailrise/) | Use Mailrise to accept ordinary email alerts and fan them out through Apprise-backed notification channels when… | Security Reviewed | 1.5k | — |
-| [Salesforce MCP Server](skills/salesforce-mcp-server/) | Salesforce MCP Server is built around Salesforce CRM platform. The underlying ecosystem is represented by… | Security Reviewed | 1.5k | 997.3k/wk |
+| [Salesforce MCP Server](skills/salesforce-mcp-server/) | Salesforce MCP Server is built around Salesforce CRM platform. The underlying ecosystem is represented by… | Security Reviewed | 1.5k | 982.6k/wk |
 | [Salesforce Bulk API Sync Agent](skills/salesforce-bulk-api-sync-agent/) | Perform high-volume data synchronization with Salesforce using the Bulk API 2.0 for CSV-based upsert, delete, and… | Security Reviewed | 1.5k | 936.6k/wk |
 | [Salesforce CRM Sync Agent](skills/salesforce-crm-sync-agent/) | Bidirectional Salesforce integration using jsforce library and the Salesforce REST API. Performs SOQL queries via… | Security Reviewed | 1.5k | 936.6k/wk |
 | [Expose database APIs and SQL MCP tools with Azure Data API Builder](skills/expose-database-apis-and-sql-mcp-tools-with-azure-data-api-builder/) | Use Azure Data API Builder to generate secure REST, GraphQL, and SQL MCP access for supported databases so agents… | Security Reviewed | 1.4k | — |
@@ -1758,7 +1759,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Webhooks by Zapier Router](skills/zapier-webhooks-by-zapier-router/) | Routes and validates inbound automation traffic built around Webhooks by Zapier endpoints such as… | Published | 484 | — |
 | [Mirror GitHub issues, pull requests, commits, and releases into SQLite for offline analysis](skills/mirror-github-issues-pull-requests-commits-and-releases-into-sqlite-for-offline-analysis/) | Use dogsheep/github-to-sqlite when an agent needs a local, queryable snapshot of GitHub activity instead of bouncing… | Security Reviewed | 461 | — |
 | [Give agents persistent semantic memory with Memora](skills/give-agents-persistent-semantic-memory-with-memora/) | Use Memora to give MCP-compatible agents persistent semantic memory, document recall, and knowledge-graph context… | Security Reviewed | 406 | — |
-| [HubSpot MCP Server](skills/hubspot-mcp-server/) | HubSpot MCP Server is built around HubSpot CRM and marketing APIs. The underlying ecosystem is represented by… | Security Reviewed | 397 | 1M/wk |
+| [HubSpot MCP Server](skills/hubspot-mcp-server/) | HubSpot MCP Server is built around HubSpot CRM and marketing APIs. The underlying ecosystem is represented by… | Security Reviewed | 397 | 989.1k/wk |
 | [HubSpot CRM Contact Enrichment Pipeline](skills/hubspot-crm-contact-enrichment-pipeline/) | Enriches HubSpot CRM contacts using the v3 Contacts API with batch read/update operations. Cross-references company… | Security Reviewed | 392 | 986.8k/wk |
 | [Route agent LLM traffic through Shepherd Model Gateway](skills/route-agent-llm-traffic-through-shepherd-model-gateway/) | Use Shepherd Model Gateway to route OpenAI, Anthropic, Responses API, embeddings, and MCP tool traffic across… | Security Reviewed | 380 | — |
 | [tiny.place](skills/tinyplace/) | Live on tiny.place, an agent-to-agent social network, through the tinyplace CLI: claim an @handle identity, get… | Published | 377 | — |
@@ -1924,7 +1925,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Datadog Monitor Sync](skills/datadog-monitor-sync/) | Synchronizes Datadog monitor definitions between environments using the Datadog API v2 monitors endpoint. Supports… | Security Reviewed | 791 | 6.6M/wk |
 | [Datadog Monitors Skill](skills/datadog-monitors-skill/) | Manages Datadog monitors and dashboards via the Datadog API v2. Lists triggered monitors, mutes/unmutes alert… | Security Reviewed | 791 | 6.6M/wk |
 | [Datadog SLO Monitor](skills/datadog-slo-monitor/) | Monitors Datadog Service Level Objectives and burn rate alerts via the Datadog API v2. Generates SLO compliance… | Security Reviewed | 791 | 6.6M/wk |
-| [Sentry MCP Server](skills/sentry-mcp-server/) | Sentry's official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack… | Security Reviewed | 712 | 88.5k/wk |
+| [Sentry MCP Server](skills/sentry-mcp-server/) | Sentry's official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack… | Security Reviewed | 712 | 92.2k/wk |
 | [Sentry MCP Server for Error Tracking and Performance](skills/sentry-mcp-server-error-tracking-performance/) | The official Sentry MCP server gives AI agents access to Sentry error tracking, issue management, and performance… | Security Reviewed | 615 | 49.6k/wk |
 | [Track coding-agent quota burn and remaining headroom across providers with onWatch](skills/track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch/) | Monitor quota, spend, resets, and alerts across multiple coding-agent providers from one local dashboard before a… | Security Reviewed | 580 | — |
 | [PostHog Product Analytics and Feature Flags SDK](skills/posthog-product-analytics-and-feature-flags-sdk/) | Use PostHog to capture product analytics events, identify users, evaluate feature flags, and route experimentation… | Published | 531 | 4.8M/wk |
@@ -2089,7 +2090,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses… | Security Reviewed | — | — |
 
 
-### 📚 Library & API Reference (123 skills)
+### 📚 Library & API Reference (124 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=downloads)
 
@@ -2126,6 +2127,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [GraphQL Schema Stitcher](skills/graphql-schema-stitcher/) | Merges multiple GraphQL schemas into a unified federated gateway using Apollo Federation v2 and graphql-tools… | Security Reviewed | 20.3k | 34.2M/wk |
 | [GraphQL Schema Stitching & Federation Agent](skills/graphql-schema-stitching-federation-agent/) | Manages Apollo Federation v2 supergraph composition from subgraph schemas, validating composition rules and… | Security Reviewed | 20.3k | 34.2M/wk |
 | [GraphQL Schema Explorer](skills/graphql-schema-explorer/) | GraphQL Schema Explorer is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 20.3k | 34.7M/wk |
+| [Generate repository wikis with DeepWiki-Open](skills/generate-repository-wikis-with-deepwiki-open/) | Use DeepWiki-Open to analyze a GitHub, GitLab, or Bitbucket repository and generate a navigable AI-written wiki with… | Published | 17.3k | — |
 | [FilePond Flexible JavaScript File Upload Library](skills/filepond-javascript-file-upload-library/) | FilePond is a JavaScript file upload library that handles files, directories, URLs, and Data URIs with… | Security Reviewed | 16.3k | 247.6k/wk |
 | [JSDoc Type Definition Extractor](skills/jsdoc-type-definition-extractor/) | Extracts and indexes JSDoc type annotations from JavaScript codebases using the jsdoc-api parser. Generates… | Security Reviewed | 15.4k | 2.5M/wk |
 | [JSDoc JavaScript API Documentation Generator](skills/jsdoc-javascript-api-documentation-generator/) | JSDoc is the standard API documentation generator for JavaScript. It parses specially-formatted comments in… | Security Reviewed | 15.4k | 2.7M/wk |
@@ -2220,7 +2222,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Rust Crates.io Explorer](skills/rust-crates-io-explorer/) | Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates… | Published | — | — |
 
 
-### 🌐 Browser Automation (119 skills)
+### 🌐 Browser Automation (120 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
@@ -2238,7 +2240,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Puppeteer Web Scraping Pipeline](skills/puppeteer-web-scraping-pipeline/) | Builds web scraping pipelines with Puppeteer using page.evaluate, page.waitForSelector, and browser.newPage. Handles… | Security Reviewed | 94.1k | 40.2M/wk |
 | [Puppeteer Stealth Scraper](skills/puppeteer-stealth-scraper-agent/) | Anti-detection web scraping using puppeteer-extra-plugin-stealth with residential proxy rotation. Implements Canvas… | Security Reviewed | 94.1k | 36.4M/wk |
 | [Puppeteer Browser Automation Library for Chrome and Firefox](skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | Uses Puppeteer to control Chrome and Firefox through the DevTools Protocol or WebDriver BiDi for screenshots, PDF… | Security Reviewed | 94k | 40.2M/wk |
-| [Agent Browser Operator](skills/agent-browser-operator/) | Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations. | Security Reviewed | 90k | 52.1M/wk |
+| [Agent Browser Operator](skills/agent-browser-operator/) | Interactive browser skill for logged-in flows, dynamic pages, and session-aware site operations. | Security Reviewed | 90k | 52.7M/wk |
 | [Browser Use Web Agent Automation](skills/browser-use-web-agent-automation/) | browser-use is an open-source Python framework for letting AI agents interact with websites through a real browser.… | Published | 87.7k | — |
 | [Browser Use Agentic Browser Control](skills/browser-use-agentic-browser-control/) | Browser Use is an open source browser automation framework for AI agents that turns websites into controllable… | Published | 87.3k | — |
 | [Playwright Accessibility Audit Runner](skills/playwright-accessibility-audit-runner/) | Runs automated WCAG 2.1 AA/AAA accessibility audits using Playwright with axe-core integration. Generates detailed… | Security Reviewed | 86.4k | 47.9M/wk |
@@ -2280,7 +2282,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Selenium Grid Session Router](skills/selenium-grid-session-router/) | Routes browser automation sessions across Selenium Grid 4 nodes using the /status and /session endpoints. Configures… | Security Reviewed | 34.1k | 1.9M/wk |
 | [Selenium Grid Test Orchestrator](skills/selenium-grid-test-orchestrator-2/) | Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid API. Manages session queuing,… | Security Reviewed | 34.1k | 1.9M/wk |
 | [Selenium WebDriver Browser Automation Framework](skills/selenium-webdriver-browser-automation-framework/) | Selenium is the long-running open source browser automation framework behind the W3C WebDriver standard. It gives… | Security Reviewed | 34.1k | — |
-| [Playwright MCP Browser Automation](skills/playwright-mcp-browser-automation/) | Official Playwright-powered browser control for agent workflows. | Security Reviewed | 33.3k | 6.2M/wk |
+| [Playwright MCP Browser Automation](skills/playwright-mcp-browser-automation/) | Official Playwright-powered browser control for agent workflows. | Security Reviewed | 33.3k | 6.4M/wk |
 | [Microsoft Playwright MCP](skills/microsoft-playwright-mcp/) | Microsoft Playwright MCP exposes Playwright browser automation through the Model Context Protocol, giving agents… | Security Reviewed | 30.8k | 2.8M/wk |
 | [Playwright MCP Server for Browser Automation](skills/playwright-mcp-server-browser-automation/) | The official Microsoft Playwright MCP server provides browser automation capabilities through the Model Context… | Security Reviewed | 30.1k | 2.4M/wk |
 | [Vercel Agent Browser](skills/vercel-agent-browser/) | Vercel Agent Browser is a browser automation CLI built specifically for AI agents. It gives agents a fast,… | Security Reviewed | 29.1k | 601.9k/wk |
@@ -2327,6 +2329,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Run blocked-site browser tasks through anti-bot friendly sessions with Camofox Browser](skills/run-blocked-site-browser-tasks-through-anti-bot-friendly-sessions-with-camofox-browser/) | Use Camofox Browser to route agent browser work through an anti-detection browser server with stable element refs,… | Security Reviewed | 2.9k | 264k/wk |
 | [Control iOS and Android devices through a deterministic CLI for agent-driven mobile testing and debugging with agent-device](skills/control-ios-and-android-devices-through-a-deterministic-cli-for-agent-driven-mobile-testing-and-debugging-with-agent-device/) | Drive real mobile apps from a session-aware CLI so agents can inspect UI state, act deterministically, and collect… | Published | 1.8k | 162.4k/wk |
 | [Tarsier Vision Utilities for Web Interaction Agents](skills/tarsier-vision-utilities-web-interaction-agents/) | Tarsier is a Python library by Reworkd that provides vision utilities for AI web interaction agents. It visually… | Security Reviewed | 1.8k | — |
+| [Record and replay governed GUI workflows with OpenAdapt](skills/record-and-replay-governed-gui-workflows-with-openadapt/) | Use OpenAdapt to demonstrate a repeated browser or GUI workflow once, compile it into a deterministic replay bundle,… | Security Reviewed | 1.6k | — |
 | [Control Windows desktop apps through MCP with Terminator](skills/control-windows-desktop-apps-through-mcp-with-terminator/) | Connect Terminator MCP to an agent so it can inspect and automate real Windows desktop and browser workflows with… | Security Reviewed | 1.5k | 57/wk |
 | [Apply site-specific action manuals with Actionbook](skills/apply-site-specific-action-manuals-with-actionbook/) | Load maintained action manuals for fragile websites so agents can execute known flows more reliably than generic… | Security Reviewed | 1.5k | 4.7k/wk |
 | [CDP Network Interception Logger](skills/cdp-network-interception-logger/) | Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify… | Published | 1.5k | 23.7M/wk |
@@ -2347,7 +2350,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Verify local web apps with Playwright scripts and managed dev servers](skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | Use Anthropic's webapp-testing skill to spin up one or more local servers, wait for them to become reachable, and… | Security Reviewed | — | — |
 
 
-### 🔍 Research & Scraping (116 skills)
+### 🔍 Research & Scraping (117 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -2419,6 +2422,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Download every archived snapshot of a URL before site migrations, takedowns, or investigations](skills/download-every-archived-snapshot-of-a-url-before-site-migrations-takedowns-or-investigations/) | Use waybackpack when an agent needs the full historical record for a URL, not a few clicks through the Wayback… | Security Reviewed | 3.2k | — |
 | [Search and analyze arXiv papers through MCP workflows](skills/search-and-analyze-arxiv-papers-through-mcp-workflows/) | Connect an MCP-capable assistant to arXiv search, paper download, local paper storage, and research prompts for… | Security Reviewed | 2.8k | — |
 | [shot-scraper Automated Website Screenshot and Scraping CLI](skills/shot-scraper-automated-website-screenshot-scraping-cli/) | shot-scraper is a Python CLI tool by Simon Willison for taking automated screenshots of websites and executing… | Security Reviewed | 2.3k | — |
+| [Use Apify MCP for agent web extraction](skills/use-apify-mcp-for-agent-web-extraction/) | Use the Apify MCP server to let MCP-compatible agents run Apify Actors for structured extraction from search, maps,… | Security Reviewed | 2k | 5.7k/wk |
 | [Ground research agents in Zotero libraries with LLM for Zotero](skills/ground-research-agents-in-zotero-libraries-with-llm-for-zotero/) | Bring agent-mode paper chat, citation-grounded answers, note saving, tagging, importing, and library-wide research… | Security Reviewed | 1.7k | — |
 | [Replay And Inspect WARC Web Archives Before Investigation Or Migration With Pywb](skills/replay-and-inspect-warc-web-archives-before-investigation-or-migration-with-pywb/) | Replay WARC-backed web archives locally so an agent can inspect historical pages, validate captures, and review… | Security Reviewed | 1.6k | — |
 | [Tavily MCP Server for AI-Powered Web Search and Extraction](skills/tavily-mcp-server-ai-web-search-extraction/) | An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping,… | Security Reviewed | 1.6k | 47.9k/wk |
@@ -2731,7 +2735,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Konva.js HTML5 Canvas Interactive Graphics Framework](skills/konva-js-html5-canvas-interactive-graphics-framework/) | Konva.js is an HTML5 Canvas JavaScript framework that enables high-performance animations, transitions, node… | Security Reviewed | 14.3k | 1.2M/wk |
 | [Satori HTML and CSS to SVG Image Generator by Vercel](skills/satori-html-css-svg-image-generator/) | Satori is a high-performance library by Vercel that converts HTML and CSS markup into SVG images. It powers Open… | Security Reviewed | 13.2k | 1.3M/wk |
 | [libvips High-Performance Image Processing Library and CLI](skills/libvips-high-performance-image-processing-library-cli/) | libvips is a demand-driven, horizontally threaded image processing library with over 300 operations. It processes… | Security Reviewed | 11.2k | — |
-| [OpenAI Image Gen](skills/openai-image-gen/) | Batch-generate images through the OpenAI Images API with a prompt sampler and gallery output. | Security Reviewed | 10.9k | 26.3M/wk |
+| [OpenAI Image Gen](skills/openai-image-gen/) | Batch-generate images through the OpenAI Images API with a prompt sampler and gallery output. | Security Reviewed | 10.9k | 26.7M/wk |
 | [DALL-E 3 Batch Asset Generator](skills/dalle-3-batch-asset-generator/) | Generates multiple image variations from a single brief using the OpenAI Images API (POST /v1/images/generations)… | Security Reviewed | 10.8k | 18.1M/wk |
 | [DALL-E Batch Image Generator](skills/dalle-batch-image-generator/) | Generates and manages batch image creation jobs using the OpenAI Images API /v1/images/generations endpoint.… | Security Reviewed | 10.8k | 18.1M/wk |
 | [DALL-E Image Variation Generator](skills/dalle-image-variation-generator/) | Generates image variations and edits using the OpenAI Images API v1 with DALL-E 3 model selection. Supports… | Security Reviewed | 10.8k | 18.1M/wk |

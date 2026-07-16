@@ -71,6 +71,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [GraphQL Schema Stitcher](../../skills/graphql-schema-stitcher/) | 20.3k | 34.2M/wk |
 | [GraphQL Schema Stitching & Federation Agent](../../skills/graphql-schema-stitching-federation-agent/) | 20.3k | 34.2M/wk |
 | [GraphQL Schema Explorer](../../skills/graphql-schema-explorer/) | 20.3k | 34.7M/wk |
+| [Generate repository wikis with DeepWiki-Open](../../skills/generate-repository-wikis-with-deepwiki-open/) | 17.3k | — |
 | [FilePond Flexible JavaScript File Upload Library](../../skills/filepond-javascript-file-upload-library/) | 16.3k | 247.6k/wk |
 | [JSDoc Type Definition Extractor](../../skills/jsdoc-type-definition-extractor/) | 15.4k | 2.5M/wk |
 | [JSDoc JavaScript API Documentation Generator](../../skills/jsdoc-javascript-api-documentation-generator/) | 15.4k | 2.7M/wk |

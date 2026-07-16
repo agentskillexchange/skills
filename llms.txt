@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-16
-# Total: 2729 skills
+# Total: 2733 skills
+
+## Generate repository wikis with DeepWiki-Open
+slug: generate-repository-wikis-with-deepwiki-open
+category: Library & API Reference
+framework: Multi-Framework
+verification: Published
+description: Use DeepWiki-Open to analyze a GitHub, GitLab, or Bitbucket repository and generate a navigable AI-written wiki with code structure explanations and diagrams for onboarding…
+url: https://agentskillexchange.com/skills/generate-repository-wikis-with-deepwiki-open/
+
+## Use Apify MCP for agent web extraction
+slug: use-apify-mcp-for-agent-web-extraction
+category: Research & Scraping
+framework: MCP
+verification: Security Reviewed
+description: Use the Apify MCP server to let MCP-compatible agents run Apify Actors for structured extraction from search, maps, ecommerce, social platforms, and arbitrary websites.
+url: https://agentskillexchange.com/skills/use-apify-mcp-for-agent-web-extraction/
+
+## Record and replay governed GUI workflows with OpenAdapt
+slug: record-and-replay-governed-gui-workflows-with-openadapt
+category: Browser Automation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use OpenAdapt to demonstrate a repeated browser or GUI workflow once, compile it into a deterministic replay bundle, and certify or halt runs with…
+url: https://agentskillexchange.com/skills/record-and-replay-governed-gui-workflows-with-openadapt/
+
+## Extract financial data context for agents with OpenBB
+slug: use-openbb-as-financial-data-context-for-agents
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Extract source-backed financial market, filings, economics, and research data with OpenBB, then route the outputs into agent workflows through Python, REST, OpenBB Workspace, or…
+url: https://agentskillexchange.com/skills/use-openbb-as-financial-data-context-for-agents/
 
 ## Review agent-authored diffs with Hunk
 slug: review-agent-authored-diffs-with-hunk
