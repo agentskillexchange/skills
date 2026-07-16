@@ -185,6 +185,7 @@
         "sec-edgar-financial-filing-parser",
         "extract-invoice-fields-from-vendor-pdfs-into-structured-records",
         "quickbooks-invoice-reconciliation",
+        "use-openbb-as-financial-data-context-for-agents",
         "openmeter-usage-metering-and-billing-platform",
         "stripe-reporting-agent",
         "stripe-revenue-reconciliation-agent",
@@ -273,6 +274,11 @@
           "why_here": "Connects invoice state to accounting-system reconciliation instead of stopping at document extraction.",
           "persona": "Bookkeeper / finance ops",
           "install_complexity": "High"
+        },
+        "use-openbb-as-financial-data-context-for-agents": {
+          "why_here": "Adds source-backed market, filings, economics, and research datasets that finance agents can route into repeatable analysis workflows.",
+          "persona": "Finance researcher / investment analyst",
+          "install_complexity": "Medium"
         },
         "openmeter-usage-metering-and-billing-platform": {
           "why_here": "Covers usage metering and entitlement data needed before usage-based billing can be trusted.",
