@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Run scheduled Ruby agent jobs with Sidekiq Scheduler](skills/run-scheduled-ruby-agent-jobs-with-sidekiq-scheduler/)** — Use Sidekiq Scheduler to run recurring Ruby/Sidekiq agent jobs for refreshes, evaluations, reports, maintenance, and queue-driven automations with cron-style schedules.
+**[Install role-specific agent personas with Agency Agents](skills/install-role-specific-agent-personas-with-agency-agents/)** — Install and activate specialized AI agent personas from Agency Agents when a coding or operations session needs a focused role, workflow, and deliverable standard instead of a generic…
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
