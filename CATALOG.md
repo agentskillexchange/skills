@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2733 published skills** across **17 categories** · 2,342 security reviewed · Updated 2026-07-16 13:27 UTC
+> **2734 published skills** across **17 categories** · 2,342 security reviewed · Updated 2026-07-16 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -2692,7 +2692,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (90 skills)
+### 🎨 Image & Creative Automation (91 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -2761,6 +2761,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Revise PDF Slides with Natural-Language Edits](skills/revise-pdf-slides-with-natural-language-edits/) | Use Nano-PDF when an agent needs to update existing PDF slides or insert matching new slides from plain-language… | Security Reviewed | 1.2k | — |
 | [Rive Runtime Animation Controller](skills/rive-runtime-animation-controller/) | Controls Rive (.riv) interactive animations at runtime using @rive-app/canvas-advanced, manages state machine… | Security Reviewed | 1.1k | 19.7k/wk |
 | [CairoSVG SVG to PNG PDF and PostScript Converter](skills/cairosvg-svg-to-png-pdf-converter/) | CairoSVG is a Python-based SVG converter built on the Cairo 2D graphics library. It converts SVG files to PNG, PDF,… | Published | 917 | — |
+| [Drive ComfyUI generation workflows through comfyui-mcp](skills/drive-comfyui-generation-workflows-through-comfyui-mcp/) | Use comfyui-mcp to let an MCP-capable agent author, run, debug, and manage ComfyUI image, video, audio, model, and… | Security Reviewed | 386 | 86.4k/wk |
 | [Generate launch-ready web app icons and social assets with Web Asset Generator](skills/generate-launch-ready-web-app-icons-and-social-assets-with-web-asset-generator/) | Ask Claude Code for favicons, app icons, and social preview images, then generate the full asset set and integration… | Security Reviewed | 321 | — |
 | [Generate fast static photo album sites from curated folders with DD Photos](skills/generate-fast-static-photo-album-sites-from-curated-folders-with-dd-photos/) | Turn exported photo folders into a mobile-friendly static album site without standing up a database-backed gallery… | Security Reviewed | 155 | — |
 | [Archive and reorganize local photo libraries with photo-cli](skills/archive-and-reorganize-local-photo-libraries-with-photo-cli/) | Use photo-cli when an agent needs to normalize a local photo archive by reading capture metadata, reverse geocoding… | Security Reviewed | 68 | — |

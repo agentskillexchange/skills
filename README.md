@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C733-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C734-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C342-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,733 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,734 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Drive ComfyUI generation workflows through comfyui-mcp](skills/drive-comfyui-generation-workflows-through-comfyui-mcp/) | Use comfyui-mcp to let an MCP-capable agent author, run, debug, and manage ComfyUI image, video, audio, model, and... | 386 | Image & Creative Automation |
 | [Generate repository wikis with DeepWiki-Open](skills/generate-repository-wikis-with-deepwiki-open/) | Use DeepWiki-Open to analyze a GitHub, GitLab, or Bitbucket repository and generate a navigable AI-written wiki with code... | 17.3k | Library & API Reference |
 | [Use Apify MCP for agent web extraction](skills/use-apify-mcp-for-agent-web-extraction/) | Use the Apify MCP server to let MCP-compatible agents run Apify Actors for structured extraction from search, maps... | 2.0k | Research & Scraping |
 | [Record and replay governed GUI workflows with OpenAdapt](skills/record-and-replay-governed-gui-workflows-with-openadapt/) | Use OpenAdapt to demonstrate a repeated browser or GUI workflow once, compile it into a deterministic replay bundle... | 1.6k | Browser Automation |
@@ -96,7 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Schedule distributed agent maintenance jobs with Dkron](skills/schedule-distributed-agent-maintenance-jobs-with-dkron/) | Use Dkron to run recurring agent maintenance, data refresh, evaluation, and cleanup jobs across a fault-tolerant cluster with... | 4.7k | Templates & Workflows |
 | [Give MCP agents local shared memory with MARM](skills/give-mcp-agents-local-shared-memory-with-marm/) | Use MARM Memory to give Claude Code, Cursor, Codex, Gemini, and other MCP clients a local-first shared memory... | 307 | Integrations & Connectors |
 | [gptme — Terminal AI Agent with Local Tools](skills/gptme-terminal-ai-agent-with-local-tools/) | gptme is an open-source Python framework for running LLM-powered agents in your terminal with access to shell commands... | 4.4k | Developer Tools |
-| [Benchmark agent memory and RAG systems with MemoryBench](skills/benchmark-agent-memory-and-rag-systems-with-memorybench/) | Use MemoryBench to run repeatable conversational memory and RAG benchmarks across providers, datasets, judge models, checkpoints, and structured... | 293 | Runbooks & Diagnostics |
 
 ---
 
@@ -107,15 +107,15 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
 | [Review agent-authored diffs with Hunk](skills/review-agent-authored-diffs-with-hunk/) | Use Hunk to keep a live terminal review UI open for agent-authored code changes, with Git, Jujutsu, Sapling... | 6.9k | Code Quality & Review |
-| [Inspect BullMQ agent job queues with Bull Board](skills/inspect-bullmq-agent-job-queues-with-bull-board/) | Use Bull Board to add a protected dashboard for Bull and BullMQ queues so operators can inspect, retry... | 3.4k | Monitoring & Alerts |
 | [Use Apify MCP for agent web extraction](skills/use-apify-mcp-for-agent-web-extraction/) | Use the Apify MCP server to let MCP-compatible agents run Apify Actors for structured extraction from search, maps... | 2.0k | Research & Scraping |
-| [Query operational databases from MCP clients with DBHub](skills/query-operational-databases-from-mcp-clients-with-dbhub/) | Use DBHub to expose guarded, token-efficient database inspection and SQL tools to MCP clients across Postgres, MySQL, SQL... | 3.1k | Data Extraction & Transformation |
 | [Coordinate visible multi-agent CLI workspaces with CCB](skills/coordinate-visible-multi-agent-cli-workspaces-with-ccb/) | Use CCB to run Codex, Claude, Gemini, Cursor, OpenCode, and other CLI agents in a visible project workspace... | 3.2k | Developer Tools |
-| [Run multi-provider coding-agent sessions with OpenClaude](skills/run-multi-provider-coding-agent-sessions-with-openclaude/) | Use OpenClaude when a repository task needs one terminal-first coding-agent workflow that can switch across cloud, local, Codex... | 29.5k | Developer Tools |
+| [Drive ComfyUI generation workflows through comfyui-mcp](skills/drive-comfyui-generation-workflows-through-comfyui-mcp/) | Use comfyui-mcp to let an MCP-capable agent author, run, debug, and manage ComfyUI image, video, audio, model, and... | 386 | Image & Creative Automation |
+| [Inspect BullMQ agent job queues with Bull Board](skills/inspect-bullmq-agent-job-queues-with-bull-board/) | Use Bull Board to add a protected dashboard for Bull and BullMQ queues so operators can inspect, retry... | 3.4k | Monitoring & Alerts |
+| [Query operational databases from MCP clients with DBHub](skills/query-operational-databases-from-mcp-clients-with-dbhub/) | Use DBHub to expose guarded, token-efficient database inspection and SQL tools to MCP clients across Postgres, MySQL, SQL... | 3.1k | Data Extraction & Transformation |
+| [Design loop engineering workflows for coding agents](skills/design-loop-engineering-workflows-for-coding-agents/) | Use Loop Engineering to scaffold, audit, and operate repeatable coding-agent loops with explicit state, budget, readiness, and tool-specific... | 6.6k | Developer Tools |
 | [Query real-time global intelligence through Worldmonitor MCP](skills/query-real-time-global-intelligence-through-worldmonitor-mcp/) | Give MCP-capable agents a live global-intelligence surface for country briefs, risk scores, conflict, cyber, market, weather, and infrastructure... | 61.4k | Monitoring & Alerts |
 | [Parse Korean office documents for agents with kordoc](skills/parse-korean-office-documents-for-agents-with-kordoc/) | Use kordoc when an agent needs to parse HWP, HWPX, PDF, Excel, or DOCX files into Markdown, fill... | 1.4k | Data Extraction & Transformation |
 | [Coordinate multi-agent Claude Code and Codex workflows with Ruflo](skills/coordinate-multi-agent-claude-code-and-codex-workflows-with-ruflo/) | Install Ruflo when an operator needs Claude Code or Codex agents to coordinate swarms, memory, hooks, and MCP... | 59.0k | Templates & Workflows |
-| [Run durable scheduled agent jobs in Node.js with Agenda](skills/run-durable-scheduled-agent-jobs-in-node-js-with-agenda/) | Use Agenda when a custom Node.js agent needs persistent scheduled jobs, retries, locking, and background workers backed by... | 9.7k | Templates & Workflows |
 
 ---
 
@@ -138,7 +138,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 117 | Web research, content discovery, data collection |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 105 | Audio/video processing, speech-to-text |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
-| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 90 | Image generation, asset processing, design automation |
+| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 91 | Image generation, asset processing, design automation |
 | ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 80 | SEO content, blog automation, editorial workflows |
 
 ---
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,733 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,734 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,342 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

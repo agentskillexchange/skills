@@ -1,8 +1,23 @@
 {
   "version": "2.0",
-  "total": 2733,
+  "total": 2734,
   "generated": "2026-07-16",
   "skills": [
+    {
+      "slug": "drive-comfyui-generation-workflows-through-comfyui-mcp",
+      "name": "Drive ComfyUI generation workflows through comfyui-mcp",
+      "title": "Drive ComfyUI generation workflows through comfyui-mcp",
+      "description": "Use comfyui-mcp to let an MCP-capable agent author, run, debug, and manage ComfyUI image, video, audio, model, and custom-node workflows from natural-language instructions.",
+      "category": "Image & Creative Automation",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 386,
+        "npm_weekly_downloads": 86436
+      },
+      "source_url": "https://github.com/artokun/comfyui-mcp",
+      "github_repo": "artokun/comfyui-mcp"
+    },
     {
       "slug": "generate-repository-wikis-with-deepwiki-open",
       "name": "Generate repository wikis with DeepWiki-Open",

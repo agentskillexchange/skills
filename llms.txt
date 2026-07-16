@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-16
-# Total: 2733 skills
+# Total: 2734 skills
+
+## Drive ComfyUI generation workflows through comfyui-mcp
+slug: drive-comfyui-generation-workflows-through-comfyui-mcp
+category: Image & Creative Automation
+framework: MCP
+verification: Security Reviewed
+description: Use comfyui-mcp to let an MCP-capable agent author, run, debug, and manage ComfyUI image, video, audio, model, and custom-node workflows from natural-language instructions.
+url: https://agentskillexchange.com/skills/drive-comfyui-generation-workflows-through-comfyui-mcp/
 
 ## Generate repository wikis with DeepWiki-Open
 slug: generate-repository-wikis-with-deepwiki-open

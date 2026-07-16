@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-16",
-  "total": 2733,
+  "total": 2734,
   "skills": [
+    {
+      "slug": "drive-comfyui-generation-workflows-through-comfyui-mcp",
+      "name": "Drive ComfyUI generation workflows through comfyui-mcp",
+      "title": "Drive ComfyUI generation workflows through comfyui-mcp",
+      "description": "Use comfyui-mcp to let an MCP-capable agent author, run, debug, and manage ComfyUI image, video, audio, model, and custom-node workflows from natural-language instructions.",
+      "category": "Image & Creative Automation",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/artokun/comfyui-mcp",
+      "github_repo": "artokun/comfyui-mcp"
+    },
     {
       "slug": "generate-repository-wikis-with-deepwiki-open",
       "name": "Generate repository wikis with DeepWiki-Open",

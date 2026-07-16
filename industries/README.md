@@ -5,7 +5,7 @@
 | | Collection | Picks | Summary |
 |---|---|---:|---|
 | 🎙️ | [**Media & Publishing Systems**](media-publishing-systems.md) | 18 | Transcription, subtitles, podcast workflows, chaptering, localization, loudness cleanup, and final-mile publishing prep. |
-| 💼 | [**Finance & Filings**](finance-filings.md) | 25 | Filings research, invoice intake, billing operations, reconciliation, and finance-adjacent reporting. |
+| 💼 | [**Finance & Filings**](finance-filings.md) | 26 | Filings research, invoice intake, billing operations, reconciliation, and finance-adjacent reporting. |
 | 🛒 | [**Ecommerce & Retail Operations**](ecommerce-retail-operations.md) | 9 | Catalog management, storefront automation, orders, inventory sync, marketplace support, and review-driven merchandising. |
 | ⚖️ | [**Legal Ops & Compliance**](legal-ops-compliance.md) | 30 | Contract risk review, redline preparation, forms, document review, archive search, and evidence-oriented legal and compliance support. |
 | 🩺 | [**Healthcare Documentation & Intake**](healthcare-documentation-intake.md) | 15 | Documentation intake, OCR, transcription, structured extraction, and biomedical literature support for paperwork-heavy workflows. |

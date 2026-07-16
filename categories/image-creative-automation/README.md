@@ -103,6 +103,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Revise PDF Slides with Natural-Language Edits](../../skills/revise-pdf-slides-with-natural-language-edits/) | 1.2k | — |
 | [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | 1.1k | 19.7k/wk |
 | [CairoSVG SVG to PNG PDF and PostScript Converter](../../skills/cairosvg-svg-to-png-pdf-converter/) | 917 | — |
+| [Drive ComfyUI generation workflows through comfyui-mcp](../../skills/drive-comfyui-generation-workflows-through-comfyui-mcp/) | 386 | 86.4k/wk |
 | [Generate launch-ready web app icons and social assets with Web Asset Generator](../../skills/generate-launch-ready-web-app-icons-and-social-assets-with-web-asset-generator/) | 321 | — |
 | [Generate fast static photo album sites from curated folders with DD Photos](../../skills/generate-fast-static-photo-album-sites-from-curated-folders-with-dd-photos/) | 155 | — |
 | [Archive and reorganize local photo libraries with photo-cli](../../skills/archive-and-reorganize-local-photo-libraries-with-photo-cli/) | 68 | — |
