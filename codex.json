@@ -2,8 +2,41 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-17",
-  "total": 2734,
+  "total": 2737,
   "skills": [
+    {
+      "slug": "organize-reusable-prompt-workflows-with-poml",
+      "name": "Organize reusable prompt workflows with POML",
+      "title": "Organize reusable prompt workflows with POML",
+      "description": "Use Microsoft's POML to turn advanced prompts into structured, reusable prompt assets with markup, data components, templating, styling, SDK rendering, and VS Code testing.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/microsoft/poml",
+      "github_repo": "microsoft/poml"
+    },
+    {
+      "slug": "give-coding-agents-persistent-memory-with-memanto",
+      "name": "Give coding agents persistent memory with Memanto",
+      "title": "Give coding agents persistent memory with Memanto",
+      "description": "Use Memanto to add local or cloud-backed persistent memory to Claude Code, Cursor, Codex, and other coding agents through remember, recall, answer, upload, and…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/moorcheh-ai/memanto",
+      "github_repo": "moorcheh-ai/memanto"
+    },
+    {
+      "slug": "run-multi-surface-coding-agent-workflows-with-kilo-code",
+      "name": "Run multi-surface coding-agent workflows with Kilo Code",
+      "title": "Run multi-surface coding-agent workflows with Kilo Code",
+      "description": "Use Kilo Code as an open-source coding agent across VS Code, JetBrains, CLI, cloud runs, and trusted CI workflows with custom agents, MCP tooling,…",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "listed",
+      "source_url": "https://github.com/Kilo-Org/kilocode",
+      "github_repo": "Kilo-Org/kilocode"
+    },
     {
       "slug": "drive-comfyui-generation-workflows-through-comfyui-mcp",
       "name": "Drive ComfyUI generation workflows through comfyui-mcp",

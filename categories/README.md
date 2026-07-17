@@ -1,13 +1,13 @@
 # Categories
 
-> **2734 skills** across **17 categories**
+> **2737 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
-| 🛠️ | [**Developer Tools**](developer-tools/) | **370** | CLI helpers, dev environment setup, productivity utilities, and devel... |
+| 🛠️ | [**Developer Tools**](developer-tools/) | **372** | CLI helpers, dev environment setup, productivity utilities, and devel... |
 | 🔒 | [**Security & Verification**](security-verification/) | **236** | Auth setup, vulnerability scanning, compliance checks, and security a... |
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **214** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
-| 📄 | [**Templates & Workflows**](templates-workflows/) | **200** | Project scaffolding, boilerplate generators, workflow templates, and ... |
+| 📄 | [**Templates & Workflows**](templates-workflows/) | **201** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **192** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **192** | Pipeline configs, deployment automation, build tooling, and continuou... |
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **174** | Incident response, troubleshooting guides, system diagnostics, and op... |

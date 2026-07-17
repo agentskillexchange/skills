@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2734 published skills** across **17 categories** · 2,344 security reviewed · Updated 2026-07-17 01:26 UTC
+> **2737 published skills** across **17 categories** · 2,344 security reviewed · Updated 2026-07-17 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (370 skills)
+### 🛠️ Developer Tools (372 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -125,6 +125,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [ESLint Code Review](skills/eslint-code-review/) | ESLint Code Review is built around ESLint static analysis for JavaScript and TypeScript. The underlying ecosystem is… | Security Reviewed | 27.3k | 133.9M/wk |
 | [ESLint Rule Generator Agent](skills/eslint-rule-generator-agent/) | Generates custom ESLint rules from natural language descriptions using the ESLint RuleTester API and AST selectors.… | Security Reviewed | 27.2k | 120.2M/wk |
 | [smolagents Code-First AI Agent Library](skills/smolagents-code-first-ai-agent-library/) | smolagents is HuggingFace's barebones Python library for building AI agents that think in code rather than JSON.… | Security Reviewed | 26.4k | — |
+| [Run multi-surface coding-agent workflows with Kilo Code](skills/run-multi-surface-coding-agent-workflows-with-kilo-code/) | Use Kilo Code as an open-source coding agent across VS Code, JetBrains, CLI, cloud runs, and trusted CI workflows… | Published | 26.3k | 248.3k/wk |
 | [API Client Generator Skill](skills/api-client-generator-skill/) | API Client Generator Skill is built around Swagger/OpenAPI tooling. The underlying ecosystem is represented by… | Security Reviewed | 26.3k | 5.7M/wk |
 | [Mise Dev Tool Version Manager](skills/mise-dev-tool-version-manager/) | Use mise (mise-en-place) to manage development tool versions, environment variables, and task running from a single… | Published | 26.3k | — |
 | [OpenAPI Generator API Client and Server Stub Tooling](skills/openapi-generator-api-client-server-stub-tooling/) | OpenAPI Generator turns OpenAPI specs into client SDKs, server stubs, docs, and config. It is a practical fit when… | Security Reviewed | 26.1k | — |
@@ -317,6 +318,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [OpenMeter Usage Metering and Billing Platform](skills/openmeter-usage-metering-and-billing-platform/) | OpenMeter is an open-source platform for usage metering, entitlements, and billing workflows. It is useful when you… | Published | 1.9k | — |
 | [Run coding agents in isolated observable VibeKit sandboxes](skills/run-coding-agents-in-isolated-observable-vibekit-sandboxes/) | Launch coding agents such as Claude Code, Gemini, or Codex in clean sandboxed sessions with redaction and run… | Security Reviewed | 1.8k | — |
 | [Run and lifecycle-manage MCP servers in isolated environments with ToolHive before local MCP sprawl turns brittle](skills/run-and-lifecycle-manage-mcp-servers-in-isolated-environments-with-toolhive-before-local-mcp-sprawl-turns-brittle/) | Use ToolHive to install, isolate, update, and govern MCP servers so agents connect to a predictable local or… | Security Reviewed | 1.7k | — |
+| [Give coding agents persistent memory with Memanto](skills/give-coding-agents-persistent-memory-with-memanto/) | Use Memanto to add local or cloud-backed persistent memory to Claude Code, Cursor, Codex, and other coding agents… | Security Reviewed | 1.7k | — |
 | [Run queued background coding sessions across GitHub, Slack, Linear, and webhooks with background-agents](skills/run-queued-background-coding-sessions-across-github-slack-linear-and-webhooks-with-background-agents/) | Dispatch long-running coding work to background agents, check progress later, and pull reviewed outputs back into… | Security Reviewed | 1.6k | — |
 | [Give MCP clients language-server code intelligence](skills/give-mcp-clients-language-server-code-intelligence/) | Expose LSP-backed definition, reference, rename, and diagnostic tools to MCP clients so coding agents can inspect… | Security Reviewed | 1.5k | — |
 | [Add managed long-term memory to LangGraph agents with LangMem](skills/add-managed-long-term-memory-to-langgraph-agents-with-langmem/) | Give LangGraph agents memory management and search tools so they can store, retrieve, and update durable facts… | Security Reviewed | 1.5k | — |
@@ -852,7 +854,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (200 skills)
+### 📄 Templates & Workflows (201 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -965,6 +967,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Turn goals into traced multi-agent task DAGs with open-multi-agent](skills/turn-goals-into-traced-multi-agent-task-dags-with-open-multi-agent/) | Decompose goals into task DAGs, delegate work to agents and tools, and inspect execution traces. | Security Reviewed | 6k | — |
 | [Run visual scheduled agent jobs with Cronicle](skills/run-visual-scheduled-agent-jobs-with-cronicle/) | Use Cronicle to schedule, run, monitor, and manually trigger recurring agent maintenance jobs across one or more… | Security Reviewed | 5.8k | — |
 | [Notion to PDF Knowledge Exporter](skills/notion-to-pdf-knowledge-exporter/) | Queries Notion databases and pages via the Notion API v1, then renders content blocks into PDF via WeasyPrint.… | Security Reviewed | 5.6k | 1.2M/wk |
+| [Organize reusable prompt workflows with POML](skills/organize-reusable-prompt-workflows-with-poml/) | Use Microsoft's POML to turn advanced prompts into structured, reusable prompt assets with markup, data components,… | Security Reviewed | 4.9k | 714/wk |
 | [Schedule distributed agent maintenance jobs with Dkron](skills/schedule-distributed-agent-maintenance-jobs-with-dkron/) | Use Dkron to run recurring agent maintenance, data refresh, evaluation, and cleanup jobs across a fault-tolerant… | Security Reviewed | 4.7k | — |
 | [Build event-driven multi-agent workflows with Solace Agent Mesh](skills/build-event-driven-multi-agent-workflows-with-solace-agent-mesh/) | Stand up Solace Agent Mesh projects where agents delegate tasks, exchange events, call tools, and coordinate… | Security Reviewed | 4.5k | — |
 | [Automate repository triage and recurring repo maintenance with guarded GitHub agent workflows](skills/automate-repository-triage-and-recurring-maintenance-with-github-agent-workflows/) | Use GitHub Agentic Workflows to let an agent triage issues, inspect CI failures, or deliver scheduled repository… | Security Reviewed | 4.3k | — |

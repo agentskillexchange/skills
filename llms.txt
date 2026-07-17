@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-17
-# Total: 2734 skills
+# Total: 2737 skills
+
+## Organize reusable prompt workflows with POML
+slug: organize-reusable-prompt-workflows-with-poml
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Microsoft's POML to turn advanced prompts into structured, reusable prompt assets with markup, data components, templating, styling, SDK rendering, and VS Code testing.
+url: https://agentskillexchange.com/skills/organize-reusable-prompt-workflows-with-poml/
+
+## Give coding agents persistent memory with Memanto
+slug: give-coding-agents-persistent-memory-with-memanto
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Memanto to add local or cloud-backed persistent memory to Claude Code, Cursor, Codex, and other coding agents through remember, recall, answer, upload, and…
+url: https://agentskillexchange.com/skills/give-coding-agents-persistent-memory-with-memanto/
+
+## Run multi-surface coding-agent workflows with Kilo Code
+slug: run-multi-surface-coding-agent-workflows-with-kilo-code
+category: Developer Tools
+framework: Custom Agents
+verification: Published
+description: Use Kilo Code as an open-source coding agent across VS Code, JetBrains, CLI, cloud runs, and trusted CI workflows with custom agents, MCP tooling,…
+url: https://agentskillexchange.com/skills/run-multi-surface-coding-agent-workflows-with-kilo-code/
 
 ## Drive ComfyUI generation workflows through comfyui-mcp
 slug: drive-comfyui-generation-workflows-through-comfyui-mcp

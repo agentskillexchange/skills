@@ -151,6 +151,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [ESLint Code Review](../../skills/eslint-code-review/) | 27.3k | 133.9M/wk |
 | [ESLint Rule Generator Agent](../../skills/eslint-rule-generator-agent/) | 27.2k | 120.2M/wk |
 | [smolagents Code-First AI Agent Library](../../skills/smolagents-code-first-ai-agent-library/) | 26.4k | — |
+| [Run multi-surface coding-agent workflows with Kilo Code](../../skills/run-multi-surface-coding-agent-workflows-with-kilo-code/) | 26.3k | 248.3k/wk |
 | [API Client Generator Skill](../../skills/api-client-generator-skill/) | 26.3k | 5.7M/wk |
 | [Mise Dev Tool Version Manager](../../skills/mise-dev-tool-version-manager/) | 26.3k | — |
 | [OpenAPI Generator API Client and Server Stub Tooling](../../skills/openapi-generator-api-client-server-stub-tooling/) | 26.1k | — |
@@ -343,6 +344,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [OpenMeter Usage Metering and Billing Platform](../../skills/openmeter-usage-metering-and-billing-platform/) | 1.9k | — |
 | [Run coding agents in isolated observable VibeKit sandboxes](../../skills/run-coding-agents-in-isolated-observable-vibekit-sandboxes/) | 1.8k | — |
 | [Run and lifecycle-manage MCP servers in isolated environments with ToolHive before local MCP sprawl turns brittle](../../skills/run-and-lifecycle-manage-mcp-servers-in-isolated-environments-with-toolhive-before-local-mcp-sprawl-turns-brittle/) | 1.7k | — |
+| [Give coding agents persistent memory with Memanto](../../skills/give-coding-agents-persistent-memory-with-memanto/) | 1.7k | — |
 | [Run queued background coding sessions across GitHub, Slack, Linear, and webhooks with background-agents](../../skills/run-queued-background-coding-sessions-across-github-slack-linear-and-webhooks-with-background-agents/) | 1.6k | — |
 | [Give MCP clients language-server code intelligence](../../skills/give-mcp-clients-language-server-code-intelligence/) | 1.5k | — |
 | [Add managed long-term memory to LangGraph agents with LangMem](../../skills/add-managed-long-term-memory-to-langgraph-agents-with-langmem/) | 1.5k | — |
