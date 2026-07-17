@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-07-16
+# Generated: 2026-07-17
 # Total: 2734 skills
 
 ## Drive ComfyUI generation workflows through comfyui-mcp
