@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-17
-# Total: 2737 skills
+# Total: 2738 skills
+
+## Orchestrate Windows coding-agent fleets with Wmux
+slug: orchestrate-windows-coding-agent-fleets-with-wmux
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Wmux to fan out Claude Code, Codex, Gemini, and other agent CLIs across native Windows panes, isolated worktrees, approval gates, durable channels, and…
+url: https://agentskillexchange.com/skills/orchestrate-windows-coding-agent-fleets-with-wmux/
 
 ## Organize reusable prompt workflows with POML
 slug: organize-reusable-prompt-workflows-with-poml
