@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2743 published skills** across **17 categories** · 2,354 security reviewed · Updated 2026-07-18 01:27 UTC
+> **2747 published skills** across **17 categories** · 2,354 security reviewed · Updated 2026-07-18 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (374 skills)
+### 🛠️ Developer Tools (375 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -294,6 +294,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Give MCP clients local Markdown project memory with Basic Memory](skills/give-mcp-clients-local-markdown-project-memory-with-basic-memory/) | Connect Claude, Codex, Cursor, ChatGPT, or any MCP-capable client to a local-first Markdown knowledge graph so… | Security Reviewed | 3.2k | — |
 | [OpenAPI Spec Validator](skills/openapi-spec-validator-agent/) | Validates and lints OpenAPI 3.0/3.1 specifications using Spectral CLI rules and the Swagger Parser library. Detects… | Security Reviewed | 3.1k | 1.2M/wk |
 | [Record and replay HTTP fixtures for deterministic Python tests with VCR.py](skills/record-and-replay-http-fixtures-for-deterministic-python-tests-with-vcr-py/) | Use VCR.py when an agent needs to turn flaky, slow, or rate-limited Python tests into stable runs by recording real… | Security Reviewed | 3k | — |
+| [Install verified Codex planning and completion loops with LazyCodex](skills/install-verified-codex-planning-and-completion-loops-with-lazycodex/) | Add Codex commands, skills, hooks, diagnostics, and sub-agent roles for deep repository initialization, planning,… | Security Reviewed | 2.8k | 18.7k/wk |
 | [LangGraph.js Agent Orchestration Framework](skills/langgraph-js-agent-orchestration-framework/) | A verified skill for LangGraph.js, the graph-based orchestration framework from LangChain. It focuses on… | Published | 2.8k | — |
 | [Manage parallel coding agents with Agent of Empires](skills/manage-parallel-coding-agents-with-agent-of-empires/) | Use Agent of Empires to launch, monitor, sandbox, resume, and review multiple coding-agent sessions from a TUI or… | Security Reviewed | 2.8k | — |
 | [Find and group duplicate files across large trees before cleanup migration or backup with fclones](skills/find-and-group-duplicate-files-across-large-trees-before-cleanup-migration-or-backup-with-fclones/) | Scan large directory trees for duplicate or under-replicated files, then review grouped results before cleanup actions. | Published | 2.7k | — |
@@ -857,7 +858,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (202 skills)
+### 📄 Templates & Workflows (204 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -906,6 +907,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Nx Monorepo Workflow Orchestrator](skills/nx-monorepo-workflow-orchestrator/) | Manages Nx workspace task orchestration using nx.json configuration and @nrwl/devkit executors. Automates dependency… | Security Reviewed | 28.5k | 8.9M/wk |
 | [Kestra Event-Driven Orchestration and Scheduling Platform](skills/kestra-event-driven-orchestration-scheduling-platform/) | Kestra is an open-source, event-driven orchestration platform that makes both scheduled and event-driven workflows… | Security Reviewed | 26.7k | — |
 | [Turn a PRD into a dependency-aware task graph and keep AI implementation work scoped with Task Master AI](skills/turn-a-prd-into-a-dependency-aware-task-graph-and-keep-ai-implementation-work-scoped-with-task-master-ai/) | Use Task Master AI when an agent needs to turn a product request or PRD into a dependency-aware task graph, expand… | Security Reviewed | 26.6k | 113.6k/wk |
+| [Run durable AI-agent workflows on Dapr](skills/run-durable-ai-agent-workflows-on-dapr/) | Use Dapr sidecars and workflows to give AI agents durable execution, state, messaging, approvals, and recovery… | Security Reviewed | 26k | — |
 | [GrapesJS Open Source Web Builder and Template Design Framework](skills/grapesjs-web-builder-template-framework/) | GrapesJS is a free, open-source web builder framework for creating HTML templates without coding. With 25K+ GitHub… | Security Reviewed | 25.7k | 156.5k/wk |
 | [Pulumi Infrastructure Stack Templater](skills/pulumi-infrastructure-stack-templater/) | Generates Pulumi infrastructure-as-code stacks in TypeScript and Python using @pulumi/aws, @pulumi/azure-native, and… | Security Reviewed | 25.2k | 2.2M/wk |
 | [Cookiecutter Project Bootstrap](skills/cookiecutter-project-bootstrap/) | Bootstraps new projects from Cookiecutter templates with variable substitution and post-generation hooks. Supports… | Security Reviewed | 24.8k | — |
@@ -958,6 +960,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Plop.js Code Generator Orchestrator](skills/plopjs-code-generator-orchestrator/) | Manages Plop.js micro-generators to scaffold components, modules, and boilerplate files using Handlebars templates.… | Security Reviewed | 7.6k | 1.5M/wk |
 | [Run durable Python agent schedules with APScheduler](skills/run-durable-python-agent-schedules-with-apscheduler/) | Schedule recurring, interval, calendar, and one-off Python agent jobs with persistent job stores so background… | Security Reviewed | 7.5k | — |
 | [Build bounded single-binary agent workflows with Yao](skills/build-bounded-single-binary-agent-workflows-with-yao/) | Use Yao when an operator needs to package an AI agent workflow, hooks, MCP tools, memory scopes, and a reviewable… | Security Reviewed | 7.5k | — |
+| [Coordinate multi-harness agent sessions with Omnigent](skills/coordinate-multi-harness-agent-sessions-with-omnigent/) | Run Claude Code, Codex, Cursor, OpenCode, Pi, and custom agents behind one governed orchestration layer with shared… | Security Reviewed | 7.4k | — |
 | [Run long-horizon spec-driven coding agent workflows with GSD 2](skills/run-long-horizon-spec-driven-coding-agent-workflows-with-gsd-2/) | Use GSD 2 to break a project into milestones, manage agent context and branches, recover from drift, and let coding… | Security Reviewed | 7.3k | 11.4k/wk |
 | [Run durable agent tasks and event-driven workflows with Hatchet](skills/run-durable-agent-tasks-and-event-driven-workflows-with-hatchet/) | Use Hatchet to queue, retry, pause, resume, observe, and scale long-running agent tasks and background workflows. | Security Reviewed | 7.2k | 298.3k/wk |
 | [Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext](skills/pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-stay-readable-with-jupytext/) | Keep notebooks synchronized with `.py` or `.md` representations so version control, review, and refactoring can… | Security Reviewed | 7.2k | — |
@@ -1067,7 +1070,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown,… | Published | — | — |
 
 
-### ✅ Code Quality & Review (192 skills)
+### ✅ Code Quality & Review (193 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1187,6 +1190,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Summarize failing Go test runs and rerun flakes before CI repair loops with gotestsum](skills/summarize-failing-go-test-runs-and-rerun-flakes-before-ci-repair-loops-with-gotestsum/) | Use gotestsum to turn noisy `go test` output into compact failure summaries, JUnit or JSON artifacts, and optional… | Security Reviewed | 2.6k | — |
 | [Testcontainers Node Throwaway Docker Integration Testing Library](skills/testcontainers-node-throwaway-docker-integration-testing/) | Testcontainers for Node.js is a library that provides lightweight, throwaway instances of databases, message… | Security Reviewed | 2.5k | — |
 | [Complexity Trend Tracker](skills/complexity-trend-tracker-agent/) | Tracks cyclomatic and cognitive complexity trends using lizard CLI and radon for Python analysis. Generates weekly… | Security Reviewed | 2.4k | — |
+| [Enforce coding-agent protocols mechanically with Harmonist](skills/enforce-coding-agent-protocols-mechanically-with-harmonist/) | Drop a multi-agent protocol pack into a project so coding assistants must satisfy reviewer, memory, and supply-chain… | Security Reviewed | 2.4k | — |
 | [Catch common misspellings in code and docs before review churn with codespell](skills/catch-common-misspellings-in-code-and-docs-before-review-churn-with-codespell/) | Run a fast typo pass across source files and documentation so common misspellings are fixed before they spread… | Security Reviewed | 2.4k | — |
 | [Format and lint TOML configs and lockfiles before config drift spreads with Taplo](skills/format-and-lint-toml-configs-and-lockfiles-before-config-drift-spreads-with-taplo/) | Normalize TOML files with a dedicated formatter and linter so repo configs, manifests, and lockfiles stay stable and… | Published | 2.2k | — |
 | [Map Python import graphs to explain coupling before refactors or package splits with pydeps](skills/map-python-import-graphs-to-explain-coupling-before-refactors-or-package-splits-with-pydeps/) | Generate Python module dependency graphs so refactors and package splits start from an actual import map instead of… | Security Reviewed | 2.1k | — |

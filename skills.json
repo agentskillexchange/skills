@@ -1,8 +1,65 @@
 {
   "version": "2.0",
-  "total": 2743,
+  "total": 2747,
   "generated": "2026-07-18",
   "skills": [
+    {
+      "slug": "enforce-coding-agent-protocols-mechanically-with-harmonist",
+      "name": "Enforce coding-agent protocols mechanically with Harmonist",
+      "title": "Enforce coding-agent protocols mechanically with Harmonist",
+      "description": "Drop a multi-agent protocol pack into a project so coding assistants must satisfy reviewer, memory, and supply-chain gates before code-changing work completes.",
+      "category": "Code Quality & Review",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 2360
+      },
+      "source_url": "https://github.com/GammaLabTechnologies/harmonist",
+      "github_repo": "GammaLabTechnologies/harmonist"
+    },
+    {
+      "slug": "install-verified-codex-planning-and-completion-loops-with-lazycodex",
+      "name": "Install verified Codex planning and completion loops with LazyCodex",
+      "title": "Install verified Codex planning and completion loops with LazyCodex",
+      "description": "Add Codex commands, skills, hooks, diagnostics, and sub-agent roles for deep repository initialization, planning, execution, and evidence-backed completion.",
+      "category": "Developer Tools",
+      "framework": "Codex",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 2840,
+        "npm_weekly_downloads": 18737
+      },
+      "source_url": "https://github.com/code-yeongyu/lazycodex",
+      "github_repo": "code-yeongyu/lazycodex"
+    },
+    {
+      "slug": "run-durable-ai-agent-workflows-on-dapr",
+      "name": "Run durable AI-agent workflows on Dapr",
+      "title": "Run durable AI-agent workflows on Dapr",
+      "description": "Use Dapr sidecars and workflows to give AI agents durable execution, state, messaging, approvals, and recovery across languages and platforms.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 25967
+      },
+      "source_url": "https://github.com/dapr/dapr",
+      "github_repo": "dapr/dapr"
+    },
+    {
+      "slug": "coordinate-multi-harness-agent-sessions-with-omnigent",
+      "name": "Coordinate multi-harness agent sessions with Omnigent",
+      "title": "Coordinate multi-harness agent sessions with Omnigent",
+      "description": "Run Claude Code, Codex, Cursor, OpenCode, Pi, and custom agents behind one governed orchestration layer with shared sessions, policies, and sandbox options.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 7435
+      },
+      "source_url": "https://github.com/omnigent-ai/omnigent",
+      "github_repo": "omnigent-ai/omnigent"
+    },
     {
       "slug": "expose-postgres-safely-to-agents-with-prest-mcp",
       "name": "Expose Postgres safely to agents with pREST MCP",

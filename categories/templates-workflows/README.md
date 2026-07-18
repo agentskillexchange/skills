@@ -83,6 +83,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Nx Monorepo Workflow Orchestrator](../../skills/nx-monorepo-workflow-orchestrator/) | 28.5k | 8.9M/wk |
 | [Kestra Event-Driven Orchestration and Scheduling Platform](../../skills/kestra-event-driven-orchestration-scheduling-platform/) | 26.7k | — |
 | [Turn a PRD into a dependency-aware task graph and keep AI implementation work scoped with Task Master AI](../../skills/turn-a-prd-into-a-dependency-aware-task-graph-and-keep-ai-implementation-work-scoped-with-task-master-ai/) | 26.6k | 113.6k/wk |
+| [Run durable AI-agent workflows on Dapr](../../skills/run-durable-ai-agent-workflows-on-dapr/) | 26k | — |
 | [GrapesJS Open Source Web Builder and Template Design Framework](../../skills/grapesjs-web-builder-template-framework/) | 25.7k | 156.5k/wk |
 | [Pulumi Infrastructure Stack Templater](../../skills/pulumi-infrastructure-stack-templater/) | 25.2k | 2.2M/wk |
 | [Cookiecutter Project Bootstrap](../../skills/cookiecutter-project-bootstrap/) | 24.8k | — |
@@ -135,6 +136,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Plop.js Code Generator Orchestrator](../../skills/plopjs-code-generator-orchestrator/) | 7.6k | 1.5M/wk |
 | [Run durable Python agent schedules with APScheduler](../../skills/run-durable-python-agent-schedules-with-apscheduler/) | 7.5k | — |
 | [Build bounded single-binary agent workflows with Yao](../../skills/build-bounded-single-binary-agent-workflows-with-yao/) | 7.5k | — |
+| [Coordinate multi-harness agent sessions with Omnigent](../../skills/coordinate-multi-harness-agent-sessions-with-omnigent/) | 7.4k | — |
 | [Run long-horizon spec-driven coding agent workflows with GSD 2](../../skills/run-long-horizon-spec-driven-coding-agent-workflows-with-gsd-2/) | 7.3k | 11.4k/wk |
 | [Run durable agent tasks and event-driven workflows with Hatchet](../../skills/run-durable-agent-tasks-and-event-driven-workflows-with-hatchet/) | 7.2k | 298.3k/wk |
 | [Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext](../../skills/pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-stay-readable-with-jupytext/) | 7.2k | — |

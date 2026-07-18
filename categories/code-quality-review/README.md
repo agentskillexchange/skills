@@ -154,6 +154,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Summarize failing Go test runs and rerun flakes before CI repair loops with gotestsum](../../skills/summarize-failing-go-test-runs-and-rerun-flakes-before-ci-repair-loops-with-gotestsum/) | 2.6k | — |
 | [Testcontainers Node Throwaway Docker Integration Testing Library](../../skills/testcontainers-node-throwaway-docker-integration-testing/) | 2.5k | — |
 | [Complexity Trend Tracker](../../skills/complexity-trend-tracker-agent/) | 2.4k | — |
+| [Enforce coding-agent protocols mechanically with Harmonist](../../skills/enforce-coding-agent-protocols-mechanically-with-harmonist/) | 2.4k | — |
 | [Catch common misspellings in code and docs before review churn with codespell](../../skills/catch-common-misspellings-in-code-and-docs-before-review-churn-with-codespell/) | 2.4k | — |
 | [Format and lint TOML configs and lockfiles before config drift spreads with Taplo](../../skills/format-and-lint-toml-configs-and-lockfiles-before-config-drift-spreads-with-taplo/) | 2.2k | — |
 | [Map Python import graphs to explain coupling before refactors or package splits with pydeps](../../skills/map-python-import-graphs-to-explain-coupling-before-refactors-or-package-splits-with-pydeps/) | 2.1k | — |

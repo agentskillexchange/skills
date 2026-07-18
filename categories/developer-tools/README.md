@@ -320,6 +320,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Give MCP clients local Markdown project memory with Basic Memory](../../skills/give-mcp-clients-local-markdown-project-memory-with-basic-memory/) | 3.2k | — |
 | [OpenAPI Spec Validator](../../skills/openapi-spec-validator-agent/) | 3.1k | 1.2M/wk |
 | [Record and replay HTTP fixtures for deterministic Python tests with VCR.py](../../skills/record-and-replay-http-fixtures-for-deterministic-python-tests-with-vcr-py/) | 3k | — |
+| [Install verified Codex planning and completion loops with LazyCodex](../../skills/install-verified-codex-planning-and-completion-loops-with-lazycodex/) | 2.8k | 18.7k/wk |
 | [LangGraph.js Agent Orchestration Framework](../../skills/langgraph-js-agent-orchestration-framework/) | 2.8k | — |
 | [Manage parallel coding agents with Agent of Empires](../../skills/manage-parallel-coding-agents-with-agent-of-empires/) | 2.8k | — |
 | [Find and group duplicate files across large trees before cleanup migration or backup with fclones](../../skills/find-and-group-duplicate-files-across-large-trees-before-cleanup-migration-or-backup-with-fclones/) | 2.7k | — |

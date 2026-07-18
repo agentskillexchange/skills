@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-18
-# Total: 2743 skills
+# Total: 2747 skills
+
+## Enforce coding-agent protocols mechanically with Harmonist
+slug: enforce-coding-agent-protocols-mechanically-with-harmonist
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Drop a multi-agent protocol pack into a project so coding assistants must satisfy reviewer, memory, and supply-chain gates before code-changing work completes.
+url: https://agentskillexchange.com/skills/enforce-coding-agent-protocols-mechanically-with-harmonist/
+
+## Install verified Codex planning and completion loops with LazyCodex
+slug: install-verified-codex-planning-and-completion-loops-with-lazycodex
+category: Developer Tools
+framework: Codex
+verification: Security Reviewed
+description: Add Codex commands, skills, hooks, diagnostics, and sub-agent roles for deep repository initialization, planning, execution, and evidence-backed completion.
+url: https://agentskillexchange.com/skills/install-verified-codex-planning-and-completion-loops-with-lazycodex/
+
+## Run durable AI-agent workflows on Dapr
+slug: run-durable-ai-agent-workflows-on-dapr
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Dapr sidecars and workflows to give AI agents durable execution, state, messaging, approvals, and recovery across languages and platforms.
+url: https://agentskillexchange.com/skills/run-durable-ai-agent-workflows-on-dapr/
+
+## Coordinate multi-harness agent sessions with Omnigent
+slug: coordinate-multi-harness-agent-sessions-with-omnigent
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run Claude Code, Codex, Cursor, OpenCode, Pi, and custom agents behind one governed orchestration layer with shared sessions, policies, and sandbox options.
+url: https://agentskillexchange.com/skills/coordinate-multi-harness-agent-sessions-with-omnigent/
 
 ## Expose Postgres safely to agents with pREST MCP
 slug: expose-postgres-safely-to-agents-with-prest-mcp
