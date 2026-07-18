@@ -1,7 +1,47 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-07-17
-# Total: 2738 skills
+# Generated: 2026-07-18
+# Total: 2743 skills
+
+## Expose Postgres safely to agents with pREST MCP
+slug: expose-postgres-safely-to-agents-with-prest-mcp
+category: Data Extraction & Transformation
+framework: MCP
+verification: Security Reviewed
+description: Run pREST in front of existing Postgres databases to provide instant REST APIs and a read-only MCP endpoint with auth, ACL, custom SQL routes,…
+url: https://agentskillexchange.com/skills/expose-postgres-safely-to-agents-with-prest-mcp/
+
+## Give coding agents AST-backed semantic code search with CocoIndex Code
+slug: give-coding-agents-ast-backed-semantic-code-search-with-cocoindex-code
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Install CocoIndex Code as a skill, plugin, CLI, or MCP server so coding agents can initialize, update, and query local AST-backed semantic code indexes.
+url: https://agentskillexchange.com/skills/give-coding-agents-ast-backed-semantic-code-search-with-cocoindex-code/
+
+## Audit coding-agent token spend with CodeBurn
+slug: audit-coding-agent-token-spend-with-codeburn
+category: Monitoring & Alerts
+framework: MCP
+verification: Security Reviewed
+description: Run CodeBurn locally or as an MCP server so agents can inspect token usage, cost, model mix, project spend, and budget waste across coding…
+url: https://agentskillexchange.com/skills/audit-coding-agent-token-spend-with-codeburn/
+
+## Run trap-aware agent work through the Fable Method
+slug: run-trap-aware-agent-work-through-the-fable-method
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use the Fable Method skill bundle to classify work, gather evidence, act narrowly, verify by observation, and judge agent outputs against repeatable eval-backed rules.
+url: https://agentskillexchange.com/skills/run-trap-aware-agent-work-through-the-fable-method/
+
+## Connect agents to governed data and code graphs with GraphJin
+slug: connect-agents-to-governed-data-and-code-graphs-with-graphjin
+category: Integrations & Connectors
+framework: MCP
+verification: Security Reviewed
+description: Expose databases, files, code indexes, workflows, and policy-aware GraphQL through GraphJin's MCP and agent endpoints for governed discovery and action.
+url: https://agentskillexchange.com/skills/connect-agents-to-governed-data-and-code-graphs-with-graphjin/
 
 ## Orchestrate Windows coding-agent fleets with Wmux
 slug: orchestrate-windows-coding-agent-fleets-with-wmux

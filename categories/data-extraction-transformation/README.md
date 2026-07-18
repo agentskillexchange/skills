@@ -161,6 +161,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [dlt Python Data Load Tool](../../skills/dlt-python-data-load-tool/) | 5.2k | — |
 | [Parse local PDFs into agent-ready text, JSON, and screenshots with LiteParse](../../skills/parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse/) | 5.1k | 37k/wk |
 | [Build graph RAG context with Neo4j LLM Graph Builder](../../skills/build-graph-rag-context-with-neo4j-llm-graph-builder/) | 4.7k | — |
+| [Expose Postgres safely to agents with pREST MCP](../../skills/expose-postgres-safely-to-agents-with-prest-mcp/) | 4.6k | — |
 | [ExifTool Metadata Reader and Writer for Images and Files](../../skills/exiftool-metadata-reader-writer-images-files/) | 4.6k | — |
 | [franc Natural Language Detection Library and CLI](../../skills/franc-natural-language-detection/) | 4.4k | — |
 | [Stripe Revenue Analytics Dashboard Builder](../../skills/stripe-revenue-analytics-dashboard/) | 4.4k | 9.3M/wk |

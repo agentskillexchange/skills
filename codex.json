@@ -1,9 +1,64 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-07-17",
-  "total": 2738,
+  "generated": "2026-07-18",
+  "total": 2743,
   "skills": [
+    {
+      "slug": "expose-postgres-safely-to-agents-with-prest-mcp",
+      "name": "Expose Postgres safely to agents with pREST MCP",
+      "title": "Expose Postgres safely to agents with pREST MCP",
+      "description": "Run pREST in front of existing Postgres databases to provide instant REST APIs and a read-only MCP endpoint with auth, ACL, custom SQL routes,…",
+      "category": "Data Extraction & Transformation",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/prest/prest",
+      "github_repo": "prest/prest"
+    },
+    {
+      "slug": "give-coding-agents-ast-backed-semantic-code-search-with-cocoindex-code",
+      "name": "Give coding agents AST-backed semantic code search with CocoIndex Code",
+      "title": "Give coding agents AST-backed semantic code search with CocoIndex Code",
+      "description": "Install CocoIndex Code as a skill, plugin, CLI, or MCP server so coding agents can initialize, update, and query local AST-backed semantic code indexes.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/cocoindex-io/cocoindex-code",
+      "github_repo": "cocoindex-io/cocoindex-code"
+    },
+    {
+      "slug": "audit-coding-agent-token-spend-with-codeburn",
+      "name": "Audit coding-agent token spend with CodeBurn",
+      "title": "Audit coding-agent token spend with CodeBurn",
+      "description": "Run CodeBurn locally or as an MCP server so agents can inspect token usage, cost, model mix, project spend, and budget waste across coding…",
+      "category": "Monitoring & Alerts",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/getagentseal/codeburn",
+      "github_repo": "getagentseal/codeburn"
+    },
+    {
+      "slug": "run-trap-aware-agent-work-through-the-fable-method",
+      "name": "Run trap-aware agent work through the Fable Method",
+      "title": "Run trap-aware agent work through the Fable Method",
+      "description": "Use the Fable Method skill bundle to classify work, gather evidence, act narrowly, verify by observation, and judge agent outputs against repeatable eval-backed rules.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Sahir619/fable-method",
+      "github_repo": "Sahir619/fable-method"
+    },
+    {
+      "slug": "connect-agents-to-governed-data-and-code-graphs-with-graphjin",
+      "name": "Connect agents to governed data and code graphs with GraphJin",
+      "title": "Connect agents to governed data and code graphs with GraphJin",
+      "description": "Expose databases, files, code indexes, workflows, and policy-aware GraphQL through GraphJin's MCP and agent endpoints for governed discovery and action.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/dosco/graphjin",
+      "github_repo": "dosco/graphjin"
+    },
     {
       "slug": "orchestrate-windows-coding-agent-fleets-with-wmux",
       "name": "Orchestrate Windows coding-agent fleets with Wmux",

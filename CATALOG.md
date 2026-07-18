@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2738 published skills** across **17 categories** · 2,350 security reviewed · Updated 2026-07-17 19:27 UTC
+> **2743 published skills** across **17 categories** · 2,350 security reviewed · Updated 2026-07-18 01:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (373 skills)
+### 🛠️ Developer Tools (374 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -306,6 +306,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [KrakenD High-Performance Stateless API Gateway](skills/krakend-high-performance-stateless-api-gateway/) | KrakenD is an ultra-high performance, stateless, declarative API Gateway written in Go. It helps adopt microservices… | Security Reviewed | 2.6k | — |
 | [Persist reusable coding-agent memory across sessions with Engram](skills/persist-reusable-coding-agent-memory-across-sessions-with-engram/) | Keep searchable long-term memory for coding agents in a local SQLite store and expose it through MCP when sessions… | Published | 2.6k | — |
 | [Supergateway MCP Transport Bridge](skills/supergateway-mcp-transport-bridge/) | Supergateway enables running MCP stdio-based servers over SSE, WebSockets, or Streamable HTTP with a single command.… | Security Reviewed | 2.5k | 88.6k/wk |
+| [Give coding agents AST-backed semantic code search with CocoIndex Code](skills/give-coding-agents-ast-backed-semantic-code-search-with-cocoindex-code/) | Install CocoIndex Code as a skill, plugin, CLI, or MCP server so coding agents can initialize, update, and query… | Security Reviewed | 2.5k | — |
 | [Griptape Modular Python AI Agent and Workflow Framework](skills/griptape-python-ai-agent-framework/) | Griptape is a modular Python framework for building AI agents and workflows with chain-of-thought reasoning, tools,… | Security Reviewed | 2.5k | — |
 | [Postgres MCP Pro Server for Database Analysis and Tuning](skills/postgres-mcp-pro-database-analysis-tuning/) | Postgres MCP Pro is an open-source MCP server that provides AI agents with PostgreSQL database health analysis,… | Security Reviewed | 2.5k | — |
 | [Drive agent terminal workspaces with Rmux](skills/drive-agent-terminal-workspaces-with-rmux/) | Use Rmux to create and automate cross-platform terminal sessions for agent CLIs, with tmux-compatible commands,… | Security Reviewed | 2.4k | 236/wk |
@@ -633,7 +634,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (214 skills)
+### 🔄 Data Extraction & Transformation (215 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -760,6 +761,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [dlt Python Data Load Tool](skills/dlt-python-data-load-tool/) | An open-source Python library that makes loading data from APIs, databases, and files into structured datasets… | Security Reviewed | 5.2k | — |
 | [Parse local PDFs into agent-ready text, JSON, and screenshots with LiteParse](skills/parse-local-pdfs-into-agent-ready-text-json-and-screenshots-with-liteparse/) | Run LiteParse locally to extract PDF text, spatial JSON, OCR-backed output, and page screenshots before sending… | Security Reviewed | 5.1k | 37k/wk |
 | [Build graph RAG context with Neo4j LLM Graph Builder](skills/build-graph-rag-context-with-neo4j-llm-graph-builder/) | Convert a bounded document set into a Neo4j knowledge graph, inspect extracted nodes and relationships, and use it… | Security Reviewed | 4.7k | — |
+| [Expose Postgres safely to agents with pREST MCP](skills/expose-postgres-safely-to-agents-with-prest-mcp/) | Run pREST in front of existing Postgres databases to provide instant REST APIs and a read-only MCP endpoint with… | Security Reviewed | 4.6k | — |
 | [ExifTool Metadata Reader and Writer for Images and Files](skills/exiftool-metadata-reader-writer-images-files/) | ExifTool by Phil Harvey is a comprehensive Perl-based CLI tool for reading, writing, and editing metadata in over… | Security Reviewed | 4.6k | — |
 | [franc Natural Language Detection Library and CLI](skills/franc-natural-language-detection/) | franc is a JavaScript library and CLI tool for detecting the language of text. It supports up to 419 languages and… | Published | 4.4k | — |
 | [Stripe Revenue Analytics Dashboard Builder](skills/stripe-revenue-analytics-dashboard/) | Pulls MRR, churn, and LTV metrics from the Stripe Data API using the stripe Node.js SDK and transforms the data… | Security Reviewed | 4.4k | 9.3M/wk |
@@ -855,7 +857,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (201 skills)
+### 📄 Templates & Workflows (202 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1004,6 +1006,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Generate right-to-left CSS variants from LTR stylesheets before multilingual launches with RTLCSS](skills/generate-right-to-left-css-variants-from-ltr-stylesheets-before-multilingual-launches-rtlcss/) | Use RTLCSS when an agent already has left-to-right stylesheets and must prepare a right-to-left variant for Arabic,… | Published | 1.7k | 2M/wk |
 | [Fly.io Deployment Helper](skills/fly-io-deployment-helper/) | Fly.io Deployment Helper is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 1.6k | — |
 | [Run Claude Code with spec-driven quality gates via Pilot Shell](skills/run-claude-code-with-spec-driven-quality-gates-via-pilot-shell/) | Wrap Claude Code sessions in a spec, approval, and verification workflow before risky implementation work lands. | Security Reviewed | 1.6k | — |
+| [Run trap-aware agent work through the Fable Method](skills/run-trap-aware-agent-work-through-the-fable-method/) | Use the Fable Method skill bundle to classify work, gather evidence, act narrowly, verify by observation, and judge… | Security Reviewed | 1.6k | — |
 | [Refresh Cookiecutter-based repositories from their upstream template without losing local answers](skills/refresh-cookiecutter-based-repositories-from-upstream-template/) | Use Cruft when an agent needs to pull new changes from a Cookiecutter template into an existing generated repository… | Security Reviewed | 1.6k | — |
 | [Define repeatable Python automation sessions in code with nox](skills/define-repeatable-python-automation-sessions-in-code-with-nox/) | Encode test, lint, build, and docs routines as named Python sessions so humans and agents run the same workflow… | Security Reviewed | 1.5k | — |
 | [Install Claude Code project workflows with Claude Workflow V2](skills/install-claude-code-project-workflows-with-claude-workflow-v2/) | Load a Claude Code workflow plugin that adds project-oriented commands, specialist agents, skills, and hooks for… | Security Reviewed | 1.4k | 55/wk |
@@ -1646,7 +1649,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (150 skills)
+### 🔗 Integrations & Connectors (151 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1727,6 +1730,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Add multimodal lifelong memory to MCP and Python agents with SimpleMem](skills/add-multimodal-lifelong-memory-to-mcp-and-python-agents-with-simplemem/) | Use SimpleMem to store, compress, index, and retrieve text or multimodal memories for agents through MCP or Python… | Security Reviewed | 3.5k | — |
 | [Ingestr Cross-Database Data Copier](skills/ingestr-cross-database-data-copier/) | Copy data between any databases with a single CLI command using Ingestr. Supports 50+ sources and destinations… | Published | 3.4k | — |
 | [Svix Enterprise Webhook Delivery Service](skills/svix-enterprise-webhook-delivery-service/) | Svix is an open-source enterprise-grade webhook delivery service written in Rust. It handles webhook sending,… | Security Reviewed | 3.2k | — |
+| [Connect agents to governed data and code graphs with GraphJin](skills/connect-agents-to-governed-data-and-code-graphs-with-graphjin/) | Expose databases, files, code indexes, workflows, and policy-aware GraphQL through GraphJin's MCP and agent… | Security Reviewed | 3.1k | 866/wk |
 | [SendGrid MCP Server](skills/sendgrid-mcp-server/) | SendGrid MCP Server is built around SendGrid email delivery platform. The underlying ecosystem is represented by… | Security Reviewed | 3.1k | 51.8k/wk |
 | [SendGrid Transactional Email Builder](skills/sendgrid-transactional-email-builder/) | Constructs and sends transactional emails using the SendGrid v3 Mail Send API. Builds dynamic templates with… | Security Reviewed | 3k | 3.6M/wk |
 | [SendGrid Transactional Email Router](skills/sendgrid-transactional-email-router/) | Manages transactional email delivery via SendGrid v3 Mail Send API with dynamic template rendering. Handles bounce… | Security Reviewed | 3k | 3.6M/wk |
@@ -1804,7 +1808,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (149 skills)
+### 📊 Monitoring & Alerts (150 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -1882,6 +1886,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Trace and evaluate agent runs with Phoenix](skills/trace-and-evaluate-agent-runs-with-phoenix/) | Use Phoenix to trace LLM and agent calls, run evaluations, replay prompts, inspect datasets, and expose… | Security Reviewed | 9.8k | 893/wk |
 | [Checkmate Open Source Uptime and Infrastructure Monitoring](skills/checkmate-open-source-uptime-infrastructure-monitoring/) | An ASE skill built on Checkmate, the open source self-hosted monitoring platform for uptime, incidents, response… | Security Reviewed | 9.6k | — |
 | [Highlight.io Open Source Full-Stack Monitoring Platform](skills/highlight-io-full-stack-monitoring/) | Highlight.io is an open-source full-stack monitoring platform combining session replay, error monitoring, logging,… | Security Reviewed | 9.2k | — |
+| [Audit coding-agent token spend with CodeBurn](skills/audit-coding-agent-token-spend-with-codeburn/) | Run CodeBurn locally or as an MCP server so agents can inspect token usage, cost, model mix, project spend, and… | Security Reviewed | 8.7k | 7.6k/wk |
 | [Prometheus Alertmanager Rule Auditor](skills/prometheus-alertmanager-rule-auditor/) | Validates Prometheus recording and alerting rules using promtool check rules, analyzes Alertmanager routing trees… | Security Reviewed | 8.4k | — |
 | [ntopng Web-Based Network Traffic Monitoring and Security Analysis](skills/ntopng-web-based-network-traffic-monitoring-security/) | ntopng is a web-based network traffic monitoring application that provides real-time visibility into network flows,… | Published | 7.7k | — |
 | [Generate drift and quality reports for ML and LLM pipelines with Evidently](skills/generate-drift-and-quality-reports-for-ml-and-llm-pipelines-with-evidently/) | Produce repeatable drift and quality reports after data, model, or prompt changes so regressions are visible before… | Security Reviewed | 7.4k | — |

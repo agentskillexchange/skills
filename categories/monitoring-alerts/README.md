@@ -31,8 +31,8 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Trace, evaluate, and monitor agentic workflows with Opik](../../skills/trace-evaluate-and-monitor-agentic-workflows-with-opik/) | ⬇ 18.3k/wk |
 | [Trace Python memory allocation hotspots before leaks and spikes reach production with Memray](../../skills/trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray/) | ⬇ 16.3M/wk |
 | [Trace and evaluate agent runs with Phoenix](../../skills/trace-and-evaluate-agent-runs-with-phoenix/) | ⬇ 893/wk |
+| [Audit coding-agent token spend with CodeBurn](../../skills/audit-coding-agent-token-spend-with-codeburn/) | ⬇ 7.6k/wk |
 | [Monitor and evaluate LLM agent traffic with Helicone](../../skills/monitor-and-evaluate-llm-agent-traffic-with-helicone/) | ⬇ 49/wk |
-| [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | ⬇ 3.3k/wk |
 
 ---
 
@@ -112,6 +112,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Trace and evaluate agent runs with Phoenix](../../skills/trace-and-evaluate-agent-runs-with-phoenix/) | 9.8k | 893/wk |
 | [Checkmate Open Source Uptime and Infrastructure Monitoring](../../skills/checkmate-open-source-uptime-infrastructure-monitoring/) | 9.6k | — |
 | [Highlight.io Open Source Full-Stack Monitoring Platform](../../skills/highlight-io-full-stack-monitoring/) | 9.2k | — |
+| [Audit coding-agent token spend with CodeBurn](../../skills/audit-coding-agent-token-spend-with-codeburn/) | 8.7k | 7.6k/wk |
 | [Prometheus Alertmanager Rule Auditor](../../skills/prometheus-alertmanager-rule-auditor/) | 8.4k | — |
 | [ntopng Web-Based Network Traffic Monitoring and Security Analysis](../../skills/ntopng-web-based-network-traffic-monitoring-security/) | 7.7k | — |
 | [Generate drift and quality reports for ML and LLM pipelines with Evidently](../../skills/generate-drift-and-quality-reports-for-ml-and-llm-pipelines-with-evidently/) | 7.4k | — |

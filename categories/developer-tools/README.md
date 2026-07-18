@@ -332,6 +332,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [KrakenD High-Performance Stateless API Gateway](../../skills/krakend-high-performance-stateless-api-gateway/) | 2.6k | — |
 | [Persist reusable coding-agent memory across sessions with Engram](../../skills/persist-reusable-coding-agent-memory-across-sessions-with-engram/) | 2.6k | — |
 | [Supergateway MCP Transport Bridge](../../skills/supergateway-mcp-transport-bridge/) | 2.5k | 88.6k/wk |
+| [Give coding agents AST-backed semantic code search with CocoIndex Code](../../skills/give-coding-agents-ast-backed-semantic-code-search-with-cocoindex-code/) | 2.5k | — |
 | [Griptape Modular Python AI Agent and Workflow Framework](../../skills/griptape-python-ai-agent-framework/) | 2.5k | — |
 | [Postgres MCP Pro Server for Database Analysis and Tuning](../../skills/postgres-mcp-pro-database-analysis-tuning/) | 2.5k | — |
 | [Drive agent terminal workspaces with Rmux](../../skills/drive-agent-terminal-workspaces-with-rmux/) | 2.4k | 236/wk |
