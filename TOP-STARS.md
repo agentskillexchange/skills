@@ -42,17 +42,17 @@ Skills backed by the most-starred GitHub repositories, deduplicated by upstream 
 | 34 | [Hugo Fast Static Site Generator and CMS Framework](skills/hugo-static-site-generator-cms-framework/) | 87.4k | hugo | WordPress & CMS |
 | 35 | [PostgreSQL MCP Server](skills/postgresql-mcp-server/) | 86.6k | servers | Data Extraction & Transformation |
 | 36 | [Uptime Kuma Status Sync](skills/uptime-kuma-status-sync/) | 85.6k | sendgrid | Monitoring & Alerts |
-| 37 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | 85.1k | uptime-kuma | Monitoring & Alerts |
-| 38 | [uv Ultra-Fast Python Package and Project Manager](skills/uv-ultra-fast-python-package-project-manager/) | 82.4k | uv | Developer Tools |
-| 39 | [Vite Plugin Hot Module Analyzer](skills/vite-plugin-hmr-analyzer/) | 79.9k | vite | Developer Tools |
-| 40 | [Build document-grounded agent context workflows with RAGFlow](skills/build-document-grounded-agent-context-workflows-with-ragflow/) | 79.8k | ragflow | Data Extraction & Transformation |
-| 41 | [fzf Command-Line Fuzzy Finder](skills/fzf-command-line-fuzzy-finder/) | 79.2k | fzf | Developer Tools |
-| 42 | [Hoppscotch Open Source API Development Ecosystem](skills/hoppscotch-api-development-ecosystem/) | 78.7k | hoppscotch | Developer Tools |
-| 43 | [Zed High-Performance Multiplayer Code Editor](skills/zed-high-performance-multiplayer-code-editor/) | 78.6k | zed | Developer Tools |
-| 44 | [Netdata Real-Time Infrastructure Monitoring and Alerting](skills/netdata-real-time-infrastructure-monitoring-and-alerting/) | 78.4k | netdata | Monitoring & Alerts |
-| 45 | [Cut coding-agent response tokens with Caveman mode](skills/cut-coding-agent-response-tokens-with-caveman-mode/) | 78.4k | caveman | Developer Tools |
-| 46 | [Elastic / Kibana MCP Server](skills/elastic-kibana-mcp-server/) | 76.8k | elasticsearch | Monitoring & Alerts |
-| 47 | [Sherlock Social Media Username Hunter Across 400+ Networks](skills/sherlock-social-media-username-hunter/) | 76.2k | sherlock | Research & Scraping |
-| 48 | [Manage agent CLI providers and MCP settings with CC Switch](skills/manage-agent-cli-providers-and-mcp-settings-with-cc-switch/) | 76.2k | cc-switch | Developer Tools |
-| 49 | [lazygit Terminal UI for Git Operations](skills/lazygit-terminal-ui-git-operations/) | 75.4k | lazygit | Developer Tools |
-| 50 | [vLLM High-Throughput LLM Serving Engine with PagedAttention](skills/vllm-high-throughput-llm-serving/) | 75.1k | vllm | Developer Tools |
+| 37 | [Keep coding agents from over-building implementations with Ponytail](skills/keep-coding-agents-from-over-building-implementations-with-ponytail/) | 85.5k | ponytail | Code Quality & Review |
+| 38 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | 85.1k | uptime-kuma | Monitoring & Alerts |
+| 39 | [uv Ultra-Fast Python Package and Project Manager](skills/uv-ultra-fast-python-package-project-manager/) | 82.4k | uv | Developer Tools |
+| 40 | [Vite Plugin Hot Module Analyzer](skills/vite-plugin-hmr-analyzer/) | 79.9k | vite | Developer Tools |
+| 41 | [Build document-grounded agent context workflows with RAGFlow](skills/build-document-grounded-agent-context-workflows-with-ragflow/) | 79.8k | ragflow | Data Extraction & Transformation |
+| 42 | [fzf Command-Line Fuzzy Finder](skills/fzf-command-line-fuzzy-finder/) | 79.2k | fzf | Developer Tools |
+| 43 | [Hoppscotch Open Source API Development Ecosystem](skills/hoppscotch-api-development-ecosystem/) | 78.7k | hoppscotch | Developer Tools |
+| 44 | [Zed High-Performance Multiplayer Code Editor](skills/zed-high-performance-multiplayer-code-editor/) | 78.6k | zed | Developer Tools |
+| 45 | [Netdata Real-Time Infrastructure Monitoring and Alerting](skills/netdata-real-time-infrastructure-monitoring-and-alerting/) | 78.4k | netdata | Monitoring & Alerts |
+| 46 | [Cut coding-agent response tokens with Caveman mode](skills/cut-coding-agent-response-tokens-with-caveman-mode/) | 78.4k | caveman | Developer Tools |
+| 47 | [Elastic / Kibana MCP Server](skills/elastic-kibana-mcp-server/) | 76.8k | elasticsearch | Monitoring & Alerts |
+| 48 | [Sherlock Social Media Username Hunter Across 400+ Networks](skills/sherlock-social-media-username-hunter/) | 76.2k | sherlock | Research & Scraping |
+| 49 | [Manage agent CLI providers and MCP settings with CC Switch](skills/manage-agent-cli-providers-and-mcp-settings-with-cc-switch/) | 76.2k | cc-switch | Developer Tools |
+| 50 | [lazygit Terminal UI for Git Operations](skills/lazygit-terminal-ui-git-operations/) | 75.4k | lazygit | Developer Tools |

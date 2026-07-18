@@ -167,6 +167,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [AWS IAM Privilege Escalation Audit](../../skills/aws-iam-privilege-escalation-audit/) | 3.6k | — |
 | [Tracecat AI-Native Security Automation and SOAR Platform](../../skills/tracecat-ai-security-automation-soar-platform/) | 3.5k | — |
 | [Lint Kubernetes manifests and Helm charts for security and readiness issues before cluster deployment with KubeLinter](../../skills/lint-kubernetes-manifests-and-helm-charts-for-security-and-readiness-issues-before-cluster-deployment-with-kubelinter/) | 3.4k | — |
+| [Run authorized security research pipelines in Claude Code with RAPTOR](../../skills/run-authorized-security-research-pipelines-in-claude-code-with-raptor/) | 3.3k | — |
 | [Cariddi Domain Crawler and Endpoint Secret Scanner](../../skills/cariddi-domain-crawler-endpoint-secret-scanner/) | 3.3k | — |
 | [Generate adversarial API test cases from an OpenAPI or GraphQL schema](../../skills/generate-adversarial-api-test-cases-from-openapi-or-graphql-schema/) | 3.2k | — |
 | [Conftest Policy Tester](../../skills/conftest-policy-tester/) | 3.2k | — |

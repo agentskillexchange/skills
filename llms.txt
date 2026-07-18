@@ -1,7 +1,63 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-18
-# Total: 2747 skills
+# Total: 2754 skills
+
+## Run authorized security research pipelines in Claude Code with RAPTOR
+slug: run-authorized-security-research-pipelines-in-claude-code-with-raptor
+category: Security & Verification
+framework: Claude Code
+verification: Security Reviewed
+description: RAPTOR turns Claude Code into an evidence-first offensive and defensive security research workflow for mapping attack surfaces, validating scanner findings, analyzing binaries, generating patches,…
+url: https://agentskillexchange.com/skills/run-authorized-security-research-pipelines-in-claude-code-with-raptor/
+
+## Orchestrate coding agents across desktop, mobile, and headless sessions with Paseo
+slug: orchestrate-coding-agents-across-desktop-mobile-and-headless-sessions-with-paseo
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Published
+description: Paseo runs a local daemon for Claude Code, Codex, Copilot, OpenCode, and Pi agents so operators can start, monitor, attach to, and hand off…
+url: https://agentskillexchange.com/skills/orchestrate-coding-agents-across-desktop-mobile-and-headless-sessions-with-paseo/
+
+## Keep coding agents from over-building implementations with Ponytail
+slug: keep-coding-agents-from-over-building-implementations-with-ponytail
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Published
+description: Ponytail gives coding agents a portable minimal-implementation ruleset, plugin hooks, and review commands so they reuse existing code, native platform features, and standard library…
+url: https://agentskillexchange.com/skills/keep-coding-agents-from-over-building-implementations-with-ponytail/
+
+## Run blueprint-driven research workflows with FAROS
+slug: run-blueprint-driven-research-workflows-with-faros
+category: Research & Scraping
+framework: Multi-Framework
+verification: Security Reviewed
+description: Bind a research profile to a FAROS blueprint and execute an AutoResearch chain from idea generation through experiment scaffolding, paper drafting, and reviewer simulation.
+url: https://agentskillexchange.com/skills/run-blueprint-driven-research-workflows-with-faros/
+
+## Coordinate multi-agent coding rigs with Gas City
+slug: coordinate-multi-agent-coding-rigs-with-gas-city
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Define and supervise multi-agent coding rigs with declarative city configuration, runtime providers, work routing, formulas, waits, mail, and health patrols.
+url: https://agentskillexchange.com/skills/coordinate-multi-agent-coding-rigs-with-gas-city/
+
+## Monitor live coding-agent sessions with Abtop
+slug: monitor-live-coding-agent-sessions-with-abtop
+category: Runbooks & Diagnostics
+framework: Multi-Framework
+verification: Published
+description: Run a local read-only terminal dashboard for Claude Code, Codex CLI, and OpenCode sessions to watch tokens, context, rate limits, child processes, and orphan…
+url: https://agentskillexchange.com/skills/monitor-live-coding-agent-sessions-with-abtop/
+
+## Run OpenCode specialist-agent workflows with Oh My Opencode Slim
+slug: run-opencode-specialist-agent-workflows-with-oh-my-opencode-slim
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Install an OpenCode orchestration plugin that routes codebase work across specialist agents, background tasks, model presets, bundled skills, and live terminal multiplexers.
+url: https://agentskillexchange.com/skills/run-opencode-specialist-agent-workflows-with-oh-my-opencode-slim/
 
 ## Enforce coding-agent protocols mechanically with Harmonist
 slug: enforce-coding-agent-protocols-mechanically-with-harmonist

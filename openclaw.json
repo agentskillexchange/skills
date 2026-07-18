@@ -2,8 +2,85 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-18",
-  "total": 2747,
+  "total": 2754,
   "skills": [
+    {
+      "slug": "run-authorized-security-research-pipelines-in-claude-code-with-raptor",
+      "name": "Run authorized security research pipelines in Claude Code with RAPTOR",
+      "title": "Run authorized security research pipelines in Claude Code with RAPTOR",
+      "description": "RAPTOR turns Claude Code into an evidence-first offensive and defensive security research workflow for mapping attack surfaces, validating scanner findings, analyzing binaries, generating patches,…",
+      "category": "Security & Verification",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/gadievron/raptor",
+      "github_repo": "gadievron/raptor"
+    },
+    {
+      "slug": "orchestrate-coding-agents-across-desktop-mobile-and-headless-sessions-with-paseo",
+      "name": "Orchestrate coding agents across desktop, mobile, and headless sessions with Paseo",
+      "title": "Orchestrate coding agents across desktop, mobile, and headless sessions with Paseo",
+      "description": "Paseo runs a local daemon for Claude Code, Codex, Copilot, OpenCode, and Pi agents so operators can start, monitor, attach to, and hand off…",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/getpaseo/paseo",
+      "github_repo": "getpaseo/paseo"
+    },
+    {
+      "slug": "keep-coding-agents-from-over-building-implementations-with-ponytail",
+      "name": "Keep coding agents from over-building implementations with Ponytail",
+      "title": "Keep coding agents from over-building implementations with Ponytail",
+      "description": "Ponytail gives coding agents a portable minimal-implementation ruleset, plugin hooks, and review commands so they reuse existing code, native platform features, and standard library…",
+      "category": "Code Quality & Review",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/DietrichGebert/ponytail",
+      "github_repo": "DietrichGebert/ponytail"
+    },
+    {
+      "slug": "run-blueprint-driven-research-workflows-with-faros",
+      "name": "Run blueprint-driven research workflows with FAROS",
+      "title": "Run blueprint-driven research workflows with FAROS",
+      "description": "Bind a research profile to a FAROS blueprint and execute an AutoResearch chain from idea generation through experiment scaffolding, paper drafting, and reviewer simulation.",
+      "category": "Research & Scraping",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/OpenNSWM-Lab/FAROS",
+      "github_repo": "OpenNSWM-Lab/FAROS"
+    },
+    {
+      "slug": "coordinate-multi-agent-coding-rigs-with-gas-city",
+      "name": "Coordinate multi-agent coding rigs with Gas City",
+      "title": "Coordinate multi-agent coding rigs with Gas City",
+      "description": "Define and supervise multi-agent coding rigs with declarative city configuration, runtime providers, work routing, formulas, waits, mail, and health patrols.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/gastownhall/gascity",
+      "github_repo": "gastownhall/gascity"
+    },
+    {
+      "slug": "monitor-live-coding-agent-sessions-with-abtop",
+      "name": "Monitor live coding-agent sessions with Abtop",
+      "title": "Monitor live coding-agent sessions with Abtop",
+      "description": "Run a local read-only terminal dashboard for Claude Code, Codex CLI, and OpenCode sessions to watch tokens, context, rate limits, child processes, and orphan…",
+      "category": "Runbooks & Diagnostics",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/graykode/abtop",
+      "github_repo": "graykode/abtop"
+    },
+    {
+      "slug": "run-opencode-specialist-agent-workflows-with-oh-my-opencode-slim",
+      "name": "Run OpenCode specialist-agent workflows with Oh My Opencode Slim",
+      "title": "Run OpenCode specialist-agent workflows with Oh My Opencode Slim",
+      "description": "Install an OpenCode orchestration plugin that routes codebase work across specialist agents, background tasks, model presets, bundled skills, and live terminal multiplexers.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/alvinunreal/oh-my-opencode-slim",
+      "github_repo": "alvinunreal/oh-my-opencode-slim"
+    },
     {
       "slug": "enforce-coding-agent-protocols-mechanically-with-harmonist",
       "name": "Enforce coding-agent protocols mechanically with Harmonist",

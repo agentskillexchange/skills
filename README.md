@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C747-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C754-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C358-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,747 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,754 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,16 +87,16 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Run authorized security research pipelines in Claude Code with RAPTOR](skills/run-authorized-security-research-pipelines-in-claude-code-with-raptor/) | RAPTOR turns Claude Code into an evidence-first offensive and defensive security research workflow for mapping attack surfaces, validating... | 3.3k | Security & Verification |
+| [Orchestrate coding agents across desktop, mobile, and headless sessions with Paseo](skills/orchestrate-coding-agents-across-desktop-mobile-and-headless-sessions-with-paseo/) | Paseo runs a local daemon for Claude Code, Codex, Copilot, OpenCode, and Pi agents so operators can start... | 10.7k | Templates & Workflows |
+| [Keep coding agents from over-building implementations with Ponytail](skills/keep-coding-agents-from-over-building-implementations-with-ponytail/) | Ponytail gives coding agents a portable minimal-implementation ruleset, plugin hooks, and review commands so they reuse existing code... | 85.5k | Code Quality & Review |
+| [Run blueprint-driven research workflows with FAROS](skills/run-blueprint-driven-research-workflows-with-faros/) | Bind a research profile to a FAROS blueprint and execute an AutoResearch chain from idea generation through experiment... | 2.0k | Research & Scraping |
+| [Coordinate multi-agent coding rigs with Gas City](skills/coordinate-multi-agent-coding-rigs-with-gas-city/) | Define and supervise multi-agent coding rigs with declarative city configuration, runtime providers, work routing, formulas, waits, mail, and... | 1.0k | Templates & Workflows |
+| [Monitor live coding-agent sessions with Abtop](skills/monitor-live-coding-agent-sessions-with-abtop/) | Run a local read-only terminal dashboard for Claude Code, Codex CLI, and OpenCode sessions to watch tokens, context... | 3.4k | Runbooks & Diagnostics |
+| [Run OpenCode specialist-agent workflows with Oh My Opencode Slim](skills/run-opencode-specialist-agent-workflows-with-oh-my-opencode-slim/) | Install an OpenCode orchestration plugin that routes codebase work across specialist agents, background tasks, model presets, bundled skills... | 7.0k | Templates & Workflows |
 | [Enforce coding-agent protocols mechanically with Harmonist](skills/enforce-coding-agent-protocols-mechanically-with-harmonist/) | Drop a multi-agent protocol pack into a project so coding assistants must satisfy reviewer, memory, and supply-chain gates... | 2.4k | Code Quality & Review |
 | [Install verified Codex planning and completion loops with LazyCodex](skills/install-verified-codex-planning-and-completion-loops-with-lazycodex/) | Add Codex commands, skills, hooks, diagnostics, and sub-agent roles for deep repository initialization, planning, execution, and evidence-backed completion | 2.8k | Developer Tools |
 | [Run durable AI-agent workflows on Dapr](skills/run-durable-ai-agent-workflows-on-dapr/) | Use Dapr sidecars and workflows to give AI agents durable execution, state, messaging, approvals, and recovery across languages... | 26.0k | Templates & Workflows |
-| [Coordinate multi-harness agent sessions with Omnigent](skills/coordinate-multi-harness-agent-sessions-with-omnigent/) | Run Claude Code, Codex, Cursor, OpenCode, Pi, and custom agents behind one governed orchestration layer with shared sessions... | 7.4k | Templates & Workflows |
-| [Expose Postgres safely to agents with pREST MCP](skills/expose-postgres-safely-to-agents-with-prest-mcp/) | Run pREST in front of existing Postgres databases to provide instant REST APIs and a read-only MCP endpoint... | 4.6k | Data Extraction & Transformation |
-| [Give coding agents AST-backed semantic code search with CocoIndex Code](skills/give-coding-agents-ast-backed-semantic-code-search-with-cocoindex-code/) | Install CocoIndex Code as a skill, plugin, CLI, or MCP server so coding agents can initialize, update, and... | 2.5k | Developer Tools |
-| [Audit coding-agent token spend with CodeBurn](skills/audit-coding-agent-token-spend-with-codeburn/) | Run CodeBurn locally or as an MCP server so agents can inspect token usage, cost, model mix, project... | 8.7k | Monitoring & Alerts |
-| [Run trap-aware agent work through the Fable Method](skills/run-trap-aware-agent-work-through-the-fable-method/) | Use the Fable Method skill bundle to classify work, gather evidence, act narrowly, verify by observation, and judge... | 1.6k | Templates & Workflows |
-| [Connect agents to governed data and code graphs with GraphJin](skills/connect-agents-to-governed-data-and-code-graphs-with-graphjin/) | Expose databases, files, code indexes, workflows, and policy-aware GraphQL through GraphJin's MCP and agent endpoints for governed discovery... | 3.1k | Integrations & Connectors |
-| [Orchestrate Windows coding-agent fleets with Wmux](skills/orchestrate-windows-coding-agent-fleets-with-wmux/) | Use Wmux to fan out Claude Code, Codex, Gemini, and other agent CLIs across native Windows panes, isolated... | 252 | Developer Tools |
 
 ---
 
@@ -108,12 +108,12 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 |---|---|---:|---|
 | [Review agent-authored diffs with Hunk](skills/review-agent-authored-diffs-with-hunk/) | Use Hunk to keep a live terminal review UI open for agent-authored code changes, with Git, Jujutsu, Sapling... | 6.9k | Code Quality & Review |
 | [Audit coding-agent token spend with CodeBurn](skills/audit-coding-agent-token-spend-with-codeburn/) | Run CodeBurn locally or as an MCP server so agents can inspect token usage, cost, model mix, project... | 8.7k | Monitoring & Alerts |
+| [Run OpenCode specialist-agent workflows with Oh My Opencode Slim](skills/run-opencode-specialist-agent-workflows-with-oh-my-opencode-slim/) | Install an OpenCode orchestration plugin that routes codebase work across specialist agents, background tasks, model presets, bundled skills... | 7.0k | Templates & Workflows |
 | [Install verified Codex planning and completion loops with LazyCodex](skills/install-verified-codex-planning-and-completion-loops-with-lazycodex/) | Add Codex commands, skills, hooks, diagnostics, and sub-agent roles for deep repository initialization, planning, execution, and evidence-backed completion | 2.8k | Developer Tools |
-| [Coordinate visible multi-agent CLI workspaces with CCB](skills/coordinate-visible-multi-agent-cli-workspaces-with-ccb/) | Use CCB to run Codex, Claude, Gemini, Cursor, OpenCode, and other CLI agents in a visible project workspace... | 3.2k | Developer Tools |
 | [Drive ComfyUI generation workflows through comfyui-mcp](skills/drive-comfyui-generation-workflows-through-comfyui-mcp/) | Use comfyui-mcp to let an MCP-capable agent author, run, debug, and manage ComfyUI image, video, audio, model, and... | 386 | Image & Creative Automation |
-| [Use Apify MCP for agent web extraction](skills/use-apify-mcp-for-agent-web-extraction/) | Use the Apify MCP server to let MCP-compatible agents run Apify Actors for structured extraction from search, maps... | 2.0k | Research & Scraping |
 | [Inspect BullMQ agent job queues with Bull Board](skills/inspect-bullmq-agent-job-queues-with-bull-board/) | Use Bull Board to add a protected dashboard for Bull and BullMQ queues so operators can inspect, retry... | 3.4k | Monitoring & Alerts |
-| [Query operational databases from MCP clients with DBHub](skills/query-operational-databases-from-mcp-clients-with-dbhub/) | Use DBHub to expose guarded, token-efficient database inspection and SQL tools to MCP clients across Postgres, MySQL, SQL... | 3.1k | Data Extraction & Transformation |
+| [Coordinate visible multi-agent CLI workspaces with CCB](skills/coordinate-visible-multi-agent-cli-workspaces-with-ccb/) | Use CCB to run Codex, Claude, Gemini, Cursor, OpenCode, and other CLI agents in a visible project workspace... | 3.2k | Developer Tools |
+| [Use Apify MCP for agent web extraction](skills/use-apify-mcp-for-agent-web-extraction/) | Use the Apify MCP server to let MCP-compatible agents run Apify Actors for structured extraction from search, maps... | 2.0k | Research & Scraping |
 | [Organize reusable prompt workflows with POML](skills/organize-reusable-prompt-workflows-with-poml/) | Use Microsoft's POML to turn advanced prompts into structured, reusable prompt assets with markup, data components, templating, styling... | 4.9k | Templates & Workflows |
 | [Connect agents to governed data and code graphs with GraphJin](skills/connect-agents-to-governed-data-and-code-graphs-with-graphjin/) | Expose databases, files, code indexes, workflows, and policy-aware GraphQL through GraphJin's MCP and agent endpoints for governed discovery... | 3.1k | Integrations & Connectors |
 
@@ -124,18 +124,18 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | | Category | Skills | What's inside |
 |---|---|---:|---|
 | 🛠️ | [**Developer Tools**](categories/developer-tools/) | 375 | CLI tools, scaffolders, dev environment setup |
-| 🔒 | [**Security & Verification**](categories/security-verification/) | 236 | Vulnerability scanning, auth setup, compliance |
+| 🔒 | [**Security & Verification**](categories/security-verification/) | 237 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 215 | ETL pipelines, parsing, format conversion |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 204 | Scaffolders, boilerplate generators, workflow templates |
-| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 193 | Linting, code review, test generators, coverage |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 207 | Scaffolders, boilerplate generators, workflow templates |
+| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 194 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
-| 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 174 | Incident response, troubleshooting, system diagnostics |
+| 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 175 | Incident response, troubleshooting, system diagnostics |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 151 | Third-party API bridges, webhooks, service connectors |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 150 | Metrics, alerting rules, observability |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 125 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 124 | SDK docs, API parsers, symbol resolvers |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 120 | Web scraping, UI testing, headless browser control |
-| 🔍 | [**Research & Scraping**](categories/research-scraping/) | 117 | Web research, content discovery, data collection |
+| 🔍 | [**Research & Scraping**](categories/research-scraping/) | 118 | Web research, content discovery, data collection |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 105 | Audio/video processing, speech-to-text |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 91 | Image generation, asset processing, design automation |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,747 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,754 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,358 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

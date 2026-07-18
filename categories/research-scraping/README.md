@@ -106,6 +106,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Download every archived snapshot of a URL before site migrations, takedowns, or investigations](../../skills/download-every-archived-snapshot-of-a-url-before-site-migrations-takedowns-or-investigations/) | 3.2k | — |
 | [Search and analyze arXiv papers through MCP workflows](../../skills/search-and-analyze-arxiv-papers-through-mcp-workflows/) | 2.8k | — |
 | [shot-scraper Automated Website Screenshot and Scraping CLI](../../skills/shot-scraper-automated-website-screenshot-scraping-cli/) | 2.3k | — |
+| [Run blueprint-driven research workflows with FAROS](../../skills/run-blueprint-driven-research-workflows-with-faros/) | 2k | — |
 | [Use Apify MCP for agent web extraction](../../skills/use-apify-mcp-for-agent-web-extraction/) | 2k | 5.7k/wk |
 | [Ground research agents in Zotero libraries with LLM for Zotero](../../skills/ground-research-agents-in-zotero-libraries-with-llm-for-zotero/) | 1.7k | — |
 | [Replay And Inspect WARC Web Archives Before Investigation Or Migration With Pywb](../../skills/replay-and-inspect-warc-web-archives-before-investigation-or-migration-with-pywb/) | 1.6k | — |

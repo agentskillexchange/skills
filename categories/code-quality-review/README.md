@@ -8,6 +8,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 |---|---:|
 | [Storybook Component Tester](../../skills/storybook-component-tester/) | ⭐ 89.9k |
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | ⭐ 86.4k |
+| [Keep coding agents from over-building implementations with Ponytail](../../skills/keep-coding-agents-from-over-building-implementations-with-ponytail/) | ⭐ 85.5k |
 | [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer/) | ⭐ 71.5k |
 | [Run long-horizon research and coding agent workflows with DeerFlow](../../skills/run-long-horizon-research-and-coding-agent-workflows-with-deerflow/) | ⭐ 67.5k |
 | [Prettier Config Harmonizer](../../skills/prettier-config-harmonizer-2/) | ⭐ 51.8k |
@@ -15,7 +16,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Prettier Format Enforcement Bot](../../skills/prettier-format-enforcement-bot/) | ⭐ 51.8k |
 | [Ruff Python Linter Configurator](../../skills/ruff-python-linter-configurator/) | ⭐ 47.2k |
 | [Ruff Linter and Formatter](../../skills/ruff-linter-formatter-agent/) | ⭐ 47.2k |
-| [Ruff Linter Configuration Architect](../../skills/ruff-linter-configuration-architect/) | ⭐ 47.2k |
 
 ---
 
@@ -25,6 +25,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 |---|---:|
 | [Storybook Component Tester](../../skills/storybook-component-tester/) | ⬇ 13.7M/wk |
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | ⬇ 46.8M/wk |
+| [Keep coding agents from over-building implementations with Ponytail](../../skills/keep-coding-agents-from-over-building-implementations-with-ponytail/) | ⬇ 25.5k/wk |
 | [Prettier Config Harmonizer](../../skills/prettier-config-harmonizer-2/) | ⬇ 91.2M/wk |
 | [Prettier Config Conflict Resolver](../../skills/prettier-config-conflict-resolver/) | ⬇ 90.5M/wk |
 | [Prettier Format Enforcement Bot](../../skills/prettier-format-enforcement-bot/) | ⬇ 90.5M/wk |
@@ -32,7 +33,6 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Turn a code repository into an MCP-backed knowledge graph for agent code exploration with GitNexus](../../skills/turn-a-code-repository-into-an-mcp-backed-knowledge-graph-for-agent-code-exploration-with-gitnexus/) | ⬇ 138.2k/wk |
 | [ESLint Auto-Fix Agent](../../skills/eslint-auto-fix-agent/) | ⬇ 120.2M/wk |
 | [ESLint Auto-Fix Orchestrator](../../skills/eslint-autofix-orchestrator/) | ⬇ 120.2M/wk |
-| [ESLint Auto-Fix Pipeline](../../skills/eslint-autofix-pipeline/) | ⬇ 120.2M/wk |
 
 ---
 
@@ -42,6 +42,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 |---|---:|---:|
 | [Storybook Component Tester](../../skills/storybook-component-tester/) | 89.9k | 13.7M/wk |
 | [Playwright Test Recorder](../../skills/playwright-test-recorder/) | 86.4k | 46.8M/wk |
+| [Keep coding agents from over-building implementations with Ponytail](../../skills/keep-coding-agents-from-over-building-implementations-with-ponytail/) | 85.5k | 25.5k/wk |
 | [Docker Build Cache Optimizer](../../skills/docker-build-cache-optimizer/) | 71.5k | — |
 | [Run long-horizon research and coding agent workflows with DeerFlow](../../skills/run-long-horizon-research-and-coding-agent-workflows-with-deerflow/) | 67.5k | — |
 | [Prettier Config Harmonizer](../../skills/prettier-config-harmonizer-2/) | 51.8k | 91.2M/wk |

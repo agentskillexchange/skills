@@ -121,6 +121,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Jinja2 Infrastructure Template Engine](../../skills/jinja2-infrastructure-template-engine/) | 11.6k | — |
 | [Jinja2 Template Engine](../../skills/jinja2-template-engine-agent/) | 11.6k | — |
 | [Build enterprise RAG and agent workflows with Bisheng](../../skills/build-enterprise-rag-and-agent-workflows-with-bisheng/) | 11.4k | — |
+| [Orchestrate coding agents across desktop, mobile, and headless sessions with Paseo](../../skills/orchestrate-coding-agents-across-desktop-mobile-and-headless-sessions-with-paseo/) | 10.7k | 19.4k/wk |
 | [Run production multi-agent workflows with Hive](../../skills/run-production-multi-agent-workflows-with-hive/) | 10.5k | — |
 | [SonarQube Gate Checker](../../skills/sonarqube-gate-checker-2/) | 10.4k | — |
 | [Yeoman Scaffold Runner](../../skills/yeoman-scaffold-runner/) | 10.1k | 20/wk |
@@ -141,6 +142,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Run durable agent tasks and event-driven workflows with Hatchet](../../skills/run-durable-agent-tasks-and-event-driven-workflows-with-hatchet/) | 7.2k | 298.3k/wk |
 | [Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext](../../skills/pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-stay-readable-with-jupytext/) | 7.2k | — |
 | [Run durable Go agent schedules with gocron](../../skills/run-durable-go-agent-schedules-with-gocron/) | 7.1k | — |
+| [Run OpenCode specialist-agent workflows with Oh My Opencode Slim](../../skills/run-opencode-specialist-agent-workflows-with-oh-my-opencode-slim/) | 7k | 24.2k/wk |
 | [Inspect live web apps and apply code changes with Stagewise](../../skills/inspect-live-web-apps-and-apply-code-changes-with-stagewise/) | 6.7k | 799/wk |
 | [Parameterize and execute notebooks as repeatable runs](../../skills/parameterize-and-execute-notebooks-as-repeatable-runs/) | 6.4k | — |
 | [Study customer-service triage and handoff patterns with the OpenAI CS agents demo](../../skills/study-customer-service-triage-and-handoff-patterns-with-the-openai-cs-agents-demo/) | 6.3k | — |
@@ -195,6 +197,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Run spec-first Claude Code development workflows with MoAI-ADK](../../skills/run-spec-first-claude-code-development-workflows-with-moai-adk/) | 1.1k | 41/wk |
 | [Drive spec-first coding workflows with task boards, worktrees, and agent handoffs using Spec Kitty](../../skills/drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-handoffs-using-spec-kitty/) | 1.1k | — |
 | [Prepare bid proposal drafts and compliance checks with OpenBidKit Yibiao](../../skills/prepare-bid-proposal-drafts-and-compliance-checks-with-openbidkit-yibiao/) | 1k | — |
+| [Coordinate multi-agent coding rigs with Gas City](../../skills/coordinate-multi-agent-coding-rigs-with-gas-city/) | 1k | — |
 | [Run academic writing, analysis, and replication workflows with quality gates in claude-code-my-workflow](../../skills/run-academic-writing-analysis-and-replication-workflows-with-quality-gates-in-claude-code-my-workflow/) | 970 | — |
 | [Build and sync n8n workflows from code with n8n-as-code](../../skills/build-and-sync-n8n-workflows-from-code-with-n8n-as-code/) | 884 | 297/wk |
 | [Build deterministic multi-agent networks with Inngest AgentKit](../../skills/build-deterministic-multi-agent-networks-with-inngest-agentkit/) | 880 | 62.8k/wk |

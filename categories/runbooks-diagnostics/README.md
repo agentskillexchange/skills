@@ -155,6 +155,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [AWS CloudWatch Runbook Agent](../../skills/aws-cloudwatch-runbook-agent/) | 3.6k | — |
 | [AWS Systems Manager Runbook](../../skills/aws-ssm-runbook-executor/) | 3.6k | — |
 | [AWS Systems Manager Runbook Engine](../../skills/aws-ssm-runbook-engine/) | 3.6k | — |
+| [Monitor live coding-agent sessions with Abtop](../../skills/monitor-live-coding-agent-sessions-with-abtop/) | 3.4k | — |
 | [Capture network device config snapshots diffs and change attribution after edits with Oxidized](../../skills/capture-network-device-config-snapshots-diffs-and-change-attribution-after-edits-with-oxidized/) | 3.4k | — |
 | [Load-test gRPC services from proto files and reusable request fixtures](../../skills/load-test-grpc-services-from-proto-files-and-reusable-request-fixtures/) | 3.3k | — |
 | [Diff live database schemas against declarative SQL before schema drift reaches production with sqldef](../../skills/diff-live-database-schemas-against-declarative-sql-before-schema-drift-reaches-production-with-sqldef/) | 3.1k | — |
