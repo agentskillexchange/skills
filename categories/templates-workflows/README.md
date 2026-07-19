@@ -204,7 +204,9 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Run parallel Claude Code bug-fix and best-practice sweeps with coordinated workers using Claude Code Agent Farm](../../skills/run-parallel-claude-code-bug-fix-and-best-practice-sweeps-with-coordinated-workers-using-claude-code-agent-farm/) | 784 | — |
 | [Reformat Markdown files into a stable house style before review or migration](../../skills/reformat-markdown-files-into-a-stable-house-style-before-review-or-migration/) | 758 | — |
 | [Turn recurring team workflows into installable cross-tool agent skills with Agent Skill Creator](../../skills/turn-recurring-team-workflows-into-installable-cross-tool-agent-skills-with-agent-skill-creator/) | 744 | — |
+| [Install a governed Claude Code agent team with AppGenesisForge](../../skills/install-a-governed-claude-code-agent-team-with-appgenesisforge/) | 705 | — |
 | [Run ticket queues through unattended coding-agent batches and escalate only on blockers with Codex Autorunner](../../skills/run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner/) | 670 | — |
+| [Run spec-first agentic engineering workflows with Flow-Next](../../skills/run-spec-first-agentic-engineering-workflows-with-flow-next/) | 662 | — |
 | [Govern agent skills, MCP servers, prompts, and tool calls with DefenseClaw](../../skills/govern-agent-skills-mcp-servers-prompts-and-tool-calls-with-defenseclaw/) | 647 | — |
 | [Self-Improvement / Learnings Capture](../../skills/self-improvement-learnings-capture/) | 627 | — |
 | [Sync dbt schema YAML and inherited column metadata before docs drift accumulates with dbt-osmosis](../../skills/sync-dbt-schema-yaml-and-inherited-column-metadata-before-docs-drift-accumulates-with-dbt-osmosis/) | 622 | — |

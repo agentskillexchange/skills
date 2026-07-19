@@ -2,8 +2,52 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-19",
-  "total": 2761,
+  "total": 2765,
   "skills": [
+    {
+      "slug": "run-spec-first-agentic-engineering-workflows-with-flow-next",
+      "name": "Run spec-first agentic engineering workflows with Flow-Next",
+      "title": "Run spec-first agentic engineering workflows with Flow-Next",
+      "description": "Turn rough coding intent into durable specs, task graphs, fresh-context worker runs, adversarial reviews, PR bodies, and evidence receipts.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/gmickel/flow-next",
+      "github_repo": "gmickel/flow-next"
+    },
+    {
+      "slug": "install-a-governed-claude-code-agent-team-with-appgenesisforge",
+      "name": "Install a governed Claude Code agent team with AppGenesisForge",
+      "title": "Install a governed Claude Code agent team with AppGenesisForge",
+      "description": "Add a Claude Code team scaffold with defined roles, stage gates, mandatory skills, blocking hooks, and Definition of Done checklists for app delivery.",
+      "category": "Templates & Workflows",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/pcliangx/AppGenesisForge",
+      "github_repo": "pcliangx/AppGenesisForge"
+    },
+    {
+      "slug": "run-deterministic-multi-agent-coding-workflows-with-bernstein",
+      "name": "Run deterministic multi-agent coding workflows with Bernstein",
+      "title": "Run deterministic multi-agent coding workflows with Bernstein",
+      "description": "Orchestrate parallel CLI coding agents in isolated git worktrees with reproducible scheduling, gates, replay journals, and optional tamper-evident audit receipts.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/sipyourdrink-ltd/bernstein",
+      "github_repo": "sipyourdrink-ltd/bernstein"
+    },
+    {
+      "slug": "bridge-local-coding-agents-into-chat-apps-with-cc-connect",
+      "name": "Bridge local coding agents into chat apps with cc-connect",
+      "title": "Bridge local coding agents into chat apps with cc-connect",
+      "description": "Let operators control local Claude Code, Codex, Cursor, Gemini CLI, and other coding agents from Slack, Discord, Telegram, Feishu/Lark, DingTalk, LINE, and WeChat Work.",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/chenhg5/cc-connect",
+      "github_repo": "chenhg5/cc-connect"
+    },
     {
       "slug": "apply-an-anti-ai-slop-design-workflow-to-pages-components-audits-and-redesigns-with-hallmark",
       "name": "Apply an anti-AI-slop design workflow to pages, components, audits, and redesigns with Hallmark",

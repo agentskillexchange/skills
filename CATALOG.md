@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2761 published skills** across **17 categories** · 2,368 security reviewed · Updated 2026-07-19 13:26 UTC
+> **2765 published skills** across **17 categories** · 2,368 security reviewed · Updated 2026-07-19 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (375 skills)
+### 🛠️ Developer Tools (376 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -346,6 +346,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Control Android devices with an on-device AI agent using PokeClaw](skills/control-android-devices-with-an-on-device-ai-agent-using-pokeclaw/) | Run an on-device Android control loop that inspects screens and performs app actions locally for mobile automation… | Security Reviewed | 760 | — |
 | [Generate and continuously refresh CLAUDE.md, AGENTS.md, MCP config, and editor rules from the live codebase with Caliber](skills/generate-and-continuously-refresh-claude-md-agents-md-mcp-config-and-editor-rules-from-the-live-codebase-with-caliber/) | Use Caliber when agent-facing repo instructions have started drifting from the actual codebase and you want one… | Security Reviewed | 717 | 6.5k/wk |
 | [Store Python project task runners in pyproject.toml with taskipy](skills/store-python-project-task-runners-in-pyproject-toml-with-taskipy/) | Define short Python project commands in pyproject.toml so agents and maintainers can run the same test, lint, docs,… | Security Reviewed | 714 | — |
+| [Run deterministic multi-agent coding workflows with Bernstein](skills/run-deterministic-multi-agent-coding-workflows-with-bernstein/) | Orchestrate parallel CLI coding agents in isolated git worktrees with reproducible scheduling, gates, replay… | Security Reviewed | 704 | — |
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | Convert a finished coding-agent session into a shareable HTML replay instead of sending raw logs or bulky screen… | Security Reviewed | 621 | 4.9k/wk |
 | [Preview and approve coding-agent execution plans with Overture](skills/preview-and-approve-coding-agent-execution-plans-with-overture/) | Render an AI coding agent's plan as an interactive flowchart so a human can inspect dependencies, attach context,… | Security Reviewed | 619 | 320/wk |
 | [Run deterministic SQL and dbt analysis under coding agents with Altimate Code](skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/) | Adds deterministic SQL analysis, dbt-aware tooling, warehouse metadata, lineage, and test-generation workflows… | Published | 552 | 195/wk |
@@ -861,7 +862,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (207 skills)
+### 📄 Templates & Workflows (209 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1031,7 +1032,9 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Run parallel Claude Code bug-fix and best-practice sweeps with coordinated workers using Claude Code Agent Farm](skills/run-parallel-claude-code-bug-fix-and-best-practice-sweeps-with-coordinated-workers-using-claude-code-agent-farm/) | Use Claude Code Agent Farm when a repo needs many Claude Code workers to run in parallel on bug-fix or best-practice… | Security Reviewed | 784 | — |
 | [Reformat Markdown files into a stable house style before review or migration](skills/reformat-markdown-files-into-a-stable-house-style-before-review-or-migration/) | Runs mdformat to rewrite Markdown into a consistent CommonMark-oriented layout or check mode in CI. Use it when an… | Security Reviewed | 758 | — |
 | [Turn recurring team workflows into installable cross-tool agent skills with Agent Skill Creator](skills/turn-recurring-team-workflows-into-installable-cross-tool-agent-skills-with-agent-skill-creator/) | Feed an agent your docs, links, code, or rough process notes and it generates, validates, installs, and optionally… | Security Reviewed | 744 | — |
+| [Install a governed Claude Code agent team with AppGenesisForge](skills/install-a-governed-claude-code-agent-team-with-appgenesisforge/) | Add a Claude Code team scaffold with defined roles, stage gates, mandatory skills, blocking hooks, and Definition of… | Security Reviewed | 705 | — |
 | [Run ticket queues through unattended coding-agent batches and escalate only on blockers with Codex Autorunner](skills/run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner/) | Turn a planned backlog into markdown tickets, dispatch them through coding agents, and only get pulled back in when… | Security Reviewed | 670 | — |
+| [Run spec-first agentic engineering workflows with Flow-Next](skills/run-spec-first-agentic-engineering-workflows-with-flow-next/) | Turn rough coding intent into durable specs, task graphs, fresh-context worker runs, adversarial reviews, PR bodies,… | Security Reviewed | 662 | — |
 | [Govern agent skills, MCP servers, prompts, and tool calls with DefenseClaw](skills/govern-agent-skills-mcp-servers-prompts-and-tool-calls-with-defenseclaw/) | Use DefenseClaw as an operator-controlled admission, runtime guardrail, sandbox, and audit layer before untrusted… | Security Reviewed | 647 | — |
 | [Self-Improvement / Learnings Capture](skills/self-improvement-learnings-capture/) | Capture failures, corrections, and repeatable lessons so important operational knowledge persists across sessions. | Published | 627 | — |
 | [Sync dbt schema YAML and inherited column metadata before docs drift accumulates with dbt-osmosis](skills/sync-dbt-schema-yaml-and-inherited-column-metadata-before-docs-drift-accumulates-with-dbt-osmosis/) | Keep dbt schema YAML and column documentation aligned with the project so stale metadata does not pile up between… | Security Reviewed | 622 | — |
@@ -1661,7 +1664,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (151 skills)
+### 🔗 Integrations & Connectors (152 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1698,6 +1701,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Build portable single-file agent memory with Memvid](skills/build-portable-single-file-agent-memory-with-memvid/) | Use Memvid when an agent needs local, portable long-term memory and retrieval without running a vector database or… | Security Reviewed | 15.7k | 4k/wk |
 | [Give coding agents Figma layout context through MCP](skills/give-coding-agents-figma-layout-context-through-mcp/) | Configure Framelink's Figma MCP server so coding agents can fetch clean design layout context from Figma files… | Security Reviewed | 14.9k | 257.9k/wk |
 | [Expose approved database operations to MCP clients with MCP Toolbox before ad hoc SQL glue sprawls](skills/expose-approved-database-operations-to-mcp-clients-with-mcp-toolbox-before-ad-hoc-sql-glue-sprawls/) | Use MCP Toolbox to turn database access into a constrained MCP tool surface, with prebuilt or custom tools that… | Security Reviewed | 14.7k | — |
+| [Bridge local coding agents into chat apps with cc-connect](skills/bridge-local-coding-agents-into-chat-apps-with-cc-connect/) | Let operators control local Claude Code, Codex, Cursor, Gemini CLI, and other coding agents from Slack, Discord,… | Security Reviewed | 14.2k | 17.2k/wk |
 | [Formbricks Open Source Survey and Experience Management Platform](skills/formbricks-open-source-survey-experience-management/) | Formbricks is an open source survey platform and privacy-first experience management solution. Create in-app,… | Security Reviewed | 12.1k | — |
 | [Formbricks Open-Source Survey Platform](skills/formbricks-open-source-survey-platform/) | Formbricks is an open-source survey and experience-management platform with link, website, email, and in-app… | Security Reviewed | 12k | — |
 | [Logto Open Source Authentication and Authorization Infrastructure](skills/logto-open-source-auth-infrastructure/) | Logto is a modern, open-source authentication and authorization infrastructure built on OIDC and OAuth 2.1. It… | Security Reviewed | 11.9k | — |

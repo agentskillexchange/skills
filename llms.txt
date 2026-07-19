@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-19
-# Total: 2761 skills
+# Total: 2765 skills
+
+## Run spec-first agentic engineering workflows with Flow-Next
+slug: run-spec-first-agentic-engineering-workflows-with-flow-next
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Turn rough coding intent into durable specs, task graphs, fresh-context worker runs, adversarial reviews, PR bodies, and evidence receipts.
+url: https://agentskillexchange.com/skills/run-spec-first-agentic-engineering-workflows-with-flow-next/
+
+## Install a governed Claude Code agent team with AppGenesisForge
+slug: install-a-governed-claude-code-agent-team-with-appgenesisforge
+category: Templates & Workflows
+framework: Claude Code
+verification: Security Reviewed
+description: Add a Claude Code team scaffold with defined roles, stage gates, mandatory skills, blocking hooks, and Definition of Done checklists for app delivery.
+url: https://agentskillexchange.com/skills/install-a-governed-claude-code-agent-team-with-appgenesisforge/
+
+## Run deterministic multi-agent coding workflows with Bernstein
+slug: run-deterministic-multi-agent-coding-workflows-with-bernstein
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Orchestrate parallel CLI coding agents in isolated git worktrees with reproducible scheduling, gates, replay journals, and optional tamper-evident audit receipts.
+url: https://agentskillexchange.com/skills/run-deterministic-multi-agent-coding-workflows-with-bernstein/
+
+## Bridge local coding agents into chat apps with cc-connect
+slug: bridge-local-coding-agents-into-chat-apps-with-cc-connect
+category: Integrations & Connectors
+framework: Multi-Framework
+verification: Security Reviewed
+description: Let operators control local Claude Code, Codex, Cursor, Gemini CLI, and other coding agents from Slack, Discord, Telegram, Feishu/Lark, DingTalk, LINE, and WeChat Work.
+url: https://agentskillexchange.com/skills/bridge-local-coding-agents-into-chat-apps-with-cc-connect/
 
 ## Apply an anti-AI-slop design workflow to pages, components, audits, and redesigns with Hallmark
 slug: apply-an-anti-ai-slop-design-workflow-to-pages-components-audits-and-redesigns-with-hallmark

@@ -71,6 +71,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Build portable single-file agent memory with Memvid](../../skills/build-portable-single-file-agent-memory-with-memvid/) | 15.7k | 4k/wk |
 | [Give coding agents Figma layout context through MCP](../../skills/give-coding-agents-figma-layout-context-through-mcp/) | 14.9k | 257.9k/wk |
 | [Expose approved database operations to MCP clients with MCP Toolbox before ad hoc SQL glue sprawls](../../skills/expose-approved-database-operations-to-mcp-clients-with-mcp-toolbox-before-ad-hoc-sql-glue-sprawls/) | 14.7k | — |
+| [Bridge local coding agents into chat apps with cc-connect](../../skills/bridge-local-coding-agents-into-chat-apps-with-cc-connect/) | 14.2k | 17.2k/wk |
 | [Formbricks Open Source Survey and Experience Management Platform](../../skills/formbricks-open-source-survey-experience-management/) | 12.1k | — |
 | [Formbricks Open-Source Survey Platform](../../skills/formbricks-open-source-survey-platform/) | 12k | — |
 | [Logto Open Source Authentication and Authorization Infrastructure](../../skills/logto-open-source-auth-infrastructure/) | 11.9k | — |
