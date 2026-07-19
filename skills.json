@@ -1,8 +1,78 @@
 {
   "version": "2.0",
-  "total": 2756,
+  "total": 2761,
   "generated": "2026-07-19",
   "skills": [
+    {
+      "slug": "apply-an-anti-ai-slop-design-workflow-to-pages-components-audits-and-redesigns-with-hallmark",
+      "name": "Apply an anti-AI-slop design workflow to pages, components, audits, and redesigns with Hallmark",
+      "title": "Apply an anti-AI-slop design workflow to pages, components, audits, and redesigns with Hallmark",
+      "description": "Give coding agents a design skill for greenfield UI, component work, audits, redesigns, and visual DNA extraction from screenshots or URLs.",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 13075
+      },
+      "source_url": "https://github.com/Nutlope/hallmark",
+      "github_repo": "Nutlope/hallmark"
+    },
+    {
+      "slug": "turn-markdown-or-raw-content-into-agent-generated-html-artifacts-with-html-anything",
+      "name": "Turn Markdown or raw content into agent-generated HTML artifacts with HTML Anything",
+      "title": "Turn Markdown or raw content into agent-generated HTML artifacts with HTML Anything",
+      "description": "Run a local agentic HTML editor that detects coding-agent CLIs, streams generated HTML into a sandboxed preview, and exports pages, decks, posters, reports, and…",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "signals": {
+        "github_stars": 7843
+      },
+      "source_url": "https://github.com/nexu-io/html-anything",
+      "github_repo": "nexu-io/html-anything"
+    },
+    {
+      "slug": "route-authorized-reverse-engineering-and-security-analysis-tasks-to-the-right-agent-playbook",
+      "name": "Route authorized reverse-engineering and security-analysis tasks to the right agent playbook",
+      "title": "Route authorized reverse-engineering and security-analysis tasks to the right agent playbook",
+      "description": "Give agents a routing pack for authorized APK, binary, mobile, API, malware, CTF, and penetration-test analysis with tool checks and case structure.",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 8409
+      },
+      "source_url": "https://github.com/zhaoxuya520/reverse-skill",
+      "github_repo": "zhaoxuya520/reverse-skill"
+    },
+    {
+      "slug": "generate-high-fidelity-html-prototypes-decks-animations-and-design-reviews-with-huashu-design",
+      "name": "Generate high-fidelity HTML prototypes, decks, animations, and design reviews with Huashu Design",
+      "title": "Generate high-fidelity HTML prototypes, decks, animations, and design reviews with Huashu Design",
+      "description": "Use a documented design skill to produce HTML-native prototypes, slides, motion demos, visualizations, and review passes from real brand or project context.",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 21661
+      },
+      "source_url": "https://github.com/alchaincyf/huashu-design",
+      "github_repo": "alchaincyf/huashu-design"
+    },
+    {
+      "slug": "operate-an-obsidian-vault-as-an-agent-maintained-second-brain",
+      "name": "Operate an Obsidian vault as an agent-maintained second brain",
+      "title": "Operate an Obsidian vault as an agent-maintained second brain",
+      "description": "Let agents ingest sources, update Obsidian notes, reconcile contradictions, search vault context, and maintain a living knowledge base through documented commands.",
+      "category": "Calendar, Email & Productivity",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 3399
+      },
+      "source_url": "https://github.com/eugeniughelbur/obsidian-second-brain",
+      "github_repo": "eugeniughelbur/obsidian-second-brain"
+    },
     {
       "slug": "monitor-claude-code-sessions-and-tool-activity-with-claude-code-agent-monitor",
       "name": "Monitor Claude Code sessions and tool activity with Claude Code Agent Monitor",
@@ -38082,7 +38152,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 14577075,
+        "npm_weekly_downloads": 14543303,
         "license": "MIT"
       },
       "source_url": "https://github.com/stripe/stripe-node",
@@ -38098,7 +38168,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 103,
-        "npm_weekly_downloads": 2363545,
+        "npm_weekly_downloads": 2386697,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/DataDog/datadog-api-client-typescript",
@@ -38144,7 +38214,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 27264,
-        "npm_weekly_downloads": 134344329,
+        "npm_weekly_downloads": 134337785,
         "license": "MIT"
       },
       "source_url": "https://github.com/eslint/eslint",
@@ -38175,7 +38245,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 8501906,
+        "npm_weekly_downloads": 8570484,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/aws/aws-sdk-js-v3",
@@ -38191,7 +38261,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 32542160,
+        "npm_weekly_downloads": 33048963,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/aws/aws-sdk-js-v3",
@@ -38207,7 +38277,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3051,
-        "npm_weekly_downloads": 52240,
+        "npm_weekly_downloads": 52576,
         "license": "MIT"
       },
       "source_url": "https://github.com/sendgrid/sendgrid-nodejs",
@@ -38223,7 +38293,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1539,
-        "npm_weekly_downloads": 5097611,
+        "npm_weekly_downloads": 5102148,
         "license": "MIT"
       },
       "source_url": "https://github.com/twilio/twilio-node",
@@ -38239,7 +38309,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 14577075,
+        "npm_weekly_downloads": 14543303,
         "license": "MIT"
       },
       "source_url": "https://github.com/stripe/stripe-node",
@@ -38255,7 +38325,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1465,
-        "npm_weekly_downloads": 991875,
+        "npm_weekly_downloads": 1010650,
         "license": "MIT"
       },
       "source_url": "https://github.com/jsforce/jsforce",
@@ -38271,7 +38341,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 397,
-        "npm_weekly_downloads": 1237463,
+        "npm_weekly_downloads": 1238954,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/HubSpot/hubspot-api-nodejs",
@@ -38287,7 +38357,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 5610,
-        "npm_weekly_downloads": 1434006,
+        "npm_weekly_downloads": 1432550,
         "license": "MIT"
       },
       "source_url": "https://github.com/makenotion/notion-sdk-js",
@@ -38332,7 +38402,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 24,
-        "npm_weekly_downloads": 4556,
+        "npm_weekly_downloads": 5008,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/opsgenie/opsgenie-nodejs-sdk",
@@ -38364,7 +38434,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 811,
-        "npm_weekly_downloads": 8226364
+        "npm_weekly_downloads": 8409825
       },
       "source_url": "https://github.com/DataDog/dd-trace-js",
       "github_repo": "datadog/dd-trace-js"
@@ -38379,7 +38449,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 25248,
-        "npm_weekly_downloads": 2263207,
+        "npm_weekly_downloads": 2284912,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/pulumi/pulumi",
@@ -38514,7 +38584,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 712,
-        "npm_weekly_downloads": 94190
+        "npm_weekly_downloads": 96527
       },
       "source_url": "https://github.com/getsentry/sentry-mcp",
       "github_repo": "getsentry/sentry-mcp"
@@ -38575,7 +38645,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1290,
-        "npm_weekly_downloads": 359,
+        "npm_weekly_downloads": 306,
         "license": "MIT"
       },
       "source_url": "https://github.com/steipete/claude-code-mcp",
@@ -38606,7 +38676,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 393,
-        "npm_weekly_downloads": 1531,
+        "npm_weekly_downloads": 1860,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/e2b-dev/mcp-server",
@@ -38646,7 +38716,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 10942,
-        "npm_weekly_downloads": 26804853,
+        "npm_weekly_downloads": 26927983,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/openai/openai-node",
@@ -38817,7 +38887,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 33289,
-        "npm_weekly_downloads": 6307013,
+        "npm_weekly_downloads": 5973412,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/microsoft/playwright-mcp",
@@ -38850,7 +38920,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 89986,
-        "npm_weekly_downloads": 64580988,
+        "npm_weekly_downloads": 64785367,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/microsoft/playwright",

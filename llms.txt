@@ -1,7 +1,47 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-19
-# Total: 2756 skills
+# Total: 2761 skills
+
+## Apply an anti-AI-slop design workflow to pages, components, audits, and redesigns with Hallmark
+slug: apply-an-anti-ai-slop-design-workflow-to-pages-components-audits-and-redesigns-with-hallmark
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Give coding agents a design skill for greenfield UI, component work, audits, redesigns, and visual DNA extraction from screenshots or URLs.
+url: https://agentskillexchange.com/skills/apply-an-anti-ai-slop-design-workflow-to-pages-components-audits-and-redesigns-with-hallmark/
+
+## Turn Markdown or raw content into agent-generated HTML artifacts with HTML Anything
+slug: turn-markdown-or-raw-content-into-agent-generated-html-artifacts-with-html-anything
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Published
+description: Run a local agentic HTML editor that detects coding-agent CLIs, streams generated HTML into a sandboxed preview, and exports pages, decks, posters, reports, and…
+url: https://agentskillexchange.com/skills/turn-markdown-or-raw-content-into-agent-generated-html-artifacts-with-html-anything/
+
+## Route authorized reverse-engineering and security-analysis tasks to the right agent playbook
+slug: route-authorized-reverse-engineering-and-security-analysis-tasks-to-the-right-agent-playbook
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Give agents a routing pack for authorized APK, binary, mobile, API, malware, CTF, and penetration-test analysis with tool checks and case structure.
+url: https://agentskillexchange.com/skills/route-authorized-reverse-engineering-and-security-analysis-tasks-to-the-right-agent-playbook/
+
+## Generate high-fidelity HTML prototypes, decks, animations, and design reviews with Huashu Design
+slug: generate-high-fidelity-html-prototypes-decks-animations-and-design-reviews-with-huashu-design
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use a documented design skill to produce HTML-native prototypes, slides, motion demos, visualizations, and review passes from real brand or project context.
+url: https://agentskillexchange.com/skills/generate-high-fidelity-html-prototypes-decks-animations-and-design-reviews-with-huashu-design/
+
+## Operate an Obsidian vault as an agent-maintained second brain
+slug: operate-an-obsidian-vault-as-an-agent-maintained-second-brain
+category: Calendar, Email & Productivity
+framework: Multi-Framework
+verification: Security Reviewed
+description: Let agents ingest sources, update Obsidian notes, reconcile contradictions, search vault context, and maintain a living knowledge base through documented commands.
+url: https://agentskillexchange.com/skills/operate-an-obsidian-vault-as-an-agent-maintained-second-brain/
 
 ## Monitor Claude Code sessions and tool activity with Claude Code Agent Monitor
 slug: monitor-claude-code-sessions-and-tool-activity-with-claude-code-agent-monitor

@@ -2,8 +2,63 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-19",
-  "total": 2756,
+  "total": 2761,
   "skills": [
+    {
+      "slug": "apply-an-anti-ai-slop-design-workflow-to-pages-components-audits-and-redesigns-with-hallmark",
+      "name": "Apply an anti-AI-slop design workflow to pages, components, audits, and redesigns with Hallmark",
+      "title": "Apply an anti-AI-slop design workflow to pages, components, audits, and redesigns with Hallmark",
+      "description": "Give coding agents a design skill for greenfield UI, component work, audits, redesigns, and visual DNA extraction from screenshots or URLs.",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Nutlope/hallmark",
+      "github_repo": "Nutlope/hallmark"
+    },
+    {
+      "slug": "turn-markdown-or-raw-content-into-agent-generated-html-artifacts-with-html-anything",
+      "name": "Turn Markdown or raw content into agent-generated HTML artifacts with HTML Anything",
+      "title": "Turn Markdown or raw content into agent-generated HTML artifacts with HTML Anything",
+      "description": "Run a local agentic HTML editor that detects coding-agent CLIs, streams generated HTML into a sandboxed preview, and exports pages, decks, posters, reports, and…",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/nexu-io/html-anything",
+      "github_repo": "nexu-io/html-anything"
+    },
+    {
+      "slug": "route-authorized-reverse-engineering-and-security-analysis-tasks-to-the-right-agent-playbook",
+      "name": "Route authorized reverse-engineering and security-analysis tasks to the right agent playbook",
+      "title": "Route authorized reverse-engineering and security-analysis tasks to the right agent playbook",
+      "description": "Give agents a routing pack for authorized APK, binary, mobile, API, malware, CTF, and penetration-test analysis with tool checks and case structure.",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/zhaoxuya520/reverse-skill",
+      "github_repo": "zhaoxuya520/reverse-skill"
+    },
+    {
+      "slug": "generate-high-fidelity-html-prototypes-decks-animations-and-design-reviews-with-huashu-design",
+      "name": "Generate high-fidelity HTML prototypes, decks, animations, and design reviews with Huashu Design",
+      "title": "Generate high-fidelity HTML prototypes, decks, animations, and design reviews with Huashu Design",
+      "description": "Use a documented design skill to produce HTML-native prototypes, slides, motion demos, visualizations, and review passes from real brand or project context.",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/alchaincyf/huashu-design",
+      "github_repo": "alchaincyf/huashu-design"
+    },
+    {
+      "slug": "operate-an-obsidian-vault-as-an-agent-maintained-second-brain",
+      "name": "Operate an Obsidian vault as an agent-maintained second brain",
+      "title": "Operate an Obsidian vault as an agent-maintained second brain",
+      "description": "Let agents ingest sources, update Obsidian notes, reconcile contradictions, search vault context, and maintain a living knowledge base through documented commands.",
+      "category": "Calendar, Email & Productivity",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/eugeniughelbur/obsidian-second-brain",
+      "github_repo": "eugeniughelbur/obsidian-second-brain"
+    },
     {
       "slug": "monitor-claude-code-sessions-and-tool-activity-with-claude-code-agent-monitor",
       "name": "Monitor Claude Code sessions and tool activity with Claude Code Agent Monitor",

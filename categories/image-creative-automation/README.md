@@ -70,14 +70,16 @@ Image generation, asset processing, design automation, and creative tooling.
 | [SVG Animation Builder](../../skills/svg-animation-builder/) | 24.6k | 2.8M/wk |
 | [SVGO SVG Optimization Tool](../../skills/svgo-svg-optimization-tool/) | 22.4k | 28.7M/wk |
 | [rembg AI Background Removal CLI and Python Library](../../skills/rembg-ai-background-removal-cli/) | 22.4k | — |
+| [Generate high-fidelity HTML prototypes, decks, animations, and design reviews with Huashu Design](../../skills/generate-high-fidelity-html-prototypes-decks-animations-and-design-reviews-with-huashu-design/) | 21.7k | — |
 | [BlurHash Compact Image Placeholder Encoder](../../skills/blurhash-compact-image-placeholder-encoder/) | 17k | 898k/wk |
 | [ImageMagick Batch Converter CLI](../../skills/imagemagick-batch-converter-cli/) | 16.2k | — |
 | [ImageMagick Batch Processor](../../skills/imagemagick-batch-processor/) | 16.2k | — |
 | [ImageMagick Batch Transform Agent](../../skills/imagemagick-batch-transform-agent/) | 16.2k | — |
 | [Konva.js HTML5 Canvas Interactive Graphics Framework](../../skills/konva-js-html5-canvas-interactive-graphics-framework/) | 14.3k | 1.2M/wk |
 | [Satori HTML and CSS to SVG Image Generator by Vercel](../../skills/satori-html-css-svg-image-generator/) | 13.2k | 1.3M/wk |
+| [Apply an anti-AI-slop design workflow to pages, components, audits, and redesigns with Hallmark](../../skills/apply-an-anti-ai-slop-design-workflow-to-pages-components-audits-and-redesigns-with-hallmark/) | 13.1k | — |
 | [libvips High-Performance Image Processing Library and CLI](../../skills/libvips-high-performance-image-processing-library-cli/) | 11.2k | — |
-| [OpenAI Image Gen](../../skills/openai-image-gen/) | 10.9k | 26.8M/wk |
+| [OpenAI Image Gen](../../skills/openai-image-gen/) | 10.9k | 26.9M/wk |
 | [DALL-E 3 Batch Asset Generator](../../skills/dalle-3-batch-asset-generator/) | 10.8k | 18.1M/wk |
 | [DALL-E Batch Image Generator](../../skills/dalle-batch-image-generator/) | 10.8k | 18.1M/wk |
 | [DALL-E Image Variation Generator](../../skills/dalle-image-variation-generator/) | 10.8k | 18.1M/wk |
@@ -90,6 +92,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Thumbor Smart Image Processing Service](../../skills/thumbor-smart-image-processing-service/) | 10.5k | — |
 | [Render HTML-native agent videos with slash-command workflows using HyperFrames](../../skills/render-html-native-agent-videos-with-slash-command-workflows-using-hyperframes/) | 9.5k | 28k/wk |
 | [Penrose Mathematical Diagram Generator from Plain Text Notation](../../skills/penrose-math-diagram-generator/) | 7.9k | — |
+| [Turn Markdown or raw content into agent-generated HTML artifacts with HTML Anything](../../skills/turn-markdown-or-raw-content-into-agent-generated-html-artifacts-with-html-anything/) | 7.8k | — |
 | [Stable Diffusion LoRA Training Pipeline](../../skills/stable-diffusion-lora-training-pipeline/) | 7k | — |
 | [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](../../skills/pixelmatch-image-comparison-library/) | 6.8k | 8.7M/wk |
 | [Bulk import and reconcile large photo archives into Immich without manual re-upload loops using immich-go](../../skills/bulk-import-and-reconcile-large-photo-archives-into-immich-without-manual-re-upload-loops-using-immich-go/) | 6k | — |

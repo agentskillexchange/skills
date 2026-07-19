@@ -94,6 +94,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Vikunja Self-Hosted Task Management and Project Organization Platform](../../skills/vikunja-self-hosted-task-management/) | 3.8k | — |
 | [NeoMutt Feature-Rich Terminal Email Client](../../skills/neomutt-terminal-email-client/) | 3.7k | — |
 | [gcalcli Google Calendar Command Line Interface](../../skills/gcalcli-google-calendar-cli/) | 3.7k | — |
+| [Operate an Obsidian vault as an agent-maintained second brain](../../skills/operate-an-obsidian-vault-as-an-agent-maintained-second-brain/) | 3.4k | — |
 | [Inline CSS into HTML emails before delivery across mail clients with Juice](../../skills/inline-css-into-html-emails-before-delivery-across-mail-clients-juice/) | 3.2k | 2.4M/wk |
 | [khal Standards-Based CLI Calendar Application](../../skills/khal-cli-calendar-application-caldav/) | 3k | — |
 | [Slack Channel Summarizer](../../skills/slack-channel-summarizer-bolt-sdk/) | 2.9k | 2.6M/wk |

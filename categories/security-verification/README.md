@@ -121,6 +121,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [OSV-Scanner Dependency Vulnerability Detector](../../skills/osv-scanner-dependency-vulnerability-detector/) | 8.6k | — |
 | [Checkov IaC Scanner](../../skills/checkov-iac-scanner/) | 8.6k | — |
 | [Run controlled cybersecurity agent workflows with CAI](../../skills/run-controlled-cybersecurity-agent-workflows-with-cai/) | 8.6k | — |
+| [Route authorized reverse-engineering and security-analysis tasks to the right agent playbook](../../skills/route-authorized-reverse-engineering-and-security-analysis-tasks-to-the-right-agent-playbook/) | 8.4k | — |
 | [Benchmark Kubernetes clusters against CIS controls with kube-bench](../../skills/benchmark-kubernetes-clusters-against-cis-controls-with-kube-bench/) | 8k | — |
 | [Scan Python code for risky security patterns with Bandit before review or release](../../skills/scan-python-code-for-risky-security-patterns-with-bandit-before-review-or-release/) | 7.9k | — |
 | [Check Kubernetes hosts against CIS guidance with kube-bench before audit or hardening work](../../skills/check-kubernetes-hosts-against-cis-guidance-with-kube-bench-before-audit-or-hardening-work/) | 7.8k | — |
