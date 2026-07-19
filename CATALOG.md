@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2754 published skills** across **17 categories** · 2,360 security reviewed · Updated 2026-07-18 19:26 UTC
+> **2756 published skills** across **17 categories** · 2,360 security reviewed · Updated 2026-07-19 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -636,7 +636,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (215 skills)
+### 🔄 Data Extraction & Transformation (216 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -810,6 +810,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Translate technical PDFs through RetainPDF while preserving layout](skills/translate-technical-pdfs-through-retainpdf-while-preserving-layout/) | Route scanned, scientific, and technical PDFs through RetainPDF so an agent can produce translated PDFs while… | Security Reviewed | 2k | — |
 | [Query and rewrite Markdown structure with mdq](skills/query-and-rewrite-markdown-structure-with-mdq/) | Use mdq when an agent needs to target headings, lists, links, or other Markdown structure without falling back to… | Security Reviewed | 1.7k | — |
 | [Anyquery Universal SQL Engine with MCP Integration](skills/anyquery-universal-sql-engine-mcp-integration/) | Anyquery is a SQL query engine that lets you run SQL against 40+ apps, files, and databases including GitHub,… | Security Reviewed | 1.7k | — |
+| [Let agents draft and manage Bdash SQL queries through MCP](skills/let-agents-draft-and-manage-bdash-sql-queries-through-mcp/) | Connect Bdash's SQL workspace to MCP clients so an agent can list configured data sources and write SQL into the… | Security Reviewed | 1.5k | — |
 | [Convert mixed documents into agent-ready Markdown and JSON with DocStrange](skills/convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange/) | Convert PDFs, scans, office files, images, and URLs into clean Markdown, structured JSON, CSV, or HTML before an… | Security Reviewed | 1.5k | 90/wk |
 | [Repair, split, merge, and normalize PDFs with qpdf before downstream processing](skills/repair-split-merge-and-normalize-pdfs-with-qpdf-before-downstream-processing/) | Preprocess messy PDFs into a stable form before extraction, review, packaging, or delivery workflows depend on them. | Security Reviewed | 1.5k | — |
 | [Documind AI-Powered Structured Data Extraction from Documents](skills/documind-ai-structured-data-extraction/) | Documind is an open-source Node.js tool that uses AI to extract structured JSON data from PDFs and other documents.… | Security Reviewed | 1.5k | 14/wk |
@@ -1818,7 +1819,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (150 skills)
+### 📊 Monitoring & Alerts (151 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -1929,6 +1930,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Trace, evaluate, simulate, and guardrail agent releases with Future AGI](skills/trace-evaluate-simulate-and-guardrail-agent-releases-with-future-agi/) | Use Future AGI to instrument agent runs, run evals and simulations, apply guardrails, and turn production traces… | Security Reviewed | 1k | 1.9k/wk |
 | [Lint and validate Prometheus alerting rules before noisy or broken alerts reach production with Pint](skills/lint-and-validate-prometheus-alerting-rules-before-noisy-or-broken-alerts-reach-production-with-pint/) | Check Prometheus alerting and recording rules in CI or ad hoc runs so invalid, misleading, or dangerous rules are… | Published | 1k | — |
 | [LangSmith SDK for LLM Tracing and Evaluation](skills/langsmith-sdk-for-llm-tracing-and-evaluation/) | LangSmith provides tracing, evaluation, and debugging workflows for LLM applications. This skill is useful when an… | Security Reviewed | 843 | 5.4M/wk |
+| [Monitor Claude Code sessions and tool activity with Claude Code Agent Monitor](skills/monitor-claude-code-sessions-and-tool-activity-with-claude-code-agent-monitor/) | Install Claude Code hooks that stream session, tool, subagent, and workflow events into a local dashboard for live… | Security Reviewed | 815 | — |
 | [Datadog MCP Server](skills/datadog-mcp-server/) | Datadog MCP Server is built around Datadog observability platform. The underlying ecosystem is represented by… | Security Reviewed | 811 | 8.2M/wk |
 | [Datadog Anomaly Alert Router](skills/datadog-anomaly-alert-router/) | Routes Datadog anomaly detection alerts to appropriate response channels using the Datadog Events API v2 and… | Security Reviewed | 791 | 6.6M/wk |
 | [Datadog Anomaly Detection Agent](skills/datadog-anomaly-detection-agent-2/) | Monitors Datadog metric streams using the Datadog API v2 and applies ML-based anomaly detection to alert on… | Security Reviewed | 791 | 6.6M/wk |

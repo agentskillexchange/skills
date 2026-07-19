@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-07-18
-# Total: 2754 skills
+# Generated: 2026-07-19
+# Total: 2756 skills
+
+## Monitor Claude Code sessions and tool activity with Claude Code Agent Monitor
+slug: monitor-claude-code-sessions-and-tool-activity-with-claude-code-agent-monitor
+category: Monitoring & Alerts
+framework: Claude Code
+verification: Security Reviewed
+description: Install Claude Code hooks that stream session, tool, subagent, and workflow events into a local dashboard for live observability and review.
+url: https://agentskillexchange.com/skills/monitor-claude-code-sessions-and-tool-activity-with-claude-code-agent-monitor/
+
+## Let agents draft and manage Bdash SQL queries through MCP
+slug: let-agents-draft-and-manage-bdash-sql-queries-through-mcp
+category: Data Extraction & Transformation
+framework: MCP
+verification: Security Reviewed
+description: Connect Bdash's SQL workspace to MCP clients so an agent can list configured data sources and write SQL into the active query editor for…
+url: https://agentskillexchange.com/skills/let-agents-draft-and-manage-bdash-sql-queries-through-mcp/
 
 ## Run authorized security research pipelines in Claude Code with RAPTOR
 slug: run-authorized-security-research-pipelines-in-claude-code-with-raptor

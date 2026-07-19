@@ -1,9 +1,31 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-07-18",
-  "total": 2754,
+  "generated": "2026-07-19",
+  "total": 2756,
   "skills": [
+    {
+      "slug": "monitor-claude-code-sessions-and-tool-activity-with-claude-code-agent-monitor",
+      "name": "Monitor Claude Code sessions and tool activity with Claude Code Agent Monitor",
+      "title": "Monitor Claude Code sessions and tool activity with Claude Code Agent Monitor",
+      "description": "Install Claude Code hooks that stream session, tool, subagent, and workflow events into a local dashboard for live observability and review.",
+      "category": "Monitoring & Alerts",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/hoangsonww/Claude-Code-Agent-Monitor",
+      "github_repo": "hoangsonww/Claude-Code-Agent-Monitor"
+    },
+    {
+      "slug": "let-agents-draft-and-manage-bdash-sql-queries-through-mcp",
+      "name": "Let agents draft and manage Bdash SQL queries through MCP",
+      "title": "Let agents draft and manage Bdash SQL queries through MCP",
+      "description": "Connect Bdash's SQL workspace to MCP clients so an agent can list configured data sources and write SQL into the active query editor for…",
+      "category": "Data Extraction & Transformation",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/bdash-app/bdash",
+      "github_repo": "bdash-app/bdash"
+    },
     {
       "slug": "run-authorized-security-research-pipelines-in-claude-code-with-raptor",
       "name": "Run authorized security research pipelines in Claude Code with RAPTOR",
