@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2765 published skills** across **17 categories** · 2,371 security reviewed · Updated 2026-07-19 19:26 UTC
+> **2768 published skills** across **17 categories** · 2,371 security reviewed · Updated 2026-07-20 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -862,7 +862,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (209 skills)
+### 📄 Templates & Workflows (212 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1004,6 +1004,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Generate domain-specific Claude Code agent teams and shared skills with Harness](skills/generate-domain-specific-claude-code-agent-teams-and-shared-skills-with-harness/) | Turn a project description into a Claude Code team architecture with generated agents, shared skills, and… | Security Reviewed | 2.8k | — |
 | [Define file-native Git workflows for agents with GitAgent](skills/define-file-native-git-workflows-for-agents-with-gitagent/) | Store prompts, task chains, and reusable agent workflows as versioned project files so teams can review and reuse… | Security Reviewed | 2.7k | 1.7k/wk |
 | [Coordinate persistent Copilot agent teams with Squad](skills/coordinate-persistent-copilot-agent-teams-with-squad/) | Use Squad to create human-directed specialist agents that persist in a repository, share decisions through files,… | Security Reviewed | 2.5k | 2.1k/wk |
+| [Run Claude Trading Skills for investor market review and trade journaling](skills/run-claude-trading-skills-for-investor-market-review-and-trade-journaling/) | Use the Claude Trading Skills pack to run structured market-regime checks, portfolio reviews, swing-trade screens,… | Security Reviewed | 2.5k | — |
 | [Export live HTML slide decks to PDF handouts before review or archival](skills/export-live-html-slide-decks-to-pdf-handouts-before-review-or-archival/) | Uses DeckTape to open an existing HTML slide deck and render it into a reviewable PDF or per-slide screenshots. It… | Published | 2.4k | 1.4k/wk |
 | [Boot and supervise local multi-service process stacks from one declarative file with process-compose](skills/boot-and-supervise-local-multi-service-process-stacks-from-one-declarative-file-with-process-compose/) | Start, watch, and restart a local stack of app processes together instead of juggling many terminals and ad hoc… | Security Reviewed | 2.3k | — |
 | [Coordinate planner manager worker handoffs for long running AI delivery with Agentic Project Management](skills/coordinate-planner-manager-worker-handoffs-for-long-running-ai-delivery-with-agentic-project-management/) | Keep a large software project moving across planning, execution, and review by handing work between structured agent… | Security Reviewed | 2.2k | 1.9k/wk |
@@ -1048,10 +1049,12 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Build event-driven document agent workflows with LlamaAgents](skills/build-event-driven-document-agent-workflows-with-llamaagents/) | Use LlamaAgents to define async Python workflow steps, coordinate document-centric agent pipelines, and expose those… | Security Reviewed | 389 | — |
 | [Evaluate long-horizon agents against WildClawBench](skills/evaluate-long-horizon-agents-against-wildclawbench/) | Use WildClawBench to benchmark agents on hard end-to-end OpenClaw tasks covering tool orchestration, multimodal… | Published | 359 | — |
 | [Makedown Task Runner](skills/makedown-task-runner/) | Extracts executable task definitions from Markdown files and runs them as shell pipelines. Parses fenced code blocks… | Security Reviewed | 319 | — |
+| [Delegate planned agent work with Elves](skills/delegate-planned-agent-work-with-elves/) | Use Elves to hand a bounded development or research plan to a separate Claude Code or Codex worker while preserving… | Security Reviewed | 188 | — |
 | [Build and refactor Copilot Studio agents as YAML from coding-agent workflows](skills/build-and-refactor-copilot-studio-agents-as-yaml/) | Author, validate, test, and troubleshoot Copilot Studio agents through YAML-driven commands instead of clicking… | Security Reviewed | 166 | — |
 | [Convert browser HAR captures into reusable k6 load tests with har-to-k6](skills/convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6/) | Use har-to-k6 when an agent has recorded browser traffic and needs to turn it into a repeatable k6 script instead of… | Security Reviewed | 159 | 13.5k/wk |
 | [Break large coding jobs into focused subagent missions with AB Method](skills/break-large-coding-jobs-into-focused-subagent-missions-with-ab-method/) | Use AB Method when a Claude Code task is too large for one pass and needs to be broken into focused tasks and missions… | Security Reviewed | 159 | 472/wk |
 | [Langfuse Prompt Management MCP Server](skills/langfuse-prompt-management-mcp-server/) | Langfuse Prompt Management MCP Server connects MCP clients to Langfuse prompt libraries so agents can list,… | Security Reviewed | 159 | — |
+| [Engineer durable Claude Code workflows with cc10x](skills/engineer-durable-claude-code-workflows-with-cc10x/) | Install cc10x as a Claude Code loop engine that routes complex work through specialist agents, reusable skills,… | Security Reviewed | 154 | — |
 | [Distill repository rules and workflows into reusable project skills with Skill-Based Architecture](skills/distill-repository-rules-and-workflows-into-reusable-project-skills-with-skill-based-architecture/) | Turn scattered project rules, workflows, and hard-won lessons into a structured skills directory that future agents… | Security Reviewed | 131 | — |
 | [Triage support tickets and draft customer replies with Claude Code support skills](skills/triage-support-tickets-and-draft-customer-replies-with-claude-code-support-skills/) | Use Claude Code support skills to prioritize tickets, gather customer context, and draft reviewed replies without… | Security Reviewed | 87 | — |
 | [Put coding agents on a governed local Git workflow with AgentPlane](skills/put-coding-agents-on-a-governed-local-git-workflow-with-agentplane/) | Run coding agents inside a repo with explicit policy files, task state, approvals, and closure records when teams… | Security Reviewed | 38 | 817/wk |

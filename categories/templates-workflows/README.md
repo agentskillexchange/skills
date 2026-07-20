@@ -176,6 +176,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Generate domain-specific Claude Code agent teams and shared skills with Harness](../../skills/generate-domain-specific-claude-code-agent-teams-and-shared-skills-with-harness/) | 2.8k | — |
 | [Define file-native Git workflows for agents with GitAgent](../../skills/define-file-native-git-workflows-for-agents-with-gitagent/) | 2.7k | 1.7k/wk |
 | [Coordinate persistent Copilot agent teams with Squad](../../skills/coordinate-persistent-copilot-agent-teams-with-squad/) | 2.5k | 2.1k/wk |
+| [Run Claude Trading Skills for investor market review and trade journaling](../../skills/run-claude-trading-skills-for-investor-market-review-and-trade-journaling/) | 2.5k | — |
 | [Export live HTML slide decks to PDF handouts before review or archival](../../skills/export-live-html-slide-decks-to-pdf-handouts-before-review-or-archival/) | 2.4k | 1.4k/wk |
 | [Boot and supervise local multi-service process stacks from one declarative file with process-compose](../../skills/boot-and-supervise-local-multi-service-process-stacks-from-one-declarative-file-with-process-compose/) | 2.3k | — |
 | [Coordinate planner manager worker handoffs for long running AI delivery with Agentic Project Management](../../skills/coordinate-planner-manager-worker-handoffs-for-long-running-ai-delivery-with-agentic-project-management/) | 2.2k | 1.9k/wk |
@@ -220,10 +221,12 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Build event-driven document agent workflows with LlamaAgents](../../skills/build-event-driven-document-agent-workflows-with-llamaagents/) | 389 | — |
 | [Evaluate long-horizon agents against WildClawBench](../../skills/evaluate-long-horizon-agents-against-wildclawbench/) | 359 | — |
 | [Makedown Task Runner](../../skills/makedown-task-runner/) | 319 | — |
+| [Delegate planned agent work with Elves](../../skills/delegate-planned-agent-work-with-elves/) | 188 | — |
 | [Build and refactor Copilot Studio agents as YAML from coding-agent workflows](../../skills/build-and-refactor-copilot-studio-agents-as-yaml/) | 166 | — |
 | [Convert browser HAR captures into reusable k6 load tests with har-to-k6](../../skills/convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6/) | 159 | 13.5k/wk |
 | [Break large coding jobs into focused subagent missions with AB Method](../../skills/break-large-coding-jobs-into-focused-subagent-missions-with-ab-method/) | 159 | 472/wk |
 | [Langfuse Prompt Management MCP Server](../../skills/langfuse-prompt-management-mcp-server/) | 159 | — |
+| [Engineer durable Claude Code workflows with cc10x](../../skills/engineer-durable-claude-code-workflows-with-cc10x/) | 154 | — |
 | [Distill repository rules and workflows into reusable project skills with Skill-Based Architecture](../../skills/distill-repository-rules-and-workflows-into-reusable-project-skills-with-skill-based-architecture/) | 131 | — |
 | [Triage support tickets and draft customer replies with Claude Code support skills](../../skills/triage-support-tickets-and-draft-customer-replies-with-claude-code-support-skills/) | 87 | — |
 | [Put coding agents on a governed local Git workflow with AgentPlane](../../skills/put-coding-agents-on-a-governed-local-git-workflow-with-agentplane/) | 38 | 817/wk |

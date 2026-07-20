@@ -1,9 +1,42 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-07-19",
-  "total": 2765,
+  "generated": "2026-07-20",
+  "total": 2768,
   "skills": [
+    {
+      "slug": "delegate-planned-agent-work-with-elves",
+      "name": "Delegate planned agent work with Elves",
+      "title": "Delegate planned agent work with Elves",
+      "description": "Use Elves to hand a bounded development or research plan to a separate Claude Code or Codex worker while preserving run files, worktree safety,…",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/aigorahub/elves",
+      "github_repo": "aigorahub/elves"
+    },
+    {
+      "slug": "engineer-durable-claude-code-workflows-with-cc10x",
+      "name": "Engineer durable Claude Code workflows with cc10x",
+      "title": "Engineer durable Claude Code workflows with cc10x",
+      "description": "Install cc10x as a Claude Code loop engine that routes complex work through specialist agents, reusable skills, durable workflow artifacts, and fail-closed review gates.",
+      "category": "Templates & Workflows",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/romiluz13/cc10x",
+      "github_repo": "romiluz13/cc10x"
+    },
+    {
+      "slug": "run-claude-trading-skills-for-investor-market-review-and-trade-journaling",
+      "name": "Run Claude Trading Skills for investor market review and trade journaling",
+      "title": "Run Claude Trading Skills for investor market review and trade journaling",
+      "description": "Use the Claude Trading Skills pack to run structured market-regime checks, portfolio reviews, swing-trade screens, trade journals, and performance retrospectives inside Claude workflows.",
+      "category": "Templates & Workflows",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/tradermonty/claude-trading-skills",
+      "github_repo": "tradermonty/claude-trading-skills"
+    },
     {
       "slug": "run-spec-first-agentic-engineering-workflows-with-flow-next",
       "name": "Run spec-first agentic engineering workflows with Flow-Next",

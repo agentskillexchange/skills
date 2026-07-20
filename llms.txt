@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-07-19
-# Total: 2765 skills
+# Generated: 2026-07-20
+# Total: 2768 skills
+
+## Delegate planned agent work with Elves
+slug: delegate-planned-agent-work-with-elves
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Elves to hand a bounded development or research plan to a separate Claude Code or Codex worker while preserving run files, worktree safety,…
+url: https://agentskillexchange.com/skills/delegate-planned-agent-work-with-elves/
+
+## Engineer durable Claude Code workflows with cc10x
+slug: engineer-durable-claude-code-workflows-with-cc10x
+category: Templates & Workflows
+framework: Claude Code
+verification: Security Reviewed
+description: Install cc10x as a Claude Code loop engine that routes complex work through specialist agents, reusable skills, durable workflow artifacts, and fail-closed review gates.
+url: https://agentskillexchange.com/skills/engineer-durable-claude-code-workflows-with-cc10x/
+
+## Run Claude Trading Skills for investor market review and trade journaling
+slug: run-claude-trading-skills-for-investor-market-review-and-trade-journaling
+category: Templates & Workflows
+framework: Claude Code
+verification: Security Reviewed
+description: Use the Claude Trading Skills pack to run structured market-regime checks, portfolio reviews, swing-trade screens, trade journals, and performance retrospectives inside Claude workflows.
+url: https://agentskillexchange.com/skills/run-claude-trading-skills-for-investor-market-review-and-trade-journaling/
 
 ## Run spec-first agentic engineering workflows with Flow-Next
 slug: run-spec-first-agentic-engineering-workflows-with-flow-next
