@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-20",
-  "total": 2768,
+  "total": 2769,
   "skills": [
+    {
+      "slug": "run-a-solo-multi-agent-coding-cockpit-with-dev-3-0",
+      "name": "Run a solo multi-agent coding cockpit with dev-3.0",
+      "title": "Run a solo multi-agent coding cockpit with dev-3.0",
+      "description": "Use dev-3.0 to turn coding-agent work into isolated Kanban tasks with git worktrees, tmux sessions, live previews, multi-agent launches, and review handoff.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/h0x91b/dev-3.0",
+      "github_repo": "h0x91b/dev-3.0"
+    },
     {
       "slug": "delegate-planned-agent-work-with-elves",
       "name": "Delegate planned agent work with Elves",

@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-20
-# Total: 2768 skills
+# Total: 2769 skills
+
+## Run a solo multi-agent coding cockpit with dev-3.0
+slug: run-a-solo-multi-agent-coding-cockpit-with-dev-3-0
+category: Developer Tools
+framework: Multi-Framework
+verification: Published
+description: Use dev-3.0 to turn coding-agent work into isolated Kanban tasks with git worktrees, tmux sessions, live previews, multi-agent launches, and review handoff.
+url: https://agentskillexchange.com/skills/run-a-solo-multi-agent-coding-cockpit-with-dev-3-0/
 
 ## Delegate planned agent work with Elves
 slug: delegate-planned-agent-work-with-elves
