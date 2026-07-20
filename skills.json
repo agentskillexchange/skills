@@ -1,8 +1,51 @@
 {
   "version": "2.0",
-  "total": 2769,
+  "total": 2772,
   "generated": "2026-07-20",
   "skills": [
+    {
+      "slug": "link-agent-skills-commands-and-roles-across-coding-assistants-with-open-agent-hub",
+      "name": "Link agent skills, commands, and roles across coding assistants with Open Agent Hub",
+      "title": "Link agent skills, commands, and roles across coding assistants with Open Agent Hub",
+      "description": "Use Open Agent Hub to install, link, and enable reusable skills, agent roles, and slash commands across Claude Code, Codex, Cursor, Gemini, Trae, and…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 934
+      },
+      "source_url": "https://github.com/guanyang/open-agent-hub",
+      "github_repo": "guanyang/open-agent-hub"
+    },
+    {
+      "slug": "run-authorized-ai-assisted-pentest-workflows-with-guardian-cli",
+      "name": "Run authorized AI-assisted pentest workflows with Guardian CLI",
+      "title": "Run authorized AI-assisted pentest workflows with Guardian CLI",
+      "description": "Use Guardian CLI to orchestrate authorized penetration tests with AI planning, tool selection, evidence capture, triage, and reporting across common security scanners.",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1748
+      },
+      "source_url": "https://github.com/zakirkun/guardian-cli",
+      "github_repo": "zakirkun/guardian-cli"
+    },
+    {
+      "slug": "route-large-codebase-analysis-through-gemini-mcp-tool",
+      "name": "Route large codebase analysis through Gemini MCP Tool",
+      "title": "Route large codebase analysis through Gemini MCP Tool",
+      "description": "Use Gemini MCP Tool to let MCP-capable coding agents delegate large file and codebase analysis to Gemini or Antigravity CLI without leaving the agent…",
+      "category": "Developer Tools",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 2260,
+        "npm_weekly_downloads": 11864
+      },
+      "source_url": "https://github.com/jamubc/gemini-mcp-tool",
+      "github_repo": "jamubc/gemini-mcp-tool"
+    },
     {
       "slug": "run-a-solo-multi-agent-coding-cockpit-with-dev-3-0",
       "name": "Run a solo multi-agent coding cockpit with dev-3.0",
@@ -38265,7 +38308,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 14543303,
+        "npm_weekly_downloads": 15996334,
         "license": "MIT"
       },
       "source_url": "https://github.com/stripe/stripe-node",
@@ -38281,7 +38324,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 103,
-        "npm_weekly_downloads": 2386697,
+        "npm_weekly_downloads": 2481174,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/DataDog/datadog-api-client-typescript",
@@ -38327,7 +38370,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 27264,
-        "npm_weekly_downloads": 134337785,
+        "npm_weekly_downloads": 146441841,
         "license": "MIT"
       },
       "source_url": "https://github.com/eslint/eslint",
@@ -38358,7 +38401,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 8570484,
+        "npm_weekly_downloads": 9135770,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/aws/aws-sdk-js-v3",
@@ -38374,7 +38417,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 33048963,
+        "npm_weekly_downloads": 35662349,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/aws/aws-sdk-js-v3",
@@ -38390,7 +38433,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3051,
-        "npm_weekly_downloads": 52576,
+        "npm_weekly_downloads": 55977,
         "license": "MIT"
       },
       "source_url": "https://github.com/sendgrid/sendgrid-nodejs",
@@ -38406,7 +38449,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1539,
-        "npm_weekly_downloads": 5102148,
+        "npm_weekly_downloads": 5463578,
         "license": "MIT"
       },
       "source_url": "https://github.com/twilio/twilio-node",
@@ -38422,7 +38465,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 14543303,
+        "npm_weekly_downloads": 15996334,
         "license": "MIT"
       },
       "source_url": "https://github.com/stripe/stripe-node",
@@ -38438,7 +38481,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1465,
-        "npm_weekly_downloads": 1010650,
+        "npm_weekly_downloads": 1092915,
         "license": "MIT"
       },
       "source_url": "https://github.com/jsforce/jsforce",
@@ -38454,7 +38497,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 397,
-        "npm_weekly_downloads": 1238954,
+        "npm_weekly_downloads": 1307396,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/HubSpot/hubspot-api-nodejs",
@@ -38470,7 +38513,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 5610,
-        "npm_weekly_downloads": 1432550,
+        "npm_weekly_downloads": 1543046,
         "license": "MIT"
       },
       "source_url": "https://github.com/makenotion/notion-sdk-js",
@@ -38515,7 +38558,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 24,
-        "npm_weekly_downloads": 5008,
+        "npm_weekly_downloads": 5445,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/opsgenie/opsgenie-nodejs-sdk",
@@ -38547,7 +38590,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 811,
-        "npm_weekly_downloads": 8409825
+        "npm_weekly_downloads": 8702702
       },
       "source_url": "https://github.com/DataDog/dd-trace-js",
       "github_repo": "datadog/dd-trace-js"
@@ -38562,7 +38605,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 25248,
-        "npm_weekly_downloads": 2284912,
+        "npm_weekly_downloads": 2418428,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/pulumi/pulumi",
@@ -38697,7 +38740,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 712,
-        "npm_weekly_downloads": 96527
+        "npm_weekly_downloads": 102633
       },
       "source_url": "https://github.com/getsentry/sentry-mcp",
       "github_repo": "getsentry/sentry-mcp"
@@ -38758,7 +38801,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1290,
-        "npm_weekly_downloads": 306,
+        "npm_weekly_downloads": 331,
         "license": "MIT"
       },
       "source_url": "https://github.com/steipete/claude-code-mcp",
@@ -38789,7 +38832,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 393,
-        "npm_weekly_downloads": 1860,
+        "npm_weekly_downloads": 1904,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/e2b-dev/mcp-server",
@@ -38829,7 +38872,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 10942,
-        "npm_weekly_downloads": 26927983,
+        "npm_weekly_downloads": 29533977,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/openai/openai-node",
@@ -39000,7 +39043,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 33289,
-        "npm_weekly_downloads": 5973412,
+        "npm_weekly_downloads": 6361565,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/microsoft/playwright-mcp",
@@ -39033,7 +39076,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 89986,
-        "npm_weekly_downloads": 64785367,
+        "npm_weekly_downloads": 70825071,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/microsoft/playwright",

@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-20
-# Total: 2769 skills
+# Total: 2772 skills
+
+## Link agent skills, commands, and roles across coding assistants with Open Agent Hub
+slug: link-agent-skills-commands-and-roles-across-coding-assistants-with-open-agent-hub
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Open Agent Hub to install, link, and enable reusable skills, agent roles, and slash commands across Claude Code, Codex, Cursor, Gemini, Trae, and…
+url: https://agentskillexchange.com/skills/link-agent-skills-commands-and-roles-across-coding-assistants-with-open-agent-hub/
+
+## Run authorized AI-assisted pentest workflows with Guardian CLI
+slug: run-authorized-ai-assisted-pentest-workflows-with-guardian-cli
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Guardian CLI to orchestrate authorized penetration tests with AI planning, tool selection, evidence capture, triage, and reporting across common security scanners.
+url: https://agentskillexchange.com/skills/run-authorized-ai-assisted-pentest-workflows-with-guardian-cli/
+
+## Route large codebase analysis through Gemini MCP Tool
+slug: route-large-codebase-analysis-through-gemini-mcp-tool
+category: Developer Tools
+framework: MCP
+verification: Security Reviewed
+description: Use Gemini MCP Tool to let MCP-capable coding agents delegate large file and codebase analysis to Gemini or Antigravity CLI without leaving the agent…
+url: https://agentskillexchange.com/skills/route-large-codebase-analysis-through-gemini-mcp-tool/
 
 ## Run a solo multi-agent coding cockpit with dev-3.0
 slug: run-a-solo-multi-agent-coding-cockpit-with-dev-3-0

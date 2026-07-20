@@ -191,6 +191,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Run repeatable model and agent eval suites and inspect scoring traces with Inspect AI](../../skills/run-repeatable-model-and-agent-eval-suites-and-inspect-scoring-traces-with-inspect-ai/) | 1.9k | — |
 | [Broker API credentials to AI agents without exposing raw keys using OneCLI](../../skills/broker-api-credentials-to-ai-agents-without-exposing-raw-keys-using-onecli/) | 1.9k | — |
 | [Scan agent skill folders for risky patterns and missing safeguards before sharing or deployment with Cisco Skill Scanner](../../skills/scan-agent-skill-folders-for-risky-patterns-and-missing-safeguards-before-sharing-or-deployment-with-cisco-skill-scanner/) | 1.8k | — |
+| [Run authorized AI-assisted pentest workflows with Guardian CLI](../../skills/run-authorized-ai-assisted-pentest-workflows-with-guardian-cli/) | 1.7k | — |
 | [Scan project dependencies for supply-chain vulnerabilities with MurphySec](../../skills/scan-project-dependencies-for-supply-chain-vulnerabilities-with-murphysec/) | 1.7k | — |
 | [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](../../skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | 1.7k | 2.8M/wk |
 | [Assemble minimal OCI images from declarative package configs with apko](../../skills/assemble-minimal-oci-images-from-declarative-package-configs-with-apko/) | 1.6k | — |

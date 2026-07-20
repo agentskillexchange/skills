@@ -2,8 +2,41 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-20",
-  "total": 2769,
+  "total": 2772,
   "skills": [
+    {
+      "slug": "link-agent-skills-commands-and-roles-across-coding-assistants-with-open-agent-hub",
+      "name": "Link agent skills, commands, and roles across coding assistants with Open Agent Hub",
+      "title": "Link agent skills, commands, and roles across coding assistants with Open Agent Hub",
+      "description": "Use Open Agent Hub to install, link, and enable reusable skills, agent roles, and slash commands across Claude Code, Codex, Cursor, Gemini, Trae, and…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/guanyang/open-agent-hub",
+      "github_repo": "guanyang/open-agent-hub"
+    },
+    {
+      "slug": "run-authorized-ai-assisted-pentest-workflows-with-guardian-cli",
+      "name": "Run authorized AI-assisted pentest workflows with Guardian CLI",
+      "title": "Run authorized AI-assisted pentest workflows with Guardian CLI",
+      "description": "Use Guardian CLI to orchestrate authorized penetration tests with AI planning, tool selection, evidence capture, triage, and reporting across common security scanners.",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/zakirkun/guardian-cli",
+      "github_repo": "zakirkun/guardian-cli"
+    },
+    {
+      "slug": "route-large-codebase-analysis-through-gemini-mcp-tool",
+      "name": "Route large codebase analysis through Gemini MCP Tool",
+      "title": "Route large codebase analysis through Gemini MCP Tool",
+      "description": "Use Gemini MCP Tool to let MCP-capable coding agents delegate large file and codebase analysis to Gemini or Antigravity CLI without leaving the agent…",
+      "category": "Developer Tools",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/jamubc/gemini-mcp-tool",
+      "github_repo": "jamubc/gemini-mcp-tool"
+    },
     {
       "slug": "run-a-solo-multi-agent-coding-cockpit-with-dev-3-0",
       "name": "Run a solo multi-agent coding cockpit with dev-3.0",
