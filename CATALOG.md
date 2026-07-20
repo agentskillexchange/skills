@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2772 published skills** across **17 categories** · 2,377 security reviewed · Updated 2026-07-20 13:26 UTC
+> **2776 published skills** across **17 categories** · 2,377 security reviewed · Updated 2026-07-20 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -866,7 +866,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (212 skills)
+### 📄 Templates & Workflows (215 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1025,6 +1025,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Define repeatable Python automation sessions in code with nox](skills/define-repeatable-python-automation-sessions-in-code-with-nox/) | Encode test, lint, build, and docs routines as named Python sessions so humans and agents run the same workflow… | Security Reviewed | 1.5k | — |
 | [Install Claude Code project workflows with Claude Workflow V2](skills/install-claude-code-project-workflows-with-claude-workflow-v2/) | Load a Claude Code workflow plugin that adds project-oriented commands, specialist agents, skills, and hooks for… | Security Reviewed | 1.4k | 55/wk |
 | [Prepare Rust Release PRs and Changelogs from Workspace Changes with release-plz](skills/prepare-rust-release-prs-and-changelogs-from-workspace-changes-with-release-plz/) | Inspect Rust workspace changes, draft release PRs, bump versions, and assemble changelogs before publishing. | Security Reviewed | 1.3k | — |
+| [Run Parallel Divergent Ideation With ADHD](skills/run-parallel-divergent-ideation-with-adhd/) | Use ADHD to fan out isolated reasoning branches for open-ended coding-agent decisions, then score, prune, and deepen… | Security Reviewed | 1.3k | 78/wk |
 | [Yeoman Generator Builder](skills/yeoman-generator-builder/) | Creates custom Yeoman generators using the yeoman-generator API and yo CLI. Scaffolds generator packages with… | Published | 1.3k | 5M/wk |
 | [Compose typed OpenClaw workflows with approval gates and resumable steps using Lobster](skills/compose-typed-openclaw-workflows-with-approval-gates-and-resumable-steps-using-lobster/) | Use Lobster when an OpenClaw operator wants one deterministic typed workflow step, with approval gates and resumable… | Security Reviewed | 1.1k | — |
 | [Run spec-first Claude Code development workflows with MoAI-ADK](skills/run-spec-first-claude-code-development-workflows-with-moai-adk/) | Use MoAI-ADK to install Claude Code agents and skills for spec-first implementation, TDD, DDD, and quality-gated… | Security Reviewed | 1.1k | 41/wk |
@@ -1036,6 +1037,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Build deterministic multi-agent networks with Inngest AgentKit](skills/build-deterministic-multi-agent-networks-with-inngest-agentkit/) | Use Inngest AgentKit to build TypeScript agent networks with deterministic routing, shared state, MCP tools, and… | Published | 880 | 62.8k/wk |
 | [Run parallel Claude Code bug-fix and best-practice sweeps with coordinated workers using Claude Code Agent Farm](skills/run-parallel-claude-code-bug-fix-and-best-practice-sweeps-with-coordinated-workers-using-claude-code-agent-farm/) | Use Claude Code Agent Farm when a repo needs many Claude Code workers to run in parallel on bug-fix or best-practice… | Security Reviewed | 784 | — |
 | [Reformat Markdown files into a stable house style before review or migration](skills/reformat-markdown-files-into-a-stable-house-style-before-review-or-migration/) | Runs mdformat to rewrite Markdown into a consistent CommonMark-oriented layout or check mode in CI. Use it when an… | Security Reviewed | 758 | — |
+| [Turn Agent Corrections Into Durable Skills With claude-smart](skills/turn-agent-corrections-into-durable-skills-with-claude-smart/) | Use claude-smart to capture corrections and working patterns as preferences, project skills, and shared skills that… | Security Reviewed | 748 | 1.9k/wk |
 | [Turn recurring team workflows into installable cross-tool agent skills with Agent Skill Creator](skills/turn-recurring-team-workflows-into-installable-cross-tool-agent-skills-with-agent-skill-creator/) | Feed an agent your docs, links, code, or rough process notes and it generates, validates, installs, and optionally… | Security Reviewed | 744 | — |
 | [Install a governed Claude Code agent team with AppGenesisForge](skills/install-a-governed-claude-code-agent-team-with-appgenesisforge/) | Add a Claude Code team scaffold with defined roles, stage gates, mandatory skills, blocking hooks, and Definition of… | Security Reviewed | 705 | — |
 | [Run ticket queues through unattended coding-agent batches and escalate only on blockers with Codex Autorunner](skills/run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner/) | Turn a planned backlog into markdown tickets, dispatch them through coding agents, and only get pulled back in when… | Security Reviewed | 670 | — |
@@ -1054,6 +1056,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Evaluate long-horizon agents against WildClawBench](skills/evaluate-long-horizon-agents-against-wildclawbench/) | Use WildClawBench to benchmark agents on hard end-to-end OpenClaw tasks covering tool orchestration, multimodal… | Published | 359 | — |
 | [Makedown Task Runner](skills/makedown-task-runner/) | Extracts executable task definitions from Markdown files and runs them as shell pipelines. Parses fenced code blocks… | Security Reviewed | 319 | — |
 | [Delegate planned agent work with Elves](skills/delegate-planned-agent-work-with-elves/) | Use Elves to hand a bounded development or research plan to a separate Claude Code or Codex worker while preserving… | Security Reviewed | 188 | — |
+| [Reduce Coding-Agent Output Cost With Honey](skills/reduce-coding-agent-output-cost-with-honey/) | Use Honey to make coding agents emit less code, less prose, and denser agent-to-agent handoffs while preserving… | Security Reviewed | 178 | — |
 | [Build and refactor Copilot Studio agents as YAML from coding-agent workflows](skills/build-and-refactor-copilot-studio-agents-as-yaml/) | Author, validate, test, and troubleshoot Copilot Studio agents through YAML-driven commands instead of clicking… | Security Reviewed | 166 | — |
 | [Convert browser HAR captures into reusable k6 load tests with har-to-k6](skills/convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6/) | Use har-to-k6 when an agent has recorded browser traffic and needs to turn it into a repeatable k6 script instead of… | Security Reviewed | 159 | 13.5k/wk |
 | [Break large coding jobs into focused subagent missions with AB Method](skills/break-large-coding-jobs-into-focused-subagent-missions-with-ab-method/) | Use AB Method when a Claude Code task is too large for one pass and needs to be broken into focused tasks and missions… | Security Reviewed | 159 | 472/wk |
@@ -1671,7 +1674,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (152 skills)
+### 🔗 Integrations & Connectors (153 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1801,6 +1804,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Give MCP agents local shared memory with MARM](skills/give-mcp-agents-local-shared-memory-with-marm/) | Use MARM Memory to give Claude Code, Cursor, Codex, Gemini, and other MCP clients a local-first shared memory server… | Security Reviewed | 307 | — |
 | [Connect accounting agents to Xero through MCP](skills/connect-accounting-agents-to-xero-through-mcp/) | Use Xero MCP Server to give approved MCP clients controlled access to Xero accounting data, reports, invoices,… | Security Reviewed | 294 | 8k/wk |
 | [Route production agent loops through BitRouter](skills/route-production-agent-loops-through-bitrouter/) | Use BitRouter as an agentic LLM gateway that routes model, tool, and sub-agent calls with scoped keys, cost policy,… | Security Reviewed | 202 | 258/wk |
+| [Manage Baidu Netdisk Files From Agent Workflows](skills/manage-baidu-netdisk-files-from-agent-workflows/) | Use the Baidu Netdisk storage skill to upload, download, transfer, share, search, move, copy, rename, and list cloud… | Published | 158 | — |
 | [Work with AFFiNE workspaces, documents, and databases from MCP-compatible agents](skills/work-with-affine-workspaces-documents-and-databases-from-mcp-compatible-agents/) | Use affine-mcp-server when an agent needs tool-callable access to AFFiNE workspaces, documents, databases, and… | Security Reviewed | 142 | 2.1k/wk |
 | [Expose Haystack pipelines as webhook endpoints with Hayhooks](skills/expose-haystack-pipelines-as-webhook-endpoints-with-hayhooks/) | Turn an existing Haystack pipeline into an HTTP or MCP endpoint without building and maintaining a custom wrapper… | Security Reviewed | 138 | — |
 | [Query Eventhouse and manage Fabric RTI resources from MCP-compatible agents with Fabric RTI MCP](skills/query-eventhouse-and-manage-fabric-rti-resources-from-mcp-compatible-agents-with-fabric-rti-mcp/) | Use Fabric RTI MCP when an agent needs tool-callable access to Microsoft Fabric Real-Time Intelligence services such… | Security Reviewed | 111 | — |

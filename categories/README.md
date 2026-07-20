@@ -1,17 +1,17 @@
 # Categories
 
-> **2772 skills** across **17 categories**
+> **2776 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
 | 🛠️ | [**Developer Tools**](developer-tools/) | **379** | CLI helpers, dev environment setup, productivity utilities, and devel... |
 | 🔒 | [**Security & Verification**](security-verification/) | **239** | Auth setup, vulnerability scanning, compliance checks, and security a... |
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **216** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
-| 📄 | [**Templates & Workflows**](templates-workflows/) | **212** | Project scaffolding, boilerplate generators, workflow templates, and ... |
+| 📄 | [**Templates & Workflows**](templates-workflows/) | **215** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **194** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **192** | Pipeline configs, deployment automation, build tooling, and continuou... |
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **175** | Incident response, troubleshooting guides, system diagnostics, and op... |
-| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **152** | Third-party API bridges, webhook handlers, service connectors, and pl... |
+| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **153** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **151** | Metrics collection, alerting rules, observability setup, and system m... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **126** | Email automation, calendar management, task coordination, and product... |
 | 📚 | [**Library & API Reference**](library-api-reference/) | **124** | SDK documentation, API guides, framework reference material, and libr... |

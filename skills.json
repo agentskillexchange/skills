@@ -1,8 +1,66 @@
 {
   "version": "2.0",
-  "total": 2772,
+  "total": 2776,
   "generated": "2026-07-20",
   "skills": [
+    {
+      "slug": "turn-agent-corrections-into-durable-skills-with-claude-smart",
+      "name": "Turn Agent Corrections Into Durable Skills With claude-smart",
+      "title": "Turn Agent Corrections Into Durable Skills With claude-smart",
+      "description": "Use claude-smart to capture corrections and working patterns as preferences, project skills, and shared skills that Claude Code, Codex, and OpenCode reuse later.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 748,
+        "npm_weekly_downloads": 1890
+      },
+      "source_url": "https://github.com/ReflexioAI/claude-smart",
+      "github_repo": "ReflexioAI/claude-smart"
+    },
+    {
+      "slug": "manage-baidu-netdisk-files-from-agent-workflows",
+      "name": "Manage Baidu Netdisk Files From Agent Workflows",
+      "title": "Manage Baidu Netdisk Files From Agent Workflows",
+      "description": "Use the Baidu Netdisk storage skill to upload, download, transfer, share, search, move, copy, rename, and list cloud files from natural-language agent sessions.",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "signals": {
+        "github_stars": 158
+      },
+      "source_url": "https://github.com/baidu-netdisk/bdpan-storage",
+      "github_repo": "baidu-netdisk/bdpan-storage"
+    },
+    {
+      "slug": "reduce-coding-agent-output-cost-with-honey",
+      "name": "Reduce Coding-Agent Output Cost With Honey",
+      "title": "Reduce Coding-Agent Output Cost With Honey",
+      "description": "Use Honey to make coding agents emit less code, less prose, and denser agent-to-agent handoffs while preserving correctness boundaries.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 178
+      },
+      "source_url": "https://github.com/Green-PT/honey-for-devs",
+      "github_repo": "Green-PT/honey-for-devs"
+    },
+    {
+      "slug": "run-parallel-divergent-ideation-with-adhd",
+      "name": "Run Parallel Divergent Ideation With ADHD",
+      "title": "Run Parallel Divergent Ideation With ADHD",
+      "description": "Use ADHD to fan out isolated reasoning branches for open-ended coding-agent decisions, then score, prune, and deepen the strongest options.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1284,
+        "npm_weekly_downloads": 78
+      },
+      "source_url": "https://github.com/UditAkhourii/adhd",
+      "github_repo": "UditAkhourii/adhd"
+    },
     {
       "slug": "link-agent-skills-commands-and-roles-across-coding-assistants-with-open-agent-hub",
       "name": "Link agent skills, commands, and roles across coding assistants with Open Agent Hub",

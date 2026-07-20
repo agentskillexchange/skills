@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C772-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C776-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C377-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,772 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,776 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,16 +87,16 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Turn Agent Corrections Into Durable Skills With claude-smart](skills/turn-agent-corrections-into-durable-skills-with-claude-smart/) | Use claude-smart to capture corrections and working patterns as preferences, project skills, and shared skills that Claude Code... | 748 | Templates & Workflows |
+| [Manage Baidu Netdisk Files From Agent Workflows](skills/manage-baidu-netdisk-files-from-agent-workflows/) | Use the Baidu Netdisk storage skill to upload, download, transfer, share, search, move, copy, rename, and list cloud... | 158 | Integrations & Connectors |
+| [Reduce Coding-Agent Output Cost With Honey](skills/reduce-coding-agent-output-cost-with-honey/) | Use Honey to make coding agents emit less code, less prose, and denser agent-to-agent handoffs while preserving correctness... | 178 | Templates & Workflows |
+| [Run Parallel Divergent Ideation With ADHD](skills/run-parallel-divergent-ideation-with-adhd/) | Use ADHD to fan out isolated reasoning branches for open-ended coding-agent decisions, then score, prune, and deepen the... | 1.3k | Templates & Workflows |
 | [Link agent skills, commands, and roles across coding assistants with Open Agent Hub](skills/link-agent-skills-commands-and-roles-across-coding-assistants-with-open-agent-hub/) | Use Open Agent Hub to install, link, and enable reusable skills, agent roles, and slash commands across Claude... | 934 | Developer Tools |
 | [Run authorized AI-assisted pentest workflows with Guardian CLI](skills/run-authorized-ai-assisted-pentest-workflows-with-guardian-cli/) | Use Guardian CLI to orchestrate authorized penetration tests with AI planning, tool selection, evidence capture, triage, and reporting... | 1.7k | Security & Verification |
 | [Route large codebase analysis through Gemini MCP Tool](skills/route-large-codebase-analysis-through-gemini-mcp-tool/) | Use Gemini MCP Tool to let MCP-capable coding agents delegate large file and codebase analysis to Gemini or... | 2.3k | Developer Tools |
 | [Run a solo multi-agent coding cockpit with dev-3.0](skills/run-a-solo-multi-agent-coding-cockpit-with-dev-3-0/) | Use dev-3.0 to turn coding-agent work into isolated Kanban tasks with git worktrees, tmux sessions, live previews, multi-agent... | 225 | Developer Tools |
 | [Delegate planned agent work with Elves](skills/delegate-planned-agent-work-with-elves/) | Use Elves to hand a bounded development or research plan to a separate Claude Code or Codex worker... | 188 | Templates & Workflows |
 | [Engineer durable Claude Code workflows with cc10x](skills/engineer-durable-claude-code-workflows-with-cc10x/) | Install cc10x as a Claude Code loop engine that routes complex work through specialist agents, reusable skills, durable... | 154 | Templates & Workflows |
-| [Run Claude Trading Skills for investor market review and trade journaling](skills/run-claude-trading-skills-for-investor-market-review-and-trade-journaling/) | Use the Claude Trading Skills pack to run structured market-regime checks, portfolio reviews, swing-trade screens, trade journals, and... | 2.5k | Templates & Workflows |
-| [Run spec-first agentic engineering workflows with Flow-Next](skills/run-spec-first-agentic-engineering-workflows-with-flow-next/) | Turn rough coding intent into durable specs, task graphs, fresh-context worker runs, adversarial reviews, PR bodies, and evidence... | 662 | Templates & Workflows |
-| [Install a governed Claude Code agent team with AppGenesisForge](skills/install-a-governed-claude-code-agent-team-with-appgenesisforge/) | Add a Claude Code team scaffold with defined roles, stage gates, mandatory skills, blocking hooks, and Definition of... | 705 | Templates & Workflows |
-| [Run deterministic multi-agent coding workflows with Bernstein](skills/run-deterministic-multi-agent-coding-workflows-with-bernstein/) | Orchestrate parallel CLI coding agents in isolated git worktrees with reproducible scheduling, gates, replay journals, and optional tamper-evident... | 704 | Developer Tools |
 
 ---
 
@@ -106,16 +106,16 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
-| [Bridge local coding agents into chat apps with cc-connect](skills/bridge-local-coding-agents-into-chat-apps-with-cc-connect/) | Let operators control local Claude Code, Codex, Cursor, Gemini CLI, and other coding agents from Slack, Discord, Telegram... | 14.2k | Integrations & Connectors |
 | [Audit coding-agent token spend with CodeBurn](skills/audit-coding-agent-token-spend-with-codeburn/) | Run CodeBurn locally or as an MCP server so agents can inspect token usage, cost, model mix, project... | 8.7k | Monitoring & Alerts |
+| [Bridge local coding agents into chat apps with cc-connect](skills/bridge-local-coding-agents-into-chat-apps-with-cc-connect/) | Let operators control local Claude Code, Codex, Cursor, Gemini CLI, and other coding agents from Slack, Discord, Telegram... | 14.2k | Integrations & Connectors |
 | [Review agent-authored diffs with Hunk](skills/review-agent-authored-diffs-with-hunk/) | Use Hunk to keep a live terminal review UI open for agent-authored code changes, with Git, Jujutsu, Sapling... | 6.9k | Code Quality & Review |
-| [Install verified Codex planning and completion loops with LazyCodex](skills/install-verified-codex-planning-and-completion-loops-with-lazycodex/) | Add Codex commands, skills, hooks, diagnostics, and sub-agent roles for deep repository initialization, planning, execution, and evidence-backed completion | 2.8k | Developer Tools |
-| [Run OpenCode specialist-agent workflows with Oh My Opencode Slim](skills/run-opencode-specialist-agent-workflows-with-oh-my-opencode-slim/) | Install an OpenCode orchestration plugin that routes codebase work across specialist agents, background tasks, model presets, bundled skills... | 7.0k | Templates & Workflows |
 | [Route large codebase analysis through Gemini MCP Tool](skills/route-large-codebase-analysis-through-gemini-mcp-tool/) | Use Gemini MCP Tool to let MCP-capable coding agents delegate large file and codebase analysis to Gemini or... | 2.3k | Developer Tools |
+| [Run OpenCode specialist-agent workflows with Oh My Opencode Slim](skills/run-opencode-specialist-agent-workflows-with-oh-my-opencode-slim/) | Install an OpenCode orchestration plugin that routes codebase work across specialist agents, background tasks, model presets, bundled skills... | 7.0k | Templates & Workflows |
+| [Install verified Codex planning and completion loops with LazyCodex](skills/install-verified-codex-planning-and-completion-loops-with-lazycodex/) | Add Codex commands, skills, hooks, diagnostics, and sub-agent roles for deep repository initialization, planning, execution, and evidence-backed completion | 2.8k | Developer Tools |
 | [Inspect BullMQ agent job queues with Bull Board](skills/inspect-bullmq-agent-job-queues-with-bull-board/) | Use Bull Board to add a protected dashboard for Bull and BullMQ queues so operators can inspect, retry... | 3.4k | Monitoring & Alerts |
 | [Drive ComfyUI generation workflows through comfyui-mcp](skills/drive-comfyui-generation-workflows-through-comfyui-mcp/) | Use comfyui-mcp to let an MCP-capable agent author, run, debug, and manage ComfyUI image, video, audio, model, and... | 386 | Image & Creative Automation |
 | [Use Apify MCP for agent web extraction](skills/use-apify-mcp-for-agent-web-extraction/) | Use the Apify MCP server to let MCP-compatible agents run Apify Actors for structured extraction from search, maps... | 2.0k | Research & Scraping |
-| [Query operational databases from MCP clients with DBHub](skills/query-operational-databases-from-mcp-clients-with-dbhub/) | Use DBHub to expose guarded, token-efficient database inspection and SQL tools to MCP clients across Postgres, MySQL, SQL... | 3.1k | Data Extraction & Transformation |
+| [Turn Agent Corrections Into Durable Skills With claude-smart](skills/turn-agent-corrections-into-durable-skills-with-claude-smart/) | Use claude-smart to capture corrections and working patterns as preferences, project skills, and shared skills that Claude Code... | 748 | Templates & Workflows |
 
 ---
 
@@ -126,11 +126,11 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 🛠️ | [**Developer Tools**](categories/developer-tools/) | 379 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 239 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 216 | ETL pipelines, parsing, format conversion |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 212 | Scaffolders, boilerplate generators, workflow templates |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 215 | Scaffolders, boilerplate generators, workflow templates |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 194 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 175 | Incident response, troubleshooting, system diagnostics |
-| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 152 | Third-party API bridges, webhooks, service connectors |
+| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 153 | Third-party API bridges, webhooks, service connectors |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 151 | Metrics, alerting rules, observability |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 126 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 124 | SDK docs, API parsers, symbol resolvers |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,772 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,776 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,377 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

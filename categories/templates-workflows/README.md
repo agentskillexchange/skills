@@ -193,6 +193,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Define repeatable Python automation sessions in code with nox](../../skills/define-repeatable-python-automation-sessions-in-code-with-nox/) | 1.5k | — |
 | [Install Claude Code project workflows with Claude Workflow V2](../../skills/install-claude-code-project-workflows-with-claude-workflow-v2/) | 1.4k | 55/wk |
 | [Prepare Rust Release PRs and Changelogs from Workspace Changes with release-plz](../../skills/prepare-rust-release-prs-and-changelogs-from-workspace-changes-with-release-plz/) | 1.3k | — |
+| [Run Parallel Divergent Ideation With ADHD](../../skills/run-parallel-divergent-ideation-with-adhd/) | 1.3k | 78/wk |
 | [Yeoman Generator Builder](../../skills/yeoman-generator-builder/) | 1.3k | 5M/wk |
 | [Compose typed OpenClaw workflows with approval gates and resumable steps using Lobster](../../skills/compose-typed-openclaw-workflows-with-approval-gates-and-resumable-steps-using-lobster/) | 1.1k | — |
 | [Run spec-first Claude Code development workflows with MoAI-ADK](../../skills/run-spec-first-claude-code-development-workflows-with-moai-adk/) | 1.1k | 41/wk |
@@ -204,6 +205,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Build deterministic multi-agent networks with Inngest AgentKit](../../skills/build-deterministic-multi-agent-networks-with-inngest-agentkit/) | 880 | 62.8k/wk |
 | [Run parallel Claude Code bug-fix and best-practice sweeps with coordinated workers using Claude Code Agent Farm](../../skills/run-parallel-claude-code-bug-fix-and-best-practice-sweeps-with-coordinated-workers-using-claude-code-agent-farm/) | 784 | — |
 | [Reformat Markdown files into a stable house style before review or migration](../../skills/reformat-markdown-files-into-a-stable-house-style-before-review-or-migration/) | 758 | — |
+| [Turn Agent Corrections Into Durable Skills With claude-smart](../../skills/turn-agent-corrections-into-durable-skills-with-claude-smart/) | 748 | 1.9k/wk |
 | [Turn recurring team workflows into installable cross-tool agent skills with Agent Skill Creator](../../skills/turn-recurring-team-workflows-into-installable-cross-tool-agent-skills-with-agent-skill-creator/) | 744 | — |
 | [Install a governed Claude Code agent team with AppGenesisForge](../../skills/install-a-governed-claude-code-agent-team-with-appgenesisforge/) | 705 | — |
 | [Run ticket queues through unattended coding-agent batches and escalate only on blockers with Codex Autorunner](../../skills/run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner/) | 670 | — |
@@ -222,6 +224,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Evaluate long-horizon agents against WildClawBench](../../skills/evaluate-long-horizon-agents-against-wildclawbench/) | 359 | — |
 | [Makedown Task Runner](../../skills/makedown-task-runner/) | 319 | — |
 | [Delegate planned agent work with Elves](../../skills/delegate-planned-agent-work-with-elves/) | 188 | — |
+| [Reduce Coding-Agent Output Cost With Honey](../../skills/reduce-coding-agent-output-cost-with-honey/) | 178 | — |
 | [Build and refactor Copilot Studio agents as YAML from coding-agent workflows](../../skills/build-and-refactor-copilot-studio-agents-as-yaml/) | 166 | — |
 | [Convert browser HAR captures into reusable k6 load tests with har-to-k6](../../skills/convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6/) | 159 | 13.5k/wk |
 | [Break large coding jobs into focused subagent missions with AB Method](../../skills/break-large-coding-jobs-into-focused-subagent-missions-with-ab-method/) | 159 | 472/wk |

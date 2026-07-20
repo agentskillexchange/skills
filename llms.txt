@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-20
-# Total: 2772 skills
+# Total: 2776 skills
+
+## Turn Agent Corrections Into Durable Skills With claude-smart
+slug: turn-agent-corrections-into-durable-skills-with-claude-smart
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use claude-smart to capture corrections and working patterns as preferences, project skills, and shared skills that Claude Code, Codex, and OpenCode reuse later.
+url: https://agentskillexchange.com/skills/turn-agent-corrections-into-durable-skills-with-claude-smart/
+
+## Manage Baidu Netdisk Files From Agent Workflows
+slug: manage-baidu-netdisk-files-from-agent-workflows
+category: Integrations & Connectors
+framework: Multi-Framework
+verification: Published
+description: Use the Baidu Netdisk storage skill to upload, download, transfer, share, search, move, copy, rename, and list cloud files from natural-language agent sessions.
+url: https://agentskillexchange.com/skills/manage-baidu-netdisk-files-from-agent-workflows/
+
+## Reduce Coding-Agent Output Cost With Honey
+slug: reduce-coding-agent-output-cost-with-honey
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Honey to make coding agents emit less code, less prose, and denser agent-to-agent handoffs while preserving correctness boundaries.
+url: https://agentskillexchange.com/skills/reduce-coding-agent-output-cost-with-honey/
+
+## Run Parallel Divergent Ideation With ADHD
+slug: run-parallel-divergent-ideation-with-adhd
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use ADHD to fan out isolated reasoning branches for open-ended coding-agent decisions, then score, prune, and deepen the strongest options.
+url: https://agentskillexchange.com/skills/run-parallel-divergent-ideation-with-adhd/
 
 ## Link agent skills, commands, and roles across coding assistants with Open Agent Hub
 slug: link-agent-skills-commands-and-roles-across-coding-assistants-with-open-agent-hub
