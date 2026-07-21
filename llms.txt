@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-21
-# Total: 2781 skills
+# Total: 2785 skills
+
+## Run Agent-Assisted Notebook Workflows in JupyterLab With Notebook Intelligence
+slug: run-agent-assisted-notebook-workflows-in-jupyterlab-with-notebook-intelligence
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Notebook Intelligence to add chat, inline edit, autocomplete, MCP tools, Claude Code mode, and coding-agent launchers directly inside JupyterLab.
+url: https://agentskillexchange.com/skills/run-agent-assisted-notebook-workflows-in-jupyterlab-with-notebook-intelligence/
+
+## Coordinate Terminal Coding Agents With hcom
+slug: coordinate-terminal-coding-agents-with-hcom
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use hcom to launch, message, watch, fork, and coordinate multiple terminal coding agents across Claude Code, Codex, Gemini, OpenCode, Cursor, and similar CLIs.
+url: https://agentskillexchange.com/skills/coordinate-terminal-coding-agents-with-hcom/
+
+## Run Spec-Driven Agent Changes With OSpec
+slug: run-spec-driven-agent-changes-with-ospec
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use OSpec to turn a coding request into a repo-persisted spec workflow with initialization, change advancement, verification evidence, and archival.
+url: https://agentskillexchange.com/skills/run-spec-driven-agent-changes-with-ospec/
+
+## Index Large Codebases for Agent Search With Socraticode
+slug: index-large-codebases-for-agent-search-with-socraticode
+category: Developer Tools
+framework: MCP
+verification: Security Reviewed
+description: Use Socraticode to give coding agents a local codebase-intelligence layer for semantic search, dependency graphs, impact analysis, and call-flow investigation.
+url: https://agentskillexchange.com/skills/index-large-codebases-for-agent-search-with-socraticode/
 
 ## Route Codex and Claude Code through an opencodex provider proxy
 slug: route-codex-and-claude-code-through-an-opencodex-provider-proxy

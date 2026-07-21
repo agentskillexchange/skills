@@ -318,6 +318,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [DynamoDB Manager](../../skills/dynamodb-manager/) | 3.6k | 30.5M/wk |
 | [Coordinate visible multi-agent CLI workspaces with CCB](../../skills/coordinate-visible-multi-agent-cli-workspaces-with-ccb/) | 3.2k | 9.9k/wk |
 | [Give MCP clients local Markdown project memory with Basic Memory](../../skills/give-mcp-clients-local-markdown-project-memory-with-basic-memory/) | 3.2k | — |
+| [Index Large Codebases for Agent Search With Socraticode](../../skills/index-large-codebases-for-agent-search-with-socraticode/) | 3.1k | 8.6k/wk |
 | [OpenAPI Spec Validator](../../skills/openapi-spec-validator-agent/) | 3.1k | 1.2M/wk |
 | [Record and replay HTTP fixtures for deterministic Python tests with VCR.py](../../skills/record-and-replay-http-fixtures-for-deterministic-python-tests-with-vcr-py/) | 3k | — |
 | [Install verified Codex planning and completion loops with LazyCodex](../../skills/install-verified-codex-planning-and-completion-loops-with-lazycodex/) | 2.8k | 18.7k/wk |
@@ -386,8 +387,10 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Orchestrate review-first multi-agent development work with Kandev](../../skills/orchestrate-review-first-multi-agent-development-work-with-kandev/) | 405 | 3.5k/wk |
 | [Build embeddable Rust coding agents with Cersei](../../skills/build-embeddable-rust-coding-agents-with-cersei/) | 400 | — |
 | [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 393 | 1.9k/wk |
+| [Coordinate Terminal Coding Agents With hcom](../../skills/coordinate-terminal-coding-agents-with-hcom/) | 393 | — |
 | [Temporal CLI Workflow and Server Control](../../skills/temporal-cli-workflow-server-control/) | 350 | — |
 | [Run Genie planning and execution loops in Claude Code](../../skills/run-genie-planning-execution-loops-in-claude-code/) | 323 | — |
+| [Run Agent-Assisted Notebook Workflows in JupyterLab With Notebook Intelligence](../../skills/run-agent-assisted-notebook-workflows-in-jupyterlab-with-notebook-intelligence/) | 322 | — |
 | [Install focused Claude Code workflow plugins from Claude Night Market](../../skills/install-focused-claude-code-workflow-plugins-from-claude-night-market/) | 291 | — |
 | [Run agent tool calls through pctx Code Mode and unified MCP](../../skills/run-agent-tool-calls-through-pctx-code-mode-and-unified-mcp/) | 264 | 285/wk |
 | [Orchestrate Windows coding-agent fleets with Wmux](../../skills/orchestrate-windows-coding-agent-fleets-with-wmux/) | 252 | — |

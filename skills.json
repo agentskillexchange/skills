@@ -1,8 +1,66 @@
 {
   "version": "2.0",
-  "total": 2781,
+  "total": 2785,
   "generated": "2026-07-21",
   "skills": [
+    {
+      "slug": "run-agent-assisted-notebook-workflows-in-jupyterlab-with-notebook-intelligence",
+      "name": "Run Agent-Assisted Notebook Workflows in JupyterLab With Notebook Intelligence",
+      "title": "Run Agent-Assisted Notebook Workflows in JupyterLab With Notebook Intelligence",
+      "description": "Use Notebook Intelligence to add chat, inline edit, autocomplete, MCP tools, Claude Code mode, and coding-agent launchers directly inside JupyterLab.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 322
+      },
+      "source_url": "https://github.com/plmbr/notebook-intelligence",
+      "github_repo": "plmbr/notebook-intelligence"
+    },
+    {
+      "slug": "coordinate-terminal-coding-agents-with-hcom",
+      "name": "Coordinate Terminal Coding Agents With hcom",
+      "title": "Coordinate Terminal Coding Agents With hcom",
+      "description": "Use hcom to launch, message, watch, fork, and coordinate multiple terminal coding agents across Claude Code, Codex, Gemini, OpenCode, Cursor, and similar CLIs.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 393
+      },
+      "source_url": "https://github.com/aannoo/hcom",
+      "github_repo": "aannoo/hcom"
+    },
+    {
+      "slug": "run-spec-driven-agent-changes-with-ospec",
+      "name": "Run Spec-Driven Agent Changes With OSpec",
+      "title": "Run Spec-Driven Agent Changes With OSpec",
+      "description": "Use OSpec to turn a coding request into a repo-persisted spec workflow with initialization, change advancement, verification evidence, and archival.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 524,
+        "npm_weekly_downloads": 4553
+      },
+      "source_url": "https://github.com/clawplays/ospec",
+      "github_repo": "clawplays/ospec"
+    },
+    {
+      "slug": "index-large-codebases-for-agent-search-with-socraticode",
+      "name": "Index Large Codebases for Agent Search With Socraticode",
+      "title": "Index Large Codebases for Agent Search With Socraticode",
+      "description": "Use Socraticode to give coding agents a local codebase-intelligence layer for semantic search, dependency graphs, impact analysis, and call-flow investigation.",
+      "category": "Developer Tools",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 3132,
+        "npm_weekly_downloads": 8576
+      },
+      "source_url": "https://github.com/giancarloerra/SocratiCode",
+      "github_repo": "giancarloerra/SocratiCode"
+    },
     {
       "slug": "route-codex-and-claude-code-through-an-opencodex-provider-proxy",
       "name": "Route Codex and Claude Code through an opencodex provider proxy",

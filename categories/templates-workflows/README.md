@@ -215,6 +215,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Sync dbt schema YAML and inherited column metadata before docs drift accumulates with dbt-osmosis](../../skills/sync-dbt-schema-yaml-and-inherited-column-metadata-before-docs-drift-accumulates-with-dbt-osmosis/) | 622 | — |
 | [Extract translation keys from code and maintain locale catalogs with i18next-parser](../../skills/extract-translation-keys-from-code-and-maintain-locale-catalogs-i18next-parser/) | 556 | 2.2M/wk |
 | [Ship AG2 multi-agent workflows behind APIs with FastAgency](../../skills/ship-ag2-multi-agent-workflows-behind-apis-with-fastagency/) | 540 | — |
+| [Run Spec-Driven Agent Changes With OSpec](../../skills/run-spec-driven-agent-changes-with-ospec/) | 524 | 4.6k/wk |
 | [Railway App Deployer](../../skills/railway-app-deployer/) | 523 | 143.6k/wk |
 | [Evolve reusable coding-agent skills from failed trajectories with EvoSkill](../../skills/evolve-reusable-coding-agent-skills-from-failed-trajectories-with-evoskill/) | 489 | — |
 | [Coordinate multiple CLI agents through sessions, handoffs, and terminal control APIs with CLI Agent Orchestrator](../../skills/coordinate-multiple-cli-agents-through-sessions-handoffs-and-terminal-control-apis-with-cli-agent-orchestrator/) | 473 | — |
