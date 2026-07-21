@@ -2,8 +2,30 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-21",
-  "total": 2779,
+  "total": 2781,
   "skills": [
+    {
+      "slug": "route-codex-and-claude-code-through-an-opencodex-provider-proxy",
+      "name": "Route Codex and Claude Code through an opencodex provider proxy",
+      "title": "Route Codex and Claude Code through an opencodex provider proxy",
+      "description": "Run a local proxy that lets Codex and Claude Code use configured LLM providers, routed models, and account pools while keeping the normal coding-agent…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/lidge-jun/opencodex",
+      "github_repo": "lidge-jun/opencodex"
+    },
+    {
+      "slug": "coordinate-peer-cli-agents-with-agmsg",
+      "name": "Coordinate peer CLI agents with agmsg",
+      "title": "Coordinate peer CLI agents with agmsg",
+      "description": "Let Claude Code, Codex, Gemini CLI, Copilot CLI, and other terminal agents exchange messages through a shared local SQLite channel.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/fujibee/agmsg",
+      "github_repo": "fujibee/agmsg"
+    },
     {
       "slug": "govern-coding-agent-discovery-and-delivery-through-a-project-local-gaai-backlog",
       "name": "Govern coding-agent discovery and delivery through a project-local GAAI backlog",

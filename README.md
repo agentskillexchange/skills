@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C779-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C781-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C381-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,779 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,781 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Route Codex and Claude Code through an opencodex provider proxy](skills/route-codex-and-claude-code-through-an-opencodex-provider-proxy/) | Run a local proxy that lets Codex and Claude Code use configured LLM providers, routed models, and account... | 1.3k | Developer Tools |
+| [Coordinate peer CLI agents with agmsg](skills/coordinate-peer-cli-agents-with-agmsg/) | Let Claude Code, Codex, Gemini CLI, Copilot CLI, and other terminal agents exchange messages through a shared local... | 1.3k | Developer Tools |
 | [Govern coding-agent discovery and delivery through a project-local GAAI backlog](skills/govern-coding-agent-discovery-and-delivery-through-a-project-local-gaai-backlog/) | Drop a `.gaai/` folder into a project so agents separate scope discovery from isolated delivery, with acceptance criteria... | 152 | Templates & Workflows |
 | [Run Apple-platform coding audits, diagnostics, and simulator checks with Axiom](skills/run-apple-platform-coding-audits-diagnostics-and-simulator-checks-with-axiom/) | Add Axiom's Apple OS skills, agents, and commands so coding assistants can diagnose Xcode builds, Swift issues, crashes... | 1.1k | Developer Tools |
 | [Plan, draft, publish, and review social posts from Claude Code with social-post](skills/plan-draft-publish-and-review-social-posts-from-claude-code-with-social-post/) | Install a Claude Code skill that learns a user's social voice, builds a 14-day content calendar, drafts posts... | 555 | Developer Tools |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Reduce Coding-Agent Output Cost With Honey](skills/reduce-coding-agent-output-cost-with-honey/) | Use Honey to make coding agents emit less code, less prose, and denser agent-to-agent handoffs while preserving correctness... | 178 | Templates & Workflows |
 | [Run Parallel Divergent Ideation With ADHD](skills/run-parallel-divergent-ideation-with-adhd/) | Use ADHD to fan out isolated reasoning branches for open-ended coding-agent decisions, then score, prune, and deepen the... | 1.3k | Templates & Workflows |
 | [Link agent skills, commands, and roles across coding assistants with Open Agent Hub](skills/link-agent-skills-commands-and-roles-across-coding-assistants-with-open-agent-hub/) | Use Open Agent Hub to install, link, and enable reusable skills, agent roles, and slash commands across Claude... | 934 | Developer Tools |
-| [Run authorized AI-assisted pentest workflows with Guardian CLI](skills/run-authorized-ai-assisted-pentest-workflows-with-guardian-cli/) | Use Guardian CLI to orchestrate authorized penetration tests with AI planning, tool selection, evidence capture, triage, and reporting... | 1.7k | Security & Verification |
-| [Route large codebase analysis through Gemini MCP Tool](skills/route-large-codebase-analysis-through-gemini-mcp-tool/) | Use Gemini MCP Tool to let MCP-capable coding agents delegate large file and codebase analysis to Gemini or... | 2.3k | Developer Tools |
 
 ---
 
@@ -123,7 +123,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 381 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 383 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 239 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 216 | ETL pipelines, parsing, format conversion |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 216 | Scaffolders, boilerplate generators, workflow templates |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,779 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,781 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,381 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

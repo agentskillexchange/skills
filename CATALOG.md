@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2779 published skills** across **17 categories** · 2,381 security reviewed · Updated 2026-07-21 01:26 UTC
+> **2781 published skills** across **17 categories** · 2,381 security reviewed · Updated 2026-07-21 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (381 skills)
+### 🛠️ Developer Tools (383 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -330,7 +330,9 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Search cross-agent Markdown memory and conversation history with memsearch](skills/search-cross-agent-markdown-memory-and-conversation-history-with-memsearch/) | Give supported coding agents a shared Markdown-first memory layer so they can recall prior decisions, transcripts,… | Security Reviewed | 1.3k | — |
 | [Terraform MCP Server for Infrastructure as Code](skills/terraform-mcp-server-infrastructure-as-code/) | The official HashiCorp Terraform MCP server integrates with the Terraform Registry and HCP Terraform, enabling AI… | Security Reviewed | 1.3k | — |
 | [WASM Component Model Linker](skills/wasm-component-model-linker/) | Compiles and links WebAssembly components using the WASI Preview 2 Component Model, wasm-tools CLI for component… | Published | 1.3k | — |
+| [Coordinate peer CLI agents with agmsg](skills/coordinate-peer-cli-agents-with-agmsg/) | Let Claude Code, Codex, Gemini CLI, Copilot CLI, and other terminal agents exchange messages through a shared local… | Security Reviewed | 1.3k | 4k/wk |
 | [Claude Code MCP Bridge](skills/claude-code-mcp-bridge/) | Run Claude Code as a one-shot MCP tool so other agents and editors can delegate coding tasks to it. An… | Security Reviewed | 1.3k | 331/wk |
+| [Route Codex and Claude Code through an opencodex provider proxy](skills/route-codex-and-claude-code-through-an-opencodex-provider-proxy/) | Run a local proxy that lets Codex and Claude Code use configured LLM providers, routed models, and account pools… | Security Reviewed | 1.3k | 24k/wk |
 | [Run React Native implementation and troubleshooting workflows with Callstack Agent Skills](skills/run-react-native-implementation-and-troubleshooting-workflows-with-callstack-agent-skills/) | Give coding agents React Native-specific build, upgrade, GitHub Actions, and troubleshooting guidance instead of… | Security Reviewed | 1.3k | — |
 | [Synchronize AI coding rules across agent tools with Rulesync](skills/synchronize-ai-coding-rules-across-agent-tools-with-rulesync/) | Use Rulesync to maintain one set of AI coding rules and generate the right configuration files for Claude Code,… | Security Reviewed | 1.2k | 748.2k/wk |
 | [Capture, search, and optionally sync local coding-agent session history across Claude Code, Codex, Cursor CLI, and Gemini with SpecStory](skills/capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory/) | Use SpecStory when valuable coding-agent decisions keep disappearing into terminal history and you need one… | Security Reviewed | 1.2k | — |

@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-21
-# Total: 2779 skills
+# Total: 2781 skills
+
+## Route Codex and Claude Code through an opencodex provider proxy
+slug: route-codex-and-claude-code-through-an-opencodex-provider-proxy
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run a local proxy that lets Codex and Claude Code use configured LLM providers, routed models, and account pools while keeping the normal coding-agent…
+url: https://agentskillexchange.com/skills/route-codex-and-claude-code-through-an-opencodex-provider-proxy/
+
+## Coordinate peer CLI agents with agmsg
+slug: coordinate-peer-cli-agents-with-agmsg
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Let Claude Code, Codex, Gemini CLI, Copilot CLI, and other terminal agents exchange messages through a shared local SQLite channel.
+url: https://agentskillexchange.com/skills/coordinate-peer-cli-agents-with-agmsg/
 
 ## Govern coding-agent discovery and delivery through a project-local GAAI backlog
 slug: govern-coding-agent-discovery-and-delivery-through-a-project-local-gaai-backlog

@@ -356,7 +356,9 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Search cross-agent Markdown memory and conversation history with memsearch](../../skills/search-cross-agent-markdown-memory-and-conversation-history-with-memsearch/) | 1.3k | — |
 | [Terraform MCP Server for Infrastructure as Code](../../skills/terraform-mcp-server-infrastructure-as-code/) | 1.3k | — |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | 1.3k | — |
+| [Coordinate peer CLI agents with agmsg](../../skills/coordinate-peer-cli-agents-with-agmsg/) | 1.3k | 4k/wk |
 | [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | 1.3k | 331/wk |
+| [Route Codex and Claude Code through an opencodex provider proxy](../../skills/route-codex-and-claude-code-through-an-opencodex-provider-proxy/) | 1.3k | 24k/wk |
 | [Run React Native implementation and troubleshooting workflows with Callstack Agent Skills](../../skills/run-react-native-implementation-and-troubleshooting-workflows-with-callstack-agent-skills/) | 1.3k | — |
 | [Synchronize AI coding rules across agent tools with Rulesync](../../skills/synchronize-ai-coding-rules-across-agent-tools-with-rulesync/) | 1.2k | 748.2k/wk |
 | [Capture, search, and optionally sync local coding-agent session history across Claude Code, Codex, Cursor CLI, and Gemini with SpecStory](../../skills/capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory/) | 1.2k | — |
