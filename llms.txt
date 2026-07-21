@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-07-20
-# Total: 2776 skills
+# Generated: 2026-07-21
+# Total: 2779 skills
+
+## Govern coding-agent discovery and delivery through a project-local GAAI backlog
+slug: govern-coding-agent-discovery-and-delivery-through-a-project-local-gaai-backlog
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Drop a `.gaai/` folder into a project so agents separate scope discovery from isolated delivery, with acceptance criteria, memory, QA gates, and daemonized execution.
+url: https://agentskillexchange.com/skills/govern-coding-agent-discovery-and-delivery-through-a-project-local-gaai-backlog/
+
+## Run Apple-platform coding audits, diagnostics, and simulator checks with Axiom
+slug: run-apple-platform-coding-audits-diagnostics-and-simulator-checks-with-axiom
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Add Axiom's Apple OS skills, agents, and commands so coding assistants can diagnose Xcode builds, Swift issues, crashes, logs, UI flows, and performance traces.
+url: https://agentskillexchange.com/skills/run-apple-platform-coding-audits-diagnostics-and-simulator-checks-with-axiom/
+
+## Plan, draft, publish, and review social posts from Claude Code with social-post
+slug: plan-draft-publish-and-review-social-posts-from-claude-code-with-social-post
+category: Developer Tools
+framework: Claude Code
+verification: Published
+description: Install a Claude Code skill that learns a user's social voice, builds a 14-day content calendar, drafts posts, and publishes only after explicit confirmation.
+url: https://agentskillexchange.com/skills/plan-draft-publish-and-review-social-posts-from-claude-code-with-social-post/
 
 ## Turn Agent Corrections Into Durable Skills With claude-smart
 slug: turn-agent-corrections-into-durable-skills-with-claude-smart

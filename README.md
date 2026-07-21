@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C776-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C779-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C379-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,776 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,779 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Whisper Subtitle Generator](skills/whisper-subtitle-generator/)** — Generates accurate subtitles and captions using OpenAI Whisper API with word-level timestamps. Outputs SRT, VTT, and ASS formats with configurable line length and speaker diarization via pyannote.
+**[Run Parallel Divergent Ideation With ADHD](skills/run-parallel-divergent-ideation-with-adhd/)** — Use ADHD to fan out isolated reasoning branches for open-ended coding-agent decisions, then score, prune, and deepen the strongest options.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -87,6 +87,9 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Govern coding-agent discovery and delivery through a project-local GAAI backlog](skills/govern-coding-agent-discovery-and-delivery-through-a-project-local-gaai-backlog/) | Drop a `.gaai/` folder into a project so agents separate scope discovery from isolated delivery, with acceptance criteria... | 152 | Templates & Workflows |
+| [Run Apple-platform coding audits, diagnostics, and simulator checks with Axiom](skills/run-apple-platform-coding-audits-diagnostics-and-simulator-checks-with-axiom/) | Add Axiom's Apple OS skills, agents, and commands so coding assistants can diagnose Xcode builds, Swift issues, crashes... | 1.1k | Developer Tools |
+| [Plan, draft, publish, and review social posts from Claude Code with social-post](skills/plan-draft-publish-and-review-social-posts-from-claude-code-with-social-post/) | Install a Claude Code skill that learns a user's social voice, builds a 14-day content calendar, drafts posts... | 555 | Developer Tools |
 | [Turn Agent Corrections Into Durable Skills With claude-smart](skills/turn-agent-corrections-into-durable-skills-with-claude-smart/) | Use claude-smart to capture corrections and working patterns as preferences, project skills, and shared skills that Claude Code... | 748 | Templates & Workflows |
 | [Manage Baidu Netdisk Files From Agent Workflows](skills/manage-baidu-netdisk-files-from-agent-workflows/) | Use the Baidu Netdisk storage skill to upload, download, transfer, share, search, move, copy, rename, and list cloud... | 158 | Integrations & Connectors |
 | [Reduce Coding-Agent Output Cost With Honey](skills/reduce-coding-agent-output-cost-with-honey/) | Use Honey to make coding agents emit less code, less prose, and denser agent-to-agent handoffs while preserving correctness... | 178 | Templates & Workflows |
@@ -94,9 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Link agent skills, commands, and roles across coding assistants with Open Agent Hub](skills/link-agent-skills-commands-and-roles-across-coding-assistants-with-open-agent-hub/) | Use Open Agent Hub to install, link, and enable reusable skills, agent roles, and slash commands across Claude... | 934 | Developer Tools |
 | [Run authorized AI-assisted pentest workflows with Guardian CLI](skills/run-authorized-ai-assisted-pentest-workflows-with-guardian-cli/) | Use Guardian CLI to orchestrate authorized penetration tests with AI planning, tool selection, evidence capture, triage, and reporting... | 1.7k | Security & Verification |
 | [Route large codebase analysis through Gemini MCP Tool](skills/route-large-codebase-analysis-through-gemini-mcp-tool/) | Use Gemini MCP Tool to let MCP-capable coding agents delegate large file and codebase analysis to Gemini or... | 2.3k | Developer Tools |
-| [Run a solo multi-agent coding cockpit with dev-3.0](skills/run-a-solo-multi-agent-coding-cockpit-with-dev-3-0/) | Use dev-3.0 to turn coding-agent work into isolated Kanban tasks with git worktrees, tmux sessions, live previews, multi-agent... | 225 | Developer Tools |
-| [Delegate planned agent work with Elves](skills/delegate-planned-agent-work-with-elves/) | Use Elves to hand a bounded development or research plan to a separate Claude Code or Codex worker... | 188 | Templates & Workflows |
-| [Engineer durable Claude Code workflows with cc10x](skills/engineer-durable-claude-code-workflows-with-cc10x/) | Install cc10x as a Claude Code loop engine that routes complex work through specialist agents, reusable skills, durable... | 154 | Templates & Workflows |
 
 ---
 
@@ -106,11 +106,11 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
-| [Audit coding-agent token spend with CodeBurn](skills/audit-coding-agent-token-spend-with-codeburn/) | Run CodeBurn locally or as an MCP server so agents can inspect token usage, cost, model mix, project... | 8.7k | Monitoring & Alerts |
-| [Bridge local coding agents into chat apps with cc-connect](skills/bridge-local-coding-agents-into-chat-apps-with-cc-connect/) | Let operators control local Claude Code, Codex, Cursor, Gemini CLI, and other coding agents from Slack, Discord, Telegram... | 14.2k | Integrations & Connectors |
-| [Review agent-authored diffs with Hunk](skills/review-agent-authored-diffs-with-hunk/) | Use Hunk to keep a live terminal review UI open for agent-authored code changes, with Git, Jujutsu, Sapling... | 6.9k | Code Quality & Review |
-| [Route large codebase analysis through Gemini MCP Tool](skills/route-large-codebase-analysis-through-gemini-mcp-tool/) | Use Gemini MCP Tool to let MCP-capable coding agents delegate large file and codebase analysis to Gemini or... | 2.3k | Developer Tools |
 | [Run OpenCode specialist-agent workflows with Oh My Opencode Slim](skills/run-opencode-specialist-agent-workflows-with-oh-my-opencode-slim/) | Install an OpenCode orchestration plugin that routes codebase work across specialist agents, background tasks, model presets, bundled skills... | 7.0k | Templates & Workflows |
+| [Bridge local coding agents into chat apps with cc-connect](skills/bridge-local-coding-agents-into-chat-apps-with-cc-connect/) | Let operators control local Claude Code, Codex, Cursor, Gemini CLI, and other coding agents from Slack, Discord, Telegram... | 14.2k | Integrations & Connectors |
+| [Audit coding-agent token spend with CodeBurn](skills/audit-coding-agent-token-spend-with-codeburn/) | Run CodeBurn locally or as an MCP server so agents can inspect token usage, cost, model mix, project... | 8.7k | Monitoring & Alerts |
+| [Route large codebase analysis through Gemini MCP Tool](skills/route-large-codebase-analysis-through-gemini-mcp-tool/) | Use Gemini MCP Tool to let MCP-capable coding agents delegate large file and codebase analysis to Gemini or... | 2.3k | Developer Tools |
+| [Review agent-authored diffs with Hunk](skills/review-agent-authored-diffs-with-hunk/) | Use Hunk to keep a live terminal review UI open for agent-authored code changes, with Git, Jujutsu, Sapling... | 6.9k | Code Quality & Review |
 | [Install verified Codex planning and completion loops with LazyCodex](skills/install-verified-codex-planning-and-completion-loops-with-lazycodex/) | Add Codex commands, skills, hooks, diagnostics, and sub-agent roles for deep repository initialization, planning, execution, and evidence-backed completion | 2.8k | Developer Tools |
 | [Inspect BullMQ agent job queues with Bull Board](skills/inspect-bullmq-agent-job-queues-with-bull-board/) | Use Bull Board to add a protected dashboard for Bull and BullMQ queues so operators can inspect, retry... | 3.4k | Monitoring & Alerts |
 | [Drive ComfyUI generation workflows through comfyui-mcp](skills/drive-comfyui-generation-workflows-through-comfyui-mcp/) | Use comfyui-mcp to let an MCP-capable agent author, run, debug, and manage ComfyUI image, video, audio, model, and... | 386 | Image & Creative Automation |
@@ -123,10 +123,10 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 379 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 381 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 239 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 216 | ETL pipelines, parsing, format conversion |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 215 | Scaffolders, boilerplate generators, workflow templates |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 216 | Scaffolders, boilerplate generators, workflow templates |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 194 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 175 | Incident response, troubleshooting, system diagnostics |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,776 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,779 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,379 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

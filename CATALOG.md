@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2776 published skills** across **17 categories** · 2,379 security reviewed · Updated 2026-07-20 19:26 UTC
+> **2779 published skills** across **17 categories** · 2,379 security reviewed · Updated 2026-07-21 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (379 skills)
+### 🛠️ Developer Tools (381 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -334,6 +334,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Run React Native implementation and troubleshooting workflows with Callstack Agent Skills](skills/run-react-native-implementation-and-troubleshooting-workflows-with-callstack-agent-skills/) | Give coding agents React Native-specific build, upgrade, GitHub Actions, and troubleshooting guidance instead of… | Security Reviewed | 1.3k | — |
 | [Synchronize AI coding rules across agent tools with Rulesync](skills/synchronize-ai-coding-rules-across-agent-tools-with-rulesync/) | Use Rulesync to maintain one set of AI coding rules and generate the right configuration files for Claude Code,… | Security Reviewed | 1.2k | 748.2k/wk |
 | [Capture, search, and optionally sync local coding-agent session history across Claude Code, Codex, Cursor CLI, and Gemini with SpecStory](skills/capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory/) | Use SpecStory when valuable coding-agent decisions keep disappearing into terminal history and you need one… | Security Reviewed | 1.2k | — |
+| [Run Apple-platform coding audits, diagnostics, and simulator checks with Axiom](skills/run-apple-platform-coding-audits-diagnostics-and-simulator-checks-with-axiom/) | Add Axiom's Apple OS skills, agents, and commands so coding assistants can diagnose Xcode builds, Swift issues,… | Security Reviewed | 1.1k | — |
 | [Give OpenCode project sessions persistent memory with opencode-mem](skills/give-opencode-project-sessions-persistent-memory-with-opencode-mem/) | Add opencode-mem to OpenCode so coding sessions can store, search, and reuse project memories through a local SQLite… | Security Reviewed | 1k | 12.1k/wk |
 | [Run local small-model coding sessions with SmallCode](skills/run-local-small-model-coding-sessions-with-smallcode/) | Use SmallCode as a terminal-native coding agent for 8B-35B local models, with budget-managed context, forgiving tool… | Published | 967 | 7.5k/wk |
 | [Connect MCP clients to JetBrains IDE project tools](skills/connect-mcp-clients-to-jetbrains-ide-project-tools/) | Use the built-in JetBrains MCP server to let Codex, Claude Desktop, Cursor, VS Code, and other MCP clients inspect… | Security Reviewed | 961 | 4.4k/wk |
@@ -351,6 +352,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Run deterministic multi-agent coding workflows with Bernstein](skills/run-deterministic-multi-agent-coding-workflows-with-bernstein/) | Orchestrate parallel CLI coding agents in isolated git worktrees with reproducible scheduling, gates, replay… | Security Reviewed | 704 | — |
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | Convert a finished coding-agent session into a shareable HTML replay instead of sending raw logs or bulky screen… | Security Reviewed | 621 | 4.9k/wk |
 | [Preview and approve coding-agent execution plans with Overture](skills/preview-and-approve-coding-agent-execution-plans-with-overture/) | Render an AI coding agent's plan as an interactive flowchart so a human can inspect dependencies, attach context,… | Security Reviewed | 619 | 320/wk |
+| [Plan, draft, publish, and review social posts from Claude Code with social-post](skills/plan-draft-publish-and-review-social-posts-from-claude-code-with-social-post/) | Install a Claude Code skill that learns a user's social voice, builds a 14-day content calendar, drafts posts, and… | Published | 555 | — |
 | [Run deterministic SQL and dbt analysis under coding agents with Altimate Code](skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/) | Adds deterministic SQL analysis, dbt-aware tooling, warehouse metadata, lineage, and test-generation workflows… | Published | 552 | 195/wk |
 | [Give coding agents sandboxed shell runtimes with SWE-ReX](skills/give-coding-agents-sandboxed-shell-runtimes-with-swe-rex/) | Use SWE-ReX when a coding agent needs a consistent runtime interface for local, containerized, or remote shell… | Security Reviewed | 543 | — |
 | [Orchestrate review-first multi-agent development work with Kandev](skills/orchestrate-review-first-multi-agent-development-work-with-kandev/) | Use Kandev when an operator needs to plan, run, isolate, review, and ship multiple coding-agent tasks through a… | Security Reviewed | 405 | 3.5k/wk |
@@ -866,7 +868,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (215 skills)
+### 📄 Templates & Workflows (216 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -1062,6 +1064,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Break large coding jobs into focused subagent missions with AB Method](skills/break-large-coding-jobs-into-focused-subagent-missions-with-ab-method/) | Use AB Method when a Claude Code task is too large for one pass and needs to be broken into focused tasks and missions… | Security Reviewed | 159 | 472/wk |
 | [Langfuse Prompt Management MCP Server](skills/langfuse-prompt-management-mcp-server/) | Langfuse Prompt Management MCP Server connects MCP clients to Langfuse prompt libraries so agents can list,… | Security Reviewed | 159 | — |
 | [Engineer durable Claude Code workflows with cc10x](skills/engineer-durable-claude-code-workflows-with-cc10x/) | Install cc10x as a Claude Code loop engine that routes complex work through specialist agents, reusable skills,… | Security Reviewed | 154 | — |
+| [Govern coding-agent discovery and delivery through a project-local GAAI backlog](skills/govern-coding-agent-discovery-and-delivery-through-a-project-local-gaai-backlog/) | Drop a `.gaai/` folder into a project so agents separate scope discovery from isolated delivery, with acceptance… | Security Reviewed | 152 | — |
 | [Distill repository rules and workflows into reusable project skills with Skill-Based Architecture](skills/distill-repository-rules-and-workflows-into-reusable-project-skills-with-skill-based-architecture/) | Turn scattered project rules, workflows, and hard-won lessons into a structured skills directory that future agents… | Security Reviewed | 131 | — |
 | [Triage support tickets and draft customer replies with Claude Code support skills](skills/triage-support-tickets-and-draft-customer-replies-with-claude-code-support-skills/) | Use Claude Code support skills to prioritize tickets, gather customer context, and draft reviewed replies without… | Security Reviewed | 87 | — |
 | [Put coding agents on a governed local Git workflow with AgentPlane](skills/put-coding-agents-on-a-governed-local-git-workflow-with-agentplane/) | Run coding agents inside a repo with explicit policy files, task state, approvals, and closure records when teams… | Security Reviewed | 38 | 817/wk |

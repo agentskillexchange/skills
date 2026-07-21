@@ -230,6 +230,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Break large coding jobs into focused subagent missions with AB Method](../../skills/break-large-coding-jobs-into-focused-subagent-missions-with-ab-method/) | 159 | 472/wk |
 | [Langfuse Prompt Management MCP Server](../../skills/langfuse-prompt-management-mcp-server/) | 159 | — |
 | [Engineer durable Claude Code workflows with cc10x](../../skills/engineer-durable-claude-code-workflows-with-cc10x/) | 154 | — |
+| [Govern coding-agent discovery and delivery through a project-local GAAI backlog](../../skills/govern-coding-agent-discovery-and-delivery-through-a-project-local-gaai-backlog/) | 152 | — |
 | [Distill repository rules and workflows into reusable project skills with Skill-Based Architecture](../../skills/distill-repository-rules-and-workflows-into-reusable-project-skills-with-skill-based-architecture/) | 131 | — |
 | [Triage support tickets and draft customer replies with Claude Code support skills](../../skills/triage-support-tickets-and-draft-customer-replies-with-claude-code-support-skills/) | 87 | — |
 | [Put coding agents on a governed local Git workflow with AgentPlane](../../skills/put-coding-agents-on-a-governed-local-git-workflow-with-agentplane/) | 38 | 817/wk |

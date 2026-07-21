@@ -360,6 +360,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Run React Native implementation and troubleshooting workflows with Callstack Agent Skills](../../skills/run-react-native-implementation-and-troubleshooting-workflows-with-callstack-agent-skills/) | 1.3k | — |
 | [Synchronize AI coding rules across agent tools with Rulesync](../../skills/synchronize-ai-coding-rules-across-agent-tools-with-rulesync/) | 1.2k | 748.2k/wk |
 | [Capture, search, and optionally sync local coding-agent session history across Claude Code, Codex, Cursor CLI, and Gemini with SpecStory](../../skills/capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory/) | 1.2k | — |
+| [Run Apple-platform coding audits, diagnostics, and simulator checks with Axiom](../../skills/run-apple-platform-coding-audits-diagnostics-and-simulator-checks-with-axiom/) | 1.1k | — |
 | [Give OpenCode project sessions persistent memory with opencode-mem](../../skills/give-opencode-project-sessions-persistent-memory-with-opencode-mem/) | 1k | 12.1k/wk |
 | [Run local small-model coding sessions with SmallCode](../../skills/run-local-small-model-coding-sessions-with-smallcode/) | 967 | 7.5k/wk |
 | [Connect MCP clients to JetBrains IDE project tools](../../skills/connect-mcp-clients-to-jetbrains-ide-project-tools/) | 961 | 4.4k/wk |
@@ -377,6 +378,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Run deterministic multi-agent coding workflows with Bernstein](../../skills/run-deterministic-multi-agent-coding-workflows-with-bernstein/) | 704 | — |
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](../../skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | 621 | 4.9k/wk |
 | [Preview and approve coding-agent execution plans with Overture](../../skills/preview-and-approve-coding-agent-execution-plans-with-overture/) | 619 | 320/wk |
+| [Plan, draft, publish, and review social posts from Claude Code with social-post](../../skills/plan-draft-publish-and-review-social-posts-from-claude-code-with-social-post/) | 555 | — |
 | [Run deterministic SQL and dbt analysis under coding agents with Altimate Code](../../skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/) | 552 | 195/wk |
 | [Give coding agents sandboxed shell runtimes with SWE-ReX](../../skills/give-coding-agents-sandboxed-shell-runtimes-with-swe-rex/) | 543 | — |
 | [Orchestrate review-first multi-agent development work with Kandev](../../skills/orchestrate-review-first-multi-agent-development-work-with-kandev/) | 405 | 3.5k/wk |

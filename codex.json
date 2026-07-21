@@ -1,9 +1,42 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-07-20",
-  "total": 2776,
+  "generated": "2026-07-21",
+  "total": 2779,
   "skills": [
+    {
+      "slug": "govern-coding-agent-discovery-and-delivery-through-a-project-local-gaai-backlog",
+      "name": "Govern coding-agent discovery and delivery through a project-local GAAI backlog",
+      "title": "Govern coding-agent discovery and delivery through a project-local GAAI backlog",
+      "description": "Drop a `.gaai/` folder into a project so agents separate scope discovery from isolated delivery, with acceptance criteria, memory, QA gates, and daemonized execution.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Fr-e-d/GAAI-framework",
+      "github_repo": "Fr-e-d/GAAI-framework"
+    },
+    {
+      "slug": "run-apple-platform-coding-audits-diagnostics-and-simulator-checks-with-axiom",
+      "name": "Run Apple-platform coding audits, diagnostics, and simulator checks with Axiom",
+      "title": "Run Apple-platform coding audits, diagnostics, and simulator checks with Axiom",
+      "description": "Add Axiom's Apple OS skills, agents, and commands so coding assistants can diagnose Xcode builds, Swift issues, crashes, logs, UI flows, and performance traces.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/CharlesWiltgen/Axiom",
+      "github_repo": "CharlesWiltgen/Axiom"
+    },
+    {
+      "slug": "plan-draft-publish-and-review-social-posts-from-claude-code-with-social-post",
+      "name": "Plan, draft, publish, and review social posts from Claude Code with social-post",
+      "title": "Plan, draft, publish, and review social posts from Claude Code with social-post",
+      "description": "Install a Claude Code skill that learns a user's social voice, builds a 14-day content calendar, drafts posts, and publishes only after explicit confirmation.",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "listed",
+      "source_url": "https://github.com/Hao0321/claude-skill-social-post",
+      "github_repo": "Hao0321/claude-skill-social-post"
+    },
     {
       "slug": "turn-agent-corrections-into-durable-skills-with-claude-smart",
       "name": "Turn Agent Corrections Into Durable Skills With claude-smart",
