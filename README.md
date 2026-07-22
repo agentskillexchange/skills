@@ -106,9 +106,9 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
-| [Bridge local coding agents into chat apps with cc-connect](skills/bridge-local-coding-agents-into-chat-apps-with-cc-connect/) | Let operators control local Claude Code, Codex, Cursor, Gemini CLI, and other coding agents from Slack, Discord, Telegram... | 14.2k | Integrations & Connectors |
 | [Route Codex and Claude Code through an opencodex provider proxy](skills/route-codex-and-claude-code-through-an-opencodex-provider-proxy/) | Run a local proxy that lets Codex and Claude Code use configured LLM providers, routed models, and account... | 1.3k | Developer Tools |
 | [Run OpenCode specialist-agent workflows with Oh My Opencode Slim](skills/run-opencode-specialist-agent-workflows-with-oh-my-opencode-slim/) | Install an OpenCode orchestration plugin that routes codebase work across specialist agents, background tasks, model presets, bundled skills... | 7.0k | Templates & Workflows |
+| [Bridge local coding agents into chat apps with cc-connect](skills/bridge-local-coding-agents-into-chat-apps-with-cc-connect/) | Let operators control local Claude Code, Codex, Cursor, Gemini CLI, and other coding agents from Slack, Discord, Telegram... | 14.2k | Integrations & Connectors |
 | [Audit coding-agent token spend with CodeBurn](skills/audit-coding-agent-token-spend-with-codeburn/) | Run CodeBurn locally or as an MCP server so agents can inspect token usage, cost, model mix, project... | 8.7k | Monitoring & Alerts |
 | [Review agent-authored diffs with Hunk](skills/review-agent-authored-diffs-with-hunk/) | Use Hunk to keep a live terminal review UI open for agent-authored code changes, with Git, Jujutsu, Sapling... | 6.9k | Code Quality & Review |
 | [Index Large Codebases for Agent Search With Socraticode](skills/index-large-codebases-for-agent-search-with-socraticode/) | Use Socraticode to give coding agents a local codebase-intelligence layer for semantic search, dependency graphs, impact analysis, and... | 3.1k | Developer Tools |
