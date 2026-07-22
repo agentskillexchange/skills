@@ -38634,7 +38634,7 @@
       "description": "AWS Lambda MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives…",
       "category": "Developer Tools",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 3632,
         "npm_weekly_downloads": 9135770,
@@ -38650,7 +38650,7 @@
       "description": "AWS S3 MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives…",
       "category": "Developer Tools",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 3632,
         "npm_weekly_downloads": 35662349,
@@ -38838,7 +38838,7 @@
       "description": "Pulumi MCP Server is built around Pulumi infrastructure as code platform. The underlying ecosystem is represented by pulumi/pulumi (24,917+ GitHub stars). It gives an…",
       "category": "Developer Tools",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 25248,
         "npm_weekly_downloads": 2418428,
@@ -38973,7 +38973,7 @@
       "description": "Sentry's official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack traces, investigate performance bottlenecks, and get AI-powered…",
       "category": "Monitoring & Alerts",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 712,
         "npm_weekly_downloads": 102633

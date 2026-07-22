@@ -13,7 +13,7 @@ tool_ecosystem:
   github_repo: "e2b-dev/mcp-server"
   github_stars: 393
   npm_package: "@e2b/mcp-server"
-  npm_weekly_downloads: 1904
+  npm_weekly_downloads: 1666
 ---
 
 # E2B Code Execution MCP
@@ -26,14 +26,11 @@ MCP-compatible client (Claude Code, Cursor, or similar), E2B API key, Node.js ru
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx @smithery/cli install e2b --client claude
+Install or set up from the source-backed instructions:
 
-Requirements and caveats from upstream:
-- [Python](packages/python/README.md)
+npm install @e2b/mcp-server
 
 - Source: https://github.com/e2b-dev/mcp-server
-- Extracted from upstream docs: https://raw.githubusercontent.com/e2b-dev/mcp-server/HEAD/README.md
 
 ## Documentation
 

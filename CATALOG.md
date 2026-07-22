@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2788 published skills** across **17 categories** · 2,388 security reviewed · Updated 2026-07-22 07:26 UTC
+> **2788 published skills** across **17 categories** · 2,385 security reviewed · Updated 2026-07-22 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -132,7 +132,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Reduce agent token burn on repo-scale coding commands with the rtk CLI proxy](skills/reduce-agent-token-burn-on-repo-scale-coding-commands-with-the-rtk-cli-proxy/) | Use rtk when an agent keeps wasting context on noisy shell output from large repos and you need smaller command… | Published | 25.4k | — |
 | [Bazel Build Graph Analyzer](skills/bazel-build-graph-analyzer/) | Analyzes Bazel build dependency graphs to identify bottlenecks and optimize build times. Uses the Bazel Query… | Security Reviewed | 25.3k | — |
 | [Jenkins MCP Server](skills/jenkins-mcp-server/) | Jenkins MCP Server is built around Jenkins automation server. The underlying ecosystem is represented by… | Security Reviewed | 25.3k | — |
-| [Pulumi MCP Server](skills/pulumi-mcp-server/) | Pulumi MCP Server is built around Pulumi infrastructure as code platform. The underlying ecosystem is represented by… | Security Reviewed | 25.2k | 2.4M/wk |
+| [Pulumi MCP Server](skills/pulumi-mcp-server/) | Pulumi MCP Server is built around Pulumi infrastructure as code platform. The underlying ecosystem is represented by… | Published | 25.2k | 2.4M/wk |
 | [CI Pipeline Generator Skill](skills/ci-pipeline-generator-skill/) | CI Pipeline Generator Skill is built around GitLab DevSecOps platform. The underlying ecosystem is represented by… | Security Reviewed | 24.3k | — |
 | [Biome Lint Migration Toolkit](skills/biome-lint-migration-toolkit/) | Automates migration from ESLint and Prettier to Biome (formerly Rome) by parsing .eslintrc and .prettierrc configs,… | Published | 24.3k | 8.8M/wk |
 | [FastMCP Python MCP Server and Client Framework](skills/fastmcp-python-mcp-server-client-framework/) | FastMCP is the standard Python framework for building Model Context Protocol servers, clients, and applications. It… | Published | 24.2k | — |
@@ -285,8 +285,8 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Build and debug AI pipelines in an IDE with RocketRide](skills/build-and-debug-ai-pipelines-in-an-ide-with-rocketride/) | Use RocketRide to compose, run, observe, and deploy portable AI pipelines from an IDE or CLI across model providers,… | Security Reviewed | 3.9k | 635/wk |
 | [Stancl Tenancy v3 — Multi-Tenant Laravel](skills/tenancy-development/) | Builds multi-tenant Laravel SaaS applications with stancl/tenancy v3. Best when you need domain/subdomain/path-based… | Security Reviewed | 3.8k | — |
 | [Build Java agent transport gateways with Atmosphere](skills/build-java-agent-transport-gateways-with-atmosphere/) | Use Atmosphere to build JVM agent gateways that stream over WebSocket, SSE, gRPC, WebTransport, MCP, A2A, and AG-UI… | Published | 3.8k | — |
-| [AWS S3 MCP Server](skills/aws-s3-mcp-server/) | AWS S3 MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | 3.6k | 35.7M/wk |
-| [AWS Lambda MCP Server](skills/aws-lambda-mcp-server/) | AWS Lambda MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | 3.6k | 9.1M/wk |
+| [AWS S3 MCP Server](skills/aws-s3-mcp-server/) | AWS S3 MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Published | 3.6k | 35.7M/wk |
+| [AWS Lambda MCP Server](skills/aws-lambda-mcp-server/) | AWS Lambda MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Published | 3.6k | 9.1M/wk |
 | [Cloud Cost Analysis](skills/cloud-cost-analysis/) | Cloud Cost Analysis is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | 3.6k | — |
 | [Topgrade Universal System Package Updater](skills/topgrade-universal-system-package-updater/) | Topgrade is a CLI tool written in Rust that detects all package managers and updatable sources on your system and… | Security Reviewed | 3.6k | — |
 | [DynamoDB Manager](skills/dynamodb-manager/) | DynamoDB Manager is built around Amazon DynamoDB NoSQL database. The underlying ecosystem is represented by… | Security Reviewed | 3.6k | 30.5M/wk |
@@ -1972,7 +1972,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Datadog Monitor Sync](skills/datadog-monitor-sync/) | Synchronizes Datadog monitor definitions between environments using the Datadog API v2 monitors endpoint. Supports… | Security Reviewed | 791 | 6.6M/wk |
 | [Datadog Monitors Skill](skills/datadog-monitors-skill/) | Manages Datadog monitors and dashboards via the Datadog API v2. Lists triggered monitors, mutes/unmutes alert… | Security Reviewed | 791 | 6.6M/wk |
 | [Datadog SLO Monitor](skills/datadog-slo-monitor/) | Monitors Datadog Service Level Objectives and burn rate alerts via the Datadog API v2. Generates SLO compliance… | Security Reviewed | 791 | 6.6M/wk |
-| [Sentry MCP Server](skills/sentry-mcp-server/) | Sentry's official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack… | Security Reviewed | 712 | 102.6k/wk |
+| [Sentry MCP Server](skills/sentry-mcp-server/) | Sentry's official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack… | Published | 712 | 102.6k/wk |
 | [Sentry MCP Server for Error Tracking and Performance](skills/sentry-mcp-server-error-tracking-performance/) | The official Sentry MCP server gives AI agents access to Sentry error tracking, issue management, and performance… | Security Reviewed | 615 | 49.6k/wk |
 | [Track coding-agent quota burn and remaining headroom across providers with onWatch](skills/track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch/) | Monitor quota, spend, resets, and alerts across multiple coding-agent providers from one local dashboard before a… | Security Reviewed | 580 | — |
 | [PostHog Product Analytics and Feature Flags SDK](skills/posthog-product-analytics-and-feature-flags-sdk/) | Use PostHog to capture product analytics events, identify users, evaluate feature flags, and route experimentation… | Published | 531 | 4.8M/wk |

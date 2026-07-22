@@ -12,7 +12,7 @@ tool_ecosystem:
   github_repo: "opsgenie/opsgenie-nodejs-sdk"
   github_stars: 24
   npm_package: "opsgenie-sdk"
-  npm_weekly_downloads: 5445
+  npm_weekly_downloads: 5453
 ---
 
 # OpsGenie MCP Server
@@ -25,21 +25,11 @@ Node.js, npm
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install opsgenie-sdk
+Install or set up from the source-backed instructions:
 
-Requirements and caveats from upstream:
-- # OpsGenie Node.js SDK
-- This is the repository for Node.js SDK of OpsGenie.
-- OpsGenie Node.js SDK aims to access OpsGenie Web API through HTTP calls from Node.js applications.
-
-Basic usage or getting-started notes:
-- js
-- opsgenie.configure({
-- api_key: "your_api_key",
+npm install opsgenie-sdk
 
 - Source: https://github.com/opsgenie/opsgenie-nodejs-sdk
-- Extracted from upstream docs: https://raw.githubusercontent.com/opsgenie/opsgenie-nodejs-sdk/HEAD/README.md
 
 ## Documentation
 

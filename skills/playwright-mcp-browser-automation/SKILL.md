@@ -13,7 +13,7 @@ tool_ecosystem:
   github_repo: "microsoft/playwright-mcp"
   github_stars: 33289
   npm_package: "@playwright/mcp"
-  npm_weekly_downloads: 6361565
+  npm_weekly_downloads: 6180103
 ---
 
 # Playwright MCP Browser Automation
@@ -26,24 +26,11 @@ Node.js, Playwright, MCP client or host environment
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx @playwright/mcp@latest --config path/to/config.json
-- npx @playwright/mcp@latest --port 8931
-- docker run -d -i --rm --init --pull=always \
-- docker build -t mcr.microsoft.com/playwright/mcp .
+Install or set up from the source-backed instructions:
 
-Requirements and caveats from upstream:
-- Node.js 18 or newer
-- node utils/generate-links.js
-- | --extension | Connect to a running browser instance (Edge/Chrome only). Requires the "Playwright Extension" to be installed.<br>*env* PLAYWRIGHT_MCP_EXTENSION |
-
-Basic usage or getting-started notes:
-- VS Code, Cursor, Windsurf, Claude Desktop, Goose, Junie or any other MCP client
-- <!--
-- // Generate using:
+Install from the GitHub repository and register as an MCP server in the host agent environment. Requires Node.js and Playwright.
 
 - Source: https://github.com/microsoft/playwright-mcp
-- Extracted from upstream docs: https://raw.githubusercontent.com/microsoft/playwright-mcp/HEAD/README.md
 
 ## Documentation
 

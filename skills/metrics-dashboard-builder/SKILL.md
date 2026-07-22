@@ -12,7 +12,7 @@ tool_ecosystem:
   github_repo: "datadog/datadog-api-client-typescript"
   github_stars: 103
   npm_package: "@datadog/datadog-api-client"
-  npm_weekly_downloads: 2481174
+  npm_weekly_downloads: 2511168
 ---
 
 # Metrics Dashboard Builder
@@ -25,22 +25,11 @@ Node.js
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install @datadog/datadog-api-client
-- yarn add @datadog/datadog-api-client
+Install or set up from the source-backed instructions:
 
-Requirements and caveats from upstream:
-- # Node.js Datadog API Client
-- This repository contains a Node.js API client for the [Datadog API](https://docs.datadoghq.com/api/).
-- Zstd compression support requires users to supply their own zstd compressor callback function.
-
-Basic usage or getting-started notes:
-- Here's an example getting a monitor:
-- typescript
-- import { client, v1 } from '@datadog/datadog-api-client';
+npm install @datadog/datadog-api-client
 
 - Source: https://github.com/DataDog/datadog-api-client-typescript
-- Extracted from upstream docs: https://raw.githubusercontent.com/DataDog/datadog-api-client-typescript/HEAD/README.md
 
 ## Documentation
 

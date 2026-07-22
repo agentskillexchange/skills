@@ -21959,7 +21959,7 @@ url: https://agentskillexchange.com/skills/docker-mcp-server/
 slug: aws-lambda-mcp-server
 category: Developer Tools
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: AWS Lambda MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives…
 url: https://agentskillexchange.com/skills/aws-lambda-mcp-server/
 
@@ -21967,7 +21967,7 @@ url: https://agentskillexchange.com/skills/aws-lambda-mcp-server/
 slug: aws-s3-mcp-server
 category: Developer Tools
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: AWS S3 MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives…
 url: https://agentskillexchange.com/skills/aws-s3-mcp-server/
 
@@ -22063,7 +22063,7 @@ url: https://agentskillexchange.com/skills/datadog-mcp-server/
 slug: pulumi-mcp-server
 category: Developer Tools
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Pulumi MCP Server is built around Pulumi infrastructure as code platform. The underlying ecosystem is represented by pulumi/pulumi (24,917+ GitHub stars). It gives an…
 url: https://agentskillexchange.com/skills/pulumi-mcp-server/
 
@@ -22135,7 +22135,7 @@ url: https://agentskillexchange.com/skills/postgres-mcp-pro/
 slug: sentry-mcp-server
 category: Monitoring & Alerts
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Sentry's official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack traces, investigate performance bottlenecks, and get AI-powered…
 url: https://agentskillexchange.com/skills/sentry-mcp-server/
 

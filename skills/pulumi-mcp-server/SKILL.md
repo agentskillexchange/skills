@@ -3,7 +3,7 @@ name: "Pulumi MCP Server"
 slug: "pulumi-mcp-server"
 description: ""
 github_stars: 25248
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/pulumi/pulumi"
 author: "Pulumi"
 category: "Developer Tools"
@@ -12,7 +12,7 @@ tool_ecosystem:
   github_repo: "pulumi/pulumi"
   github_stars: 25248
   npm_package: "@pulumi/pulumi"
-  npm_weekly_downloads: 2418428
+  npm_weekly_downloads: 2410962
 ---
 
 # Pulumi MCP Server
@@ -21,18 +21,9 @@ tool_ecosystem:
 
 ## Installation
 
-Requirements and caveats from upstream:
-- [![Python version](https://badge.fury.io/py/pulumi.svg)](https://pypi.org/project/pulumi)
-- const aws = require("@pulumi/aws");
-- nohup python -m SimpleHTTPServer 80 &,
-
-Basic usage or getting-started notes:
-- For example, create three web servers:
-- ## <a name="getting-started"></a>Getting Started
-- To install the latest Pulumi release, run the following (see full
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
 - Source: https://github.com/pulumi/pulumi
-- Extracted from upstream docs: https://raw.githubusercontent.com/pulumi/pulumi/HEAD/README.md
 
 ## Documentation
 

@@ -12,7 +12,7 @@ tool_ecosystem:
   github_repo: "twilio/twilio-node"
   github_stars: 1539
   npm_package: "twilio"
-  npm_weekly_downloads: 5463578
+  npm_weekly_downloads: 5438560
 ---
 
 # Twilio MCP Server
@@ -25,24 +25,11 @@ Node.js, npm
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install twilio or yarn add twilio
-- npm install
-- npm test
-- npm run test:javascript -- -m .\*client.\*
+Install or set up from the source-backed instructions:
 
-Requirements and caveats from upstream:
-- # twilio-node
-- The Node library documentation can be found [here][libdocs].
-- twilio-node uses a modified version of [Semantic Versioning](https://semver.org) for all changes. [See this document](VERSIONS.md) for details.
-
-Basic usage or getting-started notes:
-- ### Test your installation
-- To make sure the installation was successful, try sending yourself an SMS message, like this:
-- js
+npm install twilio
 
 - Source: https://github.com/twilio/twilio-node
-- Extracted from upstream docs: https://raw.githubusercontent.com/twilio/twilio-node/HEAD/README.md
 
 ## Documentation
 
