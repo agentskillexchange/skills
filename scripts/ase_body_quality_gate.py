@@ -378,11 +378,22 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="ASE body-quality gate")
     parser.add_argument("files", nargs="*", help="SKILL.md files to scan")
     parser.add_argument("--all", action="store_true", help="Scan all skills in the repo")
+    parser.add_argument(
+        "--enforce-installation",
+        action="store_true",
+        help="Fail security_reviewed skills with malformed Installation sections. Only allowed with explicit SKILL.md paths.",
+    )
     parser.add_argument("--json", action="store_true", help="Emit JSON report")
     parser.add_argument("--quiet", action="store_true", help="Only print failures in text mode")
     args = parser.parse_args()
 
     repo = Path(__file__).resolve().parent.parent
+    if args.enforce_installation and args.all:
+        print("--enforce-installation cannot be combined with --all; pass explicit SKILL.md paths.", file=sys.stderr)
+        return 2
+    if args.enforce_installation and not args.files:
+        print("--enforce-installation requires explicit SKILL.md paths.", file=sys.stderr)
+        return 2
     if args.all:
         targets = sorted((repo / "skills").glob("*/SKILL.md"))
     else:
@@ -394,9 +405,13 @@ def main() -> int:
 
     reports = [scan_file(path) for path in targets]
     security = [item for item in reports if item["verification"] == "security_reviewed"]
+    installation_failures = [
+        item for item in security
+        if item["installation_issues"]
+    ] if args.enforce_installation else []
     failing = [
         item for item in security
-        if item["toc_fragments"] or item["stale_star_claims"]
+        if item["toc_fragments"] or item["stale_star_claims"] or (args.enforce_installation and item["installation_issues"])
     ]
     warning_items = [item for item in reports if item["markdown_heading_bullet_warnings"]]
     summary = {
@@ -404,9 +419,19 @@ def main() -> int:
         "scanned": len(reports),
         "toc_fragment_security_reviewed_count": sum(len(item["toc_fragments"]) for item in security),
         "stale_star_claim_security_reviewed_count": sum(len(item["stale_star_claims"]) for item in security),
+        "installation_issue_security_reviewed_count": sum(len(item["installation_issues"]) for item in installation_failures),
         "markdown_heading_bullet_warning_count": sum(len(item["markdown_heading_bullet_warnings"]) for item in reports),
         "affected_security_reviewed": [
-            item for item in security if item["toc_fragments"] or item["stale_star_claims"]
+            item for item in security
+            if item["toc_fragments"] or item["stale_star_claims"] or (args.enforce_installation and item["installation_issues"])
+        ],
+        "affected_installation_security_reviewed": [
+            {
+                "path": item["path"],
+                "slug": item["slug"],
+                "installation_issues": item["installation_issues"],
+            }
+            for item in installation_failures
         ],
         "warning_items": warning_items,
     }
@@ -419,6 +444,7 @@ def main() -> int:
                 "ok": summary["ok"],
                 "toc_fragment_security_reviewed_count": summary["toc_fragment_security_reviewed_count"],
                 "stale_star_claim_security_reviewed_count": summary["stale_star_claim_security_reviewed_count"],
+                "installation_issue_security_reviewed_count": summary["installation_issue_security_reviewed_count"],
                 "markdown_heading_bullet_warning_count": summary["markdown_heading_bullet_warning_count"],
             }, indent=2))
         for item in failing:
@@ -427,6 +453,9 @@ def main() -> int:
                 print(f"  TOC line {hit['line']}: {hit['text']}")
             for hit in item["stale_star_claims"]:
                 print(f"  STAR line {hit['line']}: {hit['text']} (structured={hit['structured_github_stars']})")
+            if args.enforce_installation:
+                for hit in item["installation_issues"]:
+                    print(f"  INSTALL {hit['reason']}: {hit['text']}")
     return 0 if not failing else 1
 
 
