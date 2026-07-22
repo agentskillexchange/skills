@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-22",
-  "total": 2788,
+  "total": 2789,
   "skills": [
+    {
+      "slug": "install-chinese-claude-code-skills-for-engineering-workflows",
+      "name": "Install Chinese Claude Code skills for engineering workflows",
+      "title": "Install Chinese Claude Code skills for engineering workflows",
+      "description": "Use claude-code-skills-zh to install Chinese-language Claude Code skills for repeatable code review, README writing, API testing, refactoring, dependency auditing, and performance profiling workflows.",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/laolaoshiren/claude-code-skills-zh",
+      "github_repo": "laolaoshiren/claude-code-skills-zh"
+    },
     {
       "slug": "audit-ai-search-citation-readiness-with-geo-optimizer",
       "name": "Audit AI search citation readiness with GEO Optimizer",

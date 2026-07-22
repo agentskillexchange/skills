@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-22
-# Total: 2788 skills
+# Total: 2789 skills
+
+## Install Chinese Claude Code skills for engineering workflows
+slug: install-chinese-claude-code-skills-for-engineering-workflows
+category: Developer Tools
+framework: Claude Code
+verification: Security Reviewed
+description: Use claude-code-skills-zh to install Chinese-language Claude Code skills for repeatable code review, README writing, API testing, refactoring, dependency auditing, and performance profiling workflows.
+url: https://agentskillexchange.com/skills/install-chinese-claude-code-skills-for-engineering-workflows/
 
 ## Audit AI search citation readiness with GEO Optimizer
 slug: audit-ai-search-citation-readiness-with-geo-optimizer
