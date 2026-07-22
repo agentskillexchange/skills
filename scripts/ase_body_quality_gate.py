@@ -33,6 +33,12 @@ DOTTED_TOC_RE = re.compile(r"^\s*(?:[-*]\s*)?\S.{0,120}?\.{3,}\s*\d{1,4}\s*$")
 FORMATTED_TOC_RE = re.compile(r"^\s*[-*]\s+(?:\*\*)?table of contents(?:\*\*)?\s*:", re.I)
 HEADING_BULLET_RE = re.compile(r"^\s*[-*]\s+(?:#+\s*)?(?P<label>[A-Z][A-Za-z0-9 /&()'.,:-]{2,90})\s*$")
 SAFE_INSTALL_FALLBACK = "No source-backed install or usage instructions could be extracted automatically."
+GENERATED_INSTALL_WRAPPER_LINES = {
+    "Use the upstream install or setup path that matches your environment:",
+    "Install or set up from the source-backed instructions:",
+    "Requirements and caveats from upstream:",
+    "Basic usage or getting-started notes:",
+}
 RAW_INSTALL_FRAGMENT_RE = re.compile(
     r"<\s*/?\s*(?:details|summary|img|table|thead|tbody|tr|td|th)\b|"
     r"!\[[^\]]*(?:badge|shield|build|coverage|version)[^\]]*\]\([^)]*(?:shields\.io|badge|svg)[^)]*\)",
@@ -170,6 +176,10 @@ def clean_install_line(line: str) -> str:
     return line
 
 
+def is_generated_install_wrapper(line: str) -> bool:
+    return line.strip() in GENERATED_INSTALL_WRAPPER_LINES
+
+
 def installation_section(text: str) -> str:
     match = re.search(r"^## Installation\s*\n([\s\S]*?)(?=^##\s+|\Z)", text, re.M)
     return match.group(1).strip() if match else ""
@@ -219,6 +229,8 @@ def installation_issues(text: str, fields: dict[str, Any], path: Path) -> list[d
         line = clean_install_line(original)
         if not line or line.lower().startswith("source: "):
             continue
+        if is_generated_install_wrapper(line):
+            continue
         meaningful_lines += 1
         low = line.lower()
         if TRUNCATED_INSTALL_RE.search(line):
@@ -249,7 +261,7 @@ def installation_issues(text: str, fields: dict[str, Any], path: Path) -> list[d
             prose_commands.append(line)
             continue
         if re.search(
-            r"\b(?:clone|install|copy|add|configure|bootstrap|documented installer|marketplace|mcp server)\b",
+            r"\b(?:clone|install|add|configure|bootstrap|documented installer|marketplace|mcp server)\b",
             line,
             re.I,
         ) and command_mentions_source(line, terms):
