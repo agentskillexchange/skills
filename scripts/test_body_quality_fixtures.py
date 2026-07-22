@@ -4,9 +4,9 @@
 from __future__ import annotations
 
 import tempfile
+import subprocess
+import sys
 from pathlib import Path
-
-from ase_body_quality_gate import scan_file
 
 
 def skill_markdown(slug: str, verification: str, installation: str, *, source: str, repo: str = "") -> str:
@@ -156,6 +156,7 @@ Copy the configuration file into your agent workspace.""",
 
 def main() -> int:
     mismatches: list[str] = []
+    gate = Path(__file__).resolve().parent / "ase_body_quality_gate.py"
     with tempfile.TemporaryDirectory(prefix="ase-body-quality-fixtures-") as temp:
         root = Path(temp)
         for case in CASES:
@@ -171,17 +172,31 @@ def main() -> int:
                 ),
                 encoding="utf-8",
             )
-            report = scan_file(path)
-            issues = report["installation_issues"]
-            passed = not issues
+            result = subprocess.run(
+                [
+                    sys.executable,
+                    str(gate),
+                    "--enforce-installation",
+                    "--quiet",
+                    str(path),
+                ],
+                text=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                check=False,
+            )
+            output = "\n".join(part for part in (result.stdout, result.stderr) if part)
+            passed = result.returncode == 0
             expected = case["pass"]
             print(f'{case["name"]}: {"PASS" if passed else "FAIL"} (expected {"PASS" if expected else "FAIL"})')
             if passed != expected:
-                mismatches.append(f'{case["name"]}: expected pass={expected}, issues={issues}')
+                mismatches.append(
+                    f'{case["name"]}: expected pass={expected}, exit={result.returncode}, output={output!r}'
+                )
                 continue
             expected_reason = case.get("reason")
-            if expected_reason and expected_reason not in {issue["reason"] for issue in issues}:
-                mismatches.append(f'{case["name"]}: missing reason {expected_reason!r}, issues={issues}')
+            if expected_reason and expected_reason not in output:
+                mismatches.append(f'{case["name"]}: missing reason {expected_reason!r}, output={output!r}')
 
     if mismatches:
         print("\nFixture mismatches:")
