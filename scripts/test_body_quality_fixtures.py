@@ -74,9 +74,15 @@ CASES = [
         "verification": "security_reviewed",
         "source": "https://github.com/aannoo/hcom",
         "repo": "aannoo/hcom",
-        "installation": """- brew uninstall hcom
-- cargo build
-- cargo test""",
+        "installation": """Use the upstream install or setup path that matches your environment:
+
+- brew uninstall hcom # or: rm $(which hcom)
+- cargo build && cargo test
+
+Basic usage or getting-started notes:
+- Use it to coordinate pipelines, run different AI CLIs as each other's subagents, or just instead of copy-paste.
+- Terminal 1:
+- hcom claude # codex / gemini / opencode / kilo / pi / omp / agy / cursor-agent / kimi / copilot""",
         "pass": False,
         "reason": "only uninstall/test/benchmark/build commands found",
     },
@@ -102,6 +108,19 @@ CASES = [
 - <details open>""",
         "pass": False,
         "reason": "raw README/HTML fragment in Installation section",
+    },
+    {
+        "name": "valid_wrapper_brew_install_security_reviewed_passes",
+        "slug": "hcom-valid-wrapper-install-quality-fixture",
+        "verification": "security_reviewed",
+        "source": "https://github.com/aannoo/hcom",
+        "repo": "aannoo/hcom",
+        "installation": """Use the upstream install or setup path that matches your environment:
+
+```bash
+brew install hcom
+```""",
+        "pass": True,
     },
     {
         "name": "valid_npm_install_security_reviewed_passes",
