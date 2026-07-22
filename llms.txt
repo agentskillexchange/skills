@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-07-21
-# Total: 2785 skills
+# Generated: 2026-07-22
+# Total: 2786 skills
+
+## Use Stitch Skills to generate, convert, and sync UI designs through agent workflows
+slug: use-stitch-skills-to-generate-convert-and-sync-ui-designs-through-agent-workflows
+category: Image & Creative Automation
+framework: MCP
+verification: Security Reviewed
+description: Install Google's Stitch skill suite so Codex, Claude Code, Cursor, Gemini CLI, or OpenCode can create screens, upload design assets, extract design systems, and…
+url: https://agentskillexchange.com/skills/use-stitch-skills-to-generate-convert-and-sync-ui-designs-through-agent-workflows/
 
 ## Run Agent-Assisted Notebook Workflows in JupyterLab With Notebook Intelligence
 slug: run-agent-assisted-notebook-workflows-in-jupyterlab-with-notebook-intelligence

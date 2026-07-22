@@ -93,6 +93,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Render HTML-native agent videos with slash-command workflows using HyperFrames](../../skills/render-html-native-agent-videos-with-slash-command-workflows-using-hyperframes/) | 9.5k | 28k/wk |
 | [Penrose Mathematical Diagram Generator from Plain Text Notation](../../skills/penrose-math-diagram-generator/) | 7.9k | — |
 | [Turn Markdown or raw content into agent-generated HTML artifacts with HTML Anything](../../skills/turn-markdown-or-raw-content-into-agent-generated-html-artifacts-with-html-anything/) | 7.8k | — |
+| [Use Stitch Skills to generate, convert, and sync UI designs through agent workflows](../../skills/use-stitch-skills-to-generate-convert-and-sync-ui-designs-through-agent-workflows/) | 7.8k | — |
 | [Stable Diffusion LoRA Training Pipeline](../../skills/stable-diffusion-lora-training-pipeline/) | 7k | — |
 | [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](../../skills/pixelmatch-image-comparison-library/) | 6.8k | 8.7M/wk |
 | [Bulk import and reconcile large photo archives into Immich without manual re-upload loops using immich-go](../../skills/bulk-import-and-reconcile-large-photo-archives-into-immich-without-manual-re-upload-loops-using-immich-go/) | 6k | — |

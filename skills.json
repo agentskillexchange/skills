@@ -1,8 +1,22 @@
 {
   "version": "2.0",
-  "total": 2785,
-  "generated": "2026-07-21",
+  "total": 2786,
+  "generated": "2026-07-22",
   "skills": [
+    {
+      "slug": "use-stitch-skills-to-generate-convert-and-sync-ui-designs-through-agent-workflows",
+      "name": "Use Stitch Skills to generate, convert, and sync UI designs through agent workflows",
+      "title": "Use Stitch Skills to generate, convert, and sync UI designs through agent workflows",
+      "description": "Install Google's Stitch skill suite so Codex, Claude Code, Cursor, Gemini CLI, or OpenCode can create screens, upload design assets, extract design systems, and…",
+      "category": "Image & Creative Automation",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 7750
+      },
+      "source_url": "https://github.com/google-labs-code/stitch-skills",
+      "github_repo": "google-labs-code/stitch-skills"
+    },
     {
       "slug": "run-agent-assisted-notebook-workflows-in-jupyterlab-with-notebook-intelligence",
       "name": "Run Agent-Assisted Notebook Workflows in JupyterLab With Notebook Intelligence",

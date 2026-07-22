@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2785 published skills** across **17 categories** · 2,386 security reviewed · Updated 2026-07-21 19:26 UTC
+> **2786 published skills** across **17 categories** · 2,386 security reviewed · Updated 2026-07-22 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -2740,7 +2740,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (94 skills)
+### 🎨 Image & Creative Automation (95 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -2799,6 +2799,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Render HTML-native agent videos with slash-command workflows using HyperFrames](skills/render-html-native-agent-videos-with-slash-command-workflows-using-hyperframes/) | Use agent-facing HyperFrames skills to turn prompts, PDFs, CSVs, or repo context into editable HTML video… | Security Reviewed | 9.5k | 28k/wk |
 | [Penrose Mathematical Diagram Generator from Plain Text Notation](skills/penrose-math-diagram-generator/) | Penrose is an open-source platform that creates beautiful mathematical and scientific diagrams from plain text… | Security Reviewed | 7.9k | — |
 | [Turn Markdown or raw content into agent-generated HTML artifacts with HTML Anything](skills/turn-markdown-or-raw-content-into-agent-generated-html-artifacts-with-html-anything/) | Run a local agentic HTML editor that detects coding-agent CLIs, streams generated HTML into a sandboxed preview, and… | Published | 7.8k | — |
+| [Use Stitch Skills to generate, convert, and sync UI designs through agent workflows](skills/use-stitch-skills-to-generate-convert-and-sync-ui-designs-through-agent-workflows/) | Install Google's Stitch skill suite so Codex, Claude Code, Cursor, Gemini CLI, or OpenCode can create screens,… | Security Reviewed | 7.8k | — |
 | [Stable Diffusion LoRA Training Pipeline](skills/stable-diffusion-lora-training-pipeline/) | Orchestrates LoRA fine-tuning for Stable Diffusion XL using the diffusers library and Kohya ss-scripts. Manages… | Security Reviewed | 7k | — |
 | [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](skills/pixelmatch-image-comparison-library/) | Pixelmatch is the smallest, simplest, and fastest JavaScript pixel-level image comparison library by Mapbox. It… | Security Reviewed | 6.8k | 8.7M/wk |
 | [Bulk import and reconcile large photo archives into Immich without manual re-upload loops using immich-go](skills/bulk-import-and-reconcile-large-photo-archives-into-immich-without-manual-re-upload-loops-using-immich-go/) | Move big photo libraries, takeouts, and nested albums into Immich with metadata intact instead of babysitting… | Security Reviewed | 6k | — |
