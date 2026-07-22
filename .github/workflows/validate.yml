@@ -6,6 +6,8 @@ on:
       - 'skills/**'
       - 'scripts/validate-skill.sh'
       - 'scripts/validate_skills.py'
+      - 'scripts/ase_body_quality_gate.py'
+      - 'scripts/test_body_quality_fixtures.py'
       - 'scripts/security_scan.py'
       - 'scripts/test_security_patterns.py'
       - 'scripts/smoke-agent-endpoints.py'
@@ -19,6 +21,8 @@ on:
       - 'skills/**'
       - 'scripts/validate-skill.sh'
       - 'scripts/validate_skills.py'
+      - 'scripts/ase_body_quality_gate.py'
+      - 'scripts/test_body_quality_fixtures.py'
       - 'scripts/security_scan.py'
       - 'scripts/test_security_patterns.py'
       - 'scripts/smoke-agent-endpoints.py'
@@ -51,6 +55,9 @@ jobs:
           else
             echo "No changed skill files to validate."
           fi
+
+      - name: Test generated Installation body quality
+        run: python3 scripts/test_body_quality_fixtures.py
 
       - name: Test executable security patterns
         run: python3 scripts/test_security_patterns.py

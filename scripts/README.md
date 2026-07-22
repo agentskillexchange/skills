@@ -38,6 +38,21 @@ python3 scripts/validate_skills.py --all --github-annotations --quiet
 
 **Exit codes:** `0` on pass, `1` on validation failure, `2` when PyYAML is unavailable.
 
+### `ase_body_quality_gate.py` and `test_body_quality_fixtures.py`
+
+The body-quality gate detects malformed generated Installation sections, copied
+README navigation, and stale numeric GitHub-star claims. The fixture suite keeps
+known extraction failures and clean installation examples as durable regression
+coverage:
+
+```bash
+python3 scripts/test_body_quality_fixtures.py
+python3 scripts/ase_body_quality_gate.py --all
+```
+
+CI runs the fixture suite independently from the full catalog validator so the
+known failure shapes remain covered without rewriting existing skill bodies.
+
 ### `security_scan.py` and `test_security_patterns.py`
 
 Executable security pattern scanner and fixture test suite for the trust layer.
