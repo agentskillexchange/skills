@@ -111,7 +111,7 @@ Theme/plugin development, WP-CLI automation, CMS management, and WordPress skill
 | [WPGraphQL for ACF WordPress GraphQL Field Mapping](../../skills/wpgraphql-for-acf-wordpress-graphql-field-mapping/) | 108 | — |
 | [MCP WordPress Server by docdyhr](../../skills/mcp-wordpress-server-docdyhr/) | 81 | 358/wk |
 | [WPGraphQL Smart Cache for Headless WordPress](../../skills/wpgraphql-smart-cache-headless-wordpress/) | 80 | — |
-| [Hygraph Management SDK for Schema Migration Automation](../../skills/hygraph-management-sdk-schema-migration-automation/) | 51 | — |
+| [Hygraph Management SDK for Schema Migration Automation](../../skills/hygraph-management-sdk-schema-migration-automation/) | 51 | 147/wk |
 | [AI Engine WordPress MCP Server and AI Automation](../../skills/ai-engine-wordpress-mcp-server-and-ai-automation/) | 37 | — |
 | [WordPress Scripts Build and Block Toolchain](../../skills/wordpress-scripts-build-and-block-toolchain/) | — | 96.2k/wk |
 | [wp-env Zero-Config WordPress Development Environment](../../skills/wp-env-wordpress-dev-environment/) | — | 46.6k/wk |

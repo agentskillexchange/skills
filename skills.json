@@ -1,8 +1,37 @@
 {
   "version": "2.0",
-  "total": 2786,
+  "total": 2788,
   "generated": "2026-07-22",
   "skills": [
+    {
+      "slug": "audit-ai-search-citation-readiness-with-geo-optimizer",
+      "name": "Audit AI search citation readiness with GEO Optimizer",
+      "title": "Audit AI search citation readiness with GEO Optimizer",
+      "description": "Use GEO Optimizer from the CLI or MCP so agents can audit a site for AI search visibility, generate llms.txt/schema fixes, check bot access,…",
+      "category": "Content Writing & SEO",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 611
+      },
+      "source_url": "https://github.com/Auriti-Labs/geo-optimizer-skill",
+      "github_repo": "Auriti-Labs/geo-optimizer-skill"
+    },
+    {
+      "slug": "connect-agents-to-openrag-knowledge-bases-over-mcp",
+      "name": "Connect agents to OpenRAG knowledge bases over MCP",
+      "title": "Connect agents to OpenRAG knowledge bases over MCP",
+      "description": "Use OpenRAG's built-in MCP endpoint so agents can ingest documents, search a knowledge base, create filters, and run RAG-backed chat against a deployed OpenRAG…",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 4368,
+        "npm_weekly_downloads": 52
+      },
+      "source_url": "https://github.com/langflow-ai/openrag",
+      "github_repo": "langflow-ai/openrag"
+    },
     {
       "slug": "use-stitch-skills-to-generate-convert-and-sync-ui-designs-through-agent-workflows",
       "name": "Use Stitch Skills to generate, convert, and sync UI designs through agent workflows",
@@ -13712,7 +13741,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 51
+        "github_stars": 51,
+        "npm_weekly_downloads": 147
       },
       "source_url": "https://github.com/hygraph/management-sdk",
       "github_repo": "hygraph/management-sdk"
@@ -13756,7 +13786,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 34075
+        "github_stars": 34075,
+        "npm_weekly_downloads": 1893155
       },
       "source_url": "https://github.com/SeleniumHQ/selenium",
       "github_repo": "SeleniumHQ/selenium"
@@ -13967,7 +13998,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 2635
+        "github_stars": 2635,
+        "npm_weekly_downloads": 1445657
       },
       "source_url": "https://github.com/openai/openai-agents-js",
       "github_repo": "openai/openai-agents-js"
@@ -21329,7 +21361,8 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 5826
+        "github_stars": 5826,
+        "npm_weekly_downloads": 100595
       },
       "source_url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
       "github_repo": "wonderwhy-er/DesktopCommanderMCP"
@@ -22804,7 +22837,8 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 51326
+        "github_stars": 51326,
+        "npm_weekly_downloads": 1070347
       },
       "source_url": "https://github.com/upstash/context7",
       "github_repo": "upstash/context7"

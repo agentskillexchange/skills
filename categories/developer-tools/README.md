@@ -281,7 +281,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [TypeScript AST Refactor](../../skills/typescript-ast-refactor-ts-morph/) | 6k | 15.2M/wk |
 | [procs Modern Process Viewer CLI](../../skills/procs-modern-process-viewer-cli/) | 6k | — |
 | [Add executable smoke tests for shell scripts and CLIs before refactors ship](../../skills/add-shell-and-cli-smoke-tests-before-refactors-ship/) | 6k | — |
-| [Desktop Commander MCP Server for Terminal and File Control](../../skills/desktop-commander-mcp-terminal-file-control/) | 5.8k | — |
+| [Desktop Commander MCP Server for Terminal and File Control](../../skills/desktop-commander-mcp-terminal-file-control/) | 5.8k | 100.6k/wk |
 | [Build, test, and inspect Apple apps through MCP with XcodeBuildMCP](../../skills/build-test-and-inspect-apple-apps-through-mcp-with-xcodebuildmcp/) | 5.7k | 44.5k/wk |
 | [Orval OpenAPI Client Regeneration Skill for Typed SDKs](../../skills/orval-openapi-client-regeneration-skill-typed-sdks/) | 5.7k | 1.1M/wk |
 | [Notion Workspace Agent](../../skills/notion-workspace-agent/) | 5.6k | 1.2M/wk |

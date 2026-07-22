@@ -79,6 +79,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [SiteOne Crawler Technical SEO and Site Audit](../../skills/siteone-crawler-technical-seo-and-site-audit/) | 708 | — |
 | [Verify Markdown links before docs or content ship with markdown-link-check](../../skills/verify-markdown-links-before-docs-or-content-ship-with-markdown-link-check/) | 693 | 573.2k/wk |
 | [SEOnaut Open Source Technical SEO Audit Tool](../../skills/seonaut-open-source-technical-seo-audit/) | 673 | — |
+| [Audit AI search citation readiness with GEO Optimizer](../../skills/audit-ai-search-citation-readiness-with-geo-optimizer/) | 611 | — |
 | [Run evidence-backed agentic SEO audits with Agentic SEO Skill](../../skills/run-evidence-backed-agentic-seo-audits-with-agentic-seo-skill/) | 588 | — |
 | [Run repeatable Google Ads and SEO audits inside Claude Code with Toprank](../../skills/run-repeatable-google-ads-and-seo-audits-inside-claude-code-with-toprank/) | 466 | — |
 | [Remove AI Writing Fingerprints from Draft Copy](../../skills/remove-ai-writing-fingerprints-from-draft-copy/) | 45 | — |

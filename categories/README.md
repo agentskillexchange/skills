@@ -1,6 +1,6 @@
 # Categories
 
-> **2786 skills** across **17 categories**
+> **2788 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -11,7 +11,7 @@
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **194** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **192** | Pipeline configs, deployment automation, build tooling, and continuou... |
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **175** | Incident response, troubleshooting guides, system diagnostics, and op... |
-| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **153** | Third-party API bridges, webhook handlers, service connectors, and pl... |
+| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **154** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **151** | Metrics collection, alerting rules, observability setup, and system m... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **126** | Email automation, calendar management, task coordination, and product... |
 | 📚 | [**Library & API Reference**](library-api-reference/) | **124** | SDK documentation, API guides, framework reference material, and libr... |
@@ -20,7 +20,7 @@
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **105** | Audio/video processing, speech-to-text, media conversion, and transcr... |
 | 📰 | [**WordPress & CMS**](wordpress-cms/) | **96** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **95** | Image generation, asset processing, design automation, and creative t... |
-| ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **80** | Blog posts, SEO optimization, content strategy, and writing assistance. |
+| ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **81** | Blog posts, SEO optimization, content strategy, and writing assistance. |
 
 ---
 

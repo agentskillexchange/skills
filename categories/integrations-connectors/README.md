@@ -108,6 +108,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Stripe Payments Connector](../../skills/stripe-payments-connector/) | 4.4k | 9.3M/wk |
 | [Stripe Reporting Agent](../../skills/stripe-reporting-agent/) | 4.4k | 9.3M/wk |
 | [Stripe Revenue Reconciliation Agent](../../skills/stripe-revenue-reconciliation-agent/) | 4.4k | 9.3M/wk |
+| [Connect agents to OpenRAG knowledge bases over MCP](../../skills/connect-agents-to-openrag-knowledge-bases-over-mcp/) | 4.4k | 52/wk |
 | [Notion MCP Server for AI Workspace Integration](../../skills/notion-mcp-server-ai-workspace-integration/) | 4.1k | 67.6k/wk |
 | [Tolgee Open Source Localization and i18n Platform](../../skills/tolgee-localization-i18n-platform/) | 3.9k | — |
 | [Use MCP Context Forge as an MCP gateway and registry](../../skills/use-mcp-context-forge-as-an-mcp-gateway-and-registry/) | 3.8k | — |

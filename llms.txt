@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-22
-# Total: 2786 skills
+# Total: 2788 skills
+
+## Audit AI search citation readiness with GEO Optimizer
+slug: audit-ai-search-citation-readiness-with-geo-optimizer
+category: Content Writing & SEO
+framework: MCP
+verification: Security Reviewed
+description: Use GEO Optimizer from the CLI or MCP so agents can audit a site for AI search visibility, generate llms.txt/schema fixes, check bot access,…
+url: https://agentskillexchange.com/skills/audit-ai-search-citation-readiness-with-geo-optimizer/
+
+## Connect agents to OpenRAG knowledge bases over MCP
+slug: connect-agents-to-openrag-knowledge-bases-over-mcp
+category: Integrations & Connectors
+framework: MCP
+verification: Security Reviewed
+description: Use OpenRAG's built-in MCP endpoint so agents can ingest documents, search a knowledge base, create filters, and run RAG-backed chat against a deployed OpenRAG…
+url: https://agentskillexchange.com/skills/connect-agents-to-openrag-knowledge-bases-over-mcp/
 
 ## Use Stitch Skills to generate, convert, and sync UI designs through agent workflows
 slug: use-stitch-skills-to-generate-convert-and-sync-ui-designs-through-agent-workflows

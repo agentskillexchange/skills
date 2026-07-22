@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2786 published skills** across **17 categories** · 2,388 security reviewed · Updated 2026-07-22 01:26 UTC
+> **2788 published skills** across **17 categories** · 2,388 security reviewed · Updated 2026-07-22 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -255,7 +255,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [TypeScript AST Refactor](skills/typescript-ast-refactor-ts-morph/) | Performs automated TypeScript refactoring using ts-morph and the TypeScript Compiler API. Handles rename operations,… | Published | 6k | 15.2M/wk |
 | [procs Modern Process Viewer CLI](skills/procs-modern-process-viewer-cli/) | A modern replacement for ps written in Rust. procs provides colorized, human-readable process listings with… | Security Reviewed | 6k | — |
 | [Add executable smoke tests for shell scripts and CLIs before refactors ship](skills/add-shell-and-cli-smoke-tests-before-refactors-ship/) | Use Bats-core when an agent needs to turn fragile shell scripts or command-line workflows into something it can… | Published | 6k | — |
-| [Desktop Commander MCP Server for Terminal and File Control](skills/desktop-commander-mcp-terminal-file-control/) | Desktop Commander is an MCP server that gives AI assistants terminal command execution, file system search,… | Security Reviewed | 5.8k | — |
+| [Desktop Commander MCP Server for Terminal and File Control](skills/desktop-commander-mcp-terminal-file-control/) | Desktop Commander is an MCP server that gives AI assistants terminal command execution, file system search,… | Security Reviewed | 5.8k | 100.6k/wk |
 | [Build, test, and inspect Apple apps through MCP with XcodeBuildMCP](skills/build-test-and-inspect-apple-apps-through-mcp-with-xcodebuildmcp/) | Connect coding agents to Xcode build, test, simulator, and project-inspection tools through XcodeBuildMCP's MCP… | Security Reviewed | 5.7k | 44.5k/wk |
 | [Orval OpenAPI Client Regeneration Skill for Typed SDKs](skills/orval-openapi-client-regeneration-skill-typed-sdks/) | Use this skill when an agent needs to regenerate a typed API client from an OpenAPI spec, keep fetch clients aligned… | Security Reviewed | 5.7k | 1.1M/wk |
 | [Notion Workspace Agent](skills/notion-workspace-agent/) | Notion Workspace Agent is built around Notion workspace and database platform. The underlying ecosystem is… | Security Reviewed | 5.6k | 1.2M/wk |
@@ -1683,7 +1683,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (153 skills)
+### 🔗 Integrations & Connectors (154 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1757,6 +1757,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Stripe Payments Connector](skills/stripe-payments-connector/) | Full Stripe API integration using the stripe-node SDK. Creates PaymentIntents via stripe.paymentIntents.create(),… | Security Reviewed | 4.4k | 9.3M/wk |
 | [Stripe Reporting Agent](skills/stripe-reporting-agent/) | Stripe Reporting Agent is built around Stripe payments platform. The underlying ecosystem is represented by… | Security Reviewed | 4.4k | 9.3M/wk |
 | [Stripe Revenue Reconciliation Agent](skills/stripe-revenue-reconciliation-agent/) | Uses the Stripe API to pull charge, refund, dispute, and payout records within a configurable date window and… | Security Reviewed | 4.4k | 9.3M/wk |
+| [Connect agents to OpenRAG knowledge bases over MCP](skills/connect-agents-to-openrag-knowledge-bases-over-mcp/) | Use OpenRAG's built-in MCP endpoint so agents can ingest documents, search a knowledge base, create filters, and run… | Security Reviewed | 4.4k | 52/wk |
 | [Notion MCP Server for AI Workspace Integration](skills/notion-mcp-server-ai-workspace-integration/) | The official Notion MCP Server enables AI agents to interact with Notion workspaces through the Model Context… | Security Reviewed | 4.1k | 67.6k/wk |
 | [Tolgee Open Source Localization and i18n Platform](skills/tolgee-localization-i18n-platform/) | Tolgee is an open-source localization platform that lets developers and translators manage translations through… | Security Reviewed | 3.9k | — |
 | [Use MCP Context Forge as an MCP gateway and registry](skills/use-mcp-context-forge-as-an-mcp-gateway-and-registry/) | Put a governed gateway in front of MCP, A2A, REST, and gRPC tools so agent calls can be discovered, routed,… | Security Reviewed | 3.8k | — |
@@ -2146,7 +2147,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Preserve agent session context with Claude Mem](skills/preserve-agent-session-context-with-claude-mem/) | Capture coding-agent sessions, compress the useful decisions and context, and inject relevant memory into future… | Security Reviewed | 74.5k | 16.1k/wk |
 | [Docker Image Layer Analyzer](skills/docker-image-layer-analyzer/) | Analyzes Docker image layers using the Docker Registry HTTP API v2 and dive CLI tool. Calculates layer sizes,… | Security Reviewed | 71.5k | — |
 | [Store selective long-term agent memories with Mem0 instead of replaying whole chats](skills/store-selective-long-term-agent-memories-with-mem0-instead-of-replaying-whole-chats/) | Use Mem0 when an agent should retain durable preferences, facts, and prior decisions as selective memory records… | Security Reviewed | 53.5k | 2.5M/wk |
-| [Context7 MCP Documentation Server for LLM Code Editors](skills/context7-mcp-documentation-server-llm-code-editors/) | Context7 by Upstash injects up-to-date, version-specific library documentation and code examples directly into AI… | Security Reviewed | 51.3k | — |
+| [Context7 MCP Documentation Server for LLM Code Editors](skills/context7-mcp-documentation-server-llm-code-editors/) | Context7 by Upstash injects up-to-date, version-specific library documentation and code examples directly into AI… | Security Reviewed | 51.3k | 1.1M/wk |
 | [Terraform Provider Schema Explorer](skills/terraform-provider-schema-explorer/) | Explores HashiCorp Terraform provider schemas using terraform providers schema -json output. Maps resource… | Security Reviewed | 48.1k | — |
 | [Prisma Schema Migrator](skills/prisma-schema-migrator/) | Automates Prisma ORM schema evolution and migration planning using prisma migrate and prisma db commands. Validates… | Security Reviewed | 45.8k | 9.9M/wk |
 | [Zod Schema Generator](skills/zod-schema-generator/) | Converts JSON samples, TypeScript interfaces, and OpenAPI specs into Zod validation schemas. Uses ts-morph for AST… | Published | 42.5k | 145.1M/wk |
@@ -2207,7 +2208,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [OpenAPI Spec Validator & Linter](skills/openapi-spec-validator-linter-2/) | Validates OpenAPI 3.0/3.1 specifications using the @readme/openapi-parser and Spectral linter with custom rulesets.… | Security Reviewed | 3.1k | 1.2M/wk |
 | [Python Dependency Graph Resolver](skills/python-dependency-graph-resolver/) | Resolves and visualizes Python package dependency graphs using pip, pipdeptree, and the PyPI JSON API. Detects… | Security Reviewed | 3k | — |
 | [Python Package Dependency Graph Mapper](skills/python-package-dependency-graph-mapper/) | Builds dependency graphs for Python packages using the PyPI JSON API and pipdeptree library. Visualizes transitive… | Security Reviewed | 3k | — |
-| [OpenAI Agents SDK JavaScript Workflow Toolkit](skills/openai-agents-sdk-javascript-workflow-toolkit/) | A source-backed guide to the OpenAI Agents SDK for JavaScript and TypeScript. It covers agent orchestration, tools,… | Security Reviewed | 2.6k | — |
+| [OpenAI Agents SDK JavaScript Workflow Toolkit](skills/openai-agents-sdk-javascript-workflow-toolkit/) | A source-backed guide to the OpenAI Agents SDK for JavaScript and TypeScript. It covers agent orchestration, tools,… | Security Reviewed | 2.6k | 1.4M/wk |
 | [Anthropic SDK Token Usage Logger](skills/anthropic-sdk-token-usage-logger/) | Instruments Anthropic API calls to log token usage, latency, and cost per request using the Anthropic TypeScript… | Security Reviewed | 1.9k | 14.5M/wk |
 | [Ground PostgreSQL code generation in exact docs and best-practice skills through pg-aiguide](skills/ground-postgresql-code-generation-in-exact-docs-and-best-practice-skills-through-pg-aiguide/) | Give coding agents a PostgreSQL-specific reference layer with semantic doc search and curated schema, indexing, and… | Security Reviewed | 1.7k | 444/wk |
 | [Navigate indexed codebases through symbol-first MCP retrieval with jCodeMunch MCP](skills/navigate-indexed-codebases-through-symbol-first-mcp-retrieval-with-jcodemunch-mcp/) | Use jCodeMunch MCP when an agent needs precise symbol lookups, outlines, call-graph context, and targeted source… | Security Reviewed | 1.6k | — |
@@ -2328,7 +2329,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Selenium Grid Session Manager](skills/selenium-grid-session-manager/) | Manages distributed browser sessions on Selenium Grid 4 via the GraphQL API and /status endpoint. Handles node… | Security Reviewed | 34.1k | 1.9M/wk |
 | [Selenium Grid Session Router](skills/selenium-grid-session-router/) | Routes browser automation sessions across Selenium Grid 4 nodes using the /status and /session endpoints. Configures… | Security Reviewed | 34.1k | 1.9M/wk |
 | [Selenium Grid Test Orchestrator](skills/selenium-grid-test-orchestrator-2/) | Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid API. Manages session queuing,… | Security Reviewed | 34.1k | 1.9M/wk |
-| [Selenium WebDriver Browser Automation Framework](skills/selenium-webdriver-browser-automation-framework/) | Selenium is the long-running open source browser automation framework behind the W3C WebDriver standard. It gives… | Security Reviewed | 34.1k | — |
+| [Selenium WebDriver Browser Automation Framework](skills/selenium-webdriver-browser-automation-framework/) | Selenium is the long-running open source browser automation framework behind the W3C WebDriver standard. It gives… | Security Reviewed | 34.1k | 1.9M/wk |
 | [Playwright MCP Browser Automation](skills/playwright-mcp-browser-automation/) | Official Playwright-powered browser control for agent workflows. | Security Reviewed | 33.3k | 6.4M/wk |
 | [Microsoft Playwright MCP](skills/microsoft-playwright-mcp/) | Microsoft Playwright MCP exposes Playwright browser automation through the Model Context Protocol, giving agents… | Security Reviewed | 30.8k | 2.8M/wk |
 | [Playwright MCP Server for Browser Automation](skills/playwright-mcp-server-browser-automation/) | The official Microsoft Playwright MCP server provides browser automation capabilities through the Model Context… | Security Reviewed | 30.1k | 2.4M/wk |
@@ -2713,7 +2714,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WPGraphQL for ACF WordPress GraphQL Field Mapping](skills/wpgraphql-for-acf-wordpress-graphql-field-mapping/) | WPGraphQL for ACF extends WPGraphQL so Advanced Custom Fields data becomes queryable through a typed GraphQL schema.… | Security Reviewed | 108 | — |
 | [MCP WordPress Server by docdyhr](skills/mcp-wordpress-server-docdyhr/) | An ASE skill built around docdyhr/mcp-wordpress, a WordPress MCP server that exposes site management tools through… | Security Reviewed | 81 | 358/wk |
 | [WPGraphQL Smart Cache for Headless WordPress](skills/wpgraphql-smart-cache-headless-wordpress/) | An ASE skill built around WPGraphQL Smart Cache, the open source WordPress plugin for caching WPGraphQL queries and… | Security Reviewed | 80 | — |
-| [Hygraph Management SDK for Schema Migration Automation](skills/hygraph-management-sdk-schema-migration-automation/) | A source-backed ASE skill for the Hygraph Management SDK, the JavaScript package for managing Hygraph project schema… | Security Reviewed | 51 | — |
+| [Hygraph Management SDK for Schema Migration Automation](skills/hygraph-management-sdk-schema-migration-automation/) | A source-backed ASE skill for the Hygraph Management SDK, the JavaScript package for managing Hygraph project schema… | Security Reviewed | 51 | 147/wk |
 | [AI Engine WordPress MCP Server and AI Automation](skills/ai-engine-wordpress-mcp-server-and-ai-automation/) | AI Engine is a WordPress plugin by Meow Apps that connects sites to OpenAI, Claude, Gemini, and other models while… | Published | 37 | — |
 | [WordPress Scripts Build and Block Toolchain](skills/wordpress-scripts-build-and-block-toolchain/) | @wordpress/scripts packages the default WordPress JavaScript build stack into one reusable developer dependency. It… | Published | — | 96.2k/wk |
 | [wp-env Zero-Config WordPress Development Environment](skills/wp-env-wordpress-dev-environment/) | The @wordpress/env package (wp-env) provides a zero-configuration, Docker-based local WordPress environment for… | Published | — | 46.6k/wk |
@@ -2843,7 +2844,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [RunPod Serverless GPU Inference](skills/runpod-serverless-gpu-inference/) | Deploy and manage GPU inference endpoints on RunPod Serverless using their REST API. Handles endpoint creation, cold… | Security Reviewed | — | — |
 
 
-### ✍️ Content Writing & SEO (80 skills)
+### ✍️ Content Writing & SEO (81 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
 
@@ -2888,6 +2889,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [SiteOne Crawler Technical SEO and Site Audit](skills/siteone-crawler-technical-seo-and-site-audit/) | SiteOne Crawler is a real website crawler and analyzer for technical SEO, accessibility, security, and performance… | Security Reviewed | 708 | — |
 | [Verify Markdown links before docs or content ship with markdown-link-check](skills/verify-markdown-links-before-docs-or-content-ship-with-markdown-link-check/) | Catch dead links in README files, docs folders, and content drafts before a broken reference ships to users. | Security Reviewed | 693 | 573.2k/wk |
 | [SEOnaut Open Source Technical SEO Audit Tool](skills/seonaut-open-source-technical-seo-audit/) | SEOnaut is an open-source SEO auditing tool built with Go that crawls websites and generates detailed reports on… | Security Reviewed | 673 | — |
+| [Audit AI search citation readiness with GEO Optimizer](skills/audit-ai-search-citation-readiness-with-geo-optimizer/) | Use GEO Optimizer from the CLI or MCP so agents can audit a site for AI search visibility, generate llms.txt/schema… | Security Reviewed | 611 | — |
 | [Run evidence-backed agentic SEO audits with Agentic SEO Skill](skills/run-evidence-backed-agentic-seo-audits-with-agentic-seo-skill/) | Install a multi-runtime SEO skill pack that collects crawl, schema, performance, sitemap, robots, and content… | Security Reviewed | 588 | — |
 | [Run repeatable Google Ads and SEO audits inside Claude Code with Toprank](skills/run-repeatable-google-ads-and-seo-audits-inside-claude-code-with-toprank/) | Use Toprank when an agent needs a repeatable Claude Code workflow for Google Ads and SEO audits, with concrete slash… | Security Reviewed | 466 | — |
 | [Remove AI Writing Fingerprints from Draft Copy](skills/remove-ai-writing-fingerprints-from-draft-copy/) | Use humanizer to scan drafts for AI telltales, explain what sounds synthetic, and suggest grounded rewrites that… | Security Reviewed | 45 | — |

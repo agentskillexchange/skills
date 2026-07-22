@@ -2,8 +2,30 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-22",
-  "total": 2786,
+  "total": 2788,
   "skills": [
+    {
+      "slug": "audit-ai-search-citation-readiness-with-geo-optimizer",
+      "name": "Audit AI search citation readiness with GEO Optimizer",
+      "title": "Audit AI search citation readiness with GEO Optimizer",
+      "description": "Use GEO Optimizer from the CLI or MCP so agents can audit a site for AI search visibility, generate llms.txt/schema fixes, check bot access,…",
+      "category": "Content Writing & SEO",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Auriti-Labs/geo-optimizer-skill",
+      "github_repo": "Auriti-Labs/geo-optimizer-skill"
+    },
+    {
+      "slug": "connect-agents-to-openrag-knowledge-bases-over-mcp",
+      "name": "Connect agents to OpenRAG knowledge bases over MCP",
+      "title": "Connect agents to OpenRAG knowledge bases over MCP",
+      "description": "Use OpenRAG's built-in MCP endpoint so agents can ingest documents, search a knowledge base, create filters, and run RAG-backed chat against a deployed OpenRAG…",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/langflow-ai/openrag",
+      "github_repo": "langflow-ai/openrag"
+    },
     {
       "slug": "use-stitch-skills-to-generate-convert-and-sync-ui-designs-through-agent-workflows",
       "name": "Use Stitch Skills to generate, convert, and sync UI designs through agent workflows",
