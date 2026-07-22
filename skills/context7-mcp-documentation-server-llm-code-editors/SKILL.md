@@ -10,6 +10,8 @@ framework: "MCP"
 tool_ecosystem:
   github_repo: "upstash/context7"
   github_stars: 51326
+  npm_package: "@upstash/context7-mcp"
+  npm_weekly_downloads: 1070347
 ---
 
 # Context7 MCP Documentation Server for LLM Code Editors

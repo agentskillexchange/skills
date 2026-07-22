@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "SeleniumHQ/selenium"
   github_stars: 34075
+  npm_package: "selenium-webdriver"
+  npm_weekly_downloads: 1893155
 ---
 
 # Selenium WebDriver Browser Automation Framework

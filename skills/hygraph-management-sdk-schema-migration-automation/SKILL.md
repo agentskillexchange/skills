@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "hygraph/management-sdk"
   github_stars: 51
+  npm_package: "@graphcms/management"
+  npm_weekly_downloads: 147
 ---
 
 # Hygraph Management SDK for Schema Migration Automation

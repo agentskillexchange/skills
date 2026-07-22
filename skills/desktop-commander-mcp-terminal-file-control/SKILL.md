@@ -10,6 +10,8 @@ framework: "MCP"
 tool_ecosystem:
   github_repo: "wonderwhy-er/DesktopCommanderMCP"
   github_stars: 5826
+  npm_package: "@wonderwhy-er/desktop-commander"
+  npm_weekly_downloads: 100595
 ---
 
 # Desktop Commander MCP Server for Terminal and File Control

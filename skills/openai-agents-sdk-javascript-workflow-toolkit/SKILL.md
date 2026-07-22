@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "openai/openai-agents-js"
   github_stars: 2635
+  npm_package: "@openai/agents"
+  npm_weekly_downloads: 1445657
 ---
 
 # OpenAI Agents SDK JavaScript Workflow Toolkit
