@@ -24,18 +24,17 @@ Python 3.9+; geo-optimizer-skill package; optional MCP client such as Claude Cod
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
+Install the CLI package:
+
 - pip install geo-optimizer-skill
-- pip install geo-optimizer-skill[mcp]
 
-Requirements and caveats from upstream:
-- [![Python 3.9+](https://img.shields.io/badge/python-3.9+-3776ab?style=flat-square&logo=python&logoColor=white)](https://python.org)
-- | **Free audit** | [geoready.dev](https://geoready.dev) — single-URL GEO score, no account required |
+Prerequisite: Python 3.9 or newer. To run one audit without installing into the current environment:
 
-Basic usage or getting-started notes:
-- [Quick Start](#quick-start) · [Live Demo](https://geoready.dev) · [Pricing](https://geoready.dev/pricing) · [Sign Up](https://app.geoready.dev/signup) · [Documentation](https://auriti-labs.github.io/geo-optimizer-skil...
-- **16 CLI commands** · **8 scoring categories** · **47 research-backed methods** · **7 output formats** · **1,720 tests** · academic foundation ([KDD 2024](https://arxiv.org/abs/2311.09735), [ICLR 2026](https://arxiv.o...
-- No install? One-shot audit with [uv](https://docs.astral.sh/uv/):
+- uvx --from geo-optimizer-skill geo audit --url https://yoursite.com
+
+After installation, run a basic audit:
+
+- geo audit --url https://yoursite.com
 
 - Source: https://github.com/Auriti-Labs/geo-optimizer-skill
 - Extracted from upstream docs: https://raw.githubusercontent.com/Auriti-Labs/geo-optimizer-skill/HEAD/README.md

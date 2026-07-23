@@ -24,14 +24,13 @@ AI coding tool, git, bash, python3; Claude Code CLI and tmux for autonomous deli
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- git clone https://github.com/Fr-e-d/GAAI-framework.git /tmp/gaai
-- git clone https://github.com/Fr-e-d/GAAI-framework.git /tmp/gaai && \
+Clone the upstream framework, then run its project installer from the repository root:
 
-Basic usage or getting-started notes:
-- **Copy the .gaai/ folder into your project.** That's it.
-- Download from GitHub, drop .gaai/ into your project root, and tell your AI tool: *"Read .gaai/core/README.md and bootstrap this project."*
-- <details open>
+- git clone https://github.com/Fr-e-d/GAAI-framework.git /tmp/gaai
+- cd /tmp/gaai
+- bash .gaai/core/scripts/install.sh --target /path/to/your-project --tool claude-code --yes
+
+The installer copies .gaai/ into the target project and deploys the appropriate tool adapter. Supported tool values documented by upstream include claude-code, cursor, windsurf, and other.
 
 - Source: https://github.com/Fr-e-d/GAAI-framework
 - Extracted from upstream docs: https://raw.githubusercontent.com/Fr-e-d/GAAI-framework/HEAD/README.md

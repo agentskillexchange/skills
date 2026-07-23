@@ -24,20 +24,18 @@ Node.js, git or archive download fallback, and a supported agent host such as Cl
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm run bench makes **one API call** per task — clean for isolating the output lever, but it
-- npx pxpipe-proxy export --json --out "$TMPDIR" src/ # → page-*.png + factsheet.txt + token report
-- pip install ecologits
+Use the documented plugin path for your agent.
 
-Requirements and caveats from upstream:
-- the normative spec, JS + Python reference implementations, conformance vectors,
-- need **Node >= 14** on the PATH Claude Code spawns them with — desktop-app
-- /usr/local/bin/node is common; the hook now warns instead of failing silently.
+For Claude Code:
 
-Basic usage or getting-started notes:
-- cross-tool coding skill that cuts AI coding-agent token usage and LLM API costs —
-- (Claude Opus 4.8, 3 runs each) — run cd bench && npm run bench to reproduce.
-- (npm run bench:cline) runs each task *through* the [Cline](https://cline.bot) CLI headless, so
+- /plugin marketplace add Green-PT/honey-for-devs
+- /plugin install honey@greenpt
+
+For Codex:
+
+- codex plugin marketplace add Green-PT/honey-for-devs
+
+Then enable honey from Codex's /plugins UI. Prerequisite: Node.js on the PATH for the installer and hooks. For a manual project-level setup, copy the upstream AGENTS.md into the project root or use the matching rule file documented in INSTALL.md.
 
 - Source: https://github.com/Green-PT/honey-for-devs
 - Extracted from upstream docs: https://raw.githubusercontent.com/Green-PT/honey-for-devs/HEAD/README.md

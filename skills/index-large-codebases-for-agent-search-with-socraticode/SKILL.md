@@ -26,14 +26,22 @@ Node.js 18+, Socraticode CLI or MCP server, and a compatible agent client such a
 
 ## Installation
 
-Requirements and caveats from upstream:
-- <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/node-%3E%3D18-brightgreen.svg" alt="Node.js >= 18"></a>
-- **Private and local by default** — Docker handles everything, no API keys required, no data leaves your machine. **Cloud ready** for embeddings (OpenAI, Google Gemini) and Qdrant, and a **full suite of configuration o...
-- The first Qdrant‑based MCP/Claude Plugin/Skill that pairs auto‑managed, zero‑config local Docker deployment with **AST‑aware code chunking, hybrid semantic + BM25 (RRF‑fused) code search**, polyglot dependency **graph...
+Prerequisite: Docker must be installed and running. SocratiCode pulls its local service containers on first use.
 
-Basic usage or getting-started notes:
-- [Quick Start](#quick-start)
-- [Example Workflow](#example-workflow)
+For Claude Code, install the upstream plugin:
+
+- claude plugin marketplace add giancarloerra/socraticode
+- claude plugin install socraticode@socraticode
+
+For MCP-only hosts, add the documented server command:
+
+- claude mcp add socraticode -- npx -y socraticode
+
+For Codex, add this MCP server to ~/.codex/config.toml:
+
+[mcp_servers.socraticode]
+command = "npx"
+args = ["-y", "socraticode"]
 
 - Source: https://github.com/giancarloerra/SocratiCode
 - Extracted from upstream docs: https://raw.githubusercontent.com/giancarloerra/SocratiCode/HEAD/README.md

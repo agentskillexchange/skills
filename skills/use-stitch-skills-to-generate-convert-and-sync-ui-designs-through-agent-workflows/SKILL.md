@@ -24,20 +24,17 @@ An agent runtime that can load Agent Skills or plugins, plus the Stitch MCP serv
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
+For Codex, add the Stitch Skills marketplace, then enable the plugin you need from Codex's plugin UI:
+
+- codex plugin marketplace add google-labs-code/stitch-skills --ref main
+
+For Claude Code, install the project-local plugin with the documented plugins CLI:
+
 - npx plugins add google-labs-code/stitch-skills --scope project --target claude-code
-- npx plugins add google-labs-code/stitch-skills --scope workspace --target cursor
-- OpenCode does **not** use npx plugins / npx skills or the Codex/Claude marketplace layout.
+
+For selective skill installation, use the upstream skills CLI and include any required dependent Stitch skills:
+
 - npx skills add google-labs-code/stitch-skills
-
-Requirements and caveats from upstream:
-- **Naming:** OpenCode requires skill name frontmatter to be lowercase kebab-case and match the directory name. Skills that use stitch::… names (or other non-kebab forms) need the name field and folder renamed before Op...
-- Stitch Design Skills often have inter-dependencies. If you choose to install skills selectively, ensure you include all required dependencies.
-
-Basic usage or getting-started notes:
-- The fastest way to set up the full Stitch plugin suite globally.
-- Add the Stitch Skills marketplace, then install the plugins you need.
-- <details open>
 
 - Source: https://github.com/google-labs-code/stitch-skills
 - Extracted from upstream docs: https://raw.githubusercontent.com/google-labs-code/stitch-skills/HEAD/README.md

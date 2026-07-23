@@ -24,14 +24,19 @@ hcom CLI installed by Homebrew, release installer, uv, or pip; terminal-agent CL
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew uninstall hcom # or: rm $(which hcom)
-- cargo build && cargo test
+Install the released CLI with one of the upstream package paths:
 
-Basic usage or getting-started notes:
-- Use it to coordinate pipelines, run different AI CLIs as each other's subagents, or just instead of copy-paste.
-- Terminal 1:
-- hcom claude # codex / gemini / opencode / kilo / pi / omp / agy / cursor-agent / kimi / copilot
+- brew install aannoo/hcom/hcom
+
+Alternative Python tool install:
+
+- uv tool install hcom
+
+or:
+
+- pip install hcom
+
+After installation, start an agent through hcom, for example hcom claude or hcom codex.
 
 - Source: https://github.com/aannoo/hcom
 - Extracted from upstream docs: https://raw.githubusercontent.com/aannoo/hcom/HEAD/README.md
