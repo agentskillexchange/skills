@@ -26,18 +26,17 @@ Node.js 20+, npx, target host CLI on PATH such as claude, codex, or opencode; le
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- **Learning:** “for this repo, always use pnpm dev:all to start the full local stack — npm run dev only starts the frontend and causes missing service errors”
+Prerequisites: Node.js 20 or newer and the target host CLI on PATH.
 
-Requirements and caveats from upstream:
-- <img src="https://img.shields.io/badge/python-%3E%3D3.12-brightgreen.svg" alt="Python">
-- <img src="https://img.shields.io/badge/node-%3E%3D20-brightgreen.svg" alt="Node">
-- *Example:* Claude spends several iterations trying to start the local dev environment before discovering that this repo requires pnpm dev:all instead of the usual npm run dev.<br>
+For Claude Code:
 
-Basic usage or getting-started notes:
-- <a href="#quick-start">Quick Start</a> •
-- *Example:* a deploy fails after Claude bumps prisma from 5.x to 6.0; you tell it to roll back because 6.0 breaks nested writes in your order flow.<br>
-- **Memory:** “user mentioned that npm run dev did not work”<br>
+- npx claude-smart install
+
+For Codex:
+
+- npx claude-smart install --host codex
+
+Restart the host after installation so hooks reload.
 
 - Source: https://github.com/ReflexioAI/claude-smart
 - Extracted from upstream docs: https://raw.githubusercontent.com/ReflexioAI/claude-smart/HEAD/README.md

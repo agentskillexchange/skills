@@ -24,18 +24,13 @@ A supported coding agent, local reverse-engineering or security tools appropriat
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
+Prerequisites documented upstream include Java or JDK, Node.js 22.12 or newer, Python 3.x, git, Docker, and a code AI client such as Claude Code, Codex CLI, or Cursor.
+
+Clone the playbook repository:
+
 - git clone https://github.com/zhaoxuya520/reverse-skill.git
 
-Requirements and caveats from upstream:
-- <img src="https://skillicons.dev/icons?i=py,nodejs,powershell,bash,java,docker,git&theme=light" /><br/>
-- **Node.js 22.12+** — for JS toolchain and MCP servers
-- **Python 3.x** — for Frida and helper scripts
-
-Basic usage or getting-started notes:
-- <a href="#getting-started">Getting Started</a> ·
-- <a href="#usage">Usage</a> ·
-- **Java / JDK** — for jadx and apktool
+Use README_AI.md and skills/MASTER-ROUTING.md in the cloned repository for AI bootstrap and routing configuration.
 
 - Source: https://github.com/zhaoxuya520/reverse-skill
 - Extracted from upstream docs: https://raw.githubusercontent.com/zhaoxuya520/reverse-skill/HEAD/README.md

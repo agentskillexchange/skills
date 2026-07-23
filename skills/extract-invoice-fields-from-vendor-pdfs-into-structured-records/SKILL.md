@@ -24,15 +24,11 @@ pdftotext or pdfminer or pdfplumber or OCRmyPDF or Tesseract or Google Cloud Vis
 
 ## Installation
 
-Requirements and caveats from upstream:
-- [![Version](https://img.shields.io/pypi/v/invoice2data.svg)](https://pypi.python.org/pypi/invoice2data)
-- [![Support Python versions](https://img.shields.io/pypi/pyversions/invoice2data.svg)](https://pypi.python.org/pypi/invoice2data)
-- A command line tool and Python library that automates the extraction of key information from invoices to support your accounting
+Install the Python package from PyPI:
 
-Basic usage or getting-started notes:
-- Basic usage. Process PDF files and write result to CSV.
-- Please see the [Command-line Reference] for details.
-- invoice2data invoice.pdf
+- pip install invoice2data
+
+The default pdfium backend bundles its own dependencies, so no system PDF extraction library is required for the default path. See the upstream installation guide for optional OCR and backend extras.
 
 - Source: https://github.com/invoice-x/invoice2data
 - Extracted from upstream docs: https://raw.githubusercontent.com/invoice-x/invoice2data/HEAD/README.md

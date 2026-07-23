@@ -26,20 +26,18 @@ Node.js 18+, @bitkyc08/opencodex, Codex CLI/App/SDK or Claude Code, provider cre
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
+Prerequisite: Node.js 18 or newer. The Bun runtime is bundled by the npm package.
+
+Install the published proxy package:
+
 - npm install -g @bitkyc08/opencodex
-- npm install -g --allow-scripts=bun @bitkyc08/opencodex # no --ignore-scripts, no --omit=optional
-- npm's own warning suggests an abbreviated command without the package name —
-- npm uninstall -g @bitkyc08/opencodex
 
-Requirements and caveats from upstream:
-- <img src="https://img.shields.io/node/v/@bitkyc08/opencodex?logo=node.js&label=node" alt="node version">
-- Requires [Node](https://nodejs.org) 18+. The Bun runtime is bundled automatically on npm install — no separate Bun install needed. All three platforms work natively (no WSL needed on Windows).
-- opencodex bundles the Bun runtime as a dependency and runs it via a Node
+If your package manager blocks bundled scripts, upstream documents this npm install form:
 
-Basic usage or getting-started notes:
-- lowest-usage healthy account. Existing Codex threads stay pinned to the account that started them,
-- quota --> pick[Pick lowest-usage<br/>healthy account]
+- npm install -g --allow-scripts=bun @bitkyc08/opencodex
+
+Start configuration with the upstream CLI:
+
 - ocx init
 
 - Source: https://github.com/lidge-jun/opencodex

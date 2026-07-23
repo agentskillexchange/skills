@@ -24,13 +24,11 @@ Claude Code, Codex, Cursor, Factory Droid, or compatible agent host; git; jq and
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
+Clone the upstream repository:
+
 - git clone https://github.com/gmickel/flow-next.git
 
-Basic usage or getting-started notes:
-- <table>
-- <tr>
-- <td><strong>Claude Code</strong></td>
+Then follow the project-specific agent setup instructions in the cloned README for your target assistant.
 
 - Source: https://github.com/gmickel/flow-next
 - Extracted from upstream docs: https://raw.githubusercontent.com/gmickel/flow-next/HEAD/README.md

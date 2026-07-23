@@ -24,20 +24,11 @@ Bdash desktop app, bundled Bdash MCP server, Node.js, Claude Code or another MCP
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- yarn mcp:install
-- yarn mcp:build
-- $ yarn
-- $ yarn watch
+Install Bdash from the official website or GitHub Releases.
 
-Requirements and caveats from upstream:
-- "command": "node",
-- Publishing a release also triggers the website deployment workflow in bdash-app/bdash-app.github.io, so the download version on the website is updated from the latest release. This requires a GitHub App installed on t...
+For development MCP setup from a cloned repository, upstream documents running yarn mcp:install and then yarn mcp:build.
 
-Basic usage or getting-started notes:
-- Add to your Claude Code MCP settings (.claude/settings.json or project-level):
-- {
-- "mcpServers": {
+For Claude Code, add the MCP server to .claude/settings.json or a project-level MCP settings file with command node and args pointing to src/mcp/dist/server.js. For the bundled macOS app, point args to /Applications/Bdash.app/Contents/Resources/mcp/server.js.
 
 - Source: https://github.com/bdash-app/bdash
 - Extracted from upstream docs: https://raw.githubusercontent.com/bdash-app/bdash/HEAD/README.md

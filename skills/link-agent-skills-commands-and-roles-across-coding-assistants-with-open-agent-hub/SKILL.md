@@ -24,14 +24,17 @@ Node.js/npm for npm link, Open Agent Hub repository, target coding assistant con
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx skills@latest add guanyang/open-agent-hub
-- npx skills@latest add guanyang/open-agent-hub --skill remotion
-- git clone https://github.com/guanyang/open-agent-hub.git ~/open-agent-hub
-- npm link
+For skills-only installation, use the upstream skills CLI:
 
-Basic usage or getting-started notes:
-- In the root directory, run the link command to register the CLI manager open-agent (with aliases open-agent-hub, oah, ahub):
+- npx skills@latest add guanyang/open-agent-hub
+
+To add one skill from the hub, pass its skill name:
+
+- npx skills@latest add guanyang/open-agent-hub --skill remotion
+
+For the full hub manager, clone the repository, then follow the upstream README to link the open-agent CLI from the repository root:
+
+- git clone https://github.com/guanyang/open-agent-hub.git ~/open-agent-hub
 
 - Source: https://github.com/guanyang/open-agent-hub
 - Extracted from upstream docs: https://raw.githubusercontent.com/guanyang/open-agent-hub/HEAD/README.md

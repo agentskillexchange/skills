@@ -24,18 +24,11 @@ Claude Code plugin support
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
+Install the Claude Code plugin from the upstream repository:
+
 - git clone https://github.com/romiluz13/cc10x.git ~/.claude/plugins/cc10x
 
-Requirements and caveats from upstream:
-- | SubagentStop | Audit subagent outputs for required contract markers |
-- Clarifying requirements (REQUIRED):
-- What framework/language? (Node.js, Python, etc.)
-
-Basic usage or getting-started notes:
-- **If user skips:** No action. The memory file will be created on first workflow run with an empty ## User Standards section for them to fill in later.
-- **Example:** If user has these:
-- "build a user authentication system"
+Restart Claude Code after cloning so the plugin is discovered.
 
 - Source: https://github.com/romiluz13/cc10x
 - Extracted from upstream docs: https://raw.githubusercontent.com/romiluz13/cc10x/HEAD/README.md

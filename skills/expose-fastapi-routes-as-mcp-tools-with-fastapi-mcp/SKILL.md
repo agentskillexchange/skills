@@ -24,20 +24,15 @@ Python 3.10+, FastAPI application, fastapi-mcp package, MCP-capable client
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
+Install with uv, as recommended upstream:
+
 - uv add fastapi-mcp
-- Alternatively, you can install with pip:
+
+Alternatively, install with pip:
+
 - pip install fastapi-mcp
 
-Requirements and caveats from upstream:
-- [![Python Versions](https://img.shields.io/pypi/pyversions/fastapi-mcp.svg)](https://pypi.org/project/fastapi-mcp/)
-- We recommend using [uv](https://docs.astral.sh/uv/), a fast Python package installer:
-- python
-
-Basic usage or getting-started notes:
-- <p align="center"><a href="https://github.com/tadata-org/fastapi_mcp"><img src="https://github.com/user-attachments/assets/b205adc6-28c0-4e3c-a68b-9c1a80eb7d0c" alt="fastapi-mcp-usage" height="400"/></a></p>
-- bash
-- ## Basic Usage
+After mounting FastAPI-MCP in your app, the generated MCP server is available at your app base URL plus /mcp.
 
 - Source: https://github.com/tadata-org/fastapi_mcp
 - Extracted from upstream docs: https://raw.githubusercontent.com/tadata-org/fastapi_mcp/HEAD/README.md

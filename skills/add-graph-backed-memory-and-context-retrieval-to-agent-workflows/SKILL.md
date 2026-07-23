@@ -24,20 +24,17 @@ Python, Cognee, LLM provider credentials, optional graph/vector database backend
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
+Prerequisite: Python 3.10 to 3.14.
+
+Install Cognee with uv or pip:
+
 - uv pip install cognee
 - pip install cognee
-- git clone https://github.com/topoteretes/cognee-integrations.git
 
-Requirements and caveats from upstream:
-- Python 3.10 to 3.14
-- You can install Cognee with **pip**, **poetry**, **uv**, or your preferred Python package manager.
-- python
+For Claude Code persistent memory, upstream documents installing the Cognee integration plugin:
 
-Basic usage or getting-started notes:
-- ## Basic Usage & Feature Guide
-- Let’s try Cognee in just a few lines of code.
-- ### Step 1: Install Cognee
+- claude plugin marketplace add topoteretes/cognee-integrations
+- claude plugin install cognee-memory@cognee
 
 - Source: https://github.com/topoteretes/cognee
 - Extracted from upstream docs: https://raw.githubusercontent.com/topoteretes/cognee/HEAD/README.md

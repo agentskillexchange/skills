@@ -18,19 +18,15 @@ Datasette is an open-source Python tool for exploring and publishing data. It tu
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
+Datasette requires Python 3.8 or higher.
+
+On macOS, install with Homebrew:
+
 - brew install datasette
+
+Alternatively, install with pip:
+
 - pip install datasette
-
-Requirements and caveats from upstream:
-- [![Python 3.x](https://img.shields.io/pypi/pyversions/datasette.svg?logo=python&logoColor=white)](https://pypi.org/project/datasette/)
-- [![docker: datasette](https://img.shields.io/badge/docker-datasette-blue)](https://hub.docker.com/r/datasetteproject/datasette)
-- Datasette requires Python 3.8 or higher. We also have [detailed installation instructions](https://docs.datasette.io/en/stable/installation.html) covering other options such as Docker.
-
-Basic usage or getting-started notes:
-- If you are on a Mac, [Homebrew](https://brew.sh/) is the easiest way to install Datasette:
-- You can also install it using pip or pipx:
-- ## Basic usage
 
 - Source: https://github.com/simonw/datasette
 - Extracted from upstream docs: https://raw.githubusercontent.com/simonw/datasette/HEAD/README.md

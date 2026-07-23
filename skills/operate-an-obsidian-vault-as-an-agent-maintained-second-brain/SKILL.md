@@ -24,14 +24,15 @@ Obsidian vault, Claude Code or another supported CLI agent, optional MCP server,
 
 ## Installation
 
-Requirements and caveats from upstream:
-- | /obsidian-projects | Live project status from git + local docs -- infers all context from vault notes, no config required |
+Clone the upstream repository:
+
+- git clone https://github.com/eugeniughelbur/obsidian-second-brain.git
+
+Configure credentials by copying .env.example to ~/.config/obsidian-second-brain/.env and adding the keys required for the workflows you use. Upstream documents bootstrapping a vault with:
+
 - python bootstrap_vault.py --path ~/my-vault --name "Your Name" --preset builder
 
-Basic usage or getting-started notes:
-- Run both for high-stakes topics. <strong>Contradictions across the two are where the insight is.</strong></em>
-- | /obsidian-architect | Scans a codebase and writes maintained architecture notes (overview, modules, decisions) into the vault; re-run to refresh |
-- **Setup:** copy .env.example to ~/.config/obsidian-second-brain/.env, add your keys (xAI, Perplexity, YouTube optional, OpenAI optional for podcast Whisper). Run install.sh and answer "y" to the research prompt to do...
+Then run install.sh from the cloned repository and answer the setup prompts.
 
 - Source: https://github.com/eugeniughelbur/obsidian-second-brain
 - Extracted from upstream docs: https://raw.githubusercontent.com/eugeniughelbur/obsidian-second-brain/HEAD/README.md

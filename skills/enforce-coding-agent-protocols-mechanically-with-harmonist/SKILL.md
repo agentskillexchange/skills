@@ -24,18 +24,17 @@ Python 3.9+, Git, a supported coding assistant such as Cursor, Claude Code, Copi
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
+Prerequisites: Python 3.9 or newer and git. Harmonist has no npm, Docker, LangChain, or vector database dependency.
+
+Clone the upstream pack:
+
 - git clone https://github.com/GammaLabTechnologies/harmonist.git
 
-Requirements and caveats from upstream:
-- [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
-- required reviewer was missing, whether session-handoff.md was
-- No npm, no Docker, no LangChain, no vector database. **Pure Python
+From the cloned pack, upstream documents installing with:
 
-Basic usage or getting-started notes:
-- [Quick start](#quick-start)
-- upgrade, conversion, install, and the enforcement runtime all run
-- The pack folder may have any name — docs refer to it as <PACK_DIR>.
+- python3 agents/scripts/install.py
+
+On Windows, use py -3 agents\\scripts\\install.py.
 
 - Source: https://github.com/GammaLabTechnologies/harmonist
 - Extracted from upstream docs: https://raw.githubusercontent.com/GammaLabTechnologies/harmonist/HEAD/README.md

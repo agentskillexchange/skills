@@ -26,19 +26,17 @@ Node.js, npm or npx, Codex
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
+Install with the upstream primary npx installer:
+
 - npx lazycodex-ai install
-- One line. No global install, no npm i -g. Always use npx:
+
+For a fully autonomous no-TUI Codex setup:
+
 - npx lazycodex-ai install --no-tui --codex-autonomous
+
+Verify installation health with:
+
 - npx lazycodex-ai doctor
-
-Requirements and caveats from upstream:
-- | programming | Strict TypeScript, Rust, Python, or Go discipline |
-
-Basic usage or getting-started notes:
-- The npx installer above stays the primary path. As an additive, experimental
-- alternative you can install from inside Codex itself: type /plugins, open the
-- **Add Marketplace** tab ("Add a marketplace from a Git repo or local root."),
 
 - Source: https://github.com/code-yeongyu/lazycodex
 - Extracted from upstream docs: https://raw.githubusercontent.com/code-yeongyu/lazycodex/HEAD/README.md

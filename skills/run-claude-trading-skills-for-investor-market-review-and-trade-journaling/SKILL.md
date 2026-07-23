@@ -24,15 +24,13 @@ Claude Skills or Claude Code, local portfolio/trading files, optional FMP/FINVIZ
 
 ## Installation
 
-Requirements and caveats from upstream:
-- | Weekly long-term portfolio review | [core-portfolio-weekly](workflows/core-portfolio-weekly.yaml) | portfolio-manager, kanchi-dividend-review-monitor, trader-memory-core | Alpaca required; manual CSV is a degraded f...
-- skillsets/ – Purpose-specific install bundles defining required / recommended / optional skills for major goals (4 core skillsets shipped: market-regime, core-portfolio, swing-opportunity, trade-memory; consumed by th...
-- | **FTD Detector** (ftd-detector) | Detects Follow-Through Day (FTD) signals for market bottom confirmation using William O'Neil's methodology. | fmp **required** | production |
+Prerequisite: a paid Claude plan that supports Claude Skills.
 
-Basic usage or getting-started notes:
-- This repository is for educational, research, and process-improvement purposes only. It is not financial advice, investment advisory service, tax advice, legal advice, a signal service, or a broker execution platform....
-- See [workflows/README.md](workflows/README.md) for how to read a manifest and run it manually. For a one-page "which workflow fits my situation?" guide, see [Find Your Workflow](docs/en/find-your-workflow.md) ([日本語](d...
-- If you do not have FMP / FINVIZ / Alpaca subscriptions, start with these five skills and run them manually:
+For Claude Web App, use the prebuilt archives in skill-packages/ and upload the desired ZIP through Settings > Skills.
+
+For Claude Code, copy the desired skill folder, such as backtest-expert, into the Claude Code Skills directory opened from Settings > Skills > Open Skills Folder, then restart or reload Claude Code.
+
+Some workflows require external data integrations such as FMP, FINVIZ Elite, or Alpaca; choose a workflow or skillset whose integrations match your available data sources.
 
 - Source: https://github.com/tradermonty/claude-trading-skills
 - Extracted from upstream docs: https://raw.githubusercontent.com/tradermonty/claude-trading-skills/HEAD/README.md

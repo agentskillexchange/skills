@@ -26,13 +26,15 @@ Node.js 18+, npx skills CLI or npm/npx, target agent runtime such as Claude Code
 
 ## Installation
 
-Requirements and caveats from upstream:
-- [![Node](https://img.shields.io/badge/node-%3E%3D18-brightgreen)](./documentation/install.md)
+Prerequisite: Node.js 18 or newer.
 
-Basic usage or getting-started notes:
-- adhd "design a rate limiter that survives a leader election"
-- adhd "name this function" --frames 3 --ideas 8 --top 2
-- console.log(renderText(result));
+Install with the upstream skills CLI:
+
+- npx skills add UditAkhourii/adhd
+
+For Codex, upstream also documents forcing the Codex target:
+
+- npx skills add UditAkhourii/adhd -a codex -g
 
 - Source: https://github.com/UditAkhourii/adhd
 - Extracted from upstream docs: https://raw.githubusercontent.com/UditAkhourii/adhd/HEAD/README.md

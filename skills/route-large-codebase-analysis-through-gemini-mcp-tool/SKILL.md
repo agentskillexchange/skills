@@ -26,13 +26,15 @@ Node.js 16+, MCP-capable host such as Claude Code or Claude Desktop, Gemini CLI 
 
 ## Installation
 
-Requirements and caveats from upstream:
-- **[Node.js](https://nodejs.org/)** (v16.0.0 or higher)
+Prerequisites: Node.js 16 or newer and a configured Gemini CLI or Antigravity CLI backend.
 
-Basic usage or getting-started notes:
-- <details>
-- <summary>🚀 <strong>Important: Gemini CLI is retired. This tool now defaults to Antigravity CLI (agy)</strong></summary>
-- On **2026-06-18**, Google retired the Gemini CLI for **free, Google AI Pro, and Google AI Ultra** users (and individual Gemini Code Assist / GitHub-org users). Its successor is the **Antigravity CLI** (agy). See [Goog...
+For Claude Code, add the MCP server with the upstream one-line setup:
+
+- claude mcp add gemini-cli -- npx -y gemini-mcp-tool
+
+For Claude Desktop or other MCP clients, configure the server command as npx with args -y and gemini-mcp-tool.
+
+Verify in Claude Code with /mcp after restarting or reloading MCP servers.
 
 - Source: https://github.com/jamubc/gemini-mcp-tool
 - Extracted from upstream docs: https://raw.githubusercontent.com/jamubc/gemini-mcp-tool/HEAD/README.md

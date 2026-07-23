@@ -24,23 +24,14 @@ Gas City `gc` CLI, tmux, git, jq, pgrep, lsof, optional dolt, flock, gh, claude,
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
+Install the released CLI with Homebrew:
+
 - brew install gascity
-- make install
-- make build # or: go build -o bin/gc ./cmd/gc
-- make docs-dev
 
-Requirements and caveats from upstream:
-- Gas City requires the following tools on your system. gc init and
-- | Dependency | Required | Min Version | Install (macOS) | Install (Linux) |
-- tmux is the default session backend **and** the fallback, so it stays required
-
-Basic usage or getting-started notes:
-- See the full install guide at [docs/getting-started/installation.md](docs/getting-started/installation.md).
-- gc start check for these automatically and report any that are missing.
-- |------------|----------|-------------|-----------------|-----------------|
+Prerequisites include tmux and the agent CLIs you plan to coordinate. Upstream documents that gc init and gc start check dependencies and report missing tools.
 
 - Source: https://github.com/gastownhall/gascity
+- Documentation: https://github.com/gastownhall/gascity/blob/HEAD/docs/getting-started/installation.md
 - Extracted from upstream docs: https://raw.githubusercontent.com/gastownhall/gascity/HEAD/README.md
 
 ## Documentation

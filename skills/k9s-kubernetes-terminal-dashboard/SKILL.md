@@ -18,18 +18,15 @@ K9s is a terminal-based UI for managing Kubernetes clusters, providing real-time
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- make build && ./execs/k9s
+Install a released K9s package. On macOS or Linux with Homebrew:
 
-Requirements and caveats from upstream:
-- [![Docker Pulls](https://img.shields.io/docker/pulls/derailed/k9s.svg?maxAge=604800)](https://hub.docker.com/r/derailed/k9s/)
-- | Cordon/Uncordon node | u | Node view |
-- | Drain node | r | Node view |
+- brew install derailed/k9s/k9s
 
-Basic usage or getting-started notes:
-- Build and run the executable
-- # To run K9s in a given namespace
-- | Benchmark (run/stop) | b | Services/Port-forwards |
+Alternative source install:
+
+- go install github.com/derailed/k9s@latest
+
+Prerequisite for normal use: a working Kubernetes kubeconfig for the clusters you want to inspect.
 
 - Source: https://github.com/derailed/k9s
 - Extracted from upstream docs: https://raw.githubusercontent.com/derailed/k9s/HEAD/README.md

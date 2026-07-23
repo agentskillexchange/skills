@@ -26,22 +26,19 @@ Node.js 18+, npm, @clawplays/ospec-cli, and a compatible agent runtime such as C
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
+Prerequisite: Node.js 18 or newer.
+
+Install the official OSpec CLI package:
+
 - npm install -g @clawplays/ospec-cli
 
-Requirements and caveats from upstream:
-- <img src="https://img.shields.io/badge/Node.js-18%2B-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js 18+">
-- ospec init . --summary "Internal admin portal for operations" --tech-stack node,react,postgres
-- --tech-stack: comma-separated stack list such as node,react,postgres
+Verify the install with the upstream documented command:
 
-Basic usage or getting-started notes:
-- <a href="docs/usage.md">Usage</a> |
-- Official package: @clawplays/ospec-cli
-- Command: ospec
+- ospec --help
 
 - Source: https://github.com/clawplays/ospec
+- Documentation: https://github.com/clawplays/ospec/blob/HEAD/docs/installation.md
 - Extracted from upstream docs: https://raw.githubusercontent.com/clawplays/ospec/HEAD/README.md
-
 ## Documentation
 
 - https://ospec.ai

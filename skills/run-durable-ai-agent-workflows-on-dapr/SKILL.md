@@ -24,15 +24,17 @@ Dapr CLI, Docker or Kubernetes runtime, application language SDK or HTTP/gRPC cl
 
 ## Installation
 
-Requirements and caveats from upstream:
-- [![Go Report][go-report-badge]][go-report-url] [![OpenSSF][openssf-badge]][openssf-url] [![Docker Pulls][docker-badge]][docker-url] [![Build Status][actions-badge]][actions-url] [![Test Status][e2e-badge]][e2e-url] [!...
-- [docker-badge]: https://img.shields.io/docker/pulls/daprio/daprd?style=flat&logo=docker
-- [docker-url]: https://hub.docker.com/r/daprio/dapr
+Install the Dapr CLI first. On macOS, upstream documents Homebrew:
 
-Basic usage or getting-started notes:
-- Dapr is an open-source runtime for building distributed applications, workflows, and AI agents. It provides **durable execution**, secure service-to-service communication, state management, event-driven messaging, and...
-- Whether you're building AI agents, business-critical workflows, microservices, or event-driven systems, Dapr lets you focus on business logic instead of plumbing. Dapr runs as a sidecar, so every capability is availab...
-- AI agents need far more than model inference. To run in production they need state, orchestration, recovery, secure communication, and governance.
+- brew install dapr/tap/dapr-cli
+
+For local self-hosted development, Docker is strongly recommended. Initialize the Dapr runtime after installing the CLI:
+
+- dapr init
+
+Verify the CLI and runtime version:
+
+- dapr --version
 
 - Source: https://github.com/dapr/dapr
 - Extracted from upstream docs: https://raw.githubusercontent.com/dapr/dapr/HEAD/README.md
