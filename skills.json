@@ -1,8 +1,79 @@
 {
   "version": "2.0",
-  "total": 2793,
+  "total": 2798,
   "generated": "2026-07-23",
   "skills": [
+    {
+      "slug": "run-ecommerce-operator-skills-across-marketplace-workflows",
+      "name": "Run ecommerce operator skills across marketplace workflows",
+      "title": "Run ecommerce operator skills across marketplace workflows",
+      "description": "Use eCommerce-Skills to give compatible agents plain-text workflows for product research, listing optimization, review analysis, pricing, marketing, supply-chain checks, and growth planning for online…",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 458
+      },
+      "source_url": "https://github.com/nexscope-ai/eCommerce-Skills",
+      "github_repo": "nexscope-ai/eCommerce-Skills"
+    },
+    {
+      "slug": "manage-cross-agent-skill-files-from-obsidian-with-agentfiles",
+      "name": "Manage cross-agent skill files from Obsidian with Agentfiles",
+      "title": "Manage cross-agent skill files from Obsidian with Agentfiles",
+      "description": "Use Agentfiles when an operator wants to browse, create, edit, install, and audit skills, commands, agents, rules, memories, and coding-session artifacts across multiple AI…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "signals": {
+        "github_stars": 679
+      },
+      "source_url": "https://github.com/Railly/agentfiles",
+      "github_repo": "Railly/agentfiles"
+    },
+    {
+      "slug": "install-chinese-localized-superpowers-workflows-for-coding-agents",
+      "name": "Install Chinese-localized Superpowers workflows for coding agents",
+      "title": "Install Chinese-localized Superpowers workflows for coding agents",
+      "description": "Use superpowers-zh to install Chinese-localized coding-agent methods, China-specific development skills, and cross-tool setup for Claude Code, Codex, Cursor, Gemini CLI, OpenClaw, and related assistants.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 7163,
+        "npm_weekly_downloads": 2576
+      },
+      "source_url": "https://github.com/jnMetaCode/superpowers-zh",
+      "github_repo": "jnMetaCode/superpowers-zh"
+    },
+    {
+      "slug": "give-teams-shared-coding-agent-memory-with-stash",
+      "name": "Give teams shared coding-agent memory with Stash",
+      "title": "Give teams shared coding-agent memory with Stash",
+      "description": "Connect coding agents to a shared Stash knowledge base so sessions, files, pages, and team context can be searched, cited, updated, and reused across…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 246
+      },
+      "source_url": "https://github.com/Fergana-Labs/stash",
+      "github_repo": "Fergana-Labs/stash"
+    },
+    {
+      "slug": "develop-power-bi-and-fabric-artifacts-with-agent-plugins",
+      "name": "Develop Power BI and Fabric artifacts with agent plugins",
+      "title": "Develop Power BI and Fabric artifacts with agent plugins",
+      "description": "Install Power BI and Microsoft Fabric plugins so Claude Code can author, validate, and review PBIP, TMDL, DAX, reports, semantic models, and related project…",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 801
+      },
+      "source_url": "https://github.com/data-goblin/power-bi-agentic-development",
+      "github_repo": "data-goblin/power-bi-agentic-development"
+    },
     {
       "slug": "run-bioinformatics-analysis-workflows-with-bioskills",
       "name": "Run bioinformatics analysis workflows with bioSkills",
@@ -38615,7 +38686,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 15939298,
+        "npm_weekly_downloads": 16091559,
         "license": "MIT"
       },
       "source_url": "https://github.com/stripe/stripe-node",
@@ -38631,7 +38702,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 103,
-        "npm_weekly_downloads": 2511168,
+        "npm_weekly_downloads": 2576519,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/DataDog/datadog-api-client-typescript",
@@ -38677,7 +38748,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 27264,
-        "npm_weekly_downloads": 145237216,
+        "npm_weekly_downloads": 145922711,
         "license": "MIT"
       },
       "source_url": "https://github.com/eslint/eslint",
@@ -38708,7 +38779,7 @@
       "verification": "listed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 9159809,
+        "npm_weekly_downloads": 9346516,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/aws/aws-sdk-js-v3",
@@ -38724,7 +38795,7 @@
       "verification": "listed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 35690880,
+        "npm_weekly_downloads": 36183419,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/aws/aws-sdk-js-v3",
@@ -38740,7 +38811,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3051,
-        "npm_weekly_downloads": 57591,
+        "npm_weekly_downloads": 57715,
         "license": "MIT"
       },
       "source_url": "https://github.com/sendgrid/sendgrid-nodejs",
@@ -38756,7 +38827,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1539,
-        "npm_weekly_downloads": 5438560,
+        "npm_weekly_downloads": 5439152,
         "license": "MIT"
       },
       "source_url": "https://github.com/twilio/twilio-node",
@@ -38772,7 +38843,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 15939298,
+        "npm_weekly_downloads": 16091559,
         "license": "MIT"
       },
       "source_url": "https://github.com/stripe/stripe-node",
@@ -38788,7 +38859,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1465,
-        "npm_weekly_downloads": 1104604,
+        "npm_weekly_downloads": 1122420,
         "license": "MIT"
       },
       "source_url": "https://github.com/jsforce/jsforce",
@@ -38804,7 +38875,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 397,
-        "npm_weekly_downloads": 1314849,
+        "npm_weekly_downloads": 1342166,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/HubSpot/hubspot-api-nodejs",
@@ -38820,7 +38891,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 5610,
-        "npm_weekly_downloads": 1510871,
+        "npm_weekly_downloads": 1520870,
         "license": "MIT"
       },
       "source_url": "https://github.com/makenotion/notion-sdk-js",
@@ -38865,7 +38936,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 24,
-        "npm_weekly_downloads": 5453,
+        "npm_weekly_downloads": 5742,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/opsgenie/opsgenie-nodejs-sdk",
@@ -38897,7 +38968,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 811,
-        "npm_weekly_downloads": 8700596
+        "npm_weekly_downloads": 8821125
       },
       "source_url": "https://github.com/DataDog/dd-trace-js",
       "github_repo": "datadog/dd-trace-js"
@@ -38912,7 +38983,7 @@
       "verification": "listed",
       "signals": {
         "github_stars": 25248,
-        "npm_weekly_downloads": 2410962,
+        "npm_weekly_downloads": 2471999,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/pulumi/pulumi",
@@ -39047,7 +39118,7 @@
       "verification": "listed",
       "signals": {
         "github_stars": 712,
-        "npm_weekly_downloads": 99763
+        "npm_weekly_downloads": 98855
       },
       "source_url": "https://github.com/getsentry/sentry-mcp",
       "github_repo": "getsentry/sentry-mcp"
@@ -39108,7 +39179,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1290,
-        "npm_weekly_downloads": 304,
+        "npm_weekly_downloads": 269,
         "license": "MIT"
       },
       "source_url": "https://github.com/steipete/claude-code-mcp",
@@ -39139,7 +39210,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 393,
-        "npm_weekly_downloads": 1666,
+        "npm_weekly_downloads": 1096,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/e2b-dev/mcp-server",
@@ -39179,7 +39250,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 10942,
-        "npm_weekly_downloads": 29364896,
+        "npm_weekly_downloads": 29425745,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/openai/openai-node",
@@ -39350,7 +39421,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 33289,
-        "npm_weekly_downloads": 6180103,
+        "npm_weekly_downloads": 6153185,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/microsoft/playwright-mcp",
@@ -39383,7 +39454,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 89986,
-        "npm_weekly_downloads": 70359345,
+        "npm_weekly_downloads": 70791554,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/microsoft/playwright",

@@ -1,7 +1,47 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-23
-# Total: 2793 skills
+# Total: 2798 skills
+
+## Run ecommerce operator skills across marketplace workflows
+slug: run-ecommerce-operator-skills-across-marketplace-workflows
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use eCommerce-Skills to give compatible agents plain-text workflows for product research, listing optimization, review analysis, pricing, marketing, supply-chain checks, and growth planning for online…
+url: https://agentskillexchange.com/skills/run-ecommerce-operator-skills-across-marketplace-workflows/
+
+## Manage cross-agent skill files from Obsidian with Agentfiles
+slug: manage-cross-agent-skill-files-from-obsidian-with-agentfiles
+category: Developer Tools
+framework: Multi-Framework
+verification: Published
+description: Use Agentfiles when an operator wants to browse, create, edit, install, and audit skills, commands, agents, rules, memories, and coding-session artifacts across multiple AI…
+url: https://agentskillexchange.com/skills/manage-cross-agent-skill-files-from-obsidian-with-agentfiles/
+
+## Install Chinese-localized Superpowers workflows for coding agents
+slug: install-chinese-localized-superpowers-workflows-for-coding-agents
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use superpowers-zh to install Chinese-localized coding-agent methods, China-specific development skills, and cross-tool setup for Claude Code, Codex, Cursor, Gemini CLI, OpenClaw, and related assistants.
+url: https://agentskillexchange.com/skills/install-chinese-localized-superpowers-workflows-for-coding-agents/
+
+## Give teams shared coding-agent memory with Stash
+slug: give-teams-shared-coding-agent-memory-with-stash
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Connect coding agents to a shared Stash knowledge base so sessions, files, pages, and team context can be searched, cited, updated, and reused across…
+url: https://agentskillexchange.com/skills/give-teams-shared-coding-agent-memory-with-stash/
+
+## Develop Power BI and Fabric artifacts with agent plugins
+slug: develop-power-bi-and-fabric-artifacts-with-agent-plugins
+category: Developer Tools
+framework: Claude Code
+verification: Security Reviewed
+description: Install Power BI and Microsoft Fabric plugins so Claude Code can author, validate, and review PBIP, TMDL, DAX, reports, semantic models, and related project…
+url: https://agentskillexchange.com/skills/develop-power-bi-and-fabric-artifacts-with-agent-plugins/
 
 ## Run bioinformatics analysis workflows with bioSkills
 slug: run-bioinformatics-analysis-workflows-with-bioskills

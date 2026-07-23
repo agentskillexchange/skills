@@ -140,6 +140,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Coordinate multi-harness agent sessions with Omnigent](../../skills/coordinate-multi-harness-agent-sessions-with-omnigent/) | 7.4k | — |
 | [Run long-horizon spec-driven coding agent workflows with GSD 2](../../skills/run-long-horizon-spec-driven-coding-agent-workflows-with-gsd-2/) | 7.3k | 11.4k/wk |
 | [Run durable agent tasks and event-driven workflows with Hatchet](../../skills/run-durable-agent-tasks-and-event-driven-workflows-with-hatchet/) | 7.2k | 298.3k/wk |
+| [Install Chinese-localized Superpowers workflows for coding agents](../../skills/install-chinese-localized-superpowers-workflows-for-coding-agents/) | 7.2k | 2.6k/wk |
 | [Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext](../../skills/pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-stay-readable-with-jupytext/) | 7.2k | — |
 | [Run durable Go agent schedules with gocron](../../skills/run-durable-go-agent-schedules-with-gocron/) | 7.1k | — |
 | [Run OpenCode specialist-agent workflows with Oh My Opencode Slim](../../skills/run-opencode-specialist-agent-workflows-with-oh-my-opencode-slim/) | 7k | 24.2k/wk |
@@ -220,6 +221,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Railway App Deployer](../../skills/railway-app-deployer/) | 523 | 143.6k/wk |
 | [Evolve reusable coding-agent skills from failed trajectories with EvoSkill](../../skills/evolve-reusable-coding-agent-skills-from-failed-trajectories-with-evoskill/) | 489 | — |
 | [Coordinate multiple CLI agents through sessions, handoffs, and terminal control APIs with CLI Agent Orchestrator](../../skills/coordinate-multiple-cli-agents-through-sessions-handoffs-and-terminal-control-apis-with-cli-agent-orchestrator/) | 473 | — |
+| [Run ecommerce operator skills across marketplace workflows](../../skills/run-ecommerce-operator-skills-across-marketplace-workflows/) | 458 | — |
 | [Build a local work assistant with 10xProductivity](../../skills/build-a-local-work-assistant-with-10xproductivity/) | 455 | — |
 | [Manage native GitHub stacked pull requests with gh-stack](../../skills/manage-native-github-stacked-pull-requests-with-gh-stack/) | 401 | — |
 | [Build event-driven document agent workflows with LlamaAgents](../../skills/build-event-driven-document-agent-workflows-with-llamaagents/) | 389 | — |
