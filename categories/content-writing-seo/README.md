@@ -64,6 +64,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Marp CLI Markdown Presentation Converter and Slide Deck Generator](../../skills/marp-cli-markdown-presentation-converter/) | 3.4k | 39.7k/wk |
 | [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | 3.1k | 102.9k/wk |
 | [Normalize article metadata from URLs before generating link previews or content briefs](../../skills/normalize-article-metadata-from-urls-before-generating-link-previews-or-content-briefs/) | 2.7k | 416k/wk |
+| [Audit and rewrite AI-sounding prose with Avoid AI Writing](../../skills/audit-and-rewrite-ai-sounding-prose-with-avoid-ai-writing/) | 2.6k | — |
 | [retext Natural Language Processor with Unified Plugin Ecosystem](../../skills/retext-natural-language-processor-unified-plugins/) | 2.4k | — |
 | [WritingTools System-Wide AI Grammar Assistant for Windows Linux and macOS](../../skills/writingtools-system-wide-ai-grammar-assistant/) | 2.2k | — |
 | [SerpBear Self-Hosted Search Engine Rank Tracking App](../../skills/serpbear-self-hosted-serp-rank-tracker/) | 1.9k | — |
@@ -82,6 +83,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Audit AI search citation readiness with GEO Optimizer](../../skills/audit-ai-search-citation-readiness-with-geo-optimizer/) | 611 | — |
 | [Run evidence-backed agentic SEO audits with Agentic SEO Skill](../../skills/run-evidence-backed-agentic-seo-audits-with-agentic-seo-skill/) | 588 | — |
 | [Run repeatable Google Ads and SEO audits inside Claude Code with Toprank](../../skills/run-repeatable-google-ads-and-seo-audits-inside-claude-code-with-toprank/) | 466 | — |
+| [Draft and audit LinkedIn content with LinkedIn Skills](../../skills/draft-and-audit-linkedin-content-with-linkedin-skills/) | 420 | — |
 | [Remove AI Writing Fingerprints from Draft Copy](../../skills/remove-ai-writing-fingerprints-from-draft-copy/) | 45 | — |
 | [SEO Growth Loop](../../skills/seo-growth-loop/) | 1 | — |
 | [Format citations and bibliographies from DOIs, URLs, BibTeX, and CFF before publishing](../../skills/format-citations-and-bibliographies-from-dois-urls-bibtex-and-cff-before-publishing/) | — | 10.7k/wk |

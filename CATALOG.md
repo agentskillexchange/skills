@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2789 published skills** across **17 categories** · 2,389 security reviewed · Updated 2026-07-22 19:26 UTC
+> **2793 published skills** across **17 categories** · 2,389 security reviewed · Updated 2026-07-23 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (387 skills)
+### 🛠️ Developer Tools (388 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -345,6 +345,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Link agent skills, commands, and roles across coding assistants with Open Agent Hub](skills/link-agent-skills-commands-and-roles-across-coding-assistants-with-open-agent-hub/) | Use Open Agent Hub to install, link, and enable reusable skills, agent roles, and slash commands across Claude Code,… | Security Reviewed | 934 | — |
 | [Find and export SVG icons across icon libraries for UI work](skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/) | Use Better Icons when an agent needs to search icon sets, compare matches, and return the exact SVG asset needed for… | Security Reviewed | 915 | 287/wk |
 | [Fork and merge Pydantic AI agent runs with Pydantic Deep Agents](skills/fork-and-merge-pydantic-ai-agent-runs-with-pydantic-deep-agents/) | Run a self-hosted terminal agent or custom Pydantic AI harness that can branch a coding or research run, test… | Security Reviewed | 912 | — |
+| [Run phased coding-agent delivery workflows with AgentSys](skills/run-phased-coding-agent-delivery-workflows-with-agentsys/) | Use AgentSys to install and run structured coding-agent pipelines for task discovery, delivery preparation, drift… | Security Reviewed | 896 | 814/wk |
 | [Reduce coding-agent context load with Token Savior](skills/reduce-coding-agent-context-load-with-token-savior/) | Connect coding agents to a Token Savior MCP server for structural code navigation, persistent recall, compact… | Security Reviewed | 893 | — |
 | [CircleCI MCP Server](skills/circleci-mcp-server/) | CircleCI MCP Server is built around CircleCI continuous integration platform. The underlying ecosystem is… | Security Reviewed | 844 | — |
 | [Expose repository code intelligence to agents with Gortex](skills/expose-repository-code-intelligence-to-agents-with-gortex/) | Use Gortex to index one or more repositories into a local code graph and expose symbol, call-chain, blast-radius,… | Published | 840 | — |
@@ -650,7 +651,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (217 skills)
+### 📄 Templates & Workflows (218 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -814,6 +815,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Compose typed OpenClaw workflows with approval gates and resumable steps using Lobster](skills/compose-typed-openclaw-workflows-with-approval-gates-and-resumable-steps-using-lobster/) | Use Lobster when an OpenClaw operator wants one deterministic typed workflow step, with approval gates and resumable… | Security Reviewed | 1.1k | — |
 | [Run spec-first Claude Code development workflows with MoAI-ADK](skills/run-spec-first-claude-code-development-workflows-with-moai-adk/) | Use MoAI-ADK to install Claude Code agents and skills for spec-first implementation, TDD, DDD, and quality-gated… | Security Reviewed | 1.1k | 41/wk |
 | [Drive spec-first coding workflows with task boards, worktrees, and agent handoffs using Spec Kitty](skills/drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-handoffs-using-spec-kitty/) | Move from spec to plan to tasks to review through one repo-native workflow when larger AI coding efforts need… | Security Reviewed | 1.1k | — |
+| [Run bioinformatics analysis workflows with bioSkills](skills/run-bioinformatics-analysis-workflows-with-bioskills/) | Use bioSkills to give an agent domain-specific bioinformatics procedures, tool choices, and guardrails for omics… | Security Reviewed | 1.1k | — |
 | [Prepare bid proposal drafts and compliance checks with OpenBidKit Yibiao](skills/prepare-bid-proposal-drafts-and-compliance-checks-with-openbidkit-yibiao/) | Use OpenBidKit Yibiao to turn tender materials, company knowledge, and model-provider settings into reviewable bid… | Security Reviewed | 1k | — |
 | [Coordinate multi-agent coding rigs with Gas City](skills/coordinate-multi-agent-coding-rigs-with-gas-city/) | Define and supervise multi-agent coding rigs with declarative city configuration, runtime providers, work routing,… | Security Reviewed | 1k | — |
 | [Run academic writing, analysis, and replication workflows with quality gates in claude-code-my-workflow](skills/run-academic-writing-analysis-and-replication-workflows-with-quality-gates-in-claude-code-my-workflow/) | Use claude-code-my-workflow when a research task needs a Claude Code workflow for papers, slides, data analysis, or… | Security Reviewed | 970 | — |
@@ -2845,7 +2847,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [RunPod Serverless GPU Inference](skills/runpod-serverless-gpu-inference/) | Deploy and manage GPU inference endpoints on RunPod Serverless using their REST API. Handles endpoint creation, cold… | Security Reviewed | — | — |
 
 
-### ✍️ Content Writing & SEO (81 skills)
+### ✍️ Content Writing & SEO (83 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
 
@@ -2875,6 +2877,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [Marp CLI Markdown Presentation Converter and Slide Deck Generator](skills/marp-cli-markdown-presentation-converter/) | Marp CLI converts Markdown files into professional slide deck presentations. It outputs static HTML, PDF, PowerPoint… | Security Reviewed | 3.4k | 39.7k/wk |
 | [textlint Pluggable Natural Language Linter](skills/textlint-pluggable-natural-language-linter/) | Lint natural language text with textlint, the pluggable linting framework inspired by ESLint. Install community… | Security Reviewed | 3.1k | 102.9k/wk |
 | [Normalize article metadata from URLs before generating link previews or content briefs](skills/normalize-article-metadata-from-urls-before-generating-link-previews-or-content-briefs/) | Uses metascraper to turn a URL plus its fetched HTML into normalized fields such as title, description, author,… | Published | 2.7k | 416k/wk |
+| [Audit and rewrite AI-sounding prose with Avoid AI Writing](skills/audit-and-rewrite-ai-sounding-prose-with-avoid-ai-writing/) | Use Avoid AI Writing when an agent needs a repeatable audit, rewrite, or in-place edit workflow for removing AI… | Security Reviewed | 2.6k | — |
 | [retext Natural Language Processor with Unified Plugin Ecosystem](skills/retext-natural-language-processor-unified-plugins/) | retext is a natural language processor powered by plugins, part of the unified.js collective. It parses Latin-script… | Published | 2.4k | — |
 | [WritingTools System-Wide AI Grammar Assistant for Windows Linux and macOS](skills/writingtools-system-wide-ai-grammar-assistant/) | WritingTools is an open-source, Apple Intelligence-inspired writing assistant that works system-wide on Windows,… | Security Reviewed | 2.2k | — |
 | [SerpBear Self-Hosted Search Engine Rank Tracking App](skills/serpbear-self-hosted-serp-rank-tracker/) | SerpBear is an open-source, self-hosted search engine position tracking application. It lets you monitor unlimited… | Published | 1.9k | — |
@@ -2893,6 +2896,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [Audit AI search citation readiness with GEO Optimizer](skills/audit-ai-search-citation-readiness-with-geo-optimizer/) | Use GEO Optimizer from the CLI or MCP so agents can audit a site for AI search visibility, generate llms.txt/schema… | Security Reviewed | 611 | — |
 | [Run evidence-backed agentic SEO audits with Agentic SEO Skill](skills/run-evidence-backed-agentic-seo-audits-with-agentic-seo-skill/) | Install a multi-runtime SEO skill pack that collects crawl, schema, performance, sitemap, robots, and content… | Security Reviewed | 588 | — |
 | [Run repeatable Google Ads and SEO audits inside Claude Code with Toprank](skills/run-repeatable-google-ads-and-seo-audits-inside-claude-code-with-toprank/) | Use Toprank when an agent needs a repeatable Claude Code workflow for Google Ads and SEO audits, with concrete slash… | Security Reviewed | 466 | — |
+| [Draft and audit LinkedIn content with LinkedIn Skills](skills/draft-and-audit-linkedin-content-with-linkedin-skills/) | Use LinkedIn Skills when an agent needs to draft posts, comments, replies, audits, profile rewrites, or content… | Security Reviewed | 420 | — |
 | [Remove AI Writing Fingerprints from Draft Copy](skills/remove-ai-writing-fingerprints-from-draft-copy/) | Use humanizer to scan drafts for AI telltales, explain what sounds synthetic, and suggest grounded rewrites that… | Security Reviewed | 45 | — |
 | [SEO Growth Loop](skills/seo-growth-loop/) | Run a closed-loop SEO growth workflow using Search Console data, keyword demand analysis, SERP Authority Mark… | Published | 1 | — |
 | [Format citations and bibliographies from DOIs, URLs, BibTeX, and CFF before publishing](skills/format-citations-and-bibliographies-from-dois-urls-bibtex-and-cff-before-publishing/) | Use Citation.js when an agent has raw references and needs clean citation output instead of hand-formatting sources.… | Published | — | 10.7k/wk |

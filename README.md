@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C789-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C793-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C389-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,789 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,793 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Install reusable specialist agent roles from Agency Agents](skills/install-reusable-specialist-agent-roles-from-agency-agents/)** — Install and adapt Agency Agents' curated specialist role files so coding agents can switch into focused engineering, product, marketing, support, or operations workflows.
+**[Strapi Open Source Headless CMS for Custom Content APIs](skills/strapi-open-source-headless-cms-custom-content-apis/)** — Strapi is a JavaScript and TypeScript headless CMS that helps teams model content once and publish it through REST or GraphQL APIs. It fits AI and automation workflows…
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -87,16 +87,16 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Run bioinformatics analysis workflows with bioSkills](skills/run-bioinformatics-analysis-workflows-with-bioskills/) | Use bioSkills to give an agent domain-specific bioinformatics procedures, tool choices, and guardrails for omics analysis workflows | 1.1k | Templates & Workflows |
+| [Draft and audit LinkedIn content with LinkedIn Skills](skills/draft-and-audit-linkedin-content-with-linkedin-skills/) | Use LinkedIn Skills when an agent needs to draft posts, comments, replies, audits, profile rewrites, or content plans... | 420 | Content Writing & SEO |
+| [Run phased coding-agent delivery workflows with AgentSys](skills/run-phased-coding-agent-delivery-workflows-with-agentsys/) | Use AgentSys to install and run structured coding-agent pipelines for task discovery, delivery preparation, drift checks, review, release... | 896 | Developer Tools |
+| [Audit and rewrite AI-sounding prose with Avoid AI Writing](skills/audit-and-rewrite-ai-sounding-prose-with-avoid-ai-writing/) | Use Avoid AI Writing when an agent needs a repeatable audit, rewrite, or in-place edit workflow for removing... | 2.6k | Content Writing & SEO |
 | [Install Chinese Claude Code skills for engineering workflows](skills/install-chinese-claude-code-skills-for-engineering-workflows/) | Use claude-code-skills-zh to install Chinese-language Claude Code skills for repeatable code review, README writing, API testing, refactoring, dependency... | 670 | Developer Tools |
 | [Audit AI search citation readiness with GEO Optimizer](skills/audit-ai-search-citation-readiness-with-geo-optimizer/) | Use GEO Optimizer from the CLI or MCP so agents can audit a site for AI search visibility... | 611 | Content Writing & SEO |
 | [Connect agents to OpenRAG knowledge bases over MCP](skills/connect-agents-to-openrag-knowledge-bases-over-mcp/) | Use OpenRAG's built-in MCP endpoint so agents can ingest documents, search a knowledge base, create filters, and run... | 4.4k | Integrations & Connectors |
 | [Use Stitch Skills to generate, convert, and sync UI designs through agent workflows](skills/use-stitch-skills-to-generate-convert-and-sync-ui-designs-through-agent-workflows/) | Install Google's Stitch skill suite so Codex, Claude Code, Cursor, Gemini CLI, or OpenCode can create screens, upload... | 7.8k | Image & Creative Automation |
 | [Run Agent-Assisted Notebook Workflows in JupyterLab With Notebook Intelligence](skills/run-agent-assisted-notebook-workflows-in-jupyterlab-with-notebook-intelligence/) | Use Notebook Intelligence to add chat, inline edit, autocomplete, MCP tools, Claude Code mode, and coding-agent launchers directly... | 322 | Developer Tools |
 | [Coordinate Terminal Coding Agents With hcom](skills/coordinate-terminal-coding-agents-with-hcom/) | Use hcom to launch, message, watch, fork, and coordinate multiple terminal coding agents across Claude Code, Codex, Gemini... | 393 | Developer Tools |
-| [Run Spec-Driven Agent Changes With OSpec](skills/run-spec-driven-agent-changes-with-ospec/) | Use OSpec to turn a coding request into a repo-persisted spec workflow with initialization, change advancement, verification evidence... | 524 | Templates & Workflows |
-| [Index Large Codebases for Agent Search With Socraticode](skills/index-large-codebases-for-agent-search-with-socraticode/) | Use Socraticode to give coding agents a local codebase-intelligence layer for semantic search, dependency graphs, impact analysis, and... | 3.1k | Developer Tools |
-| [Route Codex and Claude Code through an opencodex provider proxy](skills/route-codex-and-claude-code-through-an-opencodex-provider-proxy/) | Run a local proxy that lets Codex and Claude Code use configured LLM providers, routed models, and account... | 1.3k | Developer Tools |
-| [Coordinate peer CLI agents with agmsg](skills/coordinate-peer-cli-agents-with-agmsg/) | Let Claude Code, Codex, Gemini CLI, Copilot CLI, and other terminal agents exchange messages through a shared local... | 1.3k | Developer Tools |
 
 ---
 
@@ -110,8 +110,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Run OpenCode specialist-agent workflows with Oh My Opencode Slim](skills/run-opencode-specialist-agent-workflows-with-oh-my-opencode-slim/) | Install an OpenCode orchestration plugin that routes codebase work across specialist agents, background tasks, model presets, bundled skills... | 7.0k | Templates & Workflows |
 | [Bridge local coding agents into chat apps with cc-connect](skills/bridge-local-coding-agents-into-chat-apps-with-cc-connect/) | Let operators control local Claude Code, Codex, Cursor, Gemini CLI, and other coding agents from Slack, Discord, Telegram... | 14.2k | Integrations & Connectors |
 | [Audit coding-agent token spend with CodeBurn](skills/audit-coding-agent-token-spend-with-codeburn/) | Run CodeBurn locally or as an MCP server so agents can inspect token usage, cost, model mix, project... | 8.7k | Monitoring & Alerts |
-| [Review agent-authored diffs with Hunk](skills/review-agent-authored-diffs-with-hunk/) | Use Hunk to keep a live terminal review UI open for agent-authored code changes, with Git, Jujutsu, Sapling... | 6.9k | Code Quality & Review |
 | [Index Large Codebases for Agent Search With Socraticode](skills/index-large-codebases-for-agent-search-with-socraticode/) | Use Socraticode to give coding agents a local codebase-intelligence layer for semantic search, dependency graphs, impact analysis, and... | 3.1k | Developer Tools |
+| [Review agent-authored diffs with Hunk](skills/review-agent-authored-diffs-with-hunk/) | Use Hunk to keep a live terminal review UI open for agent-authored code changes, with Git, Jujutsu, Sapling... | 6.9k | Code Quality & Review |
 | [Inspect BullMQ agent job queues with Bull Board](skills/inspect-bullmq-agent-job-queues-with-bull-board/) | Use Bull Board to add a protected dashboard for Bull and BullMQ queues so operators can inspect, retry... | 3.4k | Monitoring & Alerts |
 | [Run Spec-Driven Agent Changes With OSpec](skills/run-spec-driven-agent-changes-with-ospec/) | Use OSpec to turn a coding request into a repo-persisted spec workflow with initialization, change advancement, verification evidence... | 524 | Templates & Workflows |
 | [Drive ComfyUI generation workflows through comfyui-mcp](skills/drive-comfyui-generation-workflows-through-comfyui-mcp/) | Use comfyui-mcp to let an MCP-capable agent author, run, debug, and manage ComfyUI image, video, audio, model, and... | 386 | Image & Creative Automation |
@@ -123,9 +123,9 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 387 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 388 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 239 | Vulnerability scanning, auth setup, compliance |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 217 | Scaffolders, boilerplate generators, workflow templates |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 218 | Scaffolders, boilerplate generators, workflow templates |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 216 | ETL pipelines, parsing, format conversion |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 194 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
@@ -139,7 +139,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 105 | Audio/video processing, speech-to-text |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 95 | Image generation, asset processing, design automation |
-| ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 81 | SEO content, blog automation, editorial workflows |
+| ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 83 | SEO content, blog automation, editorial workflows |
 
 ---
 
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,789 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,793 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,389 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

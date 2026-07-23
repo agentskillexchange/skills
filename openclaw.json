@@ -1,9 +1,53 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-07-22",
-  "total": 2789,
+  "generated": "2026-07-23",
+  "total": 2793,
   "skills": [
+    {
+      "slug": "run-bioinformatics-analysis-workflows-with-bioskills",
+      "name": "Run bioinformatics analysis workflows with bioSkills",
+      "title": "Run bioinformatics analysis workflows with bioSkills",
+      "description": "Use bioSkills to give an agent domain-specific bioinformatics procedures, tool choices, and guardrails for omics analysis workflows.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/GPTomics/bioSkills",
+      "github_repo": "GPTomics/bioSkills"
+    },
+    {
+      "slug": "draft-and-audit-linkedin-content-with-linkedin-skills",
+      "name": "Draft and audit LinkedIn content with LinkedIn Skills",
+      "title": "Draft and audit LinkedIn content with LinkedIn Skills",
+      "description": "Use LinkedIn Skills when an agent needs to draft posts, comments, replies, audits, profile rewrites, or content plans while preserving explicit approval before publishing.",
+      "category": "Content Writing & SEO",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/sergebulaev/linkedin-skills",
+      "github_repo": "sergebulaev/linkedin-skills"
+    },
+    {
+      "slug": "run-phased-coding-agent-delivery-workflows-with-agentsys",
+      "name": "Run phased coding-agent delivery workflows with AgentSys",
+      "title": "Run phased coding-agent delivery workflows with AgentSys",
+      "description": "Use AgentSys to install and run structured coding-agent pipelines for task discovery, delivery preparation, drift checks, review, release, and shipping.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/agent-sh/agentsys",
+      "github_repo": "agent-sh/agentsys"
+    },
+    {
+      "slug": "audit-and-rewrite-ai-sounding-prose-with-avoid-ai-writing",
+      "name": "Audit and rewrite AI-sounding prose with Avoid AI Writing",
+      "title": "Audit and rewrite AI-sounding prose with Avoid AI Writing",
+      "description": "Use Avoid AI Writing when an agent needs a repeatable audit, rewrite, or in-place edit workflow for removing AI writing patterns from draft prose.",
+      "category": "Content Writing & SEO",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/conorbronsdon/avoid-ai-writing",
+      "github_repo": "conorbronsdon/avoid-ai-writing"
+    },
     {
       "slug": "install-chinese-claude-code-skills-for-engineering-workflows",
       "name": "Install Chinese Claude Code skills for engineering workflows",

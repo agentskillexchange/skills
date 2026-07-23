@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-07-22
-# Total: 2789 skills
+# Generated: 2026-07-23
+# Total: 2793 skills
+
+## Run bioinformatics analysis workflows with bioSkills
+slug: run-bioinformatics-analysis-workflows-with-bioskills
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use bioSkills to give an agent domain-specific bioinformatics procedures, tool choices, and guardrails for omics analysis workflows.
+url: https://agentskillexchange.com/skills/run-bioinformatics-analysis-workflows-with-bioskills/
+
+## Draft and audit LinkedIn content with LinkedIn Skills
+slug: draft-and-audit-linkedin-content-with-linkedin-skills
+category: Content Writing & SEO
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use LinkedIn Skills when an agent needs to draft posts, comments, replies, audits, profile rewrites, or content plans while preserving explicit approval before publishing.
+url: https://agentskillexchange.com/skills/draft-and-audit-linkedin-content-with-linkedin-skills/
+
+## Run phased coding-agent delivery workflows with AgentSys
+slug: run-phased-coding-agent-delivery-workflows-with-agentsys
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use AgentSys to install and run structured coding-agent pipelines for task discovery, delivery preparation, drift checks, review, release, and shipping.
+url: https://agentskillexchange.com/skills/run-phased-coding-agent-delivery-workflows-with-agentsys/
+
+## Audit and rewrite AI-sounding prose with Avoid AI Writing
+slug: audit-and-rewrite-ai-sounding-prose-with-avoid-ai-writing
+category: Content Writing & SEO
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Avoid AI Writing when an agent needs a repeatable audit, rewrite, or in-place edit workflow for removing AI writing patterns from draft prose.
+url: https://agentskillexchange.com/skills/audit-and-rewrite-ai-sounding-prose-with-avoid-ai-writing/
 
 ## Install Chinese Claude Code skills for engineering workflows
 slug: install-chinese-claude-code-skills-for-engineering-workflows

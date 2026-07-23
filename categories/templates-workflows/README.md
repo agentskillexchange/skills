@@ -198,6 +198,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Compose typed OpenClaw workflows with approval gates and resumable steps using Lobster](../../skills/compose-typed-openclaw-workflows-with-approval-gates-and-resumable-steps-using-lobster/) | 1.1k | — |
 | [Run spec-first Claude Code development workflows with MoAI-ADK](../../skills/run-spec-first-claude-code-development-workflows-with-moai-adk/) | 1.1k | 41/wk |
 | [Drive spec-first coding workflows with task boards, worktrees, and agent handoffs using Spec Kitty](../../skills/drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-handoffs-using-spec-kitty/) | 1.1k | — |
+| [Run bioinformatics analysis workflows with bioSkills](../../skills/run-bioinformatics-analysis-workflows-with-bioskills/) | 1.1k | — |
 | [Prepare bid proposal drafts and compliance checks with OpenBidKit Yibiao](../../skills/prepare-bid-proposal-drafts-and-compliance-checks-with-openbidkit-yibiao/) | 1k | — |
 | [Coordinate multi-agent coding rigs with Gas City](../../skills/coordinate-multi-agent-coding-rigs-with-gas-city/) | 1k | — |
 | [Run academic writing, analysis, and replication workflows with quality gates in claude-code-my-workflow](../../skills/run-academic-writing-analysis-and-replication-workflows-with-quality-gates-in-claude-code-my-workflow/) | 970 | — |
