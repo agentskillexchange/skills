@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-23",
-  "total": 2798,
+  "total": 2799,
   "skills": [
+    {
+      "slug": "trace-coding-agent-api-traffic-locally-with-claude-tap",
+      "name": "Trace coding agent API traffic locally with Claude Tap",
+      "title": "Trace coding agent API traffic locally with Claude Tap",
+      "description": "Run Claude Code, Codex CLI, Gemini CLI, Cursor CLI, OpenCode, and related coding agents through a local proxy so an operator can inspect prompts,…",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/liaohch3/claude-tap",
+      "github_repo": "liaohch3/claude-tap"
+    },
     {
       "slug": "run-ecommerce-operator-skills-across-marketplace-workflows",
       "name": "Run ecommerce operator skills across marketplace workflows",

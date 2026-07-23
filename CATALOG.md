@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2798 published skills** across **17 categories** · 2,394 security reviewed · Updated 2026-07-23 13:26 UTC
+> **2799 published skills** across **17 categories** · 2,394 security reviewed · Updated 2026-07-23 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1853,7 +1853,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (151 skills)
+### 📊 Monitoring & Alerts (152 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -1953,6 +1953,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Simulate agent scenarios, trace failures, and watch production regressions with LangWatch](skills/simulate-agent-scenarios-trace-failures-and-watch-production-regressions-with-langwatch/) | Run end-to-end agent simulations, review traces, and watch production regressions when reliability work spans… | Security Reviewed | 3.2k | 54.7k/wk |
 | [Grafana Alloy OpenTelemetry Collector Distribution](skills/grafana-alloy-opentelemetry-collector/) | Grafana Alloy is an open-source OpenTelemetry Collector distribution with programmable pipelines for metrics, logs,… | Security Reviewed | 3k | — |
 | [Evaluate agent and model workflows with EvalScope](skills/evaluate-agent-and-model-workflows-with-evalscope/) | Run repeatable EvalScope benchmark suites for LLM, VLM, RAG, and agent workflows, then inspect traces and reports… | Security Reviewed | 3k | — |
+| [Trace coding agent API traffic locally with Claude Tap](skills/trace-coding-agent-api-traffic-locally-with-claude-tap/) | Run Claude Code, Codex CLI, Gemini CLI, Cursor CLI, OpenCode, and related coding agents through a local proxy so an… | Security Reviewed | 2.6k | — |
 | [Trace coding-agent and LLM workflows with OpenLIT](skills/trace-coding-agent-and-llm-workflows-with-openlit/) | Use OpenLIT to instrument coding agents and LLM applications with OpenTelemetry traces, metrics, costs, prompts,… | Security Reviewed | 2.5k | 8.4k/wk |
 | [Logdy Real-Time Log Viewer with Web UI and CLI](skills/logdy-realtime-log-viewer-web-ui-cli/) | Logdy is a zero-dependency single-binary log viewer that pipes any command output into an interactive browser-based… | Security Reviewed | 2.1k | — |
 | [Control launch behavior with GO Feature Flag](skills/control-launch-behavior-with-go-feature-flag/) | Use GO Feature Flag as an OpenFeature-compatible control plane for rollout rules, targeting, experiments, remote… | Security Reviewed | 2k | — |

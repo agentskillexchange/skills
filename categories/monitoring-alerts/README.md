@@ -134,6 +134,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Simulate agent scenarios, trace failures, and watch production regressions with LangWatch](../../skills/simulate-agent-scenarios-trace-failures-and-watch-production-regressions-with-langwatch/) | 3.2k | 54.7k/wk |
 | [Grafana Alloy OpenTelemetry Collector Distribution](../../skills/grafana-alloy-opentelemetry-collector/) | 3k | — |
 | [Evaluate agent and model workflows with EvalScope](../../skills/evaluate-agent-and-model-workflows-with-evalscope/) | 3k | — |
+| [Trace coding agent API traffic locally with Claude Tap](../../skills/trace-coding-agent-api-traffic-locally-with-claude-tap/) | 2.6k | — |
 | [Trace coding-agent and LLM workflows with OpenLIT](../../skills/trace-coding-agent-and-llm-workflows-with-openlit/) | 2.5k | 8.4k/wk |
 | [Logdy Real-Time Log Viewer with Web UI and CLI](../../skills/logdy-realtime-log-viewer-web-ui-cli/) | 2.1k | — |
 | [Control launch behavior with GO Feature Flag](../../skills/control-launch-behavior-with-go-feature-flag/) | 2k | — |
