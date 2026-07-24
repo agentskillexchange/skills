@@ -1,9 +1,31 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-07-23",
-  "total": 2799,
+  "generated": "2026-07-24",
+  "total": 2801,
   "skills": [
+    {
+      "slug": "run-generative-media-agent-recipes-with-muapi-skills",
+      "name": "Run generative media agent recipes with MuAPI Skills",
+      "title": "Run generative media agent recipes with MuAPI Skills",
+      "description": "Use Generative Media Skills when an agent should turn a creative brief into repeatable image, video, audio, product-ad, social-pack, storyboard, or brand-asset workflows backed…",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills",
+      "github_repo": "SamurAIGPT/Generative-Media-Skills"
+    },
+    {
+      "slug": "manage-cli-coding-agent-sessions-with-claude-code-tools",
+      "name": "Manage CLI coding-agent sessions with Claude Code Tools",
+      "title": "Manage CLI coding-agent sessions with Claude Code Tools",
+      "description": "Use Claude Code Tools when an operator needs installable CLI utilities, hooks, skills, and plugins for session management, tmux control, context handling, local safety…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/pchalasani/claude-code-tools",
+      "github_repo": "pchalasani/claude-code-tools"
+    },
     {
       "slug": "trace-coding-agent-api-traffic-locally-with-claude-tap",
       "name": "Trace coding agent API traffic locally with Claude Tap",

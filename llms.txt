@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-07-23
-# Total: 2799 skills
+# Generated: 2026-07-24
+# Total: 2801 skills
+
+## Run generative media agent recipes with MuAPI Skills
+slug: run-generative-media-agent-recipes-with-muapi-skills
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Generative Media Skills when an agent should turn a creative brief into repeatable image, video, audio, product-ad, social-pack, storyboard, or brand-asset workflows backed…
+url: https://agentskillexchange.com/skills/run-generative-media-agent-recipes-with-muapi-skills/
+
+## Manage CLI coding-agent sessions with Claude Code Tools
+slug: manage-cli-coding-agent-sessions-with-claude-code-tools
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Claude Code Tools when an operator needs installable CLI utilities, hooks, skills, and plugins for session management, tmux control, context handling, local safety…
+url: https://agentskillexchange.com/skills/manage-cli-coding-agent-sessions-with-claude-code-tools/
 
 ## Trace coding agent API traffic locally with Claude Tap
 slug: trace-coding-agent-api-traffic-locally-with-claude-tap

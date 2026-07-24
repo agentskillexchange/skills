@@ -345,6 +345,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Clone and refresh whole GitHub orgs for audit or migration with ghorg](../../skills/clone-and-refresh-whole-github-orgs-for-audit-or-migration-with-ghorg/) | 2k | — |
 | [Turn an MCP, OpenAPI, or GraphQL endpoint into a disposable CLI for shell automation](../../skills/turn-mcp-openapi-or-graphql-endpoint-into-disposable-cli-for-shell-automation/) | 1.9k | — |
 | [Install and sync reproducible agent dependencies, prompts, and skills across repos with APM](../../skills/install-and-sync-reproducible-agent-dependencies-prompts-and-skills-across-repos-with-apm/) | 1.9k | 5.1k/wk |
+| [Manage CLI coding-agent sessions with Claude Code Tools](../../skills/manage-cli-coding-agent-sessions-with-claude-code-tools/) | 1.9k | — |
 | [OpenMeter Usage Metering and Billing Platform](../../skills/openmeter-usage-metering-and-billing-platform/) | 1.9k | — |
 | [Run coding agents in isolated observable VibeKit sandboxes](../../skills/run-coding-agents-in-isolated-observable-vibekit-sandboxes/) | 1.8k | — |
 | [Run and lifecycle-manage MCP servers in isolated environments with ToolHive before local MCP sprawl turns brittle](../../skills/run-and-lifecycle-manage-mcp-servers-in-isolated-environments-with-toolhive-before-local-mcp-sprawl-turns-brittle/) | 1.7k | — |

@@ -100,6 +100,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Chafa Terminal Image and Graphics Renderer](../../skills/chafa-terminal-image-graphics-renderer/) | 4.5k | — |
 | [Mermaid CLI Diagram-as-Code Renderer](../../skills/mermaid-cli-diagram-as-code-renderer/) | 4.3k | 438.9k/wk |
 | [Kroki Unified Diagram Rendering API and Server](../../skills/kroki-unified-diagram-rendering-api-server/) | 4.1k | — |
+| [Run generative media agent recipes with MuAPI Skills](../../skills/run-generative-media-agent-recipes-with-muapi-skills/) | 3.9k | 626/wk |
 | [Oxipng Multithreaded Lossless PNG Compression Optimizer](../../skills/oxipng-png-compression-optimizer/) | 3.9k | — |
 | [resvg High-Performance SVG Rendering Library in Rust](../../skills/resvg-svg-rendering-library-rust/) | 3.8k | — |
 | [Turn a plain-language brief into a multi-step video production pipeline with OpenMontage](../../skills/turn-a-plain-language-brief-into-a-multi-step-video-production-pipeline-with-openmontage/) | 3k | — |
