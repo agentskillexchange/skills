@@ -70,7 +70,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Generate reusable site adapters from live browser behavior with OpenCLI](../../skills/generate-reusable-site-adapters-from-live-browser-behavior-with-opencli/) | 16.3k | 10.6k/wk |
 | [Build portable single-file agent memory with Memvid](../../skills/build-portable-single-file-agent-memory-with-memvid/) | 15.7k | 4k/wk |
 | [Give coding agents Figma layout context through MCP](../../skills/give-coding-agents-figma-layout-context-through-mcp/) | 14.9k | 257.9k/wk |
-| [Expose approved database operations to MCP clients with MCP Toolbox before ad hoc SQL glue sprawls](../../skills/expose-approved-database-operations-to-mcp-clients-with-mcp-toolbox-before-ad-hoc-sql-glue-sprawls/) | 14.7k | — |
+| [Expose approved database operations to MCP clients with MCP Toolbox before ad hoc SQL glue sprawls](../../skills/expose-approved-database-operations-to-mcp-clients-with-mcp-toolbox-before-ad-hoc-sql-glue-sprawls/) | 14.7k | 19k/wk |
 | [Bridge local coding agents into chat apps with cc-connect](../../skills/bridge-local-coding-agents-into-chat-apps-with-cc-connect/) | 14.2k | 17.2k/wk |
 | [Formbricks Open Source Survey and Experience Management Platform](../../skills/formbricks-open-source-survey-experience-management/) | 12.1k | — |
 | [Formbricks Open-Source Survey Platform](../../skills/formbricks-open-source-survey-platform/) | 12k | — |
@@ -113,7 +113,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Tolgee Open Source Localization and i18n Platform](../../skills/tolgee-localization-i18n-platform/) | 3.9k | — |
 | [Use MCP Context Forge as an MCP gateway and registry](../../skills/use-mcp-context-forge-as-an-mcp-gateway-and-registry/) | 3.8k | — |
 | [AWS S3 & SQS Pipeline Connector](../../skills/aws-s3-sqs-pipeline-connector/) | 3.6k | — |
-| [Cloudflare MCP Servers for Workers, Security, and Observability](../../skills/cloudflare-mcp-servers-workers-security-observability/) | 3.6k | — |
+| [Cloudflare MCP Servers for Workers, Security, and Observability](../../skills/cloudflare-mcp-servers-workers-security-observability/) | 3.6k | 47.8k/wk |
 | [Add multimodal lifelong memory to MCP and Python agents with SimpleMem](../../skills/add-multimodal-lifelong-memory-to-mcp-and-python-agents-with-simplemem/) | 3.5k | — |
 | [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | 3.4k | — |
 | [Svix Enterprise Webhook Delivery Service](../../skills/svix-enterprise-webhook-delivery-service/) | 3.2k | — |

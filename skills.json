@@ -9029,6 +9029,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 14664,
+        "npm_weekly_downloads": 18988,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/googleapis/mcp-toolbox",
@@ -22313,7 +22314,8 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 3579
+        "github_stars": 3579,
+        "npm_weekly_downloads": 47817
       },
       "source_url": "https://github.com/cloudflare/mcp-server-cloudflare",
       "github_repo": "cloudflare/mcp-server-cloudflare"
@@ -39410,6 +39412,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 190,
+        "npm_weekly_downloads": 367,
         "license": "MIT"
       },
       "source_url": "https://github.com/getsentry/sentry-for-ai",

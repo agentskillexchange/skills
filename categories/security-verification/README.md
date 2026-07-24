@@ -237,7 +237,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Scan repositories for AI supply-chain and agent-security risks with Medusa Security](../../skills/scan-repositories-for-ai-supply-chain-and-agent-security-risks-with-medusa-security/) | 256 | — |
 | [Put approval gates and audit-ready policy checks between agents and external actions with DashClaw](../../skills/put-approval-gates-and-audit-ready-policy-checks-between-agents-and-external-actions-with-dashclaw/) | 241 | 1.6k/wk |
 | [Enforce policy-gated and auditable agent execution with LACP](../../skills/enforce-policy-gated-and-auditable-agent-execution-with-lacp/) | 211 | — |
-| [Sentry for AI](../../skills/sentry-for-ai/) | 190 | — |
+| [Sentry for AI](../../skills/sentry-for-ai/) | 190 | 367/wk |
 | [Lint and autofix agent config files before broken prompts, hooks, or MCP settings derail runs with agnix](../../skills/lint-and-autofix-agent-config-files-before-broken-prompts-hooks-or-mcp-settings-derail-runs-with-agnix/) | 179 | 6k/wk |
 | [Gitxray GitHub Repository Security X-Ray](../../skills/gitxray-github-repository-security-xray/) | 174 | — |
 | [Run coding agents in a locked-down local sandbox with repo-only filesystem access and controlled egress using agent-sandbox](../../skills/run-coding-agents-in-a-locked-down-local-sandbox-with-repo-only-filesystem-access-and-controlled-egress-using-agent-sandbox/) | 163 | — |
