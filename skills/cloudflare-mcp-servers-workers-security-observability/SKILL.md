@@ -10,6 +10,8 @@ framework: "MCP"
 tool_ecosystem:
   github_repo: "cloudflare/mcp-server-cloudflare"
   github_stars: 3579
+  npm_package: "@cloudflare/mcp-server-cloudflare"
+  npm_weekly_downloads: 47817
 ---
 
 # Cloudflare MCP Servers for Workers, Security, and Observability
