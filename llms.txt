@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-25
-# Total: 2804 skills
+# Total: 2805 skills
+
+## Share local project memory across coding agents with Memorix
+slug: share-local-project-memory-across-coding-agents-with-memorix
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Memorix when multiple coding agents or sessions need a shared, searchable, local-first project memory instead of isolated chat history.
+url: https://agentskillexchange.com/skills/share-local-project-memory-across-coding-agents-with-memorix/
 
 ## Run autonomous coding tasks through Zeroshot verifier loops
 slug: run-autonomous-coding-tasks-through-zeroshot-verifier-loops
