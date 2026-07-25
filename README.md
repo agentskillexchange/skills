@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C803-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C804-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C399-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,803 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,804 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Run autonomous coding tasks through Zeroshot verifier loops](skills/run-autonomous-coding-tasks-through-zeroshot-verifier-loops/) | Use Zeroshot when a coding issue or spec needs an executor agent and an independent verifier loop before... | 1.7k | Code Quality & Review |
 | [Orchestrate multi-agent coding delivery loops with Maestro Flow](skills/orchestrate-multi-agent-coding-delivery-loops-with-maestro-flow/) | Use Maestro Flow when a coding operator wants intent-driven planning, execution, verification, review, retry, and long-running multi-agent loops... | 480 | Developer Tools |
 | [Run human-in-the-loop academic research workflows with Academic Research Skills](skills/run-human-in-the-loop-academic-research-workflows-with-academic-research-skills/) | Use Academic Research Skills to guide Claude Code through research planning, literature review, drafting, review, revision, citation checks... | 39.4k | Research & Scraping |
 | [Run generative media agent recipes with MuAPI Skills](skills/run-generative-media-agent-recipes-with-muapi-skills/) | Use Generative Media Skills when an agent should turn a creative brief into repeatable image, video, audio, product-ad... | 3.9k | Image & Creative Automation |
@@ -96,7 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Manage cross-agent skill files from Obsidian with Agentfiles](skills/manage-cross-agent-skill-files-from-obsidian-with-agentfiles/) | Use Agentfiles when an operator wants to browse, create, edit, install, and audit skills, commands, agents, rules, memories... | 679 | Developer Tools |
 | [Install Chinese-localized Superpowers workflows for coding agents](skills/install-chinese-localized-superpowers-workflows-for-coding-agents/) | Use superpowers-zh to install Chinese-localized coding-agent methods, China-specific development skills, and cross-tool setup for Claude Code, Codex, Cursor... | 7.2k | Templates & Workflows |
 | [Give teams shared coding-agent memory with Stash](skills/give-teams-shared-coding-agent-memory-with-stash/) | Connect coding agents to a shared Stash knowledge base so sessions, files, pages, and team context can be... | 246 | Developer Tools |
-| [Develop Power BI and Fabric artifacts with agent plugins](skills/develop-power-bi-and-fabric-artifacts-with-agent-plugins/) | Install Power BI and Microsoft Fabric plugins so Claude Code can author, validate, and review PBIP, TMDL, DAX... | 801 | Developer Tools |
 
 ---
 
@@ -108,13 +108,13 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 |---|---|---:|---|
 | [Install Chinese-localized Superpowers workflows for coding agents](skills/install-chinese-localized-superpowers-workflows-for-coding-agents/) | Use superpowers-zh to install Chinese-localized coding-agent methods, China-specific development skills, and cross-tool setup for Claude Code, Codex, Cursor... | 7.2k | Templates & Workflows |
 | [Audit coding-agent token spend with CodeBurn](skills/audit-coding-agent-token-spend-with-codeburn/) | Run CodeBurn locally or as an MCP server so agents can inspect token usage, cost, model mix, project... | 8.7k | Monitoring & Alerts |
-| [Install verified Codex planning and completion loops with LazyCodex](skills/install-verified-codex-planning-and-completion-loops-with-lazycodex/) | Add Codex commands, skills, hooks, diagnostics, and sub-agent roles for deep repository initialization, planning, execution, and evidence-backed completion | 2.8k | Developer Tools |
 | [Coordinate visible multi-agent CLI workspaces with CCB](skills/coordinate-visible-multi-agent-cli-workspaces-with-ccb/) | Use CCB to run Codex, Claude, Gemini, Cursor, OpenCode, and other CLI agents in a visible project workspace... | 3.2k | Developer Tools |
+| [Install verified Codex planning and completion loops with LazyCodex](skills/install-verified-codex-planning-and-completion-loops-with-lazycodex/) | Add Codex commands, skills, hooks, diagnostics, and sub-agent roles for deep repository initialization, planning, execution, and evidence-backed completion | 2.8k | Developer Tools |
+| [Keep coding agents from over-building implementations with Ponytail](skills/keep-coding-agents-from-over-building-implementations-with-ponytail/) | Ponytail gives coding agents a portable minimal-implementation ruleset, plugin hooks, and review commands so they reuse existing code... | 85.5k | Code Quality & Review |
 | [Bridge local coding agents into chat apps with cc-connect](skills/bridge-local-coding-agents-into-chat-apps-with-cc-connect/) | Let operators control local Claude Code, Codex, Cursor, Gemini CLI, and other coding agents from Slack, Discord, Telegram... | 14.2k | Integrations & Connectors |
 | [Run OpenCode specialist-agent workflows with Oh My Opencode Slim](skills/run-opencode-specialist-agent-workflows-with-oh-my-opencode-slim/) | Install an OpenCode orchestration plugin that routes codebase work across specialist agents, background tasks, model presets, bundled skills... | 7.0k | Templates & Workflows |
-| [Keep coding agents from over-building implementations with Ponytail](skills/keep-coding-agents-from-over-building-implementations-with-ponytail/) | Ponytail gives coding agents a portable minimal-implementation ruleset, plugin hooks, and review commands so they reuse existing code... | 85.5k | Code Quality & Review |
-| [Review agent-authored diffs with Hunk](skills/review-agent-authored-diffs-with-hunk/) | Use Hunk to keep a live terminal review UI open for agent-authored code changes, with Git, Jujutsu, Sapling... | 6.9k | Code Quality & Review |
 | [Extract financial data context for agents with OpenBB](skills/use-openbb-as-financial-data-context-for-agents/) | Extract source-backed financial market, filings, economics, and research data with OpenBB, then route the outputs into agent workflows... | 70.7k | Data Extraction & Transformation |
+| [Review agent-authored diffs with Hunk](skills/review-agent-authored-diffs-with-hunk/) | Use Hunk to keep a live terminal review UI open for agent-authored code changes, with Git, Jujutsu, Sapling... | 6.9k | Code Quality & Review |
 | [Run generative media agent recipes with MuAPI Skills](skills/run-generative-media-agent-recipes-with-muapi-skills/) | Use Generative Media Skills when an agent should turn a creative brief into repeatable image, video, audio, product-ad... | 3.9k | Image & Creative Automation |
 
 ---
@@ -127,7 +127,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 239 | Vulnerability scanning, auth setup, compliance |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 220 | Scaffolders, boilerplate generators, workflow templates |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 216 | ETL pipelines, parsing, format conversion |
-| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 194 | Linting, code review, test generators, coverage |
+| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 195 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 175 | Incident response, troubleshooting, system diagnostics |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 154 | Third-party API bridges, webhooks, service connectors |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,803 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,804 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,399 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

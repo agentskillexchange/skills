@@ -1,8 +1,23 @@
 {
   "version": "2.0",
-  "total": 2803,
+  "total": 2804,
   "generated": "2026-07-25",
   "skills": [
+    {
+      "slug": "run-autonomous-coding-tasks-through-zeroshot-verifier-loops",
+      "name": "Run autonomous coding tasks through Zeroshot verifier loops",
+      "title": "Run autonomous coding tasks through Zeroshot verifier loops",
+      "description": "Use Zeroshot when a coding issue or spec needs an executor agent and an independent verifier loop before the change is accepted.",
+      "category": "Code Quality & Review",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1673,
+        "npm_weekly_downloads": 537
+      },
+      "source_url": "https://github.com/the-open-engine/zeroshot",
+      "github_repo": "the-open-engine/zeroshot"
+    },
     {
       "slug": "orchestrate-multi-agent-coding-delivery-loops-with-maestro-flow",
       "name": "Orchestrate multi-agent coding delivery loops with Maestro Flow",
@@ -269,7 +284,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 322
+        "github_stars": 322,
+        "npm_weekly_downloads": 475
       },
       "source_url": "https://github.com/plmbr/notebook-intelligence",
       "github_repo": "plmbr/notebook-intelligence"

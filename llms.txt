@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-25
-# Total: 2803 skills
+# Total: 2804 skills
+
+## Run autonomous coding tasks through Zeroshot verifier loops
+slug: run-autonomous-coding-tasks-through-zeroshot-verifier-loops
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Zeroshot when a coding issue or spec needs an executor agent and an independent verifier loop before the change is accepted.
+url: https://agentskillexchange.com/skills/run-autonomous-coding-tasks-through-zeroshot-verifier-loops/
 
 ## Orchestrate multi-agent coding delivery loops with Maestro Flow
 slug: orchestrate-multi-agent-coding-delivery-loops-with-maestro-flow

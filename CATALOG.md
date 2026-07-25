@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2803 published skills** across **17 categories** · 2,399 security reviewed · Updated 2026-07-25 01:26 UTC
+> **2804 published skills** across **17 categories** · 2,399 security reviewed · Updated 2026-07-25 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -370,7 +370,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Coordinate Terminal Coding Agents With hcom](skills/coordinate-terminal-coding-agents-with-hcom/) | Use hcom to launch, message, watch, fork, and coordinate multiple terminal coding agents across Claude Code, Codex,… | Security Reviewed | 393 | — |
 | [Temporal CLI Workflow and Server Control](skills/temporal-cli-workflow-server-control/) | Temporal CLI runs a local Temporal server and talks to workflows, activities, and namespaces. It is the practical… | Security Reviewed | 350 | — |
 | [Run Genie planning and execution loops in Claude Code](skills/run-genie-planning-execution-loops-in-claude-code/) | Use Genie to turn a vague coding request into Claude Code brainstorm, wish, work, and review loops backed by… | Security Reviewed | 323 | — |
-| [Run Agent-Assisted Notebook Workflows in JupyterLab With Notebook Intelligence](skills/run-agent-assisted-notebook-workflows-in-jupyterlab-with-notebook-intelligence/) | Use Notebook Intelligence to add chat, inline edit, autocomplete, MCP tools, Claude Code mode, and coding-agent… | Security Reviewed | 322 | — |
+| [Run Agent-Assisted Notebook Workflows in JupyterLab With Notebook Intelligence](skills/run-agent-assisted-notebook-workflows-in-jupyterlab-with-notebook-intelligence/) | Use Notebook Intelligence to add chat, inline edit, autocomplete, MCP tools, Claude Code mode, and coding-agent… | Security Reviewed | 322 | 475/wk |
 | [Install focused Claude Code workflow plugins from Claude Night Market](skills/install-focused-claude-code-workflow-plugins-from-claude-night-market/) | Review and install only the Claude Night Market plugins needed for a specific Claude Code workflow, such as PR prep,… | Security Reviewed | 291 | — |
 | [Run agent tool calls through pctx Code Mode and unified MCP](skills/run-agent-tool-calls-through-pctx-code-mode-and-unified-mcp/) | Put pctx between agents and tools so MCP servers and custom tools can run through a code-oriented execution layer… | Security Reviewed | 264 | 285/wk |
 | [Orchestrate Windows coding-agent fleets with Wmux](skills/orchestrate-windows-coding-agent-fleets-with-wmux/) | Use Wmux to fan out Claude Code, Codex, Gemini, and other agent CLIs across native Windows panes, isolated… | Security Reviewed | 252 | — |
@@ -1108,7 +1108,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (194 skills)
+### ✅ Code Quality & Review (195 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1237,6 +1237,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Enforce red-green-refactor discipline in Claude Code sessions with TDD Guard](skills/enforce-red-green-refactor-discipline-in-claude-code-with-tdd-guard/) | Block implementation-first agent behavior and keep Claude Code anchored to failing-tests-first TDD loops. | Security Reviewed | 2k | 35.5k/wk |
 | [Enforce package boundaries inside a Rails monolith before coupling spreads with Packwerk](skills/enforce-package-boundaries-inside-a-rails-monolith-before-coupling-spreads-with-packwerk/) | Check a Rails codebase for dependency and visibility violations so domain boundaries stay reviewable instead of… | Security Reviewed | 1.9k | — |
 | [Diff YAML manifests semantically and surface meaningful drift before apply with dyff](skills/diff-yaml-manifests-semantically-and-surface-meaningful-drift-before-apply-with-dyff/) | Use dyff to compare YAML documents by structure and changed paths so agents can review configuration drift without… | Security Reviewed | 1.8k | — |
+| [Run autonomous coding tasks through Zeroshot verifier loops](skills/run-autonomous-coding-tasks-through-zeroshot-verifier-loops/) | Use Zeroshot when a coding issue or spec needs an executor agent and an independent verifier loop before the change… | Security Reviewed | 1.7k | 537/wk |
 | [CSpell Codebase Spell Checking CLI](skills/cspell-codebase-spell-checking-cli/) | CSpell is a spell checker built for source code, configuration files, and documentation, with dictionaries and… | Security Reviewed | 1.6k | 1.1M/wk |
 | [Run TypeScript-native LLM eval suites with Evalite](skills/run-typescript-native-llm-eval-suites-with-evalite/) | Use Evalite when a TypeScript team needs repeatable Vitest-style eval runs for LLM apps before prompt, model, or… | Published | 1.6k | 1.1M/wk |
 | [Strip noisy Jupyter output from notebooks before commit with nbstripout](skills/strip-noisy-jupyter-output-from-notebooks-before-commit-with-nbstripout/) | Keep notebook diffs reviewable by removing execution output and excess metadata before notebooks land in Git history. | Security Reviewed | 1.4k | — |

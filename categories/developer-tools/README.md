@@ -396,7 +396,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Coordinate Terminal Coding Agents With hcom](../../skills/coordinate-terminal-coding-agents-with-hcom/) | 393 | — |
 | [Temporal CLI Workflow and Server Control](../../skills/temporal-cli-workflow-server-control/) | 350 | — |
 | [Run Genie planning and execution loops in Claude Code](../../skills/run-genie-planning-execution-loops-in-claude-code/) | 323 | — |
-| [Run Agent-Assisted Notebook Workflows in JupyterLab With Notebook Intelligence](../../skills/run-agent-assisted-notebook-workflows-in-jupyterlab-with-notebook-intelligence/) | 322 | — |
+| [Run Agent-Assisted Notebook Workflows in JupyterLab With Notebook Intelligence](../../skills/run-agent-assisted-notebook-workflows-in-jupyterlab-with-notebook-intelligence/) | 322 | 475/wk |
 | [Install focused Claude Code workflow plugins from Claude Night Market](../../skills/install-focused-claude-code-workflow-plugins-from-claude-night-market/) | 291 | — |
 | [Run agent tool calls through pctx Code Mode and unified MCP](../../skills/run-agent-tool-calls-through-pctx-code-mode-and-unified-mcp/) | 264 | 285/wk |
 | [Orchestrate Windows coding-agent fleets with Wmux](../../skills/orchestrate-windows-coding-agent-fleets-with-wmux/) | 252 | — |

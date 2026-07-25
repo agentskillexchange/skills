@@ -163,6 +163,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Enforce red-green-refactor discipline in Claude Code sessions with TDD Guard](../../skills/enforce-red-green-refactor-discipline-in-claude-code-with-tdd-guard/) | 2k | 35.5k/wk |
 | [Enforce package boundaries inside a Rails monolith before coupling spreads with Packwerk](../../skills/enforce-package-boundaries-inside-a-rails-monolith-before-coupling-spreads-with-packwerk/) | 1.9k | — |
 | [Diff YAML manifests semantically and surface meaningful drift before apply with dyff](../../skills/diff-yaml-manifests-semantically-and-surface-meaningful-drift-before-apply-with-dyff/) | 1.8k | — |
+| [Run autonomous coding tasks through Zeroshot verifier loops](../../skills/run-autonomous-coding-tasks-through-zeroshot-verifier-loops/) | 1.7k | 537/wk |
 | [CSpell Codebase Spell Checking CLI](../../skills/cspell-codebase-spell-checking-cli/) | 1.6k | 1.1M/wk |
 | [Run TypeScript-native LLM eval suites with Evalite](../../skills/run-typescript-native-llm-eval-suites-with-evalite/) | 1.6k | 1.1M/wk |
 | [Strip noisy Jupyter output from notebooks before commit with nbstripout](../../skills/strip-noisy-jupyter-output-from-notebooks-before-commit-with-nbstripout/) | 1.4k | — |
