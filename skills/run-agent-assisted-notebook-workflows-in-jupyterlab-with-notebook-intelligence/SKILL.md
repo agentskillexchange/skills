@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "plmbr/notebook-intelligence"
   github_stars: 322
+  npm_package: "@plmbr/notebook-intelligence"
+  npm_weekly_downloads: 475
 ---
 
 # Run Agent-Assisted Notebook Workflows in JupyterLab With Notebook Intelligence
@@ -24,21 +26,11 @@ Python environment with JupyterLab, notebook-intelligence, optional Node.js for 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install notebook-intelligence
+Install or set up from the source-backed instructions:
 
-Requirements and caveats from upstream:
-- Python 3.10+
-- Node.js — only required for [Claude mode](#claude-mode) (the Claude Code CLI) and for MCP servers that launch via npx.
-- A fresh virtualenv or conda env is recommended so NBI doesn't conflict with system Python.
-
-Basic usage or getting-started notes:
-- [Quick start](#quick-start)
-- [MCP config example](#mcp-config-example)
-- JupyterLab 4.x
+Install with pip install notebook-intelligence, restart JupyterLab, open the NBI panel, configure a provider or enable Claude mode, and optionally add MCP servers in ~/.jupyter/nbi/mcp.json or use launcher tiles for installed agent CLIs.
 
 - Source: https://github.com/plmbr/notebook-intelligence
-- Extracted from upstream docs: https://raw.githubusercontent.com/plmbr/notebook-intelligence/HEAD/README.md
 
 ## Documentation
 
