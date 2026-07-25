@@ -1,9 +1,31 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-07-24",
-  "total": 2801,
+  "generated": "2026-07-25",
+  "total": 2803,
   "skills": [
+    {
+      "slug": "orchestrate-multi-agent-coding-delivery-loops-with-maestro-flow",
+      "name": "Orchestrate multi-agent coding delivery loops with Maestro Flow",
+      "title": "Orchestrate multi-agent coding delivery loops with Maestro Flow",
+      "description": "Use Maestro Flow when a coding operator wants intent-driven planning, execution, verification, review, retry, and long-running multi-agent loops from one workflow surface.",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/catlog22/maestro-flow",
+      "github_repo": "catlog22/maestro-flow"
+    },
+    {
+      "slug": "run-human-in-the-loop-academic-research-workflows-with-academic-research-skills",
+      "name": "Run human-in-the-loop academic research workflows with Academic Research Skills",
+      "title": "Run human-in-the-loop academic research workflows with Academic Research Skills",
+      "description": "Use Academic Research Skills to guide Claude Code through research planning, literature review, drafting, review, revision, citation checks, and publication preparation.",
+      "category": "Research & Scraping",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Imbad0202/academic-research-skills",
+      "github_repo": "Imbad0202/academic-research-skills"
+    },
     {
       "slug": "run-generative-media-agent-recipes-with-muapi-skills",
       "name": "Run generative media agent recipes with MuAPI Skills",

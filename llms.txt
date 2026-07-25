@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-07-24
-# Total: 2801 skills
+# Generated: 2026-07-25
+# Total: 2803 skills
+
+## Orchestrate multi-agent coding delivery loops with Maestro Flow
+slug: orchestrate-multi-agent-coding-delivery-loops-with-maestro-flow
+category: Developer Tools
+framework: Claude Code
+verification: Security Reviewed
+description: Use Maestro Flow when a coding operator wants intent-driven planning, execution, verification, review, retry, and long-running multi-agent loops from one workflow surface.
+url: https://agentskillexchange.com/skills/orchestrate-multi-agent-coding-delivery-loops-with-maestro-flow/
+
+## Run human-in-the-loop academic research workflows with Academic Research Skills
+slug: run-human-in-the-loop-academic-research-workflows-with-academic-research-skills
+category: Research & Scraping
+framework: Claude Code
+verification: Security Reviewed
+description: Use Academic Research Skills to guide Claude Code through research planning, literature review, drafting, review, revision, citation checks, and publication preparation.
+url: https://agentskillexchange.com/skills/run-human-in-the-loop-academic-research-workflows-with-academic-research-skills/
 
 ## Run generative media agent recipes with MuAPI Skills
 slug: run-generative-media-agent-recipes-with-muapi-skills
