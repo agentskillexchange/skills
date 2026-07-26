@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2805 published skills** across **17 categories** · 2,401 security reviewed · Updated 2026-07-26 01:26 UTC
+> **2806 published skills** across **17 categories** · 2,401 security reviewed · Updated 2026-07-26 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (394 skills)
+### 🛠️ Developer Tools (395 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -373,6 +373,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Run Genie planning and execution loops in Claude Code](skills/run-genie-planning-execution-loops-in-claude-code/) | Use Genie to turn a vague coding request into Claude Code brainstorm, wish, work, and review loops backed by… | Security Reviewed | 323 | — |
 | [Run Agent-Assisted Notebook Workflows in JupyterLab With Notebook Intelligence](skills/run-agent-assisted-notebook-workflows-in-jupyterlab-with-notebook-intelligence/) | Use Notebook Intelligence to add chat, inline edit, autocomplete, MCP tools, Claude Code mode, and coding-agent… | Security Reviewed | 322 | 475/wk |
 | [Install focused Claude Code workflow plugins from Claude Night Market](skills/install-focused-claude-code-workflow-plugins-from-claude-night-market/) | Review and install only the Claude Night Market plugins needed for a specific Claude Code workflow, such as PR prep,… | Security Reviewed | 291 | — |
+| [Orchestrate coding-agent goals and context with Jumbo Context](skills/orchestrate-coding-agent-goals-and-context-with-jumbo-context/) | Use Jumbo Context when coding agents need local goal state, project memory, session continuity, and context packets… | Security Reviewed | 265 | 647/wk |
 | [Run agent tool calls through pctx Code Mode and unified MCP](skills/run-agent-tool-calls-through-pctx-code-mode-and-unified-mcp/) | Put pctx between agents and tools so MCP servers and custom tools can run through a code-oriented execution layer… | Security Reviewed | 264 | 285/wk |
 | [Orchestrate Windows coding-agent fleets with Wmux](skills/orchestrate-windows-coding-agent-fleets-with-wmux/) | Use Wmux to fan out Claude Code, Codex, Gemini, and other agent CLIs across native Windows panes, isolated… | Security Reviewed | 252 | — |
 | [Give teams shared coding-agent memory with Stash](skills/give-teams-shared-coding-agent-memory-with-stash/) | Connect coding agents to a shared Stash knowledge base so sessions, files, pages, and team context can be searched,… | Security Reviewed | 246 | — |

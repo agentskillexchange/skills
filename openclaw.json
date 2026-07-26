@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-26",
-  "total": 2805,
+  "total": 2806,
   "skills": [
+    {
+      "slug": "orchestrate-coding-agent-goals-and-context-with-jumbo-context",
+      "name": "Orchestrate coding-agent goals and context with Jumbo Context",
+      "title": "Orchestrate coding-agent goals and context with Jumbo Context",
+      "description": "Use Jumbo Context when coding agents need local goal state, project memory, session continuity, and context packets that travel across Claude, Codex, Copilot, and…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/jumbocontext/jumbo.cli",
+      "github_repo": "jumbocontext/jumbo.cli"
+    },
     {
       "slug": "share-local-project-memory-across-coding-agents-with-memorix",
       "name": "Share local project memory across coding agents with Memorix",

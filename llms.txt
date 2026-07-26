@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-26
-# Total: 2805 skills
+# Total: 2806 skills
+
+## Orchestrate coding-agent goals and context with Jumbo Context
+slug: orchestrate-coding-agent-goals-and-context-with-jumbo-context
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Jumbo Context when coding agents need local goal state, project memory, session continuity, and context packets that travel across Claude, Codex, Copilot, and…
+url: https://agentskillexchange.com/skills/orchestrate-coding-agent-goals-and-context-with-jumbo-context/
 
 ## Share local project memory across coding agents with Memorix
 slug: share-local-project-memory-across-coding-agents-with-memorix
