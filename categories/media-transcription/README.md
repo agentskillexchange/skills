@@ -109,6 +109,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Self-host an OpenAI-compatible speech API for local transcription, translation, and TTS with Speaches](../../skills/self-host-an-openai-compatible-speech-api-for-local-transcription-translation-and-tts-with-speaches/) | 3.2k | — |
 | [Whishper Self-Hosted Speech-to-Text and Audio Workflow Skill](../../skills/whishper-self-hosted-speech-to-text-audio-workflow-skill/) | 3k | — |
 | [Force-align narration and transcript text into subtitle or SMIL timing maps](../../skills/force-align-narration-and-transcript-text-into-subtitle-or-smil-timing-maps/) | 2.8k | — |
+| [Cut and finish Chinese talking-head videos with Chengfeng Videocut Skills](../../skills/cut-and-finish-chinese-talking-head-videos-with-chengfeng-videocut-skills/) | 2.7k | — |
 | [Audio Stem Separator with Demucs](../../skills/audio-stem-separator-demucs/) | 2.5k | — |
 | [audiowaveform Audio Waveform Data Generator and Image Renderer](../../skills/audiowaveform-bbc-waveform-generator/) | 2.1k | — |
 | [MediaInfo Metadata Extractor](../../skills/mediainfo-metadata-extractor/) | 1.9k | — |

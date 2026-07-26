@@ -2,8 +2,30 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-26",
-  "total": 2806,
+  "total": 2808,
   "skills": [
+    {
+      "slug": "cut-and-finish-chinese-talking-head-videos-with-chengfeng-videocut-skills",
+      "name": "Cut and finish Chinese talking-head videos with Chengfeng Videocut Skills",
+      "title": "Cut and finish Chinese talking-head videos with Chengfeng Videocut Skills",
+      "description": "Provides Codex plugin skills for reviewed talking-head video editing: cut mistakes from source video and subtitles, finish a captioned deliverable, report bugs with confirmation,…",
+      "category": "Media & Transcription",
+      "framework": "Codex",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Agentchengfeng/chengfeng-videocut-skills",
+      "github_repo": "Agentchengfeng/chengfeng-videocut-skills"
+    },
+    {
+      "slug": "bridge-coding-agents-into-chat-channels-with-golembot",
+      "name": "Bridge coding agents into chat channels with GolemBot",
+      "title": "Bridge coding agents into chat channels with GolemBot",
+      "description": "Runs an existing coding agent behind Slack, Telegram, Discord, Feishu, DingTalk, WeCom, WeChat, or HTTP so teams can invoke real agent sessions from chat…",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/0xranx/golembot",
+      "github_repo": "0xranx/golembot"
+    },
     {
       "slug": "orchestrate-coding-agent-goals-and-context-with-jumbo-context",
       "name": "Orchestrate coding-agent goals and context with Jumbo Context",

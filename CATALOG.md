@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2806 published skills** across **17 categories** · 2,403 security reviewed · Updated 2026-07-26 13:27 UTC
+> **2808 published skills** across **17 categories** · 2,403 security reviewed · Updated 2026-07-26 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1696,7 +1696,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (154 skills)
+### 🔗 Integrations & Connectors (155 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1823,6 +1823,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Hookdeck CLI for Webhook Development and Event Debugging](skills/hookdeck-cli-webhook-development-event-debugging/) | Hookdeck CLI is Hookdeck's official command-line tool for forwarding webhooks to localhost, managing event gateway… | Security Reviewed | 353 | 9.1k/wk |
 | [Build and validate Shopify apps with the official Shopify AI Toolkit](skills/build-and-validate-shopify-apps-with-the-official-shopify-ai-toolkit/) | Connect agents and IDE assistants to Shopify docs, API schemas, code validation, and store-management workflows… | Security Reviewed | 348 | 17.6k/wk |
 | [Linear MCP Server for Issue Tracking and Project Management](skills/linear-mcp-server-issue-tracking-project-management/) | An MCP server that integrates Linear project management with AI assistants. Enables creating, searching, updating,… | Security Reviewed | 346 | — |
+| [Bridge coding agents into chat channels with GolemBot](skills/bridge-coding-agents-into-chat-channels-with-golembot/) | Runs an existing coding agent behind Slack, Telegram, Discord, Feishu, DingTalk, WeCom, WeChat, or HTTP so teams can… | Security Reviewed | 312 | 177/wk |
 | [Give MCP agents structured graph memory with RushDB](skills/give-mcp-agents-structured-graph-memory-with-rushdb/) | Connect RushDB's MCP server so agents can store, search, update, and traverse persistent structured memory without… | Security Reviewed | 308 | 1.9k/wk |
 | [Give MCP agents local shared memory with MARM](skills/give-mcp-agents-local-shared-memory-with-marm/) | Use MARM Memory to give Claude Code, Cursor, Codex, Gemini, and other MCP clients a local-first shared memory server… | Security Reviewed | 307 | — |
 | [Connect accounting agents to Xero through MCP](skills/connect-accounting-agents-to-xero-through-mcp/) | Use Xero MCP Server to give approved MCP clients controlled access to Xero accounting data, reports, invoices,… | Security Reviewed | 294 | 8k/wk |
@@ -2539,7 +2540,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE… | Security Reviewed | — | — |
 
 
-### 🎙️ Media & Transcription (105 skills)
+### 🎙️ Media & Transcription (106 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads)
 
@@ -2614,6 +2615,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [Self-host an OpenAI-compatible speech API for local transcription, translation, and TTS with Speaches](skills/self-host-an-openai-compatible-speech-api-for-local-transcription-translation-and-tts-with-speaches/) | Use Speaches when an agent stack expects OpenAI-style audio endpoints but you want a self-hosted speech backend for… | Security Reviewed | 3.2k | — |
 | [Whishper Self-Hosted Speech-to-Text and Audio Workflow Skill](skills/whishper-self-hosted-speech-to-text-audio-workflow-skill/) | Whishper is an open source self-hosted web app for speech-to-text, translation, and subtitle workflows built around… | Security Reviewed | 3k | — |
 | [Force-align narration and transcript text into subtitle or SMIL timing maps](skills/force-align-narration-and-transcript-text-into-subtitle-or-smil-timing-maps/) | Use aeneas when an agent already has audio and text, but still needs timing. The workflow aligns spoken narration… | Security Reviewed | 2.8k | — |
+| [Cut and finish Chinese talking-head videos with Chengfeng Videocut Skills](skills/cut-and-finish-chinese-talking-head-videos-with-chengfeng-videocut-skills/) | Provides Codex plugin skills for reviewed talking-head video editing: cut mistakes from source video and subtitles,… | Security Reviewed | 2.7k | — |
 | [Audio Stem Separator with Demucs](skills/audio-stem-separator-demucs/) | Separates audio tracks into individual stems (vocals, drums, bass, other) using Meta's Demucs neural network model… | Security Reviewed | 2.5k | — |
 | [audiowaveform Audio Waveform Data Generator and Image Renderer](skills/audiowaveform-bbc-waveform-generator/) | audiowaveform is a BBC open-source C++ CLI tool that generates waveform data from MP3, WAV, FLAC, Ogg Vorbis, and… | Security Reviewed | 2.1k | — |
 | [MediaInfo Metadata Extractor](skills/mediainfo-metadata-extractor/) | Extracts comprehensive media metadata using the MediaInfo library and pymediainfo Python bindings. Analyzes… | Security Reviewed | 1.9k | — |

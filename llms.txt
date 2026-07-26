@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-26
-# Total: 2806 skills
+# Total: 2808 skills
+
+## Cut and finish Chinese talking-head videos with Chengfeng Videocut Skills
+slug: cut-and-finish-chinese-talking-head-videos-with-chengfeng-videocut-skills
+category: Media & Transcription
+framework: Codex
+verification: Security Reviewed
+description: Provides Codex plugin skills for reviewed talking-head video editing: cut mistakes from source video and subtitles, finish a captioned deliverable, report bugs with confirmation,…
+url: https://agentskillexchange.com/skills/cut-and-finish-chinese-talking-head-videos-with-chengfeng-videocut-skills/
+
+## Bridge coding agents into chat channels with GolemBot
+slug: bridge-coding-agents-into-chat-channels-with-golembot
+category: Integrations & Connectors
+framework: Multi-Framework
+verification: Security Reviewed
+description: Runs an existing coding agent behind Slack, Telegram, Discord, Feishu, DingTalk, WeCom, WeChat, or HTTP so teams can invoke real agent sessions from chat…
+url: https://agentskillexchange.com/skills/bridge-coding-agents-into-chat-channels-with-golembot/
 
 ## Orchestrate coding-agent goals and context with Jumbo Context
 slug: orchestrate-coding-agent-goals-and-context-with-jumbo-context

@@ -161,6 +161,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Hookdeck CLI for Webhook Development and Event Debugging](../../skills/hookdeck-cli-webhook-development-event-debugging/) | 353 | 9.1k/wk |
 | [Build and validate Shopify apps with the official Shopify AI Toolkit](../../skills/build-and-validate-shopify-apps-with-the-official-shopify-ai-toolkit/) | 348 | 17.6k/wk |
 | [Linear MCP Server for Issue Tracking and Project Management](../../skills/linear-mcp-server-issue-tracking-project-management/) | 346 | — |
+| [Bridge coding agents into chat channels with GolemBot](../../skills/bridge-coding-agents-into-chat-channels-with-golembot/) | 312 | 177/wk |
 | [Give MCP agents structured graph memory with RushDB](../../skills/give-mcp-agents-structured-graph-memory-with-rushdb/) | 308 | 1.9k/wk |
 | [Give MCP agents local shared memory with MARM](../../skills/give-mcp-agents-local-shared-memory-with-marm/) | 307 | — |
 | [Connect accounting agents to Xero through MCP](../../skills/connect-accounting-agents-to-xero-through-mcp/) | 294 | 8k/wk |
