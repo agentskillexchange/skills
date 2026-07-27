@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2810 published skills** across **17 categories** · 2,407 security reviewed · Updated 2026-07-27 01:26 UTC
+> **2812 published skills** across **17 categories** · 2,407 security reviewed · Updated 2026-07-27 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (395 skills)
+### 🛠️ Developer Tools (396 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -372,6 +372,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Temporal CLI Workflow and Server Control](skills/temporal-cli-workflow-server-control/) | Temporal CLI runs a local Temporal server and talks to workflows, activities, and namespaces. It is the practical… | Security Reviewed | 350 | — |
 | [Run Genie planning and execution loops in Claude Code](skills/run-genie-planning-execution-loops-in-claude-code/) | Use Genie to turn a vague coding request into Claude Code brainstorm, wish, work, and review loops backed by… | Security Reviewed | 323 | — |
 | [Run Agent-Assisted Notebook Workflows in JupyterLab With Notebook Intelligence](skills/run-agent-assisted-notebook-workflows-in-jupyterlab-with-notebook-intelligence/) | Use Notebook Intelligence to add chat, inline edit, autocomplete, MCP tools, Claude Code mode, and coding-agent… | Security Reviewed | 322 | 475/wk |
+| [Run declarative multi-agent CLI workflows with Comanda](skills/run-declarative-multi-agent-cli-workflows-with-comanda/) | Turns repeatable AI work into versioned YAML pipelines that can call Claude Code, Codex, Gemini CLI, Kimi Code, API… | Security Reviewed | 315 | — |
 | [Install focused Claude Code workflow plugins from Claude Night Market](skills/install-focused-claude-code-workflow-plugins-from-claude-night-market/) | Review and install only the Claude Night Market plugins needed for a specific Claude Code workflow, such as PR prep,… | Security Reviewed | 291 | — |
 | [Orchestrate coding-agent goals and context with Jumbo Context](skills/orchestrate-coding-agent-goals-and-context-with-jumbo-context/) | Use Jumbo Context when coding agents need local goal state, project memory, session continuity, and context packets… | Security Reviewed | 265 | 647/wk |
 | [Run agent tool calls through pctx Code Mode and unified MCP](skills/run-agent-tool-calls-through-pctx-code-mode-and-unified-mcp/) | Put pctx between agents and tools so MCP servers and custom tools can run through a code-oriented execution layer… | Security Reviewed | 264 | 285/wk |
@@ -2415,7 +2416,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Verify local web apps with Playwright scripts and managed dev servers](skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | Use Anthropic's webapp-testing skill to spin up one or more local servers, wait for them to become reachable, and… | Security Reviewed | — | — |
 
 
-### 🔍 Research & Scraping (119 skills)
+### 🔍 Research & Scraping (120 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -2459,6 +2460,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Search local notes, docs, and meeting transcripts for agent context with QMD](skills/search-local-notes-docs-and-meeting-transcripts-for-agent-context-with-qmd/) | Index local notes, docs, and meeting transcripts, then return ranked files or structured JSON so an agent can pull… | Security Reviewed | 22.1k | 25.9k/wk |
 | [Maigret OSINT Username Profiler Across 3000+ Sites](skills/maigret-osint-username-profiler/) | Maigret collects a dossier on a person by username only, checking for accounts on over 3000 sites and gathering… | Security Reviewed | 19.3k | — |
 | [Run research and scientific analysis workflows with Scientific Agent Skills](skills/run-research-and-scientific-analysis-workflows-with-scientific-agent-skills/) | Give an agent curated scientific workflows, databases, and domain-specific guidance when general prompting is not… | Security Reviewed | 18.8k | — |
+| [Automate grounded NotebookLM research and artifact export with notebooklm-py](skills/automate-grounded-notebooklm-research-and-artifact-export-with-notebooklm-py/) | Lets agents operate Google NotebookLM/Gemini Notebook through a Python API, CLI, skill, MCP server, or REST server… | Security Reviewed | 18.2k | — |
 | [Linkwarden Collaborative Bookmark Archive and Preservation Platform](skills/linkwarden-collaborative-bookmark-archive-preservation-platform/) | Linkwarden is an open source bookmark and web archiving platform for saving, organizing, and preserving research… | Security Reviewed | 17.9k | — |
 | [SpiderFoot Open Source Intelligence Automation Framework](skills/spiderfoot-osint-automation-framework/) | SpiderFoot is an open-source OSINT automation tool that queries over 200 data sources to gather intelligence about… | Security Reviewed | 17.2k | — |
 | [Katana Next-Generation Web Crawling and Spidering Framework](skills/katana-web-crawling-spidering-framework/) | Katana by ProjectDiscovery is a fast, configurable web crawling and spidering framework written in Go. It supports… | Security Reviewed | 16.4k | — |

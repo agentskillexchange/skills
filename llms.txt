@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-27
-# Total: 2810 skills
+# Total: 2812 skills
+
+## Run declarative multi-agent CLI workflows with Comanda
+slug: run-declarative-multi-agent-cli-workflows-with-comanda
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Turns repeatable AI work into versioned YAML pipelines that can call Claude Code, Codex, Gemini CLI, Kimi Code, API models, tools, files, worktrees, and…
+url: https://agentskillexchange.com/skills/run-declarative-multi-agent-cli-workflows-with-comanda/
+
+## Automate grounded NotebookLM research and artifact export with notebooklm-py
+slug: automate-grounded-notebooklm-research-and-artifact-export-with-notebooklm-py
+category: Research & Scraping
+framework: Multi-Framework
+verification: Security Reviewed
+description: Lets agents operate Google NotebookLM/Gemini Notebook through a Python API, CLI, skill, MCP server, or REST server to create notebooks, add sources, ask cited…
+url: https://agentskillexchange.com/skills/automate-grounded-notebooklm-research-and-artifact-export-with-notebooklm-py/
 
 ## Run contract-driven GRACE code changes with agent skills
 slug: run-contract-driven-grace-code-changes-with-agent-skills

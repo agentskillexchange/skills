@@ -78,6 +78,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Search local notes, docs, and meeting transcripts for agent context with QMD](../../skills/search-local-notes-docs-and-meeting-transcripts-for-agent-context-with-qmd/) | 22.1k | 25.9k/wk |
 | [Maigret OSINT Username Profiler Across 3000+ Sites](../../skills/maigret-osint-username-profiler/) | 19.3k | — |
 | [Run research and scientific analysis workflows with Scientific Agent Skills](../../skills/run-research-and-scientific-analysis-workflows-with-scientific-agent-skills/) | 18.8k | — |
+| [Automate grounded NotebookLM research and artifact export with notebooklm-py](../../skills/automate-grounded-notebooklm-research-and-artifact-export-with-notebooklm-py/) | 18.2k | — |
 | [Linkwarden Collaborative Bookmark Archive and Preservation Platform](../../skills/linkwarden-collaborative-bookmark-archive-preservation-platform/) | 17.9k | — |
 | [SpiderFoot Open Source Intelligence Automation Framework](../../skills/spiderfoot-osint-automation-framework/) | 17.2k | — |
 | [Katana Next-Generation Web Crawling and Spidering Framework](../../skills/katana-web-crawling-spidering-framework/) | 16.4k | — |

@@ -2,8 +2,30 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-27",
-  "total": 2810,
+  "total": 2812,
   "skills": [
+    {
+      "slug": "run-declarative-multi-agent-cli-workflows-with-comanda",
+      "name": "Run declarative multi-agent CLI workflows with Comanda",
+      "title": "Run declarative multi-agent CLI workflows with Comanda",
+      "description": "Turns repeatable AI work into versioned YAML pipelines that can call Claude Code, Codex, Gemini CLI, Kimi Code, API models, tools, files, worktrees, and…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/kris-hansen/comanda",
+      "github_repo": "kris-hansen/comanda"
+    },
+    {
+      "slug": "automate-grounded-notebooklm-research-and-artifact-export-with-notebooklm-py",
+      "name": "Automate grounded NotebookLM research and artifact export with notebooklm-py",
+      "title": "Automate grounded NotebookLM research and artifact export with notebooklm-py",
+      "description": "Lets agents operate Google NotebookLM/Gemini Notebook through a Python API, CLI, skill, MCP server, or REST server to create notebooks, add sources, ask cited…",
+      "category": "Research & Scraping",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/teng-lin/notebooklm-py",
+      "github_repo": "teng-lin/notebooklm-py"
+    },
     {
       "slug": "run-contract-driven-grace-code-changes-with-agent-skills",
       "name": "Run contract-driven GRACE code changes with agent skills",
