@@ -1,8 +1,37 @@
 {
   "version": "2.0",
-  "total": 2808,
-  "generated": "2026-07-26",
+  "total": 2810,
+  "generated": "2026-07-27",
   "skills": [
+    {
+      "slug": "run-contract-driven-grace-code-changes-with-agent-skills",
+      "name": "Run contract-driven GRACE code changes with agent skills",
+      "title": "Run contract-driven GRACE code changes with agent skills",
+      "description": "Uses GRACE skills and the optional grace CLI to guide coding agents through contract-first code changes backed by .grace artifacts, graph navigation, lint gates,…",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 228,
+        "npm_weekly_downloads": 160
+      },
+      "source_url": "https://github.com/osovv/grace-marketplace",
+      "github_repo": "osovv/grace-marketplace"
+    },
+    {
+      "slug": "run-architecture-first-coding-work-with-spec-driven-develop",
+      "name": "Run architecture-first coding work with Spec-Driven Develop",
+      "title": "Run architecture-first coding work with Spec-Driven Develop",
+      "description": "Guides Markdown-capable coding agents through large changes with deep analysis, intent refinement, task decomposition, GitHub issue tracking, batch PRs, adaptive control, and review workflows.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 953
+      },
+      "source_url": "https://github.com/zhu1090093659/spec_driven_develop",
+      "github_repo": "zhu1090093659/spec_driven_develop"
+    },
     {
       "slug": "cut-and-finish-chinese-talking-head-videos-with-chengfeng-videocut-skills",
       "name": "Cut and finish Chinese talking-head videos with Chengfeng Videocut Skills",

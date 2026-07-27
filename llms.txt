@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-07-26
-# Total: 2808 skills
+# Generated: 2026-07-27
+# Total: 2810 skills
+
+## Run contract-driven GRACE code changes with agent skills
+slug: run-contract-driven-grace-code-changes-with-agent-skills
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Uses GRACE skills and the optional grace CLI to guide coding agents through contract-first code changes backed by .grace artifacts, graph navigation, lint gates,…
+url: https://agentskillexchange.com/skills/run-contract-driven-grace-code-changes-with-agent-skills/
+
+## Run architecture-first coding work with Spec-Driven Develop
+slug: run-architecture-first-coding-work-with-spec-driven-develop
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Guides Markdown-capable coding agents through large changes with deep analysis, intent refinement, task decomposition, GitHub issue tracking, batch PRs, adaptive control, and review workflows.
+url: https://agentskillexchange.com/skills/run-architecture-first-coding-work-with-spec-driven-develop/
 
 ## Cut and finish Chinese talking-head videos with Chengfeng Videocut Skills
 slug: cut-and-finish-chinese-talking-head-videos-with-chengfeng-videocut-skills

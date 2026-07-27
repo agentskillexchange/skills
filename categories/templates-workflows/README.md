@@ -203,6 +203,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Prepare bid proposal drafts and compliance checks with OpenBidKit Yibiao](../../skills/prepare-bid-proposal-drafts-and-compliance-checks-with-openbidkit-yibiao/) | 1k | — |
 | [Coordinate multi-agent coding rigs with Gas City](../../skills/coordinate-multi-agent-coding-rigs-with-gas-city/) | 1k | — |
 | [Run academic writing, analysis, and replication workflows with quality gates in claude-code-my-workflow](../../skills/run-academic-writing-analysis-and-replication-workflows-with-quality-gates-in-claude-code-my-workflow/) | 970 | — |
+| [Run architecture-first coding work with Spec-Driven Develop](../../skills/run-architecture-first-coding-work-with-spec-driven-develop/) | 953 | — |
 | [Build and sync n8n workflows from code with n8n-as-code](../../skills/build-and-sync-n8n-workflows-from-code-with-n8n-as-code/) | 884 | 297/wk |
 | [Build deterministic multi-agent networks with Inngest AgentKit](../../skills/build-deterministic-multi-agent-networks-with-inngest-agentkit/) | 880 | 62.8k/wk |
 | [Run parallel Claude Code bug-fix and best-practice sweeps with coordinated workers using Claude Code Agent Farm](../../skills/run-parallel-claude-code-bug-fix-and-best-practice-sweeps-with-coordinated-workers-using-claude-code-agent-farm/) | 784 | — |
@@ -227,6 +228,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Build event-driven document agent workflows with LlamaAgents](../../skills/build-event-driven-document-agent-workflows-with-llamaagents/) | 389 | — |
 | [Evaluate long-horizon agents against WildClawBench](../../skills/evaluate-long-horizon-agents-against-wildclawbench/) | 359 | — |
 | [Makedown Task Runner](../../skills/makedown-task-runner/) | 319 | — |
+| [Run contract-driven GRACE code changes with agent skills](../../skills/run-contract-driven-grace-code-changes-with-agent-skills/) | 228 | 160/wk |
 | [Delegate planned agent work with Elves](../../skills/delegate-planned-agent-work-with-elves/) | 188 | — |
 | [Reduce Coding-Agent Output Cost With Honey](../../skills/reduce-coding-agent-output-cost-with-honey/) | 178 | — |
 | [Build and refactor Copilot Studio agents as YAML from coding-agent workflows](../../skills/build-and-refactor-copilot-studio-agents-as-yaml/) | 166 | — |

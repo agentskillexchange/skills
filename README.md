@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C808-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C810-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C405-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,808 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,810 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Apache Superset Dashboard and SQL Exploration Skill](skills/apache-superset-dashboard-sql-exploration-skill/)** — Apache Superset is a widely adopted open-source BI platform for SQL exploration, chart building, and dashboard delivery. This skill is useful when an agent needs to query warehouse…
+**[Orchestrate coding-agent goals and context with Jumbo Context](skills/orchestrate-coding-agent-goals-and-context-with-jumbo-context/)** — Use Jumbo Context when coding agents need local goal state, project memory, session continuity, and context packets that travel across Claude, Codex, Copilot, and other harnesses.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Run contract-driven GRACE code changes with agent skills](skills/run-contract-driven-grace-code-changes-with-agent-skills/) | Uses GRACE skills and the optional grace CLI to guide coding agents through contract-first code changes backed by... | 228 | Templates & Workflows |
+| [Run architecture-first coding work with Spec-Driven Develop](skills/run-architecture-first-coding-work-with-spec-driven-develop/) | Guides Markdown-capable coding agents through large changes with deep analysis, intent refinement, task decomposition, GitHub issue tracking, batch... | 953 | Templates & Workflows |
 | [Cut and finish Chinese talking-head videos with Chengfeng Videocut Skills](skills/cut-and-finish-chinese-talking-head-videos-with-chengfeng-videocut-skills/) | Provides Codex plugin skills for reviewed talking-head video editing: cut mistakes from source video and subtitles, finish a... | 2.7k | Media & Transcription |
 | [Bridge coding agents into chat channels with GolemBot](skills/bridge-coding-agents-into-chat-channels-with-golembot/) | Runs an existing coding agent behind Slack, Telegram, Discord, Feishu, DingTalk, WeCom, WeChat, or HTTP so teams can... | 312 | Integrations & Connectors |
 | [Orchestrate coding-agent goals and context with Jumbo Context](skills/orchestrate-coding-agent-goals-and-context-with-jumbo-context/) | Use Jumbo Context when coding agents need local goal state, project memory, session continuity, and context packets that... | 265 | Developer Tools |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Orchestrate multi-agent coding delivery loops with Maestro Flow](skills/orchestrate-multi-agent-coding-delivery-loops-with-maestro-flow/) | Use Maestro Flow when a coding operator wants intent-driven planning, execution, verification, review, retry, and long-running multi-agent loops... | 480 | Developer Tools |
 | [Run human-in-the-loop academic research workflows with Academic Research Skills](skills/run-human-in-the-loop-academic-research-workflows-with-academic-research-skills/) | Use Academic Research Skills to guide Claude Code through research planning, literature review, drafting, review, revision, citation checks... | 39.4k | Research & Scraping |
 | [Run generative media agent recipes with MuAPI Skills](skills/run-generative-media-agent-recipes-with-muapi-skills/) | Use Generative Media Skills when an agent should turn a creative brief into repeatable image, video, audio, product-ad... | 3.9k | Image & Creative Automation |
-| [Manage CLI coding-agent sessions with Claude Code Tools](skills/manage-cli-coding-agent-sessions-with-claude-code-tools/) | Use Claude Code Tools when an operator needs installable CLI utilities, hooks, skills, and plugins for session management... | 1.9k | Developer Tools |
-| [Trace coding agent API traffic locally with Claude Tap](skills/trace-coding-agent-api-traffic-locally-with-claude-tap/) | Run Claude Code, Codex CLI, Gemini CLI, Cursor CLI, OpenCode, and related coding agents through a local proxy... | 2.6k | Monitoring & Alerts |
 
 ---
 
@@ -125,7 +125,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 |---|---|---:|---|
 | 🛠️ | [**Developer Tools**](categories/developer-tools/) | 395 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 239 | Vulnerability scanning, auth setup, compliance |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 220 | Scaffolders, boilerplate generators, workflow templates |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 222 | Scaffolders, boilerplate generators, workflow templates |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 216 | ETL pipelines, parsing, format conversion |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 195 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,808 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,810 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,405 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
