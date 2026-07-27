@@ -5,6 +5,7 @@ description: "gptme is an open-source Python framework for running LLM-powered a
 github_stars: 4355
 verification: "listed"
 source: "https://github.com/gptme/gptme"
+author: "gptme"
 category: "Developer Tools"
 framework: "Custom Agents"
 tool_ecosystem:
@@ -29,18 +30,11 @@ Unlike browser-based AI assistants, gptme agents run natively in your environmen
 
 ## Installation
 
-```bash
-# Install with pip (minimal)
-pip install gptme
+Install or set up from the source-backed instructions:
 
-# Install with all optional extras (browser, computer, RAG)
-pip install 'gptme[browser,computer,rag]'
+Install with uv tool install gptme.
 
-# Install with uv (recommended for project isolation)
-uv tool install gptme
-```
-
-Requires Python 3.10+.
+- Source: https://github.com/gptme/gptme
 
 ## Basic Usage
 
