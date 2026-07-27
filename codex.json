@@ -2,8 +2,40 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-27",
-  "total": 2812,
+  "total": 2815,
   "skills": [
+    {
+      "slug": "xquik-apify-x-actors",
+      "name": "Xquik X Actors on Apify",
+      "title": "Xquik X Actors on Apify",
+      "description": "Run Xquik's public Apify Actors for X tweet collection, timelines, search, followers, lists, communities, and audience-overlap research.",
+      "category": "Research & Scraping",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://apify.com/xquik/x-tweet-scraper"
+    },
+    {
+      "slug": "produce-cinematic-product-videos-with-video-shotcraft",
+      "name": "Produce cinematic product videos with Video Shotcraft",
+      "title": "Produce cinematic product videos with Video Shotcraft",
+      "description": "Turns Claude Code, Codex, or another skills-aware coding agent into a Remotion-based product video operator with shot cards, motion previews, templates, capture scripts, sound…",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Vincentwei1021/video-shotcraft",
+      "github_repo": "Vincentwei1021/video-shotcraft"
+    },
+    {
+      "slug": "preserve-agent-plans-across-context-resets-with-planning-with-files",
+      "name": "Preserve agent plans across context resets with Planning With Files",
+      "title": "Preserve agent plans across context resets with Planning With Files",
+      "description": "Gives coding agents a repeatable file-backed planning workflow using task_plan.md, findings.md, and progress.md so long-running work survives /clear, compaction, crashes, and handoffs.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/OthmanAdi/planning-with-files",
+      "github_repo": "OthmanAdi/planning-with-files"
+    },
     {
       "slug": "run-declarative-multi-agent-cli-workflows-with-comanda",
       "name": "Run declarative multi-agent CLI workflows with Comanda",

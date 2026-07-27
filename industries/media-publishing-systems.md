@@ -45,7 +45,7 @@ Transcription, subtitles, podcast workflows, chaptering, localization, loudness 
 | [Whisper Subtitle Generator](../skills/whisper-subtitle-generator/) | Creates subtitle files from speech audio for teams that need caption artifacts before video or course release. | Video editor / accessibility ops | Medium | 97.8k |
 | [Whishper Self-Hosted Speech-to-Text and Audio Workflow Skill](../skills/whishper-self-hosted-speech-to-text-audio-workflow-skill/) | Adds a self-hosted speech-to-text workflow for privacy-conscious media teams handling interviews, lessons, or internal recordings. | Media platform engineer / transcript ops | High | 3k |
 | [Generate local subtitles for video editing workflows with Auto Subs](../skills/generate-local-subtitles-for-video-editing-workflows-with-auto-subs/) | Adds a local subtitle generation step for editors who need captions before exporting or publishing finished video. | Video editor / post-production ops | Medium | 3.6k |
-| [Cut and finish Chinese talking-head videos with Chengfeng Videocut Skills](../skills/cut-and-finish-chinese-talking-head-videos-with-chengfeng-videocut-skills/) | Adds a reviewed editing workflow for cutting mistakes, managing subtitles, and producing finished talking-head videos. | Video editor / media production operator | Medium | — |
+| [Cut and finish Chinese talking-head videos with Chengfeng Videocut Skills](../skills/cut-and-finish-chinese-talking-head-videos-with-chengfeng-videocut-skills/) | Adds a reviewed editing workflow for cutting mistakes, managing subtitles, and producing finished talking-head videos. | Video editor / media production operator | Medium | 2.7k |
 
 ## Editorial Notes
 

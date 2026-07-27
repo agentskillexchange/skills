@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-27
-# Total: 2812 skills
+# Total: 2815 skills
+
+## Xquik X Actors on Apify
+slug: xquik-apify-x-actors
+category: Research & Scraping
+framework: Multi-Framework
+verification: Published
+description: Run Xquik's public Apify Actors for X tweet collection, timelines, search, followers, lists, communities, and audience-overlap research.
+url: https://agentskillexchange.com/skills/xquik-apify-x-actors/
+
+## Produce cinematic product videos with Video Shotcraft
+slug: produce-cinematic-product-videos-with-video-shotcraft
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Turns Claude Code, Codex, or another skills-aware coding agent into a Remotion-based product video operator with shot cards, motion previews, templates, capture scripts, sound…
+url: https://agentskillexchange.com/skills/produce-cinematic-product-videos-with-video-shotcraft/
+
+## Preserve agent plans across context resets with Planning With Files
+slug: preserve-agent-plans-across-context-resets-with-planning-with-files
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Gives coding agents a repeatable file-backed planning workflow using task_plan.md, findings.md, and progress.md so long-running work survives /clear, compaction, crashes, and handoffs.
+url: https://agentskillexchange.com/skills/preserve-agent-plans-across-context-resets-with-planning-with-files/
 
 ## Run declarative multi-agent CLI workflows with Comanda
 slug: run-declarative-multi-agent-cli-workflows-with-comanda

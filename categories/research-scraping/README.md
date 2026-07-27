@@ -160,6 +160,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [SerpAPI Search Pipeline](../../skills/serpapi-search-pipeline/) | — | — |
 | [SerpAPI Search Results Aggregator](../../skills/serpapi-search-results-aggregator/) | — | — |
 | [Shodan Network Reconnaissance Agent](../../skills/shodan-network-reconnaissance-agent/) | — | — |
+| [Xquik X Actors on Apify](../../skills/xquik-apify-x-actors/) | — | — |
 
 ---
 
