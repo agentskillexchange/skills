@@ -24,7 +24,8 @@
         "analyze-videos-with-frame-extraction-and-audio-context-in-claude-code",
         "whisper-subtitle-generator",
         "whishper-self-hosted-speech-to-text-audio-workflow-skill",
-        "generate-local-subtitles-for-video-editing-workflows-with-auto-subs"
+        "generate-local-subtitles-for-video-editing-workflows-with-auto-subs",
+        "cut-and-finish-chinese-talking-head-videos-with-chengfeng-videocut-skills"
       ],
       "who_for": [
         "Podcast, video, course, and newsroom teams that need repeatable post-production handoffs.",
@@ -164,6 +165,11 @@
         "generate-local-subtitles-for-video-editing-workflows-with-auto-subs": {
           "why_here": "Adds a local subtitle generation step for editors who need captions before exporting or publishing finished video.",
           "persona": "Video editor / post-production ops",
+          "install_complexity": "Medium"
+        },
+        "cut-and-finish-chinese-talking-head-videos-with-chengfeng-videocut-skills": {
+          "why_here": "Adds a reviewed editing workflow for cutting mistakes, managing subtitles, and producing finished talking-head videos.",
+          "persona": "Video editor / media production operator",
           "install_complexity": "Medium"
         }
       },
@@ -413,6 +419,7 @@
         "stripe-connect-marketplace-sync",
         "woocommerce-webhook-orchestrator",
         "run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp",
+        "run-ecommerce-operator-skills-across-marketplace-workflows",
         "stripe-payment-flow-connector",
         "cheerio-product-price-tracker"
       ],
@@ -500,6 +507,11 @@
           "why_here": "Exposes Shopify Admin actions to MCP clients while keeping catalog and order work supervised.",
           "persona": "AI ops engineer / Shopify operator",
           "install_complexity": "High"
+        },
+        "run-ecommerce-operator-skills-across-marketplace-workflows": {
+          "why_here": "Provides practical workflows for product research, listings, reviews, pricing, supply-chain checks, marketing, and marketplace operations.",
+          "persona": "Ecommerce operator / marketplace operations lead",
+          "install_complexity": "Medium"
         },
         "stripe-payment-flow-connector": {
           "why_here": "Retained as the single Stripe checkout/payment-flow pick for validating cart-to-payment intent behavior.",
@@ -1706,6 +1718,7 @@
         "turn-a-research-idea-into-a-draft-paper-workflow-with-autoresearchclaw",
         "run-research-and-scientific-analysis-workflows-with-scientific-agent-skills",
         "run-academic-research-workflows-with-claude-scholar",
+        "run-human-in-the-loop-academic-research-workflows-with-academic-research-skills",
         "run-academic-writing-analysis-and-replication-workflows-with-quality-gates-in-claude-code-my-workflow",
         "run-local-deep-research-workflows-with-local-deep-research",
         "convert-dense-pdfs-into-llm-ready-text-and-page-aligned-markdown-with-olmocr",
@@ -1829,6 +1842,11 @@
         "run-academic-research-workflows-with-claude-scholar": {
           "why_here": "Guides literature review, experiment tracking, evidence records, result reporting, and paper-writing through a structured research-agent workflow.",
           "persona": "Academic lab lead / research project owner",
+          "install_complexity": "Medium"
+        },
+        "run-human-in-the-loop-academic-research-workflows-with-academic-research-skills": {
+          "why_here": "Supports supervised research planning, literature review, drafting, citation checks, revision, and publication preparation.",
+          "persona": "Academic researcher / research operations lead",
           "install_complexity": "Medium"
         },
         "run-academic-writing-analysis-and-replication-workflows-with-quality-gates-in-claude-code-my-workflow": {
