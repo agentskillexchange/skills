@@ -1,9 +1,20 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-07-27",
-  "total": 2815,
+  "generated": "2026-07-28",
+  "total": 2816,
   "skills": [
+    {
+      "slug": "run-app-store-optimization-workflows-with-aso-skills",
+      "name": "Run App Store Optimization Workflows With ASO Skills",
+      "title": "Run App Store Optimization Workflows With ASO Skills",
+      "description": "Use ASO Skills to run repeatable App Store keyword research, metadata optimization, competitor analysis, and growth planning from an agent session.",
+      "category": "Content Writing & SEO",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Eronred/aso-skills",
+      "github_repo": "Eronred/aso-skills"
+    },
     {
       "slug": "xquik-apify-x-actors",
       "name": "Xquik X Actors on Apify",

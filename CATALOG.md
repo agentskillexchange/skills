@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2815 published skills** across **17 categories** · 2,410 security reviewed · Updated 2026-07-27 19:26 UTC
+> **2816 published skills** across **17 categories** · 2,410 security reviewed · Updated 2026-07-28 01:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -2869,7 +2869,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized… | Security Reviewed | — | — |
 
 
-### ✍️ Content Writing & SEO (83 skills)
+### ✍️ Content Writing & SEO (84 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
 
@@ -2904,6 +2904,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [WritingTools System-Wide AI Grammar Assistant for Windows Linux and macOS](skills/writingtools-system-wide-ai-grammar-assistant/) | WritingTools is an open-source, Apple Intelligence-inspired writing assistant that works system-wide on Windows,… | Security Reviewed | 2.2k | — |
 | [SerpBear Self-Hosted Search Engine Rank Tracking App](skills/serpbear-self-hosted-serp-rank-tracker/) | SerpBear is an open-source, self-hosted search engine position tracking application. It lets you monitor unlimited… | Published | 1.9k | — |
 | [Generate XML sitemaps and robots.txt from route inventories before SEO launch](skills/generate-xml-sitemaps-and-robots-txt-from-route-inventories-before-seo-launch/) | Use sitemap when an agent already knows the site routes or content URLs and needs valid sitemap XML, sitemap… | Security Reviewed | 1.7k | 12.5M/wk |
+| [Run App Store Optimization Workflows With ASO Skills](skills/run-app-store-optimization-workflows-with-aso-skills/) | Use ASO Skills to run repeatable App Store keyword research, metadata optimization, competitor analysis, and growth… | Security Reviewed | 1.7k | — |
 | [Generate stable URL slugs from multilingual titles before publishing pages, docs, or filenames](skills/generate-stable-url-slugs-from-multilingual-titles-before-publishing-pages-docs-or-filenames/) | Use python-slugify when an agent has messy human titles and needs safe, repeatable slugs for URLs, filenames, or… | Security Reviewed | 1.6k | — |
 | [Content Readability Analyzer](skills/content-readability-analyzer-agent/) | Scores content using Flesch-Kincaid, Gunning Fog, and SMOG readability indices via textstat Python library. Provides… | Security Reviewed | 1.4k | — |
 | [Content Readability Optimizer](skills/content-readability-optimizer/) | Analyzes and optimizes content readability using textstat Python library and Hemingway API patterns. Computes… | Security Reviewed | 1.4k | — |

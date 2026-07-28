@@ -69,6 +69,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [WritingTools System-Wide AI Grammar Assistant for Windows Linux and macOS](../../skills/writingtools-system-wide-ai-grammar-assistant/) | 2.2k | — |
 | [SerpBear Self-Hosted Search Engine Rank Tracking App](../../skills/serpbear-self-hosted-serp-rank-tracker/) | 1.9k | — |
 | [Generate XML sitemaps and robots.txt from route inventories before SEO launch](../../skills/generate-xml-sitemaps-and-robots-txt-from-route-inventories-before-seo-launch/) | 1.7k | 12.5M/wk |
+| [Run App Store Optimization Workflows With ASO Skills](../../skills/run-app-store-optimization-workflows-with-aso-skills/) | 1.7k | — |
 | [Generate stable URL slugs from multilingual titles before publishing pages, docs, or filenames](../../skills/generate-stable-url-slugs-from-multilingual-titles-before-publishing-pages-docs-or-filenames/) | 1.6k | — |
 | [Content Readability Analyzer](../../skills/content-readability-analyzer-agent/) | 1.4k | — |
 | [Content Readability Optimizer](../../skills/content-readability-optimizer/) | 1.4k | — |
