@@ -2,10 +2,10 @@
 name: "Diagnose local setup failures with Env Doctor"
 slug: "justhandledlabs-env-doctor"
 description: "Diagnose why a local Node, Python, Go, or Docker project will not start by checking runtimes, dependencies, ports, environment-key presence, permissions, and required services before changing application code."
+verification: "listed"
+source: "https://github.com/justhandledlabs/skills/tree/main/skills/env-doctor-free"
 category: "Runbooks & Diagnostics"
 framework: "Codex"
-verification: listed
-source: "https://github.com/justhandledlabs/skills/tree/main/skills/env-doctor-free"
 ---
 
 # Diagnose local setup failures with Env Doctor
@@ -16,28 +16,7 @@ The workflow is evidence-first and deliberately cautious. It reports the process
 
 ## Installation
 
-### Direct repo/manual install
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-Clone the upstream repository and copy the skill into the skill folder used by your agent runtime:
+- Source: https://github.com/justhandledlabs/skills/tree/main/skills/env-doctor-free
 
-```bash
-git clone https://github.com/justhandledlabs/skills.git
-cp -R skills/skills/env-doctor-free ~/.agent-skills/env-doctor-free
-```
-
-### Agent Skill Exchange
-
-After this listing is merged, clone the Agent Skill Exchange repository and copy the catalog entry:
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git
-cp -R skills/skills/justhandledlabs-env-doctor ~/.agent-skills/justhandledlabs-env-doctor
-```
-
-### Optional Third-Party Installer
-
-The `skills` npm package is maintained by Vercel Labs or other third parties, not Agent Skill Exchange. Pin the version if you choose to use it:
-
-```bash
-npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill justhandledlabs-env-doctor
-```

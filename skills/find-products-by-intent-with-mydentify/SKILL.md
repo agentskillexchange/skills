@@ -2,10 +2,10 @@
 name: "Find Products by Intent with Mydentify"
 slug: "find-products-by-intent-with-mydentify"
 description: "Use Mydentify's public intent and product feeds to find software by the outcome a person wants, then return canonical evidence-backed matches."
+verification: "listed"
+source: "https://mydentify.com/.well-known/agent-skills/find-products-by-intent/SKILL.md"
 category: "Research & Scraping"
 framework: "Multi-Framework"
-verification: listed
-source: "https://mydentify.com/.well-known/agent-skills/find-products-by-intent/SKILL.md"
 ---
 
 # Find Products by Intent with Mydentify
@@ -53,31 +53,7 @@ curl --fail --silent --show-error \
 
 ## Installation
 
-### OpenClaw
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-```bash
-clawhub install find-products-by-intent-with-mydentify
-```
+- Source: https://mydentify.com/.well-known/agent-skills/find-products-by-intent/SKILL.md
 
-### Direct repo/manual install
-
-Clone the Agent Skill Exchange repository and copy this skill directory into
-the skill folder used by your agent runtime:
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git
-cp -R \
-  skills/skills/find-products-by-intent-with-mydentify \
-  ~/.agent-skills/find-products-by-intent-with-mydentify
-```
-
-### Optional Third-Party Installer
-
-The `skills` npm package is maintained by Vercel Labs or other third parties,
-not Agent Skill Exchange. Pin its version when using it:
-
-```bash
-npm exec --package=skills@1.5.7 -- \
-  skills add agentskillexchange/skills \
-  --skill find-products-by-intent-with-mydentify
-```
