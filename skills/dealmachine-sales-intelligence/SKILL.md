@@ -2,16 +2,13 @@
 name: "DealMachine Sales Intelligence"
 slug: "dealmachine-sales-intelligence"
 description: "Searches and enriches US property, owner, people, and company data through the DealMachine CLI and hosted MCP server for prospecting, lead generation, comparable-sales research, and targeted sales and marketing exports."
+verification: "listed"
+source: "https://github.com/DealMachine/dealmachine-cli"
 category: "Integrations & Connectors"
 framework: "Multi-Framework"
-verification: listed
-source: "https://github.com/DealMachine/dealmachine-cli"
 tool_ecosystem:
-  tool: "DealMachine"
-  github_repo: "DealMachine/dealmachine-cli"
+  github_repo: "dealmachine/dealmachine-cli"
   npm_package: "@dealmachine/cli"
-  license: "MIT"
-  maintained: true
 ---
 
 # DealMachine Sales Intelligence
@@ -66,3 +63,9 @@ The CLI provides JSON output for automation and covers property and people searc
 6. Report the filters applied, records returned, and credits used when available.
 
 See the [upstream repository](https://github.com/DealMachine/dealmachine-cli) for current commands, MCP Tool coverage, and authentication details.
+
+## Installation
+
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+
+- Source: https://github.com/DealMachine/dealmachine-cli

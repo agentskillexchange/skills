@@ -2232,6 +2232,7 @@
         "run-supervised-mcp-browser-automation-with-auto-browser",
         "control-hosted-browser-research-and-extraction-through-hyperbrowser-mcp",
         "coordinate-visible-multi-agent-cli-workspaces-with-ccb",
+        "run-opencode-skill-pack-workflows-with-opencode-power-pack",
         "expose-repository-code-intelligence-to-agents-with-gortex",
         "route-production-agent-loops-through-bitrouter",
         "use-mcp-context-forge-as-an-mcp-gateway-and-registry"
@@ -2458,6 +2459,11 @@
         "coordinate-visible-multi-agent-cli-workspaces-with-ccb": {
           "why_here": "Gives agency operators a visible multi-agent CLI workspace for coordinating Codex, Claude, Gemini, and other local delivery lanes without losing human takeover.",
           "persona": "AI agency operator / FDE lead",
+          "install_complexity": "Medium"
+        },
+        "run-opencode-skill-pack-workflows-with-opencode-power-pack": {
+          "why_here": "Packages repeatable OpenCode review, security, frontend, MCP, skill-authoring, and project-memory workflows for client delivery teams.",
+          "persona": "AI agency operator / forward deployed engineer",
           "install_complexity": "Medium"
         },
         "expose-repository-code-intelligence-to-agents-with-gortex": {
