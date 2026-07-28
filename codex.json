@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-28",
-  "total": 2818,
+  "total": 2819,
   "skills": [
+    {
+      "slug": "run-opencode-skill-pack-workflows-with-opencode-power-pack",
+      "name": "Run OpenCode skill-pack workflows with opencode-power-pack",
+      "title": "Run OpenCode skill-pack workflows with opencode-power-pack",
+      "description": "Install opencode-power-pack so OpenCode can run Claude Code-style review, security, feature-development, frontend-design, MCP-building, skill-authoring, and project-memory workflows from one maintained plugin.",
+      "category": "Templates & Workflows",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/waybarrios/opencode-power-pack",
+      "github_repo": "waybarrios/opencode-power-pack"
+    },
     {
       "slug": "justhandledlabs-env-doctor",
       "name": "Diagnose local setup failures with Env Doctor",

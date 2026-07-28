@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2818 published skills** across **17 categories** · 2,411 security reviewed · Updated 2026-07-28 07:27 UTC
+> **2819 published skills** across **17 categories** · 2,411 security reviewed · Updated 2026-07-28 13:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -660,7 +660,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (222 skills)
+### 📄 Templates & Workflows (223 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -850,6 +850,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Coordinate multiple CLI agents through sessions, handoffs, and terminal control APIs with CLI Agent Orchestrator](skills/coordinate-multiple-cli-agents-through-sessions-handoffs-and-terminal-control-apis-with-cli-agent-orchestrator/) | Lets an agent supervisor spawn and steer isolated terminal-based worker agents with explicit handoff, assign, and… | Security Reviewed | 473 | — |
 | [Run ecommerce operator skills across marketplace workflows](skills/run-ecommerce-operator-skills-across-marketplace-workflows/) | Use eCommerce-Skills to give compatible agents plain-text workflows for product research, listing optimization,… | Security Reviewed | 458 | — |
 | [Build a local work assistant with 10xProductivity](skills/build-a-local-work-assistant-with-10xproductivity/) | Turn an existing coding agent into a supervised local work assistant that connects to workplace tools, reusable… | Security Reviewed | 455 | — |
+| [Run OpenCode skill-pack workflows with opencode-power-pack](skills/run-opencode-skill-pack-workflows-with-opencode-power-pack/) | Install opencode-power-pack so OpenCode can run Claude Code-style review, security, feature-development,… | Security Reviewed | 448 | — |
 | [Manage native GitHub stacked pull requests with gh-stack](skills/manage-native-github-stacked-pull-requests-with-gh-stack/) | Teach coding agents to split large changes into native GitHub stacked pull requests, keep branch layers rebased, and… | Security Reviewed | 401 | — |
 | [Build event-driven document agent workflows with LlamaAgents](skills/build-event-driven-document-agent-workflows-with-llamaagents/) | Use LlamaAgents to define async Python workflow steps, coordinate document-centric agent pipelines, and expose those… | Security Reviewed | 389 | — |
 | [Evaluate long-horizon agents against WildClawBench](skills/evaluate-long-horizon-agents-against-wildclawbench/) | Use WildClawBench to benchmark agents on hard end-to-end OpenClaw tasks covering tool orchestration, multimodal… | Published | 359 | — |
