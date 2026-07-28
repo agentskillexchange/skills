@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-28
-# Total: 2816 skills
+# Total: 2818 skills
+
+## Diagnose local setup failures with Env Doctor
+slug: justhandledlabs-env-doctor
+category: Runbooks & Diagnostics
+framework: Codex
+verification: Published
+description: Diagnose why a local Node, Python, Go, or Docker project will not start by checking runtimes, dependencies, ports, environment-key presence, permissions, and required services…
+url: https://agentskillexchange.com/skills/justhandledlabs-env-doctor/
+
+## Find Products by Intent with Mydentify
+slug: find-products-by-intent-with-mydentify
+category: Research & Scraping
+framework: Multi-Framework
+verification: Published
+description: Use Mydentify's public intent and product feeds to find software by the outcome a person wants, then return canonical evidence-backed matches.
+url: https://agentskillexchange.com/skills/find-products-by-intent-with-mydentify/
 
 ## Run App Store Optimization Workflows With ASO Skills
 slug: run-app-store-optimization-workflows-with-aso-skills

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2816 published skills** across **17 categories** · 2,410 security reviewed · Updated 2026-07-28 01:27 UTC
+> **2818 published skills** across **17 categories** · 2,410 security reviewed · Updated 2026-07-28 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1517,7 +1517,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Update repository docs automatically after code changes and open review PRs](skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | Use GitHub Next's update-docs workflow when code changes should trigger documentation maintenance instead of waiting… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (175 skills)
+### 📋 Runbooks & Diagnostics (176 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -1685,6 +1685,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [AWS CloudFormation Stack Diagnostics](skills/aws-cloudformation-stack-diagnostics/) | Diagnoses failed AWS CloudFormation stack operations using the AWS CLI (aws cloudformation describe-stack-events)… | Security Reviewed | — | — |
 | [AWS Systems Manager Automation Incident Guide](skills/aws-systems-manager-automation-incident-guide/) | Coordinates remediation playbooks with AWS Systems Manager Automation, Incident Manager, and CloudWatch alarm… | Security Reviewed | — | — |
 | [Database Migration Validator](skills/database-migration-validator/) | Validates SQL database migrations for safety using pg_stat_statements analysis and pt-online-schema-change dry-run… | Published | — | — |
+| [Diagnose local setup failures with Env Doctor](skills/justhandledlabs-env-doctor/) | Diagnose why a local Node, Python, Go, or Docker project will not start by checking runtimes, dependencies, ports,… | Published | — | — |
 | [Diagnose Tailscale and proxy conflicts before remote development stalls out](skills/diagnose-tailscale-and-proxy-conflicts-before-remote-development-stalls-out/) | Use tunnel-doctor in Claude Code when Tailscale partially works but SSH, browser, git, or Docker paths fail because… | Security Reviewed | — | — |
 | [Fix failing pull requests by analyzing CI errors and pushing targeted repairs](skills/fix-failing-pull-requests-by-analyzing-ci-errors-and-pushing-targeted-repairs/) | Use GitHub Next's pr-fix workflow when a pull request is blocked on failing checks and the likely repair is… | Security Reviewed | — | — |
 | [Improve Qdrant vector search relevance and retrieval quality](skills/improve-qdrant-vector-search-relevance-and-retrieval-quality/) | Use Qdrant's official qdrant-search-quality skill when an agent needs to diagnose weak recall, irrelevant matches,… | Security Reviewed | — | — |
@@ -2289,7 +2290,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Rust Crates.io Explorer](skills/rust-crates-io-explorer/) | Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates… | Published | — | — |
 
 
-### 🔍 Research & Scraping (121 skills)
+### 🔍 Research & Scraping (122 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -2399,6 +2400,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Crunchbase Company Intelligence Scraper](skills/crunchbase-company-intelligence-scraper/) | Extracts company profiles, funding rounds, and investor data using the Crunchbase Enterprise API v4 with… | Security Reviewed | — | — |
 | [Diffbot Article Extraction Verifier](skills/diffbot-article-extraction-verifier/) | Validates article extraction quality using the Diffbot Article API and Analyze API, checking fields like `title`,… | Security Reviewed | — | — |
 | [Diffbot Knowledge Graph Extractor](skills/diffbot-knowledge-graph-extractor/) | Extracts structured entities from web pages using the Diffbot Extraction API and Knowledge Graph. Supports article,… | Security Reviewed | — | — |
+| [Find Products by Intent with Mydentify](skills/find-products-by-intent-with-mydentify/) | Use Mydentify's public intent and product feeds to find software by the outcome a person wants, then return… | Published | — | — |
 | [Jina Reader API Skill](skills/jina-reader-api-skill/) | Extracts clean markdown content from any URL using the Jina Reader API (r.jina.ai). Handles JavaScript-rendered… | Security Reviewed | — | — |
 | [OSINT Domain Intelligence Scanner](skills/osint-domain-intelligence-scanner/) | Performs deep OSINT analysis on domains using Shodan API, SecurityTrails DNS history, and WHOIS RDAP lookups.… | Published | — | — |
 | [Patent Landscape Analyzer](skills/patent-landscape-analyzer/) | Searches the USPTO PatentsView API and European Patent Office OPS (Open Patent Services) API for patent grants,… | Published | — | — |

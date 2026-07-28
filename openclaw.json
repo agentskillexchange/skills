@@ -2,8 +2,29 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-28",
-  "total": 2816,
+  "total": 2818,
   "skills": [
+    {
+      "slug": "justhandledlabs-env-doctor",
+      "name": "Diagnose local setup failures with Env Doctor",
+      "title": "Diagnose local setup failures with Env Doctor",
+      "description": "Diagnose why a local Node, Python, Go, or Docker project will not start by checking runtimes, dependencies, ports, environment-key presence, permissions, and required services…",
+      "category": "Runbooks & Diagnostics",
+      "framework": "Codex",
+      "verification": "listed",
+      "source_url": "https://github.com/justhandledlabs/skills/tree/main/skills/env-doctor-free",
+      "github_repo": "justhandledlabs/skills"
+    },
+    {
+      "slug": "find-products-by-intent-with-mydentify",
+      "name": "Find Products by Intent with Mydentify",
+      "title": "Find Products by Intent with Mydentify",
+      "description": "Use Mydentify's public intent and product feeds to find software by the outcome a person wants, then return canonical evidence-backed matches.",
+      "category": "Research & Scraping",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://mydentify.com/.well-known/agent-skills/find-products-by-intent/SKILL.md"
+    },
     {
       "slug": "run-app-store-optimization-workflows-with-aso-skills",
       "name": "Run App Store Optimization Workflows With ASO Skills",

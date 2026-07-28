@@ -202,6 +202,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [AWS CloudFormation Stack Diagnostics](../../skills/aws-cloudformation-stack-diagnostics/) | — | — |
 | [AWS Systems Manager Automation Incident Guide](../../skills/aws-systems-manager-automation-incident-guide/) | — | — |
 | [Database Migration Validator](../../skills/database-migration-validator/) | — | — |
+| [Diagnose local setup failures with Env Doctor](../../skills/justhandledlabs-env-doctor/) | — | — |
 | [Diagnose Tailscale and proxy conflicts before remote development stalls out](../../skills/diagnose-tailscale-and-proxy-conflicts-before-remote-development-stalls-out/) | — | — |
 | [Fix failing pull requests by analyzing CI errors and pushing targeted repairs](../../skills/fix-failing-pull-requests-by-analyzing-ci-errors-and-pushing-targeted-repairs/) | — | — |
 | [Improve Qdrant vector search relevance and retrieval quality](../../skills/improve-qdrant-vector-search-relevance-and-retrieval-quality/) | — | — |
