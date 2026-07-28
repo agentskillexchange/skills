@@ -2,8 +2,41 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-28",
-  "total": 2819,
+  "total": 2822,
   "skills": [
+    {
+      "slug": "writingmate-mcp",
+      "name": "Writingmate MCP Video and Image Generation",
+      "title": "Writingmate MCP Video and Image Generation",
+      "description": "Connects Claude Code, Codex, Cursor, and other MCP hosts to Writingmate for model discovery, text comparison, image generation, and video generation with Seedance, Sora,…",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/writingmate/skills",
+      "github_repo": "writingmate/skills"
+    },
+    {
+      "slug": "dealmachine-sales-intelligence",
+      "name": "DealMachine Sales Intelligence",
+      "title": "DealMachine Sales Intelligence",
+      "description": "Searches and enriches US property, owner, people, and company data through the DealMachine CLI and hosted MCP server for prospecting, lead generation, comparable-sales research,…",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/DealMachine/dealmachine-cli",
+      "github_repo": "dealmachine/dealmachine-cli"
+    },
+    {
+      "slug": "run-suede-creator-skills-across-codex-and-claude-code-workflows",
+      "name": "Run Suede Creator Skills across Codex and Claude Code workflows",
+      "title": "Run Suede Creator Skills across Codex and Claude Code workflows",
+      "description": "Install Suede Creator Skills when an agent needs repeatable Codex, Claude Code, or MCP-backed workflows for orchestration, code review, ship gates, AI evals, design,…",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/JasonColapietro/suede-creator-skills",
+      "github_repo": "JasonColapietro/suede-creator-skills"
+    },
     {
       "slug": "run-opencode-skill-pack-workflows-with-opencode-power-pack",
       "name": "Run OpenCode skill-pack workflows with opencode-power-pack",

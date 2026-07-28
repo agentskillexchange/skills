@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-28
-# Total: 2819 skills
+# Total: 2822 skills
+
+## Writingmate MCP Video and Image Generation
+slug: writingmate-mcp
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Published
+description: Connects Claude Code, Codex, Cursor, and other MCP hosts to Writingmate for model discovery, text comparison, image generation, and video generation with Seedance, Sora,…
+url: https://agentskillexchange.com/skills/writingmate-mcp/
+
+## DealMachine Sales Intelligence
+slug: dealmachine-sales-intelligence
+category: Integrations & Connectors
+framework: Multi-Framework
+verification: Published
+description: Searches and enriches US property, owner, people, and company data through the DealMachine CLI and hosted MCP server for prospecting, lead generation, comparable-sales research,…
+url: https://agentskillexchange.com/skills/dealmachine-sales-intelligence/
+
+## Run Suede Creator Skills across Codex and Claude Code workflows
+slug: run-suede-creator-skills-across-codex-and-claude-code-workflows
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Install Suede Creator Skills when an agent needs repeatable Codex, Claude Code, or MCP-backed workflows for orchestration, code review, ship gates, AI evals, design,…
+url: https://agentskillexchange.com/skills/run-suede-creator-skills-across-codex-and-claude-code-workflows/
 
 ## Run OpenCode skill-pack workflows with opencode-power-pack
 slug: run-opencode-skill-pack-workflows-with-opencode-power-pack

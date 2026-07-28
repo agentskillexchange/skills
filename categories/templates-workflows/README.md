@@ -233,6 +233,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Delegate planned agent work with Elves](../../skills/delegate-planned-agent-work-with-elves/) | 188 | — |
 | [Reduce Coding-Agent Output Cost With Honey](../../skills/reduce-coding-agent-output-cost-with-honey/) | 178 | — |
 | [Build and refactor Copilot Studio agents as YAML from coding-agent workflows](../../skills/build-and-refactor-copilot-studio-agents-as-yaml/) | 166 | — |
+| [Run Suede Creator Skills across Codex and Claude Code workflows](../../skills/run-suede-creator-skills-across-codex-and-claude-code-workflows/) | 166 | — |
 | [Convert browser HAR captures into reusable k6 load tests with har-to-k6](../../skills/convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6/) | 159 | 13.5k/wk |
 | [Break large coding jobs into focused subagent missions with AB Method](../../skills/break-large-coding-jobs-into-focused-subagent-missions-with-ab-method/) | 159 | 472/wk |
 | [Langfuse Prompt Management MCP Server](../../skills/langfuse-prompt-management-mcp-server/) | 159 | — |

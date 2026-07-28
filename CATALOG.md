@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2819 published skills** across **17 categories** · 2,412 security reviewed · Updated 2026-07-28 13:26 UTC
+> **2822 published skills** across **17 categories** · 2,412 security reviewed · Updated 2026-07-28 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -660,7 +660,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (223 skills)
+### 📄 Templates & Workflows (224 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -859,6 +859,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Delegate planned agent work with Elves](skills/delegate-planned-agent-work-with-elves/) | Use Elves to hand a bounded development or research plan to a separate Claude Code or Codex worker while preserving… | Security Reviewed | 188 | — |
 | [Reduce Coding-Agent Output Cost With Honey](skills/reduce-coding-agent-output-cost-with-honey/) | Use Honey to make coding agents emit less code, less prose, and denser agent-to-agent handoffs while preserving… | Security Reviewed | 178 | — |
 | [Build and refactor Copilot Studio agents as YAML from coding-agent workflows](skills/build-and-refactor-copilot-studio-agents-as-yaml/) | Author, validate, test, and troubleshoot Copilot Studio agents through YAML-driven commands instead of clicking… | Security Reviewed | 166 | — |
+| [Run Suede Creator Skills across Codex and Claude Code workflows](skills/run-suede-creator-skills-across-codex-and-claude-code-workflows/) | Install Suede Creator Skills when an agent needs repeatable Codex, Claude Code, or MCP-backed workflows for… | Security Reviewed | 166 | — |
 | [Convert browser HAR captures into reusable k6 load tests with har-to-k6](skills/convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6/) | Use har-to-k6 when an agent has recorded browser traffic and needs to turn it into a repeatable k6 script instead of… | Security Reviewed | 159 | 13.5k/wk |
 | [Break large coding jobs into focused subagent missions with AB Method](skills/break-large-coding-jobs-into-focused-subagent-missions-with-ab-method/) | Use AB Method when a Claude Code task is too large for one pass and needs to be broken into focused tasks and missions… | Security Reviewed | 159 | 472/wk |
 | [Langfuse Prompt Management MCP Server](skills/langfuse-prompt-management-mcp-server/) | Langfuse Prompt Management MCP Server connects MCP clients to Langfuse prompt libraries so agents can list,… | Security Reviewed | 159 | — |
@@ -1702,7 +1703,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (155 skills)
+### 🔗 Integrations & Connectors (156 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1856,6 +1857,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Mirror OpenClaw workspaces and stream encrypted backups with openclaw-workspace-sync](skills/mirror-openclaw-workspaces-and-stream-encrypted-backups-with-openclaw-workspace-sync/) | Sync an OpenClaw workspace to your own cloud storage or push encrypted agent-system backups with OpenClaw-aware… | Security Reviewed | 8 | 295/wk |
 | [Normalize international phone numbers into E.164 before CRM imports or messaging workflows](skills/normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows/) | Use libphonenumber-js when an agent needs to clean messy phone-number input, validate it against country rules, and… | Published | — | 15.6M/wk |
 | [AssemblyAI Real-Time Call Intelligence](skills/assemblyai-realtime-call-intelligence/) | Streams audio from Twilio Media Streams over WebSocket to AssemblyAI real-time transcription, extracting… | Security Reviewed | — | — |
+| [DealMachine Sales Intelligence](skills/dealmachine-sales-intelligence/) | Searches and enriches US property, owner, people, and company data through the DealMachine CLI and hosted MCP server… | Published | — | — |
 | [GitHub Discussions Community Digest](skills/github-discussions-community-digest/) | Queries GitHub GraphQL API for new and unanswered Discussions, ranks them by reaction count and recency, and drafts… | Security Reviewed | — | — |
 | [JMT x402 Agent Tools](skills/jmt-x402-agent-tools/) | Paid x402 HTTP-402 endpoints on Base mainnet that let agents pay-per-call in USDC for web search, AI analysis,… | Published | — | — |
 | [Linear Issue Triage & Sprint Planner](skills/linear-issue-triage-sprint-planner-2/) | Queries the Linear GraphQL API to list open issues by team, priority, and cycle, then applies configurable triage… | Security Reviewed | — | — |
@@ -2663,7 +2665,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [YouTube Chapter Generator from Transcripts](skills/youtube-chapter-generator-transcripts/) | Extracts YouTube video transcripts via the youtube-transcript-api Python library and generates semantic chapter… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (97 skills)
+### 🎨 Image & Creative Automation (98 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -2766,6 +2768,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Photoshop Batch Action Automator](skills/photoshop-batch-action-automator/) | Automates Adobe Photoshop batch processing via the UXP Scripting API and CEP ExtendScript. Handles bulk resize,… | Security Reviewed | — | — |
 | [RouterBase Media Generation](skills/routerbase-media-generation/) | Build RouterBase media generation workflows for image, audio, speech, and video tasks, covering endpoint selection,… | Published | — | — |
 | [RunPod Serverless GPU Inference](skills/runpod-serverless-gpu-inference/) | Deploy and manage GPU inference endpoints on RunPod Serverless using their REST API. Handles endpoint creation, cold… | Security Reviewed | — | — |
+| [Writingmate MCP Video and Image Generation](skills/writingmate-mcp/) | Connects Claude Code, Codex, Cursor, and other MCP hosts to Writingmate for model discovery, text comparison, image… | Published | — | — |
 
 
 ### 📰 WordPress & CMS (96 skills)

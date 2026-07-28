@@ -137,6 +137,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Photoshop Batch Action Automator](../../skills/photoshop-batch-action-automator/) | — | — |
 | [RouterBase Media Generation](../../skills/routerbase-media-generation/) | — | — |
 | [RunPod Serverless GPU Inference](../../skills/runpod-serverless-gpu-inference/) | — | — |
+| [Writingmate MCP Video and Image Generation](../../skills/writingmate-mcp/) | — | — |
 
 ---
 
