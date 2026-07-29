@@ -231,6 +231,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Makedown Task Runner](../../skills/makedown-task-runner/) | 319 | — |
 | [Run contract-driven GRACE code changes with agent skills](../../skills/run-contract-driven-grace-code-changes-with-agent-skills/) | 228 | 160/wk |
 | [Delegate planned agent work with Elves](../../skills/delegate-planned-agent-work-with-elves/) | 188 | — |
+| [Maintain OKF Knowledge Bundles with Okf Skills](../../skills/maintain-okf-knowledge-bundles-with-okf-skills/) | 185 | — |
 | [Reduce Coding-Agent Output Cost With Honey](../../skills/reduce-coding-agent-output-cost-with-honey/) | 178 | — |
 | [Build and refactor Copilot Studio agents as YAML from coding-agent workflows](../../skills/build-and-refactor-copilot-studio-agents-as-yaml/) | 166 | — |
 | [Run Suede Creator Skills across Codex and Claude Code workflows](../../skills/run-suede-creator-skills-across-codex-and-claude-code-workflows/) | 166 | — |

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2824 published skills** across **17 categories** · 2,417 security reviewed · Updated 2026-07-29 13:26 UTC
+> **2827 published skills** across **17 categories** · 2,417 security reviewed · Updated 2026-07-29 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (398 skills)
+### 🛠️ Developer Tools (400 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -182,6 +182,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [duf Modern Disk Usage and Free Utility](skills/duf-modern-disk-usage-free-utility/) | duf is a modern disk usage/free utility written in Go that provides a polished, colorful terminal output for mounted… | Security Reviewed | 14.9k | — |
 | [Trigger.dev TypeScript Background Jobs Platform](skills/trigger-dev-typescript-background-jobs-platform/) | Trigger.dev is an open-source platform for building and deploying long-running background tasks, AI agents, and… | Security Reviewed | 14.3k | 214.1k/wk |
 | [Mitosis Cross-Framework Component Compiler by Builder.io](skills/mitosis-cross-framework-component-compiler/) | Mitosis lets you write UI components once and compile them to React, Vue, Angular, Svelte, Solid, Qwik, and more.… | Security Reviewed | 13.8k | — |
+| [Supervise Claude Code Sessions with Cc Haha](skills/supervise-claude-code-sessions-with-cc-haha/) | Use Cc Haha as a local desktop workspace for Claude Code sessions, worktree launches, diff review, permission… | Security Reviewed | 13.7k | — |
 | [Fresh Next-Generation Web Framework for Deno](skills/fresh-deno-web-framework/) | Fresh is a next-generation web framework built for Deno that uses island-based client hydration, ships zero… | Security Reviewed | 13.7k | — |
 | [quicktype JSON Schema to Typed Code Generator](skills/quicktype-json-schema-code-generator/) | Generate strongly-typed models and serializers from JSON, JSON Schema, TypeScript, and GraphQL queries in 20+… | Security Reviewed | 13.7k | — |
 | [Litestream SQLite Streaming Replication](skills/litestream-sqlite-streaming-replication/) | Litestream is a streaming replication tool for SQLite databases that continuously replicates changes to S3, Azure,… | Security Reviewed | 13.4k | — |
@@ -371,6 +372,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Build embeddable Rust coding agents with Cersei](skills/build-embeddable-rust-coding-agents-with-cersei/) | Compose coding-agent primitives in Rust, including tool execution, LLM streaming, sub-agent orchestration, memory,… | Security Reviewed | 400 | — |
 | [E2B Code Execution MCP](skills/e2b-code-execution-mcp/) | Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected… | Security Reviewed | 393 | 456/wk |
 | [Coordinate Terminal Coding Agents With hcom](skills/coordinate-terminal-coding-agents-with-hcom/) | Use hcom to launch, message, watch, fork, and coordinate multiple terminal coding agents across Claude Code, Codex,… | Security Reviewed | 393 | — |
+| [Index Codebases for Agent Search with Code Context Engine](skills/index-codebases-for-agent-search-with-code-context-engine/) | Use Code Context Engine to index a repository and expose token-efficient code search to Claude Code, Codex, Cursor,… | Security Reviewed | 383 | — |
 | [Temporal CLI Workflow and Server Control](skills/temporal-cli-workflow-server-control/) | Temporal CLI runs a local Temporal server and talks to workflows, activities, and namespaces. It is the practical… | Security Reviewed | 350 | — |
 | [Run Genie planning and execution loops in Claude Code](skills/run-genie-planning-execution-loops-in-claude-code/) | Use Genie to turn a vague coding request into Claude Code brainstorm, wish, work, and review loops backed by… | Security Reviewed | 323 | — |
 | [Run Agent-Assisted Notebook Workflows in JupyterLab With Notebook Intelligence](skills/run-agent-assisted-notebook-workflows-in-jupyterlab-with-notebook-intelligence/) | Use Notebook Intelligence to add chat, inline edit, autocomplete, MCP tools, Claude Code mode, and coding-agent… | Security Reviewed | 322 | 475/wk |
@@ -661,7 +663,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (224 skills)
+### 📄 Templates & Workflows (225 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -858,6 +860,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Makedown Task Runner](skills/makedown-task-runner/) | Extracts executable task definitions from Markdown files and runs them as shell pipelines. Parses fenced code blocks… | Security Reviewed | 319 | — |
 | [Run contract-driven GRACE code changes with agent skills](skills/run-contract-driven-grace-code-changes-with-agent-skills/) | Uses GRACE skills and the optional grace CLI to guide coding agents through contract-first code changes backed by… | Security Reviewed | 228 | 160/wk |
 | [Delegate planned agent work with Elves](skills/delegate-planned-agent-work-with-elves/) | Use Elves to hand a bounded development or research plan to a separate Claude Code or Codex worker while preserving… | Security Reviewed | 188 | — |
+| [Maintain OKF Knowledge Bundles with Okf Skills](skills/maintain-okf-knowledge-bundles-with-okf-skills/) | Use Okf Skills to have Claude Code produce, validate, migrate, and visualize Open Knowledge Format bundles with… | Security Reviewed | 185 | — |
 | [Reduce Coding-Agent Output Cost With Honey](skills/reduce-coding-agent-output-cost-with-honey/) | Use Honey to make coding agents emit less code, less prose, and denser agent-to-agent handoffs while preserving… | Security Reviewed | 178 | — |
 | [Build and refactor Copilot Studio agents as YAML from coding-agent workflows](skills/build-and-refactor-copilot-studio-agents-as-yaml/) | Author, validate, test, and troubleshoot Copilot Studio agents through YAML-driven commands instead of clicking… | Security Reviewed | 166 | — |
 | [Run Suede Creator Skills across Codex and Claude Code workflows](skills/run-suede-creator-skills-across-codex-and-claude-code-workflows/) | Install Suede Creator Skills when an agent needs repeatable Codex, Claude Code, or MCP-backed workflows for… | Security Reviewed | 166 | — |

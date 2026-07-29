@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-29
-# Total: 2824 skills
+# Total: 2827 skills
+
+## Maintain OKF Knowledge Bundles with Okf Skills
+slug: maintain-okf-knowledge-bundles-with-okf-skills
+category: Templates & Workflows
+framework: Claude Code
+verification: Security Reviewed
+description: Use Okf Skills to have Claude Code produce, validate, migrate, and visualize Open Knowledge Format bundles with provenance, trust, staleness, and CI checks.
+url: https://agentskillexchange.com/skills/maintain-okf-knowledge-bundles-with-okf-skills/
+
+## Index Codebases for Agent Search with Code Context Engine
+slug: index-codebases-for-agent-search-with-code-context-engine
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Code Context Engine to index a repository and expose token-efficient code search to Claude Code, Codex, Cursor, Gemini CLI, Copilot, OpenCode, and other…
+url: https://agentskillexchange.com/skills/index-codebases-for-agent-search-with-code-context-engine/
+
+## Supervise Claude Code Sessions with Cc Haha
+slug: supervise-claude-code-sessions-with-cc-haha
+category: Developer Tools
+framework: Claude Code
+verification: Security Reviewed
+description: Use Cc Haha as a local desktop workspace for Claude Code sessions, worktree launches, diff review, permission approvals, Computer Use, remote access, and scheduled…
+url: https://agentskillexchange.com/skills/supervise-claude-code-sessions-with-cc-haha/
 
 ## Run Browser Automation Agents with Notte
 slug: run-browser-automation-agents-with-notte
