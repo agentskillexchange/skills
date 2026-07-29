@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-07-28
-# Total: 2822 skills
+# Generated: 2026-07-29
+# Total: 2824 skills
+
+## Run Browser Automation Agents with Notte
+slug: run-browser-automation-agents-with-notte
+category: Browser Automation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Build and run browser agents that combine deterministic Playwright-style actions with natural-language AI steps, hosted sessions, vault-backed credentials, and structured outputs.
+url: https://agentskillexchange.com/skills/run-browser-automation-agents-with-notte/
+
+## Control Remote Agent CLI Sessions with CloudCLI
+slug: control-remote-agent-cli-sessions-with-cloudcli
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run Claude Code, Cursor CLI, Codex, and OpenCode sessions from a web or mobile UI when an operator needs remote access, project switching, terminal…
+url: https://agentskillexchange.com/skills/control-remote-agent-cli-sessions-with-cloudcli/
 
 ## Writingmate MCP Video and Image Generation
 slug: writingmate-mcp

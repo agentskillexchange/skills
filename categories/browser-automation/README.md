@@ -139,6 +139,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Test agent-written web changes in a real browser and hand failures back for repair with Expect](../../skills/test-agent-written-web-changes-in-a-real-browser-and-hand-failures-back-for-repair-with-expect/) | 3.4k | 24.5k/wk |
 | [Browserbase MCP Server](../../skills/browserbase-mcp-server/) | 3.3k | 907/wk |
 | [Run blocked-site browser tasks through anti-bot friendly sessions with Camofox Browser](../../skills/run-blocked-site-browser-tasks-through-anti-bot-friendly-sessions-with-camofox-browser/) | 2.9k | 264k/wk |
+| [Run Browser Automation Agents with Notte](../../skills/run-browser-automation-agents-with-notte/) | 2k | — |
 | [Control iOS and Android devices through a deterministic CLI for agent-driven mobile testing and debugging with agent-device](../../skills/control-ios-and-android-devices-through-a-deterministic-cli-for-agent-driven-mobile-testing-and-debugging-with-agent-device/) | 1.8k | 162.4k/wk |
 | [Tarsier Vision Utilities for Web Interaction Agents](../../skills/tarsier-vision-utilities-web-interaction-agents/) | 1.8k | — |
 | [Record and replay governed GUI workflows with OpenAdapt](../../skills/record-and-replay-governed-gui-workflows-with-openadapt/) | 1.6k | — |

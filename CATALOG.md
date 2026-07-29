@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2822 published skills** across **17 categories** · 2,414 security reviewed · Updated 2026-07-28 19:26 UTC
+> **2824 published skills** across **17 categories** · 2,414 security reviewed · Updated 2026-07-29 01:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (397 skills)
+### 🛠️ Developer Tools (398 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -189,6 +189,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [PostgreSQL Query Plan Analyzer](skills/postgresql-query-plan-analyzer-2/) | Executes EXPLAIN ANALYZE BUFFERS on slow PostgreSQL queries and parses the plan tree for sequential scans, nested… | Security Reviewed | 13.1k | 23.2M/wk |
 | [Snapshot and restore encrypted file trees with Kopia](skills/snapshot-and-restore-encrypted-file-trees-with-kopia/) | Use Kopia when an agent needs to create, verify, or restore encrypted incremental snapshots across local, NAS, SFTP,… | Security Reviewed | 13.1k | — |
 | [pgcli Interactive PostgreSQL Client with Autocompletion](skills/pgcli-interactive-postgresql-client/) | pgcli is an interactive PostgreSQL CLI with context-aware autocompletion, syntax highlighting, and multi-line query… | Security Reviewed | 13.1k | — |
+| [Control Remote Agent CLI Sessions with CloudCLI](skills/control-remote-agent-cli-sessions-with-cloudcli/) | Run Claude Code, Cursor CLI, Codex, and OpenCode sessions from a web or mobile UI when an operator needs remote… | Security Reviewed | 12.9k | 5.1k/wk |
 | [Volta JavaScript Toolchain Version Manager](skills/volta-javascript-toolchain-manager/) | Volta is a JavaScript toolchain manager written in Rust that pins Node.js, npm, and yarn versions per project. It… | Security Reviewed | 12.9k | — |
 | [Rspack High-Performance Rust-Based JavaScript Bundler](skills/rspack-rust-based-javascript-bundler/) | Rspack is a blazing-fast JavaScript bundler written in Rust with full webpack API compatibility. It provides drop-in… | Security Reviewed | 12.6k | — |
 | [broot Interactive Tree-View File Navigator](skills/broot-interactive-tree-view-file-navigator/) | broot is a Rust-based terminal tool that provides a new way to see and navigate directory trees. It offers fuzzy… | Security Reviewed | 12.5k | — |
@@ -2423,7 +2424,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Xquik X Actors on Apify](skills/xquik-apify-x-actors/) | Run Xquik's public Apify Actors for X tweet collection, timelines, search, followers, lists, communities, and… | Published | — | — |
 
 
-### 🌐 Browser Automation (120 skills)
+### 🌐 Browser Automation (121 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
@@ -2528,6 +2529,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Test agent-written web changes in a real browser and hand failures back for repair with Expect](skills/test-agent-written-web-changes-in-a-real-browser-and-hand-failures-back-for-repair-with-expect/) | Run an agent-native browser QA loop that reads recent code changes, generates a test plan, and returns concrete… | Published | 3.4k | 24.5k/wk |
 | [Browserbase MCP Server](skills/browserbase-mcp-server/) | Browserbase MCP Server gives agents cloud browser control through Browserbase and Stagehand, with both hosted HTTP… | Security Reviewed | 3.3k | 907/wk |
 | [Run blocked-site browser tasks through anti-bot friendly sessions with Camofox Browser](skills/run-blocked-site-browser-tasks-through-anti-bot-friendly-sessions-with-camofox-browser/) | Use Camofox Browser to route agent browser work through an anti-detection browser server with stable element refs,… | Security Reviewed | 2.9k | 264k/wk |
+| [Run Browser Automation Agents with Notte](skills/run-browser-automation-agents-with-notte/) | Build and run browser agents that combine deterministic Playwright-style actions with natural-language AI steps,… | Security Reviewed | 2k | — |
 | [Control iOS and Android devices through a deterministic CLI for agent-driven mobile testing and debugging with agent-device](skills/control-ios-and-android-devices-through-a-deterministic-cli-for-agent-driven-mobile-testing-and-debugging-with-agent-device/) | Drive real mobile apps from a session-aware CLI so agents can inspect UI state, act deterministically, and collect… | Published | 1.8k | 162.4k/wk |
 | [Tarsier Vision Utilities for Web Interaction Agents](skills/tarsier-vision-utilities-web-interaction-agents/) | Tarsier is a Python library by Reworkd that provides vision utilities for AI web interaction agents. It visually… | Security Reviewed | 1.8k | — |
 | [Record and replay governed GUI workflows with OpenAdapt](skills/record-and-replay-governed-gui-workflows-with-openadapt/) | Use OpenAdapt to demonstrate a repeated browser or GUI workflow once, compile it into a deterministic replay bundle,… | Security Reviewed | 1.6k | — |

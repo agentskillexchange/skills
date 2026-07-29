@@ -215,6 +215,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [PostgreSQL Query Plan Analyzer](../../skills/postgresql-query-plan-analyzer-2/) | 13.1k | 23.2M/wk |
 | [Snapshot and restore encrypted file trees with Kopia](../../skills/snapshot-and-restore-encrypted-file-trees-with-kopia/) | 13.1k | — |
 | [pgcli Interactive PostgreSQL Client with Autocompletion](../../skills/pgcli-interactive-postgresql-client/) | 13.1k | — |
+| [Control Remote Agent CLI Sessions with CloudCLI](../../skills/control-remote-agent-cli-sessions-with-cloudcli/) | 12.9k | 5.1k/wk |
 | [Volta JavaScript Toolchain Version Manager](../../skills/volta-javascript-toolchain-manager/) | 12.9k | — |
 | [Rspack High-Performance Rust-Based JavaScript Bundler](../../skills/rspack-rust-based-javascript-bundler/) | 12.6k | — |
 | [broot Interactive Tree-View File Navigator](../../skills/broot-interactive-tree-view-file-navigator/) | 12.5k | — |

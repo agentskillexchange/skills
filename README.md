@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C822-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C824-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C414-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,822 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,824 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Install Garry Tan’s Claude Code operating stack with gstack](skills/install-garry-tans-claude-code-operating-stack-with-gstack/)** — Use gstack to bootstrap an opinionated Claude Code workspace with specialist agent skills, commands, hooks, and operating workflows for product-building teams.
+**[Excalidraw Virtual Whiteboard and Diagram SDK](skills/excalidraw-virtual-whiteboard-diagram-sdk/)** — Excalidraw is an open-source virtual whiteboard for creating hand-drawn style diagrams, wireframes, and sketches. It provides an infinite canvas, real-time collaboration, end-to-end encryption, and a React component library…
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Run Browser Automation Agents with Notte](skills/run-browser-automation-agents-with-notte/) | Build and run browser agents that combine deterministic Playwright-style actions with natural-language AI steps, hosted sessions, vault-backed credentials... | 2.0k | Browser Automation |
+| [Control Remote Agent CLI Sessions with CloudCLI](skills/control-remote-agent-cli-sessions-with-cloudcli/) | Run Claude Code, Cursor CLI, Codex, and OpenCode sessions from a web or mobile UI when an operator... | 12.9k | Developer Tools |
 | [Writingmate MCP Video and Image Generation](skills/writingmate-mcp/) | Connects Claude Code, Codex, Cursor, and other MCP hosts to Writingmate for model discovery, text comparison, image generation... | - | Image & Creative Automation |
 | [DealMachine Sales Intelligence](skills/dealmachine-sales-intelligence/) | Searches and enriches US property, owner, people, and company data through the DealMachine CLI and hosted MCP server... | - | Integrations & Connectors |
 | [Run Suede Creator Skills across Codex and Claude Code workflows](skills/run-suede-creator-skills-across-codex-and-claude-code-workflows/) | Install Suede Creator Skills when an agent needs repeatable Codex, Claude Code, or MCP-backed workflows for orchestration, code... | 166 | Templates & Workflows |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Find Products by Intent with Mydentify](skills/find-products-by-intent-with-mydentify/) | Use Mydentify's public intent and product feeds to find software by the outcome a person wants, then return... | - | Research & Scraping |
 | [Run App Store Optimization Workflows With ASO Skills](skills/run-app-store-optimization-workflows-with-aso-skills/) | Use ASO Skills to run repeatable App Store keyword research, metadata optimization, competitor analysis, and growth planning from... | 1.7k | Content Writing & SEO |
 | [Xquik X Actors on Apify](skills/xquik-apify-x-actors/) | Run Xquik's public Apify Actors for X tweet collection, timelines, search, followers, lists, communities, and audience-overlap research | - | Research & Scraping |
-| [Produce cinematic product videos with Video Shotcraft](skills/produce-cinematic-product-videos-with-video-shotcraft/) | Turns Claude Code, Codex, or another skills-aware coding agent into a Remotion-based product video operator with shot cards... | 2.1k | Image & Creative Automation |
-| [Preserve agent plans across context resets with Planning With Files](skills/preserve-agent-plans-across-context-resets-with-planning-with-files/) | Gives coding agents a repeatable file-backed planning workflow using task_plan.md, findings.md, and progress.md so long-running work survives /clear... | 25.8k | Developer Tools |
 
 ---
 
@@ -112,10 +112,10 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Keep coding agents from over-building implementations with Ponytail](skills/keep-coding-agents-from-over-building-implementations-with-ponytail/) | Ponytail gives coding agents a portable minimal-implementation ruleset, plugin hooks, and review commands so they reuse existing code... | 85.5k | Code Quality & Review |
 | [Coordinate visible multi-agent CLI workspaces with CCB](skills/coordinate-visible-multi-agent-cli-workspaces-with-ccb/) | Use CCB to run Codex, Claude, Gemini, Cursor, OpenCode, and other CLI agents in a visible project workspace... | 3.2k | Developer Tools |
 | [Bridge local coding agents into chat apps with cc-connect](skills/bridge-local-coding-agents-into-chat-apps-with-cc-connect/) | Let operators control local Claude Code, Codex, Cursor, Gemini CLI, and other coding agents from Slack, Discord, Telegram... | 14.2k | Integrations & Connectors |
-| [Review agent-authored diffs with Hunk](skills/review-agent-authored-diffs-with-hunk/) | Use Hunk to keep a live terminal review UI open for agent-authored code changes, with Git, Jujutsu, Sapling... | 6.9k | Code Quality & Review |
 | [Run Parallel Divergent Ideation With ADHD](skills/run-parallel-divergent-ideation-with-adhd/) | Use ADHD to fan out isolated reasoning branches for open-ended coding-agent decisions, then score, prune, and deepen the... | 1.3k | Templates & Workflows |
+| [Review agent-authored diffs with Hunk](skills/review-agent-authored-diffs-with-hunk/) | Use Hunk to keep a live terminal review UI open for agent-authored code changes, with Git, Jujutsu, Sapling... | 6.9k | Code Quality & Review |
 | [Extract financial data context for agents with OpenBB](skills/use-openbb-as-financial-data-context-for-agents/) | Extract source-backed financial market, filings, economics, and research data with OpenBB, then route the outputs into agent workflows... | 70.7k | Data Extraction & Transformation |
-| [Run generative media agent recipes with MuAPI Skills](skills/run-generative-media-agent-recipes-with-muapi-skills/) | Use Generative Media Skills when an agent should turn a creative brief into repeatable image, video, audio, product-ad... | 3.9k | Image & Creative Automation |
+| [Inspect BullMQ agent job queues with Bull Board](skills/inspect-bullmq-agent-job-queues-with-bull-board/) | Use Bull Board to add a protected dashboard for Bull and BullMQ queues so operators can inspect, retry... | 3.4k | Monitoring & Alerts |
 
 ---
 
@@ -123,7 +123,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 397 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 398 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 239 | Vulnerability scanning, auth setup, compliance |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 224 | Scaffolders, boilerplate generators, workflow templates |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 216 | ETL pipelines, parsing, format conversion |
@@ -135,7 +135,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 126 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 124 | SDK docs, API parsers, symbol resolvers |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 122 | Web research, content discovery, data collection |
-| 🌐 | [**Browser Automation**](categories/browser-automation/) | 120 | Web scraping, UI testing, headless browser control |
+| 🌐 | [**Browser Automation**](categories/browser-automation/) | 121 | Web scraping, UI testing, headless browser control |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 106 | Audio/video processing, speech-to-text |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 98 | Image generation, asset processing, design automation |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,822 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,824 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,414 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

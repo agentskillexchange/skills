@@ -1,8 +1,37 @@
 {
   "version": "2.0",
-  "total": 2822,
-  "generated": "2026-07-28",
+  "total": 2824,
+  "generated": "2026-07-29",
   "skills": [
+    {
+      "slug": "run-browser-automation-agents-with-notte",
+      "name": "Run Browser Automation Agents with Notte",
+      "title": "Run Browser Automation Agents with Notte",
+      "description": "Build and run browser agents that combine deterministic Playwright-style actions with natural-language AI steps, hosted sessions, vault-backed credentials, and structured outputs.",
+      "category": "Browser Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1986
+      },
+      "source_url": "https://github.com/nottelabs/notte",
+      "github_repo": "nottelabs/notte"
+    },
+    {
+      "slug": "control-remote-agent-cli-sessions-with-cloudcli",
+      "name": "Control Remote Agent CLI Sessions with CloudCLI",
+      "title": "Control Remote Agent CLI Sessions with CloudCLI",
+      "description": "Run Claude Code, Cursor CLI, Codex, and OpenCode sessions from a web or mobile UI when an operator needs remote access, project switching, terminal…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 12941,
+        "npm_weekly_downloads": 5083
+      },
+      "source_url": "https://github.com/siteboon/claudecodeui",
+      "github_repo": "siteboon/claudecodeui"
+    },
     {
       "slug": "writingmate-mcp",
       "name": "Writingmate MCP Video and Image Generation",
