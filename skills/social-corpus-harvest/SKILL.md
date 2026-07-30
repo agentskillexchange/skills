@@ -2,10 +2,12 @@
 name: "Social Corpus Harvest"
 slug: "social-corpus-harvest"
 description: "Collects a human-verified person, creator, brand, or organization's self-authored public Xiaohongshu, Douyin, and Weibo posts through OpenCLI into a local Markdown dataset with stable source URLs, author checks, capture timestamps, and a provenance manifest. Use for public-content archives, knowledge bases, RAG ingestion, content audits, research datasets, and consented AI data preparation."
+verification: "listed"
+source: "https://github.com/yuwanpai2004-create/codex-skills"
 category: "Research & Scraping"
 framework: "Codex"
-verification: listed
-source: "https://github.com/yuwanpai2004-create/codex-skills"
+tool_ecosystem:
+  github_repo: "yuwanpai2004-create/codex-skills"
 ---
 
 # Social Corpus Harvest
@@ -29,24 +31,9 @@ model-training rights.
 
 ## Installation
 
-### Direct repository install
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-```bash
-git clone https://github.com/yuwanpai2004-create/codex-skills.git
-cp -R codex-skills/skills/social-corpus-harvest ~/.codex/skills/
-```
-
-### Optional third-party installer
-
-The `skills` npm package is maintained by a third party. Pin the version when
-using it:
-
-```bash
-npm exec --package=skills@1.5.7 -- skills add \
-  yuwanpai2004-create/codex-skills \
-  --skill social-corpus-harvest \
-  -a codex
-```
+- Source: https://github.com/yuwanpai2004-create/codex-skills
 
 ## Prerequisites
 
