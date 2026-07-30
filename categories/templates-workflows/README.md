@@ -206,6 +206,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Run architecture-first coding work with Spec-Driven Develop](../../skills/run-architecture-first-coding-work-with-spec-driven-develop/) | 953 | — |
 | [Build and sync n8n workflows from code with n8n-as-code](../../skills/build-and-sync-n8n-workflows-from-code-with-n8n-as-code/) | 884 | 297/wk |
 | [Build deterministic multi-agent networks with Inngest AgentKit](../../skills/build-deterministic-multi-agent-networks-with-inngest-agentkit/) | 880 | 62.8k/wk |
+| [Prove Agent Skills with SkillForge](../../skills/prove-agent-skills-with-skillforge/) | 802 | — |
 | [Run parallel Claude Code bug-fix and best-practice sweeps with coordinated workers using Claude Code Agent Farm](../../skills/run-parallel-claude-code-bug-fix-and-best-practice-sweeps-with-coordinated-workers-using-claude-code-agent-farm/) | 784 | — |
 | [Reformat Markdown files into a stable house style before review or migration](../../skills/reformat-markdown-files-into-a-stable-house-style-before-review-or-migration/) | 758 | — |
 | [Turn Agent Corrections Into Durable Skills With claude-smart](../../skills/turn-agent-corrections-into-durable-skills-with-claude-smart/) | 748 | 1.9k/wk |

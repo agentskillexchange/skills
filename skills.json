@@ -1,8 +1,65 @@
 {
   "version": "2.0",
-  "total": 2827,
-  "generated": "2026-07-29",
+  "total": 2831,
+  "generated": "2026-07-30",
   "skills": [
+    {
+      "slug": "generate-template-matched-pptx-decks-with-gpt-image2-ppt-skills",
+      "name": "Generate Template-Matched PPTX Decks with gpt-image2-ppt-skills",
+      "title": "Generate Template-Matched PPTX Decks with gpt-image2-ppt-skills",
+      "description": "Use gpt-image2-ppt-skills to have an agent create image-first or editable PowerPoint decks with gpt-image-2, bundled styles, template cloning, and render review.",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1121
+      },
+      "source_url": "https://github.com/JuneYaooo/gpt-image2-ppt-skills",
+      "github_repo": "JuneYaooo/gpt-image2-ppt-skills"
+    },
+    {
+      "slug": "connect-rstudio-to-mcp-agents-with-clauder",
+      "name": "Connect RStudio to MCP Agents with ClaudeR",
+      "title": "Connect RStudio to MCP Agents with ClaudeR",
+      "description": "Use ClaudeR to expose an active RStudio session to MCP-capable coding and research agents for R execution, plots, manuscript audits, and multi-agent analysis.",
+      "category": "Developer Tools",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 305
+      },
+      "source_url": "https://github.com/IMNMV/ClaudeR",
+      "github_repo": "IMNMV/ClaudeR"
+    },
+    {
+      "slug": "prove-agent-skills-with-skillforge",
+      "name": "Prove Agent Skills with SkillForge",
+      "title": "Prove Agent Skills with SkillForge",
+      "description": "Use SkillForge to triage, create, test, review, compile, and maintain Claude Code and Codex-ready skills with baseline failures and regression evals.",
+      "category": "Templates & Workflows",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 802
+      },
+      "source_url": "https://github.com/tripleyak/SkillForge",
+      "github_repo": "tripleyak/SkillForge"
+    },
+    {
+      "slug": "coordinate-durable-agent-work-with-compozy",
+      "name": "Coordinate Durable Agent Work with Compozy",
+      "title": "Coordinate Durable Agent Work with Compozy",
+      "description": "Use CompozyOS as a local-first control plane for durable agent sessions, loops, approvals, shared memory, and web/CLI/API/MCP control surfaces.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "signals": {
+        "github_stars": 2402,
+        "npm_weekly_downloads": 435
+      },
+      "source_url": "https://github.com/compozy/compozy",
+      "github_repo": "compozy/compozy"
+    },
     {
       "slug": "maintain-okf-knowledge-bundles-with-okf-skills",
       "name": "Maintain OKF Knowledge Bundles with Okf Skills",

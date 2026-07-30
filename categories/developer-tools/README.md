@@ -340,6 +340,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Give coding agents AST-backed semantic code search with CocoIndex Code](../../skills/give-coding-agents-ast-backed-semantic-code-search-with-cocoindex-code/) | 2.5k | — |
 | [Griptape Modular Python AI Agent and Workflow Framework](../../skills/griptape-python-ai-agent-framework/) | 2.5k | — |
 | [Postgres MCP Pro Server for Database Analysis and Tuning](../../skills/postgres-mcp-pro-database-analysis-tuning/) | 2.5k | — |
+| [Coordinate Durable Agent Work with Compozy](../../skills/coordinate-durable-agent-work-with-compozy/) | 2.4k | 435/wk |
 | [Drive agent terminal workspaces with Rmux](../../skills/drive-agent-terminal-workspaces-with-rmux/) | 2.4k | 236/wk |
 | [Repair malformed JSON before parsing downstream automations with jsonrepair](../../skills/repair-malformed-json-before-parsing-downstream-automations-jsonrepair/) | 2.3k | 7.3M/wk |
 | [Route large codebase analysis through Gemini MCP Tool](../../skills/route-large-codebase-analysis-through-gemini-mcp-tool/) | 2.3k | 11.9k/wk |
@@ -403,6 +404,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Run Genie planning and execution loops in Claude Code](../../skills/run-genie-planning-execution-loops-in-claude-code/) | 323 | — |
 | [Run Agent-Assisted Notebook Workflows in JupyterLab With Notebook Intelligence](../../skills/run-agent-assisted-notebook-workflows-in-jupyterlab-with-notebook-intelligence/) | 322 | 475/wk |
 | [Run declarative multi-agent CLI workflows with Comanda](../../skills/run-declarative-multi-agent-cli-workflows-with-comanda/) | 315 | — |
+| [Connect RStudio to MCP Agents with ClaudeR](../../skills/connect-rstudio-to-mcp-agents-with-clauder/) | 305 | — |
 | [Install focused Claude Code workflow plugins from Claude Night Market](../../skills/install-focused-claude-code-workflow-plugins-from-claude-night-market/) | 291 | — |
 | [Orchestrate coding-agent goals and context with Jumbo Context](../../skills/orchestrate-coding-agent-goals-and-context-with-jumbo-context/) | 265 | 647/wk |
 | [Run agent tool calls through pctx Code Mode and unified MCP](../../skills/run-agent-tool-calls-through-pctx-code-mode-and-unified-mcp/) | 264 | 285/wk |

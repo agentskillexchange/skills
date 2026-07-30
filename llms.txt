@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-07-29
-# Total: 2827 skills
+# Generated: 2026-07-30
+# Total: 2831 skills
+
+## Generate Template-Matched PPTX Decks with gpt-image2-ppt-skills
+slug: generate-template-matched-pptx-decks-with-gpt-image2-ppt-skills
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use gpt-image2-ppt-skills to have an agent create image-first or editable PowerPoint decks with gpt-image-2, bundled styles, template cloning, and render review.
+url: https://agentskillexchange.com/skills/generate-template-matched-pptx-decks-with-gpt-image2-ppt-skills/
+
+## Connect RStudio to MCP Agents with ClaudeR
+slug: connect-rstudio-to-mcp-agents-with-clauder
+category: Developer Tools
+framework: MCP
+verification: Security Reviewed
+description: Use ClaudeR to expose an active RStudio session to MCP-capable coding and research agents for R execution, plots, manuscript audits, and multi-agent analysis.
+url: https://agentskillexchange.com/skills/connect-rstudio-to-mcp-agents-with-clauder/
+
+## Prove Agent Skills with SkillForge
+slug: prove-agent-skills-with-skillforge
+category: Templates & Workflows
+framework: Claude Code
+verification: Security Reviewed
+description: Use SkillForge to triage, create, test, review, compile, and maintain Claude Code and Codex-ready skills with baseline failures and regression evals.
+url: https://agentskillexchange.com/skills/prove-agent-skills-with-skillforge/
+
+## Coordinate Durable Agent Work with Compozy
+slug: coordinate-durable-agent-work-with-compozy
+category: Developer Tools
+framework: Multi-Framework
+verification: Published
+description: Use CompozyOS as a local-first control plane for durable agent sessions, loops, approvals, shared memory, and web/CLI/API/MCP control surfaces.
+url: https://agentskillexchange.com/skills/coordinate-durable-agent-work-with-compozy/
 
 ## Maintain OKF Knowledge Bundles with Okf Skills
 slug: maintain-okf-knowledge-bundles-with-okf-skills
