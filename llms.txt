@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-30
-# Total: 2834 skills
+# Total: 2837 skills
+
+## Track Coding-Agent Work Evidence With agentacct
+slug: track-coding-agent-work-evidence-with-agentacct
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Create a local dashboard that joins coding-agent session logs, token estimates, recorded work steps, and verification checks into reviewable task evidence.
+url: https://agentskillexchange.com/skills/track-coding-agent-work-evidence-with-agentacct/
+
+## Run Logged-In Browser Tasks With Ego Lite
+slug: run-logged-in-browser-tasks-with-ego-lite
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Give coding agents isolated browser spaces that can use real logged-in state while the operator keeps normal tabs separate and reviewable.
+url: https://agentskillexchange.com/skills/run-logged-in-browser-tasks-with-ego-lite/
+
+## Coordinate Terminal Coding Agents With Herdr
+slug: coordinate-terminal-coding-agents-with-herdr
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run and monitor multiple coding agents from one terminal workspace, keeping panes, status, detach/reattach, and handoff context visible for operator review.
+url: https://agentskillexchange.com/skills/coordinate-terminal-coding-agents-with-herdr/
 
 ## Social Corpus Harvest
 slug: social-corpus-harvest

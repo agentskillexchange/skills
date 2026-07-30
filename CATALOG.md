@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2834 published skills** across **17 categories** · 2,425 security reviewed · Updated 2026-07-30 13:26 UTC
+> **2837 published skills** across **17 categories** · 2,425 security reviewed · Updated 2026-07-30 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (404 skills)
+### 🛠️ Developer Tools (407 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -145,6 +145,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Add IDE-style semantic code navigation and symbol-safe refactors to coding agents through Serena](skills/add-ide-style-semantic-code-navigation-and-symbol-safe-refactors-to-coding-agents-through-serena/) | Give a coding agent symbol-aware lookup, cross-file rename, and structural edit tools before it starts making… | Security Reviewed | 23k | — |
 | [ArgoCD MCP Server](skills/argocd-mcp-server/) | ArgoCD MCP Server is built around Argo CD GitOps deployment controller for Kubernetes. The underlying ecosystem is… | Security Reviewed | 23k | — |
 | [Repomix Codebase Context Packer for LLMs](skills/repomix-codebase-context-packer-llm/) | Repomix packs an entire code repository into a single AI-friendly file optimized for LLM consumption. It provides… | Security Reviewed | 22.8k | 54.8k/wk |
+| [Coordinate Terminal Coding Agents With Herdr](skills/coordinate-terminal-coding-agents-with-herdr/) | Run and monitor multiple coding agents from one terminal workspace, keeping panes, status, detach/reattach, and… | Security Reviewed | 22.7k | — |
 | [Dockge Self-Hosted Docker Compose Stack Manager](skills/dockge-docker-compose-stack-manager/) | Dockge is a self-hosted Docker Compose stack manager with a reactive web UI for managing compose.yaml files. Created… | Security Reviewed | 22.7k | — |
 | [Build stateful agents with long-term memory using Letta](skills/build-stateful-agents-with-long-term-memory-using-letta/) | Use Letta to create agents whose identity, tools, memory blocks, and conversation state persist across sessions for… | Security Reviewed | 22.7k | — |
 | [Mastra TypeScript AI Agent Framework](skills/mastra-typescript-ai-agent-framework/) | Mastra is an open-source TypeScript framework for building AI-powered applications and agents. Created by the team… | Security Reviewed | 22.6k | 267.2k/wk |
@@ -250,6 +251,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Pixi Cross-Platform Package Manager Built on Conda](skills/pixi-cross-platform-package-manager-conda-rust/) | A blazing-fast, cross-platform package manager and workflow tool written in Rust. Pixi builds on the Conda ecosystem… | Security Reviewed | 6.7k | — |
 | [devenv Declarative Developer Environments with Nix](skills/devenv-declarative-developer-environments-nix/) | A fast, declarative, and reproducible developer environment tool built on Nix. devenv lets teams define project… | Security Reviewed | 6.6k | — |
 | [Design loop engineering workflows for coding agents](skills/design-loop-engineering-workflows-for-coding-agents/) | Use Loop Engineering to scaffold, audit, and operate repeatable coding-agent loops with explicit state, budget,… | Security Reviewed | 6.6k | 2.7k/wk |
+| [Run Logged-In Browser Tasks With Ego Lite](skills/run-logged-in-browser-tasks-with-ego-lite/) | Give coding agents isolated browser spaces that can use real logged-in state while the operator keeps normal tabs… | Security Reviewed | 6.4k | — |
 | [Build production agent harnesses with Strands Agents](skills/build-production-agent-harnesses-with-strands-agents/) | Use Strands Agents to assemble model-agnostic Python or TypeScript agent harnesses with tools, MCP, guardrails,… | Security Reviewed | 6.4k | 60.4k/wk |
 | [pgroll PostgreSQL Zero-Downtime Schema Migration](skills/pgroll-postgresql-zero-downtime-schema-migration/) | pgroll is an open-source CLI tool by Xata that performs zero-downtime, reversible schema migrations for PostgreSQL.… | Security Reviewed | 6.4k | — |
 | [Embed bounded Claude Code sessions into Python automation with the Claude Agent SDK](skills/embed-bounded-claude-code-sessions-into-python-automation-with-the-claude-agent-sdk/) | Use the Claude Agent SDK for Python when an existing script or service needs to delegate scoped repo work to Claude… | Security Reviewed | 6.4k | — |
@@ -369,6 +371,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Plan, draft, publish, and review social posts from Claude Code with social-post](skills/plan-draft-publish-and-review-social-posts-from-claude-code-with-social-post/) | Install a Claude Code skill that learns a user's social voice, builds a 14-day content calendar, drafts posts, and… | Published | 555 | — |
 | [Run deterministic SQL and dbt analysis under coding agents with Altimate Code](skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/) | Adds deterministic SQL analysis, dbt-aware tooling, warehouse metadata, lineage, and test-generation workflows… | Published | 552 | 195/wk |
 | [Give coding agents sandboxed shell runtimes with SWE-ReX](skills/give-coding-agents-sandboxed-shell-runtimes-with-swe-rex/) | Use SWE-ReX when a coding agent needs a consistent runtime interface for local, containerized, or remote shell… | Security Reviewed | 543 | — |
+| [Track Coding-Agent Work Evidence With agentacct](skills/track-coding-agent-work-evidence-with-agentacct/) | Create a local dashboard that joins coding-agent session logs, token estimates, recorded work steps, and… | Security Reviewed | 537 | — |
 | [Orchestrate multi-agent coding delivery loops with Maestro Flow](skills/orchestrate-multi-agent-coding-delivery-loops-with-maestro-flow/) | Use Maestro Flow when a coding operator wants intent-driven planning, execution, verification, review, retry, and… | Security Reviewed | 480 | 1k/wk |
 | [Orchestrate review-first multi-agent development work with Kandev](skills/orchestrate-review-first-multi-agent-development-work-with-kandev/) | Use Kandev when an operator needs to plan, run, isolate, review, and ship multiple coding-agent tasks through a… | Security Reviewed | 405 | 3.5k/wk |
 | [Build embeddable Rust coding agents with Cersei](skills/build-embeddable-rust-coding-agents-with-cersei/) | Compose coding-agent primitives in Rust, including tool execution, LLM streaming, sub-agent orchestration, memory,… | Security Reviewed | 400 | — |

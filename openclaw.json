@@ -2,8 +2,41 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-30",
-  "total": 2834,
+  "total": 2837,
   "skills": [
+    {
+      "slug": "track-coding-agent-work-evidence-with-agentacct",
+      "name": "Track Coding-Agent Work Evidence With agentacct",
+      "title": "Track Coding-Agent Work Evidence With agentacct",
+      "description": "Create a local dashboard that joins coding-agent session logs, token estimates, recorded work steps, and verification checks into reviewable task evidence.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/mikehasa/agentacct",
+      "github_repo": "mikehasa/agentacct"
+    },
+    {
+      "slug": "run-logged-in-browser-tasks-with-ego-lite",
+      "name": "Run Logged-In Browser Tasks With Ego Lite",
+      "title": "Run Logged-In Browser Tasks With Ego Lite",
+      "description": "Give coding agents isolated browser spaces that can use real logged-in state while the operator keeps normal tabs separate and reviewable.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/citrolabs/ego-lite",
+      "github_repo": "citrolabs/ego-lite"
+    },
+    {
+      "slug": "coordinate-terminal-coding-agents-with-herdr",
+      "name": "Coordinate Terminal Coding Agents With Herdr",
+      "title": "Coordinate Terminal Coding Agents With Herdr",
+      "description": "Run and monitor multiple coding agents from one terminal workspace, keeping panes, status, detach/reattach, and handoff context visible for operator review.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/herdrdev/herdr",
+      "github_repo": "herdrdev/herdr"
+    },
     {
       "slug": "social-corpus-harvest",
       "name": "Social Corpus Harvest",
