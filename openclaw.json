@@ -2,8 +2,30 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-30",
-  "total": 2832,
+  "total": 2834,
   "skills": [
+    {
+      "slug": "social-corpus-harvest",
+      "name": "Social Corpus Harvest",
+      "title": "Social Corpus Harvest",
+      "description": "Collects a human-verified person, creator, brand, or organization's self-authored public Xiaohongshu, Douyin, and Weibo posts through OpenCLI into a local Markdown dataset with stable…",
+      "category": "Research & Scraping",
+      "framework": "Codex",
+      "verification": "listed",
+      "source_url": "https://github.com/yuwanpai2004-create/codex-skills",
+      "github_repo": "yuwanpai2004-create/codex-skills"
+    },
+    {
+      "slug": "run-visual-co-creation-workspaces-for-coding-agents-with-pneuma-skills",
+      "name": "Run visual co-creation workspaces for coding agents with Pneuma Skills",
+      "title": "Run visual co-creation workspaces for coding agents with Pneuma Skills",
+      "description": "Use Pneuma Skills when Claude Code, Codex, or Kimi should build slides, documents, diagrams, videos, dashboards, or custom modes in real files while a…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/pandazki/pneuma-skills",
+      "github_repo": "pandazki/pneuma-skills"
+    },
     {
       "slug": "control-codex-and-claude-coding-agent-sessions-from-mobile-with-cc-pocket",
       "name": "Control Codex and Claude coding-agent sessions from mobile with CC Pocket",

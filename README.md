@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C832-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C834-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C422-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,832 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,834 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Social Corpus Harvest](skills/social-corpus-harvest/) | Collects a human-verified person, creator, brand, or organization's self-authored public Xiaohongshu, Douyin, and Weibo posts through OpenCLI into... | - | Research & Scraping |
+| [Run visual co-creation workspaces for coding agents with Pneuma Skills](skills/run-visual-co-creation-workspaces-for-coding-agents-with-pneuma-skills/) | Use Pneuma Skills when Claude Code, Codex, or Kimi should build slides, documents, diagrams, videos, dashboards, or custom... | 152 | Developer Tools |
 | [Control Codex and Claude coding-agent sessions from mobile with CC Pocket](skills/control-codex-and-claude-coding-agent-sessions-from-mobile-with-cc-pocket/) | Run a self-hosted bridge so an operator can start, resume, approve, and review Codex or Claude Code sessions... | 1.0k | Developer Tools |
 | [Generate Template-Matched PPTX Decks with gpt-image2-ppt-skills](skills/generate-template-matched-pptx-decks-with-gpt-image2-ppt-skills/) | Use gpt-image2-ppt-skills to have an agent create image-first or editable PowerPoint decks with gpt-image-2, bundled styles, template cloning... | 1.1k | Image & Creative Automation |
 | [Connect RStudio to MCP Agents with ClaudeR](skills/connect-rstudio-to-mcp-agents-with-clauder/) | Use ClaudeR to expose an active RStudio session to MCP-capable coding and research agents for R execution, plots... | 305 | Developer Tools |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Maintain OKF Knowledge Bundles with Okf Skills](skills/maintain-okf-knowledge-bundles-with-okf-skills/) | Use Okf Skills to have Claude Code produce, validate, migrate, and visualize Open Knowledge Format bundles with provenance... | 185 | Templates & Workflows |
 | [Index Codebases for Agent Search with Code Context Engine](skills/index-codebases-for-agent-search-with-code-context-engine/) | Use Code Context Engine to index a repository and expose token-efficient code search to Claude Code, Codex, Cursor... | 383 | Developer Tools |
 | [Supervise Claude Code Sessions with Cc Haha](skills/supervise-claude-code-sessions-with-cc-haha/) | Use Cc Haha as a local desktop workspace for Claude Code sessions, worktree launches, diff review, permission approvals... | 13.7k | Developer Tools |
-| [Run Browser Automation Agents with Notte](skills/run-browser-automation-agents-with-notte/) | Build and run browser agents that combine deterministic Playwright-style actions with natural-language AI steps, hosted sessions, vault-backed credentials... | 2.0k | Browser Automation |
-| [Control Remote Agent CLI Sessions with CloudCLI](skills/control-remote-agent-cli-sessions-with-cloudcli/) | Run Claude Code, Cursor CLI, Codex, and OpenCode sessions from a web or mobile UI when an operator... | 12.9k | Developer Tools |
 
 ---
 
@@ -123,7 +123,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 403 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 404 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 239 | Vulnerability scanning, auth setup, compliance |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 226 | Scaffolders, boilerplate generators, workflow templates |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 216 | ETL pipelines, parsing, format conversion |
@@ -134,7 +134,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 152 | Metrics, alerting rules, observability |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 126 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 124 | SDK docs, API parsers, symbol resolvers |
-| 🔍 | [**Research & Scraping**](categories/research-scraping/) | 122 | Web research, content discovery, data collection |
+| 🔍 | [**Research & Scraping**](categories/research-scraping/) | 123 | Web research, content discovery, data collection |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 121 | Web scraping, UI testing, headless browser control |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 106 | Audio/video processing, speech-to-text |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 99 | Image generation, asset processing, design automation |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,832 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,834 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,422 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
