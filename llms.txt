@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-30
-# Total: 2831 skills
+# Total: 2832 skills
+
+## Control Codex and Claude coding-agent sessions from mobile with CC Pocket
+slug: control-codex-and-claude-coding-agent-sessions-from-mobile-with-cc-pocket
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run a self-hosted bridge so an operator can start, resume, approve, and review Codex or Claude Code sessions from a phone or tablet.
+url: https://agentskillexchange.com/skills/control-codex-and-claude-coding-agent-sessions-from-mobile-with-cc-pocket/
 
 ## Generate Template-Matched PPTX Decks with gpt-image2-ppt-skills
 slug: generate-template-matched-pptx-decks-with-gpt-image2-ppt-skills

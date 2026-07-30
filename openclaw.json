@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-07-30",
-  "total": 2831,
+  "total": 2832,
   "skills": [
+    {
+      "slug": "control-codex-and-claude-coding-agent-sessions-from-mobile-with-cc-pocket",
+      "name": "Control Codex and Claude coding-agent sessions from mobile with CC Pocket",
+      "title": "Control Codex and Claude coding-agent sessions from mobile with CC Pocket",
+      "description": "Run a self-hosted bridge so an operator can start, resume, approve, and review Codex or Claude Code sessions from a phone or tablet.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/K9i-0/ccpocket",
+      "github_repo": "K9i-0/ccpocket"
+    },
     {
       "slug": "generate-template-matched-pptx-decks-with-gpt-image2-ppt-skills",
       "name": "Generate Template-Matched PPTX Decks with gpt-image2-ppt-skills",

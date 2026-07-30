@@ -1,8 +1,23 @@
 {
   "version": "2.0",
-  "total": 2831,
+  "total": 2832,
   "generated": "2026-07-30",
   "skills": [
+    {
+      "slug": "control-codex-and-claude-coding-agent-sessions-from-mobile-with-cc-pocket",
+      "name": "Control Codex and Claude coding-agent sessions from mobile with CC Pocket",
+      "title": "Control Codex and Claude coding-agent sessions from mobile with CC Pocket",
+      "description": "Run a self-hosted bridge so an operator can start, resume, approve, and review Codex or Claude Code sessions from a phone or tablet.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1004,
+        "npm_weekly_downloads": 1435
+      },
+      "source_url": "https://github.com/K9i-0/ccpocket",
+      "github_repo": "K9i-0/ccpocket"
+    },
     {
       "slug": "generate-template-matched-pptx-decks-with-gpt-image2-ppt-skills",
       "name": "Generate Template-Matched PPTX Decks with gpt-image2-ppt-skills",
@@ -754,7 +769,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 1079
+        "github_stars": 1079,
+        "npm_weekly_downloads": 8003
       },
       "source_url": "https://github.com/CharlesWiltgen/Axiom",
       "github_repo": "CharlesWiltgen/Axiom"

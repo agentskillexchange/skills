@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2831 published skills** across **17 categories** · 2,421 security reviewed · Updated 2026-07-30 01:27 UTC
+> **2832 published skills** across **17 categories** · 2,421 security reviewed · Updated 2026-07-30 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (402 skills)
+### 🛠️ Developer Tools (403 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -342,7 +342,8 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Run React Native implementation and troubleshooting workflows with Callstack Agent Skills](skills/run-react-native-implementation-and-troubleshooting-workflows-with-callstack-agent-skills/) | Give coding agents React Native-specific build, upgrade, GitHub Actions, and troubleshooting guidance instead of… | Security Reviewed | 1.3k | — |
 | [Synchronize AI coding rules across agent tools with Rulesync](skills/synchronize-ai-coding-rules-across-agent-tools-with-rulesync/) | Use Rulesync to maintain one set of AI coding rules and generate the right configuration files for Claude Code,… | Security Reviewed | 1.2k | 748.2k/wk |
 | [Capture, search, and optionally sync local coding-agent session history across Claude Code, Codex, Cursor CLI, and Gemini with SpecStory](skills/capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory/) | Use SpecStory when valuable coding-agent decisions keep disappearing into terminal history and you need one… | Security Reviewed | 1.2k | — |
-| [Run Apple-platform coding audits, diagnostics, and simulator checks with Axiom](skills/run-apple-platform-coding-audits-diagnostics-and-simulator-checks-with-axiom/) | Add Axiom's Apple OS skills, agents, and commands so coding assistants can diagnose Xcode builds, Swift issues,… | Security Reviewed | 1.1k | — |
+| [Run Apple-platform coding audits, diagnostics, and simulator checks with Axiom](skills/run-apple-platform-coding-audits-diagnostics-and-simulator-checks-with-axiom/) | Add Axiom's Apple OS skills, agents, and commands so coding assistants can diagnose Xcode builds, Swift issues,… | Security Reviewed | 1.1k | 8k/wk |
+| [Control Codex and Claude coding-agent sessions from mobile with CC Pocket](skills/control-codex-and-claude-coding-agent-sessions-from-mobile-with-cc-pocket/) | Run a self-hosted bridge so an operator can start, resume, approve, and review Codex or Claude Code sessions from a… | Security Reviewed | 1k | 1.4k/wk |
 | [Give OpenCode project sessions persistent memory with opencode-mem](skills/give-opencode-project-sessions-persistent-memory-with-opencode-mem/) | Add opencode-mem to OpenCode so coding sessions can store, search, and reuse project memories through a local SQLite… | Security Reviewed | 1k | 12.1k/wk |
 | [Run local small-model coding sessions with SmallCode](skills/run-local-small-model-coding-sessions-with-smallcode/) | Use SmallCode as a terminal-native coding agent for 8B-35B local models, with budget-managed context, forgiving tool… | Published | 967 | 7.5k/wk |
 | [Connect MCP clients to JetBrains IDE project tools](skills/connect-mcp-clients-to-jetbrains-ide-project-tools/) | Use the built-in JetBrains MCP server to let Codex, Claude Desktop, Cursor, VS Code, and other MCP clients inspect… | Security Reviewed | 961 | 4.4k/wk |
