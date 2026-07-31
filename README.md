@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[ESLint Rule Analyzer and Fixer](skills/eslint-rule-analyzer-fixer/)** — Performs deep ESLint configuration analysis using the ESLint Node.js API and flat config system. Auto-fixes rule conflicts, generates shareable configs, and produces code quality trend reports.
+**[Kubernetes CrashLoop Diagnoser](skills/kubernetes-crashloop-diagnoser-agent/)** — Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes API /api/v1/namespaces/{ns}/pods/{pod}/log endpoint. Correlates container exit codes with OOM kills, readiness probe failures, and config errors.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -109,11 +109,11 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Install Chinese-localized Superpowers workflows for coding agents](skills/install-chinese-localized-superpowers-workflows-for-coding-agents/) | Use superpowers-zh to install Chinese-localized coding-agent methods, China-specific development skills, and cross-tool setup for Claude Code, Codex, Cursor... | 7.2k | Templates & Workflows |
 | [Audit coding-agent token spend with CodeBurn](skills/audit-coding-agent-token-spend-with-codeburn/) | Run CodeBurn locally or as an MCP server so agents can inspect token usage, cost, model mix, project... | 8.7k | Monitoring & Alerts |
 | [Install verified Codex planning and completion loops with LazyCodex](skills/install-verified-codex-planning-and-completion-loops-with-lazycodex/) | Add Codex commands, skills, hooks, diagnostics, and sub-agent roles for deep repository initialization, planning, execution, and evidence-backed completion | 2.8k | Developer Tools |
-| [Control Remote Agent CLI Sessions with CloudCLI](skills/control-remote-agent-cli-sessions-with-cloudcli/) | Run Claude Code, Cursor CLI, Codex, and OpenCode sessions from a web or mobile UI when an operator... | 12.9k | Developer Tools |
 | [Keep coding agents from over-building implementations with Ponytail](skills/keep-coding-agents-from-over-building-implementations-with-ponytail/) | Ponytail gives coding agents a portable minimal-implementation ruleset, plugin hooks, and review commands so they reuse existing code... | 85.5k | Code Quality & Review |
+| [Control Remote Agent CLI Sessions with CloudCLI](skills/control-remote-agent-cli-sessions-with-cloudcli/) | Run Claude Code, Cursor CLI, Codex, and OpenCode sessions from a web or mobile UI when an operator... | 12.9k | Developer Tools |
 | [Bridge local coding agents into chat apps with cc-connect](skills/bridge-local-coding-agents-into-chat-apps-with-cc-connect/) | Let operators control local Claude Code, Codex, Cursor, Gemini CLI, and other coding agents from Slack, Discord, Telegram... | 14.2k | Integrations & Connectors |
-| [Review agent-authored diffs with Hunk](skills/review-agent-authored-diffs-with-hunk/) | Use Hunk to keep a live terminal review UI open for agent-authored code changes, with Git, Jujutsu, Sapling... | 6.9k | Code Quality & Review |
 | [Run Parallel Divergent Ideation With ADHD](skills/run-parallel-divergent-ideation-with-adhd/) | Use ADHD to fan out isolated reasoning branches for open-ended coding-agent decisions, then score, prune, and deepen the... | 1.3k | Templates & Workflows |
+| [Review agent-authored diffs with Hunk](skills/review-agent-authored-diffs-with-hunk/) | Use Hunk to keep a live terminal review UI open for agent-authored code changes, with Git, Jujutsu, Sapling... | 6.9k | Code Quality & Review |
 | [Extract financial data context for agents with OpenBB](skills/use-openbb-as-financial-data-context-for-agents/) | Extract source-backed financial market, filings, economics, and research data with OpenBB, then route the outputs into agent workflows... | 70.7k | Data Extraction & Transformation |
 | [Inspect BullMQ agent job queues with Bull Board](skills/inspect-bullmq-agent-job-queues-with-bull-board/) | Use Bull Board to add a protected dashboard for Bull and BullMQ queues so operators can inspect, retry... | 3.4k | Monitoring & Alerts |
 
