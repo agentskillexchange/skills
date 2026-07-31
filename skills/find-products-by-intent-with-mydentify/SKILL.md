@@ -4,6 +4,7 @@ slug: "find-products-by-intent-with-mydentify"
 description: "Use Mydentify's public intent and product feeds to find software by the outcome a person wants, then return canonical evidence-backed matches."
 verification: "listed"
 source: "https://mydentify.com/.well-known/agent-skills/find-products-by-intent/SKILL.md"
+author: "Mydentify"
 category: "Research & Scraping"
 framework: "Multi-Framework"
 ---

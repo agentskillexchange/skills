@@ -2,13 +2,17 @@
 name: "DealMachine Sales Intelligence"
 slug: "dealmachine-sales-intelligence"
 description: "Searches and enriches US property, owner, people, and company data through the DealMachine CLI and hosted MCP server for prospecting, lead generation, comparable-sales research, and targeted sales and marketing exports."
+github_stars: 0
 verification: "listed"
 source: "https://github.com/DealMachine/dealmachine-cli"
+author: "DealMachine"
 category: "Integrations & Connectors"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "dealmachine/dealmachine-cli"
+  github_stars: 0
   npm_package: "@dealmachine/cli"
+  npm_weekly_downloads: 272
 ---
 
 # DealMachine Sales Intelligence
@@ -66,6 +70,9 @@ See the [upstream repository](https://github.com/DealMachine/dealmachine-cli) fo
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Install or set up from the source-backed instructions:
+
+npm install -g dealmachine
 
 - Source: https://github.com/DealMachine/dealmachine-cli
+

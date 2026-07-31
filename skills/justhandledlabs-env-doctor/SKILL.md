@@ -4,6 +4,7 @@ slug: "justhandledlabs-env-doctor"
 description: "Diagnose why a local Node, Python, Go, or Docker project will not start by checking runtimes, dependencies, ports, environment-key presence, permissions, and required services before changing application code."
 verification: "listed"
 source: "https://github.com/justhandledlabs/skills/tree/main/skills/env-doctor-free"
+author: "JustHandled Labs"
 category: "Runbooks & Diagnostics"
 framework: "Codex"
 ---
