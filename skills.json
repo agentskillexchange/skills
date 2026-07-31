@@ -233,6 +233,9 @@
       "category": "Integrations & Connectors",
       "framework": "Multi-Framework",
       "verification": "listed",
+      "signals": {
+        "npm_weekly_downloads": 272
+      },
       "source_url": "https://github.com/DealMachine/dealmachine-cli",
       "github_repo": "dealmachine/dealmachine-cli"
     },
