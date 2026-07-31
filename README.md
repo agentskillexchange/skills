@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C837-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C840-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C428-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,837 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,840 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,9 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Enforce engineering workflows with Ring skill packs](skills/enforce-engineering-workflows-with-ring-skill-packs/) | Use Ring to load curated engineering skills and specialist agents for TDD, systematic debugging, code review, product planning... | 205 | Developer Tools |
+| [Run self-hosted coding-agent mission control with Codeman](skills/run-self-hosted-coding-agent-mission-control-with-codeman/) | Use Codeman to supervise persistent Claude Code, Codex, OpenCode, and Gemini CLI sessions through a self-hosted web dashboard... | 500 | Developer Tools |
+| [Scaffold repo-specific agent harnesses with Metaharness](skills/scaffold-repo-specific-agent-harnesses-with-metaharness/) | Use Metaharness to score a repository, generate a branded agent harness with CLI, MCP, memory, and safety defaults... | 529 | Developer Tools |
 | [Track Coding-Agent Work Evidence With agentacct](skills/track-coding-agent-work-evidence-with-agentacct/) | Create a local dashboard that joins coding-agent session logs, token estimates, recorded work steps, and verification checks into... | 537 | Developer Tools |
 | [Run Logged-In Browser Tasks With Ego Lite](skills/run-logged-in-browser-tasks-with-ego-lite/) | Give coding agents isolated browser spaces that can use real logged-in state while the operator keeps normal tabs... | 6.4k | Developer Tools |
 | [Coordinate Terminal Coding Agents With Herdr](skills/coordinate-terminal-coding-agents-with-herdr/) | Run and monitor multiple coding agents from one terminal workspace, keeping panes, status, detach/reattach, and handoff context visible... | 22.7k | Developer Tools |
@@ -94,9 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Run visual co-creation workspaces for coding agents with Pneuma Skills](skills/run-visual-co-creation-workspaces-for-coding-agents-with-pneuma-skills/) | Use Pneuma Skills when Claude Code, Codex, or Kimi should build slides, documents, diagrams, videos, dashboards, or custom... | 152 | Developer Tools |
 | [Control Codex and Claude coding-agent sessions from mobile with CC Pocket](skills/control-codex-and-claude-coding-agent-sessions-from-mobile-with-cc-pocket/) | Run a self-hosted bridge so an operator can start, resume, approve, and review Codex or Claude Code sessions... | 1.0k | Developer Tools |
 | [Generate Template-Matched PPTX Decks with gpt-image2-ppt-skills](skills/generate-template-matched-pptx-decks-with-gpt-image2-ppt-skills/) | Use gpt-image2-ppt-skills to have an agent create image-first or editable PowerPoint decks with gpt-image-2, bundled styles, template cloning... | 1.1k | Image & Creative Automation |
-| [Connect RStudio to MCP Agents with ClaudeR](skills/connect-rstudio-to-mcp-agents-with-clauder/) | Use ClaudeR to expose an active RStudio session to MCP-capable coding and research agents for R execution, plots... | 305 | Developer Tools |
-| [Prove Agent Skills with SkillForge](skills/prove-agent-skills-with-skillforge/) | Use SkillForge to triage, create, test, review, compile, and maintain Claude Code and Codex-ready skills with baseline failures... | 802 | Templates & Workflows |
-| [Coordinate Durable Agent Work with Compozy](skills/coordinate-durable-agent-work-with-compozy/) | Use CompozyOS as a local-first control plane for durable agent sessions, loops, approvals, shared memory, and web/CLI/API/MCP control... | 2.4k | Developer Tools |
 
 ---
 
@@ -123,7 +123,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 407 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 410 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 239 | Vulnerability scanning, auth setup, compliance |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 226 | Scaffolders, boilerplate generators, workflow templates |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 216 | ETL pipelines, parsing, format conversion |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,837 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,840 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,428 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

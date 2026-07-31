@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-07-31
-# Total: 2837 skills
+# Total: 2840 skills
+
+## Enforce engineering workflows with Ring skill packs
+slug: enforce-engineering-workflows-with-ring-skill-packs
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Ring to load curated engineering skills and specialist agents for TDD, systematic debugging, code review, product planning, and technical writing across supported agent…
+url: https://agentskillexchange.com/skills/enforce-engineering-workflows-with-ring-skill-packs/
+
+## Run self-hosted coding-agent mission control with Codeman
+slug: run-self-hosted-coding-agent-mission-control-with-codeman
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Codeman to supervise persistent Claude Code, Codex, OpenCode, and Gemini CLI sessions through a self-hosted web dashboard with live terminals and API controls.
+url: https://agentskillexchange.com/skills/run-self-hosted-coding-agent-mission-control-with-codeman/
+
+## Scaffold repo-specific agent harnesses with Metaharness
+slug: scaffold-repo-specific-agent-harnesses-with-metaharness
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Metaharness to score a repository, generate a branded agent harness with CLI, MCP, memory, and safety defaults, then package it for repeatable team…
+url: https://agentskillexchange.com/skills/scaffold-repo-specific-agent-harnesses-with-metaharness/
 
 ## Track Coding-Agent Work Evidence With agentacct
 slug: track-coding-agent-work-evidence-with-agentacct
