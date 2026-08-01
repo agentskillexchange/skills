@@ -8167,7 +8167,7 @@ url: https://agentskillexchange.com/skills/maildev-smtp-capture-and-email-testin
 slug: browserless-headless-browser-automation-infrastructure
 category: Browser Automation
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Browserless turns Chrome, Firefox, and WebKit into a remote browser service you can self-host or consume as a managed platform. It gives automation stacks…
 url: https://agentskillexchange.com/skills/browserless-headless-browser-automation-infrastructure/
 

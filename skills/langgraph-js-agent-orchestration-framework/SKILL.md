@@ -11,6 +11,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "langchain-ai/langgraphjs"
   github_stars: 2781
+  npm_package: "@langchain/langgraph"
+  npm_weekly_downloads: 3084202
 ---
 
 # LangGraph.js Agent Orchestration Framework
@@ -19,7 +21,9 @@ A verified skill for LangGraph.js, the graph-based orchestration framework from 
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Install or set up from the source-backed instructions:
+
+Install with npm install @langchain/langgraph @langchain/core.
 
 - Source: https://github.com/langchain-ai/langgraphjs
 

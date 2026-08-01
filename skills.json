@@ -14454,7 +14454,7 @@
       "description": "Browserless turns Chrome, Firefox, and WebKit into a remote browser service you can self-host or consume as a managed platform. It gives automation stacks…",
       "category": "Browser Automation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 12954
       },
