@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2841 published skills** across **17 categories** · 2,429 security reviewed · Updated 2026-08-01 01:26 UTC
+> **2842 published skills** across **17 categories** · 2,429 security reviewed · Updated 2026-08-01 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -301,7 +301,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [OpenAPI Spec Validator](skills/openapi-spec-validator-agent/) | Validates and lints OpenAPI 3.0/3.1 specifications using Spectral CLI rules and the Swagger Parser library. Detects… | Security Reviewed | 3.1k | 1.2M/wk |
 | [Record and replay HTTP fixtures for deterministic Python tests with VCR.py](skills/record-and-replay-http-fixtures-for-deterministic-python-tests-with-vcr-py/) | Use VCR.py when an agent needs to turn flaky, slow, or rate-limited Python tests into stable runs by recording real… | Security Reviewed | 3k | — |
 | [Install verified Codex planning and completion loops with LazyCodex](skills/install-verified-codex-planning-and-completion-loops-with-lazycodex/) | Add Codex commands, skills, hooks, diagnostics, and sub-agent roles for deep repository initialization, planning,… | Security Reviewed | 2.8k | 18.7k/wk |
-| [LangGraph.js Agent Orchestration Framework](skills/langgraph-js-agent-orchestration-framework/) | A verified skill for LangGraph.js, the graph-based orchestration framework from LangChain. It focuses on… | Published | 2.8k | — |
+| [LangGraph.js Agent Orchestration Framework](skills/langgraph-js-agent-orchestration-framework/) | A verified skill for LangGraph.js, the graph-based orchestration framework from LangChain. It focuses on… | Published | 2.8k | 3.1M/wk |
 | [Manage parallel coding agents with Agent of Empires](skills/manage-parallel-coding-agents-with-agent-of-empires/) | Use Agent of Empires to launch, monitor, sandbox, resume, and review multiple coding-agent sessions from a TUI or… | Security Reviewed | 2.8k | — |
 | [Find and group duplicate files across large trees before cleanup migration or backup with fclones](skills/find-and-group-duplicate-files-across-large-trees-before-cleanup-migration-or-backup-with-fclones/) | Scan large directory trees for duplicate or under-replicated files, then review grouped results before cleanup actions. | Published | 2.7k | — |
 | [gitu Magit-Inspired Terminal Git Interface](skills/gitu-magit-inspired-terminal-git-interface/) | A fast terminal user interface for Git inspired by Emacs Magit, written in Rust. gitu provides keyboard-driven… | Published | 2.7k | — |
@@ -1233,7 +1233,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Lint Terraform modules for provider mistakes and policy violations with TFLint](skills/lint-terraform-modules-for-provider-mistakes-and-policy-violations-with-tflint/) | Check Terraform before plan or apply so invalid attributes, provider-specific mistakes, and custom rule violations… | Security Reviewed | 5.7k | — |
 | [Pylint Code Review Assistant](skills/pylint-code-review-assistant/) | Perform automated Python code reviews using Pylint programmatic API and pylint-json2html for report generation.… | Security Reviewed | 5.7k | — |
 | [Pylint Baseline Manager](skills/pylint-baseline-manager-wave48/) | Manages Pylint baseline files for gradual code quality improvement using pylint --output-format=json and the… | Security Reviewed | 5.7k | — |
-| [Danger JS Pull Request Automation Toolkit](skills/danger-js-pull-request-automation-toolkit/) | Danger JS automates pull request review chores by running programmable checks inside CI and posting structured… | Security Reviewed | 5.5k | — |
+| [Danger JS Pull Request Automation Toolkit](skills/danger-js-pull-request-automation-toolkit/) | Danger JS automates pull request review chores by running programmable checks inside CI and posting structured… | Security Reviewed | 5.5k | 1.3M/wk |
 | [Vale Prose Linter for Technical Documentation](skills/vale-prose-linter-technical-docs/) | Vale is an open-source, markup-aware prose linter that enforces editorial style guides on technical documentation.… | Security Reviewed | 5.3k | — |
 | [Rewrite fragile shell scripts toward safer quoting and stricter patterns with Shellharden](skills/rewrite-fragile-shell-scripts-toward-safer-quoting-and-stricter-patterns-with-shellharden/) | Inspect or auto-fix shell scripts to reduce quoting bugs and brittle Bash patterns before they break in CI or… | Security Reviewed | 4.8k | — |
 | [Find unused Python code before cleanup refactors with Vulture](skills/find-unused-python-code-before-cleanup-refactors-with-vulture/) | Run a dead-code pass on Python repositories before refactors so agents can flag unused functions, classes, imports,… | Security Reviewed | 4.5k | — |
@@ -1718,7 +1718,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (156 skills)
+### 🔗 Integrations & Connectors (157 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1811,6 +1811,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Supabase MCP Server for Database and Project Management](skills/supabase-mcp-server-database-project-management/) | An official MCP server that connects Supabase projects to AI assistants like Claude, Cursor, and Windsurf. Enables… | Security Reviewed | 2.6k | — |
 | [Push, pull, and attach non-container OCI artifacts in registries with ORAS](skills/push-pull-and-attach-non-container-oci-artifacts-in-registries-with-oras/) | Use ORAS to move SBOMs, model bundles, provenance, and other non-container artifacts through OCI registries without… | Published | 2.2k | — |
 | [MetaMCP Unified MCP Server Aggregator and Gateway](skills/metamcp-unified-mcp-server-aggregator-gateway/) | MetaMCP is an open-source MCP proxy that aggregates multiple MCP servers into a single unified endpoint with a GUI… | Published | 2.2k | — |
+| [Run local coding agents from Feishu or Lark with Lark Coding Agent Bridge](skills/run-local-coding-agents-from-feishu-or-lark-with-lark-coding-agent-bridge/) | Use Lark Coding Agent Bridge to connect Feishu or Lark chat threads to a local Claude Code or Codex CLI session with… | Security Reviewed | 2.1k | — |
 | [Connect Azure DevOps projects, work items, repos, and pipelines to MCP agents](skills/connect-azure-devops-projects-work-items-repos-and-pipelines-to-mcp-agents/) | Use Azure DevOps MCP when an agent needs governed access to ADO projects, work items, builds, repos, test plans,… | Security Reviewed | 1.7k | 334.3k/wk |
 | [Sync skills across Claude Code, Codex, OpenClaw, and other AI CLIs with Skillshare](skills/sync-skills-across-ai-coding-clis-with-skillshare/) | Keep one canonical skills and agents source in sync across multiple coding CLIs instead of hand-copying files… | Security Reviewed | 1.6k | — |
 | [Twilio MCP Server](skills/twilio-mcp-server/) | Twilio MCP Server is built around Twilio communications APIs. The underlying ecosystem is represented by… | Security Reviewed | 1.5k | 5.5M/wk |
@@ -2519,7 +2520,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Playwright Python Browser Automation Library for Cross-Browser Testing](skills/playwright-python-browser-automation-library-cross-browser-testing/) | Playwright for Python is Microsoft's cross-browser automation library for Chromium, Firefox, and WebKit. It gives… | Security Reviewed | 14.5k | — |
 | [Run computer-use agents inside cross-OS desktop sandboxes with CUA](skills/run-computer-use-agents-inside-cross-os-desktop-sandboxes-with-cua/) | Launch computer-use agents in Linux, macOS, Windows, or Android sandboxes and drive full desktop tasks through… | Security Reviewed | 13.5k | 513/wk |
 | [Run local multi-agent browser tasks with Nanobrowser](skills/run-local-multi-agent-browser-tasks-with-nanobrowser/) | Use Nanobrowser when an operator needs a local Chrome or Edge browser agent to run multi-step web tasks with their… | Security Reviewed | 13.1k | — |
-| [Browserless Headless Browser Automation Infrastructure](skills/browserless-headless-browser-automation-infrastructure/) | Browserless turns Chrome, Firefox, and WebKit into a remote browser service you can self-host or consume as a… | Published | 13k | — |
+| [Browserless Headless Browser Automation Infrastructure](skills/browserless-headless-browser-automation-infrastructure/) | Browserless turns Chrome, Firefox, and WebKit into a remote browser service you can self-host or consume as a… | Published | 13k | 3.3k/wk |
 | [chromedp Go Browser Automation with Chrome DevTools Protocol](skills/chromedp-go-browser-automation-chrome-devtools-protocol/) | This skill turns chromedp into a repeatable browser automation workflow for Go teams. It covers navigation, DOM… | Security Reviewed | 12.9k | — |
 | [Drive web and app UIs with vision-grounded steps when selectors are brittle or unavailable](skills/drive-web-and-app-uis-with-vision-grounded-steps-when-selectors-are-brittle-or-unavailable/) | Use Midscene.js when an agent needs screenshot-grounded UI actions and assertions across web, mobile, or desktop… | Security Reviewed | 12.6k | 83.7k/wk |
 | [SeleniumBase Python Browser Automation and Stealth Testing Framework](skills/seleniumbase-python-browser-automation-stealth-testing-framework/) | SeleniumBase is a Python framework for browser automation, end-to-end testing, and stealthy web interaction. It… | Security Reviewed | 12.6k | 17/wk |

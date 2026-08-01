@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-01",
-  "total": 2841,
+  "total": 2842,
   "skills": [
+    {
+      "slug": "run-local-coding-agents-from-feishu-or-lark-with-lark-coding-agent-bridge",
+      "name": "Run local coding agents from Feishu or Lark with Lark Coding Agent Bridge",
+      "title": "Run local coding agents from Feishu or Lark with Lark Coding Agent Bridge",
+      "description": "Use Lark Coding Agent Bridge to connect Feishu or Lark chat threads to a local Claude Code or Codex CLI session with streaming cards,…",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/zarazhangrui/lark-coding-agent-bridge",
+      "github_repo": "zarazhangrui/lark-coding-agent-bridge"
+    },
     {
       "slug": "serve-clean-markdown-from-urls-and-files-with-pullmd",
       "name": "Serve clean Markdown from URLs and files with PullMD",

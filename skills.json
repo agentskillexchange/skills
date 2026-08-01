@@ -1,8 +1,22 @@
 {
   "version": "2.0",
-  "total": 2841,
+  "total": 2842,
   "generated": "2026-08-01",
   "skills": [
+    {
+      "slug": "run-local-coding-agents-from-feishu-or-lark-with-lark-coding-agent-bridge",
+      "name": "Run local coding agents from Feishu or Lark with Lark Coding Agent Bridge",
+      "title": "Run local coding agents from Feishu or Lark with Lark Coding Agent Bridge",
+      "description": "Use Lark Coding Agent Bridge to connect Feishu or Lark chat threads to a local Claude Code or Codex CLI session with streaming cards,…",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 2076
+      },
+      "source_url": "https://github.com/zarazhangrui/lark-coding-agent-bridge",
+      "github_repo": "zarazhangrui/lark-coding-agent-bridge"
+    },
     {
       "slug": "serve-clean-markdown-from-urls-and-files-with-pullmd",
       "name": "Serve clean Markdown from URLs and files with PullMD",
@@ -14250,7 +14264,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 5463
+        "github_stars": 5463,
+        "npm_weekly_downloads": 1310522
       },
       "source_url": "https://github.com/danger/danger-js",
       "github_repo": "danger/danger-js"
@@ -14456,7 +14471,8 @@
       "framework": "Multi-Framework",
       "verification": "listed",
       "signals": {
-        "github_stars": 12954
+        "github_stars": 12954,
+        "npm_weekly_downloads": 3343
       },
       "source_url": "https://github.com/browserless/browserless",
       "github_repo": "browserless/browserless"
@@ -14727,7 +14743,8 @@
       "framework": "Multi-Framework",
       "verification": "listed",
       "signals": {
-        "github_stars": 2781
+        "github_stars": 2781,
+        "npm_weekly_downloads": 3084202
       },
       "source_url": "https://github.com/langchain-ai/langgraphjs",
       "github_repo": "langchain-ai/langgraphjs"
