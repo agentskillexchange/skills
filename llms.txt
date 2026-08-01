@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-01
-# Total: 2843 skills
+# Total: 2847 skills
+
+## BeachFinder Swim Spot Finder
+slug: beachfinder-swim-spot-finder
+category: Integrations & Connectors
+framework: Multi-Framework
+verification: Published
+description: Finds and compares 184,900 swimming spots worldwide (beaches, lakes, bathing places) with live water temperature, wind, UV and wave signals, local guides and source-backed…
+url: https://agentskillexchange.com/skills/beachfinder-swim-spot-finder/
+
+## Supervise tmux-based coding-agent sessions with agent-manager
+slug: supervise-tmux-based-coding-agent-sessions-with-agent-manager
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use agent-manager to launch, monitor, prompt, revive, and review multiple Claude Code, Codex, OpenCode, Grok, or Gemini CLI sessions running in persistent tmux sessions.
+url: https://agentskillexchange.com/skills/supervise-tmux-based-coding-agent-sessions-with-agent-manager/
+
+## Manage agent runtime capabilities with CAPA
+slug: manage-agent-runtime-capabilities-with-capa
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use CAPA to declare coding-agent skills, rules, tools, MCP servers, sub-agents, and plugins once in capabilities.yaml, then install native provider files across Cursor, Claude…
+url: https://agentskillexchange.com/skills/manage-agent-runtime-capabilities-with-capa/
+
+## Extract schema-backed document data with ADE CLI
+slug: extract-schema-backed-document-data-with-ade-cli
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use LandingAI's ADE CLI to parse visually complex documents, cache parse artifacts, and extract schema-shaped fields with page and bounding-box evidence from an agent…
+url: https://agentskillexchange.com/skills/extract-schema-backed-document-data-with-ade-cli/
 
 ## Give Rails coding agents live app context with rails-ai-context
 slug: give-rails-coding-agents-live-app-context-with-rails-ai-context

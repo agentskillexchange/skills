@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2843 published skills** across **17 categories** · 2,433 security reviewed · Updated 2026-08-01 13:27 UTC
+> **2847 published skills** across **17 categories** · 2,433 security reviewed · Updated 2026-08-01 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (411 skills)
+### 🛠️ Developer Tools (413 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -363,6 +363,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Generate and continuously refresh CLAUDE.md, AGENTS.md, MCP config, and editor rules from the live codebase with Caliber](skills/generate-and-continuously-refresh-claude-md-agents-md-mcp-config-and-editor-rules-from-the-live-codebase-with-caliber/) | Use Caliber when agent-facing repo instructions have started drifting from the actual codebase and you want one… | Security Reviewed | 717 | 6.5k/wk |
 | [Store Python project task runners in pyproject.toml with taskipy](skills/store-python-project-task-runners-in-pyproject-toml-with-taskipy/) | Define short Python project commands in pyproject.toml so agents and maintainers can run the same test, lint, docs,… | Security Reviewed | 714 | — |
 | [Run deterministic multi-agent coding workflows with Bernstein](skills/run-deterministic-multi-agent-coding-workflows-with-bernstein/) | Orchestrate parallel CLI coding agents in isolated git worktrees with reproducible scheduling, gates, replay… | Security Reviewed | 704 | — |
+| [Manage agent runtime capabilities with CAPA](skills/manage-agent-runtime-capabilities-with-capa/) | Use CAPA to declare coding-agent skills, rules, tools, MCP servers, sub-agents, and plugins once in… | Security Reviewed | 692 | — |
 | [Manage cross-agent skill files from Obsidian with Agentfiles](skills/manage-cross-agent-skill-files-from-obsidian-with-agentfiles/) | Use Agentfiles when an operator wants to browse, create, edit, install, and audit skills, commands, agents, rules,… | Published | 679 | — |
 | [Install Chinese Claude Code skills for engineering workflows](skills/install-chinese-claude-code-skills-for-engineering-workflows/) | Use claude-code-skills-zh to install Chinese-language Claude Code skills for repeatable code review, README writing,… | Security Reviewed | 670 | — |
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | Convert a finished coding-agent session into a shareable HTML replay instead of sending raw logs or bulky screen… | Security Reviewed | 621 | 4.9k/wk |
@@ -396,6 +397,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Search large codebases and structured document trees without embeddings before building heavier retrieval stacks with TreeSearch](skills/search-large-codebases-and-structured-document-trees-without-embeddings-before-building-heavier-retrieval-stacks-with-treesearch/) | Index docs and source trees into structure-aware search so you can answer targeted questions quickly without a… | Security Reviewed | 189 | — |
 | [Meilisearch MCP Server for AI-Powered Search Integration](skills/meilisearch-mcp-server-ai-search/) | Official Model Context Protocol server that connects LLMs to Meilisearch for lightning-fast search, index… | Security Reviewed | 181 | — |
 | [Compress repeated agent context and command output before it reaches coding agents with sqz](skills/compress-repeated-agent-context-and-command-output-before-it-reaches-coding-agents-with-sqz/) | Reduces token burn by compressing command output and deduplicating repeated file reads before they are sent to… | Published | 165 | — |
+| [Supervise tmux-based coding-agent sessions with agent-manager](skills/supervise-tmux-based-coding-agent-sessions-with-agent-manager/) | Use agent-manager to launch, monitor, prompt, revive, and review multiple Claude Code, Codex, OpenCode, Grok, or… | Security Reviewed | 154 | — |
 | [Run visual co-creation workspaces for coding agents with Pneuma Skills](skills/run-visual-co-creation-workspaces-for-coding-agents-with-pneuma-skills/) | Use Pneuma Skills when Claude Code, Codex, or Kimi should build slides, documents, diagrams, videos, dashboards, or… | Security Reviewed | 152 | 1.1k/wk |
 | [Install one MCP server across Claude Code, Cursor, Codex, and VS Code without manual config edits](skills/install-one-mcp-server-across-claude-code-cursor-codex-and-vs-code-without-manual-config-edits/) | Use add-mcp when an agent needs to roll out, list, remove, or synchronize MCP server configs across multiple coding… | Security Reviewed | 151 | 307.2k/wk |
 | [Give Rails coding agents live app context with rails-ai-context](skills/give-rails-coding-agents-live-app-context-with-rails-ai-context/) | Use rails-ai-context to expose a running Rails app's schema, routes, models, controllers, conventions, and test… | Security Reviewed | 151 | — |
@@ -908,7 +910,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown,… | Published | — | — |
 
 
-### 🔄 Data Extraction & Transformation (216 skills)
+### 🔄 Data Extraction & Transformation (217 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -1070,6 +1072,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Convert complex PDFs and document images into agent-ready Markdown with OCRFlux](skills/convert-complex-pdfs-and-document-images-into-agent-ready-markdown-with-ocrflux/) | Use OCRFlux when agents need local PDF or image parsing into Markdown/JSONL with layout-aware OCR, table handling,… | Security Reviewed | 2.5k | — |
 | [Diff nested JSON, API responses, and config snapshots before approving changes](skills/diff-nested-json-api-responses-and-config-snapshots-before-approving-changes/) | Uses DeepDiff to compare structured objects deeply and return precise additions, removals, value changes, and deltas… | Security Reviewed | 2.5k | — |
 | [Meltano Declarative ELT Data Integration Engine](skills/meltano-declarative-elt-data-integration-engine/) | Meltano is an open-source, CLI-first ELT platform built on the Singer specification. It provides declarative,… | Published | 2.4k | — |
+| [Extract schema-backed document data with ADE CLI](skills/extract-schema-backed-document-data-with-ade-cli/) | Use LandingAI's ADE CLI to parse visually complex documents, cache parse artifacts, and extract schema-shaped fields… | Security Reviewed | 2.4k | — |
 | [Enrich Paperless-ngx documents with AI-generated titles tags and correspondents using paperless-gpt](skills/enrich-paperless-ngx-documents-with-ai-generated-titles-tags-and-correspondents-using-paperless-gpt/) | Take an OCR archive that already exists in Paperless-ngx and push smarter titles, tags, and document metadata back… | Security Reviewed | 2.3k | — |
 | [rehype Plugin-Based HTML Processor by the Unified Collective](skills/rehype-html-processor-unified/) | rehype is a plugin-based HTML processing toolkit built on the unified ecosystem. It parses HTML into an abstract… | Published | 2.2k | 4.3M/wk |
 | [trdsql SQL Query Engine for CSV JSON and YAML Files](skills/trdsql-sql-query-engine-csv-json-yaml-files/) | trdsql is a CLI tool that executes SQL queries directly on CSV, LTSV, JSON, YAML, and TBLN files. It supports… | Security Reviewed | 2.2k | — |
@@ -1719,7 +1722,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (157 skills)
+### 🔗 Integrations & Connectors (158 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1875,6 +1878,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Normalize international phone numbers into E.164 before CRM imports or messaging workflows](skills/normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows/) | Use libphonenumber-js when an agent needs to clean messy phone-number input, validate it against country rules, and… | Published | — | 15.6M/wk |
 | [DealMachine Sales Intelligence](skills/dealmachine-sales-intelligence/) | Searches and enriches US property, owner, people, and company data through the DealMachine CLI and hosted MCP server… | Published | — | 272/wk |
 | [AssemblyAI Real-Time Call Intelligence](skills/assemblyai-realtime-call-intelligence/) | Streams audio from Twilio Media Streams over WebSocket to AssemblyAI real-time transcription, extracting… | Security Reviewed | — | — |
+| [BeachFinder Swim Spot Finder](skills/beachfinder-swim-spot-finder/) | Finds and compares 184,900 swimming spots worldwide (beaches, lakes, bathing places) with live water temperature,… | Published | — | — |
 | [GitHub Discussions Community Digest](skills/github-discussions-community-digest/) | Queries GitHub GraphQL API for new and unanswered Discussions, ranks them by reaction count and recency, and drafts… | Security Reviewed | — | — |
 | [JMT x402 Agent Tools](skills/jmt-x402-agent-tools/) | Paid x402 HTTP-402 endpoints on Base mainnet that let agents pay-per-call in USDC for web search, AI analysis,… | Published | — | — |
 | [Linear Issue Triage & Sprint Planner](skills/linear-issue-triage-sprint-planner-2/) | Queries the Linear GraphQL API to list open issues by team, priority, and cycle, then applies configurable triage… | Security Reviewed | — | — |

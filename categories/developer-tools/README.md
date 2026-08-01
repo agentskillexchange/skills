@@ -389,6 +389,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Generate and continuously refresh CLAUDE.md, AGENTS.md, MCP config, and editor rules from the live codebase with Caliber](../../skills/generate-and-continuously-refresh-claude-md-agents-md-mcp-config-and-editor-rules-from-the-live-codebase-with-caliber/) | 717 | 6.5k/wk |
 | [Store Python project task runners in pyproject.toml with taskipy](../../skills/store-python-project-task-runners-in-pyproject-toml-with-taskipy/) | 714 | — |
 | [Run deterministic multi-agent coding workflows with Bernstein](../../skills/run-deterministic-multi-agent-coding-workflows-with-bernstein/) | 704 | — |
+| [Manage agent runtime capabilities with CAPA](../../skills/manage-agent-runtime-capabilities-with-capa/) | 692 | — |
 | [Manage cross-agent skill files from Obsidian with Agentfiles](../../skills/manage-cross-agent-skill-files-from-obsidian-with-agentfiles/) | 679 | — |
 | [Install Chinese Claude Code skills for engineering workflows](../../skills/install-chinese-claude-code-skills-for-engineering-workflows/) | 670 | — |
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](../../skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | 621 | 4.9k/wk |
@@ -422,6 +423,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Search large codebases and structured document trees without embeddings before building heavier retrieval stacks with TreeSearch](../../skills/search-large-codebases-and-structured-document-trees-without-embeddings-before-building-heavier-retrieval-stacks-with-treesearch/) | 189 | — |
 | [Meilisearch MCP Server for AI-Powered Search Integration](../../skills/meilisearch-mcp-server-ai-search/) | 181 | — |
 | [Compress repeated agent context and command output before it reaches coding agents with sqz](../../skills/compress-repeated-agent-context-and-command-output-before-it-reaches-coding-agents-with-sqz/) | 165 | — |
+| [Supervise tmux-based coding-agent sessions with agent-manager](../../skills/supervise-tmux-based-coding-agent-sessions-with-agent-manager/) | 154 | — |
 | [Run visual co-creation workspaces for coding agents with Pneuma Skills](../../skills/run-visual-co-creation-workspaces-for-coding-agents-with-pneuma-skills/) | 152 | 1.1k/wk |
 | [Install one MCP server across Claude Code, Cursor, Codex, and VS Code without manual config edits](../../skills/install-one-mcp-server-across-claude-code-cursor-codex-and-vs-code-without-manual-config-edits/) | 151 | 307.2k/wk |
 | [Give Rails coding agents live app context with rails-ai-context](../../skills/give-rails-coding-agents-live-app-context-with-rails-ai-context/) | 151 | — |

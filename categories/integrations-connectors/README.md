@@ -190,6 +190,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Normalize international phone numbers into E.164 before CRM imports or messaging workflows](../../skills/normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows/) | — | 15.6M/wk |
 | [DealMachine Sales Intelligence](../../skills/dealmachine-sales-intelligence/) | — | 272/wk |
 | [AssemblyAI Real-Time Call Intelligence](../../skills/assemblyai-realtime-call-intelligence/) | — | — |
+| [BeachFinder Swim Spot Finder](../../skills/beachfinder-swim-spot-finder/) | — | — |
 | [GitHub Discussions Community Digest](../../skills/github-discussions-community-digest/) | — | — |
 | [JMT x402 Agent Tools](../../skills/jmt-x402-agent-tools/) | — | — |
 | [Linear Issue Triage & Sprint Planner](../../skills/linear-issue-triage-sprint-planner-2/) | — | — |

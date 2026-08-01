@@ -196,6 +196,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Convert complex PDFs and document images into agent-ready Markdown with OCRFlux](../../skills/convert-complex-pdfs-and-document-images-into-agent-ready-markdown-with-ocrflux/) | 2.5k | — |
 | [Diff nested JSON, API responses, and config snapshots before approving changes](../../skills/diff-nested-json-api-responses-and-config-snapshots-before-approving-changes/) | 2.5k | — |
 | [Meltano Declarative ELT Data Integration Engine](../../skills/meltano-declarative-elt-data-integration-engine/) | 2.4k | — |
+| [Extract schema-backed document data with ADE CLI](../../skills/extract-schema-backed-document-data-with-ade-cli/) | 2.4k | — |
 | [Enrich Paperless-ngx documents with AI-generated titles tags and correspondents using paperless-gpt](../../skills/enrich-paperless-ngx-documents-with-ai-generated-titles-tags-and-correspondents-using-paperless-gpt/) | 2.3k | — |
 | [rehype Plugin-Based HTML Processor by the Unified Collective](../../skills/rehype-html-processor-unified/) | 2.2k | 4.3M/wk |
 | [trdsql SQL Query Engine for CSV JSON and YAML Files](../../skills/trdsql-sql-query-engine-csv-json-yaml-files/) | 2.2k | — |
