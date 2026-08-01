@@ -2,10 +2,10 @@
 name: "BeachFinder Swim Spot Finder"
 slug: "beachfinder-swim-spot-finder"
 description: "Finds and compares 184,900 swimming spots worldwide (beaches, lakes, bathing places) with live water temperature, wind, UV and wave signals, local guides and source-backed activity providers, via the public BeachFinder MCP server."
+verification: "listed"
+source: "https://getbeachfinder.com"
 category: "Integrations & Connectors"
 framework: "Multi-Framework"
-verification: listed
-source: "https://getbeachfinder.com"
 ---
 
 # BeachFinder Swim Spot Finder
