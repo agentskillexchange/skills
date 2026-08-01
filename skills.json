@@ -1,8 +1,22 @@
 {
   "version": "2.0",
-  "total": 2840,
-  "generated": "2026-07-31",
+  "total": 2841,
+  "generated": "2026-08-01",
   "skills": [
+    {
+      "slug": "serve-clean-markdown-from-urls-and-files-with-pullmd",
+      "name": "Serve clean Markdown from URLs and files with PullMD",
+      "title": "Serve clean Markdown from URLs and files with PullMD",
+      "description": "Use PullMD as a self-hosted Markdown conversion service for agents, exposing web pages, documents, media transcripts, Reddit threads, and uploaded files through REST, MCP,…",
+      "category": "Research & Scraping",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 197
+      },
+      "source_url": "https://github.com/AeternaLabsHQ/pullmd",
+      "github_repo": "AeternaLabsHQ/pullmd"
+    },
     {
       "slug": "enforce-engineering-workflows-with-ring-skill-packs",
       "name": "Enforce engineering workflows with Ring skill packs",

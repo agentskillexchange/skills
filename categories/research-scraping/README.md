@@ -122,6 +122,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Browse search and cost-audit local coding-agent histories before resuming or standardizing workflows with agentsview](../../skills/browse-search-and-cost-audit-local-coding-agent-histories-before-resuming-or-standardizing-workflows-with-agentsview/) | 774 | — |
 | [SerpAPI Answer Box Extractor](../../skills/serpapi-answer-box-extractor/) | 734 | — |
 | [Search and resume past coding-agent sessions locally with exact handoff commands using Agent Sessions](../../skills/search-and-resume-past-coding-agent-sessions-locally-with-exact-handoff-commands-using-agent-sessions/) | 478 | — |
+| [Serve clean Markdown from URLs and files with PullMD](../../skills/serve-clean-markdown-from-urls-and-files-with-pullmd/) | 197 | — |
 | [Apify SDK for Web Scraping and Actor Automation](../../skills/apify-sdk-web-scraping-actor-automation/) | 173 | 35.6k/wk |
 | [Apify Actor Development Kit](../../skills/apify-actor-development-kit/) | 173 | 34.1k/wk |
 | [Apify Actor Runner](../../skills/apify-actor-runner/) | 173 | 34.1k/wk |

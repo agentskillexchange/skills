@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-07-31
-# Total: 2840 skills
+# Generated: 2026-08-01
+# Total: 2841 skills
+
+## Serve clean Markdown from URLs and files with PullMD
+slug: serve-clean-markdown-from-urls-and-files-with-pullmd
+category: Research & Scraping
+framework: MCP
+verification: Security Reviewed
+description: Use PullMD as a self-hosted Markdown conversion service for agents, exposing web pages, documents, media transcripts, Reddit threads, and uploaded files through REST, MCP,…
+url: https://agentskillexchange.com/skills/serve-clean-markdown-from-urls-and-files-with-pullmd/
 
 ## Enforce engineering workflows with Ring skill packs
 slug: enforce-engineering-workflows-with-ring-skill-packs

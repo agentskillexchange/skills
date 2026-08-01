@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2840 published skills** across **17 categories** · 2,429 security reviewed · Updated 2026-07-31 19:26 UTC
+> **2841 published skills** across **17 categories** · 2,429 security reviewed · Updated 2026-08-01 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -2308,7 +2308,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Rust Crates.io Explorer](skills/rust-crates-io-explorer/) | Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates… | Published | — | — |
 
 
-### 🔍 Research & Scraping (123 skills)
+### 🔍 Research & Scraping (124 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -2396,6 +2396,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Browse search and cost-audit local coding-agent histories before resuming or standardizing workflows with agentsview](skills/browse-search-and-cost-audit-local-coding-agent-histories-before-resuming-or-standardizing-workflows-with-agentsview/) | Index local coding-agent sessions into a searchable SQLite-backed view so you can inspect usage, compare failures,… | Security Reviewed | 774 | — |
 | [SerpAPI Answer Box Extractor](skills/serpapi-answer-box-extractor/) | Extracts high-signal SERP features from SerpAPI responses, including `answer_box`, `knowledge_graph`,… | Security Reviewed | 734 | — |
 | [Search and resume past coding-agent sessions locally with exact handoff commands using Agent Sessions](skills/search-and-resume-past-coding-agent-sessions-locally-with-exact-handoff-commands-using-agent-sessions/) | Browse archived sessions from multiple coding agents, search across them locally, and copy exact resume commands… | Security Reviewed | 478 | — |
+| [Serve clean Markdown from URLs and files with PullMD](skills/serve-clean-markdown-from-urls-and-files-with-pullmd/) | Use PullMD as a self-hosted Markdown conversion service for agents, exposing web pages, documents, media… | Security Reviewed | 197 | — |
 | [Apify SDK for Web Scraping and Actor Automation](skills/apify-sdk-web-scraping-actor-automation/) | Apify SDK is the official JavaScript SDK for building Actors, crawlers, and data extraction workflows on Apify. It… | Security Reviewed | 173 | 35.6k/wk |
 | [Apify Actor Development Kit](skills/apify-actor-development-kit/) | Builds Apify Actors for scalable cloud scraping with automatic proxy management and storage. Uses the Apify SDK… | Security Reviewed | 173 | 34.1k/wk |
 | [Apify Actor Runner](skills/apify-actor-runner/) | Executes Apify cloud actors for structured web scraping with automatic dataset export to S3. Supports actor input… | Security Reviewed | 173 | 34.1k/wk |

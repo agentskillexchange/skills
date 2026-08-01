@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C840-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C841-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C429-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,840 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,841 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Kubernetes CrashLoop Diagnoser](skills/kubernetes-crashloop-diagnoser-agent/)** — Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes API /api/v1/namespaces/{ns}/pods/{pod}/log endpoint. Correlates container exit codes with OOM kills, readiness probe failures, and config errors.
+**[Medusa Commerce API and Store Operations Automation Skill](skills/medusa-commerce-api-store-operations-automation-skill/)** — Medusa is an open-source commerce platform with modular backend services, an admin app, and API-first store workflows. This skill helps agents manage products, orders, carts, pricing, and fulfillment…
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -87,6 +87,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Serve clean Markdown from URLs and files with PullMD](skills/serve-clean-markdown-from-urls-and-files-with-pullmd/) | Use PullMD as a self-hosted Markdown conversion service for agents, exposing web pages, documents, media transcripts, Reddit threads... | 197 | Research & Scraping |
 | [Enforce engineering workflows with Ring skill packs](skills/enforce-engineering-workflows-with-ring-skill-packs/) | Use Ring to load curated engineering skills and specialist agents for TDD, systematic debugging, code review, product planning... | 205 | Developer Tools |
 | [Run self-hosted coding-agent mission control with Codeman](skills/run-self-hosted-coding-agent-mission-control-with-codeman/) | Use Codeman to supervise persistent Claude Code, Codex, OpenCode, and Gemini CLI sessions through a self-hosted web dashboard... | 500 | Developer Tools |
 | [Scaffold repo-specific agent harnesses with Metaharness](skills/scaffold-repo-specific-agent-harnesses-with-metaharness/) | Use Metaharness to score a repository, generate a branded agent harness with CLI, MCP, memory, and safety defaults... | 529 | Developer Tools |
@@ -96,7 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Social Corpus Harvest](skills/social-corpus-harvest/) | Collects a human-verified person, creator, brand, or organization's self-authored public Xiaohongshu, Douyin, and Weibo posts through OpenCLI into... | - | Research & Scraping |
 | [Run visual co-creation workspaces for coding agents with Pneuma Skills](skills/run-visual-co-creation-workspaces-for-coding-agents-with-pneuma-skills/) | Use Pneuma Skills when Claude Code, Codex, or Kimi should build slides, documents, diagrams, videos, dashboards, or custom... | 152 | Developer Tools |
 | [Control Codex and Claude coding-agent sessions from mobile with CC Pocket](skills/control-codex-and-claude-coding-agent-sessions-from-mobile-with-cc-pocket/) | Run a self-hosted bridge so an operator can start, resume, approve, and review Codex or Claude Code sessions... | 1.0k | Developer Tools |
-| [Generate Template-Matched PPTX Decks with gpt-image2-ppt-skills](skills/generate-template-matched-pptx-decks-with-gpt-image2-ppt-skills/) | Use gpt-image2-ppt-skills to have an agent create image-first or editable PowerPoint decks with gpt-image-2, bundled styles, template cloning... | 1.1k | Image & Creative Automation |
 
 ---
 
@@ -108,12 +108,12 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 |---|---|---:|---|
 | [Install Chinese-localized Superpowers workflows for coding agents](skills/install-chinese-localized-superpowers-workflows-for-coding-agents/) | Use superpowers-zh to install Chinese-localized coding-agent methods, China-specific development skills, and cross-tool setup for Claude Code, Codex, Cursor... | 7.2k | Templates & Workflows |
 | [Install verified Codex planning and completion loops with LazyCodex](skills/install-verified-codex-planning-and-completion-loops-with-lazycodex/) | Add Codex commands, skills, hooks, diagnostics, and sub-agent roles for deep repository initialization, planning, execution, and evidence-backed completion | 2.8k | Developer Tools |
-| [Audit coding-agent token spend with CodeBurn](skills/audit-coding-agent-token-spend-with-codeburn/) | Run CodeBurn locally or as an MCP server so agents can inspect token usage, cost, model mix, project... | 8.7k | Monitoring & Alerts |
 | [Keep coding agents from over-building implementations with Ponytail](skills/keep-coding-agents-from-over-building-implementations-with-ponytail/) | Ponytail gives coding agents a portable minimal-implementation ruleset, plugin hooks, and review commands so they reuse existing code... | 85.5k | Code Quality & Review |
+| [Audit coding-agent token spend with CodeBurn](skills/audit-coding-agent-token-spend-with-codeburn/) | Run CodeBurn locally or as an MCP server so agents can inspect token usage, cost, model mix, project... | 8.7k | Monitoring & Alerts |
 | [Control Remote Agent CLI Sessions with CloudCLI](skills/control-remote-agent-cli-sessions-with-cloudcli/) | Run Claude Code, Cursor CLI, Codex, and OpenCode sessions from a web or mobile UI when an operator... | 12.9k | Developer Tools |
 | [Bridge local coding agents into chat apps with cc-connect](skills/bridge-local-coding-agents-into-chat-apps-with-cc-connect/) | Let operators control local Claude Code, Codex, Cursor, Gemini CLI, and other coding agents from Slack, Discord, Telegram... | 14.2k | Integrations & Connectors |
-| [Review agent-authored diffs with Hunk](skills/review-agent-authored-diffs-with-hunk/) | Use Hunk to keep a live terminal review UI open for agent-authored code changes, with Git, Jujutsu, Sapling... | 6.9k | Code Quality & Review |
 | [Run Parallel Divergent Ideation With ADHD](skills/run-parallel-divergent-ideation-with-adhd/) | Use ADHD to fan out isolated reasoning branches for open-ended coding-agent decisions, then score, prune, and deepen the... | 1.3k | Templates & Workflows |
+| [Review agent-authored diffs with Hunk](skills/review-agent-authored-diffs-with-hunk/) | Use Hunk to keep a live terminal review UI open for agent-authored code changes, with Git, Jujutsu, Sapling... | 6.9k | Code Quality & Review |
 | [Extract financial data context for agents with OpenBB](skills/use-openbb-as-financial-data-context-for-agents/) | Extract source-backed financial market, filings, economics, and research data with OpenBB, then route the outputs into agent workflows... | 70.7k | Data Extraction & Transformation |
 | [Inspect BullMQ agent job queues with Bull Board](skills/inspect-bullmq-agent-job-queues-with-bull-board/) | Use Bull Board to add a protected dashboard for Bull and BullMQ queues so operators can inspect, retry... | 3.4k | Monitoring & Alerts |
 
@@ -134,7 +134,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 152 | Metrics, alerting rules, observability |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 126 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 124 | SDK docs, API parsers, symbol resolvers |
-| 🔍 | [**Research & Scraping**](categories/research-scraping/) | 123 | Web research, content discovery, data collection |
+| 🔍 | [**Research & Scraping**](categories/research-scraping/) | 124 | Web research, content discovery, data collection |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 121 | Web scraping, UI testing, headless browser control |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 106 | Audio/video processing, speech-to-text |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 99 | Image generation, asset processing, design automation |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,840 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,841 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,429 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
