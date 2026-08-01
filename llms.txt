@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-01
-# Total: 2842 skills
+# Total: 2843 skills
+
+## Give Rails coding agents live app context with rails-ai-context
+slug: give-rails-coding-agents-live-app-context-with-rails-ai-context
+category: Developer Tools
+framework: MCP
+verification: Security Reviewed
+description: Use rails-ai-context to expose a running Rails app's schema, routes, models, controllers, conventions, and test patterns through MCP tools so coding agents verify before…
+url: https://agentskillexchange.com/skills/give-rails-coding-agents-live-app-context-with-rails-ai-context/
 
 ## Run local coding agents from Feishu or Lark with Lark Coding Agent Bridge
 slug: run-local-coding-agents-from-feishu-or-lark-with-lark-coding-agent-bridge

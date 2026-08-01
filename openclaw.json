@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-01",
-  "total": 2842,
+  "total": 2843,
   "skills": [
+    {
+      "slug": "give-rails-coding-agents-live-app-context-with-rails-ai-context",
+      "name": "Give Rails coding agents live app context with rails-ai-context",
+      "title": "Give Rails coding agents live app context with rails-ai-context",
+      "description": "Use rails-ai-context to expose a running Rails app's schema, routes, models, controllers, conventions, and test patterns through MCP tools so coding agents verify before…",
+      "category": "Developer Tools",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/crisnahine/rails-ai-context",
+      "github_repo": "crisnahine/rails-ai-context"
+    },
     {
       "slug": "run-local-coding-agents-from-feishu-or-lark-with-lark-coding-agent-bridge",
       "name": "Run local coding agents from Feishu or Lark with Lark Coding Agent Bridge",
