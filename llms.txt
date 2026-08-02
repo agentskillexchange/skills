@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-08-01
-# Total: 2847 skills
+# Generated: 2026-08-02
+# Total: 2848 skills
+
+## Run repeatable marketing operator workflows with Aaron Marketing Skills
+slug: run-repeatable-marketing-operator-workflows-with-aaron-marketing-skills
+category: Content Writing & SEO
+framework: Multi-Framework
+verification: Security Reviewed
+description: Install a maintained marketing skill library so agents can run scoped SEO/GEO, email, paid ads, influencer, launch, social, and brand narrative workflows with shared…
+url: https://agentskillexchange.com/skills/run-repeatable-marketing-operator-workflows-with-aaron-marketing-skills/
 
 ## BeachFinder Swim Spot Finder
 slug: beachfinder-swim-spot-finder

@@ -1,9 +1,20 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-08-01",
-  "total": 2847,
+  "generated": "2026-08-02",
+  "total": 2848,
   "skills": [
+    {
+      "slug": "run-repeatable-marketing-operator-workflows-with-aaron-marketing-skills",
+      "name": "Run repeatable marketing operator workflows with Aaron Marketing Skills",
+      "title": "Run repeatable marketing operator workflows with Aaron Marketing Skills",
+      "description": "Install a maintained marketing skill library so agents can run scoped SEO/GEO, email, paid ads, influencer, launch, social, and brand narrative workflows with shared…",
+      "category": "Content Writing & SEO",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+      "github_repo": "aaron-he-zhu/aaron-marketing-skills"
+    },
     {
       "slug": "beachfinder-swim-spot-finder",
       "name": "BeachFinder Swim Spot Finder",

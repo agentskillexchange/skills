@@ -65,6 +65,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [textlint Pluggable Natural Language Linter](../../skills/textlint-pluggable-natural-language-linter/) | 3.1k | 102.9k/wk |
 | [Normalize article metadata from URLs before generating link previews or content briefs](../../skills/normalize-article-metadata-from-urls-before-generating-link-previews-or-content-briefs/) | 2.7k | 416k/wk |
 | [Audit and rewrite AI-sounding prose with Avoid AI Writing](../../skills/audit-and-rewrite-ai-sounding-prose-with-avoid-ai-writing/) | 2.6k | — |
+| [Run repeatable marketing operator workflows with Aaron Marketing Skills](../../skills/run-repeatable-marketing-operator-workflows-with-aaron-marketing-skills/) | 2.5k | — |
 | [retext Natural Language Processor with Unified Plugin Ecosystem](../../skills/retext-natural-language-processor-unified-plugins/) | 2.4k | — |
 | [WritingTools System-Wide AI Grammar Assistant for Windows Linux and macOS](../../skills/writingtools-system-wide-ai-grammar-assistant/) | 2.2k | — |
 | [SerpBear Self-Hosted Search Engine Rank Tracking App](../../skills/serpbear-self-hosted-serp-rank-tracker/) | 1.9k | — |
