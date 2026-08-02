@@ -62,6 +62,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Nuclei Vulnerability Template Runner](../../skills/nuclei-vulnerability-template-runner/) | 28k | — |
 | [Better Auth Authentication Framework for TypeScript Applications](../../skills/better-auth-authentication-framework-typescript-applications/) | 27.8k | 3.2M/wk |
 | [Nuclei Template-Based Vulnerability Scanner](../../skills/nuclei-template-vulnerability-scanner/) | 27.7k | — |
+| [Install Anthropic Cybersecurity Skills for agent security workflows](../../skills/install-anthropic-cybersecurity-skills-for-agent-security-workflows/) | 27.2k | — |
 | [Discord Moderation Bot with AI Classification](../../skills/discord-moderation-ai-classification/) | 26.7k | 563.5k/wk |
 | [Git Secret Scanner](../../skills/git-secret-scanner/) | 26.4k | — |
 | [Git Secret Scanner with Gitleaks](../../skills/git-secret-scanner-gitleaks/) | 26.1k | — |

@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-02",
-  "total": 2851,
+  "total": 2852,
   "skills": [
+    {
+      "slug": "install-anthropic-cybersecurity-skills-for-agent-security-workflows",
+      "name": "Install Anthropic Cybersecurity Skills for agent security workflows",
+      "title": "Install Anthropic Cybersecurity Skills for agent security workflows",
+      "description": "Add a large source-backed cybersecurity skills library to Claude Code, Codex CLI, Cursor, Gemini CLI, and other agents so security investigations follow structured analyst…",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "github_repo": "mukul975/Anthropic-Cybersecurity-Skills"
+    },
     {
       "slug": "route-multi-provider-llm-traffic-through-gomodel",
       "name": "Route multi-provider LLM traffic through GoModel",

@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-02
-# Total: 2851 skills
+# Total: 2852 skills
+
+## Install Anthropic Cybersecurity Skills for agent security workflows
+slug: install-anthropic-cybersecurity-skills-for-agent-security-workflows
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Add a large source-backed cybersecurity skills library to Claude Code, Codex CLI, Cursor, Gemini CLI, and other agents so security investigations follow structured analyst…
+url: https://agentskillexchange.com/skills/install-anthropic-cybersecurity-skills-for-agent-security-workflows/
 
 ## Route multi-provider LLM traffic through GoModel
 slug: route-multi-provider-llm-traffic-through-gomodel

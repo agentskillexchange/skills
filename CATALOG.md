@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2851 published skills** across **17 categories** · 2,437 security reviewed · Updated 2026-08-02 13:26 UTC
+> **2852 published skills** across **17 categories** · 2,437 security reviewed · Updated 2026-08-02 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -429,7 +429,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (239 skills)
+### 🔒 Security & Verification (240 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -457,6 +457,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Nuclei Vulnerability Template Runner](skills/nuclei-vulnerability-template-runner/) | Executes ProjectDiscovery Nuclei security scanning templates against target URLs. Supports custom YAML template… | Security Reviewed | 28k | — |
 | [Better Auth Authentication Framework for TypeScript Applications](skills/better-auth-authentication-framework-typescript-applications/) | Better Auth is an open source authentication framework for TypeScript apps. It gives agents a concrete way to wire… | Published | 27.8k | 3.2M/wk |
 | [Nuclei Template-Based Vulnerability Scanner](skills/nuclei-template-vulnerability-scanner/) | Nuclei is a high-performance vulnerability scanner by ProjectDiscovery that uses simple YAML-based templates to… | Security Reviewed | 27.7k | — |
+| [Install Anthropic Cybersecurity Skills for agent security workflows](skills/install-anthropic-cybersecurity-skills-for-agent-security-workflows/) | Add a large source-backed cybersecurity skills library to Claude Code, Codex CLI, Cursor, Gemini CLI, and other… | Security Reviewed | 27.2k | — |
 | [Discord Moderation Bot with AI Classification](skills/discord-moderation-ai-classification/) | Listens to Discord gateway events, passing flagged messages to the OpenAI Moderation API and a custom classifier to… | Security Reviewed | 26.7k | 563.5k/wk |
 | [Git Secret Scanner](skills/git-secret-scanner/) | Detects leaked secrets in Git repositories using pattern-based scanning with Gitleaks rule definitions and the… | Security Reviewed | 26.4k | — |
 | [Git Secret Scanner with Gitleaks](skills/git-secret-scanner-gitleaks/) | Scans Git repositories for leaked secrets using Gitleaks, TruffleHog, and custom regex patterns. Detects API keys,… | Security Reviewed | 26.1k | — |
