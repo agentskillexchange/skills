@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-02",
-  "total": 2850,
+  "total": 2851,
   "skills": [
+    {
+      "slug": "route-multi-provider-llm-traffic-through-gomodel",
+      "name": "Route multi-provider LLM traffic through GoModel",
+      "title": "Route multi-provider LLM traffic through GoModel",
+      "description": "Use GoModel as an OpenAI-compatible and Anthropic-compatible gateway for routing, observability, failover, and cost tracking across model providers.",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/ENTERPILOT/GoModel",
+      "github_repo": "ENTERPILOT/GoModel"
+    },
     {
       "slug": "give-coding-agents-repository-search-and-call-graphs-with-codeseek",
       "name": "Give coding agents repository search and call graphs with CodeSeek",

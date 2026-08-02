@@ -147,7 +147,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Lint and validate Prometheus alerting rules before noisy or broken alerts reach production with Pint](../../skills/lint-and-validate-prometheus-alerting-rules-before-noisy-or-broken-alerts-reach-production-with-pint/) | 1k | — |
 | [LangSmith SDK for LLM Tracing and Evaluation](../../skills/langsmith-sdk-for-llm-tracing-and-evaluation/) | 843 | 5.4M/wk |
 | [Monitor Claude Code sessions and tool activity with Claude Code Agent Monitor](../../skills/monitor-claude-code-sessions-and-tool-activity-with-claude-code-agent-monitor/) | 815 | — |
-| [Datadog MCP Server](../../skills/datadog-mcp-server/) | 811 | 9.8M/wk |
+| [Datadog MCP Server](../../skills/datadog-mcp-server/) | 811 | 9.9M/wk |
 | [Datadog Anomaly Alert Router](../../skills/datadog-anomaly-alert-router/) | 791 | 6.6M/wk |
 | [Datadog Anomaly Detection Agent](../../skills/datadog-anomaly-detection-agent-2/) | 791 | 6.6M/wk |
 | [Datadog Anomaly Detector](../../skills/datadog-anomaly-detector/) | 791 | 6.6M/wk |
@@ -162,7 +162,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Datadog Monitor Sync](../../skills/datadog-monitor-sync/) | 791 | 6.6M/wk |
 | [Datadog Monitors Skill](../../skills/datadog-monitors-skill/) | 791 | 6.6M/wk |
 | [Datadog SLO Monitor](../../skills/datadog-slo-monitor/) | 791 | 6.6M/wk |
-| [Sentry MCP Server](../../skills/sentry-mcp-server/) | 712 | 117.7k/wk |
+| [Sentry MCP Server](../../skills/sentry-mcp-server/) | 712 | 118.8k/wk |
 | [Sentry MCP Server for Error Tracking and Performance](../../skills/sentry-mcp-server-error-tracking-performance/) | 615 | 49.6k/wk |
 | [Track coding-agent quota burn and remaining headroom across providers with onWatch](../../skills/track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch/) | 580 | — |
 | [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | 531 | 4.8M/wk |

@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C850-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C851-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C436-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,850 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,851 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Route multi-provider LLM traffic through GoModel](skills/route-multi-provider-llm-traffic-through-gomodel/) | Use GoModel as an OpenAI-compatible and Anthropic-compatible gateway for routing, observability, failover, and cost tracking across model providers | 1.0k | Integrations & Connectors |
 | [Give coding agents repository search and call graphs with CodeSeek](skills/give-coding-agents-repository-search-and-call-graphs-with-codeseek/) | Install CodeSeek to index a repository, expose semantic search and call-graph queries, and register MCP tools for Claude... | 818 | Code Quality & Review |
 | [Generate social carousel and cover assets with Guizang Social Card Skill](skills/generate-social-carousel-and-cover-assets-with-guizang-social-card-skill/) | Use Guizang Social Card Skill from Claude Code or Codex to turn source material into Rednote/Xiaohongshu carousel cards... | 5.8k | Content Writing & SEO |
 | [Run repeatable marketing operator workflows with Aaron Marketing Skills](skills/run-repeatable-marketing-operator-workflows-with-aaron-marketing-skills/) | Install a maintained marketing skill library so agents can run scoped SEO/GEO, email, paid ads, influencer, launch, social... | 2.5k | Content Writing & SEO |
@@ -96,7 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Extract schema-backed document data with ADE CLI](skills/extract-schema-backed-document-data-with-ade-cli/) | Use LandingAI's ADE CLI to parse visually complex documents, cache parse artifacts, and extract schema-shaped fields with page... | 2.4k | Data Extraction & Transformation |
 | [Give Rails coding agents live app context with rails-ai-context](skills/give-rails-coding-agents-live-app-context-with-rails-ai-context/) | Use rails-ai-context to expose a running Rails app's schema, routes, models, controllers, conventions, and test patterns through MCP... | 151 | Developer Tools |
 | [Run local coding agents from Feishu or Lark with Lark Coding Agent Bridge](skills/run-local-coding-agents-from-feishu-or-lark-with-lark-coding-agent-bridge/) | Use Lark Coding Agent Bridge to connect Feishu or Lark chat threads to a local Claude Code or... | 2.1k | Integrations & Connectors |
-| [Serve clean Markdown from URLs and files with PullMD](skills/serve-clean-markdown-from-urls-and-files-with-pullmd/) | Use PullMD as a self-hosted Markdown conversion service for agents, exposing web pages, documents, media transcripts, Reddit threads... | 197 | Research & Scraping |
 
 ---
 
@@ -130,7 +130,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 196 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 176 | Incident response, troubleshooting, system diagnostics |
-| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 158 | Third-party API bridges, webhooks, service connectors |
+| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 159 | Third-party API bridges, webhooks, service connectors |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 152 | Metrics, alerting rules, observability |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 126 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 124 | SDK docs, API parsers, symbol resolvers |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,850 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,851 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,436 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

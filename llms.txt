@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-02
-# Total: 2850 skills
+# Total: 2851 skills
+
+## Route multi-provider LLM traffic through GoModel
+slug: route-multi-provider-llm-traffic-through-gomodel
+category: Integrations & Connectors
+framework: Multi-Framework
+verification: Published
+description: Use GoModel as an OpenAI-compatible and Anthropic-compatible gateway for routing, observability, failover, and cost tracking across model providers.
+url: https://agentskillexchange.com/skills/route-multi-provider-llm-traffic-through-gomodel/
 
 ## Give coding agents repository search and call graphs with CodeSeek
 slug: give-coding-agents-repository-search-and-call-graphs-with-codeseek

@@ -99,7 +99,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Render interactive MCP tool UIs with mcp-ui](../../skills/render-interactive-mcp-tool-uis-with-mcp-ui/) | 4.9k | 1.6M/wk |
 | [Atlassian MCP Server for Jira and Confluence](../../skills/atlassian-mcp-server-jira-confluence/) | 4.8k | — |
 | [Add temporal context memory to agent workflows with Zep](../../skills/add-temporal-context-memory-to-agent-workflows-with-zep/) | 4.6k | 463k/wk |
-| [Stripe MCP Server](../../skills/stripe-mcp-server/) | 4.4k | 15.5M/wk |
+| [Stripe MCP Server](../../skills/stripe-mcp-server/) | 4.4k | 15.7M/wk |
 | [Stripe Connect Account Provisioner](../../skills/stripe-connect-account-provisioner/) | 4.4k | 9.3M/wk |
 | [Stripe Connect Integration](../../skills/stripe-connect-integration/) | 4.4k | 9.3M/wk |
 | [Stripe Connect Marketplace Sync](../../skills/stripe-connect-marketplace-sync/) | 4.4k | 9.3M/wk |
@@ -118,7 +118,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | 3.4k | — |
 | [Svix Enterprise Webhook Delivery Service](../../skills/svix-enterprise-webhook-delivery-service/) | 3.2k | — |
 | [Connect agents to governed data and code graphs with GraphJin](../../skills/connect-agents-to-governed-data-and-code-graphs-with-graphjin/) | 3.1k | 866/wk |
-| [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | 3.1k | 60.7k/wk |
+| [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | 3.1k | 62.8k/wk |
 | [SendGrid Transactional Email Builder](../../skills/sendgrid-transactional-email-builder/) | 3k | 3.6M/wk |
 | [SendGrid Transactional Email Router](../../skills/sendgrid-transactional-email-router/) | 3k | 3.6M/wk |
 | [n8n-nodes-mcp Community Node for Model Context Protocol Workflows](../../skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows/) | 3k | 45.9k/wk |
@@ -142,6 +142,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Stripe Agent Toolkit for AI Payment Integration](../../skills/stripe-agent-toolkit-ai-payment-integration/) | 1.4k | — |
 | [Run approved MCP servers through Docker MCP Gateway](../../skills/run-approved-mcp-servers-through-docker-mcp-gateway/) | 1.4k | — |
 | [Qdrant MCP Server for Vector Search and Semantic Memory](../../skills/qdrant-mcp-server-vector-search-semantic-memory/) | 1.3k | — |
+| [Route multi-provider LLM traffic through GoModel](../../skills/route-multi-provider-llm-traffic-through-gomodel/) | 1k | — |
 | [Deploy a self-hosted phone-call agent for Asterisk and FreePBX with AVA](../../skills/deploy-a-self-hosted-phone-call-agent-for-asterisk-and-freepbx-with-ava/) | 991 | — |
 | [MongoDB MCP Server for Database and Atlas Management](../../skills/mongodb-mcp-server-database-atlas-management/) | 983 | 36.6k/wk |
 | [Shopify Admin GraphQL Sync Agent](../../skills/shopify-admin-graphql-sync-agent/) | 959 | 325.5k/wk |
