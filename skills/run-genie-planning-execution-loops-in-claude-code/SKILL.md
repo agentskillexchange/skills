@@ -12,6 +12,8 @@ framework: "Claude Code"
 tool_ecosystem:
   github_repo: "automagik-dev/genie"
   github_stars: 323
+  npm_package: "@automagik/genie"
+  npm_weekly_downloads: 777
 ---
 
 # Run Genie planning and execution loops in Claude Code
@@ -24,13 +26,11 @@ Claude Code, Genie CLI, git, Bun-powered Genie runtime, and a repository where G
 
 ## Installation
 
-Basic usage or getting-started notes:
-- Every release is cosign-signed (keyless OIDC) with SLSA provenance; the installer verifies the binary — via gh attestation verify, falling back to cosign verify-blob — before it runs.
-- Then, from inside your repo, run genie setup to configure Genie and wire up its Claude Code hooks. genie doctor checks the install at any time.
-- The lifecycle runs as Claude Code skills. Open your repository in Claude Code and go:
+Install or set up from the source-backed instructions:
+
+Install from the signed GitHub release or the upstream installer after reviewing provenance; then run genie setup inside the repository and use genie doctor to verify the Claude Code hooks.
 
 - Source: https://github.com/automagik-dev/genie
-- Extracted from upstream docs: https://raw.githubusercontent.com/automagik-dev/genie/HEAD/README.md
 
 ## Documentation
 

@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "ShZhao27208/Aut_Sci_Write"
   github_stars: 151
+  npm_package: "shuozhao-academic-skills"
+  npm_weekly_downloads: 43
 ---
 
 # Run academic literature review and paper-output workflows with Aut Sci Write
@@ -24,19 +26,11 @@ Agent Skills-compatible runtime such as Claude Code, Codex, Cursor, OpenClaw, or
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npx skills add ShZhao27208/Aut_Sci_Write -g -y
-- npx 安装后仍需安装 Python 依赖才能运行技能：
-- pip install -r requirements.txt
-- git clone https://github.com/ShZhao27208/Aut_Sci_Write.git
+Install or set up from the source-backed instructions:
 
-Requirements and caveats from upstream:
-- [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-- [![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
-- **Python 3.10 及以上**：用于运行 sci-search、sci-extract、sci-figure、sci-review、sci-ppt 等基于 Python 的技能
+Install with the documented plugin flow using /plugin marketplace add ShZhao27208/Aut_Sci_Write and /plugin install academic-skills@shuozhao, or run npx skills add ShZhao27208/Aut_Sci_Write -g -y and then install Python dependencies from the upstream requirements file.
 
 - Source: https://github.com/ShZhao27208/Aut_Sci_Write
-- Extracted from upstream docs: https://raw.githubusercontent.com/ShZhao27208/Aut_Sci_Write/HEAD/README.md
 
 ## Documentation
 
