@@ -408,7 +408,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Coordinate Terminal Coding Agents With hcom](../../skills/coordinate-terminal-coding-agents-with-hcom/) | 393 | — |
 | [Index Codebases for Agent Search with Code Context Engine](../../skills/index-codebases-for-agent-search-with-code-context-engine/) | 383 | — |
 | [Temporal CLI Workflow and Server Control](../../skills/temporal-cli-workflow-server-control/) | 350 | — |
-| [Run Genie planning and execution loops in Claude Code](../../skills/run-genie-planning-execution-loops-in-claude-code/) | 323 | — |
+| [Run Genie planning and execution loops in Claude Code](../../skills/run-genie-planning-execution-loops-in-claude-code/) | 323 | 777/wk |
 | [Run Agent-Assisted Notebook Workflows in JupyterLab With Notebook Intelligence](../../skills/run-agent-assisted-notebook-workflows-in-jupyterlab-with-notebook-intelligence/) | 322 | 475/wk |
 | [Run declarative multi-agent CLI workflows with Comanda](../../skills/run-declarative-multi-agent-cli-workflows-with-comanda/) | 315 | — |
 | [Connect RStudio to MCP Agents with ClaudeR](../../skills/connect-rstudio-to-mcp-agents-with-clauder/) | 305 | — |

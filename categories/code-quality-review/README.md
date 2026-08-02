@@ -188,6 +188,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Autofix common Nix anti-patterns before style drift spreads with Statix](../../skills/autofix-common-nix-anti-patterns-before-style-drift-spreads-with-statix/) | 872 | — |
 | [Score model outputs with reusable evaluator prompts and metrics using autoevals](../../skills/score-model-outputs-with-reusable-evaluator-prompts-and-metrics-using-autoevals/) | 861 | 1.8M/wk |
 | [Gate Diff Only Test Coverage On Changed Lines Before Merging With Diff Cover](../../skills/gate-diff-only-test-coverage-on-changed-lines-before-merging-with-diff-cover/) | 828 | — |
+| [Give coding agents repository search and call graphs with CodeSeek](../../skills/give-coding-agents-repository-search-and-call-graphs-with-codeseek/) | 818 | 224/wk |
 | [Gate dbt projects with pre-commit checks from dbt-checkpoint](../../skills/gate-dbt-projects-with-pre-commit-checks-from-dbt-checkpoint/) | 738 | — |
 | [Lint protobuf definitions for style and correctness before code generation and review churn begin with protolint](../../skills/lint-protobuf-definitions-for-style-and-correctness-before-code-generation-and-review-churn-begin-with-protolint/) | 685 | 2.2k/wk |
 | [Enforce Python Docstring Coverage Thresholds with interrogate](../../skills/enforce-python-docstring-coverage-thresholds-with-interrogate/) | 662 | — |

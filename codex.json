@@ -2,8 +2,30 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-02",
-  "total": 2848,
+  "total": 2850,
   "skills": [
+    {
+      "slug": "give-coding-agents-repository-search-and-call-graphs-with-codeseek",
+      "name": "Give coding agents repository search and call graphs with CodeSeek",
+      "title": "Give coding agents repository search and call graphs with CodeSeek",
+      "description": "Install CodeSeek to index a repository, expose semantic search and call-graph queries, and register MCP tools for Claude Code or Codex coding agents.",
+      "category": "Code Quality & Review",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/CodeBendKit/codeseek",
+      "github_repo": "CodeBendKit/codeseek"
+    },
+    {
+      "slug": "generate-social-carousel-and-cover-assets-with-guizang-social-card-skill",
+      "name": "Generate social carousel and cover assets with Guizang Social Card Skill",
+      "title": "Generate social carousel and cover assets with Guizang Social Card Skill",
+      "description": "Use Guizang Social Card Skill from Claude Code or Codex to turn source material into Rednote/Xiaohongshu carousel cards and WeChat cover image pairs.",
+      "category": "Content Writing & SEO",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/op7418/guizang-social-card-skill",
+      "github_repo": "op7418/guizang-social-card-skill"
+    },
     {
       "slug": "run-repeatable-marketing-operator-workflows-with-aaron-marketing-skills",
       "name": "Run repeatable marketing operator workflows with Aaron Marketing Skills",

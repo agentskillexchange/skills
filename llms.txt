@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-02
-# Total: 2848 skills
+# Total: 2850 skills
+
+## Give coding agents repository search and call graphs with CodeSeek
+slug: give-coding-agents-repository-search-and-call-graphs-with-codeseek
+category: Code Quality & Review
+framework: MCP
+verification: Security Reviewed
+description: Install CodeSeek to index a repository, expose semantic search and call-graph queries, and register MCP tools for Claude Code or Codex coding agents.
+url: https://agentskillexchange.com/skills/give-coding-agents-repository-search-and-call-graphs-with-codeseek/
+
+## Generate social carousel and cover assets with Guizang Social Card Skill
+slug: generate-social-carousel-and-cover-assets-with-guizang-social-card-skill
+category: Content Writing & SEO
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Guizang Social Card Skill from Claude Code or Codex to turn source material into Rednote/Xiaohongshu carousel cards and WeChat cover image pairs.
+url: https://agentskillexchange.com/skills/generate-social-carousel-and-cover-assets-with-guizang-social-card-skill/
 
 ## Run repeatable marketing operator workflows with Aaron Marketing Skills
 slug: run-repeatable-marketing-operator-workflows-with-aaron-marketing-skills

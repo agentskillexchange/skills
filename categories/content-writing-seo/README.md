@@ -52,6 +52,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Markdoc Markdown-Based Authoring Framework by Stripe](../../skills/markdoc-markdown-authoring-framework-stripe/) | 7.9k | 319k/wk |
 | [Run a long-form SEO blog production workflow inside Claude Code with SEO Machine](../../skills/run-a-long-form-seo-blog-production-workflow-inside-claude-code-with-seo-machine/) | 6.6k | — |
 | [Schema.org Structured Data Generator](../../skills/schema-org-structured-data-generator/) | 6k | — |
+| [Generate social carousel and cover assets with Guizang Social Card Skill](../../skills/generate-social-carousel-and-cover-assets-with-guizang-social-card-skill/) | 5.8k | — |
 | [WriteFreely Federated Markdown Publishing Platform with ActivityPub](../../skills/writefreely-federated-markdown-publishing-platform/) | 5.1k | — |
 | [alex Inclusive Writing Linter](../../skills/alex-inclusive-writing-linter/) | 5.1k | 30.6k/wk |
 | [write-good English Prose Linting for Technical Content](../../skills/write-good-english-prose-linting-technical-content/) | 5.1k | 49.5k/wk |

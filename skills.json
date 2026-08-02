@@ -1,8 +1,37 @@
 {
   "version": "2.0",
-  "total": 2848,
+  "total": 2850,
   "generated": "2026-08-02",
   "skills": [
+    {
+      "slug": "give-coding-agents-repository-search-and-call-graphs-with-codeseek",
+      "name": "Give coding agents repository search and call graphs with CodeSeek",
+      "title": "Give coding agents repository search and call graphs with CodeSeek",
+      "description": "Install CodeSeek to index a repository, expose semantic search and call-graph queries, and register MCP tools for Claude Code or Codex coding agents.",
+      "category": "Code Quality & Review",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 818,
+        "npm_weekly_downloads": 224
+      },
+      "source_url": "https://github.com/CodeBendKit/codeseek",
+      "github_repo": "CodeBendKit/codeseek"
+    },
+    {
+      "slug": "generate-social-carousel-and-cover-assets-with-guizang-social-card-skill",
+      "name": "Generate social carousel and cover assets with Guizang Social Card Skill",
+      "title": "Generate social carousel and cover assets with Guizang Social Card Skill",
+      "description": "Use Guizang Social Card Skill from Claude Code or Codex to turn source material into Rednote/Xiaohongshu carousel cards and WeChat cover image pairs.",
+      "category": "Content Writing & SEO",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 5789
+      },
+      "source_url": "https://github.com/op7418/guizang-social-card-skill",
+      "github_repo": "op7418/guizang-social-card-skill"
+    },
     {
       "slug": "run-repeatable-marketing-operator-workflows-with-aaron-marketing-skills",
       "name": "Run repeatable marketing operator workflows with Aaron Marketing Skills",
@@ -2039,7 +2068,8 @@
       "framework": "Claude Code",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 323
+        "github_stars": 323,
+        "npm_weekly_downloads": 777
       },
       "source_url": "https://github.com/automagik-dev/genie",
       "github_repo": "automagik-dev/genie"
@@ -2420,7 +2450,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 151
+        "github_stars": 151,
+        "npm_weekly_downloads": 43
       },
       "source_url": "https://github.com/ShZhao27208/Aut_Sci_Write",
       "github_repo": "ShZhao27208/Aut_Sci_Write"
