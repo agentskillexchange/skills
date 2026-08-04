@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-04",
-  "total": 2855,
+  "total": 2856,
   "skills": [
+    {
+      "slug": "reduce-agent-terminal-noise-with-omni",
+      "name": "Reduce agent terminal noise with OMNI",
+      "title": "Reduce agent terminal noise with OMNI",
+      "description": "Use OMNI to distill noisy terminal output before coding agents read it while preserving recoverable raw logs for exact follow-up inspection.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/fajarhide/omni",
+      "github_repo": "fajarhide/omni"
+    },
     {
       "slug": "run-adversarial-code-audits-with-bug-hunter",
       "name": "Run adversarial code audits with Bug Hunter",

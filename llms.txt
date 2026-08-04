@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-04
-# Total: 2855 skills
+# Total: 2856 skills
+
+## Reduce agent terminal noise with OMNI
+slug: reduce-agent-terminal-noise-with-omni
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use OMNI to distill noisy terminal output before coding agents read it while preserving recoverable raw logs for exact follow-up inspection.
+url: https://agentskillexchange.com/skills/reduce-agent-terminal-noise-with-omni/
 
 ## Run adversarial code audits with Bug Hunter
 slug: run-adversarial-code-audits-with-bug-hunter
