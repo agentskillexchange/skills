@@ -150,6 +150,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Jujutsu Git-Compatible Version Control System](../../skills/jujutsu-jj-git-compatible-vcs/) | 27.5k | — |
 | [ESLint Code Review](../../skills/eslint-code-review/) | 27.3k | 154.9M/wk |
 | [ESLint Rule Generator Agent](../../skills/eslint-rule-generator-agent/) | 27.2k | 120.2M/wk |
+| [Run open-source terminal coding workflows with Qwen Code](../../skills/run-open-source-terminal-coding-workflows-with-qwen-code/) | 26.6k | 54.7k/wk |
 | [smolagents Code-First AI Agent Library](../../skills/smolagents-code-first-ai-agent-library/) | 26.4k | — |
 | [Run multi-surface coding-agent workflows with Kilo Code](../../skills/run-multi-surface-coding-agent-workflows-with-kilo-code/) | 26.3k | 248.3k/wk |
 | [API Client Generator Skill](../../skills/api-client-generator-skill/) | 26.3k | 5.7M/wk |

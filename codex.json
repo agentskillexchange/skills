@@ -1,9 +1,20 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-08-03",
-  "total": 2852,
+  "generated": "2026-08-04",
+  "total": 2853,
   "skills": [
+    {
+      "slug": "run-open-source-terminal-coding-workflows-with-qwen-code",
+      "name": "Run open-source terminal coding workflows with Qwen Code",
+      "title": "Run open-source terminal coding workflows with Qwen Code",
+      "description": "Use Qwen Code as a repeatable terminal coding agent: install the CLI, authenticate a provider, run interactive or delegated coding sessions, and connect skills,…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/QwenLM/qwen-code",
+      "github_repo": "QwenLM/qwen-code"
+    },
     {
       "slug": "install-anthropic-cybersecurity-skills-for-agent-security-workflows",
       "name": "Install Anthropic Cybersecurity Skills for agent security workflows",

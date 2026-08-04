@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2852 published skills** across **17 categories** · 2,438 security reviewed · Updated 2026-08-03 19:26 UTC
+> **2853 published skills** across **17 categories** · 2,438 security reviewed · Updated 2026-08-04 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (413 skills)
+### 🛠️ Developer Tools (414 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -124,6 +124,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Jujutsu Git-Compatible Version Control System](skills/jujutsu-jj-git-compatible-vcs/) | Jujutsu (jj) is a powerful Git-compatible version control system that reimagines VCS workflows with automatic… | Security Reviewed | 27.5k | — |
 | [ESLint Code Review](skills/eslint-code-review/) | ESLint Code Review is built around ESLint static analysis for JavaScript and TypeScript. The underlying ecosystem is… | Security Reviewed | 27.3k | 154.9M/wk |
 | [ESLint Rule Generator Agent](skills/eslint-rule-generator-agent/) | Generates custom ESLint rules from natural language descriptions using the ESLint RuleTester API and AST selectors.… | Security Reviewed | 27.2k | 120.2M/wk |
+| [Run open-source terminal coding workflows with Qwen Code](skills/run-open-source-terminal-coding-workflows-with-qwen-code/) | Use Qwen Code as a repeatable terminal coding agent: install the CLI, authenticate a provider, run interactive or… | Security Reviewed | 26.6k | 54.7k/wk |
 | [smolagents Code-First AI Agent Library](skills/smolagents-code-first-ai-agent-library/) | smolagents is HuggingFace's barebones Python library for building AI agents that think in code rather than JSON.… | Security Reviewed | 26.4k | — |
 | [Run multi-surface coding-agent workflows with Kilo Code](skills/run-multi-surface-coding-agent-workflows-with-kilo-code/) | Use Kilo Code as an open-source coding agent across VS Code, JetBrains, CLI, cloud runs, and trusted CI workflows… | Published | 26.3k | 248.3k/wk |
 | [API Client Generator Skill](skills/api-client-generator-skill/) | API Client Generator Skill is built around Swagger/OpenAPI tooling. The underlying ecosystem is represented by… | Security Reviewed | 26.3k | 5.7M/wk |

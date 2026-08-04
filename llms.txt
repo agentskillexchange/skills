@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-08-03
-# Total: 2852 skills
+# Generated: 2026-08-04
+# Total: 2853 skills
+
+## Run open-source terminal coding workflows with Qwen Code
+slug: run-open-source-terminal-coding-workflows-with-qwen-code
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Qwen Code as a repeatable terminal coding agent: install the CLI, authenticate a provider, run interactive or delegated coding sessions, and connect skills,…
+url: https://agentskillexchange.com/skills/run-open-source-terminal-coding-workflows-with-qwen-code/
 
 ## Install Anthropic Cybersecurity Skills for agent security workflows
 slug: install-anthropic-cybersecurity-skills-for-agent-security-workflows
