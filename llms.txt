@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-04
-# Total: 2853 skills
+# Total: 2855 skills
+
+## Run adversarial code audits with Bug Hunter
+slug: run-adversarial-code-audits-with-bug-hunter
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Bug Hunter to run scan-first adversarial code audits where Hunter, Skeptic, and Referee agents check repository bugs, security issues, and fix evidence before…
+url: https://agentskillexchange.com/skills/run-adversarial-code-audits-with-bug-hunter/
+
+## Optimize agent skills with Darwin Skill
+slug: optimize-agent-skills-with-darwin-skill
+category: Developer Tools
+framework: Claude Code
+verification: Security Reviewed
+description: Use Darwin Skill to evaluate, improve, test, and keep or roll back changes to a single agent SKILL.md with a validation-gated, human-reviewed optimization loop.
+url: https://agentskillexchange.com/skills/optimize-agent-skills-with-darwin-skill/
 
 ## Run open-source terminal coding workflows with Qwen Code
 slug: run-open-source-terminal-coding-workflows-with-qwen-code

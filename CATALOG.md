@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2853 published skills** across **17 categories** · 2,440 security reviewed · Updated 2026-08-04 07:27 UTC
+> **2855 published skills** across **17 categories** · 2,440 security reviewed · Updated 2026-08-04 13:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (414 skills)
+### 🛠️ Developer Tools (415 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -269,6 +269,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [git-absorb Automatic Fixup Commit Generator](skills/git-absorb-automatic-fixup-commit-generator/) | Automatically generates fixup commits by analyzing staged changes and matching them to the correct ancestor commits.… | Security Reviewed | 5.5k | — |
 | [Use Potpie for spec-driven codebase workflows](skills/use-potpie-for-spec-driven-codebase-workflows/) | Index a repository with Potpie, turn it into a code knowledge graph, and drive focused implementation or review… | Security Reviewed | 5.4k | — |
 | [Devcontainer Specification Builder](skills/devcontainer-specification-builder/) | Generates dev container specifications with feature composition and lifecycle hooks. Uses the Dev Container… | Security Reviewed | 5.4k | — |
+| [Optimize agent skills with Darwin Skill](skills/optimize-agent-skills-with-darwin-skill/) | Use Darwin Skill to evaluate, improve, test, and keep or roll back changes to a single agent SKILL.md with a… | Security Reviewed | 5.3k | — |
 | [Wish SSH Application Framework by Charmbracelet](skills/wish-ssh-application-framework/) | Wish is a Go library for building SSH-accessible applications with sensible defaults and composable middleware. It… | Security Reviewed | 5.1k | — |
 | [fonttools Python Font Manipulation and Subsetting Library](skills/fonttools-python-font-manipulation-subsetting/) | fonttools is a comprehensive Python library for manipulating font files, including TrueType, OpenType, WOFF, and… | Security Reviewed | 5.1k | — |
 | [Baserow Open Source No-Code Database and Automation Platform](skills/baserow-open-source-no-code-database-automation-platform/) | Baserow is an open-source no-code platform for databases, automations, internal apps, and API-first workflows. It is… | Security Reviewed | 4.6k | — |
@@ -1137,7 +1138,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (196 skills)
+### ✅ Code Quality & Review (197 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1300,6 +1301,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Grade agent trajectories and tool-use decisions with AgentEvals](skills/grade-agent-trajectories-and-tool-use-decisions-with-agentevals/) | Score whether an agent took a sensible intermediate path, called tools correctly, and reached the outcome without… | Security Reviewed | 550 | 251k/wk |
 | [Normalize dbt SQL and Jinja templates into consistent review-ready style with sqlfmt](skills/normalize-dbt-sql-and-jinja-templates-into-consistent-review-ready-style-with-sqlfmt/) | Use sqlfmt to reformat dbt-oriented SQL and Jinja-heavy query files into a stable style before code review, CI… | Security Reviewed | 530 | — |
 | [Generate and evaluate agent skills from traces before shipping them into repeatable production workflows with UPskill](skills/generate-and-evaluate-agent-skills-from-traces-before-shipping-them-into-repeatable-production-workflows-with-upskill/) | Turn successful traces into reusable skills, then benchmark those skills across models before you trust them in… | Security Reviewed | 477 | — |
+| [Run adversarial code audits with Bug Hunter](skills/run-adversarial-code-audits-with-bug-hunter/) | Use Bug Hunter to run scan-first adversarial code audits where Hunter, Skeptic, and Referee agents check repository… | Security Reviewed | 475 | 92/wk |
 | [Broken Link Verification for Static Sites and Documentation](skills/broken-link-verification-static-sites-documentation/) | Uses htmltest to crawl generated documentation or static site output, detect broken internal and external links, and… | Security Reviewed | 371 | — |
 | [Mock AI app dependencies for deterministic local and CI tests](skills/mock-ai-app-dependencies-for-deterministic-local-and-ci-tests/) | Use AiMock when an agent needs reproducible tests around LLM APIs, MCP tools, A2A flows, vector stores, search, or… | Security Reviewed | 324 | 6.4k/wk |
 | [Validate CI and app config files against upstream JSON schemas before merge](skills/validate-ci-and-app-config-files-against-upstream-json-schemas-before-merge/) | Use check-jsonschema when an agent needs to catch broken GitHub Actions, Renovate, Azure Pipelines, and other… | Security Reviewed | 312 | — |

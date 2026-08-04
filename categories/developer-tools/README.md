@@ -295,6 +295,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [git-absorb Automatic Fixup Commit Generator](../../skills/git-absorb-automatic-fixup-commit-generator/) | 5.5k | — |
 | [Use Potpie for spec-driven codebase workflows](../../skills/use-potpie-for-spec-driven-codebase-workflows/) | 5.4k | — |
 | [Devcontainer Specification Builder](../../skills/devcontainer-specification-builder/) | 5.4k | — |
+| [Optimize agent skills with Darwin Skill](../../skills/optimize-agent-skills-with-darwin-skill/) | 5.3k | — |
 | [Wish SSH Application Framework by Charmbracelet](../../skills/wish-ssh-application-framework/) | 5.1k | — |
 | [fonttools Python Font Manipulation and Subsetting Library](../../skills/fonttools-python-font-manipulation-subsetting/) | 5.1k | — |
 | [Baserow Open Source No-Code Database and Automation Platform](../../skills/baserow-open-source-no-code-database-automation-platform/) | 4.6k | — |

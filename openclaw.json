@@ -2,8 +2,30 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-04",
-  "total": 2853,
+  "total": 2855,
   "skills": [
+    {
+      "slug": "run-adversarial-code-audits-with-bug-hunter",
+      "name": "Run adversarial code audits with Bug Hunter",
+      "title": "Run adversarial code audits with Bug Hunter",
+      "description": "Use Bug Hunter to run scan-first adversarial code audits where Hunter, Skeptic, and Referee agents check repository bugs, security issues, and fix evidence before…",
+      "category": "Code Quality & Review",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/codexstar69/bug-hunter",
+      "github_repo": "codexstar69/bug-hunter"
+    },
+    {
+      "slug": "optimize-agent-skills-with-darwin-skill",
+      "name": "Optimize agent skills with Darwin Skill",
+      "title": "Optimize agent skills with Darwin Skill",
+      "description": "Use Darwin Skill to evaluate, improve, test, and keep or roll back changes to a single agent SKILL.md with a validation-gated, human-reviewed optimization loop.",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/alchaincyf/darwin-skill",
+      "github_repo": "alchaincyf/darwin-skill"
+    },
     {
       "slug": "run-open-source-terminal-coding-workflows-with-qwen-code",
       "name": "Run open-source terminal coding workflows with Qwen Code",
