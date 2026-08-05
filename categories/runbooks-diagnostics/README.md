@@ -212,6 +212,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Incident Timeline Builder](../../skills/incident-timeline-builder/) | — | — |
 | [Investigate backend-only WordPress performance bottlenecks](../../skills/investigate-backend-only-wordpress-performance-bottlenecks/) | — | — |
 | [Kubernetes CrashLoopBackOff Diagnoser](../../skills/k8s-crashloopbackoff-diagnoser/) | — | — |
+| [OutageDeck Dependency Outage Triage](../../skills/outagedeck-dependency-outage-triage/) | — | — |
 | [PagerDuty Event Orchestration Runbook](../../skills/pagerduty-event-orchestration-runbook/) | — | — |
 | [Remote-control tmux sessions for interactive CLI agents](../../skills/remote-control-tmux-sessions-for-interactive-cli-agents/) | — | — |
 | [Systematic Debugging and Error Recovery](../../skills/systematic-debugging-and-error-recovery/) | — | — |

@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-05",
-  "total": 2861,
+  "total": 2862,
   "skills": [
+    {
+      "slug": "outagedeck-dependency-outage-triage",
+      "name": "OutageDeck Dependency Outage Triage",
+      "title": "OutageDeck Dependency Outage Triage",
+      "description": "Checks official cloud and SaaS status evidence through the OutageDeck MCP server or anonymous REST API before an agent changes code for 5xx, timeout,…",
+      "category": "Runbooks & Diagnostics",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/outagedeck/codex-plugins",
+      "github_repo": "outagedeck/codex-plugins"
+    },
     {
       "slug": "shopify-app-review-triage-workflow",
       "name": "Shopify App Review Triage Workflow",

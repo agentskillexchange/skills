@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-05
-# Total: 2861 skills
+# Total: 2862 skills
+
+## OutageDeck Dependency Outage Triage
+slug: outagedeck-dependency-outage-triage
+category: Runbooks & Diagnostics
+framework: Multi-Framework
+verification: Published
+description: Checks official cloud and SaaS status evidence through the OutageDeck MCP server or anonymous REST API before an agent changes code for 5xx, timeout,…
+url: https://agentskillexchange.com/skills/outagedeck-dependency-outage-triage/
 
 ## Shopify App Review Triage Workflow
 slug: shopify-app-review-triage-workflow
