@@ -80,7 +80,7 @@ Report a compact table with provider, current status, affected services, active 
 
 - Prefer public read-only MCP or REST interfaces.
 - Never invent a provider status, incident, service, source URL, or update time.
-- Do not roll back a deployment, change code, or disable security controls solely because a provider is degraded.
+- Do not roll back a deployment, change code, or weaken security controls solely because a provider is degraded.
 - Never request or paste an OutageDeck API key in chat.
 - Account mutation tools require the user's explicit request and the host's confirmation rules. Treat `remove_custom_provider` as destructive and require confirmation of the exact provider immediately before use.
 
