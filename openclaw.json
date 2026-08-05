@@ -2,8 +2,52 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-05",
-  "total": 2857,
+  "total": 2861,
   "skills": [
+    {
+      "slug": "shopify-app-review-triage-workflow",
+      "name": "Shopify App Review Triage Workflow",
+      "title": "Shopify App Review Triage Workflow",
+      "description": "Turns public Shopify App Store review rows into a prioritized P0-P3 triage brief with an explicit needs-human-read bucket, where every item keeps its public…",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/alfredtech2026/shopify-app-review-brief",
+      "github_repo": "alfredtech2026/shopify-app-review-brief"
+    },
+    {
+      "slug": "delegate-coding-work-to-separate-agent-clis-with-delegate-skills",
+      "name": "Delegate coding work to separate agent CLIs with delegate-skills",
+      "title": "Delegate coding work to separate agent CLIs with delegate-skills",
+      "description": "Use delegate-skills to discover implementer CLIs, create approved delegation lanes, dispatch bounded coding tasks, and review the returned diff before landing commits yourself.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/amElnagdy/delegate-skills",
+      "github_repo": "amElnagdy/delegate-skills"
+    },
+    {
+      "slug": "route-agent-reasoning-through-cc-thinking-skills",
+      "name": "Route agent reasoning through cc-thinking-skills",
+      "title": "Route agent reasoning through cc-thinking-skills",
+      "description": "Use cc-thinking-skills to install and invoke a portable catalog of mental-model and critical-thinking skills for decisions, debugging, systems analysis, risk, and strategy across compatible…",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/tjboudreaux/cc-thinking-skills",
+      "github_repo": "tjboudreaux/cc-thinking-skills"
+    },
+    {
+      "slug": "scan-agent-skills-before-installation-with-skillspector",
+      "name": "Scan agent skills before installation with SkillSpector",
+      "title": "Scan agent skills before installation with SkillSpector",
+      "description": "Use SkillSpector to scan Claude Code, Codex, Gemini, MCP, and other agent skills for vulnerabilities, malicious patterns, prompt injection, data exfiltration, and supply-chain risk…",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/NVIDIA/SkillSpector",
+      "github_repo": "NVIDIA/SkillSpector"
+    },
     {
       "slug": "turn-source-novels-into-playable-games-with-noveltogame",
       "name": "Turn source novels into playable games with NovelToGame",

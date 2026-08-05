@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C857-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C861-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C445-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,857 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,861 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,16 +87,16 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Shopify App Review Triage Workflow](skills/shopify-app-review-triage-workflow/) | Turns public Shopify App Store review rows into a prioritized P0-P3 triage brief with an explicit needs-human-read bucket... | - | Templates & Workflows |
+| [Delegate coding work to separate agent CLIs with delegate-skills](skills/delegate-coding-work-to-separate-agent-clis-with-delegate-skills/) | Use delegate-skills to discover implementer CLIs, create approved delegation lanes, dispatch bounded coding tasks, and review the returned... | 689 | Developer Tools |
+| [Route agent reasoning through cc-thinking-skills](skills/route-agent-reasoning-through-cc-thinking-skills/) | Use cc-thinking-skills to install and invoke a portable catalog of mental-model and critical-thinking skills for decisions, debugging, systems... | 930 | Templates & Workflows |
+| [Scan agent skills before installation with SkillSpector](skills/scan-agent-skills-before-installation-with-skillspector/) | Use SkillSpector to scan Claude Code, Codex, Gemini, MCP, and other agent skills for vulnerabilities, malicious patterns, prompt... | 14.2k | Security & Verification |
 | [Turn source novels into playable games with NovelToGame](skills/turn-source-novels-into-playable-games-with-noveltogame/) | Use NovelToGame to run a staged agent workflow that analyzes a novel, selects concepts, builds world and art... | 559 | Image & Creative Automation |
 | [Reduce agent terminal noise with OMNI](skills/reduce-agent-terminal-noise-with-omni/) | Use OMNI to distill noisy terminal output before coding agents read it while preserving recoverable raw logs for... | 319 | Developer Tools |
 | [Run adversarial code audits with Bug Hunter](skills/run-adversarial-code-audits-with-bug-hunter/) | Use Bug Hunter to run scan-first adversarial code audits where Hunter, Skeptic, and Referee agents check repository bugs... | 475 | Code Quality & Review |
 | [Optimize agent skills with Darwin Skill](skills/optimize-agent-skills-with-darwin-skill/) | Use Darwin Skill to evaluate, improve, test, and keep or roll back changes to a single agent SKILL.md... | 5.3k | Developer Tools |
 | [Run open-source terminal coding workflows with Qwen Code](skills/run-open-source-terminal-coding-workflows-with-qwen-code/) | Use Qwen Code as a repeatable terminal coding agent: install the CLI, authenticate a provider, run interactive or... | 26.6k | Developer Tools |
 | [Install Anthropic Cybersecurity Skills for agent security workflows](skills/install-anthropic-cybersecurity-skills-for-agent-security-workflows/) | Add a large source-backed cybersecurity skills library to Claude Code, Codex CLI, Cursor, Gemini CLI, and other agents... | 27.2k | Security & Verification |
-| [Route multi-provider LLM traffic through GoModel](skills/route-multi-provider-llm-traffic-through-gomodel/) | Use GoModel as an OpenAI-compatible and Anthropic-compatible gateway for routing, observability, failover, and cost tracking across model providers | 1.0k | Integrations & Connectors |
-| [Give coding agents repository search and call graphs with CodeSeek](skills/give-coding-agents-repository-search-and-call-graphs-with-codeseek/) | Install CodeSeek to index a repository, expose semantic search and call-graph queries, and register MCP tools for Claude... | 818 | Code Quality & Review |
-| [Generate social carousel and cover assets with Guizang Social Card Skill](skills/generate-social-carousel-and-cover-assets-with-guizang-social-card-skill/) | Use Guizang Social Card Skill from Claude Code or Codex to turn source material into Rednote/Xiaohongshu carousel cards... | 5.8k | Content Writing & SEO |
-| [Run repeatable marketing operator workflows with Aaron Marketing Skills](skills/run-repeatable-marketing-operator-workflows-with-aaron-marketing-skills/) | Install a maintained marketing skill library so agents can run scoped SEO/GEO, email, paid ads, influencer, launch, social... | 2.5k | Content Writing & SEO |
 
 ---
 
@@ -115,7 +115,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Run adversarial code audits with Bug Hunter](skills/run-adversarial-code-audits-with-bug-hunter/) | Use Bug Hunter to run scan-first adversarial code audits where Hunter, Skeptic, and Referee agents check repository bugs... | 475 | Code Quality & Review |
 | [Run Parallel Divergent Ideation With ADHD](skills/run-parallel-divergent-ideation-with-adhd/) | Use ADHD to fan out isolated reasoning branches for open-ended coding-agent decisions, then score, prune, and deepen the... | 1.3k | Templates & Workflows |
 | [Extract financial data context for agents with OpenBB](skills/use-openbb-as-financial-data-context-for-agents/) | Extract source-backed financial market, filings, economics, and research data with OpenBB, then route the outputs into agent workflows... | 70.7k | Data Extraction & Transformation |
-| [Inspect BullMQ agent job queues with Bull Board](skills/inspect-bullmq-agent-job-queues-with-bull-board/) | Use Bull Board to add a protected dashboard for Bull and BullMQ queues so operators can inspect, retry... | 3.4k | Monitoring & Alerts |
+| [Scan agent skills before installation with SkillSpector](skills/scan-agent-skills-before-installation-with-skillspector/) | Use SkillSpector to scan Claude Code, Codex, Gemini, MCP, and other agent skills for vulnerabilities, malicious patterns, prompt... | 14.2k | Security & Verification |
 
 ---
 
@@ -123,9 +123,9 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 416 | CLI tools, scaffolders, dev environment setup |
-| 🔒 | [**Security & Verification**](categories/security-verification/) | 240 | Vulnerability scanning, auth setup, compliance |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 226 | Scaffolders, boilerplate generators, workflow templates |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 417 | CLI tools, scaffolders, dev environment setup |
+| 🔒 | [**Security & Verification**](categories/security-verification/) | 241 | Vulnerability scanning, auth setup, compliance |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 228 | Scaffolders, boilerplate generators, workflow templates |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 217 | ETL pipelines, parsing, format conversion |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 197 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,857 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,861 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,445 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

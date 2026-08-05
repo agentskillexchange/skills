@@ -392,6 +392,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Store Python project task runners in pyproject.toml with taskipy](../../skills/store-python-project-task-runners-in-pyproject-toml-with-taskipy/) | 714 | — |
 | [Run deterministic multi-agent coding workflows with Bernstein](../../skills/run-deterministic-multi-agent-coding-workflows-with-bernstein/) | 704 | — |
 | [Manage agent runtime capabilities with CAPA](../../skills/manage-agent-runtime-capabilities-with-capa/) | 692 | — |
+| [Delegate coding work to separate agent CLIs with delegate-skills](../../skills/delegate-coding-work-to-separate-agent-clis-with-delegate-skills/) | 689 | — |
 | [Manage cross-agent skill files from Obsidian with Agentfiles](../../skills/manage-cross-agent-skill-files-from-obsidian-with-agentfiles/) | 679 | — |
 | [Install Chinese Claude Code skills for engineering workflows](../../skills/install-chinese-claude-code-skills-for-engineering-workflows/) | 670 | — |
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](../../skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | 621 | 4.9k/wk |

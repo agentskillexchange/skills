@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-05
-# Total: 2857 skills
+# Total: 2861 skills
+
+## Shopify App Review Triage Workflow
+slug: shopify-app-review-triage-workflow
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Published
+description: Turns public Shopify App Store review rows into a prioritized P0-P3 triage brief with an explicit needs-human-read bucket, where every item keeps its public…
+url: https://agentskillexchange.com/skills/shopify-app-review-triage-workflow/
+
+## Delegate coding work to separate agent CLIs with delegate-skills
+slug: delegate-coding-work-to-separate-agent-clis-with-delegate-skills
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use delegate-skills to discover implementer CLIs, create approved delegation lanes, dispatch bounded coding tasks, and review the returned diff before landing commits yourself.
+url: https://agentskillexchange.com/skills/delegate-coding-work-to-separate-agent-clis-with-delegate-skills/
+
+## Route agent reasoning through cc-thinking-skills
+slug: route-agent-reasoning-through-cc-thinking-skills
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use cc-thinking-skills to install and invoke a portable catalog of mental-model and critical-thinking skills for decisions, debugging, systems analysis, risk, and strategy across compatible…
+url: https://agentskillexchange.com/skills/route-agent-reasoning-through-cc-thinking-skills/
+
+## Scan agent skills before installation with SkillSpector
+slug: scan-agent-skills-before-installation-with-skillspector
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use SkillSpector to scan Claude Code, Codex, Gemini, MCP, and other agent skills for vulnerabilities, malicious patterns, prompt injection, data exfiltration, and supply-chain risk…
+url: https://agentskillexchange.com/skills/scan-agent-skills-before-installation-with-skillspector/
 
 ## Turn source novels into playable games with NovelToGame
 slug: turn-source-novels-into-playable-games-with-noveltogame

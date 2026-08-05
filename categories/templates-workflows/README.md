@@ -204,6 +204,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Coordinate multi-agent coding rigs with Gas City](../../skills/coordinate-multi-agent-coding-rigs-with-gas-city/) | 1k | — |
 | [Run academic writing, analysis, and replication workflows with quality gates in claude-code-my-workflow](../../skills/run-academic-writing-analysis-and-replication-workflows-with-quality-gates-in-claude-code-my-workflow/) | 970 | — |
 | [Run architecture-first coding work with Spec-Driven Develop](../../skills/run-architecture-first-coding-work-with-spec-driven-develop/) | 953 | — |
+| [Route agent reasoning through cc-thinking-skills](../../skills/route-agent-reasoning-through-cc-thinking-skills/) | 930 | — |
 | [Build and sync n8n workflows from code with n8n-as-code](../../skills/build-and-sync-n8n-workflows-from-code-with-n8n-as-code/) | 884 | 297/wk |
 | [Build deterministic multi-agent networks with Inngest AgentKit](../../skills/build-deterministic-multi-agent-networks-with-inngest-agentkit/) | 880 | 62.8k/wk |
 | [Prove Agent Skills with SkillForge](../../skills/prove-agent-skills-with-skillforge/) | 802 | — |
@@ -264,6 +265,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Review open pull requests against repository contribution guidelines](../../skills/review-open-pull-requests-against-repository-contribution-guidelines/) | — | — |
 | [Run context → spec → implement coding loops in Claude Code with Conductor](../../skills/run-context-spec-and-implement-coding-loops-in-claude-code-with-conductor/) | — | — |
 | [Scaffold and bundle rich single-file web artifacts with React, Tailwind, and shadcn/ui](../../skills/scaffold-and-bundle-rich-single-file-web-artifacts-with-react-tailwind-and-shadcn-ui/) | — | — |
+| [Shopify App Review Triage Workflow](../../skills/shopify-app-review-triage-workflow/) | — | — |
 | [Test documentation sites across mobile, tablet, and desktop with GitHub Agentic Workflows](../../skills/test-documentation-sites-across-mobile-tablet-and-desktop-with-github-agentic-workflows/) | — | — |
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](../../skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | — | — |
 

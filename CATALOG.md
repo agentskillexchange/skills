@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2857 published skills** across **17 categories** · 2,445 security reviewed · Updated 2026-08-05 01:26 UTC
+> **2861 published skills** across **17 categories** · 2,445 security reviewed · Updated 2026-08-05 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (416 skills)
+### 🛠️ Developer Tools (417 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -366,6 +366,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Store Python project task runners in pyproject.toml with taskipy](skills/store-python-project-task-runners-in-pyproject-toml-with-taskipy/) | Define short Python project commands in pyproject.toml so agents and maintainers can run the same test, lint, docs,… | Security Reviewed | 714 | — |
 | [Run deterministic multi-agent coding workflows with Bernstein](skills/run-deterministic-multi-agent-coding-workflows-with-bernstein/) | Orchestrate parallel CLI coding agents in isolated git worktrees with reproducible scheduling, gates, replay… | Security Reviewed | 704 | — |
 | [Manage agent runtime capabilities with CAPA](skills/manage-agent-runtime-capabilities-with-capa/) | Use CAPA to declare coding-agent skills, rules, tools, MCP servers, sub-agents, and plugins once in… | Security Reviewed | 692 | — |
+| [Delegate coding work to separate agent CLIs with delegate-skills](skills/delegate-coding-work-to-separate-agent-clis-with-delegate-skills/) | Use delegate-skills to discover implementer CLIs, create approved delegation lanes, dispatch bounded coding tasks,… | Security Reviewed | 689 | — |
 | [Manage cross-agent skill files from Obsidian with Agentfiles](skills/manage-cross-agent-skill-files-from-obsidian-with-agentfiles/) | Use Agentfiles when an operator wants to browse, create, edit, install, and audit skills, commands, agents, rules,… | Published | 679 | — |
 | [Install Chinese Claude Code skills for engineering workflows](skills/install-chinese-claude-code-skills-for-engineering-workflows/) | Use claude-code-skills-zh to install Chinese-language Claude Code skills for repeatable code review, README writing,… | Security Reviewed | 670 | — |
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | Convert a finished coding-agent session into a shareable HTML replay instead of sending raw logs or bulky screen… | Security Reviewed | 621 | 4.9k/wk |
@@ -432,7 +433,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (240 skills)
+### 🔒 Security & Verification (241 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -492,6 +493,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [SAST Pipeline Scanner](skills/sast-pipeline-scanner/) | Runs static application security testing using Semgrep rules and CodeQL queries against pull request diffs. Supports… | Security Reviewed | 14.9k | — |
 | [SAST Rule Compiler for Semgrep](skills/sast-rule-compiler-semgrep/) | Compiles and validates custom Semgrep SAST rules using the semgrep-core engine. Tests pattern matching against… | Security Reviewed | 14.8k | — |
 | [Semgrep Supply Chain Rule Pack Runner](skills/semgrep-supply-chain-rule-pack-runner/) | Runs Semgrep code and supply-chain checks with `semgrep scan`, registry rule packs, and dependency-aware findings to… | Security Reviewed | 14.6k | — |
+| [Scan agent skills before installation with SkillSpector](skills/scan-agent-skills-before-installation-with-skillspector/) | Use SkillSpector to scan Claude Code, Codex, Gemini, MCP, and other agent skills for vulnerabilities, malicious… | Security Reviewed | 14.2k | — |
 | [Fuzz web paths, parameters, and virtual hosts with ffuf to surface hidden attack surface](skills/fuzz-web-paths-parameters-and-virtual-hosts-with-ffuf-to-surface-hidden-attack-surface/) | Probe for hidden routes, parameter behaviors, and vhost exposures fast, before you spend time manually poking at the… | Security Reviewed | 14k | — |
 | [Audit cloud accounts for security misconfigurations with Prowler](skills/audit-cloud-accounts-for-security-misconfigurations-with-prowler/) | Run targeted AWS, Azure, or GCP security and compliance audits when an agent needs actionable cloud findings instead… | Security Reviewed | 13.6k | — |
 | [Score RAG answer quality and retrieval quality before rollout with Ragas](skills/score-rag-answer-quality-and-retrieval-quality-before-rollout-with-ragas/) | Measure whether a RAG change actually improved answers and retrieval, instead of guessing from a few spot checks. | Security Reviewed | 13.4k | — |
@@ -680,7 +682,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (226 skills)
+### 📄 Templates & Workflows (228 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -850,6 +852,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Coordinate multi-agent coding rigs with Gas City](skills/coordinate-multi-agent-coding-rigs-with-gas-city/) | Define and supervise multi-agent coding rigs with declarative city configuration, runtime providers, work routing,… | Security Reviewed | 1k | — |
 | [Run academic writing, analysis, and replication workflows with quality gates in claude-code-my-workflow](skills/run-academic-writing-analysis-and-replication-workflows-with-quality-gates-in-claude-code-my-workflow/) | Use claude-code-my-workflow when a research task needs a Claude Code workflow for papers, slides, data analysis, or… | Security Reviewed | 970 | — |
 | [Run architecture-first coding work with Spec-Driven Develop](skills/run-architecture-first-coding-work-with-spec-driven-develop/) | Guides Markdown-capable coding agents through large changes with deep analysis, intent refinement, task… | Security Reviewed | 953 | — |
+| [Route agent reasoning through cc-thinking-skills](skills/route-agent-reasoning-through-cc-thinking-skills/) | Use cc-thinking-skills to install and invoke a portable catalog of mental-model and critical-thinking skills for… | Security Reviewed | 930 | — |
 | [Build and sync n8n workflows from code with n8n-as-code](skills/build-and-sync-n8n-workflows-from-code-with-n8n-as-code/) | Inspect n8n nodes and templates, generate typed workflow code, and sync automations through Git-friendly files… | Security Reviewed | 884 | 297/wk |
 | [Build deterministic multi-agent networks with Inngest AgentKit](skills/build-deterministic-multi-agent-networks-with-inngest-agentkit/) | Use Inngest AgentKit to build TypeScript agent networks with deterministic routing, shared state, MCP tools, and… | Published | 880 | 62.8k/wk |
 | [Prove Agent Skills with SkillForge](skills/prove-agent-skills-with-skillforge/) | Use SkillForge to triage, create, test, review, compile, and maintain Claude Code and Codex-ready skills with… | Security Reviewed | 802 | — |
@@ -910,6 +913,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Review open pull requests against repository contribution guidelines](skills/review-open-pull-requests-against-repository-contribution-guidelines/) | This entry turns GitHub Next's Contribution Check workflow into a maintainer-facing agent routine. The agent batches… | Security Reviewed | — | — |
 | [Run context → spec → implement coding loops in Claude Code with Conductor](skills/run-context-spec-and-implement-coding-loops-in-claude-code-with-conductor/) | Turn Claude Code into a structured project workflow that captures context, plans work, and executes implementation… | Security Reviewed | — | — |
 | [Scaffold and bundle rich single-file web artifacts with React, Tailwind, and shadcn/ui](skills/scaffold-and-bundle-rich-single-file-web-artifacts-with-react-tailwind-and-shadcn-ui/) | Use Anthropic's web-artifacts-builder skill to scaffold a React artifact project, build a richer interface with… | Security Reviewed | — | — |
+| [Shopify App Review Triage Workflow](skills/shopify-app-review-triage-workflow/) | Turns public Shopify App Store review rows into a prioritized P0-P3 triage brief with an explicit needs-human-read… | Published | — | — |
 | [Test documentation sites across mobile, tablet, and desktop with GitHub Agentic Workflows](skills/test-documentation-sites-across-mobile-tablet-and-desktop-with-github-agentic-workflows/) | Run a repeatable docs-site check that builds locally, opens the site across device sizes, and reports layout,… | Security Reviewed | — | — |
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown,… | Published | — | — |
 

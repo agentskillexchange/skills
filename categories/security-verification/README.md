@@ -94,6 +94,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [SAST Pipeline Scanner](../../skills/sast-pipeline-scanner/) | 14.9k | — |
 | [SAST Rule Compiler for Semgrep](../../skills/sast-rule-compiler-semgrep/) | 14.8k | — |
 | [Semgrep Supply Chain Rule Pack Runner](../../skills/semgrep-supply-chain-rule-pack-runner/) | 14.6k | — |
+| [Scan agent skills before installation with SkillSpector](../../skills/scan-agent-skills-before-installation-with-skillspector/) | 14.2k | — |
 | [Fuzz web paths, parameters, and virtual hosts with ffuf to surface hidden attack surface](../../skills/fuzz-web-paths-parameters-and-virtual-hosts-with-ffuf-to-surface-hidden-attack-surface/) | 14k | — |
 | [Audit cloud accounts for security misconfigurations with Prowler](../../skills/audit-cloud-accounts-for-security-misconfigurations-with-prowler/) | 13.6k | — |
 | [Score RAG answer quality and retrieval quality before rollout with Ragas](../../skills/score-rag-answer-quality-and-retrieval-quality-before-rollout-with-ragas/) | 13.4k | — |
