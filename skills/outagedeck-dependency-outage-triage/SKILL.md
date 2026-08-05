@@ -2,10 +2,12 @@
 name: "OutageDeck Dependency Outage Triage"
 slug: "outagedeck-dependency-outage-triage"
 description: "Checks official cloud and SaaS status evidence through the OutageDeck MCP server or anonymous REST API before an agent changes code for 5xx, timeout, deployment, authentication, or integration failures."
+verification: "listed"
+source: "https://github.com/outagedeck/codex-plugins"
 category: "Runbooks & Diagnostics"
 framework: "Multi-Framework"
-verification: listed
-source: "https://github.com/outagedeck/codex-plugins"
+tool_ecosystem:
+  github_repo: "outagedeck/codex-plugins"
 ---
 
 # OutageDeck Dependency Outage Triage
@@ -14,40 +16,9 @@ Use this skill when a failing application, CI job, deployment, API call, authent
 
 ## Installation
 
-### Upstream portable skill
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-```bash
-npm exec --package=skills@1.5.21 -- skills add outagedeck/codex-plugins --skill triage-dependency-outages
-```
-
-### Codex plugin with the MCP server bundled
-
-```bash
-codex plugin marketplace add outagedeck/codex-plugins
-codex plugin add outagedeck@outagedeck
-```
-
-### Claude Code plugin with the MCP server bundled
-
-```bash
-claude plugin marketplace add outagedeck/codex-plugins
-claude plugin install outagedeck@outagedeck
-```
-
-### Agent Skill Exchange manual install
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git
-cp -R skills/skills/outagedeck-dependency-outage-triage ~/.agent-skills/outagedeck-dependency-outage-triage
-```
-
-### Optional Agent Skill Exchange installer
-
-The `skills` npm package is maintained by Vercel Labs / third parties, not Agent Skill Exchange. Pin the package version when using it:
-
-```bash
-npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill outagedeck-dependency-outage-triage
-```
+- Source: https://github.com/outagedeck/codex-plugins
 
 ## Runtime access
 
