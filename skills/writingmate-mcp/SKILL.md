@@ -2,12 +2,15 @@
 name: "Writingmate MCP Video and Image Generation"
 slug: "writingmate-mcp"
 description: "Connects Claude Code, Codex, Cursor, and other MCP hosts to Writingmate for model discovery, text comparison, image generation, and video generation with Seedance, Sora, Veo, Kling, PixVerse, and other available models."
+github_stars: 0
 verification: "listed"
 source: "https://github.com/writingmate/skills"
+author: "Writingmate"
 category: "Image & Creative Automation"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "writingmate/skills"
+  github_stars: 0
 ---
 
 # Writingmate MCP Video and Image Generation
@@ -26,41 +29,11 @@ OAuth is preferred when the MCP host supports it. A Writingmate Developer Key ca
 
 ## Installation
 
-### OpenClaw
+Install or set up from the source-backed instructions:
 
-```bash
-clawhub install writingmate-mcp
-```
-
-### Direct repo/manual install
-
-Clone Agent Skill Exchange and copy this skill into the skill directory used by your agent:
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git
-cp -R skills/skills/writingmate-mcp ~/.agent-skills/writingmate-mcp
-```
-
-The canonical Writingmate skill can also be installed directly:
-
-```bash
 npx skills add writingmate/skills --skill writingmate-mcp
-```
 
-For Claude Code, connect the remote server:
-
-```bash
-claude mcp add --transport http writingmate https://writingmate.ai/api/mcp
-claude mcp list
-```
-
-For Codex hosts that require a fixed bearer token, configure the endpoint and reference an environment variable containing the Developer Key:
-
-```toml
-[mcp_servers.writingmate]
-url = "https://writingmate.ai/api/mcp"
-bearer_token_env_var = "WRITINGMATE_DEVELOPER_KEY"
-```
+- Source: https://github.com/writingmate/skills
 
 ## Agent workflow
 

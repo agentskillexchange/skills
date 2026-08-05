@@ -2,10 +2,12 @@
 name: "Shopify App Review Triage Workflow"
 slug: "shopify-app-review-triage-workflow"
 description: "Turns public Shopify App Store review rows into a prioritized P0-P3 triage brief with an explicit needs-human-read bucket, where every item keeps its public source link and is labeled first pass or human-checked. Use it when low-star app reviews or merchant feedback need to be classified, clustered, and written up as a weekly product or support brief for one Shopify app or a portfolio plus watched competitors."
-category: "Templates & Workflows"
-framework: "Multi-Framework"
 verification: "listed"
 source: "https://github.com/alfredtech2026/shopify-app-review-brief"
+category: "Templates & Workflows"
+framework: "Multi-Framework"
+tool_ecosystem:
+  github_repo: "alfredtech2026/shopify-app-review-brief"
 ---
 
 # Shopify App Review Triage Workflow
@@ -253,27 +255,7 @@ sponsored by Shopify Inc. or any app developer.
 
 ## Installation
 
-### OpenClaw
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-```bash
-clawhub install shopify-app-review-triage-workflow
-```
+- Source: https://github.com/alfredtech2026/shopify-app-review-brief
 
-### Direct repo/manual install
-
-Clone the Agent Skill Exchange repository and copy this skill directory into the skill folder
-used by your agent runtime:
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git
-cp -R skills/skills/shopify-app-review-triage-workflow ~/.agent-skills/shopify-app-review-triage-workflow
-```
-
-### Optional Third-Party Installer
-
-The `skills` npm package is maintained by Vercel Labs / third parties, not AgentSkillExchange.
-If you choose to use it, pin the package version:
-
-```bash
-npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill shopify-app-review-triage-workflow
-```
