@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2856 published skills** across **17 categories** · 2,442 security reviewed · Updated 2026-08-04 19:26 UTC
+> **2857 published skills** across **17 categories** · 2,442 security reviewed · Updated 2026-08-05 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -2696,7 +2696,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [YouTube Chapter Generator from Transcripts](skills/youtube-chapter-generator-transcripts/) | Extracts YouTube video transcripts via the youtube-transcript-api Python library and generates semantic chapter… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (99 skills)
+### 🎨 Image & Creative Automation (100 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -2772,6 +2772,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Generate Template-Matched PPTX Decks with gpt-image2-ppt-skills](skills/generate-template-matched-pptx-decks-with-gpt-image2-ppt-skills/) | Use gpt-image2-ppt-skills to have an agent create image-first or editable PowerPoint decks with gpt-image-2, bundled… | Security Reviewed | 1.1k | — |
 | [Rive Runtime Animation Controller](skills/rive-runtime-animation-controller/) | Controls Rive (.riv) interactive animations at runtime using @rive-app/canvas-advanced, manages state machine… | Security Reviewed | 1.1k | 19.7k/wk |
 | [CairoSVG SVG to PNG PDF and PostScript Converter](skills/cairosvg-svg-to-png-pdf-converter/) | CairoSVG is a Python-based SVG converter built on the Cairo 2D graphics library. It converts SVG files to PNG, PDF,… | Published | 917 | — |
+| [Turn source novels into playable games with NovelToGame](skills/turn-source-novels-into-playable-games-with-noveltogame/) | Use NovelToGame to run a staged agent workflow that analyzes a novel, selects concepts, builds world and art… | Security Reviewed | 559 | — |
 | [Drive ComfyUI generation workflows through comfyui-mcp](skills/drive-comfyui-generation-workflows-through-comfyui-mcp/) | Use comfyui-mcp to let an MCP-capable agent author, run, debug, and manage ComfyUI image, video, audio, model, and… | Security Reviewed | 386 | 86.4k/wk |
 | [Generate launch-ready web app icons and social assets with Web Asset Generator](skills/generate-launch-ready-web-app-icons-and-social-assets-with-web-asset-generator/) | Ask Claude Code for favicons, app icons, and social preview images, then generate the full asset set and integration… | Security Reviewed | 321 | — |
 | [Generate fast static photo album sites from curated folders with DD Photos](skills/generate-fast-static-photo-album-sites-from-curated-folders-with-dd-photos/) | Turn exported photo folders into a mobile-friendly static album site without standing up a database-backed gallery… | Security Reviewed | 155 | — |

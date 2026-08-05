@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C856-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C857-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C442-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,856 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,857 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Typst Markup-Based Document Typesetting System](skills/typst-markup-typesetting-system/)** — Typst is a modern markup-based typesetting system designed to replace LaTeX with a faster, easier-to-learn alternative. It features built-in markup, a scripting system, math typesetting, bibliography management, and…
+**[ESLint Rule Conflict Detector](skills/eslint-rule-conflict-detector-2/)** — Analyzes .eslintrc configurations and extended rulesets using the ESLint Node.js API and eslint-config-inspector. Detects conflicting rules between Prettier, TypeScript-ESLint, and Airbnb presets, generating a unified conflict-free config.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -87,6 +87,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Turn source novels into playable games with NovelToGame](skills/turn-source-novels-into-playable-games-with-noveltogame/) | Use NovelToGame to run a staged agent workflow that analyzes a novel, selects concepts, builds world and art... | 559 | Image & Creative Automation |
 | [Reduce agent terminal noise with OMNI](skills/reduce-agent-terminal-noise-with-omni/) | Use OMNI to distill noisy terminal output before coding agents read it while preserving recoverable raw logs for... | 319 | Developer Tools |
 | [Run adversarial code audits with Bug Hunter](skills/run-adversarial-code-audits-with-bug-hunter/) | Use Bug Hunter to run scan-first adversarial code audits where Hunter, Skeptic, and Referee agents check repository bugs... | 475 | Code Quality & Review |
 | [Optimize agent skills with Darwin Skill](skills/optimize-agent-skills-with-darwin-skill/) | Use Darwin Skill to evaluate, improve, test, and keep or roll back changes to a single agent SKILL.md... | 5.3k | Developer Tools |
@@ -96,7 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Give coding agents repository search and call graphs with CodeSeek](skills/give-coding-agents-repository-search-and-call-graphs-with-codeseek/) | Install CodeSeek to index a repository, expose semantic search and call-graph queries, and register MCP tools for Claude... | 818 | Code Quality & Review |
 | [Generate social carousel and cover assets with Guizang Social Card Skill](skills/generate-social-carousel-and-cover-assets-with-guizang-social-card-skill/) | Use Guizang Social Card Skill from Claude Code or Codex to turn source material into Rednote/Xiaohongshu carousel cards... | 5.8k | Content Writing & SEO |
 | [Run repeatable marketing operator workflows with Aaron Marketing Skills](skills/run-repeatable-marketing-operator-workflows-with-aaron-marketing-skills/) | Install a maintained marketing skill library so agents can run scoped SEO/GEO, email, paid ads, influencer, launch, social... | 2.5k | Content Writing & SEO |
-| [BeachFinder Swim Spot Finder](skills/beachfinder-swim-spot-finder/) | Finds and compares 184,900 swimming spots worldwide (beaches, lakes, bathing places) with live water temperature, wind, UV and... | - | Integrations & Connectors |
 
 ---
 
@@ -112,7 +112,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Audit coding-agent token spend with CodeBurn](skills/audit-coding-agent-token-spend-with-codeburn/) | Run CodeBurn locally or as an MCP server so agents can inspect token usage, cost, model mix, project... | 8.7k | Monitoring & Alerts |
 | [Keep coding agents from over-building implementations with Ponytail](skills/keep-coding-agents-from-over-building-implementations-with-ponytail/) | Ponytail gives coding agents a portable minimal-implementation ruleset, plugin hooks, and review commands so they reuse existing code... | 85.5k | Code Quality & Review |
 | [Bridge local coding agents into chat apps with cc-connect](skills/bridge-local-coding-agents-into-chat-apps-with-cc-connect/) | Let operators control local Claude Code, Codex, Cursor, Gemini CLI, and other coding agents from Slack, Discord, Telegram... | 14.2k | Integrations & Connectors |
-| [Review agent-authored diffs with Hunk](skills/review-agent-authored-diffs-with-hunk/) | Use Hunk to keep a live terminal review UI open for agent-authored code changes, with Git, Jujutsu, Sapling... | 6.9k | Code Quality & Review |
+| [Run adversarial code audits with Bug Hunter](skills/run-adversarial-code-audits-with-bug-hunter/) | Use Bug Hunter to run scan-first adversarial code audits where Hunter, Skeptic, and Referee agents check repository bugs... | 475 | Code Quality & Review |
 | [Run Parallel Divergent Ideation With ADHD](skills/run-parallel-divergent-ideation-with-adhd/) | Use ADHD to fan out isolated reasoning branches for open-ended coding-agent decisions, then score, prune, and deepen the... | 1.3k | Templates & Workflows |
 | [Extract financial data context for agents with OpenBB](skills/use-openbb-as-financial-data-context-for-agents/) | Extract source-backed financial market, filings, economics, and research data with OpenBB, then route the outputs into agent workflows... | 70.7k | Data Extraction & Transformation |
 | [Inspect BullMQ agent job queues with Bull Board](skills/inspect-bullmq-agent-job-queues-with-bull-board/) | Use Bull Board to add a protected dashboard for Bull and BullMQ queues so operators can inspect, retry... | 3.4k | Monitoring & Alerts |
@@ -137,7 +137,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 124 | Web research, content discovery, data collection |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 121 | Web scraping, UI testing, headless browser control |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 106 | Audio/video processing, speech-to-text |
-| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 99 | Image generation, asset processing, design automation |
+| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 100 | Image generation, asset processing, design automation |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
 | ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 86 | SEO content, blog automation, editorial workflows |
 
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,856 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,857 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,442 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

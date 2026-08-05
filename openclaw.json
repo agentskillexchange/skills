@@ -1,9 +1,20 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-08-04",
-  "total": 2856,
+  "generated": "2026-08-05",
+  "total": 2857,
   "skills": [
+    {
+      "slug": "turn-source-novels-into-playable-games-with-noveltogame",
+      "name": "Turn source novels into playable games with NovelToGame",
+      "title": "Turn source novels into playable games with NovelToGame",
+      "description": "Use NovelToGame to run a staged agent workflow that analyzes a novel, selects concepts, builds world and art direction, implements a playable game, and…",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/worldwonderer/novel-to-game",
+      "github_repo": "worldwonderer/novel-to-game"
+    },
     {
       "slug": "reduce-agent-terminal-noise-with-omni",
       "name": "Reduce agent terminal noise with OMNI",
