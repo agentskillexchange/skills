@@ -18,7 +18,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 10 | [Webpack Bundle Analyzer Agent](skills/webpack-bundle-analyzer-agent/) | 44.5M/wk | webpack | Developer Tools |
 | 11 | [Puppeteer Browser Automation Library for Chrome and Firefox](skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | 40.2M/wk | puppeteer | Browser Automation |
 | 12 | [GraphQL Data Federation Agent](skills/graphql-data-federation-agent/) | 34.2M/wk | graphql | Data Extraction & Transformation |
-| 13 | [OpenAI Image Gen](skills/openai-image-gen/) | 33M/wk | openai | Image & Creative Automation |
+| 13 | [OpenAI Image Gen](skills/openai-image-gen/) | 33.2M/wk | openai | Image & Creative Automation |
 | 14 | [SVGO SVG Optimization Tool](skills/svgo-svg-optimization-tool/) | 28.7M/wk | svgo | Image & Creative Automation |
 | 15 | [PostgreSQL Diagnostic Analyzer](skills/postgresql-diagnostic-analyzer/) | 23.2M/wk | postgresql | Runbooks & Diagnostics |
 | 16 | [Cheerio DOM Extraction Pipeline](skills/cheerio-dom-extraction-pipeline/) | 19.6M/wk | cheerio | Data Extraction & Transformation |

@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-06
-# Total: 2863 skills
+# Total: 2864 skills
+
+## Use Obsidian Agent Client as an Obsidian front end for local agents
+slug: use-obsidian-agent-client-as-an-obsidian-front-end-for-local-agents
+category: Developer Tools
+framework: Multi-Framework
+verification: Published
+description: Run ACP-compatible agents such as Claude Code, Codex, Gemini CLI, OpenCode, and custom agents from inside Obsidian notes and vault context.
+url: https://agentskillexchange.com/skills/use-obsidian-agent-client-as-an-obsidian-front-end-for-local-agents/
 
 ## Keep a portable agent workspace layer with agentic-stack
 slug: keep-a-portable-agent-workspace-layer-with-agentic-stack
