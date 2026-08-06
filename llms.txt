@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-06
-# Total: 2864 skills
+# Total: 2865 skills
+
+## Run Personal Corp OS weekly operating loops with Claude Code and Codex
+slug: run-personal-corp-os-weekly-operating-loops-with-claude-code-and-codex
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Install a maintained skill pack for weekly planning, retrospectives, task routing, department setup, and founder-ops workflows across Claude Code and Codex.
+url: https://agentskillexchange.com/skills/run-personal-corp-os-weekly-operating-loops-with-claude-code-and-codex/
 
 ## Use Obsidian Agent Client as an Obsidian front end for local agents
 slug: use-obsidian-agent-client-as-an-obsidian-front-end-for-local-agents

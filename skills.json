@@ -1,8 +1,22 @@
 {
   "version": "2.0",
-  "total": 2864,
+  "total": 2865,
   "generated": "2026-08-06",
   "skills": [
+    {
+      "slug": "run-personal-corp-os-weekly-operating-loops-with-claude-code-and-codex",
+      "name": "Run Personal Corp OS weekly operating loops with Claude Code and Codex",
+      "title": "Run Personal Corp OS weekly operating loops with Claude Code and Codex",
+      "description": "Install a maintained skill pack for weekly planning, retrospectives, task routing, department setup, and founder-ops workflows across Claude Code and Codex.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 214
+      },
+      "source_url": "https://github.com/serejaris/personal-corp-os",
+      "github_repo": "serejaris/personal-corp-os"
+    },
     {
       "slug": "use-obsidian-agent-client-as-an-obsidian-front-end-for-local-agents",
       "name": "Use Obsidian Agent Client as an Obsidian front end for local agents",

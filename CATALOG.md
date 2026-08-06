@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2864 published skills** across **17 categories** · 2,447 security reviewed · Updated 2026-08-06 13:26 UTC
+> **2865 published skills** across **17 categories** · 2,447 security reviewed · Updated 2026-08-06 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -684,7 +684,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (228 skills)
+### 📄 Templates & Workflows (229 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -882,6 +882,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Evaluate long-horizon agents against WildClawBench](skills/evaluate-long-horizon-agents-against-wildclawbench/) | Use WildClawBench to benchmark agents on hard end-to-end OpenClaw tasks covering tool orchestration, multimodal… | Published | 359 | — |
 | [Makedown Task Runner](skills/makedown-task-runner/) | Extracts executable task definitions from Markdown files and runs them as shell pipelines. Parses fenced code blocks… | Security Reviewed | 319 | — |
 | [Run contract-driven GRACE code changes with agent skills](skills/run-contract-driven-grace-code-changes-with-agent-skills/) | Uses GRACE skills and the optional grace CLI to guide coding agents through contract-first code changes backed by… | Security Reviewed | 228 | 160/wk |
+| [Run Personal Corp OS weekly operating loops with Claude Code and Codex](skills/run-personal-corp-os-weekly-operating-loops-with-claude-code-and-codex/) | Install a maintained skill pack for weekly planning, retrospectives, task routing, department setup, and founder-ops… | Security Reviewed | 214 | — |
 | [Delegate planned agent work with Elves](skills/delegate-planned-agent-work-with-elves/) | Use Elves to hand a bounded development or research plan to a separate Claude Code or Codex worker while preserving… | Security Reviewed | 188 | — |
 | [Maintain OKF Knowledge Bundles with Okf Skills](skills/maintain-okf-knowledge-bundles-with-okf-skills/) | Use Okf Skills to have Claude Code produce, validate, migrate, and visualize Open Knowledge Format bundles with… | Security Reviewed | 185 | — |
 | [Reduce Coding-Agent Output Cost With Honey](skills/reduce-coding-agent-output-cost-with-honey/) | Use Honey to make coding agents emit less code, less prose, and denser agent-to-agent handoffs while preserving… | Security Reviewed | 178 | — |

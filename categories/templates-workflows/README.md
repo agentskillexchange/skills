@@ -232,6 +232,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Evaluate long-horizon agents against WildClawBench](../../skills/evaluate-long-horizon-agents-against-wildclawbench/) | 359 | — |
 | [Makedown Task Runner](../../skills/makedown-task-runner/) | 319 | — |
 | [Run contract-driven GRACE code changes with agent skills](../../skills/run-contract-driven-grace-code-changes-with-agent-skills/) | 228 | 160/wk |
+| [Run Personal Corp OS weekly operating loops with Claude Code and Codex](../../skills/run-personal-corp-os-weekly-operating-loops-with-claude-code-and-codex/) | 214 | — |
 | [Delegate planned agent work with Elves](../../skills/delegate-planned-agent-work-with-elves/) | 188 | — |
 | [Maintain OKF Knowledge Bundles with Okf Skills](../../skills/maintain-okf-knowledge-bundles-with-okf-skills/) | 185 | — |
 | [Reduce Coding-Agent Output Cost With Honey](../../skills/reduce-coding-agent-output-cost-with-honey/) | 178 | — |
