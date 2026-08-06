@@ -348,6 +348,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Drive agent terminal workspaces with Rmux](../../skills/drive-agent-terminal-workspaces-with-rmux/) | 2.4k | 236/wk |
 | [Repair malformed JSON before parsing downstream automations with jsonrepair](../../skills/repair-malformed-json-before-parsing-downstream-automations-jsonrepair/) | 2.3k | 7.3M/wk |
 | [Route large codebase analysis through Gemini MCP Tool](../../skills/route-large-codebase-analysis-through-gemini-mcp-tool/) | 2.3k | 11.9k/wk |
+| [Keep a portable agent workspace layer with agentic-stack](../../skills/keep-a-portable-agent-workspace-layer-with-agentic-stack/) | 2.2k | — |
 | [Supabase CLI for Local Development and Database Migrations](../../skills/supabase-cli-local-development-database-migrations/) | 2.1k | 1.2M/wk |
 | [Manage multi-agent coding sessions from one terminal mission control with Agent Deck](../../skills/manage-multi-agent-coding-sessions-from-one-terminal-mission-control-with-agent-deck/) | 2k | — |
 | [Clone and refresh whole GitHub orgs for audit or migration with ghorg](../../skills/clone-and-refresh-whole-github-orgs-for-audit-or-migration-with-ghorg/) | 2k | — |

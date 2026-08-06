@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-06
-# Total: 2862 skills
+# Total: 2863 skills
+
+## Keep a portable agent workspace layer with agentic-stack
+slug: keep-a-portable-agent-workspace-layer-with-agentic-stack
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Install and maintain a shared .agent layer so coding agents can carry memory, skills, protocols, dashboards, and bounded loop contracts across multiple agent harnesses.
+url: https://agentskillexchange.com/skills/keep-a-portable-agent-workspace-layer-with-agentic-stack/
 
 ## OutageDeck Dependency Outage Triage
 slug: outagedeck-dependency-outage-triage

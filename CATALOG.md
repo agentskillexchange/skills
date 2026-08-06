@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2862 published skills** across **17 categories** · 2,446 security reviewed · Updated 2026-08-06 01:26 UTC
+> **2863 published skills** across **17 categories** · 2,446 security reviewed · Updated 2026-08-06 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (417 skills)
+### 🛠️ Developer Tools (418 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -322,6 +322,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Drive agent terminal workspaces with Rmux](skills/drive-agent-terminal-workspaces-with-rmux/) | Use Rmux to create and automate cross-platform terminal sessions for agent CLIs, with tmux-compatible commands,… | Security Reviewed | 2.4k | 236/wk |
 | [Repair malformed JSON before parsing downstream automations with jsonrepair](skills/repair-malformed-json-before-parsing-downstream-automations-jsonrepair/) | Use jsonrepair when an agent receives JSON-like output that is almost valid but still breaks parsers, such as… | Security Reviewed | 2.3k | 7.3M/wk |
 | [Route large codebase analysis through Gemini MCP Tool](skills/route-large-codebase-analysis-through-gemini-mcp-tool/) | Use Gemini MCP Tool to let MCP-capable coding agents delegate large file and codebase analysis to Gemini or… | Security Reviewed | 2.3k | 11.9k/wk |
+| [Keep a portable agent workspace layer with agentic-stack](skills/keep-a-portable-agent-workspace-layer-with-agentic-stack/) | Install and maintain a shared .agent layer so coding agents can carry memory, skills, protocols, dashboards, and… | Security Reviewed | 2.2k | — |
 | [Supabase CLI for Local Development and Database Migrations](skills/supabase-cli-local-development-database-migrations/) | Supabase CLI manages local Supabase projects, database migrations, types, and edge functions. It is the upstream… | Security Reviewed | 2.1k | 1.2M/wk |
 | [Manage multi-agent coding sessions from one terminal mission control with Agent Deck](skills/manage-multi-agent-coding-sessions-from-one-terminal-mission-control-with-agent-deck/) | Use Agent Deck when an operator needs one keyboard-first terminal to monitor, switch, fork, sandbox, and organize… | Security Reviewed | 2k | — |
 | [Clone and refresh whole GitHub orgs for audit or migration with ghorg](skills/clone-and-refresh-whole-github-orgs-for-audit-or-migration-with-ghorg/) | Use ghorg to clone or resync large sets of repositories from a GitHub user or organization for offline audit,… | Security Reviewed | 2k | — |

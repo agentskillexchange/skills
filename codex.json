@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-06",
-  "total": 2862,
+  "total": 2863,
   "skills": [
+    {
+      "slug": "keep-a-portable-agent-workspace-layer-with-agentic-stack",
+      "name": "Keep a portable agent workspace layer with agentic-stack",
+      "title": "Keep a portable agent workspace layer with agentic-stack",
+      "description": "Install and maintain a shared .agent layer so coding agents can carry memory, skills, protocols, dashboards, and bounded loop contracts across multiple agent harnesses.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/codejunkie99/agentic-stack",
+      "github_repo": "codejunkie99/agentic-stack"
+    },
     {
       "slug": "outagedeck-dependency-outage-triage",
       "name": "OutageDeck Dependency Outage Triage",
