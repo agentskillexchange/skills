@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2865 published skills** across **17 categories** · 2,448 security reviewed · Updated 2026-08-06 19:26 UTC
+> **2866 published skills** across **17 categories** · 2,448 security reviewed · Updated 2026-08-07 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (419 skills)
+### 🛠️ Developer Tools (420 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -401,6 +401,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Back up GitHub, GitLab, Bitbucket, and Forgejo repositories with gitbackup](skills/back-up-github-gitlab-bitbucket-and-forgejo-repositories-with-gitbackup/) | Run repeatable cross-forge repository backup jobs from one config instead of hand-scripting clone and export steps… | Security Reviewed | 218 | — |
 | [Enforce engineering workflows with Ring skill packs](skills/enforce-engineering-workflows-with-ring-skill-packs/) | Use Ring to load curated engineering skills and specialist agents for TDD, systematic debugging, code review,… | Security Reviewed | 205 | — |
 | [Search large codebases and structured document trees without embeddings before building heavier retrieval stacks with TreeSearch](skills/search-large-codebases-and-structured-document-trees-without-embeddings-before-building-heavier-retrieval-stacks-with-treesearch/) | Index docs and source trees into structure-aware search so you can answer targeted questions quickly without a… | Security Reviewed | 189 | — |
+| [Use Superpowers Symfony for Claude Code Symfony workflows](skills/use-superpowers-symfony-for-claude-code-symfony-workflows/) | Install a Claude Code plugin that gives agents repeatable Symfony, Doctrine, API Platform, Messenger, security, TDD,… | Security Reviewed | 186 | — |
 | [Meilisearch MCP Server for AI-Powered Search Integration](skills/meilisearch-mcp-server-ai-search/) | Official Model Context Protocol server that connects LLMs to Meilisearch for lightning-fast search, index… | Security Reviewed | 181 | — |
 | [Compress repeated agent context and command output before it reaches coding agents with sqz](skills/compress-repeated-agent-context-and-command-output-before-it-reaches-coding-agents-with-sqz/) | Reduces token burn by compressing command output and deduplicating repeated file reads before they are sent to… | Published | 165 | — |
 | [Supervise tmux-based coding-agent sessions with agent-manager](skills/supervise-tmux-based-coding-agent-sessions-with-agent-manager/) | Use agent-manager to launch, monitor, prompt, revive, and review multiple Claude Code, Codex, OpenCode, Grok, or… | Security Reviewed | 154 | — |

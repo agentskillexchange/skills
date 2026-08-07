@@ -427,6 +427,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Back up GitHub, GitLab, Bitbucket, and Forgejo repositories with gitbackup](../../skills/back-up-github-gitlab-bitbucket-and-forgejo-repositories-with-gitbackup/) | 218 | — |
 | [Enforce engineering workflows with Ring skill packs](../../skills/enforce-engineering-workflows-with-ring-skill-packs/) | 205 | — |
 | [Search large codebases and structured document trees without embeddings before building heavier retrieval stacks with TreeSearch](../../skills/search-large-codebases-and-structured-document-trees-without-embeddings-before-building-heavier-retrieval-stacks-with-treesearch/) | 189 | — |
+| [Use Superpowers Symfony for Claude Code Symfony workflows](../../skills/use-superpowers-symfony-for-claude-code-symfony-workflows/) | 186 | — |
 | [Meilisearch MCP Server for AI-Powered Search Integration](../../skills/meilisearch-mcp-server-ai-search/) | 181 | — |
 | [Compress repeated agent context and command output before it reaches coding agents with sqz](../../skills/compress-repeated-agent-context-and-command-output-before-it-reaches-coding-agents-with-sqz/) | 165 | — |
 | [Supervise tmux-based coding-agent sessions with agent-manager](../../skills/supervise-tmux-based-coding-agent-sessions-with-agent-manager/) | 154 | — |

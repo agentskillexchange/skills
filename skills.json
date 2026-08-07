@@ -1,8 +1,22 @@
 {
   "version": "2.0",
-  "total": 2865,
-  "generated": "2026-08-06",
+  "total": 2866,
+  "generated": "2026-08-07",
   "skills": [
+    {
+      "slug": "use-superpowers-symfony-for-claude-code-symfony-workflows",
+      "name": "Use Superpowers Symfony for Claude Code Symfony workflows",
+      "title": "Use Superpowers Symfony for Claude Code Symfony workflows",
+      "description": "Install a Claude Code plugin that gives agents repeatable Symfony, Doctrine, API Platform, Messenger, security, TDD, and quality-check workflows.",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 186
+      },
+      "source_url": "https://github.com/dev-toolings/superpowers-symfony",
+      "github_repo": "dev-toolings/superpowers-symfony"
+    },
     {
       "slug": "run-personal-corp-os-weekly-operating-loops-with-claude-code-and-codex",
       "name": "Run Personal Corp OS weekly operating loops with Claude Code and Codex",

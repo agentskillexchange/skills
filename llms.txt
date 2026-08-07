@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-08-06
-# Total: 2865 skills
+# Generated: 2026-08-07
+# Total: 2866 skills
+
+## Use Superpowers Symfony for Claude Code Symfony workflows
+slug: use-superpowers-symfony-for-claude-code-symfony-workflows
+category: Developer Tools
+framework: Claude Code
+verification: Security Reviewed
+description: Install a Claude Code plugin that gives agents repeatable Symfony, Doctrine, API Platform, Messenger, security, TDD, and quality-check workflows.
+url: https://agentskillexchange.com/skills/use-superpowers-symfony-for-claude-code-symfony-workflows/
 
 ## Run Personal Corp OS weekly operating loops with Claude Code and Codex
 slug: run-personal-corp-os-weekly-operating-loops-with-claude-code-and-codex
