@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "conorbronsdon/avoid-ai-writing"
   github_stars: 2552
+  npm_package: "avoid-ai-writing-detector"
+  npm_weekly_downloads: 0
 ---
 
 # Audit and rewrite AI-sounding prose with Avoid AI Writing

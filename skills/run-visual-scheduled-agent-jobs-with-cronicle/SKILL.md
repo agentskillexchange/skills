@@ -5,7 +5,7 @@ description: "Use Cronicle to schedule, run, monitor, and manually trigger recur
 github_stars: 5771
 verification: "security_reviewed"
 source: "https://github.com/jhuckaby/Cronicle"
-author: "Joseph Huckaby"
+author: "jhuckaby"
 publisher_type: "open_source"
 category: "Templates & Workflows"
 framework: "Multi-Framework"
@@ -24,18 +24,11 @@ Cronicle server, Node.js and npm, POSIX host or worker servers, shell commands o
 
 ## Installation
 
-Requirements and caveats from upstream:
-- We stand on the shoulders of giants. Cronicle was built using these awesome Node modules:
-- | [errno](https://www.npmjs.com/package/errno) | Node.js libuv errno details exposed. | MIT |
-- | [formidable](https://www.npmjs.com/package/formidable) | A Node.js module for parsing form data, especially file uploads. | MIT |
+Install or set up from the source-backed instructions:
 
-Basic usage or getting-started notes:
-- **Cronicle** is a multi-server task scheduler and runner, with a web based front-end UI. It handles both scheduled, repeating and on-demand jobs, targeting any number of worker servers, with real-time stats and live l...
-- Track CPU and memory usage for each job.
-- | **Schedule** | The list of events, which are scheduled to run at particular times, on particular servers. |
+curl -s https://raw.githubusercontent.com/jhuckaby/Cronicle/master/bin/install.js | node
 
 - Source: https://github.com/jhuckaby/Cronicle
-- Extracted from upstream docs: https://raw.githubusercontent.com/jhuckaby/Cronicle/HEAD/README.md
 
 ## Documentation
 

@@ -5,7 +5,7 @@ description: "Use agent-manager to launch, monitor, prompt, revive, and review m
 github_stars: 154
 verification: "security_reviewed"
 source: "https://github.com/YoanWai/agent-manager"
-author: "Yoan Wai"
+author: "YoanWai"
 publisher_type: "individual-maintained open-source"
 category: "Developer Tools"
 framework: "Multi-Framework"
@@ -26,7 +26,7 @@ agent-manager CLI, tmux, supported terminal coding-agent CLIs, optional git work
 
 Install or set up from the source-backed instructions:
 
-Install with brew install yoanwai/tap/agent-manager on macOS/Linux, or download a release from https://github.com/YoanWai/agent-manager/releases. Ensure tmux and the target coding-agent CLIs are installed, then run agent-manager.
+brew install yoanwai/tap/agent-manager
 
 - Source: https://github.com/YoanWai/agent-manager
 

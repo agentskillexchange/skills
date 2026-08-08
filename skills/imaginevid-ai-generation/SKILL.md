@@ -2,10 +2,10 @@
 name: "ImagineVid AI Generation"
 slug: "imaginevid-ai-generation"
 description: "Use ImagineVid's OAuth-protected MCP and CLI tools to discover and safely run current image, video, and music generation capabilities."
+verification: "listed"
+source: "https://github.com/imagineVid/agent-skills/tree/main/skills/imaginevid-ai-generation"
 category: "Image & Creative Automation"
 framework: "MCP"
-verification: listed
-source: "https://github.com/imagineVid/agent-skills/tree/main/skills/imaginevid-ai-generation"
 ---
 
 # ImagineVid AI Generation

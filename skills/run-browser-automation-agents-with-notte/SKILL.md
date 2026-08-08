@@ -5,7 +5,7 @@ description: "Build and run browser agents that combine deterministic Playwright
 github_stars: 1986
 verification: "security_reviewed"
 source: "https://github.com/nottelabs/notte"
-author: "Notte Labs"
+author: "nottelabs"
 publisher_type: "open_source_project"
 category: "Browser Automation"
 framework: "Multi-Framework"
@@ -26,7 +26,7 @@ Python environment, Notte package, browser dependencies such as Chromium via pat
 
 Install or set up from the source-backed instructions:
 
-Install with `pip install notte`, then run `patchright install --with-deps chromium` for local browser execution. For hosted sessions, create a Notte API key and set `NOTTE_API_KEY` before using the Notte client.
+pip install notte
 
 - Source: https://github.com/nottelabs/notte
 

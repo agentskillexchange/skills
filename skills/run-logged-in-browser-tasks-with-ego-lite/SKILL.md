@@ -5,7 +5,7 @@ description: "Give coding agents isolated browser spaces that can use real logge
 github_stars: 6423
 verification: "security_reviewed"
 source: "https://github.com/citrolabs/ego-lite"
-author: "Citro Labs"
+author: "citrolabs"
 publisher_type: "organization"
 category: "Developer Tools"
 framework: "Multi-Framework"
@@ -26,7 +26,7 @@ Ego Lite macOS app and ego-browser skill; a compatible agent environment such as
 
 Install or set up from the source-backed instructions:
 
-Install the macOS app from the upstream README or add the skill with npx skills add citrolabs/ego-lite. First launch can guide setup and optional Chrome data migration.
+npx skills add citrolabs/ego-lite
 
 - Source: https://github.com/citrolabs/ego-lite
 

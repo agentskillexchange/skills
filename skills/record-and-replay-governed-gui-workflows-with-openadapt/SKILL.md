@@ -5,7 +5,7 @@ description: "Use OpenAdapt to demonstrate a repeated browser or GUI workflow on
 github_stars: 1645
 verification: "security_reviewed"
 source: "https://github.com/OpenAdaptAI/OpenAdapt"
-author: "OpenAdapt contributors"
+author: "OpenAdaptAI"
 publisher_type: "open_source"
 category: "Browser Automation"
 framework: "Multi-Framework"
@@ -24,23 +24,11 @@ OpenAdapt Python package, Python 3.10+, openadapt flow CLI, browser target or su
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install openadapt installs the launcher and the compiler, exposed as
-- pip install openadapt # CLI + demonstration compiler (openadapt flow …)
-- pip install openadapt[capture] # + native GUI capture/recording
-- pip install openadapt[privacy] # + Presidio-backed PII/PHI scrubbing
+Install or set up from the source-backed instructions:
 
-Requirements and caveats from upstream:
-- [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/downloads/)
-- available on headless systems. This launcher requires openadapt-flow>=1.7.0,<2
-
-Basic usage or getting-started notes:
-- The flagship compiler ships in the base install, so openadapt flow … works
-- right after pip install openadapt. Install openadapt-flow[hosted] when you
-- want OS-keychain token storage; environment-based token configuration remains
+python -m pip install --upgrade 'openadapt[browser]'
 
 - Source: https://github.com/OpenAdaptAI/OpenAdapt
-- Extracted from upstream docs: https://raw.githubusercontent.com/OpenAdaptAI/OpenAdapt/HEAD/README.md
 
 ## Documentation
 
