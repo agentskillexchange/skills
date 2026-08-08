@@ -15,7 +15,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Markdown-to-AMP Article Converter](../../skills/markdown-to-amp-article-converter/) | ⭐ 14.9k |
 | [LanguageTool Grammar and Style Checker](../../skills/languagetool-grammar-style-checker/) | ⭐ 14.2k |
 | [Harper Offline Privacy-First Grammar Checker by Automattic](../../skills/harper-offline-grammar-checker-automattic/) | ⭐ 10.2k |
-| [Markdoc Markdown-Based Authoring Framework by Stripe](../../skills/markdoc-markdown-authoring-framework-stripe/) | ⭐ 7.9k |
+| [Audit Websites for AI Search Visibility with GEO SEO Claude](../../skills/audit-websites-for-ai-search-visibility-with-geo-seo-claude/) | ⭐ 9.3k |
 
 ---
 
@@ -49,6 +49,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Markdown-to-AMP Article Converter](../../skills/markdown-to-amp-article-converter/) | 14.9k | — |
 | [LanguageTool Grammar and Style Checker](../../skills/languagetool-grammar-style-checker/) | 14.2k | — |
 | [Harper Offline Privacy-First Grammar Checker by Automattic](../../skills/harper-offline-grammar-checker-automattic/) | 10.2k | — |
+| [Audit Websites for AI Search Visibility with GEO SEO Claude](../../skills/audit-websites-for-ai-search-visibility-with-geo-seo-claude/) | 9.3k | — |
 | [Markdoc Markdown-Based Authoring Framework by Stripe](../../skills/markdoc-markdown-authoring-framework-stripe/) | 7.9k | 319k/wk |
 | [Run a long-form SEO blog production workflow inside Claude Code with SEO Machine](../../skills/run-a-long-form-seo-blog-production-workflow-inside-claude-code-with-seo-machine/) | 6.6k | — |
 | [Schema.org Structured Data Generator](../../skills/schema-org-structured-data-generator/) | 6k | — |

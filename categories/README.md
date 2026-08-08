@@ -1,6 +1,6 @@
 # Categories
 
-> **2871 skills** across **17 categories**
+> **2872 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -20,7 +20,7 @@
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **106** | Audio/video processing, speech-to-text, media conversion, and transcr... |
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **102** | Image generation, asset processing, design automation, and creative t... |
 | 📰 | [**WordPress & CMS**](wordpress-cms/) | **96** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
-| ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **86** | Blog posts, SEO optimization, content strategy, and writing assistance. |
+| ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **87** | Blog posts, SEO optimization, content strategy, and writing assistance. |
 
 ---
 

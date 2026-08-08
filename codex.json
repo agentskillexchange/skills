@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-08",
-  "total": 2871,
+  "total": 2872,
   "skills": [
+    {
+      "slug": "audit-websites-for-ai-search-visibility-with-geo-seo-claude",
+      "name": "Audit Websites for AI Search Visibility with GEO SEO Claude",
+      "title": "Audit Websites for AI Search Visibility with GEO SEO Claude",
+      "description": "Use GEO SEO Claude when Claude Code should run repeatable AI-search and SEO audits with citability, crawler, schema, platform, and report workflows.",
+      "category": "Content Writing & SEO",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/zubair-trabzada/geo-seo-claude",
+      "github_repo": "zubair-trabzada/geo-seo-claude"
+    },
     {
       "slug": "imaginevid-ai-generation",
       "name": "ImagineVid AI Generation",
