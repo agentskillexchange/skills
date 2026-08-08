@@ -282,7 +282,7 @@ def installation_issues(text: str, fields: dict[str, Any], path: Path) -> list[d
         issues.append({"line": 0, "text": non_install_commands[0], "reason": "only uninstall/test/benchmark/build commands found"})
     if unrelated_commands and not actionable:
         issues.append({"line": 0, "text": unrelated_commands[0], "reason": "package/tool command is not source-aligned"})
-    if meaningful_lines and marketing_lines == meaningful_lines:
+    if meaningful_lines and marketing_lines == meaningful_lines and not actionable:
         issues.append({"line": 0, "text": "marketing-only install section", "reason": "only marketing/features/screenshots/badges found"})
     if not actionable and not issues:
         issues.append({"line": 0, "text": section[:160], "reason": "no actionable installation command or manual setup instruction"})
