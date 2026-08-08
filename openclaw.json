@@ -1,9 +1,64 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-08-07",
-  "total": 2866,
+  "generated": "2026-08-08",
+  "total": 2871,
   "skills": [
+    {
+      "slug": "imaginevid-ai-generation",
+      "name": "ImagineVid AI Generation",
+      "title": "ImagineVid AI Generation",
+      "description": "Use ImagineVid's OAuth-protected MCP and CLI tools to discover and safely run current image, video, and music generation capabilities.",
+      "category": "Image & Creative Automation",
+      "framework": "MCP",
+      "verification": "listed",
+      "source_url": "https://github.com/imagineVid/agent-skills/tree/main/skills/imaginevid-ai-generation",
+      "github_repo": "imagineVid/agent-skills"
+    },
+    {
+      "slug": "run-production-dotnet-coding-workflows-with-dotnet-skills",
+      "name": "Run production .NET coding workflows with dotnet-skills",
+      "title": "Run production .NET coding workflows with dotnet-skills",
+      "description": "Install a .NET skill and agent pack for C#, ASP.NET Core, Aspire, EF Core, Akka.NET, testing, performance, and quality-gate workflows.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+      "github_repo": "Aaronontheweb/dotnet-skills"
+    },
+    {
+      "slug": "run-a-self-evolving-markdown-second-brain-with-cog",
+      "name": "Run a self-evolving markdown second brain with COG",
+      "title": "Run a self-evolving markdown second brain with COG",
+      "description": "Use COG to onboard a markdown-based second brain with agent skills for braindumps, briefs, reviews, research, product work, and verifier-backed workflows.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/huytieu/COG-second-brain",
+      "github_repo": "huytieu/COG-second-brain"
+    },
+    {
+      "slug": "route-bilingual-marketing-operations-through-ai-business-skills",
+      "name": "Route bilingual marketing operations through ai-business-skills",
+      "title": "Route bilingual marketing operations through ai-business-skills",
+      "description": "Give agents a bilingual marketing SOP system for plans, copy, audits, content calendars, campaign briefs, design prompts, and role-based workflows.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/minhnv0807/ai-business-skills",
+      "github_repo": "minhnv0807/ai-business-skills"
+    },
+    {
+      "slug": "give-text-only-agents-vision-workflows-with-agent-vision-toolkit",
+      "name": "Give text-only agents vision workflows with Agent Vision Toolkit",
+      "title": "Give text-only agents vision workflows with Agent Vision Toolkit",
+      "description": "Install Agent Vision Toolkit so shell-capable coding agents can inspect screenshots, run OCR, locate UI elements, restore interfaces, and operate GUIs through repeatable local…",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Anionex/agent-vision-toolkit",
+      "github_repo": "Anionex/agent-vision-toolkit"
+    },
     {
       "slug": "use-superpowers-symfony-for-claude-code-symfony-workflows",
       "name": "Use Superpowers Symfony for Claude Code Symfony workflows",

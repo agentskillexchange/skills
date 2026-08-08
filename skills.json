@@ -1,8 +1,75 @@
 {
   "version": "2.0",
-  "total": 2866,
-  "generated": "2026-08-07",
+  "total": 2871,
+  "generated": "2026-08-08",
   "skills": [
+    {
+      "slug": "imaginevid-ai-generation",
+      "name": "ImagineVid AI Generation",
+      "title": "ImagineVid AI Generation",
+      "description": "Use ImagineVid's OAuth-protected MCP and CLI tools to discover and safely run current image, video, and music generation capabilities.",
+      "category": "Image & Creative Automation",
+      "framework": "MCP",
+      "verification": "listed",
+      "source_url": "https://github.com/imagineVid/agent-skills/tree/main/skills/imaginevid-ai-generation",
+      "github_repo": "imagineVid/agent-skills"
+    },
+    {
+      "slug": "run-production-dotnet-coding-workflows-with-dotnet-skills",
+      "name": "Run production .NET coding workflows with dotnet-skills",
+      "title": "Run production .NET coding workflows with dotnet-skills",
+      "description": "Install a .NET skill and agent pack for C#, ASP.NET Core, Aspire, EF Core, Akka.NET, testing, performance, and quality-gate workflows.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1102
+      },
+      "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+      "github_repo": "Aaronontheweb/dotnet-skills"
+    },
+    {
+      "slug": "run-a-self-evolving-markdown-second-brain-with-cog",
+      "name": "Run a self-evolving markdown second brain with COG",
+      "title": "Run a self-evolving markdown second brain with COG",
+      "description": "Use COG to onboard a markdown-based second brain with agent skills for braindumps, briefs, reviews, research, product work, and verifier-backed workflows.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 803
+      },
+      "source_url": "https://github.com/huytieu/COG-second-brain",
+      "github_repo": "huytieu/COG-second-brain"
+    },
+    {
+      "slug": "route-bilingual-marketing-operations-through-ai-business-skills",
+      "name": "Route bilingual marketing operations through ai-business-skills",
+      "title": "Route bilingual marketing operations through ai-business-skills",
+      "description": "Give agents a bilingual marketing SOP system for plans, copy, audits, content calendars, campaign briefs, design prompts, and role-based workflows.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 526
+      },
+      "source_url": "https://github.com/minhnv0807/ai-business-skills",
+      "github_repo": "minhnv0807/ai-business-skills"
+    },
+    {
+      "slug": "give-text-only-agents-vision-workflows-with-agent-vision-toolkit",
+      "name": "Give text-only agents vision workflows with Agent Vision Toolkit",
+      "title": "Give text-only agents vision workflows with Agent Vision Toolkit",
+      "description": "Install Agent Vision Toolkit so shell-capable coding agents can inspect screenshots, run OCR, locate UI elements, restore interfaces, and operate GUIs through repeatable local…",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 335
+      },
+      "source_url": "https://github.com/Anionex/agent-vision-toolkit",
+      "github_repo": "Anionex/agent-vision-toolkit"
+    },
     {
       "slug": "use-superpowers-symfony-for-claude-code-symfony-workflows",
       "name": "Use Superpowers Symfony for Claude Code Symfony workflows",
@@ -39652,7 +39719,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 103,
-        "npm_weekly_downloads": 2745518,
+        "npm_weekly_downloads": 2764123,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/DataDog/datadog-api-client-typescript",
@@ -39698,7 +39765,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 27264,
-        "npm_weekly_downloads": 156159541,
+        "npm_weekly_downloads": 157042850,
         "license": "MIT"
       },
       "source_url": "https://github.com/eslint/eslint",
@@ -39729,7 +39796,7 @@
       "verification": "listed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 10309485,
+        "npm_weekly_downloads": 10461922,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/aws/aws-sdk-js-v3",
@@ -39745,7 +39812,7 @@
       "verification": "listed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 40062530,
+        "npm_weekly_downloads": 40467336,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/aws/aws-sdk-js-v3",
@@ -39761,7 +39828,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3051,
-        "npm_weekly_downloads": 59638,
+        "npm_weekly_downloads": 58073,
         "license": "MIT"
       },
       "source_url": "https://github.com/sendgrid/sendgrid-nodejs",
@@ -39777,7 +39844,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1539,
-        "npm_weekly_downloads": 5494164,
+        "npm_weekly_downloads": 5531614,
         "license": "MIT"
       },
       "source_url": "https://github.com/twilio/twilio-node",
@@ -39793,7 +39860,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 17629667,
+        "npm_weekly_downloads": 17816080,
         "license": "MIT"
       },
       "source_url": "https://github.com/stripe/stripe-node",
@@ -39809,7 +39876,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1465,
-        "npm_weekly_downloads": 1167968,
+        "npm_weekly_downloads": 1171965,
         "license": "MIT"
       },
       "source_url": "https://github.com/jsforce/jsforce",
@@ -39825,7 +39892,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 397,
-        "npm_weekly_downloads": 1384351,
+        "npm_weekly_downloads": 1387117,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/HubSpot/hubspot-api-nodejs",
@@ -39841,7 +39908,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 5610,
-        "npm_weekly_downloads": 1629102,
+        "npm_weekly_downloads": 1640528,
         "license": "MIT"
       },
       "source_url": "https://github.com/makenotion/notion-sdk-js",
@@ -39886,7 +39953,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 24,
-        "npm_weekly_downloads": 5542,
+        "npm_weekly_downloads": 5524,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/opsgenie/opsgenie-nodejs-sdk",
@@ -39918,7 +39985,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 811,
-        "npm_weekly_downloads": 9674217
+        "npm_weekly_downloads": 9692383
       },
       "source_url": "https://github.com/DataDog/dd-trace-js",
       "github_repo": "datadog/dd-trace-js"
@@ -39933,7 +40000,7 @@
       "verification": "listed",
       "signals": {
         "github_stars": 25248,
-        "npm_weekly_downloads": 2587075,
+        "npm_weekly_downloads": 2630353,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/pulumi/pulumi",
@@ -40068,7 +40135,7 @@
       "verification": "listed",
       "signals": {
         "github_stars": 712,
-        "npm_weekly_downloads": 110259
+        "npm_weekly_downloads": 106810
       },
       "source_url": "https://github.com/getsentry/sentry-mcp",
       "github_repo": "getsentry/sentry-mcp"
@@ -40129,7 +40196,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1290,
-        "npm_weekly_downloads": 260,
+        "npm_weekly_downloads": 239,
         "license": "MIT"
       },
       "source_url": "https://github.com/steipete/claude-code-mcp",
@@ -40160,7 +40227,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 393,
-        "npm_weekly_downloads": 801,
+        "npm_weekly_downloads": 756,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/e2b-dev/mcp-server",
@@ -40200,7 +40267,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 10942,
-        "npm_weekly_downloads": 33208597,
+        "npm_weekly_downloads": 33382428,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/openai/openai-node",
@@ -40317,7 +40384,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 190,
-        "npm_weekly_downloads": 245,
+        "npm_weekly_downloads": 254,
         "license": "MIT"
       },
       "source_url": "https://github.com/getsentry/sentry-for-ai",
@@ -40372,7 +40439,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 33289,
-        "npm_weekly_downloads": 6311579,
+        "npm_weekly_downloads": 6304943,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/microsoft/playwright-mcp",
@@ -40405,7 +40472,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 89986,
-        "npm_weekly_downloads": 78954076,
+        "npm_weekly_downloads": 79753878,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/microsoft/playwright",

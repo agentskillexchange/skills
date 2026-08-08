@@ -79,7 +79,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Satori HTML and CSS to SVG Image Generator by Vercel](../../skills/satori-html-css-svg-image-generator/) | 13.2k | 1.3M/wk |
 | [Apply an anti-AI-slop design workflow to pages, components, audits, and redesigns with Hallmark](../../skills/apply-an-anti-ai-slop-design-workflow-to-pages-components-audits-and-redesigns-with-hallmark/) | 13.1k | — |
 | [libvips High-Performance Image Processing Library and CLI](../../skills/libvips-high-performance-image-processing-library-cli/) | 11.2k | — |
-| [OpenAI Image Gen](../../skills/openai-image-gen/) | 10.9k | 33.2M/wk |
+| [OpenAI Image Gen](../../skills/openai-image-gen/) | 10.9k | 33.4M/wk |
 | [DALL-E 3 Batch Asset Generator](../../skills/dalle-3-batch-asset-generator/) | 10.8k | 18.1M/wk |
 | [DALL-E Batch Image Generator](../../skills/dalle-batch-image-generator/) | 10.8k | 18.1M/wk |
 | [DALL-E Image Variation Generator](../../skills/dalle-image-variation-generator/) | 10.8k | 18.1M/wk |
@@ -112,6 +112,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [CairoSVG SVG to PNG PDF and PostScript Converter](../../skills/cairosvg-svg-to-png-pdf-converter/) | 917 | — |
 | [Turn source novels into playable games with NovelToGame](../../skills/turn-source-novels-into-playable-games-with-noveltogame/) | 559 | — |
 | [Drive ComfyUI generation workflows through comfyui-mcp](../../skills/drive-comfyui-generation-workflows-through-comfyui-mcp/) | 386 | 86.4k/wk |
+| [Give text-only agents vision workflows with Agent Vision Toolkit](../../skills/give-text-only-agents-vision-workflows-with-agent-vision-toolkit/) | 335 | — |
 | [Generate launch-ready web app icons and social assets with Web Asset Generator](../../skills/generate-launch-ready-web-app-icons-and-social-assets-with-web-asset-generator/) | 321 | — |
 | [Generate fast static photo album sites from curated folders with DD Photos](../../skills/generate-fast-static-photo-album-sites-from-curated-folders-with-dd-photos/) | 155 | — |
 | [Archive and reorganize local photo libraries with photo-cli](../../skills/archive-and-reorganize-local-photo-libraries-with-photo-cli/) | 68 | — |
@@ -132,6 +133,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Gemini Image Style Transfer Agent](../../skills/gemini-image-style-transfer-agent/) | — | — |
 | [Generate reproducible algorithmic art sketches with seeded p5.js randomness](../../skills/generate-reproducible-algorithmic-art-sketches-with-seeded-p5js-randomness/) | — | — |
 | [Generate Slack-ready animated GIFs from custom frame sequences](../../skills/generate-slack-ready-animated-gifs-from-custom-frame-sequences/) | — | — |
+| [ImagineVid AI Generation](../../skills/imaginevid-ai-generation/) | — | — |
 | [Midjourney Prompt Chain Builder](../../skills/midjourney-prompt-chain-builder/) | — | — |
 | [Midjourney Prompt Engineering Suite](../../skills/midjourney-prompt-engineering-suite/) | — | — |
 | [Midjourney Prompt Optimizer](../../skills/midjourney-prompt-optimizer-skill/) | — | — |

@@ -207,6 +207,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Route agent reasoning through cc-thinking-skills](../../skills/route-agent-reasoning-through-cc-thinking-skills/) | 930 | — |
 | [Build and sync n8n workflows from code with n8n-as-code](../../skills/build-and-sync-n8n-workflows-from-code-with-n8n-as-code/) | 884 | 297/wk |
 | [Build deterministic multi-agent networks with Inngest AgentKit](../../skills/build-deterministic-multi-agent-networks-with-inngest-agentkit/) | 880 | 62.8k/wk |
+| [Run a self-evolving markdown second brain with COG](../../skills/run-a-self-evolving-markdown-second-brain-with-cog/) | 803 | — |
 | [Prove Agent Skills with SkillForge](../../skills/prove-agent-skills-with-skillforge/) | 802 | — |
 | [Run parallel Claude Code bug-fix and best-practice sweeps with coordinated workers using Claude Code Agent Farm](../../skills/run-parallel-claude-code-bug-fix-and-best-practice-sweeps-with-coordinated-workers-using-claude-code-agent-farm/) | 784 | — |
 | [Reformat Markdown files into a stable house style before review or migration](../../skills/reformat-markdown-files-into-a-stable-house-style-before-review-or-migration/) | 758 | — |
@@ -220,6 +221,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Sync dbt schema YAML and inherited column metadata before docs drift accumulates with dbt-osmosis](../../skills/sync-dbt-schema-yaml-and-inherited-column-metadata-before-docs-drift-accumulates-with-dbt-osmosis/) | 622 | — |
 | [Extract translation keys from code and maintain locale catalogs with i18next-parser](../../skills/extract-translation-keys-from-code-and-maintain-locale-catalogs-i18next-parser/) | 556 | 2.2M/wk |
 | [Ship AG2 multi-agent workflows behind APIs with FastAgency](../../skills/ship-ag2-multi-agent-workflows-behind-apis-with-fastagency/) | 540 | — |
+| [Route bilingual marketing operations through ai-business-skills](../../skills/route-bilingual-marketing-operations-through-ai-business-skills/) | 526 | — |
 | [Run Spec-Driven Agent Changes With OSpec](../../skills/run-spec-driven-agent-changes-with-ospec/) | 524 | 4.6k/wk |
 | [Railway App Deployer](../../skills/railway-app-deployer/) | 523 | 143.6k/wk |
 | [Evolve reusable coding-agent skills from failed trajectories with EvoSkill](../../skills/evolve-reusable-coding-agent-skills-from-failed-trajectories-with-evoskill/) | 489 | — |

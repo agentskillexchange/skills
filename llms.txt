@@ -1,7 +1,47 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-08-07
-# Total: 2866 skills
+# Generated: 2026-08-08
+# Total: 2871 skills
+
+## ImagineVid AI Generation
+slug: imaginevid-ai-generation
+category: Image & Creative Automation
+framework: MCP
+verification: Published
+description: Use ImagineVid's OAuth-protected MCP and CLI tools to discover and safely run current image, video, and music generation capabilities.
+url: https://agentskillexchange.com/skills/imaginevid-ai-generation/
+
+## Run production .NET coding workflows with dotnet-skills
+slug: run-production-dotnet-coding-workflows-with-dotnet-skills
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Install a .NET skill and agent pack for C#, ASP.NET Core, Aspire, EF Core, Akka.NET, testing, performance, and quality-gate workflows.
+url: https://agentskillexchange.com/skills/run-production-dotnet-coding-workflows-with-dotnet-skills/
+
+## Run a self-evolving markdown second brain with COG
+slug: run-a-self-evolving-markdown-second-brain-with-cog
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use COG to onboard a markdown-based second brain with agent skills for braindumps, briefs, reviews, research, product work, and verifier-backed workflows.
+url: https://agentskillexchange.com/skills/run-a-self-evolving-markdown-second-brain-with-cog/
+
+## Route bilingual marketing operations through ai-business-skills
+slug: route-bilingual-marketing-operations-through-ai-business-skills
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Give agents a bilingual marketing SOP system for plans, copy, audits, content calendars, campaign briefs, design prompts, and role-based workflows.
+url: https://agentskillexchange.com/skills/route-bilingual-marketing-operations-through-ai-business-skills/
+
+## Give text-only agents vision workflows with Agent Vision Toolkit
+slug: give-text-only-agents-vision-workflows-with-agent-vision-toolkit
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Install Agent Vision Toolkit so shell-capable coding agents can inspect screenshots, run OCR, locate UI elements, restore interfaces, and operate GUIs through repeatable local…
+url: https://agentskillexchange.com/skills/give-text-only-agents-vision-workflows-with-agent-vision-toolkit/
 
 ## Use Superpowers Symfony for Claude Code Symfony workflows
 slug: use-superpowers-symfony-for-claude-code-symfony-workflows
