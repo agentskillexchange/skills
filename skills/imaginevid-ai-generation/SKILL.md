@@ -5,7 +5,7 @@ description: "Use ImagineVid's OAuth-protected MCP and CLI tools to discover and
 category: "Image & Creative Automation"
 framework: "MCP"
 verification: listed
-source: "https://github.com/imagineVid/agent-skills"
+source: "https://github.com/imagineVid/agent-skills/tree/main/skills/imaginevid-ai-generation"
 ---
 
 # ImagineVid AI Generation
@@ -19,10 +19,12 @@ https://github.com/imagineVid/agent-skills/tree/main/skills/imaginevid-ai-genera
 
 ## Installation
 
-Install the public Skill package for a compatible agent:
+Clone the public Skill package and copy the skill folder into the host's local
+skills directory:
 
 ```bash
-npx skills add https://github.com/imagineVid/agent-skills --skill imaginevid-ai-generation
+git clone https://github.com/imagineVid/agent-skills.git
+cp -R agent-skills/skills/imaginevid-ai-generation ~/.agent-skills/imaginevid-ai-generation
 ```
 
 Then connect the host to the ImagineVid remote MCP endpoint through its OAuth
