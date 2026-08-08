@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-08
-# Total: 2872 skills
+# Total: 2874 skills
+
+## Maintain Repo-Local Agent Memory with mex
+slug: maintain-repo-local-agent-memory-with-mex
+category: Developer Tools
+framework: Multi-Framework
+verification: Published
+description: Use mex when coding agents need a versioned project wiki, code graph, routed context, and drift checks instead of rediscovering a repo every session.
+url: https://agentskillexchange.com/skills/maintain-repo-local-agent-memory-with-mex/
+
+## Control Blender Scenes from MCP Agents with BlenderMCP
+slug: control-blender-scenes-from-mcp-agents-with-blendermcp
+category: Integrations & Connectors
+framework: MCP
+verification: Security Reviewed
+description: Use BlenderMCP when an MCP-capable agent needs to inspect, create, and modify Blender scenes through a controlled Blender bridge.
+url: https://agentskillexchange.com/skills/control-blender-scenes-from-mcp-agents-with-blendermcp/
 
 ## Audit Websites for AI Search Visibility with GEO SEO Claude
 slug: audit-websites-for-ai-search-visibility-with-geo-seo-claude

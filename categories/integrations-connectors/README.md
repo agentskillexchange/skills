@@ -57,6 +57,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [ntfy Self-Hosted Push Notification Server](../../skills/ntfy-self-hosted-push-notification-server/) | 29.5k | — |
 | [Chatwoot Open Source Customer Engagement and Omnichannel Support Platform](../../skills/chatwoot-open-source-customer-engagement-omnichannel-support/) | 28.5k | — |
 | [Composio Agent Tool Integration Platform](../../skills/composio-agent-tool-integration-platform/) | 27.6k | — |
+| [Control Blender Scenes from MCP Agents with BlenderMCP](../../skills/control-blender-scenes-from-mcp-agents-with-blendermcp/) | 25.6k | — |
 | [Zulip Open Source Team Chat Platform with Topic-Based Threading](../../skills/zulip-team-chat-threading/) | 25k | — |
 | [Use A2A for agent-to-agent interoperability workflows](../../skills/use-a2a-for-agent-to-agent-interoperability-workflows/) | 24.1k | 5M/wk |
 | [Saleor Open Source Headless Commerce Platform with GraphQL API](../../skills/saleor-open-source-headless-commerce-graphql-api/) | 22.8k | — |

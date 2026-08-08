@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2872 published skills** across **17 categories** · 2,454 security reviewed · Updated 2026-08-08 13:26 UTC
+> **2874 published skills** across **17 categories** · 2,454 security reviewed · Updated 2026-08-08 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (421 skills)
+### 🛠️ Developer Tools (422 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -339,6 +339,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Add managed long-term memory to LangGraph agents with LangMem](skills/add-managed-long-term-memory-to-langgraph-agents-with-langmem/) | Give LangGraph agents memory management and search tools so they can store, retrieve, and update durable facts… | Security Reviewed | 1.5k | — |
 | [Build production Go agents with tRPC-Agent-Go](skills/build-production-go-agents-with-trpc-agent-go/) | Model Go-native agent systems with graph workflows, tool calls, memory, MCP, A2A, evaluation, and OpenTelemetry… | Security Reviewed | 1.5k | — |
 | [Redocly CLI OpenAPI Linter and Documentation Generator](skills/redocly-cli-openapi-linter-documentation-generator/) | Redocly CLI is an all-in-one OpenAPI utility that lints, validates, bundles, and generates documentation from API… | Security Reviewed | 1.4k | 1.6M/wk |
+| [Maintain Repo-Local Agent Memory with mex](skills/maintain-repo-local-agent-memory-with-mex/) | Use mex when coding agents need a versioned project wiki, code graph, routed context, and drift checks instead of… | Published | 1.4k | 2.5k/wk |
 | [Search cross-agent Markdown memory and conversation history with memsearch](skills/search-cross-agent-markdown-memory-and-conversation-history-with-memsearch/) | Give supported coding agents a shared Markdown-first memory layer so they can recall prior decisions, transcripts,… | Security Reviewed | 1.3k | — |
 | [Terraform MCP Server for Infrastructure as Code](skills/terraform-mcp-server-infrastructure-as-code/) | The official HashiCorp Terraform MCP server integrates with the Terraform Registry and HCP Terraform, enabling AI… | Security Reviewed | 1.3k | — |
 | [WASM Component Model Linker](skills/wasm-component-model-linker/) | Compiles and links WebAssembly components using the WASI Preview 2 Component Model, wasm-tools CLI for component… | Published | 1.3k | — |
@@ -1740,7 +1741,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (159 skills)
+### 🔗 Integrations & Connectors (160 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1763,6 +1764,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [ntfy Self-Hosted Push Notification Server](skills/ntfy-self-hosted-push-notification-server/) | ntfy is an open-source HTTP-based pub-sub notification service that lets you send push notifications to phones and… | Published | 29.5k | — |
 | [Chatwoot Open Source Customer Engagement and Omnichannel Support Platform](skills/chatwoot-open-source-customer-engagement-omnichannel-support/) | Chatwoot is a self-hosted, open-source customer engagement platform that provides live chat, email, social media,… | Security Reviewed | 28.5k | — |
 | [Composio Agent Tool Integration Platform](skills/composio-agent-tool-integration-platform/) | Composio provides 1000+ pre-built toolkits with managed authentication, context management, and sandboxed execution… | Security Reviewed | 27.6k | — |
+| [Control Blender Scenes from MCP Agents with BlenderMCP](skills/control-blender-scenes-from-mcp-agents-with-blendermcp/) | Use BlenderMCP when an MCP-capable agent needs to inspect, create, and modify Blender scenes through a controlled… | Security Reviewed | 25.6k | — |
 | [Zulip Open Source Team Chat Platform with Topic-Based Threading](skills/zulip-team-chat-threading/) | Zulip is an open-source organized team chat application with unique topic-based threading that combines the best of… | Published | 25k | — |
 | [Use A2A for agent-to-agent interoperability workflows](skills/use-a2a-for-agent-to-agent-interoperability-workflows/) | Expose agent capabilities and route tasks across independent agent runtimes with the Agent2Agent protocol. | Security Reviewed | 24.1k | 5M/wk |
 | [Saleor Open Source Headless Commerce Platform with GraphQL API](skills/saleor-open-source-headless-commerce-graphql-api/) | Saleor is a leading open source headless e-commerce platform built with Python and Django. It provides a GraphQL API… | Security Reviewed | 22.8k | — |

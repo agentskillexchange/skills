@@ -2,8 +2,30 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-08",
-  "total": 2872,
+  "total": 2874,
   "skills": [
+    {
+      "slug": "maintain-repo-local-agent-memory-with-mex",
+      "name": "Maintain Repo-Local Agent Memory with mex",
+      "title": "Maintain Repo-Local Agent Memory with mex",
+      "description": "Use mex when coding agents need a versioned project wiki, code graph, routed context, and drift checks instead of rediscovering a repo every session.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/mex-memory/mex",
+      "github_repo": "mex-memory/mex"
+    },
+    {
+      "slug": "control-blender-scenes-from-mcp-agents-with-blendermcp",
+      "name": "Control Blender Scenes from MCP Agents with BlenderMCP",
+      "title": "Control Blender Scenes from MCP Agents with BlenderMCP",
+      "description": "Use BlenderMCP when an MCP-capable agent needs to inspect, create, and modify Blender scenes through a controlled Blender bridge.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/MCPBlender/blender-mcp",
+      "github_repo": "MCPBlender/blender-mcp"
+    },
     {
       "slug": "audit-websites-for-ai-search-visibility-with-geo-seo-claude",
       "name": "Audit Websites for AI Search Visibility with GEO SEO Claude",

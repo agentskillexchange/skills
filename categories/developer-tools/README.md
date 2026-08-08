@@ -365,6 +365,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Add managed long-term memory to LangGraph agents with LangMem](../../skills/add-managed-long-term-memory-to-langgraph-agents-with-langmem/) | 1.5k | — |
 | [Build production Go agents with tRPC-Agent-Go](../../skills/build-production-go-agents-with-trpc-agent-go/) | 1.5k | — |
 | [Redocly CLI OpenAPI Linter and Documentation Generator](../../skills/redocly-cli-openapi-linter-documentation-generator/) | 1.4k | 1.6M/wk |
+| [Maintain Repo-Local Agent Memory with mex](../../skills/maintain-repo-local-agent-memory-with-mex/) | 1.4k | 2.5k/wk |
 | [Search cross-agent Markdown memory and conversation history with memsearch](../../skills/search-cross-agent-markdown-memory-and-conversation-history-with-memsearch/) | 1.3k | — |
 | [Terraform MCP Server for Infrastructure as Code](../../skills/terraform-mcp-server-infrastructure-as-code/) | 1.3k | — |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | 1.3k | — |
