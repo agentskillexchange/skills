@@ -12,7 +12,7 @@ tool_ecosystem:
   github_repo: "aws/aws-sdk-js-v3"
   github_stars: 3632
   npm_package: "@aws-sdk/client-s3"
-  npm_weekly_downloads: 40467336
+  npm_weekly_downloads: 39296717
 ---
 
 # AWS S3 MCP Server
