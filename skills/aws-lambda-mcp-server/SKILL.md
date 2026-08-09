@@ -12,7 +12,7 @@ tool_ecosystem:
   github_repo: "aws/aws-sdk-js-v3"
   github_stars: 3632
   npm_package: "@aws-sdk/client-lambda"
-  npm_weekly_downloads: 10069853
+  npm_weekly_downloads: 10277440
 ---
 
 # AWS Lambda MCP Server
