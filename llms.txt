@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-10
-# Total: 2876 skills
+# Total: 2880 skills
+
+## Unified AI System Gateway
+slug: unified-ai-gateway
+category: Developer Tools
+framework: Codex
+verification: Published
+description: Turn plain-language requests into structured, reviewable prompts and inspect a self-hosted MCP gateway with provider-free defaults.
+url: https://agentskillexchange.com/skills/unified-ai-gateway/
+
+## Enforce Coding-Agent Write and Shell Policies with Probity
+slug: enforce-coding-agent-write-and-shell-policies-with-probity
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Probity when Claude Code, Codex, or GitHub Copilot CLI should be blocked from unsafe file writes or shell commands before they happen.
+url: https://agentskillexchange.com/skills/enforce-coding-agent-write-and-shell-policies-with-probity/
+
+## Prepare Evidence-Backed Open Source Contribution Proposals with ContribAI
+slug: prepare-evidence-backed-open-source-contribution-proposals-with-contribai
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Published
+description: Use ContribAI when an agent should analyze a repository, respect maintainer consent, and prepare bounded draft contribution proposals with evidence receipts.
+url: https://agentskillexchange.com/skills/prepare-evidence-backed-open-source-contribution-proposals-with-contribai/
+
+## Design and Audit Agent Harnesses with Agents Best Practices
+slug: design-and-audit-agent-harnesses-with-agents-best-practices
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Agents Best Practices when an agent should produce concrete harness designs, permission models, memory plans, eval gates, or production-readiness audits.
+url: https://agentskillexchange.com/skills/design-and-audit-agent-harnesses-with-agents-best-practices/
 
 ## Stress-Test Research Papers Before Submission with PaperJury
 slug: stress-test-research-papers-before-submission-with-paperjury

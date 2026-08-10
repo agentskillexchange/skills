@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2876 published skills** across **17 categories** · 2,458 security reviewed · Updated 2026-08-10 13:26 UTC
+> **2880 published skills** across **17 categories** · 2,458 security reviewed · Updated 2026-08-10 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (422 skills)
+### 🛠️ Developer Tools (423 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -434,11 +434,12 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Obsidian Vault Manager](skills/obsidian-vault-manager/) | Obsidian Vault Manager is built around HashiCorp Vault secrets platform. The underlying ecosystem is represented by… | Published | — | — |
 | [RouterBase Model Routing](skills/routerbase-model-routing/) | Design RouterBase model routing policies for AI agents, including primary model selection, fallback chains, latency… | Published | — | — |
 | [Turn notes, logs, and screenshots into structured GitHub issues with GitHub Issue Creator](skills/turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator/) | Convert messy bug notes, error logs, voice dictation, and screenshots into crisp GitHub issue reports with clear… | Security Reviewed | — | — |
+| [Unified AI System Gateway](skills/unified-ai-gateway/) | Turn plain-language requests into structured, reviewable prompts and inspect a self-hosted MCP gateway with… | Published | — | — |
 | [VS Code Extension Debugger](skills/vscode-extension-debugger-dap-protocol/) | Debugs VS Code extensions using the Debug Adapter Protocol (DAP) with breakpoint management and variable inspection.… | Security Reviewed | — | — |
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (242 skills)
+### 🔒 Security & Verification (243 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -648,6 +649,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Lint and autofix agent config files before broken prompts, hooks, or MCP settings derail runs with agnix](skills/lint-and-autofix-agent-config-files-before-broken-prompts-hooks-or-mcp-settings-derail-runs-with-agnix/) | Validate and optionally autofix SKILL.md, CLAUDE.md, AGENTS.md, hooks, and MCP config files before bad agent… | Security Reviewed | 179 | 6k/wk |
 | [Gitxray GitHub Repository Security X-Ray](skills/gitxray-github-repository-security-xray/) | A multifaceted OSINT and forensics tool for GitHub repositories that detects fake stargazers, tampered commits,… | Published | 174 | — |
 | [Run coding agents in a locked-down local sandbox with repo-only filesystem access and controlled egress using agent-sandbox](skills/run-coding-agents-in-a-locked-down-local-sandbox-with-repo-only-filesystem-access-and-controlled-egress-using-agent-sandbox/) | Put Claude Code, Codex, Gemini, or other supported agent CLIs inside a persistent local sandbox instead of letting… | Security Reviewed | 163 | — |
+| [Enforce Coding-Agent Write and Shell Policies with Probity](skills/enforce-coding-agent-write-and-shell-policies-with-probity/) | Use Probity when Claude Code, Codex, or GitHub Copilot CLI should be blocked from unsafe file writes or shell… | Security Reviewed | 162 | 5.2k/wk |
 | [Wrap local coding agents in deny-by-default least-privilege sandboxes with Greywall](skills/wrap-local-coding-agents-in-deny-by-default-least-privilege-sandboxes-with-greywall/) | Run Claude Code, Codex, Cursor, or similar local agent CLIs inside a host-local sandbox that learns required access… | Security Reviewed | 158 | — |
 | [Run Claude Code security operations with SecOpsAgentKit](skills/run-claude-code-security-operations-with-secopsagentkit/) | Install SecOpsAgentKit when a Claude Code session needs repeatable security review skills for SAST, DAST, container… | Security Reviewed | 157 | — |
 | [Statically scan agent repos for prompt injection and unsafe MCP configs with Agent Audit](skills/statically-scan-agent-repos-for-prompt-injection-and-unsafe-mcp-configs-with-agent-audit/) | Audit agent code, prompts, and MCP configuration for prompt-injection surfaces, taint issues, and unsafe tool… | Security Reviewed | 149 | — |
@@ -688,7 +690,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (232 skills)
+### 📄 Templates & Workflows (233 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -835,6 +837,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Export live HTML slide decks to PDF handouts before review or archival](skills/export-live-html-slide-decks-to-pdf-handouts-before-review-or-archival/) | Uses DeckTape to open an existing HTML slide deck and render it into a reviewable PDF or per-slide screenshots. It… | Published | 2.4k | 1.4k/wk |
 | [Boot and supervise local multi-service process stacks from one declarative file with process-compose](skills/boot-and-supervise-local-multi-service-process-stacks-from-one-declarative-file-with-process-compose/) | Start, watch, and restart a local stack of app processes together instead of juggling many terminals and ad hoc… | Security Reviewed | 2.3k | — |
 | [Coordinate planner manager worker handoffs for long running AI delivery with Agentic Project Management](skills/coordinate-planner-manager-worker-handoffs-for-long-running-ai-delivery-with-agentic-project-management/) | Keep a large software project moving across planning, execution, and review by handing work between structured agent… | Security Reviewed | 2.2k | 1.9k/wk |
+| [Design and Audit Agent Harnesses with Agents Best Practices](skills/design-and-audit-agent-harnesses-with-agents-best-practices/) | Use Agents Best Practices when an agent should produce concrete harness designs, permission models, memory plans,… | Security Reviewed | 2.2k | — |
 | [Turn product requirements into executable Claude Code plans and validation loops with PRPs Agentic Eng](skills/turn-product-requirements-into-executable-claude-code-plans-and-validation-loops-with-prps-agentic-eng/) | Generate PRDs, implementation plans, validation loops, issue investigations, and autonomous fix cycles inside Claude… | Security Reviewed | 2.1k | — |
 | [Layer self-correcting memory and worktree routines into Claude Code with Pro Workflow](skills/layer-self-correcting-memory-and-worktree-routines-into-claude-code-with-pro-workflow/) | Use Pro Workflow when Claude Code sessions keep repeating the same mistakes and you want corrections, quality gates,… | Security Reviewed | 1.9k | 42/wk |
 | [Netlify Site Manager](skills/netlify-site-manager/) | Netlify Site Manager is built around Netlify deployment platform. The underlying ecosystem is represented by… | Security Reviewed | 1.8k | 259.3k/wk |
@@ -1153,7 +1156,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (197 skills)
+### ✅ Code Quality & Review (198 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1321,6 +1324,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Mock AI app dependencies for deterministic local and CI tests](skills/mock-ai-app-dependencies-for-deterministic-local-and-ci-tests/) | Use AiMock when an agent needs reproducible tests around LLM APIs, MCP tools, A2A flows, vector stores, search, or… | Security Reviewed | 324 | 6.4k/wk |
 | [Validate CI and app config files against upstream JSON schemas before merge](skills/validate-ci-and-app-config-files-against-upstream-json-schemas-before-merge/) | Use check-jsonschema when an agent needs to catch broken GitHub Actions, Renovate, Azure Pipelines, and other… | Security Reviewed | 312 | — |
 | [Scan sites for accessibility gaps, file GitHub issues, and route fixes through Copilot with Accessibility Scanner](skills/scan-sites-for-accessibility-gaps-file-github-issues-and-route-fixes-through-copilot-with-accessibility-scanner/) | Run accessibility scans against target URLs, open trackable issues, and optionally hand remediation suggestions to… | Security Reviewed | 266 | — |
+| [Prepare Evidence-Backed Open Source Contribution Proposals with ContribAI](skills/prepare-evidence-backed-open-source-contribution-proposals-with-contribai/) | Use ContribAI when an agent should analyze a repository, respect maintainer consent, and prepare bounded draft… | Published | 246 | — |
 | [Run focused accessibility review agents against coding-tool output with Accessibility Agents](skills/run-focused-accessibility-review-agents-with-accessibility-agents/) | Dispatch specialized WCAG review agents to inspect code or content before inaccessible patterns ship. | Published | 235 | — |
 | [Validate Python Docstrings Against Function Signatures with pydoclint](skills/validate-python-docstrings-against-function-signatures-with-pydoclint/) | Check that Python docstrings stay consistent with parameters, returns, and raised exceptions as code evolves. | Security Reviewed | 208 | — |
 | [Lint reStructuredText docs and release notes before Sphinx publishing with doc8](skills/lint-restructuredtext-docs-and-release-notes-before-sphinx-publishing-with-doc8/) | Catch structural and line-style problems in reStructuredText docs before release notes and Sphinx pages go out… | Security Reviewed | 176 | — |

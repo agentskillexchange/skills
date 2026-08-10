@@ -2,8 +2,52 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-10",
-  "total": 2876,
+  "total": 2880,
   "skills": [
+    {
+      "slug": "unified-ai-gateway",
+      "name": "Unified AI System Gateway",
+      "title": "Unified AI System Gateway",
+      "description": "Turn plain-language requests into structured, reviewable prompts and inspect a self-hosted MCP gateway with provider-free defaults.",
+      "category": "Developer Tools",
+      "framework": "Codex",
+      "verification": "listed",
+      "source_url": "https://github.com/happy520ai/unified-ai-system/tree/master/skills/unified-ai-gateway",
+      "github_repo": "happy520ai/unified-ai-system"
+    },
+    {
+      "slug": "enforce-coding-agent-write-and-shell-policies-with-probity",
+      "name": "Enforce Coding-Agent Write and Shell Policies with Probity",
+      "title": "Enforce Coding-Agent Write and Shell Policies with Probity",
+      "description": "Use Probity when Claude Code, Codex, or GitHub Copilot CLI should be blocked from unsafe file writes or shell commands before they happen.",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/nizos/probity",
+      "github_repo": "nizos/probity"
+    },
+    {
+      "slug": "prepare-evidence-backed-open-source-contribution-proposals-with-contribai",
+      "name": "Prepare Evidence-Backed Open Source Contribution Proposals with ContribAI",
+      "title": "Prepare Evidence-Backed Open Source Contribution Proposals with ContribAI",
+      "description": "Use ContribAI when an agent should analyze a repository, respect maintainer consent, and prepare bounded draft contribution proposals with evidence receipts.",
+      "category": "Code Quality & Review",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/tang-vu/ContribAI",
+      "github_repo": "tang-vu/ContribAI"
+    },
+    {
+      "slug": "design-and-audit-agent-harnesses-with-agents-best-practices",
+      "name": "Design and Audit Agent Harnesses with Agents Best Practices",
+      "title": "Design and Audit Agent Harnesses with Agents Best Practices",
+      "description": "Use Agents Best Practices when an agent should produce concrete harness designs, permission models, memory plans, eval gates, or production-readiness audits.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/DenisSergeevitch/agents-best-practices",
+      "github_repo": "DenisSergeevitch/agents-best-practices"
+    },
     {
       "slug": "stress-test-research-papers-before-submission-with-paperjury",
       "name": "Stress-Test Research Papers Before Submission with PaperJury",

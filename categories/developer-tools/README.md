@@ -460,6 +460,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Obsidian Vault Manager](../../skills/obsidian-vault-manager/) | — | — |
 | [RouterBase Model Routing](../../skills/routerbase-model-routing/) | — | — |
 | [Turn notes, logs, and screenshots into structured GitHub issues with GitHub Issue Creator](../../skills/turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator/) | — | — |
+| [Unified AI System Gateway](../../skills/unified-ai-gateway/) | — | — |
 | [VS Code Extension Debugger](../../skills/vscode-extension-debugger-dap-protocol/) | — | — |
 | [VS Code Extension Scaffolder](../../skills/vscode-extension-scaffolder-agent/) | — | — |
 

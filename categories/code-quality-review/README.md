@@ -202,6 +202,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Mock AI app dependencies for deterministic local and CI tests](../../skills/mock-ai-app-dependencies-for-deterministic-local-and-ci-tests/) | 324 | 6.4k/wk |
 | [Validate CI and app config files against upstream JSON schemas before merge](../../skills/validate-ci-and-app-config-files-against-upstream-json-schemas-before-merge/) | 312 | — |
 | [Scan sites for accessibility gaps, file GitHub issues, and route fixes through Copilot with Accessibility Scanner](../../skills/scan-sites-for-accessibility-gaps-file-github-issues-and-route-fixes-through-copilot-with-accessibility-scanner/) | 266 | — |
+| [Prepare Evidence-Backed Open Source Contribution Proposals with ContribAI](../../skills/prepare-evidence-backed-open-source-contribution-proposals-with-contribai/) | 246 | — |
 | [Run focused accessibility review agents against coding-tool output with Accessibility Agents](../../skills/run-focused-accessibility-review-agents-with-accessibility-agents/) | 235 | — |
 | [Validate Python Docstrings Against Function Signatures with pydoclint](../../skills/validate-python-docstrings-against-function-signatures-with-pydoclint/) | 208 | — |
 | [Lint reStructuredText docs and release notes before Sphinx publishing with doc8](../../skills/lint-restructuredtext-docs-and-release-notes-before-sphinx-publishing-with-doc8/) | 176 | — |

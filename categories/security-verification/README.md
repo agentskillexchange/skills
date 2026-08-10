@@ -244,6 +244,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Lint and autofix agent config files before broken prompts, hooks, or MCP settings derail runs with agnix](../../skills/lint-and-autofix-agent-config-files-before-broken-prompts-hooks-or-mcp-settings-derail-runs-with-agnix/) | 179 | 6k/wk |
 | [Gitxray GitHub Repository Security X-Ray](../../skills/gitxray-github-repository-security-xray/) | 174 | — |
 | [Run coding agents in a locked-down local sandbox with repo-only filesystem access and controlled egress using agent-sandbox](../../skills/run-coding-agents-in-a-locked-down-local-sandbox-with-repo-only-filesystem-access-and-controlled-egress-using-agent-sandbox/) | 163 | — |
+| [Enforce Coding-Agent Write and Shell Policies with Probity](../../skills/enforce-coding-agent-write-and-shell-policies-with-probity/) | 162 | 5.2k/wk |
 | [Wrap local coding agents in deny-by-default least-privilege sandboxes with Greywall](../../skills/wrap-local-coding-agents-in-deny-by-default-least-privilege-sandboxes-with-greywall/) | 158 | — |
 | [Run Claude Code security operations with SecOpsAgentKit](../../skills/run-claude-code-security-operations-with-secopsagentkit/) | 157 | — |
 | [Statically scan agent repos for prompt injection and unsafe MCP configs with Agent Audit](../../skills/statically-scan-agent-repos-for-prompt-injection-and-unsafe-mcp-configs-with-agent-audit/) | 149 | — |
