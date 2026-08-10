@@ -148,7 +148,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Budibase Open Source Low-Code Operations App Platform](../../skills/budibase-open-source-low-code-operations-app-platform/) | 27.8k | 41/wk |
 | [Hyperfine Command-Line Benchmarking Tool](../../skills/hyperfine-command-line-benchmarking-tool/) | 27.8k | — |
 | [Jujutsu Git-Compatible Version Control System](../../skills/jujutsu-jj-git-compatible-vcs/) | 27.5k | — |
-| [ESLint Code Review](../../skills/eslint-code-review/) | 27.3k | 155.9M/wk |
+| [ESLint Code Review](../../skills/eslint-code-review/) | 27.3k | 156.3M/wk |
 | [ESLint Rule Generator Agent](../../skills/eslint-rule-generator-agent/) | 27.2k | 120.2M/wk |
 | [Run open-source terminal coding workflows with Qwen Code](../../skills/run-open-source-terminal-coding-workflows-with-qwen-code/) | 26.6k | 54.7k/wk |
 | [smolagents Code-First AI Agent Library](../../skills/smolagents-code-first-ai-agent-library/) | 26.4k | — |
@@ -318,7 +318,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Build and debug AI pipelines in an IDE with RocketRide](../../skills/build-and-debug-ai-pipelines-in-an-ide-with-rocketride/) | 3.9k | 635/wk |
 | [Stancl Tenancy v3 — Multi-Tenant Laravel](../../skills/tenancy-development/) | 3.8k | — |
 | [Build Java agent transport gateways with Atmosphere](../../skills/build-java-agent-transport-gateways-with-atmosphere/) | 3.8k | — |
-| [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | 3.6k | 39.8M/wk |
+| [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | 3.6k | 39.9M/wk |
 | [AWS Lambda MCP Server](../../skills/aws-lambda-mcp-server/) | 3.6k | 10.3M/wk |
 | [Cloud Cost Analysis](../../skills/cloud-cost-analysis/) | 3.6k | — |
 | [Topgrade Universal System Package Updater](../../skills/topgrade-universal-system-package-updater/) | 3.6k | — |
@@ -411,7 +411,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Orchestrate multi-agent coding delivery loops with Maestro Flow](../../skills/orchestrate-multi-agent-coding-delivery-loops-with-maestro-flow/) | 480 | 1k/wk |
 | [Orchestrate review-first multi-agent development work with Kandev](../../skills/orchestrate-review-first-multi-agent-development-work-with-kandev/) | 405 | 3.5k/wk |
 | [Build embeddable Rust coding agents with Cersei](../../skills/build-embeddable-rust-coding-agents-with-cersei/) | 400 | — |
-| [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 393 | 874/wk |
+| [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 393 | 1k/wk |
 | [Coordinate Terminal Coding Agents With hcom](../../skills/coordinate-terminal-coding-agents-with-hcom/) | 393 | — |
 | [Index Codebases for Agent Search with Code Context Engine](../../skills/index-codebases-for-agent-search-with-code-context-engine/) | 383 | — |
 | [Temporal CLI Workflow and Server Control](../../skills/temporal-cli-workflow-server-control/) | 350 | — |
