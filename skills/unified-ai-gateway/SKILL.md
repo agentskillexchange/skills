@@ -35,7 +35,7 @@ required review and approval sequence:
 - Official skill and guarded setup procedure:
   https://github.com/happy520ai/unified-ai-system/tree/master/skills/unified-ai-gateway
 - Reviewed immutable image identity and residual risks:
-  https://github.com/happy520ai/unified-ai-system/blob/master/docs/security/mcp-image-review-0.4.0.md
+  https://github.com/happy520ai/unified-ai-system/blob/master/docs/security/mcp-image-review-0.4.9.md
 - MCP behavior and provider-free verification guide:
   https://github.com/happy520ai/unified-ai-system/blob/master/packages/mcp-server/README.md
 
