@@ -5,7 +5,7 @@ description: "Turn plain-language requests into structured, reviewable prompts a
 category: "Developer Tools"
 framework: "Codex"
 verification: listed
-source: "https://github.com/happy520ai/unified-ai-system"
+source: "https://github.com/happy520ai/unified-ai-system/tree/master/skills/unified-ai-gateway"
 ---
 
 # Unified AI System Gateway
@@ -27,18 +27,25 @@ the result through a provider-free local path.
 
 ## Safe first run
 
-Install the published MCP server only after reviewing the command and asking
-for approval to change the local Codex configuration:
+Treat this catalog entry as a discovery document, not as authorization to pull
+an image, create a container, or modify Codex configuration. The upstream
+official skill classifies the integration as `risk: critical` and defines the
+required review and approval sequence:
 
-```bash
-codex mcp add unified-ai-system -- docker run --rm -i ghcr.io/happy520ai/unified-ai-system/mcp-server:0.4.8
-```
+- Official skill and guarded setup procedure:
+  https://github.com/happy520ai/unified-ai-system/tree/master/skills/unified-ai-gateway
+- Reviewed immutable image identity and residual risks:
+  https://github.com/happy520ai/unified-ai-system/blob/master/docs/security/mcp-image-review-0.4.0.md
+- MCP behavior and provider-free verification guide:
+  https://github.com/happy520ai/unified-ai-system/blob/master/packages/mcp-server/README.md
 
-Restart Codex, inspect the server with `/mcp verbose`, and call
-`gateway_health` followed by `gateway_readiness` before using chat. Keep the
-fake-provider mode for the first run. Never add provider keys to a public
-configuration, and do not infer production readiness, L5 autonomy, or AGI
-from a successful MCP handshake.
+Follow that procedure exactly. Keep image download and non-executing content
+inspection under one explicit approval, then obtain separate approval before
+MCP registration or activation. Do not replace the reviewed digest with a
+mutable tag, enable container networking, mount host paths, pass credentials,
+or activate an unreviewed platform.
 
-Project documentation and the provider-free verification workflow are available
-at https://github.com/happy520ai/unified-ai-system.
+After an approved installation, restart Codex, inspect the server with
+`/mcp verbose`, and call `gateway_health` followed by `gateway_readiness`
+before using chat. Keep the fake-provider mode for the first run, and do not
+infer production readiness, L5 autonomy, or AGI from a successful handshake.
