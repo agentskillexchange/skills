@@ -31,7 +31,7 @@ Install the published MCP server only after reviewing the command and asking
 for approval to change the local Codex configuration:
 
 ```bash
-codex mcp add unified-ai-system -- docker run --rm -i ghcr.io/happy520ai/unified-ai-system/mcp-server:0.4.7
+codex mcp add unified-ai-system -- docker run --rm -i ghcr.io/happy520ai/unified-ai-system/mcp-server:0.4.8
 ```
 
 Restart Codex, inspect the server with `/mcp verbose`, and call
