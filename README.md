@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C874-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C876-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C456-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,874 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,876 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Stress-Test Research Papers Before Submission with PaperJury](skills/stress-test-research-papers-before-submission-with-paperjury/) | Use PaperJury when a Claude Code workflow should review a LaTeX research paper, classify reviewer-style objections, revise bounded... | 926 | Templates & Workflows |
+| [Block Risky Coding-Agent Commands with CC Safety Net](skills/block-risky-coding-agent-commands-with-cc-safety-net/) | Use CC Safety Net when coding-agent CLIs need pre-execution hooks that block destructive commands, secret access, and unsafe... | 1.5k | Security & Verification |
 | [Maintain Repo-Local Agent Memory with mex](skills/maintain-repo-local-agent-memory-with-mex/) | Use mex when coding agents need a versioned project wiki, code graph, routed context, and drift checks instead... | 1.4k | Developer Tools |
 | [Control Blender Scenes from MCP Agents with BlenderMCP](skills/control-blender-scenes-from-mcp-agents-with-blendermcp/) | Use BlenderMCP when an MCP-capable agent needs to inspect, create, and modify Blender scenes through a controlled Blender... | 25.6k | Integrations & Connectors |
 | [Audit Websites for AI Search Visibility with GEO SEO Claude](skills/audit-websites-for-ai-search-visibility-with-geo-seo-claude/) | Use GEO SEO Claude when Claude Code should run repeatable AI-search and SEO audits with citability, crawler, schema... | 9.3k | Content Writing & SEO |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Run a self-evolving markdown second brain with COG](skills/run-a-self-evolving-markdown-second-brain-with-cog/) | Use COG to onboard a markdown-based second brain with agent skills for braindumps, briefs, reviews, research, product work... | 803 | Templates & Workflows |
 | [Route bilingual marketing operations through ai-business-skills](skills/route-bilingual-marketing-operations-through-ai-business-skills/) | Give agents a bilingual marketing SOP system for plans, copy, audits, content calendars, campaign briefs, design prompts, and... | 526 | Templates & Workflows |
 | [Give text-only agents vision workflows with Agent Vision Toolkit](skills/give-text-only-agents-vision-workflows-with-agent-vision-toolkit/) | Install Agent Vision Toolkit so shell-capable coding agents can inspect screenshots, run OCR, locate UI elements, restore interfaces... | 335 | Image & Creative Automation |
-| [Use Superpowers Symfony for Claude Code Symfony workflows](skills/use-superpowers-symfony-for-claude-code-symfony-workflows/) | Install a Claude Code plugin that gives agents repeatable Symfony, Doctrine, API Platform, Messenger, security, TDD, and quality-check... | 186 | Developer Tools |
-| [Run Personal Corp OS weekly operating loops with Claude Code and Codex](skills/run-personal-corp-os-weekly-operating-loops-with-claude-code-and-codex/) | Install a maintained skill pack for weekly planning, retrospectives, task routing, department setup, and founder-ops workflows across Claude... | 214 | Templates & Workflows |
 
 ---
 
@@ -108,6 +108,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 |---|---|---:|---|
 | [Install Chinese-localized Superpowers workflows for coding agents](skills/install-chinese-localized-superpowers-workflows-for-coding-agents/) | Use superpowers-zh to install Chinese-localized coding-agent methods, China-specific development skills, and cross-tool setup for Claude Code, Codex, Cursor... | 7.2k | Templates & Workflows |
 | [Run open-source terminal coding workflows with Qwen Code](skills/run-open-source-terminal-coding-workflows-with-qwen-code/) | Use Qwen Code as a repeatable terminal coding agent: install the CLI, authenticate a provider, run interactive or... | 26.6k | Developer Tools |
+| [Block Risky Coding-Agent Commands with CC Safety Net](skills/block-risky-coding-agent-commands-with-cc-safety-net/) | Use CC Safety Net when coding-agent CLIs need pre-execution hooks that block destructive commands, secret access, and unsafe... | 1.5k | Security & Verification |
 | [Install verified Codex planning and completion loops with LazyCodex](skills/install-verified-codex-planning-and-completion-loops-with-lazycodex/) | Add Codex commands, skills, hooks, diagnostics, and sub-agent roles for deep repository initialization, planning, execution, and evidence-backed completion | 2.8k | Developer Tools |
 | [Audit coding-agent token spend with CodeBurn](skills/audit-coding-agent-token-spend-with-codeburn/) | Run CodeBurn locally or as an MCP server so agents can inspect token usage, cost, model mix, project... | 8.7k | Monitoring & Alerts |
 | [Keep coding agents from over-building implementations with Ponytail](skills/keep-coding-agents-from-over-building-implementations-with-ponytail/) | Ponytail gives coding agents a portable minimal-implementation ruleset, plugin hooks, and review commands so they reuse existing code... | 85.5k | Code Quality & Review |
@@ -115,7 +116,6 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Control Blender Scenes from MCP Agents with BlenderMCP](skills/control-blender-scenes-from-mcp-agents-with-blendermcp/) | Use BlenderMCP when an MCP-capable agent needs to inspect, create, and modify Blender scenes through a controlled Blender... | 25.6k | Integrations & Connectors |
 | [Audit Websites for AI Search Visibility with GEO SEO Claude](skills/audit-websites-for-ai-search-visibility-with-geo-seo-claude/) | Use GEO SEO Claude when Claude Code should run repeatable AI-search and SEO audits with citability, crawler, schema... | 9.3k | Content Writing & SEO |
 | [Run Parallel Divergent Ideation With ADHD](skills/run-parallel-divergent-ideation-with-adhd/) | Use ADHD to fan out isolated reasoning branches for open-ended coding-agent decisions, then score, prune, and deepen the... | 1.3k | Templates & Workflows |
-| [Review agent-authored diffs with Hunk](skills/review-agent-authored-diffs-with-hunk/) | Use Hunk to keep a live terminal review UI open for agent-authored code changes, with Git, Jujutsu, Sapling... | 6.9k | Code Quality & Review |
 
 ---
 
@@ -124,8 +124,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | | Category | Skills | What's inside |
 |---|---|---:|---|
 | 🛠️ | [**Developer Tools**](categories/developer-tools/) | 422 | CLI tools, scaffolders, dev environment setup |
-| 🔒 | [**Security & Verification**](categories/security-verification/) | 241 | Vulnerability scanning, auth setup, compliance |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 231 | Scaffolders, boilerplate generators, workflow templates |
+| 🔒 | [**Security & Verification**](categories/security-verification/) | 242 | Vulnerability scanning, auth setup, compliance |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 232 | Scaffolders, boilerplate generators, workflow templates |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 217 | ETL pipelines, parsing, format conversion |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 197 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,874 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,876 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,456 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

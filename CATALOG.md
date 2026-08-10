@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2874 published skills** across **17 categories** · 2,456 security reviewed · Updated 2026-08-10 01:27 UTC
+> **2876 published skills** across **17 categories** · 2,456 security reviewed · Updated 2026-08-10 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -438,7 +438,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (241 skills)
+### 🔒 Security & Verification (242 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -602,6 +602,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | Clerk’s JavaScript backend SDK gives agents a real server-side interface for auth and user management. It is useful… | Security Reviewed | 1.7k | 2.8M/wk |
 | [Assemble minimal OCI images from declarative package configs with apko](skills/assemble-minimal-oci-images-from-declarative-package-configs-with-apko/) | Use apko to build small OCI images from declarative package manifests when supply-chain clarity and minimal contents… | Security Reviewed | 1.6k | — |
 | [Red-team agent workflows for jailbreaks, prompt injection, and policy failures with DeepTeam](skills/red-team-agent-workflows-for-jailbreaks-prompt-injection-and-policy-failures-with-deepteam/) | Run local adversarial attack passes against agents, RAG pipelines, and chatbots to surface concrete failure classes… | Security Reviewed | 1.6k | — |
+| [Block Risky Coding-Agent Commands with CC Safety Net](skills/block-risky-coding-agent-commands-with-cc-safety-net/) | Use CC Safety Net when coding-agent CLIs need pre-execution hooks that block destructive commands, secret access,… | Security Reviewed | 1.5k | 7.8k/wk |
 | [Decode, inspect, sign, and verify JWTs while debugging auth flows with jwt-cli](skills/decode-inspect-sign-and-verify-jwts-while-debugging-auth-flows-with-jwt-cli/) | Decode JWTs, inspect claims, and verify or sign tokens with local keys during auth debugging and test setup. | Security Reviewed | 1.5k | 3.4k/wk |
 | [Sweep GitHub for leaked secrets and exposed credentials with git-hound](skills/sweep-github-for-leaked-secrets-and-exposed-credentials-with-git-hound/) | Search public GitHub broadly for leaked secrets and triage exposures when the workflow is recon and remediation, not… | Security Reviewed | 1.4k | — |
 | [Generate OSS-Fuzz harnesses with oss-fuzz-gen](skills/generate-oss-fuzz-harnesses-with-oss-fuzz-gen/) | Use LLM-assisted harness generation to expand fuzz coverage for real projects before manual fuzzing work begins. | Security Reviewed | 1.4k | — |
@@ -687,7 +688,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (231 skills)
+### 📄 Templates & Workflows (232 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -858,6 +859,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Run academic writing, analysis, and replication workflows with quality gates in claude-code-my-workflow](skills/run-academic-writing-analysis-and-replication-workflows-with-quality-gates-in-claude-code-my-workflow/) | Use claude-code-my-workflow when a research task needs a Claude Code workflow for papers, slides, data analysis, or… | Security Reviewed | 970 | — |
 | [Run architecture-first coding work with Spec-Driven Develop](skills/run-architecture-first-coding-work-with-spec-driven-develop/) | Guides Markdown-capable coding agents through large changes with deep analysis, intent refinement, task… | Security Reviewed | 953 | — |
 | [Route agent reasoning through cc-thinking-skills](skills/route-agent-reasoning-through-cc-thinking-skills/) | Use cc-thinking-skills to install and invoke a portable catalog of mental-model and critical-thinking skills for… | Security Reviewed | 930 | — |
+| [Stress-Test Research Papers Before Submission with PaperJury](skills/stress-test-research-papers-before-submission-with-paperjury/) | Use PaperJury when a Claude Code workflow should review a LaTeX research paper, classify reviewer-style objections,… | Security Reviewed | 926 | — |
 | [Build and sync n8n workflows from code with n8n-as-code](skills/build-and-sync-n8n-workflows-from-code-with-n8n-as-code/) | Inspect n8n nodes and templates, generate typed workflow code, and sync automations through Git-friendly files… | Security Reviewed | 884 | 297/wk |
 | [Build deterministic multi-agent networks with Inngest AgentKit](skills/build-deterministic-multi-agent-networks-with-inngest-agentkit/) | Use Inngest AgentKit to build TypeScript agent networks with deterministic routing, shared state, MCP tools, and… | Published | 880 | 62.8k/wk |
 | [Run a self-evolving markdown second brain with COG](skills/run-a-self-evolving-markdown-second-brain-with-cog/) | Use COG to onboard a markdown-based second brain with agent skills for braindumps, briefs, reviews, research,… | Security Reviewed | 803 | — |

@@ -205,6 +205,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Run academic writing, analysis, and replication workflows with quality gates in claude-code-my-workflow](../../skills/run-academic-writing-analysis-and-replication-workflows-with-quality-gates-in-claude-code-my-workflow/) | 970 | — |
 | [Run architecture-first coding work with Spec-Driven Develop](../../skills/run-architecture-first-coding-work-with-spec-driven-develop/) | 953 | — |
 | [Route agent reasoning through cc-thinking-skills](../../skills/route-agent-reasoning-through-cc-thinking-skills/) | 930 | — |
+| [Stress-Test Research Papers Before Submission with PaperJury](../../skills/stress-test-research-papers-before-submission-with-paperjury/) | 926 | — |
 | [Build and sync n8n workflows from code with n8n-as-code](../../skills/build-and-sync-n8n-workflows-from-code-with-n8n-as-code/) | 884 | 297/wk |
 | [Build deterministic multi-agent networks with Inngest AgentKit](../../skills/build-deterministic-multi-agent-networks-with-inngest-agentkit/) | 880 | 62.8k/wk |
 | [Run a self-evolving markdown second brain with COG](../../skills/run-a-self-evolving-markdown-second-brain-with-cog/) | 803 | — |

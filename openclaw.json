@@ -2,8 +2,30 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-10",
-  "total": 2874,
+  "total": 2876,
   "skills": [
+    {
+      "slug": "stress-test-research-papers-before-submission-with-paperjury",
+      "name": "Stress-Test Research Papers Before Submission with PaperJury",
+      "title": "Stress-Test Research Papers Before Submission with PaperJury",
+      "description": "Use PaperJury when a Claude Code workflow should review a LaTeX research paper, classify reviewer-style objections, revise bounded issues, and verify the result before…",
+      "category": "Templates & Workflows",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Spark-To-Paper-Skills/paperjury",
+      "github_repo": "Spark-To-Paper-Skills/paperjury"
+    },
+    {
+      "slug": "block-risky-coding-agent-commands-with-cc-safety-net",
+      "name": "Block Risky Coding-Agent Commands with CC Safety Net",
+      "title": "Block Risky Coding-Agent Commands with CC Safety Net",
+      "description": "Use CC Safety Net when coding-agent CLIs need pre-execution hooks that block destructive commands, secret access, and unsafe file operations before tools run.",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/kenryu42/cc-safety-net",
+      "github_repo": "kenryu42/cc-safety-net"
+    },
     {
       "slug": "maintain-repo-local-agent-memory-with-mex",
       "name": "Maintain Repo-Local Agent Memory with mex",

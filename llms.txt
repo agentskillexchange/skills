@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-10
-# Total: 2874 skills
+# Total: 2876 skills
+
+## Stress-Test Research Papers Before Submission with PaperJury
+slug: stress-test-research-papers-before-submission-with-paperjury
+category: Templates & Workflows
+framework: Claude Code
+verification: Security Reviewed
+description: Use PaperJury when a Claude Code workflow should review a LaTeX research paper, classify reviewer-style objections, revise bounded issues, and verify the result before…
+url: https://agentskillexchange.com/skills/stress-test-research-papers-before-submission-with-paperjury/
+
+## Block Risky Coding-Agent Commands with CC Safety Net
+slug: block-risky-coding-agent-commands-with-cc-safety-net
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use CC Safety Net when coding-agent CLIs need pre-execution hooks that block destructive commands, secret access, and unsafe file operations before tools run.
+url: https://agentskillexchange.com/skills/block-risky-coding-agent-commands-with-cc-safety-net/
 
 ## Maintain Repo-Local Agent Memory with mex
 slug: maintain-repo-local-agent-memory-with-mex

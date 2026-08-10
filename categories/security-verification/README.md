@@ -198,6 +198,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](../../skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | 1.7k | 2.8M/wk |
 | [Assemble minimal OCI images from declarative package configs with apko](../../skills/assemble-minimal-oci-images-from-declarative-package-configs-with-apko/) | 1.6k | — |
 | [Red-team agent workflows for jailbreaks, prompt injection, and policy failures with DeepTeam](../../skills/red-team-agent-workflows-for-jailbreaks-prompt-injection-and-policy-failures-with-deepteam/) | 1.6k | — |
+| [Block Risky Coding-Agent Commands with CC Safety Net](../../skills/block-risky-coding-agent-commands-with-cc-safety-net/) | 1.5k | 7.8k/wk |
 | [Decode, inspect, sign, and verify JWTs while debugging auth flows with jwt-cli](../../skills/decode-inspect-sign-and-verify-jwts-while-debugging-auth-flows-with-jwt-cli/) | 1.5k | 3.4k/wk |
 | [Sweep GitHub for leaked secrets and exposed credentials with git-hound](../../skills/sweep-github-for-leaked-secrets-and-exposed-credentials-with-git-hound/) | 1.4k | — |
 | [Generate OSS-Fuzz harnesses with oss-fuzz-gen](../../skills/generate-oss-fuzz-harnesses-with-oss-fuzz-gen/) | 1.4k | — |
