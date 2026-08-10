@@ -2,10 +2,10 @@
 name: "Unified AI System Gateway"
 slug: "unified-ai-gateway"
 description: "Turn plain-language requests into structured, reviewable prompts and inspect a self-hosted MCP gateway with provider-free defaults."
+verification: "listed"
+source: "https://github.com/happy520ai/unified-ai-system/tree/master/skills/unified-ai-gateway"
 category: "Developer Tools"
 framework: "Codex"
-verification: listed
-source: "https://github.com/happy520ai/unified-ai-system/tree/master/skills/unified-ai-gateway"
 ---
 
 # Unified AI System Gateway
@@ -49,3 +49,9 @@ After an approved installation, restart Codex, inspect the server with
 `/mcp verbose`, and call `gateway_health` followed by `gateway_readiness`
 before using chat. Keep the fake-provider mode for the first run, and do not
 infer production readiness, L5 autonomy, or AGI from a successful handshake.
+
+## Installation
+
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+
+- Source: https://github.com/happy520ai/unified-ai-system/tree/master/skills/unified-ai-gateway
