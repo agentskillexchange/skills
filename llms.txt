@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-11
-# Total: 2880 skills
+# Total: 2884 skills
+
+## BRAINIALL Diarized Transcription
+slug: brainiall-diarized-transcription
+category: Media & Transcription
+framework: Multi-Framework
+verification: Published
+description: Transcribes one explicitly authorized Brazilian Portuguese or Spanish audio or video file through the metered BRAINIALL API, then creates speaker-labelled JSON, SRT, and WebVTT…
+url: https://agentskillexchange.com/skills/brainiall-diarized-transcription/
+
+## Manage Cross-Agent Skill Libraries with Skills Manager
+slug: manage-cross-agent-skill-libraries-with-skills-manager
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Skills Manager when an operator needs one auditable library for installing, inspecting, tagging, syncing, backing up, and deploying agent skills across many coding…
+url: https://agentskillexchange.com/skills/manage-cross-agent-skill-libraries-with-skills-manager/
+
+## Keep Agent Engineering Decisions Current with Haft
+slug: keep-agent-engineering-decisions-current-with-haft
+category: Developer Tools
+framework: Multi-Framework
+verification: Published
+description: Use Haft when an agent needs source-backed decision framing, comparison, authorization records, and stale-evidence checks across supported coding-agent hosts.
+url: https://agentskillexchange.com/skills/keep-agent-engineering-decisions-current-with-haft/
+
+## Run Specification-First Coding Workflows with Ouroboros
+slug: run-specification-first-coding-workflows-with-ouroboros
+category: Developer Tools
+framework: Multi-Framework
+verification: Published
+description: Use Ouroboros when a coding agent should turn a vague request into a replayable spec, execute it across supported runtimes, and pass explicit evaluation…
+url: https://agentskillexchange.com/skills/run-specification-first-coding-workflows-with-ouroboros/
 
 ## Unified AI System Gateway
 slug: unified-ai-gateway

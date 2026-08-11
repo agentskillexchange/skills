@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2880 published skills** across **17 categories** · 2,459 security reviewed · Updated 2026-08-11 07:27 UTC
+> **2884 published skills** across **17 categories** · 2,459 security reviewed · Updated 2026-08-11 13:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (423 skills)
+### 🛠️ Developer Tools (426 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -268,6 +268,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Train agent policies with rLLM reinforcement learning](skills/train-agent-policies-with-rllm-reinforcement-learning/) | Use rLLM to evaluate, trace, reward, and train LLM agents with reinforcement learning across common agent frameworks. | Security Reviewed | 5.5k | — |
 | [git-absorb Automatic Fixup Commit Generator](skills/git-absorb-automatic-fixup-commit-generator/) | Automatically generates fixup commits by analyzing staged changes and matching them to the correct ancestor commits.… | Security Reviewed | 5.5k | — |
 | [Use Potpie for spec-driven codebase workflows](skills/use-potpie-for-spec-driven-codebase-workflows/) | Index a repository with Potpie, turn it into a code knowledge graph, and drive focused implementation or review… | Security Reviewed | 5.4k | — |
+| [Run Specification-First Coding Workflows with Ouroboros](skills/run-specification-first-coding-workflows-with-ouroboros/) | Use Ouroboros when a coding agent should turn a vague request into a replayable spec, execute it across supported… | Published | 5.4k | — |
 | [Devcontainer Specification Builder](skills/devcontainer-specification-builder/) | Generates dev container specifications with feature composition and lifecycle hooks. Uses the Dev Container… | Security Reviewed | 5.4k | — |
 | [Optimize agent skills with Darwin Skill](skills/optimize-agent-skills-with-darwin-skill/) | Use Darwin Skill to evaluate, improve, test, and keep or roll back changes to a single agent SKILL.md with a… | Security Reviewed | 5.3k | — |
 | [Wish SSH Application Framework by Charmbracelet](skills/wish-ssh-application-framework/) | Wish is a Go library for building SSH-accessible applications with sensible defaults and composable middleware. It… | Security Reviewed | 5.1k | — |
@@ -292,6 +293,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Build and debug AI pipelines in an IDE with RocketRide](skills/build-and-debug-ai-pipelines-in-an-ide-with-rocketride/) | Use RocketRide to compose, run, observe, and deploy portable AI pipelines from an IDE or CLI across model providers,… | Security Reviewed | 3.9k | 635/wk |
 | [Stancl Tenancy v3 — Multi-Tenant Laravel](skills/tenancy-development/) | Builds multi-tenant Laravel SaaS applications with stancl/tenancy v3. Best when you need domain/subdomain/path-based… | Security Reviewed | 3.8k | — |
 | [Build Java agent transport gateways with Atmosphere](skills/build-java-agent-transport-gateways-with-atmosphere/) | Use Atmosphere to build JVM agent gateways that stream over WebSocket, SSE, gRPC, WebTransport, MCP, A2A, and AG-UI… | Published | 3.8k | — |
+| [Manage Cross-Agent Skill Libraries with Skills Manager](skills/manage-cross-agent-skill-libraries-with-skills-manager/) | Use Skills Manager when an operator needs one auditable library for installing, inspecting, tagging, syncing,… | Security Reviewed | 3.7k | — |
 | [AWS S3 MCP Server](skills/aws-s3-mcp-server/) | AWS S3 MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Published | 3.6k | 39.9M/wk |
 | [AWS Lambda MCP Server](skills/aws-lambda-mcp-server/) | AWS Lambda MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Published | 3.6k | 10.3M/wk |
 | [Cloud Cost Analysis](skills/cloud-cost-analysis/) | Cloud Cost Analysis is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Security Reviewed | 3.6k | — |
@@ -340,6 +342,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Build production Go agents with tRPC-Agent-Go](skills/build-production-go-agents-with-trpc-agent-go/) | Model Go-native agent systems with graph workflows, tool calls, memory, MCP, A2A, evaluation, and OpenTelemetry… | Security Reviewed | 1.5k | — |
 | [Redocly CLI OpenAPI Linter and Documentation Generator](skills/redocly-cli-openapi-linter-documentation-generator/) | Redocly CLI is an all-in-one OpenAPI utility that lints, validates, bundles, and generates documentation from API… | Security Reviewed | 1.4k | 1.6M/wk |
 | [Maintain Repo-Local Agent Memory with mex](skills/maintain-repo-local-agent-memory-with-mex/) | Use mex when coding agents need a versioned project wiki, code graph, routed context, and drift checks instead of… | Published | 1.4k | 2.5k/wk |
+| [Keep Agent Engineering Decisions Current with Haft](skills/keep-agent-engineering-decisions-current-with-haft/) | Use Haft when an agent needs source-backed decision framing, comparison, authorization records, and stale-evidence… | Published | 1.4k | — |
 | [Search cross-agent Markdown memory and conversation history with memsearch](skills/search-cross-agent-markdown-memory-and-conversation-history-with-memsearch/) | Give supported coding agents a shared Markdown-first memory layer so they can recall prior decisions, transcripts,… | Security Reviewed | 1.3k | — |
 | [Terraform MCP Server for Infrastructure as Code](skills/terraform-mcp-server-infrastructure-as-code/) | The official HashiCorp Terraform MCP server integrates with the Terraform Registry and HCP Terraform, enabling AI… | Security Reviewed | 1.3k | — |
 | [WASM Component Model Linker](skills/wasm-component-model-linker/) | Compiles and links WebAssembly components using the WASI Preview 2 Component Model, wasm-tools CLI for component… | Published | 1.3k | — |
@@ -2602,7 +2605,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Verify local web apps with Playwright scripts and managed dev servers](skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | Use Anthropic's webapp-testing skill to spin up one or more local servers, wait for them to become reachable, and… | Security Reviewed | — | — |
 
 
-### 🎙️ Media & Transcription (106 skills)
+### 🎙️ Media & Transcription (107 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads)
 
@@ -2699,6 +2702,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [AssemblyAI LeMUR Summarizer](skills/assemblyai-lemur-summarizer-agent/) | Summarizes audio content using AssemblyAI's LeMUR (Large Language Model for Audio Understanding) API. Chains the… | Security Reviewed | — | — |
 | [AssemblyAI Summarization & Chapters Skill](skills/assemblyai-summarization-chapters-skill/) | Transcribes audio and generates auto-chapters with summaries using AssemblyAI's /v2/transcript endpoint with… | Security Reviewed | — | — |
 | [Audio Fingerprint Identifier](skills/audio-fingerprint-identifier-agent/) | Identifies audio content using Chromaprint/AcoustID fingerprinting, Shazam API recognition, and ACRCloud monitoring.… | Published | — | — |
+| [BRAINIALL Diarized Transcription](skills/brainiall-diarized-transcription/) | Transcribes one explicitly authorized Brazilian Portuguese or Spanish audio or video file through the metered… | Published | — | — |
 | [Core Audio Unit v3 Debugger](skills/core-audio-unit-v3-debugger/) | Debugs and profiles Apple Audio Unit v3 (AUv3) plugins using auval validation tool, the AUAudioUnit Swift API, and… | Published | — | — |
 | [Deepgram Nova STT Pipeline](skills/deepgram-nova-stt-pipeline/) | Real-time speech-to-text using Deepgram Nova-2 API with streaming WebSocket connections. Supports diarization,… | Published | — | — |
 | [Deepgram Nova Transcriber](skills/deepgram-nova-transcriber-agent/) | Transcribes audio using the Deepgram Nova-2 API with diarization, punctuation, and smart formatting. Supports… | Security Reviewed | — | — |

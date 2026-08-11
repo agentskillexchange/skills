@@ -131,6 +131,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [AssemblyAI LeMUR Summarizer](../../skills/assemblyai-lemur-summarizer-agent/) | — | — |
 | [AssemblyAI Summarization & Chapters Skill](../../skills/assemblyai-summarization-chapters-skill/) | — | — |
 | [Audio Fingerprint Identifier](../../skills/audio-fingerprint-identifier-agent/) | — | — |
+| [BRAINIALL Diarized Transcription](../../skills/brainiall-diarized-transcription/) | — | — |
 | [Core Audio Unit v3 Debugger](../../skills/core-audio-unit-v3-debugger/) | — | — |
 | [Deepgram Nova STT Pipeline](../../skills/deepgram-nova-stt-pipeline/) | — | — |
 | [Deepgram Nova Transcriber](../../skills/deepgram-nova-transcriber-agent/) | — | — |

@@ -294,6 +294,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Train agent policies with rLLM reinforcement learning](../../skills/train-agent-policies-with-rllm-reinforcement-learning/) | 5.5k | — |
 | [git-absorb Automatic Fixup Commit Generator](../../skills/git-absorb-automatic-fixup-commit-generator/) | 5.5k | — |
 | [Use Potpie for spec-driven codebase workflows](../../skills/use-potpie-for-spec-driven-codebase-workflows/) | 5.4k | — |
+| [Run Specification-First Coding Workflows with Ouroboros](../../skills/run-specification-first-coding-workflows-with-ouroboros/) | 5.4k | — |
 | [Devcontainer Specification Builder](../../skills/devcontainer-specification-builder/) | 5.4k | — |
 | [Optimize agent skills with Darwin Skill](../../skills/optimize-agent-skills-with-darwin-skill/) | 5.3k | — |
 | [Wish SSH Application Framework by Charmbracelet](../../skills/wish-ssh-application-framework/) | 5.1k | — |
@@ -318,6 +319,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Build and debug AI pipelines in an IDE with RocketRide](../../skills/build-and-debug-ai-pipelines-in-an-ide-with-rocketride/) | 3.9k | 635/wk |
 | [Stancl Tenancy v3 — Multi-Tenant Laravel](../../skills/tenancy-development/) | 3.8k | — |
 | [Build Java agent transport gateways with Atmosphere](../../skills/build-java-agent-transport-gateways-with-atmosphere/) | 3.8k | — |
+| [Manage Cross-Agent Skill Libraries with Skills Manager](../../skills/manage-cross-agent-skill-libraries-with-skills-manager/) | 3.7k | — |
 | [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | 3.6k | 39.9M/wk |
 | [AWS Lambda MCP Server](../../skills/aws-lambda-mcp-server/) | 3.6k | 10.3M/wk |
 | [Cloud Cost Analysis](../../skills/cloud-cost-analysis/) | 3.6k | — |
@@ -366,6 +368,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Build production Go agents with tRPC-Agent-Go](../../skills/build-production-go-agents-with-trpc-agent-go/) | 1.5k | — |
 | [Redocly CLI OpenAPI Linter and Documentation Generator](../../skills/redocly-cli-openapi-linter-documentation-generator/) | 1.4k | 1.6M/wk |
 | [Maintain Repo-Local Agent Memory with mex](../../skills/maintain-repo-local-agent-memory-with-mex/) | 1.4k | 2.5k/wk |
+| [Keep Agent Engineering Decisions Current with Haft](../../skills/keep-agent-engineering-decisions-current-with-haft/) | 1.4k | — |
 | [Search cross-agent Markdown memory and conversation history with memsearch](../../skills/search-cross-agent-markdown-memory-and-conversation-history-with-memsearch/) | 1.3k | — |
 | [Terraform MCP Server for Infrastructure as Code](../../skills/terraform-mcp-server-infrastructure-as-code/) | 1.3k | — |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | 1.3k | — |

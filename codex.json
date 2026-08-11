@@ -2,8 +2,52 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-11",
-  "total": 2880,
+  "total": 2884,
   "skills": [
+    {
+      "slug": "brainiall-diarized-transcription",
+      "name": "BRAINIALL Diarized Transcription",
+      "title": "BRAINIALL Diarized Transcription",
+      "description": "Transcribes one explicitly authorized Brazilian Portuguese or Spanish audio or video file through the metered BRAINIALL API, then creates speaker-labelled JSON, SRT, and WebVTT…",
+      "category": "Media & Transcription",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/fasuizu-br/brainiall-transcription-skill",
+      "github_repo": "fasuizu-br/brainiall-transcription-skill"
+    },
+    {
+      "slug": "manage-cross-agent-skill-libraries-with-skills-manager",
+      "name": "Manage Cross-Agent Skill Libraries with Skills Manager",
+      "title": "Manage Cross-Agent Skill Libraries with Skills Manager",
+      "description": "Use Skills Manager when an operator needs one auditable library for installing, inspecting, tagging, syncing, backing up, and deploying agent skills across many coding…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/xingkongliang/skills-manager",
+      "github_repo": "xingkongliang/skills-manager"
+    },
+    {
+      "slug": "keep-agent-engineering-decisions-current-with-haft",
+      "name": "Keep Agent Engineering Decisions Current with Haft",
+      "title": "Keep Agent Engineering Decisions Current with Haft",
+      "description": "Use Haft when an agent needs source-backed decision framing, comparison, authorization records, and stale-evidence checks across supported coding-agent hosts.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/m0n0x41d/haft",
+      "github_repo": "m0n0x41d/haft"
+    },
+    {
+      "slug": "run-specification-first-coding-workflows-with-ouroboros",
+      "name": "Run Specification-First Coding Workflows with Ouroboros",
+      "title": "Run Specification-First Coding Workflows with Ouroboros",
+      "description": "Use Ouroboros when a coding agent should turn a vague request into a replayable spec, execute it across supported runtimes, and pass explicit evaluation…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/Q00/ouroboros",
+      "github_repo": "Q00/ouroboros"
+    },
     {
       "slug": "unified-ai-gateway",
       "name": "Unified AI System Gateway",
