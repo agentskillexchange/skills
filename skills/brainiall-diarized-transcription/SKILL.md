@@ -2,10 +2,12 @@
 name: "BRAINIALL Diarized Transcription"
 slug: "brainiall-diarized-transcription"
 description: "Transcribes one explicitly authorized Brazilian Portuguese or Spanish audio or video file through the metered BRAINIALL API, then creates speaker-labelled JSON, SRT, and WebVTT with word timestamps and no automatic retry."
-category: "Media & Transcription"
-framework: "Multi-Framework"
 verification: "listed"
 source: "https://github.com/fasuizu-br/brainiall-transcription-skill"
+category: "Media & Transcription"
+framework: "Multi-Framework"
+tool_ecosystem:
+  github_repo: "fasuizu-br/brainiall-transcription-skill"
 ---
 
 # BRAINIALL Diarized Transcription
