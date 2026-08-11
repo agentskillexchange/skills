@@ -1260,7 +1260,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 2552
+        "github_stars": 2552,
+        "npm_weekly_downloads": 23
       },
       "source_url": "https://github.com/conorbronsdon/avoid-ai-writing",
       "github_repo": "conorbronsdon/avoid-ai-writing"

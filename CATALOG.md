@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2880 published skills** across **17 categories** · 2,458 security reviewed · Updated 2026-08-11 01:26 UTC
+> **2880 published skills** across **17 categories** · 2,458 security reviewed · Updated 2026-08-11 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -2962,7 +2962,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [Marp CLI Markdown Presentation Converter and Slide Deck Generator](skills/marp-cli-markdown-presentation-converter/) | Marp CLI converts Markdown files into professional slide deck presentations. It outputs static HTML, PDF, PowerPoint… | Security Reviewed | 3.4k | 39.7k/wk |
 | [textlint Pluggable Natural Language Linter](skills/textlint-pluggable-natural-language-linter/) | Lint natural language text with textlint, the pluggable linting framework inspired by ESLint. Install community… | Security Reviewed | 3.1k | 102.9k/wk |
 | [Normalize article metadata from URLs before generating link previews or content briefs](skills/normalize-article-metadata-from-urls-before-generating-link-previews-or-content-briefs/) | Uses metascraper to turn a URL plus its fetched HTML into normalized fields such as title, description, author,… | Published | 2.7k | 416k/wk |
-| [Audit and rewrite AI-sounding prose with Avoid AI Writing](skills/audit-and-rewrite-ai-sounding-prose-with-avoid-ai-writing/) | Use Avoid AI Writing when an agent needs a repeatable audit, rewrite, or in-place edit workflow for removing AI… | Security Reviewed | 2.6k | — |
+| [Audit and rewrite AI-sounding prose with Avoid AI Writing](skills/audit-and-rewrite-ai-sounding-prose-with-avoid-ai-writing/) | Use Avoid AI Writing when an agent needs a repeatable audit, rewrite, or in-place edit workflow for removing AI… | Security Reviewed | 2.6k | 23/wk |
 | [Run repeatable marketing operator workflows with Aaron Marketing Skills](skills/run-repeatable-marketing-operator-workflows-with-aaron-marketing-skills/) | Install a maintained marketing skill library so agents can run scoped SEO/GEO, email, paid ads, influencer, launch,… | Security Reviewed | 2.5k | — |
 | [retext Natural Language Processor with Unified Plugin Ecosystem](skills/retext-natural-language-processor-unified-plugins/) | retext is a natural language processor powered by plugins, part of the unified.js collective. It parses Latin-script… | Published | 2.4k | — |
 | [WritingTools System-Wide AI Grammar Assistant for Windows Linux and macOS](skills/writingtools-system-wide-ai-grammar-assistant/) | WritingTools is an open-source, Apple Intelligence-inspired writing assistant that works system-wide on Windows,… | Security Reviewed | 2.2k | — |
