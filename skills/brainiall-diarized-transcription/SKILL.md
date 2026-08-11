@@ -32,17 +32,25 @@ biometric identities, and generated words and times can be wrong.
 
 ## Installation
 
-Install the upstream skill with the pinned repository identity:
+Clone and inspect the upstream source before installing it. This avoids
+executing an unpinned third-party package as part of the install path:
 
 ```bash
-npx skills add fasuizu-br/brainiall-transcription-skill \
-  --skill brainiall-diarized-transcription
+git clone https://github.com/fasuizu-br/brainiall-transcription-skill.git
+cd brainiall-transcription-skill
+git rev-parse HEAD
+npm test
 ```
+
+After reviewing the checked-out source and test result, copy
+`skills/brainiall-diarized-transcription` into the local skills directory using
+the agent host's documented installation process. The clone directory is not
+itself the host's skills directory.
 
 Review the [public source and tests](https://github.com/fasuizu-br/brainiall-transcription-skill)
 before use. Create or manage the required account through the skill-specific
-setup link in the upstream `SKILL.md`, and check the current price and balance
-before any live request.
+setup link in the installed upstream `SKILL.md`, and check the current price
+and balance before any live request.
 
 ## Invocation
 
