@@ -115,7 +115,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Keep coding agents from over-building implementations with Ponytail](skills/keep-coding-agents-from-over-building-implementations-with-ponytail/) | Ponytail gives coding agents a portable minimal-implementation ruleset, plugin hooks, and review commands so they reuse existing code... | 85.5k | Code Quality & Review |
 | [Bridge local coding agents into chat apps with cc-connect](skills/bridge-local-coding-agents-into-chat-apps-with-cc-connect/) | Let operators control local Claude Code, Codex, Cursor, Gemini CLI, and other coding agents from Slack, Discord, Telegram... | 14.2k | Integrations & Connectors |
 | [Control Blender Scenes from MCP Agents with BlenderMCP](skills/control-blender-scenes-from-mcp-agents-with-blendermcp/) | Use BlenderMCP when an MCP-capable agent needs to inspect, create, and modify Blender scenes through a controlled Blender... | 25.6k | Integrations & Connectors |
-| [Design and Audit Agent Harnesses with Agents Best Practices](skills/design-and-audit-agent-harnesses-with-agents-best-practices/) | Use Agents Best Practices when an agent should produce concrete harness designs, permission models, memory plans, eval gates... | 2.2k | Templates & Workflows |
+| [Audit Websites for AI Search Visibility with GEO SEO Claude](skills/audit-websites-for-ai-search-visibility-with-geo-seo-claude/) | Use GEO SEO Claude when Claude Code should run repeatable AI-search and SEO audits with citability, crawler, schema... | 9.3k | Content Writing & SEO |
 
 ---
 
