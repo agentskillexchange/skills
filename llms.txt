@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-12
-# Total: 2886 skills
+# Total: 2888 skills
+
+## Run StyleSeed Design Gates in Coding-Agent UI Builds
+slug: run-styleseed-design-gates-in-coding-agent-ui-builds
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Install StyleSeed skills so coding agents choose a design grammar, build UI with project-local rules, score the result, and verify rendered screens before handoff.
+url: https://agentskillexchange.com/skills/run-styleseed-design-gates-in-coding-agent-ui-builds/
+
+## Build Persistent Codebase Context Graphs with Graft
+slug: build-persistent-codebase-context-graphs-with-graft
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Build and maintain a repository-local context graph so coding agents can orient inside large codebases without rediscovering the same structure every session.
+url: https://agentskillexchange.com/skills/build-persistent-codebase-context-graphs-with-graft/
 
 ## FreeFM
 slug: freefm

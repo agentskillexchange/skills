@@ -353,6 +353,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Route large codebase analysis through Gemini MCP Tool](../../skills/route-large-codebase-analysis-through-gemini-mcp-tool/) | 2.3k | 11.9k/wk |
 | [Keep a portable agent workspace layer with agentic-stack](../../skills/keep-a-portable-agent-workspace-layer-with-agentic-stack/) | 2.2k | — |
 | [Supabase CLI for Local Development and Database Migrations](../../skills/supabase-cli-local-development-database-migrations/) | 2.1k | 1.2M/wk |
+| [Build Persistent Codebase Context Graphs with Graft](../../skills/build-persistent-codebase-context-graphs-with-graft/) | 2.1k | 2.2k/wk |
 | [Manage multi-agent coding sessions from one terminal mission control with Agent Deck](../../skills/manage-multi-agent-coding-sessions-from-one-terminal-mission-control-with-agent-deck/) | 2k | — |
 | [Clone and refresh whole GitHub orgs for audit or migration with ghorg](../../skills/clone-and-refresh-whole-github-orgs-for-audit-or-migration-with-ghorg/) | 2k | — |
 | [Turn an MCP, OpenAPI, or GraphQL endpoint into a disposable CLI for shell automation](../../skills/turn-mcp-openapi-or-graphql-endpoint-into-disposable-cli-for-shell-automation/) | 1.9k | — |
@@ -390,6 +391,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Fork and merge Pydantic AI agent runs with Pydantic Deep Agents](../../skills/fork-and-merge-pydantic-ai-agent-runs-with-pydantic-deep-agents/) | 912 | — |
 | [Run phased coding-agent delivery workflows with AgentSys](../../skills/run-phased-coding-agent-delivery-workflows-with-agentsys/) | 896 | 814/wk |
 | [Reduce coding-agent context load with Token Savior](../../skills/reduce-coding-agent-context-load-with-token-savior/) | 893 | — |
+| [Run StyleSeed Design Gates in Coding-Agent UI Builds](../../skills/run-styleseed-design-gates-in-coding-agent-ui-builds/) | 884 | — |
 | [CircleCI MCP Server](../../skills/circleci-mcp-server/) | 844 | — |
 | [Expose repository code intelligence to agents with Gortex](../../skills/expose-repository-code-intelligence-to-agents-with-gortex/) | 840 | — |
 | [Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac](../../skills/run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac/) | 809 | 36.7k/wk |

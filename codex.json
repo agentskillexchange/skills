@@ -2,8 +2,30 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-12",
-  "total": 2886,
+  "total": 2888,
   "skills": [
+    {
+      "slug": "run-styleseed-design-gates-in-coding-agent-ui-builds",
+      "name": "Run StyleSeed Design Gates in Coding-Agent UI Builds",
+      "title": "Run StyleSeed Design Gates in Coding-Agent UI Builds",
+      "description": "Install StyleSeed skills so coding agents choose a design grammar, build UI with project-local rules, score the result, and verify rendered screens before handoff.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/bitjaru/styleseed",
+      "github_repo": "bitjaru/styleseed"
+    },
+    {
+      "slug": "build-persistent-codebase-context-graphs-with-graft",
+      "name": "Build Persistent Codebase Context Graphs with Graft",
+      "title": "Build Persistent Codebase Context Graphs with Graft",
+      "description": "Build and maintain a repository-local context graph so coding agents can orient inside large codebases without rediscovering the same structure every session.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/NanoNets/Graft",
+      "github_repo": "NanoNets/Graft"
+    },
     {
       "slug": "freefm",
       "name": "FreeFM",

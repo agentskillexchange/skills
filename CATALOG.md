@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2886 published skills** across **17 categories** · 2,462 security reviewed · Updated 2026-08-12 13:27 UTC
+> **2888 published skills** across **17 categories** · 2,462 security reviewed · Updated 2026-08-12 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (426 skills)
+### 🛠️ Developer Tools (428 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -327,6 +327,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Route large codebase analysis through Gemini MCP Tool](skills/route-large-codebase-analysis-through-gemini-mcp-tool/) | Use Gemini MCP Tool to let MCP-capable coding agents delegate large file and codebase analysis to Gemini or… | Security Reviewed | 2.3k | 11.9k/wk |
 | [Keep a portable agent workspace layer with agentic-stack](skills/keep-a-portable-agent-workspace-layer-with-agentic-stack/) | Install and maintain a shared .agent layer so coding agents can carry memory, skills, protocols, dashboards, and… | Security Reviewed | 2.2k | — |
 | [Supabase CLI for Local Development and Database Migrations](skills/supabase-cli-local-development-database-migrations/) | Supabase CLI manages local Supabase projects, database migrations, types, and edge functions. It is the upstream… | Security Reviewed | 2.1k | 1.2M/wk |
+| [Build Persistent Codebase Context Graphs with Graft](skills/build-persistent-codebase-context-graphs-with-graft/) | Build and maintain a repository-local context graph so coding agents can orient inside large codebases without… | Security Reviewed | 2.1k | 2.2k/wk |
 | [Manage multi-agent coding sessions from one terminal mission control with Agent Deck](skills/manage-multi-agent-coding-sessions-from-one-terminal-mission-control-with-agent-deck/) | Use Agent Deck when an operator needs one keyboard-first terminal to monitor, switch, fork, sandbox, and organize… | Security Reviewed | 2k | — |
 | [Clone and refresh whole GitHub orgs for audit or migration with ghorg](skills/clone-and-refresh-whole-github-orgs-for-audit-or-migration-with-ghorg/) | Use ghorg to clone or resync large sets of repositories from a GitHub user or organization for offline audit,… | Security Reviewed | 2k | — |
 | [Turn an MCP, OpenAPI, or GraphQL endpoint into a disposable CLI for shell automation](skills/turn-mcp-openapi-or-graphql-endpoint-into-disposable-cli-for-shell-automation/) | Generate a shell-ready CLI from an MCP server, OpenAPI spec, or GraphQL endpoint so an agent can discover commands… | Security Reviewed | 1.9k | — |
@@ -364,6 +365,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Fork and merge Pydantic AI agent runs with Pydantic Deep Agents](skills/fork-and-merge-pydantic-ai-agent-runs-with-pydantic-deep-agents/) | Run a self-hosted terminal agent or custom Pydantic AI harness that can branch a coding or research run, test… | Security Reviewed | 912 | — |
 | [Run phased coding-agent delivery workflows with AgentSys](skills/run-phased-coding-agent-delivery-workflows-with-agentsys/) | Use AgentSys to install and run structured coding-agent pipelines for task discovery, delivery preparation, drift… | Security Reviewed | 896 | 814/wk |
 | [Reduce coding-agent context load with Token Savior](skills/reduce-coding-agent-context-load-with-token-savior/) | Connect coding agents to a Token Savior MCP server for structural code navigation, persistent recall, compact… | Security Reviewed | 893 | — |
+| [Run StyleSeed Design Gates in Coding-Agent UI Builds](skills/run-styleseed-design-gates-in-coding-agent-ui-builds/) | Install StyleSeed skills so coding agents choose a design grammar, build UI with project-local rules, score the… | Security Reviewed | 884 | — |
 | [CircleCI MCP Server](skills/circleci-mcp-server/) | CircleCI MCP Server is built around CircleCI continuous integration platform. The underlying ecosystem is… | Security Reviewed | 844 | — |
 | [Expose repository code intelligence to agents with Gortex](skills/expose-repository-code-intelligence-to-agents-with-gortex/) | Use Gortex to index one or more repositories into a local code graph and expose symbol, call-chain, blast-radius,… | Published | 840 | — |
 | [Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac](skills/run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac/) | Execute repository-stored HTTP request files from the command line so API smoke tests, assertions, and… | Security Reviewed | 809 | 36.7k/wk |
