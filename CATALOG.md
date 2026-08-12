@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2885 published skills** across **17 categories** · 2,460 security reviewed · Updated 2026-08-12 07:29 UTC
+> **2886 published skills** across **17 categories** · 2,460 security reviewed · Updated 2026-08-12 13:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -2606,7 +2606,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Verify local web apps with Playwright scripts and managed dev servers](skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | Use Anthropic's webapp-testing skill to spin up one or more local servers, wait for them to become reachable, and… | Security Reviewed | — | — |
 
 
-### 🎙️ Media & Transcription (107 skills)
+### 🎙️ Media & Transcription (108 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads)
 
@@ -2712,6 +2712,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [Dolby.io Media Enhancer](skills/dolby-io-media-enhancer-agent/) | Enhances audio and video quality using the Dolby.io Media Processing API. Applies noise reduction, loudness… | Published | — | — |
 | [ElevenLabs Voice Cloning Agent](skills/elevenlabs-voice-cloning-agent/) | Clone and synthesize custom voices using the ElevenLabs API v2 with instant voice cloning. Manages voice library… | Security Reviewed | — | — |
 | [ElevenLabs Voiceover Generator for Long-Form Content](skills/elevenlabs-voiceover-longform/) | Splits blog posts or scripts into optimal chunks under ElevenLabs character limits, synthesizes each chunk using the… | Security Reviewed | — | — |
+| [FreeFM](skills/freefm/) | Safely synchronize free-playable NetEase Private FM tracks into an append-only playlist using a native Rust CLI/TUI.… | Published | — | — |
 | [Generate podcast-style audio narratives with Podcast Generation](skills/generate-podcast-style-audio-narratives-with-podcast-generation/) | Build a repeatable text-to-audio workflow around Azure OpenAI Realtime streaming, PCM collection, WAV conversion,… | Security Reviewed | — | — |
 | [GStreamer Live Stream Transcoder](skills/gstreamer-live-stream-transcoder/) | Builds GStreamer pipelines for real-time video transcoding with NVENC/VA-API hardware acceleration. Supports… | Published | — | — |
 | [GStreamer Pipeline Graph Optimizer](skills/gstreamer-pipeline-graph-optimizer/) | Analyzes and optimizes GStreamer media pipelines by parsing DOT graph dumps from GST_DEBUG_DUMP_DOT_DIR, profiling… | Published | — | — |

@@ -140,6 +140,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Dolby.io Media Enhancer](../../skills/dolby-io-media-enhancer-agent/) | — | — |
 | [ElevenLabs Voice Cloning Agent](../../skills/elevenlabs-voice-cloning-agent/) | — | — |
 | [ElevenLabs Voiceover Generator for Long-Form Content](../../skills/elevenlabs-voiceover-longform/) | — | — |
+| [FreeFM](../../skills/freefm/) | — | — |
 | [Generate podcast-style audio narratives with Podcast Generation](../../skills/generate-podcast-style-audio-narratives-with-podcast-generation/) | — | — |
 | [GStreamer Live Stream Transcoder](../../skills/gstreamer-live-stream-transcoder/) | — | — |
 | [GStreamer Pipeline Graph Optimizer](../../skills/gstreamer-pipeline-graph-optimizer/) | — | — |

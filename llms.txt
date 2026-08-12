@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-12
-# Total: 2885 skills
+# Total: 2886 skills
+
+## FreeFM
+slug: freefm
+category: Media & Transcription
+framework: Multi-Framework
+verification: Published
+description: Safely synchronize free-playable NetEase Private FM tracks into an append-only playlist using a native Rust CLI/TUI. Use when an operator needs QR login, read-only…
+url: https://agentskillexchange.com/skills/freefm/
 
 ## Convert documents into private agent-ready Markdown with doc7
 slug: convert-documents-into-private-agent-ready-markdown-with-doc7
