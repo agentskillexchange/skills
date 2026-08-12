@@ -1,9 +1,20 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-08-11",
-  "total": 2884,
+  "generated": "2026-08-12",
+  "total": 2885,
   "skills": [
+    {
+      "slug": "convert-documents-into-private-agent-ready-markdown-with-doc7",
+      "name": "Convert documents into private agent-ready Markdown with doc7",
+      "title": "Convert documents into private agent-ready Markdown with doc7",
+      "description": "Use a local or private multimodal model to convert PDFs, Office files, scans, screenshots, charts, formulas, and diagrams into Markdown for agent search and…",
+      "category": "Data Extraction & Transformation",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/magicrew/doc7",
+      "github_repo": "magicrew/doc7"
+    },
     {
       "slug": "brainiall-diarized-transcription",
       "name": "BRAINIALL Diarized Transcription",

@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-08-11
-# Total: 2884 skills
+# Generated: 2026-08-12
+# Total: 2885 skills
+
+## Convert documents into private agent-ready Markdown with doc7
+slug: convert-documents-into-private-agent-ready-markdown-with-doc7
+category: Data Extraction & Transformation
+framework: MCP
+verification: Security Reviewed
+description: Use a local or private multimodal model to convert PDFs, Office files, scans, screenshots, charts, formulas, and diagrams into Markdown for agent search and…
+url: https://agentskillexchange.com/skills/convert-documents-into-private-agent-ready-markdown-with-doc7/
 
 ## BRAINIALL Diarized Transcription
 slug: brainiall-diarized-transcription

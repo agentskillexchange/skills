@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2884 published skills** across **17 categories** · 2,460 security reviewed · Updated 2026-08-11 19:26 UTC
+> **2885 published skills** across **17 categories** · 2,460 security reviewed · Updated 2026-08-12 01:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -934,7 +934,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown,… | Published | — | — |
 
 
-### 🔄 Data Extraction & Transformation (217 skills)
+### 🔄 Data Extraction & Transformation (218 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -1119,6 +1119,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Export Obsidian vaults into clean Markdown trees for publishing or downstream processing](skills/export-obsidian-vaults-into-clean-markdown-trees-for-publishing-or-downstream-processing/) | Convert Obsidian vault content, wikilinks, and attachments into portable Markdown trees before publishing, indexing,… | Security Reviewed | 1.3k | — |
 | [Run persistent finance research workspaces with LangAlpha](skills/run-persistent-finance-research-workspaces-with-langalpha/) | Create persistent investment-research workspaces where agents process market data, filings, models, charts, and… | Security Reviewed | 1.2k | — |
 | [xq Command-Line XML and HTML Beautifier and Content Extractor](skills/xq-command-line-xml-html-beautifier-content-extractor/) | xq is a command-line XML and HTML beautifier and content extractor written in Go. It provides syntax highlighting,… | Security Reviewed | 1.1k | — |
+| [Convert documents into private agent-ready Markdown with doc7](skills/convert-documents-into-private-agent-ready-markdown-with-doc7/) | Use a local or private multimodal model to convert PDFs, Office files, scans, screenshots, charts, formulas, and… | Security Reviewed | 1.1k | — |
 | [Query Neo4j graph data from agent workflows through MCP](skills/query-neo4j-graph-data-from-agent-workflows-through-mcp/) | Connect MCP-compatible agents to Neo4j so they can inspect graph schemas, run Cypher queries, manage graph memory,… | Security Reviewed | 947 | — |
 | [Extract structured fields from HTML XML and JSON endpoints with Xidel selectors](skills/extract-structured-fields-from-html-xml-and-json-endpoints-with-xidel-selectors/) | Use Xidel to pull targeted values from pages, XML documents, or JSON APIs with CSS selectors, XPath, XQuery, or… | Security Reviewed | 835 | — |
 | [Inspect PDFs with evidence-first MCP workflows using PDF Reader MCP](skills/inspect-pdfs-with-evidence-first-mcp-workflows-using-pdf-reader-mcp/) | Connect PDF Reader MCP when an agent needs source-backed PDF extraction with page evidence, visual crops, OCR… | Published | 807 | 27.9k/wk |
