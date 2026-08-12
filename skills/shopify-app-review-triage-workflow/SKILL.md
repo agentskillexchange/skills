@@ -2,12 +2,15 @@
 name: "Shopify App Review Triage Workflow"
 slug: "shopify-app-review-triage-workflow"
 description: "Turns public Shopify App Store review rows into a prioritized P0-P3 triage brief with an explicit needs-human-read bucket, where every item keeps its public source link and is labeled first pass or human-checked. Use it when low-star app reviews or merchant feedback need to be classified, clustered, and written up as a weekly product or support brief for one Shopify app or a portfolio plus watched competitors."
+github_stars: 0
 verification: "listed"
 source: "https://github.com/alfredtech2026/shopify-app-review-brief"
+author: "alfredtech2026"
 category: "Templates & Workflows"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "alfredtech2026/shopify-app-review-brief"
+  github_stars: 0
 ---
 
 # Shopify App Review Triage Workflow

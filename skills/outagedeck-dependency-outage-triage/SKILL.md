@@ -2,12 +2,15 @@
 name: "OutageDeck Dependency Outage Triage"
 slug: "outagedeck-dependency-outage-triage"
 description: "Checks official cloud and SaaS status evidence through the OutageDeck MCP server or anonymous REST API before an agent changes code for 5xx, timeout, deployment, authentication, or integration failures."
+github_stars: 0
 verification: "listed"
 source: "https://github.com/outagedeck/codex-plugins"
+author: "OutageDeck"
 category: "Runbooks & Diagnostics"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "outagedeck/codex-plugins"
+  github_stars: 0
 ---
 
 # OutageDeck Dependency Outage Triage
