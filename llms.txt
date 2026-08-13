@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-13
-# Total: 2889 skills
+# Total: 2890 skills
+
+## Snowe UI Skill
+slug: snowe-ui-skill
+category: Developer Tools
+framework: Codex
+verification: Published
+description: Architecture-first UI/UX design skill for Codex that helps agents reason from product truth, user journeys, causal design decisions, art direction, interaction, responsive behavior, imagery,…
+url: https://agentskillexchange.com/skills/snowe-ui-skill/
 
 ## Bootstrap Claude Code and Codex Workflows with ZCF
 slug: bootstrap-claude-code-and-codex-workflows-with-zcf

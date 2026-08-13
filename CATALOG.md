@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2889 published skills** across **17 categories** · 2,462 security reviewed · Updated 2026-08-13 01:26 UTC
+> **2890 published skills** across **17 categories** · 2,462 security reviewed · Updated 2026-08-13 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (429 skills)
+### 🛠️ Developer Tools (430 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -439,6 +439,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [NPM Package Auditor](skills/npm-package-auditor-registry-api/) | Audits NPM packages using the NPM Registry API with dependency tree resolution and vulnerability scanning via… | Security Reviewed | — | — |
 | [Obsidian Vault Manager](skills/obsidian-vault-manager/) | Obsidian Vault Manager is built around HashiCorp Vault secrets platform. The underlying ecosystem is represented by… | Published | — | — |
 | [RouterBase Model Routing](skills/routerbase-model-routing/) | Design RouterBase model routing policies for AI agents, including primary model selection, fallback chains, latency… | Published | — | — |
+| [Snowe UI Skill](skills/snowe-ui-skill/) | Architecture-first UI/UX design skill for Codex that helps agents reason from product truth, user journeys, causal… | Published | — | — |
 | [Turn notes, logs, and screenshots into structured GitHub issues with GitHub Issue Creator](skills/turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator/) | Convert messy bug notes, error logs, voice dictation, and screenshots into crisp GitHub issue reports with clear… | Security Reviewed | — | — |
 | [Unified AI System Gateway](skills/unified-ai-gateway/) | Turn plain-language requests into structured, reviewable prompts and inspect a self-hosted MCP gateway with… | Published | — | — |
 | [VS Code Extension Debugger](skills/vscode-extension-debugger-dap-protocol/) | Debugs VS Code extensions using the Debug Adapter Protocol (DAP) with breakpoint management and variable inspection.… | Security Reviewed | — | — |

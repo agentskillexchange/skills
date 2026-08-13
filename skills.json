@@ -1,8 +1,19 @@
 {
   "version": "2.0",
-  "total": 2889,
+  "total": 2890,
   "generated": "2026-08-13",
   "skills": [
+    {
+      "slug": "snowe-ui-skill",
+      "name": "Snowe UI Skill",
+      "title": "Snowe UI Skill",
+      "description": "Architecture-first UI/UX design skill for Codex that helps agents reason from product truth, user journeys, causal design decisions, art direction, interaction, responsive behavior, imagery,…",
+      "category": "Developer Tools",
+      "framework": "Codex",
+      "verification": "listed",
+      "source_url": "https://github.com/What0ff/snowe-ui-skill",
+      "github_repo": "what0ff/snowe-ui-skill"
+    },
     {
       "slug": "bootstrap-claude-code-and-codex-workflows-with-zcf",
       "name": "Bootstrap Claude Code and Codex Workflows with ZCF",
