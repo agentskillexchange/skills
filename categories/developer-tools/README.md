@@ -284,6 +284,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Embed bounded Claude Code sessions into Python automation with the Claude Agent SDK](../../skills/embed-bounded-claude-code-sessions-into-python-automation-with-the-claude-agent-sdk/) | 6.4k | — |
 | [pastel Command-Line Color Generation Analysis and Manipulation Tool](../../skills/pastel-command-line-color-tool/) | 6.3k | — |
 | [Tealdeer Fast Rust Implementation of tldr Command-Line Help Pages](../../skills/tealdeer-fast-tldr-client-rust/) | 6.1k | — |
+| [Bootstrap Claude Code and Codex Workflows with ZCF](../../skills/bootstrap-claude-code-and-codex-workflows-with-zcf/) | 6.1k | 1k/wk |
 | [TypeScript AST Refactor](../../skills/typescript-ast-refactor-ts-morph/) | 6k | 15.2M/wk |
 | [procs Modern Process Viewer CLI](../../skills/procs-modern-process-viewer-cli/) | 6k | — |
 | [Add executable smoke tests for shell scripts and CLIs before refactors ship](../../skills/add-shell-and-cli-smoke-tests-before-refactors-ship/) | 6k | — |

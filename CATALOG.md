@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2888 published skills** across **17 categories** · 2,462 security reviewed · Updated 2026-08-12 19:26 UTC
+> **2889 published skills** across **17 categories** · 2,462 security reviewed · Updated 2026-08-13 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (428 skills)
+### 🛠️ Developer Tools (429 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -258,6 +258,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Embed bounded Claude Code sessions into Python automation with the Claude Agent SDK](skills/embed-bounded-claude-code-sessions-into-python-automation-with-the-claude-agent-sdk/) | Use the Claude Agent SDK for Python when an existing script or service needs to delegate scoped repo work to Claude… | Security Reviewed | 6.4k | — |
 | [pastel Command-Line Color Generation Analysis and Manipulation Tool](skills/pastel-command-line-color-tool/) | pastel is a command-line tool for generating, analyzing, converting, and manipulating colors. Built in Rust by the… | Security Reviewed | 6.3k | — |
 | [Tealdeer Fast Rust Implementation of tldr Command-Line Help Pages](skills/tealdeer-fast-tldr-client-rust/) | Tealdeer is a very fast Rust implementation of the tldr project — simplified, example-based man pages for… | Security Reviewed | 6.1k | — |
+| [Bootstrap Claude Code and Codex Workflows with ZCF](skills/bootstrap-claude-code-and-codex-workflows-with-zcf/) | Use ZCF to initialize, update, and standardize Claude Code or Codex environments with prompts, workflows, MCP… | Published | 6.1k | 1k/wk |
 | [TypeScript AST Refactor](skills/typescript-ast-refactor-ts-morph/) | Performs automated TypeScript refactoring using ts-morph and the TypeScript Compiler API. Handles rename operations,… | Published | 6k | 15.2M/wk |
 | [procs Modern Process Viewer CLI](skills/procs-modern-process-viewer-cli/) | A modern replacement for ps written in Rust. procs provides colorized, human-readable process listings with… | Security Reviewed | 6k | — |
 | [Add executable smoke tests for shell scripts and CLIs before refactors ship](skills/add-shell-and-cli-smoke-tests-before-refactors-ship/) | Use Bats-core when an agent needs to turn fragile shell scripts or command-line workflows into something it can… | Published | 6k | — |

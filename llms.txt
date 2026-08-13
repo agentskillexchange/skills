@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-08-12
-# Total: 2888 skills
+# Generated: 2026-08-13
+# Total: 2889 skills
+
+## Bootstrap Claude Code and Codex Workflows with ZCF
+slug: bootstrap-claude-code-and-codex-workflows-with-zcf
+category: Developer Tools
+framework: Multi-Framework
+verification: Published
+description: Use ZCF to initialize, update, and standardize Claude Code or Codex environments with prompts, workflows, MCP services, API settings, and backups.
+url: https://agentskillexchange.com/skills/bootstrap-claude-code-and-codex-workflows-with-zcf/
 
 ## Run StyleSeed Design Gates in Coding-Agent UI Builds
 slug: run-styleseed-design-gates-in-coding-agent-ui-builds

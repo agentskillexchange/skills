@@ -1,9 +1,20 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-08-12",
-  "total": 2888,
+  "generated": "2026-08-13",
+  "total": 2889,
   "skills": [
+    {
+      "slug": "bootstrap-claude-code-and-codex-workflows-with-zcf",
+      "name": "Bootstrap Claude Code and Codex Workflows with ZCF",
+      "title": "Bootstrap Claude Code and Codex Workflows with ZCF",
+      "description": "Use ZCF to initialize, update, and standardize Claude Code or Codex environments with prompts, workflows, MCP services, API settings, and backups.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/UfoMiao/zcf",
+      "github_repo": "UfoMiao/zcf"
+    },
     {
       "slug": "run-styleseed-design-gates-in-coding-agent-ui-builds",
       "name": "Run StyleSeed Design Gates in Coding-Agent UI Builds",
