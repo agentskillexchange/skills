@@ -2,10 +2,12 @@
 name: "Snowe UI Skill"
 slug: "snowe-ui-skill"
 description: "Architecture-first UI/UX design skill for Codex that helps agents reason from product truth, user journeys, causal design decisions, art direction, interaction, responsive behavior, imagery, iconography, and motion before implementation, then validate the result through rendered browser critique."
-category: "Developer Tools"
-framework: "Codex"
 verification: "listed"
 source: "https://github.com/What0ff/snowe-ui-skill"
+category: "Developer Tools"
+framework: "Codex"
+tool_ecosystem:
+  github_repo: "what0ff/snowe-ui-skill"
 ---
 
 # Snowe UI Skill
@@ -26,28 +28,9 @@ Snowe is not a category-to-style generator or a landing-page recipe system. Its 
 
 ## Installation
 
-### Codex — Windows
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-```powershell
-git clone https://github.com/What0ff/snowe-ui-skill.git
-
-Copy-Item -Recurse -Force `
-  .\snowe-ui-skill\skill\snowe-ui-skill `
-  "$env:USERPROFILE\.codex\skills\snowe-ui-skill"
-```
-
-### Codex — macOS / Linux
-
-```bash
-git clone https://github.com/What0ff/snowe-ui-skill.git
-
-mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
-
-cp -R snowe-ui-skill/skill/snowe-ui-skill \
-  "${CODEX_HOME:-$HOME/.codex}/skills/snowe-ui-skill"
-```
-
-Restart Codex or begin a new task so the skill catalog refreshes.
+- Source: https://github.com/What0ff/snowe-ui-skill
 
 ## Usage
 
