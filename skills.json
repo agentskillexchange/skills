@@ -1,8 +1,36 @@
 {
   "version": "2.0",
-  "total": 2890,
+  "total": 2892,
   "generated": "2026-08-13",
   "skills": [
+    {
+      "slug": "clean-chinese-ai-sounding-writing-with-shuorenhua",
+      "name": "Clean Chinese AI-sounding writing with Shuorenhua",
+      "title": "Clean Chinese AI-sounding writing with Shuorenhua",
+      "description": "Rewrite Chinese-first chat, status, docs, and public-writing drafts to remove AI-like phrasing while preserving facts, commands, numbers, terms, and responsibility.",
+      "category": "Content Writing & SEO",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1055
+      },
+      "source_url": "https://github.com/MrGeDiao/shuorenhua",
+      "github_repo": "MrGeDiao/shuorenhua"
+    },
+    {
+      "slug": "give-coding-agents-repo-local-project-memory-with-brain-md",
+      "name": "Give coding agents repo-local project memory with brain.md",
+      "title": "Give coding agents repo-local project memory with brain.md",
+      "description": "Initialize and maintain a repo-native Markdown memory layer so coding agents preserve durable decisions, requirements, constraints, and rationale across sessions.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 438
+      },
+      "source_url": "https://github.com/mindmuxai/brain.md",
+      "github_repo": "mindmuxai/brain.md"
+    },
     {
       "slug": "snowe-ui-skill",
       "name": "Snowe UI Skill",

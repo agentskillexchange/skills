@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-13
-# Total: 2890 skills
+# Total: 2892 skills
+
+## Clean Chinese AI-sounding writing with Shuorenhua
+slug: clean-chinese-ai-sounding-writing-with-shuorenhua
+category: Content Writing & SEO
+framework: Multi-Framework
+verification: Security Reviewed
+description: Rewrite Chinese-first chat, status, docs, and public-writing drafts to remove AI-like phrasing while preserving facts, commands, numbers, terms, and responsibility.
+url: https://agentskillexchange.com/skills/clean-chinese-ai-sounding-writing-with-shuorenhua/
+
+## Give coding agents repo-local project memory with brain.md
+slug: give-coding-agents-repo-local-project-memory-with-brain-md
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Initialize and maintain a repo-native Markdown memory layer so coding agents preserve durable decisions, requirements, constraints, and rationale across sessions.
+url: https://agentskillexchange.com/skills/give-coding-agents-repo-local-project-memory-with-brain-md/
 
 ## Snowe UI Skill
 slug: snowe-ui-skill

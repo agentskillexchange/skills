@@ -78,6 +78,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Content Readability Optimizer](../../skills/content-readability-optimizer/) | 1.4k | — |
 | [textstat Python Readability Statistics Calculator](../../skills/textstat-python-readability-statistics-calculator/) | 1.4k | — |
 | [schema-dts TypeScript Types for Schema.org Structured Data](../../skills/schema-dts-typescript-types-schemaorg-structured-data/) | 1.2k | 1.5M/wk |
+| [Clean Chinese AI-sounding writing with Shuorenhua](../../skills/clean-chinese-ai-sounding-writing-with-shuorenhua/) | 1.1k | — |
 | [OpenSEO Self-Hosted Keyword Research and SEO Analysis Platform](../../skills/openseo-self-hosted-keyword-research-seo-analysis/) | 783 | — |
 | [markdownlint-cli2 Markdown Linting for Docs and Repos](../../skills/markdownlint-cli2-markdown-linting-docs-repos/) | 740 | 522.5k/wk |
 | [Publish versioned MkDocs documentation with mike](../../skills/publish-versioned-mkdocs-documentation-with-mike/) | 728 | — |

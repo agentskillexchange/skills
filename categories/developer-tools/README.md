@@ -415,6 +415,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Scaffold repo-specific agent harnesses with Metaharness](../../skills/scaffold-repo-specific-agent-harnesses-with-metaharness/) | 529 | 29.1k/wk |
 | [Run self-hosted coding-agent mission control with Codeman](../../skills/run-self-hosted-coding-agent-mission-control-with-codeman/) | 500 | 1.9k/wk |
 | [Orchestrate multi-agent coding delivery loops with Maestro Flow](../../skills/orchestrate-multi-agent-coding-delivery-loops-with-maestro-flow/) | 480 | 1k/wk |
+| [Give coding agents repo-local project memory with brain.md](../../skills/give-coding-agents-repo-local-project-memory-with-brain-md/) | 438 | — |
 | [Orchestrate review-first multi-agent development work with Kandev](../../skills/orchestrate-review-first-multi-agent-development-work-with-kandev/) | 405 | 3.5k/wk |
 | [Build embeddable Rust coding agents with Cersei](../../skills/build-embeddable-rust-coding-agents-with-cersei/) | 400 | — |
 | [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 393 | 1k/wk |
