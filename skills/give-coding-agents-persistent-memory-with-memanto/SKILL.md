@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "moorcheh-ai/memanto"
   github_stars: 1651
+  npm_package: "@moorcheh-ai/memanto"
+  npm_weekly_downloads: 0
 ---
 
 # Give coding agents persistent memory with Memanto
@@ -24,17 +26,11 @@ Memanto CLI; Python package installer; Docker and Ollama for fully local mode or
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Memanto's retrieval is powered by [Moorcheh](https://moorcheh.ai), an information-theoretic semantic engine. It runs as a local Docker container (free, no account) or as a free cloud service (100K free operations) the...
-- **TypeScript / Node.js** — [@moorcheh-ai/memanto](sdks/typescript) — boots a local Memanto server via uvx and exposes an ergonomic Memanto client (remember / recall / answer).
+Install or set up from the source-backed instructions:
 
-Basic usage or getting-started notes:
-- <p align="center">
-- <a href="https://www.youtube.com/watch?v=vEtOaoweIG4">
-- <img src="https://github.com/moorcheh-ai/memanto/raw/main/assets/video-demo.png" alt="Setup video">
+Install with pip install memanto, run memanto, choose local or cloud-backed setup, then connect an agent with memanto connect and verify memory commands with memanto status.
 
 - Source: https://github.com/moorcheh-ai/memanto
-- Extracted from upstream docs: https://raw.githubusercontent.com/moorcheh-ai/memanto/HEAD/README.md
 
 ## Documentation
 

@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "OthmanAdi/planning-with-files"
   github_stars: 25780
+  npm_package: "planning-with-files"
+  npm_weekly_downloads: 0
 ---
 
 # Preserve agent plans across context resets with Planning With Files
