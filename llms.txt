@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-08-13
+# Generated: 2026-08-14
 # Total: 2892 skills
 
 ## Clean Chinese AI-sounding writing with Shuorenhua

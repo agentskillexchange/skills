@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[MarkItDown Document-to-Markdown Converter by Microsoft](skills/markitdown-document-to-markdown-converter-microsoft/)** — MarkItDown is a Python utility by Microsoft that converts PDF, Word, PowerPoint, Excel, images, audio, HTML, and other files into Markdown for LLM consumption. It preserves headings, lists,…
+**[Give coding agents repo-local project memory with brain.md](skills/give-coding-agents-repo-local-project-memory-with-brain-md/)** — Initialize and maintain a repo-native Markdown memory layer so coding agents preserve durable decisions, requirements, constraints, and rationale across sessions.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -114,8 +114,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Audit coding-agent token spend with CodeBurn](skills/audit-coding-agent-token-spend-with-codeburn/) | Run CodeBurn locally or as an MCP server so agents can inspect token usage, cost, model mix, project... | 8.7k | Monitoring & Alerts |
 | [Keep coding agents from over-building implementations with Ponytail](skills/keep-coding-agents-from-over-building-implementations-with-ponytail/) | Ponytail gives coding agents a portable minimal-implementation ruleset, plugin hooks, and review commands so they reuse existing code... | 85.5k | Code Quality & Review |
 | [Bridge local coding agents into chat apps with cc-connect](skills/bridge-local-coding-agents-into-chat-apps-with-cc-connect/) | Let operators control local Claude Code, Codex, Cursor, Gemini CLI, and other coding agents from Slack, Discord, Telegram... | 14.2k | Integrations & Connectors |
-| [Convert documents into private agent-ready Markdown with doc7](skills/convert-documents-into-private-agent-ready-markdown-with-doc7/) | Use a local or private multimodal model to convert PDFs, Office files, scans, screenshots, charts, formulas, and diagrams... | 1.1k | Data Extraction & Transformation |
 | [Control Blender Scenes from MCP Agents with BlenderMCP](skills/control-blender-scenes-from-mcp-agents-with-blendermcp/) | Use BlenderMCP when an MCP-capable agent needs to inspect, create, and modify Blender scenes through a controlled Blender... | 25.6k | Integrations & Connectors |
+| [Clean Chinese AI-sounding writing with Shuorenhua](skills/clean-chinese-ai-sounding-writing-with-shuorenhua/) | Rewrite Chinese-first chat, status, docs, and public-writing drafts to remove AI-like phrasing while preserving facts, commands, numbers, terms... | 1.1k | Content Writing & SEO |
 
 ---
 
