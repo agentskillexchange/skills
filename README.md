@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C892-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C893-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C465-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,892 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,893 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Run DeepSeek Harness agent sessions from a Claude Code-style terminal TUI](skills/run-deepseek-harness-agent-sessions-from-a-claude-code-style-terminal-tui/) | Use dsh-cc-tui to run DeepSeek Harness coding-agent sessions from a full-screen terminal with live activity, context meters, session... | 558 | Developer Tools |
 | [Clean Chinese AI-sounding writing with Shuorenhua](skills/clean-chinese-ai-sounding-writing-with-shuorenhua/) | Rewrite Chinese-first chat, status, docs, and public-writing drafts to remove AI-like phrasing while preserving facts, commands, numbers, terms... | 1.1k | Content Writing & SEO |
 | [Give coding agents repo-local project memory with brain.md](skills/give-coding-agents-repo-local-project-memory-with-brain-md/) | Initialize and maintain a repo-native Markdown memory layer so coding agents preserve durable decisions, requirements, constraints, and rationale... | 438 | Developer Tools |
 | [Snowe UI Skill](skills/snowe-ui-skill/) | Architecture-first UI/UX design skill for Codex that helps agents reason from product truth, user journeys, causal design decisions... | - | Developer Tools |
@@ -96,7 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [FreeFM](skills/freefm/) | Safely synchronize free-playable NetEase Private FM tracks into an append-only playlist using a native Rust CLI/TUI. Use when... | - | Media & Transcription |
 | [Convert documents into private agent-ready Markdown with doc7](skills/convert-documents-into-private-agent-ready-markdown-with-doc7/) | Use a local or private multimodal model to convert PDFs, Office files, scans, screenshots, charts, formulas, and diagrams... | 1.1k | Data Extraction & Transformation |
 | [BRAINIALL Diarized Transcription](skills/brainiall-diarized-transcription/) | Transcribes one explicitly authorized Brazilian Portuguese or Spanish audio or video file through the metered BRAINIALL API, then... | - | Media & Transcription |
-| [Manage Cross-Agent Skill Libraries with Skills Manager](skills/manage-cross-agent-skill-libraries-with-skills-manager/) | Use Skills Manager when an operator needs one auditable library for installing, inspecting, tagging, syncing, backing up, and... | 3.7k | Developer Tools |
 
 ---
 
@@ -123,7 +123,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 431 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 432 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 243 | Vulnerability scanning, auth setup, compliance |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 233 | Scaffolders, boilerplate generators, workflow templates |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 218 | ETL pipelines, parsing, format conversion |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,892 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,893 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,465 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

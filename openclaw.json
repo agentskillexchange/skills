@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-14",
-  "total": 2892,
+  "total": 2893,
   "skills": [
+    {
+      "slug": "run-deepseek-harness-agent-sessions-from-a-claude-code-style-terminal-tui",
+      "name": "Run DeepSeek Harness agent sessions from a Claude Code-style terminal TUI",
+      "title": "Run DeepSeek Harness agent sessions from a Claude Code-style terminal TUI",
+      "description": "Use dsh-cc-tui to run DeepSeek Harness coding-agent sessions from a full-screen terminal with live activity, context meters, session rewind, presets, model switching, file mentions,…",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/ccch1mneyyy/dsh-TUI",
+      "github_repo": "ccch1mneyyy/dsh-TUI"
+    },
     {
       "slug": "clean-chinese-ai-sounding-writing-with-shuorenhua",
       "name": "Clean Chinese AI-sounding writing with Shuorenhua",

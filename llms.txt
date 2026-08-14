@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-14
-# Total: 2892 skills
+# Total: 2893 skills
+
+## Run DeepSeek Harness agent sessions from a Claude Code-style terminal TUI
+slug: run-deepseek-harness-agent-sessions-from-a-claude-code-style-terminal-tui
+category: Developer Tools
+framework: Custom Agents
+verification: Security Reviewed
+description: Use dsh-cc-tui to run DeepSeek Harness coding-agent sessions from a full-screen terminal with live activity, context meters, session rewind, presets, model switching, file mentions,…
+url: https://agentskillexchange.com/skills/run-deepseek-harness-agent-sessions-from-a-claude-code-style-terminal-tui/
 
 ## Clean Chinese AI-sounding writing with Shuorenhua
 slug: clean-chinese-ai-sounding-writing-with-shuorenhua
