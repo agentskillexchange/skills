@@ -399,6 +399,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Develop Power BI and Fabric artifacts with agent plugins](../../skills/develop-power-bi-and-fabric-artifacts-with-agent-plugins/) | 801 | — |
 | [Control Android devices with an on-device AI agent using PokeClaw](../../skills/control-android-devices-with-an-on-device-ai-agent-using-pokeclaw/) | 760 | — |
 | [Generate and continuously refresh CLAUDE.md, AGENTS.md, MCP config, and editor rules from the live codebase with Caliber](../../skills/generate-and-continuously-refresh-claude-md-agents-md-mcp-config-and-editor-rules-from-the-live-codebase-with-caliber/) | 717 | 6.5k/wk |
+| [Run long-horizon computer-use agent loops with LongHorizon-Harness](../../skills/run-long-horizon-computer-use-agent-loops-with-longhorizon-harness/) | 714 | — |
 | [Store Python project task runners in pyproject.toml with taskipy](../../skills/store-python-project-task-runners-in-pyproject-toml-with-taskipy/) | 714 | — |
 | [Run deterministic multi-agent coding workflows with Bernstein](../../skills/run-deterministic-multi-agent-coding-workflows-with-bernstein/) | 704 | — |
 | [Manage agent runtime capabilities with CAPA](../../skills/manage-agent-runtime-capabilities-with-capa/) | 692 | — |

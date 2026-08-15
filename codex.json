@@ -1,9 +1,31 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-08-14",
-  "total": 2893,
+  "generated": "2026-08-15",
+  "total": 2895,
   "skills": [
+    {
+      "slug": "turn-novels-into-ai-short-drama-production-packets-with-shuohao-skills",
+      "name": "Turn novels into AI short-drama production packets with shuohao-skills",
+      "title": "Turn novels into AI short-drama production packets with shuohao-skills",
+      "description": "Use shuohao-skills to have coding agents turn a source novel into character bibles, adaptation outlines, art bibles, screenplays, and storyboards with deterministic quality gates.",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/eternityspring/shuohao-skills",
+      "github_repo": "eternityspring/shuohao-skills"
+    },
+    {
+      "slug": "run-long-horizon-computer-use-agent-loops-with-longhorizon-harness",
+      "name": "Run long-horizon computer-use agent loops with LongHorizon-Harness",
+      "title": "Run long-horizon computer-use agent loops with LongHorizon-Harness",
+      "description": "Use LongHorizon-Harness to keep Claude Code, Codex, DeepSeek Harness, or custom agent backends working through long GUI and CLI tasks with verified state, role…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/AMAP-ML/LongHorizon-Harness",
+      "github_repo": "AMAP-ML/LongHorizon-Harness"
+    },
     {
       "slug": "run-deepseek-harness-agent-sessions-from-a-claude-code-style-terminal-tui",
       "name": "Run DeepSeek Harness agent sessions from a Claude Code-style terminal TUI",

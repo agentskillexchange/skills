@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-08-14
-# Total: 2893 skills
+# Generated: 2026-08-15
+# Total: 2895 skills
+
+## Turn novels into AI short-drama production packets with shuohao-skills
+slug: turn-novels-into-ai-short-drama-production-packets-with-shuohao-skills
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use shuohao-skills to have coding agents turn a source novel into character bibles, adaptation outlines, art bibles, screenplays, and storyboards with deterministic quality gates.
+url: https://agentskillexchange.com/skills/turn-novels-into-ai-short-drama-production-packets-with-shuohao-skills/
+
+## Run long-horizon computer-use agent loops with LongHorizon-Harness
+slug: run-long-horizon-computer-use-agent-loops-with-longhorizon-harness
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use LongHorizon-Harness to keep Claude Code, Codex, DeepSeek Harness, or custom agent backends working through long GUI and CLI tasks with verified state, role…
+url: https://agentskillexchange.com/skills/run-long-horizon-computer-use-agent-loops-with-longhorizon-harness/
 
 ## Run DeepSeek Harness agent sessions from a Claude Code-style terminal TUI
 slug: run-deepseek-harness-agent-sessions-from-a-claude-code-style-terminal-tui

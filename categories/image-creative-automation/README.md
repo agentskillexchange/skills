@@ -106,6 +106,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Turn a plain-language brief into a multi-step video production pipeline with OpenMontage](../../skills/turn-a-plain-language-brief-into-a-multi-step-video-production-pipeline-with-openmontage/) | 3k | — |
 | [Produce cinematic product videos with Video Shotcraft](../../skills/produce-cinematic-product-videos-with-video-shotcraft/) | 2.1k | — |
 | [OpenEXR HDR Compositing Pipeline](../../skills/openexr-hdr-compositing-pipeline/) | 1.8k | — |
+| [Turn novels into AI short-drama production packets with shuohao-skills](../../skills/turn-novels-into-ai-short-drama-production-packets-with-shuohao-skills/) | 1.4k | — |
 | [Revise PDF Slides with Natural-Language Edits](../../skills/revise-pdf-slides-with-natural-language-edits/) | 1.2k | — |
 | [Generate Template-Matched PPTX Decks with gpt-image2-ppt-skills](../../skills/generate-template-matched-pptx-decks-with-gpt-image2-ppt-skills/) | 1.1k | — |
 | [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | 1.1k | 19.7k/wk |

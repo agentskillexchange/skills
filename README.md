@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C893-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C895-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C467-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,893 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,895 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Give coding agents repo-local project memory with brain.md](skills/give-coding-agents-repo-local-project-memory-with-brain-md/)** — Initialize and maintain a repo-native Markdown memory layer so coding agents preserve durable decisions, requirements, constraints, and rationale across sessions.
+**[Run software engineering tasks with OpenHands](skills/run-software-engineering-tasks-with-openhands/)** — Use OpenHands to run supervised software-engineering agents that inspect repositories, edit code, execute commands, and return reviewable implementation evidence.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Turn novels into AI short-drama production packets with shuohao-skills](skills/turn-novels-into-ai-short-drama-production-packets-with-shuohao-skills/) | Use shuohao-skills to have coding agents turn a source novel into character bibles, adaptation outlines, art bibles, screenplays... | 1.4k | Image & Creative Automation |
+| [Run long-horizon computer-use agent loops with LongHorizon-Harness](skills/run-long-horizon-computer-use-agent-loops-with-longhorizon-harness/) | Use LongHorizon-Harness to keep Claude Code, Codex, DeepSeek Harness, or custom agent backends working through long GUI and... | 714 | Developer Tools |
 | [Run DeepSeek Harness agent sessions from a Claude Code-style terminal TUI](skills/run-deepseek-harness-agent-sessions-from-a-claude-code-style-terminal-tui/) | Use dsh-cc-tui to run DeepSeek Harness coding-agent sessions from a full-screen terminal with live activity, context meters, session... | 558 | Developer Tools |
 | [Clean Chinese AI-sounding writing with Shuorenhua](skills/clean-chinese-ai-sounding-writing-with-shuorenhua/) | Rewrite Chinese-first chat, status, docs, and public-writing drafts to remove AI-like phrasing while preserving facts, commands, numbers, terms... | 1.1k | Content Writing & SEO |
 | [Give coding agents repo-local project memory with brain.md](skills/give-coding-agents-repo-local-project-memory-with-brain-md/) | Initialize and maintain a repo-native Markdown memory layer so coding agents preserve durable decisions, requirements, constraints, and rationale... | 438 | Developer Tools |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Run StyleSeed Design Gates in Coding-Agent UI Builds](skills/run-styleseed-design-gates-in-coding-agent-ui-builds/) | Install StyleSeed skills so coding agents choose a design grammar, build UI with project-local rules, score the result... | 884 | Developer Tools |
 | [Build Persistent Codebase Context Graphs with Graft](skills/build-persistent-codebase-context-graphs-with-graft/) | Build and maintain a repository-local context graph so coding agents can orient inside large codebases without rediscovering the... | 2.1k | Developer Tools |
 | [FreeFM](skills/freefm/) | Safely synchronize free-playable NetEase Private FM tracks into an append-only playlist using a native Rust CLI/TUI. Use when... | - | Media & Transcription |
-| [Convert documents into private agent-ready Markdown with doc7](skills/convert-documents-into-private-agent-ready-markdown-with-doc7/) | Use a local or private multimodal model to convert PDFs, Office files, scans, screenshots, charts, formulas, and diagrams... | 1.1k | Data Extraction & Transformation |
-| [BRAINIALL Diarized Transcription](skills/brainiall-diarized-transcription/) | Transcribes one explicitly authorized Brazilian Portuguese or Spanish audio or video file through the metered BRAINIALL API, then... | - | Media & Transcription |
 
 ---
 
@@ -107,15 +107,15 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
 | [Run open-source terminal coding workflows with Qwen Code](skills/run-open-source-terminal-coding-workflows-with-qwen-code/) | Use Qwen Code as a repeatable terminal coding agent: install the CLI, authenticate a provider, run interactive or... | 26.6k | Developer Tools |
-| [Build Persistent Codebase Context Graphs with Graft](skills/build-persistent-codebase-context-graphs-with-graft/) | Build and maintain a repository-local context graph so coding agents can orient inside large codebases without rediscovering the... | 2.1k | Developer Tools |
 | [Install Chinese-localized Superpowers workflows for coding agents](skills/install-chinese-localized-superpowers-workflows-for-coding-agents/) | Use superpowers-zh to install Chinese-localized coding-agent methods, China-specific development skills, and cross-tool setup for Claude Code, Codex, Cursor... | 7.2k | Templates & Workflows |
 | [Block Risky Coding-Agent Commands with CC Safety Net](skills/block-risky-coding-agent-commands-with-cc-safety-net/) | Use CC Safety Net when coding-agent CLIs need pre-execution hooks that block destructive commands, secret access, and unsafe... | 1.5k | Security & Verification |
+| [Build Persistent Codebase Context Graphs with Graft](skills/build-persistent-codebase-context-graphs-with-graft/) | Build and maintain a repository-local context graph so coding agents can orient inside large codebases without rediscovering the... | 2.1k | Developer Tools |
 | [Enforce Coding-Agent Write and Shell Policies with Probity](skills/enforce-coding-agent-write-and-shell-policies-with-probity/) | Use Probity when Claude Code, Codex, or GitHub Copilot CLI should be blocked from unsafe file writes or... | 162 | Security & Verification |
 | [Audit coding-agent token spend with CodeBurn](skills/audit-coding-agent-token-spend-with-codeburn/) | Run CodeBurn locally or as an MCP server so agents can inspect token usage, cost, model mix, project... | 8.7k | Monitoring & Alerts |
 | [Keep coding agents from over-building implementations with Ponytail](skills/keep-coding-agents-from-over-building-implementations-with-ponytail/) | Ponytail gives coding agents a portable minimal-implementation ruleset, plugin hooks, and review commands so they reuse existing code... | 85.5k | Code Quality & Review |
+| [Turn novels into AI short-drama production packets with shuohao-skills](skills/turn-novels-into-ai-short-drama-production-packets-with-shuohao-skills/) | Use shuohao-skills to have coding agents turn a source novel into character bibles, adaptation outlines, art bibles, screenplays... | 1.4k | Image & Creative Automation |
 | [Bridge local coding agents into chat apps with cc-connect](skills/bridge-local-coding-agents-into-chat-apps-with-cc-connect/) | Let operators control local Claude Code, Codex, Cursor, Gemini CLI, and other coding agents from Slack, Discord, Telegram... | 14.2k | Integrations & Connectors |
 | [Control Blender Scenes from MCP Agents with BlenderMCP](skills/control-blender-scenes-from-mcp-agents-with-blendermcp/) | Use BlenderMCP when an MCP-capable agent needs to inspect, create, and modify Blender scenes through a controlled Blender... | 25.6k | Integrations & Connectors |
-| [Convert documents into private agent-ready Markdown with doc7](skills/convert-documents-into-private-agent-ready-markdown-with-doc7/) | Use a local or private multimodal model to convert PDFs, Office files, scans, screenshots, charts, formulas, and diagrams... | 1.1k | Data Extraction & Transformation |
 
 ---
 
@@ -123,7 +123,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 432 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 433 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 243 | Vulnerability scanning, auth setup, compliance |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 233 | Scaffolders, boilerplate generators, workflow templates |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 218 | ETL pipelines, parsing, format conversion |
@@ -137,7 +137,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 124 | Web research, content discovery, data collection |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 121 | Web scraping, UI testing, headless browser control |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 108 | Audio/video processing, speech-to-text |
-| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 102 | Image generation, asset processing, design automation |
+| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 103 | Image generation, asset processing, design automation |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
 | ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 88 | SEO content, blog automation, editorial workflows |
 
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,893 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,895 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,467 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

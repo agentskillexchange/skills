@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2893 published skills** across **17 categories** · 2,467 security reviewed · Updated 2026-08-14 13:26 UTC
+> **2895 published skills** across **17 categories** · 2,467 security reviewed · Updated 2026-08-15 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (432 skills)
+### 🛠️ Developer Tools (433 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -373,6 +373,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Develop Power BI and Fabric artifacts with agent plugins](skills/develop-power-bi-and-fabric-artifacts-with-agent-plugins/) | Install Power BI and Microsoft Fabric plugins so Claude Code can author, validate, and review PBIP, TMDL, DAX,… | Security Reviewed | 801 | — |
 | [Control Android devices with an on-device AI agent using PokeClaw](skills/control-android-devices-with-an-on-device-ai-agent-using-pokeclaw/) | Run an on-device Android control loop that inspects screens and performs app actions locally for mobile automation… | Security Reviewed | 760 | — |
 | [Generate and continuously refresh CLAUDE.md, AGENTS.md, MCP config, and editor rules from the live codebase with Caliber](skills/generate-and-continuously-refresh-claude-md-agents-md-mcp-config-and-editor-rules-from-the-live-codebase-with-caliber/) | Use Caliber when agent-facing repo instructions have started drifting from the actual codebase and you want one… | Security Reviewed | 717 | 6.5k/wk |
+| [Run long-horizon computer-use agent loops with LongHorizon-Harness](skills/run-long-horizon-computer-use-agent-loops-with-longhorizon-harness/) | Use LongHorizon-Harness to keep Claude Code, Codex, DeepSeek Harness, or custom agent backends working through long… | Security Reviewed | 714 | — |
 | [Store Python project task runners in pyproject.toml with taskipy](skills/store-python-project-task-runners-in-pyproject-toml-with-taskipy/) | Define short Python project commands in pyproject.toml so agents and maintainers can run the same test, lint, docs,… | Security Reviewed | 714 | — |
 | [Run deterministic multi-agent coding workflows with Bernstein](skills/run-deterministic-multi-agent-coding-workflows-with-bernstein/) | Orchestrate parallel CLI coding agents in isolated git worktrees with reproducible scheduling, gates, replay… | Security Reviewed | 704 | — |
 | [Manage agent runtime capabilities with CAPA](skills/manage-agent-runtime-capabilities-with-capa/) | Use CAPA to declare coding-agent skills, rules, tools, MCP servers, sub-agents, and plugins once in… | Security Reviewed | 692 | — |
@@ -2728,7 +2729,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [YouTube Chapter Generator from Transcripts](skills/youtube-chapter-generator-transcripts/) | Extracts YouTube video transcripts via the youtube-transcript-api Python library and generates semantic chapter… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (102 skills)
+### 🎨 Image & Creative Automation (103 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -2800,6 +2801,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Turn a plain-language brief into a multi-step video production pipeline with OpenMontage](skills/turn-a-plain-language-brief-into-a-multi-step-video-production-pipeline-with-openmontage/) | Use OpenMontage when an agent should take a brief or reference video and run the research, scripting, asset… | Security Reviewed | 3k | — |
 | [Produce cinematic product videos with Video Shotcraft](skills/produce-cinematic-product-videos-with-video-shotcraft/) | Turns Claude Code, Codex, or another skills-aware coding agent into a Remotion-based product video operator with… | Security Reviewed | 2.1k | — |
 | [OpenEXR HDR Compositing Pipeline](skills/openexr-hdr-compositing-pipeline/) | Processes OpenEXR high dynamic range images using the OpenImageIO (oiiotool) CLI and Imath library for multi-layer… | Security Reviewed | 1.8k | — |
+| [Turn novels into AI short-drama production packets with shuohao-skills](skills/turn-novels-into-ai-short-drama-production-packets-with-shuohao-skills/) | Use shuohao-skills to have coding agents turn a source novel into character bibles, adaptation outlines, art bibles,… | Security Reviewed | 1.4k | — |
 | [Revise PDF Slides with Natural-Language Edits](skills/revise-pdf-slides-with-natural-language-edits/) | Use Nano-PDF when an agent needs to update existing PDF slides or insert matching new slides from plain-language… | Security Reviewed | 1.2k | — |
 | [Generate Template-Matched PPTX Decks with gpt-image2-ppt-skills](skills/generate-template-matched-pptx-decks-with-gpt-image2-ppt-skills/) | Use gpt-image2-ppt-skills to have an agent create image-first or editable PowerPoint decks with gpt-image-2, bundled… | Security Reviewed | 1.1k | — |
 | [Rive Runtime Animation Controller](skills/rive-runtime-animation-controller/) | Controls Rive (.riv) interactive animations at runtime using @rive-app/canvas-advanced, manages state machine… | Security Reviewed | 1.1k | 19.7k/wk |
