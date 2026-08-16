@@ -5,7 +5,7 @@ description: "Turns folders, codebases, websites, PDFs, documents, and research 
 category: "Content Writing & SEO"
 framework: "Multi-Framework"
 verification: listed
-source: "https://github.com/raunaqbn/html-docs-skill"
+source: "https://github.com/raunaqbn/html-docs-skill/tree/main/html-docs"
 tool_ecosystem:
   github_repo: "raunaqbn/html-docs-skill"
   npm_package: "@html-docs/cli"
@@ -49,7 +49,7 @@ cp -R html-docs-skill/html-docs ~/.agent-skills/html-docs
 Publish a standalone HTML page without installing the skill:
 
 ```bash
-npx @html-docs/cli publish page.html
+npx @html-docs/cli@0.7.0 publish page.html
 ```
 
 The public agent guide documents Codex, Claude Code, MCP, CLI, and REST API
