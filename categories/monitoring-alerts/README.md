@@ -163,6 +163,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Datadog Monitors Skill](../../skills/datadog-monitors-skill/) | 791 | 6.6M/wk |
 | [Datadog SLO Monitor](../../skills/datadog-slo-monitor/) | 791 | 6.6M/wk |
 | [Sentry MCP Server](../../skills/sentry-mcp-server/) | 712 | 101.2k/wk |
+| [Gate agent regressions from production traces with Tracely](../../skills/gate-agent-regressions-from-production-traces-with-tracely/) | 643 | — |
 | [Sentry MCP Server for Error Tracking and Performance](../../skills/sentry-mcp-server-error-tracking-performance/) | 615 | 49.6k/wk |
 | [Track coding-agent quota burn and remaining headroom across providers with onWatch](../../skills/track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch/) | 580 | — |
 | [PostHog Product Analytics and Feature Flags SDK](../../skills/posthog-product-analytics-and-feature-flags-sdk/) | 531 | 4.8M/wk |

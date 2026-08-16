@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2895 published skills** across **17 categories** · 2,468 security reviewed · Updated 2026-08-16 01:26 UTC
+> **2896 published skills** across **17 categories** · 2,468 security reviewed · Updated 2026-08-16 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1926,7 +1926,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (152 skills)
+### 📊 Monitoring & Alerts (153 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -2055,6 +2055,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Datadog Monitors Skill](skills/datadog-monitors-skill/) | Manages Datadog monitors and dashboards via the Datadog API v2. Lists triggered monitors, mutes/unmutes alert… | Security Reviewed | 791 | 6.6M/wk |
 | [Datadog SLO Monitor](skills/datadog-slo-monitor/) | Monitors Datadog Service Level Objectives and burn rate alerts via the Datadog API v2. Generates SLO compliance… | Security Reviewed | 791 | 6.6M/wk |
 | [Sentry MCP Server](skills/sentry-mcp-server/) | Sentry's official MCP server connects your error monitoring stack to any MCP client. Search issues, analyze stack… | Published | 712 | 101.2k/wk |
+| [Gate agent regressions from production traces with Tracely](skills/gate-agent-regressions-from-production-traces-with-tracely/) | Turn failing AI-agent production traces into hermetic regression cases and CI gates with Tracely. | Security Reviewed | 643 | — |
 | [Sentry MCP Server for Error Tracking and Performance](skills/sentry-mcp-server-error-tracking-performance/) | The official Sentry MCP server gives AI agents access to Sentry error tracking, issue management, and performance… | Security Reviewed | 615 | 49.6k/wk |
 | [Track coding-agent quota burn and remaining headroom across providers with onWatch](skills/track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch/) | Monitor quota, spend, resets, and alerts across multiple coding-agent providers from one local dashboard before a… | Security Reviewed | 580 | — |
 | [PostHog Product Analytics and Feature Flags SDK](skills/posthog-product-analytics-and-feature-flags-sdk/) | Use PostHog to capture product analytics events, identify users, evaluate feature flags, and route experimentation… | Published | 531 | 4.8M/wk |

@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-16
-# Total: 2895 skills
+# Total: 2896 skills
+
+## Gate agent regressions from production traces with Tracely
+slug: gate-agent-regressions-from-production-traces-with-tracely
+category: Monitoring & Alerts
+framework: Multi-Framework
+verification: Security Reviewed
+description: Turn failing AI-agent production traces into hermetic regression cases and CI gates with Tracely.
+url: https://agentskillexchange.com/skills/gate-agent-regressions-from-production-traces-with-tracely/
 
 ## Turn novels into AI short-drama production packets with shuohao-skills
 slug: turn-novels-into-ai-short-drama-production-packets-with-shuohao-skills

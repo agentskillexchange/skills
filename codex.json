@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-16",
-  "total": 2895,
+  "total": 2896,
   "skills": [
+    {
+      "slug": "gate-agent-regressions-from-production-traces-with-tracely",
+      "name": "Gate agent regressions from production traces with Tracely",
+      "title": "Gate agent regressions from production traces with Tracely",
+      "description": "Turn failing AI-agent production traces into hermetic regression cases and CI gates with Tracely.",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Jwuthri/Tracely",
+      "github_repo": "Jwuthri/Tracely"
+    },
     {
       "slug": "turn-novels-into-ai-short-drama-production-packets-with-shuohao-skills",
       "name": "Turn novels into AI short-drama production packets with shuohao-skills",

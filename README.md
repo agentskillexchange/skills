@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C895-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C896-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C468-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,895 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,896 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Gate agent regressions from production traces with Tracely](skills/gate-agent-regressions-from-production-traces-with-tracely/) | Turn failing AI-agent production traces into hermetic regression cases and CI gates with Tracely | 643 | Monitoring & Alerts |
 | [Turn novels into AI short-drama production packets with shuohao-skills](skills/turn-novels-into-ai-short-drama-production-packets-with-shuohao-skills/) | Use shuohao-skills to have coding agents turn a source novel into character bibles, adaptation outlines, art bibles, screenplays... | 1.4k | Image & Creative Automation |
 | [Run long-horizon computer-use agent loops with LongHorizon-Harness](skills/run-long-horizon-computer-use-agent-loops-with-longhorizon-harness/) | Use LongHorizon-Harness to keep Claude Code, Codex, DeepSeek Harness, or custom agent backends working through long GUI and... | 714 | Developer Tools |
 | [Run DeepSeek Harness agent sessions from a Claude Code-style terminal TUI](skills/run-deepseek-harness-agent-sessions-from-a-claude-code-style-terminal-tui/) | Use dsh-cc-tui to run DeepSeek Harness coding-agent sessions from a full-screen terminal with live activity, context meters, session... | 558 | Developer Tools |
@@ -96,7 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Bootstrap Claude Code and Codex Workflows with ZCF](skills/bootstrap-claude-code-and-codex-workflows-with-zcf/) | Use ZCF to initialize, update, and standardize Claude Code or Codex environments with prompts, workflows, MCP services, API... | 6.1k | Developer Tools |
 | [Run StyleSeed Design Gates in Coding-Agent UI Builds](skills/run-styleseed-design-gates-in-coding-agent-ui-builds/) | Install StyleSeed skills so coding agents choose a design grammar, build UI with project-local rules, score the result... | 884 | Developer Tools |
 | [Build Persistent Codebase Context Graphs with Graft](skills/build-persistent-codebase-context-graphs-with-graft/) | Build and maintain a repository-local context graph so coding agents can orient inside large codebases without rediscovering the... | 2.1k | Developer Tools |
-| [FreeFM](skills/freefm/) | Safely synchronize free-playable NetEase Private FM tracks into an append-only playlist using a native Rust CLI/TUI. Use when... | - | Media & Transcription |
 
 ---
 
@@ -114,8 +114,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Audit coding-agent token spend with CodeBurn](skills/audit-coding-agent-token-spend-with-codeburn/) | Run CodeBurn locally or as an MCP server so agents can inspect token usage, cost, model mix, project... | 8.7k | Monitoring & Alerts |
 | [Keep coding agents from over-building implementations with Ponytail](skills/keep-coding-agents-from-over-building-implementations-with-ponytail/) | Ponytail gives coding agents a portable minimal-implementation ruleset, plugin hooks, and review commands so they reuse existing code... | 85.5k | Code Quality & Review |
 | [Turn novels into AI short-drama production packets with shuohao-skills](skills/turn-novels-into-ai-short-drama-production-packets-with-shuohao-skills/) | Use shuohao-skills to have coding agents turn a source novel into character bibles, adaptation outlines, art bibles, screenplays... | 1.4k | Image & Creative Automation |
+| [Gate agent regressions from production traces with Tracely](skills/gate-agent-regressions-from-production-traces-with-tracely/) | Turn failing AI-agent production traces into hermetic regression cases and CI gates with Tracely | 643 | Monitoring & Alerts |
 | [Bridge local coding agents into chat apps with cc-connect](skills/bridge-local-coding-agents-into-chat-apps-with-cc-connect/) | Let operators control local Claude Code, Codex, Cursor, Gemini CLI, and other coding agents from Slack, Discord, Telegram... | 14.2k | Integrations & Connectors |
-| [Control Blender Scenes from MCP Agents with BlenderMCP](skills/control-blender-scenes-from-mcp-agents-with-blendermcp/) | Use BlenderMCP when an MCP-capable agent needs to inspect, create, and modify Blender scenes through a controlled Blender... | 25.6k | Integrations & Connectors |
 
 ---
 
@@ -131,7 +131,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 177 | Incident response, troubleshooting, system diagnostics |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 160 | Third-party API bridges, webhooks, service connectors |
-| 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 152 | Metrics, alerting rules, observability |
+| 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 153 | Metrics, alerting rules, observability |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 126 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 124 | SDK docs, API parsers, symbol resolvers |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 124 | Web research, content discovery, data collection |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,895 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,896 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,468 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
