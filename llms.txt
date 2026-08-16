@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-08-15
+# Generated: 2026-08-16
 # Total: 2895 skills
 
 ## Turn novels into AI short-drama production packets with shuohao-skills
