@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2896 published skills** across **17 categories** · 2,470 security reviewed · Updated 2026-08-16 13:26 UTC
+> **2898 published skills** across **17 categories** · 2,470 security reviewed · Updated 2026-08-16 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (433 skills)
+### 🛠️ Developer Tools (434 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -394,6 +394,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Give coding agents repo-local project memory with brain.md](skills/give-coding-agents-repo-local-project-memory-with-brain-md/) | Initialize and maintain a repo-native Markdown memory layer so coding agents preserve durable decisions,… | Security Reviewed | 438 | — |
 | [Orchestrate review-first multi-agent development work with Kandev](skills/orchestrate-review-first-multi-agent-development-work-with-kandev/) | Use Kandev when an operator needs to plan, run, isolate, review, and ship multiple coding-agent tasks through a… | Security Reviewed | 405 | 3.5k/wk |
 | [Build embeddable Rust coding agents with Cersei](skills/build-embeddable-rust-coding-agents-with-cersei/) | Compose coding-agent primitives in Rust, including tool execution, LLM streaming, sub-agent orchestration, memory,… | Security Reviewed | 400 | — |
+| [Audit and deploy cross-agent extensions with HarnessKit](skills/audit-and-deploy-cross-agent-extensions-with-harnesskit/) | Use HarnessKit to inventory, audit, enable, disable, and deploy skills, MCP servers, plugins, hooks, CLIs, configs,… | Security Reviewed | 396 | — |
 | [E2B Code Execution MCP](skills/e2b-code-execution-mcp/) | Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected… | Security Reviewed | 393 | 401/wk |
 | [Coordinate Terminal Coding Agents With hcom](skills/coordinate-terminal-coding-agents-with-hcom/) | Use hcom to launch, message, watch, fork, and coordinate multiple terminal coding agents across Claude Code, Codex,… | Security Reviewed | 393 | — |
 | [Index Codebases for Agent Search with Code Context Engine](skills/index-codebases-for-agent-search-with-code-context-engine/) | Use Code Context Engine to index a repository and expose token-efficient code search to Claude Code, Codex, Cursor,… | Security Reviewed | 383 | — |
@@ -1926,7 +1927,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (153 skills)
+### 📊 Monitoring & Alerts (154 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -2064,6 +2065,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Inspect Claude Code multi-agent runs with Agents Observe](skills/agents-observe-claude-code-observability/) | Gives Claude Code operators a live dashboard for multi-agent sessions, tool calls, file activity, and nested task… | Security Reviewed | 421 | — |
 | [Cronitor CLI for Cron Monitoring and Job Telemetry](skills/cronitor-cli-cron-monitoring-job-telemetry/) | CronitorCLI is Cronitor's open-source command-line tool for syncing cron jobs, sending telemetry pings, and wrapping… | Security Reviewed | 399 | — |
 | [Monitor coding-agent token spend with Splitrail](skills/monitor-coding-agent-token-spend-with-splitrail/) | Track token burn, spend, and model mix across multiple coding-agent tools from one local monitoring workflow. | Security Reviewed | 159 | — |
+| [Debug local LLM and agent traces with Axon](skills/debug-local-llm-and-agent-traces-with-axon/) | Run Axon as a local OpenTelemetry endpoint and dashboard for inspecting LangChain and instrumented agent traces… | Security Reviewed | 151 | 394/wk |
 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | Metrics Dashboard Builder is built around Datadog observability platform. The underlying ecosystem is represented by… | Security Reviewed | 103 | 2.6M/wk |
 | [Checkly Browser Check Failure Notifier](skills/checkly-browser-check-failure-notifier/) | Monitors Checkly browser checks via the Checkly Management API and notifies teams on Playwright test failures.… | Security Reviewed | 92 | 198.9k/wk |
 | [Checkly CLI Monitoring as Code for API and Browser Checks](skills/checkly-cli-monitoring-as-code-for-api-and-browser-checks/) | Checkly CLI lets agents define, test, and deploy synthetic monitoring from a JavaScript or TypeScript codebase. It… | Security Reviewed | 92 | 198.9k/wk |

@@ -1,10 +1,10 @@
 # Categories
 
-> **2896 skills** across **17 categories**
+> **2898 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
-| 🛠️ | [**Developer Tools**](developer-tools/) | **433** | CLI helpers, dev environment setup, productivity utilities, and devel... |
+| 🛠️ | [**Developer Tools**](developer-tools/) | **434** | CLI helpers, dev environment setup, productivity utilities, and devel... |
 | 🔒 | [**Security & Verification**](security-verification/) | **243** | Auth setup, vulnerability scanning, compliance checks, and security a... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **233** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **218** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
@@ -12,7 +12,7 @@
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **192** | Pipeline configs, deployment automation, build tooling, and continuou... |
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **177** | Incident response, troubleshooting guides, system diagnostics, and op... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **160** | Third-party API bridges, webhook handlers, service connectors, and pl... |
-| 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **153** | Metrics collection, alerting rules, observability setup, and system m... |
+| 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **154** | Metrics collection, alerting rules, observability setup, and system m... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **126** | Email automation, calendar management, task coordination, and product... |
 | 📚 | [**Library & API Reference**](library-api-reference/) | **124** | SDK documentation, API guides, framework reference material, and libr... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **124** | Web research, data collection, content aggregation, and information g... |

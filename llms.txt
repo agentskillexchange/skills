@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-16
-# Total: 2896 skills
+# Total: 2898 skills
+
+## Debug local LLM and agent traces with Axon
+slug: debug-local-llm-and-agent-traces-with-axon
+category: Monitoring & Alerts
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run Axon as a local OpenTelemetry endpoint and dashboard for inspecting LangChain and instrumented agent traces without sending run data to a cloud service.
+url: https://agentskillexchange.com/skills/debug-local-llm-and-agent-traces-with-axon/
+
+## Audit and deploy cross-agent extensions with HarnessKit
+slug: audit-and-deploy-cross-agent-extensions-with-harnesskit
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use HarnessKit to inventory, audit, enable, disable, and deploy skills, MCP servers, plugins, hooks, CLIs, configs, memory, and rules across multiple coding agents.
+url: https://agentskillexchange.com/skills/audit-and-deploy-cross-agent-extensions-with-harnesskit/
 
 ## Gate agent regressions from production traces with Tracely
 slug: gate-agent-regressions-from-production-traces-with-tracely

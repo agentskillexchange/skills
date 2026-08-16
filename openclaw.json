@@ -2,8 +2,30 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-16",
-  "total": 2896,
+  "total": 2898,
   "skills": [
+    {
+      "slug": "debug-local-llm-and-agent-traces-with-axon",
+      "name": "Debug local LLM and agent traces with Axon",
+      "title": "Debug local LLM and agent traces with Axon",
+      "description": "Run Axon as a local OpenTelemetry endpoint and dashboard for inspecting LangChain and instrumented agent traces without sending run data to a cloud service.",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/langchain-tracer/Axon",
+      "github_repo": "langchain-tracer/Axon"
+    },
+    {
+      "slug": "audit-and-deploy-cross-agent-extensions-with-harnesskit",
+      "name": "Audit and deploy cross-agent extensions with HarnessKit",
+      "title": "Audit and deploy cross-agent extensions with HarnessKit",
+      "description": "Use HarnessKit to inventory, audit, enable, disable, and deploy skills, MCP servers, plugins, hooks, CLIs, configs, memory, and rules across multiple coding agents.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/RealZST/HarnessKit",
+      "github_repo": "RealZST/HarnessKit"
+    },
     {
       "slug": "gate-agent-regressions-from-production-traces-with-tracely",
       "name": "Gate agent regressions from production traces with Tracely",
