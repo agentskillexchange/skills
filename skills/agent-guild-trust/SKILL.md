@@ -44,6 +44,10 @@ host's existing HTTP client:
 
 `GET https://agent-guild-5d5r.onrender.com/check?capability=<capability>`
 
+`/check` is a live metered operation and may return HTTP 402 with the current
+terms or payment challenge. Surface that response to the caller; do not treat
+it as a trust failure or silently retry a different endpoint.
+
 Accept the response only when it is valid JSON from that exact HTTPS origin.
 Report the `hire`, `caution`, or `avoid` verdict; recommended agent identifier;
 evidence depth; confidence; material caveats; exact endpoint; and observation
