@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-17",
-  "total": 2901,
+  "total": 2902,
   "skills": [
+    {
+      "slug": "run-shared-memory-agent-workspaces-across-codex-claude-code-and-mcp-with-holaos",
+      "name": "Run shared-memory agent workspaces across Codex, Claude Code, and MCP with holaOS",
+      "title": "Run shared-memory agent workspaces across Codex, Claude Code, and MCP with holaOS",
+      "description": "Coordinate multiple coding agents in one local-first workspace with shared memory, tools, files, browser access, and MCP-backed integrations.",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/holaboss-ai/holaOS",
+      "github_repo": "holaboss-ai/holaOS"
+    },
     {
       "slug": "zinc-universal-checkout",
       "name": "Zinc Universal Checkout",

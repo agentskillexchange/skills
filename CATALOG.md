@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2901 published skills** across **17 categories** · 2,471 security reviewed · Updated 2026-08-17 13:27 UTC
+> **2902 published skills** across **17 categories** · 2,471 security reviewed · Updated 2026-08-17 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1761,7 +1761,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (160 skills)
+### 🔗 Integrations & Connectors (161 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1809,6 +1809,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Control Unity Editor scenes and assets through MCP for Unity](skills/control-unity-editor-scenes-and-assets-through-mcp-for-unity/) | Connect MCP-compatible agents to Unity Editor so they can inspect scenes, manage assets, edit scripts, run tests,… | Security Reviewed | 10.6k | — |
 | [Build and inspect MCP apps and servers with mcp-use](skills/build-and-inspect-mcp-apps-and-servers-with-mcp-use/) | Use mcp-use to create, test, and package MCP servers or interactive MCP apps that work across agent clients. | Security Reviewed | 9.9k | 138.6k/wk |
 | [Bootstrap an OpenAPI spec from captured API traffic before client or test automation starts](skills/bootstrap-openapi-spec-from-captured-api-traffic-before-client-or-test-automation/) | Uses mitmproxy2swagger to turn captured mitmproxy flows or HAR exports into a first-pass OpenAPI document that an… | Security Reviewed | 9.3k | — |
+| [Run shared-memory agent workspaces across Codex, Claude Code, and MCP with holaOS](skills/run-shared-memory-agent-workspaces-across-codex-claude-code-and-mcp-with-holaos/) | Coordinate multiple coding agents in one local-first workspace with shared memory, tools, files, browser access, and… | Security Reviewed | 9.1k | — |
 | [Build Go MCP servers with MCP Go](skills/build-go-mcp-servers-with-mcp-go/) | Use MCP Go to implement typed Model Context Protocol servers in Go that expose tools, resources, prompts, and… | Security Reviewed | 8.8k | — |
 | [AWS MCP Servers for Cloud Service Integration](skills/aws-mcp-servers-cloud-service-integration/) | The official AWS Labs MCP server collection provides AI agents with structured access to AWS documentation, service… | Security Reviewed | 8.6k | — |
 | [Papermark Open Source Document Sharing Platform with Analytics](skills/papermark-document-sharing-analytics/) | Papermark is an open-source alternative to DocSend for secure document sharing with built-in page-by-page analytics,… | Security Reviewed | 8.2k | — |

@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C901-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C902-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C471-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,901 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,902 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Run shared-memory agent workspaces across Codex, Claude Code, and MCP with holaOS](skills/run-shared-memory-agent-workspaces-across-codex-claude-code-and-mcp-with-holaos/) | Coordinate multiple coding agents in one local-first workspace with shared memory, tools, files, browser access, and MCP-backed integrations | 9.1k | Integrations & Connectors |
 | [Zinc Universal Checkout](skills/zinc-universal-checkout/) | Discover, buy, track, and return products across Amazon, Walmart, Target, Best Buy, eBay, and 50+ US retailers via... | - | Developer Tools |
 | [HTML Docs](skills/html-docs/) | Turns folders, codebases, websites, PDFs, documents, and research topics into source-grounded HTML documents, deterministic narrated videos, or complete... | - | Content Writing & SEO |
 | [Check Agent Counterparty Trust with Agent Guild](skills/agent-guild-trust/) | Checks evidence about an unfamiliar autonomous agent before delegation, verifies signed Agent Guild passports, and returns a bounded... | - | Security & Verification |
@@ -96,7 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Turn novels into AI short-drama production packets with shuohao-skills](skills/turn-novels-into-ai-short-drama-production-packets-with-shuohao-skills/) | Use shuohao-skills to have coding agents turn a source novel into character bibles, adaptation outlines, art bibles, screenplays... | 1.4k | Image & Creative Automation |
 | [Run long-horizon computer-use agent loops with LongHorizon-Harness](skills/run-long-horizon-computer-use-agent-loops-with-longhorizon-harness/) | Use LongHorizon-Harness to keep Claude Code, Codex, DeepSeek Harness, or custom agent backends working through long GUI and... | 714 | Developer Tools |
 | [Run DeepSeek Harness agent sessions from a Claude Code-style terminal TUI](skills/run-deepseek-harness-agent-sessions-from-a-claude-code-style-terminal-tui/) | Use dsh-cc-tui to run DeepSeek Harness coding-agent sessions from a full-screen terminal with live activity, context meters, session... | 558 | Developer Tools |
-| [Clean Chinese AI-sounding writing with Shuorenhua](skills/clean-chinese-ai-sounding-writing-with-shuorenhua/) | Rewrite Chinese-first chat, status, docs, and public-writing drafts to remove AI-like phrasing while preserving facts, commands, numbers, terms... | 1.1k | Content Writing & SEO |
 
 ---
 
@@ -106,16 +106,16 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
-| [Build Persistent Codebase Context Graphs with Graft](skills/build-persistent-codebase-context-graphs-with-graft/) | Build and maintain a repository-local context graph so coding agents can orient inside large codebases without rediscovering the... | 2.1k | Developer Tools |
 | [Run open-source terminal coding workflows with Qwen Code](skills/run-open-source-terminal-coding-workflows-with-qwen-code/) | Use Qwen Code as a repeatable terminal coding agent: install the CLI, authenticate a provider, run interactive or... | 26.6k | Developer Tools |
+| [Build Persistent Codebase Context Graphs with Graft](skills/build-persistent-codebase-context-graphs-with-graft/) | Build and maintain a repository-local context graph so coding agents can orient inside large codebases without rediscovering the... | 2.1k | Developer Tools |
 | [Enforce Coding-Agent Write and Shell Policies with Probity](skills/enforce-coding-agent-write-and-shell-policies-with-probity/) | Use Probity when Claude Code, Codex, or GitHub Copilot CLI should be blocked from unsafe file writes or... | 162 | Security & Verification |
 | [Block Risky Coding-Agent Commands with CC Safety Net](skills/block-risky-coding-agent-commands-with-cc-safety-net/) | Use CC Safety Net when coding-agent CLIs need pre-execution hooks that block destructive commands, secret access, and unsafe... | 1.5k | Security & Verification |
 | [Install Chinese-localized Superpowers workflows for coding agents](skills/install-chinese-localized-superpowers-workflows-for-coding-agents/) | Use superpowers-zh to install Chinese-localized coding-agent methods, China-specific development skills, and cross-tool setup for Claude Code, Codex, Cursor... | 7.2k | Templates & Workflows |
 | [Debug local LLM and agent traces with Axon](skills/debug-local-llm-and-agent-traces-with-axon/) | Run Axon as a local OpenTelemetry endpoint and dashboard for inspecting LangChain and instrumented agent traces without sending... | 151 | Monitoring & Alerts |
+| [Run shared-memory agent workspaces across Codex, Claude Code, and MCP with holaOS](skills/run-shared-memory-agent-workspaces-across-codex-claude-code-and-mcp-with-holaos/) | Coordinate multiple coding agents in one local-first workspace with shared memory, tools, files, browser access, and MCP-backed integrations | 9.1k | Integrations & Connectors |
 | [Audit coding-agent token spend with CodeBurn](skills/audit-coding-agent-token-spend-with-codeburn/) | Run CodeBurn locally or as an MCP server so agents can inspect token usage, cost, model mix, project... | 8.7k | Monitoring & Alerts |
 | [Keep coding agents from over-building implementations with Ponytail](skills/keep-coding-agents-from-over-building-implementations-with-ponytail/) | Ponytail gives coding agents a portable minimal-implementation ruleset, plugin hooks, and review commands so they reuse existing code... | 85.5k | Code Quality & Review |
 | [Turn novels into AI short-drama production packets with shuohao-skills](skills/turn-novels-into-ai-short-drama-production-packets-with-shuohao-skills/) | Use shuohao-skills to have coding agents turn a source novel into character bibles, adaptation outlines, art bibles, screenplays... | 1.4k | Image & Creative Automation |
-| [Bridge local coding agents into chat apps with cc-connect](skills/bridge-local-coding-agents-into-chat-apps-with-cc-connect/) | Let operators control local Claude Code, Codex, Cursor, Gemini CLI, and other coding agents from Slack, Discord, Telegram... | 14.2k | Integrations & Connectors |
 
 ---
 
@@ -130,7 +130,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 198 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 177 | Incident response, troubleshooting, system diagnostics |
-| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 160 | Third-party API bridges, webhooks, service connectors |
+| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 161 | Third-party API bridges, webhooks, service connectors |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 154 | Metrics, alerting rules, observability |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 126 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 124 | SDK docs, API parsers, symbol resolvers |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,901 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,902 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,471 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

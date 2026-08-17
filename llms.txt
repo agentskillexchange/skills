@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-17
-# Total: 2901 skills
+# Total: 2902 skills
+
+## Run shared-memory agent workspaces across Codex, Claude Code, and MCP with holaOS
+slug: run-shared-memory-agent-workspaces-across-codex-claude-code-and-mcp-with-holaos
+category: Integrations & Connectors
+framework: Multi-Framework
+verification: Security Reviewed
+description: Coordinate multiple coding agents in one local-first workspace with shared memory, tools, files, browser access, and MCP-backed integrations.
+url: https://agentskillexchange.com/skills/run-shared-memory-agent-workspaces-across-codex-claude-code-and-mcp-with-holaos/
 
 ## Zinc Universal Checkout
 slug: zinc-universal-checkout

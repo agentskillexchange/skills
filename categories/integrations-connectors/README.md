@@ -82,6 +82,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Control Unity Editor scenes and assets through MCP for Unity](../../skills/control-unity-editor-scenes-and-assets-through-mcp-for-unity/) | 10.6k | — |
 | [Build and inspect MCP apps and servers with mcp-use](../../skills/build-and-inspect-mcp-apps-and-servers-with-mcp-use/) | 9.9k | 138.6k/wk |
 | [Bootstrap an OpenAPI spec from captured API traffic before client or test automation starts](../../skills/bootstrap-openapi-spec-from-captured-api-traffic-before-client-or-test-automation/) | 9.3k | — |
+| [Run shared-memory agent workspaces across Codex, Claude Code, and MCP with holaOS](../../skills/run-shared-memory-agent-workspaces-across-codex-claude-code-and-mcp-with-holaos/) | 9.1k | — |
 | [Build Go MCP servers with MCP Go](../../skills/build-go-mcp-servers-with-mcp-go/) | 8.8k | — |
 | [AWS MCP Servers for Cloud Service Integration](../../skills/aws-mcp-servers-cloud-service-integration/) | 8.6k | — |
 | [Papermark Open Source Document Sharing Platform with Analytics](../../skills/papermark-document-sharing-analytics/) | 8.2k | — |
