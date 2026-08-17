@@ -2,10 +2,10 @@
 name: "Zinc Universal Checkout"
 slug: "zinc-universal-checkout"
 description: "Discover, buy, track, and return products across Amazon, Walmart, Target, Best Buy, eBay, and 50+ US retailers via the Zinc API (zinc.com). Use when the user wants to search for or buy a product, check out, check order status or tracking, cancel an order, or return an item."
+verification: "listed"
+source: "https://github.com/zincio/skills/tree/master/skills/universal-checkout"
 category: "Developer Tools"
 framework: "Claude Code"
-verification: listed
-source: "https://github.com/zincio/skills/tree/master/skills/universal-checkout"
 ---
 
 # Zinc Universal Checkout
@@ -42,27 +42,7 @@ Per-retailer skills also exist (`amazon-checkout`, `walmart-checkout`, `target-c
 
 ## Installation
 
-### OpenClaw
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-```bash
-clawhub install zinc-universal-checkout
-```
+- Source: https://github.com/zincio/skills/tree/master/skills/universal-checkout
 
-### Direct repo/manual install
-
-Clone the Agent Skill Exchange repository and copy this skill directory into the skill folder used by your agent runtime:
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git
-cp -R skills/skills/zinc-universal-checkout ~/.agent-skills/zinc-universal-checkout
-```
-
-### Optional Third-Party Installer
-
-If you choose to use it, pin the package version:
-
-The skills package is maintained by Vercel Labs / third parties, not AgentSkillExchange.
-
-```bash
-npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill zinc-universal-checkout
-```
