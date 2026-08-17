@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-08-16
+# Generated: 2026-08-17
 # Total: 2898 skills
 
 ## Debug local LLM and agent traces with Axon
