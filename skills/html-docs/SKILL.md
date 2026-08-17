@@ -2,15 +2,10 @@
 name: "HTML Docs"
 slug: "html-docs"
 description: "Turns folders, codebases, websites, PDFs, documents, and research topics into source-grounded HTML documents, deterministic narrated videos, or complete learning courses; also publishes and revises collaborative HTML pages through the HTML Docs CLI, REST API, and MCP server."
+verification: "listed"
+source: "https://github.com/raunaqbn/html-docs-skill/tree/main/html-docs"
 category: "Content Writing & SEO"
 framework: "Multi-Framework"
-verification: listed
-source: "https://github.com/raunaqbn/html-docs-skill/tree/main/html-docs"
-tool_ecosystem:
-  github_repo: "raunaqbn/html-docs-skill"
-  npm_package: "@html-docs/cli"
-  license: "MIT"
-  maintained: true
 ---
 
 # HTML Docs
@@ -31,26 +26,7 @@ provider credentials and authored source projects stay local.
 
 ## Installation
 
-Install the canonical upstream skill in Codex or Claude Code with the pinned
-third-party `skills` installer:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-```bash
-npm exec --package=skills@1.5.7 -- skills add raunaqbn/html-docs-skill --skill html-docs -g
-```
+- Source: https://github.com/raunaqbn/html-docs-skill/tree/main/html-docs
 
-Or clone the MIT-licensed source and copy the skill directory into the skill
-folder used by your agent runtime:
-
-```bash
-git clone https://github.com/raunaqbn/html-docs-skill.git
-cp -R html-docs-skill/html-docs ~/.agent-skills/html-docs
-```
-
-Publish a standalone HTML page without installing the skill:
-
-```bash
-npx @html-docs/cli@0.7.0 publish page.html
-```
-
-The public agent guide documents Codex, Claude Code, MCP, CLI, and REST API
-workflows: https://www.html-docs.com/agents

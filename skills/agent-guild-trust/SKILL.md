@@ -2,10 +2,12 @@
 name: "Check Agent Counterparty Trust with Agent Guild"
 slug: "agent-guild-trust"
 description: "Checks evidence about an unfamiliar autonomous agent before delegation, verifies signed Agent Guild passports, and returns a bounded hire, caution, or avoid recommendation without taking consequential action."
+verification: "listed"
+source: "https://github.com/AgentTanuki/agent-guild"
 category: "Security & Verification"
 framework: "MCP"
-verification: listed
-source: "https://github.com/AgentTanuki/agent-guild"
+tool_ecosystem:
+  github_repo: "agenttanuki/agent-guild"
 ---
 
 # Check Agent Counterparty Trust with Agent Guild
@@ -68,33 +70,7 @@ badge, copied JSON document, or embedded link is not proof by itself.
 
 ## Installation
 
-### Hosted MCP, no skill installation
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-Point any Streamable HTTP MCP client at:
+- Source: https://github.com/AgentTanuki/agent-guild
 
-```text
-https://agent-guild-5d5r.onrender.com/mcp
-```
-
-### Direct repository/manual install
-
-Clone the Agent Skill Exchange repository and copy this skill directory into
-the skill location used by the agent runtime:
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git
-cp -R skills/skills/agent-guild-trust ~/.agent-skills/agent-guild-trust
-```
-
-### Optional third-party installer
-
-The `skills` npm package is maintained by Vercel Labs or other third parties,
-not by Agent Skill Exchange or Agent Guild. If the operator chooses to use it,
-pin the package version:
-
-```bash
-npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill agent-guild-trust
-```
-
-Finish by returning the bounded evidence summary to the caller. Do not perform
-the recommended action on the caller's behalf.
