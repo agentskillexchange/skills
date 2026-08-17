@@ -474,6 +474,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Unified AI System Gateway](../../skills/unified-ai-gateway/) | — | — |
 | [VS Code Extension Debugger](../../skills/vscode-extension-debugger-dap-protocol/) | — | — |
 | [VS Code Extension Scaffolder](../../skills/vscode-extension-scaffolder-agent/) | — | — |
+| [Zinc Universal Checkout](../../skills/zinc-universal-checkout/) | — | — |
 
 ---
 

@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-17",
-  "total": 2900,
+  "total": 2901,
   "skills": [
+    {
+      "slug": "zinc-universal-checkout",
+      "name": "Zinc Universal Checkout",
+      "title": "Zinc Universal Checkout",
+      "description": "Discover, buy, track, and return products across Amazon, Walmart, Target, Best Buy, eBay, and 50+ US retailers via the Zinc API (zinc.com). Use when…",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "listed",
+      "source_url": "https://github.com/zincio/skills/tree/master/skills/universal-checkout",
+      "github_repo": "zincio/skills"
+    },
     {
       "slug": "html-docs",
       "name": "HTML Docs",

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2900 published skills** across **17 categories** · 2,470 security reviewed · Updated 2026-08-17 07:27 UTC
+> **2901 published skills** across **17 categories** · 2,470 security reviewed · Updated 2026-08-17 13:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (434 skills)
+### 🛠️ Developer Tools (435 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -448,6 +448,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Unified AI System Gateway](skills/unified-ai-gateway/) | Turn plain-language requests into structured, reviewable prompts and inspect a self-hosted MCP gateway with… | Published | — | — |
 | [VS Code Extension Debugger](skills/vscode-extension-debugger-dap-protocol/) | Debugs VS Code extensions using the Debug Adapter Protocol (DAP) with breakpoint management and variable inspection.… | Security Reviewed | — | — |
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
+| [Zinc Universal Checkout](skills/zinc-universal-checkout/) | Discover, buy, track, and return products across Amazon, Walmart, Target, Best Buy, eBay, and 50+ US retailers via… | Published | — | — |
 
 
 ### 🔒 Security & Verification (244 skills)

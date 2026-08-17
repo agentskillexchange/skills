@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-17
-# Total: 2900 skills
+# Total: 2901 skills
+
+## Zinc Universal Checkout
+slug: zinc-universal-checkout
+category: Developer Tools
+framework: Claude Code
+verification: Published
+description: Discover, buy, track, and return products across Amazon, Walmart, Target, Best Buy, eBay, and 50+ US retailers via the Zinc API (zinc.com). Use when…
+url: https://agentskillexchange.com/skills/zinc-universal-checkout/
 
 ## HTML Docs
 slug: html-docs
