@@ -66,4 +66,3 @@ The skills package is maintained by Vercel Labs / third parties, not AgentSkillE
 ```bash
 npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill zinc-universal-checkout
 ```
-
