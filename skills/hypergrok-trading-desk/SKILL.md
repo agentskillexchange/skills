@@ -6,10 +6,10 @@ category: "Integrations & Connectors"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/galleonlabs/hypergrok-trading-desk"
-github_stars: 2
+github_stars: 1
 tool_ecosystem:
   github_repo: "galleonlabs/hypergrok-trading-desk"
-  github_stars: 2
+  github_stars: 1
   license: "MIT"
   maintained: true
 ---
@@ -19,8 +19,6 @@ tool_ecosystem:
 HyperGrok is an open-source Agent Plugin that turns an agent workspace into a seven-role Hyperliquid trading desk. It ships sixteen portable `SKILL.md` skills and seven role prompts. The desk is documentation and instructions, not a hosted bot.
 
 Use this skill when you want research, risk, ticketed execution, and review as separate seats on Hyperliquid perpetual markets.
-
-## What it includes
 
 **Roles:** Desk Lead, Market Analyst, Research Analyst, Strategist, Risk Manager, Execution Trader, Trade Reviewer.
 
@@ -32,10 +30,39 @@ Every trade follows the same path: idea → evidence → risk sign-off → your 
 
 ## Installation
 
-### Direct repo
+### OpenClaw
 
 ```bash
-npx skills add galleonlabs/hypergrok-trading-desk
+clawhub install hypergrok-trading-desk
+```
+
+### Direct repo/manual install
+
+Clone the Agent Skill Exchange repository and copy this skill directory into the skill folder used by your agent runtime:
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git
+cp -R skills/skills/hypergrok-trading-desk ~/.agent-skills/hypergrok-trading-desk
+```
+
+The full sixteen-skill desk also lives upstream:
+
+```bash
+git clone https://github.com/galleonlabs/hypergrok-trading-desk.git
+```
+
+### Optional Third-Party Installer
+
+The `skills` npm package is maintained by Vercel Labs / third parties, not AgentSkillExchange. If you choose to use it, pin the package version:
+
+```bash
+npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill hypergrok-trading-desk
+```
+
+Upstream pack install:
+
+```bash
+npm exec --package=skills@1.5.7 -- skills add galleonlabs/hypergrok-trading-desk
 ```
 
 ### Claude Code marketplace
@@ -50,10 +77,6 @@ claude plugin install hypergrok@hypergrok
 ```bash
 hermes plugins install galleonlabs/hypergrok-trading-desk
 ```
-
-### OpenClaw / ClawHub
-
-Skills are published under the `galleonlabs` publisher as `hypergrok-*` slugs (for example `hypergrok-desk-operating-model`).
 
 ### Grok Bot
 
