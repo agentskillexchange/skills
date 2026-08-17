@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2898 published skills** across **17 categories** · 2,470 security reviewed · Updated 2026-08-17 01:26 UTC
+> **2900 published skills** across **17 categories** · 2,470 security reviewed · Updated 2026-08-17 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -450,7 +450,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
 
 
-### 🔒 Security & Verification (243 skills)
+### 🔒 Security & Verification (244 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -684,6 +684,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Audit OpenClaw host security posture and hardening gaps](skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | This skill uses OpenClaw's healthcheck workflow to inspect the host running the assistant, surface risky exposure,… | Security Reviewed | — | 837.2k/wk |
 | [Emit policy receipts for hard-rule agent skills with Pluribus](skills/emit-policy-receipts-for-hard-rule-agent-skills-with-pluribus/) | Uses the Pluribus skill-policy receipt recipe to make hard agent-skill rules auditable before and after writes. Best… | Published | — | 1.3k/wk |
 | [Audit and normalize SPDX license headers before releasing or open-sourcing a repository](skills/audit-and-normalize-spdx-license-headers-before-releasing-or-open-sourcing-a-repository/) | Use REUSE when an agent needs file-level licensing clarity instead of guessing from a single top-level LICENSE file.… | Security Reviewed | — | — |
+| [Check Agent Counterparty Trust with Agent Guild](skills/agent-guild-trust/) | Checks evidence about an unfamiliar autonomous agent before delegation, verifies signed Agent Guild passports, and… | Published | — | — |
 | [CloudTrail Anomaly Detection Agent](skills/cloudtrail-anomaly-detection-agent/) | Analyzes AWS CloudTrail event logs via the Lookup Events API to detect anomalous IAM activity. Uses statistical… | Security Reviewed | — | — |
 | [DocuSign Contract Auto-Sender with Conditional Logic](skills/docusign-contract-auto-sender/) | Uses the DocuSign eSignature REST API SDK to programmatically create envelope definitions with conditional routing… | Published | — | — |
 | [GPG Encryption and Key Management Agent](skills/gpg-encryption-key-management-agent/) | Manages GPG key lifecycle and file encryption operations using GnuPG CLI and GPGME library. Handles keyserver… | Security Reviewed | — | — |
@@ -2947,7 +2948,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized… | Security Reviewed | — | — |
 
 
-### ✍️ Content Writing & SEO (88 skills)
+### ✍️ Content Writing & SEO (89 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
 
@@ -3020,6 +3021,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [Google Search Console Insights Agent](skills/gsc-insights-agent/) | Extracts search performance data via the Google Search Console API v1 /searchAnalytics/query endpoint. Analyzes CTR,… | Security Reviewed | — | — |
 | [Google Search Console Performance Analyzer](skills/gsc-performance-analyzer-skill/) | Pulls search analytics from Google Search Console's /searchanalytics/query API to identify declining pages and… | Security Reviewed | — | — |
 | [Hemingway Readability Analyzer API](skills/hemingway-readability-analyzer-api/) | Scores content readability using textstat library metrics (Flesch-Kincaid, Gunning Fog, SMOG, Coleman-Liau).… | Security Reviewed | — | — |
+| [HTML Docs](skills/html-docs/) | Turns folders, codebases, websites, PDFs, documents, and research topics into source-grounded HTML documents,… | Published | — | — |
 | [Internal Link Builder](skills/internal-link-builder-seo-agent/) | Analyzes site content graph using Screaming Frog SEO Spider API and builds internal linking recommendations.… | Security Reviewed | — | — |
 | [Internal Link Graph Optimizer](skills/internal-link-graph-optimizer/) | Analyzes internal linking structure by crawling sitemaps with Screaming Frog or Sitebulb, computing PageRank… | Security Reviewed | — | — |
 | [Internal Link Optimizer](skills/internal-link-optimizer-seo/) | Optimizes internal linking structure using Screaming Frog SEO Spider XML exports and NetworkX graph analysis.… | Published | — | — |

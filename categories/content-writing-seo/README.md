@@ -107,6 +107,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Google Search Console Insights Agent](../../skills/gsc-insights-agent/) | — | — |
 | [Google Search Console Performance Analyzer](../../skills/gsc-performance-analyzer-skill/) | — | — |
 | [Hemingway Readability Analyzer API](../../skills/hemingway-readability-analyzer-api/) | — | — |
+| [HTML Docs](../../skills/html-docs/) | — | — |
 | [Internal Link Builder](../../skills/internal-link-builder-seo-agent/) | — | — |
 | [Internal Link Graph Optimizer](../../skills/internal-link-graph-optimizer/) | — | — |
 | [Internal Link Optimizer](../../skills/internal-link-optimizer-seo/) | — | — |

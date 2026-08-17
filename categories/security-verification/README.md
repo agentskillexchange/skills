@@ -268,6 +268,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Audit OpenClaw host security posture and hardening gaps](../../skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | — | 837.2k/wk |
 | [Emit policy receipts for hard-rule agent skills with Pluribus](../../skills/emit-policy-receipts-for-hard-rule-agent-skills-with-pluribus/) | — | 1.3k/wk |
 | [Audit and normalize SPDX license headers before releasing or open-sourcing a repository](../../skills/audit-and-normalize-spdx-license-headers-before-releasing-or-open-sourcing-a-repository/) | — | — |
+| [Check Agent Counterparty Trust with Agent Guild](../../skills/agent-guild-trust/) | — | — |
 | [CloudTrail Anomaly Detection Agent](../../skills/cloudtrail-anomaly-detection-agent/) | — | — |
 | [DocuSign Contract Auto-Sender with Conditional Logic](../../skills/docusign-contract-auto-sender/) | — | — |
 | [GPG Encryption and Key Management Agent](../../skills/gpg-encryption-key-management-agent/) | — | — |

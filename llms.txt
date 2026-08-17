@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-17
-# Total: 2898 skills
+# Total: 2900 skills
+
+## HTML Docs
+slug: html-docs
+category: Content Writing & SEO
+framework: Multi-Framework
+verification: Published
+description: Turns folders, codebases, websites, PDFs, documents, and research topics into source-grounded HTML documents, deterministic narrated videos, or complete learning courses; also publishes and revises…
+url: https://agentskillexchange.com/skills/html-docs/
+
+## Check Agent Counterparty Trust with Agent Guild
+slug: agent-guild-trust
+category: Security & Verification
+framework: MCP
+verification: Published
+description: Checks evidence about an unfamiliar autonomous agent before delegation, verifies signed Agent Guild passports, and returns a bounded hire, caution, or avoid recommendation without…
+url: https://agentskillexchange.com/skills/agent-guild-trust/
 
 ## Debug local LLM and agent traces with Axon
 slug: debug-local-llm-and-agent-traces-with-axon

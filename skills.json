@@ -1,8 +1,30 @@
 {
   "version": "2.0",
-  "total": 2898,
+  "total": 2900,
   "generated": "2026-08-17",
   "skills": [
+    {
+      "slug": "html-docs",
+      "name": "HTML Docs",
+      "title": "HTML Docs",
+      "description": "Turns folders, codebases, websites, PDFs, documents, and research topics into source-grounded HTML documents, deterministic narrated videos, or complete learning courses; also publishes and revises…",
+      "category": "Content Writing & SEO",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/raunaqbn/html-docs-skill/tree/main/html-docs",
+      "github_repo": "raunaqbn/html-docs-skill"
+    },
+    {
+      "slug": "agent-guild-trust",
+      "name": "Check Agent Counterparty Trust with Agent Guild",
+      "title": "Check Agent Counterparty Trust with Agent Guild",
+      "description": "Checks evidence about an unfamiliar autonomous agent before delegation, verifies signed Agent Guild passports, and returns a bounded hire, caution, or avoid recommendation without…",
+      "category": "Security & Verification",
+      "framework": "MCP",
+      "verification": "listed",
+      "source_url": "https://github.com/AgentTanuki/agent-guild",
+      "github_repo": "agenttanuki/agent-guild"
+    },
     {
       "slug": "debug-local-llm-and-agent-traces-with-axon",
       "name": "Debug local LLM and agent traces with Axon",
