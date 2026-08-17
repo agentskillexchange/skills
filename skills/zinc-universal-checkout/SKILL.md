@@ -5,7 +5,7 @@ description: "Discover, buy, track, and return products across Amazon, Walmart, 
 category: "Developer Tools"
 framework: "Claude Code"
 verification: listed
-source: "https://github.com/zincio/skills"
+source: "https://github.com/zincio/skills/tree/master/skills/universal-checkout"
 ---
 
 # Zinc Universal Checkout
@@ -30,7 +30,7 @@ Always confirm with the user before placing an order or opening a return — bot
 The canonical catalog is [zincio/skills](https://github.com/zincio/skills). For general shopping across retailers, install the upstream skill:
 
 ```bash
-npx skills add zincio/skills --skill universal-checkout
+npm exec --package=skills@1.5.7 -- skills add zincio/skills --skill universal-checkout
 ```
 
 Per-retailer skills also exist (`amazon-checkout`, `walmart-checkout`, `target-checkout`, `bestbuy-checkout`, `ebay-checkout`, and others). Use those only when the agent should buy from a single store. Do not stack several near-identical retailer skills — overlapping descriptions make triggering ambiguous. Prefer `universal-checkout` when buying across stores.
@@ -64,6 +64,6 @@ If you choose to use it, pin the package version:
 The skills package is maintained by Vercel Labs / third parties, not AgentSkillExchange.
 
 ```bash
-npx skills add agentskillexchange/skills --skill zinc-universal-checkout
+npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill zinc-universal-checkout
 ```
 
