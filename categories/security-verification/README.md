@@ -165,6 +165,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Audit GitHub Actions for privilege and supply-chain risks with zizmor](../../skills/audit-github-actions-for-privilege-and-supply-chain-risks-with-zizmor/) | 4.2k | — |
 | [Audit SSH servers and clients for weak algorithms and risky config drift with ssh-audit](../../skills/audit-ssh-servers-and-clients-for-weak-algorithms-and-risky-config-drift-with-ssh-audit/) | 4.2k | — |
 | [Audit GitHub Actions workflows for insecure permissions and unpinned actions](../../skills/audit-github-actions-workflows-for-insecure-permissions-and-unpinned-actions/) | 4.1k | — |
+| [Coordinate agent-to-agent commerce agreements with Internet Court](../../skills/coordinate-agent-to-agent-commerce-agreements-with-internet-court/) | 3.8k | — |
 | [SSL Certificate Auditor](../../skills/ssl-certificate-auditor-agent/) | 3.8k | — |
 | [AWS CloudTrail Log Normalizer](../../skills/aws-cloudtrail-log-normalizer/) | 3.6k | — |
 | [AWS IAM Privilege Escalation Audit](../../skills/aws-iam-privilege-escalation-audit/) | 3.6k | — |

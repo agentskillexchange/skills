@@ -205,6 +205,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Prepare Evidence-Backed Open Source Contribution Proposals with ContribAI](../../skills/prepare-evidence-backed-open-source-contribution-proposals-with-contribai/) | 246 | — |
 | [Run focused accessibility review agents against coding-tool output with Accessibility Agents](../../skills/run-focused-accessibility-review-agents-with-accessibility-agents/) | 235 | — |
 | [Validate Python Docstrings Against Function Signatures with pydoclint](../../skills/validate-python-docstrings-against-function-signatures-with-pydoclint/) | 208 | — |
+| [Run independent multi-agent build and review flows with OPC](../../skills/run-independent-multi-agent-build-and-review-flows-with-opc/) | 192 | 315/wk |
 | [Lint reStructuredText docs and release notes before Sphinx publishing with doc8](../../skills/lint-restructuredtext-docs-and-release-notes-before-sphinx-publishing-with-doc8/) | 176 | — |
 | [Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed](../../skills/catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed/) | 143 | 234.6k/wk |
 | [Run multi-agent code review rounds with structured reviewer discourse before human approval](../../skills/run-multi-agent-code-review-rounds-with-structured-reviewer-discourse-before-human-approval/) | 131 | 1.1k/wk |

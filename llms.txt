@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-18
-# Total: 2903 skills
+# Total: 2905 skills
+
+## Run independent multi-agent build and review flows with OPC
+slug: run-independent-multi-agent-build-and-review-flows-with-opc
+category: Code Quality & Review
+framework: Claude Code
+verification: Security Reviewed
+description: Use OPC as a Claude Code skill to select a task flow, dispatch specialist roles, enforce independent review, and gate builds, audits, and release…
+url: https://agentskillexchange.com/skills/run-independent-multi-agent-build-and-review-flows-with-opc/
+
+## Coordinate agent-to-agent commerce agreements with Internet Court
+slug: coordinate-agent-to-agent-commerce-agreements-with-internet-court
+category: Security & Verification
+framework: Claude Code
+verification: Security Reviewed
+description: Route identity, negotiation, delegated permissions, x402 payments, escrow, execution, and dispute review through one Claude Code skill for agent commerce deals.
+url: https://agentskillexchange.com/skills/coordinate-agent-to-agent-commerce-agreements-with-internet-court/
 
 ## Retrieve exact documentation sections for agents with jDocMunch MCP
 slug: retrieve-exact-documentation-sections-for-agents-with-jdocmunch-mcp

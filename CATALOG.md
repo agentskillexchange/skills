@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2903 published skills** across **17 categories** · 2,474 security reviewed · Updated 2026-08-18 07:26 UTC
+> **2905 published skills** across **17 categories** · 2,474 security reviewed · Updated 2026-08-18 13:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -451,7 +451,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Zinc Universal Checkout](skills/zinc-universal-checkout/) | Discover, buy, track, and return products across Amazon, Walmart, Target, Best Buy, eBay, and 50+ US retailers via… | Published | — | — |
 
 
-### 🔒 Security & Verification (244 skills)
+### 🔒 Security & Verification (245 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -582,6 +582,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Audit GitHub Actions for privilege and supply-chain risks with zizmor](skills/audit-github-actions-for-privilege-and-supply-chain-risks-with-zizmor/) | Run a focused security pass on GitHub Actions workflows before merge so token misuse, dangerous permissions, and… | Security Reviewed | 4.2k | — |
 | [Audit SSH servers and clients for weak algorithms and risky config drift with ssh-audit](skills/audit-ssh-servers-and-clients-for-weak-algorithms-and-risky-config-drift-with-ssh-audit/) | Inspect an SSH endpoint or config for outdated ciphers, key exchange choices, and hardening gaps before exposure or… | Security Reviewed | 4.2k | — |
 | [Audit GitHub Actions workflows for insecure permissions and unpinned actions](skills/audit-github-actions-workflows-for-insecure-permissions-and-unpinned-actions/) | This ASE skill uses zizmor to audit GitHub Actions workflows and composite actions for security mistakes before they… | Security Reviewed | 4.1k | — |
+| [Coordinate agent-to-agent commerce agreements with Internet Court](skills/coordinate-agent-to-agent-commerce-agreements-with-internet-court/) | Route identity, negotiation, delegated permissions, x402 payments, escrow, execution, and dispute review through one… | Security Reviewed | 3.8k | — |
 | [SSL Certificate Auditor](skills/ssl-certificate-auditor-agent/) | Audits TLS/SSL configurations using sslyze Python library and SSL Labs API v3. Checks certificate chain validity,… | Security Reviewed | 3.8k | — |
 | [AWS CloudTrail Log Normalizer](skills/aws-cloudtrail-log-normalizer/) | Normalizes and enriches AWS CloudTrail JSON logs into OCSF (Open Cybersecurity Schema Framework) format. Maps… | Security Reviewed | 3.6k | — |
 | [AWS IAM Privilege Escalation Audit](skills/aws-iam-privilege-escalation-audit/) | Uses boto3 and the AWS IAM Access Analyzer API to enumerate all roles, policies, and users, then flags permission… | Security Reviewed | 3.6k | — |
@@ -1171,7 +1172,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (198 skills)
+### ✅ Code Quality & Review (199 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1342,6 +1343,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Prepare Evidence-Backed Open Source Contribution Proposals with ContribAI](skills/prepare-evidence-backed-open-source-contribution-proposals-with-contribai/) | Use ContribAI when an agent should analyze a repository, respect maintainer consent, and prepare bounded draft… | Published | 246 | — |
 | [Run focused accessibility review agents against coding-tool output with Accessibility Agents](skills/run-focused-accessibility-review-agents-with-accessibility-agents/) | Dispatch specialized WCAG review agents to inspect code or content before inaccessible patterns ship. | Published | 235 | — |
 | [Validate Python Docstrings Against Function Signatures with pydoclint](skills/validate-python-docstrings-against-function-signatures-with-pydoclint/) | Check that Python docstrings stay consistent with parameters, returns, and raised exceptions as code evolves. | Security Reviewed | 208 | — |
+| [Run independent multi-agent build and review flows with OPC](skills/run-independent-multi-agent-build-and-review-flows-with-opc/) | Use OPC as a Claude Code skill to select a task flow, dispatch specialist roles, enforce independent review, and… | Security Reviewed | 192 | 315/wk |
 | [Lint reStructuredText docs and release notes before Sphinx publishing with doc8](skills/lint-restructuredtext-docs-and-release-notes-before-sphinx-publishing-with-doc8/) | Catch structural and line-style problems in reStructuredText docs before release notes and Sphinx pages go out… | Security Reviewed | 176 | — |
 | [Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed](skills/catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed/) | Use CodSpeed when an agent needs benchmark runs compared in CI and surfaced on pull requests before performance… | Security Reviewed | 143 | 234.6k/wk |
 | [Run multi-agent code review rounds with structured reviewer discourse before human approval](skills/run-multi-agent-code-review-rounds-with-structured-reviewer-discourse-before-human-approval/) | Use Open Code Review when an agent needs several reviewer personas to inspect a diff, debate findings, and… | Security Reviewed | 131 | 1.1k/wk |

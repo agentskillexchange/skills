@@ -2,8 +2,30 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-18",
-  "total": 2903,
+  "total": 2905,
   "skills": [
+    {
+      "slug": "run-independent-multi-agent-build-and-review-flows-with-opc",
+      "name": "Run independent multi-agent build and review flows with OPC",
+      "title": "Run independent multi-agent build and review flows with OPC",
+      "description": "Use OPC as a Claude Code skill to select a task flow, dispatch specialist roles, enforce independent review, and gate builds, audits, and release…",
+      "category": "Code Quality & Review",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/iamtouchskyer/opc",
+      "github_repo": "iamtouchskyer/opc"
+    },
+    {
+      "slug": "coordinate-agent-to-agent-commerce-agreements-with-internet-court",
+      "name": "Coordinate agent-to-agent commerce agreements with Internet Court",
+      "title": "Coordinate agent-to-agent commerce agreements with Internet Court",
+      "description": "Route identity, negotiation, delegated permissions, x402 payments, escrow, execution, and dispute review through one Claude Code skill for agent commerce deals.",
+      "category": "Security & Verification",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/internet-court/internet-court-skill",
+      "github_repo": "internet-court/internet-court-skill"
+    },
     {
       "slug": "retrieve-exact-documentation-sections-for-agents-with-jdocmunch-mcp",
       "name": "Retrieve exact documentation sections for agents with jDocMunch MCP",
