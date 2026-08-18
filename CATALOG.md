@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2902 published skills** across **17 categories** · 2,472 security reviewed · Updated 2026-08-17 19:26 UTC
+> **2903 published skills** across **17 categories** · 2,472 security reviewed · Updated 2026-08-18 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -944,7 +944,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown,… | Published | — | — |
 
 
-### 🔄 Data Extraction & Transformation (218 skills)
+### 🔄 Data Extraction & Transformation (219 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -1153,6 +1153,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Operate Airflow and warehouse workflows through agent-safe data engineering skills with Astronomer Agents](skills/operate-airflow-and-warehouse-workflows-through-agent-safe-data-engineering-skills-with-astronomer-agents/) | Give agents structured Airflow, lineage, dbt, and warehouse workflows through installable skills and an Airflow MCP… | Security Reviewed | 337 | — |
 | [Compare recurring CSV, TSV, or JSON exports and emit row-level change sets before syncs](skills/compare-recurring-csv-tsv-or-json-exports-and-emit-row-level-change-sets-before-syncs/) | Use csv-diff when an agent needs to explain what changed between two structured exports, not just that the files… | Security Reviewed | 330 | — |
 | [Query cross-connector business data for agents with Dinobase](skills/query-cross-connector-business-data-for-agents-with-dinobase/) | Use Dinobase to give agents a SQL layer over SaaS APIs, databases, files, and MCP servers so they can answer… | Security Reviewed | 252 | — |
+| [Retrieve exact documentation sections for agents with jDocMunch MCP](skills/retrieve-exact-documentation-sections-for-agents-with-jdocmunch-mcp/) | Use jDocMunch MCP when an agent needs to index local or repository documentation, search by heading-level structure,… | Security Reviewed | 202 | — |
 | [Query and inspect Postgres databases through MCP with pgEdge Postgres MCP](skills/query-and-inspect-postgres-databases-through-mcp-with-pgedge-postgres-mcp/) | Connect an MCP client to PostgreSQL databases for schema discovery, safe querying, and database inspection through a… | Security Reviewed | 165 | — |
 | [Weaviate MCP Server](skills/weaviate-mcp-server/) | Weaviate MCP Server is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 162 | — |
 | [Turn documents into validated knowledge graphs with Docling Graph](skills/turn-documents-into-validated-knowledge-graphs-with-docling-graph/) | Convert documents into schema-enforced entities and graph relationships when the job is exact knowledge extraction… | Security Reviewed | 134 | — |

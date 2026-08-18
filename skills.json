@@ -1,8 +1,22 @@
 {
   "version": "2.0",
-  "total": 2902,
-  "generated": "2026-08-17",
+  "total": 2903,
+  "generated": "2026-08-18",
   "skills": [
+    {
+      "slug": "retrieve-exact-documentation-sections-for-agents-with-jdocmunch-mcp",
+      "name": "Retrieve exact documentation sections for agents with jDocMunch MCP",
+      "title": "Retrieve exact documentation sections for agents with jDocMunch MCP",
+      "description": "Use jDocMunch MCP when an agent needs to index local or repository documentation, search by heading-level structure, and retrieve only the exact section needed…",
+      "category": "Data Extraction & Transformation",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 202
+      },
+      "source_url": "https://github.com/jgravelle/jdocmunch-mcp",
+      "github_repo": "jgravelle/jdocmunch-mcp"
+    },
     {
       "slug": "run-shared-memory-agent-workspaces-across-codex-claude-code-and-mcp-with-holaos",
       "name": "Run shared-memory agent workspaces across Codex, Claude Code, and MCP with holaOS",
