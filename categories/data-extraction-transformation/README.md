@@ -232,6 +232,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Parse documents into structured content for agent ingestion with Dedoc](../../skills/parse-documents-into-structured-content-for-agent-ingestion-with-dedoc/) | 712 | — |
 | [Give agents governed semantic data context with Wren Engine](../../skills/give-agents-governed-semantic-data-context-with-wren-engine/) | 661 | — |
 | [Run natural-language BI analysis with OpenChatBI agents](../../skills/run-natural-language-bi-analysis-with-openchatbi-agents/) | 595 | — |
+| [Run local document RAG with citations over MCP using Haiku.RAG](../../skills/run-local-document-rag-with-citations-over-mcp-using-haiku-rag/) | 581 | — |
 | [Query Postgres databases through read-only MCP workflows with PGMCP](../../skills/query-postgres-databases-through-read-only-mcp-workflows-with-pgmcp/) | 529 | — |
 | [dbt MCP Server for Data Pipeline Context](../../skills/dbt-mcp-server-data-pipeline-context/) | 526 | — |
 | [Evaluate document parsers for agent ingestion with ParseBench](../../skills/evaluate-document-parsers-for-agent-ingestion-with-parsebench/) | 474 | — |

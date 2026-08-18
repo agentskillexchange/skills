@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-18
-# Total: 2905 skills
+# Total: 2906 skills
+
+## Run local document RAG with citations over MCP using Haiku.RAG
+slug: run-local-document-rag-with-citations-over-mcp-using-haiku-rag
+category: Data Extraction & Transformation
+framework: MCP
+verification: Security Reviewed
+description: Index local or self-hosted documents, search them with hybrid and multimodal retrieval, and answer agent questions through an MCP server with citations.
+url: https://agentskillexchange.com/skills/run-local-document-rag-with-citations-over-mcp-using-haiku-rag/
 
 ## Run independent multi-agent build and review flows with OPC
 slug: run-independent-multi-agent-build-and-review-flows-with-opc

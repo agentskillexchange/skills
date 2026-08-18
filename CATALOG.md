@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2905 published skills** across **17 categories** · 2,475 security reviewed · Updated 2026-08-18 13:26 UTC
+> **2906 published skills** across **17 categories** · 2,475 security reviewed · Updated 2026-08-18 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -945,7 +945,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown,… | Published | — | — |
 
 
-### 🔄 Data Extraction & Transformation (219 skills)
+### 🔄 Data Extraction & Transformation (220 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -1143,6 +1143,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Parse documents into structured content for agent ingestion with Dedoc](skills/parse-documents-into-structured-content-for-agent-ingestion-with-dedoc/) | Extract document text, tables, logical structure, and metadata into normalized output before RAG, review, or… | Security Reviewed | 712 | — |
 | [Give agents governed semantic data context with Wren Engine](skills/give-agents-governed-semantic-data-context-with-wren-engine/) | Give agents governed semantic data context so data questions map to trusted metrics and schemas. | Published | 661 | — |
 | [Run natural-language BI analysis with OpenChatBI agents](skills/run-natural-language-bi-analysis-with-openchatbi-agents/) | Deploy OpenChatBI when an agent needs to turn business questions into SQL, charts, anomaly analysis, and explainable… | Security Reviewed | 595 | — |
+| [Run local document RAG with citations over MCP using Haiku.RAG](skills/run-local-document-rag-with-citations-over-mcp-using-haiku-rag/) | Index local or self-hosted documents, search them with hybrid and multimodal retrieval, and answer agent questions… | Security Reviewed | 581 | — |
 | [Query Postgres databases through read-only MCP workflows with PGMCP](skills/query-postgres-databases-through-read-only-mcp-workflows-with-pgmcp/) | Connect an MCP-compatible assistant to an existing PostgreSQL database for safe natural-language querying,… | Security Reviewed | 529 | — |
 | [dbt MCP Server for Data Pipeline Context](skills/dbt-mcp-server-data-pipeline-context/) | The official dbt MCP Server by dbt Labs provides Model Context Protocol tools for AI agents to interact with dbt… | Security Reviewed | 526 | — |
 | [Evaluate document parsers for agent ingestion with ParseBench](skills/evaluate-document-parsers-for-agent-ingestion-with-parsebench/) | Use ParseBench to run repeatable document-parser evaluations before an agent relies on PDF, table, chart, or… | Security Reviewed | 474 | — |

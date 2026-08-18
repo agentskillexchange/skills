@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-18",
-  "total": 2905,
+  "total": 2906,
   "skills": [
+    {
+      "slug": "run-local-document-rag-with-citations-over-mcp-using-haiku-rag",
+      "name": "Run local document RAG with citations over MCP using Haiku.RAG",
+      "title": "Run local document RAG with citations over MCP using Haiku.RAG",
+      "description": "Index local or self-hosted documents, search them with hybrid and multimodal retrieval, and answer agent questions through an MCP server with citations.",
+      "category": "Data Extraction & Transformation",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/ggozad/haiku.rag",
+      "github_repo": "ggozad/haiku.rag"
+    },
     {
       "slug": "run-independent-multi-agent-build-and-review-flows-with-opc",
       "name": "Run independent multi-agent build and review flows with OPC",
