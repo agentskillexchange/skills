@@ -5,7 +5,7 @@ description: "Query Chinese A-share, ETF, index, financial statement, valuation,
 category: "Library & API Reference"
 framework: "Custom Agents"
 verification: listed
-source: "https://github.com/ChuYiCui1/AshareHub-skills"
+source: "https://github.com/ChuYiCui1/AshareHub-skills/tree/main/skills/en"
 tool_ecosystem:
   tool: "AShareHub Python SDK and REST API"
   github_repo: "ChuYiCui1/AshareHub"
@@ -30,7 +30,7 @@ export ASHAREHUB_API_KEY="ash_your_key_here"
 ```bash
 git clone --depth 1 https://github.com/ChuYiCui1/AshareHub-skills.git
 mkdir -p ~/.codex/skills/asharehub
-cp -R AShareHub-skills/skills/en/. ~/.codex/skills/asharehub/
+cp -R AshareHub-skills/skills/en/. ~/.codex/skills/asharehub/
 ```
 
 ### Claude Code
@@ -38,7 +38,7 @@ cp -R AShareHub-skills/skills/en/. ~/.codex/skills/asharehub/
 ```bash
 git clone --depth 1 https://github.com/ChuYiCui1/AshareHub-skills.git
 mkdir -p .claude/skills/asharehub
-cp -R AShareHub-skills/skills/en/. .claude/skills/asharehub/
+cp -R AshareHub-skills/skills/en/. .claude/skills/asharehub/
 ```
 
 ## Example
