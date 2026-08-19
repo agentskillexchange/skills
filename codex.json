@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-19",
-  "total": 2909,
+  "total": 2910,
   "skills": [
+    {
+      "slug": "install-claude-forge-workflows-for-guarded-claude-code-execution",
+      "name": "Install Claude Forge workflows for guarded Claude Code execution",
+      "title": "Install Claude Forge workflows for guarded Claude Code execution",
+      "description": "Add Claude Forge's agents, slash commands, skills, and hooks to Claude Code when a coding task needs repeatable planning, review, and adversarial verification loops.",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/sangrokjung/claude-forge",
+      "github_repo": "sangrokjung/claude-forge"
+    },
     {
       "slug": "generate-images-with-atlas-cloud",
       "name": "Generate Images with Atlas Cloud",

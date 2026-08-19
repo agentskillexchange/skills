@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2909 published skills** across **17 categories** · 2,477 security reviewed · Updated 2026-08-19 13:27 UTC
+> **2910 published skills** across **17 categories** · 2,477 security reviewed · Updated 2026-08-19 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (436 skills)
+### 🛠️ Developer Tools (437 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -370,6 +370,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [CircleCI MCP Server](skills/circleci-mcp-server/) | CircleCI MCP Server is built around CircleCI continuous integration platform. The underlying ecosystem is… | Security Reviewed | 844 | — |
 | [Expose repository code intelligence to agents with Gortex](skills/expose-repository-code-intelligence-to-agents-with-gortex/) | Use Gortex to index one or more repositories into a local code graph and expose symbol, call-chain, blast-radius,… | Published | 840 | — |
 | [Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac](skills/run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac/) | Execute repository-stored HTTP request files from the command line so API smoke tests, assertions, and… | Security Reviewed | 809 | 36.7k/wk |
+| [Install Claude Forge workflows for guarded Claude Code execution](skills/install-claude-forge-workflows-for-guarded-claude-code-execution/) | Add Claude Forge's agents, slash commands, skills, and hooks to Claude Code when a coding task needs repeatable… | Security Reviewed | 805 | — |
 | [Develop Power BI and Fabric artifacts with agent plugins](skills/develop-power-bi-and-fabric-artifacts-with-agent-plugins/) | Install Power BI and Microsoft Fabric plugins so Claude Code can author, validate, and review PBIP, TMDL, DAX,… | Security Reviewed | 801 | — |
 | [Control Android devices with an on-device AI agent using PokeClaw](skills/control-android-devices-with-an-on-device-ai-agent-using-pokeclaw/) | Run an on-device Android control loop that inspects screens and performs app actions locally for mobile automation… | Security Reviewed | 760 | — |
 | [Generate and continuously refresh CLAUDE.md, AGENTS.md, MCP config, and editor rules from the live codebase with Caliber](skills/generate-and-continuously-refresh-claude-md-agents-md-mcp-config-and-editor-rules-from-the-live-codebase-with-caliber/) | Use Caliber when agent-facing repo instructions have started drifting from the actual codebase and you want one… | Security Reviewed | 717 | 6.5k/wk |

@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-19
-# Total: 2909 skills
+# Total: 2910 skills
+
+## Install Claude Forge workflows for guarded Claude Code execution
+slug: install-claude-forge-workflows-for-guarded-claude-code-execution
+category: Developer Tools
+framework: Claude Code
+verification: Security Reviewed
+description: Add Claude Forge's agents, slash commands, skills, and hooks to Claude Code when a coding task needs repeatable planning, review, and adversarial verification loops.
+url: https://agentskillexchange.com/skills/install-claude-forge-workflows-for-guarded-claude-code-execution/
 
 ## Generate Images with Atlas Cloud
 slug: generate-images-with-atlas-cloud

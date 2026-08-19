@@ -396,6 +396,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [CircleCI MCP Server](../../skills/circleci-mcp-server/) | 844 | — |
 | [Expose repository code intelligence to agents with Gortex](../../skills/expose-repository-code-intelligence-to-agents-with-gortex/) | 840 | — |
 | [Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac](../../skills/run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac/) | 809 | 36.7k/wk |
+| [Install Claude Forge workflows for guarded Claude Code execution](../../skills/install-claude-forge-workflows-for-guarded-claude-code-execution/) | 805 | — |
 | [Develop Power BI and Fabric artifacts with agent plugins](../../skills/develop-power-bi-and-fabric-artifacts-with-agent-plugins/) | 801 | — |
 | [Control Android devices with an on-device AI agent using PokeClaw](../../skills/control-android-devices-with-an-on-device-ai-agent-using-pokeclaw/) | 760 | — |
 | [Generate and continuously refresh CLAUDE.md, AGENTS.md, MCP config, and editor rules from the live codebase with Caliber](../../skills/generate-and-continuously-refresh-claude-md-agents-md-mcp-config-and-editor-rules-from-the-live-codebase-with-caliber/) | 717 | 6.5k/wk |
