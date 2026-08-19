@@ -142,6 +142,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Browserless Scraping Agent](../../skills/browserless-scraping-agent/) | — | — |
 | [Censys Attack Surface Monitor](../../skills/censys-attack-surface-monitor/) | — | — |
 | [Common Crawl Index Query Agent](../../skills/common-crawl-index-query-agent/) | — | — |
+| [Cross-validate research with SandBase Multi-Source Search](../../skills/cross-validate-research-with-sandbase-multi-source-search/) | — | — |
 | [Crunchbase Company Intelligence Scraper](../../skills/crunchbase-company-intelligence-scraper/) | — | — |
 | [Diffbot Article Extraction Verifier](../../skills/diffbot-article-extraction-verifier/) | — | — |
 | [Diffbot Knowledge Graph Extractor](../../skills/diffbot-knowledge-graph-extractor/) | — | — |

@@ -2,8 +2,29 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-19",
-  "total": 2907,
+  "total": 2909,
   "skills": [
+    {
+      "slug": "generate-images-with-atlas-cloud",
+      "name": "Generate Images with Atlas Cloud",
+      "title": "Generate Images with Atlas Cloud",
+      "description": "Discovers current Atlas Cloud image models, validates model-specific schemas, submits a single asynchronous image-generation request, polls predictions with a finite budget, and verifies downloaded…",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://www.atlascloud.ai/models"
+    },
+    {
+      "slug": "cross-validate-research-with-sandbase-multi-source-search",
+      "name": "Cross-validate research with SandBase Multi-Source Search",
+      "title": "Cross-validate research with SandBase Multi-Source Search",
+      "description": "Use SandBase Multi-Source Search to fact-check claims across independent web and academic sources, record disagreements, score confidence, and validate a structured evidence ledger offline.",
+      "category": "Research & Scraping",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/sandbaseai/sandbase-skills/tree/main/research/multi-source-search",
+      "github_repo": "sandbaseai/sandbase-skills"
+    },
     {
       "slug": "coordinate-parallel-coding-agent-worktrees-and-terminals-with-ouijit",
       "name": "Coordinate parallel coding-agent worktrees and terminals with Ouijit",
