@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-19
-# Total: 2906 skills
+# Total: 2907 skills
+
+## Coordinate parallel coding-agent worktrees and terminals with Ouijit
+slug: coordinate-parallel-coding-agent-worktrees-and-terminals-with-ouijit
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Ouijit to manage parallel CLI coding-agent tasks with per-task git worktrees, integrated terminals, lifecycle hooks, and sandboxed sessions.
+url: https://agentskillexchange.com/skills/coordinate-parallel-coding-agent-worktrees-and-terminals-with-ouijit/
 
 ## Run local document RAG with citations over MCP using Haiku.RAG
 slug: run-local-document-rag-with-citations-over-mcp-using-haiku-rag

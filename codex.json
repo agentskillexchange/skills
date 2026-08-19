@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-19",
-  "total": 2906,
+  "total": 2907,
   "skills": [
+    {
+      "slug": "coordinate-parallel-coding-agent-worktrees-and-terminals-with-ouijit",
+      "name": "Coordinate parallel coding-agent worktrees and terminals with Ouijit",
+      "title": "Coordinate parallel coding-agent worktrees and terminals with Ouijit",
+      "description": "Use Ouijit to manage parallel CLI coding-agent tasks with per-task git worktrees, integrated terminals, lifecycle hooks, and sandboxed sessions.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/ouijit/ouijit",
+      "github_repo": "ouijit/ouijit"
+    },
     {
       "slug": "run-local-document-rag-with-citations-over-mcp-using-haiku-rag",
       "name": "Run local document RAG with citations over MCP using Haiku.RAG",

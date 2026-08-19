@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2906 published skills** across **17 categories** · 2,476 security reviewed · Updated 2026-08-19 01:27 UTC
+> **2907 published skills** across **17 categories** · 2,476 security reviewed · Updated 2026-08-19 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (435 skills)
+### 🛠️ Developer Tools (436 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -416,6 +416,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Use Superpowers Symfony for Claude Code Symfony workflows](skills/use-superpowers-symfony-for-claude-code-symfony-workflows/) | Install a Claude Code plugin that gives agents repeatable Symfony, Doctrine, API Platform, Messenger, security, TDD,… | Security Reviewed | 186 | — |
 | [Meilisearch MCP Server for AI-Powered Search Integration](skills/meilisearch-mcp-server-ai-search/) | Official Model Context Protocol server that connects LLMs to Meilisearch for lightning-fast search, index… | Security Reviewed | 181 | — |
 | [Compress repeated agent context and command output before it reaches coding agents with sqz](skills/compress-repeated-agent-context-and-command-output-before-it-reaches-coding-agents-with-sqz/) | Reduces token burn by compressing command output and deduplicating repeated file reads before they are sent to… | Published | 165 | — |
+| [Coordinate parallel coding-agent worktrees and terminals with Ouijit](skills/coordinate-parallel-coding-agent-worktrees-and-terminals-with-ouijit/) | Use Ouijit to manage parallel CLI coding-agent tasks with per-task git worktrees, integrated terminals, lifecycle… | Security Reviewed | 154 | — |
 | [Supervise tmux-based coding-agent sessions with agent-manager](skills/supervise-tmux-based-coding-agent-sessions-with-agent-manager/) | Use agent-manager to launch, monitor, prompt, revive, and review multiple Claude Code, Codex, OpenCode, Grok, or… | Security Reviewed | 154 | — |
 | [Run visual co-creation workspaces for coding agents with Pneuma Skills](skills/run-visual-co-creation-workspaces-for-coding-agents-with-pneuma-skills/) | Use Pneuma Skills when Claude Code, Codex, or Kimi should build slides, documents, diagrams, videos, dashboards, or… | Security Reviewed | 152 | 1.1k/wk |
 | [Install one MCP server across Claude Code, Cursor, Codex, and VS Code without manual config edits](skills/install-one-mcp-server-across-claude-code-cursor-codex-and-vs-code-without-manual-config-edits/) | Use add-mcp when an agent needs to roll out, list, remove, or synchronize MCP server configs across multiple coding… | Security Reviewed | 151 | 307.2k/wk |

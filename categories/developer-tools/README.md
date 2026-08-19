@@ -442,6 +442,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Use Superpowers Symfony for Claude Code Symfony workflows](../../skills/use-superpowers-symfony-for-claude-code-symfony-workflows/) | 186 | — |
 | [Meilisearch MCP Server for AI-Powered Search Integration](../../skills/meilisearch-mcp-server-ai-search/) | 181 | — |
 | [Compress repeated agent context and command output before it reaches coding agents with sqz](../../skills/compress-repeated-agent-context-and-command-output-before-it-reaches-coding-agents-with-sqz/) | 165 | — |
+| [Coordinate parallel coding-agent worktrees and terminals with Ouijit](../../skills/coordinate-parallel-coding-agent-worktrees-and-terminals-with-ouijit/) | 154 | — |
 | [Supervise tmux-based coding-agent sessions with agent-manager](../../skills/supervise-tmux-based-coding-agent-sessions-with-agent-manager/) | 154 | — |
 | [Run visual co-creation workspaces for coding agents with Pneuma Skills](../../skills/run-visual-co-creation-workspaces-for-coding-agents-with-pneuma-skills/) | 152 | 1.1k/wk |
 | [Install one MCP server across Claude Code, Cursor, Codex, and VS Code without manual config edits](../../skills/install-one-mcp-server-across-claude-code-cursor-codex-and-vs-code-without-manual-config-edits/) | 151 | 307.2k/wk |
