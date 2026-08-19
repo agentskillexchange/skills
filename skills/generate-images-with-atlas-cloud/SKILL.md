@@ -2,10 +2,10 @@
 name: "Generate Images with Atlas Cloud"
 slug: "generate-images-with-atlas-cloud"
 description: "Discovers current Atlas Cloud image models, validates model-specific schemas, submits a single asynchronous image-generation request, polls predictions with a finite budget, and verifies downloaded image artifacts. Use when an agent needs text-to-image or image-editing access through the Atlas Cloud API."
+verification: "listed"
+source: "https://www.atlascloud.ai/models"
 category: "Image & Creative Automation"
 framework: "Multi-Framework"
-verification: listed
-source: "https://www.atlascloud.ai/models"
 ---
 
 # Generate Images with Atlas Cloud
@@ -16,28 +16,9 @@ Do not use this skill for video, audio, 3D, or OpenAI-compatible chat requests. 
 
 ## Installation
 
-### OpenClaw
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-```bash
-clawhub install generate-images-with-atlas-cloud
-```
-
-### Direct repo/manual install
-
-Clone the Agent Skill Exchange repository and copy this skill directory into the skill folder used by your agent runtime:
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git
-cp -R skills/skills/generate-images-with-atlas-cloud ~/.agent-skills/generate-images-with-atlas-cloud
-```
-
-### Optional Third-Party Installer
-
-The `skills` npm package is maintained by Vercel Labs / third parties, not AgentSkillExchange. If you choose to use it, pin the package version:
-
-```bash
-npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill generate-images-with-atlas-cloud
-```
+- Source: https://www.atlascloud.ai/models
 
 ## Requirements and authorization
 

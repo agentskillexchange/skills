@@ -2,19 +2,12 @@
 name: "Cross-validate research with SandBase Multi-Source Search"
 slug: "cross-validate-research-with-sandbase-multi-source-search"
 description: "Use SandBase Multi-Source Search to fact-check claims across independent web and academic sources, record disagreements, score confidence, and validate a structured evidence ledger offline."
-github_stars: 20
-verification: listed
+verification: "listed"
 source: "https://github.com/sandbaseai/sandbase-skills/tree/main/research/multi-source-search"
 author: "SandBase"
 publisher_type: "organization"
 category: "Research & Scraping"
 framework: "Multi-Framework"
-tool_ecosystem:
-  tool: "SandBase Skills"
-  github_repo: "sandbaseai/sandbase-skills"
-  github_stars: 20
-  license: "Apache-2.0"
-  maintained: true
 ---
 
 # Cross-validate research with SandBase Multi-Source Search
@@ -39,25 +32,9 @@ conclusion.
 
 ## Installation
 
-Install the maintained upstream Skill into Codex:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-```bash
-npm exec --package=skills@1.5.7 -- skills add sandbaseai/sandbase-skills --skill multi-source-search --agent codex
-```
-
-To inspect the workflow without installing it:
-
-```bash
-npm exec --package=skills@1.5.7 -- skills use sandbaseai/sandbase-skills@multi-source-search
-```
-
-The upstream repository also documents installation for Claude Code, Cursor,
-Gemini CLI, and DeepSeek Harness. After completing research, validate the generated
-ledger with the bundled script from the repository root:
-
-```bash
-python3 research/multi-source-search/scripts/validate_report.py research-report.json
-```
+- Source: https://github.com/sandbaseai/sandbase-skills/tree/main/research/multi-source-search
 
 ## Source
 
