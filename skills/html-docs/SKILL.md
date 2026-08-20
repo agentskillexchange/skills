@@ -4,6 +4,7 @@ slug: "html-docs"
 description: "Turns folders, codebases, websites, PDFs, documents, and research topics into source-grounded HTML documents, deterministic narrated videos, or complete learning courses; also publishes and revises collaborative HTML pages through the HTML Docs CLI, REST API, and MCP server."
 verification: "listed"
 source: "https://github.com/raunaqbn/html-docs-skill/tree/main/html-docs"
+author: "Raunaq"
 category: "Content Writing & SEO"
 framework: "Multi-Framework"
 ---
@@ -26,7 +27,9 @@ provider credentials and authored source projects stay local.
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Install or set up from the source-backed instructions:
+
+npx skills add raunaqbn/html-docs-skill --skill html-docs -g
 
 - Source: https://github.com/raunaqbn/html-docs-skill/tree/main/html-docs
 
