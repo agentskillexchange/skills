@@ -5,14 +5,14 @@ description: "List leftover LLM API capacity on tokensto.cash (OpenRouter, OpenA
 category: "Developer Tools"
 framework: "Claude Code"
 verification: listed
-source: "https://github.com/ADWilkinson/sell-unused-tokens"
+source: "https://github.com/galleonlabs/sell-unused-tokens"
 ---
 
 # Sell unused tokens
 
 This skill lists leftover LLM API capacity on [tokensto.cash](https://tokensto.cash) so unused provider credits become USDC. tokensto.cash is the seller front door for [Surplus Intelligence](https://www.surplusintelligence.ai) and the sister of [usdctofiat.xyz](https://usdctofiat.xyz). Use it when the user wants to sell spare OpenRouter, OpenAI, Anthropic, Gemini, Venice, Capminal, DeepSeek, Groq, Mistral, or other listed provider credits for cash, or asks how to list on Surplus Intelligence through tokensto.cash.
 
-The canonical public package is https://github.com/ADWilkinson/sell-unused-tokens (MIT, no scripts). The flow is web UI, not a Surplus SIWE session. The user signs in at https://tokensto.cash/start with a Privy wallet. They pick the provider that owns the leftover credits, paste the API key once, and Surplus probes it. Featured pickers include Venice, Capminal, OpenRouter, OpenAI, Anthropic, Gemini, DeepSeek, Groq, and Mistral; more sit behind "More". Capminal daily $CAPU credit is **Included**. Use **Other** only for an OpenAI-compatible URL Surplus does not list. Users never SIWE with Surplus. There is one house seller. `payout_address` is always the signed-in Privy wallet.
+The canonical public package is https://github.com/galleonlabs/sell-unused-tokens (MIT, no scripts). The flow is web UI, not a Surplus SIWE session. The user signs in at https://tokensto.cash/start with a Privy wallet. They pick the provider that owns the leftover credits, paste the API key once, and Surplus probes it. Featured pickers include Venice, Capminal, OpenRouter, OpenAI, Anthropic, Gemini, DeepSeek, Groq, and Mistral; more sit behind "More". Capminal daily $CAPU credit is **Included**. Use **Other** only for an OpenAI-compatible URL Surplus does not list. Users never SIWE with Surplus. There is one house seller. `payout_address` is always the signed-in Privy wallet.
 
 After a successful probe, the UI shows a model list with market rows. If the probe 504s, retry once; Surplus timeouts surface as a clear message. Keep the recommended text models unless the user named others. The listing client posts **one model per request** so progress ticks stay honest. Set a cost basis, then a daily cap of at least $0.5: **Included** (subscription/stake) floors at 0.02×, **Leftover** (credits sitting idle) floors at 0.05×, and **At cost** (pay-as-you-go) floors at 1.0× and never below list. Auto-price undercuts the cheapest healthy, trusted seller and never goes below that floor. Done when the models appear on `/sell` as live or cooling.
 
@@ -30,7 +30,7 @@ Cash-out lives at `/cash-out` as Create / Orders / Send. Direct rails: **Revolut
 ### Public skill repo
 
 ```bash
-npx skills add ADWilkinson/sell-unused-tokens -g -y
+npx skills add galleonlabs/sell-unused-tokens -g -y
 ```
 
 ### OpenClaw
@@ -44,7 +44,7 @@ clawhub install sell-unused-tokens
 Clone the public skill repo, or copy this catalog directory into the skill folder used by your agent runtime:
 
 ```bash
-git clone https://github.com/ADWilkinson/sell-unused-tokens.git ~/.claude/skills/sell-unused-tokens
+git clone https://github.com/galleonlabs/sell-unused-tokens.git ~/.claude/skills/sell-unused-tokens
 ```
 
 ```bash
