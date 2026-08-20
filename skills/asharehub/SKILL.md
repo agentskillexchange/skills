@@ -2,14 +2,10 @@
 name: "AShareHub Chinese Market Data"
 slug: "asharehub"
 description: "Query Chinese A-share, ETF, index, financial statement, valuation, capital-flow, and technical-indicator data through the AShareHub Python SDK and hosted API. Use this skill when an agent needs structured China market data as pandas DataFrames."
+verification: "listed"
+source: "https://github.com/ChuYiCui1/AshareHub-skills/tree/main/skills/en"
 category: "Library & API Reference"
 framework: "Custom Agents"
-verification: listed
-source: "https://github.com/ChuYiCui1/AshareHub-skills/tree/main/skills/en"
-tool_ecosystem:
-  tool: "AShareHub Python SDK and REST API"
-  github_repo: "ChuYiCui1/AshareHub"
-  github_stars: 4
 ---
 
 # AShareHub Chinese Market Data
