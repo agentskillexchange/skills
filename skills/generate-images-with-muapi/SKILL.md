@@ -1,7 +1,7 @@
 ---
 name: "Generate Images with MuAPI"
 slug: "generate-images-with-muapi"
-description: "Generates and validates Flux Dev images through MuAPI's asynchronous API. Use when an agent needs hosted text-to-image generation with a single MUAPI_API_KEY, bounded prediction polling, and a credential-free HTTPS artifact download."
+description: "Discovers current MuAPI image models, builds a model-specific request, and validates asynchronous image artifacts. Use when an agent needs hosted image generation through one MUAPI_API_KEY, bounded prediction polling, and a credential-free HTTPS download."
 verification: "listed"
 source: "https://muapi.ai/docs/api-reference"
 category: "Image & Creative Automation"
@@ -10,11 +10,13 @@ framework: "Multi-Framework"
 
 # Generate Images with MuAPI
 
-Use this skill when an agent needs hosted image generation through MuAPI's Flux Dev endpoint.
-The workflow makes one explicitly authorized generation request, polls the returned prediction,
-and downloads the completed image without forwarding the API key to the output host. MuAPI's
-image contract can change, so verify the current API reference before relying on model-specific
-fields. This skill is for image generation; do not use it for video, audio, 3D, or chat requests.
+Use this skill when an agent needs hosted image generation through MuAPI's unified API. First
+inspect the live catalog and select an exact image model suited to the task; the catalog includes
+multiple FLUX, Nano Banana, Seedream, GPT Image, Midjourney, Qwen, and other model families. The
+workflow then makes one explicitly authorized generation request, polls the returned prediction,
+and downloads the completed image without forwarding the API key to the output host. Do not
+assume that a model name or payload is permanent: read the current model schema before adding
+model-specific fields. This skill is for image workflows, not video, audio, 3D, or chat requests.
 
 ## Installation
 
@@ -44,28 +46,48 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 Never print or commit the key, put it in a command argument, or enable shell tracing. Treat a
 generation `POST` as accepted if its outcome is ambiguous; do not retry it automatically.
 
-## 1. Build and review the request
+## 1. Discover the current model and schema
 
-Flux Dev accepts a `WIDTH*HEIGHT` size with each side from 512 through 1536 pixels. Build the
-payload with `jq` so prompt text is JSON-escaped:
+Read the live catalog immediately before building a request. Choose an exact image model and
+follow the schema URL, if supplied, for its required fields and supported controls:
 
 ```bash
+curl -fsS --max-time 30 \
+  https://api.muapi.ai/api/v1/models \
+  -o /tmp/muapi-models.json
+
+jq -r '
+  .data[]
+  | select((.type // "" | ascii_downcase) == "image")
+  | [.model, (.name // ""), (.schema // "")] | @tsv
+' /tmp/muapi-models.json
+```
+
+Use the model endpoint returned by the catalog, not a remembered alias. Payload fields differ by
+model; the minimal prompt payload below is only a starting point. Add size, reference-image, or
+quality fields only when the selected model's current schema documents them.
+
+## 2. Build and review the request
+
+Construct JSON with `jq` so prompt text is escaped. Replace `MODEL_ENDPOINT` and add only fields
+validated against that model's live schema:
+
+```bash
+MODEL_ENDPOINT='replace-with-an-exact-image-model-endpoint'
 PROMPT='a small red fox reading a book beneath a lantern, storybook illustration'
 jq -n --arg prompt "$PROMPT" \
-  '{prompt: $prompt, image: "", size: "1024*1024", num_inference_steps: 28,
-    seed: -1, guidance_scale: 3.5, num_images: 1,
-    enable_base64_output: false, enable_safety_checker: true}' \
+  '{prompt: $prompt}' \
   > /tmp/muapi-image-request.json
 jq . /tmp/muapi-image-request.json
 ```
 
-## 2. Submit exactly once
+## 3. Submit exactly once
 
-Use the documented Flux Dev endpoint and do not add `curl --retry` or a POST retry loop:
+Use the documented model endpoint and do not add `curl --retry` or a POST retry loop:
 
 ```bash
 curl -fsS --max-time 60 \
-  -X POST https://api.muapi.ai/api/v1/flux-dev-image \
+  -X POST "https://api.muapi.ai/api/v1/$MODEL_ENDPOINT" \
   -H "x-api-key: $MUAPI_API_KEY" \
   -H 'Content-Type: application/json' \
   -H 'Accept: application/json' \
@@ -80,7 +102,7 @@ printf 'request_id=%s\n' "$REQUEST_ID"
 Stop if the request times out or returns no request ID. Reconcile an ambiguous request through
 the MuAPI account or support rather than creating a second generation job.
 
-## 3. Poll with a finite budget
+## 4. Poll with a finite budget
 
 Prediction GET requests may be retried because they do not create replacement jobs. Poll at most
 60 times, stop on terminal failure, and preserve the request ID if the budget is exhausted:
@@ -111,7 +133,7 @@ for attempt in $(seq 1 60); do
 done
 ```
 
-## 4. Download and inspect the artifact
+## 5. Download and inspect the artifact
 
 Read the first output URL only after completion. Require HTTPS and do not send `MUAPI_API_KEY`
 to the returned CDN URL:
@@ -134,6 +156,7 @@ meets the prompt, composition, safety, privacy, likeness, trademark, and usage-r
 
 ## Official references
 
+- [MuAPI model catalog](https://muapi.ai/docs/models)
 - [MuAPI API reference](https://muapi.ai/docs/api-reference)
-- [MuAPI Flux Dev](https://muapi.ai/docs/flux-dev)
+- [MuAPI image models](https://muapi.ai/playground/group/image)
 - [MuAPI access keys](https://muapi.ai/access-keys)
