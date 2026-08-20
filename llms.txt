@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-08-19
-# Total: 2910 skills
+# Generated: 2026-08-20
+# Total: 2912 skills
+
+## Run agent CLI terminals inside Obsidian with Claude Sidebar
+slug: run-agent-cli-terminals-inside-obsidian-with-claude-sidebar
+category: Developer Tools
+framework: Multi-Framework
+verification: Published
+description: Use Claude Sidebar when an operator wants Claude Code, Codex, or another agent CLI available as terminal tabs inside an Obsidian vault with file…
+url: https://agentskillexchange.com/skills/run-agent-cli-terminals-inside-obsidian-with-claude-sidebar/
+
+## Run Autoprompt coordination loops across coding agents
+slug: run-autoprompt-coordination-loops-across-coding-agents
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Autoprompt when an operator wants a coding agent to turn one goal into a planned, delegated, reviewed, and verified execution loop across supported…
+url: https://agentskillexchange.com/skills/run-autoprompt-coordination-loops-across-coding-agents/
 
 ## Install Claude Forge workflows for guarded Claude Code execution
 slug: install-claude-forge-workflows-for-guarded-claude-code-execution

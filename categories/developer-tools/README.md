@@ -418,6 +418,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Scaffold repo-specific agent harnesses with Metaharness](../../skills/scaffold-repo-specific-agent-harnesses-with-metaharness/) | 529 | 29.1k/wk |
 | [Run self-hosted coding-agent mission control with Codeman](../../skills/run-self-hosted-coding-agent-mission-control-with-codeman/) | 500 | 1.9k/wk |
 | [Orchestrate multi-agent coding delivery loops with Maestro Flow](../../skills/orchestrate-multi-agent-coding-delivery-loops-with-maestro-flow/) | 480 | 1k/wk |
+| [Run agent CLI terminals inside Obsidian with Claude Sidebar](../../skills/run-agent-cli-terminals-inside-obsidian-with-claude-sidebar/) | 443 | — |
 | [Give coding agents repo-local project memory with brain.md](../../skills/give-coding-agents-repo-local-project-memory-with-brain-md/) | 438 | — |
 | [Orchestrate review-first multi-agent development work with Kandev](../../skills/orchestrate-review-first-multi-agent-development-work-with-kandev/) | 405 | 3.5k/wk |
 | [Build embeddable Rust coding agents with Cersei](../../skills/build-embeddable-rust-coding-agents-with-cersei/) | 400 | — |
@@ -431,6 +432,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Reduce agent terminal noise with OMNI](../../skills/reduce-agent-terminal-noise-with-omni/) | 319 | — |
 | [Run declarative multi-agent CLI workflows with Comanda](../../skills/run-declarative-multi-agent-cli-workflows-with-comanda/) | 315 | — |
 | [Connect RStudio to MCP Agents with ClaudeR](../../skills/connect-rstudio-to-mcp-agents-with-clauder/) | 305 | — |
+| [Run Autoprompt coordination loops across coding agents](../../skills/run-autoprompt-coordination-loops-across-coding-agents/) | 293 | 122/wk |
 | [Install focused Claude Code workflow plugins from Claude Night Market](../../skills/install-focused-claude-code-workflow-plugins-from-claude-night-market/) | 291 | — |
 | [Orchestrate coding-agent goals and context with Jumbo Context](../../skills/orchestrate-coding-agent-goals-and-context-with-jumbo-context/) | 265 | 647/wk |
 | [Run agent tool calls through pctx Code Mode and unified MCP](../../skills/run-agent-tool-calls-through-pctx-code-mode-and-unified-mcp/) | 264 | 285/wk |

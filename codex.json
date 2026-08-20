@@ -1,9 +1,31 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-08-19",
-  "total": 2910,
+  "generated": "2026-08-20",
+  "total": 2912,
   "skills": [
+    {
+      "slug": "run-agent-cli-terminals-inside-obsidian-with-claude-sidebar",
+      "name": "Run agent CLI terminals inside Obsidian with Claude Sidebar",
+      "title": "Run agent CLI terminals inside Obsidian with Claude Sidebar",
+      "description": "Use Claude Sidebar when an operator wants Claude Code, Codex, or another agent CLI available as terminal tabs inside an Obsidian vault with file…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/derek-larson14/obsidian-claude-sidebar",
+      "github_repo": "derek-larson14/obsidian-claude-sidebar"
+    },
+    {
+      "slug": "run-autoprompt-coordination-loops-across-coding-agents",
+      "name": "Run Autoprompt coordination loops across coding agents",
+      "title": "Run Autoprompt coordination loops across coding agents",
+      "description": "Use Autoprompt when an operator wants a coding agent to turn one goal into a planned, delegated, reviewed, and verified execution loop across supported…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Spielewoy/autoprompt-skill",
+      "github_repo": "Spielewoy/autoprompt-skill"
+    },
     {
       "slug": "install-claude-forge-workflows-for-guarded-claude-code-execution",
       "name": "Install Claude Forge workflows for guarded Claude Code execution",
