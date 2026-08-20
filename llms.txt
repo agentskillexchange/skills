@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-20
-# Total: 2912 skills
+# Total: 2914 skills
+
+## AShareHub Chinese Market Data
+slug: asharehub
+category: Library & API Reference
+framework: Custom Agents
+verification: Published
+description: Query Chinese A-share, ETF, index, financial statement, valuation, capital-flow, and technical-indicator data through the AShareHub Python SDK and hosted API. Use this skill when…
+url: https://agentskillexchange.com/skills/asharehub/
+
+## Run CodeWhale terminal coding agent workflows
+slug: run-codewhale-terminal-coding-agent-workflows
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use CodeWhale as a local terminal coding agent for repository edits, test repair, provider-switched sessions, approval-gated commands, MCP tools, skills, and hooks.
+url: https://agentskillexchange.com/skills/run-codewhale-terminal-coding-agent-workflows/
 
 ## Run agent CLI terminals inside Obsidian with Claude Sidebar
 slug: run-agent-cli-terminals-inside-obsidian-with-claude-sidebar

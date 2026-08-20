@@ -92,6 +92,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Remove AI Writing Fingerprints from Draft Copy](../../skills/remove-ai-writing-fingerprints-from-draft-copy/) | 45 | — |
 | [SEO Growth Loop](../../skills/seo-growth-loop/) | 1 | — |
 | [Format citations and bibliographies from DOIs, URLs, BibTeX, and CFF before publishing](../../skills/format-citations-and-bibliographies-from-dois-urls-bibtex-and-cff-before-publishing/) | — | 10.7k/wk |
+| [HTML Docs](../../skills/html-docs/) | — | 49/wk |
 | [Ahrefs Backlink Content Planner](../../skills/ahrefs-backlink-content-planner/) | — | — |
 | [Ahrefs Content Gap Finder](../../skills/ahrefs-content-gap-finder-agent/) | — | — |
 | [Ahrefs Keyword Gap Analysis Skill](../../skills/ahrefs-keyword-gap-analysis-skill/) | — | — |
@@ -107,7 +108,6 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Google Search Console Insights Agent](../../skills/gsc-insights-agent/) | — | — |
 | [Google Search Console Performance Analyzer](../../skills/gsc-performance-analyzer-skill/) | — | — |
 | [Hemingway Readability Analyzer API](../../skills/hemingway-readability-analyzer-api/) | — | — |
-| [HTML Docs](../../skills/html-docs/) | — | — |
 | [Internal Link Builder](../../skills/internal-link-builder-seo-agent/) | — | — |
 | [Internal Link Graph Optimizer](../../skills/internal-link-graph-optimizer/) | — | — |
 | [Internal Link Optimizer](../../skills/internal-link-optimizer-seo/) | — | — |

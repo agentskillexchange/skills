@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C912-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C914-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C479-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,912 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,914 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [AShareHub Chinese Market Data](skills/asharehub/) | Query Chinese A-share, ETF, index, financial statement, valuation, capital-flow, and technical-indicator data through the AShareHub Python SDK and... | - | Library & API Reference |
+| [Run CodeWhale terminal coding agent workflows](skills/run-codewhale-terminal-coding-agent-workflows/) | Use CodeWhale as a local terminal coding agent for repository edits, test repair, provider-switched sessions, approval-gated commands, MCP... | 40.8k | Developer Tools |
 | [Run agent CLI terminals inside Obsidian with Claude Sidebar](skills/run-agent-cli-terminals-inside-obsidian-with-claude-sidebar/) | Use Claude Sidebar when an operator wants Claude Code, Codex, or another agent CLI available as terminal tabs... | 443 | Developer Tools |
 | [Run Autoprompt coordination loops across coding agents](skills/run-autoprompt-coordination-loops-across-coding-agents/) | Use Autoprompt when an operator wants a coding agent to turn one goal into a planned, delegated, reviewed... | 293 | Developer Tools |
 | [Install Claude Forge workflows for guarded Claude Code execution](skills/install-claude-forge-workflows-for-guarded-claude-code-execution/) | Add Claude Forge's agents, slash commands, skills, and hooks to Claude Code when a coding task needs repeatable... | 805 | Developer Tools |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Coordinate parallel coding-agent worktrees and terminals with Ouijit](skills/coordinate-parallel-coding-agent-worktrees-and-terminals-with-ouijit/) | Use Ouijit to manage parallel CLI coding-agent tasks with per-task git worktrees, integrated terminals, lifecycle hooks, and sandboxed... | 154 | Developer Tools |
 | [Run local document RAG with citations over MCP using Haiku.RAG](skills/run-local-document-rag-with-citations-over-mcp-using-haiku-rag/) | Index local or self-hosted documents, search them with hybrid and multimodal retrieval, and answer agent questions through an... | 581 | Data Extraction & Transformation |
 | [Run independent multi-agent build and review flows with OPC](skills/run-independent-multi-agent-build-and-review-flows-with-opc/) | Use OPC as a Claude Code skill to select a task flow, dispatch specialist roles, enforce independent review... | 192 | Code Quality & Review |
-| [Coordinate agent-to-agent commerce agreements with Internet Court](skills/coordinate-agent-to-agent-commerce-agreements-with-internet-court/) | Route identity, negotiation, delegated permissions, x402 payments, escrow, execution, and dispute review through one Claude Code skill for... | 3.8k | Security & Verification |
-| [Retrieve exact documentation sections for agents with jDocMunch MCP](skills/retrieve-exact-documentation-sections-for-agents-with-jdocmunch-mcp/) | Use jDocMunch MCP when an agent needs to index local or repository documentation, search by heading-level structure, and... | 202 | Data Extraction & Transformation |
 
 ---
 
@@ -106,10 +106,10 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Run CodeWhale terminal coding agent workflows](skills/run-codewhale-terminal-coding-agent-workflows/) | Use CodeWhale as a local terminal coding agent for repository edits, test repair, provider-switched sessions, approval-gated commands, MCP... | 40.8k | Developer Tools |
 | [Build Persistent Codebase Context Graphs with Graft](skills/build-persistent-codebase-context-graphs-with-graft/) | Build and maintain a repository-local context graph so coding agents can orient inside large codebases without rediscovering the... | 2.1k | Developer Tools |
-| [Block Risky Coding-Agent Commands with CC Safety Net](skills/block-risky-coding-agent-commands-with-cc-safety-net/) | Use CC Safety Net when coding-agent CLIs need pre-execution hooks that block destructive commands, secret access, and unsafe... | 1.5k | Security & Verification |
 | [Enforce Coding-Agent Write and Shell Policies with Probity](skills/enforce-coding-agent-write-and-shell-policies-with-probity/) | Use Probity when Claude Code, Codex, or GitHub Copilot CLI should be blocked from unsafe file writes or... | 162 | Security & Verification |
-| [Run open-source terminal coding workflows with Qwen Code](skills/run-open-source-terminal-coding-workflows-with-qwen-code/) | Use Qwen Code as a repeatable terminal coding agent: install the CLI, authenticate a provider, run interactive or... | 26.6k | Developer Tools |
+| [Block Risky Coding-Agent Commands with CC Safety Net](skills/block-risky-coding-agent-commands-with-cc-safety-net/) | Use CC Safety Net when coding-agent CLIs need pre-execution hooks that block destructive commands, secret access, and unsafe... | 1.5k | Security & Verification |
 | [Install Chinese-localized Superpowers workflows for coding agents](skills/install-chinese-localized-superpowers-workflows-for-coding-agents/) | Use superpowers-zh to install Chinese-localized coding-agent methods, China-specific development skills, and cross-tool setup for Claude Code, Codex, Cursor... | 7.2k | Templates & Workflows |
 | [Run independent multi-agent build and review flows with OPC](skills/run-independent-multi-agent-build-and-review-flows-with-opc/) | Use OPC as a Claude Code skill to select a task flow, dispatch specialist roles, enforce independent review... | 192 | Code Quality & Review |
 | [Debug local LLM and agent traces with Axon](skills/debug-local-llm-and-agent-traces-with-axon/) | Run Axon as a local OpenTelemetry endpoint and dashboard for inspecting LangChain and instrumented agent traces without sending... | 151 | Monitoring & Alerts |
@@ -123,7 +123,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 439 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 440 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 245 | Vulnerability scanning, auth setup, compliance |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 233 | Scaffolders, boilerplate generators, workflow templates |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 220 | ETL pipelines, parsing, format conversion |
@@ -133,8 +133,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 161 | Third-party API bridges, webhooks, service connectors |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 154 | Metrics, alerting rules, observability |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 126 | Email automation, calendar management, task coordination |
+| 📚 | [**Library & API Reference**](categories/library-api-reference/) | 125 | SDK docs, API parsers, symbol resolvers |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 125 | Web research, content discovery, data collection |
-| 📚 | [**Library & API Reference**](categories/library-api-reference/) | 124 | SDK docs, API parsers, symbol resolvers |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 121 | Web scraping, UI testing, headless browser control |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 108 | Audio/video processing, speech-to-text |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 104 | Image generation, asset processing, design automation |
@@ -202,7 +202,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,912 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,914 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,479 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
