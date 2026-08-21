@@ -46,10 +46,12 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 Never print or commit the key, put it in a command argument, or enable shell tracing. Treat a
 generation `POST` as accepted if its outcome is ambiguous; do not retry it automatically.
 
-## 1. Discover the current model and schema
+## 1. Discover the current model and request contract
 
-Read the live catalog immediately before building a request. Choose an exact image model and
-follow the schema URL, if supplied, for its required fields and supported controls:
+Read the live catalog immediately before building a request. The catalog response currently uses
+top-level `models` and `total` fields. Each model entry includes fields such as `name`, `category`,
+and an already-versioned `endpoint` path. Choose an exact text-to-image or image-to-image model;
+do not assume the catalog has a `.data[]` array, a `.type` field, or an inline `.schema` URL:
 
 ```bash
 curl -fsS --max-time 30 \
@@ -57,24 +59,31 @@ curl -fsS --max-time 30 \
   -o /tmp/muapi-models.json
 
 jq -r '
-  .data[]
-  | select((.type // "" | ascii_downcase) == "image")
-  | [.model, (.name // ""), (.schema // "")] | @tsv
+  .models[]
+  | select((.category // "" | ascii_downcase) | test("^(text to image|image to image)$"))
+  | [.name, (.category // ""), (.endpoint // "")] | @tsv
 ' /tmp/muapi-models.json
 ```
 
-Use the model endpoint returned by the catalog, not a remembered alias. Payload fields differ by
+Use the `endpoint` returned by the catalog, not a remembered alias. Payload fields differ by
 model; the minimal prompt payload below is only a starting point. Add size, reference-image, or
-quality fields only when the selected model's current schema documents them.
+quality fields only when the selected model's current model documentation or request contract
+supports them.
 
 ## 2. Build and review the request
 
 Construct JSON with `jq` so prompt text is escaped. Replace `MODEL_ENDPOINT` and add only fields
-validated against that model's live schema:
+validated against that model's current request contract:
 
 ```bash
-MODEL_ENDPOINT='replace-with-an-exact-image-model-endpoint'
+API_ORIGIN='https://api.muapi.ai'
+MODEL_ENDPOINT='/api/v1/replace-with-the-exact-endpoint-from-the-catalog'
 PROMPT='a small red fox reading a book beneath a lantern, storybook illustration'
+case "$MODEL_ENDPOINT" in
+  /api/v1/*) ;;
+  *) echo "Refusing an endpoint that is not an /api/v1 catalog path" >&2; exit 1 ;;
+esac
+SUBMIT_URL="${API_ORIGIN}${MODEL_ENDPOINT}"
 jq -n --arg prompt "$PROMPT" \
   '{prompt: $prompt}' \
   > /tmp/muapi-image-request.json
@@ -87,7 +96,7 @@ Use the documented model endpoint and do not add `curl --retry` or a POST retry 
 
 ```bash
 curl -fsS --max-time 60 \
-  -X POST "https://api.muapi.ai/api/v1/$MODEL_ENDPOINT" \
+  -X POST "$SUBMIT_URL" \
   -H "x-api-key: $MUAPI_API_KEY" \
   -H 'Content-Type: application/json' \
   -H 'Accept: application/json' \
