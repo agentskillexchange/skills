@@ -30,7 +30,7 @@ Cash-out lives at `/cash-out` as Create / Orders / Send. Direct rails: **Revolut
 ### Public skill repo
 
 ```bash
-npx skills add galleonlabs/sell-unused-tokens -g -y
+npm exec --package=skills@1.5.23 -- skills add galleonlabs/sell-unused-tokens -g -y
 ```
 
 ### OpenClaw
@@ -57,5 +57,5 @@ cp -R skills/skills/sell-unused-tokens ~/.agent-skills/sell-unused-tokens
 The `skills` npm package is maintained by Vercel Labs / third parties, not AgentSkillExchange. If you choose to use it, pin the package version:
 
 ```bash
-npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill sell-unused-tokens
+npm exec --package=skills@1.5.23 -- skills add agentskillexchange/skills --skill sell-unused-tokens
 ```
