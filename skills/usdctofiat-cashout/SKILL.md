@@ -5,7 +5,7 @@ description: "Add non-custodial Base USDC-to-fiat cash-out with @usdctofiat/offr
 category: "Integrations & Connectors"
 framework: "Multi-Framework"
 verification: listed
-source: "https://github.com/ADWilkinson/usdctofiat-skills"
+source: "https://github.com/ADWilkinson/usdctofiat-skills/tree/main/skills/cashout"
 tool_ecosystem:
   tool: "@usdctofiat/offramp"
   github_repo: "ADWilkinson/usdctofiat-skills"
@@ -43,8 +43,8 @@ Persist `depositId` immediately. Fast `depositId` is the composite resume key fo
 ### Direct repo / npx skills
 
 ```bash
-npx skills add ADWilkinson/usdctofiat-skills --skill cashout
-npm install @usdctofiat/offramp
+npm exec --package=skills@1.5.23 -- skills add ADWilkinson/usdctofiat-skills --skill cashout
+npm install @usdctofiat/offramp@8.0.1
 ```
 
 ### Agent Skill Exchange
@@ -57,11 +57,11 @@ cp -R skills/skills/usdctofiat-cashout ~/.agent-skills/usdctofiat-cashout
 ### Optional Third-Party Installer
 
 ```bash
-npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill usdctofiat-cashout
+npm exec --package=skills@1.5.23 -- skills add agentskillexchange/skills --skill usdctofiat-cashout
 ```
 
 ## Source
 
-- Skill repo: https://github.com/ADWilkinson/usdctofiat-skills
+- Skill repo: https://github.com/ADWilkinson/usdctofiat-skills/tree/main/skills/cashout
 - SDK: https://www.npmjs.com/package/@usdctofiat/offramp
 - Product: https://usdctofiat.xyz/developers
