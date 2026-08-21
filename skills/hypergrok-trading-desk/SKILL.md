@@ -6,10 +6,8 @@ category: "Integrations & Connectors"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/galleonlabs/hypergrok-trading-desk"
-github_stars: 1
 tool_ecosystem:
   github_repo: "galleonlabs/hypergrok-trading-desk"
-  github_stars: 1
   license: "MIT"
   maintained: true
 ---
@@ -27,6 +25,10 @@ Use this skill when you want research, risk, ticketed execution, and review as s
 **Desk skills:** operating model, trade lifecycle and ticket, risk limits and sizing, execution protocol, monitoring, post-trade review, incident playbooks, and the strategy lab.
 
 Every trade follows the same path: idea → evidence → risk sign-off → your approval by ticket id → one send → reconciliation → review. A trade-only API wallet is the only key the desk holds. It can trade; it cannot withdraw. Testnet first.
+
+## Financial risk boundary
+
+HyperGrok is documentation and instructions, not financial advice. Perpetual futures can liquidate an account. Use testnet first, keep explicit risk limits, and require human approval before any mainnet order.
 
 ## Installation
 
@@ -56,13 +58,13 @@ git clone https://github.com/galleonlabs/hypergrok-trading-desk.git
 The `skills` npm package is maintained by Vercel Labs / third parties, not AgentSkillExchange. If you choose to use it, pin the package version:
 
 ```bash
-npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill hypergrok-trading-desk
+npm exec --package=skills@1.5.23 -- skills add agentskillexchange/skills --skill hypergrok-trading-desk
 ```
 
 Upstream pack install:
 
 ```bash
-npm exec --package=skills@1.5.7 -- skills add galleonlabs/hypergrok-trading-desk
+npm exec --package=skills@1.5.23 -- skills add galleonlabs/hypergrok-trading-desk
 ```
 
 ### Claude Code marketplace
