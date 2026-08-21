@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-21",
-  "total": 2914,
+  "total": 2915,
   "skills": [
+    {
+      "slug": "automate-notebooklm-studio-generation-and-cited-research-batches-with-notebooklm-mcp",
+      "name": "Automate NotebookLM Studio generation and cited research batches with notebooklm-mcp",
+      "title": "Automate NotebookLM Studio generation and cited research batches with notebooklm-mcp",
+      "description": "Use NotebookLM through MCP or a local REST API to run cited Q&A, generate Studio artifacts, and manage high-volume research batches.",
+      "category": "Research & Scraping",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/roomi-fields/notebooklm-mcp",
+      "github_repo": "roomi-fields/notebooklm-mcp"
+    },
     {
       "slug": "asharehub",
       "name": "AShareHub Chinese Market Data",

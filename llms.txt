@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-21
-# Total: 2914 skills
+# Total: 2915 skills
+
+## Automate NotebookLM Studio generation and cited research batches with notebooklm-mcp
+slug: automate-notebooklm-studio-generation-and-cited-research-batches-with-notebooklm-mcp
+category: Research & Scraping
+framework: MCP
+verification: Security Reviewed
+description: Use NotebookLM through MCP or a local REST API to run cited Q&A, generate Studio artifacts, and manage high-volume research batches.
+url: https://agentskillexchange.com/skills/automate-notebooklm-studio-generation-and-cited-research-batches-with-notebooklm-mcp/
 
 ## AShareHub Chinese Market Data
 slug: asharehub
