@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-21
-# Total: 2915 skills
+# Total: 2916 skills
+
+## Run resource-constrained terminal coding sessions with hax
+slug: run-resource-constrained-terminal-coding-sessions-with-hax
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use hax as a lightweight terminal-native coding agent for local-model, provider-backed, or Unix-composed code workflows where low overhead and inspectable transcripts matter.
+url: https://agentskillexchange.com/skills/run-resource-constrained-terminal-coding-sessions-with-hax/
 
 ## Automate NotebookLM Studio generation and cited research batches with notebooklm-mcp
 slug: automate-notebooklm-studio-generation-and-cited-research-batches-with-notebooklm-mcp

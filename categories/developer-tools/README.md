@@ -430,6 +430,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Temporal CLI Workflow and Server Control](../../skills/temporal-cli-workflow-server-control/) | 350 | — |
 | [Run Genie planning and execution loops in Claude Code](../../skills/run-genie-planning-execution-loops-in-claude-code/) | 323 | 777/wk |
 | [Run Agent-Assisted Notebook Workflows in JupyterLab With Notebook Intelligence](../../skills/run-agent-assisted-notebook-workflows-in-jupyterlab-with-notebook-intelligence/) | 322 | 475/wk |
+| [Run resource-constrained terminal coding sessions with hax](../../skills/run-resource-constrained-terminal-coding-sessions-with-hax/) | 321 | — |
 | [Reduce agent terminal noise with OMNI](../../skills/reduce-agent-terminal-noise-with-omni/) | 319 | — |
 | [Run declarative multi-agent CLI workflows with Comanda](../../skills/run-declarative-multi-agent-cli-workflows-with-comanda/) | 315 | — |
 | [Connect RStudio to MCP Agents with ClaudeR](../../skills/connect-rstudio-to-mcp-agents-with-clauder/) | 305 | — |

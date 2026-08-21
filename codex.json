@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-21",
-  "total": 2915,
+  "total": 2916,
   "skills": [
+    {
+      "slug": "run-resource-constrained-terminal-coding-sessions-with-hax",
+      "name": "Run resource-constrained terminal coding sessions with hax",
+      "title": "Run resource-constrained terminal coding sessions with hax",
+      "description": "Use hax as a lightweight terminal-native coding agent for local-model, provider-backed, or Unix-composed code workflows where low overhead and inspectable transcripts matter.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/OleksandrChekhovskyi/hax",
+      "github_repo": "OleksandrChekhovskyi/hax"
+    },
     {
       "slug": "automate-notebooklm-studio-generation-and-cited-research-batches-with-notebooklm-mcp",
       "name": "Automate NotebookLM Studio generation and cited research batches with notebooklm-mcp",
