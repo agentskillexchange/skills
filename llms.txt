@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-08-21
-# Total: 2916 skills
+# Generated: 2026-08-22
+# Total: 2920 skills
+
+## Use 404.directory
+slug: use-404-directory
+category: Library & API Reference
+framework: Multi-Framework
+verification: Published
+description: Use the public 404.directory MCP server to search current official OpenAI, Microsoft Learn, AWS, and Cloudflare documentation, verify public web deployments, understand webpages, and…
+url: https://agentskillexchange.com/skills/use-404-directory/
+
+## USDCtoFiat Cash-Out
+slug: usdctofiat-cashout
+category: Integrations & Connectors
+framework: Multi-Framework
+verification: Published
+description: Add non-custodial Base USDC-to-fiat cash-out with @usdctofiat/offramp cashout({ mode: "fast" | "best" }). Use when an agent must sell USDC from a real viem…
+url: https://agentskillexchange.com/skills/usdctofiat-cashout/
+
+## Sell unused tokens
+slug: sell-unused-tokens
+category: Developer Tools
+framework: Claude Code
+verification: Published
+description: List leftover LLM API capacity on tokensto.cash (OpenRouter, OpenAI, Anthropic, Venice, Capminal, and 20+ others) and cash out USDC. Use when the user wants…
+url: https://agentskillexchange.com/skills/sell-unused-tokens/
+
+## Generate Images with MuAPI
+slug: generate-images-with-muapi
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Published
+description: Discovers current MuAPI image models, builds a model-specific request, and validates asynchronous image artifacts. Use when an agent needs hosted image generation through one…
+url: https://agentskillexchange.com/skills/generate-images-with-muapi/
 
 ## Run resource-constrained terminal coding sessions with hax
 slug: run-resource-constrained-terminal-coding-sessions-with-hax

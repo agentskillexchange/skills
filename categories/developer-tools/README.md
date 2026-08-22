@@ -475,6 +475,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | — | — |
 | [Obsidian Vault Manager](../../skills/obsidian-vault-manager/) | — | — |
 | [RouterBase Model Routing](../../skills/routerbase-model-routing/) | — | — |
+| [Sell unused tokens](../../skills/sell-unused-tokens/) | — | — |
 | [Snowe UI Skill](../../skills/snowe-ui-skill/) | — | — |
 | [Turn notes, logs, and screenshots into structured GitHub issues with GitHub Issue Creator](../../skills/turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator/) | — | — |
 | [Unified AI System Gateway](../../skills/unified-ai-gateway/) | — | — |

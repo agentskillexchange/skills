@@ -1,9 +1,52 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-08-21",
-  "total": 2916,
+  "generated": "2026-08-22",
+  "total": 2920,
   "skills": [
+    {
+      "slug": "use-404-directory",
+      "name": "Use 404.directory",
+      "title": "Use 404.directory",
+      "description": "Use the public 404.directory MCP server to search current official OpenAI, Microsoft Learn, AWS, and Cloudflare documentation, verify public web deployments, understand webpages, and…",
+      "category": "Library & API Reference",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/MM-sheng/404-directory",
+      "github_repo": "mm-sheng/404-directory"
+    },
+    {
+      "slug": "usdctofiat-cashout",
+      "name": "USDCtoFiat Cash-Out",
+      "title": "USDCtoFiat Cash-Out",
+      "description": "Add non-custodial Base USDC-to-fiat cash-out with @usdctofiat/offramp cashout({ mode: \"fast\" | \"best\" }). Use when an agent must sell USDC from a real viem…",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/ADWilkinson/usdctofiat-skills/tree/main/skills/cashout",
+      "github_repo": "ADWilkinson/usdctofiat-skills"
+    },
+    {
+      "slug": "sell-unused-tokens",
+      "name": "Sell unused tokens",
+      "title": "Sell unused tokens",
+      "description": "List leftover LLM API capacity on tokensto.cash (OpenRouter, OpenAI, Anthropic, Venice, Capminal, and 20+ others) and cash out USDC. Use when the user wants…",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "listed",
+      "source_url": "https://github.com/galleonlabs/sell-unused-tokens",
+      "github_repo": "galleonlabs/sell-unused-tokens"
+    },
+    {
+      "slug": "generate-images-with-muapi",
+      "name": "Generate Images with MuAPI",
+      "title": "Generate Images with MuAPI",
+      "description": "Discovers current MuAPI image models, builds a model-specific request, and validates asynchronous image artifacts. Use when an agent needs hosted image generation through one…",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://muapi.ai/docs/api-reference"
+    },
     {
       "slug": "run-resource-constrained-terminal-coding-sessions-with-hax",
       "name": "Run resource-constrained terminal coding sessions with hax",
