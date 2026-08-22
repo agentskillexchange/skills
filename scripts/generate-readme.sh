@@ -25,6 +25,8 @@ BROWSE_BASE = f"{SITE_BASE}/wp-json/ase-marketplace/v1/browse"
 WP_CAT_URL = f"{SITE_BASE}/wp-json/wp/v2/skill_category?per_page=100&orderby=count&order=desc"
 HOMEPAGE_PICKS_URL = f"{SITE_BASE}/wp-json/ase-marketplace/v1/homepage-picks"
 INDUSTRY_MANIFEST = REPO_DIR / "scripts" / "industry-collections.json"
+GITHUB_API_BASE = os.environ.get("ASE_GITHUB_API_BASE", "https://api.github.com").rstrip("/")
+GITHUB_REPO = os.environ.get("ASE_GITHUB_REPO", "agentskillexchange/skills")
 
 CAT_EMOJI = {
     "CI/CD Integrations": "🔧", "Runbooks & Diagnostics": "📋",
@@ -84,6 +86,16 @@ def fetch_json(url):
     })
     with urllib.request.urlopen(req, timeout=60) as resp:
         return json.loads(resp.read().decode("utf-8")), {k.lower(): v for k, v in resp.headers.items()}
+
+def fetch_github_json(path):
+    url = f"{GITHUB_API_BASE}{path}"
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "Mozilla/5.0 (compatible; ASE Repo Generator/1.0)",
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+    })
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        return json.loads(resp.read().decode("utf-8"))
 
 def fmt_num(n):
     n = int(n or 0)
@@ -185,6 +197,21 @@ def repo_skill_author(slug):
     value = author_match.group(1).strip().strip('"').strip("'")
     return clean_text(value)
 
+def repo_skill_frontmatter(slug):
+    path = REPO_DIR / "skills" / slug / "SKILL.md"
+    if not path.is_file():
+        return {}
+    match = re.match(r"^---\n(.*?)\n---\n", path.read_text(encoding="utf-8"), re.S)
+    if not match:
+        return {}
+    values = {}
+    for line in match.group(1).splitlines():
+        if ":" not in line:
+            continue
+        key, value = line.split(":", 1)
+        values[key.strip()] = clean_text(value.strip().strip('"').strip("'"))
+    return values
+
 def is_public_published(item):
     for key in ("status", "post_status"):
         value = str(item.get(key) or "").strip().lower()
@@ -252,6 +279,61 @@ def community_contribution_rows(source_items, limit=10):
             break
     return rows
 
+def item_by_slug(source_items):
+    lookup = {}
+    for item in source_items:
+        slug = str(item.get("slug") or "").strip()
+        if slug and slug not in lookup:
+            lookup[slug] = item
+    return lookup
+
+def community_contribution_rows_from_prs(source_items, limit=10):
+    lookup = item_by_slug(source_items)
+    rows = []
+    seen = set()
+    try:
+        pulls = fetch_github_json(f"/repos/{GITHUB_REPO}/pulls?state=closed&sort=updated&direction=desc&per_page=100")
+    except Exception:
+        return []
+
+    merged_pulls = [pr for pr in pulls if pr.get("merged_at")]
+    merged_pulls.sort(key=lambda pr: pr.get("merged_at") or "", reverse=True)
+
+    for pr in merged_pulls:
+        if not pr.get("merged_at"):
+            continue
+        contributor = clean_text((pr.get("user") or {}).get("login"))
+        if not contributor:
+            continue
+        try:
+            files = fetch_github_json(f"/repos/{GITHUB_REPO}/pulls/{pr.get('number')}/files?per_page=100")
+        except Exception:
+            continue
+        for changed in files:
+            filename = str(changed.get("filename") or "")
+            match = re.fullmatch(r"skills/([a-z0-9][a-z0-9-]*)/SKILL\.md", filename)
+            if not match or changed.get("status") not in ("added", "modified"):
+                continue
+            slug = match.group(1)
+            if slug in seen or not repo_skill_exists(slug):
+                continue
+            item = lookup.get(slug, {})
+            frontmatter = repo_skill_frontmatter(slug)
+            title = display_name(item) or clean_text(frontmatter.get("name")) or slug.replace("-", " ").title()
+            if not title:
+                continue
+            seen.add(slug)
+            rows.append({
+                "contributor": contributor,
+                "title": title,
+                "slug": slug,
+                "help": short_help(item or frontmatter),
+                "category": first_label(item, "categories", "category", fallback=frontmatter.get("category") or "Uncategorized"),
+            })
+            if len(rows) >= limit:
+                return rows
+    return rows
+
 # Fetch live data
 cats, _ = fetch_json(WP_CAT_URL)
 cat_rows = [{"name": html.unescape(c["name"]), "slug": c["slug"], "count": int(c["count"])} for c in cats]
@@ -271,7 +353,7 @@ for item in items:
 total = len(items)
 sec_reviewed = sum(1 for i in items if i.get("verification") == "security_reviewed")
 recent_skills = recent_skill_rows(items)
-community_contributions = community_contribution_rows(items)
+community_contributions = community_contribution_rows_from_prs(items) or community_contribution_rows(items)
 
 try:
     homepage_picks, _ = fetch_json(HOMEPAGE_PICKS_URL)
