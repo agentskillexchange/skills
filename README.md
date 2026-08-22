@@ -100,6 +100,21 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 ---
 
+## Recent Community Contributions
+
+| Contributor | Skill | What it helps with | Category |
+|---|---|---|---|
+| Oleksandr Chekhovskyi | [Run resource-constrained terminal coding sessions with hax](skills/run-resource-constrained-terminal-coding-sessions-with-hax/) | Use hax as a lightweight terminal-native coding agent for local-model, provider-backed, or Unix-composed code workflows where low overhead... | Developer Tools |
+| Romain Peyrichou | [Automate NotebookLM Studio generation and cited research batches with notebooklm-mcp](skills/automate-notebooklm-studio-generation-and-cited-research-batches-with-notebooklm-mcp/) | Use NotebookLM through MCP or a local REST API to run cited Q&A, generate Studio artifacts, and manage... | Research & Scraping |
+| Hmbown | [Run CodeWhale terminal coding agent workflows](skills/run-codewhale-terminal-coding-agent-workflows/) | Use CodeWhale as a local terminal coding agent for repository edits, test repair, provider-switched sessions, approval-gated commands, MCP... | Developer Tools |
+| Derek Larson | [Run agent CLI terminals inside Obsidian with Claude Sidebar](skills/run-agent-cli-terminals-inside-obsidian-with-claude-sidebar/) | Use Claude Sidebar when an operator wants Claude Code, Codex, or another agent CLI available as terminal tabs... | Developer Tools |
+| Spielewoy | [Run Autoprompt coordination loops across coding agents](skills/run-autoprompt-coordination-loops-across-coding-agents/) | Use Autoprompt when an operator wants a coding agent to turn one goal into a planned, delegated, reviewed... | Developer Tools |
+| sangrokjung | [Install Claude Forge workflows for guarded Claude Code execution](skills/install-claude-forge-workflows-for-guarded-claude-code-execution/) | Add Claude Forge's agents, slash commands, skills, and hooks to Claude Code when a coding task needs repeatable... | Developer Tools |
+| SandBase | [Cross-validate research with SandBase Multi-Source Search](skills/cross-validate-research-with-sandbase-multi-source-search/) | Use SandBase Multi-Source Search to fact-check claims across independent web and academic sources, record disagreements, score confidence, and... | Research & Scraping |
+| Ouijit | [Coordinate parallel coding-agent worktrees and terminals with Ouijit](skills/coordinate-parallel-coding-agent-worktrees-and-terminals-with-ouijit/) | Use Ouijit to manage parallel CLI coding-agent tasks with per-task git worktrees, integrated terminals, lifecycle hooks, and sandboxed... | Developer Tools |
+
+---
+
 ## Featured Skills
 
 Mirrors the live ASE homepage featured shelf: recent-popular, diversified across tools and categories, rather than a frozen all-time-stars list. See [TOP-STARS.md](TOP-STARS.md) and [TOP-DOWNLOADS.md](TOP-DOWNLOADS.md) for raw rankings.

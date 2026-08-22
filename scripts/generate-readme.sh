@@ -172,6 +172,19 @@ def parse_publish_timestamp(item):
 def repo_skill_exists(slug):
     return bool(slug) and (REPO_DIR / "skills" / slug / "SKILL.md").is_file()
 
+def repo_skill_author(slug):
+    path = REPO_DIR / "skills" / slug / "SKILL.md"
+    if not path.is_file():
+        return ""
+    match = re.match(r"^---\n(.*?)\n---\n", path.read_text(encoding="utf-8"), re.S)
+    if not match:
+        return ""
+    author_match = re.search(r'^author:\s*(.+?)\s*$', match.group(1), re.M)
+    if not author_match:
+        return ""
+    value = author_match.group(1).strip().strip('"').strip("'")
+    return clean_text(value)
+
 def is_public_published(item):
     for key in ("status", "post_status"):
         value = str(item.get(key) or "").strip().lower()
@@ -207,6 +220,38 @@ def recent_skill_rows(source_items, limit=10):
             break
     return rows
 
+def community_contribution_rows(source_items, limit=10):
+    seen = set()
+    rows = []
+    for item in sorted(source_items, key=parse_publish_timestamp, reverse=True):
+        if not is_public_published(item):
+            continue
+        slug = str(item.get("slug") or "").strip()
+        if not slug or slug in seen or not re.fullmatch(r"[a-z0-9][a-z0-9-]*", slug):
+            continue
+        if not repo_skill_exists(slug):
+            continue
+        contributor = clean_text(
+            item.get("creator")
+            or item.get("creator_handle")
+            or item.get("author_name")
+            or repo_skill_author(slug)
+        )
+        title = display_name(item)
+        if not contributor or not title:
+            continue
+        seen.add(slug)
+        rows.append({
+            "contributor": contributor,
+            "title": title,
+            "slug": slug,
+            "help": short_help(item),
+            "category": first_label(item, "categories", "category"),
+        })
+        if len(rows) >= limit:
+            break
+    return rows
+
 # Fetch live data
 cats, _ = fetch_json(WP_CAT_URL)
 cat_rows = [{"name": html.unescape(c["name"]), "slug": c["slug"], "count": int(c["count"])} for c in cats]
@@ -226,6 +271,7 @@ for item in items:
 total = len(items)
 sec_reviewed = sum(1 for i in items if i.get("verification") == "security_reviewed")
 recent_skills = recent_skill_rows(items)
+community_contributions = community_contribution_rows(items)
 
 try:
     homepage_picks, _ = fetch_json(HOMEPAGE_PICKS_URL)
@@ -381,6 +427,15 @@ lines.append("| Skill | What it helps with | Stars | Category |")
 lines.append("|---|---|---:|---|")
 for item in recent_skills:
     lines.append(f"| [{clean_table_text(item['title'])}](skills/{item['slug']}/) | {item['help']} | {item['stars']} | {clean_table_text(item['category'])} |")
+lines.append("")
+lines.append("---")
+lines.append("")
+lines.append("## Recent Community Contributions")
+lines.append("")
+lines.append("| Contributor | Skill | What it helps with | Category |")
+lines.append("|---|---|---|---|")
+for item in community_contributions:
+    lines.append(f"| {clean_table_text(item['contributor'])} | [{clean_table_text(item['title'])}](skills/{item['slug']}/) | {item['help']} | {clean_table_text(item['category'])} |")
 lines.append("")
 lines.append("---")
 lines.append("")
