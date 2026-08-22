@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-22",
-  "total": 2920,
+  "total": 2921,
   "skills": [
+    {
+      "slug": "coordinate-project-scoped-cli-agent-sessions-with-termio",
+      "name": "Coordinate project-scoped CLI agent sessions with Termio",
+      "title": "Coordinate project-scoped CLI agent sessions with Termio",
+      "description": "Use Termio's `termio sessions` CLI to list, watch, spawn, send to, read, and close sibling coding-agent sessions in one macOS project.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/termio-sh/termio",
+      "github_repo": "termio-sh/termio"
+    },
     {
       "slug": "use-404-directory",
       "name": "Use 404.directory",

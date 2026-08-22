@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-22
-# Total: 2920 skills
+# Total: 2921 skills
+
+## Coordinate project-scoped CLI agent sessions with Termio
+slug: coordinate-project-scoped-cli-agent-sessions-with-termio
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Termio's `termio sessions` CLI to list, watch, spawn, send to, read, and close sibling coding-agent sessions in one macOS project.
+url: https://agentskillexchange.com/skills/coordinate-project-scoped-cli-agent-sessions-with-termio/
 
 ## Use 404.directory
 slug: use-404-directory

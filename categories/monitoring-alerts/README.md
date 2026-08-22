@@ -162,7 +162,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Datadog Monitor Sync](../../skills/datadog-monitor-sync/) | 791 | 6.6M/wk |
 | [Datadog Monitors Skill](../../skills/datadog-monitors-skill/) | 791 | 6.6M/wk |
 | [Datadog SLO Monitor](../../skills/datadog-slo-monitor/) | 791 | 6.6M/wk |
-| [Sentry MCP Server](../../skills/sentry-mcp-server/) | 712 | 94.6k/wk |
+| [Sentry MCP Server](../../skills/sentry-mcp-server/) | 712 | 96.7k/wk |
 | [Gate agent regressions from production traces with Tracely](../../skills/gate-agent-regressions-from-production-traces-with-tracely/) | 643 | — |
 | [Sentry MCP Server for Error Tracking and Performance](../../skills/sentry-mcp-server-error-tracking-performance/) | 615 | 49.6k/wk |
 | [Track coding-agent quota burn and remaining headroom across providers with onWatch](../../skills/track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch/) | 580 | — |
@@ -173,14 +173,14 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Cronitor CLI for Cron Monitoring and Job Telemetry](../../skills/cronitor-cli-cron-monitoring-job-telemetry/) | 399 | — |
 | [Monitor coding-agent token spend with Splitrail](../../skills/monitor-coding-agent-token-spend-with-splitrail/) | 159 | — |
 | [Debug local LLM and agent traces with Axon](../../skills/debug-local-llm-and-agent-traces-with-axon/) | 151 | 394/wk |
-| [Metrics Dashboard Builder](../../skills/metrics-dashboard-builder/) | 103 | 2.7M/wk |
+| [Metrics Dashboard Builder](../../skills/metrics-dashboard-builder/) | 103 | 2.6M/wk |
 | [Checkly Browser Check Failure Notifier](../../skills/checkly-browser-check-failure-notifier/) | 92 | 198.9k/wk |
 | [Checkly CLI Monitoring as Code for API and Browser Checks](../../skills/checkly-cli-monitoring-as-code-for-api-and-browser-checks/) | 92 | 198.9k/wk |
 | [PagerDuty Incident Escalator](../../skills/pagerduty-incident-escalator/) | 69 | 1M/wk |
 | [PagerDuty Incident Orchestrator](../../skills/pagerduty-incident-orchestrator-2/) | 69 | 1M/wk |
 | [PagerDuty Incident Runbook Linker](../../skills/pagerduty-incident-runbook-linker/) | 69 | 1M/wk |
 | [PagerDuty MCP Server](../../skills/pagerduty-mcp-server/) | 69 | 238k/wk |
-| [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | 24 | 5.5k/wk |
+| [OpsGenie MCP Server](../../skills/opsgenie-mcp-server/) | 24 | 5.3k/wk |
 | [AWS CloudWatch Insights Query Builder](../../skills/aws-cloudwatch-insights-query-builder/) | — | — |
 | [Cloudflare Analytics Health Monitor](../../skills/cloudflare-analytics-health-monitor/) | — | — |
 | [CloudWatch Anomaly Detector](../../skills/cloudwatch-anomaly-detector/) | — | — |
