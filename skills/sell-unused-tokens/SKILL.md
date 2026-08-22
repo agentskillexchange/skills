@@ -2,10 +2,12 @@
 name: "Sell unused tokens"
 slug: "sell-unused-tokens"
 description: "List leftover LLM API capacity on tokensto.cash (OpenRouter, OpenAI, Anthropic, Venice, Capminal, and 20+ others) and cash out USDC. Use when the user wants to sell unused provider credits for cash."
+verification: "listed"
+source: "https://github.com/galleonlabs/sell-unused-tokens"
 category: "Developer Tools"
 framework: "Claude Code"
-verification: listed
-source: "https://github.com/galleonlabs/sell-unused-tokens"
+tool_ecosystem:
+  github_repo: "galleonlabs/sell-unused-tokens"
 ---
 
 # Sell unused tokens
@@ -27,35 +29,7 @@ Cash-out lives at `/cash-out` as Create / Orders / Send. Direct rails: **Revolut
 
 ## Installation
 
-### Public skill repo
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-```bash
-npm exec --package=skills@1.5.23 -- skills add galleonlabs/sell-unused-tokens -g -y
-```
+- Source: https://github.com/galleonlabs/sell-unused-tokens
 
-### OpenClaw
-
-```bash
-clawhub install sell-unused-tokens
-```
-
-### Direct repo/manual install
-
-Clone the public skill repo, or copy this catalog directory into the skill folder used by your agent runtime:
-
-```bash
-git clone https://github.com/galleonlabs/sell-unused-tokens.git ~/.claude/skills/sell-unused-tokens
-```
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git
-cp -R skills/skills/sell-unused-tokens ~/.agent-skills/sell-unused-tokens
-```
-
-### Optional Third-Party Installer
-
-The `skills` npm package is maintained by Vercel Labs / third parties, not AgentSkillExchange. If you choose to use it, pin the package version:
-
-```bash
-npm exec --package=skills@1.5.23 -- skills add agentskillexchange/skills --skill sell-unused-tokens
-```

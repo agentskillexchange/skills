@@ -2,15 +2,12 @@
 name: "Use 404.directory"
 slug: "use-404-directory"
 description: "Use the public 404.directory MCP server to search current official OpenAI, Microsoft Learn, AWS, and Cloudflare documentation, verify public web deployments, understand webpages, and discover or invoke trusted read-only MCP tools."
+verification: "listed"
+source: "https://github.com/MM-sheng/404-directory"
 category: "Library & API Reference"
 framework: "Multi-Framework"
-verification: listed
-source: "https://github.com/MM-sheng/404-directory"
 tool_ecosystem:
-  tool: "404.directory"
-  github_repo: "MM-sheng/404-directory"
-  license: "MIT"
-  maintained: true
+  github_repo: "mm-sheng/404-directory"
 ---
 
 # Use 404.directory
@@ -25,35 +22,9 @@ using ownership, availability, compatibility, security, and usage signals.
 
 ## Installation
 
-Install from the upstream repository with the pinned Vercel Labs skills CLI:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-```bash
-npm exec --package=skills@1.5.7 -- skills add MM-sheng/404-directory --skill use-404-directory
-```
-
-Or install this Agent Skill Exchange copy:
-
-```bash
-npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill use-404-directory
-```
-
-The MCP endpoint is public and does not require an account or API key:
-
-```text
-https://404.directory/mcp
-```
-
-For a client-specific MCP configuration, including privacy-safe attribution
-headers, open:
-
-```text
-https://404.directory/connect?source=agent-skill-exchange
-```
-
-Generate one random UUID locally and keep it stable for the installation. Send
-`agent:<uuid>` as `X-404-Agent-ID` and the lowercase client name as
-`X-404-Source`. Never derive the ID from an email, username, hostname, prompt,
-or other personal data.
+- Source: https://github.com/MM-sheng/404-directory
 
 ## Choose the workflow
 

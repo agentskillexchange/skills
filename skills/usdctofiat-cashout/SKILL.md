@@ -2,16 +2,10 @@
 name: "USDCtoFiat Cash-Out"
 slug: "usdctofiat-cashout"
 description: "Add non-custodial Base USDC-to-fiat cash-out with @usdctofiat/offramp cashout({ mode: \"fast\" | \"best\" }). Use when an agent must sell USDC from a real viem WalletClient into Venmo, Cash App, Revolut, PayPal, Zelle, Monzo, or Chime without an exchange account."
+verification: "listed"
+source: "https://github.com/ADWilkinson/usdctofiat-skills/tree/main/skills/cashout"
 category: "Integrations & Connectors"
 framework: "Multi-Framework"
-verification: listed
-source: "https://github.com/ADWilkinson/usdctofiat-skills/tree/main/skills/cashout"
-tool_ecosystem:
-  tool: "@usdctofiat/offramp"
-  github_repo: "ADWilkinson/usdctofiat-skills"
-  npm_package: "@usdctofiat/offramp"
-  license: "MIT"
-  maintained: true
 ---
 
 # USDCtoFiat Cash-Out
@@ -40,25 +34,9 @@ Persist `depositId` immediately. Fast `depositId` is the composite resume key fo
 
 ## Installation
 
-### Direct repo / npx skills
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-```bash
-npm exec --package=skills@1.5.23 -- skills add ADWilkinson/usdctofiat-skills --skill cashout
-npm install @usdctofiat/offramp@8.0.1
-```
-
-### Agent Skill Exchange
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git
-cp -R skills/skills/usdctofiat-cashout ~/.agent-skills/usdctofiat-cashout
-```
-
-### Optional Third-Party Installer
-
-```bash
-npm exec --package=skills@1.5.23 -- skills add agentskillexchange/skills --skill usdctofiat-cashout
-```
+- Source: https://github.com/ADWilkinson/usdctofiat-skills/tree/main/skills/cashout
 
 ## Source
 
