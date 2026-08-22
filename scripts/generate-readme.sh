@@ -119,6 +119,12 @@ def clean_text(value):
 def clean_table_text(value):
     return clean_text(value).replace("|", "\\|")
 
+def github_profile_link(login):
+    login = clean_text(login)
+    if not re.fullmatch(r"[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?", login):
+        return clean_table_text(login)
+    return f"[{clean_table_text(login)}](https://github.com/{urllib.parse.quote(login)})"
+
 def display_name(item):
     return clean_text(item.get("name") or item.get("title"))
 
@@ -517,7 +523,7 @@ lines.append("")
 lines.append("| Contributor | Skill | What it helps with | Category |")
 lines.append("|---|---|---|---|")
 for item in community_contributions:
-    lines.append(f"| {clean_table_text(item['contributor'])} | [{clean_table_text(item['title'])}](skills/{item['slug']}/) | {item['help']} | {clean_table_text(item['category'])} |")
+    lines.append(f"| {github_profile_link(item['contributor'])} | [{clean_table_text(item['title'])}](skills/{item['slug']}/) | {item['help']} | {clean_table_text(item['category'])} |")
 lines.append("")
 lines.append("---")
 lines.append("")
