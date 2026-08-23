@@ -13,7 +13,7 @@ tool_ecosystem:
   github_repo: "getsentry/sentry-for-ai"
   github_stars: 190
   npm_package: "@sentry/ai"
-  npm_weekly_downloads: 141
+  npm_weekly_downloads: 163
 ---
 
 # Sentry for AI
