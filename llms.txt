@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-23
-# Total: 2922 skills
+# Total: 2923 skills
+
+## Run provider-agnostic terminal coding sessions with FuXi
+slug: run-provider-agnostic-terminal-coding-sessions-with-fuxi
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use FuXi when an operator wants a terminal coding agent to edit code, run commands, drive tools, and verify changes with cost-aware routing across…
+url: https://agentskillexchange.com/skills/run-provider-agnostic-terminal-coding-sessions-with-fuxi/
 
 ## HyperGrok Trading Desk
 slug: hypergrok-trading-desk

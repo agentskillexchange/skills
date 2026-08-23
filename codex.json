@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-23",
-  "total": 2922,
+  "total": 2923,
   "skills": [
+    {
+      "slug": "run-provider-agnostic-terminal-coding-sessions-with-fuxi",
+      "name": "Run provider-agnostic terminal coding sessions with FuXi",
+      "title": "Run provider-agnostic terminal coding sessions with FuXi",
+      "description": "Use FuXi when an operator wants a terminal coding agent to edit code, run commands, drive tools, and verify changes with cost-aware routing across…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/fuxicodex/Fuxi",
+      "github_repo": "fuxicodex/Fuxi"
+    },
     {
       "slug": "hypergrok-trading-desk",
       "name": "HyperGrok Trading Desk",
