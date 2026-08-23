@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-08-22
+# Generated: 2026-08-23
 # Total: 2921 skills
 
 ## Coordinate project-scoped CLI agent sessions with Termio
