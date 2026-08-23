@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-23",
-  "total": 2921,
+  "total": 2922,
   "skills": [
+    {
+      "slug": "hypergrok-trading-desk",
+      "name": "HyperGrok Trading Desk",
+      "title": "HyperGrok Trading Desk",
+      "description": "Turn Claude Code, Cursor, or Grok Bot into a 7-role Hyperliquid trading desk. Sixteen SKILL.md skills plus seven agent prompts cover market data, risk…",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/galleonlabs/hypergrok-trading-desk",
+      "github_repo": "galleonlabs/hypergrok-trading-desk"
+    },
     {
       "slug": "coordinate-project-scoped-cli-agent-sessions-with-termio",
       "name": "Coordinate project-scoped CLI agent sessions with Termio",

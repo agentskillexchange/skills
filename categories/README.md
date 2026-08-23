@@ -1,6 +1,6 @@
 # Categories
 
-> **2921 skills** across **17 categories**
+> **2922 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -11,7 +11,7 @@
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **199** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **192** | Pipeline configs, deployment automation, build tooling, and continuou... |
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **177** | Incident response, troubleshooting guides, system diagnostics, and op... |
-| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **162** | Third-party API bridges, webhook handlers, service connectors, and pl... |
+| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **163** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **154** | Metrics collection, alerting rules, observability setup, and system m... |
 | 📚 | [**Library & API Reference**](library-api-reference/) | **126** | SDK documentation, API guides, framework reference material, and libr... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **126** | Web research, data collection, content aggregation, and information g... |

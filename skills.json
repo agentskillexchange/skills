@@ -1,8 +1,19 @@
 {
   "version": "2.0",
-  "total": 2921,
+  "total": 2922,
   "generated": "2026-08-23",
   "skills": [
+    {
+      "slug": "hypergrok-trading-desk",
+      "name": "HyperGrok Trading Desk",
+      "title": "HyperGrok Trading Desk",
+      "description": "Turn Claude Code, Cursor, or Grok Bot into a 7-role Hyperliquid trading desk. Sixteen SKILL.md skills plus seven agent prompts cover market data, risk…",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/galleonlabs/hypergrok-trading-desk",
+      "github_repo": "galleonlabs/hypergrok-trading-desk"
+    },
     {
       "slug": "coordinate-project-scoped-cli-agent-sessions-with-termio",
       "name": "Coordinate project-scoped CLI agent sessions with Termio",
@@ -408,7 +419,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 438
+        "github_stars": 438,
+        "npm_weekly_downloads": 92
       },
       "source_url": "https://github.com/mindmuxai/brain.md",
       "github_repo": "mindmuxai/brain.md"
@@ -1472,7 +1484,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 25780
+        "github_stars": 25780,
+        "npm_weekly_downloads": 508
       },
       "source_url": "https://github.com/OthmanAdi/planning-with-files",
       "github_repo": "OthmanAdi/planning-with-files"
@@ -1543,7 +1556,8 @@
       "framework": "Codex",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 2745
+        "github_stars": 2745,
+        "npm_weekly_downloads": 29
       },
       "source_url": "https://github.com/Agentchengfeng/chengfeng-videocut-skills",
       "github_repo": "Agentchengfeng/chengfeng-videocut-skills"
@@ -2578,7 +2592,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 1651
+        "github_stars": 1651,
+        "npm_weekly_downloads": 394
       },
       "source_url": "https://github.com/moorcheh-ai/memanto",
       "github_repo": "moorcheh-ai/memanto"

@@ -28,11 +28,11 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Capture local screen and audio context so agents can search what happened on your device](../../skills/capture-local-screen-and-audio-context-so-agents-can-search-what-happened-on-your-device/) | ⬇ 13.2k/wk |
 | [Present version-controlled markdown slide decks as terminal-native talks with Presenterm](../../skills/present-version-controlled-markdown-slide-decks-as-terminal-native-talks-with-presenterm/) | ⬇ 29.9k/wk |
 | [Summarize URLs, files, podcasts, and YouTube sources into agent-ready briefs with Summarize](../../skills/summarize-urls-files-podcasts-and-youtube-sources-into-agent-ready-briefs-with-summarize/) | ⬇ 42.8k/wk |
+| [Cut and finish Chinese talking-head videos with Chengfeng Videocut Skills](../../skills/cut-and-finish-chinese-talking-head-videos-with-chengfeng-videocut-skills/) | ⬇ 29/wk |
 | [Capture live transcripts and searchable meeting memory for agents with Minutes](../../skills/capture-live-transcripts-and-searchable-meeting-memory-for-agents-with-minutes/) | ⬇ 3.2k/wk |
 | [Analyze videos with frame extraction and audio context in Claude Code](../../skills/analyze-videos-with-frame-extraction-and-audio-context-in-claude-code/) | ⬇ 802/wk |
 | [Deepgram Real-Time Transcription Connector](../../skills/deepgram-realtime-transcription-connector/) | ⬇ 1.6M/wk |
 | [Mux Node SDK for Video and Streaming API Workflows](../../skills/mux-node-sdk-video-and-streaming-api-workflows/) | ⬇ 987.7k/wk |
-| [Cartesia JavaScript SDK for Low-Latency Voice Generation](../../skills/cartesia-javascript-sdk-low-latency-voice-generation/) | ⬇ 192.2k/wk |
 
 ---
 
@@ -109,7 +109,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Self-host an OpenAI-compatible speech API for local transcription, translation, and TTS with Speaches](../../skills/self-host-an-openai-compatible-speech-api-for-local-transcription-translation-and-tts-with-speaches/) | 3.2k | — |
 | [Whishper Self-Hosted Speech-to-Text and Audio Workflow Skill](../../skills/whishper-self-hosted-speech-to-text-audio-workflow-skill/) | 3k | — |
 | [Force-align narration and transcript text into subtitle or SMIL timing maps](../../skills/force-align-narration-and-transcript-text-into-subtitle-or-smil-timing-maps/) | 2.8k | — |
-| [Cut and finish Chinese talking-head videos with Chengfeng Videocut Skills](../../skills/cut-and-finish-chinese-talking-head-videos-with-chengfeng-videocut-skills/) | 2.7k | — |
+| [Cut and finish Chinese talking-head videos with Chengfeng Videocut Skills](../../skills/cut-and-finish-chinese-talking-head-videos-with-chengfeng-videocut-skills/) | 2.7k | 29/wk |
 | [Audio Stem Separator with Demucs](../../skills/audio-stem-separator-demucs/) | 2.5k | — |
 | [audiowaveform Audio Waveform Data Generator and Image Renderer](../../skills/audiowaveform-bbc-waveform-generator/) | 2.1k | — |
 | [MediaInfo Metadata Extractor](../../skills/mediainfo-metadata-extractor/) | 1.9k | — |

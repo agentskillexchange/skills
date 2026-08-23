@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-23
-# Total: 2921 skills
+# Total: 2922 skills
+
+## HyperGrok Trading Desk
+slug: hypergrok-trading-desk
+category: Integrations & Connectors
+framework: Multi-Framework
+verification: Published
+description: Turn Claude Code, Cursor, or Grok Bot into a 7-role Hyperliquid trading desk. Sixteen SKILL.md skills plus seven agent prompts cover market data, risk…
+url: https://agentskillexchange.com/skills/hypergrok-trading-desk/
 
 ## Coordinate project-scoped CLI agent sessions with Termio
 slug: coordinate-project-scoped-cli-agent-sessions-with-termio
