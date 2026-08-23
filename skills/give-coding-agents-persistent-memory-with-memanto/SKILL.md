@@ -13,7 +13,7 @@ tool_ecosystem:
   github_repo: "moorcheh-ai/memanto"
   github_stars: 1651
   npm_package: "@moorcheh-ai/memanto"
-  npm_weekly_downloads: 0
+  npm_weekly_downloads: 394
 ---
 
 # Give coding agents persistent memory with Memanto

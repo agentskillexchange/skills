@@ -2,14 +2,12 @@
 name: "HyperGrok Trading Desk"
 slug: "hypergrok-trading-desk"
 description: "Turn Claude Code, Cursor, or Grok Bot into a 7-role Hyperliquid trading desk. Sixteen SKILL.md skills plus seven agent prompts cover market data, risk limits, ticketed execution, and post-trade review. You approve every trade by ticket id. Trade-only API wallet; no withdraw."
+verification: "listed"
+source: "https://github.com/galleonlabs/hypergrok-trading-desk"
 category: "Integrations & Connectors"
 framework: "Multi-Framework"
-verification: listed
-source: "https://github.com/galleonlabs/hypergrok-trading-desk"
 tool_ecosystem:
   github_repo: "galleonlabs/hypergrok-trading-desk"
-  license: "MIT"
-  maintained: true
 ---
 
 # HyperGrok Trading Desk
@@ -32,57 +30,9 @@ HyperGrok is documentation and instructions, not financial advice. Perpetual fut
 
 ## Installation
 
-### OpenClaw
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-```bash
-clawhub install hypergrok-trading-desk
-```
-
-### Direct repo/manual install
-
-Clone the Agent Skill Exchange repository and copy this skill directory into the skill folder used by your agent runtime:
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git
-cp -R skills/skills/hypergrok-trading-desk ~/.agent-skills/hypergrok-trading-desk
-```
-
-The full sixteen-skill desk also lives upstream:
-
-```bash
-git clone https://github.com/galleonlabs/hypergrok-trading-desk.git
-```
-
-### Optional Third-Party Installer
-
-The `skills` npm package is maintained by Vercel Labs / third parties, not AgentSkillExchange. If you choose to use it, pin the package version:
-
-```bash
-npm exec --package=skills@1.5.23 -- skills add agentskillexchange/skills --skill hypergrok-trading-desk
-```
-
-Upstream pack install:
-
-```bash
-npm exec --package=skills@1.5.23 -- skills add galleonlabs/hypergrok-trading-desk
-```
-
-### Claude Code marketplace
-
-```bash
-claude plugin marketplace add galleonlabs/hypergrok-trading-desk
-claude plugin install hypergrok@hypergrok
-```
-
-### Hermes
-
-```bash
-hermes plugins install galleonlabs/hypergrok-trading-desk
-```
-
-### Grok Bot
-
-Paste the setup prompt from the upstream README: follow `SETUP.md` to create the seven Bots and the Trading Floor group chat.
+- Source: https://github.com/galleonlabs/hypergrok-trading-desk
 
 ## Source
 

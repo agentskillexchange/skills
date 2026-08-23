@@ -13,7 +13,7 @@ tool_ecosystem:
   github_repo: "Agentchengfeng/chengfeng-videocut-skills"
   github_stars: 2745
   npm_package: "chengfeng-videocut-skills"
-  npm_weekly_downloads: 0
+  npm_weekly_downloads: 29
 ---
 
 # Cut and finish Chinese talking-head videos with Chengfeng Videocut Skills

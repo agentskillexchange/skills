@@ -13,7 +13,7 @@ tool_ecosystem:
   github_repo: "mindmuxai/brain.md"
   github_stars: 438
   npm_package: "@mindmux/brain-md"
-  npm_weekly_downloads: 0
+  npm_weekly_downloads: 92
 ---
 
 # Give coding agents repo-local project memory with brain.md
