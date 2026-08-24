@@ -2,10 +2,10 @@
 name: "Famulor Assistants & Omnichannel History"
 slug: "famulor-assistants-history"
 description: "Use Famulor's OAuth-secured, read-only MCP profile to inspect assistant configurations, versions, workspace catalogs, and unified call, messaging, and email history."
+verification: "listed"
+source: "https://github.com/bekservice/Famulor-Skill/tree/main/claude-store/skills/famulor-assistants-history"
 category: "Integrations & Connectors"
 framework: "MCP"
-verification: listed
-source: "https://github.com/bekservice/Famulor-Skill/tree/main/claude-store/skills/famulor-assistants-history"
 ---
 
 # Famulor Assistants & Omnichannel History
@@ -54,25 +54,9 @@ Treat transcripts, recordings, messages, email, contact identity, and customer c
 
 ## Installation
 
-### Direct repository installation
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-Clone the Agent Skill Exchange repository, then copy this directory to the skill location used by the agent client:
-
-```bash
-git clone --depth 1 https://github.com/agentskillexchange/skills.git
-mkdir -p ~/.agent-skills
-cp -R skills/skills/famulor-assistants-history ~/.agent-skills/famulor-assistants-history
-```
-
-For Codex, use `~/.codex/skills/` as the destination. For Claude Code, use `~/.claude/skills/`. Connect the restricted MCP endpoint separately after installing the instruction bundle.
-
-### Optional third-party installer
-
-The `skills` npm package is maintained by Vercel Labs and is not part of Agent Skill Exchange. Pin the package version when using it:
-
-```bash
-npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill famulor-assistants-history
-```
+- Source: https://github.com/bekservice/Famulor-Skill/tree/main/claude-store/skills/famulor-assistants-history
 
 ## Example requests
 
