@@ -1,8 +1,51 @@
 {
   "version": "2.0",
-  "total": 2925,
+  "total": 2928,
   "generated": "2026-08-24",
   "skills": [
+    {
+      "slug": "monitor-local-agent-sessions-and-costs-with-clawmetry",
+      "name": "Monitor local agent sessions and costs with ClawMetry",
+      "title": "Monitor local agent sessions and costs with ClawMetry",
+      "description": "Use ClawMetry when an operator needs a local dashboard for agent sessions, token spend, tool calls, alerts, and governance across multiple runtimes.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 401
+      },
+      "source_url": "https://github.com/vivekchand/clawmetry",
+      "github_repo": "vivekchand/clawmetry"
+    },
+    {
+      "slug": "add-claude-design-system-and-accessibility-workflows-with-ux-ui-agent-skills",
+      "name": "Add Claude design-system and accessibility workflows with UX/UI Agent Skills",
+      "title": "Add Claude design-system and accessibility workflows with UX/UI Agent Skills",
+      "description": "Use UX/UI Agent Skills when Claude should generate tokens, component specs, accessibility audits, and framework-specific UI code from a repeatable design workflow.",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 694,
+        "npm_weekly_downloads": 1042
+      },
+      "source_url": "https://github.com/plugin87/ux-ui-agent-skills",
+      "github_repo": "plugin87/ux-ui-agent-skills"
+    },
+    {
+      "slug": "run-structured-multi-perspective-decisions-with-council-of-high-intelligence",
+      "name": "Run structured multi-perspective decisions with Council of High Intelligence",
+      "title": "Run structured multi-perspective decisions with Council of High Intelligence",
+      "description": "Use Council of High Intelligence when an agent should convene a structured panel, force disagreement, and return a decision with dissent, kill criteria, and…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 4134
+      },
+      "source_url": "https://github.com/0xNyk/council-of-high-intelligence",
+      "github_repo": "0xNyk/council-of-high-intelligence"
+    },
     {
       "slug": "famulor-assistants-history",
       "name": "Famulor Assistants & Omnichannel History",
@@ -40443,7 +40486,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 103,
-        "npm_weekly_downloads": 3120718,
+        "npm_weekly_downloads": 3103087,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/DataDog/datadog-api-client-typescript",
@@ -40489,7 +40532,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 27264,
-        "npm_weekly_downloads": 157789979,
+        "npm_weekly_downloads": 157876271,
         "license": "MIT"
       },
       "source_url": "https://github.com/eslint/eslint",
@@ -40520,7 +40563,7 @@
       "verification": "listed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 10662461,
+        "npm_weekly_downloads": 10693690,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/aws/aws-sdk-js-v3",
@@ -40536,7 +40579,7 @@
       "verification": "listed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 41103885,
+        "npm_weekly_downloads": 41242625,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/aws/aws-sdk-js-v3",
@@ -40552,7 +40595,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3051,
-        "npm_weekly_downloads": 60902,
+        "npm_weekly_downloads": 61599,
         "license": "MIT"
       },
       "source_url": "https://github.com/sendgrid/sendgrid-nodejs",
@@ -40568,7 +40611,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1539,
-        "npm_weekly_downloads": 5731533,
+        "npm_weekly_downloads": 5732584,
         "license": "MIT"
       },
       "source_url": "https://github.com/twilio/twilio-node",
@@ -40584,7 +40627,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 18445531,
+        "npm_weekly_downloads": 18479962,
         "license": "MIT"
       },
       "source_url": "https://github.com/stripe/stripe-node",
@@ -40600,7 +40643,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1465,
-        "npm_weekly_downloads": 1105172,
+        "npm_weekly_downloads": 1098929,
         "license": "MIT"
       },
       "source_url": "https://github.com/jsforce/jsforce",
@@ -40616,7 +40659,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 397,
-        "npm_weekly_downloads": 1443171,
+        "npm_weekly_downloads": 1448543,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/HubSpot/hubspot-api-nodejs",
@@ -40632,7 +40675,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 5610,
-        "npm_weekly_downloads": 1985031,
+        "npm_weekly_downloads": 1992842,
         "license": "MIT"
       },
       "source_url": "https://github.com/makenotion/notion-sdk-js",
@@ -40677,7 +40720,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 24,
-        "npm_weekly_downloads": 6020,
+        "npm_weekly_downloads": 5850,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/opsgenie/opsgenie-nodejs-sdk",
@@ -40709,7 +40752,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 811,
-        "npm_weekly_downloads": 10119568
+        "npm_weekly_downloads": 10075892
       },
       "source_url": "https://github.com/DataDog/dd-trace-js",
       "github_repo": "datadog/dd-trace-js"
@@ -40724,7 +40767,7 @@
       "verification": "listed",
       "signals": {
         "github_stars": 25248,
-        "npm_weekly_downloads": 2973150,
+        "npm_weekly_downloads": 3013717,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/pulumi/pulumi",
@@ -40859,7 +40902,7 @@
       "verification": "listed",
       "signals": {
         "github_stars": 712,
-        "npm_weekly_downloads": 113750
+        "npm_weekly_downloads": 113370
       },
       "source_url": "https://github.com/getsentry/sentry-mcp",
       "github_repo": "getsentry/sentry-mcp"
@@ -40951,7 +40994,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 393,
-        "npm_weekly_downloads": 401,
+        "npm_weekly_downloads": 453,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/e2b-dev/mcp-server",
@@ -40991,7 +41034,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 10942,
-        "npm_weekly_downloads": 34489444,
+        "npm_weekly_downloads": 34510842,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/openai/openai-node",
@@ -41108,7 +41151,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 190,
-        "npm_weekly_downloads": 163,
+        "npm_weekly_downloads": 153,
         "license": "MIT"
       },
       "source_url": "https://github.com/getsentry/sentry-for-ai",
@@ -41163,7 +41206,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 33289,
-        "npm_weekly_downloads": 5608747,
+        "npm_weekly_downloads": 5618931,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/microsoft/playwright-mcp",
@@ -41196,7 +41239,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 89986,
-        "npm_weekly_downloads": 83077067,
+        "npm_weekly_downloads": 83342096,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/microsoft/playwright",

@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-24
-# Total: 2925 skills
+# Total: 2928 skills
+
+## Monitor local agent sessions and costs with ClawMetry
+slug: monitor-local-agent-sessions-and-costs-with-clawmetry
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use ClawMetry when an operator needs a local dashboard for agent sessions, token spend, tool calls, alerts, and governance across multiple runtimes.
+url: https://agentskillexchange.com/skills/monitor-local-agent-sessions-and-costs-with-clawmetry/
+
+## Add Claude design-system and accessibility workflows with UX/UI Agent Skills
+slug: add-claude-design-system-and-accessibility-workflows-with-ux-ui-agent-skills
+category: Developer Tools
+framework: Claude Code
+verification: Security Reviewed
+description: Use UX/UI Agent Skills when Claude should generate tokens, component specs, accessibility audits, and framework-specific UI code from a repeatable design workflow.
+url: https://agentskillexchange.com/skills/add-claude-design-system-and-accessibility-workflows-with-ux-ui-agent-skills/
+
+## Run structured multi-perspective decisions with Council of High Intelligence
+slug: run-structured-multi-perspective-decisions-with-council-of-high-intelligence
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Council of High Intelligence when an agent should convene a structured panel, force disagreement, and return a decision with dissent, kill criteria, and…
+url: https://agentskillexchange.com/skills/run-structured-multi-perspective-decisions-with-council-of-high-intelligence/
 
 ## Famulor Assistants & Omnichannel History
 slug: famulor-assistants-history
