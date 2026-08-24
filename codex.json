@@ -1,9 +1,20 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-08-23",
-  "total": 2923,
+  "generated": "2026-08-24",
+  "total": 2924,
   "skills": [
+    {
+      "slug": "audit-and-maintain-cross-agent-skill-libraries-with-chops",
+      "name": "Audit and maintain cross-agent skill libraries with Chops",
+      "title": "Audit and maintain cross-agent skill libraries with Chops",
+      "description": "Use Chops to discover, search, edit, and organize local or remote agent skills across Claude Code, Cursor, Codex, Windsurf, Amp, Copilot, and Aider.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Shpigford/chops",
+      "github_repo": "Shpigford/chops"
+    },
     {
       "slug": "run-provider-agnostic-terminal-coding-sessions-with-fuxi",
       "name": "Run provider-agnostic terminal coding sessions with FuXi",

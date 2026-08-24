@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-08-23
-# Total: 2923 skills
+# Generated: 2026-08-24
+# Total: 2924 skills
+
+## Audit and maintain cross-agent skill libraries with Chops
+slug: audit-and-maintain-cross-agent-skill-libraries-with-chops
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Chops to discover, search, edit, and organize local or remote agent skills across Claude Code, Cursor, Codex, Windsurf, Amp, Copilot, and Aider.
+url: https://agentskillexchange.com/skills/audit-and-maintain-cross-agent-skill-libraries-with-chops/
 
 ## Run provider-agnostic terminal coding sessions with FuXi
 slug: run-provider-agnostic-terminal-coding-sessions-with-fuxi

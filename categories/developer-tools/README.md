@@ -367,6 +367,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Run and lifecycle-manage MCP servers in isolated environments with ToolHive before local MCP sprawl turns brittle](../../skills/run-and-lifecycle-manage-mcp-servers-in-isolated-environments-with-toolhive-before-local-mcp-sprawl-turns-brittle/) | 1.7k | — |
 | [Give coding agents persistent memory with Memanto](../../skills/give-coding-agents-persistent-memory-with-memanto/) | 1.7k | 394/wk |
 | [Run queued background coding sessions across GitHub, Slack, Linear, and webhooks with background-agents](../../skills/run-queued-background-coding-sessions-across-github-slack-linear-and-webhooks-with-background-agents/) | 1.6k | — |
+| [Audit and maintain cross-agent skill libraries with Chops](../../skills/audit-and-maintain-cross-agent-skill-libraries-with-chops/) | 1.6k | — |
 | [Give MCP clients language-server code intelligence](../../skills/give-mcp-clients-language-server-code-intelligence/) | 1.5k | — |
 | [Add managed long-term memory to LangGraph agents with LangMem](../../skills/add-managed-long-term-memory-to-langgraph-agents-with-langmem/) | 1.5k | — |
 | [Build production Go agents with tRPC-Agent-Go](../../skills/build-production-go-agents-with-trpc-agent-go/) | 1.5k | — |
