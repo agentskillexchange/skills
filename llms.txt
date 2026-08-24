@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-24
-# Total: 2924 skills
+# Total: 2925 skills
+
+## Famulor Assistants & Omnichannel History
+slug: famulor-assistants-history
+category: Integrations & Connectors
+framework: MCP
+verification: Published
+description: Use Famulor's OAuth-secured, read-only MCP profile to inspect assistant configurations, versions, workspace catalogs, and unified call, messaging, and email history.
+url: https://agentskillexchange.com/skills/famulor-assistants-history/
 
 ## Audit and maintain cross-agent skill libraries with Chops
 slug: audit-and-maintain-cross-agent-skill-libraries-with-chops

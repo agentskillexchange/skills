@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-24",
-  "total": 2924,
+  "total": 2925,
   "skills": [
+    {
+      "slug": "famulor-assistants-history",
+      "name": "Famulor Assistants & Omnichannel History",
+      "title": "Famulor Assistants & Omnichannel History",
+      "description": "Use Famulor's OAuth-secured, read-only MCP profile to inspect assistant configurations, versions, workspace catalogs, and unified call, messaging, and email history.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "listed",
+      "source_url": "https://github.com/bekservice/Famulor-Skill/tree/main/claude-store/skills/famulor-assistants-history",
+      "github_repo": "bekservice/Famulor-Skill"
+    },
     {
       "slug": "audit-and-maintain-cross-agent-skill-libraries-with-chops",
       "name": "Audit and maintain cross-agent skill libraries with Chops",
