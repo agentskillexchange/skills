@@ -4,6 +4,7 @@ slug: "usdctofiat-cashout"
 description: "Add non-custodial Base USDC-to-fiat cash-out with @usdctofiat/offramp cashout({ mode: \"fast\" | \"best\" }). Use when an agent must sell USDC from a real viem WalletClient into Venmo, Cash App, Revolut, PayPal, Zelle, Monzo, or Chime without an exchange account."
 verification: "listed"
 source: "https://github.com/ADWilkinson/usdctofiat-skills/tree/main/skills/cashout"
+author: "ADWilkinson"
 category: "Integrations & Connectors"
 framework: "Multi-Framework"
 ---
