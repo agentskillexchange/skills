@@ -1,8 +1,19 @@
 {
   "version": "2.0",
-  "total": 2929,
+  "total": 2930,
   "generated": "2026-08-25",
   "skills": [
+    {
+      "slug": "slashbooks",
+      "name": "Slashbooks",
+      "title": "Slashbooks",
+      "description": "Replace QuickBooks with an AI agent you control: import bank and credit card activity, categorize and reconcile transactions, close the month, and export the…",
+      "category": "Calendar, Email & Productivity",
+      "framework": "Claude Code",
+      "verification": "listed",
+      "source_url": "https://github.com/giltotherescue/slashbooks",
+      "github_repo": "giltotherescue/slashbooks"
+    },
     {
       "slug": "harden-claude-code-plans-with-claudex-loop",
       "name": "Harden Claude Code plans with claudex-loop",

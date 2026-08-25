@@ -161,6 +161,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Outlook Rule Automation Manager](../../skills/outlook-rule-automation-manager/) | — | — |
 | [Prepare meeting agendas and pre-reads from Notion context with notion-meeting-intelligence](../../skills/prepare-meeting-agendas-and-pre-reads-from-notion-context-with-notion-meeting-intelligence/) | — | — |
 | [Slack Status API PTO Sync Assistant](../../skills/slack-status-api-pto-sync-assistant/) | — | — |
+| [Slashbooks](../../skills/slashbooks/) | — | — |
 | [Todoist GTD Workflow Automator](../../skills/todoist-gtd-workflow-automator/) | — | — |
 | [Todoist GTD Workflow Engine](../../skills/todoist-gtd-workflow-engine/) | — | — |
 | [Todoist Natural Language Task Parser](../../skills/todoist-natural-language-task-parser/) | — | — |

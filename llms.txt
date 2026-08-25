@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-25
-# Total: 2929 skills
+# Total: 2930 skills
+
+## Slashbooks
+slug: slashbooks
+category: Calendar, Email & Productivity
+framework: Claude Code
+verification: Published
+description: Replace QuickBooks with an AI agent you control: import bank and credit card activity, categorize and reconcile transactions, close the month, and export the…
+url: https://agentskillexchange.com/skills/slashbooks/
 
 ## Harden Claude Code plans with claudex-loop
 slug: harden-claude-code-plans-with-claudex-loop
