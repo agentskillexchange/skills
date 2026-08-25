@@ -2,10 +2,12 @@
 name: "Slashbooks"
 slug: "slashbooks"
 description: "Replace QuickBooks with an AI agent you control: import bank and credit card activity, categorize and reconcile transactions, close the month, and export the files your accountant needs."
+verification: "listed"
+source: "https://github.com/giltotherescue/slashbooks"
 category: "Calendar, Email & Productivity"
 framework: "Claude Code"
-verification: listed
-source: "https://github.com/giltotherescue/slashbooks"
+tool_ecosystem:
+  github_repo: "giltotherescue/slashbooks"
 ---
 
 # Slashbooks
