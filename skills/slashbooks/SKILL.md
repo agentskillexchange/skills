@@ -16,15 +16,26 @@ When the month is closed it produces accountant-ready outputs: a categorized tra
 
 ## Installation
 
-### Direct repo/manual install
+Slashbooks is a **plugin marketplace**, not a single root `SKILL.md`. Install the plugin, then use `/books`. Do not `git clone` the repo into `~/.claude/skills` or `~/.agent-skills` — that copies the marketplace root, not a loadable skill.
 
-```bash
-git clone https://github.com/giltotherescue/slashbooks.git
-cp -R slashbooks ~/.agent-skills/slashbooks
+### Claude Cowork
+
+1. Open Claude → Cowork → Customize → Plugins
+2. Under **Personal plugins**, click **+** → **Add marketplace**
+3. Paste `https://github.com/giltotherescue/slashbooks`
+4. Click **Sync**, then install or enable `/books`
+
+### Claude Code
+
+```sh
+/plugin marketplace add https://github.com/giltotherescue/slashbooks
+/plugin install slashbooks@slashbooks
 ```
 
-### Claude Code / Cursor / Codex
+### Codex
 
-```bash
-git clone https://github.com/giltotherescue/slashbooks.git ~/.claude/skills/slashbooks
+```sh
+codex plugin marketplace add https://github.com/giltotherescue/slashbooks
 ```
+
+Then install the Slashbooks plugin from that marketplace.
