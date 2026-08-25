@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-08-24
+# Generated: 2026-08-25
 # Total: 2928 skills
 
 ## Monitor local agent sessions and costs with ClawMetry

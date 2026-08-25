@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Ollama Local LLM Runner and Model Server](skills/ollama-local-llm-runner-model-server/)** — Ollama runs large language models locally with a simple CLI and REST API. It supports hundreds of open models including Llama, Gemma, Qwen, and DeepSeek, with GPU acceleration…
+**[Swagger UI Documentation Deployer](skills/swagger-ui-documentation-deployer/)** — Deploys interactive Swagger UI documentation sites from OpenAPI specs with custom branding, authentication presets, and CDN-hosted static builds. Integrates with Redoc for alternative rendering.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
