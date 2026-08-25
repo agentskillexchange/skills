@@ -1,8 +1,22 @@
 {
   "version": "2.0",
-  "total": 2928,
+  "total": 2929,
   "generated": "2026-08-25",
   "skills": [
+    {
+      "slug": "harden-claude-code-plans-with-claudex-loop",
+      "name": "Harden Claude Code plans with claudex-loop",
+      "title": "Harden Claude Code plans with claudex-loop",
+      "description": "Use claudex-loop when a Claude Code operator should lock intent, stress-test a plan with Codex, and cross-inspect the final build before approving risky work.",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1225
+      },
+      "source_url": "https://github.com/chaseai-yt/claudex-loop",
+      "github_repo": "chaseai-yt/claudex-loop"
+    },
     {
       "slug": "monitor-local-agent-sessions-and-costs-with-clawmetry",
       "name": "Monitor local agent sessions and costs with ClawMetry",
@@ -129,6 +143,9 @@
       "category": "Integrations & Connectors",
       "framework": "Multi-Framework",
       "verification": "listed",
+      "signals": {
+        "npm_weekly_downloads": 650
+      },
       "source_url": "https://github.com/ADWilkinson/usdctofiat-skills/tree/main/skills/cashout",
       "github_repo": "ADWilkinson/usdctofiat-skills"
     },

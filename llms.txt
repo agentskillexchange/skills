@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-25
-# Total: 2928 skills
+# Total: 2929 skills
+
+## Harden Claude Code plans with claudex-loop
+slug: harden-claude-code-plans-with-claudex-loop
+category: Developer Tools
+framework: Claude Code
+verification: Security Reviewed
+description: Use claudex-loop when a Claude Code operator should lock intent, stress-test a plan with Codex, and cross-inspect the final build before approving risky work.
+url: https://agentskillexchange.com/skills/harden-claude-code-plans-with-claudex-loop/
 
 ## Monitor local agent sessions and costs with ClawMetry
 slug: monitor-local-agent-sessions-and-costs-with-clawmetry

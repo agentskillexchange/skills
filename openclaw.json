@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-25",
-  "total": 2928,
+  "total": 2929,
   "skills": [
+    {
+      "slug": "harden-claude-code-plans-with-claudex-loop",
+      "name": "Harden Claude Code plans with claudex-loop",
+      "title": "Harden Claude Code plans with claudex-loop",
+      "description": "Use claudex-loop when a Claude Code operator should lock intent, stress-test a plan with Codex, and cross-inspect the final build before approving risky work.",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/chaseai-yt/claudex-loop",
+      "github_repo": "chaseai-yt/claudex-loop"
+    },
     {
       "slug": "monitor-local-agent-sessions-and-costs-with-clawmetry",
       "name": "Monitor local agent sessions and costs with ClawMetry",
