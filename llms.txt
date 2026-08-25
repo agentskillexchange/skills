@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-25
-# Total: 2930 skills
+# Total: 2931 skills
+
+## Produce Chinese video recaps with video-recap-skills
+slug: produce-chinese-video-recaps-with-video-recap-skills
+category: Media & Transcription
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use video-recap-skills when an agent should turn source video into a Chinese narration recap with scene understanding, scripting, voiceover, subtitles, and an optional editable…
+url: https://agentskillexchange.com/skills/produce-chinese-video-recaps-with-video-recap-skills/
 
 ## Slashbooks
 slug: slashbooks

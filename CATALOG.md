@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2930 published skills** across **17 categories** · 2,489 security reviewed · Updated 2026-08-25 13:27 UTC
+> **2931 published skills** across **17 categories** · 2,489 security reviewed · Updated 2026-08-25 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -2645,7 +2645,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Verify local web apps with Playwright scripts and managed dev servers](skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | Use Anthropic's webapp-testing skill to spin up one or more local servers, wait for them to become reachable, and… | Security Reviewed | — | — |
 
 
-### 🎙️ Media & Transcription (108 skills)
+### 🎙️ Media & Transcription (109 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads)
 
@@ -2733,6 +2733,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [Deploy conversational voice agents with Bolna](skills/deploy-conversational-voice-agents-with-bolna/) | Build and run voice-first conversational agents by configuring telephony, ASR, LLM, and TTS providers behind a… | Security Reviewed | 666 | — |
 | [Realign drifting subtitles against finished video audio](skills/realign-drifting-subtitles-against-finished-video-audio/) | Uses Subaligner to retime an existing subtitle file against the final audio track, then outputs a corrected subtitle… | Security Reviewed | 504 | — |
 | [Archive online videos and metadata to the Internet Archive with Tubeup](skills/archive-online-videos-and-metadata-to-the-internet-archive-with-tubeup/) | Download a supported video URL with yt-dlp and upload the preserved file plus metadata to archive.org as a… | Security Reviewed | 487 | — |
+| [Produce Chinese video recaps with video-recap-skills](skills/produce-chinese-video-recaps-with-video-recap-skills/) | Use video-recap-skills when an agent should turn source video into a Chinese narration recap with scene… | Security Reviewed | 471 | — |
 | [Ingest Chinese social and media content into agent knowledge bases with Chubbyskills](skills/ingest-chinese-social-and-media-content-into-agent-knowledge-bases-with-chubbyskills/) | Use Chubbyskills when an agent needs installable skills for collecting Chinese social, video, podcast, and article… | Published | 466 | — |
 | [Deepgram Real-Time Transcription Connector](skills/deepgram-realtime-transcription-connector/) | Streams live audio to Deepgram's WebSocket API at wss://api.deepgram.com/v1/listen for real-time speech-to-text.… | Security Reviewed | 260 | 1.6M/wk |
 | [Mux Node SDK for Video and Streaming API Workflows](skills/mux-node-sdk-video-and-streaming-api-workflows/) | An ASE skill built around the official Mux Node SDK for working with Mux Video and Mux Data from JavaScript or… | Security Reviewed | 178 | 987.7k/wk |

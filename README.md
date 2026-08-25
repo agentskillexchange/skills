@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C930-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C931-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C489-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,930 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,931 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Produce Chinese video recaps with video-recap-skills](skills/produce-chinese-video-recaps-with-video-recap-skills/) | Use video-recap-skills when an agent should turn source video into a Chinese narration recap with scene understanding, scripting... | 471 | Media & Transcription |
 | [Slashbooks](skills/slashbooks/) | Replace QuickBooks with an AI agent you control: import bank and credit card activity, categorize and reconcile transactions... | - | Calendar, Email & Productivity |
 | [Harden Claude Code plans with claudex-loop](skills/harden-claude-code-plans-with-claudex-loop/) | Use claudex-loop when a Claude Code operator should lock intent, stress-test a plan with Codex, and cross-inspect the... | 1.2k | Developer Tools |
 | [Monitor local agent sessions and costs with ClawMetry](skills/monitor-local-agent-sessions-and-costs-with-clawmetry/) | Use ClawMetry when an operator needs a local dashboard for agent sessions, token spend, tool calls, alerts, and... | 401 | Developer Tools |
@@ -96,7 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Audit and maintain cross-agent skill libraries with Chops](skills/audit-and-maintain-cross-agent-skill-libraries-with-chops/) | Use Chops to discover, search, edit, and organize local or remote agent skills across Claude Code, Cursor, Codex... | 1.6k | Developer Tools |
 | [Run provider-agnostic terminal coding sessions with FuXi](skills/run-provider-agnostic-terminal-coding-sessions-with-fuxi/) | Use FuXi when an operator wants a terminal coding agent to edit code, run commands, drive tools, and... | 1.8k | Developer Tools |
 | [HyperGrok Trading Desk](skills/hypergrok-trading-desk/) | Turn Claude Code, Cursor, or Grok Bot into a 7-role Hyperliquid trading desk. Sixteen SKILL.md skills plus seven... | - | Integrations & Connectors |
-| [Coordinate project-scoped CLI agent sessions with Termio](skills/coordinate-project-scoped-cli-agent-sessions-with-termio/) | Use Termio's `termio sessions` CLI to list, watch, spawn, send to, read, and close sibling coding-agent sessions in... | 180 | Developer Tools |
 
 ---
 
@@ -130,9 +130,9 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Run independent multi-agent build and review flows with OPC](skills/run-independent-multi-agent-build-and-review-flows-with-opc/) | Use OPC as a Claude Code skill to select a task flow, dispatch specialist roles, enforce independent review... | 192 | Code Quality & Review |
 | [Block Risky Coding-Agent Commands with CC Safety Net](skills/block-risky-coding-agent-commands-with-cc-safety-net/) | Use CC Safety Net when coding-agent CLIs need pre-execution hooks that block destructive commands, secret access, and unsafe... | 1.5k | Security & Verification |
 | [Install Chinese-localized Superpowers workflows for coding agents](skills/install-chinese-localized-superpowers-workflows-for-coding-agents/) | Use superpowers-zh to install Chinese-localized coding-agent methods, China-specific development skills, and cross-tool setup for Claude Code, Codex, Cursor... | 7.2k | Templates & Workflows |
+| [Produce Chinese video recaps with video-recap-skills](skills/produce-chinese-video-recaps-with-video-recap-skills/) | Use video-recap-skills when an agent should turn source video into a Chinese narration recap with scene understanding, scripting... | 471 | Media & Transcription |
 | [Debug local LLM and agent traces with Axon](skills/debug-local-llm-and-agent-traces-with-axon/) | Run Axon as a local OpenTelemetry endpoint and dashboard for inspecting LangChain and instrumented agent traces without sending... | 151 | Monitoring & Alerts |
 | [Run shared-memory agent workspaces across Codex, Claude Code, and MCP with holaOS](skills/run-shared-memory-agent-workspaces-across-codex-claude-code-and-mcp-with-holaos/) | Coordinate multiple coding agents in one local-first workspace with shared memory, tools, files, browser access, and MCP-backed integrations | 9.1k | Integrations & Connectors |
-| [Audit coding-agent token spend with CodeBurn](skills/audit-coding-agent-token-spend-with-codeburn/) | Run CodeBurn locally or as an MCP server so agents can inspect token usage, cost, model mix, project... | 8.7k | Monitoring & Alerts |
 
 ---
 
@@ -153,7 +153,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 126 | SDK docs, API parsers, symbol resolvers |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 126 | Web research, content discovery, data collection |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 121 | Web scraping, UI testing, headless browser control |
-| 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 108 | Audio/video processing, speech-to-text |
+| 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 109 | Audio/video processing, speech-to-text |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 105 | Image generation, asset processing, design automation |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
 | ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 89 | SEO content, blog automation, editorial workflows |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,930 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,931 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,489 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

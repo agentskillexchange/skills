@@ -1,8 +1,22 @@
 {
   "version": "2.0",
-  "total": 2930,
+  "total": 2931,
   "generated": "2026-08-25",
   "skills": [
+    {
+      "slug": "produce-chinese-video-recaps-with-video-recap-skills",
+      "name": "Produce Chinese video recaps with video-recap-skills",
+      "title": "Produce Chinese video recaps with video-recap-skills",
+      "description": "Use video-recap-skills when an agent should turn source video into a Chinese narration recap with scene understanding, scripting, voiceover, subtitles, and an optional editable…",
+      "category": "Media & Transcription",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 471
+      },
+      "source_url": "https://github.com/zenstory-ai/video-recap-skills",
+      "github_repo": "zenstory-ai/video-recap-skills"
+    },
     {
       "slug": "slashbooks",
       "name": "Slashbooks",
