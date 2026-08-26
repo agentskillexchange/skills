@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-26",
-  "total": 2933,
+  "total": 2934,
   "skills": [
+    {
+      "slug": "run-comfyui-workflows-as-agent-callable-skills",
+      "name": "Run ComfyUI workflows as agent-callable skills",
+      "title": "Run ComfyUI workflows as agent-callable skills",
+      "description": "Use ComfyUI Skills for OpenClaw when an agent needs to import, parameterize, route, and run repeatable ComfyUI workflows through a controlled CLI skill layer…",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/HuangYuChuh/ComfyUI_Skills_OpenClaw",
+      "github_repo": "HuangYuChuh/ComfyUI_Skills_OpenClaw"
+    },
     {
       "slug": "hol-guard",
       "name": "HOL Guard",

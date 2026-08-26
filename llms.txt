@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-26
-# Total: 2933 skills
+# Total: 2934 skills
+
+## Run ComfyUI workflows as agent-callable skills
+slug: run-comfyui-workflows-as-agent-callable-skills
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use ComfyUI Skills for OpenClaw when an agent needs to import, parameterize, route, and run repeatable ComfyUI workflows through a controlled CLI skill layer…
+url: https://agentskillexchange.com/skills/run-comfyui-workflows-as-agent-callable-skills/
 
 ## HOL Guard
 slug: hol-guard
