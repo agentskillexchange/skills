@@ -5,6 +5,7 @@ description: ""
 github_stars: 26668
 verification: "security_reviewed"
 source: "https://github.com/discordjs/discord.js"
+author: "discord.js"
 category: "Calendar, Email & Productivity"
 framework: "Custom Agents"
 tool_ecosystem:
@@ -20,12 +21,11 @@ tool_ecosystem:
 
 ## Installation
 
-Requirements and caveats from upstream:
-- This repository contains multiple packages with separate [releases][github-releases]. You can find the assembled Discord API wrapper at [discord.js][source]. It is a powerful [Node.js](https://nodejs.org/en) module th...
-- discord.js ([source][source]) - A powerful Node.js module for interacting with the Discord API
+Install or set up from the source-backed instructions:
+
+npm install discord.js
 
 - Source: https://github.com/discordjs/discord.js
-- Extracted from upstream docs: https://raw.githubusercontent.com/discordjs/discord.js/HEAD/README.md
 
 ## Source
 

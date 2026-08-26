@@ -2,10 +2,12 @@
 name: "HOL Guard"
 slug: "hol-guard"
 description: "Protect local AI coding-agent harnesses before tools run, review approvals and evidence, and scan agent plugins, skills, MCP servers, and marketplace packages with HOL Guard."
+verification: "listed"
+source: "https://github.com/hashgraph-online/hol-guard-plugin"
 category: "Security & Verification"
 framework: "Custom Agents"
-verification: listed
-source: "https://github.com/hashgraph-online/hol-guard-plugin"
+tool_ecosystem:
+  github_repo: "hashgraph-online/hol-guard-plugin"
 ---
 
 # HOL Guard
@@ -14,26 +16,9 @@ HOL Guard is a local security runtime for AI coding agents. Use this skill when 
 
 ## Installation
 
-Install the skill from Agent Skill Exchange with the pinned third-party installer documented by the marketplace:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-```bash
-npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill hol-guard
-```
-
-Install the runtime in an isolated Python environment:
-
-```bash
-pipx install hol-guard
-hol-guard status
-hol-guard detect --json
-```
-
-For package scanning, install the scanner separately:
-
-```bash
-pipx install plugin-scanner
-plugin-scanner verify .
-```
+- Source: https://github.com/hashgraph-online/hol-guard-plugin
 
 ## Protect a local harness
 

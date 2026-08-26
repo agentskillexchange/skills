@@ -5,6 +5,7 @@ description: ""
 github_stars: 10181
 verification: "security_reviewed"
 source: "https://github.com/mongodb/node-mongodb-native"
+author: "MongoDB"
 category: "Developer Tools"
 framework: "MCP"
 tool_ecosystem:
@@ -20,24 +21,11 @@ tool_ecosystem:
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm view mongodb@vX.Y.Z dist.tarball
-- npm install mongodb
-- npm install -D @types/node
-- npm init -y
+Install or set up from the source-backed instructions:
 
-Requirements and caveats from upstream:
-- # MongoDB Node.js Driver
-- The official [MongoDB](https://www.mongodb.com/) driver for Node.js.
-- **Upgrading to version 7? Take a look at our [upgrade guide here](https://github.com/mongodb/node-mongodb-native/blob/HEAD/etc/notes/CHANGES_7.0.0.md)!**
-
-Basic usage or getting-started notes:
-- To verify the integrity of the downloaded package, run the following command:
-- After you've created your own project using npm init, you can run:
-- bash
+npm install mongodb
 
 - Source: https://github.com/mongodb/node-mongodb-native
-- Extracted from upstream docs: https://raw.githubusercontent.com/mongodb/node-mongodb-native/HEAD/README.md
 
 ## Source
 

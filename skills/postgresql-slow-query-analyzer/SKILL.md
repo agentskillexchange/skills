@@ -5,6 +5,7 @@ description: "Queries pg_stat_statements and pg_stat_activity to surface the top
 github_stars: 13127
 verification: "security_reviewed"
 source: "https://github.com/brianc/node-postgres"
+author: "Brian Carlson"
 category: "Runbooks & Diagnostics"
 framework: "MCP"
 tool_ecosystem:
@@ -20,23 +21,11 @@ Queries pg_stat_statements and pg_stat_activity to surface the top slow queries 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install pg
-- From your workspace root run yarn and then yarn lerna bootstrap
-- Run yarn test to run all the tests.
+Install or set up from the source-backed instructions:
 
-Requirements and caveats from upstream:
-- # node-postgres
-- ![Build Status](https://github.com/brianc/node-postgres/actions/workflows/ci.yml/badge.svg)
-- Non-blocking PostgreSQL client for Node.js. Pure JavaScript and optional native libpq bindings.
-
-Basic usage or getting-started notes:
-- ## Documentation
-- Each package in this repo should have its own readme more focused on how to develop/contribute. For overall documentation on the project and the related modules managed by this repo please see:
-- ### Features
+npm install pg
 
 - Source: https://github.com/brianc/node-postgres
-- Extracted from upstream docs: https://raw.githubusercontent.com/brianc/node-postgres/HEAD/README.md
 
 ## Source
 

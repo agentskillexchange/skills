@@ -5,6 +5,7 @@ description: ""
 github_stars: 17737
 verification: "security_reviewed"
 source: "https://github.com/langchain-ai/langchainjs"
+author: "LangChain"
 category: "Developer Tools"
 framework: "MCP"
 tool_ecosystem:
@@ -20,20 +21,11 @@ tool_ecosystem:
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- You can use npm, pnpm, or yarn to install LangChain.js
-- npm install -S langchain or pnpm install langchain or yarn add langchain
+Install or set up from the source-backed instructions:
 
-Requirements and caveats from upstream:
-- For an equivalent Python library, check out [LangChain](https://github.com/langchain-ai/langchain).
-- Node.js (ESM and CommonJS) - 20.x, 22.x, 24.x
-
-Basic usage or getting-started notes:
-- Just getting started? Check out **[Deep Agents](http://docs.langchain.com/oss/javascript/deepagents/)** — a higher-level package built on LangChain for agents that have built-in capabilites for common usage patterns s...
-- [Getting started](https://docs.langchain.com/oss/javascript/langchain/overview): Installation, setting up the environment, simple examples
+npm install -S langchain
 
 - Source: https://github.com/langchain-ai/langchainjs
-- Extracted from upstream docs: https://raw.githubusercontent.com/langchain-ai/langchainjs/HEAD/README.md
 
 ## Source
 
