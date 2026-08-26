@@ -389,6 +389,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Run Apple-platform coding audits, diagnostics, and simulator checks with Axiom](../../skills/run-apple-platform-coding-audits-diagnostics-and-simulator-checks-with-axiom/) | 1.1k | 8k/wk |
 | [Control Codex and Claude coding-agent sessions from mobile with CC Pocket](../../skills/control-codex-and-claude-coding-agent-sessions-from-mobile-with-cc-pocket/) | 1k | 1.4k/wk |
 | [Give OpenCode project sessions persistent memory with opencode-mem](../../skills/give-opencode-project-sessions-persistent-memory-with-opencode-mem/) | 1k | 12.1k/wk |
+| [Run symbol-aware coding sessions with Empryo](../../skills/run-symbol-aware-coding-sessions-with-empryo/) | 984 | — |
 | [Run local small-model coding sessions with SmallCode](../../skills/run-local-small-model-coding-sessions-with-smallcode/) | 967 | 7.5k/wk |
 | [Connect MCP clients to JetBrains IDE project tools](../../skills/connect-mcp-clients-to-jetbrains-ide-project-tools/) | 961 | 4.4k/wk |
 | [Track AI coding-agent token usage with TokenTracker](../../skills/track-ai-coding-agent-token-usage-with-tokentracker/) | 959 | 15.3k/wk |

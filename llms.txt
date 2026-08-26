@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-08-25
-# Total: 2931 skills
+# Generated: 2026-08-26
+# Total: 2932 skills
+
+## Run symbol-aware coding sessions with Empryo
+slug: run-symbol-aware-coding-sessions-with-empryo
+category: Developer Tools
+framework: Custom Agents
+verification: Security Reviewed
+description: Use Empryo when a coding agent should map symbols, blast radius, and dependencies before making AST-backed edits across a repository.
+url: https://agentskillexchange.com/skills/run-symbol-aware-coding-sessions-with-empryo/
 
 ## Produce Chinese video recaps with video-recap-skills
 slug: produce-chinese-video-recaps-with-video-recap-skills

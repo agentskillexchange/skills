@@ -1,9 +1,20 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-08-25",
-  "total": 2931,
+  "generated": "2026-08-26",
+  "total": 2932,
   "skills": [
+    {
+      "slug": "run-symbol-aware-coding-sessions-with-empryo",
+      "name": "Run symbol-aware coding sessions with Empryo",
+      "title": "Run symbol-aware coding sessions with Empryo",
+      "description": "Use Empryo when a coding agent should map symbols, blast radius, and dependencies before making AST-backed edits across a repository.",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/proxysoul/Empryo",
+      "github_repo": "proxysoul/Empryo"
+    },
     {
       "slug": "produce-chinese-video-recaps-with-video-recap-skills",
       "name": "Produce Chinese video recaps with video-recap-skills",

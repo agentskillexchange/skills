@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2931 published skills** across **17 categories** · 2,490 security reviewed · Updated 2026-08-25 19:26 UTC
+> **2932 published skills** across **17 categories** · 2,490 security reviewed · Updated 2026-08-26 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (449 skills)
+### 🛠️ Developer Tools (450 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -363,6 +363,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Run Apple-platform coding audits, diagnostics, and simulator checks with Axiom](skills/run-apple-platform-coding-audits-diagnostics-and-simulator-checks-with-axiom/) | Add Axiom's Apple OS skills, agents, and commands so coding assistants can diagnose Xcode builds, Swift issues,… | Security Reviewed | 1.1k | 8k/wk |
 | [Control Codex and Claude coding-agent sessions from mobile with CC Pocket](skills/control-codex-and-claude-coding-agent-sessions-from-mobile-with-cc-pocket/) | Run a self-hosted bridge so an operator can start, resume, approve, and review Codex or Claude Code sessions from a… | Security Reviewed | 1k | 1.4k/wk |
 | [Give OpenCode project sessions persistent memory with opencode-mem](skills/give-opencode-project-sessions-persistent-memory-with-opencode-mem/) | Add opencode-mem to OpenCode so coding sessions can store, search, and reuse project memories through a local SQLite… | Security Reviewed | 1k | 12.1k/wk |
+| [Run symbol-aware coding sessions with Empryo](skills/run-symbol-aware-coding-sessions-with-empryo/) | Use Empryo when a coding agent should map symbols, blast radius, and dependencies before making AST-backed edits… | Security Reviewed | 984 | — |
 | [Run local small-model coding sessions with SmallCode](skills/run-local-small-model-coding-sessions-with-smallcode/) | Use SmallCode as a terminal-native coding agent for 8B-35B local models, with budget-managed context, forgiving tool… | Published | 967 | 7.5k/wk |
 | [Connect MCP clients to JetBrains IDE project tools](skills/connect-mcp-clients-to-jetbrains-ide-project-tools/) | Use the built-in JetBrains MCP server to let Codex, Claude Desktop, Cursor, VS Code, and other MCP clients inspect… | Security Reviewed | 961 | 4.4k/wk |
 | [Track AI coding-agent token usage with TokenTracker](skills/track-ai-coding-agent-token-usage-with-tokentracker/) | Use TokenTracker to auto-collect local token, cost, and rate-limit telemetry across Claude Code, Codex, Cursor,… | Security Reviewed | 959 | 15.3k/wk |
