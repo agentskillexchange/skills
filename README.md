@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C932-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C933-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C490-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,932 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,933 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [HOL Guard](skills/hol-guard/) | Protect local AI coding-agent harnesses before tools run, review approvals and evidence, and scan agent plugins, skills, MCP... | - | Security & Verification |
 | [Run symbol-aware coding sessions with Empryo](skills/run-symbol-aware-coding-sessions-with-empryo/) | Use Empryo when a coding agent should map symbols, blast radius, and dependencies before making AST-backed edits across... | 984 | Developer Tools |
 | [Produce Chinese video recaps with video-recap-skills](skills/produce-chinese-video-recaps-with-video-recap-skills/) | Use video-recap-skills when an agent should turn source video into a Chinese narration recap with scene understanding, scripting... | 471 | Media & Transcription |
 | [Slashbooks](skills/slashbooks/) | Replace QuickBooks with an AI agent you control: import bank and credit card activity, categorize and reconcile transactions... | - | Calendar, Email & Productivity |
@@ -96,7 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Run structured multi-perspective decisions with Council of High Intelligence](skills/run-structured-multi-perspective-decisions-with-council-of-high-intelligence/) | Use Council of High Intelligence when an agent should convene a structured panel, force disagreement, and return a... | 4.1k | Developer Tools |
 | [Famulor Assistants & Omnichannel History](skills/famulor-assistants-history/) | Use Famulor's OAuth-secured, read-only MCP profile to inspect assistant configurations, versions, workspace catalogs, and unified call, messaging, and... | - | Integrations & Connectors |
 | [Audit and maintain cross-agent skill libraries with Chops](skills/audit-and-maintain-cross-agent-skill-libraries-with-chops/) | Use Chops to discover, search, edit, and organize local or remote agent skills across Claude Code, Cursor, Codex... | 1.6k | Developer Tools |
-| [Run provider-agnostic terminal coding sessions with FuXi](skills/run-provider-agnostic-terminal-coding-sessions-with-fuxi/) | Use FuXi when an operator wants a terminal coding agent to edit code, run commands, drive tools, and... | 1.8k | Developer Tools |
 
 ---
 
@@ -104,6 +104,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Contributor | Skill | What it helps with | Category |
 |---|---|---|---|
+| [kantorcodes](https://github.com/kantorcodes) | [HOL Guard](skills/hol-guard/) | Protect local AI coding-agent harnesses before tools run, review approvals and evidence, and scan agent plugins, skills, MCP... | Security & Verification |
 | [giltotherescue](https://github.com/giltotherescue) | [Slashbooks](skills/slashbooks/) | Replace QuickBooks with an AI agent you control: import bank and credit card activity, categorize and reconcile transactions... | Calendar, Email & Productivity |
 | [bekservice](https://github.com/bekservice) | [Famulor Assistants & Omnichannel History](skills/famulor-assistants-history/) | Use Famulor's OAuth-secured, read-only MCP profile to inspect assistant configurations, versions, workspace catalogs, and unified call, messaging, and... | Integrations & Connectors |
 | [ADWilkinson](https://github.com/ADWilkinson) | [HyperGrok Trading Desk](skills/hypergrok-trading-desk/) | Turn Claude Code, Cursor, or Grok Bot into a 7-role Hyperliquid trading desk. Sixteen SKILL.md skills plus seven... | Integrations & Connectors |
@@ -113,7 +114,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Anil-matcha](https://github.com/Anil-matcha) | [Generate Images with MuAPI](skills/generate-images-with-muapi/) | Discovers current MuAPI image models, builds a model-specific request, and validates asynchronous image artifacts. Use when an agent... | Image & Creative Automation |
 | [ChuYiCui1](https://github.com/ChuYiCui1) | [AShareHub Chinese Market Data](skills/asharehub/) | Query Chinese A-share, ETF, index, financial statement, valuation, capital-flow, and technical-indicator data through the AShareHub Python SDK and... | Library & API Reference |
 | [denial123789](https://github.com/denial123789) | [Cross-validate research with SandBase Multi-Source Search](skills/cross-validate-research-with-sandbase-multi-source-search/) | Use SandBase Multi-Source Search to fact-check claims across independent web and academic sources, record disagreements, score confidence, and... | Research & Scraping |
-| [binyangzhu000-sudo](https://github.com/binyangzhu000-sudo) | [Generate Images with Atlas Cloud](skills/generate-images-with-atlas-cloud/) | Discovers current Atlas Cloud image models, validates model-specific schemas, submits a single asynchronous image-generation request, polls predictions with... | Image & Creative Automation |
 
 ---
 
@@ -141,7 +141,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | | Category | Skills | What's inside |
 |---|---|---:|---|
 | 🛠️ | [**Developer Tools**](categories/developer-tools/) | 450 | CLI tools, scaffolders, dev environment setup |
-| 🔒 | [**Security & Verification**](categories/security-verification/) | 245 | Vulnerability scanning, auth setup, compliance |
+| 🔒 | [**Security & Verification**](categories/security-verification/) | 246 | Vulnerability scanning, auth setup, compliance |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 233 | Scaffolders, boilerplate generators, workflow templates |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 220 | ETL pipelines, parsing, format conversion |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 199 | Linting, code review, test generators, coverage |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,932 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,933 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,490 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

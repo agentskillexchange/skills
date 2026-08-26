@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-26
-# Total: 2932 skills
+# Total: 2933 skills
+
+## HOL Guard
+slug: hol-guard
+category: Security & Verification
+framework: Custom Agents
+verification: Published
+description: Protect local AI coding-agent harnesses before tools run, review approvals and evidence, and scan agent plugins, skills, MCP servers, and marketplace packages with HOL…
+url: https://agentskillexchange.com/skills/hol-guard/
 
 ## Run symbol-aware coding sessions with Empryo
 slug: run-symbol-aware-coding-sessions-with-empryo

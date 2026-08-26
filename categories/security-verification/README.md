@@ -273,6 +273,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [CloudTrail Anomaly Detection Agent](../../skills/cloudtrail-anomaly-detection-agent/) | — | — |
 | [DocuSign Contract Auto-Sender with Conditional Logic](../../skills/docusign-contract-auto-sender/) | — | — |
 | [GPG Encryption and Key Management Agent](../../skills/gpg-encryption-key-management-agent/) | — | — |
+| [HOL Guard](../../skills/hol-guard/) | — | — |
 | [NPM Audit Deep Scanner](../../skills/npm-audit-deep-scanner/) | — | — |
 | [npm Dependency Audit Resolver](../../skills/npm-dependency-audit-resolver/) | — | — |
 | [npm Dependency Audit Scanner](../../skills/npm-dependency-audit-scanner/) | — | — |

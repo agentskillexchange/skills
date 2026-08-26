@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-26",
-  "total": 2932,
+  "total": 2933,
   "skills": [
+    {
+      "slug": "hol-guard",
+      "name": "HOL Guard",
+      "title": "HOL Guard",
+      "description": "Protect local AI coding-agent harnesses before tools run, review approvals and evidence, and scan agent plugins, skills, MCP servers, and marketplace packages with HOL…",
+      "category": "Security & Verification",
+      "framework": "Custom Agents",
+      "verification": "listed",
+      "source_url": "https://github.com/hashgraph-online/hol-guard-plugin",
+      "github_repo": "hashgraph-online/hol-guard-plugin"
+    },
     {
       "slug": "run-symbol-aware-coding-sessions-with-empryo",
       "name": "Run symbol-aware coding sessions with Empryo",

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2932 published skills** across **17 categories** · 2,490 security reviewed · Updated 2026-08-26 01:26 UTC
+> **2933 published skills** across **17 categories** · 2,490 security reviewed · Updated 2026-08-26 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -466,7 +466,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Zinc Universal Checkout](skills/zinc-universal-checkout/) | Discover, buy, track, and return products across Amazon, Walmart, Target, Best Buy, eBay, and 50+ US retailers via… | Published | — | — |
 
 
-### 🔒 Security & Verification (245 skills)
+### 🔒 Security & Verification (246 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -705,6 +705,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [CloudTrail Anomaly Detection Agent](skills/cloudtrail-anomaly-detection-agent/) | Analyzes AWS CloudTrail event logs via the Lookup Events API to detect anomalous IAM activity. Uses statistical… | Security Reviewed | — | — |
 | [DocuSign Contract Auto-Sender with Conditional Logic](skills/docusign-contract-auto-sender/) | Uses the DocuSign eSignature REST API SDK to programmatically create envelope definitions with conditional routing… | Published | — | — |
 | [GPG Encryption and Key Management Agent](skills/gpg-encryption-key-management-agent/) | Manages GPG key lifecycle and file encryption operations using GnuPG CLI and GPGME library. Handles keyserver… | Security Reviewed | — | — |
+| [HOL Guard](skills/hol-guard/) | Protect local AI coding-agent harnesses before tools run, review approvals and evidence, and scan agent plugins,… | Published | — | — |
 | [NPM Audit Deep Scanner](skills/npm-audit-deep-scanner/) | Extends npm audit with deep transitive dependency analysis using the npm Registry API. Generates fix PRs via GitHub… | Security Reviewed | — | — |
 | [npm Dependency Audit Resolver](skills/npm-dependency-audit-resolver/) | Resolves npm audit vulnerabilities by analyzing the npm registry API for patched versions, generating targeted… | Security Reviewed | — | — |
 | [npm Dependency Audit Scanner](skills/npm-dependency-audit-scanner/) | Scans Node.js projects for vulnerable dependencies using npm audit and the OSV.dev REST API. Cross-references CVE… | Security Reviewed | — | — |
