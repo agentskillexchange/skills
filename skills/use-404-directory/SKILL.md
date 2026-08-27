@@ -8,6 +8,7 @@ category: "Library & API Reference"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "mm-sheng/404-directory"
+  npm_package: "@mmvv1638/404-directory-mcp"
 ---
 
 # Use 404.directory
@@ -22,7 +23,19 @@ using ownership, availability, compatibility, security, and usage signals.
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Install or set up from the source-backed instructions:
+
+For stdio MCP clients, run the dependency-free npm bridge:
+
+    npx -y @mmvv1638/404-directory-mcp --source agent-skill-exchange
+
+The bridge creates and preserves one random non-personal Agent ID locally, then forwards requests only to https://404.directory/mcp.
+
+For HTTP-capable MCP clients, configure the hosted endpoint directly:
+
+    https://404.directory/mcp
+
+Use the client-specific setup guide when available: https://404.directory/connect.md?source=agent-skill-exchange
 
 - Source: https://github.com/MM-sheng/404-directory
 
