@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2936 published skills** across **17 categories** · 2,492 security reviewed · Updated 2026-08-27 13:27 UTC
+> **2936 published skills** across **17 categories** · 2,492 security reviewed · Updated 2026-08-27 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
