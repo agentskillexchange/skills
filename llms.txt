@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-08-26
-# Total: 2934 skills
+# Generated: 2026-08-27
+# Total: 2935 skills
+
+## Run social media research workflows with ScrapeCreators skills
+slug: run-social-media-research-workflows-with-scrapecreators-skills
+category: Research & Scraping
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Social Media Research Skills when an agent needs to find outlier posts, mine comments, compare competitors, inspect ad libraries, and turn public social…
+url: https://agentskillexchange.com/skills/run-social-media-research-workflows-with-scrapecreators-skills/
 
 ## Run ComfyUI workflows as agent-callable skills
 slug: run-comfyui-workflows-as-agent-callable-skills

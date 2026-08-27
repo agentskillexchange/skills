@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C934-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C935-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C492-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,934 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,935 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Harden Claude Code plans with claudex-loop](skills/harden-claude-code-plans-with-claudex-loop/)** — Use claudex-loop when a Claude Code operator should lock intent, stress-test a plan with Codex, and cross-inspect the final build before approving risky work.
+**[Use Dify for production agentic workflow apps](skills/use-dify-for-production-agentic-workflow-apps/)** — Build, test, and operate agentic workflow apps in Dify when an operator needs a governed path from prototype to production.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -87,6 +87,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Run social media research workflows with ScrapeCreators skills](skills/run-social-media-research-workflows-with-scrapecreators-skills/) | Use Social Media Research Skills when an agent needs to find outlier posts, mine comments, compare competitors, inspect... | 1.8k | Research & Scraping |
 | [Run ComfyUI workflows as agent-callable skills](skills/run-comfyui-workflows-as-agent-callable-skills/) | Use ComfyUI Skills for OpenClaw when an agent needs to import, parameterize, route, and run repeatable ComfyUI workflows... | 395 | Image & Creative Automation |
 | [HOL Guard](skills/hol-guard/) | Protect local AI coding-agent harnesses before tools run, review approvals and evidence, and scan agent plugins, skills, MCP... | - | Security & Verification |
 | [Run symbol-aware coding sessions with Empryo](skills/run-symbol-aware-coding-sessions-with-empryo/) | Use Empryo when a coding agent should map symbols, blast radius, and dependencies before making AST-backed edits across... | 984 | Developer Tools |
@@ -96,7 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Monitor local agent sessions and costs with ClawMetry](skills/monitor-local-agent-sessions-and-costs-with-clawmetry/) | Use ClawMetry when an operator needs a local dashboard for agent sessions, token spend, tool calls, alerts, and... | 401 | Developer Tools |
 | [Add Claude design-system and accessibility workflows with UX/UI Agent Skills](skills/add-claude-design-system-and-accessibility-workflows-with-ux-ui-agent-skills/) | Use UX/UI Agent Skills when Claude should generate tokens, component specs, accessibility audits, and framework-specific UI code from... | 694 | Developer Tools |
 | [Run structured multi-perspective decisions with Council of High Intelligence](skills/run-structured-multi-perspective-decisions-with-council-of-high-intelligence/) | Use Council of High Intelligence when an agent should convene a structured panel, force disagreement, and return a... | 4.1k | Developer Tools |
-| [Famulor Assistants & Omnichannel History](skills/famulor-assistants-history/) | Use Famulor's OAuth-secured, read-only MCP profile to inspect assistant configurations, versions, workspace catalogs, and unified call, messaging, and... | - | Integrations & Connectors |
 
 ---
 
@@ -126,13 +126,13 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Run CodeWhale terminal coding agent workflows](skills/run-codewhale-terminal-coding-agent-workflows/) | Use CodeWhale as a local terminal coding agent for repository edits, test repair, provider-switched sessions, approval-gated commands, MCP... | 40.8k | Developer Tools |
 | [Add Claude design-system and accessibility workflows with UX/UI Agent Skills](skills/add-claude-design-system-and-accessibility-workflows-with-ux-ui-agent-skills/) | Use UX/UI Agent Skills when Claude should generate tokens, component specs, accessibility audits, and framework-specific UI code from... | 694 | Developer Tools |
 | [Automate NotebookLM Studio generation and cited research batches with notebooklm-mcp](skills/automate-notebooklm-studio-generation-and-cited-research-batches-with-notebooklm-mcp/) | Use NotebookLM through MCP or a local REST API to run cited Q&A, generate Studio artifacts, and manage... | 161 | Research & Scraping |
-| [Enforce Coding-Agent Write and Shell Policies with Probity](skills/enforce-coding-agent-write-and-shell-policies-with-probity/) | Use Probity when Claude Code, Codex, or GitHub Copilot CLI should be blocked from unsafe file writes or... | 162 | Security & Verification |
 | [Run independent multi-agent build and review flows with OPC](skills/run-independent-multi-agent-build-and-review-flows-with-opc/) | Use OPC as a Claude Code skill to select a task flow, dispatch specialist roles, enforce independent review... | 192 | Code Quality & Review |
+| [Enforce Coding-Agent Write and Shell Policies with Probity](skills/enforce-coding-agent-write-and-shell-policies-with-probity/) | Use Probity when Claude Code, Codex, or GitHub Copilot CLI should be blocked from unsafe file writes or... | 162 | Security & Verification |
 | [Block Risky Coding-Agent Commands with CC Safety Net](skills/block-risky-coding-agent-commands-with-cc-safety-net/) | Use CC Safety Net when coding-agent CLIs need pre-execution hooks that block destructive commands, secret access, and unsafe... | 1.5k | Security & Verification |
+| [Run social media research workflows with ScrapeCreators skills](skills/run-social-media-research-workflows-with-scrapecreators-skills/) | Use Social Media Research Skills when an agent needs to find outlier posts, mine comments, compare competitors, inspect... | 1.8k | Research & Scraping |
 | [Install Chinese-localized Superpowers workflows for coding agents](skills/install-chinese-localized-superpowers-workflows-for-coding-agents/) | Use superpowers-zh to install Chinese-localized coding-agent methods, China-specific development skills, and cross-tool setup for Claude Code, Codex, Cursor... | 7.2k | Templates & Workflows |
 | [Run ComfyUI workflows as agent-callable skills](skills/run-comfyui-workflows-as-agent-callable-skills/) | Use ComfyUI Skills for OpenClaw when an agent needs to import, parameterize, route, and run repeatable ComfyUI workflows... | 395 | Image & Creative Automation |
 | [Produce Chinese video recaps with video-recap-skills](skills/produce-chinese-video-recaps-with-video-recap-skills/) | Use video-recap-skills when an agent should turn source video into a Chinese narration recap with scene understanding, scripting... | 471 | Media & Transcription |
-| [Debug local LLM and agent traces with Axon](skills/debug-local-llm-and-agent-traces-with-axon/) | Run Axon as a local OpenTelemetry endpoint and dashboard for inspecting LangChain and instrumented agent traces without sending... | 151 | Monitoring & Alerts |
 
 ---
 
@@ -149,9 +149,9 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 177 | Incident response, troubleshooting, system diagnostics |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 164 | Third-party API bridges, webhooks, service connectors |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 154 | Metrics, alerting rules, observability |
+| 🔍 | [**Research & Scraping**](categories/research-scraping/) | 127 | Web research, content discovery, data collection |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 127 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 126 | SDK docs, API parsers, symbol resolvers |
-| 🔍 | [**Research & Scraping**](categories/research-scraping/) | 126 | Web research, content discovery, data collection |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 121 | Web scraping, UI testing, headless browser control |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 109 | Audio/video processing, speech-to-text |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 106 | Image generation, asset processing, design automation |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,934 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,935 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,492 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

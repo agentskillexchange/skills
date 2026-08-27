@@ -1,6 +1,6 @@
 # Categories
 
-> **2934 skills** across **17 categories**
+> **2935 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -13,9 +13,9 @@
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **177** | Incident response, troubleshooting guides, system diagnostics, and op... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **164** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **154** | Metrics collection, alerting rules, observability setup, and system m... |
+| 🔍 | [**Research & Scraping**](research-scraping/) | **127** | Web research, data collection, content aggregation, and information g... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **127** | Email automation, calendar management, task coordination, and product... |
 | 📚 | [**Library & API Reference**](library-api-reference/) | **126** | SDK documentation, API guides, framework reference material, and libr... |
-| 🔍 | [**Research & Scraping**](research-scraping/) | **126** | Web research, data collection, content aggregation, and information g... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **121** | Web scraping, UI testing, headless browser control, and browser-based... |
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **109** | Audio/video processing, speech-to-text, media conversion, and transcr... |
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **106** | Image generation, asset processing, design automation, and creative t... |

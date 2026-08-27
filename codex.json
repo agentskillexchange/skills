@@ -1,9 +1,20 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-08-26",
-  "total": 2934,
+  "generated": "2026-08-27",
+  "total": 2935,
   "skills": [
+    {
+      "slug": "run-social-media-research-workflows-with-scrapecreators-skills",
+      "name": "Run social media research workflows with ScrapeCreators skills",
+      "title": "Run social media research workflows with ScrapeCreators skills",
+      "description": "Use Social Media Research Skills when an agent needs to find outlier posts, mine comments, compare competitors, inspect ad libraries, and turn public social…",
+      "category": "Research & Scraping",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/ScrapeCreators/social-media-research-skills",
+      "github_repo": "ScrapeCreators/social-media-research-skills"
+    },
     {
       "slug": "run-comfyui-workflows-as-agent-callable-skills",
       "name": "Run ComfyUI workflows as agent-callable skills",
