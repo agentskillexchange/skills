@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-27",
-  "total": 2935,
+  "total": 2936,
   "skills": [
+    {
+      "slug": "monitor-local-coding-agent-sessions-and-token-usage-with-loongsuite-pilot",
+      "name": "Monitor local coding-agent sessions and token usage with Loongsuite Pilot",
+      "title": "Monitor local coding-agent sessions and token usage with Loongsuite Pilot",
+      "description": "Collect local telemetry from Claude Code, Codex, Cursor, OpenClaw, OpenCode, and related coding agents, then inspect token usage, tool calls, sessions, and traces from…",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/alibaba/loongsuite-pilot",
+      "github_repo": "alibaba/loongsuite-pilot"
+    },
     {
       "slug": "run-social-media-research-workflows-with-scrapecreators-skills",
       "name": "Run social media research workflows with ScrapeCreators skills",

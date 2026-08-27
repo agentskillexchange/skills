@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-27
-# Total: 2935 skills
+# Total: 2936 skills
+
+## Monitor local coding-agent sessions and token usage with Loongsuite Pilot
+slug: monitor-local-coding-agent-sessions-and-token-usage-with-loongsuite-pilot
+category: Monitoring & Alerts
+framework: Multi-Framework
+verification: Published
+description: Collect local telemetry from Claude Code, Codex, Cursor, OpenClaw, OpenCode, and related coding agents, then inspect token usage, tool calls, sessions, and traces from…
+url: https://agentskillexchange.com/skills/monitor-local-coding-agent-sessions-and-token-usage-with-loongsuite-pilot/
 
 ## Run social media research workflows with ScrapeCreators skills
 slug: run-social-media-research-workflows-with-scrapecreators-skills

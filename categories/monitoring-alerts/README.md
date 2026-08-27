@@ -147,7 +147,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Lint and validate Prometheus alerting rules before noisy or broken alerts reach production with Pint](../../skills/lint-and-validate-prometheus-alerting-rules-before-noisy-or-broken-alerts-reach-production-with-pint/) | 1k | — |
 | [LangSmith SDK for LLM Tracing and Evaluation](../../skills/langsmith-sdk-for-llm-tracing-and-evaluation/) | 843 | 5.4M/wk |
 | [Monitor Claude Code sessions and tool activity with Claude Code Agent Monitor](../../skills/monitor-claude-code-sessions-and-tool-activity-with-claude-code-agent-monitor/) | 815 | — |
-| [Datadog MCP Server](../../skills/datadog-mcp-server/) | 811 | 10.3M/wk |
+| [Datadog MCP Server](../../skills/datadog-mcp-server/) | 811 | 10.2M/wk |
 | [Datadog Anomaly Alert Router](../../skills/datadog-anomaly-alert-router/) | 791 | 6.6M/wk |
 | [Datadog Anomaly Detection Agent](../../skills/datadog-anomaly-detection-agent-2/) | 791 | 6.6M/wk |
 | [Datadog Anomaly Detector](../../skills/datadog-anomaly-detector/) | 791 | 6.6M/wk |
@@ -162,7 +162,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Datadog Monitor Sync](../../skills/datadog-monitor-sync/) | 791 | 6.6M/wk |
 | [Datadog Monitors Skill](../../skills/datadog-monitors-skill/) | 791 | 6.6M/wk |
 | [Datadog SLO Monitor](../../skills/datadog-slo-monitor/) | 791 | 6.6M/wk |
-| [Sentry MCP Server](../../skills/sentry-mcp-server/) | 712 | 111.5k/wk |
+| [Sentry MCP Server](../../skills/sentry-mcp-server/) | 712 | 110.1k/wk |
 | [Gate agent regressions from production traces with Tracely](../../skills/gate-agent-regressions-from-production-traces-with-tracely/) | 643 | — |
 | [Sentry MCP Server for Error Tracking and Performance](../../skills/sentry-mcp-server-error-tracking-performance/) | 615 | 49.6k/wk |
 | [Track coding-agent quota burn and remaining headroom across providers with onWatch](../../skills/track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch/) | 580 | — |
@@ -172,6 +172,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Inspect Claude Code multi-agent runs with Agents Observe](../../skills/agents-observe-claude-code-observability/) | 421 | — |
 | [Cronitor CLI for Cron Monitoring and Job Telemetry](../../skills/cronitor-cli-cron-monitoring-job-telemetry/) | 399 | — |
 | [Monitor coding-agent token spend with Splitrail](../../skills/monitor-coding-agent-token-spend-with-splitrail/) | 159 | — |
+| [Monitor local coding-agent sessions and token usage with Loongsuite Pilot](../../skills/monitor-local-coding-agent-sessions-and-token-usage-with-loongsuite-pilot/) | 152 | — |
 | [Debug local LLM and agent traces with Axon](../../skills/debug-local-llm-and-agent-traces-with-axon/) | 151 | 394/wk |
 | [Metrics Dashboard Builder](../../skills/metrics-dashboard-builder/) | 103 | 3.1M/wk |
 | [Checkly Browser Check Failure Notifier](../../skills/checkly-browser-check-failure-notifier/) | 92 | 198.9k/wk |
