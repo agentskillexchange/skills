@@ -79,7 +79,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Satori HTML and CSS to SVG Image Generator by Vercel](../../skills/satori-html-css-svg-image-generator/) | 13.2k | 1.3M/wk |
 | [Apply an anti-AI-slop design workflow to pages, components, audits, and redesigns with Hallmark](../../skills/apply-an-anti-ai-slop-design-workflow-to-pages-components-audits-and-redesigns-with-hallmark/) | 13.1k | — |
 | [libvips High-Performance Image Processing Library and CLI](../../skills/libvips-high-performance-image-processing-library-cli/) | 11.2k | — |
-| [OpenAI Image Gen](../../skills/openai-image-gen/) | 10.9k | 36.5M/wk |
+| [OpenAI Image Gen](../../skills/openai-image-gen/) | 10.9k | 37.2M/wk |
 | [DALL-E 3 Batch Asset Generator](../../skills/dalle-3-batch-asset-generator/) | 10.8k | 18.1M/wk |
 | [DALL-E Batch Image Generator](../../skills/dalle-batch-image-generator/) | 10.8k | 18.1M/wk |
 | [DALL-E Image Variation Generator](../../skills/dalle-image-variation-generator/) | 10.8k | 18.1M/wk |
@@ -110,6 +110,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Revise PDF Slides with Natural-Language Edits](../../skills/revise-pdf-slides-with-natural-language-edits/) | 1.2k | — |
 | [Generate Template-Matched PPTX Decks with gpt-image2-ppt-skills](../../skills/generate-template-matched-pptx-decks-with-gpt-image2-ppt-skills/) | 1.1k | — |
 | [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | 1.1k | 19.7k/wk |
+| [Design, render, and visually QA editable PowerPoint decks with PPT Design Skill](../../skills/design-render-and-visually-qa-editable-powerpoint-decks-with-ppt-design-skill/) | 1k | — |
 | [CairoSVG SVG to PNG PDF and PostScript Converter](../../skills/cairosvg-svg-to-png-pdf-converter/) | 917 | — |
 | [Turn source novels into playable games with NovelToGame](../../skills/turn-source-novels-into-playable-games-with-noveltogame/) | 559 | — |
 | [Run ComfyUI workflows as agent-callable skills](../../skills/run-comfyui-workflows-as-agent-callable-skills/) | 395 | — |

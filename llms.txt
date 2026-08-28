@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-28
-# Total: 2937 skills
+# Total: 2938 skills
+
+## Design, render, and visually QA editable PowerPoint decks with PPT Design Skill
+slug: design-render-and-visually-qa-editable-powerpoint-decks-with-ppt-design-skill
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run a presentation-design workflow that turns a confirmed brief into editable PPTX output, rendered PNG previews, and revision loops before delivery.
+url: https://agentskillexchange.com/skills/design-render-and-visually-qa-editable-powerpoint-decks-with-ppt-design-skill/
 
 ## Operate Rails Active Job queues with Mission Control Jobs
 slug: operate-rails-active-job-queues-with-mission-control-jobs

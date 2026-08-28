@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-28",
-  "total": 2937,
+  "total": 2938,
   "skills": [
+    {
+      "slug": "design-render-and-visually-qa-editable-powerpoint-decks-with-ppt-design-skill",
+      "name": "Design, render, and visually QA editable PowerPoint decks with PPT Design Skill",
+      "title": "Design, render, and visually QA editable PowerPoint decks with PPT Design Skill",
+      "description": "Run a presentation-design workflow that turns a confirmed brief into editable PPTX output, rendered PNG previews, and revision loops before delivery.",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/sunchaokun/PPT-Design-Skill",
+      "github_repo": "sunchaokun/PPT-Design-Skill"
+    },
     {
       "slug": "operate-rails-active-job-queues-with-mission-control-jobs",
       "name": "Operate Rails Active Job queues with Mission Control Jobs",
