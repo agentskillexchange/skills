@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2937 published skills** across **17 categories** · 2,493 security reviewed · Updated 2026-08-28 01:26 UTC
+> **2937 published skills** across **17 categories** · 2,493 security reviewed · Updated 2026-08-28 04:36 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -664,7 +664,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Apply rule-based guardrails to agent traces and tool flows with Invariant](skills/apply-rule-based-guardrails-to-agent-traces-and-tool-flows-with-invariant/) | Insert a trace-aware guardrail layer between agents and their tools so unsafe message patterns or tool-call… | Security Reviewed | 409 | 1.5k/wk |
 | [Block unsafe agent actions and scan newly added skills with AgentGuard](skills/block-unsafe-agent-actions-and-scan-newly-added-skills-with-agentguard/) | Add a runtime guard that evaluates agent actions, blocks dangerous commands or secret exposure, and audits new… | Security Reviewed | 390 | 2.9k/wk |
 | [CSP Policy Analyzer](skills/csp-policy-analyzer/) | Parses and evaluates Content Security Policy headers using csp-parse and csp-evaluator libraries. Identifies overly… | Security Reviewed | 390 | — |
-| [Scan Claude Code configs for secrets permission drift and unsafe MCP hookups with AgentShield](skills/scan-claude-code-configs-for-secrets-permission-drift-and-unsafe-mcp-hookups-with-agentshield/) | Audit a Claude Code setup before use by flagging hardcoded secrets, broad allow rules, risky hooks, and dangerous… | Published | 388 | — |
+| [Scan Claude Code configs for secrets permission drift and unsafe MCP hookups with AgentShield](skills/scan-claude-code-configs-for-secrets-permission-drift-and-unsafe-mcp-hookups-with-agentshield/) | Audit a Claude Code setup before use by flagging hardcoded secrets, broad allow rules, risky hooks, and dangerous… | Published | 388 | 8.1k/wk |
 | [Lint Rego Policies Before Promotion with Regal](skills/lint-rego-policies-before-promotion-with-regal/) | Analyze Rego policy files for style, correctness, and maintainability issues before policy bundles are promoted. | Security Reviewed | 373 | — |
 | [Review contract risk and redlines with Claude Legal Skill](skills/review-contract-risk-and-redlines-with-claude-legal-skill/) | Use Claude Legal Skill to guide an agent through contract risk review, CUAD-style clause checks, market benchmarks,… | Security Reviewed | 355 | — |
 | [Block agent egress, MCP prompt injection, and secret exfiltration before agents touch the open internet with Pipelock](skills/block-agent-egress-mcp-prompt-injection-and-secret-exfiltration-before-agents-touch-the-open-internet-with-pipelock/) | Put an inline firewall and containment layer in front of agent network traffic, tool calls, and MCP traffic before… | Security Reviewed | 333 | — |
@@ -2476,6 +2476,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [GitHub REST API Paginator Library](skills/github-rest-api-paginator-library/) | Provides a typed pagination wrapper for the GitHub REST API using Octokit.js and the @octokit/plugin-paginate-rest… | Security Reviewed | 58 | 26.7M/wk |
 | [Linkup JS SDK for Sourced Web Search and Fetch](skills/linkup-js-sdk-sourced-web-search-fetch/) | Linkup's JS SDK wraps the Linkup API for sourced web search and clean content fetching. It gives agents a maintained… | Security Reviewed | 4 | 30.8k/wk |
 | [NPM Package API Surface Extractor](skills/npm-package-api-surface-extractor/) | Extracts and documents public API surfaces from NPM packages using TypeScript Compiler API (ts.createProgram) and… | Security Reviewed | — | 17.1M/wk |
+| [Use 404.directory](skills/use-404-directory/) | Use the public 404.directory MCP server to search current official OpenAI, Microsoft Learn, AWS, and Cloudflare… | Published | — | 450/wk |
 | [API Documentation Indexer](skills/api-documentation-indexer/) | Indexes and searches API documentation from OpenAPI 3.0 specs using swagger-parser and lunr.js. Builds searchable… | Published | — | — |
 | [AShareHub Chinese Market Data](skills/asharehub/) | Query Chinese A-share, ETF, index, financial statement, valuation, capital-flow, and technical-indicator data… | Published | — | — |
 | [AsyncAPI Event Catalog Builder](skills/asyncapi-event-catalog-builder/) | Generates event-driven architecture documentation from AsyncAPI 3.0 specifications. Uses the AsyncAPI parser-js… | Published | — | — |
@@ -2518,7 +2519,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Rust Crate Documentation Extractor](skills/rust-crate-documentation-extractor/) | Extracts and indexes Rust crate documentation using cargo-doc, docs.rs API, and syn for AST parsing. Generates… | Security Reviewed | — | — |
 | [Rust Crate Documentation Indexer](skills/rust-crate-documentation-indexer-2/) | Indexes Rust crate documentation from docs.rs using rustdoc JSON output and cargo-doc. Extracts trait… | Security Reviewed | — | — |
 | [Rust Crates.io Explorer](skills/rust-crates-io-explorer/) | Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates… | Published | — | — |
-| [Use 404.directory](skills/use-404-directory/) | Use the public 404.directory MCP server to search current official OpenAI, Microsoft Learn, AWS, and Cloudflare… | Published | — | — |
 
 
 ### 🌐 Browser Automation (121 skills)

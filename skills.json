@@ -238,6 +238,9 @@
       "category": "Library & API Reference",
       "framework": "Multi-Framework",
       "verification": "listed",
+      "signals": {
+        "npm_weekly_downloads": 450
+      },
       "source_url": "https://github.com/MM-sheng/404-directory",
       "github_repo": "mm-sheng/404-directory"
     },
@@ -12436,7 +12439,8 @@
       "framework": "Claude Code",
       "verification": "listed",
       "signals": {
-        "github_stars": 388
+        "github_stars": 388,
+        "npm_weekly_downloads": 8112
       },
       "source_url": "https://github.com/affaan-m/agentshield",
       "github_repo": "affaan-m/agentshield"

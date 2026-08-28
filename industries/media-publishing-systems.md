@@ -27,7 +27,6 @@ Transcription, subtitles, podcast workflows, chaptering, localization, loudness 
 
 | Skill | What it does here | Persona | Install | Stars |
 |---|---|---|---|---:|
-| [Podcast RSS Feed Transcriber](../skills/podcast-rss-feed-transcriber/) | Starts a release workflow from the source feed by fetching episodes and producing transcript artifacts. | Podcast producer / content ops | Medium | 97.4k |
 | [Realign drifting subtitles against finished video audio](../skills/realign-drifting-subtitles-against-finished-video-audio/) | Fixes subtitle drift after final video edits without manually retiming every cue. | Video editor / localization ops | Medium | 504 |
 | [Force-align narration and transcript text into subtitle or SMIL timing maps](../skills/force-align-narration-and-transcript-text-into-subtitle-or-smil-timing-maps/) | Turns existing narration plus script text into timed caption or SMIL maps for accessible publishing. | Course producer / accessibility lead | Medium | 2.8k |
 | [ffsubsync Subtitle Synchronization Tool](../skills/ffsubsync-subtitle-synchronization-tool/) | Gives teams a fast low-friction subtitle sync step before uploading captions. | Video producer / publishing ops | Low | 7.7k |
@@ -46,6 +45,8 @@ Transcription, subtitles, podcast workflows, chaptering, localization, loudness 
 | [Whishper Self-Hosted Speech-to-Text and Audio Workflow Skill](../skills/whishper-self-hosted-speech-to-text-audio-workflow-skill/) | Adds a self-hosted speech-to-text workflow for privacy-conscious media teams handling interviews, lessons, or internal recordings. | Media platform engineer / transcript ops | High | 3k |
 | [Generate local subtitles for video editing workflows with Auto Subs](../skills/generate-local-subtitles-for-video-editing-workflows-with-auto-subs/) | Adds a local subtitle generation step for editors who need captions before exporting or publishing finished video. | Video editor / post-production ops | Medium | 3.6k |
 | [Cut and finish Chinese talking-head videos with Chengfeng Videocut Skills](../skills/cut-and-finish-chinese-talking-head-videos-with-chengfeng-videocut-skills/) | Adds a reviewed editing workflow for cutting mistakes, managing subtitles, and producing finished talking-head videos. | Video editor / media production operator | Medium | 2.7k |
+| [Produce Chinese video recaps with video-recap-skills](../skills/produce-chinese-video-recaps-with-video-recap-skills/) | Creates a reviewable video-recap workflow spanning scene analysis, narration, subtitles, and editable production output. | Video producer / localization ops | High | 471 |
+| [Run ComfyUI workflows as agent-callable skills](../skills/run-comfyui-workflows-as-agent-callable-skills/) | Makes repeatable ComfyUI image workflows callable by agents through a controlled CLI for media and creative production. | Creative automation engineer / media ops | High | 395 |
 
 ## Editorial Notes
 

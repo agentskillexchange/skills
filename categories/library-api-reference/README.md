@@ -123,6 +123,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [GitHub REST API Paginator Library](../../skills/github-rest-api-paginator-library/) | 58 | 26.7M/wk |
 | [Linkup JS SDK for Sourced Web Search and Fetch](../../skills/linkup-js-sdk-sourced-web-search-fetch/) | 4 | 30.8k/wk |
 | [NPM Package API Surface Extractor](../../skills/npm-package-api-surface-extractor/) | — | 17.1M/wk |
+| [Use 404.directory](../../skills/use-404-directory/) | — | 450/wk |
 | [API Documentation Indexer](../../skills/api-documentation-indexer/) | — | — |
 | [AShareHub Chinese Market Data](../../skills/asharehub/) | — | — |
 | [AsyncAPI Event Catalog Builder](../../skills/asyncapi-event-catalog-builder/) | — | — |
@@ -165,7 +166,6 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Rust Crate Documentation Extractor](../../skills/rust-crate-documentation-extractor/) | — | — |
 | [Rust Crate Documentation Indexer](../../skills/rust-crate-documentation-indexer-2/) | — | — |
 | [Rust Crates.io Explorer](../../skills/rust-crates-io-explorer/) | — | — |
-| [Use 404.directory](../../skills/use-404-directory/) | — | — |
 
 ---
 
