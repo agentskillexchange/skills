@@ -9,6 +9,7 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "mm-sheng/404-directory"
   npm_package: "@mmvv1638/404-directory-mcp"
+  npm_weekly_downloads: 450
 ---
 
 # Use 404.directory

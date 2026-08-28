@@ -7,7 +7,6 @@
       "description": "Transcription, subtitles, podcast workflows, chaptering, localization, loudness cleanup, and final-mile publishing prep.",
       "editorial_caution": "Prefer workflow-shaped entries over bare libraries when possible.",
       "skill_slugs": [
-        "podcast-rss-feed-transcriber",
         "realign-drifting-subtitles-against-finished-video-audio",
         "force-align-narration-and-transcript-text-into-subtitle-or-smil-timing-maps",
         "ffsubsync-subtitle-synchronization-tool",
@@ -25,7 +24,9 @@
         "whisper-subtitle-generator",
         "whishper-self-hosted-speech-to-text-audio-workflow-skill",
         "generate-local-subtitles-for-video-editing-workflows-with-auto-subs",
-        "cut-and-finish-chinese-talking-head-videos-with-chengfeng-videocut-skills"
+        "cut-and-finish-chinese-talking-head-videos-with-chengfeng-videocut-skills",
+        "produce-chinese-video-recaps-with-video-recap-skills",
+        "run-comfyui-workflows-as-agent-callable-skills"
       ],
       "who_for": [
         "Podcast, video, course, and newsroom teams that need repeatable post-production handoffs.",
@@ -77,11 +78,6 @@
         "customer-support-success"
       ],
       "skill_meta": {
-        "podcast-rss-feed-transcriber": {
-          "why_here": "Starts a release workflow from the source feed by fetching episodes and producing transcript artifacts.",
-          "persona": "Podcast producer / content ops",
-          "install_complexity": "Medium"
-        },
         "realign-drifting-subtitles-against-finished-video-audio": {
           "why_here": "Fixes subtitle drift after final video edits without manually retiming every cue.",
           "persona": "Video editor / localization ops",
@@ -171,14 +167,24 @@
           "why_here": "Adds a reviewed editing workflow for cutting mistakes, managing subtitles, and producing finished talking-head videos.",
           "persona": "Video editor / media production operator",
           "install_complexity": "Medium"
+        },
+        "produce-chinese-video-recaps-with-video-recap-skills": {
+          "why_here": "Creates a reviewable video-recap workflow spanning scene analysis, narration, subtitles, and editable production output.",
+          "persona": "Video producer / localization ops",
+          "install_complexity": "High"
+        },
+        "run-comfyui-workflows-as-agent-callable-skills": {
+          "why_here": "Makes repeatable ComfyUI image workflows callable by agents through a controlled CLI for media and creative production.",
+          "persona": "Creative automation engineer / media ops",
+          "install_complexity": "High"
         }
       },
       "recommended_picks": [
-        "podcast-rss-feed-transcriber",
         "realign-drifting-subtitles-against-finished-video-audio",
         "normalize-loudness-across-podcast-lesson-or-video-batches-before-publishing",
         "whisperx-speech-recognition-timestamps-diarization",
-        "capture-youtube-transcripts-without-browser-automation-using-youtube-transcript-api"
+        "capture-youtube-transcripts-without-browser-automation-using-youtube-transcript-api",
+        "produce-chinese-video-recaps-with-video-recap-skills"
       ]
     },
     {
@@ -1725,6 +1731,7 @@
         "capture-a-live-webpage-as-a-clean-pdf-or-readable-archive-for-offline-review-with-percollate",
         "excalidraw-virtual-whiteboard-diagram-sdk",
         "search-notebooklm-notebooks-sources-and-generated-study-artifacts-from-agents",
+        "automate-notebooklm-studio-generation-and-cited-research-batches-with-notebooklm-mcp",
         "parameterize-and-execute-notebooks-as-repeatable-runs",
         "automate-ml-research-loops-with-aris-skills",
         "use-docsgpt-for-document-grounded-enterprise-assistants",
@@ -1879,6 +1886,11 @@
           "persona": "Research analyst / study workflow owner",
           "install_complexity": "Medium"
         },
+        "automate-notebooklm-studio-generation-and-cited-research-batches-with-notebooklm-mcp": {
+          "why_here": "Runs cited research and NotebookLM Studio artifact generation in structured batches for research and instructional workflows.",
+          "persona": "Research lead / instructional content producer",
+          "install_complexity": "Medium"
+        },
         "parameterize-and-execute-notebooks-as-repeatable-runs": {
           "why_here": "Turns notebooks into parameterized repeatable runs for analysis, replication checks, and teaching workflows.",
           "persona": "Research engineer / data science instructor",
@@ -2021,6 +2033,7 @@
         "n8n-workflow-webhook-bridge",
         "formbricks-open-source-survey-experience-management",
         "run-multi-agent-public-opinion-analysis-and-report-generation-with-bettafish",
+        "run-social-media-research-workflows-with-scrapecreators-skills",
         "monitor-cross-platform-trends-and-alert-agents-with-trendradar",
         "xquik-x-data-api-skill",
         "build-react-agent-chat-interfaces-with-assistant-ui"
@@ -2154,6 +2167,11 @@
         "run-multi-agent-public-opinion-analysis-and-report-generation-with-bettafish": {
           "why_here": "Turns public discussion into evidence-backed opinion reports for market, campaign, and positioning research.",
           "persona": "GTM research analyst / market intelligence lead",
+          "install_complexity": "Medium"
+        },
+        "run-social-media-research-workflows-with-scrapecreators-skills": {
+          "why_here": "Turns public posts, comments, competitor activity, and ad-library evidence into structured campaign and market research.",
+          "persona": "Growth strategist / RevOps analyst",
           "install_complexity": "Medium"
         },
         "monitor-cross-platform-trends-and-alert-agents-with-trendradar": {
@@ -2526,6 +2544,7 @@
         "signoz-open-source-observability-platform",
         "openobserve-observability-platform-logs-metrics-traces",
         "convert-smtp-only-alerts-into-routed-notification-deliveries-with-mailrise",
+        "operate-rails-active-job-queues-with-mission-control-jobs",
         "datadog-integration-connector-agent",
         "trace-and-debug-agent-runs-with-agentops",
         "trace-llm-and-agent-workflows-with-openllmetry",
@@ -2701,6 +2720,11 @@
           "why_here": "Routes legacy SMTP-only alerts into modern notification channels so incidents reach the right responders.",
           "persona": "On-call tooling owner",
           "install_complexity": "Low"
+        },
+        "operate-rails-active-job-queues-with-mission-control-jobs": {
+          "why_here": "Gives Rails operators a reviewable workflow for inspecting failed Active Job queues and retrying or discarding jobs during incidents.",
+          "persona": "Rails platform engineer / SRE",
+          "install_complexity": "Medium"
         },
         "datadog-integration-connector-agent": {
           "why_here": "Connects Datadog signals into agent workflows for incident context, monitor review, and dashboard triage.",
@@ -3022,7 +3046,7 @@
         "profile-and-triage-messy-tabular-files-from-the-terminal-with-visidata",
         "plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh",
         "apache-airflow-mcp",
-        "dbt-cloud-mcp",
+        "dbt-mcp-server-data-pipeline-context",
         "dbt-data-transform-orchestrator",
         "dbt-model-lineage-extractor-2",
         "gate-dbt-projects-with-pre-commit-checks-from-dbt-checkpoint",
@@ -3175,10 +3199,10 @@
           "persona": "Data platform engineer",
           "install_complexity": "High"
         },
-        "dbt-cloud-mcp": {
-          "why_here": "Lets agents inspect and operate dbt Cloud context without treating the warehouse as a black box.",
-          "persona": "Analytics engineer",
-          "install_complexity": "Medium"
+        "dbt-mcp-server-data-pipeline-context": {
+          "why_here": "Connects agents to dbt project context, lineage, Semantic Layer, and controlled SQL operations through the official dbt MCP server.",
+          "persona": "Analytics engineer / data platform lead",
+          "install_complexity": "High"
         },
         "dbt-data-transform-orchestrator": {
           "why_here": "Frames dbt model runs and transformation orchestration as a repeatable analytics engineering workflow.",
