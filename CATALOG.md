@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2936 published skills** across **17 categories** · 2,493 security reviewed · Updated 2026-08-27 19:26 UTC
+> **2937 published skills** across **17 categories** · 2,493 security reviewed · Updated 2026-08-28 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1596,7 +1596,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Update repository docs automatically after code changes and open review PRs](skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | Use GitHub Next's update-docs workflow when code changes should trigger documentation maintenance instead of waiting… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (177 skills)
+### 📋 Runbooks & Diagnostics (178 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -1738,6 +1738,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Diff and review MySQL schema changes as filesystem-managed SQL before risky database deploys with Skeema](skills/diff-and-review-mysql-schema-changes-as-filesystem-managed-sql-before-risky-database-deploys-with-skeema/) | Pull live MySQL schema into files, inspect diffs, and push reviewed changes back with a repeatable workflow. | Security Reviewed | 1.4k | — |
 | [Run profile-based restic backups and verification checks with resticprofile](skills/run-profile-based-restic-backups-and-verification-checks-with-resticprofile/) | Execute named restic backup profiles with repeatable backup, retention, prune, check, and restore steps instead of… | Security Reviewed | 1.3k | — |
 | [Run day-2 OpenClaw operations with production runbooks and reusable prompt patterns from openclaw-runbook](skills/run-day-2-openclaw-operations-with-production-runbooks-and-reusable-prompt-patterns-from-openclaw-runbook/) | Use a practical OpenClaw operations runbook to stabilize long-running deployments, tune coordinator and worker… | Security Reviewed | 1.1k | — |
+| [Operate Rails Active Job queues with Mission Control Jobs](skills/operate-rails-active-job-queues-with-mission-control-jobs/) | Use Mission Control Jobs when an operator needs a Rails-mounted dashboard to inspect Active Job queues, review… | Security Reviewed | 1.1k | — |
 | [Control Kubernetes infrastructure through natural-language MCP workflows](skills/control-kubernetes-infrastructure-through-natural-language-mcp-workflows/) | Let MCP-compatible agents inspect, debug, deploy, audit, and manage Kubernetes clusters through a controlled… | Security Reviewed | 898 | 150/wk |
 | [Datadog Incident Runbook Runner](skills/datadog-incident-runbook-runner-2/) | Fetches an active Datadog incident, retrieves associated monitors and dashboards, pulls the last 30 minutes of… | Security Reviewed | 791 | 6.6M/wk |
 | [Datadog Triage Playbook](skills/datadog-triage-playbook/) | Automates alert triage using the Datadog Monitors API v2 and Notebooks API. Correlates metrics with traces via the… | Security Reviewed | 791 | 6.6M/wk |

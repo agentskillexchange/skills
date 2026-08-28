@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-08-27
-# Total: 2936 skills
+# Generated: 2026-08-28
+# Total: 2937 skills
+
+## Operate Rails Active Job queues with Mission Control Jobs
+slug: operate-rails-active-job-queues-with-mission-control-jobs
+category: Runbooks & Diagnostics
+framework: Custom Agents
+verification: Security Reviewed
+description: Use Mission Control Jobs when an operator needs a Rails-mounted dashboard to inspect Active Job queues, review failed jobs, and retry or discard jobs…
+url: https://agentskillexchange.com/skills/operate-rails-active-job-queues-with-mission-control-jobs/
 
 ## Monitor local coding-agent sessions and token usage with Loongsuite Pilot
 slug: monitor-local-coding-agent-sessions-and-token-usage-with-loongsuite-pilot

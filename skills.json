@@ -1,8 +1,22 @@
 {
   "version": "2.0",
-  "total": 2936,
-  "generated": "2026-08-27",
+  "total": 2937,
+  "generated": "2026-08-28",
   "skills": [
+    {
+      "slug": "operate-rails-active-job-queues-with-mission-control-jobs",
+      "name": "Operate Rails Active Job queues with Mission Control Jobs",
+      "title": "Operate Rails Active Job queues with Mission Control Jobs",
+      "description": "Use Mission Control Jobs when an operator needs a Rails-mounted dashboard to inspect Active Job queues, review failed jobs, and retry or discard jobs…",
+      "category": "Runbooks & Diagnostics",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1057
+      },
+      "source_url": "https://github.com/rails/mission_control-jobs",
+      "github_repo": "rails/mission_control-jobs"
+    },
     {
       "slug": "monitor-local-coding-agent-sessions-and-token-usage-with-loongsuite-pilot",
       "name": "Monitor local coding-agent sessions and token usage with Loongsuite Pilot",
