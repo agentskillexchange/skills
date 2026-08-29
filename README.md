@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C938-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C940-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C496-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,938 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,940 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Run personal operator workflows from agent skills with makerskills](skills/run-personal-operator-workflows-from-agent-skills-with-makerskills/) | Install a multi-skill operator pack for decisions, research, second-brain work, content rotation, financial cadence, project management, and skill... | 720 | Templates & Workflows |
+| [Run Claude Design-style UI prototyping locally with baoyu-design](skills/run-claude-design-style-ui-prototyping-locally-with-baoyu-design/) | Use baoyu-design as a portable agent skill for local UI mockups, prototypes, decks, and design-system workflows that produce... | 3.6k | Image & Creative Automation |
 | [Design, render, and visually QA editable PowerPoint decks with PPT Design Skill](skills/design-render-and-visually-qa-editable-powerpoint-decks-with-ppt-design-skill/) | Run a presentation-design workflow that turns a confirmed brief into editable PPTX output, rendered PNG previews, and revision... | 1.0k | Image & Creative Automation |
 | [Operate Rails Active Job queues with Mission Control Jobs](skills/operate-rails-active-job-queues-with-mission-control-jobs/) | Use Mission Control Jobs when an operator needs a Rails-mounted dashboard to inspect Active Job queues, review failed... | 1.1k | Runbooks & Diagnostics |
 | [Monitor local coding-agent sessions and token usage with Loongsuite Pilot](skills/monitor-local-coding-agent-sessions-and-token-usage-with-loongsuite-pilot/) | Collect local telemetry from Claude Code, Codex, Cursor, OpenClaw, OpenCode, and related coding agents, then inspect token usage... | 152 | Monitoring & Alerts |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [HOL Guard](skills/hol-guard/) | Protect local AI coding-agent harnesses before tools run, review approvals and evidence, and scan agent plugins, skills, MCP... | - | Security & Verification |
 | [Run symbol-aware coding sessions with Empryo](skills/run-symbol-aware-coding-sessions-with-empryo/) | Use Empryo when a coding agent should map symbols, blast radius, and dependencies before making AST-backed edits across... | 984 | Developer Tools |
 | [Produce Chinese video recaps with video-recap-skills](skills/produce-chinese-video-recaps-with-video-recap-skills/) | Use video-recap-skills when an agent should turn source video into a Chinese narration recap with scene understanding, scripting... | 471 | Media & Transcription |
-| [Slashbooks](skills/slashbooks/) | Replace QuickBooks with an AI agent you control: import bank and credit card activity, categorize and reconcile transactions... | - | Calendar, Email & Productivity |
-| [Harden Claude Code plans with claudex-loop](skills/harden-claude-code-plans-with-claudex-loop/) | Use claudex-loop when a Claude Code operator should lock intent, stress-test a plan with Codex, and cross-inspect the... | 1.2k | Developer Tools |
 
 ---
 
@@ -129,10 +129,10 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Run independent multi-agent build and review flows with OPC](skills/run-independent-multi-agent-build-and-review-flows-with-opc/) | Use OPC as a Claude Code skill to select a task flow, dispatch specialist roles, enforce independent review... | 192 | Code Quality & Review |
 | [Enforce Coding-Agent Write and Shell Policies with Probity](skills/enforce-coding-agent-write-and-shell-policies-with-probity/) | Use Probity when Claude Code, Codex, or GitHub Copilot CLI should be blocked from unsafe file writes or... | 162 | Security & Verification |
 | [Block Risky Coding-Agent Commands with CC Safety Net](skills/block-risky-coding-agent-commands-with-cc-safety-net/) | Use CC Safety Net when coding-agent CLIs need pre-execution hooks that block destructive commands, secret access, and unsafe... | 1.5k | Security & Verification |
+| [Run Claude Design-style UI prototyping locally with baoyu-design](skills/run-claude-design-style-ui-prototyping-locally-with-baoyu-design/) | Use baoyu-design as a portable agent skill for local UI mockups, prototypes, decks, and design-system workflows that produce... | 3.6k | Image & Creative Automation |
 | [Run social media research workflows with ScrapeCreators skills](skills/run-social-media-research-workflows-with-scrapecreators-skills/) | Use Social Media Research Skills when an agent needs to find outlier posts, mine comments, compare competitors, inspect... | 1.8k | Research & Scraping |
 | [Design, render, and visually QA editable PowerPoint decks with PPT Design Skill](skills/design-render-and-visually-qa-editable-powerpoint-decks-with-ppt-design-skill/) | Run a presentation-design workflow that turns a confirmed brief into editable PPTX output, rendered PNG previews, and revision... | 1.0k | Image & Creative Automation |
 | [Operate Rails Active Job queues with Mission Control Jobs](skills/operate-rails-active-job-queues-with-mission-control-jobs/) | Use Mission Control Jobs when an operator needs a Rails-mounted dashboard to inspect Active Job queues, review failed... | 1.1k | Runbooks & Diagnostics |
-| [Use 404.directory](skills/use-404-directory/) | Use the public 404.directory MCP server to search current official OpenAI, Microsoft Learn, AWS, and Cloudflare documentation, verify... | - | Library & API Reference |
 
 ---
 
@@ -142,7 +142,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 |---|---|---:|---|
 | 🛠️ | [**Developer Tools**](categories/developer-tools/) | 450 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 246 | Vulnerability scanning, auth setup, compliance |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 233 | Scaffolders, boilerplate generators, workflow templates |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 234 | Scaffolders, boilerplate generators, workflow templates |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 220 | ETL pipelines, parsing, format conversion |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 199 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
@@ -154,7 +154,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 126 | SDK docs, API parsers, symbol resolvers |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 121 | Web scraping, UI testing, headless browser control |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 109 | Audio/video processing, speech-to-text |
-| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 107 | Image generation, asset processing, design automation |
+| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 108 | Image generation, asset processing, design automation |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
 | ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 89 | SEO content, blog automation, editorial workflows |
 
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,938 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,940 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,496 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

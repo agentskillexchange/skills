@@ -2,8 +2,30 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-29",
-  "total": 2938,
+  "total": 2940,
   "skills": [
+    {
+      "slug": "run-personal-operator-workflows-from-agent-skills-with-makerskills",
+      "name": "Run personal operator workflows from agent skills with makerskills",
+      "title": "Run personal operator workflows from agent skills with makerskills",
+      "description": "Install a multi-skill operator pack for decisions, research, second-brain work, content rotation, financial cadence, project management, and skill authoring.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/coreyhaines31/makerskills",
+      "github_repo": "coreyhaines31/makerskills"
+    },
+    {
+      "slug": "run-claude-design-style-ui-prototyping-locally-with-baoyu-design",
+      "name": "Run Claude Design-style UI prototyping locally with baoyu-design",
+      "title": "Run Claude Design-style UI prototyping locally with baoyu-design",
+      "description": "Use baoyu-design as a portable agent skill for local UI mockups, prototypes, decks, and design-system workflows that produce inspectable HTML artifacts.",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/JimLiu/baoyu-design",
+      "github_repo": "JimLiu/baoyu-design"
+    },
     {
       "slug": "design-render-and-visually-qa-editable-powerpoint-decks-with-ppt-design-skill",
       "name": "Design, render, and visually QA editable PowerPoint decks with PPT Design Skill",

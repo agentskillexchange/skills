@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-29
-# Total: 2938 skills
+# Total: 2940 skills
+
+## Run personal operator workflows from agent skills with makerskills
+slug: run-personal-operator-workflows-from-agent-skills-with-makerskills
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Install a multi-skill operator pack for decisions, research, second-brain work, content rotation, financial cadence, project management, and skill authoring.
+url: https://agentskillexchange.com/skills/run-personal-operator-workflows-from-agent-skills-with-makerskills/
+
+## Run Claude Design-style UI prototyping locally with baoyu-design
+slug: run-claude-design-style-ui-prototyping-locally-with-baoyu-design
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use baoyu-design as a portable agent skill for local UI mockups, prototypes, decks, and design-system workflows that produce inspectable HTML artifacts.
+url: https://agentskillexchange.com/skills/run-claude-design-style-ui-prototyping-locally-with-baoyu-design/
 
 ## Design, render, and visually QA editable PowerPoint decks with PPT Design Skill
 slug: design-render-and-visually-qa-editable-powerpoint-decks-with-ppt-design-skill

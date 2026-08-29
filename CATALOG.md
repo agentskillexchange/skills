@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2938 published skills** across **17 categories** · 2,496 security reviewed · Updated 2026-08-29 01:26 UTC
+> **2940 published skills** across **17 categories** · 2,496 security reviewed · Updated 2026-08-29 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -720,7 +720,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (233 skills)
+### 📄 Templates & Workflows (234 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -901,6 +901,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Reformat Markdown files into a stable house style before review or migration](skills/reformat-markdown-files-into-a-stable-house-style-before-review-or-migration/) | Runs mdformat to rewrite Markdown into a consistent CommonMark-oriented layout or check mode in CI. Use it when an… | Security Reviewed | 758 | — |
 | [Turn Agent Corrections Into Durable Skills With claude-smart](skills/turn-agent-corrections-into-durable-skills-with-claude-smart/) | Use claude-smart to capture corrections and working patterns as preferences, project skills, and shared skills that… | Security Reviewed | 748 | 1.9k/wk |
 | [Turn recurring team workflows into installable cross-tool agent skills with Agent Skill Creator](skills/turn-recurring-team-workflows-into-installable-cross-tool-agent-skills-with-agent-skill-creator/) | Feed an agent your docs, links, code, or rough process notes and it generates, validates, installs, and optionally… | Security Reviewed | 744 | — |
+| [Run personal operator workflows from agent skills with makerskills](skills/run-personal-operator-workflows-from-agent-skills-with-makerskills/) | Install a multi-skill operator pack for decisions, research, second-brain work, content rotation, financial cadence,… | Security Reviewed | 720 | — |
 | [Install a governed Claude Code agent team with AppGenesisForge](skills/install-a-governed-claude-code-agent-team-with-appgenesisforge/) | Add a Claude Code team scaffold with defined roles, stage gates, mandatory skills, blocking hooks, and Definition of… | Security Reviewed | 705 | — |
 | [Run ticket queues through unattended coding-agent batches and escalate only on blockers with Codex Autorunner](skills/run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner/) | Turn a planned backlog into markdown tickets, dispatch them through coding agents, and only get pulled back in when… | Security Reviewed | 670 | — |
 | [Run spec-first agentic engineering workflows with Flow-Next](skills/run-spec-first-agentic-engineering-workflows-with-flow-next/) | Turn rough coding intent into durable specs, task graphs, fresh-context worker runs, adversarial reviews, PR bodies,… | Security Reviewed | 662 | — |
@@ -2767,7 +2768,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [YouTube Chapter Generator from Transcripts](skills/youtube-chapter-generator-transcripts/) | Extracts YouTube video transcripts via the youtube-transcript-api Python library and generates semantic chapter… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (107 skills)
+### 🎨 Image & Creative Automation (108 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -2836,6 +2837,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Run generative media agent recipes with MuAPI Skills](skills/run-generative-media-agent-recipes-with-muapi-skills/) | Use Generative Media Skills when an agent should turn a creative brief into repeatable image, video, audio,… | Security Reviewed | 3.9k | 626/wk |
 | [Oxipng Multithreaded Lossless PNG Compression Optimizer](skills/oxipng-png-compression-optimizer/) | Oxipng is a multithreaded lossless PNG and APNG compression optimizer written in Rust. It reduces PNG file sizes… | Security Reviewed | 3.9k | — |
 | [resvg High-Performance SVG Rendering Library in Rust](skills/resvg-svg-rendering-library-rust/) | resvg is a fast, portable SVG rendering library written in Rust that converts SVG files to PNG images with high… | Published | 3.8k | — |
+| [Run Claude Design-style UI prototyping locally with baoyu-design](skills/run-claude-design-style-ui-prototyping-locally-with-baoyu-design/) | Use baoyu-design as a portable agent skill for local UI mockups, prototypes, decks, and design-system workflows that… | Security Reviewed | 3.6k | — |
 | [Turn a plain-language brief into a multi-step video production pipeline with OpenMontage](skills/turn-a-plain-language-brief-into-a-multi-step-video-production-pipeline-with-openmontage/) | Use OpenMontage when an agent should take a brief or reference video and run the research, scripting, asset… | Security Reviewed | 3k | — |
 | [Produce cinematic product videos with Video Shotcraft](skills/produce-cinematic-product-videos-with-video-shotcraft/) | Turns Claude Code, Codex, or another skills-aware coding agent into a Remotion-based product video operator with… | Security Reviewed | 2.1k | — |
 | [OpenEXR HDR Compositing Pipeline](skills/openexr-hdr-compositing-pipeline/) | Processes OpenEXR high dynamic range images using the OpenImageIO (oiiotool) CLI and Imath library for multi-layer… | Security Reviewed | 1.8k | — |

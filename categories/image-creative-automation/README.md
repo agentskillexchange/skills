@@ -103,6 +103,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Run generative media agent recipes with MuAPI Skills](../../skills/run-generative-media-agent-recipes-with-muapi-skills/) | 3.9k | 626/wk |
 | [Oxipng Multithreaded Lossless PNG Compression Optimizer](../../skills/oxipng-png-compression-optimizer/) | 3.9k | — |
 | [resvg High-Performance SVG Rendering Library in Rust](../../skills/resvg-svg-rendering-library-rust/) | 3.8k | — |
+| [Run Claude Design-style UI prototyping locally with baoyu-design](../../skills/run-claude-design-style-ui-prototyping-locally-with-baoyu-design/) | 3.6k | — |
 | [Turn a plain-language brief into a multi-step video production pipeline with OpenMontage](../../skills/turn-a-plain-language-brief-into-a-multi-step-video-production-pipeline-with-openmontage/) | 3k | — |
 | [Produce cinematic product videos with Video Shotcraft](../../skills/produce-cinematic-product-videos-with-video-shotcraft/) | 2.1k | — |
 | [OpenEXR HDR Compositing Pipeline](../../skills/openexr-hdr-compositing-pipeline/) | 1.8k | — |
