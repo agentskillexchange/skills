@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Provision secure disposable development sandboxes for AI-generated code with Daytona](skills/provision-secure-disposable-development-sandboxes-for-ai-generated-code-with-daytona/)** — Spin up isolated, reproducible sandboxes where agents can run generated code, install dependencies, execute tests, and discard state safely.
+**[Sanitize untrusted HTML fragments before rendering previews, comments, or CMS content with DOMPurify](skills/sanitize-untrusted-html-fragments-before-rendering-previews-comments-or-cms-content-dompurify/)** — Use DOMPurify when an agent must accept HTML from users, rich text editors, imports, or model output but cannot safely render it as-is. The skill strips dangerous markup…
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -130,8 +130,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Enforce Coding-Agent Write and Shell Policies with Probity](skills/enforce-coding-agent-write-and-shell-policies-with-probity/) | Use Probity when Claude Code, Codex, or GitHub Copilot CLI should be blocked from unsafe file writes or... | 162 | Security & Verification |
 | [Block Risky Coding-Agent Commands with CC Safety Net](skills/block-risky-coding-agent-commands-with-cc-safety-net/) | Use CC Safety Net when coding-agent CLIs need pre-execution hooks that block destructive commands, secret access, and unsafe... | 1.5k | Security & Verification |
 | [Run social media research workflows with ScrapeCreators skills](skills/run-social-media-research-workflows-with-scrapecreators-skills/) | Use Social Media Research Skills when an agent needs to find outlier posts, mine comments, compare competitors, inspect... | 1.8k | Research & Scraping |
-| [Operate Rails Active Job queues with Mission Control Jobs](skills/operate-rails-active-job-queues-with-mission-control-jobs/) | Use Mission Control Jobs when an operator needs a Rails-mounted dashboard to inspect Active Job queues, review failed... | 1.1k | Runbooks & Diagnostics |
 | [Design, render, and visually QA editable PowerPoint decks with PPT Design Skill](skills/design-render-and-visually-qa-editable-powerpoint-decks-with-ppt-design-skill/) | Run a presentation-design workflow that turns a confirmed brief into editable PPTX output, rendered PNG previews, and revision... | 1.0k | Image & Creative Automation |
+| [Operate Rails Active Job queues with Mission Control Jobs](skills/operate-rails-active-job-queues-with-mission-control-jobs/) | Use Mission Control Jobs when an operator needs a Rails-mounted dashboard to inspect Active Job queues, review failed... | 1.1k | Runbooks & Diagnostics |
 | [Use 404.directory](skills/use-404-directory/) | Use the public 404.directory MCP server to search current official OpenAI, Microsoft Learn, AWS, and Cloudflare documentation, verify... | - | Library & API Reference |
 
 ---

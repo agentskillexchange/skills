@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-08-28
+# Generated: 2026-08-29
 # Total: 2938 skills
 
 ## Design, render, and visually QA editable PowerPoint decks with PPT Design Skill
