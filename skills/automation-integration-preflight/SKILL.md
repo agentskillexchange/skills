@@ -66,6 +66,32 @@ curl -sS https://preflight.tinyopsstudio.com/acceptance-pack \
 
 Use an equivalent HTTP client when shell access is unavailable. Send a truthful, non-empty user agent. If the service rejects a destination or cannot fetch it safely, report that result and do not route around the restriction.
 
+Assess only a URL the user owns, operates, or is authorized to evaluate. Send one URL per request. The URL is limited to 2,048 characters and the optional acceptance-pack objective is limited to 500 characters. The public routes do not require credentials, but they are rate limited and may return `429`. Do not build an unbounded crawl or retry loop around them.
+
+Treat a timeout, malformed JSON, or any non-`200` response as a failed preflight, not as evidence that the target is ready. Report the returned status and safe error code, then recommend retrying later for `429` or `5xx`. Do not retry a rejected or prohibited target. A successful analyze response has this core shape:
+
+```json
+{
+  "ok": true,
+  "target": {
+    "final_url": "https://example.com/",
+    "status": 206,
+    "content_type": "text/html",
+    "latency_ms": 14,
+    "redirect_count": 0
+  },
+  "robots": { "allowed": true, "automation_restricted": false },
+  "readiness": {
+    "score": 45,
+    "grade": "D",
+    "risk_flags": ["no_explicit_integration_surface"]
+  },
+  "limitations": ["Public server-rendered HTML only"]
+}
+```
+
+Values above are illustrative. Use the current response, not the example values, for the decision.
+
 ## Interpret the response
 
 Lead with the implementation decision, then summarize only evidence that materially affects it:
