@@ -14,9 +14,26 @@ Automation Integration Preflight helps an agent decide whether one public web pa
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+### OpenClaw
 
-- Source: https://preflight.tinyopsstudio.com/openapi.json
+```bash
+clawhub install automation-integration-preflight
+```
+
+### Direct repo install for Codex, Claude Code, Cursor, or another Agent Skills runtime
+
+```bash
+git clone https://github.com/agentskillexchange/skills.git
+cp -R skills/skills/automation-integration-preflight ~/.agent-skills/automation-integration-preflight
+```
+
+### Optional third-party installer
+
+The `skills` npm package is maintained by Vercel Labs and other third parties. Pin the version if you choose to use it:
+
+```bash
+npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill automation-integration-preflight
+```
 
 ## Choose the result
 
