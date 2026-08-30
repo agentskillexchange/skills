@@ -17,7 +17,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 9 | [Jest Unit Test Scaffolder](skills/jest-unit-test-scaffolder/) | 44.8M/wk | jest | Code Quality & Review |
 | 10 | [Webpack Bundle Analyzer Agent](skills/webpack-bundle-analyzer-agent/) | 44.5M/wk | webpack | Developer Tools |
 | 11 | [Puppeteer Browser Automation Library for Chrome and Firefox](skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | 40.2M/wk | puppeteer | Browser Automation |
-| 12 | [OpenAI Image Gen](skills/openai-image-gen/) | 37.9M/wk | openai | Image & Creative Automation |
+| 12 | [OpenAI Image Gen](skills/openai-image-gen/) | 39M/wk | openai | Image & Creative Automation |
 | 13 | [GraphQL Data Federation Agent](skills/graphql-data-federation-agent/) | 34.2M/wk | graphql | Data Extraction & Transformation |
 | 14 | [SVGO SVG Optimization Tool](skills/svgo-svg-optimization-tool/) | 28.7M/wk | svgo | Image & Creative Automation |
 | 15 | [PostgreSQL Diagnostic Analyzer](skills/postgresql-diagnostic-analyzer/) | 23.2M/wk | postgresql | Runbooks & Diagnostics |
@@ -42,7 +42,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 34 | [TypeDoc TypeScript API Documentation Generator](skills/typedoc-typescript-api-documentation-generator/) | 3.7M/wk | typedoc | Library & API Reference |
 | 35 | [Stagehand AI Browser Automation Framework](skills/stagehand-ai-browser-automation-framework-2/) | 3.4M/wk | stagehand | Browser Automation |
 | 36 | [AWS CDK Scaffolder](skills/aws-cdk-scaffolder/) | 3.3M/wk | aws | Templates & Workflows |
-| 37 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 3.1M/wk | datadog-api-client-typescript | Monitoring & Alerts |
+| 37 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 3.2M/wk | datadog-api-client-typescript | Monitoring & Alerts |
 | 38 | [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | 2.8M/wk | javascript | Security & Verification |
 | 39 | [Microsoft Playwright MCP](skills/microsoft-playwright-mcp/) | 2.8M/wk | playwright-mcp | Browser Automation |
 | 40 | [WebdriverIO Next-Gen Browser and Mobile Automation Framework](skills/webdriverio-browser-mobile-automation-framework/) | 2.7M/wk | webdriverio | Browser Automation |
