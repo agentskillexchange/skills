@@ -4,6 +4,7 @@ slug: "automation-integration-preflight"
 description: "Assess a public HTTP(S) page before building browser automation, extraction, or an integration. Use this skill to collect bounded structural evidence, readiness signals, risk flags, acceptance tests, and remediation priorities without sending credentials or accessing private targets."
 verification: "listed"
 source: "https://preflight.tinyopsstudio.com/openapi.json"
+author: "TinyOps Studio LLC"
 category: "Integrations & Connectors"
 framework: "Codex"
 ---
@@ -14,26 +15,9 @@ Automation Integration Preflight helps an agent decide whether one public web pa
 
 ## Installation
 
-### OpenClaw
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-```bash
-clawhub install automation-integration-preflight
-```
-
-### Direct repo install for Codex, Claude Code, Cursor, or another Agent Skills runtime
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git
-cp -R skills/skills/automation-integration-preflight ~/.agent-skills/automation-integration-preflight
-```
-
-### Optional third-party installer
-
-The `skills` npm package is maintained by Vercel Labs and other third parties. Pin the version if you choose to use it:
-
-```bash
-npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill automation-integration-preflight
-```
+- Source: https://preflight.tinyopsstudio.com/openapi.json
 
 ## Choose the result
 
