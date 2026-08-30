@@ -194,6 +194,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [USDCtoFiat Cash-Out](../../skills/usdctofiat-cashout/) | — | 650/wk |
 | [DealMachine Sales Intelligence](../../skills/dealmachine-sales-intelligence/) | — | 272/wk |
 | [AssemblyAI Real-Time Call Intelligence](../../skills/assemblyai-realtime-call-intelligence/) | — | — |
+| [Automation Integration Preflight](../../skills/automation-integration-preflight/) | — | — |
 | [BeachFinder Swim Spot Finder](../../skills/beachfinder-swim-spot-finder/) | — | — |
 | [Famulor Assistants & Omnichannel History](../../skills/famulor-assistants-history/) | — | — |
 | [GitHub Discussions Community Digest](../../skills/github-discussions-community-digest/) | — | — |

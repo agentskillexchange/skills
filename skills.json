@@ -1,8 +1,29 @@
 {
   "version": "2.0",
-  "total": 2943,
+  "total": 2945,
   "generated": "2026-08-30",
   "skills": [
+    {
+      "slug": "automation-integration-preflight",
+      "name": "Automation Integration Preflight",
+      "title": "Automation Integration Preflight",
+      "description": "Assess a public HTTP(S) page before building browser automation, extraction, or an integration. Use this skill to collect bounded structural evidence, readiness signals, risk…",
+      "category": "Integrations & Connectors",
+      "framework": "Codex",
+      "verification": "listed",
+      "source_url": "https://preflight.tinyopsstudio.com/openapi.json"
+    },
+    {
+      "slug": "author-and-run-regression-tests-with-agent-qa",
+      "name": "Author and Run Regression Tests with Agent QA",
+      "title": "Author and Run Regression Tests with Agent QA",
+      "description": "Use Agent QA's CLI and MCP server to author, validate, run, debug, and triage natural-language web and mobile regression tests with persistent test memory…",
+      "category": "Browser Automation",
+      "framework": "Codex",
+      "verification": "listed",
+      "source_url": "https://github.com/vostride/agent-qa",
+      "github_repo": "vostride/agent-qa"
+    },
     {
       "slug": "operate-multiple-coding-agents-from-one-emacs-workflow-with-ai-code-interface",
       "name": "Operate multiple coding agents from one Emacs workflow with AI Code Interface",

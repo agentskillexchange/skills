@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-30
-# Total: 2943 skills
+# Total: 2945 skills
+
+## Automation Integration Preflight
+slug: automation-integration-preflight
+category: Integrations & Connectors
+framework: Codex
+verification: Published
+description: Assess a public HTTP(S) page before building browser automation, extraction, or an integration. Use this skill to collect bounded structural evidence, readiness signals, risk…
+url: https://agentskillexchange.com/skills/automation-integration-preflight/
+
+## Author and Run Regression Tests with Agent QA
+slug: author-and-run-regression-tests-with-agent-qa
+category: Browser Automation
+framework: Codex
+verification: Published
+description: Use Agent QA's CLI and MCP server to author, validate, run, debug, and triage natural-language web and mobile regression tests with persistent test memory…
+url: https://agentskillexchange.com/skills/author-and-run-regression-tests-with-agent-qa/
 
 ## Operate multiple coding agents from one Emacs workflow with AI Code Interface
 slug: operate-multiple-coding-agents-from-one-emacs-workflow-with-ai-code-interface

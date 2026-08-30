@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C943-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C945-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C499-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,943 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,945 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Automation Integration Preflight](skills/automation-integration-preflight/) | Assess a public HTTP(S) page before building browser automation, extraction, or an integration. Use this skill to collect... | - | Integrations & Connectors |
+| [Author and Run Regression Tests with Agent QA](skills/author-and-run-regression-tests-with-agent-qa/) | Use Agent QA's CLI and MCP server to author, validate, run, debug, and triage natural-language web and mobile... | - | Browser Automation |
 | [Operate multiple coding agents from one Emacs workflow with AI Code Interface](skills/operate-multiple-coding-agents-from-one-emacs-workflow-with-ai-code-interface/) | Give Emacs users one workflow layer for Codex, Claude Code, Gemini CLI, Cursor CLI, opencode, and other coding-agent... | 274 | Developer Tools |
 | [Turn single research papers into Obsidian notes with DeepPaperNote](skills/turn-single-research-papers-into-obsidian-notes-with-deeppapernote/) | Run a source-grounded agent workflow that reads one paper deeply and saves a durable Obsidian-style research note | 1.0k | Research & Scraping |
 | [Build production-ready n8n workflows with n8n-skills](skills/build-production-ready-n8n-workflows-with-n8n-skills/) | Give Claude Code a routed skill pack for designing, validating, debugging, and deploying n8n workflows through n8n-mcp | 6.2k | Templates & Workflows |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Design, render, and visually QA editable PowerPoint decks with PPT Design Skill](skills/design-render-and-visually-qa-editable-powerpoint-decks-with-ppt-design-skill/) | Run a presentation-design workflow that turns a confirmed brief into editable PPTX output, rendered PNG previews, and revision... | 1.0k | Image & Creative Automation |
 | [Operate Rails Active Job queues with Mission Control Jobs](skills/operate-rails-active-job-queues-with-mission-control-jobs/) | Use Mission Control Jobs when an operator needs a Rails-mounted dashboard to inspect Active Job queues, review failed... | 1.1k | Runbooks & Diagnostics |
 | [Monitor local coding-agent sessions and token usage with Loongsuite Pilot](skills/monitor-local-coding-agent-sessions-and-token-usage-with-loongsuite-pilot/) | Collect local telemetry from Claude Code, Codex, Cursor, OpenClaw, OpenCode, and related coding agents, then inspect token usage... | 152 | Monitoring & Alerts |
-| [Run social media research workflows with ScrapeCreators skills](skills/run-social-media-research-workflows-with-scrapecreators-skills/) | Use Social Media Research Skills when an agent needs to find outlier posts, mine comments, compare competitors, inspect... | 1.8k | Research & Scraping |
-| [Run ComfyUI workflows as agent-callable skills](skills/run-comfyui-workflows-as-agent-callable-skills/) | Use ComfyUI Skills for OpenClaw when an agent needs to import, parameterize, route, and run repeatable ComfyUI workflows... | 395 | Image & Creative Automation |
 
 ---
 
@@ -104,6 +104,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Contributor | Skill | What it helps with | Category |
 |---|---|---|---|
+| [pranshuchittora](https://github.com/pranshuchittora) | [Author and Run Regression Tests with Agent QA](skills/author-and-run-regression-tests-with-agent-qa/) | Use Agent QA's CLI and MCP server to author, validate, run, debug, and triage natural-language web and mobile... | Browser Automation |
+| [tinyopsstudio](https://github.com/tinyopsstudio) | [Automation Integration Preflight](skills/automation-integration-preflight/) | Assess a public HTTP(S) page before building browser automation, extraction, or an integration. Use this skill to collect... | Integrations & Connectors |
 | [kantorcodes](https://github.com/kantorcodes) | [HOL Guard](skills/hol-guard/) | Protect local AI coding-agent harnesses before tools run, review approvals and evidence, and scan agent plugins, skills, MCP... | Security & Verification |
 | [giltotherescue](https://github.com/giltotherescue) | [Slashbooks](skills/slashbooks/) | Replace QuickBooks with an AI agent you control: import bank and credit card activity, categorize and reconcile transactions... | Calendar, Email & Productivity |
 | [bekservice](https://github.com/bekservice) | [Famulor Assistants & Omnichannel History](skills/famulor-assistants-history/) | Use Famulor's OAuth-secured, read-only MCP profile to inspect assistant configurations, versions, workspace catalogs, and unified call, messaging, and... | Integrations & Connectors |
@@ -112,8 +114,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [ADWilkinson](https://github.com/ADWilkinson) | [USDCtoFiat Cash-Out](skills/usdctofiat-cashout/) | Add non-custodial Base USDC-to-fiat cash-out with @usdctofiat/offramp cashout({ mode: "fast" \| "best" }). Use when an agent must... | Integrations & Connectors |
 | [ADWilkinson](https://github.com/ADWilkinson) | [Sell unused tokens](skills/sell-unused-tokens/) | List leftover LLM API capacity on tokensto.cash (OpenRouter, OpenAI, Anthropic, Venice, Capminal, and 20+ others) and cash out... | Developer Tools |
 | [Anil-matcha](https://github.com/Anil-matcha) | [Generate Images with MuAPI](skills/generate-images-with-muapi/) | Discovers current MuAPI image models, builds a model-specific request, and validates asynchronous image artifacts. Use when an agent... | Image & Creative Automation |
-| [ChuYiCui1](https://github.com/ChuYiCui1) | [AShareHub Chinese Market Data](skills/asharehub/) | Query Chinese A-share, ETF, index, financial statement, valuation, capital-flow, and technical-indicator data through the AShareHub Python SDK and... | Library & API Reference |
-| [denial123789](https://github.com/denial123789) | [Cross-validate research with SandBase Multi-Source Search](skills/cross-validate-research-with-sandbase-multi-source-search/) | Use SandBase Multi-Source Search to fact-check claims across independent web and academic sources, record disagreements, score confidence, and... | Research & Scraping |
 
 ---
 
@@ -131,8 +131,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Build production-ready n8n workflows with n8n-skills](skills/build-production-ready-n8n-workflows-with-n8n-skills/) | Give Claude Code a routed skill pack for designing, validating, debugging, and deploying n8n workflows through n8n-mcp | 6.2k | Templates & Workflows |
 | [Block Risky Coding-Agent Commands with CC Safety Net](skills/block-risky-coding-agent-commands-with-cc-safety-net/) | Use CC Safety Net when coding-agent CLIs need pre-execution hooks that block destructive commands, secret access, and unsafe... | 1.5k | Security & Verification |
 | [Run Claude Design-style UI prototyping locally with baoyu-design](skills/run-claude-design-style-ui-prototyping-locally-with-baoyu-design/) | Use baoyu-design as a portable agent skill for local UI mockups, prototypes, decks, and design-system workflows that produce... | 3.6k | Image & Creative Automation |
-| [Run personal operator workflows from agent skills with makerskills](skills/run-personal-operator-workflows-from-agent-skills-with-makerskills/) | Install a multi-skill operator pack for decisions, research, second-brain work, content rotation, financial cadence, project management, and skill... | 720 | Templates & Workflows |
 | [Turn single research papers into Obsidian notes with DeepPaperNote](skills/turn-single-research-papers-into-obsidian-notes-with-deeppapernote/) | Run a source-grounded agent workflow that reads one paper deeply and saves a durable Obsidian-style research note | 1.0k | Research & Scraping |
+| [Run personal operator workflows from agent skills with makerskills](skills/run-personal-operator-workflows-from-agent-skills-with-makerskills/) | Install a multi-skill operator pack for decisions, research, second-brain work, content rotation, financial cadence, project management, and skill... | 720 | Templates & Workflows |
 
 ---
 
@@ -147,12 +147,12 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 199 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 178 | Incident response, troubleshooting, system diagnostics |
-| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 164 | Third-party API bridges, webhooks, service connectors |
+| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 165 | Third-party API bridges, webhooks, service connectors |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 155 | Metrics, alerting rules, observability |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 128 | Web research, content discovery, data collection |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 127 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 126 | SDK docs, API parsers, symbol resolvers |
-| 🌐 | [**Browser Automation**](categories/browser-automation/) | 121 | Web scraping, UI testing, headless browser control |
+| 🌐 | [**Browser Automation**](categories/browser-automation/) | 122 | Web scraping, UI testing, headless browser control |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 109 | Audio/video processing, speech-to-text |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 108 | Image generation, asset processing, design automation |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,943 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,945 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,499 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

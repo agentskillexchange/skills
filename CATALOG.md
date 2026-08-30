@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2943 published skills** across **17 categories** · 2,499 security reviewed · Updated 2026-08-30 01:26 UTC
+> **2945 published skills** across **17 categories** · 2,499 security reviewed · Updated 2026-08-30 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1785,7 +1785,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (164 skills)
+### 🔗 Integrations & Connectors (165 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1945,6 +1945,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [USDCtoFiat Cash-Out](skills/usdctofiat-cashout/) | Add non-custodial Base USDC-to-fiat cash-out with @usdctofiat/offramp cashout({ mode: "fast" \| "best" }). Use when… | Published | — | 650/wk |
 | [DealMachine Sales Intelligence](skills/dealmachine-sales-intelligence/) | Searches and enriches US property, owner, people, and company data through the DealMachine CLI and hosted MCP server… | Published | — | 272/wk |
 | [AssemblyAI Real-Time Call Intelligence](skills/assemblyai-realtime-call-intelligence/) | Streams audio from Twilio Media Streams over WebSocket to AssemblyAI real-time transcription, extracting… | Security Reviewed | — | — |
+| [Automation Integration Preflight](skills/automation-integration-preflight/) | Assess a public HTTP(S) page before building browser automation, extraction, or an integration. Use this skill to… | Published | — | — |
 | [BeachFinder Swim Spot Finder](skills/beachfinder-swim-spot-finder/) | Finds and compares 184,900 swimming spots worldwide (beaches, lakes, bathing places) with live water temperature,… | Published | — | — |
 | [Famulor Assistants & Omnichannel History](skills/famulor-assistants-history/) | Use Famulor's OAuth-secured, read-only MCP profile to inspect assistant configurations, versions, workspace… | Published | — | — |
 | [GitHub Discussions Community Digest](skills/github-discussions-community-digest/) | Queries GitHub GraphQL API for new and unanswered Discussions, ranks them by reaction count and recency, and drafts… | Security Reviewed | — | — |
@@ -2525,7 +2526,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Rust Crates.io Explorer](skills/rust-crates-io-explorer/) | Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates… | Published | — | — |
 
 
-### 🌐 Browser Automation (121 skills)
+### 🌐 Browser Automation (122 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
@@ -2651,6 +2652,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [playwright-extra Plugin Framework for Playwright](skills/playwright-extra-plugin-framework-for-playwright/) | An ASE skill built around playwright-extra, the plugin framework that augments Playwright with reusable plugins such… | Published | — | 623.1k/wk |
 | [Extract data and complete workflows in your real logged-in browser](skills/extract-data-and-complete-workflows-in-your-real-logged-in-browser/) | Use bb-browser when an agent needs to inspect pages, pull data, or complete form-driven tasks inside the user's… | Published | — | 2.9k/wk |
 | [Drive Chrome with stable accessibility refs for repeatable browser automation](skills/drive-chrome-with-stable-accessibility-refs-for-repeatable-browser-automation/) | Use PinchTab when an agent needs repeatable browser automation with stable element references, persistent profiles,… | Security Reviewed | — | 1.1k/wk |
+| [Author and Run Regression Tests with Agent QA](skills/author-and-run-regression-tests-with-agent-qa/) | Use Agent QA's CLI and MCP server to author, validate, run, debug, and triage natural-language web and mobile… | Published | — | — |
 | [Verify local web apps with Playwright scripts and managed dev servers](skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | Use Anthropic's webapp-testing skill to spin up one or more local servers, wait for them to become reachable, and… | Security Reviewed | — | — |
 
 
