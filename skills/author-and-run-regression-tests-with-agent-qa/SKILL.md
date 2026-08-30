@@ -2,10 +2,12 @@
 name: "Author and Run Regression Tests with Agent QA"
 slug: "author-and-run-regression-tests-with-agent-qa"
 description: "Use Agent QA's CLI and MCP server to author, validate, run, debug, and triage natural-language web and mobile regression tests with persistent test memory and reviewable run evidence."
+verification: "listed"
+source: "https://github.com/vostride/agent-qa"
 category: "Browser Automation"
 framework: "Codex"
-verification: listed
-source: "https://github.com/vostride/agent-qa"
+tool_ecosystem:
+  github_repo: "vostride/agent-qa"
 ---
 
 # Author and Run Regression Tests with Agent QA
@@ -40,22 +42,9 @@ npx agent-qa install-mobile-drivers --all
 
 ## Installation
 
-### Direct repo/manual install
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-Clone the Agent Skill Exchange repository and copy this skill into the directory used by your agent runtime:
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git
-cp -R skills/skills/author-and-run-regression-tests-with-agent-qa ~/.agent-skills/author-and-run-regression-tests-with-agent-qa
-```
-
-### Optional Third-Party Installer
-
-The `skills` npm package is maintained by Vercel Labs / third parties, not AgentSkillExchange. If you choose to use it, pin the package version:
-
-```bash
-npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill author-and-run-regression-tests-with-agent-qa
-```
+- Source: https://github.com/vostride/agent-qa
 
 ## Documentation
 
