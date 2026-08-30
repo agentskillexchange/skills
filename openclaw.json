@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-30",
-  "total": 2945,
+  "total": 2946,
   "skills": [
+    {
+      "slug": "manage-parallel-coding-agent-sessions-and-worktrees-with-ccmanager",
+      "name": "Manage parallel coding agent sessions and worktrees with CCManager",
+      "title": "Manage parallel coding agent sessions and worktrees with CCManager",
+      "description": "Run Claude Code, Codex CLI, Gemini CLI, Cursor Agent, Copilot CLI, Cline CLI, OpenCode, Kimi CLI, and related coding assistants from one worktree-aware terminal…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/kbwo/ccmanager",
+      "github_repo": "kbwo/ccmanager"
+    },
     {
       "slug": "automation-integration-preflight",
       "name": "Automation Integration Preflight",

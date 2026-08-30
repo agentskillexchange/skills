@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2945 published skills** across **17 categories** · 2,500 security reviewed · Updated 2026-08-30 13:26 UTC
+> **2946 published skills** across **17 categories** · 2,500 security reviewed · Updated 2026-08-30 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (451 skills)
+### 🛠️ Developer Tools (452 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -356,6 +356,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Claude Code MCP Bridge](skills/claude-code-mcp-bridge/) | Run Claude Code as a one-shot MCP tool so other agents and editors can delegate coding tasks to it. An… | Security Reviewed | 1.3k | 177/wk |
 | [Route Codex and Claude Code through an opencodex provider proxy](skills/route-codex-and-claude-code-through-an-opencodex-provider-proxy/) | Run a local proxy that lets Codex and Claude Code use configured LLM providers, routed models, and account pools… | Security Reviewed | 1.3k | 24k/wk |
 | [Run React Native implementation and troubleshooting workflows with Callstack Agent Skills](skills/run-react-native-implementation-and-troubleshooting-workflows-with-callstack-agent-skills/) | Give coding agents React Native-specific build, upgrade, GitHub Actions, and troubleshooting guidance instead of… | Security Reviewed | 1.3k | — |
+| [Manage parallel coding agent sessions and worktrees with CCManager](skills/manage-parallel-coding-agent-sessions-and-worktrees-with-ccmanager/) | Run Claude Code, Codex CLI, Gemini CLI, Cursor Agent, Copilot CLI, Cline CLI, OpenCode, Kimi CLI, and related coding… | Security Reviewed | 1.2k | 2.5k/wk |
 | [Harden Claude Code plans with claudex-loop](skills/harden-claude-code-plans-with-claudex-loop/) | Use claudex-loop when a Claude Code operator should lock intent, stress-test a plan with Codex, and cross-inspect… | Security Reviewed | 1.2k | — |
 | [Synchronize AI coding rules across agent tools with Rulesync](skills/synchronize-ai-coding-rules-across-agent-tools-with-rulesync/) | Use Rulesync to maintain one set of AI coding rules and generate the right configuration files for Claude Code,… | Security Reviewed | 1.2k | 748.2k/wk |
 | [Capture, search, and optionally sync local coding-agent session history across Claude Code, Codex, Cursor CLI, and Gemini with SpecStory](skills/capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory/) | Use SpecStory when valuable coding-agent decisions keep disappearing into terminal history and you need one… | Security Reviewed | 1.2k | — |

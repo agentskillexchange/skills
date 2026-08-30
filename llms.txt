@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-30
-# Total: 2945 skills
+# Total: 2946 skills
+
+## Manage parallel coding agent sessions and worktrees with CCManager
+slug: manage-parallel-coding-agent-sessions-and-worktrees-with-ccmanager
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run Claude Code, Codex CLI, Gemini CLI, Cursor Agent, Copilot CLI, Cline CLI, OpenCode, Kimi CLI, and related coding assistants from one worktree-aware terminal…
+url: https://agentskillexchange.com/skills/manage-parallel-coding-agent-sessions-and-worktrees-with-ccmanager/
 
 ## Automation Integration Preflight
 slug: automation-integration-preflight

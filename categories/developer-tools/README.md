@@ -382,6 +382,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | 1.3k | 177/wk |
 | [Route Codex and Claude Code through an opencodex provider proxy](../../skills/route-codex-and-claude-code-through-an-opencodex-provider-proxy/) | 1.3k | 24k/wk |
 | [Run React Native implementation and troubleshooting workflows with Callstack Agent Skills](../../skills/run-react-native-implementation-and-troubleshooting-workflows-with-callstack-agent-skills/) | 1.3k | — |
+| [Manage parallel coding agent sessions and worktrees with CCManager](../../skills/manage-parallel-coding-agent-sessions-and-worktrees-with-ccmanager/) | 1.2k | 2.5k/wk |
 | [Harden Claude Code plans with claudex-loop](../../skills/harden-claude-code-plans-with-claudex-loop/) | 1.2k | — |
 | [Synchronize AI coding rules across agent tools with Rulesync](../../skills/synchronize-ai-coding-rules-across-agent-tools-with-rulesync/) | 1.2k | 748.2k/wk |
 | [Capture, search, and optionally sync local coding-agent session history across Claude Code, Codex, Cursor CLI, and Gemini with SpecStory](../../skills/capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory/) | 1.2k | — |
