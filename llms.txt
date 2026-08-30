@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-08-29
-# Total: 2940 skills
+# Generated: 2026-08-30
+# Total: 2943 skills
+
+## Operate multiple coding agents from one Emacs workflow with AI Code Interface
+slug: operate-multiple-coding-agents-from-one-emacs-workflow-with-ai-code-interface
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Give Emacs users one workflow layer for Codex, Claude Code, Gemini CLI, Cursor CLI, opencode, and other coding-agent backends.
+url: https://agentskillexchange.com/skills/operate-multiple-coding-agents-from-one-emacs-workflow-with-ai-code-interface/
+
+## Turn single research papers into Obsidian notes with DeepPaperNote
+slug: turn-single-research-papers-into-obsidian-notes-with-deeppapernote
+category: Research & Scraping
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run a source-grounded agent workflow that reads one paper deeply and saves a durable Obsidian-style research note.
+url: https://agentskillexchange.com/skills/turn-single-research-papers-into-obsidian-notes-with-deeppapernote/
+
+## Build production-ready n8n workflows with n8n-skills
+slug: build-production-ready-n8n-workflows-with-n8n-skills
+category: Templates & Workflows
+framework: Claude Code
+verification: Security Reviewed
+description: Give Claude Code a routed skill pack for designing, validating, debugging, and deploying n8n workflows through n8n-mcp.
+url: https://agentskillexchange.com/skills/build-production-ready-n8n-workflows-with-n8n-skills/
 
 ## Run personal operator workflows from agent skills with makerskills
 slug: run-personal-operator-workflows-from-agent-skills-with-makerskills

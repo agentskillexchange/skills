@@ -443,6 +443,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Connect RStudio to MCP Agents with ClaudeR](../../skills/connect-rstudio-to-mcp-agents-with-clauder/) | 305 | — |
 | [Run Autoprompt coordination loops across coding agents](../../skills/run-autoprompt-coordination-loops-across-coding-agents/) | 293 | 122/wk |
 | [Install focused Claude Code workflow plugins from Claude Night Market](../../skills/install-focused-claude-code-workflow-plugins-from-claude-night-market/) | 291 | — |
+| [Operate multiple coding agents from one Emacs workflow with AI Code Interface](../../skills/operate-multiple-coding-agents-from-one-emacs-workflow-with-ai-code-interface/) | 274 | — |
 | [Orchestrate coding-agent goals and context with Jumbo Context](../../skills/orchestrate-coding-agent-goals-and-context-with-jumbo-context/) | 265 | 647/wk |
 | [Run agent tool calls through pctx Code Mode and unified MCP](../../skills/run-agent-tool-calls-through-pctx-code-mode-and-unified-mcp/) | 264 | 285/wk |
 | [Orchestrate Windows coding-agent fleets with Wmux](../../skills/orchestrate-windows-coding-agent-fleets-with-wmux/) | 252 | — |

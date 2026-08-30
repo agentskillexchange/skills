@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2940 published skills** across **17 categories** · 2,499 security reviewed · Updated 2026-08-29 19:27 UTC
+> **2943 published skills** across **17 categories** · 2,499 security reviewed · Updated 2026-08-30 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (450 skills)
+### 🛠️ Developer Tools (451 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -417,6 +417,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Connect RStudio to MCP Agents with ClaudeR](skills/connect-rstudio-to-mcp-agents-with-clauder/) | Use ClaudeR to expose an active RStudio session to MCP-capable coding and research agents for R execution, plots,… | Security Reviewed | 305 | — |
 | [Run Autoprompt coordination loops across coding agents](skills/run-autoprompt-coordination-loops-across-coding-agents/) | Use Autoprompt when an operator wants a coding agent to turn one goal into a planned, delegated, reviewed, and… | Security Reviewed | 293 | 122/wk |
 | [Install focused Claude Code workflow plugins from Claude Night Market](skills/install-focused-claude-code-workflow-plugins-from-claude-night-market/) | Review and install only the Claude Night Market plugins needed for a specific Claude Code workflow, such as PR prep,… | Security Reviewed | 291 | — |
+| [Operate multiple coding agents from one Emacs workflow with AI Code Interface](skills/operate-multiple-coding-agents-from-one-emacs-workflow-with-ai-code-interface/) | Give Emacs users one workflow layer for Codex, Claude Code, Gemini CLI, Cursor CLI, opencode, and other coding-agent… | Security Reviewed | 274 | — |
 | [Orchestrate coding-agent goals and context with Jumbo Context](skills/orchestrate-coding-agent-goals-and-context-with-jumbo-context/) | Use Jumbo Context when coding agents need local goal state, project memory, session continuity, and context packets… | Security Reviewed | 265 | 647/wk |
 | [Run agent tool calls through pctx Code Mode and unified MCP](skills/run-agent-tool-calls-through-pctx-code-mode-and-unified-mcp/) | Put pctx between agents and tools so MCP servers and custom tools can run through a code-oriented execution layer… | Security Reviewed | 264 | 285/wk |
 | [Orchestrate Windows coding-agent fleets with Wmux](skills/orchestrate-windows-coding-agent-fleets-with-wmux/) | Use Wmux to fan out Claude Code, Codex, Gemini, and other agent CLIs across native Windows panes, isolated… | Security Reviewed | 252 | — |
@@ -720,7 +721,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (234 skills)
+### 📄 Templates & Workflows (235 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -833,6 +834,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Inspect live web apps and apply code changes with Stagewise](skills/inspect-live-web-apps-and-apply-code-changes-with-stagewise/) | Use Stagewise when a coding agent needs browser context, console/debugger signals, UI inspection, and code-change… | Security Reviewed | 6.7k | 799/wk |
 | [Parameterize and execute notebooks as repeatable runs](skills/parameterize-and-execute-notebooks-as-repeatable-runs/) | Use Papermill when an agent needs to treat a Jupyter notebook like a reusable job instead of a one-off interactive… | Security Reviewed | 6.4k | — |
 | [Study customer-service triage and handoff patterns with the OpenAI CS agents demo](skills/study-customer-service-triage-and-handoff-patterns-with-the-openai-cs-agents-demo/) | Use OpenAI's customer-service agents demo as a reference workflow for triage, specialist handoffs, guardrails, and… | Security Reviewed | 6.3k | — |
+| [Build production-ready n8n workflows with n8n-skills](skills/build-production-ready-n8n-workflows-with-n8n-skills/) | Give Claude Code a routed skill pack for designing, validating, debugging, and deploying n8n workflows through n8n-mcp. | Security Reviewed | 6.2k | — |
 | [Configure supervised multi-provider agent workspaces with Craft Agents](skills/configure-supervised-multi-provider-agent-workspaces-with-craft-agents/) | Set up Craft Agents workspaces with connected sources, imported skills, MCP servers, permission modes, and session… | Security Reviewed | 6.1k | — |
 | [Orchestrate goal-driven TypeScript agent teams with Open Multi Agent](skills/orchestrate-goal-driven-typescript-agent-teams-with-open-multi-agent/) | Turn a user goal into a planned multi-agent task DAG, execute independent tasks in parallel, and trace the run from… | Security Reviewed | 6.1k | 370/wk |
 | [Turn goals into traced multi-agent task DAGs with open-multi-agent](skills/turn-goals-into-traced-multi-agent-task-dags-with-open-multi-agent/) | Decompose goals into task DAGs, delegate work to agents and tools, and inspect execution traces. | Security Reviewed | 6k | — |
@@ -2118,7 +2120,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Published | — | — |
 
 
-### 🔍 Research & Scraping (127 skills)
+### 🔍 Research & Scraping (128 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -2202,6 +2204,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [AgentQL Natural Language Web Query SDK for Extraction and Automation](skills/agentql-natural-language-web-query-sdk-extraction-automation/) | AgentQL is TinyFish's web automation and extraction toolkit that layers a natural-language query system on top of… | Security Reviewed | 1.3k | 878/wk |
 | [Newspaper4k Python Article Extraction and NLP Library](skills/newspaper4k-python-article-extraction-nlp/) | Newspaper4k is an actively maintained fork of the popular Newspaper3k library for Python. It extracts articles,… | Security Reviewed | 1.1k | — |
 | [Browsertrix Crawler High-Fidelity Web Archiving and QA Crawler](skills/browsertrix-crawler-high-fidelity-web-archiving-qa-crawler/) | Browsertrix Crawler is a browser-based crawling system from Webrecorder for high-fidelity site capture, QA replay… | Published | 1k | — |
+| [Turn single research papers into Obsidian notes with DeepPaperNote](skills/turn-single-research-papers-into-obsidian-notes-with-deeppapernote/) | Run a source-grounded agent workflow that reads one paper deeply and saves a durable Obsidian-style research note. | Security Reviewed | 1k | — |
 | [Extract schema.org, Open Graph, and JSON-LD metadata from web pages for indexing](skills/extract-schema-org-open-graph-and-json-ld-metadata-from-web-pages-for-indexing/) | Uses extruct to pull machine-readable metadata from raw HTML so an agent can classify, deduplicate, or enrich pages… | Security Reviewed | 961 | — |
 | [Brave Search MCP Server for AI Web Search](skills/brave-search-mcp-server-ai-web-search/) | The official Brave Search MCP server integrates the Brave Search API with AI assistants, providing comprehensive web… | Security Reviewed | 854 | 19.2k/wk |
 | [Browse search and cost-audit local coding-agent histories before resuming or standardizing workflows with agentsview](skills/browse-search-and-cost-audit-local-coding-agent-histories-before-resuming-or-standardizing-workflows-with-agentsview/) | Index local coding-agent sessions into a searchable SQLite-backed view so you can inspect usage, compare failures,… | Security Reviewed | 774 | — |

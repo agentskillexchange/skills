@@ -118,6 +118,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [AgentQL Natural Language Web Query SDK for Extraction and Automation](../../skills/agentql-natural-language-web-query-sdk-extraction-automation/) | 1.3k | 878/wk |
 | [Newspaper4k Python Article Extraction and NLP Library](../../skills/newspaper4k-python-article-extraction-nlp/) | 1.1k | — |
 | [Browsertrix Crawler High-Fidelity Web Archiving and QA Crawler](../../skills/browsertrix-crawler-high-fidelity-web-archiving-qa-crawler/) | 1k | — |
+| [Turn single research papers into Obsidian notes with DeepPaperNote](../../skills/turn-single-research-papers-into-obsidian-notes-with-deeppapernote/) | 1k | — |
 | [Extract schema.org, Open Graph, and JSON-LD metadata from web pages for indexing](../../skills/extract-schema-org-open-graph-and-json-ld-metadata-from-web-pages-for-indexing/) | 961 | — |
 | [Brave Search MCP Server for AI Web Search](../../skills/brave-search-mcp-server-ai-web-search/) | 854 | 19.2k/wk |
 | [Browse search and cost-audit local coding-agent histories before resuming or standardizing workflows with agentsview](../../skills/browse-search-and-cost-audit-local-coding-agent-histories-before-resuming-or-standardizing-workflows-with-agentsview/) | 774 | — |
