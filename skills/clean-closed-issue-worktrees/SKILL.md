@@ -2,10 +2,12 @@
 name: "Clean Closed Issue Worktrees"
 slug: "clean-closed-issue-worktrees"
 description: "Safely audits and removes Git worktrees linked to closed GitHub or GitLab issues with a mandatory scan-confirm-execute protocol and deterministic local validation."
+verification: "listed"
+source: "https://github.com/haoranyu/clean-closed-issue-worktrees"
 category: "Developer Tools"
 framework: "Multi-Framework"
-verification: listed
-source: "https://github.com/haoranyu/clean-closed-issue-worktrees"
+tool_ecosystem:
+  github_repo: "haoranyu/clean-closed-issue-worktrees"
 ---
 
 # Clean Closed Issue Worktrees
@@ -106,21 +108,7 @@ The bundled script requires Python 3.9+ and Git. Provider and harness access rem
 
 ## Installation
 
-Install this Agent Skill Exchange copy with GitHub CLI 2.90.0 or later:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-```bash
-gh skill install agentskillexchange/skills \
-  clean-closed-issue-worktrees \
-  --agent codex --scope user
-```
+- Source: https://github.com/haoranyu/clean-closed-issue-worktrees
 
-Or use the cross-agent `skills` CLI with a pinned package version:
-
-```bash
-npm exec --package=skills@1.5.7 -- skills add \
-  agentskillexchange/skills \
-  --skill clean-closed-issue-worktrees
-```
-
-The canonical source, versioned releases, and upstream issue tracker are at
-<https://github.com/haoranyu/clean-closed-issue-worktrees>.
