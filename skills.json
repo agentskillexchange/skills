@@ -1,8 +1,51 @@
 {
   "version": "2.0",
-  "total": 2948,
+  "total": 2951,
   "generated": "2026-08-31",
   "skills": [
+    {
+      "slug": "keep-reviewable-project-memory-for-coding-agents-with-ownmem",
+      "name": "Keep reviewable project memory for coding agents with OwnMem",
+      "title": "Keep reviewable project memory for coding agents with OwnMem",
+      "description": "Initialize Git-native project memory that Claude Code, Codex, Cursor, Gemini CLI, and compatible coding agents can recall deterministically.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 200,
+        "npm_weekly_downloads": 361
+      },
+      "source_url": "https://github.com/grpcer/ownmem",
+      "github_repo": "grpcer/ownmem"
+    },
+    {
+      "slug": "compare-coding-agent-answers-side-by-side-with-claude-council",
+      "name": "Compare coding-agent answers side by side with Claude Council",
+      "title": "Compare coding-agent answers side by side with Claude Council",
+      "description": "Ask multiple model and CLI-backed coding agents the same question from Claude Code, then compare individual answers and a synthesized recommendation.",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 676
+      },
+      "source_url": "https://github.com/hex/claude-council",
+      "github_repo": "hex/claude-council"
+    },
+    {
+      "slug": "repair-ai-shaped-drafts-with-sepia-venue-specific-writing-workflows",
+      "name": "Repair AI-shaped drafts with Sepia’s venue-specific writing workflows",
+      "title": "Repair AI-shaped drafts with Sepia’s venue-specific writing workflows",
+      "description": "Use Sepia to write, review, minimally refactor, or fully recreate fiction and professional prose with agent-native de-AI writing protocols.",
+      "category": "Content Writing & SEO",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1193
+      },
+      "source_url": "https://github.com/Nanako0129/sepia",
+      "github_repo": "Nanako0129/sepia"
+    },
     {
       "slug": "clean-closed-issue-worktrees",
       "name": "Clean Closed Issue Worktrees",

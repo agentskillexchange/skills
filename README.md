@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C948-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C951-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C504-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,948 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,951 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,9 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Keep reviewable project memory for coding agents with OwnMem](skills/keep-reviewable-project-memory-for-coding-agents-with-ownmem/) | Initialize Git-native project memory that Claude Code, Codex, Cursor, Gemini CLI, and compatible coding agents can recall deterministically | 200 | Developer Tools |
+| [Compare coding-agent answers side by side with Claude Council](skills/compare-coding-agent-answers-side-by-side-with-claude-council/) | Ask multiple model and CLI-backed coding agents the same question from Claude Code, then compare individual answers and... | 676 | Developer Tools |
+| [Repair AI-shaped drafts with Sepia’s venue-specific writing workflows](skills/repair-ai-shaped-drafts-with-sepia-venue-specific-writing-workflows/) | Use Sepia to write, review, minimally refactor, or fully recreate fiction and professional prose with agent-native de-AI writing... | 1.2k | Content Writing & SEO |
 | [Clean Closed Issue Worktrees](skills/clean-closed-issue-worktrees/) | Safely audits and removes Git worktrees linked to closed GitHub or GitLab issues with a mandatory scan-confirm-execute protocol... | - | Developer Tools |
 | [Install Claude Code department workflows with headcount](skills/install-claude-code-department-workflows-with-headcount/) | Use headcount to install focused Claude Code department plugins and invoke repeatable specialist workflows across business, engineering, security... | 743 | Templates & Workflows |
 | [Manage parallel coding agent sessions and worktrees with CCManager](skills/manage-parallel-coding-agent-sessions-and-worktrees-with-ccmanager/) | Run Claude Code, Codex CLI, Gemini CLI, Cursor Agent, Copilot CLI, Cline CLI, OpenCode, Kimi CLI, and related... | 1.2k | Developer Tools |
@@ -94,9 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Author and Run Regression Tests with Agent QA](skills/author-and-run-regression-tests-with-agent-qa/) | Use Agent QA's CLI and MCP server to author, validate, run, debug, and triage natural-language web and mobile... | - | Browser Automation |
 | [Operate multiple coding agents from one Emacs workflow with AI Code Interface](skills/operate-multiple-coding-agents-from-one-emacs-workflow-with-ai-code-interface/) | Give Emacs users one workflow layer for Codex, Claude Code, Gemini CLI, Cursor CLI, opencode, and other coding-agent... | 274 | Developer Tools |
 | [Turn single research papers into Obsidian notes with DeepPaperNote](skills/turn-single-research-papers-into-obsidian-notes-with-deeppapernote/) | Run a source-grounded agent workflow that reads one paper deeply and saves a durable Obsidian-style research note | 1.0k | Research & Scraping |
-| [Build production-ready n8n workflows with n8n-skills](skills/build-production-ready-n8n-workflows-with-n8n-skills/) | Give Claude Code a routed skill pack for designing, validating, debugging, and deploying n8n workflows through n8n-mcp | 6.2k | Templates & Workflows |
-| [Run personal operator workflows from agent skills with makerskills](skills/run-personal-operator-workflows-from-agent-skills-with-makerskills/) | Install a multi-skill operator pack for decisions, research, second-brain work, content rotation, financial cadence, project management, and skill... | 720 | Templates & Workflows |
-| [Run Claude Design-style UI prototyping locally with baoyu-design](skills/run-claude-design-style-ui-prototyping-locally-with-baoyu-design/) | Use baoyu-design as a portable agent skill for local UI mockups, prototypes, decks, and design-system workflows that produce... | 3.6k | Image & Creative Automation |
 
 ---
 
@@ -124,15 +124,15 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
 | [Manage parallel coding agent sessions and worktrees with CCManager](skills/manage-parallel-coding-agent-sessions-and-worktrees-with-ccmanager/) | Run Claude Code, Codex CLI, Gemini CLI, Cursor Agent, Copilot CLI, Cline CLI, OpenCode, Kimi CLI, and related... | 1.2k | Developer Tools |
-| [Run CodeWhale terminal coding agent workflows](skills/run-codewhale-terminal-coding-agent-workflows/) | Use CodeWhale as a local terminal coding agent for repository edits, test repair, provider-switched sessions, approval-gated commands, MCP... | 40.8k | Developer Tools |
 | [Automate NotebookLM Studio generation and cited research batches with notebooklm-mcp](skills/automate-notebooklm-studio-generation-and-cited-research-batches-with-notebooklm-mcp/) | Use NotebookLM through MCP or a local REST API to run cited Q&A, generate Studio artifacts, and manage... | 161 | Research & Scraping |
+| [Run CodeWhale terminal coding agent workflows](skills/run-codewhale-terminal-coding-agent-workflows/) | Use CodeWhale as a local terminal coding agent for repository edits, test repair, provider-switched sessions, approval-gated commands, MCP... | 40.8k | Developer Tools |
 | [Run independent multi-agent build and review flows with OPC](skills/run-independent-multi-agent-build-and-review-flows-with-opc/) | Use OPC as a Claude Code skill to select a task flow, dispatch specialist roles, enforce independent review... | 192 | Code Quality & Review |
 | [Enforce Coding-Agent Write and Shell Policies with Probity](skills/enforce-coding-agent-write-and-shell-policies-with-probity/) | Use Probity when Claude Code, Codex, or GitHub Copilot CLI should be blocked from unsafe file writes or... | 162 | Security & Verification |
 | [Build production-ready n8n workflows with n8n-skills](skills/build-production-ready-n8n-workflows-with-n8n-skills/) | Give Claude Code a routed skill pack for designing, validating, debugging, and deploying n8n workflows through n8n-mcp | 6.2k | Templates & Workflows |
 | [Block Risky Coding-Agent Commands with CC Safety Net](skills/block-risky-coding-agent-commands-with-cc-safety-net/) | Use CC Safety Net when coding-agent CLIs need pre-execution hooks that block destructive commands, secret access, and unsafe... | 1.5k | Security & Verification |
+| [Repair AI-shaped drafts with Sepia’s venue-specific writing workflows](skills/repair-ai-shaped-drafts-with-sepia-venue-specific-writing-workflows/) | Use Sepia to write, review, minimally refactor, or fully recreate fiction and professional prose with agent-native de-AI writing... | 1.2k | Content Writing & SEO |
 | [Run Claude Design-style UI prototyping locally with baoyu-design](skills/run-claude-design-style-ui-prototyping-locally-with-baoyu-design/) | Use baoyu-design as a portable agent skill for local UI mockups, prototypes, decks, and design-system workflows that produce... | 3.6k | Image & Creative Automation |
 | [Install Claude Code department workflows with headcount](skills/install-claude-code-department-workflows-with-headcount/) | Use headcount to install focused Claude Code department plugins and invoke repeatable specialist workflows across business, engineering, security... | 743 | Templates & Workflows |
-| [Turn single research papers into Obsidian notes with DeepPaperNote](skills/turn-single-research-papers-into-obsidian-notes-with-deeppapernote/) | Run a source-grounded agent workflow that reads one paper deeply and saves a durable Obsidian-style research note | 1.0k | Research & Scraping |
 
 ---
 
@@ -140,7 +140,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 453 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 455 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 246 | Vulnerability scanning, auth setup, compliance |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 236 | Scaffolders, boilerplate generators, workflow templates |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 220 | ETL pipelines, parsing, format conversion |
@@ -156,7 +156,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 109 | Audio/video processing, speech-to-text |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 108 | Image generation, asset processing, design automation |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
-| ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 89 | SEO content, blog automation, editorial workflows |
+| ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 90 | SEO content, blog automation, editorial workflows |
 
 ---
 
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,948 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,951 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,504 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2948 published skills** across **17 categories** · 2,504 security reviewed · Updated 2026-08-31 13:27 UTC
+> **2951 published skills** across **17 categories** · 2,504 security reviewed · Updated 2026-08-31 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (453 skills)
+### 🛠️ Developer Tools (455 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -388,6 +388,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Manage agent runtime capabilities with CAPA](skills/manage-agent-runtime-capabilities-with-capa/) | Use CAPA to declare coding-agent skills, rules, tools, MCP servers, sub-agents, and plugins once in… | Security Reviewed | 692 | — |
 | [Delegate coding work to separate agent CLIs with delegate-skills](skills/delegate-coding-work-to-separate-agent-clis-with-delegate-skills/) | Use delegate-skills to discover implementer CLIs, create approved delegation lanes, dispatch bounded coding tasks,… | Security Reviewed | 689 | — |
 | [Manage cross-agent skill files from Obsidian with Agentfiles](skills/manage-cross-agent-skill-files-from-obsidian-with-agentfiles/) | Use Agentfiles when an operator wants to browse, create, edit, install, and audit skills, commands, agents, rules,… | Published | 679 | — |
+| [Compare coding-agent answers side by side with Claude Council](skills/compare-coding-agent-answers-side-by-side-with-claude-council/) | Ask multiple model and CLI-backed coding agents the same question from Claude Code, then compare individual answers… | Security Reviewed | 676 | — |
 | [Install Chinese Claude Code skills for engineering workflows](skills/install-chinese-claude-code-skills-for-engineering-workflows/) | Use claude-code-skills-zh to install Chinese-language Claude Code skills for repeatable code review, README writing,… | Security Reviewed | 670 | — |
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | Convert a finished coding-agent session into a shareable HTML replay instead of sending raw logs or bulky screen… | Security Reviewed | 621 | 4.9k/wk |
 | [Preview and approve coding-agent execution plans with Overture](skills/preview-and-approve-coding-agent-execution-plans-with-overture/) | Render an AI coding agent's plan as an interactive flowchart so a human can inspect dependencies, attach context,… | Security Reviewed | 619 | 320/wk |
@@ -426,6 +427,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Run a solo multi-agent coding cockpit with dev-3.0](skills/run-a-solo-multi-agent-coding-cockpit-with-dev-3-0/) | Use dev-3.0 to turn coding-agent work into isolated Kanban tasks with git worktrees, tmux sessions, live previews,… | Published | 225 | — |
 | [Back up GitHub, GitLab, Bitbucket, and Forgejo repositories with gitbackup](skills/back-up-github-gitlab-bitbucket-and-forgejo-repositories-with-gitbackup/) | Run repeatable cross-forge repository backup jobs from one config instead of hand-scripting clone and export steps… | Security Reviewed | 218 | — |
 | [Enforce engineering workflows with Ring skill packs](skills/enforce-engineering-workflows-with-ring-skill-packs/) | Use Ring to load curated engineering skills and specialist agents for TDD, systematic debugging, code review,… | Security Reviewed | 205 | — |
+| [Keep reviewable project memory for coding agents with OwnMem](skills/keep-reviewable-project-memory-for-coding-agents-with-ownmem/) | Initialize Git-native project memory that Claude Code, Codex, Cursor, Gemini CLI, and compatible coding agents can… | Security Reviewed | 200 | 361/wk |
 | [Search large codebases and structured document trees without embeddings before building heavier retrieval stacks with TreeSearch](skills/search-large-codebases-and-structured-document-trees-without-embeddings-before-building-heavier-retrieval-stacks-with-treesearch/) | Index docs and source trees into structure-aware search so you can answer targeted questions quickly without a… | Security Reviewed | 189 | — |
 | [Use Superpowers Symfony for Claude Code Symfony workflows](skills/use-superpowers-symfony-for-claude-code-symfony-workflows/) | Install a Claude Code plugin that gives agents repeatable Symfony, Doctrine, API Platform, Messenger, security, TDD,… | Security Reviewed | 186 | — |
 | [Meilisearch MCP Server for AI-Powered Search Integration](skills/meilisearch-mcp-server-ai-search/) | Official Model Context Protocol server that connects LLMs to Meilisearch for lightning-fast search, index… | Security Reviewed | 181 | — |
@@ -2996,7 +2998,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized… | Security Reviewed | — | — |
 
 
-### ✍️ Content Writing & SEO (89 skills)
+### ✍️ Content Writing & SEO (90 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
 
@@ -3039,6 +3041,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [Content Readability Analyzer](skills/content-readability-analyzer-agent/) | Scores content using Flesch-Kincaid, Gunning Fog, and SMOG readability indices via textstat Python library. Provides… | Security Reviewed | 1.4k | — |
 | [Content Readability Optimizer](skills/content-readability-optimizer/) | Analyzes and optimizes content readability using textstat Python library and Hemingway API patterns. Computes… | Security Reviewed | 1.4k | — |
 | [textstat Python Readability Statistics Calculator](skills/textstat-python-readability-statistics-calculator/) | textstat is a Python package that calculates readability statistics for text content, including Flesch Reading Ease,… | Security Reviewed | 1.4k | — |
+| [Repair AI-shaped drafts with Sepia’s venue-specific writing workflows](skills/repair-ai-shaped-drafts-with-sepia-venue-specific-writing-workflows/) | Use Sepia to write, review, minimally refactor, or fully recreate fiction and professional prose with agent-native… | Security Reviewed | 1.2k | — |
 | [schema-dts TypeScript Types for Schema.org Structured Data](skills/schema-dts-typescript-types-schemaorg-structured-data/) | An agent skill built on schema-dts by Google, which provides complete TypeScript type definitions for the Schema.org… | Security Reviewed | 1.2k | 1.5M/wk |
 | [Clean Chinese AI-sounding writing with Shuorenhua](skills/clean-chinese-ai-sounding-writing-with-shuorenhua/) | Rewrite Chinese-first chat, status, docs, and public-writing drafts to remove AI-like phrasing while preserving… | Security Reviewed | 1.1k | — |
 | [OpenSEO Self-Hosted Keyword Research and SEO Analysis Platform](skills/openseo-self-hosted-keyword-research-seo-analysis/) | OpenSEO is an open-source, self-hostable SEO platform that provides keyword research, domain insights, backlink… | Security Reviewed | 783 | — |

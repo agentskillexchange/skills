@@ -414,6 +414,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Manage agent runtime capabilities with CAPA](../../skills/manage-agent-runtime-capabilities-with-capa/) | 692 | — |
 | [Delegate coding work to separate agent CLIs with delegate-skills](../../skills/delegate-coding-work-to-separate-agent-clis-with-delegate-skills/) | 689 | — |
 | [Manage cross-agent skill files from Obsidian with Agentfiles](../../skills/manage-cross-agent-skill-files-from-obsidian-with-agentfiles/) | 679 | — |
+| [Compare coding-agent answers side by side with Claude Council](../../skills/compare-coding-agent-answers-side-by-side-with-claude-council/) | 676 | — |
 | [Install Chinese Claude Code skills for engineering workflows](../../skills/install-chinese-claude-code-skills-for-engineering-workflows/) | 670 | — |
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](../../skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | 621 | 4.9k/wk |
 | [Preview and approve coding-agent execution plans with Overture](../../skills/preview-and-approve-coding-agent-execution-plans-with-overture/) | 619 | 320/wk |
@@ -452,6 +453,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Run a solo multi-agent coding cockpit with dev-3.0](../../skills/run-a-solo-multi-agent-coding-cockpit-with-dev-3-0/) | 225 | — |
 | [Back up GitHub, GitLab, Bitbucket, and Forgejo repositories with gitbackup](../../skills/back-up-github-gitlab-bitbucket-and-forgejo-repositories-with-gitbackup/) | 218 | — |
 | [Enforce engineering workflows with Ring skill packs](../../skills/enforce-engineering-workflows-with-ring-skill-packs/) | 205 | — |
+| [Keep reviewable project memory for coding agents with OwnMem](../../skills/keep-reviewable-project-memory-for-coding-agents-with-ownmem/) | 200 | 361/wk |
 | [Search large codebases and structured document trees without embeddings before building heavier retrieval stacks with TreeSearch](../../skills/search-large-codebases-and-structured-document-trees-without-embeddings-before-building-heavier-retrieval-stacks-with-treesearch/) | 189 | — |
 | [Use Superpowers Symfony for Claude Code Symfony workflows](../../skills/use-superpowers-symfony-for-claude-code-symfony-workflows/) | 186 | — |
 | [Meilisearch MCP Server for AI-Powered Search Integration](../../skills/meilisearch-mcp-server-ai-search/) | 181 | — |
