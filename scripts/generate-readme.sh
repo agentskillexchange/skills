@@ -27,6 +27,9 @@ HOMEPAGE_PICKS_URL = f"{SITE_BASE}/wp-json/ase-marketplace/v1/homepage-picks"
 INDUSTRY_MANIFEST = REPO_DIR / "scripts" / "industry-collections.json"
 GITHUB_API_BASE = os.environ.get("ASE_GITHUB_API_BASE", "https://api.github.com").rstrip("/")
 GITHUB_REPO = os.environ.get("ASE_GITHUB_REPO", "agentskillexchange/skills")
+CONTRIBUTOR_OVERRIDES = {
+    "automation-integration-preflight": "TinyOps Studio LLC",
+}
 
 CAT_EMOJI = {
     "CI/CD Integrations": "🔧", "Runbooks & Diagnostics": "📋",
@@ -325,12 +328,13 @@ def community_contribution_rows_from_prs(source_items, limit=10):
                 continue
             item = lookup.get(slug, {})
             frontmatter = repo_skill_frontmatter(slug)
+            contributor_name = CONTRIBUTOR_OVERRIDES.get(slug) or contributor
             title = display_name(item) or clean_text(frontmatter.get("name")) or slug.replace("-", " ").title()
             if not title:
                 continue
             seen.add(slug)
             rows.append({
-                "contributor": contributor,
+                "contributor": contributor_name,
                 "title": title,
                 "slug": slug,
                 "help": short_help(item or frontmatter),
