@@ -28,7 +28,7 @@ INDUSTRY_MANIFEST = REPO_DIR / "scripts" / "industry-collections.json"
 GITHUB_API_BASE = os.environ.get("ASE_GITHUB_API_BASE", "https://api.github.com").rstrip("/")
 GITHUB_REPO = os.environ.get("ASE_GITHUB_REPO", "agentskillexchange/skills")
 CONTRIBUTOR_OVERRIDES = {
-    "automation-integration-preflight": "TinyOps Studio LLC",
+    "automation-integration-preflight": "[TinyOps Studio LLC](https://github.com/tinyopsstudio)",
 }
 
 CAT_EMOJI = {
