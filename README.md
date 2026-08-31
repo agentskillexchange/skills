@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Hugging Face Transformers — Machine Learning Model Library](skills/hugging-face-transformers-ml-library/)** — Hugging Face Transformers provides 400,000+ pretrained models for NLP, computer vision, audio, and multimodal tasks with a unified API across PyTorch, TensorFlow, and JAX for training, fine-tuning, and…
+**[Slack MCP Server](skills/slack-mcp-server/)** — Agent access to Slack conversations and workspace workflows.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -131,8 +131,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Build production-ready n8n workflows with n8n-skills](skills/build-production-ready-n8n-workflows-with-n8n-skills/) | Give Claude Code a routed skill pack for designing, validating, debugging, and deploying n8n workflows through n8n-mcp | 6.2k | Templates & Workflows |
 | [Block Risky Coding-Agent Commands with CC Safety Net](skills/block-risky-coding-agent-commands-with-cc-safety-net/) | Use CC Safety Net when coding-agent CLIs need pre-execution hooks that block destructive commands, secret access, and unsafe... | 1.5k | Security & Verification |
 | [Run Claude Design-style UI prototyping locally with baoyu-design](skills/run-claude-design-style-ui-prototyping-locally-with-baoyu-design/) | Use baoyu-design as a portable agent skill for local UI mockups, prototypes, decks, and design-system workflows that produce... | 3.6k | Image & Creative Automation |
-| [Turn single research papers into Obsidian notes with DeepPaperNote](skills/turn-single-research-papers-into-obsidian-notes-with-deeppapernote/) | Run a source-grounded agent workflow that reads one paper deeply and saves a durable Obsidian-style research note | 1.0k | Research & Scraping |
 | [Run personal operator workflows from agent skills with makerskills](skills/run-personal-operator-workflows-from-agent-skills-with-makerskills/) | Install a multi-skill operator pack for decisions, research, second-brain work, content rotation, financial cadence, project management, and skill... | 720 | Templates & Workflows |
+| [Turn single research papers into Obsidian notes with DeepPaperNote](skills/turn-single-research-papers-into-obsidian-notes-with-deeppapernote/) | Run a source-grounded agent workflow that reads one paper deeply and saves a durable Obsidian-style research note | 1.0k | Research & Scraping |
 
 ---
 
