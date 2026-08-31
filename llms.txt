@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-08-31
-# Total: 2946 skills
+# Total: 2948 skills
+
+## Clean Closed Issue Worktrees
+slug: clean-closed-issue-worktrees
+category: Developer Tools
+framework: Multi-Framework
+verification: Published
+description: Safely audits and removes Git worktrees linked to closed GitHub or GitLab issues with a mandatory scan-confirm-execute protocol and deterministic local validation.
+url: https://agentskillexchange.com/skills/clean-closed-issue-worktrees/
+
+## Install Claude Code department workflows with headcount
+slug: install-claude-code-department-workflows-with-headcount
+category: Templates & Workflows
+framework: Claude Code
+verification: Security Reviewed
+description: Use headcount to install focused Claude Code department plugins and invoke repeatable specialist workflows across business, engineering, security, finance, product, and operations work.
+url: https://agentskillexchange.com/skills/install-claude-code-department-workflows-with-headcount/
 
 ## Manage parallel coding agent sessions and worktrees with CCManager
 slug: manage-parallel-coding-agent-sessions-and-worktrees-with-ccmanager

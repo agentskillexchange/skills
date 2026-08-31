@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2946 published skills** across **17 categories** · 2,501 security reviewed · Updated 2026-08-31 01:27 UTC
+> **2948 published skills** across **17 categories** · 2,501 security reviewed · Updated 2026-08-31 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (452 skills)
+### 🛠️ Developer Tools (453 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -444,6 +444,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Staff Engineer Mode](skills/staff-engineer-mode/) | Routes engineering design, delivery, reliability, security, operations, and maintenance prompts to one native router… | Security Reviewed | 5 | — |
 | [Turn GitHub Issues into Fix PRs](skills/turn-github-issues-into-fix-prs/) | Use the gh-issues workflow to fetch filtered GitHub issues, spawn sub-agents for fixes, open PRs, and follow review… | Security Reviewed | — | 837.2k/wk |
 | [Build scroll-linked animations with GSAP ScrollTrigger](skills/build-scroll-linked-animations-with-gsap-scrolltrigger/) | Use Greensock's official gsap-scrolltrigger skill to plan, implement, and debug scroll-linked animations, pinned… | Security Reviewed | — | — |
+| [Clean Closed Issue Worktrees](skills/clean-closed-issue-worktrees/) | Safely audits and removes Git worktrees linked to closed GitHub or GitLab issues with a mandatory… | Published | — | — |
 | [Design and verify LaunchDarkly feature-flag targeting and rollout changes with MCP safety checks](skills/design-and-verify-launchdarkly-feature-flag-targeting-and-rollout-changes-with-mcp-safety-checks/) | Inspect a LaunchDarkly flag’s current state, choose the right targeting approach, apply rollout or rule changes… | Security Reviewed | — | — |
 | [Draft commit messages, PR descriptions, and changelog updates from diffs with safety checks](skills/draft-commit-messages-pr-descriptions-and-changelog-updates-from-diffs-with-safety-checks/) | Analyze staged changes, scan for sensitive content, draft Conventional Commit messages, prepare PR text, and update… | Security Reviewed | — | — |
 | [Frontend Design Guidance Skill](skills/frontend-design-guidance-skill/) | Practical frontend design guidance for landing pages, dashboards, and UI implementation work. | Published | — | — |
@@ -722,7 +723,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (235 skills)
+### 📄 Templates & Workflows (236 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -904,6 +905,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Reformat Markdown files into a stable house style before review or migration](skills/reformat-markdown-files-into-a-stable-house-style-before-review-or-migration/) | Runs mdformat to rewrite Markdown into a consistent CommonMark-oriented layout or check mode in CI. Use it when an… | Security Reviewed | 758 | — |
 | [Turn Agent Corrections Into Durable Skills With claude-smart](skills/turn-agent-corrections-into-durable-skills-with-claude-smart/) | Use claude-smart to capture corrections and working patterns as preferences, project skills, and shared skills that… | Security Reviewed | 748 | 1.9k/wk |
 | [Turn recurring team workflows into installable cross-tool agent skills with Agent Skill Creator](skills/turn-recurring-team-workflows-into-installable-cross-tool-agent-skills-with-agent-skill-creator/) | Feed an agent your docs, links, code, or rough process notes and it generates, validates, installs, and optionally… | Security Reviewed | 744 | — |
+| [Install Claude Code department workflows with headcount](skills/install-claude-code-department-workflows-with-headcount/) | Use headcount to install focused Claude Code department plugins and invoke repeatable specialist workflows across… | Security Reviewed | 743 | — |
 | [Run personal operator workflows from agent skills with makerskills](skills/run-personal-operator-workflows-from-agent-skills-with-makerskills/) | Install a multi-skill operator pack for decisions, research, second-brain work, content rotation, financial cadence,… | Security Reviewed | 720 | — |
 | [Install a governed Claude Code agent team with AppGenesisForge](skills/install-a-governed-claude-code-agent-team-with-appgenesisforge/) | Add a Claude Code team scaffold with defined roles, stage gates, mandatory skills, blocking hooks, and Definition of… | Security Reviewed | 705 | — |
 | [Run ticket queues through unattended coding-agent batches and escalate only on blockers with Codex Autorunner](skills/run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner/) | Turn a planned backlog into markdown tickets, dispatch them through coding agents, and only get pulled back in when… | Security Reviewed | 670 | — |

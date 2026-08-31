@@ -470,6 +470,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Staff Engineer Mode](../../skills/staff-engineer-mode/) | 5 | — |
 | [Turn GitHub Issues into Fix PRs](../../skills/turn-github-issues-into-fix-prs/) | — | 837.2k/wk |
 | [Build scroll-linked animations with GSAP ScrollTrigger](../../skills/build-scroll-linked-animations-with-gsap-scrolltrigger/) | — | — |
+| [Clean Closed Issue Worktrees](../../skills/clean-closed-issue-worktrees/) | — | — |
 | [Design and verify LaunchDarkly feature-flag targeting and rollout changes with MCP safety checks](../../skills/design-and-verify-launchdarkly-feature-flag-targeting-and-rollout-changes-with-mcp-safety-checks/) | — | — |
 | [Draft commit messages, PR descriptions, and changelog updates from diffs with safety checks](../../skills/draft-commit-messages-pr-descriptions-and-changelog-updates-from-diffs-with-safety-checks/) | — | — |
 | [Frontend Design Guidance Skill](../../skills/frontend-design-guidance-skill/) | — | — |

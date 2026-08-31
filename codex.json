@@ -2,8 +2,30 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-08-31",
-  "total": 2946,
+  "total": 2948,
   "skills": [
+    {
+      "slug": "clean-closed-issue-worktrees",
+      "name": "Clean Closed Issue Worktrees",
+      "title": "Clean Closed Issue Worktrees",
+      "description": "Safely audits and removes Git worktrees linked to closed GitHub or GitLab issues with a mandatory scan-confirm-execute protocol and deterministic local validation.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/haoranyu/clean-closed-issue-worktrees",
+      "github_repo": "haoranyu/clean-closed-issue-worktrees"
+    },
+    {
+      "slug": "install-claude-code-department-workflows-with-headcount",
+      "name": "Install Claude Code department workflows with headcount",
+      "title": "Install Claude Code department workflows with headcount",
+      "description": "Use headcount to install focused Claude Code department plugins and invoke repeatable specialist workflows across business, engineering, security, finance, product, and operations work.",
+      "category": "Templates & Workflows",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/cbrock84/headcount",
+      "github_repo": "cbrock84/headcount"
+    },
     {
       "slug": "manage-parallel-coding-agent-sessions-and-worktrees-with-ccmanager",
       "name": "Manage parallel coding agent sessions and worktrees with CCManager",

@@ -216,6 +216,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Reformat Markdown files into a stable house style before review or migration](../../skills/reformat-markdown-files-into-a-stable-house-style-before-review-or-migration/) | 758 | — |
 | [Turn Agent Corrections Into Durable Skills With claude-smart](../../skills/turn-agent-corrections-into-durable-skills-with-claude-smart/) | 748 | 1.9k/wk |
 | [Turn recurring team workflows into installable cross-tool agent skills with Agent Skill Creator](../../skills/turn-recurring-team-workflows-into-installable-cross-tool-agent-skills-with-agent-skill-creator/) | 744 | — |
+| [Install Claude Code department workflows with headcount](../../skills/install-claude-code-department-workflows-with-headcount/) | 743 | — |
 | [Run personal operator workflows from agent skills with makerskills](../../skills/run-personal-operator-workflows-from-agent-skills-with-makerskills/) | 720 | — |
 | [Install a governed Claude Code agent team with AppGenesisForge](../../skills/install-a-governed-claude-code-agent-team-with-appgenesisforge/) | 705 | — |
 | [Run ticket queues through unattended coding-agent batches and escalate only on blockers with Codex Autorunner](../../skills/run-ticket-queues-through-unattended-coding-agent-batches-and-escalate-only-on-blockers-with-codex-autorunner/) | 670 | — |
