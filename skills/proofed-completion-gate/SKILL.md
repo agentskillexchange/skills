@@ -2,15 +2,12 @@
 name: "Proofed Completion Gate"
 slug: "proofed-completion-gate"
 description: "Uses the Proofed CLI and current-subject completion receipts to reject unsupported coding-agent completion claims, rerun repository-configured tests, and detect stale PASS evidence after code changes."
+verification: "listed"
+source: "https://github.com/liangfeng-hu/proofed"
 category: "Security & Verification"
 framework: "Multi-Framework"
-verification: listed
-source: "https://github.com/liangfeng-hu/proofed"
 tool_ecosystem:
-  tool: "proofed-agent"
   github_repo: "liangfeng-hu/proofed"
-  license: "Apache-2.0"
-  maintained: true
 ---
 
 # Proofed Completion Gate
@@ -107,3 +104,9 @@ trusting a committed PASS file:
 
 See the upstream red/green demonstration, receipt specification, and independent
 Python and JavaScript verifiers at https://github.com/liangfeng-hu/proofed.
+
+## Installation
+
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+
+- Source: https://github.com/liangfeng-hu/proofed

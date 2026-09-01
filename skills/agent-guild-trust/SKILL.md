@@ -2,12 +2,14 @@
 name: "Check Agent Counterparty Trust with Agent Guild"
 slug: "agent-guild-trust"
 description: "Checks evidence about an unfamiliar autonomous agent before delegation, verifies signed Agent Guild passports, and returns a bounded hire, caution, or avoid recommendation without taking consequential action."
+github_stars: 1
 verification: "listed"
 source: "https://github.com/AgentTanuki/agent-guild"
 category: "Security & Verification"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "agenttanuki/agent-guild"
+  github_stars: 1
 ---
 
 # Check Agent Counterparty Trust with Agent Guild

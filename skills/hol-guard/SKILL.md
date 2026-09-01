@@ -2,12 +2,14 @@
 name: "HOL Guard"
 slug: "hol-guard"
 description: "Protect local AI coding-agent harnesses before tools run, review approvals and evidence, and scan agent plugins, skills, MCP servers, and marketplace packages with HOL Guard."
+github_stars: 4
 verification: "listed"
 source: "https://github.com/hashgraph-online/hol-guard-plugin"
 category: "Security & Verification"
 framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "hashgraph-online/hol-guard-plugin"
+  github_stars: 4
 ---
 
 # HOL Guard

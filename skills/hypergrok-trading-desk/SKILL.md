@@ -2,12 +2,14 @@
 name: "HyperGrok Trading Desk"
 slug: "hypergrok-trading-desk"
 description: "Turn Claude Code, Cursor, or Grok Bot into a 7-role Hyperliquid trading desk. Sixteen SKILL.md skills plus seven agent prompts cover market data, risk limits, ticketed execution, and post-trade review. You approve every trade by ticket id. Trade-only API wallet; no withdraw."
+github_stars: 39
 verification: "listed"
 source: "https://github.com/galleonlabs/hypergrok-trading-desk"
 category: "Integrations & Connectors"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "galleonlabs/hypergrok-trading-desk"
+  github_stars: 39
 ---
 
 # HyperGrok Trading Desk

@@ -2,12 +2,14 @@
 name: "FreeFM"
 slug: "freefm"
 description: "Safely synchronize free-playable NetEase Private FM tracks into an append-only playlist using a native Rust CLI/TUI. Use when an operator needs QR login, read-only preview, strict playability checks, explicit cross-platform review, append-only sync, or zero-LLM scheduled execution."
+github_stars: 0
 verification: "listed"
 source: "https://github.com/Yuxin-Qiao/FreeFM"
 category: "Media & Transcription"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "yuxin-qiao/freefm"
+  github_stars: 0
 ---
 
 # FreeFM

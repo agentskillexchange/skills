@@ -2,12 +2,14 @@
 name: "Use 404.directory"
 slug: "use-404-directory"
 description: "Use the public 404.directory MCP server to search current official OpenAI, Microsoft Learn, AWS, and Cloudflare documentation, verify public web deployments, understand webpages, and discover or invoke trusted read-only MCP tools."
+github_stars: 1
 verification: "listed"
 source: "https://github.com/MM-sheng/404-directory"
 category: "Library & API Reference"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "mm-sheng/404-directory"
+  github_stars: 1
   npm_package: "@mmvv1638/404-directory-mcp"
   npm_weekly_downloads: 450
 ---

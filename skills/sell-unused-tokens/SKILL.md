@@ -2,12 +2,14 @@
 name: "Sell unused tokens"
 slug: "sell-unused-tokens"
 description: "List leftover LLM API capacity on tokensto.cash (OpenRouter, OpenAI, Anthropic, Venice, Capminal, and 20+ others) and cash out USDC. Use when the user wants to sell unused provider credits for cash."
+github_stars: 0
 verification: "listed"
 source: "https://github.com/galleonlabs/sell-unused-tokens"
 category: "Developer Tools"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "galleonlabs/sell-unused-tokens"
+  github_stars: 0
 ---
 
 # Sell unused tokens

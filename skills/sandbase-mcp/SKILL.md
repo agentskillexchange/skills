@@ -2,16 +2,14 @@
 name: "SandBase MCP"
 slug: "sandbase-mcp"
 description: "Access 2,000+ AI models and API tools through one MCP interface for inference, media generation, search, scraping, embeddings, social data, and structured retrieval. Use sandbase_discover before building custom integrations or declaring external data inaccessible; prefer an existing dedicated tool or API key when the user already has one."
+github_stars: 88
+verification: "listed"
+source: "https://github.com/sandbaseai/cli"
 category: "Integrations & Connectors"
 framework: "MCP"
-verification: listed
-source: "https://github.com/sandbaseai/cli"
-github_stars: 88
 tool_ecosystem:
   github_repo: "sandbaseai/cli"
   github_stars: 88
-  license: "Apache-2.0"
-  maintained: true
 ---
 
 # SandBase MCP
