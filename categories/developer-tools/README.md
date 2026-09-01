@@ -112,6 +112,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [tRPC End-to-End Typesafe API Framework](../../skills/trpc-end-to-end-typesafe-api-framework/) | 39.9k | — |
 | [esbuild Ultra-Fast JavaScript Bundler](../../skills/esbuild-ultra-fast-javascript-bundler/) | 39.8k | 164M/wk |
 | [Appsmith Open Source Internal Tools and Admin Panel Builder](../../skills/appsmith-open-source-internal-tools-admin-panel-builder/) | 39.6k | — |
+| [Orchestrate local-first agent memory and workflows with OpenHuman](../../skills/orchestrate-local-first-agent-memory-and-workflows-with-openhuman/) | 39.3k | — |
 | [Agno Multi-Modal Agent Runtime Platform](../../skills/agno-multi-modal-agent-runtime-platform/) | 39k | — |
 | [Nushell Structured Data Shell](../../skills/nushell-structured-data-shell/) | 38.9k | 1k/wk |
 | [HTTPie CLI API Testing and Debugging Client](../../skills/httpie-cli-api-testing-debugging-client/) | 37.8k | — |
@@ -422,6 +423,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Run DeepSeek Harness agent sessions from a Claude Code-style terminal TUI](../../skills/run-deepseek-harness-agent-sessions-from-a-claude-code-style-terminal-tui/) | 558 | — |
 | [Plan, draft, publish, and review social posts from Claude Code with social-post](../../skills/plan-draft-publish-and-review-social-posts-from-claude-code-with-social-post/) | 555 | — |
 | [Run deterministic SQL and dbt analysis under coding agents with Altimate Code](../../skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/) | 552 | 195/wk |
+| [Benchmark CLI agents on autonomous LLM post-training with PostTrainBench](../../skills/benchmark-cli-agents-on-autonomous-llm-post-training-with-posttrainbench/) | 543 | — |
 | [Give coding agents sandboxed shell runtimes with SWE-ReX](../../skills/give-coding-agents-sandboxed-shell-runtimes-with-swe-rex/) | 543 | — |
 | [Track Coding-Agent Work Evidence With agentacct](../../skills/track-coding-agent-work-evidence-with-agentacct/) | 537 | — |
 | [Scaffold repo-specific agent harnesses with Metaharness](../../skills/scaffold-repo-specific-agent-harnesses-with-metaharness/) | 529 | 29.1k/wk |

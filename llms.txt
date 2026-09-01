@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-01
-# Total: 2953 skills
+# Total: 2955 skills
+
+## Benchmark CLI agents on autonomous LLM post-training with PostTrainBench
+slug: benchmark-cli-agents-on-autonomous-llm-post-training-with-posttrainbench
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run Claude Code, Codex CLI, Gemini CLI, or OpenCode through bounded H100 post-training tasks and compare how well each agent improves a base LLM.
+url: https://agentskillexchange.com/skills/benchmark-cli-agents-on-autonomous-llm-post-training-with-posttrainbench/
+
+## Orchestrate local-first agent memory and workflows with OpenHuman
+slug: orchestrate-local-first-agent-memory-and-workflows-with-openhuman
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Set up OpenHuman as a local-first personal agent harness that syncs context, builds durable memory, and coordinates multi-agent workflows behind approval gates.
+url: https://agentskillexchange.com/skills/orchestrate-local-first-agent-memory-and-workflows-with-openhuman/
 
 ## SandBase MCP
 slug: sandbase-mcp

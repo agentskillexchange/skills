@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2953 published skills** across **17 categories** · 2,506 security reviewed · Updated 2026-09-01 13:26 UTC
+> **2955 published skills** across **17 categories** · 2,506 security reviewed · Updated 2026-09-01 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (455 skills)
+### 🛠️ Developer Tools (457 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -86,6 +86,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [tRPC End-to-End Typesafe API Framework](skills/trpc-end-to-end-typesafe-api-framework/) | tRPC enables developers to build fully typesafe APIs in TypeScript without schemas, code generation, or runtime… | Security Reviewed | 39.9k | — |
 | [esbuild Ultra-Fast JavaScript Bundler](skills/esbuild-ultra-fast-javascript-bundler/) | esbuild is an extremely fast JavaScript and TypeScript bundler written in Go that delivers 10-100x faster build… | Security Reviewed | 39.8k | 164M/wk |
 | [Appsmith Open Source Internal Tools and Admin Panel Builder](skills/appsmith-open-source-internal-tools-admin-panel-builder/) | Appsmith is an open-source platform for building internal tools, dashboards, and admin panels on top of databases… | Security Reviewed | 39.6k | — |
+| [Orchestrate local-first agent memory and workflows with OpenHuman](skills/orchestrate-local-first-agent-memory-and-workflows-with-openhuman/) | Set up OpenHuman as a local-first personal agent harness that syncs context, builds durable memory, and coordinates… | Security Reviewed | 39.3k | — |
 | [Agno Multi-Modal Agent Runtime Platform](skills/agno-multi-modal-agent-runtime-platform/) | Agno is a high-performance Python framework for building, running, and managing agentic software at scale. It… | Security Reviewed | 39k | — |
 | [Nushell Structured Data Shell](skills/nushell-structured-data-shell/) | A modern shell that treats all input as structured data rather than plain text streams. Nushell provides built-in… | Security Reviewed | 38.9k | 1k/wk |
 | [HTTPie CLI API Testing and Debugging Client](skills/httpie-cli-api-testing-debugging-client/) | HTTPie is a modern, user-friendly command-line HTTP client designed for testing, debugging, and interacting with… | Security Reviewed | 37.8k | — |
@@ -396,6 +397,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Run DeepSeek Harness agent sessions from a Claude Code-style terminal TUI](skills/run-deepseek-harness-agent-sessions-from-a-claude-code-style-terminal-tui/) | Use dsh-cc-tui to run DeepSeek Harness coding-agent sessions from a full-screen terminal with live activity, context… | Security Reviewed | 558 | — |
 | [Plan, draft, publish, and review social posts from Claude Code with social-post](skills/plan-draft-publish-and-review-social-posts-from-claude-code-with-social-post/) | Install a Claude Code skill that learns a user's social voice, builds a 14-day content calendar, drafts posts, and… | Published | 555 | — |
 | [Run deterministic SQL and dbt analysis under coding agents with Altimate Code](skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/) | Adds deterministic SQL analysis, dbt-aware tooling, warehouse metadata, lineage, and test-generation workflows… | Published | 552 | 195/wk |
+| [Benchmark CLI agents on autonomous LLM post-training with PostTrainBench](skills/benchmark-cli-agents-on-autonomous-llm-post-training-with-posttrainbench/) | Run Claude Code, Codex CLI, Gemini CLI, or OpenCode through bounded H100 post-training tasks and compare how well… | Security Reviewed | 543 | — |
 | [Give coding agents sandboxed shell runtimes with SWE-ReX](skills/give-coding-agents-sandboxed-shell-runtimes-with-swe-rex/) | Use SWE-ReX when a coding agent needs a consistent runtime interface for local, containerized, or remote shell… | Security Reviewed | 543 | — |
 | [Track Coding-Agent Work Evidence With agentacct](skills/track-coding-agent-work-evidence-with-agentacct/) | Create a local dashboard that joins coding-agent session logs, token estimates, recorded work steps, and… | Security Reviewed | 537 | — |
 | [Scaffold repo-specific agent harnesses with Metaharness](skills/scaffold-repo-specific-agent-harnesses-with-metaharness/) | Use Metaharness to score a repository, generate a branded agent harness with CLI, MCP, memory, and safety defaults,… | Security Reviewed | 529 | 29.1k/wk |

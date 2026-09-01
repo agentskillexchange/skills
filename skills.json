@@ -1,8 +1,36 @@
 {
   "version": "2.0",
-  "total": 2953,
+  "total": 2955,
   "generated": "2026-09-01",
   "skills": [
+    {
+      "slug": "benchmark-cli-agents-on-autonomous-llm-post-training-with-posttrainbench",
+      "name": "Benchmark CLI agents on autonomous LLM post-training with PostTrainBench",
+      "title": "Benchmark CLI agents on autonomous LLM post-training with PostTrainBench",
+      "description": "Run Claude Code, Codex CLI, Gemini CLI, or OpenCode through bounded H100 post-training tasks and compare how well each agent improves a base LLM.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 543
+      },
+      "source_url": "https://github.com/aisa-group/PostTrainBench",
+      "github_repo": "aisa-group/PostTrainBench"
+    },
+    {
+      "slug": "orchestrate-local-first-agent-memory-and-workflows-with-openhuman",
+      "name": "Orchestrate local-first agent memory and workflows with OpenHuman",
+      "title": "Orchestrate local-first agent memory and workflows with OpenHuman",
+      "description": "Set up OpenHuman as a local-first personal agent harness that syncs context, builds durable memory, and coordinates multi-agent workflows behind approval gates.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 39288
+      },
+      "source_url": "https://github.com/tinyhumansai/openhuman",
+      "github_repo": "tinyhumansai/openhuman"
+    },
     {
       "slug": "sandbase-mcp",
       "name": "SandBase MCP",
