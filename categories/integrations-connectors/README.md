@@ -175,6 +175,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Expose Haystack pipelines as webhook endpoints with Hayhooks](../../skills/expose-haystack-pipelines-as-webhook-endpoints-with-hayhooks/) | 138 | — |
 | [Query Eventhouse and manage Fabric RTI resources from MCP-compatible agents with Fabric RTI MCP](../../skills/query-eventhouse-and-manage-fabric-rti-resources-from-mcp-compatible-agents-with-fabric-rti-mcp/) | 111 | — |
 | [Connect MCP agents to Zendesk ticket and Help Center workflows](../../skills/connect-mcp-agents-to-zendesk-ticket-and-help-center-workflows/) | 95 | — |
+| [SandBase MCP](../../skills/sandbase-mcp/) | 88 | — |
 | [Search and automate X/Twitter from OpenClaw with TweetClaw](../../skills/search-and-automate-x-twitter-from-openclaw-with-tweetclaw/) | 84 | 90/wk |
 | [Expose FHIR healthcare data resources to MCP agents with review boundaries](../../skills/expose-fhir-healthcare-data-resources-to-mcp-agents-with-review-boundaries/) | 80 | — |
 | [Let MCP agents inspect and update Freshdesk tickets safely](../../skills/let-mcp-agents-inspect-and-update-freshdesk-tickets-safely/) | 59 | — |
@@ -183,6 +184,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Manage ElevenLabs agents as versioned local config files instead of hand-editing them in the dashboard with ElevenLabs CLI](../../skills/manage-elevenlabs-agents-as-versioned-local-config-files-instead-of-hand-editing-them-in-the-dashboard-with-elevenlabs-cli/) | 49 | 10.4k/wk |
 | [Calculate routes, ETAs, and place lookups inside agent planning workflows with TomTom MCP](../../skills/calculate-routes-etas-and-place-lookups-inside-agent-planning-workflows-with-tomtom-mcp/) | 45 | 356/wk |
 | [Retrieve Zillow-style property details and market trends through an MCP server](../../skills/retrieve-zillow-style-property-details-and-market-trends-through-an-mcp-server/) | 40 | 7/wk |
+| [HyperGrok Trading Desk](../../skills/hypergrok-trading-desk/) | 39 | — |
 | [Inspect Freshservice service-management tickets and modules through MCP](../../skills/inspect-freshservice-service-management-tickets-and-modules-through-mcp/) | 31 | — |
 | [Connect MCP agents to BatchData property and address APIs](../../skills/connect-mcp-agents-to-batchdata-property-and-address-apis/) | 30 | — |
 | [Sync agent rules and skill files across coding assistants with AI Rules Sync](../../skills/sync-agent-rules-and-skill-files-across-coding-assistants-with-ai-rules-sync/) | 25 | 1.1k/wk |
@@ -198,7 +200,6 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [BeachFinder Swim Spot Finder](../../skills/beachfinder-swim-spot-finder/) | — | — |
 | [Famulor Assistants & Omnichannel History](../../skills/famulor-assistants-history/) | — | — |
 | [GitHub Discussions Community Digest](../../skills/github-discussions-community-digest/) | — | — |
-| [HyperGrok Trading Desk](../../skills/hypergrok-trading-desk/) | — | — |
 | [JMT x402 Agent Tools](../../skills/jmt-x402-agent-tools/) | — | — |
 | [Linear Issue Triage & Sprint Planner](../../skills/linear-issue-triage-sprint-planner-2/) | — | — |
 | [Plaid Financial Data Connector](../../skills/plaid-financial-data-connector/) | — | — |

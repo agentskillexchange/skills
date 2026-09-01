@@ -468,6 +468,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Run AI coding agents in isolated containers and compare their behavior side by side with VibePod CLI](../../skills/run-ai-coding-agents-in-isolated-containers-and-compare-their-behavior-side-by-side-with-vibepod-cli/) | 61 | — |
 | [Back up GitHub repos releases and gists with GitHub Backup](../../skills/back-up-github-repos-releases-and-gists-with-github-backup/) | 33 | — |
 | [Add persistent project memory and hook-driven synthesis with Claude Memory Kit](../../skills/add-persistent-project-memory-and-hook-driven-synthesis-with-claude-memory-kit/) | 11 | — |
+| [Snowe UI Skill](../../skills/snowe-ui-skill/) | 7 | — |
 | [Index a codebase into evidence-backed memory so agents can answer with citations](../../skills/index-a-codebase-into-evidence-backed-memory-so-agents-can-answer-with-citations/) | 5 | 1.9k/wk |
 | [Staff Engineer Mode](../../skills/staff-engineer-mode/) | 5 | — |
 | [Turn GitHub Issues into Fix PRs](../../skills/turn-github-issues-into-fix-prs/) | — | 837.2k/wk |
@@ -489,7 +490,6 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Obsidian Vault Manager](../../skills/obsidian-vault-manager/) | — | — |
 | [RouterBase Model Routing](../../skills/routerbase-model-routing/) | — | — |
 | [Sell unused tokens](../../skills/sell-unused-tokens/) | — | — |
-| [Snowe UI Skill](../../skills/snowe-ui-skill/) | — | — |
 | [Turn notes, logs, and screenshots into structured GitHub issues with GitHub Issue Creator](../../skills/turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator/) | — | — |
 | [Unified AI System Gateway](../../skills/unified-ai-gateway/) | — | — |
 | [VS Code Extension Debugger](../../skills/vscode-extension-debugger-dap-protocol/) | — | — |

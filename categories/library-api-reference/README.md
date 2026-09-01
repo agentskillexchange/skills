@@ -122,8 +122,8 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Resolve and validate OpenAPI specs with remote refs before client generation or review with Prance](../../skills/resolve-and-validate-openapi-specs-with-remote-refs-before-client-generation-or-review-with-prance/) | 261 | — |
 | [GitHub REST API Paginator Library](../../skills/github-rest-api-paginator-library/) | 58 | 26.7M/wk |
 | [Linkup JS SDK for Sourced Web Search and Fetch](../../skills/linkup-js-sdk-sourced-web-search-fetch/) | 4 | 30.8k/wk |
+| [Use 404.directory](../../skills/use-404-directory/) | 1 | 450/wk |
 | [NPM Package API Surface Extractor](../../skills/npm-package-api-surface-extractor/) | — | 17.1M/wk |
-| [Use 404.directory](../../skills/use-404-directory/) | — | 450/wk |
 | [API Documentation Indexer](../../skills/api-documentation-indexer/) | — | — |
 | [AShareHub Chinese Market Data](../../skills/asharehub/) | — | — |
 | [AsyncAPI Event Catalog Builder](../../skills/asyncapi-event-catalog-builder/) | — | — |

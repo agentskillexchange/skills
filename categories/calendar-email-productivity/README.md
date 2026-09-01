@@ -131,6 +131,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Turn Lark meeting transcripts into action items and follow-up tasks](../../skills/turn-lark-meeting-transcripts-into-action-items-and-follow-up-tasks/) | 40 | — |
 | [Load .mbox mail archives into SQLite for offline search, audits, and dataset joins](../../skills/load-mbox-mail-archives-into-sqlite-for-offline-search-audits-and-dataset-joins/) | 39 | — |
 | [Search Help Scout conversations and thread context before drafting support replies](../../skills/search-help-scout-conversations-and-thread-context-before-drafting-support-replies/) | 36 | 184/wk |
+| [Slashbooks](../../skills/slashbooks/) | 31 | — |
 | [Connect Claude Code to Apple apps and tmux with Claude Apple Bridges](../../skills/connect-claude-code-to-apple-apps-and-tmux-with-claude-apple-bridges/) | 9 | — |
 | [Check current weather and short forecasts for planning](../../skills/check-current-weather-and-short-forecasts-for-planning/) | — | 837.2k/wk |
 | [Turn ICS calendar invites and feeds into structured events for scheduling automations](../../skills/turn-ics-calendar-invites-and-feeds-into-structured-events-for-scheduling-automations/) | — | 128.6k/wk |
@@ -161,7 +162,6 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Outlook Rule Automation Manager](../../skills/outlook-rule-automation-manager/) | — | — |
 | [Prepare meeting agendas and pre-reads from Notion context with notion-meeting-intelligence](../../skills/prepare-meeting-agendas-and-pre-reads-from-notion-context-with-notion-meeting-intelligence/) | — | — |
 | [Slack Status API PTO Sync Assistant](../../skills/slack-status-api-pto-sync-assistant/) | — | — |
-| [Slashbooks](../../skills/slashbooks/) | — | — |
 | [Todoist GTD Workflow Automator](../../skills/todoist-gtd-workflow-automator/) | — | — |
 | [Todoist GTD Workflow Engine](../../skills/todoist-gtd-workflow-engine/) | — | — |
 | [Todoist Natural Language Task Parser](../../skills/todoist-natural-language-task-parser/) | — | — |

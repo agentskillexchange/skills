@@ -1,8 +1,33 @@
 {
   "version": "2.0",
-  "total": 2951,
+  "total": 2953,
   "generated": "2026-09-01",
   "skills": [
+    {
+      "slug": "sandbase-mcp",
+      "name": "SandBase MCP",
+      "title": "SandBase MCP",
+      "description": "Access 2,000+ AI models and API tools through one MCP interface for inference, media generation, search, scraping, embeddings, social data, and structured retrieval. Use…",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "listed",
+      "signals": {
+        "github_stars": 88
+      },
+      "source_url": "https://github.com/sandbaseai/cli",
+      "github_repo": "sandbaseai/cli"
+    },
+    {
+      "slug": "proofed-completion-gate",
+      "name": "Proofed Completion Gate",
+      "title": "Proofed Completion Gate",
+      "description": "Uses the Proofed CLI and current-subject completion receipts to reject unsupported coding-agent completion claims, rerun repository-configured tests, and detect stale PASS evidence after code…",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/liangfeng-hu/proofed",
+      "github_repo": "liangfeng-hu/proofed"
+    },
     {
       "slug": "keep-reviewable-project-memory-for-coding-agents-with-ownmem",
       "name": "Keep reviewable project memory for coding agents with OwnMem",
@@ -255,6 +280,9 @@
       "category": "Security & Verification",
       "framework": "Custom Agents",
       "verification": "listed",
+      "signals": {
+        "github_stars": 4
+      },
       "source_url": "https://github.com/hashgraph-online/hol-guard-plugin",
       "github_repo": "hashgraph-online/hol-guard-plugin"
     },
@@ -294,6 +322,9 @@
       "category": "Calendar, Email & Productivity",
       "framework": "Claude Code",
       "verification": "listed",
+      "signals": {
+        "github_stars": 31
+      },
       "source_url": "https://github.com/giltotherescue/slashbooks",
       "github_repo": "giltotherescue/slashbooks"
     },
@@ -401,6 +432,9 @@
       "category": "Integrations & Connectors",
       "framework": "Multi-Framework",
       "verification": "listed",
+      "signals": {
+        "github_stars": 39
+      },
       "source_url": "https://github.com/galleonlabs/hypergrok-trading-desk",
       "github_repo": "galleonlabs/hypergrok-trading-desk"
     },
@@ -427,6 +461,7 @@
       "framework": "Multi-Framework",
       "verification": "listed",
       "signals": {
+        "github_stars": 1,
         "npm_weekly_downloads": 450
       },
       "source_url": "https://github.com/MM-sheng/404-directory",
@@ -704,6 +739,9 @@
       "category": "Security & Verification",
       "framework": "MCP",
       "verification": "listed",
+      "signals": {
+        "github_stars": 1
+      },
       "source_url": "https://github.com/AgentTanuki/agent-guild",
       "github_repo": "agenttanuki/agent-guild"
     },
@@ -829,6 +867,9 @@
       "category": "Developer Tools",
       "framework": "Codex",
       "verification": "listed",
+      "signals": {
+        "github_stars": 7
+      },
       "source_url": "https://github.com/What0ff/snowe-ui-skill",
       "github_repo": "what0ff/snowe-ui-skill"
     },

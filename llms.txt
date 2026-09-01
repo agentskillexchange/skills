@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-01
-# Total: 2951 skills
+# Total: 2953 skills
+
+## SandBase MCP
+slug: sandbase-mcp
+category: Integrations & Connectors
+framework: MCP
+verification: Published
+description: Access 2,000+ AI models and API tools through one MCP interface for inference, media generation, search, scraping, embeddings, social data, and structured retrieval. Use…
+url: https://agentskillexchange.com/skills/sandbase-mcp/
+
+## Proofed Completion Gate
+slug: proofed-completion-gate
+category: Security & Verification
+framework: Multi-Framework
+verification: Published
+description: Uses the Proofed CLI and current-subject completion receipts to reject unsupported coding-agent completion claims, rerun repository-configured tests, and detect stale PASS evidence after code…
+url: https://agentskillexchange.com/skills/proofed-completion-gate/
 
 ## Keep reviewable project memory for coding agents with OwnMem
 slug: keep-reviewable-project-memory-for-coding-agents-with-ownmem

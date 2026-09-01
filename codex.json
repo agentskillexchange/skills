@@ -2,8 +2,30 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-01",
-  "total": 2951,
+  "total": 2953,
   "skills": [
+    {
+      "slug": "sandbase-mcp",
+      "name": "SandBase MCP",
+      "title": "SandBase MCP",
+      "description": "Access 2,000+ AI models and API tools through one MCP interface for inference, media generation, search, scraping, embeddings, social data, and structured retrieval. Use…",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "listed",
+      "source_url": "https://github.com/sandbaseai/cli",
+      "github_repo": "sandbaseai/cli"
+    },
+    {
+      "slug": "proofed-completion-gate",
+      "name": "Proofed Completion Gate",
+      "title": "Proofed Completion Gate",
+      "description": "Uses the Proofed CLI and current-subject completion receipts to reject unsupported coding-agent completion claims, rerun repository-configured tests, and detect stale PASS evidence after code…",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/liangfeng-hu/proofed",
+      "github_repo": "liangfeng-hu/proofed"
+    },
     {
       "slug": "keep-reviewable-project-memory-for-coding-agents-with-ownmem",
       "name": "Keep reviewable project memory for coding agents with OwnMem",

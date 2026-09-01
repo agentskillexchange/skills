@@ -265,20 +265,21 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Triage pull request security risks with staged threat modeling and investigation using VulnVibes](../../skills/triage-pull-request-security-risks-with-staged-threat-modeling-and-investigation-using-vulnvibes/) | 17 | — |
 | [Gate risky agent actions behind approval checkpoints with Latch](../../skills/gate-risky-agent-actions-behind-approval-checkpoints-with-latch/) | 8 | — |
 | [Probe AI agents for dangerous tool chains and execution side effects with ZIRAN](../../skills/probe-ai-agents-for-dangerous-tool-chains-and-execution-side-effects-with-ziran/) | 6 | — |
+| [HOL Guard](../../skills/hol-guard/) | 4 | — |
 | [Block destructive Terraform, database, Kubernetes, cloud, and Git commands before Claude Code can execute them with Agent Guardrails](../../skills/block-destructive-terraform-database-kubernetes-cloud-and-git-commands-before-claude-code-can-execute-them-with-agent-guardrails/) | 2 | — |
+| [Check Agent Counterparty Trust with Agent Guild](../../skills/agent-guild-trust/) | 1 | — |
 | [Audit OpenClaw host security posture and hardening gaps](../../skills/audit-openclaw-host-security-posture-and-hardening-gaps/) | — | 837.2k/wk |
 | [Emit policy receipts for hard-rule agent skills with Pluribus](../../skills/emit-policy-receipts-for-hard-rule-agent-skills-with-pluribus/) | — | 1.3k/wk |
 | [Audit and normalize SPDX license headers before releasing or open-sourcing a repository](../../skills/audit-and-normalize-spdx-license-headers-before-releasing-or-open-sourcing-a-repository/) | — | — |
-| [Check Agent Counterparty Trust with Agent Guild](../../skills/agent-guild-trust/) | — | — |
 | [CloudTrail Anomaly Detection Agent](../../skills/cloudtrail-anomaly-detection-agent/) | — | — |
 | [DocuSign Contract Auto-Sender with Conditional Logic](../../skills/docusign-contract-auto-sender/) | — | — |
 | [GPG Encryption and Key Management Agent](../../skills/gpg-encryption-key-management-agent/) | — | — |
-| [HOL Guard](../../skills/hol-guard/) | — | — |
 | [NPM Audit Deep Scanner](../../skills/npm-audit-deep-scanner/) | — | — |
 | [npm Dependency Audit Resolver](../../skills/npm-dependency-audit-resolver/) | — | — |
 | [npm Dependency Audit Scanner](../../skills/npm-dependency-audit-scanner/) | — | — |
 | [OAuth2 Flow Debugger](../../skills/oauth2-flow-debugger/) | — | — |
 | [OAuth2 Token Introspection Agent](../../skills/oauth2-token-introspection-agent/) | — | — |
+| [Proofed Completion Gate](../../skills/proofed-completion-gate/) | — | — |
 | [Provision OAuth-capable Microsoft agent identities with Entra Agent ID](../../skills/provision-oauth-capable-microsoft-agent-identities-with-entra-agent-id/) | — | — |
 | [SBOM Vulnerability Scanner](../../skills/sbom-vulnerability-scanner/) | — | — |
 | [Scan LLM-generated code before use with CodeShield](../../skills/scan-llm-generated-code-before-use-with-codeshield/) | — | — |
