@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Slack MCP Server](skills/slack-mcp-server/)** — Agent access to Slack conversations and workspace workflows.
+**[Compare coding-agent answers side by side with Claude Council](skills/compare-coding-agent-answers-side-by-side-with-claude-council/)** — Ask multiple model and CLI-backed coding agents the same question from Claude Code, then compare individual answers and a synthesized recommendation.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
