@@ -147,6 +147,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Apply site-specific action manuals with Actionbook](../../skills/apply-site-specific-action-manuals-with-actionbook/) | 1.5k | 4.7k/wk |
 | [CDP Network Interception Logger](../../skills/cdp-network-interception-logger/) | 1.5k | 23.7M/wk |
 | [Browserable Self-Hostable Browser Automation for AI Agents](../../skills/browserable-self-hostable-browser-automation-ai-agents/) | 1.2k | 21/wk |
+| [Author and Run Regression Tests with Agent QA](../../skills/author-and-run-regression-tests-with-agent-qa/) | 897 | — |
 | [Browse from MCP clients with Browser Use MCP Server](../../skills/browse-from-mcp-clients-with-browser-use-mcp-server/) | 827 | — |
 | [Control hosted browser research and extraction through Hyperbrowser MCP](../../skills/control-hosted-browser-research-and-extraction-through-hyperbrowser-mcp/) | 770 | 3.2k/wk |
 | [Run supervised MCP browser automation with Auto Browser](../../skills/run-supervised-mcp-browser-automation-with-auto-browser/) | 565 | — |
@@ -160,7 +161,6 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [playwright-extra Plugin Framework for Playwright](../../skills/playwright-extra-plugin-framework-for-playwright/) | — | 623.1k/wk |
 | [Extract data and complete workflows in your real logged-in browser](../../skills/extract-data-and-complete-workflows-in-your-real-logged-in-browser/) | — | 2.9k/wk |
 | [Drive Chrome with stable accessibility refs for repeatable browser automation](../../skills/drive-chrome-with-stable-accessibility-refs-for-repeatable-browser-automation/) | — | 1.1k/wk |
-| [Author and Run Regression Tests with Agent QA](../../skills/author-and-run-regression-tests-with-agent-qa/) | — | — |
 | [Verify local web apps with Playwright scripts and managed dev servers](../../skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | — | — |
 
 ---

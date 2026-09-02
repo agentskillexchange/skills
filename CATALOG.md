@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2957 published skills** across **17 categories** · 2,509 security reviewed · Updated 2026-09-02 01:27 UTC
+> **2959 published skills** across **17 categories** · 2,509 security reviewed · Updated 2026-09-02 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (458 skills)
+### 🛠️ Developer Tools (459 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -150,7 +150,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Repomix Codebase Context Packer for LLMs](skills/repomix-codebase-context-packer-llm/) | Repomix packs an entire code repository into a single AI-friendly file optimized for LLM consumption. It provides… | Security Reviewed | 22.8k | 54.8k/wk |
 | [Coordinate Terminal Coding Agents With Herdr](skills/coordinate-terminal-coding-agents-with-herdr/) | Run and monitor multiple coding agents from one terminal workspace, keeping panes, status, detach/reattach, and… | Security Reviewed | 22.7k | — |
 | [Dockge Self-Hosted Docker Compose Stack Manager](skills/dockge-docker-compose-stack-manager/) | Dockge is a self-hosted Docker Compose stack manager with a reactive web UI for managing compose.yaml files. Created… | Security Reviewed | 22.7k | — |
-| [Build stateful agents with long-term memory using Letta](skills/build-stateful-agents-with-long-term-memory-using-letta/) | Use Letta to create agents whose identity, tools, memory blocks, and conversation state persist across sessions for… | Security Reviewed | 22.7k | — |
+| [Build stateful agents with long-term memory using Letta](skills/build-stateful-agents-with-long-term-memory-using-letta/) | Use Letta to create agents whose identity, tools, memory blocks, and conversation state persist across sessions for… | Security Reviewed | 22.7k | 11/wk |
 | [Mastra TypeScript AI Agent Framework](skills/mastra-typescript-ai-agent-framework/) | Mastra is an open-source TypeScript framework for building AI-powered applications and agents. Created by the team… | Security Reviewed | 22.6k | 267.2k/wk |
 | [Beekeeper Studio Cross-Platform SQL Editor and Database Manager](skills/beekeeper-studio-cross-platform-sql-editor-database-manager/) | A source-backed ASE skill for Beekeeper Studio, the SQL editor and database manager for Linux, macOS, and Windows.… | Security Reviewed | 22.5k | — |
 | [Crush Agentic AI Coding CLI by Charmbracelet](skills/crush-agentic-ai-coding-cli-charmbracelet/) | Crush is a terminal-native AI coding agent built by Charmbracelet that connects your code, tools, and workflows to… | Security Reviewed | 22.2k | — |
@@ -257,7 +257,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Run Logged-In Browser Tasks With Ego Lite](skills/run-logged-in-browser-tasks-with-ego-lite/) | Give coding agents isolated browser spaces that can use real logged-in state while the operator keeps normal tabs… | Security Reviewed | 6.4k | — |
 | [Build production agent harnesses with Strands Agents](skills/build-production-agent-harnesses-with-strands-agents/) | Use Strands Agents to assemble model-agnostic Python or TypeScript agent harnesses with tools, MCP, guardrails,… | Security Reviewed | 6.4k | 60.4k/wk |
 | [pgroll PostgreSQL Zero-Downtime Schema Migration](skills/pgroll-postgresql-zero-downtime-schema-migration/) | pgroll is an open-source CLI tool by Xata that performs zero-downtime, reversible schema migrations for PostgreSQL.… | Security Reviewed | 6.4k | — |
-| [Embed bounded Claude Code sessions into Python automation with the Claude Agent SDK](skills/embed-bounded-claude-code-sessions-into-python-automation-with-the-claude-agent-sdk/) | Use the Claude Agent SDK for Python when an existing script or service needs to delegate scoped repo work to Claude… | Security Reviewed | 6.4k | — |
+| [Embed bounded Claude Code sessions into Python automation with the Claude Agent SDK](skills/embed-bounded-claude-code-sessions-into-python-automation-with-the-claude-agent-sdk/) | Use the Claude Agent SDK for Python when an existing script or service needs to delegate scoped repo work to Claude… | Security Reviewed | 6.4k | 40/wk |
 | [pastel Command-Line Color Generation Analysis and Manipulation Tool](skills/pastel-command-line-color-tool/) | pastel is a command-line tool for generating, analyzing, converting, and manipulating colors. Built in Rust by the… | Security Reviewed | 6.3k | — |
 | [Tealdeer Fast Rust Implementation of tldr Command-Line Help Pages](skills/tealdeer-fast-tldr-client-rust/) | Tealdeer is a very fast Rust implementation of the tldr project — simplified, example-based man pages for… | Security Reviewed | 6.1k | — |
 | [Bootstrap Claude Code and Codex Workflows with ZCF](skills/bootstrap-claude-code-and-codex-workflows-with-zcf/) | Use ZCF to initialize, update, and standardize Claude Code or Codex environments with prompts, workflows, MCP… | Published | 6.1k | 1k/wk |
@@ -395,7 +395,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | Convert a finished coding-agent session into a shareable HTML replay instead of sending raw logs or bulky screen… | Security Reviewed | 621 | 4.9k/wk |
 | [Preview and approve coding-agent execution plans with Overture](skills/preview-and-approve-coding-agent-execution-plans-with-overture/) | Render an AI coding agent's plan as an interactive flowchart so a human can inspect dependencies, attach context,… | Security Reviewed | 619 | 320/wk |
 | [Share local project memory across coding agents with Memorix](skills/share-local-project-memory-across-coding-agents-with-memorix/) | Use Memorix when multiple coding agents or sessions need a shared, searchable, local-first project memory instead of… | Security Reviewed | 579 | 969/wk |
-| [Run DeepSeek Harness agent sessions from a Claude Code-style terminal TUI](skills/run-deepseek-harness-agent-sessions-from-a-claude-code-style-terminal-tui/) | Use dsh-cc-tui to run DeepSeek Harness coding-agent sessions from a full-screen terminal with live activity, context… | Security Reviewed | 558 | — |
+| [Run DeepSeek Harness agent sessions from a Claude Code-style terminal TUI](skills/run-deepseek-harness-agent-sessions-from-a-claude-code-style-terminal-tui/) | Use dsh-cc-tui to run DeepSeek Harness coding-agent sessions from a full-screen terminal with live activity, context… | Security Reviewed | 558 | 255/wk |
 | [Plan, draft, publish, and review social posts from Claude Code with social-post](skills/plan-draft-publish-and-review-social-posts-from-claude-code-with-social-post/) | Install a Claude Code skill that learns a user's social voice, builds a 14-day content calendar, drafts posts, and… | Published | 555 | — |
 | [Run deterministic SQL and dbt analysis under coding agents with Altimate Code](skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/) | Adds deterministic SQL analysis, dbt-aware tooling, warehouse metadata, lineage, and test-generation workflows… | Published | 552 | 195/wk |
 | [Benchmark CLI agents on autonomous LLM post-training with PostTrainBench](skills/benchmark-cli-agents-on-autonomous-llm-post-training-with-posttrainbench/) | Run Claude Code, Codex CLI, Gemini CLI, or OpenCode through bounded H100 post-training tasks and compare how well… | Security Reviewed | 543 | — |
@@ -465,6 +465,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [n8n GitHub Issue-to-Jira Ticket Automator](skills/n8n-github-jira-ticket-automator/) | Deploys an n8n workflow via the n8n REST API using the GitHub Trigger node to capture new issue events and transform… | Security Reviewed | — | — |
 | [NPM Package Auditor](skills/npm-package-auditor-registry-api/) | Audits NPM packages using the NPM Registry API with dependency tree resolution and vulnerability scanning via… | Security Reviewed | — | — |
 | [Obsidian Vault Manager](skills/obsidian-vault-manager/) | Obsidian Vault Manager is built around HashiCorp Vault secrets platform. The underlying ecosystem is represented by… | Published | — | — |
+| [Pronounce Developer Jargon](skills/pronounce-developer-jargon/) | Answers short pronunciation questions about developer tools, AI models, acronyms, and project names by using the… | Published | — | — |
 | [RouterBase Model Routing](skills/routerbase-model-routing/) | Design RouterBase model routing policies for AI agents, including primary model selection, fallback chains, latency… | Published | — | — |
 | [Sell unused tokens](skills/sell-unused-tokens/) | List leftover LLM API capacity on tokensto.cash (OpenRouter, OpenAI, Anthropic, Venice, Capminal, and 20+ others)… | Published | — | — |
 | [Turn notes, logs, and screenshots into structured GitHub issues with GitHub Issue Creator](skills/turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator/) | Convert messy bug notes, error logs, voice dictation, and screenshots into crisp GitHub issue reports with clear… | Security Reviewed | — | — |
@@ -729,7 +730,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (237 skills)
+### 📄 Templates & Workflows (238 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -864,6 +865,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Rehearse and run scripted terminal demos with realistic playback using doitlive](skills/rehearse-and-run-scripted-terminal-demos-with-realistic-playback-using-doitlive/) | Play back a scripted terminal demo with controlled typing and pauses so talks, onboarding sessions, and trainings… | Security Reviewed | 3.6k | 236/wk |
 | [Iteratively optimize prompts and text-based agent configs against scored eval sets with GEPA](skills/iteratively-optimize-prompts-and-text-based-agent-configs-against-scored-eval-sets-with-gepa/) | Use reflective search to improve prompts or text-configured agent components against a real eval set instead of… | Security Reviewed | 3.5k | 4.1M/wk |
 | [Schedule and inspect .NET agent jobs with TickerQ](skills/schedule-and-inspect-dotnet-agent-jobs-with-tickerq/) | Use TickerQ to add persistent cron and time-based job scheduling, retries, multi-node coordination, OpenTelemetry,… | Published | 3.5k | — |
+| [Run Chinese-first academic writing, Office, and scientific workflows with Academic Skills](skills/run-chinese-first-academic-writing-office-and-scientific-workflows-with-academic-skills/) | Install and invoke a Chinese-first academic skill bundle for paper writing, editable Word/PPT research documents,… | Security Reviewed | 3.4k | — |
 | [DigitalOcean Droplet Manager](skills/digitalocean-droplet-manager/) | DigitalOcean Droplet Manager is built around Kubernetes orchestration platform. The underlying ecosystem is… | Security Reviewed | 3.4k | — |
 | [Run recipe-driven codebase migrations and framework upgrades with reviewable diffs through OpenRewrite](skills/run-recipe-driven-codebase-migrations-and-framework-upgrades-with-reviewable-diffs-through-openrewrite/) | Apply reusable refactoring recipes to large codebases so framework upgrades and codemods happen as auditable,… | Security Reviewed | 3.4k | 26.3k/wk |
 | [Generate and validate conventional commits and semver release bumps with Commitizen](skills/generate-and-validate-conventional-commits-and-semver-release-bumps-with-commitizen/) | Standardize commit messages, validate commit history, and calculate semver-aware release bumps without hand-rolled… | Published | 3.4k | — |
@@ -2650,6 +2652,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Apply site-specific action manuals with Actionbook](skills/apply-site-specific-action-manuals-with-actionbook/) | Load maintained action manuals for fragile websites so agents can execute known flows more reliably than generic… | Security Reviewed | 1.5k | 4.7k/wk |
 | [CDP Network Interception Logger](skills/cdp-network-interception-logger/) | Uses Chrome DevTools Protocol Fetch.requestPaused and Network.responseReceived events to intercept, log, and modify… | Published | 1.5k | 23.7M/wk |
 | [Browserable Self-Hostable Browser Automation for AI Agents](skills/browserable-self-hostable-browser-automation-ai-agents/) | Browserable is an open-source, self-hostable browser automation library built for AI agents. This skill turns… | Security Reviewed | 1.2k | 21/wk |
+| [Author and Run Regression Tests with Agent QA](skills/author-and-run-regression-tests-with-agent-qa/) | Use Agent QA's CLI and MCP server to author, validate, run, debug, and triage natural-language web and mobile… | Published | 897 | — |
 | [Browse from MCP clients with Browser Use MCP Server](skills/browse-from-mcp-clients-with-browser-use-mcp-server/) | Expose browser-use web automation through an MCP server so Cursor or another MCP client can operate websites with… | Security Reviewed | 827 | — |
 | [Control hosted browser research and extraction through Hyperbrowser MCP](skills/control-hosted-browser-research-and-extraction-through-hyperbrowser-mcp/) | Give MCP clients hosted browser tools for scraping, crawling, structured extraction, search, and computer-use… | Security Reviewed | 770 | 3.2k/wk |
 | [Run supervised MCP browser automation with Auto Browser](skills/run-supervised-mcp-browser-automation-with-auto-browser/) | Give an MCP-capable agent a local Playwright browser with human takeover, reusable auth profiles, approvals, audit… | Security Reviewed | 565 | — |
@@ -2663,7 +2666,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [playwright-extra Plugin Framework for Playwright](skills/playwright-extra-plugin-framework-for-playwright/) | An ASE skill built around playwright-extra, the plugin framework that augments Playwright with reusable plugins such… | Published | — | 623.1k/wk |
 | [Extract data and complete workflows in your real logged-in browser](skills/extract-data-and-complete-workflows-in-your-real-logged-in-browser/) | Use bb-browser when an agent needs to inspect pages, pull data, or complete form-driven tasks inside the user's… | Published | — | 2.9k/wk |
 | [Drive Chrome with stable accessibility refs for repeatable browser automation](skills/drive-chrome-with-stable-accessibility-refs-for-repeatable-browser-automation/) | Use PinchTab when an agent needs repeatable browser automation with stable element references, persistent profiles,… | Security Reviewed | — | 1.1k/wk |
-| [Author and Run Regression Tests with Agent QA](skills/author-and-run-regression-tests-with-agent-qa/) | Use Agent QA's CLI and MCP server to author, validate, run, debug, and triage natural-language web and mobile… | Published | — | — |
 | [Verify local web apps with Playwright scripts and managed dev servers](skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | Use Anthropic's webapp-testing skill to spin up one or more local servers, wait for them to become reachable, and… | Security Reviewed | — | — |
 
 

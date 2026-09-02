@@ -2,8 +2,30 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-02",
-  "total": 2957,
+  "total": 2959,
   "skills": [
+    {
+      "slug": "pronounce-developer-jargon",
+      "name": "Pronounce Developer Jargon",
+      "title": "Pronounce Developer Jargon",
+      "description": "Answers short pronunciation questions about developer tools, AI models, acronyms, and project names by using the say-it CLI to play local audio and return…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/anzy-renlab-ai/pronounce",
+      "github_repo": "anzy-renlab-ai/pronounce"
+    },
+    {
+      "slug": "run-chinese-first-academic-writing-office-and-scientific-workflows-with-academic-skills",
+      "name": "Run Chinese-first academic writing, Office, and scientific workflows with Academic Skills",
+      "title": "Run Chinese-first academic writing, Office, and scientific workflows with Academic Skills",
+      "description": "Install and invoke a Chinese-first academic skill bundle for paper writing, editable Word/PPT research documents, and scientific computing tasks in Claude Code or Codex.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/zLanqing/codex-claude-academic-skills",
+      "github_repo": "zLanqing/codex-claude-academic-skills"
+    },
     {
       "slug": "rebuild-public-websites-from-evidence-snapshots-with-website-rebuild-skill",
       "name": "Rebuild public websites from evidence snapshots with website-rebuild-skill",

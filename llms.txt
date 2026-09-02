@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-02
-# Total: 2957 skills
+# Total: 2959 skills
+
+## Pronounce Developer Jargon
+slug: pronounce-developer-jargon
+category: Developer Tools
+framework: Multi-Framework
+verification: Published
+description: Answers short pronunciation questions about developer tools, AI models, acronyms, and project names by using the say-it CLI to play local audio and return…
+url: https://agentskillexchange.com/skills/pronounce-developer-jargon/
+
+## Run Chinese-first academic writing, Office, and scientific workflows with Academic Skills
+slug: run-chinese-first-academic-writing-office-and-scientific-workflows-with-academic-skills
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Install and invoke a Chinese-first academic skill bundle for paper writing, editable Word/PPT research documents, and scientific computing tasks in Claude Code or Codex.
+url: https://agentskillexchange.com/skills/run-chinese-first-academic-writing-office-and-scientific-workflows-with-academic-skills/
 
 ## Rebuild public websites from evidence snapshots with website-rebuild-skill
 slug: rebuild-public-websites-from-evidence-snapshots-with-website-rebuild-skill

@@ -1,8 +1,33 @@
 {
   "version": "2.0",
-  "total": 2957,
+  "total": 2959,
   "generated": "2026-09-02",
   "skills": [
+    {
+      "slug": "pronounce-developer-jargon",
+      "name": "Pronounce Developer Jargon",
+      "title": "Pronounce Developer Jargon",
+      "description": "Answers short pronunciation questions about developer tools, AI models, acronyms, and project names by using the say-it CLI to play local audio and return…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/anzy-renlab-ai/pronounce",
+      "github_repo": "anzy-renlab-ai/pronounce"
+    },
+    {
+      "slug": "run-chinese-first-academic-writing-office-and-scientific-workflows-with-academic-skills",
+      "name": "Run Chinese-first academic writing, Office, and scientific workflows with Academic Skills",
+      "title": "Run Chinese-first academic writing, Office, and scientific workflows with Academic Skills",
+      "description": "Install and invoke a Chinese-first academic skill bundle for paper writing, editable Word/PPT research documents, and scientific computing tasks in Claude Code or Codex.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 3429
+      },
+      "source_url": "https://github.com/zLanqing/codex-claude-academic-skills",
+      "github_repo": "zLanqing/codex-claude-academic-skills"
+    },
     {
       "slug": "rebuild-public-websites-from-evidence-snapshots-with-website-rebuild-skill",
       "name": "Rebuild public websites from evidence snapshots with website-rebuild-skill",
@@ -185,6 +210,9 @@
       "category": "Browser Automation",
       "framework": "Codex",
       "verification": "listed",
+      "signals": {
+        "github_stars": 897
+      },
       "source_url": "https://github.com/vostride/agent-qa",
       "github_repo": "vostride/agent-qa"
     },
@@ -881,7 +909,8 @@
       "framework": "Custom Agents",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 558
+        "github_stars": 558,
+        "npm_weekly_downloads": 255
       },
       "source_url": "https://github.com/ccch1mneyyy/dsh-TUI",
       "github_repo": "ccch1mneyyy/dsh-TUI"
@@ -7252,7 +7281,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 22658
+        "github_stars": 22658,
+        "npm_weekly_downloads": 11
       },
       "source_url": "https://github.com/letta-ai/letta",
       "github_repo": "letta-ai/letta"
@@ -11161,6 +11191,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 6390,
+        "npm_weekly_downloads": 40,
         "license": "MIT"
       },
       "source_url": "https://github.com/anthropics/claude-agent-sdk-python",

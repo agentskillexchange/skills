@@ -176,7 +176,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Repomix Codebase Context Packer for LLMs](../../skills/repomix-codebase-context-packer-llm/) | 22.8k | 54.8k/wk |
 | [Coordinate Terminal Coding Agents With Herdr](../../skills/coordinate-terminal-coding-agents-with-herdr/) | 22.7k | — |
 | [Dockge Self-Hosted Docker Compose Stack Manager](../../skills/dockge-docker-compose-stack-manager/) | 22.7k | — |
-| [Build stateful agents with long-term memory using Letta](../../skills/build-stateful-agents-with-long-term-memory-using-letta/) | 22.7k | — |
+| [Build stateful agents with long-term memory using Letta](../../skills/build-stateful-agents-with-long-term-memory-using-letta/) | 22.7k | 11/wk |
 | [Mastra TypeScript AI Agent Framework](../../skills/mastra-typescript-ai-agent-framework/) | 22.6k | 267.2k/wk |
 | [Beekeeper Studio Cross-Platform SQL Editor and Database Manager](../../skills/beekeeper-studio-cross-platform-sql-editor-database-manager/) | 22.5k | — |
 | [Crush Agentic AI Coding CLI by Charmbracelet](../../skills/crush-agentic-ai-coding-cli-charmbracelet/) | 22.2k | — |
@@ -283,7 +283,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Run Logged-In Browser Tasks With Ego Lite](../../skills/run-logged-in-browser-tasks-with-ego-lite/) | 6.4k | — |
 | [Build production agent harnesses with Strands Agents](../../skills/build-production-agent-harnesses-with-strands-agents/) | 6.4k | 60.4k/wk |
 | [pgroll PostgreSQL Zero-Downtime Schema Migration](../../skills/pgroll-postgresql-zero-downtime-schema-migration/) | 6.4k | — |
-| [Embed bounded Claude Code sessions into Python automation with the Claude Agent SDK](../../skills/embed-bounded-claude-code-sessions-into-python-automation-with-the-claude-agent-sdk/) | 6.4k | — |
+| [Embed bounded Claude Code sessions into Python automation with the Claude Agent SDK](../../skills/embed-bounded-claude-code-sessions-into-python-automation-with-the-claude-agent-sdk/) | 6.4k | 40/wk |
 | [pastel Command-Line Color Generation Analysis and Manipulation Tool](../../skills/pastel-command-line-color-tool/) | 6.3k | — |
 | [Tealdeer Fast Rust Implementation of tldr Command-Line Help Pages](../../skills/tealdeer-fast-tldr-client-rust/) | 6.1k | — |
 | [Bootstrap Claude Code and Codex Workflows with ZCF](../../skills/bootstrap-claude-code-and-codex-workflows-with-zcf/) | 6.1k | 1k/wk |
@@ -421,7 +421,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](../../skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | 621 | 4.9k/wk |
 | [Preview and approve coding-agent execution plans with Overture](../../skills/preview-and-approve-coding-agent-execution-plans-with-overture/) | 619 | 320/wk |
 | [Share local project memory across coding agents with Memorix](../../skills/share-local-project-memory-across-coding-agents-with-memorix/) | 579 | 969/wk |
-| [Run DeepSeek Harness agent sessions from a Claude Code-style terminal TUI](../../skills/run-deepseek-harness-agent-sessions-from-a-claude-code-style-terminal-tui/) | 558 | — |
+| [Run DeepSeek Harness agent sessions from a Claude Code-style terminal TUI](../../skills/run-deepseek-harness-agent-sessions-from-a-claude-code-style-terminal-tui/) | 558 | 255/wk |
 | [Plan, draft, publish, and review social posts from Claude Code with social-post](../../skills/plan-draft-publish-and-review-social-posts-from-claude-code-with-social-post/) | 555 | — |
 | [Run deterministic SQL and dbt analysis under coding agents with Altimate Code](../../skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/) | 552 | 195/wk |
 | [Benchmark CLI agents on autonomous LLM post-training with PostTrainBench](../../skills/benchmark-cli-agents-on-autonomous-llm-post-training-with-posttrainbench/) | 543 | — |
@@ -491,6 +491,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [n8n GitHub Issue-to-Jira Ticket Automator](../../skills/n8n-github-jira-ticket-automator/) | — | — |
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | — | — |
 | [Obsidian Vault Manager](../../skills/obsidian-vault-manager/) | — | — |
+| [Pronounce Developer Jargon](../../skills/pronounce-developer-jargon/) | — | — |
 | [RouterBase Model Routing](../../skills/routerbase-model-routing/) | — | — |
 | [Sell unused tokens](../../skills/sell-unused-tokens/) | — | — |
 | [Turn notes, logs, and screenshots into structured GitHub issues with GitHub Issue Creator](../../skills/turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator/) | — | — |
