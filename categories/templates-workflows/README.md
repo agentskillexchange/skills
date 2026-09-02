@@ -210,6 +210,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Stress-Test Research Papers Before Submission with PaperJury](../../skills/stress-test-research-papers-before-submission-with-paperjury/) | 926 | — |
 | [Build and sync n8n workflows from code with n8n-as-code](../../skills/build-and-sync-n8n-workflows-from-code-with-n8n-as-code/) | 884 | 297/wk |
 | [Build deterministic multi-agent networks with Inngest AgentKit](../../skills/build-deterministic-multi-agent-networks-with-inngest-agentkit/) | 880 | 62.8k/wk |
+| [Prepare Indian ITR filings with deterministic tax checks through itr-wala](../../skills/prepare-indian-itr-filings-with-deterministic-tax-checks-through-itr-wala/) | 839 | — |
 | [Run a self-evolving markdown second brain with COG](../../skills/run-a-self-evolving-markdown-second-brain-with-cog/) | 803 | — |
 | [Prove Agent Skills with SkillForge](../../skills/prove-agent-skills-with-skillforge/) | 802 | — |
 | [Run parallel Claude Code bug-fix and best-practice sweeps with coordinated workers using Claude Code Agent Farm](../../skills/run-parallel-claude-code-bug-fix-and-best-practice-sweeps-with-coordinated-workers-using-claude-code-agent-farm/) | 784 | — |

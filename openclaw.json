@@ -1,9 +1,31 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-09-01",
-  "total": 2955,
+  "generated": "2026-09-02",
+  "total": 2957,
   "skills": [
+    {
+      "slug": "rebuild-public-websites-from-evidence-snapshots-with-website-rebuild-skill",
+      "name": "Rebuild public websites from evidence snapshots with website-rebuild-skill",
+      "title": "Rebuild public websites from evidence snapshots with website-rebuild-skill",
+      "description": "Use website-rebuild-skill when an agent needs to classify a public site, capture a read-only evidence mirror, reconstruct behavior from shipped assets, and verify the…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/boyang-hu/website-rebuild-skill",
+      "github_repo": "boyang-hu/website-rebuild-skill"
+    },
+    {
+      "slug": "prepare-indian-itr-filings-with-deterministic-tax-checks-through-itr-wala",
+      "name": "Prepare Indian ITR filings with deterministic tax checks through itr-wala",
+      "title": "Prepare Indian ITR filings with deterministic tax checks through itr-wala",
+      "description": "Use itr-wala when an agent needs a review-first workflow for reading Indian tax documents, running deterministic AY 2026-27 tax calculations, comparing regimes, and guiding…",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/karanb192/itr-wala",
+      "github_repo": "karanb192/itr-wala"
+    },
     {
       "slug": "benchmark-cli-agents-on-autonomous-llm-post-training-with-posttrainbench",
       "name": "Benchmark CLI agents on autonomous LLM post-training with PostTrainBench",

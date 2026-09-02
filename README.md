@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C955-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C957-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C508-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,955 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,957 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Compare coding-agent answers side by side with Claude Council](skills/compare-coding-agent-answers-side-by-side-with-claude-council/)** — Ask multiple model and CLI-backed coding agents the same question from Claude Code, then compare individual answers and a synthesized recommendation.
+**[Coordinate software delivery roles with MetaGPT](skills/coordinate-software-delivery-roles-with-metagpt/)** — Use MetaGPT to turn a product requirement into coordinated product, architecture, project, and engineering agent outputs that an operator can review and iterate.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Rebuild public websites from evidence snapshots with website-rebuild-skill](skills/rebuild-public-websites-from-evidence-snapshots-with-website-rebuild-skill/) | Use website-rebuild-skill when an agent needs to classify a public site, capture a read-only evidence mirror, reconstruct behavior... | 656 | Developer Tools |
+| [Prepare Indian ITR filings with deterministic tax checks through itr-wala](skills/prepare-indian-itr-filings-with-deterministic-tax-checks-through-itr-wala/) | Use itr-wala when an agent needs a review-first workflow for reading Indian tax documents, running deterministic AY 2026-27... | 839 | Templates & Workflows |
 | [Benchmark CLI agents on autonomous LLM post-training with PostTrainBench](skills/benchmark-cli-agents-on-autonomous-llm-post-training-with-posttrainbench/) | Run Claude Code, Codex CLI, Gemini CLI, or OpenCode through bounded H100 post-training tasks and compare how well... | 543 | Developer Tools |
 | [Orchestrate local-first agent memory and workflows with OpenHuman](skills/orchestrate-local-first-agent-memory-and-workflows-with-openhuman/) | Set up OpenHuman as a local-first personal agent harness that syncs context, builds durable memory, and coordinates multi-agent... | 39.3k | Developer Tools |
 | [SandBase MCP](skills/sandbase-mcp/) | Access 2,000+ AI models and API tools through one MCP interface for inference, media generation, search, scraping, embeddings... | 88 | Integrations & Connectors |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Compare coding-agent answers side by side with Claude Council](skills/compare-coding-agent-answers-side-by-side-with-claude-council/) | Ask multiple model and CLI-backed coding agents the same question from Claude Code, then compare individual answers and... | 676 | Developer Tools |
 | [Repair AI-shaped drafts with Sepia’s venue-specific writing workflows](skills/repair-ai-shaped-drafts-with-sepia-venue-specific-writing-workflows/) | Use Sepia to write, review, minimally refactor, or fully recreate fiction and professional prose with agent-native de-AI writing... | 1.2k | Content Writing & SEO |
 | [Clean Closed Issue Worktrees](skills/clean-closed-issue-worktrees/) | Safely audits and removes Git worktrees linked to closed GitHub or GitLab issues with a mandatory scan-confirm-execute protocol... | - | Developer Tools |
-| [Install Claude Code department workflows with headcount](skills/install-claude-code-department-workflows-with-headcount/) | Use headcount to install focused Claude Code department plugins and invoke repeatable specialist workflows across business, engineering, security... | 743 | Templates & Workflows |
-| [Manage parallel coding agent sessions and worktrees with CCManager](skills/manage-parallel-coding-agent-sessions-and-worktrees-with-ccmanager/) | Run Claude Code, Codex CLI, Gemini CLI, Cursor Agent, Copilot CLI, Cline CLI, OpenCode, Kimi CLI, and related... | 1.2k | Developer Tools |
 
 ---
 
@@ -124,15 +124,15 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
 | [Manage parallel coding agent sessions and worktrees with CCManager](skills/manage-parallel-coding-agent-sessions-and-worktrees-with-ccmanager/) | Run Claude Code, Codex CLI, Gemini CLI, Cursor Agent, Copilot CLI, Cline CLI, OpenCode, Kimi CLI, and related... | 1.2k | Developer Tools |
+| [Run independent multi-agent build and review flows with OPC](skills/run-independent-multi-agent-build-and-review-flows-with-opc/) | Use OPC as a Claude Code skill to select a task flow, dispatch specialist roles, enforce independent review... | 192 | Code Quality & Review |
 | [Automate NotebookLM Studio generation and cited research batches with notebooklm-mcp](skills/automate-notebooklm-studio-generation-and-cited-research-batches-with-notebooklm-mcp/) | Use NotebookLM through MCP or a local REST API to run cited Q&A, generate Studio artifacts, and manage... | 161 | Research & Scraping |
 | [Run CodeWhale terminal coding agent workflows](skills/run-codewhale-terminal-coding-agent-workflows/) | Use CodeWhale as a local terminal coding agent for repository edits, test repair, provider-switched sessions, approval-gated commands, MCP... | 40.8k | Developer Tools |
-| [Run independent multi-agent build and review flows with OPC](skills/run-independent-multi-agent-build-and-review-flows-with-opc/) | Use OPC as a Claude Code skill to select a task flow, dispatch specialist roles, enforce independent review... | 192 | Code Quality & Review |
 | [Enforce Coding-Agent Write and Shell Policies with Probity](skills/enforce-coding-agent-write-and-shell-policies-with-probity/) | Use Probity when Claude Code, Codex, or GitHub Copilot CLI should be blocked from unsafe file writes or... | 162 | Security & Verification |
 | [Build production-ready n8n workflows with n8n-skills](skills/build-production-ready-n8n-workflows-with-n8n-skills/) | Give Claude Code a routed skill pack for designing, validating, debugging, and deploying n8n workflows through n8n-mcp | 6.2k | Templates & Workflows |
 | [Block Risky Coding-Agent Commands with CC Safety Net](skills/block-risky-coding-agent-commands-with-cc-safety-net/) | Use CC Safety Net when coding-agent CLIs need pre-execution hooks that block destructive commands, secret access, and unsafe... | 1.5k | Security & Verification |
+| [Prepare Indian ITR filings with deterministic tax checks through itr-wala](skills/prepare-indian-itr-filings-with-deterministic-tax-checks-through-itr-wala/) | Use itr-wala when an agent needs a review-first workflow for reading Indian tax documents, running deterministic AY 2026-27... | 839 | Templates & Workflows |
 | [Repair AI-shaped drafts with Sepia’s venue-specific writing workflows](skills/repair-ai-shaped-drafts-with-sepia-venue-specific-writing-workflows/) | Use Sepia to write, review, minimally refactor, or fully recreate fiction and professional prose with agent-native de-AI writing... | 1.2k | Content Writing & SEO |
 | [Run Claude Design-style UI prototyping locally with baoyu-design](skills/run-claude-design-style-ui-prototyping-locally-with-baoyu-design/) | Use baoyu-design as a portable agent skill for local UI mockups, prototypes, decks, and design-system workflows that produce... | 3.6k | Image & Creative Automation |
-| [Install Claude Code department workflows with headcount](skills/install-claude-code-department-workflows-with-headcount/) | Use headcount to install focused Claude Code department plugins and invoke repeatable specialist workflows across business, engineering, security... | 743 | Templates & Workflows |
 
 ---
 
@@ -140,9 +140,9 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 457 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 458 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 247 | Vulnerability scanning, auth setup, compliance |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 236 | Scaffolders, boilerplate generators, workflow templates |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 237 | Scaffolders, boilerplate generators, workflow templates |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 220 | ETL pipelines, parsing, format conversion |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 199 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,955 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,957 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,508 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

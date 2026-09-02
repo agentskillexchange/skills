@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-09-01
-# Total: 2955 skills
+# Generated: 2026-09-02
+# Total: 2957 skills
+
+## Rebuild public websites from evidence snapshots with website-rebuild-skill
+slug: rebuild-public-websites-from-evidence-snapshots-with-website-rebuild-skill
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use website-rebuild-skill when an agent needs to classify a public site, capture a read-only evidence mirror, reconstruct behavior from shipped assets, and verify the…
+url: https://agentskillexchange.com/skills/rebuild-public-websites-from-evidence-snapshots-with-website-rebuild-skill/
+
+## Prepare Indian ITR filings with deterministic tax checks through itr-wala
+slug: prepare-indian-itr-filings-with-deterministic-tax-checks-through-itr-wala
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use itr-wala when an agent needs a review-first workflow for reading Indian tax documents, running deterministic AY 2026-27 tax calculations, comparing regimes, and guiding…
+url: https://agentskillexchange.com/skills/prepare-indian-itr-filings-with-deterministic-tax-checks-through-itr-wala/
 
 ## Benchmark CLI agents on autonomous LLM post-training with PostTrainBench
 slug: benchmark-cli-agents-on-autonomous-llm-post-training-with-posttrainbench

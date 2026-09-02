@@ -417,6 +417,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Manage cross-agent skill files from Obsidian with Agentfiles](../../skills/manage-cross-agent-skill-files-from-obsidian-with-agentfiles/) | 679 | — |
 | [Compare coding-agent answers side by side with Claude Council](../../skills/compare-coding-agent-answers-side-by-side-with-claude-council/) | 676 | — |
 | [Install Chinese Claude Code skills for engineering workflows](../../skills/install-chinese-claude-code-skills-for-engineering-workflows/) | 670 | — |
+| [Rebuild public websites from evidence snapshots with website-rebuild-skill](../../skills/rebuild-public-websites-from-evidence-snapshots-with-website-rebuild-skill/) | 656 | — |
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](../../skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | 621 | 4.9k/wk |
 | [Preview and approve coding-agent execution plans with Overture](../../skills/preview-and-approve-coding-agent-execution-plans-with-overture/) | 619 | 320/wk |
 | [Share local project memory across coding agents with Memorix](../../skills/share-local-project-memory-across-coding-agents-with-memorix/) | 579 | 969/wk |

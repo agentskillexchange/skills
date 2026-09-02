@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2955 published skills** across **17 categories** · 2,508 security reviewed · Updated 2026-09-01 19:27 UTC
+> **2957 published skills** across **17 categories** · 2,508 security reviewed · Updated 2026-09-02 01:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (457 skills)
+### 🛠️ Developer Tools (458 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -391,6 +391,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Manage cross-agent skill files from Obsidian with Agentfiles](skills/manage-cross-agent-skill-files-from-obsidian-with-agentfiles/) | Use Agentfiles when an operator wants to browse, create, edit, install, and audit skills, commands, agents, rules,… | Published | 679 | — |
 | [Compare coding-agent answers side by side with Claude Council](skills/compare-coding-agent-answers-side-by-side-with-claude-council/) | Ask multiple model and CLI-backed coding agents the same question from Claude Code, then compare individual answers… | Security Reviewed | 676 | — |
 | [Install Chinese Claude Code skills for engineering workflows](skills/install-chinese-claude-code-skills-for-engineering-workflows/) | Use claude-code-skills-zh to install Chinese-language Claude Code skills for repeatable code review, README writing,… | Security Reviewed | 670 | — |
+| [Rebuild public websites from evidence snapshots with website-rebuild-skill](skills/rebuild-public-websites-from-evidence-snapshots-with-website-rebuild-skill/) | Use website-rebuild-skill when an agent needs to classify a public site, capture a read-only evidence mirror,… | Security Reviewed | 656 | — |
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | Convert a finished coding-agent session into a shareable HTML replay instead of sending raw logs or bulky screen… | Security Reviewed | 621 | 4.9k/wk |
 | [Preview and approve coding-agent execution plans with Overture](skills/preview-and-approve-coding-agent-execution-plans-with-overture/) | Render an AI coding agent's plan as an interactive flowchart so a human can inspect dependencies, attach context,… | Security Reviewed | 619 | 320/wk |
 | [Share local project memory across coding agents with Memorix](skills/share-local-project-memory-across-coding-agents-with-memorix/) | Use Memorix when multiple coding agents or sessions need a shared, searchable, local-first project memory instead of… | Security Reviewed | 579 | 969/wk |
@@ -728,7 +729,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (236 skills)
+### 📄 Templates & Workflows (237 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -904,6 +905,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Stress-Test Research Papers Before Submission with PaperJury](skills/stress-test-research-papers-before-submission-with-paperjury/) | Use PaperJury when a Claude Code workflow should review a LaTeX research paper, classify reviewer-style objections,… | Security Reviewed | 926 | — |
 | [Build and sync n8n workflows from code with n8n-as-code](skills/build-and-sync-n8n-workflows-from-code-with-n8n-as-code/) | Inspect n8n nodes and templates, generate typed workflow code, and sync automations through Git-friendly files… | Security Reviewed | 884 | 297/wk |
 | [Build deterministic multi-agent networks with Inngest AgentKit](skills/build-deterministic-multi-agent-networks-with-inngest-agentkit/) | Use Inngest AgentKit to build TypeScript agent networks with deterministic routing, shared state, MCP tools, and… | Published | 880 | 62.8k/wk |
+| [Prepare Indian ITR filings with deterministic tax checks through itr-wala](skills/prepare-indian-itr-filings-with-deterministic-tax-checks-through-itr-wala/) | Use itr-wala when an agent needs a review-first workflow for reading Indian tax documents, running deterministic AY… | Security Reviewed | 839 | — |
 | [Run a self-evolving markdown second brain with COG](skills/run-a-self-evolving-markdown-second-brain-with-cog/) | Use COG to onboard a markdown-based second brain with agent skills for braindumps, briefs, reviews, research,… | Security Reviewed | 803 | — |
 | [Prove Agent Skills with SkillForge](skills/prove-agent-skills-with-skillforge/) | Use SkillForge to triage, create, test, review, compile, and maintain Claude Code and Codex-ready skills with… | Security Reviewed | 802 | — |
 | [Run parallel Claude Code bug-fix and best-practice sweeps with coordinated workers using Claude Code Agent Farm](skills/run-parallel-claude-code-bug-fix-and-best-practice-sweeps-with-coordinated-workers-using-claude-code-agent-farm/) | Use Claude Code Agent Farm when a repo needs many Claude Code workers to run in parallel on bug-fix or best-practice… | Security Reviewed | 784 | — |
