@@ -2,10 +2,12 @@
 name: "Aperture Wallet Guide"
 slug: "aperture-wallet-guide"
 description: "Answer Aperture Wallet questions from first-party product, security, network, release, app-screen, and Journal sources while enforcing explicit wallet-secret and no-transaction safety boundaries."
+verification: "listed"
+source: "https://github.com/devdasx/aperture"
 category: "Library & API Reference"
 framework: "MCP"
-verification: listed
-source: "https://github.com/devdasx/aperture"
+tool_ecosystem:
+  github_repo: "devdasx/aperture"
 ---
 
 # Aperture Wallet Guide
@@ -33,25 +35,7 @@ app data, signing, broadcasting, or transactions.
 
 ## Installation
 
-Install the first-party skill directly from Aperture's integrity-pinned domain:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-```bash
-npm exec --package=skills@1.5.7 -- skills add https://aperturex.io --skill aperture-wallet-guide
-```
+- Source: https://github.com/devdasx/aperture
 
-Or configure the read-only MCP endpoint in an HTTP-capable client:
-
-```json
-{
-  "mcpServers": {
-    "aperture-wallet-knowledge": {
-      "type": "http",
-      "url": "https://aperturex.io/mcp/"
-    }
-  }
-}
-```
-
-The complete source, package manifests, install options, tool inventory, and
-safety boundary are published at `https://aperturex.io/agents/` and
-`https://github.com/devdasx/aperture`.
