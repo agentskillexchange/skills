@@ -5,6 +5,7 @@ description: "Safely synchronize free-playable NetEase Private FM tracks into an
 github_stars: 0
 verification: "listed"
 source: "https://github.com/Yuxin-Qiao/FreeFM"
+author: "Yuxin-Qiao"
 category: "Media & Transcription"
 framework: "Multi-Framework"
 tool_ecosystem:

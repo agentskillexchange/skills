@@ -2,10 +2,12 @@
 name: "Pronounce Developer Jargon"
 slug: "pronounce-developer-jargon"
 description: "Answers short pronunciation questions about developer tools, AI models, acronyms, and project names by using the say-it CLI to play local audio and return IPA, a plain-English respelling, source evidence, and contested alternatives."
+verification: "listed"
+source: "https://github.com/anzy-renlab-ai/pronounce"
 category: "Developer Tools"
 framework: "Multi-Framework"
-verification: listed
-source: "https://github.com/anzy-renlab-ai/pronounce"
+tool_ecosystem:
+  github_repo: "anzy-renlab-ai/pronounce"
 ---
 
 # Pronounce Developer Jargon
@@ -39,35 +41,7 @@ punctuation in names such as `C++` is passed literally.
 
 ## Installation
 
-Install the upstream CLI and dictionary. Its installer also places the upstream
-`pronounce-word` skill into detected Claude Code, Codex, and Kiro skill folders:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-```bash
-git clone https://github.com/anzy-renlab-ai/pronounce.git
-cd pronounce
-./install.sh
-```
+- Source: https://github.com/anzy-renlab-ai/pronounce
 
-GitHub CLI can install and pin the upstream skill directly for Copilot, Claude
-Code, Cursor, Codex, Gemini CLI, or Antigravity:
-
-```bash
-gh skill install anzy-renlab-ai/pronounce pronounce-word --pin v2.28.1
-```
-
-To install this Agent Skill Exchange copy manually, clone the catalog and copy
-the directory into the skill folder used by the agent runtime:
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git
-cp -R skills/skills/pronounce-developer-jargon ~/.agent-skills/pronounce-developer-jargon
-```
-
-### Optional Third-Party Installer
-
-The `skills` npm package is maintained by a third party. Pin its version when
-using it:
-
-```bash
-npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill pronounce-developer-jargon
-```

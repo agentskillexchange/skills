@@ -2,12 +2,15 @@
 name: "Author and Run Regression Tests with Agent QA"
 slug: "author-and-run-regression-tests-with-agent-qa"
 description: "Use Agent QA's CLI and MCP server to author, validate, run, debug, and triage natural-language web and mobile regression tests with persistent test memory and reviewable run evidence."
+github_stars: 897
 verification: "listed"
 source: "https://github.com/vostride/agent-qa"
+author: "vostride"
 category: "Browser Automation"
 framework: "Codex"
 tool_ecosystem:
   github_repo: "vostride/agent-qa"
+  github_stars: 897
 ---
 
 # Author and Run Regression Tests with Agent QA
@@ -42,7 +45,9 @@ npx agent-qa install-mobile-drivers --all
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Install or set up from the source-backed instructions:
+
+Install with npm install -D agent-qa, then run npx agent-qa init and install the runtime support you need such as npx agent-qa install-browsers --chromium.
 
 - Source: https://github.com/vostride/agent-qa
 

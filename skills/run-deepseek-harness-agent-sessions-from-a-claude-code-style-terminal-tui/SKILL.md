@@ -13,7 +13,7 @@ tool_ecosystem:
   github_repo: "ccch1mneyyy/dsh-TUI"
   github_stars: 558
   npm_package: "dsh-cc-tui"
-  npm_weekly_downloads: 0
+  npm_weekly_downloads: 255
 ---
 
 # Run DeepSeek Harness agent sessions from a Claude Code-style terminal TUI

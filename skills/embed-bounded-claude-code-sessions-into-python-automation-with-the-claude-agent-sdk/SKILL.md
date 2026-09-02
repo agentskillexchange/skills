@@ -13,7 +13,7 @@ tool_ecosystem:
   github_repo: "anthropics/claude-agent-sdk-python"
   github_stars: 6390
   npm_package: "claude-agent-sdk"
-  npm_weekly_downloads: 0
+  npm_weekly_downloads: 40
 ---
 
 # Embed bounded Claude Code sessions into Python automation with the Claude Agent SDK
@@ -26,22 +26,11 @@ Python 3.10+, pip, Claude Agent SDK package, Claude Code compatible credentials
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install claude-agent-sdk
-- pip install build twine
+Install or set up from the source-backed instructions:
 
-Requirements and caveats from upstream:
-- # Claude Agent SDK for Python
-- Python SDK for Claude Agent. See the [Claude Agent SDK documentation](https://platform.claude.com/docs/en/agent-sdk/python) for more information.
-- **Prerequisites:**
-
-Basic usage or getting-started notes:
-- bash
-- **Note:** The Claude Code CLI is automatically bundled with the package - no separate installation required! The SDK will use the bundled CLI by default. If you prefer to use a system-wide installation or a specific v...
-- Specify a custom path: ClaudeAgentOptions(cli_path="/path/to/claude")
+Install the Python package with pip install claude-agent-sdk, configure any ClaudeAgentOptions you need such as cwd and permission handling, then call the SDK from your Python automation to run bounded agent queries.
 
 - Source: https://github.com/anthropics/claude-agent-sdk-python
-- Extracted from upstream docs: https://raw.githubusercontent.com/anthropics/claude-agent-sdk-python/HEAD/README.md
 
 ## Documentation
 
