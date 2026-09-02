@@ -1,8 +1,19 @@
 {
   "version": "2.0",
-  "total": 2959,
+  "total": 2960,
   "generated": "2026-09-02",
   "skills": [
+    {
+      "slug": "aperture-wallet-guide",
+      "name": "Aperture Wallet Guide",
+      "title": "Aperture Wallet Guide",
+      "description": "Answer Aperture Wallet questions from first-party product, security, network, release, app-screen, and Journal sources while enforcing explicit wallet-secret and no-transaction safety boundaries.",
+      "category": "Library & API Reference",
+      "framework": "MCP",
+      "verification": "listed",
+      "source_url": "https://github.com/devdasx/aperture",
+      "github_repo": "devdasx/aperture"
+    },
     {
       "slug": "pronounce-developer-jargon",
       "name": "Pronounce Developer Jargon",

@@ -124,6 +124,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Linkup JS SDK for Sourced Web Search and Fetch](../../skills/linkup-js-sdk-sourced-web-search-fetch/) | 4 | 30.8k/wk |
 | [Use 404.directory](../../skills/use-404-directory/) | 1 | 450/wk |
 | [NPM Package API Surface Extractor](../../skills/npm-package-api-surface-extractor/) | — | 17.1M/wk |
+| [Aperture Wallet Guide](../../skills/aperture-wallet-guide/) | — | — |
 | [API Documentation Indexer](../../skills/api-documentation-indexer/) | — | — |
 | [AShareHub Chinese Market Data](../../skills/asharehub/) | — | — |
 | [AsyncAPI Event Catalog Builder](../../skills/asyncapi-event-catalog-builder/) | — | — |

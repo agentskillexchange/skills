@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-02
-# Total: 2959 skills
+# Total: 2960 skills
+
+## Aperture Wallet Guide
+slug: aperture-wallet-guide
+category: Library & API Reference
+framework: MCP
+verification: Published
+description: Answer Aperture Wallet questions from first-party product, security, network, release, app-screen, and Journal sources while enforcing explicit wallet-secret and no-transaction safety boundaries.
+url: https://agentskillexchange.com/skills/aperture-wallet-guide/
 
 ## Pronounce Developer Jargon
 slug: pronounce-developer-jargon

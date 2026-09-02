@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2959 published skills** across **17 categories** · 2,509 security reviewed · Updated 2026-09-02 07:27 UTC
+> **2960 published skills** across **17 categories** · 2,509 security reviewed · Updated 2026-09-02 13:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -2405,7 +2405,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses… | Security Reviewed | — | — |
 
 
-### 📚 Library & API Reference (126 skills)
+### 📚 Library & API Reference (127 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=downloads)
 
@@ -2495,6 +2495,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Linkup JS SDK for Sourced Web Search and Fetch](skills/linkup-js-sdk-sourced-web-search-fetch/) | Linkup's JS SDK wraps the Linkup API for sourced web search and clean content fetching. It gives agents a maintained… | Security Reviewed | 4 | 30.8k/wk |
 | [Use 404.directory](skills/use-404-directory/) | Use the public 404.directory MCP server to search current official OpenAI, Microsoft Learn, AWS, and Cloudflare… | Published | 1 | 450/wk |
 | [NPM Package API Surface Extractor](skills/npm-package-api-surface-extractor/) | Extracts and documents public API surfaces from NPM packages using TypeScript Compiler API (ts.createProgram) and… | Security Reviewed | — | 17.1M/wk |
+| [Aperture Wallet Guide](skills/aperture-wallet-guide/) | Answer Aperture Wallet questions from first-party product, security, network, release, app-screen, and Journal… | Published | — | — |
 | [API Documentation Indexer](skills/api-documentation-indexer/) | Indexes and searches API documentation from OpenAPI 3.0 specs using swagger-parser and lunr.js. Builds searchable… | Published | — | — |
 | [AShareHub Chinese Market Data](skills/asharehub/) | Query Chinese A-share, ETF, index, financial statement, valuation, capital-flow, and technical-indicator data… | Published | — | — |
 | [AsyncAPI Event Catalog Builder](skills/asyncapi-event-catalog-builder/) | Generates event-driven architecture documentation from AsyncAPI 3.0 specifications. Uses the AsyncAPI parser-js… | Published | — | — |
