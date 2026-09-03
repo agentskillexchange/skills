@@ -375,6 +375,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Build production Go agents with tRPC-Agent-Go](../../skills/build-production-go-agents-with-trpc-agent-go/) | 1.5k | — |
 | [Redocly CLI OpenAPI Linter and Documentation Generator](../../skills/redocly-cli-openapi-linter-documentation-generator/) | 1.4k | 1.6M/wk |
 | [Maintain Repo-Local Agent Memory with mex](../../skills/maintain-repo-local-agent-memory-with-mex/) | 1.4k | 2.5k/wk |
+| [Keep Claude Code skills current from real sessions with Autoharness](../../skills/keep-claude-code-skills-current-from-real-sessions-with-autoharness/) | 1.4k | — |
 | [Keep Agent Engineering Decisions Current with Haft](../../skills/keep-agent-engineering-decisions-current-with-haft/) | 1.4k | — |
 | [Search cross-agent Markdown memory and conversation history with memsearch](../../skills/search-cross-agent-markdown-memory-and-conversation-history-with-memsearch/) | 1.3k | — |
 | [Terraform MCP Server for Infrastructure as Code](../../skills/terraform-mcp-server-infrastructure-as-code/) | 1.3k | — |

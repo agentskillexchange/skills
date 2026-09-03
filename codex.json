@@ -1,9 +1,20 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-09-02",
-  "total": 2960,
+  "generated": "2026-09-03",
+  "total": 2961,
   "skills": [
+    {
+      "slug": "keep-claude-code-skills-current-from-real-sessions-with-autoharness",
+      "name": "Keep Claude Code skills current from real sessions with Autoharness",
+      "title": "Keep Claude Code skills current from real sessions with Autoharness",
+      "description": "Install Autoharness so Claude Code can distill, merge, update, and retire native skills from real operator sessions without a daemon or benchmark loop.",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/tigerless-labs/autoharness",
+      "github_repo": "tigerless-labs/autoharness"
+    },
     {
       "slug": "aperture-wallet-guide",
       "name": "Aperture Wallet Guide",

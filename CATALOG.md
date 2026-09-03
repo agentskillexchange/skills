@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2960 published skills** across **17 categories** · 2,510 security reviewed · Updated 2026-09-02 19:27 UTC
+> **2961 published skills** across **17 categories** · 2,510 security reviewed · Updated 2026-09-03 01:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (459 skills)
+### 🛠️ Developer Tools (460 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -349,6 +349,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Build production Go agents with tRPC-Agent-Go](skills/build-production-go-agents-with-trpc-agent-go/) | Model Go-native agent systems with graph workflows, tool calls, memory, MCP, A2A, evaluation, and OpenTelemetry… | Security Reviewed | 1.5k | — |
 | [Redocly CLI OpenAPI Linter and Documentation Generator](skills/redocly-cli-openapi-linter-documentation-generator/) | Redocly CLI is an all-in-one OpenAPI utility that lints, validates, bundles, and generates documentation from API… | Security Reviewed | 1.4k | 1.6M/wk |
 | [Maintain Repo-Local Agent Memory with mex](skills/maintain-repo-local-agent-memory-with-mex/) | Use mex when coding agents need a versioned project wiki, code graph, routed context, and drift checks instead of… | Published | 1.4k | 2.5k/wk |
+| [Keep Claude Code skills current from real sessions with Autoharness](skills/keep-claude-code-skills-current-from-real-sessions-with-autoharness/) | Install Autoharness so Claude Code can distill, merge, update, and retire native skills from real operator sessions… | Security Reviewed | 1.4k | — |
 | [Keep Agent Engineering Decisions Current with Haft](skills/keep-agent-engineering-decisions-current-with-haft/) | Use Haft when an agent needs source-backed decision framing, comparison, authorization records, and stale-evidence… | Published | 1.4k | — |
 | [Search cross-agent Markdown memory and conversation history with memsearch](skills/search-cross-agent-markdown-memory-and-conversation-history-with-memsearch/) | Give supported coding agents a shared Markdown-first memory layer so they can recall prior decisions, transcripts,… | Security Reviewed | 1.3k | — |
 | [Terraform MCP Server for Infrastructure as Code](skills/terraform-mcp-server-infrastructure-as-code/) | The official HashiCorp Terraform MCP server integrates with the Terraform Registry and HCP Terraform, enabling AI… | Security Reviewed | 1.3k | — |

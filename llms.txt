@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-09-02
-# Total: 2960 skills
+# Generated: 2026-09-03
+# Total: 2961 skills
+
+## Keep Claude Code skills current from real sessions with Autoharness
+slug: keep-claude-code-skills-current-from-real-sessions-with-autoharness
+category: Developer Tools
+framework: Claude Code
+verification: Security Reviewed
+description: Install Autoharness so Claude Code can distill, merge, update, and retire native skills from real operator sessions without a daemon or benchmark loop.
+url: https://agentskillexchange.com/skills/keep-claude-code-skills-current-from-real-sessions-with-autoharness/
 
 ## Aperture Wallet Guide
 slug: aperture-wallet-guide

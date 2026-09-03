@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C960-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C961-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C510-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,960 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,961 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Coordinate software delivery roles with MetaGPT](skills/coordinate-software-delivery-roles-with-metagpt/)** — Use MetaGPT to turn a product requirement into coordinated product, architecture, project, and engineering agent outputs that an operator can review and iterate.
+**[Stable Diffusion ComfyUI Workflow Runner](skills/stable-diffusion-comfyui-workflow-runner-2/)** — Executes ComfyUI workflow JSON files against a local or remote ComfyUI server via its REST API. Supports LoRA loading, ControlNet conditioning, and queue management with progress polling.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -87,6 +87,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Keep Claude Code skills current from real sessions with Autoharness](skills/keep-claude-code-skills-current-from-real-sessions-with-autoharness/) | Install Autoharness so Claude Code can distill, merge, update, and retire native skills from real operator sessions without... | 1.4k | Developer Tools |
 | [Aperture Wallet Guide](skills/aperture-wallet-guide/) | Answer Aperture Wallet questions from first-party product, security, network, release, app-screen, and Journal sources while enforcing explicit wallet-secret... | - | Library & API Reference |
 | [Pronounce Developer Jargon](skills/pronounce-developer-jargon/) | Answers short pronunciation questions about developer tools, AI models, acronyms, and project names by using the say-it CLI... | - | Developer Tools |
 | [Run Chinese-first academic writing, Office, and scientific workflows with Academic Skills](skills/run-chinese-first-academic-writing-office-and-scientific-workflows-with-academic-skills/) | Install and invoke a Chinese-first academic skill bundle for paper writing, editable Word/PPT research documents, and scientific computing... | 3.4k | Templates & Workflows |
@@ -96,7 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Orchestrate local-first agent memory and workflows with OpenHuman](skills/orchestrate-local-first-agent-memory-and-workflows-with-openhuman/) | Set up OpenHuman as a local-first personal agent harness that syncs context, builds durable memory, and coordinates multi-agent... | 39.3k | Developer Tools |
 | [SandBase MCP](skills/sandbase-mcp/) | Access 2,000+ AI models and API tools through one MCP interface for inference, media generation, search, scraping, embeddings... | 88 | Integrations & Connectors |
 | [Proofed Completion Gate](skills/proofed-completion-gate/) | Uses the Proofed CLI and current-subject completion receipts to reject unsupported coding-agent completion claims, rerun repository-configured tests, and... | - | Security & Verification |
-| [Keep reviewable project memory for coding agents with OwnMem](skills/keep-reviewable-project-memory-for-coding-agents-with-ownmem/) | Initialize Git-native project memory that Claude Code, Codex, Cursor, Gemini CLI, and compatible coding agents can recall deterministically | 200 | Developer Tools |
 
 ---
 
@@ -140,7 +140,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 459 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 460 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 247 | Vulnerability scanning, auth setup, compliance |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 238 | Scaffolders, boilerplate generators, workflow templates |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 220 | ETL pipelines, parsing, format conversion |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,960 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,961 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,510 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
