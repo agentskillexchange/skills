@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-03",
-  "total": 2963,
+  "total": 2964,
   "skills": [
+    {
+      "slug": "bulkpublish-social-publishing",
+      "name": "BulkPublish Social Publishing",
+      "title": "BulkPublish Social Publishing",
+      "description": "Adapt, review, schedule, and publish approved social content across multiple platforms through the BulkPublish API and hosted MCP.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "listed",
+      "source_url": "https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills",
+      "github_repo": "azeemkafridi/bulkpublish-api"
+    },
     {
       "slug": "constrain-coding-agent-over-defense-with-hero",
       "name": "Constrain coding-agent over-defense with HERO",

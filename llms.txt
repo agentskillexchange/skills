@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-03
-# Total: 2963 skills
+# Total: 2964 skills
+
+## BulkPublish Social Publishing
+slug: bulkpublish-social-publishing
+category: Integrations & Connectors
+framework: MCP
+verification: Published
+description: Adapt, review, schedule, and publish approved social content across multiple platforms through the BulkPublish API and hosted MCP.
+url: https://agentskillexchange.com/skills/bulkpublish-social-publishing/
 
 ## Constrain coding-agent over-defense with HERO
 slug: constrain-coding-agent-over-defense-with-hero

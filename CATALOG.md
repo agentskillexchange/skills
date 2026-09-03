@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2963 published skills** across **17 categories** · 2,512 security reviewed · Updated 2026-09-03 13:28 UTC
+> **2964 published skills** across **17 categories** · 2,512 security reviewed · Updated 2026-09-03 19:28 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1799,7 +1799,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (166 skills)
+### 🔗 Integrations & Connectors (167 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1963,6 +1963,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [AssemblyAI Real-Time Call Intelligence](skills/assemblyai-realtime-call-intelligence/) | Streams audio from Twilio Media Streams over WebSocket to AssemblyAI real-time transcription, extracting… | Security Reviewed | — | — |
 | [Automation Integration Preflight](skills/automation-integration-preflight/) | Assess a public HTTP(S) page before building browser automation, extraction, or an integration. Use this skill to… | Published | — | — |
 | [BeachFinder Swim Spot Finder](skills/beachfinder-swim-spot-finder/) | Finds and compares 184,900 swimming spots worldwide (beaches, lakes, bathing places) with live water temperature,… | Published | — | — |
+| [BulkPublish Social Publishing](skills/bulkpublish-social-publishing/) | Adapt, review, schedule, and publish approved social content across multiple platforms through the BulkPublish API… | Published | — | — |
 | [Famulor Assistants & Omnichannel History](skills/famulor-assistants-history/) | Use Famulor's OAuth-secured, read-only MCP profile to inspect assistant configurations, versions, workspace… | Published | — | — |
 | [GitHub Discussions Community Digest](skills/github-discussions-community-digest/) | Queries GitHub GraphQL API for new and unanswered Discussions, ranks them by reaction count and recency, and drafts… | Security Reviewed | — | — |
 | [JMT x402 Agent Tools](skills/jmt-x402-agent-tools/) | Paid x402 HTTP-402 endpoints on Base mainnet that let agents pay-per-call in USDC for web search, AI analysis,… | Published | — | — |
