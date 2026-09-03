@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-03",
-  "total": 2962,
+  "total": 2963,
   "skills": [
+    {
+      "slug": "constrain-coding-agent-over-defense-with-hero",
+      "name": "Constrain coding-agent over-defense with HERO",
+      "title": "Constrain coding-agent over-defense with HERO",
+      "description": "Paste HERO's scope-limits contract into always-loaded agent config so coding agents keep fixes proportionate and avoid unnecessary hashing, edge-case hardening, rubric loops, and overbuild.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/wanshuiyin/HERO-Anti-OverDefense",
+      "github_repo": "wanshuiyin/HERO-Anti-OverDefense"
+    },
     {
       "slug": "run-one-shot-and-supervised-browser-automation-workflows-with-aihawk",
       "name": "Run one-shot and supervised browser automation workflows with AIHawk",

@@ -237,6 +237,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Build a local work assistant with 10xProductivity](../../skills/build-a-local-work-assistant-with-10xproductivity/) | 455 | — |
 | [Run OpenCode skill-pack workflows with opencode-power-pack](../../skills/run-opencode-skill-pack-workflows-with-opencode-power-pack/) | 448 | — |
 | [Manage native GitHub stacked pull requests with gh-stack](../../skills/manage-native-github-stacked-pull-requests-with-gh-stack/) | 401 | — |
+| [Constrain coding-agent over-defense with HERO](../../skills/constrain-coding-agent-over-defense-with-hero/) | 397 | — |
 | [Build event-driven document agent workflows with LlamaAgents](../../skills/build-event-driven-document-agent-workflows-with-llamaagents/) | 389 | — |
 | [Evaluate long-horizon agents against WildClawBench](../../skills/evaluate-long-horizon-agents-against-wildclawbench/) | 359 | — |
 | [Makedown Task Runner](../../skills/makedown-task-runner/) | 319 | — |

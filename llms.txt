@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-03
-# Total: 2962 skills
+# Total: 2963 skills
+
+## Constrain coding-agent over-defense with HERO
+slug: constrain-coding-agent-over-defense-with-hero
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Paste HERO's scope-limits contract into always-loaded agent config so coding agents keep fixes proportionate and avoid unnecessary hashing, edge-case hardening, rubric loops, and overbuild.
+url: https://agentskillexchange.com/skills/constrain-coding-agent-over-defense-with-hero/
 
 ## Run one-shot and supervised browser automation workflows with AIHawk
 slug: run-one-shot-and-supervised-browser-automation-workflows-with-aihawk
