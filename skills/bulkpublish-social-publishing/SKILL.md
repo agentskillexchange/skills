@@ -2,10 +2,10 @@
 name: "BulkPublish Social Publishing"
 slug: "bulkpublish-social-publishing"
 description: "Adapt, review, schedule, and publish approved social content across multiple platforms through the BulkPublish API and hosted MCP."
+verification: "listed"
+source: "https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills"
 category: "Integrations & Connectors"
 framework: "MCP"
-verification: listed
-source: "https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills"
 ---
 
 # BulkPublish Social Publishing
@@ -21,24 +21,9 @@ Use this skill when an agent needs to move social content from a reviewed draft 
 
 ## Installation
 
-### MCP-compatible agents
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-Configure the hosted endpoint from the BulkPublish documentation, or run the package described in the API repository. Keep tokens in the agent runtime's secret store or environment variables; never place them in prompts, skill files, or commits.
-
-### Direct repo/manual install
-
-Clone this catalog and copy the skill directory into the skill location used by your agent runtime:
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git
-cp -R skills/bulkpublish-social-publishing ~/.agent-skills/bulkpublish-social-publishing
-```
-
-### Agent Skill Exchange installer
-
-```bash
-npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill bulkpublish-social-publishing
-```
+- Source: https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills
 
 ## Workflow
 
