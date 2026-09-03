@@ -31,7 +31,7 @@ Clone this catalog and copy the skill directory into the skill location used by 
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git
-cp -R skills/skills/bulkpublish-social-publishing ~/.agent-skills/bulkpublish-social-publishing
+cp -R skills/bulkpublish-social-publishing ~/.agent-skills/bulkpublish-social-publishing
 ```
 
 ### Agent Skill Exchange installer
