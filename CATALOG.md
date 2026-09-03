@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2961 published skills** across **17 categories** · 2,511 security reviewed · Updated 2026-09-03 01:27 UTC
+> **2962 published skills** across **17 categories** · 2,511 security reviewed · Updated 2026-09-03 07:28 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -2541,7 +2541,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Rust Crates.io Explorer](skills/rust-crates-io-explorer/) | Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates… | Published | — | — |
 
 
-### 🌐 Browser Automation (122 skills)
+### 🌐 Browser Automation (123 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
@@ -2603,6 +2603,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Selenium WebDriver Browser Automation Framework](skills/selenium-webdriver-browser-automation-framework/) | Selenium is the long-running open source browser automation framework behind the W3C WebDriver standard. It gives… | Security Reviewed | 34.1k | 1.9M/wk |
 | [Playwright MCP Browser Automation](skills/playwright-mcp-browser-automation/) | Official Playwright-powered browser control for agent workflows. | Security Reviewed | 33.3k | 5.9M/wk |
 | [Microsoft Playwright MCP](skills/microsoft-playwright-mcp/) | Microsoft Playwright MCP exposes Playwright browser automation through the Model Context Protocol, giving agents… | Security Reviewed | 30.8k | 2.8M/wk |
+| [Run one-shot and supervised browser automation workflows with AIHawk](skills/run-one-shot-and-supervised-browser-automation-workflows-with-aihawk/) | Use AIHawk when an agent needs a real browser for bounded web research, extraction, and task execution with visible… | Security Reviewed | 30.3k | — |
 | [Playwright MCP Server for Browser Automation](skills/playwright-mcp-server-browser-automation/) | The official Microsoft Playwright MCP server provides browser automation capabilities through the Model Context… | Security Reviewed | 30.1k | 2.4M/wk |
 | [Vercel Agent Browser](skills/vercel-agent-browser/) | Vercel Agent Browser is a browser automation CLI built specifically for AI agents. It gives agents a fast,… | Security Reviewed | 29.1k | 601.9k/wk |
 | [Lightpanda Headless Browser for AI Automation](skills/lightpanda-headless-browser-ai-automation/) | Lightpanda is a headless browser built from scratch in Zig, purpose-designed for AI agents and web automation. It… | Security Reviewed | 26.5k | — |

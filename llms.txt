@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-03
-# Total: 2961 skills
+# Total: 2962 skills
+
+## Run one-shot and supervised browser automation workflows with AIHawk
+slug: run-one-shot-and-supervised-browser-automation-workflows-with-aihawk
+category: Browser Automation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use AIHawk when an agent needs a real browser for bounded web research, extraction, and task execution with visible UI or one-shot command output.
+url: https://agentskillexchange.com/skills/run-one-shot-and-supervised-browser-automation-workflows-with-aihawk/
 
 ## Keep Claude Code skills current from real sessions with Autoharness
 slug: keep-claude-code-skills-current-from-real-sessions-with-autoharness
