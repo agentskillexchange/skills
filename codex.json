@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-04",
-  "total": 2965,
+  "total": 2966,
   "skills": [
+    {
+      "slug": "compact-terminal-heavy-agent-output-with-tokenjuice",
+      "name": "Compact terminal-heavy agent output with Tokenjuice",
+      "title": "Compact terminal-heavy agent output with Tokenjuice",
+      "description": "Use Tokenjuice when an agent runs noisy shell commands and needs deterministic, inspectable output reduction before continuing a coding or operations workflow.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/vincentkoc/tokenjuice",
+      "github_repo": "vincentkoc/tokenjuice"
+    },
     {
       "slug": "render-pull-request-architecture-diagrams-with-pr-lens",
       "name": "Render pull request architecture diagrams with PR Lens",

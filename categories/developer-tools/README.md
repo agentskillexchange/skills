@@ -429,6 +429,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Give coding agents sandboxed shell runtimes with SWE-ReX](../../skills/give-coding-agents-sandboxed-shell-runtimes-with-swe-rex/) | 543 | — |
 | [Track Coding-Agent Work Evidence With agentacct](../../skills/track-coding-agent-work-evidence-with-agentacct/) | 537 | — |
 | [Scaffold repo-specific agent harnesses with Metaharness](../../skills/scaffold-repo-specific-agent-harnesses-with-metaharness/) | 529 | 29.1k/wk |
+| [Compact terminal-heavy agent output with Tokenjuice](../../skills/compact-terminal-heavy-agent-output-with-tokenjuice/) | 517 | 1.2M/wk |
 | [Run self-hosted coding-agent mission control with Codeman](../../skills/run-self-hosted-coding-agent-mission-control-with-codeman/) | 500 | 1.9k/wk |
 | [Orchestrate multi-agent coding delivery loops with Maestro Flow](../../skills/orchestrate-multi-agent-coding-delivery-loops-with-maestro-flow/) | 480 | 1k/wk |
 | [Run agent CLI terminals inside Obsidian with Claude Sidebar](../../skills/run-agent-cli-terminals-inside-obsidian-with-claude-sidebar/) | 443 | — |
