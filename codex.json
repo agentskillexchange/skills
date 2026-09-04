@@ -1,9 +1,20 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-09-03",
-  "total": 2964,
+  "generated": "2026-09-04",
+  "total": 2965,
   "skills": [
+    {
+      "slug": "render-pull-request-architecture-diagrams-with-pr-lens",
+      "name": "Render pull request architecture diagrams with PR Lens",
+      "title": "Render pull request architecture diagrams with PR Lens",
+      "description": "Have an agent turn a code diff into validated architecture and data-flow diagrams, then attach the rendered SVGs to a pull request.",
+      "category": "Code Quality & Review",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/coldteadotai/pr-lens",
+      "github_repo": "coldteadotai/pr-lens"
+    },
     {
       "slug": "bulkpublish-social-publishing",
       "name": "BulkPublish Social Publishing",

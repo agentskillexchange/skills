@@ -204,6 +204,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Scan sites for accessibility gaps, file GitHub issues, and route fixes through Copilot with Accessibility Scanner](../../skills/scan-sites-for-accessibility-gaps-file-github-issues-and-route-fixes-through-copilot-with-accessibility-scanner/) | 266 | — |
 | [Prepare Evidence-Backed Open Source Contribution Proposals with ContribAI](../../skills/prepare-evidence-backed-open-source-contribution-proposals-with-contribai/) | 246 | — |
 | [Run focused accessibility review agents against coding-tool output with Accessibility Agents](../../skills/run-focused-accessibility-review-agents-with-accessibility-agents/) | 235 | — |
+| [Render pull request architecture diagrams with PR Lens](../../skills/render-pull-request-architecture-diagrams-with-pr-lens/) | 212 | 672/wk |
 | [Validate Python Docstrings Against Function Signatures with pydoclint](../../skills/validate-python-docstrings-against-function-signatures-with-pydoclint/) | 208 | — |
 | [Run independent multi-agent build and review flows with OPC](../../skills/run-independent-multi-agent-build-and-review-flows-with-opc/) | 192 | 315/wk |
 | [Lint reStructuredText docs and release notes before Sphinx publishing with doc8](../../skills/lint-restructuredtext-docs-and-release-notes-before-sphinx-publishing-with-doc8/) | 176 | — |
