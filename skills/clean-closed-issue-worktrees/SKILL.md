@@ -2,12 +2,14 @@
 name: "Clean Closed Issue Worktrees"
 slug: "clean-closed-issue-worktrees"
 description: "Safely audits and removes Git worktrees linked to closed GitHub or GitLab issues with a mandatory scan-confirm-execute protocol and deterministic local validation."
+github_stars: 3
 verification: "listed"
 source: "https://github.com/haoranyu/clean-closed-issue-worktrees"
 category: "Developer Tools"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "haoranyu/clean-closed-issue-worktrees"
+  github_stars: 3
 ---
 
 # Clean Closed Issue Worktrees
