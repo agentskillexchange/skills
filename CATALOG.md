@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2965 published skills** across **17 categories** · 2,513 security reviewed · Updated 2026-09-04 01:27 UTC
+> **2965 published skills** across **17 categories** · 2,513 security reviewed · Updated 2026-09-04 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -449,9 +449,9 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Snowe UI Skill](skills/snowe-ui-skill/) | Architecture-first UI/UX design skill for Codex that helps agents reason from product truth, user journeys, causal… | Published | 7 | — |
 | [Index a codebase into evidence-backed memory so agents can answer with citations](skills/index-a-codebase-into-evidence-backed-memory-so-agents-can-answer-with-citations/) | Use AtlasMemory when an agent keeps losing repo context and needs indexed, evidence-linked answers with file and… | Security Reviewed | 5 | 1.9k/wk |
 | [Staff Engineer Mode](skills/staff-engineer-mode/) | Routes engineering design, delivery, reliability, security, operations, and maintenance prompts to one native router… | Security Reviewed | 5 | — |
+| [Clean Closed Issue Worktrees](skills/clean-closed-issue-worktrees/) | Safely audits and removes Git worktrees linked to closed GitHub or GitLab issues with a mandatory… | Published | 3 | — |
 | [Turn GitHub Issues into Fix PRs](skills/turn-github-issues-into-fix-prs/) | Use the gh-issues workflow to fetch filtered GitHub issues, spawn sub-agents for fixes, open PRs, and follow review… | Security Reviewed | — | 837.2k/wk |
 | [Build scroll-linked animations with GSAP ScrollTrigger](skills/build-scroll-linked-animations-with-gsap-scrolltrigger/) | Use Greensock's official gsap-scrolltrigger skill to plan, implement, and debug scroll-linked animations, pinned… | Security Reviewed | — | — |
-| [Clean Closed Issue Worktrees](skills/clean-closed-issue-worktrees/) | Safely audits and removes Git worktrees linked to closed GitHub or GitLab issues with a mandatory… | Published | — | — |
 | [Design and verify LaunchDarkly feature-flag targeting and rollout changes with MCP safety checks](skills/design-and-verify-launchdarkly-feature-flag-targeting-and-rollout-changes-with-mcp-safety-checks/) | Inspect a LaunchDarkly flag’s current state, choose the right targeting approach, apply rollout or rule changes… | Security Reviewed | — | — |
 | [Draft commit messages, PR descriptions, and changelog updates from diffs with safety checks](skills/draft-commit-messages-pr-descriptions-and-changelog-updates-from-diffs-with-safety-checks/) | Analyze staged changes, scan for sensitive content, draft Conventional Commit messages, prepare PR text, and update… | Security Reviewed | — | — |
 | [Frontend Design Guidance Skill](skills/frontend-design-guidance-skill/) | Practical frontend design guidance for landing pages, dashboards, and UI implementation work. | Published | — | — |

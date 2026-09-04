@@ -239,6 +239,9 @@
       "category": "Developer Tools",
       "framework": "Multi-Framework",
       "verification": "listed",
+      "signals": {
+        "github_stars": 3
+      },
       "source_url": "https://github.com/haoranyu/clean-closed-issue-worktrees",
       "github_repo": "haoranyu/clean-closed-issue-worktrees"
     },
