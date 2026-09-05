@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chronicle"
+  short_description: "Operational history, evidence, and intent"
+  default_prompt: "Use $chronicle to resume this work from its trace and record the intent the trace cannot infer."
