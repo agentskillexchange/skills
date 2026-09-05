@@ -96,7 +96,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Selenium WebDriver Browser Automation Framework](../../skills/selenium-webdriver-browser-automation-framework/) | 34.1k | 1.9M/wk |
 | [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | 33.3k | 5.9M/wk |
 | [Microsoft Playwright MCP](../../skills/microsoft-playwright-mcp/) | 30.8k | 2.8M/wk |
-| [Run one-shot and supervised browser automation workflows with AIHawk](../../skills/run-one-shot-and-supervised-browser-automation-workflows-with-aihawk/) | 30.3k | — |
+| [Run supervised browser automation workflows with AIHawk](../../skills/run-one-shot-and-supervised-browser-automation-workflows-with-aihawk/) | 30.3k | — |
 | [Playwright MCP Server for Browser Automation](../../skills/playwright-mcp-server-browser-automation/) | 30.1k | 2.4M/wk |
 | [Vercel Agent Browser](../../skills/vercel-agent-browser/) | 29.1k | 601.9k/wk |
 | [Lightpanda Headless Browser for AI Automation](../../skills/lightpanda-headless-browser-ai-automation/) | 26.5k | — |

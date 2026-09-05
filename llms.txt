@@ -35,12 +35,12 @@ verification: Security Reviewed
 description: Paste HERO's scope-limits contract into always-loaded agent config so coding agents keep fixes proportionate and avoid unnecessary hashing, edge-case hardening, rubric loops, and overbuild.
 url: https://agentskillexchange.com/skills/constrain-coding-agent-over-defense-with-hero/
 
-## Run one-shot and supervised browser automation workflows with AIHawk
+## Run supervised browser automation workflows with AIHawk
 slug: run-one-shot-and-supervised-browser-automation-workflows-with-aihawk
 category: Browser Automation
 framework: Multi-Framework
 verification: Security Reviewed
-description: Use AIHawk when an agent needs a real browser for bounded web research, extraction, and task execution with visible UI or one-shot command output.
+description: Use AIHawk's local supervised browser UI for bounded web research and extraction, with human review before external actions.
 url: https://agentskillexchange.com/skills/run-one-shot-and-supervised-browser-automation-workflows-with-aihawk/
 
 ## Keep Claude Code skills current from real sessions with Autoharness
