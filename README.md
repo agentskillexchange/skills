@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[esbuild Ultra-Fast JavaScript Bundler](skills/esbuild-ultra-fast-javascript-bundler/)** — esbuild is an extremely fast JavaScript and TypeScript bundler written in Go that delivers 10-100x faster build times than traditional tools like webpack. It handles bundling, minification, tree…
+**[Langflow Visual AI Agent and Workflow Builder](skills/langflow-visual-ai-agent-workflow-builder/)** — Langflow is an open-source visual builder for AI agents and workflows. It lets teams design flows graphically, expose them as APIs or MCP tools, and connect major LLMs,…
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
