@@ -26,6 +26,7 @@
         "generate-local-subtitles-for-video-editing-workflows-with-auto-subs",
         "cut-and-finish-chinese-talking-head-videos-with-chengfeng-videocut-skills",
         "produce-chinese-video-recaps-with-video-recap-skills",
+        "run-wechat-public-account-content-operations-with-wechat-article-skills",
         "run-comfyui-workflows-as-agent-callable-skills"
       ],
       "who_for": [
@@ -172,6 +173,11 @@
           "why_here": "Creates a reviewable video-recap workflow spanning scene analysis, narration, subtitles, and editable production output.",
           "persona": "Video producer / localization ops",
           "install_complexity": "High"
+        },
+        "run-wechat-public-account-content-operations-with-wechat-article-skills": {
+          "why_here": "Adds a review-gated article workflow for WeChat public-account teams covering planning, drafting, formatting, assets, and publishing handoff.",
+          "persona": "Content operator / public-account editor",
+          "install_complexity": "Medium"
         },
         "run-comfyui-workflows-as-agent-callable-skills": {
           "why_here": "Makes repeatable ComfyUI image workflows callable by agents through a controlled CLI for media and creative production.",
