@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2966 published skills** across **17 categories** · 2,514 security reviewed · Updated 2026-09-05 01:27 UTC
+> **2966 published skills** across **17 categories** · 2,514 security reviewed · Updated 2026-09-05 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -445,6 +445,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Give Rails coding agents live app context with rails-ai-context](skills/give-rails-coding-agents-live-app-context-with-rails-ai-context/) | Use rails-ai-context to expose a running Rails app's schema, routes, models, controllers, conventions, and test… | Security Reviewed | 151 | — |
 | [Extract reusable coding-agent memory from past sessions with Lerim](skills/extract-reusable-coding-agent-memory-from-past-sessions-with-lerim/) | Watch Claude Code, Codex CLI, Cursor, or OpenCode sessions, extract durable project memory, and keep it locally as… | Security Reviewed | 73 | — |
 | [Run AI coding agents in isolated containers and compare their behavior side by side with VibePod CLI](skills/run-ai-coding-agents-in-isolated-containers-and-compare-their-behavior-side-by-side-with-vibepod-cli/) | Launch supported coding agents in Docker, collect local metrics and HTTP traces, and compare their runs in a… | Security Reviewed | 61 | — |
+| [Pronounce Developer Jargon](skills/pronounce-developer-jargon/) | Answers short pronunciation questions about developer tools, AI models, acronyms, and project names by using the… | Published | 39 | — |
 | [Back up GitHub repos releases and gists with GitHub Backup](skills/back-up-github-repos-releases-and-gists-with-github-backup/) | Use GitHub Backup when an agent needs to mirror repositories, release assets, and gists into local storage on a… | Security Reviewed | 33 | — |
 | [Add persistent project memory and hook-driven synthesis with Claude Memory Kit](skills/add-persistent-project-memory-and-hook-driven-synthesis-with-claude-memory-kit/) | Keep Claude Code sessions grounded in prior decisions, project context, and daily handoff notes instead of starting… | Security Reviewed | 11 | — |
 | [Snowe UI Skill](skills/snowe-ui-skill/) | Architecture-first UI/UX design skill for Codex that helps agents reason from product truth, user journeys, causal… | Published | 7 | — |
@@ -467,7 +468,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [n8n GitHub Issue-to-Jira Ticket Automator](skills/n8n-github-jira-ticket-automator/) | Deploys an n8n workflow via the n8n REST API using the GitHub Trigger node to capture new issue events and transform… | Security Reviewed | — | — |
 | [NPM Package Auditor](skills/npm-package-auditor-registry-api/) | Audits NPM packages using the NPM Registry API with dependency tree resolution and vulnerability scanning via… | Security Reviewed | — | — |
 | [Obsidian Vault Manager](skills/obsidian-vault-manager/) | Obsidian Vault Manager is built around HashiCorp Vault secrets platform. The underlying ecosystem is represented by… | Published | — | — |
-| [Pronounce Developer Jargon](skills/pronounce-developer-jargon/) | Answers short pronunciation questions about developer tools, AI models, acronyms, and project names by using the… | Published | — | — |
 | [RouterBase Model Routing](skills/routerbase-model-routing/) | Design RouterBase model routing policies for AI agents, including primary model selection, fallback chains, latency… | Published | — | — |
 | [Sell unused tokens](skills/sell-unused-tokens/) | List leftover LLM API capacity on tokensto.cash (OpenRouter, OpenAI, Anthropic, Venice, Capminal, and 20+ others)… | Published | — | — |
 | [Turn notes, logs, and screenshots into structured GitHub issues with GitHub Issue Creator](skills/turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator/) | Convert messy bug notes, error logs, voice dictation, and screenshots into crisp GitHub issue reports with clear… | Security Reviewed | — | — |
@@ -2499,8 +2499,8 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [GitHub REST API Paginator Library](skills/github-rest-api-paginator-library/) | Provides a typed pagination wrapper for the GitHub REST API using Octokit.js and the @octokit/plugin-paginate-rest… | Security Reviewed | 58 | 26.7M/wk |
 | [Linkup JS SDK for Sourced Web Search and Fetch](skills/linkup-js-sdk-sourced-web-search-fetch/) | Linkup's JS SDK wraps the Linkup API for sourced web search and clean content fetching. It gives agents a maintained… | Security Reviewed | 4 | 30.8k/wk |
 | [Use 404.directory](skills/use-404-directory/) | Use the public 404.directory MCP server to search current official OpenAI, Microsoft Learn, AWS, and Cloudflare… | Published | 1 | 450/wk |
+| [Aperture Wallet Guide](skills/aperture-wallet-guide/) | Answer Aperture Wallet questions from first-party product, security, network, release, app-screen, and Journal… | Published | 1 | — |
 | [NPM Package API Surface Extractor](skills/npm-package-api-surface-extractor/) | Extracts and documents public API surfaces from NPM packages using TypeScript Compiler API (ts.createProgram) and… | Security Reviewed | — | 17.1M/wk |
-| [Aperture Wallet Guide](skills/aperture-wallet-guide/) | Answer Aperture Wallet questions from first-party product, security, network, release, app-screen, and Journal… | Published | — | — |
 | [API Documentation Indexer](skills/api-documentation-indexer/) | Indexes and searches API documentation from OpenAPI 3.0 specs using swagger-parser and lunr.js. Builds searchable… | Published | — | — |
 | [AShareHub Chinese Market Data](skills/asharehub/) | Query Chinese A-share, ETF, index, financial statement, valuation, capital-flow, and technical-indicator data… | Published | — | — |
 | [AsyncAPI Event Catalog Builder](skills/asyncapi-event-catalog-builder/) | Generates event-driven architecture documentation from AsyncAPI 3.0 specifications. Uses the AsyncAPI parser-js… | Published | — | — |

@@ -94,6 +94,9 @@
       "category": "Library & API Reference",
       "framework": "MCP",
       "verification": "listed",
+      "signals": {
+        "github_stars": 1
+      },
       "source_url": "https://github.com/devdasx/aperture",
       "github_repo": "devdasx/aperture"
     },
@@ -105,6 +108,9 @@
       "category": "Developer Tools",
       "framework": "Multi-Framework",
       "verification": "listed",
+      "signals": {
+        "github_stars": 39
+      },
       "source_url": "https://github.com/anzy-renlab-ai/pronounce",
       "github_repo": "anzy-renlab-ai/pronounce"
     },

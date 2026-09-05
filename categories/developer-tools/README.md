@@ -471,6 +471,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Give Rails coding agents live app context with rails-ai-context](../../skills/give-rails-coding-agents-live-app-context-with-rails-ai-context/) | 151 | — |
 | [Extract reusable coding-agent memory from past sessions with Lerim](../../skills/extract-reusable-coding-agent-memory-from-past-sessions-with-lerim/) | 73 | — |
 | [Run AI coding agents in isolated containers and compare their behavior side by side with VibePod CLI](../../skills/run-ai-coding-agents-in-isolated-containers-and-compare-their-behavior-side-by-side-with-vibepod-cli/) | 61 | — |
+| [Pronounce Developer Jargon](../../skills/pronounce-developer-jargon/) | 39 | — |
 | [Back up GitHub repos releases and gists with GitHub Backup](../../skills/back-up-github-repos-releases-and-gists-with-github-backup/) | 33 | — |
 | [Add persistent project memory and hook-driven synthesis with Claude Memory Kit](../../skills/add-persistent-project-memory-and-hook-driven-synthesis-with-claude-memory-kit/) | 11 | — |
 | [Snowe UI Skill](../../skills/snowe-ui-skill/) | 7 | — |
@@ -493,7 +494,6 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [n8n GitHub Issue-to-Jira Ticket Automator](../../skills/n8n-github-jira-ticket-automator/) | — | — |
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | — | — |
 | [Obsidian Vault Manager](../../skills/obsidian-vault-manager/) | — | — |
-| [Pronounce Developer Jargon](../../skills/pronounce-developer-jargon/) | — | — |
 | [RouterBase Model Routing](../../skills/routerbase-model-routing/) | — | — |
 | [Sell unused tokens](../../skills/sell-unused-tokens/) | — | — |
 | [Turn notes, logs, and screenshots into structured GitHub issues with GitHub Issue Creator](../../skills/turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator/) | — | — |
