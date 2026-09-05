@@ -28,7 +28,7 @@ Node.js 20+, tokenjuice CLI, npm/pnpm/yarn or Homebrew, and a supported agent ho
 
 Install or set up from the source-backed instructions:
 
-Install with `npm install -g tokenjuice`, `pnpm add -g tokenjuice`, `yarn global add tokenjuice`, or Homebrew via `brew tap vincentkoc/tap && brew install tokenjuice`; then run `tokenjuice install ` for supported hosts. For OpenClaw, enable the bundled plugin with `openclaw config set plugins.entries.tokenjuice.enabled true`.
+Install with `npm install -g tokenjuice`, `pnpm add -g tokenjuice`, `yarn global add tokenjuice`, or Homebrew via `brew tap vincentkoc/tap && brew install tokenjuice`; then choose the command for your host, for example `tokenjuice install codex` for Codex CLI or `tokenjuice install claude-code` for Claude Code. For OpenClaw, enable the bundled plugin with `openclaw config set plugins.entries.tokenjuice.enabled true`.
 
 - Source: https://github.com/vincentkoc/tokenjuice
 
