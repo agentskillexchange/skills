@@ -30,6 +30,14 @@ In Claude Code, run `/plugin marketplace add tigerless-labs/autoharness`, then `
 
 - Source: https://github.com/tigerless-labs/autoharness
 
+## Usage and Verification
+
+Use a disposable project and non-sensitive test sessions first. After reload, check that Claude Code lists the plugin and that `python3` is available. Work through a small repeatable task and inspect `.claude/autoharness/` for session bookkeeping. Default reflection occurs after multiple turns, so no new skill after a single turn is not a failure.
+
+If a skill is created, inspect its `SKILL.md`, `.ledger.jsonl`, and referenced evidence under `.claude/skills/`. Compare the learned procedure with the actual test session and review the project diff. Also inspect the global `~/.claude/skills/` location when learning was not project-specific. A usage counter indicates recall, not correctness; verify the procedure on another safe task before relying on it.
+
+The plugin reads session material and may write learned instructions. Keep credentials and confidential examples out of the pilot, review generated evidence for sensitive content, and require approval before sharing learned files. Uninstalling the plugin does not remove its generated skills or state; review those separately rather than deleting unrelated user skills. See the upstream walkthrough and uninstall guidance below.
+
 ## Documentation
 
 - https://github.com/tigerless-labs/autoharness

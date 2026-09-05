@@ -21,9 +21,19 @@ Use this skill when an agent needs to move social content from a reviewed draft 
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Create a BulkPublish account and obtain an API key from Settings > Developer. Connect only the social channels approved for this pilot. Use an MCP client that supports Streamable HTTP and an authorization header.
+
+Add `https://mcp.bulkpublish.com/mcp` as the remote MCP endpoint in your client's connection settings. Configure the `Authorization` header as `Bearer <your BulkPublish API key>` using the client's secret store. Never put the real key in the endpoint URL, a shared configuration file, or a screenshot. If your client cannot supply this header, use the upstream documented local-server route instead; authentication remains mandatory.
+
+Load this skill through your agent's documented instructions mechanism. Connecting the MCP server supplies tools; it does not automatically load this workflow or authorize publishing.
 
 - Source: https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills
+
+## Verification
+
+Reconnect the client and inspect the available tools. First request only `list_channels`, then compare the returned channel IDs and accounts with the approved dashboard connections. Tool discovery alone is not proof of authenticated access. Treat a 401 or an unexpected account as a failed setup and stop.
+
+Do not create a draft, schedule a post, upload media, or publish during this connection check. Continue to the workflow below only after the user approves the exact payload and targets. See the [upstream MCP configuration guide](https://github.com/azeemkafridi/bulkpublish-api/blob/main/mcp-server/README.md) for client-specific options.
 
 ## Workflow
 

@@ -30,6 +30,14 @@ Copy the canonical scope-limits block from RULES.md into the instruction file yo
 
 - Source: https://github.com/wanshuiyin/HERO-Anti-OverDefense
 
+## Usage and Verification
+
+Pilot in a disposable repository. Review the upstream RULES.md before copying; preserve existing project instructions, security requirements, and approval boundaries. Record the upstream revision you reviewed so a later update can be compared deliberately.
+
+Start a new agent session and ask for a read-only plan to correct one typo in a test document. Check that the host loads the intended instruction file, the plan stays within that document, and the agent does not propose unrelated infrastructure or remove required tests. Compare with the same task before adding HERO. This is a suggested local acceptance exercise, not an upstream benchmark or proof of reliability.
+
+Inspect the instruction-file diff before keeping the change. Remove only the added HERO block if behavior worsens. Scope restraint must not suppress disclosure of errors or weaken mandatory safety checks.
+
 ## Documentation
 
 - https://github.com/wanshuiyin/HERO-Anti-OverDefense
