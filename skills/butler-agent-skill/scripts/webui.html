@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>🍷 butler — the cellar</title>
+<style>
+  :root{--bg:#0d1117;--card:#161b22;--line:#30363d;--fg:#c9d1d9;--dim:#8b949e;
+        --green:#3fb950;--yellow:#d29922;--red:#f85149;--cyan:#58a6ff;
+        /* categorical series — validated for dark surface (dataviz reference palette) */
+        --s1:#3987e5;--s2:#199e70;--s3:#c98500;--s4:#9085e9;--s5:#d55181;--sother:#6e7681}
+  *{box-sizing:border-box;margin:0}
+  body{background:var(--bg);color:var(--fg);font:13px/1.45 "SF Mono",Menlo,monospace;padding:10px 14px}
+  h2{font-size:12px;letter-spacing:.12em;color:var(--dim);text-transform:uppercase;margin:16px 0 6px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:10px 12px}
+  table{width:100%;border-collapse:collapse}
+  th{color:var(--dim);text-align:left;font-weight:normal;font-size:11px;padding:2px 8px 4px 0}
+  td{padding:3px 8px 3px 0;border-top:1px solid #21262d;vertical-align:middle}
+  .bar{display:inline-block;width:110px;height:9px;background:#21262d;border-radius:4px;overflow:hidden;vertical-align:middle}
+  .bar i{display:block;height:100%}
+  .num{text-align:right;font-variant-numeric:tabular-nums}
+  .dim{color:var(--dim)} .red{color:var(--red)} .green{color:var(--green)}
+  .yellow{color:var(--yellow)} .cyan{color:var(--cyan)}
+  .chip{display:inline-block;padding:0 6px;border-radius:9px;border:1px solid var(--line);font-size:11px}
+  .over{background:#3d1d20;border-color:var(--red);color:var(--red)}
+  .gate-go{color:var(--green)} .gate-soft{color:var(--yellow)} .gate-hard{color:var(--red)}
+  .head{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+  .head .title{font-size:15px;font-weight:bold}
+  button{background:#21262d;color:var(--fg);border:1px solid var(--line);border-radius:5px;
+         padding:3px 9px;font:inherit;font-size:11px;cursor:pointer}
+  button:hover{border-color:var(--cyan)}
+  input,select{background:#0d1117;color:var(--fg);border:1px solid var(--line);border-radius:4px;
+         padding:2px 6px;font:inherit;font-size:12px}
+  input.alloc{width:48px;text-align:right} input.mini{width:64px}
+  .grid{display:grid;grid-template-columns:2fr 1fr;gap:12px}
+  @media(max-width:1000px){.grid{grid-template-columns:1fr}}
+  .toast{position:fixed;bottom:16px;right:16px;background:#1c2431;border:1px solid var(--cyan);
+         padding:8px 14px;border-radius:6px;display:none;max-width:420px;z-index:9}
+  .tip{position:fixed;background:#1c2431;border:1px solid var(--line);border-radius:5px;
+       padding:5px 9px;font-size:11px;pointer-events:none;display:none;z-index:9}
+  .legend{display:flex;gap:12px;flex-wrap:wrap;font-size:11px;margin-top:4px}
+  .sw{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:4px;vertical-align:-1px}
+  tr.detail td{background:#10151c;font-size:12px;padding:8px}
+  .rowbtn{cursor:pointer}
+  a{color:var(--cyan);text-decoration:none}
+  .ev-rate_limit{color:var(--red)} .ev-switch{color:var(--cyan)}
+  .ev-pause{color:var(--yellow)} .ev-resume{color:var(--green)} .ev-note{color:var(--fg)}
+  .banner{background:#3d1d20;border:1px solid var(--red);border-radius:6px;padding:6px 12px;
+          margin-top:8px;display:none}
+</style>
+</head>
+<body>
+<div class="head card" id="header">loading the cellar…</div>
+<div class="banner" id="hardstop"></div>
+<div class="card" id="realusage" style="margin-top:8px"></div>
+
+<h2>burn — last 7 days <span class="dim" style="text-transform:none">(weighted tokens · dashed = daily par)</span></h2>
+<div class="card"><svg id="chart" width="100%" height="170" viewBox="0 0 760 170" preserveAspectRatio="none"></svg>
+  <div class="legend" id="legend"></div></div>
+
+<div class="grid">
+  <div>
+    <h2>projects — by budget pressure <span class="dim" style="text-transform:none">(click a row for detail)</span></h2>
+    <div class="card"><table id="projects"></table></div>
+
+    <h2>unbound sessions <span class="dim" style="text-transform:none">(spending, but invisible to project budgets)</span></h2>
+    <div class="card"><table id="unbound"></table></div>
+
+    <h2>machines — the estate</h2>
+    <div class="card"><table id="machines"></table></div>
+
+    <h2>fleet — live claude sessions (local)</h2>
+    <div class="card"><table id="fleet"></table></div>
+  </div>
+  <div>
+    <h2>record an event</h2>
+    <div class="card">
+      <select id="ev-type">
+        <option value="note">note</option><option value="rate_limit">rate_limit</option>
+        <option value="pause">pause</option><option value="resume">resume</option>
+      </select>
+      <select id="ev-proj"><option value="">(no project)</option></select>
+      <input id="ev-note" placeholder="note…" style="width:40%">
+      <button onclick="sendEvent()">record</button>
+      <div class="dim" style="margin-top:6px;font-size:11px">rate_limit ⇒ hard-stops every gate until the window frees</div>
+    </div>
+
+    <h2>gpu quick-log</h2>
+    <div class="card">
+      <select id="gpu-proj"></select>
+      <input id="gpu-job" class="mini" placeholder="job">
+      <input id="gpu-gpus" class="mini" placeholder="gpus" type="number" step="1">
+      <input id="gpu-hours" class="mini" placeholder="hours" type="number" step="0.5">
+      <button onclick="gpuLog()">log</button>
+    </div>
+
+    <h2>accounts / calibration</h2>
+    <div class="card" id="accounts"></div>
+
+    <h2>events</h2>
+    <div class="card" id="events"></div>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+<div class="tip" id="tip"></div>
+
+<script>
+let S=null,open=null;
+const SERIES=["--s1","--s2","--s3","--s4","--s5"];
+const $=id=>document.getElementById(id);
+const css=v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const fmt=n=>n>=1e6?(n/1e6).toFixed(1)+"M":n>=1e3?(n/1e3).toFixed(0)+"k":""+Math.round(n||0);
+const esc=s=>String(s??"").replace(/[&<>"\']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","\'":"&#39;"}[c]));
+const jsarg=s=>JSON.stringify(String(s)).replace(/[<>&\u0027]/g,c=>"\\u"+c.charCodeAt(0).toString(16).padStart(4,"0"));
+function toast(m){const t=$("toast");t.textContent=m;t.style.display="block";
+  clearTimeout(t._h);t._h=setTimeout(()=>t.style.display="none",4500)}
+function tip(html,x,y){const t=$("tip");if(!html){t.style.display="none";return}
+  t.textContent=html;t.style.display="block";t.style.left=(x+14)+"px";t.style.top=(y+10)+"px"}
+function barHtml(pct){const p=Math.min(pct||0,100);
+  const c=pct>=90?"var(--red)":pct>=60?"var(--yellow)":"var(--green)";
+  return `<span class="bar"><i style="width:${p}%;background:${c}"></i></span>
+    <span class="num" style="width:50px;display:inline-block">${(pct??0).toFixed(0)}%</span>
+    ${pct>100?'<span class="chip over">OVER</span>':""}`}
+const GATE={go:['<span class="gate-go">● go</span>'],soft:['<span class="gate-soft">■ soft-stop</span>'],
+            hard:['<span class="gate-hard">⛔ hard-stop</span>']};
+
+function drawChart(){
+  if(!S.usage_available){$("chart").innerHTML="";$("legend").textContent="Usage unknown — no source configured";return}
+  const c=S.chart, svg=$("chart"); if(!c){svg.innerHTML="";return}
+  const W=760,H=170,padL=44,padB=18,padT=8, iw=(W-padL-8)/c.days.length;
+  const totals=c.days.map((d,i)=>c.series.reduce((a,s)=>a+s.values[i],0)+c.other[i]);
+  const maxY=Math.max(...totals,c.daily_par)*1.12||1;
+  const y=v=>H-padB-(v/maxY)*(H-padB-padT);
+  let g="";
+  // recessive grid: 2 lines
+  for(const f of [0.5,1.0]){const gy=y(maxY*f/1.12);
+    g+=`<line x1="${padL}" x2="${W-4}" y1="${gy}" y2="${gy}" stroke="#21262d"/>
+        <text x="${padL-4}" y="${gy+3}" fill="#8b949e" font-size="9" text-anchor="end">${fmt(maxY*f/1.12)}</text>`}
+  // daily par line
+  if(c.daily_par){const py=y(c.daily_par);
+    g+=`<line x1="${padL}" x2="${W-4}" y1="${py}" y2="${py}" stroke="#8b949e" stroke-dasharray="4 3"/>
+        <text x="${W-6}" y="${py-3}" fill="#8b949e" font-size="9" text-anchor="end">par ${fmt(c.daily_par)}</text>`}
+  const names=[...c.series.map(s=>s.name),"other"];
+  const colors=[...c.series.map((s,i)=>css(SERIES[i])),css("--sother")];
+  c.days.forEach((d,i)=>{
+    const x=padL+i*iw+iw*0.18, bw=iw*0.64; let y0=H-padB, segs=[];
+    c.series.forEach((s,si)=>segs.push([s.name,s.values[i],colors[si]]));
+    segs.push(["other",c.other[i],colors[colors.length-1]]);
+    segs.forEach(([nm,v,col],si)=>{
+      if(v<=0)return; const h=Math.max(1,(v/maxY)*(H-padB-padT)); y0-=h;
+      const isTop=segs.slice(si+1).every(x=>x[1]<=0);
+      g+=`<rect x="${x}" y="${y0}" width="${bw}" height="${Math.max(1,h-2)}" fill="${col}"
+        ${isTop?'rx="3"':""} data-tip="${esc(d)} · ${esc(nm)}: ${fmt(v)} <span class=dim>(day total ${fmt(totals[i])})</span>"/>`;
+    });
+    g+=`<text x="${x+bw/2}" y="${H-5}" fill="#8b949e" font-size="9" text-anchor="middle">${d.slice(5)}</text>`;
+  });
+  svg.innerHTML=g;
+  svg.querySelectorAll("rect[data-tip]").forEach(r=>{
+    r.addEventListener("mousemove",e=>tip(r.dataset.tip,e.clientX,e.clientY));
+    r.addEventListener("mouseleave",()=>tip(null));});
+  $("legend").innerHTML=names.map((n,i)=>
+    `<span><span class="sw" style="background:${colors[i]}"></span>${esc(n)}</span>`).join("");
+}
+
+function detailRow(p){
+  const sess=Object.entries(p.by_session||{}).sort((a,b)=>b[1]-a[1]).slice(0,6)
+    .map(([sid,w])=>`<span class="chip">${esc(sid.slice(0,8))} · ${fmt(w)}</span>`).join(" ")||'<span class="dim">no spend this week</span>';
+  const models=Object.entries(p.by_model||{}).sort((a,b)=>b[1]-a[1])
+    .map(([m,w])=>`<span class="chip">${esc(m.replace("claude-",""))} ${fmt(w)}</span>`).join(" ")||'<span class="dim">—</span>';
+  const log=(p.log||[]).map(l=>`<div><span class="dim">${esc(l.ts)}</span> ${esc(l.summary)}</div>`).join("")||'<span class="dim">no sessions logged</span>';
+  const gpu=p.gpu?["day","week","month"].map(w=>{const g=p.gpu[w];
+    return `${w}: ${g.used}${g.budget!=null?"/"+g.budget:""}h`}).join(" · "):"no gpu budget";
+  return `<tr class="detail"><td colspan="7">
+    <b>bound sessions:</b> ${p.sessions.map(s=>`<span class="chip">${esc(s.slice(0,8))}</span>`).join(" ")||"none"}
+    &nbsp; <input class="mini" id="bind-${esc(p.slug)}" placeholder="session id"><button onclick="bind(${esc(jsarg(p.slug))})">bind</button><br>
+    <b>week by session:</b> ${sess}<br>
+    <b>by model:</b> ${models} &nbsp; <b>gpu:</b> <span class="dim">${gpu}</span><br>
+    <b>log:</b> ${log}</td></tr>`;
+}
+
+async function load(){
+  const r=await fetch("/api/state");S=await r.json();
+  if(S.error){$("header").textContent="error: "+S.error;return}
+  const m=S.machine||{};
+  const pace=!S.usage_available?'<span class="dim">usage source not configured</span>':!m.budget?'<span class="dim">budget not configured</span>':m.dry_at?`<span class="red">at this pace: dry ${m.dry_at}</span>`
+    :(m.projected_week_total>m.budget?`<span class="yellow">projected ${fmt(m.projected_week_total)} > budget</span>`
+    :`<span class="green">pace OK — projected ${fmt(m.projected_week_total||0)}</span>`);
+  const allocWarn=S.alloc_total>90?` <button onclick="normalize()">normalize→85%</button>`:"";
+  const acctChips=Object.entries(S.accounts_spend||{}).map(([a,v])=>
+    `<span class="chip" style="${a===S.account?"border-color:var(--cyan)":""}">
+      ${a===S.account?"👑 ":""}${esc(a)}: ${S.usage_available?fmt(v.spent):"—"}/${fmt(v.budget)}
+      <span class="${!S.usage_available?'dim':v.pct>=100?"red":v.pct>=75?"yellow":"green"}">${S.usage_available&&v.pct!=null?v.pct+'%':'Unknown'}</span></span>`).join(" ");
+  $("header").innerHTML=`
+    <span class="title">🍷 BUTLER</span>
+    <span>${acctChips}</span>
+    <span>local week: ${S.usage_available?fmt(m.weighted):'—'} / ${m.budget?fmt(m.budget):'—'} ${S.usage_available&&m.budget?barHtml(m.pct):'<span class="dim">Unknown</span>'}</span>
+    <span>${pace} <span class="dim">(week ${m.week_frac}% elapsed)</span></span>
+    <span class="${S.alloc_total>90?"red":"dim"}">alloc ${S.alloc_total}%${allocWarn}</span>
+    <span class="dim">scanned ${S.scanned_at||"…"}</span>
+    <button onclick="refresh()">↻ rescan</button>
+    <span>${S.accounts.map(a=>a===S.account?"":`<button onclick="doSwitch(${esc(jsarg(a))})">→ ${esc(a)}</button>`).join("")}</span>`;
+  const hs=$("hardstop");
+  if(S.hard_until){const until=new Date(S.hard_until);
+    hs.style.display="block";
+    hs.innerHTML=`⛔ <b>HARD STOP</b> — account window exhausted; every gate refuses until
+      <b>${until.toLocaleTimeString([],{hour:"2-digit",minute:"2-digit"})}</b>
+      (${Math.max(0,Math.round((until-Date.now())/60000))} min)`;
+  } else hs.style.display="none";
+
+  const ru=S.real, R=$("realusage");
+  if(ru){
+    const meter=(lbl,pct,resets,extra="")=>{
+      const c=pct>=100?"var(--red)":pct>=90?"var(--yellow)":pct>=60?"var(--yellow)":"var(--green)";
+      return `<span style="display:inline-block;margin-right:18px">
+        <b>${lbl}</b> <span class="bar" style="width:90px"><i style="width:${Math.min(pct||0,100)}%;background:${c}"></i></span>
+        <span style="color:${c}">${pct??"?"}%</span>
+        ${resets?`<span class="dim">→ ${resets.slice(11,16)}</span>`:""}${extra}</span>`};
+    const scoped=(ru.scoped||[]).map(s=>{
+      const c=s.pct>=100?"var(--red)":s.pct>=90?"var(--yellow)":"var(--green)";
+      return `<span class="chip" style="border-color:${c};color:${c}">${esc(s.model)} wk ${s.pct}%${s.active?" ⛔":""}</span>`}).join(" ");
+    const age=ru.fetched_at_ms?Math.round((Date.now()-ru.fetched_at_ms)/60000):null;
+    R.style.display="block";
+    R.innerHTML=`<b class="cyan">Cached Claude usage</b> <span class="dim">(${esc(ru.account||"?")}, from Claude Code /usage cache${age!=null?", "+age+"m old":""})</span> &nbsp;
+      ${meter("5-hour",ru.five_hour.pct,ru.five_hour.resets_at)}
+      ${meter("7-day",ru.seven_day.pct,ru.seven_day.resets_at)}
+      ${scoped}
+      <span class="dim">— the burn chart below is the weighted-token proxy (relative split only)</span>`;
+  } else R.style.display="none";
+
+  drawChart();
+
+  let rows=`<tr><th></th><th>project</th><th>alloc%</th><th></th><th class="num">spent/budget</th><th>gate</th><th>st</th></tr>`;
+  const projSel=['<option value="">(no project)</option>'],gpuSel=[];
+  for(const p of S.projects){
+    projSel.push(`<option>${esc(p.slug)}</option>`);gpuSel.push(`<option>${esc(p.slug)}</option>`);
+    rows+=`<tr ${p.status!=="active"?'style="opacity:.45"':""}>
+      <td class="rowbtn dim" onclick="toggle(${esc(jsarg(p.slug))})">${open===p.slug?"▾":"▸"}</td>
+      <td class="rowbtn" onclick="toggle(${esc(jsarg(p.slug))})"><b>${esc(p.slug)}</b>
+        <span class="dim">(${p.sessions.length})</span>
+        ${(p.machines||[]).map(mn=>`<span class="chip" style="border-color:var(--cyan);color:var(--cyan)">${esc(mn)}</span>`).join("")}</td>
+      <td><input class="alloc" value="${p.alloc}" onchange="setAlloc(${esc(jsarg(p.slug))},this.value)"></td>
+      <td>${S.usage_available?barHtml(p.pct):'—'}</td>
+      <td class="num">${S.usage_available?fmt(p.spent):'—'} <span class="dim">/ ${fmt(p.budget)}</span></td>
+      <td>${S.usage_available?GATE[p.gate]:'Unknown'}</td>
+      <td><button onclick="setStatus(${esc(jsarg(p.slug))},'${p.status==="active"?"parked":"active"}')">${p.status==="active"?"●":"◌"}</button></td></tr>`;
+    if(open===p.slug)rows+=detailRow(p);
+  }
+  $("projects").innerHTML=rows;
+  $("ev-proj").innerHTML=projSel.join("");$("gpu-proj").innerHTML=gpuSel.join("");
+
+  $("unbound").innerHTML=S.unbound.length?`<tr><th>session</th><th class="num">spent</th><th>first message</th><th>bind to</th></tr>`+
+    S.unbound.map(u=>`<tr><td>${esc(u.sid)}</td><td class="num">${fmt(u.spent)}</td>
+      <td class="dim">${esc(u.topic)||"—"}</td>
+      <td><select id="ub-${esc(u.sid)}">${S.projects.map(p=>`<option>${esc(p.slug)}</option>`).join("")}</select>
+      <button onclick="bindUnbound(${esc(jsarg(u.sid))})">bind</button></td></tr>`).join("")
+    :`<tr><td class="dim">${S.usage_available?'no significant unbound usage in the configured scope':'usage scan disabled — no source configured'}</td></tr>`;
+
+  $("machines").innerHTML=`<tr><th>machine</th><th class="num">week spend</th><th class="num">sessions</th><th>freshness</th><th></th></tr>`+
+    (S.machines||[]).map(mc=>{
+      const stat=mc.kind==="local"?'<span class="green">local</span>'
+        :!mc.enabled?'<span class="dim">disabled</span>'
+        :mc.ok?`<span class="${mc.age_min>120?"yellow":"green"}">${mc.age_min}m ago</span>`
+        :'<span class="red">never collected</span>';
+      return `<tr><td><b>${esc(mc.name)}</b></td>
+        <td class="num">${mc.weighted!=null?fmt(mc.weighted):"—"}</td>
+        <td class="num">${mc.sessions??"—"}</td><td>${stat}</td>
+        <td>${mc.kind==="remote"&&mc.enabled?`<button onclick="collect(${esc(jsarg(mc.name))})">collect</button>`:""}</td></tr>`}).join("");
+
+  let f=`<tr><th>tty</th><th>agent</th><th>up</th><th>mission</th></tr>`;
+  for(const s of S.fleet){
+    const c=s.name==="?"||s.name.includes("MYSTERY")?"yellow":"green";
+    f+=`<tr><td class="dim">${esc(s.tty)}</td><td class="${c}">${esc(s.name)}</td>
+      <td class="dim">${esc(s.up)}</td><td class="dim">${esc(s.mission.slice(0,58))}</td></tr>`}
+  $("fleet").innerHTML=f+`<tr><td colspan=4 class="dim">${S.fleet_enabled?S.fleet.length+' live':'local process inspection disabled'}</td></tr>`;
+
+  $("accounts").innerHTML=Object.entries(S.accounts_cfg).map(([a,c])=>
+    `<div>${a===S.account?"👑":"&nbsp;&nbsp;"} <b>${esc(a)}</b> weekly
+     <input class="mini" type="number" value="${c.weekly_m}" onchange="setBudget(${esc(jsarg(a))},this.value)">M
+     ${a===S.account?'<span class="dim">(active)</span>':""}</div>`).join("")+
+    `<div class="dim" style="margin-top:4px;font-size:11px">calibrate against /usage after a normal week</div>`;
+
+  $("events").innerHTML=(S.events||[]).map(e=>
+    `<div><span class="dim">${esc((e.ts||"").slice(5,16))}</span>
+     <b class="ev-${esc(e.type)}">${esc(e.type)}</b> ${esc(e.project||"")}
+     <span class="dim">${esc(e.note||"")}</span>
+     ${e.resume_at?`<span class="red">→ ${esc(e.resume_at.slice(11,16))}</span>`:""}</div>`
+  ).join("")||'<span class="dim">no events yet</span>';
+}
+function toggle(slug){open=open===slug?null:slug;load()}
+async function post(u,b){const r=await fetch(u,{method:"POST",
+  headers:{"Content-Type":"application/json"},body:JSON.stringify(b)});return r.json()}
+async function collect(m){toast(`collecting ${m}…`);
+  const r=await post("/api/collect",{machine:m});
+  const res=r.machines&&r.machines[m];
+  toast(res?(res.ok?`${m}: ${fmt(res.weighted)} this week`:`${m}: ${res.error}`):"collect failed");load()}
+async function refresh(){toast("rescanning transcripts…");await post("/api/refresh",{});await load();toast("rescanned")}
+async function setAlloc(p,v){const r=await post("/api/alloc",{project:p,pct:parseFloat(v)});
+  toast(r.ok?`${p} → ${v}%`:r.error);load()}
+async function setStatus(p,s){await post("/api/status",{project:p,status:s});load()}
+async function setBudget(a,v){const r=await post("/api/config",{account:a,weekly_m:parseFloat(v)});
+  toast(r.ok?`${a} weekly → ${v}M`:r.error);load()}
+async function normalize(){const r=await post("/api/normalize",{target:85});
+  toast(r.ok?`allocations scaled ×${r.factor}`:r.error);load()}
+async function doSwitch(a){const r=await post("/api/switch",{account:a});
+  toast(r.ok?`lock → ${a}. ${r.next}`:r.error);load()}
+async function bind(p){const sid=$("bind-"+p).value.trim();if(!sid)return;
+  const r=await post("/api/bind",{project:p,session:sid});
+  toast(r.ok?`${esc(sid.slice(0,8))} → ${p} (rescan to attribute)`:r.error)}
+async function bindUnbound(sid){const p=$("ub-"+sid).value;
+  const r=await post("/api/bind",{project:p,session:sid});
+  toast(r.ok?`${sid} → ${p} (rescan to attribute)`:r.error)}
+async function sendEvent(){const r=await post("/api/event",{type:$("ev-type").value,
+  project:$("ev-proj").value||null,note:$("ev-note").value});
+  if(r.ok){$("ev-note").value="";toast("recorded")}else toast(r.error);load()}
+async function gpuLog(){const r=await post("/api/gpu-log",{project:$("gpu-proj").value,
+  job:$("gpu-job").value,gpus:parseFloat($("gpu-gpus").value),hours:parseFloat($("gpu-hours").value)});
+  toast(r.ok?"gpu hours logged":r.error);load()}
+load();setInterval(load,20000);
+</script>
+</body>
+</html>
