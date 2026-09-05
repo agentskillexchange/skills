@@ -123,8 +123,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
-| [Compact terminal-heavy agent output with Tokenjuice](skills/compact-terminal-heavy-agent-output-with-tokenjuice/) | Use Tokenjuice when an agent runs noisy shell commands and needs deterministic, inspectable output reduction before continuing a... | 517 | Developer Tools |
 | [Automate NotebookLM Studio generation and cited research batches with notebooklm-mcp](skills/automate-notebooklm-studio-generation-and-cited-research-batches-with-notebooklm-mcp/) | Use NotebookLM through MCP or a local REST API to run cited Q&A, generate Studio artifacts, and manage... | 161 | Research & Scraping |
+| [Compact terminal-heavy agent output with Tokenjuice](skills/compact-terminal-heavy-agent-output-with-tokenjuice/) | Use Tokenjuice when an agent runs noisy shell commands and needs deterministic, inspectable output reduction before continuing a... | 517 | Developer Tools |
 | [Manage parallel coding agent sessions and worktrees with CCManager](skills/manage-parallel-coding-agent-sessions-and-worktrees-with-ccmanager/) | Run Claude Code, Codex CLI, Gemini CLI, Cursor Agent, Copilot CLI, Cline CLI, OpenCode, Kimi CLI, and related... | 1.2k | Developer Tools |
 | [Render pull request architecture diagrams with PR Lens](skills/render-pull-request-architecture-diagrams-with-pr-lens/) | Have an agent turn a code diff into validated architecture and data-flow diagrams, then attach the rendered SVGs... | 212 | Code Quality & Review |
 | [Run independent multi-agent build and review flows with OPC](skills/run-independent-multi-agent-build-and-review-flows-with-opc/) | Use OPC as a Claude Code skill to select a task flow, dispatch specialist roles, enforce independent review... | 192 | Code Quality & Review |
