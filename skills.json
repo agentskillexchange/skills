@@ -1,8 +1,22 @@
 {
   "version": "2.0",
-  "total": 2966,
+  "total": 2967,
   "generated": "2026-09-05",
   "skills": [
+    {
+      "slug": "run-wechat-public-account-content-operations-with-wechat-article-skills",
+      "name": "Run WeChat public-account content operations with WeChat Article Skills",
+      "title": "Run WeChat public-account content operations with WeChat Article Skills",
+      "description": "Use WeChat Article Skills to run a confirmed, multi-step WeChat article workflow from topic planning through drafting, review, formatting, images, and publishing.",
+      "category": "Content Writing & SEO",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 559
+      },
+      "source_url": "https://github.com/aiworkskills/wechat-article-skills",
+      "github_repo": "aiworkskills/wechat-article-skills"
+    },
     {
       "slug": "compact-terminal-heavy-agent-output-with-tokenjuice",
       "name": "Compact terminal-heavy agent output with Tokenjuice",

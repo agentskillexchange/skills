@@ -88,6 +88,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [SEOnaut Open Source Technical SEO Audit Tool](../../skills/seonaut-open-source-technical-seo-audit/) | 673 | — |
 | [Audit AI search citation readiness with GEO Optimizer](../../skills/audit-ai-search-citation-readiness-with-geo-optimizer/) | 611 | — |
 | [Run evidence-backed agentic SEO audits with Agentic SEO Skill](../../skills/run-evidence-backed-agentic-seo-audits-with-agentic-seo-skill/) | 588 | — |
+| [Run WeChat public-account content operations with WeChat Article Skills](../../skills/run-wechat-public-account-content-operations-with-wechat-article-skills/) | 559 | — |
 | [Run repeatable Google Ads and SEO audits inside Claude Code with Toprank](../../skills/run-repeatable-google-ads-and-seo-audits-inside-claude-code-with-toprank/) | 466 | — |
 | [Draft and audit LinkedIn content with LinkedIn Skills](../../skills/draft-and-audit-linkedin-content-with-linkedin-skills/) | 420 | — |
 | [Remove AI Writing Fingerprints from Draft Copy](../../skills/remove-ai-writing-fingerprints-from-draft-copy/) | 45 | — |

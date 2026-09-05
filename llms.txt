@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-05
-# Total: 2966 skills
+# Total: 2967 skills
+
+## Run WeChat public-account content operations with WeChat Article Skills
+slug: run-wechat-public-account-content-operations-with-wechat-article-skills
+category: Content Writing & SEO
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use WeChat Article Skills to run a confirmed, multi-step WeChat article workflow from topic planning through drafting, review, formatting, images, and publishing.
+url: https://agentskillexchange.com/skills/run-wechat-public-account-content-operations-with-wechat-article-skills/
 
 ## Compact terminal-heavy agent output with Tokenjuice
 slug: compact-terminal-heavy-agent-output-with-tokenjuice

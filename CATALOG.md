@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2966 published skills** across **17 categories** · 2,515 security reviewed · Updated 2026-09-05 07:27 UTC
+> **2967 published skills** across **17 categories** · 2,515 security reviewed · Updated 2026-09-05 13:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -2607,7 +2607,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Selenium WebDriver Browser Automation Framework](skills/selenium-webdriver-browser-automation-framework/) | Selenium is the long-running open source browser automation framework behind the W3C WebDriver standard. It gives… | Security Reviewed | 34.1k | 1.9M/wk |
 | [Playwright MCP Browser Automation](skills/playwright-mcp-browser-automation/) | Official Playwright-powered browser control for agent workflows. | Security Reviewed | 33.3k | 5.9M/wk |
 | [Microsoft Playwright MCP](skills/microsoft-playwright-mcp/) | Microsoft Playwright MCP exposes Playwright browser automation through the Model Context Protocol, giving agents… | Security Reviewed | 30.8k | 2.8M/wk |
-| [Run supervised browser automation workflows with AIHawk](skills/run-one-shot-and-supervised-browser-automation-workflows-with-aihawk/) | Use AIHawk's local supervised browser UI for bounded research and extraction, with human approval before external actions. | Security Reviewed | 30.3k | — |
+| [Run supervised browser automation workflows with AIHawk](skills/run-one-shot-and-supervised-browser-automation-workflows-with-aihawk/) | Use AIHawk's local supervised browser UI for bounded web research and extraction, with human review before external… | Security Reviewed | 30.3k | — |
 | [Playwright MCP Server for Browser Automation](skills/playwright-mcp-server-browser-automation/) | The official Microsoft Playwright MCP server provides browser automation capabilities through the Model Context… | Security Reviewed | 30.1k | 2.4M/wk |
 | [Vercel Agent Browser](skills/vercel-agent-browser/) | Vercel Agent Browser is a browser automation CLI built specifically for AI agents. It gives agents a fast,… | Security Reviewed | 29.1k | 601.9k/wk |
 | [Lightpanda Headless Browser for AI Automation](skills/lightpanda-headless-browser-ai-automation/) | Lightpanda is a headless browser built from scratch in Zig, purpose-designed for AI agents and web automation. It… | Security Reviewed | 26.5k | — |
@@ -3013,7 +3013,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized… | Security Reviewed | — | — |
 
 
-### ✍️ Content Writing & SEO (90 skills)
+### ✍️ Content Writing & SEO (91 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
 
@@ -3067,6 +3067,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [SEOnaut Open Source Technical SEO Audit Tool](skills/seonaut-open-source-technical-seo-audit/) | SEOnaut is an open-source SEO auditing tool built with Go that crawls websites and generates detailed reports on… | Security Reviewed | 673 | — |
 | [Audit AI search citation readiness with GEO Optimizer](skills/audit-ai-search-citation-readiness-with-geo-optimizer/) | Use GEO Optimizer from the CLI or MCP so agents can audit a site for AI search visibility, generate llms.txt/schema… | Security Reviewed | 611 | — |
 | [Run evidence-backed agentic SEO audits with Agentic SEO Skill](skills/run-evidence-backed-agentic-seo-audits-with-agentic-seo-skill/) | Install a multi-runtime SEO skill pack that collects crawl, schema, performance, sitemap, robots, and content… | Security Reviewed | 588 | — |
+| [Run WeChat public-account content operations with WeChat Article Skills](skills/run-wechat-public-account-content-operations-with-wechat-article-skills/) | Use WeChat Article Skills to run a confirmed, multi-step WeChat article workflow from topic planning through… | Security Reviewed | 559 | — |
 | [Run repeatable Google Ads and SEO audits inside Claude Code with Toprank](skills/run-repeatable-google-ads-and-seo-audits-inside-claude-code-with-toprank/) | Use Toprank when an agent needs a repeatable Claude Code workflow for Google Ads and SEO audits, with concrete slash… | Security Reviewed | 466 | — |
 | [Draft and audit LinkedIn content with LinkedIn Skills](skills/draft-and-audit-linkedin-content-with-linkedin-skills/) | Use LinkedIn Skills when an agent needs to draft posts, comments, replies, audits, profile rewrites, or content… | Security Reviewed | 420 | — |
 | [Remove AI Writing Fingerprints from Draft Copy](skills/remove-ai-writing-fingerprints-from-draft-copy/) | Use humanizer to scan drafts for AI telltales, explain what sounds synthetic, and suggest grounded rewrites that… | Security Reviewed | 45 | — |
