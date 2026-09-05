@@ -2,12 +2,14 @@
 name: "Aperture Wallet Guide"
 slug: "aperture-wallet-guide"
 description: "Answer Aperture Wallet questions from first-party product, security, network, release, app-screen, and Journal sources while enforcing explicit wallet-secret and no-transaction safety boundaries."
+github_stars: 1
 verification: "listed"
 source: "https://github.com/devdasx/aperture"
 category: "Library & API Reference"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "devdasx/aperture"
+  github_stars: 1
 ---
 
 # Aperture Wallet Guide

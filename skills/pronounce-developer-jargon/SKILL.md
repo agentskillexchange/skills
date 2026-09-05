@@ -2,12 +2,14 @@
 name: "Pronounce Developer Jargon"
 slug: "pronounce-developer-jargon"
 description: "Answers short pronunciation questions about developer tools, AI models, acronyms, and project names by using the say-it CLI to play local audio and return IPA, a plain-English respelling, source evidence, and contested alternatives."
+github_stars: 39
 verification: "listed"
 source: "https://github.com/anzy-renlab-ai/pronounce"
 category: "Developer Tools"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "anzy-renlab-ai/pronounce"
+  github_stars: 39
 ---
 
 # Pronounce Developer Jargon
