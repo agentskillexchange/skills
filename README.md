@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Langflow Visual AI Agent and Workflow Builder](skills/langflow-visual-ai-agent-workflow-builder/)** — Langflow is an open-source visual builder for AI agents and workflows. It lets teams design flows graphically, expose them as APIs or MCP tools, and connect major LLMs,…
+**[Paperless-ngx Document OCR and Archive Management System](skills/paperless-ngx-document-ocr-archive-management-system/)** — Paperless-ngx is an open source document management system that turns scanned or uploaded paperwork into a searchable archive. It combines OCR-driven ingestion, indexing, tagging, storage, and retrieval for…
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -130,8 +130,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Run independent multi-agent build and review flows with OPC](skills/run-independent-multi-agent-build-and-review-flows-with-opc/) | Use OPC as a Claude Code skill to select a task flow, dispatch specialist roles, enforce independent review... | 192 | Code Quality & Review |
 | [Run supervised browser automation workflows with AIHawk](skills/run-one-shot-and-supervised-browser-automation-workflows-with-aihawk/) | Use AIHawk's local supervised browser UI for bounded web research and extraction, with human review before external actions | 30.3k | Browser Automation |
 | [Enforce Coding-Agent Write and Shell Policies with Probity](skills/enforce-coding-agent-write-and-shell-policies-with-probity/) | Use Probity when Claude Code, Codex, or GitHub Copilot CLI should be blocked from unsafe file writes or... | 162 | Security & Verification |
-| [Build production-ready n8n workflows with n8n-skills](skills/build-production-ready-n8n-workflows-with-n8n-skills/) | Give Claude Code a routed skill pack for designing, validating, debugging, and deploying n8n workflows through n8n-mcp | 6.2k | Templates & Workflows |
 | [Run WeChat public-account content operations with WeChat Article Skills](skills/run-wechat-public-account-content-operations-with-wechat-article-skills/) | Use WeChat Article Skills to run a confirmed, multi-step WeChat article workflow from topic planning through drafting, review... | 559 | Content Writing & SEO |
+| [Build production-ready n8n workflows with n8n-skills](skills/build-production-ready-n8n-workflows-with-n8n-skills/) | Give Claude Code a routed skill pack for designing, validating, debugging, and deploying n8n workflows through n8n-mcp | 6.2k | Templates & Workflows |
 | [Run Chinese-first academic writing, Office, and scientific workflows with Academic Skills](skills/run-chinese-first-academic-writing-office-and-scientific-workflows-with-academic-skills/) | Install and invoke a Chinese-first academic skill bundle for paper writing, editable Word/PPT research documents, and scientific computing... | 3.4k | Templates & Workflows |
 
 ---
