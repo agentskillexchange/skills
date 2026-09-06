@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-06
-# Total: 2967 skills
+# Total: 2968 skills
+
+## Review live agent-authored diffs in Neovim with CodeDiff
+slug: review-live-agent-authored-diffs-in-neovim-with-codediff
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use CodeDiff to keep coding agents running while a human operator reviews, stages, discards, and resolves changes in a live Neovim diff workspace.
+url: https://agentskillexchange.com/skills/review-live-agent-authored-diffs-in-neovim-with-codediff/
 
 ## Run WeChat public-account content operations with WeChat Article Skills
 slug: run-wechat-public-account-content-operations-with-wechat-article-skills

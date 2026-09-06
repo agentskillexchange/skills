@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2967 published skills** across **17 categories** · 2,516 security reviewed · Updated 2026-09-06 01:27 UTC
+> **2968 published skills** across **17 categories** · 2,516 security reviewed · Updated 2026-09-06 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1207,7 +1207,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (200 skills)
+### ✅ Code Quality & Review (201 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1339,6 +1339,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Run autonomous coding tasks through Zeroshot verifier loops](skills/run-autonomous-coding-tasks-through-zeroshot-verifier-loops/) | Use Zeroshot when a coding issue or spec needs an executor agent and an independent verifier loop before the change… | Security Reviewed | 1.7k | 537/wk |
 | [CSpell Codebase Spell Checking CLI](skills/cspell-codebase-spell-checking-cli/) | CSpell is a spell checker built for source code, configuration files, and documentation, with dictionaries and… | Security Reviewed | 1.6k | 1.1M/wk |
 | [Run TypeScript-native LLM eval suites with Evalite](skills/run-typescript-native-llm-eval-suites-with-evalite/) | Use Evalite when a TypeScript team needs repeatable Vitest-style eval runs for LLM apps before prompt, model, or… | Published | 1.6k | 1.1M/wk |
+| [Review live agent-authored diffs in Neovim with CodeDiff](skills/review-live-agent-authored-diffs-in-neovim-with-codediff/) | Use CodeDiff to keep coding agents running while a human operator reviews, stages, discards, and resolves changes in… | Security Reviewed | 1.5k | — |
 | [Strip noisy Jupyter output from notebooks before commit with nbstripout](skills/strip-noisy-jupyter-output-from-notebooks-before-commit-with-nbstripout/) | Keep notebook diffs reviewable by removing execution output and excess metadata before notebooks land in Git history. | Security Reviewed | 1.4k | — |
 | [Audit Python dependency declarations for unused, missing, and transitive imports before release](skills/audit-python-dependency-declarations-before-release/) | Use Deptry when an agent needs to verify that a Python project's declared dependencies still match the imports the… | Security Reviewed | 1.4k | — |
 | [Remove unused Rust dependencies before they quietly bloat builds and reviews with cargo-machete](skills/remove-unused-rust-dependencies-before-they-quietly-bloat-builds-and-reviews-with-cargo-machete/) | Use cargo-machete when an agent needs to find and remove unused Rust dependencies before they keep inflating build… | Security Reviewed | 1.3k | 2.1M/wk |

@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-06",
-  "total": 2967,
+  "total": 2968,
   "skills": [
+    {
+      "slug": "review-live-agent-authored-diffs-in-neovim-with-codediff",
+      "name": "Review live agent-authored diffs in Neovim with CodeDiff",
+      "title": "Review live agent-authored diffs in Neovim with CodeDiff",
+      "description": "Use CodeDiff to keep coding agents running while a human operator reviews, stages, discards, and resolves changes in a live Neovim diff workspace.",
+      "category": "Code Quality & Review",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/esmuellert/codediff.nvim",
+      "github_repo": "esmuellert/codediff.nvim"
+    },
     {
       "slug": "run-wechat-public-account-content-operations-with-wechat-article-skills",
       "name": "Run WeChat public-account content operations with WeChat Article Skills",
