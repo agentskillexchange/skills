@@ -2,8 +2,30 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-06",
-  "total": 2968,
+  "total": 2970,
   "skills": [
+    {
+      "slug": "run-evidence-first-research-investigations-in-claude-code-with-deepdive",
+      "name": "Run evidence-first research investigations in Claude Code with Deepdive",
+      "title": "Run evidence-first research investigations in Claude Code with Deepdive",
+      "description": "Install Deepdive as a Claude Code skill for structured investigations with plans, source files, claim tracing, dissent checks, and reusable research reports.",
+      "category": "Research & Scraping",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Socialpranker/deepdive",
+      "github_repo": "Socialpranker/deepdive"
+    },
+    {
+      "slug": "serve-codebase-impact-context-to-agents-with-trace-mcp",
+      "name": "Serve codebase impact context to agents with Trace MCP",
+      "title": "Serve codebase impact context to agents with Trace MCP",
+      "description": "Use Trace MCP to index a repository once and let MCP-capable coding agents query framework-aware code, dependency, and impact context without repeatedly rereading the…",
+      "category": "Code Quality & Review",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/nikolai-vysotskyi/trace-mcp",
+      "github_repo": "nikolai-vysotskyi/trace-mcp"
+    },
     {
       "slug": "review-live-agent-authored-diffs-in-neovim-with-codediff",
       "name": "Review live agent-authored diffs in Neovim with CodeDiff",

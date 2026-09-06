@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2968 published skills** across **17 categories** · 2,518 security reviewed · Updated 2026-09-06 07:27 UTC
+> **2970 published skills** across **17 categories** · 2,518 security reviewed · Updated 2026-09-06 13:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1207,7 +1207,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (201 skills)
+### ✅ Code Quality & Review (202 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1382,6 +1382,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Validate Python Docstrings Against Function Signatures with pydoclint](skills/validate-python-docstrings-against-function-signatures-with-pydoclint/) | Check that Python docstrings stay consistent with parameters, returns, and raised exceptions as code evolves. | Security Reviewed | 208 | — |
 | [Run independent multi-agent build and review flows with OPC](skills/run-independent-multi-agent-build-and-review-flows-with-opc/) | Use OPC as a Claude Code skill to select a task flow, dispatch specialist roles, enforce independent review, and… | Security Reviewed | 192 | 315/wk |
 | [Lint reStructuredText docs and release notes before Sphinx publishing with doc8](skills/lint-restructuredtext-docs-and-release-notes-before-sphinx-publishing-with-doc8/) | Catch structural and line-style problems in reStructuredText docs before release notes and Sphinx pages go out… | Security Reviewed | 176 | — |
+| [Serve codebase impact context to agents with Trace MCP](skills/serve-codebase-impact-context-to-agents-with-trace-mcp/) | Use Trace MCP to index a repository once and let MCP-capable coding agents query framework-aware code, dependency,… | Security Reviewed | 154 | 6.6k/wk |
 | [Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed](skills/catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed/) | Use CodSpeed when an agent needs benchmark runs compared in CI and surfaced on pull requests before performance… | Security Reviewed | 143 | 234.6k/wk |
 | [Run multi-agent code review rounds with structured reviewer discourse before human approval](skills/run-multi-agent-code-review-rounds-with-structured-reviewer-discourse-before-human-approval/) | Use Open Code Review when an agent needs several reviewer personas to inspect a diff, debate findings, and… | Security Reviewed | 131 | 1.1k/wk |
 | [Review AI-generated code changes in a local PR-style loop with DiffX](skills/review-ai-generated-code-changes-in-a-local-pr-style-loop-with-diffx/) | Use DiffX to review local git changes in a PR-style browser UI, leave inline comments, and hand structured feedback… | Security Reviewed | 127 | 262/wk |
@@ -2140,7 +2141,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Published | — | — |
 
 
-### 🔍 Research & Scraping (128 skills)
+### 🔍 Research & Scraping (129 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -2230,6 +2231,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Browse search and cost-audit local coding-agent histories before resuming or standardizing workflows with agentsview](skills/browse-search-and-cost-audit-local-coding-agent-histories-before-resuming-or-standardizing-workflows-with-agentsview/) | Index local coding-agent sessions into a searchable SQLite-backed view so you can inspect usage, compare failures,… | Security Reviewed | 774 | — |
 | [SerpAPI Answer Box Extractor](skills/serpapi-answer-box-extractor/) | Extracts high-signal SERP features from SerpAPI responses, including `answer_box`, `knowledge_graph`,… | Security Reviewed | 734 | — |
 | [Search and resume past coding-agent sessions locally with exact handoff commands using Agent Sessions](skills/search-and-resume-past-coding-agent-sessions-locally-with-exact-handoff-commands-using-agent-sessions/) | Browse archived sessions from multiple coding agents, search across them locally, and copy exact resume commands… | Security Reviewed | 478 | — |
+| [Run evidence-first research investigations in Claude Code with Deepdive](skills/run-evidence-first-research-investigations-in-claude-code-with-deepdive/) | Install Deepdive as a Claude Code skill for structured investigations with plans, source files, claim tracing,… | Security Reviewed | 393 | — |
 | [Serve clean Markdown from URLs and files with PullMD](skills/serve-clean-markdown-from-urls-and-files-with-pullmd/) | Use PullMD as a self-hosted Markdown conversion service for agents, exposing web pages, documents, media… | Security Reviewed | 197 | — |
 | [Apify SDK for Web Scraping and Actor Automation](skills/apify-sdk-web-scraping-actor-automation/) | Apify SDK is the official JavaScript SDK for building Actors, crawlers, and data extraction workflows on Apify. It… | Security Reviewed | 173 | 35.6k/wk |
 | [Apify Actor Development Kit](skills/apify-actor-development-kit/) | Builds Apify Actors for scalable cloud scraping with automatic proxy management and storage. Uses the Apify SDK… | Security Reviewed | 173 | 34.1k/wk |

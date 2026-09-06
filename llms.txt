@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-06
-# Total: 2968 skills
+# Total: 2970 skills
+
+## Run evidence-first research investigations in Claude Code with Deepdive
+slug: run-evidence-first-research-investigations-in-claude-code-with-deepdive
+category: Research & Scraping
+framework: Claude Code
+verification: Security Reviewed
+description: Install Deepdive as a Claude Code skill for structured investigations with plans, source files, claim tracing, dissent checks, and reusable research reports.
+url: https://agentskillexchange.com/skills/run-evidence-first-research-investigations-in-claude-code-with-deepdive/
+
+## Serve codebase impact context to agents with Trace MCP
+slug: serve-codebase-impact-context-to-agents-with-trace-mcp
+category: Code Quality & Review
+framework: MCP
+verification: Security Reviewed
+description: Use Trace MCP to index a repository once and let MCP-capable coding agents query framework-aware code, dependency, and impact context without repeatedly rereading the…
+url: https://agentskillexchange.com/skills/serve-codebase-impact-context-to-agents-with-trace-mcp/
 
 ## Review live agent-authored diffs in Neovim with CodeDiff
 slug: review-live-agent-authored-diffs-in-neovim-with-codediff

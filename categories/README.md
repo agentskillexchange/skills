@@ -1,6 +1,6 @@
 # Categories
 
-> **2968 skills** across **17 categories**
+> **2970 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -8,12 +8,12 @@
 | 🔒 | [**Security & Verification**](security-verification/) | **247** | Auth setup, vulnerability scanning, compliance checks, and security a... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **239** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **220** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
-| ✅ | [**Code Quality & Review**](code-quality-review/) | **201** | Linting rules, review checklists, code standards enforcement, and qua... |
+| ✅ | [**Code Quality & Review**](code-quality-review/) | **202** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **192** | Pipeline configs, deployment automation, build tooling, and continuou... |
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **178** | Incident response, troubleshooting guides, system diagnostics, and op... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **167** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **155** | Metrics collection, alerting rules, observability setup, and system m... |
-| 🔍 | [**Research & Scraping**](research-scraping/) | **128** | Web research, data collection, content aggregation, and information g... |
+| 🔍 | [**Research & Scraping**](research-scraping/) | **129** | Web research, data collection, content aggregation, and information g... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **127** | Email automation, calendar management, task coordination, and product... |
 | 📚 | [**Library & API Reference**](library-api-reference/) | **127** | SDK documentation, API guides, framework reference material, and libr... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **123** | Web scraping, UI testing, headless browser control, and browser-based... |

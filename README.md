@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C968-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C970-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C518-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,968 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,970 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Run evidence-first research investigations in Claude Code with Deepdive](skills/run-evidence-first-research-investigations-in-claude-code-with-deepdive/) | Install Deepdive as a Claude Code skill for structured investigations with plans, source files, claim tracing, dissent checks... | 393 | Research & Scraping |
+| [Serve codebase impact context to agents with Trace MCP](skills/serve-codebase-impact-context-to-agents-with-trace-mcp/) | Use Trace MCP to index a repository once and let MCP-capable coding agents query framework-aware code, dependency, and... | 154 | Code Quality & Review |
 | [Review live agent-authored diffs in Neovim with CodeDiff](skills/review-live-agent-authored-diffs-in-neovim-with-codediff/) | Use CodeDiff to keep coding agents running while a human operator reviews, stages, discards, and resolves changes in... | 1.5k | Code Quality & Review |
 | [Run WeChat public-account content operations with WeChat Article Skills](skills/run-wechat-public-account-content-operations-with-wechat-article-skills/) | Use WeChat Article Skills to run a confirmed, multi-step WeChat article workflow from topic planning through drafting, review... | 559 | Content Writing & SEO |
 | [Compact terminal-heavy agent output with Tokenjuice](skills/compact-terminal-heavy-agent-output-with-tokenjuice/) | Use Tokenjuice when an agent runs noisy shell commands and needs deterministic, inspectable output reduction before continuing a... | 517 | Developer Tools |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Constrain coding-agent over-defense with HERO](skills/constrain-coding-agent-over-defense-with-hero/) | Paste HERO's scope-limits contract into always-loaded agent config so coding agents keep fixes proportionate and avoid unnecessary hashing... | 397 | Templates & Workflows |
 | [Run supervised browser automation workflows with AIHawk](skills/run-one-shot-and-supervised-browser-automation-workflows-with-aihawk/) | Use AIHawk's local supervised browser UI for bounded web research and extraction, with human review before external actions | 30.3k | Browser Automation |
 | [Keep Claude Code skills current from real sessions with Autoharness](skills/keep-claude-code-skills-current-from-real-sessions-with-autoharness/) | Install Autoharness so Claude Code can distill, merge, update, and retire native skills from real operator sessions without... | 1.4k | Developer Tools |
-| [Aperture Wallet Guide](skills/aperture-wallet-guide/) | Answer Aperture Wallet questions from first-party product, security, network, release, app-screen, and Journal sources while enforcing explicit wallet-secret... | 1 | Library & API Reference |
-| [Pronounce Developer Jargon](skills/pronounce-developer-jargon/) | Answers short pronunciation questions about developer tools, AI models, acronyms, and project names by using the say-it CLI... | 39 | Developer Tools |
 
 ---
 
@@ -125,14 +125,14 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 |---|---|---:|---|
 | [Automate NotebookLM Studio generation and cited research batches with notebooklm-mcp](skills/automate-notebooklm-studio-generation-and-cited-research-batches-with-notebooklm-mcp/) | Use NotebookLM through MCP or a local REST API to run cited Q&A, generate Studio artifacts, and manage... | 161 | Research & Scraping |
 | [Compact terminal-heavy agent output with Tokenjuice](skills/compact-terminal-heavy-agent-output-with-tokenjuice/) | Use Tokenjuice when an agent runs noisy shell commands and needs deterministic, inspectable output reduction before continuing a... | 517 | Developer Tools |
+| [Serve codebase impact context to agents with Trace MCP](skills/serve-codebase-impact-context-to-agents-with-trace-mcp/) | Use Trace MCP to index a repository once and let MCP-capable coding agents query framework-aware code, dependency, and... | 154 | Code Quality & Review |
 | [Manage parallel coding agent sessions and worktrees with CCManager](skills/manage-parallel-coding-agent-sessions-and-worktrees-with-ccmanager/) | Run Claude Code, Codex CLI, Gemini CLI, Cursor Agent, Copilot CLI, Cline CLI, OpenCode, Kimi CLI, and related... | 1.2k | Developer Tools |
 | [Render pull request architecture diagrams with PR Lens](skills/render-pull-request-architecture-diagrams-with-pr-lens/) | Have an agent turn a code diff into validated architecture and data-flow diagrams, then attach the rendered SVGs... | 212 | Code Quality & Review |
-| [Run independent multi-agent build and review flows with OPC](skills/run-independent-multi-agent-build-and-review-flows-with-opc/) | Use OPC as a Claude Code skill to select a task flow, dispatch specialist roles, enforce independent review... | 192 | Code Quality & Review |
 | [Run supervised browser automation workflows with AIHawk](skills/run-one-shot-and-supervised-browser-automation-workflows-with-aihawk/) | Use AIHawk's local supervised browser UI for bounded web research and extraction, with human review before external actions | 30.3k | Browser Automation |
 | [Enforce Coding-Agent Write and Shell Policies with Probity](skills/enforce-coding-agent-write-and-shell-policies-with-probity/) | Use Probity when Claude Code, Codex, or GitHub Copilot CLI should be blocked from unsafe file writes or... | 162 | Security & Verification |
-| [Run WeChat public-account content operations with WeChat Article Skills](skills/run-wechat-public-account-content-operations-with-wechat-article-skills/) | Use WeChat Article Skills to run a confirmed, multi-step WeChat article workflow from topic planning through drafting, review... | 559 | Content Writing & SEO |
 | [Build production-ready n8n workflows with n8n-skills](skills/build-production-ready-n8n-workflows-with-n8n-skills/) | Give Claude Code a routed skill pack for designing, validating, debugging, and deploying n8n workflows through n8n-mcp | 6.2k | Templates & Workflows |
-| [Run Chinese-first academic writing, Office, and scientific workflows with Academic Skills](skills/run-chinese-first-academic-writing-office-and-scientific-workflows-with-academic-skills/) | Install and invoke a Chinese-first academic skill bundle for paper writing, editable Word/PPT research documents, and scientific computing... | 3.4k | Templates & Workflows |
+| [Run evidence-first research investigations in Claude Code with Deepdive](skills/run-evidence-first-research-investigations-in-claude-code-with-deepdive/) | Install Deepdive as a Claude Code skill for structured investigations with plans, source files, claim tracing, dissent checks... | 393 | Research & Scraping |
+| [Run WeChat public-account content operations with WeChat Article Skills](skills/run-wechat-public-account-content-operations-with-wechat-article-skills/) | Use WeChat Article Skills to run a confirmed, multi-step WeChat article workflow from topic planning through drafting, review... | 559 | Content Writing & SEO |
 
 ---
 
@@ -144,12 +144,12 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 247 | Vulnerability scanning, auth setup, compliance |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 239 | Scaffolders, boilerplate generators, workflow templates |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 220 | ETL pipelines, parsing, format conversion |
-| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 201 | Linting, code review, test generators, coverage |
+| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 202 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 178 | Incident response, troubleshooting, system diagnostics |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 167 | Third-party API bridges, webhooks, service connectors |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 155 | Metrics, alerting rules, observability |
-| 🔍 | [**Research & Scraping**](categories/research-scraping/) | 128 | Web research, content discovery, data collection |
+| 🔍 | [**Research & Scraping**](categories/research-scraping/) | 129 | Web research, content discovery, data collection |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 127 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 127 | SDK docs, API parsers, symbol resolvers |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 123 | Web scraping, UI testing, headless browser control |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,968 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,970 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,518 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
