@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-07",
-  "total": 2970,
+  "total": 2971,
   "skills": [
+    {
+      "slug": "map-codebase-context-for-agents-with-ripwire",
+      "name": "Map codebase context for agents with Ripwire",
+      "title": "Map codebase context for agents with Ripwire",
+      "description": "Use Ripwire to give coding agents deterministic repository maps, task-relevant symbols, blast radius, and test guidance before they edit.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/redhat-et/ripwire",
+      "github_repo": "redhat-et/ripwire"
+    },
     {
       "slug": "run-evidence-first-research-investigations-in-claude-code-with-deepdive",
       "name": "Run evidence-first research investigations in Claude Code with Deepdive",

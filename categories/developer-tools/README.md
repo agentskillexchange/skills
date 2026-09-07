@@ -411,6 +411,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Generate and continuously refresh CLAUDE.md, AGENTS.md, MCP config, and editor rules from the live codebase with Caliber](../../skills/generate-and-continuously-refresh-claude-md-agents-md-mcp-config-and-editor-rules-from-the-live-codebase-with-caliber/) | 717 | 6.5k/wk |
 | [Run long-horizon computer-use agent loops with LongHorizon-Harness](../../skills/run-long-horizon-computer-use-agent-loops-with-longhorizon-harness/) | 714 | — |
 | [Store Python project task runners in pyproject.toml with taskipy](../../skills/store-python-project-task-runners-in-pyproject-toml-with-taskipy/) | 714 | — |
+| [Map codebase context for agents with Ripwire](../../skills/map-codebase-context-for-agents-with-ripwire/) | 704 | — |
 | [Run deterministic multi-agent coding workflows with Bernstein](../../skills/run-deterministic-multi-agent-coding-workflows-with-bernstein/) | 704 | — |
 | [Add Claude design-system and accessibility workflows with UX/UI Agent Skills](../../skills/add-claude-design-system-and-accessibility-workflows-with-ux-ui-agent-skills/) | 694 | 1k/wk |
 | [Manage agent runtime capabilities with CAPA](../../skills/manage-agent-runtime-capabilities-with-capa/) | 692 | — |
