@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-09-06
+# Generated: 2026-09-07
 # Total: 2970 skills
 
 ## Run evidence-first research investigations in Claude Code with Deepdive
