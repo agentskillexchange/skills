@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-07",
-  "total": 2971,
+  "total": 2972,
   "skills": [
+    {
+      "slug": "operate-deployments-telemetry-and-sandboxes-through-temps-cli-skills",
+      "name": "Operate deployments, telemetry, and sandboxes through Temps CLI skills",
+      "title": "Operate deployments, telemetry, and sandboxes through Temps CLI skills",
+      "description": "Use Temps when an agent needs to deploy applications, inspect production telemetry, and manage self-hosted sandboxes through a pinned CLI and bundled skills.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/gotempsh/temps",
+      "github_repo": "gotempsh/temps"
+    },
     {
       "slug": "map-codebase-context-for-agents-with-ripwire",
       "name": "Map codebase context for agents with Ripwire",

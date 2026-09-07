@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-07
-# Total: 2971 skills
+# Total: 2972 skills
+
+## Operate deployments, telemetry, and sandboxes through Temps CLI skills
+slug: operate-deployments-telemetry-and-sandboxes-through-temps-cli-skills
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Temps when an agent needs to deploy applications, inspect production telemetry, and manage self-hosted sandboxes through a pinned CLI and bundled skills.
+url: https://agentskillexchange.com/skills/operate-deployments-telemetry-and-sandboxes-through-temps-cli-skills/
 
 ## Map codebase context for agents with Ripwire
 slug: map-codebase-context-for-agents-with-ripwire
