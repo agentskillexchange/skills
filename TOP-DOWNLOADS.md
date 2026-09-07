@@ -17,9 +17,9 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 9 | [Jest Unit Test Scaffolder](skills/jest-unit-test-scaffolder/) | 44.8M/wk | jest | Code Quality & Review |
 | 10 | [Webpack Bundle Analyzer Agent](skills/webpack-bundle-analyzer-agent/) | 44.5M/wk | webpack | Developer Tools |
 | 11 | [Puppeteer Browser Automation Library for Chrome and Firefox](skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | 40.2M/wk | puppeteer | Browser Automation |
-| 12 | [OpenAI Image Gen](skills/openai-image-gen/) | 39M/wk | openai | Image & Creative Automation |
-| 13 | [GraphQL Data Federation Agent](skills/graphql-data-federation-agent/) | 34.2M/wk | graphql | Data Extraction & Transformation |
-| 14 | [SVGO SVG Optimization Tool](skills/svgo-svg-optimization-tool/) | 28.7M/wk | svgo | Image & Creative Automation |
+| 12 | [GraphQL Data Federation Agent](skills/graphql-data-federation-agent/) | 34.2M/wk | graphql | Data Extraction & Transformation |
+| 13 | [SVGO SVG Optimization Tool](skills/svgo-svg-optimization-tool/) | 28.7M/wk | svgo | Image & Creative Automation |
+| 14 | [OpenAI Image Gen](skills/openai-image-gen/) | 28M/wk | openai | Image & Creative Automation |
 | 15 | [PostgreSQL Diagnostic Analyzer](skills/postgresql-diagnostic-analyzer/) | 23.2M/wk | postgresql | Runbooks & Diagnostics |
 | 16 | [Cheerio DOM Extraction Pipeline](skills/cheerio-dom-extraction-pipeline/) | 19.6M/wk | cheerio | Data Extraction & Transformation |
 | 17 | [Normalize international phone numbers into E.164 before CRM imports or messaging workflows](skills/normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows/) | 15.6M/wk | libphonenumber-js | Integrations & Connectors |
@@ -35,27 +35,27 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 27 | [Drizzle ORM TypeScript SQL Database Toolkit](skills/drizzle-orm-typescript-sql-database-toolkit/) | 7M/wk | drizzle-orm | Developer Tools |
 | 28 | [Octokit JavaScript GitHub SDK for REST GraphQL and App Automation](skills/octokit-javascript-github-sdk-rest-graphql-app-automation/) | 7M/wk | octokit | Library & API Reference |
 | 29 | [Datadog APM Anomaly Detector](skills/datadog-apm-anomaly-detector/) | 6.6M/wk | datadog | Monitoring & Alerts |
-| 30 | [Twilio MCP Server](skills/twilio-mcp-server/) | 5.9M/wk | twilio | Integrations & Connectors |
-| 31 | [API Client Generator Skill](skills/api-client-generator-skill/) | 5.7M/wk | openapi-generator | Developer Tools |
-| 32 | [SQLite Analyst](skills/sqlite-analyst/) | 5.5M/wk | sqlite | Developer Tools |
+| 30 | [API Client Generator Skill](skills/api-client-generator-skill/) | 5.7M/wk | openapi-generator | Developer Tools |
+| 31 | [SQLite Analyst](skills/sqlite-analyst/) | 5.5M/wk | sqlite | Developer Tools |
+| 32 | [Twilio MCP Server](skills/twilio-mcp-server/) | 5.3M/wk | twilio | Integrations & Connectors |
 | 33 | [PostHog Product Analytics and Feature Flags SDK](skills/posthog-product-analytics-and-feature-flags-sdk/) | 4.8M/wk | posthog-js | Monitoring & Alerts |
 | 34 | [TypeDoc TypeScript API Documentation Generator](skills/typedoc-typescript-api-documentation-generator/) | 3.7M/wk | typedoc | Library & API Reference |
 | 35 | [Stagehand AI Browser Automation Framework](skills/stagehand-ai-browser-automation-framework-2/) | 3.4M/wk | stagehand | Browser Automation |
 | 36 | [AWS CDK Scaffolder](skills/aws-cdk-scaffolder/) | 3.3M/wk | aws | Templates & Workflows |
-| 37 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 3.2M/wk | datadog-api-client-typescript | Monitoring & Alerts |
-| 38 | [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | 2.8M/wk | javascript | Security & Verification |
-| 39 | [Microsoft Playwright MCP](skills/microsoft-playwright-mcp/) | 2.8M/wk | playwright-mcp | Browser Automation |
-| 40 | [WebdriverIO Next-Gen Browser and Mobile Automation Framework](skills/webdriverio-browser-mobile-automation-framework/) | 2.7M/wk | webdriverio | Browser Automation |
-| 41 | [JSDoc JavaScript API Documentation Generator](skills/jsdoc-javascript-api-documentation-generator/) | 2.7M/wk | jsdoc | Library & API Reference |
-| 42 | [Snyk Container Image Analyzer](skills/snyk-container-image-analyzer/) | 2.6M/wk | snyk | Security & Verification |
-| 43 | [Apache Kafka Schema Registry Extractor](skills/kafka-schema-registry-extractor/) | 2.5M/wk | kafka | Data Extraction & Transformation |
-| 44 | [semantic-release Automated Versioning and Release Publishing](skills/semantic-release-automated-versioning-and-release-publishing/) | 2.5M/wk | semantic-release | CI/CD Integrations |
-| 45 | [Slack Bolt Event Subscription Debugger](skills/slack-bolt-event-subscription-debugger/) | 2.5M/wk | slack | Integrations & Connectors |
-| 46 | [Vercel Deployment Agent](skills/vercel-deployment-agent/) | 2.4M/wk | vercel | Templates & Workflows |
-| 47 | [Pulumi Drift Detector & Reconciler](skills/pulumi-drift-detector-reconciler/) | 2.1M/wk | pulumi | Runbooks & Diagnostics |
-| 48 | [LangChain MCP Server](skills/langchain-mcp-server/) | 2M/wk | langchain | Developer Tools |
-| 49 | [Astro Content-Driven Web Framework](skills/astro-content-driven-web-framework/) | 2M/wk | astro | Developer Tools |
-| 50 | [Selenium Grid Auto-Scaling Orchestrator](skills/selenium-grid-auto-scaling-orchestrator/) | 1.9M/wk | selenium | Browser Automation |
+| 37 | [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | 2.8M/wk | javascript | Security & Verification |
+| 38 | [Microsoft Playwright MCP](skills/microsoft-playwright-mcp/) | 2.8M/wk | playwright-mcp | Browser Automation |
+| 39 | [WebdriverIO Next-Gen Browser and Mobile Automation Framework](skills/webdriverio-browser-mobile-automation-framework/) | 2.7M/wk | webdriverio | Browser Automation |
+| 40 | [JSDoc JavaScript API Documentation Generator](skills/jsdoc-javascript-api-documentation-generator/) | 2.7M/wk | jsdoc | Library & API Reference |
+| 41 | [Snyk Container Image Analyzer](skills/snyk-container-image-analyzer/) | 2.6M/wk | snyk | Security & Verification |
+| 42 | [Apache Kafka Schema Registry Extractor](skills/kafka-schema-registry-extractor/) | 2.5M/wk | kafka | Data Extraction & Transformation |
+| 43 | [semantic-release Automated Versioning and Release Publishing](skills/semantic-release-automated-versioning-and-release-publishing/) | 2.5M/wk | semantic-release | CI/CD Integrations |
+| 44 | [Slack Bolt Event Subscription Debugger](skills/slack-bolt-event-subscription-debugger/) | 2.5M/wk | slack | Integrations & Connectors |
+| 45 | [Vercel Deployment Agent](skills/vercel-deployment-agent/) | 2.4M/wk | vercel | Templates & Workflows |
+| 46 | [Pulumi Drift Detector & Reconciler](skills/pulumi-drift-detector-reconciler/) | 2.1M/wk | pulumi | Runbooks & Diagnostics |
+| 47 | [LangChain MCP Server](skills/langchain-mcp-server/) | 2M/wk | langchain | Developer Tools |
+| 48 | [Astro Content-Driven Web Framework](skills/astro-content-driven-web-framework/) | 2M/wk | astro | Developer Tools |
+| 49 | [Selenium Grid Auto-Scaling Orchestrator](skills/selenium-grid-auto-scaling-orchestrator/) | 1.9M/wk | selenium | Browser Automation |
+| 50 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 1.9M/wk | datadog-api-client-typescript | Monitoring & Alerts |
 
 ---
 
