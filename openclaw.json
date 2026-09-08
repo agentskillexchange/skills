@@ -2,8 +2,30 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-08",
-  "total": 2974,
+  "total": 2976,
   "skills": [
+    {
+      "slug": "rewrite-agent-facing-english-with-asd-ste100-discipline",
+      "name": "Rewrite agent-facing English with ASD-STE100 discipline",
+      "title": "Rewrite agent-facing English with ASD-STE100 discipline",
+      "description": "Use this Claude Code skill to rewrite ambiguous instructions, errors, and tool descriptions into controlled technical English for agents.",
+      "category": "Templates & Workflows",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/danyuchn/asd-ste100-skill",
+      "github_repo": "danyuchn/asd-ste100-skill"
+    },
+    {
+      "slug": "prepare-agent-ready-document-memory-with-knowhere",
+      "name": "Prepare agent-ready document memory with Knowhere",
+      "title": "Prepare agent-ready document memory with Knowhere",
+      "description": "Use Knowhere to parse complex documents into hierarchy-native, citation-backed memory that agents can retrieve and navigate.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Ontos-AI/knowhere",
+      "github_repo": "Ontos-AI/knowhere"
+    },
     {
       "slug": "draw-and-verify-excalidraw-diagrams-through-an-agent-canvas",
       "name": "Draw and verify Excalidraw diagrams through an agent canvas",

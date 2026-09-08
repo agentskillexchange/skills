@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-08
-# Total: 2974 skills
+# Total: 2976 skills
+
+## Rewrite agent-facing English with ASD-STE100 discipline
+slug: rewrite-agent-facing-english-with-asd-ste100-discipline
+category: Templates & Workflows
+framework: Claude Code
+verification: Security Reviewed
+description: Use this Claude Code skill to rewrite ambiguous instructions, errors, and tool descriptions into controlled technical English for agents.
+url: https://agentskillexchange.com/skills/rewrite-agent-facing-english-with-asd-ste100-discipline/
+
+## Prepare agent-ready document memory with Knowhere
+slug: prepare-agent-ready-document-memory-with-knowhere
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Knowhere to parse complex documents into hierarchy-native, citation-backed memory that agents can retrieve and navigate.
+url: https://agentskillexchange.com/skills/prepare-agent-ready-document-memory-with-knowhere/
 
 ## Draw and verify Excalidraw diagrams through an agent canvas
 slug: draw-and-verify-excalidraw-diagrams-through-an-agent-canvas

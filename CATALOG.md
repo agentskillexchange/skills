@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2974 published skills** across **17 categories** · 2,523 security reviewed · Updated 2026-09-08 13:26 UTC
+> **2976 published skills** across **17 categories** · 2,523 security reviewed · Updated 2026-09-08 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -735,7 +735,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (239 skills)
+### 📄 Templates & Workflows (240 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -887,6 +887,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Design and Audit Agent Harnesses with Agents Best Practices](skills/design-and-audit-agent-harnesses-with-agents-best-practices/) | Use Agents Best Practices when an agent should produce concrete harness designs, permission models, memory plans,… | Security Reviewed | 2.2k | — |
 | [Turn product requirements into executable Claude Code plans and validation loops with PRPs Agentic Eng](skills/turn-product-requirements-into-executable-claude-code-plans-and-validation-loops-with-prps-agentic-eng/) | Generate PRDs, implementation plans, validation loops, issue investigations, and autonomous fix cycles inside Claude… | Security Reviewed | 2.1k | — |
 | [Layer self-correcting memory and worktree routines into Claude Code with Pro Workflow](skills/layer-self-correcting-memory-and-worktree-routines-into-claude-code-with-pro-workflow/) | Use Pro Workflow when Claude Code sessions keep repeating the same mistakes and you want corrections, quality gates,… | Security Reviewed | 1.9k | 42/wk |
+| [Rewrite agent-facing English with ASD-STE100 discipline](skills/rewrite-agent-facing-english-with-asd-ste100-discipline/) | Use this Claude Code skill to rewrite ambiguous instructions, errors, and tool descriptions into controlled… | Security Reviewed | 1.9k | — |
 | [Netlify Site Manager](skills/netlify-site-manager/) | Netlify Site Manager is built around Netlify deployment platform. The underlying ecosystem is represented by… | Security Reviewed | 1.8k | 259.3k/wk |
 | [Run scheduled Ruby agent jobs with Sidekiq Scheduler](skills/run-scheduled-ruby-agent-jobs-with-sidekiq-scheduler/) | Use Sidekiq Scheduler to run recurring Ruby/Sidekiq agent jobs for refreshes, evaluations, reports, maintenance, and… | Security Reviewed | 1.8k | — |
 | [Regenerate Helm chart READMEs from values and comments before release](skills/regenerate-helm-chart-readmes-from-values-and-comments-before-release/) | Uses helm-docs to rebuild Helm chart documentation from Chart.yaml, values.yaml, and inline comments so README files… | Security Reviewed | 1.7k | — |
@@ -982,7 +983,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown,… | Published | — | — |
 
 
-### 🔄 Data Extraction & Transformation (220 skills)
+### 🔄 Data Extraction & Transformation (221 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -1140,6 +1141,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Plan and preview warehouse SQL model changes before rollout with SQLMesh](skills/plan-and-preview-warehouse-sql-model-changes-before-rollout-with-sqlmesh/) | Compare SQL model changes, preview backfills and downstream impact, and stage safer warehouse rollouts before execution. | Security Reviewed | 3k | — |
 | [XML XSLT Transform Pipeline](skills/xml-xslt-transform-pipeline/) | Applies chained XSLT transformations to XML documents using lxml and Saxon-JS. Supports XSLT 3.0 streaming, XPath… | Security Reviewed | 3k | — |
 | [Prepare local retrieval embeddings with FastEmbed](skills/prepare-local-retrieval-embeddings-with-fastembed/) | Generate dense, sparse, image, and reranking embeddings locally before writing vectors into Qdrant or another… | Security Reviewed | 3k | — |
+| [Prepare agent-ready document memory with Knowhere](skills/prepare-agent-ready-document-memory-with-knowhere/) | Use Knowhere to parse complex documents into hierarchy-native, citation-backed memory that agents can retrieve and… | Security Reviewed | 3k | — |
 | [Postgres MCP Pro](skills/postgres-mcp-pro/) | Query, analyze, and tune PostgreSQL databases through your AI agent with safe access controls. Beyond basic SQL… | Security Reviewed | 2.8k | — |
 | [Convert complex PDFs and document images into agent-ready Markdown with OCRFlux](skills/convert-complex-pdfs-and-document-images-into-agent-ready-markdown-with-ocrflux/) | Use OCRFlux when agents need local PDF or image parsing into Markdown/JSONL with layout-aware OCR, table handling,… | Security Reviewed | 2.5k | — |
 | [Diff nested JSON, API responses, and config snapshots before approving changes](skills/diff-nested-json-api-responses-and-config-snapshots-before-approving-changes/) | Uses DeepDiff to compare structured objects deeply and return precise additions, removals, value changes, and deltas… | Security Reviewed | 2.5k | — |
