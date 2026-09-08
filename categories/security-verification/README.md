@@ -127,6 +127,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Benchmark Kubernetes clusters against CIS controls with kube-bench](../../skills/benchmark-kubernetes-clusters-against-cis-controls-with-kube-bench/) | 8k | — |
 | [Scan Python code for risky security patterns with Bandit before review or release](../../skills/scan-python-code-for-risky-security-patterns-with-bandit-before-review-or-release/) | 7.9k | — |
 | [Check Kubernetes hosts against CIS guidance with kube-bench before audit or hardening work](../../skills/check-kubernetes-hosts-against-cis-guidance-with-kube-bench-before-audit-or-hardening-work/) | 7.8k | — |
+| [Extract Android app APIs with a Claude Code reverse-engineering skill](../../skills/extract-android-app-apis-with-a-claude-code-reverse-engineering-skill/) | 7.7k | — |
 | [Feroxbuster Fast Recursive Content Discovery Tool in Rust](../../skills/feroxbuster-content-discovery/) | 7.6k | — |
 | [Scan LLM systems for jailbreaks, prompt injections, and unsafe behaviors with garak](../../skills/scan-llm-systems-for-jailbreaks-prompt-injections-and-unsafe-behaviors-with-garak/) | 7.5k | — |
 | [Probe Kubernetes clusters with kube-hunter for exposed services and misconfigurations](../../skills/probe-kubernetes-clusters-with-kube-hunter-for-exposed-services-and-misconfigurations/) | 7.3k | — |

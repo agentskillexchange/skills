@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-08
-# Total: 2972 skills
+# Total: 2974 skills
+
+## Draw and verify Excalidraw diagrams through an agent canvas
+slug: draw-and-verify-excalidraw-diagrams-through-an-agent-canvas
+category: Image & Creative Automation
+framework: MCP
+verification: Published
+description: Use mcp_excalidraw to let coding agents create, inspect, revise, export, and commit editable Excalidraw diagrams from a local canvas.
+url: https://agentskillexchange.com/skills/draw-and-verify-excalidraw-diagrams-through-an-agent-canvas/
+
+## Extract Android app APIs with a Claude Code reverse-engineering skill
+slug: extract-android-app-apis-with-a-claude-code-reverse-engineering-skill
+category: Security & Verification
+framework: Claude Code
+verification: Security Reviewed
+description: Use this Claude Code skill to decompile APK, XAPK, JAR, and AAR files, recover Kotlin names, and extract Android HTTP API behavior for authorized…
+url: https://agentskillexchange.com/skills/extract-android-app-apis-with-a-claude-code-reverse-engineering-skill/
 
 ## Operate deployments, telemetry, and sandboxes through Temps CLI skills
 slug: operate-deployments-telemetry-and-sandboxes-through-temps-cli-skills

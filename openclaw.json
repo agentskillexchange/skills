@@ -2,8 +2,30 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-08",
-  "total": 2972,
+  "total": 2974,
   "skills": [
+    {
+      "slug": "draw-and-verify-excalidraw-diagrams-through-an-agent-canvas",
+      "name": "Draw and verify Excalidraw diagrams through an agent canvas",
+      "title": "Draw and verify Excalidraw diagrams through an agent canvas",
+      "description": "Use mcp_excalidraw to let coding agents create, inspect, revise, export, and commit editable Excalidraw diagrams from a local canvas.",
+      "category": "Image & Creative Automation",
+      "framework": "MCP",
+      "verification": "listed",
+      "source_url": "https://github.com/yctimlin/mcp_excalidraw",
+      "github_repo": "yctimlin/mcp_excalidraw"
+    },
+    {
+      "slug": "extract-android-app-apis-with-a-claude-code-reverse-engineering-skill",
+      "name": "Extract Android app APIs with a Claude Code reverse-engineering skill",
+      "title": "Extract Android app APIs with a Claude Code reverse-engineering skill",
+      "description": "Use this Claude Code skill to decompile APK, XAPK, JAR, and AAR files, recover Kotlin names, and extract Android HTTP API behavior for authorized…",
+      "category": "Security & Verification",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill",
+      "github_repo": "SimoneAvogadro/android-reverse-engineering-skill"
+    },
     {
       "slug": "operate-deployments-telemetry-and-sandboxes-through-temps-cli-skills",
       "name": "Operate deployments, telemetry, and sandboxes through Temps CLI skills",

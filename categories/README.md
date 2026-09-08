@@ -1,11 +1,11 @@
 # Categories
 
-> **2972 skills** across **17 categories**
+> **2974 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
 | 🛠️ | [**Developer Tools**](developer-tools/) | **463** | CLI helpers, dev environment setup, productivity utilities, and devel... |
-| 🔒 | [**Security & Verification**](security-verification/) | **247** | Auth setup, vulnerability scanning, compliance checks, and security a... |
+| 🔒 | [**Security & Verification**](security-verification/) | **248** | Auth setup, vulnerability scanning, compliance checks, and security a... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **239** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **220** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **202** | Linting rules, review checklists, code standards enforcement, and qua... |
@@ -17,8 +17,8 @@
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **127** | Email automation, calendar management, task coordination, and product... |
 | 📚 | [**Library & API Reference**](library-api-reference/) | **127** | SDK documentation, API guides, framework reference material, and libr... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **123** | Web scraping, UI testing, headless browser control, and browser-based... |
+| 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **109** | Image generation, asset processing, design automation, and creative t... |
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **109** | Audio/video processing, speech-to-text, media conversion, and transcr... |
-| 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **108** | Image generation, asset processing, design automation, and creative t... |
 | 📰 | [**WordPress & CMS**](wordpress-cms/) | **96** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
 | ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **91** | Blog posts, SEO optimization, content strategy, and writing assistance. |
 
