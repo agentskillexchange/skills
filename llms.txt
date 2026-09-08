@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-09-07
+# Generated: 2026-09-08
 # Total: 2972 skills
 
 ## Operate deployments, telemetry, and sandboxes through Temps CLI skills
