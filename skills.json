@@ -39425,7 +39425,7 @@
       "description": "Diagnoses ArgoCD application sync failures and degraded states using the ArgoCD REST API and argocd CLI. Queries /api/v1/applications/{name} for sync status, resource health, and…",
       "category": "Runbooks & Diagnostics",
       "framework": "OpenClaw",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 22593,
         "license": "Apache-2.0"
@@ -39450,7 +39450,7 @@
       "description": "Diagnoses CrashLoopBackOff pods in Kubernetes clusters using kubectl and the Kubernetes API. Fetches pod events, container logs, and resource limits via the /api/v1/namespaces/{ns}/pods/{name}/log endpoint.…",
       "category": "Runbooks & Diagnostics",
       "framework": "OpenClaw",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 121700,
         "license": "Apache-2.0"
@@ -39465,7 +39465,7 @@
       "description": "Parses Terraform plan JSON output to summarize resource changes, detect destructive actions, and flag policy violations. Uses the terraform show -json command and the…",
       "category": "CI/CD Integrations",
       "framework": "Cursor",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 48146
       },
@@ -39479,7 +39479,7 @@
       "description": "Lints Jenkins Declarative and Scripted pipeline syntax using the Jenkins REST API and the Jenkins CLI jar. Checks Jenkinsfile syntax against a live or…",
       "category": "CI/CD Integrations",
       "framework": "Codex",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 25189,
         "license": "MIT"
@@ -39518,7 +39518,7 @@
       "description": "Extracts query history and performance metadata from Snowflake using the Snowflake Python Connector and INFORMATION_SCHEMA.QUERY_HISTORY view. Identifies expensive queries by credits consumed, data scanned,…",
       "category": "Data Extraction & Transformation",
       "framework": "ChatGPT Agents",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 724,
         "license": "Apache-2.0"
@@ -39563,7 +39563,7 @@
       "description": "Diagnoses firing AWS CloudWatch alarms by querying CloudWatch Metrics, alarm history, and related AWS Config resource snapshots via the AWS SDK. Correlates metric anomalies…",
       "category": "Runbooks & Diagnostics",
       "framework": "Gemini",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 3607,
         "license": "Apache-2.0"
@@ -39578,7 +39578,7 @@
       "description": "Automates diagnosis of CrashLoopBackOff pods using kubectl commands wrapped via the Kubernetes API server. Fetches recent events, container logs, and resource quota status to…",
       "category": "Runbooks & Diagnostics",
       "framework": "Claude Agents",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 121700,
         "license": "Apache-2.0"
@@ -39593,7 +39593,7 @@
       "description": "Parses Jenkins build console logs via the Jenkins Remote Access API to extract failure patterns, stack traces, and flaky test signatures. Uses regex heuristics…",
       "category": "Runbooks & Diagnostics",
       "framework": "ChatGPT Agents",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 25189,
         "license": "MIT"
@@ -39608,7 +39608,7 @@
       "description": "Audits CircleCI workflow spend using the CircleCI Insights API and machine-type pricing tables. Identifies jobs running on oversized resource classes and recommends downgrades using…",
       "category": "CI/CD Integrations",
       "framework": "OpenClaw",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 843
       },
@@ -39656,7 +39656,7 @@
       "description": "Pulls MRR, churn, and LTV metrics from the Stripe Data API using the stripe Node.js SDK and transforms the data using Apache Arrow. Aggregated…",
       "category": "Data Extraction & Transformation",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 4385,
         "npm_weekly_downloads": 9280426,
@@ -39732,7 +39732,7 @@
       "description": "Uses the Notion SDK and Notion AI's /v1/pages and /v1/blocks/children endpoints to retrieve page content and invoke AI-powered summarization. Extracted action items are appended…",
       "category": "Calendar, Email & Productivity",
       "framework": "Claude Code",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 5582,
         "npm_weekly_downloads": 1182949,
@@ -39758,7 +39758,7 @@
       "description": "Queries Notion databases and pages via the Notion API v1, then renders content blocks into PDF via WeasyPrint. Extracts text, tables, and inline images…",
       "category": "Templates & Workflows",
       "framework": "Codex",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 5582,
         "npm_weekly_downloads": 1182949,
@@ -39784,7 +39784,7 @@
       "description": "Deploys models from Hugging Face Hub to Inference Endpoints using the huggingface_hub client and REST API. Monitors endpoint health and autoscaling status and streams…",
       "category": "CI/CD Integrations",
       "framework": "Codex",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 159358,
         "license": "Apache-2.0"
@@ -39819,7 +39819,7 @@
       "description": "Polls the X API v2 trending topics endpoint every 15 minutes and compares against a keyword watchlist stored in Redis. When a trend matches,…",
       "category": "Templates & Workflows",
       "framework": "OpenClaw",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 74154
       },
@@ -39833,7 +39833,7 @@
       "description": "Listens to Discord gateway events, passing flagged messages to the OpenAI Moderation API and a custom classifier to detect spam and coordinated inauthentic behavior.…",
       "category": "Security & Verification",
       "framework": "Cursor",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 26668,
         "npm_weekly_downloads": 563530,
@@ -39904,7 +39904,7 @@
       "description": "Runs pulumi refresh on schedule to detect drift between live cloud resources and Pulumi state. Classifies drift by severity and opens a Jira ticket…",
       "category": "Runbooks & Diagnostics",
       "framework": "Codex",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 25042,
         "npm_weekly_downloads": 2073384,
@@ -39997,7 +39997,7 @@
       "description": "Reads from and writes to Notion databases using the official Notion API v1, supporting filtered queries, property mapping, and bulk page creation from structured…",
       "category": "Integrations & Connectors",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 5582,
         "npm_weekly_downloads": 1182949,
@@ -40013,7 +40013,7 @@
       "description": "Uses boto3 and the AWS IAM Access Analyzer API to enumerate all roles, policies, and users, then flags permission combinations that could allow privilege…",
       "category": "Security & Verification",
       "framework": "Claude Code",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 3607,
         "license": "Apache-2.0"
@@ -40028,7 +40028,7 @@
       "description": "Uses the Stripe API to pull charge, refund, dispute, and payout records within a configurable date window and reconciles them against expected revenue figures.…",
       "category": "Integrations & Connectors",
       "framework": "Codex",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 4385,
         "npm_weekly_downloads": 9280426,
@@ -40044,7 +40044,7 @@
       "description": "Connects to the Slack Web API to fetch unread messages across specified channels and surfaces a prioritized digest of action items, decisions, and blockers.…",
       "category": "Integrations & Connectors",
       "framework": "OpenClaw",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 2900,
         "npm_weekly_downloads": 2603193,
@@ -40120,7 +40120,7 @@
       "description": "Queries CircleCI Insights API to identify test cases that flip between pass and fail across recent runs. Produces a ranked list by failure rate…",
       "category": "CI/CD Integrations",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 843
       },
@@ -40163,7 +40163,7 @@
       "description": "Runs Trivy against a Docker image and produces a prioritized CVE list grouped by severity with fix availability. Filters out CVEs with no available…",
       "category": "CI/CD Integrations",
       "framework": "Codex",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 71492,
         "license": "Apache-2.0"
@@ -40220,7 +40220,7 @@
       "description": "Stripe Reporting Agent is built around Stripe payments platform. The underlying ecosystem is represented by stripe/stripe-node (4,377+ GitHub stars). It gives an agent a…",
       "category": "Integrations & Connectors",
       "framework": "Custom Agents",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 4385,
         "npm_weekly_downloads": 9280426,
@@ -40236,7 +40236,7 @@
       "description": "Supabase MCP Server is built around Supabase developer platform. The underlying ecosystem is represented by supabase/supabase (99,546+ GitHub stars). It gives an agent a…",
       "category": "Developer Tools",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 100812,
         "npm_weekly_downloads": 83526480,
@@ -40252,7 +40252,7 @@
       "description": "DynamoDB Manager is built around Amazon DynamoDB NoSQL database. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an agent a…",
       "category": "Developer Tools",
       "framework": "Custom Agents",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 3607,
         "npm_weekly_downloads": 30515055,
@@ -40268,7 +40268,7 @@
       "description": "SQLite Analyst is built around SQLite embedded database. The underlying ecosystem is represented by WiseLibs/better-sqlite3 (7,041+ GitHub stars). It gives an agent a more…",
       "category": "Developer Tools",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 7111,
         "npm_weekly_downloads": 5530063,
@@ -40284,7 +40284,7 @@
       "description": "MySQL Query Agent is built around MySQL relational database. The underlying ecosystem is represented by sidorares/node-mysql2 (4,348+ GitHub stars). It gives an agent a…",
       "category": "Developer Tools",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 4355,
         "npm_weekly_downloads": 8891567,
@@ -40314,7 +40314,7 @@
       "description": "Redis MCP Server is built around Redis in-memory datastore. The underlying ecosystem is represented by redis/redis (73,523+ GitHub stars). It gives an agent a…",
       "category": "Developer Tools",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 73815
       },
@@ -40468,7 +40468,7 @@
       "description": "Notion AI Workspace is built around Notion workspace and database platform. The underlying ecosystem is represented by makenotion/notion-sdk-js (5,562+ GitHub stars). It gives an…",
       "category": "Calendar, Email & Productivity",
       "framework": "Custom Agents",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 5582,
         "npm_weekly_downloads": 1182949,
@@ -40544,7 +40544,7 @@
       "description": "Terraform Module Registry is built around Terraform infrastructure as code. The underlying ecosystem is represented by hashicorp/terraform (47,996+ GitHub stars). It gives an agent…",
       "category": "Templates & Workflows",
       "framework": "Custom Agents",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 48146
       },
@@ -40675,7 +40675,7 @@
       "description": "Vercel Deployment Agent is built around Vercel deployment platform. The underlying ecosystem is represented by vercel/vercel (15,126+ GitHub stars). It gives an agent a…",
       "category": "Templates & Workflows",
       "framework": "Custom Agents",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 15296,
         "npm_weekly_downloads": 2351487,
@@ -40795,7 +40795,7 @@
       "description": "Snowflake MCP is built around Snowflake cloud data warehouse. It gives an agent a more technical and reliable way to work with the tool…",
       "category": "Data Extraction & Transformation",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 724,
         "license": "Apache-2.0"
@@ -40881,7 +40881,7 @@
       "description": "gRPC Service Tool is built around gRPC remote procedure call framework. The underlying ecosystem is represented by grpc/grpc-node (4,816+ GitHub stars). It gives an…",
       "category": "Library & API Reference",
       "framework": "Custom Agents",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 4822,
         "npm_weekly_downloads": 147394194,
@@ -40929,7 +40929,7 @@
       "description": "Swagger / OpenAPI Validator is built around Swagger/OpenAPI tooling. The underlying ecosystem is represented by swagger-api/swagger-ui (28,702+ GitHub stars). It gives an agent a…",
       "category": "Library & API Reference",
       "framework": "Claude Code",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 28756,
         "npm_weekly_downloads": 149905,
@@ -40975,7 +40975,7 @@
       "description": "Kubernetes Troubleshooting Runbook is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a…",
       "category": "Monitoring & Alerts",
       "framework": "Custom Agents",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 122590,
         "license": "Apache-2.0"
@@ -41005,7 +41005,7 @@
       "description": "Snowflake MCP Server is built around Snowflake cloud data warehouse. It gives an agent a more technical and reliable way to work with the…",
       "category": "Data Extraction & Transformation",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 726,
         "license": "Apache-2.0"
@@ -41065,7 +41065,7 @@
       "description": "Docker Compose Generator Skill is built around Docker container platform. The underlying ecosystem is represented by moby/moby (71,560+ GitHub stars). It gives an agent…",
       "category": "Developer Tools",
       "framework": "Custom Agents",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 71613,
         "license": "Apache-2.0"
@@ -41094,7 +41094,7 @@
       "description": "LlamaIndex MCP Server is built around LlamaIndex framework for LLM data access. The underlying ecosystem is represented by run-llama/llama_index (47,942+ GitHub stars). It gives…",
       "category": "Developer Tools",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 49818,
         "license": "MIT"

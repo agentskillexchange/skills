@@ -3,8 +3,9 @@ name: "MySQL Query Agent"
 slug: "mysql-query-agent"
 description: ""
 github_stars: 4355
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/sidorares/node-mysql2"
+author: "Andrey Sidorov"
 category: "Developer Tools"
 framework: "MCP"
 tool_ecosystem:
@@ -20,22 +21,9 @@ tool_ecosystem:
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install --save mysql2
-- npm install --save-dev @types/node
-
-Requirements and caveats from upstream:
-- [node-version-image]: https://img.shields.io/node/v/mysql2.svg
-- [node-version-url]: https://nodejs.org/en/download
-- [license-url]: https://github.com/sidorares/node-mysql2/blob/master/License
-
-Basic usage or getting-started notes:
-- MySQL2 is free from native bindings and can be installed on Linux, Mac OS or Windows without any issues.
-- bash
-- For TypeScript documentation and examples, see [here][docs-typescript-docs].
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
 - Source: https://github.com/sidorares/node-mysql2
-- Extracted from upstream docs: https://raw.githubusercontent.com/sidorares/node-mysql2/HEAD/README.md
 
 ## Source
 

@@ -3,8 +3,9 @@ name: "gRPC Service Tool"
 slug: "grpc-service-tool"
 description: ""
 github_stars: 4822
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/grpc/grpc-node"
+author: "grpc"
 category: "Library & API Reference"
 framework: "Custom Agents"
 tool_ecosystem:
@@ -20,19 +21,9 @@ tool_ecosystem:
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm package: [@grpc/grpc-js](https://www.npmjs.com/package/@grpc/grpc-js)
-- npm package: [grpc](https://www.npmjs.com/package/grpc).
-- npm package: [@grpc/proto-loader](https://www.npmjs.com/package/@grpc/proto-loader)
-- npm package: [grpc-tools](https://www.npmjs.com/package/grpc-tools)
-
-Requirements and caveats from upstream:
-- # gRPC on Node.js
-- For a comparison of the features available in these two libraries, see [this document](https://github.com/grpc/grpc-node/tree/master/PACKAGE-COMPARISON.md)
-- Directory: [packages/grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js)
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
 - Source: https://github.com/grpc/grpc-node
-- Extracted from upstream docs: https://raw.githubusercontent.com/grpc/grpc-node/HEAD/README.md
 
 ## Source
 

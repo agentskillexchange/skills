@@ -3,8 +3,9 @@ name: "LlamaIndex MCP Server"
 slug: "llamaindex-mcp-server"
 description: ""
 github_stars: 49818
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/run-llama/llama_index"
+author: "LlamaIndex"
 category: "Developer Tools"
 framework: "MCP"
 tool_ecosystem:
@@ -18,24 +19,9 @@ tool_ecosystem:
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install llama-index-core
-- pip install llama-index-llms-openai
-- pip install llama-index-llms-ollama
-- pip install llama-index-embeddings-huggingface
-
-Requirements and caveats from upstream:
-- [LlamaParse](https://developers.llamaindex.ai/python/cloud/llamaparse/?utm_medium=li_github&utm_source=github&utm_campaign=2026--)
-- [LlamaIndex OSS](https://developers.llamaindex.ai/python/framework/?utm_medium=li_github&utm_source=github&utm_campaign=2026--)
-- [LlamaAgents](https://developers.llamaindex.ai/python/llamaagents/overview/?utm_medium=li_github&utm_source=github&utm_campaign=2026--)
-
-Basic usage or getting-started notes:
-- [![Build](https://github.com/run-llama/llama_index/actions/workflows/build_package.yml/badge.svg)](https://github.com/run-llama/llama_index/actions/workflows/build_package.yml)
-- # concrete example
-- ## 💻 Example Usage
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
 - Source: https://github.com/run-llama/llama_index
-- Extracted from upstream docs: https://raw.githubusercontent.com/run-llama/llama_index/HEAD/README.md
 
 ## Source
 

@@ -5,6 +5,7 @@ description: "Traces job dependency chains in GitLab CI pipelines using the GitL
 github_stars: 24298
 verification: "security_reviewed"
 source: "https://github.com/gitlabhq/gitlabhq"
+author: "GitLab"
 category: "CI/CD Integrations"
 framework: "Codex"
 tool_ecosystem:

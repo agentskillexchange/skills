@@ -3,8 +3,9 @@ name: "Terraform Module Registry"
 slug: "terraform-module-registry"
 description: ""
 github_stars: 48146
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/hashicorp/terraform"
+author: "HashiCorp"
 category: "Templates & Workflows"
 framework: "Custom Agents"
 tool_ecosystem:
@@ -18,13 +19,9 @@ tool_ecosystem:
 
 ## Installation
 
-Basic usage or getting-started notes:
-- Documentation is available on the [Terraform website](https://developer.hashicorp.com/terraform):
-- [Introduction](https://developer.hashicorp.com/terraform/intro)
-- [Documentation](https://developer.hashicorp.com/terraform/docs)
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
 - Source: https://github.com/hashicorp/terraform
-- Extracted from upstream docs: https://raw.githubusercontent.com/hashicorp/terraform/HEAD/README.md
 
 ## Source
 

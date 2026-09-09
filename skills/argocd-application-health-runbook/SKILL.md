@@ -3,8 +3,9 @@ name: "ArgoCD Application Health Runbook"
 slug: "argocd-application-health-runbook"
 description: "Diagnoses ArgoCD application sync failures and degraded states using the ArgoCD REST API and argocd CLI. Queries /api/v1/applications/{name} for sync status, resource health, and operation state. Provides automated remediation steps for OutOfSync, Degraded, and Missing resource conditions."
 github_stars: 22593
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/argoproj/argo-cd"
+author: "Argo Project"
 category: "Runbooks & Diagnostics"
 framework: "OpenClaw"
 tool_ecosystem:
@@ -18,12 +19,9 @@ Diagnoses ArgoCD application sync failures and degraded states using the ArgoCD 
 
 ## Installation
 
-Basic usage or getting-started notes:
-- [Couchbase - How To Run a Database Cluster in Kubernetes Using Argo CD](https://youtu.be/nkPoPaVzExY)
-- [Getting Started with ArgoCD for GitOps Deployments](https://youtu.be/AvLuplh1skA)
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
 - Source: https://github.com/argoproj/argo-cd
-- Extracted from upstream docs: https://raw.githubusercontent.com/argoproj/argo-cd/HEAD/README.md
 
 ## Source
 

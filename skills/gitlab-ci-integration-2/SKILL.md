@@ -5,6 +5,7 @@ description: ""
 github_stars: 24298
 verification: "security_reviewed"
 source: "https://github.com/gitlabhq/gitlabhq"
+author: "GitLab"
 category: "CI/CD Integrations"
 framework: "Claude Code"
 tool_ecosystem:

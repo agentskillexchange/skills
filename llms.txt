@@ -22423,7 +22423,7 @@ url: https://agentskillexchange.com/skills/github-rest-api-paginator-library/
 slug: argocd-application-health-runbook
 category: Runbooks & Diagnostics
 framework: OpenClaw
-verification: Security Reviewed
+verification: Published
 description: Diagnoses ArgoCD application sync failures and degraded states using the ArgoCD REST API and argocd CLI. Queries /api/v1/applications/{name} for sync status, resource health, and…
 url: https://agentskillexchange.com/skills/argocd-application-health-runbook/
 
@@ -22439,7 +22439,7 @@ url: https://agentskillexchange.com/skills/npm-audit-dependency-report-generator
 slug: kubernetes-crashloop-diagnostic-runbook
 category: Runbooks & Diagnostics
 framework: OpenClaw
-verification: Security Reviewed
+verification: Published
 description: Diagnoses CrashLoopBackOff pods in Kubernetes clusters using kubectl and the Kubernetes API. Fetches pod events, container logs, and resource limits via the /api/v1/namespaces/{ns}/pods/{name}/log endpoint.…
 url: https://agentskillexchange.com/skills/kubernetes-crashloop-diagnostic-runbook/
 
@@ -22447,7 +22447,7 @@ url: https://agentskillexchange.com/skills/kubernetes-crashloop-diagnostic-runbo
 slug: terraform-plan-diff-analyzer
 category: CI/CD Integrations
 framework: Cursor
-verification: Security Reviewed
+verification: Published
 description: Parses Terraform plan JSON output to summarize resource changes, detect destructive actions, and flag policy violations. Uses the terraform show -json command and the…
 url: https://agentskillexchange.com/skills/terraform-plan-diff-analyzer/
 
@@ -22455,7 +22455,7 @@ url: https://agentskillexchange.com/skills/terraform-plan-diff-analyzer/
 slug: jenkins-pipeline-shared-library-linter
 category: CI/CD Integrations
 framework: Codex
-verification: Security Reviewed
+verification: Published
 description: Lints Jenkins Declarative and Scripted pipeline syntax using the Jenkins REST API and the Jenkins CLI jar. Checks Jenkinsfile syntax against a live or…
 url: https://agentskillexchange.com/skills/jenkins-pipeline-shared-library-linter/
 
@@ -22479,7 +22479,7 @@ url: https://agentskillexchange.com/skills/json-to-avro-schema-transformer/
 slug: snowflake-query-history-extractor
 category: Data Extraction & Transformation
 framework: ChatGPT Agents
-verification: Security Reviewed
+verification: Published
 description: Extracts query history and performance metadata from Snowflake using the Snowflake Python Connector and INFORMATION_SCHEMA.QUERY_HISTORY view. Identifies expensive queries by credits consumed, data scanned,…
 url: https://agentskillexchange.com/skills/snowflake-query-history-extractor/
 
@@ -22503,7 +22503,7 @@ url: https://agentskillexchange.com/skills/apache-kafka-consumer-lag-runbook/
 slug: aws-cloudwatch-alarm-diagnostic
 category: Runbooks & Diagnostics
 framework: Gemini
-verification: Security Reviewed
+verification: Published
 description: Diagnoses firing AWS CloudWatch alarms by querying CloudWatch Metrics, alarm history, and related AWS Config resource snapshots via the AWS SDK. Correlates metric anomalies…
 url: https://agentskillexchange.com/skills/aws-cloudwatch-alarm-diagnostic/
 
@@ -22511,7 +22511,7 @@ url: https://agentskillexchange.com/skills/aws-cloudwatch-alarm-diagnostic/
 slug: kubernetes-pod-crashloop-runbook
 category: Runbooks & Diagnostics
 framework: Claude Agents
-verification: Security Reviewed
+verification: Published
 description: Automates diagnosis of CrashLoopBackOff pods using kubectl commands wrapped via the Kubernetes API server. Fetches recent events, container logs, and resource quota status to…
 url: https://agentskillexchange.com/skills/kubernetes-pod-crashloop-runbook/
 
@@ -22519,7 +22519,7 @@ url: https://agentskillexchange.com/skills/kubernetes-pod-crashloop-runbook/
 slug: jenkins-build-log-analyzer
 category: Runbooks & Diagnostics
 framework: ChatGPT Agents
-verification: Security Reviewed
+verification: Published
 description: Parses Jenkins build console logs via the Jenkins Remote Access API to extract failure patterns, stack traces, and flaky test signatures. Uses regex heuristics…
 url: https://agentskillexchange.com/skills/jenkins-build-log-analyzer/
 
@@ -22527,7 +22527,7 @@ url: https://agentskillexchange.com/skills/jenkins-build-log-analyzer/
 slug: circleci-workflow-cost-auditor
 category: CI/CD Integrations
 framework: OpenClaw
-verification: Security Reviewed
+verification: Published
 description: Audits CircleCI workflow spend using the CircleCI Insights API and machine-type pricing tables. Identifies jobs running on oversized resource classes and recommends downgrades using…
 url: https://agentskillexchange.com/skills/circleci-workflow-cost-auditor/
 
@@ -22559,7 +22559,7 @@ url: https://agentskillexchange.com/skills/plaid-financial-data-aggregator/
 slug: stripe-revenue-analytics-dashboard
 category: Data Extraction & Transformation
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Pulls MRR, churn, and LTV metrics from the Stripe Data API using the stripe Node.js SDK and transforms the data using Apache Arrow. Aggregated…
 url: https://agentskillexchange.com/skills/stripe-revenue-analytics-dashboard/
 
@@ -22615,7 +22615,7 @@ url: https://agentskillexchange.com/skills/copyai-sales-email-sequence/
 slug: notion-ai-doc-summarizer
 category: Calendar, Email & Productivity
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Uses the Notion SDK and Notion AI's /v1/pages and /v1/blocks/children endpoints to retrieve page content and invoke AI-powered summarization. Extracted action items are appended…
 url: https://agentskillexchange.com/skills/notion-ai-doc-summarizer/
 
@@ -22631,7 +22631,7 @@ url: https://agentskillexchange.com/skills/jasper-longform-blog-generator/
 slug: notion-to-pdf-knowledge-exporter
 category: Templates & Workflows
 framework: Codex
-verification: Security Reviewed
+verification: Published
 description: Queries Notion databases and pages via the Notion API v1, then renders content blocks into PDF via WeasyPrint. Extracts text, tables, and inline images…
 url: https://agentskillexchange.com/skills/notion-to-pdf-knowledge-exporter/
 
@@ -22647,7 +22647,7 @@ url: https://agentskillexchange.com/skills/outlook-email-automation/
 slug: huggingface-model-deployer
 category: CI/CD Integrations
 framework: Codex
-verification: Security Reviewed
+verification: Published
 description: Deploys models from Hugging Face Hub to Inference Endpoints using the huggingface_hub client and REST API. Monitors endpoint health and autoscaling status and streams…
 url: https://agentskillexchange.com/skills/huggingface-model-deployer/
 
@@ -22671,7 +22671,7 @@ url: https://agentskillexchange.com/skills/reddit-subreddit-sentiment-tracker/
 slug: twitter-x-trend-monitor-thread-publisher
 category: Templates & Workflows
 framework: OpenClaw
-verification: Security Reviewed
+verification: Published
 description: Polls the X API v2 trending topics endpoint every 15 minutes and compares against a keyword watchlist stored in Redis. When a trend matches,…
 url: https://agentskillexchange.com/skills/twitter-x-trend-monitor-thread-publisher/
 
@@ -22679,7 +22679,7 @@ url: https://agentskillexchange.com/skills/twitter-x-trend-monitor-thread-publis
 slug: discord-moderation-ai-classification
 category: Security & Verification
 framework: Cursor
-verification: Security Reviewed
+verification: Published
 description: Listens to Discord gateway events, passing flagged messages to the OpenAI Moderation API and a custom classifier to detect spam and coordinated inauthentic behavior.…
 url: https://agentskillexchange.com/skills/discord-moderation-ai-classification/
 
@@ -22727,7 +22727,7 @@ url: https://agentskillexchange.com/skills/whisper-batch-transcription-pipeline/
 slug: pulumi-drift-detector-reconciler
 category: Runbooks & Diagnostics
 framework: Codex
-verification: Security Reviewed
+verification: Published
 description: Runs pulumi refresh on schedule to detect drift between live cloud resources and Pulumi state. Classifies drift by severity and opens a Jira ticket…
 url: https://agentskillexchange.com/skills/pulumi-drift-detector-reconciler/
 
@@ -22783,7 +22783,7 @@ url: https://agentskillexchange.com/skills/linear-issue-triage-sprint-planner-2/
 slug: notion-database-sync-page-generator-2
 category: Integrations & Connectors
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Reads from and writes to Notion databases using the official Notion API v1, supporting filtered queries, property mapping, and bulk page creation from structured…
 url: https://agentskillexchange.com/skills/notion-database-sync-page-generator-2/
 
@@ -22791,7 +22791,7 @@ url: https://agentskillexchange.com/skills/notion-database-sync-page-generator-2
 slug: aws-iam-privilege-escalation-audit
 category: Security & Verification
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Uses boto3 and the AWS IAM Access Analyzer API to enumerate all roles, policies, and users, then flags permission combinations that could allow privilege…
 url: https://agentskillexchange.com/skills/aws-iam-privilege-escalation-audit/
 
@@ -22799,7 +22799,7 @@ url: https://agentskillexchange.com/skills/aws-iam-privilege-escalation-audit/
 slug: stripe-revenue-reconciliation-agent
 category: Integrations & Connectors
 framework: Codex
-verification: Security Reviewed
+verification: Published
 description: Uses the Stripe API to pull charge, refund, dispute, and payout records within a configurable date window and reconciles them against expected revenue figures.…
 url: https://agentskillexchange.com/skills/stripe-revenue-reconciliation-agent/
 
@@ -22807,7 +22807,7 @@ url: https://agentskillexchange.com/skills/stripe-revenue-reconciliation-agent/
 slug: slack-channel-summarizer-triage
 category: Integrations & Connectors
 framework: OpenClaw
-verification: Security Reviewed
+verification: Published
 description: Connects to the Slack Web API to fetch unread messages across specified channels and surfaces a prioritized digest of action items, decisions, and blockers.…
 url: https://agentskillexchange.com/skills/slack-channel-summarizer-triage/
 
@@ -22847,7 +22847,7 @@ url: https://agentskillexchange.com/skills/eslint-rule-violation-summarizer-2/
 slug: circleci-flaky-test-detector-2
 category: CI/CD Integrations
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Queries CircleCI Insights API to identify test cases that flip between pass and fail across recent runs. Produces a ranked list by failure rate…
 url: https://agentskillexchange.com/skills/circleci-flaky-test-detector-2/
 
@@ -22871,7 +22871,7 @@ url: https://agentskillexchange.com/skills/sonarqube-quality-gate-explainer/
 slug: docker-image-vulnerability-triage
 category: CI/CD Integrations
 framework: Codex
-verification: Security Reviewed
+verification: Published
 description: Runs Trivy against a Docker image and produces a prioritized CVE list grouped by severity with fix availability. Filters out CVEs with no available…
 url: https://agentskillexchange.com/skills/docker-image-vulnerability-triage/
 
@@ -22903,7 +22903,7 @@ url: https://agentskillexchange.com/skills/prometheus-alerting-rules/
 slug: stripe-reporting-agent
 category: Integrations & Connectors
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Stripe Reporting Agent is built around Stripe payments platform. The underlying ecosystem is represented by stripe/stripe-node (4,377+ GitHub stars). It gives an agent a…
 url: https://agentskillexchange.com/skills/stripe-reporting-agent/
 
@@ -22911,7 +22911,7 @@ url: https://agentskillexchange.com/skills/stripe-reporting-agent/
 slug: supabase-mcp-server
 category: Developer Tools
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Supabase MCP Server is built around Supabase developer platform. The underlying ecosystem is represented by supabase/supabase (99,546+ GitHub stars). It gives an agent a…
 url: https://agentskillexchange.com/skills/supabase-mcp-server/
 
@@ -22919,7 +22919,7 @@ url: https://agentskillexchange.com/skills/supabase-mcp-server/
 slug: dynamodb-manager
 category: Developer Tools
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: DynamoDB Manager is built around Amazon DynamoDB NoSQL database. The underlying ecosystem is represented by aws/aws-sdk-js-v3 (3,594+ GitHub stars). It gives an agent a…
 url: https://agentskillexchange.com/skills/dynamodb-manager/
 
@@ -22927,7 +22927,7 @@ url: https://agentskillexchange.com/skills/dynamodb-manager/
 slug: sqlite-analyst
 category: Developer Tools
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: SQLite Analyst is built around SQLite embedded database. The underlying ecosystem is represented by WiseLibs/better-sqlite3 (7,041+ GitHub stars). It gives an agent a more…
 url: https://agentskillexchange.com/skills/sqlite-analyst/
 
@@ -22935,7 +22935,7 @@ url: https://agentskillexchange.com/skills/sqlite-analyst/
 slug: mysql-query-agent
 category: Developer Tools
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: MySQL Query Agent is built around MySQL relational database. The underlying ecosystem is represented by sidorares/node-mysql2 (4,348+ GitHub stars). It gives an agent a…
 url: https://agentskillexchange.com/skills/mysql-query-agent/
 
@@ -22951,7 +22951,7 @@ url: https://agentskillexchange.com/skills/terrascan-policy-scanner/
 slug: redis-mcp-server
 category: Developer Tools
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Redis MCP Server is built around Redis in-memory datastore. The underlying ecosystem is represented by redis/redis (73,523+ GitHub stars). It gives an agent a…
 url: https://agentskillexchange.com/skills/redis-mcp-server/
 
@@ -23039,7 +23039,7 @@ url: https://agentskillexchange.com/skills/storybook-component-tester/
 slug: notion-ai-workspace
 category: Calendar, Email & Productivity
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Notion AI Workspace is built around Notion workspace and database platform. The underlying ecosystem is represented by makenotion/notion-sdk-js (5,562+ GitHub stars). It gives an…
 url: https://agentskillexchange.com/skills/notion-ai-workspace/
 
@@ -23079,7 +23079,7 @@ url: https://agentskillexchange.com/skills/railway-app-deployer/
 slug: terraform-module-registry
 category: Templates & Workflows
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Terraform Module Registry is built around Terraform infrastructure as code. The underlying ecosystem is represented by hashicorp/terraform (47,996+ GitHub stars). It gives an agent…
 url: https://agentskillexchange.com/skills/terraform-module-registry/
 
@@ -23151,7 +23151,7 @@ url: https://agentskillexchange.com/skills/aws-cdk-scaffolder/
 slug: vercel-deployment-agent
 category: Templates & Workflows
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Vercel Deployment Agent is built around Vercel deployment platform. The underlying ecosystem is represented by vercel/vercel (15,126+ GitHub stars). It gives an agent a…
 url: https://agentskillexchange.com/skills/vercel-deployment-agent/
 
@@ -23223,7 +23223,7 @@ url: https://agentskillexchange.com/skills/dbt-cloud-mcp/
 slug: snowflake-mcp
 category: Data Extraction & Transformation
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Snowflake MCP is built around Snowflake cloud data warehouse. It gives an agent a more technical and reliable way to work with the tool…
 url: https://agentskillexchange.com/skills/snowflake-mcp/
 
@@ -23271,7 +23271,7 @@ url: https://agentskillexchange.com/skills/semgrep-code-scanner/
 slug: grpc-service-tool
 category: Library & API Reference
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: gRPC Service Tool is built around gRPC remote procedure call framework. The underlying ecosystem is represented by grpc/grpc-node (4,816+ GitHub stars). It gives an…
 url: https://agentskillexchange.com/skills/grpc-service-tool/
 
@@ -23295,7 +23295,7 @@ url: https://agentskillexchange.com/skills/graphql-schema-explorer/
 slug: swagger-openapi-validator
 category: Library & API Reference
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: Swagger / OpenAPI Validator is built around Swagger/OpenAPI tooling. The underlying ecosystem is represented by swagger-api/swagger-ui (28,702+ GitHub stars). It gives an agent a…
 url: https://agentskillexchange.com/skills/swagger-openapi-validator/
 
@@ -23319,7 +23319,7 @@ url: https://agentskillexchange.com/skills/pod-crashloop-runbook/
 slug: k8s-troubleshooting-runbook
 category: Monitoring & Alerts
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Kubernetes Troubleshooting Runbook is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a…
 url: https://agentskillexchange.com/skills/k8s-troubleshooting-runbook/
 
@@ -23335,7 +23335,7 @@ url: https://agentskillexchange.com/skills/dbt-mcp-server/
 slug: snowflake-mcp-server
 category: Data Extraction & Transformation
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Snowflake MCP Server is built around Snowflake cloud data warehouse. It gives an agent a more technical and reliable way to work with the…
 url: https://agentskillexchange.com/skills/snowflake-mcp-server/
 
@@ -23367,7 +23367,7 @@ url: https://agentskillexchange.com/skills/ci-pipeline-generator-skill/
 slug: docker-compose-generator-skill
 category: Developer Tools
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: Docker Compose Generator Skill is built around Docker container platform. The underlying ecosystem is represented by moby/moby (71,560+ GitHub stars). It gives an agent…
 url: https://agentskillexchange.com/skills/docker-compose-generator-skill/
 
@@ -23383,7 +23383,7 @@ url: https://agentskillexchange.com/skills/weaviate-mcp-server/
 slug: llamaindex-mcp-server
 category: Developer Tools
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: LlamaIndex MCP Server is built around LlamaIndex framework for LLM data access. The underlying ecosystem is represented by run-llama/llama_index (47,942+ GitHub stars). It gives…
 url: https://agentskillexchange.com/skills/llamaindex-mcp-server/
 

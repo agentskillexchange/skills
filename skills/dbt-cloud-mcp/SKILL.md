@@ -5,6 +5,7 @@ description: ""
 github_stars: 12621
 verification: "security_reviewed"
 source: "https://github.com/dbt-labs/dbt-core"
+author: "dbt Labs"
 category: "Data Extraction & Transformation"
 framework: "MCP"
 tool_ecosystem:

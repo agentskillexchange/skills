@@ -5,6 +5,7 @@ description: ""
 github_stars: 46871
 verification: "listed"
 source: "https://github.com/ClickHouse/ClickHouse"
+author: "ClickHouse"
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
 tool_ecosystem:

@@ -3,8 +3,9 @@ name: "Stripe Revenue Reconciliation Agent"
 slug: "stripe-revenue-reconciliation-agent"
 description: "Uses the Stripe API to pull charge, refund, dispute, and payout records within a configurable date window and reconciles them against expected revenue figures. Flags mismatches, duplicate charges, and unmatched refunds, outputting a CSV report with Stripe object IDs."
 github_stars: 4385
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/stripe/stripe-node"
+author: "Stripe"
 category: "Integrations & Connectors"
 framework: "Codex"
 tool_ecosystem:
@@ -20,24 +21,9 @@ Uses the Stripe API to pull charge, refund, dispute, and payout records within a
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install stripe
-- yarn add stripe
-- npm install stripe@public-preview --save-exact
-- npm install stripe@<some-version>
-
-Requirements and caveats from upstream:
-- # Stripe Node.js Library
-- [![Build Status](https://github.com/stripe/stripe-node/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/stripe/stripe-node/actions?query=branch%3Amaster)
-- Want to chat live with Stripe engineers? Join us on our [Discord server](https://stripe.com/go/discord/node).
-
-Basic usage or getting-started notes:
-- sh
-- # or
-- The package needs to be configured with your account's secret key, which is
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
 - Source: https://github.com/stripe/stripe-node
-- Extracted from upstream docs: https://raw.githubusercontent.com/stripe/stripe-node/HEAD/README.md
 
 ## Source
 

@@ -5,6 +5,7 @@ description: "Queries PagerDuty to show who is currently on-call for each escala
 github_stars: 69
 verification: "security_reviewed"
 source: "https://github.com/PagerDuty/pdjs"
+author: "PagerDuty"
 category: "Runbooks & Diagnostics"
 framework: "Claude Code"
 tool_ecosystem:

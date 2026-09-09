@@ -3,8 +3,9 @@ name: "Discord Moderation Bot with AI Classification"
 slug: "discord-moderation-ai-classification"
 description: "Listens to Discord gateway events, passing flagged messages to the OpenAI Moderation API and a custom classifier to detect spam and coordinated inauthentic behavior. Issues timeouts via the Discord REST API and logs incidents to a Supabase Postgres table for moderator review. Rule sets are stored in Supabase and hot-reloaded without restart."
 github_stars: 26668
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/discordjs/discord.js"
+author: "discord.js"
 category: "Security & Verification"
 framework: "Cursor"
 tool_ecosystem:
@@ -20,12 +21,9 @@ Listens to Discord gateway events, passing flagged messages to the OpenAI Modera
 
 ## Installation
 
-Requirements and caveats from upstream:
-- This repository contains multiple packages with separate [releases][github-releases]. You can find the assembled Discord API wrapper at [discord.js][source]. It is a powerful [Node.js](https://nodejs.org/en) module th...
-- discord.js ([source][source]) - A powerful Node.js module for interacting with the Discord API
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
 - Source: https://github.com/discordjs/discord.js
-- Extracted from upstream docs: https://raw.githubusercontent.com/discordjs/discord.js/HEAD/README.md
 
 ## Source
 

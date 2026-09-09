@@ -5,6 +5,7 @@ description: ""
 github_stars: 20323
 verification: "security_reviewed"
 source: "https://github.com/graphql/graphql-js"
+author: "GraphQL"
 category: "Library & API Reference"
 framework: "Claude Code"
 tool_ecosystem:

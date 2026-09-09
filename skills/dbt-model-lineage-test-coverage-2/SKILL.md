@@ -5,6 +5,7 @@ description: "Parses dbt project artifacts (manifest.json and catalog.json) to b
 github_stars: 12621
 verification: "security_reviewed"
 source: "https://github.com/dbt-labs/dbt-core"
+author: "dbt Labs"
 category: "Data Extraction & Transformation"
 framework: "Cursor"
 tool_ecosystem:

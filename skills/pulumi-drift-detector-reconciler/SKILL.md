@@ -3,8 +3,9 @@ name: "Pulumi Drift Detector & Reconciler"
 slug: "pulumi-drift-detector-reconciler"
 description: "Runs pulumi refresh on schedule to detect drift between live cloud resources and Pulumi state. Classifies drift by severity and opens a Jira ticket for destructive changes. Non-destructive drift is auto-reconciled via pulumi up --target for specific resources."
 github_stars: 25042
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/pulumi/pulumi"
+author: "Pulumi"
 category: "Runbooks & Diagnostics"
 framework: "Codex"
 tool_ecosystem:
@@ -20,18 +21,9 @@ Runs pulumi refresh on schedule to detect drift between live cloud resources and
 
 ## Installation
 
-Requirements and caveats from upstream:
-- [![Python version](https://badge.fury.io/py/pulumi.svg)](https://pypi.org/project/pulumi)
-- const aws = require("@pulumi/aws");
-- nohup python -m SimpleHTTPServer 80 &,
-
-Basic usage or getting-started notes:
-- For example, create three web servers:
-- ## <a name="getting-started"></a>Getting Started
-- To install the latest Pulumi release, run the following (see full
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
 - Source: https://github.com/pulumi/pulumi
-- Extracted from upstream docs: https://raw.githubusercontent.com/pulumi/pulumi/HEAD/README.md
 
 ## Source
 

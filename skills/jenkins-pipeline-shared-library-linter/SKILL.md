@@ -3,8 +3,9 @@ name: "Jenkins Pipeline Shared Library Linter"
 slug: "jenkins-pipeline-shared-library-linter"
 description: "Lints Jenkins Declarative and Scripted pipeline syntax using the Jenkins REST API and the Jenkins CLI jar. Checks Jenkinsfile syntax against a live or sandbox Jenkins controller using the /pipeline-model-converter/validate endpoint. Reports errors with line numbers and suggested fixes."
 github_stars: 25189
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/jenkinsci/jenkins"
+author: "Jenkins"
 category: "CI/CD Integrations"
 framework: "Codex"
 tool_ecosystem:
@@ -18,17 +19,9 @@ Lints Jenkins Declarative and Scripted pipeline syntax using the Jenkins REST AP
 
 ## Installation
 
-Requirements and caveats from upstream:
-- [![Docker Pulls](https://img.shields.io/docker/pulls/jenkins/jenkins.svg)](https://hub.docker.com/r/jenkins/jenkins/)
-- The Jenkins project provides official distributions as WAR files, Docker images, native packages and installers for platforms including several Linux distributions and Windows.
-
-Basic usage or getting-started notes:
-- For more information on setting up your development environment, contributing, and working with Jenkins internals, check the [contributing guide](CONTRIBUTING.md) and the [Jenkins Developer Documentation](https://www....
-- # Source
-- Our latest and greatest source of Jenkins can be found on [GitHub](https://github.com/jenkinsci/jenkins). Fork us!
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
 - Source: https://github.com/jenkinsci/jenkins
-- Extracted from upstream docs: https://raw.githubusercontent.com/jenkinsci/jenkins/HEAD/README.md
 
 ## Source
 

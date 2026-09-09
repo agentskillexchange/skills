@@ -3,8 +3,9 @@ name: "Supabase MCP Server"
 slug: "supabase-mcp-server"
 description: ""
 github_stars: 100812
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/supabase/supabase"
+author: "Supabase"
 category: "Developer Tools"
 framework: "MCP"
 tool_ecosystem:
@@ -20,15 +21,9 @@ tool_ecosystem:
 
 ## Installation
 
-Requirements and caveats from upstream:
-- <td>Python</td>
-
-Basic usage or getting-started notes:
-- To see how to Contribute, visit [Getting Started](./DEVELOPERS.md)
-- [postgres-meta](https://github.com/supabase/postgres-meta) is a RESTful API for managing your Postgres, allowing you to fetch tables, add roles, and run queries, etc.
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
 - Source: https://github.com/supabase/supabase
-- Extracted from upstream docs: https://raw.githubusercontent.com/supabase/supabase/HEAD/README.md
 
 ## Source
 
