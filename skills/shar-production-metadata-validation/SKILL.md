@@ -2,15 +2,12 @@
 name: "SHAR Production Metadata Validation"
 slug: "shar-production-metadata-validation"
 description: "Uses the SHAR Production Metadata MCP local stdio server to validate rights-aware production metadata manifests before an AI-hybrid video-production asset is treated as releasable."
+verification: "listed"
+source: "https://github.com/SHARProduction/production-metadata-mcp"
 category: "Security & Verification"
 framework: "MCP"
-verification: listed
-source: "https://github.com/SHARProduction/production-metadata-mcp"
 tool_ecosystem:
-  tool: "SHAR Production Metadata MCP"
-  github_repo: "SHARProduction/production-metadata-mcp"
-  license: "MIT"
-  maintained: true
+  github_repo: "sharproduction/production-metadata-mcp"
 ---
 
 # SHAR Production Metadata Validation
@@ -21,19 +18,9 @@ The server is read-only. It does not call network services, modify files, publis
 
 ## Installation
 
-Clone the upstream repository and install its locked dependencies:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-```bash
-git clone https://github.com/SHARProduction/production-metadata-mcp.git
-cd production-metadata-mcp
-npm ci
-```
-
-Configure an MCP-compatible client to launch the server with:
-
-```text
-node /absolute/path/to/production-metadata-mcp/server.js
-```
+- Source: https://github.com/SHARProduction/production-metadata-mcp
 
 ## Workflow
 
