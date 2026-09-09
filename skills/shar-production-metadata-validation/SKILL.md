@@ -19,7 +19,7 @@ Use this skill when an agent needs to check whether a production metadata manife
 
 The server is read-only. It does not call network services, modify files, publish content, or accept credentials. Provide only the manifest that the user has authorized the agent to inspect. Treat a failed validation or a non-releasable result as a reason to ask for corrected metadata; do not silently fill missing rights data.
 
-## Setup
+## Installation
 
 Clone the upstream repository and install its locked dependencies:
 
