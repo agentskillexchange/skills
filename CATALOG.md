@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2976 published skills** across **17 categories** · 2,486 security reviewed · Updated 2026-09-09 01:26 UTC
+> **2977 published skills** across **17 categories** · 2,486 security reviewed · Updated 2026-09-09 13:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -2146,7 +2146,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Published | — | — |
 
 
-### 🔍 Research & Scraping (129 skills)
+### 🔍 Research & Scraping (130 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -2237,6 +2237,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [SerpAPI Answer Box Extractor](skills/serpapi-answer-box-extractor/) | Extracts high-signal SERP features from SerpAPI responses, including `answer_box`, `knowledge_graph`,… | Security Reviewed | 734 | — |
 | [Search and resume past coding-agent sessions locally with exact handoff commands using Agent Sessions](skills/search-and-resume-past-coding-agent-sessions-locally-with-exact-handoff-commands-using-agent-sessions/) | Browse archived sessions from multiple coding agents, search across them locally, and copy exact resume commands… | Security Reviewed | 478 | — |
 | [Run evidence-first research investigations in Claude Code with Deepdive](skills/run-evidence-first-research-investigations-in-claude-code-with-deepdive/) | Install Deepdive as a Claude Code skill for structured investigations with plans, source files, claim tracing,… | Security Reviewed | 393 | — |
+| [Run source-audited academic literature searches with Nature Academic Search](skills/run-source-audited-academic-literature-searches-with-nature-academic-search/) | Use Nature Academic Search to plan, deduplicate, verify, graph, and export academic literature searches across… | Security Reviewed | 216 | — |
 | [Serve clean Markdown from URLs and files with PullMD](skills/serve-clean-markdown-from-urls-and-files-with-pullmd/) | Use PullMD as a self-hosted Markdown conversion service for agents, exposing web pages, documents, media… | Security Reviewed | 197 | — |
 | [Apify SDK for Web Scraping and Actor Automation](skills/apify-sdk-web-scraping-actor-automation/) | Apify SDK is the official JavaScript SDK for building Actors, crawlers, and data extraction workflows on Apify. It… | Security Reviewed | 173 | 35.6k/wk |
 | [Apify Actor Development Kit](skills/apify-actor-development-kit/) | Builds Apify Actors for scalable cloud scraping with automatic proxy management and storage. Uses the Apify SDK… | Security Reviewed | 173 | 34.1k/wk |

@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-09
-# Total: 2976 skills
+# Total: 2977 skills
+
+## Run source-audited academic literature searches with Nature Academic Search
+slug: run-source-audited-academic-literature-searches-with-nature-academic-search
+category: Research & Scraping
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Nature Academic Search to plan, deduplicate, verify, graph, and export academic literature searches across multiple scholarly sources.
+url: https://agentskillexchange.com/skills/run-source-audited-academic-literature-searches-with-nature-academic-search/
 
 ## Rewrite agent-facing English with ASD-STE100 discipline
 slug: rewrite-agent-facing-english-with-asd-ste100-discipline

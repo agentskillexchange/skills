@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-09",
-  "total": 2976,
+  "total": 2977,
   "skills": [
+    {
+      "slug": "run-source-audited-academic-literature-searches-with-nature-academic-search",
+      "name": "Run source-audited academic literature searches with Nature Academic Search",
+      "title": "Run source-audited academic literature searches with Nature Academic Search",
+      "description": "Use Nature Academic Search to plan, deduplicate, verify, graph, and export academic literature searches across multiple scholarly sources.",
+      "category": "Research & Scraping",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/wp-a/nature-academic-search",
+      "github_repo": "wp-a/nature-academic-search"
+    },
     {
       "slug": "rewrite-agent-facing-english-with-asd-ste100-discipline",
       "name": "Rewrite agent-facing English with ASD-STE100 discipline",

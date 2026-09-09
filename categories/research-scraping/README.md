@@ -125,6 +125,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [SerpAPI Answer Box Extractor](../../skills/serpapi-answer-box-extractor/) | 734 | — |
 | [Search and resume past coding-agent sessions locally with exact handoff commands using Agent Sessions](../../skills/search-and-resume-past-coding-agent-sessions-locally-with-exact-handoff-commands-using-agent-sessions/) | 478 | — |
 | [Run evidence-first research investigations in Claude Code with Deepdive](../../skills/run-evidence-first-research-investigations-in-claude-code-with-deepdive/) | 393 | — |
+| [Run source-audited academic literature searches with Nature Academic Search](../../skills/run-source-audited-academic-literature-searches-with-nature-academic-search/) | 216 | — |
 | [Serve clean Markdown from URLs and files with PullMD](../../skills/serve-clean-markdown-from-urls-and-files-with-pullmd/) | 197 | — |
 | [Apify SDK for Web Scraping and Actor Automation](../../skills/apify-sdk-web-scraping-actor-automation/) | 173 | 35.6k/wk |
 | [Apify Actor Development Kit](../../skills/apify-actor-development-kit/) | 173 | 34.1k/wk |
