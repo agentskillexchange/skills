@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-09",
-  "total": 2977,
+  "total": 2978,
   "skills": [
+    {
+      "slug": "shar-production-metadata-validation",
+      "name": "SHAR Production Metadata Validation",
+      "title": "SHAR Production Metadata Validation",
+      "description": "Uses the SHAR Production Metadata MCP local stdio server to validate rights-aware production metadata manifests before an AI-hybrid video-production asset is treated as releasable.",
+      "category": "Security & Verification",
+      "framework": "MCP",
+      "verification": "listed",
+      "source_url": "https://github.com/SHARProduction/production-metadata-mcp",
+      "github_repo": "sharproduction/production-metadata-mcp"
+    },
     {
       "slug": "run-source-audited-academic-literature-searches-with-nature-academic-search",
       "name": "Run source-audited academic literature searches with Nature Academic Search",

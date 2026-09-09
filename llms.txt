@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-09
-# Total: 2977 skills
+# Total: 2978 skills
+
+## SHAR Production Metadata Validation
+slug: shar-production-metadata-validation
+category: Security & Verification
+framework: MCP
+verification: Published
+description: Uses the SHAR Production Metadata MCP local stdio server to validate rights-aware production metadata manifests before an AI-hybrid video-production asset is treated as releasable.
+url: https://agentskillexchange.com/skills/shar-production-metadata-validation/
 
 ## Run source-audited academic literature searches with Nature Academic Search
 slug: run-source-audited-academic-literature-searches-with-nature-academic-search

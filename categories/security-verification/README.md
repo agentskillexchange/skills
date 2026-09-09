@@ -284,6 +284,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Provision OAuth-capable Microsoft agent identities with Entra Agent ID](../../skills/provision-oauth-capable-microsoft-agent-identities-with-entra-agent-id/) | — | — |
 | [SBOM Vulnerability Scanner](../../skills/sbom-vulnerability-scanner/) | — | — |
 | [Scan LLM-generated code before use with CodeShield](../../skills/scan-llm-generated-code-before-use-with-codeshield/) | — | — |
+| [SHAR Production Metadata Validation](../../skills/shar-production-metadata-validation/) | — | — |
 | [SSL Certificate Chain Validator](../../skills/ssl-certificate-chain-validator-2/) | — | — |
 | [SSL/TLS Certificate Validator and Monitor](../../skills/ssl-tls-certificate-validator-monitor/) | — | — |
 | [TLS Certificate Chain Analyzer](../../skills/tls-certificate-chain-analyzer/) | — | — |

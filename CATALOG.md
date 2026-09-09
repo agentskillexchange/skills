@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2977 published skills** across **17 categories** · 2,486 security reviewed · Updated 2026-09-09 13:27 UTC
+> **2978 published skills** across **17 categories** · 2,486 security reviewed · Updated 2026-09-09 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -479,7 +479,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Zinc Universal Checkout](skills/zinc-universal-checkout/) | Discover, buy, track, and return products across Amazon, Walmart, Target, Best Buy, eBay, and 50+ US retailers via… | Published | — | — |
 
 
-### 🔒 Security & Verification (248 skills)
+### 🔒 Security & Verification (249 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -729,6 +729,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Provision OAuth-capable Microsoft agent identities with Entra Agent ID](skills/provision-oauth-capable-microsoft-agent-identities-with-entra-agent-id/) | Create Microsoft Entra Agent Identity blueprints, principals, and agent identities with the right beta Graph… | Security Reviewed | — | — |
 | [SBOM Vulnerability Scanner](skills/sbom-vulnerability-scanner/) | Generates Software Bill of Materials using Syft and scans for CVEs with Grype. Cross-references findings against the… | Security Reviewed | — | — |
 | [Scan LLM-generated code before use with CodeShield](skills/scan-llm-generated-code-before-use-with-codeshield/) | Run CodeShield on model-produced code or command suggestions before they reach a user, a repo, or an execution step,… | Published | — | — |
+| [SHAR Production Metadata Validation](skills/shar-production-metadata-validation/) | Uses the SHAR Production Metadata MCP local stdio server to validate rights-aware production metadata manifests… | Published | — | — |
 | [SSL Certificate Chain Validator](skills/ssl-certificate-chain-validator-2/) | Performs deep TLS certificate chain validation using OpenSSL and Certificate Transparency logs. Monitors expiration… | Security Reviewed | — | — |
 | [SSL/TLS Certificate Validator and Monitor](skills/ssl-tls-certificate-validator-monitor/) | Validates SSL/TLS certificates using OpenSSL s_client, checks OCSP stapling status, and monitors expiry dates.… | Security Reviewed | — | — |
 | [TLS Certificate Chain Analyzer](skills/tls-certificate-chain-analyzer/) | Analyzes TLS certificate chains using OpenSSL s_client and the crt.sh Certificate Transparency API. Detects weak… | Security Reviewed | — | — |
