@@ -123,8 +123,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
-| [Operate deployments, telemetry, and sandboxes through Temps CLI skills](skills/operate-deployments-telemetry-and-sandboxes-through-temps-cli-skills/) | Use Temps when an agent needs to deploy applications, inspect production telemetry, and manage self-hosted sandboxes through a... | 724 | Developer Tools |
 | [Compact terminal-heavy agent output with Tokenjuice](skills/compact-terminal-heavy-agent-output-with-tokenjuice/) | Use Tokenjuice when an agent runs noisy shell commands and needs deterministic, inspectable output reduction before continuing a... | 517 | Developer Tools |
+| [Operate deployments, telemetry, and sandboxes through Temps CLI skills](skills/operate-deployments-telemetry-and-sandboxes-through-temps-cli-skills/) | Use Temps when an agent needs to deploy applications, inspect production telemetry, and manage self-hosted sandboxes through a... | 724 | Developer Tools |
 | [Serve codebase impact context to agents with Trace MCP](skills/serve-codebase-impact-context-to-agents-with-trace-mcp/) | Use Trace MCP to index a repository once and let MCP-capable coding agents query framework-aware code, dependency, and... | 154 | Code Quality & Review |
 | [Automate NotebookLM Studio generation and cited research batches with notebooklm-mcp](skills/automate-notebooklm-studio-generation-and-cited-research-batches-with-notebooklm-mcp/) | Use NotebookLM through MCP or a local REST API to run cited Q&A, generate Studio artifacts, and manage... | 161 | Research & Scraping |
 | [Draw and verify Excalidraw diagrams through an agent canvas](skills/draw-and-verify-excalidraw-diagrams-through-an-agent-canvas/) | Use mcp_excalidraw to let coding agents create, inspect, revise, export, and commit editable Excalidraw diagrams from a local... | 2.4k | Image & Creative Automation |
