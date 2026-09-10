@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2978 published skills** across **17 categories** · 2,487 security reviewed · Updated 2026-09-09 19:27 UTC
+> **2979 published skills** across **17 categories** · 2,487 security reviewed · Updated 2026-09-10 01:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (463 skills)
+### 🛠️ Developer Tools (464 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -418,6 +418,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Coordinate Terminal Coding Agents With hcom](skills/coordinate-terminal-coding-agents-with-hcom/) | Use hcom to launch, message, watch, fork, and coordinate multiple terminal coding agents across Claude Code, Codex,… | Security Reviewed | 393 | — |
 | [Index Codebases for Agent Search with Code Context Engine](skills/index-codebases-for-agent-search-with-code-context-engine/) | Use Code Context Engine to index a repository and expose token-efficient code search to Claude Code, Codex, Cursor,… | Security Reviewed | 383 | — |
 | [Temporal CLI Workflow and Server Control](skills/temporal-cli-workflow-server-control/) | Temporal CLI runs a local Temporal server and talks to workflows, activities, and namespaces. It is the practical… | Security Reviewed | 350 | — |
+| [Run terminal coding-agent workflows with Phi](skills/run-terminal-coding-agent-workflows-with-phi/) | Use Phi to run lightweight terminal coding-agent sessions with sub-agents, guarded tool use, hashline edits, and… | Security Reviewed | 336 | — |
 | [Run Genie planning and execution loops in Claude Code](skills/run-genie-planning-execution-loops-in-claude-code/) | Use Genie to turn a vague coding request into Claude Code brainstorm, wish, work, and review loops backed by… | Security Reviewed | 323 | 777/wk |
 | [Run Agent-Assisted Notebook Workflows in JupyterLab With Notebook Intelligence](skills/run-agent-assisted-notebook-workflows-in-jupyterlab-with-notebook-intelligence/) | Use Notebook Intelligence to add chat, inline edit, autocomplete, MCP tools, Claude Code mode, and coding-agent… | Security Reviewed | 322 | 475/wk |
 | [Run resource-constrained terminal coding sessions with hax](skills/run-resource-constrained-terminal-coding-sessions-with-hax/) | Use hax as a lightweight terminal-native coding agent for local-model, provider-backed, or Unix-composed code… | Security Reviewed | 321 | — |

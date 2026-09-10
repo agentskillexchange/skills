@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-09-09
-# Total: 2978 skills
+# Generated: 2026-09-10
+# Total: 2979 skills
+
+## Run terminal coding-agent workflows with Phi
+slug: run-terminal-coding-agent-workflows-with-phi
+category: Developer Tools
+framework: Custom Agents
+verification: Security Reviewed
+description: Use Phi to run lightweight terminal coding-agent sessions with sub-agents, guarded tool use, hashline edits, and lazy MCP discovery.
+url: https://agentskillexchange.com/skills/run-terminal-coding-agent-workflows-with-phi/
 
 ## SHAR Production Metadata Validation
 slug: shar-production-metadata-validation

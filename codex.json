@@ -1,9 +1,20 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-09-09",
-  "total": 2978,
+  "generated": "2026-09-10",
+  "total": 2979,
   "skills": [
+    {
+      "slug": "run-terminal-coding-agent-workflows-with-phi",
+      "name": "Run terminal coding-agent workflows with Phi",
+      "title": "Run terminal coding-agent workflows with Phi",
+      "description": "Use Phi to run lightweight terminal coding-agent sessions with sub-agents, guarded tool use, hashline edits, and lazy MCP discovery.",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/pulseaiclub/phi",
+      "github_repo": "pulseaiclub/phi"
+    },
     {
       "slug": "shar-production-metadata-validation",
       "name": "SHAR Production Metadata Validation",
