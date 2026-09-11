@@ -76,6 +76,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Crawlee Web Crawling and Scraping Library by Apify](../../skills/crawlee-web-crawling-and-scraping-library-by-apify/) | 22.7k | 96.2k/wk |
 | [Crawlee Web Crawling and Browser Automation Library](../../skills/crawlee-web-crawling-browser-automation-library/) | 22.6k | 72.5k/wk |
 | [Search local notes, docs, and meeting transcripts for agent context with QMD](../../skills/search-local-notes-docs-and-meeting-transcripts-for-agent-context-with-qmd/) | 22.1k | 25.9k/wk |
+| [Collect TikTok and Douyin data through a self-hosted MCP server](../../skills/collect-tiktok-and-douyin-data-through-a-self-hosted-mcp-server/) | 20.1k | — |
 | [Maigret OSINT Username Profiler Across 3000+ Sites](../../skills/maigret-osint-username-profiler/) | 19.3k | — |
 | [Run research and scientific analysis workflows with Scientific Agent Skills](../../skills/run-research-and-scientific-analysis-workflows-with-scientific-agent-skills/) | 18.8k | — |
 | [Automate grounded NotebookLM research and artifact export with notebooklm-py](../../skills/automate-grounded-notebooklm-research-and-artifact-export-with-notebooklm-py/) | 18.2k | — |

@@ -2,8 +2,30 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-11",
-  "total": 2979,
+  "total": 2981,
   "skills": [
+    {
+      "slug": "collect-tiktok-and-douyin-data-through-a-self-hosted-mcp-server",
+      "name": "Collect TikTok and Douyin data through a self-hosted MCP server",
+      "title": "Collect TikTok and Douyin data through a self-hosted MCP server",
+      "description": "Run Douyin_TikTok_Download_API as a private MCP-backed service so agents can parse, archive, and retrieve TikTok or Douyin posts, authors, comments, search results, and media.",
+      "category": "Research & Scraping",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Evil0ctal/Douyin_TikTok_Download_API",
+      "github_repo": "Evil0ctal/Douyin_TikTok_Download_API"
+    },
+    {
+      "slug": "ledger-tasks-yylo",
+      "name": "YYLO Ledger Task Management",
+      "title": "YYLO Ledger Task Management",
+      "description": "Operate a YYLO Ledger Kanban board from the command line with the yy ledger CLI; create, search, update, and mark tasks with required response…",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "listed",
+      "source_url": "https://github.com/yylo-dev/yylo-skills",
+      "github_repo": "yylo-dev/yylo-skills"
+    },
     {
       "slug": "run-terminal-coding-agent-workflows-with-phi",
       "name": "Run terminal coding-agent workflows with Phi",

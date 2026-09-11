@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-11
-# Total: 2979 skills
+# Total: 2981 skills
+
+## Collect TikTok and Douyin data through a self-hosted MCP server
+slug: collect-tiktok-and-douyin-data-through-a-self-hosted-mcp-server
+category: Research & Scraping
+framework: MCP
+verification: Security Reviewed
+description: Run Douyin_TikTok_Download_API as a private MCP-backed service so agents can parse, archive, and retrieve TikTok or Douyin posts, authors, comments, search results, and media.
+url: https://agentskillexchange.com/skills/collect-tiktok-and-douyin-data-through-a-self-hosted-mcp-server/
+
+## YYLO Ledger Task Management
+slug: ledger-tasks-yylo
+category: Developer Tools
+framework: Claude Code
+verification: Published
+description: Operate a YYLO Ledger Kanban board from the command line with the yy ledger CLI; create, search, update, and mark tasks with required response…
+url: https://agentskillexchange.com/skills/ledger-tasks-yylo/
 
 ## Run terminal coding-agent workflows with Phi
 slug: run-terminal-coding-agent-workflows-with-phi
