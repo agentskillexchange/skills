@@ -7,10 +7,7 @@ source: "https://github.com/yylo-dev/yylo-skills"
 category: "Developer Tools"
 framework: "Claude Code"
 tool_ecosystem:
-  tool: "yylo"
   github_repo: "yylo-dev/yylo-skills"
-  license: "MIT"
-  maintained: true
 ---
 
 # YYLO Ledger Task Management
@@ -30,34 +27,9 @@ yy ledger --version
 
 ## Installation
 
-### Install from the canonical skill pack
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-```bash
-npx skills add yylo-dev/yylo-skills --skill ledger-tasks-yylo
-```
-
-Non-interactive install for multiple agent runtimes:
-
-```bash
-npx skills add yylo-dev/yylo-skills --skill ledger-tasks-yylo -a claude-code -a codex -a pi --copy -y
-```
-
-### Install from this repository
-
-The `skills` npm package is maintained by third parties, not AgentSkillExchange. If you choose to use it, pin the package version:
-
-```bash
-npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill ledger-tasks-yylo
-```
-
-### Manual install
-
-Clone this repository and copy the skill directory into your agent's skill folder:
-
-```bash
-git clone https://github.com/agentskillexchange/skills.git
-cp -R skills/skills/ledger-tasks-yylo ~/.agent-skills/ledger-tasks-yylo
-```
+- Source: https://github.com/yylo-dev/yylo-skills
 
 ## Task lifecycle commands
 
