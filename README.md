@@ -131,8 +131,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Draw and verify Excalidraw diagrams through an agent canvas](skills/draw-and-verify-excalidraw-diagrams-through-an-agent-canvas/) | Use mcp_excalidraw to let coding agents create, inspect, revise, export, and commit editable Excalidraw diagrams from a local... | 2.4k | Image & Creative Automation |
 | [Collect TikTok and Douyin data through a self-hosted MCP server](skills/collect-tiktok-and-douyin-data-through-a-self-hosted-mcp-server/) | Run Douyin_TikTok_Download_API as a private MCP-backed service so agents can parse, archive, and retrieve TikTok or Douyin posts... | 20.1k | Research & Scraping |
 | [Run supervised browser automation workflows with AIHawk](skills/run-one-shot-and-supervised-browser-automation-workflows-with-aihawk/) | Use AIHawk's local supervised browser UI for bounded web research and extraction, with human review before external actions | 30.3k | Browser Automation |
-| [Rewrite agent-facing English with ASD-STE100 discipline](skills/rewrite-agent-facing-english-with-asd-ste100-discipline/) | Use this Claude Code skill to rewrite ambiguous instructions, errors, and tool descriptions into controlled technical English for... | 1.9k | Templates & Workflows |
 | [Extract Android app APIs with a Claude Code reverse-engineering skill](skills/extract-android-app-apis-with-a-claude-code-reverse-engineering-skill/) | Use this Claude Code skill to decompile APK, XAPK, JAR, and AAR files, recover Kotlin names, and extract... | 7.7k | Security & Verification |
+| [Rewrite agent-facing English with ASD-STE100 discipline](skills/rewrite-agent-facing-english-with-asd-ste100-discipline/) | Use this Claude Code skill to rewrite ambiguous instructions, errors, and tool descriptions into controlled technical English for... | 1.9k | Templates & Workflows |
 
 ---
 
