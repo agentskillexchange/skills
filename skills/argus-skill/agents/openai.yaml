@@ -1,0 +1,4 @@
+interface:
+  display_name: "Argus"
+  short_description: "Preserve durable context across every Archivum"
+  default_prompt: "Use $argus to checkpoint this conversation’s durable changes and route them to their canonical homes."

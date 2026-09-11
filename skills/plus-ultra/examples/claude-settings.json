@@ -1,0 +1,22 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "matcher": "*",
+        "hooks": [{"type": "command", "command": "plusultra hook"}]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [{"type": "command", "command": "plusultra hook"}]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [{"type": "command", "command": "plusultra hook"}]
+      }
+    ]
+  }
+}

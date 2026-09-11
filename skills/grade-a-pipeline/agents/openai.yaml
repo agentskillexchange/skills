@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grade-A Pipeline"
+  short_description: "Run a test-sandwiched multi-agent build pipeline"
+  default_prompt: "Use $grade-a-pipeline to map this repository, plan the requested change, and integrate isolated implementations through regression and review gates."

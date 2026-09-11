@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Questlog palette</title>
+<style>
+  :root{--bg:#0e1116;--panel:#171c24;--panel2:#1f2530;--line:#2b313b;--ink:#e8ebf0;--muted:#8b93a1;
+    --accent:#5b9dd9;--accent-ink:#0b1017;--good:#6bbf6b;--hot:#e0965b;--warm:#e0c05b;--sel:rgba(91,157,217,.16)}
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;background:transparent;overflow:hidden}
+  body{font:15px/1.4 -apple-system,"SF Pro Text",system-ui,sans-serif;color:var(--ink)}
+  .palette{height:100%;display:flex;flex-direction:column;
+    background:linear-gradient(180deg,#191f28,#12161d);border:1px solid #38414f;border-radius:14px;
+    overflow:hidden;box-shadow:0 24px 70px -14px #000,0 0 0 1px rgba(255,255,255,.03) inset}
+  .qbar{display:flex;align-items:center;gap:10px;padding:13px 16px;border-bottom:1px solid var(--line)}
+  .qbar .caret{color:var(--muted);font-size:15px}
+  #q{flex:1;background:transparent;border:0;outline:none;color:var(--ink);font:inherit;font-size:19px}
+  #q::placeholder{color:#69707c}
+  .qbar .hint{font-size:11px;color:var(--muted);white-space:nowrap}
+  .list{flex:1;overflow-y:auto;padding:6px}
+  .list::-webkit-scrollbar{width:8px}.list::-webkit-scrollbar-thumb{background:var(--line);border-radius:4px}
+  .grp{font-size:10px;letter-spacing:1.2px;text-transform:uppercase;color:var(--muted);padding:8px 12px 4px}
+  .row{display:flex;align-items:center;gap:11px;padding:9px 12px;border-radius:9px;cursor:pointer}
+  .row.sel{background:var(--sel);box-shadow:inset 0 0 0 1px rgba(91,157,217,.3)}
+  .row .ic{width:20px;text-align:center;font-size:15px;flex:none;opacity:.9}
+  .row .main{flex:1;min-width:0}
+  .row .t{font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .row .t b{color:#fff}
+  .row .sub{font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .row .tag{font-size:10px;text-transform:uppercase;letter-spacing:.5px;padding:2px 7px;border-radius:5px;
+    border:1px solid var(--line);color:var(--muted)}
+  .row .tag.hot{color:var(--hot)}.row .tag.warm{color:var(--warm)}.row .tag.blocked{color:#d9737f}
+  .row .k{font-size:11px;color:var(--muted);border:1px solid var(--line);border-radius:5px;padding:1px 6px}
+  .empty{color:var(--muted);padding:22px;text-align:center;font-size:13px}
+  .row.added{background:rgba(107,191,107,.12);box-shadow:inset 0 0 0 1px rgba(107,191,107,.35)}
+  .row.added .ic{color:var(--good)}
+</style></head>
+<body>
+<div class="palette">
+  <div class="qbar"><span class="caret">›</span>
+    <input id="q" placeholder="Add a task, or jump to a workstream…" autocomplete="off" autofocus/>
+    <span class="hint" id="sorthint" style="cursor:pointer" title="click to cycle sort">✨ relevant</span>
+    <span class="hint">↑↓ move · ↵ run · esc close</span>
+  </div>
+  <div class="list" id="list"></div>
+</div>
+<script>
+// Mutations carry the current ledger revision; conflicts are reported, never overwritten.
+const nativeFetch = window.fetch.bind(window);
+window.fetch = async (input, options = {}) => {
+  if (options.method === "POST" && ["/api/capture", "/api/mutate", "/api/new"].includes(String(input))) {
+    const snapshot = await nativeFetch("/api/state", {cache:"no-store"});
+    const state = await snapshot.json();
+    options.headers = {...options.headers, "If-Match": state.head};
+  }
+  return nativeFetch(input, options);
+};
+</script>
+<script>
+let WS=[], rows=[], sel=0, lastAdded=null, SORT='relevant';
+const SORTS=[['relevant','✨ relevant'],['recent','⏱ recent'],['urgent','🔥 urgent']];
+const listEl=document.getElementById('list'), q=document.getElementById('q');
+
+function api(p,o){return fetch(p,o).then(r=>r.json())}
+function post(p,b){return api(p,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(b)})}
+function close(){try{window.webkit.messageHandlers.close.postMessage("x")}catch(e){}try{window.close()}catch(e){}}
+
+function loadState(){api('/api/state').then(s=>{WS=s.workstreams||[];build()}).catch(()=>build())}
+
+// fuzzy: all query chars appear in order; score by compactness + prefix
+function fuzzy(hay,needle){
+  if(!needle)return 0.001;
+  hay=hay.toLowerCase();needle=needle.toLowerCase();
+  let hi=0,score=0,run=0,first=-1;
+  for(const ch of needle){
+    const idx=hay.indexOf(ch,hi);
+    if(idx<0)return -1;
+    if(first<0)first=idx;
+    run=(idx===hi)?run+1:0; score+=1+run; hi=idx+1;
+  }
+  return score - first*0.05;
+}
+
+function build(){
+  const query=q.value.trim();
+  rows=[];
+  // 1) primary: add task (always available when there's text)
+  if(query){
+    rows.push({grp:'CREATE',ic:'＋',t:`Add task <b>${esc(query)}</b>`,sub:'new workstream — palette stays open',
+      stay:true,
+      run:()=>post('/api/new',{title:query,domain:'life'}).then(()=>{
+        lastAdded=query; q.value=''; sel=0;
+        return new Promise(r=>setTimeout(r,150)).then(loadState);
+      })});
+    rows.push({grp:'CREATE',ic:'◈',t:`Set NOW to <b>${esc(query)}</b>`,sub:'your single focus',
+      run:()=>post('/api/mutate',{slug:'quick',op:'now',value:query})});
+  }
+  // 2) jump to / act on a matching workstream
+  let scored=WS.map(w=>({w,s:Math.max(
+      fuzzy(w.slug,query), fuzzy(w.goal||'',query)*0.6, fuzzy(w.next||'',query)*0.5)}))
+    .filter(x=>x.s>0);
+  if(SORT==='recent')scored.sort((a,b)=>(b.w.recent_ts||0)-(a.w.recent_ts||0));
+  else if(SORT==='urgent')scored.sort((a,b)=>(b.w.urgency||0)-(a.w.urgency||0));
+  else scored.sort((a,b)=>b.s-a.s);
+  scored=scored.slice(0,8);
+  for(const {w} of scored){
+    rows.push({grp:'JUMP TO',ic:'→',t:esc(w.slug),sub:'NEXT '+esc(w.next||w.goal||''),tag:w.state,
+      run:()=>post('/api/mutate',{slug:w.slug,op:'now',value:w.next||('Focus: '+w.slug)})});
+  }
+  // 3) when empty: hint row + the most recent workstreams (newest first) —
+  //    a just-added task shows here immediately, highlighted.
+  if(!query){
+    rows.unshift({grp:'CREATE',ic:'＋',t:'Type to add a task…',sub:'or jump to a workstream',run:null});
+    let recent=WS.slice(-6).reverse();
+    if(SORT==='recent')recent=WS.slice().sort((a,b)=>(b.recent_ts||0)-(a.recent_ts||0)).slice(0,6);
+    else if(SORT==='urgent')recent=WS.slice().sort((a,b)=>(b.urgency||0)-(a.urgency||0)).slice(0,6);
+    for(const w of recent){
+      const isNew = lastAdded && (w.goal===lastAdded || w.slug===lastAdded);
+      rows.push({grp:'RECENT',ic:isNew?'✓':'→',t:esc(w.slug)+(isNew?' <b>· just added</b>':''),
+        sub:'NEXT '+esc(w.next||w.goal||''),tag:w.state,added:isNew,
+        run:()=>post('/api/mutate',{slug:w.slug,op:'now',value:w.next||('Focus: '+w.slug)})});
+    }
+  }
+  sel=Math.min(sel,Math.max(0,rows.length-1));
+  render();
+}
+function esc(s){return String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
+
+function render(){
+  if(!rows.length){listEl.innerHTML='<div class="empty">no matches — press ↵ to add it as a task</div>';return}
+  let html='',lastGrp=null;
+  rows.forEach((r,i)=>{
+    if(r.grp!==lastGrp){html+=`<div class="grp">${r.grp}</div>`;lastGrp=r.grp;}
+    html+=`<div class="row${i===sel?' sel':''}${r.added?' added':''}" data-i="${i}">
+      <span class="ic">${r.ic}</span>
+      <div class="main"><div class="t">${r.t}</div>${r.sub?`<div class="sub">${r.sub}</div>`:''}</div>
+      ${r.tag?`<span class="tag ${r.tag}">${r.tag}</span>`:''}
+      ${i===sel?'<span class="k">↵</span>':''}</div>`;
+  });
+  listEl.innerHTML=html;
+  listEl.querySelectorAll('.row').forEach(el=>{
+    el.onmouseenter=()=>{sel=+el.dataset.i;render()};
+    el.onclick=()=>runSel();
+  });
+  const s=listEl.querySelector('.row.sel'); if(s)s.scrollIntoView({block:'nearest'});
+}
+function runSel(){
+  const r=rows[sel];
+  if(!r||!r.run){ // no-op row: if there's text, add it (and stay open)
+    const query=q.value.trim();
+    if(query)post('/api/new',{title:query,domain:'life'}).then(()=>{lastAdded=query;q.value='';sel=0;loadState()});
+    return;
+  }
+  const p=Promise.resolve(r.run());
+  if(!r.stay)p.then(close);
+}
+
+q.addEventListener('input',()=>{sel=0;build()});
+q.addEventListener('keydown',e=>{
+  if(e.key==='ArrowDown'){e.preventDefault();sel=Math.min(sel+1,rows.length-1);render()}
+  else if(e.key==='ArrowUp'){e.preventDefault();sel=Math.max(sel-1,0);render()}
+  else if(e.key==='Enter'){e.preventDefault();runSel()}
+  else if(e.key==='Escape'){e.preventDefault();close()}
+});
+document.getElementById('sorthint').onclick=()=>{
+  const i=(SORTS.findIndex(x=>x[0]===SORT)+1)%SORTS.length;SORT=SORTS[i][0];
+  document.getElementById('sorthint').textContent=SORTS[i][1];build()};
+window.addEventListener('focus',()=>{q.focus();q.select();loadState()});
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)loadState()});
+loadState(); q.focus();
+</script>
+</body></html>

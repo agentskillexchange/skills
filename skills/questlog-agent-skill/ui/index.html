@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Questlog</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👁️</text></svg>">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#F7F6F2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#14171B" media="(prefers-color-scheme: dark)">
+<style>
+  :root{
+    --ground:#F7F6F2; --panel:#FFFFFF; --ink:#1C2126; --ink-2:#5A6068; --line:#DFDBD2;
+    --accent:#245E9E; --accent-soft:#E7EEF6;
+    --hot:#C24E2A; --hot-soft:#F7E8E2; --warm:#B98A22; --warm-soft:#F5EEDC;
+    --ember:#7A5EA6; --ember-soft:#EEE9F5; --ok:#3E7A4E; --ok-soft:#E5F0E7;
+    --mono:ui-monospace,"SF Mono",Menlo,monospace;
+    --serif:"Iowan Old Style",Palatino,Georgia,serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --ground:#14171B; --panel:#1C2127; --ink:#E8E6E0; --ink-2:#9AA1AB; --line:#2C333B;
+      --accent:#6FA3D8; --accent-soft:#1E2E41;
+      --hot:#E07A55; --hot-soft:#3A251D; --warm:#D6AB4E; --warm-soft:#37301C;
+      --ember:#A78BD0; --ember-soft:#2C2438; --ok:#7CB98A; --ok-soft:#1E3024;
+    }
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);line-height:1.45;
+       padding:calc(env(safe-area-inset-top) + 10px) 14px calc(env(safe-area-inset-bottom) + 40px)}
+  .wrap{max-width:1040px;margin:0 auto}
+
+  header{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-bottom:2px solid var(--ink);padding-bottom:10px}
+  header h1{font-family:var(--serif);font-size:1.35rem;margin:0}
+  header .meta{margin-left:auto;font-family:var(--mono);font-size:.7rem;color:var(--ink-2);text-align:right}
+  header .meta .bad{color:var(--hot)}
+
+  .capture{display:flex;gap:8px;margin:14px 0}
+  .capture input{flex:1;background:var(--panel);border:1px solid var(--line);border-radius:9px;
+    color:var(--ink);padding:11px 13px;font-size:16px}
+  .capture button{background:var(--accent);color:#fff;border:none;border-radius:9px;font-weight:700;
+    padding:11px 18px;font-size:.9rem;cursor:pointer}
+  .toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%);background:var(--ink);color:var(--ground);
+    padding:8px 18px;border-radius:20px;font-size:.85rem;opacity:0;transition:opacity .25s;pointer-events:none;z-index:9}
+  .toast.show{opacity:1}
+
+  .now{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--hot);
+    border-radius:0 10px 10px 0;padding:14px 16px;margin-bottom:12px}
+  .eyebrow{font-size:.65rem;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-2);font-weight:650}
+  .now .eyebrow{color:var(--hot)}
+  .now .task{font-family:var(--serif);font-size:1.15rem;margin:5px 0 8px;text-wrap:balance}
+
+  .grid{display:grid;gap:12px}
+  @media(min-width:880px){.grid{grid-template-columns:1.4fr 1fr}}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:12px}
+  .card h2{font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-2);margin:0 0 10px;font-weight:650;display:flex;align-items:baseline}
+  .card h2 .n{margin-left:auto;font-family:var(--mono);font-weight:400}
+
+  .row{padding:8px 0;border-top:1px dashed var(--line)}
+  .row:first-of-type{border-top:none}
+  .row .top{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .slug{font-family:var(--mono);font-size:.8rem;font-weight:650}
+  .chip{font-size:.62rem;font-family:var(--mono);padding:2px 7px;border-radius:3px;font-weight:650}
+  .chip.hot{background:var(--hot-soft);color:var(--hot)}
+  .chip.warm{background:var(--warm-soft);color:var(--warm)}
+  .chip.ember{background:var(--ember-soft);color:var(--ember)}
+  .chip.paused,.chip.blocked{background:var(--accent-soft);color:var(--ink-2)}
+  .next{font-family:var(--mono);font-size:.74rem;color:var(--ink-2);margin-top:4px;line-height:1.5;overflow-wrap:anywhere}
+  .datebadge{font-family:var(--mono);font-size:.7rem;padding:2px 7px;border-radius:3px}
+  .datebadge.hard{background:var(--hot);color:var(--panel)}
+  .datebadge.soft{background:var(--warm-soft);color:var(--warm)}
+  .datebadge.over{background:var(--hot);color:var(--panel);font-weight:800}
+  .waitline{font-size:.85rem}
+  .waitline .over{color:var(--hot);font-weight:700;font-family:var(--mono);font-size:.75rem}
+  .waitline .okw{color:var(--ink-2);font-family:var(--mono);font-size:.75rem}
+
+  .acts{display:flex;gap:6px;margin-top:6px;flex-wrap:wrap}
+  .acts button{background:none;border:1px solid var(--line);color:var(--ink-2);border-radius:6px;
+    font-size:.72rem;padding:4px 10px;cursor:pointer;font-family:var(--sans)}
+  .acts button:hover{color:var(--ink);border-color:var(--ink-2)}
+  .acts button.primary{border-color:var(--ok);color:var(--ok)}
+  button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+
+  .row.reported{opacity:.6}
+  .row.reported .next{text-decoration:line-through}
+  .chip.sig{background:var(--ok-soft);color:var(--ok)}
+  .chip.sigdefer{background:var(--accent-soft);color:var(--ink-2)}
+  .inbox li,.journal li{font-family:var(--mono);font-size:.74rem;color:var(--ink-2);margin:4px 0;overflow-wrap:anywhere}
+  .inbox ul,.journal ul{margin:0;padding-left:18px}
+  .pulse-line{font-family:var(--mono);font-size:.7rem;color:var(--ink-2);margin:3px 0;overflow-wrap:anywhere}
+  .pulse-line b{color:var(--ok)}
+  details{margin-top:4px}
+  summary{cursor:pointer;font-size:.75rem;color:var(--ink-2)}
+  .custody{color:var(--ink-2);font-size:.75rem;font-style:italic;margin:8px 2px 24px;text-align:center}
+  .err{background:var(--hot-soft);color:var(--hot);border-radius:8px;padding:10px 14px;font-size:.85rem;margin:12px 0;display:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Questlog <span style="color:var(--ink-2);font-weight:400;font-size:.85rem">👁 the watch</span></h1>
+    <div class="meta" id="meta">loading…</div>
+  </header>
+
+  <form class="capture" id="cap">
+    <input type="text" id="capText" placeholder="Capture a local INBOX draft — no automatic action" autocomplete="off">
+    <button type="submit">Capture</button>
+  </form>
+  <div class="err" id="err"></div>
+
+  <div class="now" id="nowCard" style="display:none">
+    <div class="eyebrow">Now</div>
+    <div class="task" id="nowText"></div>
+    <div class="acts">
+      <button class="primary" data-tag="done" data-subj="NOW">✓ did it</button>
+      <button data-tag="defer" data-subj="NOW">not happening — replan</button>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div>
+      <div class="card" id="attention" style="display:none">
+        <h2>Needs attention</h2>
+        <div id="attentionRows"></div>
+      </div>
+
+      <div class="card">
+        <h2>Hot <span class="n" id="hotN"></span></h2>
+        <div id="hotRows"></div>
+      </div>
+
+      <div class="card">
+        <h2>Warm &amp; ember <span class="n" id="warmN"></span></h2>
+        <details><summary>show</summary><div id="warmRows"></div></details>
+      </div>
+    </div>
+
+    <div>
+      <div class="card" id="doneCard" style="display:none">
+        <h2>✓ Reported done — awaiting harvest</h2>
+        <div id="doneRows"></div>
+      </div>
+
+      <div class="card">
+        <h2>Waiting on people <span class="n" id="waitN"></span></h2>
+        <div id="waitRows"></div>
+      </div>
+
+      <div class="card">
+        <h2>Inbox <span class="n" id="inboxN"></span></h2>
+        <div class="inbox"><ul id="inboxList"></ul></div>
+      </div>
+
+      <div class="card">
+        <h2>Journal</h2>
+        <div class="journal"><ul id="journalList"></ul></div>
+      </div>
+
+      <div class="card">
+        <h2>Pulses</h2>
+        <div id="pulseRows"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="custody" id="custody"></div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+// Mutations carry the current ledger revision; conflicts are reported, never overwritten.
+const nativeFetch = window.fetch.bind(window);
+window.fetch = async (input, options = {}) => {
+  if (options.method === "POST" && ["/api/capture", "/api/mutate", "/api/new"].includes(String(input))) {
+    const snapshot = await nativeFetch("/api/state", {cache:"no-store"});
+    const state = await snapshot.json();
+    options.headers = {...options.headers, "If-Match": state.head};
+  }
+  return nativeFetch(input, options);
+};
+</script>
+<script>
+let S = null;
+const $ = id => document.getElementById(id);
+const esc = s => { const d=document.createElement('div'); d.textContent=s||''; return d.innerHTML; };
+// esc() is the textContent idiom: it escapes & < > because those are what the HTML
+// serialiser escapes in a TEXT node — but NOT quotes, since quotes are not special
+// there. That makes it correct everywhere it is used for element content, and WRONG
+// inside an attribute. Verified: esc('a" onmouseover="alert(1)') returns the string
+// unchanged, so dropping it into data-subj="..." still breaks out of the attribute.
+// escAttr() is the attribute-safe variant. Both quote styles are escaped so this stays
+// correct if an attribute is ever written with single quotes.
+const escAttr = s => String(s==null?'':s)
+  .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+  .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+
+function toast(msg){ const t=$('toast'); t.textContent=msg; t.classList.add('show'); setTimeout(()=>t.classList.remove('show'), 1600); }
+
+async function signal(tag, text){
+  try{
+    const r = await fetch('/api/capture',{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({text, tag})});
+    if(!r.ok){ const e=await r.json().catch(()=>({})); toast('degraded: '+(e.error||r.status)); }
+    else toast(tag ? 'saved as a local draft — not executed' : 'captured locally');
+  }catch(e){ toast('unreachable'); }
+  load();
+}
+
+function dueBadge(d){
+  const today = new Date(); today.setHours(0,0,0,0);
+  const dd = new Date(d.date+'T00:00:00');
+  const days = Math.round((dd-today)/86400000);
+  let label = d.date.slice(5), cls = d.kind;
+  if(days<0){ label = `overdue ${-days}d`; cls='over'; }
+  else if(days===0){ label='TODAY'; cls = d.kind==='hard'?'over':d.kind; }
+  else if(days===1){ label='tomorrow'; }
+  return `<span class="datebadge ${escAttr(cls)}" title="${escAttr(d.date)}">${esc(label)}</span>`;
+}
+
+function wsRow(w, withActs, sig){
+  const dues = w.dues.map(dueBadge).join(' ');
+  const deferred = sig.defer.has(w.slug), focused = sig.focus.has(w.slug);
+  const badge = focused ? `<span class="chip sig">focus draft</span>` :
+                deferred ? `<span class="chip sigdefer">deferred today</span>` : '';
+  const acts = (withActs && !deferred && !focused) ? `<div class="acts">
+      <button class="primary" data-tag="done" data-subj="${escAttr(w.slug)}">✓ done: next</button>
+      <button data-tag="focus" data-subj="${escAttr(w.slug)}">focus this</button>
+      <button data-tag="defer" data-subj="${escAttr(w.slug)}">not today</button>
+    </div>` : '';
+  return `<div class="row ${deferred?'reported':''}">
+    <div class="top"><span class="slug">${esc(w.slug)}</span>
+      <span class="chip ${escAttr(w.state)}">${esc(w.state.toUpperCase())}</span>
+      <span class="chip" style="background:var(--accent-soft);color:var(--accent)">${esc(w.domain)}</span> ${dues} ${badge}</div>
+    ${w.next?`<div class="next">NEXT ${esc(w.next)}</div>`:''}
+    ${acts}</div>`;
+}
+
+function parseSignals(inbox){
+  const sig = {done:new Set(), defer:new Set(), focus:new Set(), replied:new Set(), chased:new Set(),
+               now:null, plain:[], doneBullets:[]};
+  inbox.forEach(b=>{
+    const m = b.match(/^\[web:(done|focus|defer|replied|chased)\]\s*(.*)$/);
+    if(!m){ sig.plain.push(b); return; }
+    const tag = m[1], subj = m[2].replace(/\s*\(web [^)]*\)\s*$/,'').trim();
+    if(/^NOW:/i.test(subj)){ if(tag==='done'||tag==='defer') sig.now = tag; return; }
+    const slug = subj.split(':')[0].trim();
+    sig[tag].add(tag==='replied'||tag==='chased' ? subj : slug);
+    if(tag==='done') sig.doneBullets.push(subj);
+  });
+  return sig;
+}
+
+function render(){
+  const s = S; if(!s) return;
+  const sig = parseSignals(s.inbox);
+  $('meta').innerHTML = `${esc((s.git_head||s.head||'').slice(0,12))} · ${s.workstreams.length} streams` +
+    (s.dirty?` · <span class="bad">dirty</span>`:'') +
+    (s.unpushed?` · <span class="bad">${s.unpushed} unpushed</span>`:'');
+
+  if(s.now){
+    $('nowCard').style.display='block';
+    if(sig.now==='done'){
+      $('nowText').innerHTML = `<span style="text-decoration:line-through;color:var(--ink-2)">${esc(s.now)}</span>
+        <div style="font-size:.8rem;color:var(--ok);font-family:var(--mono);margin-top:6px">✓ completion noted locally — choose the next focus when ready</div>`;
+      $('nowCard').querySelector('.acts').style.display='none';
+    } else if(sig.now==='defer'){
+      $('nowText').innerHTML = `<span style="color:var(--ink-2)">${esc(s.now)}</span>
+        <div style="font-size:.8rem;color:var(--ink-2);font-family:var(--mono);margin-top:6px">replan draft saved — no automatic action scheduled</div>`;
+      $('nowCard').querySelector('.acts').style.display='none';
+    } else {
+      $('nowText').textContent = s.now;
+      $('nowCard').querySelector('.acts').style.display='flex';
+    }
+  }
+
+  // needs attention: hard DUEs ≤2d or overdue, + overdue WAITINGs — skipping anything already reported done/replied
+  const today = new Date(); today.setHours(0,0,0,0);
+  const activeWS = s.workstreams.filter(w=>!sig.done.has(w.slug));
+  const urgent = [];
+  activeWS.forEach(w => w.dues.forEach(d => {
+    const days = Math.round((new Date(d.date+'T00:00:00')-today)/86400000);
+    if(d.kind==='hard' && days<=2) urgent.push(`<div class="row"><div class="top"><span class="slug">${esc(w.slug)}</span> ${dueBadge(d)}</div><div class="next">${esc(d.what)}</div></div>`);
+  }));
+  activeWS.forEach(w => w.waitings.forEach(x => {
+    if(x.overdue_by>0 && !sig.replied.has(`${w.slug}: ${x.who}`) && !sig.chased.has(`${w.slug}: ${x.who}`))
+      urgent.push(`<div class="row waitline"><div class="top"><span class="slug">${esc(w.slug)}</span> <span class="over">chase +${x.overdue_by}d</span></div><div class="next">${esc(x.who)} — ${esc(x.what)}</div></div>`);
+  }));
+  $('attention').style.display = urgent.length?'block':'none';
+  $('attentionRows').innerHTML = urgent.join('');
+
+  // streams with a pending done-signal LEAVE the active panels entirely
+  const reported = s.workstreams.filter(w=>sig.done.has(w.slug));
+  const hot = activeWS.filter(w=>w.state==='hot');
+  const rest = activeWS.filter(w=>w.state!=='hot');
+  $('hotN').textContent = hot.length; $('warmN').textContent = rest.length;
+  const sortDefer = arr => arr.sort((a,b)=>(sig.defer.has(a.slug)?1:0)-(sig.defer.has(b.slug)?1:0));
+  $('hotRows').innerHTML = sortDefer(hot).map(w=>wsRow(w,true,sig)).join('');
+  $('warmRows').innerHTML = sortDefer(rest).map(w=>wsRow(w,true,sig)).join('');
+  $('doneCard').style.display = reported.length?'block':'none';
+  $('doneRows').innerHTML = reported.map(w=>`<div class="row reported">
+      <div class="top"><span class="slug">${esc(w.slug)}</span> <span class="chip sig">✓ reported</span></div>
+      ${w.next?`<div class="next">${esc(w.next)}</div>`:''}</div>`).join('');
+
+  const waits = [];
+  activeWS.forEach(w => w.waitings.forEach(x => waits.push({w,x})));
+  $('waitN').textContent = waits.length;
+  $('waitRows').innerHTML = waits.map(({w,x})=>{
+    const key = `${w.slug}: ${x.who}`;
+    if(sig.replied.has(key)) return `<div class="row waitline reported">
+      <div class="top"><span class="slug">${esc(w.slug)}</span> <span class="chip sig">reply reported locally — review waiting item</span></div>
+      <div class="next">${esc(x.who)} — ${esc(x.what)}</div></div>`;
+    if(sig.chased.has(key)) return `<div class="row waitline reported">
+      <div class="top"><span class="slug">${esc(w.slug)}</span> <span class="chip sigdefer">chase reported locally — waiting date unchanged</span></div>
+      <div class="next">${esc(x.who)} — ${esc(x.what)}</div></div>`;
+    return `<div class="row waitline">
+      <div class="top"><span class="slug">${esc(w.slug)}</span>
+        ${x.overdue_by>0?`<span class="over">chase +${x.overdue_by}d</span>`:`<span class="okw">${x.days_waiting}/${x.chase_days}d</span>`}</div>
+      <div class="next">${esc(x.who)} — ${esc(x.what)} (since ${esc(x.since)})</div>
+      <div class="acts">
+        <button class="primary" data-tag="replied" data-subj="${escAttr(key)}">they replied</button>
+        <button data-tag="chased" data-subj="${escAttr(key)}">I chased them</button>
+      </div></div>`;
+  }).join('') || '<div class="next">nobody owes you anything</div>';
+
+  $('inboxN').textContent = sig.plain.length;
+  $('inboxList').innerHTML = sig.plain.map(b=>`<li>${esc(b)}</li>`).join('') || '<li>empty</li>';
+  $('journalList').innerHTML = (s.journal||[]).map(j=>`<li>${esc(j)}</li>`).join('');
+
+  const cron = (s.pulses.crontab||[]).length;
+  const logs = Object.entries(s.pulses.logs||{});
+  $('pulseRows').innerHTML = s.pulses.configured ?
+    `<div class="pulse-line"><b>${cron}</b> configured scheduler records</div>` +
+    logs.map(([f,l])=>`<div class="pulse-line">${esc(f)}: ${esc(l)}</div>`).join('') :
+    '<div class="pulse-line">Scheduling integration not configured — no scheduler inspected</div>';
+
+  $('custody').textContent = `holding ${s.workstreams.length} workstreams · ledger ${s.updated||''} · the list was never the point`;
+}
+
+async function load(){
+  try{
+    const r = await fetch('/api/state'); S = await r.json();
+    if(S.error){ $('err').style.display='block'; $('err').textContent = S.error; return; }
+    $('err').style.display='none';
+    render();
+  }catch(e){ $('err').style.display='block'; $('err').textContent='server unreachable'; }
+}
+
+document.addEventListener('click', ev=>{
+  const b = ev.target.closest('[data-tag]'); if(!b) return;
+  const subj = b.dataset.subj === 'NOW' ? ('NOW: ' + (S?.now||'')) : b.dataset.subj;
+  signal(b.dataset.tag, subj);
+});
+
+$('cap').addEventListener('submit', ev=>{
+  ev.preventDefault();
+  const v = $('capText').value.trim(); if(!v) return;
+  signal(null, v); $('capText').value='';
+});
+
+document.addEventListener('visibilitychange', ()=>{ if(!document.hidden) load(); });
+setInterval(load, 45_000);
+load();
+</script>
+</body>
+</html>
