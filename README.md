@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[ESLint Auto-Fix Agent](skills/eslint-auto-fix-agent/)** — Automatically detect and fix JavaScript/TypeScript linting issues using ESLint v9 flat config and the ESLint Node.js API. Supports custom rule configurations and staged file processing with lint-staged.
+**[Open WebUI Self-Hosted AI Interface for LLMs](skills/open-webui-self-hosted-ai-interface/)** — Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline. It supports various LLM runners like Ollama and OpenAI-compatible APIs with built-in…
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -127,8 +127,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Operate deployments, telemetry, and sandboxes through Temps CLI skills](skills/operate-deployments-telemetry-and-sandboxes-through-temps-cli-skills/) | Use Temps when an agent needs to deploy applications, inspect production telemetry, and manage self-hosted sandboxes through a... | 724 | Developer Tools |
 | [Serve codebase impact context to agents with Trace MCP](skills/serve-codebase-impact-context-to-agents-with-trace-mcp/) | Use Trace MCP to index a repository once and let MCP-capable coding agents query framework-aware code, dependency, and... | 154 | Code Quality & Review |
 | [Automate NotebookLM Studio generation and cited research batches with notebooklm-mcp](skills/automate-notebooklm-studio-generation-and-cited-research-batches-with-notebooklm-mcp/) | Use NotebookLM through MCP or a local REST API to run cited Q&A, generate Studio artifacts, and manage... | 161 | Research & Scraping |
-| [Render pull request architecture diagrams with PR Lens](skills/render-pull-request-architecture-diagrams-with-pr-lens/) | Have an agent turn a code diff into validated architecture and data-flow diagrams, then attach the rendered SVGs... | 212 | Code Quality & Review |
 | [Draw and verify Excalidraw diagrams through an agent canvas](skills/draw-and-verify-excalidraw-diagrams-through-an-agent-canvas/) | Use mcp_excalidraw to let coding agents create, inspect, revise, export, and commit editable Excalidraw diagrams from a local... | 2.4k | Image & Creative Automation |
+| [Render pull request architecture diagrams with PR Lens](skills/render-pull-request-architecture-diagrams-with-pr-lens/) | Have an agent turn a code diff into validated architecture and data-flow diagrams, then attach the rendered SVGs... | 212 | Code Quality & Review |
 | [Run supervised browser automation workflows with AIHawk](skills/run-one-shot-and-supervised-browser-automation-workflows-with-aihawk/) | Use AIHawk's local supervised browser UI for bounded web research and extraction, with human review before external actions | 30.3k | Browser Automation |
 | [Extract Android app APIs with a Claude Code reverse-engineering skill](skills/extract-android-app-apis-with-a-claude-code-reverse-engineering-skill/) | Use this Claude Code skill to decompile APK, XAPK, JAR, and AAR files, recover Kotlin names, and extract... | 7.7k | Security & Verification |
 | [Prepare agent-ready document memory with Knowhere](skills/prepare-agent-ready-document-memory-with-knowhere/) | Use Knowhere to parse complex documents into hierarchy-native, citation-backed memory that agents can retrieve and navigate | 3.0k | Data Extraction & Transformation |
