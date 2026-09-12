@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-12
-# Total: 2982 skills
+# Total: 2983 skills
+
+## Move agent chat histories into DeepSeek Harness with DSH Chat Import
+slug: move-agent-chat-histories-into-deepseek-harness-with-dsh-chat-import
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Preview, import, resume, export, and sync coding-agent conversations across Claude Code, Codex, ChatGPT, Cursor, Gemini, OpenClaw, and other tools as DeepSeek Harness sessions.
+url: https://agentskillexchange.com/skills/move-agent-chat-histories-into-deepseek-harness-with-dsh-chat-import/
 
 ## Build deterministic SaaS API test worlds for agents with Backlot
 slug: build-deterministic-saas-api-test-worlds-for-agents-with-backlot

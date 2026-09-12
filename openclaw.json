@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-12",
-  "total": 2982,
+  "total": 2983,
   "skills": [
+    {
+      "slug": "move-agent-chat-histories-into-deepseek-harness-with-dsh-chat-import",
+      "name": "Move agent chat histories into DeepSeek Harness with DSH Chat Import",
+      "title": "Move agent chat histories into DeepSeek Harness with DSH Chat Import",
+      "description": "Preview, import, resume, export, and sync coding-agent conversations across Claude Code, Codex, ChatGPT, Cursor, Gemini, OpenClaw, and other tools as DeepSeek Harness sessions.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Nwflower/dsh-chat-import",
+      "github_repo": "Nwflower/dsh-chat-import"
+    },
     {
       "slug": "build-deterministic-saas-api-test-worlds-for-agents-with-backlot",
       "name": "Build deterministic SaaS API test worlds for agents with Backlot",
