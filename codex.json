@@ -1,9 +1,20 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-09-11",
-  "total": 2981,
+  "generated": "2026-09-12",
+  "total": 2982,
   "skills": [
+    {
+      "slug": "build-deterministic-saas-api-test-worlds-for-agents-with-backlot",
+      "name": "Build deterministic SaaS API test worlds for agents with Backlot",
+      "title": "Build deterministic SaaS API test worlds for agents with Backlot",
+      "description": "Run local Slack, Gmail, Google Drive, GitHub, Jira, Notion, S3, and other SaaS API emulators over a controlled corpus so agents and integrations can…",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/brekkylab/backlot",
+      "github_repo": "brekkylab/backlot"
+    },
     {
       "slug": "collect-tiktok-and-douyin-data-through-a-self-hosted-mcp-server",
       "name": "Collect TikTok and Douyin data through a self-hosted MCP server",

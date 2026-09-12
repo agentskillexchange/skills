@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-09-11
-# Total: 2981 skills
+# Generated: 2026-09-12
+# Total: 2982 skills
+
+## Build deterministic SaaS API test worlds for agents with Backlot
+slug: build-deterministic-saas-api-test-worlds-for-agents-with-backlot
+category: Integrations & Connectors
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run local Slack, Gmail, Google Drive, GitHub, Jira, Notion, S3, and other SaaS API emulators over a controlled corpus so agents and integrations can…
+url: https://agentskillexchange.com/skills/build-deterministic-saas-api-test-worlds-for-agents-with-backlot/
 
 ## Collect TikTok and Douyin data through a self-hosted MCP server
 slug: collect-tiktok-and-douyin-data-through-a-self-hosted-mcp-server
