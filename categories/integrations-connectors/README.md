@@ -94,6 +94,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Route and observe production agent traffic with Plano](../../skills/route-and-observe-production-agent-traffic-with-plano/) | 6.6k | — |
 | [Flagsmith Open Source Feature Flag and Remote Config Platform](../../skills/flagsmith-feature-flag-remote-config/) | 6.3k | — |
 | [Operate multi-provider AI gateway traffic with Bifrost](../../skills/operate-multi-provider-ai-gateway-traffic-with-bifrost/) | 6k | 6.5k/wk |
+| [Hot-swap local model backends for agent workflows with llama-swap](../../skills/hot-swap-local-model-backends-for-agent-workflows-with-llama-swap/) | 5.7k | — |
 | [Notion Database Sync & Page Generator](../../skills/notion-database-sync-page-generator-2/) | 5.6k | 1.2M/wk |
 | [Zammad Open Source Web-Based Helpdesk and Ticketing System](../../skills/zammad-open-source-helpdesk-ticketing-system/) | 5.5k | — |
 | [Inngest Event-Driven Durable Workflow Orchestration Platform](../../skills/inngest-event-driven-durable-workflow-orchestration/) | 5.2k | — |

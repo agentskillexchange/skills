@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-12",
-  "total": 2983,
+  "total": 2984,
   "skills": [
+    {
+      "slug": "hot-swap-local-model-backends-for-agent-workflows-with-llama-swap",
+      "name": "Hot-swap local model backends for agent workflows with llama-swap",
+      "title": "Hot-swap local model backends for agent workflows with llama-swap",
+      "description": "Use llama-swap to give agents one OpenAI/Anthropic-compatible endpoint that loads, unloads, and switches local model servers on demand.",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/mostlygeek/llama-swap",
+      "github_repo": "mostlygeek/llama-swap"
+    },
     {
       "slug": "move-agent-chat-histories-into-deepseek-harness-with-dsh-chat-import",
       "name": "Move agent chat histories into DeepSeek Harness with DSH Chat Import",

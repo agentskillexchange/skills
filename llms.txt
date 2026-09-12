@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-12
-# Total: 2983 skills
+# Total: 2984 skills
+
+## Hot-swap local model backends for agent workflows with llama-swap
+slug: hot-swap-local-model-backends-for-agent-workflows-with-llama-swap
+category: Integrations & Connectors
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use llama-swap to give agents one OpenAI/Anthropic-compatible endpoint that loads, unloads, and switches local model servers on demand.
+url: https://agentskillexchange.com/skills/hot-swap-local-model-backends-for-agent-workflows-with-llama-swap/
 
 ## Move agent chat histories into DeepSeek Harness with DSH Chat Import
 slug: move-agent-chat-histories-into-deepseek-harness-with-dsh-chat-import

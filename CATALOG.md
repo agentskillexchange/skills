@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2983 published skills** across **17 categories** · 2,491 security reviewed · Updated 2026-09-12 13:26 UTC
+> **2984 published skills** across **17 categories** · 2,491 security reviewed · Updated 2026-09-12 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1812,7 +1812,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (168 skills)
+### 🔗 Integrations & Connectors (169 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1872,6 +1872,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Route and observe production agent traffic with Plano](skills/route-and-observe-production-agent-traffic-with-plano/) | Use Plano when an agent application needs an out-of-process data plane for multi-agent routing, model agility,… | Security Reviewed | 6.6k | — |
 | [Flagsmith Open Source Feature Flag and Remote Config Platform](skills/flagsmith-feature-flag-remote-config/) | Flagsmith is an open-source feature flagging and remote configuration platform. It enables teams to safely roll out… | Security Reviewed | 6.3k | — |
 | [Operate multi-provider AI gateway traffic with Bifrost](skills/operate-multi-provider-ai-gateway-traffic-with-bifrost/) | Run Bifrost as an OpenAI-compatible gateway so agents can route model calls across providers with failover, load… | Security Reviewed | 6k | 6.5k/wk |
+| [Hot-swap local model backends for agent workflows with llama-swap](skills/hot-swap-local-model-backends-for-agent-workflows-with-llama-swap/) | Use llama-swap to give agents one OpenAI/Anthropic-compatible endpoint that loads, unloads, and switches local model… | Security Reviewed | 5.7k | — |
 | [Notion Database Sync & Page Generator](skills/notion-database-sync-page-generator-2/) | Reads from and writes to Notion databases using the official Notion API v1, supporting filtered queries, property… | Published | 5.6k | 1.2M/wk |
 | [Zammad Open Source Web-Based Helpdesk and Ticketing System](skills/zammad-open-source-helpdesk-ticketing-system/) | Zammad is a self-hosted, open-source helpdesk and customer support system with email, chat, phone, Twitter, and… | Security Reviewed | 5.5k | — |
 | [Inngest Event-Driven Durable Workflow Orchestration Platform](skills/inngest-event-driven-durable-workflow-orchestration/) | Inngest is an open-source workflow orchestration platform that replaces queues, state management, and scheduling… | Security Reviewed | 5.2k | — |
