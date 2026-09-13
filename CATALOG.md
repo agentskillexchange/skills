@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2984 published skills** across **17 categories** · 2,492 security reviewed · Updated 2026-09-12 19:27 UTC
+> **2985 published skills** across **17 categories** · 2,492 security reviewed · Updated 2026-09-13 01:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -2692,7 +2692,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Verify local web apps with Playwright scripts and managed dev servers](skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | Use Anthropic's webapp-testing skill to spin up one or more local servers, wait for them to become reachable, and… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (109 skills)
+### 🎨 Image & Creative Automation (110 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -2770,6 +2770,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Revise PDF Slides with Natural-Language Edits](skills/revise-pdf-slides-with-natural-language-edits/) | Use Nano-PDF when an agent needs to update existing PDF slides or insert matching new slides from plain-language… | Security Reviewed | 1.2k | — |
 | [Generate Template-Matched PPTX Decks with gpt-image2-ppt-skills](skills/generate-template-matched-pptx-decks-with-gpt-image2-ppt-skills/) | Use gpt-image2-ppt-skills to have an agent create image-first or editable PowerPoint decks with gpt-image-2, bundled… | Security Reviewed | 1.1k | — |
 | [Rive Runtime Animation Controller](skills/rive-runtime-animation-controller/) | Controls Rive (.riv) interactive animations at runtime using @rive-app/canvas-advanced, manages state machine… | Security Reviewed | 1.1k | 19.7k/wk |
+| [Create sourced explainer videos with anything2explainer](skills/create-sourced-explainer-videos-with-anything2explainer/) | Use anything2explainer as an agent workflow for turning a topic or document into a sourced Remotion explainer video… | Security Reviewed | 1.1k | — |
 | [Design, render, and visually QA editable PowerPoint decks with PPT Design Skill](skills/design-render-and-visually-qa-editable-powerpoint-decks-with-ppt-design-skill/) | Run a presentation-design workflow that turns a confirmed brief into editable PPTX output, rendered PNG previews,… | Security Reviewed | 1k | — |
 | [CairoSVG SVG to PNG PDF and PostScript Converter](skills/cairosvg-svg-to-png-pdf-converter/) | CairoSVG is a Python-based SVG converter built on the Cairo 2D graphics library. It converts SVG files to PNG, PDF,… | Published | 917 | — |
 | [Turn source novels into playable games with NovelToGame](skills/turn-source-novels-into-playable-games-with-noveltogame/) | Use NovelToGame to run a staged agent workflow that analyzes a novel, selects concepts, builds world and art… | Security Reviewed | 559 | — |

@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C984-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C985-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C492-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,984 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,985 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Run autonomous deep research workflows with GPT Researcher](skills/run-autonomous-deep-research-workflows-with-gpt-researcher/)** — Use GPT Researcher to plan, gather, source, and assemble cited web or local research reports through a repeatable agent workflow.
+**[Move agent chat histories into DeepSeek Harness with DSH Chat Import](skills/move-agent-chat-histories-into-deepseek-harness-with-dsh-chat-import/)** — Preview, import, resume, export, and sync coding-agent conversations across Claude Code, Codex, ChatGPT, Cursor, Gemini, OpenClaw, and other tools as DeepSeek Harness sessions.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -87,6 +87,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Create sourced explainer videos with anything2explainer](skills/create-sourced-explainer-videos-with-anything2explainer/) | Use anything2explainer as an agent workflow for turning a topic or document into a sourced Remotion explainer video... | 1.1k | Image & Creative Automation |
 | [Hot-swap local model backends for agent workflows with llama-swap](skills/hot-swap-local-model-backends-for-agent-workflows-with-llama-swap/) | Use llama-swap to give agents one OpenAI/Anthropic-compatible endpoint that loads, unloads, and switches local model servers on demand | 5.7k | Integrations & Connectors |
 | [Move agent chat histories into DeepSeek Harness with DSH Chat Import](skills/move-agent-chat-histories-into-deepseek-harness-with-dsh-chat-import/) | Preview, import, resume, export, and sync coding-agent conversations across Claude Code, Codex, ChatGPT, Cursor, Gemini, OpenClaw, and other... | 155 | Developer Tools |
 | [Build deterministic SaaS API test worlds for agents with Backlot](skills/build-deterministic-saas-api-test-worlds-for-agents-with-backlot/) | Run local Slack, Gmail, Google Drive, GitHub, Jira, Notion, S3, and other SaaS API emulators over a controlled... | 155 | Integrations & Connectors |
@@ -96,7 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [SHAR Production Metadata Validation](skills/shar-production-metadata-validation/) | Uses the SHAR Production Metadata MCP local stdio server to validate rights-aware production metadata manifests before an AI-hybrid... | - | Security & Verification |
 | [Run source-audited academic literature searches with Nature Academic Search](skills/run-source-audited-academic-literature-searches-with-nature-academic-search/) | Use Nature Academic Search to plan, deduplicate, verify, graph, and export academic literature searches across multiple scholarly sources | 216 | Research & Scraping |
 | [Rewrite agent-facing English with ASD-STE100 discipline](skills/rewrite-agent-facing-english-with-asd-ste100-discipline/) | Use this Claude Code skill to rewrite ambiguous instructions, errors, and tool descriptions into controlled technical English for... | 1.9k | Templates & Workflows |
-| [Prepare agent-ready document memory with Knowhere](skills/prepare-agent-ready-document-memory-with-knowhere/) | Use Knowhere to parse complex documents into hierarchy-native, citation-backed memory that agents can retrieve and navigate | 3.0k | Data Extraction & Transformation |
 
 ---
 
@@ -126,13 +126,13 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Operate deployments, telemetry, and sandboxes through Temps CLI skills](skills/operate-deployments-telemetry-and-sandboxes-through-temps-cli-skills/) | Use Temps when an agent needs to deploy applications, inspect production telemetry, and manage self-hosted sandboxes through a... | 724 | Developer Tools |
 | [Compact terminal-heavy agent output with Tokenjuice](skills/compact-terminal-heavy-agent-output-with-tokenjuice/) | Use Tokenjuice when an agent runs noisy shell commands and needs deterministic, inspectable output reduction before continuing a... | 517 | Developer Tools |
 | [Serve codebase impact context to agents with Trace MCP](skills/serve-codebase-impact-context-to-agents-with-trace-mcp/) | Use Trace MCP to index a repository once and let MCP-capable coding agents query framework-aware code, dependency, and... | 154 | Code Quality & Review |
+| [Collect TikTok and Douyin data through a self-hosted MCP server](skills/collect-tiktok-and-douyin-data-through-a-self-hosted-mcp-server/) | Run Douyin_TikTok_Download_API as a private MCP-backed service so agents can parse, archive, and retrieve TikTok or Douyin posts... | 20.1k | Research & Scraping |
 | [Automate NotebookLM Studio generation and cited research batches with notebooklm-mcp](skills/automate-notebooklm-studio-generation-and-cited-research-batches-with-notebooklm-mcp/) | Use NotebookLM through MCP or a local REST API to run cited Q&A, generate Studio artifacts, and manage... | 161 | Research & Scraping |
 | [Draw and verify Excalidraw diagrams through an agent canvas](skills/draw-and-verify-excalidraw-diagrams-through-an-agent-canvas/) | Use mcp_excalidraw to let coding agents create, inspect, revise, export, and commit editable Excalidraw diagrams from a local... | 2.4k | Image & Creative Automation |
 | [Render pull request architecture diagrams with PR Lens](skills/render-pull-request-architecture-diagrams-with-pr-lens/) | Have an agent turn a code diff into validated architecture and data-flow diagrams, then attach the rendered SVGs... | 212 | Code Quality & Review |
-| [Collect TikTok and Douyin data through a self-hosted MCP server](skills/collect-tiktok-and-douyin-data-through-a-self-hosted-mcp-server/) | Run Douyin_TikTok_Download_API as a private MCP-backed service so agents can parse, archive, and retrieve TikTok or Douyin posts... | 20.1k | Research & Scraping |
 | [Hot-swap local model backends for agent workflows with llama-swap](skills/hot-swap-local-model-backends-for-agent-workflows-with-llama-swap/) | Use llama-swap to give agents one OpenAI/Anthropic-compatible endpoint that loads, unloads, and switches local model servers on demand | 5.7k | Integrations & Connectors |
 | [Run supervised browser automation workflows with AIHawk](skills/run-one-shot-and-supervised-browser-automation-workflows-with-aihawk/) | Use AIHawk's local supervised browser UI for bounded web research and extraction, with human review before external actions | 30.3k | Browser Automation |
-| [Extract Android app APIs with a Claude Code reverse-engineering skill](skills/extract-android-app-apis-with-a-claude-code-reverse-engineering-skill/) | Use this Claude Code skill to decompile APK, XAPK, JAR, and AAR files, recover Kotlin names, and extract... | 7.7k | Security & Verification |
+| [Create sourced explainer videos with anything2explainer](skills/create-sourced-explainer-videos-with-anything2explainer/) | Use anything2explainer as an agent workflow for turning a topic or document into a sourced Remotion explainer video... | 1.1k | Image & Creative Automation |
 
 ---
 
@@ -153,7 +153,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 127 | Email automation, calendar management, task coordination |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 127 | SDK docs, API parsers, symbol resolvers |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 123 | Web scraping, UI testing, headless browser control |
-| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 109 | Image generation, asset processing, design automation |
+| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 110 | Image generation, asset processing, design automation |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 109 | Audio/video processing, speech-to-text |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
 | ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 91 | SEO content, blog automation, editorial workflows |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,984 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,985 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,492 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

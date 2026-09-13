@@ -112,6 +112,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Revise PDF Slides with Natural-Language Edits](../../skills/revise-pdf-slides-with-natural-language-edits/) | 1.2k | — |
 | [Generate Template-Matched PPTX Decks with gpt-image2-ppt-skills](../../skills/generate-template-matched-pptx-decks-with-gpt-image2-ppt-skills/) | 1.1k | — |
 | [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | 1.1k | 19.7k/wk |
+| [Create sourced explainer videos with anything2explainer](../../skills/create-sourced-explainer-videos-with-anything2explainer/) | 1.1k | — |
 | [Design, render, and visually QA editable PowerPoint decks with PPT Design Skill](../../skills/design-render-and-visually-qa-editable-powerpoint-decks-with-ppt-design-skill/) | 1k | — |
 | [CairoSVG SVG to PNG PDF and PostScript Converter](../../skills/cairosvg-svg-to-png-pdf-converter/) | 917 | — |
 | [Turn source novels into playable games with NovelToGame](../../skills/turn-source-novels-into-playable-games-with-noveltogame/) | 559 | — |

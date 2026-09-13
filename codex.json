@@ -1,9 +1,20 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-09-12",
-  "total": 2984,
+  "generated": "2026-09-13",
+  "total": 2985,
   "skills": [
+    {
+      "slug": "create-sourced-explainer-videos-with-anything2explainer",
+      "name": "Create sourced explainer videos with anything2explainer",
+      "title": "Create sourced explainer videos with anything2explainer",
+      "description": "Use anything2explainer as an agent workflow for turning a topic or document into a sourced Remotion explainer video with narration, subtitles, checkpoints, and QC.",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Vincentwei1021/anything2explainer",
+      "github_repo": "Vincentwei1021/anything2explainer"
+    },
     {
       "slug": "hot-swap-local-model-backends-for-agent-workflows-with-llama-swap",
       "name": "Hot-swap local model backends for agent workflows with llama-swap",
