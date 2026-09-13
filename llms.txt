@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-13
-# Total: 2985 skills
+# Total: 2987 skills
+
+## Run spec-driven coding changes with Spectra skills and CLI
+slug: run-spec-driven-coding-changes-with-spectra-skills-and-cli
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Manage proposal, implementation, verification, review, audit, drift, archive, and commit steps through Spectra's agent skills and CLI-backed spec workflow.
+url: https://agentskillexchange.com/skills/run-spec-driven-coding-changes-with-spectra-skills-and-cli/
+
+## Review KiCad schematics, PCB layouts, Gerbers, and BOMs with kicad-happy
+slug: review-kicad-schematics-pcb-layouts-gerbers-and-boms-with-kicad-happy
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Turn a coding agent into a KiCad electronics review assistant that parses boards, checks circuits, audits EMC risks, and prepares prototype-to-production feedback.
+url: https://agentskillexchange.com/skills/review-kicad-schematics-pcb-layouts-gerbers-and-boms-with-kicad-happy/
 
 ## Create sourced explainer videos with anything2explainer
 slug: create-sourced-explainer-videos-with-anything2explainer

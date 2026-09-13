@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C985-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C987-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C494-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,985 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,987 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Run spec-driven coding changes with Spectra skills and CLI](skills/run-spec-driven-coding-changes-with-spectra-skills-and-cli/) | Manage proposal, implementation, verification, review, audit, drift, archive, and commit steps through Spectra's agent skills and CLI-backed spec... | 736 | Templates & Workflows |
+| [Review KiCad schematics, PCB layouts, Gerbers, and BOMs with kicad-happy](skills/review-kicad-schematics-pcb-layouts-gerbers-and-boms-with-kicad-happy/) | Turn a coding agent into a KiCad electronics review assistant that parses boards, checks circuits, audits EMC risks... | 1.2k | Developer Tools |
 | [Create sourced explainer videos with anything2explainer](skills/create-sourced-explainer-videos-with-anything2explainer/) | Use anything2explainer as an agent workflow for turning a topic or document into a sourced Remotion explainer video... | 1.1k | Image & Creative Automation |
 | [Hot-swap local model backends for agent workflows with llama-swap](skills/hot-swap-local-model-backends-for-agent-workflows-with-llama-swap/) | Use llama-swap to give agents one OpenAI/Anthropic-compatible endpoint that loads, unloads, and switches local model servers on demand | 5.7k | Integrations & Connectors |
 | [Move agent chat histories into DeepSeek Harness with DSH Chat Import](skills/move-agent-chat-histories-into-deepseek-harness-with-dsh-chat-import/) | Preview, import, resume, export, and sync coding-agent conversations across Claude Code, Codex, ChatGPT, Cursor, Gemini, OpenClaw, and other... | 155 | Developer Tools |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [YYLO Ledger Task Management](skills/ledger-tasks-yylo/) | Operate a YYLO Ledger Kanban board from the command line with the yy ledger CLI; create, search, update... | - | Developer Tools |
 | [Run terminal coding-agent workflows with Phi](skills/run-terminal-coding-agent-workflows-with-phi/) | Use Phi to run lightweight terminal coding-agent sessions with sub-agents, guarded tool use, hashline edits, and lazy MCP... | 336 | Developer Tools |
 | [SHAR Production Metadata Validation](skills/shar-production-metadata-validation/) | Uses the SHAR Production Metadata MCP local stdio server to validate rights-aware production metadata manifests before an AI-hybrid... | - | Security & Verification |
-| [Run source-audited academic literature searches with Nature Academic Search](skills/run-source-audited-academic-literature-searches-with-nature-academic-search/) | Use Nature Academic Search to plan, deduplicate, verify, graph, and export academic literature searches across multiple scholarly sources | 216 | Research & Scraping |
-| [Rewrite agent-facing English with ASD-STE100 discipline](skills/rewrite-agent-facing-english-with-asd-ste100-discipline/) | Use this Claude Code skill to rewrite ambiguous instructions, errors, and tool descriptions into controlled technical English for... | 1.9k | Templates & Workflows |
 
 ---
 
@@ -127,12 +127,12 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Compact terminal-heavy agent output with Tokenjuice](skills/compact-terminal-heavy-agent-output-with-tokenjuice/) | Use Tokenjuice when an agent runs noisy shell commands and needs deterministic, inspectable output reduction before continuing a... | 517 | Developer Tools |
 | [Serve codebase impact context to agents with Trace MCP](skills/serve-codebase-impact-context-to-agents-with-trace-mcp/) | Use Trace MCP to index a repository once and let MCP-capable coding agents query framework-aware code, dependency, and... | 154 | Code Quality & Review |
 | [Collect TikTok and Douyin data through a self-hosted MCP server](skills/collect-tiktok-and-douyin-data-through-a-self-hosted-mcp-server/) | Run Douyin_TikTok_Download_API as a private MCP-backed service so agents can parse, archive, and retrieve TikTok or Douyin posts... | 20.1k | Research & Scraping |
-| [Automate NotebookLM Studio generation and cited research batches with notebooklm-mcp](skills/automate-notebooklm-studio-generation-and-cited-research-batches-with-notebooklm-mcp/) | Use NotebookLM through MCP or a local REST API to run cited Q&A, generate Studio artifacts, and manage... | 161 | Research & Scraping |
 | [Draw and verify Excalidraw diagrams through an agent canvas](skills/draw-and-verify-excalidraw-diagrams-through-an-agent-canvas/) | Use mcp_excalidraw to let coding agents create, inspect, revise, export, and commit editable Excalidraw diagrams from a local... | 2.4k | Image & Creative Automation |
+| [Automate NotebookLM Studio generation and cited research batches with notebooklm-mcp](skills/automate-notebooklm-studio-generation-and-cited-research-batches-with-notebooklm-mcp/) | Use NotebookLM through MCP or a local REST API to run cited Q&A, generate Studio artifacts, and manage... | 161 | Research & Scraping |
 | [Render pull request architecture diagrams with PR Lens](skills/render-pull-request-architecture-diagrams-with-pr-lens/) | Have an agent turn a code diff into validated architecture and data-flow diagrams, then attach the rendered SVGs... | 212 | Code Quality & Review |
 | [Hot-swap local model backends for agent workflows with llama-swap](skills/hot-swap-local-model-backends-for-agent-workflows-with-llama-swap/) | Use llama-swap to give agents one OpenAI/Anthropic-compatible endpoint that loads, unloads, and switches local model servers on demand | 5.7k | Integrations & Connectors |
-| [Create sourced explainer videos with anything2explainer](skills/create-sourced-explainer-videos-with-anything2explainer/) | Use anything2explainer as an agent workflow for turning a topic or document into a sourced Remotion explainer video... | 1.1k | Image & Creative Automation |
 | [Run supervised browser automation workflows with AIHawk](skills/run-one-shot-and-supervised-browser-automation-workflows-with-aihawk/) | Use AIHawk's local supervised browser UI for bounded web research and extraction, with human review before external actions | 30.3k | Browser Automation |
+| [Create sourced explainer videos with anything2explainer](skills/create-sourced-explainer-videos-with-anything2explainer/) | Use anything2explainer as an agent workflow for turning a topic or document into a sourced Remotion explainer video... | 1.1k | Image & Creative Automation |
 
 ---
 
@@ -140,9 +140,9 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 466 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 467 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 249 | Vulnerability scanning, auth setup, compliance |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 240 | Scaffolders, boilerplate generators, workflow templates |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 241 | Scaffolders, boilerplate generators, workflow templates |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 221 | ETL pipelines, parsing, format conversion |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 202 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,985 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,987 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,494 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

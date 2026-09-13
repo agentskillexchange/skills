@@ -2,8 +2,30 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-13",
-  "total": 2985,
+  "total": 2987,
   "skills": [
+    {
+      "slug": "run-spec-driven-coding-changes-with-spectra-skills-and-cli",
+      "name": "Run spec-driven coding changes with Spectra skills and CLI",
+      "title": "Run spec-driven coding changes with Spectra skills and CLI",
+      "description": "Manage proposal, implementation, verification, review, audit, drift, archive, and commit steps through Spectra's agent skills and CLI-backed spec workflow.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/kaochenlong/spectra-app",
+      "github_repo": "kaochenlong/spectra-app"
+    },
+    {
+      "slug": "review-kicad-schematics-pcb-layouts-gerbers-and-boms-with-kicad-happy",
+      "name": "Review KiCad schematics, PCB layouts, Gerbers, and BOMs with kicad-happy",
+      "title": "Review KiCad schematics, PCB layouts, Gerbers, and BOMs with kicad-happy",
+      "description": "Turn a coding agent into a KiCad electronics review assistant that parses boards, checks circuits, audits EMC risks, and prepares prototype-to-production feedback.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/aklofas/kicad-happy",
+      "github_repo": "aklofas/kicad-happy"
+    },
     {
       "slug": "create-sourced-explainer-videos-with-anything2explainer",
       "name": "Create sourced explainer videos with anything2explainer",

@@ -18,7 +18,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 10 | [Webpack Bundle Analyzer Agent](skills/webpack-bundle-analyzer-agent/) | 44.5M/wk | webpack | Developer Tools |
 | 11 | [Puppeteer Browser Automation Library for Chrome and Firefox](skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | 40.2M/wk | puppeteer | Browser Automation |
 | 12 | [GraphQL Data Federation Agent](skills/graphql-data-federation-agent/) | 34.2M/wk | graphql | Data Extraction & Transformation |
-| 13 | [OpenAI Image Gen](skills/openai-image-gen/) | 29.3M/wk | openai | Image & Creative Automation |
+| 13 | [OpenAI Image Gen](skills/openai-image-gen/) | 29.5M/wk | openai | Image & Creative Automation |
 | 14 | [SVGO SVG Optimization Tool](skills/svgo-svg-optimization-tool/) | 28.7M/wk | svgo | Image & Creative Automation |
 | 15 | [PostgreSQL Diagnostic Analyzer](skills/postgresql-diagnostic-analyzer/) | 23.2M/wk | postgresql | Runbooks & Diagnostics |
 | 16 | [Cheerio DOM Extraction Pipeline](skills/cheerio-dom-extraction-pipeline/) | 19.6M/wk | cheerio | Data Extraction & Transformation |
@@ -51,8 +51,8 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 43 | [semantic-release Automated Versioning and Release Publishing](skills/semantic-release-automated-versioning-and-release-publishing/) | 2.5M/wk | semantic-release | CI/CD Integrations |
 | 44 | [Slack Bolt Event Subscription Debugger](skills/slack-bolt-event-subscription-debugger/) | 2.5M/wk | slack | Integrations & Connectors |
 | 45 | [Vercel Deployment Agent](skills/vercel-deployment-agent/) | 2.4M/wk | vercel | Templates & Workflows |
-| 46 | [Pulumi Drift Detector & Reconciler](skills/pulumi-drift-detector-reconciler/) | 2.1M/wk | pulumi | Runbooks & Diagnostics |
-| 47 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 2.1M/wk | datadog-api-client-typescript | Monitoring & Alerts |
+| 46 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 2.1M/wk | datadog-api-client-typescript | Monitoring & Alerts |
+| 47 | [Pulumi Drift Detector & Reconciler](skills/pulumi-drift-detector-reconciler/) | 2.1M/wk | pulumi | Runbooks & Diagnostics |
 | 48 | [LangChain MCP Server](skills/langchain-mcp-server/) | 2M/wk | langchain | Developer Tools |
 | 49 | [Astro Content-Driven Web Framework](skills/astro-content-driven-web-framework/) | 2M/wk | astro | Developer Tools |
 | 50 | [Selenium Grid Auto-Scaling Orchestrator](skills/selenium-grid-auto-scaling-orchestrator/) | 1.9M/wk | selenium | Browser Automation |
