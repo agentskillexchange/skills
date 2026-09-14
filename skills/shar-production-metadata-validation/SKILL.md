@@ -2,12 +2,15 @@
 name: "SHAR Production Metadata Validation"
 slug: "shar-production-metadata-validation"
 description: "Uses the SHAR Production Metadata MCP local stdio server to validate rights-aware production metadata manifests before an AI-hybrid video-production asset is treated as releasable."
+github_stars: 0
 verification: "listed"
 source: "https://github.com/SHARProduction/production-metadata-mcp"
+author: "SHAR Production"
 category: "Security & Verification"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "sharproduction/production-metadata-mcp"
+  github_stars: 0
 ---
 
 # SHAR Production Metadata Validation

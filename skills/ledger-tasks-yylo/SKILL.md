@@ -2,12 +2,15 @@
 name: "YYLO Ledger Task Management"
 slug: "ledger-tasks-yylo"
 description: "Operate a YYLO Ledger Kanban board from the command line with the yy ledger CLI; create, search, update, and mark tasks with required response receipts, manage blocked-by dependencies, compute ready and topologically ordered work, merge scattered boards with reviewed plans, and emit ndjson, JSON, XML, or table output."
+github_stars: 1
 verification: "listed"
 source: "https://github.com/yylo-dev/yylo-skills"
+author: "YYLO"
 category: "Developer Tools"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "yylo-dev/yylo-skills"
+  github_stars: 1
 ---
 
 # YYLO Ledger Task Management
@@ -27,7 +30,9 @@ yy ledger --version
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Install or set up from the source-backed instructions:
+
+npx skills add yylo-dev/yylo-skills --skill ledger-tasks-yylo
 
 - Source: https://github.com/yylo-dev/yylo-skills
 
