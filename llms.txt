@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-14
-# Total: 2987 skills
+# Total: 2988 skills
+
+## Create and edit Office documents locally with GenOffice
+slug: create-edit-office-documents-locally-with-genoffice
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use GenOffice's CLI and bundled agent skill to create, inspect, convert, render, audit, and edit real DOCX, XLSX, PPTX, PDF, Markdown, and HTML files…
+url: https://agentskillexchange.com/skills/create-edit-office-documents-locally-with-genoffice/
 
 ## Run spec-driven coding changes with Spectra skills and CLI
 slug: run-spec-driven-coding-changes-with-spectra-skills-and-cli

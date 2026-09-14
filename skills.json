@@ -1,8 +1,22 @@
 {
   "version": "2.0",
-  "total": 2987,
+  "total": 2988,
   "generated": "2026-09-14",
   "skills": [
+    {
+      "slug": "create-edit-office-documents-locally-with-genoffice",
+      "name": "Create and edit Office documents locally with GenOffice",
+      "title": "Create and edit Office documents locally with GenOffice",
+      "description": "Use GenOffice's CLI and bundled agent skill to create, inspect, convert, render, audit, and edit real DOCX, XLSX, PPTX, PDF, Markdown, and HTML files…",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 6727
+      },
+      "source_url": "https://github.com/genspark-ai/genoffice",
+      "github_repo": "genspark-ai/genoffice"
+    },
     {
       "slug": "run-spec-driven-coding-changes-with-spectra-skills-and-cli",
       "name": "Run spec-driven coding changes with Spectra skills and CLI",

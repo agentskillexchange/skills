@@ -144,6 +144,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext](../../skills/pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-stay-readable-with-jupytext/) | 7.2k | — |
 | [Run durable Go agent schedules with gocron](../../skills/run-durable-go-agent-schedules-with-gocron/) | 7.1k | — |
 | [Run OpenCode specialist-agent workflows with Oh My Opencode Slim](../../skills/run-opencode-specialist-agent-workflows-with-oh-my-opencode-slim/) | 7k | 24.2k/wk |
+| [Create and edit Office documents locally with GenOffice](../../skills/create-edit-office-documents-locally-with-genoffice/) | 6.7k | — |
 | [Inspect live web apps and apply code changes with Stagewise](../../skills/inspect-live-web-apps-and-apply-code-changes-with-stagewise/) | 6.7k | 799/wk |
 | [Parameterize and execute notebooks as repeatable runs](../../skills/parameterize-and-execute-notebooks-as-repeatable-runs/) | 6.4k | — |
 | [Study customer-service triage and handoff patterns with the OpenAI CS agents demo](../../skills/study-customer-service-triage-and-handoff-patterns-with-the-openai-cs-agents-demo/) | 6.3k | — |

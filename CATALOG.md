@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2987 published skills** across **17 categories** · 2,495 security reviewed · Updated 2026-09-14 07:27 UTC
+> **2988 published skills** across **17 categories** · 2,495 security reviewed · Updated 2026-09-14 13:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -740,7 +740,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (241 skills)
+### 📄 Templates & Workflows (242 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -850,6 +850,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext](skills/pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-stay-readable-with-jupytext/) | Keep notebooks synchronized with `.py` or `.md` representations so version control, review, and refactoring can… | Security Reviewed | 7.2k | — |
 | [Run durable Go agent schedules with gocron](skills/run-durable-go-agent-schedules-with-gocron/) | Embed gocron in Go-based agents or operators to run recurring tasks, cron expressions, one-time jobs, singleton… | Security Reviewed | 7.1k | — |
 | [Run OpenCode specialist-agent workflows with Oh My Opencode Slim](skills/run-opencode-specialist-agent-workflows-with-oh-my-opencode-slim/) | Install an OpenCode orchestration plugin that routes codebase work across specialist agents, background tasks, model… | Security Reviewed | 7k | 24.2k/wk |
+| [Create and edit Office documents locally with GenOffice](skills/create-edit-office-documents-locally-with-genoffice/) | Use GenOffice's CLI and bundled agent skill to create, inspect, convert, render, audit, and edit real DOCX, XLSX,… | Security Reviewed | 6.7k | — |
 | [Inspect live web apps and apply code changes with Stagewise](skills/inspect-live-web-apps-and-apply-code-changes-with-stagewise/) | Use Stagewise when a coding agent needs browser context, console/debugger signals, UI inspection, and code-change… | Security Reviewed | 6.7k | 799/wk |
 | [Parameterize and execute notebooks as repeatable runs](skills/parameterize-and-execute-notebooks-as-repeatable-runs/) | Use Papermill when an agent needs to treat a Jupyter notebook like a reusable job instead of a one-off interactive… | Security Reviewed | 6.4k | — |
 | [Study customer-service triage and handoff patterns with the OpenAI CS agents demo](skills/study-customer-service-triage-and-handoff-patterns-with-the-openai-cs-agents-demo/) | Use OpenAI's customer-service agents demo as a reference workflow for triage, specialist handoffs, guardrails, and… | Security Reviewed | 6.3k | — |
