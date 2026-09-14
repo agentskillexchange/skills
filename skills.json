@@ -110,6 +110,9 @@
       "category": "Developer Tools",
       "framework": "Claude Code",
       "verification": "listed",
+      "signals": {
+        "github_stars": 1
+      },
       "source_url": "https://github.com/yylo-dev/yylo-skills",
       "github_repo": "yylo-dev/yylo-skills"
     },

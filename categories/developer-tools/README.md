@@ -483,6 +483,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Index a codebase into evidence-backed memory so agents can answer with citations](../../skills/index-a-codebase-into-evidence-backed-memory-so-agents-can-answer-with-citations/) | 5 | 1.9k/wk |
 | [Staff Engineer Mode](../../skills/staff-engineer-mode/) | 5 | — |
 | [Clean Closed Issue Worktrees](../../skills/clean-closed-issue-worktrees/) | 3 | — |
+| [YYLO Ledger Task Management](../../skills/ledger-tasks-yylo/) | 1 | — |
 | [Turn GitHub Issues into Fix PRs](../../skills/turn-github-issues-into-fix-prs/) | — | 837.2k/wk |
 | [Build scroll-linked animations with GSAP ScrollTrigger](../../skills/build-scroll-linked-animations-with-gsap-scrolltrigger/) | — | — |
 | [Design and verify LaunchDarkly feature-flag targeting and rollout changes with MCP safety checks](../../skills/design-and-verify-launchdarkly-feature-flag-targeting-and-rollout-changes-with-mcp-safety-checks/) | — | — |
@@ -505,7 +506,6 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Unified AI System Gateway](../../skills/unified-ai-gateway/) | — | — |
 | [VS Code Extension Debugger](../../skills/vscode-extension-debugger-dap-protocol/) | — | — |
 | [VS Code Extension Scaffolder](../../skills/vscode-extension-scaffolder-agent/) | — | — |
-| [YYLO Ledger Task Management](../../skills/ledger-tasks-yylo/) | — | — |
 | [Zinc Universal Checkout](../../skills/zinc-universal-checkout/) | — | — |
 
 ---

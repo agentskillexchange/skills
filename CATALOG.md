@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2987 published skills** across **17 categories** · 2,494 security reviewed · Updated 2026-09-14 01:27 UTC
+> **2987 published skills** across **17 categories** · 2,494 security reviewed · Updated 2026-09-14 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -457,6 +457,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Index a codebase into evidence-backed memory so agents can answer with citations](skills/index-a-codebase-into-evidence-backed-memory-so-agents-can-answer-with-citations/) | Use AtlasMemory when an agent keeps losing repo context and needs indexed, evidence-linked answers with file and… | Security Reviewed | 5 | 1.9k/wk |
 | [Staff Engineer Mode](skills/staff-engineer-mode/) | Routes engineering design, delivery, reliability, security, operations, and maintenance prompts to one native router… | Security Reviewed | 5 | — |
 | [Clean Closed Issue Worktrees](skills/clean-closed-issue-worktrees/) | Safely audits and removes Git worktrees linked to closed GitHub or GitLab issues with a mandatory… | Published | 3 | — |
+| [YYLO Ledger Task Management](skills/ledger-tasks-yylo/) | Operate a YYLO Ledger Kanban board from the command line with the yy ledger CLI; create, search, update, and mark… | Published | 1 | — |
 | [Turn GitHub Issues into Fix PRs](skills/turn-github-issues-into-fix-prs/) | Use the gh-issues workflow to fetch filtered GitHub issues, spawn sub-agents for fixes, open PRs, and follow review… | Security Reviewed | — | 837.2k/wk |
 | [Build scroll-linked animations with GSAP ScrollTrigger](skills/build-scroll-linked-animations-with-gsap-scrolltrigger/) | Use Greensock's official gsap-scrolltrigger skill to plan, implement, and debug scroll-linked animations, pinned… | Security Reviewed | — | — |
 | [Design and verify LaunchDarkly feature-flag targeting and rollout changes with MCP safety checks](skills/design-and-verify-launchdarkly-feature-flag-targeting-and-rollout-changes-with-mcp-safety-checks/) | Inspect a LaunchDarkly flag’s current state, choose the right targeting approach, apply rollout or rule changes… | Security Reviewed | — | — |
@@ -479,7 +480,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Unified AI System Gateway](skills/unified-ai-gateway/) | Turn plain-language requests into structured, reviewable prompts and inspect a self-hosted MCP gateway with… | Published | — | — |
 | [VS Code Extension Debugger](skills/vscode-extension-debugger-dap-protocol/) | Debugs VS Code extensions using the Debug Adapter Protocol (DAP) with breakpoint management and variable inspection.… | Security Reviewed | — | — |
 | [VS Code Extension Scaffolder](skills/vscode-extension-scaffolder-agent/) | Scaffolds VS Code extensions using the vscode-extension API with TypeScript, including commands, webview panels,… | Security Reviewed | — | — |
-| [YYLO Ledger Task Management](skills/ledger-tasks-yylo/) | Operate a YYLO Ledger Kanban board from the command line with the yy ledger CLI; create, search, update, and mark… | Published | — | — |
 | [Zinc Universal Checkout](skills/zinc-universal-checkout/) | Discover, buy, track, and return products across Amazon, Walmart, Target, Best Buy, eBay, and 50+ US retailers via… | Published | — | — |
 
 
