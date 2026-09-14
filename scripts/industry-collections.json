@@ -2233,6 +2233,7 @@
         "composio-agent-tool-integration-platform",
         "create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas",
         "create-and-repair-word-documents-with-layout-safe-docx-workflows",
+        "create-edit-office-documents-locally-with-genoffice",
         "co-author-structured-docs-with-staged-context-gathering-and-reader-testing",
         "stagehand-browser-automation-sdk",
         "skyvern-ai-browser-workflow-automation",
@@ -2369,6 +2370,11 @@
         "create-and-repair-word-documents-with-layout-safe-docx-workflows": {
           "why_here": "Creates layout-safe client reports, SOW drafts, process docs, and handoff documents as real DOCX artifacts.",
           "persona": "Client delivery manager / documentation lead",
+          "install_complexity": "Medium"
+        },
+        "create-edit-office-documents-locally-with-genoffice": {
+          "why_here": "Creates, edits, converts, renders, and audits local DOCX, XLSX, PPTX, PDF, Markdown, and HTML deliverables for client handoff packets.",
+          "persona": "AI agency operator / client delivery lead",
           "install_complexity": "Medium"
         },
         "co-author-structured-docs-with-staged-context-gathering-and-reader-testing": {
