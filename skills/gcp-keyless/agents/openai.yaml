@@ -1,0 +1,4 @@
+interface:
+  display_name: "GCP Keyless"
+  short_description: "Use GCP without recurring browser OAuth"
+  default_prompt: "Use $gcp-keyless to select and verify a short-lived, keyless GCP identity route."

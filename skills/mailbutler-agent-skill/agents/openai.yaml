@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mailbutler Agent Skill"
+  short_description: "Narrative-aware, approval-gated inbox triage"
+  default_prompt: "Use $mailbutler to triage my inbox safely and surface only what needs me."

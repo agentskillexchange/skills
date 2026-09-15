@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nexus"
+  short_description: "Map repositories into focused context packs"
+  default_prompt: "Use $nexus to map this repository and build a task-focused context pack."
