@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2992 published skills** across **17 categories** · 2,500 security reviewed · Updated 2026-09-15 13:27 UTC
+> **2994 published skills** across **17 categories** · 2,500 security reviewed · Updated 2026-09-15 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (469 skills)
+### 🛠️ Developer Tools (471 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -413,12 +413,14 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Orchestrate multi-agent coding delivery loops with Maestro Flow](skills/orchestrate-multi-agent-coding-delivery-loops-with-maestro-flow/) | Use Maestro Flow when a coding operator wants intent-driven planning, execution, verification, review, retry, and… | Security Reviewed | 480 | 1k/wk |
 | [Run agent CLI terminals inside Obsidian with Claude Sidebar](skills/run-agent-cli-terminals-inside-obsidian-with-claude-sidebar/) | Use Claude Sidebar when an operator wants Claude Code, Codex, or another agent CLI available as terminal tabs inside… | Published | 443 | — |
 | [Give coding agents repo-local project memory with brain.md](skills/give-coding-agents-repo-local-project-memory-with-brain-md/) | Initialize and maintain a repo-native Markdown memory layer so coding agents preserve durable decisions,… | Security Reviewed | 438 | 92/wk |
+| [Run long-horizon coding work with Late CLI](skills/run-long-horizon-coding-work-with-late-cli/) | Use Late CLI to keep a lead coding agent focused while isolated researcher and coder subagents spend disposable… | Security Reviewed | 426 | — |
 | [Orchestrate review-first multi-agent development work with Kandev](skills/orchestrate-review-first-multi-agent-development-work-with-kandev/) | Use Kandev when an operator needs to plan, run, isolate, review, and ship multiple coding-agent tasks through a… | Security Reviewed | 405 | 3.5k/wk |
 | [Monitor local agent sessions and costs with ClawMetry](skills/monitor-local-agent-sessions-and-costs-with-clawmetry/) | Use ClawMetry when an operator needs a local dashboard for agent sessions, token spend, tool calls, alerts, and… | Security Reviewed | 401 | — |
 | [Build embeddable Rust coding agents with Cersei](skills/build-embeddable-rust-coding-agents-with-cersei/) | Compose coding-agent primitives in Rust, including tool execution, LLM streaming, sub-agent orchestration, memory,… | Security Reviewed | 400 | — |
 | [Audit and deploy cross-agent extensions with HarnessKit](skills/audit-and-deploy-cross-agent-extensions-with-harnesskit/) | Use HarnessKit to inventory, audit, enable, disable, and deploy skills, MCP servers, plugins, hooks, CLIs, configs,… | Security Reviewed | 396 | — |
 | [E2B Code Execution MCP](skills/e2b-code-execution-mcp/) | Add sandboxed code execution to any MCP-compatible AI client. E2B gives agents access to secure, internet-connected… | Security Reviewed | 393 | 340/wk |
 | [Coordinate Terminal Coding Agents With hcom](skills/coordinate-terminal-coding-agents-with-hcom/) | Use hcom to launch, message, watch, fork, and coordinate multiple terminal coding agents across Claude Code, Codex,… | Security Reviewed | 393 | — |
+| [Reduce coding-agent token waste with Chisle](skills/reduce-coding-agent-token-waste-with-chisle/) | Use Chisle to add concise coding rules, YAGNI-first defaults, and supported tool-output compression across multiple… | Published | 388 | 288/wk |
 | [Index Codebases for Agent Search with Code Context Engine](skills/index-codebases-for-agent-search-with-code-context-engine/) | Use Code Context Engine to index a repository and expose token-efficient code search to Claude Code, Codex, Cursor,… | Security Reviewed | 383 | — |
 | [Temporal CLI Workflow and Server Control](skills/temporal-cli-workflow-server-control/) | Temporal CLI runs a local Temporal server and talks to workflows, activities, and namespaces. It is the practical… | Security Reviewed | 350 | — |
 | [Run terminal coding-agent workflows with Phi](skills/run-terminal-coding-agent-workflows-with-phi/) | Use Phi to run lightweight terminal coding-agent sessions with sub-agents, guarded tool use, hashline edits, and… | Security Reviewed | 336 | — |

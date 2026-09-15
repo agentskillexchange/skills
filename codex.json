@@ -2,8 +2,30 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-15",
-  "total": 2992,
+  "total": 2994,
   "skills": [
+    {
+      "slug": "reduce-coding-agent-token-waste-with-chisle",
+      "name": "Reduce coding-agent token waste with Chisle",
+      "title": "Reduce coding-agent token waste with Chisle",
+      "description": "Use Chisle to add concise coding rules, YAGNI-first defaults, and supported tool-output compression across multiple coding agents.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/JayPokale/Chisle",
+      "github_repo": "JayPokale/Chisle"
+    },
+    {
+      "slug": "run-long-horizon-coding-work-with-late-cli",
+      "name": "Run long-horizon coding work with Late CLI",
+      "title": "Run long-horizon coding work with Late CLI",
+      "description": "Use Late CLI to keep a lead coding agent focused while isolated researcher and coder subagents spend disposable compute on large implementation tasks.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/mlhher/late-cli",
+      "github_repo": "mlhher/late-cli"
+    },
     {
       "slug": "run-client-delivery-fieldwork-with-fdeops",
       "name": "Run client delivery fieldwork with FDEOps",

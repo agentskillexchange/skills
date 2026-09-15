@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-15
-# Total: 2992 skills
+# Total: 2994 skills
+
+## Reduce coding-agent token waste with Chisle
+slug: reduce-coding-agent-token-waste-with-chisle
+category: Developer Tools
+framework: Multi-Framework
+verification: Published
+description: Use Chisle to add concise coding rules, YAGNI-first defaults, and supported tool-output compression across multiple coding agents.
+url: https://agentskillexchange.com/skills/reduce-coding-agent-token-waste-with-chisle/
+
+## Run long-horizon coding work with Late CLI
+slug: run-long-horizon-coding-work-with-late-cli
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Late CLI to keep a lead coding agent focused while isolated researcher and coder subagents spend disposable compute on large implementation tasks.
+url: https://agentskillexchange.com/skills/run-long-horizon-coding-work-with-late-cli/
 
 ## Run client delivery fieldwork with FDEOps
 slug: run-client-delivery-fieldwork-with-fdeops
