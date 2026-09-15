@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2988 published skills** across **17 categories** · 2,497 security reviewed · Updated 2026-09-15 01:27 UTC
+> **2990 published skills** across **17 categories** · 2,497 security reviewed · Updated 2026-09-15 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -2695,7 +2695,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Verify local web apps with Playwright scripts and managed dev servers](skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | Use Anthropic's webapp-testing skill to spin up one or more local servers, wait for them to become reachable, and… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (110 skills)
+### 🎨 Image & Creative Automation (111 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -2769,6 +2769,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Draw and verify Excalidraw diagrams through an agent canvas](skills/draw-and-verify-excalidraw-diagrams-through-an-agent-canvas/) | Use mcp_excalidraw to let coding agents create, inspect, revise, export, and commit editable Excalidraw diagrams… | Published | 2.4k | 11.7k/wk |
 | [Produce cinematic product videos with Video Shotcraft](skills/produce-cinematic-product-videos-with-video-shotcraft/) | Turns Claude Code, Codex, or another skills-aware coding agent into a Remotion-based product video operator with… | Security Reviewed | 2.1k | — |
 | [OpenEXR HDR Compositing Pipeline](skills/openexr-hdr-compositing-pipeline/) | Processes OpenEXR high dynamic range images using the OpenImageIO (oiiotool) CLI and Imath library for multi-layer… | Security Reviewed | 1.8k | — |
+| [Generate Arcads ad creative from Claude Code](skills/generate-arcads-ad-creative-from-claude-code/) | Use the Arcads Claude Code skill pack to create, poll, organize, and review AI marketing videos and image ads… | Security Reviewed | 1.5k | — |
 | [Turn novels into AI short-drama production packets with shuohao-skills](skills/turn-novels-into-ai-short-drama-production-packets-with-shuohao-skills/) | Use shuohao-skills to have coding agents turn a source novel into character bibles, adaptation outlines, art bibles,… | Security Reviewed | 1.4k | — |
 | [Revise PDF Slides with Natural-Language Edits](skills/revise-pdf-slides-with-natural-language-edits/) | Use Nano-PDF when an agent needs to update existing PDF slides or insert matching new slides from plain-language… | Security Reviewed | 1.2k | — |
 | [Generate Template-Matched PPTX Decks with gpt-image2-ppt-skills](skills/generate-template-matched-pptx-decks-with-gpt-image2-ppt-skills/) | Use gpt-image2-ppt-skills to have an agent create image-first or editable PowerPoint decks with gpt-image-2, bundled… | Security Reviewed | 1.1k | — |
@@ -3034,7 +3035,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized… | Security Reviewed | — | — |
 
 
-### ✍️ Content Writing & SEO (91 skills)
+### ✍️ Content Writing & SEO (92 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
 
@@ -3086,6 +3087,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [SiteOne Crawler Technical SEO and Site Audit](skills/siteone-crawler-technical-seo-and-site-audit/) | SiteOne Crawler is a real website crawler and analyzer for technical SEO, accessibility, security, and performance… | Security Reviewed | 708 | — |
 | [Verify Markdown links before docs or content ship with markdown-link-check](skills/verify-markdown-links-before-docs-or-content-ship-with-markdown-link-check/) | Catch dead links in README files, docs folders, and content drafts before a broken reference ships to users. | Security Reviewed | 693 | 573.2k/wk |
 | [SEOnaut Open Source Technical SEO Audit Tool](skills/seonaut-open-source-technical-seo-audit/) | SEOnaut is an open-source SEO auditing tool built with Go that crawls websites and generates detailed reports on… | Security Reviewed | 673 | — |
+| [Run an affiliate marketing flywheel with affiliate-skills](skills/run-an-affiliate-marketing-flywheel-with-affiliate-skills/) | Use affiliate-skills to chain agent workflows for program research, trend scouting, content creation, landing pages,… | Security Reviewed | 661 | — |
 | [Audit AI search citation readiness with GEO Optimizer](skills/audit-ai-search-citation-readiness-with-geo-optimizer/) | Use GEO Optimizer from the CLI or MCP so agents can audit a site for AI search visibility, generate llms.txt/schema… | Security Reviewed | 611 | — |
 | [Run evidence-backed agentic SEO audits with Agentic SEO Skill](skills/run-evidence-backed-agentic-seo-audits-with-agentic-seo-skill/) | Install a multi-runtime SEO skill pack that collects crawl, schema, performance, sitemap, robots, and content… | Security Reviewed | 588 | — |
 | [Run WeChat public-account content operations with WeChat Article Skills](skills/run-wechat-public-account-content-operations-with-wechat-article-skills/) | Use WeChat Article Skills to run a confirmed, multi-step WeChat article workflow from topic planning through… | Security Reviewed | 559 | — |

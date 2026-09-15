@@ -2,8 +2,30 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-15",
-  "total": 2988,
+  "total": 2990,
   "skills": [
+    {
+      "slug": "run-an-affiliate-marketing-flywheel-with-affiliate-skills",
+      "name": "Run an affiliate marketing flywheel with affiliate-skills",
+      "title": "Run an affiliate marketing flywheel with affiliate-skills",
+      "description": "Use affiliate-skills to chain agent workflows for program research, trend scouting, content creation, landing pages, compliance, analytics, and optimization.",
+      "category": "Content Writing & SEO",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Affitor/affiliate-skills",
+      "github_repo": "Affitor/affiliate-skills"
+    },
+    {
+      "slug": "generate-arcads-ad-creative-from-claude-code",
+      "name": "Generate Arcads ad creative from Claude Code",
+      "title": "Generate Arcads ad creative from Claude Code",
+      "description": "Use the Arcads Claude Code skill pack to create, poll, organize, and review AI marketing videos and image ads through the Arcads API.",
+      "category": "Image & Creative Automation",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/krusemediallc/arcads-claude-code",
+      "github_repo": "krusemediallc/arcads-claude-code"
+    },
     {
       "slug": "create-edit-office-documents-locally-with-genoffice",
       "name": "Create and edit Office documents locally with GenOffice",
