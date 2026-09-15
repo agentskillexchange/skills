@@ -2,8 +2,30 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-15",
-  "total": 2990,
+  "total": 2992,
   "skills": [
+    {
+      "slug": "run-client-delivery-fieldwork-with-fdeops",
+      "name": "Run client delivery fieldwork with FDEOps",
+      "title": "Run client delivery fieldwork with FDEOps",
+      "description": "Use FDEOps to guide agent-assisted client work from discovery through build, QA, readout, and handoff while preserving local evidence and decisions.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/suboss87/FDEOps",
+      "github_repo": "suboss87/FDEOps"
+    },
+    {
+      "slug": "carry-project-memory-across-coding-agents-with-openwolf",
+      "name": "Carry project memory across coding agents with OpenWolf",
+      "title": "Carry project memory across coding agents with OpenWolf",
+      "description": "Use OpenWolf to keep local project memory, handoff packets, project maps, and token usage records available across Claude Code, Codex, and OpenCode sessions.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/cytostack/openwolf",
+      "github_repo": "cytostack/openwolf"
+    },
     {
       "slug": "run-an-affiliate-marketing-flywheel-with-affiliate-skills",
       "name": "Run an affiliate marketing flywheel with affiliate-skills",

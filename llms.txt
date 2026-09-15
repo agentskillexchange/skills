@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-15
-# Total: 2990 skills
+# Total: 2992 skills
+
+## Run client delivery fieldwork with FDEOps
+slug: run-client-delivery-fieldwork-with-fdeops
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use FDEOps to guide agent-assisted client work from discovery through build, QA, readout, and handoff while preserving local evidence and decisions.
+url: https://agentskillexchange.com/skills/run-client-delivery-fieldwork-with-fdeops/
+
+## Carry project memory across coding agents with OpenWolf
+slug: carry-project-memory-across-coding-agents-with-openwolf
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use OpenWolf to keep local project memory, handoff packets, project maps, and token usage records available across Claude Code, Codex, and OpenCode sessions.
+url: https://agentskillexchange.com/skills/carry-project-memory-across-coding-agents-with-openwolf/
 
 ## Run an affiliate marketing flywheel with affiliate-skills
 slug: run-an-affiliate-marketing-flywheel-with-affiliate-skills

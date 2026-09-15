@@ -353,6 +353,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Coordinate Durable Agent Work with Compozy](../../skills/coordinate-durable-agent-work-with-compozy/) | 2.4k | 435/wk |
 | [Drive agent terminal workspaces with Rmux](../../skills/drive-agent-terminal-workspaces-with-rmux/) | 2.4k | 236/wk |
 | [Use Obsidian Agent Client as an Obsidian front end for local agents](../../skills/use-obsidian-agent-client-as-an-obsidian-front-end-for-local-agents/) | 2.3k | — |
+| [Carry project memory across coding agents with OpenWolf](../../skills/carry-project-memory-across-coding-agents-with-openwolf/) | 2.3k | 4.2k/wk |
 | [Repair malformed JSON before parsing downstream automations with jsonrepair](../../skills/repair-malformed-json-before-parsing-downstream-automations-jsonrepair/) | 2.3k | 7.3M/wk |
 | [Route large codebase analysis through Gemini MCP Tool](../../skills/route-large-codebase-analysis-through-gemini-mcp-tool/) | 2.3k | 11.9k/wk |
 | [Keep a portable agent workspace layer with agentic-stack](../../skills/keep-a-portable-agent-workspace-layer-with-agentic-stack/) | 2.2k | — |
@@ -431,6 +432,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Benchmark CLI agents on autonomous LLM post-training with PostTrainBench](../../skills/benchmark-cli-agents-on-autonomous-llm-post-training-with-posttrainbench/) | 543 | — |
 | [Give coding agents sandboxed shell runtimes with SWE-ReX](../../skills/give-coding-agents-sandboxed-shell-runtimes-with-swe-rex/) | 543 | — |
 | [Track Coding-Agent Work Evidence With agentacct](../../skills/track-coding-agent-work-evidence-with-agentacct/) | 537 | — |
+| [Run client delivery fieldwork with FDEOps](../../skills/run-client-delivery-fieldwork-with-fdeops/) | 536 | — |
 | [Scaffold repo-specific agent harnesses with Metaharness](../../skills/scaffold-repo-specific-agent-harnesses-with-metaharness/) | 529 | 29.1k/wk |
 | [Compact terminal-heavy agent output with Tokenjuice](../../skills/compact-terminal-heavy-agent-output-with-tokenjuice/) | 517 | 1.2M/wk |
 | [Run self-hosted coding-agent mission control with Codeman](../../skills/run-self-hosted-coding-agent-mission-control-with-codeman/) | 500 | 1.9k/wk |

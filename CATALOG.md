@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2990 published skills** across **17 categories** · 2,499 security reviewed · Updated 2026-09-15 07:27 UTC
+> **2992 published skills** across **17 categories** · 2,499 security reviewed · Updated 2026-09-15 13:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (467 skills)
+### 🛠️ Developer Tools (469 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -327,6 +327,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Coordinate Durable Agent Work with Compozy](skills/coordinate-durable-agent-work-with-compozy/) | Use CompozyOS as a local-first control plane for durable agent sessions, loops, approvals, shared memory, and… | Published | 2.4k | 435/wk |
 | [Drive agent terminal workspaces with Rmux](skills/drive-agent-terminal-workspaces-with-rmux/) | Use Rmux to create and automate cross-platform terminal sessions for agent CLIs, with tmux-compatible commands,… | Security Reviewed | 2.4k | 236/wk |
 | [Use Obsidian Agent Client as an Obsidian front end for local agents](skills/use-obsidian-agent-client-as-an-obsidian-front-end-for-local-agents/) | Run ACP-compatible agents such as Claude Code, Codex, Gemini CLI, OpenCode, and custom agents from inside Obsidian… | Published | 2.3k | — |
+| [Carry project memory across coding agents with OpenWolf](skills/carry-project-memory-across-coding-agents-with-openwolf/) | Use OpenWolf to keep local project memory, handoff packets, project maps, and token usage records available across… | Security Reviewed | 2.3k | 4.2k/wk |
 | [Repair malformed JSON before parsing downstream automations with jsonrepair](skills/repair-malformed-json-before-parsing-downstream-automations-jsonrepair/) | Use jsonrepair when an agent receives JSON-like output that is almost valid but still breaks parsers, such as… | Security Reviewed | 2.3k | 7.3M/wk |
 | [Route large codebase analysis through Gemini MCP Tool](skills/route-large-codebase-analysis-through-gemini-mcp-tool/) | Use Gemini MCP Tool to let MCP-capable coding agents delegate large file and codebase analysis to Gemini or… | Security Reviewed | 2.3k | 11.9k/wk |
 | [Keep a portable agent workspace layer with agentic-stack](skills/keep-a-portable-agent-workspace-layer-with-agentic-stack/) | Install and maintain a shared .agent layer so coding agents can carry memory, skills, protocols, dashboards, and… | Security Reviewed | 2.2k | — |
@@ -405,6 +406,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Benchmark CLI agents on autonomous LLM post-training with PostTrainBench](skills/benchmark-cli-agents-on-autonomous-llm-post-training-with-posttrainbench/) | Run Claude Code, Codex CLI, Gemini CLI, or OpenCode through bounded H100 post-training tasks and compare how well… | Security Reviewed | 543 | — |
 | [Give coding agents sandboxed shell runtimes with SWE-ReX](skills/give-coding-agents-sandboxed-shell-runtimes-with-swe-rex/) | Use SWE-ReX when a coding agent needs a consistent runtime interface for local, containerized, or remote shell… | Security Reviewed | 543 | — |
 | [Track Coding-Agent Work Evidence With agentacct](skills/track-coding-agent-work-evidence-with-agentacct/) | Create a local dashboard that joins coding-agent session logs, token estimates, recorded work steps, and… | Security Reviewed | 537 | — |
+| [Run client delivery fieldwork with FDEOps](skills/run-client-delivery-fieldwork-with-fdeops/) | Use FDEOps to guide agent-assisted client work from discovery through build, QA, readout, and handoff while… | Security Reviewed | 536 | — |
 | [Scaffold repo-specific agent harnesses with Metaharness](skills/scaffold-repo-specific-agent-harnesses-with-metaharness/) | Use Metaharness to score a repository, generate a branded agent harness with CLI, MCP, memory, and safety defaults,… | Security Reviewed | 529 | 29.1k/wk |
 | [Compact terminal-heavy agent output with Tokenjuice](skills/compact-terminal-heavy-agent-output-with-tokenjuice/) | Use Tokenjuice when an agent runs noisy shell commands and needs deterministic, inspectable output reduction before… | Security Reviewed | 517 | 1.2M/wk |
 | [Run self-hosted coding-agent mission control with Codeman](skills/run-self-hosted-coding-agent-mission-control-with-codeman/) | Use Codeman to supervise persistent Claude Code, Codex, OpenCode, and Gemini CLI sessions through a self-hosted web… | Security Reviewed | 500 | 1.9k/wk |
