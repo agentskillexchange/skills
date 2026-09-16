@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Markdoc Markdown-Based Authoring Framework by Stripe](skills/markdoc-markdown-authoring-framework-stripe/)** — Markdoc is a powerful Markdown-based authoring framework created by Stripe to power their public documentation. It extends Markdown with custom tags, functions, and variables for building structured documentation…
+**[ESLint Rule Conflict Resolver](skills/eslint-rule-conflict-resolver/)** — Detects and resolves conflicting ESLint rules across .eslintrc configurations using the ESLint Node.js API. Analyzes rule interactions between eslint-config-airbnb, eslint-config-prettier, and typescript-eslint plugins.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -123,12 +123,12 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
-| [Move agent chat histories into DeepSeek Harness with DSH Chat Import](skills/move-agent-chat-histories-into-deepseek-harness-with-dsh-chat-import/) | Preview, import, resume, export, and sync coding-agent conversations across Claude Code, Codex, ChatGPT, Cursor, Gemini, OpenClaw, and other... | 155 | Developer Tools |
 | [Carry project memory across coding agents with OpenWolf](skills/carry-project-memory-across-coding-agents-with-openwolf/) | Use OpenWolf to keep local project memory, handoff packets, project maps, and token usage records available across Claude... | 2.3k | Developer Tools |
+| [Move agent chat histories into DeepSeek Harness with DSH Chat Import](skills/move-agent-chat-histories-into-deepseek-harness-with-dsh-chat-import/) | Preview, import, resume, export, and sync coding-agent conversations across Claude Code, Codex, ChatGPT, Cursor, Gemini, OpenClaw, and other... | 155 | Developer Tools |
 | [Serve codebase impact context to agents with Trace MCP](skills/serve-codebase-impact-context-to-agents-with-trace-mcp/) | Use Trace MCP to index a repository once and let MCP-capable coding agents query framework-aware code, dependency, and... | 154 | Code Quality & Review |
+| [Draw and verify Excalidraw diagrams through an agent canvas](skills/draw-and-verify-excalidraw-diagrams-through-an-agent-canvas/) | Use mcp_excalidraw to let coding agents create, inspect, revise, export, and commit editable Excalidraw diagrams from a local... | 2.4k | Image & Creative Automation |
 | [Collect TikTok and Douyin data through a self-hosted MCP server](skills/collect-tiktok-and-douyin-data-through-a-self-hosted-mcp-server/) | Run Douyin_TikTok_Download_API as a private MCP-backed service so agents can parse, archive, and retrieve TikTok or Douyin posts... | 20.1k | Research & Scraping |
 | [Render pull request architecture diagrams with PR Lens](skills/render-pull-request-architecture-diagrams-with-pr-lens/) | Have an agent turn a code diff into validated architecture and data-flow diagrams, then attach the rendered SVGs... | 212 | Code Quality & Review |
-| [Draw and verify Excalidraw diagrams through an agent canvas](skills/draw-and-verify-excalidraw-diagrams-through-an-agent-canvas/) | Use mcp_excalidraw to let coding agents create, inspect, revise, export, and commit editable Excalidraw diagrams from a local... | 2.4k | Image & Creative Automation |
 | [Automate NotebookLM Studio generation and cited research batches with notebooklm-mcp](skills/automate-notebooklm-studio-generation-and-cited-research-batches-with-notebooklm-mcp/) | Use NotebookLM through MCP or a local REST API to run cited Q&A, generate Studio artifacts, and manage... | 161 | Research & Scraping |
 | [Create and edit Office documents locally with GenOffice](skills/create-edit-office-documents-locally-with-genoffice/) | Use GenOffice's CLI and bundled agent skill to create, inspect, convert, render, audit, and edit real DOCX, XLSX... | 6.7k | Templates & Workflows |
 | [Generate Arcads ad creative from Claude Code](skills/generate-arcads-ad-creative-from-claude-code/) | Use the Arcads Claude Code skill pack to create, poll, organize, and review AI marketing videos and image... | 1.5k | Image & Creative Automation |

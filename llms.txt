@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-09-15
+# Generated: 2026-09-16
 # Total: 2994 skills
 
 ## Reduce coding-agent token waste with Chisle
