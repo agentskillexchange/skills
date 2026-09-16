@@ -149,6 +149,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Extract structured text, metadata, tables, and images from mixed documents through an MCP server with Kreuzberg](../../skills/extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg/) | 7.6k | — |
 | [Parse multi-format RAG inputs with OmniParse](../../skills/parse-multi-format-rag-inputs-with-omniparse/) | 7.6k | — |
 | [htmlq Command-Line HTML Content Extractor with CSS Selectors](../../skills/htmlq-command-line-html-content-extractor-css-selectors/) | 7.5k | — |
+| [Run private RAG and MCP skill workspaces with Yuxi](../../skills/run-private-rag-and-mcp-skill-workspaces-with-yuxi/) | 7k | — |
 | [Deploy document-to-JSON extraction APIs and ETL pipelines with Unstract](../../skills/deploy-document-to-json-extraction-apis-and-etl-pipelines-with-unstract/) | 6.7k | — |
 | [Parse agent-ready PDFs and document images with MonkeyOCR](../../skills/parse-agent-ready-pdfs-and-document-images-with-monkeyocr/) | 6.6k | — |
 | [Migrate MySQL, SQLite, or CSV data into PostgreSQL with repeatable load files before cutover with pgloader](../../skills/migrate-mysql-sqlite-or-csv-data-into-postgresql-with-repeatable-load-files-before-cutover-with-pgloader/) | 6.4k | — |

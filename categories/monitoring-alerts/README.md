@@ -122,6 +122,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Trace and debug agent runs with AgentOps](../../skills/trace-and-debug-agent-runs-with-agentops/) | 5.6k | — |
 | [GoatCounter Privacy-First Web Analytics Platform](../../skills/goatcounter-privacy-first-web-analytics-platform/) | 5.6k | — |
 | [Optimize agent development loops with Coze Loop](../../skills/optimize-agent-development-loops-with-coze-loop/) | 5.5k | — |
+| [Build and optimize agent eval workflows with Kiln](../../skills/build-and-optimize-agent-eval-workflows-with-kiln/) | 5.1k | — |
 | [sitespeed.io Comprehensive Web Performance Analysis Toolkit](../../skills/sitespeed-io-web-performance-analysis/) | 5k | 3.3k/wk |
 | [Evaluate and monitor LLM workflows with Agenta](../../skills/evaluate-and-monitor-llm-workflows-with-agenta/) | 4.2k | — |
 | [Logfire Python Observability SDK for LLM and Agent Tracing](../../skills/logfire-python-observability-sdk-llm-agent-tracing/) | 4.2k | — |

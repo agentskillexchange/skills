@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2995 published skills** across **17 categories** · 2,503 security reviewed · Updated 2026-09-16 13:27 UTC
+> **2998 published skills** across **17 categories** · 2,503 security reviewed · Updated 2026-09-16 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (472 skills)
+### 🛠️ Developer Tools (473 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -280,6 +280,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Mods AI-Powered Command-Line LLM Interface by Charmbracelet](skills/mods-charmbracelet-ai-cli-llm/) | Mods is a CLI tool by Charmbracelet that pipes stdin directly to large language models. It enables AI-powered text… | Security Reviewed | 4.5k | — |
 | [Azure CLI — Command-Line Interface for Microsoft Azure](skills/azure-cli-microsoft-cloud/) | The Azure CLI provides cross-platform command-line access to Microsoft Azure services for managing VMs, databases,… | Security Reviewed | 4.5k | — |
 | [Build, test, and package PostgreSQL extensions in Rust with pgrx](skills/build-test-and-package-postgresql-extensions-in-rust-with-pgrx/) | Use pgrx when an agent needs the Rust-native extension lifecycle for PostgreSQL, including local builds, test runs,… | Security Reviewed | 4.5k | — |
+| [Run sandboxed multi-language code execution with Judge0](skills/run-sandboxed-multi-language-code-execution-with-judge0/) | Use Judge0 when an agent workflow needs a self-hostable HTTP API for compiling and running untrusted or… | Published | 4.4k | — |
 | [Webhook Debugger](skills/webhook-debugger/) | Webhook Debugger is built around Stripe payments platform. The underlying ecosystem is represented by… | Security Reviewed | 4.4k | 16.1M/wk |
 | [Freeze Code and Terminal Screenshot Generator](skills/freeze-code-terminal-screenshot-generator/) | Freeze by Charmbracelet generates polished PNG and SVG images of code snippets and terminal output. It supports… | Security Reviewed | 4.4k | — |
 | [Spin up isolated git worktrees for parallel Claude Code and Codex branches with Worktrunk](skills/spin-up-isolated-git-worktrees-for-parallel-claude-code-and-codex-branches-with-worktrunk/) | Create, switch, and clean per-branch worktrees so multiple coding agents can work the same repo in parallel without… | Security Reviewed | 4.4k | — |
@@ -995,7 +996,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown,… | Published | — | — |
 
 
-### 🔄 Data Extraction & Transformation (221 skills)
+### 🔄 Data Extraction & Transformation (222 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -1110,6 +1111,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Extract structured text, metadata, tables, and images from mixed documents through an MCP server with Kreuzberg](skills/extract-structured-text-metadata-tables-and-images-from-mixed-documents-through-an-mcp-server-with-kreuzberg/) | Expose one document-extraction surface to MCP-compatible agents so they can normalize PDFs, Office files, images,… | Security Reviewed | 7.6k | — |
 | [Parse multi-format RAG inputs with OmniParse](skills/parse-multi-format-rag-inputs-with-omniparse/) | Run OmniParse locally or as an API service to turn documents, images, audio, video, and web pages into structured… | Security Reviewed | 7.6k | — |
 | [htmlq Command-Line HTML Content Extractor with CSS Selectors](skills/htmlq-command-line-html-content-extractor-css-selectors/) | htmlq is a command-line tool for extracting content from HTML using CSS selectors, functioning as the HTML… | Security Reviewed | 7.5k | — |
+| [Run private RAG and MCP skill workspaces with Yuxi](skills/run-private-rag-and-mcp-skill-workspaces-with-yuxi/) | Deploy Yuxi when an agent team needs a private, multi-tenant knowledge workspace that combines document RAG,… | Security Reviewed | 7k | — |
 | [Deploy document-to-JSON extraction APIs and ETL pipelines with Unstract](skills/deploy-document-to-json-extraction-apis-and-etl-pipelines-with-unstract/) | Use Unstract when an operator needs agents or automation pipelines to turn recurring PDFs, scans, and document… | Security Reviewed | 6.7k | — |
 | [Parse agent-ready PDFs and document images with MonkeyOCR](skills/parse-agent-ready-pdfs-and-document-images-with-monkeyocr/) | Run MonkeyOCR over PDFs, scanned pages, formulas, and tables to produce structured Markdown/text that downstream… | Security Reviewed | 6.6k | — |
 | [Migrate MySQL, SQLite, or CSV data into PostgreSQL with repeatable load files before cutover with pgloader](skills/migrate-mysql-sqlite-or-csv-data-into-postgresql-with-repeatable-load-files-before-cutover-with-pgloader/) | Move data into PostgreSQL with declarative load files, built-in type conversion, and repeatable migration runs… | Security Reviewed | 6.4k | — |
@@ -1997,7 +1999,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (155 skills)
+### 📊 Monitoring & Alerts (156 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -2085,6 +2087,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Trace and debug agent runs with AgentOps](skills/trace-and-debug-agent-runs-with-agentops/) | Instrument agent sessions so operators can replay runs, track model costs, inspect tool calls, and compare behavior… | Security Reviewed | 5.6k | — |
 | [GoatCounter Privacy-First Web Analytics Platform](skills/goatcounter-privacy-first-web-analytics-platform/) | GoatCounter is an open source analytics platform for privacy-friendly pageview tracking, referrer reporting, and… | Security Reviewed | 5.6k | — |
 | [Optimize agent development loops with Coze Loop](skills/optimize-agent-development-loops-with-coze-loop/) | Use Coze Loop to evaluate, debug, and improve agent prompts and workflows across development iterations. | Security Reviewed | 5.5k | — |
+| [Build and optimize agent eval workflows with Kiln](skills/build-and-optimize-agent-eval-workflows-with-kiln/) | Use Kiln to create eval datasets, rate outputs, optimize prompts and models, and ship the same AI task or agent… | Security Reviewed | 5.1k | — |
 | [sitespeed.io Comprehensive Web Performance Analysis Toolkit](skills/sitespeed-io-web-performance-analysis/) | sitespeed.io is an open-source tool for comprehensive web performance analysis. It tests websites using real… | Security Reviewed | 5k | 3.3k/wk |
 | [Evaluate and monitor LLM workflows with Agenta](skills/evaluate-and-monitor-llm-workflows-with-agenta/) | Run prompt experiments, testset evaluations, and observability reviews for production LLM workflows before… | Published | 4.2k | — |
 | [Logfire Python Observability SDK for LLM and Agent Tracing](skills/logfire-python-observability-sdk-llm-agent-tracing/) | Logfire is Pydantic's observability SDK for Python applications, with first-class tracing for AI, LLM, and agent… | Security Reviewed | 4.2k | — |

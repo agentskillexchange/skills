@@ -1,8 +1,50 @@
 {
   "version": "2.0",
-  "total": 2995,
+  "total": 2998,
   "generated": "2026-09-16",
   "skills": [
+    {
+      "slug": "run-sandboxed-multi-language-code-execution-with-judge0",
+      "name": "Run sandboxed multi-language code execution with Judge0",
+      "title": "Run sandboxed multi-language code execution with Judge0",
+      "description": "Use Judge0 when an agent workflow needs a self-hostable HTTP API for compiling and running untrusted or model-generated code across many languages with structured…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "signals": {
+        "github_stars": 4435
+      },
+      "source_url": "https://github.com/judge0/judge0",
+      "github_repo": "judge0/judge0"
+    },
+    {
+      "slug": "build-and-optimize-agent-eval-workflows-with-kiln",
+      "name": "Build and optimize agent eval workflows with Kiln",
+      "title": "Build and optimize agent eval workflows with Kiln",
+      "description": "Use Kiln to create eval datasets, rate outputs, optimize prompts and models, and ship the same AI task or agent definition from a local…",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 5072
+      },
+      "source_url": "https://github.com/Kiln-AI/Kiln",
+      "github_repo": "Kiln-AI/Kiln"
+    },
+    {
+      "slug": "run-private-rag-and-mcp-skill-workspaces-with-yuxi",
+      "name": "Run private RAG and MCP skill workspaces with Yuxi",
+      "title": "Run private RAG and MCP skill workspaces with Yuxi",
+      "description": "Deploy Yuxi when an agent team needs a private, multi-tenant knowledge workspace that combines document RAG, knowledge graphs, MCP tools, skills, sandboxes, and permissions.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 7036
+      },
+      "source_url": "https://github.com/xerrors/Yuxi",
+      "github_repo": "xerrors/Yuxi"
+    },
     {
       "slug": "run-repo-local-story-handover-and-review-workflows-with-storybloq",
       "name": "Run repo-local story, handover, and review workflows with Storybloq",

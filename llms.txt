@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-16
-# Total: 2995 skills
+# Total: 2998 skills
+
+## Run sandboxed multi-language code execution with Judge0
+slug: run-sandboxed-multi-language-code-execution-with-judge0
+category: Developer Tools
+framework: Multi-Framework
+verification: Published
+description: Use Judge0 when an agent workflow needs a self-hostable HTTP API for compiling and running untrusted or model-generated code across many languages with structured…
+url: https://agentskillexchange.com/skills/run-sandboxed-multi-language-code-execution-with-judge0/
+
+## Build and optimize agent eval workflows with Kiln
+slug: build-and-optimize-agent-eval-workflows-with-kiln
+category: Monitoring & Alerts
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Kiln to create eval datasets, rate outputs, optimize prompts and models, and ship the same AI task or agent definition from a local…
+url: https://agentskillexchange.com/skills/build-and-optimize-agent-eval-workflows-with-kiln/
+
+## Run private RAG and MCP skill workspaces with Yuxi
+slug: run-private-rag-and-mcp-skill-workspaces-with-yuxi
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Deploy Yuxi when an agent team needs a private, multi-tenant knowledge workspace that combines document RAG, knowledge graphs, MCP tools, skills, sandboxes, and permissions.
+url: https://agentskillexchange.com/skills/run-private-rag-and-mcp-skill-workspaces-with-yuxi/
 
 ## Run repo-local story, handover, and review workflows with Storybloq
 slug: run-repo-local-story-handover-and-review-workflows-with-storybloq
