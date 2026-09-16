@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-16",
-  "total": 2994,
+  "total": 2995,
   "skills": [
+    {
+      "slug": "run-repo-local-story-handover-and-review-workflows-with-storybloq",
+      "name": "Run repo-local story, handover, and review workflows with Storybloq",
+      "title": "Run repo-local story, handover, and review workflows with Storybloq",
+      "description": "Use Storybloq when Claude Code or Codex needs durable repo-local stories, plans, handovers, lessons, and review evidence instead of rediscovering project state each session.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Storybloq/storybloq",
+      "github_repo": "Storybloq/storybloq"
+    },
     {
       "slug": "reduce-coding-agent-token-waste-with-chisle",
       "name": "Reduce coding-agent token waste with Chisle",

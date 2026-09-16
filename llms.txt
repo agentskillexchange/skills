@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-16
-# Total: 2994 skills
+# Total: 2995 skills
+
+## Run repo-local story, handover, and review workflows with Storybloq
+slug: run-repo-local-story-handover-and-review-workflows-with-storybloq
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Storybloq when Claude Code or Codex needs durable repo-local stories, plans, handovers, lessons, and review evidence instead of rediscovering project state each session.
+url: https://agentskillexchange.com/skills/run-repo-local-story-handover-and-review-workflows-with-storybloq/
 
 ## Reduce coding-agent token waste with Chisle
 slug: reduce-coding-agent-token-waste-with-chisle

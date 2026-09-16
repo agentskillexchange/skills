@@ -1,8 +1,23 @@
 {
   "version": "2.0",
-  "total": 2994,
+  "total": 2995,
   "generated": "2026-09-16",
   "skills": [
+    {
+      "slug": "run-repo-local-story-handover-and-review-workflows-with-storybloq",
+      "name": "Run repo-local story, handover, and review workflows with Storybloq",
+      "title": "Run repo-local story, handover, and review workflows with Storybloq",
+      "description": "Use Storybloq when Claude Code or Codex needs durable repo-local stories, plans, handovers, lessons, and review evidence instead of rediscovering project state each session.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 738,
+        "npm_weekly_downloads": 160
+      },
+      "source_url": "https://github.com/Storybloq/storybloq",
+      "github_repo": "Storybloq/storybloq"
+    },
     {
       "slug": "reduce-coding-agent-token-waste-with-chisle",
       "name": "Reduce coding-agent token waste with Chisle",
