@@ -131,8 +131,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Render pull request architecture diagrams with PR Lens](skills/render-pull-request-architecture-diagrams-with-pr-lens/) | Have an agent turn a code diff into validated architecture and data-flow diagrams, then attach the rendered SVGs... | 212 | Code Quality & Review |
 | [Automate NotebookLM Studio generation and cited research batches with notebooklm-mcp](skills/automate-notebooklm-studio-generation-and-cited-research-batches-with-notebooklm-mcp/) | Use NotebookLM through MCP or a local REST API to run cited Q&A, generate Studio artifacts, and manage... | 161 | Research & Scraping |
 | [Create and edit Office documents locally with GenOffice](skills/create-edit-office-documents-locally-with-genoffice/) | Use GenOffice's CLI and bundled agent skill to create, inspect, convert, render, audit, and edit real DOCX, XLSX... | 6.7k | Templates & Workflows |
-| [Generate Arcads ad creative from Claude Code](skills/generate-arcads-ad-creative-from-claude-code/) | Use the Arcads Claude Code skill pack to create, poll, organize, and review AI marketing videos and image... | 1.5k | Image & Creative Automation |
 | [Hot-swap local model backends for agent workflows with llama-swap](skills/hot-swap-local-model-backends-for-agent-workflows-with-llama-swap/) | Use llama-swap to give agents one OpenAI/Anthropic-compatible endpoint that loads, unloads, and switches local model servers on demand | 5.7k | Integrations & Connectors |
+| [Generate Arcads ad creative from Claude Code](skills/generate-arcads-ad-creative-from-claude-code/) | Use the Arcads Claude Code skill pack to create, poll, organize, and review AI marketing videos and image... | 1.5k | Image & Creative Automation |
 
 ---
 
