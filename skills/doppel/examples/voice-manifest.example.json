@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "subject": {
+    "label": "Example Author",
+    "consent_confirmed": true,
+    "consent_scope": "Local editorial drafting for the current task",
+    "final_ratifier": "subject"
+  },
+  "sources": [
+    {
+      "id": "example-note",
+      "path": "source.example.md",
+      "authorship": "subject",
+      "sha256": "172cb6f14bca30c2c682dc3b31acdd6ff0842608331b3e56b2298e192af78774",
+      "registers": ["general", "technical", "public-essay"]
+    }
+  ]
+}
