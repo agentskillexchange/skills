@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[ESLint Rule Conflict Resolver](skills/eslint-rule-conflict-resolver/)** — Detects and resolves conflicting ESLint rules across .eslintrc configurations using the ESLint Node.js API. Analyzes rule interactions between eslint-config-airbnb, eslint-config-prettier, and typescript-eslint plugins.
+**[Pod CrashLoop Runbook](skills/pod-crashloop-runbook/)** — Pod CrashLoop Runbook is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a more technical and reliable…
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
