@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-17
-# Total: 2998 skills
+# Total: 2999 skills
+
+## Run graph and vector memory backends for agents with NornicDB
+slug: run-graph-and-vector-memory-backends-for-agents-with-nornicdb
+category: Integrations & Connectors
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use NornicDB when an agent workflow needs a local or self-hosted graph, vector, and temporal database for GraphRAG, memory decay, historical reads, and Neo4j/Qdrant-compatible…
+url: https://agentskillexchange.com/skills/run-graph-and-vector-memory-backends-for-agents-with-nornicdb/
 
 ## Run sandboxed multi-language code execution with Judge0
 slug: run-sandboxed-multi-language-code-execution-with-judge0

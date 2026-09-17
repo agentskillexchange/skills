@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-2%2C998-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-2%2C999-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C504-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*2,998 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*2,999 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Run graph and vector memory backends for agents with NornicDB](skills/run-graph-and-vector-memory-backends-for-agents-with-nornicdb/) | Use NornicDB when an agent workflow needs a local or self-hosted graph, vector, and temporal database for GraphRAG... | 878 | Integrations & Connectors |
 | [Run sandboxed multi-language code execution with Judge0](skills/run-sandboxed-multi-language-code-execution-with-judge0/) | Use Judge0 when an agent workflow needs a self-hostable HTTP API for compiling and running untrusted or model-generated... | 4.4k | Developer Tools |
 | [Build and optimize agent eval workflows with Kiln](skills/build-and-optimize-agent-eval-workflows-with-kiln/) | Use Kiln to create eval datasets, rate outputs, optimize prompts and models, and ship the same AI task... | 5.1k | Monitoring & Alerts |
 | [Run private RAG and MCP skill workspaces with Yuxi](skills/run-private-rag-and-mcp-skill-workspaces-with-yuxi/) | Deploy Yuxi when an agent team needs a private, multi-tenant knowledge workspace that combines document RAG, knowledge graphs... | 7.0k | Data Extraction & Transformation |
@@ -96,7 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Run client delivery fieldwork with FDEOps](skills/run-client-delivery-fieldwork-with-fdeops/) | Use FDEOps to guide agent-assisted client work from discovery through build, QA, readout, and handoff while preserving local... | 536 | Developer Tools |
 | [Carry project memory across coding agents with OpenWolf](skills/carry-project-memory-across-coding-agents-with-openwolf/) | Use OpenWolf to keep local project memory, handoff packets, project maps, and token usage records available across Claude... | 2.3k | Developer Tools |
 | [Run an affiliate marketing flywheel with affiliate-skills](skills/run-an-affiliate-marketing-flywheel-with-affiliate-skills/) | Use affiliate-skills to chain agent workflows for program research, trend scouting, content creation, landing pages, compliance, analytics, and... | 661 | Content Writing & SEO |
-| [Generate Arcads ad creative from Claude Code](skills/generate-arcads-ad-creative-from-claude-code/) | Use the Arcads Claude Code skill pack to create, poll, organize, and review AI marketing videos and image... | 1.5k | Image & Creative Automation |
 
 ---
 
@@ -123,8 +123,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
-| [Operate deployments, telemetry, and sandboxes through Temps CLI skills](skills/operate-deployments-telemetry-and-sandboxes-through-temps-cli-skills/) | Use Temps when an agent needs to deploy applications, inspect production telemetry, and manage self-hosted sandboxes through a... | 724 | Developer Tools |
 | [Carry project memory across coding agents with OpenWolf](skills/carry-project-memory-across-coding-agents-with-openwolf/) | Use OpenWolf to keep local project memory, handoff packets, project maps, and token usage records available across Claude... | 2.3k | Developer Tools |
+| [Move agent chat histories into DeepSeek Harness with DSH Chat Import](skills/move-agent-chat-histories-into-deepseek-harness-with-dsh-chat-import/) | Preview, import, resume, export, and sync coding-agent conversations across Claude Code, Codex, ChatGPT, Cursor, Gemini, OpenClaw, and other... | 155 | Developer Tools |
 | [Render pull request architecture diagrams with PR Lens](skills/render-pull-request-architecture-diagrams-with-pr-lens/) | Have an agent turn a code diff into validated architecture and data-flow diagrams, then attach the rendered SVGs... | 212 | Code Quality & Review |
 | [Serve codebase impact context to agents with Trace MCP](skills/serve-codebase-impact-context-to-agents-with-trace-mcp/) | Use Trace MCP to index a repository once and let MCP-capable coding agents query framework-aware code, dependency, and... | 154 | Code Quality & Review |
 | [Collect TikTok and Douyin data through a self-hosted MCP server](skills/collect-tiktok-and-douyin-data-through-a-self-hosted-mcp-server/) | Run Douyin_TikTok_Download_API as a private MCP-backed service so agents can parse, archive, and retrieve TikTok or Douyin posts... | 20.1k | Research & Scraping |
@@ -132,7 +132,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Run private RAG and MCP skill workspaces with Yuxi](skills/run-private-rag-and-mcp-skill-workspaces-with-yuxi/) | Deploy Yuxi when an agent team needs a private, multi-tenant knowledge workspace that combines document RAG, knowledge graphs... | 7.0k | Data Extraction & Transformation |
 | [Build and optimize agent eval workflows with Kiln](skills/build-and-optimize-agent-eval-workflows-with-kiln/) | Use Kiln to create eval datasets, rate outputs, optimize prompts and models, and ship the same AI task... | 5.1k | Monitoring & Alerts |
 | [Automate NotebookLM Studio generation and cited research batches with notebooklm-mcp](skills/automate-notebooklm-studio-generation-and-cited-research-batches-with-notebooklm-mcp/) | Use NotebookLM through MCP or a local REST API to run cited Q&A, generate Studio artifacts, and manage... | 161 | Research & Scraping |
-| [Hot-swap local model backends for agent workflows with llama-swap](skills/hot-swap-local-model-backends-for-agent-workflows-with-llama-swap/) | Use llama-swap to give agents one OpenAI/Anthropic-compatible endpoint that loads, unloads, and switches local model servers on demand | 5.7k | Integrations & Connectors |
+| [Create and edit Office documents locally with GenOffice](skills/create-edit-office-documents-locally-with-genoffice/) | Use GenOffice's CLI and bundled agent skill to create, inspect, convert, render, audit, and edit real DOCX, XLSX... | 6.7k | Templates & Workflows |
 
 ---
 
@@ -147,7 +147,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 202 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 178 | Incident response, troubleshooting, system diagnostics |
-| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 169 | Third-party API bridges, webhooks, service connectors |
+| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 170 | Third-party API bridges, webhooks, service connectors |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 156 | Metrics, alerting rules, observability |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 131 | Web research, content discovery, data collection |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 127 | Email automation, calendar management, task coordination |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 2,998 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 2,999 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,504 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

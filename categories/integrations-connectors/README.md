@@ -150,6 +150,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [MongoDB MCP Server for Database and Atlas Management](../../skills/mongodb-mcp-server-database-atlas-management/) | 983 | 36.6k/wk |
 | [Shopify Admin GraphQL Sync Agent](../../skills/shopify-admin-graphql-sync-agent/) | 959 | 325.5k/wk |
 | [Build authenticated MCP tools and servers with Arcade MCP](../../skills/build-authenticated-mcp-tools-and-servers-with-arcade-mcp/) | 895 | — |
+| [Run graph and vector memory backends for agents with NornicDB](../../skills/run-graph-and-vector-memory-backends-for-agents-with-nornicdb/) | 878 | — |
 | [Build authenticated MCP servers from Python files with Golf](../../skills/build-authenticated-mcp-servers-from-python-files-with-golf/) | 835 | — |
 | [Datadog Integration Connector](../../skills/datadog-integration-connector-agent/) | 791 | 6.6M/wk |
 | [Docker MCP Server for Container Lifecycle Management](../../skills/docker-mcp-server-container-lifecycle-management/) | 695 | — |

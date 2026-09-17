@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2998 published skills** across **17 categories** · 2,504 security reviewed · Updated 2026-09-17 13:26 UTC
+> **2999 published skills** across **17 categories** · 2,504 security reviewed · Updated 2026-09-17 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1822,7 +1822,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (169 skills)
+### 🔗 Integrations & Connectors (170 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1938,6 +1938,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [MongoDB MCP Server for Database and Atlas Management](skills/mongodb-mcp-server-database-atlas-management/) | The official MongoDB MCP server connects AI agents to MongoDB databases and Atlas clusters through the Model Context… | Security Reviewed | 983 | 36.6k/wk |
 | [Shopify Admin GraphQL Sync Agent](skills/shopify-admin-graphql-sync-agent/) | Coordinates Shopify data syncs with the Admin GraphQL API, including `bulkOperationRunQuery`, node connections, and… | Published | 959 | 325.5k/wk |
 | [Build authenticated MCP tools and servers with Arcade MCP](skills/build-authenticated-mcp-tools-and-servers-with-arcade-mcp/) | Use Arcade MCP to create custom MCP servers and tools with OAuth-aware authorization, evals, and deployment paths… | Security Reviewed | 895 | — |
+| [Run graph and vector memory backends for agents with NornicDB](skills/run-graph-and-vector-memory-backends-for-agents-with-nornicdb/) | Use NornicDB when an agent workflow needs a local or self-hosted graph, vector, and temporal database for GraphRAG,… | Security Reviewed | 878 | — |
 | [Build authenticated MCP servers from Python files with Golf](skills/build-authenticated-mcp-servers-from-python-files-with-golf/) | Scaffold, build, and run MCP servers from a predictable Python project layout with tools, prompts, resources, auth,… | Security Reviewed | 835 | — |
 | [Datadog Integration Connector](skills/datadog-integration-connector-agent/) | Connects applications to Datadog monitoring using the Datadog API v2 for metrics submission, log forwarding, APM… | Security Reviewed | 791 | 6.6M/wk |
 | [Docker MCP Server for Container Lifecycle Management](skills/docker-mcp-server-container-lifecycle-management/) | An MCP server that enables AI agents to manage Docker containers, images, volumes, and networks through natural… | Security Reviewed | 695 | — |

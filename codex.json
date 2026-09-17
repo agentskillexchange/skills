@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-17",
-  "total": 2998,
+  "total": 2999,
   "skills": [
+    {
+      "slug": "run-graph-and-vector-memory-backends-for-agents-with-nornicdb",
+      "name": "Run graph and vector memory backends for agents with NornicDB",
+      "title": "Run graph and vector memory backends for agents with NornicDB",
+      "description": "Use NornicDB when an agent workflow needs a local or self-hosted graph, vector, and temporal database for GraphRAG, memory decay, historical reads, and Neo4j/Qdrant-compatible…",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/orneryd/NornicDB",
+      "github_repo": "orneryd/NornicDB"
+    },
     {
       "slug": "run-sandboxed-multi-language-code-execution-with-judge0",
       "name": "Run sandboxed multi-language code execution with Judge0",
