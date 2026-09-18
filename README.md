@@ -124,7 +124,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
 | [Carry project memory across coding agents with OpenWolf](skills/carry-project-memory-across-coding-agents-with-openwolf/) | Use OpenWolf to keep local project memory, handoff packets, project maps, and token usage records available across Claude... | 2.3k | Developer Tools |
-| [Move agent chat histories into DeepSeek Harness with DSH Chat Import](skills/move-agent-chat-histories-into-deepseek-harness-with-dsh-chat-import/) | Preview, import, resume, export, and sync coding-agent conversations across Claude Code, Codex, ChatGPT, Cursor, Gemini, OpenClaw, and other... | 155 | Developer Tools |
+| [Operate deployments, telemetry, and sandboxes through Temps CLI skills](skills/operate-deployments-telemetry-and-sandboxes-through-temps-cli-skills/) | Use Temps when an agent needs to deploy applications, inspect production telemetry, and manage self-hosted sandboxes through a... | 724 | Developer Tools |
 | [Render pull request architecture diagrams with PR Lens](skills/render-pull-request-architecture-diagrams-with-pr-lens/) | Have an agent turn a code diff into validated architecture and data-flow diagrams, then attach the rendered SVGs... | 212 | Code Quality & Review |
 | [Serve codebase impact context to agents with Trace MCP](skills/serve-codebase-impact-context-to-agents-with-trace-mcp/) | Use Trace MCP to index a repository once and let MCP-capable coding agents query framework-aware code, dependency, and... | 154 | Code Quality & Review |
 | [Collect TikTok and Douyin data through a self-hosted MCP server](skills/collect-tiktok-and-douyin-data-through-a-self-hosted-mcp-server/) | Run Douyin_TikTok_Download_API as a private MCP-backed service so agents can parse, archive, and retrieve TikTok or Douyin posts... | 20.1k | Research & Scraping |
@@ -132,7 +132,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Run private RAG and MCP skill workspaces with Yuxi](skills/run-private-rag-and-mcp-skill-workspaces-with-yuxi/) | Deploy Yuxi when an agent team needs a private, multi-tenant knowledge workspace that combines document RAG, knowledge graphs... | 7.0k | Data Extraction & Transformation |
 | [Build and optimize agent eval workflows with Kiln](skills/build-and-optimize-agent-eval-workflows-with-kiln/) | Use Kiln to create eval datasets, rate outputs, optimize prompts and models, and ship the same AI task... | 5.1k | Monitoring & Alerts |
 | [Automate NotebookLM Studio generation and cited research batches with notebooklm-mcp](skills/automate-notebooklm-studio-generation-and-cited-research-batches-with-notebooklm-mcp/) | Use NotebookLM through MCP or a local REST API to run cited Q&A, generate Studio artifacts, and manage... | 161 | Research & Scraping |
-| [Create and edit Office documents locally with GenOffice](skills/create-edit-office-documents-locally-with-genoffice/) | Use GenOffice's CLI and bundled agent skill to create, inspect, convert, render, audit, and edit real DOCX, XLSX... | 6.7k | Templates & Workflows |
+| [Run graph and vector memory backends for agents with NornicDB](skills/run-graph-and-vector-memory-backends-for-agents-with-nornicdb/) | Use NornicDB when an agent workflow needs a local or self-hosted graph, vector, and temporal database for GraphRAG... | 878 | Integrations & Connectors |
 
 ---
 
