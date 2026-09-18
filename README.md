@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Pod CrashLoop Runbook](skills/pod-crashloop-runbook/)** — Pod CrashLoop Runbook is built around Kubernetes orchestration platform. The underlying ecosystem is represented by kubernetes/kubernetes (121,313+ GitHub stars). It gives an agent a more technical and reliable…
+**[Firecrawl Markdown Capture Pipeline](skills/firecrawl-markdown-capture-pipeline/)** — Captures clean site content through Firecrawl endpoints like `/v1/scrape`, `/v1/map`, and `/v1/crawl`, with Markdown output for downstream agents. Great for turning messy websites into reliable research corpora, docs…
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
