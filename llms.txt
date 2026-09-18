@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-18
-# Total: 2999 skills
+# Total: 3002 skills
+
+## Inspect and export Excel workbooks from the terminal with xleak
+slug: inspect-and-export-excel-workbooks-from-the-terminal-with-xleak
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use xleak when an agent needs to inspect, search, verify formulas, and export Excel, ODS, CSV, or TSV files from a terminal without opening…
+url: https://agentskillexchange.com/skills/inspect-and-export-excel-workbooks-from-the-terminal-with-xleak/
+
+## Wire transcript-derived coding-agent memory with deja-vu
+slug: wire-transcript-derived-coding-agent-memory-with-deja-vu
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use deja-vu when Codex, Claude Code, Cursor, OpenClaw, Copilot, and other local coding agents need shared recall from session history already written on disk.
+url: https://agentskillexchange.com/skills/wire-transcript-derived-coding-agent-memory-with-deja-vu/
+
+## Run IDE-wired terminal coding-agent workflows with Oh My Pi
+slug: run-ide-wired-terminal-coding-agent-workflows-with-oh-my-pi
+category: Developer Tools
+framework: Custom Agents
+verification: Security Reviewed
+description: Use Oh My Pi when an operator wants a local terminal coding agent with IDE-grade context, built-in file tools, LSP-aware edits, debugger access, subagents,…
+url: https://agentskillexchange.com/skills/run-ide-wired-terminal-coding-agent-workflows-with-oh-my-pi/
 
 ## Run graph and vector memory backends for agents with NornicDB
 slug: run-graph-and-vector-memory-backends-for-agents-with-nornicdb

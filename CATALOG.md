@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **2999 published skills** across **17 categories** · 2,507 security reviewed · Updated 2026-09-18 13:26 UTC
+> **3002 published skills** across **17 categories** · 2,507 security reviewed · Updated 2026-09-18 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (473 skills)
+### 🛠️ Developer Tools (475 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -107,6 +107,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Restic Fast Encrypted Backup Program](skills/restic-encrypted-backup-tool/) | Restic is a fast, secure, and efficient backup program supporting local, SFTP, S3, Azure, GCS, and many other… | Security Reviewed | 32.9k | — |
 | [Just Command Runner](skills/just-command-runner/) | Just is a command runner written in Rust that provides a convenient way to save and run project-specific commands.… | Security Reviewed | 32.5k | — |
 | [Dokku Docker-Powered Mini-Heroku Self-Hosted PaaS](skills/dokku-docker-paas/) | Dokku is a self-hosted Platform-as-a-Service built on Docker that provides Heroku-like git-push deployment on your… | Security Reviewed | 31.9k | — |
+| [Run IDE-wired terminal coding-agent workflows with Oh My Pi](skills/run-ide-wired-terminal-coding-agent-workflows-with-oh-my-pi/) | Use Oh My Pi when an operator wants a local terminal coding agent with IDE-grade context, built-in file tools,… | Security Reviewed | 31.8k | 497.7k/wk |
 | [Build frontend copilot and generative UI workflows with CopilotKit](skills/build-frontend-copilot-and-generative-ui-workflows-with-copilotkit/) | Use CopilotKit to add agent-native React or Angular copilots with generative UI, shared state, and human-in-the-loop… | Security Reviewed | 31.5k | 261.2k/wk |
 | [Podman Daemonless Container Management Engine](skills/podman-daemonless-container-management-engine/) | Podman is a daemonless container engine for developing, managing, and running OCI containers on Linux, Mac, and… | Security Reviewed | 31.2k | — |
 | [Zellij Terminal Workspace and Multiplexer](skills/zellij-terminal-workspace-multiplexer/) | Zellij is a Rust-powered terminal workspace and multiplexer with floating panes, WebAssembly plugins, layout… | Security Reviewed | 30.9k | — |
@@ -381,6 +382,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Run StyleSeed Design Gates in Coding-Agent UI Builds](skills/run-styleseed-design-gates-in-coding-agent-ui-builds/) | Install StyleSeed skills so coding agents choose a design grammar, build UI with project-local rules, score the… | Security Reviewed | 884 | — |
 | [CircleCI MCP Server](skills/circleci-mcp-server/) | CircleCI MCP Server is built around CircleCI continuous integration platform. The underlying ecosystem is… | Security Reviewed | 844 | — |
 | [Expose repository code intelligence to agents with Gortex](skills/expose-repository-code-intelligence-to-agents-with-gortex/) | Use Gortex to index one or more repositories into a local code graph and expose symbol, call-chain, blast-radius,… | Published | 840 | — |
+| [Wire transcript-derived coding-agent memory with deja-vu](skills/wire-transcript-derived-coding-agent-memory-with-deja-vu/) | Use deja-vu when Codex, Claude Code, Cursor, OpenClaw, Copilot, and other local coding agents need shared recall… | Security Reviewed | 831 | 3.6k/wk |
 | [Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac](skills/run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac/) | Execute repository-stored HTTP request files from the command line so API smoke tests, assertions, and… | Security Reviewed | 809 | 36.7k/wk |
 | [Install Claude Forge workflows for guarded Claude Code execution](skills/install-claude-forge-workflows-for-guarded-claude-code-execution/) | Add Claude Forge's agents, slash commands, skills, and hooks to Claude Code when a coding task needs repeatable… | Security Reviewed | 805 | — |
 | [Develop Power BI and Fabric artifacts with agent plugins](skills/develop-power-bi-and-fabric-artifacts-with-agent-plugins/) | Install Power BI and Microsoft Fabric plugins so Claude Code can author, validate, and review PBIP, TMDL, DAX,… | Security Reviewed | 801 | — |
@@ -996,7 +998,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown,… | Published | — | — |
 
 
-### 🔄 Data Extraction & Transformation (222 skills)
+### 🔄 Data Extraction & Transformation (223 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -1175,6 +1177,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Anyquery Universal SQL Engine with MCP Integration](skills/anyquery-universal-sql-engine-mcp-integration/) | Anyquery is a SQL query engine that lets you run SQL against 40+ apps, files, and databases including GitHub,… | Security Reviewed | 1.7k | — |
 | [Let agents draft and manage Bdash SQL queries through MCP](skills/let-agents-draft-and-manage-bdash-sql-queries-through-mcp/) | Connect Bdash's SQL workspace to MCP clients so an agent can list configured data sources and write SQL into the… | Security Reviewed | 1.5k | — |
 | [Convert mixed documents into agent-ready Markdown and JSON with DocStrange](skills/convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange/) | Convert PDFs, scans, office files, images, and URLs into clean Markdown, structured JSON, CSV, or HTML before an… | Security Reviewed | 1.5k | 90/wk |
+| [Inspect and export Excel workbooks from the terminal with xleak](skills/inspect-and-export-excel-workbooks-from-the-terminal-with-xleak/) | Use xleak when an agent needs to inspect, search, verify formulas, and export Excel, ODS, CSV, or TSV files from a… | Security Reviewed | 1.5k | — |
 | [Repair, split, merge, and normalize PDFs with qpdf before downstream processing](skills/repair-split-merge-and-normalize-pdfs-with-qpdf-before-downstream-processing/) | Preprocess messy PDFs into a stable form before extraction, review, packaging, or delivery workflows depend on them. | Security Reviewed | 1.5k | — |
 | [Documind AI-Powered Structured Data Extraction from Documents](skills/documind-ai-structured-data-extraction/) | Documind is an open-source Node.js tool that uses AI to extract structured JSON data from PDFs and other documents.… | Security Reviewed | 1.5k | 14/wk |
 | [Salesforce Bulk API Data Loader](skills/salesforce-bulk-api-data-loader/) | Performs high-volume data operations using the Salesforce Bulk API 2.0. Creates ingest jobs with createJob(),… | Security Reviewed | 1.5k | 936.6k/wk |

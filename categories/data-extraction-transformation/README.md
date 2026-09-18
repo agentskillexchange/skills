@@ -213,6 +213,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Anyquery Universal SQL Engine with MCP Integration](../../skills/anyquery-universal-sql-engine-mcp-integration/) | 1.7k | — |
 | [Let agents draft and manage Bdash SQL queries through MCP](../../skills/let-agents-draft-and-manage-bdash-sql-queries-through-mcp/) | 1.5k | — |
 | [Convert mixed documents into agent-ready Markdown and JSON with DocStrange](../../skills/convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange/) | 1.5k | 90/wk |
+| [Inspect and export Excel workbooks from the terminal with xleak](../../skills/inspect-and-export-excel-workbooks-from-the-terminal-with-xleak/) | 1.5k | — |
 | [Repair, split, merge, and normalize PDFs with qpdf before downstream processing](../../skills/repair-split-merge-and-normalize-pdfs-with-qpdf-before-downstream-processing/) | 1.5k | — |
 | [Documind AI-Powered Structured Data Extraction from Documents](../../skills/documind-ai-structured-data-extraction/) | 1.5k | 14/wk |
 | [Salesforce Bulk API Data Loader](../../skills/salesforce-bulk-api-data-loader/) | 1.5k | 936.6k/wk |

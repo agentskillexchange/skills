@@ -133,6 +133,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Restic Fast Encrypted Backup Program](../../skills/restic-encrypted-backup-tool/) | 32.9k | — |
 | [Just Command Runner](../../skills/just-command-runner/) | 32.5k | — |
 | [Dokku Docker-Powered Mini-Heroku Self-Hosted PaaS](../../skills/dokku-docker-paas/) | 31.9k | — |
+| [Run IDE-wired terminal coding-agent workflows with Oh My Pi](../../skills/run-ide-wired-terminal-coding-agent-workflows-with-oh-my-pi/) | 31.8k | 497.7k/wk |
 | [Build frontend copilot and generative UI workflows with CopilotKit](../../skills/build-frontend-copilot-and-generative-ui-workflows-with-copilotkit/) | 31.5k | 261.2k/wk |
 | [Podman Daemonless Container Management Engine](../../skills/podman-daemonless-container-management-engine/) | 31.2k | — |
 | [Zellij Terminal Workspace and Multiplexer](../../skills/zellij-terminal-workspace-multiplexer/) | 30.9k | — |
@@ -407,6 +408,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Run StyleSeed Design Gates in Coding-Agent UI Builds](../../skills/run-styleseed-design-gates-in-coding-agent-ui-builds/) | 884 | — |
 | [CircleCI MCP Server](../../skills/circleci-mcp-server/) | 844 | — |
 | [Expose repository code intelligence to agents with Gortex](../../skills/expose-repository-code-intelligence-to-agents-with-gortex/) | 840 | — |
+| [Wire transcript-derived coding-agent memory with deja-vu](../../skills/wire-transcript-derived-coding-agent-memory-with-deja-vu/) | 831 | 3.6k/wk |
 | [Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac](../../skills/run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac/) | 809 | 36.7k/wk |
 | [Install Claude Forge workflows for guarded Claude Code execution](../../skills/install-claude-forge-workflows-for-guarded-claude-code-execution/) | 805 | — |
 | [Develop Power BI and Fabric artifacts with agent plugins](../../skills/develop-power-bi-and-fabric-artifacts-with-agent-plugins/) | 801 | — |
