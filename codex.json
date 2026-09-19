@@ -1,9 +1,31 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-09-18",
-  "total": 3002,
+  "generated": "2026-09-19",
+  "total": 3004,
   "skills": [
+    {
+      "slug": "build-agent-maintainable-reactive-ui-with-arrowjs",
+      "name": "Build agent-maintainable reactive UI with ArrowJS",
+      "title": "Build agent-maintainable reactive UI with ArrowJS",
+      "description": "Use ArrowJS when a coding agent needs to add or maintain small reactive web interfaces using DOM-native JavaScript, template literals, SSR/hydration packages, and optional…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/standardagents/arrow-js",
+      "github_repo": "standardagents/arrow-js"
+    },
+    {
+      "slug": "use-production-agent-tutorial-playbooks-from-agents-towards-production",
+      "name": "Use production-agent tutorial playbooks from Agents Towards Production",
+      "title": "Use production-agent tutorial playbooks from Agents Towards Production",
+      "description": "Use Agents Towards Production when an agent needs code-first tutorial playbooks for production agent features such as state, memory, retrieval, evaluation, deployment, observability, and…",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/NirDiamant/agents-towards-production",
+      "github_repo": "NirDiamant/agents-towards-production"
+    },
     {
       "slug": "inspect-and-export-excel-workbooks-from-the-terminal-with-xleak",
       "name": "Inspect and export Excel workbooks from the terminal with xleak",

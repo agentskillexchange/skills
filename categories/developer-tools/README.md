@@ -325,6 +325,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Build and debug AI pipelines in an IDE with RocketRide](../../skills/build-and-debug-ai-pipelines-in-an-ide-with-rocketride/) | 3.9k | 635/wk |
 | [Stancl Tenancy v3 — Multi-Tenant Laravel](../../skills/tenancy-development/) | 3.8k | — |
 | [Build Java agent transport gateways with Atmosphere](../../skills/build-java-agent-transport-gateways-with-atmosphere/) | 3.8k | — |
+| [Build agent-maintainable reactive UI with ArrowJS](../../skills/build-agent-maintainable-reactive-ui-with-arrowjs/) | 3.8k | 38.7k/wk |
 | [Manage Cross-Agent Skill Libraries with Skills Manager](../../skills/manage-cross-agent-skill-libraries-with-skills-manager/) | 3.7k | — |
 | [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | 3.6k | 40.6M/wk |
 | [AWS Lambda MCP Server](../../skills/aws-lambda-mcp-server/) | 3.6k | 9.9M/wk |

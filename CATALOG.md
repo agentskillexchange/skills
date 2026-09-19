@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3002 published skills** across **17 categories** · 2,509 security reviewed · Updated 2026-09-18 19:27 UTC
+> **3004 published skills** across **17 categories** · 2,509 security reviewed · Updated 2026-09-19 01:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (475 skills)
+### 🛠️ Developer Tools (476 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -299,6 +299,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Build and debug AI pipelines in an IDE with RocketRide](skills/build-and-debug-ai-pipelines-in-an-ide-with-rocketride/) | Use RocketRide to compose, run, observe, and deploy portable AI pipelines from an IDE or CLI across model providers,… | Security Reviewed | 3.9k | 635/wk |
 | [Stancl Tenancy v3 — Multi-Tenant Laravel](skills/tenancy-development/) | Builds multi-tenant Laravel SaaS applications with stancl/tenancy v3. Best when you need domain/subdomain/path-based… | Security Reviewed | 3.8k | — |
 | [Build Java agent transport gateways with Atmosphere](skills/build-java-agent-transport-gateways-with-atmosphere/) | Use Atmosphere to build JVM agent gateways that stream over WebSocket, SSE, gRPC, WebTransport, MCP, A2A, and AG-UI… | Published | 3.8k | — |
+| [Build agent-maintainable reactive UI with ArrowJS](skills/build-agent-maintainable-reactive-ui-with-arrowjs/) | Use ArrowJS when a coding agent needs to add or maintain small reactive web interfaces using DOM-native JavaScript,… | Security Reviewed | 3.8k | 38.7k/wk |
 | [Manage Cross-Agent Skill Libraries with Skills Manager](skills/manage-cross-agent-skill-libraries-with-skills-manager/) | Use Skills Manager when an operator needs one auditable library for installing, inspecting, tagging, syncing,… | Security Reviewed | 3.7k | — |
 | [AWS S3 MCP Server](skills/aws-s3-mcp-server/) | AWS S3 MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Published | 3.6k | 40.6M/wk |
 | [AWS Lambda MCP Server](skills/aws-lambda-mcp-server/) | AWS Lambda MCP Server is built around Amazon Web Services cloud APIs. The underlying ecosystem is represented by… | Published | 3.6k | 9.9M/wk |
@@ -748,7 +749,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (242 skills)
+### 📄 Templates & Workflows (243 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -813,6 +814,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Assemble production agent harnesses with DeepAgents](skills/assemble-production-agent-harnesses-with-deepagents/) | Use DeepAgents to build long-running task agents with a batteries-included harness for planning, tools, and workflow… | Security Reviewed | 24.1k | — |
 | [Run Claude Code through repeatable command and persona workflows with SuperClaude](skills/run-claude-code-through-repeatable-command-and-persona-workflows-with-superclaude/) | Turn Claude Code into a command-driven workflow surface for research, planning, implementation, testing, and review… | Security Reviewed | 22.3k | — |
 | [Prefect Python Workflow Orchestration Framework for Data Pipelines](skills/prefect-python-workflow-orchestration-data-pipelines/) | Prefect is a Python workflow orchestration framework for building resilient data pipelines. Add scheduling, retries,… | Security Reviewed | 22.1k | — |
+| [Use production-agent tutorial playbooks from Agents Towards Production](skills/use-production-agent-tutorial-playbooks-from-agents-towards-production/) | Use Agents Towards Production when an agent needs code-first tutorial playbooks for production agent features such… | Security Reviewed | 21.5k | — |
 | [Run supervised Suna sessions for reviewable agent work](skills/run-supervised-suna-sessions-for-reviewable-agent-work/) | Start a bounded Suna or Kortix agent session, let it use browser, files, tools, and connectors, then review the… | Security Reviewed | 19.8k | — |
 | [Temporal Durable Execution Workflow Orchestration Platform](skills/temporal-durable-execution-workflow-platform/) | Temporal is an open-source durable execution platform that lets developers build scalable, fault-tolerant workflows.… | Security Reviewed | 19.4k | — |
 | [React Email Component Library for Building Email Templates](skills/react-email-component-library-email-templates/) | React Email is an open source component library for building responsive, cross-client email templates using React… | Security Reviewed | 18.4k | 2.2M/wk |

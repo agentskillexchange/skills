@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C002-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C004-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C509-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,002 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,004 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Firecrawl Markdown Capture Pipeline](skills/firecrawl-markdown-capture-pipeline/)** — Captures clean site content through Firecrawl endpoints like `/v1/scrape`, `/v1/map`, and `/v1/crawl`, with Markdown output for downstream agents. Great for turning messy websites into reliable research corpora, docs…
+**[Wire transcript-derived coding-agent memory with deja-vu](skills/wire-transcript-derived-coding-agent-memory-with-deja-vu/)** — Use deja-vu when Codex, Claude Code, Cursor, OpenClaw, Copilot, and other local coding agents need shared recall from session history already written on disk.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Build agent-maintainable reactive UI with ArrowJS](skills/build-agent-maintainable-reactive-ui-with-arrowjs/) | Use ArrowJS when a coding agent needs to add or maintain small reactive web interfaces using DOM-native JavaScript... | 3.8k | Developer Tools |
+| [Use production-agent tutorial playbooks from Agents Towards Production](skills/use-production-agent-tutorial-playbooks-from-agents-towards-production/) | Use Agents Towards Production when an agent needs code-first tutorial playbooks for production agent features such as state... | 21.5k | Templates & Workflows |
 | [Inspect and export Excel workbooks from the terminal with xleak](skills/inspect-and-export-excel-workbooks-from-the-terminal-with-xleak/) | Use xleak when an agent needs to inspect, search, verify formulas, and export Excel, ODS, CSV, or TSV... | 1.5k | Data Extraction & Transformation |
 | [Wire transcript-derived coding-agent memory with deja-vu](skills/wire-transcript-derived-coding-agent-memory-with-deja-vu/) | Use deja-vu when Codex, Claude Code, Cursor, OpenClaw, Copilot, and other local coding agents need shared recall from... | 831 | Developer Tools |
 | [Run IDE-wired terminal coding-agent workflows with Oh My Pi](skills/run-ide-wired-terminal-coding-agent-workflows-with-oh-my-pi/) | Use Oh My Pi when an operator wants a local terminal coding agent with IDE-grade context, built-in file... | 31.8k | Developer Tools |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Build and optimize agent eval workflows with Kiln](skills/build-and-optimize-agent-eval-workflows-with-kiln/) | Use Kiln to create eval datasets, rate outputs, optimize prompts and models, and ship the same AI task... | 5.1k | Monitoring & Alerts |
 | [Run private RAG and MCP skill workspaces with Yuxi](skills/run-private-rag-and-mcp-skill-workspaces-with-yuxi/) | Deploy Yuxi when an agent team needs a private, multi-tenant knowledge workspace that combines document RAG, knowledge graphs... | 7.0k | Data Extraction & Transformation |
 | [Run repo-local story, handover, and review workflows with Storybloq](skills/run-repo-local-story-handover-and-review-workflows-with-storybloq/) | Use Storybloq when Claude Code or Codex needs durable repo-local stories, plans, handovers, lessons, and review evidence instead... | 738 | Developer Tools |
-| [Reduce coding-agent token waste with Chisle](skills/reduce-coding-agent-token-waste-with-chisle/) | Use Chisle to add concise coding rules, YAGNI-first defaults, and supported tool-output compression across multiple coding agents | 388 | Developer Tools |
-| [Run long-horizon coding work with Late CLI](skills/run-long-horizon-coding-work-with-late-cli/) | Use Late CLI to keep a lead coding agent focused while isolated researcher and coder subagents spend disposable... | 426 | Developer Tools |
 
 ---
 
@@ -124,15 +124,15 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
 | [Run IDE-wired terminal coding-agent workflows with Oh My Pi](skills/run-ide-wired-terminal-coding-agent-workflows-with-oh-my-pi/) | Use Oh My Pi when an operator wants a local terminal coding agent with IDE-grade context, built-in file... | 31.8k | Developer Tools |
-| [Carry project memory across coding agents with OpenWolf](skills/carry-project-memory-across-coding-agents-with-openwolf/) | Use OpenWolf to keep local project memory, handoff packets, project maps, and token usage records available across Claude... | 2.3k | Developer Tools |
+| [Build agent-maintainable reactive UI with ArrowJS](skills/build-agent-maintainable-reactive-ui-with-arrowjs/) | Use ArrowJS when a coding agent needs to add or maintain small reactive web interfaces using DOM-native JavaScript... | 3.8k | Developer Tools |
 | [Render pull request architecture diagrams with PR Lens](skills/render-pull-request-architecture-diagrams-with-pr-lens/) | Have an agent turn a code diff into validated architecture and data-flow diagrams, then attach the rendered SVGs... | 212 | Code Quality & Review |
 | [Collect TikTok and Douyin data through a self-hosted MCP server](skills/collect-tiktok-and-douyin-data-through-a-self-hosted-mcp-server/) | Run Douyin_TikTok_Download_API as a private MCP-backed service so agents can parse, archive, and retrieve TikTok or Douyin posts... | 20.1k | Research & Scraping |
 | [Serve codebase impact context to agents with Trace MCP](skills/serve-codebase-impact-context-to-agents-with-trace-mcp/) | Use Trace MCP to index a repository once and let MCP-capable coding agents query framework-aware code, dependency, and... | 154 | Code Quality & Review |
 | [Draw and verify Excalidraw diagrams through an agent canvas](skills/draw-and-verify-excalidraw-diagrams-through-an-agent-canvas/) | Use mcp_excalidraw to let coding agents create, inspect, revise, export, and commit editable Excalidraw diagrams from a local... | 2.4k | Image & Creative Automation |
+| [Use production-agent tutorial playbooks from Agents Towards Production](skills/use-production-agent-tutorial-playbooks-from-agents-towards-production/) | Use Agents Towards Production when an agent needs code-first tutorial playbooks for production agent features such as state... | 21.5k | Templates & Workflows |
 | [Run private RAG and MCP skill workspaces with Yuxi](skills/run-private-rag-and-mcp-skill-workspaces-with-yuxi/) | Deploy Yuxi when an agent team needs a private, multi-tenant knowledge workspace that combines document RAG, knowledge graphs... | 7.0k | Data Extraction & Transformation |
 | [Inspect and export Excel workbooks from the terminal with xleak](skills/inspect-and-export-excel-workbooks-from-the-terminal-with-xleak/) | Use xleak when an agent needs to inspect, search, verify formulas, and export Excel, ODS, CSV, or TSV... | 1.5k | Data Extraction & Transformation |
 | [Build and optimize agent eval workflows with Kiln](skills/build-and-optimize-agent-eval-workflows-with-kiln/) | Use Kiln to create eval datasets, rate outputs, optimize prompts and models, and ship the same AI task... | 5.1k | Monitoring & Alerts |
-| [Automate NotebookLM Studio generation and cited research batches with notebooklm-mcp](skills/automate-notebooklm-studio-generation-and-cited-research-batches-with-notebooklm-mcp/) | Use NotebookLM through MCP or a local REST API to run cited Q&A, generate Studio artifacts, and manage... | 161 | Research & Scraping |
 
 ---
 
@@ -140,9 +140,9 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 475 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 476 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 249 | Vulnerability scanning, auth setup, compliance |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 242 | Scaffolders, boilerplate generators, workflow templates |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 243 | Scaffolders, boilerplate generators, workflow templates |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 223 | ETL pipelines, parsing, format conversion |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 202 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,002 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 3,004 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,509 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

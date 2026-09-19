@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-09-18
-# Total: 3002 skills
+# Generated: 2026-09-19
+# Total: 3004 skills
+
+## Build agent-maintainable reactive UI with ArrowJS
+slug: build-agent-maintainable-reactive-ui-with-arrowjs
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use ArrowJS when a coding agent needs to add or maintain small reactive web interfaces using DOM-native JavaScript, template literals, SSR/hydration packages, and optional…
+url: https://agentskillexchange.com/skills/build-agent-maintainable-reactive-ui-with-arrowjs/
+
+## Use production-agent tutorial playbooks from Agents Towards Production
+slug: use-production-agent-tutorial-playbooks-from-agents-towards-production
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Agents Towards Production when an agent needs code-first tutorial playbooks for production agent features such as state, memory, retrieval, evaluation, deployment, observability, and…
+url: https://agentskillexchange.com/skills/use-production-agent-tutorial-playbooks-from-agents-towards-production/
 
 ## Inspect and export Excel workbooks from the terminal with xleak
 slug: inspect-and-export-excel-workbooks-from-the-terminal-with-xleak
