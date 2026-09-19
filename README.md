@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C007-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C010-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C515-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,007 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,010 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,9 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Install OrchestKit skills, agents, and hooks for Claude Code](skills/install-orchestkit-skills-agents-and-hooks-for-claude-code/) | Install OrchestKit when a Claude Code operator wants a maintained workflow pack of skills, specialist agents, hooks, setup... | 278 | Templates & Workflows |
+| [Run multi-harness coding-agent sessions with Claudexor](skills/run-multi-harness-coding-agent-sessions-with-claudexor/) | Use Claudexor as a local-first control plane for Codex, Claude Code, Cursor, OpenCode, Antigravity, and API-backed coding harnesses... | 472 | Developer Tools |
+| [Deploy LibreChat as a self-hosted agent workspace](skills/deploy-librechat-as-a-self-hosted-agent-workspace/) | Deploy LibreChat when an operator needs a self-hosted, multi-user agent workspace with model routing, MCP tools, skills, code... | 44.4k | Developer Tools |
 | [Build TypeScript spreadsheet import and export workflows with hucre](skills/build-typescript-spreadsheet-import-and-export-workflows-with-hucre/) | Use hucre when a coding agent needs to add zero-dependency XLSX, CSV, ODS, JSON, NDJSON, or XML spreadsheet... | 2.2k | Data Extraction & Transformation |
 | [Run cost-constrained local coding sessions with ClawCodex](skills/run-cost-constrained-local-coding-sessions-with-clawcodex/) | Start ClawCodex as a local Python coding-agent CLI when a repository task needs Claude Code-style editing with provider... | 903 | Developer Tools |
 | [Run durable .NET agent schedules with Quartz.NET](skills/run-durable-dotnet-agent-schedules-with-quartznet/) | Use Quartz.NET to schedule recurring, delayed, or cron-triggered .NET agent jobs with persistent triggers, hosted-service integration, and reviewable... | 7.1k | Templates & Workflows |
@@ -94,9 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Use production-agent tutorial playbooks from Agents Towards Production](skills/use-production-agent-tutorial-playbooks-from-agents-towards-production/) | Use Agents Towards Production when an agent needs code-first tutorial playbooks for production agent features such as state... | 21.5k | Templates & Workflows |
 | [Inspect and export Excel workbooks from the terminal with xleak](skills/inspect-and-export-excel-workbooks-from-the-terminal-with-xleak/) | Use xleak when an agent needs to inspect, search, verify formulas, and export Excel, ODS, CSV, or TSV... | 1.5k | Data Extraction & Transformation |
 | [Wire transcript-derived coding-agent memory with deja-vu](skills/wire-transcript-derived-coding-agent-memory-with-deja-vu/) | Use deja-vu when Codex, Claude Code, Cursor, OpenClaw, Copilot, and other local coding agents need shared recall from... | 831 | Developer Tools |
-| [Run IDE-wired terminal coding-agent workflows with Oh My Pi](skills/run-ide-wired-terminal-coding-agent-workflows-with-oh-my-pi/) | Use Oh My Pi when an operator wants a local terminal coding agent with IDE-grade context, built-in file... | 31.8k | Developer Tools |
-| [Run graph and vector memory backends for agents with NornicDB](skills/run-graph-and-vector-memory-backends-for-agents-with-nornicdb/) | Use NornicDB when an agent workflow needs a local or self-hosted graph, vector, and temporal database for GraphRAG... | 878 | Integrations & Connectors |
-| [Run sandboxed multi-language code execution with Judge0](skills/run-sandboxed-multi-language-code-execution-with-judge0/) | Use Judge0 when an agent workflow needs a self-hostable HTTP API for compiling and running untrusted or model-generated... | 4.4k | Developer Tools |
 
 ---
 
@@ -140,9 +140,9 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 477 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 479 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 249 | Vulnerability scanning, auth setup, compliance |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 244 | Scaffolders, boilerplate generators, workflow templates |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 245 | Scaffolders, boilerplate generators, workflow templates |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 224 | ETL pipelines, parsing, format conversion |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 202 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,007 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 3,010 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,515 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

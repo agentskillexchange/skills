@@ -1,8 +1,52 @@
 {
   "version": "2.0",
-  "total": 3007,
+  "total": 3010,
   "generated": "2026-09-19",
   "skills": [
+    {
+      "slug": "install-orchestkit-skills-agents-and-hooks-for-claude-code",
+      "name": "Install OrchestKit skills, agents, and hooks for Claude Code",
+      "title": "Install OrchestKit skills, agents, and hooks for Claude Code",
+      "description": "Install OrchestKit when a Claude Code operator wants a maintained workflow pack of skills, specialist agents, hooks, setup automation, verification, PR review, commits, and…",
+      "category": "Templates & Workflows",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 278,
+        "npm_weekly_downloads": 7
+      },
+      "source_url": "https://github.com/yonatangross/orchestkit",
+      "github_repo": "yonatangross/orchestkit"
+    },
+    {
+      "slug": "run-multi-harness-coding-agent-sessions-with-claudexor",
+      "name": "Run multi-harness coding-agent sessions with Claudexor",
+      "title": "Run multi-harness coding-agent sessions with Claudexor",
+      "description": "Use Claudexor as a local-first control plane for Codex, Claude Code, Cursor, OpenCode, Antigravity, and API-backed coding harnesses with quotas, races, review gates, and…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 472,
+        "npm_weekly_downloads": 1203
+      },
+      "source_url": "https://github.com/razzant/claudexor",
+      "github_repo": "razzant/claudexor"
+    },
+    {
+      "slug": "deploy-librechat-as-a-self-hosted-agent-workspace",
+      "name": "Deploy LibreChat as a self-hosted agent workspace",
+      "title": "Deploy LibreChat as a self-hosted agent workspace",
+      "description": "Deploy LibreChat when an operator needs a self-hosted, multi-user agent workspace with model routing, MCP tools, skills, code execution, access controls, and audit-friendly administration.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 44390
+      },
+      "source_url": "https://github.com/danny-avila/LibreChat",
+      "github_repo": "danny-avila/LibreChat"
+    },
     {
       "slug": "build-typescript-spreadsheet-import-and-export-workflows-with-hucre",
       "name": "Build TypeScript spreadsheet import and export workflows with hucre",

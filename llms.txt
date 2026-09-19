@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-19
-# Total: 3007 skills
+# Total: 3010 skills
+
+## Install OrchestKit skills, agents, and hooks for Claude Code
+slug: install-orchestkit-skills-agents-and-hooks-for-claude-code
+category: Templates & Workflows
+framework: Claude Code
+verification: Security Reviewed
+description: Install OrchestKit when a Claude Code operator wants a maintained workflow pack of skills, specialist agents, hooks, setup automation, verification, PR review, commits, and…
+url: https://agentskillexchange.com/skills/install-orchestkit-skills-agents-and-hooks-for-claude-code/
+
+## Run multi-harness coding-agent sessions with Claudexor
+slug: run-multi-harness-coding-agent-sessions-with-claudexor
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Claudexor as a local-first control plane for Codex, Claude Code, Cursor, OpenCode, Antigravity, and API-backed coding harnesses with quotas, races, review gates, and…
+url: https://agentskillexchange.com/skills/run-multi-harness-coding-agent-sessions-with-claudexor/
+
+## Deploy LibreChat as a self-hosted agent workspace
+slug: deploy-librechat-as-a-self-hosted-agent-workspace
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Deploy LibreChat when an operator needs a self-hosted, multi-user agent workspace with model routing, MCP tools, skills, code execution, access controls, and audit-friendly administration.
+url: https://agentskillexchange.com/skills/deploy-librechat-as-a-self-hosted-agent-workspace/
 
 ## Build TypeScript spreadsheet import and export workflows with hucre
 slug: build-typescript-spreadsheet-import-and-export-workflows-with-hucre

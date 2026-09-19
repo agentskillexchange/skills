@@ -103,6 +103,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [tldraw Infinite Canvas Whiteboard SDK for React](../../skills/tldraw-infinite-canvas-whiteboard-sdk/) | 46.2k | 173.2k/wk |
 | [Slidev Markdown Presentation Slides for Developers](../../skills/slidev-markdown-presentation-slides-developers/) | 45.4k | — |
 | [zx JavaScript Shell Script Runner](../../skills/zx-javascript-shell-script-runner/) | 45.3k | 1.7M/wk |
+| [Deploy LibreChat as a self-hosted agent workspace](../../skills/deploy-librechat-as-a-self-hosted-agent-workspace/) | 44.4k | — |
 | [Helix Post-Modern Modal Text Editor with LSP and Tree-sitter](../../skills/helix-post-modern-modal-text-editor-lsp-treesitter/) | 43.7k | — |
 | [Aider AI Pair Programming CLI Agent](../../skills/aider-ai-pair-programming-cli-agent/) | 42.7k | — |
 | [Bruno Git-Native API Client for Testing and Exploration](../../skills/bruno-git-native-api-client-testing-exploration/) | 42.5k | — |
@@ -443,6 +444,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Compact terminal-heavy agent output with Tokenjuice](../../skills/compact-terminal-heavy-agent-output-with-tokenjuice/) | 517 | 1.2M/wk |
 | [Run self-hosted coding-agent mission control with Codeman](../../skills/run-self-hosted-coding-agent-mission-control-with-codeman/) | 500 | 1.9k/wk |
 | [Orchestrate multi-agent coding delivery loops with Maestro Flow](../../skills/orchestrate-multi-agent-coding-delivery-loops-with-maestro-flow/) | 480 | 1k/wk |
+| [Run multi-harness coding-agent sessions with Claudexor](../../skills/run-multi-harness-coding-agent-sessions-with-claudexor/) | 472 | 1.2k/wk |
 | [Run agent CLI terminals inside Obsidian with Claude Sidebar](../../skills/run-agent-cli-terminals-inside-obsidian-with-claude-sidebar/) | 443 | — |
 | [Give coding agents repo-local project memory with brain.md](../../skills/give-coding-agents-repo-local-project-memory-with-brain-md/) | 438 | 92/wk |
 | [Run long-horizon coding work with Late CLI](../../skills/run-long-horizon-coding-work-with-late-cli/) | 426 | — |

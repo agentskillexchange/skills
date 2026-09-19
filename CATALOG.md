@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3007 published skills** across **17 categories** · 2,515 security reviewed · Updated 2026-09-19 13:26 UTC
+> **3010 published skills** across **17 categories** · 2,515 security reviewed · Updated 2026-09-19 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (477 skills)
+### 🛠️ Developer Tools (479 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -77,6 +77,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [tldraw Infinite Canvas Whiteboard SDK for React](skills/tldraw-infinite-canvas-whiteboard-sdk/) | tldraw is a feature-complete infinite canvas engine and whiteboard SDK for React. It provides drawing, diagramming,… | Security Reviewed | 46.2k | 173.2k/wk |
 | [Slidev Markdown Presentation Slides for Developers](skills/slidev-markdown-presentation-slides-developers/) | Slidev is a web-based presentation tool built for developers that turns Markdown files into interactive slide decks… | Security Reviewed | 45.4k | — |
 | [zx JavaScript Shell Script Runner](skills/zx-javascript-shell-script-runner/) | Write better shell scripts in JavaScript using Google's zx. Provides cross-platform wrappers around child_process… | Security Reviewed | 45.3k | 1.7M/wk |
+| [Deploy LibreChat as a self-hosted agent workspace](skills/deploy-librechat-as-a-self-hosted-agent-workspace/) | Deploy LibreChat when an operator needs a self-hosted, multi-user agent workspace with model routing, MCP tools,… | Security Reviewed | 44.4k | — |
 | [Helix Post-Modern Modal Text Editor with LSP and Tree-sitter](skills/helix-post-modern-modal-text-editor-lsp-treesitter/) | Helix is a post-modern terminal-based modal text editor written in Rust. It features built-in language server… | Security Reviewed | 43.7k | — |
 | [Aider AI Pair Programming CLI Agent](skills/aider-ai-pair-programming-cli-agent/) | Aider is an open-source AI pair programming tool that runs in your terminal, letting you collaborate with LLMs to… | Security Reviewed | 42.7k | — |
 | [Bruno Git-Native API Client for Testing and Exploration](skills/bruno-git-native-api-client-testing-exploration/) | Bruno is an open-source, offline-first API client that stores collections as plain-text .bru files on your… | Published | 42.5k | — |
@@ -417,6 +418,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Compact terminal-heavy agent output with Tokenjuice](skills/compact-terminal-heavy-agent-output-with-tokenjuice/) | Use Tokenjuice when an agent runs noisy shell commands and needs deterministic, inspectable output reduction before… | Security Reviewed | 517 | 1.2M/wk |
 | [Run self-hosted coding-agent mission control with Codeman](skills/run-self-hosted-coding-agent-mission-control-with-codeman/) | Use Codeman to supervise persistent Claude Code, Codex, OpenCode, and Gemini CLI sessions through a self-hosted web… | Security Reviewed | 500 | 1.9k/wk |
 | [Orchestrate multi-agent coding delivery loops with Maestro Flow](skills/orchestrate-multi-agent-coding-delivery-loops-with-maestro-flow/) | Use Maestro Flow when a coding operator wants intent-driven planning, execution, verification, review, retry, and… | Security Reviewed | 480 | 1k/wk |
+| [Run multi-harness coding-agent sessions with Claudexor](skills/run-multi-harness-coding-agent-sessions-with-claudexor/) | Use Claudexor as a local-first control plane for Codex, Claude Code, Cursor, OpenCode, Antigravity, and API-backed… | Security Reviewed | 472 | 1.2k/wk |
 | [Run agent CLI terminals inside Obsidian with Claude Sidebar](skills/run-agent-cli-terminals-inside-obsidian-with-claude-sidebar/) | Use Claude Sidebar when an operator wants Claude Code, Codex, or another agent CLI available as terminal tabs inside… | Published | 443 | — |
 | [Give coding agents repo-local project memory with brain.md](skills/give-coding-agents-repo-local-project-memory-with-brain-md/) | Initialize and maintain a repo-native Markdown memory layer so coding agents preserve durable decisions,… | Security Reviewed | 438 | 92/wk |
 | [Run long-horizon coding work with Late CLI](skills/run-long-horizon-coding-work-with-late-cli/) | Use Late CLI to keep a lead coding agent focused while isolated researcher and coder subagents spend disposable… | Security Reviewed | 426 | — |
@@ -750,7 +752,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (244 skills)
+### 📄 Templates & Workflows (245 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -962,6 +964,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Build event-driven document agent workflows with LlamaAgents](skills/build-event-driven-document-agent-workflows-with-llamaagents/) | Use LlamaAgents to define async Python workflow steps, coordinate document-centric agent pipelines, and expose those… | Security Reviewed | 389 | — |
 | [Evaluate long-horizon agents against WildClawBench](skills/evaluate-long-horizon-agents-against-wildclawbench/) | Use WildClawBench to benchmark agents on hard end-to-end OpenClaw tasks covering tool orchestration, multimodal… | Published | 359 | — |
 | [Makedown Task Runner](skills/makedown-task-runner/) | Extracts executable task definitions from Markdown files and runs them as shell pipelines. Parses fenced code blocks… | Security Reviewed | 319 | — |
+| [Install OrchestKit skills, agents, and hooks for Claude Code](skills/install-orchestkit-skills-agents-and-hooks-for-claude-code/) | Install OrchestKit when a Claude Code operator wants a maintained workflow pack of skills, specialist agents, hooks,… | Security Reviewed | 278 | 7/wk |
 | [Run contract-driven GRACE code changes with agent skills](skills/run-contract-driven-grace-code-changes-with-agent-skills/) | Uses GRACE skills and the optional grace CLI to guide coding agents through contract-first code changes backed by… | Security Reviewed | 228 | 160/wk |
 | [Run Personal Corp OS weekly operating loops with Claude Code and Codex](skills/run-personal-corp-os-weekly-operating-loops-with-claude-code-and-codex/) | Install a maintained skill pack for weekly planning, retrospectives, task routing, department setup, and founder-ops… | Security Reviewed | 214 | — |
 | [Delegate planned agent work with Elves](skills/delegate-planned-agent-work-with-elves/) | Use Elves to hand a bounded development or research plan to a separate Claude Code or Codex worker while preserving… | Security Reviewed | 188 | — |

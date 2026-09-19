@@ -246,6 +246,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Build event-driven document agent workflows with LlamaAgents](../../skills/build-event-driven-document-agent-workflows-with-llamaagents/) | 389 | — |
 | [Evaluate long-horizon agents against WildClawBench](../../skills/evaluate-long-horizon-agents-against-wildclawbench/) | 359 | — |
 | [Makedown Task Runner](../../skills/makedown-task-runner/) | 319 | — |
+| [Install OrchestKit skills, agents, and hooks for Claude Code](../../skills/install-orchestkit-skills-agents-and-hooks-for-claude-code/) | 278 | 7/wk |
 | [Run contract-driven GRACE code changes with agent skills](../../skills/run-contract-driven-grace-code-changes-with-agent-skills/) | 228 | 160/wk |
 | [Run Personal Corp OS weekly operating loops with Claude Code and Codex](../../skills/run-personal-corp-os-weekly-operating-loops-with-claude-code-and-codex/) | 214 | — |
 | [Delegate planned agent work with Elves](../../skills/delegate-planned-agent-work-with-elves/) | 188 | — |
