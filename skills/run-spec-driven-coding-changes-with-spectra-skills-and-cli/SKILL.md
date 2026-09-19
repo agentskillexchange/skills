@@ -13,7 +13,7 @@ tool_ecosystem:
   github_repo: "kaochenlong/spectra-app"
   github_stars: 736
   npm_package: "@kaochenlong/spxa"
-  npm_weekly_downloads: 0
+  npm_weekly_downloads: 166
 ---
 
 # Run spec-driven coding changes with Spectra skills and CLI

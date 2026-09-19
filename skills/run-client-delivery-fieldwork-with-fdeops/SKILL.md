@@ -13,7 +13,7 @@ tool_ecosystem:
   github_repo: "suboss87/FDEOps"
   github_stars: 536
   npm_package: "fdeops"
-  npm_weekly_downloads: 0
+  npm_weekly_downloads: 2274
 ---
 
 # Run client delivery fieldwork with FDEOps
