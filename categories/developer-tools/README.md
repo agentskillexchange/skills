@@ -437,7 +437,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Benchmark CLI agents on autonomous LLM post-training with PostTrainBench](../../skills/benchmark-cli-agents-on-autonomous-llm-post-training-with-posttrainbench/) | 543 | — |
 | [Give coding agents sandboxed shell runtimes with SWE-ReX](../../skills/give-coding-agents-sandboxed-shell-runtimes-with-swe-rex/) | 543 | — |
 | [Track Coding-Agent Work Evidence With agentacct](../../skills/track-coding-agent-work-evidence-with-agentacct/) | 537 | — |
-| [Run client delivery fieldwork with FDEOps](../../skills/run-client-delivery-fieldwork-with-fdeops/) | 536 | — |
+| [Run client delivery fieldwork with FDEOps](../../skills/run-client-delivery-fieldwork-with-fdeops/) | 536 | 2.3k/wk |
 | [Scaffold repo-specific agent harnesses with Metaharness](../../skills/scaffold-repo-specific-agent-harnesses-with-metaharness/) | 529 | 29.1k/wk |
 | [Compact terminal-heavy agent output with Tokenjuice](../../skills/compact-terminal-heavy-agent-output-with-tokenjuice/) | 517 | 1.2M/wk |
 | [Run self-hosted coding-agent mission control with Codeman](../../skills/run-self-hosted-coding-agent-mission-control-with-codeman/) | 500 | 1.9k/wk |

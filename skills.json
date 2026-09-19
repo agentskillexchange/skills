@@ -185,7 +185,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 536
+        "github_stars": 536,
+        "npm_weekly_downloads": 2274
       },
       "source_url": "https://github.com/suboss87/FDEOps",
       "github_repo": "suboss87/FDEOps"
@@ -256,7 +257,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 736
+        "github_stars": 736,
+        "npm_weekly_downloads": 166
       },
       "source_url": "https://github.com/kaochenlong/spectra-app",
       "github_repo": "kaochenlong/spectra-app"

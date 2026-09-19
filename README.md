@@ -130,9 +130,9 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Serve codebase impact context to agents with Trace MCP](skills/serve-codebase-impact-context-to-agents-with-trace-mcp/) | Use Trace MCP to index a repository once and let MCP-capable coding agents query framework-aware code, dependency, and... | 154 | Code Quality & Review |
 | [Draw and verify Excalidraw diagrams through an agent canvas](skills/draw-and-verify-excalidraw-diagrams-through-an-agent-canvas/) | Use mcp_excalidraw to let coding agents create, inspect, revise, export, and commit editable Excalidraw diagrams from a local... | 2.4k | Image & Creative Automation |
 | [Use production-agent tutorial playbooks from Agents Towards Production](skills/use-production-agent-tutorial-playbooks-from-agents-towards-production/) | Use Agents Towards Production when an agent needs code-first tutorial playbooks for production agent features such as state... | 21.5k | Templates & Workflows |
+| [Run spec-driven coding changes with Spectra skills and CLI](skills/run-spec-driven-coding-changes-with-spectra-skills-and-cli/) | Manage proposal, implementation, verification, review, audit, drift, archive, and commit steps through Spectra's agent skills and CLI-backed spec... | 736 | Templates & Workflows |
 | [Run private RAG and MCP skill workspaces with Yuxi](skills/run-private-rag-and-mcp-skill-workspaces-with-yuxi/) | Deploy Yuxi when an agent team needs a private, multi-tenant knowledge workspace that combines document RAG, knowledge graphs... | 7.0k | Data Extraction & Transformation |
 | [Inspect and export Excel workbooks from the terminal with xleak](skills/inspect-and-export-excel-workbooks-from-the-terminal-with-xleak/) | Use xleak when an agent needs to inspect, search, verify formulas, and export Excel, ODS, CSV, or TSV... | 1.5k | Data Extraction & Transformation |
-| [Build and optimize agent eval workflows with Kiln](skills/build-and-optimize-agent-eval-workflows-with-kiln/) | Use Kiln to create eval datasets, rate outputs, optimize prompts and models, and ship the same AI task... | 5.1k | Monitoring & Alerts |
 
 ---
 
