@@ -201,6 +201,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Extract schema-backed document data with ADE CLI](../../skills/extract-schema-backed-document-data-with-ade-cli/) | 2.4k | — |
 | [Enrich Paperless-ngx documents with AI-generated titles tags and correspondents using paperless-gpt](../../skills/enrich-paperless-ngx-documents-with-ai-generated-titles-tags-and-correspondents-using-paperless-gpt/) | 2.3k | — |
 | [rehype Plugin-Based HTML Processor by the Unified Collective](../../skills/rehype-html-processor-unified/) | 2.2k | 4.3M/wk |
+| [Build TypeScript spreadsheet import and export workflows with hucre](../../skills/build-typescript-spreadsheet-import-and-export-workflows-with-hucre/) | 2.2k | 106.4k/wk |
 | [trdsql SQL Query Engine for CSV JSON and YAML Files](../../skills/trdsql-sql-query-engine-csv-json-yaml-files/) | 2.2k | — |
 | [Extract invoice fields from vendor PDFs into structured records](../../skills/extract-invoice-fields-from-vendor-pdfs-into-structured-records/) | 2.1k | — |
 | [markdownify Python HTML to Markdown Conversion Library](../../skills/markdownify-python-html-to-markdown-converter/) | 2.1k | — |

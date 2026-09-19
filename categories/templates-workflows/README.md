@@ -143,6 +143,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Run durable agent tasks and event-driven workflows with Hatchet](../../skills/run-durable-agent-tasks-and-event-driven-workflows-with-hatchet/) | 7.2k | 298.3k/wk |
 | [Install Chinese-localized Superpowers workflows for coding agents](../../skills/install-chinese-localized-superpowers-workflows-for-coding-agents/) | 7.2k | 2.6k/wk |
 | [Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext](../../skills/pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-stay-readable-with-jupytext/) | 7.2k | — |
+| [Run durable .NET agent schedules with Quartz.NET](../../skills/run-durable-dotnet-agent-schedules-with-quartznet/) | 7.1k | — |
 | [Run durable Go agent schedules with gocron](../../skills/run-durable-go-agent-schedules-with-gocron/) | 7.1k | — |
 | [Run OpenCode specialist-agent workflows with Oh My Opencode Slim](../../skills/run-opencode-specialist-agent-workflows-with-oh-my-opencode-slim/) | 7k | 24.2k/wk |
 | [Create and edit Office documents locally with GenOffice](../../skills/create-edit-office-documents-locally-with-genoffice/) | 6.7k | — |

@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-19
-# Total: 3004 skills
+# Total: 3007 skills
+
+## Build TypeScript spreadsheet import and export workflows with hucre
+slug: build-typescript-spreadsheet-import-and-export-workflows-with-hucre
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use hucre when a coding agent needs to add zero-dependency XLSX, CSV, ODS, JSON, NDJSON, or XML spreadsheet parsing and writing to TypeScript or…
+url: https://agentskillexchange.com/skills/build-typescript-spreadsheet-import-and-export-workflows-with-hucre/
+
+## Run cost-constrained local coding sessions with ClawCodex
+slug: run-cost-constrained-local-coding-sessions-with-clawcodex
+category: Developer Tools
+framework: Custom Agents
+verification: Security Reviewed
+description: Start ClawCodex as a local Python coding-agent CLI when a repository task needs Claude Code-style editing with provider setup, token compression, verification, and reviewable…
+url: https://agentskillexchange.com/skills/run-cost-constrained-local-coding-sessions-with-clawcodex/
+
+## Run durable .NET agent schedules with Quartz.NET
+slug: run-durable-dotnet-agent-schedules-with-quartznet
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Quartz.NET to schedule recurring, delayed, or cron-triggered .NET agent jobs with persistent triggers, hosted-service integration, and reviewable job definitions.
+url: https://agentskillexchange.com/skills/run-durable-dotnet-agent-schedules-with-quartznet/
 
 ## Build agent-maintainable reactive UI with ArrowJS
 slug: build-agent-maintainable-reactive-ui-with-arrowjs

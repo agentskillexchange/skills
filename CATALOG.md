@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3004 published skills** across **17 categories** · 2,512 security reviewed · Updated 2026-09-19 07:27 UTC
+> **3007 published skills** across **17 categories** · 2,512 security reviewed · Updated 2026-09-19 13:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (476 skills)
+### 🛠️ Developer Tools (477 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -378,6 +378,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Link agent skills, commands, and roles across coding assistants with Open Agent Hub](skills/link-agent-skills-commands-and-roles-across-coding-assistants-with-open-agent-hub/) | Use Open Agent Hub to install, link, and enable reusable skills, agent roles, and slash commands across Claude Code,… | Security Reviewed | 934 | — |
 | [Find and export SVG icons across icon libraries for UI work](skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/) | Use Better Icons when an agent needs to search icon sets, compare matches, and return the exact SVG asset needed for… | Security Reviewed | 915 | 287/wk |
 | [Fork and merge Pydantic AI agent runs with Pydantic Deep Agents](skills/fork-and-merge-pydantic-ai-agent-runs-with-pydantic-deep-agents/) | Run a self-hosted terminal agent or custom Pydantic AI harness that can branch a coding or research run, test… | Security Reviewed | 912 | — |
+| [Run cost-constrained local coding sessions with ClawCodex](skills/run-cost-constrained-local-coding-sessions-with-clawcodex/) | Start ClawCodex as a local Python coding-agent CLI when a repository task needs Claude Code-style editing with… | Security Reviewed | 903 | — |
 | [Run phased coding-agent delivery workflows with AgentSys](skills/run-phased-coding-agent-delivery-workflows-with-agentsys/) | Use AgentSys to install and run structured coding-agent pipelines for task discovery, delivery preparation, drift… | Security Reviewed | 896 | 814/wk |
 | [Reduce coding-agent context load with Token Savior](skills/reduce-coding-agent-context-load-with-token-savior/) | Connect coding agents to a Token Savior MCP server for structural code navigation, persistent recall, compact… | Security Reviewed | 893 | — |
 | [Run StyleSeed Design Gates in Coding-Agent UI Builds](skills/run-styleseed-design-gates-in-coding-agent-ui-builds/) | Install StyleSeed skills so coding agents choose a design grammar, build UI with project-local rules, score the… | Security Reviewed | 884 | — |
@@ -749,7 +750,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (243 skills)
+### 📄 Templates & Workflows (244 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -858,6 +859,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Run durable agent tasks and event-driven workflows with Hatchet](skills/run-durable-agent-tasks-and-event-driven-workflows-with-hatchet/) | Use Hatchet to queue, retry, pause, resume, observe, and scale long-running agent tasks and background workflows. | Security Reviewed | 7.2k | 298.3k/wk |
 | [Install Chinese-localized Superpowers workflows for coding agents](skills/install-chinese-localized-superpowers-workflows-for-coding-agents/) | Use superpowers-zh to install Chinese-localized coding-agent methods, China-specific development skills, and… | Security Reviewed | 7.2k | 2.6k/wk |
 | [Pair Jupyter notebooks with plain-text files so review and agent edits stay readable with Jupytext](skills/pair-jupyter-notebooks-with-plain-text-files-so-review-and-agent-edits-stay-readable-with-jupytext/) | Keep notebooks synchronized with `.py` or `.md` representations so version control, review, and refactoring can… | Security Reviewed | 7.2k | — |
+| [Run durable .NET agent schedules with Quartz.NET](skills/run-durable-dotnet-agent-schedules-with-quartznet/) | Use Quartz.NET to schedule recurring, delayed, or cron-triggered .NET agent jobs with persistent triggers,… | Security Reviewed | 7.1k | — |
 | [Run durable Go agent schedules with gocron](skills/run-durable-go-agent-schedules-with-gocron/) | Embed gocron in Go-based agents or operators to run recurring tasks, cron expressions, one-time jobs, singleton… | Security Reviewed | 7.1k | — |
 | [Run OpenCode specialist-agent workflows with Oh My Opencode Slim](skills/run-opencode-specialist-agent-workflows-with-oh-my-opencode-slim/) | Install an OpenCode orchestration plugin that routes codebase work across specialist agents, background tasks, model… | Security Reviewed | 7k | 24.2k/wk |
 | [Create and edit Office documents locally with GenOffice](skills/create-edit-office-documents-locally-with-genoffice/) | Use GenOffice's CLI and bundled agent skill to create, inspect, convert, render, audit, and edit real DOCX, XLSX,… | Security Reviewed | 6.7k | — |
@@ -1000,7 +1002,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown,… | Published | — | — |
 
 
-### 🔄 Data Extraction & Transformation (223 skills)
+### 🔄 Data Extraction & Transformation (224 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -1167,6 +1169,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Extract schema-backed document data with ADE CLI](skills/extract-schema-backed-document-data-with-ade-cli/) | Use LandingAI's ADE CLI to parse visually complex documents, cache parse artifacts, and extract schema-shaped fields… | Security Reviewed | 2.4k | — |
 | [Enrich Paperless-ngx documents with AI-generated titles tags and correspondents using paperless-gpt](skills/enrich-paperless-ngx-documents-with-ai-generated-titles-tags-and-correspondents-using-paperless-gpt/) | Take an OCR archive that already exists in Paperless-ngx and push smarter titles, tags, and document metadata back… | Security Reviewed | 2.3k | — |
 | [rehype Plugin-Based HTML Processor by the Unified Collective](skills/rehype-html-processor-unified/) | rehype is a plugin-based HTML processing toolkit built on the unified ecosystem. It parses HTML into an abstract… | Published | 2.2k | 4.3M/wk |
+| [Build TypeScript spreadsheet import and export workflows with hucre](skills/build-typescript-spreadsheet-import-and-export-workflows-with-hucre/) | Use hucre when a coding agent needs to add zero-dependency XLSX, CSV, ODS, JSON, NDJSON, or XML spreadsheet parsing… | Security Reviewed | 2.2k | 106.4k/wk |
 | [trdsql SQL Query Engine for CSV JSON and YAML Files](skills/trdsql-sql-query-engine-csv-json-yaml-files/) | trdsql is a CLI tool that executes SQL queries directly on CSV, LTSV, JSON, YAML, and TBLN files. It supports… | Security Reviewed | 2.2k | — |
 | [Extract invoice fields from vendor PDFs into structured records](skills/extract-invoice-fields-from-vendor-pdfs-into-structured-records/) | Uses invoice2data to turn invoice PDFs into structured JSON, CSV, or XML using supplier-specific templates. This is… | Security Reviewed | 2.1k | — |
 | [markdownify Python HTML to Markdown Conversion Library](skills/markdownify-python-html-to-markdown-converter/) | markdownify is a Python library that converts HTML content to clean Markdown text. It supports tag filtering,… | Security Reviewed | 2.1k | — |

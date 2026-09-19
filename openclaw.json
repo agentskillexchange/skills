@@ -2,8 +2,41 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-19",
-  "total": 3004,
+  "total": 3007,
   "skills": [
+    {
+      "slug": "build-typescript-spreadsheet-import-and-export-workflows-with-hucre",
+      "name": "Build TypeScript spreadsheet import and export workflows with hucre",
+      "title": "Build TypeScript spreadsheet import and export workflows with hucre",
+      "description": "Use hucre when a coding agent needs to add zero-dependency XLSX, CSV, ODS, JSON, NDJSON, or XML spreadsheet parsing and writing to TypeScript or…",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/productdevbook/hucre",
+      "github_repo": "productdevbook/hucre"
+    },
+    {
+      "slug": "run-cost-constrained-local-coding-sessions-with-clawcodex",
+      "name": "Run cost-constrained local coding sessions with ClawCodex",
+      "title": "Run cost-constrained local coding sessions with ClawCodex",
+      "description": "Start ClawCodex as a local Python coding-agent CLI when a repository task needs Claude Code-style editing with provider setup, token compression, verification, and reviewable…",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/agentforce314/clawcodex",
+      "github_repo": "agentforce314/clawcodex"
+    },
+    {
+      "slug": "run-durable-dotnet-agent-schedules-with-quartznet",
+      "name": "Run durable .NET agent schedules with Quartz.NET",
+      "title": "Run durable .NET agent schedules with Quartz.NET",
+      "description": "Use Quartz.NET to schedule recurring, delayed, or cron-triggered .NET agent jobs with persistent triggers, hosted-service integration, and reviewable job definitions.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/quartznet/quartznet",
+      "github_repo": "quartznet/quartznet"
+    },
     {
       "slug": "build-agent-maintainable-reactive-ui-with-arrowjs",
       "name": "Build agent-maintainable reactive UI with ArrowJS",
