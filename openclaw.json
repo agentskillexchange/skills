@@ -1,9 +1,42 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-09-19",
-  "total": 3010,
+  "generated": "2026-09-20",
+  "total": 3013,
   "skills": [
+    {
+      "slug": "maintain-a-git-versioned-codebase-index-for-coding-agents-with-aoci-code",
+      "name": "Maintain a Git-versioned codebase index for coding agents with AOCI-CODE",
+      "title": "Maintain a Git-versioned codebase index for coding agents with AOCI-CODE",
+      "description": "Initialize a local MCP server and repository-owned index so coding agents can read durable code and database context before making changes.",
+      "category": "Developer Tools",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/aoci-spec/aoci-code",
+      "github_repo": "aoci-spec/aoci-code"
+    },
+    {
+      "slug": "query-hyperdx-logs-traces-and-session-replay-from-agent-incident-workflows",
+      "name": "Query HyperDX logs, traces, metrics, and session replay from agent incident workflows",
+      "title": "Query HyperDX logs, traces, metrics, and session replay from agent incident workflows",
+      "description": "Use HyperDX and its agent-friendly CLI output to search, live-tail, and correlate OpenTelemetry signals during supervised production investigations.",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/hyperdxio/hyperdx",
+      "github_repo": "hyperdxio/hyperdx"
+    },
+    {
+      "slug": "use-greptimedb-for-agent-observability-telemetry-and-root-cause-analysis",
+      "name": "Use GreptimeDB for agent observability telemetry and root cause analysis",
+      "title": "Use GreptimeDB for agent observability telemetry and root cause analysis",
+      "description": "Store OpenTelemetry metrics, logs, traces, and GenAI telemetry in one queryable backend so agents can correlate incidents and root-cause signals with SQL or PromQL.",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/GreptimeTeam/greptimedb",
+      "github_repo": "GreptimeTeam/greptimedb"
+    },
     {
       "slug": "install-orchestkit-skills-agents-and-hooks-for-claude-code",
       "name": "Install OrchestKit skills, agents, and hooks for Claude Code",

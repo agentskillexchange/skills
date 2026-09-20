@@ -30,9 +30,9 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Umami Privacy-Focused Web Analytics Platform](../../skills/umami-privacy-focused-web-analytics/) | ⬇ 638/wk |
 | [Trace, evaluate, and monitor agentic workflows with Opik](../../skills/trace-evaluate-and-monitor-agentic-workflows-with-opik/) | ⬇ 18.3k/wk |
 | [Trace Python memory allocation hotspots before leaks and spikes reach production with Memray](../../skills/trace-python-memory-allocation-hotspots-before-leaks-and-spikes-reach-production-with-memray/) | ⬇ 16.3M/wk |
+| [Query HyperDX logs, traces, metrics, and session replay from agent incident workflows](../../skills/query-hyperdx-logs-traces-and-session-replay-from-agent-incident-workflows/) | ⬇ 2.4k/wk |
 | [Trace and evaluate agent runs with Phoenix](../../skills/trace-and-evaluate-agent-runs-with-phoenix/) | ⬇ 893/wk |
 | [Audit coding-agent token spend with CodeBurn](../../skills/audit-coding-agent-token-spend-with-codeburn/) | ⬇ 7.6k/wk |
-| [Monitor and evaluate LLM agent traffic with Helicone](../../skills/monitor-and-evaluate-llm-agent-traffic-with-helicone/) | ⬇ 49/wk |
 
 ---
 
@@ -108,6 +108,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Quickwit Cloud-Native Search Engine for Observability Logs and Traces](../../skills/quickwit-cloud-native-search-engine-observability/) | 11.1k | — |
 | [Gatus Endpoint Monitoring and Status Page Platform](../../skills/gatus-endpoint-monitoring-status-page-platform/) | 10.7k | — |
 | [Healthchecks.io Cron Job Monitoring and Alerting Platform](../../skills/healthchecks-io-cron-job-monitoring-alerting-platform/) | 10k | — |
+| [Query HyperDX logs, traces, metrics, and session replay from agent incident workflows](../../skills/query-hyperdx-logs-traces-and-session-replay-from-agent-incident-workflows/) | 9.9k | 2.4k/wk |
 | [Run agentic anomaly investigations with PyOD](../../skills/run-agentic-anomaly-investigations-with-pyod/) | 9.9k | — |
 | [Trace and evaluate agent runs with Phoenix](../../skills/trace-and-evaluate-agent-runs-with-phoenix/) | 9.8k | 893/wk |
 | [Checkmate Open Source Uptime and Infrastructure Monitoring](../../skills/checkmate-open-source-uptime-infrastructure-monitoring/) | 9.6k | — |
@@ -118,6 +119,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Generate drift and quality reports for ML and LLM pipelines with Evidently](../../skills/generate-drift-and-quality-reports-for-ml-and-llm-pipelines-with-evidently/) | 7.4k | — |
 | [Trace LLM and agent workflows with OpenLLMetry](../../skills/trace-llm-and-agent-workflows-with-openllmetry/) | 7.2k | — |
 | [OpenTelemetry Collector Pipeline Designer](../../skills/otel-collector-pipeline-designer/) | 6.9k | — |
+| [Use GreptimeDB for agent observability telemetry and root cause analysis](../../skills/use-greptimedb-for-agent-observability-telemetry-and-root-cause-analysis/) | 6.7k | — |
 | [Monitor and evaluate LLM agent traffic with Helicone](../../skills/monitor-and-evaluate-llm-agent-traffic-with-helicone/) | 5.8k | 49/wk |
 | [Trace and debug agent runs with AgentOps](../../skills/trace-and-debug-agent-runs-with-agentops/) | 5.6k | — |
 | [GoatCounter Privacy-First Web Analytics Platform](../../skills/goatcounter-privacy-first-web-analytics-platform/) | 5.6k | — |

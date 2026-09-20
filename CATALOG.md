@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3010 published skills** across **17 categories** · 2,518 security reviewed · Updated 2026-09-19 19:27 UTC
+> **3013 published skills** across **17 categories** · 2,518 security reviewed · Updated 2026-09-20 01:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (479 skills)
+### 🛠️ Developer Tools (480 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -419,6 +419,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Run self-hosted coding-agent mission control with Codeman](skills/run-self-hosted-coding-agent-mission-control-with-codeman/) | Use Codeman to supervise persistent Claude Code, Codex, OpenCode, and Gemini CLI sessions through a self-hosted web… | Security Reviewed | 500 | 1.9k/wk |
 | [Orchestrate multi-agent coding delivery loops with Maestro Flow](skills/orchestrate-multi-agent-coding-delivery-loops-with-maestro-flow/) | Use Maestro Flow when a coding operator wants intent-driven planning, execution, verification, review, retry, and… | Security Reviewed | 480 | 1k/wk |
 | [Run multi-harness coding-agent sessions with Claudexor](skills/run-multi-harness-coding-agent-sessions-with-claudexor/) | Use Claudexor as a local-first control plane for Codex, Claude Code, Cursor, OpenCode, Antigravity, and API-backed… | Security Reviewed | 472 | 1.2k/wk |
+| [Maintain a Git-versioned codebase index for coding agents with AOCI-CODE](skills/maintain-a-git-versioned-codebase-index-for-coding-agents-with-aoci-code/) | Initialize a local MCP server and repository-owned index so coding agents can read durable code and database context… | Security Reviewed | 443 | — |
 | [Run agent CLI terminals inside Obsidian with Claude Sidebar](skills/run-agent-cli-terminals-inside-obsidian-with-claude-sidebar/) | Use Claude Sidebar when an operator wants Claude Code, Codex, or another agent CLI available as terminal tabs inside… | Published | 443 | — |
 | [Give coding agents repo-local project memory with brain.md](skills/give-coding-agents-repo-local-project-memory-with-brain-md/) | Initialize and maintain a repo-native Markdown memory layer so coding agents preserve durable decisions,… | Security Reviewed | 438 | 92/wk |
 | [Run long-horizon coding work with Late CLI](skills/run-long-horizon-coding-work-with-late-cli/) | Use Late CLI to keep a lead coding agent focused while isolated researcher and coder subagents spend disposable… | Security Reviewed | 426 | — |
@@ -2011,7 +2012,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (156 skills)
+### 📊 Monitoring & Alerts (158 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -2085,6 +2086,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Quickwit Cloud-Native Search Engine for Observability Logs and Traces](skills/quickwit-cloud-native-search-engine-observability/) | Quickwit is a cloud-native search engine built in Rust for log management and distributed tracing. It offers… | Published | 11.1k | — |
 | [Gatus Endpoint Monitoring and Status Page Platform](skills/gatus-endpoint-monitoring-status-page-platform/) | Gatus is an open source uptime and endpoint monitoring platform built for developers and ops teams. It checks HTTP,… | Security Reviewed | 10.7k | — |
 | [Healthchecks.io Cron Job Monitoring and Alerting Platform](skills/healthchecks-io-cron-job-monitoring-alerting-platform/) | Healthchecks.io is an open-source cron and background task monitoring platform that alerts when scheduled jobs fail… | Security Reviewed | 10k | — |
+| [Query HyperDX logs, traces, metrics, and session replay from agent incident workflows](skills/query-hyperdx-logs-traces-and-session-replay-from-agent-incident-workflows/) | Use HyperDX and its agent-friendly CLI output to search, live-tail, and correlate OpenTelemetry signals during… | Security Reviewed | 9.9k | 2.4k/wk |
 | [Run agentic anomaly investigations with PyOD](skills/run-agentic-anomaly-investigations-with-pyod/) | Use PyOD's agent skill or MCP server to turn natural-language anomaly detection requests into repeatable detector… | Security Reviewed | 9.9k | — |
 | [Trace and evaluate agent runs with Phoenix](skills/trace-and-evaluate-agent-runs-with-phoenix/) | Use Phoenix to trace LLM and agent calls, run evaluations, replay prompts, inspect datasets, and expose… | Security Reviewed | 9.8k | 893/wk |
 | [Checkmate Open Source Uptime and Infrastructure Monitoring](skills/checkmate-open-source-uptime-infrastructure-monitoring/) | An ASE skill built on Checkmate, the open source self-hosted monitoring platform for uptime, incidents, response… | Security Reviewed | 9.6k | — |
@@ -2095,6 +2097,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Generate drift and quality reports for ML and LLM pipelines with Evidently](skills/generate-drift-and-quality-reports-for-ml-and-llm-pipelines-with-evidently/) | Produce repeatable drift and quality reports after data, model, or prompt changes so regressions are visible before… | Security Reviewed | 7.4k | — |
 | [Trace LLM and agent workflows with OpenLLMetry](skills/trace-llm-and-agent-workflows-with-openllmetry/) | Add OpenTelemetry-based instrumentation to LLM and agent code so operators can inspect prompts, tool calls, latency,… | Security Reviewed | 7.2k | — |
 | [OpenTelemetry Collector Pipeline Designer](skills/otel-collector-pipeline-designer/) | Designs OpenTelemetry Collector pipeline configurations with receivers (otlp, prometheus, filelog), processors… | Security Reviewed | 6.9k | — |
+| [Use GreptimeDB for agent observability telemetry and root cause analysis](skills/use-greptimedb-for-agent-observability-telemetry-and-root-cause-analysis/) | Store OpenTelemetry metrics, logs, traces, and GenAI telemetry in one queryable backend so agents can correlate… | Security Reviewed | 6.7k | — |
 | [Monitor and evaluate LLM agent traffic with Helicone](skills/monitor-and-evaluate-llm-agent-traffic-with-helicone/) | Route model calls through Helicone, inspect costs, latency, traces, prompts, and evaluations, then review changes… | Security Reviewed | 5.8k | 49/wk |
 | [Trace and debug agent runs with AgentOps](skills/trace-and-debug-agent-runs-with-agentops/) | Instrument agent sessions so operators can replay runs, track model costs, inspect tool calls, and compare behavior… | Security Reviewed | 5.6k | — |
 | [GoatCounter Privacy-First Web Analytics Platform](skills/goatcounter-privacy-first-web-analytics-platform/) | GoatCounter is an open source analytics platform for privacy-friendly pageview tracking, referrer reporting, and… | Security Reviewed | 5.6k | — |

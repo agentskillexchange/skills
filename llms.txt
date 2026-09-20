@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-09-19
-# Total: 3010 skills
+# Generated: 2026-09-20
+# Total: 3013 skills
+
+## Maintain a Git-versioned codebase index for coding agents with AOCI-CODE
+slug: maintain-a-git-versioned-codebase-index-for-coding-agents-with-aoci-code
+category: Developer Tools
+framework: MCP
+verification: Security Reviewed
+description: Initialize a local MCP server and repository-owned index so coding agents can read durable code and database context before making changes.
+url: https://agentskillexchange.com/skills/maintain-a-git-versioned-codebase-index-for-coding-agents-with-aoci-code/
+
+## Query HyperDX logs, traces, metrics, and session replay from agent incident workflows
+slug: query-hyperdx-logs-traces-and-session-replay-from-agent-incident-workflows
+category: Monitoring & Alerts
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use HyperDX and its agent-friendly CLI output to search, live-tail, and correlate OpenTelemetry signals during supervised production investigations.
+url: https://agentskillexchange.com/skills/query-hyperdx-logs-traces-and-session-replay-from-agent-incident-workflows/
+
+## Use GreptimeDB for agent observability telemetry and root cause analysis
+slug: use-greptimedb-for-agent-observability-telemetry-and-root-cause-analysis
+category: Monitoring & Alerts
+framework: Multi-Framework
+verification: Security Reviewed
+description: Store OpenTelemetry metrics, logs, traces, and GenAI telemetry in one queryable backend so agents can correlate incidents and root-cause signals with SQL or PromQL.
+url: https://agentskillexchange.com/skills/use-greptimedb-for-agent-observability-telemetry-and-root-cause-analysis/
 
 ## Install OrchestKit skills, agents, and hooks for Claude Code
 slug: install-orchestkit-skills-agents-and-hooks-for-claude-code
