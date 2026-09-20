@@ -102,6 +102,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Use production-agent tutorial playbooks from Agents Towards Production](../../skills/use-production-agent-tutorial-playbooks-from-agents-towards-production/) | 21.5k | — |
 | [Run supervised Suna sessions for reviewable agent work](../../skills/run-supervised-suna-sessions-for-reviewable-agent-work/) | 19.8k | — |
 | [Temporal Durable Execution Workflow Orchestration Platform](../../skills/temporal-durable-execution-workflow-platform/) | 19.4k | — |
+| [Build spec-driven full-stack apps with Wasp](../../skills/build-spec-driven-full-stack-apps-with-wasp/) | 18.7k | 17.6k/wk |
 | [React Email Component Library for Building Email Templates](../../skills/react-email-component-library-email-templates/) | 18.4k | 2.2M/wk |
 | [Run supervised desktop and browser agent work inside Agent Zero](../../skills/run-supervised-desktop-and-browser-agent-work-inside-agent-zero/) | 17.8k | — |
 | [Add graph-backed memory and context retrieval to agent workflows](../../skills/add-graph-backed-memory-and-context-retrieval-to-agent-workflows/) | 17.6k | — |

@@ -2,8 +2,41 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-20",
-  "total": 3013,
+  "total": 3016,
   "skills": [
+    {
+      "slug": "run-agent-sandboxes-and-gpu-jobs-with-beam",
+      "name": "Run agent sandboxes and GPU jobs with Beam",
+      "title": "Run agent sandboxes and GPU jobs with Beam",
+      "description": "Use Beam when an agent needs remote Python sandboxes, serverless GPU inference endpoints, or retryable background tasks without managing infrastructure.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/beam-cloud/beta9",
+      "github_repo": "beam-cloud/beta9"
+    },
+    {
+      "slug": "auto-instrument-kubernetes-apps-with-odigos",
+      "name": "Auto-instrument Kubernetes apps with Odigos",
+      "title": "Auto-instrument Kubernetes apps with Odigos",
+      "description": "Use Odigos to add OpenTelemetry tracing to Kubernetes or VM workloads without code changes, then route the traces to the observability backend an operator…",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/odigos-io/odigos",
+      "github_repo": "odigos-io/odigos"
+    },
+    {
+      "slug": "build-spec-driven-full-stack-apps-with-wasp",
+      "name": "Build spec-driven full-stack apps with Wasp",
+      "title": "Build spec-driven full-stack apps with Wasp",
+      "description": "Use Wasp when an agent needs to scaffold or modify a React, Node.js, and Prisma app from a compact declarative spec with auth, RPC,…",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/wasp-lang/wasp",
+      "github_repo": "wasp-lang/wasp"
+    },
     {
       "slug": "maintain-a-git-versioned-codebase-index-for-coding-agents-with-aoci-code",
       "name": "Maintain a Git-versioned codebase index for coding agents with AOCI-CODE",

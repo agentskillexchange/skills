@@ -152,7 +152,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Budibase Open Source Low-Code Operations App Platform](../../skills/budibase-open-source-low-code-operations-app-platform/) | 27.8k | 41/wk |
 | [Hyperfine Command-Line Benchmarking Tool](../../skills/hyperfine-command-line-benchmarking-tool/) | 27.8k | — |
 | [Jujutsu Git-Compatible Version Control System](../../skills/jujutsu-jj-git-compatible-vcs/) | 27.5k | — |
-| [ESLint Code Review](../../skills/eslint-code-review/) | 27.3k | 143.1M/wk |
+| [ESLint Code Review](../../skills/eslint-code-review/) | 27.3k | 118.6M/wk |
 | [ESLint Rule Generator Agent](../../skills/eslint-rule-generator-agent/) | 27.2k | 120.2M/wk |
 | [Run open-source terminal coding workflows with Qwen Code](../../skills/run-open-source-terminal-coding-workflows-with-qwen-code/) | 26.6k | 54.7k/wk |
 | [smolagents Code-First AI Agent Library](../../skills/smolagents-code-first-ai-agent-library/) | 26.4k | — |
@@ -164,7 +164,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Reduce agent token burn on repo-scale coding commands with the rtk CLI proxy](../../skills/reduce-agent-token-burn-on-repo-scale-coding-commands-with-the-rtk-cli-proxy/) | 25.4k | — |
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | 25.3k | — |
 | [Jenkins MCP Server](../../skills/jenkins-mcp-server/) | 25.3k | — |
-| [Pulumi MCP Server](../../skills/pulumi-mcp-server/) | 25.2k | 2.9M/wk |
+| [Pulumi MCP Server](../../skills/pulumi-mcp-server/) | 25.2k | 2.3M/wk |
 | [CI Pipeline Generator Skill](../../skills/ci-pipeline-generator-skill/) | 24.3k | — |
 | [Biome Lint Migration Toolkit](../../skills/biome-lint-migration-toolkit/) | 24.3k | 8.8M/wk |
 | [FastMCP Python MCP Server and Client Framework](../../skills/fastmcp-python-mcp-server-client-framework/) | 24.2k | — |
@@ -328,8 +328,8 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Build Java agent transport gateways with Atmosphere](../../skills/build-java-agent-transport-gateways-with-atmosphere/) | 3.8k | — |
 | [Build agent-maintainable reactive UI with ArrowJS](../../skills/build-agent-maintainable-reactive-ui-with-arrowjs/) | 3.8k | 38.7k/wk |
 | [Manage Cross-Agent Skill Libraries with Skills Manager](../../skills/manage-cross-agent-skill-libraries-with-skills-manager/) | 3.7k | — |
-| [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | 3.6k | 40.6M/wk |
-| [AWS Lambda MCP Server](../../skills/aws-lambda-mcp-server/) | 3.6k | 9.9M/wk |
+| [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | 3.6k | 31.7M/wk |
+| [AWS Lambda MCP Server](../../skills/aws-lambda-mcp-server/) | 3.6k | 7.8M/wk |
 | [Cloud Cost Analysis](../../skills/cloud-cost-analysis/) | 3.6k | — |
 | [Topgrade Universal System Package Updater](../../skills/topgrade-universal-system-package-updater/) | 3.6k | — |
 | [DynamoDB Manager](../../skills/dynamodb-manager/) | 3.6k | 30.5M/wk |
@@ -369,6 +369,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Install and sync reproducible agent dependencies, prompts, and skills across repos with APM](../../skills/install-and-sync-reproducible-agent-dependencies-prompts-and-skills-across-repos-with-apm/) | 1.9k | 5.1k/wk |
 | [Manage CLI coding-agent sessions with Claude Code Tools](../../skills/manage-cli-coding-agent-sessions-with-claude-code-tools/) | 1.9k | — |
 | [OpenMeter Usage Metering and Billing Platform](../../skills/openmeter-usage-metering-and-billing-platform/) | 1.9k | — |
+| [Run agent sandboxes and GPU jobs with Beam](../../skills/run-agent-sandboxes-and-gpu-jobs-with-beam/) | 1.8k | — |
 | [Run coding agents in isolated observable VibeKit sandboxes](../../skills/run-coding-agents-in-isolated-observable-vibekit-sandboxes/) | 1.8k | — |
 | [Run provider-agnostic terminal coding sessions with FuXi](../../skills/run-provider-agnostic-terminal-coding-sessions-with-fuxi/) | 1.8k | — |
 | [Run and lifecycle-manage MCP servers in isolated environments with ToolHive before local MCP sprawl turns brittle](../../skills/run-and-lifecycle-manage-mcp-servers-in-isolated-environments-with-toolhive-before-local-mcp-sprawl-turns-brittle/) | 1.7k | — |
@@ -386,7 +387,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Terraform MCP Server for Infrastructure as Code](../../skills/terraform-mcp-server-infrastructure-as-code/) | 1.3k | — |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | 1.3k | — |
 | [Coordinate peer CLI agents with agmsg](../../skills/coordinate-peer-cli-agents-with-agmsg/) | 1.3k | 4k/wk |
-| [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | 1.3k | 333/wk |
+| [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | 1.3k | 401/wk |
 | [Route Codex and Claude Code through an opencodex provider proxy](../../skills/route-codex-and-claude-code-through-an-opencodex-provider-proxy/) | 1.3k | 24k/wk |
 | [Run React Native implementation and troubleshooting workflows with Callstack Agent Skills](../../skills/run-react-native-implementation-and-troubleshooting-workflows-with-callstack-agent-skills/) | 1.3k | — |
 | [Manage parallel coding agent sessions and worktrees with CCManager](../../skills/manage-parallel-coding-agent-sessions-and-worktrees-with-ccmanager/) | 1.2k | 2.5k/wk |
@@ -453,7 +454,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Monitor local agent sessions and costs with ClawMetry](../../skills/monitor-local-agent-sessions-and-costs-with-clawmetry/) | 401 | — |
 | [Build embeddable Rust coding agents with Cersei](../../skills/build-embeddable-rust-coding-agents-with-cersei/) | 400 | — |
 | [Audit and deploy cross-agent extensions with HarnessKit](../../skills/audit-and-deploy-cross-agent-extensions-with-harnesskit/) | 396 | — |
-| [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 393 | 1.5k/wk |
+| [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 393 | 419/wk |
 | [Coordinate Terminal Coding Agents With hcom](../../skills/coordinate-terminal-coding-agents-with-hcom/) | 393 | — |
 | [Reduce coding-agent token waste with Chisle](../../skills/reduce-coding-agent-token-waste-with-chisle/) | 388 | 288/wk |
 | [Index Codebases for Agent Search with Code Context Engine](../../skills/index-codebases-for-agent-search-with-code-context-engine/) | 383 | — |

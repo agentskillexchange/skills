@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-20
-# Total: 3013 skills
+# Total: 3016 skills
+
+## Run agent sandboxes and GPU jobs with Beam
+slug: run-agent-sandboxes-and-gpu-jobs-with-beam
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Beam when an agent needs remote Python sandboxes, serverless GPU inference endpoints, or retryable background tasks without managing infrastructure.
+url: https://agentskillexchange.com/skills/run-agent-sandboxes-and-gpu-jobs-with-beam/
+
+## Auto-instrument Kubernetes apps with Odigos
+slug: auto-instrument-kubernetes-apps-with-odigos
+category: Monitoring & Alerts
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Odigos to add OpenTelemetry tracing to Kubernetes or VM workloads without code changes, then route the traces to the observability backend an operator…
+url: https://agentskillexchange.com/skills/auto-instrument-kubernetes-apps-with-odigos/
+
+## Build spec-driven full-stack apps with Wasp
+slug: build-spec-driven-full-stack-apps-with-wasp
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Wasp when an agent needs to scaffold or modify a React, Node.js, and Prisma app from a compact declarative spec with auth, RPC,…
+url: https://agentskillexchange.com/skills/build-spec-driven-full-stack-apps-with-wasp/
 
 ## Maintain a Git-versioned codebase index for coding agents with AOCI-CODE
 slug: maintain-a-git-versioned-codebase-index-for-coding-agents-with-aoci-code
