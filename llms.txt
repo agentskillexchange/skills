@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-20
-# Total: 3016 skills
+# Total: 3017 skills
+
+## Benchmark enterprise RAG agents with EnterpriseRAG-Bench
+slug: benchmark-enterprise-rag-agents-with-enterpriserag-bench
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use EnterpriseRAG-Bench to evaluate an enterprise RAG or knowledge-agent system against a realistic synthetic company corpus with answer, recall, and comparative scoring.
+url: https://agentskillexchange.com/skills/benchmark-enterprise-rag-agents-with-enterpriserag-bench/
 
 ## Run agent sandboxes and GPU jobs with Beam
 slug: run-agent-sandboxes-and-gpu-jobs-with-beam

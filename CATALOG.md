@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3016 published skills** across **17 categories** · 2,522 security reviewed · Updated 2026-09-20 13:27 UTC
+> **3017 published skills** across **17 categories** · 2,522 security reviewed · Updated 2026-09-20 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -497,7 +497,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Zinc Universal Checkout](skills/zinc-universal-checkout/) | Discover, buy, track, and return products across Amazon, Walmart, Target, Best Buy, eBay, and 50+ US retailers via… | Published | — | — |
 
 
-### 🔒 Security & Verification (249 skills)
+### 🔒 Security & Verification (250 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -687,6 +687,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Verify Packages Are Reproducibly Rebuildable Before Trusting Artifacts With Oss Rebuild](skills/verify-packages-are-reproducibly-rebuildable-before-trusting-artifacts-with-oss-rebuild/) | Query OSS Rebuild attestations and rebuild metadata so an agent can verify whether a published package artifact… | Security Reviewed | 687 | — |
 | [Stress-test agent defenses with AgentDojo](skills/stress-test-agent-defenses-with-agentdojo/) | Run AgentDojo benchmark environments to evaluate prompt-injection attacks and defenses against LLM agents before… | Security Reviewed | 619 | — |
 | [Generate SLSA build provenance in GitHub Actions](skills/generate-slsa-build-provenance-in-github-actions/) | Attach signed SLSA provenance to GitHub Actions builds so release artifacts ship with verifiable supply-chain metadata. | Security Reviewed | 566 | — |
+| [Benchmark enterprise RAG agents with EnterpriseRAG-Bench](skills/benchmark-enterprise-rag-agents-with-enterpriserag-bench/) | Use EnterpriseRAG-Bench to evaluate an enterprise RAG or knowledge-agent system against a realistic synthetic… | Security Reviewed | 562 | — |
 | [Run agents in disposable microVM sandboxes with network allowlists and secret injection using Matchlock](skills/run-agents-in-disposable-microvm-sandboxes-with-network-allowlists-and-secret-injection-using-matchlock/) | Launch risky agent work inside disposable microVMs when you need stronger isolation, sealed egress, and host-side… | Security Reviewed | 552 | — |
 | [SBOM Generator with CycloneDX](skills/sbom-generator-cyclonedx/) | Generates Software Bill of Materials in CycloneDX 1.5 format using cdxgen and syft. Enriches component data with… | Security Reviewed | 489 | — |
 | [Scan images filesystems and SBOMs for end-of-life software before unsupported components ship with Xeol](skills/scan-images-filesystems-and-sboms-for-end-of-life-software-before-unsupported-components-ship-with-xeol/) | Find packages that are out of support even when they do not show up as a classic CVE finding yet. | Security Reviewed | 435 | — |

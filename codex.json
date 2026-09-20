@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-20",
-  "total": 3016,
+  "total": 3017,
   "skills": [
+    {
+      "slug": "benchmark-enterprise-rag-agents-with-enterpriserag-bench",
+      "name": "Benchmark enterprise RAG agents with EnterpriseRAG-Bench",
+      "title": "Benchmark enterprise RAG agents with EnterpriseRAG-Bench",
+      "description": "Use EnterpriseRAG-Bench to evaluate an enterprise RAG or knowledge-agent system against a realistic synthetic company corpus with answer, recall, and comparative scoring.",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/onyx-dot-app/EnterpriseRAG-Bench",
+      "github_repo": "onyx-dot-app/EnterpriseRAG-Bench"
+    },
     {
       "slug": "run-agent-sandboxes-and-gpu-jobs-with-beam",
       "name": "Run agent sandboxes and GPU jobs with Beam",
