@@ -111,6 +111,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Generate Arcads ad creative from Claude Code](../../skills/generate-arcads-ad-creative-from-claude-code/) | 1.5k | — |
 | [Turn novels into AI short-drama production packets with shuohao-skills](../../skills/turn-novels-into-ai-short-drama-production-packets-with-shuohao-skills/) | 1.4k | — |
 | [Revise PDF Slides with Natural-Language Edits](../../skills/revise-pdf-slides-with-natural-language-edits/) | 1.2k | — |
+| [Create voiceover-synced explainer videos with video-talkcraft](../../skills/create-voiceover-synced-explainer-videos-with-video-talkcraft/) | 1.2k | — |
 | [Generate Template-Matched PPTX Decks with gpt-image2-ppt-skills](../../skills/generate-template-matched-pptx-decks-with-gpt-image2-ppt-skills/) | 1.1k | — |
 | [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | 1.1k | 19.7k/wk |
 | [Create sourced explainer videos with anything2explainer](../../skills/create-sourced-explainer-videos-with-anything2explainer/) | 1.1k | — |

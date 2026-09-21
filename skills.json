@@ -1,8 +1,52 @@
 {
   "version": "2.0",
-  "total": 3017,
-  "generated": "2026-09-20",
+  "total": 3020,
+  "generated": "2026-09-21",
   "skills": [
+    {
+      "slug": "compile-agent-ready-documentation-bundles-with-docmd",
+      "name": "Compile agent-ready documentation bundles with docmd",
+      "title": "Compile agent-ready documentation bundles with docmd",
+      "description": "Use docmd when a project needs one Markdown documentation source to produce a site, search index, llms.txt, MCP endpoints, and structured knowledge bundles for…",
+      "category": "Library & API Reference",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 2465,
+        "npm_weekly_downloads": 36648
+      },
+      "source_url": "https://github.com/docmd-io/docmd",
+      "github_repo": "docmd-io/docmd"
+    },
+    {
+      "slug": "create-voiceover-synced-explainer-videos-with-video-talkcraft",
+      "name": "Create voiceover-synced explainer videos with video-talkcraft",
+      "title": "Create voiceover-synced explainer videos with video-talkcraft",
+      "description": "Use video-talkcraft when a coding agent needs to turn a script and finished voiceover into a Remotion-rendered explainer video with timed motion, subtitles, QA,…",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1162
+      },
+      "source_url": "https://github.com/Vincentwei1021/video-talkcraft",
+      "github_repo": "Vincentwei1021/video-talkcraft"
+    },
+    {
+      "slug": "connect-coding-agents-to-shared-local-memory-with-memmy",
+      "name": "Connect coding agents to shared local memory with Memmy",
+      "title": "Connect coding agents to shared local memory with Memmy",
+      "description": "Use Memmy when Claude Code, Codex, OpenClaw, Cursor, or another local agent needs one controlled local memory service that persists context across tools and…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1958,
+        "npm_weekly_downloads": 46
+      },
+      "source_url": "https://github.com/MemTensor/memmy-agent",
+      "github_repo": "MemTensor/memmy-agent"
+    },
     {
       "slug": "benchmark-enterprise-rag-agents-with-enterpriserag-bench",
       "name": "Benchmark enterprise RAG agents with EnterpriseRAG-Bench",

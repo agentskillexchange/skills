@@ -365,6 +365,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Build Persistent Codebase Context Graphs with Graft](../../skills/build-persistent-codebase-context-graphs-with-graft/) | 2.1k | 2.2k/wk |
 | [Manage multi-agent coding sessions from one terminal mission control with Agent Deck](../../skills/manage-multi-agent-coding-sessions-from-one-terminal-mission-control-with-agent-deck/) | 2k | — |
 | [Clone and refresh whole GitHub orgs for audit or migration with ghorg](../../skills/clone-and-refresh-whole-github-orgs-for-audit-or-migration-with-ghorg/) | 2k | — |
+| [Connect coding agents to shared local memory with Memmy](../../skills/connect-coding-agents-to-shared-local-memory-with-memmy/) | 2k | 46/wk |
 | [Turn an MCP, OpenAPI, or GraphQL endpoint into a disposable CLI for shell automation](../../skills/turn-mcp-openapi-or-graphql-endpoint-into-disposable-cli-for-shell-automation/) | 1.9k | — |
 | [Install and sync reproducible agent dependencies, prompts, and skills across repos with APM](../../skills/install-and-sync-reproducible-agent-dependencies-prompts-and-skills-across-repos-with-apm/) | 1.9k | 5.1k/wk |
 | [Manage CLI coding-agent sessions with Claude Code Tools](../../skills/manage-cli-coding-agent-sessions-with-claude-code-tools/) | 1.9k | — |
