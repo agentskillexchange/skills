@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C027-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C029-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C534-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,027 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,029 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Run a Self-Hosted Coding Agent Workspace with ZhikunCode](skills/run-self-hosted-coding-agent-workspace-zhikuncode/) | Use ZhikunCode to deploy a browser-based, self-hosted coding-agent workspace with CLI and web entry points, multi-agent collaboration, model... | 497 | Developer Tools |
+| [Give Agents Durable Cognitive Memory with MuninnDB](skills/give-agents-durable-cognitive-memory-muninndb/) | Use MuninnDB as an MCP-native memory layer where agent memories can strengthen, decay, gain confidence, and trigger recall... | 331 | Integrations & Connectors |
 | [A/B test agent skills and MCP changes with Caliper](skills/ab-test-agent-skills-mcp-changes-with-caliper/) | Use Caliper to run real agent tasks with and without a skill, MCP server, or rule change so... | 175 | Security & Verification |
 | [Monitor multi-agent coding sessions in a terminal office with Pixtuoid](skills/monitor-multi-agent-coding-sessions-terminal-office-pixtuoid/) | Use Pixtuoid as a terminal dashboard that shows multiple coding agents as live session avatars so operators can... | 481 | Developer Tools |
 | [Give Windows coding agents Linux-style shell commands with Fauxnix](skills/give-windows-coding-agents-linux-style-shell-commands-with-fauxnix/) | Install Fauxnix so agents on Windows can issue familiar Linux-style shell commands that are translated deterministically to native... | 393 | Developer Tools |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Audit clickstream analytics with Retentioneering agents](skills/audit-clickstream-analytics-with-retentioneering-agents/) | Use Retentioneering's Python toolkit, MCP server, and agent skills to run reproducible customer-journey and event-log analytics that agents... | 919 | Data Extraction & Transformation |
 | [Run local multi-agent work sessions with Orkas](skills/run-local-multi-agent-work-sessions-with-orkas/) | Use Orkas to coordinate local-first multi-agent desktop work sessions across built-in specialist agents and installed coding CLIs such... | 2.1k | Developer Tools |
 | [Compile agent-ready documentation bundles with docmd](skills/compile-agent-ready-documentation-bundles-with-docmd/) | Use docmd when a project needs one Markdown documentation source to produce a site, search index, llms.txt, MCP... | 2.5k | Library & API Reference |
-| [Create voiceover-synced explainer videos with video-talkcraft](skills/create-voiceover-synced-explainer-videos-with-video-talkcraft/) | Use video-talkcraft when a coding agent needs to turn a script and finished voiceover into a Remotion-rendered explainer... | 1.2k | Image & Creative Automation |
-| [Connect coding agents to shared local memory with Memmy](skills/connect-coding-agents-to-shared-local-memory-with-memmy/) | Use Memmy when Claude Code, Codex, OpenClaw, Cursor, or another local agent needs one controlled local memory service... | 2.0k | Developer Tools |
 
 ---
 
@@ -140,14 +140,14 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 485 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 486 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 251 | Vulnerability scanning, auth setup, compliance |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 248 | Scaffolders, boilerplate generators, workflow templates |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 225 | ETL pipelines, parsing, format conversion |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 202 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 178 | Incident response, troubleshooting, system diagnostics |
-| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 170 | Third-party API bridges, webhooks, service connectors |
+| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 171 | Third-party API bridges, webhooks, service connectors |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 159 | Metrics, alerting rules, observability |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 131 | Web research, content discovery, data collection |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 128 | SDK docs, API parsers, symbol resolvers |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,027 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 3,029 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,534 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

@@ -2,8 +2,30 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-21",
-  "total": 3027,
+  "total": 3029,
   "skills": [
+    {
+      "slug": "run-self-hosted-coding-agent-workspace-zhikuncode",
+      "name": "Run a Self-Hosted Coding Agent Workspace with ZhikunCode",
+      "title": "Run a Self-Hosted Coding Agent Workspace with ZhikunCode",
+      "description": "Use ZhikunCode to deploy a browser-based, self-hosted coding-agent workspace with CLI and web entry points, multi-agent collaboration, model provider configuration, persistent sessions, and sandbox…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/zhikunqingtao/zhikuncode",
+      "github_repo": "zhikunqingtao/zhikuncode"
+    },
+    {
+      "slug": "give-agents-durable-cognitive-memory-muninndb",
+      "name": "Give Agents Durable Cognitive Memory with MuninnDB",
+      "title": "Give Agents Durable Cognitive Memory with MuninnDB",
+      "description": "Use MuninnDB as an MCP-native memory layer where agent memories can strengthen, decay, gain confidence, and trigger recall across MCP, REST, gRPC, or SDK…",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/scrypster/muninndb",
+      "github_repo": "scrypster/muninndb"
+    },
     {
       "slug": "ab-test-agent-skills-mcp-changes-with-caliper",
       "name": "A/B test agent skills and MCP changes with Caliper",

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3027 published skills** across **17 categories** · 2,534 security reviewed · Updated 2026-09-21 13:26 UTC
+> **3029 published skills** across **17 categories** · 2,534 security reviewed · Updated 2026-09-21 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (485 skills)
+### 🛠️ Developer Tools (486 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -420,6 +420,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Scaffold repo-specific agent harnesses with Metaharness](skills/scaffold-repo-specific-agent-harnesses-with-metaharness/) | Use Metaharness to score a repository, generate a branded agent harness with CLI, MCP, memory, and safety defaults,… | Security Reviewed | 529 | 29.1k/wk |
 | [Compact terminal-heavy agent output with Tokenjuice](skills/compact-terminal-heavy-agent-output-with-tokenjuice/) | Use Tokenjuice when an agent runs noisy shell commands and needs deterministic, inspectable output reduction before… | Security Reviewed | 517 | 1.2M/wk |
 | [Run self-hosted coding-agent mission control with Codeman](skills/run-self-hosted-coding-agent-mission-control-with-codeman/) | Use Codeman to supervise persistent Claude Code, Codex, OpenCode, and Gemini CLI sessions through a self-hosted web… | Security Reviewed | 500 | 1.9k/wk |
+| [Run a Self-Hosted Coding Agent Workspace with ZhikunCode](skills/run-self-hosted-coding-agent-workspace-zhikuncode/) | Use ZhikunCode to deploy a browser-based, self-hosted coding-agent workspace with CLI and web entry points,… | Security Reviewed | 497 | — |
 | [Monitor multi-agent coding sessions in a terminal office with Pixtuoid](skills/monitor-multi-agent-coding-sessions-terminal-office-pixtuoid/) | Use Pixtuoid as a terminal dashboard that shows multiple coding agents as live session avatars so operators can spot… | Security Reviewed | 481 | 20/wk |
 | [Orchestrate multi-agent coding delivery loops with Maestro Flow](skills/orchestrate-multi-agent-coding-delivery-loops-with-maestro-flow/) | Use Maestro Flow when a coding operator wants intent-driven planning, execution, verification, review, retry, and… | Security Reviewed | 480 | 1k/wk |
 | [Run multi-harness coding-agent sessions with Claudexor](skills/run-multi-harness-coding-agent-sessions-with-claudexor/) | Use Claudexor as a local-first control plane for Codex, Claude Code, Cursor, OpenCode, Antigravity, and API-backed… | Security Reviewed | 472 | 1.2k/wk |
@@ -1845,7 +1846,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (170 skills)
+### 🔗 Integrations & Connectors (171 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1978,6 +1979,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Hookdeck CLI for Webhook Development and Event Debugging](skills/hookdeck-cli-webhook-development-event-debugging/) | Hookdeck CLI is Hookdeck's official command-line tool for forwarding webhooks to localhost, managing event gateway… | Security Reviewed | 353 | 9.1k/wk |
 | [Build and validate Shopify apps with the official Shopify AI Toolkit](skills/build-and-validate-shopify-apps-with-the-official-shopify-ai-toolkit/) | Connect agents and IDE assistants to Shopify docs, API schemas, code validation, and store-management workflows… | Security Reviewed | 348 | 17.6k/wk |
 | [Linear MCP Server for Issue Tracking and Project Management](skills/linear-mcp-server-issue-tracking-project-management/) | An MCP server that integrates Linear project management with AI assistants. Enables creating, searching, updating,… | Security Reviewed | 346 | — |
+| [Give Agents Durable Cognitive Memory with MuninnDB](skills/give-agents-durable-cognitive-memory-muninndb/) | Use MuninnDB as an MCP-native memory layer where agent memories can strengthen, decay, gain confidence, and trigger… | Security Reviewed | 331 | — |
 | [Bridge coding agents into chat channels with GolemBot](skills/bridge-coding-agents-into-chat-channels-with-golembot/) | Runs an existing coding agent behind Slack, Telegram, Discord, Feishu, DingTalk, WeCom, WeChat, or HTTP so teams can… | Security Reviewed | 312 | 177/wk |
 | [Give MCP agents structured graph memory with RushDB](skills/give-mcp-agents-structured-graph-memory-with-rushdb/) | Connect RushDB's MCP server so agents can store, search, update, and traverse persistent structured memory without… | Security Reviewed | 308 | 1.9k/wk |
 | [Give MCP agents local shared memory with MARM](skills/give-mcp-agents-local-shared-memory-with-marm/) | Use MARM Memory to give Claude Code, Cursor, Codex, Gemini, and other MCP clients a local-first shared memory server… | Security Reviewed | 307 | — |

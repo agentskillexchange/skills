@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-21
-# Total: 3027 skills
+# Total: 3029 skills
+
+## Run a Self-Hosted Coding Agent Workspace with ZhikunCode
+slug: run-self-hosted-coding-agent-workspace-zhikuncode
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use ZhikunCode to deploy a browser-based, self-hosted coding-agent workspace with CLI and web entry points, multi-agent collaboration, model provider configuration, persistent sessions, and sandbox…
+url: https://agentskillexchange.com/skills/run-self-hosted-coding-agent-workspace-zhikuncode/
+
+## Give Agents Durable Cognitive Memory with MuninnDB
+slug: give-agents-durable-cognitive-memory-muninndb
+category: Integrations & Connectors
+framework: MCP
+verification: Security Reviewed
+description: Use MuninnDB as an MCP-native memory layer where agent memories can strengthen, decay, gain confidence, and trigger recall across MCP, REST, gRPC, or SDK…
+url: https://agentskillexchange.com/skills/give-agents-durable-cognitive-memory-muninndb/
 
 ## A/B test agent skills and MCP changes with Caliper
 slug: ab-test-agent-skills-mcp-changes-with-caliper
