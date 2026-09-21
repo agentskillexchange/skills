@@ -2,8 +2,63 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-21",
-  "total": 3022,
+  "total": 3027,
   "skills": [
+    {
+      "slug": "ab-test-agent-skills-mcp-changes-with-caliper",
+      "name": "A/B test agent skills and MCP changes with Caliper",
+      "title": "A/B test agent skills and MCP changes with Caliper",
+      "description": "Use Caliper to run real agent tasks with and without a skill, MCP server, or rule change so reliability and token cost are measurable.",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/edonadei/caliper",
+      "github_repo": "edonadei/caliper"
+    },
+    {
+      "slug": "monitor-multi-agent-coding-sessions-terminal-office-pixtuoid",
+      "name": "Monitor multi-agent coding sessions in a terminal office with Pixtuoid",
+      "title": "Monitor multi-agent coding sessions in a terminal office with Pixtuoid",
+      "description": "Use Pixtuoid as a terminal dashboard that shows multiple coding agents as live session avatars so operators can spot waiting, active, and finished work.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/IvanWng97/pixtuoid",
+      "github_repo": "IvanWng97/pixtuoid"
+    },
+    {
+      "slug": "give-windows-coding-agents-linux-style-shell-commands-with-fauxnix",
+      "name": "Give Windows coding agents Linux-style shell commands with Fauxnix",
+      "title": "Give Windows coding agents Linux-style shell commands with Fauxnix",
+      "description": "Install Fauxnix so agents on Windows can issue familiar Linux-style shell commands that are translated deterministically to native PowerShell.",
+      "category": "Developer Tools",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/20000419/fauxnix",
+      "github_repo": "20000419/fauxnix"
+    },
+    {
+      "slug": "run-transactional-go-postgres-agent-job-queues-with-river",
+      "name": "Run transactional Go and Postgres agent job queues with River",
+      "title": "Run transactional Go and Postgres agent job queues with River",
+      "description": "Use River to keep Go-based agent jobs transactional with Postgres so queued work commits or rolls back with the application state that created it.",
+      "category": "Templates & Workflows",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/riverqueue/river",
+      "github_repo": "riverqueue/river"
+    },
+    {
+      "slug": "run-dotnet-background-recurring-agent-jobs-with-hangfire",
+      "name": "Run .NET background and recurring agent jobs with Hangfire",
+      "title": "Run .NET background and recurring agent jobs with Hangfire",
+      "description": "Use Hangfire to enqueue, schedule, retry, and supervise durable .NET jobs that support agent maintenance, ingestion, reports, and workflow handoffs.",
+      "category": "Templates & Workflows",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/HangfireIO/Hangfire",
+      "github_repo": "HangfireIO/Hangfire"
+    },
     {
       "slug": "audit-clickstream-analytics-with-retentioneering-agents",
       "name": "Audit clickstream analytics with Retentioneering agents",

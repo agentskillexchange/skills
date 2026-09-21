@@ -126,6 +126,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Orchestrate coding agents across desktop, mobile, and headless sessions with Paseo](../../skills/orchestrate-coding-agents-across-desktop-mobile-and-headless-sessions-with-paseo/) | 10.7k | 19.4k/wk |
 | [Run production multi-agent workflows with Hive](../../skills/run-production-multi-agent-workflows-with-hive/) | 10.5k | — |
 | [SonarQube Gate Checker](../../skills/sonarqube-gate-checker-2/) | 10.4k | — |
+| [Run .NET background and recurring agent jobs with Hangfire](../../skills/run-dotnet-background-recurring-agent-jobs-with-hangfire/) | 10.1k | — |
 | [Yeoman Scaffold Runner](../../skills/yeoman-scaffold-runner/) | 10.1k | 20/wk |
 | [Build and trace multi-agent workflows with Microsoft Agent Framework](../../skills/build-and-trace-multi-agent-workflows-with-microsoft-agent-framework/) | 10.1k | — |
 | [Run Nature-style academic writing and figure workflows with Nature Skills](../../skills/run-nature-style-academic-writing-and-figure-workflows-with-nature-skills/) | 10k | — |
@@ -156,6 +157,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Orchestrate goal-driven TypeScript agent teams with Open Multi Agent](../../skills/orchestrate-goal-driven-typescript-agent-teams-with-open-multi-agent/) | 6.1k | 370/wk |
 | [Turn goals into traced multi-agent task DAGs with open-multi-agent](../../skills/turn-goals-into-traced-multi-agent-task-dags-with-open-multi-agent/) | 6k | — |
 | [Run visual scheduled agent jobs with Cronicle](../../skills/run-visual-scheduled-agent-jobs-with-cronicle/) | 5.8k | — |
+| [Run transactional Go and Postgres agent job queues with River](../../skills/run-transactional-go-postgres-agent-job-queues-with-river/) | 5.7k | — |
 | [Notion to PDF Knowledge Exporter](../../skills/notion-to-pdf-knowledge-exporter/) | 5.6k | 1.2M/wk |
 | [Organize reusable prompt workflows with POML](../../skills/organize-reusable-prompt-workflows-with-poml/) | 4.9k | 714/wk |
 | [Schedule distributed agent maintenance jobs with Dkron](../../skills/schedule-distributed-agent-maintenance-jobs-with-dkron/) | 4.7k | — |

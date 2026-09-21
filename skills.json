@@ -1,8 +1,80 @@
 {
   "version": "2.0",
-  "total": 3022,
+  "total": 3027,
   "generated": "2026-09-21",
   "skills": [
+    {
+      "slug": "ab-test-agent-skills-mcp-changes-with-caliper",
+      "name": "A/B test agent skills and MCP changes with Caliper",
+      "title": "A/B test agent skills and MCP changes with Caliper",
+      "description": "Use Caliper to run real agent tasks with and without a skill, MCP server, or rule change so reliability and token cost are measurable.",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 175
+      },
+      "source_url": "https://github.com/edonadei/caliper",
+      "github_repo": "edonadei/caliper"
+    },
+    {
+      "slug": "monitor-multi-agent-coding-sessions-terminal-office-pixtuoid",
+      "name": "Monitor multi-agent coding sessions in a terminal office with Pixtuoid",
+      "title": "Monitor multi-agent coding sessions in a terminal office with Pixtuoid",
+      "description": "Use Pixtuoid as a terminal dashboard that shows multiple coding agents as live session avatars so operators can spot waiting, active, and finished work.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 481,
+        "npm_weekly_downloads": 20
+      },
+      "source_url": "https://github.com/IvanWng97/pixtuoid",
+      "github_repo": "IvanWng97/pixtuoid"
+    },
+    {
+      "slug": "give-windows-coding-agents-linux-style-shell-commands-with-fauxnix",
+      "name": "Give Windows coding agents Linux-style shell commands with Fauxnix",
+      "title": "Give Windows coding agents Linux-style shell commands with Fauxnix",
+      "description": "Install Fauxnix so agents on Windows can issue familiar Linux-style shell commands that are translated deterministically to native PowerShell.",
+      "category": "Developer Tools",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 393,
+        "npm_weekly_downloads": 74
+      },
+      "source_url": "https://github.com/20000419/fauxnix",
+      "github_repo": "20000419/fauxnix"
+    },
+    {
+      "slug": "run-transactional-go-postgres-agent-job-queues-with-river",
+      "name": "Run transactional Go and Postgres agent job queues with River",
+      "title": "Run transactional Go and Postgres agent job queues with River",
+      "description": "Use River to keep Go-based agent jobs transactional with Postgres so queued work commits or rolls back with the application state that created it.",
+      "category": "Templates & Workflows",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 5699
+      },
+      "source_url": "https://github.com/riverqueue/river",
+      "github_repo": "riverqueue/river"
+    },
+    {
+      "slug": "run-dotnet-background-recurring-agent-jobs-with-hangfire",
+      "name": "Run .NET background and recurring agent jobs with Hangfire",
+      "title": "Run .NET background and recurring agent jobs with Hangfire",
+      "description": "Use Hangfire to enqueue, schedule, retry, and supervise durable .NET jobs that support agent maintenance, ingestion, reports, and workflow handoffs.",
+      "category": "Templates & Workflows",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 10140
+      },
+      "source_url": "https://github.com/HangfireIO/Hangfire",
+      "github_repo": "HangfireIO/Hangfire"
+    },
     {
       "slug": "audit-clickstream-analytics-with-retentioneering-agents",
       "name": "Audit clickstream analytics with Retentioneering agents",
@@ -41832,7 +41904,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 103,
-        "npm_weekly_downloads": 2151501,
+        "npm_weekly_downloads": 2162092,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/DataDog/datadog-api-client-typescript",
@@ -41878,7 +41950,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 27264,
-        "npm_weekly_downloads": 118563856,
+        "npm_weekly_downloads": 120783104,
         "license": "MIT"
       },
       "source_url": "https://github.com/eslint/eslint",
@@ -41909,7 +41981,7 @@
       "verification": "listed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 7804986,
+        "npm_weekly_downloads": 7743920,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/aws/aws-sdk-js-v3",
@@ -41925,7 +41997,7 @@
       "verification": "listed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 31715433,
+        "npm_weekly_downloads": 31611342,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/aws/aws-sdk-js-v3",
@@ -41957,7 +42029,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1539,
-        "npm_weekly_downloads": 4253286,
+        "npm_weekly_downloads": 4243630,
         "license": "MIT"
       },
       "source_url": "https://github.com/twilio/twilio-node",
@@ -41973,7 +42045,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 14691012,
+        "npm_weekly_downloads": 14741142,
         "license": "MIT"
       },
       "source_url": "https://github.com/stripe/stripe-node",
@@ -41989,7 +42061,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1465,
-        "npm_weekly_downloads": 796538,
+        "npm_weekly_downloads": 799187,
         "license": "MIT"
       },
       "source_url": "https://github.com/jsforce/jsforce",
@@ -42005,7 +42077,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 397,
-        "npm_weekly_downloads": 1042461,
+        "npm_weekly_downloads": 1047366,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/HubSpot/hubspot-api-nodejs",
@@ -42021,7 +42093,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 5610,
-        "npm_weekly_downloads": 1339940,
+        "npm_weekly_downloads": 1368942,
         "license": "MIT"
       },
       "source_url": "https://github.com/makenotion/notion-sdk-js",
@@ -42098,7 +42170,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 811,
-        "npm_weekly_downloads": 6660146
+        "npm_weekly_downloads": 6669181
       },
       "source_url": "https://github.com/DataDog/dd-trace-js",
       "github_repo": "datadog/dd-trace-js"
@@ -42113,7 +42185,7 @@
       "verification": "listed",
       "signals": {
         "github_stars": 25248,
-        "npm_weekly_downloads": 2306217,
+        "npm_weekly_downloads": 2289478,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/pulumi/pulumi",
@@ -42248,7 +42320,7 @@
       "verification": "listed",
       "signals": {
         "github_stars": 712,
-        "npm_weekly_downloads": 87253
+        "npm_weekly_downloads": 86364
       },
       "source_url": "https://github.com/getsentry/sentry-mcp",
       "github_repo": "getsentry/sentry-mcp"
@@ -42309,7 +42381,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1290,
-        "npm_weekly_downloads": 401,
+        "npm_weekly_downloads": 554,
         "license": "MIT"
       },
       "source_url": "https://github.com/steipete/claude-code-mcp",
@@ -42340,7 +42412,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 393,
-        "npm_weekly_downloads": 419,
+        "npm_weekly_downloads": 335,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/e2b-dev/mcp-server",
@@ -42380,7 +42452,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 10942,
-        "npm_weekly_downloads": 28419634,
+        "npm_weekly_downloads": 28192324,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/openai/openai-node",
@@ -42497,7 +42569,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 190,
-        "npm_weekly_downloads": 64,
+        "npm_weekly_downloads": 60,
         "license": "MIT"
       },
       "source_url": "https://github.com/getsentry/sentry-for-ai",
@@ -42552,7 +42624,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 33289,
-        "npm_weekly_downloads": 5046799,
+        "npm_weekly_downloads": 5247752,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/microsoft/playwright-mcp",
@@ -42585,7 +42657,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 89986,
-        "npm_weekly_downloads": 69540394,
+        "npm_weekly_downloads": 69688865,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/microsoft/playwright",

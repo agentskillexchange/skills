@@ -133,12 +133,12 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Run local coding agents from Feishu or Lark with Lark Coding Agent Bridge](../../skills/run-local-coding-agents-from-feishu-or-lark-with-lark-coding-agent-bridge/) | 2.1k | — |
 | [Connect Azure DevOps projects, work items, repos, and pipelines to MCP agents](../../skills/connect-azure-devops-projects-work-items-repos-and-pipelines-to-mcp-agents/) | 1.7k | 334.3k/wk |
 | [Sync skills across Claude Code, Codex, OpenClaw, and other AI CLIs with Skillshare](../../skills/sync-skills-across-ai-coding-clis-with-skillshare/) | 1.6k | — |
-| [Twilio MCP Server](../../skills/twilio-mcp-server/) | 1.5k | 4.3M/wk |
+| [Twilio MCP Server](../../skills/twilio-mcp-server/) | 1.5k | 4.2M/wk |
 | [Twilio Programmable SMS Gateway](../../skills/twilio-programmable-sms-gateway/) | 1.5k | 3.7M/wk |
 | [Twilio Programmable Voice Router](../../skills/twilio-programmable-voice-router-2/) | 1.5k | 3.7M/wk |
 | [Twilio SMS & Voice Bridge](../../skills/twilio-sms-voice-bridge/) | 1.5k | 3.7M/wk |
 | [Convert SMTP-only alerts into routed notification deliveries with Mailrise](../../skills/convert-smtp-only-alerts-into-routed-notification-deliveries-with-mailrise/) | 1.5k | — |
-| [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | 1.5k | 796.5k/wk |
+| [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | 1.5k | 799.2k/wk |
 | [Salesforce Bulk API Sync Agent](../../skills/salesforce-bulk-api-sync-agent/) | 1.5k | 936.6k/wk |
 | [Salesforce CRM Sync Agent](../../skills/salesforce-crm-sync-agent/) | 1.5k | 936.6k/wk |
 | [Expose database APIs and SQL MCP tools with Azure Data API Builder](../../skills/expose-database-apis-and-sql-mcp-tools-with-azure-data-api-builder/) | 1.4k | — |

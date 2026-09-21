@@ -1,7 +1,47 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-21
-# Total: 3022 skills
+# Total: 3027 skills
+
+## A/B test agent skills and MCP changes with Caliper
+slug: ab-test-agent-skills-mcp-changes-with-caliper
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Caliper to run real agent tasks with and without a skill, MCP server, or rule change so reliability and token cost are measurable.
+url: https://agentskillexchange.com/skills/ab-test-agent-skills-mcp-changes-with-caliper/
+
+## Monitor multi-agent coding sessions in a terminal office with Pixtuoid
+slug: monitor-multi-agent-coding-sessions-terminal-office-pixtuoid
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Pixtuoid as a terminal dashboard that shows multiple coding agents as live session avatars so operators can spot waiting, active, and finished work.
+url: https://agentskillexchange.com/skills/monitor-multi-agent-coding-sessions-terminal-office-pixtuoid/
+
+## Give Windows coding agents Linux-style shell commands with Fauxnix
+slug: give-windows-coding-agents-linux-style-shell-commands-with-fauxnix
+category: Developer Tools
+framework: MCP
+verification: Security Reviewed
+description: Install Fauxnix so agents on Windows can issue familiar Linux-style shell commands that are translated deterministically to native PowerShell.
+url: https://agentskillexchange.com/skills/give-windows-coding-agents-linux-style-shell-commands-with-fauxnix/
+
+## Run transactional Go and Postgres agent job queues with River
+slug: run-transactional-go-postgres-agent-job-queues-with-river
+category: Templates & Workflows
+framework: Custom Agents
+verification: Security Reviewed
+description: Use River to keep Go-based agent jobs transactional with Postgres so queued work commits or rolls back with the application state that created it.
+url: https://agentskillexchange.com/skills/run-transactional-go-postgres-agent-job-queues-with-river/
+
+## Run .NET background and recurring agent jobs with Hangfire
+slug: run-dotnet-background-recurring-agent-jobs-with-hangfire
+category: Templates & Workflows
+framework: Custom Agents
+verification: Security Reviewed
+description: Use Hangfire to enqueue, schedule, retry, and supervise durable .NET jobs that support agent maintenance, ingestion, reports, and workflow handoffs.
+url: https://agentskillexchange.com/skills/run-dotnet-background-recurring-agent-jobs-with-hangfire/
 
 ## Audit clickstream analytics with Retentioneering agents
 slug: audit-clickstream-analytics-with-retentioneering-agents
