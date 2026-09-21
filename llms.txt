@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-21
-# Total: 3020 skills
+# Total: 3022 skills
+
+## Audit clickstream analytics with Retentioneering agents
+slug: audit-clickstream-analytics-with-retentioneering-agents
+category: Data Extraction & Transformation
+framework: MCP
+verification: Security Reviewed
+description: Use Retentioneering's Python toolkit, MCP server, and agent skills to run reproducible customer-journey and event-log analytics that agents can validate and cross-check.
+url: https://agentskillexchange.com/skills/audit-clickstream-analytics-with-retentioneering-agents/
+
+## Run local multi-agent work sessions with Orkas
+slug: run-local-multi-agent-work-sessions-with-orkas
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Orkas to coordinate local-first multi-agent desktop work sessions across built-in specialist agents and installed coding CLIs such as Claude Code, Codex, OpenCode, OpenClaw,…
+url: https://agentskillexchange.com/skills/run-local-multi-agent-work-sessions-with-orkas/
 
 ## Compile agent-ready documentation bundles with docmd
 slug: compile-agent-ready-documentation-bundles-with-docmd

@@ -225,6 +225,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [xq Command-Line XML and HTML Beautifier and Content Extractor](../../skills/xq-command-line-xml-html-beautifier-content-extractor/) | 1.1k | — |
 | [Convert documents into private agent-ready Markdown with doc7](../../skills/convert-documents-into-private-agent-ready-markdown-with-doc7/) | 1.1k | — |
 | [Query Neo4j graph data from agent workflows through MCP](../../skills/query-neo4j-graph-data-from-agent-workflows-through-mcp/) | 947 | — |
+| [Audit clickstream analytics with Retentioneering agents](../../skills/audit-clickstream-analytics-with-retentioneering-agents/) | 919 | — |
 | [Extract structured fields from HTML XML and JSON endpoints with Xidel selectors](../../skills/extract-structured-fields-from-html-xml-and-json-endpoints-with-xidel-selectors/) | 835 | — |
 | [Inspect PDFs with evidence-first MCP workflows using PDF Reader MCP](../../skills/inspect-pdfs-with-evidence-first-mcp-workflows-using-pdf-reader-mcp/) | 807 | 27.9k/wk |
 | [Query ClickHouse analytics safely from MCP clients](../../skills/query-clickhouse-analytics-safely-from-mcp-clients/) | 801 | — |

@@ -1,8 +1,36 @@
 {
   "version": "2.0",
-  "total": 3020,
+  "total": 3022,
   "generated": "2026-09-21",
   "skills": [
+    {
+      "slug": "audit-clickstream-analytics-with-retentioneering-agents",
+      "name": "Audit clickstream analytics with Retentioneering agents",
+      "title": "Audit clickstream analytics with Retentioneering agents",
+      "description": "Use Retentioneering's Python toolkit, MCP server, and agent skills to run reproducible customer-journey and event-log analytics that agents can validate and cross-check.",
+      "category": "Data Extraction & Transformation",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 919
+      },
+      "source_url": "https://github.com/retentioneering/retentioneering-tools",
+      "github_repo": "retentioneering/retentioneering-tools"
+    },
+    {
+      "slug": "run-local-multi-agent-work-sessions-with-orkas",
+      "name": "Run local multi-agent work sessions with Orkas",
+      "title": "Run local multi-agent work sessions with Orkas",
+      "description": "Use Orkas to coordinate local-first multi-agent desktop work sessions across built-in specialist agents and installed coding CLIs such as Claude Code, Codex, OpenCode, OpenClaw,…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 2103
+      },
+      "source_url": "https://github.com/Orkas-AI/Orkas",
+      "github_repo": "Orkas-AI/Orkas"
+    },
     {
       "slug": "compile-agent-ready-documentation-bundles-with-docmd",
       "name": "Compile agent-ready documentation bundles with docmd",

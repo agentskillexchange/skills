@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C020-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C022-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C527-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,020 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,022 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Audit clickstream analytics with Retentioneering agents](skills/audit-clickstream-analytics-with-retentioneering-agents/) | Use Retentioneering's Python toolkit, MCP server, and agent skills to run reproducible customer-journey and event-log analytics that agents... | 919 | Data Extraction & Transformation |
+| [Run local multi-agent work sessions with Orkas](skills/run-local-multi-agent-work-sessions-with-orkas/) | Use Orkas to coordinate local-first multi-agent desktop work sessions across built-in specialist agents and installed coding CLIs such... | 2.1k | Developer Tools |
 | [Compile agent-ready documentation bundles with docmd](skills/compile-agent-ready-documentation-bundles-with-docmd/) | Use docmd when a project needs one Markdown documentation source to produce a site, search index, llms.txt, MCP... | 2.5k | Library & API Reference |
 | [Create voiceover-synced explainer videos with video-talkcraft](skills/create-voiceover-synced-explainer-videos-with-video-talkcraft/) | Use video-talkcraft when a coding agent needs to turn a script and finished voiceover into a Remotion-rendered explainer... | 1.2k | Image & Creative Automation |
 | [Connect coding agents to shared local memory with Memmy](skills/connect-coding-agents-to-shared-local-memory-with-memmy/) | Use Memmy when Claude Code, Codex, OpenClaw, Cursor, or another local agent needs one controlled local memory service... | 2.0k | Developer Tools |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Auto-instrument Kubernetes apps with Odigos](skills/auto-instrument-kubernetes-apps-with-odigos/) | Use Odigos to add OpenTelemetry tracing to Kubernetes or VM workloads without code changes, then route the traces... | 3.7k | Monitoring & Alerts |
 | [Build spec-driven full-stack apps with Wasp](skills/build-spec-driven-full-stack-apps-with-wasp/) | Use Wasp when an agent needs to scaffold or modify a React, Node.js, and Prisma app from a... | 18.7k | Templates & Workflows |
 | [Maintain a Git-versioned codebase index for coding agents with AOCI-CODE](skills/maintain-a-git-versioned-codebase-index-for-coding-agents-with-aoci-code/) | Initialize a local MCP server and repository-owned index so coding agents can read durable code and database context... | 443 | Developer Tools |
-| [Query HyperDX logs, traces, metrics, and session replay from agent incident workflows](skills/query-hyperdx-logs-traces-and-session-replay-from-agent-incident-workflows/) | Use HyperDX and its agent-friendly CLI output to search, live-tail, and correlate OpenTelemetry signals during supervised production investigations | 9.9k | Monitoring & Alerts |
-| [Use GreptimeDB for agent observability telemetry and root cause analysis](skills/use-greptimedb-for-agent-observability-telemetry-and-root-cause-analysis/) | Store OpenTelemetry metrics, logs, traces, and GenAI telemetry in one queryable backend so agents can correlate incidents and... | 6.7k | Monitoring & Alerts |
 
 ---
 
@@ -127,8 +127,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Build spec-driven full-stack apps with Wasp](skills/build-spec-driven-full-stack-apps-with-wasp/) | Use Wasp when an agent needs to scaffold or modify a React, Node.js, and Prisma app from a... | 18.7k | Templates & Workflows |
 | [Build agent-maintainable reactive UI with ArrowJS](skills/build-agent-maintainable-reactive-ui-with-arrowjs/) | Use ArrowJS when a coding agent needs to add or maintain small reactive web interfaces using DOM-native JavaScript... | 3.8k | Developer Tools |
 | [Build TypeScript spreadsheet import and export workflows with hucre](skills/build-typescript-spreadsheet-import-and-export-workflows-with-hucre/) | Use hucre when a coding agent needs to add zero-dependency XLSX, CSV, ODS, JSON, NDJSON, or XML spreadsheet... | 2.2k | Data Extraction & Transformation |
-| [Query HyperDX logs, traces, metrics, and session replay from agent incident workflows](skills/query-hyperdx-logs-traces-and-session-replay-from-agent-incident-workflows/) | Use HyperDX and its agent-friendly CLI output to search, live-tail, and correlate OpenTelemetry signals during supervised production investigations | 9.9k | Monitoring & Alerts |
 | [Compile agent-ready documentation bundles with docmd](skills/compile-agent-ready-documentation-bundles-with-docmd/) | Use docmd when a project needs one Markdown documentation source to produce a site, search index, llms.txt, MCP... | 2.5k | Library & API Reference |
+| [Query HyperDX logs, traces, metrics, and session replay from agent incident workflows](skills/query-hyperdx-logs-traces-and-session-replay-from-agent-incident-workflows/) | Use HyperDX and its agent-friendly CLI output to search, live-tail, and correlate OpenTelemetry signals during supervised production investigations | 9.9k | Monitoring & Alerts |
 | [Render pull request architecture diagrams with PR Lens](skills/render-pull-request-architecture-diagrams-with-pr-lens/) | Have an agent turn a code diff into validated architecture and data-flow diagrams, then attach the rendered SVGs... | 212 | Code Quality & Review |
 | [Collect TikTok and Douyin data through a self-hosted MCP server](skills/collect-tiktok-and-douyin-data-through-a-self-hosted-mcp-server/) | Run Douyin_TikTok_Download_API as a private MCP-backed service so agents can parse, archive, and retrieve TikTok or Douyin posts... | 20.1k | Research & Scraping |
 | [Serve codebase impact context to agents with Trace MCP](skills/serve-codebase-impact-context-to-agents-with-trace-mcp/) | Use Trace MCP to index a repository once and let MCP-capable coding agents query framework-aware code, dependency, and... | 154 | Code Quality & Review |
@@ -140,10 +140,10 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 482 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 483 | CLI tools, scaffolders, dev environment setup |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 250 | Vulnerability scanning, auth setup, compliance |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 246 | Scaffolders, boilerplate generators, workflow templates |
-| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 224 | ETL pipelines, parsing, format conversion |
+| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 225 | ETL pipelines, parsing, format conversion |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 202 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 178 | Incident response, troubleshooting, system diagnostics |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,020 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 3,022 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,527 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

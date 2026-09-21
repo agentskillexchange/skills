@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3020 published skills** across **17 categories** · 2,527 security reviewed · Updated 2026-09-21 01:27 UTC
+> **3022 published skills** across **17 categories** · 2,527 security reviewed · Updated 2026-09-21 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (482 skills)
+### 🛠️ Developer Tools (483 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -336,6 +336,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Route large codebase analysis through Gemini MCP Tool](skills/route-large-codebase-analysis-through-gemini-mcp-tool/) | Use Gemini MCP Tool to let MCP-capable coding agents delegate large file and codebase analysis to Gemini or… | Security Reviewed | 2.3k | 11.9k/wk |
 | [Keep a portable agent workspace layer with agentic-stack](skills/keep-a-portable-agent-workspace-layer-with-agentic-stack/) | Install and maintain a shared .agent layer so coding agents can carry memory, skills, protocols, dashboards, and… | Security Reviewed | 2.2k | — |
 | [Supabase CLI for Local Development and Database Migrations](skills/supabase-cli-local-development-database-migrations/) | Supabase CLI manages local Supabase projects, database migrations, types, and edge functions. It is the upstream… | Security Reviewed | 2.1k | 1.2M/wk |
+| [Run local multi-agent work sessions with Orkas](skills/run-local-multi-agent-work-sessions-with-orkas/) | Use Orkas to coordinate local-first multi-agent desktop work sessions across built-in specialist agents and… | Security Reviewed | 2.1k | — |
 | [Build Persistent Codebase Context Graphs with Graft](skills/build-persistent-codebase-context-graphs-with-graft/) | Build and maintain a repository-local context graph so coding agents can orient inside large codebases without… | Security Reviewed | 2.1k | 2.2k/wk |
 | [Manage multi-agent coding sessions from one terminal mission control with Agent Deck](skills/manage-multi-agent-coding-sessions-from-one-terminal-mission-control-with-agent-deck/) | Use Agent Deck when an operator needs one keyboard-first terminal to monitor, switch, fork, sandbox, and organize… | Security Reviewed | 2k | — |
 | [Clone and refresh whole GitHub orgs for audit or migration with ghorg](skills/clone-and-refresh-whole-github-orgs-for-audit-or-migration-with-ghorg/) | Use ghorg to clone or resync large sets of repositories from a GitHub user or organization for offline audit,… | Security Reviewed | 2k | — |
@@ -1010,7 +1011,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown,… | Published | — | — |
 
 
-### 🔄 Data Extraction & Transformation (224 skills)
+### 🔄 Data Extraction & Transformation (225 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -1201,6 +1202,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [xq Command-Line XML and HTML Beautifier and Content Extractor](skills/xq-command-line-xml-html-beautifier-content-extractor/) | xq is a command-line XML and HTML beautifier and content extractor written in Go. It provides syntax highlighting,… | Security Reviewed | 1.1k | — |
 | [Convert documents into private agent-ready Markdown with doc7](skills/convert-documents-into-private-agent-ready-markdown-with-doc7/) | Use a local or private multimodal model to convert PDFs, Office files, scans, screenshots, charts, formulas, and… | Security Reviewed | 1.1k | — |
 | [Query Neo4j graph data from agent workflows through MCP](skills/query-neo4j-graph-data-from-agent-workflows-through-mcp/) | Connect MCP-compatible agents to Neo4j so they can inspect graph schemas, run Cypher queries, manage graph memory,… | Security Reviewed | 947 | — |
+| [Audit clickstream analytics with Retentioneering agents](skills/audit-clickstream-analytics-with-retentioneering-agents/) | Use Retentioneering's Python toolkit, MCP server, and agent skills to run reproducible customer-journey and… | Security Reviewed | 919 | — |
 | [Extract structured fields from HTML XML and JSON endpoints with Xidel selectors](skills/extract-structured-fields-from-html-xml-and-json-endpoints-with-xidel-selectors/) | Use Xidel to pull targeted values from pages, XML documents, or JSON APIs with CSS selectors, XPath, XQuery, or… | Security Reviewed | 835 | — |
 | [Inspect PDFs with evidence-first MCP workflows using PDF Reader MCP](skills/inspect-pdfs-with-evidence-first-mcp-workflows-using-pdf-reader-mcp/) | Connect PDF Reader MCP when an agent needs source-backed PDF extraction with page evidence, visual crops, OCR… | Published | 807 | 27.9k/wk |
 | [Query ClickHouse analytics safely from MCP clients](skills/query-clickhouse-analytics-safely-from-mcp-clients/) | Use ClickHouse's official MCP server when an assistant needs schema-aware, reviewable analytics access to ClickHouse… | Security Reviewed | 801 | — |
