@@ -172,6 +172,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Give MCP agents structured graph memory with RushDB](../../skills/give-mcp-agents-structured-graph-memory-with-rushdb/) | 308 | 1.9k/wk |
 | [Give MCP agents local shared memory with MARM](../../skills/give-mcp-agents-local-shared-memory-with-marm/) | 307 | — |
 | [Connect accounting agents to Xero through MCP](../../skills/connect-accounting-agents-to-xero-through-mcp/) | 294 | 8k/wk |
+| [Bundle Agent Quotas Through cc-router](../../skills/bundle-agent-quotas-through-cc-router/) | 252 | — |
 | [Route production agent loops through BitRouter](../../skills/route-production-agent-loops-through-bitrouter/) | 202 | 258/wk |
 | [Manage Baidu Netdisk Files From Agent Workflows](../../skills/manage-baidu-netdisk-files-from-agent-workflows/) | 158 | — |
 | [Build deterministic SaaS API test worlds for agents with Backlot](../../skills/build-deterministic-saas-api-test-worlds-for-agents-with-backlot/) | 155 | — |

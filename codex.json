@@ -1,9 +1,20 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-09-21",
-  "total": 3029,
+  "generated": "2026-09-22",
+  "total": 3030,
   "skills": [
+    {
+      "slug": "bundle-agent-quotas-through-cc-router",
+      "name": "Bundle Agent Quotas Through cc-router",
+      "title": "Bundle Agent Quotas Through cc-router",
+      "description": "Run cc-router as a local desktop gateway that exposes Anthropic, OpenAI Responses, and Chat Completions endpoints so Claude Code, Codex, OpenClaw, OpenCode, and similar…",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/finch-xu/cc-router",
+      "github_repo": "finch-xu/cc-router"
+    },
     {
       "slug": "run-self-hosted-coding-agent-workspace-zhikuncode",
       "name": "Run a Self-Hosted Coding Agent Workspace with ZhikunCode",
