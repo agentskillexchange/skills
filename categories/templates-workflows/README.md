@@ -180,6 +180,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Run recipe-driven codebase migrations and framework upgrades with reviewable diffs through OpenRewrite](../../skills/run-recipe-driven-codebase-migrations-and-framework-upgrades-with-reviewable-diffs-through-openrewrite/) | 3.4k | 26.3k/wk |
 | [Generate and validate conventional commits and semver release bumps with Commitizen](../../skills/generate-and-validate-conventional-commits-and-semver-release-bumps-with-commitizen/) | 3.4k | — |
 | [Create and debug local-first declarative workflow jobs with Dagu](../../skills/create-and-debug-local-first-declarative-workflow-jobs-with-dagu/) | 3.3k | 456/wk |
+| [Schedule Node Agent Jobs with node-cron](../../skills/schedule-node-agent-jobs-with-node-cron/) | 3.3k | 18.9M/wk |
 | [Orchestrate stacked Git branches, sync safely, and ship pull requests in order](../../skills/orchestrate-stacked-git-branches-sync-safely-and-ship-pull-requests-in-order/) | 3.1k | — |
 | [Regenerate repository config from a single project definition with projen](../../skills/regenerate-repository-config-from-a-single-project-definition-with-projen/) | 2.9k | 876.8k/wk |
 | [Generate domain-specific Claude Code agent teams and shared skills with Harness](../../skills/generate-domain-specific-claude-code-agent-teams-and-shared-skills-with-harness/) | 2.8k | — |
@@ -201,6 +202,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Run Claude Code with spec-driven quality gates via Pilot Shell](../../skills/run-claude-code-with-spec-driven-quality-gates-via-pilot-shell/) | 1.6k | — |
 | [Run trap-aware agent work through the Fable Method](../../skills/run-trap-aware-agent-work-through-the-fable-method/) | 1.6k | — |
 | [Refresh Cookiecutter-based repositories from their upstream template without losing local answers](../../skills/refresh-cookiecutter-based-repositories-from-upstream-template/) | 1.6k | — |
+| [Run Python Agent Queues on PostgreSQL with PgQueuer](../../skills/run-python-agent-queues-postgresql-pgqueuer/) | 1.5k | — |
 | [Define repeatable Python automation sessions in code with nox](../../skills/define-repeatable-python-automation-sessions-in-code-with-nox/) | 1.5k | — |
 | [Install Claude Code project workflows with Claude Workflow V2](../../skills/install-claude-code-project-workflows-with-claude-workflow-v2/) | 1.4k | 55/wk |
 | [Prepare Rust Release PRs and Changelogs from Workspace Changes with release-plz](../../skills/prepare-rust-release-prs-and-changelogs-from-workspace-changes-with-release-plz/) | 1.3k | — |
@@ -273,6 +275,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Autonomous Session Workflow](../../skills/autonomous-session-workflow/) | — | — |
 | [Bubble.io Stripe Subscription Portal Builder](../../skills/bubble-stripe-subscription-portal/) | — | — |
 | [Co-author structured docs with staged context gathering and reader testing](../../skills/co-author-structured-docs-with-staged-context-gathering-and-reader-testing/) | — | — |
+| [Concept to Story](../../skills/concept-to-story/) | — | — |
 | [Create and repair Word documents with layout-safe DOCX workflows](../../skills/create-and-repair-word-documents-with-layout-safe-docx-workflows/) | — | — |
 | [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms-2/) | — | — |
 | [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms/) | — | — |

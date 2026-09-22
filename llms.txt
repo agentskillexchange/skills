@@ -1,7 +1,47 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-22
-# Total: 3030 skills
+# Total: 3035 skills
+
+## Concept to Story
+slug: concept-to-story
+category: Templates & Workflows
+framework: Codex
+verification: Published
+description: Teach concepts from user-provided PDFs in Codex through source-grounded stories, memory anchors, explicit analogy boundaries, and one unanswered recall question at a time.
+url: https://agentskillexchange.com/skills/concept-to-story/
+
+## Run PaperOrchestra Research-Paper Skills
+slug: run-paperorchestra-research-paper-skills
+category: Content Writing & SEO
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use PaperOrchestra's host-agent skill pack to turn research ideas, logs, literature, figures, drafts, and autorater checks into a repeatable assisted LaTeX paper-writing pipeline.
+url: https://agentskillexchange.com/skills/run-paperorchestra-research-paper-skills/
+
+## Carry Coding-Agent Memory Across Tools with Engrim
+slug: carry-coding-agent-memory-across-tools-engrim
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Engrim to give Codex CLI, Claude Code, Cursor, OpenCode, GitHub Copilot CLI, and Google Antigravity a shared local SQLite memory for project decisions,…
+url: https://agentskillexchange.com/skills/carry-coding-agent-memory-across-tools-engrim/
+
+## Run Python Agent Queues on PostgreSQL with PgQueuer
+slug: run-python-agent-queues-postgresql-pgqueuer
+category: Templates & Workflows
+framework: Custom Agents
+verification: Security Reviewed
+description: Use PgQueuer to run Python agent background jobs from PostgreSQL with transactional enqueue, SKIP LOCKED concurrency, LISTEN/NOTIFY dispatch, recurring schedules, metrics, and a dashboard.
+url: https://agentskillexchange.com/skills/run-python-agent-queues-postgresql-pgqueuer/
+
+## Schedule Node Agent Jobs with node-cron
+slug: schedule-node-agent-jobs-with-node-cron
+category: Templates & Workflows
+framework: Custom Agents
+verification: Security Reviewed
+description: Use node-cron to add recurring background jobs to Node.js agent services with overlap prevention, distributed coordination, background task isolation, and runtime inspection.
+url: https://agentskillexchange.com/skills/schedule-node-agent-jobs-with-node-cron/
 
 ## Bundle Agent Quotas Through cc-router
 slug: bundle-agent-quotas-through-cc-router

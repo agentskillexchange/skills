@@ -1,8 +1,76 @@
 {
   "version": "2.0",
-  "total": 3030,
+  "total": 3035,
   "generated": "2026-09-22",
   "skills": [
+    {
+      "slug": "concept-to-story",
+      "name": "Concept to Story",
+      "title": "Concept to Story",
+      "description": "Teach concepts from user-provided PDFs in Codex through source-grounded stories, memory anchors, explicit analogy boundaries, and one unanswered recall question at a time.",
+      "category": "Templates & Workflows",
+      "framework": "Codex",
+      "verification": "listed",
+      "source_url": "https://github.com/autoloading8822/concept-to-story-skill",
+      "github_repo": "autoloading8822/concept-to-story-skill"
+    },
+    {
+      "slug": "run-paperorchestra-research-paper-skills",
+      "name": "Run PaperOrchestra Research-Paper Skills",
+      "title": "Run PaperOrchestra Research-Paper Skills",
+      "description": "Use PaperOrchestra's host-agent skill pack to turn research ideas, logs, literature, figures, drafts, and autorater checks into a repeatable assisted LaTeX paper-writing pipeline.",
+      "category": "Content Writing & SEO",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 662
+      },
+      "source_url": "https://github.com/Ar9av/PaperOrchestra",
+      "github_repo": "Ar9av/PaperOrchestra"
+    },
+    {
+      "slug": "carry-coding-agent-memory-across-tools-engrim",
+      "name": "Carry Coding-Agent Memory Across Tools with Engrim",
+      "title": "Carry Coding-Agent Memory Across Tools with Engrim",
+      "description": "Use Engrim to give Codex CLI, Claude Code, Cursor, OpenCode, GitHub Copilot CLI, and Google Antigravity a shared local SQLite memory for project decisions,…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 282
+      },
+      "source_url": "https://github.com/timgordontg/engrim",
+      "github_repo": "timgordontg/engrim"
+    },
+    {
+      "slug": "run-python-agent-queues-postgresql-pgqueuer",
+      "name": "Run Python Agent Queues on PostgreSQL with PgQueuer",
+      "title": "Run Python Agent Queues on PostgreSQL with PgQueuer",
+      "description": "Use PgQueuer to run Python agent background jobs from PostgreSQL with transactional enqueue, SKIP LOCKED concurrency, LISTEN/NOTIFY dispatch, recurring schedules, metrics, and a dashboard.",
+      "category": "Templates & Workflows",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1526
+      },
+      "source_url": "https://github.com/janbjorge/pgqueuer",
+      "github_repo": "janbjorge/pgqueuer"
+    },
+    {
+      "slug": "schedule-node-agent-jobs-with-node-cron",
+      "name": "Schedule Node Agent Jobs with node-cron",
+      "title": "Schedule Node Agent Jobs with node-cron",
+      "description": "Use node-cron to add recurring background jobs to Node.js agent services with overlap prevention, distributed coordination, background task isolation, and runtime inspection.",
+      "category": "Templates & Workflows",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 3280,
+        "npm_weekly_downloads": 18873944
+      },
+      "source_url": "https://github.com/node-cron/node-cron",
+      "github_repo": "node-cron/node-cron"
+    },
     {
       "slug": "bundle-agent-quotas-through-cc-router",
       "name": "Bundle Agent Quotas Through cc-router",

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3030 published skills** across **17 categories** · 2,539 security reviewed · Updated 2026-09-22 01:27 UTC
+> **3035 published skills** across **17 categories** · 2,539 security reviewed · Updated 2026-09-22 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (486 skills)
+### 🛠️ Developer Tools (487 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -447,6 +447,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Connect RStudio to MCP Agents with ClaudeR](skills/connect-rstudio-to-mcp-agents-with-clauder/) | Use ClaudeR to expose an active RStudio session to MCP-capable coding and research agents for R execution, plots,… | Security Reviewed | 305 | — |
 | [Run Autoprompt coordination loops across coding agents](skills/run-autoprompt-coordination-loops-across-coding-agents/) | Use Autoprompt when an operator wants a coding agent to turn one goal into a planned, delegated, reviewed, and… | Security Reviewed | 293 | 122/wk |
 | [Install focused Claude Code workflow plugins from Claude Night Market](skills/install-focused-claude-code-workflow-plugins-from-claude-night-market/) | Review and install only the Claude Night Market plugins needed for a specific Claude Code workflow, such as PR prep,… | Security Reviewed | 291 | — |
+| [Carry Coding-Agent Memory Across Tools with Engrim](skills/carry-coding-agent-memory-across-tools-engrim/) | Use Engrim to give Codex CLI, Claude Code, Cursor, OpenCode, GitHub Copilot CLI, and Google Antigravity a shared… | Security Reviewed | 282 | — |
 | [Operate multiple coding agents from one Emacs workflow with AI Code Interface](skills/operate-multiple-coding-agents-from-one-emacs-workflow-with-ai-code-interface/) | Give Emacs users one workflow layer for Codex, Claude Code, Gemini CLI, Cursor CLI, opencode, and other coding-agent… | Security Reviewed | 274 | — |
 | [Orchestrate coding-agent goals and context with Jumbo Context](skills/orchestrate-coding-agent-goals-and-context-with-jumbo-context/) | Use Jumbo Context when coding agents need local goal state, project memory, session continuity, and context packets… | Security Reviewed | 265 | 647/wk |
 | [Run agent tool calls through pctx Code Mode and unified MCP](skills/run-agent-tool-calls-through-pctx-code-mode-and-unified-mcp/) | Put pctx between agents and tools so MCP servers and custom tools can run through a code-oriented execution layer… | Security Reviewed | 264 | 285/wk |
@@ -761,7 +762,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 📄 Templates & Workflows (248 skills)
+### 📄 Templates & Workflows (251 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -907,6 +908,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Run recipe-driven codebase migrations and framework upgrades with reviewable diffs through OpenRewrite](skills/run-recipe-driven-codebase-migrations-and-framework-upgrades-with-reviewable-diffs-through-openrewrite/) | Apply reusable refactoring recipes to large codebases so framework upgrades and codemods happen as auditable,… | Security Reviewed | 3.4k | 26.3k/wk |
 | [Generate and validate conventional commits and semver release bumps with Commitizen](skills/generate-and-validate-conventional-commits-and-semver-release-bumps-with-commitizen/) | Standardize commit messages, validate commit history, and calculate semver-aware release bumps without hand-rolled… | Published | 3.4k | — |
 | [Create and debug local-first declarative workflow jobs with Dagu](skills/create-and-debug-local-first-declarative-workflow-jobs-with-dagu/) | Use Dagu to define file-backed workflow jobs in YAML, run them locally or across workers, and inspect failures… | Security Reviewed | 3.3k | 456/wk |
+| [Schedule Node Agent Jobs with node-cron](skills/schedule-node-agent-jobs-with-node-cron/) | Use node-cron to add recurring background jobs to Node.js agent services with overlap prevention, distributed… | Security Reviewed | 3.3k | 18.9M/wk |
 | [Orchestrate stacked Git branches, sync safely, and ship pull requests in order](skills/orchestrate-stacked-git-branches-sync-safely-and-ship-pull-requests-in-order/) | Uses Git Town to keep a branch stack healthy by syncing with the main branch, rebasing dependent branches in order,… | Security Reviewed | 3.1k | — |
 | [Regenerate repository config from a single project definition with projen](skills/regenerate-repository-config-from-a-single-project-definition-with-projen/) | Use projen when an agent should synthesize and refresh repository boilerplate from one canonical project definition… | Security Reviewed | 2.9k | 876.8k/wk |
 | [Generate domain-specific Claude Code agent teams and shared skills with Harness](skills/generate-domain-specific-claude-code-agent-teams-and-shared-skills-with-harness/) | Turn a project description into a Claude Code team architecture with generated agents, shared skills, and… | Security Reviewed | 2.8k | — |
@@ -928,6 +930,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Run Claude Code with spec-driven quality gates via Pilot Shell](skills/run-claude-code-with-spec-driven-quality-gates-via-pilot-shell/) | Wrap Claude Code sessions in a spec, approval, and verification workflow before risky implementation work lands. | Security Reviewed | 1.6k | — |
 | [Run trap-aware agent work through the Fable Method](skills/run-trap-aware-agent-work-through-the-fable-method/) | Use the Fable Method skill bundle to classify work, gather evidence, act narrowly, verify by observation, and judge… | Security Reviewed | 1.6k | — |
 | [Refresh Cookiecutter-based repositories from their upstream template without losing local answers](skills/refresh-cookiecutter-based-repositories-from-upstream-template/) | Use Cruft when an agent needs to pull new changes from a Cookiecutter template into an existing generated repository… | Security Reviewed | 1.6k | — |
+| [Run Python Agent Queues on PostgreSQL with PgQueuer](skills/run-python-agent-queues-postgresql-pgqueuer/) | Use PgQueuer to run Python agent background jobs from PostgreSQL with transactional enqueue, SKIP LOCKED… | Security Reviewed | 1.5k | — |
 | [Define repeatable Python automation sessions in code with nox](skills/define-repeatable-python-automation-sessions-in-code-with-nox/) | Encode test, lint, build, and docs routines as named Python sessions so humans and agents run the same workflow… | Security Reviewed | 1.5k | — |
 | [Install Claude Code project workflows with Claude Workflow V2](skills/install-claude-code-project-workflows-with-claude-workflow-v2/) | Load a Claude Code workflow plugin that adds project-oriented commands, specialist agents, skills, and hooks for… | Security Reviewed | 1.4k | 55/wk |
 | [Prepare Rust Release PRs and Changelogs from Workspace Changes with release-plz](skills/prepare-rust-release-prs-and-changelogs-from-workspace-changes-with-release-plz/) | Inspect Rust workspace changes, draft release PRs, bump versions, and assemble changelogs before publishing. | Security Reviewed | 1.3k | — |
@@ -1000,6 +1003,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Autonomous Session Workflow](skills/autonomous-session-workflow/) | 5-phase repeatable structure for autonomous agent sessions: context-load, tiered work-selection, coordination claim,… | Published | — | — |
 | [Bubble.io Stripe Subscription Portal Builder](skills/bubble-stripe-subscription-portal/) | Uses Bubble's Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a… | Security Reviewed | — | — |
 | [Co-author structured docs with staged context gathering and reader testing](skills/co-author-structured-docs-with-staged-context-gathering-and-reader-testing/) | Use Anthropic's doc-coauthoring skill to run a disciplined writing workflow instead of freeform drafting. The agent… | Security Reviewed | — | — |
+| [Concept to Story](skills/concept-to-story/) | Teach concepts from user-provided PDFs in Codex through source-grounded stories, memory anchors, explicit analogy… | Published | — | — |
 | [Create and repair Word documents with layout-safe DOCX workflows](skills/create-and-repair-word-documents-with-layout-safe-docx-workflows/) | Use the Anthropic docx skill when an agent needs to produce or repair a real .docx deliverable with headings,… | Security Reviewed | — | — |
 | [Draft internal status updates and incident comms](skills/draft-internal-status-updates-and-incident-comms-2/) | Use Anthropic's internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs,… | Security Reviewed | — | — |
 | [Draft internal status updates and incident comms](skills/draft-internal-status-updates-and-incident-comms/) | Use Anthropic's internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs,… | Security Reviewed | — | — |
@@ -3075,7 +3079,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized… | Security Reviewed | — | — |
 
 
-### ✍️ Content Writing & SEO (92 skills)
+### ✍️ Content Writing & SEO (93 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
 
@@ -3127,6 +3131,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [SiteOne Crawler Technical SEO and Site Audit](skills/siteone-crawler-technical-seo-and-site-audit/) | SiteOne Crawler is a real website crawler and analyzer for technical SEO, accessibility, security, and performance… | Security Reviewed | 708 | — |
 | [Verify Markdown links before docs or content ship with markdown-link-check](skills/verify-markdown-links-before-docs-or-content-ship-with-markdown-link-check/) | Catch dead links in README files, docs folders, and content drafts before a broken reference ships to users. | Security Reviewed | 693 | 573.2k/wk |
 | [SEOnaut Open Source Technical SEO Audit Tool](skills/seonaut-open-source-technical-seo-audit/) | SEOnaut is an open-source SEO auditing tool built with Go that crawls websites and generates detailed reports on… | Security Reviewed | 673 | — |
+| [Run PaperOrchestra Research-Paper Skills](skills/run-paperorchestra-research-paper-skills/) | Use PaperOrchestra's host-agent skill pack to turn research ideas, logs, literature, figures, drafts, and autorater… | Security Reviewed | 662 | — |
 | [Run an affiliate marketing flywheel with affiliate-skills](skills/run-an-affiliate-marketing-flywheel-with-affiliate-skills/) | Use affiliate-skills to chain agent workflows for program research, trend scouting, content creation, landing pages,… | Security Reviewed | 661 | — |
 | [Audit AI search citation readiness with GEO Optimizer](skills/audit-ai-search-citation-readiness-with-geo-optimizer/) | Use GEO Optimizer from the CLI or MCP so agents can audit a site for AI search visibility, generate llms.txt/schema… | Security Reviewed | 611 | — |
 | [Run evidence-backed agentic SEO audits with Agentic SEO Skill](skills/run-evidence-backed-agentic-seo-audits-with-agentic-seo-skill/) | Install a multi-runtime SEO skill pack that collects crawl, schema, performance, sitemap, robots, and content… | Security Reviewed | 588 | — |

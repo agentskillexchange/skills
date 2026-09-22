@@ -1,12 +1,12 @@
 # Categories
 
-> **3030 skills** across **17 categories**
+> **3035 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
-| 🛠️ | [**Developer Tools**](developer-tools/) | **486** | CLI helpers, dev environment setup, productivity utilities, and devel... |
+| 🛠️ | [**Developer Tools**](developer-tools/) | **487** | CLI helpers, dev environment setup, productivity utilities, and devel... |
 | 🔒 | [**Security & Verification**](security-verification/) | **251** | Auth setup, vulnerability scanning, compliance checks, and security a... |
-| 📄 | [**Templates & Workflows**](templates-workflows/) | **248** | Project scaffolding, boilerplate generators, workflow templates, and ... |
+| 📄 | [**Templates & Workflows**](templates-workflows/) | **251** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **225** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **202** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **192** | Pipeline configs, deployment automation, build tooling, and continuou... |
@@ -20,7 +20,7 @@
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **112** | Image generation, asset processing, design automation, and creative t... |
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **109** | Audio/video processing, speech-to-text, media conversion, and transcr... |
 | 📰 | [**WordPress & CMS**](wordpress-cms/) | **96** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
-| ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **92** | Blog posts, SEO optimization, content strategy, and writing assistance. |
+| ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **93** | Blog posts, SEO optimization, content strategy, and writing assistance. |
 
 ---
 
