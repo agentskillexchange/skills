@@ -12,7 +12,7 @@ tool_ecosystem:
   github_repo: "sendgrid/sendgrid-nodejs"
   github_stars: 3051
   npm_package: "sendgrid"
-  npm_weekly_downloads: 40981
+  npm_weekly_downloads: 43128
 ---
 
 # SendGrid MCP Server
