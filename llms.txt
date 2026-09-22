@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-22
-# Total: 3035 skills
+# Total: 3036 skills
+
+## Manage Agent Accounts and Model Routing with EchoBird
+slug: manage-agent-accounts-model-routing-echobird
+category: Developer Tools
+framework: Multi-Framework
+verification: Published
+description: Use EchoBird to centralize ChatGPT, Codex CLI, Claude Code, OpenClaw, OpenCode, and local model setup so an operator can switch accounts, track quota, and…
+url: https://agentskillexchange.com/skills/manage-agent-accounts-model-routing-echobird/
 
 ## Concept to Story
 slug: concept-to-story

@@ -333,6 +333,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Cloud Cost Analysis](../../skills/cloud-cost-analysis/) | 3.6k | — |
 | [Topgrade Universal System Package Updater](../../skills/topgrade-universal-system-package-updater/) | 3.6k | — |
 | [DynamoDB Manager](../../skills/dynamodb-manager/) | 3.6k | 30.5M/wk |
+| [Manage Agent Accounts and Model Routing with EchoBird](../../skills/manage-agent-accounts-model-routing-echobird/) | 3.3k | — |
 | [Coordinate visible multi-agent CLI workspaces with CCB](../../skills/coordinate-visible-multi-agent-cli-workspaces-with-ccb/) | 3.2k | 9.9k/wk |
 | [Give MCP clients local Markdown project memory with Basic Memory](../../skills/give-mcp-clients-local-markdown-project-memory-with-basic-memory/) | 3.2k | — |
 | [Index Large Codebases for Agent Search With Socraticode](../../skills/index-large-codebases-for-agent-search-with-socraticode/) | 3.1k | 8.6k/wk |

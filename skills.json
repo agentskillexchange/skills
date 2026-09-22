@@ -1,8 +1,22 @@
 {
   "version": "2.0",
-  "total": 3035,
+  "total": 3036,
   "generated": "2026-09-22",
   "skills": [
+    {
+      "slug": "manage-agent-accounts-model-routing-echobird",
+      "name": "Manage Agent Accounts and Model Routing with EchoBird",
+      "title": "Manage Agent Accounts and Model Routing with EchoBird",
+      "description": "Use EchoBird to centralize ChatGPT, Codex CLI, Claude Code, OpenClaw, OpenCode, and local model setup so an operator can switch accounts, track quota, and…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "signals": {
+        "github_stars": 3269
+      },
+      "source_url": "https://github.com/edison7009/EchoBird",
+      "github_repo": "edison7009/EchoBird"
+    },
     {
       "slug": "concept-to-story",
       "name": "Concept to Story",
@@ -42123,7 +42137,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3051,
-        "npm_weekly_downloads": 40981,
+        "npm_weekly_downloads": 43128,
         "license": "MIT"
       },
       "source_url": "https://github.com/sendgrid/sendgrid-nodejs",
