@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-22
-# Total: 3036 skills
+# Total: 3038 skills
+
+## Schedule Postgres-backed agent maintenance chains with pg_timetable
+slug: schedule-postgres-backed-agent-maintenance-chains-with-pg-timetable
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use pg_timetable to run database-driven schedules, SQL chains, system commands, missed-run recovery, concurrency limits, and YAML-defined maintenance workflows from PostgreSQL.
+url: https://agentskillexchange.com/skills/schedule-postgres-backed-agent-maintenance-chains-with-pg-timetable/
+
+## Run durable Node agent jobs without Redis using Sidequest
+slug: run-durable-node-agent-jobs-without-redis-using-sidequest
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Sidequest to run durable Node.js agent jobs, retries, cron schedules, and queue dashboards on PostgreSQL, MySQL, SQLite, or MongoDB without adding Redis.
+url: https://agentskillexchange.com/skills/run-durable-node-agent-jobs-without-redis-using-sidequest/
 
 ## Manage Agent Accounts and Model Routing with EchoBird
 slug: manage-agent-accounts-model-routing-echobird

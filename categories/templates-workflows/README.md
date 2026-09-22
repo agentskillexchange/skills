@@ -204,6 +204,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Refresh Cookiecutter-based repositories from their upstream template without losing local answers](../../skills/refresh-cookiecutter-based-repositories-from-upstream-template/) | 1.6k | — |
 | [Run Python Agent Queues on PostgreSQL with PgQueuer](../../skills/run-python-agent-queues-postgresql-pgqueuer/) | 1.5k | — |
 | [Define repeatable Python automation sessions in code with nox](../../skills/define-repeatable-python-automation-sessions-in-code-with-nox/) | 1.5k | — |
+| [Schedule Postgres-backed agent maintenance chains with pg_timetable](../../skills/schedule-postgres-backed-agent-maintenance-chains-with-pg-timetable/) | 1.4k | — |
 | [Install Claude Code project workflows with Claude Workflow V2](../../skills/install-claude-code-project-workflows-with-claude-workflow-v2/) | 1.4k | 55/wk |
 | [Prepare Rust Release PRs and Changelogs from Workspace Changes with release-plz](../../skills/prepare-rust-release-prs-and-changelogs-from-workspace-changes-with-release-plz/) | 1.3k | — |
 | [Run Parallel Divergent Ideation With ADHD](../../skills/run-parallel-divergent-ideation-with-adhd/) | 1.3k | 78/wk |
@@ -213,6 +214,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Drive spec-first coding workflows with task boards, worktrees, and agent handoffs using Spec Kitty](../../skills/drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-handoffs-using-spec-kitty/) | 1.1k | — |
 | [Run bioinformatics analysis workflows with bioSkills](../../skills/run-bioinformatics-analysis-workflows-with-bioskills/) | 1.1k | — |
 | [Prepare bid proposal drafts and compliance checks with OpenBidKit Yibiao](../../skills/prepare-bid-proposal-drafts-and-compliance-checks-with-openbidkit-yibiao/) | 1k | — |
+| [Run durable Node agent jobs without Redis using Sidequest](../../skills/run-durable-node-agent-jobs-without-redis-using-sidequest/) | 1k | 7.1k/wk |
 | [Coordinate multi-agent coding rigs with Gas City](../../skills/coordinate-multi-agent-coding-rigs-with-gas-city/) | 1k | — |
 | [Run academic writing, analysis, and replication workflows with quality gates in claude-code-my-workflow](../../skills/run-academic-writing-analysis-and-replication-workflows-with-quality-gates-in-claude-code-my-workflow/) | 970 | — |
 | [Run architecture-first coding work with Spec-Driven Develop](../../skills/run-architecture-first-coding-work-with-spec-driven-develop/) | 953 | — |

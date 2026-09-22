@@ -2,8 +2,30 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-22",
-  "total": 3036,
+  "total": 3038,
   "skills": [
+    {
+      "slug": "schedule-postgres-backed-agent-maintenance-chains-with-pg-timetable",
+      "name": "Schedule Postgres-backed agent maintenance chains with pg_timetable",
+      "title": "Schedule Postgres-backed agent maintenance chains with pg_timetable",
+      "description": "Use pg_timetable to run database-driven schedules, SQL chains, system commands, missed-run recovery, concurrency limits, and YAML-defined maintenance workflows from PostgreSQL.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/cybertec-postgresql/pg_timetable",
+      "github_repo": "cybertec-postgresql/pg_timetable"
+    },
+    {
+      "slug": "run-durable-node-agent-jobs-without-redis-using-sidequest",
+      "name": "Run durable Node agent jobs without Redis using Sidequest",
+      "title": "Run durable Node agent jobs without Redis using Sidequest",
+      "description": "Use Sidequest to run durable Node.js agent jobs, retries, cron schedules, and queue dashboards on PostgreSQL, MySQL, SQLite, or MongoDB without adding Redis.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/sidequestjs/sidequest",
+      "github_repo": "sidequestjs/sidequest"
+    },
     {
       "slug": "manage-agent-accounts-model-routing-echobird",
       "name": "Manage Agent Accounts and Model Routing with EchoBird",

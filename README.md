@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C036-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C038-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C541-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,036 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,038 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Schedule Postgres-backed agent maintenance chains with pg_timetable](skills/schedule-postgres-backed-agent-maintenance-chains-with-pg-timetable/) | Use pg_timetable to run database-driven schedules, SQL chains, system commands, missed-run recovery, concurrency limits, and YAML-defined maintenance workflows... | 1.4k | Templates & Workflows |
+| [Run durable Node agent jobs without Redis using Sidequest](skills/run-durable-node-agent-jobs-without-redis-using-sidequest/) | Use Sidequest to run durable Node.js agent jobs, retries, cron schedules, and queue dashboards on PostgreSQL, MySQL, SQLite... | 1.0k | Templates & Workflows |
 | [Manage Agent Accounts and Model Routing with EchoBird](skills/manage-agent-accounts-model-routing-echobird/) | Use EchoBird to centralize ChatGPT, Codex CLI, Claude Code, OpenClaw, OpenCode, and local model setup so an operator... | 3.3k | Developer Tools |
 | [Concept to Story](skills/concept-to-story/) | Teach concepts from user-provided PDFs in Codex through source-grounded stories, memory anchors, explicit analogy boundaries, and one unanswered... | - | Templates & Workflows |
 | [Run PaperOrchestra Research-Paper Skills](skills/run-paperorchestra-research-paper-skills/) | Use PaperOrchestra's host-agent skill pack to turn research ideas, logs, literature, figures, drafts, and autorater checks into a... | 662 | Content Writing & SEO |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Schedule Node Agent Jobs with node-cron](skills/schedule-node-agent-jobs-with-node-cron/) | Use node-cron to add recurring background jobs to Node.js agent services with overlap prevention, distributed coordination, background task... | 3.3k | Templates & Workflows |
 | [Bundle Agent Quotas Through cc-router](skills/bundle-agent-quotas-through-cc-router/) | Run cc-router as a local desktop gateway that exposes Anthropic, OpenAI Responses, and Chat Completions endpoints so Claude... | 252 | Integrations & Connectors |
 | [Run a Self-Hosted Coding Agent Workspace with ZhikunCode](skills/run-self-hosted-coding-agent-workspace-zhikuncode/) | Use ZhikunCode to deploy a browser-based, self-hosted coding-agent workspace with CLI and web entry points, multi-agent collaboration, model... | 497 | Developer Tools |
-| [Give Agents Durable Cognitive Memory with MuninnDB](skills/give-agents-durable-cognitive-memory-muninndb/) | Use MuninnDB as an MCP-native memory layer where agent memories can strengthen, decay, gain confidence, and trigger recall... | 331 | Integrations & Connectors |
-| [A/B test agent skills and MCP changes with Caliper](skills/ab-test-agent-skills-mcp-changes-with-caliper/) | Use Caliper to run real agent tasks with and without a skill, MCP server, or rule change so... | 175 | Security & Verification |
 
 ---
 
@@ -123,8 +123,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
-| [Run IDE-wired terminal coding-agent workflows with Oh My Pi](skills/run-ide-wired-terminal-coding-agent-workflows-with-oh-my-pi/) | Use Oh My Pi when an operator wants a local terminal coding agent with IDE-grade context, built-in file... | 31.8k | Developer Tools |
 | [Build spec-driven full-stack apps with Wasp](skills/build-spec-driven-full-stack-apps-with-wasp/) | Use Wasp when an agent needs to scaffold or modify a React, Node.js, and Prisma app from a... | 18.7k | Templates & Workflows |
+| [Run IDE-wired terminal coding-agent workflows with Oh My Pi](skills/run-ide-wired-terminal-coding-agent-workflows-with-oh-my-pi/) | Use Oh My Pi when an operator wants a local terminal coding agent with IDE-grade context, built-in file... | 31.8k | Developer Tools |
 | [Build agent-maintainable reactive UI with ArrowJS](skills/build-agent-maintainable-reactive-ui-with-arrowjs/) | Use ArrowJS when a coding agent needs to add or maintain small reactive web interfaces using DOM-native JavaScript... | 3.8k | Developer Tools |
 | [Build TypeScript spreadsheet import and export workflows with hucre](skills/build-typescript-spreadsheet-import-and-export-workflows-with-hucre/) | Use hucre when a coding agent needs to add zero-dependency XLSX, CSV, ODS, JSON, NDJSON, or XML spreadsheet... | 2.2k | Data Extraction & Transformation |
 | [Schedule Node Agent Jobs with node-cron](skills/schedule-node-agent-jobs-with-node-cron/) | Use node-cron to add recurring background jobs to Node.js agent services with overlap prevention, distributed coordination, background task... | 3.3k | Templates & Workflows |
@@ -141,8 +141,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | | Category | Skills | What's inside |
 |---|---|---:|---|
 | 🛠️ | [**Developer Tools**](categories/developer-tools/) | 488 | CLI tools, scaffolders, dev environment setup |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 253 | Scaffolders, boilerplate generators, workflow templates |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 251 | Vulnerability scanning, auth setup, compliance |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 251 | Scaffolders, boilerplate generators, workflow templates |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 225 | ETL pipelines, parsing, format conversion |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 202 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,036 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 3,038 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,541 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
