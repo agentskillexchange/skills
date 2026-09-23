@@ -275,6 +275,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [sqlite-vec Vector Search Extension for SQLite](../../skills/sqlite-vec-vector-search-extension-sqlite/) | 7.3k | 1.2M/wk |
 | [Extract clean article Markdown from web pages with Defuddle](../../skills/extract-clean-article-markdown-from-web-pages-with-defuddle/) | 7.2k | 38.5k/wk |
 | [SQLite Analyst](../../skills/sqlite-analyst/) | 7.1k | 5.5M/wk |
+| [Generate playable games with Codex or Claude Code using Godogen](../../skills/generate-playable-games-with-codex-or-claude-code-using-godogen/) | 7k | — |
 | [watchexec File Watcher and Command Re-Runner](../../skills/watchexec-file-watcher-command-rerunner/) | 6.9k | — |
 | [dbmate Lightweight Database Migration CLI](../../skills/dbmate-lightweight-database-migration-cli/) | 6.8k | 99.2k/wk |
 | [Huh Interactive Terminal Forms and Prompts Library for Go](../../skills/huh-terminal-forms-prompts-library/) | 6.8k | — |

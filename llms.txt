@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-09-22
-# Total: 3038 skills
+# Generated: 2026-09-23
+# Total: 3039 skills
+
+## Generate playable games with Codex or Claude Code using Godogen
+slug: generate-playable-games-with-codex-or-claude-code-using-godogen
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Godogen to publish a thin game-generation repo where Codex or Claude Code builds, runs, captures, and iterates on Godot, Bevy, or Babylon.js games…
+url: https://agentskillexchange.com/skills/generate-playable-games-with-codex-or-claude-code-using-godogen/
 
 ## Schedule Postgres-backed agent maintenance chains with pg_timetable
 slug: schedule-postgres-backed-agent-maintenance-chains-with-pg-timetable

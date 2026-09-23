@@ -1,8 +1,22 @@
 {
   "version": "2.0",
-  "total": 3038,
-  "generated": "2026-09-22",
+  "total": 3039,
+  "generated": "2026-09-23",
   "skills": [
+    {
+      "slug": "generate-playable-games-with-codex-or-claude-code-using-godogen",
+      "name": "Generate playable games with Codex or Claude Code using Godogen",
+      "title": "Generate playable games with Codex or Claude Code using Godogen",
+      "description": "Use Godogen to publish a thin game-generation repo where Codex or Claude Code builds, runs, captures, and iterates on Godot, Bevy, or Babylon.js games…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 6977
+      },
+      "source_url": "https://github.com/htdt/godogen",
+      "github_repo": "htdt/godogen"
+    },
     {
       "slug": "schedule-postgres-backed-agent-maintenance-chains-with-pg-timetable",
       "name": "Schedule Postgres-backed agent maintenance chains with pg_timetable",

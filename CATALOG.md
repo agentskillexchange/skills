@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3038 published skills** across **17 categories** · 2,542 security reviewed · Updated 2026-09-22 19:27 UTC
+> **3039 published skills** across **17 categories** · 2,542 security reviewed · Updated 2026-09-23 01:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (488 skills)
+### 🛠️ Developer Tools (489 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -249,6 +249,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [sqlite-vec Vector Search Extension for SQLite](skills/sqlite-vec-vector-search-extension-sqlite/) | sqlite-vec is a lightweight SQLite extension for vector similarity search. Written in pure C with zero dependencies,… | Security Reviewed | 7.3k | 1.2M/wk |
 | [Extract clean article Markdown from web pages with Defuddle](skills/extract-clean-article-markdown-from-web-pages-with-defuddle/) | Use Defuddle when an agent needs clean, metadata-rich article text or Markdown from noisy web pages before… | Security Reviewed | 7.2k | 38.5k/wk |
 | [SQLite Analyst](skills/sqlite-analyst/) | SQLite Analyst is built around SQLite embedded database. The underlying ecosystem is represented by… | Published | 7.1k | 5.5M/wk |
+| [Generate playable games with Codex or Claude Code using Godogen](skills/generate-playable-games-with-codex-or-claude-code-using-godogen/) | Use Godogen to publish a thin game-generation repo where Codex or Claude Code builds, runs, captures, and iterates… | Security Reviewed | 7k | — |
 | [watchexec File Watcher and Command Re-Runner](skills/watchexec-file-watcher-command-rerunner/) | watchexec is a standalone file-watching tool written in Rust that automatically executes commands when it detects… | Security Reviewed | 6.9k | — |
 | [dbmate Lightweight Database Migration CLI](skills/dbmate-lightweight-database-migration-cli/) | dbmate is a standalone, framework-agnostic database migration tool that uses plain SQL files. It supports… | Security Reviewed | 6.8k | 99.2k/wk |
 | [Huh Interactive Terminal Forms and Prompts Library for Go](skills/huh-terminal-forms-prompts-library/) | Huh by Charmbracelet is a Go library for building interactive forms and prompts in the terminal. It supports input… | Security Reviewed | 6.8k | — |
