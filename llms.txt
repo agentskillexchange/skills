@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-23
-# Total: 3041 skills
+# Total: 3044 skills
+
+## Watch local agent token usage and session traces with TokenTelemetry
+slug: watch-local-agent-token-usage-and-session-traces-with-tokentelemetry
+category: Monitoring & Alerts
+framework: Multi-Framework
+verification: Published
+description: Use TokenTelemetry to read local Claude Code, Codex, Gemini CLI, Hermes, and other agent logs into a dashboard for token usage, costs, tool calls,…
+url: https://agentskillexchange.com/skills/watch-local-agent-token-usage-and-session-traces-with-tokentelemetry/
+
+## Install growth and GTM skill workflows into coding agents with Goose Skills
+slug: install-growth-and-gtm-skill-workflows-into-coding-agents-with-goose-skills
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Goose Skills to give Claude Code, Codex, Cursor, and similar coding agents reusable growth and go-to-market workflows for research, ads, social, content, lead…
+url: https://agentskillexchange.com/skills/install-growth-and-gtm-skill-workflows-into-coding-agents-with-goose-skills/
+
+## Inspect local coding-agent traces and share minimized reports with TraceCrate
+slug: inspect-local-coding-agent-traces-and-share-minimized-reports-with-tracecrate
+category: Monitoring & Alerts
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use TraceCrate to load Claude Code, Codex, OTLP, or native trace files locally, compare agent runs, inspect tool timelines, and export privacy-conscious structure-only reports.
+url: https://agentskillexchange.com/skills/inspect-local-coding-agent-traces-and-share-minimized-reports-with-tracecrate/
 
 ## Delegate fast Gemini staffers from Codex and Claude Code with agy-staff
 slug: delegate-fast-gemini-staffers-from-codex-and-claude-code-with-agy-staff

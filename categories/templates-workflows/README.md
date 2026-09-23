@@ -209,6 +209,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Prepare Rust Release PRs and Changelogs from Workspace Changes with release-plz](../../skills/prepare-rust-release-prs-and-changelogs-from-workspace-changes-with-release-plz/) | 1.3k | — |
 | [Run Parallel Divergent Ideation With ADHD](../../skills/run-parallel-divergent-ideation-with-adhd/) | 1.3k | 78/wk |
 | [Yeoman Generator Builder](../../skills/yeoman-generator-builder/) | 1.3k | 5M/wk |
+| [Install growth and GTM skill workflows into coding agents with Goose Skills](../../skills/install-growth-and-gtm-skill-workflows-into-coding-agents-with-goose-skills/) | 1.2k | 911/wk |
 | [Compose typed OpenClaw workflows with approval gates and resumable steps using Lobster](../../skills/compose-typed-openclaw-workflows-with-approval-gates-and-resumable-steps-using-lobster/) | 1.1k | — |
 | [Run spec-first Claude Code development workflows with MoAI-ADK](../../skills/run-spec-first-claude-code-development-workflows-with-moai-adk/) | 1.1k | 41/wk |
 | [Drive spec-first coding workflows with task boards, worktrees, and agent handoffs using Spec Kitty](../../skills/drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-handoffs-using-spec-kitty/) | 1.1k | — |

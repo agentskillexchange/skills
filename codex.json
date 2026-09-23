@@ -2,8 +2,41 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-23",
-  "total": 3041,
+  "total": 3044,
   "skills": [
+    {
+      "slug": "watch-local-agent-token-usage-and-session-traces-with-tokentelemetry",
+      "name": "Watch local agent token usage and session traces with TokenTelemetry",
+      "title": "Watch local agent token usage and session traces with TokenTelemetry",
+      "description": "Use TokenTelemetry to read local Claude Code, Codex, Gemini CLI, Hermes, and other agent logs into a dashboard for token usage, costs, tool calls,…",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/VasiHemanth/tokentelemetry",
+      "github_repo": "VasiHemanth/tokentelemetry"
+    },
+    {
+      "slug": "install-growth-and-gtm-skill-workflows-into-coding-agents-with-goose-skills",
+      "name": "Install growth and GTM skill workflows into coding agents with Goose Skills",
+      "title": "Install growth and GTM skill workflows into coding agents with Goose Skills",
+      "description": "Use Goose Skills to give Claude Code, Codex, Cursor, and similar coding agents reusable growth and go-to-market workflows for research, ads, social, content, lead…",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/gooseworks-ai/goose-skills",
+      "github_repo": "gooseworks-ai/goose-skills"
+    },
+    {
+      "slug": "inspect-local-coding-agent-traces-and-share-minimized-reports-with-tracecrate",
+      "name": "Inspect local coding-agent traces and share minimized reports with TraceCrate",
+      "title": "Inspect local coding-agent traces and share minimized reports with TraceCrate",
+      "description": "Use TraceCrate to load Claude Code, Codex, OTLP, or native trace files locally, compare agent runs, inspect tool timelines, and export privacy-conscious structure-only reports.",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/FankChen/tracecrate",
+      "github_repo": "FankChen/tracecrate"
+    },
     {
       "slug": "delegate-fast-gemini-staffers-from-codex-and-claude-code-with-agy-staff",
       "name": "Delegate fast Gemini staffers from Codex and Claude Code with agy-staff",
