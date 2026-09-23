@@ -1,8 +1,64 @@
 {
   "version": "2.0",
-  "total": 3044,
+  "total": 3048,
   "generated": "2026-09-23",
   "skills": [
+    {
+      "slug": "book-to-mentor",
+      "name": "Book to Mentor",
+      "title": "Book to Mentor",
+      "description": "Convert a book or long document into a reusable AI mentor with source-grounded lessons, guided practice, citations, and persistent learning records.",
+      "category": "Templates & Workflows",
+      "framework": "Codex",
+      "verification": "listed",
+      "source_url": "https://github.com/gengwenhao/book-to-mentor",
+      "github_repo": "gengwenhao/book-to-mentor"
+    },
+    {
+      "slug": "run-visual-e2e-qa-workflows-with-testdriverai",
+      "name": "Run visual E2E QA workflows with TestDriverAI",
+      "title": "Run visual E2E QA workflows with TestDriverAI",
+      "description": "Use TestDriverAI to initialize, author, and run vision-assisted Vitest E2E checks for browser, desktop, extension, chatbot, OAuth, upload, iframe, canvas, and other hard-to-test flows.",
+      "category": "Browser Automation",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 243,
+        "npm_weekly_downloads": 103684
+      },
+      "source_url": "https://github.com/testdriverai/testdriverai",
+      "github_repo": "testdriverai/testdriverai"
+    },
+    {
+      "slug": "coordinate-parallel-terminal-coding-agents-and-worktrees-with-pane",
+      "name": "Coordinate parallel terminal coding agents and worktrees with Pane",
+      "title": "Coordinate parallel terminal coding agents and worktrees with Pane",
+      "description": "Use Pane to manage multiple terminal-based coding agents, git worktrees, remote sessions, files, git state, and approval prompts from one local or self-hosted control…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "signals": {
+        "github_stars": 478,
+        "npm_weekly_downloads": 5661
+      },
+      "source_url": "https://github.com/greenfield-inc/Pane",
+      "github_repo": "greenfield-inc/Pane"
+    },
+    {
+      "slug": "build-source-owned-api-and-mcp-documentation-with-sourcey",
+      "name": "Build source-owned API and MCP documentation with Sourcey",
+      "title": "Build source-owned API and MCP documentation with Sourcey",
+      "description": "Use Sourcey to turn OpenAPI, MCP, Doxygen, godoc, rustdoc, MkDocs, and Markdown sources into static documentation, search, code samples, changelogs, roadmaps, and LLM context…",
+      "category": "Library & API Reference",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1370,
+        "npm_weekly_downloads": 6102
+      },
+      "source_url": "https://github.com/sourcey/sourcey",
+      "github_repo": "sourcey/sourcey"
+    },
     {
       "slug": "watch-local-agent-token-usage-and-session-traces-with-tokentelemetry",
       "name": "Watch local agent token usage and session traces with TokenTelemetry",

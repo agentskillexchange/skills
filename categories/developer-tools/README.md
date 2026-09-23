@@ -453,6 +453,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Run a Self-Hosted Coding Agent Workspace with ZhikunCode](../../skills/run-self-hosted-coding-agent-workspace-zhikuncode/) | 497 | — |
 | [Monitor multi-agent coding sessions in a terminal office with Pixtuoid](../../skills/monitor-multi-agent-coding-sessions-terminal-office-pixtuoid/) | 481 | 20/wk |
 | [Orchestrate multi-agent coding delivery loops with Maestro Flow](../../skills/orchestrate-multi-agent-coding-delivery-loops-with-maestro-flow/) | 480 | 1k/wk |
+| [Coordinate parallel terminal coding agents and worktrees with Pane](../../skills/coordinate-parallel-terminal-coding-agents-and-worktrees-with-pane/) | 478 | 5.7k/wk |
 | [Run multi-harness coding-agent sessions with Claudexor](../../skills/run-multi-harness-coding-agent-sessions-with-claudexor/) | 472 | 1.2k/wk |
 | [Maintain a Git-versioned codebase index for coding agents with AOCI-CODE](../../skills/maintain-a-git-versioned-codebase-index-for-coding-agents-with-aoci-code/) | 443 | — |
 | [Run agent CLI terminals inside Obsidian with Claude Sidebar](../../skills/run-agent-cli-terminals-inside-obsidian-with-claude-sidebar/) | 443 | — |

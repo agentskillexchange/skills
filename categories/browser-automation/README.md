@@ -154,6 +154,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Run supervised MCP browser automation with Auto Browser](../../skills/run-supervised-mcp-browser-automation-with-auto-browser/) | 565 | — |
 | [Run deterministic browser steps with settled screenshots and event logs for agents](../../skills/run-deterministic-browser-steps-with-settled-screenshots-and-event-logs-for-agents/) | 436 | 1.7k/wk |
 | [Benchmark browser agents on repeatable Playwright web tasks with Bananalyzer](../../skills/benchmark-browser-agents-on-repeatable-playwright-web-tasks-with-bananalyzer/) | 327 | — |
+| [Run visual E2E QA workflows with TestDriverAI](../../skills/run-visual-e2e-qa-workflows-with-testdriverai/) | 243 | 103.7k/wk |
 | [Control authenticated Chrome sessions through MCP with OpenChrome](../../skills/control-authenticated-chrome-sessions-through-mcp-with-openchrome/) | 206 | 12.1k/wk |
 | [Debug Firefox-only browser issues with DevTools MCP before shipping web changes](../../skills/debug-firefox-only-browser-issues-with-devtools-mcp-before-shipping-web-changes/) | 107 | 3k/wk |
 | [Benchmark browser agents on a fixed stealth and task suite with browser-use benchmark](../../skills/benchmark-browser-agents-on-a-fixed-stealth-and-task-suite-with-browser-use-benchmark/) | 71 | — |

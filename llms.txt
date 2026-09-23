@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-23
-# Total: 3044 skills
+# Total: 3048 skills
+
+## Book to Mentor
+slug: book-to-mentor
+category: Templates & Workflows
+framework: Codex
+verification: Published
+description: Convert a book or long document into a reusable AI mentor with source-grounded lessons, guided practice, citations, and persistent learning records.
+url: https://agentskillexchange.com/skills/book-to-mentor/
+
+## Run visual E2E QA workflows with TestDriverAI
+slug: run-visual-e2e-qa-workflows-with-testdriverai
+category: Browser Automation
+framework: MCP
+verification: Security Reviewed
+description: Use TestDriverAI to initialize, author, and run vision-assisted Vitest E2E checks for browser, desktop, extension, chatbot, OAuth, upload, iframe, canvas, and other hard-to-test flows.
+url: https://agentskillexchange.com/skills/run-visual-e2e-qa-workflows-with-testdriverai/
+
+## Coordinate parallel terminal coding agents and worktrees with Pane
+slug: coordinate-parallel-terminal-coding-agents-and-worktrees-with-pane
+category: Developer Tools
+framework: Multi-Framework
+verification: Published
+description: Use Pane to manage multiple terminal-based coding agents, git worktrees, remote sessions, files, git state, and approval prompts from one local or self-hosted control…
+url: https://agentskillexchange.com/skills/coordinate-parallel-terminal-coding-agents-and-worktrees-with-pane/
+
+## Build source-owned API and MCP documentation with Sourcey
+slug: build-source-owned-api-and-mcp-documentation-with-sourcey
+category: Library & API Reference
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Sourcey to turn OpenAPI, MCP, Doxygen, godoc, rustdoc, MkDocs, and Markdown sources into static documentation, search, code samples, changelogs, roadmaps, and LLM context…
+url: https://agentskillexchange.com/skills/build-source-owned-api-and-mcp-documentation-with-sourcey/
 
 ## Watch local agent token usage and session traces with TokenTelemetry
 slug: watch-local-agent-token-usage-and-session-traces-with-tokentelemetry

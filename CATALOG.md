@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3044 published skills** across **17 categories** · 2,548 security reviewed · Updated 2026-09-23 13:27 UTC
+> **3048 published skills** across **17 categories** · 2,548 security reviewed · Updated 2026-09-23 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (491 skills)
+### 🛠️ Developer Tools (492 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -427,6 +427,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Run a Self-Hosted Coding Agent Workspace with ZhikunCode](skills/run-self-hosted-coding-agent-workspace-zhikuncode/) | Use ZhikunCode to deploy a browser-based, self-hosted coding-agent workspace with CLI and web entry points,… | Security Reviewed | 497 | — |
 | [Monitor multi-agent coding sessions in a terminal office with Pixtuoid](skills/monitor-multi-agent-coding-sessions-terminal-office-pixtuoid/) | Use Pixtuoid as a terminal dashboard that shows multiple coding agents as live session avatars so operators can spot… | Security Reviewed | 481 | 20/wk |
 | [Orchestrate multi-agent coding delivery loops with Maestro Flow](skills/orchestrate-multi-agent-coding-delivery-loops-with-maestro-flow/) | Use Maestro Flow when a coding operator wants intent-driven planning, execution, verification, review, retry, and… | Security Reviewed | 480 | 1k/wk |
+| [Coordinate parallel terminal coding agents and worktrees with Pane](skills/coordinate-parallel-terminal-coding-agents-and-worktrees-with-pane/) | Use Pane to manage multiple terminal-based coding agents, git worktrees, remote sessions, files, git state, and… | Published | 478 | 5.7k/wk |
 | [Run multi-harness coding-agent sessions with Claudexor](skills/run-multi-harness-coding-agent-sessions-with-claudexor/) | Use Claudexor as a local-first control plane for Codex, Claude Code, Cursor, OpenCode, Antigravity, and API-backed… | Security Reviewed | 472 | 1.2k/wk |
 | [Maintain a Git-versioned codebase index for coding agents with AOCI-CODE](skills/maintain-a-git-versioned-codebase-index-for-coding-agents-with-aoci-code/) | Initialize a local MCP server and repository-owned index so coding agents can read durable code and database context… | Security Reviewed | 443 | — |
 | [Run agent CLI terminals inside Obsidian with Claude Sidebar](skills/run-agent-cli-terminals-inside-obsidian-with-claude-sidebar/) | Use Claude Sidebar when an operator wants Claude Code, Codex, or another agent CLI available as terminal tabs inside… | Published | 443 | — |
@@ -507,7 +508,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Zinc Universal Checkout](skills/zinc-universal-checkout/) | Discover, buy, track, and return products across Amazon, Walmart, Target, Best Buy, eBay, and 50+ US retailers via… | Published | — | — |
 
 
-### 📄 Templates & Workflows (254 skills)
+### 📄 Templates & Workflows (255 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -749,6 +750,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/) | Use Claude Code Dedupe to summarize an issue, run parallel GitHub duplicate searches, filter false positives, and… | Security Reviewed | — | 49.9M/wk |
 | [Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue](skills/triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue/) | Use Claude Code triage-issue to read a GitHub issue, verify it actually belongs to the product from body evidence… | Security Reviewed | — | 49.9M/wk |
 | [Autonomous Session Workflow](skills/autonomous-session-workflow/) | 5-phase repeatable structure for autonomous agent sessions: context-load, tiered work-selection, coordination claim,… | Published | — | — |
+| [Book to Mentor](skills/book-to-mentor/) | Convert a book or long document into a reusable AI mentor with source-grounded lessons, guided practice, citations,… | Published | — | — |
 | [Bubble.io Stripe Subscription Portal Builder](skills/bubble-stripe-subscription-portal/) | Uses Bubble's Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a… | Security Reviewed | — | — |
 | [Co-author structured docs with staged context gathering and reader testing](skills/co-author-structured-docs-with-staged-context-gathering-and-reader-testing/) | Use Anthropic's doc-coauthoring skill to run a disciplined writing workflow instead of freeform drafting. The agent… | Security Reviewed | — | — |
 | [Concept to Story](skills/concept-to-story/) | Teach concepts from user-provided PDFs in Codex through source-grounded stories, memory anchors, explicit analogy… | Published | — | — |
@@ -2345,7 +2347,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Xquik X Actors on Apify](skills/xquik-apify-x-actors/) | Run Xquik's public Apify Actors for X tweet collection, timelines, search, followers, lists, communities, and… | Published | — | — |
 
 
-### 📚 Library & API Reference (128 skills)
+### 📚 Library & API Reference (129 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=downloads)
 
@@ -2422,6 +2424,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Navigate indexed codebases through symbol-first MCP retrieval with jCodeMunch MCP](skills/navigate-indexed-codebases-through-symbol-first-mcp-retrieval-with-jcodemunch-mcp/) | Use jCodeMunch MCP when an agent needs precise symbol lookups, outlines, call-graph context, and targeted source… | Security Reviewed | 1.6k | — |
 | [Microsoft Learn MCP Server](skills/microsoft-learn-mcp-server/) | Microsoft Learn MCP Server gives agents and IDE assistants direct access to official Microsoft documentation and… | Security Reviewed | 1.5k | — |
 | [Build MCP servers and clients for PHP applications with the official PHP SDK](skills/build-mcp-servers-and-clients-for-php-applications-with-the-official-php-sdk/) | Use the official Model Context Protocol PHP SDK to expose PHP application capabilities as MCP tools, resources, and… | Security Reviewed | 1.5k | — |
+| [Build source-owned API and MCP documentation with Sourcey](skills/build-source-owned-api-and-mcp-documentation-with-sourcey/) | Use Sourcey to turn OpenAPI, MCP, Doxygen, godoc, rustdoc, MkDocs, and Markdown sources into static documentation,… | Security Reviewed | 1.4k | 6.1k/wk |
 | [Grounded Docs MCP Server](skills/grounded-docs-mcp-server/) | Grounded Docs MCP Server gives AI coding assistants a version-aware documentation index built from official sources… | Security Reviewed | 1.2k | 1.1k/wk |
 | [OpenAPI Specification Validator](skills/openapi-specification-validator-agent/) | Validates and lints OpenAPI 3.x specifications using swagger-parser, spectral, and openapi-typescript. Generates… | Security Reviewed | 1.2k | 4.3M/wk |
 | [OpenAPI Spec Changelog Generator](skills/openapi-spec-changelog-generator/) | Compares OpenAPI 3.x specification files using the oasdiff library to detect breaking changes, deprecated endpoints,… | Published | 1.2k | — |
@@ -2616,7 +2619,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses… | Security Reviewed | — | — |
 
 
-### 🌐 Browser Automation (123 skills)
+### 🌐 Browser Automation (124 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
@@ -2736,6 +2739,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Run supervised MCP browser automation with Auto Browser](skills/run-supervised-mcp-browser-automation-with-auto-browser/) | Give an MCP-capable agent a local Playwright browser with human takeover, reusable auth profiles, approvals, audit… | Security Reviewed | 565 | — |
 | [Run deterministic browser steps with settled screenshots and event logs for agents](skills/run-deterministic-browser-steps-with-settled-screenshots-and-event-logs-for-agents/) | Use Agent Browser Protocol when an agent needs browser actions to resolve into stable step results, complete with… | Security Reviewed | 436 | 1.7k/wk |
 | [Benchmark browser agents on repeatable Playwright web tasks with Bananalyzer](skills/benchmark-browser-agents-on-repeatable-playwright-web-tasks-with-bananalyzer/) | Run a repeatable evaluation suite for browser agents against static web task snapshots instead of judging them from… | Security Reviewed | 327 | — |
+| [Run visual E2E QA workflows with TestDriverAI](skills/run-visual-e2e-qa-workflows-with-testdriverai/) | Use TestDriverAI to initialize, author, and run vision-assisted Vitest E2E checks for browser, desktop, extension,… | Security Reviewed | 243 | 103.7k/wk |
 | [Control authenticated Chrome sessions through MCP with OpenChrome](skills/control-authenticated-chrome-sessions-through-mcp-with-openchrome/) | Let an agent drive a real logged-in Chrome profile through MCP for authenticated browsing, parallel tab work, and… | Security Reviewed | 206 | 12.1k/wk |
 | [Debug Firefox-only browser issues with DevTools MCP before shipping web changes](skills/debug-firefox-only-browser-issues-with-devtools-mcp-before-shipping-web-changes/) | Use Firefox DevTools MCP when an agent needs to inspect pages, trace network and console activity, capture… | Security Reviewed | 107 | 3k/wk |
 | [Benchmark browser agents on a fixed stealth and task suite with browser-use benchmark](skills/benchmark-browser-agents-on-a-fixed-stealth-and-task-suite-with-browser-use-benchmark/) | Compare browser-agent reliability on a repeatable task and anti-bot suite before choosing a stack or claiming progress. | Security Reviewed | 71 | — |
