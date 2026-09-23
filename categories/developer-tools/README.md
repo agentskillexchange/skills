@@ -381,6 +381,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Run queued background coding sessions across GitHub, Slack, Linear, and webhooks with background-agents](../../skills/run-queued-background-coding-sessions-across-github-slack-linear-and-webhooks-with-background-agents/) | 1.6k | — |
 | [Audit and maintain cross-agent skill libraries with Chops](../../skills/audit-and-maintain-cross-agent-skill-libraries-with-chops/) | 1.6k | — |
 | [Give MCP clients language-server code intelligence](../../skills/give-mcp-clients-language-server-code-intelligence/) | 1.5k | — |
+| [Run method-guided coding sessions with Loushang](../../skills/run-method-guided-coding-sessions-with-loushang/) | 1.5k | — |
 | [Add managed long-term memory to LangGraph agents with LangMem](../../skills/add-managed-long-term-memory-to-langgraph-agents-with-langmem/) | 1.5k | — |
 | [Build production Go agents with tRPC-Agent-Go](../../skills/build-production-go-agents-with-trpc-agent-go/) | 1.5k | — |
 | [Redocly CLI OpenAPI Linter and Documentation Generator](../../skills/redocly-cli-openapi-linter-documentation-generator/) | 1.4k | 1.6M/wk |
@@ -438,6 +439,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](../../skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | 621 | 4.9k/wk |
 | [Preview and approve coding-agent execution plans with Overture](../../skills/preview-and-approve-coding-agent-execution-plans-with-overture/) | 619 | 320/wk |
 | [Share local project memory across coding agents with Memorix](../../skills/share-local-project-memory-across-coding-agents-with-memorix/) | 579 | 969/wk |
+| [Delegate fast Gemini staffers from Codex and Claude Code with agy-staff](../../skills/delegate-fast-gemini-staffers-from-codex-and-claude-code-with-agy-staff/) | 560 | — |
 | [Run DeepSeek Harness agent sessions from a Claude Code-style terminal TUI](../../skills/run-deepseek-harness-agent-sessions-from-a-claude-code-style-terminal-tui/) | 558 | 255/wk |
 | [Plan, draft, publish, and review social posts from Claude Code with social-post](../../skills/plan-draft-publish-and-review-social-posts-from-claude-code-with-social-post/) | 555 | — |
 | [Run deterministic SQL and dbt analysis under coding agents with Altimate Code](../../skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/) | 552 | 195/wk |

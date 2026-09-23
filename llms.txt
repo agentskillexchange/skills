@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-23
-# Total: 3039 skills
+# Total: 3041 skills
+
+## Delegate fast Gemini staffers from Codex and Claude Code with agy-staff
+slug: delegate-fast-gemini-staffers-from-codex-and-claude-code-with-agy-staff
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use agy-staff to give Codex, Claude Code, and Pi reusable Antigravity CLI staff personas for quick research, review, implementation, and second-opinion tasks.
+url: https://agentskillexchange.com/skills/delegate-fast-gemini-staffers-from-codex-and-claude-code-with-agy-staff/
+
+## Run method-guided coding sessions with Loushang
+slug: run-method-guided-coding-sessions-with-loushang
+category: Developer Tools
+framework: Custom Agents
+verification: Security Reviewed
+description: Use Loushang to run recoverable coding-agent sessions with model routing, durable context, tool governance, methods, stages, and traceable delivery artifacts.
+url: https://agentskillexchange.com/skills/run-method-guided-coding-sessions-with-loushang/
 
 ## Generate playable games with Codex or Claude Code using Godogen
 slug: generate-playable-games-with-codex-or-claude-code-using-godogen

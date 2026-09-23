@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3039 published skills** across **17 categories** · 2,544 security reviewed · Updated 2026-09-23 01:27 UTC
+> **3041 published skills** across **17 categories** · 2,544 security reviewed · Updated 2026-09-23 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (489 skills)
+### 🛠️ Developer Tools (491 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -355,6 +355,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Run queued background coding sessions across GitHub, Slack, Linear, and webhooks with background-agents](skills/run-queued-background-coding-sessions-across-github-slack-linear-and-webhooks-with-background-agents/) | Dispatch long-running coding work to background agents, check progress later, and pull reviewed outputs back into… | Security Reviewed | 1.6k | — |
 | [Audit and maintain cross-agent skill libraries with Chops](skills/audit-and-maintain-cross-agent-skill-libraries-with-chops/) | Use Chops to discover, search, edit, and organize local or remote agent skills across Claude Code, Cursor, Codex,… | Security Reviewed | 1.6k | — |
 | [Give MCP clients language-server code intelligence](skills/give-mcp-clients-language-server-code-intelligence/) | Expose LSP-backed definition, reference, rename, and diagnostic tools to MCP clients so coding agents can inspect… | Security Reviewed | 1.5k | — |
+| [Run method-guided coding sessions with Loushang](skills/run-method-guided-coding-sessions-with-loushang/) | Use Loushang to run recoverable coding-agent sessions with model routing, durable context, tool governance, methods,… | Security Reviewed | 1.5k | — |
 | [Add managed long-term memory to LangGraph agents with LangMem](skills/add-managed-long-term-memory-to-langgraph-agents-with-langmem/) | Give LangGraph agents memory management and search tools so they can store, retrieve, and update durable facts… | Security Reviewed | 1.5k | — |
 | [Build production Go agents with tRPC-Agent-Go](skills/build-production-go-agents-with-trpc-agent-go/) | Model Go-native agent systems with graph workflows, tool calls, memory, MCP, A2A, evaluation, and OpenTelemetry… | Security Reviewed | 1.5k | — |
 | [Redocly CLI OpenAPI Linter and Documentation Generator](skills/redocly-cli-openapi-linter-documentation-generator/) | Redocly CLI is an all-in-one OpenAPI utility that lints, validates, bundles, and generates documentation from API… | Security Reviewed | 1.4k | 1.6M/wk |
@@ -412,6 +413,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | Convert a finished coding-agent session into a shareable HTML replay instead of sending raw logs or bulky screen… | Security Reviewed | 621 | 4.9k/wk |
 | [Preview and approve coding-agent execution plans with Overture](skills/preview-and-approve-coding-agent-execution-plans-with-overture/) | Render an AI coding agent's plan as an interactive flowchart so a human can inspect dependencies, attach context,… | Security Reviewed | 619 | 320/wk |
 | [Share local project memory across coding agents with Memorix](skills/share-local-project-memory-across-coding-agents-with-memorix/) | Use Memorix when multiple coding agents or sessions need a shared, searchable, local-first project memory instead of… | Security Reviewed | 579 | 969/wk |
+| [Delegate fast Gemini staffers from Codex and Claude Code with agy-staff](skills/delegate-fast-gemini-staffers-from-codex-and-claude-code-with-agy-staff/) | Use agy-staff to give Codex, Claude Code, and Pi reusable Antigravity CLI staff personas for quick research, review,… | Security Reviewed | 560 | — |
 | [Run DeepSeek Harness agent sessions from a Claude Code-style terminal TUI](skills/run-deepseek-harness-agent-sessions-from-a-claude-code-style-terminal-tui/) | Use dsh-cc-tui to run DeepSeek Harness coding-agent sessions from a full-screen terminal with live activity, context… | Security Reviewed | 558 | 255/wk |
 | [Plan, draft, publish, and review social posts from Claude Code with social-post](skills/plan-draft-publish-and-review-social-posts-from-claude-code-with-social-post/) | Install a Claude Code skill that learns a user's social voice, builds a 14-day content calendar, drafts posts, and… | Published | 555 | — |
 | [Run deterministic SQL and dbt analysis under coding agents with Altimate Code](skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/) | Adds deterministic SQL analysis, dbt-aware tooling, warehouse metadata, lineage, and test-generation workflows… | Published | 552 | 195/wk |

@@ -2,8 +2,30 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-23",
-  "total": 3039,
+  "total": 3041,
   "skills": [
+    {
+      "slug": "delegate-fast-gemini-staffers-from-codex-and-claude-code-with-agy-staff",
+      "name": "Delegate fast Gemini staffers from Codex and Claude Code with agy-staff",
+      "title": "Delegate fast Gemini staffers from Codex and Claude Code with agy-staff",
+      "description": "Use agy-staff to give Codex, Claude Code, and Pi reusable Antigravity CLI staff personas for quick research, review, implementation, and second-opinion tasks.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/keli-wen/agy-staff",
+      "github_repo": "keli-wen/agy-staff"
+    },
+    {
+      "slug": "run-method-guided-coding-sessions-with-loushang",
+      "name": "Run method-guided coding sessions with Loushang",
+      "title": "Run method-guided coding sessions with Loushang",
+      "description": "Use Loushang to run recoverable coding-agent sessions with model routing, durable context, tool governance, methods, stages, and traceable delivery artifacts.",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/zhnt/loushang",
+      "github_repo": "zhnt/loushang"
+    },
     {
       "slug": "generate-playable-games-with-codex-or-claude-code-using-godogen",
       "name": "Generate playable games with Codex or Claude Code using Godogen",
