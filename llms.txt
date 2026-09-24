@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-24
-# Total: 3049 skills
+# Total: 3050 skills
+
+## Build scroll-driven websites with the scroll-craft agent skill
+slug: build-scroll-driven-websites-with-the-scroll-craft-agent-skill
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use scroll-craft when a coding agent needs a structured workflow, references, engine, and verification tools for premium scroll-driven websites rather than a generic static…
+url: https://agentskillexchange.com/skills/build-scroll-driven-websites-with-the-scroll-craft-agent-skill/
 
 ## Coordinate multi-model coding squads with Vibe Squad
 slug: coordinate-multi-model-coding-squads-with-vibe-squad

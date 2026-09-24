@@ -343,6 +343,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Install verified Codex planning and completion loops with LazyCodex](../../skills/install-verified-codex-planning-and-completion-loops-with-lazycodex/) | 2.8k | 18.7k/wk |
 | [LangGraph.js Agent Orchestration Framework](../../skills/langgraph-js-agent-orchestration-framework/) | 2.8k | 3.1M/wk |
 | [Manage parallel coding agents with Agent of Empires](../../skills/manage-parallel-coding-agents-with-agent-of-empires/) | 2.8k | — |
+| [Build scroll-driven websites with the scroll-craft agent skill](../../skills/build-scroll-driven-websites-with-the-scroll-craft-agent-skill/) | 2.7k | — |
 | [Find and group duplicate files across large trees before cleanup migration or backup with fclones](../../skills/find-and-group-duplicate-files-across-large-trees-before-cleanup-migration-or-backup-with-fclones/) | 2.7k | — |
 | [gitu Magit-Inspired Terminal Git Interface](../../skills/gitu-magit-inspired-terminal-git-interface/) | 2.7k | — |
 | [files-to-prompt Directory Concatenator for LLM Context](../../skills/files-to-prompt-directory-concatenator-llm-context/) | 2.6k | — |

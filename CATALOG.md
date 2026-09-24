@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3049 published skills** across **17 categories** · 2,550 security reviewed · Updated 2026-09-24 01:26 UTC
+> **3050 published skills** across **17 categories** · 2,550 security reviewed · Updated 2026-09-24 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (493 skills)
+### 🛠️ Developer Tools (494 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -317,6 +317,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Install verified Codex planning and completion loops with LazyCodex](skills/install-verified-codex-planning-and-completion-loops-with-lazycodex/) | Add Codex commands, skills, hooks, diagnostics, and sub-agent roles for deep repository initialization, planning,… | Security Reviewed | 2.8k | 18.7k/wk |
 | [LangGraph.js Agent Orchestration Framework](skills/langgraph-js-agent-orchestration-framework/) | A verified skill for LangGraph.js, the graph-based orchestration framework from LangChain. It focuses on… | Published | 2.8k | 3.1M/wk |
 | [Manage parallel coding agents with Agent of Empires](skills/manage-parallel-coding-agents-with-agent-of-empires/) | Use Agent of Empires to launch, monitor, sandbox, resume, and review multiple coding-agent sessions from a TUI or… | Security Reviewed | 2.8k | — |
+| [Build scroll-driven websites with the scroll-craft agent skill](skills/build-scroll-driven-websites-with-the-scroll-craft-agent-skill/) | Use scroll-craft when a coding agent needs a structured workflow, references, engine, and verification tools for… | Security Reviewed | 2.7k | — |
 | [Find and group duplicate files across large trees before cleanup migration or backup with fclones](skills/find-and-group-duplicate-files-across-large-trees-before-cleanup-migration-or-backup-with-fclones/) | Scan large directory trees for duplicate or under-replicated files, then review grouped results before cleanup actions. | Published | 2.7k | — |
 | [gitu Magit-Inspired Terminal Git Interface](skills/gitu-magit-inspired-terminal-git-interface/) | A fast terminal user interface for Git inspired by Emacs Magit, written in Rust. gitu provides keyboard-driven… | Published | 2.7k | — |
 | [files-to-prompt Directory Concatenator for LLM Context](skills/files-to-prompt-directory-concatenator-llm-context/) | files-to-prompt by Simon Willison concatenates an entire directory of files into a single prompt for use with LLMs.… | Security Reviewed | 2.6k | — |

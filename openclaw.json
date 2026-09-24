@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-24",
-  "total": 3049,
+  "total": 3050,
   "skills": [
+    {
+      "slug": "build-scroll-driven-websites-with-the-scroll-craft-agent-skill",
+      "name": "Build scroll-driven websites with the scroll-craft agent skill",
+      "title": "Build scroll-driven websites with the scroll-craft agent skill",
+      "description": "Use scroll-craft when a coding agent needs a structured workflow, references, engine, and verification tools for premium scroll-driven websites rather than a generic static…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/nateherkai/scroll-craft",
+      "github_repo": "nateherkai/scroll-craft"
+    },
     {
       "slug": "coordinate-multi-model-coding-squads-with-vibe-squad",
       "name": "Coordinate multi-model coding squads with Vibe Squad",
