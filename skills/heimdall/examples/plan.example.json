@@ -1,0 +1,109 @@
+{
+  "name": "example-plan",
+  "baseUrl": "http://localhost:3000",
+  "defaultDriver": "cdp",
+  "cases": [
+    {
+      "id": "home-loads",
+      "title": "Home page renders without console errors",
+      "dimension": "functional",
+      "steps": [
+        {
+          "action": "goto",
+          "url": "/"
+        }
+      ],
+      "oracle": [
+        {
+          "assert": "noConsoleErrors"
+        },
+        {
+          "assert": "visible",
+          "selector": "body"
+        }
+      ],
+      "risk": "read-only",
+      "priority": "p0",
+      "tags": [
+        "smoke"
+      ]
+    },
+    {
+      "id": "login-flow",
+      "title": "User can log in and reach the dashboard",
+      "dimension": "functional",
+      "driver": "cdp",
+      "steps": [
+        {
+          "action": "goto",
+          "url": "/login"
+        },
+        {
+          "action": "fill",
+          "selector": "#email",
+          "value": "test@example.com"
+        },
+        {
+          "action": "fill",
+          "selector": "#password",
+          "value": "hunter2"
+        },
+        {
+          "action": "click",
+          "selector": "button[type=submit]"
+        },
+        {
+          "action": "waitFor",
+          "selector": ".dashboard"
+        }
+      ],
+      "oracle": [
+        {
+          "assert": "visible",
+          "selector": ".dashboard"
+        },
+        {
+          "assert": "urlContains",
+          "value": "/app"
+        }
+      ],
+      "risk": "read-only",
+      "priority": "p0",
+      "tags": [
+        "auth"
+      ]
+    },
+    {
+      "id": "health-endpoint",
+      "title": "Health endpoint returns 200 and ok:true",
+      "dimension": "api",
+      "steps": [
+        {
+          "action": "fetch",
+          "url": "/api/health",
+          "method": "GET",
+          "as": "health"
+        }
+      ],
+      "oracle": [
+        {
+          "assert": "status",
+          "equals": 200,
+          "of": "health"
+        },
+        {
+          "assert": "jsonPath",
+          "path": "ok",
+          "equals": true,
+          "of": "health"
+        }
+      ],
+      "risk": "read-only",
+      "priority": "p1",
+      "tags": [
+        "api",
+        "smoke"
+      ]
+    }
+  ]
+}
