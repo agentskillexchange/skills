@@ -2,12 +2,14 @@
 name: "Jev Social"
 slug: "jev-social"
 description: "Run browser-grounded, read-only Instagram, TikTok, or LinkedIn research with Jev choosing bounded operations and the local socai CLI returning source-linked evidence."
-category: "Research & Scraping"
-framework: "Multi-Framework"
-verification: listed
+verification: "listed"
 source: "https://github.com/socai-io/jev-social"
 author: "socai-io"
 publisher_type: "organization"
+category: "Research & Scraping"
+framework: "Multi-Framework"
+tool_ecosystem:
+  github_repo: "socai-io/jev-social"
 ---
 
 # Jev Social
@@ -99,6 +101,12 @@ Agent Skill Exchange. Pin its version if you choose to use it:
 ```bash
 npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill jev-social
 ```
+
+## Installation
+
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+
+- Source: https://github.com/socai-io/jev-social
 
 ## Source
 
