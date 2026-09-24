@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3048 published skills** across **17 categories** · 2,549 security reviewed · Updated 2026-09-23 19:27 UTC
+> **3049 published skills** across **17 categories** · 2,549 security reviewed · Updated 2026-09-24 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (492 skills)
+### 🛠️ Developer Tools (493 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -467,6 +467,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Meilisearch MCP Server for AI-Powered Search Integration](skills/meilisearch-mcp-server-ai-search/) | Official Model Context Protocol server that connects LLMs to Meilisearch for lightning-fast search, index… | Security Reviewed | 181 | — |
 | [Coordinate project-scoped CLI agent sessions with Termio](skills/coordinate-project-scoped-cli-agent-sessions-with-termio/) | Use Termio's `termio sessions` CLI to list, watch, spawn, send to, read, and close sibling coding-agent sessions in… | Security Reviewed | 180 | — |
 | [Compress repeated agent context and command output before it reaches coding agents with sqz](skills/compress-repeated-agent-context-and-command-output-before-it-reaches-coding-agents-with-sqz/) | Reduces token burn by compressing command output and deduplicating repeated file reads before they are sent to… | Published | 165 | — |
+| [Coordinate multi-model coding squads with Vibe Squad](skills/coordinate-multi-model-coding-squads-with-vibe-squad/) | Use Vibe Squad to route a scoped development goal through a Markdown-defined coordinator, specialist roles, isolated… | Security Reviewed | 161 | — |
 | [Move agent chat histories into DeepSeek Harness with DSH Chat Import](skills/move-agent-chat-histories-into-deepseek-harness-with-dsh-chat-import/) | Preview, import, resume, export, and sync coding-agent conversations across Claude Code, Codex, ChatGPT, Cursor,… | Security Reviewed | 155 | 18.7k/wk |
 | [Coordinate parallel coding-agent worktrees and terminals with Ouijit](skills/coordinate-parallel-coding-agent-worktrees-and-terminals-with-ouijit/) | Use Ouijit to manage parallel CLI coding-agent tasks with per-task git worktrees, integrated terminals, lifecycle… | Security Reviewed | 154 | — |
 | [Supervise tmux-based coding-agent sessions with agent-manager](skills/supervise-tmux-based-coding-agent-sessions-with-agent-manager/) | Use agent-manager to launch, monitor, prompt, revive, and review multiple Claude Code, Codex, OpenCode, Grok, or… | Security Reviewed | 154 | — |

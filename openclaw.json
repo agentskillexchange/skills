@@ -1,9 +1,20 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-09-23",
-  "total": 3048,
+  "generated": "2026-09-24",
+  "total": 3049,
   "skills": [
+    {
+      "slug": "coordinate-multi-model-coding-squads-with-vibe-squad",
+      "name": "Coordinate multi-model coding squads with Vibe Squad",
+      "title": "Coordinate multi-model coding squads with Vibe Squad",
+      "description": "Use Vibe Squad to route a scoped development goal through a Markdown-defined coordinator, specialist roles, isolated git worktrees, native model CLIs, and independent review…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/mtarcure/claude-vibe-squad",
+      "github_repo": "mtarcure/claude-vibe-squad"
+    },
     {
       "slug": "book-to-mentor",
       "name": "Book to Mentor",

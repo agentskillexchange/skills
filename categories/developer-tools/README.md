@@ -493,6 +493,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Meilisearch MCP Server for AI-Powered Search Integration](../../skills/meilisearch-mcp-server-ai-search/) | 181 | — |
 | [Coordinate project-scoped CLI agent sessions with Termio](../../skills/coordinate-project-scoped-cli-agent-sessions-with-termio/) | 180 | — |
 | [Compress repeated agent context and command output before it reaches coding agents with sqz](../../skills/compress-repeated-agent-context-and-command-output-before-it-reaches-coding-agents-with-sqz/) | 165 | — |
+| [Coordinate multi-model coding squads with Vibe Squad](../../skills/coordinate-multi-model-coding-squads-with-vibe-squad/) | 161 | — |
 | [Move agent chat histories into DeepSeek Harness with DSH Chat Import](../../skills/move-agent-chat-histories-into-deepseek-harness-with-dsh-chat-import/) | 155 | 18.7k/wk |
 | [Coordinate parallel coding-agent worktrees and terminals with Ouijit](../../skills/coordinate-parallel-coding-agent-worktrees-and-terminals-with-ouijit/) | 154 | — |
 | [Supervise tmux-based coding-agent sessions with agent-manager](../../skills/supervise-tmux-based-coding-agent-sessions-with-agent-manager/) | 154 | — |
