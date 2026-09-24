@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-24
-# Total: 3050 skills
+# Total: 3053 skills
+
+## Jev Social
+slug: jev-social
+category: Research & Scraping
+framework: Multi-Framework
+verification: Published
+description: Run browser-grounded, read-only Instagram, TikTok, or LinkedIn research with Jev choosing bounded operations and the local socai CLI returning source-linked evidence.
+url: https://agentskillexchange.com/skills/jev-social/
+
+## Write long-form fiction with agent skills using Oh Story
+slug: write-long-form-fiction-with-agent-skills-using-oh-story
+category: Content Writing & SEO
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Oh Story when a coding agent should run a structured fiction-writing workflow with project files, story state, outlines, drafting gates, continuity tracking, style…
+url: https://agentskillexchange.com/skills/write-long-form-fiction-with-agent-skills-using-oh-story/
+
+## Drive stealth browser automation from agents with Invisible Playwright MCP
+slug: drive-stealth-browser-automation-from-agents-with-invisible-playwright-mcp
+category: Browser Automation
+framework: MCP
+verification: Security Reviewed
+description: Use Invisible Playwright MCP when an agent needs a self-hosted browser automation runtime for permitted web research, scraping, form navigation, and computer-use workflows that…
+url: https://agentskillexchange.com/skills/drive-stealth-browser-automation-from-agents-with-invisible-playwright-mcp/
 
 ## Build scroll-driven websites with the scroll-craft agent skill
 slug: build-scroll-driven-websites-with-the-scroll-craft-agent-skill

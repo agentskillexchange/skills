@@ -1,8 +1,47 @@
 {
   "version": "2.0",
-  "total": 3050,
+  "total": 3053,
   "generated": "2026-09-24",
   "skills": [
+    {
+      "slug": "jev-social",
+      "name": "Jev Social",
+      "title": "Jev Social",
+      "description": "Run browser-grounded, read-only Instagram, TikTok, or LinkedIn research with Jev choosing bounded operations and the local socai CLI returning source-linked evidence.",
+      "category": "Research & Scraping",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/socai-io/jev-social",
+      "github_repo": "socai-io/jev-social"
+    },
+    {
+      "slug": "write-long-form-fiction-with-agent-skills-using-oh-story",
+      "name": "Write long-form fiction with agent skills using Oh Story",
+      "title": "Write long-form fiction with agent skills using Oh Story",
+      "description": "Use Oh Story when a coding agent should run a structured fiction-writing workflow with project files, story state, outlines, drafting gates, continuity tracking, style…",
+      "category": "Content Writing & SEO",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 7087
+      },
+      "source_url": "https://github.com/zenstory-ai/oh-story-claudecode",
+      "github_repo": "zenstory-ai/oh-story-claudecode"
+    },
+    {
+      "slug": "drive-stealth-browser-automation-from-agents-with-invisible-playwright-mcp",
+      "name": "Drive stealth browser automation from agents with Invisible Playwright MCP",
+      "title": "Drive stealth browser automation from agents with Invisible Playwright MCP",
+      "description": "Use Invisible Playwright MCP when an agent needs a self-hosted browser automation runtime for permitted web research, scraping, form navigation, and computer-use workflows that…",
+      "category": "Browser Automation",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 31649
+      },
+      "source_url": "https://github.com/feder-cr/invisible_playwright_mcp",
+      "github_repo": "feder-cr/invisible_playwright_mcp"
+    },
     {
       "slug": "build-scroll-driven-websites-with-the-scroll-craft-agent-skill",
       "name": "Build scroll-driven websites with the scroll-craft agent skill",

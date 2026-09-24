@@ -95,6 +95,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Selenium Grid Test Orchestrator](../../skills/selenium-grid-test-orchestrator-2/) | 34.1k | 1.9M/wk |
 | [Selenium WebDriver Browser Automation Framework](../../skills/selenium-webdriver-browser-automation-framework/) | 34.1k | 1.9M/wk |
 | [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | 33.3k | 5.4M/wk |
+| [Drive stealth browser automation from agents with Invisible Playwright MCP](../../skills/drive-stealth-browser-automation-from-agents-with-invisible-playwright-mcp/) | 31.6k | — |
 | [Microsoft Playwright MCP](../../skills/microsoft-playwright-mcp/) | 30.8k | 2.8M/wk |
 | [Run supervised browser automation workflows with AIHawk](../../skills/run-one-shot-and-supervised-browser-automation-workflows-with-aihawk/) | 30.3k | — |
 | [Playwright MCP Server for Browser Automation](../../skills/playwright-mcp-server-browser-automation/) | 30.1k | 2.4M/wk |

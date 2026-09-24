@@ -1,6 +1,6 @@
 # Categories
 
-> **3050 skills** across **17 categories**
+> **3053 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -13,14 +13,14 @@
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **178** | Incident response, troubleshooting guides, system diagnostics, and op... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **172** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **161** | Metrics collection, alerting rules, observability setup, and system m... |
-| 🔍 | [**Research & Scraping**](research-scraping/) | **131** | Web research, data collection, content aggregation, and information g... |
+| 🔍 | [**Research & Scraping**](research-scraping/) | **132** | Web research, data collection, content aggregation, and information g... |
 | 📚 | [**Library & API Reference**](library-api-reference/) | **129** | SDK documentation, API guides, framework reference material, and libr... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **127** | Email automation, calendar management, task coordination, and product... |
-| 🌐 | [**Browser Automation**](browser-automation/) | **124** | Web scraping, UI testing, headless browser control, and browser-based... |
+| 🌐 | [**Browser Automation**](browser-automation/) | **125** | Web scraping, UI testing, headless browser control, and browser-based... |
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **112** | Image generation, asset processing, design automation, and creative t... |
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **109** | Audio/video processing, speech-to-text, media conversion, and transcr... |
 | 📰 | [**WordPress & CMS**](wordpress-cms/) | **96** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
-| ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **93** | Blog posts, SEO optimization, content strategy, and writing assistance. |
+| ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **94** | Blog posts, SEO optimization, content strategy, and writing assistance. |
 
 ---
 

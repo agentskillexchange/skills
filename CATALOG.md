@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3050 published skills** across **17 categories** · 2,552 security reviewed · Updated 2026-09-24 07:27 UTC
+> **3053 published skills** across **17 categories** · 2,552 security reviewed · Updated 2026-09-24 13:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -2210,7 +2210,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Published | — | — |
 
 
-### 🔍 Research & Scraping (131 skills)
+### 🔍 Research & Scraping (132 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -2329,6 +2329,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Diffbot Article Extraction Verifier](skills/diffbot-article-extraction-verifier/) | Validates article extraction quality using the Diffbot Article API and Analyze API, checking fields like `title`,… | Security Reviewed | — | — |
 | [Diffbot Knowledge Graph Extractor](skills/diffbot-knowledge-graph-extractor/) | Extracts structured entities from web pages using the Diffbot Extraction API and Knowledge Graph. Supports article,… | Security Reviewed | — | — |
 | [Find Products by Intent with Mydentify](skills/find-products-by-intent-with-mydentify/) | Use Mydentify's public intent and product feeds to find software by the outcome a person wants, then return… | Published | — | — |
+| [Jev Social](skills/jev-social/) | Run browser-grounded, read-only Instagram, TikTok, or LinkedIn research with Jev choosing bounded operations and the… | Published | — | — |
 | [Jina Reader API Skill](skills/jina-reader-api-skill/) | Extracts clean markdown content from any URL using the Jina Reader API (r.jina.ai). Handles JavaScript-rendered… | Security Reviewed | — | — |
 | [OSINT Domain Intelligence Scanner](skills/osint-domain-intelligence-scanner/) | Performs deep OSINT analysis on domains using Shodan API, SecurityTrails DNS history, and WHOIS RDAP lookups.… | Published | — | — |
 | [Patent Landscape Analyzer](skills/patent-landscape-analyzer/) | Searches the USPTO PatentsView API and European Patent Office OPS (Open Patent Services) API for patent grants,… | Published | — | — |
@@ -2621,7 +2622,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses… | Security Reviewed | — | — |
 
 
-### 🌐 Browser Automation (124 skills)
+### 🌐 Browser Automation (125 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
@@ -2682,6 +2683,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Selenium Grid Test Orchestrator](skills/selenium-grid-test-orchestrator-2/) | Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid API. Manages session queuing,… | Security Reviewed | 34.1k | 1.9M/wk |
 | [Selenium WebDriver Browser Automation Framework](skills/selenium-webdriver-browser-automation-framework/) | Selenium is the long-running open source browser automation framework behind the W3C WebDriver standard. It gives… | Security Reviewed | 34.1k | 1.9M/wk |
 | [Playwright MCP Browser Automation](skills/playwright-mcp-browser-automation/) | Official Playwright-powered browser control for agent workflows. | Security Reviewed | 33.3k | 5.4M/wk |
+| [Drive stealth browser automation from agents with Invisible Playwright MCP](skills/drive-stealth-browser-automation-from-agents-with-invisible-playwright-mcp/) | Use Invisible Playwright MCP when an agent needs a self-hosted browser automation runtime for permitted web… | Security Reviewed | 31.6k | — |
 | [Microsoft Playwright MCP](skills/microsoft-playwright-mcp/) | Microsoft Playwright MCP exposes Playwright browser automation through the Model Context Protocol, giving agents… | Security Reviewed | 30.8k | 2.8M/wk |
 | [Run supervised browser automation workflows with AIHawk](skills/run-one-shot-and-supervised-browser-automation-workflows-with-aihawk/) | Use AIHawk's local supervised browser UI for bounded web research and extraction, with human review before external… | Security Reviewed | 30.3k | — |
 | [Playwright MCP Server for Browser Automation](skills/playwright-mcp-server-browser-automation/) | The official Microsoft Playwright MCP server provides browser automation capabilities through the Model Context… | Security Reviewed | 30.1k | 2.4M/wk |
@@ -3094,7 +3096,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized… | Security Reviewed | — | — |
 
 
-### ✍️ Content Writing & SEO (93 skills)
+### ✍️ Content Writing & SEO (94 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
 
@@ -3111,6 +3113,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [Harper Offline Privacy-First Grammar Checker by Automattic](skills/harper-offline-grammar-checker-automattic/) | Harper is an offline, privacy-first grammar checker written in Rust by Automattic. It runs locally with sub-10ms… | Published | 10.2k | — |
 | [Audit Websites for AI Search Visibility with GEO SEO Claude](skills/audit-websites-for-ai-search-visibility-with-geo-seo-claude/) | Use GEO SEO Claude when Claude Code should run repeatable AI-search and SEO audits with citability, crawler, schema,… | Security Reviewed | 9.3k | — |
 | [Markdoc Markdown-Based Authoring Framework by Stripe](skills/markdoc-markdown-authoring-framework-stripe/) | Markdoc is a powerful Markdown-based authoring framework created by Stripe to power their public documentation. It… | Security Reviewed | 7.9k | 319k/wk |
+| [Write long-form fiction with agent skills using Oh Story](skills/write-long-form-fiction-with-agent-skills-using-oh-story/) | Use Oh Story when a coding agent should run a structured fiction-writing workflow with project files, story state,… | Security Reviewed | 7.1k | — |
 | [Run a long-form SEO blog production workflow inside Claude Code with SEO Machine](skills/run-a-long-form-seo-blog-production-workflow-inside-claude-code-with-seo-machine/) | Research, outline, draft, review, and optimize long-form blog posts through a repeatable Claude Code workspace… | Security Reviewed | 6.6k | — |
 | [Schema.org Structured Data Generator](skills/schema-org-structured-data-generator/) | Generates JSON-LD structured data markup for articles, products, FAQs, and how-to pages using Schema.org vocabulary.… | Security Reviewed | 6k | — |
 | [Generate social carousel and cover assets with Guizang Social Card Skill](skills/generate-social-carousel-and-cover-assets-with-guizang-social-card-skill/) | Use Guizang Social Card Skill from Claude Code or Codex to turn source material into Rednote/Xiaohongshu carousel… | Security Reviewed | 5.8k | — |

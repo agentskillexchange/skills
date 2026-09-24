@@ -153,6 +153,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Diffbot Article Extraction Verifier](../../skills/diffbot-article-extraction-verifier/) | — | — |
 | [Diffbot Knowledge Graph Extractor](../../skills/diffbot-knowledge-graph-extractor/) | — | — |
 | [Find Products by Intent with Mydentify](../../skills/find-products-by-intent-with-mydentify/) | — | — |
+| [Jev Social](../../skills/jev-social/) | — | — |
 | [Jina Reader API Skill](../../skills/jina-reader-api-skill/) | — | — |
 | [OSINT Domain Intelligence Scanner](../../skills/osint-domain-intelligence-scanner/) | — | — |
 | [Patent Landscape Analyzer](../../skills/patent-landscape-analyzer/) | — | — |

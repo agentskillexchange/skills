@@ -51,6 +51,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Harper Offline Privacy-First Grammar Checker by Automattic](../../skills/harper-offline-grammar-checker-automattic/) | 10.2k | — |
 | [Audit Websites for AI Search Visibility with GEO SEO Claude](../../skills/audit-websites-for-ai-search-visibility-with-geo-seo-claude/) | 9.3k | — |
 | [Markdoc Markdown-Based Authoring Framework by Stripe](../../skills/markdoc-markdown-authoring-framework-stripe/) | 7.9k | 319k/wk |
+| [Write long-form fiction with agent skills using Oh Story](../../skills/write-long-form-fiction-with-agent-skills-using-oh-story/) | 7.1k | — |
 | [Run a long-form SEO blog production workflow inside Claude Code with SEO Machine](../../skills/run-a-long-form-seo-blog-production-workflow-inside-claude-code-with-seo-machine/) | 6.6k | — |
 | [Schema.org Structured Data Generator](../../skills/schema-org-structured-data-generator/) | 6k | — |
 | [Generate social carousel and cover assets with Guizang Social Card Skill](../../skills/generate-social-carousel-and-cover-assets-with-guizang-social-card-skill/) | 5.8k | — |
