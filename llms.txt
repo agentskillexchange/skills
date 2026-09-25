@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-09-24
-# Total: 3053 skills
+# Generated: 2026-09-25
+# Total: 3054 skills
+
+## Run gated math modeling contest workflows with MathModeling Skills
+slug: run-gated-math-modeling-contest-workflows-with-mathmodeling-skills
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use MathModeling Skills when Claude Code or Codex should guide a math modeling contest project through staged parsing, method selection, code generation, review, frozen-number…
+url: https://agentskillexchange.com/skills/run-gated-math-modeling-contest-workflows-with-mathmodeling-skills/
 
 ## Jev Social
 slug: jev-social

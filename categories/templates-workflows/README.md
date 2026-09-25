@@ -213,6 +213,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Compose typed OpenClaw workflows with approval gates and resumable steps using Lobster](../../skills/compose-typed-openclaw-workflows-with-approval-gates-and-resumable-steps-using-lobster/) | 1.1k | — |
 | [Run spec-first Claude Code development workflows with MoAI-ADK](../../skills/run-spec-first-claude-code-development-workflows-with-moai-adk/) | 1.1k | 41/wk |
 | [Drive spec-first coding workflows with task boards, worktrees, and agent handoffs using Spec Kitty](../../skills/drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-handoffs-using-spec-kitty/) | 1.1k | — |
+| [Run gated math modeling contest workflows with MathModeling Skills](../../skills/run-gated-math-modeling-contest-workflows-with-mathmodeling-skills/) | 1.1k | — |
 | [Run bioinformatics analysis workflows with bioSkills](../../skills/run-bioinformatics-analysis-workflows-with-bioskills/) | 1.1k | — |
 | [Prepare bid proposal drafts and compliance checks with OpenBidKit Yibiao](../../skills/prepare-bid-proposal-drafts-and-compliance-checks-with-openbidkit-yibiao/) | 1k | — |
 | [Run durable Node agent jobs without Redis using Sidequest](../../skills/run-durable-node-agent-jobs-without-redis-using-sidequest/) | 1k | 7.1k/wk |

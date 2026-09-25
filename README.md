@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C053-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C054-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C553-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,053 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,054 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Whisper Subtitle Generator](skills/whisper-subtitle-generator/)** — Generates accurate subtitles and captions using OpenAI Whisper API with word-level timestamps. Outputs SRT, VTT, and ASS formats with configurable line length and speaker diarization via pyannote.
+**[Build scroll-driven websites with the scroll-craft agent skill](skills/build-scroll-driven-websites-with-the-scroll-craft-agent-skill/)** — Use scroll-craft when a coding agent needs a structured workflow, references, engine, and verification tools for premium scroll-driven websites rather than a generic static landing page.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -87,6 +87,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Run gated math modeling contest workflows with MathModeling Skills](skills/run-gated-math-modeling-contest-workflows-with-mathmodeling-skills/) | Use MathModeling Skills when Claude Code or Codex should guide a math modeling contest project through staged parsing... | 1.1k | Templates & Workflows |
 | [Jev Social](skills/jev-social/) | Run browser-grounded, read-only Instagram, TikTok, or LinkedIn research with Jev choosing bounded operations and the local socai CLI... | - | Research & Scraping |
 | [Write long-form fiction with agent skills using Oh Story](skills/write-long-form-fiction-with-agent-skills-using-oh-story/) | Use Oh Story when a coding agent should run a structured fiction-writing workflow with project files, story state... | 7.1k | Content Writing & SEO |
 | [Drive stealth browser automation from agents with Invisible Playwright MCP](skills/drive-stealth-browser-automation-from-agents-with-invisible-playwright-mcp/) | Use Invisible Playwright MCP when an agent needs a self-hosted browser automation runtime for permitted web research, scraping... | 31.6k | Browser Automation |
@@ -96,7 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Run visual E2E QA workflows with TestDriverAI](skills/run-visual-e2e-qa-workflows-with-testdriverai/) | Use TestDriverAI to initialize, author, and run vision-assisted Vitest E2E checks for browser, desktop, extension, chatbot, OAuth, upload... | 243 | Browser Automation |
 | [Coordinate parallel terminal coding agents and worktrees with Pane](skills/coordinate-parallel-terminal-coding-agents-and-worktrees-with-pane/) | Use Pane to manage multiple terminal-based coding agents, git worktrees, remote sessions, files, git state, and approval prompts... | 478 | Developer Tools |
 | [Build source-owned API and MCP documentation with Sourcey](skills/build-source-owned-api-and-mcp-documentation-with-sourcey/) | Use Sourcey to turn OpenAPI, MCP, Doxygen, godoc, rustdoc, MkDocs, and Markdown sources into static documentation, search, code... | 1.4k | Library & API Reference |
-| [Watch local agent token usage and session traces with TokenTelemetry](skills/watch-local-agent-token-usage-and-session-traces-with-tokentelemetry/) | Use TokenTelemetry to read local Claude Code, Codex, Gemini CLI, Hermes, and other agent logs into a dashboard... | 368 | Monitoring & Alerts |
 
 ---
 
@@ -126,8 +126,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Build spec-driven full-stack apps with Wasp](skills/build-spec-driven-full-stack-apps-with-wasp/) | Use Wasp when an agent needs to scaffold or modify a React, Node.js, and Prisma app from a... | 18.7k | Templates & Workflows |
 | [Schedule Node Agent Jobs with node-cron](skills/schedule-node-agent-jobs-with-node-cron/) | Use node-cron to add recurring background jobs to Node.js agent services with overlap prevention, distributed coordination, background task... | 3.3k | Templates & Workflows |
 | [Run IDE-wired terminal coding-agent workflows with Oh My Pi](skills/run-ide-wired-terminal-coding-agent-workflows-with-oh-my-pi/) | Use Oh My Pi when an operator wants a local terminal coding agent with IDE-grade context, built-in file... | 31.8k | Developer Tools |
-| [Build agent-maintainable reactive UI with ArrowJS](skills/build-agent-maintainable-reactive-ui-with-arrowjs/) | Use ArrowJS when a coding agent needs to add or maintain small reactive web interfaces using DOM-native JavaScript... | 3.8k | Developer Tools |
 | [Build TypeScript spreadsheet import and export workflows with hucre](skills/build-typescript-spreadsheet-import-and-export-workflows-with-hucre/) | Use hucre when a coding agent needs to add zero-dependency XLSX, CSV, ODS, JSON, NDJSON, or XML spreadsheet... | 2.2k | Data Extraction & Transformation |
+| [Build agent-maintainable reactive UI with ArrowJS](skills/build-agent-maintainable-reactive-ui-with-arrowjs/) | Use ArrowJS when a coding agent needs to add or maintain small reactive web interfaces using DOM-native JavaScript... | 3.8k | Developer Tools |
 | [Compile agent-ready documentation bundles with docmd](skills/compile-agent-ready-documentation-bundles-with-docmd/) | Use docmd when a project needs one Markdown documentation source to produce a site, search index, llms.txt, MCP... | 2.5k | Library & API Reference |
 | [Query HyperDX logs, traces, metrics, and session replay from agent incident workflows](skills/query-hyperdx-logs-traces-and-session-replay-from-agent-incident-workflows/) | Use HyperDX and its agent-friendly CLI output to search, live-tail, and correlate OpenTelemetry signals during supervised production investigations | 9.9k | Monitoring & Alerts |
 | [Build source-owned API and MCP documentation with Sourcey](skills/build-source-owned-api-and-mcp-documentation-with-sourcey/) | Use Sourcey to turn OpenAPI, MCP, Doxygen, godoc, rustdoc, MkDocs, and Markdown sources into static documentation, search, code... | 1.4k | Library & API Reference |
@@ -141,7 +141,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | | Category | Skills | What's inside |
 |---|---|---:|---|
 | 🛠️ | [**Developer Tools**](categories/developer-tools/) | 494 | CLI tools, scaffolders, dev environment setup |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 255 | Scaffolders, boilerplate generators, workflow templates |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 256 | Scaffolders, boilerplate generators, workflow templates |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 251 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 225 | ETL pipelines, parsing, format conversion |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 202 | Linting, code review, test generators, coverage |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,053 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 3,054 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,553 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

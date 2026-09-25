@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3053 published skills** across **17 categories** · 2,553 security reviewed · Updated 2026-09-24 19:27 UTC
+> **3054 published skills** across **17 categories** · 2,553 security reviewed · Updated 2026-09-25 01:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -510,7 +510,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Zinc Universal Checkout](skills/zinc-universal-checkout/) | Discover, buy, track, and return products across Amazon, Walmart, Target, Best Buy, eBay, and 50+ US retailers via… | Published | — | — |
 
 
-### 📄 Templates & Workflows (255 skills)
+### 📄 Templates & Workflows (256 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -689,6 +689,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Compose typed OpenClaw workflows with approval gates and resumable steps using Lobster](skills/compose-typed-openclaw-workflows-with-approval-gates-and-resumable-steps-using-lobster/) | Use Lobster when an OpenClaw operator wants one deterministic typed workflow step, with approval gates and resumable… | Security Reviewed | 1.1k | — |
 | [Run spec-first Claude Code development workflows with MoAI-ADK](skills/run-spec-first-claude-code-development-workflows-with-moai-adk/) | Use MoAI-ADK to install Claude Code agents and skills for spec-first implementation, TDD, DDD, and quality-gated… | Security Reviewed | 1.1k | 41/wk |
 | [Drive spec-first coding workflows with task boards, worktrees, and agent handoffs using Spec Kitty](skills/drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-handoffs-using-spec-kitty/) | Move from spec to plan to tasks to review through one repo-native workflow when larger AI coding efforts need… | Security Reviewed | 1.1k | — |
+| [Run gated math modeling contest workflows with MathModeling Skills](skills/run-gated-math-modeling-contest-workflows-with-mathmodeling-skills/) | Use MathModeling Skills when Claude Code or Codex should guide a math modeling contest project through staged… | Security Reviewed | 1.1k | — |
 | [Run bioinformatics analysis workflows with bioSkills](skills/run-bioinformatics-analysis-workflows-with-bioskills/) | Use bioSkills to give an agent domain-specific bioinformatics procedures, tool choices, and guardrails for omics… | Security Reviewed | 1.1k | — |
 | [Prepare bid proposal drafts and compliance checks with OpenBidKit Yibiao](skills/prepare-bid-proposal-drafts-and-compliance-checks-with-openbidkit-yibiao/) | Use OpenBidKit Yibiao to turn tender materials, company knowledge, and model-provider settings into reviewable bid… | Security Reviewed | 1k | — |
 | [Run durable Node agent jobs without Redis using Sidequest](skills/run-durable-node-agent-jobs-without-redis-using-sidequest/) | Use Sidequest to run durable Node.js agent jobs, retries, cron schedules, and queue dashboards on PostgreSQL, MySQL,… | Security Reviewed | 1k | 7.1k/wk |

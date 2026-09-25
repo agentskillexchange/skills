@@ -1,9 +1,20 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-09-24",
-  "total": 3053,
+  "generated": "2026-09-25",
+  "total": 3054,
   "skills": [
+    {
+      "slug": "run-gated-math-modeling-contest-workflows-with-mathmodeling-skills",
+      "name": "Run gated math modeling contest workflows with MathModeling Skills",
+      "title": "Run gated math modeling contest workflows with MathModeling Skills",
+      "description": "Use MathModeling Skills when Claude Code or Codex should guide a math modeling contest project through staged parsing, method selection, code generation, review, frozen-number…",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/zhnnky329/MathModeling-skills",
+      "github_repo": "zhnnky329/MathModeling-skills"
+    },
     {
       "slug": "jev-social",
       "name": "Jev Social",
