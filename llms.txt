@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-25
-# Total: 3054 skills
+# Total: 3055 skills
+
+## Coordinate terminal coding-agent sessions with DSCODE
+slug: coordinate-terminal-coding-agent-sessions-with-dscode
+category: Developer Tools
+framework: Custom Agents
+verification: Security Reviewed
+description: Use DSCODE when an operator needs a macOS terminal coding agent with a persistent shell, session bridge, agent-to-agent task handoffs, independent review, and Chrome…
+url: https://agentskillexchange.com/skills/coordinate-terminal-coding-agent-sessions-with-dscode/
 
 ## Run gated math modeling contest workflows with MathModeling Skills
 slug: run-gated-math-modeling-contest-workflows-with-mathmodeling-skills

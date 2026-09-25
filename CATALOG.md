@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3054 published skills** across **17 categories** · 2,554 security reviewed · Updated 2026-09-25 07:27 UTC
+> **3055 published skills** across **17 categories** · 2,554 security reviewed · Updated 2026-09-25 13:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (494 skills)
+### 🛠️ Developer Tools (495 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -424,6 +424,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Run client delivery fieldwork with FDEOps](skills/run-client-delivery-fieldwork-with-fdeops/) | Use FDEOps to guide agent-assisted client work from discovery through build, QA, readout, and handoff while… | Security Reviewed | 536 | 2.3k/wk |
 | [Scaffold repo-specific agent harnesses with Metaharness](skills/scaffold-repo-specific-agent-harnesses-with-metaharness/) | Use Metaharness to score a repository, generate a branded agent harness with CLI, MCP, memory, and safety defaults,… | Security Reviewed | 529 | 29.1k/wk |
 | [Compact terminal-heavy agent output with Tokenjuice](skills/compact-terminal-heavy-agent-output-with-tokenjuice/) | Use Tokenjuice when an agent runs noisy shell commands and needs deterministic, inspectable output reduction before… | Security Reviewed | 517 | 1.2M/wk |
+| [Coordinate terminal coding-agent sessions with DSCODE](skills/coordinate-terminal-coding-agent-sessions-with-dscode/) | Use DSCODE when an operator needs a macOS terminal coding agent with a persistent shell, session bridge,… | Security Reviewed | 506 | 4.1k/wk |
 | [Run self-hosted coding-agent mission control with Codeman](skills/run-self-hosted-coding-agent-mission-control-with-codeman/) | Use Codeman to supervise persistent Claude Code, Codex, OpenCode, and Gemini CLI sessions through a self-hosted web… | Security Reviewed | 500 | 1.9k/wk |
 | [Run a Self-Hosted Coding Agent Workspace with ZhikunCode](skills/run-self-hosted-coding-agent-workspace-zhikuncode/) | Use ZhikunCode to deploy a browser-based, self-hosted coding-agent workspace with CLI and web entry points,… | Security Reviewed | 497 | — |
 | [Monitor multi-agent coding sessions in a terminal office with Pixtuoid](skills/monitor-multi-agent-coding-sessions-terminal-office-pixtuoid/) | Use Pixtuoid as a terminal dashboard that shows multiple coding agents as live session avatars so operators can spot… | Security Reviewed | 481 | 20/wk |

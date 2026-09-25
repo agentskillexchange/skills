@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-25",
-  "total": 3054,
+  "total": 3055,
   "skills": [
+    {
+      "slug": "coordinate-terminal-coding-agent-sessions-with-dscode",
+      "name": "Coordinate terminal coding-agent sessions with DSCODE",
+      "title": "Coordinate terminal coding-agent sessions with DSCODE",
+      "description": "Use DSCODE when an operator needs a macOS terminal coding agent with a persistent shell, session bridge, agent-to-agent task handoffs, independent review, and Chrome…",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/qiz029/dscode",
+      "github_repo": "qiz029/dscode"
+    },
     {
       "slug": "run-gated-math-modeling-contest-workflows-with-mathmodeling-skills",
       "name": "Run gated math modeling contest workflows with MathModeling Skills",

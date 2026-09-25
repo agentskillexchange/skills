@@ -450,6 +450,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Run client delivery fieldwork with FDEOps](../../skills/run-client-delivery-fieldwork-with-fdeops/) | 536 | 2.3k/wk |
 | [Scaffold repo-specific agent harnesses with Metaharness](../../skills/scaffold-repo-specific-agent-harnesses-with-metaharness/) | 529 | 29.1k/wk |
 | [Compact terminal-heavy agent output with Tokenjuice](../../skills/compact-terminal-heavy-agent-output-with-tokenjuice/) | 517 | 1.2M/wk |
+| [Coordinate terminal coding-agent sessions with DSCODE](../../skills/coordinate-terminal-coding-agent-sessions-with-dscode/) | 506 | 4.1k/wk |
 | [Run self-hosted coding-agent mission control with Codeman](../../skills/run-self-hosted-coding-agent-mission-control-with-codeman/) | 500 | 1.9k/wk |
 | [Run a Self-Hosted Coding Agent Workspace with ZhikunCode](../../skills/run-self-hosted-coding-agent-workspace-zhikuncode/) | 497 | — |
 | [Monitor multi-agent coding sessions in a terminal office with Pixtuoid](../../skills/monitor-multi-agent-coding-sessions-terminal-office-pixtuoid/) | 481 | 20/wk |
