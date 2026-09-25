@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3055 published skills** across **17 categories** · 2,555 security reviewed · Updated 2026-09-25 13:26 UTC
+> **3056 published skills** across **17 categories** · 2,555 security reviewed · Updated 2026-09-25 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (495 skills)
+### 🛠️ Developer Tools (496 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -384,6 +384,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Connect MCP clients to JetBrains IDE project tools](skills/connect-mcp-clients-to-jetbrains-ide-project-tools/) | Use the built-in JetBrains MCP server to let Codex, Claude Desktop, Cursor, VS Code, and other MCP clients inspect… | Security Reviewed | 961 | 4.4k/wk |
 | [Track AI coding-agent token usage with TokenTracker](skills/track-ai-coding-agent-token-usage-with-tokentracker/) | Use TokenTracker to auto-collect local token, cost, and rate-limit telemetry across Claude Code, Codex, Cursor,… | Security Reviewed | 959 | 15.3k/wk |
 | [Link agent skills, commands, and roles across coding assistants with Open Agent Hub](skills/link-agent-skills-commands-and-roles-across-coding-assistants-with-open-agent-hub/) | Use Open Agent Hub to install, link, and enable reusable skills, agent roles, and slash commands across Claude Code,… | Security Reviewed | 934 | — |
+| [Coordinate Codex and Claude Code workspaces with Codexia](skills/coordinate-codex-and-claude-code-workspaces-with-codexia/) | Use Codexia when an operator needs a desktop or headless command center for Codex CLI, Claude Code, and ACP agents… | Security Reviewed | 918 | — |
 | [Find and export SVG icons across icon libraries for UI work](skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/) | Use Better Icons when an agent needs to search icon sets, compare matches, and return the exact SVG asset needed for… | Security Reviewed | 915 | 287/wk |
 | [Fork and merge Pydantic AI agent runs with Pydantic Deep Agents](skills/fork-and-merge-pydantic-ai-agent-runs-with-pydantic-deep-agents/) | Run a self-hosted terminal agent or custom Pydantic AI harness that can branch a coding or research run, test… | Security Reviewed | 912 | — |
 | [Run cost-constrained local coding sessions with ClawCodex](skills/run-cost-constrained-local-coding-sessions-with-clawcodex/) | Start ClawCodex as a local Python coding-agent CLI when a repository task needs Claude Code-style editing with… | Security Reviewed | 903 | — |

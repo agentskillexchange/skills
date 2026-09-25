@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-25",
-  "total": 3055,
+  "total": 3056,
   "skills": [
+    {
+      "slug": "coordinate-codex-and-claude-code-workspaces-with-codexia",
+      "name": "Coordinate Codex and Claude Code workspaces with Codexia",
+      "title": "Coordinate Codex and Claude Code workspaces with Codexia",
+      "description": "Use Codexia when an operator needs a desktop or headless command center for Codex CLI, Claude Code, and ACP agents with task scheduling, git…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/milisp/codexia",
+      "github_repo": "milisp/codexia"
+    },
     {
       "slug": "coordinate-terminal-coding-agent-sessions-with-dscode",
       "name": "Coordinate terminal coding-agent sessions with DSCODE",

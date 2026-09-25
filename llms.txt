@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-25
-# Total: 3055 skills
+# Total: 3056 skills
+
+## Coordinate Codex and Claude Code workspaces with Codexia
+slug: coordinate-codex-and-claude-code-workspaces-with-codexia
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Codexia when an operator needs a desktop or headless command center for Codex CLI, Claude Code, and ACP agents with task scheduling, git…
+url: https://agentskillexchange.com/skills/coordinate-codex-and-claude-code-workspaces-with-codexia/
 
 ## Coordinate terminal coding-agent sessions with DSCODE
 slug: coordinate-terminal-coding-agent-sessions-with-dscode

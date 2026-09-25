@@ -410,6 +410,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Connect MCP clients to JetBrains IDE project tools](../../skills/connect-mcp-clients-to-jetbrains-ide-project-tools/) | 961 | 4.4k/wk |
 | [Track AI coding-agent token usage with TokenTracker](../../skills/track-ai-coding-agent-token-usage-with-tokentracker/) | 959 | 15.3k/wk |
 | [Link agent skills, commands, and roles across coding assistants with Open Agent Hub](../../skills/link-agent-skills-commands-and-roles-across-coding-assistants-with-open-agent-hub/) | 934 | — |
+| [Coordinate Codex and Claude Code workspaces with Codexia](../../skills/coordinate-codex-and-claude-code-workspaces-with-codexia/) | 918 | — |
 | [Find and export SVG icons across icon libraries for UI work](../../skills/find-and-export-svg-icons-across-icon-libraries-for-ui-work/) | 915 | 287/wk |
 | [Fork and merge Pydantic AI agent runs with Pydantic Deep Agents](../../skills/fork-and-merge-pydantic-ai-agent-runs-with-pydantic-deep-agents/) | 912 | — |
 | [Run cost-constrained local coding sessions with ClawCodex](../../skills/run-cost-constrained-local-coding-sessions-with-clawcodex/) | 903 | — |
