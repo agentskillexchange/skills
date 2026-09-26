@@ -18,7 +18,7 @@ the result through a provider-free local path.
 
 ## What it provides
 
-- A published MCP stdio server with nine bounded tools.
+- A published MCP stdio server with fifteen bounded tools.
 - Deterministic prompt enhancement through `gateway_prompt_enhance`.
 - Health and readiness checks before chat or workflow operations.
 - A local fake-provider default that requires no provider key or account.
