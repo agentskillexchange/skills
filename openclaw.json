@@ -1,9 +1,31 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-09-25",
-  "total": 3056,
+  "generated": "2026-09-26",
+  "total": 3058,
   "skills": [
+    {
+      "slug": "expose-internal-systems-to-agents-through-anythingmcp",
+      "name": "Expose internal systems to agents through AnythingMCP",
+      "title": "Expose internal systems to agents through AnythingMCP",
+      "description": "Use AnythingMCP when an operator needs to turn REST, SOAP, GraphQL, SQL, existing MCP servers, or prebuilt adapters into governed MCP tools for Claude,…",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "listed",
+      "source_url": "https://github.com/HelpCode-ai/anythingmcp",
+      "github_repo": "HelpCode-ai/anythingmcp"
+    },
+    {
+      "slug": "generate-api-docs-sdks-and-mcp-servers-with-cortex",
+      "name": "Generate API docs, SDKs, and MCP servers with Cortex",
+      "title": "Generate API docs, SDKs, and MCP servers with Cortex",
+      "description": "Use Cortex when an agent or API operator needs to turn OpenAPI, AsyncAPI, GraphQL, gRPC, OpenRPC, or Markdown sources into validated docs, typed SDKs,…",
+      "category": "Library & API Reference",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/cortex-docs/cortex",
+      "github_repo": "cortex-docs/cortex"
+    },
     {
       "slug": "coordinate-codex-and-claude-code-workspaces-with-codexia",
       "name": "Coordinate Codex and Claude Code workspaces with Codexia",

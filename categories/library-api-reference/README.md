@@ -99,6 +99,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Stripe API Reference Navigator](../../skills/stripe-api-reference-navigator/) | 4.4k | 9.3M/wk |
 | [Run contract tests from API descriptions against live endpoints before integrations break with Dredd](../../skills/run-contract-tests-from-api-descriptions-against-live-endpoints-before-integrations-break-with-dredd/) | 4.2k | 53.9k/wk |
 | [AWS SDK Method Resolver](../../skills/aws-sdk-method-resolver/) | 3.6k | — |
+| [Generate API docs, SDKs, and MCP servers with Cortex](../../skills/generate-api-docs-sdks-and-mcp-servers-with-cortex/) | 3.2k | 289/wk |
 | [OpenAPI Spec Linter & Docs Generator](../../skills/openapi-spec-linter-docs-generator/) | 3.1k | 1.2M/wk |
 | [OpenAPI Spec Validator & Docs Generator](../../skills/openapi-spec-validator-docs-generator/) | 3.1k | 1.2M/wk |
 | [OpenAPI Spec Validator & Linter](../../skills/openapi-spec-validator-linter-2/) | 3.1k | 1.2M/wk |

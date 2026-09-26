@@ -1,6 +1,6 @@
 # Categories
 
-> **3056 skills** across **17 categories**
+> **3058 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -11,10 +11,10 @@
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **202** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **192** | Pipeline configs, deployment automation, build tooling, and continuou... |
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **178** | Incident response, troubleshooting guides, system diagnostics, and op... |
-| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **172** | Third-party API bridges, webhook handlers, service connectors, and pl... |
+| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **173** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **161** | Metrics collection, alerting rules, observability setup, and system m... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **132** | Web research, data collection, content aggregation, and information g... |
-| 📚 | [**Library & API Reference**](library-api-reference/) | **129** | SDK documentation, API guides, framework reference material, and libr... |
+| 📚 | [**Library & API Reference**](library-api-reference/) | **130** | SDK documentation, API guides, framework reference material, and libr... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **127** | Email automation, calendar management, task coordination, and product... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **125** | Web scraping, UI testing, headless browser control, and browser-based... |
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **112** | Image generation, asset processing, design automation, and creative t... |

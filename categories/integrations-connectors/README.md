@@ -164,6 +164,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [HubSpot CRM Contact Enrichment Pipeline](../../skills/hubspot-crm-contact-enrichment-pipeline/) | 392 | 986.8k/wk |
 | [Route agent LLM traffic through Shepherd Model Gateway](../../skills/route-agent-llm-traffic-through-shepherd-model-gateway/) | 380 | — |
 | [tiny.place](../../skills/tinyplace/) | 377 | — |
+| [Expose internal systems to agents through AnythingMCP](../../skills/expose-internal-systems-to-agents-through-anythingmcp/) | 373 | — |
 | [Hookdeck CLI for Webhook Development and Event Debugging](../../skills/hookdeck-cli-webhook-development-event-debugging/) | 353 | 9.1k/wk |
 | [Build and validate Shopify apps with the official Shopify AI Toolkit](../../skills/build-and-validate-shopify-apps-with-the-official-shopify-ai-toolkit/) | 348 | 17.6k/wk |
 | [Linear MCP Server for Issue Tracking and Project Management](../../skills/linear-mcp-server-issue-tracking-project-management/) | 346 | — |

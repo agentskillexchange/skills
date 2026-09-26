@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3056 published skills** across **17 categories** · 2,556 security reviewed · Updated 2026-09-25 19:27 UTC
+> **3058 published skills** across **17 categories** · 2,556 security reviewed · Updated 2026-09-26 01:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1864,7 +1864,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (172 skills)
+### 🔗 Integrations & Connectors (173 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1994,6 +1994,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [HubSpot CRM Contact Enrichment Pipeline](skills/hubspot-crm-contact-enrichment-pipeline/) | Enriches HubSpot CRM contacts using the v3 Contacts API with batch read/update operations. Cross-references company… | Security Reviewed | 392 | 986.8k/wk |
 | [Route agent LLM traffic through Shepherd Model Gateway](skills/route-agent-llm-traffic-through-shepherd-model-gateway/) | Use Shepherd Model Gateway to route OpenAI, Anthropic, Responses API, embeddings, and MCP tool traffic across… | Security Reviewed | 380 | — |
 | [tiny.place](skills/tinyplace/) | Live on tiny.place, an agent-to-agent social network, through the tinyplace CLI: claim an @handle identity, get… | Published | 377 | — |
+| [Expose internal systems to agents through AnythingMCP](skills/expose-internal-systems-to-agents-through-anythingmcp/) | Use AnythingMCP when an operator needs to turn REST, SOAP, GraphQL, SQL, existing MCP servers, or prebuilt adapters… | Published | 373 | — |
 | [Hookdeck CLI for Webhook Development and Event Debugging](skills/hookdeck-cli-webhook-development-event-debugging/) | Hookdeck CLI is Hookdeck's official command-line tool for forwarding webhooks to localhost, managing event gateway… | Security Reviewed | 353 | 9.1k/wk |
 | [Build and validate Shopify apps with the official Shopify AI Toolkit](skills/build-and-validate-shopify-apps-with-the-official-shopify-ai-toolkit/) | Connect agents and IDE assistants to Shopify docs, API schemas, code validation, and store-management workflows… | Security Reviewed | 348 | 17.6k/wk |
 | [Linear MCP Server for Issue Tracking and Project Management](skills/linear-mcp-server-issue-tracking-project-management/) | An MCP server that integrates Linear project management with AI assistants. Enables creating, searching, updating,… | Security Reviewed | 346 | — |
@@ -2353,7 +2354,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Xquik X Actors on Apify](skills/xquik-apify-x-actors/) | Run Xquik's public Apify Actors for X tweet collection, timelines, search, followers, lists, communities, and… | Published | — | — |
 
 
-### 📚 Library & API Reference (129 skills)
+### 📚 Library & API Reference (130 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=downloads)
 
@@ -2418,6 +2419,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Stripe API Reference Navigator](skills/stripe-api-reference-navigator/) | Navigates and queries the Stripe REST API documentation using stripe-node SDK methods. Resolves payment intent… | Security Reviewed | 4.4k | 9.3M/wk |
 | [Run contract tests from API descriptions against live endpoints before integrations break with Dredd](skills/run-contract-tests-from-api-descriptions-against-live-endpoints-before-integrations-break-with-dredd/) | Lets an agent execute OpenAPI or API Blueprint contract checks against a running service so spec drift is caught… | Security Reviewed | 4.2k | 53.9k/wk |
 | [AWS SDK Method Resolver](skills/aws-sdk-method-resolver/) | Resolves AWS SDK v3 client commands and service endpoint signatures using @aws-sdk/client-* packages. Maps IAM… | Security Reviewed | 3.6k | — |
+| [Generate API docs, SDKs, and MCP servers with Cortex](skills/generate-api-docs-sdks-and-mcp-servers-with-cortex/) | Use Cortex when an agent or API operator needs to turn OpenAPI, AsyncAPI, GraphQL, gRPC, OpenRPC, or Markdown… | Security Reviewed | 3.2k | 289/wk |
 | [OpenAPI Spec Linter & Docs Generator](skills/openapi-spec-linter-docs-generator/) | Validates OpenAPI 3.x specifications using Spectral rulesets and generates interactive API documentation with Redoc… | Security Reviewed | 3.1k | 1.2M/wk |
 | [OpenAPI Spec Validator & Docs Generator](skills/openapi-spec-validator-docs-generator/) | Validates OpenAPI 3.0/3.1 specifications using Spectral linting rules and generates interactive API documentation… | Security Reviewed | 3.1k | 1.2M/wk |
 | [OpenAPI Spec Validator & Linter](skills/openapi-spec-validator-linter-2/) | Validates OpenAPI 3.0/3.1 specifications using the @readme/openapi-parser and Spectral linter with custom rulesets.… | Security Reviewed | 3.1k | 1.2M/wk |

@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-09-25
-# Total: 3056 skills
+# Generated: 2026-09-26
+# Total: 3058 skills
+
+## Expose internal systems to agents through AnythingMCP
+slug: expose-internal-systems-to-agents-through-anythingmcp
+category: Integrations & Connectors
+framework: MCP
+verification: Published
+description: Use AnythingMCP when an operator needs to turn REST, SOAP, GraphQL, SQL, existing MCP servers, or prebuilt adapters into governed MCP tools for Claude,…
+url: https://agentskillexchange.com/skills/expose-internal-systems-to-agents-through-anythingmcp/
+
+## Generate API docs, SDKs, and MCP servers with Cortex
+slug: generate-api-docs-sdks-and-mcp-servers-with-cortex
+category: Library & API Reference
+framework: MCP
+verification: Security Reviewed
+description: Use Cortex when an agent or API operator needs to turn OpenAPI, AsyncAPI, GraphQL, gRPC, OpenRPC, or Markdown sources into validated docs, typed SDKs,…
+url: https://agentskillexchange.com/skills/generate-api-docs-sdks-and-mcp-servers-with-cortex/
 
 ## Coordinate Codex and Claude Code workspaces with Codexia
 slug: coordinate-codex-and-claude-code-workspaces-with-codexia
