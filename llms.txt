@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-09-26
-# Total: 3058 skills
+# Total: 3060 skills
+
+## Run portable agent-team missions with Pragma
+slug: run-portable-agent-team-missions-with-pragma
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Pragma when an operator wants to define reusable agent teams, flows, memory, permissions, and human checkpoints once, then run the same mission through…
+url: https://agentskillexchange.com/skills/run-portable-agent-team-missions-with-pragma/
+
+## Route agent decisions through Hermes JEV Skills
+slug: route-agent-decisions-through-hermes-jev-skills
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Hermes JEV Skills when an operator wants fast, low-cost typed decisions for model routing, skill selection, memory filtering, search screening, mailbox triage, and…
+url: https://agentskillexchange.com/skills/route-agent-decisions-through-hermes-jev-skills/
 
 ## Expose internal systems to agents through AnythingMCP
 slug: expose-internal-systems-to-agents-through-anythingmcp

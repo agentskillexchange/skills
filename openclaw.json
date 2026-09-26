@@ -2,8 +2,30 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-09-26",
-  "total": 3058,
+  "total": 3060,
   "skills": [
+    {
+      "slug": "run-portable-agent-team-missions-with-pragma",
+      "name": "Run portable agent-team missions with Pragma",
+      "title": "Run portable agent-team missions with Pragma",
+      "description": "Use Pragma when an operator wants to define reusable agent teams, flows, memory, permissions, and human checkpoints once, then run the same mission through…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/pqpo/pragma",
+      "github_repo": "pqpo/pragma"
+    },
+    {
+      "slug": "route-agent-decisions-through-hermes-jev-skills",
+      "name": "Route agent decisions through Hermes JEV Skills",
+      "title": "Route agent decisions through Hermes JEV Skills",
+      "description": "Use Hermes JEV Skills when an operator wants fast, low-cost typed decisions for model routing, skill selection, memory filtering, search screening, mailbox triage, and…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/kerpopule/hermes-jev-skills",
+      "github_repo": "kerpopule/hermes-jev-skills"
+    },
     {
       "slug": "expose-internal-systems-to-agents-through-anythingmcp",
       "name": "Expose internal systems to agents through AnythingMCP",
