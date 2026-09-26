@@ -2,12 +2,15 @@
 name: "Concept to Story"
 slug: "concept-to-story"
 description: "Teach concepts from user-provided PDFs in Codex through source-grounded stories, memory anchors, explicit analogy boundaries, and one unanswered recall question at a time."
+github_stars: 1
 verification: "listed"
 source: "https://github.com/autoloading8822/concept-to-story-skill"
+author: "autoloading8822"
 category: "Templates & Workflows"
 framework: "Codex"
 tool_ecosystem:
   github_repo: "autoloading8822/concept-to-story-skill"
+  github_stars: 1
 ---
 
 # Concept to Story

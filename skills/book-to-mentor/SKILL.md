@@ -2,12 +2,15 @@
 name: "Book to Mentor"
 slug: "book-to-mentor"
 description: "Convert a book or long document into a reusable AI mentor with source-grounded lessons, guided practice, citations, and persistent learning records."
+github_stars: 1
 verification: "listed"
 source: "https://github.com/gengwenhao/book-to-mentor"
+author: "gengwenhao"
 category: "Templates & Workflows"
 framework: "Codex"
 tool_ecosystem:
   github_repo: "gengwenhao/book-to-mentor"
+  github_stars: 1
 ---
 
 # Book to Mentor
