@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3058 published skills** across **17 categories** · 2,556 security reviewed · Updated 2026-09-26 01:27 UTC
+> **3058 published skills** across **17 categories** · 2,556 security reviewed · Updated 2026-09-26 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -752,13 +752,13 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Review-gate OpenClaw memory hygiene with openclaw-mem](skills/review-gate-openclaw-memory-hygiene-with-openclaw-mem/) | Pack trusted context and review memory writes before long OpenClaw sessions drift or accumulate low-quality memory. | Security Reviewed | 28 | — |
 | [Progressive Disclosure for Documentation](skills/progressive-disclosure/) | Restructure large documentation files (500+ lines, 5k+ tokens) into slim indexes with on-demand detail directories.… | Published | 14 | — |
 | [Generate and safely patch AGENTS.md and RUNBOOK.md with AGENTS.md Generator](skills/generate-and-safely-patch-agents-md-and-runbook-md-with-agents-md-generator/) | Bootstrap and safely update AGENTS.md and RUNBOOK.md without clobbering hand-edited docs, so coding-agent repos keep… | Security Reviewed | 2 | — |
+| [Book to Mentor](skills/book-to-mentor/) | Convert a book or long document into a reusable AI mentor with source-grounded lessons, guided practice, citations,… | Published | 1 | — |
+| [Concept to Story](skills/concept-to-story/) | Teach concepts from user-provided PDFs in Codex through source-grounded stories, memory anchors, explicit analogy… | Published | 1 | — |
 | [Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/) | Use Claude Code Dedupe to summarize an issue, run parallel GitHub duplicate searches, filter false positives, and… | Security Reviewed | — | 49.9M/wk |
 | [Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue](skills/triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue/) | Use Claude Code triage-issue to read a GitHub issue, verify it actually belongs to the product from body evidence… | Security Reviewed | — | 49.9M/wk |
 | [Autonomous Session Workflow](skills/autonomous-session-workflow/) | 5-phase repeatable structure for autonomous agent sessions: context-load, tiered work-selection, coordination claim,… | Published | — | — |
-| [Book to Mentor](skills/book-to-mentor/) | Convert a book or long document into a reusable AI mentor with source-grounded lessons, guided practice, citations,… | Published | — | — |
 | [Bubble.io Stripe Subscription Portal Builder](skills/bubble-stripe-subscription-portal/) | Uses Bubble's Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a… | Security Reviewed | — | — |
 | [Co-author structured docs with staged context gathering and reader testing](skills/co-author-structured-docs-with-staged-context-gathering-and-reader-testing/) | Use Anthropic's doc-coauthoring skill to run a disciplined writing workflow instead of freeform drafting. The agent… | Security Reviewed | — | — |
-| [Concept to Story](skills/concept-to-story/) | Teach concepts from user-provided PDFs in Codex through source-grounded stories, memory anchors, explicit analogy… | Published | — | — |
 | [Create and repair Word documents with layout-safe DOCX workflows](skills/create-and-repair-word-documents-with-layout-safe-docx-workflows/) | Use the Anthropic docx skill when an agent needs to produce or repair a real .docx deliverable with headings,… | Security Reviewed | — | — |
 | [Draft internal status updates and incident comms](skills/draft-internal-status-updates-and-incident-comms-2/) | Use Anthropic's internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs,… | Security Reviewed | — | — |
 | [Draft internal status updates and incident comms](skills/draft-internal-status-updates-and-incident-comms/) | Use Anthropic's internal-comms skill to turn raw project notes into company-ready status reports, 3P updates, FAQs,… | Security Reviewed | — | — |

@@ -274,13 +274,13 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Review-gate OpenClaw memory hygiene with openclaw-mem](../../skills/review-gate-openclaw-memory-hygiene-with-openclaw-mem/) | 28 | — |
 | [Progressive Disclosure for Documentation](../../skills/progressive-disclosure/) | 14 | — |
 | [Generate and safely patch AGENTS.md and RUNBOOK.md with AGENTS.md Generator](../../skills/generate-and-safely-patch-agents-md-and-runbook-md-with-agents-md-generator/) | 2 | — |
+| [Book to Mentor](../../skills/book-to-mentor/) | 1 | — |
+| [Concept to Story](../../skills/concept-to-story/) | 1 | — |
 | [Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](../../skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/) | — | 49.9M/wk |
 | [Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue](../../skills/triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue/) | — | 49.9M/wk |
 | [Autonomous Session Workflow](../../skills/autonomous-session-workflow/) | — | — |
-| [Book to Mentor](../../skills/book-to-mentor/) | — | — |
 | [Bubble.io Stripe Subscription Portal Builder](../../skills/bubble-stripe-subscription-portal/) | — | — |
 | [Co-author structured docs with staged context gathering and reader testing](../../skills/co-author-structured-docs-with-staged-context-gathering-and-reader-testing/) | — | — |
-| [Concept to Story](../../skills/concept-to-story/) | — | — |
 | [Create and repair Word documents with layout-safe DOCX workflows](../../skills/create-and-repair-word-documents-with-layout-safe-docx-workflows/) | — | — |
 | [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms-2/) | — | — |
 | [Draft internal status updates and incident comms](../../skills/draft-internal-status-updates-and-incident-comms/) | — | — |

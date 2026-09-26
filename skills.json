@@ -150,6 +150,9 @@
       "category": "Templates & Workflows",
       "framework": "Codex",
       "verification": "listed",
+      "signals": {
+        "github_stars": 1
+      },
       "source_url": "https://github.com/gengwenhao/book-to-mentor",
       "github_repo": "gengwenhao/book-to-mentor"
     },
@@ -335,6 +338,9 @@
       "category": "Templates & Workflows",
       "framework": "Codex",
       "verification": "listed",
+      "signals": {
+        "github_stars": 1
+      },
       "source_url": "https://github.com/autoloading8822/concept-to-story-skill",
       "github_repo": "autoloading8822/concept-to-story-skill"
     },
