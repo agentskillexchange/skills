@@ -33,8 +33,10 @@ gate, rate limit, decision failure, or step limit stops the run.
 ## Requirements
 
 - Node.js 20 or newer.
-- A user-provided OpenRouter API key with Jev access; model calls may incur
-  provider charges.
+- A configured decision provider: either a user-provided OpenRouter API key
+  with Jev access, or a user-started TypeSafe-compatible server on the exact
+  loopback `/v1/systemone` endpoint. OpenRouter calls may incur provider
+  charges; the local provider does not receive the OpenRouter key.
 - A locally installed `socai` CLI that reports support for the requested
   platform.
 - A signed-in local Chrome session when the platform requires one.
@@ -45,18 +47,18 @@ an API key in a command, transcript, report, or committed file.
 
 ## Run the released tool
 
-The immutable `v0.1.5` release pins its tested runtime to commit
-`782d809c68e2015536359aa7dceede9a3cdbb7f1`. Check readiness first:
+The immutable `v0.1.8` release pins its tested runtime to commit
+`5270e23cfd27aace9055669ee396926973baa241`. Check readiness first:
 
 ```bash
-npx github:socai-io/jev-social#782d809c68e2015536359aa7dceede9a3cdbb7f1 status
+npx github:socai-io/jev-social#5270e23cfd27aace9055669ee396926973baa241 status
 ```
 
 If readiness succeeds, keep the natural-language research goal intact and use
 the requested platform, or let Jev choose with `auto`:
 
 ```bash
-npx github:socai-io/jev-social#782d809c68e2015536359aa7dceede9a3cdbb7f1 search "<research goal>" \
+npx github:socai-io/jev-social#5270e23cfd27aace9055669ee396926973baa241 search "<research goal>" \
   --platform <auto|instagram|tiktok|linkedin> \
   --limit 4 \
   --max-steps 12
@@ -81,7 +83,7 @@ or configuration details unless the user explicitly requests diagnostics.
 Install the canonical versioned Skill with GitHub CLI 2.90 or newer:
 
 ```bash
-gh skill install socai-io/jev-social jev-social@v0.1.5 --agent codex --scope user
+gh skill install socai-io/jev-social jev-social@v0.1.8 --agent codex --scope user
 ```
 
 ### Agent Skill Exchange catalog copy
@@ -111,5 +113,5 @@ No source-backed install or usage instructions could be extracted automatically.
 ## Source
 
 - [Jev Social repository](https://github.com/socai-io/jev-social)
-- [Canonical Skill source](https://github.com/socai-io/jev-social/tree/v0.1.5/skills/jev-social)
-- [Security and data-flow boundary](https://github.com/socai-io/jev-social/blob/v0.1.5/SECURITY.md)
+- [Canonical Skill source](https://github.com/socai-io/jev-social/tree/v0.1.8/skills/jev-social)
+- [Security and data-flow boundary](https://github.com/socai-io/jev-social/blob/v0.1.8/SECURITY.md)
