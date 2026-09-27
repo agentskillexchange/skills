@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Verify a Nano (XNO) payment read-only. Exit 0 only when the block is
-confirmed AND it was sent to the expected receive address."""
+confirmed AND it pays the expected receive address: for a send block that is
+contents.link_as_account, for a receive/open block it is block_account."""
 import json, sys, urllib.request
 
 RPC = "https://rpc.nano.to/"
@@ -18,7 +19,15 @@ def main():
     expect_addr = sys.argv[2]          # your Nano receive address
     expect_min_raw = int(sys.argv[3])  # minimum raw units owed (1 XNO = 10**30)
     info = rpc("block_info", json_block="true", hash=block)
-    addr = info.get("block_account")
+    subtype = info.get("subtype")
+    contents = info.get("contents") or {}
+    if subtype == "send":
+        # A send block belongs to the sender; the recipient is link_as_account.
+        addr = contents.get("link_as_account")
+    elif subtype in ("receive", "open"):
+        addr = info.get("block_account") or contents.get("account")
+    else:
+        print(f"NOT_A_PAYMENT {subtype}"); sys.exit(1)
     amount = int(info.get("amount", "0"))
     if info.get("confirmed") != "true":
         print("NOT_CONFIRMED"); sys.exit(1)

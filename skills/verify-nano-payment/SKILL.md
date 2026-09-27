@@ -14,7 +14,7 @@ Nano (XNO) is a feeless, instant, green digital currency settled peer-to-peer on
 single ledger with no issuer. When an agent is paid for work in Nano, the sender
 tells it a block hash or an amount — but a claim is not a settlement. This skill
 shows an agent how to confirm, from the ledger itself, that a payment actually
-landed: the block exists, it is confirmed, its `account` is the agent's own
+landed: the block exists, it is confirmed, it pays the agent's own
 receive address, and its `amount` matches what was owed. It is strictly
 read-only and needs no wallet, no seed and no API key — the public Nano RPC
 (`rpc.nano.to`) answers every query used here.
@@ -27,7 +27,8 @@ trust the payer's word. A pay-per-call or bounty agent should, before delivering
 answer three questions:
 
 1. Does a block with the claimed hash exist and is it confirmed?
-2. Was it sent to MY address (the block's `account`/`representative`)?
+2. Was it sent to MY address? For a `send` block that is `contents.link_as_account`
+   (the block's own account is the sender); for a `receive`/`open` block it is `block_account`.
 3. Is the raw `amount` at least what was owed?
 
 Each is one read-only RPC call. Nothing here signs, spends or touches funds.
@@ -73,16 +74,21 @@ explicitly, so read it before acting.
 
 ### 2. Read the pay-to account from the block — not the request body
 
-The block's `contents.account` (or `block_account` at the top level) is the
-address the payment landed in. Compare it to the address you expect to be paid
-into. Never trust a `payTo` field sent alongside a request; the ledger block is
+Which field names the recipient depends on the block's `subtype`:
+
+- `send`: `block_account` / `contents.account` is the **sender**; the recipient
+  is `contents.link_as_account`.
+- `receive` / `open`: `block_account` / `contents.account` is the recipient.
+
+Compare that field to the address you expect to be paid into, so either the
+payer's send hash or your own receive hash can be checked. Never trust a `payTo` field sent alongside a request; the ledger block is
 the source of truth.
 
 ```bash
 curl -sS -m 15 -X POST -H "Content-Type: application/json" \
   -d '{"action":"block_info","json_block":"true","hash":"<BLOCK_HASH>"}' \
   https://rpc.nano.to/ \
-  | jq '{block_account, amount, confirmed}'
+  | jq '{subtype, block_account, to: .contents.link_as_account, amount, confirmed}'
 ```
 
 ### 3. Check the account state — `account_info`
@@ -104,7 +110,8 @@ call it before you ship work after being told "you have been paid in Nano":
 ```python
 #!/usr/bin/env python3
 """Verify a Nano (XNO) payment read-only. Exit 0 only when the block is
-confirmed AND it was sent to the expected receive address."""
+confirmed AND it pays the expected receive address: for a send block that is
+contents.link_as_account, for a receive/open block it is block_account."""
 import json, sys, urllib.request
 
 RPC = "https://rpc.nano.to/"
@@ -122,7 +129,15 @@ def main():
     expect_addr = sys.argv[2]          # your Nano receive address
     expect_min_raw = int(sys.argv[3])  # minimum raw units owed (1 XNO = 10**30)
     info = rpc("block_info", json_block="true", hash=block)
-    addr = info.get("block_account")
+    subtype = info.get("subtype")
+    contents = info.get("contents") or {}
+    if subtype == "send":
+        # A send block belongs to the sender; the recipient is link_as_account.
+        addr = contents.get("link_as_account")
+    elif subtype in ("receive", "open"):
+        addr = info.get("block_account") or contents.get("account")
+    else:
+        print(f"NOT_A_PAYMENT {subtype}"); sys.exit(1)
     amount = int(info.get("amount", "0"))
     if info.get("confirmed") != "true":
         print("NOT_CONFIRMED"); sys.exit(1)
@@ -144,7 +159,9 @@ python3 verify_payment.py 8161FEE8C0A1676D7965A4771DBFA9937D88ECB4FFBE5DF36E4316
 ```
 
 Only a `0`/OK exit means the agent may deliver: the block is on the ledger,
-confirmed, in the expected account, for at least the expected raw amount.
+confirmed, pays the expected account, for at least the expected raw amount.
+The hash may be the payer's `send` block or your own `receive`/`open` block; any
+other subtype (`change`, `epoch`) is rejected with `NOT_A_PAYMENT`.
 
 ## Safety
 
