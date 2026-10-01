@@ -169,7 +169,7 @@ If a named tool is absent from the advertised catalog, do not attempt a generic 
 - Treat existing DocsBot dashboard RBAC as the source of truth. If an action is denied, report the denial rather than attempting to bypass it.
 - After an uncertain or timed-out write, read back the intended resource state before retrying. Repeated create or send calls can duplicate resources or effects; if the outcome cannot be verified, report the uncertainty instead of retrying blindly.
 - Do not expose OAuth tokens, API keys, internal headers, or private response data beyond what the user needs for the task.
-- Do not use Admin MCP for per-bot documentation retrieval or question-history semantic search; those are separate per-bot MCP servers.
+- Use advertised Admin MCP tools such as `search_bot_knowledge` and `search_question_logs` for authorized administrative diagnostics, bot verification, and response-quality analysis. For end-user documentation retrieval or question-history retrieval serving, use the separate per-bot Documentation or Question History MCP server. Do not use the Admin MCP as an end-user retrieval connector.
 
 Subscription and commerce mutations are outside this plugin. Do not use `update_bot` to enable Stripe payments, refunds, cancellations, or other commerce actions. Read account usage through an advertised read tool when available.
 
