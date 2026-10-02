@@ -2,10 +2,10 @@
 name: "Pangolinfo Amazon Scraper"
 slug: "pangolinfo-amazon-scraper"
 description: "Retrieve structured Amazon product, keyword search, category, seller and bestseller data with Pangolinfo APIs for e-commerce research and agent workflows."
+verification: "listed"
+source: "https://github.com/Pangolin-spg/openclaw-skills/tree/main/pangolinfo-amazon-scraper"
 category: "Research & Scraping"
 framework: "OpenClaw"
-verification: listed
-source: "https://github.com/Pangolin-spg/openclaw-skills/tree/main/pangolinfo-amazon-scraper"
 ---
 
 # Pangolinfo Amazon Scraper
@@ -18,22 +18,9 @@ Pangolinfo is an independent data provider, not an official Amazon service. The 
 
 ## Installation
 
-Clone the canonical upstream repository and install the complete skill folder using your OpenClaw skill workflow:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-```bash
-git clone https://github.com/Pangolin-spg/openclaw-skills.git
-cd openclaw-skills/pangolinfo-amazon-scraper
-```
-
-Keep scripts/ and references/ alongside SKILL.md; copying this catalog summary alone is not a functional installation. Set PANGOLIN_TOKEN in your local environment, or use PANGOLIN_EMAIL and PANGOLIN_PASSWORD as documented upstream. Never put real credentials in prompts, commits, or public submissions. Review the upstream code before running it.
-
-From the installed skill directory, a keyword request is:
-
-```bash
-python3 scripts/pangolinfo.py --q "wireless mouse" --parser amzKeyword
-```
-
-Make only the requests authorized by the user, and confirm the expected usage cost before a large batch.
+- Source: https://github.com/Pangolin-spg/openclaw-skills/tree/main/pangolinfo-amazon-scraper
 
 ## Documentation
 

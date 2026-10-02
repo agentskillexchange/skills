@@ -2,10 +2,10 @@
 name: "Pangolinfo AI SERP"
 slug: "pangolinfo-ai-serp"
 description: "Retrieve structured Google SERP and AI Overviews, run AI Mode follow-up queries, and optionally capture screenshots through Pangolinfo APIs."
+verification: "listed"
+source: "https://github.com/Pangolin-spg/openclaw-skills/tree/main/pangolinfo-ai-serp"
 category: "Research & Scraping"
 framework: "OpenClaw"
-verification: listed
-source: "https://github.com/Pangolin-spg/openclaw-skills/tree/main/pangolinfo-ai-serp"
 ---
 
 # Pangolinfo AI SERP

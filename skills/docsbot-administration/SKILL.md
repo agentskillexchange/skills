@@ -2,10 +2,12 @@
 name: "DocsBot Administration"
 slug: "docsbot-administration"
 description: "Administer DocsBot bots, knowledge sources, teams, and reporting through named MCP tools with browser OAuth and live role checks."
+verification: "listed"
+source: "https://github.com/uglyrobot/docsbot-agent-skills"
 category: "Integrations & Connectors"
 framework: "MCP"
-verification: listed
-source: "https://github.com/uglyrobot/docsbot-agent-skills"
+tool_ecosystem:
+  github_repo: "uglyrobot/docsbot-agent-skills"
 ---
 
 # DocsBot Administration
@@ -26,13 +28,9 @@ Generated question-log, lead, Q&A, and source downloads (`export_question_log`, 
 
 ## Installation
 
-Install the upstream skill into a compatible agent using the optional third-party Vercel Skills CLI, pinned to the verified CLI version:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-```bash
-npm exec --package=skills@1.7.0 -- skills add uglyrobot/docsbot-agent-skills --skill docsbot-administration
-```
-
-Alternatively, clone the upstream repository and copy `skills/docsbot-administration/` into the agent's supported skill directory. This installs instructions, not MCP credentials. Configure the hosted MCP URL and complete browser OAuth as described below. A DocsBot account and an accessible team are required; actions depend on the user's current role and plan. Do not paste passwords or API keys into chat.
+- Source: https://github.com/uglyrobot/docsbot-agent-skills
 
 ## Setup
 
