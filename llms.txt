@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-10-02
-# Total: 3076 skills
+# Total: 3079 skills
+
+## Pangolinfo Amazon Scraper
+slug: pangolinfo-amazon-scraper
+category: Research & Scraping
+framework: OpenClaw
+verification: Published
+description: Retrieve structured Amazon product, keyword search, category, seller and bestseller data with Pangolinfo APIs for e-commerce research and agent workflows.
+url: https://agentskillexchange.com/skills/pangolinfo-amazon-scraper/
+
+## Pangolinfo AI SERP
+slug: pangolinfo-ai-serp
+category: Research & Scraping
+framework: OpenClaw
+verification: Published
+description: Retrieve structured Google SERP and AI Overviews, run AI Mode follow-up queries, and optionally capture screenshots through Pangolinfo APIs.
+url: https://agentskillexchange.com/skills/pangolinfo-ai-serp/
+
+## DocsBot Administration
+slug: docsbot-administration
+category: Integrations & Connectors
+framework: MCP
+verification: Published
+description: Administer DocsBot bots, knowledge sources, teams, and reporting through named MCP tools with browser OAuth and live role checks.
+url: https://agentskillexchange.com/skills/docsbot-administration/
 
 ## Eye.Art Polyphemus Image Creation
 slug: eye-art-polyphemus

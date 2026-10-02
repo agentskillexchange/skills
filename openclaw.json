@@ -2,8 +2,41 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-10-02",
-  "total": 3076,
+  "total": 3079,
   "skills": [
+    {
+      "slug": "pangolinfo-amazon-scraper",
+      "name": "Pangolinfo Amazon Scraper",
+      "title": "Pangolinfo Amazon Scraper",
+      "description": "Retrieve structured Amazon product, keyword search, category, seller and bestseller data with Pangolinfo APIs for e-commerce research and agent workflows.",
+      "category": "Research & Scraping",
+      "framework": "OpenClaw",
+      "verification": "listed",
+      "source_url": "https://github.com/Pangolin-spg/openclaw-skills/tree/main/pangolinfo-amazon-scraper",
+      "github_repo": "Pangolin-spg/openclaw-skills"
+    },
+    {
+      "slug": "pangolinfo-ai-serp",
+      "name": "Pangolinfo AI SERP",
+      "title": "Pangolinfo AI SERP",
+      "description": "Retrieve structured Google SERP and AI Overviews, run AI Mode follow-up queries, and optionally capture screenshots through Pangolinfo APIs.",
+      "category": "Research & Scraping",
+      "framework": "OpenClaw",
+      "verification": "listed",
+      "source_url": "https://github.com/Pangolin-spg/openclaw-skills/tree/main/pangolinfo-ai-serp",
+      "github_repo": "Pangolin-spg/openclaw-skills"
+    },
+    {
+      "slug": "docsbot-administration",
+      "name": "DocsBot Administration",
+      "title": "DocsBot Administration",
+      "description": "Administer DocsBot bots, knowledge sources, teams, and reporting through named MCP tools with browser OAuth and live role checks.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "listed",
+      "source_url": "https://github.com/uglyrobot/docsbot-agent-skills",
+      "github_repo": "uglyrobot/docsbot-agent-skills"
+    },
     {
       "slug": "eye-art-polyphemus",
       "name": "Eye.Art Polyphemus Image Creation",

@@ -156,6 +156,8 @@ Web research, data collection, content aggregation, and information gathering.
 | [Find Products by Intent with Mydentify](../../skills/find-products-by-intent-with-mydentify/) | — | — |
 | [Jina Reader API Skill](../../skills/jina-reader-api-skill/) | — | — |
 | [OSINT Domain Intelligence Scanner](../../skills/osint-domain-intelligence-scanner/) | — | — |
+| [Pangolinfo AI SERP](../../skills/pangolinfo-ai-serp/) | — | — |
+| [Pangolinfo Amazon Scraper](../../skills/pangolinfo-amazon-scraper/) | — | — |
 | [Patent Landscape Analyzer](../../skills/patent-landscape-analyzer/) | — | — |
 | [Product Review Sentiment Aggregator](../../skills/product-review-sentiment-aggregator/) | — | — |
 | [PubMed Literature Mining Agent](../../skills/pubmed-literature-mining-agent/) | — | — |
