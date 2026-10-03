@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-10-03
-# Total: 3079 skills
+# Total: 3080 skills
+
+## Monitor and approve coding-agent sessions with Coucou
+slug: monitor-and-approve-coding-agent-sessions-with-coucou
+category: Developer Tools
+framework: Multi-Framework
+verification: Published
+description: Watch Claude Code, Codex, Cursor, Gemini CLI, Antigravity, and other agent sessions from a desktop companion, then answer permission prompts, jump to terminals, and…
+url: https://agentskillexchange.com/skills/monitor-and-approve-coding-agent-sessions-with-coucou/
 
 ## Pangolinfo Amazon Scraper
 slug: pangolinfo-amazon-scraper

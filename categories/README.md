@@ -1,10 +1,10 @@
 # Categories
 
-> **3079 skills** across **17 categories**
+> **3080 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
-| 🛠️ | [**Developer Tools**](developer-tools/) | **505** | CLI helpers, dev environment setup, productivity utilities, and devel... |
+| 🛠️ | [**Developer Tools**](developer-tools/) | **506** | CLI helpers, dev environment setup, productivity utilities, and devel... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **258** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 🔒 | [**Security & Verification**](security-verification/) | **251** | Auth setup, vulnerability scanning, compliance checks, and security a... |
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **227** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |

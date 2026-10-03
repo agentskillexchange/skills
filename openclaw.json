@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-10-03",
-  "total": 3079,
+  "total": 3080,
   "skills": [
+    {
+      "slug": "monitor-and-approve-coding-agent-sessions-with-coucou",
+      "name": "Monitor and approve coding-agent sessions with Coucou",
+      "title": "Monitor and approve coding-agent sessions with Coucou",
+      "description": "Watch Claude Code, Codex, Cursor, Gemini CLI, Antigravity, and other agent sessions from a desktop companion, then answer permission prompts, jump to terminals, and…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/Louis-CFM/coucou",
+      "github_repo": "Louis-CFM/coucou"
+    },
     {
       "slug": "pangolinfo-amazon-scraper",
       "name": "Pangolinfo Amazon Scraper",
