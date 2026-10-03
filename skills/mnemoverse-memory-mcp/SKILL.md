@@ -2,13 +2,16 @@
 name: "Mnemoverse Memory MCP"
 slug: "mnemoverse-memory-mcp"
 description: "Give Claude Code, Cursor, VS Code and ChatGPT agents hosted persistent memory over MCP that learns from outcomes: the agent calls memory_feedback to report whether a recalled memory helped or misled, and later memory_read results are re-ranked. Use it when memory has to follow an agent across sessions and clients, or when several agents share one memory through a room."
+github_stars: 25
 verification: "listed"
 source: "https://github.com/mnemoverse/mcp-memory-server"
 category: "Integrations & Connectors"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "mnemoverse/mcp-memory-server"
+  github_stars: 25
   npm_package: "@mnemoverse/mcp-memory-server"
+  npm_weekly_downloads: 2042
 ---
 
 # Mnemoverse Memory MCP
