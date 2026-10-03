@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3079 published skills** across **17 categories** · 2,567 security reviewed · Updated 2026-10-03 01:27 UTC
+> **3079 published skills** across **17 categories** · 2,567 security reviewed · Updated 2026-10-03 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -2037,6 +2037,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [HyperGrok Trading Desk](skills/hypergrok-trading-desk/) | Turn Claude Code, Cursor, or Grok Bot into a 7-role Hyperliquid trading desk. Sixteen SKILL.md skills plus seven… | Published | 39 | — |
 | [Inspect Freshservice service-management tickets and modules through MCP](skills/inspect-freshservice-service-management-tickets-and-modules-through-mcp/) | Connect Freshservice modules to MCP clients for supervised IT service-management ticket lookup and support-ops… | Security Reviewed | 31 | — |
 | [Connect MCP agents to BatchData property and address APIs](skills/connect-mcp-agents-to-batchdata-property-and-address-apis/) | Use BatchData property and address APIs from MCP clients to enrich real-estate research and operations workflows. | Security Reviewed | 30 | — |
+| [Mnemoverse Memory MCP](skills/mnemoverse-memory-mcp/) | Give Claude Code, Cursor, VS Code and ChatGPT agents hosted persistent memory over MCP that learns from outcomes:… | Published | 25 | 2k/wk |
 | [Sync agent rules and skill files across coding assistants with AI Rules Sync](skills/sync-agent-rules-and-skill-files-across-coding-assistants-with-ai-rules-sync/) | Use AI Rules Sync when the same operating rules, commands, skills, or subagents need to stay aligned across Claude… | Security Reviewed | 25 | 1.1k/wk |
 | [Run Shopify Admin product order customer and inventory workflows through MCP](skills/run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp/) | Expose Shopify Admin API operations to MCP clients for supervised ecommerce catalog, order, customer, and inventory… | Security Reviewed | 15 | 27/wk |
 | [Hermes Tweet](skills/hermes-tweet/) | Use Hermes Tweet when Hermes Agent needs a native X/Twitter plugin for reading posts, exploring public data, and… | Published | 10 | — |
@@ -2054,7 +2055,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [GitHub Discussions Community Digest](skills/github-discussions-community-digest/) | Queries GitHub GraphQL API for new and unanswered Discussions, ranks them by reaction count and recency, and drafts… | Security Reviewed | — | — |
 | [JMT x402 Agent Tools](skills/jmt-x402-agent-tools/) | Paid x402 HTTP-402 endpoints on Base mainnet that let agents pay-per-call in USDC for web search, AI analysis,… | Published | — | — |
 | [Linear Issue Triage & Sprint Planner](skills/linear-issue-triage-sprint-planner-2/) | Queries the Linear GraphQL API to list open issues by team, priority, and cycle, then applies configurable triage… | Security Reviewed | — | — |
-| [Mnemoverse Memory MCP](skills/mnemoverse-memory-mcp/) | Give Claude Code, Cursor, VS Code and ChatGPT agents hosted persistent memory over MCP that learns from outcomes:… | Published | — | — |
 | [Plaid Financial Data Connector](skills/plaid-financial-data-connector/) | Connects to bank accounts via Plaid Link SDK and retrieves transaction data using the Plaid Transactions API.… | Security Reviewed | — | — |
 | [RouterBase API Integration](skills/routerbase-api-integration/) | Integrate agent applications with RouterBase as an OpenAI-compatible API gateway, including SDK base URL… | Published | — | — |
 | [Verify a Nano (XNO) Payment](skills/verify-nano-payment/) | Verify that a Nano (XNO) payment has settled: confirm a send/receive block, read its amount and pay-to account from… | Published | — | — |

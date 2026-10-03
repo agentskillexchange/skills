@@ -86,6 +86,10 @@
       "category": "Integrations & Connectors",
       "framework": "MCP",
       "verification": "listed",
+      "signals": {
+        "github_stars": 25,
+        "npm_weekly_downloads": 2042
+      },
       "source_url": "https://github.com/mnemoverse/mcp-memory-server",
       "github_repo": "mnemoverse/mcp-memory-server"
     },

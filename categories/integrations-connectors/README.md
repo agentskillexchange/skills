@@ -194,6 +194,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [HyperGrok Trading Desk](../../skills/hypergrok-trading-desk/) | 39 | — |
 | [Inspect Freshservice service-management tickets and modules through MCP](../../skills/inspect-freshservice-service-management-tickets-and-modules-through-mcp/) | 31 | — |
 | [Connect MCP agents to BatchData property and address APIs](../../skills/connect-mcp-agents-to-batchdata-property-and-address-apis/) | 30 | — |
+| [Mnemoverse Memory MCP](../../skills/mnemoverse-memory-mcp/) | 25 | 2k/wk |
 | [Sync agent rules and skill files across coding assistants with AI Rules Sync](../../skills/sync-agent-rules-and-skill-files-across-coding-assistants-with-ai-rules-sync/) | 25 | 1.1k/wk |
 | [Run Shopify Admin product order customer and inventory workflows through MCP](../../skills/run-shopify-admin-product-order-customer-and-inventory-workflows-through-mcp/) | 15 | 27/wk |
 | [Hermes Tweet](../../skills/hermes-tweet/) | 10 | — |
@@ -211,7 +212,6 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [GitHub Discussions Community Digest](../../skills/github-discussions-community-digest/) | — | — |
 | [JMT x402 Agent Tools](../../skills/jmt-x402-agent-tools/) | — | — |
 | [Linear Issue Triage & Sprint Planner](../../skills/linear-issue-triage-sprint-planner-2/) | — | — |
-| [Mnemoverse Memory MCP](../../skills/mnemoverse-memory-mcp/) | — | — |
 | [Plaid Financial Data Connector](../../skills/plaid-financial-data-connector/) | — | — |
 | [RouterBase API Integration](../../skills/routerbase-api-integration/) | — | — |
 | [Verify a Nano (XNO) Payment](../../skills/verify-nano-payment/) | — | — |
