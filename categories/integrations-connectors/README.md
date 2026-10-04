@@ -174,6 +174,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Give MCP agents local shared memory with MARM](../../skills/give-mcp-agents-local-shared-memory-with-marm/) | 307 | — |
 | [Connect accounting agents to Xero through MCP](../../skills/connect-accounting-agents-to-xero-through-mcp/) | 294 | 8k/wk |
 | [Bundle Agent Quotas Through cc-router](../../skills/bundle-agent-quotas-through-cc-router/) | 252 | — |
+| [Share MCP tools and agent skills across local agents with mcptoon](../../skills/share-mcp-tools-and-agent-skills-across-local-agents-with-mcptoon/) | 207 | — |
 | [Route production agent loops through BitRouter](../../skills/route-production-agent-loops-through-bitrouter/) | 202 | 258/wk |
 | [Build edge-to-cloud agent memory with NodeDB](../../skills/build-edge-to-cloud-agent-memory-with-nodedb/) | 201 | — |
 | [Manage Baidu Netdisk Files From Agent Workflows](../../skills/manage-baidu-netdisk-files-from-agent-workflows/) | 158 | — |

@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-10-04
-# Total: 3080 skills
+# Total: 3083 skills
+
+## Share MCP tools and agent skills across local agents with mcptoon
+slug: share-mcp-tools-and-agent-skills-across-local-agents-with-mcptoon
+category: Integrations & Connectors
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use mcptoon to install, index, inspect, and call MCP tools and agent skills from one local CLI while keeping bulky schemas and skill text…
+url: https://agentskillexchange.com/skills/share-mcp-tools-and-agent-skills-across-local-agents-with-mcptoon/
+
+## Review agent-authored diffs in terminal with herdr-reviewr
+slug: review-agent-authored-diffs-in-terminal-with-herdr-reviewr
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Open a terminal review pane beside a coding agent, inspect changed files, add line comments, and send structured review notes back to the agent…
+url: https://agentskillexchange.com/skills/review-agent-authored-diffs-in-terminal-with-herdr-reviewr/
+
+## Run terminal coding workflows with Easy Agent
+slug: run-terminal-coding-workflows-with-easy-agent
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Easy Agent to run permissioned terminal coding sessions that can inspect repositories, edit files, run commands, connect MCP tools, and operate with sandbox…
+url: https://agentskillexchange.com/skills/run-terminal-coding-workflows-with-easy-agent/
 
 ## Monitor and approve coding-agent sessions with Coucou
 slug: monitor-and-approve-coding-agent-sessions-with-coucou

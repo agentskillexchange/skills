@@ -2,8 +2,41 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-10-04",
-  "total": 3080,
+  "total": 3083,
   "skills": [
+    {
+      "slug": "share-mcp-tools-and-agent-skills-across-local-agents-with-mcptoon",
+      "name": "Share MCP tools and agent skills across local agents with mcptoon",
+      "title": "Share MCP tools and agent skills across local agents with mcptoon",
+      "description": "Use mcptoon to install, index, inspect, and call MCP tools and agent skills from one local CLI while keeping bulky schemas and skill text…",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/activeing123/mcptoon",
+      "github_repo": "activeing123/mcptoon"
+    },
+    {
+      "slug": "review-agent-authored-diffs-in-terminal-with-herdr-reviewr",
+      "name": "Review agent-authored diffs in terminal with herdr-reviewr",
+      "title": "Review agent-authored diffs in terminal with herdr-reviewr",
+      "description": "Open a terminal review pane beside a coding agent, inspect changed files, add line comments, and send structured review notes back to the agent…",
+      "category": "Code Quality & Review",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/persiyanov/herdr-reviewr",
+      "github_repo": "persiyanov/herdr-reviewr"
+    },
+    {
+      "slug": "run-terminal-coding-workflows-with-easy-agent",
+      "name": "Run terminal coding workflows with Easy Agent",
+      "title": "Run terminal coding workflows with Easy Agent",
+      "description": "Use Easy Agent to run permissioned terminal coding sessions that can inspect repositories, edit files, run commands, connect MCP tools, and operate with sandbox…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/ConardLi/easy-agent",
+      "github_repo": "ConardLi/easy-agent"
+    },
     {
       "slug": "monitor-and-approve-coding-agent-sessions-with-coucou",
       "name": "Monitor and approve coding-agent sessions with Coucou",
