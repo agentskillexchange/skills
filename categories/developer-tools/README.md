@@ -422,6 +422,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Run cost-constrained local coding sessions with ClawCodex](../../skills/run-cost-constrained-local-coding-sessions-with-clawcodex/) | 903 | — |
 | [Run phased coding-agent delivery workflows with AgentSys](../../skills/run-phased-coding-agent-delivery-workflows-with-agentsys/) | 896 | 814/wk |
 | [Reduce coding-agent context load with Token Savior](../../skills/reduce-coding-agent-context-load-with-token-savior/) | 893 | — |
+| [Maintain a Claude Code and Obsidian second brain with second-brain-os](../../skills/maintain-claude-code-and-obsidian-second-brain-with-second-brain-os/) | 888 | — |
 | [Run StyleSeed Design Gates in Coding-Agent UI Builds](../../skills/run-styleseed-design-gates-in-coding-agent-ui-builds/) | 884 | — |
 | [Find repository context for coding agents with Jevgrep](../../skills/find-repository-context-for-coding-agents-with-jevgrep/) | 883 | 491/wk |
 | [CircleCI MCP Server](../../skills/circleci-mcp-server/) | 844 | — |
@@ -537,6 +538,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Linear Issue Manager](../../skills/linear-issue-manager/) | — | — |
 | [LLDB Debug Session Automator](../../skills/lldb-debug-session-automator/) | — | — |
 | [Makefile Dependency Auditor](../../skills/makefile-dependency-auditor/) | — | — |
+| [MCP Workflow Audit](../../skills/mcp-workflow-audit/) | — | — |
 | [n8n GitHub Issue-to-Jira Ticket Automator](../../skills/n8n-github-jira-ticket-automator/) | — | — |
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | — | — |
 | [Obsidian Vault Manager](../../skills/obsidian-vault-manager/) | — | — |

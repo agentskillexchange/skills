@@ -1,8 +1,59 @@
 {
   "version": "2.0",
-  "total": 3083,
+  "total": 3087,
   "generated": "2026-10-04",
   "skills": [
+    {
+      "slug": "mcp-workflow-audit",
+      "name": "MCP Workflow Audit",
+      "title": "MCP Workflow Audit",
+      "description": "Audit Claude Code, MCP, and AI-agent workflows for permissions, consequential actions, idempotency, failure recovery, verification, and operator handoff.",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "listed",
+      "source_url": "https://github.com/OssaBellator/claude-mcp-workflow-audit",
+      "github_repo": "ossabellator/claude-mcp-workflow-audit"
+    },
+    {
+      "slug": "browser-extension-launch",
+      "name": "Browser Extension Launch",
+      "title": "Browser Extension Launch",
+      "description": "Turns a plain-language idea into a tested Chrome Manifest V3 extension, release bundle, store materials, and a resumable launch workflow using Codex skills and…",
+      "category": "Templates & Workflows",
+      "framework": "Codex",
+      "verification": "listed",
+      "source_url": "https://github.com/xiehuan123/browser-extension-launch",
+      "github_repo": "xiehuan123/browser-extension-launch"
+    },
+    {
+      "slug": "search-and-fetch-biomedical-literature-through-mcp-with-pubmed-mcp-server",
+      "name": "Search and fetch biomedical literature through MCP with PubMed MCP Server",
+      "title": "Search and fetch biomedical literature through MCP with PubMed MCP Server",
+      "description": "Connect an MCP-capable agent to PubMed, Europe PMC, PMC full text, Unpaywall, citations, and MeSH tools for supervised biomedical literature workflows.",
+      "category": "Research & Scraping",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 153,
+        "npm_weekly_downloads": 3998
+      },
+      "source_url": "https://github.com/cyanheads/pubmed-mcp-server",
+      "github_repo": "cyanheads/pubmed-mcp-server"
+    },
+    {
+      "slug": "maintain-claude-code-and-obsidian-second-brain-with-second-brain-os",
+      "name": "Maintain a Claude Code and Obsidian second brain with second-brain-os",
+      "title": "Maintain a Claude Code and Obsidian second brain with second-brain-os",
+      "description": "Use second-brain-os to give Claude Code a repeatable Obsidian knowledge-base workflow with skills, commands, agents, scripts, and a starter vault.",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 888
+      },
+      "source_url": "https://github.com/undefined-ui/second-brain-os",
+      "github_repo": "undefined-ui/second-brain-os"
+    },
     {
       "slug": "share-mcp-tools-and-agent-skills-across-local-agents-with-mcptoon",
       "name": "Share MCP tools and agent skills across local agents with mcptoon",

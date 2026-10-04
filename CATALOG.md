@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3083 published skills** across **17 categories** · 2,572 security reviewed · Updated 2026-10-04 07:27 UTC
+> **3087 published skills** across **17 categories** · 2,572 security reviewed · Updated 2026-10-04 13:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (507 skills)
+### 🛠️ Developer Tools (509 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -396,6 +396,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Run cost-constrained local coding sessions with ClawCodex](skills/run-cost-constrained-local-coding-sessions-with-clawcodex/) | Start ClawCodex as a local Python coding-agent CLI when a repository task needs Claude Code-style editing with… | Security Reviewed | 903 | — |
 | [Run phased coding-agent delivery workflows with AgentSys](skills/run-phased-coding-agent-delivery-workflows-with-agentsys/) | Use AgentSys to install and run structured coding-agent pipelines for task discovery, delivery preparation, drift… | Security Reviewed | 896 | 814/wk |
 | [Reduce coding-agent context load with Token Savior](skills/reduce-coding-agent-context-load-with-token-savior/) | Connect coding agents to a Token Savior MCP server for structural code navigation, persistent recall, compact… | Security Reviewed | 893 | — |
+| [Maintain a Claude Code and Obsidian second brain with second-brain-os](skills/maintain-claude-code-and-obsidian-second-brain-with-second-brain-os/) | Use second-brain-os to give Claude Code a repeatable Obsidian knowledge-base workflow with skills, commands, agents,… | Security Reviewed | 888 | — |
 | [Run StyleSeed Design Gates in Coding-Agent UI Builds](skills/run-styleseed-design-gates-in-coding-agent-ui-builds/) | Install StyleSeed skills so coding agents choose a design grammar, build UI with project-local rules, score the… | Security Reviewed | 884 | — |
 | [Find repository context for coding agents with Jevgrep](skills/find-repository-context-for-coding-agents-with-jevgrep/) | Ask a natural-language codebase question and return ranked files, source excerpts, and reading leads so a coding… | Security Reviewed | 883 | 491/wk |
 | [CircleCI MCP Server](skills/circleci-mcp-server/) | CircleCI MCP Server is built around CircleCI continuous integration platform. The underlying ecosystem is… | Security Reviewed | 844 | — |
@@ -511,6 +512,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Linear Issue Manager](skills/linear-issue-manager/) | Linear Issue Manager is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | — | — |
 | [LLDB Debug Session Automator](skills/lldb-debug-session-automator/) | Automates LLDB debugging sessions with scripted breakpoint management and expression evaluation. Uses the LLDB… | Security Reviewed | — | — |
 | [Makefile Dependency Auditor](skills/makefile-dependency-auditor/) | Parses GNU Makefiles using pymake and builds complete dependency DAGs. Detects circular dependencies, unreachable… | Security Reviewed | — | — |
+| [MCP Workflow Audit](skills/mcp-workflow-audit/) | Audit Claude Code, MCP, and AI-agent workflows for permissions, consequential actions, idempotency, failure… | Published | — | — |
 | [n8n GitHub Issue-to-Jira Ticket Automator](skills/n8n-github-jira-ticket-automator/) | Deploys an n8n workflow via the n8n REST API using the GitHub Trigger node to capture new issue events and transform… | Security Reviewed | — | — |
 | [NPM Package Auditor](skills/npm-package-auditor-registry-api/) | Audits NPM packages using the NPM Registry API with dependency tree resolution and vulnerability scanning via… | Security Reviewed | — | — |
 | [Obsidian Vault Manager](skills/obsidian-vault-manager/) | Obsidian Vault Manager is built around HashiCorp Vault secrets platform. The underlying ecosystem is represented by… | Published | — | — |
@@ -523,7 +525,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Zinc Universal Checkout](skills/zinc-universal-checkout/) | Discover, buy, track, and return products across Amazon, Walmart, Target, Best Buy, eBay, and 50+ US retailers via… | Published | — | — |
 
 
-### 📄 Templates & Workflows (258 skills)
+### 📄 Templates & Workflows (259 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -769,6 +771,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/) | Use Claude Code Dedupe to summarize an issue, run parallel GitHub duplicate searches, filter false positives, and… | Security Reviewed | — | 49.9M/wk |
 | [Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue](skills/triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue/) | Use Claude Code triage-issue to read a GitHub issue, verify it actually belongs to the product from body evidence… | Security Reviewed | — | 49.9M/wk |
 | [Autonomous Session Workflow](skills/autonomous-session-workflow/) | 5-phase repeatable structure for autonomous agent sessions: context-load, tiered work-selection, coordination claim,… | Published | — | — |
+| [Browser Extension Launch](skills/browser-extension-launch/) | Turns a plain-language idea into a tested Chrome Manifest V3 extension, release bundle, store materials, and a… | Published | — | — |
 | [Bubble.io Stripe Subscription Portal Builder](skills/bubble-stripe-subscription-portal/) | Uses Bubble's Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a… | Security Reviewed | — | — |
 | [Co-author structured docs with staged context gathering and reader testing](skills/co-author-structured-docs-with-staged-context-gathering-and-reader-testing/) | Use Anthropic's doc-coauthoring skill to run a disciplined writing workflow instead of freeform drafting. The agent… | Security Reviewed | — | — |
 | [Create and repair Word documents with layout-safe DOCX workflows](skills/create-and-repair-word-documents-with-layout-safe-docx-workflows/) | Use the Anthropic docx skill when an agent needs to produce or repair a real .docx deliverable with headings,… | Security Reviewed | — | — |
@@ -2235,7 +2238,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Published | — | — |
 
 
-### 🔍 Research & Scraping (135 skills)
+### 🔍 Research & Scraping (136 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -2338,6 +2341,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Research real estate properties with RAG-backed market analysis](skills/rag-backed-real-estate-property-research/) | Guide an agent through property search, buyer/renter preference capture, and evidence-backed shortlist notes from… | Security Reviewed | 170 | — |
 | [Normalize and filter noisy URL lists before crawling or queueing](skills/normalize-and-filter-noisy-url-lists-before-crawling-or-queueing/) | Uses Courlan to clean, normalize, de-track, and language-filter raw URL inventories before a crawler, scraper, or… | Security Reviewed | 165 | — |
 | [Automate NotebookLM Studio generation and cited research batches with notebooklm-mcp](skills/automate-notebooklm-studio-generation-and-cited-research-batches-with-notebooklm-mcp/) | Use NotebookLM through MCP or a local REST API to run cited Q&A, generate Studio artifacts, and manage high-volume… | Security Reviewed | 161 | 3.5k/wk |
+| [Search and fetch biomedical literature through MCP with PubMed MCP Server](skills/search-and-fetch-biomedical-literature-through-mcp-with-pubmed-mcp-server/) | Connect an MCP-capable agent to PubMed, Europe PMC, PMC full text, Unpaywall, citations, and MeSH tools for… | Security Reviewed | 153 | 4k/wk |
 | [Run academic literature review and paper-output workflows with Aut Sci Write](skills/run-academic-literature-review-and-paper-output-workflows-with-aut-sci-write/) | Use Aut Sci Write to let an agent search scholarly sources, download papers, extract PDF evidence, sync Zotero… | Security Reviewed | 151 | 43/wk |
 | [Common Crawl URL Index Miner](skills/common-crawl-url-index-miner/) | Queries the Common Crawl Index API and CC-MAIN collections to surface historical URL coverage, MIME types, and crawl… | Security Reviewed | 127 | — |
 | [Exa JS Web Search SDK for AI Applications](skills/exa-js-web-search-sdk-ai-applications/) | exa-js is the official JavaScript SDK for Exa, a web search API built for AI workflows. It gives agents a concrete… | Security Reviewed | 126 | 429.9k/wk |

@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-10-04
-# Total: 3083 skills
+# Total: 3087 skills
+
+## MCP Workflow Audit
+slug: mcp-workflow-audit
+category: Developer Tools
+framework: Claude Code
+verification: Published
+description: Audit Claude Code, MCP, and AI-agent workflows for permissions, consequential actions, idempotency, failure recovery, verification, and operator handoff.
+url: https://agentskillexchange.com/skills/mcp-workflow-audit/
+
+## Browser Extension Launch
+slug: browser-extension-launch
+category: Templates & Workflows
+framework: Codex
+verification: Published
+description: Turns a plain-language idea into a tested Chrome Manifest V3 extension, release bundle, store materials, and a resumable launch workflow using Codex skills and…
+url: https://agentskillexchange.com/skills/browser-extension-launch/
+
+## Search and fetch biomedical literature through MCP with PubMed MCP Server
+slug: search-and-fetch-biomedical-literature-through-mcp-with-pubmed-mcp-server
+category: Research & Scraping
+framework: MCP
+verification: Security Reviewed
+description: Connect an MCP-capable agent to PubMed, Europe PMC, PMC full text, Unpaywall, citations, and MeSH tools for supervised biomedical literature workflows.
+url: https://agentskillexchange.com/skills/search-and-fetch-biomedical-literature-through-mcp-with-pubmed-mcp-server/
+
+## Maintain a Claude Code and Obsidian second brain with second-brain-os
+slug: maintain-claude-code-and-obsidian-second-brain-with-second-brain-os
+category: Developer Tools
+framework: Claude Code
+verification: Security Reviewed
+description: Use second-brain-os to give Claude Code a repeatable Obsidian knowledge-base workflow with skills, commands, agents, scripts, and a starter vault.
+url: https://agentskillexchange.com/skills/maintain-claude-code-and-obsidian-second-brain-with-second-brain-os/
 
 ## Share MCP tools and agent skills across local agents with mcptoon
 slug: share-mcp-tools-and-agent-skills-across-local-agents-with-mcptoon

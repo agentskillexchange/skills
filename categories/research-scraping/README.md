@@ -137,6 +137,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Research real estate properties with RAG-backed market analysis](../../skills/rag-backed-real-estate-property-research/) | 170 | — |
 | [Normalize and filter noisy URL lists before crawling or queueing](../../skills/normalize-and-filter-noisy-url-lists-before-crawling-or-queueing/) | 165 | — |
 | [Automate NotebookLM Studio generation and cited research batches with notebooklm-mcp](../../skills/automate-notebooklm-studio-generation-and-cited-research-batches-with-notebooklm-mcp/) | 161 | 3.5k/wk |
+| [Search and fetch biomedical literature through MCP with PubMed MCP Server](../../skills/search-and-fetch-biomedical-literature-through-mcp-with-pubmed-mcp-server/) | 153 | 4k/wk |
 | [Run academic literature review and paper-output workflows with Aut Sci Write](../../skills/run-academic-literature-review-and-paper-output-workflows-with-aut-sci-write/) | 151 | 43/wk |
 | [Common Crawl URL Index Miner](../../skills/common-crawl-url-index-miner/) | 127 | — |
 | [Exa JS Web Search SDK for AI Applications](../../skills/exa-js-web-search-sdk-ai-applications/) | 126 | 429.9k/wk |
