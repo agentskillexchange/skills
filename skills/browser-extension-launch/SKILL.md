@@ -2,16 +2,13 @@
 name: "Browser Extension Launch"
 slug: "browser-extension-launch"
 description: "Turns a plain-language idea into a tested Chrome Manifest V3 extension, release bundle, store materials, and a resumable launch workflow using Codex skills and Playwright MCP acceptance checks."
+verification: "listed"
+source: "https://github.com/xiehuan123/browser-extension-launch"
 category: "Templates & Workflows"
 framework: "Codex"
-verification: listed
-source: "https://github.com/xiehuan123/browser-extension-launch"
 tool_ecosystem:
-  tool: "browser-extension-launch"
   github_repo: "xiehuan123/browser-extension-launch"
   npm_package: "browser-extension-launch"
-  license: "MIT"
-  maintained: true
 ---
 
 # Browser Extension Launch
