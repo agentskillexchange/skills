@@ -2,12 +2,15 @@
 name: "Read Ledger"
 slug: "read-ledger"
 description: "Track research source and text-range coverage across contexts using JSONL snapshots, SHA-256 hashes, Unicode code-point offsets, and bounded resumable batches."
+github_stars: 0
 verification: "listed"
 source: "https://github.com/makoncline/read-ledger"
+author: "makoncline"
 category: "Research & Scraping"
 framework: "Codex"
 tool_ecosystem:
   github_repo: "makoncline/read-ledger"
+  github_stars: 0
 ---
 
 # Read Ledger
@@ -18,7 +21,9 @@ The workflow uses the agent's existing shell and language tools to parse records
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Install or set up from the source-backed instructions:
+
+mkdir -p .agents/skills && git clone --depth 1 https://github.com/makoncline/read-ledger.git .agents/skills/read-ledger
 
 - Source: https://github.com/makoncline/read-ledger
 
