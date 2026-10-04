@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3087 published skills** across **17 categories** · 2,575 security reviewed · Updated 2026-10-04 13:27 UTC
+> **3090 published skills** across **17 categories** · 2,575 security reviewed · Updated 2026-10-04 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (509 skills)
+### 🛠️ Developer Tools (510 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -32,6 +32,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Hoppscotch Open Source API Development Ecosystem](skills/hoppscotch-api-development-ecosystem/) | Hoppscotch is a lightweight, open-source API development platform that serves as an alternative to Postman and… | Security Reviewed | 78.7k | — |
 | [Zed High-Performance Multiplayer Code Editor](skills/zed-high-performance-multiplayer-code-editor/) | Zed is a high-performance, multiplayer code editor built in Rust by the creators of Atom and Tree-sitter. It… | Published | 78.6k | — |
 | [Cut coding-agent response tokens with Caveman mode](skills/cut-coding-agent-response-tokens-with-caveman-mode/) | Install Caveman as a Claude Code style skill when coding agents need terse, technically accurate responses that… | Published | 78.4k | — |
+| [Create interactive agent-readable diagrams with Archify](skills/create-interactive-agent-readable-diagrams-with-archify/) | Use Archify from an agent session to turn ideas, plans, workflows, or repository structure into interactive HTML… | Security Reviewed | 77.2k | — |
 | [Manage agent CLI providers and MCP settings with CC Switch](skills/manage-agent-cli-providers-and-mcp-settings-with-cc-switch/) | Use CC Switch to keep provider profiles, MCP servers, prompts, skills, sessions, and usage tracking consistent… | Published | 76.2k | — |
 | [lazygit Terminal UI for Git Operations](skills/lazygit-terminal-ui-git-operations/) | A simple terminal user interface for git commands built with Go. lazygit provides interactive staging, rebasing,… | Security Reviewed | 75.4k | — |
 | [vLLM High-Throughput LLM Serving Engine with PagedAttention](skills/vllm-high-throughput-llm-serving/) | vLLM is a fast and memory-efficient inference and serving engine for large language models. It uses PagedAttention… | Published | 75.1k | — |
@@ -1051,7 +1052,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (227 skills)
+### 🔄 Data Extraction & Transformation (228 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -1229,6 +1230,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Tabula PDF Table Extractor](skills/tabula-pdf-table-extractor/) | Extracts structured tables from PDF documents using Tabula-java with lattice and stream detection modes. Outputs to… | Security Reviewed | 2k | — |
 | [Translate technical PDFs through RetainPDF while preserving layout](skills/translate-technical-pdfs-through-retainpdf-while-preserving-layout/) | Route scanned, scientific, and technical PDFs through RetainPDF so an agent can produce translated PDFs while… | Security Reviewed | 2k | — |
 | [Query and rewrite Markdown structure with mdq](skills/query-and-rewrite-markdown-structure-with-mdq/) | Use mdq when an agent needs to target headings, lists, links, or other Markdown structure without falling back to… | Security Reviewed | 1.7k | — |
+| [Run a Docling API server for agent document conversion](skills/run-a-docling-api-server-for-agent-document-conversion/) | Deploy Docling API so agents can convert PDFs, Office files, images, HTML, CSV, and other documents into Markdown… | Security Reviewed | 1.7k | — |
 | [Anyquery Universal SQL Engine with MCP Integration](skills/anyquery-universal-sql-engine-mcp-integration/) | Anyquery is a SQL query engine that lets you run SQL against 40+ apps, files, and databases including GitHub,… | Security Reviewed | 1.7k | — |
 | [Let agents draft and manage Bdash SQL queries through MCP](skills/let-agents-draft-and-manage-bdash-sql-queries-through-mcp/) | Connect Bdash's SQL workspace to MCP clients so an agent can list configured data sources and write SQL into the… | Security Reviewed | 1.5k | — |
 | [Convert mixed documents into agent-ready Markdown and JSON with DocStrange](skills/convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange/) | Convert PDFs, scans, office files, images, and URLs into clean Markdown, structured JSON, CSV, or HTML before an… | Security Reviewed | 1.5k | 90/wk |
@@ -2069,7 +2071,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (161 skills)
+### 📊 Monitoring & Alerts (162 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -2210,6 +2212,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Record system-level agent activity with AgentSight](skills/record-system-level-agent-activity-with-agentsight/) | Wrap Claude Code, Codex, Gemini CLI, OpenClaw, or another agent command with AgentSight to capture processes, files,… | Security Reviewed | 469 | 18/wk |
 | [Inspect Claude Code multi-agent runs with Agents Observe](skills/agents-observe-claude-code-observability/) | Gives Claude Code operators a live dashboard for multi-agent sessions, tool calls, file activity, and nested task… | Security Reviewed | 421 | — |
 | [Cronitor CLI for Cron Monitoring and Job Telemetry](skills/cronitor-cli-cron-monitoring-job-telemetry/) | CronitorCLI is Cronitor's open-source command-line tool for syncing cron jobs, sending telemetry pings, and wrapping… | Security Reviewed | 399 | — |
+| [Visualize OpenTelemetry agent traces with Agent Prism](skills/visualize-opentelemetry-agent-traces-with-agent-prism/) | Add Agent Prism's React trace viewer to inspect LLM calls, tool executions, retries, and agent workflows from… | Security Reviewed | 393 | 7.6k/wk |
 | [Watch local agent token usage and session traces with TokenTelemetry](skills/watch-local-agent-token-usage-and-session-traces-with-tokentelemetry/) | Use TokenTelemetry to read local Claude Code, Codex, Gemini CLI, Hermes, and other agent logs into a dashboard for… | Published | 368 | 347/wk |
 | [Inspect local coding-agent traces and share minimized reports with TraceCrate](skills/inspect-local-coding-agent-traces-and-share-minimized-reports-with-tracecrate/) | Use TraceCrate to load Claude Code, Codex, OTLP, or native trace files locally, compare agent runs, inspect tool… | Security Reviewed | 202 | — |
 | [Monitor coding-agent token spend with Splitrail](skills/monitor-coding-agent-token-spend-with-splitrail/) | Track token burn, spend, and model mix across multiple coding-agent tools from one local monitoring workflow. | Security Reviewed | 159 | — |

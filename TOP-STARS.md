@@ -52,7 +52,7 @@ Skills backed by the most-starred GitHub repositories, deduplicated by upstream 
 | 44 | [Zed High-Performance Multiplayer Code Editor](skills/zed-high-performance-multiplayer-code-editor/) | 78.6k | zed | Developer Tools |
 | 45 | [Netdata Real-Time Infrastructure Monitoring and Alerting](skills/netdata-real-time-infrastructure-monitoring-and-alerting/) | 78.4k | netdata | Monitoring & Alerts |
 | 46 | [Cut coding-agent response tokens with Caveman mode](skills/cut-coding-agent-response-tokens-with-caveman-mode/) | 78.4k | caveman | Developer Tools |
-| 47 | [Elastic / Kibana MCP Server](skills/elastic-kibana-mcp-server/) | 76.8k | elasticsearch | Monitoring & Alerts |
-| 48 | [Sherlock Social Media Username Hunter Across 400+ Networks](skills/sherlock-social-media-username-hunter/) | 76.2k | sherlock | Research & Scraping |
-| 49 | [Manage agent CLI providers and MCP settings with CC Switch](skills/manage-agent-cli-providers-and-mcp-settings-with-cc-switch/) | 76.2k | cc-switch | Developer Tools |
-| 50 | [lazygit Terminal UI for Git Operations](skills/lazygit-terminal-ui-git-operations/) | 75.4k | lazygit | Developer Tools |
+| 47 | [Create interactive agent-readable diagrams with Archify](skills/create-interactive-agent-readable-diagrams-with-archify/) | 77.2k | archify | Developer Tools |
+| 48 | [Elastic / Kibana MCP Server](skills/elastic-kibana-mcp-server/) | 76.8k | elasticsearch | Monitoring & Alerts |
+| 49 | [Sherlock Social Media Username Hunter Across 400+ Networks](skills/sherlock-social-media-username-hunter/) | 76.2k | sherlock | Research & Scraping |
+| 50 | [Manage agent CLI providers and MCP settings with CC Switch](skills/manage-agent-cli-providers-and-mcp-settings-with-cc-switch/) | 76.2k | cc-switch | Developer Tools |

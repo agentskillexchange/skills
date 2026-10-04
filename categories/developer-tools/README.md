@@ -58,6 +58,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Hoppscotch Open Source API Development Ecosystem](../../skills/hoppscotch-api-development-ecosystem/) | 78.7k | — |
 | [Zed High-Performance Multiplayer Code Editor](../../skills/zed-high-performance-multiplayer-code-editor/) | 78.6k | — |
 | [Cut coding-agent response tokens with Caveman mode](../../skills/cut-coding-agent-response-tokens-with-caveman-mode/) | 78.4k | — |
+| [Create interactive agent-readable diagrams with Archify](../../skills/create-interactive-agent-readable-diagrams-with-archify/) | 77.2k | — |
 | [Manage agent CLI providers and MCP settings with CC Switch](../../skills/manage-agent-cli-providers-and-mcp-settings-with-cc-switch/) | 76.2k | — |
 | [lazygit Terminal UI for Git Operations](../../skills/lazygit-terminal-ui-git-operations/) | 75.4k | — |
 | [vLLM High-Throughput LLM Serving Engine with PagedAttention](../../skills/vllm-high-throughput-llm-serving/) | 75.1k | — |

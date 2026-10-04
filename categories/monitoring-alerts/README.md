@@ -175,6 +175,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Record system-level agent activity with AgentSight](../../skills/record-system-level-agent-activity-with-agentsight/) | 469 | 18/wk |
 | [Inspect Claude Code multi-agent runs with Agents Observe](../../skills/agents-observe-claude-code-observability/) | 421 | — |
 | [Cronitor CLI for Cron Monitoring and Job Telemetry](../../skills/cronitor-cli-cron-monitoring-job-telemetry/) | 399 | — |
+| [Visualize OpenTelemetry agent traces with Agent Prism](../../skills/visualize-opentelemetry-agent-traces-with-agent-prism/) | 393 | 7.6k/wk |
 | [Watch local agent token usage and session traces with TokenTelemetry](../../skills/watch-local-agent-token-usage-and-session-traces-with-tokentelemetry/) | 368 | 347/wk |
 | [Inspect local coding-agent traces and share minimized reports with TraceCrate](../../skills/inspect-local-coding-agent-traces-and-share-minimized-reports-with-tracecrate/) | 202 | — |
 | [Monitor coding-agent token spend with Splitrail](../../skills/monitor-coding-agent-token-spend-with-splitrail/) | 159 | — |

@@ -1,8 +1,51 @@
 {
   "version": "2.0",
-  "total": 3087,
+  "total": 3090,
   "generated": "2026-10-04",
   "skills": [
+    {
+      "slug": "visualize-opentelemetry-agent-traces-with-agent-prism",
+      "name": "Visualize OpenTelemetry agent traces with Agent Prism",
+      "title": "Visualize OpenTelemetry agent traces with Agent Prism",
+      "description": "Add Agent Prism's React trace viewer to inspect LLM calls, tool executions, retries, and agent workflows from OpenTelemetry or Langfuse-style trace data.",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 393,
+        "npm_weekly_downloads": 7610
+      },
+      "source_url": "https://github.com/evilmartians/agent-prism",
+      "github_repo": "evilmartians/agent-prism"
+    },
+    {
+      "slug": "run-a-docling-api-server-for-agent-document-conversion",
+      "name": "Run a Docling API server for agent document conversion",
+      "title": "Run a Docling API server for agent document conversion",
+      "description": "Deploy Docling API so agents can convert PDFs, Office files, images, HTML, CSV, and other documents into Markdown through sync, batch, and async HTTP…",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1690
+      },
+      "source_url": "https://github.com/drmingler/docling-api",
+      "github_repo": "drmingler/docling-api"
+    },
+    {
+      "slug": "create-interactive-agent-readable-diagrams-with-archify",
+      "name": "Create interactive agent-readable diagrams with Archify",
+      "title": "Create interactive agent-readable diagrams with Archify",
+      "description": "Use Archify from an agent session to turn ideas, plans, workflows, or repository structure into interactive HTML diagrams that can be explored and shared.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 77206
+      },
+      "source_url": "https://github.com/tt-a1i/archify",
+      "github_repo": "tt-a1i/archify"
+    },
     {
       "slug": "mcp-workflow-audit",
       "name": "MCP Workflow Audit",
