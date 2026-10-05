@@ -12,8 +12,8 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 4 | [Supabase MCP Server](skills/supabase-mcp-server/) | 83.5M/wk | supabase | Developer Tools |
 | 5 | [pnpm Fast Disk-Efficient Package Manager](skills/pnpm-fast-disk-efficient-package-manager/) | 66.3M/wk | pnpm | Developer Tools |
 | 6 | [Sharp Image CDN Optimizer](skills/sharp-image-cdn-optimizer/) | 52.5M/wk | sharp | Image & Creative Automation |
-| 7 | [Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/) | 49.9M/wk | claude-code | Templates & Workflows |
-| 8 | [OpenAI Image Gen](skills/openai-image-gen/) | 48.7M/wk | openai | Image & Creative Automation |
+| 7 | [OpenAI Image Gen](skills/openai-image-gen/) | 50.4M/wk | openai | Image & Creative Automation |
+| 8 | [Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/) | 49.9M/wk | claude-code | Templates & Workflows |
 | 9 | [Playwright Accessibility Audit Runner](skills/playwright-accessibility-audit-runner/) | 47.9M/wk | playwright | Browser Automation |
 | 10 | [Jest Unit Test Scaffolder](skills/jest-unit-test-scaffolder/) | 44.8M/wk | jest | Code Quality & Review |
 | 11 | [Webpack Bundle Analyzer Agent](skills/webpack-bundle-analyzer-agent/) | 44.5M/wk | webpack | Developer Tools |
@@ -30,7 +30,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 22 | [MySQL Query Agent](skills/mysql-query-agent/) | 8.9M/wk | mysql | Developer Tools |
 | 23 | [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](skills/pixelmatch-image-comparison-library/) | 8.7M/wk | pixelmatch | Image & Creative Automation |
 | 24 | [Convert HTML emails and web fragments into clean plain text for downstream agents](skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/) | 8.2M/wk | html-to-text | Data Extraction & Transformation |
-| 25 | [Twilio MCP Server](skills/twilio-mcp-server/) | 7.7M/wk | twilio | Integrations & Connectors |
+| 25 | [Twilio MCP Server](skills/twilio-mcp-server/) | 7.8M/wk | twilio | Integrations & Connectors |
 | 26 | [Cypress Component Test Generator](skills/cypress-component-test-generator/) | 7.3M/wk | cypress | Browser Automation |
 | 27 | [Cloudflare Workers Deployer](skills/cloudflare-workers-deployer/) | 7.1M/wk | cloudflare | Templates & Workflows |
 | 28 | [Drizzle ORM TypeScript SQL Database Toolkit](skills/drizzle-orm-typescript-sql-database-toolkit/) | 7M/wk | drizzle-orm | Developer Tools |
@@ -39,7 +39,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 31 | [API Client Generator Skill](skills/api-client-generator-skill/) | 5.7M/wk | openapi-generator | Developer Tools |
 | 32 | [SQLite Analyst](skills/sqlite-analyst/) | 5.5M/wk | sqlite | Developer Tools |
 | 33 | [PostHog Product Analytics and Feature Flags SDK](skills/posthog-product-analytics-and-feature-flags-sdk/) | 4.8M/wk | posthog-js | Monitoring & Alerts |
-| 34 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 3.8M/wk | datadog-api-client-typescript | Monitoring & Alerts |
+| 34 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 3.9M/wk | datadog-api-client-typescript | Monitoring & Alerts |
 | 35 | [TypeDoc TypeScript API Documentation Generator](skills/typedoc-typescript-api-documentation-generator/) | 3.7M/wk | typedoc | Library & API Reference |
 | 36 | [Stagehand AI Browser Automation Framework](skills/stagehand-ai-browser-automation-framework-2/) | 3.4M/wk | stagehand | Browser Automation |
 | 37 | [AWS CDK Scaffolder](skills/aws-cdk-scaffolder/) | 3.3M/wk | aws | Templates & Workflows |
