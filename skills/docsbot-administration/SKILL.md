@@ -2,12 +2,15 @@
 name: "DocsBot Administration"
 slug: "docsbot-administration"
 description: "Administer DocsBot bots, knowledge sources, teams, and reporting through named MCP tools with browser OAuth and live role checks."
+github_stars: 0
 verification: "listed"
 source: "https://github.com/uglyrobot/docsbot-agent-skills"
+author: "uglyrobot"
 category: "Integrations & Connectors"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "uglyrobot/docsbot-agent-skills"
+  github_stars: 0
 ---
 
 # DocsBot Administration
@@ -28,7 +31,10 @@ Generated question-log, lead, Q&A, and source downloads (`export_question_log`, 
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Install or set up from the source-backed instructions:
+
+codex plugin marketplace add uglyrobot/docsbot-agent-skills
+codex plugin add docsbot-administration@docsbot
 
 - Source: https://github.com/uglyrobot/docsbot-agent-skills
 
