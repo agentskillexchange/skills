@@ -13,7 +13,7 @@ tool_ecosystem:
   github_repo: "microsoft/playwright-mcp"
   github_stars: 33289
   npm_package: "@playwright/mcp"
-  npm_weekly_downloads: 8763661
+  npm_weekly_downloads: 8942004
 ---
 
 # Playwright MCP Browser Automation
