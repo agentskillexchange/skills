@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-10-05",
-  "total": 3094,
+  "total": 3095,
   "skills": [
+    {
+      "slug": "maintain-reusable-project-knowledge-with-project-cairn",
+      "name": "Maintain reusable project knowledge with Project Cairn",
+      "title": "Maintain reusable project knowledge with Project Cairn",
+      "description": "Use Project Cairn to initialize, maintain, audit, and graduate project knowledge so coding-agent work leaves reusable decisions and lessons behind.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/iBlinkQ/project-cairn",
+      "github_repo": "iBlinkQ/project-cairn"
+    },
     {
       "slug": "lognorm-seo-geo-backlog",
       "name": "Work an SEO and AI-Visibility Backlog with LogNorm",

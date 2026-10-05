@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-10-05
-# Total: 3094 skills
+# Total: 3095 skills
+
+## Maintain reusable project knowledge with Project Cairn
+slug: maintain-reusable-project-knowledge-with-project-cairn
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Project Cairn to initialize, maintain, audit, and graduate project knowledge so coding-agent work leaves reusable decisions and lessons behind.
+url: https://agentskillexchange.com/skills/maintain-reusable-project-knowledge-with-project-cairn/
 
 ## Work an SEO and AI-Visibility Backlog with LogNorm
 slug: lognorm-seo-geo-backlog

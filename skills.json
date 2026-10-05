@@ -1,8 +1,22 @@
 {
   "version": "2.0",
-  "total": 3094,
+  "total": 3095,
   "generated": "2026-10-05",
   "skills": [
+    {
+      "slug": "maintain-reusable-project-knowledge-with-project-cairn",
+      "name": "Maintain reusable project knowledge with Project Cairn",
+      "title": "Maintain reusable project knowledge with Project Cairn",
+      "description": "Use Project Cairn to initialize, maintain, audit, and graduate project knowledge so coding-agent work leaves reusable decisions and lessons behind.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 235
+      },
+      "source_url": "https://github.com/iBlinkQ/project-cairn",
+      "github_repo": "iBlinkQ/project-cairn"
+    },
     {
       "slug": "lognorm-seo-geo-backlog",
       "name": "Work an SEO and AI-Visibility Backlog with LogNorm",
