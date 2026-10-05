@@ -134,6 +134,7 @@ Blog posts, SEO optimization, content strategy, and writing assistance.
 | [Surfer SEO Content Optimizer Integration](../../skills/surfer-seo-content-optimizer-integration/) | — | — |
 | [Surfer SEO SERP Analyzer](../../skills/surfer-seo-serp-analyzer/) | — | — |
 | [Technical SEO Audit Crawler](../../skills/technical-seo-audit-crawler/) | — | — |
+| [Work an SEO and AI-Visibility Backlog with LogNorm](../../skills/lognorm-seo-geo-backlog/) | — | — |
 
 ---
 

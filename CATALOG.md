@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3092 published skills** across **17 categories** · 2,578 security reviewed · Updated 2026-10-05 01:27 UTC
+> **3094 published skills** across **17 categories** · 2,578 security reviewed · Updated 2026-10-05 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1701,7 +1701,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Update repository docs automatically after code changes and open review PRs](skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | Use GitHub Next's update-docs workflow when code changes should trigger documentation maintenance instead of waiting… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (178 skills)
+### 🔗 Integrations & Connectors (179 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1798,6 +1798,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Push, pull, and attach non-container OCI artifacts in registries with ORAS](skills/push-pull-and-attach-non-container-oci-artifacts-in-registries-with-oras/) | Use ORAS to move SBOMs, model bundles, provenance, and other non-container artifacts through OCI registries without… | Published | 2.2k | — |
 | [MetaMCP Unified MCP Server Aggregator and Gateway](skills/metamcp-unified-mcp-server-aggregator-gateway/) | MetaMCP is an open-source MCP proxy that aggregates multiple MCP servers into a single unified endpoint with a GUI… | Published | 2.2k | — |
 | [Run local coding agents from Feishu or Lark with Lark Coding Agent Bridge](skills/run-local-coding-agents-from-feishu-or-lark-with-lark-coding-agent-bridge/) | Use Lark Coding Agent Bridge to connect Feishu or Lark chat threads to a local Claude Code or Codex CLI session with… | Security Reviewed | 2.1k | — |
+| [Give agents persistent shared memory with mcp-memory-service](skills/give-agents-persistent-shared-memory-with-mcp-memory-service/) | Run a self-hosted MCP and REST memory layer so agents can store decisions, retrieve project context, and share… | Security Reviewed | 2k | — |
 | [Connect Azure DevOps projects, work items, repos, and pipelines to MCP agents](skills/connect-azure-devops-projects-work-items-repos-and-pipelines-to-mcp-agents/) | Use Azure DevOps MCP when an agent needs governed access to ADO projects, work items, builds, repos, test plans,… | Security Reviewed | 1.7k | 334.3k/wk |
 | [Sync skills across Claude Code, Codex, OpenClaw, and other AI CLIs with Skillshare](skills/sync-skills-across-ai-coding-clis-with-skillshare/) | Keep one canonical skills and agents source in sync across multiple coding CLIs instead of hand-copying files… | Security Reviewed | 1.6k | — |
 | [Twilio MCP Server](skills/twilio-mcp-server/) | Twilio MCP Server is built around Twilio communications APIs. The underlying ecosystem is represented by… | Security Reviewed | 1.5k | 7.7M/wk |
@@ -3135,7 +3136,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Word
 | [WP-CLI Site Migration Automator](skills/wp-cli-site-migration-automator/) | Automates full WordPress site migrations using WP-CLI search-replace, wp db export, and rsync. Handles serialized… | Security Reviewed | — | — |
 
 
-### ✍️ Content Writing & SEO (94 skills)
+### ✍️ Content Writing & SEO (95 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Content%20Writing%20%26%20SEO&sort=downloads)
 
@@ -3235,6 +3236,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cont
 | [Surfer SEO Content Optimizer Integration](skills/surfer-seo-content-optimizer-integration/) | Optimizes content against Surfer SEO's NLP-based recommendations via the Surfer API /v1/content_editors endpoint.… | Published | — | — |
 | [Surfer SEO SERP Analyzer](skills/surfer-seo-serp-analyzer/) | Uses Surfer SEO Content Editor API to pull SERP analysis data including word count benchmarks, heading structure… | Published | — | — |
 | [Technical SEO Audit Crawler](skills/technical-seo-audit-crawler/) | Crawls websites for technical SEO issues using Screaming Frog CLI, Lighthouse CI API, and PageSpeed Insights v5.… | Published | — | — |
+| [Work an SEO and AI-Visibility Backlog with LogNorm](skills/lognorm-seo-geo-backlog/) | Use LogNorm when Claude Code, Codex or Cursor should work a site's SEO and AI-visibility (GEO) backlog through a… | Published | — | — |
 
 
 ---

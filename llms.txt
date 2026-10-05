@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-10-05
-# Total: 3092 skills
+# Total: 3094 skills
+
+## Work an SEO and AI-Visibility Backlog with LogNorm
+slug: lognorm-seo-geo-backlog
+category: Content Writing & SEO
+framework: Claude Code
+verification: Published
+description: Use LogNorm when Claude Code, Codex or Cursor should work a site's SEO and AI-visibility (GEO) backlog through a hosted MCP server: audits, fixes,…
+url: https://agentskillexchange.com/skills/lognorm-seo-geo-backlog/
+
+## Give agents persistent shared memory with mcp-memory-service
+slug: give-agents-persistent-shared-memory-with-mcp-memory-service
+category: Integrations & Connectors
+framework: MCP
+verification: Security Reviewed
+description: Run a self-hosted MCP and REST memory layer so agents can store decisions, retrieve project context, and share knowledge across sessions and runtimes.
+url: https://agentskillexchange.com/skills/give-agents-persistent-shared-memory-with-mcp-memory-service/
 
 ## Mod PC games with agent skills and Universal Modder
 slug: mod-pc-games-with-agent-skills-and-universal-modder

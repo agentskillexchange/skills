@@ -1,8 +1,33 @@
 {
   "version": "2.0",
-  "total": 3092,
+  "total": 3094,
   "generated": "2026-10-05",
   "skills": [
+    {
+      "slug": "lognorm-seo-geo-backlog",
+      "name": "Work an SEO and AI-Visibility Backlog with LogNorm",
+      "title": "Work an SEO and AI-Visibility Backlog with LogNorm",
+      "description": "Use LogNorm when Claude Code, Codex or Cursor should work a site's SEO and AI-visibility (GEO) backlog through a hosted MCP server: audits, fixes,…",
+      "category": "Content Writing & SEO",
+      "framework": "Claude Code",
+      "verification": "listed",
+      "source_url": "https://github.com/lognorm/lognorm-mcp/tree/main/skills/lognorm",
+      "github_repo": "lognorm/lognorm-mcp"
+    },
+    {
+      "slug": "give-agents-persistent-shared-memory-with-mcp-memory-service",
+      "name": "Give agents persistent shared memory with mcp-memory-service",
+      "title": "Give agents persistent shared memory with mcp-memory-service",
+      "description": "Run a self-hosted MCP and REST memory layer so agents can store decisions, retrieve project context, and share knowledge across sessions and runtimes.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1983
+      },
+      "source_url": "https://github.com/doobidoo/mcp-memory-service",
+      "github_repo": "doobidoo/mcp-memory-service"
+    },
     {
       "slug": "mod-pc-games-with-agent-skills-and-universal-modder",
       "name": "Mod PC games with agent skills and Universal Modder",
