@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-10-04
-# Total: 3090 skills
+# Generated: 2026-10-05
+# Total: 3092 skills
+
+## Mod PC games with agent skills and Universal Modder
+slug: mod-pc-games-with-agent-skills-and-universal-modder
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Universal Modder to let coding agents inspect a PC game, plan the mod route, generate assets, test in-game, and capture reusable field notes.
+url: https://agentskillexchange.com/skills/mod-pc-games-with-agent-skills-and-universal-modder/
+
+## Explain agent work in plain language with Open Steps
+slug: explain-agent-work-in-plain-language-with-open-steps
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run Open Steps so coding agents summarize work, generate plain-language verdicts, and hand off next steps that non-engineers can act on.
+url: https://agentskillexchange.com/skills/explain-agent-work-in-plain-language-with-open-steps/
 
 ## Visualize OpenTelemetry agent traces with Agent Prism
 slug: visualize-opentelemetry-agent-traces-with-agent-prism

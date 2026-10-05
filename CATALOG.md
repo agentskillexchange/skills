@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3090 published skills** across **17 categories** · 2,577 security reviewed · Updated 2026-10-04 19:27 UTC
+> **3092 published skills** across **17 categories** · 2,577 security reviewed · Updated 2026-10-05 01:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (510 skills)
+### 🛠️ Developer Tools (512 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -314,6 +314,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Manage Agent Accounts and Model Routing with EchoBird](skills/manage-agent-accounts-model-routing-echobird/) | Use EchoBird to centralize ChatGPT, Codex CLI, Claude Code, OpenClaw, OpenCode, and local model setup so an operator… | Published | 3.3k | — |
 | [Coordinate visible multi-agent CLI workspaces with CCB](skills/coordinate-visible-multi-agent-cli-workspaces-with-ccb/) | Use CCB to run Codex, Claude, Gemini, Cursor, OpenCode, and other CLI agents in a visible project workspace with… | Security Reviewed | 3.2k | 9.9k/wk |
 | [Give MCP clients local Markdown project memory with Basic Memory](skills/give-mcp-clients-local-markdown-project-memory-with-basic-memory/) | Connect Claude, Codex, Cursor, ChatGPT, or any MCP-capable client to a local-first Markdown knowledge graph so… | Security Reviewed | 3.2k | — |
+| [Mod PC games with agent skills and Universal Modder](skills/mod-pc-games-with-agent-skills-and-universal-modder/) | Use Universal Modder to let coding agents inspect a PC game, plan the mod route, generate assets, test in-game, and… | Security Reviewed | 3.2k | — |
 | [Index Large Codebases for Agent Search With Socraticode](skills/index-large-codebases-for-agent-search-with-socraticode/) | Use Socraticode to give coding agents a local codebase-intelligence layer for semantic search, dependency graphs,… | Security Reviewed | 3.1k | 8.6k/wk |
 | [Monitor and approve coding-agent sessions with Coucou](skills/monitor-and-approve-coding-agent-sessions-with-coucou/) | Watch Claude Code, Codex, Cursor, Gemini CLI, Antigravity, and other agent sessions from a desktop companion, then… | Published | 3.1k | — |
 | [OpenAPI Spec Validator](skills/openapi-spec-validator-agent/) | Validates and lints OpenAPI 3.0/3.1 specifications using Spectral CLI rules and the Swagger Parser library. Detects… | Security Reviewed | 3.1k | 1.2M/wk |
@@ -380,6 +381,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Synchronize AI coding rules across agent tools with Rulesync](skills/synchronize-ai-coding-rules-across-agent-tools-with-rulesync/) | Use Rulesync to maintain one set of AI coding rules and generate the right configuration files for Claude Code,… | Security Reviewed | 1.2k | 748.2k/wk |
 | [Review KiCad schematics, PCB layouts, Gerbers, and BOMs with kicad-happy](skills/review-kicad-schematics-pcb-layouts-gerbers-and-boms-with-kicad-happy/) | Turn a coding agent into a KiCad electronics review assistant that parses boards, checks circuits, audits EMC risks,… | Security Reviewed | 1.2k | — |
 | [Capture, search, and optionally sync local coding-agent session history across Claude Code, Codex, Cursor CLI, and Gemini with SpecStory](skills/capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory/) | Use SpecStory when valuable coding-agent decisions keep disappearing into terminal history and you need one… | Security Reviewed | 1.2k | — |
+| [Explain agent work in plain language with Open Steps](skills/explain-agent-work-in-plain-language-with-open-steps/) | Run Open Steps so coding agents summarize work, generate plain-language verdicts, and hand off next steps that… | Security Reviewed | 1.2k | — |
 | [Run production .NET coding workflows with dotnet-skills](skills/run-production-dotnet-coding-workflows-with-dotnet-skills/) | Install a .NET skill and agent pack for C#, ASP.NET Core, Aspire, EF Core, Akka.NET, testing, performance, and… | Security Reviewed | 1.1k | — |
 | [Run Apple-platform coding audits, diagnostics, and simulator checks with Axiom](skills/run-apple-platform-coding-audits-diagnostics-and-simulator-checks-with-axiom/) | Add Axiom's Apple OS skills, agents, and commands so coding assistants can diagnose Xcode builds, Swift issues,… | Security Reviewed | 1.1k | 8k/wk |
 | [Run terminal coding workflows with Easy Agent](skills/run-terminal-coding-workflows-with-easy-agent/) | Use Easy Agent to run permissioned terminal coding sessions that can inspect repositories, edit files, run commands,… | Security Reviewed | 1k | 3/wk |

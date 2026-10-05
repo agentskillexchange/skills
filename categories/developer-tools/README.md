@@ -340,6 +340,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Manage Agent Accounts and Model Routing with EchoBird](../../skills/manage-agent-accounts-model-routing-echobird/) | 3.3k | — |
 | [Coordinate visible multi-agent CLI workspaces with CCB](../../skills/coordinate-visible-multi-agent-cli-workspaces-with-ccb/) | 3.2k | 9.9k/wk |
 | [Give MCP clients local Markdown project memory with Basic Memory](../../skills/give-mcp-clients-local-markdown-project-memory-with-basic-memory/) | 3.2k | — |
+| [Mod PC games with agent skills and Universal Modder](../../skills/mod-pc-games-with-agent-skills-and-universal-modder/) | 3.2k | — |
 | [Index Large Codebases for Agent Search With Socraticode](../../skills/index-large-codebases-for-agent-search-with-socraticode/) | 3.1k | 8.6k/wk |
 | [Monitor and approve coding-agent sessions with Coucou](../../skills/monitor-and-approve-coding-agent-sessions-with-coucou/) | 3.1k | — |
 | [OpenAPI Spec Validator](../../skills/openapi-spec-validator-agent/) | 3.1k | 1.2M/wk |
@@ -406,6 +407,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Synchronize AI coding rules across agent tools with Rulesync](../../skills/synchronize-ai-coding-rules-across-agent-tools-with-rulesync/) | 1.2k | 748.2k/wk |
 | [Review KiCad schematics, PCB layouts, Gerbers, and BOMs with kicad-happy](../../skills/review-kicad-schematics-pcb-layouts-gerbers-and-boms-with-kicad-happy/) | 1.2k | — |
 | [Capture, search, and optionally sync local coding-agent session history across Claude Code, Codex, Cursor CLI, and Gemini with SpecStory](../../skills/capture-search-and-optionally-sync-local-coding-agent-session-history-across-claude-code-codex-cursor-cli-and-gemini-with-specstory/) | 1.2k | — |
+| [Explain agent work in plain language with Open Steps](../../skills/explain-agent-work-in-plain-language-with-open-steps/) | 1.2k | — |
 | [Run production .NET coding workflows with dotnet-skills](../../skills/run-production-dotnet-coding-workflows-with-dotnet-skills/) | 1.1k | — |
 | [Run Apple-platform coding audits, diagnostics, and simulator checks with Axiom](../../skills/run-apple-platform-coding-audits-diagnostics-and-simulator-checks-with-axiom/) | 1.1k | 8k/wk |
 | [Run terminal coding workflows with Easy Agent](../../skills/run-terminal-coding-workflows-with-easy-agent/) | 1k | 3/wk |

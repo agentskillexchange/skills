@@ -1,9 +1,31 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-10-04",
-  "total": 3090,
+  "generated": "2026-10-05",
+  "total": 3092,
   "skills": [
+    {
+      "slug": "mod-pc-games-with-agent-skills-and-universal-modder",
+      "name": "Mod PC games with agent skills and Universal Modder",
+      "title": "Mod PC games with agent skills and Universal Modder",
+      "description": "Use Universal Modder to let coding agents inspect a PC game, plan the mod route, generate assets, test in-game, and capture reusable field notes.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/rehan-remade/universal-modder",
+      "github_repo": "rehan-remade/universal-modder"
+    },
+    {
+      "slug": "explain-agent-work-in-plain-language-with-open-steps",
+      "name": "Explain agent work in plain language with Open Steps",
+      "title": "Explain agent work in plain language with Open Steps",
+      "description": "Run Open Steps so coding agents summarize work, generate plain-language verdicts, and hand off next steps that non-engineers can act on.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/kharmanskyi/open-steps",
+      "github_repo": "kharmanskyi/open-steps"
+    },
     {
       "slug": "visualize-opentelemetry-agent-traces-with-agent-prism",
       "name": "Visualize OpenTelemetry agent traces with Agent Prism",
