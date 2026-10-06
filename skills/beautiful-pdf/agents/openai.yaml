@@ -1,0 +1,4 @@
+interface:
+  display_name: "Beautiful PDF"
+  short_description: "Design and visually review print-ready PDFs"
+  default_prompt: "Use $beautiful-pdf to turn this content into a polished PDF and inspect every rendered page."

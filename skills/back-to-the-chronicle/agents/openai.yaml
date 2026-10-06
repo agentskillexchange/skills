@@ -1,0 +1,4 @@
+interface:
+  display_name: "Back to the Chronicle"
+  short_description: "Reconstruct missing project history safely"
+  default_prompt: "Use $back-to-the-chronicle to reconstruct this project’s missing operational history from its raw Codex and Claude session JSONLs, Git, receipts, and artifacts."

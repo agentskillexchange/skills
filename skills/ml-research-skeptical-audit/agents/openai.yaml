@@ -1,0 +1,6 @@
+interface:
+  display_name: "ML Research Skeptical Audit"
+  short_description: "Challenge ML claims with code and falsification"
+  default_prompt: "Use $ml-research-skeptical-audit to assess this result and propose discriminating checks."
+policy:
+  allow_implicit_invocation: false
