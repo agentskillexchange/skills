@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-10-05
-# Total: 3095 skills
+# Generated: 2026-10-06
+# Total: 3096 skills
+
+## Make Rails Active Job workloads resumable with Job Iteration
+slug: make-rails-active-job-workloads-resumable-with-job-iteration
+category: Templates & Workflows
+framework: Custom Agents
+verification: Security Reviewed
+description: Use Job Iteration to turn long-running Rails Active Job workloads into checkpointed, interruptible jobs that coding or operations agents can safely generate, review, and…
+url: https://agentskillexchange.com/skills/make-rails-active-job-workloads-resumable-with-job-iteration/
 
 ## Maintain reusable project knowledge with Project Cairn
 slug: maintain-reusable-project-knowledge-with-project-cairn

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3095 published skills** across **17 categories** · 2,580 security reviewed · Updated 2026-10-05 19:27 UTC
+> **3096 published skills** across **17 categories** · 2,580 security reviewed · Updated 2026-10-06 01:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -528,7 +528,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Zinc Universal Checkout](skills/zinc-universal-checkout/) | Discover, buy, track, and return products across Amazon, Walmart, Target, Best Buy, eBay, and 50+ US retailers via… | Published | — | — |
 
 
-### 📄 Templates & Workflows (260 skills)
+### 📄 Templates & Workflows (261 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -702,6 +702,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Schedule Postgres-backed agent maintenance chains with pg_timetable](skills/schedule-postgres-backed-agent-maintenance-chains-with-pg-timetable/) | Use pg_timetable to run database-driven schedules, SQL chains, system commands, missed-run recovery, concurrency… | Security Reviewed | 1.4k | — |
 | [Install Claude Code project workflows with Claude Workflow V2](skills/install-claude-code-project-workflows-with-claude-workflow-v2/) | Load a Claude Code workflow plugin that adds project-oriented commands, specialist agents, skills, and hooks for… | Security Reviewed | 1.4k | 55/wk |
 | [Prepare Rust Release PRs and Changelogs from Workspace Changes with release-plz](skills/prepare-rust-release-prs-and-changelogs-from-workspace-changes-with-release-plz/) | Inspect Rust workspace changes, draft release PRs, bump versions, and assemble changelogs before publishing. | Security Reviewed | 1.3k | — |
+| [Make Rails Active Job workloads resumable with Job Iteration](skills/make-rails-active-job-workloads-resumable-with-job-iteration/) | Use Job Iteration to turn long-running Rails Active Job workloads into checkpointed, interruptible jobs that coding… | Security Reviewed | 1.3k | — |
 | [Run Parallel Divergent Ideation With ADHD](skills/run-parallel-divergent-ideation-with-adhd/) | Use ADHD to fan out isolated reasoning branches for open-ended coding-agent decisions, then score, prune, and deepen… | Security Reviewed | 1.3k | 78/wk |
 | [Yeoman Generator Builder](skills/yeoman-generator-builder/) | Creates custom Yeoman generators using the yeoman-generator API and yo CLI. Scaffolds generator packages with… | Published | 1.3k | 5M/wk |
 | [Install growth and GTM skill workflows into coding agents with Goose Skills](skills/install-growth-and-gtm-skill-workflows-into-coding-agents-with-goose-skills/) | Use Goose Skills to give Claude Code, Codex, Cursor, and similar coding agents reusable growth and go-to-market… | Security Reviewed | 1.2k | 911/wk |

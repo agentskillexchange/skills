@@ -208,6 +208,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Schedule Postgres-backed agent maintenance chains with pg_timetable](../../skills/schedule-postgres-backed-agent-maintenance-chains-with-pg-timetable/) | 1.4k | — |
 | [Install Claude Code project workflows with Claude Workflow V2](../../skills/install-claude-code-project-workflows-with-claude-workflow-v2/) | 1.4k | 55/wk |
 | [Prepare Rust Release PRs and Changelogs from Workspace Changes with release-plz](../../skills/prepare-rust-release-prs-and-changelogs-from-workspace-changes-with-release-plz/) | 1.3k | — |
+| [Make Rails Active Job workloads resumable with Job Iteration](../../skills/make-rails-active-job-workloads-resumable-with-job-iteration/) | 1.3k | — |
 | [Run Parallel Divergent Ideation With ADHD](../../skills/run-parallel-divergent-ideation-with-adhd/) | 1.3k | 78/wk |
 | [Yeoman Generator Builder](../../skills/yeoman-generator-builder/) | 1.3k | 5M/wk |
 | [Install growth and GTM skill workflows into coding agents with Goose Skills](../../skills/install-growth-and-gtm-skill-workflows-into-coding-agents-with-goose-skills/) | 1.2k | 911/wk |

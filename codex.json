@@ -1,9 +1,20 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-10-05",
-  "total": 3095,
+  "generated": "2026-10-06",
+  "total": 3096,
   "skills": [
+    {
+      "slug": "make-rails-active-job-workloads-resumable-with-job-iteration",
+      "name": "Make Rails Active Job workloads resumable with Job Iteration",
+      "title": "Make Rails Active Job workloads resumable with Job Iteration",
+      "description": "Use Job Iteration to turn long-running Rails Active Job workloads into checkpointed, interruptible jobs that coding or operations agents can safely generate, review, and…",
+      "category": "Templates & Workflows",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Shopify/job-iteration",
+      "github_repo": "Shopify/job-iteration"
+    },
     {
       "slug": "maintain-reusable-project-knowledge-with-project-cairn",
       "name": "Maintain reusable project knowledge with Project Cairn",
