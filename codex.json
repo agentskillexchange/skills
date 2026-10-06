@@ -2,8 +2,30 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-10-06",
-  "total": 3096,
+  "total": 3098,
   "skills": [
+    {
+      "slug": "generate-validated-office-deliverables-locally-with-openworkbuddy",
+      "name": "Generate validated office deliverables locally with OpenWorkBuddy",
+      "title": "Generate validated office deliverables locally with OpenWorkBuddy",
+      "description": "Use OpenWorkBuddy to turn a natural-language office request into local PPTX, DOCX, XLSX, HTML, or video deliverables with planning and file verification.",
+      "category": "Calendar, Email & Productivity",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/CatCatUncle/openworkbuddy",
+      "github_repo": "CatCatUncle/openworkbuddy"
+    },
+    {
+      "slug": "coordinate-multi-machine-terminal-agent-teams-with-ai-maestro",
+      "name": "Coordinate multi-machine terminal agent teams with AI Maestro",
+      "title": "Coordinate multi-machine terminal agent teams with AI Maestro",
+      "description": "Use AI Maestro to supervise terminal-based agents across machines with persistent memory, agent-to-agent messaging, inboxes, and transfer workflows.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/23blocks-OS/ai-maestro",
+      "github_repo": "23blocks-OS/ai-maestro"
+    },
     {
       "slug": "make-rails-active-job-workloads-resumable-with-job-iteration",
       "name": "Make Rails Active Job workloads resumable with Job Iteration",

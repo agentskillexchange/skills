@@ -433,6 +433,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Expose repository code intelligence to agents with Gortex](../../skills/expose-repository-code-intelligence-to-agents-with-gortex/) | 840 | — |
 | [Wire transcript-derived coding-agent memory with deja-vu](../../skills/wire-transcript-derived-coding-agent-memory-with-deja-vu/) | 831 | 3.6k/wk |
 | [Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac](../../skills/run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac/) | 809 | 36.7k/wk |
+| [Coordinate multi-machine terminal agent teams with AI Maestro](../../skills/coordinate-multi-machine-terminal-agent-teams-with-ai-maestro/) | 808 | — |
 | [Install Claude Forge workflows for guarded Claude Code execution](../../skills/install-claude-forge-workflows-for-guarded-claude-code-execution/) | 805 | — |
 | [Develop Power BI and Fabric artifacts with agent plugins](../../skills/develop-power-bi-and-fabric-artifacts-with-agent-plugins/) | 801 | — |
 | [Control Android devices with an on-device AI agent using PokeClaw](../../skills/control-android-devices-with-an-on-device-ai-agent-using-pokeclaw/) | 760 | — |

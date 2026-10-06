@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3096 published skills** across **17 categories** · 2,580 security reviewed · Updated 2026-10-06 01:27 UTC
+> **3098 published skills** across **17 categories** · 2,580 security reviewed · Updated 2026-10-06 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (512 skills)
+### 🛠️ Developer Tools (513 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -407,6 +407,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Expose repository code intelligence to agents with Gortex](skills/expose-repository-code-intelligence-to-agents-with-gortex/) | Use Gortex to index one or more repositories into a local code graph and expose symbol, call-chain, blast-radius,… | Published | 840 | — |
 | [Wire transcript-derived coding-agent memory with deja-vu](skills/wire-transcript-derived-coding-agent-memory-with-deja-vu/) | Use deja-vu when Codex, Claude Code, Cursor, OpenClaw, Copilot, and other local coding agents need shared recall… | Security Reviewed | 831 | 3.6k/wk |
 | [Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac](skills/run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac/) | Execute repository-stored HTTP request files from the command line so API smoke tests, assertions, and… | Security Reviewed | 809 | 36.7k/wk |
+| [Coordinate multi-machine terminal agent teams with AI Maestro](skills/coordinate-multi-machine-terminal-agent-teams-with-ai-maestro/) | Use AI Maestro to supervise terminal-based agents across machines with persistent memory, agent-to-agent messaging,… | Published | 808 | — |
 | [Install Claude Forge workflows for guarded Claude Code execution](skills/install-claude-forge-workflows-for-guarded-claude-code-execution/) | Add Claude Forge's agents, slash commands, skills, and hooks to Claude Code when a coding task needs repeatable… | Security Reviewed | 805 | — |
 | [Develop Power BI and Fabric artifacts with agent plugins](skills/develop-power-bi-and-fabric-artifacts-with-agent-plugins/) | Install Power BI and Microsoft Fabric plugins so Claude Code can author, validate, and review PBIP, TMDL, DAX,… | Security Reviewed | 801 | — |
 | [Control Android devices with an on-device AI agent using PokeClaw](skills/control-android-devices-with-an-on-device-ai-agent-using-pokeclaw/) | Run an on-device Android control loop that inspects screens and performs app actions locally for mobile automation… | Security Reviewed | 760 | — |
@@ -2528,7 +2529,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Rust Crates.io Explorer](skills/rust-crates-io-explorer/) | Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates… | Published | — | — |
 
 
-### 📅 Calendar, Email & Productivity (127 skills)
+### 📅 Calendar, Email & Productivity (128 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -2615,6 +2616,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Postmark.js Email Delivery API for Transactional Messaging](skills/postmarkjs-email-delivery-api-transactional-messaging/) | postmark.js is the official Node.js library for the Postmark API, used to send transactional email, templates, and… | Security Reviewed | 357 | 3.6M/wk |
 | [Run agent mailboxes and pull verification codes or reply context programmatically with Mails](skills/run-agent-mailboxes-and-pull-verification-codes-or-reply-context-programmatically-with-mails/) | Give an agent a mailbox it can send from, read from, search, sync locally, and mine for login codes or attachments… | Security Reviewed | 294 | 1.3k/wk |
 | [Read Google Drive files and edit Sheets through MCP](skills/read-google-drive-files-and-edit-sheets-through-mcp/) | Connect an MCP-capable assistant to Google Drive search, file reads, and Google Sheets cell updates with mcp-gdrive. | Security Reviewed | 280 | 16.1k/wk |
+| [Generate validated office deliverables locally with OpenWorkBuddy](skills/generate-validated-office-deliverables-locally-with-openworkbuddy/) | Use OpenWorkBuddy to turn a natural-language office request into local PPTX, DOCX, XLSX, HTML, or video deliverables… | Published | 261 | — |
 | [Sync calendars between providers with a stateless CalendarSync job](skills/sync-calendars-between-providers-with-a-stateless-calendarsync-job/) | Run a one-shot calendar sync or migration between Google, Outlook, CalDAV, ICS, and related systems without standing… | Security Reviewed | 217 | — |
 | [Mailchimp Marketing API Node.js SDK](skills/mailchimp-marketing-api-nodejs-sdk/) | Connects agents to Mailchimp’s official Marketing API through the official Node.js client library. Useful for… | Security Reviewed | 165 | 202k/wk |
 | [Mailtrap Node.js SDK for Transactional and Sandbox Email](skills/mailtrap-nodejs-sdk-transactional-and-sandbox-email/) | An ASE skill built on the official Mailtrap Node.js SDK for sending transactional email and working with Mailtrap… | Security Reviewed | 108 | 38.3k/wk |

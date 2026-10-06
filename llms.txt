@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-10-06
-# Total: 3096 skills
+# Total: 3098 skills
+
+## Generate validated office deliverables locally with OpenWorkBuddy
+slug: generate-validated-office-deliverables-locally-with-openworkbuddy
+category: Calendar, Email & Productivity
+framework: Multi-Framework
+verification: Published
+description: Use OpenWorkBuddy to turn a natural-language office request into local PPTX, DOCX, XLSX, HTML, or video deliverables with planning and file verification.
+url: https://agentskillexchange.com/skills/generate-validated-office-deliverables-locally-with-openworkbuddy/
+
+## Coordinate multi-machine terminal agent teams with AI Maestro
+slug: coordinate-multi-machine-terminal-agent-teams-with-ai-maestro
+category: Developer Tools
+framework: Multi-Framework
+verification: Published
+description: Use AI Maestro to supervise terminal-based agents across machines with persistent memory, agent-to-agent messaging, inboxes, and transfer workflows.
+url: https://agentskillexchange.com/skills/coordinate-multi-machine-terminal-agent-teams-with-ai-maestro/
 
 ## Make Rails Active Job workloads resumable with Job Iteration
 slug: make-rails-active-job-workloads-resumable-with-job-iteration

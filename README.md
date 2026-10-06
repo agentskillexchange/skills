@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C096-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C098-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C580-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,096 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,098 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Generate validated office deliverables locally with OpenWorkBuddy](skills/generate-validated-office-deliverables-locally-with-openworkbuddy/) | Use OpenWorkBuddy to turn a natural-language office request into local PPTX, DOCX, XLSX, HTML, or video deliverables with... | 261 | Calendar, Email & Productivity |
+| [Coordinate multi-machine terminal agent teams with AI Maestro](skills/coordinate-multi-machine-terminal-agent-teams-with-ai-maestro/) | Use AI Maestro to supervise terminal-based agents across machines with persistent memory, agent-to-agent messaging, inboxes, and transfer workflows | 808 | Developer Tools |
 | [Make Rails Active Job workloads resumable with Job Iteration](skills/make-rails-active-job-workloads-resumable-with-job-iteration/) | Use Job Iteration to turn long-running Rails Active Job workloads into checkpointed, interruptible jobs that coding or operations... | 1.3k | Templates & Workflows |
 | [Maintain reusable project knowledge with Project Cairn](skills/maintain-reusable-project-knowledge-with-project-cairn/) | Use Project Cairn to initialize, maintain, audit, and graduate project knowledge so coding-agent work leaves reusable decisions and... | 235 | Templates & Workflows |
 | [Work an SEO and AI-Visibility Backlog with LogNorm](skills/lognorm-seo-geo-backlog/) | Use LogNorm when Claude Code, Codex or Cursor should work a site's SEO and AI-visibility (GEO) backlog through... | - | Content Writing & SEO |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Explain agent work in plain language with Open Steps](skills/explain-agent-work-in-plain-language-with-open-steps/) | Run Open Steps so coding agents summarize work, generate plain-language verdicts, and hand off next steps that non-engineers... | 1.2k | Developer Tools |
 | [Visualize OpenTelemetry agent traces with Agent Prism](skills/visualize-opentelemetry-agent-traces-with-agent-prism/) | Add Agent Prism's React trace viewer to inspect LLM calls, tool executions, retries, and agent workflows from OpenTelemetry... | 393 | Monitoring & Alerts |
 | [Run a Docling API server for agent document conversion](skills/run-a-docling-api-server-for-agent-document-conversion/) | Deploy Docling API so agents can convert PDFs, Office files, images, HTML, CSV, and other documents into Markdown... | 1.7k | Data Extraction & Transformation |
-| [Create interactive agent-readable diagrams with Archify](skills/create-interactive-agent-readable-diagrams-with-archify/) | Use Archify from an agent session to turn ideas, plans, workflows, or repository structure into interactive HTML diagrams... | 77.2k | Developer Tools |
-| [MCP Workflow Audit](skills/mcp-workflow-audit/) | Audit Claude Code, MCP, and AI-agent workflows for permissions, consequential actions, idempotency, failure recovery, verification, and operator handoff | - | Developer Tools |
 
 ---
 
@@ -126,13 +126,13 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Run a Docling API server for agent document conversion](skills/run-a-docling-api-server-for-agent-document-conversion/) | Deploy Docling API so agents can convert PDFs, Office files, images, HTML, CSV, and other documents into Markdown... | 1.7k | Data Extraction & Transformation |
 | [Compile agent-ready documentation bundles with docmd](skills/compile-agent-ready-documentation-bundles-with-docmd/) | Use docmd when a project needs one Markdown documentation source to produce a site, search index, llms.txt, MCP... | 2.5k | Library & API Reference |
 | [Run IDE-wired terminal coding-agent workflows with Oh My Pi](skills/run-ide-wired-terminal-coding-agent-workflows-with-oh-my-pi/) | Use Oh My Pi when an operator wants a local terminal coding agent with IDE-grade context, built-in file... | 31.8k | Developer Tools |
-| [Schedule Node Agent Jobs with node-cron](skills/schedule-node-agent-jobs-with-node-cron/) | Use node-cron to add recurring background jobs to Node.js agent services with overlap prevention, distributed coordination, background task... | 3.3k | Templates & Workflows |
 | [Build spec-driven full-stack apps with Wasp](skills/build-spec-driven-full-stack-apps-with-wasp/) | Use Wasp when an agent needs to scaffold or modify a React, Node.js, and Prisma app from a... | 18.7k | Templates & Workflows |
 | [Build TypeScript spreadsheet import and export workflows with hucre](skills/build-typescript-spreadsheet-import-and-export-workflows-with-hucre/) | Use hucre when a coding agent needs to add zero-dependency XLSX, CSV, ODS, JSON, NDJSON, or XML spreadsheet... | 2.2k | Data Extraction & Transformation |
+| [Schedule Node Agent Jobs with node-cron](skills/schedule-node-agent-jobs-with-node-cron/) | Use node-cron to add recurring background jobs to Node.js agent services with overlap prevention, distributed coordination, background task... | 3.3k | Templates & Workflows |
 | [Visualize OpenTelemetry agent traces with Agent Prism](skills/visualize-opentelemetry-agent-traces-with-agent-prism/) | Add Agent Prism's React trace viewer to inspect LLM calls, tool executions, retries, and agent workflows from OpenTelemetry... | 393 | Monitoring & Alerts |
-| [Review agent-authored diffs in terminal with herdr-reviewr](skills/review-agent-authored-diffs-in-terminal-with-herdr-reviewr/) | Open a terminal review pane beside a coding agent, inspect changed files, add line comments, and send structured... | 825 | Code Quality & Review |
 | [Build agent-maintainable reactive UI with ArrowJS](skills/build-agent-maintainable-reactive-ui-with-arrowjs/) | Use ArrowJS when a coding agent needs to add or maintain small reactive web interfaces using DOM-native JavaScript... | 3.8k | Developer Tools |
 | [Search and fetch biomedical literature through MCP with PubMed MCP Server](skills/search-and-fetch-biomedical-literature-through-mcp-with-pubmed-mcp-server/) | Connect an MCP-capable agent to PubMed, Europe PMC, PMC full text, Unpaywall, citations, and MeSH tools for supervised... | 153 | Research & Scraping |
+| [Review agent-authored diffs in terminal with herdr-reviewr](skills/review-agent-authored-diffs-in-terminal-with-herdr-reviewr/) | Open a terminal review pane beside a coding agent, inspect changed files, add line comments, and send structured... | 825 | Code Quality & Review |
 
 ---
 
@@ -140,7 +140,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 512 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 513 | CLI tools, scaffolders, dev environment setup |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 261 | Scaffolders, boilerplate generators, workflow templates |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 251 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 228 | ETL pipelines, parsing, format conversion |
@@ -151,7 +151,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 162 | Metrics, alerting rules, observability |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 136 | Web research, content discovery, data collection |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 130 | SDK docs, API parsers, symbol resolvers |
-| 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 127 | Email automation, calendar management, task coordination |
+| 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 128 | Email automation, calendar management, task coordination |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 125 | Web scraping, UI testing, headless browser control |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 113 | Image generation, asset processing, design automation |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 109 | Audio/video processing, speech-to-text |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,096 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 3,098 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,580 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
