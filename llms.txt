@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-10-07
-# Total: 3099 skills
+# Total: 3100 skills
+
+## Coordinate agent teams and governed work in Paperclip
+slug: coordinate-agent-teams-and-governed-work-in-paperclip
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Paperclip as a self-hosted control plane for assigning goals, tasks, budgets, approvals, routines, and run history across multiple AI agents.
+url: https://agentskillexchange.com/skills/coordinate-agent-teams-and-governed-work-in-paperclip/
 
 ## Run senior engineering workflows in Claude Code with Senior Engineering Partner
 slug: run-senior-engineering-workflows-in-claude-code-with-senior-engineering-partner

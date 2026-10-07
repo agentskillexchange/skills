@@ -29,30 +29,30 @@ Skills backed by the most-starred GitHub repositories, deduplicated by upstream 
 | 21 | [llama.cpp Portable LLM Inference Engine in C/C++](skills/llama-cpp-portable-llm-inference/) | 100.9k | llama.cpp | Developer Tools |
 | 22 | [Supabase MCP Server](skills/supabase-mcp-server/) | 100.8k | supabase | Developer Tools |
 | 23 | [Angular — TypeScript Web Application Framework by Google](skills/angular-typescript-web-framework/) | 100.1k | angular | Developer Tools |
-| 24 | [Immich Self-Hosted Photo and Video Management Platform](skills/immich-photo-video-management-platform/) | 96.2k | immich | Media & Transcription |
-| 25 | [Install role-specific agent personas with Agency Agents](skills/install-role-specific-agent-personas-with-agency-agents/) | 96.0k | agency-agents | Templates & Workflows |
-| 26 | [Install Garry Tan’s Claude Code operating stack with gstack](skills/install-garry-tans-claude-code-operating-stack-with-gstack/) | 94.8k | gstack | Templates & Workflows |
-| 27 | [Browser Session Replay Analyzer](skills/browser-session-replay-analyzer/) | 94.2k | puppeteer | Browser Automation |
-| 28 | [MarkItDown Document-to-Markdown Converter by Microsoft](skills/markitdown-document-to-markdown-converter-microsoft/) | 93.2k | markitdown | Data Extraction & Transformation |
-| 29 | [Agent Browser Operator](skills/agent-browser-operator/) | 90.0k | playwright | Browser Automation |
-| 30 | [Storybook Component Tester](skills/storybook-component-tester/) | 89.9k | storybook | Code Quality & Review |
-| 31 | [Bun Shell Script Executor](skills/bun-shell-script-executor/) | 88.9k | bun | Developer Tools |
-| 32 | [Turn feature ideas into executable implementation specs and task plans with Spec Kit](skills/turn-feature-ideas-into-executable-implementation-specs-and-task-plans-with-spec-kit/) | 88.5k | spec-kit | Templates & Workflows |
-| 33 | [Browser Use Web Agent Automation](skills/browser-use-web-agent-automation/) | 87.7k | browser-use | Browser Automation |
-| 34 | [Hugo Fast Static Site Generator and CMS Framework](skills/hugo-static-site-generator-cms-framework/) | 87.4k | hugo | WordPress & CMS |
-| 35 | [PostgreSQL MCP Server](skills/postgresql-mcp-server/) | 86.6k | servers | Data Extraction & Transformation |
-| 36 | [Uptime Kuma Status Sync](skills/uptime-kuma-status-sync/) | 85.6k | sendgrid | Monitoring & Alerts |
-| 37 | [Keep coding agents from over-building implementations with Ponytail](skills/keep-coding-agents-from-over-building-implementations-with-ponytail/) | 85.5k | ponytail | Code Quality & Review |
-| 38 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | 85.1k | uptime-kuma | Monitoring & Alerts |
-| 39 | [uv Ultra-Fast Python Package and Project Manager](skills/uv-ultra-fast-python-package-project-manager/) | 82.4k | uv | Developer Tools |
-| 40 | [Vite Plugin Hot Module Analyzer](skills/vite-plugin-hmr-analyzer/) | 79.9k | vite | Developer Tools |
-| 41 | [Build document-grounded agent context workflows with RAGFlow](skills/build-document-grounded-agent-context-workflows-with-ragflow/) | 79.8k | ragflow | Data Extraction & Transformation |
-| 42 | [fzf Command-Line Fuzzy Finder](skills/fzf-command-line-fuzzy-finder/) | 79.2k | fzf | Developer Tools |
-| 43 | [Hoppscotch Open Source API Development Ecosystem](skills/hoppscotch-api-development-ecosystem/) | 78.7k | hoppscotch | Developer Tools |
-| 44 | [Zed High-Performance Multiplayer Code Editor](skills/zed-high-performance-multiplayer-code-editor/) | 78.6k | zed | Developer Tools |
-| 45 | [Netdata Real-Time Infrastructure Monitoring and Alerting](skills/netdata-real-time-infrastructure-monitoring-and-alerting/) | 78.4k | netdata | Monitoring & Alerts |
-| 46 | [Cut coding-agent response tokens with Caveman mode](skills/cut-coding-agent-response-tokens-with-caveman-mode/) | 78.4k | caveman | Developer Tools |
-| 47 | [Create interactive agent-readable diagrams with Archify](skills/create-interactive-agent-readable-diagrams-with-archify/) | 77.2k | archify | Developer Tools |
-| 48 | [Elastic / Kibana MCP Server](skills/elastic-kibana-mcp-server/) | 76.8k | elasticsearch | Monitoring & Alerts |
-| 49 | [Sherlock Social Media Username Hunter Across 400+ Networks](skills/sherlock-social-media-username-hunter/) | 76.2k | sherlock | Research & Scraping |
-| 50 | [Manage agent CLI providers and MCP settings with CC Switch](skills/manage-agent-cli-providers-and-mcp-settings-with-cc-switch/) | 76.2k | cc-switch | Developer Tools |
+| 24 | [Coordinate agent teams and governed work in Paperclip](skills/coordinate-agent-teams-and-governed-work-in-paperclip/) | 98.2k | paperclip | Templates & Workflows |
+| 25 | [Immich Self-Hosted Photo and Video Management Platform](skills/immich-photo-video-management-platform/) | 96.2k | immich | Media & Transcription |
+| 26 | [Install role-specific agent personas with Agency Agents](skills/install-role-specific-agent-personas-with-agency-agents/) | 96.0k | agency-agents | Templates & Workflows |
+| 27 | [Install Garry Tan’s Claude Code operating stack with gstack](skills/install-garry-tans-claude-code-operating-stack-with-gstack/) | 94.8k | gstack | Templates & Workflows |
+| 28 | [Browser Session Replay Analyzer](skills/browser-session-replay-analyzer/) | 94.2k | puppeteer | Browser Automation |
+| 29 | [MarkItDown Document-to-Markdown Converter by Microsoft](skills/markitdown-document-to-markdown-converter-microsoft/) | 93.2k | markitdown | Data Extraction & Transformation |
+| 30 | [Agent Browser Operator](skills/agent-browser-operator/) | 90.0k | playwright | Browser Automation |
+| 31 | [Storybook Component Tester](skills/storybook-component-tester/) | 89.9k | storybook | Code Quality & Review |
+| 32 | [Bun Shell Script Executor](skills/bun-shell-script-executor/) | 88.9k | bun | Developer Tools |
+| 33 | [Turn feature ideas into executable implementation specs and task plans with Spec Kit](skills/turn-feature-ideas-into-executable-implementation-specs-and-task-plans-with-spec-kit/) | 88.5k | spec-kit | Templates & Workflows |
+| 34 | [Browser Use Web Agent Automation](skills/browser-use-web-agent-automation/) | 87.7k | browser-use | Browser Automation |
+| 35 | [Hugo Fast Static Site Generator and CMS Framework](skills/hugo-static-site-generator-cms-framework/) | 87.4k | hugo | WordPress & CMS |
+| 36 | [PostgreSQL MCP Server](skills/postgresql-mcp-server/) | 86.6k | servers | Data Extraction & Transformation |
+| 37 | [Uptime Kuma Status Sync](skills/uptime-kuma-status-sync/) | 85.6k | sendgrid | Monitoring & Alerts |
+| 38 | [Keep coding agents from over-building implementations with Ponytail](skills/keep-coding-agents-from-over-building-implementations-with-ponytail/) | 85.5k | ponytail | Code Quality & Review |
+| 39 | [Uptime Kuma Self-Hosted Uptime Monitoring Platform](skills/uptime-kuma-self-hosted-uptime-monitoring-platform/) | 85.1k | uptime-kuma | Monitoring & Alerts |
+| 40 | [uv Ultra-Fast Python Package and Project Manager](skills/uv-ultra-fast-python-package-project-manager/) | 82.4k | uv | Developer Tools |
+| 41 | [Vite Plugin Hot Module Analyzer](skills/vite-plugin-hmr-analyzer/) | 79.9k | vite | Developer Tools |
+| 42 | [Build document-grounded agent context workflows with RAGFlow](skills/build-document-grounded-agent-context-workflows-with-ragflow/) | 79.8k | ragflow | Data Extraction & Transformation |
+| 43 | [fzf Command-Line Fuzzy Finder](skills/fzf-command-line-fuzzy-finder/) | 79.2k | fzf | Developer Tools |
+| 44 | [Hoppscotch Open Source API Development Ecosystem](skills/hoppscotch-api-development-ecosystem/) | 78.7k | hoppscotch | Developer Tools |
+| 45 | [Zed High-Performance Multiplayer Code Editor](skills/zed-high-performance-multiplayer-code-editor/) | 78.6k | zed | Developer Tools |
+| 46 | [Netdata Real-Time Infrastructure Monitoring and Alerting](skills/netdata-real-time-infrastructure-monitoring-and-alerting/) | 78.4k | netdata | Monitoring & Alerts |
+| 47 | [Cut coding-agent response tokens with Caveman mode](skills/cut-coding-agent-response-tokens-with-caveman-mode/) | 78.4k | caveman | Developer Tools |
+| 48 | [Create interactive agent-readable diagrams with Archify](skills/create-interactive-agent-readable-diagrams-with-archify/) | 77.2k | archify | Developer Tools |
+| 49 | [Elastic / Kibana MCP Server](skills/elastic-kibana-mcp-server/) | 76.8k | elasticsearch | Monitoring & Alerts |
+| 50 | [Sherlock Social Media Username Hunter Across 400+ Networks](skills/sherlock-social-media-username-hunter/) | 76.2k | sherlock | Research & Scraping |

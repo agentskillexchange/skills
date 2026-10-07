@@ -1,8 +1,23 @@
 {
   "version": "2.0",
-  "total": 3099,
+  "total": 3100,
   "generated": "2026-10-07",
   "skills": [
+    {
+      "slug": "coordinate-agent-teams-and-governed-work-in-paperclip",
+      "name": "Coordinate agent teams and governed work in Paperclip",
+      "title": "Coordinate agent teams and governed work in Paperclip",
+      "description": "Use Paperclip as a self-hosted control plane for assigning goals, tasks, budgets, approvals, routines, and run history across multiple AI agents.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 98153,
+        "npm_weekly_downloads": 59684
+      },
+      "source_url": "https://github.com/paperclipai/paperclip",
+      "github_repo": "paperclipai/paperclip"
+    },
     {
       "slug": "run-senior-engineering-workflows-in-claude-code-with-senior-engineering-partner",
       "name": "Run senior engineering workflows in Claude Code with Senior Engineering Partner",
@@ -188,6 +203,10 @@
       "category": "Templates & Workflows",
       "framework": "Codex",
       "verification": "listed",
+      "signals": {
+        "github_stars": 1,
+        "npm_weekly_downloads": 301
+      },
       "source_url": "https://github.com/xiehuan123/browser-extension-launch",
       "github_repo": "xiehuan123/browser-extension-launch"
     },

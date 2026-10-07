@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3099 published skills** across **17 categories** · 2,582 security reviewed · Updated 2026-10-07 01:27 UTC
+> **3100 published skills** across **17 categories** · 2,582 security reviewed · Updated 2026-10-07 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -529,7 +529,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Zinc Universal Checkout](skills/zinc-universal-checkout/) | Discover, buy, track, and return products across Amazon, Walmart, Target, Best Buy, eBay, and 50+ US retailers via… | Published | — | — |
 
 
-### 📄 Templates & Workflows (261 skills)
+### 📄 Templates & Workflows (262 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -541,6 +541,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Run a self-improving personal agent with Hermes Agent](skills/run-a-self-improving-personal-agent-with-hermes-agent/) | Deploy Hermes Agent as a persistent personal agent that learns skills from experience, searches past sessions,… | Security Reviewed | 177.6k | — |
 | [Langflow Visual AI Agent and Workflow Builder](skills/langflow-visual-ai-agent-workflow-builder/) | Langflow is an open-source visual builder for AI agents and workflows. It lets teams design flows graphically,… | Security Reviewed | 146.8k | — |
 | [Use Dify for production agentic workflow apps](skills/use-dify-for-production-agentic-workflow-apps/) | Build, test, and operate agentic workflow apps in Dify when an operator needs a governed path from prototype to… | Security Reviewed | 143.7k | — |
+| [Coordinate agent teams and governed work in Paperclip](skills/coordinate-agent-teams-and-governed-work-in-paperclip/) | Use Paperclip as a self-hosted control plane for assigning goals, tasks, budgets, approvals, routines, and run… | Security Reviewed | 98.2k | 59.7k/wk |
 | [Install role-specific agent personas with Agency Agents](skills/install-role-specific-agent-personas-with-agency-agents/) | Install and activate specialized AI agent personas from Agency Agents when a coding or operations session needs a… | Security Reviewed | 96k | — |
 | [Install reusable specialist agent roles from Agency Agents](skills/install-reusable-specialist-agent-roles-from-agency-agents/) | Install and adapt Agency Agents' curated specialist role files so coding agents can switch into focused engineering,… | Security Reviewed | 95.9k | — |
 | [Install Garry Tan’s Claude Code operating stack with gstack](skills/install-garry-tans-claude-code-operating-stack-with-gstack/) | Use gstack to bootstrap an opinionated Claude Code workspace with specialist agent skills, commands, hooks, and… | Security Reviewed | 94.8k | — |
@@ -772,12 +773,12 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Review-gate OpenClaw memory hygiene with openclaw-mem](skills/review-gate-openclaw-memory-hygiene-with-openclaw-mem/) | Pack trusted context and review memory writes before long OpenClaw sessions drift or accumulate low-quality memory. | Security Reviewed | 28 | — |
 | [Progressive Disclosure for Documentation](skills/progressive-disclosure/) | Restructure large documentation files (500+ lines, 5k+ tokens) into slim indexes with on-demand detail directories.… | Published | 14 | — |
 | [Generate and safely patch AGENTS.md and RUNBOOK.md with AGENTS.md Generator](skills/generate-and-safely-patch-agents-md-and-runbook-md-with-agents-md-generator/) | Bootstrap and safely update AGENTS.md and RUNBOOK.md without clobbering hand-edited docs, so coding-agent repos keep… | Security Reviewed | 2 | — |
+| [Browser Extension Launch](skills/browser-extension-launch/) | Turns a plain-language idea into a tested Chrome Manifest V3 extension, release bundle, store materials, and a… | Published | 1 | 301/wk |
 | [Book to Mentor](skills/book-to-mentor/) | Convert a book or long document into a reusable AI mentor with source-grounded lessons, guided practice, citations,… | Published | 1 | — |
 | [Concept to Story](skills/concept-to-story/) | Teach concepts from user-provided PDFs in Codex through source-grounded stories, memory anchors, explicit analogy… | Published | 1 | — |
 | [Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/) | Use Claude Code Dedupe to summarize an issue, run parallel GitHub duplicate searches, filter false positives, and… | Security Reviewed | — | 49.9M/wk |
 | [Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue](skills/triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue/) | Use Claude Code triage-issue to read a GitHub issue, verify it actually belongs to the product from body evidence… | Security Reviewed | — | 49.9M/wk |
 | [Autonomous Session Workflow](skills/autonomous-session-workflow/) | 5-phase repeatable structure for autonomous agent sessions: context-load, tiered work-selection, coordination claim,… | Published | — | — |
-| [Browser Extension Launch](skills/browser-extension-launch/) | Turns a plain-language idea into a tested Chrome Manifest V3 extension, release bundle, store materials, and a… | Published | — | — |
 | [Bubble.io Stripe Subscription Portal Builder](skills/bubble-stripe-subscription-portal/) | Uses Bubble's Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a… | Security Reviewed | — | — |
 | [Co-author structured docs with staged context gathering and reader testing](skills/co-author-structured-docs-with-staged-context-gathering-and-reader-testing/) | Use Anthropic's doc-coauthoring skill to run a disciplined writing workflow instead of freeform drafting. The agent… | Security Reviewed | — | — |
 | [Create and repair Word documents with layout-safe DOCX workflows](skills/create-and-repair-word-documents-with-layout-safe-docx-workflows/) | Use the Anthropic docx skill when an agent needs to produce or repair a real .docx deliverable with headings,… | Security Reviewed | — | — |

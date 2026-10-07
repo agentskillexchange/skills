@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-10-07",
-  "total": 3099,
+  "total": 3100,
   "skills": [
+    {
+      "slug": "coordinate-agent-teams-and-governed-work-in-paperclip",
+      "name": "Coordinate agent teams and governed work in Paperclip",
+      "title": "Coordinate agent teams and governed work in Paperclip",
+      "description": "Use Paperclip as a self-hosted control plane for assigning goals, tasks, budgets, approvals, routines, and run history across multiple AI agents.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/paperclipai/paperclip",
+      "github_repo": "paperclipai/paperclip"
+    },
     {
       "slug": "run-senior-engineering-workflows-in-claude-code-with-senior-engineering-partner",
       "name": "Run senior engineering workflows in Claude Code with Senior Engineering Partner",

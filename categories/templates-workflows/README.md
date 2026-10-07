@@ -12,10 +12,10 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Run a self-improving personal agent with Hermes Agent](../../skills/run-a-self-improving-personal-agent-with-hermes-agent/) | ⭐ 177.6k |
 | [Langflow Visual AI Agent and Workflow Builder](../../skills/langflow-visual-ai-agent-workflow-builder/) | ⭐ 146.8k |
 | [Use Dify for production agentic workflow apps](../../skills/use-dify-for-production-agentic-workflow-apps/) | ⭐ 143.7k |
+| [Coordinate agent teams and governed work in Paperclip](../../skills/coordinate-agent-teams-and-governed-work-in-paperclip/) | ⭐ 98.2k |
 | [Install role-specific agent personas with Agency Agents](../../skills/install-role-specific-agent-personas-with-agency-agents/) | ⭐ 96k |
 | [Install reusable specialist agent roles from Agency Agents](../../skills/install-reusable-specialist-agent-roles-from-agency-agents/) | ⭐ 95.9k |
 | [Install Garry Tan’s Claude Code operating stack with gstack](../../skills/install-garry-tans-claude-code-operating-stack-with-gstack/) | ⭐ 94.8k |
-| [Turn feature ideas into executable implementation specs and task plans with Spec Kit](../../skills/turn-feature-ideas-into-executable-implementation-specs-and-task-plans-with-spec-kit/) | ⭐ 88.5k |
 
 ---
 
@@ -24,6 +24,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | Skill | Downloads |
 |---|---:|
 | [Install selected ECC agent skills and rules across coding harnesses](../../skills/install-selected-ecc-agent-skills-and-rules-across-coding-harnesses/) | ⬇ 3.2k/wk |
+| [Coordinate agent teams and governed work in Paperclip](../../skills/coordinate-agent-teams-and-governed-work-in-paperclip/) | ⬇ 59.7k/wk |
 | [Coordinate multi-agent Claude Code and Codex workflows with Ruflo](../../skills/coordinate-multi-agent-claude-code-and-codex-workflows-with-ruflo/) | ⬇ 83.5k/wk |
 | [Run Claude Code job-search operations with Career-Ops](../../skills/run-claude-code-job-search-operations-with-career-ops/) | ⬇ 3.5k/wk |
 | [Use Flowise for visual agent workflow orchestration](../../skills/use-flowise-for-visual-agent-workflow-orchestration/) | ⬇ 11.9k/wk |
@@ -32,7 +33,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Use Sim for orchestrated AI agent workflow runs](../../skills/use-sim-for-orchestrated-ai-agent-workflow-runs/) | ⬇ 32/wk |
 | [Nx Workspace Generator Toolkit](../../skills/nx-workspace-generator-toolkit/) | ⬇ 29.5M/wk |
 | [Nx Workspace Generator](../../skills/nx-workspace-generator/) | ⬇ 8.9M/wk |
-| [Nx Monorepo Workflow Orchestrator](../../skills/nx-monorepo-workflow-orchestrator/) | ⬇ 8.9M/wk |
 
 ---
 
@@ -46,6 +46,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Run a self-improving personal agent with Hermes Agent](../../skills/run-a-self-improving-personal-agent-with-hermes-agent/) | 177.6k | — |
 | [Langflow Visual AI Agent and Workflow Builder](../../skills/langflow-visual-ai-agent-workflow-builder/) | 146.8k | — |
 | [Use Dify for production agentic workflow apps](../../skills/use-dify-for-production-agentic-workflow-apps/) | 143.7k | — |
+| [Coordinate agent teams and governed work in Paperclip](../../skills/coordinate-agent-teams-and-governed-work-in-paperclip/) | 98.2k | 59.7k/wk |
 | [Install role-specific agent personas with Agency Agents](../../skills/install-role-specific-agent-personas-with-agency-agents/) | 96k | — |
 | [Install reusable specialist agent roles from Agency Agents](../../skills/install-reusable-specialist-agent-roles-from-agency-agents/) | 95.9k | — |
 | [Install Garry Tan’s Claude Code operating stack with gstack](../../skills/install-garry-tans-claude-code-operating-stack-with-gstack/) | 94.8k | — |
@@ -277,12 +278,12 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Review-gate OpenClaw memory hygiene with openclaw-mem](../../skills/review-gate-openclaw-memory-hygiene-with-openclaw-mem/) | 28 | — |
 | [Progressive Disclosure for Documentation](../../skills/progressive-disclosure/) | 14 | — |
 | [Generate and safely patch AGENTS.md and RUNBOOK.md with AGENTS.md Generator](../../skills/generate-and-safely-patch-agents-md-and-runbook-md-with-agents-md-generator/) | 2 | — |
+| [Browser Extension Launch](../../skills/browser-extension-launch/) | 1 | 301/wk |
 | [Book to Mentor](../../skills/book-to-mentor/) | 1 | — |
 | [Concept to Story](../../skills/concept-to-story/) | 1 | — |
 | [Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](../../skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/) | — | 49.9M/wk |
 | [Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue](../../skills/triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue/) | — | 49.9M/wk |
 | [Autonomous Session Workflow](../../skills/autonomous-session-workflow/) | — | — |
-| [Browser Extension Launch](../../skills/browser-extension-launch/) | — | — |
 | [Bubble.io Stripe Subscription Portal Builder](../../skills/bubble-stripe-subscription-portal/) | — | — |
 | [Co-author structured docs with staged context gathering and reader testing](../../skills/co-author-structured-docs-with-staged-context-gathering-and-reader-testing/) | — | — |
 | [Create and repair Word documents with layout-safe DOCX workflows](../../skills/create-and-repair-word-documents-with-layout-safe-docx-workflows/) | — | — |
