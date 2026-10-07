@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-10-07",
-  "total": 3100,
+  "total": 3101,
   "skills": [
+    {
+      "slug": "expose-guarded-database-connections-to-agents-with-data-peek",
+      "name": "Expose guarded database connections to agents with Data Peek",
+      "title": "Expose guarded database connections to agents with Data Peek",
+      "description": "Use Data Peek's local MCP server to let agents inspect SQL databases through capped read tools and human-approved writes.",
+      "category": "Data Extraction & Transformation",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Rohithgilla12/data-peek",
+      "github_repo": "Rohithgilla12/data-peek"
+    },
     {
       "slug": "coordinate-agent-teams-and-governed-work-in-paperclip",
       "name": "Coordinate agent teams and governed work in Paperclip",

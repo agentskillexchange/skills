@@ -213,6 +213,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Translate technical PDFs through RetainPDF while preserving layout](../../skills/translate-technical-pdfs-through-retainpdf-while-preserving-layout/) | 2k | — |
 | [Query and rewrite Markdown structure with mdq](../../skills/query-and-rewrite-markdown-structure-with-mdq/) | 1.7k | — |
 | [Run a Docling API server for agent document conversion](../../skills/run-a-docling-api-server-for-agent-document-conversion/) | 1.7k | — |
+| [Expose guarded database connections to agents with Data Peek](../../skills/expose-guarded-database-connections-to-agents-with-data-peek/) | 1.7k | 99/wk |
 | [Anyquery Universal SQL Engine with MCP Integration](../../skills/anyquery-universal-sql-engine-mcp-integration/) | 1.7k | — |
 | [Let agents draft and manage Bdash SQL queries through MCP](../../skills/let-agents-draft-and-manage-bdash-sql-queries-through-mcp/) | 1.5k | — |
 | [Convert mixed documents into agent-ready Markdown and JSON with DocStrange](../../skills/convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange/) | 1.5k | 90/wk |

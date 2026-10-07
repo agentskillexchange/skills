@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C100-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C101-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C583-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,100 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,101 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Expose guarded database connections to agents with Data Peek](skills/expose-guarded-database-connections-to-agents-with-data-peek/) | Use Data Peek's local MCP server to let agents inspect SQL databases through capped read tools and human-approved... | 1.7k | Data Extraction & Transformation |
 | [Coordinate agent teams and governed work in Paperclip](skills/coordinate-agent-teams-and-governed-work-in-paperclip/) | Use Paperclip as a self-hosted control plane for assigning goals, tasks, budgets, approvals, routines, and run history across... | 98.2k | Templates & Workflows |
 | [Run senior engineering workflows in Claude Code with Senior Engineering Partner](skills/run-senior-engineering-workflows-in-claude-code-with-senior-engineering-partner/) | Use Senior Engineering Partner to run Claude Code through review, pair-programming, debugging, mentoring, and audit workflows with spec... | 152 | Code Quality & Review |
 | [Generate validated office deliverables locally with OpenWorkBuddy](skills/generate-validated-office-deliverables-locally-with-openworkbuddy/) | Use OpenWorkBuddy to turn a natural-language office request into local PPTX, DOCX, XLSX, HTML, or video deliverables with... | 261 | Calendar, Email & Productivity |
@@ -96,7 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Work an SEO and AI-Visibility Backlog with LogNorm](skills/lognorm-seo-geo-backlog/) | Use LogNorm when Claude Code, Codex or Cursor should work a site's SEO and AI-visibility (GEO) backlog through... | - | Content Writing & SEO |
 | [Give agents persistent shared memory with mcp-memory-service](skills/give-agents-persistent-shared-memory-with-mcp-memory-service/) | Run a self-hosted MCP and REST memory layer so agents can store decisions, retrieve project context, and share... | 2.0k | Integrations & Connectors |
 | [Mod PC games with agent skills and Universal Modder](skills/mod-pc-games-with-agent-skills-and-universal-modder/) | Use Universal Modder to let coding agents inspect a PC game, plan the mod route, generate assets, test... | 3.2k | Developer Tools |
-| [Explain agent work in plain language with Open Steps](skills/explain-agent-work-in-plain-language-with-open-steps/) | Run Open Steps so coding agents summarize work, generate plain-language verdicts, and hand off next steps that non-engineers... | 1.2k | Developer Tools |
 
 ---
 
@@ -131,8 +131,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Build TypeScript spreadsheet import and export workflows with hucre](skills/build-typescript-spreadsheet-import-and-export-workflows-with-hucre/) | Use hucre when a coding agent needs to add zero-dependency XLSX, CSV, ODS, JSON, NDJSON, or XML spreadsheet... | 2.2k | Data Extraction & Transformation |
 | [Visualize OpenTelemetry agent traces with Agent Prism](skills/visualize-opentelemetry-agent-traces-with-agent-prism/) | Add Agent Prism's React trace viewer to inspect LLM calls, tool executions, retries, and agent workflows from OpenTelemetry... | 393 | Monitoring & Alerts |
 | [Build agent-maintainable reactive UI with ArrowJS](skills/build-agent-maintainable-reactive-ui-with-arrowjs/) | Use ArrowJS when a coding agent needs to add or maintain small reactive web interfaces using DOM-native JavaScript... | 3.8k | Developer Tools |
-| [Search and fetch biomedical literature through MCP with PubMed MCP Server](skills/search-and-fetch-biomedical-literature-through-mcp-with-pubmed-mcp-server/) | Connect an MCP-capable agent to PubMed, Europe PMC, PMC full text, Unpaywall, citations, and MeSH tools for supervised... | 153 | Research & Scraping |
 | [Review agent-authored diffs in terminal with herdr-reviewr](skills/review-agent-authored-diffs-in-terminal-with-herdr-reviewr/) | Open a terminal review pane beside a coding agent, inspect changed files, add line comments, and send structured... | 825 | Code Quality & Review |
+| [Search and fetch biomedical literature through MCP with PubMed MCP Server](skills/search-and-fetch-biomedical-literature-through-mcp-with-pubmed-mcp-server/) | Connect an MCP-capable agent to PubMed, Europe PMC, PMC full text, Unpaywall, citations, and MeSH tools for supervised... | 153 | Research & Scraping |
 
 ---
 
@@ -143,7 +143,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 🛠️ | [**Developer Tools**](categories/developer-tools/) | 513 | CLI tools, scaffolders, dev environment setup |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 262 | Scaffolders, boilerplate generators, workflow templates |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 251 | Vulnerability scanning, auth setup, compliance |
-| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 228 | ETL pipelines, parsing, format conversion |
+| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 229 | ETL pipelines, parsing, format conversion |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 204 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 179 | Third-party API bridges, webhooks, service connectors |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,100 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 3,101 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,583 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

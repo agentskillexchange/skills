@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-10-07
-# Total: 3100 skills
+# Total: 3101 skills
+
+## Expose guarded database connections to agents with Data Peek
+slug: expose-guarded-database-connections-to-agents-with-data-peek
+category: Data Extraction & Transformation
+framework: MCP
+verification: Security Reviewed
+description: Use Data Peek's local MCP server to let agents inspect SQL databases through capped read tools and human-approved writes.
+url: https://agentskillexchange.com/skills/expose-guarded-database-connections-to-agents-with-data-peek/
 
 ## Coordinate agent teams and governed work in Paperclip
 slug: coordinate-agent-teams-and-governed-work-in-paperclip

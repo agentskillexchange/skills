@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3100 published skills** across **17 categories** · 2,583 security reviewed · Updated 2026-10-07 07:27 UTC
+> **3101 published skills** across **17 categories** · 2,583 security reviewed · Updated 2026-10-07 13:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1058,7 +1058,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (228 skills)
+### 🔄 Data Extraction & Transformation (229 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -1237,6 +1237,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Translate technical PDFs through RetainPDF while preserving layout](skills/translate-technical-pdfs-through-retainpdf-while-preserving-layout/) | Route scanned, scientific, and technical PDFs through RetainPDF so an agent can produce translated PDFs while… | Security Reviewed | 2k | — |
 | [Query and rewrite Markdown structure with mdq](skills/query-and-rewrite-markdown-structure-with-mdq/) | Use mdq when an agent needs to target headings, lists, links, or other Markdown structure without falling back to… | Security Reviewed | 1.7k | — |
 | [Run a Docling API server for agent document conversion](skills/run-a-docling-api-server-for-agent-document-conversion/) | Deploy Docling API so agents can convert PDFs, Office files, images, HTML, CSV, and other documents into Markdown… | Security Reviewed | 1.7k | — |
+| [Expose guarded database connections to agents with Data Peek](skills/expose-guarded-database-connections-to-agents-with-data-peek/) | Use Data Peek's local MCP server to let agents inspect SQL databases through capped read tools and human-approved… | Security Reviewed | 1.7k | 99/wk |
 | [Anyquery Universal SQL Engine with MCP Integration](skills/anyquery-universal-sql-engine-mcp-integration/) | Anyquery is a SQL query engine that lets you run SQL against 40+ apps, files, and databases including GitHub,… | Security Reviewed | 1.7k | — |
 | [Let agents draft and manage Bdash SQL queries through MCP](skills/let-agents-draft-and-manage-bdash-sql-queries-through-mcp/) | Connect Bdash's SQL workspace to MCP clients so an agent can list configured data sources and write SQL into the… | Security Reviewed | 1.5k | — |
 | [Convert mixed documents into agent-ready Markdown and JSON with DocStrange](skills/convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange/) | Convert PDFs, scans, office files, images, and URLs into clean Markdown, structured JSON, CSV, or HTML before an… | Security Reviewed | 1.5k | 90/wk |
