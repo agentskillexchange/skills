@@ -2,13 +2,17 @@
 name: "Browser Extension Launch"
 slug: "browser-extension-launch"
 description: "Turns a plain-language idea into a tested Chrome Manifest V3 extension, release bundle, store materials, and a resumable launch workflow using Codex skills and Playwright MCP acceptance checks."
+github_stars: 1
 verification: "listed"
 source: "https://github.com/xiehuan123/browser-extension-launch"
+author: "xiehuan123"
 category: "Templates & Workflows"
 framework: "Codex"
 tool_ecosystem:
   github_repo: "xiehuan123/browser-extension-launch"
+  github_stars: 1
   npm_package: "browser-extension-launch"
+  npm_weekly_downloads: 301
 ---
 
 # Browser Extension Launch
@@ -17,16 +21,9 @@ Browser Extension Launch is a Codex skill for taking a browser-extension idea fr
 
 ## Installation
 
-### npm installer
+Install or set up from the source-backed instructions:
 
-```bash
-npx browser-extension-launch install
-```
+npx skills add xiehuan123/browser-extension-launch --skill browser-extension-launch --agent codex claude-code cursor github-copilot opencode
 
-### Codex manual install
+- Source: https://github.com/xiehuan123/browser-extension-launch
 
-```bash
-git clone https://github.com/xiehuan123/browser-extension-launch.git ~/.codex/skills/browser-extension-launch
-```
-
-Restart Codex after installation so it reloads skill metadata. The complete workflow also expects the child skills and Playwright MCP capability documented by the upstream project.
