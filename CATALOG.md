@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3098 published skills** across **17 categories** · 2,581 security reviewed · Updated 2026-10-06 19:27 UTC
+> **3099 published skills** across **17 categories** · 2,581 security reviewed · Updated 2026-10-07 01:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1293,7 +1293,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (203 skills)
+### ✅ Code Quality & Review (204 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1470,6 +1470,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Run independent multi-agent build and review flows with OPC](skills/run-independent-multi-agent-build-and-review-flows-with-opc/) | Use OPC as a Claude Code skill to select a task flow, dispatch specialist roles, enforce independent review, and… | Security Reviewed | 192 | 315/wk |
 | [Lint reStructuredText docs and release notes before Sphinx publishing with doc8](skills/lint-restructuredtext-docs-and-release-notes-before-sphinx-publishing-with-doc8/) | Catch structural and line-style problems in reStructuredText docs before release notes and Sphinx pages go out… | Security Reviewed | 176 | — |
 | [Serve codebase impact context to agents with Trace MCP](skills/serve-codebase-impact-context-to-agents-with-trace-mcp/) | Use Trace MCP to index a repository once and let MCP-capable coding agents query framework-aware code, dependency,… | Security Reviewed | 154 | 6.6k/wk |
+| [Run senior engineering workflows in Claude Code with Senior Engineering Partner](skills/run-senior-engineering-workflows-in-claude-code-with-senior-engineering-partner/) | Use Senior Engineering Partner to run Claude Code through review, pair-programming, debugging, mentoring, and audit… | Security Reviewed | 152 | — |
 | [Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed](skills/catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed/) | Use CodSpeed when an agent needs benchmark runs compared in CI and surfaced on pull requests before performance… | Security Reviewed | 143 | 234.6k/wk |
 | [Run multi-agent code review rounds with structured reviewer discourse before human approval](skills/run-multi-agent-code-review-rounds-with-structured-reviewer-discourse-before-human-approval/) | Use Open Code Review when an agent needs several reviewer personas to inspect a diff, debate findings, and… | Security Reviewed | 131 | 1.1k/wk |
 | [Review AI-generated code changes in a local PR-style loop with DiffX](skills/review-ai-generated-code-changes-in-a-local-pr-style-loop-with-diffx/) | Use DiffX to review local git changes in a PR-style browser UI, leave inline comments, and hand structured feedback… | Security Reviewed | 127 | 262/wk |

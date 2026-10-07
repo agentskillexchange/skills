@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-10-06
-# Total: 3098 skills
+# Generated: 2026-10-07
+# Total: 3099 skills
+
+## Run senior engineering workflows in Claude Code with Senior Engineering Partner
+slug: run-senior-engineering-workflows-in-claude-code-with-senior-engineering-partner
+category: Code Quality & Review
+framework: Claude Code
+verification: Security Reviewed
+description: Use Senior Engineering Partner to run Claude Code through review, pair-programming, debugging, mentoring, and audit workflows with spec, test, security, and verification discipline.
+url: https://agentskillexchange.com/skills/run-senior-engineering-workflows-in-claude-code-with-senior-engineering-partner/
 
 ## Generate validated office deliverables locally with OpenWorkBuddy
 slug: generate-validated-office-deliverables-locally-with-openworkbuddy

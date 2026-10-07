@@ -1,9 +1,20 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-10-06",
-  "total": 3098,
+  "generated": "2026-10-07",
+  "total": 3099,
   "skills": [
+    {
+      "slug": "run-senior-engineering-workflows-in-claude-code-with-senior-engineering-partner",
+      "name": "Run senior engineering workflows in Claude Code with Senior Engineering Partner",
+      "title": "Run senior engineering workflows in Claude Code with Senior Engineering Partner",
+      "description": "Use Senior Engineering Partner to run Claude Code through review, pair-programming, debugging, mentoring, and audit workflows with spec, test, security, and verification discipline.",
+      "category": "Code Quality & Review",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/bjgreenberg/senior-engineering-partner",
+      "github_repo": "bjgreenberg/senior-engineering-partner"
+    },
     {
       "slug": "generate-validated-office-deliverables-locally-with-openworkbuddy",
       "name": "Generate validated office deliverables locally with OpenWorkBuddy",
