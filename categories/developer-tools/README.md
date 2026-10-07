@@ -462,6 +462,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Give coding agents sandboxed shell runtimes with SWE-ReX](../../skills/give-coding-agents-sandboxed-shell-runtimes-with-swe-rex/) | 543 | — |
 | [Track Coding-Agent Work Evidence With agentacct](../../skills/track-coding-agent-work-evidence-with-agentacct/) | 537 | — |
 | [Run client delivery fieldwork with FDEOps](../../skills/run-client-delivery-fieldwork-with-fdeops/) | 536 | 2.3k/wk |
+| [Compare coding-agent answers and coordinate reviews with MCO](../../skills/compare-coding-agent-answers-and-coordinate-reviews-with-mco/) | 530 | 73/wk |
 | [Scaffold repo-specific agent harnesses with Metaharness](../../skills/scaffold-repo-specific-agent-harnesses-with-metaharness/) | 529 | 29.1k/wk |
 | [Compact terminal-heavy agent output with Tokenjuice](../../skills/compact-terminal-heavy-agent-output-with-tokenjuice/) | 517 | 1.2M/wk |
 | [Coordinate terminal coding-agent sessions with DSCODE](../../skills/coordinate-terminal-coding-agent-sessions-with-dscode/) | 506 | 4.1k/wk |

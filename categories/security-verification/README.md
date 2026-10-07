@@ -178,6 +178,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Conftest Policy Tester](../../skills/conftest-policy-tester/) | 3.2k | — |
 | [Conftest Structured Configuration Policy Testing with OPA Rego](../../skills/conftest-opa-config-policy-testing/) | 3.2k | — |
 | [Turn Windows event logs into Sigma-backed threat-hunting timelines with Hayabusa](../../skills/turn-windows-event-logs-into-sigma-backed-threat-hunting-timelines-with-hayabusa/) | 3.1k | — |
+| [Run authorized AI-assisted pentest and remediation workflows with RedAmon](../../skills/run-authorized-ai-assisted-pentest-and-remediation-workflows-with-redamon/) | 3k | — |
 | [Filter prompts and model outputs for injection, secrets, toxicity, and policy risks with LLM Guard](../../skills/filter-prompts-and-model-outputs-for-injection-secrets-toxicity-and-policy-risks-with-llm-guard/) | 2.8k | — |
 | [Deploy an agent-readable OpenClaw defense matrix and hardening audit with OpenClaw Security Practice Guide](../../skills/deploy-an-agent-readable-openclaw-defense-matrix-and-hardening-audit-with-openclaw-security-practice-guide/) | 2.8k | — |
 | [Inject SOPS-managed secrets into NixOS and Home Manager configs with sops-nix](../../skills/inject-sops-managed-secrets-into-nixos-and-home-manager-configs-with-sops-nix/) | 2.8k | — |

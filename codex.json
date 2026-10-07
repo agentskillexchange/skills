@@ -2,8 +2,41 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-10-07",
-  "total": 3101,
+  "total": 3104,
   "skills": [
+    {
+      "slug": "compare-coding-agent-answers-and-coordinate-reviews-with-mco",
+      "name": "Compare coding-agent answers and coordinate reviews with MCO",
+      "title": "Compare coding-agent answers and coordinate reviews with MCO",
+      "description": "Dispatch one repository task to explicit Claude, Codex, Gemini, Cursor, OpenCode, Qwen, Copilot, or custom provider teams and compare the raw answers before acting.",
+      "category": "Developer Tools",
+      "framework": "Codex",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/mco-org/mco",
+      "github_repo": "mco-org/mco"
+    },
+    {
+      "slug": "run-authorized-ai-assisted-pentest-and-remediation-workflows-with-redamon",
+      "name": "Run authorized AI-assisted pentest and remediation workflows with RedAmon",
+      "title": "Run authorized AI-assisted pentest and remediation workflows with RedAmon",
+      "description": "Map an approved attack surface, run recon and exploitation from a Kali sandbox, triage findings, and open remediation pull requests with human approval gates.",
+      "category": "Security & Verification",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/samugit83/redamon",
+      "github_repo": "samugit83/redamon"
+    },
+    {
+      "slug": "run-persistent-local-computer-use-agents-with-invisible-dots",
+      "name": "Run persistent local computer-use agents with invisible_dots",
+      "title": "Run persistent local computer-use agents with invisible_dots",
+      "description": "Give each agent its own local QEMU desktop, browser identity, files, memory, task queue, and approval rules for supervised long-running web and computer workflows.",
+      "category": "Browser Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/feder-cr/invisible_dots",
+      "github_repo": "feder-cr/invisible_dots"
+    },
     {
       "slug": "expose-guarded-database-connections-to-agents-with-data-peek",
       "name": "Expose guarded database connections to agents with Data Peek",

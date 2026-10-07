@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3101 published skills** across **17 categories** · 2,586 security reviewed · Updated 2026-10-07 13:26 UTC
+> **3104 published skills** across **17 categories** · 2,586 security reviewed · Updated 2026-10-07 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (513 skills)
+### 🛠️ Developer Tools (514 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -436,6 +436,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Give coding agents sandboxed shell runtimes with SWE-ReX](skills/give-coding-agents-sandboxed-shell-runtimes-with-swe-rex/) | Use SWE-ReX when a coding agent needs a consistent runtime interface for local, containerized, or remote shell… | Security Reviewed | 543 | — |
 | [Track Coding-Agent Work Evidence With agentacct](skills/track-coding-agent-work-evidence-with-agentacct/) | Create a local dashboard that joins coding-agent session logs, token estimates, recorded work steps, and… | Security Reviewed | 537 | — |
 | [Run client delivery fieldwork with FDEOps](skills/run-client-delivery-fieldwork-with-fdeops/) | Use FDEOps to guide agent-assisted client work from discovery through build, QA, readout, and handoff while… | Security Reviewed | 536 | 2.3k/wk |
+| [Compare coding-agent answers and coordinate reviews with MCO](skills/compare-coding-agent-answers-and-coordinate-reviews-with-mco/) | Dispatch one repository task to explicit Claude, Codex, Gemini, Cursor, OpenCode, Qwen, Copilot, or custom provider… | Security Reviewed | 530 | 73/wk |
 | [Scaffold repo-specific agent harnesses with Metaharness](skills/scaffold-repo-specific-agent-harnesses-with-metaharness/) | Use Metaharness to score a repository, generate a branded agent harness with CLI, MCP, memory, and safety defaults,… | Security Reviewed | 529 | 29.1k/wk |
 | [Compact terminal-heavy agent output with Tokenjuice](skills/compact-terminal-heavy-agent-output-with-tokenjuice/) | Use Tokenjuice when an agent runs noisy shell commands and needs deterministic, inspectable output reduction before… | Security Reviewed | 517 | 1.2M/wk |
 | [Coordinate terminal coding-agent sessions with DSCODE](skills/coordinate-terminal-coding-agent-sessions-with-dscode/) | Use DSCODE when an operator needs a macOS terminal coding agent with a persistent shell, session bridge,… | Security Reviewed | 506 | 4.1k/wk |
@@ -799,7 +800,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown,… | Published | — | — |
 
 
-### 🔒 Security & Verification (251 skills)
+### 🔒 Security & Verification (252 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -943,6 +944,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Conftest Policy Tester](skills/conftest-policy-tester/) | Conftest Policy Tester is built around Kubernetes orchestration platform. The underlying ecosystem is represented by… | Security Reviewed | 3.2k | — |
 | [Conftest Structured Configuration Policy Testing with OPA Rego](skills/conftest-opa-config-policy-testing/) | Conftest is a CLI tool that tests structured configuration data using the Open Policy Agent Rego language. It… | Security Reviewed | 3.2k | — |
 | [Turn Windows event logs into Sigma-backed threat-hunting timelines with Hayabusa](skills/turn-windows-event-logs-into-sigma-backed-threat-hunting-timelines-with-hayabusa/) | Parse Windows event logs into fast timelines and detection-rich outputs so agents can triage suspicious host… | Published | 3.1k | — |
+| [Run authorized AI-assisted pentest and remediation workflows with RedAmon](skills/run-authorized-ai-assisted-pentest-and-remediation-workflows-with-redamon/) | Map an approved attack surface, run recon and exploitation from a Kali sandbox, triage findings, and open… | Security Reviewed | 3k | — |
 | [Filter prompts and model outputs for injection, secrets, toxicity, and policy risks with LLM Guard](skills/filter-prompts-and-model-outputs-for-injection-secrets-toxicity-and-policy-risks-with-llm-guard/) | Screen prompts and responses with input and output scanners before an LLM interaction reaches production users or… | Security Reviewed | 2.8k | — |
 | [Deploy an agent-readable OpenClaw defense matrix and hardening audit with OpenClaw Security Practice Guide](skills/deploy-an-agent-readable-openclaw-defense-matrix-and-hardening-audit-with-openclaw-security-practice-guide/) | Use an agent-facing OpenClaw security guide to audit a live setup, surface conflicts, and apply a bounded hardening… | Security Reviewed | 2.8k | — |
 | [Inject SOPS-managed secrets into NixOS and Home Manager configs with sops-nix](skills/inject-sops-managed-secrets-into-nixos-and-home-manager-configs-with-sops-nix/) | Materialize age or PGP encrypted SOPS secrets inside declarative NixOS and Home Manager systems during activation… | Security Reviewed | 2.8k | — |
@@ -2668,7 +2670,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses… | Security Reviewed | — | — |
 
 
-### 🌐 Browser Automation (125 skills)
+### 🌐 Browser Automation (126 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
@@ -2729,6 +2731,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Selenium Grid Test Orchestrator](skills/selenium-grid-test-orchestrator-2/) | Orchestrates distributed browser testing across Selenium Grid 4 nodes using the Grid API. Manages session queuing,… | Security Reviewed | 34.1k | 1.9M/wk |
 | [Selenium WebDriver Browser Automation Framework](skills/selenium-webdriver-browser-automation-framework/) | Selenium is the long-running open source browser automation framework behind the W3C WebDriver standard. It gives… | Security Reviewed | 34.1k | 1.9M/wk |
 | [Playwright MCP Browser Automation](skills/playwright-mcp-browser-automation/) | Official Playwright-powered browser control for agent workflows. | Security Reviewed | 33.3k | 9M/wk |
+| [Run persistent local computer-use agents with invisible_dots](skills/run-persistent-local-computer-use-agents-with-invisible-dots/) | Give each agent its own local QEMU desktop, browser identity, files, memory, task queue, and approval rules for… | Security Reviewed | 31.8k | — |
 | [Drive stealth browser automation from agents with Invisible Playwright MCP](skills/drive-stealth-browser-automation-from-agents-with-invisible-playwright-mcp/) | Use Invisible Playwright MCP when an agent needs a self-hosted browser automation runtime for permitted web… | Security Reviewed | 31.6k | — |
 | [Microsoft Playwright MCP](skills/microsoft-playwright-mcp/) | Microsoft Playwright MCP exposes Playwright browser automation through the Model Context Protocol, giving agents… | Security Reviewed | 30.8k | 2.8M/wk |
 | [Run supervised browser automation workflows with AIHawk](skills/run-one-shot-and-supervised-browser-automation-workflows-with-aihawk/) | Use AIHawk's local supervised browser UI for bounded web research and extraction, with human review before external… | Security Reviewed | 30.3k | — |

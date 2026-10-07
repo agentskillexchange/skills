@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-10-07
-# Total: 3101 skills
+# Total: 3104 skills
+
+## Compare coding-agent answers and coordinate reviews with MCO
+slug: compare-coding-agent-answers-and-coordinate-reviews-with-mco
+category: Developer Tools
+framework: Codex
+verification: Security Reviewed
+description: Dispatch one repository task to explicit Claude, Codex, Gemini, Cursor, OpenCode, Qwen, Copilot, or custom provider teams and compare the raw answers before acting.
+url: https://agentskillexchange.com/skills/compare-coding-agent-answers-and-coordinate-reviews-with-mco/
+
+## Run authorized AI-assisted pentest and remediation workflows with RedAmon
+slug: run-authorized-ai-assisted-pentest-and-remediation-workflows-with-redamon
+category: Security & Verification
+framework: MCP
+verification: Security Reviewed
+description: Map an approved attack surface, run recon and exploitation from a Kali sandbox, triage findings, and open remediation pull requests with human approval gates.
+url: https://agentskillexchange.com/skills/run-authorized-ai-assisted-pentest-and-remediation-workflows-with-redamon/
+
+## Run persistent local computer-use agents with invisible_dots
+slug: run-persistent-local-computer-use-agents-with-invisible-dots
+category: Browser Automation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Give each agent its own local QEMU desktop, browser identity, files, memory, task queue, and approval rules for supervised long-running web and computer workflows.
+url: https://agentskillexchange.com/skills/run-persistent-local-computer-use-agents-with-invisible-dots/
 
 ## Expose guarded database connections to agents with Data Peek
 slug: expose-guarded-database-connections-to-agents-with-data-peek
