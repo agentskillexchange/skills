@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-10-08
-# Total: 3110 skills
+# Total: 3111 skills
+
+## Coordinate local agent handoffs with Sno Station
+slug: coordinate-local-agent-handoffs-with-sno-station
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Sno Station to give Claude Code, Codex, OpenClaw, and related local agents shared encrypted memory, handoff messaging, peer review, and approved skill improvement…
+url: https://agentskillexchange.com/skills/coordinate-local-agent-handoffs-with-sno-station/
 
 ## Create and review pixel art in Aseprite with AI Artist
 slug: create-and-review-pixel-art-in-aseprite-with-ai-artist

@@ -473,6 +473,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Orchestrate multi-agent coding delivery loops with Maestro Flow](../../skills/orchestrate-multi-agent-coding-delivery-loops-with-maestro-flow/) | 480 | 1k/wk |
 | [Coordinate parallel terminal coding agents and worktrees with Pane](../../skills/coordinate-parallel-terminal-coding-agents-and-worktrees-with-pane/) | 478 | 5.7k/wk |
 | [Run multi-harness coding-agent sessions with Claudexor](../../skills/run-multi-harness-coding-agent-sessions-with-claudexor/) | 472 | 1.2k/wk |
+| [Coordinate local agent handoffs with Sno Station](../../skills/coordinate-local-agent-handoffs-with-sno-station/) | 468 | — |
 | [Maintain a Git-versioned codebase index for coding agents with AOCI-CODE](../../skills/maintain-a-git-versioned-codebase-index-for-coding-agents-with-aoci-code/) | 443 | — |
 | [Run agent CLI terminals inside Obsidian with Claude Sidebar](../../skills/run-agent-cli-terminals-inside-obsidian-with-claude-sidebar/) | 443 | — |
 | [Give coding agents repo-local project memory with brain.md](../../skills/give-coding-agents-repo-local-project-memory-with-brain-md/) | 438 | 92/wk |

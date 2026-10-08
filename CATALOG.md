@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3110 published skills** across **17 categories** · 2,592 security reviewed · Updated 2026-10-08 07:27 UTC
+> **3111 published skills** across **17 categories** · 2,592 security reviewed · Updated 2026-10-08 13:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (515 skills)
+### 🛠️ Developer Tools (516 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -447,6 +447,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Orchestrate multi-agent coding delivery loops with Maestro Flow](skills/orchestrate-multi-agent-coding-delivery-loops-with-maestro-flow/) | Use Maestro Flow when a coding operator wants intent-driven planning, execution, verification, review, retry, and… | Security Reviewed | 480 | 1k/wk |
 | [Coordinate parallel terminal coding agents and worktrees with Pane](skills/coordinate-parallel-terminal-coding-agents-and-worktrees-with-pane/) | Use Pane to manage multiple terminal-based coding agents, git worktrees, remote sessions, files, git state, and… | Published | 478 | 5.7k/wk |
 | [Run multi-harness coding-agent sessions with Claudexor](skills/run-multi-harness-coding-agent-sessions-with-claudexor/) | Use Claudexor as a local-first control plane for Codex, Claude Code, Cursor, OpenCode, Antigravity, and API-backed… | Security Reviewed | 472 | 1.2k/wk |
+| [Coordinate local agent handoffs with Sno Station](skills/coordinate-local-agent-handoffs-with-sno-station/) | Use Sno Station to give Claude Code, Codex, OpenClaw, and related local agents shared encrypted memory, handoff… | Security Reviewed | 468 | — |
 | [Maintain a Git-versioned codebase index for coding agents with AOCI-CODE](skills/maintain-a-git-versioned-codebase-index-for-coding-agents-with-aoci-code/) | Initialize a local MCP server and repository-owned index so coding agents can read durable code and database context… | Security Reviewed | 443 | — |
 | [Run agent CLI terminals inside Obsidian with Claude Sidebar](skills/run-agent-cli-terminals-inside-obsidian-with-claude-sidebar/) | Use Claude Sidebar when an operator wants Claude Code, Codex, or another agent CLI available as terminal tabs inside… | Published | 443 | — |
 | [Give coding agents repo-local project memory with brain.md](skills/give-coding-agents-repo-local-project-memory-with-brain-md/) | Initialize and maintain a repo-native Markdown memory layer so coding agents preserve durable decisions,… | Security Reviewed | 438 | 92/wk |

@@ -1,8 +1,22 @@
 {
   "version": "2.0",
-  "total": 3110,
+  "total": 3111,
   "generated": "2026-10-08",
   "skills": [
+    {
+      "slug": "coordinate-local-agent-handoffs-with-sno-station",
+      "name": "Coordinate local agent handoffs with Sno Station",
+      "title": "Coordinate local agent handoffs with Sno Station",
+      "description": "Use Sno Station to give Claude Code, Codex, OpenClaw, and related local agents shared encrypted memory, handoff messaging, peer review, and approved skill improvement…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 468
+      },
+      "source_url": "https://github.com/sno-ai/sno-station",
+      "github_repo": "sno-ai/sno-station"
+    },
     {
       "slug": "create-and-review-pixel-art-in-aseprite-with-ai-artist",
       "name": "Create and review pixel art in Aseprite with AI Artist",
