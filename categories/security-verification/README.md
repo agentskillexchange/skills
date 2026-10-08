@@ -242,6 +242,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [SLSA Verifier Build Provenance Checker](../../skills/slsa-verifier-build-provenance-checker/) | 318 | — |
 | [Scan agent repos for repo-poisoning, unsafe AI config files, and MCP attack surfaces with MEDUSA](../../skills/scan-agent-repos-for-repo-poisoning-unsafe-ai-config-files-and-mcp-attack-surfaces-with-medusa/) | 256 | — |
 | [Scan repositories for AI supply-chain and agent-security risks with Medusa Security](../../skills/scan-repositories-for-ai-supply-chain-and-agent-security-risks-with-medusa-security/) | 256 | — |
+| [Gate agent code changes with OpenQodex review](../../skills/gate-agent-code-changes-with-openqodex-review/) | 247 | 1.3k/wk |
 | [Put approval gates and audit-ready policy checks between agents and external actions with DashClaw](../../skills/put-approval-gates-and-audit-ready-policy-checks-between-agents-and-external-actions-with-dashclaw/) | 241 | 1.6k/wk |
 | [Enforce policy-gated and auditable agent execution with LACP](../../skills/enforce-policy-gated-and-auditable-agent-execution-with-lacp/) | 211 | — |
 | [Sentry for AI](../../skills/sentry-for-ai/) | 190 | 116/wk |

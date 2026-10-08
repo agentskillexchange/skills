@@ -117,6 +117,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Tavily MCP Server for AI-Powered Web Search and Extraction](../../skills/tavily-mcp-server-ai-web-search-extraction/) | 1.6k | 47.9k/wk |
 | [Run self-hosted media research and RAG workflows with tldw_server](../../skills/run-self-hosted-media-research-and-rag-workflows-with-tldw-server/) | 1.4k | — |
 | [AgentQL Natural Language Web Query SDK for Extraction and Automation](../../skills/agentql-natural-language-web-query-sdk-extraction-automation/) | 1.3k | 878/wk |
+| [Locate photo origins with the Geo Sleuth agent skill](../../skills/locate-photo-origins-with-the-geo-sleuth-agent-skill/) | 1.2k | — |
 | [Newspaper4k Python Article Extraction and NLP Library](../../skills/newspaper4k-python-article-extraction-nlp/) | 1.1k | — |
 | [Browsertrix Crawler High-Fidelity Web Archiving and QA Crawler](../../skills/browsertrix-crawler-high-fidelity-web-archiving-qa-crawler/) | 1k | — |
 | [Turn single research papers into Obsidian notes with DeepPaperNote](../../skills/turn-single-research-papers-into-obsidian-notes-with-deeppapernote/) | 1k | — |

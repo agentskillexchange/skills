@@ -410,6 +410,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Explain agent work in plain language with Open Steps](../../skills/explain-agent-work-in-plain-language-with-open-steps/) | 1.2k | — |
 | [Run production .NET coding workflows with dotnet-skills](../../skills/run-production-dotnet-coding-workflows-with-dotnet-skills/) | 1.1k | — |
 | [Run Apple-platform coding audits, diagnostics, and simulator checks with Axiom](../../skills/run-apple-platform-coding-audits-diagnostics-and-simulator-checks-with-axiom/) | 1.1k | 8k/wk |
+| [Use CliRelay as a self-hosted AI gateway for coding agents](../../skills/use-clirelay-as-a-self-hosted-ai-gateway-for-coding-agents/) | 1k | — |
 | [Run terminal coding workflows with Easy Agent](../../skills/run-terminal-coding-workflows-with-easy-agent/) | 1k | 3/wk |
 | [Control Codex and Claude coding-agent sessions from mobile with CC Pocket](../../skills/control-codex-and-claude-coding-agent-sessions-from-mobile-with-cc-pocket/) | 1k | 1.4k/wk |
 | [Review Taiwan Traditional Chinese drafts with speak-human-tw](../../skills/review-taiwan-traditional-chinese-drafts-with-speak-human-tw/) | 1k | — |

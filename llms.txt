@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-10-07
-# Total: 3104 skills
+# Generated: 2026-10-08
+# Total: 3107 skills
+
+## Gate agent code changes with OpenQodex review
+slug: gate-agent-code-changes-with-openqodex-review
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run diff-aware scanner and AI review gates before pushing Claude Code or Codex changes, with pinned scanners, isolated reviewer contexts, and optional pre-push enforcement.
+url: https://agentskillexchange.com/skills/gate-agent-code-changes-with-openqodex-review/
+
+## Locate photo origins with the Geo Sleuth agent skill
+slug: locate-photo-origins-with-the-geo-sleuth-agent-skill
+category: Research & Scraping
+framework: Multi-Framework
+verification: Security Reviewed
+description: Install a cross-runtime agent skill that geolocates photos using EXIF, image preparation, OCR, OpenStreetMap geometry, elevation skylines, satellite imagery, and browser-backed reverse image search.
+url: https://agentskillexchange.com/skills/locate-photo-origins-with-the-geo-sleuth-agent-skill/
+
+## Use CliRelay as a self-hosted AI gateway for coding agents
+slug: use-clirelay-as-a-self-hosted-ai-gateway-for-coding-agents
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Route Claude Code, Codex, Gemini CLI, and OpenAI-compatible coding tools through a self-hosted gateway with tenant controls, request logs, quotas, and provider failover.
+url: https://agentskillexchange.com/skills/use-clirelay-as-a-self-hosted-ai-gateway-for-coding-agents/
 
 ## Compare coding-agent answers and coordinate reviews with MCO
 slug: compare-coding-agent-answers-and-coordinate-reviews-with-mco
