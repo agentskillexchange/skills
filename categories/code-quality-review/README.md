@@ -212,6 +212,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Lint reStructuredText docs and release notes before Sphinx publishing with doc8](../../skills/lint-restructuredtext-docs-and-release-notes-before-sphinx-publishing-with-doc8/) | 176 | — |
 | [Serve codebase impact context to agents with Trace MCP](../../skills/serve-codebase-impact-context-to-agents-with-trace-mcp/) | 154 | 6.6k/wk |
 | [Run senior engineering workflows in Claude Code with Senior Engineering Partner](../../skills/run-senior-engineering-workflows-in-claude-code-with-senior-engineering-partner/) | 152 | — |
+| [Regression-test coding agents and skills with Coder Eval](../../skills/regression-test-coding-agents-and-skills-with-coder-eval/) | 151 | — |
 | [Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed](../../skills/catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed/) | 143 | 234.6k/wk |
 | [Run multi-agent code review rounds with structured reviewer discourse before human approval](../../skills/run-multi-agent-code-review-rounds-with-structured-reviewer-discourse-before-human-approval/) | 131 | 1.1k/wk |
 | [Review AI-generated code changes in a local PR-style loop with DiffX](../../skills/review-ai-generated-code-changes-in-a-local-pr-style-loop-with-diffx/) | 127 | 262/wk |

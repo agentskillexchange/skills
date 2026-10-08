@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C111-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C114-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C595-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,111 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,114 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,9 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Regression-test coding agents and skills with Coder Eval](skills/regression-test-coding-agents-and-skills-with-coder-eval/) | Run sandboxed YAML evaluation suites against Claude Code, Codex, Gemini, OpenCode, or Pi agents, then gate CI on... | 151 | Code Quality & Review |
+| [Run RFC-driven product planning with AI PRD Workflow before agents code](skills/run-rfc-driven-product-planning-with-ai-prd-workflow-before-agents-code/) | Guide coding agents from idea or existing codebase through PRD, features, rules, RFCs, implementation, review, and workflow-status checks | 298 | Templates & Workflows |
+| [Generate consistent hand-drawn image prompts with Hand Drawn Styles](skills/generate-consistent-hand-drawn-image-prompts-with-hand-drawn-styles/) | Apply verified hand-drawn style recipes to a subject so an agent can output clean, reusable prompts or production... | 2.0k | Image & Creative Automation |
 | [Coordinate local agent handoffs with Sno Station](skills/coordinate-local-agent-handoffs-with-sno-station/) | Use Sno Station to give Claude Code, Codex, OpenClaw, and related local agents shared encrypted memory, handoff messaging... | 468 | Developer Tools |
 | [Create and review pixel art in Aseprite with AI Artist](skills/create-and-review-pixel-art-in-aseprite-with-ai-artist/) | Connect an agent to an open Aseprite window so it can brief, draw, animate, critique, fix, and export... | 172 | Image & Creative Automation |
 | [Install project agent harnesses with rsc-harness](skills/install-project-agent-harnesses-with-rsc-harness/) | Let an agent run rsc-harness onboarding to plan and install project-specific memory, skills, guardrails, hooks, and workflow lanes... | 167 | Templates & Workflows |
@@ -94,9 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Gate agent code changes with OpenQodex review](skills/gate-agent-code-changes-with-openqodex-review/) | Run diff-aware scanner and AI review gates before pushing Claude Code or Codex changes, with pinned scanners, isolated... | 247 | Security & Verification |
 | [Locate photo origins with the Geo Sleuth agent skill](skills/locate-photo-origins-with-the-geo-sleuth-agent-skill/) | Install a cross-runtime agent skill that geolocates photos using EXIF, image preparation, OCR, OpenStreetMap geometry, elevation skylines, satellite... | 1.2k | Research & Scraping |
 | [Use CliRelay as a self-hosted AI gateway for coding agents](skills/use-clirelay-as-a-self-hosted-ai-gateway-for-coding-agents/) | Route Claude Code, Codex, Gemini CLI, and OpenAI-compatible coding tools through a self-hosted gateway with tenant controls, request... | 1.0k | Developer Tools |
-| [Compare coding-agent answers and coordinate reviews with MCO](skills/compare-coding-agent-answers-and-coordinate-reviews-with-mco/) | Dispatch one repository task to explicit Claude, Codex, Gemini, Cursor, OpenCode, Qwen, Copilot, or custom provider teams and... | 530 | Developer Tools |
-| [Run authorized AI-assisted pentest and remediation workflows with RedAmon](skills/run-authorized-ai-assisted-pentest-and-remediation-workflows-with-redamon/) | Map an approved attack surface, run recon and exploitation from a Kali sandbox, triage findings, and open remediation... | 3.0k | Security & Verification |
-| [Run persistent local computer-use agents with invisible_dots](skills/run-persistent-local-computer-use-agents-with-invisible-dots/) | Give each agent its own local QEMU desktop, browser identity, files, memory, task queue, and approval rules for... | 31.8k | Browser Automation |
 
 ---
 
@@ -125,14 +125,14 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 |---|---|---:|---|
 | [Coordinate agent teams and governed work in Paperclip](skills/coordinate-agent-teams-and-governed-work-in-paperclip/) | Use Paperclip as a self-hosted control plane for assigning goals, tasks, budgets, approvals, routines, and run history across... | 98.2k | Templates & Workflows |
 | [Run a Docling API server for agent document conversion](skills/run-a-docling-api-server-for-agent-document-conversion/) | Deploy Docling API so agents can convert PDFs, Office files, images, HTML, CSV, and other documents into Markdown... | 1.7k | Data Extraction & Transformation |
-| [Run IDE-wired terminal coding-agent workflows with Oh My Pi](skills/run-ide-wired-terminal-coding-agent-workflows-with-oh-my-pi/) | Use Oh My Pi when an operator wants a local terminal coding agent with IDE-grade context, built-in file... | 31.8k | Developer Tools |
 | [Reverse-engineer apps and binaries with REA](skills/reverse-engineer-apps-and-binaries-with-rea/) | Connect coding agents to REA's MCP tools so they can inspect apps, binaries, websites, APKs, and runtime behavior... | 17.1k | Security & Verification |
 | [Compile agent-ready documentation bundles with docmd](skills/compile-agent-ready-documentation-bundles-with-docmd/) | Use docmd when a project needs one Markdown documentation source to produce a site, search index, llms.txt, MCP... | 2.5k | Library & API Reference |
+| [Run IDE-wired terminal coding-agent workflows with Oh My Pi](skills/run-ide-wired-terminal-coding-agent-workflows-with-oh-my-pi/) | Use Oh My Pi when an operator wants a local terminal coding agent with IDE-grade context, built-in file... | 31.8k | Developer Tools |
 | [Schedule Node Agent Jobs with node-cron](skills/schedule-node-agent-jobs-with-node-cron/) | Use node-cron to add recurring background jobs to Node.js agent services with overlap prevention, distributed coordination, background task... | 3.3k | Templates & Workflows |
 | [Build TypeScript spreadsheet import and export workflows with hucre](skills/build-typescript-spreadsheet-import-and-export-workflows-with-hucre/) | Use hucre when a coding agent needs to add zero-dependency XLSX, CSV, ODS, JSON, NDJSON, or XML spreadsheet... | 2.2k | Data Extraction & Transformation |
 | [Visualize OpenTelemetry agent traces with Agent Prism](skills/visualize-opentelemetry-agent-traces-with-agent-prism/) | Add Agent Prism's React trace viewer to inspect LLM calls, tool executions, retries, and agent workflows from OpenTelemetry... | 393 | Monitoring & Alerts |
 | [Gate agent code changes with OpenQodex review](skills/gate-agent-code-changes-with-openqodex-review/) | Run diff-aware scanner and AI review gates before pushing Claude Code or Codex changes, with pinned scanners, isolated... | 247 | Security & Verification |
-| [Create and review pixel art in Aseprite with AI Artist](skills/create-and-review-pixel-art-in-aseprite-with-ai-artist/) | Connect an agent to an open Aseprite window so it can brief, draw, animate, critique, fix, and export... | 172 | Image & Creative Automation |
+| [Build agent-maintainable reactive UI with ArrowJS](skills/build-agent-maintainable-reactive-ui-with-arrowjs/) | Use ArrowJS when a coding agent needs to add or maintain small reactive web interfaces using DOM-native JavaScript... | 3.8k | Developer Tools |
 
 ---
 
@@ -141,10 +141,10 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | | Category | Skills | What's inside |
 |---|---|---:|---|
 | 🛠️ | [**Developer Tools**](categories/developer-tools/) | 516 | CLI tools, scaffolders, dev environment setup |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 263 | Scaffolders, boilerplate generators, workflow templates |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 264 | Scaffolders, boilerplate generators, workflow templates |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 254 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 229 | ETL pipelines, parsing, format conversion |
-| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 204 | Linting, code review, test generators, coverage |
+| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 205 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 192 | Pipeline configs, deployment automation, build tooling |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 179 | Third-party API bridges, webhooks, service connectors |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 178 | Incident response, troubleshooting, system diagnostics |
@@ -153,7 +153,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 130 | SDK docs, API parsers, symbol resolvers |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 128 | Email automation, calendar management, task coordination |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 126 | Web scraping, UI testing, headless browser control |
-| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 114 | Image generation, asset processing, design automation |
+| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 115 | Image generation, asset processing, design automation |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 109 | Audio/video processing, speech-to-text |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
 | ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 95 | SEO content, blog automation, editorial workflows |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,111 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 3,114 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,595 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

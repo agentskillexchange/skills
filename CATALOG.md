@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3111 published skills** across **17 categories** · 2,595 security reviewed · Updated 2026-10-08 13:26 UTC
+> **3114 published skills** across **17 categories** · 2,595 security reviewed · Updated 2026-10-08 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -532,7 +532,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Zinc Universal Checkout](skills/zinc-universal-checkout/) | Discover, buy, track, and return products across Amazon, Walmart, Target, Best Buy, eBay, and 50+ US retailers via… | Published | — | — |
 
 
-### 📄 Templates & Workflows (263 skills)
+### 📄 Templates & Workflows (264 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -756,6 +756,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Build event-driven document agent workflows with LlamaAgents](skills/build-event-driven-document-agent-workflows-with-llamaagents/) | Use LlamaAgents to define async Python workflow steps, coordinate document-centric agent pipelines, and expose those… | Security Reviewed | 389 | — |
 | [Evaluate long-horizon agents against WildClawBench](skills/evaluate-long-horizon-agents-against-wildclawbench/) | Use WildClawBench to benchmark agents on hard end-to-end OpenClaw tasks covering tool orchestration, multimodal… | Published | 359 | — |
 | [Makedown Task Runner](skills/makedown-task-runner/) | Extracts executable task definitions from Markdown files and runs them as shell pipelines. Parses fenced code blocks… | Security Reviewed | 319 | — |
+| [Run RFC-driven product planning with AI PRD Workflow before agents code](skills/run-rfc-driven-product-planning-with-ai-prd-workflow-before-agents-code/) | Guide coding agents from idea or existing codebase through PRD, features, rules, RFCs, implementation, review, and… | Security Reviewed | 298 | — |
 | [Install OrchestKit skills, agents, and hooks for Claude Code](skills/install-orchestkit-skills-agents-and-hooks-for-claude-code/) | Install OrchestKit when a Claude Code operator wants a maintained workflow pack of skills, specialist agents, hooks,… | Security Reviewed | 278 | 7/wk |
 | [Maintain reusable project knowledge with Project Cairn](skills/maintain-reusable-project-knowledge-with-project-cairn/) | Use Project Cairn to initialize, maintain, audit, and graduate project knowledge so coding-agent work leaves… | Security Reviewed | 235 | — |
 | [Run contract-driven GRACE code changes with agent skills](skills/run-contract-driven-grace-code-changes-with-agent-skills/) | Uses GRACE skills and the optional grace CLI to guide coding agents through contract-first code changes backed by… | Security Reviewed | 228 | 160/wk |
@@ -1302,7 +1303,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (204 skills)
+### ✅ Code Quality & Review (205 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1480,6 +1481,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Lint reStructuredText docs and release notes before Sphinx publishing with doc8](skills/lint-restructuredtext-docs-and-release-notes-before-sphinx-publishing-with-doc8/) | Catch structural and line-style problems in reStructuredText docs before release notes and Sphinx pages go out… | Security Reviewed | 176 | — |
 | [Serve codebase impact context to agents with Trace MCP](skills/serve-codebase-impact-context-to-agents-with-trace-mcp/) | Use Trace MCP to index a repository once and let MCP-capable coding agents query framework-aware code, dependency,… | Security Reviewed | 154 | 6.6k/wk |
 | [Run senior engineering workflows in Claude Code with Senior Engineering Partner](skills/run-senior-engineering-workflows-in-claude-code-with-senior-engineering-partner/) | Use Senior Engineering Partner to run Claude Code through review, pair-programming, debugging, mentoring, and audit… | Security Reviewed | 152 | — |
+| [Regression-test coding agents and skills with Coder Eval](skills/regression-test-coding-agents-and-skills-with-coder-eval/) | Run sandboxed YAML evaluation suites against Claude Code, Codex, Gemini, OpenCode, or Pi agents, then gate CI on… | Security Reviewed | 151 | — |
 | [Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed](skills/catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed/) | Use CodSpeed when an agent needs benchmark runs compared in CI and surfaced on pull requests before performance… | Security Reviewed | 143 | 234.6k/wk |
 | [Run multi-agent code review rounds with structured reviewer discourse before human approval](skills/run-multi-agent-code-review-rounds-with-structured-reviewer-discourse-before-human-approval/) | Use Open Code Review when an agent needs several reviewer personas to inspect a diff, debate findings, and… | Security Reviewed | 131 | 1.1k/wk |
 | [Review AI-generated code changes in a local PR-style loop with DiffX](skills/review-ai-generated-code-changes-in-a-local-pr-style-loop-with-diffx/) | Use DiffX to review local git changes in a PR-style browser UI, leave inline comments, and hand structured feedback… | Security Reviewed | 127 | 262/wk |
@@ -2810,7 +2812,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Verify local web apps with Playwright scripts and managed dev servers](skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | Use Anthropic's webapp-testing skill to spin up one or more local servers, wait for them to become reachable, and… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (114 skills)
+### 🎨 Image & Creative Automation (115 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -2883,6 +2885,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Turn a plain-language brief into a multi-step video production pipeline with OpenMontage](skills/turn-a-plain-language-brief-into-a-multi-step-video-production-pipeline-with-openmontage/) | Use OpenMontage when an agent should take a brief or reference video and run the research, scripting, asset… | Security Reviewed | 3k | — |
 | [Draw and verify Excalidraw diagrams through an agent canvas](skills/draw-and-verify-excalidraw-diagrams-through-an-agent-canvas/) | Use mcp_excalidraw to let coding agents create, inspect, revise, export, and commit editable Excalidraw diagrams… | Published | 2.4k | 11.7k/wk |
 | [Produce cinematic product videos with Video Shotcraft](skills/produce-cinematic-product-videos-with-video-shotcraft/) | Turns Claude Code, Codex, or another skills-aware coding agent into a Remotion-based product video operator with… | Security Reviewed | 2.1k | — |
+| [Generate consistent hand-drawn image prompts with Hand Drawn Styles](skills/generate-consistent-hand-drawn-image-prompts-with-hand-drawn-styles/) | Apply verified hand-drawn style recipes to a subject so an agent can output clean, reusable prompts or production… | Security Reviewed | 2k | — |
 | [OpenEXR HDR Compositing Pipeline](skills/openexr-hdr-compositing-pipeline/) | Processes OpenEXR high dynamic range images using the OpenImageIO (oiiotool) CLI and Imath library for multi-layer… | Security Reviewed | 1.8k | — |
 | [Generate Arcads ad creative from Claude Code](skills/generate-arcads-ad-creative-from-claude-code/) | Use the Arcads Claude Code skill pack to create, poll, organize, and review AI marketing videos and image ads… | Security Reviewed | 1.5k | — |
 | [Turn novels into AI short-drama production packets with shuohao-skills](skills/turn-novels-into-ai-short-drama-production-packets-with-shuohao-skills/) | Use shuohao-skills to have coding agents turn a source novel into character bibles, adaptation outlines, art bibles,… | Security Reviewed | 1.4k | — |

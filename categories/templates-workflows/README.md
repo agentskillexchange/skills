@@ -258,6 +258,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Build event-driven document agent workflows with LlamaAgents](../../skills/build-event-driven-document-agent-workflows-with-llamaagents/) | 389 | — |
 | [Evaluate long-horizon agents against WildClawBench](../../skills/evaluate-long-horizon-agents-against-wildclawbench/) | 359 | — |
 | [Makedown Task Runner](../../skills/makedown-task-runner/) | 319 | — |
+| [Run RFC-driven product planning with AI PRD Workflow before agents code](../../skills/run-rfc-driven-product-planning-with-ai-prd-workflow-before-agents-code/) | 298 | — |
 | [Install OrchestKit skills, agents, and hooks for Claude Code](../../skills/install-orchestkit-skills-agents-and-hooks-for-claude-code/) | 278 | 7/wk |
 | [Maintain reusable project knowledge with Project Cairn](../../skills/maintain-reusable-project-knowledge-with-project-cairn/) | 235 | — |
 | [Run contract-driven GRACE code changes with agent skills](../../skills/run-contract-driven-grace-code-changes-with-agent-skills/) | 228 | 160/wk |

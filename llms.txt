@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-10-08
-# Total: 3111 skills
+# Total: 3114 skills
+
+## Regression-test coding agents and skills with Coder Eval
+slug: regression-test-coding-agents-and-skills-with-coder-eval
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run sandboxed YAML evaluation suites against Claude Code, Codex, Gemini, OpenCode, or Pi agents, then gate CI on task scores and skill-trigger checks.
+url: https://agentskillexchange.com/skills/regression-test-coding-agents-and-skills-with-coder-eval/
+
+## Run RFC-driven product planning with AI PRD Workflow before agents code
+slug: run-rfc-driven-product-planning-with-ai-prd-workflow-before-agents-code
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Guide coding agents from idea or existing codebase through PRD, features, rules, RFCs, implementation, review, and workflow-status checks.
+url: https://agentskillexchange.com/skills/run-rfc-driven-product-planning-with-ai-prd-workflow-before-agents-code/
+
+## Generate consistent hand-drawn image prompts with Hand Drawn Styles
+slug: generate-consistent-hand-drawn-image-prompts-with-hand-drawn-styles
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Apply verified hand-drawn style recipes to a subject so an agent can output clean, reusable prompts or production JSON call packages for image generation.
+url: https://agentskillexchange.com/skills/generate-consistent-hand-drawn-image-prompts-with-hand-drawn-styles/
 
 ## Coordinate local agent handoffs with Sno Station
 slug: coordinate-local-agent-handoffs-with-sno-station
