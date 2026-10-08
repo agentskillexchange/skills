@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3107 published skills** across **17 categories** · 2,591 security reviewed · Updated 2026-10-08 01:27 UTC
+> **3110 published skills** across **17 categories** · 2,591 security reviewed · Updated 2026-10-08 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -531,7 +531,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Zinc Universal Checkout](skills/zinc-universal-checkout/) | Discover, buy, track, and return products across Amazon, Walmart, Target, Best Buy, eBay, and 50+ US retailers via… | Published | — | — |
 
 
-### 📄 Templates & Workflows (262 skills)
+### 📄 Templates & Workflows (263 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -762,6 +762,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Delegate planned agent work with Elves](skills/delegate-planned-agent-work-with-elves/) | Use Elves to hand a bounded development or research plan to a separate Claude Code or Codex worker while preserving… | Security Reviewed | 188 | — |
 | [Maintain OKF Knowledge Bundles with Okf Skills](skills/maintain-okf-knowledge-bundles-with-okf-skills/) | Use Okf Skills to have Claude Code produce, validate, migrate, and visualize Open Knowledge Format bundles with… | Security Reviewed | 185 | — |
 | [Reduce Coding-Agent Output Cost With Honey](skills/reduce-coding-agent-output-cost-with-honey/) | Use Honey to make coding agents emit less code, less prose, and denser agent-to-agent handoffs while preserving… | Security Reviewed | 178 | — |
+| [Install project agent harnesses with rsc-harness](skills/install-project-agent-harnesses-with-rsc-harness/) | Let an agent run rsc-harness onboarding to plan and install project-specific memory, skills, guardrails, hooks, and… | Published | 167 | 2.6k/wk |
 | [Build and refactor Copilot Studio agents as YAML from coding-agent workflows](skills/build-and-refactor-copilot-studio-agents-as-yaml/) | Author, validate, test, and troubleshoot Copilot Studio agents through YAML-driven commands instead of clicking… | Security Reviewed | 166 | — |
 | [Run Suede Creator Skills across Codex and Claude Code workflows](skills/run-suede-creator-skills-across-codex-and-claude-code-workflows/) | Install Suede Creator Skills when an agent needs repeatable Codex, Claude Code, or MCP-backed workflows for… | Security Reviewed | 166 | — |
 | [Convert browser HAR captures into reusable k6 load tests with har-to-k6](skills/convert-browser-har-captures-into-reusable-k6-load-tests-with-har-to-k6/) | Use har-to-k6 when an agent has recorded browser traffic and needs to turn it into a repeatable k6 script instead of… | Security Reviewed | 159 | 13.5k/wk |
@@ -801,7 +802,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown,… | Published | — | — |
 
 
-### 🔒 Security & Verification (253 skills)
+### 🔒 Security & Verification (254 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -841,6 +842,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [age Modern File Encryption Tool](skills/age-modern-file-encryption-tool/) | Encrypt and decrypt files with age (FiloSottile/age), a simple, modern encryption tool with small explicit keys,… | Security Reviewed | 21.8k | — |
 | [SOPS Secret File Encryption and Rotation](skills/sops-secret-file-encryption-rotation/) | SOPS manages encrypted YAML, JSON, ENV, INI, and binary files with KMS, age, and PGP. It is a tight fit for secrets… | Published | 21.5k | — |
 | [SOPS Encrypted Secrets Editor and Manager](skills/sops-encrypted-secrets-editor-manager/) | SOPS (Secrets OPerationS) is an editor of encrypted files that supports YAML, JSON, ENV, INI, and BINARY formats. It… | Published | 21.3k | — |
+| [Reverse-engineer apps and binaries with REA](skills/reverse-engineer-apps-and-binaries-with-rea/) | Connect coding agents to REA's MCP tools so they can inspect apps, binaries, websites, APKs, and runtime behavior… | Security Reviewed | 17.1k | 1.3k/wk |
 | [Sanitize untrusted HTML fragments before rendering previews, comments, or CMS content with DOMPurify](skills/sanitize-untrusted-html-fragments-before-rendering-previews-comments-or-cms-content-dompurify/) | Use DOMPurify when an agent must accept HTML from users, rich text editors, imports, or model output but cannot… | Security Reviewed | 16.9k | 165.2M/wk |
 | [Audit Linux host hardening drift before exposing SSH or rolling to production](skills/audit-linux-host-hardening-drift-before-exposing-ssh-or-rolling-to-production/) | Uses Lynis to run an on-host security audit and turn the findings into a prioritized hardening checklist for an… | Security Reviewed | 15.5k | — |
 | [Security Audit Skill](skills/security-audit-skill/) | Security Audit Skill is built around OWASP security tooling ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 15.2k | — |
@@ -2807,7 +2809,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Verify local web apps with Playwright scripts and managed dev servers](skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | Use Anthropic's webapp-testing skill to spin up one or more local servers, wait for them to become reachable, and… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (113 skills)
+### 🎨 Image & Creative Automation (114 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -2895,6 +2897,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Drive ComfyUI generation workflows through comfyui-mcp](skills/drive-comfyui-generation-workflows-through-comfyui-mcp/) | Use comfyui-mcp to let an MCP-capable agent author, run, debug, and manage ComfyUI image, video, audio, model, and… | Security Reviewed | 386 | 86.4k/wk |
 | [Give text-only agents vision workflows with Agent Vision Toolkit](skills/give-text-only-agents-vision-workflows-with-agent-vision-toolkit/) | Install Agent Vision Toolkit so shell-capable coding agents can inspect screenshots, run OCR, locate UI elements,… | Security Reviewed | 335 | — |
 | [Generate launch-ready web app icons and social assets with Web Asset Generator](skills/generate-launch-ready-web-app-icons-and-social-assets-with-web-asset-generator/) | Ask Claude Code for favicons, app icons, and social preview images, then generate the full asset set and integration… | Security Reviewed | 321 | — |
+| [Create and review pixel art in Aseprite with AI Artist](skills/create-and-review-pixel-art-in-aseprite-with-ai-artist/) | Connect an agent to an open Aseprite window so it can brief, draw, animate, critique, fix, and export pixel art with… | Security Reviewed | 172 | 1.5k/wk |
 | [Generate fast static photo album sites from curated folders with DD Photos](skills/generate-fast-static-photo-album-sites-from-curated-folders-with-dd-photos/) | Turn exported photo folders into a mobile-friendly static album site without standing up a database-backed gallery… | Security Reviewed | 155 | — |
 | [Archive and reorganize local photo libraries with photo-cli](skills/archive-and-reorganize-local-photo-libraries-with-photo-cli/) | Use photo-cli when an agent needs to normalize a local photo archive by reading capture metadata, reverse geocoding… | Security Reviewed | 68 | — |
 | [Auto-crop images around the most important subject before generating thumbnails](skills/auto-crop-images-around-the-most-important-subject-before-generating-thumbnails/) | Use smartcrop when an agent needs to choose a sensible crop automatically instead of center-cropping every image.… | Published | — | 49k/wk |

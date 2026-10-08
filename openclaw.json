@@ -2,8 +2,41 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-10-08",
-  "total": 3107,
+  "total": 3110,
   "skills": [
+    {
+      "slug": "create-and-review-pixel-art-in-aseprite-with-ai-artist",
+      "name": "Create and review pixel art in Aseprite with AI Artist",
+      "title": "Create and review pixel art in Aseprite with AI Artist",
+      "description": "Connect an agent to an open Aseprite window so it can brief, draw, animate, critique, fix, and export pixel art with undoable steps.",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/with-pebbly/aseprite-ai-artist",
+      "github_repo": "with-pebbly/aseprite-ai-artist"
+    },
+    {
+      "slug": "install-project-agent-harnesses-with-rsc-harness",
+      "name": "Install project agent harnesses with rsc-harness",
+      "title": "Install project agent harnesses with rsc-harness",
+      "description": "Let an agent run rsc-harness onboarding to plan and install project-specific memory, skills, guardrails, hooks, and workflow lanes only after human approval.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/ericrisco/rsc-harness",
+      "github_repo": "ericrisco/rsc-harness"
+    },
+    {
+      "slug": "reverse-engineer-apps-and-binaries-with-rea",
+      "name": "Reverse-engineer apps and binaries with REA",
+      "title": "Reverse-engineer apps and binaries with REA",
+      "description": "Connect coding agents to REA's MCP tools so they can inspect apps, binaries, websites, APKs, and runtime behavior with evidence-backed findings.",
+      "category": "Security & Verification",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/morluto/rea",
+      "github_repo": "morluto/rea"
+    },
     {
       "slug": "gate-agent-code-changes-with-openqodex-review",
       "name": "Gate agent code changes with OpenQodex review",

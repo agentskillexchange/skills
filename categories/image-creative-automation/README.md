@@ -122,6 +122,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Drive ComfyUI generation workflows through comfyui-mcp](../../skills/drive-comfyui-generation-workflows-through-comfyui-mcp/) | 386 | 86.4k/wk |
 | [Give text-only agents vision workflows with Agent Vision Toolkit](../../skills/give-text-only-agents-vision-workflows-with-agent-vision-toolkit/) | 335 | — |
 | [Generate launch-ready web app icons and social assets with Web Asset Generator](../../skills/generate-launch-ready-web-app-icons-and-social-assets-with-web-asset-generator/) | 321 | — |
+| [Create and review pixel art in Aseprite with AI Artist](../../skills/create-and-review-pixel-art-in-aseprite-with-ai-artist/) | 172 | 1.5k/wk |
 | [Generate fast static photo album sites from curated folders with DD Photos](../../skills/generate-fast-static-photo-album-sites-from-curated-folders-with-dd-photos/) | 155 | — |
 | [Archive and reorganize local photo libraries with photo-cli](../../skills/archive-and-reorganize-local-photo-libraries-with-photo-cli/) | 68 | — |
 | [Auto-crop images around the most important subject before generating thumbnails](../../skills/auto-crop-images-around-the-most-important-subject-before-generating-thumbnails/) | — | 49k/wk |

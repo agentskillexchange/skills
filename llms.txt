@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-10-08
-# Total: 3107 skills
+# Total: 3110 skills
+
+## Create and review pixel art in Aseprite with AI Artist
+slug: create-and-review-pixel-art-in-aseprite-with-ai-artist
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Connect an agent to an open Aseprite window so it can brief, draw, animate, critique, fix, and export pixel art with undoable steps.
+url: https://agentskillexchange.com/skills/create-and-review-pixel-art-in-aseprite-with-ai-artist/
+
+## Install project agent harnesses with rsc-harness
+slug: install-project-agent-harnesses-with-rsc-harness
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Published
+description: Let an agent run rsc-harness onboarding to plan and install project-specific memory, skills, guardrails, hooks, and workflow lanes only after human approval.
+url: https://agentskillexchange.com/skills/install-project-agent-harnesses-with-rsc-harness/
+
+## Reverse-engineer apps and binaries with REA
+slug: reverse-engineer-apps-and-binaries-with-rea
+category: Security & Verification
+framework: MCP
+verification: Security Reviewed
+description: Connect coding agents to REA's MCP tools so they can inspect apps, binaries, websites, APKs, and runtime behavior with evidence-backed findings.
+url: https://agentskillexchange.com/skills/reverse-engineer-apps-and-binaries-with-rea/
 
 ## Gate agent code changes with OpenQodex review
 slug: gate-agent-code-changes-with-openqodex-review
