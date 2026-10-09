@@ -109,6 +109,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Produce cinematic product videos with Video Shotcraft](../../skills/produce-cinematic-product-videos-with-video-shotcraft/) | 2.1k | — |
 | [Generate consistent hand-drawn image prompts with Hand Drawn Styles](../../skills/generate-consistent-hand-drawn-image-prompts-with-hand-drawn-styles/) | 2k | — |
 | [OpenEXR HDR Compositing Pipeline](../../skills/openexr-hdr-compositing-pipeline/) | 1.8k | — |
+| [Run code-generated short-film workflows with Lemo-Opuscar](../../skills/direct-code-generated-short-films-with-lemo-opuscar-styles/) | 1.5k | — |
 | [Generate Arcads ad creative from Claude Code](../../skills/generate-arcads-ad-creative-from-claude-code/) | 1.5k | — |
 | [Turn novels into AI short-drama production packets with shuohao-skills](../../skills/turn-novels-into-ai-short-drama-production-packets-with-shuohao-skills/) | 1.4k | — |
 | [Revise PDF Slides with Natural-Language Edits](../../skills/revise-pdf-slides-with-natural-language-edits/) | 1.2k | — |

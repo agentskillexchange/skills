@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-10-09
-# Total: 3116 skills
+# Total: 3118 skills
+
+## Run agentic quality engineering checks with Agentic QE
+slug: run-agentic-quality-engineering-checks-with-agentic-qe
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Configure Agentic QE in a repository so a coding agent can generate tests, inspect coverage gaps, investigate flaky behavior, and report reviewable quality evidence.
+url: https://agentskillexchange.com/skills/run-agentic-quality-engineering-checks-with-agentic-qe/
+
+## Run code-generated short-film workflows with Lemo-Opuscar
+slug: direct-code-generated-short-films-with-lemo-opuscar-styles
+category: Image & Creative Automation
+framework: Claude Code
+verification: Security Reviewed
+description: Use a Claude Code plugin to turn a story brief into a short film project built from reusable style prompts, frame-by-frame code rendering, narration,…
+url: https://agentskillexchange.com/skills/direct-code-generated-short-films-with-lemo-opuscar-styles/
 
 ## Run Amazon marketplace research workflows through Sorftime MCP skills
 slug: run-amazon-marketplace-research-workflows-through-sorftime-mcp-skills

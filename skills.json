@@ -1,8 +1,37 @@
 {
   "version": "2.0",
-  "total": 3116,
+  "total": 3118,
   "generated": "2026-10-09",
   "skills": [
+    {
+      "slug": "run-agentic-quality-engineering-checks-with-agentic-qe",
+      "name": "Run agentic quality engineering checks with Agentic QE",
+      "title": "Run agentic quality engineering checks with Agentic QE",
+      "description": "Configure Agentic QE in a repository so a coding agent can generate tests, inspect coverage gaps, investigate flaky behavior, and report reviewable quality evidence.",
+      "category": "Code Quality & Review",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 495,
+        "npm_weekly_downloads": 44764
+      },
+      "source_url": "https://github.com/proffesor-for-testing/agentic-qe",
+      "github_repo": "proffesor-for-testing/agentic-qe"
+    },
+    {
+      "slug": "direct-code-generated-short-films-with-lemo-opuscar-styles",
+      "name": "Run code-generated short-film workflows with Lemo-Opuscar",
+      "title": "Run code-generated short-film workflows with Lemo-Opuscar",
+      "description": "Use a Claude Code plugin to turn a story brief into a short film project built from reusable style prompts, frame-by-frame code rendering, narration,…",
+      "category": "Image & Creative Automation",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1519
+      },
+      "source_url": "https://github.com/lemomo-ai/lemo-opuscar",
+      "github_repo": "lemomo-ai/lemo-opuscar"
+    },
     {
       "slug": "run-amazon-marketplace-research-workflows-through-sorftime-mcp-skills",
       "name": "Run Amazon marketplace research workflows through Sorftime MCP skills",
