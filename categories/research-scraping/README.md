@@ -122,6 +122,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Browsertrix Crawler High-Fidelity Web Archiving and QA Crawler](../../skills/browsertrix-crawler-high-fidelity-web-archiving-qa-crawler/) | 1k | — |
 | [Turn single research papers into Obsidian notes with DeepPaperNote](../../skills/turn-single-research-papers-into-obsidian-notes-with-deeppapernote/) | 1k | — |
 | [Extract schema.org, Open Graph, and JSON-LD metadata from web pages for indexing](../../skills/extract-schema-org-open-graph-and-json-ld-metadata-from-web-pages-for-indexing/) | 961 | — |
+| [Run Amazon marketplace research workflows through Sorftime MCP skills](../../skills/run-amazon-marketplace-research-workflows-through-sorftime-mcp-skills/) | 954 | — |
 | [Brave Search MCP Server for AI Web Search](../../skills/brave-search-mcp-server-ai-web-search/) | 854 | 19.2k/wk |
 | [Browse search and cost-audit local coding-agent histories before resuming or standardizing workflows with agentsview](../../skills/browse-search-and-cost-audit-local-coding-agent-histories-before-resuming-or-standardizing-workflows-with-agentsview/) | 774 | — |
 | [SerpAPI Answer Box Extractor](../../skills/serpapi-answer-box-extractor/) | 734 | — |

@@ -2,8 +2,30 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-10-09",
-  "total": 3114,
+  "total": 3116,
   "skills": [
+    {
+      "slug": "run-amazon-marketplace-research-workflows-through-sorftime-mcp-skills",
+      "name": "Run Amazon marketplace research workflows through Sorftime MCP skills",
+      "title": "Run Amazon marketplace research workflows through Sorftime MCP skills",
+      "description": "Use a set of Amazon marketplace research skills to analyze ASINs, categories, keywords, reviews, listings, traffic, and advertising signals through MCP-backed data services.",
+      "category": "Research & Scraping",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/liangdabiao/amazon-sorftime-research-MCP-skill",
+      "github_repo": "liangdabiao/amazon-sorftime-research-MCP-skill"
+    },
+    {
+      "slug": "run-multi-provider-terminal-coding-sessions-with-snow-cli",
+      "name": "Run multi-provider terminal coding sessions with Snow CLI",
+      "title": "Run multi-provider terminal coding sessions with Snow CLI",
+      "description": "Use Snow CLI as a terminal coding agent that can route repository work through OpenAI, Gemini, Claude, DeepSeek, or compatible providers without switching tools.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/MayDay-wpf/snow-cli",
+      "github_repo": "MayDay-wpf/snow-cli"
+    },
     {
       "slug": "regression-test-coding-agents-and-skills-with-coder-eval",
       "name": "Regression-test coding agents and skills with Coder Eval",

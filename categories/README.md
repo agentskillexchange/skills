@@ -1,10 +1,10 @@
 # Categories
 
-> **3114 skills** across **17 categories**
+> **3116 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
-| 🛠️ | [**Developer Tools**](developer-tools/) | **516** | CLI helpers, dev environment setup, productivity utilities, and devel... |
+| 🛠️ | [**Developer Tools**](developer-tools/) | **517** | CLI helpers, dev environment setup, productivity utilities, and devel... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **264** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 🔒 | [**Security & Verification**](security-verification/) | **254** | Auth setup, vulnerability scanning, compliance checks, and security a... |
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **229** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
@@ -13,7 +13,7 @@
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **179** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **178** | Incident response, troubleshooting guides, system diagnostics, and op... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **162** | Metrics collection, alerting rules, observability setup, and system m... |
-| 🔍 | [**Research & Scraping**](research-scraping/) | **137** | Web research, data collection, content aggregation, and information g... |
+| 🔍 | [**Research & Scraping**](research-scraping/) | **138** | Web research, data collection, content aggregation, and information g... |
 | 📚 | [**Library & API Reference**](library-api-reference/) | **130** | SDK documentation, API guides, framework reference material, and libr... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **128** | Email automation, calendar management, task coordination, and product... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **126** | Web scraping, UI testing, headless browser control, and browser-based... |

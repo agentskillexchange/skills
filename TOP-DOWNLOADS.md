@@ -12,11 +12,11 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 4 | [Supabase MCP Server](skills/supabase-mcp-server/) | 83.5M/wk | supabase | Developer Tools |
 | 5 | [pnpm Fast Disk-Efficient Package Manager](skills/pnpm-fast-disk-efficient-package-manager/) | 66.3M/wk | pnpm | Developer Tools |
 | 6 | [Sharp Image CDN Optimizer](skills/sharp-image-cdn-optimizer/) | 52.5M/wk | sharp | Image & Creative Automation |
-| 7 | [OpenAI Image Gen](skills/openai-image-gen/) | 50.9M/wk | openai | Image & Creative Automation |
-| 8 | [Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/) | 49.9M/wk | claude-code | Templates & Workflows |
-| 9 | [Playwright Accessibility Audit Runner](skills/playwright-accessibility-audit-runner/) | 47.9M/wk | playwright | Browser Automation |
-| 10 | [Jest Unit Test Scaffolder](skills/jest-unit-test-scaffolder/) | 44.8M/wk | jest | Code Quality & Review |
-| 11 | [Webpack Bundle Analyzer Agent](skills/webpack-bundle-analyzer-agent/) | 44.5M/wk | webpack | Developer Tools |
+| 7 | [Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/) | 49.9M/wk | claude-code | Templates & Workflows |
+| 8 | [Playwright Accessibility Audit Runner](skills/playwright-accessibility-audit-runner/) | 47.9M/wk | playwright | Browser Automation |
+| 9 | [Jest Unit Test Scaffolder](skills/jest-unit-test-scaffolder/) | 44.8M/wk | jest | Code Quality & Review |
+| 10 | [Webpack Bundle Analyzer Agent](skills/webpack-bundle-analyzer-agent/) | 44.5M/wk | webpack | Developer Tools |
+| 11 | [OpenAI Image Gen](skills/openai-image-gen/) | 42.6M/wk | openai | Image & Creative Automation |
 | 12 | [Puppeteer Browser Automation Library for Chrome and Firefox](skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | 40.2M/wk | puppeteer | Browser Automation |
 | 13 | [GraphQL Data Federation Agent](skills/graphql-data-federation-agent/) | 34.2M/wk | graphql | Data Extraction & Transformation |
 | 14 | [SVGO SVG Optimization Tool](skills/svgo-svg-optimization-tool/) | 28.7M/wk | svgo | Image & Creative Automation |
@@ -30,19 +30,19 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 22 | [MySQL Query Agent](skills/mysql-query-agent/) | 8.9M/wk | mysql | Developer Tools |
 | 23 | [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](skills/pixelmatch-image-comparison-library/) | 8.7M/wk | pixelmatch | Image & Creative Automation |
 | 24 | [Convert HTML emails and web fragments into clean plain text for downstream agents](skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/) | 8.2M/wk | html-to-text | Data Extraction & Transformation |
-| 25 | [Twilio MCP Server](skills/twilio-mcp-server/) | 7.9M/wk | twilio | Integrations & Connectors |
-| 26 | [Cypress Component Test Generator](skills/cypress-component-test-generator/) | 7.3M/wk | cypress | Browser Automation |
-| 27 | [Cloudflare Workers Deployer](skills/cloudflare-workers-deployer/) | 7.1M/wk | cloudflare | Templates & Workflows |
-| 28 | [Drizzle ORM TypeScript SQL Database Toolkit](skills/drizzle-orm-typescript-sql-database-toolkit/) | 7M/wk | drizzle-orm | Developer Tools |
-| 29 | [Octokit JavaScript GitHub SDK for REST GraphQL and App Automation](skills/octokit-javascript-github-sdk-rest-graphql-app-automation/) | 7M/wk | octokit | Library & API Reference |
-| 30 | [Datadog APM Anomaly Detector](skills/datadog-apm-anomaly-detector/) | 6.6M/wk | datadog | Monitoring & Alerts |
+| 25 | [Cypress Component Test Generator](skills/cypress-component-test-generator/) | 7.3M/wk | cypress | Browser Automation |
+| 26 | [Cloudflare Workers Deployer](skills/cloudflare-workers-deployer/) | 7.1M/wk | cloudflare | Templates & Workflows |
+| 27 | [Drizzle ORM TypeScript SQL Database Toolkit](skills/drizzle-orm-typescript-sql-database-toolkit/) | 7M/wk | drizzle-orm | Developer Tools |
+| 28 | [Octokit JavaScript GitHub SDK for REST GraphQL and App Automation](skills/octokit-javascript-github-sdk-rest-graphql-app-automation/) | 7M/wk | octokit | Library & API Reference |
+| 29 | [Datadog APM Anomaly Detector](skills/datadog-apm-anomaly-detector/) | 6.6M/wk | datadog | Monitoring & Alerts |
+| 30 | [Twilio MCP Server](skills/twilio-mcp-server/) | 6.4M/wk | twilio | Integrations & Connectors |
 | 31 | [API Client Generator Skill](skills/api-client-generator-skill/) | 5.7M/wk | openapi-generator | Developer Tools |
 | 32 | [SQLite Analyst](skills/sqlite-analyst/) | 5.5M/wk | sqlite | Developer Tools |
 | 33 | [PostHog Product Analytics and Feature Flags SDK](skills/posthog-product-analytics-and-feature-flags-sdk/) | 4.8M/wk | posthog-js | Monitoring & Alerts |
-| 34 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 3.9M/wk | datadog-api-client-typescript | Monitoring & Alerts |
-| 35 | [TypeDoc TypeScript API Documentation Generator](skills/typedoc-typescript-api-documentation-generator/) | 3.7M/wk | typedoc | Library & API Reference |
-| 36 | [Stagehand AI Browser Automation Framework](skills/stagehand-ai-browser-automation-framework-2/) | 3.4M/wk | stagehand | Browser Automation |
-| 37 | [AWS CDK Scaffolder](skills/aws-cdk-scaffolder/) | 3.3M/wk | aws | Templates & Workflows |
+| 34 | [TypeDoc TypeScript API Documentation Generator](skills/typedoc-typescript-api-documentation-generator/) | 3.7M/wk | typedoc | Library & API Reference |
+| 35 | [Stagehand AI Browser Automation Framework](skills/stagehand-ai-browser-automation-framework-2/) | 3.4M/wk | stagehand | Browser Automation |
+| 36 | [AWS CDK Scaffolder](skills/aws-cdk-scaffolder/) | 3.3M/wk | aws | Templates & Workflows |
+| 37 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 3.1M/wk | datadog-api-client-typescript | Monitoring & Alerts |
 | 38 | [Clerk JavaScript Backend SDK for Server-Side Auth Workflows](skills/clerk-javascript-backend-sdk-server-side-auth-workflows/) | 2.8M/wk | javascript | Security & Verification |
 | 39 | [Microsoft Playwright MCP](skills/microsoft-playwright-mcp/) | 2.8M/wk | playwright-mcp | Browser Automation |
 | 40 | [WebdriverIO Next-Gen Browser and Mobile Automation Framework](skills/webdriverio-browser-mobile-automation-framework/) | 2.7M/wk | webdriverio | Browser Automation |

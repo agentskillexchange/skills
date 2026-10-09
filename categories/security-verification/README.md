@@ -246,7 +246,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Gate agent code changes with OpenQodex review](../../skills/gate-agent-code-changes-with-openqodex-review/) | 247 | 1.3k/wk |
 | [Put approval gates and audit-ready policy checks between agents and external actions with DashClaw](../../skills/put-approval-gates-and-audit-ready-policy-checks-between-agents-and-external-actions-with-dashclaw/) | 241 | 1.6k/wk |
 | [Enforce policy-gated and auditable agent execution with LACP](../../skills/enforce-policy-gated-and-auditable-agent-execution-with-lacp/) | 211 | — |
-| [Sentry for AI](../../skills/sentry-for-ai/) | 190 | 116/wk |
+| [Sentry for AI](../../skills/sentry-for-ai/) | 190 | 113/wk |
 | [Lint and autofix agent config files before broken prompts, hooks, or MCP settings derail runs with agnix](../../skills/lint-and-autofix-agent-config-files-before-broken-prompts-hooks-or-mcp-settings-derail-runs-with-agnix/) | 179 | 6k/wk |
 | [A/B test agent skills and MCP changes with Caliper](../../skills/ab-test-agent-skills-mcp-changes-with-caliper/) | 175 | — |
 | [Gitxray GitHub Repository Security X-Ray](../../skills/gitxray-github-repository-security-xray/) | 174 | — |
