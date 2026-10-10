@@ -219,6 +219,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Fresh Next-Generation Web Framework for Deno](../../skills/fresh-deno-web-framework/) | 13.7k | — |
 | [quicktype JSON Schema to Typed Code Generator](../../skills/quicktype-json-schema-code-generator/) | 13.7k | — |
 | [Litestream SQLite Streaming Replication](../../skills/litestream-sqlite-streaming-replication/) | 13.4k | — |
+| [Monitor Claude Code sessions with ccstatusline](../../skills/monitor-claude-code-sessions-with-ccstatusline/) | 13.2k | 150.4k/wk |
 | [PostgreSQL Query Optimizer Agent](../../skills/postgresql-query-optimizer-explain-api/) | 13.1k | 23.2M/wk |
 | [PostgreSQL Query Plan Analyzer](../../skills/postgresql-query-plan-analyzer-2/) | 13.1k | 23.2M/wk |
 | [Snapshot and restore encrypted file trees with Kopia](../../skills/snapshot-and-restore-encrypted-file-trees-with-kopia/) | 13.1k | — |
@@ -514,6 +515,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Coordinate project-scoped CLI agent sessions with Termio](../../skills/coordinate-project-scoped-cli-agent-sessions-with-termio/) | 180 | — |
 | [Compress repeated agent context and command output before it reaches coding agents with sqz](../../skills/compress-repeated-agent-context-and-command-output-before-it-reaches-coding-agents-with-sqz/) | 165 | — |
 | [Plan and verify parallel coding-agent tasks with Ordewell](../../skills/plan-and-verify-parallel-coding-agent-tasks-with-ordewell/) | 162 | 710/wk |
+| [Control coding-agent terminals remotely with 9Remote](../../skills/control-coding-agent-terminals-remotely-with-9remote/) | 161 | 12.6k/wk |
 | [Coordinate multi-model coding squads with Vibe Squad](../../skills/coordinate-multi-model-coding-squads-with-vibe-squad/) | 161 | — |
 | [Move agent chat histories into DeepSeek Harness with DSH Chat Import](../../skills/move-agent-chat-histories-into-deepseek-harness-with-dsh-chat-import/) | 155 | 18.7k/wk |
 | [Coordinate parallel coding-agent worktrees and terminals with Ouijit](../../skills/coordinate-parallel-coding-agent-worktrees-and-terminals-with-ouijit/) | 154 | — |

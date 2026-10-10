@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-10-09
-# Total: 3118 skills
+# Generated: 2026-10-10
+# Total: 3120 skills
+
+## Control coding-agent terminals remotely with 9Remote
+slug: control-coding-agent-terminals-remotely-with-9remote
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run and supervise Claude Code, Codex, Gemini CLI, and other terminal agents from a browser, desktop app, tablet, or phone with paired remote terminal,…
+url: https://agentskillexchange.com/skills/control-coding-agent-terminals-remotely-with-9remote/
+
+## Monitor Claude Code sessions with ccstatusline
+slug: monitor-claude-code-sessions-with-ccstatusline
+category: Developer Tools
+framework: Claude Code
+verification: Security Reviewed
+description: Configure Claude Code's status line with live model, token, cost, git, sandbox, cache, CI, and session health signals so operators can supervise coding-agent work…
+url: https://agentskillexchange.com/skills/monitor-claude-code-sessions-with-ccstatusline/
 
 ## Run agentic quality engineering checks with Agentic QE
 slug: run-agentic-quality-engineering-checks-with-agentic-qe

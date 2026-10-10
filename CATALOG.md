@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3118 published skills** across **17 categories** · 2,601 security reviewed · Updated 2026-10-09 19:27 UTC
+> **3120 published skills** across **17 categories** · 2,601 security reviewed · Updated 2026-10-10 01:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (517 skills)
+### 🛠️ Developer Tools (519 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -193,6 +193,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Fresh Next-Generation Web Framework for Deno](skills/fresh-deno-web-framework/) | Fresh is a next-generation web framework built for Deno that uses island-based client hydration, ships zero… | Security Reviewed | 13.7k | — |
 | [quicktype JSON Schema to Typed Code Generator](skills/quicktype-json-schema-code-generator/) | Generate strongly-typed models and serializers from JSON, JSON Schema, TypeScript, and GraphQL queries in 20+… | Security Reviewed | 13.7k | — |
 | [Litestream SQLite Streaming Replication](skills/litestream-sqlite-streaming-replication/) | Litestream is a streaming replication tool for SQLite databases that continuously replicates changes to S3, Azure,… | Security Reviewed | 13.4k | — |
+| [Monitor Claude Code sessions with ccstatusline](skills/monitor-claude-code-sessions-with-ccstatusline/) | Configure Claude Code's status line with live model, token, cost, git, sandbox, cache, CI, and session health… | Security Reviewed | 13.2k | 150.4k/wk |
 | [PostgreSQL Query Optimizer Agent](skills/postgresql-query-optimizer-explain-api/) | Optimizes PostgreSQL queries using EXPLAIN ANALYZE output parsing with pg_stat_statements extension data. Suggests… | Security Reviewed | 13.1k | 23.2M/wk |
 | [PostgreSQL Query Plan Analyzer](skills/postgresql-query-plan-analyzer-2/) | Executes EXPLAIN ANALYZE BUFFERS on slow PostgreSQL queries and parses the plan tree for sequential scans, nested… | Security Reviewed | 13.1k | 23.2M/wk |
 | [Snapshot and restore encrypted file trees with Kopia](skills/snapshot-and-restore-encrypted-file-trees-with-kopia/) | Use Kopia when an agent needs to create, verify, or restore encrypted incremental snapshots across local, NAS, SFTP,… | Security Reviewed | 13.1k | — |
@@ -488,6 +489,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Coordinate project-scoped CLI agent sessions with Termio](skills/coordinate-project-scoped-cli-agent-sessions-with-termio/) | Use Termio's `termio sessions` CLI to list, watch, spawn, send to, read, and close sibling coding-agent sessions in… | Security Reviewed | 180 | — |
 | [Compress repeated agent context and command output before it reaches coding agents with sqz](skills/compress-repeated-agent-context-and-command-output-before-it-reaches-coding-agents-with-sqz/) | Reduces token burn by compressing command output and deduplicating repeated file reads before they are sent to… | Published | 165 | — |
 | [Plan and verify parallel coding-agent tasks with Ordewell](skills/plan-and-verify-parallel-coding-agent-tasks-with-ordewell/) | Use Ordewell when an operator wants one goal turned into an editable dependency graph of coding-agent tasks, each… | Security Reviewed | 162 | 710/wk |
+| [Control coding-agent terminals remotely with 9Remote](skills/control-coding-agent-terminals-remotely-with-9remote/) | Run and supervise Claude Code, Codex, Gemini CLI, and other terminal agents from a browser, desktop app, tablet, or… | Security Reviewed | 161 | 12.6k/wk |
 | [Coordinate multi-model coding squads with Vibe Squad](skills/coordinate-multi-model-coding-squads-with-vibe-squad/) | Use Vibe Squad to route a scoped development goal through a Markdown-defined coordinator, specialist roles, isolated… | Security Reviewed | 161 | — |
 | [Move agent chat histories into DeepSeek Harness with DSH Chat Import](skills/move-agent-chat-histories-into-deepseek-harness-with-dsh-chat-import/) | Preview, import, resume, export, and sync coding-agent conversations across Claude Code, Codex, ChatGPT, Cursor,… | Security Reviewed | 155 | 18.7k/wk |
 | [Coordinate parallel coding-agent worktrees and terminals with Ouijit](skills/coordinate-parallel-coding-agent-worktrees-and-terminals-with-ouijit/) | Use Ouijit to manage parallel CLI coding-agent tasks with per-task git worktrees, integrated terminals, lifecycle… | Security Reviewed | 154 | — |
