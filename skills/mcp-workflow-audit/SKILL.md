@@ -2,12 +2,15 @@
 name: "MCP Workflow Audit"
 slug: "mcp-workflow-audit"
 description: "Audit Claude Code, MCP, and AI-agent workflows for permissions, consequential actions, idempotency, failure recovery, verification, and operator handoff."
+github_stars: 0
 verification: "listed"
 source: "https://github.com/OssaBellator/claude-mcp-workflow-audit"
+author: "OssaBellator"
 category: "Developer Tools"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "ossabellator/claude-mcp-workflow-audit"
+  github_stars: 0
 ---
 
 # MCP Workflow Audit
@@ -16,7 +19,9 @@ MCP Workflow Audit is a read-first operational audit workflow for Claude Code, M
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Install or set up from the source-backed instructions:
+
+git clone https://github.com/OssaBellator/claude-mcp-workflow-audit.git; run node audit.mjs /path/to/workspace or node report.mjs /path/to/workspace > audit-report.md
 
 - Source: https://github.com/OssaBellator/claude-mcp-workflow-audit
 

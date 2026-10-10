@@ -5,6 +5,7 @@ description: "Uses the Proofed CLI and current-subject completion receipts to re
 github_stars: 0
 verification: "listed"
 source: "https://github.com/liangfeng-hu/proofed"
+author: "liangfeng-hu"
 category: "Security & Verification"
 framework: "Multi-Framework"
 tool_ecosystem:
@@ -109,7 +110,9 @@ Python and JavaScript verifiers at https://github.com/liangfeng-hu/proofed.
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Install or set up from the source-backed instructions:
+
+npx skills add liangfeng-hu/proofed --skill proofed-verify; python -m pip install proofed-agent
 
 - Source: https://github.com/liangfeng-hu/proofed
 
