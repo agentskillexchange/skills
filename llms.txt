@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-10-10
-# Total: 3120 skills
+# Total: 3121 skills
+
+## Deploy a private local agent stack with Self-Hosted AI Stack
+slug: deploy-private-local-agent-stack-with-self-hosted-ai-stack
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Stand up a local-first Docker Compose backend for agent work: LLM routing, chat, document parsing, embeddings, speech, and MCP tools.
+url: https://agentskillexchange.com/skills/deploy-private-local-agent-stack-with-self-hosted-ai-stack/
 
 ## Control coding-agent terminals remotely with 9Remote
 slug: control-coding-agent-terminals-remotely-with-9remote

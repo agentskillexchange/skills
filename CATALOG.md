@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3120 published skills** across **17 categories** · 2,602 security reviewed · Updated 2026-10-10 01:27 UTC
+> **3121 published skills** across **17 categories** · 2,602 security reviewed · Updated 2026-10-10 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (519 skills)
+### 🛠️ Developer Tools (520 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -488,6 +488,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Meilisearch MCP Server for AI-Powered Search Integration](skills/meilisearch-mcp-server-ai-search/) | Official Model Context Protocol server that connects LLMs to Meilisearch for lightning-fast search, index… | Security Reviewed | 181 | — |
 | [Coordinate project-scoped CLI agent sessions with Termio](skills/coordinate-project-scoped-cli-agent-sessions-with-termio/) | Use Termio's `termio sessions` CLI to list, watch, spawn, send to, read, and close sibling coding-agent sessions in… | Security Reviewed | 180 | — |
 | [Compress repeated agent context and command output before it reaches coding agents with sqz](skills/compress-repeated-agent-context-and-command-output-before-it-reaches-coding-agents-with-sqz/) | Reduces token burn by compressing command output and deduplicating repeated file reads before they are sent to… | Published | 165 | — |
+| [Deploy a private local agent stack with Self-Hosted AI Stack](skills/deploy-private-local-agent-stack-with-self-hosted-ai-stack/) | Stand up a local-first Docker Compose backend for agent work: LLM routing, chat, document parsing, embeddings,… | Security Reviewed | 163 | — |
 | [Plan and verify parallel coding-agent tasks with Ordewell](skills/plan-and-verify-parallel-coding-agent-tasks-with-ordewell/) | Use Ordewell when an operator wants one goal turned into an editable dependency graph of coding-agent tasks, each… | Security Reviewed | 162 | 710/wk |
 | [Control coding-agent terminals remotely with 9Remote](skills/control-coding-agent-terminals-remotely-with-9remote/) | Run and supervise Claude Code, Codex, Gemini CLI, and other terminal agents from a browser, desktop app, tablet, or… | Security Reviewed | 161 | 12.6k/wk |
 | [Coordinate multi-model coding squads with Vibe Squad](skills/coordinate-multi-model-coding-squads-with-vibe-squad/) | Use Vibe Squad to route a scoped development goal through a Markdown-defined coordinator, specialist roles, isolated… | Security Reviewed | 161 | — |

@@ -514,6 +514,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Meilisearch MCP Server for AI-Powered Search Integration](../../skills/meilisearch-mcp-server-ai-search/) | 181 | — |
 | [Coordinate project-scoped CLI agent sessions with Termio](../../skills/coordinate-project-scoped-cli-agent-sessions-with-termio/) | 180 | — |
 | [Compress repeated agent context and command output before it reaches coding agents with sqz](../../skills/compress-repeated-agent-context-and-command-output-before-it-reaches-coding-agents-with-sqz/) | 165 | — |
+| [Deploy a private local agent stack with Self-Hosted AI Stack](../../skills/deploy-private-local-agent-stack-with-self-hosted-ai-stack/) | 163 | — |
 | [Plan and verify parallel coding-agent tasks with Ordewell](../../skills/plan-and-verify-parallel-coding-agent-tasks-with-ordewell/) | 162 | 710/wk |
 | [Control coding-agent terminals remotely with 9Remote](../../skills/control-coding-agent-terminals-remotely-with-9remote/) | 161 | 12.6k/wk |
 | [Coordinate multi-model coding squads with Vibe Squad](../../skills/coordinate-multi-model-coding-squads-with-vibe-squad/) | 161 | — |
