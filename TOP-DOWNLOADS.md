@@ -16,7 +16,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 8 | [Playwright Accessibility Audit Runner](skills/playwright-accessibility-audit-runner/) | 47.9M/wk | playwright | Browser Automation |
 | 9 | [Jest Unit Test Scaffolder](skills/jest-unit-test-scaffolder/) | 44.8M/wk | jest | Code Quality & Review |
 | 10 | [Webpack Bundle Analyzer Agent](skills/webpack-bundle-analyzer-agent/) | 44.5M/wk | webpack | Developer Tools |
-| 11 | [OpenAI Image Gen](skills/openai-image-gen/) | 42.6M/wk | openai | Image & Creative Automation |
+| 11 | [OpenAI Image Gen](skills/openai-image-gen/) | 43.2M/wk | openai | Image & Creative Automation |
 | 12 | [Puppeteer Browser Automation Library for Chrome and Firefox](skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | 40.2M/wk | puppeteer | Browser Automation |
 | 13 | [GraphQL Data Federation Agent](skills/graphql-data-federation-agent/) | 34.2M/wk | graphql | Data Extraction & Transformation |
 | 14 | [SVGO SVG Optimization Tool](skills/svgo-svg-optimization-tool/) | 28.7M/wk | svgo | Image & Creative Automation |
