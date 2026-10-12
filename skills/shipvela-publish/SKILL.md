@@ -6,6 +6,9 @@ category: CI/CD Integrations
 framework: Codex
 verification: listed
 source: https://github.com/stefanautomateed/shipvela-codex/tree/main/skills/shipvela-publish
+publisher_type: vendor
+tool_ecosystem:
+  github_repo: stefanautomateed/shipvela-codex
 ---
 # Publish with Shipvela
 
