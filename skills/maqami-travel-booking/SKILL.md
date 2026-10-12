@@ -8,6 +8,9 @@ author: "negm17111995"
 publisher_type: "vendor"
 category: "Integrations & Connectors"
 framework: "MCP"
+tool_ecosystem:
+  github_repo: "negm17111995/mcp-server"
+  npm_package: "maqami-travel"
 ---
 
 # Search and Book Hotels and Flights with MAQAMI Travel
