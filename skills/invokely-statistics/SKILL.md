@@ -16,7 +16,7 @@ Use this skill when a user needs an official statistical figure, time series, co
 
 1. If the requested measure is unclear or the user describes it in ordinary language, call `search_indicators`. Choose the indicator whose definition and unit match the question, then use its exact ID in later calls.
 2. Call `resolve_place` when a place name could refer to more than one entity or geographic level. Prefer the returned normalized place and official code. Ask a short clarification when multiple results remain plausible.
-3. Use `get_value` for one figure and `get_series` for a trend. Omitted periods request the latest available figure. If the user specifies a period or frequency, pass it explicitly using the format accepted by the tool, such as `2024`, `2024-Q3`, `2024-S1`, or `2024-09`.
+3. Use `get_value` for one figure; an omitted `period` requests the latest available figure. Use `get_series` for a trend; its `from`, `to`, and optional `frequency` arguments select a range, while an unbounded request returns the latest available points up to the tool's limit. If the user specifies a period or frequency, pass it explicitly using the format accepted by the tool, such as `2024`, `2024-Q3`, `2024-S1`, or `2024-09`.
 4. Use `compare` for one indicator across places and `rank_places` for a ranking. Keep the tool's period, source, ordering, and notes with the result. For rates across small municipalities, consider `min_population` so a small denominator does not dominate the ranking.
 
 For unemployment within Spanish municipalities, use `registered_unemployment_rate`. The survey-based `unemployment_rate` is available only down to province level.
