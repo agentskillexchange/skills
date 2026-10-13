@@ -6,6 +6,7 @@ category: "Content Writing & SEO"
 framework: "MCP"
 verification: listed
 source: "https://github.com/LocusIntelligence-DauAgency/reach-skills"
+license: MIT
 ---
 
 # Reach Google Business Profile Optimization
