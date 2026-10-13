@@ -6,6 +6,9 @@ category: "Research & Scraping"
 framework: "Multi-Framework"
 verification: listed
 source: "https://github.com/KKKKhazix/khazix-skills/tree/main/aihot"
+license: MIT
+tool_ecosystem:
+  github_repo: "KKKKhazix/khazix-skills"
 ---
 
 # AIHOT News
