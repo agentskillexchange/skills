@@ -4,6 +4,7 @@ slug: "agent-media-ugc-video"
 description: "Use Agent Media when an agent needs to create captioned vertical UGC videos, narrated b-roll overlays, reusable characters, images, and voice through a hosted MCP server and companion skills."
 verification: "listed"
 source: "https://github.com/agent-media-ai/agent-media"
+license: "Apache-2.0"
 category: "Image & Creative Automation"
 framework: "MCP"
 ---
