@@ -6,6 +6,8 @@ category: "Integrations & Connectors"
 framework: "Custom Agents"
 verification: listed
 source: "https://hourglyph-daily.clockhill.workers.dev/skill.md"
+tool_ecosystem:
+  github_repo: "clockhillgames/hourglyph-daily-skill"
 ---
 
 # Hourglyph Daily Puzzle
