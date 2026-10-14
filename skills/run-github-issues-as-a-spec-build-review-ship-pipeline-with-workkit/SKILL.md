@@ -6,6 +6,7 @@ category: "Templates & Workflows"
 framework: "Claude Code"
 verification: listed
 source: "https://github.com/ITW-Creative-Works/workkit"
+license: "FSL-1.1-MIT"
 ---
 
 # Run GitHub Issues as a Spec, Build, Review and Ship Pipeline with workkit
