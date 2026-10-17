@@ -1,0 +1,256 @@
+---
+name: "Goal Instruction Writer"
+slug: "goal-instruction-writer"
+description: "Preview, draft, refine, and audit durable Goal instructions in Codex. Define observable acceptance evidence, bounded execution loops, checkpoints, drift controls, proportional verification, and explicit stop conditions for multi-stage coding and delivery work."
+category: "Templates & Workflows"
+framework: "Codex"
+verification: "listed"
+source: "https://github.com/wu736139669/goal-instruction-writer"
+---
+
+# Goal Instruction Writer
+
+Turn a vague request into a ready-to-run Goal instruction that an agent can
+execute without guessing what success, progress, or stopping means. Preserve
+the user's intent, language, authority boundaries, and requested scope.
+This skill designs and audits the instruction contract; runtime access,
+permissions, and external approvals still come from the host agent and user.
+Describe the checks while writing a Goal; execute the underlying task only
+when the user has also requested execution.
+
+Read [references/goal-contract.md](references/goal-contract.md) when drafting
+or auditing a Goal. Read [references/examples.md](references/examples.md) only
+when a worked example would clarify the requested task. For work that spans
+multiple phases, artifacts, or more than a few iterations, also read
+[references/drift-control.md](references/drift-control.md). For preview-first
+workflows, read [references/loop-preview.md](references/loop-preview.md).
+
+## Choose the mode
+
+- **Draft:** build a Goal from a rough request.
+- **Refine:** preserve an existing Goal while closing missing objective,
+  evidence, loop, or termination fields.
+- **Audit:** identify ambiguity, unbounded repetition, unverifiable criteria,
+  and unsafe or unauthorized transitions; propose the smallest fixes.
+- **Convert:** turn a checklist, ticket, or project brief into a Goal without
+  expanding its scope.
+- **Preview:** show the concrete loop, branches, drift gates, and stop
+  conditions before writing the final Goal. Do not emit an executable Goal or
+  perform external work in this mode.
+
+If the mode is not stated, infer it from the input. Ask only questions whose
+answers would change the objective, authority, acceptance evidence, or legal
+terminal state. Otherwise state assumptions and continue.
+
+## Preview before drafting
+
+Use preview-first when the user asks to “先看循环”, “preview”, “先设计流程”,
+or similar. Also prefer it for multi-stage, costly, irreversible, or materially
+uncertain work. For a short, reversible task, a direct draft is enough.
+
+The preview is a design checkpoint, not an approval to execute:
+
+1. State the provisional outcome, baseline, and assumptions.
+2. Show the loop as concrete state transitions, including the first work unit,
+   success and failure branches, progress evidence, drift checks, phase gates,
+   and legal stop states. Distinguish iteration checks from broader phase or
+   delivery checks, including evidence reuse and bounds for expensive checks.
+3. List the decisions that could change the loop or its scope. For feedback,
+   adoption, pilot, launch, or validation work, include the evidence threshold,
+   what counts, and the feedback window.
+4. End with a clear handoff: wait for the user to confirm or revise the loop
+   before generating the final Goal.
+
+When the user confirms, carry the accepted preview into the final Goal without
+quietly changing its loop, scope, or terminal rules. If the user revises it,
+regenerate the preview or record the changed decision first. A preview response
+must not claim that the Goal is complete and must not perform external side
+effects merely because a loop was described.
+
+## Build the three-layer contract
+
+### 1. Goal: define the outcome
+
+Write one sentence with an observable end state. It should say what artifact,
+behavior, decision, or verified change will exist when the work is complete.
+Then make the contract concrete:
+
+- **Baseline:** what exists now and which revision, source, or facts are
+  authoritative.
+- **Scope:** what may change and what is frozen.
+- **Acceptance criteria:** observable checks tied to evidence, not activities
+  such as “keep working” or “try harder.”
+- **Dependencies and authority:** tools, access, owner decisions, and external
+  gates the agent may or may not cross.
+- **Deliverable:** the files, decision, report, or message that will be handed
+  back.
+
+For Goals about feedback, adoption, pilots, launches, or validation, define a
+**feedback evidence threshold** before drafting: what counts as feedback,
+whether an entry point is enough or at least `N` non-author responses are
+required, and the timebox or attempt window. Do not count author-only activity
+unless the user explicitly chooses that threshold.
+
+Prefer one load-bearing outcome per Goal. Split unrelated outcomes into
+separate Goals. Replace vague verbs such as “improve,” “handle,” or “finish”
+with a measurable result.
+
+## Prevent drift in long-running work
+
+For a long or multi-stage Goal, freeze a compact **Goal Anchor** before the
+first iteration: the one-sentence outcome, criterion IDs, frozen scope, and
+current phase. Treat it as an invariant. A new discovery may change the plan,
+but it must not silently change the outcome, acceptance criteria, or authority.
+An explicit owner decision creates a new Goal version or scope-change record.
+
+At every iteration, record three links before acting:
+
+1. **Target criterion:** which acceptance criterion this work advances.
+2. **Expected delta:** what observable evidence should change if it works.
+3. **Scope reason:** why this action is inside the frozen boundary now.
+
+After verification, classify the result as:
+
+- `ON_TARGET`: the named criterion moved and evidence supports the next step.
+- `SIDE_QUEST`: useful but not required for this Goal; park it in a deferred
+  list instead of expanding the loop.
+- `DRIFTED`: no criterion moved, the action changed the goal or scope, or the
+  next step cannot be justified from the Anchor; stop and realign.
+
+Run a phase gate every 3–5 iterations by default, at each milestone, and before
+an irreversible or high-cost action. Re-read the Anchor, compare the current
+state with the baseline, mark criteria open or verified, review deferred side
+quests, and choose one justified next action. Never rewrite criteria to make
+completed work appear on target.
+
+### 2. Loop: define how progress is made
+
+Use a bounded iteration with a visible progress signal:
+
+1. **Inspect** the current state and the last durable cursor.
+2. **Select** the smallest next work unit, name its target criterion, expected
+   delta, and scope reason.
+3. **Act** within the allowed scope and authority.
+4. **Verify** the result against the relevant criterion using the verification
+   strategy below; capture the evidence.
+5. **Classify** the result as `ON_TARGET`, `SIDE_QUEST`, or `DRIFTED` and apply
+   the corresponding drift rule.
+6. **Record** the delta, remaining gap, decision, and next cursor before
+   another iteration.
+
+State the iteration limit that fits the task: a timebox, tool or token budget,
+maximum attempts, or a finite work-unit list. Add a no-op rule: do not repeat
+the same action without new information; after a repeated failure, change the
+hypothesis or stop with the blocker. The loop must be able to explain why the
+next iteration is different from the previous one.
+
+#### Verification strategy
+
+Include a short verification strategy in the Goal. Preserve explicit user and
+repository acceptance requirements while controlling when checks run:
+
+- **Iteration checks:** choose the smallest checks sufficient for the affected
+  behavior. Broaden for change impact, new failures, unresolved uncertainty,
+  or a required gate.
+- **Phase and delivery checks:** once the relevant implementation is stable,
+  complete the remaining required regression, build, integration, and artifact
+  checks. A phase gate reviews current evidence; it does not automatically
+  repeat the entire validation and delivery pipeline.
+- **Evidence reuse:** tie results to the checked source or artifact, relevant
+  inputs, dependencies, and environment. Carry forward results while those
+  conditions remain valid. Documentation or receipt changes do not invalidate
+  unrelated runtime checks. Distinguish reused evidence from newly run checks.
+- **Rerun reason:** before repeating a check, name the change or new evidence
+  that invalidates its result and select the affected checks. A source or
+  artifact change invalidates dependent evidence, including consumer checks
+  when the consumed artifact changes.
+- **Cost and completion:** give expensive checks suitable command timeouts or
+  attempt bounds. A timeout leaves its criterion unverified; report the gap.
+  Finish when all criteria have valid evidence and delivery is complete;
+  further checking needs a concrete unresolved concern or invalidated result.
+
+### 3. Termination: define legal endings
+
+Make the terminal states explicit and mutually understandable:
+
+- **Complete:** every acceptance criterion is verified and the deliverable is
+  available.
+- **Blocked:** a named dependency, missing authority, or unresolved failure
+  prevents the next meaningful action; report the exact unblock needed.
+- **Paused:** the owner explicitly asks to pause; preserve the cursor and do
+  not resume without authorization.
+- **Timeboxed/Budgeted:** the limit is reached before completion; report the
+  verified progress, remaining gap, and the safest next action.
+- **Stopped:** the owner cancels the work or an action would exceed the granted
+  authority; do not silently continue.
+- **Realignment required:** a drift check fails; stop the current loop, preserve
+  the checkpoint, and resume only after the next action is re-anchored. Use
+  `GOAL PAUSED: realignment required` when a local terminal label is needed.
+
+Do not use “continue until satisfied,” “try indefinitely,” or a success claim
+based only on effort. If the task has a local convention for terminal strings,
+preserve it; otherwise give each state a short, exact label and require the
+final response to include it. A goal or acceptance criterion cannot be changed
+just because the current work became difficult or interesting.
+
+## Produce the answer
+
+Return the result in the user's language. Unless they request another format,
+use this order:
+
+1. **Design notes:** one short paragraph explaining the objective, loop, and
+   termination and drift-control choices; list assumptions or high-value open
+   questions.
+2. **Loop preview:** in Preview mode, show the state transitions, branches,
+   evidence, drift gates, terminal states, and unresolved decisions; stop there
+   and wait for confirmation.
+3. **Ready-to-paste Goal:** in Draft, Refine, or Convert mode, include the full
+   instruction in a fenced block with `Objective`, `Goal anchor`, `Baseline and
+   scope`, `Acceptance criteria`, `Feedback evidence` when applicable,
+   `Verification strategy`, `Execution loop`, `Drift control`, `Limits and no-op
+   rule`, `Termination`, and `Reporting` sections.
+4. **Audit notes:** if refining or auditing, name each remaining ambiguity and
+   the smallest change that resolves it.
+
+The ready-to-paste block must be executable as an instruction, not a discussion
+of how one might write an instruction. Keep acceptance checks and terminal
+states concrete enough that a later reviewer can decide them from evidence.
+
+## Installation
+
+### Codex: canonical upstream package
+
+Install the upstream package so Codex receives the canonical
+`goal-instruction-writer` skill name and its supporting files:
+
+```bash
+mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
+git clone https://github.com/wu736139669/goal-instruction-writer.git "${CODEX_HOME:-$HOME/.codex}/skills/goal-instruction-writer"
+```
+
+Invoke `$goal-instruction-writer` in Codex after installation. For example:
+
+```text
+Use $goal-instruction-writer in Draft mode to define a Goal for this migration.
+Preserve the requested scope, define observable acceptance evidence, and
+separate focused iteration checks from required delivery checks.
+```
+
+## Upstream and usage evidence
+
+This entry carries the instruction body and supporting files from upstream
+[v0.2.2](https://github.com/wu736139669/goal-instruction-writer/releases/tag/v0.2.2),
+with Agent Skill Exchange catalog metadata and this installation appendix.
+The MIT license is included in `LICENSE`.
+
+The [English game-development case study](https://github.com/wu736139669/goal-instruction-writer/blob/main/docs/cases/factory-town-idle.md)
+documents a multi-day Factory Town Idle Godot port, from analysis and playable
+systems to a 0.49 local candidate with Mac and Android packages. The maintainer
+reports a longest workflow of more than 60 hours. Inspected records establish
+stage deliveries across multiple days; the full recreation Goal was still
+active at the documented snapshot. Runtime continuation, tools, and permissions
+remain controlled by the host agent and user.
+
+A [36-second demonstration](https://github.com/wu736139669/goal-instruction-writer/releases/download/v0.2.0/goal-overview.mp4)
+shows the workflow. The upstream documentation identifies its illustrative
+animation and separate public game recording.

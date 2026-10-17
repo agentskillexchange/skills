@@ -1,0 +1,7 @@
+interface:
+  display_name: "Goal Instruction Writer"
+  short_description: "Preview and draft drift-resistant goals with bounded loops"
+  default_prompt: "Use $goal-instruction-writer to preview the loop first when this is a long-running task, then draft the final Goal after confirmation."
+
+policy:
+  allow_implicit_invocation: true
