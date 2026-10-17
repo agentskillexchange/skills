@@ -185,7 +185,7 @@ Make the terminal states explicit and mutually understandable:
   authority; do not silently continue.
 - **Realignment required:** a drift check fails; stop the current loop, preserve
   the checkpoint, and resume only after the next action is re-anchored. Use
-  `GOAL PAUSED: realignment required` when a local terminal label is needed.
+  `GOAL REALIGNMENT REQUIRED` when a local terminal label is needed.
 
 Do not use “continue until satisfied,” “try indefinitely,” or a success claim
 based only on effort. If the task has a local convention for terminal strings,
@@ -240,7 +240,9 @@ separate focused iteration checks from required delivery checks.
 
 This entry carries the instruction body and supporting files from upstream
 [v0.2.2](https://github.com/wu736139669/goal-instruction-writer/releases/tag/v0.2.2),
-with Agent Skill Exchange catalog metadata and this installation appendix.
+with Agent Skill Exchange catalog metadata, this installation appendix, and
+a distinct `GOAL REALIGNMENT REQUIRED` label for drift stops. `GOAL PAUSED`
+remains reserved for an explicit owner pause.
 The MIT license is included in `LICENSE`.
 
 The [English game-development case study](https://github.com/wu736139669/goal-instruction-writer/blob/main/docs/cases/factory-town-idle.md)

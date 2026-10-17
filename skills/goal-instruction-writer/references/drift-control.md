@@ -99,7 +99,7 @@ When a drift trigger fires:
    objective decision.
 6. Resume only after the checkpoint records `ON_TARGET` and an expected delta.
 
-Use `GOAL PAUSED: realignment required` as the default control stop. Report the
+Use `GOAL REALIGNMENT REQUIRED` as the default control stop. Report the
 last aligned criterion, the drift trigger, preserved evidence, deferred work,
 and the exact decision needed to resume.
 
@@ -118,6 +118,6 @@ scope reason. After verification, label the result `ON_TARGET`, `SIDE_QUEST`, or
 `DRIFTED`. Park side quests. Re-read the Anchor every 3–5 iterations, at phase
 gates, and before irreversible work. If no criterion moves for two equivalent
 iterations or the Anchor/scope changes without approval, stop and emit
-`GOAL PAUSED: realignment required`; record the cursor and exact re-alignment
+`GOAL REALIGNMENT REQUIRED`; record the cursor and exact re-alignment
 decision needed before resuming.
 ```

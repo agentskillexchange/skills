@@ -48,7 +48,7 @@ flowchart TD
     E -->|SIDE_QUEST| K[Defer with revisit condition]
     K --> B
     E -->|DRIFTED| L[Pause and realign]
-    L --> M[GOAL PAUSED: realignment required]
+    L --> M[GOAL REALIGNMENT REQUIRED]
     D --> N{Blocked, budgeted, or owner-stopped?}
     N -->|Blocked| O[GOAL BLOCKED]
     N -->|Budget/time limit| P[GOAL TIMEBOXED]
@@ -88,7 +88,7 @@ focused change → run the fixture test → record the diff and result.
 - Same failure twice: stop as `GOAL BLOCKED` with the exact missing evidence.
 - Useful unrelated cleanup: mark `SIDE_QUEST` and defer it.
 - No criterion moves or scope expands: pause as
-  `GOAL PAUSED: realignment required`.
+  `GOAL REALIGNMENT REQUIRED`.
 
 ### Gate and limits
 Re-read the Anchor after three iterations and before changing dependencies.

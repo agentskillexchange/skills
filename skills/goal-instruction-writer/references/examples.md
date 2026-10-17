@@ -171,7 +171,7 @@ Repeat one bounded work unit at a time:
 - If a maintainer gate is the only remaining work, stop waiting as a named
   dependency instead of repeatedly contacting the maintainer.
 - If the scope expands or no criterion moves for two equivalent iterations,
-  emit `GOAL PAUSED: realignment required`.
+  emit `GOAL REALIGNMENT REQUIRED`.
 
 ## Limits and no-op rule
 - Use at most three iterations and one maintainer follow-up until new review

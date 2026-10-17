@@ -98,7 +98,7 @@ Repeat one bounded work unit at a time:
   irreversible or high-cost actions.
 - Park side quests in a deferred list; do not expand the Goal silently.
 - If no criterion moves for two consecutive iterations, or the Anchor/scope
-  changes without owner approval, stop and emit `GOAL PAUSED: realignment required`.
+  changes without owner approval, stop and emit `GOAL REALIGNMENT REQUIRED`.
 - Resume only after recording the re-aligned next action and its expected delta.
 
 ## Limits and no-op rule
@@ -114,6 +114,8 @@ Repeat one bounded work unit at a time:
   dependency, owner decision, or unresolved failure; include the unblock needed.
 - `GOAL PAUSED: <reason>` only after an explicit owner pause; preserve the
   cursor.
+- `GOAL REALIGNMENT REQUIRED` when a drift check fails; preserve the checkpoint
+  and resume only after recording a justified next action within the Goal anchor.
 - `GOAL TIMEBOXED: <state>` when the limit is reached; report progress and the
   safest next action.
 - `GOAL STOPPED: <reason>` when the owner cancels or authority would be
