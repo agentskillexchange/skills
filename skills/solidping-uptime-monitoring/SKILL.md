@@ -5,6 +5,7 @@ description: "Manage SolidPing uptime monitoring from a coding agent through the
 category: "Monitoring & Alerts"
 framework: "Claude Code"
 verification: listed
+license: MIT
 source: "https://github.com/fclairamb/solidping-plugin"
 ---
 
@@ -65,6 +66,10 @@ git clone https://github.com/agentskillexchange/skills.git
 mkdir -p ~/.agents/skills
 [ -e ~/.agents/skills/solidping-uptime-monitoring ] || cp -R skills/skills/solidping-uptime-monitoring ~/.agents/skills/solidping-uptime-monitoring
 ```
+
+## Licensing
+
+The SolidPing plugin and its skill instructions are [MIT licensed](https://github.com/fclairamb/solidping-plugin/blob/main/LICENSE). The SolidPing monitoring server is a separate project under [AGPL-3.0](https://github.com/fclairamb/solidping/blob/main/LICENSE). The `license: MIT` metadata above describes the plugin/skill instructions.
 
 ## Documentation
 
