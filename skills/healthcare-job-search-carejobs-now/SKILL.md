@@ -54,7 +54,8 @@ mkdir -p ~/.agents/skills
 2. For national pay by kind of job, or one employer's pay, call `get_healthcare_pay` with `kind` and/or `employer`. It has no state filter.
 3. For pay in one state, call `get_healthcare_jobs_by_state` with `state` and, optionally, `kind` (for example CNA pay in Ohio: `state: "OH"`, `kind: "nursing-assistants"`).
 4. Keep the statistic names and ranges each tool returns as they are (a median, a typical range, a count). The two pay tools measure different sets of jobs, so do not swap one tool's figure for the other's.
-5. Report posted pay as what employers state, never as a prediction.
+5. Distinguish each posting's own stated pay from an employer-wide typical range. Call a rate the posting states "posted pay". If the server labels a range as typical for that kind of job at the employer, retain that qualification and say "not stated in this posting"; never present it as this job's offered pay. Say "pay not posted" when neither is available. Preserve the returned currency, time unit, and any pay caveats; never invent, predict, or silently convert a bonus into an hourly or annual salary.
+6. If a returned pay figure conflicts with the job title or appears to describe a sign-on bonus, flag it as uncertain and verify the employer posting before quoting it as compensation.
 
 ### Without an MCP client: the public JSON endpoints
 
