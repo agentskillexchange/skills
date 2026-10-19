@@ -29,6 +29,7 @@ with no progress signal can stop at the wrong time.
 | Acceptance criteria | How will a reviewer know it is done? | Test result, diff, artifact, cited source, or checklist |
 | Verification strategy | Which checks run during edits, at delivery, or after a change? | Focused checks, required broader gates, evidence validity, rerun reasons, cost bounds |
 | Feedback evidence threshold | What counts as real feedback, and how much is required? | Entry point only, N non-author replies, named cohort, and a timebox |
+| External wait (when applicable) | When may a pending dependency be checked again? | Open criterion, dependency, last observation, next check time/event, deadline or unblock |
 | Work unit | What is one iteration small enough to verify? | One hypothesis, patch, experiment, or review slice |
 | Progress signal | What changes after a useful iteration? | New evidence, reduced gap, changed artifact, or decision |
 | Alignment check | How is each iteration tied back to the Goal? | Target criterion, expected delta, scope reason, alignment label |
@@ -70,6 +71,17 @@ Produce <artifact/behavior/decision> so that <user or system value>.
 - What counts: <concrete use case, result, defect, or decision>
 - Window: <date, number of attempts, or timebox>
 
+## External wait (when applicable)
+- Checkpoint: <open criterion, dependency, last observation>.
+- Resume trigger: <next check time with timezone or relevant notification>;
+  deadline/unblock: <feedback deadline or named dependency resolution>.
+- Check overall limits and deadlines first. Before the trigger, skip further
+  lookups or pings; continue independent work or yield with the checkpoint
+  preserved. On the trigger, verify the response.
+- Waiting and a due observation of "still pending" are neither failed
+  actionable attempts nor acceptance progress. Actual tool calls and elapsed
+  time still count against the overall host limits.
+
 ## Verification strategy
 - Iteration checks: <smallest checks sufficient for the affected behavior>.
 - Phase/delivery checks: <required broader checks and artifacts, with triggers>;
@@ -86,7 +98,7 @@ Produce <artifact/behavior/decision> so that <user or system value>.
 
 ## Execution loop
 Repeat one bounded work unit at a time:
-1. Inspect <state and last cursor>.
+1. Inspect <state and last cursor>; honor pending wait triggers before lookups.
 2. Select one unmet criterion, expected delta, and scope reason.
 3. Act within Allowed scope and Authority.
 4. Apply the verification strategy to the relevant criterion and capture evidence.
@@ -97,8 +109,10 @@ Repeat one bounded work unit at a time:
 - Re-read the Goal anchor every 3–5 iterations, at phase gates, and before
   irreversible or high-cost actions.
 - Park side quests in a deferred list; do not expand the Goal silently.
-- If no criterion moves for two consecutive iterations, or the Anchor/scope
-  changes without owner approval, stop and emit `GOAL REALIGNMENT REQUIRED`.
+- If two equivalent actionable attempts add neither acceptance progress nor
+  new relevant evidence, or the Anchor/scope changes without owner approval,
+  stop and emit `GOAL REALIGNMENT REQUIRED`. An agreed wait does not increment
+  this counter; stop repeated premature polling and realign its schedule.
 - Resume only after recording the re-aligned next action and its expected delta.
 
 ## Limits and no-op rule
@@ -141,6 +155,9 @@ Before returning a Goal, check:
 - For feedback, adoption, pilot, launch, or validation work, the evidence
   threshold and window are explicit; author-only activity is not counted unless
   the Goal chooses it.
+- Pending external waits have a next check trigger and deadline/unblock. The
+  loop skips early polling, can continue independent work or yield, and retains
+  overall budget limits without counting waiting as a failed attempt.
 - Every iteration names one criterion, an expected delta, and a scope reason.
 - The next iteration is selected from current state, not from a fixed script
   that ignores results.

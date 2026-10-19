@@ -45,12 +45,13 @@ Next cursor: <single next work unit or unblock>
 
 The three alignment labels have different behavior:
 
-- **ON_TARGET:** the named criterion moved and the evidence supports a
-  justified next step. Continue.
+- **ON_TARGET:** the named criterion moved or new relevant evidence supports
+  a justified next step. Continue.
 - **SIDE_QUEST:** the work may be useful but is not required by this Goal.
   Record it in a deferred list and return to the next unmet criterion.
-- **DRIFTED:** no criterion moved, the work changed the Goal or scope, or the
-  next action cannot be justified from the Anchor. Stop and realign.
+- **DRIFTED:** the work changed the Goal or scope without authorization, the
+  next action cannot be justified from the Anchor, or the no-progress threshold
+  is reached. Stop and realign.
 
 ## Detect drift early
 
@@ -61,14 +62,44 @@ Treat any of these as a drift signal:
 - A new issue becomes the main work without a recorded link to the outcome.
 - Allowed files, systems, sources, or side effects expand silently.
 - The baseline or acceptance criteria are rewritten to fit completed work.
-- Two consecutive iterations produce no acceptance progress or repeat the same
-  hypothesis without new information.
+- Two materially equivalent actionable attempts produce neither acceptance
+  progress nor new relevant evidence.
 - The plan keeps generating “one more” improvement after all criteria are
   already verified.
 
-The default no-progress threshold is two materially equivalent iterations; use
-a smaller threshold for high-risk or expensive work and a larger one only when
-the task's evidence is naturally sparse.
+The default no-progress threshold is two materially equivalent actionable
+attempts; use a smaller threshold for high-risk or expensive work and a larger
+one only when the task's evidence is naturally sparse.
+
+## Scheduled external waits
+
+When an external response is pending, record the unmet criterion, dependency,
+last observation, next check time (with timezone) or relevant notification, and
+deadline or unblock condition in the current cursor.
+
+Evaluate host limits and deadlines before the next-check trigger; an expired
+limit takes precedence even when the next lookup is not yet due.
+
+- Before the check trigger, do not issue another lookup or ping. Continue an
+  independently actionable criterion; if none remains, yield with the wait
+  checkpoint preserved. Waiting itself does not consume an actionable work
+  unit or increment the no-progress counter. It is not acceptance progress.
+- On the agreed time or relevant notification, check the dependency once.
+  Reuse unchanged evidence and record a new justified check time if the
+  dependency remains pending within its window. A due observation of "still
+  pending" is neither a failed actionable attempt nor acceptance progress.
+  A notification warrants a check, not automatic acceptance of the response.
+- Stop premature repeated polling and realign its schedule. Every actual tool
+  call, failed attempt, and elapsed interval remains subject to host budgets;
+  the waiting exception does not reset or extend those limits.
+- If the feedback deadline arrives before the required response, report
+  `GOAL TIMEBOXED: awaiting first external feedback` with the open criterion
+  and resume condition. If another budget expires first, honor that limit.
+  Without a supported resume trigger, preserve the named dependency and apply
+  the host's blocked/yield rules instead of inventing more work.
+
+A wait checkpoint does not schedule an automatic wake-up or authorize a new
+message. Host status rules still apply; an owner pause remains distinct.
 
 ## Run phase gates
 
@@ -81,8 +112,9 @@ an irreversible or high-cost action. A phase gate should:
 4. Move side quests to the deferred list with a reason and revisit condition.
 5. Record one justified next action, its target criterion, and expected delta.
 
-If there is no justified next action, finish as complete or stop as blocked;
-do not invent work to keep the loop alive.
+If all criteria are verified, finish as complete. If only a scheduled external
+wait remains, preserve its checkpoint and yield; otherwise report the named
+blocker under host rules. Do not invent work to keep the loop alive.
 
 ## Recover from drift
 
@@ -116,8 +148,13 @@ and the exact decision needed to resume.
 Before each iteration, name one target criterion, expected evidence delta, and
 scope reason. After verification, label the result `ON_TARGET`, `SIDE_QUEST`, or
 `DRIFTED`. Park side quests. Re-read the Anchor every 3–5 iterations, at phase
-gates, and before irreversible work. If no criterion moves for two equivalent
-iterations or the Anchor/scope changes without approval, stop and emit
+gates, and before irreversible work. If two equivalent actionable attempts add
+neither acceptance progress nor new relevant evidence, or the Anchor/scope
+changes without approval, stop and emit
 `GOAL REALIGNMENT REQUIRED`; record the cursor and exact re-alignment
-decision needed before resuming.
+decision needed before resuming. For an agreed external wait, record the open
+criterion, next check time/event, and deadline. Before that trigger, continue
+independent work or yield. Waiting and a due observation of "still pending"
+do not increment the failed-attempt counter or verify an acceptance criterion.
+Actual calls and elapsed time remain subject to host budgets.
 ```

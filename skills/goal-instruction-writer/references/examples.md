@@ -158,7 +158,8 @@ it.
 
 ## Execution loop
 Repeat one bounded work unit at a time:
-1. Inspect the repository, release, submission, and feedback-thread status.
+1. Inspect the durable cursor, then the repository, release, submission, and
+   feedback-thread status only when the relevant check is due.
 2. Select one open criterion, expected evidence, and scope reason.
 3. Make one focused documentation, packaging, or submission update.
 4. Verify the result with a validator, link, commit, or platform status.
@@ -168,15 +169,25 @@ Repeat one bounded work unit at a time:
 ## Drift control
 - Re-read the Anchor before each public post, version change, or new submission.
 - Defer unrelated channels, feature ideas, and promotional experiments.
-- If a maintainer gate is the only remaining work, stop waiting as a named
-  dependency instead of repeatedly contacting the maintainer.
-- If the scope expands or no criterion moves for two equivalent iterations,
-  emit `GOAL REALIGNMENT REQUIRED`.
+- If a maintainer gate is the only remaining work, preserve the named dependency
+  and its agreed resume trigger; otherwise report the exact blocker under host
+  rules. Do not repeatedly contact the maintainer.
+- If the scope expands without approval, or two equivalent actionable attempts
+  add neither acceptance progress nor new relevant evidence, emit
+  `GOAL REALIGNMENT REQUIRED`.
 
 ## Limits and no-op rule
-- Use at most three iterations and one maintainer follow-up until new review
-  evidence arrives.
+- Use at most three actionable work units and one maintainer follow-up until
+  new review evidence arrives.
 - Do not repeat a post or submission without a material change in evidence.
+- While C4 is pending within its feedback window, record the last observation,
+  next agreed check time or reply notification, and deadline. Before that
+  trigger, skip further queries and pings; continue other open criteria or
+  yield with the checkpoint preserved. Verify any response before counting it.
+- An agreed wait consumes neither an actionable work unit nor the no-progress
+  allowance; a due observation of "still pending" is not a failed attempt or
+  acceptance progress. Actual queries and elapsed time still count toward host
+  limits; stop premature repeated polling and realign its schedule.
 - Define a feedback window before execution; if it closes without the required
   non-author response, stop as `GOAL TIMEBOXED: awaiting first external feedback`.
 
@@ -184,7 +195,8 @@ Repeat one bounded work unit at a time:
 - `GOAL COMPLETE` when the package, submission, status record, and feedback
   threshold are verified.
 - `GOAL BLOCKED: upstream maintainer review required` when only the external
-  merge remains and the submission is clean.
+  merge remains, the submission is clean, and no supported resume trigger is
+  available; honor the host's blocked-status rules.
 - `GOAL TIMEBOXED: awaiting first external feedback` when the feedback window
   closes before the required non-author response arrives.
 - `GOAL TIMEBOXED: <state>` when the launch window ends with the verified

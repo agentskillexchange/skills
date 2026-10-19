@@ -14,7 +14,7 @@ Show these elements in order:
 3. **Iteration flow:** what is inspected, selected, executed, verified, and
    recorded in one cycle.
 4. **Branches:** what happens after success, a new failure, no progress, a side
-   quest, missing authority, or a drift signal.
+   quest, missing authority, a scheduled external wait, or a drift signal.
 5. **Progress evidence:** what must change for an iteration to count; which
    checks run during edits or at delivery, when evidence can be reused, and
    which changes trigger a rerun. Include bounds for expensive checks.
@@ -24,7 +24,8 @@ Show these elements in order:
 8. **Decisions to confirm:** only the choices that could materially change the
    loop, scope, evidence, or terminal rules. For feedback, adoption, pilot,
    launch, or validation work, confirm the evidence threshold, what counts, and
-   the feedback window.
+   the feedback window; for pending dependencies, include the next check
+   time/event, deadline/unblock, and independent work or yield branch.
 
 End with a handoff such as: “确认这个循环后，我再生成最终 Goal 指令。” Do not
 include a final executable Goal in a preview-only response and do not perform
@@ -34,19 +35,23 @@ external mutations.
 
 ```mermaid
 flowchart TD
-    A[Inspect baseline and cursor] --> B[Choose one criterion and expected delta]
+    A[Inspect baseline and cursor] --> W{Waiting before next check trigger?}
+    W -->|No| B[Choose one criterion and expected delta]
+    W -->|Yes| X{Independent work available?}
+    X -->|Yes| B
+    X -->|No| Y[Yield with wait checkpoint]
     B --> C[Act within allowed scope]
     C --> D[Verify evidence]
     D --> E{Alignment check}
     E -->|ON_TARGET| F[Record delta and next cursor]
     F --> G{All criteria verified?}
     G -->|No| H{Phase gate due?}
-    H -->|No| B
+    H -->|No| A
     H -->|Yes| I[Re-read Anchor and review scope]
-    I --> B
+    I --> A
     G -->|Yes| J[GOAL COMPLETE]
     E -->|SIDE_QUEST| K[Defer with revisit condition]
-    K --> B
+    K --> A
     E -->|DRIFTED| L[Pause and realign]
     L --> M[GOAL REALIGNMENT REQUIRED]
     D --> N{Blocked, budgeted, or owner-stopped?}
@@ -54,6 +59,9 @@ flowchart TD
     N -->|Budget/time limit| P[GOAL TIMEBOXED]
     N -->|Owner cancels| Q[GOAL STOPPED]
 ```
+
+Overall time, token, and tool limits apply on every branch. The wait checkpoint
+records when the host or user may resume; it does not create a scheduler.
 
 ## Preview table
 
@@ -66,6 +74,7 @@ flowchart TD
 | Branch | What happens if the result is unexpected? | Retry with a new hypothesis, defer, block, or realign |
 | Gate | When is the Anchor re-read? | Cadence, milestone, and high-risk trigger |
 | Feedback | How much evidence counts as real feedback? | Threshold, what counts, and feedback window |
+| Wait | When can an external dependency be checked again? | Next check time/event, deadline/unblock, independent work or yield |
 | End | What makes the work legally stop? | Complete, blocked, paused, timeboxed, stopped |
 
 ## Example preview
