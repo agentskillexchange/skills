@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Questlog</title>
+<style>
+  :root{
+    --bg:#12151a; --panel:#181c22; --panel2:#1f242c; --line:#2b313b;
+    --ink:#e8ebf0; --muted:#8b93a1; --accent:#5b9dd9; --accent-ink:#0b1017;
+    --hot:#e0965b; --warm:#e0c05b; --blocked:#d9737f; --good:#6bbf6b; --wait:#a97fd9;
+    --glow:#e0655b;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;overflow:hidden;background:transparent}
+  body{font:15px/1.45 -apple-system,"SF Pro Text",system-ui,sans-serif;color:var(--ink)}
+  #app{position:fixed;inset:0;display:flex;flex-direction:column;
+       background:linear-gradient(180deg,#12151a 0%,#0e1116 100%);}
+  /* top: chips + filter + focus */
+  header{display:flex;align-items:center;gap:8px;padding:8px 14px 8px;border-bottom:1px solid var(--line);flex-wrap:wrap;row-gap:7px}
+  .hbreak{flex-basis:100%;height:0}
+  .brand{font-weight:700;letter-spacing:.3px;margin-right:4px}
+  .brand small{color:var(--muted);font-weight:400;font-size:11px;margin-left:6px}
+  .chips{display:flex;gap:6px;flex:1;min-width:0;overflow-x:auto;scrollbar-width:none}
+  .chips::-webkit-scrollbar{display:none}
+  .chip{white-space:nowrap;padding:5px 12px;border-radius:20px;border:1px solid var(--line);
+        background:var(--panel2);color:var(--muted);cursor:pointer;font-size:13px}
+  .chip .k{opacity:.5;font-size:10px;margin-left:5px}
+  .chip.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:600}
+  .chip.on .k{opacity:.7}
+  #filter{background:var(--panel);border:1px solid var(--line);border-radius:8px;color:var(--ink);
+          padding:6px 11px;font:inherit;flex:1;min-width:160px}
+  .ghost{padding:4px 10px;border-radius:8px;border:1px solid var(--line);background:var(--panel2);
+         color:var(--muted);cursor:pointer;white-space:nowrap}
+  .ghost.on{color:var(--accent);border-color:var(--accent)}
+  .srch{display:flex;gap:2px;align-items:center;background:var(--panel2);border:1px solid var(--line);
+        border-radius:8px;padding:2px}
+  .srch button{border:0;background:transparent;color:var(--muted);cursor:pointer;font-size:13px;
+        padding:4px 9px;border-radius:6px;line-height:1.3}
+  .srch button.on{background:var(--accent);color:var(--accent-ink);font-weight:700}
+  .srch .lvl{font-size:10px;color:var(--wait);border-left:1px solid var(--line);margin-left:2px;border-radius:0}
+  .srch .lvl.on{background:transparent;color:var(--wait)}
+  .tags{display:flex;flex-wrap:wrap;gap:3px;margin-top:6px}
+  .tag{font-size:9px;color:var(--muted);background:var(--panel2);border:1px solid var(--line);
+       border-radius:10px;padding:1px 6px}
+  /* NOW strip */
+  #now{padding:9px 14px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:12px}
+  #now .lbl{color:var(--hot);font-size:11px;letter-spacing:1px;font-weight:700}
+  #now .txt{font-size:18px;font-weight:600}
+  #now .act{margin-left:auto;display:flex;gap:6px}
+  /* cards */
+  #cards{flex:1;display:flex;gap:12px;overflow-x:auto;overflow-y:hidden;padding:14px;scroll-behavior:smooth}
+  #cards::-webkit-scrollbar{height:8px}#cards::-webkit-scrollbar-thumb{background:var(--line);border-radius:4px}
+  .card{flex:0 0 300px;display:flex;flex-direction:column;background:var(--panel);border:1px solid var(--line);
+        border-radius:12px;padding:12px;position:relative;transition:border-color .15s,box-shadow .15s}
+  .card.sel{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+  .card.glow{border-color:var(--glow);box-shadow:0 0 14px -2px var(--glow)}
+  .card{cursor:grab}
+  .card:active{cursor:grabbing}
+  .card.dragging{opacity:.35}
+  .card.dropbefore{box-shadow:-3px 0 0 0 var(--accent)}
+  .card.dropafter{box-shadow:3px 0 0 0 var(--accent)}
+  .pin{margin-left:auto;cursor:pointer;opacity:.3;font-size:12px;user-select:none}
+  .pin.on{opacity:1;filter:drop-shadow(0 0 3px var(--warm))}
+  .grip{color:var(--muted);opacity:.4;font-size:11px;letter-spacing:-1px;cursor:grab}
+  .chip.drop{background:var(--good)!important;color:#0b1017!important;border-color:var(--good)!important}
+  .addcard{flex:0 0 230px;display:flex;flex-direction:column;gap:9px;justify-content:center;
+        background:transparent;border:1.5px dashed var(--line);border-radius:12px;padding:14px}
+  .addcard h3{margin:0;font-size:15px;color:var(--muted);font-weight:600}
+  .addcard input{background:var(--bg);border:1px solid var(--line);border-radius:8px;color:var(--ink);
+        padding:9px 10px;font:inherit;font-size:15px}
+  .addcard .arow{display:flex;gap:6px}
+  .addcard select{background:var(--panel2);border:1px solid var(--line);border-radius:8px;color:var(--ink);
+        padding:7px;font:inherit;font-size:13px}
+  .addcard button{flex:1;background:var(--accent);color:var(--accent-ink);border:0;border-radius:8px;
+        padding:8px;font-weight:700;font-size:14px;cursor:pointer}
+  body.focus #cards .addcard{display:none}
+  .card h3{margin:0 0 4px;font-size:16px;display:flex;align-items:center;gap:7px}
+  .badge{font-size:9px;text-transform:uppercase;letter-spacing:.6px;padding:2px 6px;border-radius:5px;
+         background:var(--panel2);color:var(--muted);border:1px solid var(--line)}
+  .b-hot{color:var(--hot)}.b-warm{color:var(--warm)}.b-blocked{color:var(--blocked)}.b-ember{color:var(--muted)}
+  .b-paused{color:var(--muted)}
+  .goal{color:var(--muted);font-size:12.5px;margin:2px 0 6px}
+  .next{font-size:14px;color:var(--ink);flex:1;overflow:hidden;display:-webkit-box;-webkit-line-clamp:5;
+        -webkit-box-orient:vertical}
+  .next b{color:var(--accent);font-weight:600}
+  .meta{font-size:10px;color:var(--wait);margin-top:6px}
+  .meta.od{color:var(--glow);font-weight:600}
+  .row{display:flex;gap:5px;margin-top:9px;flex-wrap:wrap}
+  .mini{flex:0 0 auto;padding:6px 10px;font-size:13px;border-radius:7px;border:1px solid var(--line);
+        background:var(--panel2);color:var(--ink);cursor:pointer}
+  .mini:hover{border-color:var(--accent)}
+  .mini.zap{margin-left:auto;color:var(--accent)}
+  .instruct{display:none;margin-top:8px;gap:5px}
+  .instruct.open{display:flex}
+  .instruct input{flex:1;font-size:14px;background:var(--bg);border:1px solid var(--line);border-radius:7px;color:var(--ink);
+                  padding:5px 8px;font:inherit}
+  .instruct button{padding:5px 10px;border-radius:7px;border:1px solid var(--accent);background:var(--accent);
+                   color:var(--accent-ink);font-weight:600;cursor:pointer}
+  .flash{position:absolute;top:8px;right:10px;font-size:10px;color:var(--good);opacity:0;transition:opacity .2s}
+  .flash.show{opacity:1}
+  /* queue lane */
+  #lane{border-top:1px solid var(--line);padding:7px 14px;display:flex;align-items:center;gap:10px;
+        min-height:38px;background:#0e1116}
+  #lane .lbl{color:var(--muted);font-size:10px;letter-spacing:1px;font-weight:700}
+  #lane .items{display:flex;gap:7px;flex:1;overflow-x:auto;scrollbar-width:none}
+  #lane .items::-webkit-scrollbar{display:none}
+  .qi{white-space:nowrap;font-size:11px;padding:3px 9px;border-radius:14px;border:1px solid var(--line);
+      background:var(--panel);cursor:default}
+  .qi .s{font-weight:700;margin-right:5px}
+  .qi.pending{color:var(--muted)} .qi.pending .s{color:var(--warm)}
+  .qi.running{color:var(--ink);border-color:var(--accent)} .qi.running .s{color:var(--accent)}
+  .qi.done{color:var(--muted)} .qi.done .s{color:var(--good)}
+  .qi.failed .s{color:var(--blocked)}
+  .empty{color:var(--muted);font-size:11px;padding:20px}
+  .prog{display:flex;align-items:center;gap:7px;margin-top:6px;font-size:11px;color:var(--muted)}
+  .prog .bar{flex:1;height:4px;background:var(--panel2);border-radius:2px;overflow:hidden}
+  .prog .fill{height:100%;background:var(--good);border-radius:2px}
+  .stask{display:flex;align-items:flex-start;gap:9px;padding:6px 4px;font-size:14px;cursor:pointer;border-radius:7px}
+  .stask:hover{background:var(--panel2)}
+  .stask .cb{width:16px;height:16px;border:1.6px solid var(--muted);border-radius:5px;flex:none;margin-top:1px;
+    display:flex;align-items:center;justify-content:center;font-size:11px;color:var(--good)}
+  .stask.done{color:var(--muted);text-decoration:line-through}
+  .stask.done .cb{border-color:var(--good)}
+  /* task detail overlay */
+  #detail{position:absolute;inset:0;display:none;background:rgba(8,11,15,.72);backdrop-filter:blur(3px);z-index:40}
+  #detail.open{display:flex;align-items:stretch;justify-content:center;padding:14px 18px}
+  .dpanel{width:min(880px,94%);background:linear-gradient(180deg,#1a2029,#141920);border:1px solid #3a4450;
+    border-radius:14px;padding:18px 20px;overflow-y:auto;box-shadow:0 20px 60px -12px #000}
+  .dpanel::-webkit-scrollbar{width:8px}.dpanel::-webkit-scrollbar-thumb{background:var(--line);border-radius:4px}
+  .dhead{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+  .dhead h2{margin:0;font-size:21px}
+  .dhead .close{margin-left:auto;cursor:pointer;color:var(--muted);font-size:18px;padding:4px 8px}
+  .dgoal{color:var(--muted);font-size:14px;margin:2px 0 12px}
+  .dsec{font-size:10.5px;letter-spacing:1.2px;text-transform:uppercase;color:var(--muted);margin:14px 0 6px}
+  .dnext{font-size:15px;background:var(--panel2);border:1px solid var(--line);border-left:3px solid var(--accent);
+    border-radius:9px;padding:11px 13px}
+  .dnote{font-size:13.5px;color:var(--ink);padding:7px 11px;border-left:2px solid var(--line);margin-bottom:6px}
+  .dwait{font-size:13px;color:var(--wait);padding:4px 0}
+  .dwait.od{color:var(--glow);font-weight:600}
+  .ddue{font-size:13px;color:var(--warm);padding:4px 0}
+  .dq{font-size:12.5px;padding:7px 11px;border:1px solid var(--line);border-radius:8px;margin-bottom:6px;background:var(--panel)}
+  .dq .st{font-weight:700;margin-right:8px}
+  .dq.done .st{color:var(--good)} .dq.failed .st{color:var(--blocked)} .dq.pending .st{color:var(--warm)} .dq.running .st{color:var(--accent)}
+  .dq .res{color:var(--muted);display:block;margin-top:3px}
+  .djournal{font:12px ui-monospace,Menlo,monospace;color:var(--muted);padding:2px 0}
+  .drow{display:flex;gap:7px;margin-top:16px}
+  .drow .mini{font-size:13px;padding:7px 12px}
+  .dinstr{display:flex;gap:7px;margin-top:10px}
+  .dinstr input{flex:1;background:var(--bg);border:1px solid var(--line);border-radius:8px;color:var(--ink);
+    padding:9px 11px;font:inherit;font-size:14px}
+  .dinstr button{padding:9px 14px;border-radius:8px;border:1px solid var(--accent);background:var(--accent);
+    color:var(--accent-ink);font-weight:700;cursor:pointer}
+  body.focus #cards .card:not(.isnow){display:none}
+  body.focus #chips-wrap,body.focus #filter{opacity:.3;pointer-events:none}
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <span class="brand">⚔ questlog <small id="head"></small></span>
+    <div class="chips" id="chips"></div>
+    <div class="hbreak"></div>
+    <div class="srch" id="srch" title="search mode (local search)">
+      <button data-mode="exact" class="on" title="Local literal search">literal</button>
+    </div>
+    <div class="srch" id="sorts" title="sort cards">
+      <button data-s="relevant" class="on" title="most relevant (search rank / your order)">✨</button>
+      <button data-s="urgent" title="most urgent (state, overdue, due-soon, NOW)">🔥</button>
+    </div>
+    <input id="filter" placeholder="/ search local workstreams…" autocomplete="off"/>
+    <button class="ghost" id="newBtn" title="new task (⌃⌥N)" style="color:var(--accent);border-color:var(--accent)">＋ new</button>
+    <button class="ghost" id="focusBtn" title="focus (f)">◎ focus</button>
+  </header>
+  <div id="now"><span class="lbl">NOW</span><span class="txt" id="nowtxt">—</span>
+    <span class="act">
+      <button class="mini" data-now="done">✓ did it</button>
+      <button class="mini" data-now="replan">replan</button>
+    </span>
+  </div>
+  <div id="cards"><div class="empty">loading…</div></div>
+  <div id="detail"><div class="dpanel" id="dpanel"></div></div>
+  <div id="lane"><span class="lbl">QUEUE</span><div class="items" id="qitems"><span class="empty" style="padding:0">idle</span></div></div>
+</div>
+<script>
+// Mutations carry the current ledger revision; conflicts are reported, never overwritten.
+const nativeFetch = window.fetch.bind(window);
+window.fetch = async (input, options = {}) => {
+  if (options.method === "POST" && ["/api/capture", "/api/mutate", "/api/new"].includes(String(input))) {
+    const snapshot = await nativeFetch("/api/state", {cache:"no-store"});
+    const state = await snapshot.json();
+    options.headers = {...options.headers, "If-Match": state.head};
+  }
+  return nativeFetch(input, options);
+};
+</script>
+<script>
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+let STATE=null, FILTERS=[
+  {key:'all',label:'All'},{key:'now',label:'NOW'},{key:'hot',label:'Hot'},
+  {key:'warm',label:'Warm'},{key:'blocked',label:'Blocked'},{key:'waiting',label:'Waiting'},
+  {key:'due',label:'Due'},{key:'work',label:'Work'},{key:'life',label:'Life'},
+  {key:'research',label:'Research'},{key:'forge',label:'Forge'},{key:'client',label:'Client'}
+];
+let active='all', sel=0, focus=false, dragSlug=null, navMove=false;
+
+function api(p,opts){return fetch(p,opts).then(r=>r.json())}
+function post(p,body){return api(p,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)})}
+
+const STATES=['hot','warm','blocked','paused','ember'];
+function renderChips(){
+  const c=$('#chips');c.innerHTML='';
+  FILTERS.forEach((f,i)=>{
+    const el=document.createElement('div');
+    el.className='chip'+(f.key===active?' on':'');
+    el.innerHTML=f.label+(i>=1&&i<=9?`<span class="k">⌘${i}</span>`:'');
+    el.onclick=()=>{active=f.key;sel=0;navMove=true;renderChips();renderCards()};
+    // drop target: drag a card onto a state chip to reclassify, onto NOW to set NOW
+    const droppable = STATES.includes(f.key) || f.key==='now';
+    if(droppable){
+      el.addEventListener('dragover',e=>{if(dragSlug){e.preventDefault();el.classList.add('drop')}});
+      el.addEventListener('dragleave',()=>el.classList.remove('drop'));
+      el.addEventListener('drop',e=>{e.preventDefault();el.classList.remove('drop');onChipDrop(f.key,dragSlug)});
+    }
+    c.appendChild(el);
+  });
+}
+function onChipDrop(key,slug){
+  if(!slug)return;
+  if(STATES.includes(key)){post('/api/mutate',{slug,op:'state',value:key}).then(load)}
+  else if(key==='now'){const w=(STATE.workstreams||[]).find(x=>x.slug===slug);
+    const val=w&&w.next?w.next:('Focus: '+slug);post('/api/mutate',{slug,op:'now',value:val}).then(load)}
+}
+function applyOrder(list){
+  const pref=STATE.prefs||{order:[],pinned:[]};
+  const oi=s=>{const i=(pref.order||[]).indexOf(s);return i<0?1e6:i};
+  return list.slice().sort((a,b)=>{
+    const pa=(pref.pinned||[]).includes(a.slug)?0:1, pb=(pref.pinned||[]).includes(b.slug)?0:1;
+    if(pa!==pb)return pa-pb;
+    return oi(a.slug)-oi(b.slug);
+  });
+}
+function savePrefs(){post('/api/prefs',{order:(STATE.prefs.order||[]),pinned:(STATE.prefs.pinned||[])}).catch(()=>{})}
+function togglePin(slug){const p=STATE.prefs.pinned||(STATE.prefs.pinned=[]);const i=p.indexOf(slug);
+  if(i<0)p.push(slug);else p.splice(i,1);savePrefs();renderCards()}
+function reorder(from,to){
+  if(!from||from===to)return;
+  // Direction-aware: drop from ONTO to and land it on the far side of `to` in the
+  // drag direction. Dragging right onto your neighbour => you swap past it; dragging
+  // left => you swap before it. A single drag onto the adjacent card always moves one
+  // slot (never a no-op), which is what "drag right once replaces the thing next to it" means.
+  const visible=[...document.querySelectorAll('#cards .card')].map(c=>c.dataset.slug);
+  const fi=visible.indexOf(from), ti=visible.indexOf(to);
+  if(fi<0||ti<0)return;
+  const draggingRight = fi < ti;
+  let order=applyOrder(STATE.workstreams||[]).map(w=>w.slug).filter(s=>s!==from);
+  const oti=order.indexOf(to);
+  order.splice(draggingRight?oti+1:oti,0,from);
+  STATE.prefs.order=order; savePrefs(); renderCards();
+}
+function overdue(w){
+  const od=(w.waitings||[]).some(x=>x.overdue_by>0);
+  const duesoon=(w.dues||[]).some(d=>{const days=(new Date(d.date)-new Date())/864e5;return days<=3});
+  return od||duesoon;
+}
+const SEARCH={mode:'exact',level:null,slugs:null,tags:{}};
+let SORT='relevant';
+function categoryMatch(w){
+  switch(active){
+    case 'all':return true;
+    case 'hot':case 'warm':case 'blocked':case 'paused':case 'ember':return w.state===active;
+    case 'waiting':return (w.waitings||[]).length>0;
+    case 'due':return (w.dues||[]).length>0;
+    case 'work':case 'life':case 'research':case 'forge':case 'client':return w.domain===active;
+    case 'now':return false;
+    default:return true;
+  }
+}
+function textMatch(w){
+  const f=$('#filter').value.trim().toLowerCase();
+  if(!f)return true;
+  if(SEARCH.slugs!==null)return SEARCH.slugs.includes(w.slug);
+  return (w.slug+' '+(w.goal||'')+' '+(w.next||'')+' '+(w.notes||[]).join(' ')).toLowerCase().includes(f);
+}
+let searchTimer=null;
+function runSearch(){
+  const q=$('#filter').value.trim();
+  if(!q||SEARCH.mode==='exact'){SEARCH.slugs=null;renderCards();return}
+  post('/api/search',{q,mode:SEARCH.mode,level:SEARCH.level})
+    .then(r=>{SEARCH.slugs=r.slugs||[];renderCards()}).catch(()=>{SEARCH.slugs=null;renderCards()});
+}
+function fetchTags(){api('/api/tags?level='+SEARCH.level).then(r=>{SEARCH.tags=r.tags||{};renderCards()}).catch(()=>{})}
+function cardHTML(w,i){
+  const glow=overdue(w)?' glow':'';
+  const isnow = STATE.now && (w.slug && STATE.now.toLowerCase().includes(w.slug));
+  // Everything below is ledger-derived and NOT all self-authored — captures arrive
+  // from agents and the mail pulses — so it is untrusted text reaching innerHTML.
+  // esc2() existed before this and was applied to exactly ONE thing: the subtask
+  // list inside openDetail(). An earlier version of this comment claimed it was
+  // "applied only in the detail panel", which read as though the panel was the safe
+  // place. It was not — the panel had six raw sinks and a reality check found live
+  // handlers executing there. One escaped call site inside a function is how a
+  // function comes to look handled. It hoists (function declaration), callable here.
+  const wmeta=(w.waitings||[]).map(x=>`waiting ${esc2(x.who)} ${x.days_waiting}d${x.overdue_by>0?' ⚠':''}`).join(' · ');
+  const dmeta=(w.dues||[]).map(d=>`due ${esc2(d.date)} ${esc2(d.what)}`).join(' · ');
+  const meta=[wmeta,dmeta].filter(Boolean).join(' · ');
+  const pinned=(STATE.prefs&&STATE.prefs.pinned||[]).includes(w.slug);
+  return `<div class="card${i===sel?' sel':''}${glow}${isnow?' isnow':''}" draggable="true" data-slug="${escAttr2(w.slug)}" data-i="${i}">
+    <div class="flash">saved draft ✓</div>
+    <h3><span class="grip">⠿</span> ${esc2(w.slug)} <span class="badge b-${escAttr2(w.state)}">${esc2(w.state)}</span> <span class="badge">${esc2(w.domain)}</span><span class="pin${pinned?' on':''}" data-act="pin" title="pin">📌</span></h3>
+    <div class="goal">${esc2(w.goal||'')}</div>
+    <div class="next"><b>NEXT</b> ${esc2(w.next||'—')}</div>
+    ${meta?`<div class="meta${overdue(w)?' od':''}">${meta}</div>`:''}
+    ${(w.tasks&&w.tasks.length)?`<div class="prog"><div class="bar"><div class="fill" style="width:${Math.round(100*w.tasks.filter(t=>t.done).length/w.tasks.length)}%"></div></div><span>${w.tasks.filter(t=>t.done).length}/${w.tasks.length}</span></div>`:''}
+    ${(SEARCH.tags[w.slug]||[]).length?`<div class="tags">${SEARCH.tags[w.slug].map(t=>`<span class="tag">${esc2(t)}</span>`).join('')}</div>`:''}
+    <div class="row">
+      <button class="mini" data-act="done">✓ done</button>
+      <button class="mini" data-act="focus">★ now</button>
+      <button class="mini" data-act="defer">not today</button>
+      <button class="mini zap" data-act="zap" title="instruct Claude on this task">⚡</button>
+    </div>
+    <div class="instruct"><input placeholder="tell Claude to do this…"/><button>send</button></div>
+  </div>`;
+}
+function renderCards(){
+  renderChips();
+  const box=$('#cards');
+  let list=(STATE.workstreams||[]).filter(w=>categoryMatch(w)&&textMatch(w));
+  if(SORT==='recent'){ list=list.slice().sort((a,b)=>(b.recent_ts||0)-(a.recent_ts||0)); }
+  else if(SORT==='urgent'){ list=list.slice().sort((a,b)=>(b.urgency||0)-(a.urgency||0)); }
+  else if(SEARCH.slugs!==null && $('#filter').value.trim()){
+    const rank=s=>{const i=SEARCH.slugs.indexOf(s);return i<0?1e6:i};
+    list=list.slice().sort((a,b)=>rank(a.slug)-rank(b.slug));
+  }else{ list=applyOrder(list); }
+  if(list.length===0){box.innerHTML='<div class="empty">no cards here</div>';return}
+  sel=Math.max(0,Math.min(sel,list.length-1));
+  const _sl=box.scrollLeft;   // preserve horizontal scroll across the innerHTML rebuild
+  box.innerHTML=list.map(cardHTML).join('');
+  $$('#cards .card').forEach(card=>{
+    const slug=card.dataset.slug;
+    card.querySelector('[data-act="done"]').onclick=()=>signal('done',slug,card);
+    card.querySelector('[data-act="focus"]').onclick=()=>signal('focus',slug,card);
+    card.querySelector('[data-act="defer"]').onclick=()=>signal('defer',slug,card);
+    card.querySelector('[data-act="zap"]').onclick=()=>card.querySelector('.instruct').classList.toggle('open');
+    card.querySelector('[data-act="pin"]').onclick=e=>{e.stopPropagation();togglePin(slug)};
+    // drag to reorder
+    card.addEventListener('click',e=>{
+      if(justDragged)return;
+      if(e.target.closest('.mini,.instruct,.pin,.tg,button,input,select'))return;
+      openDetail(slug);
+    });
+    card.addEventListener('dragstart',e=>{dragSlug=slug;card.classList.add('dragging');
+      e.dataTransfer.effectAllowed='move';e.dataTransfer.setData('text/plain',slug)});
+    card.addEventListener('dragend',()=>{justDragged=true;setTimeout(()=>justDragged=false,250);dragSlug=null;
+      $$('#cards .card').forEach(c=>c.classList.remove('dragging','dropbefore','dropafter'))});
+    card.addEventListener('dragover',e=>{if(!dragSlug||dragSlug===slug)return;e.preventDefault();
+      const cards=[...document.querySelectorAll('#cards .card')];
+      const fi=cards.findIndex(c=>c.dataset.slug===dragSlug), ti=cards.indexOf(card);
+      const right=fi>=0&&fi<ti;   // dragging rightward → the card lands AFTER this one
+      card.classList.toggle('dropafter',right);card.classList.toggle('dropbefore',!right)});
+    card.addEventListener('dragleave',()=>card.classList.remove('dropbefore','dropafter'));
+    card.addEventListener('drop',e=>{e.preventDefault();if(!dragSlug)return;
+      card.classList.remove('dropbefore','dropafter');reorder(dragSlug,slug)});
+    const inp=card.querySelector('.instruct input'), btn=card.querySelector('.instruct button');
+    const send=()=>{const t=inp.value.trim();if(!t)return;post('/api/action',{slug,text:t}).then(()=>{
+      inp.value='';card.querySelector('.instruct').classList.remove('open');flash(card);pollQueue();});};
+    btn.onclick=send; inp.onkeydown=e=>{if(e.key==='Enter')send();if(e.key==='Escape')card.querySelector('.instruct').classList.remove('open')};
+  });
+  // Only snap to the selected card on intentional navigation (arrows / category switch);
+  // background polls preserve wherever the user has scrolled to.
+  if(navMove){const s=$$('#cards .card')[sel]; if(s)s.scrollIntoView({inline:'nearest',block:'nearest'}); navMove=false;}
+  else{box.scrollLeft=_sl;}
+}
+let detailSlug=null, justDragged=false;
+function esc2(x){return String(x==null?'':x).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+// esc2 covers & < > " which is enough for element content and for double-quoted
+// attributes, but it leaves the single quote alone — so it is one single-quoted
+// attribute away from being a hole. escAttr2 is the form to use inside any attribute,
+// so that stays true no matter which quote style someone reaches for later.
+function escAttr2(x){return esc2(x).replace(/'/g,'&#39;')}
+function openDetail(slug){
+  const w=(STATE.workstreams||[]).find(x=>x.slug===slug); if(!w)return;
+  detailSlug=slug;
+  // Every one of these is ledger-derived and reaches dpanel.innerHTML. They were ALL
+  // raw until now: who, what, due text, notes, journal lines, goal, next. Only the
+  // subtasks below were escaped, which is precisely why the gap survived a review —
+  // one escaped call site inside the function made the whole function look handled.
+  // Keep journal-derived text escaped if a journal adapter is added later.
+  const wmeta=(w.waitings||[]).map(x=>`<div class="dwait${x.overdue_by>0?' od':''}">⏳ waiting on <b>${esc2(x.who)}</b> — ${esc2(x.what)} — ${x.days_waiting}d${x.overdue_by>0?' (overdue by '+x.overdue_by+'d)':''}</div>`).join('');
+  const dmeta=(w.dues||[]).map(d=>`<div class="ddue">📅 due ${esc2(d.date)} — ${esc2(d.what)} [${esc2(d.kind)}]</div>`).join('');
+  const notes=(w.notes||[]).map(n=>`<div class="dnote">${esc2(n)}</div>`).join('');
+  const journal=(STATE.journal||[]).filter(l=>l.toLowerCase().includes(slug.toLowerCase())).slice(0,6)
+    .map(l=>`<div class="djournal">${esc2(l)}</div>`).join('');
+  const tags=(SEARCH.tags[slug]||[]).map(t=>`<span class="tag">${esc2(t)}</span>`).join('');
+  document.getElementById('dpanel').innerHTML=`
+    <div class="dhead"><h2>${esc2(w.slug)}</h2>
+      <span class="badge b-${escAttr2(w.state)}">${esc2(w.state)}</span><span class="badge">${esc2(w.domain)}</span>
+      <span class="close" title="esc">✕</span></div>
+    <div class="dgoal">${esc2(w.goal||'')}</div>
+    ${tags?`<div class="tags">${tags}</div>`:''}
+    <div class="dsec">Next</div><div class="dnext">${esc2(w.next||'—')}</div>
+    <div class="dsec">Subtasks ${(w.tasks&&w.tasks.length)?`(${w.tasks.filter(t=>t.done).length}/${w.tasks.length})`:''}</div>
+    <div id="dtasks">${(w.tasks||[]).map(t=>`<div class="stask${t.done?' done':''}" data-t="${escAttr2(t.text)}" style="margin-left:${t.depth*22}px"><span class="cb">${t.done?'✓':''}</span><span>${esc2(t.text)}</span></div>`).join('')||''}</div>
+    <div class="dinstr" style="margin-top:6px"><input id="dtask-in" placeholder="add a subtask…"/><button id="dtask-go">＋</button></div>
+    ${(wmeta||dmeta)?`<div class="dsec">Waiting / due</div>${wmeta}${dmeta}`:''}
+    ${notes?`<div class="dsec">Notes</div>${notes}`:''}
+    <div class="dsec">Local instruction drafts (not executed)</div><div id="dq"><span class="empty" style="padding:4px">none yet</span></div>
+    ${journal?`<div class="dsec">Recent activity (git)</div>${journal}`:''}
+    <div class="drow">
+      <button class="mini" data-da="done">✓ done</button>
+      <button class="mini" data-da="focus">★ make NOW</button>
+      <button class="mini" data-da="defer">not today</button>
+    </div>
+    <div class="dinstr"><input id="dinstr-in" placeholder="tell Claude to do something on ${escAttr2(w.slug)}…"/><button id="dinstr-go">⚡ send</button></div>`;
+  const dp=document.getElementById('dpanel');
+  dp.querySelector('.close').onclick=closeDetail;
+  dp.querySelectorAll('[data-da]').forEach(b=>b.onclick=()=>{post('/api/capture',{text:slug,tag:b.dataset.da}).then(()=>{closeDetail();load()})});
+  dp.querySelectorAll('.stask').forEach(el=>el.onclick=()=>{
+    post('/api/mutate',{slug,op:'taskToggle',value:{text:el.dataset.t}})
+      .then(()=>api('/api/state')).then(st=>{STATE=st;STATE.prefs=STATE.prefs||{order:[],pinned:[]};openDetail(slug);renderCards()});
+  });
+  const ti=dp.querySelector('#dtask-in'), tg=dp.querySelector('#dtask-go');
+  const addSub=()=>{const t=ti.value.trim();if(!t)return;
+    post('/api/mutate',{slug,op:'taskAdd',value:{text:t}})
+      .then(()=>api('/api/state')).then(st=>{STATE=st;STATE.prefs=STATE.prefs||{order:[],pinned:[]};openDetail(slug);renderCards()});};
+  tg.onclick=addSub; ti.onkeydown=e=>{if(e.key==='Enter')addSub();e.stopPropagation()};
+  const di=dp.querySelector('#dinstr-in'), dg=dp.querySelector('#dinstr-go');
+  const send=()=>{const t=di.value.trim();if(!t)return;post('/api/action',{slug,text:t}).then(()=>{di.value='';pollQueue();refreshDetailQueue(slug)})};
+  dg.onclick=send; di.onkeydown=e=>{if(e.key==='Enter')send();e.stopPropagation()};
+  document.getElementById('detail').classList.add('open');
+  refreshDetailQueue(slug);
+}
+function refreshDetailQueue(slug){
+  api('/api/queue').then(qd=>{
+    const items=[...(qd.pending||[]),...(qd.done||[])].filter(a=>a.slug===slug).slice(0,8);
+    const el=document.getElementById('dq'); if(!el)return;
+    // a.text is whatever was POSTed to /api/action and a.result is the AGENT's own
+    // free-text output, so both are untrusted by exactly the argument that justified
+    // escaping the card path. a.status lands in a class attribute, so it needs the
+    // attribute-safe form.
+    el.innerHTML=items.length?items.map(a=>`<div class="dq ${escAttr2(a.status)}"><span class="st">${esc2(a.status)}</span>${esc2(a.text)}
+      ${a.result?`<span class="res">→ ${esc2(a.result)}</span>`:''}</div>`).join('')
+      :'<span class="empty" style="padding:4px">none yet</span>';
+  }).catch(()=>{});
+}
+function closeDetail(){detailSlug=null;document.getElementById('detail').classList.remove('open')}
+document.getElementById('detail').addEventListener('click',e=>{if(e.target.id==='detail')closeDetail()});
+function flash(card){const f=card.querySelector('.flash');f.classList.add('show');setTimeout(()=>f.classList.remove('show'),1200)}
+function signal(tag,slug,card){post('/api/capture',{text:slug,tag}).then(()=>{card.querySelector('.flash').textContent=tag+' ✓';flash(card)})}
+
+function renderNow(){$('#nowtxt').textContent=STATE.now||'—';
+  $('#now').querySelectorAll('[data-now]').forEach(button=>button.disabled=!STATE.now);
+  $('#head').textContent=(STATE.git_head||STATE.head||'').slice(0,12)+' · '+((STATE.workstreams||[]).length)+' streams'+(STATE.dirty?' · dirty':'');}
+$('#now').querySelector('[data-now="done"]').onclick=()=>post('/api/capture',{text:'NOW: '+STATE.now,tag:'done'});
+$('#now').querySelector('[data-now="replan"]').onclick=()=>{const t=prompt('Save a local replan instruction (not executed):');if(t)post('/api/action',{slug:'questlog',text:'Replan the NOW task. '+t})};
+
+function renderQueue(q){
+  const box=$('#qitems'); const all=[...(q.pending||[]),...(q.done||[])];
+  if(all.length===0){box.innerHTML='<span class="empty" style="padding:0">idle</span>';return}
+  box.innerHTML=all.slice(0,24).map(a=>{
+    // The old `tip` escaped only the double quote, which closes the attribute-breakout
+    // but still lets < and > through into the title attribute's value. Use the
+    // attribute escaper. a.slug is only .strip()[:64] server-side with no charset
+    // validation, and the 40-char slice is not a mitigation — a working payload is
+    // 28 characters.
+    const st=a.status; const tip=escAttr2(a.result||a.text||'');
+    return `<span class="qi ${escAttr2(st)}" title="${tip}"><span class="s">${esc2(a.slug)}</span>${esc2((a.text||'').slice(0,40))}<span style="color:var(--muted)"> · ${esc2(st)}</span></span>`;
+  }).join('');
+}
+function pollQueue(){api('/api/queue').then(renderQueue).catch(()=>{})}
+
+function load(){api('/api/state').then(s=>{s.prefs=s.prefs||{order:[],pinned:[]};
+  s.prefs.order=s.prefs.order||[];s.prefs.pinned=s.prefs.pinned||[];
+  STATE=s;renderNow();renderCards()}).catch(()=>{})}
+
+// keyboard
+document.addEventListener('keydown',e=>{
+  if(e.target.tagName==='INPUT'){if(e.key==='Escape')e.target.blur();return}
+  if(e.key==='/'){e.preventDefault();$('#filter').focus();return}
+  if(e.key==='f'){toggleFocus();return}
+  if(e.key==='Escape'){if(detailSlug){closeDetail();return}if(focus)toggleFocus();else{$('#filter').value='';renderCards()}return}
+  if((e.metaKey)&&e.key>='1'&&e.key<='9'){e.preventDefault();const f=FILTERS[+e.key];if(f){active=f.key;sel=0;navMove=true;renderCards()}return}
+  const cards=$$('#cards .card');
+  if(e.key==='ArrowRight'){sel=Math.min(sel+1,cards.length-1);navMove=true;renderCards()}
+  if(e.key==='ArrowLeft'){sel=Math.max(sel-1,0);navMove=true;renderCards()}
+  if(e.key==='Enter'&&cards[sel]){cards[sel].querySelector('[data-act="zap"]').click();
+    setTimeout(()=>cards[sel]&&cards[sel].querySelector('.instruct input').focus(),0)}
+});
+$('#filter').addEventListener('input',()=>{clearTimeout(searchTimer);
+  if(SEARCH.mode==='exact'){SEARCH.slugs=null;renderCards();return}
+  searchTimer=setTimeout(runSearch,220)});
+$$('#sorts button[data-s]').forEach(b=>b.onclick=()=>{SORT=b.dataset.s;
+  $$('#sorts button[data-s]').forEach(x=>x.classList.toggle('on',x===b));renderCards()});
+$$('#srch button[data-mode]').forEach(b=>b.onclick=()=>{SEARCH.mode=b.dataset.mode;
+  $$('#srch button[data-mode]').forEach(x=>x.classList.toggle('on',x===b));runSearch()});
+function toggleFocus(){focus=!focus;document.body.classList.toggle('focus',focus);$('#focusBtn').classList.toggle('on',focus)}
+$('#focusBtn').onclick=toggleFocus;
+$('#newBtn').onclick=()=>{ // native app opens the palette; plain browser opens /quickadd
+  try{window.webkit.messageHandlers.quick.postMessage('x');return}catch(e){}
+  window.open('/quickadd','questlog-quickadd','width=640,height=420');
+};
+
+renderChips();load();pollQueue();fetchTags();
+setInterval(load,8000); setInterval(pollQueue,2500);
+</script>
+</body>
+</html>

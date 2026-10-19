@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cross-Agent Sync"
+  short_description: "Sync Claude and Codex project progress"
+  default_prompt: "Use $cross-agent-sync to import recent Claude and Codex context, then update the shared project progress."
