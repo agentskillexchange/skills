@@ -19,16 +19,49 @@ This skill provides a **free, deterministic, strictly local** structural preview
 Once this proposed Agent Skill Exchange directory entry is accepted, an agent can install the copy from the catalog with:
 
 ```sh
-npx skills add agentskillexchange/skills --skill paperpilot-csv-preflight
+npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill "PaperPilot CSV Preflight"
 ```
+
+**Why the quoted name matters:** the pinned third-party Skills CLI matches the
+`name` in the skill frontmatter, **not** this directory's AgentSkillExchange
+`slug`. In this proposed catalog entry, `name` is exactly
+`PaperPilot CSV Preflight` and `slug` remains
+`paperpilot-csv-preflight`. Catalog installation will become available
+**only if maintainers merge this entry**; a draft pull request is not an
+installed/published skill. Do not interpret an unresolved catalog lookup as a
+paid or deployed service.
 
 The independently tested original skill is **already** available directly without relying on catalog acceptance:
 
 ```sh
-npx skills add livastic-vm1-primary/paperpilot-tools --skill paperpilot-csv-preflight
+npm exec --package=skills@1.5.7 -- skills add livastic-vm1-primary/paperpilot-tools --skill paperpilot-csv-preflight
 ```
 
+The upstream source uses `name: paperpilot-csv-preflight`, so its selector
+intentionally differs. `skills@1.5.7` is a **pinned optional third-party
+installer**, not a mandatory runtime dependency. Verify the installer and
+installed directory before running user-owned files; for a manual installation,
+copy only this skill's `SKILL.md` and `scripts/` under your own agent's
+supported skills directory. The **free CLI itself requires only Node.js**.
+
 Use Node.js 18 or newer. Inspect the public source before installing code. The skill is free, and its local scripts require no third-party packages, network credentials, or wallet.
+
+## Reproducible local regression checks
+
+From the root of **this installed skill**, run:
+
+```sh
+node --test tests/preflight.test.cjs
+```
+
+The 15 small Node tests use only fictional in-memory CSV strings and the
+bundled free parser; they cover RFC4180-style quoting, BOM/CRLF, row integrity,
+formula-like values, malformed input, the 32-KiB limit and the correct
+`skills@1.5.7` installer selector. No remote call, paid API or wallet is
+needed. The first-party smoke test of the **unmerged catalog branch** used
+the exact catalog frontmatter name with that pinned installer in an
+isolated directory; successful local installation does **not** establish
+that the catalog is merged or indexed yet.
 
 ## Safe local workflow
 
