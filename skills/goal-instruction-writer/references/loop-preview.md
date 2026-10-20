@@ -96,7 +96,8 @@ focused change → run the fixture test → record the diff and result.
   focused change.
 - Same failure twice: stop as `GOAL BLOCKED` with the exact missing evidence.
 - Useful unrelated cleanup: mark `SIDE_QUEST` and defer it.
-- No criterion moves or scope expands: pause as
+- Two equivalent actionable attempts add neither acceptance progress nor new
+  relevant evidence, or scope expands without approval: stop and emit
   `GOAL REALIGNMENT REQUIRED`.
 
 ### Gate and limits
