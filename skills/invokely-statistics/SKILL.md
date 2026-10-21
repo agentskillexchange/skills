@@ -6,11 +6,12 @@ category: "Data Extraction & Transformation"
 framework: "MCP"
 verification: listed
 source: "https://github.com/estevecastells/awesome-copilot"
+license: MIT
 ---
 
 # Invokely Statistics
 
-Use this skill when a user needs an official statistical figure, time series, comparison, or geographic ranking. Configure an MCP client with the Invokely server before calling tools; the no-account endpoint is `https://invokely.ai/mcp/trial`, while `https://invokely.ai/mcp` requires an API key or OAuth. Read each tool's current schema and description before calling it. Do not guess indicator IDs, place IDs, periods, or argument names. The source skill is available at the public [awesome-copilot file at commit `9d96d33228f753cf26d7da5115598da2c19ad900`](https://github.com/estevecastells/awesome-copilot/blob/9d96d33228f753cf26d7da5115598da2c19ad900/skills/invokely-statistics/SKILL.md); its originating [PR #4950](https://github.com/github/awesome-copilot/pull/4950) remains open and unmerged. Disclosure: the author is affiliated with Invokely.
+Use this skill when a user needs an official statistical figure, time series, comparison, or geographic ranking. Configure an MCP client with the Invokely server before calling tools; the no-account endpoint is `https://invokely.ai/mcp/trial`, while `https://invokely.ai/mcp` requires an API key or OAuth. Read each tool's current schema and description before calling it. Do not guess indicator IDs, place IDs, periods, or argument names. The source skill is available at the public [awesome-copilot file at commit `9d96d33228f753cf26d7da5115598da2c19ad900`](https://github.com/estevecastells/awesome-copilot/blob/9d96d33228f753cf26d7da5115598da2c19ad900/skills/invokely-statistics/SKILL.md). It was proposed separately in [github/awesome-copilot PR #4950](https://github.com/github/awesome-copilot/pull/4950); this Agent Skill Exchange submission is independent and does not imply upstream acceptance. Disclosure: the author is affiliated with Invokely.
 
 ## Query workflow
 
@@ -42,7 +43,7 @@ The no-account trial allows 25 calls per day per IP address. Registered Free acc
 
 ## Installation
 
-The source contribution in `github/awesome-copilot` is still open and unmerged. Until this Agent Skill Exchange contribution merges, install the submitted copy from its public PR branch; this is not a catalog release or a stable package installer. Configure the MCP endpoint separately as described above.
+Install this submitted copy from its public PR branch; it is not a catalog release or a stable package installer. Configure the MCP endpoint separately as described above.
 
 ```bash
 git clone --depth 1 --branch codex/invokely-statistics-ase https://github.com/estevecastells/skills.git /tmp/invokely-statistics-ase
