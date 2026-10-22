@@ -41,18 +41,24 @@ The upstream source uses `name: paperpilot-csv-preflight`, so its selector
 intentionally differs. `skills@1.5.7` is a **pinned optional third-party
 installer**, not a mandatory runtime dependency. Verify the installer and
 installed directory before running user-owned files; for a manual installation,
-copy only this skill's `SKILL.md` and `scripts/` under your own agent's
-supported skills directory. The **free CLI itself requires only Node.js**.
+copy this catalog skill's `SKILL.md`, `scripts/`, and `tests/` together under
+your own agent's supported skills directory. The **free CLI itself requires only Node.js**.
 
 Use Node.js 18 or newer. Inspect the public source before installing code. The skill is free, and its local scripts require no third-party packages, network credentials, or wallet.
 
 ## Reproducible local regression checks
 
-From the root of **this installed skill**, run:
+For the catalog copy (including a manual copy of all three items above), run
+from the root of **this installed skill**:
 
 ```sh
 node --test tests/preflight.test.cjs
 ```
+
+The original upstream skill currently ships `SKILL.md` and `scripts/`, without
+this catalog regression suite. For an upstream-only installation, use
+`node scripts/preflight.cjs --demo` as a smoke check; run the suite from
+the catalog copy.
 
 The 15 small Node tests use only fictional in-memory CSV strings and the
 bundled free parser; they cover RFC4180-style quoting, BOM/CRLF, row integrity,
@@ -96,4 +102,4 @@ Only if the **buyer explicitly asks** for a remotely hosted, programmatic report
 
 The local parser understands ordinary comma-delimited RFC4180-style quoted fields, doubled quotes, CRLF, UTF-8 BOM and embedded newlines. It applies simple heuristic formula prefix warnings but **does not neutralize spreadsheet formulas**. Whitespace-sensitive duplicate row detection may disagree with a domain-specific comparison. CSV dialects with semicolon delimiters, unescaped quotes or large files may require a different parser. No logs, uploads or wallet operations are necessary for a free answer.
 
-Source and reproducible tests: https://github.com/livastic-vm1-primary/paperpilot-tools/tree/main/.agents/skills/paperpilot-csv-preflight
+Original source: https://github.com/livastic-vm1-primary/paperpilot-tools/tree/main/.agents/skills/paperpilot-csv-preflight
