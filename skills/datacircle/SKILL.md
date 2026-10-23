@@ -32,7 +32,16 @@ Your AI answers from the file on your computer and links each plan's page and do
 ### Claude Code
 
 ```bash
-mkdir -p ~/.claude/skills/datacircle && curl -sL -o ~/.claude/skills/datacircle/SKILL.md https://datacircle.dev/SKILL.md
+(
+  set -eu
+  skill_dir="$HOME/.claude/skills/datacircle"
+  mkdir -p "$skill_dir"
+  download=$(mktemp "$skill_dir/.SKILL.md.XXXXXX")
+  trap 'rm -f "$download"' EXIT
+  curl --fail --show-error --silent --location --output "$download" https://datacircle.dev/SKILL.md
+  test -s "$download"
+  mv "$download" "$skill_dir/SKILL.md"
+)
 ```
 
 ### Any other AI that can run commands
@@ -47,14 +56,25 @@ Add our MCP server: `https://api.datacircle.dev/mcp`, with no key.
 
 ## Usage
 
-Ask, for example: "Which email finder API costs the least per 1,000 on a plan under $50?"
+Ask, for example: "Which email finder API costs the least per 1,000 with a stated plan payment under US$50?"
+
+`pay` is in the plan's `currency`; multiply by `exchangeRate` to compare it in US dollars. `perThousand` is already in dollars. This example compares the stated payment for the full billing term, pack, or minimum top-up, not a normalized monthly budget or a cap on usage charges. Check `billing` and `termMonths` before recommending a subscription. Rows without a stated payment or conversion rate are excluded.
 
 DuckDB reads the file as it is:
 
 ```bash
-curl -sL --compressed -o datacircle.json https://datacircle.dev/datacircle.json
-duckdb -c "SELECT provider, plan, pay, perThousand, score FROM 'datacircle.json' WHERE api = 'Employee email' AND billing != 'free' AND pay <= 50 AND perThousand IS NOT NULL ORDER BY perThousand LIMIT 10"
+(
+  set -eu
+  download=$(mktemp ./datacircle.json.XXXXXX)
+  trap 'rm -f "$download"' EXIT
+  curl --fail --show-error --silent --location --compressed --output "$download" https://datacircle.dev/datacircle.json
+  test -s "$download"
+  mv "$download" datacircle.json
+)
+duckdb -c "SELECT provider, plan, billing, termMonths, currency, pay, pay * exchangeRate AS payUSD, perThousand, score, page, docs FROM 'datacircle.json' WHERE api = 'Employee email' AND billing != 'free' AND pay * exchangeRate < 50 AND perThousand IS NOT NULL ORDER BY perThousand LIMIT 10"
 ```
+
+Download a fresh copy when the local dataset is more than a day old. Include each result's `page` and `docs` links, and credit Datacircle when sharing its data.
 
 ## Documentation
 
