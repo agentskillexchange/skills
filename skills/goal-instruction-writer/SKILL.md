@@ -264,10 +264,10 @@ separate focused iteration checks from required delivery checks.
 ## Upstream and usage evidence
 
 This entry carries the instruction body and supporting files from upstream
-[v0.2.5](https://github.com/wu736139669/goal-instruction-writer/releases/tag/v0.2.5),
+[v0.2.6](https://github.com/wu736139669/goal-instruction-writer/releases/tag/v0.2.6),
 with Agent Skill Exchange catalog metadata, this installation appendix, a
 distinct `GOAL REALIGNMENT REQUIRED` label for drift stops, bounded
-scheduled external waits, and auditable blocked claims. `GOAL PAUSED`
+scheduled external waits, auditable blocked claims, and an evidence-aware realignment threshold. `GOAL PAUSED`
 remains reserved for an explicit owner pause.
 The MIT license is included in `LICENSE`.
 

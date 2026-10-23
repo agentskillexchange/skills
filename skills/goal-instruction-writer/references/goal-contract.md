@@ -33,7 +33,7 @@ with no progress signal can stop at the wrong time.
 | Work unit | What is one iteration small enough to verify? | One hypothesis, patch, experiment, or review slice |
 | Progress signal | What changes after a useful iteration? | New evidence, reduced gap, changed artifact, or decision |
 | Alignment check | How is each iteration tied back to the Goal? | Target criterion, expected delta, scope reason, alignment label |
-| Drift trigger | When must the loop stop and realign? | No criterion moved, silent scope change, repeated no-progress iterations |
+| Drift trigger | When must the loop stop and realign? | Two materially equivalent attempts with neither acceptance progress nor new relevant evidence, or an unapproved scope change |
 | Phase gate | When is the Anchor re-read? | Every 3–5 iterations, milestone, or before irreversible work |
 | Decision log | What prevents rationale from being lost? | Decision, evidence, criterion, rejected side quest, scope impact |
 | Limit | When must the loop yield? | Time, attempts, token/tool budget, or finite queue |

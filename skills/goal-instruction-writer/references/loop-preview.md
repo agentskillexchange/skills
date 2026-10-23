@@ -99,7 +99,8 @@ focused change → run the fixture test → record the diff and result.
   named dependency is the actual cause, with the attempts made and the unblock
   condition.
 - Useful unrelated cleanup: mark `SIDE_QUEST` and defer it.
-- No criterion moves or scope expands: pause as
+- Two materially equivalent attempts add neither acceptance progress nor new
+  relevant evidence, or the Anchor/scope changes without approval: pause as
   `GOAL REALIGNMENT REQUIRED`.
 
 ### Gate and limits
