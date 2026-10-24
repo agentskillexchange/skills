@@ -75,7 +75,7 @@
       "id": "prompt.system_heading",
       "class": "prompt_injection",
       "severity": "high",
-      "regex": "###?\\s*SYSTEM",
+      "regex": "(?m)^[ \\t]{0,3}#{1,6}[ \\t]+SYSTEM(?:[ \\t]+#+)?[ \\t]*$",
       "flags": "i"
     },
     {
@@ -355,7 +355,7 @@
       "id": "credentials.read_secret_file",
       "class": "credential_harvesting",
       "severity": "high",
-      "regex": "(?:less|more|head|tail|grep)\\s+.*(?:\\.env|id_rsa|\\.pem|\\.key)",
+      "regex": "(?m)^[ \\t]*(?:\\$[ \\t]*)?(?:sudo[ \\t]+)?(?:less|more|head|tail|grep)\\b[ \\t]+[^\\r\\n]*(?:\\.env|id_rsa|\\.pem|\\.key)\\b",
       "flags": "i"
     },
     {
