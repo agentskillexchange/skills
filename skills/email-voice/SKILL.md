@@ -15,7 +15,7 @@ Learn the current user's writing patterns from their own sent mail. Turn those o
 
 ## Installation
 
-Upstream: [DEX-XL/email-voice](https://github.com/DEX-XL/email-voice). The full instruction body below is adapted from the public v0.1.0 skill with its embedded MIT license retained. Catalog-specific frontmatter and this installation section are the only changes. It has no bundled connector, server, credentials or executable runtime.
+Upstream: [DEX-XL/email-voice](https://github.com/DEX-XL/email-voice). The full instruction body is reproduced unchanged from the public [v0.1.0 skill](https://github.com/DEX-XL/email-voice/blob/v0.1.0/skills/email-voice/SKILL.md) with its embedded MIT license retained. Catalog-specific frontmatter and this installation section are the only changes. It has no bundled connector, server, credentials or executable runtime.
 
 ### Codex project installation
 
@@ -29,7 +29,7 @@ The upstream repository documents a Windows copy-install check with CLI 1.7.4 an
 
 ### Claude native skill upload and other assistants
 
-Download [the upstream one-file ZIP](https://github.com/DEX-XL/email-voice/releases/download/v0.1.0/email-voice.zip), upload it using Claude's supported Customize > Skills flow, save and enable it. For an interface that accepts a single instruction file, extract SKILL.md. See [platform-specific notes](https://github.com/DEX-XL/email-voice/blob/main/docs/COMPATIBILITY.md) for documented routes and live-test limits. No ClawHub publication or universal ZIP importer is claimed.
+Download [the upstream one-file ZIP](https://github.com/DEX-XL/email-voice/releases/download/v0.1.0/email-voice.zip), upload it using Claude's supported Customize > Skills flow, save and enable it. For an interface that accepts a single instruction file, extract SKILL.md. See [platform-specific notes](https://github.com/DEX-XL/email-voice/blob/v0.1.0/docs/COMPATIBILITY.md) for documented routes and live-test limits. No ClawHub publication or universal ZIP importer is claimed.
 
 ### First use
 
