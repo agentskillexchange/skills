@@ -24,7 +24,7 @@ Authentication is OAuth 2.1: the client reads `/.well-known/oauth-protected-reso
 
 ## The tools
 
-All seven tools query the live catalog:
+The server exposes seven tools for catalog discovery, use cases, entitlements, and checkout:
 
 - `search_skills` — keyword search across the skill catalog, with optional `category` / `source` filters. Returns name, description, category, source, price, and page link per skill.
 - `get_skill` — full detail for one skill: description, audience, page link, install guide. The `agent` parameter (`claude` default, `codex`, `gemini`, `antigravity`, `other`) localizes the install instructions to the caller's platform. Paid originals return a paywalled install block until the skill is bought or Pro is active; community skills are free and unlocked.
