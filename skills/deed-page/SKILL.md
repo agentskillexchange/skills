@@ -17,7 +17,7 @@ deed.page is a static host built for agents. The agent picks a slug, sends one H
 
 The REST API takes a raw HTML body (stored as `index.html`), a gzipped tarball of a folder (paths kept exactly), multipart uploads, or a JSON map of file paths to contents. The same operations are exposed by a remote MCP server at `https://deed.page/mcp` (Streamable HTTP, no auth) with tools such as `publish_site`, `update_site`, `list_versions`, `restore_version` and `delete_site`. The full API is described at https://deed.page/docs and https://deed.page/openapi.json.
 
-The first publish returns a `token` once. It is the only key that can update or delete that site. Keep it in the `DEEDPAGE_TOKEN` environment variable for the session and send it as `Authorization: Bearer` on later publishes so all slugs share one owner. Only a SHA-256 of the token is stored server-side, so a token without the optional recovery email cannot be recovered.
+The first publish without a token returns a `token` once. It is the only key that can update or delete that site. Keep it in private durable storage, for example `~/.config/deed-page/token` with `chmod 600` on the file and `chmod 700` on the directory, not only in a session variable. Before every publish, in this session and later ones, load it from `DEEDPAGE_TOKEN` or that file and send it as `Authorization: Bearer`, so publishes to new slugs stay under the same owner. Authenticated responses carry no `token`, so never overwrite a saved token with an empty value. If the host has no private persistent storage, tell the user and offer to keep the token in a credential store they manage. Never print the token or put it in published files, repositories or logs. Only a SHA-256 of the token is stored server-side, so a token without the optional recovery email cannot be recovered.
 
 Limits on the free plan: 25 sites, 25 MB per site, 60 publishes per hour, and a 4 MB cap per request body (larger sites use the manifest upload flow in the docs). Free sites are public. Static files only: no server-side code or databases.
 
@@ -26,7 +26,7 @@ Limits on the free plan: 25 sites, 25 MB per site, 60 publishes per hour, and a 
 ### Any agent (skills CLI)
 
 ```bash
-npx skills add f-o-x11/deed-page-skill
+npx skills@1.7.4 add f-o-x11/deed-page-skill
 ```
 
 ### Claude Code (plugin)
@@ -63,23 +63,40 @@ mkdir -p ~/.claude/skills && cp -R /tmp/deed-page-skill/skills/deed-page ~/.clau
 
 1. Confirm with the user that the content may be public. Never publish secrets, credentials or private data to a free site.
 2. Pick a slug of lowercase letters, digits and hyphens (1 to 63 characters, no leading or trailing hyphen) with a random suffix, for example `report-7f3a2c`. Invalid slugs return 400 `slug_invalid` and are not rewritten.
-3. Publish a single HTML file:
+3. Publish a single HTML file. The first lines load the saved token, and the `Authorization` header is sent only when a token exists:
 
-   ```bash
-   curl -sS -T index.html "https://deed.page/v1/sites?slug=report-7f3a2c" -H "X-Client: <agent name>"
+   ```sh
+   TOKEN=${DEEDPAGE_TOKEN:-$(cat ~/.config/deed-page/token 2>/dev/null)}
+   set --
+   if [ -n "$TOKEN" ]; then set -- -H "Authorization: Bearer $TOKEN"; fi
+   RESP=$(curl -sS -T index.html "https://deed.page/v1/sites?slug=report-7f3a2c" -H "X-Client: <agent name>" "$@")
    ```
 
    Or a folder, with its contents at the site root:
 
-   ```bash
+   ```sh
+   TOKEN=${DEEDPAGE_TOKEN:-$(cat ~/.config/deed-page/token 2>/dev/null)}
+   set --
+   if [ -n "$TOKEN" ]; then set -- -H "Authorization: Bearer $TOKEN"; fi
    tar -C ./site -czf /tmp/site.tar.gz .
-   curl -sS -T /tmp/site.tar.gz "https://deed.page/v1/sites?slug=report-7f3a2c" -H "X-Client: <agent name>"
+   RESP=$(curl -sS -T /tmp/site.tar.gz "https://deed.page/v1/sites?slug=report-7f3a2c" -H "X-Client: <agent name>" "$@")
    ```
 
-4. Answer with the `url` field from the JSON. On the first publish, tell the user the returned `token` is the key to update or delete the site and keep it in `DEEDPAGE_TOKEN`.
-5. To update, repeat the publish with `-H "Authorization: Bearer $DEEDPAGE_TOKEN"`. Send `-H 'If-Match: "v3"'` with the last version to get 409 `version_conflict` instead of overwriting a newer version.
+4. Save a newly returned token, then show the response with the token masked. Only a publish without a token returns `token`; the file is written only when the value is non-empty, so an existing saved token is never replaced with an empty one:
+
+   ```sh
+   NEW=$(printf '%s' "$RESP" | sed -n 's/.*"token": *"\(deed_tok_[^"]*\)".*/\1/p')
+   if [ -n "$NEW" ]; then
+     (umask 077 && mkdir -p ~/.config/deed-page && chmod 700 ~/.config/deed-page && printf '%s' "$NEW" > ~/.config/deed-page/token && chmod 600 ~/.config/deed-page/token)
+     TOKEN=$NEW
+   fi
+   printf '%s\n' "$RESP" | sed 's/"token": *"[^"]*"/"token":"<saved>"/'
+   ```
+
+   Answer with the `url` field. On the first publish, tell the user the token is the key to update or delete the site and where it is saved, without showing it.
+5. To update, run the same publish again; it sends the saved token. Send `-H 'If-Match: "v3"'` with the last version to get 409 `version_conflict` instead of overwriting a newer version.
 6. On 409 `slug_taken`, use the `suggestion` field. On 429, wait `retry_after` seconds.
-7. Delete a site only when the user asks: `curl -X DELETE https://deed.page/v1/sites/<slug> -H "Authorization: Bearer $DEEDPAGE_TOKEN"`.
+7. Delete a site only when the user asks: `curl -X DELETE https://deed.page/v1/sites/<slug> -H "Authorization: Bearer $TOKEN"`, with `TOKEN` loaded as in step 3.
 
 ## Licensing
 
