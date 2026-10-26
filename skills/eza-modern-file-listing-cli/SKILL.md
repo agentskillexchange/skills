@@ -3,8 +3,9 @@ name: "eza Modern File Listing CLI"
 slug: "eza-modern-file-listing-cli"
 description: "A modern, maintained replacement for the ls command, written in Rust. eza provides colorized output, Git integration, tree views, symlink awareness, and extended attribute support in a single fast binary."
 github_stars: 20929
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/eza-community/eza"
+author: "eza-community"
 category: "Developer Tools"
 framework: "Claude Code"
 tool_ecosystem:
@@ -18,13 +19,9 @@ A modern, maintained replacement for the ls command, written in Rust. eza provid
 
 ## Installation
 
-Basic usage or getting-started notes:
-- See the man pages for further documentation of usage. They are available
-- An example theme file is available in docs/theme.yml, and needs to either be placed in a directory specified by the
-- Full details are available on the [man page](https://github.com/eza-community/eza/tree/main/man/eza_colors-explanation.5.md) and an example theme file is included [here](https://github.com/eza-community/eza/tree/main/...
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
 - Source: https://github.com/eza-community/eza
-- Extracted from upstream docs: https://raw.githubusercontent.com/eza-community/eza/HEAD/README.md
 
 ## Source
 

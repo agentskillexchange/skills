@@ -15511,7 +15511,7 @@ url: https://agentskillexchange.com/skills/upstash-mcp-server-redis-qstash-manag
 slug: chroma-mcp-server-embedding-database-operations
 category: Integrations & Connectors
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: An official MCP server for the Chroma open-source embedding database. Enables AI agents to create collections, add documents, perform vector search, full-text search, and…
 url: https://agentskillexchange.com/skills/chroma-mcp-server-embedding-database-operations/
 
@@ -15527,7 +15527,7 @@ url: https://agentskillexchange.com/skills/cloudflare-mcp-servers-workers-securi
 slug: qdrant-mcp-server-vector-search-semantic-memory
 category: Integrations & Connectors
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: An official Qdrant MCP server implementation that provides semantic memory capabilities for AI agents. Enables storing and retrieving information using vector search, acting as…
 url: https://agentskillexchange.com/skills/qdrant-mcp-server-vector-search-semantic-memory/
 
@@ -15535,7 +15535,7 @@ url: https://agentskillexchange.com/skills/qdrant-mcp-server-vector-search-seman
 slug: supabase-mcp-server-database-project-management
 category: Integrations & Connectors
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: An official MCP server that connects Supabase projects to AI assistants like Claude, Cursor, and Windsurf. Enables natural-language database management, table operations, SQL queries,…
 url: https://agentskillexchange.com/skills/supabase-mcp-server-database-project-management/
 
@@ -15767,7 +15767,7 @@ url: https://agentskillexchange.com/skills/slidev-markdown-presentation-slides-d
 slug: httpie-cli-api-testing-debugging-client
 category: Developer Tools
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: HTTPie is a modern, user-friendly command-line HTTP client designed for testing, debugging, and interacting with APIs and HTTP servers. It provides an intuitive syntax…
 url: https://agentskillexchange.com/skills/httpie-cli-api-testing-debugging-client/
 
@@ -15823,7 +15823,7 @@ url: https://agentskillexchange.com/skills/crawl4ai-llm-web-crawler-scraper/
 slug: aws-mcp-servers-cloud-service-integration
 category: Integrations & Connectors
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: The official AWS Labs MCP server collection provides AI agents with structured access to AWS documentation, service APIs, billing data, and infrastructure metadata through…
 url: https://agentskillexchange.com/skills/aws-mcp-servers-cloud-service-integration/
 
@@ -15839,7 +15839,7 @@ url: https://agentskillexchange.com/skills/sentry-mcp-server-error-tracking-perf
 slug: terraform-mcp-server-infrastructure-as-code
 category: Developer Tools
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: The official HashiCorp Terraform MCP server integrates with the Terraform Registry and HCP Terraform, enabling AI agents to browse providers, discover modules, manage workspaces,…
 url: https://agentskillexchange.com/skills/terraform-mcp-server-infrastructure-as-code/
 
@@ -15919,7 +15919,7 @@ url: https://agentskillexchange.com/skills/context7-mcp-documentation-server-llm
 slug: github-mcp-server-ai-repository-management
 category: Developer Tools
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: GitHub's official Model Context Protocol (MCP) server that connects AI agents, assistants, and chatbots directly to GitHub's platform. Enables natural language repository management, code…
 url: https://agentskillexchange.com/skills/github-mcp-server-ai-repository-management/
 
@@ -16015,7 +16015,7 @@ url: https://agentskillexchange.com/skills/zoxide-smart-directory-navigation-cli
 slug: eza-modern-file-listing-cli
 category: Developer Tools
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: A modern, maintained replacement for the ls command, written in Rust. eza provides colorized output, Git integration, tree views, symlink awareness, and extended attribute…
 url: https://agentskillexchange.com/skills/eza-modern-file-listing-cli/
 
@@ -16263,7 +16263,7 @@ url: https://agentskillexchange.com/skills/marker-pdf-to-markdown-converter/
 slug: dbt-mcp-server-data-pipeline-context
 category: Data Extraction & Transformation
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: The official dbt MCP Server by dbt Labs provides Model Context Protocol tools for AI agents to interact with dbt projects, query the Semantic…
 url: https://agentskillexchange.com/skills/dbt-mcp-server-data-pipeline-context/
 

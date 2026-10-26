@@ -2,6 +2,7 @@
 name: "Install and write Faber Romanus"
 slug: "install-and-write-faber-romanus"
 description: "Download the Faber CLI and write Faber Romanus programs using the official agent skill guides (install, English reader spelling, packages, corpus)."
+github_stars: 0
 verification: "listed"
 source: "https://github.com/faberlang/faber"
 author: "faberlang"
@@ -10,6 +11,7 @@ category: "Developer Tools"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "faberlang/faber"
+  github_stars: 0
 ---
 
 # Install and write Faber Romanus

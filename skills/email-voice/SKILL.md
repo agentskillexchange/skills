@@ -2,11 +2,12 @@
 name: "Email Voice"
 slug: "email-voice"
 description: "Learn a user's email voice from authorized sent samples, export a private style profile, and draft fact-preserving replies with bounded sampling and held-out validation."
+verification: "listed"
+source: "https://github.com/DEX-XL/email-voice"
 category: "Calendar, Email & Productivity"
 framework: "Codex"
-verification: listed
-source: "https://github.com/DEX-XL/email-voice"
-license: MIT
+tool_ecosystem:
+  github_repo: "dex-xl/email-voice"
 ---
 
 # Email Voice

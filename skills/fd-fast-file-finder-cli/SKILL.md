@@ -5,6 +5,7 @@ description: "A fast and user-friendly alternative to the find command, written 
 github_stars: 42280
 verification: "security_reviewed"
 source: "https://github.com/sharkdp/fd"
+author: "sharkdp"
 category: "Developer Tools"
 framework: "Claude Code"
 tool_ecosystem:
@@ -18,26 +19,11 @@ A fast and user-friendly alternative to the find command, written in Rust. fd pr
 
 ## Installation
 
-On macOS or Linux with Homebrew already installed, install the upstream `fd`
-package:
+Install or set up from the source-backed instructions:
 
-```sh
 brew install fd
-```
 
-Verify that the executable is available and inspect its options:
-
-```sh
-fd --version
-fd --help
-```
-
-From a test directory, run `fd .` to list matching paths without changing files.
-By default, fd respects ignore rules and omits hidden files. Review its options
-before broadening the search scope or using commands that act on matched files.
-
-For other operating systems and package managers, follow the
-[upstream installation guide](https://github.com/sharkdp/fd#installation).
+- Source: https://github.com/sharkdp/fd
 
 ## Source
 

@@ -3,8 +3,9 @@ name: "Chroma MCP Server for Embedding Database Operations"
 slug: "chroma-mcp-server-embedding-database-operations"
 description: "An official MCP server for the Chroma open-source embedding database. Enables AI agents to create collections, add documents, perform vector search, full-text search, and metadata filtering through the Model Context Protocol."
 github_stars: 527
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/chroma-core/chroma-mcp"
+author: "chroma-core"
 category: "Integrations & Connectors"
 framework: "MCP"
 tool_ecosystem:
@@ -18,16 +19,9 @@ An official MCP server for the Chroma open-source embedding database. Enables AI
 
 ## Installation
 
-Requirements and caveats from upstream:
-- The fastest way to build Python or JavaScript LLM apps with memory!
-
-Basic usage or getting-started notes:
-- [The Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) is an open protocol designed for effortless integration between LLM applications and external data sources or tools, offering a standard...
-- To add an ephemeral client, add the following to your claude_desktop_config.json file:
-- json
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
 - Source: https://github.com/chroma-core/chroma-mcp
-- Extracted from upstream docs: https://raw.githubusercontent.com/chroma-core/chroma-mcp/HEAD/README.md
 
 ## Source
 

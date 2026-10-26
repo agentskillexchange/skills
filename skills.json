@@ -27521,7 +27521,7 @@
       "description": "An official MCP server for the Chroma open-source embedding database. Enables AI agents to create collections, add documents, perform vector search, full-text search, and…",
       "category": "Integrations & Connectors",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 527
       },
@@ -27550,7 +27550,7 @@
       "description": "An official Qdrant MCP server implementation that provides semantic memory capabilities for AI agents. Enables storing and retrieving information using vector search, acting as…",
       "category": "Integrations & Connectors",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 1314
       },
@@ -27564,7 +27564,7 @@
       "description": "An official MCP server that connects Supabase projects to AI assistants like Claude, Cursor, and Windsurf. Enables natural-language database management, table operations, SQL queries,…",
       "category": "Integrations & Connectors",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 2572
       },
@@ -27989,7 +27989,7 @@
       "description": "HTTPie is a modern, user-friendly command-line HTTP client designed for testing, debugging, and interacting with APIs and HTTP servers. It provides an intuitive syntax…",
       "category": "Developer Tools",
       "framework": "Claude Code",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 37814
       },
@@ -28088,7 +28088,7 @@
       "description": "The official AWS Labs MCP server collection provides AI agents with structured access to AWS documentation, service APIs, billing data, and infrastructure metadata through…",
       "category": "Integrations & Connectors",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 8645
       },
@@ -28117,7 +28117,7 @@
       "description": "The official HashiCorp Terraform MCP server integrates with the Terraform Registry and HCP Terraform, enabling AI agents to browse providers, discover modules, manage workspaces,…",
       "category": "Developer Tools",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 1298
       },
@@ -28260,7 +28260,7 @@
       "description": "GitHub's official Model Context Protocol (MCP) server that connects AI agents, assistants, and chatbots directly to GitHub's platform. Enables natural language repository management, code…",
       "category": "Developer Tools",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 28462
       },
@@ -28428,7 +28428,7 @@
       "description": "A modern, maintained replacement for the ls command, written in Rust. eza provides colorized output, Git integration, tree views, symlink awareness, and extended attribute…",
       "category": "Developer Tools",
       "framework": "Claude Code",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 20929
       },
@@ -28867,7 +28867,7 @@
       "description": "The official dbt MCP Server by dbt Labs provides Model Context Protocol tools for AI agents to interact with dbt projects, query the Semantic…",
       "category": "Data Extraction & Transformation",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 526
       },

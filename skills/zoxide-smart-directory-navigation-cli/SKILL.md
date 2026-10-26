@@ -5,6 +5,7 @@ description: "A smarter cd command written in Rust, inspired by z and autojump. 
 github_stars: 35119
 verification: "security_reviewed"
 source: "https://github.com/ajeetdsouza/zoxide"
+author: "ajeetdsouza"
 category: "Developer Tools"
 framework: "Claude Code"
 tool_ecosystem:
@@ -18,16 +19,11 @@ A smarter cd command written in Rust, inspired by z and autojump. zoxide learns 
 
 ## Installation
 
-Requirements and caveats from upstream:
-- python
+Install or set up from the source-backed instructions:
 
-Basic usage or getting-started notes:
-- [Getting started](#getting-started) •
-- ![Tutorial][tutorial]
-- sh
+cargo install zoxide --locked
 
 - Source: https://github.com/ajeetdsouza/zoxide
-- Extracted from upstream docs: https://raw.githubusercontent.com/ajeetdsouza/zoxide/HEAD/README.md
 
 ## Source
 

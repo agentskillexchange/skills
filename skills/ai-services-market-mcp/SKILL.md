@@ -2,10 +2,10 @@
 name: "AI Services Market MCP"
 slug: "ai-services-market-mcp"
 description: "Teaches an agent to connect to the AI Services Market MCP server (https://aiservicesmarket.lol/mcp) and use its seven tools — search_skills, get_skill, search_use_cases, get_use_case, get_entitlement, create_checkout, claim_pro — to find installable agent skills, read full details and pricing, and generate Stripe checkout links for single skills or Pro subscriptions. Use when someone asks an agent to find, compare, or buy an AI agent skill."
+verification: "listed"
+source: "https://aiservicesmarket.lol/mcp"
 category: "Integrations & Connectors"
 framework: "MCP"
-verification: listed
-source: "https://aiservicesmarket.lol/mcp"
 ---
 
 # AI Services Market MCP
@@ -44,20 +44,7 @@ Pricing matches the store's public /pricing/ page.
 
 ## Installation
 
-### Claude Code
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-```bash
-claude mcp add --transport http skillshop https://aiservicesmarket.lol/mcp
-```
+- Source: https://aiservicesmarket.lol/mcp
 
-### Any MCP client (Claude Desktop, Cursor, VS Code, ChatGPT, Gemini, Windsurf)
-
-Add a custom MCP server with type HTTP/Streamable and URL `https://aiservicesmarket.lol/mcp`. The first call triggers the OAuth authorize page; approve once and the connection is linked.
-
-### Optional Third-Party Installer
-
-Once this skill is merged into the Agent Skill Exchange catalog:
-
-```bash
-npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill "AI Services Market MCP"
-```

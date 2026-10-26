@@ -2,7 +2,7 @@
 name: "Datacircle"
 slug: "datacircle"
 description: "Every GTM API plan on datacircle.dev, as one file you download and query. LinkedIn profiles, people and company search, find and validate email and phone, company data, jobs and posts, each plan with its price per 1,000, score, rate limits, the fields it returns and its docs. Use it to compare or price a GTM data API."
-github_stars: 0
+github_stars: 1
 verification: "listed"
 source: "https://github.com/waynehamadi/datacircle"
 author: "datacircle"
@@ -10,6 +10,7 @@ category: "Library & API Reference"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "waynehamadi/datacircle"
+  github_stars: 1
 ---
 
 # Datacircle

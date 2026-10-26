@@ -21297,7 +21297,7 @@
       "description": "An official MCP server for the Chroma open-source embedding database. Enables AI agents to create collections, add documents, perform vector search, full-text search, and…",
       "category": "Integrations & Connectors",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "source_url": "https://github.com/chroma-core/chroma-mcp",
       "github_repo": "chroma-core/chroma-mcp"
     },
@@ -21319,7 +21319,7 @@
       "description": "An official Qdrant MCP server implementation that provides semantic memory capabilities for AI agents. Enables storing and retrieving information using vector search, acting as…",
       "category": "Integrations & Connectors",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "source_url": "https://github.com/qdrant/mcp-server-qdrant",
       "github_repo": "qdrant/mcp-server-qdrant"
     },
@@ -21330,7 +21330,7 @@
       "description": "An official MCP server that connects Supabase projects to AI assistants like Claude, Cursor, and Windsurf. Enables natural-language database management, table operations, SQL queries,…",
       "category": "Integrations & Connectors",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "source_url": "https://github.com/supabase-community/supabase-mcp",
       "github_repo": "supabase-community/supabase-mcp"
     },
@@ -21649,7 +21649,7 @@
       "description": "HTTPie is a modern, user-friendly command-line HTTP client designed for testing, debugging, and interacting with APIs and HTTP servers. It provides an intuitive syntax…",
       "category": "Developer Tools",
       "framework": "Claude Code",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "source_url": "https://github.com/httpie/cli",
       "github_repo": "httpie/cli"
     },
@@ -21726,7 +21726,7 @@
       "description": "The official AWS Labs MCP server collection provides AI agents with structured access to AWS documentation, service APIs, billing data, and infrastructure metadata through…",
       "category": "Integrations & Connectors",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "source_url": "https://github.com/awslabs/mcp",
       "github_repo": "awslabs/mcp"
     },
@@ -21748,7 +21748,7 @@
       "description": "The official HashiCorp Terraform MCP server integrates with the Terraform Registry and HCP Terraform, enabling AI agents to browse providers, discover modules, manage workspaces,…",
       "category": "Developer Tools",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "source_url": "https://github.com/hashicorp/terraform-mcp-server",
       "github_repo": "hashicorp/terraform-mcp-server"
     },
@@ -21858,7 +21858,7 @@
       "description": "GitHub's official Model Context Protocol (MCP) server that connects AI agents, assistants, and chatbots directly to GitHub's platform. Enables natural language repository management, code…",
       "category": "Developer Tools",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "source_url": "https://github.com/github/github-mcp-server",
       "github_repo": "github/github-mcp-server"
     },
@@ -21990,7 +21990,7 @@
       "description": "A modern, maintained replacement for the ls command, written in Rust. eza provides colorized output, Git integration, tree views, symlink awareness, and extended attribute…",
       "category": "Developer Tools",
       "framework": "Claude Code",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "source_url": "https://github.com/eza-community/eza",
       "github_repo": "eza-community/eza"
     },
@@ -22331,7 +22331,7 @@
       "description": "The official dbt MCP Server by dbt Labs provides Model Context Protocol tools for AI agents to interact with dbt projects, query the Semantic…",
       "category": "Data Extraction & Transformation",
       "framework": "MCP",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "source_url": "https://github.com/dbt-labs/dbt-mcp",
       "github_repo": "dbt-labs/dbt-mcp"
     },
