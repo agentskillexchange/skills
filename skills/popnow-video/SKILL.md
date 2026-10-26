@@ -11,7 +11,7 @@ license: MIT
 
 # PopNow Video Generation
 
-This catalog entry points to the existing [official PopNow video skill](https://github.com/popnow-ai/popnow-skills/tree/main/skills/popnow-video). The upstream bundle contains a `SKILL.md`, a Python standard-library helper, and model-reference documentation. Use it when a user wants a short video from a written brief, wants to animate a photo, or needs a supported video extension or upscaling operation. It is not a local video-generation model: the helper calls the commercial PopNow API at `https://api.popnow.ai/api/v1`.
+This catalog entry points to the existing [official PopNow video skill](https://github.com/popnow-ai/popnow-skills/tree/7116ca7a328943acfe799a0f87084abbc69992c6/skills/popnow-video). The upstream bundle contains a `SKILL.md`, a Python standard-library helper, and model-reference documentation. Use it when a user wants a short video from a written brief, wants to animate a photo, or needs a supported video extension or upscaling operation. It is not a local video-generation model: the helper calls the commercial PopNow API at `https://api.popnow.ai/api/v1`.
 
 The skill and helper source are MIT-licensed. An authenticated PopNow account, an API key, an internet connection, and sufficient paid API balance are needed for generation. Finding and installing the skill does not purchase API usage. Model availability and prices can change; query the current model schema and quote the exact request rather than promising a fixed price or unsupported option.
 
@@ -19,12 +19,14 @@ The skill and helper source are MIT-licensed. An authenticated PopNow account, a
 
 Install the complete upstream `popnow-video` bundle so its helper and references stay together. Do not treat this catalog overview as a replacement for those files.
 
-For an agent supported by the upstream installer, follow the [upstream setup instructions](https://github.com/popnow-ai/popnow-skills#quickstart). A manual installation for Codex is:
+For an agent supported by the upstream installer, follow the [upstream setup instructions](https://github.com/popnow-ai/popnow-skills#quickstart). The manual installation below pins the reviewed upstream revision `7116ca7a328943acfe799a0f87084abbc69992c6` for Codex:
 
 ```bash
 git clone https://github.com/popnow-ai/popnow-skills.git
+git -C popnow-skills checkout --detach 7116ca7a328943acfe799a0f87084abbc69992c6
 mkdir -p ~/.agents/skills/popnow-video
 cp -R popnow-skills/skills/popnow-video/. ~/.agents/skills/popnow-video/
+cp popnow-skills/LICENSE ~/.agents/skills/popnow-video/LICENSE
 ```
 
 Read the installed `SKILL.md` and inspect the helper before using it. The REST helper needs Python 3. The alternative connected PopNow MCP server uses the remote endpoint documented at [popnow.ai/mcp](https://popnow.ai/mcp). Keep the upstream MIT notice with the bundle.
@@ -37,4 +39,4 @@ Read the installed `SKILL.md` and inspect the helper before using it. The REST h
 4. Poll the asynchronous job and report its actual state. Download successful output promptly because signed result links expire. Do not describe a queued or failed task as a finished video.
 5. Keep `POPNOW_API_KEY` in the user's environment. Never publish or echo a key, request that the user paste one into chat, or send it to a storage download host.
 
-Full current commands, error handling and examples are maintained in the [upstream skill](https://github.com/popnow-ai/popnow-skills/blob/main/skills/popnow-video/SKILL.md). Official product and API documentation: [PopNow](https://popnow.ai), [API docs](https://popnow.ai/docs). This submission is a catalog inclusion request, with `verification: listed`; it does not claim an ASE security review or endorsement.
+Commands, error handling and examples for this revision are maintained in the [upstream skill](https://github.com/popnow-ai/popnow-skills/blob/7116ca7a328943acfe799a0f87084abbc69992c6/skills/popnow-video/SKILL.md). Official product and API documentation: [PopNow](https://popnow.ai), [API docs](https://popnow.ai/docs). This submission is a catalog inclusion request, with `verification: listed`; it does not claim an ASE security review or endorsement.
