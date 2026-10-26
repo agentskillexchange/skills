@@ -69,7 +69,7 @@ mkdir -p ~/.claude/skills && cp -R /tmp/deed-page-skill/skills/deed-page ~/.clau
    TOKEN=${DEEDPAGE_TOKEN:-$(cat ~/.config/deed-page/token 2>/dev/null)}
    set --
    if [ -n "$TOKEN" ]; then set -- -H "Authorization: Bearer $TOKEN"; fi
-   RESP=$(curl -sS -T index.html "https://deed.page/v1/sites?slug=report-7f3a2c" -H "X-Client: <agent name>" "$@")
+   RESP=$(curl -sS "$@" -T index.html "https://deed.page/v1/sites?slug=report-7f3a2c" -H "X-Client: <agent name>")
    ```
 
    Or a folder, with its contents at the site root:
@@ -79,7 +79,7 @@ mkdir -p ~/.claude/skills && cp -R /tmp/deed-page-skill/skills/deed-page ~/.clau
    set --
    if [ -n "$TOKEN" ]; then set -- -H "Authorization: Bearer $TOKEN"; fi
    tar -C ./site -czf /tmp/site.tar.gz .
-   RESP=$(curl -sS -T /tmp/site.tar.gz "https://deed.page/v1/sites?slug=report-7f3a2c" -H "X-Client: <agent name>" "$@")
+   RESP=$(curl -sS "$@" -T /tmp/site.tar.gz "https://deed.page/v1/sites?slug=report-7f3a2c" -H "X-Client: <agent name>")
    ```
 
 4. Save a newly returned token, then show the response with the token masked. Only a publish without a token returns `token`; the file is written only when the value is non-empty, so an existing saved token is never replaced with an empty one:
