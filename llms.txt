@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-10-26
-# Total: 3185 skills
+# Total: 3188 skills
+
+## PopNow Video Generation
+slug: popnow-video
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Published
+description: Use the existing MIT-licensed PopNow video skill to quote and create AI videos from text or an image through the commercial PopNow API, confirm…
+url: https://agentskillexchange.com/skills/popnow-video/
+
+## Publish Files to a Permanent URL with deed.page
+slug: deed-page
+category: Developer Tools
+framework: Claude Code
+verification: Published
+description: Publishes a generated HTML file or a static folder to a permanent https://.deed.page/ URL with one curl PUT or the deed.page MCP server, with…
+url: https://agentskillexchange.com/skills/deed-page/
+
+## Preflight Nudgebee runbooks before saving or execution
+slug: preflight-nudgebee-runbooks-before-saving-or-execution
+category: Runbooks & Diagnostics
+framework: Multi-Framework
+verification: Security Reviewed
+description: Validate a proposed Nudgebee runbook, repair supported schema errors, and return an operator review packet without saving, activating or executing it.
+url: https://agentskillexchange.com/skills/preflight-nudgebee-runbooks-before-saving-or-execution/
 
 ## Bootstrap and verify self-hosted Rakazo from published images
 slug: bootstrap-and-verify-self-hosted-rakazo-from-published-images

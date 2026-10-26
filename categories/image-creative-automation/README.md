@@ -157,6 +157,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Midjourney Prompt Optimizer](../../skills/midjourney-prompt-optimizer-skill/) | — | — |
 | [Pexels API Stock Photo Curator](../../skills/pexels-api-stock-photo-curator/) | — | — |
 | [Photoshop Batch Action Automator](../../skills/photoshop-batch-action-automator/) | — | — |
+| [PopNow Video Generation](../../skills/popnow-video/) | — | — |
 | [RouterBase Media Generation](../../skills/routerbase-media-generation/) | — | — |
 | [RunPod Serverless GPU Inference](../../skills/runpod-serverless-gpu-inference/) | — | — |
 | [Writingmate MCP Video and Image Generation](../../skills/writingmate-mcp/) | — | — |

@@ -182,6 +182,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Control Kubernetes infrastructure through natural-language MCP workflows](../../skills/control-kubernetes-infrastructure-through-natural-language-mcp-workflows/) | 898 | 150/wk |
 | [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | 791 | 6.6M/wk |
 | [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | 791 | 6.6M/wk |
+| [Preflight Nudgebee runbooks before saving or execution](../../skills/preflight-nudgebee-runbooks-before-saving-or-execution/) | 520 | — |
 | [Benchmark virtual agents with scripted multi-turn conversations using Agent Evaluation](../../skills/benchmark-virtual-agents-with-scripted-multi-turn-conversations-using-agent-evaluation/) | 358 | — |
 | [Orchestrate database backup, restore, retention, and failure-notification runbooks through Databasement](../../skills/orchestrate-database-backup-restore-retention-and-failure-notification-runbooks-through-databasement/) | 315 | — |
 | [Benchmark IT automation agents on realistic SRE, CISO, and FinOps scenarios with ITBench](../../skills/benchmark-it-automation-agents-on-realistic-sre-ciso-and-finops-scenarios-with-itbench/) | 308 | — |

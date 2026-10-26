@@ -2,8 +2,41 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-10-26",
-  "total": 3185,
+  "total": 3188,
   "skills": [
+    {
+      "slug": "popnow-video",
+      "name": "PopNow Video Generation",
+      "title": "PopNow Video Generation",
+      "description": "Use the existing MIT-licensed PopNow video skill to quote and create AI videos from text or an image through the commercial PopNow API, confirm…",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/popnow-ai/popnow-skills",
+      "github_repo": "popnow-ai/popnow-skills"
+    },
+    {
+      "slug": "deed-page",
+      "name": "Publish Files to a Permanent URL with deed.page",
+      "title": "Publish Files to a Permanent URL with deed.page",
+      "description": "Publishes a generated HTML file or a static folder to a permanent https://.deed.page/ URL with one curl PUT or the deed.page MCP server, with…",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "listed",
+      "source_url": "https://github.com/f-o-x11/deed-page-skill",
+      "github_repo": "f-o-x11/deed-page-skill"
+    },
+    {
+      "slug": "preflight-nudgebee-runbooks-before-saving-or-execution",
+      "name": "Preflight Nudgebee runbooks before saving or execution",
+      "title": "Preflight Nudgebee runbooks before saving or execution",
+      "description": "Validate a proposed Nudgebee runbook, repair supported schema errors, and return an operator review packet without saving, activating or executing it.",
+      "category": "Runbooks & Diagnostics",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/nudgebee/nudgebee",
+      "github_repo": "nudgebee/nudgebee"
+    },
     {
       "slug": "bootstrap-and-verify-self-hosted-rakazo-from-published-images",
       "name": "Bootstrap and verify self-hosted Rakazo from published images",
