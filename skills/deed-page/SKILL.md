@@ -1,7 +1,7 @@
 ---
 name: "Publish Files to a Permanent URL with deed.page"
 slug: "deed-page"
-description: "Publishes a generated HTML file or a static folder to a permanent https://<slug>.deed.page/ URL with one curl PUT or the deed.page MCP server, with no account, API key, email code or claim link. Use when the user asks to publish, host, share or put online a report, dashboard, slide deck, prototype, game or docs folder the agent built."
+description: "Publishes a generated HTML file or a static folder to a permanent https://.deed.page/ URL with one curl PUT or the deed.page MCP server, with no account, API key, email code or claim link. Use when the user asks to publish, host, share or put online a report, dashboard, slide deck, prototype, game or docs folder the agent built."
 verification: "listed"
 source: "https://github.com/f-o-x11/deed-page-skill"
 publisher_type: "vendor"

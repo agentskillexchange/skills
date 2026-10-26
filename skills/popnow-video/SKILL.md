@@ -1,12 +1,13 @@
 ---
-name: PopNow Video Generation
-slug: popnow-video
-description: Use the existing MIT-licensed PopNow video skill to quote and create AI videos from text or an image through the commercial PopNow API, confirm the quoted cost before generation, poll asynchronous jobs, and download the result.
-category: Image & Creative Automation
-framework: Multi-Framework
-verification: listed
-source: https://github.com/popnow-ai/popnow-skills
-license: MIT
+name: "PopNow Video Generation"
+slug: "popnow-video"
+description: "Use the existing MIT-licensed PopNow video skill to quote and create AI videos from text or an image through the commercial PopNow API, confirm the quoted cost before generation, poll asynchronous jobs, and download the result."
+verification: "listed"
+source: "https://github.com/popnow-ai/popnow-skills"
+category: "Image & Creative Automation"
+framework: "Multi-Framework"
+tool_ecosystem:
+  github_repo: "popnow-ai/popnow-skills"
 ---
 
 # PopNow Video Generation
