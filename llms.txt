@@ -1,7 +1,47 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-10-25
-# Total: 3180 skills
+# Generated: 2026-10-26
+# Total: 3185 skills
+
+## Bootstrap and verify self-hosted Rakazo from published images
+slug: bootstrap-and-verify-self-hosted-rakazo-from-published-images
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Prepare a Docker-based Rakazo installation, preserve private configuration, and verify service health, the selected sandbox, and an optional first bot reply before handoff.
+url: https://agentskillexchange.com/skills/bootstrap-and-verify-self-hosted-rakazo-from-published-images/
+
+## Audit performance claims with Pstack benchmark-checklist
+slug: audit-performance-claims-with-pstack-benchmark-checklist
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Check tuning, bottlenecks, correctness, repeatability, and end-to-end relevance before an agent reports a measured speedup or regression.
+url: https://agentskillexchange.com/skills/audit-performance-claims-with-pstack-benchmark-checklist/
+
+## Email Voice
+slug: email-voice
+category: Calendar, Email & Productivity
+framework: Codex
+verification: Published
+description: Learn a user's email voice from authorized sent samples, export a private style profile, and draft fact-preserving replies with bounded sampling and held-out validation.
+url: https://agentskillexchange.com/skills/email-voice/
+
+## Query isolated Git worktree code maps with ProjectAtlas
+slug: query-isolated-git-worktree-code-maps-with-projectatlas
+category: Developer Tools
+framework: MCP
+verification: Security Reviewed
+description: Register existing Git worktrees under explicit MCP aliases, refresh their separate code maps, and return bounded source evidence across selected checkouts.
+url: https://agentskillexchange.com/skills/query-isolated-git-worktree-code-maps-with-projectatlas/
+
+## AI Services Market MCP
+slug: ai-services-market-mcp
+category: Integrations & Connectors
+framework: MCP
+verification: Published
+description: Teaches an agent to connect to the AI Services Market MCP server (https://aiservicesmarket.lol/mcp) and use its seven tools — search_skills, get_skill, search_use_cases, get_use_case, get_entitlement,…
+url: https://agentskillexchange.com/skills/ai-services-market-mcp/
 
 ## Compare UI design directions and refine the selected page with Oil UI
 slug: compare-ui-design-directions-and-refine-the-selected-page-with-oil-ui

@@ -301,6 +301,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [procs Modern Process Viewer CLI](../../skills/procs-modern-process-viewer-cli/) | 6k | — |
 | [Add executable smoke tests for shell scripts and CLIs before refactors ship](../../skills/add-shell-and-cli-smoke-tests-before-refactors-ship/) | 6k | — |
 | [Desktop Commander MCP Server for Terminal and File Control](../../skills/desktop-commander-mcp-terminal-file-control/) | 5.8k | 100.6k/wk |
+| [Bootstrap and verify self-hosted Rakazo from published images](../../skills/bootstrap-and-verify-self-hosted-rakazo-from-published-images/) | 5.8k | — |
 | [Build, test, and inspect Apple apps through MCP with XcodeBuildMCP](../../skills/build-test-and-inspect-apple-apps-through-mcp-with-xcodebuildmcp/) | 5.7k | 44.5k/wk |
 | [Orval OpenAPI Client Regeneration Skill for Typed SDKs](../../skills/orval-openapi-client-regeneration-skill-typed-sdks/) | 5.7k | 1.1M/wk |
 | [Notion Workspace Agent](../../skills/notion-workspace-agent/) | 5.6k | 1.2M/wk |
@@ -483,6 +484,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Coordinate parallel terminal coding agents and worktrees with Pane](../../skills/coordinate-parallel-terminal-coding-agents-and-worktrees-with-pane/) | 478 | 5.7k/wk |
 | [Run multi-harness coding-agent sessions with Claudexor](../../skills/run-multi-harness-coding-agent-sessions-with-claudexor/) | 472 | 1.2k/wk |
 | [Coordinate local agent handoffs with Sno Station](../../skills/coordinate-local-agent-handoffs-with-sno-station/) | 468 | — |
+| [Query isolated Git worktree code maps with ProjectAtlas](../../skills/query-isolated-git-worktree-code-maps-with-projectatlas/) | 456 | — |
 | [Maintain a Git-versioned codebase index for coding agents with AOCI-CODE](../../skills/maintain-a-git-versioned-codebase-index-for-coding-agents-with-aoci-code/) | 443 | — |
 | [Run agent CLI terminals inside Obsidian with Claude Sidebar](../../skills/run-agent-cli-terminals-inside-obsidian-with-claude-sidebar/) | 443 | — |
 | [Give coding agents repo-local project memory with brain.md](../../skills/give-coding-agents-repo-local-project-memory-with-brain-md/) | 438 | 92/wk |

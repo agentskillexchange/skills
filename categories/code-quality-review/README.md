@@ -151,6 +151,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Spectral OpenAPI and AsyncAPI Linter](../../skills/spectral-openapi-asyncapi-linter/) | 3.1k | 1.2M/wk |
 | [Stress-test JavaScript and TypeScript test suites with mutation testing before risky changes ship with StrykerJS](../../skills/stress-test-javascript-and-typescript-test-suites-with-mutation-testing-before-risky-changes-ship-with-strykerjs/) | 2.8k | 1.5M/wk |
 | [Escalate risky coding tasks into multi-model debate and consensus gates with Claude Octopus](../../skills/escalate-risky-coding-tasks-into-multi-model-debate-and-consensus-gates-with-claude-octopus/) | 2.8k | — |
+| [Audit performance claims with Pstack benchmark-checklist](../../skills/audit-performance-claims-with-pstack-benchmark-checklist/) | 2.8k | — |
 | [Validate CloudFormation templates before deploy with cfn-lint](../../skills/validate-cloudformation-templates-before-deploy-with-cfn-lint/) | 2.6k | — |
 | [Summarize failing Go test runs and rerun flakes before CI repair loops with gotestsum](../../skills/summarize-failing-go-test-runs-and-rerun-flakes-before-ci-repair-loops-with-gotestsum/) | 2.6k | — |
 | [Testcontainers Node Throwaway Docker Integration Testing Library](../../skills/testcontainers-node-throwaway-docker-integration-testing/) | 2.5k | 4.5M/wk |

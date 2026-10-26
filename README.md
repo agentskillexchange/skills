@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C180-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C185-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C613-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,180 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,185 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Co-edit and verify a live spreadsheet session through GridCraft MCP](skills/co-edit-and-verify-a-live-spreadsheet-session-through-gridcraft-mcp/)** — Connect an agent to the GridCraft workbook open on a user’s desktop, make scoped edits, and return formula readbacks plus a screenshot for review.
+**[Run IDE-wired terminal coding-agent workflows with Oh My Pi](skills/run-ide-wired-terminal-coding-agent-workflows-with-oh-my-pi/)** — Use Oh My Pi when an operator wants a local terminal coding agent with IDE-grade context, built-in file tools, LSP-aware edits, debugger access, subagents, memory, and multi-provider model…
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -87,16 +87,16 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Bootstrap and verify self-hosted Rakazo from published images](skills/bootstrap-and-verify-self-hosted-rakazo-from-published-images/) | Prepare a Docker-based Rakazo installation, preserve private configuration, and verify service health, the selected sandbox, and an optional... | 5.8k | Developer Tools |
+| [Audit performance claims with Pstack benchmark-checklist](skills/audit-performance-claims-with-pstack-benchmark-checklist/) | Check tuning, bottlenecks, correctness, repeatability, and end-to-end relevance before an agent reports a measured speedup or regression | 2.8k | Code Quality & Review |
+| [Email Voice](skills/email-voice/) | Learn a user's email voice from authorized sent samples, export a private style profile, and draft fact-preserving replies... | - | Calendar, Email & Productivity |
+| [Query isolated Git worktree code maps with ProjectAtlas](skills/query-isolated-git-worktree-code-maps-with-projectatlas/) | Register existing Git worktrees under explicit MCP aliases, refresh their separate code maps, and return bounded source evidence... | 456 | Developer Tools |
+| [AI Services Market MCP](skills/ai-services-market-mcp/) | Teaches an agent to connect to the AI Services Market MCP server (https://aiservicesmarket.lol/mcp) and use its seven tools... | - | Integrations & Connectors |
 | [Compare UI design directions and refine the selected page with Oil UI](skills/compare-ui-design-directions-and-refine-the-selected-page-with-oil-ui/) | Create distinct first-screen designs, compare them in one page, then refine the chosen direction against desktop and mobile... | 2.1k | Image & Creative Automation |
-| [Datacircle](skills/datacircle/) | Every GTM API plan on datacircle.dev, as one file you download and query. LinkedIn profiles, people and company... | - | Library & API Reference |
+| [Datacircle](skills/datacircle/) | Every GTM API plan on datacircle.dev, as one file you download and query. LinkedIn profiles, people and company... | 1 | Library & API Reference |
 | [Annotate Classical Chinese corpora with HanLP](skills/annotate-classical-chinese-corpora-with-hanlp/) | Produce reviewable token, lemma, POS and dependency annotations for Classical Chinese passages with HanLP’s dedicated Ancient Chinese model | 36.5k | Data Extraction & Transformation |
 | [Verify scoped Kafka tool access through Zilla MCP](skills/verify-scoped-kafka-tool-access-through-zilla-mcp/) | Review scoped MCP access to native Kafka, Schema Registry and Kafka Connect tools in Zilla, then return a... | 1.7k | Integrations & Connectors |
 | [PaperPilot CSV Preflight](skills/paperpilot-csv-preflight/) | Inspect up to 32 KiB of UTF-8 CSV locally with dependency-free Node.js, detecting inconsistent column widths, quoted-field errors... | - | Data Extraction & Transformation |
-| [Recover Playwright selectors after UI refactors with QA Skills](skills/recover-playwright-selectors-after-ui-refactors-with-qa-skills/) | Compare old and new UI evidence, repair confirmed locator drift in existing Playwright tests, and return a validated... | 203 | Code Quality & Review |
-| [Co-edit and verify a live spreadsheet session through GridCraft MCP](skills/co-edit-and-verify-a-live-spreadsheet-session-through-gridcraft-mcp/) | Connect an agent to the GridCraft workbook open on a user’s desktop, make scoped edits, and return formula... | 6.2k | Data Extraction & Transformation |
-| [Install and write Faber Romanus](skills/install-and-write-faber-romanus/) | Download the Faber CLI and write Faber Romanus programs using the official agent skill guides (install, English reader... | - | Developer Tools |
-| [Retrieve permission-scoped workplace evidence through Onyx MCP](skills/retrieve-permission-scoped-workplace-evidence-through-onyx-mcp/) | Search an existing Onyx workspace within an explicit document-set or agent scope, then return source-linked evidence for a... | 32.8k | Integrations & Connectors |
-| [Supervise and reconcile persistent coding-agent crews with Firstmate](skills/supervise-and-reconcile-persistent-coding-agent-crews-with-firstmate/) | Dispatch scoped coding tasks into isolated worktrees, supervise durable task events, and reconcile the same crew after a... | 8.1k | Developer Tools |
 
 ---
 
@@ -104,16 +104,16 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Contributor | Skill | What it helps with | Category |
 |---|---|---|---|
+| [DEX-XL](https://github.com/DEX-XL) | [Email Voice](skills/email-voice/) | Learn a user's email voice from authorized sent samples, export a private style profile, and draft fact-preserving replies... | Calendar, Email & Productivity |
+| [yasuo22](https://github.com/yasuo22) | [AI Services Market MCP](skills/ai-services-market-mcp/) | Teaches an agent to connect to the AI Services Market MCP server (https://aiservicesmarket.lol/mcp) and use its seven tools... | Integrations & Connectors |
+| [wu736139669](https://github.com/wu736139669) | [Goal Instruction Writer](skills/goal-instruction-writer/) | Preview, draft, refine, and audit durable Goal instructions in Codex. Define observable acceptance evidence, bounded execution loops, checkpoints... | Templates & Workflows |
 | [waynehamadi](https://github.com/waynehamadi) | [Datacircle](skills/datacircle/) | Every GTM API plan on datacircle.dev, as one file you download and query. LinkedIn profiles, people and company... | Library & API Reference |
 | [livastic-vm1-primary](https://github.com/livastic-vm1-primary) | [PaperPilot CSV Preflight](skills/paperpilot-csv-preflight/) | Inspect up to 32 KiB of UTF-8 CSV locally with dependency-free Node.js, detecting inconsistent column widths, quoted-field errors... | Data Extraction & Transformation |
 | [gagankcai-jpg](https://github.com/gagankcai-jpg) | [Install and write Faber Romanus](skills/install-and-write-faber-romanus/) | Download the Faber CLI and write Faber Romanus programs using the official agent skill guides (install, English reader... | Developer Tools |
 | [MAGA2010](https://github.com/MAGA2010) | [Turn messy datasets into auditable reports with data-master](skills/turn-messy-datasets-into-auditable-reports-with-data-master/) | Use data-master to preserve raw tabular data, hold ambiguous cleaning decisions for review, run unit-aware statistics and sensitivity... | Data Extraction & Transformation |
 | [borzelo](https://github.com/borzelo) | [PlaceCall Phone Calls to Businesses](skills/placecall/) | Lets an agent place real outbound phone calls to US businesses through the PlaceCall remote MCP server or... | Integrations & Connectors |
 | [gagankcai-jpg](https://github.com/gagankcai-jpg) | [xLetter](skills/xletter/) | Use the xLetter HTTPS API for a reusable Agent mailbox, asynchronous text messages, message history, and public contact... | Integrations & Connectors |
-| [wu736139669](https://github.com/wu736139669) | [Goal Instruction Writer](skills/goal-instruction-writer/) | Preview, draft, refine, and audit durable Goal instructions in Codex. Define observable acceptance evidence, bounded execution loops, checkpoints... | Templates & Workflows |
 | [fclairamb](https://github.com/fclairamb) | [SolidPing Uptime Monitoring](skills/solidping-uptime-monitoring/) | Manage SolidPing uptime monitoring from a coding agent through the SolidPing MCP server: list and create checks across... | Monitoring & Alerts |
-| [yumaheymans](https://github.com/yumaheymans) | [Healthcare Job Search (US) with CareJobs.Now](skills/healthcare-job-search-carejobs-now/) | Lets an agent find open US healthcare jobs and the hourly pay employers post, through the free CareJobs.Now... | Library & API Reference |
-| [casualbrooks](https://github.com/casualbrooks) | [Stockpile Market MCP](skills/stockpile-market-mcp/) | Autonomous e-commerce operations, store inventory curation, collectible valuations, and order fulfillment via Stockpile MCP | Integrations & Connectors |
 
 ---
 
@@ -130,9 +130,9 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Run owned terminal coding-agent workflows with Zero](skills/run-owned-terminal-coding-agent-workflows-with-zero/) | Use Zero to run local, scriptable coding-agent sessions with operator-controlled models, permissions, tools, skills, MCP servers, and durable... | 1.7k | Developer Tools |
 | [Run code-generated short-film workflows with Lemo-Opuscar](skills/direct-code-generated-short-films-with-lemo-opuscar-styles/) | Use a Claude Code plugin to turn a story brief into a short film project built from reusable... | 1.5k | Image & Creative Automation |
 | [Annotate Classical Chinese corpora with HanLP](skills/annotate-classical-chinese-corpora-with-hanlp/) | Produce reviewable token, lemma, POS and dependency annotations for Classical Chinese passages with HanLP’s dedicated Ancient Chinese model | 36.5k | Data Extraction & Transformation |
-| [Schedule Node Agent Jobs with node-cron](skills/schedule-node-agent-jobs-with-node-cron/) | Use node-cron to add recurring background jobs to Node.js agent services with overlap prevention, distributed coordination, background task... | 3.3k | Templates & Workflows |
+| [Audit performance claims with Pstack benchmark-checklist](skills/audit-performance-claims-with-pstack-benchmark-checklist/) | Check tuning, bottlenecks, correctness, repeatability, and end-to-end relevance before an agent reports a measured speedup or regression | 2.8k | Code Quality & Review |
 | [Co-edit and verify a live spreadsheet session through GridCraft MCP](skills/co-edit-and-verify-a-live-spreadsheet-session-through-gridcraft-mcp/) | Connect an agent to the GridCraft workbook open on a user’s desktop, make scoped edits, and return formula... | 6.2k | Data Extraction & Transformation |
-| [Retrieve permission-scoped workplace evidence through Onyx MCP](skills/retrieve-permission-scoped-workplace-evidence-through-onyx-mcp/) | Search an existing Onyx workspace within an explicit document-set or agent scope, then return source-linked evidence for a... | 32.8k | Integrations & Connectors |
+| [Schedule Node Agent Jobs with node-cron](skills/schedule-node-agent-jobs-with-node-cron/) | Use node-cron to add recurring background jobs to Node.js agent services with overlap prevention, distributed coordination, background task... | 3.3k | Templates & Workflows |
 
 ---
 
@@ -140,19 +140,19 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 532 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 534 | CLI tools, scaffolders, dev environment setup |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 267 | Scaffolders, boilerplate generators, workflow templates |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 257 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 237 | ETL pipelines, parsing, format conversion |
-| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 208 | Linting, code review, test generators, coverage |
+| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 209 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 193 | Pipeline configs, deployment automation, build tooling |
-| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 188 | Third-party API bridges, webhooks, service connectors |
+| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 189 | Third-party API bridges, webhooks, service connectors |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 182 | Incident response, troubleshooting, system diagnostics |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 163 | Metrics, alerting rules, observability |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 141 | Web research, content discovery, data collection |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 133 | SDK docs, API parsers, symbol resolvers |
+| 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 129 | Email automation, calendar management, task coordination |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 128 | Web scraping, UI testing, headless browser control |
-| 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 128 | Email automation, calendar management, task coordination |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 120 | Image generation, asset processing, design automation |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 110 | Audio/video processing, speech-to-text |
 | ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 98 | SEO content, blog automation, editorial workflows |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,180 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 3,185 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,613 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

@@ -128,7 +128,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [n8n-nodes-mcp Community Node for Model Context Protocol Workflows](../../skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows/) | 3k | 45.9k/wk |
 | [Slack Channel Summarizer & Triage Bot](../../skills/slack-channel-summarizer-triage/) | 2.9k | 2.6M/wk |
 | [Slack Bolt Event Subscription Debugger](../../skills/slack-bolt-event-subscription-debugger/) | 2.9k | 2.5M/wk |
-| [Supabase MCP Server for Database and Project Management](../../skills/supabase-mcp-server-database-project-management/) | 2.6k | — |
+| [Supabase MCP Server for Database and Project Management](../../skills/supabase-mcp-server-database-project-management/) | 2.6k | 68k/wk |
 | [Push, pull, and attach non-container OCI artifacts in registries with ORAS](../../skills/push-pull-and-attach-non-container-oci-artifacts-in-registries-with-oras/) | 2.2k | — |
 | [MetaMCP Unified MCP Server Aggregator and Gateway](../../skills/metamcp-unified-mcp-server-aggregator-gateway/) | 2.2k | — |
 | [Run local coding agents from Feishu or Lark with Lark Coding Agent Bridge](../../skills/run-local-coding-agents-from-feishu-or-lark-with-lark-coding-agent-bridge/) | 2.1k | — |
@@ -209,6 +209,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [USDCtoFiat Cash-Out](../../skills/usdctofiat-cashout/) | — | 650/wk |
 | [Search and Book Hotels and Flights with MAQAMI Travel](../../skills/maqami-travel-booking/) | — | 428/wk |
 | [DealMachine Sales Intelligence](../../skills/dealmachine-sales-intelligence/) | — | 272/wk |
+| [AI Services Market MCP](../../skills/ai-services-market-mcp/) | — | — |
 | [AssemblyAI Real-Time Call Intelligence](../../skills/assemblyai-realtime-call-intelligence/) | — | — |
 | [Automation Integration Preflight](../../skills/automation-integration-preflight/) | — | — |
 | [BeachFinder Swim Spot Finder](../../skills/beachfinder-swim-spot-finder/) | — | — |

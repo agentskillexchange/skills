@@ -138,6 +138,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Turn ICS calendar invites and feeds into structured events for scheduling automations](../../skills/turn-ics-calendar-invites-and-feeds-into-structured-events-for-scheduling-automations/) | — | 128.6k/wk |
 | [aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch](../../skills/aerc-extensible-terminal-email-client/) | — | — |
 | [Design Lifecycle Email Sequences](../../skills/design-lifecycle-email-sequences/) | — | — |
+| [Email Voice](../../skills/email-voice/) | — | — |
 | [Gmail API Thread Label Triage](../../skills/gmail-api-thread-label-triage/) | — | — |
 | [Gmail Thread Summarizer and Action Extractor](../../skills/gmail-thread-summarizer-action-extractor/) | — | — |
 | [Google Calendar Conflict Detector](../../skills/google-calendar-conflict-detector/) | — | — |

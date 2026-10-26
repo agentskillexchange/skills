@@ -128,12 +128,12 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Linkup JS SDK for Sourced Web Search and Fetch](../../skills/linkup-js-sdk-sourced-web-search-fetch/) | 4 | 30.8k/wk |
 | [Use 404.directory](../../skills/use-404-directory/) | 1 | 450/wk |
 | [Aperture Wallet Guide](../../skills/aperture-wallet-guide/) | 1 | — |
+| [Datacircle](../../skills/datacircle/) | 1 | — |
 | [NPM Package API Surface Extractor](../../skills/npm-package-api-surface-extractor/) | — | 17.1M/wk |
 | [API Documentation Indexer](../../skills/api-documentation-indexer/) | — | — |
 | [AShareHub Chinese Market Data](../../skills/asharehub/) | — | — |
 | [AsyncAPI Event Catalog Builder](../../skills/asyncapi-event-catalog-builder/) | — | — |
 | [AsyncAPI Event Catalog Generator](../../skills/asyncapi-event-catalog-generator/) | — | — |
-| [Datacircle](../../skills/datacircle/) | — | — |
 | [Healthcare Job Search (US) with CareJobs.Now](../../skills/healthcare-job-search-carejobs-now/) | — | — |
 | [Implement, review, and optimize SwiftUI code with trace-backed diagnostics](../../skills/implement-review-and-optimize-swiftui-code-with-trace-backed-diagnostics/) | — | — |
 | [MDN Web API Reference Fetcher](../../skills/mdn-web-api-reference-fetcher/) | — | — |

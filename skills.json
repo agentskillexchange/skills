@@ -1,8 +1,71 @@
 {
   "version": "2.0",
-  "total": 3180,
-  "generated": "2026-10-25",
+  "total": 3185,
+  "generated": "2026-10-26",
   "skills": [
+    {
+      "slug": "bootstrap-and-verify-self-hosted-rakazo-from-published-images",
+      "name": "Bootstrap and verify self-hosted Rakazo from published images",
+      "title": "Bootstrap and verify self-hosted Rakazo from published images",
+      "description": "Prepare a Docker-based Rakazo installation, preserve private configuration, and verify service health, the selected sandbox, and an optional first bot reply before handoff.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 5822
+      },
+      "source_url": "https://github.com/elie222/rakazo",
+      "github_repo": "elie222/rakazo"
+    },
+    {
+      "slug": "audit-performance-claims-with-pstack-benchmark-checklist",
+      "name": "Audit performance claims with Pstack benchmark-checklist",
+      "title": "Audit performance claims with Pstack benchmark-checklist",
+      "description": "Check tuning, bottlenecks, correctness, repeatability, and end-to-end relevance before an agent reports a measured speedup or regression.",
+      "category": "Code Quality & Review",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 2792
+      },
+      "source_url": "https://github.com/backnotprop/pstack",
+      "github_repo": "backnotprop/pstack"
+    },
+    {
+      "slug": "email-voice",
+      "name": "Email Voice",
+      "title": "Email Voice",
+      "description": "Learn a user's email voice from authorized sent samples, export a private style profile, and draft fact-preserving replies with bounded sampling and held-out validation.",
+      "category": "Calendar, Email & Productivity",
+      "framework": "Codex",
+      "verification": "listed",
+      "source_url": "https://github.com/DEX-XL/email-voice",
+      "github_repo": "dex-xl/email-voice"
+    },
+    {
+      "slug": "query-isolated-git-worktree-code-maps-with-projectatlas",
+      "name": "Query isolated Git worktree code maps with ProjectAtlas",
+      "title": "Query isolated Git worktree code maps with ProjectAtlas",
+      "description": "Register existing Git worktrees under explicit MCP aliases, refresh their separate code maps, and return bounded source evidence across selected checkouts.",
+      "category": "Developer Tools",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 456
+      },
+      "source_url": "https://github.com/styler-ai/ProjectAtlas",
+      "github_repo": "styler-ai/ProjectAtlas"
+    },
+    {
+      "slug": "ai-services-market-mcp",
+      "name": "AI Services Market MCP",
+      "title": "AI Services Market MCP",
+      "description": "Teaches an agent to connect to the AI Services Market MCP server (https://aiservicesmarket.lol/mcp) and use its seven tools — search_skills, get_skill, search_use_cases, get_use_case, get_entitlement,…",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "listed",
+      "source_url": "https://aiservicesmarket.lol/mcp"
+    },
     {
       "slug": "compare-ui-design-directions-and-refine-the-selected-page-with-oil-ui",
       "name": "Compare UI design directions and refine the selected page with Oil UI",
@@ -25,6 +88,9 @@
       "category": "Library & API Reference",
       "framework": "Claude Code",
       "verification": "listed",
+      "signals": {
+        "github_stars": 1
+      },
       "source_url": "https://github.com/waynehamadi/datacircle",
       "github_repo": "waynehamadi/datacircle"
     },
@@ -27566,7 +27632,8 @@
       "framework": "MCP",
       "verification": "listed",
       "signals": {
-        "github_stars": 2572
+        "github_stars": 2572,
+        "npm_weekly_downloads": 68012
       },
       "source_url": "https://github.com/supabase-community/supabase-mcp",
       "github_repo": "supabase-community/supabase-mcp"
