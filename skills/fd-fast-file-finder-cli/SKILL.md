@@ -18,22 +18,26 @@ A fast and user-friendly alternative to the find command, written in Rust. fd pr
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Make sure that $HOME/.local/bin is in your $PATH.
-- brew install fd
-- npm install -g fd-find
-- cargo install fd-find
+On macOS or Linux with Homebrew already installed, install the upstream `fd`
+package:
 
-Requirements and caveats from upstream:
-- Software/python/imdb-ratings/netflix-details.py
+```sh
+brew install fd
+```
 
-Basic usage or getting-started notes:
-- First, to get an overview of all available command line options, you can either run
-- run *fd* with a single argument: the search pattern. For example, assume that you want to find an
-- unzip file1.zip and unzip backup/file2.zip. The two unzip processes run in parallel
+Verify that the executable is available and inspect its options:
 
-- Source: https://github.com/sharkdp/fd
-- Extracted from upstream docs: https://raw.githubusercontent.com/sharkdp/fd/HEAD/README.md
+```sh
+fd --version
+fd --help
+```
+
+From a test directory, run `fd .` to list matching paths without changing files.
+By default, fd respects ignore rules and omits hidden files. Review its options
+before broadening the search scope or using commands that act on matched files.
+
+For other operating systems and package managers, follow the
+[upstream installation guide](https://github.com/sharkdp/fd#installation).
 
 ## Source
 

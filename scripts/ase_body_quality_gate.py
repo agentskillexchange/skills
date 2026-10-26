@@ -11,9 +11,11 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import shlex
 import sys
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlsplit
 
 STRICT_NAV_LABELS = {
     "contents",
@@ -152,6 +154,14 @@ def normalize_source_terms(fields: dict[str, Any], path: Path) -> set[str]:
                     terms.add(part)
     terms.add(path.parent.name.lower())
     tool = fields.get("tool_ecosystem") if isinstance(fields.get("tool_ecosystem"), dict) else {}
+    # Short names must come from an exact GitHub repo identity, not title words.
+    source = urlsplit(str(fields.get("source") or ""))
+    if source.hostname in {"github.com", "www.github.com"}:
+        parts = source.path.strip("/").split("/")
+        if len(parts) >= 2:
+            repo_name = parts[1].removesuffix(".git").lower()
+            if re.fullmatch(r"[a-z0-9]{1,2}", repo_name):
+                terms.add("exact-package:" + repo_name)
     for key in ("github_repo", "npm_package", "parent_repo"):
         value = str(tool.get(key) or "").lower()
         if value:
@@ -189,7 +199,15 @@ def command_mentions_source(command: str, terms: set[str]) -> bool:
     command_l = command.lower()
     if command_l.startswith("git clone "):
         return True
-    return any(term and term in command_l for term in terms)
+    try:
+        tokens = shlex.split(command_l, comments=True)
+    except ValueError:
+        tokens = []
+    # Exact three-token installs only; never match comments or shell suffixes.
+    if len(tokens) == 3 and tokens[0] in {"brew", "cargo", "pip", "pip3", "npm"} and tokens[1] == "install":
+        if "exact-package:" + tokens[2] in terms:
+            return True
+    return any(term and not term.startswith("exact-package:") and term in command_l for term in terms)
 
 
 def installation_issues(text: str, fields: dict[str, Any], path: Path) -> list[dict[str, Any]]:
