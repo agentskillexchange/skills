@@ -1,15 +1,15 @@
 ---
 name: "HyperGrok Trading Desk"
 slug: "hypergrok-trading-desk"
-description: "Turn Claude Code, Cursor, or Grok Bot into a 7-role Hyperliquid trading desk. Sixteen SKILL.md skills plus seven agent prompts cover market data, risk limits, ticketed execution, and post-trade review. You approve every trade by ticket id. Trade-only API wallet; no withdraw."
-github_stars: 39
+description: "Turn Claude Code, Cursor, or Grok Bot into a 7-role Hyperliquid trading desk. Seventeen SKILL.md skills plus seven agent prompts cover market data, risk limits, ticketed execution, and post-trade review. You approve every trade by ticket id. Trade-only API wallet; no withdraw."
+github_stars: 189
 verification: "listed"
 source: "https://github.com/galleonlabs/hypergrok-trading-desk"
 category: "Integrations & Connectors"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "galleonlabs/hypergrok-trading-desk"
-  github_stars: 39
+  github_stars: 189
 ---
 
 # HyperGrok Trading Desk
@@ -36,12 +36,12 @@ HyperGrok is documentation and instructions, not financial advice. Perpetual fut
 
 ### Grok Bot
 
-Follow the reviewed [v1.5.0 bootstrap](https://github.com/galleonlabs/hypergrok-trading-desk/blob/v1.5.0/skills/hypergrok-bootstrap/SKILL.md) and [complete setup runbook](https://github.com/galleonlabs/hypergrok-trading-desk/blob/v1.5.0/SETUP.md). The desk starts in research mode without a key, account read or order.
+Follow the reviewed [v1.7.0 bootstrap](https://github.com/galleonlabs/hypergrok-trading-desk/blob/v1.7.0/skills/hypergrok-bootstrap/SKILL.md) and [complete setup runbook](https://github.com/galleonlabs/hypergrok-trading-desk/blob/v1.7.0/SETUP.md). The desk starts in research mode without a key, account read or order.
 
 ### Grok Build
 
 ```bash
-grok plugin install galleonlabs/hypergrok-trading-desk@v1.5.0 --trust
+grok plugin install galleonlabs/hypergrok-trading-desk@v1.7.0 --trust
 ```
 
 ### Claude Code marketplace
@@ -54,7 +54,7 @@ grok plugin install galleonlabs/hypergrok-trading-desk@v1.5.0 --trust
 ### Read-only release checkout
 
 ```bash
-git clone --depth 1 --branch v1.5.0 https://github.com/galleonlabs/hypergrok-trading-desk.git hypergrok
+git clone --depth 1 --branch v1.7.0 https://github.com/galleonlabs/hypergrok-trading-desk.git hypergrok
 python3 hypergrok/scripts/opening_bell.py --coin ETH
 ```
 
@@ -65,5 +65,5 @@ The checkout contains the reviewed instructions, roles, skills and read-only Pyt
 - Upstream: https://github.com/galleonlabs/hypergrok-trading-desk
 - Homepage: https://galleonlabs.io
 - License: MIT
-- Reviewed release: [v1.5.0](https://github.com/galleonlabs/hypergrok-trading-desk/releases/tag/v1.5.0)
+- Reviewed release: [v1.7.0](https://github.com/galleonlabs/hypergrok-trading-desk/releases/tag/v1.7.0)
 - Agent Plugins 1.0.0 schema in `plugin.json` at repo root
