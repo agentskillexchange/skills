@@ -282,6 +282,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Progressive Disclosure for Documentation](../../skills/progressive-disclosure/) | 14 | — |
 | [Run GitHub Issues as a Spec, Build, Review and Ship Pipeline with workkit](../../skills/run-github-issues-as-a-spec-build-review-ship-pipeline-with-workkit/) | 4 | — |
 | [Generate and safely patch AGENTS.md and RUNBOOK.md with AGENTS.md Generator](../../skills/generate-and-safely-patch-agents-md-and-runbook-md-with-agents-md-generator/) | 2 | — |
+| [Goal Instruction Writer](../../skills/goal-instruction-writer/) | 2 | — |
 | [Browser Extension Launch](../../skills/browser-extension-launch/) | 1 | 301/wk |
 | [Book to Mentor](../../skills/book-to-mentor/) | 1 | — |
 | [Concept to Story](../../skills/concept-to-story/) | 1 | — |
@@ -296,7 +297,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Draft user-facing App Store release notes from git history with App Store Changelog](../../skills/draft-user-facing-app-store-release-notes-from-git-history-with-app-store-changelog/) | — | — |
 | [Five-Element Spec: Scope Before Coding](../../skills/five-element-spec/) | — | — |
 | [GitHub Actions Workflow Composer](../../skills/github-actions-workflow-composer-2/) | — | — |
-| [Goal Instruction Writer](../../skills/goal-instruction-writer/) | — | — |
 | [Incident Response Template Generator](../../skills/incident-response-template-generator/) | — | — |
 | [Keep GitHub wiki pages synced with recently merged code changes](../../skills/keep-github-wiki-pages-synced-with-recently-merged-code-changes/) | — | — |
 | [Makefile Workflow Generator](../../skills/makefile-workflow-generator/) | — | — |

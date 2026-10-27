@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3189 published skills** across **17 categories** · 2,615 security reviewed · Updated 2026-10-27 01:26 UTC
+> **3189 published skills** across **17 categories** · 2,615 security reviewed · Updated 2026-10-27 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -799,6 +799,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Progressive Disclosure for Documentation](skills/progressive-disclosure/) | Restructure large documentation files (500+ lines, 5k+ tokens) into slim indexes with on-demand detail directories.… | Published | 14 | — |
 | [Run GitHub Issues as a Spec, Build, Review and Ship Pipeline with workkit](skills/run-github-issues-as-a-spec-build-review-ship-pipeline-with-workkit/) | Use workkit when Claude Code should work a repository's GitHub Issues as a labeled pipeline: capture, triage, spec… | Published | 4 | — |
 | [Generate and safely patch AGENTS.md and RUNBOOK.md with AGENTS.md Generator](skills/generate-and-safely-patch-agents-md-and-runbook-md-with-agents-md-generator/) | Bootstrap and safely update AGENTS.md and RUNBOOK.md without clobbering hand-edited docs, so coding-agent repos keep… | Security Reviewed | 2 | — |
+| [Goal Instruction Writer](skills/goal-instruction-writer/) | Preview, draft, refine, and audit durable Goal instructions in Codex. Define observable acceptance evidence, bounded… | Published | 2 | — |
 | [Browser Extension Launch](skills/browser-extension-launch/) | Turns a plain-language idea into a tested Chrome Manifest V3 extension, release bundle, store materials, and a… | Published | 1 | 301/wk |
 | [Book to Mentor](skills/book-to-mentor/) | Convert a book or long document into a reusable AI mentor with source-grounded lessons, guided practice, citations,… | Published | 1 | — |
 | [Concept to Story](skills/concept-to-story/) | Teach concepts from user-provided PDFs in Codex through source-grounded stories, memory anchors, explicit analogy… | Published | 1 | — |
@@ -813,7 +814,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Draft user-facing App Store release notes from git history with App Store Changelog](skills/draft-user-facing-app-store-release-notes-from-git-history-with-app-store-changelog/) | Turn commits since the last tag into concise App Store What's New bullets instead of hand-sifting raw git history. | Security Reviewed | — | — |
 | [Five-Element Spec: Scope Before Coding](skills/five-element-spec/) | Translate a vague request or GitHub issue into a concrete, testable spec using five structured elements (problem,… | Published | — | — |
 | [GitHub Actions Workflow Composer](skills/github-actions-workflow-composer-2/) | Composes GitHub Actions workflow YAML files from modular job templates, resolving action version pins and secret… | Security Reviewed | — | — |
-| [Goal Instruction Writer](skills/goal-instruction-writer/) | Preview, draft, refine, and audit durable Goal instructions in Codex. Define observable acceptance evidence, bounded… | Published | — | — |
 | [Incident Response Template Generator](skills/incident-response-template-generator/) | Creates structured incident response templates using the PagerDuty Events API v2, Jira REST API for ticket creation,… | Security Reviewed | — | — |
 | [Keep GitHub wiki pages synced with recently merged code changes](skills/keep-github-wiki-pages-synced-with-recently-merged-code-changes/) | This entry turns GitHub Next's Agentic Wiki Writer into a documentation-maintenance workflow. The agent watches for… | Security Reviewed | — | — |
 | [Makefile Workflow Generator](skills/makefile-workflow-generator/) | Generates project Makefiles with standard targets using GNU Make syntax, autodeps pattern rules, and integration… | Security Reviewed | — | — |
@@ -1925,6 +1925,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Mirror and back up OpenClaw workspaces to your own storage with openclaw-workspace-sync](skills/mirror-and-back-up-openclaw-workspaces-to-your-own-storage-with-openclaw-workspace-sync/) | Lets an OpenClaw agent sync its workspace to cloud storage in mailbox, mirror, or bisync mode, and optionally push… | Security Reviewed | 8 | 295/wk |
 | [Mirror OpenClaw workspaces and stream encrypted backups with openclaw-workspace-sync](skills/mirror-openclaw-workspaces-and-stream-encrypted-backups-with-openclaw-workspace-sync/) | Sync an OpenClaw workspace to your own cloud storage or push encrypted agent-system backups with OpenClaw-aware… | Security Reviewed | 8 | 295/wk |
 | [Aident Loadout](skills/aident-loadout/) | Give Claude Code, Codex, Cursor, ChatGPT and other MCP clients 1,000+ apps and 400+ expert-built Skills through one… | Published | 6 | 3.1k/wk |
+| [Openhook](skills/openhook/) | Creates webhook inboxes, receives callbacks, and forwards events for AI agents with Openhook. Use when testing local… | Published | 1 | — |
 | [Normalize international phone numbers into E.164 before CRM imports or messaging workflows](skills/normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows/) | Use libphonenumber-js when an agent needs to clean messy phone-number input, validate it against country rules, and… | Published | — | 15.6M/wk |
 | [USDCtoFiat Cash-Out](skills/usdctofiat-cashout/) | Add non-custodial Base USDC-to-fiat cash-out with @usdctofiat/offramp cashout({ mode: "fast" \| "best" }). Use when… | Published | — | 650/wk |
 | [Search and Book Hotels and Flights with MAQAMI Travel](skills/maqami-travel-booking/) | Use MAQAMI Travel when an agent should search hotels (3M+) and flights for specific dates, compare rates, read hotel… | Published | — | 428/wk |
@@ -1940,7 +1941,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Hourglyph Daily Puzzle](skills/hourglyph-daily/) | Play Hourglyph Daily, a free daily logic puzzle by Clock Hill Games, through its documented HTTP API: register,… | Published | — | — |
 | [JMT x402 Agent Tools](skills/jmt-x402-agent-tools/) | Paid x402 HTTP-402 endpoints on Base mainnet that let agents pay-per-call in USDC for web search, AI analysis,… | Published | — | — |
 | [Linear Issue Triage & Sprint Planner](skills/linear-issue-triage-sprint-planner-2/) | Queries the Linear GraphQL API to list open issues by team, priority, and cycle, then applies configurable triage… | Security Reviewed | — | — |
-| [Openhook](skills/openhook/) | Creates webhook inboxes, receives callbacks, and forwards events for AI agents with Openhook. Use when testing local… | Published | — | — |
 | [PlaceCall Phone Calls to Businesses](skills/placecall/) | Lets an agent place real outbound phone calls to US businesses through the PlaceCall remote MCP server or REST API:… | Published | — | — |
 | [Plaid Financial Data Connector](skills/plaid-financial-data-connector/) | Connects to bank accounts via Plaid Link SDK and retrieves transaction data using the Plaid Transactions API.… | Security Reviewed | — | — |
 | [RouterBase API Integration](skills/routerbase-api-integration/) | Integrate agent applications with RouterBase as an OpenAI-compatible API gateway, including SDK base URL… | Published | — | — |
