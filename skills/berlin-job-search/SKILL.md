@@ -22,7 +22,7 @@ Berlin Job Search teaches an AI agent the unwritten rules of job hunting in Germ
 - **Apply:** a writer pass and an independent reviewer pass that traces every claim back to the user's CV, then a German Lebenslauf/Anschreiben or English CV rendered to PDF with local Chrome and an ATS check. It never invents experience and never submits anything.
 - **Interview and track:** mock interviews with scored feedback, an application tracker with follow-up reminders, and an offline HTML dashboard.
 
-The scripts are Python 3.9+ standard library only and need no API keys. User data stays in a local, gitignored `job-search/` folder.
+The scripts are Python 3.9+ standard library only and need no API keys. User data stays on the user's machine in `job-search/` (or `$GJS_DATA_DIR`). Inside a Git repository, the scripts give that folder its own `.gitignore` before the first write, and the skill runs `tracker.py protect` before saving any personal data; already-tracked files are reported, never changed.
 
 ## Installation
 
