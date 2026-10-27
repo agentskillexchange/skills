@@ -106,6 +106,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Systemd Service Debugger](../../skills/systemd-service-debugger/) | 16.2k | — |
 | [Systemd Service Diagnostics](../../skills/systemd-service-diagnostics/) | 16.2k | — |
 | [Systemd Service Recovery Playbook](../../skills/systemd-service-recovery-playbook-2/) | 16.2k | — |
+| [Diagnose Paradev host and terminal failures with the doctor skill](../../skills/diagnose-paradev-host-and-terminal-failures-with-the-doctor-skill/) | 15.6k | — |
 | [BorgBackup Deduplicating Encrypted Backup Program](../../skills/borgbackup-deduplicating-encrypted-backup/) | 13.2k | — |
 | [PostgreSQL Diagnostic Analyzer](../../skills/postgresql-diagnostic-analyzer/) | 13.1k | 23.2M/wk |
 | [PostgreSQL Diagnostic Runbook](../../skills/postgresql-diagnostic-runbook/) | 13.1k | 23.2M/wk |

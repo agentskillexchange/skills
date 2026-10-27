@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3188 published skills** across **17 categories** · 2,615 security reviewed · Updated 2026-10-26 19:26 UTC
+> **3189 published skills** across **17 categories** · 2,615 security reviewed · Updated 2026-10-27 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1951,7 +1951,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (183 skills)
+### 📋 Runbooks & Diagnostics (184 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -2023,6 +2023,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Systemd Service Debugger](skills/systemd-service-debugger/) | Debugs failed systemd services using journalctl, systemctl, and the systemd D-Bus API. Analyzes unit dependencies,… | Published | 16.2k | — |
 | [Systemd Service Diagnostics](skills/systemd-service-diagnostics/) | Diagnoses systemd service failures using journalctl structured JSON output and systemctl show properties. Analyzes… | Published | 16.2k | — |
 | [Systemd Service Recovery Playbook](skills/systemd-service-recovery-playbook-2/) | Diagnoses and recovers failed systemd services using journalctl, systemctl status, and D-Bus… | Published | 16.2k | — |
+| [Diagnose Paradev host and terminal failures with the doctor skill](skills/diagnose-paradev-host-and-terminal-failures-with-the-doctor-skill/) | Capture Paradev service, account, host and version evidence, propose one symptom-matched repair, and verify the… | Security Reviewed | 15.6k | — |
 | [BorgBackup Deduplicating Encrypted Backup Program](skills/borgbackup-deduplicating-encrypted-backup/) | BorgBackup (Borg) is a deduplicating backup program with optional compression and authenticated encryption. It uses… | Security Reviewed | 13.2k | — |
 | [PostgreSQL Diagnostic Analyzer](skills/postgresql-diagnostic-analyzer/) | Runs diagnostic queries against PostgreSQL using pg_stat_statements, pg_stat_activity, and pg_locks system views.… | Security Reviewed | 13.1k | 23.2M/wk |
 | [PostgreSQL Diagnostic Runbook](skills/postgresql-diagnostic-runbook/) | Diagnoses PostgreSQL performance issues using pg_stat_statements, pg_stat_activity, and the pgbadger log analyzer.… | Security Reviewed | 13.1k | 23.2M/wk |

@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-10-26
-# Total: 3188 skills
+# Generated: 2026-10-27
+# Total: 3189 skills
+
+## Diagnose Paradev host and terminal failures with the doctor skill
+slug: diagnose-paradev-host-and-terminal-failures-with-the-doctor-skill
+category: Runbooks & Diagnostics
+framework: Multi-Framework
+verification: Security Reviewed
+description: Capture Paradev service, account, host and version evidence, propose one symptom-matched repair, and verify the original failure before escalation.
+url: https://agentskillexchange.com/skills/diagnose-paradev-host-and-terminal-failures-with-the-doctor-skill/
 
 ## PopNow Video Generation
 slug: popnow-video

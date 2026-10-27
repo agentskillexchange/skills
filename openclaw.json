@@ -1,9 +1,20 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-10-26",
-  "total": 3188,
+  "generated": "2026-10-27",
+  "total": 3189,
   "skills": [
+    {
+      "slug": "diagnose-paradev-host-and-terminal-failures-with-the-doctor-skill",
+      "name": "Diagnose Paradev host and terminal failures with the doctor skill",
+      "title": "Diagnose Paradev host and terminal failures with the doctor skill",
+      "description": "Capture Paradev service, account, host and version evidence, propose one symptom-matched repair, and verify the original failure before escalation.",
+      "category": "Runbooks & Diagnostics",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/ParadevAI/Paradev/blob/7b3643f33143bd0d479a90f53125651803b9961d/plugins/superset/skills/doctor/SKILL.md",
+      "github_repo": "ParadevAI/Paradev"
+    },
     {
       "slug": "popnow-video",
       "name": "PopNow Video Generation",
