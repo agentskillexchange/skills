@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-10-27
-# Total: 3189 skills
+# Total: 3190 skills
+
+## Review Rust code with rule-cited findings using BeautifulRust
+slug: review-rust-code-with-rule-cited-findings-using-beautifulrust
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Review a Rust file, crate or diff with scoped tool checks and prioritized findings that cite source rules, locations and concrete fixes.
+url: https://agentskillexchange.com/skills/review-rust-code-with-rule-cited-findings-using-beautifulrust/
 
 ## Diagnose Paradev host and terminal failures with the doctor skill
 slug: diagnose-paradev-host-and-terminal-failures-with-the-doctor-skill

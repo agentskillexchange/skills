@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3189 published skills** across **17 categories** · 2,616 security reviewed · Updated 2026-10-27 13:26 UTC
+> **3190 published skills** across **17 categories** · 2,616 security reviewed · Updated 2026-10-27 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1336,7 +1336,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (209 skills)
+### ✅ Code Quality & Review (210 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1472,6 +1472,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Review live agent-authored diffs in Neovim with CodeDiff](skills/review-live-agent-authored-diffs-in-neovim-with-codediff/) | Use CodeDiff to keep coding agents running while a human operator reviews, stages, discards, and resolves changes in… | Security Reviewed | 1.5k | — |
 | [Strip noisy Jupyter output from notebooks before commit with nbstripout](skills/strip-noisy-jupyter-output-from-notebooks-before-commit-with-nbstripout/) | Keep notebook diffs reviewable by removing execution output and excess metadata before notebooks land in Git history. | Security Reviewed | 1.4k | — |
 | [Audit Python dependency declarations for unused, missing, and transitive imports before release](skills/audit-python-dependency-declarations-before-release/) | Use Deptry when an agent needs to verify that a Python project's declared dependencies still match the imports the… | Security Reviewed | 1.4k | — |
+| [Review Rust code with rule-cited findings using BeautifulRust](skills/review-rust-code-with-rule-cited-findings-using-beautifulrust/) | Review a Rust file, crate or diff with scoped tool checks and prioritized findings that cite source rules, locations… | Security Reviewed | 1.3k | — |
 | [Remove unused Rust dependencies before they quietly bloat builds and reviews with cargo-machete](skills/remove-unused-rust-dependencies-before-they-quietly-bloat-builds-and-reviews-with-cargo-machete/) | Use cargo-machete when an agent needs to find and remove unused Rust dependencies before they keep inflating build… | Security Reviewed | 1.3k | 2.1M/wk |
 | [sqruff High-Performance SQL Linter and Formatter](skills/sqruff-sql-linter-formatter/) | A fast SQL linter and formatter written in Rust by Quary Labs. sqruff provides advanced configurable linting and… | Security Reviewed | 1.3k | — |
 | [Review visual regression diffs and publish snapshot baselines in CI with reg-suit](skills/review-visual-regression-diffs-and-publish-snapshot-baselines-in-ci-with-reg-suit/) | Use reg-suit when an agent needs to compare screenshot outputs against a stored baseline and publish a… | Security Reviewed | 1.3k | 499.4k/wk |

@@ -170,6 +170,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Review live agent-authored diffs in Neovim with CodeDiff](../../skills/review-live-agent-authored-diffs-in-neovim-with-codediff/) | 1.5k | — |
 | [Strip noisy Jupyter output from notebooks before commit with nbstripout](../../skills/strip-noisy-jupyter-output-from-notebooks-before-commit-with-nbstripout/) | 1.4k | — |
 | [Audit Python dependency declarations for unused, missing, and transitive imports before release](../../skills/audit-python-dependency-declarations-before-release/) | 1.4k | — |
+| [Review Rust code with rule-cited findings using BeautifulRust](../../skills/review-rust-code-with-rule-cited-findings-using-beautifulrust/) | 1.3k | — |
 | [Remove unused Rust dependencies before they quietly bloat builds and reviews with cargo-machete](../../skills/remove-unused-rust-dependencies-before-they-quietly-bloat-builds-and-reviews-with-cargo-machete/) | 1.3k | 2.1M/wk |
 | [sqruff High-Performance SQL Linter and Formatter](../../skills/sqruff-sql-linter-formatter/) | 1.3k | — |
 | [Review visual regression diffs and publish snapshot baselines in CI with reg-suit](../../skills/review-visual-regression-diffs-and-publish-snapshot-baselines-in-ci-with-reg-suit/) | 1.3k | 499.4k/wk |

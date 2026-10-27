@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-10-27",
-  "total": 3189,
+  "total": 3190,
   "skills": [
+    {
+      "slug": "review-rust-code-with-rule-cited-findings-using-beautifulrust",
+      "name": "Review Rust code with rule-cited findings using BeautifulRust",
+      "title": "Review Rust code with rule-cited findings using BeautifulRust",
+      "description": "Review a Rust file, crate or diff with scoped tool checks and prioritized findings that cite source rules, locations and concrete fixes.",
+      "category": "Code Quality & Review",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/morganlinton/BeautifulRust",
+      "github_repo": "morganlinton/BeautifulRust"
+    },
     {
       "slug": "diagnose-paradev-host-and-terminal-failures-with-the-doctor-skill",
       "name": "Diagnose Paradev host and terminal failures with the doctor skill",
