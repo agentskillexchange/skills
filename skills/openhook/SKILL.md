@@ -2,12 +2,15 @@
 name: "Openhook"
 slug: "openhook"
 description: "Creates webhook inboxes, receives callbacks, and forwards events for AI agents with Openhook. Use when testing local webhook integrations, inspecting external callbacks, or waiting for asynchronous events through MCP."
+github_stars: 1
 verification: "listed"
 source: "https://github.com/openhook-dev/openhook-inbox"
+author: "openhook-dev"
 category: "Integrations & Connectors"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "openhook-dev/openhook-inbox"
+  github_stars: 1
 ---
 
 # Openhook
@@ -83,7 +86,9 @@ MCP for the current deployment's plans. Agent keys do not authorize billing.
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Install or set up from the source-backed instructions:
+
+npx skills add openhook-dev/openhook-inbox --skill openhook
 
 - Source: https://github.com/openhook-dev/openhook-inbox
 

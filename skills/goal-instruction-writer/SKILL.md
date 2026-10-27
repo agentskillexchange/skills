@@ -2,12 +2,15 @@
 name: "Goal Instruction Writer"
 slug: "goal-instruction-writer"
 description: "Preview, draft, refine, and audit durable Goal instructions in Codex. Define observable acceptance evidence, bounded execution loops, checkpoints, drift controls, proportional verification, and explicit stop conditions for multi-stage coding and delivery work."
+github_stars: 2
 verification: "listed"
 source: "https://github.com/wu736139669/goal-instruction-writer"
+author: "wu736139669"
 category: "Templates & Workflows"
 framework: "Codex"
 tool_ecosystem:
   github_repo: "wu736139669/goal-instruction-writer"
+  github_stars: 2
 ---
 
 # Goal Instruction Writer
@@ -243,23 +246,11 @@ states concrete enough that a later reviewer can decide them from evidence.
 
 ## Installation
 
-### Codex: canonical upstream package
+Install or set up from the source-backed instructions:
 
-Install the upstream package so Codex receives the canonical
-`goal-instruction-writer` skill name and its supporting files:
+npx skills add wu736139669/goal-instruction-writer --skill goal-instruction-writer -g -a codex -y
 
-```bash
-mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
-git clone https://github.com/wu736139669/goal-instruction-writer.git "${CODEX_HOME:-$HOME/.codex}/skills/goal-instruction-writer"
-```
-
-Invoke `$goal-instruction-writer` in Codex after installation. For example:
-
-```text
-Use $goal-instruction-writer in Draft mode to define a Goal for this migration.
-Preserve the requested scope, define observable acceptance evidence, and
-separate focused iteration checks from required delivery checks.
-```
+- Source: https://github.com/wu736139669/goal-instruction-writer
 
 ## Upstream and usage evidence
 
