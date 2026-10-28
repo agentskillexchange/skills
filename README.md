@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Kubernetes Event Stream Analyzer](skills/kubernetes-event-stream-analyzer/)** — Watches Kubernetes event streams via the Watch API and correlates pod lifecycle events with resource metrics from Metrics Server. Detects CrashLoopBackOff patterns and OOMKilled signals for automated triage.
+**[Lightning CSS High-Performance CSS Parser Transformer and Minifier](skills/lightning-css-high-performance-css-parser-transformer-and-minifier/)** — Lightning CSS is a Rust-based CSS parser, transformer, bundler, and minifier from the Parcel team. This skill is for agents that need to optimize stylesheets, lower modern CSS…
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -127,12 +127,12 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Monitor Claude Code sessions with ccstatusline](skills/monitor-claude-code-sessions-with-ccstatusline/) | Configure Claude Code's status line with live model, token, cost, git, sandbox, cache, CI, and session health signals... | 13.2k | Developer Tools |
 | [Reverse-engineer apps and binaries with REA](skills/reverse-engineer-apps-and-binaries-with-rea/) | Connect coding agents to REA's MCP tools so they can inspect apps, binaries, websites, APKs, and runtime behavior... | 17.1k | Security & Verification |
 | [Resolve coding questions from upstream evidence with Firecrawl Developer Index](skills/resolve-coding-questions-with-firecrawl-developer-index/) | Find public issues, merged fixes and API-contract passages with Firecrawl’s named Developer Index skill, then return a cited... | 653 | Research & Scraping |
-| [Run owned terminal coding-agent workflows with Zero](skills/run-owned-terminal-coding-agent-workflows-with-zero/) | Use Zero to run local, scriptable coding-agent sessions with operator-controlled models, permissions, tools, skills, MCP servers, and durable... | 1.7k | Developer Tools |
 | [Diagnose Paradev host and terminal failures with the doctor skill](skills/diagnose-paradev-host-and-terminal-failures-with-the-doctor-skill/) | Capture Paradev service, account, host and version evidence, propose one symptom-matched repair, and verify the original failure before... | 15.6k | Runbooks & Diagnostics |
+| [Run owned terminal coding-agent workflows with Zero](skills/run-owned-terminal-coding-agent-workflows-with-zero/) | Use Zero to run local, scriptable coding-agent sessions with operator-controlled models, permissions, tools, skills, MCP servers, and durable... | 1.7k | Developer Tools |
 | [Run code-generated short-film workflows with Lemo-Opuscar](skills/direct-code-generated-short-films-with-lemo-opuscar-styles/) | Use a Claude Code plugin to turn a story brief into a short film project built from reusable... | 1.5k | Image & Creative Automation |
-| [Annotate Classical Chinese corpora with HanLP](skills/annotate-classical-chinese-corpora-with-hanlp/) | Produce reviewable token, lemma, POS and dependency annotations for Classical Chinese passages with HanLP’s dedicated Ancient Chinese model | 36.5k | Data Extraction & Transformation |
 | [Co-edit and verify a live spreadsheet session through GridCraft MCP](skills/co-edit-and-verify-a-live-spreadsheet-session-through-gridcraft-mcp/) | Connect an agent to the GridCraft workbook open on a user’s desktop, make scoped edits, and return formula... | 6.2k | Data Extraction & Transformation |
-| [Audit performance claims with Pstack benchmark-checklist](skills/audit-performance-claims-with-pstack-benchmark-checklist/) | Check tuning, bottlenecks, correctness, repeatability, and end-to-end relevance before an agent reports a measured speedup or regression | 2.8k | Code Quality & Review |
+| [Review Rust code with rule-cited findings using BeautifulRust](skills/review-rust-code-with-rule-cited-findings-using-beautifulrust/) | Review a Rust file, crate or diff with scoped tool checks and prioritized findings that cite source rules... | 1.3k | Code Quality & Review |
+| [Annotate Classical Chinese corpora with HanLP](skills/annotate-classical-chinese-corpora-with-hanlp/) | Produce reviewable token, lemma, POS and dependency annotations for Classical Chinese passages with HanLP’s dedicated Ancient Chinese model | 36.5k | Data Extraction & Transformation |
 
 ---
 
