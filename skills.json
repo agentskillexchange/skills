@@ -21,7 +21,7 @@
       "description": "Review a Rust file, crate or diff with scoped tool checks and prioritized findings that cite source rules, locations and concrete fixes.",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "signals": {
         "github_stars": 1293
       },

@@ -22,7 +22,7 @@
       "description": "Review a Rust file, crate or diff with scoped tool checks and prioritized findings that cite source rules, locations and concrete fixes.",
       "category": "Code Quality & Review",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "source_url": "https://github.com/morganlinton/BeautifulRust",
       "github_repo": "morganlinton/BeautifulRust"
     },

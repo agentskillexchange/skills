@@ -15,7 +15,7 @@ url: https://agentskillexchange.com/skills/retrieve-upstream-implementation-evid
 slug: review-rust-code-with-rule-cited-findings-using-beautifulrust
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Review a Rust file, crate or diff with scoped tool checks and prioritized findings that cite source rules, locations and concrete fixes.
 url: https://agentskillexchange.com/skills/review-rust-code-with-rule-cited-findings-using-beautifulrust/
 

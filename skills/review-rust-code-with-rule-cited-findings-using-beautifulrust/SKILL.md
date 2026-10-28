@@ -3,7 +3,7 @@ name: "Review Rust code with rule-cited findings using BeautifulRust"
 slug: "review-rust-code-with-rule-cited-findings-using-beautifulrust"
 description: "Review a Rust file, crate or diff with scoped tool checks and prioritized findings that cite source rules, locations and concrete fixes."
 github_stars: 1293
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/morganlinton/BeautifulRust"
 author: "morganlinton"
 publisher_type: "community"
