@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3190 published skills** across **17 categories** · 2,617 security reviewed · Updated 2026-10-28 01:26 UTC
+> **3191 published skills** across **17 categories** · 2,617 security reviewed · Updated 2026-10-28 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (535 skills)
+### 🛠️ Developer Tools (536 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -180,6 +180,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Verdaccio Lightweight Private npm Proxy Registry](skills/verdaccio-private-npm-proxy-registry/) | Verdaccio is a lightweight, zero-config private npm proxy registry that caches packages from npmjs.org and hosts… | Security Reviewed | 17.6k | 718.8k/wk |
 | [sqlc Type-Safe SQL Code Generator](skills/sqlc-type-safe-sql-code-generator/) | sqlc is a SQL compiler that generates type-safe Go, Python, Kotlin, and TypeScript code from plain SQL queries. You… | Security Reviewed | 17.3k | — |
 | [Give coding agents persistent project memory with AgentMemory](skills/give-coding-agents-persistent-project-memory-with-agentmemory/) | Use AgentMemory to run a persistent memory service that lets coding agents recall project context, prior decisions,… | Security Reviewed | 17.2k | 40.7k/wk |
+| [Retrieve upstream implementation evidence before coding with XERJ](skills/retrieve-upstream-implementation-evidence-before-coding-with-xerj/) | Build a focused reference corpus, retrieve implementation passages with file-and-line citations, and check license… | Security Reviewed | 17.2k | — |
 | [navi Interactive CLI Cheatsheet Tool](skills/navi-interactive-cli-cheatsheet-tool/) | An interactive cheatsheet tool for the command line that lets you browse through commands and fill in argument… | Security Reviewed | 16.9k | — |
 | [Nix Flake Configuration Builder](skills/nix-flake-configuration-builder/) | Generates reproducible Nix flake configurations with devShell environments and package overlays. Uses the Nix Flakes… | Security Reviewed | 16.8k | — |
 | [libSQL Edge-Ready SQLite Fork by Turso](skills/libsql-edge-sqlite-fork-turso/) | libSQL is an open-source, open-contribution fork of SQLite by Turso that adds embedded replicas, server mode, and… | Published | 16.6k | — |
@@ -2705,11 +2706,11 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Search Help Scout conversations and thread context before drafting support replies](skills/search-help-scout-conversations-and-thread-context-before-drafting-support-replies/) | Lets an MCP-compatible agent search Help Scout inboxes, customers, organizations, and full thread history so support… | Security Reviewed | 36 | 184/wk |
 | [Slashbooks](skills/slashbooks/) | Replace QuickBooks with an AI agent you control: import bank and credit card activity, categorize and reconcile… | Published | 31 | — |
 | [Connect Claude Code to Apple apps and tmux with Claude Apple Bridges](skills/connect-claude-code-to-apple-apps-and-tmux-with-claude-apple-bridges/) | Give Claude Code local command access to Reminders, Calendar, Contacts, Notes, Mail, and tmux for workflow-aware… | Security Reviewed | 9 | — |
+| [Email Voice](skills/email-voice/) | Learn a user's email voice from authorized sent samples, export a private style profile, and draft fact-preserving… | Published | 1 | — |
 | [Check current weather and short forecasts for planning](skills/check-current-weather-and-short-forecasts-for-planning/) | This skill lets an agent fetch current conditions and short forecasts with a lightweight weather workflow instead of… | Security Reviewed | — | 837.2k/wk |
 | [Turn ICS calendar invites and feeds into structured events for scheduling automations](skills/turn-ics-calendar-invites-and-feeds-into-structured-events-for-scheduling-automations/) | Use node-ical when an agent is handed a raw .ics file or subscription URL and needs normalized event objects,… | Published | — | 128.6k/wk |
 | [aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch](skills/aerc-extensible-terminal-email-client/) | aerc is a terminal-based email client written in Go with first-class support for IMAP, SMTP, JMAP, Maildir, and… | Security Reviewed | — | — |
 | [Design Lifecycle Email Sequences](skills/design-lifecycle-email-sequences/) | Create or improve welcome, nurture, onboarding, re-engagement, and other lifecycle sequences with a clear purpose… | Security Reviewed | — | — |
-| [Email Voice](skills/email-voice/) | Learn a user's email voice from authorized sent samples, export a private style profile, and draft fact-preserving… | Published | — | — |
 | [Gmail API Thread Label Triage](skills/gmail-api-thread-label-triage/) | Triage inbox backlog with the Gmail API’s `users.threads`, `users.messages`, and `users.labels` methods so agents… | Security Reviewed | — | — |
 | [Gmail Thread Summarizer and Action Extractor](skills/gmail-thread-summarizer-action-extractor/) | Fetches Gmail threads via the Gmail API (users.threads.get), extracts full message content, and produces a… | Security Reviewed | — | — |
 | [Google Calendar Conflict Detector](skills/google-calendar-conflict-detector/) | Detects scheduling conflicts across multiple Google Calendars using the Google Calendar API v3 and the freebusy… | Security Reviewed | — | — |

@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-10-28
-# Total: 3190 skills
+# Total: 3191 skills
+
+## Retrieve upstream implementation evidence before coding with XERJ
+slug: retrieve-upstream-implementation-evidence-before-coding-with-xerj
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Build a focused reference corpus, retrieve implementation passages with file-and-line citations, and check license constraints before adapting unfamiliar code.
+url: https://agentskillexchange.com/skills/retrieve-upstream-implementation-evidence-before-coding-with-xerj/
 
 ## Review Rust code with rule-cited findings using BeautifulRust
 slug: review-rust-code-with-rule-cited-findings-using-beautifulrust

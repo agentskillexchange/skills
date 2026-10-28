@@ -1,8 +1,19 @@
 {
   "version": "2.0",
-  "total": 3190,
+  "total": 3191,
   "generated": "2026-10-28",
   "skills": [
+    {
+      "slug": "retrieve-upstream-implementation-evidence-before-coding-with-xerj",
+      "name": "Retrieve upstream implementation evidence before coding with XERJ",
+      "title": "Retrieve upstream implementation evidence before coding with XERJ",
+      "description": "Build a focused reference corpus, retrieve implementation passages with file-and-line citations, and check license constraints before adapting unfamiliar code.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/xerj-org/xerj/blob/cb990c63de7eea1db084285c702c181ef57b7bc5/tools/xerj-code/SKILL.md",
+      "github_repo": "xerj-org/xerj"
+    },
     {
       "slug": "review-rust-code-with-rule-cited-findings-using-beautifulrust",
       "name": "Review Rust code with rule-cited findings using BeautifulRust",
@@ -100,6 +111,9 @@
       "category": "Calendar, Email & Productivity",
       "framework": "Codex",
       "verification": "listed",
+      "signals": {
+        "github_stars": 1
+      },
       "source_url": "https://github.com/DEX-XL/email-voice",
       "github_repo": "dex-xl/email-voice"
     },
