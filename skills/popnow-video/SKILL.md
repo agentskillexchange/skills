@@ -2,12 +2,15 @@
 name: "PopNow Video Generation"
 slug: "popnow-video"
 description: "Use the existing MIT-licensed PopNow video skill to quote and create AI videos from text or an image through the commercial PopNow API, confirm the quoted cost before generation, poll asynchronous jobs, and download the result."
+github_stars: 0
 verification: "listed"
 source: "https://github.com/popnow-ai/popnow-skills"
+author: "popnow-ai"
 category: "Image & Creative Automation"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "popnow-ai/popnow-skills"
+  github_stars: 0
 ---
 
 # PopNow Video Generation
@@ -18,19 +21,11 @@ The skill and helper source are MIT-licensed. An authenticated PopNow account, a
 
 ## Installation
 
-Install the complete upstream `popnow-video` bundle so its helper and references stay together. Do not treat this catalog overview as a replacement for those files.
+Install or set up from the source-backed instructions:
 
-For an agent supported by the upstream installer, follow the [upstream setup instructions](https://github.com/popnow-ai/popnow-skills#quickstart). The manual installation below pins the reviewed upstream revision `7116ca7a328943acfe799a0f87084abbc69992c6` for Codex:
+npx skills add popnow-ai/popnow-skills. Configure POPNOW_API_KEY in the agent environment. For the current API USD billing contract, use the popnow-media skill and the current API documentation at https://popnow.ai/docs/tasks.
 
-```bash
-git clone https://github.com/popnow-ai/popnow-skills.git
-git -C popnow-skills checkout --detach 7116ca7a328943acfe799a0f87084abbc69992c6
-mkdir -p ~/.agents/skills/popnow-video
-cp -R popnow-skills/skills/popnow-video/. ~/.agents/skills/popnow-video/
-cp popnow-skills/LICENSE ~/.agents/skills/popnow-video/LICENSE
-```
-
-Read the installed `SKILL.md` and inspect the helper before using it. The REST helper needs Python 3. The alternative connected PopNow MCP server uses the remote endpoint documented at [popnow.ai/mcp](https://popnow.ai/mcp). Keep the upstream MIT notice with the bundle.
+- Source: https://github.com/popnow-ai/popnow-skills
 
 ## Workflow and boundaries
 

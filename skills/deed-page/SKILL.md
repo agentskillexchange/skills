@@ -2,13 +2,16 @@
 name: "Publish Files to a Permanent URL with deed.page"
 slug: "deed-page"
 description: "Publishes a generated HTML file or a static folder to a permanent https://.deed.page/ URL with one curl PUT or the deed.page MCP server, with no account, API key, email code or claim link. Use when the user asks to publish, host, share or put online a report, dashboard, slide deck, prototype, game or docs folder the agent built."
+github_stars: 2
 verification: "listed"
 source: "https://github.com/f-o-x11/deed-page-skill"
+author: "f-o-x11"
 publisher_type: "vendor"
 category: "Developer Tools"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "f-o-x11/deed-page-skill"
+  github_stars: 2
 ---
 
 # Publish Files to a Permanent URL with deed.page
@@ -23,39 +26,9 @@ Limits on the free plan: 25 sites, 25 MB per site, 60 publishes per hour, and a 
 
 ## Installation
 
-### Any agent (skills CLI)
+Install or set up from the source-backed instructions:
 
-```bash
-npx skills@1.7.4 add f-o-x11/deed-page-skill
-```
-
-### Claude Code (plugin)
-
-```bash
-claude plugin marketplace add f-o-x11/deed-page-skill
-claude plugin install deed-page@deed-page
-```
-
-### Gemini CLI (skill plus MCP server)
-
-```bash
-gemini extensions install https://github.com/f-o-x11/deed-page-skill
-```
-
-### Any MCP client
-
-Point the client at `https://deed.page/mcp` (Streamable HTTP). For Claude Code without the plugin:
-
-```bash
-claude mcp add --transport http deed-page https://deed.page/mcp
-```
-
-### Direct repo/manual install
-
-```bash
-git clone --depth 1 https://github.com/f-o-x11/deed-page-skill /tmp/deed-page-skill
-mkdir -p ~/.claude/skills && cp -R /tmp/deed-page-skill/skills/deed-page ~/.claude/skills/
-```
+npx skills add f-o-x11/deed-page-skill
 
 - Source: https://github.com/f-o-x11/deed-page-skill
 
