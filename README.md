@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Lightning CSS High-Performance CSS Parser Transformer and Minifier](skills/lightning-css-high-performance-css-parser-transformer-and-minifier/)** — Lightning CSS is a Rust-based CSS parser, transformer, bundler, and minifier from the Parcel team. This skill is for agents that need to optimize stylesheets, lower modern CSS…
+**[Run a self-improving personal agent with Hermes Agent](skills/run-a-self-improving-personal-agent-with-hermes-agent/)** — Deploy Hermes Agent as a persistent personal agent that learns skills from experience, searches past sessions, schedules automations, and coordinates work across CLI and chat channels.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -130,9 +130,9 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Diagnose Paradev host and terminal failures with the doctor skill](skills/diagnose-paradev-host-and-terminal-failures-with-the-doctor-skill/) | Capture Paradev service, account, host and version evidence, propose one symptom-matched repair, and verify the original failure before... | 15.6k | Runbooks & Diagnostics |
 | [Run owned terminal coding-agent workflows with Zero](skills/run-owned-terminal-coding-agent-workflows-with-zero/) | Use Zero to run local, scriptable coding-agent sessions with operator-controlled models, permissions, tools, skills, MCP servers, and durable... | 1.7k | Developer Tools |
 | [Run code-generated short-film workflows with Lemo-Opuscar](skills/direct-code-generated-short-films-with-lemo-opuscar-styles/) | Use a Claude Code plugin to turn a story brief into a short film project built from reusable... | 1.5k | Image & Creative Automation |
+| [Co-edit and verify a live spreadsheet session through GridCraft MCP](skills/co-edit-and-verify-a-live-spreadsheet-session-through-gridcraft-mcp/) | Connect an agent to the GridCraft workbook open on a user’s desktop, make scoped edits, and return formula... | 6.2k | Data Extraction & Transformation |
 | [Annotate Classical Chinese corpora with HanLP](skills/annotate-classical-chinese-corpora-with-hanlp/) | Produce reviewable token, lemma, POS and dependency annotations for Classical Chinese passages with HanLP’s dedicated Ancient Chinese model | 36.5k | Data Extraction & Transformation |
 | [Audit performance claims with Pstack benchmark-checklist](skills/audit-performance-claims-with-pstack-benchmark-checklist/) | Check tuning, bottlenecks, correctness, repeatability, and end-to-end relevance before an agent reports a measured speedup or regression | 2.8k | Code Quality & Review |
-| [Co-edit and verify a live spreadsheet session through GridCraft MCP](skills/co-edit-and-verify-a-live-spreadsheet-session-through-gridcraft-mcp/) | Connect an agent to the GridCraft workbook open on a user’s desktop, make scoped edits, and return formula... | 6.2k | Data Extraction & Transformation |
 
 ---
 
