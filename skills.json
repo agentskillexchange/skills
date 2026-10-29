@@ -58,6 +58,9 @@
       "category": "Developer Tools",
       "framework": "Claude Code",
       "verification": "listed",
+      "signals": {
+        "github_stars": 2
+      },
       "source_url": "https://github.com/f-o-x11/deed-page-skill",
       "github_repo": "f-o-x11/deed-page-skill"
     },

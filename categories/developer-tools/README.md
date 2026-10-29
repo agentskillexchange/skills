@@ -549,6 +549,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Staff Engineer Mode](../../skills/staff-engineer-mode/) | 5 | — |
 | [Clean Closed Issue Worktrees](../../skills/clean-closed-issue-worktrees/) | 3 | — |
 | [Hyperconsciousness Knowledge Discovery](../../skills/hyperconsciousness-knowledge-discovery/) | 3 | — |
+| [Publish Files to a Permanent URL with deed.page](../../skills/deed-page/) | 2 | — |
 | [YYLO Ledger Task Management](../../skills/ledger-tasks-yylo/) | 1 | — |
 | [Turn GitHub Issues into Fix PRs](../../skills/turn-github-issues-into-fix-prs/) | — | 837.2k/wk |
 | [Build scroll-linked animations with GSAP ScrollTrigger](../../skills/build-scroll-linked-animations-with-gsap-scrolltrigger/) | — | — |
@@ -568,7 +569,6 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [n8n GitHub Issue-to-Jira Ticket Automator](../../skills/n8n-github-jira-ticket-automator/) | — | — |
 | [NPM Package Auditor](../../skills/npm-package-auditor-registry-api/) | — | — |
 | [Obsidian Vault Manager](../../skills/obsidian-vault-manager/) | — | — |
-| [Publish Files to a Permanent URL with deed.page](../../skills/deed-page/) | — | — |
 | [RouterBase Model Routing](../../skills/routerbase-model-routing/) | — | — |
 | [Sell unused tokens](../../skills/sell-unused-tokens/) | — | — |
 | [Turn notes, logs, and screenshots into structured GitHub issues with GitHub Issue Creator](../../skills/turn-notes-logs-and-screenshots-into-structured-github-issues-with-github-issue-creator/) | — | — |
