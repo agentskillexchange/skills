@@ -2,8 +2,30 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-10-29",
-  "total": 3191,
+  "total": 3193,
   "skills": [
+    {
+      "slug": "cooper-email",
+      "name": "Give an Agent Its Own Email Inbox with Cooper Email",
+      "title": "Give an Agent Its Own Email Inbox with Cooper Email",
+      "description": "Gives an AI agent its own email inbox at username@cooperemail.com through the Cooper Email REST API or remote MCP server: send, read, search and…",
+      "category": "Calendar, Email & Productivity",
+      "framework": "Claude Code",
+      "verification": "listed",
+      "source_url": "https://github.com/cooper-email/cooper-email",
+      "github_repo": "cooper-email/cooper-email"
+    },
+    {
+      "slug": "run-reproducible-document-parser-evaluations-with-omnidocbench-skill",
+      "name": "Run reproducible document-parser evaluations with the OmniDocBench skill",
+      "title": "Run reproducible document-parser evaluations with the OmniDocBench skill",
+      "description": "Validate parser predictions, run OmniDocBench evaluations, and report formula, table, text, and reading-order scores with runtime diagnostics.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/opendatalab/OmniDocBench/blob/ea2d138c7d2e185feb71ef8014e97d7206820b34/skills/SKILL.md",
+      "github_repo": "opendatalab/OmniDocBench"
+    },
     {
       "slug": "retrieve-upstream-implementation-evidence-before-coding-with-xerj",
       "name": "Retrieve upstream implementation evidence before coding with XERJ",

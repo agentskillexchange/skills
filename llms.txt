@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-10-29
-# Total: 3191 skills
+# Total: 3193 skills
+
+## Give an Agent Its Own Email Inbox with Cooper Email
+slug: cooper-email
+category: Calendar, Email & Productivity
+framework: Claude Code
+verification: Published
+description: Gives an AI agent its own email inbox at username@cooperemail.com through the Cooper Email REST API or remote MCP server: send, read, search and…
+url: https://agentskillexchange.com/skills/cooper-email/
+
+## Run reproducible document-parser evaluations with the OmniDocBench skill
+slug: run-reproducible-document-parser-evaluations-with-omnidocbench-skill
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Validate parser predictions, run OmniDocBench evaluations, and report formula, table, text, and reading-order scores with runtime diagnostics.
+url: https://agentskillexchange.com/skills/run-reproducible-document-parser-evaluations-with-omnidocbench-skill/
 
 ## Retrieve upstream implementation evidence before coding with XERJ
 slug: retrieve-upstream-implementation-evidence-before-coding-with-xerj

@@ -207,6 +207,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Build TypeScript spreadsheet import and export workflows with hucre](../../skills/build-typescript-spreadsheet-import-and-export-workflows-with-hucre/) | 2.2k | 106.4k/wk |
 | [trdsql SQL Query Engine for CSV JSON and YAML Files](../../skills/trdsql-sql-query-engine-csv-json-yaml-files/) | 2.2k | — |
 | [Extract invoice fields from vendor PDFs into structured records](../../skills/extract-invoice-fields-from-vendor-pdfs-into-structured-records/) | 2.1k | — |
+| [Run reproducible document-parser evaluations with the OmniDocBench skill](../../skills/run-reproducible-document-parser-evaluations-with-omnidocbench-skill/) | 2.1k | — |
 | [markdownify Python HTML to Markdown Conversion Library](../../skills/markdownify-python-html-to-markdown-converter/) | 2.1k | — |
 | [Convert PDFs and document images into agent-ready Markdown with Docext](../../skills/convert-pdfs-and-document-images-into-agent-ready-markdown-with-docext/) | 2k | — |
 | [sqlite-utils Python CLI for SQLite Database Manipulation](../../skills/sqlite-utils-python-cli-sqlite-manipulation/) | 2k | — |
