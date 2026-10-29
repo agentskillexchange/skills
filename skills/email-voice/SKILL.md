@@ -2,12 +2,15 @@
 name: "Email Voice"
 slug: "email-voice"
 description: "Learn a user's email voice from authorized sent samples, export a private style profile, and draft fact-preserving replies with bounded sampling and held-out validation."
+github_stars: 1
 verification: "listed"
 source: "https://github.com/DEX-XL/email-voice"
+author: "Rohit Motwani"
 category: "Calendar, Email & Productivity"
 framework: "Codex"
 tool_ecosystem:
   github_repo: "dex-xl/email-voice"
+  github_stars: 1
 ---
 
 # Email Voice
@@ -16,25 +19,11 @@ Learn the current user's writing patterns from their own sent mail. Turn those o
 
 ## Installation
 
-Upstream: [DEX-XL/email-voice](https://github.com/DEX-XL/email-voice). The full instruction body is reproduced unchanged from the public [v0.1.0 skill](https://github.com/DEX-XL/email-voice/blob/v0.1.0/skills/email-voice/SKILL.md) with its embedded MIT license retained. Catalog-specific frontmatter and this installation section are the only changes. It has no bundled connector, server, credentials or executable runtime.
+Install or set up from the source-backed instructions:
 
-### Codex project installation
+Download https://github.com/DEX-XL/email-voice/releases/download/v0.1.0/email-voice.zip and add it using your assistant's supported skill flow. For coding agents with Node.js 22.20+, the optional installer is: npx skills@1.7.4 add DEX-XL/email-voice --skill email-voice --agent codex --copy. For Claude Code, replace codex with claude-code. Email access requires a separately configured host connector or user-supplied samples.
 
-With Node.js 22.20+ available, review the destination shown by Vercel's optional third-party Skills CLI:
-
-```bash
-npx skills@1.7.4 add DEX-XL/email-voice --skill email-voice --agent codex --copy
-```
-
-The upstream repository documents a Windows copy-install check with CLI 1.7.4 and matching file checksum. This checks discovery and file installation, not live mailbox access or every agent surface. The CLI has its own telemetry controls; see [its documentation](https://github.com/vercel-labs/skills#telemetry).
-
-### Claude native skill upload and other assistants
-
-Download [the upstream one-file ZIP](https://github.com/DEX-XL/email-voice/releases/download/v0.1.0/email-voice.zip), upload it using Claude's supported Customize > Skills flow, save and enable it. For an interface that accepts a single instruction file, extract SKILL.md. See [platform-specific notes](https://github.com/DEX-XL/email-voice/blob/v0.1.0/docs/COMPATIBILITY.md) for documented routes and live-test limits. No ClawHub publication or universal ZIP importer is claimed.
-
-### First use
-
-Ask: "Learn my email voice from the Sent samples I authorize. Offer Quick, Balanced or Deep mode, build a private reusable profile, and keep mailbox access read-only." A supported email connector is optional; pasted examples and Sent-only exports work as input. If there are too few examples, finish with a provisional profile instead of inventing validation. Model/API/host fees may apply even though this skill is free.
+- Source: https://github.com/DEX-XL/email-voice
 
 ## Start here
 

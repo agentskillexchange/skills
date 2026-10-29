@@ -4,15 +4,15 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C189-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C191-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
-[![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C615-10b981?style=for-the-badge)](verification/)
+[![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C616-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,189 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,191 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Kubernetes Event Stream Analyzer](skills/kubernetes-event-stream-analyzer/)** — Watches Kubernetes event streams via the Watch API and correlates pod lifecycle events with resource metrics from Metrics Server. Detects CrashLoopBackOff patterns and OOMKilled signals for automated triage.
+**[Run a self-improving personal agent with Hermes Agent](skills/run-a-self-improving-personal-agent-with-hermes-agent/)** — Deploy Hermes Agent as a persistent personal agent that learns skills from experience, searches past sessions, schedules automations, and coordinates work across CLI and chat channels.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -87,16 +87,16 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Retrieve upstream implementation evidence before coding with XERJ](skills/retrieve-upstream-implementation-evidence-before-coding-with-xerj/) | Build a focused reference corpus, retrieve implementation passages with file-and-line citations, and check license constraints before adapting unfamiliar... | 17.2k | Developer Tools |
+| [Review Rust code with rule-cited findings using BeautifulRust](skills/review-rust-code-with-rule-cited-findings-using-beautifulrust/) | Review a Rust file, crate or diff with scoped tool checks and prioritized findings that cite source rules... | 1.3k | Code Quality & Review |
 | [Diagnose Paradev host and terminal failures with the doctor skill](skills/diagnose-paradev-host-and-terminal-failures-with-the-doctor-skill/) | Capture Paradev service, account, host and version evidence, propose one symptom-matched repair, and verify the original failure before... | 15.6k | Runbooks & Diagnostics |
 | [PopNow Video Generation](skills/popnow-video/) | Use the existing MIT-licensed PopNow video skill to quote and create AI videos from text or an image... | - | Image & Creative Automation |
-| [Publish Files to a Permanent URL with deed.page](skills/deed-page/) | Publishes a generated HTML file or a static folder to a permanent https://.deed.page/ URL with one curl PUT... | - | Developer Tools |
+| [Publish Files to a Permanent URL with deed.page](skills/deed-page/) | Publishes a generated HTML file or a static folder to a permanent https://.deed.page/ URL with one curl PUT... | 2 | Developer Tools |
 | [Preflight Nudgebee runbooks before saving or execution](skills/preflight-nudgebee-runbooks-before-saving-or-execution/) | Validate a proposed Nudgebee runbook, repair supported schema errors, and return an operator review packet without saving, activating... | 520 | Runbooks & Diagnostics |
 | [Bootstrap and verify self-hosted Rakazo from published images](skills/bootstrap-and-verify-self-hosted-rakazo-from-published-images/) | Prepare a Docker-based Rakazo installation, preserve private configuration, and verify service health, the selected sandbox, and an optional... | 5.8k | Developer Tools |
 | [Audit performance claims with Pstack benchmark-checklist](skills/audit-performance-claims-with-pstack-benchmark-checklist/) | Check tuning, bottlenecks, correctness, repeatability, and end-to-end relevance before an agent reports a measured speedup or regression | 2.8k | Code Quality & Review |
-| [Email Voice](skills/email-voice/) | Learn a user's email voice from authorized sent samples, export a private style profile, and draft fact-preserving replies... | - | Calendar, Email & Productivity |
+| [Email Voice](skills/email-voice/) | Learn a user's email voice from authorized sent samples, export a private style profile, and draft fact-preserving replies... | 1 | Calendar, Email & Productivity |
 | [Query isolated Git worktree code maps with ProjectAtlas](skills/query-isolated-git-worktree-code-maps-with-projectatlas/) | Register existing Git worktrees under explicit MCP aliases, refresh their separate code maps, and return bounded source evidence... | 456 | Developer Tools |
-| [AI Services Market MCP](skills/ai-services-market-mcp/) | Teaches an agent to connect to the AI Services Market MCP server (https://aiservicesmarket.lol/mcp) and use its seven tools... | - | Integrations & Connectors |
-| [Compare UI design directions and refine the selected page with Oil UI](skills/compare-ui-design-directions-and-refine-the-selected-page-with-oil-ui/) | Create distinct first-screen designs, compare them in one page, then refine the chosen direction against desktop and mobile... | 2.1k | Image & Creative Automation |
 
 ---
 
@@ -123,15 +123,15 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
-| [Coordinate agent teams and governed work in Paperclip](skills/coordinate-agent-teams-and-governed-work-in-paperclip/) | Use Paperclip as a self-hosted control plane for assigning goals, tasks, budgets, approvals, routines, and run history across... | 98.2k | Templates & Workflows |
 | [Monitor Claude Code sessions with ccstatusline](skills/monitor-claude-code-sessions-with-ccstatusline/) | Configure Claude Code's status line with live model, token, cost, git, sandbox, cache, CI, and session health signals... | 13.2k | Developer Tools |
-| [Reverse-engineer apps and binaries with REA](skills/reverse-engineer-apps-and-binaries-with-rea/) | Connect coding agents to REA's MCP tools so they can inspect apps, binaries, websites, APKs, and runtime behavior... | 17.1k | Security & Verification |
+| [Coordinate agent teams and governed work in Paperclip](skills/coordinate-agent-teams-and-governed-work-in-paperclip/) | Use Paperclip as a self-hosted control plane for assigning goals, tasks, budgets, approvals, routines, and run history across... | 98.2k | Templates & Workflows |
 | [Resolve coding questions from upstream evidence with Firecrawl Developer Index](skills/resolve-coding-questions-with-firecrawl-developer-index/) | Find public issues, merged fixes and API-contract passages with Firecrawl’s named Developer Index skill, then return a cited... | 653 | Research & Scraping |
-| [Run owned terminal coding-agent workflows with Zero](skills/run-owned-terminal-coding-agent-workflows-with-zero/) | Use Zero to run local, scriptable coding-agent sessions with operator-controlled models, permissions, tools, skills, MCP servers, and durable... | 1.7k | Developer Tools |
+| [Reverse-engineer apps and binaries with REA](skills/reverse-engineer-apps-and-binaries-with-rea/) | Connect coding agents to REA's MCP tools so they can inspect apps, binaries, websites, APKs, and runtime behavior... | 17.1k | Security & Verification |
 | [Diagnose Paradev host and terminal failures with the doctor skill](skills/diagnose-paradev-host-and-terminal-failures-with-the-doctor-skill/) | Capture Paradev service, account, host and version evidence, propose one symptom-matched repair, and verify the original failure before... | 15.6k | Runbooks & Diagnostics |
+| [Run owned terminal coding-agent workflows with Zero](skills/run-owned-terminal-coding-agent-workflows-with-zero/) | Use Zero to run local, scriptable coding-agent sessions with operator-controlled models, permissions, tools, skills, MCP servers, and durable... | 1.7k | Developer Tools |
 | [Run code-generated short-film workflows with Lemo-Opuscar](skills/direct-code-generated-short-films-with-lemo-opuscar-styles/) | Use a Claude Code plugin to turn a story brief into a short film project built from reusable... | 1.5k | Image & Creative Automation |
-| [Annotate Classical Chinese corpora with HanLP](skills/annotate-classical-chinese-corpora-with-hanlp/) | Produce reviewable token, lemma, POS and dependency annotations for Classical Chinese passages with HanLP’s dedicated Ancient Chinese model | 36.5k | Data Extraction & Transformation |
 | [Co-edit and verify a live spreadsheet session through GridCraft MCP](skills/co-edit-and-verify-a-live-spreadsheet-session-through-gridcraft-mcp/) | Connect an agent to the GridCraft workbook open on a user’s desktop, make scoped edits, and return formula... | 6.2k | Data Extraction & Transformation |
+| [Annotate Classical Chinese corpora with HanLP](skills/annotate-classical-chinese-corpora-with-hanlp/) | Produce reviewable token, lemma, POS and dependency annotations for Classical Chinese passages with HanLP’s dedicated Ancient Chinese model | 36.5k | Data Extraction & Transformation |
 | [Audit performance claims with Pstack benchmark-checklist](skills/audit-performance-claims-with-pstack-benchmark-checklist/) | Check tuning, bottlenecks, correctness, repeatability, and end-to-end relevance before an agent reports a measured speedup or regression | 2.8k | Code Quality & Review |
 
 ---
@@ -140,11 +140,11 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 535 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 536 | CLI tools, scaffolders, dev environment setup |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 267 | Scaffolders, boilerplate generators, workflow templates |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 257 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 237 | ETL pipelines, parsing, format conversion |
-| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 209 | Linting, code review, test generators, coverage |
+| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 210 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 193 | Pipeline configs, deployment automation, build tooling |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 189 | Third-party API bridges, webhooks, service connectors |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 184 | Incident response, troubleshooting, system diagnostics |
@@ -219,8 +219,8 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,189 | In the catalog — every skill is backed by a real tool, repo, or package |
-| 🛡️ **Security Reviewed** | 2,615 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
+| 📋 **Published** | 3,191 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 🛡️ **Security Reviewed** | 2,616 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
 
