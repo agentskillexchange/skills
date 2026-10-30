@@ -195,7 +195,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Manage ElevenLabs agents as versioned local config files instead of hand-editing them in the dashboard with ElevenLabs CLI](../../skills/manage-elevenlabs-agents-as-versioned-local-config-files-instead-of-hand-editing-them-in-the-dashboard-with-elevenlabs-cli/) | 49 | 10.4k/wk |
 | [Calculate routes, ETAs, and place lookups inside agent planning workflows with TomTom MCP](../../skills/calculate-routes-etas-and-place-lookups-inside-agent-planning-workflows-with-tomtom-mcp/) | 45 | 356/wk |
 | [Retrieve Zillow-style property details and market trends through an MCP server](../../skills/retrieve-zillow-style-property-details-and-market-trends-through-an-mcp-server/) | 40 | 7/wk |
-| [HyperGrok Trading Desk](../../skills/hypergrok-trading-desk/) | 39 | — |
+| [HyperGrok Trading Desk](../../skills/hypergrok-trading-desk/) | 39 | 272/wk |
 | [Inspect Freshservice service-management tickets and modules through MCP](../../skills/inspect-freshservice-service-management-tickets-and-modules-through-mcp/) | 31 | — |
 | [Connect MCP agents to BatchData property and address APIs](../../skills/connect-mcp-agents-to-batchdata-property-and-address-apis/) | 30 | — |
 | [Mnemoverse Memory MCP](../../skills/mnemoverse-memory-mcp/) | 25 | 2k/wk |

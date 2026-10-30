@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3194 published skills** across **17 categories** · 2,618 security reviewed · Updated 2026-10-30 01:26 UTC
+> **3194 published skills** across **17 categories** · 2,618 security reviewed · Updated 2026-10-30 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1919,7 +1919,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Manage ElevenLabs agents as versioned local config files instead of hand-editing them in the dashboard with ElevenLabs CLI](skills/manage-elevenlabs-agents-as-versioned-local-config-files-instead-of-hand-editing-them-in-the-dashboard-with-elevenlabs-cli/) | Initialize, authenticate, and edit ElevenLabs agent configs from local files when you want agent definitions in code… | Security Reviewed | 49 | 10.4k/wk |
 | [Calculate routes, ETAs, and place lookups inside agent planning workflows with TomTom MCP](skills/calculate-routes-etas-and-place-lookups-inside-agent-planning-workflows-with-tomtom-mcp/) | Gives an MCP-compatible agent structured place search, geocoding, routing, ETA, traffic, and map lookups so travel,… | Security Reviewed | 45 | 356/wk |
 | [Retrieve Zillow-style property details and market trends through an MCP server](skills/retrieve-zillow-style-property-details-and-market-trends-through-an-mcp-server/) | Run supervised property-detail and market-trend lookups from an MCP client while checking data-source terms before use. | Security Reviewed | 40 | 7/wk |
-| [HyperGrok Trading Desk](skills/hypergrok-trading-desk/) | Turn Claude Code, Cursor, or Grok Bot into a 7-role Hyperliquid trading desk. Sixteen SKILL.md skills plus seven… | Published | 39 | — |
+| [HyperGrok Trading Desk](skills/hypergrok-trading-desk/) | Turn Claude Code, Cursor, or Grok Bot into a 7-role Hyperliquid trading desk. Sixteen SKILL.md skills plus seven… | Published | 39 | 272/wk |
 | [Inspect Freshservice service-management tickets and modules through MCP](skills/inspect-freshservice-service-management-tickets-and-modules-through-mcp/) | Connect Freshservice modules to MCP clients for supervised IT service-management ticket lookup and support-ops… | Security Reviewed | 31 | — |
 | [Connect MCP agents to BatchData property and address APIs](skills/connect-mcp-agents-to-batchdata-property-and-address-apis/) | Use BatchData property and address APIs from MCP clients to enrich real-estate research and operations workflows. | Security Reviewed | 30 | — |
 | [Mnemoverse Memory MCP](skills/mnemoverse-memory-mcp/) | Give Claude Code, Cursor, VS Code and ChatGPT agents hosted persistent memory over MCP that learns from outcomes:… | Published | 25 | 2k/wk |

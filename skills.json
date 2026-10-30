@@ -3737,7 +3737,8 @@
       "framework": "Multi-Framework",
       "verification": "listed",
       "signals": {
-        "github_stars": 39
+        "github_stars": 39,
+        "npm_weekly_downloads": 272
       },
       "source_url": "https://github.com/galleonlabs/hypergrok-trading-desk",
       "github_repo": "galleonlabs/hypergrok-trading-desk"
