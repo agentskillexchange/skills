@@ -214,6 +214,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Recover Playwright selectors after UI refactors with QA Skills](../../skills/recover-playwright-selectors-after-ui-refactors-with-qa-skills/) | 203 | — |
 | [Run independent multi-agent build and review flows with OPC](../../skills/run-independent-multi-agent-build-and-review-flows-with-opc/) | 192 | 315/wk |
 | [Lint reStructuredText docs and release notes before Sphinx publishing with doc8](../../skills/lint-restructuredtext-docs-and-release-notes-before-sphinx-publishing-with-doc8/) | 176 | — |
+| [Ground React UI edits in project components and tokens with the Onsystem skill](../../skills/ground-react-ui-edits-in-project-components-and-tokens-with-onsystem-skill/) | 165 | 1.5k/wk |
 | [Serve codebase impact context to agents with Trace MCP](../../skills/serve-codebase-impact-context-to-agents-with-trace-mcp/) | 154 | 6.6k/wk |
 | [Run senior engineering workflows in Claude Code with Senior Engineering Partner](../../skills/run-senior-engineering-workflows-in-claude-code-with-senior-engineering-partner/) | 152 | — |
 | [Regression-test coding agents and skills with Coder Eval](../../skills/regression-test-coding-agents-and-skills-with-coder-eval/) | 151 | — |

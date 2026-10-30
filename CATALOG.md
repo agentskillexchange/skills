@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3194 published skills** across **17 categories** · 2,619 security reviewed · Updated 2026-10-30 13:27 UTC
+> **3195 published skills** across **17 categories** · 2,619 security reviewed · Updated 2026-10-30 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1339,7 +1339,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (210 skills)
+### ✅ Code Quality & Review (211 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1519,6 +1519,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Recover Playwright selectors after UI refactors with QA Skills](skills/recover-playwright-selectors-after-ui-refactors-with-qa-skills/) | Compare old and new UI evidence, repair confirmed locator drift in existing Playwright tests, and return a validated… | Security Reviewed | 203 | — |
 | [Run independent multi-agent build and review flows with OPC](skills/run-independent-multi-agent-build-and-review-flows-with-opc/) | Use OPC as a Claude Code skill to select a task flow, dispatch specialist roles, enforce independent review, and… | Security Reviewed | 192 | 315/wk |
 | [Lint reStructuredText docs and release notes before Sphinx publishing with doc8](skills/lint-restructuredtext-docs-and-release-notes-before-sphinx-publishing-with-doc8/) | Catch structural and line-style problems in reStructuredText docs before release notes and Sphinx pages go out… | Security Reviewed | 176 | — |
+| [Ground React UI edits in project components and tokens with the Onsystem skill](skills/ground-react-ui-edits-in-project-components-and-tokens-with-onsystem-skill/) | Discover project-specific React components and tokens, implement a bounded UI change, and repair new design-system… | Security Reviewed | 165 | 1.5k/wk |
 | [Serve codebase impact context to agents with Trace MCP](skills/serve-codebase-impact-context-to-agents-with-trace-mcp/) | Use Trace MCP to index a repository once and let MCP-capable coding agents query framework-aware code, dependency,… | Security Reviewed | 154 | 6.6k/wk |
 | [Run senior engineering workflows in Claude Code with Senior Engineering Partner](skills/run-senior-engineering-workflows-in-claude-code-with-senior-engineering-partner/) | Use Senior Engineering Partner to run Claude Code through review, pair-programming, debugging, mentoring, and audit… | Security Reviewed | 152 | — |
 | [Regression-test coding agents and skills with Coder Eval](skills/regression-test-coding-agents-and-skills-with-coder-eval/) | Run sandboxed YAML evaluation suites against Claude Code, Codex, Gemini, OpenCode, or Pi agents, then gate CI on… | Security Reviewed | 151 | — |

@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-10-30",
-  "total": 3194,
+  "total": 3195,
   "skills": [
+    {
+      "slug": "ground-react-ui-edits-in-project-components-and-tokens-with-onsystem-skill",
+      "name": "Ground React UI edits in project components and tokens with the Onsystem skill",
+      "title": "Ground React UI edits in project components and tokens with the Onsystem skill",
+      "description": "Discover project-specific React components and tokens, implement a bounded UI change, and repair new design-system violations with Onsystem checks.",
+      "category": "Code Quality & Review",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/dgesteves/onsystem/blob/b589c7aff82d90440eb941bc464200e0ca7e1df4/plugins/onsystem-agent/skills/onsystem/SKILL.md",
+      "github_repo": "dgesteves/onsystem"
+    },
     {
       "slug": "diagnose-incomplete-web-extraction-with-pagesift-mcp-audit-evidence",
       "name": "Diagnose incomplete web extraction with PageSift MCP audit evidence",
