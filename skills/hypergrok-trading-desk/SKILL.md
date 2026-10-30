@@ -5,11 +5,14 @@ description: "Turn Claude Code, Cursor, or Grok Bot into a 7-role Hyperliquid tr
 github_stars: 39
 verification: "listed"
 source: "https://github.com/galleonlabs/hypergrok-trading-desk"
+author: "galleonlabs"
 category: "Integrations & Connectors"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "galleonlabs/hypergrok-trading-desk"
   github_stars: 39
+  npm_package: "hypergrok-trading-desk"
+  npm_weekly_downloads: 272
 ---
 
 # HyperGrok Trading Desk
@@ -34,31 +37,14 @@ HyperGrok is documentation and instructions, not financial advice. Perpetual fut
 
 ## Installation
 
-### Grok Bot
+Install or set up from the source-backed instructions:
 
-Follow the reviewed [v1.7.0 bootstrap](https://github.com/galleonlabs/hypergrok-trading-desk/blob/v1.7.0/skills/hypergrok-bootstrap/SKILL.md) and [complete setup runbook](https://github.com/galleonlabs/hypergrok-trading-desk/blob/v1.7.0/SETUP.md). The desk starts in research mode without a key, account read or order.
+git clone --depth 1 --branch v1.7.0 https://github.com/galleonlabs/hypergrok-trading-desk.git
+cd hypergrok-trading-desk
+python3 scripts/opening_bell.py --coin ETH
+Follow SETUP.md to configure the agent desk.
 
-### Grok Build
-
-```bash
-grok plugin install galleonlabs/hypergrok-trading-desk@v1.7.0 --trust
-```
-
-### Claude Code marketplace
-
-```text
-/plugin marketplace add galleonlabs/hypergrok-trading-desk
-/plugin install hypergrok@hypergrok
-```
-
-### Read-only release checkout
-
-```bash
-git clone --depth 1 --branch v1.7.0 https://github.com/galleonlabs/hypergrok-trading-desk.git hypergrok
-python3 hypergrok/scripts/opening_bell.py --coin ETH
-```
-
-The checkout contains the reviewed instructions, roles, skills and read-only Python tools; cloning it does not start a desk, load a wallet or authorize a trade. Opening Bell uses public Hyperliquid market data and is not a trading signal. Python 3 is required. For a reproducible full setup, use the version-pinned bootstrap above.
+- Source: https://github.com/galleonlabs/hypergrok-trading-desk
 
 ## Source
 

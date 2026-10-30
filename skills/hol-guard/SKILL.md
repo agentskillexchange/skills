@@ -5,6 +5,7 @@ description: "Protect local AI coding-agent harnesses before tools run, review a
 github_stars: 4
 verification: "listed"
 source: "https://github.com/hashgraph-online/hol-guard-plugin"
+author: "hashgraph-online"
 category: "Security & Verification"
 framework: "Custom Agents"
 tool_ecosystem:
@@ -18,7 +19,11 @@ HOL Guard is a local security runtime for AI coding agents. Use this skill when 
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Install or set up from the source-backed instructions:
+
+pipx install hol-guard
+hol-guard status
+Install the portable skill with: npx skills add hashgraph-online/hol-guard-plugin --skill plugin-scanner
 
 - Source: https://github.com/hashgraph-online/hol-guard-plugin
 
