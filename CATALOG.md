@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3193 published skills** across **17 categories** · 2,618 security reviewed · Updated 2026-10-29 19:27 UTC
+> **3194 published skills** across **17 categories** · 2,618 security reviewed · Updated 2026-10-30 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1092,7 +1092,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (238 skills)
+### 🔄 Data Extraction & Transformation (239 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -1318,6 +1318,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Query cross-connector business data for agents with Dinobase](skills/query-cross-connector-business-data-for-agents-with-dinobase/) | Use Dinobase to give agents a SQL layer over SaaS APIs, databases, files, and MCP servers so they can answer… | Security Reviewed | 252 | — |
 | [Retrieve exact documentation sections for agents with jDocMunch MCP](skills/retrieve-exact-documentation-sections-for-agents-with-jdocmunch-mcp/) | Use jDocMunch MCP when an agent needs to index local or repository documentation, search by heading-level structure,… | Security Reviewed | 202 | — |
 | [Query and inspect Postgres databases through MCP with pgEdge Postgres MCP](skills/query-and-inspect-postgres-databases-through-mcp-with-pgedge-postgres-mcp/) | Connect an MCP client to PostgreSQL databases for schema discovery, safe querying, and database inspection through a… | Security Reviewed | 165 | — |
+| [Diagnose incomplete web extraction with PageSift MCP audit evidence](skills/diagnose-incomplete-web-extraction-with-pagesift-mcp-audit-evidence/) | Triage missing web content across local agents using PageSift MCP audit records, HTML snapshots, and local… | Security Reviewed | 162 | 3.3k/wk |
 | [Weaviate MCP Server](skills/weaviate-mcp-server/) | Weaviate MCP Server is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 162 | — |
 | [Turn documents into validated knowledge graphs with Docling Graph](skills/turn-documents-into-validated-knowledge-graphs-with-docling-graph/) | Convert documents into schema-enforced entities and graph relationships when the job is exact knowledge extraction… | Security Reviewed | 134 | — |
 | [Crawl4AI MCP Server](skills/crawl4ai-mcp-server/) | Self-hosted web crawling and content extraction exposed as MCP tools. Scrape pages, crawl sites with depth control,… | Security Reviewed | 89 | — |

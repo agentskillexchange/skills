@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-10-29
-# Total: 3193 skills
+# Generated: 2026-10-30
+# Total: 3194 skills
+
+## Diagnose incomplete web extraction with PageSift MCP audit evidence
+slug: diagnose-incomplete-web-extraction-with-pagesift-mcp-audit-evidence
+category: Data Extraction & Transformation
+framework: MCP
+verification: Security Reviewed
+description: Triage missing web content across local agents using PageSift MCP audit records, HTML snapshots, and local extraction issue reports.
+url: https://agentskillexchange.com/skills/diagnose-incomplete-web-extraction-with-pagesift-mcp-audit-evidence/
 
 ## Give an Agent Its Own Email Inbox with Cooper Email
 slug: cooper-email

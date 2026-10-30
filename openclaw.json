@@ -1,9 +1,20 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-10-29",
-  "total": 3193,
+  "generated": "2026-10-30",
+  "total": 3194,
   "skills": [
+    {
+      "slug": "diagnose-incomplete-web-extraction-with-pagesift-mcp-audit-evidence",
+      "name": "Diagnose incomplete web extraction with PageSift MCP audit evidence",
+      "title": "Diagnose incomplete web extraction with PageSift MCP audit evidence",
+      "description": "Triage missing web content across local agents using PageSift MCP audit records, HTML snapshots, and local extraction issue reports.",
+      "category": "Data Extraction & Transformation",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/YOLOW92/pagesift/blob/a0953b7a87eacf5506a28c7e4b497ec590ddf76c/docs/mcp-service.md",
+      "github_repo": "YOLOW92/pagesift"
+    },
     {
       "slug": "cooper-email",
       "name": "Give an Agent Its Own Email Inbox with Cooper Email",

@@ -260,6 +260,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Query cross-connector business data for agents with Dinobase](../../skills/query-cross-connector-business-data-for-agents-with-dinobase/) | 252 | — |
 | [Retrieve exact documentation sections for agents with jDocMunch MCP](../../skills/retrieve-exact-documentation-sections-for-agents-with-jdocmunch-mcp/) | 202 | — |
 | [Query and inspect Postgres databases through MCP with pgEdge Postgres MCP](../../skills/query-and-inspect-postgres-databases-through-mcp-with-pgedge-postgres-mcp/) | 165 | — |
+| [Diagnose incomplete web extraction with PageSift MCP audit evidence](../../skills/diagnose-incomplete-web-extraction-with-pagesift-mcp-audit-evidence/) | 162 | 3.3k/wk |
 | [Weaviate MCP Server](../../skills/weaviate-mcp-server/) | 162 | — |
 | [Turn documents into validated knowledge graphs with Docling Graph](../../skills/turn-documents-into-validated-knowledge-graphs-with-docling-graph/) | 134 | — |
 | [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 89 | — |
