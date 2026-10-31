@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Swagger UI Documentation Deployer](skills/swagger-ui-documentation-deployer/)** — Deploys interactive Swagger UI documentation sites from OpenAPI specs with custom branding, authentication presets, and CDN-hosted static builds. Integrates with Redoc for alternative rendering.
+**[Retrieve upstream implementation evidence before coding with XERJ](skills/retrieve-upstream-implementation-evidence-before-coding-with-xerj/)** — Build a focused reference corpus, retrieve implementation passages with file-and-line citations, and check license constraints before adapting unfamiliar code.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 

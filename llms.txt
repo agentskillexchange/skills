@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-10-30
+# Generated: 2026-10-31
 # Total: 3195 skills
 
 ## Ground React UI edits in project components and tokens with the Onsystem skill
