@@ -62,7 +62,7 @@ python3 scripts/test_security_patterns.py
 python3 scripts/security_scan.py skills --github-annotations --quiet
 ```
 
-`security_scan.py` loads machine-readable patterns from `verification/patterns.json` and scans Markdown files/directories. `test_security_patterns.py` verifies pattern compilation, required security classes, positive malicious fixtures, and a benign negative fixture under `verification/fixtures/security/`.
+`security_scan.py` loads machine-readable patterns from `verification/patterns.json` and scans a catalog directory, a leaf skill directory, or a single file. Pattern flags `i`, `m`, and `s` enable case-insensitive, multiline, and dot-all matching. Exit 0 means clean, 1 means findings, and 2 means the target is invalid or a directory contains no `SKILL.md` files. `test_security_patterns.py` verifies pattern compilation and all required security classes, scans five malicious fixtures and one benign fixture under `verification/fixtures/security/`, exercises the declared regex flags, and checks leaf/empty-directory CLI behavior.
 
 CI runs both the fixture suite and a full `skills/` catalog scan.
 
