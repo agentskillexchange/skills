@@ -1,0 +1,22 @@
+{
+  "id": "project-control-20260727-001",
+  "ts": "2026-07-27T03:00:00Z",
+  "actor": "controller",
+  "type": "receipt",
+  "decision_class": "routine_ops",
+  "state": "verified-running",
+  "resource": "host:device/job",
+  "claim_or_action": "Verified monotonic progress after launch.",
+  "config_diff": null,
+  "evidence_refs": [
+    "exact process and arguments",
+    "cursor delta over 60 seconds"
+  ],
+  "evidence_mode": "operational verification",
+  "uncertainty": "Point-in-time observation.",
+  "cost": "budget-ledger reference",
+  "owner": "controller",
+  "verifier": "auditor",
+  "holds": [],
+  "next": "Continue monitoring until the next checkpoint."
+}

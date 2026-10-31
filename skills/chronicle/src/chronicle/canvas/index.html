@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>chronicle</title>
+<style>
+/* Hand-built, no framework, no CDN, no build step. One file that works offline. */
+:root{
+  --bg:#0e0f12; --panel:#15171c; --panel2:#1b1e25; --line:#262a33;
+  --ink:#e6e8ec; --dim:#8b93a1; --faint:#5d6472;
+  --arm:#ff6b6b; --landed:#4ec9a0; --decision:#5fb3f0; --open:#e0b341;
+  --close:#c08fe0; --correction:#ff8f5a; --inferred:#7d8695;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: light){
+  :root{
+    --bg:#fbfbfc; --panel:#fff; --panel2:#f4f5f7; --line:#e2e5ea;
+    --ink:#14161a; --dim:#5f6673; --faint:#8b93a1;
+    --arm:#c92a2a; --landed:#0b7a5b; --decision:#1667a8; --open:#9a6a04;
+    --close:#7a4aa8; --correction:#c2571e; --inferred:#7d8695;
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:14px/1.55 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{display:flex;gap:14px;align-items:center;flex-wrap:wrap;
+  padding:10px 16px;border-bottom:1px solid var(--line);background:var(--panel);
+  position:sticky;top:0;z-index:20}
+h1{font-size:14px;margin:0;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);font-weight:600}
+select,input{background:var(--panel2);color:var(--ink);border:1px solid var(--line);
+  border-radius:5px;padding:4px 8px;font:inherit;font-size:13px}
+input{min-width:190px}
+.stats{margin-left:auto;color:var(--faint);font-family:var(--mono);font-size:11.5px;
+  display:flex;gap:14px;flex-wrap:wrap}
+.stats b{color:var(--dim);font-weight:600}
+
+main{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);
+  height:calc(100vh - 47px)}
+@media (max-width:900px){main{grid-template-columns:1fr;height:auto}}
+section{overflow-y:auto;padding:18px 20px 60px}
+#narrative{border-right:1px solid var(--line)}
+#evidence{background:var(--panel)}
+
+h2{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint);
+  margin:0 0 14px;font-weight:600}
+
+/* ── narrative ── */
+.entry{border-left:2px solid var(--line);padding:0 0 16px 14px;margin-bottom:14px;position:relative}
+.entry.sel{border-left-color:var(--decision)}
+.trigger{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;font-weight:700;
+  padding:1px 6px;border-radius:3px;border:1px solid currentColor}
+.ARM{color:var(--arm)} .LANDED{color:var(--landed)} .DECISION{color:var(--decision)}
+.OPEN{color:var(--open)} .CLOSE{color:var(--close)} .CORRECTION{color:var(--correction)}
+.NOTE,.NARRATION{color:var(--dim)}
+.EXPERIMENT{color:var(--decision)} .ABANDONED{color:var(--open)}
+.head{display:flex;gap:9px;align-items:baseline;flex-wrap:wrap;margin-bottom:5px}
+.title{font-weight:600}
+.meta{font-family:var(--mono);font-size:10.5px;color:var(--faint)}
+.inferred-tag{font-family:var(--mono);font-size:10px;color:var(--correction);
+  border:1px dashed var(--correction);border-radius:3px;padding:0 4px;font-weight:700}
+/* The caveat is a banner, not a footnote. A reader skimming narrated prose must be
+   stopped BEFORE reading it, not reassured after. */
+.entry.inferred{border-left-color:var(--correction);border-left-style:dashed}
+.caveat{background:color-mix(in srgb,var(--correction) 12%,transparent);
+  border:1px solid var(--correction);border-radius:4px;padding:5px 8px;margin:0 0 7px;
+  font-size:11.5px;color:var(--correction);line-height:1.45}
+.caveat b{font-weight:700}
+.field{margin:3px 0;color:var(--dim);font-size:13px}
+.field b{color:var(--ink);font-weight:600}
+.k{font-family:var(--mono);font-size:10.5px;color:var(--faint);
+  text-transform:uppercase;letter-spacing:.07em}
+.restore{font-family:var(--mono);font-size:12px;color:var(--landed);
+  background:var(--panel2);padding:3px 7px;border-radius:4px;display:inline-block;
+  word-break:break-all}
+
+/* A beat's prose with the anchors that back it. An unanchored beat is visibly bare —
+   that visibility is the entire anti-fiction mechanism. */
+.beat{margin:0 0 11px;padding-left:11px;border-left:2px solid var(--panel2)}
+.beat.unanchored{border-left-color:var(--correction)}
+.beat p{margin:0 0 4px}
+.anchors{display:flex;gap:5px;flex-wrap:wrap}
+.anchor{font-family:var(--mono);font-size:10px;color:var(--decision);cursor:pointer;
+  border:1px solid var(--line);border-radius:3px;padding:0 5px;background:var(--panel2)}
+.anchor:hover{border-color:var(--decision)}
+.no-anchor{font-family:var(--mono);font-size:10px;color:var(--correction)}
+.conf{font-family:var(--mono);font-size:10px;color:var(--faint)}
+
+/* ── evidence gutter ── */
+.ev{border-bottom:1px solid var(--line);padding:7px 0;font-size:12.5px}
+.ev.hit{background:var(--panel2);outline:1px solid var(--decision);border-radius:4px;
+  padding-left:7px;padding-right:7px}
+.ev-top{display:flex;gap:8px;align-items:baseline}
+.ts{font-family:var(--mono);font-size:11px;color:var(--faint);white-space:nowrap}
+.kind{font-family:var(--mono);font-size:10.5px;color:var(--dim);white-space:nowrap}
+.kind.human{color:var(--open)}
+.sum{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ev.open .sum{white-space:normal;overflow:visible}
+.badge{font-family:var(--mono);font-size:10px;padding:0 4px;border-radius:3px;
+  border:1px solid var(--line);color:var(--faint)}
+.badge.bad{color:var(--arm);border-color:var(--arm)}
+.badge.blocked{color:var(--arm);border-color:var(--arm)}
+.badge.passed{color:var(--landed);border-color:var(--landed)}
+.files{margin:5px 0 0 0;padding:0;list-style:none}
+.files li{font-family:var(--mono);font-size:11px;color:var(--dim);
+  display:flex;gap:7px;align-items:center;padding:1px 0}
+.act{color:var(--decision);cursor:pointer;border-bottom:1px dotted currentColor}
+.redact{color:var(--arm)}
+pre{background:var(--panel2);border:1px solid var(--line);border-radius:5px;
+  padding:9px;overflow:auto;max-height:420px;font-family:var(--mono);font-size:11.5px;
+  margin:7px 0 0;white-space:pre-wrap;word-break:break-word}
+pre .add{color:var(--landed)} pre .del{color:var(--arm)} pre .hdr{color:var(--dim)}
+.empty{color:var(--faint);font-style:italic;padding:22px 0}
+button.link{background:none;border:none;color:var(--decision);cursor:pointer;
+  font:inherit;font-size:11px;padding:0;text-decoration:underline}
+</style>
+</head>
+<body>
+<header>
+  <h1>chronicle</h1>
+  <select id="project"></select>
+  <select id="day"></select>
+  <input id="q" placeholder="filter evidence…" autocomplete="off">
+  <div class="stats" id="stats"></div>
+</header>
+<main>
+  <section id="narrative"><h2>narrative</h2><div id="narr"></div></section>
+  <section id="evidence"><h2>evidence</h2><div id="ev"></div></section>
+</main>
+
+<script>
+const $ = s => document.querySelector(s);
+let DATA = {narrative:[], trace:[]}, HIGHLIGHT = new Set();
+
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c =>
+  ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+let LAST_TOP = null;
+
+async function load(force){
+  const p = new URLSearchParams({project: $("#project").value || "all",
+                                day: $("#day").value || ""});
+  const r = await fetch("/api/timeline?" + p);
+  const next = await r.json();
+  // Nothing new and nobody asked: leave the DOM — and the reader's scroll position —
+  // exactly where they are.
+  const top = (next.trace[next.trace.length - 1] || {}).id || null;
+  const sameNarr = next.narrative.length === DATA.narrative.length;
+  if (!force && top === LAST_TOP && sameNarr) { renderStats(); return; }
+  LAST_TOP = top;
+  DATA = next;
+  fillSelects();
+  renderStats();
+  renderNarrative();
+  renderEvidence();
+}
+
+function fillSelects(){
+  const ps = $("#project");
+  if (!ps.dataset.filled){
+    ps.innerHTML = '<option value="all">all projects</option>' +
+      DATA.projects.map(p => `<option>${esc(p)}</option>`).join("");
+    const ds = $("#day");
+    ds.innerHTML = '<option value="">all time</option>' +
+      DATA.days.map(d => `<option>${esc(d)}</option>`).join("");
+    ps.dataset.filled = "1";
+  }
+}
+
+function renderStats(){
+  const s = DATA.stats;
+  $("#stats").innerHTML =
+    `<span><b>${s.events.toLocaleString()}</b> events</span>` +
+    `<span><b>${s.files.toLocaleString()}</b> files</span>` +
+    `<span><b>${s.agent}</b> agent / <b>${s.human}</b> human</span>` +
+    `<span>${s.machines.map(esc).join(" · ")}</span>`;
+}
+
+function renderNarrative(){
+  const box = $("#narr");
+  if (!DATA.narrative.length){
+    box.innerHTML = '<div class="empty">Nothing narrated yet. The trace is being ' +
+      'captured — but nobody has said why.</div>';
+    return;
+  }
+  box.innerHTML = DATA.narrative.map(entryHTML).join("");
+  box.querySelectorAll("[data-anchor]").forEach(el => {
+    el.onclick = () => focusEvidence(el.dataset.anchor.split(","));
+  });
+}
+
+function entryHTML(e){
+  const f = [];
+  const add = (k, v) => { if (v) f.push(
+    `<div class="field"><span class="k">${k}</span> ${esc(v)}</div>`); };
+  add("intent", e.intent);
+  add("state", e.state);
+  add("hypothesis", e.hypothesis);
+  add("setup", e.setup);
+  add("varied", e.varied);
+  add("result", e.result);
+  add("conclusion", e.conclusion);
+  if (e.outcome) add("outcome", e.outcome + (e.confidence ? ` (confidence ${e.confidence})` : ""));
+  add("why abandoned", e.why_abandoned);
+  add("why", e.why);
+  if (e.klass) add("reversibility", e.klass);
+  if (e.restore) f.push(`<div class="field"><span class="k">restore</span> ` +
+    `<span class="restore">${esc(e.restore)}</span></div>`);
+  (e.verified||[]).forEach(v => add("verified", v));
+  (e.ext||[]).forEach(v => add("external", v));
+  add("NOT done", e.not_done);
+  (e.open||[]).forEach(q => f.push(
+    `<div class="field"><span class="k OPEN">open</span> ${esc(q)}</div>`));
+
+  // Beats are the narrator's prose. Each carries the events that support it; a beat with
+  // no anchors is rendered with a warning edge rather than being quietly indistinguishable.
+  const beats = (e.beats||[]).map(b => {
+    const anchors = b.anchors||[];
+    const chips = anchors.length
+      ? `<div class="anchors">` + anchors.map(a =>
+          `<span class="anchor" data-anchor="${esc(a)}">${esc(a.slice(-6))}</span>`).join("")
+        + (b.confidence ? `<span class="conf">${esc(b.confidence)}</span>` : "")
+        + `</div>`
+      : `<span class="no-anchor">⚠ unanchored — no evidence cited</span>`;
+    return `<div class="beat${anchors.length ? "" : " unanchored"}">` +
+           `<p>${esc(b.prose)}</p>${chips}</div>`;
+  }).join("");
+
+  const anchorAll = (e.anchors||[]).length
+    ? `<div class="anchors"><span class="anchor" data-anchor="${esc((e.anchors||[]).join(","))}">` +
+      `${(e.anchors||[]).length} anchor(s)</span></div>` : "";
+
+  const caveat = e.inferred
+    ? `<div class="caveat"><b>⚠ INFERRED — NOT WITNESSED. MAY BE WRONG.</b> ` +
+      `Reconstructed after the fact by a model reading the trace. Check the anchored ` +
+      `events before acting on it; where it conflicts with a first-hand entry, the ` +
+      `first-hand entry wins.</div>` : "";
+
+  return `<div class="entry${e.inferred ? " inferred" : ""}">
+    <div class="head">
+      <span class="trigger ${esc(e.trigger)}">${esc(e.trigger)}</span>
+      <span class="title">${esc(e.summary)}</span>
+      ${e.inferred ? '<span class="inferred-tag">inferred</span>' : ""}
+    </div>
+    <div class="meta">${esc(e.entry)} · ${esc(e.ts.slice(0,16).replace("T"," "))} UTC
+      · ${esc(e.project)} · ${esc(e.machine)}
+      ${e.corrects ? " · supersedes " + esc(e.corrects) : ""}</div>
+    ${caveat}${f.join("")}${beats}${anchorAll}
+  </div>`;
+}
+
+function focusEvidence(ids){
+  HIGHLIGHT = new Set(ids.map(s => s.trim()));
+  renderEvidence();
+  const first = $("#ev .hit");
+  if (first) first.scrollIntoView({behavior:"smooth", block:"center"});
+}
+
+function renderEvidence(){
+  const q = $("#q").value.trim().toLowerCase();
+  const rows = DATA.trace.filter(t =>
+    !q || (t.summary||"").toLowerCase().includes(q) ||
+    (t.files||[]).some(f => f.path.toLowerCase().includes(q)) ||
+    (t.kind||"").includes(q));
+  if (!rows.length){ $("#ev").innerHTML = '<div class="empty">no events</div>'; return; }
+
+  $("#ev").innerHTML = rows.map(t => {
+    const hit = HIGHLIGHT.has(t.id);
+    const badges = [];
+    if (t.exit !== null && t.exit !== undefined)
+      badges.push(`<span class="badge ${t.exit ? "bad" : ""}">exit ${t.exit}</span>`);
+    if (t.gate) badges.push(`<span class="badge ${t.gate.blocked ? "blocked" : "passed"}">` +
+      `gate ${t.gate.blocked ? "blocked" : "passed"}</span>`);
+    const files = (t.files||[]).map(f => {
+      const name = f.path.split("/").pop();
+      if (f.redacted) return `<li><span class="redact">⛒ ${esc(name)} (redacted)</span></li>`;
+      const acts = [];
+      if (f.after) acts.push(`<span class="act" data-blob="${esc(f.after)}">after</span>`);
+      if (f.before) acts.push(`<span class="act" data-blob="${esc(f.before)}">before</span>`);
+      if (f.before && f.after) acts.push(
+        `<span class="act" data-diff="${esc(f.path)}|${esc(f.before)}|${esc(f.after)}">diff</span>`);
+      return `<li>${esc(name)} ${acts.join(" ")}</li>`;
+    }).join("");
+    return `<div class="ev${hit ? " hit" : ""}" id="ev-${esc(t.id)}">
+      <div class="ev-top">
+        <span class="ts">${esc(t.ts.slice(11,19))}</span>
+        <span class="kind ${t.actor === "human" ? "human" : ""}">${esc(t.kind)}</span>
+        <span class="sum">${esc(t.summary)}</span>${badges.join("")}
+      </div>
+      ${files ? `<ul class="files">${files}</ul>` : ""}
+      ${(t.output||t.text) ? `<button class="link" data-out="${esc(t.id)}">output</button>` : ""}
+      <div class="detail"></div>
+    </div>`;
+  }).join("");
+
+  $("#ev").querySelectorAll("[data-blob]").forEach(el => el.onclick = async () => {
+    const box = el.closest(".ev").querySelector(".detail");
+    box.innerHTML = "<pre>loading…</pre>";
+    const r = await fetch("/api/blob?digest=" + encodeURIComponent(el.dataset.blob));
+    box.innerHTML = `<pre>${esc(await r.text())}</pre>`;
+  });
+  $("#ev").querySelectorAll("[data-diff]").forEach(el => el.onclick = async () => {
+    const [path, before, after] = el.dataset.diff.split("|");
+    const box = el.closest(".ev").querySelector(".detail");
+    box.innerHTML = "<pre>loading…</pre>";
+    const p = new URLSearchParams({path, before, after});
+    const txt = await (await fetch("/api/diff?" + p)).text();
+    box.innerHTML = "<pre>" + txt.split("\n").map(l =>
+      l.startsWith("+") && !l.startsWith("+++") ? `<span class="add">${esc(l)}</span>` :
+      l.startsWith("-") && !l.startsWith("---") ? `<span class="del">${esc(l)}</span>` :
+      l.startsWith("@@") ? `<span class="hdr">${esc(l)}</span>` : esc(l)).join("\n") + "</pre>";
+  });
+  $("#ev").querySelectorAll("[data-out]").forEach(el => el.onclick = () => {
+    const t = DATA.trace.find(x => x.id === el.dataset.out);
+    el.closest(".ev").querySelector(".detail").innerHTML =
+      `<pre>${esc(t.output || t.text)}</pre>`;
+  });
+}
+
+$("#project").onchange = () => load(true);
+$("#day").onchange = () => load(true);
+$("#q").oninput = renderEvidence;
+
+// The ledger grows while you are looking at it, so the page refreshes itself — but a
+// refresh that destroys what you opened is worse than no refresh at all. An open diff
+// vanishing after 20 seconds makes the evidence gutter unusable, which defeats the whole
+// point of the canvas. So background refreshes yield to the reader:
+//   - skip entirely while a detail panel is open or text is selected
+//   - skip when nothing actually changed (compare the newest event id)
+// An explicit filter change always forces through.
+function busy(){
+  if (document.querySelector(".detail")?.innerHTML) {
+    return [...document.querySelectorAll(".detail")].some(d => d.innerHTML.trim());
+  }
+  return !!String(window.getSelection() || "").trim();
+}
+load();
+setInterval(() => { if (!busy()) load(); }, 20000);
+</script>
+</body>
+</html>

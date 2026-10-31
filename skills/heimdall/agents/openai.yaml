@@ -1,0 +1,4 @@
+interface:
+  display_name: "Heimdall"
+  short_description: "Evidence-backed browser and API test plans"
+  default_prompt: "Use $heimdall to author and run a risk-aware test plan against this application."

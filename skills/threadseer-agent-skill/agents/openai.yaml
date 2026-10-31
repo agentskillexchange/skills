@@ -1,0 +1,4 @@
+interface:
+  display_name: "Threadseer"
+  short_description: "Turn conversations into grounded decisions"
+  default_prompt: "Use $threadseer to turn this transcript into an evidence-backed decision brief and action plan."

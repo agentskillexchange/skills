@@ -1,0 +1,79 @@
+{
+  "name": "@antreas/heimdall",
+  "version": "0.1.0",
+  "description": "Multi-driver browser test runner for agentic development — runs the same test plan through real-Chrome, headless Playwright/CDP, or isolated Docker+Xvfb lanes, with parallel execution and unified evidence.",
+  "type": "module",
+  "bin": {
+    "heimdall": "dist/cli.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "docker/Dockerfile",
+    "examples",
+    "README.md",
+    "LICENSE",
+    "SKILL.md",
+    "agents"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/cli.ts",
+    "schema": "tsx src/cli.ts schema --out heimdall.schema.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "tsc -p tsconfig.json --noEmit",
+    "prepublishOnly": "npm run build",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "testing",
+    "browser",
+    "playwright",
+    "cdp",
+    "e2e",
+    "agentic",
+    "agents",
+    "agent-skill",
+    "qa",
+    "automation"
+  ],
+  "author": "Antreas Antoniou <iam@antreas.io>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntreasAntoniou/heimdall.git"
+  },
+  "homepage": "https://github.com/AntreasAntoniou/heimdall#readme",
+  "bugs": {
+    "url": "https://github.com/AntreasAntoniou/heimdall/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "axe-core": "^4.12.1",
+    "commander": "^12.1.0",
+    "pixelmatch": "^7.2.0",
+    "playwright": "1.61.0",
+    "pngjs": "^7.0.0",
+    "zod": "^3.23.8",
+    "zod-to-json-schema": "^3.23.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.0",
+    "@types/pngjs": "^6.0.5",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^4.1.9"
+  }
+}
