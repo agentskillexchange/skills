@@ -10,7 +10,6 @@ category: "Templates & Workflows"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "umutyesildal/berlin-job-search"
-  github_stars: 0
 ---
 
 # Berlin Job Search
@@ -26,27 +25,7 @@ The scripts are Python 3.9+ standard library only and need no API keys. User dat
 
 ## Installation
 
-### Claude Code
-
-```bash
-/plugin marketplace add umutyesildal/berlin-job-search
-/plugin install berlin-job-search@berlin-job-search
-```
-
-### Codex
-
-```bash
-codex plugin marketplace add umutyesildal/berlin-job-search
-codex plugin add berlin-job-search@berlin-job-search
-```
-
-### Optional Third-Party Installer
-
-The `skills` npm package is maintained by Vercel Labs / third parties, not AgentSkillExchange. If you choose to use it, pin the package version:
-
-```bash
-npm exec --package=skills@1.5.7 -- skills add umutyesildal/berlin-job-search
-```
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
 - Source: https://github.com/umutyesildal/berlin-job-search
 
