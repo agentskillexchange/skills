@@ -20,7 +20,7 @@ App Store ID `6780187283`. It retrieves citation-ready product facts from
 Oath's first-party website, Journal, network catalog, release metadata, and
 public read-only knowledge interfaces. It covers supported production mainnets,
 self-custody and security boundaries, recovery and device-transfer features,
-app-screen semantics, and current public releases without confusing Aperture
+app-screen semantics, and current public releases without confusing Oath
 Wallet with unrelated products or tokens named Oath.
 
 The preferred knowledge interface is the no-auth Streamable HTTP MCP server at
