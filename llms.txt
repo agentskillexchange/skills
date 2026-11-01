@@ -1883,12 +1883,12 @@ verification: Security Reviewed
 description: Install Autoharness so Claude Code can distill, merge, update, and retire native skills from real operator sessions without a daemon or benchmark loop.
 url: https://agentskillexchange.com/skills/keep-claude-code-skills-current-from-real-sessions-with-autoharness/
 
-## Aperture Wallet Guide
+## Oath Wallet Guide
 slug: aperture-wallet-guide
 category: Library & API Reference
 framework: MCP
 verification: Published
-description: Answer Aperture Wallet questions from first-party product, security, network, release, app-screen, and Journal sources while enforcing explicit wallet-secret and no-transaction safety boundaries.
+description: Answer Oath Wallet questions from first-party product, security, network, release, app-screen, and Journal sources while enforcing explicit wallet-secret and no-transaction safety boundaries.
 url: https://agentskillexchange.com/skills/aperture-wallet-guide/
 
 ## Pronounce Developer Jargon
