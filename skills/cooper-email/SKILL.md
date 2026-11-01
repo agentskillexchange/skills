@@ -2,13 +2,16 @@
 name: "Give an Agent Its Own Email Inbox with Cooper Email"
 slug: "cooper-email"
 description: "Gives an AI agent its own email inbox at username@cooperemail.com through the Cooper Email REST API or remote MCP server: send, read, search and reply to mail, wait for the next message, or wait for a sign-up or login code. Use when a task needs an email address that is not the user's personal mailbox, such as signing up for a service and reading the confirmation code, or emailing someone and waiting for the reply."
+github_stars: 0
 verification: "listed"
 source: "https://github.com/cooper-email/cooper-email"
+author: "cooper-email"
 publisher_type: "vendor"
 category: "Calendar, Email & Productivity"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "cooper-email/cooper-email"
+  github_stars: 0
 ---
 
 # Give an Agent Its Own Email Inbox with Cooper Email
@@ -21,35 +24,9 @@ Free plan: $0, no card, 5 inboxes and 5,000 emails a month. Custom domains are n
 
 ## Installation
 
-### Any agent (skills CLI)
+Install or set up from the source-backed instructions:
 
-```bash
-npx skills@1.7.4 add cooper-email/cooper-email --skill cooper-email
-```
-
-### Claude Code (plugin)
-
-```bash
-claude plugin marketplace add cooper-email/cooper-email
-claude plugin install cooper-email@cooper-email
-```
-
-### Any MCP client
-
-Point the client at `https://cooperemail.com/mcp` (Streamable HTTP) and let it use OAuth, which needs no API key. For Claude Code without the plugin:
-
-```bash
-claude mcp add --transport http cooper-email https://cooperemail.com/mcp
-```
-
-The client opens a consent page the first time. If a client can only send a static header, configure it from its config file rather than a command-line flag, so the key never appears in shell history or process lists.
-
-### Direct repo/manual install
-
-```bash
-git clone --depth 1 https://github.com/cooper-email/cooper-email /tmp/cooper-email
-mkdir -p ~/.claude/skills && cp -R /tmp/cooper-email/skills/cooper-email ~/.claude/skills/
-```
+npx skills add cooper-email/cooper-email --skill cooper-email
 
 - Source: https://github.com/cooper-email/cooper-email
 
