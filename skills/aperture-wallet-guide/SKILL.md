@@ -37,6 +37,7 @@ or other wallet credentials. This skill cannot access a wallet, balance, local
 app data, signing, broadcasting, or transactions.
 
 ## Installation
+
 Configure an MCP client that supports remote Streamable HTTP to use
 `https://oathwallet.org/mcp`. No account, API key, wallet connection or local
 package installation is required for this public documentation interface.
@@ -44,3 +45,7 @@ Consult the [current documentation index](https://oathwallet.org/llms.txt) for
 available material and the [public website source](https://github.com/devdasx/oath-wallet/tree/main/Website)
 for implementation details. The existing skill slug and iOS bundle ID are retained
 for compatibility; the product's current public name is Oath Wallet.
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/aperture-wallet-guide/)
