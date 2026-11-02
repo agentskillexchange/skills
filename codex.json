@@ -1,9 +1,20 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-10-31",
-  "total": 3195,
+  "generated": "2026-11-02",
+  "total": 3196,
   "skills": [
+    {
+      "slug": "berlin-job-search",
+      "name": "Berlin Job Search",
+      "title": "Berlin Job Search",
+      "description": "AI job-search coach for Berlin and the rest of Germany. Searches live postings (Bundesagentur für Arbeit API, Arbeitnow, LinkedIn guest jobs, Daily Berlin Jobs…",
+      "category": "Templates & Workflows",
+      "framework": "Claude Code",
+      "verification": "listed",
+      "source_url": "https://github.com/umutyesildal/berlin-job-search",
+      "github_repo": "umutyesildal/berlin-job-search"
+    },
     {
       "slug": "ground-react-ui-edits-in-project-components-and-tokens-with-onsystem-skill",
       "name": "Ground React UI edits in project components and tokens with the Onsystem skill",

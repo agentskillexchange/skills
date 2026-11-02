@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-10-31
-# Total: 3195 skills
+# Generated: 2026-11-02
+# Total: 3196 skills
+
+## Berlin Job Search
+slug: berlin-job-search
+category: Templates & Workflows
+framework: Claude Code
+verification: Published
+description: AI job-search coach for Berlin and the rest of Germany. Searches live postings (Bundesagentur für Arbeit API, Arbeitnow, LinkedIn guest jobs, Daily Berlin Jobs…
+url: https://agentskillexchange.com/skills/berlin-job-search/
 
 ## Ground React UI edits in project components and tokens with the Onsystem skill
 slug: ground-react-ui-edits-in-project-components-and-tokens-with-onsystem-skill

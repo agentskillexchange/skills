@@ -11,7 +11,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 3 | [Vite Plugin Hot Module Analyzer](skills/vite-plugin-hmr-analyzer/) | 96.8M/wk | vite | Developer Tools |
 | 4 | [Supabase MCP Server](skills/supabase-mcp-server/) | 83.5M/wk | supabase | Developer Tools |
 | 5 | [pnpm Fast Disk-Efficient Package Manager](skills/pnpm-fast-disk-efficient-package-manager/) | 66.3M/wk | pnpm | Developer Tools |
-| 6 | [OpenAI Image Gen](skills/openai-image-gen/) | 55.3M/wk | openai | Image & Creative Automation |
+| 6 | [OpenAI Image Gen](skills/openai-image-gen/) | 55.5M/wk | openai | Image & Creative Automation |
 | 7 | [Sharp Image CDN Optimizer](skills/sharp-image-cdn-optimizer/) | 52.5M/wk | sharp | Image & Creative Automation |
 | 8 | [Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/) | 49.9M/wk | claude-code | Templates & Workflows |
 | 9 | [Playwright Accessibility Audit Runner](skills/playwright-accessibility-audit-runner/) | 47.9M/wk | playwright | Browser Automation |
@@ -26,7 +26,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 18 | [Storybook Component Tester](skills/storybook-component-tester/) | 13.7M/wk | storybook | Code Quality & Review |
 | 19 | [MongoDB MCP Server](skills/mongodb-mcp-server/) | 11.2M/wk | mongodb | Developer Tools |
 | 20 | [Prisma Schema Migrator](skills/prisma-schema-migrator/) | 9.9M/wk | prisma | Library & API Reference |
-| 21 | [Twilio MCP Server](skills/twilio-mcp-server/) | 9.5M/wk | twilio | Integrations & Connectors |
+| 21 | [Twilio MCP Server](skills/twilio-mcp-server/) | 9.4M/wk | twilio | Integrations & Connectors |
 | 22 | [Stripe API Reference Navigator](skills/stripe-api-reference-navigator/) | 9.3M/wk | stripe | Library & API Reference |
 | 23 | [MySQL Query Agent](skills/mysql-query-agent/) | 8.9M/wk | mysql | Developer Tools |
 | 24 | [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](skills/pixelmatch-image-comparison-library/) | 8.7M/wk | pixelmatch | Image & Creative Automation |
@@ -39,7 +39,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 31 | [API Client Generator Skill](skills/api-client-generator-skill/) | 5.7M/wk | openapi-generator | Developer Tools |
 | 32 | [SQLite Analyst](skills/sqlite-analyst/) | 5.5M/wk | sqlite | Developer Tools |
 | 33 | [PostHog Product Analytics and Feature Flags SDK](skills/posthog-product-analytics-and-feature-flags-sdk/) | 4.8M/wk | posthog-js | Monitoring & Alerts |
-| 34 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 4.2M/wk | datadog-api-client-typescript | Monitoring & Alerts |
+| 34 | [Metrics Dashboard Builder](skills/metrics-dashboard-builder/) | 4.1M/wk | datadog-api-client-typescript | Monitoring & Alerts |
 | 35 | [TypeDoc TypeScript API Documentation Generator](skills/typedoc-typescript-api-documentation-generator/) | 3.7M/wk | typedoc | Library & API Reference |
 | 36 | [Stagehand AI Browser Automation Framework](skills/stagehand-ai-browser-automation-framework-2/) | 3.4M/wk | stagehand | Browser Automation |
 | 37 | [AWS CDK Scaffolder](skills/aws-cdk-scaffolder/) | 3.3M/wk | aws | Templates & Workflows |
