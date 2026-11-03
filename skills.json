@@ -11,6 +11,9 @@
       "category": "Templates & Workflows",
       "framework": "Claude Code",
       "verification": "listed",
+      "signals": {
+        "github_stars": 31
+      },
       "source_url": "https://github.com/umutyesildal/berlin-job-search",
       "github_repo": "umutyesildal/berlin-job-search"
     },

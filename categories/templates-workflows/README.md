@@ -278,6 +278,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Distill repository rules and workflows into reusable project skills with Skill-Based Architecture](../../skills/distill-repository-rules-and-workflows-into-reusable-project-skills-with-skill-based-architecture/) | 131 | — |
 | [Triage support tickets and draft customer replies with Claude Code support skills](../../skills/triage-support-tickets-and-draft-customer-replies-with-claude-code-support-skills/) | 87 | — |
 | [Put coding agents on a governed local Git workflow with AgentPlane](../../skills/put-coding-agents-on-a-governed-local-git-workflow-with-agentplane/) | 38 | 817/wk |
+| [Berlin Job Search](../../skills/berlin-job-search/) | 31 | — |
 | [Review-gate OpenClaw memory hygiene with openclaw-mem](../../skills/review-gate-openclaw-memory-hygiene-with-openclaw-mem/) | 28 | — |
 | [Progressive Disclosure for Documentation](../../skills/progressive-disclosure/) | 14 | — |
 | [Run GitHub Issues as a Spec, Build, Review and Ship Pipeline with workkit](../../skills/run-github-issues-as-a-spec-build-review-ship-pipeline-with-workkit/) | 4 | — |
@@ -289,7 +290,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](../../skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/) | — | 49.9M/wk |
 | [Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue](../../skills/triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue/) | — | 49.9M/wk |
 | [Autonomous Session Workflow](../../skills/autonomous-session-workflow/) | — | — |
-| [Berlin Job Search](../../skills/berlin-job-search/) | — | — |
 | [Bubble.io Stripe Subscription Portal Builder](../../skills/bubble-stripe-subscription-portal/) | — | — |
 | [Co-author structured docs with staged context gathering and reader testing](../../skills/co-author-structured-docs-with-staged-context-gathering-and-reader-testing/) | — | — |
 | [Create and repair Word documents with layout-safe DOCX workflows](../../skills/create-and-repair-word-documents-with-layout-safe-docx-workflows/) | — | — |

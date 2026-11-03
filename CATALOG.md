@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3196 published skills** across **17 categories** · 2,619 security reviewed · Updated 2026-11-03 01:26 UTC
+> **3196 published skills** across **17 categories** · 2,619 security reviewed · Updated 2026-11-03 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -796,6 +796,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Distill repository rules and workflows into reusable project skills with Skill-Based Architecture](skills/distill-repository-rules-and-workflows-into-reusable-project-skills-with-skill-based-architecture/) | Turn scattered project rules, workflows, and hard-won lessons into a structured skills directory that future agents… | Security Reviewed | 131 | — |
 | [Triage support tickets and draft customer replies with Claude Code support skills](skills/triage-support-tickets-and-draft-customer-replies-with-claude-code-support-skills/) | Use Claude Code support skills to prioritize tickets, gather customer context, and draft reviewed replies without… | Security Reviewed | 87 | — |
 | [Put coding agents on a governed local Git workflow with AgentPlane](skills/put-coding-agents-on-a-governed-local-git-workflow-with-agentplane/) | Run coding agents inside a repo with explicit policy files, task state, approvals, and closure records when teams… | Security Reviewed | 38 | 817/wk |
+| [Berlin Job Search](skills/berlin-job-search/) | AI job-search coach for Berlin and the rest of Germany. Searches live postings (Bundesagentur für Arbeit API,… | Published | 31 | — |
 | [Review-gate OpenClaw memory hygiene with openclaw-mem](skills/review-gate-openclaw-memory-hygiene-with-openclaw-mem/) | Pack trusted context and review memory writes before long OpenClaw sessions drift or accumulate low-quality memory. | Security Reviewed | 28 | — |
 | [Progressive Disclosure for Documentation](skills/progressive-disclosure/) | Restructure large documentation files (500+ lines, 5k+ tokens) into slim indexes with on-demand detail directories.… | Published | 14 | — |
 | [Run GitHub Issues as a Spec, Build, Review and Ship Pipeline with workkit](skills/run-github-issues-as-a-spec-build-review-ship-pipeline-with-workkit/) | Use workkit when Claude Code should work a repository's GitHub Issues as a labeled pipeline: capture, triage, spec… | Published | 4 | — |
@@ -807,7 +808,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/) | Use Claude Code Dedupe to summarize an issue, run parallel GitHub duplicate searches, filter false positives, and… | Security Reviewed | — | 49.9M/wk |
 | [Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue](skills/triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue/) | Use Claude Code triage-issue to read a GitHub issue, verify it actually belongs to the product from body evidence… | Security Reviewed | — | 49.9M/wk |
 | [Autonomous Session Workflow](skills/autonomous-session-workflow/) | 5-phase repeatable structure for autonomous agent sessions: context-load, tiered work-selection, coordination claim,… | Published | — | — |
-| [Berlin Job Search](skills/berlin-job-search/) | AI job-search coach for Berlin and the rest of Germany. Searches live postings (Bundesagentur für Arbeit API,… | Published | — | — |
 | [Bubble.io Stripe Subscription Portal Builder](skills/bubble-stripe-subscription-portal/) | Uses Bubble's Plugin API and the Stripe.js SDK to embed a self-service subscription management portal inside a… | Security Reviewed | — | — |
 | [Co-author structured docs with staged context gathering and reader testing](skills/co-author-structured-docs-with-staged-context-gathering-and-reader-testing/) | Use Anthropic's doc-coauthoring skill to run a disciplined writing workflow instead of freeform drafting. The agent… | Security Reviewed | — | — |
 | [Create and repair Word documents with layout-safe DOCX workflows](skills/create-and-repair-word-documents-with-layout-safe-docx-workflows/) | Use the Anthropic docx skill when an agent needs to produce or repair a real .docx deliverable with headings,… | Security Reviewed | — | — |
