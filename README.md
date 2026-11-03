@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Puppeteer Visual Regression Testing](skills/puppeteer-visual-regression-testing/)** — Runs pixel-level visual regression tests using Puppeteer page.screenshot() and pixelmatch diffing library. Compares baseline screenshots against current renders with configurable threshold tolerance.
+**[ESLint Rule Conflict Detector](skills/eslint-rule-conflict-detector-2/)** — Analyzes .eslintrc configurations and extended rulesets using the ESLint Node.js API and eslint-config-inspector. Detects conflicting rules between Prettier, TypeScript-ESLint, and Airbnb presets, generating a unified conflict-free config.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
