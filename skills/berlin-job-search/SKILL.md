@@ -2,7 +2,7 @@
 name: "Berlin Job Search"
 slug: "berlin-job-search"
 description: "AI job-search coach for Berlin and the rest of Germany. Searches live postings (Bundesagentur für Arbeit API, Arbeitnow, LinkedIn guest jobs, Daily Berlin Jobs for Berlin tech, public Greenhouse/Lever/Ashby/Personio boards), quotes German-language requirements, checks salaries against 2026 EU Blue Card thresholds, writes a German Lebenslauf/Anschreiben or English CV as PDF, runs mock interviews and tracks applications. Use for any job search in Germany."
-github_stars: 0
+github_stars: 31
 verification: "listed"
 source: "https://github.com/umutyesildal/berlin-job-search"
 author: "umutyesildal"
@@ -10,6 +10,7 @@ category: "Templates & Workflows"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "umutyesildal/berlin-job-search"
+  github_stars: 31
 ---
 
 # Berlin Job Search
@@ -25,7 +26,10 @@ The scripts are Python 3.9+ standard library only and need no API keys. User dat
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Install or set up from the source-backed instructions:
+
+/plugin marketplace add umutyesildal/berlin-job-search
+/plugin install berlin-job-search@berlin-job-search
 
 - Source: https://github.com/umutyesildal/berlin-job-search
 
