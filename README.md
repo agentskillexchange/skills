@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[ESLint Rule Conflict Detector](skills/eslint-rule-conflict-detector-2/)** — Analyzes .eslintrc configurations and extended rulesets using the ESLint Node.js API and eslint-config-inspector. Detects conflicting rules between Prettier, TypeScript-ESLint, and Airbnb presets, generating a unified conflict-free config.
+**[Ollama Local LLM Runner and Model Server](skills/ollama-local-llm-runner-model-server/)** — Ollama runs large language models locally with a simple CLI and REST API. It supports hundreds of open models including Llama, Gemma, Qwen, and DeepSeek, with GPU acceleration…
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
