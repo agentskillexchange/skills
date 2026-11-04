@@ -26,7 +26,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 18 | [Storybook Component Tester](skills/storybook-component-tester/) | 13.7M/wk | storybook | Code Quality & Review |
 | 19 | [MongoDB MCP Server](skills/mongodb-mcp-server/) | 11.2M/wk | mongodb | Developer Tools |
 | 20 | [Prisma Schema Migrator](skills/prisma-schema-migrator/) | 9.9M/wk | prisma | Library & API Reference |
-| 21 | [Twilio MCP Server](skills/twilio-mcp-server/) | 9.4M/wk | twilio | Integrations & Connectors |
+| 21 | [Twilio MCP Server](skills/twilio-mcp-server/) | 9.3M/wk | twilio | Integrations & Connectors |
 | 22 | [Stripe API Reference Navigator](skills/stripe-api-reference-navigator/) | 9.3M/wk | stripe | Library & API Reference |
 | 23 | [MySQL Query Agent](skills/mysql-query-agent/) | 8.9M/wk | mysql | Developer Tools |
 | 24 | [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](skills/pixelmatch-image-comparison-library/) | 8.7M/wk | pixelmatch | Image & Creative Automation |
