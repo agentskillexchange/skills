@@ -18,7 +18,13 @@ Use [Arcmira](https://arcmira.com) when a user wants to find what a speaker said
 2. Use `arcmira_execute_read` to call `arcmira.search` with the query, date window and a small result limit. For example, look for three passages discussing GPU financing in the last 60 days.
 3. Read the surrounding lines before quoting a passage. Return the exact words, show, publication date and timestamped source link. Include the speaker's name when the source identifies them. If the search returns no matches, report the query and date window you checked.
 
-Arcmira requires an account. Metered reads use credits from your plan, then your configured on-demand budget. A Premium transcript read can start transcription for the whole video. Check the quote and respect the user's instructions about usage. Create a monitor through `arcmira_execute_write` only when the user asks for monitoring and confirms the scope. Delivered alerts use credits. See [plans and usage](https://arcmira.com/docs/usage-and-billing).
+## Premium transcripts and recurring monitors
+
+Arcmira requires an account. Metered reads use credits from your plan, then your configured on-demand budget.
+
+Before a Premium read that could start transcription, call `arcmira.quote(videoIdOrUrl)` through `arcmira_execute_read`. The quote is free and shows the credits for the whole video and any on-demand amount. Compare it with the account budget and any tighter limit the user gave you. If the quoted usage exceeds that limit or falls outside the user's authorization, stop and ask before starting the read.
+
+Before creating a recurring monitor, confirm with the user what to track, where to deliver alerts and how often to send them. If their request already specifies all three, use those settings. Ask about any missing detail before calling `arcmira.monitors.create` through `arcmira_execute_write`. Delivered alerts use credits. See [plans and usage](https://arcmira.com/docs/usage-and-billing).
 
 ## Installation
 
