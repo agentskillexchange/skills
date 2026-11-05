@@ -104,6 +104,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Contributor | Skill | What it helps with | Category |
 |---|---|---|---|
+| [ADWilkinson](https://github.com/ADWilkinson) | [USDCtoFiat Cash-Out](skills/usdctofiat-cashout/) | Add non-custodial Base USDC-to-fiat cash-out with @usdctofiat/offramp cashout({ mode: "fast" \| "best" }). Use when an agent must... | Integrations & Connectors |
 | [zealous1](https://github.com/zealous1) | [Arcmira: YouTube Transcript Search](skills/arcmira-transcript-search/) | Search indexed YouTube and podcast transcripts through Arcmira MCP. Return quoted passages, speaker attribution when available, and timestamped... | Media & Transcription |
 | [devdasx](https://github.com/devdasx) | [Oath Wallet Guide](skills/aperture-wallet-guide/) | Answer Oath Wallet questions from first-party product, security, network, release, app-screen, and Journal sources while enforcing explicit wallet-secret... | Library & API Reference |
 | [umutyesildal](https://github.com/umutyesildal) | [Berlin Job Search](skills/berlin-job-search/) | AI job-search coach for Berlin and the rest of Germany. Searches live postings (Bundesagentur für Arbeit API, Arbeitnow... | Templates & Workflows |
@@ -113,7 +114,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [f-o-x11](https://github.com/f-o-x11) | [Publish Files to a Permanent URL with deed.page](skills/deed-page/) | Publishes a generated HTML file or a static folder to a permanent https://.deed.page/ URL with one curl PUT... | Developer Tools |
 | [DEX-XL](https://github.com/DEX-XL) | [Email Voice](skills/email-voice/) | Learn a user's email voice from authorized sent samples, export a private style profile, and draft fact-preserving replies... | Calendar, Email & Productivity |
 | [yasuo22](https://github.com/yasuo22) | [AI Services Market MCP](skills/ai-services-market-mcp/) | Teaches an agent to connect to the AI Services Market MCP server (https://aiservicesmarket.lol/mcp) and use its seven tools... | Integrations & Connectors |
-| [wu736139669](https://github.com/wu736139669) | [Goal Instruction Writer](skills/goal-instruction-writer/) | Preview, draft, refine, and audit durable Goal instructions in Codex. Define observable acceptance evidence, bounded execution loops, checkpoints... | Templates & Workflows |
 
 ---
 
@@ -130,7 +130,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Coordinate agent teams and governed work in Paperclip](skills/coordinate-agent-teams-and-governed-work-in-paperclip/) | Use Paperclip as a self-hosted control plane for assigning goals, tasks, budgets, approvals, routines, and run history across... | 98.2k | Templates & Workflows |
 | [Reverse-engineer apps and binaries with REA](skills/reverse-engineer-apps-and-binaries-with-rea/) | Connect coding agents to REA's MCP tools so they can inspect apps, binaries, websites, APKs, and runtime behavior... | 17.1k | Security & Verification |
 | [Ground React UI edits in project components and tokens with the Onsystem skill](skills/ground-react-ui-edits-in-project-components-and-tokens-with-onsystem-skill/) | Discover project-specific React components and tokens, implement a bounded UI change, and repair new design-system violations with Onsystem... | 165 | Code Quality & Review |
-| [Run owned terminal coding-agent workflows with Zero](skills/run-owned-terminal-coding-agent-workflows-with-zero/) | Use Zero to run local, scriptable coding-agent sessions with operator-controlled models, permissions, tools, skills, MCP servers, and durable... | 1.7k | Developer Tools |
+| [Retrieve upstream implementation evidence before coding with XERJ](skills/retrieve-upstream-implementation-evidence-before-coding-with-xerj/) | Build a focused reference corpus, retrieve implementation passages with file-and-line citations, and check license constraints before adapting unfamiliar... | 17.2k | Developer Tools |
 | [Compare UI design directions and refine the selected page with Oil UI](skills/compare-ui-design-directions-and-refine-the-selected-page-with-oil-ui/) | Create distinct first-screen designs, compare them in one page, then refine the chosen direction against desktop and mobile... | 2.1k | Image & Creative Automation |
 | [Annotate Classical Chinese corpora with HanLP](skills/annotate-classical-chinese-corpora-with-hanlp/) | Produce reviewable token, lemma, POS and dependency annotations for Classical Chinese passages with HanLP’s dedicated Ancient Chinese model | 36.5k | Data Extraction & Transformation |
 
