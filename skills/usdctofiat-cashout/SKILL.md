@@ -1,7 +1,7 @@
 ---
 name: "USDCtoFiat Cash-Out"
 slug: "usdctofiat-cashout"
-description: "Add non-custodial Base USDC-to-fiat cash-out with @usdctofiat/offramp cashout({ mode: \"fast\" | \"best\" }). Use when an agent must sell USDC from a real viem WalletClient into Venmo, Cash App, Revolut, PayPal, Zelle, Monzo, or Chime without an exchange account."
+description: "Sell Base USDC for fiat through USDCtoFiat's Fast route with @zkp2p/cash and referral code TOFIAT. Use when an agent must create a non-custodial cash-out from a real viem WalletClient into Venmo, Revolut, Cash App, PayPal, Zelle, Monzo, Chime, Alipay, UPI, or X Money."
 verification: "listed"
 source: "https://github.com/ADWilkinson/usdctofiat-skills/tree/main/skills/cashout"
 author: "ADWilkinson"
@@ -11,142 +11,110 @@ framework: "Multi-Framework"
 
 # USDCtoFiat Cash-Out
 
-Use `@usdctofiat/offramp` to call `cashout({ mode: "fast" | "best" })` with a real viem `WalletClient` on Base (`chain_id: 8453`). Require the user to choose a mode.
+Use `@zkp2p/cash` with `referralCode: "TOFIAT"` to create a zero-spread cash-out from a real viem `WalletClient` on Base (`chain_id: 8453`). The seller's USDC becomes a deposit in the Peer protocol contracts. A buyer pays the seller in the payment app and proves the payment, then the USDC releases.
+
+This skill covers USDCtoFiat's Fast route only. For Best, where Delegate manages the deposit's rate, send the seller to https://usdctofiat.xyz/sell?speed=best. `@zkp2p/cash` does not create Best deposits.
 
 > **Payment-policy boundary:** SDK support proves technical compatibility, not permission from a payment provider. Wise currently prohibits receiving P2P crypto-sale payments. PayPal may require preapproval for cryptocurrency-related payments. Read the provider's current first-party policy before offering a route.
 
-## Fast or Best
-
-| Mode   | Fee                                 | Pricing                    |
-| ------ | ----------------------------------- | -------------------------- |
-| `fast` | 0% spread / 0 bps                   | Live oracle route (TOFIAT) |
-| `best` | Delegate manager fee 10 bps on USDC | Delegate rate-manager path |
+## Create a cash-out
 
 ```ts
-import { cashout } from "@usdctofiat/offramp";
+import { createCashClient, usdc } from "@zkp2p/cash";
 import type { WalletClient } from "viem";
 
+const cash = createCashClient({ environment: "production", referralCode: "TOFIAT" });
+
 export async function sellUsdc(signer: WalletClient) {
-  return cashout({
-    mode: "fast",
-    signer,
-    amount: "100",
-    currency: "EUR",
-    platform: "revolut",
-    payee: "alice",
-  });
+  return cash.cashout(
+    {
+      amount: usdc(100),
+      receive: { platform: "revolut", currency: "EUR", payee: "alice" },
+    },
+    { signer },
+  );
 }
 ```
 
+Persist `depositId` immediately. It is the resume key for `order()`, `watch()` and `withdraw()`.
+
+`referralCode` stamps USDCtoFiat's attribution on the deposit. Peer pays the code owner a share when the deposit fills. Do not replace or remove it.
+
+Show the estimate first. `estimate()` is approximate: each buyer's signal binds the rate at that moment. `eta` is historical, so never present it as a promise.
+
 ```ts
-const fast = await cashout({ ...input, mode: "fast" });
-const best = await cashout({ ...input, mode: "best" });
+const estimate = await cash.estimate({ amount: usdc(100), platform: "revolut", currency: "EUR" });
 ```
 
-Strings and numbers are human USDC amounts. A `bigint` is exact six-decimal base units. The helper is production-only and requires an explicit mode.
-
-Persist `depositId` immediately. Fast `depositId` is the composite resume key for `createOfframp().watch()`. Best `depositId` is the numeric EscrowV2 id for `deposits()` / `close()`.
+If a host signs elsewhere, use `prepare()` to show each transaction before signing, then `finalizePreparedCashout()`. For every value in `accessPolicyPaymentMethods`, submit `prepareAccessPolicy()` once.
 
 ## Amounts
 
-Both floors ship from the package root. Fast rejects an amount under the hard floor before submission; the practical floor is advice the SDK does not enforce.
+Both floors ship from the package root.
 
-| Bound                            | Base units | USDC | Meaning                                                                          |
-| -------------------------------- | ---------- | ---- | -------------------------------------------------------------------------------- |
-| `MIN_CASHOUT_AMOUNT`             | `10000n`   | 0.01 | Hard floor; below one cent a deposit is dust and can never fill                  |
-| `RECOMMENDED_MIN_CASHOUT_AMOUNT` | `1000000n` | 1    | Practical floor; a sub-1-USDC deposit forces min==max fills and starves matching |
+| Bound                            | Base units | USDC | Meaning                                                           |
+| -------------------------------- | ---------- | ---- | ----------------------------------------------------------------- |
+| `MIN_CASHOUT_AMOUNT`             | `10000n`   | 0.01 | Hard floor                                                        |
+| `RECOMMENDED_MIN_CASHOUT_AMOUNT` | `1000000n` | 1    | Practical floor; smaller deposits are accepted but struggle to fill |
 
-Ask for a larger amount rather than creating a deposit under the practical floor. Nothing fails loudly, so the deposit is created and then sits unfilled.
-
-### Per-order fill range
-
-A deposit is drained by orders, and each mode writes its own per-order range when it creates the deposit. Best caps one order at 1,500 USDC, so a Best cash-out above that cannot clear in a single fill and needs one buyer per 1,500 USDC slice. Fast writes the whole amount as its ceiling.
-
-| Mode   | Per-order min    | Per-order max       |
-| ------ | ---------------- | ------------------- |
-| `fast` | `min(amount, 1)` | `amount`            |
-| `best` | `1`              | `min(amount, 1500)` |
-
-Cells are USDC. Neither ceiling rejects a large amount, so nothing fails: it only changes how many fills the deposit waits for. Prefer Fast above 1,500 USDC, or tell the user Best will fill in pieces.
+Ask for a larger amount rather than creating a deposit under the practical floor.
 
 ## Rails
 
-Every rail in `PLATFORMS`. The Offer column is this skill's routing guidance, not an SDK field: a no rail is still a real `PLATFORMS` entry, so read the reason before assuming the SDK will reject it.
+The Offer column is this skill's routing guidance. Read currencies and payee rules from `capabilities()`, not from this table.
 
-| Rail         | Offer | Why                                                            |
-| ------------ | ----- | -------------------------------------------------------------- |
-| Venmo        | yes   |                                                                |
-| Revolut      | yes   |                                                                |
-| PayPal       | yes   | May require provider preapproval for cryptocurrency payments   |
-| Zelle        | yes   |                                                                |
-| Monzo        | yes   |                                                                |
-| Chime        | yes   |                                                                |
-| Mercado Pago | yes   |                                                                |
-| Wise         | no    | Published P2P crypto-sale prohibition; the SDK still allows it |
-| Cash App     | no    | Held in the SDK's own `OFFRAMP_DISABLED_PAYMENT_PLATFORMS`     |
+| Rail      | ID        | Offer | Note                                                                  |
+| --------- | --------- | ----- | --------------------------------------------------------------------- |
+| Venmo     | `venmo`   | yes   | Access policy follow-up; `cashout()` submits it                       |
+| Cash App  | `cashapp` | yes   |                                                                       |
+| Revolut   | `revolut` | yes   |                                                                       |
+| Zelle     | `zelle`   | yes   |                                                                       |
+| Monzo     | `monzo`   | yes   |                                                                       |
+| Chime     | `chime`   | yes   |                                                                       |
+| UPI       | `upi`     | yes   |                                                                       |
+| X Money   | `xmoney`  | yes   | The receiving account must have X Money enabled; this is not verified |
+| PayPal    | `paypal`  | yes   | New payees need a browser-extension attestation; see the boundary above |
+| Alipay    | `alipay`  | yes   | New payees need an attestation prepared by first-party Peer web       |
+| Wise      | `wise`    | no    | Published P2P crypto-sale prohibition; the SDK still allows it        |
 
-A yes rail is offerable, not preapproved. The payment-policy boundary above still applies, and currencies and payee identifier rules come from the SDK, not from this table.
-
-## Disabled rails
-
-`OFFRAMP_DISABLED_PAYMENT_PLATFORMS` is the SDK's own rail kill-switch and currently holds `cashapp`. A disabled rail is dropped from capability discovery and rejected before any deposit transaction, whatever the host passes, so do not offer Cash App. Test with `isPaymentPlatformDisabled` and surface `DISABLED_PAYMENT_PLATFORM_MESSAGE` instead of inventing copy.
-
-A host adds its own rollout gate with `disabledPlatforms`, on `createOfframp()` or per call. Display names and separator variants canonicalize, so `Cash App`, `cash-app` and `cash_app` all hit the same gate.
+## Track and unwind
 
 ```ts
-// hostRollout.disabledRails is the host's own list, not an SDK default.
-const order = await cashout({ ...input, mode: "fast", disabledPlatforms: hostRollout.disabledRails });
-```
-
-## createOfframp()
-
-Attribution is configured by `@usdctofiat/offramp`.
-
-```ts
-import { createOfframp } from "@usdctofiat/offramp";
-
-export async function watchCashout(depositId: string) {
-  const client = createOfframp();
-  for await (const order of client.watch(depositId)) {
-    if (!order.isInFlight) return order;
-  }
+for await (const order of cash.watch(depositId)) {
+  if (order.state === "delivered" || order.state === "returned") break;
 }
 ```
 
-## Installation
+Order states are `awaiting-buyer`, `matched`, `delivering`, `delivered` and `returned`. Read `nextActions` rather than guessing what to do next.
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+`withdraw()` is the one unwind verb. Pass an `amount` for a partial withdrawal, or omit it to close the deposit and return the remaining USDC.
 
-- Source: https://github.com/ADWilkinson/usdctofiat-skills/tree/main/skills/cashout
+## Install
+
+```bash
+npm install @zkp2p/cash@0.7.3 viem
+```
 
 ## Errors
 
-Managed-path errors extend `OfframpError` with a typed `code`:
+Errors are `CashError` values with `code`, `retryable` and `remediation`. Follow `remediation` and check `recovery` before retrying. These matter most:
 
-| Code                              | Meaning                                  | Recovery                                                       |
-| --------------------------------- | ---------------------------------------- | -------------------------------------------------------------- |
-| `VALIDATION`                      | Bad input                                | Fix the input                                                  |
-| `APPROVAL_FAILED`                 | USDC approve reverted or wallet rejected | Retry or top up gas                                            |
-| `REGISTRATION_FAILED`             | Curator rejected the maker               | Surface the `cause`                                            |
-| `EXTENSION_REGISTRATION_REQUIRED` | Route needs an extension handshake       | `usePeerExtensionRegistration(platform)` or `peerExtensionSdk` |
-| `DEPOSIT_FAILED`                  | Escrow create reverted                   | Check USDC balance, nonce, chain                               |
-| `CONFIRMATION_FAILED`             | Post-deposit confirmation missed         | Call `cashout()` again; it resumes                             |
-| `DELEGATION_FAILED`               | `setRateManager` failed                  | Call again; Best resumes from delegation                       |
-| `USER_CANCELLED`                  | Wallet rejected a prompt                 | Do not retry automatically                                     |
-| `UNSUPPORTED`                     | Non-Base chain or missing client         | Switch network / pass a Base `WalletClient`                    |
-
-`usePeerExtensionRegistration` ships from the `@usdctofiat/offramp/react` subpath, not the package root. Non-React callers use the root `peerExtensionSdk`.
-
-Progress callback via `onProgress: (p) => void` with `step` values: `approving`, `registering`, `depositing`, `confirming`, `protecting`, `delegating`, `restricting`, `resuming`, `done`.
+| Code                                 | Meaning                               | Recovery                                                    |
+| ------------------------------------ | ------------------------------------- | ----------------------------------------------------------- |
+| `AMOUNT_BELOW_MINIMUM`               | Under the hard floor                  | Ask for a larger amount                                     |
+| `INSUFFICIENT_TOKEN_BALANCE`         | Not enough USDC on Base               | Add USDC at https://usdctofiat.xyz/bridge                   |
+| `PAYEE_VERIFICATION_REQUIRED`        | The rail needs an attestation         | Use another rail or complete it on the site                 |
+| `PAYEE_REGISTRATION_FAILED`          | The payee was not accepted            | Check the handle against `payeeHint`                        |
+| `ACCESS_POLICY_CONFIGURATION_FAILED` | The deposit exists; its policy failed | Never create another cash-out; follow `recovery`            |
+| `TRANSACTION_REJECTED`               | The wallet declined                   | Do not retry automatically                                  |
+| `TRANSACTION_SUBMISSION_UNKNOWN`     | The outcome is unknown                | Check `orders()` before retrying, to avoid a second deposit |
+| `SIGNER_CHAIN_MISMATCH`              | The wallet is not on Base             | Switch to Base                                              |
 
 ## Rules
 
-- Call `cashout({ mode: "fast" | "best" })` on a real Base wallet and require an explicit mode.
+- Get the user's explicit confirmation of amount, rail and payee before signing.
 - Never log `walletClient` or private keys.
-- Do not invent a sandbox. Production Base only.
-- Read platform identifier rules from `PLATFORMS`; do not copy a stale list.
-- Check the amount against `RECOMMENDED_MIN_CASHOUT_AMOUNT` before creating a deposit; a smaller one is accepted and then starves matching.
-- A Best cash-out over 1,500 USDC cannot clear in one order. Route it through Fast or say it fills in pieces.
+- Do not invent a sandbox. Use production Base.
+- Never create a second cash-out while a first has an unknown outcome. Check `orders()` first.
+- Never promise a rate, speed or fill.
 - Do not offer Wise while its published P2P crypto-sale prohibition applies.
-- Never pass `otcTaker` on a fresh cash-out. The protocol cannot create a deposit paused and private in one transaction, so 9.0.0 rejects it with `UNSUPPORTED`.
-- Restrict an already-confirmed undelegated deposit with `enableOtc`, and lift it with `disableOtc`.
