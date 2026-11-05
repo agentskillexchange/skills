@@ -6,7 +6,7 @@ Usage:
   python3 scripts/security_scan.py skills/my-skill/SKILL.md [--github-annotations]
 
 Uses verification/patterns.json as the source of truth.
-Exit 0 = no findings, 1 = findings detected.
+Exit 0 = no findings, 1 = findings detected, 2 = invalid or empty target.
 """
 
 import argparse
@@ -17,6 +17,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).parent.parent
 PATTERNS_FILE = REPO_ROOT / "verification" / "patterns.json"
+REGEX_FLAGS = {"i": re.IGNORECASE, "m": re.MULTILINE, "s": re.DOTALL}
 
 # ── Built-in hardened patterns (used when patterns.json absent) ───────────────
 BUILTIN_PATTERNS = [
@@ -56,6 +57,18 @@ def load_patterns():
     return BUILTIN_PATTERNS
 
 
+def compile_pattern(pat: dict):
+    regex = pat.get("regex") or pat.get("pattern") or pat.get("match")
+    if not regex:
+        return None
+    flags = 0
+    for flag in pat.get("flags", ""):
+        if flag not in REGEX_FLAGS:
+            raise ValueError(f"unsupported regex flag: {flag}")
+        flags |= REGEX_FLAGS[flag]
+    return re.compile(regex, flags)
+
+
 def scan_file(path: Path, patterns: list, github_annotations: bool = False) -> list[dict]:
     findings = []
     try:
@@ -64,17 +77,17 @@ def scan_file(path: Path, patterns: list, github_annotations: bool = False) -> l
         findings.append({"path": str(path), "id": "read-error", "line": 0, "message": str(e)})
         return findings
 
-    lines = text.splitlines()
     for pat in patterns:
-        regex = pat.get("regex") or pat.get("pattern") or pat.get("match")
-        if not regex:
-            continue
         try:
-            compiled = re.compile(regex)
-        except re.error:
+            compiled = compile_pattern(pat)
+        except (re.error, ValueError):
             continue
-        for lineno, line in enumerate(lines, 1):
-            if compiled.search(line):
+        if compiled is None:
+            continue
+        line_numbers = {text.count("\n", 0, match.start()) + 1 for match in compiled.finditer(text)}
+        for lineno in sorted(line_numbers):
+            regex = pat.get("regex") or pat.get("pattern") or pat.get("match")
+            if lineno:
                 finding = {
                     "path":     str(path),
                     "id":       pat.get("id", "unknown"),
@@ -101,9 +114,16 @@ def main():
 
     target = Path(args.target)
     if target.is_dir():
-        files = sorted(target.glob("*/SKILL.md"))
-    else:
+        leaf_file = target / "SKILL.md"
+        files = [leaf_file] if leaf_file.is_file() else sorted(target.glob("*/SKILL.md"))
+        if not files:
+            print(f"ERROR: no SKILL.md files found in directory: {target}", file=sys.stderr)
+            sys.exit(2)
+    elif target.is_file():
         files = [target]
+    else:
+        print(f"ERROR: target is not an existing file or directory: {target}", file=sys.stderr)
+        sys.exit(2)
 
     total_findings = []
     for f in files:
