@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-05
-# Total: 3196 skills
+# Total: 3197 skills
+
+## Arcmira: YouTube Transcript Search
+slug: arcmira-transcript-search
+category: Media & Transcription
+framework: MCP
+verification: Published
+description: Search indexed YouTube and podcast transcripts through Arcmira MCP. Return quoted passages, speaker attribution when available, and timestamped links to the recordings.
+url: https://agentskillexchange.com/skills/arcmira-transcript-search/
 
 ## Berlin Job Search
 slug: berlin-job-search

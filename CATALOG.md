@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3196 published skills** across **17 categories** · 2,619 security reviewed · Updated 2026-11-05 01:26 UTC
+> **3197 published skills** across **17 categories** · 2,619 security reviewed · Updated 2026-11-05 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -3013,7 +3013,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Writingmate MCP Video and Image Generation](skills/writingmate-mcp/) | Connects Claude Code, Codex, Cursor, and other MCP hosts to Writingmate for model discovery, text comparison, image… | Published | — | — |
 
 
-### 🎙️ Media & Transcription (110 skills)
+### 🎙️ Media & Transcription (111 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads)
 
@@ -3108,6 +3108,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [Mux Node SDK for Video and Streaming API Workflows](skills/mux-node-sdk-video-and-streaming-api-workflows/) | An ASE skill built around the official Mux Node SDK for working with Mux Video and Mux Data from JavaScript or… | Security Reviewed | 178 | 987.7k/wk |
 | [Cartesia JavaScript SDK for Low-Latency Voice Generation](skills/cartesia-javascript-sdk-low-latency-voice-generation/) | An ASE skill built around the official Cartesia JavaScript SDK for text-to-speech and voice API workflows. It is a… | Security Reviewed | 130 | 192.2k/wk |
 | [Run server-side ingest, search, and edit pipelines on video with VideoDB Skills](skills/run-server-side-ingest-search-and-edit-pipelines-on-video-with-videodb-skills/) | Let an agent ingest video, transcribe it, search moments, clip results, and return playable streams without wiring… | Security Reviewed | 73 | — |
+| [Arcmira: YouTube Transcript Search](skills/arcmira-transcript-search/) | Search indexed YouTube and podcast transcripts through Arcmira MCP. Return quoted passages, speaker attribution when… | Published | — | — |
 | [AssemblyAI Audio Intelligence Agent](skills/assemblyai-audio-intelligence-agent/) | Extract structured intelligence from audio using the AssemblyAI API with sentiment analysis, entity detection, topic… | Security Reviewed | — | — |
 | [AssemblyAI LeMUR Summarizer](skills/assemblyai-lemur-summarizer-agent/) | Summarizes audio content using AssemblyAI's LeMUR (Large Language Model for Audio Understanding) API. Chains the… | Security Reviewed | — | — |
 | [AssemblyAI Summarization & Chapters Skill](skills/assemblyai-summarization-chapters-skill/) | Transcribes audio and generates auto-chapters with summaries using AssemblyAI's /v2/transcript endpoint with… | Security Reviewed | — | — |

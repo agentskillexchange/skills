@@ -129,6 +129,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Mux Node SDK for Video and Streaming API Workflows](../../skills/mux-node-sdk-video-and-streaming-api-workflows/) | 178 | 987.7k/wk |
 | [Cartesia JavaScript SDK for Low-Latency Voice Generation](../../skills/cartesia-javascript-sdk-low-latency-voice-generation/) | 130 | 192.2k/wk |
 | [Run server-side ingest, search, and edit pipelines on video with VideoDB Skills](../../skills/run-server-side-ingest-search-and-edit-pipelines-on-video-with-videodb-skills/) | 73 | — |
+| [Arcmira: YouTube Transcript Search](../../skills/arcmira-transcript-search/) | — | — |
 | [AssemblyAI Audio Intelligence Agent](../../skills/assemblyai-audio-intelligence-agent/) | — | — |
 | [AssemblyAI LeMUR Summarizer](../../skills/assemblyai-lemur-summarizer-agent/) | — | — |
 | [AssemblyAI Summarization & Chapters Skill](../../skills/assemblyai-summarization-chapters-skill/) | — | — |
