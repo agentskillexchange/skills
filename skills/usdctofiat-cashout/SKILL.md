@@ -1,7 +1,7 @@
 ---
 name: "USDCtoFiat Cash-Out"
 slug: "usdctofiat-cashout"
-description: "Sell Base USDC for fiat through USDCtoFiat's Fast route with @zkp2p/cash and referral code TOFIAT. Use when an agent must create a non-custodial cash-out from a real viem WalletClient into Venmo, Revolut, Cash App, PayPal, Zelle, Monzo, Chime, Alipay, UPI, or X Money."
+description: "Add non-custodial Base USDC-to-fiat cash-out with @usdctofiat/offramp cashout({ mode: \"fast\" | \"best\" }). Use when an agent must sell USDC from a real viem WalletClient into Venmo, Cash App, Revolut, PayPal, Zelle, Monzo, or Chime without an exchange account."
 verification: "listed"
 source: "https://github.com/ADWilkinson/usdctofiat-skills/tree/main/skills/cashout"
 author: "ADWilkinson"
@@ -118,3 +118,9 @@ Errors are `CashError` values with `code`, `retryable` and `remediation`. Follow
 - Never create a second cash-out while a first has an unknown outcome. Check `orders()` first.
 - Never promise a rate, speed or fill.
 - Do not offer Wise while its published P2P crypto-sale prohibition applies.
+
+## Installation
+
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+
+- Source: https://github.com/ADWilkinson/usdctofiat-skills/tree/main/skills/cashout
