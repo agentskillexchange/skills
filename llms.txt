@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-11-04
+# Generated: 2026-11-05
 # Total: 3196 skills
 
 ## Berlin Job Search
