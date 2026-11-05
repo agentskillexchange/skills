@@ -1,0 +1,4 @@
+interface:
+  display_name: "Doppel"
+  short_description: "Build your digital-twin writing voice"
+  default_prompt: "Use $doppel to build a consent-first digital twin of my writing voice from my own local sources."

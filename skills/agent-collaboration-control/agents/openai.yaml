@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Collaboration Control"
+  short_description: "Govern and actively monitor collaborative agent work"
+  default_prompt: "Use $agent-collaboration-control to establish safe roles, active support monitoring, evidence gates, and handoffs for this project."

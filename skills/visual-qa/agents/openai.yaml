@@ -1,0 +1,4 @@
+interface:
+  display_name: "Visual QA"
+  short_description: "Run an evidence-driven UI review committee"
+  default_prompt: "Use $visual-qa to capture and review this interface with the smallest appropriate expert tier."

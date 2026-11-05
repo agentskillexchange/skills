@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reconnect"
+  short_description: "Find relevant people and grow your professional network"
+  default_prompt: "Use $reconnect to help me expand my professional network around my goals, find relevant people, and prepare a private shortlist with reasons to connect."
