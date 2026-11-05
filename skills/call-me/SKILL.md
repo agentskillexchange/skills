@@ -52,7 +52,7 @@ mkdir -p ~/.claude/skills && cp -R /tmp/call-me/skill ~/.claude/skills/call-me
 
 1. Find the user's number before anything else. On a local host read `user_number` from `~/.aiphone/config.json`. If there is none, call `setup`, show its download links ([App Store](https://apps.apple.com/app/call-me/id6789575165) for iPhone, [Google Play](https://play.google.com/store/apps/details?id=com.serdaroztetik.callmeai) for Android) and ask the user to read back the 10 digits under My Number. Never guess or invent a number, never reuse a number from an example or from another user, and save a number the user gives you to `~/.aiphone/config.json` with owner-only permissions (directory 700, file 600).
 2. Text first, call second. A call interrupts the user's day and a text does not. Send the question with `text`, keep working on anything that does not depend on the answer, and escalate to `call` only when a few minutes pass without a reply, the answer is blocking and time-sensitive, or the user asked to be called.
-3. Never end a turn with an open question in the final message, because the session is asleep after that and cannot reach anyone. Reach out first, or on Claude Code arm `wait_for_answer` and end the turn.
+3. Never end a turn with an open question in the final message, because the session is asleep after that and cannot reach anyone. Reach out first. With the Claude Code plugin you can instead call `wait_for_answer` and read its response: end the turn expecting a wakeup only when it confirms a working waiter monitor, because an armed window alone does not wake the session. If it reports no running monitor, or the tool is absent (the hosted MCP connection and a skill-only install do not have it), use another contact path the user allows, or tell the user the work is paused pending their answer. Keep the user's preferences when picking a fallback, for example text only and no calls.
 4. Make a call self-contained. Include the options, because the user hears it once. Put digits the user must read back (an IBAN, a code, a long URL) in a `text` first and point to it in the call, since speech transcription mangles them.
 5. Follow a call with `poll_result` until it settles. `status` is `completed` with the transcript, `missed` after about a minute of ringing, or `declined`. After a missed call, send a text and wait with `wait_for_reply`. If a call is declined, do not retry the call: send a text.
 6. Use only the user's own number. The `from` in every result is the agent's identity: never call or text it. Five numbers in an hour that are not /call-me numbers get the caller blocked for an hour.
@@ -72,7 +72,7 @@ curl -sS https://callmemcp.com/ring \
 
 ## Licensing
 
-The plugin, skill and client code in `radres/call-me` are MIT licensed. The calling service at `callmemcp.com` is a hosted, closed-source commercial service. Using it needs the paid /call-me app subscription: weekly at $4.99 with a 3-day free trial, or yearly at $84.99. There is no free plan beyond the trial.
+The plugin, skill and client code in `radres/call-me` are MIT licensed. The calling service at `callmemcp.com` is a hosted, closed-source commercial service. Using it needs a paid /call-me app subscription, shown in the app before you subscribe.
 
 ## Documentation
 
