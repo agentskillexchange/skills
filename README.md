@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[AFFiNE Knowledge Base and Collaborative Workspace Platform](skills/affine-knowledge-base-collaborative-workspace-platform/)** — AFFiNE is an open source workspace that combines docs, whiteboards, and lightweight databases in one product. This skill is useful when an agent needs to structure notes, maintain…
+**[Run reproducible document-parser evaluations with the OmniDocBench skill](skills/run-reproducible-document-parser-evaluations-with-omnidocbench-skill/)** — Validate parser predictions, run OmniDocBench evaluations, and report formula, table, text, and reading-order scores with runtime diagnostics.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -106,7 +106,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 |---|---|---|---|
 | [ADWilkinson](https://github.com/ADWilkinson) | [USDCtoFiat Cash-Out](skills/usdctofiat-cashout/) | Add non-custodial Base USDC-to-fiat cash-out with @usdctofiat/offramp cashout({ mode: "fast" \| "best" }). Use when an agent must... | Integrations & Connectors |
 | [zealous1](https://github.com/zealous1) | [Arcmira: YouTube Transcript Search](skills/arcmira-transcript-search/) | Search indexed YouTube and podcast transcripts through Arcmira MCP. Return quoted passages, speaker attribution when available, and timestamped... | Media & Transcription |
-| [devdasx](https://github.com/devdasx) | [Oath Wallet Guide](skills/aperture-wallet-guide/) | Answer Oath Wallet questions from first-party product, security, network, release, app-screen, and Journal sources while enforcing explicit wallet-secret... | Library & API Reference |
+| [OathWallet](https://github.com/OathWallet) | [Oath Wallet Guide](skills/aperture-wallet-guide/) | Answer Oath Wallet questions from first-party product, security, network, release, app-screen, and Journal sources while enforcing explicit wallet-secret... | Library & API Reference |
 | [umutyesildal](https://github.com/umutyesildal) | [Berlin Job Search](skills/berlin-job-search/) | AI job-search coach for Berlin and the rest of Germany. Searches live postings (Bundesagentur für Arbeit API, Arbeitnow... | Templates & Workflows |
 | [f-o-x11](https://github.com/f-o-x11) | [Give an Agent Its Own Email Inbox with Cooper Email](skills/cooper-email/) | Gives an AI agent its own email inbox at username@cooperemail.com through the Cooper Email REST API or remote... | Calendar, Email & Productivity |
 | [ADWilkinson](https://github.com/ADWilkinson) | [HyperGrok Trading Desk](skills/hypergrok-trading-desk/) | Turn Claude Code, Cursor, or Grok Bot into a 7-role Hyperliquid trading desk. Sixteen SKILL.md skills plus seven... | Integrations & Connectors |
@@ -131,7 +131,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Reverse-engineer apps and binaries with REA](skills/reverse-engineer-apps-and-binaries-with-rea/) | Connect coding agents to REA's MCP tools so they can inspect apps, binaries, websites, APKs, and runtime behavior... | 17.1k | Security & Verification |
 | [Ground React UI edits in project components and tokens with the Onsystem skill](skills/ground-react-ui-edits-in-project-components-and-tokens-with-onsystem-skill/) | Discover project-specific React components and tokens, implement a bounded UI change, and repair new design-system violations with Onsystem... | 165 | Code Quality & Review |
 | [Retrieve upstream implementation evidence before coding with XERJ](skills/retrieve-upstream-implementation-evidence-before-coding-with-xerj/) | Build a focused reference corpus, retrieve implementation passages with file-and-line citations, and check license constraints before adapting unfamiliar... | 17.2k | Developer Tools |
-| [Annotate Classical Chinese corpora with HanLP](skills/annotate-classical-chinese-corpora-with-hanlp/) | Produce reviewable token, lemma, POS and dependency annotations for Classical Chinese passages with HanLP’s dedicated Ancient Chinese model | 36.5k | Data Extraction & Transformation |
+| [Run reproducible document-parser evaluations with the OmniDocBench skill](skills/run-reproducible-document-parser-evaluations-with-omnidocbench-skill/) | Validate parser predictions, run OmniDocBench evaluations, and report formula, table, text, and reading-order scores with runtime diagnostics | 2.1k | Data Extraction & Transformation |
 | [Compare UI design directions and refine the selected page with Oil UI](skills/compare-ui-design-directions-and-refine-the-selected-page-with-oil-ui/) | Create distinct first-screen designs, compare them in one page, then refine the chosen direction against desktop and mobile... | 2.1k | Image & Creative Automation |
 
 ---
