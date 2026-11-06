@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-06
-# Total: 3198 skills
+# Total: 3199 skills
+
+## Compare retriever rankings on fixed relevance datasets with BEIR
+slug: compare-retriever-rankings-on-fixed-relevance-datasets-with-beir
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Compare baseline and candidate retrievers on the same labeled dataset, then hand off ranking metrics, saved runs and query-level regressions before a RAG retrieval…
+url: https://agentskillexchange.com/skills/compare-retriever-rankings-on-fixed-relevance-datasets-with-beir/
 
 ## Triage Lunora deployment errors and migration status through MCP
 slug: triage-lunora-deployment-errors-and-migration-status-through-mcp

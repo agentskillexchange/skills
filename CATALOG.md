@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3198 published skills** across **17 categories** · 2,621 security reviewed · Updated 2026-11-06 13:26 UTC
+> **3199 published skills** across **17 categories** · 2,621 security reviewed · Updated 2026-11-06 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -828,7 +828,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown,… | Published | — | — |
 
 
-### 🔒 Security & Verification (257 skills)
+### 🔒 Security & Verification (258 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -980,6 +980,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Bearer CLI SAST Code Security and Privacy Scanner](skills/bearer-cli-sast-code-security-privacy-scanner/) | Bearer CLI is an open-source static application security testing (SAST) tool that scans source code to identify,… | Security Reviewed | 2.6k | — |
 | [KICS IaC Linter](skills/kics-iac-linter/) | KICS IaC Linter is built around Kubernetes orchestration platform. The underlying ecosystem is represented by… | Published | 2.6k | — |
 | [Snyk Agent Scan](skills/snyk-agent-scan/) | Scan your AI agents, MCP servers, and skills for security vulnerabilities from the command line. Snyk Agent Scan… | Security Reviewed | 2.5k | — |
+| [Compare retriever rankings on fixed relevance datasets with BEIR](skills/compare-retriever-rankings-on-fixed-relevance-datasets-with-beir/) | Compare baseline and candidate retrievers on the same labeled dataset, then hand off ranking metrics, saved runs and… | Security Reviewed | 2.3k | — |
 | [Inspect binary hardening flags and exploit mitigations with checksec](skills/inspect-binary-hardening-flags-and-exploit-mitigations-with-checksec/) | Check ELF or PE binaries for hardening gaps like NX, PIE, RELRO, stack canaries, and Fortify before release or… | Published | 2.3k | — |
 | [Gate Rust dependency trees on license, advisory, and source-policy violations before merge with cargo-deny](skills/gate-rust-dependency-trees-on-license-advisory-and-source-policy-violations-before-merge-with-cargo-deny/) | Use cargo-deny when an agent needs to enforce Rust dependency policy before merge by checking advisories, licenses,… | Security Reviewed | 2.3k | 3.3M/wk |
 | [Audit AWS IAM policies for risky permissions with Cloudsplaining](skills/audit-aws-iam-policies-for-risky-permissions-with-cloudsplaining/) | Use Cloudsplaining when an agent needs to flag privilege-escalation paths and overbroad IAM permissions before an… | Security Reviewed | 2.2k | — |

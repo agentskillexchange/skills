@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-06",
-  "total": 3198,
+  "total": 3199,
   "skills": [
+    {
+      "slug": "compare-retriever-rankings-on-fixed-relevance-datasets-with-beir",
+      "name": "Compare retriever rankings on fixed relevance datasets with BEIR",
+      "title": "Compare retriever rankings on fixed relevance datasets with BEIR",
+      "description": "Compare baseline and candidate retrievers on the same labeled dataset, then hand off ranking metrics, saved runs and query-level regressions before a RAG retrieval…",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/beir-cellar/beir/blob/ef83d29307061c65d04b035b4f4e7c18bd8374af/README.md",
+      "github_repo": "beir-cellar/beir"
+    },
     {
       "slug": "triage-lunora-deployment-errors-and-migration-status-through-mcp",
       "name": "Triage Lunora deployment errors and migration status through MCP",
