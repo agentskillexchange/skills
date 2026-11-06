@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-06
-# Total: 3197 skills
+# Total: 3198 skills
+
+## Triage Lunora deployment errors and migration status through MCP
+slug: triage-lunora-deployment-errors-and-migration-status-through-mcp
+category: Runbooks & Diagnostics
+framework: MCP
+verification: Security Reviewed
+description: Inspect Lunora logs, grouped errors, query performance and pending migrations through MCP, then return a scoped incident handoff without changing the deployment.
+url: https://agentskillexchange.com/skills/triage-lunora-deployment-errors-and-migration-status-through-mcp/
 
 ## Arcmira: YouTube Transcript Search
 slug: arcmira-transcript-search

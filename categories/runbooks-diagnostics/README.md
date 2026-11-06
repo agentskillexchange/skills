@@ -187,6 +187,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Benchmark virtual agents with scripted multi-turn conversations using Agent Evaluation](../../skills/benchmark-virtual-agents-with-scripted-multi-turn-conversations-using-agent-evaluation/) | 358 | — |
 | [Orchestrate database backup, restore, retention, and failure-notification runbooks through Databasement](../../skills/orchestrate-database-backup-restore-retention-and-failure-notification-runbooks-through-databasement/) | 315 | — |
 | [Benchmark IT automation agents on realistic SRE, CISO, and FinOps scenarios with ITBench](../../skills/benchmark-it-automation-agents-on-realistic-sre-ciso-and-finops-scenarios-with-itbench/) | 308 | — |
+| [Triage Lunora deployment errors and migration status through MCP](../../skills/triage-lunora-deployment-errors-and-migration-status-through-mcp/) | 293 | 6.2k/wk |
 | [Benchmark agent memory and RAG systems with MemoryBench](../../skills/benchmark-agent-memory-and-rag-systems-with-memorybench/) | 293 | — |
 | [Audit Codex session duplicates and retry chains with AgentMeasure](../../skills/audit-codex-session-duplicates-and-retry-chains-with-agentmeasure/) | 218 | — |
 | [Review SQL Server execution plans through an MCP-compatible analysis workflow with Performance Studio](../../skills/review-sql-server-execution-plans-through-an-mcp-compatible-analysis-workflow-with-performance-studio/) | 175 | — |

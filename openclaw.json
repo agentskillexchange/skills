@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-06",
-  "total": 3197,
+  "total": 3198,
   "skills": [
+    {
+      "slug": "triage-lunora-deployment-errors-and-migration-status-through-mcp",
+      "name": "Triage Lunora deployment errors and migration status through MCP",
+      "title": "Triage Lunora deployment errors and migration status through MCP",
+      "description": "Inspect Lunora logs, grouped errors, query performance and pending migrations through MCP, then return a scoped incident handoff without changing the deployment.",
+      "category": "Runbooks & Diagnostics",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/anolilab/lunora/blob/6a5ea6cb971236545c5281bc00b910ef9f700f29/packages/mcp/README.md",
+      "github_repo": "anolilab/lunora"
+    },
     {
       "slug": "arcmira-transcript-search",
       "name": "Arcmira: YouTube Transcript Search",

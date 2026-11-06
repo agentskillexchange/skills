@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3197 published skills** across **17 categories** · 2,620 security reviewed · Updated 2026-11-06 01:26 UTC
+> **3198 published skills** across **17 categories** · 2,620 security reviewed · Updated 2026-11-06 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1957,7 +1957,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (184 skills)
+### 📋 Runbooks & Diagnostics (185 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -2110,6 +2110,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Benchmark virtual agents with scripted multi-turn conversations using Agent Evaluation](skills/benchmark-virtual-agents-with-scripted-multi-turn-conversations-using-agent-evaluation/) | Run concurrent scripted conversations against a target agent to measure whether it stays on task, responds… | Published | 358 | — |
 | [Orchestrate database backup, restore, retention, and failure-notification runbooks through Databasement](skills/orchestrate-database-backup-restore-retention-and-failure-notification-runbooks-through-databasement/) | Use Databasement when an MCP-compatible agent needs to schedule database backups, supervise restore jobs, enforce… | Security Reviewed | 315 | — |
 | [Benchmark IT automation agents on realistic SRE, CISO, and FinOps scenarios with ITBench](skills/benchmark-it-automation-agents-on-realistic-sre-ciso-and-finops-scenarios-with-itbench/) | Run realistic enterprise-style IT scenarios before trusting an automation agent in production operations. | Security Reviewed | 308 | — |
+| [Triage Lunora deployment errors and migration status through MCP](skills/triage-lunora-deployment-errors-and-migration-status-through-mcp/) | Inspect Lunora logs, grouped errors, query performance and pending migrations through MCP, then return a scoped… | Security Reviewed | 293 | 6.2k/wk |
 | [Benchmark agent memory and RAG systems with MemoryBench](skills/benchmark-agent-memory-and-rag-systems-with-memorybench/) | Use MemoryBench to run repeatable conversational memory and RAG benchmarks across providers, datasets, judge models,… | Published | 293 | — |
 | [Audit Codex session duplicates and retry chains with AgentMeasure](skills/audit-codex-session-duplicates-and-retry-chains-with-agentmeasure/) | Inspect supported Codex rollout logs locally for duplicate records, retry amplification, and repeated tool failures,… | Security Reviewed | 218 | — |
 | [Review SQL Server execution plans through an MCP-compatible analysis workflow with Performance Studio](skills/review-sql-server-execution-plans-through-an-mcp-compatible-analysis-workflow-with-performance-studio/) | Use Performance Studio when an MCP-compatible agent needs to parse SQL Server .sqlplan files, surface performance… | Security Reviewed | 175 | — |
