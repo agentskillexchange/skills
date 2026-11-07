@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Run reproducible document-parser evaluations with the OmniDocBench skill](skills/run-reproducible-document-parser-evaluations-with-omnidocbench-skill/)** — Validate parser predictions, run OmniDocBench evaluations, and report formula, table, text, and reading-order scores with runtime diagnostics.
+**[Retrieve permission-scoped workplace evidence through Onyx MCP](skills/retrieve-permission-scoped-workplace-evidence-through-onyx-mcp/)** — Search an existing Onyx workspace within an explicit document-set or agent scope, then return source-linked evidence for a coding or operations task.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
