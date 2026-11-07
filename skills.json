@@ -1,8 +1,19 @@
 {
   "version": "2.0",
-  "total": 3199,
+  "total": 3200,
   "generated": "2026-11-07",
   "skills": [
+    {
+      "slug": "call-me",
+      "name": "Call or Text Your Phone from an Agent with /call-me",
+      "title": "Call or Text Your Phone from an Agent with /call-me",
+      "description": "Lets an agent call or text the user's own phone (iPhone or Android) through the /call-me remote MCP server, Claude Code plugin or REST…",
+      "category": "Integrations & Connectors",
+      "framework": "Claude Code",
+      "verification": "listed",
+      "source_url": "https://github.com/radres/call-me",
+      "github_repo": "radres/call-me"
+    },
     {
       "slug": "compare-retriever-rankings-on-fixed-relevance-datasets-with-beir",
       "name": "Compare retriever rankings on fixed relevance datasets with BEIR",

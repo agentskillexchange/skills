@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-07
-# Total: 3199 skills
+# Total: 3200 skills
+
+## Call or Text Your Phone from an Agent with /call-me
+slug: call-me
+category: Integrations & Connectors
+framework: Claude Code
+verification: Published
+description: Lets an agent call or text the user's own phone (iPhone or Android) through the /call-me remote MCP server, Claude Code plugin or REST…
+url: https://agentskillexchange.com/skills/call-me/
 
 ## Compare retriever rankings on fixed relevance datasets with BEIR
 slug: compare-retriever-rankings-on-fixed-relevance-datasets-with-beir

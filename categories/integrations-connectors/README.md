@@ -215,6 +215,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Automation Integration Preflight](../../skills/automation-integration-preflight/) | — | — |
 | [BeachFinder Swim Spot Finder](../../skills/beachfinder-swim-spot-finder/) | — | — |
 | [BulkPublish Social Publishing](../../skills/bulkpublish-social-publishing/) | — | — |
+| [Call or Text Your Phone from an Agent with /call-me](../../skills/call-me/) | — | — |
 | [DocsBot Administration](../../skills/docsbot-administration/) | — | — |
 | [Famulor Assistants & Omnichannel History](../../skills/famulor-assistants-history/) | — | — |
 | [GitHub Discussions Community Digest](../../skills/github-discussions-community-digest/) | — | — |
