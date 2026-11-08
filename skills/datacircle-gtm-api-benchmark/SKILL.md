@@ -1,7 +1,7 @@
 ---
 name: "Datacircle GTM API Benchmark"
 slug: "datacircle-gtm-api-benchmark"
-description: "Find the best GTM APIs. Calls the open Datacircle API at api.datacircle.dev/v1, with no key, to list every GTM API, see which provider is best for each and search every plan by API, provider or price."
+description: "Compare GTM APIs using Datacircle rankings. Call the open API at api.datacircle.dev/v1, with no key, to list covered APIs, filter plans by API, search provider or plan names, and sort by price."
 verification: "listed"
 source: "https://api.datacircle.dev/v1/openapi.json"
 author: "Datacircle"
@@ -11,15 +11,15 @@ framework: "Custom Agents"
 
 # Datacircle GTM API Benchmark
 
-Find the best GTM APIs. Datacircle benchmarks all the GTM APIs and puts the results on its website, https://datacircle.dev. This skill lets an agent read those results over the open API at https://api.datacircle.dev/v1. The API is free and needs no key. It is read only and allows 60 calls a minute from one address.
+Compare GTM APIs using the benchmarks published by Datacircle at https://datacircle.dev. Read the covered APIs and their results over the open API at https://api.datacircle.dev/v1. The API is free and needs no key. It is read only and allows 60 calls a minute from one address.
 
-Use it when a task asks which API to pick for LinkedIn profiles, email finding, company search, web search or any other GTM data call, or what a plan costs per 1,000 results. Each plan comes with its price, its score, its rate limits and a link to the provider's docs.
+Use it when a task asks which API to pick for LinkedIn profiles, email finding, company search, web search or any other GTM data call, or what a plan costs per 1,000 results. Use available plan prices, scores, rate limits and provider documentation links. Treat missing or null fields as unknown, not zero or unlimited. Attribute rankings to Datacircle and check the provider's current pricing and docs before recommending a purchase.
 
 ## Calls
 
 - `GET /apis` lists every API on the sheet.
 - `GET /apis/{slug}/best` gives who is best for one API.
-- `GET /plans` lists every plan, filtered by API, provider or price.
+- `GET /plans` filters plans with `api`, searches provider or plan names with `query`, and sorts with `sort=score|provider|price`. Use `limit` (1–50, default 10) and `offset` to page through results; `total` counts all matching plans. Price sorting uses cost per 1,000; the spec does not define a price-range filter.
 - `GET /providers/{slug}` gives one provider's ranks.
 
 The full spec is at https://api.datacircle.dev/v1/openapi.json. Read the calls from the spec, as it is the source of truth.
@@ -27,6 +27,7 @@ The full spec is at https://api.datacircle.dev/v1/openapi.json. Read the calls f
 ```bash
 curl -s https://api.datacircle.dev/v1/apis
 curl -s https://api.datacircle.dev/v1/openapi.json
+curl -s 'https://api.datacircle.dev/v1/plans?api=linkedin-profile&query=Bridgly&sort=price&limit=1'
 ```
 
 ## Installation
@@ -35,6 +36,7 @@ curl -s https://api.datacircle.dev/v1/openapi.json
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git
+mkdir -p ~/.agent-skills
 cp -R skills/skills/datacircle-gtm-api-benchmark ~/.agent-skills/datacircle-gtm-api-benchmark
 ```
 
