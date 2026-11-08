@@ -1,7 +1,7 @@
 ---
 name: "Arcmira: YouTube Transcript Search"
 slug: "arcmira-transcript-search"
-description: "Search indexed YouTube and podcast transcripts through Arcmira MCP. Return quoted passages, speaker attribution when available, and timestamped links to the recordings."
+description: "YouTube transcript search and monitoring for your AI: exact quotes, full transcripts and speakers."
 verification: "listed"
 source: "https://github.com/arcmira/arcmira/blob/25db4091b7b959149754c5f783197885279a5c0f/skills/arcmira/SKILL.md"
 category: "Media & Transcription"
