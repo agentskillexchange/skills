@@ -2,8 +2,18 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-08",
-  "total": 3200,
+  "total": 3201,
   "skills": [
+    {
+      "slug": "datacircle-gtm-api-benchmark",
+      "name": "Datacircle GTM API Benchmark",
+      "title": "Datacircle GTM API Benchmark",
+      "description": "Compare GTM APIs using Datacircle rankings. Call the open API at api.datacircle.dev/v1, with no key, to list covered APIs, filter plans by API, search…",
+      "category": "Library & API Reference",
+      "framework": "Custom Agents",
+      "verification": "listed",
+      "source_url": "https://api.datacircle.dev/v1/openapi.json"
+    },
     {
       "slug": "call-me",
       "name": "Call or Text Your Phone from an Agent with /call-me",

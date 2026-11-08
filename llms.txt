@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-08
-# Total: 3200 skills
+# Total: 3201 skills
+
+## Datacircle GTM API Benchmark
+slug: datacircle-gtm-api-benchmark
+category: Library & API Reference
+framework: Custom Agents
+verification: Published
+description: Compare GTM APIs using Datacircle rankings. Call the open API at api.datacircle.dev/v1, with no key, to list covered APIs, filter plans by API, search…
+url: https://agentskillexchange.com/skills/datacircle-gtm-api-benchmark/
 
 ## Call or Text Your Phone from an Agent with /call-me
 slug: call-me
