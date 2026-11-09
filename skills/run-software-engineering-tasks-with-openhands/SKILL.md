@@ -12,6 +12,8 @@ framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "OpenHands/OpenHands"
   github_stars: 74226
+  npm_package: "@openhands/agent-canvas"
+  npm_weekly_downloads: 0
 ---
 
 # Run software engineering tasks with OpenHands
@@ -24,17 +26,11 @@ OpenHands runtime, model provider credentials, target repository or workspace, D
 
 ## Installation
 
-Requirements and caveats from upstream:
-- The SDK is a composable Python library that contains all of our agentic tech. It's the engine that powers everything else below.
-- The core openhands and agent-server Docker images are fully MIT-licensed as well.
+Install or set up from the source-backed instructions:
 
-Basic usage or getting-started notes:
-- Define agents in code, then run them locally, or scale to 1000s of agents in the cloud.
-- [Check out the docs](https://docs.openhands.dev/openhands/usage/run-openhands/cli-mode) or [view the source](https://github.com/OpenHands/OpenHands-CLI)
-- [Check out the docs](https://docs.openhands.dev/openhands/usage/run-openhands/local-setup) or view the source in this repo.
+Follow the official OpenHands installation path from openhands.dev or the GitHub README, start the local GUI, CLI, SDK, or hosted runtime, configure a model provider, then connect the target repository or workspace before assigning a software-engineering task.
 
 - Source: https://github.com/OpenHands/OpenHands
-- Extracted from upstream docs: https://raw.githubusercontent.com/OpenHands/OpenHands/HEAD/README.md
 
 ## Documentation
 
