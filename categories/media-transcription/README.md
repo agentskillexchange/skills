@@ -77,6 +77,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Navidrome Self-Hosted Music Streaming Server and Subsonic API](../../skills/navidrome-self-hosted-music-streaming-subsonic-api/) | 20.2k | — |
 | [Capture local screen and audio context so agents can search what happened on your device](../../skills/capture-local-screen-and-audio-context-so-agents-can-search-what-happened-on-your-device/) | 18.2k | 13.2k/wk |
 | [Record terminal demos and reproducible CLI walkthroughs with asciinema](../../skills/record-terminal-demos-and-reproducible-cli-walkthroughs-with-asciinema/) | 17.2k | — |
+| [Assemble and review local video cuts through Concat MCP](../../skills/assemble-and-review-local-video-cuts-through-concat-mcp/) | 16k | — |
 | [Beets Music Library Manager and Tagger](../../skills/beets-music-library-manager-tagger/) | 14.9k | — |
 | [PeerTube Video Publishing and Moderation API](../../skills/peertube-video-publishing-moderation-api/) | 14.6k | — |
 | [MoviePy Python Video Editing Library](../../skills/moviepy-python-video-editing-library/) | 14.5k | — |

@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-09",
-  "total": 3202,
+  "total": 3203,
   "skills": [
+    {
+      "slug": "assemble-and-review-local-video-cuts-through-concat-mcp",
+      "name": "Assemble and review local video cuts through Concat MCP",
+      "title": "Assemble and review local video cuts through Concat MCP",
+      "description": "Turn local footage and an edit brief into a Concat timeline, inspect composited frames, save the project and track export completion through MCP.",
+      "category": "Media & Transcription",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/jub0t/Concat/blob/9fcd218ba75d0f4856cc2daf36eeae906a08818d/docs/MCP.md",
+      "github_repo": "jub0t/Concat"
+    },
     {
       "slug": "build-and-resume-checked-repository-task-graphs-with-memdoor",
       "name": "Build and resume checked repository task graphs with Memdoor",

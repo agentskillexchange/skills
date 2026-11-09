@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-09
-# Total: 3202 skills
+# Total: 3203 skills
+
+## Assemble and review local video cuts through Concat MCP
+slug: assemble-and-review-local-video-cuts-through-concat-mcp
+category: Media & Transcription
+framework: MCP
+verification: Security Reviewed
+description: Turn local footage and an edit brief into a Concat timeline, inspect composited frames, save the project and track export completion through MCP.
+url: https://agentskillexchange.com/skills/assemble-and-review-local-video-cuts-through-concat-mcp/
 
 ## Build and resume checked repository task graphs with Memdoor
 slug: build-and-resume-checked-repository-task-graphs-with-memdoor
