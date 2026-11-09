@@ -104,10 +104,10 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Contributor | Skill | What it helps with | Category |
 |---|---|---|---|
+| [zealous1](https://github.com/zealous1) | [Arcmira: YouTube Transcript Search](skills/arcmira-transcript-search/) | Search indexed YouTube and podcast transcripts through Arcmira MCP. Return quoted passages, speaker attribution when available, and timestamped... | Media & Transcription |
 | [waynehamadi](https://github.com/waynehamadi) | [Datacircle GTM API Benchmark](skills/datacircle-gtm-api-benchmark/) | Compare GTM APIs using Datacircle rankings. Call the open API at api.datacircle.dev/v1, with no key, to list covered... | Library & API Reference |
 | [radres](https://github.com/radres) | [Call or Text Your Phone from an Agent with /call-me](skills/call-me/) | Lets an agent call or text the user's own phone (iPhone or Android) through the /call-me remote MCP... | Integrations & Connectors |
 | [ADWilkinson](https://github.com/ADWilkinson) | [USDCtoFiat Cash-Out](skills/usdctofiat-cashout/) | Add non-custodial Base USDC-to-fiat cash-out with @usdctofiat/offramp cashout({ mode: "fast" \| "best" }). Use when an agent must... | Integrations & Connectors |
-| [zealous1](https://github.com/zealous1) | [Arcmira: YouTube Transcript Search](skills/arcmira-transcript-search/) | Search indexed YouTube and podcast transcripts through Arcmira MCP. Return quoted passages, speaker attribution when available, and timestamped... | Media & Transcription |
 | [OathWallet](https://github.com/OathWallet) | [Oath Wallet Guide](skills/aperture-wallet-guide/) | Answer Oath Wallet questions from first-party product, security, network, release, app-screen, and Journal sources while enforcing explicit wallet-secret... | Library & API Reference |
 | [umutyesildal](https://github.com/umutyesildal) | [Berlin Job Search](skills/berlin-job-search/) | AI job-search coach for Berlin and the rest of Germany. Searches live postings (Bundesagentur für Arbeit API, Arbeitnow... | Templates & Workflows |
 | [f-o-x11](https://github.com/f-o-x11) | [Give an Agent Its Own Email Inbox with Cooper Email](skills/cooper-email/) | Gives an AI agent its own email inbox at username@cooperemail.com through the Cooper Email REST API or remote... | Calendar, Email & Productivity |
