@@ -256,6 +256,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Manage native GitHub stacked pull requests with gh-stack](../../skills/manage-native-github-stacked-pull-requests-with-gh-stack/) | 401 | — |
 | [Constrain coding-agent over-defense with HERO](../../skills/constrain-coding-agent-over-defense-with-hero/) | 397 | — |
 | [Build event-driven document agent workflows with LlamaAgents](../../skills/build-event-driven-document-agent-workflows-with-llamaagents/) | 389 | — |
+| [Build and resume checked repository task graphs with Memdoor](../../skills/build-and-resume-checked-repository-task-graphs-with-memdoor/) | 382 | — |
 | [Evaluate long-horizon agents against WildClawBench](../../skills/evaluate-long-horizon-agents-against-wildclawbench/) | 359 | — |
 | [Makedown Task Runner](../../skills/makedown-task-runner/) | 319 | — |
 | [Run RFC-driven product planning with AI PRD Workflow before agents code](../../skills/run-rfc-driven-product-planning-with-ai-prd-workflow-before-agents-code/) | 298 | — |

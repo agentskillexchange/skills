@@ -1,8 +1,19 @@
 {
   "version": "2.0",
-  "total": 3201,
-  "generated": "2026-11-08",
+  "total": 3202,
+  "generated": "2026-11-09",
   "skills": [
+    {
+      "slug": "build-and-resume-checked-repository-task-graphs-with-memdoor",
+      "name": "Build and resume checked repository task graphs with Memdoor",
+      "title": "Build and resume checked repository task graphs with Memdoor",
+      "description": "Turn a repository procedure into Memdoor YAML tasks with explicit dependencies, completion checks, human approval gates and resumable run evidence.",
+      "category": "Templates & Workflows",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/guregodevo/memdoor/blob/d0068b230f6e7c2f826b1c73e81e34a50a7b0f7a/skills/workflow.md",
+      "github_repo": "guregodevo/memdoor"
+    },
     {
       "slug": "datacircle-gtm-api-benchmark",
       "name": "Datacircle GTM API Benchmark",

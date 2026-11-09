@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-11-08
-# Total: 3201 skills
+# Generated: 2026-11-09
+# Total: 3202 skills
+
+## Build and resume checked repository task graphs with Memdoor
+slug: build-and-resume-checked-repository-task-graphs-with-memdoor
+category: Templates & Workflows
+framework: Custom Agents
+verification: Security Reviewed
+description: Turn a repository procedure into Memdoor YAML tasks with explicit dependencies, completion checks, human approval gates and resumable run evidence.
+url: https://agentskillexchange.com/skills/build-and-resume-checked-repository-task-graphs-with-memdoor/
 
 ## Datacircle GTM API Benchmark
 slug: datacircle-gtm-api-benchmark

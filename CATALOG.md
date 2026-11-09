@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3201 published skills** across **17 categories** · 2,622 security reviewed · Updated 2026-11-08 19:26 UTC
+> **3202 published skills** across **17 categories** · 2,622 security reviewed · Updated 2026-11-09 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -552,7 +552,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Zinc Universal Checkout](skills/zinc-universal-checkout/) | Discover, buy, track, and return products across Amazon, Walmart, Target, Best Buy, eBay, and 50+ US retailers via… | Published | — | — |
 
 
-### 📄 Templates & Workflows (268 skills)
+### 📄 Templates & Workflows (269 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -774,6 +774,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Manage native GitHub stacked pull requests with gh-stack](skills/manage-native-github-stacked-pull-requests-with-gh-stack/) | Teach coding agents to split large changes into native GitHub stacked pull requests, keep branch layers rebased, and… | Security Reviewed | 401 | — |
 | [Constrain coding-agent over-defense with HERO](skills/constrain-coding-agent-over-defense-with-hero/) | Paste HERO's scope-limits contract into always-loaded agent config so coding agents keep fixes proportionate and… | Security Reviewed | 397 | — |
 | [Build event-driven document agent workflows with LlamaAgents](skills/build-event-driven-document-agent-workflows-with-llamaagents/) | Use LlamaAgents to define async Python workflow steps, coordinate document-centric agent pipelines, and expose those… | Security Reviewed | 389 | — |
+| [Build and resume checked repository task graphs with Memdoor](skills/build-and-resume-checked-repository-task-graphs-with-memdoor/) | Turn a repository procedure into Memdoor YAML tasks with explicit dependencies, completion checks, human approval… | Security Reviewed | 382 | — |
 | [Evaluate long-horizon agents against WildClawBench](skills/evaluate-long-horizon-agents-against-wildclawbench/) | Use WildClawBench to benchmark agents on hard end-to-end OpenClaw tasks covering tool orchestration, multimodal… | Published | 359 | — |
 | [Makedown Task Runner](skills/makedown-task-runner/) | Extracts executable task definitions from Markdown files and runs them as shell pipelines. Parses fenced code blocks… | Security Reviewed | 319 | — |
 | [Run RFC-driven product planning with AI PRD Workflow before agents code](skills/run-rfc-driven-product-planning-with-ai-prd-workflow-before-agents-code/) | Guide coding agents from idea or existing codebase through PRD, features, rules, RFCs, implementation, review, and… | Security Reviewed | 298 | — |
