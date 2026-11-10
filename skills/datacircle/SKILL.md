@@ -15,7 +15,7 @@ tool_ecosystem:
 
 # Datacircle
 
-Datacircle lists all the GTM APIs. This skill gives you every plan on datacircle.dev as one file.
+Datacircle lists all the GTM APIs. This skill gives you every plan on [datacircle.dev](https://datacircle.dev) as one file.
 
 Every GTM API we find, one row for each plan of each call: what it costs per 1,000, what it charges when it finds nothing, its rate limits, its speed and the fields it returns.
 

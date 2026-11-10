@@ -11,7 +11,7 @@ framework: "Custom Agents"
 
 # Datacircle GTM API Benchmark
 
-Compare GTM APIs using the benchmarks published by Datacircle at https://datacircle.dev. Read the covered APIs and their results over the open API at https://api.datacircle.dev/v1. The API is free and needs no key. It is read only and allows 60 calls a minute from one address.
+Compare GTM APIs using the benchmarks published by Datacircle at [datacircle.dev](https://datacircle.dev). Read the covered APIs and their results over the open API at https://api.datacircle.dev/v1. The API is free and needs no key. It is read only and allows 60 calls a minute from one address.
 
 Use it when a task asks which API to pick for LinkedIn profiles, email finding, company search, web search or any other GTM data call, or what a plan costs per 1,000 results. Use available plan prices, scores, rate limits and provider documentation links. Treat missing or null fields as unknown, not zero or unlimited. Attribute rankings to Datacircle and check the provider's current pricing and docs before recommending a purchase.
 
