@@ -1,8 +1,19 @@
 {
   "version": "2.0",
-  "total": 3203,
+  "total": 3204,
   "generated": "2026-11-10",
   "skills": [
+    {
+      "slug": "imagera-media",
+      "name": "Imagera Media Generation",
+      "title": "Imagera Media Generation",
+      "description": "Generates and edits images, video clips, voiceovers and music from a coding agent through the hosted Imagera MCP server (https://mcp.imagera.ai/mcp, Streamable HTTP, OAuth sign-in),…",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/alexadams6ix/imagera-skills",
+      "github_repo": "alexadams6ix/imagera-skills"
+    },
     {
       "slug": "assemble-and-review-local-video-cuts-through-concat-mcp",
       "name": "Assemble and review local video cuts through Concat MCP",
@@ -43,6 +54,9 @@
       "category": "Integrations & Connectors",
       "framework": "Claude Code",
       "verification": "listed",
+      "signals": {
+        "github_stars": 41
+      },
       "source_url": "https://github.com/radres/call-me",
       "github_repo": "radres/call-me"
     },

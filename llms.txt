@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-10
-# Total: 3203 skills
+# Total: 3204 skills
+
+## Imagera Media Generation
+slug: imagera-media
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Published
+description: Generates and edits images, video clips, voiceovers and music from a coding agent through the hosted Imagera MCP server (https://mcp.imagera.ai/mcp, Streamable HTTP, OAuth sign-in),…
+url: https://agentskillexchange.com/skills/imagera-media/
 
 ## Assemble and review local video cuts through Concat MCP
 slug: assemble-and-review-local-video-cuts-through-concat-mcp

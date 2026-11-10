@@ -194,6 +194,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Normalize vCard contact exports into structured contact records before CRM imports or dedup jobs](../../skills/normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs/) | 50 | — |
 | [Manage ElevenLabs agents as versioned local config files instead of hand-editing them in the dashboard with ElevenLabs CLI](../../skills/manage-elevenlabs-agents-as-versioned-local-config-files-instead-of-hand-editing-them-in-the-dashboard-with-elevenlabs-cli/) | 49 | 10.4k/wk |
 | [Calculate routes, ETAs, and place lookups inside agent planning workflows with TomTom MCP](../../skills/calculate-routes-etas-and-place-lookups-inside-agent-planning-workflows-with-tomtom-mcp/) | 45 | 356/wk |
+| [Call or Text Your Phone from an Agent with /call-me](../../skills/call-me/) | 41 | — |
 | [Retrieve Zillow-style property details and market trends through an MCP server](../../skills/retrieve-zillow-style-property-details-and-market-trends-through-an-mcp-server/) | 40 | 7/wk |
 | [HyperGrok Trading Desk](../../skills/hypergrok-trading-desk/) | 39 | 272/wk |
 | [Inspect Freshservice service-management tickets and modules through MCP](../../skills/inspect-freshservice-service-management-tickets-and-modules-through-mcp/) | 31 | — |
@@ -215,7 +216,6 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Automation Integration Preflight](../../skills/automation-integration-preflight/) | — | — |
 | [BeachFinder Swim Spot Finder](../../skills/beachfinder-swim-spot-finder/) | — | — |
 | [BulkPublish Social Publishing](../../skills/bulkpublish-social-publishing/) | — | — |
-| [Call or Text Your Phone from an Agent with /call-me](../../skills/call-me/) | — | — |
 | [DocsBot Administration](../../skills/docsbot-administration/) | — | — |
 | [Famulor Assistants & Omnichannel History](../../skills/famulor-assistants-history/) | — | — |
 | [GitHub Discussions Community Digest](../../skills/github-discussions-community-digest/) | — | — |

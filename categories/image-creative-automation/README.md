@@ -151,6 +151,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Generate Images with MuAPI](../../skills/generate-images-with-muapi/) | — | — |
 | [Generate reproducible algorithmic art sketches with seeded p5.js randomness](../../skills/generate-reproducible-algorithmic-art-sketches-with-seeded-p5js-randomness/) | — | — |
 | [Generate Slack-ready animated GIFs from custom frame sequences](../../skills/generate-slack-ready-animated-gifs-from-custom-frame-sequences/) | — | — |
+| [Imagera Media Generation](../../skills/imagera-media/) | — | — |
 | [ImagineVid AI Generation](../../skills/imaginevid-ai-generation/) | — | — |
 | [Midjourney Prompt Chain Builder](../../skills/midjourney-prompt-chain-builder/) | — | — |
 | [Midjourney Prompt Engineering Suite](../../skills/midjourney-prompt-engineering-suite/) | — | — |

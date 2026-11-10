@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3203 published skills** across **17 categories** · 2,623 security reviewed · Updated 2026-11-10 01:26 UTC
+> **3204 published skills** across **17 categories** · 2,623 security reviewed · Updated 2026-11-10 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1922,6 +1922,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Normalize vCard contact exports into structured contact records before CRM imports or dedup jobs](skills/normalize-vcard-contact-exports-into-structured-contact-records-before-crm-imports-or-dedup-jobs/) | Use vobject when an agent receives .vcf contact exports and needs reliable parsing into names, emails, phone… | Security Reviewed | 50 | — |
 | [Manage ElevenLabs agents as versioned local config files instead of hand-editing them in the dashboard with ElevenLabs CLI](skills/manage-elevenlabs-agents-as-versioned-local-config-files-instead-of-hand-editing-them-in-the-dashboard-with-elevenlabs-cli/) | Initialize, authenticate, and edit ElevenLabs agent configs from local files when you want agent definitions in code… | Security Reviewed | 49 | 10.4k/wk |
 | [Calculate routes, ETAs, and place lookups inside agent planning workflows with TomTom MCP](skills/calculate-routes-etas-and-place-lookups-inside-agent-planning-workflows-with-tomtom-mcp/) | Gives an MCP-compatible agent structured place search, geocoding, routing, ETA, traffic, and map lookups so travel,… | Security Reviewed | 45 | 356/wk |
+| [Call or Text Your Phone from an Agent with /call-me](skills/call-me/) | Lets an agent call or text the user's own phone (iPhone or Android) through the /call-me remote MCP server, Claude… | Published | 41 | — |
 | [Retrieve Zillow-style property details and market trends through an MCP server](skills/retrieve-zillow-style-property-details-and-market-trends-through-an-mcp-server/) | Run supervised property-detail and market-trend lookups from an MCP client while checking data-source terms before use. | Security Reviewed | 40 | 7/wk |
 | [HyperGrok Trading Desk](skills/hypergrok-trading-desk/) | Turn Claude Code, Cursor, or Grok Bot into a 7-role Hyperliquid trading desk. Sixteen SKILL.md skills plus seven… | Published | 39 | 272/wk |
 | [Inspect Freshservice service-management tickets and modules through MCP](skills/inspect-freshservice-service-management-tickets-and-modules-through-mcp/) | Connect Freshservice modules to MCP clients for supervised IT service-management ticket lookup and support-ops… | Security Reviewed | 31 | — |
@@ -1943,7 +1944,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Automation Integration Preflight](skills/automation-integration-preflight/) | Assess a public HTTP(S) page before building browser automation, extraction, or an integration. Use this skill to… | Published | — | — |
 | [BeachFinder Swim Spot Finder](skills/beachfinder-swim-spot-finder/) | Finds and compares 184,900 swimming spots worldwide (beaches, lakes, bathing places) with live water temperature,… | Published | — | — |
 | [BulkPublish Social Publishing](skills/bulkpublish-social-publishing/) | Adapt, review, schedule, and publish approved social content across multiple platforms through the BulkPublish API… | Published | — | — |
-| [Call or Text Your Phone from an Agent with /call-me](skills/call-me/) | Lets an agent call or text the user's own phone (iPhone or Android) through the /call-me remote MCP server, Claude… | Published | — | — |
 | [DocsBot Administration](skills/docsbot-administration/) | Administer DocsBot bots, knowledge sources, teams, and reporting through named MCP tools with browser OAuth and live… | Published | — | — |
 | [Famulor Assistants & Omnichannel History](skills/famulor-assistants-history/) | Use Famulor's OAuth-secured, read-only MCP profile to inspect assistant configurations, versions, workspace… | Published | — | — |
 | [GitHub Discussions Community Digest](skills/github-discussions-community-digest/) | Queries GitHub GraphQL API for new and unanswered Discussions, ranks them by reaction count and recency, and drafts… | Security Reviewed | — | — |
@@ -2889,7 +2889,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Verify local web apps with Playwright scripts and managed dev servers](skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | Use Anthropic's webapp-testing skill to spin up one or more local servers, wait for them to become reachable, and… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (121 skills)
+### 🎨 Image & Creative Automation (122 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -3006,6 +3006,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Generate Images with MuAPI](skills/generate-images-with-muapi/) | Discovers current MuAPI image models, builds a model-specific request, and validates asynchronous image artifacts.… | Published | — | — |
 | [Generate reproducible algorithmic art sketches with seeded p5.js randomness](skills/generate-reproducible-algorithmic-art-sketches-with-seeded-p5js-randomness/) | Use the Anthropic algorithmic-art skill when an agent should turn a creative brief into executable generative art,… | Security Reviewed | — | — |
 | [Generate Slack-ready animated GIFs from custom frame sequences](skills/generate-slack-ready-animated-gifs-from-custom-frame-sequences/) | Use Anthropic's slack-gif-creator skill to build animated GIFs that stay inside Slack's practical size, duration,… | Security Reviewed | — | — |
+| [Imagera Media Generation](skills/imagera-media/) | Generates and edits images, video clips, voiceovers and music from a coding agent through the hosted Imagera MCP… | Published | — | — |
 | [ImagineVid AI Generation](skills/imaginevid-ai-generation/) | Use ImagineVid's OAuth-protected MCP and CLI tools to discover and safely run current image, video, and music… | Published | — | — |
 | [Midjourney Prompt Chain Builder](skills/midjourney-prompt-chain-builder/) | Constructs and manages Midjourney prompt chains for iterative image refinement. Automates parameter tuning for --ar,… | Published | — | — |
 | [Midjourney Prompt Engineering Suite](skills/midjourney-prompt-engineering-suite/) | Generates and optimizes Midjourney prompts using the Midjourney API with automatic parameter tuning for aspect… | Published | — | — |

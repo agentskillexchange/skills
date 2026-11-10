@@ -1,6 +1,6 @@
 # Categories
 
-> **3203 skills** across **17 categories**
+> **3204 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -17,7 +17,7 @@
 | 📚 | [**Library & API Reference**](library-api-reference/) | **134** | SDK documentation, API guides, framework reference material, and libr... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **130** | Email automation, calendar management, task coordination, and product... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **128** | Web scraping, UI testing, headless browser control, and browser-based... |
-| 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **121** | Image generation, asset processing, design automation, and creative t... |
+| 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **122** | Image generation, asset processing, design automation, and creative t... |
 | 🎙️ | [**Media & Transcription**](media-transcription/) | **112** | Audio/video processing, speech-to-text, media conversion, and transcr... |
 | ✍️ | [**Content Writing & SEO**](content-writing-seo/) | **98** | Blog posts, SEO optimization, content strategy, and writing assistance. |
 | 📰 | [**WordPress & CMS**](wordpress-cms/) | **96** | Theme/plugin development, WP-CLI automation, CMS management, and Word... |
