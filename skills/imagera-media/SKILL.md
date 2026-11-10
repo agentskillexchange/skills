@@ -6,6 +6,7 @@ category: Image & Creative Automation
 framework: Multi-Framework
 verification: listed
 source: https://github.com/alexadams6ix/imagera-skills
+author: Imagera
 tool_ecosystem:
   tool: imagera
   github_repo: alexadams6ix/imagera-skills
