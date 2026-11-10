@@ -1,17 +1,14 @@
 ---
-name: Imagera Media Generation
-slug: imagera-media
-description: Generates and edits images, video clips, voiceovers and music from a coding agent through the hosted Imagera MCP server (https://mcp.imagera.ai/mcp, Streamable HTTP, OAuth sign-in), quoting the credit cost with estimate_cost and waiting for approval before each paid call, then saving the files into the project.
-category: Image & Creative Automation
-framework: Multi-Framework
-verification: listed
-source: https://github.com/alexadams6ix/imagera-skills
-author: Imagera
+name: "Imagera Media Generation"
+slug: "imagera-media"
+description: "Generates and edits images, video clips, voiceovers and music from a coding agent through the hosted Imagera MCP server (https://mcp.imagera.ai/mcp, Streamable HTTP, OAuth sign-in), quoting the credit cost with estimate_cost and waiting for approval before each paid call, then saving the files into the project."
+verification: "listed"
+source: "https://github.com/alexadams6ix/imagera-skills"
+author: "Imagera"
+category: "Image & Creative Automation"
+framework: "Multi-Framework"
 tool_ecosystem:
-  tool: imagera
-  github_repo: alexadams6ix/imagera-skills
-  license: MIT
-  maintained: true
+  github_repo: "alexadams6ix/imagera-skills"
 ---
 
 # Imagera Media Generation

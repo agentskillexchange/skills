@@ -2,13 +2,16 @@
 name: "Call or Text Your Phone from an Agent with /call-me"
 slug: "call-me"
 description: "Lets an agent call or text the user's own phone (iPhone or Android) through the /call-me remote MCP server, Claude Code plugin or REST API. The phone rings with a native call screen, the agent's text is read aloud, and the user's spoken answer comes back as a transcript. Use it when an unattended run reaches a decision it cannot make alone, when the user asks to be called or texted, or when a spoken status update or summary is wanted."
+github_stars: 41
 verification: "listed"
 source: "https://github.com/radres/call-me"
+author: "Serdar Oztetik"
 publisher_type: "vendor"
 category: "Integrations & Connectors"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "radres/call-me"
+  github_stars: 41
 ---
 
 # Call or Text Your Phone from an Agent with /call-me
@@ -19,32 +22,9 @@ The hosted remote MCP server speaks Streamable HTTP at `https://callmemcp.com/mc
 
 ## Installation
 
-### Claude Code (plugin: skill plus MCP channel)
+Install or set up from the source-backed instructions:
 
-```bash
-claude plugin marketplace add radres/call-me
-claude plugin install call-me@call-me
-claude plugin enable call-me@call-me
-```
-
-`install` leaves the plugin disabled, so the `enable` line is required. Then restart Claude Code.
-
-### Any MCP client
-
-Point the client at `https://callmemcp.com/mcp` (Streamable HTTP). For Claude Code without the plugin:
-
-```bash
-claude mcp add --transport http call-me https://callmemcp.com/mcp
-```
-
-Pass the user's number as `to` in `call` and `text`.
-
-### Direct repo/manual install
-
-```bash
-git clone --depth 1 https://github.com/radres/call-me /tmp/call-me
-mkdir -p ~/.claude/skills && cp -R /tmp/call-me/skill ~/.claude/skills/call-me
-```
+Install the callme app on iPhone or Android, open it, and tap Agree & Continue to obtain your callme number. For Claude Code, connect with: claude mcp add --transport http call-me https://callmemcp.com/mcp
 
 - Source: https://github.com/radres/call-me
 
