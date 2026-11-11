@@ -43,10 +43,10 @@ The no-account trial allows 25 calls per day per IP address. Registered Free acc
 
 ## Installation
 
-Install this submitted copy from its public PR branch; it is not a catalog release or a stable package installer. Configure the MCP endpoint separately as described above.
+Install this skill from the Agent Skill Exchange catalog. Configure the MCP endpoint separately as described above.
 
 ```bash
-git clone --depth 1 --branch codex/invokely-statistics-ase https://github.com/estevecastells/skills.git /tmp/invokely-statistics-ase
+git clone --depth 1 https://github.com/agentskillexchange/skills.git /tmp/ase-invokely-statistics
 mkdir -p ~/.agent-skills
-cp -R /tmp/invokely-statistics-ase/skills/invokely-statistics ~/.agent-skills/
+cp -R /tmp/ase-invokely-statistics/skills/invokely-statistics ~/.agent-skills/
 ```
