@@ -12,7 +12,7 @@ tool_ecosystem:
   github_repo: "pulumi/pulumi"
   github_stars: 25248
   npm_package: "@pulumi/pulumi"
-  npm_weekly_downloads: 5079402
+  npm_weekly_downloads: 5066248
 ---
 
 # Pulumi MCP Server
