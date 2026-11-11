@@ -217,6 +217,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Ground React UI edits in project components and tokens with the Onsystem skill](../../skills/ground-react-ui-edits-in-project-components-and-tokens-with-onsystem-skill/) | 165 | 1.5k/wk |
 | [Serve codebase impact context to agents with Trace MCP](../../skills/serve-codebase-impact-context-to-agents-with-trace-mcp/) | 154 | 6.6k/wk |
 | [Run senior engineering workflows in Claude Code with Senior Engineering Partner](../../skills/run-senior-engineering-workflows-in-claude-code-with-senior-engineering-partner/) | 152 | — |
+| [Record and replay FrontMCP calls to catch server regressions](../../skills/record-and-replay-frontmcp-calls-to-catch-server-regressions/) | 151 | 5.5k/wk |
 | [Regression-test coding agents and skills with Coder Eval](../../skills/regression-test-coding-agents-and-skills-with-coder-eval/) | 151 | — |
 | [Catch benchmark regressions in pull requests before slowdowns ship with CodSpeed](../../skills/catch-benchmark-regressions-in-pull-requests-before-slowdowns-ship-with-codspeed/) | 143 | 234.6k/wk |
 | [Run multi-agent code review rounds with structured reviewer discourse before human approval](../../skills/run-multi-agent-code-review-rounds-with-structured-reviewer-discourse-before-human-approval/) | 131 | 1.1k/wk |

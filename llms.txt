@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-11
-# Total: 3205 skills
+# Total: 3206 skills
+
+## Record and replay FrontMCP calls to catch server regressions
+slug: record-and-replay-frontmcp-calls-to-catch-server-regressions
+category: Code Quality & Review
+framework: MCP
+verification: Security Reviewed
+description: Capture baseline MCP calls as JSONL, replay them against a changed FrontMCP server, and review answer differences and new or resolved errors before accepting…
+url: https://agentskillexchange.com/skills/record-and-replay-frontmcp-calls-to-catch-server-regressions/
 
 ## Invokely Statistics
 slug: invokely-statistics

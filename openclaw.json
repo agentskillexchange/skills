@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-11",
-  "total": 3205,
+  "total": 3206,
   "skills": [
+    {
+      "slug": "record-and-replay-frontmcp-calls-to-catch-server-regressions",
+      "name": "Record and replay FrontMCP calls to catch server regressions",
+      "title": "Record and replay FrontMCP calls to catch server regressions",
+      "description": "Capture baseline MCP calls as JSONL, replay them against a changed FrontMCP server, and review answer differences and new or resolved errors before accepting…",
+      "category": "Code Quality & Review",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/agentfront/frontmcp/blob/a5810ef05dbdcc3878c6a6ae6e6a7bf436bab813/libs/skills/catalog/frontmcp-testing/references/replay-calls.md",
+      "github_repo": "agentfront/frontmcp"
+    },
     {
       "slug": "invokely-statistics",
       "name": "Invokely Statistics",
