@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3204 published skills** across **17 categories** · 2,623 security reviewed · Updated 2026-11-11 01:26 UTC
+> **3204 published skills** across **17 categories** · 2,623 security reviewed · Updated 2026-11-11 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -501,7 +501,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Use Superpowers Symfony for Claude Code Symfony workflows](skills/use-superpowers-symfony-for-claude-code-symfony-workflows/) | Install a Claude Code plugin that gives agents repeatable Symfony, Doctrine, API Platform, Messenger, security, TDD,… | Security Reviewed | 186 | — |
 | [Meilisearch MCP Server for AI-Powered Search Integration](skills/meilisearch-mcp-server-ai-search/) | Official Model Context Protocol server that connects LLMs to Meilisearch for lightning-fast search, index… | Security Reviewed | 181 | — |
 | [Coordinate project-scoped CLI agent sessions with Termio](skills/coordinate-project-scoped-cli-agent-sessions-with-termio/) | Use Termio's `termio sessions` CLI to list, watch, spawn, send to, read, and close sibling coding-agent sessions in… | Security Reviewed | 180 | — |
-| [Compress repeated agent context and command output before it reaches coding agents with sqz](skills/compress-repeated-agent-context-and-command-output-before-it-reaches-coding-agents-with-sqz/) | Reduces token burn by compressing command output and deduplicating repeated file reads before they are sent to… | Published | 165 | — |
+| [Compress repeated agent context and command output before it reaches coding agents with sqz](skills/compress-repeated-agent-context-and-command-output-before-it-reaches-coding-agents-with-sqz/) | Reduces token burn by compressing command output and deduplicating repeated file reads before they are sent to… | Published | 165 | 68/wk |
 | [Deploy a private local agent stack with Self-Hosted AI Stack](skills/deploy-private-local-agent-stack-with-self-hosted-ai-stack/) | Stand up a local-first Docker Compose backend for agent work: LLM routing, chat, document parsing, embeddings,… | Security Reviewed | 163 | — |
 | [Plan and verify parallel coding-agent tasks with Ordewell](skills/plan-and-verify-parallel-coding-agent-tasks-with-ordewell/) | Use Ordewell when an operator wants one goal turned into an editable dependency graph of coding-agent tasks, each… | Security Reviewed | 162 | 710/wk |
 | [Control coding-agent terminals remotely with 9Remote](skills/control-coding-agent-terminals-remotely-with-9remote/) | Run and supervise Claude Code, Codex, Gemini CLI, and other terminal agents from a browser, desktop app, tablet, or… | Security Reviewed | 161 | 12.6k/wk |

@@ -11297,7 +11297,8 @@
       "framework": "Multi-Framework",
       "verification": "listed",
       "signals": {
-        "github_stars": 165
+        "github_stars": 165,
+        "npm_weekly_downloads": 68
       },
       "source_url": "https://github.com/ojuschugh1/sqz",
       "github_repo": "ojuschugh1/sqz"
