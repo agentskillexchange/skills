@@ -151,7 +151,7 @@ Metrics collection, alerting rules, observability setup, and system monitoring.
 | [Lint and validate Prometheus alerting rules before noisy or broken alerts reach production with Pint](../../skills/lint-and-validate-prometheus-alerting-rules-before-noisy-or-broken-alerts-reach-production-with-pint/) | 1k | — |
 | [LangSmith SDK for LLM Tracing and Evaluation](../../skills/langsmith-sdk-for-llm-tracing-and-evaluation/) | 843 | 5.4M/wk |
 | [Monitor Claude Code sessions and tool activity with Claude Code Agent Monitor](../../skills/monitor-claude-code-sessions-and-tool-activity-with-claude-code-agent-monitor/) | 815 | — |
-| [Datadog MCP Server](../../skills/datadog-mcp-server/) | 811 | 14.7M/wk |
+| [Datadog MCP Server](../../skills/datadog-mcp-server/) | 811 | 14.6M/wk |
 | [Datadog Anomaly Alert Router](../../skills/datadog-anomaly-alert-router/) | 791 | 6.6M/wk |
 | [Datadog Anomaly Detection Agent](../../skills/datadog-anomaly-detection-agent-2/) | 791 | 6.6M/wk |
 | [Datadog Anomaly Detector](../../skills/datadog-anomaly-detector/) | 791 | 6.6M/wk |

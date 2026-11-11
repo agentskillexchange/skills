@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-11
-# Total: 3204 skills
+# Total: 3205 skills
+
+## Invokely Statistics
+slug: invokely-statistics
+category: Data Extraction & Transformation
+framework: MCP
+verification: Published
+description: Use Invokely's hosted MCP tools to find and cite official statistics. Use when an agent needs indicator discovery, place resolution, values, time series, comparisons,…
+url: https://agentskillexchange.com/skills/invokely-statistics/
 
 ## Imagera Media Generation
 slug: imagera-media

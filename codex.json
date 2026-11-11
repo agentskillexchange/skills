@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-11",
-  "total": 3204,
+  "total": 3205,
   "skills": [
+    {
+      "slug": "invokely-statistics",
+      "name": "Invokely Statistics",
+      "title": "Invokely Statistics",
+      "description": "Use Invokely's hosted MCP tools to find and cite official statistics. Use when an agent needs indicator discovery, place resolution, values, time series, comparisons,…",
+      "category": "Data Extraction & Transformation",
+      "framework": "MCP",
+      "verification": "listed",
+      "source_url": "https://github.com/estevecastells/awesome-copilot",
+      "github_repo": "estevecastells/awesome-copilot"
+    },
     {
       "slug": "imagera-media",
       "name": "Imagera Media Generation",

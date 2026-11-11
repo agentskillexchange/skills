@@ -269,6 +269,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Process, redact, OCR, and sign documents with Nutrient Agent Skill](../../skills/process-redact-ocr-and-sign-documents-with-nutrient-agent-skill/) | 5 | — |
 | [Convert HTML emails and web fragments into clean plain text for downstream agents](../../skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/) | — | 8.2M/wk |
 | [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | — | — |
+| [Invokely Statistics](../../skills/invokely-statistics/) | — | — |
 | [Live Search Console Data](../../skills/live-search-console-data/) | — | — |
 | [looot Business Data Lookups Over MCP](../../skills/looot-business-data-lookups-over-mcp/) | — | — |
 | [Metabase Dashboard Snapshot & Alerting](../../skills/metabase-dashboard-snapshot-alerting-2/) | — | — |
