@@ -2,10 +2,12 @@
 name: "Prompt Optimizer"
 slug: "prompt-optimizer-skill"
 description: "Turns a rough request or an existing prompt into one copy-ready prompt for any AI agent that can load Skills (or as pasted custom instructions). Keeps the user's wording verbatim, keeps its own additions subordinate, never invents missing facts, and replies in the user's language. It only rewrites the prompt and does not do the task. Invoked automatically only when a request is clearly vague or missing key information, or when the user explicitly asks to optimize or review a prompt."
+verification: "listed"
+source: "https://github.com/Samuel-Shek/prompt-optimizer-skill"
 category: "Templates & Workflows"
 framework: "Custom Agents"
-verification: listed
-source: "https://github.com/Samuel-Shek/prompt-optimizer-skill"
+tool_ecosystem:
+  github_repo: "samuel-shek/prompt-optimizer-skill"
 ---
 
 # Prompt Optimizer
