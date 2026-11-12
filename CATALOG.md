@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3206 published skills** across **17 categories** · 2,625 security reviewed · Updated 2026-11-11 19:26 UTC
+> **3207 published skills** across **17 categories** · 2,625 security reviewed · Updated 2026-11-12 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -2326,7 +2326,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Published | — | — |
 
 
-### 🔍 Research & Scraping (141 skills)
+### 🔍 Research & Scraping (142 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -2383,6 +2383,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Turn a research idea into a draft paper workflow with AutoResearchClaw](skills/turn-a-research-idea-into-a-draft-paper-workflow-with-autoresearchclaw/) | Use AutoResearchClaw when an agent should turn a raw research topic into literature review, experiment planning,… | Security Reviewed | 11.5k | — |
 | [Run configurable multi-source deep research passes with Open Deep Research](skills/run-configurable-multi-source-deep-research-passes-with-open-deep-research/) | Use Open Deep Research when an agent should run a configurable research job that searches, compresses, synthesizes,… | Security Reviewed | 11.1k | — |
 | [linkding Self-Hosted Bookmark Manager with REST API](skills/linkding-self-hosted-bookmark-manager-rest-api/) | linkding is a minimal, fast, self-hosted bookmark manager with a full REST API, tag-based organization, automatic… | Security Reviewed | 10.4k | — |
+| [Learn and reuse route-specific extraction selectors with Crawlee Python](skills/learn-and-reuse-route-specific-extraction-selectors-with-crawlee-python/) | Learn CSS selectors once per page route, persist them across Crawlee Python runs, and extract validated records with… | Security Reviewed | 9.7k | — |
 | [Search PDFs, Office files, ebooks, and archives with one query before manual review](skills/search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review/) | Uses ripgrep-all to run one full-text search across mixed document and archive formats so an agent can find evidence… | Security Reviewed | 9.6k | — |
 | [Serve production agentic RAG through R2R](skills/serve-production-agentic-rag-through-r2r/) | Ingest documents, expose hybrid retrieval and agentic RAG APIs, and give agents a production retrieval service with… | Published | 7.9k | 3.5k/wk |
 | [Run local deep research workflows with Local Deep Research](skills/run-local-deep-research-workflows-with-local-deep-research/) | Use Local Deep Research to run private agentic research passes across web, academic, and local document sources with… | Security Reviewed | 7.9k | — |

@@ -91,6 +91,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Turn a research idea into a draft paper workflow with AutoResearchClaw](../../skills/turn-a-research-idea-into-a-draft-paper-workflow-with-autoresearchclaw/) | 11.5k | — |
 | [Run configurable multi-source deep research passes with Open Deep Research](../../skills/run-configurable-multi-source-deep-research-passes-with-open-deep-research/) | 11.1k | — |
 | [linkding Self-Hosted Bookmark Manager with REST API](../../skills/linkding-self-hosted-bookmark-manager-rest-api/) | 10.4k | — |
+| [Learn and reuse route-specific extraction selectors with Crawlee Python](../../skills/learn-and-reuse-route-specific-extraction-selectors-with-crawlee-python/) | 9.7k | — |
 | [Search PDFs, Office files, ebooks, and archives with one query before manual review](../../skills/search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review/) | 9.6k | — |
 | [Serve production agentic RAG through R2R](../../skills/serve-production-agentic-rag-through-r2r/) | 7.9k | 3.5k/wk |
 | [Run local deep research workflows with Local Deep Research](../../skills/run-local-deep-research-workflows-with-local-deep-research/) | 7.9k | — |

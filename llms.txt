@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-11-11
-# Total: 3206 skills
+# Generated: 2026-11-12
+# Total: 3207 skills
+
+## Learn and reuse route-specific extraction selectors with Crawlee Python
+slug: learn-and-reuse-route-specific-extraction-selectors-with-crawlee-python
+category: Research & Scraping
+framework: Multi-Framework
+verification: Security Reviewed
+description: Learn CSS selectors once per page route, persist them across Crawlee Python runs, and extract validated records with controlled LLM fallback and usage checks.
+url: https://agentskillexchange.com/skills/learn-and-reuse-route-specific-extraction-selectors-with-crawlee-python/
 
 ## Record and replay FrontMCP calls to catch server regressions
 slug: record-and-replay-frontmcp-calls-to-catch-server-regressions

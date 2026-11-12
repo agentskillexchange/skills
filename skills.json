@@ -1,8 +1,19 @@
 {
   "version": "2.0",
-  "total": 3206,
-  "generated": "2026-11-11",
+  "total": 3207,
+  "generated": "2026-11-12",
   "skills": [
+    {
+      "slug": "learn-and-reuse-route-specific-extraction-selectors-with-crawlee-python",
+      "name": "Learn and reuse route-specific extraction selectors with Crawlee Python",
+      "title": "Learn and reuse route-specific extraction selectors with Crawlee Python",
+      "description": "Learn CSS selectors once per page route, persist them across Crawlee Python runs, and extract validated records with controlled LLM fallback and usage checks.",
+      "category": "Research & Scraping",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/apify/crawlee-python/blob/v1.11.2/docs/03_concepts/08_pydantic_ai_crawler.mdx",
+      "github_repo": "apify/crawlee-python"
+    },
     {
       "slug": "record-and-replay-frontmcp-calls-to-catch-server-regressions",
       "name": "Record and replay FrontMCP calls to catch server regressions",
