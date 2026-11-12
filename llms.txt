@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-12
-# Total: 3207 skills
+# Total: 3208 skills
+
+## Prompt Optimizer
+slug: prompt-optimizer-skill
+category: Templates & Workflows
+framework: Custom Agents
+verification: Published
+description: Turns a rough request or an existing prompt into one copy-ready prompt for any AI agent that can load Skills (or as pasted custom…
+url: https://agentskillexchange.com/skills/prompt-optimizer-skill/
 
 ## Learn and reuse route-specific extraction selectors with Crawlee Python
 slug: learn-and-reuse-route-specific-extraction-selectors-with-crawlee-python

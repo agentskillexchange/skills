@@ -1,8 +1,19 @@
 {
   "version": "2.0",
-  "total": 3207,
+  "total": 3208,
   "generated": "2026-11-12",
   "skills": [
+    {
+      "slug": "prompt-optimizer-skill",
+      "name": "Prompt Optimizer",
+      "title": "Prompt Optimizer",
+      "description": "Turns a rough request or an existing prompt into one copy-ready prompt for any AI agent that can load Skills (or as pasted custom…",
+      "category": "Templates & Workflows",
+      "framework": "Custom Agents",
+      "verification": "listed",
+      "source_url": "https://github.com/Samuel-Shek/prompt-optimizer-skill",
+      "github_repo": "samuel-shek/prompt-optimizer-skill"
+    },
     {
       "slug": "learn-and-reuse-route-specific-extraction-selectors-with-crawlee-python",
       "name": "Learn and reuse route-specific extraction selectors with Crawlee Python",
