@@ -155,6 +155,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Control hosted browser research and extraction through Hyperbrowser MCP](../../skills/control-hosted-browser-research-and-extraction-through-hyperbrowser-mcp/) | 770 | 3.2k/wk |
 | [Run supervised MCP browser automation with Auto Browser](../../skills/run-supervised-mcp-browser-automation-with-auto-browser/) | 565 | — |
 | [Run deterministic browser steps with settled screenshots and event logs for agents](../../skills/run-deterministic-browser-steps-with-settled-screenshots-and-event-logs-for-agents/) | 436 | 1.7k/wk |
+| [Record an agent-completed browser task as a parameterized Oya playbook](../../skills/record-agent-browser-task-as-parameterized-oya-playbook/) | 349 | 4.5k/wk |
 | [Benchmark browser agents on repeatable Playwright web tasks with Bananalyzer](../../skills/benchmark-browser-agents-on-repeatable-playwright-web-tasks-with-bananalyzer/) | 327 | — |
 | [Run visual E2E QA workflows with TestDriverAI](../../skills/run-visual-e2e-qa-workflows-with-testdriverai/) | 243 | 103.7k/wk |
 | [Control authenticated Chrome sessions through MCP with OpenChrome](../../skills/control-authenticated-chrome-sessions-through-mcp-with-openchrome/) | 206 | 12.1k/wk |

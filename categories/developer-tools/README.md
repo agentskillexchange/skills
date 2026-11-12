@@ -86,6 +86,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Keep agent retrieval current as documents change with Serviette](../../skills/keep-agent-retrieval-current-as-documents-change-with-serviette/) | 58.8k | — |
 | [Run supervised agentic terminal sessions with Warp](../../skills/run-supervised-agentic-terminal-sessions-with-warp/) | 58.5k | — |
 | [mkcert Zero-Config Local Development TLS Certificate Generator](../../skills/mkcert-local-dev-tls-certificate-generator/) | 58.4k | — |
+| [Delegate scoped coding tasks to T3 Code threads over MCP](../../skills/delegate-scoped-coding-tasks-to-t3-code-threads-over-mcp/) | 58.1k | — |
 | [Astro Content-Driven Web Framework](../../skills/astro-content-driven-web-framework/) | 58k | 2M/wk |
 | [bat Syntax-Highlighting Cat Replacement](../../skills/bat-syntax-highlighting-cat-replacement/) | 57.9k | — |
 | [PocketBase Open Source Realtime Backend in a Single Binary](../../skills/pocketbase-open-source-realtime-backend-single-binary/) | 57.3k | — |
@@ -346,6 +347,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Model and verify bounded LP and MILP problems with NVIDIA cuOpt](../../skills/model-and-verify-bounded-lp-and-milp-problems-with-nvidia-cuopt/) | 3.6k | — |
 | [Topgrade Universal System Package Updater](../../skills/topgrade-universal-system-package-updater/) | 3.6k | — |
 | [DynamoDB Manager](../../skills/dynamodb-manager/) | 3.6k | 30.5M/wk |
+| [Autoroute a KiCad board and validate the result through MCP](../../skills/autoroute-kicad-board-and-validate-result-through-mcp/) | 3.3k | — |
 | [Manage Agent Accounts and Model Routing with EchoBird](../../skills/manage-agent-accounts-model-routing-echobird/) | 3.3k | — |
 | [Coordinate visible multi-agent CLI workspaces with CCB](../../skills/coordinate-visible-multi-agent-cli-workspaces-with-ccb/) | 3.2k | 9.9k/wk |
 | [Give MCP clients local Markdown project memory with Basic Memory](../../skills/give-mcp-clients-local-markdown-project-memory-with-basic-memory/) | 3.2k | — |

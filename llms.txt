@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-12
-# Total: 3208 skills
+# Total: 3212 skills
+
+## Record an agent-completed browser task as a parameterized Oya playbook
+slug: record-agent-browser-task-as-parameterized-oya-playbook
+category: Browser Automation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Complete a test browser task once, save its learned steps as an Oya playbook, and verify a replay with new inputs while retaining repair…
+url: https://agentskillexchange.com/skills/record-agent-browser-task-as-parameterized-oya-playbook/
+
+## Autoroute a KiCad board and validate the result through MCP
+slug: autoroute-kicad-board-and-validate-result-through-mcp
+category: Developer Tools
+framework: MCP
+verification: Security Reviewed
+description: Run a bounded Freerouting pass on a KiCad board, inspect DRC and unrouted nets, then prepare fabrication exports only after the result is reviewed.
+url: https://agentskillexchange.com/skills/autoroute-kicad-board-and-validate-result-through-mcp/
+
+## Inspect a paused Windows executable with x64dbg MCP
+slug: inspect-paused-windows-executable-with-x64dbg-mcp
+category: Runbooks & Diagnostics
+framework: MCP
+verification: Security Reviewed
+description: Load an authorized Windows executable, pause at a breakpoint, and collect registers, memory, disassembly, and call-stack evidence through x64dbg MCP.
+url: https://agentskillexchange.com/skills/inspect-paused-windows-executable-with-x64dbg-mcp/
+
+## Delegate scoped coding tasks to T3 Code threads over MCP
+slug: delegate-scoped-coding-tasks-to-t3-code-threads-over-mcp
+category: Developer Tools
+framework: MCP
+verification: Security Reviewed
+description: Launch a bounded coding task from an outside MCP assistant, follow its T3 Code thread, and return the result and changes for operator review.
+url: https://agentskillexchange.com/skills/delegate-scoped-coding-tasks-to-t3-code-threads-over-mcp/
 
 ## Prompt Optimizer
 slug: prompt-optimizer-skill

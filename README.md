@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C208-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C212-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C629-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,208 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,212 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,16 +87,16 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Record an agent-completed browser task as a parameterized Oya playbook](skills/record-agent-browser-task-as-parameterized-oya-playbook/) | Complete a test browser task once, save its learned steps as an Oya playbook, and verify a replay... | 349 | Browser Automation |
+| [Autoroute a KiCad board and validate the result through MCP](skills/autoroute-kicad-board-and-validate-result-through-mcp/) | Run a bounded Freerouting pass on a KiCad board, inspect DRC and unrouted nets, then prepare fabrication exports... | 3.3k | Developer Tools |
+| [Inspect a paused Windows executable with x64dbg MCP](skills/inspect-paused-windows-executable-with-x64dbg-mcp/) | Load an authorized Windows executable, pause at a breakpoint, and collect registers, memory, disassembly, and call-stack evidence through... | 2.8k | Runbooks & Diagnostics |
+| [Delegate scoped coding tasks to T3 Code threads over MCP](skills/delegate-scoped-coding-tasks-to-t3-code-threads-over-mcp/) | Launch a bounded coding task from an outside MCP assistant, follow its T3 Code thread, and return the... | 58.1k | Developer Tools |
 | [Prompt Optimizer](skills/prompt-optimizer-skill/) | Turns a rough request or an existing prompt into one copy-ready prompt for any AI agent that can... | - | Templates & Workflows |
 | [Learn and reuse route-specific extraction selectors with Crawlee Python](skills/learn-and-reuse-route-specific-extraction-selectors-with-crawlee-python/) | Learn CSS selectors once per page route, persist them across Crawlee Python runs, and extract validated records with... | 9.7k | Research & Scraping |
 | [Record and replay FrontMCP calls to catch server regressions](skills/record-and-replay-frontmcp-calls-to-catch-server-regressions/) | Capture baseline MCP calls as JSONL, replay them against a changed FrontMCP server, and review answer differences and... | 151 | Code Quality & Review |
 | [Invokely Statistics](skills/invokely-statistics/) | Use Invokely's hosted MCP tools to find and cite official statistics. Use when an agent needs indicator discovery... | - | Data Extraction & Transformation |
 | [Imagera Media Generation](skills/imagera-media/) | Generates and edits images, video clips, voiceovers and music from a coding agent through the hosted Imagera MCP... | - | Image & Creative Automation |
 | [Assemble and review local video cuts through Concat MCP](skills/assemble-and-review-local-video-cuts-through-concat-mcp/) | Turn local footage and an edit brief into a Concat timeline, inspect composited frames, save the project and... | 16.0k | Media & Transcription |
-| [Build and resume checked repository task graphs with Memdoor](skills/build-and-resume-checked-repository-task-graphs-with-memdoor/) | Turn a repository procedure into Memdoor YAML tasks with explicit dependencies, completion checks, human approval gates and resumable... | 382 | Templates & Workflows |
-| [Datacircle GTM API Benchmark](skills/datacircle-gtm-api-benchmark/) | Compare GTM APIs using Datacircle rankings. Call the open API at api.datacircle.dev/v1, with no key, to list covered... | - | Library & API Reference |
-| [Call or Text Your Phone from an Agent with /call-me](skills/call-me/) | Lets an agent call or text the user's own phone (iPhone or Android) through the /call-me remote MCP... | 41 | Integrations & Connectors |
-| [Compare retriever rankings on fixed relevance datasets with BEIR](skills/compare-retriever-rankings-on-fixed-relevance-datasets-with-beir/) | Compare baseline and candidate retrievers on the same labeled dataset, then hand off ranking metrics, saved runs and... | 2.3k | Security & Verification |
 
 ---
 
@@ -126,13 +126,13 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Triage Lunora deployment errors and migration status through MCP](skills/triage-lunora-deployment-errors-and-migration-status-through-mcp/) | Inspect Lunora logs, grouped errors, query performance and pending migrations through MCP, then return a scoped incident handoff... | 293 | Runbooks & Diagnostics |
 | [Diagnose incomplete web extraction with PageSift MCP audit evidence](skills/diagnose-incomplete-web-extraction-with-pagesift-mcp-audit-evidence/) | Triage missing web content across local agents using PageSift MCP audit records, HTML snapshots, and local extraction issue... | 162 | Data Extraction & Transformation |
 | [Record and replay FrontMCP calls to catch server regressions](skills/record-and-replay-frontmcp-calls-to-catch-server-regressions/) | Capture baseline MCP calls as JSONL, replay them against a changed FrontMCP server, and review answer differences and... | 151 | Code Quality & Review |
-| [Diagnose Paradev host and terminal failures with the doctor skill](skills/diagnose-paradev-host-and-terminal-failures-with-the-doctor-skill/) | Capture Paradev service, account, host and version evidence, propose one symptom-matched repair, and verify the original failure before... | 15.6k | Runbooks & Diagnostics |
+| [Record an agent-completed browser task as a parameterized Oya playbook](skills/record-agent-browser-task-as-parameterized-oya-playbook/) | Complete a test browser task once, save its learned steps as an Oya playbook, and verify a replay... | 349 | Browser Automation |
 | [Assemble and review local video cuts through Concat MCP](skills/assemble-and-review-local-video-cuts-through-concat-mcp/) | Turn local footage and an edit brief into a Concat timeline, inspect composited frames, save the project and... | 16.0k | Media & Transcription |
+| [Diagnose Paradev host and terminal failures with the doctor skill](skills/diagnose-paradev-host-and-terminal-failures-with-the-doctor-skill/) | Capture Paradev service, account, host and version evidence, propose one symptom-matched repair, and verify the original failure before... | 15.6k | Runbooks & Diagnostics |
 | [Resolve coding questions from upstream evidence with Firecrawl Developer Index](skills/resolve-coding-questions-with-firecrawl-developer-index/) | Find public issues, merged fixes and API-contract passages with Firecrawl’s named Developer Index skill, then return a cited... | 653 | Research & Scraping |
+| [Delegate scoped coding tasks to T3 Code threads over MCP](skills/delegate-scoped-coding-tasks-to-t3-code-threads-over-mcp/) | Launch a bounded coding task from an outside MCP assistant, follow its T3 Code thread, and return the... | 58.1k | Developer Tools |
 | [Monitor Claude Code sessions with ccstatusline](skills/monitor-claude-code-sessions-with-ccstatusline/) | Configure Claude Code's status line with live model, token, cost, git, sandbox, cache, CI, and session health signals... | 13.2k | Developer Tools |
 | [Learn and reuse route-specific extraction selectors with Crawlee Python](skills/learn-and-reuse-route-specific-extraction-selectors-with-crawlee-python/) | Learn CSS selectors once per page route, persist them across Crawlee Python runs, and extract validated records with... | 9.7k | Research & Scraping |
-| [Coordinate agent teams and governed work in Paperclip](skills/coordinate-agent-teams-and-governed-work-in-paperclip/) | Use Paperclip as a self-hosted control plane for assigning goals, tasks, budgets, approvals, routines, and run history across... | 98.2k | Templates & Workflows |
-| [Ground React UI edits in project components and tokens with the Onsystem skill](skills/ground-react-ui-edits-in-project-components-and-tokens-with-onsystem-skill/) | Discover project-specific React components and tokens, implement a bounded UI change, and repair new design-system violations with Onsystem... | 165 | Code Quality & Review |
 
 ---
 
@@ -140,19 +140,19 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 536 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 538 | CLI tools, scaffolders, dev environment setup |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 270 | Scaffolders, boilerplate generators, workflow templates |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 258 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 240 | ETL pipelines, parsing, format conversion |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 212 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 193 | Pipeline configs, deployment automation, build tooling |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 190 | Third-party API bridges, webhooks, service connectors |
-| 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 185 | Incident response, troubleshooting, system diagnostics |
+| 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 186 | Incident response, troubleshooting, system diagnostics |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 163 | Metrics, alerting rules, observability |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 142 | Web research, content discovery, data collection |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 134 | SDK docs, API parsers, symbol resolvers |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 130 | Email automation, calendar management, task coordination |
-| 🌐 | [**Browser Automation**](categories/browser-automation/) | 128 | Web scraping, UI testing, headless browser control |
+| 🌐 | [**Browser Automation**](categories/browser-automation/) | 129 | Web scraping, UI testing, headless browser control |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 122 | Image generation, asset processing, design automation |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 112 | Audio/video processing, speech-to-text |
 | ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 98 | SEO content, blog automation, editorial workflows |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,208 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 3,212 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,629 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

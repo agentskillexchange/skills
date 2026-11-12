@@ -2,8 +2,52 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-12",
-  "total": 3208,
+  "total": 3212,
   "skills": [
+    {
+      "slug": "record-agent-browser-task-as-parameterized-oya-playbook",
+      "name": "Record an agent-completed browser task as a parameterized Oya playbook",
+      "title": "Record an agent-completed browser task as a parameterized Oya playbook",
+      "description": "Complete a test browser task once, save its learned steps as an Oya playbook, and verify a replay with new inputs while retaining repair…",
+      "category": "Browser Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/OyadotAI/oya-browser",
+      "github_repo": "OyadotAI/oya-browser"
+    },
+    {
+      "slug": "autoroute-kicad-board-and-validate-result-through-mcp",
+      "name": "Autoroute a KiCad board and validate the result through MCP",
+      "title": "Autoroute a KiCad board and validate the result through MCP",
+      "description": "Run a bounded Freerouting pass on a KiCad board, inspect DRC and unrouted nets, then prepare fabrication exports only after the result is reviewed.",
+      "category": "Developer Tools",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/mixelpixx/KiCAD-MCP-Server",
+      "github_repo": "mixelpixx/KiCAD-MCP-Server"
+    },
+    {
+      "slug": "inspect-paused-windows-executable-with-x64dbg-mcp",
+      "name": "Inspect a paused Windows executable with x64dbg MCP",
+      "title": "Inspect a paused Windows executable with x64dbg MCP",
+      "description": "Load an authorized Windows executable, pause at a breakpoint, and collect registers, memory, disassembly, and call-stack evidence through x64dbg MCP.",
+      "category": "Runbooks & Diagnostics",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/duty1g/x64dbg-mcp-server",
+      "github_repo": "duty1g/x64dbg-mcp-server"
+    },
+    {
+      "slug": "delegate-scoped-coding-tasks-to-t3-code-threads-over-mcp",
+      "name": "Delegate scoped coding tasks to T3 Code threads over MCP",
+      "title": "Delegate scoped coding tasks to T3 Code threads over MCP",
+      "description": "Launch a bounded coding task from an outside MCP assistant, follow its T3 Code thread, and return the result and changes for operator review.",
+      "category": "Developer Tools",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/pingdotgg/t3code",
+      "github_repo": "pingdotgg/t3code"
+    },
     {
       "slug": "prompt-optimizer-skill",
       "name": "Prompt Optimizer",

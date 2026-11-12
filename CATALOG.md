@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3208 published skills** across **17 categories** · 2,629 security reviewed · Updated 2026-11-12 13:28 UTC
+> **3212 published skills** across **17 categories** · 2,629 security reviewed · Updated 2026-11-12 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (536 skills)
+### 🛠️ Developer Tools (538 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -60,6 +60,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Keep agent retrieval current as documents change with Serviette](skills/keep-agent-retrieval-current-as-documents-change-with-serviette/) | Configure a watched document corpus, serve source-backed retrieval to agents, and verify that additions, edits, and… | Security Reviewed | 58.8k | — |
 | [Run supervised agentic terminal sessions with Warp](skills/run-supervised-agentic-terminal-sessions-with-warp/) | Use Warp as a supervised terminal workspace for running Warp Agent or external CLI agents such as Codex, Claude… | Security Reviewed | 58.5k | — |
 | [mkcert Zero-Config Local Development TLS Certificate Generator](skills/mkcert-local-dev-tls-certificate-generator/) | mkcert is a zero-configuration CLI tool by Filippo Valsorda that creates locally-trusted development certificates.… | Security Reviewed | 58.4k | — |
+| [Delegate scoped coding tasks to T3 Code threads over MCP](skills/delegate-scoped-coding-tasks-to-t3-code-threads-over-mcp/) | Launch a bounded coding task from an outside MCP assistant, follow its T3 Code thread, and return the result and… | Security Reviewed | 58.1k | — |
 | [Astro Content-Driven Web Framework](skills/astro-content-driven-web-framework/) | Astro is a modern web framework for building content-driven websites. It ships zero JavaScript by default, supports… | Security Reviewed | 58k | 2M/wk |
 | [bat Syntax-Highlighting Cat Replacement](skills/bat-syntax-highlighting-cat-replacement/) | bat is a cat(1) clone written in Rust that adds syntax highlighting for over 200 languages, Git integration showing… | Security Reviewed | 57.9k | — |
 | [PocketBase Open Source Realtime Backend in a Single Binary](skills/pocketbase-open-source-realtime-backend-single-binary/) | PocketBase is an open-source Go backend that ships as a single portable executable. It includes an embedded SQLite… | Security Reviewed | 57.3k | — |
@@ -320,6 +321,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Model and verify bounded LP and MILP problems with NVIDIA cuOpt](skills/model-and-verify-bounded-lp-and-milp-problems-with-nvidia-cuopt/) | Use NVIDIA’s portable optimization skill to formulate a bounded LP or MILP, run cuOpt, and check solver status and… | Security Reviewed | 3.6k | — |
 | [Topgrade Universal System Package Updater](skills/topgrade-universal-system-package-updater/) | Topgrade is a CLI tool written in Rust that detects all package managers and updatable sources on your system and… | Security Reviewed | 3.6k | — |
 | [DynamoDB Manager](skills/dynamodb-manager/) | DynamoDB Manager is built around Amazon DynamoDB NoSQL database. The underlying ecosystem is represented by… | Published | 3.6k | 30.5M/wk |
+| [Autoroute a KiCad board and validate the result through MCP](skills/autoroute-kicad-board-and-validate-result-through-mcp/) | Run a bounded Freerouting pass on a KiCad board, inspect DRC and unrouted nets, then prepare fabrication exports… | Security Reviewed | 3.3k | — |
 | [Manage Agent Accounts and Model Routing with EchoBird](skills/manage-agent-accounts-model-routing-echobird/) | Use EchoBird to centralize ChatGPT, Codex CLI, Claude Code, OpenClaw, OpenCode, and local model setup so an operator… | Published | 3.3k | — |
 | [Coordinate visible multi-agent CLI workspaces with CCB](skills/coordinate-visible-multi-agent-cli-workspaces-with-ccb/) | Use CCB to run Codex, Claude, Gemini, Cursor, OpenCode, and other CLI agents in a visible project workspace with… | Security Reviewed | 3.2k | 9.9k/wk |
 | [Give MCP clients local Markdown project memory with Basic Memory](skills/give-mcp-clients-local-markdown-project-memory-with-basic-memory/) | Connect Claude, Codex, Cursor, ChatGPT, or any MCP-capable client to a local-first Markdown knowledge graph so… | Security Reviewed | 3.2k | — |
@@ -1963,7 +1965,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (185 skills)
+### 📋 Runbooks & Diagnostics (186 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -2094,6 +2096,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Watch Kubernetes resources explain rollout stalls and surface live status transitions with kubespy](skills/watch-kubernetes-resources-explain-rollout-stalls-and-surface-live-status-transitions-with-kubespy/) | Follow a Kubernetes workload live so an agent can explain why it is pending, failing, or not becoming ready. | Security Reviewed | 3.1k | — |
 | [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | Open a live PostgreSQL activity view during incidents so you can see sessions, waits, locks, and pressure before… | Security Reviewed | 3k | 20.8k/wk |
 | [Deploy Kubernetes-native agents with kagent](skills/deploy-kubernetes-native-agents-with-kagent/) | Define agents, model configs, and MCP tool servers as Kubernetes resources so cloud operators can run controlled… | Published | 2.9k | — |
+| [Inspect a paused Windows executable with x64dbg MCP](skills/inspect-paused-windows-executable-with-x64dbg-mcp/) | Load an authorized Windows executable, pause at a breakpoint, and collect registers, memory, disassembly, and… | Security Reviewed | 2.8k | — |
 | [Capture low-level Kubernetes runtime evidence with Inspektor Gadget](skills/capture-low-level-kubernetes-runtime-evidence-with-inspektor-gadget/) | Run named Inspektor Gadget traces and snapshots when an agent needs eBPF-backed runtime evidence from pods,… | Security Reviewed | 2.8k | — |
 | [Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto](skills/find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto/) | Scan Helm charts, YAML, or live clusters for Kubernetes API versions scheduled for removal before an upgrade window. | Security Reviewed | 2.5k | — |
 | [Investigate production incidents across Kubernetes and cloud signals with HolmesGPT](skills/investigate-production-incidents-across-kubernetes-and-cloud-signals-with-holmesgpt/) | Use HolmesGPT when an on-call agent needs one investigation loop that pulls alerts, logs, metrics, and… | Security Reviewed | 2.3k | — |
@@ -2757,7 +2760,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses… | Security Reviewed | — | — |
 
 
-### 🌐 Browser Automation (128 skills)
+### 🌐 Browser Automation (129 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Browser%20Automation&sort=downloads)
 
@@ -2878,6 +2881,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Control hosted browser research and extraction through Hyperbrowser MCP](skills/control-hosted-browser-research-and-extraction-through-hyperbrowser-mcp/) | Give MCP clients hosted browser tools for scraping, crawling, structured extraction, search, and computer-use… | Security Reviewed | 770 | 3.2k/wk |
 | [Run supervised MCP browser automation with Auto Browser](skills/run-supervised-mcp-browser-automation-with-auto-browser/) | Give an MCP-capable agent a local Playwright browser with human takeover, reusable auth profiles, approvals, audit… | Security Reviewed | 565 | — |
 | [Run deterministic browser steps with settled screenshots and event logs for agents](skills/run-deterministic-browser-steps-with-settled-screenshots-and-event-logs-for-agents/) | Use Agent Browser Protocol when an agent needs browser actions to resolve into stable step results, complete with… | Security Reviewed | 436 | 1.7k/wk |
+| [Record an agent-completed browser task as a parameterized Oya playbook](skills/record-agent-browser-task-as-parameterized-oya-playbook/) | Complete a test browser task once, save its learned steps as an Oya playbook, and verify a replay with new inputs… | Security Reviewed | 349 | 4.5k/wk |
 | [Benchmark browser agents on repeatable Playwright web tasks with Bananalyzer](skills/benchmark-browser-agents-on-repeatable-playwright-web-tasks-with-bananalyzer/) | Run a repeatable evaluation suite for browser agents against static web task snapshots instead of judging them from… | Security Reviewed | 327 | — |
 | [Run visual E2E QA workflows with TestDriverAI](skills/run-visual-e2e-qa-workflows-with-testdriverai/) | Use TestDriverAI to initialize, author, and run vision-assisted Vitest E2E checks for browser, desktop, extension,… | Security Reviewed | 243 | 103.7k/wk |
 | [Control authenticated Chrome sessions through MCP with OpenChrome](skills/control-authenticated-chrome-sessions-through-mcp-with-openchrome/) | Let an agent drive a real logged-in Chrome profile through MCP for authenticated browsing, parallel tab work, and… | Security Reviewed | 206 | 12.1k/wk |
