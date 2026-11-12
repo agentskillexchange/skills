@@ -1,0 +1,8 @@
+interface:
+  display_name: "Investigative Journalism & Fact-Checking"
+  short_description: "Investigate public-interest claims with rigorous OSINT"
+  default_prompt: "Use $investigate-and-fact-check to investigate this claim, verify the evidence, and prepare a sourced assessment with clear uncertainties."
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+policy:
+  allow_implicit_invocation: true

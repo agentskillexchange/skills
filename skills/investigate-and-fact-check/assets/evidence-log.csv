@@ -1,0 +1,1 @@
+log_id,evidence_id,action,logged_at_utc,retrieved_at_utc,collector,source_id,source_locator,publication_time_original,event_time_or_interval,relative_file_path,parent_evidence_id,sha256,method_and_version,context_and_limitations,access_class,transfer_or_disposition
