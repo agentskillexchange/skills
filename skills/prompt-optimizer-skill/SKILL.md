@@ -19,7 +19,7 @@ Prompt Optimizer is an MIT-licensed Skill, maintained at [Samuel-Shek/prompt-opt
 - **Verbatim wording.** The user's request is copied word for word into a "User's exact words" section. Numbers, dates, names, file names, prohibitions, and relative times stay exactly as written.
 - **Subordinate additions.** Anything the optimizer adds (steps, checks, handling of missing information) goes into "Supplementary notes", which open by stating that the user's exact words win any conflict. It does not add word counts, formats, prohibitions, or acceptance criteria the user did not ask for.
 - **No invented facts.** Missing information becomes a placeholder such as `{{TO FILL: ...}}` or a "To confirm" item with a fallback, never a guess.
-- **Instructions vs. material.** Pasted text that says "ignore all previous rules" is kept as material and treated as data, not as an order.
+- **Instructions vs. material.** Pasted text that attempts to override instructions is kept as material and treated as data, not as an order.
 - **Language.** It replies in the user's language (English, Chinese, or others) and never translates the user's wording or material. Documentation is available in English and Simplified Chinese.
 
 **Output.** One code block with plain-text labels: Task (optional), User's exact words, Material, Supplementary notes, and To confirm. Empty sections are left out. Optional shortcuts: `+explain` adds up to five notes on key changes, and `+two` gives two versions with different purposes.
