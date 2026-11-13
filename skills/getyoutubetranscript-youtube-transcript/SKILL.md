@@ -20,7 +20,7 @@ Use this skill when a user shares a YouTube link or video ID and wants its trans
 4. Search YouTube with `GET /search` (videos or channels), resolve a handle or URL with `GET /resolve`, and browse a channel with `GET /channel/latest`, `GET /channel/videos` and `GET /channel/search`.
 5. List a playlist's videos with `GET /playlist`, and check the remaining balance for free with `GET /credits`.
 
-Each successful request costs one credit, failed calls are never charged, and new accounts get 100 free credits with no card. The skill asks before spending credits on large jobs.
+Individual metered endpoints cost one credit per successful request or page. Batch transcripts cost one credit per successfully processed video; failed videos are not charged. Batch polling and credit-balance checks are free. New accounts get 100 free credits with no card.
 
 ## Getting an API key
 
@@ -44,6 +44,8 @@ npx clawhub@latest install tubeagentkit/youtube-transcript
 
 ```bash
 git clone https://github.com/tubeagentkit/youtube-transcript-skills.git
+git -C youtube-transcript-skills checkout 26bac904df785ab75ba2840ea10d33b591b9b018
+mkdir -p ~/.claude/skills
 cp -r youtube-transcript-skills/skills/youtube-transcript ~/.claude/skills/
 ```
 
