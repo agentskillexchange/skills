@@ -228,6 +228,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Infer And Normalize Broken CSV Dialects Before Import With Clevercsv](../../skills/infer-and-normalize-broken-csv-dialects-before-import-with-clevercsv/) | 1.3k | — |
 | [Export Obsidian vaults into clean Markdown trees for publishing or downstream processing](../../skills/export-obsidian-vaults-into-clean-markdown-trees-for-publishing-or-downstream-processing/) | 1.3k | — |
 | [Run persistent finance research workspaces with LangAlpha](../../skills/run-persistent-finance-research-workspaces-with-langalpha/) | 1.2k | — |
+| [Read Microsoft 365 attachments with explicit extraction coverage](../../skills/read-microsoft-365-attachments-explicit-extraction-coverage/) | 1.1k | 107.8k/wk |
 | [xq Command-Line XML and HTML Beautifier and Content Extractor](../../skills/xq-command-line-xml-html-beautifier-content-extractor/) | 1.1k | — |
 | [Convert documents into private agent-ready Markdown with doc7](../../skills/convert-documents-into-private-agent-ready-markdown-with-doc7/) | 1.1k | — |
 | [Query Neo4j graph data from agent workflows through MCP](../../skills/query-neo4j-graph-data-from-agent-workflows-through-mcp/) | 947 | — |

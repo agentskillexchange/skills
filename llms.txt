@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-13
-# Total: 3217 skills
+# Total: 3221 skills
+
+## Read Microsoft 365 attachments with explicit extraction coverage
+slug: read-microsoft-365-attachments-explicit-extraction-coverage
+category: Data Extraction & Transformation
+framework: MCP
+verification: Published
+description: Hand a selected Microsoft 365 attachment to an approved processor through a fresh download URL, preserving continuation and extraction-coverage evidence.
+url: https://agentskillexchange.com/skills/read-microsoft-365-attachments-explicit-extraction-coverage/
+
+## Inspect and retrieve brand and cloud service SVG assets with theSVG
+slug: retrieve-brand-cloud-service-svg-assets-thesvg
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Published
+description: Resolve named brands and cloud services through theSVG’s manifest, choose available light or dark variants, and return exact SVG assets for docs and diagrams.
+url: https://agentskillexchange.com/skills/retrieve-brand-cloud-service-svg-assets-thesvg/
+
+## Inspect Unreal Editor state and capture visual evidence with EngineWire
+slug: inspect-unreal-editor-state-visual-evidence-enginewire
+category: Image & Creative Automation
+framework: MCP
+verification: Security Reviewed
+description: Connect an MCP agent to EngineWire, inspect the current Unreal Editor selection and viewport, and return screenshots with a bounded scene-state report.
+url: https://agentskillexchange.com/skills/inspect-unreal-editor-state-visual-evidence-enginewire/
+
+## Run bounded metric-improvement experiments with MiMoCode
+slug: run-bounded-metric-improvement-experiments-mimocode
+category: Developer Tools
+framework: Custom Agents
+verification: Security Reviewed
+description: Run MiMoCode’s opt-in experiment workflow against a fixed evaluation budget, then review kept changes, measured deltas and an independent audit.
+url: https://agentskillexchange.com/skills/run-bounded-metric-improvement-experiments-mimocode/
 
 ## Produce read-only cloud security and FinOps findings with StackQL
 slug: produce-read-only-cloud-security-finops-findings-stackql

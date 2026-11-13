@@ -79,7 +79,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Satori HTML and CSS to SVG Image Generator by Vercel](../../skills/satori-html-css-svg-image-generator/) | 13.2k | 1.3M/wk |
 | [Apply an anti-AI-slop design workflow to pages, components, audits, and redesigns with Hallmark](../../skills/apply-an-anti-ai-slop-design-workflow-to-pages-components-audits-and-redesigns-with-hallmark/) | 13.1k | — |
 | [libvips High-Performance Image Processing Library and CLI](../../skills/libvips-high-performance-image-processing-library-cli/) | 11.2k | — |
-| [OpenAI Image Gen](../../skills/openai-image-gen/) | 10.9k | 57.9M/wk |
+| [OpenAI Image Gen](../../skills/openai-image-gen/) | 10.9k | 57.7M/wk |
 | [DALL-E 3 Batch Asset Generator](../../skills/dalle-3-batch-asset-generator/) | 10.8k | 18.1M/wk |
 | [DALL-E Batch Image Generator](../../skills/dalle-batch-image-generator/) | 10.8k | 18.1M/wk |
 | [DALL-E Image Variation Generator](../../skills/dalle-image-variation-generator/) | 10.8k | 18.1M/wk |
@@ -106,6 +106,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Run Claude Design-style UI prototyping locally with baoyu-design](../../skills/run-claude-design-style-ui-prototyping-locally-with-baoyu-design/) | 3.6k | — |
 | [Transfer clothed character poses from mannequin renders with Qwen Pose](../../skills/transfer-clothed-character-poses-from-mannequin-renders-with-qwen-pose/) | 3.5k | — |
 | [Turn a plain-language brief into a multi-step video production pipeline with OpenMontage](../../skills/turn-a-plain-language-brief-into-a-multi-step-video-production-pipeline-with-openmontage/) | 3k | — |
+| [Inspect and retrieve brand and cloud service SVG assets with theSVG](../../skills/retrieve-brand-cloud-service-svg-assets-thesvg/) | 3k | — |
 | [Draw and verify Excalidraw diagrams through an agent canvas](../../skills/draw-and-verify-excalidraw-diagrams-through-an-agent-canvas/) | 2.4k | 11.7k/wk |
 | [Produce cinematic product videos with Video Shotcraft](../../skills/produce-cinematic-product-videos-with-video-shotcraft/) | 2.1k | — |
 | [Compare UI design directions and refine the selected page with Oil UI](../../skills/compare-ui-design-directions-and-refine-the-selected-page-with-oil-ui/) | 2.1k | — |
@@ -121,6 +122,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Plan, generate and review Gemini images in Claude Code with Banana Claude](../../skills/plan-generate-and-review-gemini-images-with-banana-claude/) | 1.1k | — |
 | [Create sourced explainer videos with anything2explainer](../../skills/create-sourced-explainer-videos-with-anything2explainer/) | 1.1k | — |
 | [Design, render, and visually QA editable PowerPoint decks with PPT Design Skill](../../skills/design-render-and-visually-qa-editable-powerpoint-decks-with-ppt-design-skill/) | 1k | — |
+| [Inspect Unreal Editor state and capture visual evidence with EngineWire](../../skills/inspect-unreal-editor-state-visual-evidence-enginewire/) | 1k | — |
 | [CairoSVG SVG to PNG PDF and PostScript Converter](../../skills/cairosvg-svg-to-png-pdf-converter/) | 917 | — |
 | [Turn source novels into playable games with NovelToGame](../../skills/turn-source-novels-into-playable-games-with-noveltogame/) | 559 | — |
 | [Run ComfyUI workflows as agent-callable skills](../../skills/run-comfyui-workflows-as-agent-callable-skills/) | 395 | — |

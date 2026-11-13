@@ -2,8 +2,52 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-13",
-  "total": 3217,
+  "total": 3221,
   "skills": [
+    {
+      "slug": "read-microsoft-365-attachments-explicit-extraction-coverage",
+      "name": "Read Microsoft 365 attachments with explicit extraction coverage",
+      "title": "Read Microsoft 365 attachments with explicit extraction coverage",
+      "description": "Hand a selected Microsoft 365 attachment to an approved processor through a fresh download URL, preserving continuation and extraction-coverage evidence.",
+      "category": "Data Extraction & Transformation",
+      "framework": "MCP",
+      "verification": "listed",
+      "source_url": "https://github.com/Softeria/ms-365-mcp-server",
+      "github_repo": "Softeria/ms-365-mcp-server"
+    },
+    {
+      "slug": "retrieve-brand-cloud-service-svg-assets-thesvg",
+      "name": "Inspect and retrieve brand and cloud service SVG assets with theSVG",
+      "title": "Inspect and retrieve brand and cloud service SVG assets with theSVG",
+      "description": "Resolve named brands and cloud services through theSVG’s manifest, choose available light or dark variants, and return exact SVG assets for docs and diagrams.",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/glincker/thesvg",
+      "github_repo": "glincker/thesvg"
+    },
+    {
+      "slug": "inspect-unreal-editor-state-visual-evidence-enginewire",
+      "name": "Inspect Unreal Editor state and capture visual evidence with EngineWire",
+      "title": "Inspect Unreal Editor state and capture visual evidence with EngineWire",
+      "description": "Connect an MCP agent to EngineWire, inspect the current Unreal Editor selection and viewport, and return screenshots with a bounded scene-state report.",
+      "category": "Image & Creative Automation",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/ChiR24/Unreal_mcp",
+      "github_repo": "ChiR24/Unreal_mcp"
+    },
+    {
+      "slug": "run-bounded-metric-improvement-experiments-mimocode",
+      "name": "Run bounded metric-improvement experiments with MiMoCode",
+      "title": "Run bounded metric-improvement experiments with MiMoCode",
+      "description": "Run MiMoCode’s opt-in experiment workflow against a fixed evaluation budget, then review kept changes, measured deltas and an independent audit.",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/XiaomiMiMo/MiMo-Code",
+      "github_repo": "XiaomiMiMo/MiMo-Code"
+    },
     {
       "slug": "produce-read-only-cloud-security-finops-findings-stackql",
       "name": "Produce read-only cloud security and FinOps findings with StackQL",
