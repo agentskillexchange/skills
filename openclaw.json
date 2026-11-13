@@ -1,9 +1,42 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-11-12",
-  "total": 3212,
+  "generated": "2026-11-13",
+  "total": 3215,
   "skills": [
+    {
+      "slug": "edit-verify-scoped-jupyter-notebook-task-mcp",
+      "name": "Edit and verify a scoped Jupyter notebook task through MCP",
+      "title": "Edit and verify a scoped Jupyter notebook task through MCP",
+      "description": "Connect an external MCP agent to a selected Jupyter notebook, make bounded cell edits, execute the affected analysis and return saved results with execution…",
+      "category": "Developer Tools",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/datalayer/jupyter-mcp-server",
+      "github_repo": "datalayer/jupyter-mcp-server"
+    },
+    {
+      "slug": "find-inspect-french-public-datasets-datagouv-mcp",
+      "name": "Find and inspect French public datasets through data.gouv.fr MCP",
+      "title": "Find and inspect French public datasets through data.gouv.fr MCP",
+      "description": "Search data.gouv.fr, check dataset provenance and resource metadata, then preview supported tabular rows and return a cited research handoff.",
+      "category": "Research & Scraping",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/datagouv/datagouv-mcp",
+      "github_repo": "datagouv/datagouv-mcp"
+    },
+    {
+      "slug": "review-revise-agent-markdown-plan-with-crit",
+      "name": "Review and revise an agent-authored Markdown plan with Crit",
+      "title": "Review and revise an agent-authored Markdown plan with Crit",
+      "description": "Open a local Markdown plan for line-level human comments, return the feedback to the agent, and repeat the revision loop until the operator approves.",
+      "category": "Code Quality & Review",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/tomasz-tomczyk/crit",
+      "github_repo": "tomasz-tomczyk/crit"
+    },
     {
       "slug": "record-agent-browser-task-as-parameterized-oya-playbook",
       "name": "Record an agent-completed browser task as a parameterized Oya playbook",

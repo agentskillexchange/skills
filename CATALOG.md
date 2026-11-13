@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3212 published skills** across **17 categories** · 2,632 security reviewed · Updated 2026-11-12 19:27 UTC
+> **3215 published skills** across **17 categories** · 2,632 security reviewed · Updated 2026-11-13 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (538 skills)
+### 🛠️ Developer Tools (539 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -381,6 +381,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Keep Claude Code skills current from real sessions with Autoharness](skills/keep-claude-code-skills-current-from-real-sessions-with-autoharness/) | Install Autoharness so Claude Code can distill, merge, update, and retire native skills from real operator sessions… | Security Reviewed | 1.4k | — |
 | [Keep Agent Engineering Decisions Current with Haft](skills/keep-agent-engineering-decisions-current-with-haft/) | Use Haft when an agent needs source-backed decision framing, comparison, authorization records, and stale-evidence… | Published | 1.4k | — |
 | [Run managed Claude Code and Codex teams with OpenRig](skills/run-managed-claude-code-and-codex-teams-with-openrig/) | Use OpenRig when an operator wants persistent tmux-backed Claude Code and Codex seats, YAML-defined team topology,… | Security Reviewed | 1.4k | 2.5k/wk |
+| [Edit and verify a scoped Jupyter notebook task through MCP](skills/edit-verify-scoped-jupyter-notebook-task-mcp/) | Connect an external MCP agent to a selected Jupyter notebook, make bounded cell edits, execute the affected analysis… | Security Reviewed | 1.3k | — |
 | [Search cross-agent Markdown memory and conversation history with memsearch](skills/search-cross-agent-markdown-memory-and-conversation-history-with-memsearch/) | Give supported coding agents a shared Markdown-first memory layer so they can recall prior decisions, transcripts,… | Security Reviewed | 1.3k | — |
 | [Terraform MCP Server for Infrastructure as Code](skills/terraform-mcp-server-infrastructure-as-code/) | The official HashiCorp Terraform MCP server integrates with the Terraform Registry and HCP Terraform, enabling AI… | Published | 1.3k | — |
 | [WASM Component Model Linker](skills/wasm-component-model-linker/) | Compiles and links WebAssembly components using the WASI Preview 2 Component Model, wasm-tools CLI for component… | Published | 1.3k | — |
@@ -1346,7 +1347,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (212 skills)
+### ✅ Code Quality & Review (213 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1482,6 +1483,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Review live agent-authored diffs in Neovim with CodeDiff](skills/review-live-agent-authored-diffs-in-neovim-with-codediff/) | Use CodeDiff to keep coding agents running while a human operator reviews, stages, discards, and resolves changes in… | Security Reviewed | 1.5k | — |
 | [Strip noisy Jupyter output from notebooks before commit with nbstripout](skills/strip-noisy-jupyter-output-from-notebooks-before-commit-with-nbstripout/) | Keep notebook diffs reviewable by removing execution output and excess metadata before notebooks land in Git history. | Security Reviewed | 1.4k | — |
 | [Audit Python dependency declarations for unused, missing, and transitive imports before release](skills/audit-python-dependency-declarations-before-release/) | Use Deptry when an agent needs to verify that a Python project's declared dependencies still match the imports the… | Security Reviewed | 1.4k | — |
+| [Review and revise an agent-authored Markdown plan with Crit](skills/review-revise-agent-markdown-plan-with-crit/) | Open a local Markdown plan for line-level human comments, return the feedback to the agent, and repeat the revision… | Security Reviewed | 1.3k | — |
 | [Review Rust code with rule-cited findings using BeautifulRust](skills/review-rust-code-with-rule-cited-findings-using-beautifulrust/) | Review a Rust file, crate or diff with scoped tool checks and prioritized findings that cite source rules, locations… | Published | 1.3k | — |
 | [Remove unused Rust dependencies before they quietly bloat builds and reviews with cargo-machete](skills/remove-unused-rust-dependencies-before-they-quietly-bloat-builds-and-reviews-with-cargo-machete/) | Use cargo-machete when an agent needs to find and remove unused Rust dependencies before they keep inflating build… | Security Reviewed | 1.3k | 2.1M/wk |
 | [sqruff High-Performance SQL Linter and Formatter](skills/sqruff-sql-linter-formatter/) | A fast SQL linter and formatter written in Rust by Quary Labs. sqruff provides advanced configurable linting and… | Security Reviewed | 1.3k | — |
@@ -2330,7 +2332,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Published | — | — |
 
 
-### 🔍 Research & Scraping (142 skills)
+### 🔍 Research & Scraping (143 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -2412,6 +2414,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Ground research agents in Zotero libraries with LLM for Zotero](skills/ground-research-agents-in-zotero-libraries-with-llm-for-zotero/) | Bring agent-mode paper chat, citation-grounded answers, note saving, tagging, importing, and library-wide research… | Security Reviewed | 1.7k | — |
 | [Replay And Inspect WARC Web Archives Before Investigation Or Migration With Pywb](skills/replay-and-inspect-warc-web-archives-before-investigation-or-migration-with-pywb/) | Replay WARC-backed web archives locally so an agent can inspect historical pages, validate captures, and review… | Security Reviewed | 1.6k | — |
 | [Tavily MCP Server for AI-Powered Web Search and Extraction](skills/tavily-mcp-server-ai-web-search-extraction/) | An official MCP server from Tavily that provides AI agents with real-time web search, page extraction, site mapping,… | Security Reviewed | 1.6k | 47.9k/wk |
+| [Find and inspect French public datasets through data.gouv.fr MCP](skills/find-inspect-french-public-datasets-datagouv-mcp/) | Search data.gouv.fr, check dataset provenance and resource metadata, then preview supported tabular rows and return… | Security Reviewed | 1.6k | — |
 | [Run self-hosted media research and RAG workflows with tldw_server](skills/run-self-hosted-media-research-and-rag-workflows-with-tldw-server/) | Use tldw_server when an agent workflow needs to ingest video, audio, documents, and web pages into a local research… | Security Reviewed | 1.4k | — |
 | [AgentQL Natural Language Web Query SDK for Extraction and Automation](skills/agentql-natural-language-web-query-sdk-extraction-automation/) | AgentQL is TinyFish's web automation and extraction toolkit that layers a natural-language query system on top of… | Security Reviewed | 1.3k | 878/wk |
 | [Locate photo origins with the Geo Sleuth agent skill](skills/locate-photo-origins-with-the-geo-sleuth-agent-skill/) | Install a cross-runtime agent skill that geolocates photos using EXIF, image preparation, OCR, OpenStreetMap… | Security Reviewed | 1.2k | — |

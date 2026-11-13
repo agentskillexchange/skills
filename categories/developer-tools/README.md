@@ -407,6 +407,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Keep Claude Code skills current from real sessions with Autoharness](../../skills/keep-claude-code-skills-current-from-real-sessions-with-autoharness/) | 1.4k | — |
 | [Keep Agent Engineering Decisions Current with Haft](../../skills/keep-agent-engineering-decisions-current-with-haft/) | 1.4k | — |
 | [Run managed Claude Code and Codex teams with OpenRig](../../skills/run-managed-claude-code-and-codex-teams-with-openrig/) | 1.4k | 2.5k/wk |
+| [Edit and verify a scoped Jupyter notebook task through MCP](../../skills/edit-verify-scoped-jupyter-notebook-task-mcp/) | 1.3k | — |
 | [Search cross-agent Markdown memory and conversation history with memsearch](../../skills/search-cross-agent-markdown-memory-and-conversation-history-with-memsearch/) | 1.3k | — |
 | [Terraform MCP Server for Infrastructure as Code](../../skills/terraform-mcp-server-infrastructure-as-code/) | 1.3k | — |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | 1.3k | — |
