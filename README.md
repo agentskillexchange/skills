@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C221-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C224-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C639-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,221 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,224 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,9 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Build and validate one Enferno admin feature](skills/build-validate-one-enferno-admin-feature/) | Implement one scoped admin feature using Enferno’s upstream agent skill, then review its migration, authorization, CSRF behavior and... | 571 | Developer Tools |
+| [Inspect FreeCAD model properties and capture review views](skills/inspect-freecad-model-properties-capture-review-views/) | Inspect an open FreeCAD document through MCP, collect object properties and capture oriented views for a model-review evidence... | 3.3k | Image & Creative Automation |
+| [Generate budgeted McDonald’s China group-meal plans](skills/generate-budgeted-mcdonalds-china-group-meal-plans/) | Compare nearby McDonald’s China stores and live-priced meal combinations against a group headcount and budget, returning a plan... | 1.4k | Calendar, Email & Productivity |
 | [Read Microsoft 365 attachments with explicit extraction coverage](skills/read-microsoft-365-attachments-explicit-extraction-coverage/) | Hand a selected Microsoft 365 attachment to an approved processor through a fresh download URL, preserving continuation and... | 1.1k | Data Extraction & Transformation |
 | [Inspect and retrieve brand and cloud service SVG assets with theSVG](skills/retrieve-brand-cloud-service-svg-assets-thesvg/) | Resolve named brands and cloud services through theSVG’s manifest, choose available light or dark variants, and return exact... | 3.0k | Image & Creative Automation |
 | [Inspect Unreal Editor state and capture visual evidence with EngineWire](skills/inspect-unreal-editor-state-visual-evidence-enginewire/) | Connect an MCP agent to EngineWire, inspect the current Unreal Editor selection and viewport, and return screenshots with... | 1.0k | Image & Creative Automation |
@@ -94,9 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Produce read-only cloud security and FinOps findings with StackQL](skills/produce-read-only-cloud-security-finops-findings-stackql/) | Run StackQL’s pinned Docker audit against approved cloud scopes and return security findings, waste estimates and coverage gaps... | 1.1k | Security & Verification |
 | [Investigate repository failures with an evidence-backed Archon workflow](skills/investigate-repository-failures-evidence-backed-archon-workflow/) | Run Archon’s bounded investigation workflow to reproduce a repository failure, establish its cause and hand off a saved... | 23.9k | Developer Tools |
 | [Edit and verify a scoped Jupyter notebook task through MCP](skills/edit-verify-scoped-jupyter-notebook-task-mcp/) | Connect an external MCP agent to a selected Jupyter notebook, make bounded cell edits, execute the affected analysis... | 1.3k | Developer Tools |
-| [Find and inspect French public datasets through data.gouv.fr MCP](skills/find-inspect-french-public-datasets-datagouv-mcp/) | Search data.gouv.fr, check dataset provenance and resource metadata, then preview supported tabular rows and return a cited research... | 1.6k | Research & Scraping |
-| [Review and revise an agent-authored Markdown plan with Crit](skills/review-revise-agent-markdown-plan-with-crit/) | Open a local Markdown plan for line-level human comments, return the feedback to the agent, and repeat the... | 1.3k | Code Quality & Review |
-| [Record an agent-completed browser task as a parameterized Oya playbook](skills/record-agent-browser-task-as-parameterized-oya-playbook/) | Complete a test browser task once, save its learned steps as an Oya playbook, and verify a replay... | 349 | Browser Automation |
 
 ---
 
@@ -131,8 +131,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Diagnose Paradev host and terminal failures with the doctor skill](skills/diagnose-paradev-host-and-terminal-failures-with-the-doctor-skill/) | Capture Paradev service, account, host and version evidence, propose one symptom-matched repair, and verify the original failure before... | 15.6k | Runbooks & Diagnostics |
 | [Read Microsoft 365 attachments with explicit extraction coverage](skills/read-microsoft-365-attachments-explicit-extraction-coverage/) | Hand a selected Microsoft 365 attachment to an approved processor through a fresh download URL, preserving continuation and... | 1.1k | Data Extraction & Transformation |
 | [Resolve coding questions from upstream evidence with Firecrawl Developer Index](skills/resolve-coding-questions-with-firecrawl-developer-index/) | Find public issues, merged fixes and API-contract passages with Firecrawl’s named Developer Index skill, then return a cited... | 653 | Research & Scraping |
-| [Delegate scoped coding tasks to T3 Code threads over MCP](skills/delegate-scoped-coding-tasks-to-t3-code-threads-over-mcp/) | Launch a bounded coding task from an outside MCP assistant, follow its T3 Code thread, and return the... | 58.1k | Developer Tools |
 | [Investigate repository failures with an evidence-backed Archon workflow](skills/investigate-repository-failures-evidence-backed-archon-workflow/) | Run Archon’s bounded investigation workflow to reproduce a repository failure, establish its cause and hand off a saved... | 23.9k | Developer Tools |
+| [Run bounded metric-improvement experiments with MiMoCode](skills/run-bounded-metric-improvement-experiments-mimocode/) | Run MiMoCode’s opt-in experiment workflow against a fixed evaluation budget, then review kept changes, measured deltas and an... | 13.8k | Developer Tools |
 
 ---
 
@@ -140,7 +140,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 541 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 542 | CLI tools, scaffolders, dev environment setup |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 270 | Scaffolders, boilerplate generators, workflow templates |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 259 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 241 | ETL pipelines, parsing, format conversion |
@@ -151,9 +151,9 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 163 | Metrics, alerting rules, observability |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 143 | Web research, content discovery, data collection |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 134 | SDK docs, API parsers, symbol resolvers |
-| 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 130 | Email automation, calendar management, task coordination |
+| 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 131 | Email automation, calendar management, task coordination |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 129 | Web scraping, UI testing, headless browser control |
-| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 124 | Image generation, asset processing, design automation |
+| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 125 | Image generation, asset processing, design automation |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 112 | Audio/video processing, speech-to-text |
 | ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 98 | SEO content, blog automation, editorial workflows |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,221 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 3,224 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,639 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

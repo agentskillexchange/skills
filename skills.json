@@ -1,8 +1,50 @@
 {
   "version": "2.0",
-  "total": 3221,
+  "total": 3224,
   "generated": "2026-11-13",
   "skills": [
+    {
+      "slug": "build-validate-one-enferno-admin-feature",
+      "name": "Build and validate one Enferno admin feature",
+      "title": "Build and validate one Enferno admin feature",
+      "description": "Implement one scoped admin feature using Enferno’s upstream agent skill, then review its migration, authorization, CSRF behavior and test evidence.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 571
+      },
+      "source_url": "https://github.com/level09/enferno",
+      "github_repo": "level09/enferno"
+    },
+    {
+      "slug": "inspect-freecad-model-properties-capture-review-views",
+      "name": "Inspect FreeCAD model properties and capture review views",
+      "title": "Inspect FreeCAD model properties and capture review views",
+      "description": "Inspect an open FreeCAD document through MCP, collect object properties and capture oriented views for a model-review evidence handoff.",
+      "category": "Image & Creative Automation",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 3319
+      },
+      "source_url": "https://github.com/neka-nat/freecad-mcp",
+      "github_repo": "neka-nat/freecad-mcp"
+    },
+    {
+      "slug": "generate-budgeted-mcdonalds-china-group-meal-plans",
+      "name": "Generate budgeted McDonald’s China group-meal plans",
+      "title": "Generate budgeted McDonald’s China group-meal plans",
+      "description": "Compare nearby McDonald’s China stores and live-priced meal combinations against a group headcount and budget, returning a plan without ordering.",
+      "category": "Calendar, Email & Productivity",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1382
+      },
+      "source_url": "https://github.com/zcbacxc/mcd-party-planner",
+      "github_repo": "zcbacxc/mcd-party-planner"
+    },
     {
       "slug": "read-microsoft-365-attachments-explicit-extraction-coverage",
       "name": "Read Microsoft 365 attachments with explicit extraction coverage",

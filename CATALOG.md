@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3221 published skills** across **17 categories** · 2,639 security reviewed · Updated 2026-11-13 13:26 UTC
+> **3224 published skills** across **17 categories** · 2,639 security reviewed · Updated 2026-11-13 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (541 skills)
+### 🛠️ Developer Tools (542 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -445,6 +445,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | Convert a finished coding-agent session into a shareable HTML replay instead of sending raw logs or bulky screen… | Security Reviewed | 621 | 4.9k/wk |
 | [Preview and approve coding-agent execution plans with Overture](skills/preview-and-approve-coding-agent-execution-plans-with-overture/) | Render an AI coding agent's plan as an interactive flowchart so a human can inspect dependencies, attach context,… | Security Reviewed | 619 | 320/wk |
 | [Share local project memory across coding agents with Memorix](skills/share-local-project-memory-across-coding-agents-with-memorix/) | Use Memorix when multiple coding agents or sessions need a shared, searchable, local-first project memory instead of… | Security Reviewed | 579 | 969/wk |
+| [Build and validate one Enferno admin feature](skills/build-validate-one-enferno-admin-feature/) | Implement one scoped admin feature using Enferno’s upstream agent skill, then review its migration, authorization,… | Security Reviewed | 571 | — |
 | [Delegate fast Gemini staffers from Codex and Claude Code with agy-staff](skills/delegate-fast-gemini-staffers-from-codex-and-claude-code-with-agy-staff/) | Use agy-staff to give Codex, Claude Code, and Pi reusable Antigravity CLI staff personas for quick research, review,… | Security Reviewed | 560 | — |
 | [Run DeepSeek Harness agent sessions from a Claude Code-style terminal TUI](skills/run-deepseek-harness-agent-sessions-from-a-claude-code-style-terminal-tui/) | Use dsh-cc-tui to run DeepSeek Harness coding-agent sessions from a full-screen terminal with live activity, context… | Security Reviewed | 558 | 255/wk |
 | [Plan, draft, publish, and review social posts from Claude Code with social-post](skills/plan-draft-publish-and-review-social-posts-from-claude-code-with-social-post/) | Install a Claude Code skill that learns a user's social voice, builds a 14-day content calendar, drafts posts, and… | Published | 555 | — |
@@ -2629,7 +2630,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Rust Crates.io Explorer](skills/rust-crates-io-explorer/) | Searches the crates.io REST API for Rust crate metadata, version diffs, and feature flag documentation. Integrates… | Published | — | — |
 
 
-### 📅 Calendar, Email & Productivity (130 skills)
+### 📅 Calendar, Email & Productivity (131 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Calendar%2C%20Email%20%26%20Productivity&sort=downloads)
 
@@ -2706,6 +2707,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Extract structured data and attachments from raw email with MailParser](skills/extract-structured-data-and-attachments-from-raw-email-mailparser/) | Use MailParser when an agent receives raw RFC822 or MIME email and needs a normalized result with headers, text,… | Security Reviewed | 1.7k | 13.7M/wk |
 | [Timewarrior Command-Line Time Tracking and Reporting](skills/timewarrior-command-line-time-tracking-reporting/) | Timewarrior is a command-line time tracking tool from the Taskwarrior project. It records time intervals with tags,… | Security Reviewed | 1.6k | — |
 | [Operate DingTalk messages, docs, approvals, and workspace tasks from agents with DingTalk Workspace CLI](skills/operate-dingtalk-messages-docs-approvals-and-workspace-tasks-from-agents-with-dingtalk-workspace-cli/) | Handle DingTalk workspace actions from one CLI surface instead of building a fresh integration for each message,… | Security Reviewed | 1.6k | — |
+| [Generate budgeted McDonald’s China group-meal plans](skills/generate-budgeted-mcdonalds-china-group-meal-plans/) | Compare nearby McDonald’s China stores and live-priced meal combinations against a group headcount and budget,… | Security Reviewed | 1.4k | — |
 | [calcurse Text-Based Calendar and Scheduling Application](skills/calcurse-text-calendar-scheduling/) | calcurse is a text-based calendar and scheduling application for the command line. It helps keep track of events,… | Security Reviewed | 1.2k | — |
 | [Apply repeatable IMAP rules to triage and clean inboxes with imapfilter](skills/apply-repeatable-imap-rules-to-triage-and-clean-inboxes-with-imapfilter/) | Route, label, and clean routine email traffic with scripted IMAP rules instead of doing the same inbox chores by hand. | Security Reviewed | 917 | — |
 | [Resend Developer Email API and Node.js SDK](skills/resend-developer-email-api-nodejs-sdk/) | Resend is a modern email API designed for developers, providing a clean SDK for sending transactional and marketing… | Published | 887 | 5.3M/wk |
@@ -2904,7 +2906,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Verify local web apps with Playwright scripts and managed dev servers](skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | Use Anthropic's webapp-testing skill to spin up one or more local servers, wait for them to become reachable, and… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (124 skills)
+### 🎨 Image & Creative Automation (125 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -2975,6 +2977,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [resvg High-Performance SVG Rendering Library in Rust](skills/resvg-svg-rendering-library-rust/) | resvg is a fast, portable SVG rendering library written in Rust that converts SVG files to PNG images with high… | Published | 3.8k | — |
 | [Run Claude Design-style UI prototyping locally with baoyu-design](skills/run-claude-design-style-ui-prototyping-locally-with-baoyu-design/) | Use baoyu-design as a portable agent skill for local UI mockups, prototypes, decks, and design-system workflows that… | Security Reviewed | 3.6k | — |
 | [Transfer clothed character poses from mannequin renders with Qwen Pose](skills/transfer-clothed-character-poses-from-mannequin-renders-with-qwen-pose/) | Apply an existing textureless 3D mannequin pose to a clothed character image through a repeatable local ComfyUI… | Security Reviewed | 3.5k | — |
+| [Inspect FreeCAD model properties and capture review views](skills/inspect-freecad-model-properties-capture-review-views/) | Inspect an open FreeCAD document through MCP, collect object properties and capture oriented views for a… | Security Reviewed | 3.3k | — |
 | [Turn a plain-language brief into a multi-step video production pipeline with OpenMontage](skills/turn-a-plain-language-brief-into-a-multi-step-video-production-pipeline-with-openmontage/) | Use OpenMontage when an agent should take a brief or reference video and run the research, scripting, asset… | Security Reviewed | 3k | — |
 | [Inspect and retrieve brand and cloud service SVG assets with theSVG](skills/retrieve-brand-cloud-service-svg-assets-thesvg/) | Resolve named brands and cloud services through theSVG’s manifest, choose available light or dark variants, and… | Published | 3k | — |
 | [Draw and verify Excalidraw diagrams through an agent canvas](skills/draw-and-verify-excalidraw-diagrams-through-an-agent-canvas/) | Use mcp_excalidraw to let coding agents create, inspect, revise, export, and commit editable Excalidraw diagrams… | Published | 2.4k | 11.7k/wk |

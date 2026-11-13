@@ -105,6 +105,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [resvg High-Performance SVG Rendering Library in Rust](../../skills/resvg-svg-rendering-library-rust/) | 3.8k | — |
 | [Run Claude Design-style UI prototyping locally with baoyu-design](../../skills/run-claude-design-style-ui-prototyping-locally-with-baoyu-design/) | 3.6k | — |
 | [Transfer clothed character poses from mannequin renders with Qwen Pose](../../skills/transfer-clothed-character-poses-from-mannequin-renders-with-qwen-pose/) | 3.5k | — |
+| [Inspect FreeCAD model properties and capture review views](../../skills/inspect-freecad-model-properties-capture-review-views/) | 3.3k | — |
 | [Turn a plain-language brief into a multi-step video production pipeline with OpenMontage](../../skills/turn-a-plain-language-brief-into-a-multi-step-video-production-pipeline-with-openmontage/) | 3k | — |
 | [Inspect and retrieve brand and cloud service SVG assets with theSVG](../../skills/retrieve-brand-cloud-service-svg-assets-thesvg/) | 3k | — |
 | [Draw and verify Excalidraw diagrams through an agent canvas](../../skills/draw-and-verify-excalidraw-diagrams-through-an-agent-canvas/) | 2.4k | 11.7k/wk |

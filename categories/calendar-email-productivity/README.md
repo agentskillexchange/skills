@@ -111,6 +111,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Extract structured data and attachments from raw email with MailParser](../../skills/extract-structured-data-and-attachments-from-raw-email-mailparser/) | 1.7k | 13.7M/wk |
 | [Timewarrior Command-Line Time Tracking and Reporting](../../skills/timewarrior-command-line-time-tracking-reporting/) | 1.6k | — |
 | [Operate DingTalk messages, docs, approvals, and workspace tasks from agents with DingTalk Workspace CLI](../../skills/operate-dingtalk-messages-docs-approvals-and-workspace-tasks-from-agents-with-dingtalk-workspace-cli/) | 1.6k | — |
+| [Generate budgeted McDonald’s China group-meal plans](../../skills/generate-budgeted-mcdonalds-china-group-meal-plans/) | 1.4k | — |
 | [calcurse Text-Based Calendar and Scheduling Application](../../skills/calcurse-text-calendar-scheduling/) | 1.2k | — |
 | [Apply repeatable IMAP rules to triage and clean inboxes with imapfilter](../../skills/apply-repeatable-imap-rules-to-triage-and-clean-inboxes-with-imapfilter/) | 917 | — |
 | [Resend Developer Email API and Node.js SDK](../../skills/resend-developer-email-api-nodejs-sdk/) | 887 | 5.3M/wk |

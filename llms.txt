@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-13
-# Total: 3221 skills
+# Total: 3224 skills
+
+## Build and validate one Enferno admin feature
+slug: build-validate-one-enferno-admin-feature
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Implement one scoped admin feature using Enferno’s upstream agent skill, then review its migration, authorization, CSRF behavior and test evidence.
+url: https://agentskillexchange.com/skills/build-validate-one-enferno-admin-feature/
+
+## Inspect FreeCAD model properties and capture review views
+slug: inspect-freecad-model-properties-capture-review-views
+category: Image & Creative Automation
+framework: MCP
+verification: Security Reviewed
+description: Inspect an open FreeCAD document through MCP, collect object properties and capture oriented views for a model-review evidence handoff.
+url: https://agentskillexchange.com/skills/inspect-freecad-model-properties-capture-review-views/
+
+## Generate budgeted McDonald’s China group-meal plans
+slug: generate-budgeted-mcdonalds-china-group-meal-plans
+category: Calendar, Email & Productivity
+framework: MCP
+verification: Security Reviewed
+description: Compare nearby McDonald’s China stores and live-priced meal combinations against a group headcount and budget, returning a plan without ordering.
+url: https://agentskillexchange.com/skills/generate-budgeted-mcdonalds-china-group-meal-plans/
 
 ## Read Microsoft 365 attachments with explicit extraction coverage
 slug: read-microsoft-365-attachments-explicit-extraction-coverage
