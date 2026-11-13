@@ -1,0 +1,4 @@
+interface:
+  display_name: "Daedalus"
+  short_description: "Test-first, surgical, validated development"
+  default_prompt: "Use $daedalus to implement this change test-first, one validated edit at a time."
