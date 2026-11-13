@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3215 published skills** across **17 categories** · 2,634 security reviewed · Updated 2026-11-13 01:26 UTC
+> **3217 published skills** across **17 categories** · 2,634 security reviewed · Updated 2026-11-13 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (539 skills)
+### 🛠️ Developer Tools (540 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -149,6 +149,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [llamafile Single-File LLM Distribution and Runner by Mozilla](skills/llamafile-single-file-llm-runner-mozilla/) | llamafile by Mozilla bundles open-source LLMs into a single portable executable that runs locally on macOS, Windows,… | Security Reviewed | 24.1k | — |
 | [Glow Terminal Markdown Renderer](skills/glow-terminal-markdown-renderer/) | Glow is a terminal-based markdown reader by Charm that renders markdown files with syntax highlighting, word… | Security Reviewed | 24.1k | — |
 | [Coordinate multi-mode coding-agent work in the IDE with Roo Code](skills/coordinate-multi-mode-coding-agent-work-in-the-ide-with-roo-code/) | Use Roo Code modes to plan, implement, debug, and review coding-agent work from inside VS Code while keeping edits,… | Published | 24k | — |
+| [Investigate repository failures with an evidence-backed Archon workflow](skills/investigate-repository-failures-evidence-backed-archon-workflow/) | Run Archon’s bounded investigation workflow to reproduce a repository failure, establish its cause and hand off a… | Security Reviewed | 23.9k | — |
 | [D2 Modern Diagram Scripting Language and CLI](skills/d2-diagram-scripting-language-cli/) | D2 is a modern diagram scripting language that turns text into diagrams. It compiles declarative text files into… | Security Reviewed | 23.3k | 14.1k/wk |
 | [Gum Interactive Shell Script Toolkit](skills/gum-interactive-shell-script-toolkit/) | Gum by Charmbracelet is a tool for building glamorous shell scripts. It provides configurable terminal UI components… | Security Reviewed | 23.2k | — |
 | [Add IDE-style semantic code navigation and symbol-safe refactors to coding agents through Serena](skills/add-ide-style-semantic-code-navigation-and-symbol-safe-refactors-to-coding-agents-through-serena/) | Give a coding agent symbol-aware lookup, cross-file rename, and structural edit tools before it starts making… | Security Reviewed | 23k | — |
@@ -833,7 +834,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown,… | Published | — | — |
 
 
-### 🔒 Security & Verification (258 skills)
+### 🔒 Security & Verification (259 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -1010,6 +1011,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Audit Python environments and requirements files for known vulnerabilities with pip-audit](skills/audit-python-environments-and-requirements-files-for-known-vulnerabilities-with-pip-audit/) | Check Python environments and requirements files for published vulnerabilities before shipping, upgrading, or… | Security Reviewed | 1.3k | — |
 | [Scan agent dependencies and container inputs with OWASP dep-scan](skills/scan-agent-dependencies-and-container-inputs-with-owasp-dep-scan/) | Run OWASP dep-scan before adopting dependencies, containers, or generated code so agents get a reviewable… | Security Reviewed | 1.3k | — |
 | [Suspend and resume stateful agent sandbox jobs with SPACE](skills/suspend-and-resume-stateful-agent-sandbox-jobs-with-space/) | Run a stateful job in self-hosted SPACE, preserve sandbox state across suspension, and reconcile operation IDs,… | Security Reviewed | 1.1k | — |
+| [Produce read-only cloud security and FinOps findings with StackQL](skills/produce-read-only-cloud-security-finops-findings-stackql/) | Run StackQL’s pinned Docker audit against approved cloud scopes and return security findings, waste estimates and… | Security Reviewed | 1.1k | — |
 | [Sign agent-made Git commits with gitsign](skills/sign-agent-made-git-commits-with-gitsign/) | Apply keyless Sigstore-backed signatures to Git commits so automated changes retain verifiable provenance. | Security Reviewed | 1.1k | — |
 | [Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit](skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit/) | Run deterministic governance checks and policy verification before agents get real autonomy, so risky tool use and… | Security Reviewed | 1.1k | 20.9k/wk |
 | [Evaluate model-generated code execution with SandboxFusion](skills/evaluate-model-generated-code-execution-with-sandboxfusion/) | Use SandboxFusion to run and judge LLM-generated code in controlled sandboxes across many languages and… | Security Reviewed | 1k | — |
@@ -1164,7 +1166,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [GraphQL Data Federation Agent](skills/graphql-data-federation-agent/) | Federates data from multiple GraphQL and REST APIs using Apollo Federation gateway. Implements schema stitching with… | Security Reviewed | 20.3k | 34.2M/wk |
 | [GraphQL Schema Introspection Mapper](skills/graphql-schema-introspection-mapper/) | Introspects GraphQL APIs via the __schema query and maps type relationships, deprecated fields, and circular… | Security Reviewed | 20.3k | 34.2M/wk |
 | [Surya Document OCR with Layout Analysis and Table Recognition](skills/surya-document-ocr-layout-analysis-table-recognition/) | Surya is a document OCR toolkit by Datalab that performs OCR in 90+ languages, line-level text detection, layout… | Security Reviewed | 19.5k | — |
-| [Extract structured markdown, JSON, and tagged-PDF-ready outputs from PDFs with OpenDataLoader PDF](skills/extract-structured-markdown-json-and-tagged-pdf-ready-outputs-from-pdfs-with-opendataloader-pdf/) | Convert PDFs into LLM-ready markdown or coordinate-aware JSON, and use the same pipeline for tagged-PDF… | Security Reviewed | 19.1k | — |
+| [Extract structured markdown, JSON, and tagged-PDF-ready outputs from PDFs with OpenDataLoader PDF](skills/extract-structured-markdown-json-and-tagged-pdf-ready-outputs-from-pdfs-with-opendataloader-pdf/) | Convert PDFs into LLM-ready markdown or coordinate-aware JSON, and use the same pipeline for tagged-PDF… | Security Reviewed | 19.1k | 23.8k/wk |
 | [gallery-dl Image Gallery and Collection Downloader](skills/gallery-dl-image-gallery-collection-downloader/) | gallery-dl is a command-line tool for downloading image galleries and collections from dozens of hosting sites… | Security Reviewed | 17.5k | — |
 | [Convert dense PDFs into LLM-ready text and page-aligned markdown with olmOCR](skills/convert-dense-pdfs-into-llm-ready-text-and-page-aligned-markdown-with-olmocr/) | Use olmOCR when an agent needs to turn scanned or layout-heavy documents into clean markdown or text before… | Security Reviewed | 17.1k | — |
 | [Maxun No-Code Web Data Extraction Platform](skills/maxun-no-code-web-data-extraction/) | Maxun is an open-source no-code web data platform for turning any website into structured, reliable data. It… | Security Reviewed | 15.3k | — |
@@ -1541,7 +1543,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Spell-check docs and code comments with source-aware filters using pyspelling](skills/spell-check-docs-and-code-comments-with-source-aware-filters-using-pyspelling/) | Run filtered spell checks over Markdown, Sphinx, HTML, or code comments without flattening everything into one noisy… | Security Reviewed | 94 | — |
 | [Catch silent agent regressions by diffing outputs and tool traces in CI with eval-view](skills/catch-silent-agent-regressions-by-diffing-outputs-and-tool-traces-in-ci-with-eval-view/) | Snapshot agent behavior, compare outputs and tool-call paths, and block releases when a model or prompt change… | Security Reviewed | 84 | — |
 | [Run code review and PR autofix workflows with CodeRabbit Skills](skills/run-code-review-and-pr-autofix-workflows-with-coderabbit-skills/) | Trigger CodeRabbit review passes from an agent and work unresolved PR feedback threads into guided or batch autofix… | Security Reviewed | 73 | — |
-| [Audit Apple-platform UI work against Human Interface Guidelines with HIG Doctor](skills/audit-apple-platform-ui-work-against-human-interface-guidelines-with-hig-doctor/) | Run a repeatable HIG compliance audit over app code before shipping UI changes, then use the findings to guide… | Security Reviewed | 44 | — |
+| [Audit Apple-platform UI work against Human Interface Guidelines with HIG Doctor](skills/audit-apple-platform-ui-work-against-human-interface-guidelines-with-hig-doctor/) | Run a repeatable HIG compliance audit over app code before shipping UI changes, then use the findings to guide… | Security Reviewed | 44 | 1.4k/wk |
 | [Benchmark deep research agents across factual, quality, and process dimensions with MiroEval](skills/benchmark-deep-research-agents-across-factual-quality-and-process-dimensions-with-miroeval/) | Score deep research agents on benchmark tasks using factual verification, report-quality scoring, and process… | Published | 34 | — |
 | [Add a browser review checkpoint before risky agent actions with AgentClick](skills/add-a-browser-review-checkpoint-before-risky-agent-actions-with-agentclick/) | Use AgentClick when an agent should pause before risky commands, plans, drafts, or code changes so a human can… | Security Reviewed | 22 | 9/wk |
 | [Test Claude Code plugin and skill triggering with staged eval runs using cc-plugin-eval](skills/test-claude-code-plugin-and-skill-triggering-with-staged-eval-runs-using-cc-plugin-eval/) | Run staged evaluations against a Claude Code plugin to verify that skills, agents, commands, hooks, and MCP… | Security Reviewed | 16 | — |

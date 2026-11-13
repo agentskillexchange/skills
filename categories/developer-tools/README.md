@@ -175,6 +175,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [llamafile Single-File LLM Distribution and Runner by Mozilla](../../skills/llamafile-single-file-llm-runner-mozilla/) | 24.1k | — |
 | [Glow Terminal Markdown Renderer](../../skills/glow-terminal-markdown-renderer/) | 24.1k | — |
 | [Coordinate multi-mode coding-agent work in the IDE with Roo Code](../../skills/coordinate-multi-mode-coding-agent-work-in-the-ide-with-roo-code/) | 24k | — |
+| [Investigate repository failures with an evidence-backed Archon workflow](../../skills/investigate-repository-failures-evidence-backed-archon-workflow/) | 23.9k | — |
 | [D2 Modern Diagram Scripting Language and CLI](../../skills/d2-diagram-scripting-language-cli/) | 23.3k | 14.1k/wk |
 | [Gum Interactive Shell Script Toolkit](../../skills/gum-interactive-shell-script-toolkit/) | 23.2k | — |
 | [Add IDE-style semantic code navigation and symbol-safe refactors to coding agents through Serena](../../skills/add-ide-style-semantic-code-navigation-and-symbol-safe-refactors-to-coding-agents-through-serena/) | 23k | — |

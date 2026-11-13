@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-13
-# Total: 3215 skills
+# Total: 3217 skills
+
+## Produce read-only cloud security and FinOps findings with StackQL
+slug: produce-read-only-cloud-security-finops-findings-stackql
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run StackQL’s pinned Docker audit against approved cloud scopes and return security findings, waste estimates and coverage gaps from its JSON artifact.
+url: https://agentskillexchange.com/skills/produce-read-only-cloud-security-finops-findings-stackql/
+
+## Investigate repository failures with an evidence-backed Archon workflow
+slug: investigate-repository-failures-evidence-backed-archon-workflow
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run Archon’s bounded investigation workflow to reproduce a repository failure, establish its cause and hand off a saved evidence report before implementation.
+url: https://agentskillexchange.com/skills/investigate-repository-failures-evidence-backed-archon-workflow/
 
 ## Edit and verify a scoped Jupyter notebook task through MCP
 slug: edit-verify-scoped-jupyter-notebook-task-mcp

@@ -228,7 +228,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Spell-check docs and code comments with source-aware filters using pyspelling](../../skills/spell-check-docs-and-code-comments-with-source-aware-filters-using-pyspelling/) | 94 | — |
 | [Catch silent agent regressions by diffing outputs and tool traces in CI with eval-view](../../skills/catch-silent-agent-regressions-by-diffing-outputs-and-tool-traces-in-ci-with-eval-view/) | 84 | — |
 | [Run code review and PR autofix workflows with CodeRabbit Skills](../../skills/run-code-review-and-pr-autofix-workflows-with-coderabbit-skills/) | 73 | — |
-| [Audit Apple-platform UI work against Human Interface Guidelines with HIG Doctor](../../skills/audit-apple-platform-ui-work-against-human-interface-guidelines-with-hig-doctor/) | 44 | — |
+| [Audit Apple-platform UI work against Human Interface Guidelines with HIG Doctor](../../skills/audit-apple-platform-ui-work-against-human-interface-guidelines-with-hig-doctor/) | 44 | 1.4k/wk |
 | [Benchmark deep research agents across factual, quality, and process dimensions with MiroEval](../../skills/benchmark-deep-research-agents-across-factual-quality-and-process-dimensions-with-miroeval/) | 34 | — |
 | [Add a browser review checkpoint before risky agent actions with AgentClick](../../skills/add-a-browser-review-checkpoint-before-risky-agent-actions-with-agentclick/) | 22 | 9/wk |
 | [Test Claude Code plugin and skill triggering with staged eval runs using cc-plugin-eval](../../skills/test-claude-code-plugin-and-skill-triggering-with-staged-eval-runs-using-cc-plugin-eval/) | 16 | — |

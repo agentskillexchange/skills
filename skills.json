@@ -1,8 +1,36 @@
 {
   "version": "2.0",
-  "total": 3215,
+  "total": 3217,
   "generated": "2026-11-13",
   "skills": [
+    {
+      "slug": "produce-read-only-cloud-security-finops-findings-stackql",
+      "name": "Produce read-only cloud security and FinOps findings with StackQL",
+      "title": "Produce read-only cloud security and FinOps findings with StackQL",
+      "description": "Run StackQL’s pinned Docker audit against approved cloud scopes and return security findings, waste estimates and coverage gaps from its JSON artifact.",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1080
+      },
+      "source_url": "https://github.com/stackql/stackql",
+      "github_repo": "stackql/stackql"
+    },
+    {
+      "slug": "investigate-repository-failures-evidence-backed-archon-workflow",
+      "name": "Investigate repository failures with an evidence-backed Archon workflow",
+      "title": "Investigate repository failures with an evidence-backed Archon workflow",
+      "description": "Run Archon’s bounded investigation workflow to reproduce a repository failure, establish its cause and hand off a saved evidence report before implementation.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 23908
+      },
+      "source_url": "https://github.com/coleam00/Archon",
+      "github_repo": "coleam00/Archon"
+    },
     {
       "slug": "edit-verify-scoped-jupyter-notebook-task-mcp",
       "name": "Edit and verify a scoped Jupyter notebook task through MCP",
@@ -12618,7 +12646,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 44
+        "github_stars": 44,
+        "npm_weekly_downloads": 1432
       },
       "source_url": "https://github.com/raintree-technology/hig-doctor",
       "github_repo": "raintree-technology/hig-doctor"
@@ -12674,7 +12703,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 19060
+        "github_stars": 19060,
+        "npm_weekly_downloads": 23771
       },
       "source_url": "https://github.com/opendataloader-project/opendataloader-pdf",
       "github_repo": "opendataloader-project/opendataloader-pdf"

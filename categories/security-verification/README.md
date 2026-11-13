@@ -211,6 +211,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Audit Python environments and requirements files for known vulnerabilities with pip-audit](../../skills/audit-python-environments-and-requirements-files-for-known-vulnerabilities-with-pip-audit/) | 1.3k | — |
 | [Scan agent dependencies and container inputs with OWASP dep-scan](../../skills/scan-agent-dependencies-and-container-inputs-with-owasp-dep-scan/) | 1.3k | — |
 | [Suspend and resume stateful agent sandbox jobs with SPACE](../../skills/suspend-and-resume-stateful-agent-sandbox-jobs-with-space/) | 1.1k | — |
+| [Produce read-only cloud security and FinOps findings with StackQL](../../skills/produce-read-only-cloud-security-finops-findings-stackql/) | 1.1k | — |
 | [Sign agent-made Git commits with gitsign](../../skills/sign-agent-made-git-commits-with-gitsign/) | 1.1k | — |
 | [Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit](../../skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit/) | 1.1k | 20.9k/wk |
 | [Evaluate model-generated code execution with SandboxFusion](../../skills/evaluate-model-generated-code-execution-with-sandboxfusion/) | 1k | — |
