@@ -1,0 +1,4 @@
+interface:
+  display_name: "Local UIs"
+  short_description: "Find and open locally running web interfaces"
+  default_prompt: "Use $local-uis to discover the HTTP interfaces currently running on this machine."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bitwarden Lease"
+  short_description: "One secure Bitwarden unlock per 24 hours"
+  default_prompt: "Use $bitwarden-lease to install, unlock, inspect, or safely consume the local 24-hour Bitwarden lease."

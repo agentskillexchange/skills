@@ -1,0 +1,4 @@
+interface:
+  display_name: "Archivum"
+  short_description: "Durable memory for projects and research"
+  default_prompt: "Use $archivum to find this workspace, resume the relevant work, and write durable state back with sources."
