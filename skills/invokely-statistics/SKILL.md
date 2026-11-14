@@ -2,12 +2,14 @@
 name: "Invokely Statistics"
 slug: "invokely-statistics"
 description: "Use Invokely's hosted MCP tools to find and cite official statistics. Use when an agent needs indicator discovery, place resolution, values, time series, comparisons, or geographic rankings."
+github_stars: 0
 verification: "listed"
 source: "https://github.com/estevecastells/awesome-copilot"
 category: "Data Extraction & Transformation"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "estevecastells/awesome-copilot"
+  github_stars: 0
 ---
 
 # Invokely Statistics
