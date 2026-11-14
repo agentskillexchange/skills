@@ -1,9 +1,31 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-11-13",
-  "total": 3224,
+  "generated": "2026-11-14",
+  "total": 3226,
   "skills": [
+    {
+      "slug": "run-mock-robotics-benchmark-review-evidence-inspect-robots",
+      "name": "Run a mock robotics benchmark and review evidence with Inspect Robots",
+      "title": "Run a mock robotics benchmark and review evidence with Inspect Robots",
+      "description": "Run the built-in CubePick benchmark with a scripted policy, inspect resolved configuration and scores, and render saved robotics evaluation logs for review.",
+      "category": "Code Quality & Review",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/robocurve/inspect-robots",
+      "github_repo": "robocurve/inspect-robots"
+    },
+    {
+      "slug": "diagnose-retrieved-but-unused-agent-skills-ratel-mcp",
+      "name": "Diagnose retrieved-but-unused agent skills through Ratel MCP",
+      "title": "Diagnose retrieved-but-unused agent skills through Ratel MCP",
+      "description": "Compare skill retrievals with actual invocations through Ratel MCP, inspect the queries behind unused matches, and return an evidence-backed catalog diagnosis.",
+      "category": "Monitoring & Alerts",
+      "framework": "MCP",
+      "verification": "listed",
+      "source_url": "https://github.com/ratel-ai/ratel",
+      "github_repo": "ratel-ai/ratel"
+    },
     {
       "slug": "build-validate-one-enferno-admin-feature",
       "name": "Build and validate one Enferno admin feature",

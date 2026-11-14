@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C224-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C226-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C640-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,224 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,226 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Run persistent local computer-use agents with invisible_dots](skills/run-persistent-local-computer-use-agents-with-invisible-dots/)** — Give each agent its own local QEMU desktop, browser identity, files, memory, task queue, and approval rules for supervised long-running web and computer workflows.
+**[Provision secure disposable development sandboxes for AI-generated code with Daytona](skills/provision-secure-disposable-development-sandboxes-for-ai-generated-code-with-daytona/)** — Spin up isolated, reproducible sandboxes where agents can run generated code, install dependencies, execute tests, and discard state safely.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Run a mock robotics benchmark and review evidence with Inspect Robots](skills/run-mock-robotics-benchmark-review-evidence-inspect-robots/) | Run the built-in CubePick benchmark with a scripted policy, inspect resolved configuration and scores, and render saved robotics... | 757 | Code Quality & Review |
+| [Diagnose retrieved-but-unused agent skills through Ratel MCP](skills/diagnose-retrieved-but-unused-agent-skills-ratel-mcp/) | Compare skill retrievals with actual invocations through Ratel MCP, inspect the queries behind unused matches, and return an... | 561 | Monitoring & Alerts |
 | [Build and validate one Enferno admin feature](skills/build-validate-one-enferno-admin-feature/) | Implement one scoped admin feature using Enferno’s upstream agent skill, then review its migration, authorization, CSRF behavior and... | 571 | Developer Tools |
 | [Inspect FreeCAD model properties and capture review views](skills/inspect-freecad-model-properties-capture-review-views/) | Inspect an open FreeCAD document through MCP, collect object properties and capture oriented views for a model-review evidence... | 3.3k | Image & Creative Automation |
 | [Generate budgeted McDonald’s China group-meal plans](skills/generate-budgeted-mcdonalds-china-group-meal-plans/) | Compare nearby McDonald’s China stores and live-priced meal combinations against a group headcount and budget, returning a plan... | 1.4k | Calendar, Email & Productivity |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Inspect Unreal Editor state and capture visual evidence with EngineWire](skills/inspect-unreal-editor-state-visual-evidence-enginewire/) | Connect an MCP agent to EngineWire, inspect the current Unreal Editor selection and viewport, and return screenshots with... | 1.0k | Image & Creative Automation |
 | [Run bounded metric-improvement experiments with MiMoCode](skills/run-bounded-metric-improvement-experiments-mimocode/) | Run MiMoCode’s opt-in experiment workflow against a fixed evaluation budget, then review kept changes, measured deltas and an... | 13.8k | Developer Tools |
 | [Produce read-only cloud security and FinOps findings with StackQL](skills/produce-read-only-cloud-security-finops-findings-stackql/) | Run StackQL’s pinned Docker audit against approved cloud scopes and return security findings, waste estimates and coverage gaps... | 1.1k | Security & Verification |
-| [Investigate repository failures with an evidence-backed Archon workflow](skills/investigate-repository-failures-evidence-backed-archon-workflow/) | Run Archon’s bounded investigation workflow to reproduce a repository failure, establish its cause and hand off a saved... | 23.9k | Developer Tools |
-| [Edit and verify a scoped Jupyter notebook task through MCP](skills/edit-verify-scoped-jupyter-notebook-task-mcp/) | Connect an external MCP agent to a selected Jupyter notebook, make bounded cell edits, execute the affected analysis... | 1.3k | Developer Tools |
 
 ---
 
@@ -144,11 +144,11 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 270 | Scaffolders, boilerplate generators, workflow templates |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 259 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 241 | ETL pipelines, parsing, format conversion |
-| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 213 | Linting, code review, test generators, coverage |
+| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 214 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 193 | Pipeline configs, deployment automation, build tooling |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 190 | Third-party API bridges, webhooks, service connectors |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 186 | Incident response, troubleshooting, system diagnostics |
-| 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 163 | Metrics, alerting rules, observability |
+| 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 164 | Metrics, alerting rules, observability |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 143 | Web research, content discovery, data collection |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 134 | SDK docs, API parsers, symbol resolvers |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 131 | Email automation, calendar management, task coordination |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,224 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 3,226 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,640 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

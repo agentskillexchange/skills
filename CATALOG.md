@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3224 published skills** across **17 categories** · 2,640 security reviewed · Updated 2026-11-13 19:26 UTC
+> **3226 published skills** across **17 categories** · 2,640 security reviewed · Updated 2026-11-14 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1352,7 +1352,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (213 skills)
+### ✅ Code Quality & Review (214 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1512,6 +1512,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Gate Diff Only Test Coverage On Changed Lines Before Merging With Diff Cover](skills/gate-diff-only-test-coverage-on-changed-lines-before-merging-with-diff-cover/) | Compare coverage reports against a git diff so an agent can flag newly changed lines that still lack tests before merge. | Security Reviewed | 828 | — |
 | [Review agent-authored diffs in terminal with herdr-reviewr](skills/review-agent-authored-diffs-in-terminal-with-herdr-reviewr/) | Open a terminal review pane beside a coding agent, inspect changed files, add line comments, and send structured… | Security Reviewed | 825 | — |
 | [Give coding agents repository search and call graphs with CodeSeek](skills/give-coding-agents-repository-search-and-call-graphs-with-codeseek/) | Install CodeSeek to index a repository, expose semantic search and call-graph queries, and register MCP tools for… | Security Reviewed | 818 | 224/wk |
+| [Run a mock robotics benchmark and review evidence with Inspect Robots](skills/run-mock-robotics-benchmark-review-evidence-inspect-robots/) | Run the built-in CubePick benchmark with a scripted policy, inspect resolved configuration and scores, and render… | Security Reviewed | 757 | — |
 | [Gate dbt projects with pre-commit checks from dbt-checkpoint](skills/gate-dbt-projects-with-pre-commit-checks-from-dbt-checkpoint/) | Use dbt-checkpoint when an agent should catch dbt naming, dependency, metadata, and model-hygiene issues before… | Security Reviewed | 738 | — |
 | [Lint protobuf definitions for style and correctness before code generation and review churn begin with protolint](skills/lint-protobuf-definitions-for-style-and-correctness-before-code-generation-and-review-churn-begin-with-protolint/) | Catch naming, formatting, and protobuf rule violations early so generated clients and reviews are cleaner. | Security Reviewed | 685 | 2.2k/wk |
 | [Enforce Python Docstring Coverage Thresholds with interrogate](skills/enforce-python-docstring-coverage-thresholds-with-interrogate/) | Measure Python docstring coverage and fail a docs-quality gate when code drops below an agreed threshold. | Security Reviewed | 662 | — |
@@ -2166,7 +2167,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (163 skills)
+### 📊 Monitoring & Alerts (164 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -2302,6 +2303,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Gate agent regressions from production traces with Tracely](skills/gate-agent-regressions-from-production-traces-with-tracely/) | Turn failing AI-agent production traces into hermetic regression cases and CI gates with Tracely. | Security Reviewed | 643 | — |
 | [Sentry MCP Server for Error Tracking and Performance](skills/sentry-mcp-server-error-tracking-performance/) | The official Sentry MCP server gives AI agents access to Sentry error tracking, issue management, and performance… | Security Reviewed | 615 | 49.6k/wk |
 | [Track coding-agent quota burn and remaining headroom across providers with onWatch](skills/track-coding-agent-quota-burn-and-remaining-headroom-across-providers-with-onwatch/) | Monitor quota, spend, resets, and alerts across multiple coding-agent providers from one local dashboard before a… | Security Reviewed | 580 | — |
+| [Diagnose retrieved-but-unused agent skills through Ratel MCP](skills/diagnose-retrieved-but-unused-agent-skills-ratel-mcp/) | Compare skill retrievals with actual invocations through Ratel MCP, inspect the queries behind unused matches, and… | Published | 561 | — |
 | [PostHog Product Analytics and Feature Flags SDK](skills/posthog-product-analytics-and-feature-flags-sdk/) | Use PostHog to capture product analytics events, identify users, evaluate feature flags, and route experimentation… | Published | 531 | 4.8M/wk |
 | [Grafana Dashboard as Code Generator](skills/grafana-dashboard-as-code-generator/) | Generates Grafana dashboards programmatically using Grafonnet (jsonnet), the Grafana HTTP API, and grafana-toolkit.… | Security Reviewed | 528 | — |
 | [Record system-level agent activity with AgentSight](skills/record-system-level-agent-activity-with-agentsight/) | Wrap Claude Code, Codex, Gemini CLI, OpenClaw, or another agent command with AgentSight to capture processes, files,… | Security Reviewed | 469 | 18/wk |

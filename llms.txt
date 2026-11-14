@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-11-13
-# Total: 3224 skills
+# Generated: 2026-11-14
+# Total: 3226 skills
+
+## Run a mock robotics benchmark and review evidence with Inspect Robots
+slug: run-mock-robotics-benchmark-review-evidence-inspect-robots
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run the built-in CubePick benchmark with a scripted policy, inspect resolved configuration and scores, and render saved robotics evaluation logs for review.
+url: https://agentskillexchange.com/skills/run-mock-robotics-benchmark-review-evidence-inspect-robots/
+
+## Diagnose retrieved-but-unused agent skills through Ratel MCP
+slug: diagnose-retrieved-but-unused-agent-skills-ratel-mcp
+category: Monitoring & Alerts
+framework: MCP
+verification: Published
+description: Compare skill retrievals with actual invocations through Ratel MCP, inspect the queries behind unused matches, and return an evidence-backed catalog diagnosis.
+url: https://agentskillexchange.com/skills/diagnose-retrieved-but-unused-agent-skills-ratel-mcp/
 
 ## Build and validate one Enferno admin feature
 slug: build-validate-one-enferno-admin-feature

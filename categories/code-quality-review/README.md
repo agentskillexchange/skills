@@ -194,6 +194,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Gate Diff Only Test Coverage On Changed Lines Before Merging With Diff Cover](../../skills/gate-diff-only-test-coverage-on-changed-lines-before-merging-with-diff-cover/) | 828 | — |
 | [Review agent-authored diffs in terminal with herdr-reviewr](../../skills/review-agent-authored-diffs-in-terminal-with-herdr-reviewr/) | 825 | — |
 | [Give coding agents repository search and call graphs with CodeSeek](../../skills/give-coding-agents-repository-search-and-call-graphs-with-codeseek/) | 818 | 224/wk |
+| [Run a mock robotics benchmark and review evidence with Inspect Robots](../../skills/run-mock-robotics-benchmark-review-evidence-inspect-robots/) | 757 | — |
 | [Gate dbt projects with pre-commit checks from dbt-checkpoint](../../skills/gate-dbt-projects-with-pre-commit-checks-from-dbt-checkpoint/) | 738 | — |
 | [Lint protobuf definitions for style and correctness before code generation and review churn begin with protolint](../../skills/lint-protobuf-definitions-for-style-and-correctness-before-code-generation-and-review-churn-begin-with-protolint/) | 685 | 2.2k/wk |
 | [Enforce Python Docstring Coverage Thresholds with interrogate](../../skills/enforce-python-docstring-coverage-thresholds-with-interrogate/) | 662 | — |
