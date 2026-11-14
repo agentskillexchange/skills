@@ -2,8 +2,41 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-14",
-  "total": 3228,
+  "total": 3231,
   "skills": [
+    {
+      "slug": "verify-signed-agent-run-evidence-offline-with-tracekit",
+      "name": "Verify signed agent-run evidence offline with Tracekit",
+      "title": "Verify signed agent-run evidence offline with Tracekit",
+      "description": "Check an authorized Tracekit bundle against pinned signer keys and report integrity verdicts separately from execution and completeness claims.",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Cygnux-Labs/Tracekit",
+      "github_repo": "Cygnux-Labs/Tracekit"
+    },
+    {
+      "slug": "re-embed-openclaw-memory-into-a-fresh-lancedb-store",
+      "name": "Re-embed OpenClaw memory into a fresh LanceDB store",
+      "title": "Re-embed OpenClaw memory into a fresh LanceDB store",
+      "description": "Plan and verify an OpenClaw memory embedding cutover using a complete store backup, a dry run and matching row counts.",
+      "category": "Integrations & Connectors",
+      "framework": "OpenClaw",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/CortexReach/memory-lancedb-pro",
+      "github_repo": "CortexReach/memory-lancedb-pro"
+    },
+    {
+      "slug": "audit-local-agent-runs-and-select-hook-policies-with-failproof-ai",
+      "name": "Audit local agent runs and select hook policies with Failproof AI",
+      "title": "Audit local agent runs and select hook policies with Failproof AI",
+      "description": "Review local harness history, identify risky tool patterns, and prepare a source-backed policy-pack rollout across supported agent runtimes.",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/FailproofAI/failproofai",
+      "github_repo": "FailproofAI/failproofai"
+    },
     {
       "slug": "preview-azure-app-infrastructure-and-service-deployments-with-azd",
       "name": "Preview Azure app infrastructure and service deployments with azd",

@@ -30,9 +30,9 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Sanitize untrusted HTML fragments before rendering previews, comments, or CMS content with DOMPurify](../../skills/sanitize-untrusted-html-fragments-before-rendering-previews-comments-or-cms-content-dompurify/) | ⬇ 165.2M/wk |
 | [Route risky coding-agent work through human approval checkpoints with HumanLayer](../../skills/route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer/) | ⬇ 694/wk |
 | [Magika AI File Type Detection and Content Classification](../../skills/magika-ai-file-type-detection-and-content-classification/) | ⬇ 4.6k/wk |
+| [Audit local agent runs and select hook policies with Failproof AI](../../skills/audit-local-agent-runs-and-select-hook-policies-with-failproof-ai/) | ⬇ 570/wk |
 | [Gate agent inputs and outputs with Superagent safety checks](../../skills/gate-agent-inputs-and-outputs-with-superagent-safety-checks/) | ⬇ 43.7k/wk |
 | [Dependency Vulnerability Scanner](../../skills/dependency-vulnerability-scanner-agent/) | ⬇ 2.6M/wk |
-| [NPM Package Supply Chain Auditor](../../skills/npm-package-supply-chain-auditor/) | ⬇ 2.6M/wk |
 
 ---
 
@@ -114,6 +114,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Seal Kubernetes Secrets into Git-safe manifests with kubeseal](../../skills/seal-kubernetes-secrets-into-git-safe-manifests-with-kubeseal/) | 9k | — |
 | [Probe public TLS endpoints for protocol, cipher, and certificate weaknesses before rollout with testssl.sh](../../skills/probe-public-tls-endpoints-for-protocol-cipher-and-certificate-weaknesses-before-rollout-with-testssl-sh/) | 9k | — |
 | [Container Runtime Security Monitor](../../skills/container-runtime-security-monitor/) | 8.9k | — |
+| [Audit local agent runs and select hook policies with Failproof AI](../../skills/audit-local-agent-runs-and-select-hook-policies-with-failproof-ai/) | 8.9k | 570/wk |
 | [Hanko Open Source Passkey Authentication and User Management](../../skills/hanko-passkey-authentication-platform/) | 8.9k | — |
 | [Falco Runtime Security Monitor](../../skills/falco-runtime-security-monitor/) | 8.9k | — |
 | [SBOM Generator and CVE Matcher](../../skills/sbom-generator-cve-matcher/) | 8.9k | — |
@@ -225,6 +226,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Scan MCP servers for security findings before connecting them to agents with MCP Scanner](../../skills/scan-mcp-servers-for-security-findings-before-connecting-them-to-agents-with-mcp-scanner/) | 889 | — |
 | [Encrypt and decrypt age secrets with hardware-backed YubiKey identities](../../skills/encrypt-and-decrypt-age-secrets-with-hardware-backed-yubikey-identities/) | 881 | — |
 | [Detect repository licenses before dependency approval or open-source due diligence](../../skills/detect-repository-licenses-before-dependency-approval-or-open-source-due-diligence/) | 876 | — |
+| [Verify signed agent-run evidence offline with Tracekit](../../skills/verify-signed-agent-run-evidence-offline-with-tracekit/) | 726 | — |
 | [Betterleaks Next-Generation Secrets Scanner](../../skills/betterleaks-secrets-scanner/) | 712 | — |
 | [Turn IDE security scan findings into prioritized backlog tasks with DevoxxGenie](../../skills/turn-ide-security-scan-findings-into-backlog-tasks-with-devoxxgenie/) | 691 | — |
 | [Verify Packages Are Reproducibly Rebuildable Before Trusting Artifacts With Oss Rebuild](../../skills/verify-packages-are-reproducibly-rebuildable-before-trusting-artifacts-with-oss-rebuild/) | 687 | — |

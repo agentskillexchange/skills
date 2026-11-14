@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-14
-# Total: 3228 skills
+# Total: 3231 skills
+
+## Verify signed agent-run evidence offline with Tracekit
+slug: verify-signed-agent-run-evidence-offline-with-tracekit
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Check an authorized Tracekit bundle against pinned signer keys and report integrity verdicts separately from execution and completeness claims.
+url: https://agentskillexchange.com/skills/verify-signed-agent-run-evidence-offline-with-tracekit/
+
+## Re-embed OpenClaw memory into a fresh LanceDB store
+slug: re-embed-openclaw-memory-into-a-fresh-lancedb-store
+category: Integrations & Connectors
+framework: OpenClaw
+verification: Security Reviewed
+description: Plan and verify an OpenClaw memory embedding cutover using a complete store backup, a dry run and matching row counts.
+url: https://agentskillexchange.com/skills/re-embed-openclaw-memory-into-a-fresh-lancedb-store/
+
+## Audit local agent runs and select hook policies with Failproof AI
+slug: audit-local-agent-runs-and-select-hook-policies-with-failproof-ai
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Review local harness history, identify risky tool patterns, and prepare a source-backed policy-pack rollout across supported agent runtimes.
+url: https://agentskillexchange.com/skills/audit-local-agent-runs-and-select-hook-policies-with-failproof-ai/
 
 ## Preview Azure app infrastructure and service deployments with azd
 slug: preview-azure-app-infrastructure-and-service-deployments-with-azd
