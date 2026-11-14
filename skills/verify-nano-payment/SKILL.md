@@ -163,6 +163,38 @@ confirmed, pays the expected account, for at least the expected raw amount.
 The hash may be the payer's `send` block or your own `receive`/`open` block; any
 other subtype (`change`, `epoch`) is rejected with `NOT_A_PAYMENT`.
 
+## Optional: bind the payment to one order and credit it once
+
+The check above proves money arrived, not which request it paid for. A Nano
+block has no memo and block hashes are public, so anyone who sees a payment to
+your address can present its hash for their own request. The
+`verify_payment.py` in this directory takes three optional flags (off unless
+given; without them it behaves exactly as above). They need `nano_binding.py`,
+also in this directory and also standard library only:
+
+- `--order-id ID`: the block must be a confirmed `send` of exactly the third
+  argument in raw to your address, and its `representative` must be this
+  order's commitment, `sha256("xno-binding/v1/rep|" + order_id + "|" + pay_to + "|" + price_raw)`
+  encoded as a `nano_` account (`nano_binding.commitment_rep_account`). The
+  payer signs that block, so it pays this order and no other. Give the payer
+  the order id and the exact raw price in your quote.
+- `--claims-file PATH`: each block is credited once, and each order by one
+  block. The claim is appended and fsynced before the `OK`, so a restart does
+  not let an old block pay again. Exit `1` with `ALREADY_CLAIMED` otherwise.
+  One payment has two hashes (the payer's send and your receive); used
+  without `--order-id`, accept only one of the two kinds. With `--order-id`
+  only the send is accepted.
+- `--rpc URL` (or `NANO_RPC_URL`): read from your own node; plain `http` is
+  accepted only on localhost.
+
+```bash
+python3 verify_payment.py <SEND_BLOCK_HASH> <YOUR_NANO_ADDRESS> <EXACT_PRICE_RAW> \
+  --order-id <ORDER_ID> --claims-file ./nano-claims.jsonl
+```
+
+The address is checksum-checked before any read. Tests (no network):
+`python3 -m unittest discover -s skills/verify-nano-payment -p 'test_*.py'`.
+
 ## Safety
 
 - This skill only READS the public ledger. Never add `private_key`, `wallet`,
