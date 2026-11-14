@@ -218,6 +218,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Run a Docling API server for agent document conversion](../../skills/run-a-docling-api-server-for-agent-document-conversion/) | 1.7k | — |
 | [Expose guarded database connections to agents with Data Peek](../../skills/expose-guarded-database-connections-to-agents-with-data-peek/) | 1.7k | 99/wk |
 | [Anyquery Universal SQL Engine with MCP Integration](../../skills/anyquery-universal-sql-engine-mcp-integration/) | 1.7k | — |
+| [Regression-test Apache Hop pipelines against golden data](../../skills/regression-test-apache-hop-pipelines-against-golden-data/) | 1.5k | — |
 | [Let agents draft and manage Bdash SQL queries through MCP](../../skills/let-agents-draft-and-manage-bdash-sql-queries-through-mcp/) | 1.5k | — |
 | [Convert mixed documents into agent-ready Markdown and JSON with DocStrange](../../skills/convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange/) | 1.5k | 90/wk |
 | [Inspect and export Excel workbooks from the terminal with xleak](../../skills/inspect-and-export-excel-workbooks-from-the-terminal-with-xleak/) | 1.5k | — |

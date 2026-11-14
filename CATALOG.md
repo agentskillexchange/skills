@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3231 published skills** across **17 categories** · 2,647 security reviewed · Updated 2026-11-14 13:26 UTC
+> **3233 published skills** across **17 categories** · 2,647 security reviewed · Updated 2026-11-14 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -837,7 +837,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown,… | Published | — | — |
 
 
-### 🔒 Security & Verification (262 skills)
+### 🔒 Security & Verification (263 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -1036,6 +1036,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Stress-test agent defenses with AgentDojo](skills/stress-test-agent-defenses-with-agentdojo/) | Run AgentDojo benchmark environments to evaluate prompt-injection attacks and defenses against LLM agents before… | Security Reviewed | 619 | — |
 | [Generate SLSA build provenance in GitHub Actions](skills/generate-slsa-build-provenance-in-github-actions/) | Attach signed SLSA provenance to GitHub Actions builds so release artifacts ship with verifiable supply-chain metadata. | Security Reviewed | 566 | — |
 | [Benchmark enterprise RAG agents with EnterpriseRAG-Bench](skills/benchmark-enterprise-rag-agents-with-enterpriserag-bench/) | Use EnterpriseRAG-Bench to evaluate an enterprise RAG or knowledge-agent system against a realistic synthetic… | Security Reviewed | 562 | — |
+| [Verify shared and private fleet memory through Caura MCP](skills/verify-shared-and-private-fleet-memory-through-caura-mcp/) | Use two provisioned agent identities to check fleet recall, private-memory boundaries and writer provenance before… | Security Reviewed | 559 | — |
 | [Run agents in disposable microVM sandboxes with network allowlists and secret injection using Matchlock](skills/run-agents-in-disposable-microvm-sandboxes-with-network-allowlists-and-secret-injection-using-matchlock/) | Launch risky agent work inside disposable microVMs when you need stronger isolation, sealed egress, and host-side… | Security Reviewed | 552 | — |
 | [SBOM Generator with CycloneDX](skills/sbom-generator-cyclonedx/) | Generates Software Bill of Materials in CycloneDX 1.5 format using cdxgen and syft. Enriches component data with… | Security Reviewed | 489 | — |
 | [Scan images filesystems and SBOMs for end-of-life software before unsupported components ship with Xeol](skills/scan-images-filesystems-and-sboms-for-end-of-life-software-before-unsupported-components-ship-with-xeol/) | Find packages that are out of support even when they do not show up as a classic CVE finding yet. | Security Reviewed | 435 | — |
@@ -1107,7 +1108,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (241 skills)
+### 🔄 Data Extraction & Transformation (242 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -1291,6 +1292,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Run a Docling API server for agent document conversion](skills/run-a-docling-api-server-for-agent-document-conversion/) | Deploy Docling API so agents can convert PDFs, Office files, images, HTML, CSV, and other documents into Markdown… | Security Reviewed | 1.7k | — |
 | [Expose guarded database connections to agents with Data Peek](skills/expose-guarded-database-connections-to-agents-with-data-peek/) | Use Data Peek's local MCP server to let agents inspect SQL databases through capped read tools and human-approved… | Security Reviewed | 1.7k | 99/wk |
 | [Anyquery Universal SQL Engine with MCP Integration](skills/anyquery-universal-sql-engine-mcp-integration/) | Anyquery is a SQL query engine that lets you run SQL against 40+ apps, files, and databases including GitHub,… | Security Reviewed | 1.7k | — |
+| [Regression-test Apache Hop pipelines against golden data](skills/regression-test-apache-hop-pipelines-against-golden-data/) | Replace external inputs and output sinks with test datasets, run a bounded Hop regression suite and report row or… | Security Reviewed | 1.5k | — |
 | [Let agents draft and manage Bdash SQL queries through MCP](skills/let-agents-draft-and-manage-bdash-sql-queries-through-mcp/) | Connect Bdash's SQL workspace to MCP clients so an agent can list configured data sources and write SQL into the… | Security Reviewed | 1.5k | — |
 | [Convert mixed documents into agent-ready Markdown and JSON with DocStrange](skills/convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange/) | Convert PDFs, scans, office files, images, and URLs into clean Markdown, structured JSON, CSV, or HTML before an… | Security Reviewed | 1.5k | 90/wk |
 | [Inspect and export Excel workbooks from the terminal with xleak](skills/inspect-and-export-excel-workbooks-from-the-terminal-with-xleak/) | Use xleak when an agent needs to inspect, search, verify formulas, and export Excel, ODS, CSV, or TSV files from a… | Security Reviewed | 1.5k | — |

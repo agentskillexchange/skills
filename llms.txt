@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-14
-# Total: 3231 skills
+# Total: 3233 skills
+
+## Verify shared and private fleet memory through Caura MCP
+slug: verify-shared-and-private-fleet-memory-through-caura-mcp
+category: Security & Verification
+framework: MCP
+verification: Security Reviewed
+description: Use two provisioned agent identities to check fleet recall, private-memory boundaries and writer provenance before connecting a team to shared memory.
+url: https://agentskillexchange.com/skills/verify-shared-and-private-fleet-memory-through-caura-mcp/
+
+## Regression-test Apache Hop pipelines against golden data
+slug: regression-test-apache-hop-pipelines-against-golden-data
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Replace external inputs and output sinks with test datasets, run a bounded Hop regression suite and report row or field mismatches before promotion.
+url: https://agentskillexchange.com/skills/regression-test-apache-hop-pipelines-against-golden-data/
 
 ## Verify signed agent-run evidence offline with Tracekit
 slug: verify-signed-agent-run-evidence-offline-with-tracekit

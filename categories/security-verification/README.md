@@ -233,6 +233,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Stress-test agent defenses with AgentDojo](../../skills/stress-test-agent-defenses-with-agentdojo/) | 619 | — |
 | [Generate SLSA build provenance in GitHub Actions](../../skills/generate-slsa-build-provenance-in-github-actions/) | 566 | — |
 | [Benchmark enterprise RAG agents with EnterpriseRAG-Bench](../../skills/benchmark-enterprise-rag-agents-with-enterpriserag-bench/) | 562 | — |
+| [Verify shared and private fleet memory through Caura MCP](../../skills/verify-shared-and-private-fleet-memory-through-caura-mcp/) | 559 | — |
 | [Run agents in disposable microVM sandboxes with network allowlists and secret injection using Matchlock](../../skills/run-agents-in-disposable-microvm-sandboxes-with-network-allowlists-and-secret-injection-using-matchlock/) | 552 | — |
 | [SBOM Generator with CycloneDX](../../skills/sbom-generator-cyclonedx/) | 489 | — |
 | [Scan images filesystems and SBOMs for end-of-life software before unsupported components ship with Xeol](../../skills/scan-images-filesystems-and-sboms-for-end-of-life-software-before-unsupported-components-ship-with-xeol/) | 435 | — |

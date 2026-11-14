@@ -2,8 +2,30 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-14",
-  "total": 3231,
+  "total": 3233,
   "skills": [
+    {
+      "slug": "verify-shared-and-private-fleet-memory-through-caura-mcp",
+      "name": "Verify shared and private fleet memory through Caura MCP",
+      "title": "Verify shared and private fleet memory through Caura MCP",
+      "description": "Use two provisioned agent identities to check fleet recall, private-memory boundaries and writer provenance before connecting a team to shared memory.",
+      "category": "Security & Verification",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/caura-ai/caura",
+      "github_repo": "caura-ai/caura"
+    },
+    {
+      "slug": "regression-test-apache-hop-pipelines-against-golden-data",
+      "name": "Regression-test Apache Hop pipelines against golden data",
+      "title": "Regression-test Apache Hop pipelines against golden data",
+      "description": "Replace external inputs and output sinks with test datasets, run a bounded Hop regression suite and report row or field mismatches before promotion.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/apache/hop",
+      "github_repo": "apache/hop"
+    },
     {
       "slug": "verify-signed-agent-run-evidence-offline-with-tracekit",
       "name": "Verify signed agent-run evidence offline with Tracekit",

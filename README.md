@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C231-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C233-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C647-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,231 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,233 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Verify shared and private fleet memory through Caura MCP](skills/verify-shared-and-private-fleet-memory-through-caura-mcp/) | Use two provisioned agent identities to check fleet recall, private-memory boundaries and writer provenance before connecting a team... | 559 | Security & Verification |
+| [Regression-test Apache Hop pipelines against golden data](skills/regression-test-apache-hop-pipelines-against-golden-data/) | Replace external inputs and output sinks with test datasets, run a bounded Hop regression suite and report row... | 1.5k | Data Extraction & Transformation |
 | [Verify signed agent-run evidence offline with Tracekit](skills/verify-signed-agent-run-evidence-offline-with-tracekit/) | Check an authorized Tracekit bundle against pinned signer keys and report integrity verdicts separately from execution and completeness... | 726 | Security & Verification |
 | [Re-embed OpenClaw memory into a fresh LanceDB store](skills/re-embed-openclaw-memory-into-a-fresh-lancedb-store/) | Plan and verify an OpenClaw memory embedding cutover using a complete store backup, a dry run and matching... | 4.4k | Integrations & Connectors |
 | [Audit local agent runs and select hook policies with Failproof AI](skills/audit-local-agent-runs-and-select-hook-policies-with-failproof-ai/) | Review local harness history, identify risky tool patterns, and prepare a source-backed policy-pack rollout across supported agent runtimes | 8.9k | Security & Verification |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Run a mock robotics benchmark and review evidence with Inspect Robots](skills/run-mock-robotics-benchmark-review-evidence-inspect-robots/) | Run the built-in CubePick benchmark with a scripted policy, inspect resolved configuration and scores, and render saved robotics... | 757 | Code Quality & Review |
 | [Diagnose retrieved-but-unused agent skills through Ratel MCP](skills/diagnose-retrieved-but-unused-agent-skills-ratel-mcp/) | Compare skill retrievals with actual invocations through Ratel MCP, inspect the queries behind unused matches, and return an... | 561 | Monitoring & Alerts |
 | [Build and validate one Enferno admin feature](skills/build-validate-one-enferno-admin-feature/) | Implement one scoped admin feature using Enferno’s upstream agent skill, then review its migration, authorization, CSRF behavior and... | 571 | Developer Tools |
-| [Inspect FreeCAD model properties and capture review views](skills/inspect-freecad-model-properties-capture-review-views/) | Inspect an open FreeCAD document through MCP, collect object properties and capture oriented views for a model-review evidence... | 3.3k | Image & Creative Automation |
-| [Generate budgeted McDonald’s China group-meal plans](skills/generate-budgeted-mcdonalds-china-group-meal-plans/) | Compare nearby McDonald’s China stores and live-priced meal combinations against a group headcount and budget, returning a plan... | 1.4k | Calendar, Email & Productivity |
 
 ---
 
@@ -124,9 +124,9 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
 | [Triage Lunora deployment errors and migration status through MCP](skills/triage-lunora-deployment-errors-and-migration-status-through-mcp/) | Inspect Lunora logs, grouped errors, query performance and pending migrations through MCP, then return a scoped incident handoff... | 293 | Runbooks & Diagnostics |
+| [Audit local agent runs and select hook policies with Failproof AI](skills/audit-local-agent-runs-and-select-hook-policies-with-failproof-ai/) | Review local harness history, identify risky tool patterns, and prepare a source-backed policy-pack rollout across supported agent runtimes | 8.9k | Security & Verification |
 | [Diagnose incomplete web extraction with PageSift MCP audit evidence](skills/diagnose-incomplete-web-extraction-with-pagesift-mcp-audit-evidence/) | Triage missing web content across local agents using PageSift MCP audit records, HTML snapshots, and local extraction issue... | 162 | Data Extraction & Transformation |
 | [Record and replay FrontMCP calls to catch server regressions](skills/record-and-replay-frontmcp-calls-to-catch-server-regressions/) | Capture baseline MCP calls as JSONL, replay them against a changed FrontMCP server, and review answer differences and... | 151 | Code Quality & Review |
-| [Audit local agent runs and select hook policies with Failproof AI](skills/audit-local-agent-runs-and-select-hook-policies-with-failproof-ai/) | Review local harness history, identify risky tool patterns, and prepare a source-backed policy-pack rollout across supported agent runtimes | 8.9k | Security & Verification |
 | [Record an agent-completed browser task as a parameterized Oya playbook](skills/record-agent-browser-task-as-parameterized-oya-playbook/) | Complete a test browser task once, save its learned steps as an Oya playbook, and verify a replay... | 349 | Browser Automation |
 | [Assemble and review local video cuts through Concat MCP](skills/assemble-and-review-local-video-cuts-through-concat-mcp/) | Turn local footage and an edit brief into a Concat timeline, inspect composited frames, save the project and... | 16.0k | Media & Transcription |
 | [Re-embed OpenClaw memory into a fresh LanceDB store](skills/re-embed-openclaw-memory-into-a-fresh-lancedb-store/) | Plan and verify an OpenClaw memory embedding cutover using a complete store backup, a dry run and matching... | 4.4k | Integrations & Connectors |
@@ -142,8 +142,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 |---|---|---:|---|
 | 🛠️ | [**Developer Tools**](categories/developer-tools/) | 543 | CLI tools, scaffolders, dev environment setup |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 270 | Scaffolders, boilerplate generators, workflow templates |
-| 🔒 | [**Security & Verification**](categories/security-verification/) | 262 | Vulnerability scanning, auth setup, compliance |
-| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 241 | ETL pipelines, parsing, format conversion |
+| 🔒 | [**Security & Verification**](categories/security-verification/) | 263 | Vulnerability scanning, auth setup, compliance |
+| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 242 | ETL pipelines, parsing, format conversion |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 214 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 193 | Pipeline configs, deployment automation, build tooling |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 191 | Third-party API bridges, webhooks, service connectors |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,231 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 3,233 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,647 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
