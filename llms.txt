@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-14
-# Total: 3226 skills
+# Total: 3228 skills
+
+## Preview Azure app infrastructure and service deployments with azd
+slug: preview-azure-app-infrastructure-and-service-deployments-with-azd
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Azure Developer CLI to inspect an existing azure.yaml project, preview infrastructure and service changes, and prepare an evidence-backed deployment handoff.
+url: https://agentskillexchange.com/skills/preview-azure-app-infrastructure-and-service-deployments-with-azd/
+
+## Turn IDE security scan findings into prioritized backlog tasks with DevoxxGenie
+slug: turn-ide-security-scan-findings-into-backlog-tasks-with-devoxxgenie
+category: Security & Verification
+framework: Custom Agents
+verification: Security Reviewed
+description: Use DevoxxGenie Agent Mode to scan current project files and dependencies, interpret findings, and create prioritized Backlog.md tasks for review.
+url: https://agentskillexchange.com/skills/turn-ide-security-scan-findings-into-backlog-tasks-with-devoxxgenie/
 
 ## Run a mock robotics benchmark and review evidence with Inspect Robots
 slug: run-mock-robotics-benchmark-review-evidence-inspect-robots

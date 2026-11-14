@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3226 published skills** across **17 categories** · 2,642 security reviewed · Updated 2026-11-14 01:26 UTC
+> **3228 published skills** across **17 categories** · 2,642 security reviewed · Updated 2026-11-14 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (542 skills)
+### 🛠️ Developer Tools (543 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -445,6 +445,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | Convert a finished coding-agent session into a shareable HTML replay instead of sending raw logs or bulky screen… | Security Reviewed | 621 | 4.9k/wk |
 | [Preview and approve coding-agent execution plans with Overture](skills/preview-and-approve-coding-agent-execution-plans-with-overture/) | Render an AI coding agent's plan as an interactive flowchart so a human can inspect dependencies, attach context,… | Security Reviewed | 619 | 320/wk |
 | [Share local project memory across coding agents with Memorix](skills/share-local-project-memory-across-coding-agents-with-memorix/) | Use Memorix when multiple coding agents or sessions need a shared, searchable, local-first project memory instead of… | Security Reviewed | 579 | 969/wk |
+| [Preview Azure app infrastructure and service deployments with azd](skills/preview-azure-app-infrastructure-and-service-deployments-with-azd/) | Use Azure Developer CLI to inspect an existing azure.yaml project, preview infrastructure and service changes, and… | Security Reviewed | 574 | — |
 | [Build and validate one Enferno admin feature](skills/build-validate-one-enferno-admin-feature/) | Implement one scoped admin feature using Enferno’s upstream agent skill, then review its migration, authorization,… | Security Reviewed | 571 | — |
 | [Delegate fast Gemini staffers from Codex and Claude Code with agy-staff](skills/delegate-fast-gemini-staffers-from-codex-and-claude-code-with-agy-staff/) | Use agy-staff to give Codex, Claude Code, and Pi reusable Antigravity CLI staff personas for quick research, review,… | Security Reviewed | 560 | — |
 | [Run DeepSeek Harness agent sessions from a Claude Code-style terminal TUI](skills/run-deepseek-harness-agent-sessions-from-a-claude-code-style-terminal-tui/) | Use dsh-cc-tui to run DeepSeek Harness coding-agent sessions from a full-screen terminal with live activity, context… | Security Reviewed | 558 | 255/wk |
@@ -836,7 +837,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown,… | Published | — | — |
 
 
-### 🔒 Security & Verification (259 skills)
+### 🔒 Security & Verification (260 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -1028,6 +1029,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Encrypt and decrypt age secrets with hardware-backed YubiKey identities](skills/encrypt-and-decrypt-age-secrets-with-hardware-backed-yubikey-identities/) | Use age-plugin-yubikey when an agent needs age encryption tied to a physical YubiKey identity instead of… | Security Reviewed | 881 | — |
 | [Detect repository licenses before dependency approval or open-source due diligence](skills/detect-repository-licenses-before-dependency-approval-or-open-source-due-diligence/) | Use Licensee when an agent needs to inspect a repository and determine what license text it actually matches before… | Security Reviewed | 876 | — |
 | [Betterleaks Next-Generation Secrets Scanner](skills/betterleaks-secrets-scanner/) | A fast, configurable secrets scanner built by the creator of Gitleaks and backed by Aikido Security. Betterleaks… | Security Reviewed | 712 | — |
+| [Turn IDE security scan findings into prioritized backlog tasks with DevoxxGenie](skills/turn-ide-security-scan-findings-into-backlog-tasks-with-devoxxgenie/) | Use DevoxxGenie Agent Mode to scan current project files and dependencies, interpret findings, and create… | Security Reviewed | 691 | — |
 | [Verify Packages Are Reproducibly Rebuildable Before Trusting Artifacts With Oss Rebuild](skills/verify-packages-are-reproducibly-rebuildable-before-trusting-artifacts-with-oss-rebuild/) | Query OSS Rebuild attestations and rebuild metadata so an agent can verify whether a published package artifact… | Security Reviewed | 687 | — |
 | [Stress-test agent defenses with AgentDojo](skills/stress-test-agent-defenses-with-agentdojo/) | Run AgentDojo benchmark environments to evaluate prompt-injection attacks and defenses against LLM agents before… | Security Reviewed | 619 | — |
 | [Generate SLSA build provenance in GitHub Actions](skills/generate-slsa-build-provenance-in-github-actions/) | Attach signed SLSA provenance to GitHub Actions builds so release artifacts ship with verifiable supply-chain metadata. | Security Reviewed | 566 | — |
@@ -1528,7 +1530,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Validate CI and app config files against upstream JSON schemas before merge](skills/validate-ci-and-app-config-files-against-upstream-json-schemas-before-merge/) | Use check-jsonschema when an agent needs to catch broken GitHub Actions, Renovate, Azure Pipelines, and other… | Security Reviewed | 312 | — |
 | [Scan sites for accessibility gaps, file GitHub issues, and route fixes through Copilot with Accessibility Scanner](skills/scan-sites-for-accessibility-gaps-file-github-issues-and-route-fixes-through-copilot-with-accessibility-scanner/) | Run accessibility scans against target URLs, open trackable issues, and optionally hand remediation suggestions to… | Security Reviewed | 266 | — |
 | [Prepare Evidence-Backed Open Source Contribution Proposals with ContribAI](skills/prepare-evidence-backed-open-source-contribution-proposals-with-contribai/) | Use ContribAI when an agent should analyze a repository, respect maintainer consent, and prepare bounded draft… | Published | 246 | — |
-| [Run focused accessibility review agents against coding-tool output with Accessibility Agents](skills/run-focused-accessibility-review-agents-with-accessibility-agents/) | Dispatch specialized WCAG review agents to inspect code or content before inaccessible patterns ship. | Published | 235 | — |
+| [Run focused accessibility review agents against coding-tool output with Accessibility Agents](skills/run-focused-accessibility-review-agents-with-accessibility-agents/) | Dispatch specialized WCAG review agents to inspect code or content before inaccessible patterns ship. | Published | 235 | 82/wk |
 | [Render pull request architecture diagrams with PR Lens](skills/render-pull-request-architecture-diagrams-with-pr-lens/) | Have an agent turn a code diff into validated architecture and data-flow diagrams, then attach the rendered SVGs to… | Security Reviewed | 212 | 672/wk |
 | [Validate Python Docstrings Against Function Signatures with pydoclint](skills/validate-python-docstrings-against-function-signatures-with-pydoclint/) | Check that Python docstrings stay consistent with parameters, returns, and raised exceptions as code evolves. | Security Reviewed | 208 | — |
 | [Recover Playwright selectors after UI refactors with QA Skills](skills/recover-playwright-selectors-after-ui-refactors-with-qa-skills/) | Compare old and new UI evidence, repair confirmed locator drift in existing Playwright tests, and return a validated… | Security Reviewed | 203 | — |

@@ -210,7 +210,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Validate CI and app config files against upstream JSON schemas before merge](../../skills/validate-ci-and-app-config-files-against-upstream-json-schemas-before-merge/) | 312 | — |
 | [Scan sites for accessibility gaps, file GitHub issues, and route fixes through Copilot with Accessibility Scanner](../../skills/scan-sites-for-accessibility-gaps-file-github-issues-and-route-fixes-through-copilot-with-accessibility-scanner/) | 266 | — |
 | [Prepare Evidence-Backed Open Source Contribution Proposals with ContribAI](../../skills/prepare-evidence-backed-open-source-contribution-proposals-with-contribai/) | 246 | — |
-| [Run focused accessibility review agents against coding-tool output with Accessibility Agents](../../skills/run-focused-accessibility-review-agents-with-accessibility-agents/) | 235 | — |
+| [Run focused accessibility review agents against coding-tool output with Accessibility Agents](../../skills/run-focused-accessibility-review-agents-with-accessibility-agents/) | 235 | 82/wk |
 | [Render pull request architecture diagrams with PR Lens](../../skills/render-pull-request-architecture-diagrams-with-pr-lens/) | 212 | 672/wk |
 | [Validate Python Docstrings Against Function Signatures with pydoclint](../../skills/validate-python-docstrings-against-function-signatures-with-pydoclint/) | 208 | — |
 | [Recover Playwright selectors after UI refactors with QA Skills](../../skills/recover-playwright-selectors-after-ui-refactors-with-qa-skills/) | 203 | — |

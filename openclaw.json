@@ -2,8 +2,30 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-14",
-  "total": 3226,
+  "total": 3228,
   "skills": [
+    {
+      "slug": "preview-azure-app-infrastructure-and-service-deployments-with-azd",
+      "name": "Preview Azure app infrastructure and service deployments with azd",
+      "title": "Preview Azure app infrastructure and service deployments with azd",
+      "description": "Use Azure Developer CLI to inspect an existing azure.yaml project, preview infrastructure and service changes, and prepare an evidence-backed deployment handoff.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Azure/azure-dev",
+      "github_repo": "Azure/azure-dev"
+    },
+    {
+      "slug": "turn-ide-security-scan-findings-into-backlog-tasks-with-devoxxgenie",
+      "name": "Turn IDE security scan findings into prioritized backlog tasks with DevoxxGenie",
+      "title": "Turn IDE security scan findings into prioritized backlog tasks with DevoxxGenie",
+      "description": "Use DevoxxGenie Agent Mode to scan current project files and dependencies, interpret findings, and create prioritized Backlog.md tasks for review.",
+      "category": "Security & Verification",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/devoxx/DevoxxGenieIDEAPlugin",
+      "github_repo": "devoxx/DevoxxGenieIDEAPlugin"
+    },
     {
       "slug": "run-mock-robotics-benchmark-review-evidence-inspect-robots",
       "name": "Run a mock robotics benchmark and review evidence with Inspect Robots",

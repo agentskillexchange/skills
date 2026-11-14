@@ -226,6 +226,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Encrypt and decrypt age secrets with hardware-backed YubiKey identities](../../skills/encrypt-and-decrypt-age-secrets-with-hardware-backed-yubikey-identities/) | 881 | — |
 | [Detect repository licenses before dependency approval or open-source due diligence](../../skills/detect-repository-licenses-before-dependency-approval-or-open-source-due-diligence/) | 876 | — |
 | [Betterleaks Next-Generation Secrets Scanner](../../skills/betterleaks-secrets-scanner/) | 712 | — |
+| [Turn IDE security scan findings into prioritized backlog tasks with DevoxxGenie](../../skills/turn-ide-security-scan-findings-into-backlog-tasks-with-devoxxgenie/) | 691 | — |
 | [Verify Packages Are Reproducibly Rebuildable Before Trusting Artifacts With Oss Rebuild](../../skills/verify-packages-are-reproducibly-rebuildable-before-trusting-artifacts-with-oss-rebuild/) | 687 | — |
 | [Stress-test agent defenses with AgentDojo](../../skills/stress-test-agent-defenses-with-agentdojo/) | 619 | — |
 | [Generate SLSA build provenance in GitHub Actions](../../skills/generate-slsa-build-provenance-in-github-actions/) | 566 | — |

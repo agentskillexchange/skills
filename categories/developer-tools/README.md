@@ -471,6 +471,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](../../skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | 621 | 4.9k/wk |
 | [Preview and approve coding-agent execution plans with Overture](../../skills/preview-and-approve-coding-agent-execution-plans-with-overture/) | 619 | 320/wk |
 | [Share local project memory across coding agents with Memorix](../../skills/share-local-project-memory-across-coding-agents-with-memorix/) | 579 | 969/wk |
+| [Preview Azure app infrastructure and service deployments with azd](../../skills/preview-azure-app-infrastructure-and-service-deployments-with-azd/) | 574 | — |
 | [Build and validate one Enferno admin feature](../../skills/build-validate-one-enferno-admin-feature/) | 571 | — |
 | [Delegate fast Gemini staffers from Codex and Claude Code with agy-staff](../../skills/delegate-fast-gemini-staffers-from-codex-and-claude-code-with-agy-staff/) | 560 | — |
 | [Run DeepSeek Harness agent sessions from a Claude Code-style terminal TUI](../../skills/run-deepseek-harness-agent-sessions-from-a-claude-code-style-terminal-tui/) | 558 | 255/wk |
