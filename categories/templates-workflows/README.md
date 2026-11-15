@@ -282,6 +282,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Berlin Job Search](../../skills/berlin-job-search/) | 31 | — |
 | [Review-gate OpenClaw memory hygiene with openclaw-mem](../../skills/review-gate-openclaw-memory-hygiene-with-openclaw-mem/) | 28 | — |
 | [Progressive Disclosure for Documentation](../../skills/progressive-disclosure/) | 14 | — |
+| [Prompt Optimizer](../../skills/prompt-optimizer-skill/) | 6 | — |
 | [Run GitHub Issues as a Spec, Build, Review and Ship Pipeline with workkit](../../skills/run-github-issues-as-a-spec-build-review-ship-pipeline-with-workkit/) | 4 | — |
 | [Generate and safely patch AGENTS.md and RUNBOOK.md with AGENTS.md Generator](../../skills/generate-and-safely-patch-agents-md-and-runbook-md-with-agents-md-generator/) | 2 | — |
 | [Goal Instruction Writer](../../skills/goal-instruction-writer/) | 2 | — |
@@ -302,7 +303,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Incident Response Template Generator](../../skills/incident-response-template-generator/) | — | — |
 | [Keep GitHub wiki pages synced with recently merged code changes](../../skills/keep-github-wiki-pages-synced-with-recently-merged-code-changes/) | — | — |
 | [Makefile Workflow Generator](../../skills/makefile-workflow-generator/) | — | — |
-| [Prompt Optimizer](../../skills/prompt-optimizer-skill/) | — | — |
 | [Ralph Loop](../../skills/ralph-loop/) | — | — |
 | [Review open pull requests against repository contribution guidelines](../../skills/review-open-pull-requests-against-repository-contribution-guidelines/) | — | — |
 | [Run context → spec → implement coding loops in Claude Code with Conductor](../../skills/run-context-spec-and-implement-coding-loops-in-claude-code-with-conductor/) | — | — |

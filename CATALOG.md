@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3236 published skills** across **17 categories** · 2,650 security reviewed · Updated 2026-11-15 01:27 UTC
+> **3237 published skills** across **17 categories** · 2,650 security reviewed · Updated 2026-11-15 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -807,6 +807,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Berlin Job Search](skills/berlin-job-search/) | AI job-search coach for Berlin and the rest of Germany. Searches live postings (Bundesagentur für Arbeit API,… | Published | 31 | — |
 | [Review-gate OpenClaw memory hygiene with openclaw-mem](skills/review-gate-openclaw-memory-hygiene-with-openclaw-mem/) | Pack trusted context and review memory writes before long OpenClaw sessions drift or accumulate low-quality memory. | Security Reviewed | 28 | — |
 | [Progressive Disclosure for Documentation](skills/progressive-disclosure/) | Restructure large documentation files (500+ lines, 5k+ tokens) into slim indexes with on-demand detail directories.… | Published | 14 | — |
+| [Prompt Optimizer](skills/prompt-optimizer-skill/) | Turns a rough request or an existing prompt into one copy-ready prompt for any AI agent that can load Skills (or as… | Published | 6 | — |
 | [Run GitHub Issues as a Spec, Build, Review and Ship Pipeline with workkit](skills/run-github-issues-as-a-spec-build-review-ship-pipeline-with-workkit/) | Use workkit when Claude Code should work a repository's GitHub Issues as a labeled pipeline: capture, triage, spec… | Published | 4 | — |
 | [Generate and safely patch AGENTS.md and RUNBOOK.md with AGENTS.md Generator](skills/generate-and-safely-patch-agents-md-and-runbook-md-with-agents-md-generator/) | Bootstrap and safely update AGENTS.md and RUNBOOK.md without clobbering hand-edited docs, so coding-agent repos keep… | Security Reviewed | 2 | — |
 | [Goal Instruction Writer](skills/goal-instruction-writer/) | Preview, draft, refine, and audit durable Goal instructions in Codex. Define observable acceptance evidence, bounded… | Published | 2 | — |
@@ -827,7 +828,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Incident Response Template Generator](skills/incident-response-template-generator/) | Creates structured incident response templates using the PagerDuty Events API v2, Jira REST API for ticket creation,… | Security Reviewed | — | — |
 | [Keep GitHub wiki pages synced with recently merged code changes](skills/keep-github-wiki-pages-synced-with-recently-merged-code-changes/) | This entry turns GitHub Next's Agentic Wiki Writer into a documentation-maintenance workflow. The agent watches for… | Security Reviewed | — | — |
 | [Makefile Workflow Generator](skills/makefile-workflow-generator/) | Generates project Makefiles with standard targets using GNU Make syntax, autodeps pattern rules, and integration… | Security Reviewed | — | — |
-| [Prompt Optimizer](skills/prompt-optimizer-skill/) | Turns a rough request or an existing prompt into one copy-ready prompt for any AI agent that can load Skills (or as… | Published | — | — |
 | [Ralph Loop](skills/ralph-loop/) | Run a ticket queue across agent sessions with a self-verifying loop: one item per iteration, verification gates… | Published | — | — |
 | [Review open pull requests against repository contribution guidelines](skills/review-open-pull-requests-against-repository-contribution-guidelines/) | This entry turns GitHub Next's Contribution Check workflow into a maintainer-facing agent routine. The agent batches… | Security Reviewed | — | — |
 | [Run context → spec → implement coding loops in Claude Code with Conductor](skills/run-context-spec-and-implement-coding-loops-in-claude-code-with-conductor/) | Turn Claude Code into a structured project workflow that captures context, plans work, and executes implementation… | Security Reviewed | — | — |
@@ -837,7 +837,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown,… | Published | — | — |
 
 
-### 🔒 Security & Verification (263 skills)
+### 🔒 Security & Verification (264 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -990,6 +990,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Bearer CLI SAST Code Security and Privacy Scanner](skills/bearer-cli-sast-code-security-privacy-scanner/) | Bearer CLI is an open-source static application security testing (SAST) tool that scans source code to identify,… | Security Reviewed | 2.6k | — |
 | [KICS IaC Linter](skills/kics-iac-linter/) | KICS IaC Linter is built around Kubernetes orchestration platform. The underlying ecosystem is represented by… | Published | 2.6k | — |
 | [Snyk Agent Scan](skills/snyk-agent-scan/) | Scan your AI agents, MCP servers, and skills for security vulnerabilities from the command line. Snyk Agent Scan… | Security Reviewed | 2.5k | — |
+| [Export complete or partial headless scan evidence with open·kritt](skills/export-headless-scan-evidence-with-open-kritt/) | Inspect an existing scan from a private headless host and export a review bundle that clearly distinguishes complete… | Security Reviewed | 2.4k | — |
 | [Compare retriever rankings on fixed relevance datasets with BEIR](skills/compare-retriever-rankings-on-fixed-relevance-datasets-with-beir/) | Compare baseline and candidate retrievers on the same labeled dataset, then hand off ranking metrics, saved runs and… | Security Reviewed | 2.3k | — |
 | [Inspect binary hardening flags and exploit mitigations with checksec](skills/inspect-binary-hardening-flags-and-exploit-mitigations-with-checksec/) | Check ELF or PE binaries for hardening gaps like NX, PIE, RELRO, stack canaries, and Fortify before release or… | Published | 2.3k | — |
 | [Gate Rust dependency trees on license, advisory, and source-policy violations before merge with cargo-deny](skills/gate-rust-dependency-trees-on-license-advisory-and-source-policy-violations-before-merge-with-cargo-deny/) | Use cargo-deny when an agent needs to enforce Rust dependency policy before merge by checking advisories, licenses,… | Security Reviewed | 2.3k | 3.3M/wk |
@@ -1340,6 +1341,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Diagnose incomplete web extraction with PageSift MCP audit evidence](skills/diagnose-incomplete-web-extraction-with-pagesift-mcp-audit-evidence/) | Triage missing web content across local agents using PageSift MCP audit records, HTML snapshots, and local… | Security Reviewed | 162 | 3.3k/wk |
 | [Weaviate MCP Server](skills/weaviate-mcp-server/) | Weaviate MCP Server is built around GraphQL API ecosystem. The underlying ecosystem is represented by… | Security Reviewed | 162 | — |
 | [Turn documents into validated knowledge graphs with Docling Graph](skills/turn-documents-into-validated-knowledge-graphs-with-docling-graph/) | Convert documents into schema-enforced entities and graph relationships when the job is exact knowledge extraction… | Security Reviewed | 134 | — |
+| [Turn messy datasets into auditable reports with data-master](skills/turn-messy-datasets-into-auditable-reports-with-data-master/) | Use data-master to preserve raw tabular data, hold ambiguous cleaning decisions for review, run unit-aware… | Published | 108 | — |
 | [Crawl4AI MCP Server](skills/crawl4ai-mcp-server/) | Self-hosted web crawling and content extraction exposed as MCP tools. Scrape pages, crawl sites with depth control,… | Security Reviewed | 89 | — |
 | [Turn captured WARC pages into clean text and language-tagged records with warc2text](skills/turn-captured-warc-pages-into-clean-text-and-language-tagged-records-with-warc2text/) | Use warc2text when an agent already has WARC captures and needs readable text, language identification, and… | Security Reviewed | 23 | — |
 | [Search large PDFs and read only the relevant pages before answering](skills/search-large-pdfs-and-read-only-the-relevant-pages-before-answering/) | Use pdf-mcp to inspect a PDF, search it, and load only the pages that matter so an agent can answer questions from… | Security Reviewed | 17 | 42/wk |
@@ -1354,7 +1356,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Parquet to PostgreSQL Loader](skills/parquet-to-postgresql-loader/) | Reads Apache Parquet files using PyArrow and bulk-loads them into PostgreSQL via psycopg2 COPY protocol. Handles… | Published | — | — |
 | [QuickBooks Online Invoice Reconciliation Agent](skills/quickbooks-invoice-reconciliation/) | Connects to the QuickBooks Online Accounting API using OAuth 2.0 via the intuit-oauth Node.js SDK to fetch unpaid… | Published | — | — |
 | [Reddit Subreddit Sentiment Tracker](skills/reddit-subreddit-sentiment-tracker/) | Uses the Reddit OAuth2 API via PRAW to collect top posts and comments from subreddits on a rolling 24-hour window,… | Security Reviewed | — | — |
-| [Turn messy datasets into auditable reports with data-master](skills/turn-messy-datasets-into-auditable-reports-with-data-master/) | Use data-master to preserve raw tabular data, hold ambiguous cleaning decisions for review, run unit-aware… | Published | — | — |
 | [WebAsk Results Digest](skills/webask-results-digest/) | Summarize WebAsk survey distributions, filtered reports and free-text answers with get_quiz_summary, get_quiz_report… | Published | — | — |
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
@@ -1934,6 +1935,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Build deterministic SaaS API test worlds for agents with Backlot](skills/build-deterministic-saas-api-test-worlds-for-agents-with-backlot/) | Run local Slack, Gmail, Google Drive, GitHub, Jira, Notion, S3, and other SaaS API emulators over a controlled… | Security Reviewed | 155 | — |
 | [Work with AFFiNE workspaces, documents, and databases from MCP-compatible agents](skills/work-with-affine-workspaces-documents-and-databases-from-mcp-compatible-agents/) | Use affine-mcp-server when an agent needs tool-callable access to AFFiNE workspaces, documents, databases, and… | Security Reviewed | 142 | 2.1k/wk |
 | [Expose Haystack pipelines as webhook endpoints with Hayhooks](skills/expose-haystack-pipelines-as-webhook-endpoints-with-hayhooks/) | Turn an existing Haystack pipeline into an HTTP or MCP endpoint without building and maintaining a custom wrapper… | Security Reviewed | 138 | — |
+| [PlaceCall Phone Calls to Businesses](skills/placecall/) | Lets an agent place real outbound phone calls to US businesses through the PlaceCall remote MCP server or REST API:… | Published | 118 | — |
 | [Query Eventhouse and manage Fabric RTI resources from MCP-compatible agents with Fabric RTI MCP](skills/query-eventhouse-and-manage-fabric-rti-resources-from-mcp-compatible-agents-with-fabric-rti-mcp/) | Use Fabric RTI MCP when an agent needs tool-callable access to Microsoft Fabric Real-Time Intelligence services such… | Security Reviewed | 111 | — |
 | [Connect MCP agents to Zendesk ticket and Help Center workflows](skills/connect-mcp-agents-to-zendesk-ticket-and-help-center-workflows/) | Expose Zendesk tickets, comments, and Help Center context to MCP-capable agents for supervised support workflow… | Security Reviewed | 95 | — |
 | [SandBase MCP](skills/sandbase-mcp/) | Access 2,000+ AI models and API tools through one MCP interface for inference, media generation, search, scraping,… | Published | 88 | 328/wk |
@@ -1972,7 +1974,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Hourglyph Daily Puzzle](skills/hourglyph-daily/) | Play Hourglyph Daily, a free daily logic puzzle by Clock Hill Games, through its documented HTTP API: register,… | Published | — | — |
 | [JMT x402 Agent Tools](skills/jmt-x402-agent-tools/) | Paid x402 HTTP-402 endpoints on Base mainnet that let agents pay-per-call in USDC for web search, AI analysis,… | Published | — | — |
 | [Linear Issue Triage & Sprint Planner](skills/linear-issue-triage-sprint-planner-2/) | Queries the Linear GraphQL API to list open issues by team, priority, and cycle, then applies configurable triage… | Security Reviewed | — | — |
-| [PlaceCall Phone Calls to Businesses](skills/placecall/) | Lets an agent place real outbound phone calls to US businesses through the PlaceCall remote MCP server or REST API:… | Published | — | — |
 | [Plaid Financial Data Connector](skills/plaid-financial-data-connector/) | Connects to bank accounts via Plaid Link SDK and retrieves transaction data using the Plaid Transactions API.… | Security Reviewed | — | — |
 | [RouterBase API Integration](skills/routerbase-api-integration/) | Integrate agent applications with RouterBase as an OpenAI-compatible API gateway, including SDK base URL… | Published | — | — |
 | [Stockpile Market MCP](skills/stockpile-market-mcp/) | Autonomous e-commerce operations, store inventory curation, collectible valuations, and order fulfillment via… | Published | — | — |

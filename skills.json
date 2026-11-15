@@ -1,8 +1,22 @@
 {
   "version": "2.0",
-  "total": 3236,
+  "total": 3237,
   "generated": "2026-11-15",
   "skills": [
+    {
+      "slug": "export-headless-scan-evidence-with-open-kritt",
+      "name": "Export complete or partial headless scan evidence with open·kritt",
+      "title": "Export complete or partial headless scan evidence with open·kritt",
+      "description": "Inspect an existing scan from a private headless host and export a review bundle that clearly distinguishes complete findings from partial results.",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 2431
+      },
+      "source_url": "https://github.com/Kritt-ai/open-kritt",
+      "github_repo": "Kritt-ai/open-kritt"
+    },
     {
       "slug": "getyoutubetranscript-youtube-transcript",
       "name": "GetYouTubeTranscript: YouTube Transcripts, Search and Channel Data",
@@ -405,6 +419,9 @@
       "category": "Templates & Workflows",
       "framework": "Custom Agents",
       "verification": "listed",
+      "signals": {
+        "github_stars": 6
+      },
       "source_url": "https://github.com/Samuel-Shek/prompt-optimizer-skill",
       "github_repo": "samuel-shek/prompt-optimizer-skill"
     },
@@ -881,6 +898,9 @@
       "category": "Data Extraction & Transformation",
       "framework": "Codex",
       "verification": "listed",
+      "signals": {
+        "github_stars": 108
+      },
       "source_url": "https://github.com/MAGA2010/data-master",
       "github_repo": "maga2010/data-master"
     },
@@ -892,6 +912,9 @@
       "category": "Integrations & Connectors",
       "framework": "MCP",
       "verification": "listed",
+      "signals": {
+        "github_stars": 118
+      },
       "source_url": "https://github.com/voygr-tech/placecall",
       "github_repo": "voygr-tech/placecall"
     },

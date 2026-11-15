@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-15",
-  "total": 3236,
+  "total": 3237,
   "skills": [
+    {
+      "slug": "export-headless-scan-evidence-with-open-kritt",
+      "name": "Export complete or partial headless scan evidence with open·kritt",
+      "title": "Export complete or partial headless scan evidence with open·kritt",
+      "description": "Inspect an existing scan from a private headless host and export a review bundle that clearly distinguishes complete findings from partial results.",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Kritt-ai/open-kritt",
+      "github_repo": "Kritt-ai/open-kritt"
+    },
     {
       "slug": "getyoutubetranscript-youtube-transcript",
       "name": "GetYouTubeTranscript: YouTube Transcripts, Search and Channel Data",

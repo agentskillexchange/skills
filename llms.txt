@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-15
-# Total: 3236 skills
+# Total: 3237 skills
+
+## Export complete or partial headless scan evidence with open·kritt
+slug: export-headless-scan-evidence-with-open-kritt
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Inspect an existing scan from a private headless host and export a review bundle that clearly distinguishes complete findings from partial results.
+url: https://agentskillexchange.com/skills/export-headless-scan-evidence-with-open-kritt/
 
 ## GetYouTubeTranscript: YouTube Transcripts, Search and Channel Data
 slug: getyoutubetranscript-youtube-transcript

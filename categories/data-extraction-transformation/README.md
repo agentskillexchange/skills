@@ -266,6 +266,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Diagnose incomplete web extraction with PageSift MCP audit evidence](../../skills/diagnose-incomplete-web-extraction-with-pagesift-mcp-audit-evidence/) | 162 | 3.3k/wk |
 | [Weaviate MCP Server](../../skills/weaviate-mcp-server/) | 162 | — |
 | [Turn documents into validated knowledge graphs with Docling Graph](../../skills/turn-documents-into-validated-knowledge-graphs-with-docling-graph/) | 134 | — |
+| [Turn messy datasets into auditable reports with data-master](../../skills/turn-messy-datasets-into-auditable-reports-with-data-master/) | 108 | — |
 | [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 89 | — |
 | [Turn captured WARC pages into clean text and language-tagged records with warc2text](../../skills/turn-captured-warc-pages-into-clean-text-and-language-tagged-records-with-warc2text/) | 23 | — |
 | [Search large PDFs and read only the relevant pages before answering](../../skills/search-large-pdfs-and-read-only-the-relevant-pages-before-answering/) | 17 | 42/wk |
@@ -280,7 +281,6 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Parquet to PostgreSQL Loader](../../skills/parquet-to-postgresql-loader/) | — | — |
 | [QuickBooks Online Invoice Reconciliation Agent](../../skills/quickbooks-invoice-reconciliation/) | — | — |
 | [Reddit Subreddit Sentiment Tracker](../../skills/reddit-subreddit-sentiment-tracker/) | — | — |
-| [Turn messy datasets into auditable reports with data-master](../../skills/turn-messy-datasets-into-auditable-reports-with-data-master/) | — | — |
 | [WebAsk Results Digest](../../skills/webask-results-digest/) | — | — |
 | [Weights & Biases Run Monitor](../../skills/wandb-run-monitor/) | — | — |
 

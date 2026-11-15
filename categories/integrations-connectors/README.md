@@ -185,6 +185,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Build deterministic SaaS API test worlds for agents with Backlot](../../skills/build-deterministic-saas-api-test-worlds-for-agents-with-backlot/) | 155 | — |
 | [Work with AFFiNE workspaces, documents, and databases from MCP-compatible agents](../../skills/work-with-affine-workspaces-documents-and-databases-from-mcp-compatible-agents/) | 142 | 2.1k/wk |
 | [Expose Haystack pipelines as webhook endpoints with Hayhooks](../../skills/expose-haystack-pipelines-as-webhook-endpoints-with-hayhooks/) | 138 | — |
+| [PlaceCall Phone Calls to Businesses](../../skills/placecall/) | 118 | — |
 | [Query Eventhouse and manage Fabric RTI resources from MCP-compatible agents with Fabric RTI MCP](../../skills/query-eventhouse-and-manage-fabric-rti-resources-from-mcp-compatible-agents-with-fabric-rti-mcp/) | 111 | — |
 | [Connect MCP agents to Zendesk ticket and Help Center workflows](../../skills/connect-mcp-agents-to-zendesk-ticket-and-help-center-workflows/) | 95 | — |
 | [SandBase MCP](../../skills/sandbase-mcp/) | 88 | 328/wk |
@@ -223,7 +224,6 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Hourglyph Daily Puzzle](../../skills/hourglyph-daily/) | — | — |
 | [JMT x402 Agent Tools](../../skills/jmt-x402-agent-tools/) | — | — |
 | [Linear Issue Triage & Sprint Planner](../../skills/linear-issue-triage-sprint-planner-2/) | — | — |
-| [PlaceCall Phone Calls to Businesses](../../skills/placecall/) | — | — |
 | [Plaid Financial Data Connector](../../skills/plaid-financial-data-connector/) | — | — |
 | [RouterBase API Integration](../../skills/routerbase-api-integration/) | — | — |
 | [Stockpile Market MCP](../../skills/stockpile-market-mcp/) | — | — |
