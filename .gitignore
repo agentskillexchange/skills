@@ -1,7 +1,0 @@
-
-# Python cache
-__pycache__/
-*.py[cod]
-
-# Generated reports
-boilerplate-cleanup-report.json
