@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-15
-# Total: 3237 skills
+# Total: 3239 skills
+
+## Answer from one Docling Studio parse with verified citations
+slug: answer-from-one-docling-studio-parse-with-verified-citations
+category: Data Extraction & Transformation
+framework: MCP
+verification: Security Reviewed
+description: Read a PDF outline under a token and round budget, verify quoted evidence against one parse, and return a cited answer or a clear…
+url: https://agentskillexchange.com/skills/answer-from-one-docling-studio-parse-with-verified-citations/
+
+## Preflight Cybermes engagement scope rules over MCP
+slug: preflight-cybermes-engagement-scope-rules-over-mcp
+category: Security & Verification
+framework: MCP
+verification: Security Reviewed
+description: Test existing engagement scope rules against allowed and excluded fixtures, check local tool readiness, and return a preflight record before target activity.
+url: https://agentskillexchange.com/skills/preflight-cybermes-engagement-scope-rules-over-mcp/
 
 ## Export complete or partial headless scan evidence with open·kritt
 slug: export-headless-scan-evidence-with-open-kritt

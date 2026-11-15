@@ -260,6 +260,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Operate Airflow and warehouse workflows through agent-safe data engineering skills with Astronomer Agents](../../skills/operate-airflow-and-warehouse-workflows-through-agent-safe-data-engineering-skills-with-astronomer-agents/) | 337 | — |
 | [Compare recurring CSV, TSV, or JSON exports and emit row-level change sets before syncs](../../skills/compare-recurring-csv-tsv-or-json-exports-and-emit-row-level-change-sets-before-syncs/) | 330 | — |
 | [Extract reviewable relationship timelines from chat exports with Afterglow](../../skills/extract-relationship-timelines-from-chat-exports-with-afterglow/) | 317 | — |
+| [Answer from one Docling Studio parse with verified citations](../../skills/answer-from-one-docling-studio-parse-with-verified-citations/) | 275 | — |
 | [Query cross-connector business data for agents with Dinobase](../../skills/query-cross-connector-business-data-for-agents-with-dinobase/) | 252 | — |
 | [Retrieve exact documentation sections for agents with jDocMunch MCP](../../skills/retrieve-exact-documentation-sections-for-agents-with-jdocmunch-mcp/) | 202 | — |
 | [Query and inspect Postgres databases through MCP with pgEdge Postgres MCP](../../skills/query-and-inspect-postgres-databases-through-mcp-with-pgedge-postgres-mcp/) | 165 | — |

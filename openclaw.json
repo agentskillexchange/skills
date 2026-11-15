@@ -2,8 +2,30 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-15",
-  "total": 3237,
+  "total": 3239,
   "skills": [
+    {
+      "slug": "answer-from-one-docling-studio-parse-with-verified-citations",
+      "name": "Answer from one Docling Studio parse with verified citations",
+      "title": "Answer from one Docling Studio parse with verified citations",
+      "description": "Read a PDF outline under a token and round budget, verify quoted evidence against one parse, and return a cited answer or a clear…",
+      "category": "Data Extraction & Transformation",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/scub-france/docling-Studio",
+      "github_repo": "scub-france/docling-Studio"
+    },
+    {
+      "slug": "preflight-cybermes-engagement-scope-rules-over-mcp",
+      "name": "Preflight Cybermes engagement scope rules over MCP",
+      "title": "Preflight Cybermes engagement scope rules over MCP",
+      "description": "Test existing engagement scope rules against allowed and excluded fixtures, check local tool readiness, and return a preflight record before target activity.",
+      "category": "Security & Verification",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Zyrexnn/Cybermes",
+      "github_repo": "Zyrexnn/Cybermes"
+    },
     {
       "slug": "export-headless-scan-evidence-with-open-kritt",
       "name": "Export complete or partial headless scan evidence with open·kritt",
