@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-11-14
-# Total: 3233 skills
+# Generated: 2026-11-15
+# Total: 3236 skills
+
+## GetYouTubeTranscript: YouTube Transcripts, Search and Channel Data
+slug: getyoutubetranscript-youtube-transcript
+category: Media & Transcription
+framework: Claude Code
+verification: Published
+description: Fetch YouTube transcripts, search videos and channels, browse a channel's uploads and playlists, and find where something is said, through the getyoutubetranscript.com REST API…
+url: https://agentskillexchange.com/skills/getyoutubetranscript-youtube-transcript/
+
+## Review Master CSS output regressions through MCP snapshots
+slug: review-master-css-output-regressions-through-mcp-snapshots
+category: Code Quality & Review
+framework: MCP
+verification: Security Reviewed
+description: Capture project CSS snapshots, trace missing classes, compare generated output, and propose scoped fixes with evidence from the installed Master CSS compiler.
+url: https://agentskillexchange.com/skills/review-master-css-output-regressions-through-mcp-snapshots/
+
+## Refresh Pixeltable video summaries without repeating transcription
+slug: refresh-pixeltable-video-summaries-without-repeating-transcription
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Review a summary-prompt change, recompute only the summary and its search dependents, and verify that stored audio and transcripts stay unchanged.
+url: https://agentskillexchange.com/skills/refresh-pixeltable-video-summaries-without-repeating-transcription/
 
 ## Verify shared and private fleet memory through Caura MCP
 slug: verify-shared-and-private-fleet-memory-through-caura-mcp

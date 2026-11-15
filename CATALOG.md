@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3233 published skills** across **17 categories** · 2,649 security reviewed · Updated 2026-11-14 19:26 UTC
+> **3236 published skills** across **17 categories** · 2,649 security reviewed · Updated 2026-11-15 01:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1108,7 +1108,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [TLS Certificate Chain Validator](skills/tls-certificate-chain-validator/) | Validates TLS/SSL certificate chains using OpenSSL x509 verification and checks OCSP stapling status. Integrates… | Security Reviewed | — | — |
 
 
-### 🔄 Data Extraction & Transformation (242 skills)
+### 🔄 Data Extraction & Transformation (243 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Data%20Extraction%20%26%20Transformation&sort=downloads)
 
@@ -1291,6 +1291,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Query and rewrite Markdown structure with mdq](skills/query-and-rewrite-markdown-structure-with-mdq/) | Use mdq when an agent needs to target headings, lists, links, or other Markdown structure without falling back to… | Security Reviewed | 1.7k | — |
 | [Run a Docling API server for agent document conversion](skills/run-a-docling-api-server-for-agent-document-conversion/) | Deploy Docling API so agents can convert PDFs, Office files, images, HTML, CSV, and other documents into Markdown… | Security Reviewed | 1.7k | — |
 | [Expose guarded database connections to agents with Data Peek](skills/expose-guarded-database-connections-to-agents-with-data-peek/) | Use Data Peek's local MCP server to let agents inspect SQL databases through capped read tools and human-approved… | Security Reviewed | 1.7k | 99/wk |
+| [Refresh Pixeltable video summaries without repeating transcription](skills/refresh-pixeltable-video-summaries-without-repeating-transcription/) | Review a summary-prompt change, recompute only the summary and its search dependents, and verify that stored audio… | Security Reviewed | 1.7k | — |
 | [Anyquery Universal SQL Engine with MCP Integration](skills/anyquery-universal-sql-engine-mcp-integration/) | Anyquery is a SQL query engine that lets you run SQL against 40+ apps, files, and databases including GitHub,… | Security Reviewed | 1.7k | — |
 | [Regression-test Apache Hop pipelines against golden data](skills/regression-test-apache-hop-pipelines-against-golden-data/) | Replace external inputs and output sinks with test datasets, run a bounded Hop regression suite and report row or… | Security Reviewed | 1.5k | — |
 | [Let agents draft and manage Bdash SQL queries through MCP](skills/let-agents-draft-and-manage-bdash-sql-queries-through-mcp/) | Connect Bdash's SQL workspace to MCP clients so an agent can list configured data sources and write SQL into the… | Security Reviewed | 1.5k | — |
@@ -1358,7 +1359,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (214 skills)
+### ✅ Code Quality & Review (215 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1486,6 +1487,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Map Python import graphs to explain coupling before refactors or package splits with pydeps](skills/map-python-import-graphs-to-explain-coupling-before-refactors-or-package-splits-with-pydeps/) | Generate Python module dependency graphs so refactors and package splits start from an actual import map instead of… | Security Reviewed | 2.1k | — |
 | [Strip noisy runtime fields from Kubernetes YAML before review with kubectl-neat](skills/strip-noisy-runtime-fields-from-kubernetes-yaml-before-review-with-kubectl-neat/) | Clean exported Kubernetes manifests by removing status and other runtime-generated fields before diffing, review, or… | Published | 2.1k | — |
 | [Enforce red-green-refactor discipline in Claude Code sessions with TDD Guard](skills/enforce-red-green-refactor-discipline-in-claude-code-with-tdd-guard/) | Block implementation-first agent behavior and keep Claude Code anchored to failing-tests-first TDD loops. | Security Reviewed | 2k | 35.5k/wk |
+| [Review Master CSS output regressions through MCP snapshots](skills/review-master-css-output-regressions-through-mcp-snapshots/) | Capture project CSS snapshots, trace missing classes, compare generated output, and propose scoped fixes with… | Security Reviewed | 2k | 2.3k/wk |
 | [Enforce package boundaries inside a Rails monolith before coupling spreads with Packwerk](skills/enforce-package-boundaries-inside-a-rails-monolith-before-coupling-spreads-with-packwerk/) | Check a Rails codebase for dependency and visibility violations so domain boundaries stay reviewable instead of… | Security Reviewed | 1.9k | — |
 | [Diff YAML manifests semantically and surface meaningful drift before apply with dyff](skills/diff-yaml-manifests-semantically-and-surface-meaningful-drift-before-apply-with-dyff/) | Use dyff to compare YAML documents by structure and changed paths so agents can review configuration drift without… | Security Reviewed | 1.8k | — |
 | [Run autonomous coding tasks through Zeroshot verifier loops](skills/run-autonomous-coding-tasks-through-zeroshot-verifier-loops/) | Use Zeroshot when a coding issue or spec needs an executor agent and an independent verifier loop before the change… | Security Reviewed | 1.7k | 537/wk |
@@ -3048,7 +3050,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Writingmate MCP Video and Image Generation](skills/writingmate-mcp/) | Connects Claude Code, Codex, Cursor, and other MCP hosts to Writingmate for model discovery, text comparison, image… | Published | — | — |
 
 
-### 🎙️ Media & Transcription (112 skills)
+### 🎙️ Media & Transcription (113 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads)
 
@@ -3160,6 +3162,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [ElevenLabs Voiceover Generator for Long-Form Content](skills/elevenlabs-voiceover-longform/) | Splits blog posts or scripts into optimal chunks under ElevenLabs character limits, synthesizes each chunk using the… | Security Reviewed | — | — |
 | [FreeFM](skills/freefm/) | Safely synchronize free-playable NetEase Private FM tracks into an append-only playlist using a native Rust CLI/TUI.… | Published | — | — |
 | [Generate podcast-style audio narratives with Podcast Generation](skills/generate-podcast-style-audio-narratives-with-podcast-generation/) | Build a repeatable text-to-audio workflow around Azure OpenAI Realtime streaming, PCM collection, WAV conversion,… | Security Reviewed | — | — |
+| [GetYouTubeTranscript: YouTube Transcripts, Search and Channel Data](skills/getyoutubetranscript-youtube-transcript/) | Fetch YouTube transcripts, search videos and channels, browse a channel's uploads and playlists, and find where… | Published | — | — |
 | [GStreamer Live Stream Transcoder](skills/gstreamer-live-stream-transcoder/) | Builds GStreamer pipelines for real-time video transcoding with NVENC/VA-API hardware acceleration. Supports… | Published | — | — |
 | [GStreamer Pipeline Graph Optimizer](skills/gstreamer-pipeline-graph-optimizer/) | Analyzes and optimizes GStreamer media pipelines by parsing DOT graph dumps from GST_DEBUG_DUMP_DOT_DIR, profiling… | Published | — | — |
 | [OpenAI Whisper API Transcription](skills/openai-whisper-api-transcription/) | API-based speech-to-text transcription through OpenAI. No local model downloads, no GPU, no Python ML stack — just… | Security Reviewed | — | — |

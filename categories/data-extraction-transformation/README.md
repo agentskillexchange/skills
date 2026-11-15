@@ -217,6 +217,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Query and rewrite Markdown structure with mdq](../../skills/query-and-rewrite-markdown-structure-with-mdq/) | 1.7k | — |
 | [Run a Docling API server for agent document conversion](../../skills/run-a-docling-api-server-for-agent-document-conversion/) | 1.7k | — |
 | [Expose guarded database connections to agents with Data Peek](../../skills/expose-guarded-database-connections-to-agents-with-data-peek/) | 1.7k | 99/wk |
+| [Refresh Pixeltable video summaries without repeating transcription](../../skills/refresh-pixeltable-video-summaries-without-repeating-transcription/) | 1.7k | — |
 | [Anyquery Universal SQL Engine with MCP Integration](../../skills/anyquery-universal-sql-engine-mcp-integration/) | 1.7k | — |
 | [Regression-test Apache Hop pipelines against golden data](../../skills/regression-test-apache-hop-pipelines-against-golden-data/) | 1.5k | — |
 | [Let agents draft and manage Bdash SQL queries through MCP](../../skills/let-agents-draft-and-manage-bdash-sql-queries-through-mcp/) | 1.5k | — |

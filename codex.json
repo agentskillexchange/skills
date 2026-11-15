@@ -1,9 +1,42 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-11-14",
-  "total": 3233,
+  "generated": "2026-11-15",
+  "total": 3236,
   "skills": [
+    {
+      "slug": "getyoutubetranscript-youtube-transcript",
+      "name": "GetYouTubeTranscript: YouTube Transcripts, Search and Channel Data",
+      "title": "GetYouTubeTranscript: YouTube Transcripts, Search and Channel Data",
+      "description": "Fetch YouTube transcripts, search videos and channels, browse a channel's uploads and playlists, and find where something is said, through the getyoutubetranscript.com REST API…",
+      "category": "Media & Transcription",
+      "framework": "Claude Code",
+      "verification": "listed",
+      "source_url": "https://github.com/tubeagentkit/youtube-transcript-skills/blob/26bac904df785ab75ba2840ea10d33b591b9b018/skills/youtube-transcript/SKILL.md",
+      "github_repo": "tubeagentkit/youtube-transcript-skills"
+    },
+    {
+      "slug": "review-master-css-output-regressions-through-mcp-snapshots",
+      "name": "Review Master CSS output regressions through MCP snapshots",
+      "title": "Review Master CSS output regressions through MCP snapshots",
+      "description": "Capture project CSS snapshots, trace missing classes, compare generated output, and propose scoped fixes with evidence from the installed Master CSS compiler.",
+      "category": "Code Quality & Review",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/master-co/css",
+      "github_repo": "master-co/css"
+    },
+    {
+      "slug": "refresh-pixeltable-video-summaries-without-repeating-transcription",
+      "name": "Refresh Pixeltable video summaries without repeating transcription",
+      "title": "Refresh Pixeltable video summaries without repeating transcription",
+      "description": "Review a summary-prompt change, recompute only the summary and its search dependents, and verify that stored audio and transcripts stay unchanged.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/pixeltable/pixeltable",
+      "github_repo": "pixeltable/pixeltable"
+    },
     {
       "slug": "verify-shared-and-private-fleet-memory-through-caura-mcp",
       "name": "Verify shared and private fleet memory through Caura MCP",
