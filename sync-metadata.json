@@ -1,0 +1,13 @@
+{
+  "source_api_base": "https://agentskillexchange.com",
+  "source_total": 3239,
+  "source_etag_or_hash": "sha256:207ab584d9ae5d18b1b021426e6e96a7d6e1971482a921acb4b4ba4f2cc083fc",
+  "generated": "2026-11-15",
+  "generated_files": [
+    "skills.json",
+    "openclaw.json",
+    "codex.json",
+    "llms.txt"
+  ],
+  "generator": "scripts/sync-from-api.sh"
+}

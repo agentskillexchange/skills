@@ -1,0 +1,30 @@
+---
+name: "rembg AI Background Removal CLI and Python Library"
+slug: "rembg-ai-background-removal-cli"
+description: "rembg is a Python tool for automatic image background removal powered by AI models like U2-Net and SAM. It works as a CLI, Python library, HTTP server, or Docker container, supporting CPU and GPU acceleration for batch processing of images and video frames."
+github_stars: 22400
+verification: "security_reviewed"
+source: "https://github.com/danielgatis/rembg"
+author: "danielgatis"
+category: "Image & Creative Automation"
+framework: "Multi-Framework"
+tool_ecosystem:
+  github_repo: "danielgatis/rembg"
+  github_stars: 22400
+---
+
+# rembg AI Background Removal CLI and Python Library
+
+rembg is a Python tool for automatic image background removal powered by AI models like U2-Net and SAM. It works as a CLI, Python library, HTTP server, or Docker container, supporting CPU and GPU acceleration for batch processing of images and video frames.
+
+## Installation
+
+Install or set up from the source-backed instructions:
+
+pip install "rembg[cpu,cli]"
+
+- Source: https://github.com/danielgatis/rembg
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/rembg-ai-background-removal-cli/)

@@ -1,0 +1,27 @@
+---
+name: "Query Monitor WordPress Developer Tools Panel"
+slug: "query-monitor-wordpress-developer-tools-panel"
+description: "Query Monitor is the developer tools panel for WordPress and WooCommerce. It enables debugging of database queries, PHP errors, hooks and actions, block editor blocks, enqueued scripts and stylesheets, HTTP API calls, and more with filtering by plugin or theme."
+github_stars: 1743
+verification: "listed"
+source: "https://github.com/johnbillion/query-monitor"
+category: "WordPress & CMS"
+framework: "Multi-Framework"
+tool_ecosystem:
+  github_repo: "johnbillion/query-monitor"
+  github_stars: 1743
+---
+
+# Query Monitor WordPress Developer Tools Panel
+
+Query Monitor is the developer tools panel for WordPress and WooCommerce. It enables debugging of database queries, PHP errors, hooks and actions, block editor blocks, enqueued scripts and stylesheets, HTTP API calls, and more with filtering by plugin or theme.
+
+## Installation
+
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+
+- Source: https://github.com/johnbillion/query-monitor
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/query-monitor-wordpress-developer-tools-panel/)

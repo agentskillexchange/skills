@@ -1,0 +1,31 @@
+---
+name: "Terraform State Diagnostics"
+slug: "terraform-state-diagnostics"
+description: "Diagnoses Terraform state issues using terraform state commands, the Terraform Cloud API, and HCL parser. Detects drift, orphaned resources, and state lock conflicts across workspaces."
+github_stars: 48146
+verification: "security_reviewed"
+source: "https://github.com/hashicorp/terraform"
+category: "Runbooks & Diagnostics"
+framework: "ChatGPT Agents"
+tool_ecosystem:
+  github_repo: "hashicorp/terraform"
+  github_stars: 48146
+---
+
+# Terraform State Diagnostics
+
+Diagnoses Terraform state issues using terraform state commands, the Terraform Cloud API, and HCL parser. Detects drift, orphaned resources, and state lock conflicts across workspaces.
+
+## Installation
+
+Basic usage or getting-started notes:
+- Documentation is available on the [Terraform website](https://developer.hashicorp.com/terraform):
+- [Introduction](https://developer.hashicorp.com/terraform/intro)
+- [Documentation](https://developer.hashicorp.com/terraform/docs)
+
+- Source: https://github.com/hashicorp/terraform
+- Extracted from upstream docs: https://raw.githubusercontent.com/hashicorp/terraform/HEAD/README.md
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/terraform-state-diagnostics/)

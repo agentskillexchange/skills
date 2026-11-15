@@ -1,0 +1,67 @@
+# 📚 DevRel & API Documentation Workflows
+
+API docs, OpenAPI references, SDK generation, docs-site publishing, prose linting, and developer enablement workflows.
+
+- Live page: https://agentskillexchange.com/industry-skills/#devrel-api-documentation
+- Homepage access: Curated Collections on https://agentskillexchange.com/
+
+## Who this is for
+
+- DevRel, API platform, SDK, and documentation teams maintaining references, examples, and docs sites.
+- Teams that need agents to validate docs and API contracts before publishing.
+
+## Jobs covered
+
+- Render and lint OpenAPI references.
+- Generate typed clients and SDK docs.
+- Build and publish versioned documentation sites.
+- Check Markdown links and prose quality before release.
+
+## Workflow Stacks
+
+- **API reference release:** Bundle OpenAPI → lint contract → generate clients → publish docs → check links
+- **Docs quality pass:** Run prose lint → verify links → preview site → ship versioned docs
+- **Code-aware docs maintenance:** Generate TypeScript reference → validate Python docstrings → open docs-update PR → verify links → publish versioned docs
+
+## Recommended Picks
+
+| Skill | What it does here | Persona | Install | Stars |
+|---|---|---|---|---:|
+| [Redoc OpenAPI Documentation Renderer](../skills/redoc-openapi-documentation-renderer/) | Publishes clean OpenAPI references for API consumers who need fast navigation. | API docs engineer / DevRel | Medium | 25.6k |
+| [Scalar OpenAPI Reference and API Client Platform](../skills/scalar-openapi-reference-api-client-platform/) | Combines reference docs and request testing so developers can inspect endpoints in context. | DevRel engineer / API platform PM | Medium | 14.6k |
+| [Redocly CLI OpenAPI Linter and Documentation Generator](../skills/redocly-cli-openapi-linter-documentation-generator/) | Bundles linting, validation, bundling, and docs generation in one OpenAPI release gate. | API governance lead / docs engineer | Medium | 1.4k |
+| [DevDocs Unified API Documentation Browser](../skills/devdocs-unified-api-documentation-browser/) | Gives agents and developers a fast offline-searchable API reference surface. | Developer advocate / support engineer | Low | 38.7k |
+| [MkDocs Project Documentation Generator](../skills/mkdocs-project-documentation-generator/) | Provides a stable Markdown-to-docs-site path for project and internal docs. | Technical writer / developer educator | Medium | 21.9k |
+| [Fumadocs React Documentation Framework and Docs Site Generator](../skills/fumadocs-react-documentation-framework-and-docs-site-generator/) | Fits React/Next.js docs teams that need a modern docs framework rather than a static-only stack. | Frontend docs engineer | High | 11.5k |
+| [Vale Prose Linter for Technical Documentation](../skills/vale-prose-linter-technical-docs/) | Catches style, terminology, and readability drift before generated docs ship. | Technical editor / docs lead | Low | 5.3k |
+| [Orval OpenAPI Client Regeneration Skill for Typed SDKs](../skills/orval-openapi-client-regeneration-skill-typed-sdks/) | Regenerates typed API clients from OpenAPI specs so examples and SDKs stay aligned. | SDK engineer / API platform engineer | Medium | 5.7k |
+| [Spectral OpenAPI and AsyncAPI Linter](../skills/spectral-openapi-asyncapi-linter/) | Enforces API style and contract rules before docs or generated clients depend on the spec. | API governance / platform engineer | Low | 3.1k |
+| [Bundle and validate OpenAPI files into one publishable spec with swagger-cli](../skills/bundle-and-validate-openapi-files-into-one-publishable-spec-with-swagger-cli/) | Compiles multi-file OpenAPI definitions into one artifact for publishing or review. | API docs engineer / CI maintainer | Low | 517 |
+| [Resolve and validate OpenAPI specs with remote refs before client generation or review with Prance](../skills/resolve-and-validate-openapi-specs-with-remote-refs-before-client-generation-or-review-with-prance/) | Resolves remote references so codegen and docs are based on the actual compiled contract. | API integration engineer | Low | 261 |
+| [Run .http and .rest request files with variables, hooks, and assertions during local or CI checks with httpYac](../skills/run-http-and-rest-request-files-with-variables-hooks-and-assertions-during-local-or-ci-checks-with-httpyac/) | Turns API examples into executable checks that catch stale docs and broken sample flows. | DevRel engineer / QA engineer | Medium | 809 |
+| [Publish versioned MkDocs documentation with mike](../skills/publish-versioned-mkdocs-documentation-with-mike/) | Keeps older docs versions available while publishing new releases. | Docs release manager | Medium | 728 |
+| [Verify Markdown links before docs or content ship with markdown-link-check](../skills/verify-markdown-links-before-docs-or-content-ship-with-markdown-link-check/) | Catches broken links across docs and README files before they reach developers. | Technical writer / docs QA | Low | 693 |
+| [TypeDoc TypeScript API Documentation Generator](../skills/typedoc-typescript-api-documentation-generator/) | Adds TypeScript API documentation generation, a major docs workflow not currently represented in the collection. | SDK engineer / docs engineer | Low | 8.4k |
+| [Update repository docs automatically after code changes and open review PRs](../skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | Lets agents open reviewable docs-update PRs after code changes, reducing stale developer documentation. | DevRel engineer / docs maintainer | Medium | — |
+| [Validate Python Docstrings Against Function Signatures with pydoclint](../skills/validate-python-docstrings-against-function-signatures-with-pydoclint/) | Catches stale Python docstrings when APIs change, improving generated and maintained reference docs. | Python library maintainer / docs QA | Low | 208 |
+| [OpenAPI Generator API Client and Server Stub Tooling](../skills/openapi-generator-api-client-server-stub-tooling/) | Generates client SDKs and server stubs from OpenAPI specs, closing the loop between API documentation and usable developer artifacts. | SDK engineer / API platform team | Medium | 26.1k |
+| [Swagger UI Documentation Deployer](../skills/swagger-ui-documentation-deployer/) | Publishes interactive API references from OpenAPI specs so developers can inspect endpoints without custom docs infrastructure. | API docs maintainer / DevRel engineer | Low | 28.8k |
+| [Generate Go API docs from source annotations with Swag](../skills/generate-go-api-docs-from-source-annotations-with-swag/) | Generates Swagger/OpenAPI documentation from Go handler annotations before DevRel teams publish API references or regenerate clients. | API platform engineer / DevRel docs maintainer | Low | 12.9k |
+| [Bootstrap an OpenAPI spec from captured API traffic before client or test automation starts](../skills/bootstrap-openapi-spec-from-captured-api-traffic-before-client-or-test-automation/) | Turns captured API traffic into a starter OpenAPI spec before client generation, docs cleanup, or test automation. | API platform engineer / integration lead | Medium | 9.3k |
+| [Build versioned technical docs sites with search and navigation using Material for MkDocs](../skills/build-versioned-technical-docs-sites-with-search-and-nav-using-material-for-mkdocs/) | Adds a practical docs-site build path for versioned API and developer documentation with navigation and search. | DevRel engineer / docs platform owner | Medium | 26.7k |
+| [Lint and auto-format Markdown documentation before agents ship content with rumdl](../skills/lint-and-auto-format-markdown-documentation-before-agents-ship-content-with-rumdl/) | Keeps generated Markdown docs consistent before agent-authored changes reach a docs repo or release branch. | Technical writer / docs automation maintainer | Low | 1.1k |
+
+## Editorial Notes
+
+- The collection emphasizes developer enablement over generic engineering utilities.
+- Tools should reduce stale docs, broken references, or SDK drift.
+- Frame this as developer enablement and API documentation, not a generic software-industry bucket.
+
+## Adjacent Collections
+
+- [Product Analytics & Growth Ops](product-analytics-growth-ops.md)
+- [Media & Publishing Systems](media-publishing-systems.md)
+
+---
+
+[← Back to industry collections](README.md)

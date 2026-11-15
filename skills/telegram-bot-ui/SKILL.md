@@ -10,7 +10,7 @@ source: "https://github.com/hlibsuslov/telegram-bot-ui"
 
 # Telegram Bot UI
 
-Telegram Bot UI is an MIT-licensed Agent Skill, maintained at [hlibsuslov/telegram-bot-ui](https://github.com/hlibsuslov/telegram-bot-ui), that helps a coding agent design, build and audit the interface of Telegram bots so they look and feel like real products. Its entry point is `SKILL.md`, with reference files, recipes and an offline Bot API catalog next to it. It is not a bot framework or a hosted service and needs no API key of its own.
+Telegram Bot UI is an MIT-licensed Agent Skill, maintained at [hlibsuslov/telegram-bot-ui](https://github.com/hlibsuslov/telegram-bot-ui), that helps a coding agent design, build and audit the interface of Telegram bots so they look and feel like real products. Its entry point is [`skills/telegram-bot-ui/SKILL.md`](https://github.com/hlibsuslov/telegram-bot-ui/tree/v2.0.0/skills/telegram-bot-ui) (release `v2.0.0`), with reference files, recipes and an offline Bot API catalog next to it. It is not a bot framework or a hosted service and needs no API key of its own.
 
 **What it covers.**
 
@@ -39,7 +39,8 @@ Install from the official repository: [https://github.com/hlibsuslov/telegram-bo
 ### Claude Code (plain skill folder)
 
 ```bash
-git clone https://github.com/hlibsuslov/telegram-bot-ui.git ~/.claude/skills/telegram-bot-ui
+git clone --depth 1 --branch v2.0.0 https://github.com/hlibsuslov/telegram-bot-ui.git
+cp -r telegram-bot-ui/skills/telegram-bot-ui ~/.claude/skills/telegram-bot-ui
 ```
 
 ### Codex, Cursor, Gemini CLI, Copilot and other hosts

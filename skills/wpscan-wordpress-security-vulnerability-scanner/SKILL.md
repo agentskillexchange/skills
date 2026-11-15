@@ -1,0 +1,42 @@
+---
+name: "WPScan WordPress Security Vulnerability Scanner"
+slug: "wpscan-wordpress-security-vulnerability-scanner"
+description: "WPScan is an open-source WordPress security scanner that detects vulnerabilities in plugins, themes, and core installations. It checks for known CVEs, weak passwords, exposed config files, and security misconfigurations using the WPScan Vulnerability Database API."
+github_stars: 9527
+verification: "security_reviewed"
+source: "https://github.com/wpscanteam/wpscan"
+category: "WordPress & CMS"
+framework: "Multi-Framework"
+tool_ecosystem:
+  github_repo: "wpscanteam/wpscan"
+  github_stars: 9527
+---
+
+# WPScan WordPress Security Vulnerability Scanner
+
+WPScan is an open-source WordPress security scanner that detects vulnerabilities in plugins, themes, and core installations. It checks for known CVEs, weak passwords, exposed config files, and security misconfigurations using the WPScan Vulnerability Database API.
+
+## Installation
+
+Use the upstream install or setup path that matches your environment:
+- brew install wpscanteam/tap/wpscan
+- gem install wpscan
+- docker run -it --rm -v wpscan-db:/wpscan/.cache/wpscan/db wpscanteam/wpscan --url https://target.tld/ --enumerate u
+- docker run -it --rm -v wpscan-db:/wpscan/.cache/wpscan/db wpscanteam/wpscan --url https://target.tld/ --enumerate u1-100
+
+Requirements and caveats from upstream:
+- <a href="https://hub.docker.com/r/wpscanteam/wpscan/" target="_blank"><img src="https://img.shields.io/docker/pulls/wpscanteam/wpscan.svg"></a>
+- Nokogiri might require packages to be installed via your package manager depending on your OS, see https://nokogiri.org/tutorials/installing_nokogiri.html
+- WPScan depends on gems with native extensions (e.g. yajl-ruby, nokogiri, ffi), so a working C toolchain and Ruby development headers must be present before gem install wpscan. Without them, the install fails with erro...
+
+Basic usage or getting-started notes:
+- (Optional but highly recommended: [rbenv](https://github.com/rbenv/rbenv))
+- Ruby >= 3.3 - Recommended: latest stable
+- Curl >= 7.72 - Recommended: latest stable
+
+- Source: https://github.com/wpscanteam/wpscan
+- Extracted from upstream docs: https://raw.githubusercontent.com/wpscanteam/wpscan/HEAD/README.md
+
+## Source
+
+- [Agent Skill Exchange](https://agentskillexchange.com/skills/wpscan-wordpress-security-vulnerability-scanner/)
