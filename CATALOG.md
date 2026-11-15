@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3239 published skills** across **17 categories** · 2,654 security reviewed · Updated 2026-11-15 13:26 UTC
+> **3241 published skills** across **17 categories** · 2,654 security reviewed · Updated 2026-11-15 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1362,7 +1362,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (215 skills)
+### ✅ Code Quality & Review (216 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1534,6 +1534,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Run agentic quality engineering checks with Agentic QE](skills/run-agentic-quality-engineering-checks-with-agentic-qe/) | Configure Agentic QE in a repository so a coding agent can generate tests, inspect coverage gaps, investigate flaky… | Security Reviewed | 495 | 44.8k/wk |
 | [Generate and evaluate agent skills from traces before shipping them into repeatable production workflows with UPskill](skills/generate-and-evaluate-agent-skills-from-traces-before-shipping-them-into-repeatable-production-workflows-with-upskill/) | Turn successful traces into reusable skills, then benchmark those skills across models before you trust them in… | Security Reviewed | 477 | — |
 | [Run adversarial code audits with Bug Hunter](skills/run-adversarial-code-audits-with-bug-hunter/) | Use Bug Hunter to run scan-first adversarial code audits where Hunter, Skeptic, and Referee agents check repository… | Security Reviewed | 475 | 92/wk |
+| [Turn a specification into verified Rhesis test foundations](skills/turn-a-specification-into-verified-rhesis-test-foundations/) | Map source acceptance criteria to requirements, scoped metrics and typed test sets, with plan approval and… | Security Reviewed | 404 | — |
 | [Broken Link Verification for Static Sites and Documentation](skills/broken-link-verification-static-sites-documentation/) | Uses htmltest to crawl generated documentation or static site output, detect broken internal and external links, and… | Security Reviewed | 371 | — |
 | [Mock AI app dependencies for deterministic local and CI tests](skills/mock-ai-app-dependencies-for-deterministic-local-and-ci-tests/) | Use AiMock when an agent needs reproducible tests around LLM APIs, MCP tools, A2A flows, vector stores, search, or… | Security Reviewed | 324 | 6.4k/wk |
 | [Validate CI and app config files against upstream JSON schemas before merge](skills/validate-ci-and-app-config-files-against-upstream-json-schemas-before-merge/) | Use check-jsonschema when an agent needs to catch broken GitHub Actions, Renovate, Azure Pipelines, and other… | Security Reviewed | 312 | — |
@@ -1985,7 +1986,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (186 skills)
+### 📋 Runbooks & Diagnostics (187 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -2087,6 +2088,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Schedule and retain cross-database backups from one self-hosted control plane with Databasus](skills/schedule-and-retain-cross-database-backups-from-one-self-hosted-control-plane-with-databasus/) | Run scheduled backups with retention rules and storage targets across PostgreSQL, MySQL, MariaDB, and MongoDB from… | Security Reviewed | 6.6k | — |
 | [Lint live Kubernetes clusters for misconfigurations and operational hygiene with Popeye](skills/lint-live-kubernetes-clusters-for-misconfigurations-and-operational-hygiene-with-popeye/) | Inspect a live Kubernetes cluster for unhealthy resource settings, missing probes, and other operational smells. | Security Reviewed | 6.3k | — |
 | [Verify a freshly provisioned server or container matches expected services, ports, and files](skills/verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files/) | Uses Goss to express the expected state of a machine or container, then validates that reality still matches the… | Security Reviewed | 5.9k | — |
+| [Triage a Latitude signal with linked trace evidence](skills/triage-a-latitude-signal-with-linked-trace-evidence/) | Investigate one agent failure signal through lifecycle, trends, model slices and spans, then return an… | Security Reviewed | 4.8k | — |
 | [Tail multi-pod Kubernetes logs by label during incidents with Stern](skills/tail-multi-pod-kubernetes-logs-by-label-during-incidents-with-stern/) | Aggregate and follow logs from matching Kubernetes pods during incident triage without hopping pod by pod. | Security Reviewed | 4.6k | — |
 | [Debug DNS resolution and record mismatches from the terminal with doggo](skills/debug-dns-resolution-and-record-mismatches-from-the-terminal-with-doggo/) | Run fast DNS lookups, compare record types, and inspect resolver behavior when domains, MX records, or service… | Published | 4.2k | — |
 | [Analyze memory images for processes, modules, and malware indicators with Volatility 3](skills/analyze-memory-images-for-processes-modules-and-malware-indicators-with-volatility-3/) | Inspect captured RAM images to enumerate processes, modules, handles, and suspicious in-memory behavior before… | Security Reviewed | 4.1k | — |

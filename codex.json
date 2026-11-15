@@ -2,8 +2,30 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-15",
-  "total": 3239,
+  "total": 3241,
   "skills": [
+    {
+      "slug": "turn-a-specification-into-verified-rhesis-test-foundations",
+      "name": "Turn a specification into verified Rhesis test foundations",
+      "title": "Turn a specification into verified Rhesis test foundations",
+      "description": "Map source acceptance criteria to requirements, scoped metrics and typed test sets, with plan approval and generated-test verification.",
+      "category": "Code Quality & Review",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/rhesis-ai/rhesis",
+      "github_repo": "rhesis-ai/rhesis"
+    },
+    {
+      "slug": "triage-a-latitude-signal-with-linked-trace-evidence",
+      "name": "Triage a Latitude signal with linked trace evidence",
+      "title": "Triage a Latitude signal with linked trace evidence",
+      "description": "Investigate one agent failure signal through lifecycle, trends, model slices and spans, then return an evidence-backed engineering brief.",
+      "category": "Runbooks & Diagnostics",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/latitude-dev/latitude-llm",
+      "github_repo": "latitude-dev/latitude-llm"
+    },
     {
       "slug": "answer-from-one-docling-studio-parse-with-verified-citations",
       "name": "Answer from one Docling Studio parse with verified citations",

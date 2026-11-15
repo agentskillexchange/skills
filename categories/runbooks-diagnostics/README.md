@@ -136,6 +136,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Schedule and retain cross-database backups from one self-hosted control plane with Databasus](../../skills/schedule-and-retain-cross-database-backups-from-one-self-hosted-control-plane-with-databasus/) | 6.6k | — |
 | [Lint live Kubernetes clusters for misconfigurations and operational hygiene with Popeye](../../skills/lint-live-kubernetes-clusters-for-misconfigurations-and-operational-hygiene-with-popeye/) | 6.3k | — |
 | [Verify a freshly provisioned server or container matches expected services, ports, and files](../../skills/verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files/) | 5.9k | — |
+| [Triage a Latitude signal with linked trace evidence](../../skills/triage-a-latitude-signal-with-linked-trace-evidence/) | 4.8k | — |
 | [Tail multi-pod Kubernetes logs by label during incidents with Stern](../../skills/tail-multi-pod-kubernetes-logs-by-label-during-incidents-with-stern/) | 4.6k | — |
 | [Debug DNS resolution and record mismatches from the terminal with doggo](../../skills/debug-dns-resolution-and-record-mismatches-from-the-terminal-with-doggo/) | 4.2k | — |
 | [Analyze memory images for processes, modules, and malware indicators with Volatility 3](../../skills/analyze-memory-images-for-processes-modules-and-malware-indicators-with-volatility-3/) | 4.1k | — |

@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-15
-# Total: 3239 skills
+# Total: 3241 skills
+
+## Turn a specification into verified Rhesis test foundations
+slug: turn-a-specification-into-verified-rhesis-test-foundations
+category: Code Quality & Review
+framework: MCP
+verification: Security Reviewed
+description: Map source acceptance criteria to requirements, scoped metrics and typed test sets, with plan approval and generated-test verification.
+url: https://agentskillexchange.com/skills/turn-a-specification-into-verified-rhesis-test-foundations/
+
+## Triage a Latitude signal with linked trace evidence
+slug: triage-a-latitude-signal-with-linked-trace-evidence
+category: Runbooks & Diagnostics
+framework: MCP
+verification: Security Reviewed
+description: Investigate one agent failure signal through lifecycle, trends, model slices and spans, then return an evidence-backed engineering brief.
+url: https://agentskillexchange.com/skills/triage-a-latitude-signal-with-linked-trace-evidence/
 
 ## Answer from one Docling Studio parse with verified citations
 slug: answer-from-one-docling-studio-parse-with-verified-citations
