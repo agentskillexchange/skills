@@ -1,8 +1,44 @@
 {
   "version": "2.0",
-  "total": 3245,
+  "total": 3248,
   "generated": "2026-11-16",
   "skills": [
+    {
+      "slug": "investigate-and-fact-check",
+      "name": "Investigative Journalism and Fact-Checking",
+      "title": "Investigative Journalism and Fact-Checking",
+      "description": "Conduct public-interest investigative journalism, rigorous fact-checking, and open-source intelligence (OSINT) research. Use for verifying claims, quotes, documents, photographs, video, audio, statistics, and online narratives;…",
+      "category": "Research & Scraping",
+      "framework": "Codex",
+      "verification": "listed",
+      "source_url": "https://github.com/KhademOHAli1/investigate-and-fact-check",
+      "github_repo": "khademohali1/investigate-and-fact-check"
+    },
+    {
+      "slug": "firecrawl-alexandria",
+      "name": "Firecrawl Alexandria",
+      "title": "Firecrawl Alexandria",
+      "description": "Firecrawl Alexandria gives coding agents a direct path to structured data through ready-made website workflows, data APIs, and specialized indexes. The agent discovers a…",
+      "category": "Research & Scraping",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/firecrawl/skills/tree/main/skills/core/firecrawl-alexandria",
+      "github_repo": "firecrawl/skills"
+    },
+    {
+      "slug": "build-and-resume-research-coverage-matrices-with-omagents",
+      "name": "Build and resume research coverage matrices with OmAgents",
+      "title": "Build and resume research coverage matrices with OmAgents",
+      "description": "Plan research as items and fields, persist source-backed findings, fill coverage gaps, and resume an audited Markdown report across agent sessions.",
+      "category": "Research & Scraping",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "npm_weekly_downloads": 764
+      },
+      "source_url": "https://github.com/omagents/omagents/tree/main/packages/core/skills/deep-research",
+      "github_repo": "omagents/omagents"
+    },
     {
       "slug": "route-codex-delivery-through-explicit-risk-gates-with-sol-advisor",
       "name": "Route Codex delivery through explicit risk gates with Sol Advisor",

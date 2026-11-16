@@ -1,6 +1,6 @@
 # Categories
 
-> **3245 skills** across **17 categories**
+> **3248 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -13,7 +13,7 @@
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **191** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **187** | Incident response, troubleshooting guides, system diagnostics, and op... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **164** | Metrics collection, alerting rules, observability setup, and system m... |
-| 🔍 | [**Research & Scraping**](research-scraping/) | **143** | Web research, data collection, content aggregation, and information g... |
+| 🔍 | [**Research & Scraping**](research-scraping/) | **146** | Web research, data collection, content aggregation, and information g... |
 | 📚 | [**Library & API Reference**](library-api-reference/) | **134** | SDK documentation, API guides, framework reference material, and libr... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **131** | Email automation, calendar management, task coordination, and product... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **129** | Web scraping, UI testing, headless browser control, and browser-based... |

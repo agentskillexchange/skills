@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-16
-# Total: 3245 skills
+# Total: 3248 skills
+
+## Investigative Journalism and Fact-Checking
+slug: investigate-and-fact-check
+category: Research & Scraping
+framework: Codex
+verification: Published
+description: Conduct public-interest investigative journalism, rigorous fact-checking, and open-source intelligence (OSINT) research. Use for verifying claims, quotes, documents, photographs, video, audio, statistics, and online narratives;…
+url: https://agentskillexchange.com/skills/investigate-and-fact-check/
+
+## Firecrawl Alexandria
+slug: firecrawl-alexandria
+category: Research & Scraping
+framework: Multi-Framework
+verification: Published
+description: Firecrawl Alexandria gives coding agents a direct path to structured data through ready-made website workflows, data APIs, and specialized indexes. The agent discovers a…
+url: https://agentskillexchange.com/skills/firecrawl-alexandria/
+
+## Build and resume research coverage matrices with OmAgents
+slug: build-and-resume-research-coverage-matrices-with-omagents
+category: Research & Scraping
+framework: Multi-Framework
+verification: Security Reviewed
+description: Plan research as items and fields, persist source-backed findings, fill coverage gaps, and resume an audited Markdown report across agent sessions.
+url: https://agentskillexchange.com/skills/build-and-resume-research-coverage-matrices-with-omagents/
 
 ## Route Codex delivery through explicit risk gates with Sol Advisor
 slug: route-codex-delivery-through-explicit-risk-gates-with-sol-advisor

@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3245 published skills** across **17 categories** · 2,658 security reviewed · Updated 2026-11-16 13:26 UTC
+> **3248 published skills** across **17 categories** · 2,658 security reviewed · Updated 2026-11-16 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -2355,7 +2355,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Published | — | — |
 
 
-### 🔍 Research & Scraping (143 skills)
+### 🔍 Research & Scraping (146 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -2453,6 +2453,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Resolve coding questions from upstream evidence with Firecrawl Developer Index](skills/resolve-coding-questions-with-firecrawl-developer-index/) | Find public issues, merged fixes and API-contract passages with Firecrawl’s named Developer Index skill, then return… | Security Reviewed | 653 | 15.4k/wk |
 | [Search and resume past coding-agent sessions locally with exact handoff commands using Agent Sessions](skills/search-and-resume-past-coding-agent-sessions-locally-with-exact-handoff-commands-using-agent-sessions/) | Browse archived sessions from multiple coding agents, search across them locally, and copy exact resume commands… | Security Reviewed | 478 | — |
 | [Run evidence-first research investigations in Claude Code with Deepdive](skills/run-evidence-first-research-investigations-in-claude-code-with-deepdive/) | Install Deepdive as a Claude Code skill for structured investigations with plans, source files, claim tracing,… | Security Reviewed | 393 | — |
+| [Build and resume research coverage matrices with OmAgents](skills/build-and-resume-research-coverage-matrices-with-omagents/) | Plan research as items and fields, persist source-backed findings, fill coverage gaps, and resume an audited… | Security Reviewed | 359 | 764/wk |
 | [Run source-audited academic literature searches with Nature Academic Search](skills/run-source-audited-academic-literature-searches-with-nature-academic-search/) | Use Nature Academic Search to plan, deduplicate, verify, graph, and export academic literature searches across… | Security Reviewed | 216 | — |
 | [Serve clean Markdown from URLs and files with PullMD](skills/serve-clean-markdown-from-urls-and-files-with-pullmd/) | Use PullMD as a self-hosted Markdown conversion service for agents, exposing web pages, documents, media… | Security Reviewed | 197 | — |
 | [Apify SDK for Web Scraping and Actor Automation](skills/apify-sdk-web-scraping-actor-automation/) | Apify SDK is the official JavaScript SDK for building Actors, crawlers, and data extraction workflows on Apify. It… | Security Reviewed | 173 | 35.6k/wk |
@@ -2483,6 +2484,8 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Diffbot Article Extraction Verifier](skills/diffbot-article-extraction-verifier/) | Validates article extraction quality using the Diffbot Article API and Analyze API, checking fields like `title`,… | Security Reviewed | — | — |
 | [Diffbot Knowledge Graph Extractor](skills/diffbot-knowledge-graph-extractor/) | Extracts structured entities from web pages using the Diffbot Extraction API and Knowledge Graph. Supports article,… | Security Reviewed | — | — |
 | [Find Products by Intent with Mydentify](skills/find-products-by-intent-with-mydentify/) | Use Mydentify's public intent and product feeds to find software by the outcome a person wants, then return… | Published | — | — |
+| [Firecrawl Alexandria](skills/firecrawl-alexandria/) | Firecrawl Alexandria gives coding agents a direct path to structured data through ready-made website workflows, data… | Published | — | — |
+| [Investigative Journalism and Fact-Checking](skills/investigate-and-fact-check/) | Conduct public-interest investigative journalism, rigorous fact-checking, and open-source intelligence (OSINT)… | Published | — | — |
 | [Jina Reader API Skill](skills/jina-reader-api-skill/) | Extracts clean markdown content from any URL using the Jina Reader API (r.jina.ai). Handles JavaScript-rendered… | Security Reviewed | — | — |
 | [OSINT Domain Intelligence Scanner](skills/osint-domain-intelligence-scanner/) | Performs deep OSINT analysis on domains using Shodan API, SecurityTrails DNS history, and WHOIS RDAP lookups.… | Published | — | — |
 | [Pangolinfo AI SERP](skills/pangolinfo-ai-serp/) | Retrieve structured Google SERP and AI Overviews, run AI Mode follow-up queries, and optionally capture screenshots… | Published | — | — |
