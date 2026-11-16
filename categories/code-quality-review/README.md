@@ -178,6 +178,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Review visual regression diffs and publish snapshot baselines in CI with reg-suit](../../skills/review-visual-regression-diffs-and-publish-snapshot-baselines-in-ci-with-reg-suit/) | 1.3k | 499.4k/wk |
 | [Stress-test Python test suites with mutation runs from mutmut](../../skills/stress-test-python-test-suites-with-mutation-runs-from-mutmut/) | 1.3k | — |
 | [publint Package Export Validation Skill for npm Release Checks](../../skills/publint-package-export-validation-skill-npm-release-checks/) | 1.3k | 588k/wk |
+| [Run evidence-backed mobile app smoke checks with AutoCua](../../skills/run-evidence-backed-mobile-app-smoke-checks-with-autocua/) | 1.2k | — |
 | [Run Ruff, Mypy, and other code-quality tools on Jupyter notebooks with nbQA](../../skills/run-ruff-mypy-and-other-code-quality-tools-on-jupyter-notebooks-with-nbqa/) | 1.2k | — |
 | [Makefile Linting for CI and Build Pipelines](../../skills/makefile-linting-ci-build-pipelines/) | 1.2k | — |
 | [Lint PostgreSQL migrations and SQL changes before irreversible schema mistakes land with Squawk](../../skills/lint-postgresql-migrations-and-sql-changes-before-irreversible-schema-mistakes-land-with-squawk/) | 1.1k | — |

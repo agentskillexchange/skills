@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C241-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C242-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C655-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,241 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,242 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Sanitize untrusted HTML fragments before rendering previews, comments, or CMS content with DOMPurify](skills/sanitize-untrusted-html-fragments-before-rendering-previews-comments-or-cms-content-dompurify/)** — Use DOMPurify when an agent must accept HTML from users, rich text editors, imports, or model output but cannot safely render it as-is. The skill strips dangerous markup…
+**[Langflow Visual AI Agent and Workflow Builder](skills/langflow-visual-ai-agent-workflow-builder/)** — Langflow is an open-source visual builder for AI agents and workflows. It lets teams design flows graphically, expose them as APIs or MCP tools, and connect major LLMs,…
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -87,6 +87,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Run evidence-backed mobile app smoke checks with AutoCua](skills/run-evidence-backed-mobile-app-smoke-checks-with-autocua/) | Run bounded natural-language smoke checks on simulator app builds, then review per-task status and saved observations before reporting... | 1.2k | Code Quality & Review |
 | [Turn a specification into verified Rhesis test foundations](skills/turn-a-specification-into-verified-rhesis-test-foundations/) | Map source acceptance criteria to requirements, scoped metrics and typed test sets, with plan approval and generated-test verification | 404 | Code Quality & Review |
 | [Triage a Latitude signal with linked trace evidence](skills/triage-a-latitude-signal-with-linked-trace-evidence/) | Investigate one agent failure signal through lifecycle, trends, model slices and spans, then return an evidence-backed engineering brief | 4.8k | Runbooks & Diagnostics |
 | [Answer from one Docling Studio parse with verified citations](skills/answer-from-one-docling-studio-parse-with-verified-citations/) | Read a PDF outline under a token and round budget, verify quoted evidence against one parse, and return... | 275 | Data Extraction & Transformation |
@@ -96,7 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Review Master CSS output regressions through MCP snapshots](skills/review-master-css-output-regressions-through-mcp-snapshots/) | Capture project CSS snapshots, trace missing classes, compare generated output, and propose scoped fixes with evidence from the... | 2.0k | Code Quality & Review |
 | [Refresh Pixeltable video summaries without repeating transcription](skills/refresh-pixeltable-video-summaries-without-repeating-transcription/) | Review a summary-prompt change, recompute only the summary and its search dependents, and verify that stored audio and... | 1.7k | Data Extraction & Transformation |
 | [Verify shared and private fleet memory through Caura MCP](skills/verify-shared-and-private-fleet-memory-through-caura-mcp/) | Use two provisioned agent identities to check fleet recall, private-memory boundaries and writer provenance before connecting a team... | 559 | Security & Verification |
-| [Regression-test Apache Hop pipelines against golden data](skills/regression-test-apache-hop-pipelines-against-golden-data/) | Replace external inputs and output sinks with test datasets, run a bounded Hop regression suite and report row... | 1.5k | Data Extraction & Transformation |
 
 ---
 
@@ -125,9 +125,9 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 |---|---|---:|---|
 | [Triage Lunora deployment errors and migration status through MCP](skills/triage-lunora-deployment-errors-and-migration-status-through-mcp/) | Inspect Lunora logs, grouped errors, query performance and pending migrations through MCP, then return a scoped incident handoff... | 293 | Runbooks & Diagnostics |
 | [Audit local agent runs and select hook policies with Failproof AI](skills/audit-local-agent-runs-and-select-hook-policies-with-failproof-ai/) | Review local harness history, identify risky tool patterns, and prepare a source-backed policy-pack rollout across supported agent runtimes | 8.9k | Security & Verification |
+| [Record an agent-completed browser task as a parameterized Oya playbook](skills/record-agent-browser-task-as-parameterized-oya-playbook/) | Complete a test browser task once, save its learned steps as an Oya playbook, and verify a replay... | 349 | Browser Automation |
 | [Record and replay FrontMCP calls to catch server regressions](skills/record-and-replay-frontmcp-calls-to-catch-server-regressions/) | Capture baseline MCP calls as JSONL, replay them against a changed FrontMCP server, and review answer differences and... | 151 | Code Quality & Review |
 | [Review Master CSS output regressions through MCP snapshots](skills/review-master-css-output-regressions-through-mcp-snapshots/) | Capture project CSS snapshots, trace missing classes, compare generated output, and propose scoped fixes with evidence from the... | 2.0k | Code Quality & Review |
-| [Record an agent-completed browser task as a parameterized Oya playbook](skills/record-agent-browser-task-as-parameterized-oya-playbook/) | Complete a test browser task once, save its learned steps as an Oya playbook, and verify a replay... | 349 | Browser Automation |
 | [Diagnose incomplete web extraction with PageSift MCP audit evidence](skills/diagnose-incomplete-web-extraction-with-pagesift-mcp-audit-evidence/) | Triage missing web content across local agents using PageSift MCP audit records, HTML snapshots, and local extraction issue... | 162 | Data Extraction & Transformation |
 | [Assemble and review local video cuts through Concat MCP](skills/assemble-and-review-local-video-cuts-through-concat-mcp/) | Turn local footage and an edit brief into a Concat timeline, inspect composited frames, save the project and... | 16.0k | Media & Transcription |
 | [Re-embed OpenClaw memory into a fresh LanceDB store](skills/re-embed-openclaw-memory-into-a-fresh-lancedb-store/) | Plan and verify an OpenClaw memory embedding cutover using a complete store backup, a dry run and matching... | 4.4k | Integrations & Connectors |
@@ -144,7 +144,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 270 | Scaffolders, boilerplate generators, workflow templates |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 265 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 244 | ETL pipelines, parsing, format conversion |
-| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 216 | Linting, code review, test generators, coverage |
+| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 217 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 193 | Pipeline configs, deployment automation, build tooling |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 191 | Third-party API bridges, webhooks, service connectors |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 187 | Incident response, troubleshooting, system diagnostics |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,241 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 3,242 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,655 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

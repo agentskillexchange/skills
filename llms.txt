@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-11-15
-# Total: 3241 skills
+# Generated: 2026-11-16
+# Total: 3242 skills
+
+## Run evidence-backed mobile app smoke checks with AutoCua
+slug: run-evidence-backed-mobile-app-smoke-checks-with-autocua
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run bounded natural-language smoke checks on simulator app builds, then review per-task status and saved observations before reporting results.
+url: https://agentskillexchange.com/skills/run-evidence-backed-mobile-app-smoke-checks-with-autocua/
 
 ## Turn a specification into verified Rhesis test foundations
 slug: turn-a-specification-into-verified-rhesis-test-foundations

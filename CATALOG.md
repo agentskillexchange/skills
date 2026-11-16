@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3241 published skills** across **17 categories** · 2,655 security reviewed · Updated 2026-11-15 19:26 UTC
+> **3242 published skills** across **17 categories** · 2,655 security reviewed · Updated 2026-11-16 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1362,7 +1362,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (216 skills)
+### ✅ Code Quality & Review (217 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1506,6 +1506,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Review visual regression diffs and publish snapshot baselines in CI with reg-suit](skills/review-visual-regression-diffs-and-publish-snapshot-baselines-in-ci-with-reg-suit/) | Use reg-suit when an agent needs to compare screenshot outputs against a stored baseline and publish a… | Security Reviewed | 1.3k | 499.4k/wk |
 | [Stress-test Python test suites with mutation runs from mutmut](skills/stress-test-python-test-suites-with-mutation-runs-from-mutmut/) | Use mutation testing to expose weak Python tests before merge or release by checking which code changes survive the… | Security Reviewed | 1.3k | — |
 | [publint Package Export Validation Skill for npm Release Checks](skills/publint-package-export-validation-skill-npm-release-checks/) | Use this skill when an agent needs to lint a package before publish, catch broken exports or manifest issues, and… | Security Reviewed | 1.3k | 588k/wk |
+| [Run evidence-backed mobile app smoke checks with AutoCua](skills/run-evidence-backed-mobile-app-smoke-checks-with-autocua/) | Run bounded natural-language smoke checks on simulator app builds, then review per-task status and saved… | Security Reviewed | 1.2k | — |
 | [Run Ruff, Mypy, and other code-quality tools on Jupyter notebooks with nbQA](skills/run-ruff-mypy-and-other-code-quality-tools-on-jupyter-notebooks-with-nbqa/) | Apply standard Python formatters, linters, and type checkers to notebook-heavy repositories without manually… | Security Reviewed | 1.2k | — |
 | [Makefile Linting for CI and Build Pipelines](skills/makefile-linting-ci-build-pipelines/) | Uses checkmake to inspect Makefiles for style issues, fragile targets, and maintainability problems before build… | Security Reviewed | 1.2k | — |
 | [Lint PostgreSQL migrations and SQL changes before irreversible schema mistakes land with Squawk](skills/lint-postgresql-migrations-and-sql-changes-before-irreversible-schema-mistakes-land-with-squawk/) | Catch locking, indexing, and schema-change hazards in PostgreSQL migration SQL before a review turns into downtime. | Security Reviewed | 1.1k | — |
