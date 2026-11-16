@@ -12,6 +12,8 @@ framework: "MCP"
 tool_ecosystem:
   github_repo: "ChiR24/Unreal_mcp"
   github_stars: 1033
+  npm_package: "unreal-engine-mcp-server"
+  npm_weekly_downloads: 0
 ---
 
 # Inspect Unreal Editor state and capture visual evidence with EngineWire
