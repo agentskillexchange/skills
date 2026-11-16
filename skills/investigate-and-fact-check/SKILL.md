@@ -1,17 +1,13 @@
 ---
-name: Investigative Journalism and Fact-Checking
-slug: investigate-and-fact-check
-description: Conduct public-interest investigative journalism, rigorous fact-checking, and open-source intelligence (OSINT) research. Use for verifying claims, quotes, documents, photographs, video, audio, statistics, and online narratives; investigating public institutions, companies, procurement, ownership, and documented relationships; reconstructing events; or reviewing an investigation before publication. Apply hypothesis testing, source tracing, independent corroboration, geolocation, chronolocation, public-record research, reproducible analysis, evidence preservation, and clear uncertainty. Produce sourced findings, claim and evidence logs, investigative dossiers, and draft questions for a right of reply.
-category: Research & Scraping
-framework: Codex
-verification: listed
-source: https://github.com/KhademOHAli1/investigate-and-fact-check
-license: MIT
-compatibility: A skills-compatible agent with file access; web access for current research. Python 3.10+ is needed only for the optional evidence manifest helper.
-metadata:
-  author: KhademOHAli1
-  version: "1.0.0"
-  repository: https://github.com/KhademOHAli1/investigate-and-fact-check
+name: "Investigative Journalism and Fact-Checking"
+slug: "investigate-and-fact-check"
+description: "Conduct public-interest investigative journalism, rigorous fact-checking, and open-source intelligence (OSINT) research. Use for verifying claims, quotes, documents, photographs, video, audio, statistics, and online narratives; investigating public institutions, companies, procurement, ownership, and documented relationships; reconstructing events; or reviewing an investigation before publication. Apply hypothesis testing, source tracing, independent corroboration, geolocation, chronolocation, public-record research, reproducible analysis, evidence preservation, and clear uncertainty. Produce sourced findings, claim and evidence logs, investigative dossiers, and draft questions for a right of reply."
+verification: "listed"
+source: "https://github.com/KhademOHAli1/investigate-and-fact-check"
+category: "Research & Scraping"
+framework: "Codex"
+tool_ecosystem:
+  github_repo: "khademohali1/investigate-and-fact-check"
 ---
 
 # Investigative Journalism and Fact-Checking
@@ -137,26 +133,7 @@ For publication review, recommend: ready for editorial approval, ready with spec
 
 ## Installation
 
-The canonical MIT-licensed source is [KhademOHAli1/investigate-and-fact-check](https://github.com/KhademOHAli1/investigate-and-fact-check). This catalog copy adds Agent Skill Exchange metadata and installation instructions; the upstream repository maintains the release packages and platform guides.
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-### Codex
+- Source: https://github.com/KhademOHAli1/investigate-and-fact-check
 
-From a new checkout, install the complete skill folder. These commands refuse an existing skill destination:
-
-```sh
-git clone --branch v1.0.0 https://github.com/KhademOHAli1/investigate-and-fact-check.git
-mkdir -p ~/.agents/skills
-test ! -e ~/.agents/skills/investigate-and-fact-check && \
-  cp -R investigate-and-fact-check/skills/investigate-and-fact-check ~/.agents/skills/investigate-and-fact-check
-```
-
-Restart the client if needed, then ask:
-
-```text
-Use $investigate-and-fact-check to verify this claim: [exact claim].
-Give the verdict, confidence, inspected evidence, counterevidence, and remaining uncertainty.
-```
-
-### Claude and Mistral
-
-Use the upstream [Claude](https://github.com/KhademOHAli1/investigate-and-fact-check/blob/main/docs/claude.md) and [Mistral](https://github.com/KhademOHAli1/investigate-and-fact-check/blob/main/docs/mistral.md) guides for platform-specific packages, native installation paths, and hosted-client limitations. The skill itself supplies no browsing service or API keys. The optional local SHA-256 manifest helper requires Python 3.10 or later and uses only the standard library.
