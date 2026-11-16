@@ -12,7 +12,7 @@ tool_ecosystem:
   github_repo: "twilio/twilio-node"
   github_stars: 1539
   npm_package: "twilio"
-  npm_weekly_downloads: 9440520
+  npm_weekly_downloads: 9477615
 ---
 
 # Twilio MCP Server
