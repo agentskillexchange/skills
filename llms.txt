@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-16
-# Total: 3242 skills
+# Total: 3245 skills
+
+## Route Codex delivery through explicit risk gates with Sol Advisor
+slug: route-codex-delivery-through-explicit-risk-gates-with-sol-advisor
+category: Templates & Workflows
+framework: Codex
+verification: Published
+description: Declare a solo, delegate, audit or full route, verify the selected native roles, and return a reviewed diff with parent-run verification evidence.
+url: https://agentskillexchange.com/skills/route-codex-delivery-through-explicit-risk-gates-with-sol-advisor/
+
+## Build and review single-file browser motion graphics with Bang Motion
+slug: build-and-review-single-file-browser-motion-graphics-with-bang-motion
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Turn a brand brief into an approved motion concept and one playable index.html, then scrub key moments and revise the same timeline before handoff.
+url: https://agentskillexchange.com/skills/build-and-review-single-file-browser-motion-graphics-with-bang-motion/
+
+## Draft, review and export code-driven pixel effects with Pixelfx
+slug: draft-review-and-export-code-driven-pixel-effects-with-pixelfx
+category: Image & Creative Automation
+framework: Claude Code
+verification: Security Reviewed
+description: Find or draft a pixel effect, inspect rendered contact sheets, refine its motion and export a transparent sprite sheet with timing and pivot metadata.
+url: https://agentskillexchange.com/skills/draft-review-and-export-code-driven-pixel-effects-with-pixelfx/
 
 ## Run evidence-backed mobile app smoke checks with AutoCua
 slug: run-evidence-backed-mobile-app-smoke-checks-with-autocua

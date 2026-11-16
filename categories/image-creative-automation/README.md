@@ -94,6 +94,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Penrose Mathematical Diagram Generator from Plain Text Notation](../../skills/penrose-math-diagram-generator/) | 7.9k | — |
 | [Turn Markdown or raw content into agent-generated HTML artifacts with HTML Anything](../../skills/turn-markdown-or-raw-content-into-agent-generated-html-artifacts-with-html-anything/) | 7.8k | — |
 | [Use Stitch Skills to generate, convert, and sync UI designs through agent workflows](../../skills/use-stitch-skills-to-generate-convert-and-sync-ui-designs-through-agent-workflows/) | 7.8k | — |
+| [Draft, review and export code-driven pixel effects with Pixelfx](../../skills/draft-review-and-export-code-driven-pixel-effects-with-pixelfx/) | 7.6k | — |
 | [Stable Diffusion LoRA Training Pipeline](../../skills/stable-diffusion-lora-training-pipeline/) | 7k | — |
 | [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](../../skills/pixelmatch-image-comparison-library/) | 6.8k | 8.7M/wk |
 | [Bulk import and reconcile large photo archives into Immich without manual re-upload loops using immich-go](../../skills/bulk-import-and-reconcile-large-photo-archives-into-immich-without-manual-re-upload-loops-using-immich-go/) | 6k | — |
@@ -109,6 +110,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Turn a plain-language brief into a multi-step video production pipeline with OpenMontage](../../skills/turn-a-plain-language-brief-into-a-multi-step-video-production-pipeline-with-openmontage/) | 3k | — |
 | [Inspect and retrieve brand and cloud service SVG assets with theSVG](../../skills/retrieve-brand-cloud-service-svg-assets-thesvg/) | 3k | — |
 | [Draw and verify Excalidraw diagrams through an agent canvas](../../skills/draw-and-verify-excalidraw-diagrams-through-an-agent-canvas/) | 2.4k | 11.7k/wk |
+| [Build and review single-file browser motion graphics with Bang Motion](../../skills/build-and-review-single-file-browser-motion-graphics-with-bang-motion/) | 2.2k | — |
 | [Produce cinematic product videos with Video Shotcraft](../../skills/produce-cinematic-product-videos-with-video-shotcraft/) | 2.1k | — |
 | [Compare UI design directions and refine the selected page with Oil UI](../../skills/compare-ui-design-directions-and-refine-the-selected-page-with-oil-ui/) | 2.1k | — |
 | [Generate consistent hand-drawn image prompts with Hand Drawn Styles](../../skills/generate-consistent-hand-drawn-image-prompts-with-hand-drawn-styles/) | 2k | — |

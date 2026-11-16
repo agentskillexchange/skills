@@ -186,6 +186,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Regenerate repository config from a single project definition with projen](../../skills/regenerate-repository-config-from-a-single-project-definition-with-projen/) | 2.9k | 876.8k/wk |
 | [Generate domain-specific Claude Code agent teams and shared skills with Harness](../../skills/generate-domain-specific-claude-code-agent-teams-and-shared-skills-with-harness/) | 2.8k | — |
 | [Define file-native Git workflows for agents with GitAgent](../../skills/define-file-native-git-workflows-for-agents-with-gitagent/) | 2.7k | 1.7k/wk |
+| [Route Codex delivery through explicit risk gates with Sol Advisor](../../skills/route-codex-delivery-through-explicit-risk-gates-with-sol-advisor/) | 2.6k | — |
 | [Schedule in-process JavaScript agent jobs with Croner](../../skills/schedule-in-process-javascript-agent-jobs-with-croner/) | 2.6k | 11.3M/wk |
 | [Coordinate persistent Copilot agent teams with Squad](../../skills/coordinate-persistent-copilot-agent-teams-with-squad/) | 2.5k | 2.1k/wk |
 | [Run Claude Trading Skills for investor market review and trade journaling](../../skills/run-claude-trading-skills-for-investor-market-review-and-trade-journaling/) | 2.5k | — |

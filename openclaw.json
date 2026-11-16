@@ -2,8 +2,41 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-16",
-  "total": 3242,
+  "total": 3245,
   "skills": [
+    {
+      "slug": "route-codex-delivery-through-explicit-risk-gates-with-sol-advisor",
+      "name": "Route Codex delivery through explicit risk gates with Sol Advisor",
+      "title": "Route Codex delivery through explicit risk gates with Sol Advisor",
+      "description": "Declare a solo, delegate, audit or full route, verify the selected native roles, and return a reviewed diff with parent-run verification evidence.",
+      "category": "Templates & Workflows",
+      "framework": "Codex",
+      "verification": "listed",
+      "source_url": "https://github.com/DannyMac180/sol-advisor",
+      "github_repo": "DannyMac180/sol-advisor"
+    },
+    {
+      "slug": "build-and-review-single-file-browser-motion-graphics-with-bang-motion",
+      "name": "Build and review single-file browser motion graphics with Bang Motion",
+      "title": "Build and review single-file browser motion graphics with Bang Motion",
+      "description": "Turn a brand brief into an approved motion concept and one playable index.html, then scrub key moments and revise the same timeline before handoff.",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/bangtutorial/bang-motion",
+      "github_repo": "bangtutorial/bang-motion"
+    },
+    {
+      "slug": "draft-review-and-export-code-driven-pixel-effects-with-pixelfx",
+      "name": "Draft, review and export code-driven pixel effects with Pixelfx",
+      "title": "Draft, review and export code-driven pixel effects with Pixelfx",
+      "description": "Find or draft a pixel effect, inspect rendered contact sheets, refine its motion and export a transparent sprite sheet with timing and pivot metadata.",
+      "category": "Image & Creative Automation",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/patch-gg/pixelfx",
+      "github_repo": "patch-gg/pixelfx"
+    },
     {
       "slug": "run-evidence-backed-mobile-app-smoke-checks-with-autocua",
       "name": "Run evidence-backed mobile app smoke checks with AutoCua",

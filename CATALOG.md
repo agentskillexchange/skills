@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3242 published skills** across **17 categories** · 2,657 security reviewed · Updated 2026-11-16 01:26 UTC
+> **3245 published skills** across **17 categories** · 2,657 security reviewed · Updated 2026-11-16 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -559,7 +559,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Zinc Universal Checkout](skills/zinc-universal-checkout/) | Discover, buy, track, and return products across Amazon, Walmart, Target, Best Buy, eBay, and 50+ US retailers via… | Published | — | — |
 
 
-### 📄 Templates & Workflows (270 skills)
+### 📄 Templates & Workflows (271 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -711,6 +711,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Regenerate repository config from a single project definition with projen](skills/regenerate-repository-config-from-a-single-project-definition-with-projen/) | Use projen when an agent should synthesize and refresh repository boilerplate from one canonical project definition… | Security Reviewed | 2.9k | 876.8k/wk |
 | [Generate domain-specific Claude Code agent teams and shared skills with Harness](skills/generate-domain-specific-claude-code-agent-teams-and-shared-skills-with-harness/) | Turn a project description into a Claude Code team architecture with generated agents, shared skills, and… | Security Reviewed | 2.8k | — |
 | [Define file-native Git workflows for agents with GitAgent](skills/define-file-native-git-workflows-for-agents-with-gitagent/) | Store prompts, task chains, and reusable agent workflows as versioned project files so teams can review and reuse… | Security Reviewed | 2.7k | 1.7k/wk |
+| [Route Codex delivery through explicit risk gates with Sol Advisor](skills/route-codex-delivery-through-explicit-risk-gates-with-sol-advisor/) | Declare a solo, delegate, audit or full route, verify the selected native roles, and return a reviewed diff with… | Published | 2.6k | — |
 | [Schedule in-process JavaScript agent jobs with Croner](skills/schedule-in-process-javascript-agent-jobs-with-croner/) | Use Croner when a JavaScript, TypeScript, Deno, Bun, or browser-based agent service needs zero-dependency cron… | Security Reviewed | 2.6k | 11.3M/wk |
 | [Coordinate persistent Copilot agent teams with Squad](skills/coordinate-persistent-copilot-agent-teams-with-squad/) | Use Squad to create human-directed specialist agents that persist in a repository, share decisions through files,… | Security Reviewed | 2.5k | 2.1k/wk |
 | [Run Claude Trading Skills for investor market review and trade journaling](skills/run-claude-trading-skills-for-investor-market-review-and-trade-journaling/) | Use the Claude Trading Skills pack to run structured market-regime checks, portfolio reviews, swing-trade screens,… | Security Reviewed | 2.5k | — |
@@ -2923,7 +2924,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Verify local web apps with Playwright scripts and managed dev servers](skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | Use Anthropic's webapp-testing skill to spin up one or more local servers, wait for them to become reachable, and… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (125 skills)
+### 🎨 Image & Creative Automation (127 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -2983,6 +2984,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Penrose Mathematical Diagram Generator from Plain Text Notation](skills/penrose-math-diagram-generator/) | Penrose is an open-source platform that creates beautiful mathematical and scientific diagrams from plain text… | Security Reviewed | 7.9k | — |
 | [Turn Markdown or raw content into agent-generated HTML artifacts with HTML Anything](skills/turn-markdown-or-raw-content-into-agent-generated-html-artifacts-with-html-anything/) | Run a local agentic HTML editor that detects coding-agent CLIs, streams generated HTML into a sandboxed preview, and… | Published | 7.8k | — |
 | [Use Stitch Skills to generate, convert, and sync UI designs through agent workflows](skills/use-stitch-skills-to-generate-convert-and-sync-ui-designs-through-agent-workflows/) | Install Google's Stitch skill suite so Codex, Claude Code, Cursor, Gemini CLI, or OpenCode can create screens,… | Security Reviewed | 7.8k | — |
+| [Draft, review and export code-driven pixel effects with Pixelfx](skills/draft-review-and-export-code-driven-pixel-effects-with-pixelfx/) | Find or draft a pixel effect, inspect rendered contact sheets, refine its motion and export a transparent sprite… | Security Reviewed | 7.6k | — |
 | [Stable Diffusion LoRA Training Pipeline](skills/stable-diffusion-lora-training-pipeline/) | Orchestrates LoRA fine-tuning for Stable Diffusion XL using the diffusers library and Kohya ss-scripts. Manages… | Security Reviewed | 7k | — |
 | [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](skills/pixelmatch-image-comparison-library/) | Pixelmatch is the smallest, simplest, and fastest JavaScript pixel-level image comparison library by Mapbox. It… | Security Reviewed | 6.8k | 8.7M/wk |
 | [Bulk import and reconcile large photo archives into Immich without manual re-upload loops using immich-go](skills/bulk-import-and-reconcile-large-photo-archives-into-immich-without-manual-re-upload-loops-using-immich-go/) | Move big photo libraries, takeouts, and nested albums into Immich with metadata intact instead of babysitting… | Security Reviewed | 6k | — |
@@ -2998,6 +3000,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Turn a plain-language brief into a multi-step video production pipeline with OpenMontage](skills/turn-a-plain-language-brief-into-a-multi-step-video-production-pipeline-with-openmontage/) | Use OpenMontage when an agent should take a brief or reference video and run the research, scripting, asset… | Security Reviewed | 3k | — |
 | [Inspect and retrieve brand and cloud service SVG assets with theSVG](skills/retrieve-brand-cloud-service-svg-assets-thesvg/) | Resolve named brands and cloud services through theSVG’s manifest, choose available light or dark variants, and… | Published | 3k | — |
 | [Draw and verify Excalidraw diagrams through an agent canvas](skills/draw-and-verify-excalidraw-diagrams-through-an-agent-canvas/) | Use mcp_excalidraw to let coding agents create, inspect, revise, export, and commit editable Excalidraw diagrams… | Published | 2.4k | 11.7k/wk |
+| [Build and review single-file browser motion graphics with Bang Motion](skills/build-and-review-single-file-browser-motion-graphics-with-bang-motion/) | Turn a brand brief into an approved motion concept and one playable index.html, then scrub key moments and revise… | Security Reviewed | 2.2k | — |
 | [Produce cinematic product videos with Video Shotcraft](skills/produce-cinematic-product-videos-with-video-shotcraft/) | Turns Claude Code, Codex, or another skills-aware coding agent into a Remotion-based product video operator with… | Security Reviewed | 2.1k | — |
 | [Compare UI design directions and refine the selected page with Oil UI](skills/compare-ui-design-directions-and-refine-the-selected-page-with-oil-ui/) | Create distinct first-screen designs, compare them in one page, then refine the chosen direction against desktop and… | Security Reviewed | 2.1k | — |
 | [Generate consistent hand-drawn image prompts with Hand Drawn Styles](skills/generate-consistent-hand-drawn-image-prompts-with-hand-drawn-styles/) | Apply verified hand-drawn style recipes to a subject so an agent can output clean, reusable prompts or production… | Security Reviewed | 2k | — |
