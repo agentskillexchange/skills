@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-17
-# Total: 3250 skills
+# Total: 3252 skills
+
+## Verify Nix package and option choices through MCP-NixOS
+slug: verify-nix-package-and-option-choices-through-mcp-nixos
+category: Library & API Reference
+framework: MCP
+verification: Security Reviewed
+description: Search NixOS packages and configuration options, inspect exact results and version metadata, then hand off an evidenced configuration plan through the MCP-NixOS query tools.
+url: https://agentskillexchange.com/skills/verify-nix-package-and-option-choices-through-mcp-nixos/
+
+## Review changed-file code quality findings with Fallow
+slug: review-changed-file-code-quality-findings-with-fallow
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Audit a JavaScript or TypeScript change against its Git base, inspect structured findings, and return a focused merge-readiness report across code health, duplication, and…
+url: https://agentskillexchange.com/skills/review-changed-file-code-quality-findings-with-fallow/
 
 ## Resolve Langfuse integration questions through its documentation MCP
 slug: resolve-langfuse-integration-questions-through-documentation-mcp

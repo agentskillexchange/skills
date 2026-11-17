@@ -1,8 +1,37 @@
 {
   "version": "2.0",
-  "total": 3250,
+  "total": 3252,
   "generated": "2026-11-17",
   "skills": [
+    {
+      "slug": "verify-nix-package-and-option-choices-through-mcp-nixos",
+      "name": "Verify Nix package and option choices through MCP-NixOS",
+      "title": "Verify Nix package and option choices through MCP-NixOS",
+      "description": "Search NixOS packages and configuration options, inspect exact results and version metadata, then hand off an evidenced configuration plan through the MCP-NixOS query tools.",
+      "category": "Library & API Reference",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 889
+      },
+      "source_url": "https://github.com/utensils/mcp-nixos",
+      "github_repo": "utensils/mcp-nixos"
+    },
+    {
+      "slug": "review-changed-file-code-quality-findings-with-fallow",
+      "name": "Review changed-file code quality findings with Fallow",
+      "title": "Review changed-file code quality findings with Fallow",
+      "description": "Audit a JavaScript or TypeScript change against its Git base, inspect structured findings, and return a focused merge-readiness report across code health, duplication, and…",
+      "category": "Code Quality & Review",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 5376,
+        "npm_weekly_downloads": 2529929
+      },
+      "source_url": "https://github.com/fallow-rs/fallow",
+      "github_repo": "fallow-rs/fallow"
+    },
     {
       "slug": "resolve-langfuse-integration-questions-through-documentation-mcp",
       "name": "Resolve Langfuse integration questions through its documentation MCP",

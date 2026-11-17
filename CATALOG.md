@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3250 published skills** across **17 categories** · 2,662 security reviewed · Updated 2026-11-17 01:26 UTC
+> **3252 published skills** across **17 categories** · 2,662 security reviewed · Updated 2026-11-17 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1363,7 +1363,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (217 skills)
+### ✅ Code Quality & Review (218 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1466,6 +1466,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Pylint Code Review Assistant](skills/pylint-code-review-assistant/) | Perform automated Python code reviews using Pylint programmatic API and pylint-json2html for report generation.… | Security Reviewed | 5.7k | — |
 | [Pylint Baseline Manager](skills/pylint-baseline-manager-wave48/) | Manages Pylint baseline files for gradual code quality improvement using pylint --output-format=json and the… | Security Reviewed | 5.7k | — |
 | [Danger JS Pull Request Automation Toolkit](skills/danger-js-pull-request-automation-toolkit/) | Danger JS automates pull request review chores by running programmable checks inside CI and posting structured… | Security Reviewed | 5.5k | 1.3M/wk |
+| [Review changed-file code quality findings with Fallow](skills/review-changed-file-code-quality-findings-with-fallow/) | Audit a JavaScript or TypeScript change against its Git base, inspect structured findings, and return a focused… | Security Reviewed | 5.4k | 2.5M/wk |
 | [Vale Prose Linter for Technical Documentation](skills/vale-prose-linter-technical-docs/) | Vale is an open-source, markup-aware prose linter that enforces editorial style guides on technical documentation.… | Security Reviewed | 5.3k | — |
 | [Rewrite fragile shell scripts toward safer quoting and stricter patterns with Shellharden](skills/rewrite-fragile-shell-scripts-toward-safer-quoting-and-stricter-patterns-with-shellharden/) | Inspect or auto-fix shell scripts to reduce quoting bugs and brittle Bash patterns before they break in CI or… | Security Reviewed | 4.8k | — |
 | [Find unused Python code before cleanup refactors with Vulture](skills/find-unused-python-code-before-cleanup-refactors-with-vulture/) | Run a dead-code pass on Python repositories before refactors so agents can flag unused functions, classes, imports,… | Security Reviewed | 4.5k | — |
@@ -2510,7 +2511,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Xquik X Actors on Apify](skills/xquik-apify-x-actors/) | Run Xquik's public Apify Actors for X tweet collection, timelines, search, followers, lists, communities, and… | Published | — | — |
 
 
-### 📚 Library & API Reference (135 skills)
+### 📚 Library & API Reference (136 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=downloads)
 
@@ -2594,6 +2595,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [OpenAPI Spec Changelog Generator](skills/openapi-spec-changelog-generator/) | Compares OpenAPI 3.x specification files using the oasdiff library to detect breaking changes, deprecated endpoints,… | Published | 1.2k | — |
 | [REST API Changelog Tracker](skills/rest-api-changelog-tracker/) | Tracks breaking changes across REST API versions by diffing OpenAPI specs with oasdiff and monitoring endpoint… | Published | 1.2k | — |
 | [Python Docstring Linter](skills/python-docstring-linter-ast-pydocstyle/) | Validates and auto-generates Python docstrings using the ast module and pydocstyle conventions. Supports NumPy,… | Security Reviewed | 1.1k | — |
+| [Verify Nix package and option choices through MCP-NixOS](skills/verify-nix-package-and-option-choices-through-mcp-nixos/) | Search NixOS packages and configuration options, inspect exact results and version metadata, then hand off an… | Security Reviewed | 889 | — |
 | [Bundle and validate OpenAPI files into one publishable spec with swagger-cli](skills/bundle-and-validate-openapi-files-into-one-publishable-spec-with-swagger-cli/) | Resolve multi-file OpenAPI definitions into one validated artifact before docs, code generation, or CI gates depend… | Security Reviewed | 517 | 164k/wk |
 | [REST API Test Suite Generator](skills/rest-api-test-suite-generator/) | Generates comprehensive API test suites from OpenAPI specs using Postman Collection SDK and Newman CLI. Creates… | Security Reviewed | 493 | 1.5M/wk |
 | [Validate JSON data and config files against schemas with ajv-cli](skills/validate-json-data-and-config-files-against-schemas-with-ajv-cli/) | Run schema checks from the shell or CI so malformed JSON, JSON5, or YAML inputs fail before they reach downstream… | Security Reviewed | 308 | 335.3k/wk |

@@ -118,6 +118,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [OpenAPI Spec Changelog Generator](../../skills/openapi-spec-changelog-generator/) | 1.2k | — |
 | [REST API Changelog Tracker](../../skills/rest-api-changelog-tracker/) | 1.2k | — |
 | [Python Docstring Linter](../../skills/python-docstring-linter-ast-pydocstyle/) | 1.1k | — |
+| [Verify Nix package and option choices through MCP-NixOS](../../skills/verify-nix-package-and-option-choices-through-mcp-nixos/) | 889 | — |
 | [Bundle and validate OpenAPI files into one publishable spec with swagger-cli](../../skills/bundle-and-validate-openapi-files-into-one-publishable-spec-with-swagger-cli/) | 517 | 164k/wk |
 | [REST API Test Suite Generator](../../skills/rest-api-test-suite-generator/) | 493 | 1.5M/wk |
 | [Validate JSON data and config files against schemas with ajv-cli](../../skills/validate-json-data-and-config-files-against-schemas-with-ajv-cli/) | 308 | 335.3k/wk |
