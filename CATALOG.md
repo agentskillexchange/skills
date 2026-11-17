@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3248 published skills** across **17 categories** · 2,660 security reviewed · Updated 2026-11-16 19:27 UTC
+> **3250 published skills** across **17 categories** · 2,660 security reviewed · Updated 2026-11-17 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1789,7 +1789,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Update repository docs automatically after code changes and open review PRs](skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | Use GitHub Next's update-docs workflow when code changes should trigger documentation maintenance instead of waiting… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (191 skills)
+### 🔗 Integrations & Connectors (192 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1882,6 +1882,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [SendGrid Transactional Email Builder](skills/sendgrid-transactional-email-builder/) | Constructs and sends transactional emails using the SendGrid v3 Mail Send API. Builds dynamic templates with… | Security Reviewed | 3k | 3.6M/wk |
 | [SendGrid Transactional Email Router](skills/sendgrid-transactional-email-router/) | Manages transactional email delivery via SendGrid v3 Mail Send API with dynamic template rendering. Handles bounce… | Security Reviewed | 3k | 3.6M/wk |
 | [n8n-nodes-mcp Community Node for Model Context Protocol Workflows](skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows/) | n8n-nodes-mcp is a real n8n community node that lets self-hosted n8n instances connect to Model Context Protocol… | Security Reviewed | 3k | 45.9k/wk |
+| [Refresh structured user profiles from chat buffers with Memobase](skills/refresh-structured-user-profiles-from-chat-buffers-with-memobase/) | Convert authorized chat batches into a user-scoped profile, wait for processing, and retrieve a bounded context… | Security Reviewed | 3k | 108/wk |
 | [Slack Channel Summarizer & Triage Bot](skills/slack-channel-summarizer-triage/) | Connects to the Slack Web API to fetch unread messages across specified channels and surfaces a prioritized digest… | Published | 2.9k | 2.6M/wk |
 | [Slack Bolt Event Subscription Debugger](skills/slack-bolt-event-subscription-debugger/) | Debugs Slack app event flows with the Bolt SDK, signature verification, `app.event()` handlers, and `ack()` timing.… | Security Reviewed | 2.9k | 2.5M/wk |
 | [Supabase MCP Server for Database and Project Management](skills/supabase-mcp-server-database-project-management/) | An official MCP server that connects Supabase projects to AI assistants like Claude, Cursor, and Windsurf. Enables… | Published | 2.6k | 68k/wk |
@@ -2509,7 +2510,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Xquik X Actors on Apify](skills/xquik-apify-x-actors/) | Run Xquik's public Apify Actors for X tweet collection, timelines, search, followers, lists, communities, and… | Published | — | — |
 
 
-### 📚 Library & API Reference (134 skills)
+### 📚 Library & API Reference (135 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=downloads)
 
@@ -2598,6 +2599,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Validate JSON data and config files against schemas with ajv-cli](skills/validate-json-data-and-config-files-against-schemas-with-ajv-cli/) | Run schema checks from the shell or CI so malformed JSON, JSON5, or YAML inputs fail before they reach downstream… | Security Reviewed | 308 | 335.3k/wk |
 | [Python Docstring Extractor](skills/python-docstring-extractor/) | Extracts and indexes Python module documentation using ast.parse and docstring_parser library. Supports Google,… | Security Reviewed | 266 | — |
 | [Resolve and validate OpenAPI specs with remote refs before client generation or review with Prance](skills/resolve-and-validate-openapi-specs-with-remote-refs-before-client-generation-or-review-with-prance/) | Validate an OpenAPI document, resolve external references, and emit a clean compiled spec before codegen or contract… | Security Reviewed | 261 | — |
+| [Resolve Langfuse integration questions through its documentation MCP](skills/resolve-langfuse-integration-questions-through-documentation-mcp/) | Search current Langfuse documentation, fetch the relevant Markdown pages, and return a source-backed integration or… | Security Reviewed | 253 | — |
 | [Answer Anthropic documentation questions from a versioned local archive](skills/answer-anthropic-documentation-questions-from-a-versioned-local-archive/) | Use Claude Code to investigate one API, Claude Code or MCP question against a local documentation snapshot with… | Security Reviewed | 154 | — |
 | [GitHub REST API Paginator Library](skills/github-rest-api-paginator-library/) | Provides a typed pagination wrapper for the GitHub REST API using Octokit.js and the @octokit/plugin-paginate-rest… | Security Reviewed | 58 | 26.7M/wk |
 | [Linkup JS SDK for Sourced Web Search and Fetch](skills/linkup-js-sdk-sourced-web-search-fetch/) | Linkup's JS SDK wraps the Linkup API for sourced web search and clean content fetching. It gives agents a maintained… | Security Reviewed | 4 | 30.8k/wk |

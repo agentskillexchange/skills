@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C248-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C250-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C660-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,248 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,250 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Langflow Visual AI Agent and Workflow Builder](skills/langflow-visual-ai-agent-workflow-builder/)** — Langflow is an open-source visual builder for AI agents and workflows. It lets teams design flows graphically, expose them as APIs or MCP tools, and connect major LLMs,…
+**[Run autonomous deep research workflows with GPT Researcher](skills/run-autonomous-deep-research-workflows-with-gpt-researcher/)** — Use GPT Researcher to plan, gather, source, and assemble cited web or local research reports through a repeatable agent workflow.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Resolve Langfuse integration questions through its documentation MCP](skills/resolve-langfuse-integration-questions-through-documentation-mcp/) | Search current Langfuse documentation, fetch the relevant Markdown pages, and return a source-backed integration or migration plan through... | 253 | Library & API Reference |
+| [Refresh structured user profiles from chat buffers with Memobase](skills/refresh-structured-user-profiles-from-chat-buffers-with-memobase/) | Convert authorized chat batches into a user-scoped profile, wait for processing, and retrieve a bounded context string for... | 3.0k | Integrations & Connectors |
 | [Investigative Journalism and Fact-Checking](skills/investigate-and-fact-check/) | Conduct public-interest investigative journalism, rigorous fact-checking, and open-source intelligence (OSINT) research. Use for verifying claims, quotes, documents, photographs... | - | Research & Scraping |
 | [Firecrawl Alexandria](skills/firecrawl-alexandria/) | Firecrawl Alexandria gives coding agents a direct path to structured data through ready-made website workflows, data APIs, and... | - | Research & Scraping |
 | [Build and resume research coverage matrices with OmAgents](skills/build-and-resume-research-coverage-matrices-with-omagents/) | Plan research as items and fields, persist source-backed findings, fill coverage gaps, and resume an audited Markdown report... | 359 | Research & Scraping |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Draft, review and export code-driven pixel effects with Pixelfx](skills/draft-review-and-export-code-driven-pixel-effects-with-pixelfx/) | Find or draft a pixel effect, inspect rendered contact sheets, refine its motion and export a transparent sprite... | 7.6k | Image & Creative Automation |
 | [Run evidence-backed mobile app smoke checks with AutoCua](skills/run-evidence-backed-mobile-app-smoke-checks-with-autocua/) | Run bounded natural-language smoke checks on simulator app builds, then review per-task status and saved observations before reporting... | 1.2k | Code Quality & Review |
 | [Turn a specification into verified Rhesis test foundations](skills/turn-a-specification-into-verified-rhesis-test-foundations/) | Map source acceptance criteria to requirements, scoped metrics and typed test sets, with plan approval and generated-test verification | 404 | Code Quality & Review |
-| [Triage a Latitude signal with linked trace evidence](skills/triage-a-latitude-signal-with-linked-trace-evidence/) | Investigate one agent failure signal through lifecycle, trends, model slices and spans, then return an evidence-backed engineering brief | 4.8k | Runbooks & Diagnostics |
-| [Answer from one Docling Studio parse with verified citations](skills/answer-from-one-docling-studio-parse-with-verified-citations/) | Read a PDF outline under a token and round budget, verify quoted evidence against one parse, and return... | 275 | Data Extraction & Transformation |
 
 ---
 
@@ -130,9 +130,9 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Record an agent-completed browser task as a parameterized Oya playbook](skills/record-agent-browser-task-as-parameterized-oya-playbook/) | Complete a test browser task once, save its learned steps as an Oya playbook, and verify a replay... | 349 | Browser Automation |
 | [Diagnose incomplete web extraction with PageSift MCP audit evidence](skills/diagnose-incomplete-web-extraction-with-pagesift-mcp-audit-evidence/) | Triage missing web content across local agents using PageSift MCP audit records, HTML snapshots, and local extraction issue... | 162 | Data Extraction & Transformation |
 | [Assemble and review local video cuts through Concat MCP](skills/assemble-and-review-local-video-cuts-through-concat-mcp/) | Turn local footage and an edit brief into a Concat timeline, inspect composited frames, save the project and... | 16.0k | Media & Transcription |
+| [Refresh structured user profiles from chat buffers with Memobase](skills/refresh-structured-user-profiles-from-chat-buffers-with-memobase/) | Convert authorized chat batches into a user-scoped profile, wait for processing, and retrieve a bounded context string for... | 3.0k | Integrations & Connectors |
 | [Build and resume research coverage matrices with OmAgents](skills/build-and-resume-research-coverage-matrices-with-omagents/) | Plan research as items and fields, persist source-backed findings, fill coverage gaps, and resume an audited Markdown report... | 359 | Research & Scraping |
 | [Re-embed OpenClaw memory into a fresh LanceDB store](skills/re-embed-openclaw-memory-into-a-fresh-lancedb-store/) | Plan and verify an OpenClaw memory embedding cutover using a complete store backup, a dry run and matching... | 4.4k | Integrations & Connectors |
-| [Diagnose Paradev host and terminal failures with the doctor skill](skills/diagnose-paradev-host-and-terminal-failures-with-the-doctor-skill/) | Capture Paradev service, account, host and version evidence, propose one symptom-matched repair, and verify the original failure before... | 15.6k | Runbooks & Diagnostics |
 
 ---
 
@@ -146,11 +146,11 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 244 | ETL pipelines, parsing, format conversion |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 217 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 193 | Pipeline configs, deployment automation, build tooling |
-| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 191 | Third-party API bridges, webhooks, service connectors |
+| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 192 | Third-party API bridges, webhooks, service connectors |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 187 | Incident response, troubleshooting, system diagnostics |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 164 | Metrics, alerting rules, observability |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 146 | Web research, content discovery, data collection |
-| 📚 | [**Library & API Reference**](categories/library-api-reference/) | 134 | SDK docs, API parsers, symbol resolvers |
+| 📚 | [**Library & API Reference**](categories/library-api-reference/) | 135 | SDK docs, API parsers, symbol resolvers |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 131 | Email automation, calendar management, task coordination |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 129 | Web scraping, UI testing, headless browser control |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 127 | Image generation, asset processing, design automation |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,248 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 3,250 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,660 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

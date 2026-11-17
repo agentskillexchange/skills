@@ -1,9 +1,31 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-11-16",
-  "total": 3248,
+  "generated": "2026-11-17",
+  "total": 3250,
   "skills": [
+    {
+      "slug": "resolve-langfuse-integration-questions-through-documentation-mcp",
+      "name": "Resolve Langfuse integration questions through its documentation MCP",
+      "title": "Resolve Langfuse integration questions through its documentation MCP",
+      "description": "Search current Langfuse documentation, fetch the relevant Markdown pages, and return a source-backed integration or migration plan through the official docs MCP.",
+      "category": "Library & API Reference",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/langfuse/langfuse-docs/blob/main/lib/mcp-handler.ts",
+      "github_repo": "langfuse/langfuse-docs"
+    },
+    {
+      "slug": "refresh-structured-user-profiles-from-chat-buffers-with-memobase",
+      "name": "Refresh structured user profiles from chat buffers with Memobase",
+      "title": "Refresh structured user profiles from chat buffers with Memobase",
+      "description": "Convert authorized chat batches into a user-scoped profile, wait for processing, and retrieve a bounded context string for the next assistant turn.",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/memodb-io/memobase/blob/main/README.md#step-by-step-breakdown",
+      "github_repo": "memodb-io/memobase"
+    },
     {
       "slug": "investigate-and-fact-check",
       "name": "Investigative Journalism and Fact-Checking",

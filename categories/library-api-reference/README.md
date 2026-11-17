@@ -123,6 +123,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Validate JSON data and config files against schemas with ajv-cli](../../skills/validate-json-data-and-config-files-against-schemas-with-ajv-cli/) | 308 | 335.3k/wk |
 | [Python Docstring Extractor](../../skills/python-docstring-extractor/) | 266 | — |
 | [Resolve and validate OpenAPI specs with remote refs before client generation or review with Prance](../../skills/resolve-and-validate-openapi-specs-with-remote-refs-before-client-generation-or-review-with-prance/) | 261 | — |
+| [Resolve Langfuse integration questions through its documentation MCP](../../skills/resolve-langfuse-integration-questions-through-documentation-mcp/) | 253 | — |
 | [Answer Anthropic documentation questions from a versioned local archive](../../skills/answer-anthropic-documentation-questions-from-a-versioned-local-archive/) | 154 | — |
 | [GitHub REST API Paginator Library](../../skills/github-rest-api-paginator-library/) | 58 | 26.7M/wk |
 | [Linkup JS SDK for Sourced Web Search and Fetch](../../skills/linkup-js-sdk-sourced-web-search-fetch/) | 4 | 30.8k/wk |

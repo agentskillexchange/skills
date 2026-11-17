@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-11-16
-# Total: 3248 skills
+# Generated: 2026-11-17
+# Total: 3250 skills
+
+## Resolve Langfuse integration questions through its documentation MCP
+slug: resolve-langfuse-integration-questions-through-documentation-mcp
+category: Library & API Reference
+framework: MCP
+verification: Security Reviewed
+description: Search current Langfuse documentation, fetch the relevant Markdown pages, and return a source-backed integration or migration plan through the official docs MCP.
+url: https://agentskillexchange.com/skills/resolve-langfuse-integration-questions-through-documentation-mcp/
+
+## Refresh structured user profiles from chat buffers with Memobase
+slug: refresh-structured-user-profiles-from-chat-buffers-with-memobase
+category: Integrations & Connectors
+framework: Multi-Framework
+verification: Security Reviewed
+description: Convert authorized chat batches into a user-scoped profile, wait for processing, and retrieve a bounded context string for the next assistant turn.
+url: https://agentskillexchange.com/skills/refresh-structured-user-profiles-from-chat-buffers-with-memobase/
 
 ## Investigative Journalism and Fact-Checking
 slug: investigate-and-fact-check
