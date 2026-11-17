@@ -506,6 +506,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Coordinate Terminal Coding Agents With hcom](../../skills/coordinate-terminal-coding-agents-with-hcom/) | 393 | — |
 | [Reduce coding-agent token waste with Chisle](../../skills/reduce-coding-agent-token-waste-with-chisle/) | 388 | 288/wk |
 | [Index Codebases for Agent Search with Code Context Engine](../../skills/index-codebases-for-agent-search-with-code-context-engine/) | 383 | — |
+| [Search repository files by behavior with Localix decide](../../skills/search-repository-files-by-behavior-with-localix-decide/) | 368 | — |
 | [Temporal CLI Workflow and Server Control](../../skills/temporal-cli-workflow-server-control/) | 350 | — |
 | [Delegate and resume repository tasks through Pi-Bolt MCP](../../skills/delegate-and-resume-repository-tasks-through-pi-bolt-mcp/) | 343 | 2.1k/wk |
 | [Run terminal coding-agent workflows with Phi](../../skills/run-terminal-coding-agent-workflows-with-phi/) | 336 | — |

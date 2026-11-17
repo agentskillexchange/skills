@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3252 published skills** across **17 categories** · 2,665 security reviewed · Updated 2026-11-17 07:26 UTC
+> **3255 published skills** across **17 categories** · 2,665 security reviewed · Updated 2026-11-17 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (543 skills)
+### 🛠️ Developer Tools (544 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -480,6 +480,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Coordinate Terminal Coding Agents With hcom](skills/coordinate-terminal-coding-agents-with-hcom/) | Use hcom to launch, message, watch, fork, and coordinate multiple terminal coding agents across Claude Code, Codex,… | Security Reviewed | 393 | — |
 | [Reduce coding-agent token waste with Chisle](skills/reduce-coding-agent-token-waste-with-chisle/) | Use Chisle to add concise coding rules, YAGNI-first defaults, and supported tool-output compression across multiple… | Published | 388 | 288/wk |
 | [Index Codebases for Agent Search with Code Context Engine](skills/index-codebases-for-agent-search-with-code-context-engine/) | Use Code Context Engine to index a repository and expose token-efficient code search to Claude Code, Codex, Cursor,… | Security Reviewed | 383 | — |
+| [Search repository files by behavior with Localix decide](skills/search-repository-files-by-behavior-with-localix-decide/) | Narrow repository paths with ripgrep, classify each candidate with llx decide, and inspect matching or uncertain… | Security Reviewed | 368 | — |
 | [Temporal CLI Workflow and Server Control](skills/temporal-cli-workflow-server-control/) | Temporal CLI runs a local Temporal server and talks to workflows, activities, and namespaces. It is the practical… | Security Reviewed | 350 | — |
 | [Delegate and resume repository tasks through Pi-Bolt MCP](skills/delegate-and-resume-repository-tasks-through-pi-bolt-mcp/) | Delegate a scoped repository task to Pi-Bolt over MCP, inspect structured results, and resume the same Pi session… | Security Reviewed | 343 | 2.1k/wk |
 | [Run terminal coding-agent workflows with Phi](skills/run-terminal-coding-agent-workflows-with-phi/) | Use Phi to run lightweight terminal coding-agent sessions with sub-agents, guarded tool use, hashline edits, and… | Security Reviewed | 336 | — |
@@ -559,7 +560,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Zinc Universal Checkout](skills/zinc-universal-checkout/) | Discover, buy, track, and return products across Amazon, Walmart, Target, Best Buy, eBay, and 50+ US retailers via… | Published | — | — |
 
 
-### 📄 Templates & Workflows (271 skills)
+### 📄 Templates & Workflows (272 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -595,6 +596,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Terraform Module Testing Framework](skills/terraform-module-testing-framework/) | Tests Terraform modules using Terratest Go library and terraform test native framework. Validates plan output,… | Security Reviewed | 48.1k | — |
 | [Terraform Module Boilerplate Assembler](skills/terraform-module-boilerplate-assembler/) | Generates Terraform module scaffolds with variables.tf, outputs.tf, and provider configurations from a module… | Security Reviewed | 48k | — |
 | [Run a lightweight personal AI agent with Nanobot](skills/run-a-lightweight-personal-ai-agent-with-nanobot/) | Use Nanobot to configure a lightweight local personal agent with model providers, MCP tools, memory, chat channels,… | Security Reviewed | 42.8k | — |
+| [Coordinate a scoped code change through Oh My Claudecode team stages](skills/coordinate-a-scoped-code-change-through-oh-my-claudecode-team-stages/) | Run a bounded Claude Code team task through planning, delegated implementation, verification and repair, then return… | Security Reviewed | 40.9k | 9k/wk |
 | [Enforce local Git hook checks in JavaScript repos with Husky](skills/enforce-local-git-hook-checks-in-javascript-repos-with-husky/) | Use Husky to wire pre-commit, pre-push, and commit-msg checks into a repo so agents and developers run the same… | Published | 35k | 25.7M/wk |
 | [Backstage Software Catalog Sync](skills/backstage-software-catalog-sync/) | Synchronizes service metadata into Spotify Backstage catalog using catalog-info.yaml generation and the Backstage… | Security Reviewed | 33.1k | — |
 | [Backstage Software Template Composer](skills/backstage-software-template-composer/) | Creates Spotify Backstage software templates using template.yaml definitions with Scaffolder actions including… | Security Reviewed | 33.1k | — |
@@ -2185,7 +2187,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Tune Supabase Postgres queries, indexing, and RLS with Supabase Postgres Best Practices](skills/tune-supabase-postgres-queries-indexing-and-rls-with-supabase-postgres-best-practices/) | Review Supabase Postgres work for query performance, schema design, indexing, connection handling, and RLS pitfalls… | Security Reviewed | — | — |
 
 
-### 📊 Monitoring & Alerts (164 skills)
+### 📊 Monitoring & Alerts (165 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Monitoring%20%26%20Alerts&sort=downloads)
 
@@ -2289,6 +2291,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Simulate agent scenarios, trace failures, and watch production regressions with LangWatch](skills/simulate-agent-scenarios-trace-failures-and-watch-production-regressions-with-langwatch/) | Run end-to-end agent simulations, review traces, and watch production regressions when reliability work spans… | Security Reviewed | 3.2k | 54.7k/wk |
 | [Grafana Alloy OpenTelemetry Collector Distribution](skills/grafana-alloy-opentelemetry-collector/) | Grafana Alloy is an open-source OpenTelemetry Collector distribution with programmable pipelines for metrics, logs,… | Security Reviewed | 3k | — |
 | [Evaluate agent and model workflows with EvalScope](skills/evaluate-agent-and-model-workflows-with-evalscope/) | Run repeatable EvalScope benchmark suites for LLM, VLM, RAG, and agent workflows, then inspect traces and reports… | Security Reviewed | 3k | — |
+| [Validate and report completed external workflow usage to LoopForge](skills/validate-and-report-completed-external-workflow-usage-to-loopforge/) | Validate a host-supplied terminal execution summary, report attributable model usage to LoopForge, and preserve… | Security Reviewed | 2.8k | 482/wk |
 | [Trace coding agent API traffic locally with Claude Tap](skills/trace-coding-agent-api-traffic-locally-with-claude-tap/) | Run Claude Code, Codex CLI, Gemini CLI, Cursor CLI, OpenCode, and related coding agents through a local proxy so an… | Security Reviewed | 2.6k | — |
 | [Trace coding-agent and LLM workflows with OpenLIT](skills/trace-coding-agent-and-llm-workflows-with-openlit/) | Use OpenLIT to instrument coding agents and LLM applications with OpenTelemetry traces, metrics, costs, prompts,… | Security Reviewed | 2.5k | 8.4k/wk |
 | [Logdy Real-Time Log Viewer with Web UI and CLI](skills/logdy-realtime-log-viewer-web-ui-cli/) | Logdy is a zero-dependency single-binary log viewer that pipes any command output into an interactive browser-based… | Security Reviewed | 2.1k | — |

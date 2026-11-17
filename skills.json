@@ -1,8 +1,52 @@
 {
   "version": "2.0",
-  "total": 3252,
+  "total": 3255,
   "generated": "2026-11-17",
   "skills": [
+    {
+      "slug": "search-repository-files-by-behavior-with-localix-decide",
+      "name": "Search repository files by behavior with Localix decide",
+      "title": "Search repository files by behavior with Localix decide",
+      "description": "Narrow repository paths with ripgrep, classify each candidate with llx decide, and inspect matching or uncertain files before returning a source-grounded handoff.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 368
+      },
+      "source_url": "https://github.com/localixai/localix-cli",
+      "github_repo": "localixai/localix-cli"
+    },
+    {
+      "slug": "validate-and-report-completed-external-workflow-usage-to-loopforge",
+      "name": "Validate and report completed external workflow usage to LoopForge",
+      "title": "Validate and report completed external workflow usage to LoopForge",
+      "description": "Validate a host-supplied terminal execution summary, report attributable model usage to LoopForge, and preserve stable execution IDs for safe retries.",
+      "category": "Monitoring & Alerts",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 2771,
+        "npm_weekly_downloads": 482
+      },
+      "source_url": "https://github.com/Tencent/LoopForge",
+      "github_repo": "Tencent/LoopForge"
+    },
+    {
+      "slug": "coordinate-a-scoped-code-change-through-oh-my-claudecode-team-stages",
+      "name": "Coordinate a scoped code change through Oh My Claudecode team stages",
+      "title": "Coordinate a scoped code change through Oh My Claudecode team stages",
+      "description": "Run a bounded Claude Code team task through planning, delegated implementation, verification and repair, then return the change and evidence for operator review.",
+      "category": "Templates & Workflows",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 40888,
+        "npm_weekly_downloads": 8993
+      },
+      "source_url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+      "github_repo": "Yeachan-Heo/oh-my-claudecode"
+    },
     {
       "slug": "verify-nix-package-and-option-choices-through-mcp-nixos",
       "name": "Verify Nix package and option choices through MCP-NixOS",

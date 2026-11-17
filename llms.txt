@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-17
-# Total: 3252 skills
+# Total: 3255 skills
+
+## Search repository files by behavior with Localix decide
+slug: search-repository-files-by-behavior-with-localix-decide
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Narrow repository paths with ripgrep, classify each candidate with llx decide, and inspect matching or uncertain files before returning a source-grounded handoff.
+url: https://agentskillexchange.com/skills/search-repository-files-by-behavior-with-localix-decide/
+
+## Validate and report completed external workflow usage to LoopForge
+slug: validate-and-report-completed-external-workflow-usage-to-loopforge
+category: Monitoring & Alerts
+framework: Multi-Framework
+verification: Security Reviewed
+description: Validate a host-supplied terminal execution summary, report attributable model usage to LoopForge, and preserve stable execution IDs for safe retries.
+url: https://agentskillexchange.com/skills/validate-and-report-completed-external-workflow-usage-to-loopforge/
+
+## Coordinate a scoped code change through Oh My Claudecode team stages
+slug: coordinate-a-scoped-code-change-through-oh-my-claudecode-team-stages
+category: Templates & Workflows
+framework: Claude Code
+verification: Security Reviewed
+description: Run a bounded Claude Code team task through planning, delegated implementation, verification and repair, then return the change and evidence for operator review.
+url: https://agentskillexchange.com/skills/coordinate-a-scoped-code-change-through-oh-my-claudecode-team-stages/
 
 ## Verify Nix package and option choices through MCP-NixOS
 slug: verify-nix-package-and-option-choices-through-mcp-nixos
