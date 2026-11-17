@@ -23,10 +23,14 @@ import json
 import os
 import re
 
-try:  # POSIX advisory lock; on other systems one process per file is assumed.
+try:  # POSIX advisory lock
     import fcntl
 except ImportError:  # pragma: no cover
     fcntl = None
+try:  # Windows byte-range lock, used when fcntl is missing
+    import msvcrt
+except ImportError:
+    msvcrt = None
 
 RAW_PER_XNO = 10 ** 30
 
@@ -37,6 +41,7 @@ _RAW_RE = re.compile(r"\A[0-9]{1,40}\Z")
 
 # Verdicts, named as in the xno-binding v1 seller ledger rules.
 MATCHED = "matched"
+ALREADY_CLAIMED = "already_claimed"
 DUPLICATE = "duplicate_refund_due"
 WRONG_AMOUNT = "refusable_wrong_amount"
 NOT_BOUND = "not_bound_to_order"
@@ -146,13 +151,42 @@ def normalize_block_hash(block_hash):
     return block_hash.upper()
 
 
+class ClaimsLockError(RuntimeError):
+    """The claims file cannot be locked, so no claim is made."""
+
+
+def _lock(fh):
+    if fcntl is not None:
+        fcntl.flock(fh.fileno(), fcntl.LOCK_EX)
+        return
+    # msvcrt.locking locks bytes from the current position; LK_LOCK retries
+    # for about 10 seconds and then raises, so the wait is bounded.
+    fh.seek(0)
+    try:
+        msvcrt.locking(fh.fileno(), msvcrt.LK_LOCK, 1)
+    except OSError as e:
+        raise ClaimsLockError("could not lock claims file: %s" % (e,))
+
+
+def _unlock(fh):
+    if fcntl is not None:
+        fcntl.flock(fh.fileno(), fcntl.LOCK_UN)
+        return
+    fh.seek(0)
+    msvcrt.locking(fh.fileno(), msvcrt.LK_UNLCK, 1)
+
+
 class ClaimsFile:
     """Append-only record of credited blocks that survives a restart.
 
     Each line is ``{"block": <HASH>, "order": <order id or null>}``. A block
     is credited at most once; an order is credited by at most one block.
-    ``claim`` returns MATCHED for a new claim and for the same block read
-    again for the same order (idempotent), and DUPLICATE otherwise.
+    ``claim`` returns MATCHED only for the first claim of a block. The same
+    block presented again for the same order returns ALREADY_CLAIMED: it was
+    credited before, so nothing may be delivered for it again. Any other
+    reuse returns DUPLICATE. The read, check and append run under an
+    exclusive lock (fcntl.flock, or msvcrt.locking on Windows); with neither,
+    ``claim`` raises ClaimsLockError rather than run unlocked.
     """
 
     def __init__(self, path):
@@ -185,22 +219,29 @@ class ClaimsFile:
         block = normalize_block_hash(block_hash)
         if order_id is not None and (not isinstance(order_id, str) or not order_id):
             raise ValueError("order_id must be a non-empty string")
+        if fcntl is None and msvcrt is None:
+            raise ClaimsLockError("no file lock on this system (need fcntl or msvcrt); refusing to claim unlocked")
         fd = os.open(self.path, os.O_RDWR | os.O_CREAT | os.O_APPEND, 0o600)
         with os.fdopen(fd, "r+", encoding="utf-8") as fh:
-            if fcntl is not None:
-                fcntl.flock(fh.fileno(), fcntl.LOCK_EX)
-            by_block, by_order, complete_bytes, torn_tail = self._read(fh)
-            if block in by_block:
-                if order_id is not None and by_block[block] == order_id:
-                    return MATCHED
-                return DUPLICATE
-            if order_id is not None and order_id in by_order:
-                return DUPLICATE
-            if torn_tail:
-                fh.truncate(complete_bytes)
-            fh.write(json.dumps({"block": block, "order": order_id}, sort_keys=True) + "\n")
-            fh.flush()
-            os.fsync(fh.fileno())
+            _lock(fh)
+            try:
+                return self._claim_locked(fh, block, order_id)
+            finally:
+                _unlock(fh)
+
+    def _claim_locked(self, fh, block, order_id):
+        by_block, by_order, complete_bytes, torn_tail = self._read(fh)
+        if block in by_block:
+            if order_id is not None and by_block[block] == order_id:
+                return ALREADY_CLAIMED
+            return DUPLICATE
+        if order_id is not None and order_id in by_order:
+            return DUPLICATE
+        if torn_tail:
+            fh.truncate(complete_bytes)
+        fh.write(json.dumps({"block": block, "order": order_id}, sort_keys=True) + "\n")
+        fh.flush()
+        os.fsync(fh.fileno())
         return MATCHED
 
     def claimed(self, block_hash):

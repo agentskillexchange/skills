@@ -180,7 +180,14 @@ also in this directory and also standard library only:
   the order id and the exact raw price in your quote.
 - `--claims-file PATH`: each block is credited once, and each order by one
   block. The claim is appended and fsynced before the `OK`, so a restart does
-  not let an old block pay again. Exit `1` with `ALREADY_CLAIMED` otherwise.
+  not let an old block pay again. Only the first claim of a block exits `0`;
+  any later claim of it, for the same order or another, exits `1` with
+  `ALREADY_CLAIMED`. The claims file stops a block from being credited twice;
+  fulfilment still needs its own durable order state (record that the order
+  was delivered before you deliver, so a crash or retry does not deliver it
+  twice). The file is locked while it is read and appended (`fcntl`, or
+  `msvcrt` on Windows); where no lock exists the script exits `2` with
+  `CLAIMS_FILE_ERROR` rather than claim unlocked.
   One payment has two hashes (the payer's send and your receive); used
   without `--order-id`, accept only one of the two kinds. With `--order-id`
   only the send is accepted.

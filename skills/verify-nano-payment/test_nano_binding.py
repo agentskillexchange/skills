@@ -5,8 +5,10 @@ Standard library only, no network:
 """
 import contextlib
 import io
+import multiprocessing
 import os
 import tempfile
+import threading
 import unittest
 from unittest import mock
 
@@ -22,6 +24,12 @@ VECTOR_REP = "nano_33q9dassq66es6mcay83n5kypqgpzjikr9bkc9ope9xch1borfphgehj4ozj"
 PAY_TO = nb.public_key_to_account(bytes([7]) * 32)
 BLOCK_A = "A" * 64
 BLOCK_B = "b" * 64
+
+
+def _race_claim(path, order_id, start, results):
+    """Run in a separate process: wait for the start signal, then claim."""
+    start.wait(10)
+    results.put(nb.ClaimsFile(path).claim(BLOCK_A, order_id))
 
 
 def send_block(order_id="order-1", amount=PRICE, pay_to=PAY_TO, confirmed="true", rep=None, subtype="send"):
@@ -110,7 +118,7 @@ class ClaimsFileTests(unittest.TestCase):
     def test_one_block_one_order(self):
         claims = nb.ClaimsFile(self.path)
         self.assertEqual(claims.claim(BLOCK_A, "order-1"), nb.MATCHED)
-        self.assertEqual(claims.claim(BLOCK_A.lower(), "order-1"), nb.MATCHED)  # idempotent re-read
+        self.assertEqual(claims.claim(BLOCK_A.lower(), "order-1"), nb.ALREADY_CLAIMED)  # replay is not credited
         self.assertEqual(claims.claim(BLOCK_A, "order-2"), nb.DUPLICATE)        # block already used
         self.assertEqual(claims.claim(BLOCK_B, "order-1"), nb.DUPLICATE)        # order already paid
         self.assertEqual(claims.claim(BLOCK_B, "order-2"), nb.MATCHED)
@@ -136,6 +144,62 @@ class ClaimsFileTests(unittest.TestCase):
         self.assertEqual(nb.ClaimsFile(self.path).claim(BLOCK_B, "order-3"), nb.DUPLICATE)
         with open(self.path, encoding="utf-8") as fh:
             self.assertEqual(len(fh.read().splitlines()), 2)
+
+    def test_identical_replay_after_reopen_is_already_claimed(self):
+        self.assertEqual(nb.ClaimsFile(self.path).claim(BLOCK_A, "order-1"), nb.MATCHED)
+        self.assertEqual(nb.ClaimsFile(self.path).claim(BLOCK_A, "order-1"), nb.ALREADY_CLAIMED)
+        with open(self.path, encoding="utf-8") as fh:
+            self.assertEqual(len(fh.read().splitlines()), 1)
+
+    def test_concurrent_processes_credit_one_claim(self):
+        ctx = multiprocessing.get_context("spawn")
+        start, results = ctx.Event(), ctx.Queue()
+        workers = [ctx.Process(target=_race_claim, args=(self.path, order, start, results))
+                   for order in ("order-1", "order-1", "order-2", None) * 2]
+        for w in workers:
+            w.start()
+        start.set()
+        verdicts = [results.get(timeout=60) for _ in workers]
+        for w in workers:
+            w.join(60)
+        self.assertEqual(verdicts.count(nb.MATCHED), 1, verdicts)
+        with open(self.path, encoding="utf-8") as fh:
+            self.assertEqual(len(fh.read().splitlines()), 1)
+
+    def test_concurrent_threads_credit_one_claim(self):
+        verdicts, start = [], threading.Barrier(8)
+
+        def worker():
+            start.wait()
+            verdicts.append(nb.ClaimsFile(self.path).claim(BLOCK_A, "order-1"))
+
+        threads = [threading.Thread(target=worker) for _ in range(8)]
+        for t in threads:
+            t.start()
+        for t in threads:
+            t.join()
+        self.assertEqual(sorted(verdicts), [nb.ALREADY_CLAIMED] * 7 + [nb.MATCHED])
+
+    def test_without_any_lock_claims_fail_closed(self):
+        with mock.patch.object(nb, "fcntl", None), mock.patch.object(nb, "msvcrt", None):
+            with self.assertRaises(nb.ClaimsLockError):
+                nb.ClaimsFile(self.path).claim(BLOCK_A, "order-1")
+        self.assertFalse(os.path.exists(self.path))
+
+    def test_without_fcntl_the_windows_lock_is_held(self):
+        calls = []
+
+        class FakeMsvcrt:
+            LK_LOCK, LK_UNLCK = 1, 0
+
+            @staticmethod
+            def locking(fd, mode, nbytes):
+                calls.append(mode)
+
+        with mock.patch.object(nb, "fcntl", None), mock.patch.object(nb, "msvcrt", FakeMsvcrt):
+            self.assertEqual(nb.ClaimsFile(self.path).claim(BLOCK_A, "order-1"), nb.MATCHED)
+            self.assertEqual(nb.ClaimsFile(self.path).claim(BLOCK_A, "order-1"), nb.ALREADY_CLAIMED)
+        self.assertEqual(calls, [1, 0, 1, 0])
 
     def test_damaged_complete_line_stops_instead_of_forgetting(self):
         with open(self.path, "w", encoding="utf-8") as fh:
@@ -178,6 +242,19 @@ class VerifyPaymentCliTests(unittest.TestCase):
         self.assertEqual(self.run_cli(args, send_block())[:2], (0, "OK %d raw to %s" % (PRICE, PAY_TO)))
         args2 = [BLOCK_A, PAY_TO, str(PRICE), "--order-id", "order-2", "--claims-file", self.claims]
         self.assertEqual(self.run_cli(args2, send_block(order_id="order-2"))[:2], (1, "ALREADY_CLAIMED"))
+
+    def test_identical_replay_is_already_claimed(self):
+        args = [BLOCK_A, PAY_TO, str(PRICE), "--order-id", "order-1", "--claims-file", self.claims]
+        self.assertEqual(self.run_cli(args, send_block())[:2], (0, "OK %d raw to %s" % (PRICE, PAY_TO)))
+        self.assertEqual(self.run_cli(args, send_block())[:2], (1, "ALREADY_CLAIMED"))
+        self.assertEqual(self.run_cli(args, send_block())[:2], (1, "ALREADY_CLAIMED"))
+
+    def test_no_lock_is_an_error_not_an_ok(self):
+        args = [BLOCK_A, PAY_TO, str(PRICE), "--order-id", "order-1", "--claims-file", self.claims]
+        with mock.patch.object(nb, "fcntl", None), mock.patch.object(nb, "msvcrt", None):
+            code, out, _ = self.run_cli(args, send_block())
+        self.assertEqual(code, 2)
+        self.assertTrue(out.startswith("CLAIMS_FILE_ERROR"), out)
 
     def test_block_paying_another_order_is_refused(self):
         args = [BLOCK_A, PAY_TO, str(PRICE), "--order-id", "order-1"]

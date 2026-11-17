@@ -8,7 +8,8 @@ Optional, off unless given (see nano_binding.py, standard library only):
                       in raw to the address, carrying this order's
                       xno-binding v1 commitment as its representative
   --claims-file PATH  credit each block once, recorded on disk before exit 0,
-                      so a restart does not let an old block pay again
+                      so a restart does not let an old block pay again; any
+                      later claim of that block prints ALREADY_CLAIMED, exit 1
   --rpc URL           node to read from (default $NANO_RPC_URL or rpc.nano.to)
 """
 import argparse, json, os, sys, urllib.parse, urllib.request
@@ -89,7 +90,12 @@ def main(argv=None):
         if amount < expect_min_raw:
             print(f"AMOUNT_SHORT {amount}"); sys.exit(1)
     if args.claims_file is not None:
-        if nano_binding.ClaimsFile(args.claims_file).claim(block, args.order_id) != nano_binding.MATCHED:
+        # Only the first claim of a block is OK; a replay (same order or not) is refused.
+        try:
+            claimed = nano_binding.ClaimsFile(args.claims_file).claim(block, args.order_id)
+        except (nano_binding.ClaimsLockError, ValueError, OSError) as e:
+            print(f"CLAIMS_FILE_ERROR {e}"); sys.exit(2)
+        if claimed != nano_binding.MATCHED:
             print("ALREADY_CLAIMED"); sys.exit(1)
     print(f"OK {amount} raw to {addr}")
 
