@@ -12,6 +12,8 @@ framework: "MCP"
 tool_ecosystem:
   github_repo: "caura-ai/caura"
   github_stars: 559
+  npm_package: "@caura/client"
+  npm_weekly_downloads: 0
 ---
 
 # Verify shared and private fleet memory through Caura MCP

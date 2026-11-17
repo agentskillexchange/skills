@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "Cygnux-Labs/Tracekit"
   github_stars: 726
+  npm_package: "@cygnuxlabs/tracekit"
+  npm_weekly_downloads: 0
 ---
 
 # Verify signed agent-run evidence offline with Tracekit
