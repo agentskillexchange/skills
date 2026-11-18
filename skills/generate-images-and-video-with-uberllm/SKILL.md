@@ -24,11 +24,19 @@ clawhub install generate-images-and-video-with-uberllm
 
 ### Direct repo/manual install
 
-Clone the Agent Skill Exchange repository and copy this skill directory into the skill folder used by your agent runtime:
+Clone the Agent Skill Exchange repository and copy this skill directory into your agent runtime's skill folder. `SKILLS_DIR` below is the generic `~/.agent-skills`; set it to the path your runtime reads instead (for example `~/.claude/skills` for Claude Code personal skills). The commands create the folder if it is missing and stop if the skill is already there, so a second run cannot nest one copy inside the other:
 
 ```bash
+SKILLS_DIR="$HOME/.agent-skills"
+DEST="$SKILLS_DIR/generate-images-and-video-with-uberllm"
+
 git clone https://github.com/agentskillexchange/skills.git
-cp -R skills/skills/generate-images-and-video-with-uberllm ~/.agent-skills/generate-images-and-video-with-uberllm
+mkdir -p "$SKILLS_DIR"
+if [ -e "$DEST" ]; then
+  echo "already installed at $DEST; remove it first to reinstall" >&2
+else
+  cp -R skills/skills/generate-images-and-video-with-uberllm "$DEST"
+fi
 ```
 
 ### Optional Third-Party Installer
@@ -43,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 - Bash, `curl`, `jq`, `file` and `uuidgen`
 - An UberLLM API key (`ull_...`) exported as `UBERLLM_API_KEY`, from https://uberllm.dev/signup, and prepaid credit on the account
-- User approval for the selected model, payload and price before any billable request
+- User approval for the selected model, payload and a maximum total charge in US dollars before any billable request; that number is sent as `max_cost` in the request
 - A finite polling budget for video jobs and an explicit output path
 
 Never print the key, commit it, or include it in logs. Treat every image `POST` and every video job as billable. An image request that times out may still have been made and billed, so never retry an image `POST` automatically. A video job is different: it is started with an `Idempotency-Key`, and sending the same request with the same key again within 24 hours returns the same job instead of a second one.
@@ -97,7 +105,7 @@ jq . "$WORK/request.json"
 
 For a video, the same shape uses the schema's fields, for example `{model, prompt, duration_seconds: 5}` plus `image_url` for an image-to-video model.
 
-Send the same body with `"validate": true`. Nothing is made and nothing is charged; the answer says whether the request is valid, its listed price (`cost_usd`) and the most it can be billed (`max_cost_usd`). Use the route from the model's `endpoints`:
+Send the same body with `"validate": true`. Nothing is made and nothing is charged, and no price is reserved; the answer says whether the request is valid, its listed price (`cost_usd`, an estimate: you pay what the provider charged, which can differ) and what is held while it runs (`max_cost_usd`, the most this request is billed at the time of the preview). Use the route from the model's `endpoints`:
 
 ```bash
 ROUTE=$(jq -er '.endpoints[0]' "$WORK/model.json")
@@ -113,11 +121,24 @@ jq '. + {validate: true}' "$WORK/request.json" \
 jq '{valid, model, cost_usd, max_cost_usd, unit, units, defaults_applied}' "$WORK/quote.json"
 ```
 
-Show the model ID, the quoted price and the complete payload to the user before submission when they have not already approved those details. To make the approved price a hard limit, add `"max_cost": <US dollars>` to the request; anything that could cost more is refused before it starts. Keep one creative variable per iteration so changes stay attributable.
+Show the model ID, the complete payload, the estimate (`cost_usd`) and the maximum (`max_cost_usd`) to the user, and get approval for one number: the most this request may cost in total, in US dollars. The estimate is not a limit, and the preview does not hold the price: prices and available providers can change before the real request. So write the approved maximum into the request as `max_cost` before any paid `POST`; a request that could cost more is refused before anything is spent:
+
+```bash
+APPROVED_MAX_USD='replace-with-the-amount-the-user-approved'   # e.g. the quoted max_cost_usd
+
+jq --arg max "$APPROVED_MAX_USD" \
+  '($max | tonumber) as $m | if $m > 0 then . + {max_cost: $m} else error("max_cost must be a positive number") end' \
+  "$WORK/request.json" > "$WORK/request.capped.json" && mv "$WORK/request.capped.json" "$WORK/request.json"
+
+jq -e '.max_cost | type == "number" and . > 0' "$WORK/request.json" >/dev/null \
+  || { echo "no approved max_cost in request.json; do not submit" >&2; exit 1; }
+```
+
+If the user approves less than what must be held when the request starts, the request is refused and nothing is charged. Report that and ask again; never raise `max_cost` without a new approval. To hold a listed price for 15 minutes instead, `POST /v1/quote` with the same body returns a `quote_id` and its `max_cost_usd`; send that `quote_id` with the request, and get a new approval if it answers `400 quote_expired`. Keep one creative variable per iteration so changes stay attributable.
 
 ## 3a. Make an image (one request)
 
-After approval, issue exactly one `POST`. Do not add `curl --retry` and do not wrap this command in a retry loop. The picture comes back in the answer:
+After approval, and with the approved `max_cost` in `request.json` (step 2), issue exactly one `POST`. Do not add `curl --retry` and do not wrap this command in a retry loop. The picture comes back in the answer:
 
 ```bash
 jq '. + {response_format: "url"}' "$WORK/request.json" \
@@ -136,7 +157,7 @@ jq '.usage' "$WORK/image.json"
 
 ## 3b. Make a video (one job, then poll with a finite budget)
 
-Start the job once with a new `Idempotency-Key` and keep that key with the job record:
+Start the job once, with the approved `max_cost` in `request.json` (step 2) and a new `Idempotency-Key`, and keep that key with the job record:
 
 ```bash
 IDEMPOTENCY_KEY=$(uuidgen)
@@ -153,7 +174,7 @@ JOB_ID=$(jq -er '.id | select(type == "string" and length > 0)' "$WORK/job.json"
 jq '{id, status, model, estimated_cost_usd, max_cost_usd}' "$WORK/job.json"
 ```
 
-If this call times out, send the identical request with the same `IDEMPOTENCY_KEY`: it returns the job that was already started, never a second one. Never resend with a new key unless the user approves a new job.
+If this call times out, send the identical `request.json` (same approved `max_cost`, unchanged) with the same `IDEMPOTENCY_KEY`: it returns the job that was already started, never a second one. Never resend with a new key unless the user approves a new job.
 
 Status `GET` requests may be repeated. Stop on every terminal state; `succeeded`, `failed`, `canceled` and `expired` are the only ones besides `queued` and `running`:
 
