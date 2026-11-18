@@ -12,6 +12,8 @@ framework: "MCP"
 tool_ecosystem:
   github_repo: "Zyrexnn/Cybermes"
   github_stars: 1026
+  npm_package: "cybermes-mcp"
+  npm_weekly_downloads: 359
 ---
 
 # Preflight Cybermes engagement scope rules over MCP
