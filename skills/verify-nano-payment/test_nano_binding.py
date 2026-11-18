@@ -5,6 +5,7 @@ Standard library only, no network:
 """
 import contextlib
 import io
+import json
 import multiprocessing
 import os
 import tempfile
@@ -144,6 +145,25 @@ class ClaimsFileTests(unittest.TestCase):
         self.assertEqual(nb.ClaimsFile(self.path).claim(BLOCK_B, "order-3"), nb.DUPLICATE)
         with open(self.path, encoding="utf-8") as fh:
             self.assertEqual(len(fh.read().splitlines()), 2)
+
+    def test_torn_tail_after_crlf_lines_keeps_every_complete_claim(self):
+        # Text-mode writes on Windows end lines in CRLF; repairing the torn
+        # tail must truncate at the real byte offset, not cut into line 2.
+        rows = [
+            json.dumps({"block": "A" * 64, "order": "order-A"}, sort_keys=True),
+            json.dumps({"block": "B" * 64, "order": "order-B"}, sort_keys=True),
+        ]
+        with open(self.path, "wb") as fh:
+            fh.write(("\r\n".join(rows) + "\r\n" + '{"block": "CCC').encode("utf-8"))
+        self.assertEqual(nb.ClaimsFile(self.path).claim("C" * 64, "order-C"), nb.MATCHED)
+        reopened = nb.ClaimsFile(self.path)
+        for block, order in (("A", "order-A"), ("B", "order-B"), ("C", "order-C")):
+            self.assertTrue(reopened.claimed(block * 64))
+            self.assertEqual(reopened.claim(block * 64, order), nb.ALREADY_CLAIMED)
+            self.assertEqual(reopened.claim(block * 64, "order-X"), nb.DUPLICATE)
+        self.assertEqual(nb.ClaimsFile(self.path).claim("D" * 64, "order-D"), nb.MATCHED)
+        with open(self.path, "rb") as fh:
+            self.assertEqual(len(fh.read().splitlines()), 4)
 
     def test_identical_replay_after_reopen_is_already_claimed(self):
         self.assertEqual(nb.ClaimsFile(self.path).claim(BLOCK_A, "order-1"), nb.MATCHED)

@@ -194,15 +194,20 @@ class ClaimsFile:
 
     def _read(self, fh):
         """Parse every complete line. A tail with no newline is a write cut
-        short by a crash before it was acknowledged; it is not a claim."""
+        short by a crash before it was acknowledged; it is not a claim.
+
+        The file is read as bytes, so the offset returned for the end of the
+        last complete line is the real on-disk offset even when lines end in
+        CRLF; truncating there never cuts into an acknowledged claim."""
         fh.seek(0)
         content = fh.read()
-        complete = content[: content.rfind("\n") + 1]
+        complete = content[: content.rfind(b"\n") + 1]
         by_block, by_order = {}, {}
-        for i, line in enumerate(complete.split("\n")):
-            if not line.strip():
-                continue
+        for i, raw in enumerate(complete.split(b"\n")):
             try:
+                line = raw.decode("utf-8").rstrip("\r")
+                if not line.strip():
+                    continue
                 row = json.loads(line)
                 block = normalize_block_hash(row["block"])
                 order = row.get("order")
@@ -213,7 +218,7 @@ class ClaimsFile:
             by_block[block] = order
             if order is not None:
                 by_order[order] = block
-        return by_block, by_order, len(complete.encode("utf-8")), len(content) != len(complete)
+        return by_block, by_order, len(complete), len(content) != len(complete)
 
     def claim(self, block_hash, order_id=None):
         block = normalize_block_hash(block_hash)
@@ -222,7 +227,7 @@ class ClaimsFile:
         if fcntl is None and msvcrt is None:
             raise ClaimsLockError("no file lock on this system (need fcntl or msvcrt); refusing to claim unlocked")
         fd = os.open(self.path, os.O_RDWR | os.O_CREAT | os.O_APPEND, 0o600)
-        with os.fdopen(fd, "r+", encoding="utf-8") as fh:
+        with os.fdopen(fd, "r+b") as fh:
             _lock(fh)
             try:
                 return self._claim_locked(fh, block, order_id)
@@ -239,7 +244,7 @@ class ClaimsFile:
             return DUPLICATE
         if torn_tail:
             fh.truncate(complete_bytes)
-        fh.write(json.dumps({"block": block, "order": order_id}, sort_keys=True) + "\n")
+        fh.write((json.dumps({"block": block, "order": order_id}, sort_keys=True) + "\n").encode("utf-8"))
         fh.flush()
         os.fsync(fh.fileno())
         return MATCHED
@@ -248,5 +253,5 @@ class ClaimsFile:
         block = normalize_block_hash(block_hash)
         if not os.path.exists(self.path):
             return False
-        with open(self.path, "r", encoding="utf-8") as fh:
+        with open(self.path, "rb") as fh:
             return block in self._read(fh)[0]
